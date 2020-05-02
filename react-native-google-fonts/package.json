@@ -1,0 +1,12 @@
+{
+  "name": "react-native-google-fonts",
+  "version": "0.0.0",
+  "description": "Use any of the 977 fonts (and their variants) from fonts.google.com in your Expo app.",
+  "main": "index.js",
+  "repository": "https://github.com/expo/google-fonts",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT",
+  "dependencies": {
+    "expo-google-fonts": "^0.0.0"
+  }
+}
