@@ -1,13 +1,29 @@
-/// Generates the `GoogleFonts` class.
-
 let crypto = require('crypto');
 let fs = require('fs');
 let path = require('path');
 
 let cliProgress = require('cli-progress');
 let fetch = require('cross-fetch');
+let fsExtra = require('fs-extra');
 let letfPad = require('left-pad');
 let protocolBuffers = require('protocol-buffers');
+
+let fontAssetsDir = path.join(__dirname, '..', '..', 'font-assets');
+let fontPackagesDir = path.join(__dirname, '..', '..', 'font-pacakges');
+
+let packageVersion = require('../../package.json').version;
+
+let WeightNames = {
+  '100': 'Thin',
+  '200': 'ExtraLight',
+  '300': 'Light',
+  '400': 'Regular',
+  '500': 'Medium',
+  '600': 'SemiBold',
+  '700': 'Bold',
+  '800': 'ExtraBold',
+  '900': 'Black',
+};
 
 async function main({ verify } = { verify: true }) {
   console.log('Getting latest font directory...');
@@ -17,7 +33,7 @@ async function main({ verify } = { verify: true }) {
   let fontDirectory = await _readFontsProtoData(protoUrl);
   if (verify) {
     console.log('Validating font URLs and file contents...');
-    await _verifyUrls(fontDirectory);
+    // await _verifyUrls(fontDirectory);
     console.log('done.');
   } else {
     console.log('Skipping validation of font URLs and file contents.');
@@ -80,29 +96,42 @@ async function _generateJSCode(fontDirectory) {
  * Instead, modify the generation code there and re-run it.
  */
 
- import { useFont } from '@use-expo/font';
+import { useState } from 'react';
+import * as Font from 'expo-font';
+
+export function useGoogleFonts(googleFontsList) {
+
+  let fontMap = {};
+
+  for (let googleFont of googleFontsList) {
+    Object.assign(fontMap, googleFont);
+  }
+
+  let [fontsLoaded, setFontsLoaded] = useState(false);
+
+  (async () => {
+    await Font.loadAsync(fontMap);
+    setFontsLoaded(true);
+  })();
+
+  return [fontsLoaded];
+
+}
+
+
 
 `;
+  let fontIdentifierUrls = {};
+  let GoogleFonts = {};
   for (let family of fontDirectory.family) {
     let familyName = family.name.replace(/\s+/g, '_');
     for (let font of family.fonts) {
       let ttfUrl = _urlForFont(font);
-      let weights = {
-        '100': 'Thin',
-        '200': 'ExtraLight',
-        '300': 'Light',
-        '400': 'Regular',
-        '500': 'Medium',
-        '600': 'SemiBold',
-        '700': 'Bold',
-        '800': 'ExtraBold',
-        '900': 'Black',
-      };
       let weightNumber = font.weight.start;
-      let weightName = weights[weightNumber];
-      let weightPart = '' + weightName + weightNumber;
+      let weightName = WeightNames[weightNumber];
       let fontIdentifier = _spacesToUnderscores(familyName);
-      // let fontIdentifierNumber = fontIdentifier;
+
+      let weightPart = '' + weightName + weightNumber;
       if (weightPart) {
         fontIdentifier += '_' + weightPart;
       }
@@ -110,32 +139,22 @@ async function _generateJSCode(fontDirectory) {
       if (isItalic) {
         fontIdentifier += '_Italic';
       }
-      // if (weightName !== weightNumber + '') {
-      //   fontIdentifierNumber += '_' + weightNumber;
-      //   if (isItalic) {
-      //     fontIdentifierNumber += '_Italic';
-      //   }
-      // } else {
-      //   fontIdentifierNumber = null;
-      // }
-      let hookName = 'useGoogleFont_' + fontIdentifier;
-      let arg = { [fontIdentifier]: ttfUrl };
-
-      code += `export let ${hookName} = (fontFamily) => useFonts({[fontFamily ?? ${JSON.stringify(
-        fontIdentifier
-      )}]: ${JSON.stringify(ttfUrl)}});\n`;
-      //       if (fontIdentifierNumber) {
-      //         code += `
-      // export let useGoogleFont_${fontIdentifierNumber} = ${hookName};
-      //         `;
-      //       }
+      // code += `GoogleFonts[${JSON.stringify(fontIdentifier)}] = ${JSON.stringify([
+      //   fontIdentifier,
+      //   ttfUrl,
+      // ])}`;
+      code += `export let ${fontIdentifier} = ${JSON.stringify({ [fontIdentifier]: ttfUrl })};\n`;
     }
   }
+
   return code;
 }
 
+function filenameForFont(font) {
+  return `${_hashToString(font.file.hash)}.ttf`;
+}
 function _urlForFont(font) {
-  return `https://fonts.gstatic.com/s/a/${_hashToString(font.file.hash)}.ttf`;
+  return `https://fonts.gstatic.com/s/a/${filenameForFont(font)}`;
 }
 
 async function _verifyUrls(fontDirectory) {
@@ -202,6 +221,140 @@ async function _tryUrl(url, font) {
   }
 }
 
+async function downloadFont(url, font) {
+  try {
+    let response = await fetch(url);
+    let fileContents = await response.buffer();
+    let actualFileLength = fileContents.byteLength;
+    let hash = crypto.createHash('sha256');
+    hash.update(fileContents);
+    let actualFileHash = hash.digest('hex');
+    if (font.file.file_size !== actualFileLength) {
+      throw new Error(
+        `Font from ${url} did not match length\nfont.file.file_size=${font.file.file_size} actualFileLength=${actualFileLength}`
+      );
+    }
+    if (_hashToString(font.file.hash) !== actualFileHash) {
+      throw new Error(
+        `Font from ${url} did not match checksum\nfont.file.hash=${font.file.hash}\nactualFileHash=${actualFileHash}`
+      );
+    }
+
+    let filename = filenameForFont(font);
+    let outputFilePath = path.join(fontAssetsDir, filename);
+    await fs.promises.writeFile(outputFilePath, fileContents);
+  } catch (e) {
+    console.error(`Failed to load font from ${url}\n${e}`);
+    throw e;
+  }
+}
+
+async function isFontDownloaded(font) {
+  let filename = filenameForFont(font);
+  let fontPath = path.join(fontAssetsDir, filename);
+  if (!fs.existsSync(fontPath)) {
+    return false;
+  }
+
+  // TODO: Add some checking to verify the size and hash of the file (maybe?)
+  return true;
+}
+
+async function downloadAllFonts(fontDirectory) {
+  await fsExtra.ensureDir(fontAssetsDir);
+
+  let totalFonts = 0;
+  for (let family of fontDirectory.family) {
+    totalFonts += family.fonts.length;
+  }
+
+  // TODO: We could probably parallelize these network requests and do
+  // something like 4 - 10 at a time and this would be faster
+  let bar = new cliProgress.SingleBar(
+    {
+      format: ' {bar} {percentage}% | ETA: {eta}s | {value}/{total} | {fontFamily}',
+      clearOnComplete: true,
+    },
+    cliProgress.Presets.shades_classic
+  );
+  bar.start(totalFonts, 0);
+  try {
+    let i = 0;
+    for (let family of fontDirectory.family) {
+      for (let font of family.fonts) {
+        if (!(await isFontDownloaded(font))) {
+          let urlString = _urlForFont(font);
+          await downloadFont(urlString, font);
+        }
+        i++;
+        bar.update(i, { fontFamily: family.name });
+      }
+    }
+  } catch (e) {
+    throw e;
+  } finally {
+    bar.stop();
+  }
+
+  return { totalFonts };
+}
+
+async function generateAllFontFamilyPackages(fontDirectory) {
+  await fsExtra.emptyDir(fontPackagesDir);
+
+  for (let family of fontDirectory.family) {
+    let pn = packageNameForFamily(family);
+    let pkgDir = path.join(fontPackagesDir, pn);
+    await fsExtra.emptyDir(pkgDir);
+    await fs.write(
+      path.join(pkgDir, 'package.json'),
+      JSON.stringify({
+        name: pn,
+        version: packageVersion,
+        description: 'Desc',
+        main: 'index.js',
+        repository: 'https://github.com/expo/google-fonts.git',
+        author: 'Expo Team <team@expo.io>',
+        license: 'MIT',
+      }),
+      'utf8'
+    );
+    for (let font of family.fonts) {
+    }
+  }
+}
+
+function packageNameForFamily(family) {
+  return family.name
+    .toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/g, '');
+}
+
+function varNameForFont(font) {
+  let weightNumber = font.weight.start;
+  let weightName = WeightNames[weightNumber] || '';
+  let fontIdentifier = _spacesToUnderscores(familyName);
+
+  let weightPart = '' + weightName + weightNumber;
+  if (weightPart) {
+    fontIdentifier += '_' + weightPart;
+  }
+  let isItalic = font.italic.start === 1;
+  if (isItalic) {
+    fontIdentifier += '_Italic';
+  }
+  return fontIdentifier;
+}
+
+async function generateFontFamilyPackage(family) {
+  let packageName = packageNameForFamily(family);
+  let packageDir = path.join(fontPackagesDir, packageName);
+  rimraf;
+  for (let font of family.fonts) {
+  }
+}
+
 function _hashToString(bytes) {
   return bytes.toString('hex');
 }
@@ -239,16 +392,31 @@ async function __getPb() {
 
 async function test() {
   let d = await __getDirectory();
-  let c = _generateJSCode(d);
-  console.log(_generateJSCode(d));
-  return c;
-  // return _verifyUrls(await __getDirectory());
-  return null;
+  return await downloadAllFonts(d);
+  // let c = _generateJSCode(d);
+  // console.log(_generateJSCode(d));
+  // return c;
+  // // return _verifyUrls(await __getDirectory());
+  // return null;
 }
 
 async function __getDirectory() {
   let pu = await _getProtoUrl();
   return _readFontsProtoData(pu);
+}
+
+async function checkFor400() {
+  let directory = await __getDirectory();
+  for (let family of directory.family) {
+    let found400 = false;
+    for (let font of family.fonts) {
+      let w = font.weight.start;
+      if (w === 400) {
+        found400 = true;
+        break;
+      }
+    }
+  }
 }
 
 async function __getCode() {
@@ -267,4 +435,17 @@ module.exports = {
   _hashToString,
   _tryUrl,
   _familyToMethodName,
+  checkFor400,
+  downloadAllFonts,
+  downloadFont,
+  _urlForFont,
+  packageNameForFamily,
+  generateAllFontFamilyPackages,
+  generateFontFamilyPackage,
 };
+
+if (require.main === module) {
+  (async () => {
+    await main();
+  })();
+}

@@ -5,8 +5,5 @@
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts",
   "author": "Expo Team <team@expo.io>",
-  "license": "MIT",
-  "dependencies": {
-    "@use-expo/font": "^2.0.0"
-  }
+  "license": "MIT"
 }
