@@ -3,17 +3,17 @@ import { StyleSheet, Text, View } from 'react-native';
 import { useFonts } from '@use-expo/font';
 import { AppLoading } from 'expo';
 
-import { Limelight_Regular400 } from '@expo-google-fonts/limelight';
 import {
+  Limelight_Regular400,
   SourceSansPro_Bold700,
-  SourceSansPro_Regular400_Italic,
-} from '@expo-google-fonts/source-sans-pro';
+  Lato_Regular400_Italic,
+} from '@expo-google-fonts/dev';
 
 export default function App() {
   let [fontsLoaded] = useFonts({
     Limelight_Regular400,
     SourceSansPro_Bold700,
-    SourceSansPro_Regular400_Italic,
+    Lato_Regular400_Italic,
   });
 
   if (!fontsLoaded) {
@@ -27,8 +27,8 @@ export default function App() {
         <Text style={[styles.text, { fontFamily: 'SourceSansPro_Bold700' }]}>
           SourceSansPro_Bold700
         </Text>
-        <Text style={[styles.text, { fontFamily: 'SourceSansPro_Regular400_Italic' }]}>
-          SourceSansPro_Regular400_Italic
+        <Text style={[styles.text, { fontFamily: 'Lato_Regular400_Italic' }]}>
+          Lato_Regular400_Italic
         </Text>
         <Text style={[styles.text]}>Platform Default</Text>
       </View>
@@ -39,7 +39,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffddaa',
+    backgroundColor: '#ccccff',
     alignItems: 'center',
     justifyContent: 'center',
   },
