@@ -8,6 +8,10 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@expo-google-fonts/inter": "../font-packages/inter",
+    "@expo-google-fonts/limelight": "../font-packages/limelight",
+    "@expo-google-fonts/source-sans-pro": "../font-packages/source-sans-pro",
+    "@use-expo/font": "^2.0.0",
     "expo": "~37.0.3",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
