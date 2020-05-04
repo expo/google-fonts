@@ -4,11 +4,9 @@ import { useFonts } from '@use-expo/font';
 import { AppLoading } from 'expo';
 
 import { Limelight_Regular400 } from '@expo-google-fonts/limelight';
-import { Inter_Black900, Inter_ExtraLight200 } from '@expo-google-fonts/inter';
 import {
   SourceSansPro_Bold700,
   SourceSansPro_Regular400_Italic,
-  SourceSansPro_ExtraLight200,
 } from '@expo-google-fonts/source-sans-pro';
 
 let fontSize = 24;
@@ -16,10 +14,7 @@ let fontSize = 24;
 export default function App() {
   let [fontsLoaded] = useFonts({
     Limelight_Regular400,
-    Inter_Black900,
-    Inter_ExtraLight200,
     SourceSansPro_Bold700,
-    SourceSansPro_ExtraLight200,
     SourceSansPro_Regular400_Italic,
   });
 
@@ -29,15 +24,8 @@ export default function App() {
     return (
       <View style={styles.container}>
         <Text style={{ fontFamily: 'Limelight_Regular400', fontSize }}>Limelight_Regular400</Text>
-        <Text style={{ fontFamily: 'Inter_Black900', fontSize, fontWeight: '900' }}>
-          Inter_Black900
-        </Text>
-        <Text style={{ fontFamily: 'Inter_ExtraLight200', fontSize }}>Inter_ExtraLight200</Text>
         <Text style={{ fontFamily: 'SourceSansPro_Bold700', fontSize }}>
           SourceSansPro_Bold700
-        </Text>
-        <Text style={{ fontFamily: 'SourceSansPro_ExtraLight200', fontSize }}>
-          SourceSansPro_ExtraLight200
         </Text>
         <Text style={{ fontFamily: 'SourceSansPro_Regular400_Italic', fontSize }}>
           SourceSansPro_Regular400_Italic
