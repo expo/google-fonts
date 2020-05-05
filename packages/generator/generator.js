@@ -172,11 +172,108 @@ async function downloadAllFonts(fontDirectory) {
 }
 
 async function generateAllFontFamilyPackages(fontDirectory) {
-  await fsExtra.emptyDir(fontPackagesDir);
+  let familyCount = fontDirectory.family.length;
+  let bar = new cliProgress.SingleBar(
+    {
+      format: ' {bar} {percentage}% | ETA: {eta}s | {value}/{total} | {fontFamily}',
+      clearOnComplete: true,
+    },
+    cliProgress.Presets.shades_classic
+  );
+  try {
+    bar.start(familyCount, 0);
 
-  for (let family of fontDirectory.family) {
-    await generateFontFamilyPackage(family);
+    await fsExtra.emptyDir(fontPackagesDir);
+
+    let i = 0;
+    for (let family of fontDirectory.family) {
+      await generateFontFamilyPackage(family);
+      i++;
+      bar.update(i, { fontFamily: family.name });
+    }
+  } catch (e) {
+    throw e;
+  } finally {
+    bar.stop();
   }
+}
+
+async function generateReadmeForFamily(family) {
+  let familyUrl = `https://fonts.google.com/specimen/${family.name.replace(/ /g, '+')}`;
+  let packageName = _packageNameForFamily(family);
+  let fontStyleVars = family.fonts.map((font) => varNameForFont(font, family));
+
+  let jsExample = `
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import { AppLoading } from "expo";
+import { useFonts } from "@use-expo/font";
+import {${fontStyleVars.join(',')}} from '@expo-google-fonts/${packageName}';
+
+export default () => {
+
+  let [fontsLoaded] = useFonts({
+    ${fontStyleVars.join(',')}
+  });
+
+  let fontSize = 24;
+  let paddingVertical = 6;
+
+  if (!fontsLoaded) {
+    return <AppLoading />;
+  } else {
+    return (
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+      ${fontStyleVars
+        .map(
+          (fsv) => `
+        <Text style={{ fontSize, paddingVertical, fontFamily: ${JSON.stringify(
+          fsv
+        )} }}>${fsv}</Text>
+      `
+        )
+        .join('\n')}
+      </View>
+    );
+  }
+};
+
+  `;
+
+  let md = `# @expo-google-fonts/${packageName}
+
+This package lets you use the **${
+    family.name
+  }** font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
+
+## ${family.name}
+
+[${family.name} on Google Fonts](${familyUrl})
+
+The ${family.name} font family contains ${family.fonts.length} style${
+    family.fonts.length > 1 ? 's' : ''
+  }.
+
+${fontStyleVars.map((fsv) => '- `' + fsv + '`').join('\n')}
+
+## Usage
+
+Run this command frpm the shell to install the package in your project
+\`\`\`sh
+yarn add @expo-google-fonts/${packageName} expo-font @use-expo/font
+\`\`\`
+
+Now add code like this to your project
+\`\`\`js
+${prettier.format(jsExample, { ...PrettierOptions, parser: 'babel' })}
+\`\`\`
+
+
+*This file was generated. Instead of editing it by head, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator)*
+`;
+
+  return md;
 }
 
 function _packageNameForFamily(family) {
@@ -252,6 +349,12 @@ async function generateFontFamilyPackage(family) {
   );
 
   await fs.promises.writeFile(path.join(pkgDir, 'index.d.ts'), dts, 'utf8');
+
+  await fs.promises.writeFile(
+    path.join(pkgDir, 'README.md'),
+    await generateReadmeForFamily(family),
+    'utf8'
+  );
 }
 
 async function generateDevPackage(fontDirectory) {

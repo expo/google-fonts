@@ -1,5 +1,8 @@
 {
   "main": "generator.js",
+  "scripts": {
+    "generate": "node ."
+  },
   "dependencies": {
     "cli-progress": "^3.8.2",
     "cross-fetch": "^3.0.4",
