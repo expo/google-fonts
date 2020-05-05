@@ -16,7 +16,7 @@ let fontAssetsDir = path.join(__dirname, '..', '..', 'font-assets');
 let fontPackagesDir = path.join(__dirname, '..', '..', 'font-packages');
 let fontImagesDir = path.join(__dirname, '..', '..', 'font-images');
 let packageScope = '@expo-google-fonts/';
-let packageVersion = '0.0.0'; // require('../../package.json').version;
+let packageVersion = require('../../lerna.json').version;
 
 let WeightNames = {
   '100': 'Thin',
@@ -39,7 +39,7 @@ let PrettierOptions = {
   arrowParens: 'always',
 };
 
-async function main({ verify } = { verify: true }) {
+async function main({ images } = { images: true }) {
   console.log('Getting latest font directory...');
   let protoUrl = await _getProtoUrl();
   // console.log(`Got font directory. Using ${protoUrl}`);
@@ -50,9 +50,15 @@ async function main({ verify } = { verify: true }) {
   await downloadAllFonts(fontDirectory);
   console.log('done.');
 
+  if (images) {
+    console.log('Generating image previews for all fonts...');
+    await generateImagesForFonts(fontDirectory);
+    console.log('done.');
+  }
+
   console.log('Generating all font packages...');
   await generateAllFontFamilyPackages(fontDirectory);
-  console.log('done .');
+  console.log('done.');
 
   console.log('Generating dev font package...');
   await generateDevPackage(fontDirectory);
@@ -147,7 +153,7 @@ async function downloadAllFonts(fontDirectory) {
 
   let bar = new cliProgress.SingleBar(
     {
-      format: ' {bar} {percentage}% | ETA: {eta}s | {value}/{total} | {fontFamily}',
+      format: ' {bar} {percentage}% | ETA: {eta}s | {value}/{total} | {font}',
       clearOnComplete: true,
     },
     cliProgress.Presets.shades_classic
@@ -162,11 +168,15 @@ async function downloadAllFonts(fontDirectory) {
       for (let font of family.fonts) {
         if (!(await isFontDownloaded(font))) {
           let urlString = _urlForFont(font);
-          bar.update(i, { fontFamily: family.name });
-          await q.add(() => downloadFont(urlString, font));
           // await downloadFont(urlString, font);
+          let p = q.add(() => downloadFont(urlString, font));
+          p.font = varNameForFont(font, family);
+          (async () => {
+            await p;
+            i++;
+            bar.update(i, { font: p.font });
+          })();
         }
-        i++;
       }
     }
     await q.onEmpty();
@@ -188,6 +198,9 @@ async function generateAllFontFamilyPackages(fontDirectory) {
     },
     cliProgress.Presets.shades_classic
   );
+  let concurrency = Math.max(1, physicalCpuCount - 1);
+  let q = new PQueue({ concurrency });
+  let i = 0;
   try {
     bar.start(familyCount, 0);
 
@@ -195,10 +208,16 @@ async function generateAllFontFamilyPackages(fontDirectory) {
 
     let i = 0;
     for (let family of fontDirectory.family) {
-      await generateFontFamilyPackage(family);
-      i++;
-      bar.update(i, { fontFamily: family.name });
+      let p = q.add(() => generateFontFamilyPackage(family));
+      p.fontFamily = family.name;
+      (async () => {
+        await p;
+        i++;
+        bar.update(i, { fontFamily: p.fontFamily });
+      })();
+      // await generateFontFamilyPackage(family);
     }
+    await q.onEmpty();
   } catch (e) {
     throw e;
   } finally {
@@ -208,7 +227,7 @@ async function generateAllFontFamilyPackages(fontDirectory) {
 
 async function generateReadmeForFamily(family) {
   let familyUrl = `https://fonts.google.com/specimen/${family.name.replace(/ /g, '+')}`;
-  let packageName = _packageNameForFamily(family);
+  let packageName = getPackageNameForFamily(family);
   let fontStyleVars = family.fonts.map((font) => varNameForFont(font, family));
 
   let jsExample = `
@@ -251,23 +270,25 @@ export default () => {
 
   let md = `# @expo-google-fonts/${packageName}
 
-This package lets you use the **${
+This package lets you use the [**${
     family.name
-  }** font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
+  }**](${familyUrl}) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
+
+v${packageVersion}
 
 ## ${family.name}
 
-[${family.name} on Google Fonts](${familyUrl})
+![${family.name}](./font-family.png)
 
-The ${family.name} font family contains ${family.fonts.length} style${
+This font family contains [${family.fonts.length} style${
     family.fonts.length > 1 ? 's' : ''
-  }.
+  }](#gallery).
 
 ${fontStyleVars.map((fsv) => '- `' + fsv + '`').join('\n')}
 
 ## Usage
 
-Run this command frpm the shell to install the package in your project
+Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 \`\`\`sh
 yarn add @expo-google-fonts/${packageName} expo-font @use-expo/font
 \`\`\`
@@ -277,6 +298,36 @@ Now add code like this to your project
 ${prettier.format(jsExample, { ...PrettierOptions, parser: 'babel' })}
 \`\`\`
 
+## Gallery
+
+${family.fonts
+  .map((font) => {
+    let styleImagePath = './' + filenameForFont(font) + '.png';
+    let fi = varNameForFont(font, family);
+    return `##### ${fi}
+![${fi}](${styleImagePath})
+`;
+  })
+  .join('\n')}
+
+## Use During Development
+
+If you are trying out lots of different fonts, you can try using the [\`@expo-google-fonts/dev\` package](https://www.npmjs.com/package/@expo-google-fonts/dev).
+
+You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
+over the network at runtime instead of adding the asset as a file to your project, so it will be 
+less performant, and is not a good choice for most production deployments. But, it is extremely convenient
+for playing around with any style that you want.
+
+## Links
+
+- [${family.name} on Google Fonts](${familyUrl})
+- [Google Fonts](https://fonts.google.com/)
+- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/${packageName})
+- [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/${packageName})
+- [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
+- [\`@expo-google-fonts/dev\` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
+
 
 *This file was generated. Instead of editing it by head, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator)*
 `;
@@ -284,7 +335,7 @@ ${prettier.format(jsExample, { ...PrettierOptions, parser: 'babel' })}
   return md;
 }
 
-function _packageNameForFamily(family) {
+function getPackageNameForFamily(family) {
   return family.name
     .toLowerCase()
     .replace(/\s+/g, '-')
@@ -312,7 +363,7 @@ function varNameForFont(font, family) {
 }
 
 async function generateFontFamilyPackage(family) {
-  let packageName = _packageNameForFamily(family);
+  let packageName = getPackageNameForFamily(family);
 
   let pkgDir = path.join(fontPackagesDir, packageName);
   await fsExtra.emptyDir(pkgDir);
@@ -327,9 +378,19 @@ async function generateFontFamilyPackage(family) {
         repository: 'https://github.com/expo/google-fonts.git',
         author: 'Expo Team <team@expo.io>',
         license: 'MIT',
+        publishConfig: {
+          access: 'public',
+        },
       }),
       { ...PrettierOptions, parser: 'json' }
     ),
+    'utf8'
+  );
+
+  // Add a .prettierrc file to this package
+  await fs.promises.writeFile(
+    path.join(pkgDir, '.prettierrc'),
+    prettier.format(JSON.stringify(PrettierOptions), { ...PrettierOptions, parser: 'json' }),
     'utf8'
   );
 
@@ -348,6 +409,7 @@ async function generateFontFamilyPackage(family) {
     code += `export const ${v} = require(${JSON.stringify('./' + ffn)});\n`;
     dts += `export const ${v}: number;\n`;
     await fs.promises.link(path.join(fontAssetsDir, ffn), path.join(pkgDir, ffn));
+    await fs.promises.link(path.join(fontImagesDir, ffn + '.png'), path.join(pkgDir, ffn + '.png'));
   }
 
   await fs.promises.writeFile(
@@ -363,6 +425,19 @@ async function generateFontFamilyPackage(family) {
     await generateReadmeForFamily(family),
     'utf8'
   );
+
+  let packageImageFilePath = path.join(pkgDir, 'font-family.png');
+  try {
+    await generatePackageImage(packageImageFilePath, family);
+  } catch (e) {
+    // TODO: Maybe log an error?
+  }
+}
+
+async function generatePackageImage(outputFilePath, family) {
+  let font = getStandardFontForFamily(family);
+  let name = family.name;
+  await generatePng(outputFilePath, name, font, family, 96);
 }
 
 async function generateDevPackage(fontDirectory) {
@@ -448,7 +523,7 @@ async function generateImagesForFonts(fontDirectory) {
   }
 
   let concurrency = Math.max(physicalCpuCount - 1, 1);
-  console.log({ concurrency });
+  console.log(`Generating ${concurrency} images at a time`);
 
   let bar = new cliProgress.SingleBar(
     {
@@ -457,17 +532,31 @@ async function generateImagesForFonts(fontDirectory) {
     },
     cliProgress.Presets.shades_classic
   );
+  let errors = [];
   try {
     bar.start(totalFonts, 0);
     let q = new PQueue({ concurrency });
+    let i = 0;
+    // q.on('active', () => {
+    //   i++;
+    //   bar.update(i, { fontFamily: '?' });
+    // });
 
     await fsExtra.emptyDir(fontImagesDir);
-    let i = 0;
     for (let family of fontDirectory.family) {
       for (let font of family.fonts) {
-        bar.update(i, { fontFamily: family.name });
-        await q.add(() => generateImageForFont(font, family));
-        i++;
+        let p = q.add(() => generateImageForFont(font, family));
+        p.font = varNameForFont(font, family);
+        (async () => {
+          try {
+            await p;
+          } catch (e) {
+            errors.push([p.font, e]);
+          } finally {
+            i++;
+            bar.update(i, { fontFamily: p.font });
+          }
+        })();
       }
     }
     await q.onEmpty();
@@ -475,6 +564,9 @@ async function generateImagesForFonts(fontDirectory) {
     throw e;
   } finally {
     bar.stop();
+  }
+  if (errors.length > 0) {
+    console.error('Image Generation Errors:\n' + errors.map((x) => x[0]).join(', '));
   }
 }
 
@@ -506,12 +598,48 @@ async function generateImageForFont(font, family, outputFilePath) {
   // -pointsize 40 -density 300 label:"It was funny going along that road.\nThat was when I was a kitchen corporal." z.png
 
   // let font = family.fonts[0];
+  // let fill = 'black';
+  // let background = 'none';
+  // let fontFilePath = path.join(fontAssetsDir, filenameForFont(font));
+  // let density = 144;
+  // let pointsize = 28;
+  outputFilePath = outputFilePath || path.join(fontImagesDir, filenameForFont(font) + '.png');
+  // let args = [
+  //   '-background',
+  //   background,
+  //   '-fill',
+  //   fill,
+  //   '-font',
+  //   fontFilePath,
+  //   '-pointsize',
+  //   '' + pointsize,
+  //   '-density',
+  //   '' + density,
+  //   'label:' + phrase,
+  //   outputFilePath,
+  // ];
+  // // console.log(args);
+  // // Use try/catch because there is always an error here:
+  // //  ███████████████████████████░░░░░░░░░░░░░ 66% | ETA: 284s | 1839/2774 | Noto Co0
+  // // with Noto Color Emoji
+  // try {
+  //   await spawnAsync('./magick', args);
+  // } catch (e) {
+  //   // console.error(e);
+  //   // console.error('Failed to generate image for ' + varNameForFont(font, family));
+  //   await fs.promises.link('./empty.png', outputFilePath);
+  //   throw e;
+  // }
+  await generatePng(outputFilePath, phrase, font, family, 40);
+}
+
+async function generatePng(outputFilePath, text, font, family, pointsize) {
+  // TODO: Add padding to these images so that they don't cut off parts of fonts that
+  // extend past the normal bounding box. See the 'A' in Allan for an example.
   let fill = 'black';
   let background = 'none';
   let fontFilePath = path.join(fontAssetsDir, filenameForFont(font));
-  let density = 144;
-  let pointsize = 28;
-  outputFilePath = outputFilePath || path.join(fontImagesDir, filenameForFont(font) + '.png');
+  pointsize = pointsize || 40;
   let args = [
     '-background',
     background,
@@ -521,9 +649,9 @@ async function generateImageForFont(font, family, outputFilePath) {
     fontFilePath,
     '-pointsize',
     '' + pointsize,
-    '-density',
-    '' + density,
-    'label:' + phrase,
+    // '-density',
+    // '' + density,
+    'label:' + text,
     outputFilePath,
   ];
   // console.log(args);
@@ -534,9 +662,20 @@ async function generateImageForFont(font, family, outputFilePath) {
     await spawnAsync('./magick', args);
   } catch (e) {
     // console.error(e);
-    console.error('Failed to generate image for ' + varNameForFont(font, family));
+    // console.error('Failed to generate image for ' + varNameForFont(font, family));
     await fs.promises.link('./empty.png', outputFilePath);
+    throw e;
   }
+}
+
+function getStandardFontForFamily(family) {
+  let standard = family.fonts[0];
+  for (let font of family.fonts) {
+    if (font.weight.start === 400) {
+      standard = font;
+    }
+  }
+  return standard;
 }
 
 async function __getPb() {
@@ -546,27 +685,27 @@ async function __getPb() {
   return pb;
 }
 
-async function _getDirectory() {
+async function getDirectory() {
   let pu = await _getProtoUrl();
   return _readFontsProtoData(pu);
 }
 
 async function test(n = 0, n2 = 0) {
-  let d = await _getDirectory();
+  let d = await getDirectory();
   let family = d.family[n];
   let font = family.fonts[n2];
   await generateImageForFont(font, family, './z.png');
 }
 
 async function test2() {
-  let fontDirectory = await _getDirectory();
+  let fontDirectory = await getDirectory();
   await generateImagesForFonts(fontDirectory);
 }
 
 module.exports = {
   test,
   test2,
-  _getDirectory,
+  getDirectory,
   _getProtoUrl,
   _readFontsProtoData,
   main,
@@ -576,10 +715,11 @@ module.exports = {
   downloadAllFonts,
   downloadFont,
   _urlForFont,
-  _packageNameForFamily,
+  getPackageNameForFamily,
   generateAllFontFamilyPackages,
   generateFontFamilyPackage,
   generateImagesForFonts,
+  fontPackagesDir,
 };
 
 if (require.main === module) {

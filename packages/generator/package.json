@@ -1,7 +1,9 @@
 {
   "main": "generator.js",
   "scripts": {
-    "generate": "node ."
+    "generate": "node .",
+    "generate-images": "node build-images.js",
+    "generate-packages": "node build-packages.js"
   },
   "dependencies": {
     "@expo/spawn-async": "^1.5.0",
