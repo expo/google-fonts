@@ -1,0 +1,10 @@
+{
+  "name": "@expo-google-fonts/press-start-2p",
+  "version": "0.0.2",
+  "description": "Use the Press Start 2P font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": "https://github.com/expo/google-fonts.git",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT",
+  "publishConfig": { "access": "public" }
+}

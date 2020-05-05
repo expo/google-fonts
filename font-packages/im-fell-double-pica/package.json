@@ -1,0 +1,10 @@
+{
+  "name": "@expo-google-fonts/im-fell-double-pica",
+  "version": "0.0.2",
+  "description": "Use the IM Fell Double Pica font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": "https://github.com/expo/google-fonts.git",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT",
+  "publishConfig": { "access": "public" }
+}

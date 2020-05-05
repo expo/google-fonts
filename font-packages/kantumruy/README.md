@@ -1,0 +1,101 @@
+# @expo-google-fonts/kantumruy
+
+This package lets you use the [**Kantumruy**](https://fonts.google.com/specimen/Kantumruy) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
+
+v0.0.2
+
+## Kantumruy
+
+![Kantumruy](./font-family.png)
+
+This font family contains [3 styles](#gallery).
+
+- `Kantumruy_Light300`
+- `Kantumruy_Regular400`
+- `Kantumruy_Bold700`
+
+## Usage
+
+Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+```sh
+yarn add @expo-google-fonts/kantumruy expo-font @use-expo/font
+```
+
+Now add code like this to your project
+```js
+import React, { useState, useEffect } from 'react';
+
+import { Text, View, StyleSheet } from 'react-native';
+import { AppLoading } from 'expo';
+import { useFonts } from '@use-expo/font';
+import {
+  Kantumruy_Light300,
+  Kantumruy_Regular400,
+  Kantumruy_Bold700,
+} from '@expo-google-fonts/kantumruy';
+
+export default () => {
+  let [fontsLoaded] = useFonts({
+    Kantumruy_Light300,
+    Kantumruy_Regular400,
+    Kantumruy_Bold700,
+  });
+
+  let fontSize = 24;
+  let paddingVertical = 6;
+
+  if (!fontsLoaded) {
+    return <AppLoading />;
+  } else {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kantumruy_Light300' }}>
+          Kantumruy_Light300
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kantumruy_Regular400' }}>
+          Kantumruy_Regular400
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kantumruy_Bold700' }}>
+          Kantumruy_Bold700
+        </Text>
+      </View>
+    );
+  }
+};
+
+```
+
+## Gallery
+
+##### Kantumruy_Light300
+![Kantumruy_Light300](./b1d181333c6beb8df855376481f36dcaa1e27f9c6fe7ba0c990035a73aca6686.ttf.png)
+
+##### Kantumruy_Regular400
+![Kantumruy_Regular400](./9b0483d5bc7f567f83bda10131a033929865349c666f585d4feaa69600a60802.ttf.png)
+
+##### Kantumruy_Bold700
+![Kantumruy_Bold700](./6e6b33a5b9d03c7ed3f4e94d9704262ca70dc513ac1f129964f79ccddba04e06.ttf.png)
+
+
+## Use During Development
+
+If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://www.npmjs.com/package/@expo-google-fonts/dev).
+
+You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
+over the network at runtime instead of adding the asset as a file to your project, so it will be 
+less performant, and is not a good choice for most production deployments. But, it is extremely convenient
+for playing around with any style that you want.
+
+## Links
+
+- [Kantumruy on Google Fonts](https://fonts.google.com/specimen/Kantumruy)
+- [Google Fonts](https://fonts.google.com/)
+- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/kantumruy)
+- [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/kantumruy)
+- [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
+- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
+
+
+*This file was generated. Instead of editing it by head, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator)*

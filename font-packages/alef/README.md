@@ -1,0 +1,86 @@
+# @expo-google-fonts/alef
+
+This package lets you use the [**Alef**](https://fonts.google.com/specimen/Alef) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
+
+v0.0.2
+
+## Alef
+
+![Alef](./font-family.png)
+
+This font family contains [2 styles](#gallery).
+
+- `Alef_Regular400`
+- `Alef_Bold700`
+
+## Usage
+
+Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+```sh
+yarn add @expo-google-fonts/alef expo-font @use-expo/font
+```
+
+Now add code like this to your project
+```js
+import React, { useState, useEffect } from 'react';
+
+import { Text, View, StyleSheet } from 'react-native';
+import { AppLoading } from 'expo';
+import { useFonts } from '@use-expo/font';
+import { Alef_Regular400, Alef_Bold700 } from '@expo-google-fonts/alef';
+
+export default () => {
+  let [fontsLoaded] = useFonts({
+    Alef_Regular400,
+    Alef_Bold700,
+  });
+
+  let fontSize = 24;
+  let paddingVertical = 6;
+
+  if (!fontsLoaded) {
+    return <AppLoading />;
+  } else {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Alef_Regular400' }}>
+          Alef_Regular400
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Alef_Bold700' }}>Alef_Bold700</Text>
+      </View>
+    );
+  }
+};
+
+```
+
+## Gallery
+
+##### Alef_Regular400
+![Alef_Regular400](./a50dedb5215d98f65036893675ded42762d4c7bdae624c71adb1ea584f5a1467.ttf.png)
+
+##### Alef_Bold700
+![Alef_Bold700](./acbe7d381fcdbd3bca38351290cba306a1dde6549d74fbdef431ee9fcb60030d.ttf.png)
+
+
+## Use During Development
+
+If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://www.npmjs.com/package/@expo-google-fonts/dev).
+
+You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
+over the network at runtime instead of adding the asset as a file to your project, so it will be 
+less performant, and is not a good choice for most production deployments. But, it is extremely convenient
+for playing around with any style that you want.
+
+## Links
+
+- [Alef on Google Fonts](https://fonts.google.com/specimen/Alef)
+- [Google Fonts](https://fonts.google.com/)
+- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/alef)
+- [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/alef)
+- [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
+- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
+
+
+*This file was generated. Instead of editing it by head, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator)*

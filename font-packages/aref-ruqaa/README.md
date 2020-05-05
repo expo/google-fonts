@@ -1,0 +1,88 @@
+# @expo-google-fonts/aref-ruqaa
+
+This package lets you use the [**Aref Ruqaa**](https://fonts.google.com/specimen/Aref+Ruqaa) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
+
+v0.0.2
+
+## Aref Ruqaa
+
+![Aref Ruqaa](./font-family.png)
+
+This font family contains [2 styles](#gallery).
+
+- `ArefRuqaa_Regular400`
+- `ArefRuqaa_Bold700`
+
+## Usage
+
+Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+```sh
+yarn add @expo-google-fonts/aref-ruqaa expo-font @use-expo/font
+```
+
+Now add code like this to your project
+```js
+import React, { useState, useEffect } from 'react';
+
+import { Text, View, StyleSheet } from 'react-native';
+import { AppLoading } from 'expo';
+import { useFonts } from '@use-expo/font';
+import { ArefRuqaa_Regular400, ArefRuqaa_Bold700 } from '@expo-google-fonts/aref-ruqaa';
+
+export default () => {
+  let [fontsLoaded] = useFonts({
+    ArefRuqaa_Regular400,
+    ArefRuqaa_Bold700,
+  });
+
+  let fontSize = 24;
+  let paddingVertical = 6;
+
+  if (!fontsLoaded) {
+    return <AppLoading />;
+  } else {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArefRuqaa_Regular400' }}>
+          ArefRuqaa_Regular400
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArefRuqaa_Bold700' }}>
+          ArefRuqaa_Bold700
+        </Text>
+      </View>
+    );
+  }
+};
+
+```
+
+## Gallery
+
+##### ArefRuqaa_Regular400
+![ArefRuqaa_Regular400](./483d6ce42473c62a61b38dc4e30c6b1a5d9b02921ab5034c8eec4b8f0496127d.ttf.png)
+
+##### ArefRuqaa_Bold700
+![ArefRuqaa_Bold700](./4ea198095e22fea5b0b08338b3b524a2ac489bd669154eab1927955f20124358.ttf.png)
+
+
+## Use During Development
+
+If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://www.npmjs.com/package/@expo-google-fonts/dev).
+
+You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
+over the network at runtime instead of adding the asset as a file to your project, so it will be 
+less performant, and is not a good choice for most production deployments. But, it is extremely convenient
+for playing around with any style that you want.
+
+## Links
+
+- [Aref Ruqaa on Google Fonts](https://fonts.google.com/specimen/Aref+Ruqaa)
+- [Google Fonts](https://fonts.google.com/)
+- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/aref-ruqaa)
+- [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/aref-ruqaa)
+- [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
+- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
+
+
+*This file was generated. Instead of editing it by head, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator)*

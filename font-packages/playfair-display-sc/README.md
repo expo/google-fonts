@@ -1,0 +1,133 @@
+# @expo-google-fonts/playfair-display-sc
+
+This package lets you use the [**Playfair Display SC**](https://fonts.google.com/specimen/Playfair+Display+SC) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
+
+v0.0.2
+
+## Playfair Display SC
+
+![Playfair Display SC](./font-family.png)
+
+This font family contains [6 styles](#gallery).
+
+- `PlayfairDisplaySC_Regular400`
+- `PlayfairDisplaySC_Regular400_Italic`
+- `PlayfairDisplaySC_Bold700`
+- `PlayfairDisplaySC_Bold700_Italic`
+- `PlayfairDisplaySC_Black900`
+- `PlayfairDisplaySC_Black900_Italic`
+
+## Usage
+
+Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+```sh
+yarn add @expo-google-fonts/playfair-display-sc expo-font @use-expo/font
+```
+
+Now add code like this to your project
+```js
+import React, { useState, useEffect } from 'react';
+
+import { Text, View, StyleSheet } from 'react-native';
+import { AppLoading } from 'expo';
+import { useFonts } from '@use-expo/font';
+import {
+  PlayfairDisplaySC_Regular400,
+  PlayfairDisplaySC_Regular400_Italic,
+  PlayfairDisplaySC_Bold700,
+  PlayfairDisplaySC_Bold700_Italic,
+  PlayfairDisplaySC_Black900,
+  PlayfairDisplaySC_Black900_Italic,
+} from '@expo-google-fonts/playfair-display-sc';
+
+export default () => {
+  let [fontsLoaded] = useFonts({
+    PlayfairDisplaySC_Regular400,
+    PlayfairDisplaySC_Regular400_Italic,
+    PlayfairDisplaySC_Bold700,
+    PlayfairDisplaySC_Bold700_Italic,
+    PlayfairDisplaySC_Black900,
+    PlayfairDisplaySC_Black900_Italic,
+  });
+
+  let fontSize = 24;
+  let paddingVertical = 6;
+
+  if (!fontsLoaded) {
+    return <AppLoading />;
+  } else {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplaySC_Regular400' }}>
+          PlayfairDisplaySC_Regular400
+        </Text>
+
+        <Text
+          style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplaySC_Regular400_Italic' }}>
+          PlayfairDisplaySC_Regular400_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplaySC_Bold700' }}>
+          PlayfairDisplaySC_Bold700
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplaySC_Bold700_Italic' }}>
+          PlayfairDisplaySC_Bold700_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplaySC_Black900' }}>
+          PlayfairDisplaySC_Black900
+        </Text>
+
+        <Text
+          style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplaySC_Black900_Italic' }}>
+          PlayfairDisplaySC_Black900_Italic
+        </Text>
+      </View>
+    );
+  }
+};
+
+```
+
+## Gallery
+
+##### PlayfairDisplaySC_Regular400
+![PlayfairDisplaySC_Regular400](./b4e28ec5aef07315383b9ec24d14cafd9f9e82652f0907ffa96bc78936a2bcf3.ttf.png)
+
+##### PlayfairDisplaySC_Regular400_Italic
+![PlayfairDisplaySC_Regular400_Italic](./fdba2100fec23dad94f0b77ea42bd7fe1e70cb13c977ff4097bee8f4a5d3deb2.ttf.png)
+
+##### PlayfairDisplaySC_Bold700
+![PlayfairDisplaySC_Bold700](./6e248f16fb366b22ece90b547726b0fa0844647d39802ca9bf4509e2c994973e.ttf.png)
+
+##### PlayfairDisplaySC_Bold700_Italic
+![PlayfairDisplaySC_Bold700_Italic](./40348910c72e109930f4b7b7beac71da6dbd2154ab6e19342f6403cfb39799b8.ttf.png)
+
+##### PlayfairDisplaySC_Black900
+![PlayfairDisplaySC_Black900](./76b7867b75532041e0acff80523482c84138383984e6e03047bbcdf82664edaf.ttf.png)
+
+##### PlayfairDisplaySC_Black900_Italic
+![PlayfairDisplaySC_Black900_Italic](./2bd6dd3db89e38a5d8e179e638978bc19492a6891d5a77a39f9391d18b2d35d7.ttf.png)
+
+
+## Use During Development
+
+If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://www.npmjs.com/package/@expo-google-fonts/dev).
+
+You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
+over the network at runtime instead of adding the asset as a file to your project, so it will be 
+less performant, and is not a good choice for most production deployments. But, it is extremely convenient
+for playing around with any style that you want.
+
+## Links
+
+- [Playfair Display SC on Google Fonts](https://fonts.google.com/specimen/Playfair+Display+SC)
+- [Google Fonts](https://fonts.google.com/)
+- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/playfair-display-sc)
+- [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/playfair-display-sc)
+- [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
+- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
+
+
+*This file was generated. Instead of editing it by head, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator)*

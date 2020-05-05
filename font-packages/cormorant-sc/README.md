@@ -1,0 +1,121 @@
+# @expo-google-fonts/cormorant-sc
+
+This package lets you use the [**Cormorant SC**](https://fonts.google.com/specimen/Cormorant+SC) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
+
+v0.0.2
+
+## Cormorant SC
+
+![Cormorant SC](./font-family.png)
+
+This font family contains [5 styles](#gallery).
+
+- `CormorantSC_Light300`
+- `CormorantSC_Regular400`
+- `CormorantSC_Medium500`
+- `CormorantSC_SemiBold600`
+- `CormorantSC_Bold700`
+
+## Usage
+
+Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+```sh
+yarn add @expo-google-fonts/cormorant-sc expo-font @use-expo/font
+```
+
+Now add code like this to your project
+```js
+import React, { useState, useEffect } from 'react';
+
+import { Text, View, StyleSheet } from 'react-native';
+import { AppLoading } from 'expo';
+import { useFonts } from '@use-expo/font';
+import {
+  CormorantSC_Light300,
+  CormorantSC_Regular400,
+  CormorantSC_Medium500,
+  CormorantSC_SemiBold600,
+  CormorantSC_Bold700,
+} from '@expo-google-fonts/cormorant-sc';
+
+export default () => {
+  let [fontsLoaded] = useFonts({
+    CormorantSC_Light300,
+    CormorantSC_Regular400,
+    CormorantSC_Medium500,
+    CormorantSC_SemiBold600,
+    CormorantSC_Bold700,
+  });
+
+  let fontSize = 24;
+  let paddingVertical = 6;
+
+  if (!fontsLoaded) {
+    return <AppLoading />;
+  } else {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantSC_Light300' }}>
+          CormorantSC_Light300
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantSC_Regular400' }}>
+          CormorantSC_Regular400
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantSC_Medium500' }}>
+          CormorantSC_Medium500
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantSC_SemiBold600' }}>
+          CormorantSC_SemiBold600
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantSC_Bold700' }}>
+          CormorantSC_Bold700
+        </Text>
+      </View>
+    );
+  }
+};
+
+```
+
+## Gallery
+
+##### CormorantSC_Light300
+![CormorantSC_Light300](./20075e607eb45ea2e8f60f9365f2bf608df1251f443ae12295d751b425dd9b62.ttf.png)
+
+##### CormorantSC_Regular400
+![CormorantSC_Regular400](./e8c091c9484c2f6ac490d1613295b59e76d359ad34e1c52fb2f853a8c2ea0aac.ttf.png)
+
+##### CormorantSC_Medium500
+![CormorantSC_Medium500](./85cf334d625e0deec8283f8aa03ec6295e20a52c371096595411dcee4bef2039.ttf.png)
+
+##### CormorantSC_SemiBold600
+![CormorantSC_SemiBold600](./2a187b0fe3cebc137da0b069c1017ad0c1cfb10ef8992089d21b8261bbc9ad0c.ttf.png)
+
+##### CormorantSC_Bold700
+![CormorantSC_Bold700](./29e53a056b50572310c96ff3a83932d488c6954871aced226c122e7f3ff8b00b.ttf.png)
+
+
+## Use During Development
+
+If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://www.npmjs.com/package/@expo-google-fonts/dev).
+
+You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
+over the network at runtime instead of adding the asset as a file to your project, so it will be 
+less performant, and is not a good choice for most production deployments. But, it is extremely convenient
+for playing around with any style that you want.
+
+## Links
+
+- [Cormorant SC on Google Fonts](https://fonts.google.com/specimen/Cormorant+SC)
+- [Google Fonts](https://fonts.google.com/)
+- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/cormorant-sc)
+- [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cormorant-sc)
+- [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
+- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
+
+
+*This file was generated. Instead of editing it by head, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator)*

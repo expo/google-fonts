@@ -1,0 +1,95 @@
+# @expo-google-fonts/ruda
+
+This package lets you use the [**Ruda**](https://fonts.google.com/specimen/Ruda) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
+
+v0.0.2
+
+## Ruda
+
+![Ruda](./font-family.png)
+
+This font family contains [3 styles](#gallery).
+
+- `Ruda_Regular400`
+- `Ruda_Bold700`
+- `Ruda_Black900`
+
+## Usage
+
+Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+```sh
+yarn add @expo-google-fonts/ruda expo-font @use-expo/font
+```
+
+Now add code like this to your project
+```js
+import React, { useState, useEffect } from 'react';
+
+import { Text, View, StyleSheet } from 'react-native';
+import { AppLoading } from 'expo';
+import { useFonts } from '@use-expo/font';
+import { Ruda_Regular400, Ruda_Bold700, Ruda_Black900 } from '@expo-google-fonts/ruda';
+
+export default () => {
+  let [fontsLoaded] = useFonts({
+    Ruda_Regular400,
+    Ruda_Bold700,
+    Ruda_Black900,
+  });
+
+  let fontSize = 24;
+  let paddingVertical = 6;
+
+  if (!fontsLoaded) {
+    return <AppLoading />;
+  } else {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_Regular400' }}>
+          Ruda_Regular400
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_Bold700' }}>Ruda_Bold700</Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_Black900' }}>
+          Ruda_Black900
+        </Text>
+      </View>
+    );
+  }
+};
+
+```
+
+## Gallery
+
+##### Ruda_Regular400
+![Ruda_Regular400](./a254aa475c3646075b11d4e1a7db06d96c2f16a001e31943133c66d6bbe7558d.ttf.png)
+
+##### Ruda_Bold700
+![Ruda_Bold700](./af38ec0bb3b6d599d8ad3f56b0f6f3fb81bd7dfd3234fd8f9dbaaf5029c0b2ab.ttf.png)
+
+##### Ruda_Black900
+![Ruda_Black900](./0a25461d4ccbfb0f3a77a33f66143f8474a3eccfbee06850f5e778bf29216894.ttf.png)
+
+
+## Use During Development
+
+If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://www.npmjs.com/package/@expo-google-fonts/dev).
+
+You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
+over the network at runtime instead of adding the asset as a file to your project, so it will be 
+less performant, and is not a good choice for most production deployments. But, it is extremely convenient
+for playing around with any style that you want.
+
+## Links
+
+- [Ruda on Google Fonts](https://fonts.google.com/specimen/Ruda)
+- [Google Fonts](https://fonts.google.com/)
+- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/ruda)
+- [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/ruda)
+- [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
+- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
+
+
+*This file was generated. Instead of editing it by head, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator)*

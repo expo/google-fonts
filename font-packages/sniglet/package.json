@@ -1,0 +1,10 @@
+{
+  "name": "@expo-google-fonts/sniglet",
+  "version": "0.0.2",
+  "description": "Use the Sniglet font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": "https://github.com/expo/google-fonts.git",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT",
+  "publishConfig": { "access": "public" }
+}

@@ -1,0 +1,79 @@
+# @expo-google-fonts/raleway-dots
+
+This package lets you use the [**Raleway Dots**](https://fonts.google.com/specimen/Raleway+Dots) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
+
+v0.0.2
+
+## Raleway Dots
+
+![Raleway Dots](./font-family.png)
+
+This font family contains [1 style](#gallery).
+
+- `RalewayDots_Regular400`
+
+## Usage
+
+Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+```sh
+yarn add @expo-google-fonts/raleway-dots expo-font @use-expo/font
+```
+
+Now add code like this to your project
+```js
+import React, { useState, useEffect } from 'react';
+
+import { Text, View, StyleSheet } from 'react-native';
+import { AppLoading } from 'expo';
+import { useFonts } from '@use-expo/font';
+import { RalewayDots_Regular400 } from '@expo-google-fonts/raleway-dots';
+
+export default () => {
+  let [fontsLoaded] = useFonts({
+    RalewayDots_Regular400,
+  });
+
+  let fontSize = 24;
+  let paddingVertical = 6;
+
+  if (!fontsLoaded) {
+    return <AppLoading />;
+  } else {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RalewayDots_Regular400' }}>
+          RalewayDots_Regular400
+        </Text>
+      </View>
+    );
+  }
+};
+
+```
+
+## Gallery
+
+##### RalewayDots_Regular400
+![RalewayDots_Regular400](./4b4b8ff2afb81e87d73fd84bb88f05e768029ed7d4f839078f82d515111ba83b.ttf.png)
+
+
+## Use During Development
+
+If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://www.npmjs.com/package/@expo-google-fonts/dev).
+
+You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
+over the network at runtime instead of adding the asset as a file to your project, so it will be 
+less performant, and is not a good choice for most production deployments. But, it is extremely convenient
+for playing around with any style that you want.
+
+## Links
+
+- [Raleway Dots on Google Fonts](https://fonts.google.com/specimen/Raleway+Dots)
+- [Google Fonts](https://fonts.google.com/)
+- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/raleway-dots)
+- [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/raleway-dots)
+- [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
+- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
+
+
+*This file was generated. Instead of editing it by head, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator)*

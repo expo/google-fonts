@@ -1,0 +1,79 @@
+# @expo-google-fonts/gruppo
+
+This package lets you use the [**Gruppo**](https://fonts.google.com/specimen/Gruppo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
+
+v0.0.2
+
+## Gruppo
+
+![Gruppo](./font-family.png)
+
+This font family contains [1 style](#gallery).
+
+- `Gruppo_Regular400`
+
+## Usage
+
+Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+```sh
+yarn add @expo-google-fonts/gruppo expo-font @use-expo/font
+```
+
+Now add code like this to your project
+```js
+import React, { useState, useEffect } from 'react';
+
+import { Text, View, StyleSheet } from 'react-native';
+import { AppLoading } from 'expo';
+import { useFonts } from '@use-expo/font';
+import { Gruppo_Regular400 } from '@expo-google-fonts/gruppo';
+
+export default () => {
+  let [fontsLoaded] = useFonts({
+    Gruppo_Regular400,
+  });
+
+  let fontSize = 24;
+  let paddingVertical = 6;
+
+  if (!fontsLoaded) {
+    return <AppLoading />;
+  } else {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gruppo_Regular400' }}>
+          Gruppo_Regular400
+        </Text>
+      </View>
+    );
+  }
+};
+
+```
+
+## Gallery
+
+##### Gruppo_Regular400
+![Gruppo_Regular400](./6cf289ec6fe4592706aa68de1f9711e3f1967db26053962cfbddd4e51a7ac65e.ttf.png)
+
+
+## Use During Development
+
+If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://www.npmjs.com/package/@expo-google-fonts/dev).
+
+You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
+over the network at runtime instead of adding the asset as a file to your project, so it will be 
+less performant, and is not a good choice for most production deployments. But, it is extremely convenient
+for playing around with any style that you want.
+
+## Links
+
+- [Gruppo on Google Fonts](https://fonts.google.com/specimen/Gruppo)
+- [Google Fonts](https://fonts.google.com/)
+- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/gruppo)
+- [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/gruppo)
+- [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
+- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
+
+
+*This file was generated. Instead of editing it by head, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator)*

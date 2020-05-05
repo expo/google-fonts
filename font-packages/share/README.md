@@ -1,0 +1,111 @@
+# @expo-google-fonts/share
+
+This package lets you use the [**Share**](https://fonts.google.com/specimen/Share) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
+
+v0.0.2
+
+## Share
+
+![Share](./font-family.png)
+
+This font family contains [4 styles](#gallery).
+
+- `Share_Regular400`
+- `Share_Regular400_Italic`
+- `Share_Bold700`
+- `Share_Bold700_Italic`
+
+## Usage
+
+Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+```sh
+yarn add @expo-google-fonts/share expo-font @use-expo/font
+```
+
+Now add code like this to your project
+```js
+import React, { useState, useEffect } from 'react';
+
+import { Text, View, StyleSheet } from 'react-native';
+import { AppLoading } from 'expo';
+import { useFonts } from '@use-expo/font';
+import {
+  Share_Regular400,
+  Share_Regular400_Italic,
+  Share_Bold700,
+  Share_Bold700_Italic,
+} from '@expo-google-fonts/share';
+
+export default () => {
+  let [fontsLoaded] = useFonts({
+    Share_Regular400,
+    Share_Regular400_Italic,
+    Share_Bold700,
+    Share_Bold700_Italic,
+  });
+
+  let fontSize = 24;
+  let paddingVertical = 6;
+
+  if (!fontsLoaded) {
+    return <AppLoading />;
+  } else {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Share_Regular400' }}>
+          Share_Regular400
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Share_Regular400_Italic' }}>
+          Share_Regular400_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Share_Bold700' }}>
+          Share_Bold700
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Share_Bold700_Italic' }}>
+          Share_Bold700_Italic
+        </Text>
+      </View>
+    );
+  }
+};
+
+```
+
+## Gallery
+
+##### Share_Regular400
+![Share_Regular400](./c1621fb56fac35ccedec411f3ee0e726ca8c3b6c1e5616fcaec194d0e26c1207.ttf.png)
+
+##### Share_Regular400_Italic
+![Share_Regular400_Italic](./e7c900b0cd2cdfb860519a4df3b0242ad6ae849a1fcb892760fbf78e93214626.ttf.png)
+
+##### Share_Bold700
+![Share_Bold700](./283b89ac6d01b1444d546b1992f9ce7ab0f1ecda06b9d33769bbbf3ee979a76c.ttf.png)
+
+##### Share_Bold700_Italic
+![Share_Bold700_Italic](./a8f8a01adf843c6551142bd88a1f437fa3b739e7dbaaef798f80a5500afae4d3.ttf.png)
+
+
+## Use During Development
+
+If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://www.npmjs.com/package/@expo-google-fonts/dev).
+
+You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
+over the network at runtime instead of adding the asset as a file to your project, so it will be 
+less performant, and is not a good choice for most production deployments. But, it is extremely convenient
+for playing around with any style that you want.
+
+## Links
+
+- [Share on Google Fonts](https://fonts.google.com/specimen/Share)
+- [Google Fonts](https://fonts.google.com/)
+- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/share)
+- [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/share)
+- [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
+- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
+
+
+*This file was generated. Instead of editing it by head, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator)*

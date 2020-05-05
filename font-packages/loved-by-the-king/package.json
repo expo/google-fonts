@@ -1,0 +1,10 @@
+{
+  "name": "@expo-google-fonts/loved-by-the-king",
+  "version": "0.0.2",
+  "description": "Use the Loved by the King font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": "https://github.com/expo/google-fonts.git",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT",
+  "publishConfig": { "access": "public" }
+}
