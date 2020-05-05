@@ -16,7 +16,7 @@ let fontAssetsDir = path.join(__dirname, '..', '..', 'font-assets');
 let fontPackagesDir = path.join(__dirname, '..', '..', 'font-packages');
 let fontImagesDir = path.join(__dirname, '..', '..', 'font-images');
 let packageScope = '@expo-google-fonts/';
-let packageVersion = require('../../lerna.json').version;
+let packageVersion = require('../../package.json').version;
 
 let WeightNames = {
   '100': 'Thin',

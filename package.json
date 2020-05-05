@@ -1,0 +1,9 @@
+{
+  "version": "0.0.3",
+  "name": "root",
+  "scripts": {
+    "build": "cd packages/generator; yarn generate",
+    "publish-font-packages": "cd packages/generator; yarn publish-font-packages"
+  },
+  "private": true
+}
