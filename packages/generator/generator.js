@@ -6,11 +6,15 @@ let cliProgress = require('cli-progress');
 let fetch = require('cross-fetch');
 let fsExtra = require('fs-extra');
 let letfPad = require('left-pad');
+let { default: PQueue } = require('p-queue');
+let physicalCpuCount = require('physical-cpu-count');
 let prettier = require('prettier');
 let protocolBuffers = require('protocol-buffers');
+let spawnAsync = require('@expo/spawn-async');
 
 let fontAssetsDir = path.join(__dirname, '..', '..', 'font-assets');
 let fontPackagesDir = path.join(__dirname, '..', '..', 'font-packages');
+let fontImagesDir = path.join(__dirname, '..', '..', 'font-images');
 let packageScope = '@expo-google-fonts/';
 let packageVersion = '0.0.0'; // require('../../package.json').version;
 
@@ -38,7 +42,8 @@ let PrettierOptions = {
 async function main({ verify } = { verify: true }) {
   console.log('Getting latest font directory...');
   let protoUrl = await _getProtoUrl();
-  console.log(`Got font directory. Using ${protoUrl}`);
+  // console.log(`Got font directory. Using ${protoUrl}`);
+  console.log('done.');
 
   let fontDirectory = await _readFontsProtoData(protoUrl);
   console.log('Download all font files and validating font URLs and file contents...');
@@ -140,8 +145,6 @@ async function downloadAllFonts(fontDirectory) {
     totalFonts += family.fonts.length;
   }
 
-  // TODO: We could probably parallelize these network requests and do
-  // something like 4 - 10 at a time and this would be faster
   let bar = new cliProgress.SingleBar(
     {
       format: ' {bar} {percentage}% | ETA: {eta}s | {value}/{total} | {fontFamily}',
@@ -150,18 +153,23 @@ async function downloadAllFonts(fontDirectory) {
     cliProgress.Presets.shades_classic
   );
   bar.start(totalFonts, 0);
+
+  let q = new PQueue({ concurrency: 12 });
+
   try {
     let i = 0;
     for (let family of fontDirectory.family) {
       for (let font of family.fonts) {
         if (!(await isFontDownloaded(font))) {
           let urlString = _urlForFont(font);
-          await downloadFont(urlString, font);
+          bar.update(i, { fontFamily: family.name });
+          await q.add(() => downloadFont(urlString, font));
+          // await downloadFont(urlString, font);
         }
         i++;
-        bar.update(i, { fontFamily: family.name });
       }
     }
+    await q.onEmpty();
   } catch (e) {
     throw e;
   } finally {
@@ -433,6 +441,104 @@ function _familyToMethodName(family) {
   return x.join('');
 }
 
+async function generateImagesForFonts(fontDirectory) {
+  let totalFonts = 0;
+  for (let family of fontDirectory.family) {
+    totalFonts += family.fonts.length;
+  }
+
+  let concurrency = Math.max(physicalCpuCount - 1, 1);
+  console.log({ concurrency });
+
+  let bar = new cliProgress.SingleBar(
+    {
+      format: ' {bar} {percentage}% | ETA: {eta}s | {value}/{total} | {fontFamily}',
+      clearOnComplete: true,
+    },
+    cliProgress.Presets.shades_classic
+  );
+  try {
+    bar.start(totalFonts, 0);
+    let q = new PQueue({ concurrency });
+
+    await fsExtra.emptyDir(fontImagesDir);
+    let i = 0;
+    for (let family of fontDirectory.family) {
+      for (let font of family.fonts) {
+        bar.update(i, { fontFamily: family.name });
+        await q.add(() => generateImageForFont(font, family));
+        i++;
+      }
+    }
+    await q.onEmpty();
+  } catch (e) {
+    throw e;
+  } finally {
+    bar.stop();
+  }
+}
+
+async function generateImageForFont(font, family, outputFilePath) {
+  let phrases = [
+    // 'It was funny going along that road.',
+    // 'That was when I was a kitchen corporal.',
+    // 'I am not really a good bull fighter.',
+    // 'It rained all through the evacuation.',
+    // // "He had so much equipment on and looked awfully surprised and fell down into the garden.",
+    // 'Then three more came over further down the wall.',
+    // 'It was a frightfully hot day.',
+    // // "We’d jammed an absolutely perfect barricade across the bridge.",
+    // 'The other five stood very quietly, against the wall.',
+    // 'You and me we’ve made a separate peace.',
+    // 'The shelling moved further up the line.',
+    // 'The last I heard of him the Swiss had him in jail near Sion.',
+    // 'He didn’t listen to me, he was listening so hard for the music to start.',
+    // "Pack my box with five dozen liquor jugs",
+  ];
+  // let phrase = 'Pack my box with five dozen liquor jugs';
+  // let phrase = 'That was when I was a kitchen corporal.';
+  let phrase = varNameForFont(font, family) + '\n';
+  // phrase += 'The quick brown fox' + '\n' + 'jumps over the lazy dog';
+  phrase += 'Pack my box with five\ndozen liquor jugs, please.';
+
+  // ccheever@ccheever-XPS-13-7390-2-in-1:~/projects/google-fonts/packages/generator$
+  //./magick -background none -fill black -font '../../font-assets/ff034a0073d594043d35a5058bf44df331be4b22576c8a753b210bcc55789e50.ttf' -pointsize 40 -density 300 label:"It was funny going along that road.\nThat was when I was a kitchen corporal." z.png
+  // -pointsize 40 -density 300 label:"It was funny going along that road.\nThat was when I was a kitchen corporal." z.png
+
+  // let font = family.fonts[0];
+  let fill = 'black';
+  let background = 'none';
+  let fontFilePath = path.join(fontAssetsDir, filenameForFont(font));
+  let density = 144;
+  let pointsize = 28;
+  outputFilePath = outputFilePath || path.join(fontImagesDir, filenameForFont(font) + '.png');
+  let args = [
+    '-background',
+    background,
+    '-fill',
+    fill,
+    '-font',
+    fontFilePath,
+    '-pointsize',
+    '' + pointsize,
+    '-density',
+    '' + density,
+    'label:' + phrase,
+    outputFilePath,
+  ];
+  // console.log(args);
+  // Use try/catch because there is always an error here:
+  //  ███████████████████████████░░░░░░░░░░░░░ 66% | ETA: 284s | 1839/2774 | Noto Co0
+  // with Noto Color Emoji
+  try {
+    await spawnAsync('./magick', args);
+  } catch (e) {
+    // console.error(e);
+    console.error('Failed to generate image for ' + varNameForFont(font, family));
+    await fs.promises.link('./empty.png', outputFilePath);
+  }
+}
+
 async function __getPb() {
   let protoUrl = await _getProtoUrl();
   let r = await fetch(protoUrl);
@@ -445,7 +551,21 @@ async function _getDirectory() {
   return _readFontsProtoData(pu);
 }
 
+async function test(n = 0, n2 = 0) {
+  let d = await _getDirectory();
+  let family = d.family[n];
+  let font = family.fonts[n2];
+  await generateImageForFont(font, family, './z.png');
+}
+
+async function test2() {
+  let fontDirectory = await _getDirectory();
+  await generateImagesForFonts(fontDirectory);
+}
+
 module.exports = {
+  test,
+  test2,
   _getDirectory,
   _getProtoUrl,
   _readFontsProtoData,
@@ -459,6 +579,7 @@ module.exports = {
   _packageNameForFamily,
   generateAllFontFamilyPackages,
   generateFontFamilyPackage,
+  generateImagesForFonts,
 };
 
 if (require.main === module) {
