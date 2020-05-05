@@ -376,6 +376,7 @@ async function generateFontFamilyPackage(family) {
         description: `Use the ${family.name} font family from Google Fonts in your Expo app`,
         main: 'index.js',
         repository: 'https://github.com/expo/google-fonts.git',
+        homepage: `https://github.com/expo/google-fonts/tree/master/font-packages/${packageName}#readme`,
         author: 'Expo Team <team@expo.io>',
         license: 'MIT',
         publishConfig: {
@@ -453,11 +454,22 @@ async function generateDevPackage(fontDirectory) {
         description: `Load ${fontDirectory.family.length} font families from Google Fonts over the network while developing your Expo app`,
         main: 'index.js',
         repository: 'https://github.com/expo/google-fonts.git',
+        homepage: `https://github.com/expo/google-fonts/tree/master/font-packages/${packageName}#readme`,
         author: 'Expo Team <team@expo.io>',
         license: 'MIT',
+        publishConfig: {
+          access: 'public',
+        },
       }),
       { ...PrettierOptions, parser: 'json' }
     ),
+    'utf8'
+  );
+
+  // Add a .prettierrc file to this package
+  await fs.promises.writeFile(
+    path.join(pkgDir, '.prettierrc'),
+    prettier.format(JSON.stringify(PrettierOptions), { ...PrettierOptions, parser: 'json' }),
     'utf8'
   );
 
@@ -720,6 +732,7 @@ module.exports = {
   generateFontFamilyPackage,
   generateImagesForFonts,
   fontPackagesDir,
+  varNameForFont,
 };
 
 if (require.main === module) {

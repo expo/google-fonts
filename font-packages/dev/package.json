@@ -4,6 +4,8 @@
   "description": "Load 964 font families from Google Fonts over the network while developing your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",
+  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme",
   "author": "Expo Team <team@expo.io>",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": { "access": "public" }
 }
