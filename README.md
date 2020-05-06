@@ -5,7 +5,7 @@ any of 964 fonts (and their variants) from
 [fonts.google.com](https://fonts.google.com) in your Expo app.
 
 
-v[object Object]
+v0.0.3
 
 ## Fonts
 
