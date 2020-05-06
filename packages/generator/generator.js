@@ -15,6 +15,7 @@ let spawnAsync = require('@expo/spawn-async');
 let fontAssetsDir = path.join(__dirname, '..', '..', 'font-assets');
 let fontPackagesDir = path.join(__dirname, '..', '..', 'font-packages');
 let fontImagesDir = path.join(__dirname, '..', '..', 'font-images');
+let projectRootDir = path.join(__dirname, '..', '..');
 let packageScope = '@expo-google-fonts/';
 let packageVersion = require('../../package.json').version;
 
@@ -728,6 +729,33 @@ ${fontDirectory.family
   await fs.promises.writeFile(outputFilePath, md, 'utf8');
 }
 
+async function generateGalleryFile(fontDirectory) {
+  let md = `# Expo Google Fonts Gallery
+
+A visual gallery showing you every font style available in Expo Fonts Google packages.
+Each image links to the package containing that font style.
+
+`;
+  for (let family of fontDirectory.family) {
+    let pkgUrl =
+      'https://github.com/expo/google-fonts/tree/master/font-packages/' +
+      getPackageNameForFamily(family);
+    md += `### [${family.name}](${pkgUrl})\n`;
+    for (let font of family.fonts) {
+      let styleImagePath =
+        './font-packages/' + getPackageNameForFamily(family) + '/' + filenameForFont(font) + '.png';
+      let fi = varNameForFont(font, family);
+      md += `#### ${fi}
+[![${fi}](${styleImagePath})](${pkgUrl})
+
+`;
+    }
+  }
+
+  let outputFilePath = path.join(projectRootDir, 'GALLERY.md');
+  await fs.promises.writeFile(outputFilePath, md, 'utf8');
+}
+
 async function __getPb() {
   let protoUrl = await _getProtoUrl();
   let r = await fetch(protoUrl);
@@ -757,6 +785,11 @@ async function test3() {
   await generateRootReadme(fontDirectory);
 }
 
+async function test4() {
+  let fontDirectory = await getDirectory();
+  await generateGalleryFile(fontDirectory);
+}
+
 module.exports = {
   test,
   test2,
@@ -778,6 +811,7 @@ module.exports = {
   varNameForFont,
   generateRootReadme,
   test3,
+  test4,
 };
 
 if (require.main === module) {
