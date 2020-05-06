@@ -653,17 +653,21 @@ async function generatePng(outputFilePath, text, font, family, pointsize) {
   let background = 'none';
   let fontFilePath = path.join(fontAssetsDir, filenameForFont(font));
   pointsize = pointsize || 40;
+  let density = 458; // iPhone 11 Pro Max
+  let units = 'pixelsperinch';
   let args = [
     '-background',
     background,
     '-fill',
     fill,
+    '-units',
+    '' + units,
+    '-density',
+    '' + density,
     '-font',
     fontFilePath,
     '-pointsize',
     '' + pointsize,
-    // '-density',
-    // '' + density,
     'label:' + text,
     outputFilePath,
   ];

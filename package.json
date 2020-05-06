@@ -4,6 +4,7 @@
   "scripts": {
     "build": "cd packages/generator; yarn generate",
     "build-packages": "cd packages/generator; yarn generate-packages;",
+    "build-images": "cd packages/generator; yarn generate-images",
     "publish-font-packages": "cd packages/generator; yarn publish-font-packages"
   },
   "private": true
