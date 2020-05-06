@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/annie-use-your-telescope",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Use the Annie Use Your Telescope font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",

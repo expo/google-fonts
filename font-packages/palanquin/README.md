@@ -2,7 +2,7 @@
 
 This package lets you use the [**Palanquin**](https://fonts.google.com/specimen/Palanquin) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.2
+v0.0.3
 
 ## Palanquin
 
@@ -22,7 +22,7 @@ This font family contains [7 styles](#gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-yarn add @expo-google-fonts/palanquin expo-font @use-expo/font
+expo install @expo-google-fonts/palanquin expo-font @use-expo/font
 ```
 
 Now add code like this to your project

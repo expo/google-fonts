@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/libre-caslon-display",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Use the Libre Caslon Display font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",

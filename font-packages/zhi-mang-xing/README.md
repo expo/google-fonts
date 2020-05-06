@@ -2,7 +2,7 @@
 
 This package lets you use the [**Zhi Mang Xing**](https://fonts.google.com/specimen/Zhi+Mang+Xing) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.2
+v0.0.3
 
 ## Zhi Mang Xing
 
@@ -16,7 +16,7 @@ This font family contains [1 style](#gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-yarn add @expo-google-fonts/zhi-mang-xing expo-font @use-expo/font
+expo install @expo-google-fonts/zhi-mang-xing expo-font @use-expo/font
 ```
 
 Now add code like this to your project

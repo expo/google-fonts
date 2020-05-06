@@ -2,7 +2,7 @@
 
 This package lets you use the [**Chathura**](https://fonts.google.com/specimen/Chathura) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.2
+v0.0.3
 
 ## Chathura
 
@@ -20,7 +20,7 @@ This font family contains [5 styles](#gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-yarn add @expo-google-fonts/chathura expo-font @use-expo/font
+expo install @expo-google-fonts/chathura expo-font @use-expo/font
 ```
 
 Now add code like this to your project

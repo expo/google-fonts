@@ -2,7 +2,7 @@
 
 This package lets you use the [**Share Tech**](https://fonts.google.com/specimen/Share+Tech) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.2
+v0.0.3
 
 ## Share Tech
 
@@ -16,7 +16,7 @@ This font family contains [1 style](#gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-yarn add @expo-google-fonts/share-tech expo-font @use-expo/font
+expo install @expo-google-fonts/share-tech expo-font @use-expo/font
 ```
 
 Now add code like this to your project

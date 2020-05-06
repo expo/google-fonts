@@ -2,7 +2,7 @@
 
 This package lets you use the [**Rock Salt**](https://fonts.google.com/specimen/Rock+Salt) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.2
+v0.0.3
 
 ## Rock Salt
 
@@ -16,7 +16,7 @@ This font family contains [1 style](#gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-yarn add @expo-google-fonts/rock-salt expo-font @use-expo/font
+expo install @expo-google-fonts/rock-salt expo-font @use-expo/font
 ```
 
 Now add code like this to your project

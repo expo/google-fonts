@@ -2,7 +2,7 @@
 
 This package lets you use the [**Changa One**](https://fonts.google.com/specimen/Changa+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.2
+v0.0.3
 
 ## Changa One
 
@@ -17,7 +17,7 @@ This font family contains [2 styles](#gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-yarn add @expo-google-fonts/changa-one expo-font @use-expo/font
+expo install @expo-google-fonts/changa-one expo-font @use-expo/font
 ```
 
 Now add code like this to your project

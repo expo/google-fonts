@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/noto-color-emoji-compat",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Use the Noto Color Emoji Compat font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",

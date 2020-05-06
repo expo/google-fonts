@@ -2,7 +2,7 @@
 
 This package lets you use the [**Crimson Pro**](https://fonts.google.com/specimen/Crimson+Pro) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.2
+v0.0.3
 
 ## Crimson Pro
 
@@ -31,7 +31,7 @@ This font family contains [16 styles](#gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-yarn add @expo-google-fonts/crimson-pro expo-font @use-expo/font
+expo install @expo-google-fonts/crimson-pro expo-font @use-expo/font
 ```
 
 Now add code like this to your project

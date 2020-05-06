@@ -2,7 +2,7 @@
 
 This package lets you use the [**IBM Plex Sans Condensed**](https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.2
+v0.0.3
 
 ## IBM Plex Sans Condensed
 
@@ -29,7 +29,7 @@ This font family contains [14 styles](#gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-yarn add @expo-google-fonts/ibm-plex-sans-condensed expo-font @use-expo/font
+expo install @expo-google-fonts/ibm-plex-sans-condensed expo-font @use-expo/font
 ```
 
 Now add code like this to your project

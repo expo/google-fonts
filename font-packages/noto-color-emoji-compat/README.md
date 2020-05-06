@@ -2,7 +2,7 @@
 
 This package lets you use the [**Noto Color Emoji Compat**](https://fonts.google.com/specimen/Noto+Color+Emoji+Compat) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.2
+v0.0.3
 
 ## Noto Color Emoji Compat
 
@@ -16,7 +16,7 @@ This font family contains [1 style](#gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-yarn add @expo-google-fonts/noto-color-emoji-compat expo-font @use-expo/font
+expo install @expo-google-fonts/noto-color-emoji-compat expo-font @use-expo/font
 ```
 
 Now add code like this to your project
