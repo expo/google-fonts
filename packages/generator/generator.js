@@ -290,7 +290,7 @@ ${fontStyleVars.map((fsv) => '- `' + fsv + '`').join('\n')}
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 \`\`\`sh
-yarn add @expo-google-fonts/${packageName} expo-font @use-expo/font
+expo install @expo-google-fonts/${packageName} expo-font @use-expo/font
 \`\`\`
 
 Now add code like this to your project
@@ -684,10 +684,48 @@ function getStandardFontForFamily(family) {
   let standard = family.fonts[0];
   for (let font of family.fonts) {
     if (font.weight.start === 400) {
-      standard = font;
+      // Don't replace 400 fonts with italic fonts
+      if (font.italic.start === 1 && standard.weight.start !== 400) {
+        standard = font;
+      }
     }
   }
   return standard;
+}
+
+async function generateRootReadme(fontDirectory) {
+  let pkgVersion = require(path.join('..', '..', 'package.json')).version;
+  let outputFilePath = path.join('..', '..', 'README.md');
+
+  let md = `# expo-google-fonts
+
+The \`@expo-google-fonts\` packages for Expo allow you to easily use 
+any of ${fontDirectory.family.length} fonts (and their variants) from 
+[fonts.google.com](https://fonts.google.com) in your Expo app.
+
+
+v${pkgVersion}
+
+## Fonts
+
+${fontDirectory.family
+  .map((family) => {
+    return `[${
+      family.name
+    }](https://github.com/expo/google-fonts/tree/master/font-packages/${getPackageNameForFamily(
+      family
+    )})`;
+  })
+  .join(', ')}
+
+
+## [@expo-google-fonts/dev](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
+
+## Gallery
+
+`;
+
+  await fs.promises.writeFile(outputFilePath, md, 'utf8');
 }
 
 async function __getPb() {
@@ -714,6 +752,11 @@ async function test2() {
   await generateImagesForFonts(fontDirectory);
 }
 
+async function test3() {
+  let fontDirectory = await getDirectory();
+  await generateRootReadme(fontDirectory);
+}
+
 module.exports = {
   test,
   test2,
@@ -733,6 +776,8 @@ module.exports = {
   generateImagesForFonts,
   fontPackagesDir,
   varNameForFont,
+  generateRootReadme,
+  test3,
 };
 
 if (require.main === module) {

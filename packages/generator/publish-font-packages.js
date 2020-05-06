@@ -11,7 +11,7 @@ async function publishAllFontPackages() {
   let { fontPackagesDir } = generator;
   let i = 0;
   let errors = [];
-  let concurrency = 24;
+  let concurrency = 12;
   let q = new PQueue({ concurrency });
   let bar = new cliProgress.SingleBar(
     {
