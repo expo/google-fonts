@@ -1,5 +1,10 @@
 # @expo-google-fonts/gelasio
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/gelasio)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/gelasio)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/gelasio)
+
 This package lets you use the [**Gelasio**](https://fonts.google.com/specimen/Gelasio) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -19,7 +24,7 @@ This font family contains [8 styles](#gallery).
 - `Gelasio_Bold700`
 - `Gelasio_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -102,7 +107,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Gelasio_Regular400
 ![Gelasio_Regular400](./2c178f975cfe7fd1383143d870be6652cd515bc4ce08487980cc8a24cb7d6658.ttf.png)
@@ -129,7 +134,7 @@ export default () => {
 ![Gelasio_Bold700_Italic](./14cfaa5707e104d5c01401d62d8b27006faa96f78acc2952512962cd9a5059b1.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -138,7 +143,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/gelasio` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Gelasio page on Google Fonts](https://fonts.google.com/specimen/Gelasio) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Gelasio on Google Fonts](https://fonts.google.com/specimen/Gelasio)
 - [Google Fonts](https://fonts.google.com/)

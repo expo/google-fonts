@@ -1,5 +1,10 @@
 # @expo-google-fonts/mada
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/mada)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/mada)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/mada)
+
 This package lets you use the [**Mada**](https://fonts.google.com/specimen/Mada) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -18,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `Mada_Bold700`
 - `Mada_Black900`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -93,7 +98,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Mada_ExtraLight200
 ![Mada_ExtraLight200](./9e8f4edc7b74697883d4382000502d7429481f7ccc59b65ac62c28e99481cbc3.ttf.png)
@@ -117,7 +122,7 @@ export default () => {
 ![Mada_Black900](./7746a4ca1c6767a971c0db31ec18594fa5211adcc318e293d27b55efc36bded9.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -126,7 +131,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/mada` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Mada page on Google Fonts](https://fonts.google.com/specimen/Mada) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Mada on Google Fonts](https://fonts.google.com/specimen/Mada)
 - [Google Fonts](https://fonts.google.com/)

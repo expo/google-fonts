@@ -1,5 +1,10 @@
 # @expo-google-fonts/comic-neue
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/comic-neue)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/comic-neue)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/comic-neue)
+
 This package lets you use the [**Comic Neue**](https://fonts.google.com/specimen/Comic+Neue) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -17,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `ComicNeue_Bold700`
 - `ComicNeue_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -88,7 +93,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### ComicNeue_Light300
 ![ComicNeue_Light300](./03e7eb4282b1113db14871908b545b6c90e66c01c71e25eebd86710af1675dc6.ttf.png)
@@ -109,7 +114,7 @@ export default () => {
 ![ComicNeue_Bold700_Italic](./77d1c55b067195ccd5450ef65c41c0bc9adb016fdc56465fa2323318e59a9fef.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -118,7 +123,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/comic-neue` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Comic Neue page on Google Fonts](https://fonts.google.com/specimen/Comic+Neue) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Comic Neue on Google Fonts](https://fonts.google.com/specimen/Comic+Neue)
 - [Google Fonts](https://fonts.google.com/)

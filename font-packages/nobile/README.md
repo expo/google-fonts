@@ -1,5 +1,10 @@
 # @expo-google-fonts/nobile
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/nobile)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/nobile)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/nobile)
+
 This package lets you use the [**Nobile**](https://fonts.google.com/specimen/Nobile) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -15,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Nobile_Bold700`
 - `Nobile_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -74,7 +79,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Nobile_Regular400
 ![Nobile_Regular400](./d0fcaab1c3dc981d4dcbe2840d5a12039de03b68f4f2736ac648e6eb339249c1.ttf.png)
@@ -89,7 +94,7 @@ export default () => {
 ![Nobile_Bold700_Italic](./c889dceebe4337abc148cab8adbcb5ad8e6277635316b13a75afb02db100212d.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -98,7 +103,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/nobile` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Nobile page on Google Fonts](https://fonts.google.com/specimen/Nobile) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Nobile on Google Fonts](https://fonts.google.com/specimen/Nobile)
 - [Google Fonts](https://fonts.google.com/)

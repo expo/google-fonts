@@ -1,5 +1,10 @@
 # @expo-google-fonts/grenze
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/grenze)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/grenze)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/grenze)
+
 This package lets you use the [**Grenze**](https://fonts.google.com/specimen/Grenze) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -29,7 +34,7 @@ This font family contains [18 styles](#gallery).
 - `Grenze_Black900`
 - `Grenze_Black900_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -172,7 +177,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Grenze_Thin100
 ![Grenze_Thin100](./0990a8c493d15ce4bc040461ac83778fbd658ffb4e5470ded379c5d932c0ad64.ttf.png)
@@ -229,7 +234,7 @@ export default () => {
 ![Grenze_Black900_Italic](./26ebaa2c75db3de90f21f701605ab5e085a7f4c1f23fcb5235a754a34ef4defa.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -238,7 +243,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/grenze` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Grenze page on Google Fonts](https://fonts.google.com/specimen/Grenze) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Grenze on Google Fonts](https://fonts.google.com/specimen/Grenze)
 - [Google Fonts](https://fonts.google.com/)

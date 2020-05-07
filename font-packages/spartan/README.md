@@ -1,5 +1,10 @@
 # @expo-google-fonts/spartan
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/spartan)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/spartan)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/spartan)
+
 This package lets you use the [**Spartan**](https://fonts.google.com/specimen/Spartan) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -20,7 +25,7 @@ This font family contains [9 styles](#gallery).
 - `Spartan_ExtraBold800`
 - `Spartan_Black900`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -109,7 +114,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Spartan_Thin100
 ![Spartan_Thin100](./4869cf7b66d0abcfafa64d169a39a8d60f681ae939db8334f68920cadb32601d.ttf.png)
@@ -139,7 +144,7 @@ export default () => {
 ![Spartan_Black900](./4fa2cc56e1f8204b4487730ab9ea24620b0649fe9ccd37048feebd3230c02cad.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -148,7 +153,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/spartan` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Spartan page on Google Fonts](https://fonts.google.com/specimen/Spartan) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Spartan on Google Fonts](https://fonts.google.com/specimen/Spartan)
 - [Google Fonts](https://fonts.google.com/)

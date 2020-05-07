@@ -1,5 +1,10 @@
 # @expo-google-fonts/miriam-libre
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/miriam-libre)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/miriam-libre)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/miriam-libre)
+
 This package lets you use the [**Miriam Libre**](https://fonts.google.com/specimen/Miriam+Libre) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `MiriamLibre_Regular400`
 - `MiriamLibre_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### MiriamLibre_Regular400
 ![MiriamLibre_Regular400](./c4dc8662662a1708ab4d397f59152bba9bde4ce4c524d9286d49d078a8c58dc6.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![MiriamLibre_Bold700](./cbe1ade0a4a8eddd786eb1050d18d81c71465545f3f80392927a36af9035c775.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/miriam-libre` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Miriam Libre page on Google Fonts](https://fonts.google.com/specimen/Miriam+Libre) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Miriam Libre on Google Fonts](https://fonts.google.com/specimen/Miriam+Libre)
 - [Google Fonts](https://fonts.google.com/)

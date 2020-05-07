@@ -1,5 +1,10 @@
 # @expo-google-fonts/ibm-plex-sans-condensed
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/ibm-plex-sans-condensed)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/ibm-plex-sans-condensed)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/ibm-plex-sans-condensed)
+
 This package lets you use the [**IBM Plex Sans Condensed**](https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -25,7 +30,7 @@ This font family contains [14 styles](#gallery).
 - `IBMPlexSansCondensed_Bold700`
 - `IBMPlexSansCondensed_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -168,7 +173,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### IBMPlexSansCondensed_Thin100
 ![IBMPlexSansCondensed_Thin100](./95cb5ef68ced474a2288be174bf62af93746ddbce9a8be785d59e05d46221cb9.ttf.png)
@@ -213,7 +218,7 @@ export default () => {
 ![IBMPlexSansCondensed_Bold700_Italic](./064ee4d57bfdc62832b848b5c300e9abaadd59d151ca0279ad569edceffcf029.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -222,7 +227,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/ibm-plex-sans-condensed` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [IBM Plex Sans Condensed page on Google Fonts](https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [IBM Plex Sans Condensed on Google Fonts](https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed)
 - [Google Fonts](https://fonts.google.com/)

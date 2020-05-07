@@ -1,5 +1,10 @@
 # @expo-google-fonts/gorditas
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/gorditas)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/gorditas)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/gorditas)
+
 This package lets you use the [**Gorditas**](https://fonts.google.com/specimen/Gorditas) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Gorditas_Regular400`
 - `Gorditas_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Gorditas_Regular400
 ![Gorditas_Regular400](./987a5551dac8207ac89158c984bb117eac9569a4def85c67405a6f7ee656ca7b.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![Gorditas_Bold700](./1a73ab190434815fb46d5c9f8095a8d40543c248bd203391f3e120aebb2c223e.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/gorditas` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Gorditas page on Google Fonts](https://fonts.google.com/specimen/Gorditas) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Gorditas on Google Fonts](https://fonts.google.com/specimen/Gorditas)
 - [Google Fonts](https://fonts.google.com/)

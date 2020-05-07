@@ -1,5 +1,10 @@
 # @expo-google-fonts/fenix
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/fenix)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/fenix)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/fenix)
+
 This package lets you use the [**Fenix**](https://fonts.google.com/specimen/Fenix) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -12,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `Fenix_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -51,13 +56,13 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Fenix_Regular400
 ![Fenix_Regular400](./8601d9f9c9a93dcbc9a75b2e7e9e1f567e66ca628768e1567225078fee043e8f.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -66,7 +71,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/fenix` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Fenix page on Google Fonts](https://fonts.google.com/specimen/Fenix) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Fenix on Google Fonts](https://fonts.google.com/specimen/Fenix)
 - [Google Fonts](https://fonts.google.com/)

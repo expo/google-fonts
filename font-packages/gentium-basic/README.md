@@ -1,5 +1,10 @@
 # @expo-google-fonts/gentium-basic
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/gentium-basic)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/gentium-basic)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/gentium-basic)
+
 This package lets you use the [**Gentium Basic**](https://fonts.google.com/specimen/Gentium+Basic) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -15,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `GentiumBasic_Bold700`
 - `GentiumBasic_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -74,7 +79,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### GentiumBasic_Regular400
 ![GentiumBasic_Regular400](./86bcf47467c7c966ff4e8c216451273329982a4bbf3477b33615c1e5ff916fb2.ttf.png)
@@ -89,7 +94,7 @@ export default () => {
 ![GentiumBasic_Bold700_Italic](./b1ea05dbd54b903a6206abbb48c0183924236546ddb457db2f97273aa1d47fcd.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -98,7 +103,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/gentium-basic` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Gentium Basic page on Google Fonts](https://fonts.google.com/specimen/Gentium+Basic) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Gentium Basic on Google Fonts](https://fonts.google.com/specimen/Gentium+Basic)
 - [Google Fonts](https://fonts.google.com/)

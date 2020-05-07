@@ -1,5 +1,10 @@
 # @expo-google-fonts/comfortaa
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/comfortaa)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/comfortaa)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/comfortaa)
+
 This package lets you use the [**Comfortaa**](https://fonts.google.com/specimen/Comfortaa) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -14,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `Comfortaa_Regular400`
 - `Comfortaa_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -67,7 +72,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Comfortaa_Light300
 ![Comfortaa_Light300](./9c42dde162aca0ef35c66a372266676483320b31bd2d1069fd2ec3879d092000.ttf.png)
@@ -79,7 +84,7 @@ export default () => {
 ![Comfortaa_Bold700](./30b5d292bb0fe9543a8ae812c3a2ce1ca57f9fd6701afafad31156536db5f08d.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -88,7 +93,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/comfortaa` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Comfortaa page on Google Fonts](https://fonts.google.com/specimen/Comfortaa) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Comfortaa on Google Fonts](https://fonts.google.com/specimen/Comfortaa)
 - [Google Fonts](https://fonts.google.com/)

@@ -1,5 +1,10 @@
 # @expo-google-fonts/kameron
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/kameron)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/kameron)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/kameron)
+
 This package lets you use the [**Kameron**](https://fonts.google.com/specimen/Kameron) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Kameron_Regular400`
 - `Kameron_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Kameron_Regular400
 ![Kameron_Regular400](./31d4c66237b8a2353dcb28cc0c0fcf347f10cb20582071c7db1e3d2820bc9d29.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![Kameron_Bold700](./ba1c38d9290bf8209d9ff96941f976a43f44f9bd3eee9b066349fe39d6a0eef6.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/kameron` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Kameron page on Google Fonts](https://fonts.google.com/specimen/Kameron) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Kameron on Google Fonts](https://fonts.google.com/specimen/Kameron)
 - [Google Fonts](https://fonts.google.com/)

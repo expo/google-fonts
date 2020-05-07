@@ -1,5 +1,10 @@
 # @expo-google-fonts/mina
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/mina)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/mina)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/mina)
+
 This package lets you use the [**Mina**](https://fonts.google.com/specimen/Mina) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Mina_Regular400`
 - `Mina_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -55,7 +60,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Mina_Regular400
 ![Mina_Regular400](./2cb3c2707dad5e0a5f21dbad8da10b86eb3b1da477394a33f4d47a819fafb82d.ttf.png)
@@ -64,7 +69,7 @@ export default () => {
 ![Mina_Bold700](./7dae008ee6a398a7d7b23f1fbdeeaced41fd8ba3b71cb12b94900ded063f6467.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -73,7 +78,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/mina` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Mina page on Google Fonts](https://fonts.google.com/specimen/Mina) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Mina on Google Fonts](https://fonts.google.com/specimen/Mina)
 - [Google Fonts](https://fonts.google.com/)

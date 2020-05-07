@@ -1,5 +1,10 @@
 # @expo-google-fonts/alegreya
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/alegreya)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/alegreya)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/alegreya)
+
 This package lets you use the [**Alegreya**](https://fonts.google.com/specimen/Alegreya) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -17,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `Alegreya_Black900`
 - `Alegreya_Black900_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -88,7 +93,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Alegreya_Regular400
 ![Alegreya_Regular400](./530d78cba23c5d8e261ae9447b431e1fa550f9dc6563540a0c400be3f7ee88ab.ttf.png)
@@ -109,7 +114,7 @@ export default () => {
 ![Alegreya_Black900_Italic](./01804c5bcb6aedbda393491d82c14328987c7fb66a6ef8c8313aed5d683d3dad.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -118,7 +123,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/alegreya` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Alegreya page on Google Fonts](https://fonts.google.com/specimen/Alegreya) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Alegreya on Google Fonts](https://fonts.google.com/specimen/Alegreya)
 - [Google Fonts](https://fonts.google.com/)

@@ -1,5 +1,10 @@
 # @expo-google-fonts/rajdhani
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/rajdhani)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/rajdhani)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/rajdhani)
+
 This package lets you use the [**Rajdhani**](https://fonts.google.com/specimen/Rajdhani) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -16,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `Rajdhani_SemiBold600`
 - `Rajdhani_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -81,7 +86,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Rajdhani_Light300
 ![Rajdhani_Light300](./5d3e322fc971c11dc62d2cb01d49ffb76c16b801c7811493250d84aa8f12fa3f.ttf.png)
@@ -99,7 +104,7 @@ export default () => {
 ![Rajdhani_Bold700](./01025724bc7898c86c82d19ae1779cb44ca7492a947094eb0249653e3d26850a.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -108,7 +113,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/rajdhani` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Rajdhani page on Google Fonts](https://fonts.google.com/specimen/Rajdhani) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Rajdhani on Google Fonts](https://fonts.google.com/specimen/Rajdhani)
 - [Google Fonts](https://fonts.google.com/)

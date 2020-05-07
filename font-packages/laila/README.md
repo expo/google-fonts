@@ -1,5 +1,10 @@
 # @expo-google-fonts/laila
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/laila)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/laila)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/laila)
+
 This package lets you use the [**Laila**](https://fonts.google.com/specimen/Laila) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -16,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `Laila_SemiBold600`
 - `Laila_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -81,7 +86,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Laila_Light300
 ![Laila_Light300](./8aac335fe109f453ca82438785143a3d54ca6b5860f929a066015b366dd23603.ttf.png)
@@ -99,7 +104,7 @@ export default () => {
 ![Laila_Bold700](./a2cfeefaeb650171ed23e31b4fe85b7c5b8605f36e351821ffd3a351aeec6c17.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -108,7 +113,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/laila` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Laila page on Google Fonts](https://fonts.google.com/specimen/Laila) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Laila on Google Fonts](https://fonts.google.com/specimen/Laila)
 - [Google Fonts](https://fonts.google.com/)

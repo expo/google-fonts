@@ -1,5 +1,10 @@
 # @expo-google-fonts/atma
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/atma)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/atma)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/atma)
+
 This package lets you use the [**Atma**](https://fonts.google.com/specimen/Atma) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -16,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `Atma_SemiBold600`
 - `Atma_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +84,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Atma_Light300
 ![Atma_Light300](./d691cbd1df6f6a53328f8d9d9514102c915be55e93a8c1f0cb0826a27a60e4f2.ttf.png)
@@ -97,7 +102,7 @@ export default () => {
 ![Atma_Bold700](./127f716e96fc47aee7624acf9cebd859693a19f2fc1f7d832f33835e5bd3b834.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -106,7 +111,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/atma` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Atma page on Google Fonts](https://fonts.google.com/specimen/Atma) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Atma on Google Fonts](https://fonts.google.com/specimen/Atma)
 - [Google Fonts](https://fonts.google.com/)

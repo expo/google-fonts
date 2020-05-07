@@ -1,5 +1,10 @@
 # @expo-google-fonts/courgette
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/courgette)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/courgette)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/courgette)
+
 This package lets you use the [**Courgette**](https://fonts.google.com/specimen/Courgette) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -12,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `Courgette_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -51,13 +56,13 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Courgette_Regular400
 ![Courgette_Regular400](./2754f22af579b8f14d78397e6cc4d3879519ad579085e8c047ba2f7719c592a4.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -66,7 +71,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/courgette` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Courgette page on Google Fonts](https://fonts.google.com/specimen/Courgette) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Courgette on Google Fonts](https://fonts.google.com/specimen/Courgette)
 - [Google Fonts](https://fonts.google.com/)

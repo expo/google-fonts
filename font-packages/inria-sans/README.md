@@ -1,5 +1,10 @@
 # @expo-google-fonts/inria-sans
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/inria-sans)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/inria-sans)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/inria-sans)
+
 This package lets you use the [**Inria Sans**](https://fonts.google.com/specimen/Inria+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -17,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `InriaSans_Bold700`
 - `InriaSans_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -88,7 +93,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### InriaSans_Light300
 ![InriaSans_Light300](./3bde5e08b5ec7274f1c28704b62bd581c28724f8cf4412d56a9e24435e927789.ttf.png)
@@ -109,7 +114,7 @@ export default () => {
 ![InriaSans_Bold700_Italic](./70544f369add81b1bf7a0b8f3d4108c7bdca0f1426f9251c47d8d54ae6820b90.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -118,7 +123,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/inria-sans` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Inria Sans page on Google Fonts](https://fonts.google.com/specimen/Inria+Sans) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Inria Sans on Google Fonts](https://fonts.google.com/specimen/Inria+Sans)
 - [Google Fonts](https://fonts.google.com/)

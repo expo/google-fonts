@@ -1,5 +1,10 @@
 # @expo-google-fonts/knewave
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/knewave)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/knewave)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/knewave)
+
 This package lets you use the [**Knewave**](https://fonts.google.com/specimen/Knewave) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -12,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `Knewave_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -51,13 +56,13 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Knewave_Regular400
 ![Knewave_Regular400](./c3a13f54f0f82d09a1c116c40d693c4e9a6212437c8602f91acb88a205ea9fdc.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -66,7 +71,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/knewave` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Knewave page on Google Fonts](https://fonts.google.com/specimen/Knewave) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Knewave on Google Fonts](https://fonts.google.com/specimen/Knewave)
 - [Google Fonts](https://fonts.google.com/)

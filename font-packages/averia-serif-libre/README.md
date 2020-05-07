@@ -1,5 +1,10 @@
 # @expo-google-fonts/averia-serif-libre
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/averia-serif-libre)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/averia-serif-libre)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/averia-serif-libre)
+
 This package lets you use the [**Averia Serif Libre**](https://fonts.google.com/specimen/Averia+Serif+Libre) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -17,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `AveriaSerifLibre_Bold700`
 - `AveriaSerifLibre_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -89,7 +94,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### AveriaSerifLibre_Light300
 ![AveriaSerifLibre_Light300](./605722d0534e8b2a7a4ce36ebc7ecfa14868d5aeae52ba3419e14a19e67c92ba.ttf.png)
@@ -110,7 +115,7 @@ export default () => {
 ![AveriaSerifLibre_Bold700_Italic](./164c3a01088756eebd948641705d6759b2fc7dabfd77d6e36490aa39befa0028.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -119,7 +124,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/averia-serif-libre` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Averia Serif Libre page on Google Fonts](https://fonts.google.com/specimen/Averia+Serif+Libre) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Averia Serif Libre on Google Fonts](https://fonts.google.com/specimen/Averia+Serif+Libre)
 - [Google Fonts](https://fonts.google.com/)

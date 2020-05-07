@@ -1,5 +1,10 @@
 # @expo-google-fonts/arya
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/arya)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/arya)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/arya)
+
 This package lets you use the [**Arya**](https://fonts.google.com/specimen/Arya) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Arya_Regular400`
 - `Arya_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -55,7 +60,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Arya_Regular400
 ![Arya_Regular400](./98cf640f609db3f8940fc4bc1566dda034961cb11d23f71a277f3ab268c8859a.ttf.png)
@@ -64,7 +69,7 @@ export default () => {
 ![Arya_Bold700](./6c168a53b559c7407d20692a42b94301046b15c4838d709b83992c32cab5732c.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -73,7 +78,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/arya` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Arya page on Google Fonts](https://fonts.google.com/specimen/Arya) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Arya on Google Fonts](https://fonts.google.com/specimen/Arya)
 - [Google Fonts](https://fonts.google.com/)

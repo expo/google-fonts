@@ -1,5 +1,10 @@
 # @expo-google-fonts/aref-ruqaa
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/aref-ruqaa)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/aref-ruqaa)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/aref-ruqaa)
+
 This package lets you use the [**Aref Ruqaa**](https://fonts.google.com/specimen/Aref+Ruqaa) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `ArefRuqaa_Regular400`
 - `ArefRuqaa_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### ArefRuqaa_Regular400
 ![ArefRuqaa_Regular400](./483d6ce42473c62a61b38dc4e30c6b1a5d9b02921ab5034c8eec4b8f0496127d.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![ArefRuqaa_Bold700](./4ea198095e22fea5b0b08338b3b524a2ac489bd669154eab1927955f20124358.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/aref-ruqaa` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Aref Ruqaa page on Google Fonts](https://fonts.google.com/specimen/Aref+Ruqaa) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Aref Ruqaa on Google Fonts](https://fonts.google.com/specimen/Aref+Ruqaa)
 - [Google Fonts](https://fonts.google.com/)

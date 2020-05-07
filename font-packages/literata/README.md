@@ -1,5 +1,10 @@
 # @expo-google-fonts/literata
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/literata)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/literata)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/literata)
+
 This package lets you use the [**Literata**](https://fonts.google.com/specimen/Literata) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -19,7 +24,7 @@ This font family contains [8 styles](#gallery).
 - `Literata_SemiBold600_Italic`
 - `Literata_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -102,7 +107,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Literata_Regular400
 ![Literata_Regular400](./f994a4c14415cfac63df0a88d12df379634376d190047a3aac8c1ccac859181b.ttf.png)
@@ -129,7 +134,7 @@ export default () => {
 ![Literata_Bold700_Italic](./b5feaa5aa4ea544737c3a07671e847a9c6664d791d284ccd3866fe24d45f2927.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -138,7 +143,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/literata` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Literata page on Google Fonts](https://fonts.google.com/specimen/Literata) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Literata on Google Fonts](https://fonts.google.com/specimen/Literata)
 - [Google Fonts](https://fonts.google.com/)

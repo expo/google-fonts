@@ -1,5 +1,10 @@
 # @expo-google-fonts/passero-one
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/passero-one)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/passero-one)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/passero-one)
+
 This package lets you use the [**Passero One**](https://fonts.google.com/specimen/Passero+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -12,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `PasseroOne_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -51,13 +56,13 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### PasseroOne_Regular400
 ![PasseroOne_Regular400](./b2d19067da678681f5952e5350d1924a2ac5a8a03eda9d27347e43a3ce35f8ad.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -66,7 +71,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/passero-one` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Passero One page on Google Fonts](https://fonts.google.com/specimen/Passero+One) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Passero One on Google Fonts](https://fonts.google.com/specimen/Passero+One)
 - [Google Fonts](https://fonts.google.com/)

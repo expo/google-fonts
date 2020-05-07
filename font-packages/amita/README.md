@@ -1,5 +1,10 @@
 # @expo-google-fonts/amita
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/amita)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/amita)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/amita)
+
 This package lets you use the [**Amita**](https://fonts.google.com/specimen/Amita) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Amita_Regular400`
 - `Amita_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Amita_Regular400
 ![Amita_Regular400](./f8ab328073e1c729f0b4f38521b47bb39c63db396da1602f6b08a2a8775249f4.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![Amita_Bold700](./e421cec126c6014995b96189e28c3c8b119e3e21dbe1c3dea8585ec31afa0679.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/amita` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Amita page on Google Fonts](https://fonts.google.com/specimen/Amita) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Amita on Google Fonts](https://fonts.google.com/specimen/Amita)
 - [Google Fonts](https://fonts.google.com/)

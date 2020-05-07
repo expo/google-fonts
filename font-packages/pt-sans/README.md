@@ -1,5 +1,10 @@
 # @expo-google-fonts/pt-sans
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/pt-sans)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/pt-sans)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/pt-sans)
+
 This package lets you use the [**PT Sans**](https://fonts.google.com/specimen/PT+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -15,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `PTSans_Bold700`
 - `PTSans_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -74,7 +79,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### PTSans_Regular400
 ![PTSans_Regular400](./8a587dc4260abac4008021f8b9302115ee0f9616aee70d95d4d49f447f4df0f9.ttf.png)
@@ -89,7 +94,7 @@ export default () => {
 ![PTSans_Bold700_Italic](./a37694659d53ae08c11bf532f8871e90b911f61967c3e23f456e59e7c55b33e6.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -98,7 +103,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/pt-sans` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [PT Sans page on Google Fonts](https://fonts.google.com/specimen/PT+Sans) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [PT Sans on Google Fonts](https://fonts.google.com/specimen/PT+Sans)
 - [Google Fonts](https://fonts.google.com/)

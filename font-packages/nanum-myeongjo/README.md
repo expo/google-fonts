@@ -1,5 +1,10 @@
 # @expo-google-fonts/nanum-myeongjo
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/nanum-myeongjo)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/nanum-myeongjo)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/nanum-myeongjo)
+
 This package lets you use the [**Nanum Myeongjo**](https://fonts.google.com/specimen/Nanum+Myeongjo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -14,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `NanumMyeongjo_Bold700`
 - `NanumMyeongjo_ExtraBold800`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -67,7 +72,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### NanumMyeongjo_Regular400
 ![NanumMyeongjo_Regular400](./3df71af0cacc55f9ee8f8e5e35a48672e379aefb187f3ae133a8fd5100c3810f.ttf.png)
@@ -79,7 +84,7 @@ export default () => {
 ![NanumMyeongjo_ExtraBold800](./2da8166e69673863a98b44792cb5b54e1a13b597c11dca437783e5a9336cfa9c.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -88,7 +93,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/nanum-myeongjo` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Nanum Myeongjo page on Google Fonts](https://fonts.google.com/specimen/Nanum+Myeongjo) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Nanum Myeongjo on Google Fonts](https://fonts.google.com/specimen/Nanum+Myeongjo)
 - [Google Fonts](https://fonts.google.com/)

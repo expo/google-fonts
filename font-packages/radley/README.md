@@ -1,5 +1,10 @@
 # @expo-google-fonts/radley
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/radley)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/radley)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/radley)
+
 This package lets you use the [**Radley**](https://fonts.google.com/specimen/Radley) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Radley_Regular400`
 - `Radley_Regular400_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Radley_Regular400
 ![Radley_Regular400](./6793fc8150706eb473a493107e09c2e519147ccf8d28dea89f49427c0dca0481.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![Radley_Regular400_Italic](./d01dd3f7b9c28e1f719a10c2a9dc88cd2827fcc64c09173e01e8b397f7615442.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/radley` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Radley page on Google Fonts](https://fonts.google.com/specimen/Radley) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Radley on Google Fonts](https://fonts.google.com/specimen/Radley)
 - [Google Fonts](https://fonts.google.com/)

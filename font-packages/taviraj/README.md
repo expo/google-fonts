@@ -1,5 +1,10 @@
 # @expo-google-fonts/taviraj
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/taviraj)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/taviraj)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/taviraj)
+
 This package lets you use the [**Taviraj**](https://fonts.google.com/specimen/Taviraj) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -29,7 +34,7 @@ This font family contains [18 styles](#gallery).
 - `Taviraj_Black900`
 - `Taviraj_Black900_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -172,7 +177,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Taviraj_Thin100
 ![Taviraj_Thin100](./52fbea14874ede87677741ccb667e42f7f7032e15c8b1a97be9fb092777027f3.ttf.png)
@@ -229,7 +234,7 @@ export default () => {
 ![Taviraj_Black900_Italic](./181f5aa6c3cfc77afd3dbcbc58dd4a621984f78739969774a7f939caee61b936.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -238,7 +243,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/taviraj` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Taviraj page on Google Fonts](https://fonts.google.com/specimen/Taviraj) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Taviraj on Google Fonts](https://fonts.google.com/specimen/Taviraj)
 - [Google Fonts](https://fonts.google.com/)

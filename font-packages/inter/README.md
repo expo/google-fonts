@@ -1,5 +1,10 @@
 # @expo-google-fonts/inter
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/inter)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/inter)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/inter)
+
 This package lets you use the [**Inter**](https://fonts.google.com/specimen/Inter) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -20,7 +25,7 @@ This font family contains [9 styles](#gallery).
 - `Inter_ExtraBold800`
 - `Inter_Black900`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -109,7 +114,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Inter_Thin100
 ![Inter_Thin100](./897d64cd0dfbeb56e7867aff5fb59519c0a18eaa535b4d4f9d636ac43028afb5.ttf.png)
@@ -139,7 +144,7 @@ export default () => {
 ![Inter_Black900](./a2a712f761390199ddad75da5123d6f97f529f5d6dab247f94ceb954a8fe381e.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -148,7 +153,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/inter` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Inter page on Google Fonts](https://fonts.google.com/specimen/Inter) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Inter on Google Fonts](https://fonts.google.com/specimen/Inter)
 - [Google Fonts](https://fonts.google.com/)

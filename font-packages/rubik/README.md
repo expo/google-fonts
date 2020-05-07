@@ -1,5 +1,10 @@
 # @expo-google-fonts/rubik
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/rubik)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/rubik)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/rubik)
+
 This package lets you use the [**Rubik**](https://fonts.google.com/specimen/Rubik) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -21,7 +26,7 @@ This font family contains [10 styles](#gallery).
 - `Rubik_Black900`
 - `Rubik_Black900_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -116,7 +121,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Rubik_Light300
 ![Rubik_Light300](./d06ee1ddd9a38ecea7c204c94d69e670e155c7e5f6b9ca5bdbbc851871397569.ttf.png)
@@ -149,7 +154,7 @@ export default () => {
 ![Rubik_Black900_Italic](./1e373f9418d94e2ae6e4b31972520bf13c7b93e0811f8621d0ce8d72e0576c9b.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -158,7 +163,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/rubik` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Rubik page on Google Fonts](https://fonts.google.com/specimen/Rubik) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Rubik on Google Fonts](https://fonts.google.com/specimen/Rubik)
 - [Google Fonts](https://fonts.google.com/)

@@ -1,5 +1,10 @@
 # @expo-google-fonts/josefin-slab
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/josefin-slab)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/josefin-slab)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/josefin-slab)
+
 This package lets you use the [**Josefin Slab**](https://fonts.google.com/specimen/Josefin+Slab) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -21,7 +26,7 @@ This font family contains [10 styles](#gallery).
 - `JosefinSlab_Bold700`
 - `JosefinSlab_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -116,7 +121,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### JosefinSlab_Thin100
 ![JosefinSlab_Thin100](./447b30a4f09ce882924bc14b5cb2d46ed8a09e31fbd138c82200fce2411f2612.ttf.png)
@@ -149,7 +154,7 @@ export default () => {
 ![JosefinSlab_Bold700_Italic](./999b995ee79a2865d9ed663bd3b3d65fcd10a6c15198afb228ca225b210eac8c.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -158,7 +163,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/josefin-slab` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Josefin Slab page on Google Fonts](https://fonts.google.com/specimen/Josefin+Slab) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Josefin Slab on Google Fonts](https://fonts.google.com/specimen/Josefin+Slab)
 - [Google Fonts](https://fonts.google.com/)

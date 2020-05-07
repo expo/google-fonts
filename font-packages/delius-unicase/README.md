@@ -1,5 +1,10 @@
 # @expo-google-fonts/delius-unicase
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/delius-unicase)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/delius-unicase)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/delius-unicase)
+
 This package lets you use the [**Delius Unicase**](https://fonts.google.com/specimen/Delius+Unicase) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `DeliusUnicase_Regular400`
 - `DeliusUnicase_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### DeliusUnicase_Regular400
 ![DeliusUnicase_Regular400](./3bbebd3cb94431156468b1ce457ee032a1f68d964171655b60f5ae2ecf0243cb.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![DeliusUnicase_Bold700](./f761b09efebd15e0a91eabc186d565aec75f56f2b04f9cb1ed1f72d91be340ef.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/delius-unicase` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Delius Unicase page on Google Fonts](https://fonts.google.com/specimen/Delius+Unicase) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Delius Unicase on Google Fonts](https://fonts.google.com/specimen/Delius+Unicase)
 - [Google Fonts](https://fonts.google.com/)

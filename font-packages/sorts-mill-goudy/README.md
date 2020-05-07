@@ -1,5 +1,10 @@
 # @expo-google-fonts/sorts-mill-goudy
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/sorts-mill-goudy)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/sorts-mill-goudy)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/sorts-mill-goudy)
+
 This package lets you use the [**Sorts Mill Goudy**](https://fonts.google.com/specimen/Sorts+Mill+Goudy) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `SortsMillGoudy_Regular400`
 - `SortsMillGoudy_Regular400_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -60,7 +65,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### SortsMillGoudy_Regular400
 ![SortsMillGoudy_Regular400](./70d3ad626ef92c3b9eeaff7e3694af6d64f477a31ab242d11f98704e9903a065.ttf.png)
@@ -69,7 +74,7 @@ export default () => {
 ![SortsMillGoudy_Regular400_Italic](./d8d1d17c5bffaec08a5c129dfdbd62c0a538de036da120d20edef29019f0b5bf.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -78,7 +83,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/sorts-mill-goudy` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Sorts Mill Goudy page on Google Fonts](https://fonts.google.com/specimen/Sorts+Mill+Goudy) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Sorts Mill Goudy on Google Fonts](https://fonts.google.com/specimen/Sorts+Mill+Goudy)
 - [Google Fonts](https://fonts.google.com/)

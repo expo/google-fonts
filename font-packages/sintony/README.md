@@ -1,5 +1,10 @@
 # @expo-google-fonts/sintony
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/sintony)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/sintony)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/sintony)
+
 This package lets you use the [**Sintony**](https://fonts.google.com/specimen/Sintony) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Sintony_Regular400`
 - `Sintony_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Sintony_Regular400
 ![Sintony_Regular400](./69767c8fec4cb9cf66b8022ffc9f15e99f1b4f6a15c1412ba8974fd55969ffa1.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![Sintony_Bold700](./9c0d2538023d9d221278dc34698930aa90cd23ba0e8b8516986c6c7d88e03a3b.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/sintony` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Sintony page on Google Fonts](https://fonts.google.com/specimen/Sintony) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Sintony on Google Fonts](https://fonts.google.com/specimen/Sintony)
 - [Google Fonts](https://fonts.google.com/)

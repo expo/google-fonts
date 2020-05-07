@@ -1,5 +1,10 @@
 # @expo-google-fonts/news-cycle
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/news-cycle)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/news-cycle)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/news-cycle)
+
 This package lets you use the [**News Cycle**](https://fonts.google.com/specimen/News+Cycle) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `NewsCycle_Regular400`
 - `NewsCycle_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### NewsCycle_Regular400
 ![NewsCycle_Regular400](./9dc74270959405ee468a6ea83452b01a8075067bf71cb96c8097511477f8aec6.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![NewsCycle_Bold700](./301d13c6e3a40093c2244566226928b2e8bd2843d5cb06302c5c30b44c3d4bc2.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/news-cycle` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [News Cycle page on Google Fonts](https://fonts.google.com/specimen/News+Cycle) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [News Cycle on Google Fonts](https://fonts.google.com/specimen/News+Cycle)
 - [Google Fonts](https://fonts.google.com/)

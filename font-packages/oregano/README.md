@@ -1,5 +1,10 @@
 # @expo-google-fonts/oregano
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/oregano)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/oregano)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/oregano)
+
 This package lets you use the [**Oregano**](https://fonts.google.com/specimen/Oregano) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Oregano_Regular400`
 - `Oregano_Regular400_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Oregano_Regular400
 ![Oregano_Regular400](./e94ad5230aca64ae37dfe726233d5567a0743967af08b68b44f81d2b3da30d36.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![Oregano_Regular400_Italic](./afbb45b2855b15596c6f30346e28c0c3cfb2145954f5abfaf9bf3b9f0b8e2f1d.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/oregano` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Oregano page on Google Fonts](https://fonts.google.com/specimen/Oregano) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Oregano on Google Fonts](https://fonts.google.com/specimen/Oregano)
 - [Google Fonts](https://fonts.google.com/)

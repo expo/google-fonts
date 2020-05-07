@@ -1,5 +1,10 @@
 # @expo-google-fonts/volkhov
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/volkhov)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/volkhov)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/volkhov)
+
 This package lets you use the [**Volkhov**](https://fonts.google.com/specimen/Volkhov) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -15,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Volkhov_Bold700`
 - `Volkhov_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -74,7 +79,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Volkhov_Regular400
 ![Volkhov_Regular400](./a3fa059553ab62381a8974ef60376b4bad0e91f2d72092094e74fb1c2fcca886.ttf.png)
@@ -89,7 +94,7 @@ export default () => {
 ![Volkhov_Bold700_Italic](./0db6f541c0e1a1f792feaacd69708e50b99aabf1ada6028e80fca14cfafe030c.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -98,7 +103,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/volkhov` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Volkhov page on Google Fonts](https://fonts.google.com/specimen/Volkhov) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Volkhov on Google Fonts](https://fonts.google.com/specimen/Volkhov)
 - [Google Fonts](https://fonts.google.com/)

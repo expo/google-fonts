@@ -1,5 +1,10 @@
 # @expo-google-fonts/farro
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/farro)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/farro)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/farro)
+
 This package lets you use the [**Farro**](https://fonts.google.com/specimen/Farro) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -15,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Farro_Medium500`
 - `Farro_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -74,7 +79,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Farro_Light300
 ![Farro_Light300](./ca8a2c854888fbeb59e572d229d903a5793ba08741fb5effc6484dad0baca84b.ttf.png)
@@ -89,7 +94,7 @@ export default () => {
 ![Farro_Bold700](./f000197888095e4fccd58e6e7af75f410a611fe4292e359d52d9110505fb0373.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -98,7 +103,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/farro` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Farro page on Google Fonts](https://fonts.google.com/specimen/Farro) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Farro on Google Fonts](https://fonts.google.com/specimen/Farro)
 - [Google Fonts](https://fonts.google.com/)

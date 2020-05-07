@@ -1,5 +1,10 @@
 # @expo-google-fonts/red-hat-display
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/red-hat-display)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/red-hat-display)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/red-hat-display)
+
 This package lets you use the [**Red Hat Display**](https://fonts.google.com/specimen/Red+Hat+Display) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -19,7 +24,7 @@ This font family contains [8 styles](#gallery).
 - `RedHatDisplay_Black900`
 - `RedHatDisplay_Black900_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -102,7 +107,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### RedHatDisplay_Regular400
 ![RedHatDisplay_Regular400](./675f7abfa369dc6992d9baf79751a6887711f613b7b4783502dbc42d135ad755.ttf.png)
@@ -129,7 +134,7 @@ export default () => {
 ![RedHatDisplay_Black900_Italic](./ea4b150dc2f0ba9a550b1a93217bc8dd275a6534aca092096abff10a4751dab1.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -138,7 +143,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/red-hat-display` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Red Hat Display page on Google Fonts](https://fonts.google.com/specimen/Red+Hat+Display) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Red Hat Display on Google Fonts](https://fonts.google.com/specimen/Red+Hat+Display)
 - [Google Fonts](https://fonts.google.com/)

@@ -1,5 +1,10 @@
 # @expo-google-fonts/maven-pro
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/maven-pro)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/maven-pro)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/maven-pro)
+
 This package lets you use the [**Maven Pro**](https://fonts.google.com/specimen/Maven+Pro) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -15,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `MavenPro_Bold700`
 - `MavenPro_Black900`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -74,7 +79,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### MavenPro_Regular400
 ![MavenPro_Regular400](./20ff29ac0e19858eec2689ee81f18e45489d0afec4b61a21036d0c755edafcd7.ttf.png)
@@ -89,7 +94,7 @@ export default () => {
 ![MavenPro_Black900](./9a922f263eff247f7ccc3823865c2b9241e10c305b6c64b3754dbb06ce6b5e33.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -98,7 +103,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/maven-pro` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Maven Pro page on Google Fonts](https://fonts.google.com/specimen/Maven+Pro) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Maven Pro on Google Fonts](https://fonts.google.com/specimen/Maven+Pro)
 - [Google Fonts](https://fonts.google.com/)

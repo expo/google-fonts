@@ -1,5 +1,10 @@
 # @expo-google-fonts/tillana
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/tillana)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/tillana)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/tillana)
+
 This package lets you use the [**Tillana**](https://fonts.google.com/specimen/Tillana) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -16,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `Tillana_Bold700`
 - `Tillana_ExtraBold800`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -81,7 +86,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Tillana_Regular400
 ![Tillana_Regular400](./f767b3a50e7fbd85244228fd72776e996704c5b833256c5fa56b782821e015af.ttf.png)
@@ -99,7 +104,7 @@ export default () => {
 ![Tillana_ExtraBold800](./df261f8eeab47304d5e83ee3d77bba8193f51bd098bab3370180417296143318.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -108,7 +113,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/tillana` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Tillana page on Google Fonts](https://fonts.google.com/specimen/Tillana) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Tillana on Google Fonts](https://fonts.google.com/specimen/Tillana)
 - [Google Fonts](https://fonts.google.com/)

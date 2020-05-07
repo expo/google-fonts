@@ -1,5 +1,10 @@
 # @expo-google-fonts/zhi-mang-xing
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/zhi-mang-xing)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/zhi-mang-xing)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/zhi-mang-xing)
+
 This package lets you use the [**Zhi Mang Xing**](https://fonts.google.com/specimen/Zhi+Mang+Xing) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -12,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `ZhiMangXing_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -51,13 +56,13 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### ZhiMangXing_Regular400
 ![ZhiMangXing_Regular400](./f1191a3228f8532e0c3269311dad5b9b1fcdc6dbcfe7f9e3cc506a30fda24d1b.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -66,7 +71,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/zhi-mang-xing` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Zhi Mang Xing page on Google Fonts](https://fonts.google.com/specimen/Zhi+Mang+Xing) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Zhi Mang Xing on Google Fonts](https://fonts.google.com/specimen/Zhi+Mang+Xing)
 - [Google Fonts](https://fonts.google.com/)

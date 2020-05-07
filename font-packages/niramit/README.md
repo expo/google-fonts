@@ -1,5 +1,10 @@
 # @expo-google-fonts/niramit
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/niramit)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/niramit)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/niramit)
+
 This package lets you use the [**Niramit**](https://fonts.google.com/specimen/Niramit) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -23,7 +28,7 @@ This font family contains [12 styles](#gallery).
 - `Niramit_Bold700`
 - `Niramit_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -130,7 +135,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Niramit_ExtraLight200
 ![Niramit_ExtraLight200](./e92669e514d741863c49ee66189090f4d5dca5b6a9d34ccbe435b2f5af660c42.ttf.png)
@@ -169,7 +174,7 @@ export default () => {
 ![Niramit_Bold700_Italic](./2d5a53eeb80546748e52c84452b17b60d1e4abfcd7e01f6d6f909ad0446c9f19.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -178,7 +183,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/niramit` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Niramit page on Google Fonts](https://fonts.google.com/specimen/Niramit) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Niramit on Google Fonts](https://fonts.google.com/specimen/Niramit)
 - [Google Fonts](https://fonts.google.com/)

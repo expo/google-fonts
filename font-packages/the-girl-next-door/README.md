@@ -1,5 +1,10 @@
 # @expo-google-fonts/the-girl-next-door
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/the-girl-next-door)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/the-girl-next-door)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/the-girl-next-door)
+
 This package lets you use the [**The Girl Next Door**](https://fonts.google.com/specimen/The+Girl+Next+Door) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -12,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `TheGirlNextDoor_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -51,13 +56,13 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### TheGirlNextDoor_Regular400
 ![TheGirlNextDoor_Regular400](./51c93d3ab1885507b024f2ed61854dbb865696dcb5dbdfd1b135cefd74150fef.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -66,7 +71,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/the-girl-next-door` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [The Girl Next Door page on Google Fonts](https://fonts.google.com/specimen/The+Girl+Next+Door) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [The Girl Next Door on Google Fonts](https://fonts.google.com/specimen/The+Girl+Next+Door)
 - [Google Fonts](https://fonts.google.com/)

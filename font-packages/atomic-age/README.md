@@ -1,5 +1,10 @@
 # @expo-google-fonts/atomic-age
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/atomic-age)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/atomic-age)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/atomic-age)
+
 This package lets you use the [**Atomic Age**](https://fonts.google.com/specimen/Atomic+Age) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -12,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `AtomicAge_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -51,13 +56,13 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### AtomicAge_Regular400
 ![AtomicAge_Regular400](./6fc59a494c6184d973d9d5db8ec698d8acb6283fc807bd1a13c30000b83b832c.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -66,7 +71,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/atomic-age` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Atomic Age page on Google Fonts](https://fonts.google.com/specimen/Atomic+Age) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Atomic Age on Google Fonts](https://fonts.google.com/specimen/Atomic+Age)
 - [Google Fonts](https://fonts.google.com/)

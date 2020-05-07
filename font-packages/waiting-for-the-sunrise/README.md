@@ -1,5 +1,10 @@
 # @expo-google-fonts/waiting-for-the-sunrise
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/waiting-for-the-sunrise)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/waiting-for-the-sunrise)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/waiting-for-the-sunrise)
+
 This package lets you use the [**Waiting for the Sunrise**](https://fonts.google.com/specimen/Waiting+for+the+Sunrise) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -12,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `WaitingfortheSunrise_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -51,13 +56,13 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### WaitingfortheSunrise_Regular400
 ![WaitingfortheSunrise_Regular400](./5d952514968d1ce922a541f2099d884967f1970682676c3f1cca1b4668f07ff1.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -66,7 +71,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/waiting-for-the-sunrise` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Waiting for the Sunrise page on Google Fonts](https://fonts.google.com/specimen/Waiting+for+the+Sunrise) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Waiting for the Sunrise on Google Fonts](https://fonts.google.com/specimen/Waiting+for+the+Sunrise)
 - [Google Fonts](https://fonts.google.com/)

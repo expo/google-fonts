@@ -1,5 +1,10 @@
 # @expo-google-fonts/pragati-narrow
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/pragati-narrow)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/pragati-narrow)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/pragati-narrow)
+
 This package lets you use the [**Pragati Narrow**](https://fonts.google.com/specimen/Pragati+Narrow) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `PragatiNarrow_Regular400`
 - `PragatiNarrow_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### PragatiNarrow_Regular400
 ![PragatiNarrow_Regular400](./1778fbb91f3825af5daf5dfe6d44737ee48e6c63a95f25348b39ccb9fcda8fb6.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![PragatiNarrow_Bold700](./9e7b8eb47eaef49ea50a19115bddfaf35aebf2f4577f8a3b9cab531595bc97ef.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/pragati-narrow` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Pragati Narrow page on Google Fonts](https://fonts.google.com/specimen/Pragati+Narrow) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Pragati Narrow on Google Fonts](https://fonts.google.com/specimen/Pragati+Narrow)
 - [Google Fonts](https://fonts.google.com/)

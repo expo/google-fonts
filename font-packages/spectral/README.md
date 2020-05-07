@@ -1,5 +1,10 @@
 # @expo-google-fonts/spectral
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/spectral)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/spectral)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/spectral)
+
 This package lets you use the [**Spectral**](https://fonts.google.com/specimen/Spectral) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -25,7 +30,7 @@ This font family contains [14 styles](#gallery).
 - `Spectral_ExtraBold800`
 - `Spectral_ExtraBold800_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -144,7 +149,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Spectral_ExtraLight200
 ![Spectral_ExtraLight200](./38faebd2b01ddd2e497f09028eb10210de56ffadde5c5842c2f70a195865e869.ttf.png)
@@ -189,7 +194,7 @@ export default () => {
 ![Spectral_ExtraBold800_Italic](./528018df6d31607eec08ae87cd710edd29678dd7b9a2946b21fe5c2f725d95e5.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -198,7 +203,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/spectral` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Spectral page on Google Fonts](https://fonts.google.com/specimen/Spectral) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Spectral on Google Fonts](https://fonts.google.com/specimen/Spectral)
 - [Google Fonts](https://fonts.google.com/)

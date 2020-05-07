@@ -1,5 +1,10 @@
 # @expo-google-fonts/judson
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/judson)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/judson)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/judson)
+
 This package lets you use the [**Judson**](https://fonts.google.com/specimen/Judson) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -14,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `Judson_Regular400_Italic`
 - `Judson_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -67,7 +72,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Judson_Regular400
 ![Judson_Regular400](./a0e44f8bee5db23549c40c2bdd46ee689a1d4427410df98883638059880eb73b.ttf.png)
@@ -79,7 +84,7 @@ export default () => {
 ![Judson_Bold700](./b39af14b252a5cb398202d4738e995ef23ad94afe48fbd78fac58759d298f49e.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -88,7 +93,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/judson` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Judson page on Google Fonts](https://fonts.google.com/specimen/Judson) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Judson on Google Fonts](https://fonts.google.com/specimen/Judson)
 - [Google Fonts](https://fonts.google.com/)

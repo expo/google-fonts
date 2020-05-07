@@ -1,5 +1,10 @@
 # @expo-google-fonts/open-sans
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/open-sans)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/open-sans)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/open-sans)
+
 This package lets you use the [**Open Sans**](https://fonts.google.com/specimen/Open+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -21,7 +26,7 @@ This font family contains [10 styles](#gallery).
 - `OpenSans_ExtraBold800`
 - `OpenSans_ExtraBold800_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -116,7 +121,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### OpenSans_Light300
 ![OpenSans_Light300](./eacd6dddc04472f7143fcfe208f2e1bcd372f6baa8574529deaa2d5961e4d990.ttf.png)
@@ -149,7 +154,7 @@ export default () => {
 ![OpenSans_ExtraBold800_Italic](./22818920197a7a95e75e2f91378fcc7e5f802f6067e933050b85732b71e3755e.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -158,7 +163,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/open-sans` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Open Sans page on Google Fonts](https://fonts.google.com/specimen/Open+Sans) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Open Sans on Google Fonts](https://fonts.google.com/specimen/Open+Sans)
 - [Google Fonts](https://fonts.google.com/)

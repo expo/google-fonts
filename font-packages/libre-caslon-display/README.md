@@ -1,5 +1,10 @@
 # @expo-google-fonts/libre-caslon-display
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/libre-caslon-display)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/libre-caslon-display)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/libre-caslon-display)
+
 This package lets you use the [**Libre Caslon Display**](https://fonts.google.com/specimen/Libre+Caslon+Display) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -12,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `LibreCaslonDisplay_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -51,13 +56,13 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### LibreCaslonDisplay_Regular400
 ![LibreCaslonDisplay_Regular400](./c30a6ef1396c17e855a72b95f2848b064fceedce5de3bc974c99f5a75c48148f.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -66,7 +71,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/libre-caslon-display` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Libre Caslon Display page on Google Fonts](https://fonts.google.com/specimen/Libre+Caslon+Display) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Libre Caslon Display on Google Fonts](https://fonts.google.com/specimen/Libre+Caslon+Display)
 - [Google Fonts](https://fonts.google.com/)

@@ -1,5 +1,10 @@
 # @expo-google-fonts/saira
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/saira)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/saira)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/saira)
+
 This package lets you use the [**Saira**](https://fonts.google.com/specimen/Saira) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -20,7 +25,7 @@ This font family contains [9 styles](#gallery).
 - `Saira_ExtraBold800`
 - `Saira_Black900`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -109,7 +114,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Saira_Thin100
 ![Saira_Thin100](./b6d764b20e47ac3d6764acfa56dcca309c570f72779558c6c85b227d3d52c1a9.ttf.png)
@@ -139,7 +144,7 @@ export default () => {
 ![Saira_Black900](./784cb5c4c9a4355b55b1f819414b962800d401a312f0874e035e90ba2d1ebeb8.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -148,7 +153,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/saira` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Saira page on Google Fonts](https://fonts.google.com/specimen/Saira) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Saira on Google Fonts](https://fonts.google.com/specimen/Saira)
 - [Google Fonts](https://fonts.google.com/)

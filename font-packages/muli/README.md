@@ -1,5 +1,10 @@
 # @expo-google-fonts/muli
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/muli)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/muli)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/muli)
+
 This package lets you use the [**Muli**](https://fonts.google.com/specimen/Muli) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -25,7 +30,7 @@ This font family contains [14 styles](#gallery).
 - `Muli_Black900`
 - `Muli_Black900_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -142,7 +147,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Muli_ExtraLight200
 ![Muli_ExtraLight200](./dbcba4190351f997830d7652727c7f42e0c882f325d1f75ba8a3c606f8ab0e23.ttf.png)
@@ -187,7 +192,7 @@ export default () => {
 ![Muli_Black900_Italic](./c1c38c7b31e983faf9ac1ba63d8a98cb93cdf7c854abd833e826a7bea94248c6.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -196,7 +201,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/muli` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Muli page on Google Fonts](https://fonts.google.com/specimen/Muli) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Muli on Google Fonts](https://fonts.google.com/specimen/Muli)
 - [Google Fonts](https://fonts.google.com/)

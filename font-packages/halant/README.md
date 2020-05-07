@@ -1,5 +1,10 @@
 # @expo-google-fonts/halant
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/halant)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/halant)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/halant)
+
 This package lets you use the [**Halant**](https://fonts.google.com/specimen/Halant) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -16,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `Halant_SemiBold600`
 - `Halant_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -81,7 +86,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Halant_Light300
 ![Halant_Light300](./efbf1567d1ee285b609cc33198f6bf85b75ffc137871c0c74b770bda82fe5f96.ttf.png)
@@ -99,7 +104,7 @@ export default () => {
 ![Halant_Bold700](./4d09a5ce42fc23e8619b6c817a9bc5522bc64ede74b5a75d99fe2815244ca6a8.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -108,7 +113,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/halant` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Halant page on Google Fonts](https://fonts.google.com/specimen/Halant) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Halant on Google Fonts](https://fonts.google.com/specimen/Halant)
 - [Google Fonts](https://fonts.google.com/)

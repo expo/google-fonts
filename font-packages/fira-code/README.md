@@ -1,5 +1,10 @@
 # @expo-google-fonts/fira-code
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/fira-code)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/fira-code)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/fira-code)
+
 This package lets you use the [**Fira Code**](https://fonts.google.com/specimen/Fira+Code) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -16,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `FiraCode_SemiBold600`
 - `FiraCode_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -81,7 +86,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### FiraCode_Light300
 ![FiraCode_Light300](./53d9824e306c207a6de228abf02372c59c9b2166fc2a5b38d40d9f8b2cca4f53.ttf.png)
@@ -99,7 +104,7 @@ export default () => {
 ![FiraCode_Bold700](./e534947b075377251fa622cf2ae6881dd4073346a5fefda144b1406f45b9ade9.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -108,7 +113,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/fira-code` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Fira Code page on Google Fonts](https://fonts.google.com/specimen/Fira+Code) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Fira Code on Google Fonts](https://fonts.google.com/specimen/Fira+Code)
 - [Google Fonts](https://fonts.google.com/)

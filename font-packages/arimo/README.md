@@ -1,5 +1,10 @@
 # @expo-google-fonts/arimo
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/arimo)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/arimo)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/arimo)
+
 This package lets you use the [**Arimo**](https://fonts.google.com/specimen/Arimo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -15,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Arimo_Bold700`
 - `Arimo_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -74,7 +79,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Arimo_Regular400
 ![Arimo_Regular400](./df255da5c656bbf01f4aa3012b4d4ba16f7bd17664a4e1fc011146a4eb95d436.ttf.png)
@@ -89,7 +94,7 @@ export default () => {
 ![Arimo_Bold700_Italic](./e6b358f015564a1505c76b32db9b3f5c538a8f7d220dd04446697d286c820bf0.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -98,7 +103,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/arimo` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Arimo page on Google Fonts](https://fonts.google.com/specimen/Arimo) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Arimo on Google Fonts](https://fonts.google.com/specimen/Arimo)
 - [Google Fonts](https://fonts.google.com/)

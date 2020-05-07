@@ -1,5 +1,10 @@
 # @expo-google-fonts/oldenburg
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/oldenburg)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/oldenburg)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/oldenburg)
+
 This package lets you use the [**Oldenburg**](https://fonts.google.com/specimen/Oldenburg) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -12,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `Oldenburg_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -51,13 +56,13 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Oldenburg_Regular400
 ![Oldenburg_Regular400](./f8c67d292b49c2c0beb3655aa66d9ec6090cc7c03dcfd25c4dbc5518bc9c2ba4.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -66,7 +71,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/oldenburg` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Oldenburg page on Google Fonts](https://fonts.google.com/specimen/Oldenburg) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Oldenburg on Google Fonts](https://fonts.google.com/specimen/Oldenburg)
 - [Google Fonts](https://fonts.google.com/)

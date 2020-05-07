@@ -1,5 +1,10 @@
 # @expo-google-fonts/public-sans
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/public-sans)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/public-sans)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/public-sans)
+
 This package lets you use the [**Public Sans**](https://fonts.google.com/specimen/Public+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -29,7 +34,7 @@ This font family contains [18 styles](#gallery).
 - `PublicSans_ExtraBold800_Italic`
 - `PublicSans_Black900_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -172,7 +177,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### PublicSans_Thin100
 ![PublicSans_Thin100](./bbeb9408fbfe9d5d9ce8fbafbfc03c6b6cdf568002d0617c5ba2e7a7ed4e2927.ttf.png)
@@ -229,7 +234,7 @@ export default () => {
 ![PublicSans_Black900_Italic](./0b536907db7c2710ae92a77a16a1a413f3527e60b0fcc442d4f74513b6249e69.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -238,7 +243,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/public-sans` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Public Sans page on Google Fonts](https://fonts.google.com/specimen/Public+Sans) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Public Sans on Google Fonts](https://fonts.google.com/specimen/Public+Sans)
 - [Google Fonts](https://fonts.google.com/)

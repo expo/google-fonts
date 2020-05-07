@@ -1,5 +1,10 @@
 # @expo-google-fonts/gaegu
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/gaegu)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/gaegu)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/gaegu)
+
 This package lets you use the [**Gaegu**](https://fonts.google.com/specimen/Gaegu) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -14,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `Gaegu_Regular400`
 - `Gaegu_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -63,7 +68,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Gaegu_Light300
 ![Gaegu_Light300](./4b15c05b09479751067fd7c35435678b929504ea6e4a7e996ab5d09a77df6a9c.ttf.png)
@@ -75,7 +80,7 @@ export default () => {
 ![Gaegu_Bold700](./047c721d06b371ebfb6f94beb758b1de181d8afc8c8e6eca6829405bd8a1cb91.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -84,7 +89,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/gaegu` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Gaegu page on Google Fonts](https://fonts.google.com/specimen/Gaegu) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Gaegu on Google Fonts](https://fonts.google.com/specimen/Gaegu)
 - [Google Fonts](https://fonts.google.com/)

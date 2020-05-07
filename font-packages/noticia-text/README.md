@@ -1,5 +1,10 @@
 # @expo-google-fonts/noticia-text
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noticia-text)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noticia-text)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noticia-text)
+
 This package lets you use the [**Noticia Text**](https://fonts.google.com/specimen/Noticia+Text) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -15,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `NoticiaText_Bold700`
 - `NoticiaText_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -74,7 +79,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### NoticiaText_Regular400
 ![NoticiaText_Regular400](./8aa05df6db1fd8277eb2791ce573473314c741b8b6b0779c1f5156a33c24e54c.ttf.png)
@@ -89,7 +94,7 @@ export default () => {
 ![NoticiaText_Bold700_Italic](./89293c9cb0897a9fbf4e63241a6b72e62599bf45fe58a6163b953a9c980ad1f8.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -98,7 +103,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/noticia-text` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Noticia Text page on Google Fonts](https://fonts.google.com/specimen/Noticia+Text) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Noticia Text on Google Fonts](https://fonts.google.com/specimen/Noticia+Text)
 - [Google Fonts](https://fonts.google.com/)

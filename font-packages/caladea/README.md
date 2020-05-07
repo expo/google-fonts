@@ -1,5 +1,10 @@
 # @expo-google-fonts/caladea
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/caladea)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/caladea)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/caladea)
+
 This package lets you use the [**Caladea**](https://fonts.google.com/specimen/Caladea) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -15,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Caladea_Bold700`
 - `Caladea_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -74,7 +79,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Caladea_Regular400
 ![Caladea_Regular400](./60f1d4e3a572497f3530ac2ae1478709e606b3bdaaa56f97fd7efbc48e01de08.ttf.png)
@@ -89,7 +94,7 @@ export default () => {
 ![Caladea_Bold700_Italic](./0d6a8296a9489017c434820f994212d73ffe43b80bc9b3913f0eec7a4b3d4ed5.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -98,7 +103,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/caladea` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Caladea page on Google Fonts](https://fonts.google.com/specimen/Caladea) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Caladea on Google Fonts](https://fonts.google.com/specimen/Caladea)
 - [Google Fonts](https://fonts.google.com/)

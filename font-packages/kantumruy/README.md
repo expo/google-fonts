@@ -1,5 +1,10 @@
 # @expo-google-fonts/kantumruy
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/kantumruy)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/kantumruy)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/kantumruy)
+
 This package lets you use the [**Kantumruy**](https://fonts.google.com/specimen/Kantumruy) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -14,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `Kantumruy_Regular400`
 - `Kantumruy_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -67,7 +72,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Kantumruy_Light300
 ![Kantumruy_Light300](./b1d181333c6beb8df855376481f36dcaa1e27f9c6fe7ba0c990035a73aca6686.ttf.png)
@@ -79,7 +84,7 @@ export default () => {
 ![Kantumruy_Bold700](./6e6b33a5b9d03c7ed3f4e94d9704262ca70dc513ac1f129964f79ccddba04e06.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -88,7 +93,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/kantumruy` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Kantumruy page on Google Fonts](https://fonts.google.com/specimen/Kantumruy) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Kantumruy on Google Fonts](https://fonts.google.com/specimen/Kantumruy)
 - [Google Fonts](https://fonts.google.com/)

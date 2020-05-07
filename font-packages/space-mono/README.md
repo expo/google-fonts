@@ -1,5 +1,10 @@
 # @expo-google-fonts/space-mono
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/space-mono)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/space-mono)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/space-mono)
+
 This package lets you use the [**Space Mono**](https://fonts.google.com/specimen/Space+Mono) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -15,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `SpaceMono_Bold700`
 - `SpaceMono_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -74,7 +79,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### SpaceMono_Regular400
 ![SpaceMono_Regular400](./1308fd8bd0f79e0517319bf0429226dfce5ae67beb495577737524f29b537527.ttf.png)
@@ -89,7 +94,7 @@ export default () => {
 ![SpaceMono_Bold700_Italic](./ec50d2d9cc5bbed72fae03e2bc8a720e2cca1324f8bc99b30089d51896917f0e.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -98,7 +103,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/space-mono` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Space Mono page on Google Fonts](https://fonts.google.com/specimen/Space+Mono) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Space Mono on Google Fonts](https://fonts.google.com/specimen/Space+Mono)
 - [Google Fonts](https://fonts.google.com/)

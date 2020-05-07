@@ -1,5 +1,10 @@
 # @expo-google-fonts/mansalva
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/mansalva)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/mansalva)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/mansalva)
+
 This package lets you use the [**Mansalva**](https://fonts.google.com/specimen/Mansalva) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -12,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `Mansalva_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -51,13 +56,13 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Mansalva_Regular400
 ![Mansalva_Regular400](./7918b7006d7a856d653dd2465a093d28c6a2fd94aca6109ecd700d5e4c09dc7e.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -66,7 +71,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/mansalva` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Mansalva page on Google Fonts](https://fonts.google.com/specimen/Mansalva) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Mansalva on Google Fonts](https://fonts.google.com/specimen/Mansalva)
 - [Google Fonts](https://fonts.google.com/)

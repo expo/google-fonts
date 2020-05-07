@@ -1,5 +1,10 @@
 # @expo-google-fonts/rosarivo
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/rosarivo)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/rosarivo)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/rosarivo)
+
 This package lets you use the [**Rosarivo**](https://fonts.google.com/specimen/Rosarivo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Rosarivo_Regular400`
 - `Rosarivo_Regular400_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Rosarivo_Regular400
 ![Rosarivo_Regular400](./d5878b2fc902263df1fa49b327526cf9d20d935600e9d19b05ed00453639dd2e.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![Rosarivo_Regular400_Italic](./0decb12337d01f7da972a8999c759b44d150a6b4da6f78459c1fc7732df0e5ea.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/rosarivo` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Rosarivo page on Google Fonts](https://fonts.google.com/specimen/Rosarivo) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Rosarivo on Google Fonts](https://fonts.google.com/specimen/Rosarivo)
 - [Google Fonts](https://fonts.google.com/)

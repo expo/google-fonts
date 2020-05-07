@@ -1,5 +1,10 @@
 # @expo-google-fonts/mako
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/mako)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/mako)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/mako)
+
 This package lets you use the [**Mako**](https://fonts.google.com/specimen/Mako) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -12,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `Mako_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -51,13 +56,13 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Mako_Regular400
 ![Mako_Regular400](./db4609e335050755bb95ce1a179f4666e1a93d3fac9c679e99d96b472582d0a1.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -66,7 +71,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/mako` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Mako page on Google Fonts](https://fonts.google.com/specimen/Mako) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Mako on Google Fonts](https://fonts.google.com/specimen/Mako)
 - [Google Fonts](https://fonts.google.com/)

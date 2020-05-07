@@ -1,5 +1,10 @@
 # @expo-google-fonts/blinker
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/blinker)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/blinker)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/blinker)
+
 This package lets you use the [**Blinker**](https://fonts.google.com/specimen/Blinker) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -19,7 +24,7 @@ This font family contains [8 styles](#gallery).
 - `Blinker_ExtraBold800`
 - `Blinker_Black900`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -102,7 +107,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Blinker_Thin100
 ![Blinker_Thin100](./7c240948a3fc8d5d8689c3a63f7f8ebc6306f7c85e807823569843f0f54195f9.ttf.png)
@@ -129,7 +134,7 @@ export default () => {
 ![Blinker_Black900](./1d02003dcc4ca64b3de96560fffcdd9e05125270589caabebc0da78d05d0f61e.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -138,7 +143,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/blinker` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Blinker page on Google Fonts](https://fonts.google.com/specimen/Blinker) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Blinker on Google Fonts](https://fonts.google.com/specimen/Blinker)
 - [Google Fonts](https://fonts.google.com/)

@@ -1,5 +1,10 @@
 # @expo-google-fonts/fondamento
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/fondamento)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/fondamento)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/fondamento)
+
 This package lets you use the [**Fondamento**](https://fonts.google.com/specimen/Fondamento) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Fondamento_Regular400`
 - `Fondamento_Regular400_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Fondamento_Regular400
 ![Fondamento_Regular400](./75f9d66c336050a69b4366a5bd1cd8d8a0a5b7338dddd16b9af1f679ed3f6543.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![Fondamento_Regular400_Italic](./78976bc375126e59b80ff99b8d26195e4332d5cc86505149fc21d183b60e8340.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/fondamento` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Fondamento page on Google Fonts](https://fonts.google.com/specimen/Fondamento) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Fondamento on Google Fonts](https://fonts.google.com/specimen/Fondamento)
 - [Google Fonts](https://fonts.google.com/)

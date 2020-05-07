@@ -1,5 +1,10 @@
 # @expo-google-fonts/crimson-text
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/crimson-text)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/crimson-text)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/crimson-text)
+
 This package lets you use the [**Crimson Text**](https://fonts.google.com/specimen/Crimson+Text) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -17,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `CrimsonText_Bold700`
 - `CrimsonText_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -88,7 +93,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### CrimsonText_Regular400
 ![CrimsonText_Regular400](./883d56072155a485051564cd3019bb34a608ddfa0553e2295413e7a59c67bd28.ttf.png)
@@ -109,7 +114,7 @@ export default () => {
 ![CrimsonText_Bold700_Italic](./c79dc3f51f37e16300b571c6835d06bff022a018b65d9ea69f1f897137acc238.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -118,7 +123,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/crimson-text` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Crimson Text page on Google Fonts](https://fonts.google.com/specimen/Crimson+Text) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Crimson Text on Google Fonts](https://fonts.google.com/specimen/Crimson+Text)
 - [Google Fonts](https://fonts.google.com/)

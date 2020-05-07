@@ -1,5 +1,10 @@
 # @expo-google-fonts/exo
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/exo)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/exo)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/exo)
+
 This package lets you use the [**Exo**](https://fonts.google.com/specimen/Exo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -29,7 +34,7 @@ This font family contains [18 styles](#gallery).
 - `Exo_Black900`
 - `Exo_Black900_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -164,7 +169,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Exo_Thin100
 ![Exo_Thin100](./2eda7d4b0bab32b1724ead985ca4ab23ba46b1647e60b50df836f3e142105e85.ttf.png)
@@ -221,7 +226,7 @@ export default () => {
 ![Exo_Black900_Italic](./5a6cc3dfdcfe4e6990da4fa3f55a861ed2ae701a0ae1a30d30b23daafa215604.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -230,7 +235,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/exo` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Exo page on Google Fonts](https://fonts.google.com/specimen/Exo) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Exo on Google Fonts](https://fonts.google.com/specimen/Exo)
 - [Google Fonts](https://fonts.google.com/)

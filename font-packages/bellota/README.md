@@ -1,5 +1,10 @@
 # @expo-google-fonts/bellota
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/bellota)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/bellota)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/bellota)
+
 This package lets you use the [**Bellota**](https://fonts.google.com/specimen/Bellota) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -17,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `Bellota_Bold700`
 - `Bellota_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -88,7 +93,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Bellota_Light300
 ![Bellota_Light300](./29b1164370f0eca544e3c2cb64f06324bd098c99c35f5ecdd5527d6642e5a78f.ttf.png)
@@ -109,7 +114,7 @@ export default () => {
 ![Bellota_Bold700_Italic](./e876bb51e7fba1f8fadcef59f4b68e3020a0909557cef70a98c84253c9e32f2f.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -118,7 +123,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/bellota` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Bellota page on Google Fonts](https://fonts.google.com/specimen/Bellota) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Bellota on Google Fonts](https://fonts.google.com/specimen/Bellota)
 - [Google Fonts](https://fonts.google.com/)

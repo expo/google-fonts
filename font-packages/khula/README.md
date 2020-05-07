@@ -1,5 +1,10 @@
 # @expo-google-fonts/khula
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/khula)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/khula)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/khula)
+
 This package lets you use the [**Khula**](https://fonts.google.com/specimen/Khula) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -16,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `Khula_Bold700`
 - `Khula_ExtraBold800`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -81,7 +86,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Khula_Light300
 ![Khula_Light300](./565c281fe5c11e451834dd30eda6e6d94a41c1a9c186c175541aa8ddef492d4f.ttf.png)
@@ -99,7 +104,7 @@ export default () => {
 ![Khula_ExtraBold800](./976ee869557699be72a4b83bbb3362cc7be7de27930b5b671210b69063a49d2f.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -108,7 +113,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/khula` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Khula page on Google Fonts](https://fonts.google.com/specimen/Khula) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Khula on Google Fonts](https://fonts.google.com/specimen/Khula)
 - [Google Fonts](https://fonts.google.com/)

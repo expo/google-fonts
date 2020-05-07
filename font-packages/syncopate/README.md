@@ -1,5 +1,10 @@
 # @expo-google-fonts/syncopate
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/syncopate)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/syncopate)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/syncopate)
+
 This package lets you use the [**Syncopate**](https://fonts.google.com/specimen/Syncopate) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Syncopate_Regular400`
 - `Syncopate_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Syncopate_Regular400
 ![Syncopate_Regular400](./8f40fe696b566662712524f9cf3f5c4aff3afa640f0bd4ec0e527c22369561a9.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![Syncopate_Bold700](./0c6b8fb391ff34b292bb2091302fb45fcc3b16eefc6bf4e67b9f1fe38f4ab3fe.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/syncopate` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Syncopate page on Google Fonts](https://fonts.google.com/specimen/Syncopate) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Syncopate on Google Fonts](https://fonts.google.com/specimen/Syncopate)
 - [Google Fonts](https://fonts.google.com/)

@@ -1,5 +1,10 @@
 # @expo-google-fonts/tomorrow
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/tomorrow)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/tomorrow)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/tomorrow)
+
 This package lets you use the [**Tomorrow**](https://fonts.google.com/specimen/Tomorrow) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -29,7 +34,7 @@ This font family contains [18 styles](#gallery).
 - `Tomorrow_Black900`
 - `Tomorrow_Black900_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -172,7 +177,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Tomorrow_Thin100
 ![Tomorrow_Thin100](./2bf064837570b16e64b6e16bb607ccd32e353ea52ff1860fd61a0de72f6a5ea0.ttf.png)
@@ -229,7 +234,7 @@ export default () => {
 ![Tomorrow_Black900_Italic](./84a0fcf0b30441638a28059e5e836a2441bbd5f51553c29ae163f37af0e07b6e.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -238,7 +243,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/tomorrow` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Tomorrow page on Google Fonts](https://fonts.google.com/specimen/Tomorrow) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Tomorrow on Google Fonts](https://fonts.google.com/specimen/Tomorrow)
 - [Google Fonts](https://fonts.google.com/)

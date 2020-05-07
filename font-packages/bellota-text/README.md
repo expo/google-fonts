@@ -1,5 +1,10 @@
 # @expo-google-fonts/bellota-text
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/bellota-text)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/bellota-text)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/bellota-text)
+
 This package lets you use the [**Bellota Text**](https://fonts.google.com/specimen/Bellota+Text) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -17,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `BellotaText_Bold700`
 - `BellotaText_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -88,7 +93,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### BellotaText_Light300
 ![BellotaText_Light300](./a0643b4ed7b9e5fe0a6023e98e3c731ac5ed3dd6a93688e6d319415902455806.ttf.png)
@@ -109,7 +114,7 @@ export default () => {
 ![BellotaText_Bold700_Italic](./ec9c1edafbe6c75409ba2200628821ee1f0dbad581d6f79db100aeb366b12ee4.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -118,7 +123,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/bellota-text` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Bellota Text page on Google Fonts](https://fonts.google.com/specimen/Bellota+Text) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Bellota Text on Google Fonts](https://fonts.google.com/specimen/Bellota+Text)
 - [Google Fonts](https://fonts.google.com/)

@@ -1,5 +1,10 @@
 # @expo-google-fonts/encode-sans-semi-condensed
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/encode-sans-semi-condensed)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/encode-sans-semi-condensed)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/encode-sans-semi-condensed)
+
 This package lets you use the [**Encode Sans Semi Condensed**](https://fonts.google.com/specimen/Encode+Sans+Semi+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -20,7 +25,7 @@ This font family contains [9 styles](#gallery).
 - `EncodeSansSemiCondensed_ExtraBold800`
 - `EncodeSansSemiCondensed_Black900`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -118,7 +123,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### EncodeSansSemiCondensed_Thin100
 ![EncodeSansSemiCondensed_Thin100](./05e33431ccd816003d590171a6110b72fc3f122c224c46c4f5339f4919b57873.ttf.png)
@@ -148,7 +153,7 @@ export default () => {
 ![EncodeSansSemiCondensed_Black900](./a7075bb5ddbdaca47f1356022fa375630ca868fc11d6ac6e53026c8bac0888b1.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -157,7 +162,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/encode-sans-semi-condensed` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Encode Sans Semi Condensed page on Google Fonts](https://fonts.google.com/specimen/Encode+Sans+Semi+Condensed) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Encode Sans Semi Condensed on Google Fonts](https://fonts.google.com/specimen/Encode+Sans+Semi+Condensed)
 - [Google Fonts](https://fonts.google.com/)

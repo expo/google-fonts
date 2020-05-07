@@ -1,5 +1,10 @@
 # @expo-google-fonts/dm-sans
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/dm-sans)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/dm-sans)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/dm-sans)
+
 This package lets you use the [**DM Sans**](https://fonts.google.com/specimen/DM+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -17,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `DMSans_Bold700`
 - `DMSans_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -88,7 +93,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### DMSans_Regular400
 ![DMSans_Regular400](./e518fdb0a5c0ebe0d1d1b02a9025067837e79d235418ab9dc8366e7ce87fad55.ttf.png)
@@ -109,7 +114,7 @@ export default () => {
 ![DMSans_Bold700_Italic](./579b8c8cd4a4fd71ee7ac563e399eacbcba63f3f8556516c95830d98bb9fbae9.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -118,7 +123,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/dm-sans` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [DM Sans page on Google Fonts](https://fonts.google.com/specimen/DM+Sans) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [DM Sans on Google Fonts](https://fonts.google.com/specimen/DM+Sans)
 - [Google Fonts](https://fonts.google.com/)

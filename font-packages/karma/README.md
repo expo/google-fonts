@@ -1,5 +1,10 @@
 # @expo-google-fonts/karma
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/karma)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/karma)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/karma)
+
 This package lets you use the [**Karma**](https://fonts.google.com/specimen/Karma) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -16,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `Karma_SemiBold600`
 - `Karma_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -81,7 +86,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Karma_Light300
 ![Karma_Light300](./3efd1dc089cbb099173fc03a8bfc22d406db0671888af830ca7137e548369989.ttf.png)
@@ -99,7 +104,7 @@ export default () => {
 ![Karma_Bold700](./132e41c0f90df6a2646b59a685af793e0ce62b2b64245d2db081d1ab1f6889e8.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -108,7 +113,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/karma` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Karma page on Google Fonts](https://fonts.google.com/specimen/Karma) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Karma on Google Fonts](https://fonts.google.com/specimen/Karma)
 - [Google Fonts](https://fonts.google.com/)

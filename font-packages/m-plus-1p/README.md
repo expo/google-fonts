@@ -1,5 +1,10 @@
 # @expo-google-fonts/m-plus-1p
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/m-plus-1p)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/m-plus-1p)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/m-plus-1p)
+
 This package lets you use the [**M PLUS 1p**](https://fonts.google.com/specimen/M+PLUS+1p) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -18,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `MPLUS1p_ExtraBold800`
 - `MPLUS1p_Black900`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -95,7 +100,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### MPLUS1p_Thin100
 ![MPLUS1p_Thin100](./0654233f2cc095bd1af48724031070c0b16e3dd46fc5c29bd87070d485b7a366.ttf.png)
@@ -119,7 +124,7 @@ export default () => {
 ![MPLUS1p_Black900](./21baffc573a6103dcd6c23b9ad751e3686f142c921212717fa3b4356e01a38bc.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -128,7 +133,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/m-plus-1p` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [M PLUS 1p page on Google Fonts](https://fonts.google.com/specimen/M+PLUS+1p) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [M PLUS 1p on Google Fonts](https://fonts.google.com/specimen/M+PLUS+1p)
 - [Google Fonts](https://fonts.google.com/)

@@ -1,5 +1,10 @@
 # @expo-google-fonts/alata
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/alata)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/alata)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/alata)
+
 This package lets you use the [**Alata**](https://fonts.google.com/specimen/Alata) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -12,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `Alata_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -51,13 +56,13 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Alata_Regular400
 ![Alata_Regular400](./0e69926cd849e08f0dfa58fa809a89d58262ec6a29e3dd4e2c59ea279301b12e.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -66,7 +71,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/alata` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Alata page on Google Fonts](https://fonts.google.com/specimen/Alata) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Alata on Google Fonts](https://fonts.google.com/specimen/Alata)
 - [Google Fonts](https://fonts.google.com/)

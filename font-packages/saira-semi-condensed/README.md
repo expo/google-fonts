@@ -1,5 +1,10 @@
 # @expo-google-fonts/saira-semi-condensed
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/saira-semi-condensed)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/saira-semi-condensed)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/saira-semi-condensed)
+
 This package lets you use the [**Saira Semi Condensed**](https://fonts.google.com/specimen/Saira+Semi+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -20,7 +25,7 @@ This font family contains [9 styles](#gallery).
 - `SairaSemiCondensed_ExtraBold800`
 - `SairaSemiCondensed_Black900`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -109,7 +114,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### SairaSemiCondensed_Thin100
 ![SairaSemiCondensed_Thin100](./6b2e6d1dd40d36454cc2926dcb4a1a5561eefd558ed4335da50334fe382ae95e.ttf.png)
@@ -139,7 +144,7 @@ export default () => {
 ![SairaSemiCondensed_Black900](./127a359a67e8fa386310e298528a130878d4284d08e3c7c34872f38bedbe6be5.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -148,7 +153,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/saira-semi-condensed` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Saira Semi Condensed page on Google Fonts](https://fonts.google.com/specimen/Saira+Semi+Condensed) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Saira Semi Condensed on Google Fonts](https://fonts.google.com/specimen/Saira+Semi+Condensed)
 - [Google Fonts](https://fonts.google.com/)

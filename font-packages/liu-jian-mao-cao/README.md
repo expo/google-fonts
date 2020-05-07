@@ -1,5 +1,10 @@
 # @expo-google-fonts/liu-jian-mao-cao
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/liu-jian-mao-cao)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/liu-jian-mao-cao)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/liu-jian-mao-cao)
+
 This package lets you use the [**Liu Jian Mao Cao**](https://fonts.google.com/specimen/Liu+Jian+Mao+Cao) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -12,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `LiuJianMaoCao_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -51,13 +56,13 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### LiuJianMaoCao_Regular400
 ![LiuJianMaoCao_Regular400](./b88821c3a72f98bbab2428a3b3f4a51c2f0eba1644fd8877d195afdf32143cdd.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -66,7 +71,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/liu-jian-mao-cao` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Liu Jian Mao Cao page on Google Fonts](https://fonts.google.com/specimen/Liu+Jian+Mao+Cao) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Liu Jian Mao Cao on Google Fonts](https://fonts.google.com/specimen/Liu+Jian+Mao+Cao)
 - [Google Fonts](https://fonts.google.com/)

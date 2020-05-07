@@ -1,5 +1,10 @@
 # @expo-google-fonts/rambla
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/rambla)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/rambla)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/rambla)
+
 This package lets you use the [**Rambla**](https://fonts.google.com/specimen/Rambla) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -15,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Rambla_Bold700`
 - `Rambla_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -74,7 +79,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Rambla_Regular400
 ![Rambla_Regular400](./8cc56fcd2e3777d5c3699b8db651965ee39a057e20813adb1a07b181a8511e65.ttf.png)
@@ -89,7 +94,7 @@ export default () => {
 ![Rambla_Bold700_Italic](./f20b77570105aff68e4179538c4243221228d9f13bc6eb988847fdf6800b97b4.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -98,7 +103,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/rambla` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Rambla page on Google Fonts](https://fonts.google.com/specimen/Rambla) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Rambla on Google Fonts](https://fonts.google.com/specimen/Rambla)
 - [Google Fonts](https://fonts.google.com/)

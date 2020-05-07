@@ -1,5 +1,10 @@
 # @expo-google-fonts/mukta-mahee
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/mukta-mahee)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/mukta-mahee)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/mukta-mahee)
+
 This package lets you use the [**Mukta Mahee**](https://fonts.google.com/specimen/Mukta+Mahee) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -18,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `MuktaMahee_Bold700`
 - `MuktaMahee_ExtraBold800`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -95,7 +100,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### MuktaMahee_ExtraLight200
 ![MuktaMahee_ExtraLight200](./deb2926281b06e4d02371cd3f6f4883d13a38514549e581c6269cb16250c5a63.ttf.png)
@@ -119,7 +124,7 @@ export default () => {
 ![MuktaMahee_ExtraBold800](./561a2604bd143dc10cc3499ba4e3c7eef16b6705db72db31da22ad356b76feb5.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -128,7 +133,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/mukta-mahee` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Mukta Mahee page on Google Fonts](https://fonts.google.com/specimen/Mukta+Mahee) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Mukta Mahee on Google Fonts](https://fonts.google.com/specimen/Mukta+Mahee)
 - [Google Fonts](https://fonts.google.com/)

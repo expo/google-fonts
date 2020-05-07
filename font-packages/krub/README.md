@@ -1,5 +1,10 @@
 # @expo-google-fonts/krub
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/krub)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/krub)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/krub)
+
 This package lets you use the [**Krub**](https://fonts.google.com/specimen/Krub) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -23,7 +28,7 @@ This font family contains [12 styles](#gallery).
 - `Krub_Bold700`
 - `Krub_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -128,7 +133,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Krub_ExtraLight200
 ![Krub_ExtraLight200](./e99da9729e8beb706a3f7dd95ff2b13b7e33f89ceabaf9f2330e61896b93fa39.ttf.png)
@@ -167,7 +172,7 @@ export default () => {
 ![Krub_Bold700_Italic](./bb202066513c0b7b93b2e8552d17feeaf2580daa45fdf8e88f3e98205ca2342e.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -176,7 +181,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/krub` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Krub page on Google Fonts](https://fonts.google.com/specimen/Krub) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Krub on Google Fonts](https://fonts.google.com/specimen/Krub)
 - [Google Fonts](https://fonts.google.com/)

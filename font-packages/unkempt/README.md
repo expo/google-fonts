@@ -1,5 +1,10 @@
 # @expo-google-fonts/unkempt
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/unkempt)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/unkempt)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/unkempt)
+
 This package lets you use the [**Unkempt**](https://fonts.google.com/specimen/Unkempt) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Unkempt_Regular400`
 - `Unkempt_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Unkempt_Regular400
 ![Unkempt_Regular400](./d4f6b7d5ae22a39c55f20fa7871901f21fd6c60c5a788fcf578cf326216a1052.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![Unkempt_Bold700](./7fd27119b105972e2538d19f5b9fc686ccaf1e10de3d8c7ab7c7d3e0111700dd.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/unkempt` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Unkempt page on Google Fonts](https://fonts.google.com/specimen/Unkempt) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Unkempt on Google Fonts](https://fonts.google.com/specimen/Unkempt)
 - [Google Fonts](https://fonts.google.com/)

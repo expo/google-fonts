@@ -1,5 +1,10 @@
 # @expo-google-fonts/pt-serif-caption
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/pt-serif-caption)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/pt-serif-caption)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/pt-serif-caption)
+
 This package lets you use the [**PT Serif Caption**](https://fonts.google.com/specimen/PT+Serif+Caption) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `PTSerifCaption_Regular400`
 - `PTSerifCaption_Regular400_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -60,7 +65,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### PTSerifCaption_Regular400
 ![PTSerifCaption_Regular400](./fa2de071d21315555c75861f438b09fdfc9205ed9845c49d401903c6db245582.ttf.png)
@@ -69,7 +74,7 @@ export default () => {
 ![PTSerifCaption_Regular400_Italic](./0d238ee69704d0810493bff87f27c3236c6c9b81abda84fba39091e70f47eb26.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -78,7 +83,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/pt-serif-caption` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [PT Serif Caption page on Google Fonts](https://fonts.google.com/specimen/PT+Serif+Caption) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [PT Serif Caption on Google Fonts](https://fonts.google.com/specimen/PT+Serif+Caption)
 - [Google Fonts](https://fonts.google.com/)

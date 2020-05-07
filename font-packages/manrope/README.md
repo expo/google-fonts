@@ -1,5 +1,10 @@
 # @expo-google-fonts/manrope
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/manrope)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/manrope)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/manrope)
+
 This package lets you use the [**Manrope**](https://fonts.google.com/specimen/Manrope) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -18,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `Manrope_Bold700`
 - `Manrope_ExtraBold800`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -95,7 +100,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Manrope_ExtraLight200
 ![Manrope_ExtraLight200](./0e0aac7c30d815ffee8f590cf386f62ccea077282904c5bcc089f83e1e3fa6ba.ttf.png)
@@ -119,7 +124,7 @@ export default () => {
 ![Manrope_ExtraBold800](./f94757bb3fe3b1f1a20cdb49284c1a311dec4ed72554c5858d186fc93db7afaf.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -128,7 +133,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/manrope` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Manrope page on Google Fonts](https://fonts.google.com/specimen/Manrope) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Manrope on Google Fonts](https://fonts.google.com/specimen/Manrope)
 - [Google Fonts](https://fonts.google.com/)

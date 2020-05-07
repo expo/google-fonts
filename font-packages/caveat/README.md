@@ -1,5 +1,10 @@
 # @expo-google-fonts/caveat
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/caveat)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/caveat)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/caveat)
+
 This package lets you use the [**Caveat**](https://fonts.google.com/specimen/Caveat) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Caveat_Regular400`
 - `Caveat_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Caveat_Regular400
 ![Caveat_Regular400](./0ffe3acdd9c8d91838d7ba021d1c4e9111151e34a104318a8aafe0efeda5755f.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![Caveat_Bold700](./6993da01fa90c359d45a03be9927b46be80d261978de6f5805f43d75ed2d172f.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/caveat` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Caveat page on Google Fonts](https://fonts.google.com/specimen/Caveat) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Caveat on Google Fonts](https://fonts.google.com/specimen/Caveat)
 - [Google Fonts](https://fonts.google.com/)

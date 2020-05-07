@@ -1,5 +1,10 @@
 # @expo-google-fonts/sansita
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/sansita)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/sansita)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/sansita)
+
 This package lets you use the [**Sansita**](https://fonts.google.com/specimen/Sansita) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -19,7 +24,7 @@ This font family contains [8 styles](#gallery).
 - `Sansita_Black900`
 - `Sansita_Black900_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -102,7 +107,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Sansita_Regular400
 ![Sansita_Regular400](./7e365aa3bbe93b56d5d0182d955c0e71da391d8d6a95479cab79fa24ced4e21e.ttf.png)
@@ -129,7 +134,7 @@ export default () => {
 ![Sansita_Black900_Italic](./2d3308301f6e427d108e0dab0cd6ed936a27d83cfd3dbfbc8693b260574b7cd3.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -138,7 +143,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/sansita` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Sansita page on Google Fonts](https://fonts.google.com/specimen/Sansita) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Sansita on Google Fonts](https://fonts.google.com/specimen/Sansita)
 - [Google Fonts](https://fonts.google.com/)

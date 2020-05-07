@@ -1,5 +1,10 @@
 # @expo-google-fonts/heebo
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/heebo)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/heebo)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/heebo)
+
 This package lets you use the [**Heebo**](https://fonts.google.com/specimen/Heebo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -18,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `Heebo_ExtraBold800`
 - `Heebo_Black900`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -95,7 +100,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Heebo_Thin100
 ![Heebo_Thin100](./2f2d859884539805a307db5a1953174f56bbb1e6903e915be95fe2a03d9ccacf.ttf.png)
@@ -119,7 +124,7 @@ export default () => {
 ![Heebo_Black900](./500b1881e185310128c33157aa1484b2a52573bfe32f11d60065e0deffe8471c.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -128,7 +133,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/heebo` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Heebo page on Google Fonts](https://fonts.google.com/specimen/Heebo) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Heebo on Google Fonts](https://fonts.google.com/specimen/Heebo)
 - [Google Fonts](https://fonts.google.com/)

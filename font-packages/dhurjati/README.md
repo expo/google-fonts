@@ -1,5 +1,10 @@
 # @expo-google-fonts/dhurjati
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/dhurjati)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/dhurjati)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/dhurjati)
+
 This package lets you use the [**Dhurjati**](https://fonts.google.com/specimen/Dhurjati) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -12,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `Dhurjati_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -51,13 +56,13 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Dhurjati_Regular400
 ![Dhurjati_Regular400](./ee0b382be9acedd63b3e624d49e646e5951cb5e8d54c0724ad01128bd8690012.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -66,7 +71,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/dhurjati` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Dhurjati page on Google Fonts](https://fonts.google.com/specimen/Dhurjati) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Dhurjati on Google Fonts](https://fonts.google.com/specimen/Dhurjati)
 - [Google Fonts](https://fonts.google.com/)

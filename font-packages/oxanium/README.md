@@ -1,5 +1,10 @@
 # @expo-google-fonts/oxanium
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/oxanium)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/oxanium)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/oxanium)
+
 This package lets you use the [**Oxanium**](https://fonts.google.com/specimen/Oxanium) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -18,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `Oxanium_Bold700`
 - `Oxanium_ExtraBold800`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -95,7 +100,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Oxanium_ExtraLight200
 ![Oxanium_ExtraLight200](./89daee61e7358c34dbacac977e9f2c92221971ab81d9345af9d294687a538ace.ttf.png)
@@ -119,7 +124,7 @@ export default () => {
 ![Oxanium_ExtraBold800](./1d805023212166271a84af73c8e13073ce5a29746483c5fa3ae9941eaa7577c8.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -128,7 +133,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/oxanium` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Oxanium page on Google Fonts](https://fonts.google.com/specimen/Oxanium) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Oxanium on Google Fonts](https://fonts.google.com/specimen/Oxanium)
 - [Google Fonts](https://fonts.google.com/)

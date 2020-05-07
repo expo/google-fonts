@@ -1,5 +1,10 @@
 # @expo-google-fonts/cambay
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/cambay)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/cambay)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/cambay)
+
 This package lets you use the [**Cambay**](https://fonts.google.com/specimen/Cambay) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -15,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Cambay_Bold700`
 - `Cambay_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -74,7 +79,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Cambay_Regular400
 ![Cambay_Regular400](./a7bad4e2ac4cc5bdeef53e890b4b3d52b065fdae8ebe5f754f263384995f7c73.ttf.png)
@@ -89,7 +94,7 @@ export default () => {
 ![Cambay_Bold700_Italic](./d17daa8d61f0a8bdd69696d0da7fc566e3a13141eb0ae45e512b48dcafb92565.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -98,7 +103,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/cambay` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Cambay page on Google Fonts](https://fonts.google.com/specimen/Cambay) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Cambay on Google Fonts](https://fonts.google.com/specimen/Cambay)
 - [Google Fonts](https://fonts.google.com/)

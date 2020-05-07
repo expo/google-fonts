@@ -1,5 +1,10 @@
 # @expo-google-fonts/fira-sans-condensed
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/fira-sans-condensed)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/fira-sans-condensed)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/fira-sans-condensed)
+
 This package lets you use the [**Fira Sans Condensed**](https://fonts.google.com/specimen/Fira+Sans+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -29,7 +34,7 @@ This font family contains [18 styles](#gallery).
 - `FiraSansCondensed_Black900`
 - `FiraSansCondensed_Black900_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -187,7 +192,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### FiraSansCondensed_Thin100
 ![FiraSansCondensed_Thin100](./bf9b3d9811dd234f65f59b0d76d65a3e1e0c670aebac4deba38952c2a936f715.ttf.png)
@@ -244,7 +249,7 @@ export default () => {
 ![FiraSansCondensed_Black900_Italic](./d732a2087e508d3999de6ed5f8c8834fe6eed4e270dabbce0bdc668087bace49.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -253,7 +258,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/fira-sans-condensed` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Fira Sans Condensed page on Google Fonts](https://fonts.google.com/specimen/Fira+Sans+Condensed) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Fira Sans Condensed on Google Fonts](https://fonts.google.com/specimen/Fira+Sans+Condensed)
 - [Google Fonts](https://fonts.google.com/)

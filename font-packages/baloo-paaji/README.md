@@ -1,5 +1,10 @@
 # @expo-google-fonts/baloo-paaji
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/baloo-paaji)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/baloo-paaji)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/baloo-paaji)
+
 This package lets you use the [**Baloo Paaji**](https://fonts.google.com/specimen/Baloo+Paaji) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -12,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `BalooPaaji_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -51,13 +56,13 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### BalooPaaji_Regular400
 ![BalooPaaji_Regular400](./95ba9f62ad854dc07958f311af18c674ca943fa7450fa4f6640d18e8eccdfe3f.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -66,7 +71,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/baloo-paaji` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Baloo Paaji page on Google Fonts](https://fonts.google.com/specimen/Baloo+Paaji) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Baloo Paaji on Google Fonts](https://fonts.google.com/specimen/Baloo+Paaji)
 - [Google Fonts](https://fonts.google.com/)

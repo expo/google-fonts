@@ -1,5 +1,10 @@
 # @expo-google-fonts/stardos-stencil
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/stardos-stencil)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/stardos-stencil)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/stardos-stencil)
+
 This package lets you use the [**Stardos Stencil**](https://fonts.google.com/specimen/Stardos+Stencil) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `StardosStencil_Regular400`
 - `StardosStencil_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -60,7 +65,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### StardosStencil_Regular400
 ![StardosStencil_Regular400](./b677e9855e2ae2d05e70f39ac58d82bfe1f9ea6ecb62fcf63cc3c0f10c456ba9.ttf.png)
@@ -69,7 +74,7 @@ export default () => {
 ![StardosStencil_Bold700](./b5b4ccf1291484af094cadfcd7fa357b84b8c25db613f74330c32b39a270fda1.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -78,7 +83,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/stardos-stencil` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Stardos Stencil page on Google Fonts](https://fonts.google.com/specimen/Stardos+Stencil) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Stardos Stencil on Google Fonts](https://fonts.google.com/specimen/Stardos+Stencil)
 - [Google Fonts](https://fonts.google.com/)

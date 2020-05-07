@@ -1,5 +1,10 @@
 # @expo-google-fonts/zilla-slab-highlight
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/zilla-slab-highlight)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/zilla-slab-highlight)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/zilla-slab-highlight)
+
 This package lets you use the [**Zilla Slab Highlight**](https://fonts.google.com/specimen/Zilla+Slab+Highlight) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `ZillaSlabHighlight_Regular400`
 - `ZillaSlabHighlight_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -60,7 +65,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### ZillaSlabHighlight_Regular400
 ![ZillaSlabHighlight_Regular400](./dbd546264c0d549b6c3cd17c1acf40b35bbe910885e09b5e2a270aa090b6ee53.ttf.png)
@@ -69,7 +74,7 @@ export default () => {
 ![ZillaSlabHighlight_Bold700](./be3605b5e26a2439fde6293b4159f4c401273e65483cab10505e6c4010523ece.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -78,7 +83,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/zilla-slab-highlight` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Zilla Slab Highlight page on Google Fonts](https://fonts.google.com/specimen/Zilla+Slab+Highlight) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Zilla Slab Highlight on Google Fonts](https://fonts.google.com/specimen/Zilla+Slab+Highlight)
 - [Google Fonts](https://fonts.google.com/)

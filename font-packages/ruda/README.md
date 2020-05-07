@@ -1,5 +1,10 @@
 # @expo-google-fonts/ruda
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/ruda)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/ruda)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/ruda)
+
 This package lets you use the [**Ruda**](https://fonts.google.com/specimen/Ruda) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -14,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `Ruda_Bold700`
 - `Ruda_Black900`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -61,7 +66,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Ruda_Regular400
 ![Ruda_Regular400](./a254aa475c3646075b11d4e1a7db06d96c2f16a001e31943133c66d6bbe7558d.ttf.png)
@@ -73,7 +78,7 @@ export default () => {
 ![Ruda_Black900](./0a25461d4ccbfb0f3a77a33f66143f8474a3eccfbee06850f5e778bf29216894.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -82,7 +87,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/ruda` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Ruda page on Google Fonts](https://fonts.google.com/specimen/Ruda) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Ruda on Google Fonts](https://fonts.google.com/specimen/Ruda)
 - [Google Fonts](https://fonts.google.com/)

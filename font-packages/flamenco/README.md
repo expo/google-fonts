@@ -1,5 +1,10 @@
 # @expo-google-fonts/flamenco
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/flamenco)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/flamenco)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/flamenco)
+
 This package lets you use the [**Flamenco**](https://fonts.google.com/specimen/Flamenco) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Flamenco_Light300`
 - `Flamenco_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Flamenco_Light300
 ![Flamenco_Light300](./5e1405fc92b58d9d35feb160e51edfaa54ace38f1e035d9fe2bfbf79a4087fe2.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![Flamenco_Regular400](./f5146448316dfb5f65a04e6a343c26f45f45587351d34559af1459a54eaa864c.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/flamenco` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Flamenco page on Google Fonts](https://fonts.google.com/specimen/Flamenco) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Flamenco on Google Fonts](https://fonts.google.com/specimen/Flamenco)
 - [Google Fonts](https://fonts.google.com/)

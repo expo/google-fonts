@@ -1,5 +1,10 @@
 # @expo-google-fonts/pridi
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/pridi)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/pridi)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/pridi)
+
 This package lets you use the [**Pridi**](https://fonts.google.com/specimen/Pridi) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -17,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `Pridi_SemiBold600`
 - `Pridi_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -88,7 +93,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Pridi_ExtraLight200
 ![Pridi_ExtraLight200](./25767951345549f712ecc99e7f7e0ed309d7e3b707e8f82ac578dea2843ee338.ttf.png)
@@ -109,7 +114,7 @@ export default () => {
 ![Pridi_Bold700](./26c0c1d38bb9f9387d48474dd1abf32af18563e40fa1067abcfa242e8870cf6b.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -118,7 +123,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/pridi` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Pridi page on Google Fonts](https://fonts.google.com/specimen/Pridi) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Pridi on Google Fonts](https://fonts.google.com/specimen/Pridi)
 - [Google Fonts](https://fonts.google.com/)

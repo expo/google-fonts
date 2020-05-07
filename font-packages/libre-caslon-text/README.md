@@ -1,5 +1,10 @@
 # @expo-google-fonts/libre-caslon-text
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/libre-caslon-text)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/libre-caslon-text)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/libre-caslon-text)
+
 This package lets you use the [**Libre Caslon Text**](https://fonts.google.com/specimen/Libre+Caslon+Text) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -14,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `LibreCaslonText_Regular400_Italic`
 - `LibreCaslonText_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -68,7 +73,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### LibreCaslonText_Regular400
 ![LibreCaslonText_Regular400](./bf61a45047b0948452918933bf02a0c550f66b703720c33a588f9d912c930525.ttf.png)
@@ -80,7 +85,7 @@ export default () => {
 ![LibreCaslonText_Bold700](./5b9e7454ac79e153edca85178361ae1f5f7e9de7ade1e87c1bc514bdbd0baa5a.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -89,7 +94,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/libre-caslon-text` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Libre Caslon Text page on Google Fonts](https://fonts.google.com/specimen/Libre+Caslon+Text) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Libre Caslon Text on Google Fonts](https://fonts.google.com/specimen/Libre+Caslon+Text)
 - [Google Fonts](https://fonts.google.com/)

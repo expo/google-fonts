@@ -1,5 +1,10 @@
 # @expo-google-fonts/noto-serif
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-serif)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-serif)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-serif)
+
 This package lets you use the [**Noto Serif**](https://fonts.google.com/specimen/Noto+Serif) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -15,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `NotoSerif_Bold700`
 - `NotoSerif_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -74,7 +79,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### NotoSerif_Regular400
 ![NotoSerif_Regular400](./756d85930a29b444fc130d6ab854e9f796a951dff740c2bedb926522aa2db185.ttf.png)
@@ -89,7 +94,7 @@ export default () => {
 ![NotoSerif_Bold700_Italic](./fff456cbd82e58d6ca98db85fc03a22b982377a0f7e36525541d06b1eaaa1db0.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -98,7 +103,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/noto-serif` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Noto Serif page on Google Fonts](https://fonts.google.com/specimen/Noto+Serif) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Noto Serif on Google Fonts](https://fonts.google.com/specimen/Noto+Serif)
 - [Google Fonts](https://fonts.google.com/)

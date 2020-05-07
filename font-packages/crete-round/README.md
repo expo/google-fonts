@@ -1,5 +1,10 @@
 # @expo-google-fonts/crete-round
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/crete-round)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/crete-round)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/crete-round)
+
 This package lets you use the [**Crete Round**](https://fonts.google.com/specimen/Crete+Round) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `CreteRound_Regular400`
 - `CreteRound_Regular400_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -60,7 +65,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### CreteRound_Regular400
 ![CreteRound_Regular400](./62fbd9c68fa6485a1a4fde14a03ed6a5268f26365fff7614e5704531390f0363.ttf.png)
@@ -69,7 +74,7 @@ export default () => {
 ![CreteRound_Regular400_Italic](./c8e915bc50126a1af673b8fbd3181aa9f8eac78545ec1b8d827ac5bac66b5cc5.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -78,7 +83,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/crete-round` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Crete Round page on Google Fonts](https://fonts.google.com/specimen/Crete+Round) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Crete Round on Google Fonts](https://fonts.google.com/specimen/Crete+Round)
 - [Google Fonts](https://fonts.google.com/)

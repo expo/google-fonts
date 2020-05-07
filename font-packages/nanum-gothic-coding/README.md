@@ -1,5 +1,10 @@
 # @expo-google-fonts/nanum-gothic-coding
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/nanum-gothic-coding)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/nanum-gothic-coding)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/nanum-gothic-coding)
+
 This package lets you use the [**Nanum Gothic Coding**](https://fonts.google.com/specimen/Nanum+Gothic+Coding) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `NanumGothicCoding_Regular400`
 - `NanumGothicCoding_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -60,7 +65,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### NanumGothicCoding_Regular400
 ![NanumGothicCoding_Regular400](./87aa4e424fb41b2eb66974966afbb9b9d113444c73ddfec8d9960d1c9f15ca2a.ttf.png)
@@ -69,7 +74,7 @@ export default () => {
 ![NanumGothicCoding_Bold700](./bfd061e7ac41bb2ac41c1b32e194b64a92ea19253afc0008d1a5e58e330434f9.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -78,7 +83,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/nanum-gothic-coding` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Nanum Gothic Coding page on Google Fonts](https://fonts.google.com/specimen/Nanum+Gothic+Coding) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Nanum Gothic Coding on Google Fonts](https://fonts.google.com/specimen/Nanum+Gothic+Coding)
 - [Google Fonts](https://fonts.google.com/)

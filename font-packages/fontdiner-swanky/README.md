@@ -1,5 +1,10 @@
 # @expo-google-fonts/fontdiner-swanky
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/fontdiner-swanky)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/fontdiner-swanky)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/fontdiner-swanky)
+
 This package lets you use the [**Fontdiner Swanky**](https://fonts.google.com/specimen/Fontdiner+Swanky) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -12,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `FontdinerSwanky_Regular400`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -51,13 +56,13 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### FontdinerSwanky_Regular400
 ![FontdinerSwanky_Regular400](./bf7bb77a0222af06961048f7335a7c3ced76ac59796882a14738b145a87f9b7a.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -66,7 +71,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/fontdiner-swanky` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Fontdiner Swanky page on Google Fonts](https://fonts.google.com/specimen/Fontdiner+Swanky) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Fontdiner Swanky on Google Fonts](https://fonts.google.com/specimen/Fontdiner+Swanky)
 - [Google Fonts](https://fonts.google.com/)

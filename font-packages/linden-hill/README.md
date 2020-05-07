@@ -1,5 +1,10 @@
 # @expo-google-fonts/linden-hill
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/linden-hill)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/linden-hill)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/linden-hill)
+
 This package lets you use the [**Linden Hill**](https://fonts.google.com/specimen/Linden+Hill) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `LindenHill_Regular400`
 - `LindenHill_Regular400_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -60,7 +65,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### LindenHill_Regular400
 ![LindenHill_Regular400](./f32a2438962995a6cced863561c2653cdbd06a951ca2497da2a9275d3fb83fcb.ttf.png)
@@ -69,7 +74,7 @@ export default () => {
 ![LindenHill_Regular400_Italic](./312de55c585397a60a43de01015efb512a794ffb875c4edd86fcb2e8af39db39.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -78,7 +83,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/linden-hill` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Linden Hill page on Google Fonts](https://fonts.google.com/specimen/Linden+Hill) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Linden Hill on Google Fonts](https://fonts.google.com/specimen/Linden+Hill)
 - [Google Fonts](https://fonts.google.com/)

@@ -1,5 +1,10 @@
 # @expo-google-fonts/sanchez
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/sanchez)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/sanchez)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/sanchez)
+
 This package lets you use the [**Sanchez**](https://fonts.google.com/specimen/Sanchez) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Sanchez_Regular400`
 - `Sanchez_Regular400_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Sanchez_Regular400
 ![Sanchez_Regular400](./d4353709b92c21bf0606f2e6c956fddf56ee0fdea20110524ed03052efcc2bbe.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![Sanchez_Regular400_Italic](./62da09506355ddb13a8f3a0b9829d9420e5a0dc10a04fe9d6bd314501b513c93.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/sanchez` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Sanchez page on Google Fonts](https://fonts.google.com/specimen/Sanchez) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Sanchez on Google Fonts](https://fonts.google.com/specimen/Sanchez)
 - [Google Fonts](https://fonts.google.com/)

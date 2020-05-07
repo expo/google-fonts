@@ -1,5 +1,10 @@
 # @expo-google-fonts/lora
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/lora)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/lora)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/lora)
+
 This package lets you use the [**Lora**](https://fonts.google.com/specimen/Lora) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -15,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Lora_Bold700`
 - `Lora_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -72,7 +77,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Lora_Regular400
 ![Lora_Regular400](./ab4a36d4eeabba7b21d6d9f9cf3402c3cfc28c64a4fb06cb6c424de03a8c98b9.ttf.png)
@@ -87,7 +92,7 @@ export default () => {
 ![Lora_Bold700_Italic](./b8238541d0dfa01767e098baf5d7942885a58372a7b97e09d2af15e9d295f2f2.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -96,7 +101,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/lora` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Lora page on Google Fonts](https://fonts.google.com/specimen/Lora) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Lora on Google Fonts](https://fonts.google.com/specimen/Lora)
 - [Google Fonts](https://fonts.google.com/)

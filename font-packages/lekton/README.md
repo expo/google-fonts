@@ -1,5 +1,10 @@
 # @expo-google-fonts/lekton
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/lekton)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/lekton)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/lekton)
+
 This package lets you use the [**Lekton**](https://fonts.google.com/specimen/Lekton) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -14,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `Lekton_Regular400_Italic`
 - `Lekton_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -67,7 +72,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Lekton_Regular400
 ![Lekton_Regular400](./919f93dff330901c348455426b31bc6ad6270b29b4527387ab2f16ae1a8b1b37.ttf.png)
@@ -79,7 +84,7 @@ export default () => {
 ![Lekton_Bold700](./34d7bf522a1cd2ddb84bd57082d9651c5155029004a5a66c713dec61c865ab08.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -88,7 +93,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/lekton` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Lekton page on Google Fonts](https://fonts.google.com/specimen/Lekton) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Lekton on Google Fonts](https://fonts.google.com/specimen/Lekton)
 - [Google Fonts](https://fonts.google.com/)

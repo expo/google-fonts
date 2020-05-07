@@ -1,5 +1,10 @@
 # @expo-google-fonts/skranji
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/skranji)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/skranji)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/skranji)
+
 This package lets you use the [**Skranji**](https://fonts.google.com/specimen/Skranji) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Skranji_Regular400`
 - `Skranji_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Skranji_Regular400
 ![Skranji_Regular400](./9ee2c9312ee6ae5db2fdf49b0a797da03bd5ae1df447d051b081612b3db1d2fd.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![Skranji_Bold700](./7dd8ded95fc8d9be6c80296a989eb3057929d548770081d17653c90dc11d8248.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/skranji` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Skranji page on Google Fonts](https://fonts.google.com/specimen/Skranji) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Skranji on Google Fonts](https://fonts.google.com/specimen/Skranji)
 - [Google Fonts](https://fonts.google.com/)

@@ -1,5 +1,10 @@
 # @expo-google-fonts/arima-madurai
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/arima-madurai)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/arima-madurai)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/arima-madurai)
+
 This package lets you use the [**Arima Madurai**](https://fonts.google.com/specimen/Arima+Madurai) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -19,7 +24,7 @@ This font family contains [8 styles](#gallery).
 - `ArimaMadurai_ExtraBold800`
 - `ArimaMadurai_Black900`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -102,7 +107,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### ArimaMadurai_Thin100
 ![ArimaMadurai_Thin100](./20fe984789a290b9c540b82d788511cf37e7dcb0c94a3f808ed8a9980ce92262.ttf.png)
@@ -129,7 +134,7 @@ export default () => {
 ![ArimaMadurai_Black900](./25561cbe875f9bad0c96c060f2a1f8108ba709366496e68ff510efdf5930429f.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -138,7 +143,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/arima-madurai` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Arima Madurai page on Google Fonts](https://fonts.google.com/specimen/Arima+Madurai) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Arima Madurai on Google Fonts](https://fonts.google.com/specimen/Arima+Madurai)
 - [Google Fonts](https://fonts.google.com/)

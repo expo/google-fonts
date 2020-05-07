@@ -1,5 +1,10 @@
 # @expo-google-fonts/fira-sans
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/fira-sans)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/fira-sans)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/fira-sans)
+
 This package lets you use the [**Fira Sans**](https://fonts.google.com/specimen/Fira+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -29,7 +34,7 @@ This font family contains [18 styles](#gallery).
 - `FiraSans_Black900`
 - `FiraSans_Black900_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -172,7 +177,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### FiraSans_Thin100
 ![FiraSans_Thin100](./8c710b8842ec687cf4d723fa7cf54656e4600a5fc0b35581c6c5db5811eb3648.ttf.png)
@@ -229,7 +234,7 @@ export default () => {
 ![FiraSans_Black900_Italic](./d2813a992761a32da93a8230e2d86dbc1f4c430516ebc63b870d6865995d8233.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -238,7 +243,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/fira-sans` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Fira Sans page on Google Fonts](https://fonts.google.com/specimen/Fira+Sans) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Fira Sans on Google Fonts](https://fonts.google.com/specimen/Fira+Sans)
 - [Google Fonts](https://fonts.google.com/)

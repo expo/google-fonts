@@ -1,5 +1,10 @@
 # @expo-google-fonts/fahkwang
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/fahkwang)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/fahkwang)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/fahkwang)
+
 This package lets you use the [**Fahkwang**](https://fonts.google.com/specimen/Fahkwang) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -23,7 +28,7 @@ This font family contains [12 styles](#gallery).
 - `Fahkwang_Bold700`
 - `Fahkwang_Bold700_Italic`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -130,7 +135,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Fahkwang_ExtraLight200
 ![Fahkwang_ExtraLight200](./07a682d6bc044cbd486744e34dcb061077bac07d9501f34c8f50b67aa2c02b7f.ttf.png)
@@ -169,7 +174,7 @@ export default () => {
 ![Fahkwang_Bold700_Italic](./02444f0d64cab232aa85ca6646af07c761791397753194217bec25ee19e4107e.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -178,7 +183,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/fahkwang` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Fahkwang page on Google Fonts](https://fonts.google.com/specimen/Fahkwang) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Fahkwang on Google Fonts](https://fonts.google.com/specimen/Fahkwang)
 - [Google Fonts](https://fonts.google.com/)

@@ -1,5 +1,10 @@
 # @expo-google-fonts/sunflower
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/sunflower)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/sunflower)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/sunflower)
+
 This package lets you use the [**Sunflower**](https://fonts.google.com/specimen/Sunflower) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -14,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `Sunflower_Medium500`
 - `Sunflower_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -67,7 +72,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Sunflower_Light300
 ![Sunflower_Light300](./e60ce84d8ac799e771211c4fa34de99812b730e86342f32f94fbccfa79461bd0.ttf.png)
@@ -79,7 +84,7 @@ export default () => {
 ![Sunflower_Bold700](./f3b680ac8a8f4a8a9ede88bf72084ae45ddd8dd7a8a87e826b9ce8946a7b0536.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -88,7 +93,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/sunflower` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Sunflower page on Google Fonts](https://fonts.google.com/specimen/Sunflower) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Sunflower on Google Fonts](https://fonts.google.com/specimen/Sunflower)
 - [Google Fonts](https://fonts.google.com/)

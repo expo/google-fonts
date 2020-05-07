@@ -1,5 +1,10 @@
 # @expo-google-fonts/tangerine
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/tangerine)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/tangerine)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/tangerine)
+
 This package lets you use the [**Tangerine**](https://fonts.google.com/specimen/Tangerine) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
 v0.0.3
@@ -13,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Tangerine_Regular400`
 - `Tangerine_Bold700`
 
-## Usage
+## 🔡 Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -57,7 +62,7 @@ export default () => {
 
 ```
 
-## Gallery
+## 📖 Gallery
 
 ##### Tangerine_Regular400
 ![Tangerine_Regular400](./d57c4cf7ce5cace0ff51506a942305cb2a8342c0d13badf47b74d8b7ccd6a976.ttf.png)
@@ -66,7 +71,7 @@ export default () => {
 ![Tangerine_Bold700](./99be610fa0d0acc2de30af936f07ac82bda5378a98b867c55dc1d8ae1a763c72.ttf.png)
 
 
-## Use During Development
+## 🖥️ Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -75,7 +80,17 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## Links
+## ⚖️ License
+
+The `@expo-google-fonts/tangerine` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [Tangerine page on Google Fonts](https://fonts.google.com/specimen/Tangerine) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [Tangerine on Google Fonts](https://fonts.google.com/specimen/Tangerine)
 - [Google Fonts](https://fonts.google.com/)
