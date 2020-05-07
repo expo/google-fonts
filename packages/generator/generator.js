@@ -452,6 +452,17 @@ async function generatePackageImage(outputFilePath, family) {
   await generatePng(outputFilePath, name, font, family, 96);
 }
 
+async function generatePreviewImages(fontDirectory) {
+  let dir = path.join(projectRootDir, 'font-family-small-preview-images');
+  await fsExtra.emptyDir(dir);
+  for (let family of fontDirectory.family) {
+    let font = getStandardFontForFamily(family);
+    let name = family.name;
+    let outputFilePath = path.join(dir, varNameForFamily(family) + '.png');
+    await generatePng(outputFilePath, name, font, family, 24, 72);
+  }
+}
+
 async function generateDevPackage(fontDirectory) {
   let packageName = 'dev';
   let pkgDir = path.join(fontPackagesDir, packageName);
@@ -656,14 +667,14 @@ async function generateImageForFont(font, family, outputFilePath) {
   await generatePng(outputFilePath, phrase, font, family, 40);
 }
 
-async function generatePng(outputFilePath, text, font, family, pointsize) {
+async function generatePng(outputFilePath, text, font, family, pointsize, density) {
   // TODO: Add padding to these images so that they don't cut off parts of fonts that
   // extend past the normal bounding box. See the 'A' in Allan for an example.
   let fill = 'black';
   let background = 'none';
   let fontFilePath = path.join(fontAssetsDir, filenameForFont(font));
   pointsize = pointsize || 40;
-  let density = 144; // 458; // iPhone 11 Pro Max = 458
+  density = density || 144; // 458; // iPhone 11 Pro Max = 458
   let units = 'pixelsperinch';
   let args = [
     '-background',
@@ -708,6 +719,41 @@ function getStandardFontForFamily(family) {
   return standard;
 }
 
+async function getMarkdownTableOfFamilies(fontDirectory) {
+  let rows = [];
+  let rowSize = 5;
+  let row = [];
+  for (let family of fontDirectory.family) {
+    let name = family.name;
+    let filePath = './font-family-small-preview-images/' + varNameForFamily(family) + '.png';
+    row.push([name, filePath, getPackageNameForFamily(family)]);
+    if (row.length >= rowSize) {
+      rows.push(row);
+      row = [];
+    }
+  }
+  let md = '\n';
+  md += '|' + Array(rowSize).fill(' ').join('|') + '|\n';
+  md += '|' + Array(rowSize).fill('-').join('|') + '|\n';
+  for (let row of rows) {
+    md +=
+      '|' +
+      row
+        .map(
+          ([name, filePath, packageName]) =>
+            `[![${name}](${filePath})](https://github.com/expo/google-fonts/tree/master/font-packages/${packageName}#readme)`
+        )
+        .join('|') +
+      '|';
+    for (let i = row.length; i < rowSize; i++) {
+      md += '|';
+    }
+    md += '\n';
+  }
+  md += '\n';
+  return md;
+}
+
 async function generateRootReadme(fontDirectory) {
   let pkgVersion = require(path.join('..', '..', 'package.json')).version;
   let outputFilePath = path.join('..', '..', 'README.md');
@@ -750,7 +796,7 @@ export default () => {
   });
 
   let fontSize = 24;
-  let paddingVertical = 6;
+  let paddingVrtical = 6;
 
   if (!fontsLoaded) {
     return <AppLoading />;
@@ -784,27 +830,36 @@ Each individual font family package README includes a complete example of using 
 
 Browse all of these on [fonts.google.com](https://fonts.google.com).
 
-${fontDirectory.family
-  .map((family) => {
-    return `[${
-      family.name
-    }](https://github.com/expo/google-fonts/tree/master/font-packages/${getPackageNameForFamily(
-      family
-    )}#readme)`;
-  })
-  .join(', ')}
+${await getMarkdownTableOfFamilies(fontDirectory)}
+
+${
+  ''
+  //   fontDirectory.family
+  //   .map((family) => ${fontDirectory.family
+  // {
+  //     return `[${
+  //       family.name
+  //     }](https://github.com/expo/google-fonts/tree/master/font-packages/${getPackageNameForFamily(
+  //       family
+  //     )}#readme)`;
+  //   })
+  //   .join(', ')
+}
 
 
 ## @expo-google-fonts/dev
 
 ${devPackageMarkdown}
 
-## Gallery
+${
+  ''
+  // ## Gallery
 
-The best way to browse available Google Fonts to find one you want to use
-is probably to just look at the directory at [fonts.google.com](https://fonts.google.com/).
+  // The best way to browse available Google Fonts to find one you want to use
+  // is probably to just look at the directory at [fonts.google.com](https://fonts.google.com/).
 
-But there is a [gallery](./GALLERY.md) you can use to scan through previews of all available fonts and styles.
+  // But there is a [gallery](./GALLERY.md) you can use to scan through previews of all available fonts and styles.
+}
 
 ## License
 
@@ -820,6 +875,8 @@ So, please make any changes you want to make to the [generator](https://github.c
 - [Google Fonts](https://fonts.google.com)
 - [Using Custom Fonts Guide in the Expo docs](https://docs.expo.io/guides/using-custom-fonts/)
 - [\`google_fonts\` Flutter Package](https://pub.dev/packages/google_fonts)
+- [Gallery of all available styles in Expo Google Fonts](./GALLERY.md)
+- [Generation of these packages and this readme](https://github.com/expo/google-fonts/tree/master/packages/generator#readme)
 
 `;
 
@@ -888,7 +945,13 @@ async function test4() {
   await generateGalleryFile(fontDirectory);
 }
 
+async function test5() {
+  let fontDirectory = await getDirectory();
+  await generatePreviewImages(fontDirectory);
+}
+
 module.exports = {
+  test5,
   test,
   test2,
   getDirectory,
