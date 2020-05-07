@@ -64,6 +64,14 @@ async function main({ images } = { images: true }) {
   console.log('Generating dev font package...');
   await generateDevPackage(fontDirectory);
   console.log('done.');
+
+  console.log('Generating Root README');
+  await generateRootReadme(fontDirectory);
+  console.log('done.');
+
+  console.log('Generating Gallery...');
+  await generateGalleryFile(fontDirectory);
+  console.log('done.');
 }
 
 // /// Gets the latest font directory.
@@ -226,6 +234,14 @@ async function generateAllFontFamilyPackages(fontDirectory) {
   }
 }
 
+let devPackageMarkdown = `
+If you are trying out lots of different fonts, you can try using the [\`@expo-google-fonts/dev\` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
+
+You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
+over the network at runtime instead of adding the asset as a file to your project, so it may take longer
+for your app to get to interactivity at startup, but it is extremely convenient
+for playing around with any style that you want.`;
+
 async function generateReadmeForFamily(family) {
   let familyUrl = `https://fonts.google.com/specimen/${family.name.replace(/ /g, '+')}`;
   let packageName = getPackageNameForFamily(family);
@@ -312,13 +328,7 @@ ${family.fonts
   .join('\n')}
 
 ## Use During Development
-
-If you are trying out lots of different fonts, you can try using the [\`@expo-google-fonts/dev\` package](https://www.npmjs.com/package/@expo-google-fonts/dev).
-
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it will be 
-less performant, and is not a good choice for most production deployments. But, it is extremely convenient
-for playing around with any style that you want.
+${devPackageMarkdown}
 
 ## Links
 
@@ -708,10 +718,47 @@ The \`@expo-google-fonts\` packages for Expo allow you to easily use
 any of ${fontDirectory.family.length} fonts (and their variants) from 
 [fonts.google.com](https://fonts.google.com) in your Expo app.
 
-
 v${pkgVersion}
 
-## Fonts
+## Usage
+
+#### 1. Install the package for the font you want
+
+\`\`\`sh
+expo install @expo-google-fonts/the-font-family-you-want expo-font @use-expo/font
+\`\`\`
+
+#### 2. Add the code to load your font to your app
+
+\`\`\`js
+import { useFonts } from "@use-expo/font";
+import { TheFontFamilyYouWant_Regular400 } from '@expo-google-fonts/the-font-family-you-want';
+
+...
+
+let [fontsLoaded] = useFonts({
+  TheFontFamilyYouWant_Regular400,
+});
+\`\`\`
+
+#### 3. Use the font in your styles
+
+\`\`\`jsx
+    <Text style={{ fontSize: 40, fontFamily: TheFontFamilyYouWant_Regular400 }}>
+      This is the font you want
+    </Text>
+\`\`\`
+
+
+### [Example](https://github.com/expo/google-fonts/tree/master/example)
+
+Here is a [minimal but complete example](https://github.com/expo/google-fonts/tree/master/example)
+
+Each individual font family package README includes a complete example of using that font family.
+
+## Available Fonts
+
+Browse all of these on [fonts.google.com](https://fonts.google.com).
 
 ${fontDirectory.family
   .map((family) => {
@@ -719,14 +766,21 @@ ${fontDirectory.family
       family.name
     }](https://github.com/expo/google-fonts/tree/master/font-packages/${getPackageNameForFamily(
       family
-    )})`;
+    )}#readme)`;
   })
   .join(', ')}
 
 
 ## [@expo-google-fonts/dev](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
 
-## Gallery
+${devPackageMarkdown}
+
+## [Gallery](./GALLERY.md)
+
+The best way to browse available Google Fonts to find one you want to use
+is probably to just look at the directory at [fonts.google.com](https://fonts.google.com/).
+
+But there is a [gallery](./GALLERY.md) you can use to scan through previews of all available fonts and styles.
 
 `;
 
@@ -743,7 +797,8 @@ Each image links to the package containing that font style.
   for (let family of fontDirectory.family) {
     let pkgUrl =
       'https://github.com/expo/google-fonts/tree/master/font-packages/' +
-      getPackageNameForFamily(family);
+      getPackageNameForFamily(family) +
+      '#readme';
     md += `### [${family.name}](${pkgUrl})\n`;
     for (let font of family.fonts) {
       let styleImagePath =
