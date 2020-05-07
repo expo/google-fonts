@@ -65,6 +65,10 @@ async function main({ images } = { images: true }) {
   await generateDevPackage(fontDirectory);
   console.log('done.');
 
+  console.log('Generating small font family image previews...');
+  await generatePreviewImages(fontDirectory);
+  console.log('done.');
+
   console.log('Generating Root README');
   await generateRootReadme(fontDirectory);
   console.log('done.');
@@ -287,6 +291,11 @@ export default () => {
 
   let md = `# @expo-google-fonts/${packageName}
 
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/${packageName})
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/${packageName})
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/${packageName})
+
 This package lets you use the [**${
     family.name
   }**](${familyUrl}) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
@@ -315,7 +324,7 @@ Now add code like this to your project
 ${prettier.format(jsExample, { ...PrettierOptions, parser: 'babel' })}
 \`\`\`
 
-## Gallery
+## 🔡 Gallery
 
 ${family.fonts
   .map((font) => {
@@ -327,10 +336,20 @@ ${family.fonts
   })
   .join('\n')}
 
-## Use During Development
+## 👩‍💻 Use During Development
 ${devPackageMarkdown}
 
-## Links
+## 📖 License
+
+The \`@expo-google-fonts/${packageName}\` package and its code are released under the MIT license.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Check the [${family.name} page on Google Fonts](${familyUrl}) for the specific license of this font family.
+
+You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
+
+## 🔗 Links
 
 - [${family.name} on Google Fonts](${familyUrl})
 - [Google Fonts](https://fonts.google.com/)
@@ -453,13 +472,47 @@ async function generatePackageImage(outputFilePath, family) {
 }
 
 async function generatePreviewImages(fontDirectory) {
-  let dir = path.join(projectRootDir, 'font-family-small-preview-images');
-  await fsExtra.emptyDir(dir);
-  for (let family of fontDirectory.family) {
-    let font = getStandardFontForFamily(family);
-    let name = family.name;
-    let outputFilePath = path.join(dir, varNameForFamily(family) + '.png');
-    await generatePng(outputFilePath, name, font, family, 24, 72);
+  let concurrency = Math.max(physicalCpuCount - 1, 1);
+  let bar = new cliProgress.SingleBar(
+    {
+      format: ' {bar} {percentage}% | ETA: {eta}s | {value}/{total} | {fontFamily}',
+      clearOnComplete: true,
+    },
+    cliProgress.Presets.shades_classic
+  );
+
+  let errors = [];
+  try {
+    bar.start(fontDirectory.family.length, 0);
+    let q = new PQueue({ concurrency });
+    let i = 0;
+    let dir = path.join(projectRootDir, 'font-family-small-preview-images');
+    await fsExtra.emptyDir(dir);
+    for (let family of fontDirectory.family) {
+      let font = getStandardFontForFamily(family);
+      let name = family.name;
+      let outputFilePath = path.join(dir, varNameForFamily(family) + '.png');
+      let p = q.add(() => generatePng(outputFilePath, name, font, family, 24, 72));
+      p.family = family;
+      (async () => {
+        try {
+          await p;
+        } catch (e) {
+          errors.push([p.family.name, e]);
+        } finally {
+          i++;
+          bar.update(i, { fontFamily: p.family.name });
+        }
+      })();
+    }
+    await q.onEmpty();
+  } catch (e) {
+    throw e;
+  } finally {
+    bar.stop();
+  }
+  if (errors.length > 0) {
+    console.error('Image Generation Errors:\n' + errors.map((x) => x[0]).join(', '));
   }
 }
 
@@ -709,11 +762,8 @@ async function generatePng(outputFilePath, text, font, family, pointsize, densit
 function getStandardFontForFamily(family) {
   let standard = family.fonts[0];
   for (let font of family.fonts) {
-    if (font.weight.start === 400) {
-      // Don't replace 400 fonts with italic fonts
-      if (font.italic.start === 1 && standard.weight.start !== 400) {
-        standard = font;
-      }
+    if (font.weight.start === 400 && font.italic.start === 0) {
+      standard = font;
     }
   }
   return standard;
@@ -721,17 +771,26 @@ function getStandardFontForFamily(family) {
 
 async function getMarkdownTableOfFamilies(fontDirectory) {
   let rows = [];
-  let rowSize = 5;
+  let rowSize = 9;
   let row = [];
   for (let family of fontDirectory.family) {
     let name = family.name;
     let filePath = './font-family-small-preview-images/' + varNameForFamily(family) + '.png';
+    // Skip Noto Color Emoji Compat because it doesn't render
+    if (family.name === 'Noto Color Emoji Compat') {
+      continue;
+    }
     row.push([name, filePath, getPackageNameForFamily(family)]);
     if (row.length >= rowSize) {
       rows.push(row);
       row = [];
     }
   }
+  // If there's an incomplete row, add the straggler
+  if (row.length > 0) {
+    rows.push(row);
+  }
+
   let md = '\n';
   md += '|' + Array(rowSize).fill(' ').join('|') + '|\n';
   md += '|' + Array(rowSize).fill('-').join('|') + '|\n';
@@ -759,6 +818,9 @@ async function generateRootReadme(fontDirectory) {
   let outputFilePath = path.join('..', '..', 'README.md');
 
   let md = `# expo-google-fonts
+  
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/dev)
+![license](https://flat.badgen.net/github/license/expo/google-fonts)
 
 The \`@expo-google-fonts\` packages for Expo allow you to easily use 
 any of ${fontDirectory.family.length} fonts (and their variants) from 
@@ -861,14 +923,30 @@ ${
   // But there is a [gallery](./GALLERY.md) you can use to scan through previews of all available fonts and styles.
 }
 
-## License
+## Licensing
 
-Licensed under the MIT License
+The Expo Google Fonts project and its code are licensed under the MIT License.
+
+All the fonts in the Google Fonts catalog are free and open source.
+
+Individual fonts have their own licenses. Many are licensed using the
+[Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL). 
+For example, [Nunito](https://fonts.google.com/specimen/Nunito) uses the OFL. 
+Check the Google Fonts pages of the font families you are using and add those licenses to
+your project's licenses list when you publish.
+
+#### Q: Can I use these fonts commercially: to make a logo, in my app, on my website, etc.?
+
+A: You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
 
 ## Contributing
 
 Contributions are very welcome! Note that everything under \`font-packages\` and also this README are generated.
 So, please make any changes you want to make to the [generator](https://github.com/expo/google-fonts/tree/master/packages/generator#readme) instead of the packages themselves.
+
+### Authors 
+
+- Charlie Cheever <ccheever@expo.io>
 
 ## Links
 
