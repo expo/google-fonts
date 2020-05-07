@@ -722,35 +722,59 @@ v${pkgVersion}
 
 ## Usage
 
-#### 1. Install the package for the font you want
+Here is an example of using the [Nunito font family](https://fonts.google.com/specimen/Nunito) in a very simple project.
+
+#### Install the package for the font you want
 
 \`\`\`sh
-expo install @expo-google-fonts/the-font-family-you-want expo-font @use-expo/font
+expo install @expo-google-fonts/nunito expo-font @use-expo/font
 \`\`\`
 
-#### 2. Add the code to load your font to your app
+#### In your app
 
 \`\`\`js
-import { useFonts } from "@use-expo/font";
-import { TheFontFamilyYouWant_Regular400 } from '@expo-google-fonts/the-font-family-you-want';
+import React, { useState, useEffect } from 'react';
 
-...
+import { Text, View, StyleSheet } from 'react-native';
+import { AppLoading } from 'expo';
+import { useFonts } from '@use-expo/font';
+import {
+  Nunito_Regular400,
+  Nunito_SemiBold600_Italic,
+} from '@expo-google-fonts/nunito';
 
-let [fontsLoaded] = useFonts({
-  TheFontFamilyYouWant_Regular400,
-});
+export default () => {
+  let [fontsLoaded] = useFonts({
+    Nunito_Regular400,
+    Nunito_SemiBold600_Italic,
+  });
+
+  let fontSize = 24;
+  let paddingVertical = 6;
+
+  if (!fontsLoaded) {
+    return <AppLoading />;
+  } else {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_Regular400' }}>
+          Nunito_Regular400
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_SemiBold600_Italic' }}>
+          Nunito_SemiBold600_Italic
+        </Text>
+
+      </View>
+    );
+  }
+};
+
 \`\`\`
 
-#### 3. Use the font in your styles
 
-\`\`\`jsx
-    <Text style={{ fontSize: 40, fontFamily: TheFontFamilyYouWant_Regular400 }}>
-      This is the font you want
-    </Text>
-\`\`\`
-
-
-### [Example](https://github.com/expo/google-fonts/tree/master/example)
+### Example Project
 
 Here is a [minimal but complete example](https://github.com/expo/google-fonts/tree/master/example)
 
@@ -771,16 +795,31 @@ ${fontDirectory.family
   .join(', ')}
 
 
-## [@expo-google-fonts/dev](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
+## @expo-google-fonts/dev
 
 ${devPackageMarkdown}
 
-## [Gallery](./GALLERY.md)
+## Gallery
 
 The best way to browse available Google Fonts to find one you want to use
 is probably to just look at the directory at [fonts.google.com](https://fonts.google.com/).
 
 But there is a [gallery](./GALLERY.md) you can use to scan through previews of all available fonts and styles.
+
+## License
+
+Licensed under the MIT License
+
+## Contributing
+
+Contributions are very welcome! Note that everything under \`font-packages\` and also this README are generated.
+So, please make any changes you want to make to the [generator](https://github.com/expo/google-fonts/tree/master/packages/generator#readme) instead of the packages themselves.
+
+## Links
+
+- [Google Fonts](https://fonts.google.com)
+- [Using Custom Fonts Guide in the Expo docs](https://docs.expo.io/guides/using-custom-fonts/)
+- [\`google_fonts\` Flutter Package](https://pub.dev/packages/google_fonts)
 
 `;
 
