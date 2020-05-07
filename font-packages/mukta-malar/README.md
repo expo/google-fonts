@@ -23,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `MuktaMalar_Bold700`
 - `MuktaMalar_ExtraBold800`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -100,7 +100,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### MuktaMalar_ExtraLight200
 ![MuktaMalar_ExtraLight200](./9ae35f34ee0aecd84455b8074812b101d5d11bc4ae0ada4a90c3e6963cf1b93c.ttf.png)
@@ -124,7 +124,7 @@ export default () => {
 ![MuktaMalar_ExtraBold800](./848b7be10b4d701ac02f5f2208071858aa399b564d503cd2e4ca428d25886da9.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -133,7 +133,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/mukta-malar` package and its code are released under the MIT license.
 

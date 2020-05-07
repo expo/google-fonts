@@ -30,7 +30,7 @@ This font family contains [14 styles](#gallery).
 - `IBMPlexSans_Bold700`
 - `IBMPlexSans_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -149,7 +149,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### IBMPlexSans_Thin100
 ![IBMPlexSans_Thin100](./813b794a62b57fce9544b834ad183c1e5175f1825c2fa2067d3480518d81f446.ttf.png)
@@ -194,7 +194,7 @@ export default () => {
 ![IBMPlexSans_Bold700_Italic](./64d98b387f5233a7cbc684f09cd4b5c622058a02d63fe1af27e247ee88e4573e.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -203,7 +203,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/ibm-plex-sans` package and its code are released under the MIT license.
 

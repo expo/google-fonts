@@ -34,7 +34,7 @@ This font family contains [18 styles](#gallery).
 - `Kanit_Black900`
 - `Kanit_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -177,7 +177,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Kanit_Thin100
 ![Kanit_Thin100](./9ae2534d6b4ec69c677d8c2cf336e1ba3c802e9e316c028c99a8db43ebb63f70.ttf.png)
@@ -234,7 +234,7 @@ export default () => {
 ![Kanit_Black900_Italic](./887e5a2586587398cc15672b3f3fef3e35836150f74ff4c8f80a34895effe69a.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -243,7 +243,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/kanit` package and its code are released under the MIT license.
 

@@ -22,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `IbarraRealNova_Bold700`
 - `IbarraRealNova_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -94,7 +94,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### IbarraRealNova_Regular400
 ![IbarraRealNova_Regular400](./fa62d319d71f5e7580a79ee36ecae3548c35a0e2d7892f8695afa7e237a3b660.ttf.png)
@@ -115,7 +115,7 @@ export default () => {
 ![IbarraRealNova_Bold700_Italic](./be0a49f8da3aff4a325e615fb9bd69330b92f562ff4c805471e29bca7ec57e72.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -124,7 +124,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/ibarra-real-nova` package and its code are released under the MIT license.
 

@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Inika_Regular400`
 - `Inika_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Inika_Regular400
 ![Inika_Regular400](./b4a85642ea25e8b6a0657684af8ab67401b31b1f39ef952616d46f1ee711107e.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![Inika_Bold700](./e831ff700e7e5ee39b33fb1ae47d7f98ce526a136e1d90c4aaf1cbfbba0d4336.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/inika` package and its code are released under the MIT license.
 

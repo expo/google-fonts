@@ -26,7 +26,7 @@ This font family contains [10 styles](#gallery).
 - `RobotoMono_Bold700`
 - `RobotoMono_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -121,7 +121,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### RobotoMono_Thin100
 ![RobotoMono_Thin100](./e54b0e2606a8e454e92c100a791d8b71811e052d42fe4b32896466b8f0be270e.ttf.png)
@@ -154,7 +154,7 @@ export default () => {
 ![RobotoMono_Bold700_Italic](./6551cac967c818689406cd0ca591d8a251a88cbff6790b5ea3c0e3aa2f541668.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -163,7 +163,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/roboto-mono` package and its code are released under the MIT license.
 

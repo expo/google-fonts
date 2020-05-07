@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `ArchivoNarrow_Bold700`
 - `ArchivoNarrow_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### ArchivoNarrow_Regular400
 ![ArchivoNarrow_Regular400](./95b4094186b9443c74e987b6a5ad660b55c7dc1e548d66cc53ead05a10bf096f.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![ArchivoNarrow_Bold700_Italic](./ff034a0073d594043d35a5058bf44df331be4b22576c8a753b210bcc55789e50.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/archivo-narrow` package and its code are released under the MIT license.
 

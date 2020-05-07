@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `IMFellEnglish_Regular400`
 - `IMFellEnglish_Regular400_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -65,7 +65,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### IMFellEnglish_Regular400
 ![IMFellEnglish_Regular400](./1f559be93fb1947f0551b021260410225bbafe0586dd5236d734d852bf0769f1.ttf.png)
@@ -74,7 +74,7 @@ export default () => {
 ![IMFellEnglish_Regular400_Italic](./67701b098b491cf87633fd626de486662128571e48aee106245d472750bcd7c4.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -83,7 +83,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/im-fell-english` package and its code are released under the MIT license.
 

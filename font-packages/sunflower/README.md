@@ -19,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `Sunflower_Medium500`
 - `Sunflower_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -72,7 +72,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Sunflower_Light300
 ![Sunflower_Light300](./e60ce84d8ac799e771211c4fa34de99812b730e86342f32f94fbccfa79461bd0.ttf.png)
@@ -84,7 +84,7 @@ export default () => {
 ![Sunflower_Bold700](./f3b680ac8a8f4a8a9ede88bf72084ae45ddd8dd7a8a87e826b9ce8946a7b0536.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -93,7 +93,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/sunflower` package and its code are released under the MIT license.
 

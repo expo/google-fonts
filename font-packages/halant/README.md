@@ -21,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `Halant_SemiBold600`
 - `Halant_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -86,7 +86,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Halant_Light300
 ![Halant_Light300](./efbf1567d1ee285b609cc33198f6bf85b75ffc137871c0c74b770bda82fe5f96.ttf.png)
@@ -104,7 +104,7 @@ export default () => {
 ![Halant_Bold700](./4d09a5ce42fc23e8619b6c817a9bc5522bc64ede74b5a75d99fe2815244ca6a8.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -113,7 +113,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/halant` package and its code are released under the MIT license.
 

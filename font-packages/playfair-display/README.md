@@ -22,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `PlayfairDisplay_Black900`
 - `PlayfairDisplay_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -94,7 +94,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### PlayfairDisplay_Regular400
 ![PlayfairDisplay_Regular400](./924bc8e9d64e8b2f2cb789375461b2d504e9975b6f77da5ffc252ddc8a3aac57.ttf.png)
@@ -115,7 +115,7 @@ export default () => {
 ![PlayfairDisplay_Black900_Italic](./19e0ceccbc574b8a28fe94bd62388dc4dd8dbb00da8fda92003d293ff75bf9ed.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -124,7 +124,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/playfair-display` package and its code are released under the MIT license.
 

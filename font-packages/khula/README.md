@@ -21,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `Khula_Bold700`
 - `Khula_ExtraBold800`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -86,7 +86,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Khula_Light300
 ![Khula_Light300](./565c281fe5c11e451834dd30eda6e6d94a41c1a9c186c175541aa8ddef492d4f.ttf.png)
@@ -104,7 +104,7 @@ export default () => {
 ![Khula_ExtraBold800](./976ee869557699be72a4b83bbb3362cc7be7de27930b5b671210b69063a49d2f.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -113,7 +113,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/khula` package and its code are released under the MIT license.
 

@@ -26,7 +26,7 @@ This font family contains [10 styles](#gallery).
 - `ChakraPetch_Bold700`
 - `ChakraPetch_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -121,7 +121,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### ChakraPetch_Light300
 ![ChakraPetch_Light300](./ecaf4ae2d67c61e2a3fa8df13a271ccea00d43000ba74107e7bfda439f60b1d2.ttf.png)
@@ -154,7 +154,7 @@ export default () => {
 ![ChakraPetch_Bold700_Italic](./86042cd1693573443cb56c465a3f44172486eb888d707fcc03eb3dc8600008cb.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -163,7 +163,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/chakra-petch` package and its code are released under the MIT license.
 

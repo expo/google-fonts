@@ -22,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `Oswald_SemiBold600`
 - `Oswald_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -93,7 +93,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Oswald_ExtraLight200
 ![Oswald_ExtraLight200](./73cf9867fcced84ac0fd26238bf74e4e1f69dcbefc5ff327c2a69f6c5c107e5d.ttf.png)
@@ -114,7 +114,7 @@ export default () => {
 ![Oswald_Bold700](./a11b684909ba0ee2b2c493e89626c6fa9df02e25dec537e42127fa0b1a4e5e92.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -123,7 +123,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/oswald` package and its code are released under the MIT license.
 

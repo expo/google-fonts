@@ -26,7 +26,7 @@ This font family contains [10 styles](#gallery).
 - `ZillaSlab_Bold700`
 - `ZillaSlab_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -121,7 +121,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### ZillaSlab_Light300
 ![ZillaSlab_Light300](./37849ab854bf1dfd4a6d1cf5fe02365f214a0b5230a2473ddba5beea422d42c1.ttf.png)
@@ -154,7 +154,7 @@ export default () => {
 ![ZillaSlab_Bold700_Italic](./d65ad541dbb872b4bd977f2dbfdf396a44ac0ec063b7921aba6e76dda85a4b05.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -163,7 +163,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/zilla-slab` package and its code are released under the MIT license.
 

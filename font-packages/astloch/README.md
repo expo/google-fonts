@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Astloch_Regular400`
 - `Astloch_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Astloch_Regular400
 ![Astloch_Regular400](./b51d807f9b0f818e44f8f40d4fbedacfff7df981efda85e7b722d62f6022a168.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![Astloch_Bold700](./b86a5f0e90945d44c5b629fde8c5a667dd7882ab201ccb397f96f482fd7e98bc.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/astloch` package and its code are released under the MIT license.
 

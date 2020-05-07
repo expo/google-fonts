@@ -25,7 +25,7 @@ This font family contains [9 styles](#gallery).
 - `Catamaran_ExtraBold800`
 - `Catamaran_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -114,7 +114,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Catamaran_Thin100
 ![Catamaran_Thin100](./e8e9d704be93826d9781f133277934bb6184afd9522b149f005c78f5d89e62ac.ttf.png)
@@ -144,7 +144,7 @@ export default () => {
 ![Catamaran_Black900](./fa466db090fa897764fa413a006d0c4f7a975a118db3de634988a14f674446cb.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -153,7 +153,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/catamaran` package and its code are released under the MIT license.
 

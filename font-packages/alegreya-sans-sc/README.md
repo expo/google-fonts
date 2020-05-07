@@ -30,7 +30,7 @@ This font family contains [14 styles](#gallery).
 - `AlegreyaSansSC_Black900`
 - `AlegreyaSansSC_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -150,7 +150,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### AlegreyaSansSC_Thin100
 ![AlegreyaSansSC_Thin100](./7f5b4f9e7531121c2163e92598f24222cdef538a04352553731f0c81f69c4227.ttf.png)
@@ -195,7 +195,7 @@ export default () => {
 ![AlegreyaSansSC_Black900_Italic](./7100fdd6d991e596021a3bc2578fd4eb74fb5bd5d7dfc6c30dcde981e6a27281.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -204,7 +204,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/alegreya-sans-sc` package and its code are released under the MIT license.
 

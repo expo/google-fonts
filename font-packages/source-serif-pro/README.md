@@ -19,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `SourceSerifPro_SemiBold600`
 - `SourceSerifPro_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -72,7 +72,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### SourceSerifPro_Regular400
 ![SourceSerifPro_Regular400](./f87f7b82ba7f18f5fc9e92b9a88f9da0c847cee069182948fc67c6440c888949.ttf.png)
@@ -84,7 +84,7 @@ export default () => {
 ![SourceSerifPro_Bold700](./eb04de6aca072d01a88545fa409c6264d93f9b38f86a0ecd3a00708917085bd8.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -93,7 +93,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/source-serif-pro` package and its code are released under the MIT license.
 

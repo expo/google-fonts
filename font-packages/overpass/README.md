@@ -32,7 +32,7 @@ This font family contains [16 styles](#gallery).
 - `Overpass_Black900`
 - `Overpass_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -163,7 +163,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Overpass_Thin100
 ![Overpass_Thin100](./c5a2c38a969c611bc238e0242455585ccfc48cf11fc9cd85063641ab4b2d7bb9.ttf.png)
@@ -214,7 +214,7 @@ export default () => {
 ![Overpass_Black900_Italic](./a9e3b080c9a28d813d94e69fea3eb65560b09cefb4e4653b4baa47a7d95be402.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -223,7 +223,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/overpass` package and its code are released under the MIT license.
 

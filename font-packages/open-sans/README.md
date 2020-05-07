@@ -26,7 +26,7 @@ This font family contains [10 styles](#gallery).
 - `OpenSans_ExtraBold800`
 - `OpenSans_ExtraBold800_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -121,7 +121,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### OpenSans_Light300
 ![OpenSans_Light300](./eacd6dddc04472f7143fcfe208f2e1bcd372f6baa8574529deaa2d5961e4d990.ttf.png)
@@ -154,7 +154,7 @@ export default () => {
 ![OpenSans_ExtraBold800_Italic](./22818920197a7a95e75e2f91378fcc7e5f802f6067e933050b85732b71e3755e.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -163,7 +163,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/open-sans` package and its code are released under the MIT license.
 

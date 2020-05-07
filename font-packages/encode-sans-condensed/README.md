@@ -25,7 +25,7 @@ This font family contains [9 styles](#gallery).
 - `EncodeSansCondensed_ExtraBold800`
 - `EncodeSansCondensed_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -115,7 +115,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### EncodeSansCondensed_Thin100
 ![EncodeSansCondensed_Thin100](./c2d65f9836891e7be8e4f366b0daa5300822ec7e50add6db5597d2947739ea20.ttf.png)
@@ -145,7 +145,7 @@ export default () => {
 ![EncodeSansCondensed_Black900](./65117e9c412bff42a1dd46d75a60d81bf0f70390e437c1d689525a2c422e4a71.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -154,7 +154,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/encode-sans-condensed` package and its code are released under the MIT license.
 

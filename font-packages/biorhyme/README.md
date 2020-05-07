@@ -21,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `BioRhyme_Bold700`
 - `BioRhyme_ExtraBold800`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -86,7 +86,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### BioRhyme_ExtraLight200
 ![BioRhyme_ExtraLight200](./8c7047e02059b7ea10893cf7bcfe3dc06e450dd3fb6000e05171462fedc43f7e.ttf.png)
@@ -104,7 +104,7 @@ export default () => {
 ![BioRhyme_ExtraBold800](./43c38cd7da3c0c61638db3dbfd450b28e4abcacc9a48011176274140cf681c2b.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -113,7 +113,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/biorhyme` package and its code are released under the MIT license.
 

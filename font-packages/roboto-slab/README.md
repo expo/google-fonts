@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `RobotoSlab_Regular400`
 - `RobotoSlab_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### RobotoSlab_Thin100
 ![RobotoSlab_Thin100](./39d17021e49dab28b629d9c337f6d659da0a8b37bbfb8ae5ccfe9ee8f8d16878.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![RobotoSlab_Bold700](./e87e906df2d8d66b24a131bef23415760d6d2afee657275eb91f1a3a5e5dcb5e.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/roboto-slab` package and its code are released under the MIT license.
 

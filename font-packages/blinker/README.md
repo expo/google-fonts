@@ -24,7 +24,7 @@ This font family contains [8 styles](#gallery).
 - `Blinker_ExtraBold800`
 - `Blinker_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -107,7 +107,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Blinker_Thin100
 ![Blinker_Thin100](./7c240948a3fc8d5d8689c3a63f7f8ebc6306f7c85e807823569843f0f54195f9.ttf.png)
@@ -134,7 +134,7 @@ export default () => {
 ![Blinker_Black900](./1d02003dcc4ca64b3de96560fffcdd9e05125270589caabebc0da78d05d0f61e.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -143,7 +143,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/blinker` package and its code are released under the MIT license.
 

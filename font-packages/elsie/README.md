@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Elsie_Regular400`
 - `Elsie_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Elsie_Regular400
 ![Elsie_Regular400](./bc0b83b9cbe3b25809361a2f4e495bdc9f10756f669072da3bc89689a42c8845.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![Elsie_Black900](./9aca439d3b5c4abdf62ae59fb1a643c185345724ebdb002f388d25d7926f8f98.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/elsie` package and its code are released under the MIT license.
 

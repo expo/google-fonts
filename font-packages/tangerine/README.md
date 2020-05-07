@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Tangerine_Regular400`
 - `Tangerine_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Tangerine_Regular400
 ![Tangerine_Regular400](./d57c4cf7ce5cace0ff51506a942305cb2a8342c0d13badf47b74d8b7ccd6a976.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![Tangerine_Bold700](./99be610fa0d0acc2de30af936f07ac82bda5378a98b867c55dc1d8ae1a763c72.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/tangerine` package and its code are released under the MIT license.
 

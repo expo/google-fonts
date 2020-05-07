@@ -21,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `Khand_SemiBold600`
 - `Khand_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -86,7 +86,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Khand_Light300
 ![Khand_Light300](./7cd4683a916646dd278fb0eb4426f6826ca4f0cc92ce083de087f2287fb11f98.ttf.png)
@@ -104,7 +104,7 @@ export default () => {
 ![Khand_Bold700](./609dc9682e1321a8db6ab6a4caeffe07395b8517327ee5ce936b365e586fb402.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -113,7 +113,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/khand` package and its code are released under the MIT license.
 

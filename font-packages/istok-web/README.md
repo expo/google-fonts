@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `IstokWeb_Bold700`
 - `IstokWeb_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### IstokWeb_Regular400
 ![IstokWeb_Regular400](./69f0e211d11c1acf74b2c9076af79b8c4437700758d0282acf48674ef128953a.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![IstokWeb_Bold700_Italic](./c19d7189ef0fb5066351d3851d3a386722d97b98c62fc344ffce8f4f1889512a.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/istok-web` package and its code are released under the MIT license.
 

@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Play_Regular400`
 - `Play_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -60,7 +60,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Play_Regular400
 ![Play_Regular400](./e198eae88b87f9891da54cbb4e5b631b4f8e8af961970b14082506c5c1bd3183.ttf.png)
@@ -69,7 +69,7 @@ export default () => {
 ![Play_Bold700](./46b28c6395256a72fe1900fc5218c9ef0c78153157532b0ebc6b6859696d717d.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -78,7 +78,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/play` package and its code are released under the MIT license.
 

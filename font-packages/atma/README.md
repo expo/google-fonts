@@ -21,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `Atma_SemiBold600`
 - `Atma_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -84,7 +84,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Atma_Light300
 ![Atma_Light300](./d691cbd1df6f6a53328f8d9d9514102c915be55e93a8c1f0cb0826a27a60e4f2.ttf.png)
@@ -102,7 +102,7 @@ export default () => {
 ![Atma_Bold700](./127f716e96fc47aee7624acf9cebd859693a19f2fc1f7d832f33835e5bd3b834.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -111,7 +111,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/atma` package and its code are released under the MIT license.
 

@@ -19,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `Manjari_Regular400`
 - `Manjari_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -68,7 +68,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Manjari_Thin100
 ![Manjari_Thin100](./bf27671bb835dda0357f930bf36e8187a3b84c55eee29c45942c1f24658669b6.ttf.png)
@@ -80,7 +80,7 @@ export default () => {
 ![Manjari_Bold700](./3679ad318e4f3587d288eeeedd62d875b904a491a6163aecc418b38e359be2d4.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -89,7 +89,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/manjari` package and its code are released under the MIT license.
 

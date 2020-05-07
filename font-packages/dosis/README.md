@@ -23,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `Dosis_Bold700`
 - `Dosis_ExtraBold800`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -100,7 +100,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Dosis_ExtraLight200
 ![Dosis_ExtraLight200](./3ae9ee353b3e8df71d17a46208649ec71c145848f8db69eb86b9cc1c129304b7.ttf.png)
@@ -124,7 +124,7 @@ export default () => {
 ![Dosis_ExtraBold800](./4a7b18554b3247dd3b1384afabd828043b9a9417221c7480c2bb78a99bc4190b.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -133,7 +133,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/dosis` package and its code are released under the MIT license.
 

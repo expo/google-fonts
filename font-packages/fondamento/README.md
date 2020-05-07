@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Fondamento_Regular400`
 - `Fondamento_Regular400_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Fondamento_Regular400
 ![Fondamento_Regular400](./75f9d66c336050a69b4366a5bd1cd8d8a0a5b7338dddd16b9af1f679ed3f6543.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![Fondamento_Regular400_Italic](./78976bc375126e59b80ff99b8d26195e4332d5cc86505149fc21d183b60e8340.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/fondamento` package and its code are released under the MIT license.
 

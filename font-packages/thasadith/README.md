@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Thasadith_Bold700`
 - `Thasadith_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Thasadith_Regular400
 ![Thasadith_Regular400](./b9b28f00da26a27f2be523c47e0404d6bad035dead548d2418197cd755cc3ac5.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![Thasadith_Bold700_Italic](./758c9bca5f80c1e919aa4821259cd1a773692ab770622c36f688ea4c8524b0ae.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/thasadith` package and its code are released under the MIT license.
 

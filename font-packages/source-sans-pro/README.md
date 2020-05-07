@@ -28,7 +28,7 @@ This font family contains [12 styles](#gallery).
 - `SourceSansPro_Black900`
 - `SourceSansPro_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -136,7 +136,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### SourceSansPro_ExtraLight200
 ![SourceSansPro_ExtraLight200](./069aaad5d271d9417c8b97f8312f686cf5a9a41a8e3644b572c60c8e176ed7e0.ttf.png)
@@ -175,7 +175,7 @@ export default () => {
 ![SourceSansPro_Black900_Italic](./954080abe4fffebb675bea9c34eb0d873cf25f8674e9d55cde4c9c962f44a421.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -184,7 +184,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/source-sans-pro` package and its code are released under the MIT license.
 

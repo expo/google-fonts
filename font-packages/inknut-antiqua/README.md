@@ -23,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `InknutAntiqua_ExtraBold800`
 - `InknutAntiqua_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -100,7 +100,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### InknutAntiqua_Light300
 ![InknutAntiqua_Light300](./8fae03035a8fb6772fc7bcac683c4a01747a3902ede69b6897be980d35cd3c42.ttf.png)
@@ -124,7 +124,7 @@ export default () => {
 ![InknutAntiqua_Black900](./068486e18282d9c5300c186834bd1a055d1d4d2697ac3498756bc41e999b676b.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -133,7 +133,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/inknut-antiqua` package and its code are released under the MIT license.
 

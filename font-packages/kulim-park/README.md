@@ -26,7 +26,7 @@ This font family contains [10 styles](#gallery).
 - `KulimPark_Bold700`
 - `KulimPark_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -121,7 +121,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### KulimPark_ExtraLight200
 ![KulimPark_ExtraLight200](./840c4d3989e45ba899e1b3d09646ca3f9bef766fb66b167c5ea95b0726f44a0b.ttf.png)
@@ -154,7 +154,7 @@ export default () => {
 ![KulimPark_Bold700_Italic](./baa22986aa8baf32baf6fbbd27e630ee792aac59cbf10df4701f9cd85d3232cd.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -163,7 +163,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/kulim-park` package and its code are released under the MIT license.
 

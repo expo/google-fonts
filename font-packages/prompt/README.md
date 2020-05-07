@@ -34,7 +34,7 @@ This font family contains [18 styles](#gallery).
 - `Prompt_Black900`
 - `Prompt_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -177,7 +177,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Prompt_Thin100
 ![Prompt_Thin100](./48988c00dff9e5346bafb0230e233cc244d06d53de9a8c7b1c5ae95b508878d9.ttf.png)
@@ -234,7 +234,7 @@ export default () => {
 ![Prompt_Black900_Italic](./9390dbb38f163bec75f6d6682ae93a821e776cd9bed89bf402c7104d295dca25.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -243,7 +243,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/prompt` package and its code are released under the MIT license.
 

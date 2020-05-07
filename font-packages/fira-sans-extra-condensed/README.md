@@ -34,7 +34,7 @@ This font family contains [18 styles](#gallery).
 - `FiraSansExtraCondensed_Black900`
 - `FiraSansExtraCondensed_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -226,7 +226,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### FiraSansExtraCondensed_Thin100
 ![FiraSansExtraCondensed_Thin100](./aa0b73aa84c42a6d80d67e8301430b1553b52c7bd68fb79ebe8a2ff750ff58d7.ttf.png)
@@ -283,7 +283,7 @@ export default () => {
 ![FiraSansExtraCondensed_Black900_Italic](./53c97db75ae729e99796dc36bad33e04ea9d0036b759f49f202c3b403c3df3eb.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -292,7 +292,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/fira-sans-extra-condensed` package and its code are released under the MIT license.
 

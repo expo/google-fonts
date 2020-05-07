@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `ElMessiri_SemiBold600`
 - `ElMessiri_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### ElMessiri_Regular400
 ![ElMessiri_Regular400](./05a194beec1a2e2d57ac0ee1d517ad0b59142391481adbd18fee77752639ddda.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![ElMessiri_Bold700](./a25eabeb2e7f6f2cbe92e832bf052cb0bd0930c95b6457ee6cb8469552b97c63.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/el-messiri` package and its code are released under the MIT license.
 

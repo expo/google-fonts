@@ -25,7 +25,7 @@ This font family contains [9 styles](#gallery).
 - `Saira_ExtraBold800`
 - `Saira_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -114,7 +114,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Saira_Thin100
 ![Saira_Thin100](./b6d764b20e47ac3d6764acfa56dcca309c570f72779558c6c85b227d3d52c1a9.ttf.png)
@@ -144,7 +144,7 @@ export default () => {
 ![Saira_Black900](./784cb5c4c9a4355b55b1f819414b962800d401a312f0874e035e90ba2d1ebeb8.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -153,7 +153,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/saira` package and its code are released under the MIT license.
 

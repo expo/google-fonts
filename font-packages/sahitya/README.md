@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Sahitya_Regular400`
 - `Sahitya_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Sahitya_Regular400
 ![Sahitya_Regular400](./54146b1b18bccc5173c7f1cc478fd450cfb721e1b3d40df0ebd3dcf6711c6c48.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![Sahitya_Bold700](./14383134c508c525e61d88a045189d98b08191a7cadfada9c90a82eea5d88ee6.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/sahitya` package and its code are released under the MIT license.
 

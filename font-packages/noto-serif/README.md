@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `NotoSerif_Bold700`
 - `NotoSerif_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### NotoSerif_Regular400
 ![NotoSerif_Regular400](./756d85930a29b444fc130d6ab854e9f796a951dff740c2bedb926522aa2db185.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![NotoSerif_Bold700_Italic](./fff456cbd82e58d6ca98db85fc03a22b982377a0f7e36525541d06b1eaaa1db0.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/noto-serif` package and its code are released under the MIT license.
 

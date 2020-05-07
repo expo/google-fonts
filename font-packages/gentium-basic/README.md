@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `GentiumBasic_Bold700`
 - `GentiumBasic_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### GentiumBasic_Regular400
 ![GentiumBasic_Regular400](./86bcf47467c7c966ff4e8c216451273329982a4bbf3477b33615c1e5ff916fb2.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![GentiumBasic_Bold700_Italic](./b1ea05dbd54b903a6206abbb48c0183924236546ddb457db2f97273aa1d47fcd.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/gentium-basic` package and its code are released under the MIT license.
 

@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `LindenHill_Regular400`
 - `LindenHill_Regular400_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -65,7 +65,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### LindenHill_Regular400
 ![LindenHill_Regular400](./f32a2438962995a6cced863561c2653cdbd06a951ca2497da2a9275d3fb83fcb.ttf.png)
@@ -74,7 +74,7 @@ export default () => {
 ![LindenHill_Regular400_Italic](./312de55c585397a60a43de01015efb512a794ffb875c4edd86fcb2e8af39db39.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -83,7 +83,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/linden-hill` package and its code are released under the MIT license.
 

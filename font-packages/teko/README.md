@@ -21,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `Teko_SemiBold600`
 - `Teko_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -84,7 +84,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Teko_Light300
 ![Teko_Light300](./b31400af25afcb1ea24b0a3b59e18957132c4df53084ec09f2978ddfd1e67fc5.ttf.png)
@@ -102,7 +102,7 @@ export default () => {
 ![Teko_Bold700](./8c33b42189d0afc837f06ec5fd8b20cc431d75823356156ab00af8dcb949fa69.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -111,7 +111,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/teko` package and its code are released under the MIT license.
 

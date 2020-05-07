@@ -22,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `RobotoCondensed_Bold700`
 - `RobotoCondensed_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -94,7 +94,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### RobotoCondensed_Light300
 ![RobotoCondensed_Light300](./779b7e4fc31ca5d743e125a1799e9c79dc6ac4ec6e87ca8668ddbe5a157114d7.ttf.png)
@@ -115,7 +115,7 @@ export default () => {
 ![RobotoCondensed_Bold700_Italic](./6aeda8628b19ddf4671e2e3710998ea138a2cd845f54640bb82f89acad0bbaf6.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -124,7 +124,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/roboto-condensed` package and its code are released under the MIT license.
 

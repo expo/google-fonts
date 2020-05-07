@@ -32,7 +32,7 @@ This font family contains [16 styles](#gallery).
 - `K2D_ExtraBold800`
 - `K2D_ExtraBold800_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -157,7 +157,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### K2D_Thin100
 ![K2D_Thin100](./d221fa3a362d33d180e193b479bfddbf9e8ab02b545540d3a80121af669090de.ttf.png)
@@ -208,7 +208,7 @@ export default () => {
 ![K2D_ExtraBold800_Italic](./2141bd5b98bac331831e687a2131f46a8d23093831953a533451e0081a54f6aa.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -217,7 +217,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/k2d` package and its code are released under the MIT license.
 

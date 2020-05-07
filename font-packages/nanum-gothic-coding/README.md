@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `NanumGothicCoding_Regular400`
 - `NanumGothicCoding_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -65,7 +65,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### NanumGothicCoding_Regular400
 ![NanumGothicCoding_Regular400](./87aa4e424fb41b2eb66974966afbb9b9d113444c73ddfec8d9960d1c9f15ca2a.ttf.png)
@@ -74,7 +74,7 @@ export default () => {
 ![NanumGothicCoding_Bold700](./bfd061e7ac41bb2ac41c1b32e194b64a92ea19253afc0008d1a5e58e330434f9.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -83,7 +83,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/nanum-gothic-coding` package and its code are released under the MIT license.
 

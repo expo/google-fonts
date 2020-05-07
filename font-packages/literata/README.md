@@ -24,7 +24,7 @@ This font family contains [8 styles](#gallery).
 - `Literata_SemiBold600_Italic`
 - `Literata_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -107,7 +107,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Literata_Regular400
 ![Literata_Regular400](./f994a4c14415cfac63df0a88d12df379634376d190047a3aac8c1ccac859181b.ttf.png)
@@ -134,7 +134,7 @@ export default () => {
 ![Literata_Bold700_Italic](./b5feaa5aa4ea544737c3a07671e847a9c6664d791d284ccd3866fe24d45f2927.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -143,7 +143,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/literata` package and its code are released under the MIT license.
 

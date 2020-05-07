@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `CreteRound_Regular400`
 - `CreteRound_Regular400_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -65,7 +65,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### CreteRound_Regular400
 ![CreteRound_Regular400](./62fbd9c68fa6485a1a4fde14a03ed6a5268f26365fff7614e5704531390f0363.ttf.png)
@@ -74,7 +74,7 @@ export default () => {
 ![CreteRound_Regular400_Italic](./c8e915bc50126a1af673b8fbd3181aa9f8eac78545ec1b8d827ac5bac66b5cc5.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -83,7 +83,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/crete-round` package and its code are released under the MIT license.
 

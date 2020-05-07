@@ -23,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `Biryani_ExtraBold800`
 - `Biryani_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -100,7 +100,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Biryani_ExtraLight200
 ![Biryani_ExtraLight200](./f65303a20787e99a61c757c6e4cbc9ee68af544a375dac932049def734163642.ttf.png)
@@ -124,7 +124,7 @@ export default () => {
 ![Biryani_Black900](./5bad25e5e05861d1da7ddd858aefac18d200688fc997bf2760059fcc2c2ad30d.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -133,7 +133,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/biryani` package and its code are released under the MIT license.
 

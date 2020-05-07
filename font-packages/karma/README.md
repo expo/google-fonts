@@ -21,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `Karma_SemiBold600`
 - `Karma_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -86,7 +86,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Karma_Light300
 ![Karma_Light300](./3efd1dc089cbb099173fc03a8bfc22d406db0671888af830ca7137e548369989.ttf.png)
@@ -104,7 +104,7 @@ export default () => {
 ![Karma_Bold700](./132e41c0f90df6a2646b59a685af793e0ce62b2b64245d2db081d1ab1f6889e8.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -113,7 +113,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/karma` package and its code are released under the MIT license.
 

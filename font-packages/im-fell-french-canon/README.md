@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `IMFellFrenchCanon_Regular400`
 - `IMFellFrenchCanon_Regular400_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -66,7 +66,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### IMFellFrenchCanon_Regular400
 ![IMFellFrenchCanon_Regular400](./3a31b3ab35a73617ff634ad3017bc55e23ceb3daa2bf23c00c25afa3331aade8.ttf.png)
@@ -75,7 +75,7 @@ export default () => {
 ![IMFellFrenchCanon_Regular400_Italic](./54332a8adf4fa4b9bd5ba4553b7f66a4e8c5ffb07d61701dbfee60bfac4394a4.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -84,7 +84,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/im-fell-french-canon` package and its code are released under the MIT license.
 

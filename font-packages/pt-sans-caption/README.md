@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `PTSansCaption_Regular400`
 - `PTSansCaption_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -65,7 +65,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### PTSansCaption_Regular400
 ![PTSansCaption_Regular400](./1245ca967adbb79f480b169e92cf44a71ae4cb8571b9847ceb3de43e7235361c.ttf.png)
@@ -74,7 +74,7 @@ export default () => {
 ![PTSansCaption_Bold700](./f47afcc4feb502bfa6ca192ad230e0d743be26deb97832412722544b223ed461.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -83,7 +83,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/pt-sans-caption` package and its code are released under the MIT license.
 

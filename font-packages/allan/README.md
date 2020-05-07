@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Allan_Regular400`
 - `Allan_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Allan_Regular400
 ![Allan_Regular400](./83a268d06857cada4246725e7cc04eb4d7b87d19e6d4f44e745d33be739852fb.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![Allan_Bold700](./b309341937b6f2a1893638c71f9877c70c658e6461e5b18011f9ab7f2782adc9.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/allan` package and its code are released under the MIT license.
 

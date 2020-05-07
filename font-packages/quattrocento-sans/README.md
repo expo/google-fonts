@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `QuattrocentoSans_Bold700`
 - `QuattrocentoSans_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -80,7 +80,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### QuattrocentoSans_Regular400
 ![QuattrocentoSans_Regular400](./114280821a2f8698d737c5c9bcbc986cf36a4dbd9fa7c58e448b35520a6053ec.ttf.png)
@@ -95,7 +95,7 @@ export default () => {
 ![QuattrocentoSans_Bold700_Italic](./edadcb4799c44215ae17124bc3eac621aef5a4348743df4d74ff83fd09a601a4.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -104,7 +104,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/quattrocento-sans` package and its code are released under the MIT license.
 

@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Lusitana_Regular400`
 - `Lusitana_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Lusitana_Regular400
 ![Lusitana_Regular400](./c6df963163bf20f6d3c7e20307b4e363715e13d9047b5707caa9407e11af4ebb.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![Lusitana_Bold700](./f5505e39683b141ee21482fcfc3818a5bb6f049abf15928c81caac05296eba18.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/lusitana` package and its code are released under the MIT license.
 

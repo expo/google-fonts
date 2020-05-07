@@ -19,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `Trochut_Regular400_Italic`
 - `Trochut_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -72,7 +72,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Trochut_Regular400
 ![Trochut_Regular400](./fb7ad314480eec04c8ff53ad7a24690495145d924a92be149c75ccd5fe144215.ttf.png)
@@ -84,7 +84,7 @@ export default () => {
 ![Trochut_Bold700](./82633b54306a8a1649b8590f40a509a2808ff33ef157f6cc3f98d52130752914.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -93,7 +93,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/trochut` package and its code are released under the MIT license.
 

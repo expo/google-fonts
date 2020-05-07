@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `DroidSerif_Bold700`
 - `DroidSerif_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### DroidSerif_Regular400
 ![DroidSerif_Regular400](./dcdbbe04f7d65d6dd062e948aad5cedf59b28322fcd555a4dbff9564ba77f032.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![DroidSerif_Bold700_Italic](./5072734295fa76a5684706f1c6fab998057ea2dbd03ed74b92b6b105d694e505.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/droid-serif` package and its code are released under the MIT license.
 

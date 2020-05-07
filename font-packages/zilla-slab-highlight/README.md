@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `ZillaSlabHighlight_Regular400`
 - `ZillaSlabHighlight_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -65,7 +65,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### ZillaSlabHighlight_Regular400
 ![ZillaSlabHighlight_Regular400](./dbd546264c0d549b6c3cd17c1acf40b35bbe910885e09b5e2a270aa090b6ee53.ttf.png)
@@ -74,7 +74,7 @@ export default () => {
 ![ZillaSlabHighlight_Bold700](./be3605b5e26a2439fde6293b4159f4c401273e65483cab10505e6c4010523ece.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -83,7 +83,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/zilla-slab-highlight` package and its code are released under the MIT license.
 

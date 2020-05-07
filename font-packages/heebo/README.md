@@ -23,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `Heebo_ExtraBold800`
 - `Heebo_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -100,7 +100,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Heebo_Thin100
 ![Heebo_Thin100](./2f2d859884539805a307db5a1953174f56bbb1e6903e915be95fe2a03d9ccacf.ttf.png)
@@ -124,7 +124,7 @@ export default () => {
 ![Heebo_Black900](./500b1881e185310128c33157aa1484b2a52573bfe32f11d60065e0deffe8471c.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -133,7 +133,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/heebo` package and its code are released under the MIT license.
 

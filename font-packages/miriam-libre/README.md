@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `MiriamLibre_Regular400`
 - `MiriamLibre_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### MiriamLibre_Regular400
 ![MiriamLibre_Regular400](./c4dc8662662a1708ab4d397f59152bba9bde4ce4c524d9286d49d078a8c58dc6.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![MiriamLibre_Bold700](./cbe1ade0a4a8eddd786eb1050d18d81c71465545f3f80392927a36af9035c775.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/miriam-libre` package and its code are released under the MIT license.
 

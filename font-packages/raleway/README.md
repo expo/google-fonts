@@ -34,7 +34,7 @@ This font family contains [18 styles](#gallery).
 - `Raleway_Black900`
 - `Raleway_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -177,7 +177,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Raleway_Thin100
 ![Raleway_Thin100](./e8df4e8d960459bd5865f3570b57e6df699c766519716eef5e7875dfc55f60f8.ttf.png)
@@ -234,7 +234,7 @@ export default () => {
 ![Raleway_Black900_Italic](./8a5faa87c4f12461b775bf2c6693db562a932328b199affc9c16ea56206f534d.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -243,7 +243,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/raleway` package and its code are released under the MIT license.
 

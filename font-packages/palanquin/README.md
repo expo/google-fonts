@@ -23,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `Palanquin_SemiBold600`
 - `Palanquin_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -100,7 +100,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Palanquin_Thin100
 ![Palanquin_Thin100](./c2f2587b9d7e9715b99bbe03f6115a2dcf52f8cb016c7e31f06e26561f3f13bb.ttf.png)
@@ -124,7 +124,7 @@ export default () => {
 ![Palanquin_Bold700](./a1812757fe429bab601701c1010e05f49540ea857170789a8ee91e0fe1d5e9d2.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -133,7 +133,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/palanquin` package and its code are released under the MIT license.
 

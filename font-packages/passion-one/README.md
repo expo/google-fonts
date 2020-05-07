@@ -19,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `PassionOne_Bold700`
 - `PassionOne_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -72,7 +72,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### PassionOne_Regular400
 ![PassionOne_Regular400](./1f9e3f81509fa1087e3a4636d898f6ce048f4953bf6c06a6d79d9cb78115c03d.ttf.png)
@@ -84,7 +84,7 @@ export default () => {
 ![PassionOne_Black900](./351dd38c35e67c20b4ae84db1964391fd924cd245611616eacaf6b9e63113442.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -93,7 +93,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/passion-one` package and its code are released under the MIT license.
 

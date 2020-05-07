@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Sarala_Regular400`
 - `Sarala_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Sarala_Regular400
 ![Sarala_Regular400](./a9d80ed2e5dae04bd639f269f2f43d7fa0b65ef816a0abb64bbcae03db7a59bb.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![Sarala_Bold700](./2b0699ce4a9bd9eb0f091d571c8992f4ff81d558ef3b60edd81a71a081a6420f.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/sarala` package and its code are released under the MIT license.
 

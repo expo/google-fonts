@@ -30,7 +30,7 @@ This font family contains [14 styles](#gallery).
 - `Spectral_ExtraBold800`
 - `Spectral_ExtraBold800_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -149,7 +149,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Spectral_ExtraLight200
 ![Spectral_ExtraLight200](./38faebd2b01ddd2e497f09028eb10210de56ffadde5c5842c2f70a195865e869.ttf.png)
@@ -194,7 +194,7 @@ export default () => {
 ![Spectral_ExtraBold800_Italic](./528018df6d31607eec08ae87cd710edd29678dd7b9a2946b21fe5c2f725d95e5.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -203,7 +203,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/spectral` package and its code are released under the MIT license.
 

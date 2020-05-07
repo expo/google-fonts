@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `VollkornSC_Bold700`
 - `VollkornSC_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### VollkornSC_Regular400
 ![VollkornSC_Regular400](./3a204e8e6e256d182887114991a86b3853bd7b370eb298c5c5358a4924e94326.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![VollkornSC_Black900](./b95dc90d6b58551cd5cadf844986de95a70432ebf303eaf23270184113144a67.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/vollkorn-sc` package and its code are released under the MIT license.
 

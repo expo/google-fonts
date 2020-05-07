@@ -24,7 +24,7 @@ This font family contains [8 styles](#gallery).
 - `Faustina_Bold700`
 - `Faustina_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -107,7 +107,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Faustina_Regular400
 ![Faustina_Regular400](./b83e2bcd1f015e1e288c5870cf0301c94cff5d1d346b1c0b7d0e497ec7165a06.ttf.png)
@@ -134,7 +134,7 @@ export default () => {
 ![Faustina_Bold700_Italic](./32a38ed85ba3470cf4ff6929aae4fdb13233d68ba71b97ce606bc2ce782b0961.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -143,7 +143,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/faustina` package and its code are released under the MIT license.
 

@@ -30,7 +30,7 @@ This font family contains [14 styles](#gallery).
 - `BeVietnam_ExtraBold800`
 - `BeVietnam_ExtraBold800_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -149,7 +149,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### BeVietnam_Thin100
 ![BeVietnam_Thin100](./0cc0f5cd392e42154ccdcf1ffc6987159ee0807caf89c6ac0796a273c9c80cd4.ttf.png)
@@ -194,7 +194,7 @@ export default () => {
 ![BeVietnam_ExtraBold800_Italic](./2140e6025b6df417db0a543e64c090a9a5aa119d7523fd43a5f806a1550bdb37.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -203,7 +203,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/be-vietnam` package and its code are released under the MIT license.
 

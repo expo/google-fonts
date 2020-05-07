@@ -21,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `Rajdhani_SemiBold600`
 - `Rajdhani_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -86,7 +86,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Rajdhani_Light300
 ![Rajdhani_Light300](./5d3e322fc971c11dc62d2cb01d49ffb76c16b801c7811493250d84aa8f12fa3f.ttf.png)
@@ -104,7 +104,7 @@ export default () => {
 ![Rajdhani_Bold700](./01025724bc7898c86c82d19ae1779cb44ca7492a947094eb0249653e3d26850a.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -113,7 +113,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/rajdhani` package and its code are released under the MIT license.
 

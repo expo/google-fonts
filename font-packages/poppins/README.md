@@ -34,7 +34,7 @@ This font family contains [18 styles](#gallery).
 - `Poppins_Black900`
 - `Poppins_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -177,7 +177,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Poppins_Thin100
 ![Poppins_Thin100](./609ae3f057d392507fed90188cf6f9d5f85bb59f613c0decb2ecc9f51312a5cd.ttf.png)
@@ -234,7 +234,7 @@ export default () => {
 ![Poppins_Black900_Italic](./82eaa315798c980852cb782b3dc81adeb39c16903a1a46d96e5917f79266929d.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -243,7 +243,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/poppins` package and its code are released under the MIT license.
 

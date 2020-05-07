@@ -17,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `Capriola_Regular400`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -56,13 +56,13 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Capriola_Regular400
 ![Capriola_Regular400](./938d0b1c7f521513ee9bb1114d92827718670e0e5a495ccd564d70b0ddc59594.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -71,7 +71,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/capriola` package and its code are released under the MIT license.
 

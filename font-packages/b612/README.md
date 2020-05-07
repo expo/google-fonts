@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `B612_Bold700`
 - `B612_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -77,7 +77,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### B612_Regular400
 ![B612_Regular400](./b11c6d50f8a4ef2abd6df134192e3770a9b392c814caf916bcf0efa87e6743d2.ttf.png)
@@ -92,7 +92,7 @@ export default () => {
 ![B612_Bold700_Italic](./f930926cd0cbbde94c51659420d91fb464c93fa3109c6bdf553a706985e307e2.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -101,7 +101,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/b612` package and its code are released under the MIT license.
 

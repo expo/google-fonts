@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Rosario_Bold700`
 - `Rosario_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Rosario_Regular400
 ![Rosario_Regular400](./dc6413573a989dcba9ee4d0b7670f9eb53c458ddefc205ef6e0bd1e1c0be395e.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![Rosario_Bold700_Italic](./2fde400ab1655e1710a53bca2ab413a1504a54748fcac3b8ffea6135f4b8aabb.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/rosario` package and its code are released under the MIT license.
 

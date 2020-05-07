@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `IMFellGreatPrimer_Regular400`
 - `IMFellGreatPrimer_Regular400_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -66,7 +66,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### IMFellGreatPrimer_Regular400
 ![IMFellGreatPrimer_Regular400](./fede2a25cf42680231c7bfb90da7306e0962092c8e1074fbfc44ef59289257ec.ttf.png)
@@ -75,7 +75,7 @@ export default () => {
 ![IMFellGreatPrimer_Regular400_Italic](./020c8f65ef327b827d6e28ca2e4be8f019b4a81075f1c7c00a53993664b41b93.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -84,7 +84,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/im-fell-great-primer` package and its code are released under the MIT license.
 

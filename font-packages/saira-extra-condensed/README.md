@@ -25,7 +25,7 @@ This font family contains [9 styles](#gallery).
 - `SairaExtraCondensed_ExtraBold800`
 - `SairaExtraCondensed_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -115,7 +115,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### SairaExtraCondensed_Thin100
 ![SairaExtraCondensed_Thin100](./322d3973d59827b2504723abf3285c2d1e85181532fd146fdbabae00398ccbb1.ttf.png)
@@ -145,7 +145,7 @@ export default () => {
 ![SairaExtraCondensed_Black900](./2f9e1ef084cecc66c6306c5618a464b6f6557c0fab6b20f4061378300d83e090.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -154,7 +154,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/saira-extra-condensed` package and its code are released under the MIT license.
 

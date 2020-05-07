@@ -24,7 +24,7 @@ This font family contains [8 styles](#gallery).
 - `Merriweather_Black900`
 - `Merriweather_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -107,7 +107,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Merriweather_Light300
 ![Merriweather_Light300](./8e88a5324d8b8b44503a016700f8509fb935a78d5668c821daa0092bfea21493.ttf.png)
@@ -134,7 +134,7 @@ export default () => {
 ![Merriweather_Black900_Italic](./c6aef6fa65ac3afe1f4e813c13cc623329ddae356f8fa330370e3f1cd754f928.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -143,7 +143,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/merriweather` package and its code are released under the MIT license.
 

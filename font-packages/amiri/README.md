@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Amiri_Bold700`
 - `Amiri_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Amiri_Regular400
 ![Amiri_Regular400](./15af380107efd8a082b372d1ba8027d5fd6d4720ccf7f7ce48345b845cfb83b6.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![Amiri_Bold700_Italic](./9d9add54ab339fd5ca1f0b2fbda1117e04758800cefa39fa72d5f1e38b7a2e27.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/amiri` package and its code are released under the MIT license.
 

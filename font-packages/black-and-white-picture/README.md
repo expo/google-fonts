@@ -17,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `BlackAndWhitePicture_Regular400`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -56,13 +56,13 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### BlackAndWhitePicture_Regular400
 ![BlackAndWhitePicture_Regular400](./0c951e047e8f1e152232363c35791b975f78ae96c97bfa6f14634c7a2551970c.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -71,7 +71,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/black-and-white-picture` package and its code are released under the MIT license.
 

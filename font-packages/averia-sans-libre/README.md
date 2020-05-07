@@ -22,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `AveriaSansLibre_Bold700`
 - `AveriaSansLibre_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -94,7 +94,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### AveriaSansLibre_Light300
 ![AveriaSansLibre_Light300](./452436a08a43ba5da912a2ed71aa4e0c67ae680532317c5affb99278cedc4eb8.ttf.png)
@@ -115,7 +115,7 @@ export default () => {
 ![AveriaSansLibre_Bold700_Italic](./0509fc7d0b873424deb4340ab1bafca704241ecfda08cdafeab623999d12bdfd.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -124,7 +124,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/averia-sans-libre` package and its code are released under the MIT license.
 

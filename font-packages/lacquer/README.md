@@ -17,7 +17,7 @@ This font family contains [1 style](#gallery).
 
 - `Lacquer_Regular400`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -56,13 +56,13 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Lacquer_Regular400
 ![Lacquer_Regular400](./4d33d0518b8cf4ae8d6149c8bc8e7e19ced4124d6b80d47934fd4e7897cda55a.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -71,7 +71,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/lacquer` package and its code are released under the MIT license.
 

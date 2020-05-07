@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Caudex_Bold700`
 - `Caudex_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Caudex_Regular400
 ![Caudex_Regular400](./e0c195632ea06158f87e86ee898119dd8a7f59788999552ed79be77c33c6a726.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![Caudex_Bold700_Italic](./45c118976f77e53a2a5122e22cace7fb846373a14892fbb7e0ff61e1a46de1d4.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/caudex` package and its code are released under the MIT license.
 

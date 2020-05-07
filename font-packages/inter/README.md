@@ -25,7 +25,7 @@ This font family contains [9 styles](#gallery).
 - `Inter_ExtraBold800`
 - `Inter_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -114,7 +114,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Inter_Thin100
 ![Inter_Thin100](./897d64cd0dfbeb56e7867aff5fb59519c0a18eaa535b4d4f9d636ac43028afb5.ttf.png)
@@ -144,7 +144,7 @@ export default () => {
 ![Inter_Black900](./a2a712f761390199ddad75da5123d6f97f529f5d6dab247f94ceb954a8fe381e.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -153,7 +153,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/inter` package and its code are released under the MIT license.
 

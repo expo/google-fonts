@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `NotoSans_Bold700`
 - `NotoSans_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### NotoSans_Regular400
 ![NotoSans_Regular400](./7ae7b625c88992d250a617f91f64e254aa6ea78ca904f1e5fc1f588f0bb9a4ef.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![NotoSans_Bold700_Italic](./2b36c5bae3f90cb9def112b8d15a224e0f0e4a0a75a5d83718690c6927872140.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/noto-sans` package and its code are released under the MIT license.
 

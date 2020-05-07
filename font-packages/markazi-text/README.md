@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `MarkaziText_SemiBold600`
 - `MarkaziText_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### MarkaziText_Regular400
 ![MarkaziText_Regular400](./0e5e6bb8cf276742072a5a22282dd79c7d532219e9a950faad9fcf21d2cf8cea.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![MarkaziText_Bold700](./342d38b7c70eeaf282e54f367d5ba4eba6d1c07b2c2363023084bcbed4d1c05e.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/markazi-text` package and its code are released under the MIT license.
 

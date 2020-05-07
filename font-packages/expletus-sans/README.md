@@ -24,7 +24,7 @@ This font family contains [8 styles](#gallery).
 - `ExpletusSans_Bold700`
 - `ExpletusSans_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -107,7 +107,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### ExpletusSans_Regular400
 ![ExpletusSans_Regular400](./8e8194fbcb2069328e5c506a10ab38e405a359ec0ab5c0d2379659cdff0830db.ttf.png)
@@ -134,7 +134,7 @@ export default () => {
 ![ExpletusSans_Bold700_Italic](./77c1827497333ee775fc45b32a1c0c2da85ac489afa78e6ee3808130e850e355.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -143,7 +143,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/expletus-sans` package and its code are released under the MIT license.
 

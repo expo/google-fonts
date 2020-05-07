@@ -19,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `SulphurPoint_Regular400`
 - `SulphurPoint_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -72,7 +72,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### SulphurPoint_Light300
 ![SulphurPoint_Light300](./a21388d3a52630430a38cfb9e7aefbfa4653889b768e5fdc07c3eaa76c4bc5f0.ttf.png)
@@ -84,7 +84,7 @@ export default () => {
 ![SulphurPoint_Bold700](./27c023fb553e5fa85d985bf1965ac74cdc7ca09e715c656f8dfe82a44c53f18d.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -93,7 +93,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/sulphur-point` package and its code are released under the MIT license.
 

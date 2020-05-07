@@ -19,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `Oxygen_Regular400`
 - `Oxygen_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -68,7 +68,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Oxygen_Light300
 ![Oxygen_Light300](./a7e1244b4a11ee9f21f86e2f25d7dd963f8e8f93d7b8e411620c959f4cf66fa2.ttf.png)
@@ -80,7 +80,7 @@ export default () => {
 ![Oxygen_Bold700](./4bccf594c248e25c3da7e37b9dc5e9cddfcf3bc405504b7d15f4523358d81f76.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -89,7 +89,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/oxygen` package and its code are released under the MIT license.
 

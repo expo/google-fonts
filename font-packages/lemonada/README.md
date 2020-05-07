@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Lemonada_SemiBold600`
 - `Lemonada_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Lemonada_Light300
 ![Lemonada_Light300](./cd1018b5355f76f3e9ff9d859172bbccef3a0e0bb0b6956ed913a2edba4e9673.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![Lemonada_Bold700](./9f8159cd531775a6fab18432a618771064672ca7a1c6c7db49780d18de0d87d0.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/lemonada` package and its code are released under the MIT license.
 

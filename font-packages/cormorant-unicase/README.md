@@ -21,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `CormorantUnicase_SemiBold600`
 - `CormorantUnicase_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -86,7 +86,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### CormorantUnicase_Light300
 ![CormorantUnicase_Light300](./8b2f697aa9071850538a594d14122faff09a953f9e6b7897e5284ae9afe2c2b0.ttf.png)
@@ -104,7 +104,7 @@ export default () => {
 ![CormorantUnicase_Bold700](./ad4713eaa8a5f3198c0bed735f60707e4cb0c77de5643d8b4df7f61e8a8979a6.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -113,7 +113,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/cormorant-unicase` package and its code are released under the MIT license.
 

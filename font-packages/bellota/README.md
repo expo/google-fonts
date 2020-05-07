@@ -22,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `Bellota_Bold700`
 - `Bellota_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -93,7 +93,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Bellota_Light300
 ![Bellota_Light300](./29b1164370f0eca544e3c2cb64f06324bd098c99c35f5ecdd5527d6642e5a78f.ttf.png)
@@ -114,7 +114,7 @@ export default () => {
 ![Bellota_Bold700_Italic](./e876bb51e7fba1f8fadcef59f4b68e3020a0909557cef70a98c84253c9e32f2f.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -123,7 +123,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/bellota` package and its code are released under the MIT license.
 

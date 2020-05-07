@@ -22,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `Athiti_SemiBold600`
 - `Athiti_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -93,7 +93,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Athiti_ExtraLight200
 ![Athiti_ExtraLight200](./4abe61baf7f8762b4dcb6b88b0610de73f42b112a793e28b92da163ee7e441d7.ttf.png)
@@ -114,7 +114,7 @@ export default () => {
 ![Athiti_Bold700](./63b6ab040d22bd64ce5d5400f352fac3ecefa83827b1862b8a216d5c729ea286.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -123,7 +123,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/athiti` package and its code are released under the MIT license.
 

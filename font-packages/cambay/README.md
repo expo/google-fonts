@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Cambay_Bold700`
 - `Cambay_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Cambay_Regular400
 ![Cambay_Regular400](./a7bad4e2ac4cc5bdeef53e890b4b3d52b065fdae8ebe5f754f263384995f7c73.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![Cambay_Bold700_Italic](./d17daa8d61f0a8bdd69696d0da7fc566e3a13141eb0ae45e512b48dcafb92565.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/cambay` package and its code are released under the MIT license.
 

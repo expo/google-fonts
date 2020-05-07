@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `SpaceMono_Bold700`
 - `SpaceMono_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### SpaceMono_Regular400
 ![SpaceMono_Regular400](./1308fd8bd0f79e0517319bf0429226dfce5ae67beb495577737524f29b537527.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![SpaceMono_Bold700_Italic](./ec50d2d9cc5bbed72fae03e2bc8a720e2cca1324f8bc99b30089d51896917f0e.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/space-mono` package and its code are released under the MIT license.
 

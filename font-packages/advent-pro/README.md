@@ -23,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `AdventPro_SemiBold600`
 - `AdventPro_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -100,7 +100,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### AdventPro_Thin100
 ![AdventPro_Thin100](./4041ce69b488624d0653057137ff69ead9c9496be2059ede6a5056fd48780850.ttf.png)
@@ -124,7 +124,7 @@ export default () => {
 ![AdventPro_Bold700](./962b3ce8591b2ca225b23e65b3914233c576d21700e3f24c6b820230fe8424e0.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -133,7 +133,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/advent-pro` package and its code are released under the MIT license.
 

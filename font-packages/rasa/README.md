@@ -21,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `Rasa_SemiBold600`
 - `Rasa_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -84,7 +84,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Rasa_Light300
 ![Rasa_Light300](./6d1458902052379a4c442fe3c08dfb90a878e6187abc480b52afc11943431dd3.ttf.png)
@@ -102,7 +102,7 @@ export default () => {
 ![Rasa_Bold700](./f756b8a84bfdccc709dbc00ba23c8852f077e23210d148b4a158e4feb7c1901e.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -111,7 +111,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/rasa` package and its code are released under the MIT license.
 

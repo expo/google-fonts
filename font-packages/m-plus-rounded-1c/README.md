@@ -23,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `MPLUSRounded1c_ExtraBold800`
 - `MPLUSRounded1c_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -100,7 +100,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### MPLUSRounded1c_Thin100
 ![MPLUSRounded1c_Thin100](./6d028025ec621f30d69f25f3b121f0eb6e4678e96d47f16d760f1fcf59248d2c.ttf.png)
@@ -124,7 +124,7 @@ export default () => {
 ![MPLUSRounded1c_Black900](./cadad2376795cd1bcdaae984a16f1fef7e2f18ca27fd2493f32f620867a1ef05.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -133,7 +133,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/m-plus-rounded-1c` package and its code are released under the MIT license.
 

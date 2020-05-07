@@ -19,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `Cardo_Regular400_Italic`
 - `Cardo_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -68,7 +68,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Cardo_Regular400
 ![Cardo_Regular400](./286e6a4bde92ea6087b503978338898808df924a3cdd8144741fa780d11603a2.ttf.png)
@@ -80,7 +80,7 @@ export default () => {
 ![Cardo_Bold700](./10c0bab22a674656a3d5e94e05e64f9c6c6ea25acce0d0fc846f964985b142ce.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -89,7 +89,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/cardo` package and its code are released under the MIT license.
 

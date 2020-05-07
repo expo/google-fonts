@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Sniglet_Regular400`
 - `Sniglet_ExtraBold800`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Sniglet_Regular400
 ![Sniglet_Regular400](./106613b6566b3b9a696c095879b31e220c39d60c508dae033b5f3680aaa48732.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![Sniglet_ExtraBold800](./439b0ab4a7a1d2a1328cc8eb52d10167325643f9c15a187d3d7650cdd15cf896.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/sniglet` package and its code are released under the MIT license.
 

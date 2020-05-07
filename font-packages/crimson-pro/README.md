@@ -32,7 +32,7 @@ This font family contains [16 styles](#gallery).
 - `CrimsonPro_ExtraBold800_Italic`
 - `CrimsonPro_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -163,7 +163,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### CrimsonPro_ExtraLight200
 ![CrimsonPro_ExtraLight200](./8b66abfec21e34e91fc61b2ac08084816d4d166259ea2198ed01578a1ac727e5.ttf.png)
@@ -214,7 +214,7 @@ export default () => {
 ![CrimsonPro_Black900_Italic](./a99ef7991d1f3adeaa296d774cdf32d4441511e024a0bf21a52b3cac625c49e9.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -223,7 +223,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/crimson-pro` package and its code are released under the MIT license.
 

@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Mirza_SemiBold600`
 - `Mirza_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Mirza_Regular400
 ![Mirza_Regular400](./5b1ac6cb285ca3492e313a53d5252b9784bf7607f2835a2d44cb3cbad0168539.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![Mirza_Bold700](./306b412a39d9f93ca840c13ca62300eb5c7712e2afa94bd7ef2272b51131be6d.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/mirza` package and its code are released under the MIT license.
 

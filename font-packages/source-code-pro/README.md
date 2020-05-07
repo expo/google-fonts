@@ -23,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `SourceCodePro_Bold700`
 - `SourceCodePro_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -100,7 +100,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### SourceCodePro_ExtraLight200
 ![SourceCodePro_ExtraLight200](./5a618360951a8134d26923216c53da2cee51d55e6e2ca0003ecfe111b701bae5.ttf.png)
@@ -124,7 +124,7 @@ export default () => {
 ![SourceCodePro_Black900](./677bde76eea8889e4ec713ec738f7fadd150aee2ffca36efb65946a45e6b93cc.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -133,7 +133,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/source-code-pro` package and its code are released under the MIT license.
 

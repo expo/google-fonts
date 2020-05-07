@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Scada_Bold700`
 - `Scada_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Scada_Regular400
 ![Scada_Regular400](./b50d4e47b78665f29007e923c626d8127c7c9793f60cc8b94e55fe65a9e1b156.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![Scada_Bold700_Italic](./c61947a93ece6ef8f4f35e6f1f51f2d2eae7d27d8c1e103b8a0792818925421e.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/scada` package and its code are released under the MIT license.
 

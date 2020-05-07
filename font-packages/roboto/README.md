@@ -28,7 +28,7 @@ This font family contains [12 styles](#gallery).
 - `Roboto_Black900`
 - `Roboto_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -135,7 +135,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Roboto_Thin100
 ![Roboto_Thin100](./e735762739638d19335103f8e7a343545560f4b2265fd35a4f0f516f512a7760.ttf.png)
@@ -174,7 +174,7 @@ export default () => {
 ![Roboto_Black900_Italic](./a4c423dcbda812fa36cb0325f3aad0fd9847e8a5b0a26f31094db0666e721c8c.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -183,7 +183,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/roboto` package and its code are released under the MIT license.
 

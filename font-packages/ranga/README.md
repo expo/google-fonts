@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Ranga_Regular400`
 - `Ranga_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Ranga_Regular400
 ![Ranga_Regular400](./e51a6898e34d12bd9b9057002e645f176d30f5e821bfaa1ccc4e56294af7099a.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![Ranga_Bold700](./c5c763628e805a2af3c9deb68abd0b70227a98911f7ba56f4f8c2a3e8c286b96.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/ranga` package and its code are released under the MIT license.
 

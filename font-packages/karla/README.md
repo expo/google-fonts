@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Karla_Bold700`
 - `Karla_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Karla_Regular400
 ![Karla_Regular400](./6f59c39b7fe5470c4c19a0bd67174cb94cdbe2053382046ea00b00fbfd5008a7.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![Karla_Bold700_Italic](./11cdf8ae7a17fbd7e9d7e2b43ced2e092b6d3a77cd2846dbf42cf3d82ffcb5e8.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/karla` package and its code are released under the MIT license.
 

@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `NewsCycle_Regular400`
 - `NewsCycle_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### NewsCycle_Regular400
 ![NewsCycle_Regular400](./9dc74270959405ee468a6ea83452b01a8075067bf71cb96c8097511477f8aec6.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![NewsCycle_Bold700](./301d13c6e3a40093c2244566226928b2e8bd2843d5cb06302c5c30b44c3d4bc2.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/news-cycle` package and its code are released under the MIT license.
 

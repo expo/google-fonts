@@ -19,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `FiraMono_Medium500`
 - `FiraMono_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -72,7 +72,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### FiraMono_Regular400
 ![FiraMono_Regular400](./f17d60778f78f5928584a4f314a221b328dbce03da62fcc09caeebac82f76809.ttf.png)
@@ -84,7 +84,7 @@ export default () => {
 ![FiraMono_Bold700](./4dab36f8faa3f89e09e177a6ef40eaacd307b98b2a38a14426be96ce9ed67a3b.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -93,7 +93,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/fira-mono` package and its code are released under the MIT license.
 

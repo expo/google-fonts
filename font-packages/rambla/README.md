@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Rambla_Bold700`
 - `Rambla_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Rambla_Regular400
 ![Rambla_Regular400](./8cc56fcd2e3777d5c3699b8db651965ee39a057e20813adb1a07b181a8511e65.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![Rambla_Bold700_Italic](./f20b77570105aff68e4179538c4243221228d9f13bc6eb988847fdf6800b97b4.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/rambla` package and its code are released under the MIT license.
 

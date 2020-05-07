@@ -26,7 +26,7 @@ This font family contains [10 styles](#gallery).
 - `Lato_Black900`
 - `Lato_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -117,7 +117,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Lato_Thin100
 ![Lato_Thin100](./2e734a39ad0b4a1dffd327f552cce678e867791007200be49b6a93a6c7c71b27.ttf.png)
@@ -150,7 +150,7 @@ export default () => {
 ![Lato_Black900_Italic](./60407472b091a98e26c61f47900329eb3f971651fa76edc26d9f32f87e27f13f.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -159,7 +159,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/lato` package and its code are released under the MIT license.
 

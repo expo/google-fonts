@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `LobsterTwo_Bold700`
 - `LobsterTwo_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### LobsterTwo_Regular400
 ![LobsterTwo_Regular400](./0c7a1501aa183946996d6a6dd00639131356d161f596511cf06339053570e634.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![LobsterTwo_Bold700_Italic](./37a829bca6d8cab14c9768897a1dafc7fcc08b7b459ba3bd2a2e0dac406eead9.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/lobster-two` package and its code are released under the MIT license.
 

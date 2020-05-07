@@ -26,7 +26,7 @@ This font family contains [10 styles](#gallery).
 - `CormorantInfant_Bold700`
 - `CormorantInfant_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -123,7 +123,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### CormorantInfant_Light300
 ![CormorantInfant_Light300](./9168080bdab2d447729e3f3046722e4d88cfd4cb5a1862dc6d916cba737791c5.ttf.png)
@@ -156,7 +156,7 @@ export default () => {
 ![CormorantInfant_Bold700_Italic](./ceb4474fec6832dee11e5cc5624186c760e7993898bc39599f3fe8248cbb1b70.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -165,7 +165,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/cormorant-infant` package and its code are released under the MIT license.
 

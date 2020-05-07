@@ -23,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `Tajawal_ExtraBold800`
 - `Tajawal_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -100,7 +100,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Tajawal_ExtraLight200
 ![Tajawal_ExtraLight200](./1591b1d4b425865ad56f27769d7904f608af3a947ce4a365c5e6f1a66ed36c5c.ttf.png)
@@ -124,7 +124,7 @@ export default () => {
 ![Tajawal_Black900](./9953e51150483dc38b632c494f68d39e59b6c474716bc0ac3e9d997c4ec0df52.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -133,7 +133,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/tajawal` package and its code are released under the MIT license.
 

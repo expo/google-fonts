@@ -21,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `FrankRuhlLibre_Bold700`
 - `FrankRuhlLibre_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -86,7 +86,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### FrankRuhlLibre_Light300
 ![FrankRuhlLibre_Light300](./a5522476a201c815bdc0a30e19c5eb768edd4ddbe563647bf958a6326d7de351.ttf.png)
@@ -104,7 +104,7 @@ export default () => {
 ![FrankRuhlLibre_Black900](./1be4c921fb7b84259c4252c3caadda7f65b0ed5ad332ce0b680224f76e280363.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -113,7 +113,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/frank-ruhl-libre` package and its code are released under the MIT license.
 

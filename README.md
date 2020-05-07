@@ -1,6 +1,6 @@
 # expo-google-fonts
   
-![npm version](https://flat.badgen.net/npm/v/expo-google-fonts)
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/dev)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 
 The `@expo-google-fonts` packages for Expo allow you to easily use 

@@ -32,7 +32,7 @@ This font family contains [16 styles](#gallery).
 - `Sarabun_ExtraBold800`
 - `Sarabun_ExtraBold800_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -163,7 +163,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Sarabun_Thin100
 ![Sarabun_Thin100](./50cf24ee678c36e02b98c19ccc01d8e59c50d00c66e75054e4cca503779d8f37.ttf.png)
@@ -214,7 +214,7 @@ export default () => {
 ![Sarabun_ExtraBold800_Italic](./4bcc3502d7dc5c7b0f96076c30ed78f3854455f65e5146c76a13893aa033341a.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -223,7 +223,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/sarabun` package and its code are released under the MIT license.
 

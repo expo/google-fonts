@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Flamenco_Light300`
 - `Flamenco_Regular400`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Flamenco_Light300
 ![Flamenco_Light300](./5e1405fc92b58d9d35feb160e51edfaa54ace38f1e035d9fe2bfbf79a4087fe2.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![Flamenco_Regular400](./f5146448316dfb5f65a04e6a343c26f45f45587351d34559af1459a54eaa864c.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/flamenco` package and its code are released under the MIT license.
 

@@ -24,7 +24,7 @@ This font family contains [8 styles](#gallery).
 - `Vollkorn_Black900`
 - `Vollkorn_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -107,7 +107,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Vollkorn_Regular400
 ![Vollkorn_Regular400](./9fd84335b1beb10505c201815682f7b543aa429a5a909e8b2126f15d36a0705a.ttf.png)
@@ -134,7 +134,7 @@ export default () => {
 ![Vollkorn_Black900_Italic](./3953dfef7c1118f089612462105779d89da8f9df1aa11b74a8b2a58bb8359a44.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -143,7 +143,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/vollkorn` package and its code are released under the MIT license.
 

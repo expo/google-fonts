@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Merienda_Regular400`
 - `Merienda_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Merienda_Regular400
 ![Merienda_Regular400](./1132399bc1f3e2caf41c69cc4f7c590c83da549f8e9b8cf43dadc262df733048.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![Merienda_Bold700](./5f177984e147fff648e2e2bd9ca6e74e13c2be2d6d14b466b154b51e93df5f14.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/merienda` package and its code are released under the MIT license.
 

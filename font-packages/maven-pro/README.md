@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `MavenPro_Bold700`
 - `MavenPro_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### MavenPro_Regular400
 ![MavenPro_Regular400](./20ff29ac0e19858eec2689ee81f18e45489d0afec4b61a21036d0c755edafcd7.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![MavenPro_Black900](./9a922f263eff247f7ccc3823865c2b9241e10c305b6c64b3754dbb06ce6b5e33.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/maven-pro` package and its code are released under the MIT license.
 

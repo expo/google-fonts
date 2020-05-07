@@ -19,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `Kalam_Regular400`
 - `Kalam_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -68,7 +68,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Kalam_Light300
 ![Kalam_Light300](./acc410247649f3164d61952a81b88737fb56977ac409e4d5f35d960e3b13747a.ttf.png)
@@ -80,7 +80,7 @@ export default () => {
 ![Kalam_Bold700](./d48470c951c546b15999abb42141211e85484cffff16ce7612d07676efb9d0d8.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -89,7 +89,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/kalam` package and its code are released under the MIT license.
 

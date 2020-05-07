@@ -34,7 +34,7 @@ This font family contains [18 styles](#gallery).
 - `Montserrat_Black900`
 - `Montserrat_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -177,7 +177,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Montserrat_Thin100
 ![Montserrat_Thin100](./13b843ab4d5acd6d99d06a88bbc492bd3ffb0d55b01f159c34a0a6237cb2f148.ttf.png)
@@ -234,7 +234,7 @@ export default () => {
 ![Montserrat_Black900_Italic](./6eac88b190248d68069db0de9c165f24aaffc22097fec98ba72710c2f9a96a71.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -243,7 +243,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/montserrat` package and its code are released under the MIT license.
 

@@ -21,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `Eczar_Bold700`
 - `Eczar_ExtraBold800`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -86,7 +86,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Eczar_Regular400
 ![Eczar_Regular400](./c6e04a6ef288e1fca3e9420bfd9752bfdc230a20ce55a05855a8896bdb763a8e.ttf.png)
@@ -104,7 +104,7 @@ export default () => {
 ![Eczar_ExtraBold800](./d9144eab6daf83585fcb44f4726902a8cbca81d5df060ed6f09787fd5192239f.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -113,7 +113,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/eczar` package and its code are released under the MIT license.
 

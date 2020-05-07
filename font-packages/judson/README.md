@@ -19,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `Judson_Regular400_Italic`
 - `Judson_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -72,7 +72,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Judson_Regular400
 ![Judson_Regular400](./a0e44f8bee5db23549c40c2bdd46ee689a1d4427410df98883638059880eb73b.ttf.png)
@@ -84,7 +84,7 @@ export default () => {
 ![Judson_Bold700](./b39af14b252a5cb398202d4738e995ef23ad94afe48fbd78fac58759d298f49e.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -93,7 +93,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/judson` package and its code are released under the MIT license.
 

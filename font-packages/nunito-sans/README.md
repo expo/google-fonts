@@ -30,7 +30,7 @@ This font family contains [14 styles](#gallery).
 - `NunitoSans_Black900`
 - `NunitoSans_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -149,7 +149,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### NunitoSans_ExtraLight200
 ![NunitoSans_ExtraLight200](./70c2474c36bf599083e387d302c27f28e5439ccd1d15425222ba9855b31f6e11.ttf.png)
@@ -194,7 +194,7 @@ export default () => {
 ![NunitoSans_Black900_Italic](./1ef6bb692fd273ef402051d20962975c507172596da00ed72faf7907d1e00118.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -203,7 +203,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/nunito-sans` package and its code are released under the MIT license.
 

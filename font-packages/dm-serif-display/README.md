@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `DMSerifDisplay_Regular400`
 - `DMSerifDisplay_Regular400_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -65,7 +65,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### DMSerifDisplay_Regular400
 ![DMSerifDisplay_Regular400](./e1157689ec181ea520aeee52f8f7f8c16e0ced52d30800c402aae31faf50985a.ttf.png)
@@ -74,7 +74,7 @@ export default () => {
 ![DMSerifDisplay_Regular400_Italic](./007cfd580d7b1323a1b43156d2591b8119745361daba6117832dcbfb0146a36a.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -83,7 +83,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/dm-serif-display` package and its code are released under the MIT license.
 

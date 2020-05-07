@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Jaldi_Regular400`
 - `Jaldi_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Jaldi_Regular400
 ![Jaldi_Regular400](./2fd0aecfd94af32615e102201a3d6b70dd7b98a317a4b6457f9d5683435f2680.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![Jaldi_Bold700](./1eb9040b249dbbf98470eca20e05d667c64d16570d20f4f3b5c8082472d03566.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/jaldi` package and its code are released under the MIT license.
 

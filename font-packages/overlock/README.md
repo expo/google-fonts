@@ -22,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `Overlock_Black900`
 - `Overlock_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -93,7 +93,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Overlock_Regular400
 ![Overlock_Regular400](./f4eb336168d4c74d8a4795ef601c2c88a8c6e58cc2029bb029abde86dba8de8d.ttf.png)
@@ -114,7 +114,7 @@ export default () => {
 ![Overlock_Black900_Italic](./dd19e6be709bf9ee365d90ee333b1766e7714578cd954bb3b5dcb1fae2e2022a.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -123,7 +123,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/overlock` package and its code are released under the MIT license.
 

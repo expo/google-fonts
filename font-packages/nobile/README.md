@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Nobile_Bold700`
 - `Nobile_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Nobile_Regular400
 ![Nobile_Regular400](./d0fcaab1c3dc981d4dcbe2840d5a12039de03b68f4f2736ac648e6eb339249c1.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![Nobile_Bold700_Italic](./c889dceebe4337abc148cab8adbcb5ad8e6277635316b13a75afb02db100212d.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/nobile` package and its code are released under the MIT license.
 

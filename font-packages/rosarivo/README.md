@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Rosarivo_Regular400`
 - `Rosarivo_Regular400_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Rosarivo_Regular400
 ![Rosarivo_Regular400](./d5878b2fc902263df1fa49b327526cf9d20d935600e9d19b05ed00453639dd2e.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![Rosarivo_Regular400_Italic](./0decb12337d01f7da972a8999c759b44d150a6b4da6f78459c1fc7732df0e5ea.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/rosarivo` package and its code are released under the MIT license.
 

@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Cantarell_Bold700`
 - `Cantarell_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Cantarell_Regular400
 ![Cantarell_Regular400](./1e62d82800c92f72ed501733b5d52d7b8a5d88d1c6315bfdaf7f8ce781108c00.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![Cantarell_Bold700_Italic](./bb2c0f469972ec2016c3b8b8254ea0077f46207efb249afb3c4d356cf2c5418e.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/cantarell` package and its code are released under the MIT license.
 

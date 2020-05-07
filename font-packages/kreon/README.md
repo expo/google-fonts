@@ -19,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `Kreon_Regular400`
 - `Kreon_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -68,7 +68,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Kreon_Light300
 ![Kreon_Light300](./988fb49f563aec3452b26437e4cef99cd52bf368c5fb6c30e7b9e1419e4a3723.ttf.png)
@@ -80,7 +80,7 @@ export default () => {
 ![Kreon_Bold700](./9d9092c90a6173026afefda0a94456688b33166363b733d8d42200e68837b012.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -89,7 +89,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/kreon` package and its code are released under the MIT license.
 

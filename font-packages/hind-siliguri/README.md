@@ -21,7 +21,7 @@ This font family contains [5 styles](#gallery).
 - `HindSiliguri_SemiBold600`
 - `HindSiliguri_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -86,7 +86,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### HindSiliguri_Light300
 ![HindSiliguri_Light300](./ac4fb0e6616374786c8c79c069fb7ec555580917d9534053bbc5cfca7cc35a6b.ttf.png)
@@ -104,7 +104,7 @@ export default () => {
 ![HindSiliguri_Bold700](./3b363f06eb2b3264843731ba51fa467aba8cf06454281e9ceab83a3bc8c802ce.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -113,7 +113,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/hind-siliguri` package and its code are released under the MIT license.
 

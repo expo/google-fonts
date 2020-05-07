@@ -24,7 +24,7 @@ This font family contains [8 styles](#gallery).
 - `Chivo_Black900`
 - `Chivo_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -107,7 +107,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Chivo_Light300
 ![Chivo_Light300](./994635489f0d118a198cb7efcdd1b61cbd4431c9e6426fffad5b731c4d2c1a5c.ttf.png)
@@ -134,7 +134,7 @@ export default () => {
 ![Chivo_Black900_Italic](./da92d63af2ecddbae2e8cf92a528caebcba3ed94b7b00e2ab04d228c4622c806.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -143,7 +143,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/chivo` package and its code are released under the MIT license.
 

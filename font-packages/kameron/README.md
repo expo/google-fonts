@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Kameron_Regular400`
 - `Kameron_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Kameron_Regular400
 ![Kameron_Regular400](./31d4c66237b8a2353dcb28cc0c0fcf347f10cb20582071c7db1e3d2820bc9d29.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![Kameron_Bold700](./ba1c38d9290bf8209d9ff96941f976a43f44f9bd3eee9b066349fe39d6a0eef6.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/kameron` package and its code are released under the MIT license.
 

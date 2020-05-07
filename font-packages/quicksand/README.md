@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Quicksand_Medium500`
 - `Quicksand_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Quicksand_Light300
 ![Quicksand_Light300](./1d9cb44be0f4a238981aae2eb07e9157e00c48fae09163bea0866e136d1c3f1f.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![Quicksand_Bold700](./6bb475d143c61221c4ea174d3c51728268e58b12dbc14600d59020ef8deaaead.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/quicksand` package and its code are released under the MIT license.
 

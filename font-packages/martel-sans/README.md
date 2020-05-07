@@ -23,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `MartelSans_ExtraBold800`
 - `MartelSans_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -100,7 +100,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### MartelSans_ExtraLight200
 ![MartelSans_ExtraLight200](./1fc958d478da9b8b19e77c989d4fb6dbbd2f412a15b122ba72a2b11ee450907f.ttf.png)
@@ -124,7 +124,7 @@ export default () => {
 ![MartelSans_Black900](./9145c71bcab8472ba22b19f9e4e898639945be5fed13f10cd4d399fd5eac5a83.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -133,7 +133,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/martel-sans` package and its code are released under the MIT license.
 

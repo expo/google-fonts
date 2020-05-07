@@ -25,7 +25,7 @@ This font family contains [9 styles](#gallery).
 - `HeptaSlab_ExtraBold800`
 - `HeptaSlab_Black900`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -114,7 +114,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### HeptaSlab_Thin100
 ![HeptaSlab_Thin100](./534d777769f5477f07228b5576ec1d9e5f8524ebb5568ee0c7ead05433221d78.ttf.png)
@@ -144,7 +144,7 @@ export default () => {
 ![HeptaSlab_Black900](./bf562116fb32949fa7d908466470e1c6d03ae7bb83023d1428527ecec91d9201.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -153,7 +153,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/hepta-slab` package and its code are released under the MIT license.
 

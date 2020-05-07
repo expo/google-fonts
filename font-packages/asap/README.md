@@ -22,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `Asap_Bold700`
 - `Asap_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -91,7 +91,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Asap_Regular400
 ![Asap_Regular400](./3424989c5e2512f04cbd78fd70665961847d7307eb5d795caadac8db451f74cc.ttf.png)
@@ -112,7 +112,7 @@ export default () => {
 ![Asap_Bold700_Italic](./ce966470982f0031860428bc4a47e41d80471ac70ccc857fac1e948d6c964eb7.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -121,7 +121,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/asap` package and its code are released under the MIT license.
 

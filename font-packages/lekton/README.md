@@ -19,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `Lekton_Regular400_Italic`
 - `Lekton_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -72,7 +72,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Lekton_Regular400
 ![Lekton_Regular400](./919f93dff330901c348455426b31bc6ad6270b29b4527387ab2f16ae1a8b1b37.ttf.png)
@@ -84,7 +84,7 @@ export default () => {
 ![Lekton_Bold700](./34d7bf522a1cd2ddb84bd57082d9651c5155029004a5a66c713dec61c865ab08.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -93,7 +93,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/lekton` package and its code are released under the MIT license.
 

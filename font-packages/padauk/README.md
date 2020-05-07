@@ -18,7 +18,7 @@ This font family contains [2 styles](#gallery).
 - `Padauk_Regular400`
 - `Padauk_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -62,7 +62,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Padauk_Regular400
 ![Padauk_Regular400](./5326568d3a2c4690b03acaafdf444cd2e52712e7a16d96a3639b40f17fcfe8b0.ttf.png)
@@ -71,7 +71,7 @@ export default () => {
 ![Padauk_Bold700](./a3054832e288beedeba883a9477e908a910c186e002a455277fb4c54e37518f6.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -80,7 +80,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/padauk` package and its code are released under the MIT license.
 

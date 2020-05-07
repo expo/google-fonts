@@ -34,7 +34,7 @@ This font family contains [18 styles](#gallery).
 - `LibreFranklin_Black900`
 - `LibreFranklin_Black900_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -179,7 +179,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### LibreFranklin_Thin100
 ![LibreFranklin_Thin100](./a1f21b9a28ecb3d6ea935dfde51aee05540140c3a25253b0641b9444dda667c1.ttf.png)
@@ -236,7 +236,7 @@ export default () => {
 ![LibreFranklin_Black900_Italic](./136f29fe980b3eaed9bf88c730b2383f963681429fc8d55de10ce71392487a12.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -245,7 +245,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/libre-franklin` package and its code are released under the MIT license.
 

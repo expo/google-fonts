@@ -19,7 +19,7 @@ This font family contains [3 styles](#gallery).
 - `Gayathri_Regular400`
 - `Gayathri_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -72,7 +72,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Gayathri_Thin100
 ![Gayathri_Thin100](./6d8dba16325ef843155b024f792235ef54403fc4ce39f71ffe50c6a7cca110da.ttf.png)
@@ -84,7 +84,7 @@ export default () => {
 ![Gayathri_Bold700](./dac84e865cf4bf1f5f2bd54100f9b5ded81e0b2e3904ba8a3a6a992df1c13627.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -93,7 +93,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/gayathri` package and its code are released under the MIT license.
 

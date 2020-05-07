@@ -23,7 +23,7 @@ This font family contains [7 styles](#gallery).
 - `MuktaMahee_Bold700`
 - `MuktaMahee_ExtraBold800`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -100,7 +100,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### MuktaMahee_ExtraLight200
 ![MuktaMahee_ExtraLight200](./deb2926281b06e4d02371cd3f6f4883d13a38514549e581c6269cb16250c5a63.ttf.png)
@@ -124,7 +124,7 @@ export default () => {
 ![MuktaMahee_ExtraBold800](./561a2604bd143dc10cc3499ba4e3c7eef16b6705db72db31da22ad356b76feb5.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -133,7 +133,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/mukta-mahee` package and its code are released under the MIT license.
 

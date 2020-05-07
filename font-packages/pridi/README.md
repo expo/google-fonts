@@ -22,7 +22,7 @@ This font family contains [6 styles](#gallery).
 - `Pridi_SemiBold600`
 - `Pridi_Bold700`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -93,7 +93,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Pridi_ExtraLight200
 ![Pridi_ExtraLight200](./25767951345549f712ecc99e7f7e0ed309d7e3b707e8f82ac578dea2843ee338.ttf.png)
@@ -114,7 +114,7 @@ export default () => {
 ![Pridi_Bold700](./26c0c1d38bb9f9387d48474dd1abf32af18563e40fa1067abcfa242e8870cf6b.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -123,7 +123,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/pridi` package and its code are released under the MIT license.
 

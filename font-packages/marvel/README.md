@@ -20,7 +20,7 @@ This font family contains [4 styles](#gallery).
 - `Marvel_Bold700`
 - `Marvel_Bold700_Italic`
 
-## 🔡 Usage
+## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
@@ -79,7 +79,7 @@ export default () => {
 
 ```
 
-## 📖 Gallery
+## 🔡 Gallery
 
 ##### Marvel_Regular400
 ![Marvel_Regular400](./3762fad5facc07dfebad111a683192dbddb8dc02a4a43406d2c79a4303b11b95.ttf.png)
@@ -94,7 +94,7 @@ export default () => {
 ![Marvel_Bold700_Italic](./3b41fd323f8f2702af4eac210e3a7aaccc576298b28256bf11c98cba436c90c9.ttf.png)
 
 
-## 🖥️ Use During Development
+## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
@@ -103,7 +103,7 @@ over the network at runtime instead of adding the asset as a file to your projec
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
 
-## ⚖️ License
+## 📖 License
 
 The `@expo-google-fonts/marvel` package and its code are released under the MIT license.
 
