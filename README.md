@@ -69,7 +69,7 @@ Here is a [minimal but complete example](https://github.com/expo/google-fonts/tr
 
 Each individual font family package README includes a complete example of using that font family.
 
-## Available Fonts
+## 🔡 Available Fonts
 
 You can browse all available Google Fonts on [fonts.google.com](https://fonts.google.com).
 
@@ -78,18 +78,18 @@ Here are a few examples of the 964 font families available:
 
 ||||
 |-|-|-|
-|[![Manrope](./font-packages/manrope/1f742b6ef495bb5b9f5b968a27c50281ca1f9822bb53ec99bb3757ff2f3febfd.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/manrope#readme)|[![Inter](./font-packages/inter/74b0b48ce5240039e1a17c62f24f5abc322d3d77d4bf96efcdad6d637123cc9d.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/inter#readme)|[![Allan](./font-packages/allan/83a268d06857cada4246725e7cc04eb4d7b87d19e6d4f44e745d33be739852fb.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/allan#readme)|
-|[![Roboto](./font-packages/roboto/030868028bda24a27a45e0be44c8ae15544762b94f80da746c8b8a1c05f8e952.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)|[![Lusitana](./font-packages/lusitana/c6df963163bf20f6d3c7e20307b4e363715e13d9047b5707caa9407e11af4ebb.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/lusitana#readme)|[![OpenSans](./font-packages/open-sans/7b37b8abba9dcb01b9474da19527db14307fd9211e34e4d8a3d77dc9a19f2753.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/open-sans#readme)|
-|[![Bangers](./font-packages/bangers/42a6646ed15dc91b9430f7e69e6259203235b48fa12c9cc10b6b72afab348de0.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/bangers#readme)|[![SourceSansPro](./font-packages/source-sans-pro/6ed615e8d0355256e2d6d907b3addb929879c90c8383dd566b2208c79ffd16f7.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/source-sans-pro#readme)|[![Oswald](./font-packages/oswald/9dc4929f8d8935621ca4717817eb3167fc881d03d496c6dca51ff292f730c873.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/oswald#readme)|
+|[**Manrope**![Manrope](./font-packages/manrope/1f742b6ef495bb5b9f5b968a27c50281ca1f9822bb53ec99bb3757ff2f3febfd.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/manrope#readme)|[**Inter**![Inter](./font-packages/inter/74b0b48ce5240039e1a17c62f24f5abc322d3d77d4bf96efcdad6d637123cc9d.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/inter#readme)|[**Allan**![Allan](./font-packages/allan/83a268d06857cada4246725e7cc04eb4d7b87d19e6d4f44e745d33be739852fb.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/allan#readme)|
+|[**Roboto**![Roboto](./font-packages/roboto/030868028bda24a27a45e0be44c8ae15544762b94f80da746c8b8a1c05f8e952.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)|[**Lusitana**![Lusitana](./font-packages/lusitana/c6df963163bf20f6d3c7e20307b4e363715e13d9047b5707caa9407e11af4ebb.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/lusitana#readme)|[**Open Sans**![OpenSans](./font-packages/open-sans/7b37b8abba9dcb01b9474da19527db14307fd9211e34e4d8a3d77dc9a19f2753.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/open-sans#readme)|
+|[**Bangers**![Bangers](./font-packages/bangers/42a6646ed15dc91b9430f7e69e6259203235b48fa12c9cc10b6b72afab348de0.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/bangers#readme)|[**Source Sans Pro**![SourceSansPro](./font-packages/source-sans-pro/6ed615e8d0355256e2d6d907b3addb929879c90c8383dd566b2208c79ffd16f7.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/source-sans-pro#readme)|[**Oswald**![Oswald](./font-packages/oswald/9dc4929f8d8935621ca4717817eb3167fc881d03d496c6dca51ff292f730c873.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/oswald#readme)|
 
 
 
 
 
 
-Or you can check out [the gallery for this project](./GALLERY.md)
+You can check out [the gallery for this project](./GALLERY.md) to see all of them.
 
-## @expo-google-fonts/dev
+## 👩‍💻 @expo-google-fonts/dev
 
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
@@ -101,7 +101,7 @@ for playing around with any style that you want.
 
 
 
-## Licensing
+## 📖 Licensing
 
 The Expo Google Fonts project and its code are licensed under the MIT License.
 
@@ -117,7 +117,7 @@ your project's licenses list when you publish.
 
 A: You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are very welcome! Note that everything under `font-packages` and also this README are generated.
 So, please make any changes you want to make to the [generator](https://github.com/expo/google-fonts/tree/master/packages/generator#readme) instead of the packages themselves.
@@ -126,7 +126,7 @@ So, please make any changes you want to make to the [generator](https://github.c
 
 - Charlie Cheever <ccheever@expo.io>
 
-## Links
+## 🔗 Links
 
 - [Google Fonts](https://fonts.google.com)
 - [Using Custom Fonts Guide in the Expo docs](https://docs.expo.io/guides/using-custom-fonts/)

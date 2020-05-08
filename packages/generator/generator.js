@@ -855,8 +855,9 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
       let font = getStandardFontForFamily(family);
       let styleImagePath =
         './font-packages/' + getPackageNameForFamily(family) + '/' + filenameForFont(font) + '.png';
+      // let styleImagePath = './font-packages/' + getPackageNameForFamily(family) + '/font-family.png';
       let packageName = getPackageNameForFamily(family);
-      md += `[![${varNameForFamily(family)}](${styleImagePath})](https://github.com/expo/google-fonts/tree/master/font-packages/${packageName}#readme)|`;
+      md += `[**${family.name}**![${varNameForFamily(family)}](${styleImagePath})](https://github.com/expo/google-fonts/tree/master/font-packages/${packageName}#readme)|`;
     }
     md += '\n';
   }
@@ -938,7 +939,7 @@ Here is a [minimal but complete example](https://github.com/expo/google-fonts/tr
 
 Each individual font family package README includes a complete example of using that font family.
 
-## Available Fonts
+## 🔡 Available Fonts
 
 You can browse all available Google Fonts on [fonts.google.com](https://fonts.google.com).
 
@@ -965,9 +966,9 @@ ${
   //   .join(', ')
 }
 
-Or you can check out [the gallery for this project](./GALLERY.md)
+You can check out [the gallery for this project](./GALLERY.md) to see all of them.
 
-## @expo-google-fonts/dev
+## 👩‍💻 @expo-google-fonts/dev
 
 ${devPackageMarkdown}
 
@@ -981,7 +982,7 @@ ${
   // But there is a [gallery](./GALLERY.md) you can use to scan through previews of all available fonts and styles.
 }
 
-## Licensing
+## 📖 Licensing
 
 The Expo Google Fonts project and its code are licensed under the MIT License.
 
@@ -997,7 +998,7 @@ your project's licenses list when you publish.
 
 A: You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are very welcome! Note that everything under \`font-packages\` and also this README are generated.
 So, please make any changes you want to make to the [generator](https://github.com/expo/google-fonts/tree/master/packages/generator#readme) instead of the packages themselves.
@@ -1006,7 +1007,7 @@ So, please make any changes you want to make to the [generator](https://github.c
 
 - Charlie Cheever <ccheever@expo.io>
 
-## Links
+## 🔗 Links
 
 - [Google Fonts](https://fonts.google.com)
 - [Using Custom Fonts Guide in the Expo docs](https://docs.expo.io/guides/using-custom-fonts/)
