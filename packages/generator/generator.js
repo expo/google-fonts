@@ -308,7 +308,7 @@ v${packageVersion}
 
 This font family contains [${family.fonts.length} style${
     family.fonts.length > 1 ? 's' : ''
-  }](#gallery).
+  }](#-gallery).
 
 ${fontStyleVars.map((fsv) => '- `' + fsv + '`').join('\n')}
 
@@ -345,7 +345,9 @@ The \`@expo-google-fonts/${packageName}\` package and its code are released unde
 
 All the fonts in the Google Fonts catalog are free and open source.
 
-Check the [${family.name} page on Google Fonts](${familyUrl}) for the specific license of this font family.
+Check the [${
+    family.name
+  } page on Google Fonts](${familyUrl}) for the specific license of this font family.
 
 You can use these fonts freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own. This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
 
@@ -359,7 +361,7 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [\`@expo-google-fonts/dev\` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
 
 
-*This file was generated. Instead of editing it by head, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator)*
+*This entire directory, including this README, was generated from code. Instead of submitting PRs to this directly, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator)*
 `;
 
   return md;
@@ -813,6 +815,54 @@ async function getMarkdownTableOfFamilies(fontDirectory) {
   return md;
 }
 
+async function getFeaturedGalleryMarkdown(fontDirectory) {
+  // 3 x 3
+
+  let featuredFonts = [
+    'Manrope',
+    'Inter',
+    'Allan',
+
+    'Roboto',
+    'Lusitana',
+    'Open Sans',
+
+    'Bangers',
+    'Source Sans Pro',
+    'Oswald',
+  ];
+
+  let featured = [];
+
+  // There are more efficient ways to do this but who cares
+  for (let fontName of featuredFonts) {
+    for (let family of fontDirectory.family) {
+      if (family.name === fontName) {
+        featured.push(family);
+      }
+    }
+  }
+
+  let md = `
+||||
+|-|-|-|
+`;
+
+  for (let row = 0; row < 3; row++) {
+    md += '|';
+    for (let col = 0; col < 3; col++) {
+      let family = featured.shift();
+      let font = getStandardFontForFamily(family);
+      let styleImagePath =
+        './font-packages/' + getPackageNameForFamily(family) + '/' + filenameForFont(font) + '.png';
+      let packageName = getPackageNameForFamily(family);
+      md += `[![${varNameForFamily(family)}](${styleImagePath})](https://github.com/expo/google-fonts/tree/master/font-packages/${packageName}#readme)|`;
+    }
+    md += '\n';
+  }
+  return md;
+}
+
 async function generateRootReadme(fontDirectory) {
   let pkgVersion = require(path.join('..', '..', 'package.json')).version;
   let outputFilePath = path.join('..', '..', 'README.md');
@@ -890,9 +940,16 @@ Each individual font family package README includes a complete example of using 
 
 ## Available Fonts
 
-Browse all of these on [fonts.google.com](https://fonts.google.com).
+You can browse all available Google Fonts on [fonts.google.com](https://fonts.google.com).
 
-${await getMarkdownTableOfFamilies(fontDirectory)}
+Here are a few examples of the ${fontDirectory.family.length} font families available:
+
+${await getFeaturedGalleryMarkdown(fontDirectory)}
+
+${
+  ''
+  // await getMarkdownTableOfFamilies(fontDirectory)
+}
 
 ${
   ''
@@ -908,6 +965,7 @@ ${
   //   .join(', ')
 }
 
+Or you can check out [the gallery for this project](./GALLERY.md)
 
 ## @expo-google-fonts/dev
 
