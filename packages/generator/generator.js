@@ -829,11 +829,11 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
 
     'Bangers',
     'Source Sans Pro',
-    'Oswald',
+    'Roboto Condensed',
 
     'Playfair Display',
     'Ubuntu',
-    'Roboto Condensed',
+    'Oswald',
   ];
 
   let featured = [];
@@ -885,8 +885,6 @@ any of ${fontDirectory.family.length} fonts (and their variants) from
 [fonts.google.com](https://fonts.google.com) in your Expo app.
 
 These packages and all these fonts work across web, iOS, and Android.
-
-v${pkgVersion}
 
 ## Usage
 
