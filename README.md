@@ -7,6 +7,8 @@ The `@expo-google-fonts` packages for Expo allow you to easily use
 any of 964 fonts (and their variants) from 
 [fonts.google.com](https://fonts.google.com) in your Expo app.
 
+These packages and all these fonts work across web, iOS, and Android.
+
 v0.0.3
 
 ## Usage
@@ -125,7 +127,7 @@ So, please make any changes you want to make to the [generator](https://github.c
 
 ### Authors 
 
-- Charlie Cheever <ccheever@expo.io>
+- Charlie Cheever ([@ccheever](https://github.com/ccheever)) - Expo
 
 ## 🔗 Links
 
