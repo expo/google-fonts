@@ -13,7 +13,7 @@ v0.0.3
 
 ![Share](./font-family.png)
 
-This font family contains [4 styles](#gallery).
+This font family contains [4 styles](#-gallery).
 
 - `Share_Regular400`
 - `Share_Regular400_Italic`
@@ -123,4 +123,4 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
 
 
-*This file was generated. Instead of editing it by head, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator)*
+*This entire directory, including this README, was generated from code. Instead of submitting PRs to this directly, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator)*

@@ -5,7 +5,7 @@ Each image links to the package containing that font.
 
 The [Google Fonts site] is also a great way to browse through the available fonts.
 
-## 🔠 Families
+## 🔠 Font Families
 
 
 | | | | | | | | | |

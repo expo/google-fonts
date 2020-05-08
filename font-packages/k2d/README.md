@@ -13,7 +13,7 @@ v0.0.3
 
 ![K2D](./font-family.png)
 
-This font family contains [16 styles](#gallery).
+This font family contains [16 styles](#-gallery).
 
 - `K2D_Thin100`
 - `K2D_Thin100_Italic`
@@ -237,4 +237,4 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
 
 
-*This file was generated. Instead of editing it by head, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator)*
+*This entire directory, including this README, was generated from code. Instead of submitting PRs to this directly, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator)*
