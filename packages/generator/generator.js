@@ -830,6 +830,10 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
     'Bangers',
     'Source Sans Pro',
     'Oswald',
+
+    'Playfair Display',
+    'Ubuntu',
+    'Roboto Condensed',
   ];
 
   let featured = [];
@@ -848,7 +852,7 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
 |-|-|-|
 `;
 
-  for (let row = 0; row < 3; row++) {
+  for (let row = 0; featured.length > 0; row++) {
     md += '|';
     for (let col = 0; col < 3; col++) {
       let family = featured.shift();
@@ -857,7 +861,10 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
         './font-packages/' + getPackageNameForFamily(family) + '/' + filenameForFont(font) + '.png';
       // let styleImagePath = './font-packages/' + getPackageNameForFamily(family) + '/font-family.png';
       let packageName = getPackageNameForFamily(family);
-      md += `[**${family.name}**![${varNameForFamily(family)}](${styleImagePath})](https://github.com/expo/google-fonts/tree/master/font-packages/${packageName}#readme)|`;
+      // md += `[**${family.name}**![${varNameForFamily(family)}](${styleImagePath})](https://github.com/expo/google-fonts/tree/master/font-packages/${packageName}#readme)|`;
+      md += `[![${varNameForFamily(
+        family
+      )}](${styleImagePath})](https://github.com/expo/google-fonts/tree/master/font-packages/${packageName}#readme)|`;
     }
     md += '\n';
   }
@@ -1023,8 +1030,16 @@ So, please make any changes you want to make to the [generator](https://github.c
 async function generateGalleryFile(fontDirectory) {
   let md = `# Expo Google Fonts Gallery
 
-A visual gallery showing you every font style available in Expo Fonts Google packages.
-Each image links to the package containing that font style.
+A visual gallery showing you every font available in Expo Fonts Google packages.
+Each image links to the package containing that font.
+
+The [Google Fonts site] is also a great way to browse through the available fonts.
+
+## 🔠 Font Families
+
+${await getMarkdownTableOfFamilies(fontDirectory)}
+
+## 🔡 Styles
 
 `;
   for (let family of fontDirectory.family) {
