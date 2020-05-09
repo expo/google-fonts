@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Inter';
+export const __fontFamilyVersion__ = 1;
+
 export const Inter_Thin100 = require('./897d64cd0dfbeb56e7867aff5fb59519c0a18eaa535b4d4f9d636ac43028afb5.ttf');
 export const Inter_ExtraLight200 = require('./a8c528f80a6ad8d07eb0a822ff9763e3286ce1463b1cd881cafbc2d3d9018512.ttf');
 export const Inter_Light300 = require('./7cedc5ced62f88258ed3781a814ff426d7c63e5ef822bc77e66b393b3316ce86.ttf');

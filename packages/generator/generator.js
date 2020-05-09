@@ -396,6 +396,10 @@ function varNameForFont(font, family) {
   return fontIdentifier;
 }
 
+let reexportHook = `
+export { useFonts } from './useFonts';
+`;
+
 async function generateFontFamilyPackage(family) {
   let packageName = getPackageNameForFamily(family);
 
@@ -438,6 +442,16 @@ async function generateFontFamilyPackage(family) {
   let code = generatedHeaderComment;
   let dts = generatedHeaderComment;
 
+  code += reexportHook + "\n";
+
+  for (let [v, value] of [
+    ['__fontFamilyName__', family.name],
+    ['__fontFamilyVersion__', family.version],
+  ]) {
+    code += `export const ${v} = ${JSON.stringify(value)};\n`;
+  }
+  code += '\n';
+
   for (let font of family.fonts) {
     let v = varNameForFont(font, family);
     let ffn = filenameForFont(font);
@@ -467,6 +481,10 @@ async function generateFontFamilyPackage(family) {
   } catch (e) {
     // TODO: Maybe log an error?
   }
+
+  // Include the useFonts hook so we can use that
+  await fs.promises.link('./useFonts.js', path.join(pkgDir, 'useFonts.js'));
+  await fs.promises.link('./useFonts.d.ts', path.join(pkgDir, 'useFonts.d.ts'));
 }
 
 async function generatePackageImage(outputFilePath, family) {
@@ -561,6 +579,8 @@ async function generateDevPackage(fontDirectory) {
   let code = generatedHeaderComment;
   let dts = generatedHeaderComment;
 
+  code += reexportHook;
+
   for (let family of fontDirectory.family) {
     for (let font of family.fonts) {
       let v = varNameForFont(font, family);
@@ -577,6 +597,9 @@ async function generateDevPackage(fontDirectory) {
   );
 
   await fs.promises.writeFile(path.join(pkgDir, 'index.d.ts'), dts, 'utf8');
+
+  await fs.promises.link('./useFonts.js', path.join(pkgDir, 'useFonts.js'));
+  await fs.promises.link('./useFonts.d.ts', path.join(pkgDir, 'useFonts.d.ts'));
 }
 
 function _hashToString(bytes) {
@@ -1104,6 +1127,11 @@ async function test5() {
   await generatePreviewImages(fontDirectory);
 }
 
+async function test_generateInter() {
+  let fontDirectory = await getDirectory();
+  await generateFontFamilyPackage(fontDirectory.family[421]);
+}
+
 module.exports = {
   test5,
   test,
@@ -1127,6 +1155,7 @@ module.exports = {
   generateRootReadme,
   test3,
   test4,
+  test_generateInter,
 };
 
 if (require.main === module) {
