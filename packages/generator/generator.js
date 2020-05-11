@@ -12,6 +12,8 @@ let prettier = require('prettier');
 let protocolBuffers = require('protocol-buffers');
 let spawnAsync = require('@expo/spawn-async');
 
+let contributors = require('./contributors');
+
 let fontAssetsDir = path.join(__dirname, '..', '..', 'font-assets');
 let fontPackagesDir = path.join(__dirname, '..', '..', 'font-packages');
 let fontImagesDir = path.join(__dirname, '..', '..', 'font-images');
@@ -256,8 +258,7 @@ import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
 import { AppLoading } from "expo";
-import { useFonts } from "@use-expo/font";
-import {${fontStyleVars.join(',')}} from '@expo-google-fonts/${packageName}';
+import {${fontStyleVars.join(',')}, useFonts} from '@expo-google-fonts/${packageName}';
 
 export default () => {
 
@@ -316,7 +317,7 @@ ${fontStyleVars.map((fsv) => '- `' + fsv + '`').join('\n')}
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 \`\`\`sh
-expo install @expo-google-fonts/${packageName} expo-font @use-expo/font
+expo install @expo-google-fonts/${packageName} expo-font
 \`\`\`
 
 Now add code like this to your project
@@ -442,7 +443,7 @@ async function generateFontFamilyPackage(family) {
   let code = generatedHeaderComment;
   let dts = generatedHeaderComment;
 
-  code += reexportHook + "\n";
+  code += reexportHook + '\n';
 
   for (let [v, value] of [
     ['__fontFamilyName__', family.name],
@@ -918,7 +919,7 @@ Here is an example of using the [Nunito font family](https://fonts.google.com/sp
 #### Install the package for the font you want
 
 \`\`\`sh
-expo install @expo-google-fonts/nunito expo-font @use-expo/font
+expo install @expo-google-fonts/nunito expo-font
 \`\`\`
 
 #### In your app
@@ -928,10 +929,10 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   Nunito_Regular400,
   Nunito_SemiBold600_Italic,
+  useFonts,
 } from '@expo-google-fonts/nunito';
 
 export default () => {
@@ -1037,7 +1038,9 @@ So, please make any changes you want to make to the [generator](https://github.c
 
 ### Authors 
 
-- Charlie Cheever ([@ccheever](https://github.com/ccheever)) - Expo
+${contributors
+  .map((c) => `- ${c.name} ([@${c.github}](https://github.com/${c.github})) - ${c.affiliation}`)
+  .join('\n')}
 
 ## 🔗 Links
 
@@ -1132,6 +1135,11 @@ async function test_generateInter() {
   await generateFontFamilyPackage(fontDirectory.family[421]);
 }
 
+async function test_generateDev() {
+  let fontDirectory = await getDirectory();
+  await generateDevPackage(fontDirectory);
+}
+
 module.exports = {
   test5,
   test,
@@ -1156,6 +1164,7 @@ module.exports = {
   test3,
   test4,
   test_generateInter,
+  test_generateDev,
 };
 
 if (require.main === module) {

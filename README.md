@@ -16,7 +16,7 @@ Here is an example of using the [Nunito font family](https://fonts.google.com/sp
 #### Install the package for the font you want
 
 ```sh
-expo install @expo-google-fonts/nunito expo-font @use-expo/font
+expo install @expo-google-fonts/nunito expo-font
 ```
 
 #### In your app
@@ -26,10 +26,10 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   Nunito_Regular400,
   Nunito_SemiBold600_Italic,
+  useFonts,
 } from '@expo-google-fonts/nunito';
 
 export default () => {
@@ -126,6 +126,7 @@ So, please make any changes you want to make to the [generator](https://github.c
 ### Authors 
 
 - Charlie Cheever ([@ccheever](https://github.com/ccheever)) - Expo
+- Leandro Favre ([@AtilaDev](https://github.com/AtilaDev)) - AtilaDev
 
 ## 🔗 Links
 

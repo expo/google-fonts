@@ -1,9 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { useFonts } from '@use-expo/font';
 import { AppLoading } from 'expo';
-
-import { Limelight_Regular400 } from '@expo-google-fonts/limelight';
+import { useFonts, Limelight_Regular400 } from '@expo-google-fonts/limelight';
 import {
   SourceSansPro_Bold700,
   SourceSansPro_Regular400_Italic,
