@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Livvic';
+export const __fontFamilyVersion__ = 3;
+
 export const Livvic_Thin100 = require('./69cf7d68bd7ea7e4f1eea68a6ce1241109949e773f7342713cc8394cfc3a9350.ttf');
 export const Livvic_Thin100_Italic = require('./bac5d8a0627f56ade7281b777b0753a1e5c0d8954b749c43c474cef3987fabb3.ttf');
 export const Livvic_ExtraLight200 = require('./4339e04cdaa30779650ab9cd08a8e6208806c5d3e61ae9934286f6a0fb3045e2.ttf');

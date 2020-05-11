@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Grand Hotel';
+export const __fontFamilyVersion__ = 4;
+
 export const GrandHotel_Regular400 = require('./0804e7944e677d28eec42a45ba39935faadd27b2b1a8aab2e96c1736b7bb4e2d.ttf');

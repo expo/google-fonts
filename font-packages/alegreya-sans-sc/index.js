@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Alegreya Sans SC';
+export const __fontFamilyVersion__ = 4;
+
 export const AlegreyaSansSC_Thin100 = require('./7f5b4f9e7531121c2163e92598f24222cdef538a04352553731f0c81f69c4227.ttf');
 export const AlegreyaSansSC_Thin100_Italic = require('./1a8c6b334dbb0663e1b509d268363d557f9d231f702c2fb6ffe0727c0bb374b5.ttf');
 export const AlegreyaSansSC_Light300 = require('./0d94b7e8e30244280988269fbefbf776d08ff9ad0be6df4f620a6a5b7e0362f0.ttf');

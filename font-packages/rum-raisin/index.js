@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Rum Raisin';
+export const __fontFamilyVersion__ = 4;
+
 export const RumRaisin_Regular400 = require('./15dd5f0a1c1162127387747b68fb4d16c6eebbc6ee30b8af755f7898ea9494fa.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Pacifico';
+export const __fontFamilyVersion__ = 9;
+
 export const Pacifico_Regular400 = require('./03452c0b90c71f4088222325620904576503c4d5a3a6c563ee22d1e896788d3e.ttf');

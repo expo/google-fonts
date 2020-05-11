@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Expletus Sans';
+export const __fontFamilyVersion__ = 9;
+
 export const ExpletusSans_Regular400 = require('./8e8194fbcb2069328e5c506a10ab38e405a359ec0ab5c0d2379659cdff0830db.ttf');
 export const ExpletusSans_Regular400_Italic = require('./072928d584fe0a92e93d576c43798a1dc6d1bf065c7db59d28112cb4733cad2a.ttf');
 export const ExpletusSans_Medium500 = require('./b5cd6f4acc507801fef499ca08c7da56ff9e5df77a4ba14eac1718e7ccfe49e5.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Hanalei';
+export const __fontFamilyVersion__ = 6;
+
 export const Hanalei_Regular400 = require('./a5f5db562e15a26c9d07e75a9375af4b46c68460a9dbaaf21847567dafcf8619.ttf');

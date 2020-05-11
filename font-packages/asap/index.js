@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Asap';
+export const __fontFamilyVersion__ = 5;
+
 export const Asap_Regular400 = require('./3424989c5e2512f04cbd78fd70665961847d7307eb5d795caadac8db451f74cc.ttf');
 export const Asap_Regular400_Italic = require('./6286c24191501089796508556c20c3086610ae6aeb56d9aadceaaa0b7d825c51.ttf');
 export const Asap_Medium500 = require('./c7034a58c9a896f74c127472a7085dbd1d6bfb6fd2cafb4140dfde291f0bc399.ttf');

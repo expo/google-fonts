@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Gothic A1';
+export const __fontFamilyVersion__ = 4;
+
 export const GothicA1_Thin100 = require('./1ae3fbdff726cb716a361659f8efd51296b280ce94f4582c7eea6a69905050e0.ttf');
 export const GothicA1_ExtraLight200 = require('./c2132aa2e6fae5ce3ac066aa23fc45e7a83571666c0b4cc9c4dd7bf734363f05.ttf');
 export const GothicA1_Light300 = require('./91a462996301381a669ea6f51dc5030f155c0a85e896a575a5d80dfbd8471779.ttf');

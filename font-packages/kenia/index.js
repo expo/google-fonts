@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Kenia';
+export const __fontFamilyVersion__ = 8;
+
 export const Kenia_Regular400 = require('./504cbb4c7a6888c5333bff718cde206f914f047b6247076cd4033f6457a2a9a6.ttf');

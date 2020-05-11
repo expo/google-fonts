@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Give You Glory';
+export const __fontFamilyVersion__ = 6;
+
 export const GiveYouGlory_Regular400 = require('./309c5df7e1fe41874a8f14de3edeb9c32a42ec3e31d17e863696920deb848095.ttf');

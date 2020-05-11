@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Archivo';
+export const __fontFamilyVersion__ = 3;
+
 export const Archivo_Regular400 = require('./e3992a886b3891c9b073cf3e46b1c578cb31ab065cf9b5e07f6fc2a0200a495f.ttf');
 export const Archivo_Regular400_Italic = require('./8af059c64838f116e4c8afda7a5c344815c3fe3c2111749d7281a046087dfb8a.ttf');
 export const Archivo_Medium500 = require('./455a61b80b447af7647cb7bbbef6de06c3c3031d0ecbb2619fa9cffa73871e76.ttf');

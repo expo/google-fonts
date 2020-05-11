@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Quintessential';
+export const __fontFamilyVersion__ = 4;
+
 export const Quintessential_Regular400 = require('./030ff82f2f4a02d56504ed9191c94412439e0fc2bb5ea13d563ecc793620de06.ttf');

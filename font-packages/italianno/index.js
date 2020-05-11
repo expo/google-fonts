@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Italianno';
+export const __fontFamilyVersion__ = 6;
+
 export const Italianno_Regular400 = require('./bfbaa565dcb115e0d8e8af969814850e25a50df02022afefd5b2ba3174c386e3.ttf');

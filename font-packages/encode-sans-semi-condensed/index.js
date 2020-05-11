@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Encode Sans Semi Condensed';
+export const __fontFamilyVersion__ = 2;
+
 export const EncodeSansSemiCondensed_Thin100 = require('./05e33431ccd816003d590171a6110b72fc3f122c224c46c4f5339f4919b57873.ttf');
 export const EncodeSansSemiCondensed_ExtraLight200 = require('./06726656f1a2937a42770740e0772bbcd1187d2bdbe2f5bfd42bab081286b643.ttf');
 export const EncodeSansSemiCondensed_Light300 = require('./6ea764a1fca4cd3308fdc9f6284e890fe9ef8409ab991115bb08a4d0be1b544a.ttf');

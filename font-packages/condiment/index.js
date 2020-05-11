@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Condiment';
+export const __fontFamilyVersion__ = 4;
+
 export const Condiment_Regular400 = require('./404ef1b407aafc9555242dbfc0416b9761054b9bc16abacf2ab328af7b034b66.ttf');

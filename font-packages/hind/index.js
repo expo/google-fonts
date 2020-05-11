@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Hind';
+export const __fontFamilyVersion__ = 7;
+
 export const Hind_Light300 = require('./fa60918477db30de0e2a697db644a3ada9014744668b10708e487b2731a95e70.ttf');
 export const Hind_Regular400 = require('./c6c2ab346a94eb5613fbc0721b8b1b9062968050182abaa239ca636a32911d90.ttf');
 export const Hind_Medium500 = require('./d4fd25d01c80707a336cb4b040f3a52767f1cd612f042572d044e0b575c4d05b.ttf');

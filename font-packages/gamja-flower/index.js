@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Gamja Flower';
+export const __fontFamilyVersion__ = 4;
+
 export const GamjaFlower_Regular400 = require('./e1315b2ce49da4d60b566f31827736a5b33670f46d95c26c4df7a7608f8634ea.ttf');

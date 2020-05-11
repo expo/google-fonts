@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Major Mono Display';
+export const __fontFamilyVersion__ = 3;
+
 export const MajorMonoDisplay_Regular400 = require('./9901077f5681d4ec7e01e0ebe4bd61ba47669c64a7aedea472cd94fe1175751b.ttf');

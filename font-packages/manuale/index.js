@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Manuale';
+export const __fontFamilyVersion__ = 2;
+
 export const Manuale_Regular400 = require('./cfd06fa1d33d937fd3d097835096788da1e29fe217c0e6619d7f4e92770987f2.ttf');
 export const Manuale_Regular400_Italic = require('./b7144bb9db9fc28df1a2f22173a91396c535d078a58256b0937d0ed4916ac08d.ttf');
 export const Manuale_Medium500 = require('./bee63de104b5fab81c246551830fd9cf2910da15ffb1fe837913493df2612797.ttf');

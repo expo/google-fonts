@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Grenze';
+export const __fontFamilyVersion__ = 1;
+
 export const Grenze_Thin100 = require('./0990a8c493d15ce4bc040461ac83778fbd658ffb4e5470ded379c5d932c0ad64.ttf');
 export const Grenze_Thin100_Italic = require('./b76ab96616d0138d6376f8da6777f4dcd53174ecd6cc3d105f926d138412156a.ttf');
 export const Grenze_ExtraLight200 = require('./ea5652640e0126eca9dd8ec9af72afd38c03f0608cf8066ba85e8d3cc84b72f5.ttf');

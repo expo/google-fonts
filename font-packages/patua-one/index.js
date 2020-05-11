@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Patua One';
+export const __fontFamilyVersion__ = 6;
+
 export const PatuaOne_Regular400 = require('./b23d7030cb223723e1ea6fe64ca5799ae86a5c9c7d7343dfce539e574a5004d0.ttf');

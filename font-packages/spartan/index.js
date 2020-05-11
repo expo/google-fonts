@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Spartan';
+export const __fontFamilyVersion__ = 1;
+
 export const Spartan_Thin100 = require('./4869cf7b66d0abcfafa64d169a39a8d60f681ae939db8334f68920cadb32601d.ttf');
 export const Spartan_ExtraLight200 = require('./46bd04dc18fcff69cd6119022da0ed080ab1f747a043ae642cd1f09687377059.ttf');
 export const Spartan_Light300 = require('./8b99bb8f62db78d7bce20b083bd51aa4f624f859741f6d6cb1377c1b4e8849d3.ttf');

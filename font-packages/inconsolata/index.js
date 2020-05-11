@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Inconsolata';
+export const __fontFamilyVersion__ = 15;
+
 export const Inconsolata_Regular400 = require('./7b710cb16b36b86fd08be8de67824345433e776ff152ce4d819f8dac26b76bb2.ttf');
 export const Inconsolata_Bold700 = require('./499bfec42f5525e40e1acc5d044cce315e80cc9c1205db693cf68fd5a7b724d3.ttf');

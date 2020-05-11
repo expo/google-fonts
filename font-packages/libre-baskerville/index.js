@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Libre Baskerville';
+export const __fontFamilyVersion__ = 4;
+
 export const LibreBaskerville_Regular400 = require('./9823638a0177e6fb752280379b200fdaa407e687c8c8e2e7f67bb73b6098f478.ttf');
 export const LibreBaskerville_Regular400_Italic = require('./47c63ebb507fc5ce683210642c5b0529745a907c2a98ca886eef85e798558b3b.ttf');
 export const LibreBaskerville_Bold700 = require('./e4f9416f4d8d90e78dc3993de94575a0c44a72da6b4216e5f6346cfee242d201.ttf');

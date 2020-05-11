@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'EB Garamond';
+export const __fontFamilyVersion__ = 7;
+
 export const EBGaramond_Regular400 = require('./45b9fd8b021be544bd8edb0bce9007faafdc3029fdb0f19e4deb80b50e9c4adb.ttf');

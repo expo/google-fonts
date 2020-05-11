@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Pompiere';
+export const __fontFamilyVersion__ = 6;
+
 export const Pompiere_Regular400 = require('./938a73a33e8b01f6bd94758995b7e75a9f06dd9d7cc1977ef653cb5f0368004c.ttf');

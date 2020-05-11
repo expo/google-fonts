@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Molle';
+export const __fontFamilyVersion__ = 5;
+
 export const Molle_Regular400_Italic = require('./d081c5d8d7d19361eaa68e5c05b211b519fa2d27ca94a3ec76da0a39f880acb9.ttf');

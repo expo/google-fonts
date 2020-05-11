@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Tomorrow';
+export const __fontFamilyVersion__ = 2;
+
 export const Tomorrow_Thin100 = require('./2bf064837570b16e64b6e16bb607ccd32e353ea52ff1860fd61a0de72f6a5ea0.ttf');
 export const Tomorrow_Thin100_Italic = require('./5dd9ba1be08d4e07fc0457665070caeecdad448ec1322aaac51e215904362e1e.ttf');
 export const Tomorrow_ExtraLight200 = require('./79fcf41f1188438fdf8ed0f55418e4ca98f03b8443301282f5802555a96f74af.ttf');

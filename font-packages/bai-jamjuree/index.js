@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Bai Jamjuree';
+export const __fontFamilyVersion__ = 3;
+
 export const BaiJamjuree_ExtraLight200 = require('./fdb9acd5c9a309240a161cc16a0a5e3a1f3bf9258d1f2cf14fdfdf6f79d83c8e.ttf');
 export const BaiJamjuree_ExtraLight200_Italic = require('./fff587a7a746a3d84947c3982968551180877152f29ac4e6b58a5d060e741ee3.ttf');
 export const BaiJamjuree_Light300 = require('./253ea5a1c8d0d3dacbf5b9f0db496617c2af6b95a5e0680df9c9c62b989b1799.ttf');

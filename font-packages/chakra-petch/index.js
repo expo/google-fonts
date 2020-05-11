@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Chakra Petch';
+export const __fontFamilyVersion__ = 3;
+
 export const ChakraPetch_Light300 = require('./ecaf4ae2d67c61e2a3fa8df13a271ccea00d43000ba74107e7bfda439f60b1d2.ttf');
 export const ChakraPetch_Light300_Italic = require('./020376f9083d9c7e6f32ecb879dee72b6fadef64ea9a3df0bd01d4952a06f1aa.ttf');
 export const ChakraPetch_Regular400 = require('./6854c9992a9a1345525235ab8e75582a0f6f3f828c37e4720a78aad1de6c0aa5.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Eater';
+export const __fontFamilyVersion__ = 5;
+
 export const Eater_Regular400 = require('./c8bc103f8051b7be6a60a18aaf892d18014b8c4d925fdcea5d77a5830c3cbb47.ttf');

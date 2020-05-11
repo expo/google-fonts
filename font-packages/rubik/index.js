@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Rubik';
+export const __fontFamilyVersion__ = 7;
+
 export const Rubik_Light300 = require('./d06ee1ddd9a38ecea7c204c94d69e670e155c7e5f6b9ca5bdbbc851871397569.ttf');
 export const Rubik_Light300_Italic = require('./39eb0e8cc0f4f0f949cd7ab1192004ad43fa616ab0ba09ba2f1c5e975b6ed29f.ttf');
 export const Rubik_Regular400 = require('./1441b864d5f661c6ad072120b1ee340e6c799fab34f7d408ec3fbf11f41f3ea0.ttf');

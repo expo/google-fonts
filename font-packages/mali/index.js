@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Mali';
+export const __fontFamilyVersion__ = 3;
+
 export const Mali_ExtraLight200 = require('./e492669e95f03389c8fdab60ebc0fc25dc89f921dfa3b4156ed4ee3556b26a22.ttf');
 export const Mali_ExtraLight200_Italic = require('./9c4049d3990bfb82d515b0f6b44c0669352cf1d4f0ad71a6c39c4d800d91afc5.ttf');
 export const Mali_Light300 = require('./7ea3a4d356e5cb938ea97489c60b148dd2e33b9bdc641f01c245b965a8028725.ttf');

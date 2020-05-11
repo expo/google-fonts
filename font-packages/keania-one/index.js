@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Keania One';
+export const __fontFamilyVersion__ = 4;
+
 export const KeaniaOne_Regular400 = require('./39c288c7a1580666e2ebb839a9df6cfb69104742879e8e61900550b02a4f9fb8.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Underdog';
+export const __fontFamilyVersion__ = 5;
+
 export const Underdog_Regular400 = require('./02f2cb9d97d94732f703fb34d2332cacf667304208fd69704a5e2ff904dcccff.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Freckle Face';
+export const __fontFamilyVersion__ = 4;
+
 export const FreckleFace_Regular400 = require('./9c910c4a9c496679a818b2d0399b140f598d9f2f8b80bd1ad82b11b1aee3e93d.ttf');

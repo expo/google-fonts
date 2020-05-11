@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'David Libre';
+export const __fontFamilyVersion__ = 1;
+
 export const DavidLibre_Regular400 = require('./8319053cbaa4074884c0364b74327548dbe246119e76a214a864d9d55a12353d.ttf');
 export const DavidLibre_Medium500 = require('./288d258f0790230352ec2d9b0eef7f533d14554250a99cd0b5cfc80c349d2b38.ttf');
 export const DavidLibre_Bold700 = require('./d02a7be354414e34512a70b5f00901c7c3c4e7df88c6bab47e8ed2e50c770c71.ttf');

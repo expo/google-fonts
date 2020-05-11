@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Darker Grotesque';
+export const __fontFamilyVersion__ = 1;
+
 export const DarkerGrotesque_Light300 = require('./f789e82ef267fb0b5f0798267ba5e3340b661840b52e1de87f7830b7d87a180e.ttf');
 export const DarkerGrotesque_Regular400 = require('./60303e0b600c0176b00422a680228f744d38795fbd8d35344f494b02400628c1.ttf');
 export const DarkerGrotesque_Medium500 = require('./a6e1eb6614b97b3298d1d253f5ed4399556da5b06bb191596cebfc813bdd3505.ttf');

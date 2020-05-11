@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Changa One';
+export const __fontFamilyVersion__ = 9;
+
 export const ChangaOne_Regular400 = require('./55a043f0a2eb34269cfb137a6203fdc338019e9bdaabee1e685c6b37495cb962.ttf');
 export const ChangaOne_Regular400_Italic = require('./241077b802e7b6209a41ea93aae98aa81d9f09e6f78fce924c863af6ca96b529.ttf');

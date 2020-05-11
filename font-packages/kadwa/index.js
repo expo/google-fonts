@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Kadwa';
+export const __fontFamilyVersion__ = 1;
+
 export const Kadwa_Regular400 = require('./5b5f18ab4eefeddcf41f6246b7bdc63d6971c57ff6d628b86fc955f8eacc2e01.ttf');
 export const Kadwa_Bold700 = require('./2355f2b7cea1ab51a7388a8586f175dbb411a58e530e26b1f86b5a62ca80faa2.ttf');

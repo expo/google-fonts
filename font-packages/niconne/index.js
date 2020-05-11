@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Niconne';
+export const __fontFamilyVersion__ = 6;
+
 export const Niconne_Regular400 = require('./c5d99f37c7fc29904227e4a5909347b604c87dbe244293db4353ba24f5263d28.ttf');

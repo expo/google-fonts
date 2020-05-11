@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Yellowtail';
+export const __fontFamilyVersion__ = 6;
+
 export const Yellowtail_Regular400 = require('./f5afc3345b05f159df8c09f953eacbf365a0d81f5cecccb4fa7b7407284baca9.ttf');

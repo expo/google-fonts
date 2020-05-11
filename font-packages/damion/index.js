@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Damion';
+export const __fontFamilyVersion__ = 6;
+
 export const Damion_Regular400 = require('./2b178966c9329bdd54a10c83e076dc1647443dddd2471c9aa477780c6852294c.ttf');

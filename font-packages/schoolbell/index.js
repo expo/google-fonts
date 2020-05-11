@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Schoolbell';
+export const __fontFamilyVersion__ = 6;
+
 export const Schoolbell_Regular400 = require('./6746cbf7f7065953ffdd505057d2aafca2c4c38989ab1a2bb37f953e3692c7c9.ttf');

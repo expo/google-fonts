@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Ribeye Marrow';
+export const __fontFamilyVersion__ = 6;
+
 export const RibeyeMarrow_Regular400 = require('./c246f9f2e382d8da82319762b401df8a1426fa767b74d168f0d1abca33fdd43d.ttf');

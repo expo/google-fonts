@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Kantumruy';
+export const __fontFamilyVersion__ = 3;
+
 export const Kantumruy_Light300 = require('./b1d181333c6beb8df855376481f36dcaa1e27f9c6fe7ba0c990035a73aca6686.ttf');
 export const Kantumruy_Regular400 = require('./9b0483d5bc7f567f83bda10131a033929865349c666f585d4feaa69600a60802.ttf');
 export const Kantumruy_Bold700 = require('./6e6b33a5b9d03c7ed3f4e94d9704262ca70dc513ac1f129964f79ccddba04e06.ttf');

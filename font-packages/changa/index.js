@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Changa';
+export const __fontFamilyVersion__ = 2;
+
 export const Changa_ExtraLight200 = require('./e248c51b3bc1f8fd1d6b980400670c54bf2cdf89f4c5e075bca29f09ecdb936b.ttf');
 export const Changa_Light300 = require('./f083dc8e9965f9e9b8c6c977bcfac5a504f4ef820e8c8237f1217d4edf3bdd9a.ttf');
 export const Changa_Regular400 = require('./01d71ec0cc7235bb908cc0c3ae45d1e10a2f87e4a61ad5ef855af157f39e8a80.ttf');

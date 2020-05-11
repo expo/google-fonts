@@ -38,7 +38,7 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/fira-sans-extra-condensed expo-font @use-expo/font
+expo install @expo-google-fonts/fira-sans-extra-condensed expo-font
 ```
 
 Now add code like this to your project
@@ -47,7 +47,6 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   FiraSansExtraCondensed_Thin100,
   FiraSansExtraCondensed_Thin100_Italic,
@@ -67,6 +66,7 @@ import {
   FiraSansExtraCondensed_ExtraBold800_Italic,
   FiraSansExtraCondensed_Black900,
   FiraSansExtraCondensed_Black900_Italic,
+  useFonts,
 } from '@expo-google-fonts/fira-sans-extra-condensed';
 
 export default () => {

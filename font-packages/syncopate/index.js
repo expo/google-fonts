@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Syncopate';
+export const __fontFamilyVersion__ = 7;
+
 export const Syncopate_Regular400 = require('./8f40fe696b566662712524f9cf3f5c4aff3afa640f0bd4ec0e527c22369561a9.ttf');
 export const Syncopate_Bold700 = require('./0c6b8fb391ff34b292bb2091302fb45fcc3b16eefc6bf4e67b9f1fe38f4ab3fe.ttf');

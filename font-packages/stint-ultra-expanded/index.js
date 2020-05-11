@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Stint Ultra Expanded';
+export const __fontFamilyVersion__ = 4;
+
 export const StintUltraExpanded_Regular400 = require('./e2e52b99f99f593fd768d038a499b7217a4852adceb02fa177857827ecd46921.ttf');

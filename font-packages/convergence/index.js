@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Convergence';
+export const __fontFamilyVersion__ = 5;
+
 export const Convergence_Regular400 = require('./bee94289e5374af0501d83d8b767d631571ce0a2ab1c16a765bad418a9fbbf22.ttf');

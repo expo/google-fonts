@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Rochester';
+export const __fontFamilyVersion__ = 6;
+
 export const Rochester_Regular400 = require('./3497dd76e37f779c2ea2d2d0ae96b0cbf2170cec9ad27c806d0b3b31c859ee13.ttf');

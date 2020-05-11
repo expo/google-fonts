@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Fjalla One';
+export const __fontFamilyVersion__ = 4;
+
 export const FjallaOne_Regular400 = require('./9bcbda294de33762d864eb998b9a19f1590afc95fe83a252472514751bd3ec21.ttf');

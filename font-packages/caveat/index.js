@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Caveat';
+export const __fontFamilyVersion__ = 2;
+
 export const Caveat_Regular400 = require('./0ffe3acdd9c8d91838d7ba021d1c4e9111151e34a104318a8aafe0efeda5755f.ttf');
 export const Caveat_Bold700 = require('./6993da01fa90c359d45a03be9927b46be80d261978de6f5805f43d75ed2d172f.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Ceviche One';
+export const __fontFamilyVersion__ = 7;
+
 export const CevicheOne_Regular400 = require('./9ed3cdc36bf356dbe366b2198c633acbf26815fc96c14ba05a7847b274043909.ttf');

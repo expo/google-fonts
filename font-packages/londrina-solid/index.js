@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Londrina Solid';
+export const __fontFamilyVersion__ = 4;
+
 export const LondrinaSolid_Regular400 = require('./85115a63ada513540474540a077cb696b1e089220014e3496bbb17c6d81ae8af.ttf');

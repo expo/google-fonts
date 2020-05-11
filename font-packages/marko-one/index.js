@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Marko One';
+export const __fontFamilyVersion__ = 6;
+
 export const MarkoOne_Regular400 = require('./f84b713ecebd47ffa67dc6fea96096b65f6a1abfb9819f1014a1ed0d1a4c1455.ttf');

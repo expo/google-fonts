@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Vast Shadow';
+export const __fontFamilyVersion__ = 6;
+
 export const VastShadow_Regular400 = require('./c7455e059437040326c4daa3043261ce959c3f096f26dbe670dec65d1a611705.ttf');

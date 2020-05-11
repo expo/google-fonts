@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Actor';
+export const __fontFamilyVersion__ = 6;
+
 export const Actor_Regular400 = require('./417b785d001974cb097e1f84b068ed6f47fa9c5317bf90801a55709954b59350.ttf');

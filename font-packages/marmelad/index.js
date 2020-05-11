@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Marmelad';
+export const __fontFamilyVersion__ = 6;
+
 export const Marmelad_Regular400 = require('./9d26c08790a329b7df0bf3cd14c6102856d22040c14545f72c05a2f1f47633d6.ttf');

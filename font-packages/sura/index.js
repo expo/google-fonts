@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Sura';
+export const __fontFamilyVersion__ = 1;
+
 export const Sura_Regular400 = require('./701cc1c8fa22221123e6045f90d0db8d42edadf3b831862ce801b57bb14ac1b1.ttf');
 export const Sura_Bold700 = require('./a88482ddb9067b01125775fc0f780c4b615bc72ad86cbec920ee03b2756d8d90.ttf');

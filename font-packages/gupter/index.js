@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Gupter';
+export const __fontFamilyVersion__ = 1;
+
 export const Gupter_Regular400 = require('./98ef59cfa0eb83781f6573b4ad1964bf98369e70db38156479c353702557fa01.ttf');
 export const Gupter_Medium500 = require('./84381b04d635b2daeb369d9c0afa5ff2489d0cda8d9660ee7631bfdf82f2eaeb.ttf');
 export const Gupter_Bold700 = require('./0e63fe340f8e61f9d4d9c5bbc638e79930af1125c534f656814a99d3909674b0.ttf');

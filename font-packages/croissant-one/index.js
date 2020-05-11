@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Croissant One';
+export const __fontFamilyVersion__ = 4;
+
 export const CroissantOne_Regular400 = require('./a51f330afdb3504b94cb09686589076855186483e4e89665623ebe0f655ce6ec.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Federant';
+export const __fontFamilyVersion__ = 8;
+
 export const Federant_Regular400 = require('./64e759e186856942cf96caca16925f320d145c552c214f61546d51aad8e02bbe.ttf');

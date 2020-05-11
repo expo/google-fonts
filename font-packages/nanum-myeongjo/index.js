@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Nanum Myeongjo';
+export const __fontFamilyVersion__ = 8;
+
 export const NanumMyeongjo_Regular400 = require('./3df71af0cacc55f9ee8f8e5e35a48672e379aefb187f3ae133a8fd5100c3810f.ttf');
 export const NanumMyeongjo_Bold700 = require('./c78488cd4af94bf04459b776f90fbe7942e11af15dda46bd856a1abc0523ae11.ttf');
 export const NanumMyeongjo_ExtraBold800 = require('./2da8166e69673863a98b44792cb5b54e1a13b597c11dca437783e5a9336cfa9c.ttf');

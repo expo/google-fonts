@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Bilbo';
+export const __fontFamilyVersion__ = 6;
+
 export const Bilbo_Regular400 = require('./55d2e6fb7257d5ade5d2419927eebf1f0c78ba65154b64d0cb737b6c8fa6a7df.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Petrona';
+export const __fontFamilyVersion__ = 5;
+
 export const Petrona_Regular400 = require('./d80f7ebf1277bc91932826582e099143b69fb77dc61f1259d442558087cc2714.ttf');

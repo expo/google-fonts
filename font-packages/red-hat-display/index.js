@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Red Hat Display';
+export const __fontFamilyVersion__ = 3;
+
 export const RedHatDisplay_Regular400 = require('./675f7abfa369dc6992d9baf79751a6887711f613b7b4783502dbc42d135ad755.ttf');
 export const RedHatDisplay_Regular400_Italic = require('./2e8b90fd9cbce501f652d35b743083be439853e2ee98669ec4885ca518c7fb30.ttf');
 export const RedHatDisplay_Medium500 = require('./93f27cfcf7823481e7194e5feb84bb5724ae4d872ae2d45469fe2732eb1ffbba.ttf');

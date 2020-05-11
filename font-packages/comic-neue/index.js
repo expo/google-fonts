@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Comic Neue';
+export const __fontFamilyVersion__ = 1;
+
 export const ComicNeue_Light300 = require('./03e7eb4282b1113db14871908b545b6c90e66c01c71e25eebd86710af1675dc6.ttf');
 export const ComicNeue_Light300_Italic = require('./e3f90ddc32d7c1de1802b67c219fcaa9a3363ffd6798d5135d4f660a1dda1b26.ttf');
 export const ComicNeue_Regular400 = require('./9d7ebe6d4d4dfaab467fe4a423295d991fdfbf4d1989fcaad2f84c5f338ab089.ttf');

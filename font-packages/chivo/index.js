@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Chivo';
+export const __fontFamilyVersion__ = 8;
+
 export const Chivo_Light300 = require('./994635489f0d118a198cb7efcdd1b61cbd4431c9e6426fffad5b731c4d2c1a5c.ttf');
 export const Chivo_Light300_Italic = require('./f512baee58b1fc81a387836a8de41c055d2bebbfde221bd5f6829c1db58d9baa.ttf');
 export const Chivo_Regular400 = require('./c45551e766074f40061345617f0e07c5a4a2ecbd70ce90f3c7456284827c3184.ttf');

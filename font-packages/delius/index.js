@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Delius';
+export const __fontFamilyVersion__ = 6;
+
 export const Delius_Regular400 = require('./882839f3551cbef380971b00494ffc16ba5b2f9841166599a0248fa4f6855cae.ttf');

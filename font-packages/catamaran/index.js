@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Catamaran';
+export const __fontFamilyVersion__ = 4;
+
 export const Catamaran_Thin100 = require('./e8e9d704be93826d9781f133277934bb6184afd9522b149f005c78f5d89e62ac.ttf');
 export const Catamaran_ExtraLight200 = require('./3f24bc068d63c199fab01e5c0690d6e034f485057c3c19571b656e705a78756b.ttf');
 export const Catamaran_Light300 = require('./853537ef3cef46cebdd3f2ee0f94b33861095d50b2584d6f96a47725f6f4b79d.ttf');

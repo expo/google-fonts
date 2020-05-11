@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Mada';
+export const __fontFamilyVersion__ = 4;
+
 export const Mada_ExtraLight200 = require('./9e8f4edc7b74697883d4382000502d7429481f7ccc59b65ac62c28e99481cbc3.ttf');
 export const Mada_Light300 = require('./4987425fde45e8da45ede3fad409b0ac00e32ca0255a60b44b8e1f701764346c.ttf');
 export const Mada_Regular400 = require('./9e3c24ab83037a6d4fc5b72d068caaa6a0767414bd20d7defe31c562ced6d6e7.ttf');

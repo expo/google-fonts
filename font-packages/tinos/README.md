@@ -24,7 +24,7 @@ This font family contains [4 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/tinos expo-font @use-expo/font
+expo install @expo-google-fonts/tinos expo-font
 ```
 
 Now add code like this to your project
@@ -33,12 +33,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   Tinos_Regular400,
   Tinos_Regular400_Italic,
   Tinos_Bold700,
   Tinos_Bold700_Italic,
+  useFonts,
 } from '@expo-google-fonts/tinos';
 
 export default () => {

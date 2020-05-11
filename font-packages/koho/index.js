@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'KoHo';
+export const __fontFamilyVersion__ = 3;
+
 export const KoHo_ExtraLight200 = require('./7b4addbdb3d0cadc2f6c0149b90b29c059dc7f2be08d0b28292acb880db45124.ttf');
 export const KoHo_ExtraLight200_Italic = require('./73dd6271884581477beeb0860878fd6b524f3e880cc020295c24e2bf1d41a70c.ttf');
 export const KoHo_Light300 = require('./676e89293e4714a1c63fdd477c5dc88950461834031e2ea0437e65b31fc5a03a.ttf');

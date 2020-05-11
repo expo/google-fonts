@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Alfa Slab One';
+export const __fontFamilyVersion__ = 6;
+
 export const AlfaSlabOne_Regular400 = require('./7da478a94cb0f5cdf81dc70a08204fc3d9b097463f65a9108151851580dd9151.ttf');

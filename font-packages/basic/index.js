@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Basic';
+export const __fontFamilyVersion__ = 6;
+
 export const Basic_Regular400 = require('./29cf0f576451b712f706b5f33a2e8e1b6e2be41ed145ebce30bcf8828ec37960.ttf');

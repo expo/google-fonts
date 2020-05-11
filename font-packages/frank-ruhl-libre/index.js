@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Frank Ruhl Libre';
+export const __fontFamilyVersion__ = 3;
+
 export const FrankRuhlLibre_Light300 = require('./a5522476a201c815bdc0a30e19c5eb768edd4ddbe563647bf958a6326d7de351.ttf');
 export const FrankRuhlLibre_Regular400 = require('./9a33b30005cd2b612a70785a7205c43bf5f1a43c839b44d7ab7ddb581503e7ea.ttf');
 export const FrankRuhlLibre_Medium500 = require('./009ea0ba06f79de2ac7a440b5f01b2aa767bbe10be39cfb151cef128d8c5c378.ttf');

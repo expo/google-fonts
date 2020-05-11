@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Turret Road';
+export const __fontFamilyVersion__ = 1;
+
 export const TurretRoad_ExtraLight200 = require('./1eb2f6296f0d09925f225ecec4142547ba09542fcc5069fe46fe0d8673c2b6a3.ttf');
 export const TurretRoad_Light300 = require('./e38827c14383deae6789dc0f07d95b6cbb5f0093dbd0d872fcd4e792c8903562.ttf');
 export const TurretRoad_Regular400 = require('./a9fe5d3ea03de544cf78476012b66bd6ec9240790f7e13b7365bab19f4d7dceb.ttf');

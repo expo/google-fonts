@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Gidugu';
+export const __fontFamilyVersion__ = 3;
+
 export const Gidugu_Regular400 = require('./8cbe8c40904c76d293cafa7611edff01d450f676f40d33e66863b5f7b10e7e1e.ttf');

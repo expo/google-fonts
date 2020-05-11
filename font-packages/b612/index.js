@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'B612';
+export const __fontFamilyVersion__ = 4;
+
 export const B612_Regular400 = require('./b11c6d50f8a4ef2abd6df134192e3770a9b392c814caf916bcf0efa87e6743d2.ttf');
 export const B612_Regular400_Italic = require('./4250a2e42f4ceda476c771828532dfb8cb2e9170ceb541e8aecc34ecea7977b4.ttf');
 export const B612_Bold700 = require('./d3f9b01c62cb7bf3bc87cbc07452bc98a3058af8a40db93b64528fb711a429ea.ttf');

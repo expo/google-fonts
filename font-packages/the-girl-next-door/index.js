@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'The Girl Next Door';
+export const __fontFamilyVersion__ = 7;
+
 export const TheGirlNextDoor_Regular400 = require('./51c93d3ab1885507b024f2ed61854dbb865696dcb5dbdfd1b135cefd74150fef.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Engagement';
+export const __fontFamilyVersion__ = 5;
+
 export const Engagement_Regular400 = require('./14dc139d3b6796ff833b0eb8daf08b16fcc822ca78db05a4bb8c6e65c16507ce.ttf');

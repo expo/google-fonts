@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Fenix';
+export const __fontFamilyVersion__ = 4;
+
 export const Fenix_Regular400 = require('./8601d9f9c9a93dcbc9a75b2e7e9e1f567e66ca628768e1567225078fee043e8f.ttf');

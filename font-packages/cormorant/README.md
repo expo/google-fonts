@@ -30,7 +30,7 @@ This font family contains [10 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/cormorant expo-font @use-expo/font
+expo install @expo-google-fonts/cormorant expo-font
 ```
 
 Now add code like this to your project
@@ -39,7 +39,6 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   Cormorant_Light300,
   Cormorant_Light300_Italic,
@@ -51,6 +50,7 @@ import {
   Cormorant_SemiBold600_Italic,
   Cormorant_Bold700,
   Cormorant_Bold700_Italic,
+  useFonts,
 } from '@expo-google-fonts/cormorant';
 
 export default () => {

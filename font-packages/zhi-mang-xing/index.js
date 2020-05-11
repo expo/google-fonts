@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Zhi Mang Xing';
+export const __fontFamilyVersion__ = 5;
+
 export const ZhiMangXing_Regular400 = require('./f1191a3228f8532e0c3269311dad5b9b1fcdc6dbcfe7f9e3cc506a30fda24d1b.ttf');

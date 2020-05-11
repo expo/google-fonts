@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Smythe';
+export const __fontFamilyVersion__ = 7;
+
 export const Smythe_Regular400 = require('./1f1e3d2a79f5bdab563797693fd14a8c6e868b0778cf746e4a4d22aedc216dbc.ttf');

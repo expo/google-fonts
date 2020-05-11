@@ -34,7 +34,7 @@ This font family contains [14 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/nunito expo-font @use-expo/font
+expo install @expo-google-fonts/nunito expo-font
 ```
 
 Now add code like this to your project
@@ -43,7 +43,6 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   Nunito_ExtraLight200,
   Nunito_ExtraLight200_Italic,
@@ -59,6 +58,7 @@ import {
   Nunito_ExtraBold800_Italic,
   Nunito_Black900,
   Nunito_Black900_Italic,
+  useFonts,
 } from '@expo-google-fonts/nunito';
 
 export default () => {

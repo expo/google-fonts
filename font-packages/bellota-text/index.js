@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Bellota Text';
+export const __fontFamilyVersion__ = 1;
+
 export const BellotaText_Light300 = require('./a0643b4ed7b9e5fe0a6023e98e3c731ac5ed3dd6a93688e6d319415902455806.ttf');
 export const BellotaText_Light300_Italic = require('./e0b3916debc6fdfc7a7fd3129785215a68039360ca58fff2137a5855ee962138.ttf');
 export const BellotaText_Regular400 = require('./bd71701b5f03e11645c6c76521346bb0658b950d8e568f92dbad4c0f832775eb.ttf');

@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Cuprum';
+export const __fontFamilyVersion__ = 8;
+
 export const Cuprum_Regular400 = require('./bddf1f3b7162539ab2c939e699c275d83ee353437fc657257d945347dce5c66d.ttf');
 export const Cuprum_Regular400_Italic = require('./27d4e15720e86dcbe0f0f3e93656c40e57203137b143f5a396d8a56e654963c8.ttf');
 export const Cuprum_Bold700 = require('./0a3719a13307973f16e4ebfb3980da3f7d190316e71ada51aa42650b95524c97.ttf');

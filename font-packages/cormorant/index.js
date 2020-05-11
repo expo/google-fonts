@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Cormorant';
+export const __fontFamilyVersion__ = 5;
+
 export const Cormorant_Light300 = require('./25d9142c8c73577fb3546a40795e753bab11f4e22663e2f1168cbc485cbaa542.ttf');
 export const Cormorant_Light300_Italic = require('./d90d995e2a130e04d6e32ee3778e059092e41f5d9c1c812a659c7ffb52951a19.ttf');
 export const Cormorant_Regular400 = require('./fd04cb22306c1c15bb1727fc4b3d2344de940e929b75dbe3faa9b7f43f9e0d6d.ttf');

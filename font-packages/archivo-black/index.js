@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Archivo Black';
+export const __fontFamilyVersion__ = 4;
+
 export const ArchivoBlack_Regular400 = require('./fdd008fdde6eaf026762810841b23a803c1fd8f7691df010d250df61e584703b.ttf');

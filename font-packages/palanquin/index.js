@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Palanquin';
+export const __fontFamilyVersion__ = 2;
+
 export const Palanquin_Thin100 = require('./c2f2587b9d7e9715b99bbe03f6115a2dcf52f8cb016c7e31f06e26561f3f13bb.ttf');
 export const Palanquin_ExtraLight200 = require('./e3ae6db39173fbbc643b90005a108980c36ea6111e91516ed3e754cd247f965d.ttf');
 export const Palanquin_Light300 = require('./94dbed29146fdc39c8979eff474e5210368a5276c9c7b55706418b745036a240.ttf');

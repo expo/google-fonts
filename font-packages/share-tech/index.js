@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Share Tech';
+export const __fontFamilyVersion__ = 6;
+
 export const ShareTech_Regular400 = require('./e1804d3fb7ab822590fa14a41b103a7d679b4d284079cee4c7c5ebef0c940510.ttf');

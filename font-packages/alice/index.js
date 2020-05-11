@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Alice';
+export const __fontFamilyVersion__ = 8;
+
 export const Alice_Regular400 = require('./b09d7119f6ceba6b3b798683927d8bd51757498f4af762dc4509d1c76aafc6a3.ttf');

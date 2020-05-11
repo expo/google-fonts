@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Pirata One';
+export const __fontFamilyVersion__ = 4;
+
 export const PirataOne_Regular400 = require('./5fb40958eab064bad8294b018f0eff54a3deb5dcb3717eecc9dd41e8db217618.ttf');

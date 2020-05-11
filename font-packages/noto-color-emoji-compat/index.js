@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Noto Color Emoji Compat';
+export const __fontFamilyVersion__ = 17;
+
 export const NotoColorEmojiCompat_Regular400 = require('./975e5d89d39fa5ce6e443f0acba2d714cdff5675202a3ce66012c61a5fec1698.ttf');

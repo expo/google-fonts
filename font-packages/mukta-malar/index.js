@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Mukta Malar';
+export const __fontFamilyVersion__ = 3;
+
 export const MuktaMalar_ExtraLight200 = require('./9ae35f34ee0aecd84455b8074812b101d5d11bc4ae0ada4a90c3e6963cf1b93c.ttf');
 export const MuktaMalar_Light300 = require('./2d5b4747199d5f755d4d21f2dfb23f52cbeba3d94d82a526575d63a6be36c99b.ttf');
 export const MuktaMalar_Regular400 = require('./e58544a43eef9e9b107ca973ca2d3233a1e15b8eddffcc73a3cb767a82c86fd6.ttf');

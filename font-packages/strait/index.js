@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Strait';
+export const __fontFamilyVersion__ = 4;
+
 export const Strait_Regular400 = require('./878aae72e6ee31acbf6951998be893d7fb71a57b07974d83623e60b6ccc8d671.ttf');

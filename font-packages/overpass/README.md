@@ -36,7 +36,7 @@ This font family contains [16 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/overpass expo-font @use-expo/font
+expo install @expo-google-fonts/overpass expo-font
 ```
 
 Now add code like this to your project
@@ -45,7 +45,6 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   Overpass_Thin100,
   Overpass_Thin100_Italic,
@@ -63,6 +62,7 @@ import {
   Overpass_ExtraBold800_Italic,
   Overpass_Black900,
   Overpass_Black900_Italic,
+  useFonts,
 } from '@expo-google-fonts/overpass';
 
 export default () => {

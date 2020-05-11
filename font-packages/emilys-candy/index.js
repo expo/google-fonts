@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Emilys Candy';
+export const __fontFamilyVersion__ = 4;
+
 export const EmilysCandy_Regular400 = require('./333e01b7709d7ade3e2afa1ce5b5d193cbb59ce4909a4bd8a9061d7f12368e33.ttf');

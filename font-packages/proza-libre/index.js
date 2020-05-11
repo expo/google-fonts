@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Proza Libre';
+export const __fontFamilyVersion__ = 1;
+
 export const ProzaLibre_Regular400 = require('./9b6195e0fb14a5155dc5f1e836d174961876e69e0c471b7ab8357696acb1d404.ttf');
 export const ProzaLibre_Regular400_Italic = require('./79a33a14fa8f5bd86b8bd985de9a92647b0d6b62085299ae05b0c4f2cbf98bc8.ttf');
 export const ProzaLibre_Medium500 = require('./ac113922a0dc8f8533dcac9f1f9ec44f777502e94608291bd50da0fa981083d6.ttf');

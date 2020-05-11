@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Quattrocento Sans';
+export const __fontFamilyVersion__ = 9;
+
 export const QuattrocentoSans_Regular400 = require('./114280821a2f8698d737c5c9bcbc986cf36a4dbd9fa7c58e448b35520a6053ec.ttf');
 export const QuattrocentoSans_Regular400_Italic = require('./c933f0ba971f5573109a7674a40f980252c7f3c810a75f9ff29c016102118e85.ttf');
 export const QuattrocentoSans_Bold700 = require('./1a542b5aa650f5ce3fa5e6b692feef037c10962d8ae63545c47fdf964e5b3e26.ttf');

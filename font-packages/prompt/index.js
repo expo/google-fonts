@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Prompt';
+export const __fontFamilyVersion__ = 1;
+
 export const Prompt_Thin100 = require('./48988c00dff9e5346bafb0230e233cc244d06d53de9a8c7b1c5ae95b508878d9.ttf');
 export const Prompt_Thin100_Italic = require('./fa017c19d47d8c1de3c967302dc49e99d37de71795dfb971c06ce63c31a2b230.ttf');
 export const Prompt_ExtraLight200 = require('./be13887c30cb0eb82b46627a8d18c34490049df205c234b3d27d8c3efbfeacec.ttf');

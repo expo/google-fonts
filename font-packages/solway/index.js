@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Solway';
+export const __fontFamilyVersion__ = 2;
+
 export const Solway_Light300 = require('./30f12e709261a80d1a2f35d02c568e8080aa52e556cea38ec163ee09a6482606.ttf');
 export const Solway_Regular400 = require('./bc55ce65a041c9b5001bb030477677f6a44eeb3946a418259202a162382044d2.ttf');
 export const Solway_Medium500 = require('./c03b2ecebe399988e043ffcd0707d72b1327076b7c0f255c24c88e453a8163eb.ttf');

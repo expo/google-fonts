@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Sanchez';
+export const __fontFamilyVersion__ = 4;
+
 export const Sanchez_Regular400 = require('./d4353709b92c21bf0606f2e6c956fddf56ee0fdea20110524ed03052efcc2bbe.ttf');
 export const Sanchez_Regular400_Italic = require('./62da09506355ddb13a8f3a0b9829d9420e5a0dc10a04fe9d6bd314501b513c93.ttf');

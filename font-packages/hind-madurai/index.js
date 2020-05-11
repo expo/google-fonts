@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Hind Madurai';
+export const __fontFamilyVersion__ = 2;
+
 export const HindMadurai_Light300 = require('./5d2a60f4ad6943bf7f1de4b16722cf8992b893d91bdb242860538507d4514dfa.ttf');
 export const HindMadurai_Regular400 = require('./fe0b759733d5d95da02f65af60da858c2e45e9fc35332036694fef1e4f2369aa.ttf');
 export const HindMadurai_Medium500 = require('./367a1897906f0dafe97990639330a1ad8058b45f8d8deae93db5e40a9ae90f44.ttf');

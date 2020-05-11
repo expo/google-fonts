@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Charm';
+export const __fontFamilyVersion__ = 4;
+
 export const Charm_Regular400 = require('./b2803aafd875584dcb262e1eddd8dc7542342f4d2d76ac5f9b06c6b5e2bae18f.ttf');
 export const Charm_Bold700 = require('./40f34767fa59a87e641da20236b9966135321cb03c1ed68d88a6234d432d2604.ttf');

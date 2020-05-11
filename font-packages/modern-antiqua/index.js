@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Modern Antiqua';
+export const __fontFamilyVersion__ = 6;
+
 export const ModernAntiqua_Regular400 = require('./df7e73ec3e130e1a70e2680351228d3e058ceea718f4e7ab314b98ce3978d7f9.ttf');

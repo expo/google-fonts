@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Be Vietnam';
+export const __fontFamilyVersion__ = 1;
+
 export const BeVietnam_Thin100 = require('./0cc0f5cd392e42154ccdcf1ffc6987159ee0807caf89c6ac0796a273c9c80cd4.ttf');
 export const BeVietnam_Thin100_Italic = require('./11b1d7f41abb8a24b4ba203416df07809dbaf7de51619a1d167ab9af0361b6b7.ttf');
 export const BeVietnam_Light300 = require('./03d32b9f1d2ddaa56a41075b22ab477cbc078409bda7fe7f7e030491bf70988a.ttf');

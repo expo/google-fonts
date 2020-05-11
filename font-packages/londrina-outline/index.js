@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Londrina Outline';
+export const __fontFamilyVersion__ = 6;
+
 export const LondrinaOutline_Regular400 = require('./f2c1c90df8f0b2111b8b45fe4112b8016fcde0874de248c3bd10e4f63da86e57.ttf');

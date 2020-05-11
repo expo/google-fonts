@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Cherry Swash';
+export const __fontFamilyVersion__ = 4;
+
 export const CherrySwash_Regular400 = require('./c16f18e4a0ef56672f00dcd810fae50a7468eccc6174968c6890ca1ed1eb4dc0.ttf');
 export const CherrySwash_Bold700 = require('./46fc53776950e3047f5b647b1819e4ec28a5521b733a7e614aa9d97562cb5371.ttf');

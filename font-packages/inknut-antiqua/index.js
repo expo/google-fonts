@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Inknut Antiqua';
+export const __fontFamilyVersion__ = 2;
+
 export const InknutAntiqua_Light300 = require('./8fae03035a8fb6772fc7bcac683c4a01747a3902ede69b6897be980d35cd3c42.ttf');
 export const InknutAntiqua_Regular400 = require('./bad6e7b6f2580d3870d5242c04a7edbb0712500e639570759d1b76b16ad225af.ttf');
 export const InknutAntiqua_Medium500 = require('./f7bad3658649b817553e3c3a1e3b75b8b1c2f93af24d3ee0c2f491f13695cee4.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'VT323';
+export const __fontFamilyVersion__ = 8;
+
 export const VT323_Regular400 = require('./bb4e9d2d01d2cd1a001d4822ed239ffd38df2ee07a6a1f581288f34dbd2f4060.ttf');

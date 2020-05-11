@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'PT Sans';
+export const __fontFamilyVersion__ = 8;
+
 export const PTSans_Regular400 = require('./8a587dc4260abac4008021f8b9302115ee0f9616aee70d95d4d49f447f4df0f9.ttf');
 export const PTSans_Regular400_Italic = require('./6de2d3f34e12548006ef800234119a1b1d90bba33fb1d33f5bf41577bc954338.ttf');
 export const PTSans_Bold700 = require('./2a88a8de5aeccdc3e4febba14c9ade00ec49e16f2718050be6bc3f4f37e8ff0b.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Questrial';
+export const __fontFamilyVersion__ = 6;
+
 export const Questrial_Regular400 = require('./ad815e7b1e7fe3c135b94c7241340918c62215027afaf848638e71f9ba75125a.ttf');

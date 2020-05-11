@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Fira Sans Extra Condensed';
+export const __fontFamilyVersion__ = 1;
+
 export const FiraSansExtraCondensed_Thin100 = require('./aa0b73aa84c42a6d80d67e8301430b1553b52c7bd68fb79ebe8a2ff750ff58d7.ttf');
 export const FiraSansExtraCondensed_Thin100_Italic = require('./9f3e0c06798b24d5853a7192055d69133a9cbd73a9af9f24f62a00b0040d5776.ttf');
 export const FiraSansExtraCondensed_ExtraLight200 = require('./bbe50e8aab5ce91f02434c94791440b79cfbc9ee514967d9db84519325fb09bc.ttf');

@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Gentium Basic';
+export const __fontFamilyVersion__ = 8;
+
 export const GentiumBasic_Regular400 = require('./86bcf47467c7c966ff4e8c216451273329982a4bbf3477b33615c1e5ff916fb2.ttf');
 export const GentiumBasic_Regular400_Italic = require('./d84eb1ad32e37c3f5e4a8eeaf077b66ec63a516eb0a631a71b3b17b0d6c43de1.ttf');
 export const GentiumBasic_Bold700 = require('./33b22faef221568e2734ae86ee972b4499a967b00f6d6ae128b1649a904044d7.ttf');

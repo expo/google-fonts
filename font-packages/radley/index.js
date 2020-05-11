@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Radley';
+export const __fontFamilyVersion__ = 9;
+
 export const Radley_Regular400 = require('./6793fc8150706eb473a493107e09c2e519147ccf8d28dea89f49427c0dca0481.ttf');
 export const Radley_Regular400_Italic = require('./d01dd3f7b9c28e1f719a10c2a9dc88cd2827fcc64c09173e01e8b397f7615442.ttf');

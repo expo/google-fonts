@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Ranga';
+export const __fontFamilyVersion__ = 2;
+
 export const Ranga_Regular400 = require('./e51a6898e34d12bd9b9057002e645f176d30f5e821bfaa1ccc4e56294af7099a.ttf');
 export const Ranga_Bold700 = require('./c5c763628e805a2af3c9deb68abd0b70227a98911f7ba56f4f8c2a3e8c286b96.ttf');

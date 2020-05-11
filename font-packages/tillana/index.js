@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Tillana';
+export const __fontFamilyVersion__ = 2;
+
 export const Tillana_Regular400 = require('./f767b3a50e7fbd85244228fd72776e996704c5b833256c5fa56b782821e015af.ttf');
 export const Tillana_Medium500 = require('./5aecdf23e36ca11770901c226daf192765931a12afd290bbf684884f9bbf1c7c.ttf');
 export const Tillana_SemiBold600 = require('./a5f11d010b5bd339931701e1853b2788fccf7cb07bbf503ff03f027a3086f3f3.ttf');

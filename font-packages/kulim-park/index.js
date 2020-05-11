@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Kulim Park';
+export const __fontFamilyVersion__ = 1;
+
 export const KulimPark_ExtraLight200 = require('./840c4d3989e45ba899e1b3d09646ca3f9bef766fb66b167c5ea95b0726f44a0b.ttf');
 export const KulimPark_ExtraLight200_Italic = require('./8737e36ff5a77edc8d6596fcaa803b3cf72b11b077e0b7b0397fa81c2f03dd31.ttf');
 export const KulimPark_Light300 = require('./5f528827be704c4d4f91d75915cedac8ff4754733bcac2e61e48bdac1e6752eb.ttf');

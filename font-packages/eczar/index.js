@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Eczar';
+export const __fontFamilyVersion__ = 5;
+
 export const Eczar_Regular400 = require('./c6e04a6ef288e1fca3e9420bfd9752bfdc230a20ce55a05855a8896bdb763a8e.ttf');
 export const Eczar_Medium500 = require('./d91586e1decf2874b409ef01f87cf50e9725e5f419ea08e5158a6c0a06595fbe.ttf');
 export const Eczar_SemiBold600 = require('./ba1eb42528b2001e261653b3e56b8566ae08e9a3a6709b57e20f58b84b82a76a.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Trade Winds';
+export const __fontFamilyVersion__ = 5;
+
 export const TradeWinds_Regular400 = require('./3700d4f7d8215f29936d00b52a4b5bf1b2c28b9df395be53d179282b32834cdb.ttf');

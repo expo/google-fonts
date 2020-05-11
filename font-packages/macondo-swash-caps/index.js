@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Macondo Swash Caps';
+export const __fontFamilyVersion__ = 4;
+
 export const MacondoSwashCaps_Regular400 = require('./4143af0ceceb156b80e5e2055d178d84cfca13b39056f49121b05c6b3843f1fd.ttf');

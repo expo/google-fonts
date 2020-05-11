@@ -31,7 +31,7 @@ This font family contains [11 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/titillium-web expo-font @use-expo/font
+expo install @expo-google-fonts/titillium-web expo-font
 ```
 
 Now add code like this to your project
@@ -40,7 +40,6 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   TitilliumWeb_ExtraLight200,
   TitilliumWeb_ExtraLight200_Italic,
@@ -53,6 +52,7 @@ import {
   TitilliumWeb_Bold700,
   TitilliumWeb_Bold700_Italic,
   TitilliumWeb_Black900,
+  useFonts,
 } from '@expo-google-fonts/titillium-web';
 
 export default () => {

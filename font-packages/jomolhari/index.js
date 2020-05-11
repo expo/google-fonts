@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Jomolhari';
+export const __fontFamilyVersion__ = 1;
+
 export const Jomolhari_Regular400 = require('./3ee25009d9daf59851273c5b12d4656fbdfd943f715735eda3c58bbf19ebd677.ttf');

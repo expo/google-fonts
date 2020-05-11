@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Krub';
+export const __fontFamilyVersion__ = 3;
+
 export const Krub_ExtraLight200 = require('./e99da9729e8beb706a3f7dd95ff2b13b7e33f89ceabaf9f2330e61896b93fa39.ttf');
 export const Krub_ExtraLight200_Italic = require('./63f21c0600aea197624e3d1c2e40daafe5eabdfd3f3b604ef5a0240158275df3.ttf');
 export const Krub_Light300 = require('./c051f20fb436fad0503f887fa3835d2787be9ae5fbe5be539dc1532d24f8df2f.ttf');

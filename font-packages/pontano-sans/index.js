@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Pontano Sans';
+export const __fontFamilyVersion__ = 4;
+
 export const PontanoSans_Regular400 = require('./5642e38228ac272d77222d1b2150dd461c55d090beba64bbb9f11d169e573589.ttf');

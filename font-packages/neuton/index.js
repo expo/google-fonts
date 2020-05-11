@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Neuton';
+export const __fontFamilyVersion__ = 9;
+
 export const Neuton_ExtraLight200 = require('./52a1f786965c5e1a5ddb72c3453133e67248c6daa74320a01e034161e4476a0f.ttf');
 export const Neuton_Light300 = require('./ff0297b52f6d34d72fb14e197dd0504d57fdb2769b98619facc41590e900c8e9.ttf');
 export const Neuton_Regular400 = require('./2147893351f8ace96b011dcc7c1c826ba84daac170ed6538e0456e5ed8ffe947.ttf');

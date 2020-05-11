@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Literata';
+export const __fontFamilyVersion__ = 15;
+
 export const Literata_Regular400 = require('./f994a4c14415cfac63df0a88d12df379634376d190047a3aac8c1ccac859181b.ttf');
 export const Literata_Medium500 = require('./1011ff34c164167eb8c8e3cca7b775188431d8992affa5794a30375c51b6d938.ttf');
 export const Literata_SemiBold600 = require('./497b001be8a26d6015abe84fe17796af4a7dc95f03ad846ec89f4a5555f9f588.ttf');

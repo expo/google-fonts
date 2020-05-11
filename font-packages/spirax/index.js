@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Spirax';
+export const __fontFamilyVersion__ = 5;
+
 export const Spirax_Regular400 = require('./165b0a7ca4871b5440455c3c991428f478c37eee5f78637905aceaa58275feda.ttf');

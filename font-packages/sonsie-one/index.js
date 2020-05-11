@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Sonsie One';
+export const __fontFamilyVersion__ = 5;
+
 export const SonsieOne_Regular400 = require('./1a621714ea4d59e0ead90246169593f8487db34752634db76b12ab329e9cf4e1.ttf');

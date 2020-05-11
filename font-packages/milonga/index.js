@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Milonga';
+export const __fontFamilyVersion__ = 4;
+
 export const Milonga_Regular400 = require('./0754de34c73ed1446cebd4a2c6594cd4e24a2b8cd3512ad6e0d157285e9c2f7f.ttf');

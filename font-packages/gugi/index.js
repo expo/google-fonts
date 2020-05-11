@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Gugi';
+export const __fontFamilyVersion__ = 4;
+
 export const Gugi_Regular400 = require('./4fbf616bf21ec330d026a7115b7224fe9baf30418cdbb19b26eed6ebcd6ce2cc.ttf');

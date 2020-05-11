@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Belgrano';
+export const __fontFamilyVersion__ = 6;
+
 export const Belgrano_Regular400 = require('./4b66b889e699bfe12ea9cc04621e48eed308f79ef2955cd4f20d0e7ddbcbaeab.ttf');

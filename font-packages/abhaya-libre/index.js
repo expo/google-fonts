@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Abhaya Libre';
+export const __fontFamilyVersion__ = 2;
+
 export const AbhayaLibre_Regular400 = require('./f8e1a260e8a56f8cdb2e2401be9e3a6903026becbf134336b9c8f6b2e2490cd5.ttf');
 export const AbhayaLibre_Medium500 = require('./ff52a780878fd838b81f8c96e548f49d7bbd4f92cb0a3dc68eb3f852ca3f3fd4.ttf');
 export const AbhayaLibre_SemiBold600 = require('./e3be63e1c52229673f453da3c6abd79dc0011d02fd57da38489880434556aa77.ttf');

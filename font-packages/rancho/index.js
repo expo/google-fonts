@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Rancho';
+export const __fontFamilyVersion__ = 6;
+
 export const Rancho_Regular400 = require('./2691ae7a785afc3443c02c1383179f3e510bbcbe3015a78c6b04b9a2ce719ea2.ttf');

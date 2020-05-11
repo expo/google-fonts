@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Noticia Text';
+export const __fontFamilyVersion__ = 6;
+
 export const NoticiaText_Regular400 = require('./8aa05df6db1fd8277eb2791ce573473314c741b8b6b0779c1f5156a33c24e54c.ttf');
 export const NoticiaText_Regular400_Italic = require('./eae99ba15e584587a39b40e2c6b930d2c6da34555025ef2fcecdad8b5d1096ec.ttf');
 export const NoticiaText_Bold700 = require('./16462e88dea5568eff3522e2b0e80ac4943e7ade072e98099a0ced914809837a.ttf');

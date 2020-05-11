@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Nanum Pen Script';
+export const __fontFamilyVersion__ = 8;
+
 export const NanumPenScript_Regular400 = require('./2e0017c2efd9b7de2cf1b9d90c99ebfd4be478763a4f265915ce2302d928a6f4.ttf');

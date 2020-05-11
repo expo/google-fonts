@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Aclonica';
+export const __fontFamilyVersion__ = 7;
+
 export const Aclonica_Regular400 = require('./e26afc4582406a86fc1e1b81aad6e16a03f9276419fa76e91b98f9e42d868cc8.ttf');

@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Mountains of Christmas';
+export const __fontFamilyVersion__ = 8;
+
 export const MountainsofChristmas_Regular400 = require('./c2200cef227dc27280b133ec5d366a7a1c5e8956523b6a69490c6d3be875831f.ttf');
 export const MountainsofChristmas_Bold700 = require('./52a7b2b21269dc6d67187a7882fa4bbc19f093792adc852c62497c6495d129e6.ttf');

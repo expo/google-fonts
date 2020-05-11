@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Sriracha';
+export const __fontFamilyVersion__ = 1;
+
 export const Sriracha_Regular400 = require('./9b5c54ea181b3d73d0d289e4182c26d2a6cca9e06c00edd861a65a36f6b559e7.ttf');

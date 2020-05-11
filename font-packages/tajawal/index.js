@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Tajawal';
+export const __fontFamilyVersion__ = 1;
+
 export const Tajawal_ExtraLight200 = require('./1591b1d4b425865ad56f27769d7904f608af3a947ce4a365c5e6f1a66ed36c5c.ttf');
 export const Tajawal_Light300 = require('./96516512d599f345601934621e5ddc2b61c7967d59e4ee3bea24cb11c9f720d8.ttf');
 export const Tajawal_Regular400 = require('./6008a589c04e1cca5b78ecd73eb5f54a525670df2d3627fcddac202dac0b8db5.ttf');

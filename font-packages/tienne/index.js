@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Tienne';
+export const __fontFamilyVersion__ = 9;
+
 export const Tienne_Regular400 = require('./e11280c2a4284740a646bbace5bf0a018fa38ead3ba5b33b7d6a55a646342b17.ttf');
 export const Tienne_Bold700 = require('./62ae315531bcb85150dfefb27cbccbb30f331e0c091470a03aca49e6b1842e5f.ttf');
 export const Tienne_Black900 = require('./7882a99c925a597867e27f064c12db77d2185f452bd9b0bc83862549c886331c.ttf');

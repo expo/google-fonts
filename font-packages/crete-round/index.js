@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Crete Round';
+export const __fontFamilyVersion__ = 5;
+
 export const CreteRound_Regular400 = require('./62fbd9c68fa6485a1a4fde14a03ed6a5268f26365fff7614e5704531390f0363.ttf');
 export const CreteRound_Regular400_Italic = require('./c8e915bc50126a1af673b8fbd3181aa9f8eac78545ec1b8d827ac5bac66b5cc5.ttf');

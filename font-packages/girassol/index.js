@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Girassol';
+export const __fontFamilyVersion__ = 1;
+
 export const Girassol_Regular400 = require('./4ac0b37ea4560c8fe837a50cfdeb9b18f00c84d4fe2556fd1934257270c6c1a3.ttf');

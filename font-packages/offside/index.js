@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Offside';
+export const __fontFamilyVersion__ = 4;
+
 export const Offside_Regular400 = require('./c98690ef66d169347f8cc0792c75158c05d2b92130f122f890ac9cbd756c13e7.ttf');

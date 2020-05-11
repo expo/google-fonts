@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Fahkwang';
+export const __fontFamilyVersion__ = 3;
+
 export const Fahkwang_ExtraLight200 = require('./07a682d6bc044cbd486744e34dcb061077bac07d9501f34c8f50b67aa2c02b7f.ttf');
 export const Fahkwang_ExtraLight200_Italic = require('./c9cba18dabd9762bcd5cd460bbc145d71a364a65255b3ff8514cb385997506c8.ttf');
 export const Fahkwang_Light300 = require('./a4f936e2bce0a9dc318b8e50537d34ffd7475cd6199842a810f7b9ef9072cdae.ttf');

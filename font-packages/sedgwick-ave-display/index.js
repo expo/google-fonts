@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Sedgwick Ave Display';
+export const __fontFamilyVersion__ = 3;
+
 export const SedgwickAveDisplay_Regular400 = require('./c1aa82570f810f79198c969d9475cd420e45b9de6957e8dcdedd71ecbaf755c4.ttf');

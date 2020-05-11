@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'IBM Plex Serif';
+export const __fontFamilyVersion__ = 4;
+
 export const IBMPlexSerif_Thin100 = require('./a7d42efee4f1a7ac97d078340d6652728fe15929c68ba6d23cb2bb12c08ade3c.ttf');
 export const IBMPlexSerif_Thin100_Italic = require('./2d6348f0337897dfd4f35a24aeb41df7d2026b073c6e62091ba3d4be45deccef.ttf');
 export const IBMPlexSerif_ExtraLight200 = require('./22d162d23ce0e5ad78699d3f15d64aee792adff19238b2d5fff9ed6e4e2aeaa6.ttf');

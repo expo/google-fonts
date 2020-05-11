@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Chela One';
+export const __fontFamilyVersion__ = 5;
+
 export const ChelaOne_Regular400 = require('./3efd79a48f37981dfb1dd9c73243093c103f990459d6cc0e0918ed692c2beef0.ttf');

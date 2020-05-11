@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Volkhov';
+export const __fontFamilyVersion__ = 8;
+
 export const Volkhov_Regular400 = require('./a3fa059553ab62381a8974ef60376b4bad0e91f2d72092094e74fb1c2fcca886.ttf');
 export const Volkhov_Regular400_Italic = require('./7d27f866b8f11b00603bcc07b2e7ae49e4405fde4b3db227065ad57f92b8953c.ttf');
 export const Volkhov_Bold700 = require('./f24fe6c57bdf816d9c6e09602548002ca61aca7eec23b40635c4a46f84347d47.ttf');

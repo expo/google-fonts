@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Yeseva One';
+export const __fontFamilyVersion__ = 11;
+
 export const YesevaOne_Regular400 = require('./326eec1af27e3634bbf470c04d8127d985571a07b5b79696eb6424489e27e106.ttf');

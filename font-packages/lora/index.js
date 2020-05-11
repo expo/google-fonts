@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Lora';
+export const __fontFamilyVersion__ = 10;
+
 export const Lora_Regular400 = require('./ab4a36d4eeabba7b21d6d9f9cf3402c3cfc28c64a4fb06cb6c424de03a8c98b9.ttf');
 export const Lora_Regular400_Italic = require('./5bda244cfbcaf07666bfff144e4e1e5809f93966fa537d9ba1a29fcfd7e0ebb5.ttf');
 export const Lora_Bold700 = require('./aada77cdac3a872737be48f8c95b39befadbb124e16cc8b8e5076dd429400ea1.ttf');

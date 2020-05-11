@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Geostar';
+export const __fontFamilyVersion__ = 6;
+
 export const Geostar_Regular400 = require('./7b9967368c76fa8693221781a74e18323bde42a1df8fff30b1d5b2dd2e654dc5.ttf');

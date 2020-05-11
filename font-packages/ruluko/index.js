@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Ruluko';
+export const __fontFamilyVersion__ = 4;
+
 export const Ruluko_Regular400 = require('./518872494d9916ac67c11f0d33a4e68e70201fcd2c5edc6925985bfb1a22a9c4.ttf');

@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Amiri';
+export const __fontFamilyVersion__ = 7;
+
 export const Amiri_Regular400 = require('./15af380107efd8a082b372d1ba8027d5fd6d4720ccf7f7ce48345b845cfb83b6.ttf');
 export const Amiri_Regular400_Italic = require('./03496500b8efdd151ca91912b003f23e04fcb45a8d39cee588e4ea47b61fc052.ttf');
 export const Amiri_Bold700 = require('./a1f6fcfa01fc6084132c66ff5b8da7b655fbf82dae7a9200c4471400281678bb.ttf');

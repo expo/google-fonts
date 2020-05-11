@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Hi Melody';
+export const __fontFamilyVersion__ = 4;
+
 export const HiMelody_Regular400 = require('./306d4c79415f43cc2f655c997e9edc971ad12227c39d46aef4fae766ba572d12.ttf');

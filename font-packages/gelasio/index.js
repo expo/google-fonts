@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Gelasio';
+export const __fontFamilyVersion__ = 1;
+
 export const Gelasio_Regular400 = require('./2c178f975cfe7fd1383143d870be6652cd515bc4ce08487980cc8a24cb7d6658.ttf');
 export const Gelasio_Regular400_Italic = require('./89d39a153c70693460a8dfc8abc227627e98f02a750210cdf30eafeaa3c07eff.ttf');
 export const Gelasio_Medium500 = require('./065abbe7b6a9053e634e391d0b4b626891e33a25a559b218467c09f92b7cbae7.ttf');

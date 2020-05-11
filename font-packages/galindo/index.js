@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Galindo';
+export const __fontFamilyVersion__ = 4;
+
 export const Galindo_Regular400 = require('./c0d36dd1f81706dfcb698113c2682bb84feeffd515b1fa33d5c947ecc09e9719.ttf');

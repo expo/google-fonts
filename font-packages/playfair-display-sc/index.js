@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Playfair Display SC';
+export const __fontFamilyVersion__ = 5;
+
 export const PlayfairDisplaySC_Regular400 = require('./b4e28ec5aef07315383b9ec24d14cafd9f9e82652f0907ffa96bc78936a2bcf3.ttf');
 export const PlayfairDisplaySC_Regular400_Italic = require('./fdba2100fec23dad94f0b77ea42bd7fe1e70cb13c977ff4097bee8f4a5d3deb2.ttf');
 export const PlayfairDisplaySC_Bold700 = require('./6e248f16fb366b22ece90b547726b0fa0844647d39802ca9bf4509e2c994973e.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Wendy One';
+export const __fontFamilyVersion__ = 4;
+
 export const WendyOne_Regular400 = require('./dea9bd8409f75210fc0600c72f08d7b21019e5e663c7dcff913dc8f003587379.ttf');

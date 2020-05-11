@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Special Elite';
+export const __fontFamilyVersion__ = 6;
+
 export const SpecialElite_Regular400 = require('./1a1b32a7d4f38d2ebfa68de6ead2295ba312231237e0088e5d4fc3e1c66a516d.ttf');

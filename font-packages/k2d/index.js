@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'K2D';
+export const __fontFamilyVersion__ = 3;
+
 export const K2D_Thin100 = require('./d221fa3a362d33d180e193b479bfddbf9e8ab02b545540d3a80121af669090de.ttf');
 export const K2D_Thin100_Italic = require('./2ee77370590db6101099fae848e5f0e4fad425bcb6a8bb711390100587eacf49.ttf');
 export const K2D_ExtraLight200 = require('./84c5594915b66f9cd68b4acb3820acdf5be79979f881f4edbece711c1a63d0cd.ttf');

@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Lusitana';
+export const __fontFamilyVersion__ = 4;
+
 export const Lusitana_Regular400 = require('./c6df963163bf20f6d3c7e20307b4e363715e13d9047b5707caa9407e11af4ebb.ttf');
 export const Lusitana_Bold700 = require('./f5505e39683b141ee21482fcfc3818a5bb6f049abf15928c81caac05296eba18.ttf');

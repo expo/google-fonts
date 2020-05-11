@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Kdam Thmor';
+export const __fontFamilyVersion__ = 3;
+
 export const KdamThmor_Regular400 = require('./9fc30fa8d328331e5132a7c7bf04cc803ada727681101c00dce2c9e84732f191.ttf');

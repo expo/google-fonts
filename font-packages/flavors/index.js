@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Flavors';
+export const __fontFamilyVersion__ = 5;
+
 export const Flavors_Regular400 = require('./f56d6a319c30faa62651b4a9fde87c7e4a496c678e7fb6642dccfa9c815d29dd.ttf');

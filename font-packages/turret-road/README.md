@@ -26,7 +26,7 @@ This font family contains [6 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/turret-road expo-font @use-expo/font
+expo install @expo-google-fonts/turret-road expo-font
 ```
 
 Now add code like this to your project
@@ -35,7 +35,6 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   TurretRoad_ExtraLight200,
   TurretRoad_Light300,
@@ -43,6 +42,7 @@ import {
   TurretRoad_Medium500,
   TurretRoad_Bold700,
   TurretRoad_ExtraBold800,
+  useFonts,
 } from '@expo-google-fonts/turret-road';
 
 export default () => {

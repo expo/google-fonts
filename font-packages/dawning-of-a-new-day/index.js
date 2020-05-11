@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Dawning of a New Day';
+export const __fontFamilyVersion__ = 7;
+
 export const DawningofaNewDay_Regular400 = require('./c8fb2c187b599f0368577f599628c83a2543f4c757231bb2c0843e98624eeb4a.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Lateef';
+export const __fontFamilyVersion__ = 10;
+
 export const Lateef_Regular400 = require('./db6ed59fb822daefac366cd24ad8a0d2b7d9bf35e1ea45490ab50b3f50b0de88.ttf');

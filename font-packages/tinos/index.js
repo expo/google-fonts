@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Tinos';
+export const __fontFamilyVersion__ = 9;
+
 export const Tinos_Regular400 = require('./e3fb073d6d034814d7825107e1eae4eee8c1f169d87607f2df536bb4e4093ddf.ttf');
 export const Tinos_Regular400_Italic = require('./27dde2d7c4a3b5edc81ddca48874ffcb63a893df81e508e07a3565f70323fdaf.ttf');
 export const Tinos_Bold700 = require('./dc658c10271c22ff1ad12fc220c05dadf678b1fa42443b874fd100f68afa117c.ttf');

@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Blinker';
+export const __fontFamilyVersion__ = 3;
+
 export const Blinker_Thin100 = require('./7c240948a3fc8d5d8689c3a63f7f8ebc6306f7c85e807823569843f0f54195f9.ttf');
 export const Blinker_ExtraLight200 = require('./2a79a8324609cc2b3bcdaec6541902337b886042ed55c471dbb6f257c65b280f.ttf');
 export const Blinker_Light300 = require('./3dd96a764325a06a02dcd84be7a03f3a2f2b6808e40d63328015690bf81f6c96.ttf');

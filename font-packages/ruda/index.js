@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Ruda';
+export const __fontFamilyVersion__ = 8;
+
 export const Ruda_Regular400 = require('./a254aa475c3646075b11d4e1a7db06d96c2f16a001e31943133c66d6bbe7558d.ttf');
 export const Ruda_Bold700 = require('./af38ec0bb3b6d599d8ad3f56b0f6f3fb81bd7dfd3234fd8f9dbaaf5029c0b2ab.ttf');
 export const Ruda_Black900 = require('./0a25461d4ccbfb0f3a77a33f66143f8474a3eccfbee06850f5e778bf29216894.ttf');

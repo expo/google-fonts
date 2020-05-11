@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Gochi Hand';
+export const __fontFamilyVersion__ = 7;
+
 export const GochiHand_Regular400 = require('./e396d3d6d4147d9267b06c9619b938d34176559c67b48c046d971904edf8ce36.ttf');

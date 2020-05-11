@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Sahitya';
+export const __fontFamilyVersion__ = 1;
+
 export const Sahitya_Regular400 = require('./54146b1b18bccc5173c7f1cc478fd450cfb721e1b3d40df0ebd3dcf6711c6c48.ttf');
 export const Sahitya_Bold700 = require('./14383134c508c525e61d88a045189d98b08191a7cadfada9c90a82eea5d88ee6.ttf');

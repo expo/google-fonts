@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Kranky';
+export const __fontFamilyVersion__ = 6;
+
 export const Kranky_Regular400 = require('./6ede337ff9d5b44d7958a35407098749494ddd69efd07cad00c906439794d962.ttf');

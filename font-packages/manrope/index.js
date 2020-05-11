@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Manrope';
+export const __fontFamilyVersion__ = 1;
+
 export const Manrope_ExtraLight200 = require('./0e0aac7c30d815ffee8f590cf386f62ccea077282904c5bcc089f83e1e3fa6ba.ttf');
 export const Manrope_Light300 = require('./b00c95e47bd20d7096fc9bd66552bab89fdaee62611c600e651efcc4c1808b29.ttf');
 export const Manrope_Regular400 = require('./1f742b6ef495bb5b9f5b968a27c50281ca1f9822bb53ec99bb3757ff2f3febfd.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Almendra Display';
+export const __fontFamilyVersion__ = 6;
+
 export const AlmendraDisplay_Regular400 = require('./a8aa056bca4ab7efab868e9b7a435eea1109abde7b232725b1e1b41cf482191a.ttf');

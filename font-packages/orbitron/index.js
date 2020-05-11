@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Orbitron';
+export const __fontFamilyVersion__ = 8;
+
 export const Orbitron_Regular400 = require('./92d53d02a61d246157ee4ac3e2668206b546a454087e25530c48918b92bfce32.ttf');
 export const Orbitron_Medium500 = require('./1c174158cbedc3b8323f310b03842e82bc72c5fd2d5327ee80671506188cc6cc.ttf');
 export const Orbitron_Bold700 = require('./baf59aa462bae9b1e738270aa2b901810db31788e78774046146f315809bc1a6.ttf');

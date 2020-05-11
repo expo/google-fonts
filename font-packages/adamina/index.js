@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Adamina';
+export const __fontFamilyVersion__ = 9;
+
 export const Adamina_Regular400 = require('./c241502ff8869d44e310b4e1782d5ca6f53b2d1844593bb0a360e12af0ddfcb1.ttf');

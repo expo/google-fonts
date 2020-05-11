@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Coda Caption';
+export const __fontFamilyVersion__ = 10;
+
 export const CodaCaption_ExtraBold800 = require('./28b801f8b4a3bbeae1f47a3081d64a60cba59d844b8d9719165a993bbfd5424b.ttf');

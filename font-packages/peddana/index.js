@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Peddana';
+export const __fontFamilyVersion__ = 4;
+
 export const Peddana_Regular400 = require('./4c066d855b7652305b1b9d3d0308b0c71161bd1e83a7b4a8bdebadd005f749b6.ttf');

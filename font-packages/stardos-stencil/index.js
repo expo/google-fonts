@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Stardos Stencil';
+export const __fontFamilyVersion__ = 6;
+
 export const StardosStencil_Regular400 = require('./b677e9855e2ae2d05e70f39ac58d82bfe1f9ea6ecb62fcf63cc3c0f10c456ba9.ttf');
 export const StardosStencil_Bold700 = require('./b5b4ccf1291484af094cadfcd7fa357b84b8c25db613f74330c32b39a270fda1.ttf');

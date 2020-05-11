@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Noto Serif';
+export const __fontFamilyVersion__ = 6;
+
 export const NotoSerif_Regular400 = require('./756d85930a29b444fc130d6ab854e9f796a951dff740c2bedb926522aa2db185.ttf');
 export const NotoSerif_Regular400_Italic = require('./3a8f4b27348c68ceb866bc4d52c0eae507c8cf764c1ab8d398805aeb89e40eb6.ttf');
 export const NotoSerif_Bold700 = require('./b8ab5cf0042204e461a5d83a980849507daa6ef58dda05725bcfa7403675eb0d.ttf');

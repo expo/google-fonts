@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Rufina';
+export const __fontFamilyVersion__ = 4;
+
 export const Rufina_Regular400 = require('./13bca1c6fdd801a76033b1400e39b72e91e0afb66bbfe9c7949ba573a2fef8dd.ttf');
 export const Rufina_Bold700 = require('./dde1bdffc799ca56ee0f9a9f0386b734acc2abff4459d9ac91da48b589078fb6.ttf');

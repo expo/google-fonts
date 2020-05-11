@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Pinyon Script';
+export const __fontFamilyVersion__ = 6;
+
 export const PinyonScript_Regular400 = require('./76a6132a59fff29721156baa5452296b0cf50a435c5bdba96e8bda980999341b.ttf');

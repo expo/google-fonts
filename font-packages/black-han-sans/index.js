@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Black Han Sans';
+export const __fontFamilyVersion__ = 4;
+
 export const BlackHanSans_Regular400 = require('./ea3e07623642e89ce9ae84a698b9557dd6361db9bc40b993b7715531404db088.ttf');

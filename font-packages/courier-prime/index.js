@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Courier Prime';
+export const __fontFamilyVersion__ = 1;
+
 export const CourierPrime_Regular400 = require('./4ab28865b2644070e548699748855f2d5a34b5bf8adea09607e18d4a7adc8999.ttf');
 export const CourierPrime_Regular400_Italic = require('./7109c63818181b56013b7ced3e5da53d756aab727e6a9786a0c8a58affe4ec23.ttf');
 export const CourierPrime_Bold700 = require('./385e70d216befbb71f12f5009f1824d235e0f4f2ab653bb0296d5d999afdfd3f.ttf');

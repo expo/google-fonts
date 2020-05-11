@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Kavoon';
+export const __fontFamilyVersion__ = 5;
+
 export const Kavoon_Regular400 = require('./2c2328be5a827d790cddbe56db46b1c94043f473e5d01286be1567e454a4038d.ttf');

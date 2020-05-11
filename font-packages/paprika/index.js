@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Paprika';
+export const __fontFamilyVersion__ = 4;
+
 export const Paprika_Regular400 = require('./3611025b91e6a3a1daf2e78541775555d832ba6b4f010ae8b4553d5d5be2bac6.ttf');

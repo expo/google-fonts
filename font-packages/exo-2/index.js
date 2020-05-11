@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Exo 2';
+export const __fontFamilyVersion__ = 3;
+
 export const Exo2_Thin100 = require('./f19c0e2523de9afe6da463f303aefcf3e38b416875d48ef6c98328379e1a61ce.ttf');
 export const Exo2_Thin100_Italic = require('./d39266e34642d4861ef777d4d3ae4150ae0b18b16d94713a78bb60cf03bf85b4.ttf');
 export const Exo2_ExtraLight200 = require('./dbf766d9b363fe87cee0afda4c59bc8a59f1c8d0a0d245063c720108d85dd9d6.ttf');

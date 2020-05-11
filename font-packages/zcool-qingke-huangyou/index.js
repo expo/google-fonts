@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'ZCOOL QingKe HuangYou';
+export const __fontFamilyVersion__ = 5;
+
 export const ZCOOLQingKeHuangYou_Regular400 = require('./dca9156773f9e058aafeaded91d3d5e64e41a67187907e37a66210e708d3dc73.ttf');

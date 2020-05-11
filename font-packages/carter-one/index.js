@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Carter One';
+export const __fontFamilyVersion__ = 8;
+
 export const CarterOne_Regular400 = require('./64cdbf0babf6eb9e23f0a780f283a930636589b4b8d9a5d0cdf24888a7719292.ttf');

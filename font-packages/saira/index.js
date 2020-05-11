@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Saira';
+export const __fontFamilyVersion__ = 2;
+
 export const Saira_Thin100 = require('./b6d764b20e47ac3d6764acfa56dcca309c570f72779558c6c85b227d3d52c1a9.ttf');
 export const Saira_ExtraLight200 = require('./2b401181dcedd7b5ce954c3110d4a358e96333124e6afb4335cf4ce5a9612a21.ttf');
 export const Saira_Light300 = require('./9bc2a7efb47daf648f831278c1e7d476dc527592af052be0f1b56d14e3b4e333.ttf');

@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Titillium Web';
+export const __fontFamilyVersion__ = 5;
+
 export const TitilliumWeb_ExtraLight200 = require('./19772d85bad94abc7a76fc4a64849db9638e9c00e7e0dadd3872a583b74adbe3.ttf');
 export const TitilliumWeb_ExtraLight200_Italic = require('./a39917b8e97b8433f10dae6821885f087662f1062a48a366f2f2f287c74ecb6c.ttf');
 export const TitilliumWeb_Light300 = require('./7da8c41b9e519ca322471fc0bdcc15a795423fb09cbf094a6787142218ec1c9e.ttf');

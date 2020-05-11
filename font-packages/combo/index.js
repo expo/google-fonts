@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Combo';
+export const __fontFamilyVersion__ = 5;
+
 export const Combo_Regular400 = require('./bb7529647493cbe7db3d0199e9c64a31b084ffe6f9bc8408a5eef9a588daffdd.ttf');

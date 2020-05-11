@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Gravitas One';
+export const __fontFamilyVersion__ = 6;
+
 export const GravitasOne_Regular400 = require('./8173c77c59dd22de492971f099b97bde163e13062c6df365ffe3f201cf4de551.ttf');

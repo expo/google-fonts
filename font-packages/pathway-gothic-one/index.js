@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Pathway Gothic One';
+export const __fontFamilyVersion__ = 5;
+
 export const PathwayGothicOne_Regular400 = require('./39c8099ef615de3477faab7247ffd06193e4c4244406f6a3d888c1e1763a01cd.ttf');

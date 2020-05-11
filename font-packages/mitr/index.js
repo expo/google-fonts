@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Mitr';
+export const __fontFamilyVersion__ = 2;
+
 export const Mitr_ExtraLight200 = require('./13aa43b100ddb2ef3f574409c44d5148c96e262d636030f3546632afc8bec583.ttf');
 export const Mitr_Light300 = require('./42aaeccd38bab09aab541391f181cf90544aed031b28240064e03a597d820aff.ttf');
 export const Mitr_Regular400 = require('./51a838bb86fd8ae3d3b14861b86090b8e590d6cec16828f5ff85cc29e255fdd4.ttf');

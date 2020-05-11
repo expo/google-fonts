@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Vesper Libre';
+export const __fontFamilyVersion__ = 8;
+
 export const VesperLibre_Regular400 = require('./23ebf9650e07e0d9fc46ae2eba26ac2ec4ce96fb1c5dfe8d1e68697caa450075.ttf');
 export const VesperLibre_Medium500 = require('./0d1943717826e25f00193643ca5cef6a8e84d9949f43eea2e7fcbbcf7eac6472.ttf');
 export const VesperLibre_Bold700 = require('./c45aa4f922411d07c89ae4f96d05177e84e280aecdda0fdee999b1a617b4c1ce.ttf');

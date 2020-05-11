@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Hepta Slab';
+export const __fontFamilyVersion__ = 7;
+
 export const HeptaSlab_Thin100 = require('./534d777769f5477f07228b5576ec1d9e5f8524ebb5568ee0c7ead05433221d78.ttf');
 export const HeptaSlab_ExtraLight200 = require('./de95a9d08b1575d9f362c8b8fdd65bd2909ac29ad85189cbcc2d2bb7b79bae55.ttf');
 export const HeptaSlab_Light300 = require('./4cd4b89cf596ab747187626051fcb2da9f1ee5facedc163666b009c58d2e6a4a.ttf');

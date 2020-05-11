@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Sarabun';
+export const __fontFamilyVersion__ = 7;
+
 export const Sarabun_Thin100 = require('./50cf24ee678c36e02b98c19ccc01d8e59c50d00c66e75054e4cca503779d8f37.ttf');
 export const Sarabun_Thin100_Italic = require('./8ddc6bd48ee92ae9672930531c771ff526c5d8f06d26f1abdd8966cb2d563262.ttf');
 export const Sarabun_ExtraLight200 = require('./3d79bab342addcc5613aed52e171c972f57a291ab53a7058d0412e3ade2c009a.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Black And White Picture';
+export const __fontFamilyVersion__ = 4;
+
 export const BlackAndWhitePicture_Regular400 = require('./0c951e047e8f1e152232363c35791b975f78ae96c97bfa6f14634c7a2551970c.ttf');

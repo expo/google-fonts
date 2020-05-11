@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Mouse Memoirs';
+export const __fontFamilyVersion__ = 4;
+
 export const MouseMemoirs_Regular400 = require('./36717824ce8893e8e49e371730b587484db4b095302a60970bffe613c3a81960.ttf');

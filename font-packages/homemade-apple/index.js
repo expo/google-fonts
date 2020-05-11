@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Homemade Apple';
+export const __fontFamilyVersion__ = 6;
+
 export const HomemadeApple_Regular400 = require('./492f1c4f1d496ff595958cd8454693eccded599173fc699c93cb2df8a2561201.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Kumar One Outline';
+export const __fontFamilyVersion__ = 1;
+
 export const KumarOneOutline_Regular400 = require('./b69d95adfdc90ffb8852e1828c7d227219b5374737613f23a88cfbb02439e915.ttf');

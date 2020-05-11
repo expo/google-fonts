@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Assistant';
+export const __fontFamilyVersion__ = 1;
+
 export const Assistant_ExtraLight200 = require('./6f4c276bf1e4d52183015128074de4702a86fc31cce04f575a8ebef54a077c78.ttf');
 export const Assistant_Light300 = require('./ad7ba792736448061fddf24806abe616e89d7a21a00d169ac4bf95db35ffe9cc.ttf');
 export const Assistant_Regular400 = require('./1ffb8d00a2bd6ab725bb34dc8eaf61737481f6b285988332e4f6a4b60279dbde.ttf');

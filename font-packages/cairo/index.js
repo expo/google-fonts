@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Cairo';
+export const __fontFamilyVersion__ = 1;
+
 export const Cairo_ExtraLight200 = require('./4f4138b4fc3c1369eee1151ad813f76e1b371364feb318c2dfed606c6c7a98dc.ttf');
 export const Cairo_Light300 = require('./22d57a326952ad111119348fad278153f66b456e3f1e1b3eba074a4dc167f96e.ttf');
 export const Cairo_Regular400 = require('./1537c4e5a58de46dea37716791ce13157250bce598772e19adbf07abdaa2f5c0.ttf');

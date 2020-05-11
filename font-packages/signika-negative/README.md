@@ -24,7 +24,7 @@ This font family contains [4 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/signika-negative expo-font @use-expo/font
+expo install @expo-google-fonts/signika-negative expo-font
 ```
 
 Now add code like this to your project
@@ -33,12 +33,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   SignikaNegative_Light300,
   SignikaNegative_Regular400,
   SignikaNegative_SemiBold600,
   SignikaNegative_Bold700,
+  useFonts,
 } from '@expo-google-fonts/signika-negative';
 
 export default () => {

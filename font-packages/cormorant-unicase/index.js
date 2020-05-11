@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Cormorant Unicase';
+export const __fontFamilyVersion__ = 5;
+
 export const CormorantUnicase_Light300 = require('./8b2f697aa9071850538a594d14122faff09a953f9e6b7897e5284ae9afe2c2b0.ttf');
 export const CormorantUnicase_Regular400 = require('./a075bd869512a69bf9bfcb4b1987513cf71f5b0f8931adc373783f751c44553a.ttf');
 export const CormorantUnicase_Medium500 = require('./fa07955427124a8c76b2621bceba09805d61cc57efe1c57120f9fd91a46e04ce.ttf');

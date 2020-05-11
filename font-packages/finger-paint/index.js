@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Finger Paint';
+export const __fontFamilyVersion__ = 6;
+
 export const FingerPaint_Regular400 = require('./6ab3ff7f8e0eaf096c590997201b069ff984623d2eae2b71d8712f4a94a504a9.ttf');

@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Averia Serif Libre';
+export const __fontFamilyVersion__ = 5;
+
 export const AveriaSerifLibre_Light300 = require('./605722d0534e8b2a7a4ce36ebc7ecfa14868d5aeae52ba3419e14a19e67c92ba.ttf');
 export const AveriaSerifLibre_Light300_Italic = require('./4b675f9e2f2962fb69b7145f35ea9df241cdc9b91744abeac3cdfbf7aca1740b.ttf');
 export const AveriaSerifLibre_Regular400 = require('./1939fc59e6192c78872b151f71d328c64c84552c1f8f7548f3278d3db023959f.ttf');

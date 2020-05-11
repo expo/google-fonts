@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Kosugi Maru';
+export const __fontFamilyVersion__ = 6;
+
 export const KosugiMaru_Regular400 = require('./9fbe25d62fc496dd41c965a6a410bcb248978277da1dedd4682e2b1d72c4ade9.ttf');

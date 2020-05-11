@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Secular One';
+export const __fontFamilyVersion__ = 1;
+
 export const SecularOne_Regular400 = require('./dd6c129ece769b38daf0095b6545ec239fb57e4a2747ec848b6a49958ff0ffff.ttf');

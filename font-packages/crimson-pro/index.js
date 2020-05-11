@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Crimson Pro';
+export const __fontFamilyVersion__ = 12;
+
 export const CrimsonPro_ExtraLight200 = require('./8b66abfec21e34e91fc61b2ac08084816d4d166259ea2198ed01578a1ac727e5.ttf');
 export const CrimsonPro_Light300 = require('./9abd9060a62aa38f10dc60738f37bada274814485a3b3bef4353cbc2503358cc.ttf');
 export const CrimsonPro_Regular400 = require('./510241ec6793070724a690b137fdfb9f98422a611b8f81c1e6f22d345a0fef65.ttf');

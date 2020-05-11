@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Rasa';
+export const __fontFamilyVersion__ = 2;
+
 export const Rasa_Light300 = require('./6d1458902052379a4c442fe3c08dfb90a878e6187abc480b52afc11943431dd3.ttf');
 export const Rasa_Regular400 = require('./d5a933545a7d1e9a3ce0493c853f75c27dc067506d4c32398c0f724f726435cb.ttf');
 export const Rasa_Medium500 = require('./f5a6e10ca22dc5d39cb49a70330bb3f3b7dc5361feb0b59693284816acf3dc6d.ttf');

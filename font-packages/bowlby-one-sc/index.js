@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Bowlby One SC';
+export const __fontFamilyVersion__ = 8;
+
 export const BowlbyOneSC_Regular400 = require('./e2826dfb2cc015f4d1a83c121524eff701bea716ad41719d21b0baaf0462abae.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Clicker Script';
+export const __fontFamilyVersion__ = 4;
+
 export const ClickerScript_Regular400 = require('./a5d266712bdee3e9dc58039be9fe3d6492b6d9de30e12c387ff7726b7bc43566.ttf');

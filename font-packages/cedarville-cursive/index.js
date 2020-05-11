@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Cedarville Cursive';
+export const __fontFamilyVersion__ = 7;
+
 export const CedarvilleCursive_Regular400 = require('./b1296a081a20bf4a1936ace5eac4d05fa6702cdfaab5f94a5088af4c0aa46c3d.ttf');

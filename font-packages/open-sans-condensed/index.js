@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Open Sans Condensed';
+export const __fontFamilyVersion__ = 14;
+
 export const OpenSansCondensed_Light300 = require('./04a7cf776cec6c53387f15bd8878b365d22ea65c97dfd605c269b3774e4e7ed2.ttf');
 export const OpenSansCondensed_Light300_Italic = require('./c5330d8a82169e940228bf53acb980b56a23fb1f640d6bf8b7e18a8681d67eda.ttf');
 export const OpenSansCondensed_Bold700 = require('./9b8228ed1f9d087708d275dcc32be58269ffaf9cd7f8028db765305347303f88.ttf');

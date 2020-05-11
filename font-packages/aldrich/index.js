@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Aldrich';
+export const __fontFamilyVersion__ = 7;
+
 export const Aldrich_Regular400 = require('./e288c81eacbaee70be6e11a25f4fb3bdaffcc0ea0449f285c94fc558e64335f4.ttf');

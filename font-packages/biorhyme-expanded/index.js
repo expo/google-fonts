@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'BioRhyme Expanded';
+export const __fontFamilyVersion__ = 1;
+
 export const BioRhymeExpanded_ExtraLight200 = require('./7770459b3448470de7eebc842dd6d1b27857480f955caa6fda9114f30f9c487a.ttf');
 export const BioRhymeExpanded_Light300 = require('./564af9bc89e9baac8c99c4a2b2bb1262ed16deaec1971840ab3e348ed0dc8e22.ttf');
 export const BioRhymeExpanded_Regular400 = require('./1fa6003a77f1c41cfe89fc6db7c98358f0e6fa62b61c965e0e1a04ed960601b9.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Lexend Exa';
+export const __fontFamilyVersion__ = 1;
+
 export const LexendExa_Regular400 = require('./fb84184cbd1e9470db5355e5c25309509f5f98bf0676304b47958907ba6f7e12.ttf');

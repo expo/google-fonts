@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Source Code Pro';
+export const __fontFamilyVersion__ = 6;
+
 export const SourceCodePro_ExtraLight200 = require('./5a618360951a8134d26923216c53da2cee51d55e6e2ca0003ecfe111b701bae5.ttf');
 export const SourceCodePro_Light300 = require('./e0184502d4eb4b41dcd3d65fecad4fcf8b6b46f13967b60ac98eedcc43aacb30.ttf');
 export const SourceCodePro_Regular400 = require('./2d1bcd5038af1287746b7b1d1a4db65f091b3e9811428076d43a73121893922d.ttf');

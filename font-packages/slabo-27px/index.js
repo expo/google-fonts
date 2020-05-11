@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Slabo 27px';
+export const __fontFamilyVersion__ = 3;
+
 export const Slabo27px_Regular400 = require('./e451771d704b04c776176b6033f4c66aaab3edf2422d0811687a7f9b53c03486.ttf');

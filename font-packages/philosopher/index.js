@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Philosopher';
+export const __fontFamilyVersion__ = 8;
+
 export const Philosopher_Regular400 = require('./51b0e57bc81490c490b7400858499b5823a13926de953476e8d40730ab9fc02f.ttf');
 export const Philosopher_Regular400_Italic = require('./32aafaf60ca199b7f91291e6aa9e68b91df4b48f53246f454e7eddf8e25ff50c.ttf');
 export const Philosopher_Bold700 = require('./174ba5b59df6e5bdec8e23657ecdf679226b3b6f23f5625fa814540e88b30628.ttf');

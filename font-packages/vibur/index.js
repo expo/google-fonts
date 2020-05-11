@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Vibur';
+export const __fontFamilyVersion__ = 7;
+
 export const Vibur_Regular400 = require('./4a341a2553f7bac9bf3d756c88bdb1a67934839f2a343ef00268f04d641803f8.ttf');

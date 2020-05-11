@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Original Surfer';
+export const __fontFamilyVersion__ = 5;
+
 export const OriginalSurfer_Regular400 = require('./433a93a4934c3d3f80f80041f426946c8347e4e210da65e9a8adff9d70180e23.ttf');

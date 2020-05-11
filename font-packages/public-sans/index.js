@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Public Sans';
+export const __fontFamilyVersion__ = 3;
+
 export const PublicSans_Thin100 = require('./bbeb9408fbfe9d5d9ce8fbafbfc03c6b6cdf568002d0617c5ba2e7a7ed4e2927.ttf');
 export const PublicSans_ExtraLight200 = require('./c5315eae10703301b7f62e88a7de796fcf6d0e22ce0484906b2a75717045d602.ttf');
 export const PublicSans_Light300 = require('./c24444db34cbde1fe26eee9e01a5aeecaa2d5d04d760b016effb1efaaeca1eab.ttf');

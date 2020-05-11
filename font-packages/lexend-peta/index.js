@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Lexend Peta';
+export const __fontFamilyVersion__ = 1;
+
 export const LexendPeta_Regular400 = require('./417f097595c2e66cb6c0ddc8f6add4e4f493b24f53527848dc0d03462e133fd5.ttf');

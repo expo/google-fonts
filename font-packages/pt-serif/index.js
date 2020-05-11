@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'PT Serif';
+export const __fontFamilyVersion__ = 8;
+
 export const PTSerif_Regular400 = require('./77cd8f3a9ae2f3546135a48656a468afd4312d1ebf5720bb967ebe3a43291fa8.ttf');
 export const PTSerif_Regular400_Italic = require('./c623ffd63812daa5b0776e75e7a99de63340eb1fa6d3d5692c27a5fe30e21c22.ttf');
 export const PTSerif_Bold700 = require('./8945a761fd4a69fd6eb9b058e025925dd964c9b2cf5cc02b14290746f6aaf356.ttf');

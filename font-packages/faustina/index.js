@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Faustina';
+export const __fontFamilyVersion__ = 2;
+
 export const Faustina_Regular400 = require('./b83e2bcd1f015e1e288c5870cf0301c94cff5d1d346b1c0b7d0e497ec7165a06.ttf');
 export const Faustina_Regular400_Italic = require('./a7f8c492e8ce7588c67e918c52ae5a4c9517a62c3057c9aaa9f2a2f8bcc1278d.ttf');
 export const Faustina_Medium500 = require('./ced47c330edb05d2c4dc0cfe0e0b69f9b23cfce448a95ab12a7179b3f3e7d8e9.ttf');

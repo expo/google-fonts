@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Ewert';
+export const __fontFamilyVersion__ = 4;
+
 export const Ewert_Regular400 = require('./e2a4aed1fe4d33019eb7c6a9273a251e7f28ac19b2820f61ef61329d32cb89a8.ttf');

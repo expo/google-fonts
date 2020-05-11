@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Cambay';
+export const __fontFamilyVersion__ = 2;
+
 export const Cambay_Regular400 = require('./a7bad4e2ac4cc5bdeef53e890b4b3d52b065fdae8ebe5f754f263384995f7c73.ttf');
 export const Cambay_Regular400_Italic = require('./e821a1eb24db547646223e8b5065d6feeed373e25daf722bd4c3499785d3b6aa.ttf');
 export const Cambay_Bold700 = require('./ece04d3d10726b39914e7a3c3ebbef7ccadcf7a26272fc090c83d3bf7690eea4.ttf');

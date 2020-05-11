@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Coustard';
+export const __fontFamilyVersion__ = 7;
+
 export const Coustard_Regular400 = require('./657fe3ebd0e1b0402731533db6ddbe6120271871430adfff3ea617c35120f166.ttf');
 export const Coustard_Black900 = require('./c9288e8be500e6cb9ea6f0ae05167d9ee149c0d91fc8a422055f396236b1e413.ttf');

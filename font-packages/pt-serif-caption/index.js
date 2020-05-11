@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'PT Serif Caption';
+export const __fontFamilyVersion__ = 8;
+
 export const PTSerifCaption_Regular400 = require('./fa2de071d21315555c75861f438b09fdfc9205ed9845c49d401903c6db245582.ttf');
 export const PTSerifCaption_Regular400_Italic = require('./0d238ee69704d0810493bff87f27c3236c6c9b81abda84fba39091e70f47eb26.ttf');

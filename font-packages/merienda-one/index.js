@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Merienda One';
+export const __fontFamilyVersion__ = 7;
+
 export const MeriendaOne_Regular400 = require('./aa4c2d33606a440380daab12052cc4b38ac64de26f9dc46de18e3405571ea638.ttf');

@@ -24,7 +24,7 @@ This font family contains [4 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/archivo-narrow expo-font @use-expo/font
+expo install @expo-google-fonts/archivo-narrow expo-font
 ```
 
 Now add code like this to your project
@@ -33,12 +33,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   ArchivoNarrow_Regular400,
   ArchivoNarrow_Regular400_Italic,
   ArchivoNarrow_Bold700,
   ArchivoNarrow_Bold700_Italic,
+  useFonts,
 } from '@expo-google-fonts/archivo-narrow';
 
 export default () => {

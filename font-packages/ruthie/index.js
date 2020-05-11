@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Ruthie';
+export const __fontFamilyVersion__ = 6;
+
 export const Ruthie_Regular400 = require('./07b0c223b1890d96133629bd33f84988e27371098aac4a68a738cb05f15ce183.ttf');

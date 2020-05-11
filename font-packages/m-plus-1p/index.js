@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'M PLUS 1p';
+export const __fontFamilyVersion__ = 19;
+
 export const MPLUS1p_Thin100 = require('./0654233f2cc095bd1af48724031070c0b16e3dd46fc5c29bd87070d485b7a366.ttf');
 export const MPLUS1p_Light300 = require('./328d60a811d0715a23a96805dda2004f69c4b0a888dc1711c77a2d589650c97f.ttf');
 export const MPLUS1p_Regular400 = require('./6d33f3ea856c224db5e2d573ab252d85cc66e3d2ec9981d4dded4cb5df17a345.ttf');

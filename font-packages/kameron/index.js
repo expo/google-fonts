@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Kameron';
+export const __fontFamilyVersion__ = 7;
+
 export const Kameron_Regular400 = require('./31d4c66237b8a2353dcb28cc0c0fcf347f10cb20582071c7db1e3d2820bc9d29.ttf');
 export const Kameron_Bold700 = require('./ba1c38d9290bf8209d9ff96941f976a43f44f9bd3eee9b066349fe39d6a0eef6.ttf');

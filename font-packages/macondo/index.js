@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Macondo';
+export const __fontFamilyVersion__ = 5;
+
 export const Macondo_Regular400 = require('./ecbf710a53864dd6307e2422a043a2a6904563df10226e7278fea2ef2d293dbd.ttf');

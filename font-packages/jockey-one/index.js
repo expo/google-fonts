@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Jockey One';
+export const __fontFamilyVersion__ = 6;
+
 export const JockeyOne_Regular400 = require('./cbdbfa4fff4214a6685ff84262303ce8f4c9a4b6e563f149a8cc5322417aae81.ttf');

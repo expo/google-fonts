@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Nanum Brush Script';
+export const __fontFamilyVersion__ = 10;
+
 export const NanumBrushScript_Regular400 = require('./e99eadfe916b8afa1065e368b0c06a725089504ffa9cd2bb1832cbe59ecb4822.ttf');

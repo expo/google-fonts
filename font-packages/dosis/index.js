@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Dosis';
+export const __fontFamilyVersion__ = 6;
+
 export const Dosis_ExtraLight200 = require('./3ae9ee353b3e8df71d17a46208649ec71c145848f8db69eb86b9cc1c129304b7.ttf');
 export const Dosis_Light300 = require('./be02e69501081e964d549ca957d036bbb12e816c1d224d1ce145ca31499bdfa0.ttf');
 export const Dosis_Regular400 = require('./313cd3d73107761779313dba36f6ec6a100a5a4daf06f4b78f8f733538936cdf.ttf');

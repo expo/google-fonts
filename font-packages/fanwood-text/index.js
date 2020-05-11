@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Fanwood Text';
+export const __fontFamilyVersion__ = 6;
+
 export const FanwoodText_Regular400 = require('./37c7865d9942ebc3e421992f87faa2a1c1f686716fd40054035736abd0938f1d.ttf');
 export const FanwoodText_Regular400_Italic = require('./ebb9e6f0a9aad6a9a9a13de40ed43e94061e0aefeb1fc8ab3399b0a3307dfee8.ttf');

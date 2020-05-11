@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Sue Ellen Francisco';
+export const __fontFamilyVersion__ = 7;
+
 export const SueEllenFrancisco_Regular400 = require('./d72aa0c7340b64bd3fc70457dd03d38b35b8cb3fd30f3f1af4a5f9b4bfd870aa.ttf');

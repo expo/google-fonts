@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Leckerli One';
+export const __fontFamilyVersion__ = 7;
+
 export const LeckerliOne_Regular400 = require('./4f4b119a522d79aaa310d37682ccbfd758366df5ab6009b1bd0ff022a5405a5f.ttf');

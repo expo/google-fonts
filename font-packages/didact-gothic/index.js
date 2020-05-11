@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Didact Gothic';
+export const __fontFamilyVersion__ = 10;
+
 export const DidactGothic_Regular400 = require('./c28f009d8ad88ab0414e29aabe1ad9f19a95836e772d9cb369f27a1ee0b23fa0.ttf');

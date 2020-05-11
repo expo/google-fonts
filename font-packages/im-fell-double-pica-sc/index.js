@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'IM Fell Double Pica SC';
+export const __fontFamilyVersion__ = 6;
+
 export const IMFellDoublePicaSC_Regular400 = require('./f63ae624a66cf32943ef34cf81b7d800305ce516f8396bd0b01895abf588d8d6.ttf');

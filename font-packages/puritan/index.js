@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Puritan';
+export const __fontFamilyVersion__ = 8;
+
 export const Puritan_Regular400 = require('./53c4e62f0ae59849064a30afb5f388987e173b8699d99efa7364a1b99c16385d.ttf');
 export const Puritan_Regular400_Italic = require('./28385ca71871b908d353e761320647ac350dc310f04d767c54ffa33c5bb0e846.ttf');
 export const Puritan_Bold700 = require('./4a044a29b77d5907eb6eb71d1e7955016b52b63e928f6a1381bda726cb81317a.ttf');

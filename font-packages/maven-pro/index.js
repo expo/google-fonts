@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Maven Pro';
+export const __fontFamilyVersion__ = 11;
+
 export const MavenPro_Regular400 = require('./20ff29ac0e19858eec2689ee81f18e45489d0afec4b61a21036d0c755edafcd7.ttf');
 export const MavenPro_Medium500 = require('./afd784d77bd20f7e76864636023d94a988f8732c47ec791f79d096b11d1c327c.ttf');
 export const MavenPro_Bold700 = require('./1f1c606af4cb59fd55c5e9d478e3c109eb47ee3c48c458ab10edcbcde15f0562.ttf');

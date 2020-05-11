@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Montaga';
+export const __fontFamilyVersion__ = 4;
+
 export const Montaga_Regular400 = require('./3b97268f12c527fb933009800e8d887c083f48fa733c69dba7961c887909d99e.ttf');

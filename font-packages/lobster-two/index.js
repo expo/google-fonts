@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Lobster Two';
+export const __fontFamilyVersion__ = 9;
+
 export const LobsterTwo_Regular400 = require('./0c7a1501aa183946996d6a6dd00639131356d161f596511cf06339053570e634.ttf');
 export const LobsterTwo_Regular400_Italic = require('./c0dbd5c04e410d8e4da9017651e742b0e62adac50ae9b77ad22cf0407e27e211.ttf');
 export const LobsterTwo_Bold700 = require('./510f984a2bfaf23d533e8c389063fe40f2e0d02c2d16889ff79e565345b3aaa5.ttf');

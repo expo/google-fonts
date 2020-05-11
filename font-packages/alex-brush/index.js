@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Alex Brush';
+export const __fontFamilyVersion__ = 7;
+
 export const AlexBrush_Regular400 = require('./eb8044f112b9878ec59f0825d91a9f011fc4925ce2272737c02ce2be161c3efd.ttf');

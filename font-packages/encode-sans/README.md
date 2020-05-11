@@ -29,7 +29,7 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/encode-sans expo-font @use-expo/font
+expo install @expo-google-fonts/encode-sans expo-font
 ```
 
 Now add code like this to your project
@@ -38,7 +38,6 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   EncodeSans_Thin100,
   EncodeSans_ExtraLight200,
@@ -49,6 +48,7 @@ import {
   EncodeSans_Bold700,
   EncodeSans_ExtraBold800,
   EncodeSans_Black900,
+  useFonts,
 } from '@expo-google-fonts/encode-sans';
 
 export default () => {

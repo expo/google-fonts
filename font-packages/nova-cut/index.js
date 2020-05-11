@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Nova Cut';
+export const __fontFamilyVersion__ = 8;
+
 export const NovaCut_Regular400 = require('./543ab5f33cdf7dc59059344f4a7edc567bd3041f068be2f42c28b47d67dcd3ba.ttf');

@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Yrsa';
+export const __fontFamilyVersion__ = 2;
+
 export const Yrsa_Light300 = require('./b942444580e24561d6008f08b6b3145662d902d140408e9f6c92ee7cd5affa00.ttf');
 export const Yrsa_Regular400 = require('./9782370d37625db345595b8f48ae5156b4c8256cd4867b119af3114faa566686.ttf');
 export const Yrsa_Medium500 = require('./61c4e4c03498db5ec4f926576603b2102fac9f90b73b7aafe7e6ebadc30444b0.ttf');

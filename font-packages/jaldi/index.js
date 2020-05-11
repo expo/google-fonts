@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Jaldi';
+export const __fontFamilyVersion__ = 2;
+
 export const Jaldi_Regular400 = require('./2fd0aecfd94af32615e102201a3d6b70dd7b98a317a4b6457f9d5683435f2680.ttf');
 export const Jaldi_Bold700 = require('./1eb9040b249dbbf98470eca20e05d667c64d16570d20f4f3b5c8082472d03566.ttf');

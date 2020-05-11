@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Coiny';
+export const __fontFamilyVersion__ = 1;
+
 export const Coiny_Regular400 = require('./d7c4ad8ba1a68159f3a01ce26a6ae52110298a54077d3aa35b12d216941a3f28.ttf');

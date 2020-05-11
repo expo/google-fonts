@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Gafata';
+export const __fontFamilyVersion__ = 5;
+
 export const Gafata_Regular400 = require('./d93ec736426526ff4d866b0522a300711a10168b8198ae7985029233601b84ac.ttf');

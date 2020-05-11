@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Joti One';
+export const __fontFamilyVersion__ = 4;
+
 export const JotiOne_Regular400 = require('./8f5feca23a0920be0f78e1eb58c62cdb9ef32b1c4142f6b1ebc3cf13e172683d.ttf');

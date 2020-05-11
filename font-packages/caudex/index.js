@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Caudex';
+export const __fontFamilyVersion__ = 6;
+
 export const Caudex_Regular400 = require('./e0c195632ea06158f87e86ee898119dd8a7f59788999552ed79be77c33c6a726.ttf');
 export const Caudex_Regular400_Italic = require('./53374860983e21bb358d83d1162c824903649ae49f873a963c665b066514bb9d.ttf');
 export const Caudex_Bold700 = require('./09a6db433fd45eb3e1423e9947afe5b766008cc358cb482b42103970fc840676.ttf');

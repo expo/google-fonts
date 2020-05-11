@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Stint Ultra Condensed';
+export const __fontFamilyVersion__ = 5;
+
 export const StintUltraCondensed_Regular400 = require('./feefd36d93b983bb86af74847749eae8e80b528fd8e91dd95e3ec89419bacb1b.ttf');

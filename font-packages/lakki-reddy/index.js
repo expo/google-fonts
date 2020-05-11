@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Lakki Reddy';
+export const __fontFamilyVersion__ = 3;
+
 export const LakkiReddy_Regular400 = require('./7517025d73568d9d811b25e8c5ef20a9f9d94bb816d4f334668f3c2d2830d079.ttf');

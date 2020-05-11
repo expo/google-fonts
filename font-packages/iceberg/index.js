@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Iceberg';
+export const __fontFamilyVersion__ = 4;
+
 export const Iceberg_Regular400 = require('./4863f9363951873a52e866b2ad79c760da5a5c1c076692511a8fae46789aedae.ttf');

@@ -23,7 +23,7 @@ This font family contains [3 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/gudea expo-font @use-expo/font
+expo install @expo-google-fonts/gudea expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
-import { Gudea_Regular400, Gudea_Regular400_Italic, Gudea_Bold700 } from '@expo-google-fonts/gudea';
+import {
+  Gudea_Regular400,
+  Gudea_Regular400_Italic,
+  Gudea_Bold700,
+  useFonts,
+} from '@expo-google-fonts/gudea';
 
 export default () => {
   let [fontsLoaded] = useFonts({

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Russo One';
+export const __fontFamilyVersion__ = 5;
+
 export const RussoOne_Regular400 = require('./42938246c94ba396145f46606ca60fd6409d6626953609dbd587a50757963337.ttf');

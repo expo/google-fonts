@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Raleway';
+export const __fontFamilyVersion__ = 11;
+
 export const Raleway_Thin100 = require('./e8df4e8d960459bd5865f3570b57e6df699c766519716eef5e7875dfc55f60f8.ttf');
 export const Raleway_Thin100_Italic = require('./9593117176336e51cd9d5e6beece2916b11b6dd91127af0ec0e8c61360e1825d.ttf');
 export const Raleway_ExtraLight200 = require('./9fd54bfbbfe5b0f9225c616bfaf9b554e22453bccec74ff721bfa2e156349515.ttf');

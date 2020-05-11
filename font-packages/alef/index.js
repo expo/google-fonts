@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Alef';
+export const __fontFamilyVersion__ = 8;
+
 export const Alef_Regular400 = require('./a50dedb5215d98f65036893675ded42762d4c7bdae624c71adb1ea584f5a1467.ttf');
 export const Alef_Bold700 = require('./acbe7d381fcdbd3bca38351290cba306a1dde6549d74fbdef431ee9fcb60030d.ttf');

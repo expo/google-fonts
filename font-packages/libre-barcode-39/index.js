@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Libre Barcode 39';
+export const __fontFamilyVersion__ = 9;
+
 export const LibreBarcode39_Regular400 = require('./a605309329470cf91b7f9343b36bcc438da6738fec78fce2ac7a62acf989e1c1.ttf');

@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'El Messiri';
+export const __fontFamilyVersion__ = 1;
+
 export const ElMessiri_Regular400 = require('./05a194beec1a2e2d57ac0ee1d517ad0b59142391481adbd18fee77752639ddda.ttf');
 export const ElMessiri_Medium500 = require('./9da80f76bf936a3cccb71afc2d2a95fcb8eb5be79a494c0b44e5e75f61031a05.ttf');
 export const ElMessiri_SemiBold600 = require('./dc6415daf94f76a9dbea542ec17e7df4f5b01a18796c44448bd0c817cd2d433e.ttf');

@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Mina';
+export const __fontFamilyVersion__ = 1;
+
 export const Mina_Regular400 = require('./2cb3c2707dad5e0a5f21dbad8da10b86eb3b1da477394a33f4d47a819fafb82d.ttf');
 export const Mina_Bold700 = require('./7dae008ee6a398a7d7b23f1fbdeeaced41fd8ba3b71cb12b94900ded063f6467.ttf');

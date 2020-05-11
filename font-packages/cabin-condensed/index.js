@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Cabin Condensed';
+export const __fontFamilyVersion__ = 11;
+
 export const CabinCondensed_Regular400 = require('./8864cf658e1904654fb267649af1a35b07c0f9e7b2df523910efcfa047857270.ttf');
 export const CabinCondensed_Medium500 = require('./19d7c8b72085fd1898042b6adfa002bee67aa85565ea042e3383c6d9718262f3.ttf');
 export const CabinCondensed_SemiBold600 = require('./204e4e214a76e3cc970598f75636fbe098a6541146bb02dd3d1ec67c8e155e5b.ttf');

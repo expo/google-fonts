@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Kelly Slab';
+export const __fontFamilyVersion__ = 6;
+
 export const KellySlab_Regular400 = require('./0e2083c69e8813f4eaba66f9dbe4960cd23ce5e098577997c4a3ae8d09c15c31.ttf');

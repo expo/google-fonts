@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Aguafina Script';
+export const __fontFamilyVersion__ = 5;
+
 export const AguafinaScript_Regular400 = require('./282b677fa945b70a3a5a57b8ffb8064638a07feb77edc68cf29591225bc7b5ce.ttf');

@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Trirong';
+export const __fontFamilyVersion__ = 2;
+
 export const Trirong_Thin100 = require('./ebda10c096f251b0f84ce8b6fad4468a087d944c5c45081c09f9b355ed9c2757.ttf');
 export const Trirong_Thin100_Italic = require('./7a42cfb5ac38b434d94f2da531cd684023ef0223664c7a1dcc27c1abbb1da60a.ttf');
 export const Trirong_ExtraLight200 = require('./c24e38979d00ca5cc7b8263089200c8047ff2589fdccff637c44dd6e0ab1f408.ttf');

@@ -26,7 +26,7 @@ This font family contains [6 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/averia-libre expo-font @use-expo/font
+expo install @expo-google-fonts/averia-libre expo-font
 ```
 
 Now add code like this to your project
@@ -35,7 +35,6 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   AveriaLibre_Light300,
   AveriaLibre_Light300_Italic,
@@ -43,6 +42,7 @@ import {
   AveriaLibre_Regular400_Italic,
   AveriaLibre_Bold700,
   AveriaLibre_Bold700_Italic,
+  useFonts,
 } from '@expo-google-fonts/averia-libre';
 
 export default () => {

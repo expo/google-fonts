@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Encode Sans Semi Expanded';
+export const __fontFamilyVersion__ = 2;
+
 export const EncodeSansSemiExpanded_Thin100 = require('./dac238a8febf393531eee30878adc66774dcd33b426136f91db2c3094cdbbc87.ttf');
 export const EncodeSansSemiExpanded_ExtraLight200 = require('./a57cc45a15668d01ed3de253cf2cdf14b05212ccf8f5ed876ecdf23610598f7d.ttf');
 export const EncodeSansSemiExpanded_Light300 = require('./9ce3f3d0f672e4bdcd7688f38c1ba9cb57ed89bab6f5028da4bb87ed3407edd2.ttf');

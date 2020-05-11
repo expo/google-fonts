@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Happy Monkey';
+export const __fontFamilyVersion__ = 5;
+
 export const HappyMonkey_Regular400 = require('./edf47e48fdc5ee842cf7de5d9333a50f1455140283974d5f0585583198b0b994.ttf');

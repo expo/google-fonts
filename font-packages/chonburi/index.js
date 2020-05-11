@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Chonburi';
+export const __fontFamilyVersion__ = 1;
+
 export const Chonburi_Regular400 = require('./b8e4b1d59bd57981915ee60262422c0d7b7bc237ec938d181c684425e608baca.ttf');

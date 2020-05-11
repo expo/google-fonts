@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Waiting for the Sunrise';
+export const __fontFamilyVersion__ = 7;
+
 export const WaitingfortheSunrise_Regular400 = require('./5d952514968d1ce922a541f2099d884967f1970682676c3f1cca1b4668f07ff1.ttf');

@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Niramit';
+export const __fontFamilyVersion__ = 4;
+
 export const Niramit_ExtraLight200 = require('./e92669e514d741863c49ee66189090f4d5dca5b6a9d34ccbe435b2f5af660c42.ttf');
 export const Niramit_ExtraLight200_Italic = require('./d2d4697e15bf89f5f5ef604984ccc6a79f078de6f91e60deae5736de825110bc.ttf');
 export const Niramit_Light300 = require('./cc8b41b318e8ef4a063f6a1d3c4b2b8b07029e70b412f4aff994ee4849efb09c.ttf');

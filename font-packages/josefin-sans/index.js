@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Josefin Sans';
+export const __fontFamilyVersion__ = 9;
+
 export const JosefinSans_Thin100 = require('./d9274027036e4bec6eeac49709c56529144d0714f2d42cfefabb8f29aa669110.ttf');
 export const JosefinSans_Thin100_Italic = require('./fe583724f6b3b6ff7f2a65b872c7a8be86957b1f03d8efb03b7c3a83271d22f0.ttf');
 export const JosefinSans_Light300 = require('./2bfd7038e00c3bcb80df604697efc092891a519557503aab5b119fad6fb79d41.ttf');

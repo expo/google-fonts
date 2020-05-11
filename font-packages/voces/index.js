@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Voces';
+export const __fontFamilyVersion__ = 5;
+
 export const Voces_Regular400 = require('./0be995322d0fd8e055fc6d3cb9352a0c551e91531d41946d20c450fe3e4c20d8.ttf');

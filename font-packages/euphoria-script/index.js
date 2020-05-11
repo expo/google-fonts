@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Euphoria Script';
+export const __fontFamilyVersion__ = 4;
+
 export const EuphoriaScript_Regular400 = require('./49720d65299334ddc97b89311f78ec792b2862791a226a49f7bb5f8e19d709a5.ttf');

@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Rajdhani';
+export const __fontFamilyVersion__ = 6;
+
 export const Rajdhani_Light300 = require('./5d3e322fc971c11dc62d2cb01d49ffb76c16b801c7811493250d84aa8f12fa3f.ttf');
 export const Rajdhani_Regular400 = require('./28d153f34f1ea3bd1abf9d6639f49ee9ee3b8b01badde2e32892146d8196b19a.ttf');
 export const Rajdhani_Medium500 = require('./d0e11c0858bfd9226f322293328602ca2c5a89cec03fd80c333f933e0b26e653.ttf');

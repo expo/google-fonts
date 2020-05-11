@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Overpass Mono';
+export const __fontFamilyVersion__ = 2;
+
 export const OverpassMono_Light300 = require('./a46cc06eb5b5001bdf1404b0e24fb82ee14159aca202af7094984ff4d48896dd.ttf');
 export const OverpassMono_Regular400 = require('./d3a8c0a4613ebae3d21471198e12e57aa70e9f051f7592e3942953e2c36bd190.ttf');
 export const OverpassMono_SemiBold600 = require('./f6b8f8180ef4c0f650402aa53effdd61f2d9771c4973d07f722d14ebd60e59da.ttf');

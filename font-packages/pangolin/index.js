@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Pangolin';
+export const __fontFamilyVersion__ = 2;
+
 export const Pangolin_Regular400 = require('./9da3dcb4b5f7ae5a76923e77c68da25e9539a3dcdcad7fd654387974f9ff89f4.ttf');

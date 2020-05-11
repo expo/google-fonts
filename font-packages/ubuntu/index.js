@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Ubuntu';
+export const __fontFamilyVersion__ = 10;
+
 export const Ubuntu_Light300 = require('./af68436b9e6b56275cecbabf026fbfa760095b5fc054f802c17ae15dcb4cbf18.ttf');
 export const Ubuntu_Light300_Italic = require('./f1fc680395fdc7b33c4b64324bb4e34779fb8acfbb6d18b837932e0b8d1a69ee.ttf');
 export const Ubuntu_Regular400 = require('./69538c1ee708ba76c975ea534b5ea8bd65054114da93581ed279bdedde98986c.ttf');

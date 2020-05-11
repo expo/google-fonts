@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Kanit';
+export const __fontFamilyVersion__ = 2;
+
 export const Kanit_Thin100 = require('./9ae2534d6b4ec69c677d8c2cf336e1ba3c802e9e316c028c99a8db43ebb63f70.ttf');
 export const Kanit_Thin100_Italic = require('./07d136289c506d3788ccbfcdf9e764427270b557b1b601d925bf997d002827ff.ttf');
 export const Kanit_ExtraLight200 = require('./5a7bd784e91a9a006ec021a5f891a29ac3d867878f998bb1c2d7cdeac7dcb6b2.ttf');

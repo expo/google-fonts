@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Prosto One';
+export const __fontFamilyVersion__ = 5;
+
 export const ProstoOne_Regular400 = require('./48e9abcc05d19f1dfd678d55c8747ed931282ea5b332f232e7fe90254af60f9a.ttf');

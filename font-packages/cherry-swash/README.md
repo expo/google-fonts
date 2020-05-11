@@ -22,7 +22,7 @@ This font family contains [2 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/cherry-swash expo-font @use-expo/font
+expo install @expo-google-fonts/cherry-swash expo-font
 ```
 
 Now add code like this to your project
@@ -31,8 +31,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
-import { CherrySwash_Regular400, CherrySwash_Bold700 } from '@expo-google-fonts/cherry-swash';
+import {
+  CherrySwash_Regular400,
+  CherrySwash_Bold700,
+  useFonts,
+} from '@expo-google-fonts/cherry-swash';
 
 export default () => {
   let [fontsLoaded] = useFonts({

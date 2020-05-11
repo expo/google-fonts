@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Advent Pro';
+export const __fontFamilyVersion__ = 5;
+
 export const AdventPro_Thin100 = require('./4041ce69b488624d0653057137ff69ead9c9496be2059ede6a5056fd48780850.ttf');
 export const AdventPro_ExtraLight200 = require('./20f54f798dd883fc2fab8294006f8201f1deed59b0abd0ad6c6864bb0062eb47.ttf');
 export const AdventPro_Light300 = require('./23462d311ba53dbeac614ad5c99742d75264652538c2aaaea50fa3f9a37c1111.ttf');

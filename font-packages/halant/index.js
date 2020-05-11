@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Halant';
+export const __fontFamilyVersion__ = 3;
+
 export const Halant_Light300 = require('./efbf1567d1ee285b609cc33198f6bf85b75ffc137871c0c74b770bda82fe5f96.ttf');
 export const Halant_Regular400 = require('./d2becc2fc9d31bd06f7378b501b26b4eb057167cc3722297588a277f45b05fba.ttf');
 export const Halant_Medium500 = require('./e6e6c9b73832eb91900f4298ec5c6b73e8d537163220299fa6213b8d702b9f37.ttf');

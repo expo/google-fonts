@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Cormorant Garamond';
+export const __fontFamilyVersion__ = 5;
+
 export const CormorantGaramond_Light300 = require('./9e5ae2850e0033754375df527e1bb29ed63bd133553ce65b8d9313dd4cc944f8.ttf');
 export const CormorantGaramond_Light300_Italic = require('./86bc19f83cdf358de6e84a3bdbdc0f24e24d47bbdbf7cc2eac80d7bfe24dfdd4.ttf');
 export const CormorantGaramond_Regular400 = require('./5a2dd210ea12467e5697bb32480d20e0ebfbe2c2af1c64b1679567cf3486a8a5.ttf');

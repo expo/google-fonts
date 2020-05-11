@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Quantico';
+export const __fontFamilyVersion__ = 5;
+
 export const Quantico_Regular400 = require('./c0e68a0bf4434bcaf5078482638325be95f9ff8d23e161320e71396c3bac24db.ttf');
 export const Quantico_Regular400_Italic = require('./8dc51f4e759adff1e4ef04d9489decee6534f253a8c586119e29e6ac5d4ba3e8.ttf');
 export const Quantico_Bold700 = require('./893455159a698723c49ac3c7b21b2eab8d58a8ae07a566c4b1aa1d49d301b100.ttf');

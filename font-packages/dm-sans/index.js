@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'DM Sans';
+export const __fontFamilyVersion__ = 3;
+
 export const DMSans_Regular400 = require('./e518fdb0a5c0ebe0d1d1b02a9025067837e79d235418ab9dc8366e7ce87fad55.ttf');
 export const DMSans_Regular400_Italic = require('./de4a1215c7928ebdd157181021531f87614894038bb9396b05826b7ae9595611.ttf');
 export const DMSans_Medium500 = require('./683cd0ce949642886f9652656cfe66d569a79d1530fcde104214769c266ae121.ttf');

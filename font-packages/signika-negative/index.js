@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Signika Negative';
+export const __fontFamilyVersion__ = 6;
+
 export const SignikaNegative_Light300 = require('./8a98587d6b5889382e0756db0404bae7fab53cd05d1ed3acfe5d2e92ce054710.ttf');
 export const SignikaNegative_Regular400 = require('./4dafecef4dffed68c6467a6368c16342c151a400ebf2e1d10c208843e0f7f4f2.ttf');
 export const SignikaNegative_SemiBold600 = require('./00703f7e2d564d97ed7ae01055939e32779956267e52d2c91697d4c58571d0a3.ttf');

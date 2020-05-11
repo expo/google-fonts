@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Roboto Mono';
+export const __fontFamilyVersion__ = 4;
+
 export const RobotoMono_Thin100 = require('./e54b0e2606a8e454e92c100a791d8b71811e052d42fe4b32896466b8f0be270e.ttf');
 export const RobotoMono_Thin100_Italic = require('./3eb07be624d5ec7a80bcb5820f19fe80008142212ee07cfa2bf9a5b70f94a6a2.ttf');
 export const RobotoMono_Light300 = require('./1c9d3d466aab107a76ff737ac20edaf327476dbcc6c6dbd77a00094bc79727bf.ttf');

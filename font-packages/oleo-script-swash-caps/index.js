@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Oleo Script Swash Caps';
+export const __fontFamilyVersion__ = 4;
+
 export const OleoScriptSwashCaps_Regular400 = require('./9375d47eb832ce8884342c974dccc6d94746d0e57dd79232ee81a5ab8c9d36a5.ttf');
 export const OleoScriptSwashCaps_Bold700 = require('./fefbbb389f88ec3c2fdca446b6cd4543a073c75e48b59a1ca1c1fc03ef8756b1.ttf');

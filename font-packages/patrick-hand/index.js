@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Patrick Hand';
+export const __fontFamilyVersion__ = 10;
+
 export const PatrickHand_Regular400 = require('./b63c9a7041a5fc7005d8f0580dd04bf71c5eed9b4b6d843857ccb8f2485ebbf6.ttf');

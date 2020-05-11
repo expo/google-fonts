@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Athiti';
+export const __fontFamilyVersion__ = 1;
+
 export const Athiti_ExtraLight200 = require('./4abe61baf7f8762b4dcb6b88b0610de73f42b112a793e28b92da163ee7e441d7.ttf');
 export const Athiti_Light300 = require('./f9c6df08ed329fa184304cf4bc64319e7812c62c2ae136dc89cb10a5d5c35018.ttf');
 export const Athiti_Regular400 = require('./4559ae55fe1020c88dc144ae60afba5e282fcd3aa1c5107292df173d42135806.ttf');

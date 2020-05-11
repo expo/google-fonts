@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Nova Mono';
+export const __fontFamilyVersion__ = 7;
+
 export const NovaMono_Regular400 = require('./b8d5ca79e024fdc4cd75176241d8d2b12f485ddee89219d04d8210d4f53e8919.ttf');

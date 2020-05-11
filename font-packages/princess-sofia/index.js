@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Princess Sofia';
+export const __fontFamilyVersion__ = 4;
+
 export const PrincessSofia_Regular400 = require('./9f20c793c38b666148e6b2cb5b5303d48501b0f54d45aac73f3b59a495c7cdc0.ttf');

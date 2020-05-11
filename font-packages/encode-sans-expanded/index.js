@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Encode Sans Expanded';
+export const __fontFamilyVersion__ = 2;
+
 export const EncodeSansExpanded_Thin100 = require('./380345d9f11a5d51121f04ec7692992b4393552df2a3a7d880f4fee2445141d0.ttf');
 export const EncodeSansExpanded_ExtraLight200 = require('./4a7de0181c2afd610c6c4f4cdd0c1b277e273ce075ebc1aeac436fad20e45419.ttf');
 export const EncodeSansExpanded_Light300 = require('./9b50fe9a059788e12206f492db451f122f3ae30e6b8aa5944b51f4fa9b128373.ttf');

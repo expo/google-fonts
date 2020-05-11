@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Seaweed Script';
+export const __fontFamilyVersion__ = 4;
+
 export const SeaweedScript_Regular400 = require('./6a7c62dc8a68c25b3dda440a08e1f3087e28832110098b91b4c412a906ebafa2.ttf');

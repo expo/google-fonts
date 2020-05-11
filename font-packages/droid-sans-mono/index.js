@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Droid Sans Mono';
+export const __fontFamilyVersion__ = 7;
+
 export const DroidSansMono_Regular400 = require('./9dedfe943434b0c1c69af3c64930ea43797584f7c25bfe1bafe167c5b9ed0909.ttf');

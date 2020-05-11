@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'New Rocker';
+export const __fontFamilyVersion__ = 5;
+
 export const NewRocker_Regular400 = require('./20dd1e4e2d3c0003707b649a59ebb5a729e108cc20929f1a1c06bb03319b07d7.ttf');

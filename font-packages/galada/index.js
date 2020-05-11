@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Galada';
+export const __fontFamilyVersion__ = 1;
+
 export const Galada_Regular400 = require('./51eded8448fda4469fa2bddc7f049589ba69c75270cdf61adabbe4453abc8728.ttf');

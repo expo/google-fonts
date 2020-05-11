@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Sulphur Point';
+export const __fontFamilyVersion__ = 1;
+
 export const SulphurPoint_Light300 = require('./a21388d3a52630430a38cfb9e7aefbfa4653889b768e5fdc07c3eaa76c4bc5f0.ttf');
 export const SulphurPoint_Regular400 = require('./fd7664cb5a15da70be5d1769533c9cfa5abe937f64ce7bc3cf0fd9e155151280.ttf');
 export const SulphurPoint_Bold700 = require('./27c023fb553e5fa85d985bf1965ac74cdc7ca09e715c656f8dfe82a44c53f18d.ttf');

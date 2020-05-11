@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Lato';
+export const __fontFamilyVersion__ = 13;
+
 export const Lato_Thin100 = require('./2e734a39ad0b4a1dffd327f552cce678e867791007200be49b6a93a6c7c71b27.ttf');
 export const Lato_Thin100_Italic = require('./00d4076b836620336e608f16588994045e53f8aca14d9e430205db56649a8a55.ttf');
 export const Lato_Light300 = require('./9b25850654f3dd59daf526a3d63dcca1c435e231c9fa2dd949ccde9cea994366.ttf');

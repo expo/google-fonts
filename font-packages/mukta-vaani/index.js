@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Mukta Vaani';
+export const __fontFamilyVersion__ = 4;
+
 export const MuktaVaani_ExtraLight200 = require('./29b1cbb5d158be22b06c5c6af360d55da720b6c8a7b9b218dd184cbfc2a97885.ttf');
 export const MuktaVaani_Light300 = require('./b273ecb298d23bd198fdcf92d8137f3bb392abc1843e055c814580f254f3a4d2.ttf');
 export const MuktaVaani_Regular400 = require('./89cee2e2edc87643ff46594bc56da0b32e9f4fd9acb8b87979dda5d4da2bccb6.ttf');

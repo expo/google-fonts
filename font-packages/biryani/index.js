@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Biryani';
+export const __fontFamilyVersion__ = 2;
+
 export const Biryani_ExtraLight200 = require('./f65303a20787e99a61c757c6e4cbc9ee68af544a375dac932049def734163642.ttf');
 export const Biryani_Light300 = require('./842f2d86cd486de76ca080714383fb99a105dfb85b3bae4360d00e8ac8db8c9f.ttf');
 export const Biryani_Regular400 = require('./16e70205340aba8294e2da2cc8581ec3c5fb3f2af846d51a3de360f447d6f254.ttf');

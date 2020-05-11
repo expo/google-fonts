@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Overlock';
+export const __fontFamilyVersion__ = 6;
+
 export const Overlock_Regular400 = require('./f4eb336168d4c74d8a4795ef601c2c88a8c6e58cc2029bb029abde86dba8de8d.ttf');
 export const Overlock_Regular400_Italic = require('./862e0a21cd810bed2e0c1809a8799cab17a8a9c3a1b24486e797286d12bd47e0.ttf');
 export const Overlock_Bold700 = require('./c181ce17a8b786d224bdfb18e0b0fd345243fcdf4fcdd4a301a6b68c6898e1bc.ttf');

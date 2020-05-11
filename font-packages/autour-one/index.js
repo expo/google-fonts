@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Autour One';
+export const __fontFamilyVersion__ = 5;
+
 export const AutourOne_Regular400 = require('./ee63c9c20873c21ac935c1493e94bb24b9dc9782f63d01761b54dfedf4b3972c.ttf');

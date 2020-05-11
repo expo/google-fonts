@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Staatliches';
+export const __fontFamilyVersion__ = 3;
+
 export const Staatliches_Regular400 = require('./2ae636039aa5e081cbad2b79ad512682296ab9af1a36078372db12f68f540ab8.ttf');

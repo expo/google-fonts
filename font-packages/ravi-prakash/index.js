@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Ravi Prakash';
+export const __fontFamilyVersion__ = 3;
+
 export const RaviPrakash_Regular400 = require('./e1c97910a94c8297b0463611bff91a4178d5e555acd6915846dc0d34b7da5221.ttf');

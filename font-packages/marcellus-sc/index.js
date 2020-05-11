@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Marcellus SC';
+export const __fontFamilyVersion__ = 4;
+
 export const MarcellusSC_Regular400 = require('./7c5ce48eb9c8ceab009d792056be549983c1b1322fca2784a6e75e7579b347f9.ttf');

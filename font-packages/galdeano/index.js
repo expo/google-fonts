@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Galdeano';
+export const __fontFamilyVersion__ = 6;
+
 export const Galdeano_Regular400 = require('./854bd50aee5dea55f44b1b53ec61e1810043d0a16cdc4adaf2cd764a30bb3424.ttf');

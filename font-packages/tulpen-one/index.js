@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Tulpen One';
+export const __fontFamilyVersion__ = 6;
+
 export const TulpenOne_Regular400 = require('./a7952e8a169708673ce2f03a77306fa166fa25d0f8475c26ea3cf055d955577c.ttf');

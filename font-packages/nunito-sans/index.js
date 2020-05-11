@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Nunito Sans';
+export const __fontFamilyVersion__ = 2;
+
 export const NunitoSans_ExtraLight200 = require('./70c2474c36bf599083e387d302c27f28e5439ccd1d15425222ba9855b31f6e11.ttf');
 export const NunitoSans_ExtraLight200_Italic = require('./c77baab8ad61508949ffaf4c0fc2381d7f31ddc2f12f24bd32fda15d0f02970a.ttf');
 export const NunitoSans_Light300 = require('./5af44ca8126245c16771271ce081fc4c5f5801d190ca549007575c51ec1c91da.ttf');

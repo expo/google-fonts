@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Fondamento';
+export const __fontFamilyVersion__ = 6;
+
 export const Fondamento_Regular400 = require('./75f9d66c336050a69b4366a5bd1cd8d8a0a5b7338dddd16b9af1f679ed3f6543.ttf');
 export const Fondamento_Regular400_Italic = require('./78976bc375126e59b80ff99b8d26195e4332d5cc86505149fc21d183b60e8340.ttf');

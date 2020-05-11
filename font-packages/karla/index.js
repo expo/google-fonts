@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Karla';
+export const __fontFamilyVersion__ = 5;
+
 export const Karla_Regular400 = require('./6f59c39b7fe5470c4c19a0bd67174cb94cdbe2053382046ea00b00fbfd5008a7.ttf');
 export const Karla_Regular400_Italic = require('./8dfdedc9371e4b6c128ba66b488cc38a94142de7a6aec5633026651dbbe7fd50.ttf');
 export const Karla_Bold700 = require('./60f1379da84423da4c84a9d3ad1a1293ce82daf3c8337c5f3d027e5e0aa892c3.ttf');

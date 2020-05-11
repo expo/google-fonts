@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Contrail One';
+export const __fontFamilyVersion__ = 6;
+
 export const ContrailOne_Regular400 = require('./51cdbe97cef3cc835b94974aeff5d8805b5d25b1904ad5355836afe27b0cc199.ttf');

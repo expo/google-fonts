@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Mukta';
+export const __fontFamilyVersion__ = 5;
+
 export const Mukta_ExtraLight200 = require('./4a09d53371d63ff1a2007025ba620e2d49a10d6fa1cfd9771079b881fb10260b.ttf');
 export const Mukta_Light300 = require('./afd7468706fa0ed52e0b848541b4e7443296d0e40213e7903e1d85de5b78c259.ttf');
 export const Mukta_Regular400 = require('./7a26594f60f0a156f11685565fac877993f2081741d7eafc7a67d82010f730f8.ttf');

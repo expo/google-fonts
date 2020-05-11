@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Zilla Slab';
+export const __fontFamilyVersion__ = 3;
+
 export const ZillaSlab_Light300 = require('./37849ab854bf1dfd4a6d1cf5fe02365f214a0b5230a2473ddba5beea422d42c1.ttf');
 export const ZillaSlab_Light300_Italic = require('./f805ebf60f65467cf901f63c9e81742e68857ccd9321f154a664dc86e4f74d04.ttf');
 export const ZillaSlab_Regular400 = require('./6800e794aef26166782eccbaea44836363524c049b943e1ff5e7f3c662ee15db.ttf');

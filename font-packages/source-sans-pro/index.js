@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Source Sans Pro';
+export const __fontFamilyVersion__ = 10;
+
 export const SourceSansPro_ExtraLight200 = require('./069aaad5d271d9417c8b97f8312f686cf5a9a41a8e3644b572c60c8e176ed7e0.ttf');
 export const SourceSansPro_ExtraLight200_Italic = require('./1538944579d3bc333bfe34ed45c1db572897fcf695af75f4e45ef5ac42c3aa12.ttf');
 export const SourceSansPro_Light300 = require('./bb276921895494650544883e21f7d2bc91ec918522ac3d355582b0cd472592cc.ttf');

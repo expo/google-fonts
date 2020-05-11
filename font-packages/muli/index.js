@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Muli';
+export const __fontFamilyVersion__ = 10;
+
 export const Muli_ExtraLight200 = require('./dbcba4190351f997830d7652727c7f42e0c882f325d1f75ba8a3c606f8ab0e23.ttf');
 export const Muli_ExtraLight200_Italic = require('./939afc08c356b9f83c67ee2b78dec42c2f7e1eed1ade0be8b8fc1095d1429b04.ttf');
 export const Muli_Light300 = require('./5de108957fcdaef883f06a6d0852f415189779437851b0d6d7abb06c9b717a86.ttf');

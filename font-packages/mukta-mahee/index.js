@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Mukta Mahee';
+export const __fontFamilyVersion__ = 2;
+
 export const MuktaMahee_ExtraLight200 = require('./deb2926281b06e4d02371cd3f6f4883d13a38514549e581c6269cb16250c5a63.ttf');
 export const MuktaMahee_Light300 = require('./448813ce747d7ccc8e7b380c48932fe537454f9a86ac18052fa515874298334e.ttf');
 export const MuktaMahee_Regular400 = require('./e185695b95ca5300e131bf6cf64a2442b7517874432a1a82f968ee61ed116717.ttf');

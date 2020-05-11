@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Krona One';
+export const __fontFamilyVersion__ = 4;
+
 export const KronaOne_Regular400 = require('./c3051123d5b341e07e0a0c83f46022f8c16edd2373a7405e1857ddbf3ac95132.ttf');

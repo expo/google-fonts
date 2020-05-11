@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Lemonada';
+export const __fontFamilyVersion__ = 2;
+
 export const Lemonada_Light300 = require('./cd1018b5355f76f3e9ff9d859172bbccef3a0e0bb0b6956ed913a2edba4e9673.ttf');
 export const Lemonada_Regular400 = require('./6c9760a51ed4b78cf2a172836b2cbc10f540963fdcaf88ef76d10cd4559ee07e.ttf');
 export const Lemonada_SemiBold600 = require('./b17674113757a97537383dc22f4c28496ce5d1fc8274386430fd9d602216a6a7.ttf');

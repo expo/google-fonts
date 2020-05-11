@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Sen';
+export const __fontFamilyVersion__ = 1;
+
 export const Sen_Regular400 = require('./74c43e6590cf290828c5cfbeac6dfeecfe47f48d77d71385189eedc28c93bd7d.ttf');
 export const Sen_Bold700 = require('./384267b011f455064f728397ef7bf6303e94e62dd85613372ca7dcc2add6eb0a.ttf');
 export const Sen_ExtraBold800 = require('./709f63ed575896ba15fe606abd291ee16ebdba1d773b8df284f0c0ec5e6985e5.ttf');

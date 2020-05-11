@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Overlock SC';
+export const __fontFamilyVersion__ = 5;
+
 export const OverlockSC_Regular400 = require('./3d11bc0fe1ba6d164281473c9b2a0321ffa27975909e1a6ce39c31f5d16b2372.ttf');

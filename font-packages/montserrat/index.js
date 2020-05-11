@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Montserrat';
+export const __fontFamilyVersion__ = 10;
+
 export const Montserrat_Thin100 = require('./13b843ab4d5acd6d99d06a88bbc492bd3ffb0d55b01f159c34a0a6237cb2f148.ttf');
 export const Montserrat_Thin100_Italic = require('./282f82e77ce6ec450987922f6c8c55456bd826c8a1557a007adeb4c460c6ce27.ttf');
 export const Montserrat_ExtraLight200 = require('./b058309166a4bdbc1e36f0f4ca0b8349e9705f457bc71a190e34624de2062455.ttf');

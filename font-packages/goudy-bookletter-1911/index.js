@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Goudy Bookletter 1911';
+export const __fontFamilyVersion__ = 6;
+
 export const GoudyBookletter1911_Regular400 = require('./a4ea1fd345de7df9251d754f6ecc38147180ed991b78a0979f3ec409ee987e8b.ttf');

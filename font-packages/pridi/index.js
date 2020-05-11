@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Pridi';
+export const __fontFamilyVersion__ = 2;
+
 export const Pridi_ExtraLight200 = require('./25767951345549f712ecc99e7f7e0ed309d7e3b707e8f82ac578dea2843ee338.ttf');
 export const Pridi_Light300 = require('./418f1e97f68102aa823ef64c5f96fbcec3fb67597331f6b65bbff28c82031fed.ttf');
 export const Pridi_Regular400 = require('./33f3b1e354916fe8ce1a179c631238fdc60f52a959f39a02efbd3f8023bfbbda.ttf');

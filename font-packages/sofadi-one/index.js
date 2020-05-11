@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Sofadi One';
+export const __fontFamilyVersion__ = 5;
+
 export const SofadiOne_Regular400 = require('./bd2ee7258a722de3e36e84a9aadf3edfe4b91221f382e3e5bbe75b786119526f.ttf');

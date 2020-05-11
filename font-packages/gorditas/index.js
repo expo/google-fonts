@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Gorditas';
+export const __fontFamilyVersion__ = 4;
+
 export const Gorditas_Regular400 = require('./987a5551dac8207ac89158c984bb117eac9569a4def85c67405a6f7ee656ca7b.ttf');
 export const Gorditas_Bold700 = require('./1a73ab190434815fb46d5c9f8095a8d40543c248bd203391f3e120aebb2c223e.ttf');

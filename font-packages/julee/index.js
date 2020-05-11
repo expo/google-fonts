@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Julee';
+export const __fontFamilyVersion__ = 6;
+
 export const Julee_Regular400 = require('./3f334d6179a0a109566471f8a12eb16eb9b7ce8b2fb4ae975450fc8a2dd71358.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Miss Fajardose';
+export const __fontFamilyVersion__ = 6;
+
 export const MissFajardose_Regular400 = require('./8de81a59ca34a15be7f6749a4f5247486c41ce79afb9b16e4212d54c0e5d9a89.ttf');

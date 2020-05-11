@@ -30,7 +30,7 @@ This font family contains [10 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/rubik expo-font @use-expo/font
+expo install @expo-google-fonts/rubik expo-font
 ```
 
 Now add code like this to your project
@@ -39,7 +39,6 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   Rubik_Light300,
   Rubik_Light300_Italic,
@@ -51,6 +50,7 @@ import {
   Rubik_Bold700_Italic,
   Rubik_Black900,
   Rubik_Black900_Italic,
+  useFonts,
 } from '@expo-google-fonts/rubik';
 
 export default () => {

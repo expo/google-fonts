@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Fruktur';
+export const __fontFamilyVersion__ = 9;
+
 export const Fruktur_Regular400 = require('./78b40ffd5e4efdcbad2cda23700072933938f41123f3149b98ceef2c1abdea2e.ttf');

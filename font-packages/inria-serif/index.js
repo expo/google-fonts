@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Inria Serif';
+export const __fontFamilyVersion__ = 1;
+
 export const InriaSerif_Light300 = require('./843b3e9e758e66cd88535ad2c67fba727e83e342a871227e9d6dd1640acbd496.ttf');
 export const InriaSerif_Light300_Italic = require('./f4537cff635316910c2b9f1449b29caaa2d9aaf852dc13bd2d82adc9070e861d.ttf');
 export const InriaSerif_Regular400 = require('./3e86dfe8f6fc1e2431b0a39040b2dc845fe91b448d1a75733f8a2e1d8dd54586.ttf');

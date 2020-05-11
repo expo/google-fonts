@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Kodchasan';
+export const __fontFamilyVersion__ = 3;
+
 export const Kodchasan_ExtraLight200 = require('./2edcba243e7c1435577d6a15a666013f9b4f4db824a08ac150024e2000e4b7de.ttf');
 export const Kodchasan_ExtraLight200_Italic = require('./6dabeb02077bcb1ee80b8aa519c66632dc2429a3cd60c6cabd5f91154288b103.ttf');
 export const Kodchasan_Light300 = require('./6eb43574315a2c2b393aa7ca05550b9b578bddd384857e454e5fbe82b515bfea.ttf');

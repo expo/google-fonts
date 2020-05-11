@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Mr Dafoe';
+export const __fontFamilyVersion__ = 5;
+
 export const MrDafoe_Regular400 = require('./7130e498cceb99869e8233972404152d7f191ca5b5e37435cbd7b31758dec294.ttf');

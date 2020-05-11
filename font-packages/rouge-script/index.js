@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Rouge Script';
+export const __fontFamilyVersion__ = 5;
+
 export const RougeScript_Regular400 = require('./fda390dca3b917e1245ea6c06da950ec2a4d3ee0f5b6d3c128c0049f2a6bc5bd.ttf');

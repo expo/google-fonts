@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Martel';
+export const __fontFamilyVersion__ = 1;
+
 export const Martel_ExtraLight200 = require('./c4024da71647bc66c6880037b41d29ad5ae7b5426518ad225ee14562d6dae75a.ttf');
 export const Martel_Light300 = require('./138cff935a5284819d91b6908fed6fc1cb770eddf8d812c17ef1dc6092010fb9.ttf');
 export const Martel_Regular400 = require('./0bd68a5be6ee9107bc21ade86bd0199d47d96c7895a7a1c2c3080377779b268a.ttf');

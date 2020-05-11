@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Enriqueta';
+export const __fontFamilyVersion__ = 5;
+
 export const Enriqueta_Regular400 = require('./8efdf359579cbd9731b621eb32ddd55b3311bb4f3efe2479e1b87a731deb2b3f.ttf');
 export const Enriqueta_Bold700 = require('./75092b77ab687551bb7a93707771fa18a40ebfe0621befe7dbaca438b8a8c954.ttf');

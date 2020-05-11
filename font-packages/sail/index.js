@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Sail';
+export const __fontFamilyVersion__ = 7;
+
 export const Sail_Regular400 = require('./448cb365963b156da5ce3bb2b69bd8c6837dfd0a2beb5f00d831143b1910ec6e.ttf');

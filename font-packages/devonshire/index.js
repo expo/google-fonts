@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Devonshire';
+export const __fontFamilyVersion__ = 5;
+
 export const Devonshire_Regular400 = require('./c62bc196f0a12683281e3842a99600f4f4755582173bca74502c02f9cf997854.ttf');

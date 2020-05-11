@@ -26,7 +26,7 @@ This font family contains [6 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/playfair-display expo-font @use-expo/font
+expo install @expo-google-fonts/playfair-display expo-font
 ```
 
 Now add code like this to your project
@@ -35,7 +35,6 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   PlayfairDisplay_Regular400,
   PlayfairDisplay_Regular400_Italic,
@@ -43,6 +42,7 @@ import {
   PlayfairDisplay_Bold700_Italic,
   PlayfairDisplay_Black900,
   PlayfairDisplay_Black900_Italic,
+  useFonts,
 } from '@expo-google-fonts/playfair-display';
 
 export default () => {

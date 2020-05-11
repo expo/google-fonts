@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Odibee Sans';
+export const __fontFamilyVersion__ = 1;
+
 export const OdibeeSans_Regular400 = require('./60c83726ff6c690c3a0e1bcdbb9ff0e6b85667b08a959d6fcc925159de6c5122.ttf');

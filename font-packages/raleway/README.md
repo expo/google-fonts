@@ -38,7 +38,7 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/raleway expo-font @use-expo/font
+expo install @expo-google-fonts/raleway expo-font
 ```
 
 Now add code like this to your project
@@ -47,7 +47,6 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   Raleway_Thin100,
   Raleway_Thin100_Italic,
@@ -67,6 +66,7 @@ import {
   Raleway_ExtraBold800_Italic,
   Raleway_Black900,
   Raleway_Black900_Italic,
+  useFonts,
 } from '@expo-google-fonts/raleway';
 
 export default () => {

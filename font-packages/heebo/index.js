@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Heebo';
+export const __fontFamilyVersion__ = 2;
+
 export const Heebo_Thin100 = require('./2f2d859884539805a307db5a1953174f56bbb1e6903e915be95fe2a03d9ccacf.ttf');
 export const Heebo_Light300 = require('./eca72d49e0e063205daeaedb86fcdfc0cc36c5aaeb2d564ace316302e6ae62d9.ttf');
 export const Heebo_Regular400 = require('./afb3fdd559b309c81c88a054148d94587299a397f1e8a3798cfb7cc2d485369c.ttf');

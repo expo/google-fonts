@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Sarina';
+export const __fontFamilyVersion__ = 5;
+
 export const Sarina_Regular400 = require('./e8cf41d2055d00dcd843e227fa52df85c9770e93179c0cec39909e4fccfc2dbf.ttf');

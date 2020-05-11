@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Vollkorn';
+export const __fontFamilyVersion__ = 8;
+
 export const Vollkorn_Regular400 = require('./9fd84335b1beb10505c201815682f7b543aa429a5a909e8b2126f15d36a0705a.ttf');
 export const Vollkorn_Regular400_Italic = require('./784ba33f30493ef78ca0217d7f6c243c8bf7bec2cd1b9c4d813af99941bf730e.ttf');
 export const Vollkorn_SemiBold600 = require('./9d702c22f1d2ea4a1521efff825d5c362adca54b6fbe2343ab2ed6b7e2119610.ttf');

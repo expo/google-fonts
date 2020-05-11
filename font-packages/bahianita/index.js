@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Bahianita';
+export const __fontFamilyVersion__ = 2;
+
 export const Bahianita_Regular400 = require('./8eae7d3828ad86d4af376a41fb9bd577433f7b9acf6f561f8c3383bf8f37224b.ttf');

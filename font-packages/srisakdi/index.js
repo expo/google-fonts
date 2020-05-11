@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Srisakdi';
+export const __fontFamilyVersion__ = 3;
+
 export const Srisakdi_Regular400 = require('./5b078682ce7a5aa20cc137b975bd70e97752800f9ba9fc1761c050ef3bffc84a.ttf');
 export const Srisakdi_Bold700 = require('./a3084b442fdea4ccce8907fe71e60006e0bcd2b686cd8c5d2c572d0483a1e27a.ttf');

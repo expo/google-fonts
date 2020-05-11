@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Average Sans';
+export const __fontFamilyVersion__ = 4;
+
 export const AverageSans_Regular400 = require('./defa6f6e46057de37a3b075c74765ba7cd6a46e0ac756e83f454dfb8b1afa95c.ttf');

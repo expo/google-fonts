@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Oswald';
+export const __fontFamilyVersion__ = 16;
+
 export const Oswald_ExtraLight200 = require('./73cf9867fcced84ac0fd26238bf74e4e1f69dcbefc5ff327c2a69f6c5c107e5d.ttf');
 export const Oswald_Light300 = require('./f10d40bae3fb58ed7a554af7cb46beca6d4f2866de12223b8e349f1b30c76968.ttf');
 export const Oswald_Regular400 = require('./9dc4929f8d8935621ca4717817eb3167fc881d03d496c6dca51ff292f730c873.ttf');

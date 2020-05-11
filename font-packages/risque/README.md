@@ -21,7 +21,7 @@ This font family contains [1 style](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/risque expo-font @use-expo/font
+expo install @expo-google-fonts/risque expo-font
 ```
 
 Now add code like this to your project
@@ -30,8 +30,7 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
-import { Risque_Regular400 } from '@expo-google-fonts/risque';
+import { Risque_Regular400, useFonts } from '@expo-google-fonts/risque';
 
 export default () => {
   let [fontsLoaded] = useFonts({

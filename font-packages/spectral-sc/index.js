@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Spectral SC';
+export const __fontFamilyVersion__ = 2;
+
 export const SpectralSC_ExtraLight200 = require('./63d4dd9a1b6ca94347d9be458d3d3f27437804fcdcf96de19115ce63eab80e09.ttf');
 export const SpectralSC_ExtraLight200_Italic = require('./1940514dc53b85d4d87e4f9ea64470eb98c107c053377538d63a88cd7f3c90e5.ttf');
 export const SpectralSC_Light300 = require('./891b1d15d1fd0adffff4ab8a71237e846a7facbe29b6fa94e95a2e2125a162b0.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Spicy Rice';
+export const __fontFamilyVersion__ = 5;
+
 export const SpicyRice_Regular400 = require('./e097f53ad6ba5f9e022be6b68002e3d8ccd021b1b340e077113c6d537de3ab75.ttf');

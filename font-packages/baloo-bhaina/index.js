@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Baloo Bhaina';
+export const __fontFamilyVersion__ = 1;
+
 export const BalooBhaina_Regular400 = require('./86bbf2a9f2b3936c4b1907de7136a4ca0f71efacfe22b7a6fa1b8a8a81f86282.ttf');

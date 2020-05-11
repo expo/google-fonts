@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Alike';
+export const __fontFamilyVersion__ = 9;
+
 export const Alike_Regular400 = require('./b9683edf916072397bd15b9b312ff78533f85b4ac5598b5867733fb5670ed534.ttf');

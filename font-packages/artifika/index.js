@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Artifika';
+export const __fontFamilyVersion__ = 6;
+
 export const Artifika_Regular400 = require('./a0d399a0a07f993bcb6bdd075a4e0f6ae155d222d230710b94d48933e8470dbf.ttf');

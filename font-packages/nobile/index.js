@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Nobile';
+export const __fontFamilyVersion__ = 7;
+
 export const Nobile_Regular400 = require('./d0fcaab1c3dc981d4dcbe2840d5a12039de03b68f4f2736ac648e6eb339249c1.ttf');
 export const Nobile_Regular400_Italic = require('./88fda8926ed6fdf634aeaf690e2d21e66e8e88231993df94bf3b2359a617491b.ttf');
 export const Nobile_Bold700 = require('./809ce5e05bb84a8872fd7ec295e71892fab43593a18179bb43c2a0f94cca53d2.ttf');

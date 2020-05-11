@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Rosario';
+export const __fontFamilyVersion__ = 11;
+
 export const Rosario_Regular400 = require('./dc6413573a989dcba9ee4d0b7670f9eb53c458ddefc205ef6e0bd1e1c0be395e.ttf');
 export const Rosario_Regular400_Italic = require('./f099b91c7f453830c2471e0be3a576f1f58943f343e98b2d994a8f195364e51f.ttf');
 export const Rosario_Bold700 = require('./eba2172f0e05afe4e99a14d3a265d3f334e6110105c10842f43387dc99341df6.ttf');

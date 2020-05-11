@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Cantata One';
+export const __fontFamilyVersion__ = 6;
+
 export const CantataOne_Regular400 = require('./b58597daf95866fac678391238aefbae4bc3e31e826a3b85a2c749c3844a4dfe.ttf');

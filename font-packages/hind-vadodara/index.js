@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Hind Vadodara';
+export const __fontFamilyVersion__ = 3;
+
 export const HindVadodara_Light300 = require('./28ad92a17d66f3a0995bb68875c29dba3cdaf9fb43feb40a882e2eb2638b7d0e.ttf');
 export const HindVadodara_Regular400 = require('./9ceba975d8428bc0815764806b013c8ab2629dd726f64eedc432d9089567ba31.ttf');
 export const HindVadodara_Medium500 = require('./99808cdfa62f14d0fb695cf7a37fd7987ec1f14b71dfd11d87f428432e5641c7.ttf');

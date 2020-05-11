@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Rosarivo';
+export const __fontFamilyVersion__ = 4;
+
 export const Rosarivo_Regular400 = require('./d5878b2fc902263df1fa49b327526cf9d20d935600e9d19b05ed00453639dd2e.ttf');
 export const Rosarivo_Regular400_Italic = require('./0decb12337d01f7da972a8999c759b44d150a6b4da6f78459c1fc7732df0e5ea.ttf');

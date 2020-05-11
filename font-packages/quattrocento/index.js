@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Quattrocento';
+export const __fontFamilyVersion__ = 8;
+
 export const Quattrocento_Regular400 = require('./5889732ed96c5175bebb886a2f99f90cbf93d54ad643f7cf5376b4532c385aaa.ttf');
 export const Quattrocento_Bold700 = require('./72919cef5349b9fa016e032e20becd479cf50e5b1a159f0b68747631e333ae6c.ttf');

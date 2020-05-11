@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Arsenal';
+export const __fontFamilyVersion__ = 1;
+
 export const Arsenal_Regular400 = require('./7b13a735c3c27289a74f4e934b380f078f89568b2633c5d8386e97a97d46158c.ttf');
 export const Arsenal_Regular400_Italic = require('./f687cc6b9b17ac45aaf3391fbe649c2e1607804ce3ab85daddf9669f796d0a79.ttf');
 export const Arsenal_Bold700 = require('./0ac62eb1c6ee28d30c2dacea06acdbec9c72bcbfdca1f76a873b8a2c18ac8ae6.ttf');

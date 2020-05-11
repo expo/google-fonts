@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Nothing You Could Do';
+export const __fontFamilyVersion__ = 6;
+
 export const NothingYouCouldDo_Regular400 = require('./be0f234b092c9c449e02760df9a51ff0a1bb5867a70825d7074238c1e26e9664.ttf');

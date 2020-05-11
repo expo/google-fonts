@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Capriola';
+export const __fontFamilyVersion__ = 4;
+
 export const Capriola_Regular400 = require('./938d0b1c7f521513ee9bb1114d92827718670e0e5a495ccd564d70b0ddc59594.ttf');

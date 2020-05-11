@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Rationale';
+export const __fontFamilyVersion__ = 7;
+
 export const Rationale_Regular400 = require('./be5538f847ecbac23916ea02bdabf914bbcb6d6d35c8ad538b227d6ab3efffee.ttf');

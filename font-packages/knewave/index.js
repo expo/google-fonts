@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Knewave';
+export const __fontFamilyVersion__ = 5;
+
 export const Knewave_Regular400 = require('./c3a13f54f0f82d09a1c116c40d693c4e9a6212437c8602f91acb88a205ea9fdc.ttf');

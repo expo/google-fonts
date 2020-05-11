@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Allerta';
+export const __fontFamilyVersion__ = 7;
+
 export const Allerta_Regular400 = require('./df4ce73d43a2a1eb976d66944a0555b8ab45b8848b9e9be9355d0f68a9373270.ttf');

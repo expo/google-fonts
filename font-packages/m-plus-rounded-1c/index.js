@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'M PLUS Rounded 1c';
+export const __fontFamilyVersion__ = 10;
+
 export const MPLUSRounded1c_Thin100 = require('./6d028025ec621f30d69f25f3b121f0eb6e4678e96d47f16d760f1fcf59248d2c.ttf');
 export const MPLUSRounded1c_Light300 = require('./8e6655c0fc1e40abbfe6631bef1b71cf55ed1f706c0d130fa9fc82cfb1a644c7.ttf');
 export const MPLUSRounded1c_Regular400 = require('./ff70cb1f3f4fe4691c6ec7c7725c4a0aa37e2d1fa2704d659c9efcd304a6bb24.ttf');

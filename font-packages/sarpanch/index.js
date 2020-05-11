@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Sarpanch';
+export const __fontFamilyVersion__ = 2;
+
 export const Sarpanch_Regular400 = require('./a694e1d94a3cd59dead878c6ef1da8eb55274eb3b10e6f667a4506f4d2bf6a36.ttf');
 export const Sarpanch_Medium500 = require('./c7dedb13d24392e5c3e796641d50cce4643a03762ea0df2936f01cbdf94976bd.ttf');
 export const Sarpanch_SemiBold600 = require('./6bf8e038e00a3b7997da00d55f7715433a7c61351b1434e3659fb806f0c25a0e.ttf');

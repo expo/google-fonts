@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Anton';
+export const __fontFamilyVersion__ = 8;
+
 export const Anton_Regular400 = require('./e0d29150a430129b0bfdaabaa46ba1e7967ccabc46440a5789bffe18b7dfcc2d.ttf');

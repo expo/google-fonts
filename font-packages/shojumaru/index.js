@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Shojumaru';
+export const __fontFamilyVersion__ = 4;
+
 export const Shojumaru_Regular400 = require('./fb8c1c2c57d08ed6f7529a7edaa63995da1703823a076877d46c77f0b984d3f5.ttf');

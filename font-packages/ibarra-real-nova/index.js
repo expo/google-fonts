@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Ibarra Real Nova';
+export const __fontFamilyVersion__ = 1;
+
 export const IbarraRealNova_Regular400 = require('./fa62d319d71f5e7580a79ee36ecae3548c35a0e2d7892f8695afa7e237a3b660.ttf');
 export const IbarraRealNova_Regular400_Italic = require('./0f9205ed765c8774cf31fd539aee83f11aec36439f0fd12bfab29a491352b9f7.ttf');
 export const IbarraRealNova_SemiBold600 = require('./91c844d08ae013b372d204d91e5dd37e879057e12a50150929228512c78eec5d.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Covered By Your Grace';
+export const __fontFamilyVersion__ = 6;
+
 export const CoveredByYourGrace_Regular400 = require('./e2e2deb5e6914da1e25b2a2f5161ff4e08d65d6e00d26081708efc7ffacca93a.ttf');

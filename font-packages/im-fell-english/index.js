@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'IM Fell English';
+export const __fontFamilyVersion__ = 6;
+
 export const IMFellEnglish_Regular400 = require('./1f559be93fb1947f0551b021260410225bbafe0586dd5236d734d852bf0769f1.ttf');
 export const IMFellEnglish_Regular400_Italic = require('./67701b098b491cf87633fd626de486662128571e48aee106245d472750bcd7c4.ttf');

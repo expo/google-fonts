@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Fira Code';
+export const __fontFamilyVersion__ = 8;
+
 export const FiraCode_Light300 = require('./53d9824e306c207a6de228abf02372c59c9b2166fc2a5b38d40d9f8b2cca4f53.ttf');
 export const FiraCode_Regular400 = require('./952b0d5a1d329fa4c8229aa97143ed9ff3f239f1b4bd84e4c14b6f4f1ccdd705.ttf');
 export const FiraCode_Medium500 = require('./eeca9b497781ac45524ddd9ca6fdfa383130e3d2a613045bc288fbeaf3796ce6.ttf');

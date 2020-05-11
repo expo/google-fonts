@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Long Cang';
+export const __fontFamilyVersion__ = 5;
+
 export const LongCang_Regular400 = require('./abadf560e9284e557329d5cac93ab26b805d175ed1d48da30b843ac4c21623a2.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Rammetto One';
+export const __fontFamilyVersion__ = 5;
+
 export const RammettoOne_Regular400 = require('./c98688de086da1f823bad61e527562aacacdd41a5cf8072e7c7d6c4fe3718dc6.ttf');

@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Merriweather Sans';
+export const __fontFamilyVersion__ = 8;
+
 export const MerriweatherSans_Light300 = require('./f616380e06211b4f761656da4fa581a7d0342e10ef56f5be45bee9306dfc3a9b.ttf');
 export const MerriweatherSans_Light300_Italic = require('./05ca1d14a17191d43a6d7622e29059462800af4da0f507c95243b2bad8fa630c.ttf');
 export const MerriweatherSans_Regular400 = require('./6bed429e28f419d7f2a83544104f8c0561a37b088ae9f84c2bcd7400c2589dea.ttf');

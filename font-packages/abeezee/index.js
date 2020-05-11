@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'ABeeZee';
+export const __fontFamilyVersion__ = 10;
+
 export const ABeeZee_Regular400 = require('./2ff99dd1bd594806e1b9f7423a75f1c1dfbbbcddb2698b3ab91f5709b1b90caf.ttf');
 export const ABeeZee_Regular400_Italic = require('./8654a417521bf7fa4ffd1a7f7b62648648c5415ff0f7e0d53474e4436d049b7a.ttf');

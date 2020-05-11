@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Martel Sans';
+export const __fontFamilyVersion__ = 3;
+
 export const MartelSans_ExtraLight200 = require('./1fc958d478da9b8b19e77c989d4fb6dbbd2f412a15b122ba72a2b11ee450907f.ttf');
 export const MartelSans_Light300 = require('./2115f8757576a27c80ccede4ba84e8febb53a0ec9f63840ab713b4d5e848f950.ttf');
 export const MartelSans_Regular400 = require('./f782be9e1cecfb4c75dd0bb7a8d88dce2794738a35bf5532079d99d4d529502d.ttf');

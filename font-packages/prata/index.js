@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Prata';
+export const __fontFamilyVersion__ = 7;
+
 export const Prata_Regular400 = require('./dae0ecee4b97ae6292786b6e9e7efc1c63cf85f8beaef215151813c08fd2aa02.ttf');

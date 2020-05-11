@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Taviraj';
+export const __fontFamilyVersion__ = 2;
+
 export const Taviraj_Thin100 = require('./52fbea14874ede87677741ccb667e42f7f7032e15c8b1a97be9fb092777027f3.ttf');
 export const Taviraj_Thin100_Italic = require('./d637ee5b1965213b2d0a0e00861b1be03c91e65b536d89344ca8311230055a55.ttf');
 export const Taviraj_ExtraLight200 = require('./0f7c36cf8282e0201e715b76951dfdbbb3cbfd0205738f51c9ecf4317214ac1d.ttf');

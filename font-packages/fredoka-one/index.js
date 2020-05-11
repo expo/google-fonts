@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Fredoka One';
+export const __fontFamilyVersion__ = 4;
+
 export const FredokaOne_Regular400 = require('./b002f69e5dfa418bb4943743c033c0ace0b62544c935797166842e3571c6e8c9.ttf');

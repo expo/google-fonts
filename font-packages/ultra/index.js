@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Ultra';
+export const __fontFamilyVersion__ = 8;
+
 export const Ultra_Regular400 = require('./b8f140ef86bd070e1a1d30fffe3069a30b84663f4dbdb628765d5813caa50003.ttf');

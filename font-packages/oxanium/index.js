@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Oxanium';
+export const __fontFamilyVersion__ = 1;
+
 export const Oxanium_ExtraLight200 = require('./89daee61e7358c34dbacac977e9f2c92221971ab81d9345af9d294687a538ace.ttf');
 export const Oxanium_Light300 = require('./fef895a1cf0e2e0ea02299a10df50702cff292d28fd9fba618f118b9d7f1cc70.ttf');
 export const Oxanium_Regular400 = require('./09fedc2fbf2c81af9711328c3b1fe1bf632512d8714d254cafe53fd7c9e23ebe.ttf');

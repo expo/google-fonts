@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Yantramanav';
+export const __fontFamilyVersion__ = 2;
+
 export const Yantramanav_Thin100 = require('./86689d7a0f2e854d67499f3b138d736bbc906760e4ce2965a494ede2bd7bebca.ttf');
 export const Yantramanav_Light300 = require('./4ab0f6ae96b7ee1e64385a964c2e10db696f46e64a3c7e9966131d0a0e2d4584.ttf');
 export const Yantramanav_Regular400 = require('./41c02d7da7c104c3ea5207122b178f4cbcf308b4911dbc4e4a460b23ba64f09e.ttf');

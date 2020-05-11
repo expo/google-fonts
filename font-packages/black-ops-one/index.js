@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Black Ops One';
+export const __fontFamilyVersion__ = 7;
+
 export const BlackOpsOne_Regular400 = require('./9a9eebffdb4d3c168c63bfcd5d0ec80a1571160a66e46ef698786f9c56922256.ttf');

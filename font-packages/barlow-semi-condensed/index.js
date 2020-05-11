@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Barlow Semi Condensed';
+export const __fontFamilyVersion__ = 1;
+
 export const BarlowSemiCondensed_Thin100 = require('./429d1fa72c7702c9b3dcb38d750756505166e563306daaf1b66cb753a68f9e2d.ttf');
 export const BarlowSemiCondensed_Thin100_Italic = require('./39a411a6e0b959d02638199381cb91af60eb4da3e34ac231c61bea08043966e1.ttf');
 export const BarlowSemiCondensed_ExtraLight200 = require('./d4d4a161e4199c955202ca92d228838efee2dfa3cf68a0cf388085e19395aa5f.ttf');

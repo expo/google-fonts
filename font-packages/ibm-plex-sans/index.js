@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'IBM Plex Sans';
+export const __fontFamilyVersion__ = 3;
+
 export const IBMPlexSans_Thin100 = require('./813b794a62b57fce9544b834ad183c1e5175f1825c2fa2067d3480518d81f446.ttf');
 export const IBMPlexSans_Thin100_Italic = require('./550fbb9acc0447f5ddf482b1659912f8f4076179a59e288fd71dc1e7d86885c9.ttf');
 export const IBMPlexSans_ExtraLight200 = require('./f6209628705dc0331422f8e21345a1e1387a26fd07293496dbcc6a3551859177.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Numans';
+export const __fontFamilyVersion__ = 6;
+
 export const Numans_Regular400 = require('./77ee8c9adcd406c31bd7c13355d741311f9644b995946fe712a47d15fe49907e.ttf');

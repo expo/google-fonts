@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Della Respira';
+export const __fontFamilyVersion__ = 4;
+
 export const DellaRespira_Regular400 = require('./62fa46916df65faadfa21dd5608cda99cea245fc2f736046a2118b3a95fa93ff.ttf');

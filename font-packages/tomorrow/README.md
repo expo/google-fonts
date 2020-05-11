@@ -38,7 +38,7 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/tomorrow expo-font @use-expo/font
+expo install @expo-google-fonts/tomorrow expo-font
 ```
 
 Now add code like this to your project
@@ -47,7 +47,6 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   Tomorrow_Thin100,
   Tomorrow_Thin100_Italic,
@@ -67,6 +66,7 @@ import {
   Tomorrow_ExtraBold800_Italic,
   Tomorrow_Black900,
   Tomorrow_Black900_Italic,
+  useFonts,
 } from '@expo-google-fonts/tomorrow';
 
 export default () => {

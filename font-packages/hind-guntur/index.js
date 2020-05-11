@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Hind Guntur';
+export const __fontFamilyVersion__ = 2;
+
 export const HindGuntur_Light300 = require('./83f2591cf78a025ae8e85ebecda4a590c393eb80bf83f18bace7e5d144b57bc8.ttf');
 export const HindGuntur_Regular400 = require('./58962c61fd64e7df2aa4d0fbf8b7044df4531b4098533fd14348043d05fb8b42.ttf');
 export const HindGuntur_Medium500 = require('./1548c29a01fac4cf5904cd44cf584eaec84e08ed0b15f96638c1cb9ff8995583.ttf');

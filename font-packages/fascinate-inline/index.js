@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Fascinate Inline';
+export const __fontFamilyVersion__ = 6;
+
 export const FascinateInline_Regular400 = require('./c052c5d8595ae4b44c8e2c92cd12be41381064837072f05fc6a3f4807f1d80e7.ttf');

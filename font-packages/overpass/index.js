@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Overpass';
+export const __fontFamilyVersion__ = 1;
+
 export const Overpass_Thin100 = require('./c5a2c38a969c611bc238e0242455585ccfc48cf11fc9cd85063641ab4b2d7bb9.ttf');
 export const Overpass_Thin100_Italic = require('./8ecef7f4baf8bb9d34f1619e0a9ee510cf744ff855c5d5b856e508d1b2af0b81.ttf');
 export const Overpass_ExtraLight200 = require('./54947a66287be19cdb01fbceed60457202e90bdf36580195800894eb70d641ff.ttf');

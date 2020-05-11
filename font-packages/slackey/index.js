@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Slackey';
+export const __fontFamilyVersion__ = 6;
+
 export const Slackey_Regular400 = require('./bceb941e47abbef80f27aebbdcb657e241b5ea1f17923b61537b6f64ff87af62.ttf');

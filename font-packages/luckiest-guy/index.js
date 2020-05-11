@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Luckiest Guy';
+export const __fontFamilyVersion__ = 6;
+
 export const LuckiestGuy_Regular400 = require('./6a9e5eaeb4d4b04aa5e82f16dabc4206d86d2981ac19d033b535be88d1a773e7.ttf');

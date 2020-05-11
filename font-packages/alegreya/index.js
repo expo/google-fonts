@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Alegreya';
+export const __fontFamilyVersion__ = 8;
+
 export const Alegreya_Regular400 = require('./530d78cba23c5d8e261ae9447b431e1fa550f9dc6563540a0c400be3f7ee88ab.ttf');
 export const Alegreya_Regular400_Italic = require('./efba5f9b4495a2e911ec871cc4dfebb5dba60bc72d643c0dd346e8f90513f81a.ttf');
 export const Alegreya_Bold700 = require('./c00ad52d215d793be827a98a0661e13bbd3276c96c6aa5e6c8d71c9487a3da03.ttf');

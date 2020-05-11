@@ -32,7 +32,7 @@ This font family contains [12 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/niramit expo-font @use-expo/font
+expo install @expo-google-fonts/niramit expo-font
 ```
 
 Now add code like this to your project
@@ -41,7 +41,6 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   Niramit_ExtraLight200,
   Niramit_ExtraLight200_Italic,
@@ -55,6 +54,7 @@ import {
   Niramit_SemiBold600_Italic,
   Niramit_Bold700,
   Niramit_Bold700_Italic,
+  useFonts,
 } from '@expo-google-fonts/niramit';
 
 export default () => {

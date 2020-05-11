@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Butcherman';
+export const __fontFamilyVersion__ = 7;
+
 export const Butcherman_Regular400 = require('./5bcf1ab19e7b312ef6a3f23116fef277d7af2240e6ee5719e5a8688f36f00e23.ttf');

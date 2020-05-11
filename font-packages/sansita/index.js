@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Sansita';
+export const __fontFamilyVersion__ = 1;
+
 export const Sansita_Regular400 = require('./7e365aa3bbe93b56d5d0182d955c0e71da391d8d6a95479cab79fa24ced4e21e.ttf');
 export const Sansita_Regular400_Italic = require('./5aadd2db25ea4fcdeb76680b8b44761b6914ed6b874b5861a9e8c52412b66918.ttf');
 export const Sansita_Bold700 = require('./b4828652c6bf26cd36ad5741e616104c91b8c4023c6a891b4460029e6642a4cb.ttf');

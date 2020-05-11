@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'ZCOOL XiaoWei';
+export const __fontFamilyVersion__ = 5;
+
 export const ZCOOLXiaoWei_Regular400 = require('./e00b956bf9846285496c54d15ad3e2d6302a4c7d6f7a09c4afd4827744d626e9.ttf');

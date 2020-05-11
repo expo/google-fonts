@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Saira Stencil One';
+export const __fontFamilyVersion__ = 1;
+
 export const SairaStencilOne_Regular400 = require('./8932ea7e84bb7b374ef9df790d899402addcdd8028ad4d444096d4ae658c1030.ttf');

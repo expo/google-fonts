@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Maitree';
+export const __fontFamilyVersion__ = 1;
+
 export const Maitree_ExtraLight200 = require('./0739208db7083eb1320ec06ca68d5399840b972ed04401c338c373289f55ea74.ttf');
 export const Maitree_Light300 = require('./19f05ca05c789289a2d8b35a68f7d2eb186a1bdbb47ff7d630f96485b8d06f67.ttf');
 export const Maitree_Regular400 = require('./acbe712e2f0c98c52be38409f5b250521e6124b9af003a579b4c94e4e1ad0f49.ttf');

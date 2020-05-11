@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Big Shoulders Text';
+export const __fontFamilyVersion__ = 1;
+
 export const BigShouldersText_Thin100 = require('./627d92b7b60e71b44920b0badb4fab35e76dc999346110b16b5503642b274d9c.ttf');
 export const BigShouldersText_Light300 = require('./8aef88ac2024c3940f399eee0642162cf1880de4b3072c385da26169385aaff9.ttf');
 export const BigShouldersText_Regular400 = require('./3b28c250237404079c092e1f0bbe96a9877935f854758b23d0c596474d2dc0a9.ttf');

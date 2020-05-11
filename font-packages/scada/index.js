@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Scada';
+export const __fontFamilyVersion__ = 5;
+
 export const Scada_Regular400 = require('./b50d4e47b78665f29007e923c626d8127c7c9793f60cc8b94e55fe65a9e1b156.ttf');
 export const Scada_Regular400_Italic = require('./19e3630deea1d0d7694e73dfb85c5a97e8fc332031fc27897d4b5b14fb6f62b3.ttf');
 export const Scada_Bold700 = require('./9a106a75900b9cafa514e2c814b45cabcd61c5f50ceac1772ce6a12386cfa505.ttf');

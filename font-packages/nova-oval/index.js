@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Nova Oval';
+export const __fontFamilyVersion__ = 8;
+
 export const NovaOval_Regular400 = require('./73667c60ecac141cd425d3162ed4340d8b511095054d82311ae58c07da3deba4.ttf');

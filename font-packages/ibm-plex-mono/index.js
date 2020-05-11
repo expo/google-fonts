@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'IBM Plex Mono';
+export const __fontFamilyVersion__ = 3;
+
 export const IBMPlexMono_Thin100 = require('./0b176030119e3bf8008cc3a1ab395de2490609893cbf42c9ad93a1b97131c1ad.ttf');
 export const IBMPlexMono_Thin100_Italic = require('./49cc21b7b1c2e02aec83be236218fc1bf64c43ab6693d02e5f57dc5c4d580a42.ttf');
 export const IBMPlexMono_ExtraLight200 = require('./84f407c2acc498e7797432543eba48500150e851182f2706d2a48e4fc61aef13.ttf');

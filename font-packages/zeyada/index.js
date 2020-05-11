@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Zeyada';
+export const __fontFamilyVersion__ = 6;
+
 export const Zeyada_Regular400 = require('./06ad6445bf0014c963d0b72e3dcd1defc66132033878f2b1cee5be9bdb807c93.ttf');

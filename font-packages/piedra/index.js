@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Piedra';
+export const __fontFamilyVersion__ = 5;
+
 export const Piedra_Regular400 = require('./44d0853d7548f46be84298314d45874783d3dfd1459f5286f1426fb025483348.ttf');

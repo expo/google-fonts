@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Libre Barcode 128';
+export const __fontFamilyVersion__ = 9;
+
 export const LibreBarcode128_Regular400 = require('./a60bde92bb99e259f050c9d55ccd67ee6844aacf2e4af2b0e58f75109406ae95.ttf');

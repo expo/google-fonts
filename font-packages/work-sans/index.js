@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Work Sans';
+export const __fontFamilyVersion__ = 2;
+
 export const WorkSans_Thin100 = require('./54ff7c3cb9bfd181e1d18d089ab9bba3059dd6f49d35bfde19c23e0920ec6f2c.ttf');
 export const WorkSans_ExtraLight200 = require('./1fa02ec2601b669a35f4c2d946f2e52353bcf619ad2a080c8786f607f013359c.ttf');
 export const WorkSans_Light300 = require('./63d2d7d98c9844e182c80865616936a3c0e95d9c9b7097e09401ccc07723afa7.ttf');

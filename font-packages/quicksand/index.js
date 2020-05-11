@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Quicksand';
+export const __fontFamilyVersion__ = 6;
+
 export const Quicksand_Light300 = require('./1d9cb44be0f4a238981aae2eb07e9157e00c48fae09163bea0866e136d1c3f1f.ttf');
 export const Quicksand_Regular400 = require('./0f408f35c3679417b5580701f3ac08830ce36535af5a643a2ef5b59e91c3c6b7.ttf');
 export const Quicksand_Medium500 = require('./76d743f0975259e38b62a1b671044d0a6584e7ae0a8389a9dca5d6d7e5e24031.ttf');

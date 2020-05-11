@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Fjord One';
+export const __fontFamilyVersion__ = 5;
+
 export const FjordOne_Regular400 = require('./1d617688444b306b1af1ecd21190c110fcd2299e6164c66b9828f25bfaeeefa2.ttf');

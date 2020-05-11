@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Podkova';
+export const __fontFamilyVersion__ = 10;
+
 export const Podkova_Regular400 = require('./0add25e02638273bd9b4fcf35c8b76256a3a4e03952c161c48592fae22c5fc34.ttf');
 export const Podkova_Medium500 = require('./3f02b4ccaed0ce6f2b29a1a9a6a7d4277651708435bc6f85466d43b1f7946980.ttf');
 export const Podkova_SemiBold600 = require('./0cc312c8ebd6612b3c99e662d435f1299506dd87fe2eda68b3a99a77910ff84b.ttf');

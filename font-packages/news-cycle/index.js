@@ -2,5 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'News Cycle';
+export const __fontFamilyVersion__ = 13;
+
 export const NewsCycle_Regular400 = require('./9dc74270959405ee468a6ea83452b01a8075067bf71cb96c8097511477f8aec6.ttf');
 export const NewsCycle_Bold700 = require('./301d13c6e3a40093c2244566226928b2e8bd2843d5cb06302c5c30b44c3d4bc2.ttf');

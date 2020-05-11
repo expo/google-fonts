@@ -34,7 +34,7 @@ This font family contains [14 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/muli expo-font @use-expo/font
+expo install @expo-google-fonts/muli expo-font
 ```
 
 Now add code like this to your project
@@ -43,7 +43,6 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts } from '@use-expo/font';
 import {
   Muli_ExtraLight200,
   Muli_ExtraLight200_Italic,
@@ -59,6 +58,7 @@ import {
   Muli_ExtraBold800_Italic,
   Muli_Black900,
   Muli_Black900_Italic,
+  useFonts,
 } from '@expo-google-fonts/muli';
 
 export default () => {

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Mansalva';
+export const __fontFamilyVersion__ = 1;
+
 export const Mansalva_Regular400 = require('./7918b7006d7a856d653dd2465a093d28c6a2fd94aca6109ecd700d5e4c09dc7e.ttf');

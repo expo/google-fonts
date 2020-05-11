@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Crimson Text';
+export const __fontFamilyVersion__ = 7;
+
 export const CrimsonText_Regular400 = require('./883d56072155a485051564cd3019bb34a608ddfa0553e2295413e7a59c67bd28.ttf');
 export const CrimsonText_Regular400_Italic = require('./33025a7588fc7f2ca1b8eb2b599e2420ad23278ee100a8f7e11c881d385af57a.ttf');
 export const CrimsonText_SemiBold600 = require('./37e75069b54a5c937eec2ba3fd3d193e3825fab2122bef2b86d86bc5ff1caab3.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Monsieur La Doulaise';
+export const __fontFamilyVersion__ = 5;
+
 export const MonsieurLaDoulaise_Regular400 = require('./def26258142aeeb4021fb91331bd0a7dae943c48caa8b09211393a16ed3c53c9.ttf');

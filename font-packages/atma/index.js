@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Atma';
+export const __fontFamilyVersion__ = 2;
+
 export const Atma_Light300 = require('./d691cbd1df6f6a53328f8d9d9514102c915be55e93a8c1f0cb0826a27a60e4f2.ttf');
 export const Atma_Regular400 = require('./702ceed58c58203ab0c8ad4bbbbda56c77b89a29496d748322180acbed120201.ttf');
 export const Atma_Medium500 = require('./cc558572cee6afca8a8d34b8cb8a2397d749e0c22f9d9977f39eb0e84d636967.ttf');

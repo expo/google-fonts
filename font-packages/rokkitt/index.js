@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Rokkitt';
+export const __fontFamilyVersion__ = 11;
+
 export const Rokkitt_Thin100 = require('./9a0a1b138370aa3841a848edde26bd7045ac2a5a0f13a513b247417c3489811c.ttf');
 export const Rokkitt_ExtraLight200 = require('./840d357a7d06133d859000a071917c4ea92f02d0f001f247137046392166ff1b.ttf');
 export const Rokkitt_Light300 = require('./19b250411cba0e1bc39378cf1e47ecbd217b7b52e845159655611f9cce3f016f.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Lancelot';
+export const __fontFamilyVersion__ = 6;
+
 export const Lancelot_Regular400 = require('./a717264fe5246a5aae3c8706eb7368a7a36008880de093d205dadca67f8cfc97.ttf');

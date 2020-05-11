@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Josefin Slab';
+export const __fontFamilyVersion__ = 7;
+
 export const JosefinSlab_Thin100 = require('./447b30a4f09ce882924bc14b5cb2d46ed8a09e31fbd138c82200fce2411f2612.ttf');
 export const JosefinSlab_Thin100_Italic = require('./9e521fdac6770840a2382fe98c7220bc471558f801d8965edf8573e7f30b69b5.ttf');
 export const JosefinSlab_Light300 = require('./ed15a28fd4c2b8d4813431c543e1e1d9293d3054ccc2ba5ef342f99ce5a44c08.ttf');

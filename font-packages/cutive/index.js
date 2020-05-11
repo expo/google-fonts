@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Cutive';
+export const __fontFamilyVersion__ = 8;
+
 export const Cutive_Regular400 = require('./2e0849ce3a9bd06c1d093ce26a2727da8b032430d3d39d191cfd79df0983d490.ttf');

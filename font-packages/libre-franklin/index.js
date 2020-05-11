@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Libre Franklin';
+export const __fontFamilyVersion__ = 1;
+
 export const LibreFranklin_Thin100 = require('./a1f21b9a28ecb3d6ea935dfde51aee05540140c3a25253b0641b9444dda667c1.ttf');
 export const LibreFranklin_Thin100_Italic = require('./09e958f9da1c899ed89026561f56a7c052b9408db021ae9a897f9247aad44039.ttf');
 export const LibreFranklin_ExtraLight200 = require('./97dcc6cedbef15bad22ec4941bcf10ede26cae6bbf0844281f0935c77e475130.ttf');

@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Khand';
+export const __fontFamilyVersion__ = 5;
+
 export const Khand_Light300 = require('./7cd4683a916646dd278fb0eb4426f6826ca4f0cc92ce083de087f2287fb11f98.ttf');
 export const Khand_Regular400 = require('./325e1b6938310cd0385a917b47fcadabece70ea8fa6356a276e20fb171d57af5.ttf');
 export const Khand_Medium500 = require('./6dd2785eedd866d3f7e329ad7264d66157ec7a40ef41d48aab098287b5a8863d.ttf');

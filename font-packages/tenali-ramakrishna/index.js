@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Tenali Ramakrishna';
+export const __fontFamilyVersion__ = 3;
+
 export const TenaliRamakrishna_Regular400 = require('./b6f6e7bc4fab4b63722a7970012462fc4dd196307fcab934cabb392e9b45b437.ttf');

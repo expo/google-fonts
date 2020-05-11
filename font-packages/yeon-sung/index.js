@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Yeon Sung';
+export const __fontFamilyVersion__ = 4;
+
 export const YeonSung_Regular400 = require('./cc6d366c352d7d897155bde07516cd01c0fcd308ff28d0d6545d6634046cecec.ttf');

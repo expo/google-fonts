@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Lilita One';
+export const __fontFamilyVersion__ = 4;
+
 export const LilitaOne_Regular400 = require('./9bec8798e040c1fbce51e8a057cea3e28ed1d6af1f649b2abec2cba17eb20016.ttf');

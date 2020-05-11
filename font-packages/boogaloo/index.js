@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Boogaloo';
+export const __fontFamilyVersion__ = 6;
+
 export const Boogaloo_Regular400 = require('./ecd8d89eafeb4669ce51f02cef4e529aa97180ed7c2a9cfcbad4714ed9ede46f.ttf');

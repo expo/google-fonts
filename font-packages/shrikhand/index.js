@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Shrikhand';
+export const __fontFamilyVersion__ = 2;
+
 export const Shrikhand_Regular400 = require('./aacb9e67a15ab34c2c3cc3a314bd696f3ef409963bd74b25e61727a3b1414ffc.ttf');

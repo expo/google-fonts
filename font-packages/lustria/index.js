@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Lustria';
+export const __fontFamilyVersion__ = 4;
+
 export const Lustria_Regular400 = require('./ba208c56243ec0aa08c1b911132f8649f5d87f93a699d115fbb59cf02e5bd636.ttf');

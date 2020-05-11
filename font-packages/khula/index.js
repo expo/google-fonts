@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Khula';
+export const __fontFamilyVersion__ = 2;
+
 export const Khula_Light300 = require('./565c281fe5c11e451834dd30eda6e6d94a41c1a9c186c175541aa8ddef492d4f.ttf');
 export const Khula_Regular400 = require('./743e9de20b77192c80fd43452b591fcc85ef36aa1dd7746171503962b5687046.ttf');
 export const Khula_SemiBold600 = require('./af7d4733894aa875443cf8921445981662df9f4f3ee13e8cc151dee7c9ca5dde.ttf');

@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Paytone One';
+export const __fontFamilyVersion__ = 8;
+
 export const PaytoneOne_Regular400 = require('./8b6fb867bea8e0668b3117749a0c761f24623a872f905f98462fb83791b88b00.ttf');

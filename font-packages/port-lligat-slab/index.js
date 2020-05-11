@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Port Lligat Slab';
+export const __fontFamilyVersion__ = 5;
+
 export const PortLligatSlab_Regular400 = require('./14a5e5dd29e0381386f5b0417b504bb1aadd724682e7f07cd5d09f95b4c9cc99.ttf');

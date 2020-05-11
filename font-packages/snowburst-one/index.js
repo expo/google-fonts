@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Snowburst One';
+export const __fontFamilyVersion__ = 4;
+
 export const SnowburstOne_Regular400 = require('./f0b3d75c3024cdb3e14b5006a726dacaa747fd5b1436d7123f63ed83d1d60e28.ttf');

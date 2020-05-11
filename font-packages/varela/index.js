@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Varela';
+export const __fontFamilyVersion__ = 7;
+
 export const Varela_Regular400 = require('./96887ebd8375ca5af98d18cb1de4dbf2999792851119cd372a33470d59245222.ttf');

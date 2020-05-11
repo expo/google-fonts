@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Chathura';
+export const __fontFamilyVersion__ = 2;
+
 export const Chathura_Thin100 = require('./78a5a2532fd10bcf3317ec8440d1e758a309bd152369607ccea764abddbcb168.ttf');
 export const Chathura_Light300 = require('./7b8357f2b60bfe270ca77801978a0bd5e729870ffad8b19d54ff69cded800a1f.ttf');
 export const Chathura_Regular400 = require('./f8abdba026fb7a58e3f5b2cbe302ab4d9e817e69dfd7c6fce0ffbf22fe9600f5.ttf');

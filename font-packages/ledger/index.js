@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Ledger';
+export const __fontFamilyVersion__ = 4;
+
 export const Ledger_Regular400 = require('./3d3e17668a2b5762ca671d8a2496ba50de6e3896eaada54fa3f74ad82f0daf43.ttf');

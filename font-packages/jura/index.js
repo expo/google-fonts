@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Jura';
+export const __fontFamilyVersion__ = 8;
+
 export const Jura_Light300 = require('./77bf0cc35f4472e54d1b2daf9d1bfc5f02b062280d8dccd089869c247b4787ee.ttf');
 export const Jura_Regular400 = require('./33eb5cfd183074e05fa8299bd75531ec22a6a6d5f8778170d27310d95b1bbbb6.ttf');
 export const Jura_Medium500 = require('./77d5a89082924bbe692443c95c536a679eef0891bfbe46d7e30f206f8486631f.ttf');

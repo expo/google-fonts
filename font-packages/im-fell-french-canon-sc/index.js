@@ -2,4 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'IM Fell French Canon SC';
+export const __fontFamilyVersion__ = 6;
+
 export const IMFellFrenchCanonSC_Regular400 = require('./618df3e2380b8d244fa861a295bcae3cb41ac4f0cea67f01a815355fcd198ce8.ttf');

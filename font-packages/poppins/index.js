@@ -2,6 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
+export { useFonts } from './useFonts';
+
+export const __fontFamilyName__ = 'Poppins';
+export const __fontFamilyVersion__ = 5;
+
 export const Poppins_Thin100 = require('./609ae3f057d392507fed90188cf6f9d5f85bb59f613c0decb2ecc9f51312a5cd.ttf');
 export const Poppins_Thin100_Italic = require('./4a2e8bca7b027b0f8cc0218b80ec9823ca3b98d4a06f17651337b01fb85f8ede.ttf');
 export const Poppins_ExtraLight200 = require('./2a489fff366883b0e5df107f6f4d5af2554723b61495c5509d4c3f62e038bc47.ttf');
