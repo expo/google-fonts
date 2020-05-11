@@ -20,7 +20,7 @@ async function publishAllFontPackages() {
     },
     cliProgress.Presets.shades_classic
   );
-  bar.start(fontDirectory.family.length + 1, i);
+  bar.start(fontDirectory.family.length + 2, i);
   bar.update(i, { font: 'dev' });
   try {
     let devPkgDir = path.join(fontPackagesDir, 'dev');
@@ -28,6 +28,16 @@ async function publishAllFontPackages() {
       await spawnAsync('npm', ['publish'], { cwd: devPkgDir });
     } catch (e) {
       errors.push(['dev', e]);
+    } finally {
+      i++;
+    }
+
+    bar.update(i, { font: 'font-directory' });
+    let dirPkgDir = path.join(fontPackagesDir, 'font-directory');
+    try {
+      await spawnAsync('npm', ['publish'], { cwd: dirPkgDir });
+    } catch (e) {
+      errors.push(['font-directory', e]);
     } finally {
       i++;
     }

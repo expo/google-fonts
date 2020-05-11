@@ -3,6 +3,7 @@
 ///
 
 export { useFonts } from './useFonts';
+export { default as fontDirectory } from './fontDirectory';
 export const ABeeZee_Regular400 =
   'https://fonts.gstatic.com/s/a/2ff99dd1bd594806e1b9f7423a75f1c1dfbbbcddb2698b3ab91f5709b1b90caf.ttf';
 export const ABeeZee_Regular400_Italic =
