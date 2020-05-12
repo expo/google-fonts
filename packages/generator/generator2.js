@@ -338,7 +338,7 @@ async function generateFontPackage(webfont) {
 
   code += ReexportHook + '\n';
 
-  code += `export const __webfontMetadata__ = ${JSON.stringify(webfont)};\n\n`;
+  code += `export const __metadata__ = ${JSON.stringify(webfont)};\n\n`;
 
   for (let variantKey of webfont.variants) {
     let v = varNameForFontVariant(webfont, variantKey);
@@ -349,34 +349,34 @@ async function generateFontPackage(webfont) {
     // link fonts and image previews
     await fs.promises.link(path.join(FontAssetsDir, ffn), path.join(pkgDir, ffn));
     await fs.promises.link(path.join(FontImagesDir, ffn + '.png'), path.join(pkgDir, ffn + '.png'));
+  }
 
-    await fs.promises.writeFile(
-      path.join(pkgDir, 'index.js'),
-      prettier.format(code, { ...PrettierOptions, parser: 'babel' }),
-      'utf8'
-    );
+  await fs.promises.writeFile(
+    path.join(pkgDir, 'index.js'),
+    prettier.format(code, { ...PrettierOptions, parser: 'babel' }),
+    'utf8'
+  );
 
-    await fs.promises.writeFile(path.join(pkgDir, 'index.d.ts'), dts, 'utf8');
+  await fs.promises.writeFile(path.join(pkgDir, 'index.d.ts'), dts, 'utf8');
 
-    // Include the useFonts hook so we can use that
-    await fs.promises.link('./useFonts.js', path.join(pkgDir, 'useFonts.js'));
-    await fs.promises.link('./useFonts.d.ts', path.join(pkgDir, 'useFonts.d.ts'));
+  // Include the useFonts hook so we can use that
+  await fs.promises.link('./useFonts.js', path.join(pkgDir, 'useFonts.js'));
+  await fs.promises.link('./useFonts.d.ts', path.join(pkgDir, 'useFonts.d.ts'));
 
-    // font-family.png
-    let packageImageFilePath = path.join(pkgDir, 'font-family.png');
-    try {
-      await generatePackageHeaderImage(packageImageFilePath, webfont);
-    } catch (e) {
-      // TODO: Maybe log an error?
-      throw e;
-    }
+  // font-family.png
+  let packageImageFilepath = path.join(pkgDir, 'font-family.png');
+  try {
+    await generatePackageHeaderImage(packageImageFilepath, webfont);
+  } catch (e) {
+    // TODO: Maybe log an error?
+    throw e;
   }
 }
 
-async function generatePackageHeaderImage(outputFilePath, webfont) {
+async function generatePackageHeaderImage(outputFilepath, webfont) {
   let variantKey = getDefaultVariantKeyForWebfont(webfont);
   let name = webfont.family;
-  await generatePng(outputFilePath, name, webfont, variantKey, 96);
+  await generatePng(outputFilepath, name, webfont, variantKey, 96);
 }
 
 function getDefaultVariantKeyForWebfont(webfont) {
@@ -427,6 +427,10 @@ let t = {
     let d = await getDirectory();
     return await generateFontPackage(d.items[n]);
   },
+  generatePackageHeaderImage: async (n = 3) => {
+    let d = await getDirectory();
+    return await generatePackageHeaderImage('header.png', d.items[n]);
+  },
 };
 
 module.exports = {
@@ -442,6 +446,7 @@ module.exports = {
   generatePng,
   getDefaultVariantKeyForWebfont,
   generateFontPackage,
+  generatePackageHeaderImage,
 };
 
 if (require.main === module) {
