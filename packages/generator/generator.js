@@ -567,15 +567,18 @@ ${prettier.format(jsExample, { ...PrettierOptions, parser: 'babel' })}
 
 ## 🔡 Gallery
 
-${webfont.variants
-  .map((variantKey) => {
-    let styleImagePath = './' + filenameForFontVariant(webfont, variantKey) + '.png';
-    let fi = varNameForFontVariant(webfont, variantKey);
-    return `##### ${fi}
-![${fi}](${styleImagePath})
-`;
-  })
-  .join('\n')}
+${
+  //   webfont.variants
+  //   .map((variantKey) => {
+  //     let styleImagePath = './' + filenameForFontVariant(webfont, variantKey) + '.png';
+  //     let fi = varNameForFontVariant(webfont, variantKey);
+  //     return `##### ${fi}
+  // ![${fi}](${styleImagePath})
+  // `;
+  //   })
+  //   .join('\n')
+  generateTableForVariants(webfont)
+}
 
 ## 👩‍💻 Use During Development
 ${DevPackageMarkdown}
@@ -1007,20 +1010,24 @@ ${dc.items
 }
 
 function generateTableForVariants(webfont, pkgUrl) {
+  let fontPackagesPrefix = './font-packages/' + getPackageNameForWebfont(webfont) + '/';
+  if (!pkgUrl) {
+    fontPackagesPrefix = './';
+  }
+
   let md = `
 ||||
 |-|-|-|
 `;
   let variantImageCells = [];
   for (let variantKey of webfont.variants) {
-    let styleImagePath =
-      './font-packages/' +
-      getPackageNameForWebfont(webfont) +
-      '/' +
-      filenameForFontVariant(webfont, variantKey) +
-      '.png';
+    let styleImagePath = fontPackagesPrefix + filenameForFontVariant(webfont, variantKey) + '.png';
     let fi = varNameForFontVariant(webfont, variantKey);
-    variantImageCells.push(`[![${fi}](${styleImagePath})](${pkgUrl})`);
+    if (pkgUrl) {
+      variantImageCells.push(`[![${fi}](${styleImagePath})](${pkgUrl})`);
+    } else {
+      variantImageCells.push(`![${fi}](${styleImagePath})`);
+    }
   }
 
   for (let row = 0; variantImageCells.length > 0; row++) {
@@ -1077,6 +1084,10 @@ let t = {
     let d = await getDirectory();
     return await generateGalleryFile(d);
   },
+  generateAllFontPackages: async () => {
+    let d = await getDirectory();
+    return await generateAllFontPackages(d);
+  },
 };
 
 module.exports = {
@@ -1095,6 +1106,9 @@ module.exports = {
   generatePackageHeaderImage,
   generateRootReadme,
   getDisplayNameForFontVariant,
+  FontPackagesDir,
+  getPackageNameForWebfont,
+  generateAllFontPackages,
 };
 
 if (require.main === module) {
