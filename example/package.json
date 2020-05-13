@@ -8,6 +8,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@expo-google-fonts/balsamiq-sans": "../font-packages/balsamiq-sans",
     "@expo-google-fonts/inter": "../font-packages/inter",
     "@expo-google-fonts/limelight": "../font-packages/limelight",
     "@expo-google-fonts/source-sans-pro": "../font-packages/source-sans-pro",

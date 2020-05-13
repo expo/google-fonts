@@ -924,6 +924,9 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@expo-google-fonts/balsamiq-sans@../font-packages/balsamiq-sans":
+  version "0.1.0"
+
 "@expo-google-fonts/inter@../font-packages/inter":
   version "0.1.0"
 
