@@ -26,6 +26,27 @@ let WeightNames = {
   '900': 'Black',
 };
 
+let VariantNames = {
+  '100': 'Thin',
+  '200': 'Extra Light',
+  '300': 'Light',
+  regular: 'Regular',
+  '500': 'Medium',
+  '600': 'Semi Bold',
+  '700': 'Bold',
+  '800': 'Extra Bold',
+  '900': 'Black',
+  '100italic': 'Thin Italic',
+  '200italic': 'Extra Light Italic',
+  '300italic': 'Light Italic',
+  italic: 'Italic',
+  '500italic': 'Medium Italic',
+  '600italic': 'Semi Bold Italic',
+  '700italic': 'Bold Italic',
+  '800italic': 'Extra Bold Italic',
+  '900italic': 'Black Italic',
+};
+
 let ProjectRootDir = path.join(__dirname, '..', '..');
 let FontPackagesDir = path.join(ProjectRootDir, 'font-packages');
 let FontAssetsDir = path.join(ProjectRootDir, 'font-assets');
@@ -470,6 +491,10 @@ async function generateReadmeForWebfont(webfont) {
     varNameForFontVariant(webfont, variantKey)
   );
 
+  let displayNames = webfont.variants.map((variantKey) =>
+    getDisplayNameForFontVariant(webfont, variantKey)
+  );
+
   let jsExample = `
 import React, { useState, useEffect } from "react";
 
@@ -494,9 +519,10 @@ export default () => {
       ${fontStyleVars
         .map(
           (fsv) => `
-        <Text style={{ fontSize, paddingVertical, fontFamily: ${JSON.stringify(
-          fsv
-        )} }}>${fsv}</Text>
+        <Text style={{ fontSize, paddingVertical, 
+          // Note the quoting of the value for \`fontFamily\` here; it expects a string!
+          fontFamily: ${JSON.stringify(fsv)} 
+      }}>${displayNames.shift() /* hacky but should work :/ */}</Text>
       `
         )
         .join('\n')}
@@ -716,6 +742,40 @@ async function generateDevPackage(fontDirectory) {
   // useFonts.js & useFonts.d.ts
   await fs.promises.link('./useFonts.js', path.join(pkgDir, 'useFonts.js'));
   await fs.promises.link('./useFonts.d.ts', path.join(pkgDir, 'useFonts.d.ts'));
+
+  // README.md
+  let md = `# @expo-google-fonts/dev
+
+${DevPackageMarkdown}
+
+## Usage
+
+Usage is the same as any individual Expo Google Fonts package except that 
+you can important any font variant from any font family from \`@expo-google-fonts/dev\`.
+
+#### Install the package
+
+\`\`\`js
+expo install @expo-google-fonts/dev expo-font
+\`\`\`
+
+#### In your app
+
+\`\`\`js
+import {
+  useFonts,
+  Nunito_400Regular,
+  Lato_400Regular,
+  Inter_900Black,
+} from '@expo-google-fonts/dev';
+...
+\`\`\`
+
+etc.
+
+`;
+
+  await fs.promises.writeFile(path.join(pkgDir, 'README.md'), md, 'utf8');
 }
 
 async function generateRootReadme(fontDirectory) {
@@ -771,11 +831,11 @@ export default () => {
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
 
         <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_400Regular' }}>
-          Nunito_400Regular
+          Nunito Regular
         </Text>
 
         <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_600SemiBold_Italic' }}>
-          Nunito_600SemiBold_Italic
+          Nunito Semi Bold Italic
         </Text>
 
       </View>
@@ -788,7 +848,7 @@ export default () => {
 
 ### Example Project
 
-Here is a [minimal but complete example](https://github.com/expo/google-fonts/tree/master/example)
+Here is a [minimal but complete example](https://github.com/expo/google-fonts/tree/master/example).
 
 Each individual font family package README includes a complete example of using that font family.
 
@@ -848,8 +908,8 @@ ${contributors
 
 async function getFeaturedGalleryMarkdown(fontDirectory) {
   let featuredFonts = [
-    'Manrope',
     'Inter',
+    'Manrope',
     'Allan',
 
     'Roboto',
@@ -863,6 +923,10 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
     'Playfair Display',
     'Ubuntu',
     'Oswald',
+
+    'Balsamiq Sans',
+    'Jost',
+    'Lato',
   ];
 
   let featured = [];
@@ -971,6 +1035,10 @@ function generateTableForVariants(webfont, pkgUrl) {
   return md;
 }
 
+function getDisplayNameForFontVariant(webfont, variantKey) {
+  return webfont.family + ' ' + VariantNames[variantKey];
+}
+
 let t = {
   downloadAllFonts: async () => {
     let d = await getDirectory();
@@ -1026,6 +1094,7 @@ module.exports = {
   generateFontPackage,
   generatePackageHeaderImage,
   generateRootReadme,
+  getDisplayNameForFontVariant,
 };
 
 if (require.main === module) {

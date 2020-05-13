@@ -30,7 +30,6 @@ import {
   useFonts,
   Nunito_400Regular,
   Nunito_600SemiBold_Italic,
-  useFonts,
 } from '@expo-google-fonts/nunito';
 
 export default () => {
@@ -40,7 +39,7 @@ export default () => {
   });
 
   let fontSize = 24;
-  let paddingVrtical = 6;
+  let paddingVertical = 6;
 
   if (!fontsLoaded) {
     return <AppLoading />;
@@ -49,11 +48,11 @@ export default () => {
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
 
         <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_400Regular' }}>
-          Nunito_400Regular
+          Nunito Regular
         </Text>
 
         <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_600SemiBold_Italic' }}>
-          Nunito_600SemiBold_Italic
+          Nunito Semi Bold Italic
         </Text>
 
       </View>
@@ -66,7 +65,7 @@ export default () => {
 
 ### Example Project
 
-Here is a [minimal but complete example](https://github.com/expo/google-fonts/tree/master/example)
+Here is a [minimal but complete example](https://github.com/expo/google-fonts/tree/master/example).
 
 Each individual font family package README includes a complete example of using that font family.
 
@@ -83,6 +82,7 @@ Here are a few examples of the 991 font families available:
 |[![Roboto](./font-packages/roboto/Roboto_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)|[![Lusitana](./font-packages/lusitana/Lusitana_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/lusitana#readme)|[![OpenSans](./font-packages/open-sans/OpenSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/open-sans#readme)|
 |[![Bangers](./font-packages/bangers/Bangers_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/bangers#readme)|[![SourceSansPro](./font-packages/source-sans-pro/SourceSansPro_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/source-sans-pro#readme)|[![RobotoCondensed](./font-packages/roboto-condensed/RobotoCondensed_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto-condensed#readme)|
 |[![PlayfairDisplay](./font-packages/playfair-display/PlayfairDisplay_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playfair-display#readme)|[![Ubuntu](./font-packages/ubuntu/Ubuntu_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/ubuntu#readme)|[![Oswald](./font-packages/oswald/Oswald_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/oswald#readme)|
+|[![BalsamiqSans](./font-packages/balsamiq-sans/BalsamiqSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/balsamiq-sans#readme)|[![Jost](./font-packages/jost/Jost_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/jost#readme)|[![Lato](./font-packages/lato/Lato_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/lato#readme)|
 
 
 You can check out [the gallery for this project](./GALLERY.md) to see all of them.

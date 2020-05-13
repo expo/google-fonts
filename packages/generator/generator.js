@@ -899,8 +899,8 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
   // 3 x 3
 
   let featuredFonts = [
-    'Manrope',
     'Inter',
+    'Manrope',
     'Allan',
 
     'Roboto',
