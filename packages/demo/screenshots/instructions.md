@@ -1,9 +1,9 @@
-### Shell
+### Install
 ```sh
 expo install @expo-google-fonts/inter expo-font
 ```
 
-### Code
+### Use
 ```js
 import {
   useFonts,
