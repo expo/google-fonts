@@ -1,5 +1,5 @@
 {
-  "main": "generator2.js",
+  "main": "generator.js",
   "scripts": {
     "generate": "node .",
     "generate-images": "node build-images.js",
