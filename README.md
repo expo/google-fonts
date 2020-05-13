@@ -31,12 +31,12 @@ import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
   useFonts,
-  Inter_400Regular,
+  Inter_900Black,
 } from '@expo-google-fonts/inter';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Inter_Regular400,
+    Inter_900Black,
   });
 
   if (!fontsLoaded) {
@@ -45,8 +45,8 @@ export default () => {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
 
-        <Text style={{ fontFamily: 'Inter_400Regular' }}>
-          Inter Regular
+        <Text style={{ fontFamily: 'Inter_900Black' }}>
+          Inter Black
         </Text>
 
       </View>
@@ -67,7 +67,7 @@ Each individual font family package README includes a complete example of using 
 
 You can browse all available Google Fonts on [fonts.google.com](https://fonts.google.com).
 
-Here are a few examples of the 3014 variants of 991 fonts available:
+Here are a few examples of the 3020 variants of 991 fonts available:
 
 
 ||||
