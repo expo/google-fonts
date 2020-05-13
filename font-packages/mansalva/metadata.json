@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Mansalva",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v1",
+  "lastModified": "2020-03-03",
+  "files": { "regular": "http://fonts.gstatic.com/s/mansalva/v1/aWB4m0aacbtDfvq5NJllI47vdyBg.ttf" }
+}

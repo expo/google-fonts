@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Federant",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v12",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/federant/v12/2sDdZGNfip_eirT0_U0jRUG0AqUc.ttf" }
+}

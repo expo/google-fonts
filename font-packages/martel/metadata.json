@@ -1,0 +1,18 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Martel",
+  "category": "serif",
+  "variants": ["200", "300", "regular", "600", "700", "800", "900"],
+  "subsets": ["devanagari", "latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2019-07-17",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/martel/v4/PN_yRfK9oXHga0XVqekahRbX9vnDzw.ttf",
+    "300": "http://fonts.gstatic.com/s/martel/v4/PN_yRfK9oXHga0XVzeoahRbX9vnDzw.ttf",
+    "600": "http://fonts.gstatic.com/s/martel/v4/PN_yRfK9oXHga0XVuewahRbX9vnDzw.ttf",
+    "700": "http://fonts.gstatic.com/s/martel/v4/PN_yRfK9oXHga0XV3e0ahRbX9vnDzw.ttf",
+    "800": "http://fonts.gstatic.com/s/martel/v4/PN_yRfK9oXHga0XVwe4ahRbX9vnDzw.ttf",
+    "900": "http://fonts.gstatic.com/s/martel/v4/PN_yRfK9oXHga0XV5e8ahRbX9vnDzw.ttf",
+    "regular": "http://fonts.gstatic.com/s/martel/v4/PN_xRfK9oXHga0XtYcI-jT3L_w.ttf"
+  }
+}

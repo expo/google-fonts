@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Dynalight",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/dynalight/v8/1Ptsg8LOU_aOmQvTsF4ISotrDfGGxA.ttf"
+  }
+}

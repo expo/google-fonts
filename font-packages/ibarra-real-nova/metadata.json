@@ -1,0 +1,17 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Ibarra Real Nova",
+  "category": "serif",
+  "variants": ["regular", "italic", "600", "600italic", "700", "700italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2020-04-13",
+  "files": {
+    "600": "http://fonts.gstatic.com/s/ibarrarealnova/v2/sZlYdQiA-DBIDCcaWtQzL4BZHoiDmKR8NNRFMuhjCXY.ttf",
+    "700": "http://fonts.gstatic.com/s/ibarrarealnova/v2/sZlYdQiA-DBIDCcaWtQzL4BZHoiDmMB9NNRFMuhjCXY.ttf",
+    "regular": "http://fonts.gstatic.com/s/ibarrarealnova/v2/sZlfdQiA-DBIDCcaWtQzL4BZHoiDoHxSENxuLuE.ttf",
+    "italic": "http://fonts.gstatic.com/s/ibarrarealnova/v2/sZlZdQiA-DBIDCcaWtQzL4BZHoiDkH5YFP5rPuF6EA.ttf",
+    "600italic": "http://fonts.gstatic.com/s/ibarrarealnova/v2/sZladQiA-DBIDCcaWtQzL4BZHoiDkH5gzNBPNspmGXawpg.ttf",
+    "700italic": "http://fonts.gstatic.com/s/ibarrarealnova/v2/sZladQiA-DBIDCcaWtQzL4BZHoiDkH5gqNFPNspmGXawpg.ttf"
+  }
+}

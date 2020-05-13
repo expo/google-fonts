@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Odibee Sans",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v1",
+  "lastModified": "2020-03-03",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/odibeesans/v1/neIPzCSooYAho6WvjeToRYkyepH9qGsf.ttf"
+  }
+}

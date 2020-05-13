@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Vidaloka",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v12",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/vidaloka/v12/7cHrv4c3ipenMKlEass8yn4hnCci.ttf" }
+}

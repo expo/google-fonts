@@ -1,0 +1,16 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Hind Madurai",
+  "category": "sans-serif",
+  "variants": ["300", "regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext", "tamil"],
+  "version": "v5",
+  "lastModified": "2019-07-17",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/hindmadurai/v5/f0Xu0e2p98ZvDXdZQIOcpqjfXaUnecsoMJ0b_g.ttf",
+    "500": "http://fonts.gstatic.com/s/hindmadurai/v5/f0Xu0e2p98ZvDXdZQIOcpqjfBaQnecsoMJ0b_g.ttf",
+    "600": "http://fonts.gstatic.com/s/hindmadurai/v5/f0Xu0e2p98ZvDXdZQIOcpqjfKaMnecsoMJ0b_g.ttf",
+    "700": "http://fonts.gstatic.com/s/hindmadurai/v5/f0Xu0e2p98ZvDXdZQIOcpqjfTaInecsoMJ0b_g.ttf",
+    "regular": "http://fonts.gstatic.com/s/hindmadurai/v5/f0Xx0e2p98ZvDXdZQIOcpqjn8Y0DceA0OQ.ttf"
+  }
+}

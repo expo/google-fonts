@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Quattrocento Sans",
+  "category": "sans-serif",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v12",
+  "lastModified": "2019-07-17",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/quattrocentosans/v12/va9Z4lja2NVIDdIAAoMR5MfuElaRB0RykmrWN33AiasJ.ttf",
+    "regular": "http://fonts.gstatic.com/s/quattrocentosans/v12/va9c4lja2NVIDdIAAoMR5MfuElaRB3zOvU7eHGHJ.ttf",
+    "italic": "http://fonts.gstatic.com/s/quattrocentosans/v12/va9a4lja2NVIDdIAAoMR5MfuElaRB0zMt0r8GXHJkLI.ttf",
+    "700italic": "http://fonts.gstatic.com/s/quattrocentosans/v12/va9X4lja2NVIDdIAAoMR5MfuElaRB0zMj_bTPXnijLsJV7E.ttf"
+  }
+}

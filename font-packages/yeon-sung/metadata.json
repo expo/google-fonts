@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Yeon Sung",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["korean", "latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/yeonsung/v8/QldMNTpbohAGtsJvUn6xSVNazqx2xg.ttf"
+  }
+}

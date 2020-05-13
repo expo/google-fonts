@@ -1,0 +1,24 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Cousine",
+  "category": "monospace",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "hebrew",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
+  "version": "v14",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/cousine/v14/d6lNkaiiRdih4SpP9Z8K6T7G09BlnmQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/cousine/v14/d6lIkaiiRdih4SpPzSMlzTbtz9k.ttf",
+    "italic": "http://fonts.gstatic.com/s/cousine/v14/d6lKkaiiRdih4SpP_SEvyRTo39l8hw.ttf",
+    "700italic": "http://fonts.gstatic.com/s/cousine/v14/d6lPkaiiRdih4SpP_SEXdTvM1_JgjmRpOA.ttf"
+  }
+}

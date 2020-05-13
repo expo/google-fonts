@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Allan",
+  "category": "display",
+  "variants": ["regular", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v12",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/allan/v12/ea8aadU7WuTxEu5KEPCN2WpNgEKU.ttf",
+    "regular": "http://fonts.gstatic.com/s/allan/v12/ea8XadU7WuTxEtb2P9SF8nZE.ttf"
+  }
+}

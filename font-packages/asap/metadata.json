@@ -1,0 +1,19 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Asap",
+  "category": "sans-serif",
+  "variants": ["regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v11",
+  "lastModified": "2019-07-26",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/asap/v11/KFOnCniXp96aw8g9xUxlBz88MsA.ttf",
+    "600": "http://fonts.gstatic.com/s/asap/v11/KFOnCniXp96aw-Q6xUxlBz88MsA.ttf",
+    "700": "http://fonts.gstatic.com/s/asap/v11/KFOnCniXp96aw4A7xUxlBz88MsA.ttf",
+    "regular": "http://fonts.gstatic.com/s/asap/v11/KFOoCniXp96a-zwU4UROGzY.ttf",
+    "italic": "http://fonts.gstatic.com/s/asap/v11/KFOmCniXp96ayz4e5WZLCzYlKw.ttf",
+    "500italic": "http://fonts.gstatic.com/s/asap/v11/KFOlCniXp96ayz4mEU9vAx05IsDqlA.ttf",
+    "600italic": "http://fonts.gstatic.com/s/asap/v11/KFOlCniXp96ayz4mPUhvAx05IsDqlA.ttf",
+    "700italic": "http://fonts.gstatic.com/s/asap/v11/KFOlCniXp96ayz4mWUlvAx05IsDqlA.ttf"
+  }
+}

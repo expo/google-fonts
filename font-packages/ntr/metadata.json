@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "NTR",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["latin", "telugu"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/ntr/v7/RLpzK5Xy0ZjiGGhs5TA4bg.ttf" }
+}

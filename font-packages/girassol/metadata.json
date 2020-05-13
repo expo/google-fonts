@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Girassol",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2020-03-03",
+  "files": { "regular": "http://fonts.gstatic.com/s/girassol/v1/JTUUjIo_-DK48laaNC9Nz2pJzxbi.ttf" }
+}

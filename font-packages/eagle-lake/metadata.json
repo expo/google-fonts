@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Eagle Lake",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/eaglelake/v7/ptRMTiqbbuNJDOiKj9wG5O7yKQNute8.ttf"
+  }
+}

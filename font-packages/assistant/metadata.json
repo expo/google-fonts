@@ -1,0 +1,17 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Assistant",
+  "category": "sans-serif",
+  "variants": ["200", "300", "regular", "600", "700", "800"],
+  "subsets": ["hebrew", "latin"],
+  "version": "v4",
+  "lastModified": "2019-07-17",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/assistant/v4/2sDZZGJYnIjSi6H75xk7p0ScA5cZbCjItw.ttf",
+    "300": "http://fonts.gstatic.com/s/assistant/v4/2sDZZGJYnIjSi6H75xk7w0ecA5cZbCjItw.ttf",
+    "600": "http://fonts.gstatic.com/s/assistant/v4/2sDZZGJYnIjSi6H75xk7t0GcA5cZbCjItw.ttf",
+    "700": "http://fonts.gstatic.com/s/assistant/v4/2sDZZGJYnIjSi6H75xk700CcA5cZbCjItw.ttf",
+    "800": "http://fonts.gstatic.com/s/assistant/v4/2sDZZGJYnIjSi6H75xk7z0OcA5cZbCjItw.ttf",
+    "regular": "http://fonts.gstatic.com/s/assistant/v4/2sDcZGJYnIjSi6H75xkDb2-4C7wFZQ.ttf"
+  }
+}

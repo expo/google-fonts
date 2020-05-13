@@ -1,0 +1,19 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Manuale",
+  "category": "serif",
+  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v6",
+  "lastModified": "2020-02-05",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/manuale/v6/f0Xp0eas_8Z-TFZdHv3mMxFaSqASeeHWe7wD1TB_JHHY.ttf",
+    "600": "http://fonts.gstatic.com/s/manuale/v6/f0Xp0eas_8Z-TFZdHv3mMxFaSqASeeE6fLwD1TB_JHHY.ttf",
+    "700": "http://fonts.gstatic.com/s/manuale/v6/f0Xp0eas_8Z-TFZdHv3mMxFaSqASeeEDfLwD1TB_JHHY.ttf",
+    "regular": "http://fonts.gstatic.com/s/manuale/v6/f0Xp0eas_8Z-TFZdHv3mMxFaSqASeeHke7wD1TB_JHHY.ttf",
+    "italic": "http://fonts.gstatic.com/s/manuale/v6/f0Xn0eas_8Z-TFZdNPTUzMkzITq8fvQsOFRA3zRdIWHYr8M.ttf",
+    "500italic": "http://fonts.gstatic.com/s/manuale/v6/f0Xn0eas_8Z-TFZdNPTUzMkzITq8fvQsOGZA3zRdIWHYr8M.ttf",
+    "600italic": "http://fonts.gstatic.com/s/manuale/v6/f0Xn0eas_8Z-TFZdNPTUzMkzITq8fvQsOIpH3zRdIWHYr8M.ttf",
+    "700italic": "http://fonts.gstatic.com/s/manuale/v6/f0Xn0eas_8Z-TFZdNPTUzMkzITq8fvQsOLNH3zRdIWHYr8M.ttf"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Khula",
+  "category": "sans-serif",
+  "variants": ["300", "regular", "600", "700", "800"],
+  "subsets": ["devanagari", "latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2019-07-16",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/khula/v5/OpNPnoEOns3V7G-ljCvUrC59XwXD.ttf",
+    "600": "http://fonts.gstatic.com/s/khula/v5/OpNPnoEOns3V7G_RiivUrC59XwXD.ttf",
+    "700": "http://fonts.gstatic.com/s/khula/v5/OpNPnoEOns3V7G-1iyvUrC59XwXD.ttf",
+    "800": "http://fonts.gstatic.com/s/khula/v5/OpNPnoEOns3V7G-piCvUrC59XwXD.ttf",
+    "regular": "http://fonts.gstatic.com/s/khula/v5/OpNCnoEOns3V7FcJpA_chzJ0.ttf"
+  }
+}

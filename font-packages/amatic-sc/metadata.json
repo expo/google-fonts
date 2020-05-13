@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Amatic SC",
+  "category": "handwriting",
+  "variants": ["regular", "700"],
+  "subsets": ["cyrillic", "hebrew", "latin", "latin-ext", "vietnamese"],
+  "version": "v13",
+  "lastModified": "2019-07-17",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/amaticsc/v13/TUZ3zwprpvBS1izr_vOMscG6eb8D3WTy-A.ttf",
+    "regular": "http://fonts.gstatic.com/s/amaticsc/v13/TUZyzwprpvBS1izr_vO0De6ecZQf1A.ttf"
+  }
+}

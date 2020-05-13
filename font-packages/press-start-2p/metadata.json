@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Press Start 2P",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK0nSgPJE4580.ttf"
+  }
+}

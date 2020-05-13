@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Sirin Stencil",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/sirinstencil/v8/mem4YaWwznmLx-lzGfN7MdRydchGBq6al6o.ttf"
+  }
+}

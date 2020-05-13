@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Delius",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/delius/v9/PN_xRfK0pW_9e1rtYcI-jT3L_w.ttf" }
+}

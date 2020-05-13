@@ -1,0 +1,32 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Proza Libre",
+  "category": "sans-serif",
+  "variants": [
+    "regular",
+    "italic",
+    "500",
+    "500italic",
+    "600",
+    "600italic",
+    "700",
+    "700italic",
+    "800",
+    "800italic"
+  ],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2019-07-16",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/prozalibre/v4/LYjbdGHgj0k1DIQRyUEyyELbV__fcpC69i6N.ttf",
+    "600": "http://fonts.gstatic.com/s/prozalibre/v4/LYjbdGHgj0k1DIQRyUEyyEL3UP_fcpC69i6N.ttf",
+    "700": "http://fonts.gstatic.com/s/prozalibre/v4/LYjbdGHgj0k1DIQRyUEyyEKTUf_fcpC69i6N.ttf",
+    "800": "http://fonts.gstatic.com/s/prozalibre/v4/LYjbdGHgj0k1DIQRyUEyyEKPUv_fcpC69i6N.ttf",
+    "regular": "http://fonts.gstatic.com/s/prozalibre/v4/LYjGdGHgj0k1DIQRyUEyyHovftvXWYyz.ttf",
+    "italic": "http://fonts.gstatic.com/s/prozalibre/v4/LYjEdGHgj0k1DIQRyUEyyEotdN_1XJyz7zc.ttf",
+    "500italic": "http://fonts.gstatic.com/s/prozalibre/v4/LYjZdGHgj0k1DIQRyUEyyEotTCvceJSY8z6Np1k.ttf",
+    "600italic": "http://fonts.gstatic.com/s/prozalibre/v4/LYjZdGHgj0k1DIQRyUEyyEotTAfbeJSY8z6Np1k.ttf",
+    "700italic": "http://fonts.gstatic.com/s/prozalibre/v4/LYjZdGHgj0k1DIQRyUEyyEotTGPaeJSY8z6Np1k.ttf",
+    "800italic": "http://fonts.gstatic.com/s/prozalibre/v4/LYjZdGHgj0k1DIQRyUEyyEotTH_ZeJSY8z6Np1k.ttf"
+  }
+}

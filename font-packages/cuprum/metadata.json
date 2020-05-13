@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Cuprum",
+  "category": "sans-serif",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v11",
+  "lastModified": "2019-07-17",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/cuprum/v11/dg4n_pLmvrkcOkBFnc5nj5YpQwM-gg.ttf",
+    "regular": "http://fonts.gstatic.com/s/cuprum/v11/dg4k_pLmvrkcOkB9IeFDh701Sg.ttf",
+    "italic": "http://fonts.gstatic.com/s/cuprum/v11/dg4m_pLmvrkcOkBNI-tHpbglShon.ttf",
+    "700italic": "http://fonts.gstatic.com/s/cuprum/v11/dg4h_pLmvrkcOkBNI9P7ipwtYQYugjW4.ttf"
+  }
+}

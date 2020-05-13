@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Eater",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/eater/v8/mtG04_FCK7bOvpu2u3FwsXsR.ttf" }
+}

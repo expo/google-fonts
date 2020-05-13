@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Lusitana",
+  "category": "serif",
+  "variants": ["regular", "700"],
+  "subsets": ["latin"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/lusitana/v7/CSR74z9ShvucWzsMKyDmaccqYtd2vfwk.ttf",
+    "regular": "http://fonts.gstatic.com/s/lusitana/v7/CSR84z9ShvucWzsMKxhaRuMiSct_.ttf"
+  }
+}

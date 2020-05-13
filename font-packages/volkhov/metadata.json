@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Volkhov",
+  "category": "serif",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": ["latin"],
+  "version": "v11",
+  "lastModified": "2019-07-17",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/volkhov/v11/SlGVmQieoJcKemNeeY4hoHRYbDQUego.ttf",
+    "regular": "http://fonts.gstatic.com/s/volkhov/v11/SlGQmQieoJcKemNeQTIOhHxzcD0.ttf",
+    "italic": "http://fonts.gstatic.com/s/volkhov/v11/SlGSmQieoJcKemNecTAEgF52YD0NYw.ttf",
+    "700italic": "http://fonts.gstatic.com/s/volkhov/v11/SlGXmQieoJcKemNecTA8PHFSaBYRagrQrA.ttf"
+  }
+}

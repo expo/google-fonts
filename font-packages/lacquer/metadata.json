@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Lacquer",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v2",
+  "lastModified": "2020-03-06",
+  "files": { "regular": "http://fonts.gstatic.com/s/lacquer/v2/EYqzma1QwqpG4_BBB7-AXhttQ5I.ttf" }
+}

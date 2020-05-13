@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Tenor Sans",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "latin", "latin-ext"],
+  "version": "v11",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/tenorsans/v11/bx6ANxqUneKx06UkIXISr3JyC22IyqI.ttf"
+  }
+}

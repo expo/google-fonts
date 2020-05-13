@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Brawler",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/brawler/v10/xn7gYHE3xXewAscGsgC7S9XdZN8.ttf" }
+}

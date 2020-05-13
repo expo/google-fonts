@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Pirata One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/pirataone/v8/I_urMpiDvgLdLh0fAtoftiiEr5_BdZ8.ttf"
+  }
+}

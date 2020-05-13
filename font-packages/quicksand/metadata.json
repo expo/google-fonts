@@ -1,0 +1,16 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Quicksand",
+  "category": "sans-serif",
+  "variants": ["300", "regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v20",
+  "lastModified": "2020-02-05",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/quicksand/v20/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkKEo18G0wx40QDw.ttf",
+    "500": "http://fonts.gstatic.com/s/quicksand/v20/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkM0o18G0wx40QDw.ttf",
+    "600": "http://fonts.gstatic.com/s/quicksand/v20/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkCEv18G0wx40QDw.ttf",
+    "700": "http://fonts.gstatic.com/s/quicksand/v20/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkBgv18G0wx40QDw.ttf",
+    "regular": "http://fonts.gstatic.com/s/quicksand/v20/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o18G0wx40QDw.ttf"
+  }
+}

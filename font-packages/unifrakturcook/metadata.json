@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "UnifrakturCook",
+  "category": "display",
+  "variants": ["700"],
+  "subsets": ["latin"],
+  "version": "v11",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/unifrakturcook/v11/IurA6Yli8YOdcoky-0PTTdkm56n05Uw13ILXs-h6.ttf"
+  }
+}

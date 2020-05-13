@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Barrio",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/barrio/v4/wEO8EBXBk8hBIDiEdQYhWdsX1Q.ttf" }
+}

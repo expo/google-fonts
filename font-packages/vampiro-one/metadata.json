@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Vampiro One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/vampiroone/v10/gokqH6DoDl5yXvJytFsdLkqnsvhIor3K.ttf"
+  }
+}

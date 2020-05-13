@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Shadows Into Light",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-17",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/shadowsintolight/v9/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQDcsr4xzSMYA.ttf"
+  }
+}

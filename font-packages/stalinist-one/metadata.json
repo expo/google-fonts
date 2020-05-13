@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Stalinist One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "latin", "latin-ext"],
+  "version": "v25",
+  "lastModified": "2019-12-05",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/stalinistone/v25/MQpS-WezM9W4Dd7D3B7I-UT7eZ-UPyacPbo.ttf"
+  }
+}

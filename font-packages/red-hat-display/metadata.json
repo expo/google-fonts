@@ -1,0 +1,19 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Red Hat Display",
+  "category": "sans-serif",
+  "variants": ["regular", "italic", "500", "500italic", "700", "700italic", "900", "900italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v3",
+  "lastModified": "2019-11-05",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/redhatdisplay/v3/8vIV7wUr0m80wwYf0QCXZzYzUoToDh2EbaDBAEdAbw.ttf",
+    "700": "http://fonts.gstatic.com/s/redhatdisplay/v3/8vIV7wUr0m80wwYf0QCXZzYzUoToRhuEbaDBAEdAbw.ttf",
+    "900": "http://fonts.gstatic.com/s/redhatdisplay/v3/8vIV7wUr0m80wwYf0QCXZzYzUoTofhmEbaDBAEdAbw.ttf",
+    "regular": "http://fonts.gstatic.com/s/redhatdisplay/v3/8vIQ7wUr0m80wwYf0QCXZzYzUoTQ-jSgZYvdCQ.ttf",
+    "italic": "http://fonts.gstatic.com/s/redhatdisplay/v3/8vIS7wUr0m80wwYf0QCXZzYzUoTg-D6kR47NCV5Z.ttf",
+    "500italic": "http://fonts.gstatic.com/s/redhatdisplay/v3/8vIX7wUr0m80wwYf0QCXZzYzUoTg-AZQbqrFIkJQb7zU.ttf",
+    "700italic": "http://fonts.gstatic.com/s/redhatdisplay/v3/8vIX7wUr0m80wwYf0QCXZzYzUoTg-AYYaKrFIkJQb7zU.ttf",
+    "900italic": "http://fonts.gstatic.com/s/redhatdisplay/v3/8vIX7wUr0m80wwYf0QCXZzYzUoTg-AYgaqrFIkJQb7zU.ttf"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Expletus Sans",
+  "category": "display",
+  "variants": ["regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+  "subsets": ["latin"],
+  "version": "v13",
+  "lastModified": "2019-07-16",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/expletussans/v13/RLpkK5v5_bqufTYdnhFzDj2dfQ07n6kFUHPIFaU.ttf",
+    "600": "http://fonts.gstatic.com/s/expletussans/v13/RLpkK5v5_bqufTYdnhFzDj2dfSE8n6kFUHPIFaU.ttf",
+    "700": "http://fonts.gstatic.com/s/expletussans/v13/RLpkK5v5_bqufTYdnhFzDj2dfUU9n6kFUHPIFaU.ttf",
+    "regular": "http://fonts.gstatic.com/s/expletussans/v13/RLp5K5v5_bqufTYdnhFzDj2dRfkSu6EuTHo.ttf",
+    "italic": "http://fonts.gstatic.com/s/expletussans/v13/RLpnK5v5_bqufTYdnhFzDj2ddfsYv4MrXHrRDA.ttf",
+    "500italic": "http://fonts.gstatic.com/s/expletussans/v13/RLpiK5v5_bqufTYdnhFzDj2ddfsgS6oPVFHNBaVImA.ttf",
+    "600italic": "http://fonts.gstatic.com/s/expletussans/v13/RLpiK5v5_bqufTYdnhFzDj2ddfsgZ60PVFHNBaVImA.ttf",
+    "700italic": "http://fonts.gstatic.com/s/expletussans/v13/RLpiK5v5_bqufTYdnhFzDj2ddfsgA6wPVFHNBaVImA.ttf"
+  }
+}

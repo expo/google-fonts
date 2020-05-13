@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Henny Penny",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/hennypenny/v7/wXKvE3UZookzsxz_kjGSfMQqt3M7tMDT.ttf"
+  }
+}

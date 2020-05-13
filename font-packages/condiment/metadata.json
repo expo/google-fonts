@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Condiment",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/condiment/v7/pONk1hggFNmwvXALyH6Sq4n4o1vyCQ.ttf"
+  }
+}

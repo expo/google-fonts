@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Italiana",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/italiana/v8/QldNNTtLsx4E__B0XTmRY31Wx7Vv.ttf" }
+}

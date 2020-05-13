@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Unkempt",
+  "category": "display",
+  "variants": ["regular", "700"],
+  "subsets": ["latin"],
+  "version": "v11",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/unkempt/v11/2EbiL-Z2DFZue0DScTow1zWzq_5uT84.ttf",
+    "regular": "http://fonts.gstatic.com/s/unkempt/v11/2EbnL-Z2DFZue0DSSYYf8z2Yt_c.ttf"
+  }
+}

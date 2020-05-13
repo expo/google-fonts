@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Reem Kufi",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["arabic", "latin"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/reemkufi/v7/2sDcZGJLip7W2J7v7wQDb2-4C7wFZQ.ttf"
+  }
+}

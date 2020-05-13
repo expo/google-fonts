@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Londrina Outline",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/londrinaoutline/v10/C8c44dM8vmb14dfsZxhetg3pDH-SfuoxrSKMDvI.ttf"
+  }
+}

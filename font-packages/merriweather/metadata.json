@@ -1,0 +1,19 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Merriweather",
+  "category": "serif",
+  "variants": ["300", "300italic", "regular", "italic", "700", "700italic", "900", "900italic"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v21",
+  "lastModified": "2019-07-22",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/merriweather/v21/u-4n0qyriQwlOrhSvowK_l521wRpX837pvjxPA.ttf",
+    "700": "http://fonts.gstatic.com/s/merriweather/v21/u-4n0qyriQwlOrhSvowK_l52xwNpX837pvjxPA.ttf",
+    "900": "http://fonts.gstatic.com/s/merriweather/v21/u-4n0qyriQwlOrhSvowK_l52_wFpX837pvjxPA.ttf",
+    "300italic": "http://fonts.gstatic.com/s/merriweather/v21/u-4l0qyriQwlOrhSvowK_l5-eR7lXcf_hP3hPGWH.ttf",
+    "regular": "http://fonts.gstatic.com/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5OeyxNV-bnrw.ttf",
+    "italic": "http://fonts.gstatic.com/s/merriweather/v21/u-4m0qyriQwlOrhSvowK_l5-eSZJdeP3r-Ho.ttf",
+    "700italic": "http://fonts.gstatic.com/s/merriweather/v21/u-4l0qyriQwlOrhSvowK_l5-eR71Wsf_hP3hPGWH.ttf",
+    "900italic": "http://fonts.gstatic.com/s/merriweather/v21/u-4l0qyriQwlOrhSvowK_l5-eR7NWMf_hP3hPGWH.ttf"
+  }
+}

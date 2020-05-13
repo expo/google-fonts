@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Sorts Mill Goudy",
+  "category": "serif",
+  "variants": ["regular", "italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/sortsmillgoudy/v9/Qw3GZR9MED_6PSuS_50nEaVrfzgEXH0OjpM75PE.ttf",
+    "italic": "http://fonts.gstatic.com/s/sortsmillgoudy/v9/Qw3AZR9MED_6PSuS_50nEaVrfzgEbH8EirE-9PGLfQ.ttf"
+  }
+}

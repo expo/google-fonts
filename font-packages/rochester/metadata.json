@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Rochester",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/rochester/v10/6ae-4KCqVa4Zy6Fif-Uy31vWNTMwoQ.ttf"
+  }
+}

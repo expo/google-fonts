@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Lobster",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v22",
+  "lastModified": "2019-07-17",
+  "files": { "regular": "http://fonts.gstatic.com/s/lobster/v22/neILzCirqoswsqX9_oWsMqEzSJQ.ttf" }
+}

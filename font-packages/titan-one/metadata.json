@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Titan One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/titanone/v7/mFTzWbsGxbbS_J5cQcjykzIn2Etikg.ttf"
+  }
+}

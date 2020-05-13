@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Elsie",
+  "category": "display",
+  "variants": ["regular", "900"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "900": "http://fonts.gstatic.com/s/elsie/v9/BCaqqZABrez54x6q2-1IU6QeXSBk.ttf",
+    "regular": "http://fonts.gstatic.com/s/elsie/v9/BCanqZABrez54yYu9slAeLgX.ttf"
+  }
+}

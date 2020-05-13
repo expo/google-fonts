@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Galdeano",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/galdeano/v9/uU9MCBoQ4YOqOW1boDPx8PCOg0uX.ttf" }
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Kosugi",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "japanese", "latin"],
+  "version": "v6",
+  "lastModified": "2020-03-03",
+  "files": { "regular": "http://fonts.gstatic.com/s/kosugi/v6/pxiFyp4_v8FCjlI4NLr6f1pdEQ.ttf" }
+}

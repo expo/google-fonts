@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Mountains of Christmas",
+  "category": "display",
+  "variants": ["regular", "700"],
+  "subsets": ["latin"],
+  "version": "v12",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/mountainsofchristmas/v12/3y9z6a4zcCnn5X0FDyrKi2ZRUBIy8uxoUo7eBGqJFPtCOp6IaEA.ttf",
+    "regular": "http://fonts.gstatic.com/s/mountainsofchristmas/v12/3y9w6a4zcCnn5X0FDyrKi2ZRUBIy8uxoUo7ePNamMPNpJpc.ttf"
+  }
+}

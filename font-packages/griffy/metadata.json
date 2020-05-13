@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Griffy",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/griffy/v8/FwZa7-ox2FQh9kfwSNSEwM2zpA.ttf" }
+}

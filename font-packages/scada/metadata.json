@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Scada",
+  "category": "sans-serif",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/scada/v8/RLp8K5Pv5qumeVrU6BEgRVfmZOE5.ttf",
+    "regular": "http://fonts.gstatic.com/s/scada/v8/RLpxK5Pv5qumeWJoxzUobkvv.ttf",
+    "italic": "http://fonts.gstatic.com/s/scada/v8/RLp_K5Pv5qumeVJqzTEKa1vvffg.ttf",
+    "700italic": "http://fonts.gstatic.com/s/scada/v8/RLp6K5Pv5qumeVJq9Y0lT1PEYfE5p6g.ttf"
+  }
+}

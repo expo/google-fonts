@@ -1,0 +1,24 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Noto Sans",
+  "category": "sans-serif",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "devanagari",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
+  "version": "v9",
+  "lastModified": "2019-07-22",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/notosans/v9/o-0NIpQlx3QUlC5A4PNjXhFlY9aA5Wl6PQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosans/v9/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.ttf",
+    "italic": "http://fonts.gstatic.com/s/notosans/v9/o-0OIpQlx3QUlC5A4PNr4DRFSfiM7HBj.ttf",
+    "700italic": "http://fonts.gstatic.com/s/notosans/v9/o-0TIpQlx3QUlC5A4PNr4Az5ZtyEx2xqPaif.ttf"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Sahitya",
+  "category": "serif",
+  "variants": ["regular", "700"],
+  "subsets": ["devanagari", "latin"],
+  "version": "v4",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/sahitya/v4/6qLFKZkOuhnuqlJAUZsqGyQvEnvSexI.ttf",
+    "regular": "http://fonts.gstatic.com/s/sahitya/v4/6qLAKZkOuhnuqlJAaScFPywEDnI.ttf"
+  }
+}

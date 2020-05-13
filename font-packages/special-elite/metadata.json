@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Special Elite",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-17",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/specialelite/v10/XLYgIZbkc4JPUL5CVArUVL0nhncESXFtUsM.ttf"
+  }
+}

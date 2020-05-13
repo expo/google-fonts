@@ -1,0 +1,14 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Old Standard TT",
+  "category": "serif",
+  "variants": ["regular", "italic", "700"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v12",
+  "lastModified": "2019-07-17",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/oldstandardtt/v12/MwQrbh3o1vLImiwAVvYawgcf2eVWEX-dTFxeb80flQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/oldstandardtt/v12/MwQubh3o1vLImiwAVvYawgcf2eVurVC5RHdCZg.ttf",
+    "italic": "http://fonts.gstatic.com/s/oldstandardtt/v12/MwQsbh3o1vLImiwAVvYawgcf2eVer1q9ZnJSZtQG.ttf"
+  }
+}

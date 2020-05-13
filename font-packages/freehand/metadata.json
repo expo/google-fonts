@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Freehand",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["khmer"],
+  "version": "v11",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/freehand/v11/cIf-Ma5eqk01VjKTgAmBTmUOmZJk.ttf" }
+}

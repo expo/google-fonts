@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Play",
+  "category": "sans-serif",
+  "variants": ["regular", "700"],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "vietnamese"],
+  "version": "v11",
+  "lastModified": "2019-07-17",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/play/v11/6ae84K2oVqwItm4TOpc423nTJTM.ttf",
+    "regular": "http://fonts.gstatic.com/s/play/v11/6aez4K2oVqwIjtI8Hp8Tx3A.ttf"
+  }
+}

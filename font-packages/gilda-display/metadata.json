@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Gilda Display",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/gildadisplay/v7/t5tmIRoYMoaYG0WEOh7HwMeR7TnFrpOHYh4.ttf"
+  }
+}

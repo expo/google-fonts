@@ -1,0 +1,17 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Noto Sans KR",
+  "category": "sans-serif",
+  "variants": ["100", "300", "regular", "500", "700", "900"],
+  "subsets": ["korean", "latin"],
+  "version": "v12",
+  "lastModified": "2019-07-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notosanskr/v12/Pby6FmXiEBPT4ITbgNA5CgmOsn7uwpYcuH8y.otf",
+    "300": "http://fonts.gstatic.com/s/notosanskr/v12/Pby7FmXiEBPT4ITbgNA5CgmOelzI7rgQsWYrzw.otf",
+    "500": "http://fonts.gstatic.com/s/notosanskr/v12/Pby7FmXiEBPT4ITbgNA5CgmOIl3I7rgQsWYrzw.otf",
+    "700": "http://fonts.gstatic.com/s/notosanskr/v12/Pby7FmXiEBPT4ITbgNA5CgmOalvI7rgQsWYrzw.otf",
+    "900": "http://fonts.gstatic.com/s/notosanskr/v12/Pby7FmXiEBPT4ITbgNA5CgmOUlnI7rgQsWYrzw.otf",
+    "regular": "http://fonts.gstatic.com/s/notosanskr/v12/PbykFmXiEBPT4ITbgNA5Cgm20HTs4JMMuA.otf"
+  }
+}

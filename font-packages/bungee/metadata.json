@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Bungee",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/bungee/v5/N0bU2SZBIuF2PU_ECn50Kd_PmA.ttf" }
+}

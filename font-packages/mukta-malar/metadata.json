@@ -1,0 +1,18 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Mukta Malar",
+  "category": "sans-serif",
+  "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["latin", "latin-ext", "tamil"],
+  "version": "v6",
+  "lastModified": "2019-07-16",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/muktamalar/v6/MCoKzAXyz8LOE2FpJMxZqIMwBtAB62ruoAZW.ttf",
+    "300": "http://fonts.gstatic.com/s/muktamalar/v6/MCoKzAXyz8LOE2FpJMxZqINUBdAB62ruoAZW.ttf",
+    "500": "http://fonts.gstatic.com/s/muktamalar/v6/MCoKzAXyz8LOE2FpJMxZqIMMBNAB62ruoAZW.ttf",
+    "600": "http://fonts.gstatic.com/s/muktamalar/v6/MCoKzAXyz8LOE2FpJMxZqIMgA9AB62ruoAZW.ttf",
+    "700": "http://fonts.gstatic.com/s/muktamalar/v6/MCoKzAXyz8LOE2FpJMxZqINEAtAB62ruoAZW.ttf",
+    "800": "http://fonts.gstatic.com/s/muktamalar/v6/MCoKzAXyz8LOE2FpJMxZqINYAdAB62ruoAZW.ttf",
+    "regular": "http://fonts.gstatic.com/s/muktamalar/v6/MCoXzAXyz8LOE2FpJMxZqLv4LfQJwHbn.ttf"
+  }
+}

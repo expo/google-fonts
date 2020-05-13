@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Charm",
+  "category": "handwriting",
+  "variants": ["regular", "700"],
+  "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
+  "version": "v4",
+  "lastModified": "2019-11-05",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/charm/v4/7cHrv4oii5K0Md6TDss8yn4hnCci.ttf",
+    "regular": "http://fonts.gstatic.com/s/charm/v4/7cHmv4oii5K0MeYvIe804WIo.ttf"
+  }
+}

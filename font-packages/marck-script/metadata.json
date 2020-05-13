@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Marck Script",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "latin", "latin-ext"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/marckscript/v10/nwpTtK2oNgBA3Or78gapdwuCzyI-aMPF7Q.ttf"
+  }
+}

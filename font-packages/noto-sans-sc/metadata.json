@@ -1,0 +1,17 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Noto Sans SC",
+  "category": "sans-serif",
+  "variants": ["100", "300", "regular", "500", "700", "900"],
+  "subsets": ["chinese-simplified", "latin"],
+  "version": "v11",
+  "lastModified": "2020-03-05",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notosanssc/v11/k3kJo84MPvpLmixcA63oeALZTYKL2wv287Sb.otf",
+    "300": "http://fonts.gstatic.com/s/notosanssc/v11/k3kIo84MPvpLmixcA63oeALZhaCt9yX6-q2CGg.otf",
+    "500": "http://fonts.gstatic.com/s/notosanssc/v11/k3kIo84MPvpLmixcA63oeALZ3aGt9yX6-q2CGg.otf",
+    "700": "http://fonts.gstatic.com/s/notosanssc/v11/k3kIo84MPvpLmixcA63oeALZlaet9yX6-q2CGg.otf",
+    "900": "http://fonts.gstatic.com/s/notosanssc/v11/k3kIo84MPvpLmixcA63oeALZraWt9yX6-q2CGg.otf",
+    "regular": "http://fonts.gstatic.com/s/notosanssc/v11/k3kXo84MPvpLmixcA63oeALhL4iJ-Q7m8w.otf"
+  }
+}

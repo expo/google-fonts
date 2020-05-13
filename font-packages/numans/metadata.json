@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Numans",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/numans/v9/SlGRmQmGupYAfH8IYRggiHVqaQ.ttf" }
+}

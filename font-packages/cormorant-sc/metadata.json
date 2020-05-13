@@ -1,0 +1,16 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Cormorant SC",
+  "category": "serif",
+  "variants": ["300", "regular", "500", "600", "700"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/cormorantsc/v8/0ybmGD4kxqXBmOVLG30OGwsmABIU_R3y8DOWGA.ttf",
+    "500": "http://fonts.gstatic.com/s/cormorantsc/v8/0ybmGD4kxqXBmOVLG30OGwsmWBMU_R3y8DOWGA.ttf",
+    "600": "http://fonts.gstatic.com/s/cormorantsc/v8/0ybmGD4kxqXBmOVLG30OGwsmdBQU_R3y8DOWGA.ttf",
+    "700": "http://fonts.gstatic.com/s/cormorantsc/v8/0ybmGD4kxqXBmOVLG30OGwsmEBUU_R3y8DOWGA.ttf",
+    "regular": "http://fonts.gstatic.com/s/cormorantsc/v8/0yb5GD4kxqXBmOVLG30OGwserDow9Tbu-Q.ttf"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Mystery Quest",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/mysteryquest/v7/-nF6OG414u0E6k0wynSGlujRHwElD_9Qz9E.ttf"
+  }
+}

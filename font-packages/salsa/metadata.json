@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Salsa",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/salsa/v9/gNMKW3FiRpKj-imY8ncKEZez.ttf" }
+}

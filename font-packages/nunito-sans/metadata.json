@@ -1,0 +1,40 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Nunito Sans",
+  "category": "sans-serif",
+  "variants": [
+    "200",
+    "200italic",
+    "300",
+    "300italic",
+    "regular",
+    "italic",
+    "600",
+    "600italic",
+    "700",
+    "700italic",
+    "800",
+    "800italic",
+    "900",
+    "900italic"
+  ],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2019-07-22",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc9yAv5qWVAgVol-.ttf",
+    "300": "http://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8WAf5qWVAgVol-.ttf",
+    "600": "http://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc9iB_5qWVAgVol-.ttf",
+    "700": "http://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8GBv5qWVAgVol-.ttf",
+    "800": "http://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8aBf5qWVAgVol-.ttf",
+    "900": "http://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8-BP5qWVAgVol-.ttf",
+    "200italic": "http://fonts.gstatic.com/s/nunitosans/v5/pe01MImSLYBIv1o4X1M8cce4GxZrU1QCU5l-06Y.ttf",
+    "300italic": "http://fonts.gstatic.com/s/nunitosans/v5/pe01MImSLYBIv1o4X1M8cce4G3JoU1QCU5l-06Y.ttf",
+    "regular": "http://fonts.gstatic.com/s/nunitosans/v5/pe0qMImSLYBIv1o4X1M8cfe6Kdpickwp.ttf",
+    "italic": "http://fonts.gstatic.com/s/nunitosans/v5/pe0oMImSLYBIv1o4X1M8cce4I95Ad1wpT5A.ttf",
+    "600italic": "http://fonts.gstatic.com/s/nunitosans/v5/pe01MImSLYBIv1o4X1M8cce4GwZuU1QCU5l-06Y.ttf",
+    "700italic": "http://fonts.gstatic.com/s/nunitosans/v5/pe01MImSLYBIv1o4X1M8cce4G2JvU1QCU5l-06Y.ttf",
+    "800italic": "http://fonts.gstatic.com/s/nunitosans/v5/pe01MImSLYBIv1o4X1M8cce4G35sU1QCU5l-06Y.ttf",
+    "900italic": "http://fonts.gstatic.com/s/nunitosans/v5/pe01MImSLYBIv1o4X1M8cce4G1ptU1QCU5l-06Y.ttf"
+  }
+}

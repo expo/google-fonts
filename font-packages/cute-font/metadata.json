@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Cute Font",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["korean", "latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/cutefont/v8/Noaw6Uny2oWPbSHMrY6vmJNVNC9hkw.ttf"
+  }
+}

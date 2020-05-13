@@ -1,0 +1,32 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Rubik",
+  "category": "sans-serif",
+  "variants": [
+    "300",
+    "300italic",
+    "regular",
+    "italic",
+    "500",
+    "500italic",
+    "700",
+    "700italic",
+    "900",
+    "900italic"
+  ],
+  "subsets": ["cyrillic", "hebrew", "latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-22",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7Fqj1ma-2HW7ZB_.ttf",
+    "500": "http://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7Eyjlma-2HW7ZB_.ttf",
+    "700": "http://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7F6iFma-2HW7ZB_.ttf",
+    "900": "http://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7FCilma-2HW7ZB_.ttf",
+    "300italic": "http://fonts.gstatic.com/s/rubik/v9/iJWBBXyIfDnIV7nEldWY8WX06IB_18o.ttf",
+    "regular": "http://fonts.gstatic.com/s/rubik/v9/iJWKBXyIfDnIV4nGp32S0H3f.ttf",
+    "italic": "http://fonts.gstatic.com/s/rubik/v9/iJWEBXyIfDnIV7nErXmw1W3f9Ik.ttf",
+    "500italic": "http://fonts.gstatic.com/s/rubik/v9/iJWBBXyIfDnIV7nElY2Z8WX06IB_18o.ttf",
+    "700italic": "http://fonts.gstatic.com/s/rubik/v9/iJWBBXyIfDnIV7nElcWf8WX06IB_18o.ttf",
+    "900italic": "http://fonts.gstatic.com/s/rubik/v9/iJWBBXyIfDnIV7nElf2d8WX06IB_18o.ttf"
+  }
+}

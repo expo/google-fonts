@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Ubuntu Mono",
+  "category": "monospace",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/ubuntumono/v9/KFO-CneDtsqEr0keqCMhbC-BL-Hyv4xGemO1.ttf",
+    "regular": "http://fonts.gstatic.com/s/ubuntumono/v9/KFOjCneDtsqEr0keqCMhbBc9AMX6lJBP.ttf",
+    "italic": "http://fonts.gstatic.com/s/ubuntumono/v9/KFOhCneDtsqEr0keqCMhbCc_CsHYkYBPY3o.ttf",
+    "700italic": "http://fonts.gstatic.com/s/ubuntumono/v9/KFO8CneDtsqEr0keqCMhbCc_Mn33tYhkf3O1GVg.ttf"
+  }
+}

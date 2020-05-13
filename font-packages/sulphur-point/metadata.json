@@ -1,0 +1,14 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Sulphur Point",
+  "category": "sans-serif",
+  "variants": ["300", "regular", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2020-03-03",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/sulphurpoint/v1/RLpkK5vv8KaycDcazWFPBj2afVU6n6kFUHPIFaU.ttf",
+    "700": "http://fonts.gstatic.com/s/sulphurpoint/v1/RLpkK5vv8KaycDcazWFPBj2afUU9n6kFUHPIFaU.ttf",
+    "regular": "http://fonts.gstatic.com/s/sulphurpoint/v1/RLp5K5vv8KaycDcazWFPBj2aRfkSu6EuTHo.ttf"
+  }
+}

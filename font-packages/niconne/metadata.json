@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Niconne",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/niconne/v9/w8gaH2QvRug1_rTfrQut2F4OuOo.ttf" }
+}

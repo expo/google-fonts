@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Asul",
+  "category": "sans-serif",
+  "variants": ["regular", "700"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/asul/v9/VuJxdNjKxYr40U8qeKbXOIFneRo.ttf",
+    "regular": "http://fonts.gstatic.com/s/asul/v9/VuJ-dNjKxYr46fMFXK78JIg.ttf"
+  }
+}

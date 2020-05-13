@@ -1,0 +1,19 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Ubuntu",
+  "category": "sans-serif",
+  "variants": ["300", "300italic", "regular", "italic", "500", "500italic", "700", "700italic"],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext"],
+  "version": "v14",
+  "lastModified": "2019-07-22",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoC1CzTt2aMH4V_gg.ttf",
+    "500": "http://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCjC3Tt2aMH4V_gg.ttf",
+    "700": "http://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCxCvTt2aMH4V_gg.ttf",
+    "300italic": "http://fonts.gstatic.com/s/ubuntu/v14/4iCp6KVjbNBYlgoKejZftWyIPYBvgpUI.ttf",
+    "regular": "http://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgo6eAT3v02QFg.ttf",
+    "italic": "http://fonts.gstatic.com/s/ubuntu/v14/4iCu6KVjbNBYlgoKeg7znUiAFpxm.ttf",
+    "500italic": "http://fonts.gstatic.com/s/ubuntu/v14/4iCp6KVjbNBYlgoKejYHtGyIPYBvgpUI.ttf",
+    "700italic": "http://fonts.gstatic.com/s/ubuntu/v14/4iCp6KVjbNBYlgoKejZPsmyIPYBvgpUI.ttf"
+  }
+}

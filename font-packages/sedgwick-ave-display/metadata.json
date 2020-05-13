@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Sedgwick Ave Display",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/sedgwickavedisplay/v5/xfuu0XPgU3jZPUoUo3ScvmPi-NapQ8OxM2czd-YnOzUD.ttf"
+  }
+}

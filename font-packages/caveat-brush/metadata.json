@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Caveat Brush",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/caveatbrush/v5/EYq0maZfwr9S9-ETZc3fKXtMW7mT03pdQw.ttf"
+  }
+}

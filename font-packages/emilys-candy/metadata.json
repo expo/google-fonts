@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Emilys Candy",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/emilyscandy/v7/2EbgL-1mD1Rnb0OGKudbk0y5r9xrX84JjA.ttf"
+  }
+}

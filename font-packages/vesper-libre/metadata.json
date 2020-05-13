@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Vesper Libre",
+  "category": "serif",
+  "variants": ["regular", "500", "700", "900"],
+  "subsets": ["devanagari", "latin", "latin-ext"],
+  "version": "v11",
+  "lastModified": "2019-07-16",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/vesperlibre/v11/bx6dNxyWnf-uxPdXDHUD_RdA-2ap0okKXKvPlw.ttf",
+    "700": "http://fonts.gstatic.com/s/vesperlibre/v11/bx6dNxyWnf-uxPdXDHUD_RdAs2Cp0okKXKvPlw.ttf",
+    "900": "http://fonts.gstatic.com/s/vesperlibre/v11/bx6dNxyWnf-uxPdXDHUD_RdAi2Kp0okKXKvPlw.ttf",
+    "regular": "http://fonts.gstatic.com/s/vesperlibre/v11/bx6CNxyWnf-uxPdXDHUD_Rd4D0-N2qIWVQ.ttf"
+  }
+}

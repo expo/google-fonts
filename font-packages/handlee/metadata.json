@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Handlee",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/handlee/v8/-F6xfjBsISg9aMakDmr6oilJ3ik.ttf" }
+}

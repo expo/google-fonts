@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Poller One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/pollerone/v9/ahccv82n0TN3gia5E4Bud-lbgUS5u0s.ttf"
+  }
+}

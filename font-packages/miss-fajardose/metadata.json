@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Miss Fajardose",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/missfajardose/v9/E21-_dn5gvrawDdPFVl-N0Ajb8qvWPaJq4no.ttf"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Russo One",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-17",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/russoone/v8/Z9XUDmZRWg6M1LvRYsH-yMOInrib9Q.ttf"
+  }
+}

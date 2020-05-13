@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Liu Jian Mao Cao",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["chinese-simplified", "latin"],
+  "version": "v5",
+  "lastModified": "2019-11-05",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/liujianmaocao/v5/845DNN84HJrccNonurqXILGpvCOoferVKGWsUo8.ttf"
+  }
+}

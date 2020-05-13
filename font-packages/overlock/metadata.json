@@ -1,0 +1,17 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Overlock",
+  "category": "display",
+  "variants": ["regular", "italic", "700", "700italic", "900", "900italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/overlock/v9/Z9XSDmdMWRiN1_T9Z7xizcmMvL2L9TLT.ttf",
+    "900": "http://fonts.gstatic.com/s/overlock/v9/Z9XSDmdMWRiN1_T9Z7xaz8mMvL2L9TLT.ttf",
+    "regular": "http://fonts.gstatic.com/s/overlock/v9/Z9XVDmdMWRiN1_T9Z4Te4u2El6GC.ttf",
+    "italic": "http://fonts.gstatic.com/s/overlock/v9/Z9XTDmdMWRiN1_T9Z7Tc6OmmkrGC7Cs.ttf",
+    "700italic": "http://fonts.gstatic.com/s/overlock/v9/Z9XQDmdMWRiN1_T9Z7Tc0FWJtrmp8CLTlNs.ttf",
+    "900italic": "http://fonts.gstatic.com/s/overlock/v9/Z9XQDmdMWRiN1_T9Z7Tc0G2Ltrmp8CLTlNs.ttf"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Gaegu",
+  "category": "handwriting",
+  "variants": ["300", "regular", "700"],
+  "subsets": ["korean", "latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/gaegu/v8/TuGSUVB6Up9NU57nifw74sdtBk0x.ttf",
+    "700": "http://fonts.gstatic.com/s/gaegu/v8/TuGSUVB6Up9NU573jvw74sdtBk0x.ttf",
+    "regular": "http://fonts.gstatic.com/s/gaegu/v8/TuGfUVB6Up9NU6ZLodgzydtk.ttf"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Alegreya",
+  "category": "serif",
+  "variants": [
+    "regular",
+    "italic",
+    "500",
+    "500italic",
+    "700",
+    "700italic",
+    "800",
+    "800italic",
+    "900",
+    "900italic"
+  ],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v13",
+  "lastModified": "2019-07-17",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/alegreya/v13/4UaGrEBBsBhlBjvfkSoS5I3JyJ98KhtH.ttf",
+    "700": "http://fonts.gstatic.com/s/alegreya/v13/4UaGrEBBsBhlBjvfkSpa4o3JyJ98KhtH.ttf",
+    "800": "http://fonts.gstatic.com/s/alegreya/v13/4UaGrEBBsBhlBjvfkSpG4Y3JyJ98KhtH.ttf",
+    "900": "http://fonts.gstatic.com/s/alegreya/v13/4UaGrEBBsBhlBjvfkSpi4I3JyJ98KhtH.ttf",
+    "regular": "http://fonts.gstatic.com/s/alegreya/v13/4UaBrEBBsBhlBjvfkRLmzanB44N1.ttf",
+    "italic": "http://fonts.gstatic.com/s/alegreya/v13/4UaHrEBBsBhlBjvfkSLkx63j5pN1MwI.ttf",
+    "500italic": "http://fonts.gstatic.com/s/alegreya/v13/4UaErEBBsBhlBjvfkSLk_1nKwpteLwtHJlc.ttf",
+    "700italic": "http://fonts.gstatic.com/s/alegreya/v13/4UaErEBBsBhlBjvfkSLk_xHMwpteLwtHJlc.ttf",
+    "800italic": "http://fonts.gstatic.com/s/alegreya/v13/4UaErEBBsBhlBjvfkSLk_w3PwpteLwtHJlc.ttf",
+    "900italic": "http://fonts.gstatic.com/s/alegreya/v13/4UaErEBBsBhlBjvfkSLk_ynOwpteLwtHJlc.ttf"
+  }
+}

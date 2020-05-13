@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Alatsi",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2020-03-03",
+  "files": { "regular": "http://fonts.gstatic.com/s/alatsi/v1/TK3iWkUJAxQ2nLNGHjUHte5fKg.ttf" }
+}

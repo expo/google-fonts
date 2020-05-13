@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Quantico",
+  "category": "sans-serif",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/quantico/v9/rax5HiSdp9cPL3KIF7TQARhasU7Q8Cad.ttf",
+    "regular": "http://fonts.gstatic.com/s/quantico/v9/rax-HiSdp9cPL3KIF4xsLjxSmlLZ.ttf",
+    "italic": "http://fonts.gstatic.com/s/quantico/v9/rax4HiSdp9cPL3KIF7xuJDhwn0LZ6T8.ttf",
+    "700italic": "http://fonts.gstatic.com/s/quantico/v9/rax7HiSdp9cPL3KIF7xuHIRfu0ry9TadML4.ttf"
+  }
+}

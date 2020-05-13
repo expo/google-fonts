@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Glass Antiqua",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/glassantiqua/v7/xfu30Wr0Wn3NOQM2piC0uXOjnL_wN6fRUkY.ttf"
+  }
+}

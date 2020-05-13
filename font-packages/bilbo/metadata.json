@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Bilbo",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/bilbo/v9/o-0EIpgpwWwZ210hpIRz4wxE.ttf" }
+}

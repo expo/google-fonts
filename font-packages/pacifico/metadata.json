@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Pacifico",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v16",
+  "lastModified": "2019-09-17",
+  "files": { "regular": "http://fonts.gstatic.com/s/pacifico/v16/FwZY7-Qmy14u9lezJ96A4sijpFu_.ttf" }
+}

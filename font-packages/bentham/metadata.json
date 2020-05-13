@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Bentham",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/bentham/v10/VdGeAZQPEpYfmHglKWw7CJaK_y4.ttf" }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Noto Serif TC",
+  "category": "serif",
+  "variants": ["200", "300", "regular", "500", "600", "700", "900"],
+  "subsets": ["chinese-traditional", "latin"],
+  "version": "v7",
+  "lastModified": "2020-01-30",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/notoseriftc/v7/XLY9IZb5bJNDGYxLBibeHZ0Bvr8vbX9GTsoOAX4.otf",
+    "300": "http://fonts.gstatic.com/s/notoseriftc/v7/XLY9IZb5bJNDGYxLBibeHZ0BvtssbX9GTsoOAX4.otf",
+    "500": "http://fonts.gstatic.com/s/notoseriftc/v7/XLY9IZb5bJNDGYxLBibeHZ0BvoMtbX9GTsoOAX4.otf",
+    "600": "http://fonts.gstatic.com/s/notoseriftc/v7/XLY9IZb5bJNDGYxLBibeHZ0Bvq8qbX9GTsoOAX4.otf",
+    "700": "http://fonts.gstatic.com/s/notoseriftc/v7/XLY9IZb5bJNDGYxLBibeHZ0BvssrbX9GTsoOAX4.otf",
+    "900": "http://fonts.gstatic.com/s/notoseriftc/v7/XLY9IZb5bJNDGYxLBibeHZ0BvvMpbX9GTsoOAX4.otf",
+    "regular": "http://fonts.gstatic.com/s/notoseriftc/v7/XLYgIZb5bJNDGYxLBibeHZ0BhnEESXFtUsM.otf"
+  }
+}

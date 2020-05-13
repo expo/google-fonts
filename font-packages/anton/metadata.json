@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Anton",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v11",
+  "lastModified": "2019-07-17",
+  "files": { "regular": "http://fonts.gstatic.com/s/anton/v11/1Ptgg87LROyAm0K08i4gS7lu.ttf" }
+}

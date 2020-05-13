@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Marvel",
+  "category": "sans-serif",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/marvel/v9/nwpWtKeoNgBV0qawLXHgB1WmxwkiYQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/marvel/v9/nwpVtKeoNgBV0qaIkV7ED366zg.ttf",
+    "italic": "http://fonts.gstatic.com/s/marvel/v9/nwpXtKeoNgBV0qa4k1TALXuqzhA7.ttf",
+    "700italic": "http://fonts.gstatic.com/s/marvel/v9/nwpQtKeoNgBV0qa4k2x8Al-i5QwyYdrc.ttf"
+  }
+}

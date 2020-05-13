@@ -1,0 +1,19 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Asap Condensed",
+  "category": "sans-serif",
+  "variants": ["regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2019-07-26",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/asapcondensed/v5/pxieypY1o9NHyXh3WvSbGSggdO9_S2lEgGqgp-pO.ttf",
+    "600": "http://fonts.gstatic.com/s/asapcondensed/v5/pxieypY1o9NHyXh3WvSbGSggdO9TTGlEgGqgp-pO.ttf",
+    "700": "http://fonts.gstatic.com/s/asapcondensed/v5/pxieypY1o9NHyXh3WvSbGSggdO83TWlEgGqgp-pO.ttf",
+    "regular": "http://fonts.gstatic.com/s/asapcondensed/v5/pxidypY1o9NHyXh3WvSbGSggdNeLYk1Mq3ap.ttf",
+    "italic": "http://fonts.gstatic.com/s/asapcondensed/v5/pxifypY1o9NHyXh3WvSbGSggdOeJaElurmapvvM.ttf",
+    "500italic": "http://fonts.gstatic.com/s/asapcondensed/v5/pxiYypY1o9NHyXh3WvSbGSggdOeJUL1Him6CovpOkXA.ttf",
+    "600italic": "http://fonts.gstatic.com/s/asapcondensed/v5/pxiYypY1o9NHyXh3WvSbGSggdOeJUJFAim6CovpOkXA.ttf",
+    "700italic": "http://fonts.gstatic.com/s/asapcondensed/v5/pxiYypY1o9NHyXh3WvSbGSggdOeJUPVBim6CovpOkXA.ttf"
+  }
+}

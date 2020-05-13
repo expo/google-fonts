@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Antic",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v11",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/antic/v11/TuGfUVB8XY5DRaZLodgzydtk.ttf" }
+}

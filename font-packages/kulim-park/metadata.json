@@ -1,0 +1,32 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Kulim Park",
+  "category": "sans-serif",
+  "variants": [
+    "200",
+    "200italic",
+    "300",
+    "300italic",
+    "regular",
+    "italic",
+    "600",
+    "600italic",
+    "700",
+    "700italic"
+  ],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2020-03-03",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/kulimpark/v1/fdN49secq3hflz1Uu3IwjJYNwa5aZbUvGjU.ttf",
+    "300": "http://fonts.gstatic.com/s/kulimpark/v1/fdN49secq3hflz1Uu3IwjPIOwa5aZbUvGjU.ttf",
+    "600": "http://fonts.gstatic.com/s/kulimpark/v1/fdN49secq3hflz1Uu3IwjIYIwa5aZbUvGjU.ttf",
+    "700": "http://fonts.gstatic.com/s/kulimpark/v1/fdN49secq3hflz1Uu3IwjOIJwa5aZbUvGjU.ttf",
+    "200italic": "http://fonts.gstatic.com/s/kulimpark/v1/fdNm9secq3hflz1Uu3IwhFwUKa9QYZcqCjVVUA.ttf",
+    "300italic": "http://fonts.gstatic.com/s/kulimpark/v1/fdNm9secq3hflz1Uu3IwhFwUTaxQYZcqCjVVUA.ttf",
+    "regular": "http://fonts.gstatic.com/s/kulimpark/v1/fdN79secq3hflz1Uu3IwtF4m5aZxebw.ttf",
+    "italic": "http://fonts.gstatic.com/s/kulimpark/v1/fdN59secq3hflz1Uu3IwhFws4YR0abw2Aw.ttf",
+    "600italic": "http://fonts.gstatic.com/s/kulimpark/v1/fdNm9secq3hflz1Uu3IwhFwUOapQYZcqCjVVUA.ttf",
+    "700italic": "http://fonts.gstatic.com/s/kulimpark/v1/fdNm9secq3hflz1Uu3IwhFwUXatQYZcqCjVVUA.ttf"
+  }
+}

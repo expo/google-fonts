@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Wallpoet",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v11",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/wallpoet/v11/f0X10em2_8RnXVVdUNbu7cXP8L8G.ttf" }
+}

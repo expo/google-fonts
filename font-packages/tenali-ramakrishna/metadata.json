@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Tenali Ramakrishna",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["latin", "telugu"],
+  "version": "v6",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/tenaliramakrishna/v6/raxgHj6Yt9gAN3LLKs0BZVMo8jmwn1-8KJXqUFFvtA.ttf"
+  }
+}

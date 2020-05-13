@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Jacques Francois Shadow",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/jacquesfrancoisshadow/v8/KR1FBtOz8PKTMk-kqdkLVrvR0ECFrB6Pin-2_q8VsHuV5ULS.ttf"
+  }
+}

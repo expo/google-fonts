@@ -1,0 +1,16 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Podkova",
+  "category": "serif",
+  "variants": ["regular", "500", "600", "700", "800"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v16",
+  "lastModified": "2020-02-05",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/podkova/v16/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWt3zcU4EoporSHH.ttf",
+    "600": "http://fonts.gstatic.com/s/podkova/v16/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWubysU4EoporSHH.ttf",
+    "700": "http://fonts.gstatic.com/s/podkova/v16/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWuiysU4EoporSHH.ttf",
+    "800": "http://fonts.gstatic.com/s/podkova/v16/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWvFysU4EoporSHH.ttf",
+    "regular": "http://fonts.gstatic.com/s/podkova/v16/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWtFzcU4EoporSHH.ttf"
+  }
+}

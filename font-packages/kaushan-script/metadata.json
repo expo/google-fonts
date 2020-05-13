@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Kaushan Script",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-17",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/kaushanscript/v8/vm8vdRfvXFLG3OLnsO15WYS5DF7_ytN3M48a.ttf"
+  }
+}

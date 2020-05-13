@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Contrail One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/contrailone/v9/eLGbP-j_JA-kG0_Zo51noafdZUvt_c092w.ttf"
+  }
+}

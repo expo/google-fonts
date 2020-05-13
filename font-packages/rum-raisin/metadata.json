@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Rum Raisin",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/rumraisin/v7/nwpRtKu3Ih8D5avB4h2uJ3-IywA7eMM.ttf"
+  }
+}

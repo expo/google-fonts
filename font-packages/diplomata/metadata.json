@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Diplomata",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v11",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/diplomata/v11/Cn-0JtiMXwhNwp-wKxyfYGxYrdM9Sg.ttf"
+  }
+}

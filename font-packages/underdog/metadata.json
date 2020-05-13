@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Underdog",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/underdog/v8/CHygV-jCElj7diMroVSiU14GN2Il.ttf" }
+}

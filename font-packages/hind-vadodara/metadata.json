@@ -1,0 +1,16 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Hind Vadodara",
+  "category": "sans-serif",
+  "variants": ["300", "regular", "500", "600", "700"],
+  "subsets": ["gujarati", "latin", "latin-ext"],
+  "version": "v6",
+  "lastModified": "2019-07-16",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/hindvadodara/v6/neIQzCKvrIcn5pbuuuriV9tTSDn3iXM0oSOL2Yw.ttf",
+    "500": "http://fonts.gstatic.com/s/hindvadodara/v6/neIQzCKvrIcn5pbuuuriV9tTSGH2iXM0oSOL2Yw.ttf",
+    "600": "http://fonts.gstatic.com/s/hindvadodara/v6/neIQzCKvrIcn5pbuuuriV9tTSE3xiXM0oSOL2Yw.ttf",
+    "700": "http://fonts.gstatic.com/s/hindvadodara/v6/neIQzCKvrIcn5pbuuuriV9tTSCnwiXM0oSOL2Yw.ttf",
+    "regular": "http://fonts.gstatic.com/s/hindvadodara/v6/neINzCKvrIcn5pbuuuriV9tTcJXfrXsfvSo.ttf"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Devonshire",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/devonshire/v8/46kqlbDwWirWr4gtBD2BX0Vq01lYAZM.ttf"
+  }
+}

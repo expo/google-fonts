@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Marcellus SC",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/marcellussc/v7/ke8iOgUHP1dg-Rmi6RWjbLEPgdydGKikhA.ttf"
+  }
+}

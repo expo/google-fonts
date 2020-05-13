@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Coustard",
+  "category": "serif",
+  "variants": ["regular", "900"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "900": "http://fonts.gstatic.com/s/coustard/v10/3XFuErgg3YsZ5fqUU-2LkEHmb_jU3eRL.ttf",
+    "regular": "http://fonts.gstatic.com/s/coustard/v10/3XFpErgg3YsZ5fqUU9UPvWXuROTd.ttf"
+  }
+}

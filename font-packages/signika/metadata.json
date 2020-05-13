@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Signika",
+  "category": "sans-serif",
+  "variants": ["300", "regular", "600", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v10",
+  "lastModified": "2019-07-17",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/signika/v10/vEFU2_JTCgwQ5ejvE_oEI3BDa0AdytM.ttf",
+    "600": "http://fonts.gstatic.com/s/signika/v10/vEFU2_JTCgwQ5ejvE44CI3BDa0AdytM.ttf",
+    "700": "http://fonts.gstatic.com/s/signika/v10/vEFU2_JTCgwQ5ejvE-oDI3BDa0AdytM.ttf",
+    "regular": "http://fonts.gstatic.com/s/signika/v10/vEFR2_JTCgwQ5ejvK1YsB3hod0k.ttf"
+  }
+}

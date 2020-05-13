@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "ZCOOL QingKe HuangYou",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["chinese-simplified", "latin"],
+  "version": "v5",
+  "lastModified": "2019-11-05",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/zcoolqingkehuangyou/v5/2Eb5L_R5IXJEWhD3AOhSvFC554MOOahI4mRIi_28c8bHWA.ttf"
+  }
+}

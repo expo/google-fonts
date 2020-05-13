@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Meie Script",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/meiescript/v7/_LOImzDK7erRjhunIspaMjxn5IXg0WDz.ttf"
+  }
+}

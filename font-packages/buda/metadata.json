@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Buda",
+  "category": "display",
+  "variants": ["300"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": { "300": "http://fonts.gstatic.com/s/buda/v10/GFDqWAN8mnyIJSSrG7UBr7pZKA0.ttf" }
+}

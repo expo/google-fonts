@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Courgette",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-17",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/courgette/v7/wEO_EBrAnc9BLjLQAUkFUfAL3EsHiA.ttf"
+  }
+}

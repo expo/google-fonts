@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Bayon",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["khmer"],
+  "version": "v13",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/bayon/v13/9XUrlJNmn0LPFl-pOhYEd2NJ.ttf" }
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Forum",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/forum/v10/6aey4Ky-Vb8Ew_IWMJMa3mnT.ttf" }
+}

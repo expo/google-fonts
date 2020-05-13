@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Markazi Text",
+  "category": "serif",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
+  "version": "v11",
+  "lastModified": "2020-04-21",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/markazitext/v11/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtcaQT4MlBekmJLo.ttf",
+    "600": "http://fonts.gstatic.com/s/markazitext/v11/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtSqXT4MlBekmJLo.ttf",
+    "700": "http://fonts.gstatic.com/s/markazitext/v11/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtROXT4MlBekmJLo.ttf",
+    "regular": "http://fonts.gstatic.com/s/markazitext/v11/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQT4MlBekmJLo.ttf"
+  }
+}

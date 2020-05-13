@@ -1,0 +1,32 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Open Sans",
+  "category": "sans-serif",
+  "variants": [
+    "300",
+    "300italic",
+    "regular",
+    "italic",
+    "600",
+    "600italic",
+    "700",
+    "700italic",
+    "800",
+    "800italic"
+  ],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v17",
+  "lastModified": "2019-07-23",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8-VeJoCqeDjg.ttf",
+    "600": "http://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirk-VeJoCqeDjg.ttf",
+    "700": "http://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rg-VeJoCqeDjg.ttf",
+    "800": "http://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN8rs-VeJoCqeDjg.ttf",
+    "300italic": "http://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKWyV-hsKKKTjrPW.ttf",
+    "regular": "http://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-U1UpcaXcl0Aw.ttf",
+    "italic": "http://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUJ0ef8xkA76a.ttf",
+    "600italic": "http://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUehsKKKTjrPW.ttf",
+    "700italic": "http://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKWiUOhsKKKTjrPW.ttf",
+    "800italic": "http://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKW-U-hsKKKTjrPW.ttf"
+  }
+}

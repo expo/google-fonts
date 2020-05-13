@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Cherry Cream Soda",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/cherrycreamsoda/v10/UMBIrOxBrW6w2FFyi9paG0fdVdRciTd6Cd47DJ7G.ttf"
+  }
+}

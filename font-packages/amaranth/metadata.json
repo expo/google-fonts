@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Amaranth",
+  "category": "sans-serif",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/amaranth/v10/KtkpALODe433f0j1zMF-OPWi6WDfFpuc.ttf",
+    "regular": "http://fonts.gstatic.com/s/amaranth/v10/KtkuALODe433f0j1zPnCF9GqwnzW.ttf",
+    "italic": "http://fonts.gstatic.com/s/amaranth/v10/KtkoALODe433f0j1zMnAHdWIx2zWD4I.ttf",
+    "700italic": "http://fonts.gstatic.com/s/amaranth/v10/KtkrALODe433f0j1zMnAJWmn42T9E4ucRY8.ttf"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Gothic A1",
+  "category": "sans-serif",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["korean", "latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/gothica1/v8/CSR74z5ZnPydRjlCCwlCCMcqYtd2vfwk.ttf",
+    "200": "http://fonts.gstatic.com/s/gothica1/v8/CSR44z5ZnPydRjlCCwlCpOYKSPl6tOU9Eg.ttf",
+    "300": "http://fonts.gstatic.com/s/gothica1/v8/CSR44z5ZnPydRjlCCwlCwOUKSPl6tOU9Eg.ttf",
+    "500": "http://fonts.gstatic.com/s/gothica1/v8/CSR44z5ZnPydRjlCCwlCmOQKSPl6tOU9Eg.ttf",
+    "600": "http://fonts.gstatic.com/s/gothica1/v8/CSR44z5ZnPydRjlCCwlCtOMKSPl6tOU9Eg.ttf",
+    "700": "http://fonts.gstatic.com/s/gothica1/v8/CSR44z5ZnPydRjlCCwlC0OIKSPl6tOU9Eg.ttf",
+    "800": "http://fonts.gstatic.com/s/gothica1/v8/CSR44z5ZnPydRjlCCwlCzOEKSPl6tOU9Eg.ttf",
+    "900": "http://fonts.gstatic.com/s/gothica1/v8/CSR44z5ZnPydRjlCCwlC6OAKSPl6tOU9Eg.ttf",
+    "regular": "http://fonts.gstatic.com/s/gothica1/v8/CSR94z5ZnPydRjlCCwl6bM0uQNJmvQ.ttf"
+  }
+}

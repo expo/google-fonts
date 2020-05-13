@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Viaoda Libre",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2020-05-06",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/viaodalibre/v2/vEFW2_lWCgoR6OKuRz9kcRVJb2IY2tOHXg.ttf"
+  }
+}

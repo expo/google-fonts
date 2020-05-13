@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Sura",
+  "category": "serif",
+  "variants": ["regular", "700"],
+  "subsets": ["devanagari", "latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/sura/v4/SZc53FL5PbyzLUJ7fz3GkUrS8DI.ttf",
+    "regular": "http://fonts.gstatic.com/s/sura/v4/SZc23FL5PbyzFf5UWzXtjUM.ttf"
+  }
+}

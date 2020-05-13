@@ -1,0 +1,19 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Cabin",
+  "category": "sans-serif",
+  "variants": ["regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v14",
+  "lastModified": "2019-07-22",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/cabin/v14/u-480qWljRw-PdfD3NhisShmeh5I.ttf",
+    "600": "http://fonts.gstatic.com/s/cabin/v14/u-480qWljRw-Pdfv29hisShmeh5I.ttf",
+    "700": "http://fonts.gstatic.com/s/cabin/v14/u-480qWljRw-PdeL2thisShmeh5I.ttf",
+    "regular": "http://fonts.gstatic.com/s/cabin/v14/u-4x0qWljRw-Pe839fxqmjRv.ttf",
+    "italic": "http://fonts.gstatic.com/s/cabin/v14/u-4_0qWljRw-Pd81__hInyRvYwc.ttf",
+    "500italic": "http://fonts.gstatic.com/s/cabin/v14/u-460qWljRw-Pd81xwxhuyxEfw5IR-Y.ttf",
+    "600italic": "http://fonts.gstatic.com/s/cabin/v14/u-460qWljRw-Pd81xyBmuyxEfw5IR-Y.ttf",
+    "700italic": "http://fonts.gstatic.com/s/cabin/v14/u-460qWljRw-Pd81x0RnuyxEfw5IR-Y.ttf"
+  }
+}

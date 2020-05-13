@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Della Respira",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/dellarespira/v7/RLp5K5v44KaueWI6iEJQBiGPRfkSu6EuTHo.ttf"
+  }
+}

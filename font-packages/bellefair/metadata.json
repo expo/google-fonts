@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Bellefair",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["hebrew", "latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/bellefair/v5/kJExBuYY6AAuhiXUxG19__A2pOdvDA.ttf"
+  }
+}

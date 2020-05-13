@@ -1,0 +1,16 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Abhaya Libre",
+  "category": "serif",
+  "variants": ["regular", "500", "600", "700", "800"],
+  "subsets": ["latin", "latin-ext", "sinhala"],
+  "version": "v5",
+  "lastModified": "2019-07-16",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/abhayalibre/v5/e3t5euGtX-Co5MNzeAOqinEYj2ryqtxI6oYtBA.ttf",
+    "600": "http://fonts.gstatic.com/s/abhayalibre/v5/e3t5euGtX-Co5MNzeAOqinEYo23yqtxI6oYtBA.ttf",
+    "700": "http://fonts.gstatic.com/s/abhayalibre/v5/e3t5euGtX-Co5MNzeAOqinEYx2zyqtxI6oYtBA.ttf",
+    "800": "http://fonts.gstatic.com/s/abhayalibre/v5/e3t5euGtX-Co5MNzeAOqinEY22_yqtxI6oYtBA.ttf",
+    "regular": "http://fonts.gstatic.com/s/abhayalibre/v5/e3tmeuGtX-Co5MNzeAOqinEge0PWovdU4w.ttf"
+  }
+}

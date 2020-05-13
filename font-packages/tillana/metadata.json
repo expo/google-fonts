@@ -1,0 +1,16 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Tillana",
+  "category": "handwriting",
+  "variants": ["regular", "500", "600", "700", "800"],
+  "subsets": ["devanagari", "latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2019-07-16",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/tillana/v5/VuJ0dNvf35P4qJ1OQFL-HIlMZRNcp0o.ttf",
+    "600": "http://fonts.gstatic.com/s/tillana/v5/VuJ0dNvf35P4qJ1OQH75HIlMZRNcp0o.ttf",
+    "700": "http://fonts.gstatic.com/s/tillana/v5/VuJ0dNvf35P4qJ1OQBr4HIlMZRNcp0o.ttf",
+    "800": "http://fonts.gstatic.com/s/tillana/v5/VuJ0dNvf35P4qJ1OQAb7HIlMZRNcp0o.ttf",
+    "regular": "http://fonts.gstatic.com/s/tillana/v5/VuJxdNvf35P4qJ1OeKbXOIFneRo.ttf"
+  }
+}

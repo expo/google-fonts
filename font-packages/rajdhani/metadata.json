@@ -1,0 +1,16 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Rajdhani",
+  "category": "sans-serif",
+  "variants": ["300", "regular", "500", "600", "700"],
+  "subsets": ["devanagari", "latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-17",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/rajdhani/v9/LDI2apCSOBg7S-QT7pasEcOsc-bGkqIw.ttf",
+    "500": "http://fonts.gstatic.com/s/rajdhani/v9/LDI2apCSOBg7S-QT7pb0EMOsc-bGkqIw.ttf",
+    "600": "http://fonts.gstatic.com/s/rajdhani/v9/LDI2apCSOBg7S-QT7pbYF8Osc-bGkqIw.ttf",
+    "700": "http://fonts.gstatic.com/s/rajdhani/v9/LDI2apCSOBg7S-QT7pa8FsOsc-bGkqIw.ttf",
+    "regular": "http://fonts.gstatic.com/s/rajdhani/v9/LDIxapCSOBg7S-QT7q4AOeekWPrP.ttf"
+  }
+}

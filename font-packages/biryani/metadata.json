@@ -1,0 +1,18 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Biryani",
+  "category": "sans-serif",
+  "variants": ["200", "300", "regular", "600", "700", "800", "900"],
+  "subsets": ["devanagari", "latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2019-07-16",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/biryani/v5/hv-TlzNxIFoO84YddYQyGTBSU-J-RxQ.ttf",
+    "300": "http://fonts.gstatic.com/s/biryani/v5/hv-TlzNxIFoO84YddeAxGTBSU-J-RxQ.ttf",
+    "600": "http://fonts.gstatic.com/s/biryani/v5/hv-TlzNxIFoO84YddZQ3GTBSU-J-RxQ.ttf",
+    "700": "http://fonts.gstatic.com/s/biryani/v5/hv-TlzNxIFoO84YddfA2GTBSU-J-RxQ.ttf",
+    "800": "http://fonts.gstatic.com/s/biryani/v5/hv-TlzNxIFoO84Yddew1GTBSU-J-RxQ.ttf",
+    "900": "http://fonts.gstatic.com/s/biryani/v5/hv-TlzNxIFoO84Yddcg0GTBSU-J-RxQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/biryani/v5/hv-WlzNxIFoO84YdTUwZPTh5T-s.ttf"
+  }
+}

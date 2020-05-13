@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Kavivanar",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "tamil"],
+  "version": "v5",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/kavivanar/v5/o-0IIpQgyXYSwhxP7_Jb4j5Ba_2c7A.ttf"
+  }
+}

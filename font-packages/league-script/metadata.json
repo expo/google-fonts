@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "League Script",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v11",
+  "lastModified": "2019-07-26",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/leaguescript/v11/CSR54zpSlumSWj9CGVsoBZdeaNNUuOwkC2s.ttf"
+  }
+}

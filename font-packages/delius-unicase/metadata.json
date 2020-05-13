@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Delius Unicase",
+  "category": "handwriting",
+  "variants": ["regular", "700"],
+  "subsets": ["latin"],
+  "version": "v13",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/deliusunicase/v13/845CNMEwEIOVT8BmgfSzIr_6mlp7WMr_BmmlS5aw.ttf",
+    "regular": "http://fonts.gstatic.com/s/deliusunicase/v13/845BNMEwEIOVT8BmgfSzIr_6mmLHd-73LXWs.ttf"
+  }
+}

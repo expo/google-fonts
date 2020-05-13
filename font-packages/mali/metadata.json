@@ -1,0 +1,36 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Mali",
+  "category": "handwriting",
+  "variants": [
+    "200",
+    "200italic",
+    "300",
+    "300italic",
+    "regular",
+    "italic",
+    "500",
+    "500italic",
+    "600",
+    "600italic",
+    "700",
+    "700italic"
+  ],
+  "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2019-11-05",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/mali/v3/N0bV2SRONuN4QOLlKlRaJdbWgdY.ttf",
+    "300": "http://fonts.gstatic.com/s/mali/v3/N0bV2SRONuN4QIbmKlRaJdbWgdY.ttf",
+    "500": "http://fonts.gstatic.com/s/mali/v3/N0bV2SRONuN4QN7nKlRaJdbWgdY.ttf",
+    "600": "http://fonts.gstatic.com/s/mali/v3/N0bV2SRONuN4QPLgKlRaJdbWgdY.ttf",
+    "700": "http://fonts.gstatic.com/s/mali/v3/N0bV2SRONuN4QJbhKlRaJdbWgdY.ttf",
+    "200italic": "http://fonts.gstatic.com/s/mali/v3/N0bX2SRONuN4SCj8wlVQIfTTkdbJYA.ttf",
+    "300italic": "http://fonts.gstatic.com/s/mali/v3/N0bX2SRONuN4SCj8plZQIfTTkdbJYA.ttf",
+    "regular": "http://fonts.gstatic.com/s/mali/v3/N0ba2SRONuN4eCrODlxxOd8.ttf",
+    "italic": "http://fonts.gstatic.com/s/mali/v3/N0bU2SRONuN4SCjECn50Kd_PmA.ttf",
+    "500italic": "http://fonts.gstatic.com/s/mali/v3/N0bX2SRONuN4SCj8_ldQIfTTkdbJYA.ttf",
+    "600italic": "http://fonts.gstatic.com/s/mali/v3/N0bX2SRONuN4SCj80lBQIfTTkdbJYA.ttf",
+    "700italic": "http://fonts.gstatic.com/s/mali/v3/N0bX2SRONuN4SCj8tlFQIfTTkdbJYA.ttf"
+  }
+}

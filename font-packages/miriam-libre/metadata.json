@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Miriam Libre",
+  "category": "sans-serif",
+  "variants": ["regular", "700"],
+  "subsets": ["hebrew", "latin", "latin-ext"],
+  "version": "v6",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/miriamlibre/v6/DdT-798HsHwubBAqfkcBTL_X3LbbRcC7_-Z7Hg.ttf",
+    "regular": "http://fonts.gstatic.com/s/miriamlibre/v6/DdTh798HsHwubBAqfkcBTL_vYJn_Teun9g.ttf"
+  }
+}

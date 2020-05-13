@@ -1,0 +1,17 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Red Hat Text",
+  "category": "sans-serif",
+  "variants": ["regular", "italic", "500", "500italic", "700", "700italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2019-11-05",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/redhattext/v2/RrQIbohi_ic6B3yVSzGBrMxYm4QIG-eFNVmULg.ttf",
+    "700": "http://fonts.gstatic.com/s/redhattext/v2/RrQIbohi_ic6B3yVSzGBrMxY04IIG-eFNVmULg.ttf",
+    "regular": "http://fonts.gstatic.com/s/redhattext/v2/RrQXbohi_ic6B3yVSzGBrMxgb60sE8yZPA.ttf",
+    "italic": "http://fonts.gstatic.com/s/redhattext/v2/RrQJbohi_ic6B3yVSzGBrMxQbacoMcmJPECN.ttf",
+    "500italic": "http://fonts.gstatic.com/s/redhattext/v2/RrQKbohi_ic6B3yVSzGBrMxQbZ_cGO2BF1yELmgy.ttf",
+    "700italic": "http://fonts.gstatic.com/s/redhattext/v2/RrQKbohi_ic6B3yVSzGBrMxQbZ-UHu2BF1yELmgy.ttf"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Yatra One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["devanagari", "latin", "latin-ext"],
+  "version": "v6",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/yatraone/v6/C8ch4copsHzj8p7NaF0xw1OBbRDvXw.ttf"
+  }
+}

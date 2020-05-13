@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Share Tech",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/sharetech/v9/7cHtv4Uyi5K0OeZ7bohUwHoDmTcibrA.ttf"
+  }
+}

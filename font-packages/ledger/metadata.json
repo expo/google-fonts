@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Ledger",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/ledger/v7/j8_q6-HK1L3if_sxm8DwHTBhHw.ttf" }
+}

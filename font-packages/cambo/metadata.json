@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Cambo",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/cambo/v8/IFSqHeNEk8FJk416ok7xkPm8.ttf" }
+}

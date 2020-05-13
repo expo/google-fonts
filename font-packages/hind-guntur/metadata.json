@@ -1,0 +1,16 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Hind Guntur",
+  "category": "sans-serif",
+  "variants": ["300", "regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext", "telugu"],
+  "version": "v5",
+  "lastModified": "2019-07-16",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/hindguntur/v5/wXKyE3UZrok56nvamSuJd_yGn1czn9zaj5Ju.ttf",
+    "500": "http://fonts.gstatic.com/s/hindguntur/v5/wXKyE3UZrok56nvamSuJd_zenlczn9zaj5Ju.ttf",
+    "600": "http://fonts.gstatic.com/s/hindguntur/v5/wXKyE3UZrok56nvamSuJd_zymVczn9zaj5Ju.ttf",
+    "700": "http://fonts.gstatic.com/s/hindguntur/v5/wXKyE3UZrok56nvamSuJd_yWmFczn9zaj5Ju.ttf",
+    "regular": "http://fonts.gstatic.com/s/hindguntur/v5/wXKvE3UZrok56nvamSuJd8Qqt3M7tMDT.ttf"
+  }
+}

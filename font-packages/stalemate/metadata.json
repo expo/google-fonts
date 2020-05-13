@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Stalemate",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/stalemate/v7/taiIGmZ_EJq97-UfkZRpuqSs8ZQpaQ.ttf"
+  }
+}

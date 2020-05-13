@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Miniver",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/miniver/v8/eLGcP-PxIg-5H0vC770Cy8r8fWA.ttf" }
+}

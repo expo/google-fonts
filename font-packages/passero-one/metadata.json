@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Passero One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v11",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/passeroone/v11/JTUTjIko8DOq5FeaeEAjgE5B5Arr-s50.ttf"
+  }
+}

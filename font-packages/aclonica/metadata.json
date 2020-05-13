@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Aclonica",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/aclonica/v10/K2FyfZJVlfNNSEBXGb7TCI6oBjLz.ttf" }
+}

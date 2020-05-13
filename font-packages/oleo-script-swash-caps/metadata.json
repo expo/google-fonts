@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Oleo Script Swash Caps",
+  "category": "display",
+  "variants": ["regular", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/oleoscriptswashcaps/v7/Noag6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HCcaBbYUsn9T5dt0.ttf",
+    "regular": "http://fonts.gstatic.com/s/oleoscriptswashcaps/v7/Noaj6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HMXquSY0Hg90.ttf"
+  }
+}

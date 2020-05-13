@@ -1,0 +1,14 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Trochut",
+  "category": "display",
+  "variants": ["regular", "italic", "700"],
+  "subsets": ["latin"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/trochut/v7/CHymV-fDDlP9bDIw3sinWVokMnIllmA.ttf",
+    "regular": "http://fonts.gstatic.com/s/trochut/v7/CHyjV-fDDlP9bDIw5nSIfVIPLns.ttf",
+    "italic": "http://fonts.gstatic.com/s/trochut/v7/CHyhV-fDDlP9bDIw1naCeXAKPns8jw.ttf"
+  }
+}

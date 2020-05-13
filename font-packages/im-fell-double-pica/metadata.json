@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "IM Fell Double Pica",
+  "category": "serif",
+  "variants": ["regular", "italic"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/imfelldoublepica/v9/3XF2EqMq_94s9PeKF7Fg4gOKINyMtZ8rT0S1UL5Ayp0.ttf",
+    "italic": "http://fonts.gstatic.com/s/imfelldoublepica/v9/3XF0EqMq_94s9PeKF7Fg4gOKINyMtZ8rf0a_VJxF2p2G8g.ttf"
+  }
+}

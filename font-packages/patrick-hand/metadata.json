@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Patrick Hand",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v13",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/patrickhand/v13/LDI1apSQOAYtSuYWp8ZhfYeMWcjKm7sp8g.ttf"
+  }
+}

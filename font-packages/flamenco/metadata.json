@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Flamenco",
+  "category": "display",
+  "variants": ["300", "regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/flamenco/v10/neIPzCehqYguo67ssZ0qNIkyepH9qGsf.ttf",
+    "regular": "http://fonts.gstatic.com/s/flamenco/v10/neIIzCehqYguo67ssaWGHK06UY30.ttf"
+  }
+}

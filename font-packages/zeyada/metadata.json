@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Zeyada",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/zeyada/v9/11hAGpPTxVPUbgZDNGatWKaZ3g.ttf" }
+}

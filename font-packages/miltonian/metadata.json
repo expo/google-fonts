@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Miltonian",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v13",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/miltonian/v13/zOL-4pbPn6Ne9JqTg9mr6e5As-FeiQ.ttf"
+  }
+}

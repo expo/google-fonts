@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Fruktur",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v12",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/fruktur/v12/SZc53FHsOru5QYsMfz3GkUrS8DI.ttf" }
+}

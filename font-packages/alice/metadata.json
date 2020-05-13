@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Alice",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin"],
+  "version": "v11",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/alice/v11/OpNCnoEEmtHa6FcJpA_chzJ0.ttf" }
+}

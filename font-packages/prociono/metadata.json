@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Prociono",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/prociono/v9/r05YGLlR-KxAf9GGO8upyDYtStiJ.ttf" }
+}

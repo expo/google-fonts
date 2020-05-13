@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Tulpen One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/tulpenone/v9/dFa6ZfeC474skLgesc0CWj0w_HyIRlE.ttf"
+  }
+}

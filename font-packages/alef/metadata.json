@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Alef",
+  "category": "sans-serif",
+  "variants": ["regular", "700"],
+  "subsets": ["hebrew", "latin"],
+  "version": "v11",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/alef/v11/FeVQS0NQpLYglo50L5la2bxii28.ttf",
+    "regular": "http://fonts.gstatic.com/s/alef/v11/FeVfS0NQpLYgrjJbC5FxxbU.ttf"
+  }
+}

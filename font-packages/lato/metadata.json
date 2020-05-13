@@ -1,0 +1,32 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Lato",
+  "category": "sans-serif",
+  "variants": [
+    "100",
+    "100italic",
+    "300",
+    "300italic",
+    "regular",
+    "italic",
+    "700",
+    "700italic",
+    "900",
+    "900italic"
+  ],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v16",
+  "lastModified": "2019-07-23",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHh30wWyWrFCbw7A.ttf",
+    "300": "http://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USew-FGC_p9dw.ttf",
+    "700": "http://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVew-FGC_p9dw.ttf",
+    "900": "http://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh50Xew-FGC_p9dw.ttf",
+    "100italic": "http://fonts.gstatic.com/s/lato/v16/S6u-w4BMUTPHjxsIPy-vNiPg7MU0.ttf",
+    "300italic": "http://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI9w2PHA3s5dwt7w.ttf",
+    "regular": "http://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHvxk6XweuBCY.ttf",
+    "italic": "http://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxswWyWrFCbw7A.ttf",
+    "700italic": "http://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wqPHA3s5dwt7w.ttf",
+    "900italic": "http://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI3wiPHA3s5dwt7w.ttf"
+  }
+}

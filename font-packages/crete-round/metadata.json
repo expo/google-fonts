@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Crete Round",
+  "category": "serif",
+  "variants": ["regular", "italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-17",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/creteround/v8/55xoey1sJNPjPiv1ZZZrxJ1827zAKnxN.ttf",
+    "italic": "http://fonts.gstatic.com/s/creteround/v8/55xqey1sJNPjPiv1ZZZrxK1-0bjiL2xNhKc.ttf"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Asset",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/asset/v10/SLXGc1na-mM4cWImRJqExst1.ttf" }
+}

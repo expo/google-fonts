@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Julius Sans One",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/juliussansone/v8/1Pt2g8TAX_SGgBGUi0tGOYEga5W-xXEW6aGXHw.ttf"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Meddon",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v12",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/meddon/v12/kmK8ZqA2EgDNeHTZhBdB3y_Aow.ttf" }
+}

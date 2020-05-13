@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Chela One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/chelaone/v8/6ae-4KC7Uqgdz_JZdPIy31vWNTMwoQ.ttf"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Itim",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
+  "version": "v4",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/itim/v4/0nknC9ziJOYewARKkc7ZdwU.ttf" }
+}

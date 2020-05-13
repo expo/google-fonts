@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Share Tech Mono",
+  "category": "monospace",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/sharetechmono/v9/J7aHnp1uDWRBEqV98dVQztYldFc7pAsEIc3Xew.ttf"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Corben",
+  "category": "display",
+  "variants": ["regular", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v13",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/corben/v13/LYjAdGzzklQtCMpFHCZgrXArXN7HWQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/corben/v13/LYjDdGzzklQtCMp9oAlEpVs3VQ.ttf"
+  }
+}

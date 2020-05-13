@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Londrina Sketch",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/londrinasketch/v8/c4m41npxGMTnomOHtRU68eIJn8qfWWn5Pos6CA.ttf"
+  }
+}

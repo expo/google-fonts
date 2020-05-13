@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Meera Inimai",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["latin", "tamil"],
+  "version": "v4",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/meerainimai/v4/845fNMM5EIqOW5MPuvO3ILep_2jDVevnLQ.ttf"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Poly",
+  "category": "serif",
+  "variants": ["regular", "italic"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/poly/v10/MQpb-W6wKNitRLCAq2Lpris.ttf",
+    "italic": "http://fonts.gstatic.com/s/poly/v10/MQpV-W6wKNitdLKKr0DsviuGWA.ttf"
+  }
+}

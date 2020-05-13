@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Balthazar",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/balthazar/v9/d6lKkaajS8Gm4CVQjFEvyRTo39l8hw.ttf"
+  }
+}

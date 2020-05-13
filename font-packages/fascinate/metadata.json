@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Fascinate",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/fascinate/v8/z7NWdRrufC8XJK0IIEli1LbQRPyNrw.ttf"
+  }
+}

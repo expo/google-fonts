@@ -1,0 +1,14 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Judson",
+  "category": "serif",
+  "variants": ["regular", "italic", "700"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v12",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/judson/v12/FeVSS0Fbvbc14Vxps5xQ3Z5nm29Gww.ttf",
+    "regular": "http://fonts.gstatic.com/s/judson/v12/FeVRS0Fbvbc14VxRD7N01bV7kg.ttf",
+    "italic": "http://fonts.gstatic.com/s/judson/v12/FeVTS0Fbvbc14VxhDblw97BrknZf.ttf"
+  }
+}

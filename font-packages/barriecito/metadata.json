@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Barriecito",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2019-11-05",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/barriecito/v2/WWXXlj-CbBOSLY2QTuY_KdUiYwTO0MU.ttf"
+  }
+}

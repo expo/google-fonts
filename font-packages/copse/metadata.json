@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Copse",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/copse/v9/11hPGpDKz1rGb0djHkihUb-A.ttf" }
+}

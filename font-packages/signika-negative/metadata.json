@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Signika Negative",
+  "category": "sans-serif",
+  "variants": ["300", "regular", "600", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/signikanegative/v10/E217_cfngu7HiRpPX3ZpNE4kY5zKal6DipHD6z_iXAs.ttf",
+    "600": "http://fonts.gstatic.com/s/signikanegative/v10/E217_cfngu7HiRpPX3ZpNE4kY5zKaiqFipHD6z_iXAs.ttf",
+    "700": "http://fonts.gstatic.com/s/signikanegative/v10/E217_cfngu7HiRpPX3ZpNE4kY5zKak6EipHD6z_iXAs.ttf",
+    "regular": "http://fonts.gstatic.com/s/signikanegative/v10/E218_cfngu7HiRpPX3ZpNE4kY5zKUvKrrpno9zY.ttf"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Kristi",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v11",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/kristi/v11/uK_y4ricdeU6zwdRCh0TMv6EXw.ttf" }
+}

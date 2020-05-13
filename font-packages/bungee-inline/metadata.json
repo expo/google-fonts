@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Bungee Inline",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/bungeeinline/v5/Gg8zN58UcgnlCweMrih332VuDGJ1-FEglsc.ttf"
+  }
+}

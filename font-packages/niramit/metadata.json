@@ -1,0 +1,36 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Niramit",
+  "category": "sans-serif",
+  "variants": [
+    "200",
+    "200italic",
+    "300",
+    "300italic",
+    "regular",
+    "italic",
+    "500",
+    "500italic",
+    "600",
+    "600italic",
+    "700",
+    "700italic"
+  ],
+  "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
+  "version": "v4",
+  "lastModified": "2019-11-05",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/niramit/v4/I_urMpWdvgLdNxVLVXx7tiiEr5_BdZ8.ttf",
+    "300": "http://fonts.gstatic.com/s/niramit/v4/I_urMpWdvgLdNxVLVRh4tiiEr5_BdZ8.ttf",
+    "500": "http://fonts.gstatic.com/s/niramit/v4/I_urMpWdvgLdNxVLVUB5tiiEr5_BdZ8.ttf",
+    "600": "http://fonts.gstatic.com/s/niramit/v4/I_urMpWdvgLdNxVLVWx-tiiEr5_BdZ8.ttf",
+    "700": "http://fonts.gstatic.com/s/niramit/v4/I_urMpWdvgLdNxVLVQh_tiiEr5_BdZ8.ttf",
+    "200italic": "http://fonts.gstatic.com/s/niramit/v4/I_upMpWdvgLdNxVLXbZiXimOq73EZZ_f6w.ttf",
+    "300italic": "http://fonts.gstatic.com/s/niramit/v4/I_upMpWdvgLdNxVLXbZiOiqOq73EZZ_f6w.ttf",
+    "regular": "http://fonts.gstatic.com/s/niramit/v4/I_uuMpWdvgLdNxVLbbRQkiCvs5Y.ttf",
+    "italic": "http://fonts.gstatic.com/s/niramit/v4/I_usMpWdvgLdNxVLXbZalgKqo5bYbA.ttf",
+    "500italic": "http://fonts.gstatic.com/s/niramit/v4/I_upMpWdvgLdNxVLXbZiYiuOq73EZZ_f6w.ttf",
+    "600italic": "http://fonts.gstatic.com/s/niramit/v4/I_upMpWdvgLdNxVLXbZiTiyOq73EZZ_f6w.ttf",
+    "700italic": "http://fonts.gstatic.com/s/niramit/v4/I_upMpWdvgLdNxVLXbZiKi2Oq73EZZ_f6w.ttf"
+  }
+}

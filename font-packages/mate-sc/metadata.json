@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Mate SC",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/matesc/v8/-nF8OGQ1-uoVr2wKyiXZ95OkJwA.ttf" }
+}

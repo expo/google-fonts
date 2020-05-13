@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Padauk",
+  "category": "sans-serif",
+  "variants": ["regular", "700"],
+  "subsets": ["latin", "myanmar"],
+  "version": "v6",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/padauk/v6/RrQSboJg-id7Onb512DE1JJEZ4YwGg.ttf",
+    "regular": "http://fonts.gstatic.com/s/padauk/v6/RrQRboJg-id7OnbBa0_g3LlYbg.ttf"
+  }
+}

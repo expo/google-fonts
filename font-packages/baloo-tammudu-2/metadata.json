@@ -1,0 +1,16 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Baloo Tammudu 2",
+  "category": "display",
+  "variants": ["regular", "500", "600", "700", "800"],
+  "subsets": ["latin", "latin-ext", "telugu", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2020-03-06",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/balootammudu2/v1/1Ptzg8TIS_SAmkLguUdFP8UaJcKGMVgy4YqLFrUnJA.ttf",
+    "600": "http://fonts.gstatic.com/s/balootammudu2/v1/1Ptzg8TIS_SAmkLguUdFP8UaJcKGHV8y4YqLFrUnJA.ttf",
+    "700": "http://fonts.gstatic.com/s/balootammudu2/v1/1Ptzg8TIS_SAmkLguUdFP8UaJcKGeV4y4YqLFrUnJA.ttf",
+    "800": "http://fonts.gstatic.com/s/balootammudu2/v1/1Ptzg8TIS_SAmkLguUdFP8UaJcKGZV0y4YqLFrUnJA.ttf",
+    "regular": "http://fonts.gstatic.com/s/balootammudu2/v1/1Pt2g8TIS_SAmkLguUdFP8UaJcK-xXEW6aGXHw.ttf"
+  }
+}

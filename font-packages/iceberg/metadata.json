@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Iceberg",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/iceberg/v7/8QIJdijAiM7o-qnZuIgOq7jkAOw.ttf" }
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Changa One",
+  "category": "display",
+  "variants": ["regular", "italic"],
+  "subsets": ["latin"],
+  "version": "v12",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/changaone/v12/xfu00W3wXn3QLUJXhzq46AbouLfbK64.ttf",
+    "italic": "http://fonts.gstatic.com/s/changaone/v12/xfu20W3wXn3QLUJXhzq42ATivJXeO67ISw.ttf"
+  }
+}

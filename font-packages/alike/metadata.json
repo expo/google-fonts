@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Alike",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v12",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/alike/v12/HI_EiYEYI6BIoEjBSZXAQ4-d.ttf" }
+}

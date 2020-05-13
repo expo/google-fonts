@@ -1,0 +1,14 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Source Serif Pro",
+  "category": "serif",
+  "variants": ["regular", "600", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-17",
+  "files": {
+    "600": "http://fonts.gstatic.com/s/sourceserifpro/v7/neIXzD-0qpwxpaWvjeD0X88SAOeasasahSugxYUvZrI.ttf",
+    "700": "http://fonts.gstatic.com/s/sourceserifpro/v7/neIXzD-0qpwxpaWvjeD0X88SAOeasc8bhSugxYUvZrI.ttf",
+    "regular": "http://fonts.gstatic.com/s/sourceserifpro/v7/neIQzD-0qpwxpaWvjeD0X88SAOeaiXM0oSOL2Yw.ttf"
+  }
+}

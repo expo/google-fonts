@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Oxygen Mono",
+  "category": "monospace",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/oxygenmono/v7/h0GsssGg9FxgDgCjLeAd7ijfze-PPlUu.ttf"
+  }
+}

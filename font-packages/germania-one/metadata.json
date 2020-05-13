@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Germania One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/germaniaone/v7/Fh4yPjrqIyv2ucM2qzBjeS3ezAJONau6ew.ttf"
+  }
+}

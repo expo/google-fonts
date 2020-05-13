@@ -1,0 +1,16 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Baloo Paaji 2",
+  "category": "display",
+  "variants": ["regular", "500", "600", "700", "800"],
+  "subsets": ["gurmukhi", "latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2020-03-06",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/baloopaaji2/v1/i7dRIFFzbz-QHZUdV9_UGWZuWKa5OwS-a3yGe9E.ttf",
+    "600": "http://fonts.gstatic.com/s/baloopaaji2/v1/i7dRIFFzbz-QHZUdV9_UGWZuWIq-OwS-a3yGe9E.ttf",
+    "700": "http://fonts.gstatic.com/s/baloopaaji2/v1/i7dRIFFzbz-QHZUdV9_UGWZuWO6_OwS-a3yGe9E.ttf",
+    "800": "http://fonts.gstatic.com/s/baloopaaji2/v1/i7dRIFFzbz-QHZUdV9_UGWZuWPK8OwS-a3yGe9E.ttf",
+    "regular": "http://fonts.gstatic.com/s/baloopaaji2/v1/i7dMIFFzbz-QHZUdV9_UGWZuYFKQHwyVd3U.ttf"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Harmattan",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["arabic", "latin"],
+  "version": "v6",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/harmattan/v6/goksH6L2DkFvVvRp9XpTS0CjkP1Yog.ttf"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Chilanka",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "malayalam"],
+  "version": "v5",
+  "lastModified": "2020-03-03",
+  "files": { "regular": "http://fonts.gstatic.com/s/chilanka/v5/WWXRlj2DZQiMJYaYRrJQI9EAZhTO.ttf" }
+}

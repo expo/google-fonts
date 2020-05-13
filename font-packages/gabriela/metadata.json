@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Gabriela",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/gabriela/v8/qkBWXvsO6sreR8E-b_m-zrpHmRzC.ttf" }
+}

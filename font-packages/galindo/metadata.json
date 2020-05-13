@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Galindo",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/galindo/v7/HI_KiYMeLqVKqwyuQ5HiRp-dhpQ.ttf" }
+}

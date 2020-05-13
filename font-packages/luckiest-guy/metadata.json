@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Luckiest Guy",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/luckiestguy/v10/_gP_1RrxsjcxVyin9l9n_j2RStR3qDpraA.ttf"
+  }
+}

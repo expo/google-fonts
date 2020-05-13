@@ -1,0 +1,11 @@
+{
+  "name": "@expo-google-fonts/jost",
+  "version": "0.1.0",
+  "description": "Use the Jost font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": "https://github.com/expo/google-fonts.git",
+  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/jost#readme",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT",
+  "publishConfig": { "access": "public" }
+}

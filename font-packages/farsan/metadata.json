@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Farsan",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["gujarati", "latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/farsan/v5/VEMwRoJ0vY_zsyz62q-pxDX9rQ.ttf" }
+}

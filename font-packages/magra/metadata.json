@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Magra",
+  "category": "sans-serif",
+  "variants": ["regular", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/magra/v8/uK_w4ruaZus72nbNDxcXEPuUX1ow.ttf",
+    "regular": "http://fonts.gstatic.com/s/magra/v8/uK_94ruaZus72k5xIDMfO-ed.ttf"
+  }
+}

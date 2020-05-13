@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Kotta One",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/kottaone/v7/S6u_w41LXzPc_jlfNWqPHA3s5dwt7w.ttf"
+  }
+}

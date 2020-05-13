@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Trade Winds",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/tradewinds/v8/AYCPpXPpYNIIT7h8-QenM3Jq7PKP5Z_G.ttf"
+  }
+}

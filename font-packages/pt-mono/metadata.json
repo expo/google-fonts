@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "PT Mono",
+  "category": "monospace",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/ptmono/v7/9oRONYoBnWILk-9ArCg5MtPyAcg.ttf" }
+}

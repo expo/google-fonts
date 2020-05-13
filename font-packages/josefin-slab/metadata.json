@@ -1,0 +1,32 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Josefin Slab",
+  "category": "serif",
+  "variants": [
+    "100",
+    "100italic",
+    "300",
+    "300italic",
+    "regular",
+    "italic",
+    "600",
+    "600italic",
+    "700",
+    "700italic"
+  ],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/josefinslab/v10/lW-nwjwOK3Ps5GSJlNNkMalvyQ6qBM7oPxMX.ttf",
+    "300": "http://fonts.gstatic.com/s/josefinslab/v10/lW-mwjwOK3Ps5GSJlNNkMalvASyKLuDkNgoO7g.ttf",
+    "600": "http://fonts.gstatic.com/s/josefinslab/v10/lW-mwjwOK3Ps5GSJlNNkMalvdSqKLuDkNgoO7g.ttf",
+    "700": "http://fonts.gstatic.com/s/josefinslab/v10/lW-mwjwOK3Ps5GSJlNNkMalvESuKLuDkNgoO7g.ttf",
+    "100italic": "http://fonts.gstatic.com/s/josefinslab/v10/lW-lwjwOK3Ps5GSJlNNkMalnrzbODsrKOgMX95A.ttf",
+    "300italic": "http://fonts.gstatic.com/s/josefinslab/v10/lW-kwjwOK3Ps5GSJlNNkMalnrzYGLOrgFA8e7onu.ttf",
+    "regular": "http://fonts.gstatic.com/s/josefinslab/v10/lW-5wjwOK3Ps5GSJlNNkMalXrQSuJsv4Pw.ttf",
+    "italic": "http://fonts.gstatic.com/s/josefinslab/v10/lW-nwjwOK3Ps5GSJlNNkMalnrw6qBM7oPxMX.ttf",
+    "600italic": "http://fonts.gstatic.com/s/josefinslab/v10/lW-kwjwOK3Ps5GSJlNNkMalnrzZyKurgFA8e7onu.ttf",
+    "700italic": "http://fonts.gstatic.com/s/josefinslab/v10/lW-kwjwOK3Ps5GSJlNNkMalnrzYWK-rgFA8e7onu.ttf"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Bowlby One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v11",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/bowlbyone/v11/taiPGmVuC4y96PFeqp8smo6C_Z0wcK4.ttf"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Stylish",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["korean", "latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/stylish/v8/m8JSjfhPYriQkk7-fo35dLxEdmo.ttf" }
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Mina",
+  "category": "sans-serif",
+  "variants": ["regular", "700"],
+  "subsets": ["bengali", "latin", "latin-ext"],
+  "version": "v3",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/mina/v3/-nF8OGc18vARl4NMyiXZ95OkJwA.ttf",
+    "regular": "http://fonts.gstatic.com/s/mina/v3/-nFzOGc18vARrz9j7i3y65o.ttf"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Sriracha",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
+  "version": "v4",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/sriracha/v4/0nkrC9D4IuYBgWcI9ObYRQDioeb0.ttf" }
+}

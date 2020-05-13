@@ -1,0 +1,20 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Encode Sans Condensed",
+  "category": "sans-serif",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v4",
+  "lastModified": "2019-07-16",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/encodesanscondensed/v4/j8_76_LD37rqfuwxyIuaZhE6cRXOLtm2gfT-5a-JLQoFI2KR.ttf",
+    "200": "http://fonts.gstatic.com/s/encodesanscondensed/v4/j8_46_LD37rqfuwxyIuaZhE6cRXOLtm2gfT-SY6pByQJKnuIFA.ttf",
+    "300": "http://fonts.gstatic.com/s/encodesanscondensed/v4/j8_46_LD37rqfuwxyIuaZhE6cRXOLtm2gfT-LY2pByQJKnuIFA.ttf",
+    "500": "http://fonts.gstatic.com/s/encodesanscondensed/v4/j8_46_LD37rqfuwxyIuaZhE6cRXOLtm2gfT-dYypByQJKnuIFA.ttf",
+    "600": "http://fonts.gstatic.com/s/encodesanscondensed/v4/j8_46_LD37rqfuwxyIuaZhE6cRXOLtm2gfT-WYupByQJKnuIFA.ttf",
+    "700": "http://fonts.gstatic.com/s/encodesanscondensed/v4/j8_46_LD37rqfuwxyIuaZhE6cRXOLtm2gfT-PYqpByQJKnuIFA.ttf",
+    "800": "http://fonts.gstatic.com/s/encodesanscondensed/v4/j8_46_LD37rqfuwxyIuaZhE6cRXOLtm2gfT-IYmpByQJKnuIFA.ttf",
+    "900": "http://fonts.gstatic.com/s/encodesanscondensed/v4/j8_46_LD37rqfuwxyIuaZhE6cRXOLtm2gfT-BYipByQJKnuIFA.ttf",
+    "regular": "http://fonts.gstatic.com/s/encodesanscondensed/v4/j8_16_LD37rqfuwxyIuaZhE6cRXOLtm2gfTGgaWNDw8VIw.ttf"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Aref Ruqaa",
+  "category": "serif",
+  "variants": ["regular", "700"],
+  "subsets": ["arabic", "latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/arefruqaa/v8/WwkYxPW1E165rajQKDulKDwNcNIS2N_7Bdk.ttf",
+    "regular": "http://fonts.gstatic.com/s/arefruqaa/v8/WwkbxPW1E165rajQKDulEIAiVNo5xNY.ttf"
+  }
+}

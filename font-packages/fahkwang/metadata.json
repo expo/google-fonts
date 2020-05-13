@@ -1,0 +1,36 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Fahkwang",
+  "category": "sans-serif",
+  "variants": [
+    "200",
+    "200italic",
+    "300",
+    "300italic",
+    "regular",
+    "italic",
+    "500",
+    "500italic",
+    "600",
+    "600italic",
+    "700",
+    "700italic"
+  ],
+  "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2019-11-05",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/fahkwang/v3/Noa26Uj3zpmBOgbNpOJHmZlRFipxkwjx.ttf",
+    "300": "http://fonts.gstatic.com/s/fahkwang/v3/Noa26Uj3zpmBOgbNpOIjmplRFipxkwjx.ttf",
+    "500": "http://fonts.gstatic.com/s/fahkwang/v3/Noa26Uj3zpmBOgbNpOJ7m5lRFipxkwjx.ttf",
+    "600": "http://fonts.gstatic.com/s/fahkwang/v3/Noa26Uj3zpmBOgbNpOJXnJlRFipxkwjx.ttf",
+    "700": "http://fonts.gstatic.com/s/fahkwang/v3/Noa26Uj3zpmBOgbNpOIznZlRFipxkwjx.ttf",
+    "200italic": "http://fonts.gstatic.com/s/fahkwang/v3/Noa06Uj3zpmBOgbNpOqNgHFQHC5Tlhjxdw4.ttf",
+    "300italic": "http://fonts.gstatic.com/s/fahkwang/v3/Noa06Uj3zpmBOgbNpOqNgBVTHC5Tlhjxdw4.ttf",
+    "regular": "http://fonts.gstatic.com/s/fahkwang/v3/Noax6Uj3zpmBOgbNpNqPsr1ZPTZ4.ttf",
+    "italic": "http://fonts.gstatic.com/s/fahkwang/v3/Noa36Uj3zpmBOgbNpOqNuLl7OCZ4ihE.ttf",
+    "500italic": "http://fonts.gstatic.com/s/fahkwang/v3/Noa06Uj3zpmBOgbNpOqNgE1SHC5Tlhjxdw4.ttf",
+    "600italic": "http://fonts.gstatic.com/s/fahkwang/v3/Noa06Uj3zpmBOgbNpOqNgGFVHC5Tlhjxdw4.ttf",
+    "700italic": "http://fonts.gstatic.com/s/fahkwang/v3/Noa06Uj3zpmBOgbNpOqNgAVUHC5Tlhjxdw4.ttf"
+  }
+}

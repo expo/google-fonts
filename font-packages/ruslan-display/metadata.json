@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Ruslan Display",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "latin", "latin-ext"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/ruslandisplay/v10/Gw6jwczl81XcIZuckK_e3UpfdzxrldyFvm1n.ttf"
+  }
+}

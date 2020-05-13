@@ -1,0 +1,19 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Archivo",
+  "category": "sans-serif",
+  "variants": ["regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v6",
+  "lastModified": "2019-07-26",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/archivo/v6/k3kVo8UDI-1M0wlSdSrLC0HrLaqM6Q4.ttf",
+    "600": "http://fonts.gstatic.com/s/archivo/v6/k3kVo8UDI-1M0wlSdQbMC0HrLaqM6Q4.ttf",
+    "700": "http://fonts.gstatic.com/s/archivo/v6/k3kVo8UDI-1M0wlSdWLNC0HrLaqM6Q4.ttf",
+    "regular": "http://fonts.gstatic.com/s/archivo/v6/k3kQo8UDI-1M0wlSTd7iL0nAMaM.ttf",
+    "italic": "http://fonts.gstatic.com/s/archivo/v6/k3kSo8UDI-1M0wlSfdzoK2vFIaOV8A.ttf",
+    "500italic": "http://fonts.gstatic.com/s/archivo/v6/k3kXo8UDI-1M0wlSfdzQ30LhKYiJ-Q7m8w.ttf",
+    "600italic": "http://fonts.gstatic.com/s/archivo/v6/k3kXo8UDI-1M0wlSfdzQ80XhKYiJ-Q7m8w.ttf",
+    "700italic": "http://fonts.gstatic.com/s/archivo/v6/k3kXo8UDI-1M0wlSfdzQl0ThKYiJ-Q7m8w.ttf"
+  }
+}

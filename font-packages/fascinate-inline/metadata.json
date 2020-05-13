@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Fascinate Inline",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/fascinateinline/v9/jVyR7mzzB3zc-jp6QCAu60poNqIy1g3CfRXxWZQ.ttf"
+  }
+}

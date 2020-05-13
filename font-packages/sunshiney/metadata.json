@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Sunshiney",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/sunshiney/v10/LDIwapGTLBwsS-wT4vcgE8moUePWkg.ttf"
+  }
+}

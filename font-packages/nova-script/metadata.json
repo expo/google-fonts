@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Nova Script",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v12",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/novascript/v12/7Au7p_IpkSWSTWaFWkumvmQNEl0O0kEx.ttf"
+  }
+}

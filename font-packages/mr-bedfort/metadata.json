@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Mr Bedfort",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/mrbedfort/v8/MQpR-WCtNZSWAdTMwBicliq0XZe_Iy8.ttf"
+  }
+}

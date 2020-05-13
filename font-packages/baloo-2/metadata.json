@@ -1,0 +1,16 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Baloo 2",
+  "category": "display",
+  "variants": ["regular", "500", "600", "700", "800"],
+  "subsets": ["devanagari", "latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2020-03-06",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/baloo2/v1/wXKuE3kTposypRyd76v_JeQAmX8yrdk.ttf",
+    "600": "http://fonts.gstatic.com/s/baloo2/v1/wXKuE3kTposypRyd74f4JeQAmX8yrdk.ttf",
+    "700": "http://fonts.gstatic.com/s/baloo2/v1/wXKuE3kTposypRyd7-P5JeQAmX8yrdk.ttf",
+    "800": "http://fonts.gstatic.com/s/baloo2/v1/wXKuE3kTposypRyd7__6JeQAmX8yrdk.ttf",
+    "regular": "http://fonts.gstatic.com/s/baloo2/v1/wXKrE3kTposypRyd11_WAewrhXY.ttf"
+  }
+}

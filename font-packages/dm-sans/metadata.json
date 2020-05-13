@@ -1,0 +1,17 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "DM Sans",
+  "category": "sans-serif",
+  "variants": ["regular", "italic", "500", "500italic", "700", "700italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2019-11-14",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/dmsans/v4/rP2Cp2ywxg089UriAWCrOB-sClQX6Cg.ttf",
+    "700": "http://fonts.gstatic.com/s/dmsans/v4/rP2Cp2ywxg089UriASitOB-sClQX6Cg.ttf",
+    "regular": "http://fonts.gstatic.com/s/dmsans/v4/rP2Hp2ywxg089UriOZSCHBeHFl0.ttf",
+    "italic": "http://fonts.gstatic.com/s/dmsans/v4/rP2Fp2ywxg089UriCZaIGDWCBl0O8Q.ttf",
+    "500italic": "http://fonts.gstatic.com/s/dmsans/v4/rP2Ap2ywxg089UriCZaw7BymDnYS-Cjk6Q.ttf",
+    "700italic": "http://fonts.gstatic.com/s/dmsans/v4/rP2Ap2ywxg089UriCZawpBqmDnYS-Cjk6Q.ttf"
+  }
+}

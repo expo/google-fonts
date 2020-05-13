@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Almarai",
+  "category": "sans-serif",
+  "variants": ["300", "regular", "700", "800"],
+  "subsets": ["arabic"],
+  "version": "v2",
+  "lastModified": "2020-03-03",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/almarai/v2/tssoApxBaigK_hnnS_anhnicoq72sXg.ttf",
+    "700": "http://fonts.gstatic.com/s/almarai/v2/tssoApxBaigK_hnnS-aghnicoq72sXg.ttf",
+    "800": "http://fonts.gstatic.com/s/almarai/v2/tssoApxBaigK_hnnS_qjhnicoq72sXg.ttf",
+    "regular": "http://fonts.gstatic.com/s/almarai/v2/tsstApxBaigK_hnnc1qPonC3vqc.ttf"
+  }
+}

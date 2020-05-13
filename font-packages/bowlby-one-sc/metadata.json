@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Bowlby One SC",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v11",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/bowlbyonesc/v11/DtVlJxerQqQm37tzN3wMug9Pzgj8owhNjuE.ttf"
+  }
+}

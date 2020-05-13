@@ -1,0 +1,14 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Open Sans Condensed",
+  "category": "sans-serif",
+  "variants": ["300", "300italic", "700"],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v14",
+  "lastModified": "2019-07-22",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/opensanscondensed/v14/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhPuLGRpWRyAs.ttf",
+    "700": "http://fonts.gstatic.com/s/opensanscondensed/v14/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff0GmPuLGRpWRyAs.ttf",
+    "300italic": "http://fonts.gstatic.com/s/opensanscondensed/v14/z7NHdQDnbTkabZAIOl9il_O6KJj73e7Fd_-7suDMQreU2AsJSg.ttf"
+  }
+}

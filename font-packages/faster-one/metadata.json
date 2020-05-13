@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Faster One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v11",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/fasterone/v11/H4ciBXCHmdfClFb-vWhfyLuShq63czE.ttf"
+  }
+}

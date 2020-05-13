@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Grand Hotel",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/grandhotel/v7/7Au7p_IgjDKdCRWuR1azpmQNEl0O0kEx.ttf"
+  }
+}

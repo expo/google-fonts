@@ -1,0 +1,14 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Gudea",
+  "category": "sans-serif",
+  "variants": ["regular", "italic", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/gudea/v9/neIIzCqgsI0mp9gz26WGHK06UY30.ttf",
+    "regular": "http://fonts.gstatic.com/s/gudea/v9/neIFzCqgsI0mp-CP9IGON7Ez.ttf",
+    "italic": "http://fonts.gstatic.com/s/gudea/v9/neILzCqgsI0mp9CN_oWsMqEzSJQ.ttf"
+  }
+}

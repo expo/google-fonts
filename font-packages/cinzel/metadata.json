@@ -1,0 +1,14 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Cinzel",
+  "category": "serif",
+  "variants": ["regular", "700", "900"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-17",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/cinzel/v9/8vIK7ww63mVu7gtzTUHeFGxbO_zo-w.ttf",
+    "900": "http://fonts.gstatic.com/s/cinzel/v9/8vIK7ww63mVu7gtzdUPeFGxbO_zo-w.ttf",
+    "regular": "http://fonts.gstatic.com/s/cinzel/v9/8vIJ7ww63mVu7gtL8W76HEdHMg.ttf"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Dr Sugiyama",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/drsugiyama/v9/HTxoL2k4N3O9n5I1boGI7abRM4-t-g7y.ttf"
+  }
+}

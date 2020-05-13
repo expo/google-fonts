@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Bree Serif",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-17",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/breeserif/v9/4UaHrEJCrhhnVA3DgluAx63j5pN1MwI.ttf"
+  }
+}

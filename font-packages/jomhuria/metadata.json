@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Jomhuria",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["arabic", "latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/jomhuria/v7/Dxxp8j-TMXf-llKur2b1MOGbC3Dh.ttf" }
+}

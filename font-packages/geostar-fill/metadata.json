@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Geostar Fill",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/geostarfill/v10/AMOWz4SWuWiXFfjEohxQ9os0U1K2w9lb4g.ttf"
+  }
+}

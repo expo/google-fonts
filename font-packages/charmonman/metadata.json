@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Charmonman",
+  "category": "handwriting",
+  "variants": ["regular", "700"],
+  "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2019-11-05",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/charmonman/v3/MjQAmiR3vP_nuxDv47jiYC2HmL9K9OhmGnY.ttf",
+    "regular": "http://fonts.gstatic.com/s/charmonman/v3/MjQDmiR3vP_nuxDv47jiWJGovLdh6OE.ttf"
+  }
+}

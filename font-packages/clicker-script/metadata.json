@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Clicker Script",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/clickerscript/v7/raxkHiKPvt8CMH6ZWP8PdlEq72rY2zqUKafv.ttf"
+  }
+}

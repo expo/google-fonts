@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Major Mono Display",
+  "category": "monospace",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v4",
+  "lastModified": "2019-11-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/majormonodisplay/v4/RWmVoLyb5fEqtsfBX9PDZIGr2tFubRhLCn2QIndPww.ttf"
+  }
+}

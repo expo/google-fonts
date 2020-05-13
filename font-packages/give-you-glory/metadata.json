@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Give You Glory",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/giveyouglory/v9/8QIQdiHOgt3vv4LR7ahjw9-XYc1zB4ZD6rwa.ttf"
+  }
+}

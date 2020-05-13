@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Jolly Lodger",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/jollylodger/v7/BXRsvFTAh_bGkA1uQ48dlB3VWerT3ZyuqA.ttf"
+  }
+}

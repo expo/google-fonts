@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Strait",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/strait/v7/DtViJxy6WaEr1LZzeDhtkl0U7w.ttf" }
+}

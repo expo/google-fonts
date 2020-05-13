@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Homemade Apple",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/homemadeapple/v10/Qw3EZQFXECDrI2q789EKQZJob3x9Vnksi4M7.ttf"
+  }
+}

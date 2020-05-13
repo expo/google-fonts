@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Beth Ellen",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v1",
+  "lastModified": "2019-11-05",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/bethellen/v1/WwkbxPW2BE-3rb_JNT-qEIAiVNo5xNY.ttf"
+  }
+}

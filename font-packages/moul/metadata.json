@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Moul",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["khmer"],
+  "version": "v11",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/moul/v11/nuF2D__FSo_3E-RYiJCy-00.ttf" }
+}

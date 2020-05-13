@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Caveat",
+  "category": "handwriting",
+  "variants": ["regular", "700"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-17",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/caveat/v7/Wnz5HAc5bAfYB2Qz3RM9oiTQNAuxjA.ttf",
+    "regular": "http://fonts.gstatic.com/s/caveat/v7/Wnz6HAc5bAfYB2QLYTwZqg_MPQ.ttf"
+  }
+}

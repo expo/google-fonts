@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Nokora",
+  "category": "serif",
+  "variants": ["regular", "700"],
+  "subsets": ["khmer"],
+  "version": "v13",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/nokora/v13/hYkLPuwgTubzaWxohxUrqt18-B9Uuw.ttf",
+    "regular": "http://fonts.gstatic.com/s/nokora/v13/hYkIPuwgTubzaWxQOzoPovZg8Q.ttf"
+  }
+}

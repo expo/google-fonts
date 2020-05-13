@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Skranji",
+  "category": "display",
+  "variants": ["regular", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/skranji/v7/OZpGg_dtriVFNerMW4eBtlzNwED-b4g.ttf",
+    "regular": "http://fonts.gstatic.com/s/skranji/v7/OZpDg_dtriVFNerMYzuuklTm3Ek.ttf"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Peddana",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin", "telugu"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/peddana/v7/aFTU7PBhaX89UcKWhh2aBYyMcKw.ttf" }
+}

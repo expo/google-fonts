@@ -1,0 +1,17 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Cairo",
+  "category": "sans-serif",
+  "variants": ["200", "300", "regular", "600", "700", "900"],
+  "subsets": ["arabic", "latin", "latin-ext"],
+  "version": "v6",
+  "lastModified": "2019-07-17",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/cairo/v6/SLXLc1nY6Hkvalrub76M7dd8aGZk.ttf",
+    "300": "http://fonts.gstatic.com/s/cairo/v6/SLXLc1nY6HkvalqKbL6M7dd8aGZk.ttf",
+    "600": "http://fonts.gstatic.com/s/cairo/v6/SLXLc1nY6Hkvalr-ar6M7dd8aGZk.ttf",
+    "700": "http://fonts.gstatic.com/s/cairo/v6/SLXLc1nY6Hkvalqaa76M7dd8aGZk.ttf",
+    "900": "http://fonts.gstatic.com/s/cairo/v6/SLXLc1nY6Hkvalqiab6M7dd8aGZk.ttf",
+    "regular": "http://fonts.gstatic.com/s/cairo/v6/SLXGc1nY6HkvamImRJqExst1.ttf"
+  }
+}

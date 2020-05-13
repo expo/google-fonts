@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Ceviche One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/cevicheone/v10/gyB4hws1IcA6JzR-GB_JX6zdZ4vZVbgZ.ttf"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Vibes",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["arabic", "latin"],
+  "version": "v1",
+  "lastModified": "2019-11-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/vibes/v1/QdVYSTsmIB6tmbd3HpbsuBlh.ttf" }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Mitr",
+  "category": "sans-serif",
+  "variants": ["200", "300", "regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2019-07-16",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/mitr/v5/pxiEypw5ucZF8fMZFJDUc1NECPY.ttf",
+    "300": "http://fonts.gstatic.com/s/mitr/v5/pxiEypw5ucZF8ZcaFJDUc1NECPY.ttf",
+    "500": "http://fonts.gstatic.com/s/mitr/v5/pxiEypw5ucZF8c8bFJDUc1NECPY.ttf",
+    "600": "http://fonts.gstatic.com/s/mitr/v5/pxiEypw5ucZF8eMcFJDUc1NECPY.ttf",
+    "700": "http://fonts.gstatic.com/s/mitr/v5/pxiEypw5ucZF8YcdFJDUc1NECPY.ttf",
+    "regular": "http://fonts.gstatic.com/s/mitr/v5/pxiLypw5ucZFyTsyMJj_b1o.ttf"
+  }
+}

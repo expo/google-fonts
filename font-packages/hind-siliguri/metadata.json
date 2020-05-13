@@ -1,0 +1,16 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Hind Siliguri",
+  "category": "sans-serif",
+  "variants": ["300", "regular", "500", "600", "700"],
+  "subsets": ["bengali", "latin", "latin-ext"],
+  "version": "v6",
+  "lastModified": "2019-07-17",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/hindsiliguri/v6/ijwOs5juQtsyLLR5jN4cxBEoRDf44uEfKiGvxts.ttf",
+    "500": "http://fonts.gstatic.com/s/hindsiliguri/v6/ijwOs5juQtsyLLR5jN4cxBEoRG_54uEfKiGvxts.ttf",
+    "600": "http://fonts.gstatic.com/s/hindsiliguri/v6/ijwOs5juQtsyLLR5jN4cxBEoREP-4uEfKiGvxts.ttf",
+    "700": "http://fonts.gstatic.com/s/hindsiliguri/v6/ijwOs5juQtsyLLR5jN4cxBEoRCf_4uEfKiGvxts.ttf",
+    "regular": "http://fonts.gstatic.com/s/hindsiliguri/v6/ijwTs5juQtsyLLR5jN4cxBEofJvQxuk0Nig.ttf"
+  }
+}

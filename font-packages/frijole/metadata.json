@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Frijole",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/frijole/v8/uU9PCBUR8oakM2BQ7xPb3vyHmlI.ttf" }
+}

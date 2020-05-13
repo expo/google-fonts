@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Preahvihear",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["khmer"],
+  "version": "v11",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/preahvihear/v11/6NUS8F-dNQeEYhzj7uluxswE49FJf8Wv.ttf"
+  }
+}

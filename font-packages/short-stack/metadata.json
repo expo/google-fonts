@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Short Stack",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/shortstack/v9/bMrzmS2X6p0jZC6EcmPFX-SScX8D0nq6.ttf"
+  }
+}

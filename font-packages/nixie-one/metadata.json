@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Nixie One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/nixieone/v10/lW-8wjkKLXjg5y2o2uUoUOFzpS-yLw.ttf"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Allerta Stencil",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/allertastencil/v10/HTx0L209KT-LmIE9N7OR6eiycOeF-zz313DuvQ.ttf"
+  }
+}

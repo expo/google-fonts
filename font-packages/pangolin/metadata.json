@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Pangolin",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/pangolin/v5/cY9GfjGcW0FPpi-tWPfK5d3aiLBG.ttf" }
+}

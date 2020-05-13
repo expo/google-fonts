@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Antic Didone",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/anticdidone/v8/RWmPoKKX6u8sp8fIWdnDKqDiqYsGBGBzCw.ttf"
+  }
+}

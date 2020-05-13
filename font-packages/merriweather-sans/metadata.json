@@ -1,0 +1,19 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Merriweather Sans",
+  "category": "sans-serif",
+  "variants": ["300", "300italic", "regular", "italic", "700", "700italic", "800", "800italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v11",
+  "lastModified": "2019-07-17",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/merriweathersans/v11/2-c49IRs1JiJN1FRAMjTN5zd9vgsFH1eYBDD2BdWzIqY.ttf",
+    "700": "http://fonts.gstatic.com/s/merriweathersans/v11/2-c49IRs1JiJN1FRAMjTN5zd9vgsFH1OZxDD2BdWzIqY.ttf",
+    "800": "http://fonts.gstatic.com/s/merriweathersans/v11/2-c49IRs1JiJN1FRAMjTN5zd9vgsFH1SZBDD2BdWzIqY.ttf",
+    "300italic": "http://fonts.gstatic.com/s/merriweathersans/v11/2-c29IRs1JiJN1FRAMjTN5zd9vgsFHXwepzB0hN0yZqYcqw.ttf",
+    "regular": "http://fonts.gstatic.com/s/merriweathersans/v11/2-c99IRs1JiJN1FRAMjTN5zd9vgsFEXySDTL8wtf.ttf",
+    "italic": "http://fonts.gstatic.com/s/merriweathersans/v11/2-c79IRs1JiJN1FRAMjTN5zd9vgsFHXwQjDp9htf1ZM.ttf",
+    "700italic": "http://fonts.gstatic.com/s/merriweathersans/v11/2-c29IRs1JiJN1FRAMjTN5zd9vgsFHXweozG0hN0yZqYcqw.ttf",
+    "800italic": "http://fonts.gstatic.com/s/merriweathersans/v11/2-c29IRs1JiJN1FRAMjTN5zd9vgsFHXwepDF0hN0yZqYcqw.ttf"
+  }
+}

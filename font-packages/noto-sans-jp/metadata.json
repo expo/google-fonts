@@ -1,0 +1,17 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Noto Sans JP",
+  "category": "sans-serif",
+  "variants": ["100", "300", "regular", "500", "700", "900"],
+  "subsets": ["japanese", "latin"],
+  "version": "v25",
+  "lastModified": "2020-03-05",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notosansjp/v25/-F6ofjtqLzI2JPCgQBnw7HFQoggM-FNthvIU.otf",
+    "300": "http://fonts.gstatic.com/s/notosansjp/v25/-F6pfjtqLzI2JPCgQBnw7HFQaioq1H1hj-sNFQ.otf",
+    "500": "http://fonts.gstatic.com/s/notosansjp/v25/-F6pfjtqLzI2JPCgQBnw7HFQMisq1H1hj-sNFQ.otf",
+    "700": "http://fonts.gstatic.com/s/notosansjp/v25/-F6pfjtqLzI2JPCgQBnw7HFQei0q1H1hj-sNFQ.otf",
+    "900": "http://fonts.gstatic.com/s/notosansjp/v25/-F6pfjtqLzI2JPCgQBnw7HFQQi8q1H1hj-sNFQ.otf",
+    "regular": "http://fonts.gstatic.com/s/notosansjp/v25/-F62fjtqLzI2JPCgQBnw7HFowAIO2lZ9hg.otf"
+  }
+}

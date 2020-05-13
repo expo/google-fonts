@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Asar",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["devanagari", "latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/asar/v7/sZlLdRyI6TBIXkYQDLlTW6E.ttf" }
+}

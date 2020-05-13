@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Marmelad",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/marmelad/v9/Qw3eZQdSHj_jK2e-8tFLG-YMC0R8.ttf" }
+}

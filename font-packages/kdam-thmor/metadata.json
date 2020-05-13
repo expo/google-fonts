@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Kdam Thmor",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["khmer"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/kdamthmor/v7/MwQzbhjs3veF6QwJVf0JkGMViblPtXs.ttf"
+  }
+}

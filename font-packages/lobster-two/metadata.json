@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Lobster Two",
+  "category": "display",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": ["latin"],
+  "version": "v12",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/lobstertwo/v12/BngRUXZGTXPUvIoyV6yN5-92w4CByxyKeuDp.ttf",
+    "regular": "http://fonts.gstatic.com/s/lobstertwo/v12/BngMUXZGTXPUvIoyV6yN59fK7KSJ4ACD.ttf",
+    "italic": "http://fonts.gstatic.com/s/lobstertwo/v12/BngOUXZGTXPUvIoyV6yN5-fI5qCr5RCDY_k.ttf",
+    "700italic": "http://fonts.gstatic.com/s/lobstertwo/v12/BngTUXZGTXPUvIoyV6yN5-fI3hyEwRiof_DpXMY.ttf"
+  }
+}

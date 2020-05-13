@@ -1,0 +1,28 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "M PLUS 1p",
+  "category": "sans-serif",
+  "variants": ["100", "300", "regular", "500", "700", "800", "900"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "hebrew",
+    "japanese",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
+  "version": "v19",
+  "lastModified": "2020-03-03",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/mplus1p/v19/e3tleuShHdiFyPFzBRrQnDQAUW3aq-5N.ttf",
+    "300": "http://fonts.gstatic.com/s/mplus1p/v19/e3tmeuShHdiFyPFzBRrQVBYge0PWovdU4w.ttf",
+    "500": "http://fonts.gstatic.com/s/mplus1p/v19/e3tmeuShHdiFyPFzBRrQDBcge0PWovdU4w.ttf",
+    "700": "http://fonts.gstatic.com/s/mplus1p/v19/e3tmeuShHdiFyPFzBRrQRBEge0PWovdU4w.ttf",
+    "800": "http://fonts.gstatic.com/s/mplus1p/v19/e3tmeuShHdiFyPFzBRrQWBIge0PWovdU4w.ttf",
+    "900": "http://fonts.gstatic.com/s/mplus1p/v19/e3tmeuShHdiFyPFzBRrQfBMge0PWovdU4w.ttf",
+    "regular": "http://fonts.gstatic.com/s/mplus1p/v19/e3tjeuShHdiFyPFzBRro-D4Ec2jKqw.ttf"
+  }
+}

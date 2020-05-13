@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Gorditas",
+  "category": "display",
+  "variants": ["regular", "700"],
+  "subsets": ["latin"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/gorditas/v7/ll84K2aTVD26DsPEtThUIooIvAoShA1i.ttf",
+    "regular": "http://fonts.gstatic.com/s/gorditas/v7/ll8_K2aTVD26DsPEtQDoDa4AlxYb.ttf"
+  }
+}

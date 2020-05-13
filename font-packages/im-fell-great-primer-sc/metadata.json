@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "IM Fell Great Primer SC",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/imfellgreatprimersc/v9/ga6daxBOxyt6sCqz3fjZCTFCTUDMHagsQKdDTLf9BXz0s8FG.ttf"
+  }
+}

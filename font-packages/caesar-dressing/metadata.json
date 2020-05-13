@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Caesar Dressing",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/caesardressing/v8/yYLx0hLa3vawqtwdswbotmK4vrR3cbb6LZttyg.ttf"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Modak",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["devanagari", "latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/modak/v5/EJRYQgs1XtIEsnMH8BVZ76KU.ttf" }
+}

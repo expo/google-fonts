@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Love Ya Like A Sister",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/loveyalikeasister/v10/R70EjzUBlOqPeouhFDfR80-0FhOqJubN-Be78nZcsGGycA.ttf"
+  }
+}

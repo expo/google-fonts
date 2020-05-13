@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Jomolhari",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin", "tibetan"],
+  "version": "v1",
+  "lastModified": "2020-03-03",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/jomolhari/v1/EvONzA1M1Iw_CBd2hsQCF1IZKq5INg.ttf"
+  }
+}

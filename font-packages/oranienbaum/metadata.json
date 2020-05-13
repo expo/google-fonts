@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Oranienbaum",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/oranienbaum/v8/OZpHg_txtzZKMuXLIVrx-3zn7kz3dpHc.ttf"
+  }
+}

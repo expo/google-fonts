@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Londrina Solid",
+  "category": "display",
+  "variants": ["100", "300", "regular", "900"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/londrinasolid/v9/flUjRq6sw40kQEJxWNgkLuudGfs9KBYesZHhV64.ttf",
+    "300": "http://fonts.gstatic.com/s/londrinasolid/v9/flUiRq6sw40kQEJxWNgkLuudGfv1CjY0n53oTrcL.ttf",
+    "900": "http://fonts.gstatic.com/s/londrinasolid/v9/flUiRq6sw40kQEJxWNgkLuudGfvdDzY0n53oTrcL.ttf",
+    "regular": "http://fonts.gstatic.com/s/londrinasolid/v9/flUhRq6sw40kQEJxWNgkLuudGcNZIhI8tIHh.ttf"
+  }
+}

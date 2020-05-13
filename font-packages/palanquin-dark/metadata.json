@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Palanquin Dark",
+  "category": "sans-serif",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["devanagari", "latin", "latin-ext"],
+  "version": "v6",
+  "lastModified": "2019-07-16",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/palanquindark/v6/xn76YHgl1nqmANMB-26xC7yuF8Z6ZW41fcvN2KT4.ttf",
+    "600": "http://fonts.gstatic.com/s/palanquindark/v6/xn76YHgl1nqmANMB-26xC7yuF8ZWYm41fcvN2KT4.ttf",
+    "700": "http://fonts.gstatic.com/s/palanquindark/v6/xn76YHgl1nqmANMB-26xC7yuF8YyY241fcvN2KT4.ttf",
+    "regular": "http://fonts.gstatic.com/s/palanquindark/v6/xn75YHgl1nqmANMB-26xC7yuF_6OTEo9VtfE.ttf"
+  }
+}

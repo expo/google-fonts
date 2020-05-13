@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "DM Serif Text",
+  "category": "serif",
+  "variants": ["regular", "italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2019-11-19",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/dmseriftext/v4/rnCu-xZa_krGokauCeNq1wWyafOPXHIJErY.ttf",
+    "italic": "http://fonts.gstatic.com/s/dmseriftext/v4/rnCw-xZa_krGokauCeNq1wWyWfGFWFAMArZKqQ.ttf"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Molle",
+  "category": "handwriting",
+  "variants": ["italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": { "italic": "http://fonts.gstatic.com/s/molle/v8/E21n_dL5hOXFhWEsXzgmVydREus.ttf" }
+}

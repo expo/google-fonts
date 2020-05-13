@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Amarante",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/amarante/v7/xMQXuF1KTa6EvGx9bq-3C3rAmD-b.ttf" }
+}

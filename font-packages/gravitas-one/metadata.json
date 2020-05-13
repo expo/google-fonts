@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Gravitas One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/gravitasone/v9/5h1diZ4hJ3cblKy3LWakKQmaDWRNr3DzbQ.ttf"
+  }
+}

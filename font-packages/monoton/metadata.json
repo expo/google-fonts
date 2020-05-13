@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Monoton",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/monoton/v9/5h1aiZUrOngCibe4fkbBQ2S7FU8.ttf" }
+}

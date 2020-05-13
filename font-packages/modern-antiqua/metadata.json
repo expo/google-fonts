@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Modern Antiqua",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/modernantiqua/v9/NGStv5TIAUg6Iq_RLNo_2dp1sI1Ea2u0c3Gi.ttf"
+  }
+}

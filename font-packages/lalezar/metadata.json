@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Lalezar",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
+  "version": "v6",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/lalezar/v6/zrfl0HLVx-HwTP82UaDyIiL0RCg.ttf" }
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Song Myung",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["korean", "latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/songmyung/v8/1cX2aUDWAJH5-EIC7DIhr1GqhcitzeM.ttf"
+  }
+}

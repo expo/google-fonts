@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Anonymous Pro",
+  "category": "monospace",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": ["cyrillic", "greek", "latin", "latin-ext"],
+  "version": "v13",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/anonymouspro/v13/rP2cp2a15UIB7Un-bOeISG3pFuAT0CnW7KOywKo.ttf",
+    "regular": "http://fonts.gstatic.com/s/anonymouspro/v13/rP2Bp2a15UIB7Un-bOeISG3pLlw89CH98Ko.ttf",
+    "italic": "http://fonts.gstatic.com/s/anonymouspro/v13/rP2fp2a15UIB7Un-bOeISG3pHl428AP44Kqr2Q.ttf",
+    "700italic": "http://fonts.gstatic.com/s/anonymouspro/v13/rP2ap2a15UIB7Un-bOeISG3pHl4OTCzc6IG30KqB9Q.ttf"
+  }
+}

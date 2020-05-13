@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Leckerli One",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/leckerlione/v10/V8mCoQH8VCsNttEnxnGQ-1itLZxcBtItFw.ttf"
+  }
+}

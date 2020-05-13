@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Erica One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/ericaone/v10/WBLnrEXccV9VGrOKmGD1W0_MJMGxiQ.ttf"
+  }
+}

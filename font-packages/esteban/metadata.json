@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Esteban",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/esteban/v8/r05bGLZE-bdGdN-GdOuD5jokU8E.ttf" }
+}

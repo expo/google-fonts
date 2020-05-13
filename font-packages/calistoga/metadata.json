@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Calistoga",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2020-03-03",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/calistoga/v1/6NUU8F2OJg6MeR7l4e0vtMYAwdRZfw.ttf"
+  }
+}

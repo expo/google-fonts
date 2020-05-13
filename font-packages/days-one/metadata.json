@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Days One",
+  "category": "sans-serif",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/daysone/v9/mem9YaCnxnKRiYZOCLYVeLkWVNBt.ttf" }
+}

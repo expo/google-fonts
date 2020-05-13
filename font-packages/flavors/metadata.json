@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Flavors",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-26",
+  "files": { "regular": "http://fonts.gstatic.com/s/flavors/v9/FBV2dDrhxqmveJTpbkzlNqkG9UY.ttf" }
+}

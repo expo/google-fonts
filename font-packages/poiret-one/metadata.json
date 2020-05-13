@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Poiret One",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/poiretone/v8/UqyVK80NJXN4zfRgbdfbk5lWVscxdKE.ttf"
+  }
+}

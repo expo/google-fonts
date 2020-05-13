@@ -1,0 +1,14 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Oxygen",
+  "category": "sans-serif",
+  "variants": ["300", "regular", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-22",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/oxygen/v9/2sDcZG1Wl4LcnbuCJW8Db2-4C7wFZQ.ttf",
+    "700": "http://fonts.gstatic.com/s/oxygen/v9/2sDcZG1Wl4LcnbuCNWgDb2-4C7wFZQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/oxygen/v9/2sDfZG1Wl4Lcnbu6iUcnZ0SkAg.ttf"
+  }
+}

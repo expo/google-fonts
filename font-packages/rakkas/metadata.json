@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Rakkas",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["arabic", "latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/rakkas/v7/Qw3cZQlNHiblL3j_lttPOeMcCw.ttf" }
+}

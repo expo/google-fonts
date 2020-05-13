@@ -1,0 +1,19 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Sansita",
+  "category": "sans-serif",
+  "variants": ["regular", "italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/sansita/v4/QldLNTRRphEb_-V7JKWUaXl0wqVv3_g.ttf",
+    "800": "http://fonts.gstatic.com/s/sansita/v4/QldLNTRRphEb_-V7JLmXaXl0wqVv3_g.ttf",
+    "900": "http://fonts.gstatic.com/s/sansita/v4/QldLNTRRphEb_-V7JJ2WaXl0wqVv3_g.ttf",
+    "regular": "http://fonts.gstatic.com/s/sansita/v4/QldONTRRphEb_-V7HBm7TXFf3qw.ttf",
+    "italic": "http://fonts.gstatic.com/s/sansita/v4/QldMNTRRphEb_-V7LBuxSVNazqx2xg.ttf",
+    "700italic": "http://fonts.gstatic.com/s/sansita/v4/QldJNTRRphEb_-V7LBuJ9Xx-xodqz_joDQ.ttf",
+    "800italic": "http://fonts.gstatic.com/s/sansita/v4/QldJNTRRphEb_-V7LBuJ6X9-xodqz_joDQ.ttf",
+    "900italic": "http://fonts.gstatic.com/s/sansita/v4/QldJNTRRphEb_-V7LBuJzX5-xodqz_joDQ.ttf"
+  }
+}

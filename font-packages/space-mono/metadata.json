@@ -1,0 +1,15 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Space Mono",
+  "category": "monospace",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/spacemono/v5/i7dMIFZifjKcF5UAWdDRaPpZYFKQHwyVd3U.ttf",
+    "regular": "http://fonts.gstatic.com/s/spacemono/v5/i7dPIFZifjKcF5UAWdDRUEZ2RFq7AwU.ttf",
+    "italic": "http://fonts.gstatic.com/s/spacemono/v5/i7dNIFZifjKcF5UAWdDRYER8QHi-EwWMbg.ttf",
+    "700italic": "http://fonts.gstatic.com/s/spacemono/v5/i7dSIFZifjKcF5UAWdDRYERE_FeaGy6QZ3WfYg.ttf"
+  }
+}

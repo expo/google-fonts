@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Montez",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/montez/v10/845ZNMk5GoGIX8lm1LDeSd-R_g.ttf" }
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Macondo",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/macondo/v8/RrQQboN9-iB1IXmOS2XO0LBBd4Y.ttf" }
+}

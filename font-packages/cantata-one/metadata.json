@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Cantata One",
+  "category": "serif",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/cantataone/v9/PlI5Fl60Nb5obNzNe2jslVxEt8CwfGaD.ttf"
+  }
+}

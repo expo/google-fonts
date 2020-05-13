@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Stint Ultra Condensed",
+  "category": "display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/stintultracondensed/v8/-W_gXIrsVjjeyEnPC45qD2NoFPtBE0xCh2A-qhUO2cNvdg.ttf"
+  }
+}

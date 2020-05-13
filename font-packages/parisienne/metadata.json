@@ -1,0 +1,12 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Parisienne",
+  "category": "handwriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2019-07-16",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/parisienne/v7/E21i_d3kivvAkxhLEVZpcy96DuKuavM.ttf"
+  }
+}

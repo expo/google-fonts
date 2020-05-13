@@ -1,0 +1,13 @@
+{
+  "kind": "webfonts#webfont",
+  "family": "Content",
+  "category": "display",
+  "variants": ["regular", "700"],
+  "subsets": ["khmer"],
+  "version": "v12",
+  "lastModified": "2019-07-16",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/content/v12/zrfg0HLayePhU_AwaRzdBirfWCHvkAI.ttf",
+    "regular": "http://fonts.gstatic.com/s/content/v12/zrfl0HLayePhU_AwUaDyIiL0RCg.ttf"
+  }
+}
