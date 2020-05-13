@@ -1,0 +1,11 @@
+{
+  "name": "@expo-google-fonts/font-directory",
+  "version": "0.1.0",
+  "description": "A directory of metadata about the fonts available in `expo-google-fonts`",
+  "main": "fontDirectory.json",
+  "repository": "https://github.com/expo/google-fonts.git",
+  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/font-directory#readme",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT",
+  "publishConfig": { "access": "public" }
+}

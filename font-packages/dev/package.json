@@ -1,0 +1,11 @@
+{
+  "name": "@expo-google-fonts/dev",
+  "version": "0.1.0",
+  "description": "Load 991 font families from Google Fonts over the network while developing your Expo app",
+  "main": "index.js",
+  "repository": "https://github.com/expo/google-fonts.git",
+  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT",
+  "publishConfig": { "access": "public" }
+}
