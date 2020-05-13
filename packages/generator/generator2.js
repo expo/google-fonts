@@ -903,7 +903,74 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
   return md;
 }
 
-async function generateGalleryFile(fontDirectory) {}
+async function generateGalleryFile(fontDirectory) {
+  let dc = JSON.parse(JSON.stringify(fontDirectory));
+  dc.items.sort((a, b) => (a.family < b.family ? -1 : 1));
+
+  let md = `# Expo Google Fonts Gallery
+
+A visual gallery showing you every font available in Expo Fonts Google packages.
+Each image links to the package containing that font.
+
+The [Google Fonts site](https://fonts.google.com) is also a great way to browse through the available fonts.
+
+## 🔠 Font Families
+
+${dc.items
+  .map((webfont) => {
+    return `[${
+      webfont.family
+    }](https://github.com/expo/google-fonts/tree/master/font-packages/${getPackageNameForWebfont(
+      webfont
+    )}#readme)`;
+  })
+  .join(', ')}
+
+## 🔡 Styles
+
+`;
+
+  for (let webfont of fontDirectory.items) {
+    let pkgUrl =
+      'https://github.com/expo/google-fonts/tree/master/font-packages/' +
+      getPackageNameForWebfont(webfont) +
+      '#readme';
+    md += `### [${webfont.family}](${pkgUrl})\n`;
+    md += generateTableForVariants(webfont, pkgUrl);
+  }
+
+  let outputFilepath = path.join(ProjectRootDir, 'GALLERY.md');
+  await fs.promises.writeFile(outputFilepath, md, 'utf8');
+}
+
+function generateTableForVariants(webfont, pkgUrl) {
+  let md = `
+||||
+|-|-|-|
+`;
+  let variantImageCells = [];
+  for (let variantKey of webfont.variants) {
+    let styleImagePath =
+      './font-packages/' +
+      getPackageNameForWebfont(webfont) +
+      '/' +
+      filenameForFontVariant(webfont, variantKey) +
+      '.png';
+    let fi = varNameForFontVariant(webfont, variantKey);
+    variantImageCells.push(`[![${fi}](${styleImagePath})](${pkgUrl})`);
+  }
+
+  for (let row = 0; variantImageCells.length > 0; row++) {
+    md += '|';
+    for (let col = 0; col < 3; col++) {
+      let cell = variantImageCells.shift() || '';
+      md += cell + '|';
+    }
+    md += '|\n';
+  }
+
+  return md;
+}
 
 let t = {
   downloadAllFonts: async () => {
@@ -938,6 +1005,10 @@ let t = {
   generateRootReadme: async () => {
     let d = await getDirectory();
     return await generateRootReadme(d);
+  },
+  generateGalleryFile: async () => {
+    let d = await getDirectory();
+    return await generateGalleryFile(d);
   },
 };
 
