@@ -3,7 +3,7 @@
 expo install @expo-google-fonts/inter expo-font
 ```
 
-### JS App
+### Code
 ```js
 import {
   useFonts,
