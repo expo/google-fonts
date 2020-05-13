@@ -782,27 +782,36 @@ etc.
 }
 
 async function generateRootReadme(fontDirectory) {
+
   let outputFilepath = path.join(ProjectRootDir, 'README.md');
+
+  let variantCount = 0;
+  for (let webfont of fontDirectory.items) {
+    variantCount += webfont.variants.length;
+  }
 
   let md = `# expo-google-fonts
   
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/dev)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 
+![Expo Google Fonts](./title.gif)
+
 The \`@expo-google-fonts\` packages for Expo allow you to easily use 
 any of ${fontDirectory.items.length} fonts (and their variants) from 
 [fonts.google.com](https://fonts.google.com) in your Expo app.
 
-These packages and all these fonts work across web, iOS, and Android.
+These packages and all these fonts work across web, iOS, and Android and 
+are free to use and open source.
 
 ## Usage
 
-Here is an example of using the [Nunito font family](https://fonts.google.com/specimen/Nunito) in a very simple project.
+Here is an example of using the [Inter font family](https://fonts.google.com/specimen/Inter) in a very simple project.
 
 #### Install the package for the font you want
 
 \`\`\`sh
-expo install @expo-google-fonts/nunito expo-font
+expo install @expo-google-fonts/inter expo-font
 \`\`\`
 
 #### In your app
@@ -814,18 +823,13 @@ import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
   useFonts,
-  Nunito_400Regular,
-  Nunito_600SemiBold_Italic,
-} from '@expo-google-fonts/nunito';
+  Inter_400Regular,
+} from '@expo-google-fonts/inter';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Nunito_Regular400,
-    Nunito_SemiBold600_Italic,
+    Inter_Regular400,
   });
-
-  let fontSize = 24;
-  let paddingVertical = 6;
 
   if (!fontsLoaded) {
     return <AppLoading />;
@@ -833,12 +837,8 @@ export default () => {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_400Regular' }}>
-          Nunito Regular
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_600SemiBold_Italic' }}>
-          Nunito Semi Bold Italic
+        <Text style={{ fontFamily: 'Inter_400Regular' }}>
+          Inter Regular
         </Text>
 
       </View>
@@ -859,7 +859,7 @@ Each individual font family package README includes a complete example of using 
 
 You can browse all available Google Fonts on [fonts.google.com](https://fonts.google.com).
 
-Here are a few examples of the ${fontDirectory.items.length} font families available:
+Here are a few examples of the ${variantCount} variants of ${fontDirectory.items.length} fonts available:
 
 ${await getFeaturedGalleryMarkdown(fontDirectory)}
 
@@ -916,7 +916,7 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
     'Allan',
 
     'Roboto',
-    'Lusitana',
+    'Nunito',
     'Open Sans',
 
     'Bangers',
@@ -1088,6 +1088,14 @@ let t = {
     let d = await getDirectory();
     return await generateAllFontPackages(d);
   },
+  getTotalFontVariants: async () => {
+    let d = await getDirectory();
+    let t = 0;
+    for (let webfont of d.items) {
+      t += webfont.variants.length;
+    }
+    return t;
+  }
 };
 
 module.exports = {

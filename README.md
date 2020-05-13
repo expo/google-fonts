@@ -3,11 +3,14 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/dev)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 
+![Expo Google Fonts](./title.gif)
+
 The `@expo-google-fonts` packages for Expo allow you to easily use 
 any of 991 fonts (and their variants) from 
 [fonts.google.com](https://fonts.google.com) in your Expo app.
 
-These packages and all these fonts work across web, iOS, and Android.
+These packages and all these fonts work across web, iOS, and Android and 
+are free to use and open source.
 
 ## Usage
 
@@ -29,17 +32,12 @@ import { AppLoading } from 'expo';
 import {
   useFonts,
   Nunito_400Regular,
-  Nunito_600SemiBold_Italic,
 } from '@expo-google-fonts/nunito';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Nunito_Regular400,
-    Nunito_SemiBold600_Italic,
   });
-
-  let fontSize = 24;
-  let paddingVertical = 6;
 
   if (!fontsLoaded) {
     return <AppLoading />;
@@ -47,12 +45,8 @@ export default () => {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_400Regular' }}>
+        <Text style={{ fontFamily: 'Nunito_400Regular' }}>
           Nunito Regular
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_600SemiBold_Italic' }}>
-          Nunito Semi Bold Italic
         </Text>
 
       </View>
@@ -73,7 +67,7 @@ Each individual font family package README includes a complete example of using 
 
 You can browse all available Google Fonts on [fonts.google.com](https://fonts.google.com).
 
-Here are a few examples of the 991 font families available:
+Here are a few examples of the 3014 variants of 991 fonts available:
 
 
 ||||
