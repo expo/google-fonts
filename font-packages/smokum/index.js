@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Smokum';
-export const __fontFamilyVersion__ = 6;
-
-export const Smokum_Regular400 = require('./2c700a4722b34ec677fb0c4c7ae242886cead014ec06aef3e02dc311def9ccbb.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Smokum_400Regular = require('./Smokum_400Regular.ttf');

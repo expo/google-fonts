@@ -7,28 +7,26 @@
 
 This package lets you use the [**Nunito**](https://fonts.google.com/specimen/Nunito) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Nunito
 
 ![Nunito](./font-family.png)
 
 This font family contains [14 styles](#-gallery).
 
-- `Nunito_ExtraLight200`
-- `Nunito_ExtraLight200_Italic`
-- `Nunito_Light300`
-- `Nunito_Light300_Italic`
-- `Nunito_Regular400`
-- `Nunito_Regular400_Italic`
-- `Nunito_SemiBold600`
-- `Nunito_SemiBold600_Italic`
-- `Nunito_Bold700`
-- `Nunito_Bold700_Italic`
-- `Nunito_ExtraBold800`
-- `Nunito_ExtraBold800_Italic`
-- `Nunito_Black900`
-- `Nunito_Black900_Italic`
+- `Nunito_200ExtraLight`
+- `Nunito_200ExtraLight_Italic`
+- `Nunito_300Light`
+- `Nunito_300Light_Italic`
+- `Nunito_400Regular`
+- `Nunito_400Regular_Italic`
+- `Nunito_600SemiBold`
+- `Nunito_600SemiBold_Italic`
+- `Nunito_700Bold`
+- `Nunito_700Bold_Italic`
+- `Nunito_800ExtraBold`
+- `Nunito_800ExtraBold_Italic`
+- `Nunito_900Black`
+- `Nunito_900Black_Italic`
 
 ## Usage
 
@@ -44,39 +42,39 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Nunito_ExtraLight200,
-  Nunito_ExtraLight200_Italic,
-  Nunito_Light300,
-  Nunito_Light300_Italic,
-  Nunito_Regular400,
-  Nunito_Regular400_Italic,
-  Nunito_SemiBold600,
-  Nunito_SemiBold600_Italic,
-  Nunito_Bold700,
-  Nunito_Bold700_Italic,
-  Nunito_ExtraBold800,
-  Nunito_ExtraBold800_Italic,
-  Nunito_Black900,
-  Nunito_Black900_Italic,
   useFonts,
+  Nunito_200ExtraLight,
+  Nunito_200ExtraLight_Italic,
+  Nunito_300Light,
+  Nunito_300Light_Italic,
+  Nunito_400Regular,
+  Nunito_400Regular_Italic,
+  Nunito_600SemiBold,
+  Nunito_600SemiBold_Italic,
+  Nunito_700Bold,
+  Nunito_700Bold_Italic,
+  Nunito_800ExtraBold,
+  Nunito_800ExtraBold_Italic,
+  Nunito_900Black,
+  Nunito_900Black_Italic,
 } from '@expo-google-fonts/nunito';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Nunito_ExtraLight200,
-    Nunito_ExtraLight200_Italic,
-    Nunito_Light300,
-    Nunito_Light300_Italic,
-    Nunito_Regular400,
-    Nunito_Regular400_Italic,
-    Nunito_SemiBold600,
-    Nunito_SemiBold600_Italic,
-    Nunito_Bold700,
-    Nunito_Bold700_Italic,
-    Nunito_ExtraBold800,
-    Nunito_ExtraBold800_Italic,
-    Nunito_Black900,
-    Nunito_Black900_Italic,
+    Nunito_200ExtraLight,
+    Nunito_200ExtraLight_Italic,
+    Nunito_300Light,
+    Nunito_300Light_Italic,
+    Nunito_400Regular,
+    Nunito_400Regular_Italic,
+    Nunito_600SemiBold,
+    Nunito_600SemiBold_Italic,
+    Nunito_700Bold,
+    Nunito_700Bold_Italic,
+    Nunito_800ExtraBold,
+    Nunito_800ExtraBold_Italic,
+    Nunito_900Black,
+    Nunito_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -87,60 +85,60 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_ExtraLight200' }}>
-          Nunito_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_200ExtraLight' }}>
+          Nunito_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_ExtraLight200_Italic' }}>
-          Nunito_ExtraLight200_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_200ExtraLight_Italic' }}>
+          Nunito_200ExtraLight_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_Light300' }}>
-          Nunito_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_300Light' }}>
+          Nunito_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_Light300_Italic' }}>
-          Nunito_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_300Light_Italic' }}>
+          Nunito_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_Regular400' }}>
-          Nunito_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_400Regular' }}>
+          Nunito_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_Regular400_Italic' }}>
-          Nunito_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_400Regular_Italic' }}>
+          Nunito_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_SemiBold600' }}>
-          Nunito_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_600SemiBold' }}>
+          Nunito_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_SemiBold600_Italic' }}>
-          Nunito_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_600SemiBold_Italic' }}>
+          Nunito_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_Bold700' }}>
-          Nunito_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_700Bold' }}>
+          Nunito_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_Bold700_Italic' }}>
-          Nunito_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_700Bold_Italic' }}>
+          Nunito_700Bold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_ExtraBold800' }}>
-          Nunito_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_800ExtraBold' }}>
+          Nunito_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_ExtraBold800_Italic' }}>
-          Nunito_ExtraBold800_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_800ExtraBold_Italic' }}>
+          Nunito_800ExtraBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_Black900' }}>
-          Nunito_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_900Black' }}>
+          Nunito_900Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_Black900_Italic' }}>
-          Nunito_Black900_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_900Black_Italic' }}>
+          Nunito_900Black_Italic
         </Text>
       </View>
     );
@@ -151,47 +149,47 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Nunito_ExtraLight200
-![Nunito_ExtraLight200](./6b0fb0ec88912f1ff7a203e8c74ec905e0f2333d071fcb6aa512434f693ed426.ttf.png)
+##### Nunito_200ExtraLight
+![Nunito_200ExtraLight](./Nunito_200ExtraLight.ttf.png)
 
-##### Nunito_ExtraLight200_Italic
-![Nunito_ExtraLight200_Italic](./e542c8162e83b8b4a246d9752149784b7a910e9079625dfe29dfa33afcdacd7f.ttf.png)
+##### Nunito_200ExtraLight_Italic
+![Nunito_200ExtraLight_Italic](./Nunito_200ExtraLight_Italic.ttf.png)
 
-##### Nunito_Light300
-![Nunito_Light300](./b6d1ca92958aefa0ca13e7461a345871a0c815ceddf57dff8f143c5cefe954ac.ttf.png)
+##### Nunito_300Light
+![Nunito_300Light](./Nunito_300Light.ttf.png)
 
-##### Nunito_Light300_Italic
-![Nunito_Light300_Italic](./bac03390f60c9c7b5298d6e7849699b7c337daf835bb93fdff988865b0590410.ttf.png)
+##### Nunito_300Light_Italic
+![Nunito_300Light_Italic](./Nunito_300Light_Italic.ttf.png)
 
-##### Nunito_Regular400
-![Nunito_Regular400](./86b77a6cf443c94b0310523682920874155c008981b3bb827cff87b769309527.ttf.png)
+##### Nunito_400Regular
+![Nunito_400Regular](./Nunito_400Regular.ttf.png)
 
-##### Nunito_Regular400_Italic
-![Nunito_Regular400_Italic](./8d666361a790f47bc95f249d2c144967589066f4c39f08d2d6a9afa7bf65570d.ttf.png)
+##### Nunito_400Regular_Italic
+![Nunito_400Regular_Italic](./Nunito_400Regular_Italic.ttf.png)
 
-##### Nunito_SemiBold600
-![Nunito_SemiBold600](./73212904c911defbb848aea031cf5c7bc5285462708823e12fdb1038f8488039.ttf.png)
+##### Nunito_600SemiBold
+![Nunito_600SemiBold](./Nunito_600SemiBold.ttf.png)
 
-##### Nunito_SemiBold600_Italic
-![Nunito_SemiBold600_Italic](./f3dd598262205c5e81b5834c0a103e1fd79a067d9fab79eee988633314bd4f91.ttf.png)
+##### Nunito_600SemiBold_Italic
+![Nunito_600SemiBold_Italic](./Nunito_600SemiBold_Italic.ttf.png)
 
-##### Nunito_Bold700
-![Nunito_Bold700](./443daf06190f4c7abd94b7917adb41656e6014e81c12eb036656d63f2b0c08a3.ttf.png)
+##### Nunito_700Bold
+![Nunito_700Bold](./Nunito_700Bold.ttf.png)
 
-##### Nunito_Bold700_Italic
-![Nunito_Bold700_Italic](./895450a4f7d173b7729b5b09d6b86710da891fa88870c08630abc1c3c186f8ea.ttf.png)
+##### Nunito_700Bold_Italic
+![Nunito_700Bold_Italic](./Nunito_700Bold_Italic.ttf.png)
 
-##### Nunito_ExtraBold800
-![Nunito_ExtraBold800](./18790abbb2d00a39aa0f2ddf3af3a275ce1328915d899d44e31fc996c651dc5d.ttf.png)
+##### Nunito_800ExtraBold
+![Nunito_800ExtraBold](./Nunito_800ExtraBold.ttf.png)
 
-##### Nunito_ExtraBold800_Italic
-![Nunito_ExtraBold800_Italic](./18558eee9acc53f9de8633498a026360f25c82ef2a1e12b2ec7b9e736237be90.ttf.png)
+##### Nunito_800ExtraBold_Italic
+![Nunito_800ExtraBold_Italic](./Nunito_800ExtraBold_Italic.ttf.png)
 
-##### Nunito_Black900
-![Nunito_Black900](./51945e9a938a0ff892a18d5e623e439bd2c363d1cf2e13251b78f545f1de1d09.ttf.png)
+##### Nunito_900Black
+![Nunito_900Black](./Nunito_900Black.ttf.png)
 
-##### Nunito_Black900_Italic
-![Nunito_Black900_Italic](./b3cebdbb4bdd22cce2495c53142cf925a2e430788ce890e6692637f5d4bb5af4.ttf.png)
+##### Nunito_900Black_Italic
+![Nunito_900Black_Italic](./Nunito_900Black_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -221,7 +219,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/nunito)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

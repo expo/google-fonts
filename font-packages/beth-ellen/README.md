@@ -7,15 +7,13 @@
 
 This package lets you use the [**Beth Ellen**](https://fonts.google.com/specimen/Beth+Ellen) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Beth Ellen
 
 ![Beth Ellen](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `BethEllen_Regular400`
+- `BethEllen_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { BethEllen_Regular400, useFonts } from '@expo-google-fonts/beth-ellen';
+import { useFonts, BethEllen_400Regular } from '@expo-google-fonts/beth-ellen';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    BethEllen_Regular400,
+    BethEllen_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BethEllen_Regular400' }}>
-          BethEllen_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BethEllen_400Regular' }}>
+          BethEllen_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BethEllen_Regular400
-![BethEllen_Regular400](./33f7d9b097ad741e56ef314b447fa4e0d310aab981ba6aea5db368053b65bc56.ttf.png)
+##### BethEllen_400Regular
+![BethEllen_400Regular](./BethEllen_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/beth-ellen)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

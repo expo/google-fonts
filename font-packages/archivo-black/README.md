@@ -7,15 +7,13 @@
 
 This package lets you use the [**Archivo Black**](https://fonts.google.com/specimen/Archivo+Black) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Archivo Black
 
 ![Archivo Black](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `ArchivoBlack_Regular400`
+- `ArchivoBlack_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { ArchivoBlack_Regular400, useFonts } from '@expo-google-fonts/archivo-black';
+import { useFonts, ArchivoBlack_400Regular } from '@expo-google-fonts/archivo-black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ArchivoBlack_Regular400,
+    ArchivoBlack_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArchivoBlack_Regular400' }}>
-          ArchivoBlack_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArchivoBlack_400Regular' }}>
+          ArchivoBlack_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ArchivoBlack_Regular400
-![ArchivoBlack_Regular400](./fdd008fdde6eaf026762810841b23a803c1fd8f7691df010d250df61e584703b.ttf.png)
+##### ArchivoBlack_400Regular
+![ArchivoBlack_400Regular](./ArchivoBlack_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/archivo-black)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bevan';
-export const __fontFamilyVersion__ = 8;
-
-export const Bevan_Regular400 = require('./95fb9ca931c31e79c8312fb66d76a2239472f842f9aeed9c261367a55723370f.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Bevan_400Regular = require('./Bevan_400Regular.ttf');

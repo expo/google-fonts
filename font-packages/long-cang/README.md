@@ -7,15 +7,13 @@
 
 This package lets you use the [**Long Cang**](https://fonts.google.com/specimen/Long+Cang) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Long Cang
 
 ![Long Cang](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `LongCang_Regular400`
+- `LongCang_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { LongCang_Regular400, useFonts } from '@expo-google-fonts/long-cang';
+import { useFonts, LongCang_400Regular } from '@expo-google-fonts/long-cang';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LongCang_Regular400,
+    LongCang_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LongCang_Regular400' }}>
-          LongCang_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LongCang_400Regular' }}>
+          LongCang_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LongCang_Regular400
-![LongCang_Regular400](./abadf560e9284e557329d5cac93ab26b805d175ed1d48da30b843ac4c21623a2.ttf.png)
+##### LongCang_400Regular
+![LongCang_400Regular](./LongCang_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/long-cang)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

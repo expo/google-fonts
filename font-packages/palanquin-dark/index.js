@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Palanquin Dark';
-export const __fontFamilyVersion__ = 2;
-
-export const PalanquinDark_Regular400 = require('./2a564d738b34f664cbdc4ec631b53907f90205b8dd0e177be158ebc30b67182a.ttf');
-export const PalanquinDark_Medium500 = require('./2741c907db3e5853a79489713ec11a8669cff876897076b98d70d302086296c9.ttf');
-export const PalanquinDark_SemiBold600 = require('./ee40721d326a2509669e0c3f41d846f48e353b774b15fb78426c4e812aadf4e9.ttf');
-export const PalanquinDark_Bold700 = require('./3f46195270b56b1dd32d5f48a0bb546a30e424b9d30ff4daabe395c2257a157e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const PalanquinDark_400Regular = require('./PalanquinDark_400Regular.ttf');
+export const PalanquinDark_500Medium = require('./PalanquinDark_500Medium.ttf');
+export const PalanquinDark_600SemiBold = require('./PalanquinDark_600SemiBold.ttf');
+export const PalanquinDark_700Bold = require('./PalanquinDark_700Bold.ttf');

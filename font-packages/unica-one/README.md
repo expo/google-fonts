@@ -7,15 +7,13 @@
 
 This package lets you use the [**Unica One**](https://fonts.google.com/specimen/Unica+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Unica One
 
 ![Unica One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `UnicaOne_Regular400`
+- `UnicaOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { UnicaOne_Regular400, useFonts } from '@expo-google-fonts/unica-one';
+import { useFonts, UnicaOne_400Regular } from '@expo-google-fonts/unica-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    UnicaOne_Regular400,
+    UnicaOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'UnicaOne_Regular400' }}>
-          UnicaOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'UnicaOne_400Regular' }}>
+          UnicaOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### UnicaOne_Regular400
-![UnicaOne_Regular400](./5616e05bc01af9a3a0c6ab46088658b8dfa74ac2b709df893baaefaa711889ed.ttf.png)
+##### UnicaOne_400Regular
+![UnicaOne_400Regular](./UnicaOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/unica-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

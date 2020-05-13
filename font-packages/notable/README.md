@@ -7,15 +7,13 @@
 
 This package lets you use the [**Notable**](https://fonts.google.com/specimen/Notable) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Notable
 
 ![Notable](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Notable_Regular400`
+- `Notable_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Notable_Regular400, useFonts } from '@expo-google-fonts/notable';
+import { useFonts, Notable_400Regular } from '@expo-google-fonts/notable';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Notable_Regular400,
+    Notable_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Notable_Regular400' }}>
-          Notable_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Notable_400Regular' }}>
+          Notable_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Notable_Regular400
-![Notable_Regular400](./17b2981242270d0087017ea92cac3bb8bad89c43bd4d9907ded7255e92dbc8aa.ttf.png)
+##### Notable_400Regular
+![Notable_400Regular](./Notable_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/notable)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

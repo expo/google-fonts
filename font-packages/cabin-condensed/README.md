@@ -7,18 +7,16 @@
 
 This package lets you use the [**Cabin Condensed**](https://fonts.google.com/specimen/Cabin+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Cabin Condensed
 
 ![Cabin Condensed](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `CabinCondensed_Regular400`
-- `CabinCondensed_Medium500`
-- `CabinCondensed_SemiBold600`
-- `CabinCondensed_Bold700`
+- `CabinCondensed_400Regular`
+- `CabinCondensed_500Medium`
+- `CabinCondensed_600SemiBold`
+- `CabinCondensed_700Bold`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  CabinCondensed_Regular400,
-  CabinCondensed_Medium500,
-  CabinCondensed_SemiBold600,
-  CabinCondensed_Bold700,
   useFonts,
+  CabinCondensed_400Regular,
+  CabinCondensed_500Medium,
+  CabinCondensed_600SemiBold,
+  CabinCondensed_700Bold,
 } from '@expo-google-fonts/cabin-condensed';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CabinCondensed_Regular400,
-    CabinCondensed_Medium500,
-    CabinCondensed_SemiBold600,
-    CabinCondensed_Bold700,
+    CabinCondensed_400Regular,
+    CabinCondensed_500Medium,
+    CabinCondensed_600SemiBold,
+    CabinCondensed_700Bold,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CabinCondensed_Regular400' }}>
-          CabinCondensed_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CabinCondensed_400Regular' }}>
+          CabinCondensed_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CabinCondensed_Medium500' }}>
-          CabinCondensed_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CabinCondensed_500Medium' }}>
+          CabinCondensed_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CabinCondensed_SemiBold600' }}>
-          CabinCondensed_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CabinCondensed_600SemiBold' }}>
+          CabinCondensed_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CabinCondensed_Bold700' }}>
-          CabinCondensed_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CabinCondensed_700Bold' }}>
+          CabinCondensed_700Bold
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CabinCondensed_Regular400
-![CabinCondensed_Regular400](./8864cf658e1904654fb267649af1a35b07c0f9e7b2df523910efcfa047857270.ttf.png)
+##### CabinCondensed_400Regular
+![CabinCondensed_400Regular](./CabinCondensed_400Regular.ttf.png)
 
-##### CabinCondensed_Medium500
-![CabinCondensed_Medium500](./19d7c8b72085fd1898042b6adfa002bee67aa85565ea042e3383c6d9718262f3.ttf.png)
+##### CabinCondensed_500Medium
+![CabinCondensed_500Medium](./CabinCondensed_500Medium.ttf.png)
 
-##### CabinCondensed_SemiBold600
-![CabinCondensed_SemiBold600](./204e4e214a76e3cc970598f75636fbe098a6541146bb02dd3d1ec67c8e155e5b.ttf.png)
+##### CabinCondensed_600SemiBold
+![CabinCondensed_600SemiBold](./CabinCondensed_600SemiBold.ttf.png)
 
-##### CabinCondensed_Bold700
-![CabinCondensed_Bold700](./8b3d243ed807d45b1666f9a3866bc69260a7d81fe656a1d0fc9335302b4d82fa.ttf.png)
+##### CabinCondensed_700Bold
+![CabinCondensed_700Bold](./CabinCondensed_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cabin-condensed)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

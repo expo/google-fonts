@@ -4,7 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Londrina Solid';
-export const __fontFamilyVersion__ = 4;
-
-export const LondrinaSolid_Regular400 = require('./85115a63ada513540474540a077cb696b1e089220014e3496bbb17c6d81ae8af.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const LondrinaSolid_100Thin = require('./LondrinaSolid_100Thin.ttf');
+export const LondrinaSolid_300Light = require('./LondrinaSolid_300Light.ttf');
+export const LondrinaSolid_400Regular = require('./LondrinaSolid_400Regular.ttf');
+export const LondrinaSolid_900Black = require('./LondrinaSolid_900Black.ttf');

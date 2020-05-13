@@ -7,18 +7,16 @@
 
 This package lets you use the [**Thasadith**](https://fonts.google.com/specimen/Thasadith) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Thasadith
 
 ![Thasadith](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Thasadith_Regular400`
-- `Thasadith_Regular400_Italic`
-- `Thasadith_Bold700`
-- `Thasadith_Bold700_Italic`
+- `Thasadith_400Regular`
+- `Thasadith_400Regular_Italic`
+- `Thasadith_700Bold`
+- `Thasadith_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Thasadith_Regular400,
-  Thasadith_Regular400_Italic,
-  Thasadith_Bold700,
-  Thasadith_Bold700_Italic,
   useFonts,
+  Thasadith_400Regular,
+  Thasadith_400Regular_Italic,
+  Thasadith_700Bold,
+  Thasadith_700Bold_Italic,
 } from '@expo-google-fonts/thasadith';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Thasadith_Regular400,
-    Thasadith_Regular400_Italic,
-    Thasadith_Bold700,
-    Thasadith_Bold700_Italic,
+    Thasadith_400Regular,
+    Thasadith_400Regular_Italic,
+    Thasadith_700Bold,
+    Thasadith_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Thasadith_Regular400' }}>
-          Thasadith_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Thasadith_400Regular' }}>
+          Thasadith_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Thasadith_Regular400_Italic' }}>
-          Thasadith_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Thasadith_400Regular_Italic' }}>
+          Thasadith_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Thasadith_Bold700' }}>
-          Thasadith_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Thasadith_700Bold' }}>
+          Thasadith_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Thasadith_Bold700_Italic' }}>
-          Thasadith_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Thasadith_700Bold_Italic' }}>
+          Thasadith_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Thasadith_Regular400
-![Thasadith_Regular400](./b9b28f00da26a27f2be523c47e0404d6bad035dead548d2418197cd755cc3ac5.ttf.png)
+##### Thasadith_400Regular
+![Thasadith_400Regular](./Thasadith_400Regular.ttf.png)
 
-##### Thasadith_Regular400_Italic
-![Thasadith_Regular400_Italic](./6c61662859aba973376a911040a9d141a67b1fa741ad54150e2bca1ec179e824.ttf.png)
+##### Thasadith_400Regular_Italic
+![Thasadith_400Regular_Italic](./Thasadith_400Regular_Italic.ttf.png)
 
-##### Thasadith_Bold700
-![Thasadith_Bold700](./45b2059a66559645a04c064051f3e3d8f18c0e883aab89bae7fff6d05ad0043b.ttf.png)
+##### Thasadith_700Bold
+![Thasadith_700Bold](./Thasadith_700Bold.ttf.png)
 
-##### Thasadith_Bold700_Italic
-![Thasadith_Bold700_Italic](./758c9bca5f80c1e919aa4821259cd1a773692ab770622c36f688ea4c8524b0ae.ttf.png)
+##### Thasadith_700Bold_Italic
+![Thasadith_700Bold_Italic](./Thasadith_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/thasadith)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,20 +7,18 @@
 
 This package lets you use the [**Comic Neue**](https://fonts.google.com/specimen/Comic+Neue) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Comic Neue
 
 ![Comic Neue](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `ComicNeue_Light300`
-- `ComicNeue_Light300_Italic`
-- `ComicNeue_Regular400`
-- `ComicNeue_Regular400_Italic`
-- `ComicNeue_Bold700`
-- `ComicNeue_Bold700_Italic`
+- `ComicNeue_300Light`
+- `ComicNeue_300Light_Italic`
+- `ComicNeue_400Regular`
+- `ComicNeue_400Regular_Italic`
+- `ComicNeue_700Bold`
+- `ComicNeue_700Bold_Italic`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  ComicNeue_Light300,
-  ComicNeue_Light300_Italic,
-  ComicNeue_Regular400,
-  ComicNeue_Regular400_Italic,
-  ComicNeue_Bold700,
-  ComicNeue_Bold700_Italic,
   useFonts,
+  ComicNeue_300Light,
+  ComicNeue_300Light_Italic,
+  ComicNeue_400Regular,
+  ComicNeue_400Regular_Italic,
+  ComicNeue_700Bold,
+  ComicNeue_700Bold_Italic,
 } from '@expo-google-fonts/comic-neue';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ComicNeue_Light300,
-    ComicNeue_Light300_Italic,
-    ComicNeue_Regular400,
-    ComicNeue_Regular400_Italic,
-    ComicNeue_Bold700,
-    ComicNeue_Bold700_Italic,
+    ComicNeue_300Light,
+    ComicNeue_300Light_Italic,
+    ComicNeue_400Regular,
+    ComicNeue_400Regular_Italic,
+    ComicNeue_700Bold,
+    ComicNeue_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -63,28 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_Light300' }}>
-          ComicNeue_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_300Light' }}>
+          ComicNeue_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_Light300_Italic' }}>
-          ComicNeue_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_300Light_Italic' }}>
+          ComicNeue_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_Regular400' }}>
-          ComicNeue_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_400Regular' }}>
+          ComicNeue_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_Regular400_Italic' }}>
-          ComicNeue_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_400Regular_Italic' }}>
+          ComicNeue_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_Bold700' }}>
-          ComicNeue_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_700Bold' }}>
+          ComicNeue_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_Bold700_Italic' }}>
-          ComicNeue_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_700Bold_Italic' }}>
+          ComicNeue_700Bold_Italic
         </Text>
       </View>
     );
@@ -95,23 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ComicNeue_Light300
-![ComicNeue_Light300](./03e7eb4282b1113db14871908b545b6c90e66c01c71e25eebd86710af1675dc6.ttf.png)
+##### ComicNeue_300Light
+![ComicNeue_300Light](./ComicNeue_300Light.ttf.png)
 
-##### ComicNeue_Light300_Italic
-![ComicNeue_Light300_Italic](./e3f90ddc32d7c1de1802b67c219fcaa9a3363ffd6798d5135d4f660a1dda1b26.ttf.png)
+##### ComicNeue_300Light_Italic
+![ComicNeue_300Light_Italic](./ComicNeue_300Light_Italic.ttf.png)
 
-##### ComicNeue_Regular400
-![ComicNeue_Regular400](./9d7ebe6d4d4dfaab467fe4a423295d991fdfbf4d1989fcaad2f84c5f338ab089.ttf.png)
+##### ComicNeue_400Regular
+![ComicNeue_400Regular](./ComicNeue_400Regular.ttf.png)
 
-##### ComicNeue_Regular400_Italic
-![ComicNeue_Regular400_Italic](./b5fb7946d3c3a90935983acd29701d85ed3c845dbea8a353f82e297d2c3c0fc6.ttf.png)
+##### ComicNeue_400Regular_Italic
+![ComicNeue_400Regular_Italic](./ComicNeue_400Regular_Italic.ttf.png)
 
-##### ComicNeue_Bold700
-![ComicNeue_Bold700](./4b38da288c36361aa89d7bd2d0cb55585417eef4ae2b1c087d41fa9d3616eb70.ttf.png)
+##### ComicNeue_700Bold
+![ComicNeue_700Bold](./ComicNeue_700Bold.ttf.png)
 
-##### ComicNeue_Bold700_Italic
-![ComicNeue_Bold700_Italic](./77d1c55b067195ccd5450ef65c41c0bc9adb016fdc56465fa2323318e59a9fef.ttf.png)
+##### ComicNeue_700Bold_Italic
+![ComicNeue_700Bold_Italic](./ComicNeue_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -141,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/comic-neue)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

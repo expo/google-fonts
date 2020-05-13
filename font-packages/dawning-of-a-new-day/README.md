@@ -7,15 +7,13 @@
 
 This package lets you use the [**Dawning of a New Day**](https://fonts.google.com/specimen/Dawning+of+a+New+Day) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Dawning of a New Day
 
 ![Dawning of a New Day](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `DawningofaNewDay_Regular400`
+- `DawningofaNewDay_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { DawningofaNewDay_Regular400, useFonts } from '@expo-google-fonts/dawning-of-a-new-day';
+import { useFonts, DawningofaNewDay_400Regular } from '@expo-google-fonts/dawning-of-a-new-day';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    DawningofaNewDay_Regular400,
+    DawningofaNewDay_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DawningofaNewDay_Regular400' }}>
-          DawningofaNewDay_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DawningofaNewDay_400Regular' }}>
+          DawningofaNewDay_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DawningofaNewDay_Regular400
-![DawningofaNewDay_Regular400](./c8fb2c187b599f0368577f599628c83a2543f4c757231bb2c0843e98624eeb4a.ttf.png)
+##### DawningofaNewDay_400Regular
+![DawningofaNewDay_400Regular](./DawningofaNewDay_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/dawning-of-a-new-day)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

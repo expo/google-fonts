@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Chango';
-export const __fontFamilyVersion__ = 5;
-
-export const Chango_Regular400 = require('./66d5dcae03b7a0d59f38640d05bb920cc6d3b4e2a1cdb176628330e20ab9a6ca.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Chango_400Regular = require('./Chango_400Regular.ttf');

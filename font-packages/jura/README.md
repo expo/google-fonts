@@ -7,19 +7,17 @@
 
 This package lets you use the [**Jura**](https://fonts.google.com/specimen/Jura) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Jura
 
 ![Jura](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `Jura_Light300`
-- `Jura_Regular400`
-- `Jura_Medium500`
-- `Jura_SemiBold600`
-- `Jura_Bold700`
+- `Jura_300Light`
+- `Jura_400Regular`
+- `Jura_500Medium`
+- `Jura_600SemiBold`
+- `Jura_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Jura_Light300,
-  Jura_Regular400,
-  Jura_Medium500,
-  Jura_SemiBold600,
-  Jura_Bold700,
   useFonts,
+  Jura_300Light,
+  Jura_400Regular,
+  Jura_500Medium,
+  Jura_600SemiBold,
+  Jura_700Bold,
 } from '@expo-google-fonts/jura';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Jura_Light300,
-    Jura_Regular400,
-    Jura_Medium500,
-    Jura_SemiBold600,
-    Jura_Bold700,
+    Jura_300Light,
+    Jura_400Regular,
+    Jura_500Medium,
+    Jura_600SemiBold,
+    Jura_700Bold,
   });
 
   let fontSize = 24;
@@ -60,23 +58,23 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jura_Light300' }}>
-          Jura_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jura_300Light' }}>
+          Jura_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jura_Regular400' }}>
-          Jura_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jura_400Regular' }}>
+          Jura_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jura_Medium500' }}>
-          Jura_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jura_500Medium' }}>
+          Jura_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jura_SemiBold600' }}>
-          Jura_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jura_600SemiBold' }}>
+          Jura_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jura_Bold700' }}>Jura_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jura_700Bold' }}>Jura_700Bold</Text>
       </View>
     );
   }
@@ -86,20 +84,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Jura_Light300
-![Jura_Light300](./77bf0cc35f4472e54d1b2daf9d1bfc5f02b062280d8dccd089869c247b4787ee.ttf.png)
+##### Jura_300Light
+![Jura_300Light](./Jura_300Light.ttf.png)
 
-##### Jura_Regular400
-![Jura_Regular400](./33eb5cfd183074e05fa8299bd75531ec22a6a6d5f8778170d27310d95b1bbbb6.ttf.png)
+##### Jura_400Regular
+![Jura_400Regular](./Jura_400Regular.ttf.png)
 
-##### Jura_Medium500
-![Jura_Medium500](./77d5a89082924bbe692443c95c536a679eef0891bfbe46d7e30f206f8486631f.ttf.png)
+##### Jura_500Medium
+![Jura_500Medium](./Jura_500Medium.ttf.png)
 
-##### Jura_SemiBold600
-![Jura_SemiBold600](./85ee38dc27e08fef91f43a628bfb4a044e79102b07af8ea7d859b249c169aada.ttf.png)
+##### Jura_600SemiBold
+![Jura_600SemiBold](./Jura_600SemiBold.ttf.png)
 
-##### Jura_Bold700
-![Jura_Bold700](./8215e86097df83eb3473c6f3ee4d3c63cd00dce9d02b9cd816d27f4e13616183.ttf.png)
+##### Jura_700Bold
+![Jura_700Bold](./Jura_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -129,7 +127,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/jura)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

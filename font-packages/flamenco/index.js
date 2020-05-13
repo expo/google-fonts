@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Flamenco';
-export const __fontFamilyVersion__ = 7;
-
-export const Flamenco_Light300 = require('./5e1405fc92b58d9d35feb160e51edfaa54ace38f1e035d9fe2bfbf79a4087fe2.ttf');
-export const Flamenco_Regular400 = require('./f5146448316dfb5f65a04e6a343c26f45f45587351d34559af1459a54eaa864c.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Flamenco_300Light = require('./Flamenco_300Light.ttf');
+export const Flamenco_400Regular = require('./Flamenco_400Regular.ttf');

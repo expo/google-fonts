@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Squada One';
-export const __fontFamilyVersion__ = 5;
-
-export const SquadaOne_Regular400 = require('./d162c6edeab12c48ff421bd0de5d144ae2c1f762b16d00e4efb07d42b4847cbe.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const SquadaOne_400Regular = require('./SquadaOne_400Regular.ttf');

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Lalezar**](https://fonts.google.com/specimen/Lalezar) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Lalezar
 
 ![Lalezar](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Lalezar_Regular400`
+- `Lalezar_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Lalezar_Regular400, useFonts } from '@expo-google-fonts/lalezar';
+import { useFonts, Lalezar_400Regular } from '@expo-google-fonts/lalezar';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Lalezar_Regular400,
+    Lalezar_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lalezar_Regular400' }}>
-          Lalezar_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lalezar_400Regular' }}>
+          Lalezar_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Lalezar_Regular400
-![Lalezar_Regular400](./4fb2ddb0068e2bc905effaccf71a86ff357486d6a30804cd2e1a8109d0f165fc.ttf.png)
+##### Lalezar_400Regular
+![Lalezar_400Regular](./Lalezar_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/lalezar)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

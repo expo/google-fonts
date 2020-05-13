@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Signika';
-export const __fontFamilyVersion__ = 7;
-
-export const Signika_Light300 = require('./57a28a3623e1ad46bb9a9d87d09811b72a87364aeb2d326a4df99bf0e23c0874.ttf');
-export const Signika_Regular400 = require('./028c027c049948e0a67c1a20b73992c9449bec50376131d3a57d3f98ad790c63.ttf');
-export const Signika_SemiBold600 = require('./2d6ed6b2f09f8f763304a07135b4a8dca9de0b7e1aea586a5f033133ae2e83cd.ttf');
-export const Signika_Bold700 = require('./9ffc0cf7832a52fdacc4833c2d951e529281b9eb803b1eeac14f4e69a0b5d1f7.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Signika_300Light = require('./Signika_300Light.ttf');
+export const Signika_400Regular = require('./Signika_400Regular.ttf');
+export const Signika_600SemiBold = require('./Signika_600SemiBold.ttf');
+export const Signika_700Bold = require('./Signika_700Bold.ttf');

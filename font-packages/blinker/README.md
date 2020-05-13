@@ -7,22 +7,20 @@
 
 This package lets you use the [**Blinker**](https://fonts.google.com/specimen/Blinker) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Blinker
 
 ![Blinker](./font-family.png)
 
 This font family contains [8 styles](#-gallery).
 
-- `Blinker_Thin100`
-- `Blinker_ExtraLight200`
-- `Blinker_Light300`
-- `Blinker_Regular400`
-- `Blinker_SemiBold600`
-- `Blinker_Bold700`
-- `Blinker_ExtraBold800`
-- `Blinker_Black900`
+- `Blinker_100Thin`
+- `Blinker_200ExtraLight`
+- `Blinker_300Light`
+- `Blinker_400Regular`
+- `Blinker_600SemiBold`
+- `Blinker_700Bold`
+- `Blinker_800ExtraBold`
+- `Blinker_900Black`
 
 ## Usage
 
@@ -38,27 +36,27 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Blinker_Thin100,
-  Blinker_ExtraLight200,
-  Blinker_Light300,
-  Blinker_Regular400,
-  Blinker_SemiBold600,
-  Blinker_Bold700,
-  Blinker_ExtraBold800,
-  Blinker_Black900,
   useFonts,
+  Blinker_100Thin,
+  Blinker_200ExtraLight,
+  Blinker_300Light,
+  Blinker_400Regular,
+  Blinker_600SemiBold,
+  Blinker_700Bold,
+  Blinker_800ExtraBold,
+  Blinker_900Black,
 } from '@expo-google-fonts/blinker';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Blinker_Thin100,
-    Blinker_ExtraLight200,
-    Blinker_Light300,
-    Blinker_Regular400,
-    Blinker_SemiBold600,
-    Blinker_Bold700,
-    Blinker_ExtraBold800,
-    Blinker_Black900,
+    Blinker_100Thin,
+    Blinker_200ExtraLight,
+    Blinker_300Light,
+    Blinker_400Regular,
+    Blinker_600SemiBold,
+    Blinker_700Bold,
+    Blinker_800ExtraBold,
+    Blinker_900Black,
   });
 
   let fontSize = 24;
@@ -69,36 +67,36 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_Thin100' }}>
-          Blinker_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_100Thin' }}>
+          Blinker_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_ExtraLight200' }}>
-          Blinker_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_200ExtraLight' }}>
+          Blinker_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_Light300' }}>
-          Blinker_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_300Light' }}>
+          Blinker_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_Regular400' }}>
-          Blinker_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_400Regular' }}>
+          Blinker_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_SemiBold600' }}>
-          Blinker_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_600SemiBold' }}>
+          Blinker_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_Bold700' }}>
-          Blinker_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_700Bold' }}>
+          Blinker_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_ExtraBold800' }}>
-          Blinker_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_800ExtraBold' }}>
+          Blinker_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_Black900' }}>
-          Blinker_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_900Black' }}>
+          Blinker_900Black
         </Text>
       </View>
     );
@@ -109,29 +107,29 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Blinker_Thin100
-![Blinker_Thin100](./7c240948a3fc8d5d8689c3a63f7f8ebc6306f7c85e807823569843f0f54195f9.ttf.png)
+##### Blinker_100Thin
+![Blinker_100Thin](./Blinker_100Thin.ttf.png)
 
-##### Blinker_ExtraLight200
-![Blinker_ExtraLight200](./2a79a8324609cc2b3bcdaec6541902337b886042ed55c471dbb6f257c65b280f.ttf.png)
+##### Blinker_200ExtraLight
+![Blinker_200ExtraLight](./Blinker_200ExtraLight.ttf.png)
 
-##### Blinker_Light300
-![Blinker_Light300](./3dd96a764325a06a02dcd84be7a03f3a2f2b6808e40d63328015690bf81f6c96.ttf.png)
+##### Blinker_300Light
+![Blinker_300Light](./Blinker_300Light.ttf.png)
 
-##### Blinker_Regular400
-![Blinker_Regular400](./51b0da89566f911a7458b35be7b50dd97cb0ac23dff1eeb067b4d64a79911f3c.ttf.png)
+##### Blinker_400Regular
+![Blinker_400Regular](./Blinker_400Regular.ttf.png)
 
-##### Blinker_SemiBold600
-![Blinker_SemiBold600](./a51856bff19a13b746d4d2d4b3ebb07157b40df14a94c526837c9e5586337f01.ttf.png)
+##### Blinker_600SemiBold
+![Blinker_600SemiBold](./Blinker_600SemiBold.ttf.png)
 
-##### Blinker_Bold700
-![Blinker_Bold700](./6eba9015f99f6f510f713d65f3f324ba543c2e9d3bc5eac9cbdd446b738eda1f.ttf.png)
+##### Blinker_700Bold
+![Blinker_700Bold](./Blinker_700Bold.ttf.png)
 
-##### Blinker_ExtraBold800
-![Blinker_ExtraBold800](./d898f7f6b1fb3ed914d6dfaa20bc29b0f94d293822df46b2a78b5759f2637549.ttf.png)
+##### Blinker_800ExtraBold
+![Blinker_800ExtraBold](./Blinker_800ExtraBold.ttf.png)
 
-##### Blinker_Black900
-![Blinker_Black900](./1d02003dcc4ca64b3de96560fffcdd9e05125270589caabebc0da78d05d0f61e.ttf.png)
+##### Blinker_900Black
+![Blinker_900Black](./Blinker_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -161,7 +159,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/blinker)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

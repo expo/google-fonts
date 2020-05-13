@@ -7,23 +7,21 @@
 
 This package lets you use the [**Inter**](https://fonts.google.com/specimen/Inter) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Inter
 
 ![Inter](./font-family.png)
 
 This font family contains [9 styles](#-gallery).
 
-- `Inter_Thin100`
-- `Inter_ExtraLight200`
-- `Inter_Light300`
-- `Inter_Regular400`
-- `Inter_Medium500`
-- `Inter_SemiBold600`
-- `Inter_Bold700`
-- `Inter_ExtraBold800`
-- `Inter_Black900`
+- `Inter_100Thin`
+- `Inter_200ExtraLight`
+- `Inter_300Light`
+- `Inter_400Regular`
+- `Inter_500Medium`
+- `Inter_600SemiBold`
+- `Inter_700Bold`
+- `Inter_800ExtraBold`
+- `Inter_900Black`
 
 ## Usage
 
@@ -39,29 +37,29 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Inter_Thin100,
-  Inter_ExtraLight200,
-  Inter_Light300,
-  Inter_Regular400,
-  Inter_Medium500,
-  Inter_SemiBold600,
-  Inter_Bold700,
-  Inter_ExtraBold800,
-  Inter_Black900,
   useFonts,
+  Inter_100Thin,
+  Inter_200ExtraLight,
+  Inter_300Light,
+  Inter_400Regular,
+  Inter_500Medium,
+  Inter_600SemiBold,
+  Inter_700Bold,
+  Inter_800ExtraBold,
+  Inter_900Black,
 } from '@expo-google-fonts/inter';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Inter_Thin100,
-    Inter_ExtraLight200,
-    Inter_Light300,
-    Inter_Regular400,
-    Inter_Medium500,
-    Inter_SemiBold600,
-    Inter_Bold700,
-    Inter_ExtraBold800,
-    Inter_Black900,
+    Inter_100Thin,
+    Inter_200ExtraLight,
+    Inter_300Light,
+    Inter_400Regular,
+    Inter_500Medium,
+    Inter_600SemiBold,
+    Inter_700Bold,
+    Inter_800ExtraBold,
+    Inter_900Black,
   });
 
   let fontSize = 24;
@@ -72,40 +70,40 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_Thin100' }}>
-          Inter_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_100Thin' }}>
+          Inter_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_ExtraLight200' }}>
-          Inter_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_200ExtraLight' }}>
+          Inter_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_Light300' }}>
-          Inter_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_300Light' }}>
+          Inter_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_Regular400' }}>
-          Inter_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_400Regular' }}>
+          Inter_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_Medium500' }}>
-          Inter_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_500Medium' }}>
+          Inter_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_SemiBold600' }}>
-          Inter_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_600SemiBold' }}>
+          Inter_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_Bold700' }}>
-          Inter_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_700Bold' }}>
+          Inter_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_ExtraBold800' }}>
-          Inter_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_800ExtraBold' }}>
+          Inter_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_Black900' }}>
-          Inter_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_900Black' }}>
+          Inter_900Black
         </Text>
       </View>
     );
@@ -116,32 +114,32 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Inter_Thin100
-![Inter_Thin100](./897d64cd0dfbeb56e7867aff5fb59519c0a18eaa535b4d4f9d636ac43028afb5.ttf.png)
+##### Inter_100Thin
+![Inter_100Thin](./Inter_100Thin.ttf.png)
 
-##### Inter_ExtraLight200
-![Inter_ExtraLight200](./a8c528f80a6ad8d07eb0a822ff9763e3286ce1463b1cd881cafbc2d3d9018512.ttf.png)
+##### Inter_200ExtraLight
+![Inter_200ExtraLight](./Inter_200ExtraLight.ttf.png)
 
-##### Inter_Light300
-![Inter_Light300](./7cedc5ced62f88258ed3781a814ff426d7c63e5ef822bc77e66b393b3316ce86.ttf.png)
+##### Inter_300Light
+![Inter_300Light](./Inter_300Light.ttf.png)
 
-##### Inter_Regular400
-![Inter_Regular400](./74b0b48ce5240039e1a17c62f24f5abc322d3d77d4bf96efcdad6d637123cc9d.ttf.png)
+##### Inter_400Regular
+![Inter_400Regular](./Inter_400Regular.ttf.png)
 
-##### Inter_Medium500
-![Inter_Medium500](./177913939a2c83016eaf35b8dcf5b863fcb5d8e86fcb78a14ad753d055d06436.ttf.png)
+##### Inter_500Medium
+![Inter_500Medium](./Inter_500Medium.ttf.png)
 
-##### Inter_SemiBold600
-![Inter_SemiBold600](./f0a9e5b2bc1eef6c3241a779a62cea7c34b88535d7e586390fdcdf28ab01d673.ttf.png)
+##### Inter_600SemiBold
+![Inter_600SemiBold](./Inter_600SemiBold.ttf.png)
 
-##### Inter_Bold700
-![Inter_Bold700](./94c9d9a14fc9ae26fd08041b634823238718b745b8a34986ddfb57cf3db367da.ttf.png)
+##### Inter_700Bold
+![Inter_700Bold](./Inter_700Bold.ttf.png)
 
-##### Inter_ExtraBold800
-![Inter_ExtraBold800](./e5493c1e805b48142688a216308108352fd538721635d7f990c47996dcf8e2c4.ttf.png)
+##### Inter_800ExtraBold
+![Inter_800ExtraBold](./Inter_800ExtraBold.ttf.png)
 
-##### Inter_Black900
-![Inter_Black900](./a2a712f761390199ddad75da5123d6f97f529f5d6dab247f94ceb954a8fe381e.ttf.png)
+##### Inter_900Black
+![Inter_900Black](./Inter_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -171,7 +169,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/inter)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

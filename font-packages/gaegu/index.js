@@ -4,9 +4,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Gaegu';
-export const __fontFamilyVersion__ = 4;
-
-export const Gaegu_Light300 = require('./4b15c05b09479751067fd7c35435678b929504ea6e4a7e996ab5d09a77df6a9c.ttf');
-export const Gaegu_Regular400 = require('./aee336135ec347654a2f36421c05f5d68a6017eec18e264e58e7aeda0f702951.ttf');
-export const Gaegu_Bold700 = require('./047c721d06b371ebfb6f94beb758b1de181d8afc8c8e6eca6829405bd8a1cb91.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Gaegu_300Light = require('./Gaegu_300Light.ttf');
+export const Gaegu_400Regular = require('./Gaegu_400Regular.ttf');
+export const Gaegu_700Bold = require('./Gaegu_700Bold.ttf');

@@ -7,19 +7,17 @@
 
 This package lets you use the [**Cormorant Upright**](https://fonts.google.com/specimen/Cormorant+Upright) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Cormorant Upright
 
 ![Cormorant Upright](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `CormorantUpright_Light300`
-- `CormorantUpright_Regular400`
-- `CormorantUpright_Medium500`
-- `CormorantUpright_SemiBold600`
-- `CormorantUpright_Bold700`
+- `CormorantUpright_300Light`
+- `CormorantUpright_400Regular`
+- `CormorantUpright_500Medium`
+- `CormorantUpright_600SemiBold`
+- `CormorantUpright_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  CormorantUpright_Light300,
-  CormorantUpright_Regular400,
-  CormorantUpright_Medium500,
-  CormorantUpright_SemiBold600,
-  CormorantUpright_Bold700,
   useFonts,
+  CormorantUpright_300Light,
+  CormorantUpright_400Regular,
+  CormorantUpright_500Medium,
+  CormorantUpright_600SemiBold,
+  CormorantUpright_700Bold,
 } from '@expo-google-fonts/cormorant-upright';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CormorantUpright_Light300,
-    CormorantUpright_Regular400,
-    CormorantUpright_Medium500,
-    CormorantUpright_SemiBold600,
-    CormorantUpright_Bold700,
+    CormorantUpright_300Light,
+    CormorantUpright_400Regular,
+    CormorantUpright_500Medium,
+    CormorantUpright_600SemiBold,
+    CormorantUpright_700Bold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUpright_Light300' }}>
-          CormorantUpright_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUpright_300Light' }}>
+          CormorantUpright_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUpright_Regular400' }}>
-          CormorantUpright_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUpright_400Regular' }}>
+          CormorantUpright_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUpright_Medium500' }}>
-          CormorantUpright_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUpright_500Medium' }}>
+          CormorantUpright_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUpright_SemiBold600' }}>
-          CormorantUpright_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUpright_600SemiBold' }}>
+          CormorantUpright_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUpright_Bold700' }}>
-          CormorantUpright_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUpright_700Bold' }}>
+          CormorantUpright_700Bold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CormorantUpright_Light300
-![CormorantUpright_Light300](./29c9067ec4aab7f8532dfad801cd638d35f8738903ec7c40f80069030e231431.ttf.png)
+##### CormorantUpright_300Light
+![CormorantUpright_300Light](./CormorantUpright_300Light.ttf.png)
 
-##### CormorantUpright_Regular400
-![CormorantUpright_Regular400](./d7c8d8d44c6591234b85e43c1b61a5f4adc82016e3c7f315b206cf31fda62572.ttf.png)
+##### CormorantUpright_400Regular
+![CormorantUpright_400Regular](./CormorantUpright_400Regular.ttf.png)
 
-##### CormorantUpright_Medium500
-![CormorantUpright_Medium500](./9e1c85ea60d180f0a621d975977e7e75c7d398a4d4fcb569d2ccadd85c42adce.ttf.png)
+##### CormorantUpright_500Medium
+![CormorantUpright_500Medium](./CormorantUpright_500Medium.ttf.png)
 
-##### CormorantUpright_SemiBold600
-![CormorantUpright_SemiBold600](./0d60d4f81c0c154612e2e9b3b5dd56c2ab5e74e4d8e8507d9725ce908a54c914.ttf.png)
+##### CormorantUpright_600SemiBold
+![CormorantUpright_600SemiBold](./CormorantUpright_600SemiBold.ttf.png)
 
-##### CormorantUpright_Bold700
-![CormorantUpright_Bold700](./441604498e23b982bd6adbe6fe749140f9955eddd7a905329bb88bf4ca9a8f85.ttf.png)
+##### CormorantUpright_700Bold
+![CormorantUpright_700Bold](./CormorantUpright_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cormorant-upright)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

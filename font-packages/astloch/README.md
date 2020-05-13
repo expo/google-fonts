@@ -7,16 +7,14 @@
 
 This package lets you use the [**Astloch**](https://fonts.google.com/specimen/Astloch) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Astloch
 
 ![Astloch](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Astloch_Regular400`
-- `Astloch_Bold700`
+- `Astloch_400Regular`
+- `Astloch_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Astloch_Regular400, Astloch_Bold700, useFonts } from '@expo-google-fonts/astloch';
+import { useFonts, Astloch_400Regular, Astloch_700Bold } from '@expo-google-fonts/astloch';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Astloch_Regular400,
-    Astloch_Bold700,
+    Astloch_400Regular,
+    Astloch_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Astloch_Regular400' }}>
-          Astloch_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Astloch_400Regular' }}>
+          Astloch_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Astloch_Bold700' }}>
-          Astloch_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Astloch_700Bold' }}>
+          Astloch_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Astloch_Regular400
-![Astloch_Regular400](./b51d807f9b0f818e44f8f40d4fbedacfff7df981efda85e7b722d62f6022a168.ttf.png)
+##### Astloch_400Regular
+![Astloch_400Regular](./Astloch_400Regular.ttf.png)
 
-##### Astloch_Bold700
-![Astloch_Bold700](./b86a5f0e90945d44c5b629fde8c5a667dd7882ab201ccb397f96f482fd7e98bc.ttf.png)
+##### Astloch_700Bold
+![Astloch_700Bold](./Astloch_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/astloch)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Shanti**](https://fonts.google.com/specimen/Shanti) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Shanti
 
 ![Shanti](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Shanti_Regular400`
+- `Shanti_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Shanti_Regular400, useFonts } from '@expo-google-fonts/shanti';
+import { useFonts, Shanti_400Regular } from '@expo-google-fonts/shanti';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Shanti_Regular400,
+    Shanti_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Shanti_Regular400' }}>
-          Shanti_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Shanti_400Regular' }}>
+          Shanti_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Shanti_Regular400
-![Shanti_Regular400](./a3182c815ff6755fb8f9b08ac951b5735b102c05b851eac2b1f6fd50a623cd82.ttf.png)
+##### Shanti_400Regular
+![Shanti_400Regular](./Shanti_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/shanti)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

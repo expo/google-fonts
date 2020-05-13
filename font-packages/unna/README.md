@@ -7,18 +7,16 @@
 
 This package lets you use the [**Unna**](https://fonts.google.com/specimen/Unna) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Unna
 
 ![Unna](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Unna_Regular400`
-- `Unna_Regular400_Italic`
-- `Unna_Bold700`
-- `Unna_Bold700_Italic`
+- `Unna_400Regular`
+- `Unna_400Regular_Italic`
+- `Unna_700Bold`
+- `Unna_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Unna_Regular400,
-  Unna_Regular400_Italic,
-  Unna_Bold700,
-  Unna_Bold700_Italic,
   useFonts,
+  Unna_400Regular,
+  Unna_400Regular_Italic,
+  Unna_700Bold,
+  Unna_700Bold_Italic,
 } from '@expo-google-fonts/unna';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Unna_Regular400,
-    Unna_Regular400_Italic,
-    Unna_Bold700,
-    Unna_Bold700_Italic,
+    Unna_400Regular,
+    Unna_400Regular_Italic,
+    Unna_700Bold,
+    Unna_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,18 +55,18 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unna_Regular400' }}>
-          Unna_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unna_400Regular' }}>
+          Unna_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unna_Regular400_Italic' }}>
-          Unna_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unna_400Regular_Italic' }}>
+          Unna_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unna_Bold700' }}>Unna_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unna_700Bold' }}>Unna_700Bold</Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unna_Bold700_Italic' }}>
-          Unna_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unna_700Bold_Italic' }}>
+          Unna_700Bold_Italic
         </Text>
       </View>
     );
@@ -79,17 +77,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Unna_Regular400
-![Unna_Regular400](./aa20b27f175098965dc2897d6bb836199b5df9ae3a2e04ce93c359976f4ad15b.ttf.png)
+##### Unna_400Regular
+![Unna_400Regular](./Unna_400Regular.ttf.png)
 
-##### Unna_Regular400_Italic
-![Unna_Regular400_Italic](./adf583a9103ab9e6d88d247e15e1b9eee56b751099e349c84f7c344391ba5365.ttf.png)
+##### Unna_400Regular_Italic
+![Unna_400Regular_Italic](./Unna_400Regular_Italic.ttf.png)
 
-##### Unna_Bold700
-![Unna_Bold700](./4ea1c7e13a6450b0389fe43811640a115ceff510dce477813d552533bb8c2a1d.ttf.png)
+##### Unna_700Bold
+![Unna_700Bold](./Unna_700Bold.ttf.png)
 
-##### Unna_Bold700_Italic
-![Unna_Bold700_Italic](./2c998279cfb60a24fb17f126e193378afe16e6056a7b57ac4cd78b2047759fd8.ttf.png)
+##### Unna_700Bold_Italic
+![Unna_700Bold_Italic](./Unna_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -119,7 +117,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/unna)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

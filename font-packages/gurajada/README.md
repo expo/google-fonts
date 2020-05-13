@@ -7,15 +7,13 @@
 
 This package lets you use the [**Gurajada**](https://fonts.google.com/specimen/Gurajada) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Gurajada
 
 ![Gurajada](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Gurajada_Regular400`
+- `Gurajada_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Gurajada_Regular400, useFonts } from '@expo-google-fonts/gurajada';
+import { useFonts, Gurajada_400Regular } from '@expo-google-fonts/gurajada';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Gurajada_Regular400,
+    Gurajada_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gurajada_Regular400' }}>
-          Gurajada_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gurajada_400Regular' }}>
+          Gurajada_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gurajada_Regular400
-![Gurajada_Regular400](./9647a956c03e34f58b38200ffb45cc56377e8ba1c333ce052b8e20c3216198c3.ttf.png)
+##### Gurajada_400Regular
+![Gurajada_400Regular](./Gurajada_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/gurajada)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

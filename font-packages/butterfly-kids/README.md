@@ -7,15 +7,13 @@
 
 This package lets you use the [**Butterfly Kids**](https://fonts.google.com/specimen/Butterfly+Kids) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Butterfly Kids
 
 ![Butterfly Kids](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `ButterflyKids_Regular400`
+- `ButterflyKids_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { ButterflyKids_Regular400, useFonts } from '@expo-google-fonts/butterfly-kids';
+import { useFonts, ButterflyKids_400Regular } from '@expo-google-fonts/butterfly-kids';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ButterflyKids_Regular400,
+    ButterflyKids_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ButterflyKids_Regular400' }}>
-          ButterflyKids_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ButterflyKids_400Regular' }}>
+          ButterflyKids_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ButterflyKids_Regular400
-![ButterflyKids_Regular400](./3e78c92335db0b2820b46df2d4a84c41e8690af1bac099b4a552e36736643b61.ttf.png)
+##### ButterflyKids_400Regular
+![ButterflyKids_400Regular](./ButterflyKids_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/butterfly-kids)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

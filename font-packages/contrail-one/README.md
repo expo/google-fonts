@@ -7,15 +7,13 @@
 
 This package lets you use the [**Contrail One**](https://fonts.google.com/specimen/Contrail+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Contrail One
 
 ![Contrail One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `ContrailOne_Regular400`
+- `ContrailOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { ContrailOne_Regular400, useFonts } from '@expo-google-fonts/contrail-one';
+import { useFonts, ContrailOne_400Regular } from '@expo-google-fonts/contrail-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ContrailOne_Regular400,
+    ContrailOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ContrailOne_Regular400' }}>
-          ContrailOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ContrailOne_400Regular' }}>
+          ContrailOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ContrailOne_Regular400
-![ContrailOne_Regular400](./51cdbe97cef3cc835b94974aeff5d8805b5d25b1904ad5355836afe27b0cc199.ttf.png)
+##### ContrailOne_400Regular
+![ContrailOne_400Regular](./ContrailOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/contrail-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

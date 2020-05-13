@@ -4,13 +4,11 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Biryani';
-export const __fontFamilyVersion__ = 2;
-
-export const Biryani_ExtraLight200 = require('./f65303a20787e99a61c757c6e4cbc9ee68af544a375dac932049def734163642.ttf');
-export const Biryani_Light300 = require('./842f2d86cd486de76ca080714383fb99a105dfb85b3bae4360d00e8ac8db8c9f.ttf');
-export const Biryani_Regular400 = require('./16e70205340aba8294e2da2cc8581ec3c5fb3f2af846d51a3de360f447d6f254.ttf');
-export const Biryani_SemiBold600 = require('./80169a7f1fadd79859c89b0e9a066fd8dbbc460f13a4e5df8389cd853dc67be9.ttf');
-export const Biryani_Bold700 = require('./8834894534eb39412acdbc906f20b8d4addd5339d6777eaf647ee1ecbd44538c.ttf');
-export const Biryani_ExtraBold800 = require('./ba9bcb5882f72d4ac114689fb32db356c2be660bc64a16c88ac2457bdbefd777.ttf');
-export const Biryani_Black900 = require('./5bad25e5e05861d1da7ddd858aefac18d200688fc997bf2760059fcc2c2ad30d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Biryani_200ExtraLight = require('./Biryani_200ExtraLight.ttf');
+export const Biryani_300Light = require('./Biryani_300Light.ttf');
+export const Biryani_400Regular = require('./Biryani_400Regular.ttf');
+export const Biryani_600SemiBold = require('./Biryani_600SemiBold.ttf');
+export const Biryani_700Bold = require('./Biryani_700Bold.ttf');
+export const Biryani_800ExtraBold = require('./Biryani_800ExtraBold.ttf');
+export const Biryani_900Black = require('./Biryani_900Black.ttf');

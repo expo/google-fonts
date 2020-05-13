@@ -7,15 +7,13 @@
 
 This package lets you use the [**Maiden Orange**](https://fonts.google.com/specimen/Maiden+Orange) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Maiden Orange
 
 ![Maiden Orange](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `MaidenOrange_Regular400`
+- `MaidenOrange_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { MaidenOrange_Regular400, useFonts } from '@expo-google-fonts/maiden-orange';
+import { useFonts, MaidenOrange_400Regular } from '@expo-google-fonts/maiden-orange';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MaidenOrange_Regular400,
+    MaidenOrange_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MaidenOrange_Regular400' }}>
-          MaidenOrange_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MaidenOrange_400Regular' }}>
+          MaidenOrange_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MaidenOrange_Regular400
-![MaidenOrange_Regular400](./f4952dcb36962c7d3f35f54be08eb204ab4600cfc9afad59f213d36b5ff5e8e6.ttf.png)
+##### MaidenOrange_400Regular
+![MaidenOrange_400Regular](./MaidenOrange_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/maiden-orange)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

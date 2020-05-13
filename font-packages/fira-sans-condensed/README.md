@@ -7,32 +7,30 @@
 
 This package lets you use the [**Fira Sans Condensed**](https://fonts.google.com/specimen/Fira+Sans+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Fira Sans Condensed
 
 ![Fira Sans Condensed](./font-family.png)
 
 This font family contains [18 styles](#-gallery).
 
-- `FiraSansCondensed_Thin100`
-- `FiraSansCondensed_Thin100_Italic`
-- `FiraSansCondensed_ExtraLight200`
-- `FiraSansCondensed_ExtraLight200_Italic`
-- `FiraSansCondensed_Light300`
-- `FiraSansCondensed_Light300_Italic`
-- `FiraSansCondensed_Regular400`
-- `FiraSansCondensed_Regular400_Italic`
-- `FiraSansCondensed_Medium500`
-- `FiraSansCondensed_Medium500_Italic`
-- `FiraSansCondensed_SemiBold600`
-- `FiraSansCondensed_SemiBold600_Italic`
-- `FiraSansCondensed_Bold700`
-- `FiraSansCondensed_Bold700_Italic`
-- `FiraSansCondensed_ExtraBold800`
-- `FiraSansCondensed_ExtraBold800_Italic`
-- `FiraSansCondensed_Black900`
-- `FiraSansCondensed_Black900_Italic`
+- `FiraSansCondensed_100Thin`
+- `FiraSansCondensed_100Thin_Italic`
+- `FiraSansCondensed_200ExtraLight`
+- `FiraSansCondensed_200ExtraLight_Italic`
+- `FiraSansCondensed_300Light`
+- `FiraSansCondensed_300Light_Italic`
+- `FiraSansCondensed_400Regular`
+- `FiraSansCondensed_400Regular_Italic`
+- `FiraSansCondensed_500Medium`
+- `FiraSansCondensed_500Medium_Italic`
+- `FiraSansCondensed_600SemiBold`
+- `FiraSansCondensed_600SemiBold_Italic`
+- `FiraSansCondensed_700Bold`
+- `FiraSansCondensed_700Bold_Italic`
+- `FiraSansCondensed_800ExtraBold`
+- `FiraSansCondensed_800ExtraBold_Italic`
+- `FiraSansCondensed_900Black`
+- `FiraSansCondensed_900Black_Italic`
 
 ## Usage
 
@@ -48,47 +46,47 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  FiraSansCondensed_Thin100,
-  FiraSansCondensed_Thin100_Italic,
-  FiraSansCondensed_ExtraLight200,
-  FiraSansCondensed_ExtraLight200_Italic,
-  FiraSansCondensed_Light300,
-  FiraSansCondensed_Light300_Italic,
-  FiraSansCondensed_Regular400,
-  FiraSansCondensed_Regular400_Italic,
-  FiraSansCondensed_Medium500,
-  FiraSansCondensed_Medium500_Italic,
-  FiraSansCondensed_SemiBold600,
-  FiraSansCondensed_SemiBold600_Italic,
-  FiraSansCondensed_Bold700,
-  FiraSansCondensed_Bold700_Italic,
-  FiraSansCondensed_ExtraBold800,
-  FiraSansCondensed_ExtraBold800_Italic,
-  FiraSansCondensed_Black900,
-  FiraSansCondensed_Black900_Italic,
   useFonts,
+  FiraSansCondensed_100Thin,
+  FiraSansCondensed_100Thin_Italic,
+  FiraSansCondensed_200ExtraLight,
+  FiraSansCondensed_200ExtraLight_Italic,
+  FiraSansCondensed_300Light,
+  FiraSansCondensed_300Light_Italic,
+  FiraSansCondensed_400Regular,
+  FiraSansCondensed_400Regular_Italic,
+  FiraSansCondensed_500Medium,
+  FiraSansCondensed_500Medium_Italic,
+  FiraSansCondensed_600SemiBold,
+  FiraSansCondensed_600SemiBold_Italic,
+  FiraSansCondensed_700Bold,
+  FiraSansCondensed_700Bold_Italic,
+  FiraSansCondensed_800ExtraBold,
+  FiraSansCondensed_800ExtraBold_Italic,
+  FiraSansCondensed_900Black,
+  FiraSansCondensed_900Black_Italic,
 } from '@expo-google-fonts/fira-sans-condensed';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    FiraSansCondensed_Thin100,
-    FiraSansCondensed_Thin100_Italic,
-    FiraSansCondensed_ExtraLight200,
-    FiraSansCondensed_ExtraLight200_Italic,
-    FiraSansCondensed_Light300,
-    FiraSansCondensed_Light300_Italic,
-    FiraSansCondensed_Regular400,
-    FiraSansCondensed_Regular400_Italic,
-    FiraSansCondensed_Medium500,
-    FiraSansCondensed_Medium500_Italic,
-    FiraSansCondensed_SemiBold600,
-    FiraSansCondensed_SemiBold600_Italic,
-    FiraSansCondensed_Bold700,
-    FiraSansCondensed_Bold700_Italic,
-    FiraSansCondensed_ExtraBold800,
-    FiraSansCondensed_ExtraBold800_Italic,
-    FiraSansCondensed_Black900,
-    FiraSansCondensed_Black900_Italic,
+    FiraSansCondensed_100Thin,
+    FiraSansCondensed_100Thin_Italic,
+    FiraSansCondensed_200ExtraLight,
+    FiraSansCondensed_200ExtraLight_Italic,
+    FiraSansCondensed_300Light,
+    FiraSansCondensed_300Light_Italic,
+    FiraSansCondensed_400Regular,
+    FiraSansCondensed_400Regular_Italic,
+    FiraSansCondensed_500Medium,
+    FiraSansCondensed_500Medium_Italic,
+    FiraSansCondensed_600SemiBold,
+    FiraSansCondensed_600SemiBold_Italic,
+    FiraSansCondensed_700Bold,
+    FiraSansCondensed_700Bold_Italic,
+    FiraSansCondensed_800ExtraBold,
+    FiraSansCondensed_800ExtraBold_Italic,
+    FiraSansCondensed_900Black,
+    FiraSansCondensed_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -99,91 +97,91 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_Thin100' }}>
-          FiraSansCondensed_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_100Thin' }}>
+          FiraSansCondensed_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_Thin100_Italic' }}>
-          FiraSansCondensed_Thin100_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_100Thin_Italic' }}>
+          FiraSansCondensed_100Thin_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_ExtraLight200' }}>
-          FiraSansCondensed_ExtraLight200
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            fontFamily: 'FiraSansCondensed_ExtraLight200_Italic',
-          }}>
-          FiraSansCondensed_ExtraLight200_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_Light300' }}>
-          FiraSansCondensed_Light300
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_Light300_Italic' }}>
-          FiraSansCondensed_Light300_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_Regular400' }}>
-          FiraSansCondensed_Regular400
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_Regular400_Italic' }}>
-          FiraSansCondensed_Regular400_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_Medium500' }}>
-          FiraSansCondensed_Medium500
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_Medium500_Italic' }}>
-          FiraSansCondensed_Medium500_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_SemiBold600' }}>
-          FiraSansCondensed_SemiBold600
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_SemiBold600_Italic' }}>
-          FiraSansCondensed_SemiBold600_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_Bold700' }}>
-          FiraSansCondensed_Bold700
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_Bold700_Italic' }}>
-          FiraSansCondensed_Bold700_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_ExtraBold800' }}>
-          FiraSansCondensed_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_200ExtraLight' }}>
+          FiraSansCondensed_200ExtraLight
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
-            fontFamily: 'FiraSansCondensed_ExtraBold800_Italic',
+            fontFamily: 'FiraSansCondensed_200ExtraLight_Italic',
           }}>
-          FiraSansCondensed_ExtraBold800_Italic
+          FiraSansCondensed_200ExtraLight_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_Black900' }}>
-          FiraSansCondensed_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_300Light' }}>
+          FiraSansCondensed_300Light
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_Black900_Italic' }}>
-          FiraSansCondensed_Black900_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_300Light_Italic' }}>
+          FiraSansCondensed_300Light_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_400Regular' }}>
+          FiraSansCondensed_400Regular
+        </Text>
+
+        <Text
+          style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_400Regular_Italic' }}>
+          FiraSansCondensed_400Regular_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_500Medium' }}>
+          FiraSansCondensed_500Medium
+        </Text>
+
+        <Text
+          style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_500Medium_Italic' }}>
+          FiraSansCondensed_500Medium_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_600SemiBold' }}>
+          FiraSansCondensed_600SemiBold
+        </Text>
+
+        <Text
+          style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_600SemiBold_Italic' }}>
+          FiraSansCondensed_600SemiBold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_700Bold' }}>
+          FiraSansCondensed_700Bold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_700Bold_Italic' }}>
+          FiraSansCondensed_700Bold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_800ExtraBold' }}>
+          FiraSansCondensed_800ExtraBold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            fontFamily: 'FiraSansCondensed_800ExtraBold_Italic',
+          }}>
+          FiraSansCondensed_800ExtraBold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_900Black' }}>
+          FiraSansCondensed_900Black
+        </Text>
+
+        <Text
+          style={{ fontSize, paddingVertical, fontFamily: 'FiraSansCondensed_900Black_Italic' }}>
+          FiraSansCondensed_900Black_Italic
         </Text>
       </View>
     );
@@ -194,59 +192,59 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FiraSansCondensed_Thin100
-![FiraSansCondensed_Thin100](./bf9b3d9811dd234f65f59b0d76d65a3e1e0c670aebac4deba38952c2a936f715.ttf.png)
+##### FiraSansCondensed_100Thin
+![FiraSansCondensed_100Thin](./FiraSansCondensed_100Thin.ttf.png)
 
-##### FiraSansCondensed_Thin100_Italic
-![FiraSansCondensed_Thin100_Italic](./90a6e0b1a1c39abb49b18aa5dbe06d7495f40394b01fab73b9e1e2bfec8a63f1.ttf.png)
+##### FiraSansCondensed_100Thin_Italic
+![FiraSansCondensed_100Thin_Italic](./FiraSansCondensed_100Thin_Italic.ttf.png)
 
-##### FiraSansCondensed_ExtraLight200
-![FiraSansCondensed_ExtraLight200](./a88fd0b03c58284d60144855004f6888c1b91eb5a7d21ac6060d56968934163e.ttf.png)
+##### FiraSansCondensed_200ExtraLight
+![FiraSansCondensed_200ExtraLight](./FiraSansCondensed_200ExtraLight.ttf.png)
 
-##### FiraSansCondensed_ExtraLight200_Italic
-![FiraSansCondensed_ExtraLight200_Italic](./07ba37d808679122d7388590ccc622b6f8f48bfad8116ba243f202818d5cd687.ttf.png)
+##### FiraSansCondensed_200ExtraLight_Italic
+![FiraSansCondensed_200ExtraLight_Italic](./FiraSansCondensed_200ExtraLight_Italic.ttf.png)
 
-##### FiraSansCondensed_Light300
-![FiraSansCondensed_Light300](./028eb7598bbb6f3a2bf5ea109d7df59dc6518811cde6bc25a6f865eca25b8cee.ttf.png)
+##### FiraSansCondensed_300Light
+![FiraSansCondensed_300Light](./FiraSansCondensed_300Light.ttf.png)
 
-##### FiraSansCondensed_Light300_Italic
-![FiraSansCondensed_Light300_Italic](./c87c9cbd8b98469f1021dcdc5e28dc336195b600990e646a06cd9e832b747236.ttf.png)
+##### FiraSansCondensed_300Light_Italic
+![FiraSansCondensed_300Light_Italic](./FiraSansCondensed_300Light_Italic.ttf.png)
 
-##### FiraSansCondensed_Regular400
-![FiraSansCondensed_Regular400](./169ee94c3194b600460cd09916275e7fb039fb87644ad57a8892658bba9306c3.ttf.png)
+##### FiraSansCondensed_400Regular
+![FiraSansCondensed_400Regular](./FiraSansCondensed_400Regular.ttf.png)
 
-##### FiraSansCondensed_Regular400_Italic
-![FiraSansCondensed_Regular400_Italic](./a80c7a96e3707ecec8c736d84d84610e8872d361a22b5dbe0ebc3edd438d0d73.ttf.png)
+##### FiraSansCondensed_400Regular_Italic
+![FiraSansCondensed_400Regular_Italic](./FiraSansCondensed_400Regular_Italic.ttf.png)
 
-##### FiraSansCondensed_Medium500
-![FiraSansCondensed_Medium500](./703cb9e1a6d80a19812381b5edceb1970b68ee76546ba8ae6ffed4c952fc475c.ttf.png)
+##### FiraSansCondensed_500Medium
+![FiraSansCondensed_500Medium](./FiraSansCondensed_500Medium.ttf.png)
 
-##### FiraSansCondensed_Medium500_Italic
-![FiraSansCondensed_Medium500_Italic](./9ad537677b67359092459fe782eab5dbddc81f5a162d5e5089e46dab0d6d3dd5.ttf.png)
+##### FiraSansCondensed_500Medium_Italic
+![FiraSansCondensed_500Medium_Italic](./FiraSansCondensed_500Medium_Italic.ttf.png)
 
-##### FiraSansCondensed_SemiBold600
-![FiraSansCondensed_SemiBold600](./c134a6d726ac821a9d923951743e3265e9f99a3853356396d759d0fb71cda42a.ttf.png)
+##### FiraSansCondensed_600SemiBold
+![FiraSansCondensed_600SemiBold](./FiraSansCondensed_600SemiBold.ttf.png)
 
-##### FiraSansCondensed_SemiBold600_Italic
-![FiraSansCondensed_SemiBold600_Italic](./59ba972744bb1ef52a903a84b4b035e2086ee740963c12a11f352474b9aa841e.ttf.png)
+##### FiraSansCondensed_600SemiBold_Italic
+![FiraSansCondensed_600SemiBold_Italic](./FiraSansCondensed_600SemiBold_Italic.ttf.png)
 
-##### FiraSansCondensed_Bold700
-![FiraSansCondensed_Bold700](./29ce6255f4e521be2749f9557160ebbff60c5d160cd3a920e7bfc471c723dc3f.ttf.png)
+##### FiraSansCondensed_700Bold
+![FiraSansCondensed_700Bold](./FiraSansCondensed_700Bold.ttf.png)
 
-##### FiraSansCondensed_Bold700_Italic
-![FiraSansCondensed_Bold700_Italic](./02a6c070347c5261fef75b88834e9b34ca51774d98830932ac9082d60713a416.ttf.png)
+##### FiraSansCondensed_700Bold_Italic
+![FiraSansCondensed_700Bold_Italic](./FiraSansCondensed_700Bold_Italic.ttf.png)
 
-##### FiraSansCondensed_ExtraBold800
-![FiraSansCondensed_ExtraBold800](./a3fb82c69c6f36043219173b6f3137c43ead2f79f748d4a4a92ab045215eee54.ttf.png)
+##### FiraSansCondensed_800ExtraBold
+![FiraSansCondensed_800ExtraBold](./FiraSansCondensed_800ExtraBold.ttf.png)
 
-##### FiraSansCondensed_ExtraBold800_Italic
-![FiraSansCondensed_ExtraBold800_Italic](./22f5b83e1b510958faf311954f84c3a505ac7ca89aa279ee4e6a9274ec38e37f.ttf.png)
+##### FiraSansCondensed_800ExtraBold_Italic
+![FiraSansCondensed_800ExtraBold_Italic](./FiraSansCondensed_800ExtraBold_Italic.ttf.png)
 
-##### FiraSansCondensed_Black900
-![FiraSansCondensed_Black900](./cbc26fda4428ab404d1e295ba3295da5cacf05e0851f8e4db99a4f65e1a0b382.ttf.png)
+##### FiraSansCondensed_900Black
+![FiraSansCondensed_900Black](./FiraSansCondensed_900Black.ttf.png)
 
-##### FiraSansCondensed_Black900_Italic
-![FiraSansCondensed_Black900_Italic](./d732a2087e508d3999de6ed5f8c8834fe6eed4e270dabbce0bdc668087bace49.ttf.png)
+##### FiraSansCondensed_900Black_Italic
+![FiraSansCondensed_900Black_Italic](./FiraSansCondensed_900Black_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -276,7 +274,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/fira-sans-condensed)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

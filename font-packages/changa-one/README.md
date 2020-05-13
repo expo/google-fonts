@@ -7,16 +7,14 @@
 
 This package lets you use the [**Changa One**](https://fonts.google.com/specimen/Changa+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Changa One
 
 ![Changa One](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `ChangaOne_Regular400`
-- `ChangaOne_Regular400_Italic`
+- `ChangaOne_400Regular`
+- `ChangaOne_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  ChangaOne_Regular400,
-  ChangaOne_Regular400_Italic,
   useFonts,
+  ChangaOne_400Regular,
+  ChangaOne_400Regular_Italic,
 } from '@expo-google-fonts/changa-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ChangaOne_Regular400,
-    ChangaOne_Regular400_Italic,
+    ChangaOne_400Regular,
+    ChangaOne_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChangaOne_Regular400' }}>
-          ChangaOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChangaOne_400Regular' }}>
+          ChangaOne_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChangaOne_Regular400_Italic' }}>
-          ChangaOne_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChangaOne_400Regular_Italic' }}>
+          ChangaOne_400Regular_Italic
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ChangaOne_Regular400
-![ChangaOne_Regular400](./55a043f0a2eb34269cfb137a6203fdc338019e9bdaabee1e685c6b37495cb962.ttf.png)
+##### ChangaOne_400Regular
+![ChangaOne_400Regular](./ChangaOne_400Regular.ttf.png)
 
-##### ChangaOne_Regular400_Italic
-![ChangaOne_Regular400_Italic](./241077b802e7b6209a41ea93aae98aa81d9f09e6f78fce924c863af6ca96b529.ttf.png)
+##### ChangaOne_400Regular_Italic
+![ChangaOne_400Regular_Italic](./ChangaOne_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/changa-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

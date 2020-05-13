@@ -7,15 +7,13 @@
 
 This package lets you use the [**Irish Grover**](https://fonts.google.com/specimen/Irish+Grover) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Irish Grover
 
 ![Irish Grover](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `IrishGrover_Regular400`
+- `IrishGrover_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { IrishGrover_Regular400, useFonts } from '@expo-google-fonts/irish-grover';
+import { useFonts, IrishGrover_400Regular } from '@expo-google-fonts/irish-grover';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    IrishGrover_Regular400,
+    IrishGrover_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IrishGrover_Regular400' }}>
-          IrishGrover_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IrishGrover_400Regular' }}>
+          IrishGrover_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IrishGrover_Regular400
-![IrishGrover_Regular400](./871e6c825a4e60667eb8131be9f23ace65f65e3f15a9c08c3a798797c9e361b2.ttf.png)
+##### IrishGrover_400Regular
+![IrishGrover_400Regular](./IrishGrover_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/irish-grover)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

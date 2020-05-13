@@ -7,16 +7,14 @@
 
 This package lets you use the [**Geo**](https://fonts.google.com/specimen/Geo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Geo
 
 ![Geo](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Geo_Regular400`
-- `Geo_Regular400_Italic`
+- `Geo_400Regular`
+- `Geo_400Regular_Italic`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Geo_Regular400, Geo_Regular400_Italic, useFonts } from '@expo-google-fonts/geo';
+import { useFonts, Geo_400Regular, Geo_400Regular_Italic } from '@expo-google-fonts/geo';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Geo_Regular400,
-    Geo_Regular400_Italic,
+    Geo_400Regular,
+    Geo_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Geo_Regular400' }}>
-          Geo_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Geo_400Regular' }}>
+          Geo_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Geo_Regular400_Italic' }}>
-          Geo_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Geo_400Regular_Italic' }}>
+          Geo_400Regular_Italic
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Geo_Regular400
-![Geo_Regular400](./1eea344681e2eab82088131eca8f88554cd2107b68a5bc70ac8e0eeb7877920e.ttf.png)
+##### Geo_400Regular
+![Geo_400Regular](./Geo_400Regular.ttf.png)
 
-##### Geo_Regular400_Italic
-![Geo_Regular400_Italic](./6aff203bbf11c87ca0cbd331d3181277be2cc5f373a85fc6a0c898ed393d151b.ttf.png)
+##### Geo_400Regular_Italic
+![Geo_400Regular_Italic](./Geo_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/geo)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

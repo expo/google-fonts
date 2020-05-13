@@ -7,15 +7,13 @@
 
 This package lets you use the [**Germania One**](https://fonts.google.com/specimen/Germania+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Germania One
 
 ![Germania One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `GermaniaOne_Regular400`
+- `GermaniaOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { GermaniaOne_Regular400, useFonts } from '@expo-google-fonts/germania-one';
+import { useFonts, GermaniaOne_400Regular } from '@expo-google-fonts/germania-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    GermaniaOne_Regular400,
+    GermaniaOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GermaniaOne_Regular400' }}>
-          GermaniaOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GermaniaOne_400Regular' }}>
+          GermaniaOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GermaniaOne_Regular400
-![GermaniaOne_Regular400](./8b7dd1af0258695612f37eb7db169c99f09801337d690f6880dc4a7c351f830d.ttf.png)
+##### GermaniaOne_400Regular
+![GermaniaOne_400Regular](./GermaniaOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/germania-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Mr Bedfort**](https://fonts.google.com/specimen/Mr+Bedfort) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Mr Bedfort
 
 ![Mr Bedfort](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `MrBedfort_Regular400`
+- `MrBedfort_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { MrBedfort_Regular400, useFonts } from '@expo-google-fonts/mr-bedfort';
+import { useFonts, MrBedfort_400Regular } from '@expo-google-fonts/mr-bedfort';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MrBedfort_Regular400,
+    MrBedfort_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MrBedfort_Regular400' }}>
-          MrBedfort_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MrBedfort_400Regular' }}>
+          MrBedfort_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MrBedfort_Regular400
-![MrBedfort_Regular400](./e15139ad970a418042aa1bd423cac0ecbc77211a359ea93bf60c67ade7f97542.ttf.png)
+##### MrBedfort_400Regular
+![MrBedfort_400Regular](./MrBedfort_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/mr-bedfort)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

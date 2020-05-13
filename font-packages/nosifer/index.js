@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Nosifer';
-export const __fontFamilyVersion__ = 5;
-
-export const Nosifer_Regular400 = require('./db6d798eb7a5adc1193a4757fba4b3bf0f2bf34f9456f9b72dd63e8c21a304e3.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Nosifer_400Regular = require('./Nosifer_400Regular.ttf');

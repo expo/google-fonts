@@ -4,9 +4,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Judson';
-export const __fontFamilyVersion__ = 9;
-
-export const Judson_Regular400 = require('./a0e44f8bee5db23549c40c2bdd46ee689a1d4427410df98883638059880eb73b.ttf');
-export const Judson_Regular400_Italic = require('./434a445b96fb17f89c47a66f76abe63757bb6c0997d49bc83a86e2b0cca56b58.ttf');
-export const Judson_Bold700 = require('./b39af14b252a5cb398202d4738e995ef23ad94afe48fbd78fac58759d298f49e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Judson_400Regular = require('./Judson_400Regular.ttf');
+export const Judson_400Regular_Italic = require('./Judson_400Regular_Italic.ttf');
+export const Judson_700Bold = require('./Judson_700Bold.ttf');

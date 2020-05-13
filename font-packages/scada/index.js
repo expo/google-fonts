@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Scada';
-export const __fontFamilyVersion__ = 5;
-
-export const Scada_Regular400 = require('./b50d4e47b78665f29007e923c626d8127c7c9793f60cc8b94e55fe65a9e1b156.ttf');
-export const Scada_Regular400_Italic = require('./19e3630deea1d0d7694e73dfb85c5a97e8fc332031fc27897d4b5b14fb6f62b3.ttf');
-export const Scada_Bold700 = require('./9a106a75900b9cafa514e2c814b45cabcd61c5f50ceac1772ce6a12386cfa505.ttf');
-export const Scada_Bold700_Italic = require('./c61947a93ece6ef8f4f35e6f1f51f2d2eae7d27d8c1e103b8a0792818925421e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Scada_400Regular = require('./Scada_400Regular.ttf');
+export const Scada_400Regular_Italic = require('./Scada_400Regular_Italic.ttf');
+export const Scada_700Bold = require('./Scada_700Bold.ttf');
+export const Scada_700Bold_Italic = require('./Scada_700Bold_Italic.ttf');

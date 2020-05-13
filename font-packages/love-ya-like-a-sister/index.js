@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Love Ya Like A Sister';
-export const __fontFamilyVersion__ = 7;
-
-export const LoveYaLikeASister_Regular400 = require('./d7068a0e071e73ae0e18893c97cb33a901b4cd1482fed4150d017e6ac0f7a636.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const LoveYaLikeASister_400Regular = require('./LoveYaLikeASister_400Regular.ttf');

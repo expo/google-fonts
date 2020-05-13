@@ -7,16 +7,14 @@
 
 This package lets you use the [**Stardos Stencil**](https://fonts.google.com/specimen/Stardos+Stencil) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Stardos Stencil
 
 ![Stardos Stencil](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `StardosStencil_Regular400`
-- `StardosStencil_Bold700`
+- `StardosStencil_400Regular`
+- `StardosStencil_700Bold`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  StardosStencil_Regular400,
-  StardosStencil_Bold700,
   useFonts,
+  StardosStencil_400Regular,
+  StardosStencil_700Bold,
 } from '@expo-google-fonts/stardos-stencil';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    StardosStencil_Regular400,
-    StardosStencil_Bold700,
+    StardosStencil_400Regular,
+    StardosStencil_700Bold,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'StardosStencil_Regular400' }}>
-          StardosStencil_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'StardosStencil_400Regular' }}>
+          StardosStencil_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'StardosStencil_Bold700' }}>
-          StardosStencil_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'StardosStencil_700Bold' }}>
+          StardosStencil_700Bold
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### StardosStencil_Regular400
-![StardosStencil_Regular400](./b677e9855e2ae2d05e70f39ac58d82bfe1f9ea6ecb62fcf63cc3c0f10c456ba9.ttf.png)
+##### StardosStencil_400Regular
+![StardosStencil_400Regular](./StardosStencil_400Regular.ttf.png)
 
-##### StardosStencil_Bold700
-![StardosStencil_Bold700](./b5b4ccf1291484af094cadfcd7fa357b84b8c25db613f74330c32b39a270fda1.ttf.png)
+##### StardosStencil_700Bold
+![StardosStencil_700Bold](./StardosStencil_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/stardos-stencil)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,16 +7,14 @@
 
 This package lets you use the [**Chau Philomene One**](https://fonts.google.com/specimen/Chau+Philomene+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Chau Philomene One
 
 ![Chau Philomene One](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `ChauPhilomeneOne_Regular400`
-- `ChauPhilomeneOne_Regular400_Italic`
+- `ChauPhilomeneOne_400Regular`
+- `ChauPhilomeneOne_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  ChauPhilomeneOne_Regular400,
-  ChauPhilomeneOne_Regular400_Italic,
   useFonts,
+  ChauPhilomeneOne_400Regular,
+  ChauPhilomeneOne_400Regular_Italic,
 } from '@expo-google-fonts/chau-philomene-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ChauPhilomeneOne_Regular400,
-    ChauPhilomeneOne_Regular400_Italic,
+    ChauPhilomeneOne_400Regular,
+    ChauPhilomeneOne_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,13 +49,13 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChauPhilomeneOne_Regular400' }}>
-          ChauPhilomeneOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChauPhilomeneOne_400Regular' }}>
+          ChauPhilomeneOne_400Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'ChauPhilomeneOne_Regular400_Italic' }}>
-          ChauPhilomeneOne_Regular400_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'ChauPhilomeneOne_400Regular_Italic' }}>
+          ChauPhilomeneOne_400Regular_Italic
         </Text>
       </View>
     );
@@ -68,11 +66,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ChauPhilomeneOne_Regular400
-![ChauPhilomeneOne_Regular400](./c44d00d1e4d0cfcf8ae3458b12571cdd000ce9df7849a29afa3dd3aadfdb6224.ttf.png)
+##### ChauPhilomeneOne_400Regular
+![ChauPhilomeneOne_400Regular](./ChauPhilomeneOne_400Regular.ttf.png)
 
-##### ChauPhilomeneOne_Regular400_Italic
-![ChauPhilomeneOne_Regular400_Italic](./5be1fbfb8c59a78422d618850745eeabe8bebc7aef35518a599c765168ad124a.ttf.png)
+##### ChauPhilomeneOne_400Regular_Italic
+![ChauPhilomeneOne_400Regular_Italic](./ChauPhilomeneOne_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -102,7 +100,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/chau-philomene-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

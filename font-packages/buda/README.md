@@ -7,15 +7,13 @@
 
 This package lets you use the [**Buda**](https://fonts.google.com/specimen/Buda) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Buda
 
 ![Buda](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Buda_Light300`
+- `Buda_300Light`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Buda_Light300, useFonts } from '@expo-google-fonts/buda';
+import { useFonts, Buda_300Light } from '@expo-google-fonts/buda';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Buda_Light300,
+    Buda_300Light,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Buda_Light300' }}>
-          Buda_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Buda_300Light' }}>
+          Buda_300Light
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Buda_Light300
-![Buda_Light300](./385d4247a0218281950ea513488d597434ce1d22bafe1b9e0b0853fce9304338.ttf.png)
+##### Buda_300Light
+![Buda_300Light](./Buda_300Light.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/buda)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

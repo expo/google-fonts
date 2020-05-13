@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Caveat Brush';
-export const __fontFamilyVersion__ = 2;
-
-export const CaveatBrush_Regular400 = require('./70de81a815f44819880ddba3c93eda87ab6bd1a4b21db15e5ba29c9271cba521.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const CaveatBrush_400Regular = require('./CaveatBrush_400Regular.ttf');

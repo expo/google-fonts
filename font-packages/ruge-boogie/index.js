@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Ruge Boogie';
-export const __fontFamilyVersion__ = 7;
-
-export const RugeBoogie_Regular400 = require('./91717da896d2b742035d5a0b0ba8e6e4eb616fa3040d3ba55be14c2e92b1aa8f.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const RugeBoogie_400Regular = require('./RugeBoogie_400Regular.ttf');

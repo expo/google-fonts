@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Condiment';
-export const __fontFamilyVersion__ = 4;
-
-export const Condiment_Regular400 = require('./404ef1b407aafc9555242dbfc0416b9761054b9bc16abacf2ab328af7b034b66.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Condiment_400Regular = require('./Condiment_400Regular.ttf');

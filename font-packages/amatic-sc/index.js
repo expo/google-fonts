@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Amatic SC';
-export const __fontFamilyVersion__ = 9;
-
-export const AmaticSC_Regular400 = require('./9da6405b57357f309f00592371cf54bb3c1d57b8e7d9fc40fff6f364d6ca80fe.ttf');
-export const AmaticSC_Bold700 = require('./81f4df2ecbc8d2fcae65290f5075ff98149f4f95ea00bb6bf3a0711e4e1afd75.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const AmaticSC_400Regular = require('./AmaticSC_400Regular.ttf');
+export const AmaticSC_700Bold = require('./AmaticSC_700Bold.ttf');

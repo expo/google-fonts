@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Metal Mania';
-export const __fontFamilyVersion__ = 6;
-
-export const MetalMania_Regular400 = require('./9495d91ee2029ca622be05cf5924ab5d44a3f54809cb02e792987386e0ba2265.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MetalMania_400Regular = require('./MetalMania_400Regular.ttf');

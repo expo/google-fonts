@@ -4,20 +4,18 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'IBM Plex Sans Condensed';
-export const __fontFamilyVersion__ = 3;
-
-export const IBMPlexSansCondensed_Thin100 = require('./95cb5ef68ced474a2288be174bf62af93746ddbce9a8be785d59e05d46221cb9.ttf');
-export const IBMPlexSansCondensed_Thin100_Italic = require('./ea2881ac7cbb7d0a0d0d89b3c81e0ccbd79e1dd040b84f4b28c7ea083a958926.ttf');
-export const IBMPlexSansCondensed_ExtraLight200 = require('./a51cec8648be38680ff0325b258659173e8d6cf8bf91ce3af4dfe72d96ad57bd.ttf');
-export const IBMPlexSansCondensed_ExtraLight200_Italic = require('./459eb773994095169ba8f6f04dfad1a45c205782fd393d467e9c8d3a21701fa2.ttf');
-export const IBMPlexSansCondensed_Light300 = require('./c8260d42c2195a564a8bc5b74144874ac850ad48b4c507271d5fe4151f4802b6.ttf');
-export const IBMPlexSansCondensed_Light300_Italic = require('./2b1c9ad90a1fb240d2e8ebb5f3a3d4a544c37662964daf7dc0941d047876b826.ttf');
-export const IBMPlexSansCondensed_Regular400 = require('./6f14a51d14c32df9b6829dbd95e680ca603bb1f0e0c8a23f3d18f6e96f970eef.ttf');
-export const IBMPlexSansCondensed_Regular400_Italic = require('./a2c2c799b5a7b8b957579016dedfd8bd110c064310c1a491a71ee84964ff0a56.ttf');
-export const IBMPlexSansCondensed_Medium500 = require('./17c6dabfa0ed7d9b258acae9bd3a20e61dbd27fa029bd3df75a0deadaa90e24e.ttf');
-export const IBMPlexSansCondensed_Medium500_Italic = require('./b605737f157c6f7c5977d9a151ff622fa93439d4b364d24f6431f52eb6a5affd.ttf');
-export const IBMPlexSansCondensed_SemiBold600 = require('./368b327e4f44c9bf4ba628ecb081c53e0e3f087a4c0822435fe6ad6527dbe958.ttf');
-export const IBMPlexSansCondensed_SemiBold600_Italic = require('./a4fd2820e497b76a6c413f52ce87fa7521d6ff5bd0fac82b9c53e48c5febf174.ttf');
-export const IBMPlexSansCondensed_Bold700 = require('./58ace9c95662b3ff47b0a066336d863bcc0515df78f5a23e9e424c1fbd4f451a.ttf');
-export const IBMPlexSansCondensed_Bold700_Italic = require('./064ee4d57bfdc62832b848b5c300e9abaadd59d151ca0279ad569edceffcf029.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const IBMPlexSansCondensed_100Thin = require('./IBMPlexSansCondensed_100Thin.ttf');
+export const IBMPlexSansCondensed_100Thin_Italic = require('./IBMPlexSansCondensed_100Thin_Italic.ttf');
+export const IBMPlexSansCondensed_200ExtraLight = require('./IBMPlexSansCondensed_200ExtraLight.ttf');
+export const IBMPlexSansCondensed_200ExtraLight_Italic = require('./IBMPlexSansCondensed_200ExtraLight_Italic.ttf');
+export const IBMPlexSansCondensed_300Light = require('./IBMPlexSansCondensed_300Light.ttf');
+export const IBMPlexSansCondensed_300Light_Italic = require('./IBMPlexSansCondensed_300Light_Italic.ttf');
+export const IBMPlexSansCondensed_400Regular = require('./IBMPlexSansCondensed_400Regular.ttf');
+export const IBMPlexSansCondensed_400Regular_Italic = require('./IBMPlexSansCondensed_400Regular_Italic.ttf');
+export const IBMPlexSansCondensed_500Medium = require('./IBMPlexSansCondensed_500Medium.ttf');
+export const IBMPlexSansCondensed_500Medium_Italic = require('./IBMPlexSansCondensed_500Medium_Italic.ttf');
+export const IBMPlexSansCondensed_600SemiBold = require('./IBMPlexSansCondensed_600SemiBold.ttf');
+export const IBMPlexSansCondensed_600SemiBold_Italic = require('./IBMPlexSansCondensed_600SemiBold_Italic.ttf');
+export const IBMPlexSansCondensed_700Bold = require('./IBMPlexSansCondensed_700Bold.ttf');
+export const IBMPlexSansCondensed_700Bold_Italic = require('./IBMPlexSansCondensed_700Bold_Italic.ttf');

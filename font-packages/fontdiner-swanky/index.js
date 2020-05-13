@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Fontdiner Swanky';
-export const __fontFamilyVersion__ = 6;
-
-export const FontdinerSwanky_Regular400 = require('./bf7bb77a0222af06961048f7335a7c3ced76ac59796882a14738b145a87f9b7a.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const FontdinerSwanky_400Regular = require('./FontdinerSwanky_400Regular.ttf');

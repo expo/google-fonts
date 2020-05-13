@@ -7,18 +7,16 @@
 
 This package lets you use the [**Gentium Book Basic**](https://fonts.google.com/specimen/Gentium+Book+Basic) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Gentium Book Basic
 
 ![Gentium Book Basic](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `GentiumBookBasic_Regular400`
-- `GentiumBookBasic_Regular400_Italic`
-- `GentiumBookBasic_Bold700`
-- `GentiumBookBasic_Bold700_Italic`
+- `GentiumBookBasic_400Regular`
+- `GentiumBookBasic_400Regular_Italic`
+- `GentiumBookBasic_700Bold`
+- `GentiumBookBasic_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  GentiumBookBasic_Regular400,
-  GentiumBookBasic_Regular400_Italic,
-  GentiumBookBasic_Bold700,
-  GentiumBookBasic_Bold700_Italic,
   useFonts,
+  GentiumBookBasic_400Regular,
+  GentiumBookBasic_400Regular_Italic,
+  GentiumBookBasic_700Bold,
+  GentiumBookBasic_700Bold_Italic,
 } from '@expo-google-fonts/gentium-book-basic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    GentiumBookBasic_Regular400,
-    GentiumBookBasic_Regular400_Italic,
-    GentiumBookBasic_Bold700,
-    GentiumBookBasic_Bold700_Italic,
+    GentiumBookBasic_400Regular,
+    GentiumBookBasic_400Regular_Italic,
+    GentiumBookBasic_700Bold,
+    GentiumBookBasic_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,21 +55,21 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GentiumBookBasic_Regular400' }}>
-          GentiumBookBasic_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GentiumBookBasic_400Regular' }}>
+          GentiumBookBasic_400Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'GentiumBookBasic_Regular400_Italic' }}>
-          GentiumBookBasic_Regular400_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'GentiumBookBasic_400Regular_Italic' }}>
+          GentiumBookBasic_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GentiumBookBasic_Bold700' }}>
-          GentiumBookBasic_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GentiumBookBasic_700Bold' }}>
+          GentiumBookBasic_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GentiumBookBasic_Bold700_Italic' }}>
-          GentiumBookBasic_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GentiumBookBasic_700Bold_Italic' }}>
+          GentiumBookBasic_700Bold_Italic
         </Text>
       </View>
     );
@@ -82,17 +80,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GentiumBookBasic_Regular400
-![GentiumBookBasic_Regular400](./0323cf4ee5a40f059eff7a114c130fd29fb414699c37336d6d305d42e3d30318.ttf.png)
+##### GentiumBookBasic_400Regular
+![GentiumBookBasic_400Regular](./GentiumBookBasic_400Regular.ttf.png)
 
-##### GentiumBookBasic_Regular400_Italic
-![GentiumBookBasic_Regular400_Italic](./105db1c75307402ef0aaf8126c049e1910ec90f6a89c2745ac1fff1eb7525d03.ttf.png)
+##### GentiumBookBasic_400Regular_Italic
+![GentiumBookBasic_400Regular_Italic](./GentiumBookBasic_400Regular_Italic.ttf.png)
 
-##### GentiumBookBasic_Bold700
-![GentiumBookBasic_Bold700](./743cd21e49c299921cf5cdf719c179e0adc85a19aa73a142726805c1cb607f82.ttf.png)
+##### GentiumBookBasic_700Bold
+![GentiumBookBasic_700Bold](./GentiumBookBasic_700Bold.ttf.png)
 
-##### GentiumBookBasic_Bold700_Italic
-![GentiumBookBasic_Bold700_Italic](./73ca1eff2db69f993bfff34753f6f216404bceaeb657dbf84734a8bce6f279a5.ttf.png)
+##### GentiumBookBasic_700Bold_Italic
+![GentiumBookBasic_700Bold_Italic](./GentiumBookBasic_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -122,7 +120,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/gentium-book-basic)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

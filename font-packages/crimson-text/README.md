@@ -7,20 +7,18 @@
 
 This package lets you use the [**Crimson Text**](https://fonts.google.com/specimen/Crimson+Text) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Crimson Text
 
 ![Crimson Text](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `CrimsonText_Regular400`
-- `CrimsonText_Regular400_Italic`
-- `CrimsonText_SemiBold600`
-- `CrimsonText_SemiBold600_Italic`
-- `CrimsonText_Bold700`
-- `CrimsonText_Bold700_Italic`
+- `CrimsonText_400Regular`
+- `CrimsonText_400Regular_Italic`
+- `CrimsonText_600SemiBold`
+- `CrimsonText_600SemiBold_Italic`
+- `CrimsonText_700Bold`
+- `CrimsonText_700Bold_Italic`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  CrimsonText_Regular400,
-  CrimsonText_Regular400_Italic,
-  CrimsonText_SemiBold600,
-  CrimsonText_SemiBold600_Italic,
-  CrimsonText_Bold700,
-  CrimsonText_Bold700_Italic,
   useFonts,
+  CrimsonText_400Regular,
+  CrimsonText_400Regular_Italic,
+  CrimsonText_600SemiBold,
+  CrimsonText_600SemiBold_Italic,
+  CrimsonText_700Bold,
+  CrimsonText_700Bold_Italic,
 } from '@expo-google-fonts/crimson-text';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CrimsonText_Regular400,
-    CrimsonText_Regular400_Italic,
-    CrimsonText_SemiBold600,
-    CrimsonText_SemiBold600_Italic,
-    CrimsonText_Bold700,
-    CrimsonText_Bold700_Italic,
+    CrimsonText_400Regular,
+    CrimsonText_400Regular_Italic,
+    CrimsonText_600SemiBold,
+    CrimsonText_600SemiBold_Italic,
+    CrimsonText_700Bold,
+    CrimsonText_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -63,28 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonText_Regular400' }}>
-          CrimsonText_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonText_400Regular' }}>
+          CrimsonText_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonText_Regular400_Italic' }}>
-          CrimsonText_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonText_400Regular_Italic' }}>
+          CrimsonText_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonText_SemiBold600' }}>
-          CrimsonText_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonText_600SemiBold' }}>
+          CrimsonText_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonText_SemiBold600_Italic' }}>
-          CrimsonText_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonText_600SemiBold_Italic' }}>
+          CrimsonText_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonText_Bold700' }}>
-          CrimsonText_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonText_700Bold' }}>
+          CrimsonText_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonText_Bold700_Italic' }}>
-          CrimsonText_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonText_700Bold_Italic' }}>
+          CrimsonText_700Bold_Italic
         </Text>
       </View>
     );
@@ -95,23 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CrimsonText_Regular400
-![CrimsonText_Regular400](./883d56072155a485051564cd3019bb34a608ddfa0553e2295413e7a59c67bd28.ttf.png)
+##### CrimsonText_400Regular
+![CrimsonText_400Regular](./CrimsonText_400Regular.ttf.png)
 
-##### CrimsonText_Regular400_Italic
-![CrimsonText_Regular400_Italic](./33025a7588fc7f2ca1b8eb2b599e2420ad23278ee100a8f7e11c881d385af57a.ttf.png)
+##### CrimsonText_400Regular_Italic
+![CrimsonText_400Regular_Italic](./CrimsonText_400Regular_Italic.ttf.png)
 
-##### CrimsonText_SemiBold600
-![CrimsonText_SemiBold600](./37e75069b54a5c937eec2ba3fd3d193e3825fab2122bef2b86d86bc5ff1caab3.ttf.png)
+##### CrimsonText_600SemiBold
+![CrimsonText_600SemiBold](./CrimsonText_600SemiBold.ttf.png)
 
-##### CrimsonText_SemiBold600_Italic
-![CrimsonText_SemiBold600_Italic](./15672e6c5d2b277c8dee2e6dcbffc17d3ba0c9a3018c446e199636f68dd227b1.ttf.png)
+##### CrimsonText_600SemiBold_Italic
+![CrimsonText_600SemiBold_Italic](./CrimsonText_600SemiBold_Italic.ttf.png)
 
-##### CrimsonText_Bold700
-![CrimsonText_Bold700](./c6bfa338154c86d462eef6a8dc69f2443ecc35740bbdc2f2da06e7599c037cbc.ttf.png)
+##### CrimsonText_700Bold
+![CrimsonText_700Bold](./CrimsonText_700Bold.ttf.png)
 
-##### CrimsonText_Bold700_Italic
-![CrimsonText_Bold700_Italic](./c79dc3f51f37e16300b571c6835d06bff022a018b65d9ea69f1f897137acc238.ttf.png)
+##### CrimsonText_700Bold_Italic
+![CrimsonText_700Bold_Italic](./CrimsonText_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -141,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/crimson-text)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Headland One';
-export const __fontFamilyVersion__ = 4;
-
-export const HeadlandOne_Regular400 = require('./09bc81418bd95b221c7661eb2081838c8bd80b6bcd38c45d2e560ff3983c9fde.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const HeadlandOne_400Regular = require('./HeadlandOne_400Regular.ttf');

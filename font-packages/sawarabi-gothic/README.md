@@ -7,15 +7,13 @@
 
 This package lets you use the [**Sawarabi Gothic**](https://fonts.google.com/specimen/Sawarabi+Gothic) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sawarabi Gothic
 
 ![Sawarabi Gothic](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `SawarabiGothic_Regular400`
+- `SawarabiGothic_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { SawarabiGothic_Regular400, useFonts } from '@expo-google-fonts/sawarabi-gothic';
+import { useFonts, SawarabiGothic_400Regular } from '@expo-google-fonts/sawarabi-gothic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    SawarabiGothic_Regular400,
+    SawarabiGothic_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SawarabiGothic_Regular400' }}>
-          SawarabiGothic_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SawarabiGothic_400Regular' }}>
+          SawarabiGothic_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SawarabiGothic_Regular400
-![SawarabiGothic_Regular400](./da6058a80d658ffc7eaa1acdae31b56f86f9f59fcae94417efa5205b8c2a9c3e.ttf.png)
+##### SawarabiGothic_400Regular
+![SawarabiGothic_400Regular](./SawarabiGothic_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sawarabi-gothic)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

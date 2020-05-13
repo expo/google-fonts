@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Playball';
-export const __fontFamilyVersion__ = 6;
-
-export const Playball_Regular400 = require('./73b95f0b1cd341f32c0f20d1fda10e035733b1906538a749d3fc06d9402c8f2f.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Playball_400Regular = require('./Playball_400Regular.ttf');

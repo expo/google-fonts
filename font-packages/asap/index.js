@@ -4,12 +4,12 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Asap';
-export const __fontFamilyVersion__ = 5;
-
-export const Asap_Regular400 = require('./3424989c5e2512f04cbd78fd70665961847d7307eb5d795caadac8db451f74cc.ttf');
-export const Asap_Regular400_Italic = require('./6286c24191501089796508556c20c3086610ae6aeb56d9aadceaaa0b7d825c51.ttf');
-export const Asap_Medium500 = require('./c7034a58c9a896f74c127472a7085dbd1d6bfb6fd2cafb4140dfde291f0bc399.ttf');
-export const Asap_Medium500_Italic = require('./13483b794adc9a08424049bbf8e6a03b399069e87c0c4d01777ae17c3328de81.ttf');
-export const Asap_Bold700 = require('./835a74fedec5a1877e092c739d9f213a3e41860462c70437da2465b5f99ea073.ttf');
-export const Asap_Bold700_Italic = require('./ce966470982f0031860428bc4a47e41d80471ac70ccc857fac1e948d6c964eb7.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Asap_400Regular = require('./Asap_400Regular.ttf');
+export const Asap_400Regular_Italic = require('./Asap_400Regular_Italic.ttf');
+export const Asap_500Medium = require('./Asap_500Medium.ttf');
+export const Asap_500Medium_Italic = require('./Asap_500Medium_Italic.ttf');
+export const Asap_600SemiBold = require('./Asap_600SemiBold.ttf');
+export const Asap_600SemiBold_Italic = require('./Asap_600SemiBold_Italic.ttf');
+export const Asap_700Bold = require('./Asap_700Bold.ttf');
+export const Asap_700Bold_Italic = require('./Asap_700Bold_Italic.ttf');

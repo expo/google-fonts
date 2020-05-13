@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Annie Use Your Telescope';
-export const __fontFamilyVersion__ = 6;
-
-export const AnnieUseYourTelescope_Regular400 = require('./65c0cd06d1ec2528de45688966f2971cf95fed9f810f246e08b4efd9e717d850.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const AnnieUseYourTelescope_400Regular = require('./AnnieUseYourTelescope_400Regular.ttf');

@@ -7,24 +7,22 @@
 
 This package lets you use the [**Proza Libre**](https://fonts.google.com/specimen/Proza+Libre) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Proza Libre
 
 ![Proza Libre](./font-family.png)
 
 This font family contains [10 styles](#-gallery).
 
-- `ProzaLibre_Regular400`
-- `ProzaLibre_Regular400_Italic`
-- `ProzaLibre_Medium500`
-- `ProzaLibre_Medium500_Italic`
-- `ProzaLibre_SemiBold600`
-- `ProzaLibre_SemiBold600_Italic`
-- `ProzaLibre_Bold700`
-- `ProzaLibre_Bold700_Italic`
-- `ProzaLibre_ExtraBold800`
-- `ProzaLibre_ExtraBold800_Italic`
+- `ProzaLibre_400Regular`
+- `ProzaLibre_400Regular_Italic`
+- `ProzaLibre_500Medium`
+- `ProzaLibre_500Medium_Italic`
+- `ProzaLibre_600SemiBold`
+- `ProzaLibre_600SemiBold_Italic`
+- `ProzaLibre_700Bold`
+- `ProzaLibre_700Bold_Italic`
+- `ProzaLibre_800ExtraBold`
+- `ProzaLibre_800ExtraBold_Italic`
 
 ## Usage
 
@@ -40,31 +38,31 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  ProzaLibre_Regular400,
-  ProzaLibre_Regular400_Italic,
-  ProzaLibre_Medium500,
-  ProzaLibre_Medium500_Italic,
-  ProzaLibre_SemiBold600,
-  ProzaLibre_SemiBold600_Italic,
-  ProzaLibre_Bold700,
-  ProzaLibre_Bold700_Italic,
-  ProzaLibre_ExtraBold800,
-  ProzaLibre_ExtraBold800_Italic,
   useFonts,
+  ProzaLibre_400Regular,
+  ProzaLibre_400Regular_Italic,
+  ProzaLibre_500Medium,
+  ProzaLibre_500Medium_Italic,
+  ProzaLibre_600SemiBold,
+  ProzaLibre_600SemiBold_Italic,
+  ProzaLibre_700Bold,
+  ProzaLibre_700Bold_Italic,
+  ProzaLibre_800ExtraBold,
+  ProzaLibre_800ExtraBold_Italic,
 } from '@expo-google-fonts/proza-libre';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ProzaLibre_Regular400,
-    ProzaLibre_Regular400_Italic,
-    ProzaLibre_Medium500,
-    ProzaLibre_Medium500_Italic,
-    ProzaLibre_SemiBold600,
-    ProzaLibre_SemiBold600_Italic,
-    ProzaLibre_Bold700,
-    ProzaLibre_Bold700_Italic,
-    ProzaLibre_ExtraBold800,
-    ProzaLibre_ExtraBold800_Italic,
+    ProzaLibre_400Regular,
+    ProzaLibre_400Regular_Italic,
+    ProzaLibre_500Medium,
+    ProzaLibre_500Medium_Italic,
+    ProzaLibre_600SemiBold,
+    ProzaLibre_600SemiBold_Italic,
+    ProzaLibre_700Bold,
+    ProzaLibre_700Bold_Italic,
+    ProzaLibre_800ExtraBold,
+    ProzaLibre_800ExtraBold_Italic,
   });
 
   let fontSize = 24;
@@ -75,44 +73,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_Regular400' }}>
-          ProzaLibre_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_400Regular' }}>
+          ProzaLibre_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_Regular400_Italic' }}>
-          ProzaLibre_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_400Regular_Italic' }}>
+          ProzaLibre_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_Medium500' }}>
-          ProzaLibre_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_500Medium' }}>
+          ProzaLibre_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_Medium500_Italic' }}>
-          ProzaLibre_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_500Medium_Italic' }}>
+          ProzaLibre_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_SemiBold600' }}>
-          ProzaLibre_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_600SemiBold' }}>
+          ProzaLibre_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_SemiBold600_Italic' }}>
-          ProzaLibre_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_600SemiBold_Italic' }}>
+          ProzaLibre_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_Bold700' }}>
-          ProzaLibre_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_700Bold' }}>
+          ProzaLibre_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_Bold700_Italic' }}>
-          ProzaLibre_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_700Bold_Italic' }}>
+          ProzaLibre_700Bold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_ExtraBold800' }}>
-          ProzaLibre_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_800ExtraBold' }}>
+          ProzaLibre_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_ExtraBold800_Italic' }}>
-          ProzaLibre_ExtraBold800_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_800ExtraBold_Italic' }}>
+          ProzaLibre_800ExtraBold_Italic
         </Text>
       </View>
     );
@@ -123,35 +121,35 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ProzaLibre_Regular400
-![ProzaLibre_Regular400](./9b6195e0fb14a5155dc5f1e836d174961876e69e0c471b7ab8357696acb1d404.ttf.png)
+##### ProzaLibre_400Regular
+![ProzaLibre_400Regular](./ProzaLibre_400Regular.ttf.png)
 
-##### ProzaLibre_Regular400_Italic
-![ProzaLibre_Regular400_Italic](./79a33a14fa8f5bd86b8bd985de9a92647b0d6b62085299ae05b0c4f2cbf98bc8.ttf.png)
+##### ProzaLibre_400Regular_Italic
+![ProzaLibre_400Regular_Italic](./ProzaLibre_400Regular_Italic.ttf.png)
 
-##### ProzaLibre_Medium500
-![ProzaLibre_Medium500](./ac113922a0dc8f8533dcac9f1f9ec44f777502e94608291bd50da0fa981083d6.ttf.png)
+##### ProzaLibre_500Medium
+![ProzaLibre_500Medium](./ProzaLibre_500Medium.ttf.png)
 
-##### ProzaLibre_Medium500_Italic
-![ProzaLibre_Medium500_Italic](./a6506ab9342408e2f16f5991f7f13117f9c080dfb34c268e4378f507d01fe3b8.ttf.png)
+##### ProzaLibre_500Medium_Italic
+![ProzaLibre_500Medium_Italic](./ProzaLibre_500Medium_Italic.ttf.png)
 
-##### ProzaLibre_SemiBold600
-![ProzaLibre_SemiBold600](./1e1b5cd4d00344b8bbbb015679e9bd7cc5e99a2fa3d6eb18b4f1303c90c3e68e.ttf.png)
+##### ProzaLibre_600SemiBold
+![ProzaLibre_600SemiBold](./ProzaLibre_600SemiBold.ttf.png)
 
-##### ProzaLibre_SemiBold600_Italic
-![ProzaLibre_SemiBold600_Italic](./522e6755ed4fd909ed6968fa89460d7eb69e6b90fb0124f5fec6dfadb7dd5dac.ttf.png)
+##### ProzaLibre_600SemiBold_Italic
+![ProzaLibre_600SemiBold_Italic](./ProzaLibre_600SemiBold_Italic.ttf.png)
 
-##### ProzaLibre_Bold700
-![ProzaLibre_Bold700](./14701643695bd3fb18b0e9f16049cd1caa35acee12446ecf10b0a179697f7748.ttf.png)
+##### ProzaLibre_700Bold
+![ProzaLibre_700Bold](./ProzaLibre_700Bold.ttf.png)
 
-##### ProzaLibre_Bold700_Italic
-![ProzaLibre_Bold700_Italic](./176582be0d8f918514d1f30bb1cfea4729cbd968974eced79e977378653c62c9.ttf.png)
+##### ProzaLibre_700Bold_Italic
+![ProzaLibre_700Bold_Italic](./ProzaLibre_700Bold_Italic.ttf.png)
 
-##### ProzaLibre_ExtraBold800
-![ProzaLibre_ExtraBold800](./6d37a997a436ffd489943e8d33d8917c4eac47e1c20959ae0cd68f6470e932bb.ttf.png)
+##### ProzaLibre_800ExtraBold
+![ProzaLibre_800ExtraBold](./ProzaLibre_800ExtraBold.ttf.png)
 
-##### ProzaLibre_ExtraBold800_Italic
-![ProzaLibre_ExtraBold800_Italic](./e5a8cfe2f4e6f80f7a40d647e5ca78ffe1df63c22c413d962ce2f937a8ce34e2.ttf.png)
+##### ProzaLibre_800ExtraBold_Italic
+![ProzaLibre_800ExtraBold_Italic](./ProzaLibre_800ExtraBold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -181,7 +179,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/proza-libre)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

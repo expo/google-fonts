@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Titan One';
-export const __fontFamilyVersion__ = 4;
-
-export const TitanOne_Regular400 = require('./065d13ba1ab0e715e15feed24b86ff9a58a8df624d74923e1a1c710b36e08e99.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const TitanOne_400Regular = require('./TitanOne_400Regular.ttf');

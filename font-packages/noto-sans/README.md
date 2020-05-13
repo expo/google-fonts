@@ -7,18 +7,16 @@
 
 This package lets you use the [**Noto Sans**](https://fonts.google.com/specimen/Noto+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Noto Sans
 
 ![Noto Sans](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `NotoSans_Regular400`
-- `NotoSans_Regular400_Italic`
-- `NotoSans_Bold700`
-- `NotoSans_Bold700_Italic`
+- `NotoSans_400Regular`
+- `NotoSans_400Regular_Italic`
+- `NotoSans_700Bold`
+- `NotoSans_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  NotoSans_Regular400,
-  NotoSans_Regular400_Italic,
-  NotoSans_Bold700,
-  NotoSans_Bold700_Italic,
   useFonts,
+  NotoSans_400Regular,
+  NotoSans_400Regular_Italic,
+  NotoSans_700Bold,
+  NotoSans_700Bold_Italic,
 } from '@expo-google-fonts/noto-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    NotoSans_Regular400,
-    NotoSans_Regular400_Italic,
-    NotoSans_Bold700,
-    NotoSans_Bold700_Italic,
+    NotoSans_400Regular,
+    NotoSans_400Regular_Italic,
+    NotoSans_700Bold,
+    NotoSans_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSans_Regular400' }}>
-          NotoSans_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSans_400Regular' }}>
+          NotoSans_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSans_Regular400_Italic' }}>
-          NotoSans_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSans_400Regular_Italic' }}>
+          NotoSans_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSans_Bold700' }}>
-          NotoSans_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSans_700Bold' }}>
+          NotoSans_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSans_Bold700_Italic' }}>
-          NotoSans_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSans_700Bold_Italic' }}>
+          NotoSans_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NotoSans_Regular400
-![NotoSans_Regular400](./7ae7b625c88992d250a617f91f64e254aa6ea78ca904f1e5fc1f588f0bb9a4ef.ttf.png)
+##### NotoSans_400Regular
+![NotoSans_400Regular](./NotoSans_400Regular.ttf.png)
 
-##### NotoSans_Regular400_Italic
-![NotoSans_Regular400_Italic](./3b65d8f4cdb5997c9e205e125755bec66ef6cd73fadfbf1b6b8b8592d4a952e3.ttf.png)
+##### NotoSans_400Regular_Italic
+![NotoSans_400Regular_Italic](./NotoSans_400Regular_Italic.ttf.png)
 
-##### NotoSans_Bold700
-![NotoSans_Bold700](./f16366c45a8cac801cadd57c692f16cf4c967e3758cf25a911f7df101c23dc11.ttf.png)
+##### NotoSans_700Bold
+![NotoSans_700Bold](./NotoSans_700Bold.ttf.png)
 
-##### NotoSans_Bold700_Italic
-![NotoSans_Bold700_Italic](./2b36c5bae3f90cb9def112b8d15a224e0f0e4a0a75a5d83718690c6927872140.ttf.png)
+##### NotoSans_700Bold_Italic
+![NotoSans_700Bold_Italic](./NotoSans_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/noto-sans)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

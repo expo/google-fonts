@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Single Day';
-export const __fontFamilyVersion__ = 1;
-
-export const SingleDay_Regular400 = require('./b02bca0a89e3562bbfc779b333184a73ca6652a644aec2ca6113185f3fd7c413.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const SingleDay_400Regular = require('./SingleDay_400Regular.ttf');

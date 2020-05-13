@@ -7,21 +7,19 @@
 
 This package lets you use the [**Martel**](https://fonts.google.com/specimen/Martel) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Martel
 
 ![Martel](./font-family.png)
 
 This font family contains [7 styles](#-gallery).
 
-- `Martel_ExtraLight200`
-- `Martel_Light300`
-- `Martel_Regular400`
-- `Martel_SemiBold600`
-- `Martel_Bold700`
-- `Martel_ExtraBold800`
-- `Martel_Black900`
+- `Martel_200ExtraLight`
+- `Martel_300Light`
+- `Martel_400Regular`
+- `Martel_600SemiBold`
+- `Martel_700Bold`
+- `Martel_800ExtraBold`
+- `Martel_900Black`
 
 ## Usage
 
@@ -37,25 +35,25 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Martel_ExtraLight200,
-  Martel_Light300,
-  Martel_Regular400,
-  Martel_SemiBold600,
-  Martel_Bold700,
-  Martel_ExtraBold800,
-  Martel_Black900,
   useFonts,
+  Martel_200ExtraLight,
+  Martel_300Light,
+  Martel_400Regular,
+  Martel_600SemiBold,
+  Martel_700Bold,
+  Martel_800ExtraBold,
+  Martel_900Black,
 } from '@expo-google-fonts/martel';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Martel_ExtraLight200,
-    Martel_Light300,
-    Martel_Regular400,
-    Martel_SemiBold600,
-    Martel_Bold700,
-    Martel_ExtraBold800,
-    Martel_Black900,
+    Martel_200ExtraLight,
+    Martel_300Light,
+    Martel_400Regular,
+    Martel_600SemiBold,
+    Martel_700Bold,
+    Martel_800ExtraBold,
+    Martel_900Black,
   });
 
   let fontSize = 24;
@@ -66,32 +64,32 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Martel_ExtraLight200' }}>
-          Martel_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Martel_200ExtraLight' }}>
+          Martel_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Martel_Light300' }}>
-          Martel_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Martel_300Light' }}>
+          Martel_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Martel_Regular400' }}>
-          Martel_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Martel_400Regular' }}>
+          Martel_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Martel_SemiBold600' }}>
-          Martel_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Martel_600SemiBold' }}>
+          Martel_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Martel_Bold700' }}>
-          Martel_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Martel_700Bold' }}>
+          Martel_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Martel_ExtraBold800' }}>
-          Martel_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Martel_800ExtraBold' }}>
+          Martel_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Martel_Black900' }}>
-          Martel_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Martel_900Black' }}>
+          Martel_900Black
         </Text>
       </View>
     );
@@ -102,26 +100,26 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Martel_ExtraLight200
-![Martel_ExtraLight200](./c4024da71647bc66c6880037b41d29ad5ae7b5426518ad225ee14562d6dae75a.ttf.png)
+##### Martel_200ExtraLight
+![Martel_200ExtraLight](./Martel_200ExtraLight.ttf.png)
 
-##### Martel_Light300
-![Martel_Light300](./138cff935a5284819d91b6908fed6fc1cb770eddf8d812c17ef1dc6092010fb9.ttf.png)
+##### Martel_300Light
+![Martel_300Light](./Martel_300Light.ttf.png)
 
-##### Martel_Regular400
-![Martel_Regular400](./0bd68a5be6ee9107bc21ade86bd0199d47d96c7895a7a1c2c3080377779b268a.ttf.png)
+##### Martel_400Regular
+![Martel_400Regular](./Martel_400Regular.ttf.png)
 
-##### Martel_SemiBold600
-![Martel_SemiBold600](./d22af0f3a51da296280637f9124f2579cf8b495c74ce080f84aca6ad6c12c889.ttf.png)
+##### Martel_600SemiBold
+![Martel_600SemiBold](./Martel_600SemiBold.ttf.png)
 
-##### Martel_Bold700
-![Martel_Bold700](./5b81175087fcd5061785115771a9e1c7ab3c69ca0de682426b8338a372e23153.ttf.png)
+##### Martel_700Bold
+![Martel_700Bold](./Martel_700Bold.ttf.png)
 
-##### Martel_ExtraBold800
-![Martel_ExtraBold800](./3e03eaab1b6ec761214d4dc76edf835a3eafc1c7170942a240f46c25a571bd41.ttf.png)
+##### Martel_800ExtraBold
+![Martel_800ExtraBold](./Martel_800ExtraBold.ttf.png)
 
-##### Martel_Black900
-![Martel_Black900](./8d00654db8f5901e4a51129ff21160fe34513ff2284309ccd0b00cc79684c7cb.ttf.png)
+##### Martel_900Black
+![Martel_900Black](./Martel_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -151,7 +149,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/martel)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

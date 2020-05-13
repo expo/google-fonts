@@ -7,16 +7,14 @@
 
 This package lets you use the [**Kadwa**](https://fonts.google.com/specimen/Kadwa) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Kadwa
 
 ![Kadwa](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Kadwa_Regular400`
-- `Kadwa_Bold700`
+- `Kadwa_400Regular`
+- `Kadwa_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Kadwa_Regular400, Kadwa_Bold700, useFonts } from '@expo-google-fonts/kadwa';
+import { useFonts, Kadwa_400Regular, Kadwa_700Bold } from '@expo-google-fonts/kadwa';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Kadwa_Regular400,
-    Kadwa_Bold700,
+    Kadwa_400Regular,
+    Kadwa_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kadwa_Regular400' }}>
-          Kadwa_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kadwa_400Regular' }}>
+          Kadwa_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kadwa_Bold700' }}>
-          Kadwa_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kadwa_700Bold' }}>
+          Kadwa_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Kadwa_Regular400
-![Kadwa_Regular400](./5b5f18ab4eefeddcf41f6246b7bdc63d6971c57ff6d628b86fc955f8eacc2e01.ttf.png)
+##### Kadwa_400Regular
+![Kadwa_400Regular](./Kadwa_400Regular.ttf.png)
 
-##### Kadwa_Bold700
-![Kadwa_Bold700](./2355f2b7cea1ab51a7388a8586f175dbb411a58e530e26b1f86b5a62ca80faa2.ttf.png)
+##### Kadwa_700Bold
+![Kadwa_700Bold](./Kadwa_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/kadwa)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

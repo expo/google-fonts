@@ -7,17 +7,15 @@
 
 This package lets you use the [**Sen**](https://fonts.google.com/specimen/Sen) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sen
 
 ![Sen](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `Sen_Regular400`
-- `Sen_Bold700`
-- `Sen_ExtraBold800`
+- `Sen_400Regular`
+- `Sen_700Bold`
+- `Sen_800ExtraBold`
 
 ## Usage
 
@@ -32,13 +30,13 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Sen_Regular400, Sen_Bold700, Sen_ExtraBold800, useFonts } from '@expo-google-fonts/sen';
+import { useFonts, Sen_400Regular, Sen_700Bold, Sen_800ExtraBold } from '@expo-google-fonts/sen';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Sen_Regular400,
-    Sen_Bold700,
-    Sen_ExtraBold800,
+    Sen_400Regular,
+    Sen_700Bold,
+    Sen_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -49,14 +47,14 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sen_Regular400' }}>
-          Sen_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sen_400Regular' }}>
+          Sen_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sen_Bold700' }}>Sen_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sen_700Bold' }}>Sen_700Bold</Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sen_ExtraBold800' }}>
-          Sen_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sen_800ExtraBold' }}>
+          Sen_800ExtraBold
         </Text>
       </View>
     );
@@ -67,14 +65,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sen_Regular400
-![Sen_Regular400](./74c43e6590cf290828c5cfbeac6dfeecfe47f48d77d71385189eedc28c93bd7d.ttf.png)
+##### Sen_400Regular
+![Sen_400Regular](./Sen_400Regular.ttf.png)
 
-##### Sen_Bold700
-![Sen_Bold700](./384267b011f455064f728397ef7bf6303e94e62dd85613372ca7dcc2add6eb0a.ttf.png)
+##### Sen_700Bold
+![Sen_700Bold](./Sen_700Bold.ttf.png)
 
-##### Sen_ExtraBold800
-![Sen_ExtraBold800](./709f63ed575896ba15fe606abd291ee16ebdba1d773b8df284f0c0ec5e6985e5.ttf.png)
+##### Sen_800ExtraBold
+![Sen_800ExtraBold](./Sen_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -104,7 +102,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sen)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

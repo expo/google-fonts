@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Space Mono';
-export const __fontFamilyVersion__ = 1;
-
-export const SpaceMono_Regular400 = require('./1308fd8bd0f79e0517319bf0429226dfce5ae67beb495577737524f29b537527.ttf');
-export const SpaceMono_Regular400_Italic = require('./461bb1d5b84d057c522eedf582e3704890be96aed239020438b09168f8ef296b.ttf');
-export const SpaceMono_Bold700 = require('./9d1e9fe7ab3138b3f1465d1b1afc457934abae86c1803611dbbcfd28f5f97e2b.ttf');
-export const SpaceMono_Bold700_Italic = require('./ec50d2d9cc5bbed72fae03e2bc8a720e2cca1324f8bc99b30089d51896917f0e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const SpaceMono_400Regular = require('./SpaceMono_400Regular.ttf');
+export const SpaceMono_400Regular_Italic = require('./SpaceMono_400Regular_Italic.ttf');
+export const SpaceMono_700Bold = require('./SpaceMono_700Bold.ttf');
+export const SpaceMono_700Bold_Italic = require('./SpaceMono_700Bold_Italic.ttf');

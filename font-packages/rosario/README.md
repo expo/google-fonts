@@ -7,18 +7,22 @@
 
 This package lets you use the [**Rosario**](https://fonts.google.com/specimen/Rosario) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Rosario
 
 ![Rosario](./font-family.png)
 
-This font family contains [4 styles](#-gallery).
+This font family contains [10 styles](#-gallery).
 
-- `Rosario_Regular400`
-- `Rosario_Regular400_Italic`
-- `Rosario_Bold700`
-- `Rosario_Bold700_Italic`
+- `Rosario_300Light`
+- `Rosario_400Regular`
+- `Rosario_500Medium`
+- `Rosario_600SemiBold`
+- `Rosario_700Bold`
+- `Rosario_300Light_Italic`
+- `Rosario_400Regular_Italic`
+- `Rosario_500Medium_Italic`
+- `Rosario_600SemiBold_Italic`
+- `Rosario_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +38,31 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Rosario_Regular400,
-  Rosario_Regular400_Italic,
-  Rosario_Bold700,
-  Rosario_Bold700_Italic,
   useFonts,
+  Rosario_300Light,
+  Rosario_400Regular,
+  Rosario_500Medium,
+  Rosario_600SemiBold,
+  Rosario_700Bold,
+  Rosario_300Light_Italic,
+  Rosario_400Regular_Italic,
+  Rosario_500Medium_Italic,
+  Rosario_600SemiBold_Italic,
+  Rosario_700Bold_Italic,
 } from '@expo-google-fonts/rosario';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Rosario_Regular400,
-    Rosario_Regular400_Italic,
-    Rosario_Bold700,
-    Rosario_Bold700_Italic,
+    Rosario_300Light,
+    Rosario_400Regular,
+    Rosario_500Medium,
+    Rosario_600SemiBold,
+    Rosario_700Bold,
+    Rosario_300Light_Italic,
+    Rosario_400Regular_Italic,
+    Rosario_500Medium_Italic,
+    Rosario_600SemiBold_Italic,
+    Rosario_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +73,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_Regular400' }}>
-          Rosario_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_300Light' }}>
+          Rosario_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_Regular400_Italic' }}>
-          Rosario_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_400Regular' }}>
+          Rosario_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_Bold700' }}>
-          Rosario_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_500Medium' }}>
+          Rosario_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_Bold700_Italic' }}>
-          Rosario_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_600SemiBold' }}>
+          Rosario_600SemiBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_700Bold' }}>
+          Rosario_700Bold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_300Light_Italic' }}>
+          Rosario_300Light_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_400Regular_Italic' }}>
+          Rosario_400Regular_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_500Medium_Italic' }}>
+          Rosario_500Medium_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_600SemiBold_Italic' }}>
+          Rosario_600SemiBold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_700Bold_Italic' }}>
+          Rosario_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +121,35 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rosario_Regular400
-![Rosario_Regular400](./dc6413573a989dcba9ee4d0b7670f9eb53c458ddefc205ef6e0bd1e1c0be395e.ttf.png)
+##### Rosario_300Light
+![Rosario_300Light](./Rosario_300Light.ttf.png)
 
-##### Rosario_Regular400_Italic
-![Rosario_Regular400_Italic](./f099b91c7f453830c2471e0be3a576f1f58943f343e98b2d994a8f195364e51f.ttf.png)
+##### Rosario_400Regular
+![Rosario_400Regular](./Rosario_400Regular.ttf.png)
 
-##### Rosario_Bold700
-![Rosario_Bold700](./eba2172f0e05afe4e99a14d3a265d3f334e6110105c10842f43387dc99341df6.ttf.png)
+##### Rosario_500Medium
+![Rosario_500Medium](./Rosario_500Medium.ttf.png)
 
-##### Rosario_Bold700_Italic
-![Rosario_Bold700_Italic](./2fde400ab1655e1710a53bca2ab413a1504a54748fcac3b8ffea6135f4b8aabb.ttf.png)
+##### Rosario_600SemiBold
+![Rosario_600SemiBold](./Rosario_600SemiBold.ttf.png)
+
+##### Rosario_700Bold
+![Rosario_700Bold](./Rosario_700Bold.ttf.png)
+
+##### Rosario_300Light_Italic
+![Rosario_300Light_Italic](./Rosario_300Light_Italic.ttf.png)
+
+##### Rosario_400Regular_Italic
+![Rosario_400Regular_Italic](./Rosario_400Regular_Italic.ttf.png)
+
+##### Rosario_500Medium_Italic
+![Rosario_500Medium_Italic](./Rosario_500Medium_Italic.ttf.png)
+
+##### Rosario_600SemiBold_Italic
+![Rosario_600SemiBold_Italic](./Rosario_600SemiBold_Italic.ttf.png)
+
+##### Rosario_700Bold_Italic
+![Rosario_700Bold_Italic](./Rosario_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +179,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/rosario)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

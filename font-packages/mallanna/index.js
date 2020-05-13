@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Mallanna';
-export const __fontFamilyVersion__ = 4;
-
-export const Mallanna_Regular400 = require('./81feb01d40b2b7875e496dde6320f6af4ca381b03d376608ba5d8f9a8eb72db4.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Mallanna_400Regular = require('./Mallanna_400Regular.ttf');

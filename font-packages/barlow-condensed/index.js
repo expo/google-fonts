@@ -4,24 +4,22 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Barlow Condensed';
-export const __fontFamilyVersion__ = 1;
-
-export const BarlowCondensed_Thin100 = require('./c6f3686935062113e7b09390ffc3c690c608aa440f3e30db068b64420664ec5d.ttf');
-export const BarlowCondensed_Thin100_Italic = require('./ea5455d6f97ca5ea27d76f30e87b842dc23d6a9fdd9566ccffb6415a3a56bcb0.ttf');
-export const BarlowCondensed_ExtraLight200 = require('./410b2efcf0b449d214182287f404b669840f4cc0a3c2f04940cee2d94b6eed4e.ttf');
-export const BarlowCondensed_ExtraLight200_Italic = require('./bba549e676526ff4957a986006a9290f70d407fc1fd00d34135a1291ce6138d4.ttf');
-export const BarlowCondensed_Light300 = require('./9bcf33e336ef2238ede09a908f8b86c6cca1586df6b1fbe0d59e462e3149b8ba.ttf');
-export const BarlowCondensed_Light300_Italic = require('./49c62182eb883aeeab13fa2dbfcde072f2aac31e8bf77a232696bebc3b14e856.ttf');
-export const BarlowCondensed_Regular400 = require('./4e5dff25ad8b2553decdba77625dc57cdcba97555b53612a9c9bfa40f43f953c.ttf');
-export const BarlowCondensed_Regular400_Italic = require('./65d8e8aa8d380e24c33fe4d2da62c7f9ec3de8e3429671ef5ff32782d21d649a.ttf');
-export const BarlowCondensed_Medium500 = require('./8014ab571e1d04db59a24744420219343b4d1806c983ac73e808a9e96c638306.ttf');
-export const BarlowCondensed_Medium500_Italic = require('./dc26bbeb004e7e2084d0662973c4742fa65fd15b7eda3cb74826a27d686f44b0.ttf');
-export const BarlowCondensed_SemiBold600 = require('./36127289f54d9e42dd6bba46b0f52ce7e1839e79ce1b4d8fc5b22a54ee7c30f3.ttf');
-export const BarlowCondensed_SemiBold600_Italic = require('./70e3edc6f039c1a69acb610d298d522d5b46330458810ec9647e08c87b476dbb.ttf');
-export const BarlowCondensed_Bold700 = require('./ec8d231a02a1e88872bef49e1099c712e93f3a723722a3d3ddc0fe2bfbe40962.ttf');
-export const BarlowCondensed_Bold700_Italic = require('./edbf575a42819a83bc5539e63b01efa4299d750d2f679579ef7673c972e3211e.ttf');
-export const BarlowCondensed_ExtraBold800 = require('./e17df55a2cb70a97d869d33d55b38a29d60d31ae75c0bcaf61aca5f1215702cd.ttf');
-export const BarlowCondensed_ExtraBold800_Italic = require('./34b5cbd8a9497c32949bcad7e8bd3f63019f7d28e693401b3ac39a69b5cd778d.ttf');
-export const BarlowCondensed_Black900 = require('./5db2f838d3b4d86fe437bcaef0fb569cf99cfda6377a230687348897a816eeb5.ttf');
-export const BarlowCondensed_Black900_Italic = require('./de353be0369b799b090de4e2e272ebe13c6fd496973ff92b9e391656334ad1f2.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BarlowCondensed_100Thin = require('./BarlowCondensed_100Thin.ttf');
+export const BarlowCondensed_100Thin_Italic = require('./BarlowCondensed_100Thin_Italic.ttf');
+export const BarlowCondensed_200ExtraLight = require('./BarlowCondensed_200ExtraLight.ttf');
+export const BarlowCondensed_200ExtraLight_Italic = require('./BarlowCondensed_200ExtraLight_Italic.ttf');
+export const BarlowCondensed_300Light = require('./BarlowCondensed_300Light.ttf');
+export const BarlowCondensed_300Light_Italic = require('./BarlowCondensed_300Light_Italic.ttf');
+export const BarlowCondensed_400Regular = require('./BarlowCondensed_400Regular.ttf');
+export const BarlowCondensed_400Regular_Italic = require('./BarlowCondensed_400Regular_Italic.ttf');
+export const BarlowCondensed_500Medium = require('./BarlowCondensed_500Medium.ttf');
+export const BarlowCondensed_500Medium_Italic = require('./BarlowCondensed_500Medium_Italic.ttf');
+export const BarlowCondensed_600SemiBold = require('./BarlowCondensed_600SemiBold.ttf');
+export const BarlowCondensed_600SemiBold_Italic = require('./BarlowCondensed_600SemiBold_Italic.ttf');
+export const BarlowCondensed_700Bold = require('./BarlowCondensed_700Bold.ttf');
+export const BarlowCondensed_700Bold_Italic = require('./BarlowCondensed_700Bold_Italic.ttf');
+export const BarlowCondensed_800ExtraBold = require('./BarlowCondensed_800ExtraBold.ttf');
+export const BarlowCondensed_800ExtraBold_Italic = require('./BarlowCondensed_800ExtraBold_Italic.ttf');
+export const BarlowCondensed_900Black = require('./BarlowCondensed_900Black.ttf');
+export const BarlowCondensed_900Black_Italic = require('./BarlowCondensed_900Black_Italic.ttf');

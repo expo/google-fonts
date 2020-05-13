@@ -7,16 +7,14 @@
 
 This package lets you use the [**Asul**](https://fonts.google.com/specimen/Asul) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Asul
 
 ![Asul](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Asul_Regular400`
-- `Asul_Bold700`
+- `Asul_400Regular`
+- `Asul_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Asul_Regular400, Asul_Bold700, useFonts } from '@expo-google-fonts/asul';
+import { useFonts, Asul_400Regular, Asul_700Bold } from '@expo-google-fonts/asul';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Asul_Regular400,
-    Asul_Bold700,
+    Asul_400Regular,
+    Asul_700Bold,
   });
 
   let fontSize = 24;
@@ -47,11 +45,11 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asul_Regular400' }}>
-          Asul_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asul_400Regular' }}>
+          Asul_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asul_Bold700' }}>Asul_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asul_700Bold' }}>Asul_700Bold</Text>
       </View>
     );
   }
@@ -61,11 +59,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Asul_Regular400
-![Asul_Regular400](./d38e526c102508df44df01ded7aefa955a61c999e42e91cbcb82103aa1269875.ttf.png)
+##### Asul_400Regular
+![Asul_400Regular](./Asul_400Regular.ttf.png)
 
-##### Asul_Bold700
-![Asul_Bold700](./1810c0e0a5199932d466db95d83fab54bd1b5f6fd5b91664ca7240078d2dd1f0.ttf.png)
+##### Asul_700Bold
+![Asul_700Bold](./Asul_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -95,7 +93,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/asul)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,16 +7,14 @@
 
 This package lets you use the [**Lusitana**](https://fonts.google.com/specimen/Lusitana) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Lusitana
 
 ![Lusitana](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Lusitana_Regular400`
-- `Lusitana_Bold700`
+- `Lusitana_400Regular`
+- `Lusitana_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Lusitana_Regular400, Lusitana_Bold700, useFonts } from '@expo-google-fonts/lusitana';
+import { useFonts, Lusitana_400Regular, Lusitana_700Bold } from '@expo-google-fonts/lusitana';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Lusitana_Regular400,
-    Lusitana_Bold700,
+    Lusitana_400Regular,
+    Lusitana_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lusitana_Regular400' }}>
-          Lusitana_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lusitana_400Regular' }}>
+          Lusitana_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lusitana_Bold700' }}>
-          Lusitana_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lusitana_700Bold' }}>
+          Lusitana_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Lusitana_Regular400
-![Lusitana_Regular400](./c6df963163bf20f6d3c7e20307b4e363715e13d9047b5707caa9407e11af4ebb.ttf.png)
+##### Lusitana_400Regular
+![Lusitana_400Regular](./Lusitana_400Regular.ttf.png)
 
-##### Lusitana_Bold700
-![Lusitana_Bold700](./f5505e39683b141ee21482fcfc3818a5bb6f049abf15928c81caac05296eba18.ttf.png)
+##### Lusitana_700Bold
+![Lusitana_700Bold](./Lusitana_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/lusitana)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

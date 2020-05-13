@@ -4,14 +4,12 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Cabin';
-export const __fontFamilyVersion__ = 11;
-
-export const Cabin_Regular400 = require('./9ff30e9e9a66cf6a4e65d444d6bf8afdea7d574b27589397657972c2f9b2194f.ttf');
-export const Cabin_Regular400_Italic = require('./db35751de9b88dfbea004784c70c96bca9d813b5521cf320e5cb30adfd7384a2.ttf');
-export const Cabin_Medium500 = require('./4851465297f9c9aa19d41a969b28272f070f43271c7f279eb6daf3f291a47609.ttf');
-export const Cabin_Medium500_Italic = require('./2f1dff32a90462507aca783f85d6b2ed780858dd81a2a13bf217afbbfe5cce77.ttf');
-export const Cabin_SemiBold600 = require('./b7e9674a2fca64e9eddd32df2987e72643c1fbadb5cc8158e4a429f8a99ea39a.ttf');
-export const Cabin_SemiBold600_Italic = require('./da97f68bcdcff651e97b599499a784fc828a6e26feb94f391324076d060e3f7f.ttf');
-export const Cabin_Bold700 = require('./9adb3df669ae368a467dbe74951a83ec476b74739063459b95b664e6ea2bf36a.ttf');
-export const Cabin_Bold700_Italic = require('./e4a3605f6b618e79e1d2bc2e4890babb2828cca85fee80608cb7d4a810b06eab.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Cabin_400Regular = require('./Cabin_400Regular.ttf');
+export const Cabin_400Regular_Italic = require('./Cabin_400Regular_Italic.ttf');
+export const Cabin_500Medium = require('./Cabin_500Medium.ttf');
+export const Cabin_500Medium_Italic = require('./Cabin_500Medium_Italic.ttf');
+export const Cabin_600SemiBold = require('./Cabin_600SemiBold.ttf');
+export const Cabin_600SemiBold_Italic = require('./Cabin_600SemiBold_Italic.ttf');
+export const Cabin_700Bold = require('./Cabin_700Bold.ttf');
+export const Cabin_700Bold_Italic = require('./Cabin_700Bold_Italic.ttf');

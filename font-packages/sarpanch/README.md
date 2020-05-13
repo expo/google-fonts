@@ -7,20 +7,18 @@
 
 This package lets you use the [**Sarpanch**](https://fonts.google.com/specimen/Sarpanch) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sarpanch
 
 ![Sarpanch](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `Sarpanch_Regular400`
-- `Sarpanch_Medium500`
-- `Sarpanch_SemiBold600`
-- `Sarpanch_Bold700`
-- `Sarpanch_ExtraBold800`
-- `Sarpanch_Black900`
+- `Sarpanch_400Regular`
+- `Sarpanch_500Medium`
+- `Sarpanch_600SemiBold`
+- `Sarpanch_700Bold`
+- `Sarpanch_800ExtraBold`
+- `Sarpanch_900Black`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Sarpanch_Regular400,
-  Sarpanch_Medium500,
-  Sarpanch_SemiBold600,
-  Sarpanch_Bold700,
-  Sarpanch_ExtraBold800,
-  Sarpanch_Black900,
   useFonts,
+  Sarpanch_400Regular,
+  Sarpanch_500Medium,
+  Sarpanch_600SemiBold,
+  Sarpanch_700Bold,
+  Sarpanch_800ExtraBold,
+  Sarpanch_900Black,
 } from '@expo-google-fonts/sarpanch';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Sarpanch_Regular400,
-    Sarpanch_Medium500,
-    Sarpanch_SemiBold600,
-    Sarpanch_Bold700,
-    Sarpanch_ExtraBold800,
-    Sarpanch_Black900,
+    Sarpanch_400Regular,
+    Sarpanch_500Medium,
+    Sarpanch_600SemiBold,
+    Sarpanch_700Bold,
+    Sarpanch_800ExtraBold,
+    Sarpanch_900Black,
   });
 
   let fontSize = 24;
@@ -63,28 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_Regular400' }}>
-          Sarpanch_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_400Regular' }}>
+          Sarpanch_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_Medium500' }}>
-          Sarpanch_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_500Medium' }}>
+          Sarpanch_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_SemiBold600' }}>
-          Sarpanch_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_600SemiBold' }}>
+          Sarpanch_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_Bold700' }}>
-          Sarpanch_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_700Bold' }}>
+          Sarpanch_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_ExtraBold800' }}>
-          Sarpanch_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_800ExtraBold' }}>
+          Sarpanch_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_Black900' }}>
-          Sarpanch_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_900Black' }}>
+          Sarpanch_900Black
         </Text>
       </View>
     );
@@ -95,23 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sarpanch_Regular400
-![Sarpanch_Regular400](./a694e1d94a3cd59dead878c6ef1da8eb55274eb3b10e6f667a4506f4d2bf6a36.ttf.png)
+##### Sarpanch_400Regular
+![Sarpanch_400Regular](./Sarpanch_400Regular.ttf.png)
 
-##### Sarpanch_Medium500
-![Sarpanch_Medium500](./c7dedb13d24392e5c3e796641d50cce4643a03762ea0df2936f01cbdf94976bd.ttf.png)
+##### Sarpanch_500Medium
+![Sarpanch_500Medium](./Sarpanch_500Medium.ttf.png)
 
-##### Sarpanch_SemiBold600
-![Sarpanch_SemiBold600](./6bf8e038e00a3b7997da00d55f7715433a7c61351b1434e3659fb806f0c25a0e.ttf.png)
+##### Sarpanch_600SemiBold
+![Sarpanch_600SemiBold](./Sarpanch_600SemiBold.ttf.png)
 
-##### Sarpanch_Bold700
-![Sarpanch_Bold700](./5e1a7afd37c3b896e4eeb5de1bd8a3414b6966b45f7a9652b041ae80cb3b1855.ttf.png)
+##### Sarpanch_700Bold
+![Sarpanch_700Bold](./Sarpanch_700Bold.ttf.png)
 
-##### Sarpanch_ExtraBold800
-![Sarpanch_ExtraBold800](./a9575bc7bbbe80afa882bd838018d60f95a70408b16be48f2ce3f32eefebc620.ttf.png)
+##### Sarpanch_800ExtraBold
+![Sarpanch_800ExtraBold](./Sarpanch_800ExtraBold.ttf.png)
 
-##### Sarpanch_Black900
-![Sarpanch_Black900](./353bbda31bbbf4d1b499d676bded12b04e4aabafae78f929c4e5e875ecd09a19.ttf.png)
+##### Sarpanch_900Black
+![Sarpanch_900Black](./Sarpanch_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -141,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sarpanch)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

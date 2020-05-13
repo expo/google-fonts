@@ -4,16 +4,18 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Josefin Sans';
-export const __fontFamilyVersion__ = 9;
-
-export const JosefinSans_Thin100 = require('./d9274027036e4bec6eeac49709c56529144d0714f2d42cfefabb8f29aa669110.ttf');
-export const JosefinSans_Thin100_Italic = require('./fe583724f6b3b6ff7f2a65b872c7a8be86957b1f03d8efb03b7c3a83271d22f0.ttf');
-export const JosefinSans_Light300 = require('./2bfd7038e00c3bcb80df604697efc092891a519557503aab5b119fad6fb79d41.ttf');
-export const JosefinSans_Light300_Italic = require('./7ab4a22bc24c0da9b9abeae23dcabe78ebe9cb10010845ffc5b916764b87f63a.ttf');
-export const JosefinSans_Regular400 = require('./ad0ce8b3f694b796a43e60893235246f404c728782ef2719a3122b54b6aee1d6.ttf');
-export const JosefinSans_Regular400_Italic = require('./e240205c12a00fd8fec9a99ee4ce68015307c91c1dc38586775ff103177bbf6b.ttf');
-export const JosefinSans_SemiBold600 = require('./1af031215debaf6e64b6373e58d995de8763c248952fcf2a5f2b03b1cff3e26f.ttf');
-export const JosefinSans_SemiBold600_Italic = require('./d8d67f5eb2f1bd5f94c9574d8aee64e7e1706e25d0e4715e73d236bf12efeca0.ttf');
-export const JosefinSans_Bold700 = require('./dd252f6382ade7107cb7955cfb5062f3b8b8546376fd9bdb6774fc830292db75.ttf');
-export const JosefinSans_Bold700_Italic = require('./de8609adb9deaf3cd40532c56050226a1aa22c9f100b56fd248fd4b77fd8fd88.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const JosefinSans_100Thin = require('./JosefinSans_100Thin.ttf');
+export const JosefinSans_200ExtraLight = require('./JosefinSans_200ExtraLight.ttf');
+export const JosefinSans_300Light = require('./JosefinSans_300Light.ttf');
+export const JosefinSans_400Regular = require('./JosefinSans_400Regular.ttf');
+export const JosefinSans_500Medium = require('./JosefinSans_500Medium.ttf');
+export const JosefinSans_600SemiBold = require('./JosefinSans_600SemiBold.ttf');
+export const JosefinSans_700Bold = require('./JosefinSans_700Bold.ttf');
+export const JosefinSans_100Thin_Italic = require('./JosefinSans_100Thin_Italic.ttf');
+export const JosefinSans_200ExtraLight_Italic = require('./JosefinSans_200ExtraLight_Italic.ttf');
+export const JosefinSans_300Light_Italic = require('./JosefinSans_300Light_Italic.ttf');
+export const JosefinSans_400Regular_Italic = require('./JosefinSans_400Regular_Italic.ttf');
+export const JosefinSans_500Medium_Italic = require('./JosefinSans_500Medium_Italic.ttf');
+export const JosefinSans_600SemiBold_Italic = require('./JosefinSans_600SemiBold_Italic.ttf');
+export const JosefinSans_700Bold_Italic = require('./JosefinSans_700Bold_Italic.ttf');

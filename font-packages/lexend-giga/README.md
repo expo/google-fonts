@@ -7,15 +7,13 @@
 
 This package lets you use the [**Lexend Giga**](https://fonts.google.com/specimen/Lexend+Giga) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Lexend Giga
 
 ![Lexend Giga](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `LexendGiga_Regular400`
+- `LexendGiga_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { LexendGiga_Regular400, useFonts } from '@expo-google-fonts/lexend-giga';
+import { useFonts, LexendGiga_400Regular } from '@expo-google-fonts/lexend-giga';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LexendGiga_Regular400,
+    LexendGiga_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LexendGiga_Regular400' }}>
-          LexendGiga_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LexendGiga_400Regular' }}>
+          LexendGiga_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LexendGiga_Regular400
-![LexendGiga_Regular400](./1239824b7d568f46db623f61bf9aa0fc21275920dbb5861fdd9d57f132aec548.ttf.png)
+##### LexendGiga_400Regular
+![LexendGiga_400Regular](./LexendGiga_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/lexend-giga)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

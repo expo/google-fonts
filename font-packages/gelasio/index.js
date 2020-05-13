@@ -4,14 +4,12 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Gelasio';
-export const __fontFamilyVersion__ = 1;
-
-export const Gelasio_Regular400 = require('./2c178f975cfe7fd1383143d870be6652cd515bc4ce08487980cc8a24cb7d6658.ttf');
-export const Gelasio_Regular400_Italic = require('./89d39a153c70693460a8dfc8abc227627e98f02a750210cdf30eafeaa3c07eff.ttf');
-export const Gelasio_Medium500 = require('./065abbe7b6a9053e634e391d0b4b626891e33a25a559b218467c09f92b7cbae7.ttf');
-export const Gelasio_Medium500_Italic = require('./1f797bb1ec2839e88936d4386b44e04912d4d0dd8d71e154e831a3219ef0ccd2.ttf');
-export const Gelasio_SemiBold600 = require('./b65a3501691d4bc3cf001ba7b5ce1b366cf394b48c365a5cdd65d100d824c21b.ttf');
-export const Gelasio_SemiBold600_Italic = require('./60cd6e57a0fbd73db6d7c92723083486d34b20aaca29bd13abfcdd63d30a6965.ttf');
-export const Gelasio_Bold700 = require('./f820053044147cdbb3843e05a662ec45de690ea2b00e3fa9d7b8ef154b1caa0c.ttf');
-export const Gelasio_Bold700_Italic = require('./14cfaa5707e104d5c01401d62d8b27006faa96f78acc2952512962cd9a5059b1.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Gelasio_400Regular = require('./Gelasio_400Regular.ttf');
+export const Gelasio_400Regular_Italic = require('./Gelasio_400Regular_Italic.ttf');
+export const Gelasio_500Medium = require('./Gelasio_500Medium.ttf');
+export const Gelasio_500Medium_Italic = require('./Gelasio_500Medium_Italic.ttf');
+export const Gelasio_600SemiBold = require('./Gelasio_600SemiBold.ttf');
+export const Gelasio_600SemiBold_Italic = require('./Gelasio_600SemiBold_Italic.ttf');
+export const Gelasio_700Bold = require('./Gelasio_700Bold.ttf');
+export const Gelasio_700Bold_Italic = require('./Gelasio_700Bold_Italic.ttf');

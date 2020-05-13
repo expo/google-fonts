@@ -7,15 +7,13 @@
 
 This package lets you use the [**Risque**](https://fonts.google.com/specimen/Risque) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Risque
 
 ![Risque](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Risque_Regular400`
+- `Risque_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Risque_Regular400, useFonts } from '@expo-google-fonts/risque';
+import { useFonts, Risque_400Regular } from '@expo-google-fonts/risque';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Risque_Regular400,
+    Risque_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Risque_Regular400' }}>
-          Risque_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Risque_400Regular' }}>
+          Risque_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Risque_Regular400
-![Risque_Regular400](./5f8b847245100d0b265af4b51f5155b82e072ba6124a272762a8868071c2e9a8.ttf.png)
+##### Risque_400Regular
+![Risque_400Regular](./Risque_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/risque)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

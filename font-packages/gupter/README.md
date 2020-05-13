@@ -7,17 +7,15 @@
 
 This package lets you use the [**Gupter**](https://fonts.google.com/specimen/Gupter) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Gupter
 
 ![Gupter](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `Gupter_Regular400`
-- `Gupter_Medium500`
-- `Gupter_Bold700`
+- `Gupter_400Regular`
+- `Gupter_500Medium`
+- `Gupter_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Gupter_Regular400,
-  Gupter_Medium500,
-  Gupter_Bold700,
   useFonts,
+  Gupter_400Regular,
+  Gupter_500Medium,
+  Gupter_700Bold,
 } from '@expo-google-fonts/gupter';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Gupter_Regular400,
-    Gupter_Medium500,
-    Gupter_Bold700,
+    Gupter_400Regular,
+    Gupter_500Medium,
+    Gupter_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gupter_Regular400' }}>
-          Gupter_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gupter_400Regular' }}>
+          Gupter_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gupter_Medium500' }}>
-          Gupter_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gupter_500Medium' }}>
+          Gupter_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gupter_Bold700' }}>
-          Gupter_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gupter_700Bold' }}>
+          Gupter_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gupter_Regular400
-![Gupter_Regular400](./98ef59cfa0eb83781f6573b4ad1964bf98369e70db38156479c353702557fa01.ttf.png)
+##### Gupter_400Regular
+![Gupter_400Regular](./Gupter_400Regular.ttf.png)
 
-##### Gupter_Medium500
-![Gupter_Medium500](./84381b04d635b2daeb369d9c0afa5ff2489d0cda8d9660ee7631bfdf82f2eaeb.ttf.png)
+##### Gupter_500Medium
+![Gupter_500Medium](./Gupter_500Medium.ttf.png)
 
-##### Gupter_Bold700
-![Gupter_Bold700](./0e63fe340f8e61f9d4d9c5bbc638e79930af1125c534f656814a99d3909674b0.ttf.png)
+##### Gupter_700Bold
+![Gupter_700Bold](./Gupter_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/gupter)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

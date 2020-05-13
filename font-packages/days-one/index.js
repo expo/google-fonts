@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Days One';
-export const __fontFamilyVersion__ = 6;
-
-export const DaysOne_Regular400 = require('./d74812297ac57cf4ce637c47f01cbcab907136f76e2a4028e2ad1e80bd7b8ab0.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const DaysOne_400Regular = require('./DaysOne_400Regular.ttf');

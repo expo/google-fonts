@@ -7,26 +7,24 @@
 
 This package lets you use the [**Krub**](https://fonts.google.com/specimen/Krub) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Krub
 
 ![Krub](./font-family.png)
 
 This font family contains [12 styles](#-gallery).
 
-- `Krub_ExtraLight200`
-- `Krub_ExtraLight200_Italic`
-- `Krub_Light300`
-- `Krub_Light300_Italic`
-- `Krub_Regular400`
-- `Krub_Regular400_Italic`
-- `Krub_Medium500`
-- `Krub_Medium500_Italic`
-- `Krub_SemiBold600`
-- `Krub_SemiBold600_Italic`
-- `Krub_Bold700`
-- `Krub_Bold700_Italic`
+- `Krub_200ExtraLight`
+- `Krub_200ExtraLight_Italic`
+- `Krub_300Light`
+- `Krub_300Light_Italic`
+- `Krub_400Regular`
+- `Krub_400Regular_Italic`
+- `Krub_500Medium`
+- `Krub_500Medium_Italic`
+- `Krub_600SemiBold`
+- `Krub_600SemiBold_Italic`
+- `Krub_700Bold`
+- `Krub_700Bold_Italic`
 
 ## Usage
 
@@ -42,35 +40,35 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Krub_ExtraLight200,
-  Krub_ExtraLight200_Italic,
-  Krub_Light300,
-  Krub_Light300_Italic,
-  Krub_Regular400,
-  Krub_Regular400_Italic,
-  Krub_Medium500,
-  Krub_Medium500_Italic,
-  Krub_SemiBold600,
-  Krub_SemiBold600_Italic,
-  Krub_Bold700,
-  Krub_Bold700_Italic,
   useFonts,
+  Krub_200ExtraLight,
+  Krub_200ExtraLight_Italic,
+  Krub_300Light,
+  Krub_300Light_Italic,
+  Krub_400Regular,
+  Krub_400Regular_Italic,
+  Krub_500Medium,
+  Krub_500Medium_Italic,
+  Krub_600SemiBold,
+  Krub_600SemiBold_Italic,
+  Krub_700Bold,
+  Krub_700Bold_Italic,
 } from '@expo-google-fonts/krub';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Krub_ExtraLight200,
-    Krub_ExtraLight200_Italic,
-    Krub_Light300,
-    Krub_Light300_Italic,
-    Krub_Regular400,
-    Krub_Regular400_Italic,
-    Krub_Medium500,
-    Krub_Medium500_Italic,
-    Krub_SemiBold600,
-    Krub_SemiBold600_Italic,
-    Krub_Bold700,
-    Krub_Bold700_Italic,
+    Krub_200ExtraLight,
+    Krub_200ExtraLight_Italic,
+    Krub_300Light,
+    Krub_300Light_Italic,
+    Krub_400Regular,
+    Krub_400Regular_Italic,
+    Krub_500Medium,
+    Krub_500Medium_Italic,
+    Krub_600SemiBold,
+    Krub_600SemiBold_Italic,
+    Krub_700Bold,
+    Krub_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -81,50 +79,50 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_ExtraLight200' }}>
-          Krub_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_200ExtraLight' }}>
+          Krub_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_ExtraLight200_Italic' }}>
-          Krub_ExtraLight200_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_200ExtraLight_Italic' }}>
+          Krub_200ExtraLight_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_Light300' }}>
-          Krub_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_300Light' }}>
+          Krub_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_Light300_Italic' }}>
-          Krub_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_300Light_Italic' }}>
+          Krub_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_Regular400' }}>
-          Krub_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_400Regular' }}>
+          Krub_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_Regular400_Italic' }}>
-          Krub_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_400Regular_Italic' }}>
+          Krub_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_Medium500' }}>
-          Krub_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_500Medium' }}>
+          Krub_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_Medium500_Italic' }}>
-          Krub_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_500Medium_Italic' }}>
+          Krub_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_SemiBold600' }}>
-          Krub_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_600SemiBold' }}>
+          Krub_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_SemiBold600_Italic' }}>
-          Krub_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_600SemiBold_Italic' }}>
+          Krub_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_Bold700' }}>Krub_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_700Bold' }}>Krub_700Bold</Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_Bold700_Italic' }}>
-          Krub_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_700Bold_Italic' }}>
+          Krub_700Bold_Italic
         </Text>
       </View>
     );
@@ -135,41 +133,41 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Krub_ExtraLight200
-![Krub_ExtraLight200](./e99da9729e8beb706a3f7dd95ff2b13b7e33f89ceabaf9f2330e61896b93fa39.ttf.png)
+##### Krub_200ExtraLight
+![Krub_200ExtraLight](./Krub_200ExtraLight.ttf.png)
 
-##### Krub_ExtraLight200_Italic
-![Krub_ExtraLight200_Italic](./63f21c0600aea197624e3d1c2e40daafe5eabdfd3f3b604ef5a0240158275df3.ttf.png)
+##### Krub_200ExtraLight_Italic
+![Krub_200ExtraLight_Italic](./Krub_200ExtraLight_Italic.ttf.png)
 
-##### Krub_Light300
-![Krub_Light300](./c051f20fb436fad0503f887fa3835d2787be9ae5fbe5be539dc1532d24f8df2f.ttf.png)
+##### Krub_300Light
+![Krub_300Light](./Krub_300Light.ttf.png)
 
-##### Krub_Light300_Italic
-![Krub_Light300_Italic](./e7745d1a884ad74618766af351077c4625adf1e3ba22d4d86f3aa7cf49306b98.ttf.png)
+##### Krub_300Light_Italic
+![Krub_300Light_Italic](./Krub_300Light_Italic.ttf.png)
 
-##### Krub_Regular400
-![Krub_Regular400](./d0e841ab6bf1b00cdeb73777db2ee1a1cfa53adda512b49fbd12511e8fd15169.ttf.png)
+##### Krub_400Regular
+![Krub_400Regular](./Krub_400Regular.ttf.png)
 
-##### Krub_Regular400_Italic
-![Krub_Regular400_Italic](./9e23fec650c8fabcf0ecb628c198acb3c2a8cc928f9ab5814f5eafa81c9ceeaa.ttf.png)
+##### Krub_400Regular_Italic
+![Krub_400Regular_Italic](./Krub_400Regular_Italic.ttf.png)
 
-##### Krub_Medium500
-![Krub_Medium500](./2964f338dadae9da331e3cb292ca6fa5a8fe4eb8267fc4846b40115fbb645f2b.ttf.png)
+##### Krub_500Medium
+![Krub_500Medium](./Krub_500Medium.ttf.png)
 
-##### Krub_Medium500_Italic
-![Krub_Medium500_Italic](./defa6560ee637da7a34fda9c66033c4a5465e3bc8b92a02da190b58dfdd71ad6.ttf.png)
+##### Krub_500Medium_Italic
+![Krub_500Medium_Italic](./Krub_500Medium_Italic.ttf.png)
 
-##### Krub_SemiBold600
-![Krub_SemiBold600](./6f875531446bca4ea9d68ff550096ba0371fb5c0b8fa84667d9de385848b424e.ttf.png)
+##### Krub_600SemiBold
+![Krub_600SemiBold](./Krub_600SemiBold.ttf.png)
 
-##### Krub_SemiBold600_Italic
-![Krub_SemiBold600_Italic](./af1dcba5de7428e1ddd0d849ddffc16f048518210fefe8a98bf21ff22234b3f1.ttf.png)
+##### Krub_600SemiBold_Italic
+![Krub_600SemiBold_Italic](./Krub_600SemiBold_Italic.ttf.png)
 
-##### Krub_Bold700
-![Krub_Bold700](./066231a170b822e951eb201a38fd17e6a13d82773be17af5e9b184928e32c6c7.ttf.png)
+##### Krub_700Bold
+![Krub_700Bold](./Krub_700Bold.ttf.png)
 
-##### Krub_Bold700_Italic
-![Krub_Bold700_Italic](./bb202066513c0b7b93b2e8552d17feeaf2580daa45fdf8e88f3e98205ca2342e.ttf.png)
+##### Krub_700Bold_Italic
+![Krub_700Bold_Italic](./Krub_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -199,7 +197,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/krub)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

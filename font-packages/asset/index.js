@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Asset';
-export const __fontFamilyVersion__ = 6;
-
-export const Asset_Regular400 = require('./6423261d7b23d05ef705ee59a0151076feed8408f637b04693272b767ac6cfd5.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Asset_400Regular = require('./Asset_400Regular.ttf');

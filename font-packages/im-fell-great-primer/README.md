@@ -7,16 +7,14 @@
 
 This package lets you use the [**IM Fell Great Primer**](https://fonts.google.com/specimen/IM+Fell+Great+Primer) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## IM Fell Great Primer
 
 ![IM Fell Great Primer](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `IMFellGreatPrimer_Regular400`
-- `IMFellGreatPrimer_Regular400_Italic`
+- `IMFellGreatPrimer_400Regular`
+- `IMFellGreatPrimer_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  IMFellGreatPrimer_Regular400,
-  IMFellGreatPrimer_Regular400_Italic,
   useFonts,
+  IMFellGreatPrimer_400Regular,
+  IMFellGreatPrimer_400Regular_Italic,
 } from '@expo-google-fonts/im-fell-great-primer';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    IMFellGreatPrimer_Regular400,
-    IMFellGreatPrimer_Regular400_Italic,
+    IMFellGreatPrimer_400Regular,
+    IMFellGreatPrimer_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,13 +49,13 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IMFellGreatPrimer_Regular400' }}>
-          IMFellGreatPrimer_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IMFellGreatPrimer_400Regular' }}>
+          IMFellGreatPrimer_400Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'IMFellGreatPrimer_Regular400_Italic' }}>
-          IMFellGreatPrimer_Regular400_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'IMFellGreatPrimer_400Regular_Italic' }}>
+          IMFellGreatPrimer_400Regular_Italic
         </Text>
       </View>
     );
@@ -68,11 +66,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IMFellGreatPrimer_Regular400
-![IMFellGreatPrimer_Regular400](./fede2a25cf42680231c7bfb90da7306e0962092c8e1074fbfc44ef59289257ec.ttf.png)
+##### IMFellGreatPrimer_400Regular
+![IMFellGreatPrimer_400Regular](./IMFellGreatPrimer_400Regular.ttf.png)
 
-##### IMFellGreatPrimer_Regular400_Italic
-![IMFellGreatPrimer_Regular400_Italic](./020c8f65ef327b827d6e28ca2e4be8f019b4a81075f1c7c00a53993664b41b93.ttf.png)
+##### IMFellGreatPrimer_400Regular_Italic
+![IMFellGreatPrimer_400Regular_Italic](./IMFellGreatPrimer_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -102,7 +100,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/im-fell-great-primer)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

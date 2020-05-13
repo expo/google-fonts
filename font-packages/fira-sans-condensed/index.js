@@ -4,24 +4,22 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Fira Sans Condensed';
-export const __fontFamilyVersion__ = 1;
-
-export const FiraSansCondensed_Thin100 = require('./bf9b3d9811dd234f65f59b0d76d65a3e1e0c670aebac4deba38952c2a936f715.ttf');
-export const FiraSansCondensed_Thin100_Italic = require('./90a6e0b1a1c39abb49b18aa5dbe06d7495f40394b01fab73b9e1e2bfec8a63f1.ttf');
-export const FiraSansCondensed_ExtraLight200 = require('./a88fd0b03c58284d60144855004f6888c1b91eb5a7d21ac6060d56968934163e.ttf');
-export const FiraSansCondensed_ExtraLight200_Italic = require('./07ba37d808679122d7388590ccc622b6f8f48bfad8116ba243f202818d5cd687.ttf');
-export const FiraSansCondensed_Light300 = require('./028eb7598bbb6f3a2bf5ea109d7df59dc6518811cde6bc25a6f865eca25b8cee.ttf');
-export const FiraSansCondensed_Light300_Italic = require('./c87c9cbd8b98469f1021dcdc5e28dc336195b600990e646a06cd9e832b747236.ttf');
-export const FiraSansCondensed_Regular400 = require('./169ee94c3194b600460cd09916275e7fb039fb87644ad57a8892658bba9306c3.ttf');
-export const FiraSansCondensed_Regular400_Italic = require('./a80c7a96e3707ecec8c736d84d84610e8872d361a22b5dbe0ebc3edd438d0d73.ttf');
-export const FiraSansCondensed_Medium500 = require('./703cb9e1a6d80a19812381b5edceb1970b68ee76546ba8ae6ffed4c952fc475c.ttf');
-export const FiraSansCondensed_Medium500_Italic = require('./9ad537677b67359092459fe782eab5dbddc81f5a162d5e5089e46dab0d6d3dd5.ttf');
-export const FiraSansCondensed_SemiBold600 = require('./c134a6d726ac821a9d923951743e3265e9f99a3853356396d759d0fb71cda42a.ttf');
-export const FiraSansCondensed_SemiBold600_Italic = require('./59ba972744bb1ef52a903a84b4b035e2086ee740963c12a11f352474b9aa841e.ttf');
-export const FiraSansCondensed_Bold700 = require('./29ce6255f4e521be2749f9557160ebbff60c5d160cd3a920e7bfc471c723dc3f.ttf');
-export const FiraSansCondensed_Bold700_Italic = require('./02a6c070347c5261fef75b88834e9b34ca51774d98830932ac9082d60713a416.ttf');
-export const FiraSansCondensed_ExtraBold800 = require('./a3fb82c69c6f36043219173b6f3137c43ead2f79f748d4a4a92ab045215eee54.ttf');
-export const FiraSansCondensed_ExtraBold800_Italic = require('./22f5b83e1b510958faf311954f84c3a505ac7ca89aa279ee4e6a9274ec38e37f.ttf');
-export const FiraSansCondensed_Black900 = require('./cbc26fda4428ab404d1e295ba3295da5cacf05e0851f8e4db99a4f65e1a0b382.ttf');
-export const FiraSansCondensed_Black900_Italic = require('./d732a2087e508d3999de6ed5f8c8834fe6eed4e270dabbce0bdc668087bace49.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const FiraSansCondensed_100Thin = require('./FiraSansCondensed_100Thin.ttf');
+export const FiraSansCondensed_100Thin_Italic = require('./FiraSansCondensed_100Thin_Italic.ttf');
+export const FiraSansCondensed_200ExtraLight = require('./FiraSansCondensed_200ExtraLight.ttf');
+export const FiraSansCondensed_200ExtraLight_Italic = require('./FiraSansCondensed_200ExtraLight_Italic.ttf');
+export const FiraSansCondensed_300Light = require('./FiraSansCondensed_300Light.ttf');
+export const FiraSansCondensed_300Light_Italic = require('./FiraSansCondensed_300Light_Italic.ttf');
+export const FiraSansCondensed_400Regular = require('./FiraSansCondensed_400Regular.ttf');
+export const FiraSansCondensed_400Regular_Italic = require('./FiraSansCondensed_400Regular_Italic.ttf');
+export const FiraSansCondensed_500Medium = require('./FiraSansCondensed_500Medium.ttf');
+export const FiraSansCondensed_500Medium_Italic = require('./FiraSansCondensed_500Medium_Italic.ttf');
+export const FiraSansCondensed_600SemiBold = require('./FiraSansCondensed_600SemiBold.ttf');
+export const FiraSansCondensed_600SemiBold_Italic = require('./FiraSansCondensed_600SemiBold_Italic.ttf');
+export const FiraSansCondensed_700Bold = require('./FiraSansCondensed_700Bold.ttf');
+export const FiraSansCondensed_700Bold_Italic = require('./FiraSansCondensed_700Bold_Italic.ttf');
+export const FiraSansCondensed_800ExtraBold = require('./FiraSansCondensed_800ExtraBold.ttf');
+export const FiraSansCondensed_800ExtraBold_Italic = require('./FiraSansCondensed_800ExtraBold_Italic.ttf');
+export const FiraSansCondensed_900Black = require('./FiraSansCondensed_900Black.ttf');
+export const FiraSansCondensed_900Black_Italic = require('./FiraSansCondensed_900Black_Italic.ttf');

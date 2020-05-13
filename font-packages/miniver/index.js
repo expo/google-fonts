@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Miniver';
-export const __fontFamilyVersion__ = 5;
-
-export const Miniver_Regular400 = require('./5fee893072a2326d9baa9122deb089cd6f8d0645ee00cd02de22b415de3c7c54.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Miniver_400Regular = require('./Miniver_400Regular.ttf');

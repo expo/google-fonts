@@ -7,15 +7,13 @@
 
 This package lets you use the [**Ovo**](https://fonts.google.com/specimen/Ovo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Ovo
 
 ![Ovo](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Ovo_Regular400`
+- `Ovo_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Ovo_Regular400, useFonts } from '@expo-google-fonts/ovo';
+import { useFonts, Ovo_400Regular } from '@expo-google-fonts/ovo';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Ovo_Regular400,
+    Ovo_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ovo_Regular400' }}>
-          Ovo_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ovo_400Regular' }}>
+          Ovo_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Ovo_Regular400
-![Ovo_Regular400](./50e634088f389dcf2f463aa182c8ccb9d19042decdd216fed34fa70b5dfb49fd.ttf.png)
+##### Ovo_400Regular
+![Ovo_400Regular](./Ovo_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/ovo)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

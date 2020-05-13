@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Chau Philomene One';
-export const __fontFamilyVersion__ = 6;
-
-export const ChauPhilomeneOne_Regular400 = require('./c44d00d1e4d0cfcf8ae3458b12571cdd000ce9df7849a29afa3dd3aadfdb6224.ttf');
-export const ChauPhilomeneOne_Regular400_Italic = require('./5be1fbfb8c59a78422d618850745eeabe8bebc7aef35518a599c765168ad124a.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ChauPhilomeneOne_400Regular = require('./ChauPhilomeneOne_400Regular.ttf');
+export const ChauPhilomeneOne_400Regular_Italic = require('./ChauPhilomeneOne_400Regular_Italic.ttf');

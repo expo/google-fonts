@@ -4,16 +4,14 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Cormorant Garamond';
-export const __fontFamilyVersion__ = 5;
-
-export const CormorantGaramond_Light300 = require('./9e5ae2850e0033754375df527e1bb29ed63bd133553ce65b8d9313dd4cc944f8.ttf');
-export const CormorantGaramond_Light300_Italic = require('./86bc19f83cdf358de6e84a3bdbdc0f24e24d47bbdbf7cc2eac80d7bfe24dfdd4.ttf');
-export const CormorantGaramond_Regular400 = require('./5a2dd210ea12467e5697bb32480d20e0ebfbe2c2af1c64b1679567cf3486a8a5.ttf');
-export const CormorantGaramond_Regular400_Italic = require('./4766c3793328466bbd4f974a3843b2bffb312bd22c98098b0dec8990ba48f5e2.ttf');
-export const CormorantGaramond_Medium500 = require('./31bc31d93d2a5c505ca03887ae0ad2ad816caf59499f35016d89fe4d5db18ced.ttf');
-export const CormorantGaramond_Medium500_Italic = require('./e2b5d7b06e08f325bc0513179903b1423183f6533fec2645b64a6e1f24ad699c.ttf');
-export const CormorantGaramond_SemiBold600 = require('./25068099ded344cf0919185bae33e11bca97b6c8b1a528dede8ac80325e27c6b.ttf');
-export const CormorantGaramond_SemiBold600_Italic = require('./e316fc5e36acd433eb0c3ea1b28d8475a1ff9d0da27bf329fa1bd5d54eb870bf.ttf');
-export const CormorantGaramond_Bold700 = require('./b273c7be0b4af1389631638e4f056f5d9066fc17d321e665b3a28d43001736af.ttf');
-export const CormorantGaramond_Bold700_Italic = require('./e1c32c701a4b7594cd169653bc0feceed0160066ce7cedd06999fc884ddd6c02.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const CormorantGaramond_300Light = require('./CormorantGaramond_300Light.ttf');
+export const CormorantGaramond_300Light_Italic = require('./CormorantGaramond_300Light_Italic.ttf');
+export const CormorantGaramond_400Regular = require('./CormorantGaramond_400Regular.ttf');
+export const CormorantGaramond_400Regular_Italic = require('./CormorantGaramond_400Regular_Italic.ttf');
+export const CormorantGaramond_500Medium = require('./CormorantGaramond_500Medium.ttf');
+export const CormorantGaramond_500Medium_Italic = require('./CormorantGaramond_500Medium_Italic.ttf');
+export const CormorantGaramond_600SemiBold = require('./CormorantGaramond_600SemiBold.ttf');
+export const CormorantGaramond_600SemiBold_Italic = require('./CormorantGaramond_600SemiBold_Italic.ttf');
+export const CormorantGaramond_700Bold = require('./CormorantGaramond_700Bold.ttf');
+export const CormorantGaramond_700Bold_Italic = require('./CormorantGaramond_700Bold_Italic.ttf');

@@ -7,20 +7,22 @@
 
 This package lets you use the [**Alegreya SC**](https://fonts.google.com/specimen/Alegreya+SC) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Alegreya SC
 
 ![Alegreya SC](./font-family.png)
 
-This font family contains [6 styles](#-gallery).
+This font family contains [10 styles](#-gallery).
 
-- `AlegreyaSC_Regular400`
-- `AlegreyaSC_Regular400_Italic`
-- `AlegreyaSC_Bold700`
-- `AlegreyaSC_Bold700_Italic`
-- `AlegreyaSC_Black900`
-- `AlegreyaSC_Black900_Italic`
+- `AlegreyaSC_400Regular`
+- `AlegreyaSC_400Regular_Italic`
+- `AlegreyaSC_500Medium`
+- `AlegreyaSC_500Medium_Italic`
+- `AlegreyaSC_700Bold`
+- `AlegreyaSC_700Bold_Italic`
+- `AlegreyaSC_800ExtraBold`
+- `AlegreyaSC_800ExtraBold_Italic`
+- `AlegreyaSC_900Black`
+- `AlegreyaSC_900Black_Italic`
 
 ## Usage
 
@@ -36,23 +38,31 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  AlegreyaSC_Regular400,
-  AlegreyaSC_Regular400_Italic,
-  AlegreyaSC_Bold700,
-  AlegreyaSC_Bold700_Italic,
-  AlegreyaSC_Black900,
-  AlegreyaSC_Black900_Italic,
   useFonts,
+  AlegreyaSC_400Regular,
+  AlegreyaSC_400Regular_Italic,
+  AlegreyaSC_500Medium,
+  AlegreyaSC_500Medium_Italic,
+  AlegreyaSC_700Bold,
+  AlegreyaSC_700Bold_Italic,
+  AlegreyaSC_800ExtraBold,
+  AlegreyaSC_800ExtraBold_Italic,
+  AlegreyaSC_900Black,
+  AlegreyaSC_900Black_Italic,
 } from '@expo-google-fonts/alegreya-sc';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    AlegreyaSC_Regular400,
-    AlegreyaSC_Regular400_Italic,
-    AlegreyaSC_Bold700,
-    AlegreyaSC_Bold700_Italic,
-    AlegreyaSC_Black900,
-    AlegreyaSC_Black900_Italic,
+    AlegreyaSC_400Regular,
+    AlegreyaSC_400Regular_Italic,
+    AlegreyaSC_500Medium,
+    AlegreyaSC_500Medium_Italic,
+    AlegreyaSC_700Bold,
+    AlegreyaSC_700Bold_Italic,
+    AlegreyaSC_800ExtraBold,
+    AlegreyaSC_800ExtraBold_Italic,
+    AlegreyaSC_900Black,
+    AlegreyaSC_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -63,28 +73,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSC_Regular400' }}>
-          AlegreyaSC_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSC_400Regular' }}>
+          AlegreyaSC_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSC_Regular400_Italic' }}>
-          AlegreyaSC_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSC_400Regular_Italic' }}>
+          AlegreyaSC_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSC_Bold700' }}>
-          AlegreyaSC_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSC_500Medium' }}>
+          AlegreyaSC_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSC_Bold700_Italic' }}>
-          AlegreyaSC_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSC_500Medium_Italic' }}>
+          AlegreyaSC_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSC_Black900' }}>
-          AlegreyaSC_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSC_700Bold' }}>
+          AlegreyaSC_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSC_Black900_Italic' }}>
-          AlegreyaSC_Black900_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSC_700Bold_Italic' }}>
+          AlegreyaSC_700Bold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSC_800ExtraBold' }}>
+          AlegreyaSC_800ExtraBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSC_800ExtraBold_Italic' }}>
+          AlegreyaSC_800ExtraBold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSC_900Black' }}>
+          AlegreyaSC_900Black
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSC_900Black_Italic' }}>
+          AlegreyaSC_900Black_Italic
         </Text>
       </View>
     );
@@ -95,23 +121,35 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AlegreyaSC_Regular400
-![AlegreyaSC_Regular400](./7449fd0507a0808ae452506eb8fb2fb46b4abe72f8f5d982b25c963ba93bc094.ttf.png)
+##### AlegreyaSC_400Regular
+![AlegreyaSC_400Regular](./AlegreyaSC_400Regular.ttf.png)
 
-##### AlegreyaSC_Regular400_Italic
-![AlegreyaSC_Regular400_Italic](./6b36a9c6614f3cea8c2846f74b6823f8d3c5edd8a8b2319eccae142e3bb42738.ttf.png)
+##### AlegreyaSC_400Regular_Italic
+![AlegreyaSC_400Regular_Italic](./AlegreyaSC_400Regular_Italic.ttf.png)
 
-##### AlegreyaSC_Bold700
-![AlegreyaSC_Bold700](./16e159f79c1929fa884f232e47d45cb0cc16a55a22b127359024868245f4a2d4.ttf.png)
+##### AlegreyaSC_500Medium
+![AlegreyaSC_500Medium](./AlegreyaSC_500Medium.ttf.png)
 
-##### AlegreyaSC_Bold700_Italic
-![AlegreyaSC_Bold700_Italic](./6920f9042274d5d0b37753d233b86c7066a47d1cb94015d70ecbb9a76359faa7.ttf.png)
+##### AlegreyaSC_500Medium_Italic
+![AlegreyaSC_500Medium_Italic](./AlegreyaSC_500Medium_Italic.ttf.png)
 
-##### AlegreyaSC_Black900
-![AlegreyaSC_Black900](./d591a36a0d78f0315b16c23983d84d6d8b4bbf8ea5b5879019cad423941d5990.ttf.png)
+##### AlegreyaSC_700Bold
+![AlegreyaSC_700Bold](./AlegreyaSC_700Bold.ttf.png)
 
-##### AlegreyaSC_Black900_Italic
-![AlegreyaSC_Black900_Italic](./d312d023b86792b3a0f7cd9594498720cdb9feb7bec946d75a3f25f6580c19c7.ttf.png)
+##### AlegreyaSC_700Bold_Italic
+![AlegreyaSC_700Bold_Italic](./AlegreyaSC_700Bold_Italic.ttf.png)
+
+##### AlegreyaSC_800ExtraBold
+![AlegreyaSC_800ExtraBold](./AlegreyaSC_800ExtraBold.ttf.png)
+
+##### AlegreyaSC_800ExtraBold_Italic
+![AlegreyaSC_800ExtraBold_Italic](./AlegreyaSC_800ExtraBold_Italic.ttf.png)
+
+##### AlegreyaSC_900Black
+![AlegreyaSC_900Black](./AlegreyaSC_900Black.ttf.png)
+
+##### AlegreyaSC_900Black_Italic
+![AlegreyaSC_900Black_Italic](./AlegreyaSC_900Black_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -141,7 +179,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/alegreya-sc)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

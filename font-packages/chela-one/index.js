@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Chela One';
-export const __fontFamilyVersion__ = 5;
-
-export const ChelaOne_Regular400 = require('./3efd79a48f37981dfb1dd9c73243093c103f990459d6cc0e0918ed692c2beef0.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ChelaOne_400Regular = require('./ChelaOne_400Regular.ttf');

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Henny Penny';
-export const __fontFamilyVersion__ = 4;
-
-export const HennyPenny_Regular400 = require('./f0a1cf7a7ff413b8e4b7efebd74b65892f11e78dc663ec993b133ccfd9177864.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const HennyPenny_400Regular = require('./HennyPenny_400Regular.ttf');

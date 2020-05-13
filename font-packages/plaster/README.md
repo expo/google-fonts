@@ -7,15 +7,13 @@
 
 This package lets you use the [**Plaster**](https://fonts.google.com/specimen/Plaster) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Plaster
 
 ![Plaster](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Plaster_Regular400`
+- `Plaster_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Plaster_Regular400, useFonts } from '@expo-google-fonts/plaster';
+import { useFonts, Plaster_400Regular } from '@expo-google-fonts/plaster';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Plaster_Regular400,
+    Plaster_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Plaster_Regular400' }}>
-          Plaster_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Plaster_400Regular' }}>
+          Plaster_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Plaster_Regular400
-![Plaster_Regular400](./075c37d102ea4665ad52b444dd9ccf8c06ebd6d7125c8cf59644c1b1653abe6d.ttf.png)
+##### Plaster_400Regular
+![Plaster_400Regular](./Plaster_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/plaster)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

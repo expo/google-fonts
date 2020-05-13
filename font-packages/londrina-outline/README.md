@@ -7,15 +7,13 @@
 
 This package lets you use the [**Londrina Outline**](https://fonts.google.com/specimen/Londrina+Outline) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Londrina Outline
 
 ![Londrina Outline](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `LondrinaOutline_Regular400`
+- `LondrinaOutline_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { LondrinaOutline_Regular400, useFonts } from '@expo-google-fonts/londrina-outline';
+import { useFonts, LondrinaOutline_400Regular } from '@expo-google-fonts/londrina-outline';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LondrinaOutline_Regular400,
+    LondrinaOutline_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LondrinaOutline_Regular400' }}>
-          LondrinaOutline_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LondrinaOutline_400Regular' }}>
+          LondrinaOutline_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LondrinaOutline_Regular400
-![LondrinaOutline_Regular400](./f2c1c90df8f0b2111b8b45fe4112b8016fcde0874de248c3bd10e4f63da86e57.ttf.png)
+##### LondrinaOutline_400Regular
+![LondrinaOutline_400Regular](./LondrinaOutline_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/londrina-outline)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

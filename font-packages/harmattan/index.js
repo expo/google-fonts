@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Harmattan';
-export const __fontFamilyVersion__ = 1;
-
-export const Harmattan_Regular400 = require('./41320202de91ac539042bef1e0b4e68bb221cb422a2afcfd15a946a73ac99f64.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Harmattan_400Regular = require('./Harmattan_400Regular.ttf');

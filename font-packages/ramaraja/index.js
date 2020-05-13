@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Ramaraja';
-export const __fontFamilyVersion__ = 1;
-
-export const Ramaraja_Regular400 = require('./2d2ad7c6159f41c62bfca6dcad8df09173bd8915c107915bc3f035cedc1d00a6.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Ramaraja_400Regular = require('./Ramaraja_400Regular.ttf');

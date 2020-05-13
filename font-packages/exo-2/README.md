@@ -7,32 +7,30 @@
 
 This package lets you use the [**Exo 2**](https://fonts.google.com/specimen/Exo+2) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Exo 2
 
 ![Exo 2](./font-family.png)
 
 This font family contains [18 styles](#-gallery).
 
-- `Exo2_Thin100`
-- `Exo2_Thin100_Italic`
-- `Exo2_ExtraLight200`
-- `Exo2_ExtraLight200_Italic`
-- `Exo2_Light300`
-- `Exo2_Light300_Italic`
-- `Exo2_Regular400`
-- `Exo2_Regular400_Italic`
-- `Exo2_Medium500`
-- `Exo2_Medium500_Italic`
-- `Exo2_SemiBold600`
-- `Exo2_SemiBold600_Italic`
-- `Exo2_Bold700`
-- `Exo2_Bold700_Italic`
-- `Exo2_ExtraBold800`
-- `Exo2_ExtraBold800_Italic`
-- `Exo2_Black900`
-- `Exo2_Black900_Italic`
+- `Exo2_100Thin`
+- `Exo2_200ExtraLight`
+- `Exo2_300Light`
+- `Exo2_400Regular`
+- `Exo2_500Medium`
+- `Exo2_600SemiBold`
+- `Exo2_700Bold`
+- `Exo2_800ExtraBold`
+- `Exo2_900Black`
+- `Exo2_100Thin_Italic`
+- `Exo2_200ExtraLight_Italic`
+- `Exo2_300Light_Italic`
+- `Exo2_400Regular_Italic`
+- `Exo2_500Medium_Italic`
+- `Exo2_600SemiBold_Italic`
+- `Exo2_700Bold_Italic`
+- `Exo2_800ExtraBold_Italic`
+- `Exo2_900Black_Italic`
 
 ## Usage
 
@@ -48,47 +46,47 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Exo2_Thin100,
-  Exo2_Thin100_Italic,
-  Exo2_ExtraLight200,
-  Exo2_ExtraLight200_Italic,
-  Exo2_Light300,
-  Exo2_Light300_Italic,
-  Exo2_Regular400,
-  Exo2_Regular400_Italic,
-  Exo2_Medium500,
-  Exo2_Medium500_Italic,
-  Exo2_SemiBold600,
-  Exo2_SemiBold600_Italic,
-  Exo2_Bold700,
-  Exo2_Bold700_Italic,
-  Exo2_ExtraBold800,
-  Exo2_ExtraBold800_Italic,
-  Exo2_Black900,
-  Exo2_Black900_Italic,
   useFonts,
+  Exo2_100Thin,
+  Exo2_200ExtraLight,
+  Exo2_300Light,
+  Exo2_400Regular,
+  Exo2_500Medium,
+  Exo2_600SemiBold,
+  Exo2_700Bold,
+  Exo2_800ExtraBold,
+  Exo2_900Black,
+  Exo2_100Thin_Italic,
+  Exo2_200ExtraLight_Italic,
+  Exo2_300Light_Italic,
+  Exo2_400Regular_Italic,
+  Exo2_500Medium_Italic,
+  Exo2_600SemiBold_Italic,
+  Exo2_700Bold_Italic,
+  Exo2_800ExtraBold_Italic,
+  Exo2_900Black_Italic,
 } from '@expo-google-fonts/exo-2';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Exo2_Thin100,
-    Exo2_Thin100_Italic,
-    Exo2_ExtraLight200,
-    Exo2_ExtraLight200_Italic,
-    Exo2_Light300,
-    Exo2_Light300_Italic,
-    Exo2_Regular400,
-    Exo2_Regular400_Italic,
-    Exo2_Medium500,
-    Exo2_Medium500_Italic,
-    Exo2_SemiBold600,
-    Exo2_SemiBold600_Italic,
-    Exo2_Bold700,
-    Exo2_Bold700_Italic,
-    Exo2_ExtraBold800,
-    Exo2_ExtraBold800_Italic,
-    Exo2_Black900,
-    Exo2_Black900_Italic,
+    Exo2_100Thin,
+    Exo2_200ExtraLight,
+    Exo2_300Light,
+    Exo2_400Regular,
+    Exo2_500Medium,
+    Exo2_600SemiBold,
+    Exo2_700Bold,
+    Exo2_800ExtraBold,
+    Exo2_900Black,
+    Exo2_100Thin_Italic,
+    Exo2_200ExtraLight_Italic,
+    Exo2_300Light_Italic,
+    Exo2_400Regular_Italic,
+    Exo2_500Medium_Italic,
+    Exo2_600SemiBold_Italic,
+    Exo2_700Bold_Italic,
+    Exo2_800ExtraBold_Italic,
+    Exo2_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -99,72 +97,72 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_Thin100' }}>Exo2_Thin100</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_100Thin' }}>Exo2_100Thin</Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_Thin100_Italic' }}>
-          Exo2_Thin100_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_200ExtraLight' }}>
+          Exo2_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_ExtraLight200' }}>
-          Exo2_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_300Light' }}>
+          Exo2_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_ExtraLight200_Italic' }}>
-          Exo2_ExtraLight200_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_400Regular' }}>
+          Exo2_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_Light300' }}>
-          Exo2_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_500Medium' }}>
+          Exo2_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_Light300_Italic' }}>
-          Exo2_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_600SemiBold' }}>
+          Exo2_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_Regular400' }}>
-          Exo2_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_700Bold' }}>Exo2_700Bold</Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_800ExtraBold' }}>
+          Exo2_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_Regular400_Italic' }}>
-          Exo2_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_900Black' }}>
+          Exo2_900Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_Medium500' }}>
-          Exo2_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_100Thin_Italic' }}>
+          Exo2_100Thin_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_Medium500_Italic' }}>
-          Exo2_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_200ExtraLight_Italic' }}>
+          Exo2_200ExtraLight_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_SemiBold600' }}>
-          Exo2_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_300Light_Italic' }}>
+          Exo2_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_SemiBold600_Italic' }}>
-          Exo2_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_400Regular_Italic' }}>
+          Exo2_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_Bold700' }}>Exo2_Bold700</Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_Bold700_Italic' }}>
-          Exo2_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_500Medium_Italic' }}>
+          Exo2_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_ExtraBold800' }}>
-          Exo2_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_600SemiBold_Italic' }}>
+          Exo2_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_ExtraBold800_Italic' }}>
-          Exo2_ExtraBold800_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_700Bold_Italic' }}>
+          Exo2_700Bold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_Black900' }}>
-          Exo2_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_800ExtraBold_Italic' }}>
+          Exo2_800ExtraBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_Black900_Italic' }}>
-          Exo2_Black900_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo2_900Black_Italic' }}>
+          Exo2_900Black_Italic
         </Text>
       </View>
     );
@@ -175,59 +173,59 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Exo2_Thin100
-![Exo2_Thin100](./f19c0e2523de9afe6da463f303aefcf3e38b416875d48ef6c98328379e1a61ce.ttf.png)
+##### Exo2_100Thin
+![Exo2_100Thin](./Exo2_100Thin.ttf.png)
 
-##### Exo2_Thin100_Italic
-![Exo2_Thin100_Italic](./d39266e34642d4861ef777d4d3ae4150ae0b18b16d94713a78bb60cf03bf85b4.ttf.png)
+##### Exo2_200ExtraLight
+![Exo2_200ExtraLight](./Exo2_200ExtraLight.ttf.png)
 
-##### Exo2_ExtraLight200
-![Exo2_ExtraLight200](./dbf766d9b363fe87cee0afda4c59bc8a59f1c8d0a0d245063c720108d85dd9d6.ttf.png)
+##### Exo2_300Light
+![Exo2_300Light](./Exo2_300Light.ttf.png)
 
-##### Exo2_ExtraLight200_Italic
-![Exo2_ExtraLight200_Italic](./fb55978ca6abd55f49aab78def94b5c8b96bed1439a6dc4dae6dd1d0596ced50.ttf.png)
+##### Exo2_400Regular
+![Exo2_400Regular](./Exo2_400Regular.ttf.png)
 
-##### Exo2_Light300
-![Exo2_Light300](./64d41ba51bf8991e5322fbc8d80e400281604f70cd061562aad4bdf6aedd582e.ttf.png)
+##### Exo2_500Medium
+![Exo2_500Medium](./Exo2_500Medium.ttf.png)
 
-##### Exo2_Light300_Italic
-![Exo2_Light300_Italic](./110c181389ab4ffd19a1212a2c7b53e86dd2deefa76fbd3208663e85b34cd46e.ttf.png)
+##### Exo2_600SemiBold
+![Exo2_600SemiBold](./Exo2_600SemiBold.ttf.png)
 
-##### Exo2_Regular400
-![Exo2_Regular400](./a0dfef91dddc6d2e9820c4faf4c31bfa1533f090efe935e91150ee1b4cc59f4f.ttf.png)
+##### Exo2_700Bold
+![Exo2_700Bold](./Exo2_700Bold.ttf.png)
 
-##### Exo2_Regular400_Italic
-![Exo2_Regular400_Italic](./d7c5bd167ace5154cd5e8806a913d620cb479062db24c06433f7f38b3e6811cf.ttf.png)
+##### Exo2_800ExtraBold
+![Exo2_800ExtraBold](./Exo2_800ExtraBold.ttf.png)
 
-##### Exo2_Medium500
-![Exo2_Medium500](./f9b5326ebe6f800499e333e88b5d52d47d995cb1eb20ce541991deb5ae2792a4.ttf.png)
+##### Exo2_900Black
+![Exo2_900Black](./Exo2_900Black.ttf.png)
 
-##### Exo2_Medium500_Italic
-![Exo2_Medium500_Italic](./6abd6d5f1ca760d693fe03958a2e85de8ffeeabb5e2794bc2725ce8775807924.ttf.png)
+##### Exo2_100Thin_Italic
+![Exo2_100Thin_Italic](./Exo2_100Thin_Italic.ttf.png)
 
-##### Exo2_SemiBold600
-![Exo2_SemiBold600](./8999193c1336c6f666fba9f56ec1d12485be48c9f31a2e97e00056b311d2b79a.ttf.png)
+##### Exo2_200ExtraLight_Italic
+![Exo2_200ExtraLight_Italic](./Exo2_200ExtraLight_Italic.ttf.png)
 
-##### Exo2_SemiBold600_Italic
-![Exo2_SemiBold600_Italic](./73cdbc23b75cf90b91216670334c663046fe0b9d08f39991d5b9d26942b358a0.ttf.png)
+##### Exo2_300Light_Italic
+![Exo2_300Light_Italic](./Exo2_300Light_Italic.ttf.png)
 
-##### Exo2_Bold700
-![Exo2_Bold700](./2fa1bb398f33123661ab6d19927457c499ee32ba16819269d005ec1a4343aaf5.ttf.png)
+##### Exo2_400Regular_Italic
+![Exo2_400Regular_Italic](./Exo2_400Regular_Italic.ttf.png)
 
-##### Exo2_Bold700_Italic
-![Exo2_Bold700_Italic](./656cda11a815f2f5c7ef493608481f3ea6da47880dbcc3b6be65059319597393.ttf.png)
+##### Exo2_500Medium_Italic
+![Exo2_500Medium_Italic](./Exo2_500Medium_Italic.ttf.png)
 
-##### Exo2_ExtraBold800
-![Exo2_ExtraBold800](./88f76cbd5e824b5c45fb8278750d69a37690ede91efd8901a27dc5f20c69de70.ttf.png)
+##### Exo2_600SemiBold_Italic
+![Exo2_600SemiBold_Italic](./Exo2_600SemiBold_Italic.ttf.png)
 
-##### Exo2_ExtraBold800_Italic
-![Exo2_ExtraBold800_Italic](./fa96b010fc061593439675e03f0f7b4f36bcf4ef79b2f68d5820122313c84ac9.ttf.png)
+##### Exo2_700Bold_Italic
+![Exo2_700Bold_Italic](./Exo2_700Bold_Italic.ttf.png)
 
-##### Exo2_Black900
-![Exo2_Black900](./78b737edc063f02e62ffc88e8b71820aa12f17972b3dc70d9cc6aa20cbf8bb81.ttf.png)
+##### Exo2_800ExtraBold_Italic
+![Exo2_800ExtraBold_Italic](./Exo2_800ExtraBold_Italic.ttf.png)
 
-##### Exo2_Black900_Italic
-![Exo2_Black900_Italic](./9c49337689c4c8e998cdfc92575356ddef9b8d31b07c19c2e7d466c806b5de15.ttf.png)
+##### Exo2_900Black_Italic
+![Exo2_900Black_Italic](./Exo2_900Black_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -257,7 +255,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/exo-2)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Kavivanar**](https://fonts.google.com/specimen/Kavivanar) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Kavivanar
 
 ![Kavivanar](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Kavivanar_Regular400`
+- `Kavivanar_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Kavivanar_Regular400, useFonts } from '@expo-google-fonts/kavivanar';
+import { useFonts, Kavivanar_400Regular } from '@expo-google-fonts/kavivanar';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Kavivanar_Regular400,
+    Kavivanar_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kavivanar_Regular400' }}>
-          Kavivanar_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kavivanar_400Regular' }}>
+          Kavivanar_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Kavivanar_Regular400
-![Kavivanar_Regular400](./18f829fa1d200c2774144c3fcc8eb4f393a7bf7e2c8e3d95ecf831dd96e498ae.ttf.png)
+##### Kavivanar_400Regular
+![Kavivanar_400Regular](./Kavivanar_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/kavivanar)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,9 +4,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Sunflower';
-export const __fontFamilyVersion__ = 5;
-
-export const Sunflower_Light300 = require('./e60ce84d8ac799e771211c4fa34de99812b730e86342f32f94fbccfa79461bd0.ttf');
-export const Sunflower_Medium500 = require('./cf53d978b098c900279393bfdf56611a8003d688b2b16b7bd767182e1b0c58e8.ttf');
-export const Sunflower_Bold700 = require('./f3b680ac8a8f4a8a9ede88bf72084ae45ddd8dd7a8a87e826b9ce8946a7b0536.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Sunflower_300Light = require('./Sunflower_300Light.ttf');
+export const Sunflower_500Medium = require('./Sunflower_500Medium.ttf');
+export const Sunflower_700Bold = require('./Sunflower_700Bold.ttf');

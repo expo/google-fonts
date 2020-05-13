@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Arbutus Slab';
-export const __fontFamilyVersion__ = 4;
-
-export const ArbutusSlab_Regular400 = require('./a7c7bbc09f84fc70a8541195a960de7d282eeaee64c5b146253bd79fd209893d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ArbutusSlab_400Regular = require('./ArbutusSlab_400Regular.ttf');

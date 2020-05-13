@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Barriecito';
-export const __fontFamilyVersion__ = 2;
-
-export const Barriecito_Regular400 = require('./cbd439bbca5ece3347c1497394d9cdfd488742cc10ccd2413cdba4e819f236bb.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Barriecito_400Regular = require('./Barriecito_400Regular.ttf');

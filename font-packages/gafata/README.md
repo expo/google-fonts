@@ -7,15 +7,13 @@
 
 This package lets you use the [**Gafata**](https://fonts.google.com/specimen/Gafata) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Gafata
 
 ![Gafata](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Gafata_Regular400`
+- `Gafata_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Gafata_Regular400, useFonts } from '@expo-google-fonts/gafata';
+import { useFonts, Gafata_400Regular } from '@expo-google-fonts/gafata';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Gafata_Regular400,
+    Gafata_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gafata_Regular400' }}>
-          Gafata_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gafata_400Regular' }}>
+          Gafata_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gafata_Regular400
-![Gafata_Regular400](./d93ec736426526ff4d866b0522a300711a10168b8198ae7985029233601b84ac.ttf.png)
+##### Gafata_400Regular
+![Gafata_400Regular](./Gafata_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/gafata)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Liu Jian Mao Cao';
-export const __fontFamilyVersion__ = 5;
-
-export const LiuJianMaoCao_Regular400 = require('./b88821c3a72f98bbab2428a3b3f4a51c2f0eba1644fd8877d195afdf32143cdd.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const LiuJianMaoCao_400Regular = require('./LiuJianMaoCao_400Regular.ttf');

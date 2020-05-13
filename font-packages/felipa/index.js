@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Felipa';
-export const __fontFamilyVersion__ = 4;
-
-export const Felipa_Regular400 = require('./1636ce9582e69c11f567c7e8cbea02601d37fb40da1e6affdd5b71a01c7cd36b.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Felipa_400Regular = require('./Felipa_400Regular.ttf');

@@ -7,32 +7,30 @@
 
 This package lets you use the [**Raleway**](https://fonts.google.com/specimen/Raleway) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Raleway
 
 ![Raleway](./font-family.png)
 
 This font family contains [18 styles](#-gallery).
 
-- `Raleway_Thin100`
-- `Raleway_Thin100_Italic`
-- `Raleway_ExtraLight200`
-- `Raleway_ExtraLight200_Italic`
-- `Raleway_Light300`
-- `Raleway_Light300_Italic`
-- `Raleway_Regular400`
-- `Raleway_Regular400_Italic`
-- `Raleway_Medium500`
-- `Raleway_Medium500_Italic`
-- `Raleway_SemiBold600`
-- `Raleway_SemiBold600_Italic`
-- `Raleway_Bold700`
-- `Raleway_Bold700_Italic`
-- `Raleway_ExtraBold800`
-- `Raleway_ExtraBold800_Italic`
-- `Raleway_Black900`
-- `Raleway_Black900_Italic`
+- `Raleway_100Thin`
+- `Raleway_100Thin_Italic`
+- `Raleway_200ExtraLight`
+- `Raleway_200ExtraLight_Italic`
+- `Raleway_300Light`
+- `Raleway_300Light_Italic`
+- `Raleway_400Regular`
+- `Raleway_400Regular_Italic`
+- `Raleway_500Medium`
+- `Raleway_500Medium_Italic`
+- `Raleway_600SemiBold`
+- `Raleway_600SemiBold_Italic`
+- `Raleway_700Bold`
+- `Raleway_700Bold_Italic`
+- `Raleway_800ExtraBold`
+- `Raleway_800ExtraBold_Italic`
+- `Raleway_900Black`
+- `Raleway_900Black_Italic`
 
 ## Usage
 
@@ -48,47 +46,47 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Raleway_Thin100,
-  Raleway_Thin100_Italic,
-  Raleway_ExtraLight200,
-  Raleway_ExtraLight200_Italic,
-  Raleway_Light300,
-  Raleway_Light300_Italic,
-  Raleway_Regular400,
-  Raleway_Regular400_Italic,
-  Raleway_Medium500,
-  Raleway_Medium500_Italic,
-  Raleway_SemiBold600,
-  Raleway_SemiBold600_Italic,
-  Raleway_Bold700,
-  Raleway_Bold700_Italic,
-  Raleway_ExtraBold800,
-  Raleway_ExtraBold800_Italic,
-  Raleway_Black900,
-  Raleway_Black900_Italic,
   useFonts,
+  Raleway_100Thin,
+  Raleway_100Thin_Italic,
+  Raleway_200ExtraLight,
+  Raleway_200ExtraLight_Italic,
+  Raleway_300Light,
+  Raleway_300Light_Italic,
+  Raleway_400Regular,
+  Raleway_400Regular_Italic,
+  Raleway_500Medium,
+  Raleway_500Medium_Italic,
+  Raleway_600SemiBold,
+  Raleway_600SemiBold_Italic,
+  Raleway_700Bold,
+  Raleway_700Bold_Italic,
+  Raleway_800ExtraBold,
+  Raleway_800ExtraBold_Italic,
+  Raleway_900Black,
+  Raleway_900Black_Italic,
 } from '@expo-google-fonts/raleway';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Raleway_Thin100,
-    Raleway_Thin100_Italic,
-    Raleway_ExtraLight200,
-    Raleway_ExtraLight200_Italic,
-    Raleway_Light300,
-    Raleway_Light300_Italic,
-    Raleway_Regular400,
-    Raleway_Regular400_Italic,
-    Raleway_Medium500,
-    Raleway_Medium500_Italic,
-    Raleway_SemiBold600,
-    Raleway_SemiBold600_Italic,
-    Raleway_Bold700,
-    Raleway_Bold700_Italic,
-    Raleway_ExtraBold800,
-    Raleway_ExtraBold800_Italic,
-    Raleway_Black900,
-    Raleway_Black900_Italic,
+    Raleway_100Thin,
+    Raleway_100Thin_Italic,
+    Raleway_200ExtraLight,
+    Raleway_200ExtraLight_Italic,
+    Raleway_300Light,
+    Raleway_300Light_Italic,
+    Raleway_400Regular,
+    Raleway_400Regular_Italic,
+    Raleway_500Medium,
+    Raleway_500Medium_Italic,
+    Raleway_600SemiBold,
+    Raleway_600SemiBold_Italic,
+    Raleway_700Bold,
+    Raleway_700Bold_Italic,
+    Raleway_800ExtraBold,
+    Raleway_800ExtraBold_Italic,
+    Raleway_900Black,
+    Raleway_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -99,76 +97,76 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_Thin100' }}>
-          Raleway_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_100Thin' }}>
+          Raleway_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_Thin100_Italic' }}>
-          Raleway_Thin100_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_100Thin_Italic' }}>
+          Raleway_100Thin_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_ExtraLight200' }}>
-          Raleway_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_200ExtraLight' }}>
+          Raleway_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_ExtraLight200_Italic' }}>
-          Raleway_ExtraLight200_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_200ExtraLight_Italic' }}>
+          Raleway_200ExtraLight_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_Light300' }}>
-          Raleway_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_300Light' }}>
+          Raleway_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_Light300_Italic' }}>
-          Raleway_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_300Light_Italic' }}>
+          Raleway_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_Regular400' }}>
-          Raleway_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_400Regular' }}>
+          Raleway_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_Regular400_Italic' }}>
-          Raleway_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_400Regular_Italic' }}>
+          Raleway_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_Medium500' }}>
-          Raleway_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_500Medium' }}>
+          Raleway_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_Medium500_Italic' }}>
-          Raleway_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_500Medium_Italic' }}>
+          Raleway_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_SemiBold600' }}>
-          Raleway_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_600SemiBold' }}>
+          Raleway_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_SemiBold600_Italic' }}>
-          Raleway_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_600SemiBold_Italic' }}>
+          Raleway_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_Bold700' }}>
-          Raleway_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_700Bold' }}>
+          Raleway_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_Bold700_Italic' }}>
-          Raleway_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_700Bold_Italic' }}>
+          Raleway_700Bold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_ExtraBold800' }}>
-          Raleway_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_800ExtraBold' }}>
+          Raleway_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_ExtraBold800_Italic' }}>
-          Raleway_ExtraBold800_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_800ExtraBold_Italic' }}>
+          Raleway_800ExtraBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_Black900' }}>
-          Raleway_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_900Black' }}>
+          Raleway_900Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_Black900_Italic' }}>
-          Raleway_Black900_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_900Black_Italic' }}>
+          Raleway_900Black_Italic
         </Text>
       </View>
     );
@@ -179,59 +177,59 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Raleway_Thin100
-![Raleway_Thin100](./e8df4e8d960459bd5865f3570b57e6df699c766519716eef5e7875dfc55f60f8.ttf.png)
+##### Raleway_100Thin
+![Raleway_100Thin](./Raleway_100Thin.ttf.png)
 
-##### Raleway_Thin100_Italic
-![Raleway_Thin100_Italic](./9593117176336e51cd9d5e6beece2916b11b6dd91127af0ec0e8c61360e1825d.ttf.png)
+##### Raleway_100Thin_Italic
+![Raleway_100Thin_Italic](./Raleway_100Thin_Italic.ttf.png)
 
-##### Raleway_ExtraLight200
-![Raleway_ExtraLight200](./9fd54bfbbfe5b0f9225c616bfaf9b554e22453bccec74ff721bfa2e156349515.ttf.png)
+##### Raleway_200ExtraLight
+![Raleway_200ExtraLight](./Raleway_200ExtraLight.ttf.png)
 
-##### Raleway_ExtraLight200_Italic
-![Raleway_ExtraLight200_Italic](./020054507630a95da95e3be3a49fc214dbcfaf24390608c7a2b3d7f50f92d5d1.ttf.png)
+##### Raleway_200ExtraLight_Italic
+![Raleway_200ExtraLight_Italic](./Raleway_200ExtraLight_Italic.ttf.png)
 
-##### Raleway_Light300
-![Raleway_Light300](./7404c4efdcd985236d209c5c0c5e33de959f635b2c6e360941ba22f8753d88dc.ttf.png)
+##### Raleway_300Light
+![Raleway_300Light](./Raleway_300Light.ttf.png)
 
-##### Raleway_Light300_Italic
-![Raleway_Light300_Italic](./66dc7bf66966029a73a06e1220a824348a0d1fced869b33b94384866a907b404.ttf.png)
+##### Raleway_300Light_Italic
+![Raleway_300Light_Italic](./Raleway_300Light_Italic.ttf.png)
 
-##### Raleway_Regular400
-![Raleway_Regular400](./1aec65f5e5dca3ec9f8719936af31f54336bb5d99f25bf343ff25e009d5e569d.ttf.png)
+##### Raleway_400Regular
+![Raleway_400Regular](./Raleway_400Regular.ttf.png)
 
-##### Raleway_Regular400_Italic
-![Raleway_Regular400_Italic](./7f67d86f99756ac80abbf4a03a41535ed9d8b077f56460fb30a9cd45ca561a22.ttf.png)
+##### Raleway_400Regular_Italic
+![Raleway_400Regular_Italic](./Raleway_400Regular_Italic.ttf.png)
 
-##### Raleway_Medium500
-![Raleway_Medium500](./4c263e938d69d7fcfb458613f3f273780c02bda6d38090fc8cb2244c06d0b0a3.ttf.png)
+##### Raleway_500Medium
+![Raleway_500Medium](./Raleway_500Medium.ttf.png)
 
-##### Raleway_Medium500_Italic
-![Raleway_Medium500_Italic](./f794d63e5851c970d1f8527131022b8779e7f1aa8b8a974dcd0fdb49cd74270a.ttf.png)
+##### Raleway_500Medium_Italic
+![Raleway_500Medium_Italic](./Raleway_500Medium_Italic.ttf.png)
 
-##### Raleway_SemiBold600
-![Raleway_SemiBold600](./626bb691bbecebb8a239831c605068f546cdb97ae010463f2da45417e1741d82.ttf.png)
+##### Raleway_600SemiBold
+![Raleway_600SemiBold](./Raleway_600SemiBold.ttf.png)
 
-##### Raleway_SemiBold600_Italic
-![Raleway_SemiBold600_Italic](./2884ba45cbb9cb0d03e03d9ff7ddaa586469062b6a0c7d9eedce5c300a8874b7.ttf.png)
+##### Raleway_600SemiBold_Italic
+![Raleway_600SemiBold_Italic](./Raleway_600SemiBold_Italic.ttf.png)
 
-##### Raleway_Bold700
-![Raleway_Bold700](./0d65094ca3a50e3e3078a2e46a4229f4552983b5f75ca1375acc7e5846dc40fb.ttf.png)
+##### Raleway_700Bold
+![Raleway_700Bold](./Raleway_700Bold.ttf.png)
 
-##### Raleway_Bold700_Italic
-![Raleway_Bold700_Italic](./0d7f50973be9d011396bc034d6db727bd7c8bd04c394b691aae038666b286658.ttf.png)
+##### Raleway_700Bold_Italic
+![Raleway_700Bold_Italic](./Raleway_700Bold_Italic.ttf.png)
 
-##### Raleway_ExtraBold800
-![Raleway_ExtraBold800](./8051619be163d93f0ff326ee63a4aed4a38042fb23c4b565f5e87408bb6948f5.ttf.png)
+##### Raleway_800ExtraBold
+![Raleway_800ExtraBold](./Raleway_800ExtraBold.ttf.png)
 
-##### Raleway_ExtraBold800_Italic
-![Raleway_ExtraBold800_Italic](./7da482be71166cee8c0006906b0e930f45a5c8d6e5324b479edde0024dee23bd.ttf.png)
+##### Raleway_800ExtraBold_Italic
+![Raleway_800ExtraBold_Italic](./Raleway_800ExtraBold_Italic.ttf.png)
 
-##### Raleway_Black900
-![Raleway_Black900](./5302665d52f11188ff3c3008199ce8ca17835eb68c7c7bbbff6175e39879178a.ttf.png)
+##### Raleway_900Black
+![Raleway_900Black](./Raleway_900Black.ttf.png)
 
-##### Raleway_Black900_Italic
-![Raleway_Black900_Italic](./8a5faa87c4f12461b775bf2c6693db562a932328b199affc9c16ea56206f534d.ttf.png)
+##### Raleway_900Black_Italic
+![Raleway_900Black_Italic](./Raleway_900Black_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -261,7 +259,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/raleway)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

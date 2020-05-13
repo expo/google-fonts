@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Esteban';
-export const __fontFamilyVersion__ = 4;
-
-export const Esteban_Regular400 = require('./f0226acf9a0738f8dba187bbb11a569ea1e5329575144243525a23e543276b37.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Esteban_400Regular = require('./Esteban_400Regular.ttf');

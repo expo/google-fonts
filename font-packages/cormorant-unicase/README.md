@@ -7,19 +7,17 @@
 
 This package lets you use the [**Cormorant Unicase**](https://fonts.google.com/specimen/Cormorant+Unicase) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Cormorant Unicase
 
 ![Cormorant Unicase](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `CormorantUnicase_Light300`
-- `CormorantUnicase_Regular400`
-- `CormorantUnicase_Medium500`
-- `CormorantUnicase_SemiBold600`
-- `CormorantUnicase_Bold700`
+- `CormorantUnicase_300Light`
+- `CormorantUnicase_400Regular`
+- `CormorantUnicase_500Medium`
+- `CormorantUnicase_600SemiBold`
+- `CormorantUnicase_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  CormorantUnicase_Light300,
-  CormorantUnicase_Regular400,
-  CormorantUnicase_Medium500,
-  CormorantUnicase_SemiBold600,
-  CormorantUnicase_Bold700,
   useFonts,
+  CormorantUnicase_300Light,
+  CormorantUnicase_400Regular,
+  CormorantUnicase_500Medium,
+  CormorantUnicase_600SemiBold,
+  CormorantUnicase_700Bold,
 } from '@expo-google-fonts/cormorant-unicase';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CormorantUnicase_Light300,
-    CormorantUnicase_Regular400,
-    CormorantUnicase_Medium500,
-    CormorantUnicase_SemiBold600,
-    CormorantUnicase_Bold700,
+    CormorantUnicase_300Light,
+    CormorantUnicase_400Regular,
+    CormorantUnicase_500Medium,
+    CormorantUnicase_600SemiBold,
+    CormorantUnicase_700Bold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUnicase_Light300' }}>
-          CormorantUnicase_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUnicase_300Light' }}>
+          CormorantUnicase_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUnicase_Regular400' }}>
-          CormorantUnicase_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUnicase_400Regular' }}>
+          CormorantUnicase_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUnicase_Medium500' }}>
-          CormorantUnicase_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUnicase_500Medium' }}>
+          CormorantUnicase_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUnicase_SemiBold600' }}>
-          CormorantUnicase_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUnicase_600SemiBold' }}>
+          CormorantUnicase_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUnicase_Bold700' }}>
-          CormorantUnicase_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUnicase_700Bold' }}>
+          CormorantUnicase_700Bold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CormorantUnicase_Light300
-![CormorantUnicase_Light300](./8b2f697aa9071850538a594d14122faff09a953f9e6b7897e5284ae9afe2c2b0.ttf.png)
+##### CormorantUnicase_300Light
+![CormorantUnicase_300Light](./CormorantUnicase_300Light.ttf.png)
 
-##### CormorantUnicase_Regular400
-![CormorantUnicase_Regular400](./a075bd869512a69bf9bfcb4b1987513cf71f5b0f8931adc373783f751c44553a.ttf.png)
+##### CormorantUnicase_400Regular
+![CormorantUnicase_400Regular](./CormorantUnicase_400Regular.ttf.png)
 
-##### CormorantUnicase_Medium500
-![CormorantUnicase_Medium500](./fa07955427124a8c76b2621bceba09805d61cc57efe1c57120f9fd91a46e04ce.ttf.png)
+##### CormorantUnicase_500Medium
+![CormorantUnicase_500Medium](./CormorantUnicase_500Medium.ttf.png)
 
-##### CormorantUnicase_SemiBold600
-![CormorantUnicase_SemiBold600](./34d64ee75c05feffc586b864ce55af03115c3fd6a3c3fabeeef53742fd991848.ttf.png)
+##### CormorantUnicase_600SemiBold
+![CormorantUnicase_600SemiBold](./CormorantUnicase_600SemiBold.ttf.png)
 
-##### CormorantUnicase_Bold700
-![CormorantUnicase_Bold700](./ad4713eaa8a5f3198c0bed735f60707e4cb0c77de5643d8b4df7f61e8a8979a6.ttf.png)
+##### CormorantUnicase_700Bold
+![CormorantUnicase_700Bold](./CormorantUnicase_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cormorant-unicase)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

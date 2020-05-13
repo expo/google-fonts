@@ -7,20 +7,18 @@
 
 This package lets you use the [**Neuton**](https://fonts.google.com/specimen/Neuton) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Neuton
 
 ![Neuton](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `Neuton_ExtraLight200`
-- `Neuton_Light300`
-- `Neuton_Regular400`
-- `Neuton_Regular400_Italic`
-- `Neuton_Bold700`
-- `Neuton_ExtraBold800`
+- `Neuton_200ExtraLight`
+- `Neuton_300Light`
+- `Neuton_400Regular`
+- `Neuton_400Regular_Italic`
+- `Neuton_700Bold`
+- `Neuton_800ExtraBold`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Neuton_ExtraLight200,
-  Neuton_Light300,
-  Neuton_Regular400,
-  Neuton_Regular400_Italic,
-  Neuton_Bold700,
-  Neuton_ExtraBold800,
   useFonts,
+  Neuton_200ExtraLight,
+  Neuton_300Light,
+  Neuton_400Regular,
+  Neuton_400Regular_Italic,
+  Neuton_700Bold,
+  Neuton_800ExtraBold,
 } from '@expo-google-fonts/neuton';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Neuton_ExtraLight200,
-    Neuton_Light300,
-    Neuton_Regular400,
-    Neuton_Regular400_Italic,
-    Neuton_Bold700,
-    Neuton_ExtraBold800,
+    Neuton_200ExtraLight,
+    Neuton_300Light,
+    Neuton_400Regular,
+    Neuton_400Regular_Italic,
+    Neuton_700Bold,
+    Neuton_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -63,28 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_ExtraLight200' }}>
-          Neuton_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_200ExtraLight' }}>
+          Neuton_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_Light300' }}>
-          Neuton_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_300Light' }}>
+          Neuton_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_Regular400' }}>
-          Neuton_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_400Regular' }}>
+          Neuton_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_Regular400_Italic' }}>
-          Neuton_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_400Regular_Italic' }}>
+          Neuton_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_Bold700' }}>
-          Neuton_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_700Bold' }}>
+          Neuton_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_ExtraBold800' }}>
-          Neuton_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_800ExtraBold' }}>
+          Neuton_800ExtraBold
         </Text>
       </View>
     );
@@ -95,23 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Neuton_ExtraLight200
-![Neuton_ExtraLight200](./52a1f786965c5e1a5ddb72c3453133e67248c6daa74320a01e034161e4476a0f.ttf.png)
+##### Neuton_200ExtraLight
+![Neuton_200ExtraLight](./Neuton_200ExtraLight.ttf.png)
 
-##### Neuton_Light300
-![Neuton_Light300](./ff0297b52f6d34d72fb14e197dd0504d57fdb2769b98619facc41590e900c8e9.ttf.png)
+##### Neuton_300Light
+![Neuton_300Light](./Neuton_300Light.ttf.png)
 
-##### Neuton_Regular400
-![Neuton_Regular400](./2147893351f8ace96b011dcc7c1c826ba84daac170ed6538e0456e5ed8ffe947.ttf.png)
+##### Neuton_400Regular
+![Neuton_400Regular](./Neuton_400Regular.ttf.png)
 
-##### Neuton_Regular400_Italic
-![Neuton_Regular400_Italic](./8be52f34f889303ed24d24ec94bc56c8fb7130049db10eb3983aab619a05bcb5.ttf.png)
+##### Neuton_400Regular_Italic
+![Neuton_400Regular_Italic](./Neuton_400Regular_Italic.ttf.png)
 
-##### Neuton_Bold700
-![Neuton_Bold700](./1c83bf4d18e666ffe37bb75b7005b9ad99f4166347cbce93e1f798c45954f87e.ttf.png)
+##### Neuton_700Bold
+![Neuton_700Bold](./Neuton_700Bold.ttf.png)
 
-##### Neuton_ExtraBold800
-![Neuton_ExtraBold800](./2ccde11ee55979183e280ea4860ec28e4fd88da81c66a8eee82963c4fe2befca.ttf.png)
+##### Neuton_800ExtraBold
+![Neuton_800ExtraBold](./Neuton_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -141,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/neuton)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

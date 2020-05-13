@@ -7,15 +7,13 @@
 
 This package lets you use the [**Lateef**](https://fonts.google.com/specimen/Lateef) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Lateef
 
 ![Lateef](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Lateef_Regular400`
+- `Lateef_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Lateef_Regular400, useFonts } from '@expo-google-fonts/lateef';
+import { useFonts, Lateef_400Regular } from '@expo-google-fonts/lateef';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Lateef_Regular400,
+    Lateef_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lateef_Regular400' }}>
-          Lateef_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lateef_400Regular' }}>
+          Lateef_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Lateef_Regular400
-![Lateef_Regular400](./db6ed59fb822daefac366cd24ad8a0d2b7d9bf35e1ea45490ab50b3f50b0de88.ttf.png)
+##### Lateef_400Regular
+![Lateef_400Regular](./Lateef_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/lateef)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

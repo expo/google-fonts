@@ -7,15 +7,13 @@
 
 This package lets you use the [**Homenaje**](https://fonts.google.com/specimen/Homenaje) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Homenaje
 
 ![Homenaje](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Homenaje_Regular400`
+- `Homenaje_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Homenaje_Regular400, useFonts } from '@expo-google-fonts/homenaje';
+import { useFonts, Homenaje_400Regular } from '@expo-google-fonts/homenaje';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Homenaje_Regular400,
+    Homenaje_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Homenaje_Regular400' }}>
-          Homenaje_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Homenaje_400Regular' }}>
+          Homenaje_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Homenaje_Regular400
-![Homenaje_Regular400](./efaa8006929ef2ce2bc82593647ea2be59dcb513e048e4cb4b105cc66119d343.ttf.png)
+##### Homenaje_400Regular
+![Homenaje_400Regular](./Homenaje_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/homenaje)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

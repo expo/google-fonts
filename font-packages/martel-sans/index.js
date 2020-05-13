@@ -4,13 +4,11 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Martel Sans';
-export const __fontFamilyVersion__ = 3;
-
-export const MartelSans_ExtraLight200 = require('./1fc958d478da9b8b19e77c989d4fb6dbbd2f412a15b122ba72a2b11ee450907f.ttf');
-export const MartelSans_Light300 = require('./2115f8757576a27c80ccede4ba84e8febb53a0ec9f63840ab713b4d5e848f950.ttf');
-export const MartelSans_Regular400 = require('./f782be9e1cecfb4c75dd0bb7a8d88dce2794738a35bf5532079d99d4d529502d.ttf');
-export const MartelSans_SemiBold600 = require('./52f4a456d3927808cd2aa64f46cd6d63f7a938b904b289f66ab69c0db2e884a7.ttf');
-export const MartelSans_Bold700 = require('./fcf8c1bb73f62f8c3e86ed5126daf3eb4ee130c49e70f7ebdcaf27ae635bfc1b.ttf');
-export const MartelSans_ExtraBold800 = require('./0860874935148b1b8ffd9705d6ccef02322d3972a1bf7a38e63a65cf542e6395.ttf');
-export const MartelSans_Black900 = require('./9145c71bcab8472ba22b19f9e4e898639945be5fed13f10cd4d399fd5eac5a83.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MartelSans_200ExtraLight = require('./MartelSans_200ExtraLight.ttf');
+export const MartelSans_300Light = require('./MartelSans_300Light.ttf');
+export const MartelSans_400Regular = require('./MartelSans_400Regular.ttf');
+export const MartelSans_600SemiBold = require('./MartelSans_600SemiBold.ttf');
+export const MartelSans_700Bold = require('./MartelSans_700Bold.ttf');
+export const MartelSans_800ExtraBold = require('./MartelSans_800ExtraBold.ttf');
+export const MartelSans_900Black = require('./MartelSans_900Black.ttf');

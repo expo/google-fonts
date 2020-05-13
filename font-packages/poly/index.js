@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Poly';
-export const __fontFamilyVersion__ = 7;
-
-export const Poly_Regular400 = require('./25d6b0314754bfa56533ecd2bf390f3f2108e60043db13b206cca5e0a900f857.ttf');
-export const Poly_Regular400_Italic = require('./cc94a04fc599f53d7e32be6f932b998f8229d4e0462ebb808d61554abb4f0dbc.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Poly_400Regular = require('./Poly_400Regular.ttf');
+export const Poly_400Regular_Italic = require('./Poly_400Regular_Italic.ttf');

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Germania One';
-export const __fontFamilyVersion__ = 4;
-
-export const GermaniaOne_Regular400 = require('./8b7dd1af0258695612f37eb7db169c99f09801337d690f6880dc4a7c351f830d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const GermaniaOne_400Regular = require('./GermaniaOne_400Regular.ttf');

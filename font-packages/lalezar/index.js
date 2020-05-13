@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Lalezar';
-export const __fontFamilyVersion__ = 1;
-
-export const Lalezar_Regular400 = require('./4fb2ddb0068e2bc905effaccf71a86ff357486d6a30804cd2e1a8109d0f165fc.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Lalezar_400Regular = require('./Lalezar_400Regular.ttf');

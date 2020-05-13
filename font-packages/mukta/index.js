@@ -4,13 +4,11 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Mukta';
-export const __fontFamilyVersion__ = 5;
-
-export const Mukta_ExtraLight200 = require('./4a09d53371d63ff1a2007025ba620e2d49a10d6fa1cfd9771079b881fb10260b.ttf');
-export const Mukta_Light300 = require('./afd7468706fa0ed52e0b848541b4e7443296d0e40213e7903e1d85de5b78c259.ttf');
-export const Mukta_Regular400 = require('./7a26594f60f0a156f11685565fac877993f2081741d7eafc7a67d82010f730f8.ttf');
-export const Mukta_Medium500 = require('./a8691ddcdc7892d423b4906d2316da09de32309d3d68b21b5d3d640e28901896.ttf');
-export const Mukta_SemiBold600 = require('./7d8e1e1ee78a611bd420d3ad4fb7812e49164acc68f473ee133666fe5376d477.ttf');
-export const Mukta_Bold700 = require('./e6fcac27938712ebc52654eee052ffee3cb5608feef54db55a22964fe8c7d974.ttf');
-export const Mukta_ExtraBold800 = require('./861cea1030f95eb8f746e95524c8440b56afdd6606e07782193fe436cc52f46b.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Mukta_200ExtraLight = require('./Mukta_200ExtraLight.ttf');
+export const Mukta_300Light = require('./Mukta_300Light.ttf');
+export const Mukta_400Regular = require('./Mukta_400Regular.ttf');
+export const Mukta_500Medium = require('./Mukta_500Medium.ttf');
+export const Mukta_600SemiBold = require('./Mukta_600SemiBold.ttf');
+export const Mukta_700Bold = require('./Mukta_700Bold.ttf');
+export const Mukta_800ExtraBold = require('./Mukta_800ExtraBold.ttf');

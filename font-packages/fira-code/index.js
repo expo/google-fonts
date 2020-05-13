@@ -4,11 +4,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Fira Code';
-export const __fontFamilyVersion__ = 8;
-
-export const FiraCode_Light300 = require('./53d9824e306c207a6de228abf02372c59c9b2166fc2a5b38d40d9f8b2cca4f53.ttf');
-export const FiraCode_Regular400 = require('./952b0d5a1d329fa4c8229aa97143ed9ff3f239f1b4bd84e4c14b6f4f1ccdd705.ttf');
-export const FiraCode_Medium500 = require('./eeca9b497781ac45524ddd9ca6fdfa383130e3d2a613045bc288fbeaf3796ce6.ttf');
-export const FiraCode_SemiBold600 = require('./9272ceedc952a0945683c249045952038f3cd3c1cf0bd0bfda3a07417e44fd48.ttf');
-export const FiraCode_Bold700 = require('./e534947b075377251fa622cf2ae6881dd4073346a5fefda144b1406f45b9ade9.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const FiraCode_300Light = require('./FiraCode_300Light.ttf');
+export const FiraCode_400Regular = require('./FiraCode_400Regular.ttf');
+export const FiraCode_500Medium = require('./FiraCode_500Medium.ttf');
+export const FiraCode_600SemiBold = require('./FiraCode_600SemiBold.ttf');
+export const FiraCode_700Bold = require('./FiraCode_700Bold.ttf');

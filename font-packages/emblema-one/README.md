@@ -7,15 +7,13 @@
 
 This package lets you use the [**Emblema One**](https://fonts.google.com/specimen/Emblema+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Emblema One
 
 ![Emblema One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `EmblemaOne_Regular400`
+- `EmblemaOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { EmblemaOne_Regular400, useFonts } from '@expo-google-fonts/emblema-one';
+import { useFonts, EmblemaOne_400Regular } from '@expo-google-fonts/emblema-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    EmblemaOne_Regular400,
+    EmblemaOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EmblemaOne_Regular400' }}>
-          EmblemaOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EmblemaOne_400Regular' }}>
+          EmblemaOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### EmblemaOne_Regular400
-![EmblemaOne_Regular400](./ae7300f04f026825b14eaefb3738782763992c203df0821debfdf47a5bd349ed.ttf.png)
+##### EmblemaOne_400Regular
+![EmblemaOne_400Regular](./EmblemaOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/emblema-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

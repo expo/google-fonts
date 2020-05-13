@@ -7,16 +7,14 @@
 
 This package lets you use the [**Sahitya**](https://fonts.google.com/specimen/Sahitya) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sahitya
 
 ![Sahitya](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Sahitya_Regular400`
-- `Sahitya_Bold700`
+- `Sahitya_400Regular`
+- `Sahitya_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Sahitya_Regular400, Sahitya_Bold700, useFonts } from '@expo-google-fonts/sahitya';
+import { useFonts, Sahitya_400Regular, Sahitya_700Bold } from '@expo-google-fonts/sahitya';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Sahitya_Regular400,
-    Sahitya_Bold700,
+    Sahitya_400Regular,
+    Sahitya_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sahitya_Regular400' }}>
-          Sahitya_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sahitya_400Regular' }}>
+          Sahitya_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sahitya_Bold700' }}>
-          Sahitya_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sahitya_700Bold' }}>
+          Sahitya_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sahitya_Regular400
-![Sahitya_Regular400](./54146b1b18bccc5173c7f1cc478fd450cfb721e1b3d40df0ebd3dcf6711c6c48.ttf.png)
+##### Sahitya_400Regular
+![Sahitya_400Regular](./Sahitya_400Regular.ttf.png)
 
-##### Sahitya_Bold700
-![Sahitya_Bold700](./14383134c508c525e61d88a045189d98b08191a7cadfada9c90a82eea5d88ee6.ttf.png)
+##### Sahitya_700Bold
+![Sahitya_700Bold](./Sahitya_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sahitya)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

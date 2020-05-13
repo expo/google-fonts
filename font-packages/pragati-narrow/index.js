@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Pragati Narrow';
-export const __fontFamilyVersion__ = 2;
-
-export const PragatiNarrow_Regular400 = require('./1778fbb91f3825af5daf5dfe6d44737ee48e6c63a95f25348b39ccb9fcda8fb6.ttf');
-export const PragatiNarrow_Bold700 = require('./9e7b8eb47eaef49ea50a19115bddfaf35aebf2f4577f8a3b9cab531595bc97ef.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const PragatiNarrow_400Regular = require('./PragatiNarrow_400Regular.ttf');
+export const PragatiNarrow_700Bold = require('./PragatiNarrow_700Bold.ttf');

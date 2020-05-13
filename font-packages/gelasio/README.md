@@ -7,22 +7,20 @@
 
 This package lets you use the [**Gelasio**](https://fonts.google.com/specimen/Gelasio) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Gelasio
 
 ![Gelasio](./font-family.png)
 
 This font family contains [8 styles](#-gallery).
 
-- `Gelasio_Regular400`
-- `Gelasio_Regular400_Italic`
-- `Gelasio_Medium500`
-- `Gelasio_Medium500_Italic`
-- `Gelasio_SemiBold600`
-- `Gelasio_SemiBold600_Italic`
-- `Gelasio_Bold700`
-- `Gelasio_Bold700_Italic`
+- `Gelasio_400Regular`
+- `Gelasio_400Regular_Italic`
+- `Gelasio_500Medium`
+- `Gelasio_500Medium_Italic`
+- `Gelasio_600SemiBold`
+- `Gelasio_600SemiBold_Italic`
+- `Gelasio_700Bold`
+- `Gelasio_700Bold_Italic`
 
 ## Usage
 
@@ -38,27 +36,27 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Gelasio_Regular400,
-  Gelasio_Regular400_Italic,
-  Gelasio_Medium500,
-  Gelasio_Medium500_Italic,
-  Gelasio_SemiBold600,
-  Gelasio_SemiBold600_Italic,
-  Gelasio_Bold700,
-  Gelasio_Bold700_Italic,
   useFonts,
+  Gelasio_400Regular,
+  Gelasio_400Regular_Italic,
+  Gelasio_500Medium,
+  Gelasio_500Medium_Italic,
+  Gelasio_600SemiBold,
+  Gelasio_600SemiBold_Italic,
+  Gelasio_700Bold,
+  Gelasio_700Bold_Italic,
 } from '@expo-google-fonts/gelasio';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Gelasio_Regular400,
-    Gelasio_Regular400_Italic,
-    Gelasio_Medium500,
-    Gelasio_Medium500_Italic,
-    Gelasio_SemiBold600,
-    Gelasio_SemiBold600_Italic,
-    Gelasio_Bold700,
-    Gelasio_Bold700_Italic,
+    Gelasio_400Regular,
+    Gelasio_400Regular_Italic,
+    Gelasio_500Medium,
+    Gelasio_500Medium_Italic,
+    Gelasio_600SemiBold,
+    Gelasio_600SemiBold_Italic,
+    Gelasio_700Bold,
+    Gelasio_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -69,36 +67,36 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_Regular400' }}>
-          Gelasio_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_400Regular' }}>
+          Gelasio_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_Regular400_Italic' }}>
-          Gelasio_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_400Regular_Italic' }}>
+          Gelasio_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_Medium500' }}>
-          Gelasio_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_500Medium' }}>
+          Gelasio_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_Medium500_Italic' }}>
-          Gelasio_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_500Medium_Italic' }}>
+          Gelasio_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_SemiBold600' }}>
-          Gelasio_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_600SemiBold' }}>
+          Gelasio_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_SemiBold600_Italic' }}>
-          Gelasio_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_600SemiBold_Italic' }}>
+          Gelasio_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_Bold700' }}>
-          Gelasio_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_700Bold' }}>
+          Gelasio_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_Bold700_Italic' }}>
-          Gelasio_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_700Bold_Italic' }}>
+          Gelasio_700Bold_Italic
         </Text>
       </View>
     );
@@ -109,29 +107,29 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gelasio_Regular400
-![Gelasio_Regular400](./2c178f975cfe7fd1383143d870be6652cd515bc4ce08487980cc8a24cb7d6658.ttf.png)
+##### Gelasio_400Regular
+![Gelasio_400Regular](./Gelasio_400Regular.ttf.png)
 
-##### Gelasio_Regular400_Italic
-![Gelasio_Regular400_Italic](./89d39a153c70693460a8dfc8abc227627e98f02a750210cdf30eafeaa3c07eff.ttf.png)
+##### Gelasio_400Regular_Italic
+![Gelasio_400Regular_Italic](./Gelasio_400Regular_Italic.ttf.png)
 
-##### Gelasio_Medium500
-![Gelasio_Medium500](./065abbe7b6a9053e634e391d0b4b626891e33a25a559b218467c09f92b7cbae7.ttf.png)
+##### Gelasio_500Medium
+![Gelasio_500Medium](./Gelasio_500Medium.ttf.png)
 
-##### Gelasio_Medium500_Italic
-![Gelasio_Medium500_Italic](./1f797bb1ec2839e88936d4386b44e04912d4d0dd8d71e154e831a3219ef0ccd2.ttf.png)
+##### Gelasio_500Medium_Italic
+![Gelasio_500Medium_Italic](./Gelasio_500Medium_Italic.ttf.png)
 
-##### Gelasio_SemiBold600
-![Gelasio_SemiBold600](./b65a3501691d4bc3cf001ba7b5ce1b366cf394b48c365a5cdd65d100d824c21b.ttf.png)
+##### Gelasio_600SemiBold
+![Gelasio_600SemiBold](./Gelasio_600SemiBold.ttf.png)
 
-##### Gelasio_SemiBold600_Italic
-![Gelasio_SemiBold600_Italic](./60cd6e57a0fbd73db6d7c92723083486d34b20aaca29bd13abfcdd63d30a6965.ttf.png)
+##### Gelasio_600SemiBold_Italic
+![Gelasio_600SemiBold_Italic](./Gelasio_600SemiBold_Italic.ttf.png)
 
-##### Gelasio_Bold700
-![Gelasio_Bold700](./f820053044147cdbb3843e05a662ec45de690ea2b00e3fa9d7b8ef154b1caa0c.ttf.png)
+##### Gelasio_700Bold
+![Gelasio_700Bold](./Gelasio_700Bold.ttf.png)
 
-##### Gelasio_Bold700_Italic
-![Gelasio_Bold700_Italic](./14cfaa5707e104d5c01401d62d8b27006faa96f78acc2952512962cd9a5059b1.ttf.png)
+##### Gelasio_700Bold_Italic
+![Gelasio_700Bold_Italic](./Gelasio_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -161,7 +159,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/gelasio)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

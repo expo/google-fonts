@@ -7,15 +7,13 @@
 
 This package lets you use the [**Londrina Sketch**](https://fonts.google.com/specimen/Londrina+Sketch) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Londrina Sketch
 
 ![Londrina Sketch](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `LondrinaSketch_Regular400`
+- `LondrinaSketch_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { LondrinaSketch_Regular400, useFonts } from '@expo-google-fonts/londrina-sketch';
+import { useFonts, LondrinaSketch_400Regular } from '@expo-google-fonts/londrina-sketch';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LondrinaSketch_Regular400,
+    LondrinaSketch_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LondrinaSketch_Regular400' }}>
-          LondrinaSketch_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LondrinaSketch_400Regular' }}>
+          LondrinaSketch_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LondrinaSketch_Regular400
-![LondrinaSketch_Regular400](./f0bd303136aee90e673136b6266fb6b196cc94ef0966d955269deffaecbffacc.ttf.png)
+##### LondrinaSketch_400Regular
+![LondrinaSketch_400Regular](./LondrinaSketch_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/londrina-sketch)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

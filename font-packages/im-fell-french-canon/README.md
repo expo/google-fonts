@@ -7,16 +7,14 @@
 
 This package lets you use the [**IM Fell French Canon**](https://fonts.google.com/specimen/IM+Fell+French+Canon) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## IM Fell French Canon
 
 ![IM Fell French Canon](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `IMFellFrenchCanon_Regular400`
-- `IMFellFrenchCanon_Regular400_Italic`
+- `IMFellFrenchCanon_400Regular`
+- `IMFellFrenchCanon_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  IMFellFrenchCanon_Regular400,
-  IMFellFrenchCanon_Regular400_Italic,
   useFonts,
+  IMFellFrenchCanon_400Regular,
+  IMFellFrenchCanon_400Regular_Italic,
 } from '@expo-google-fonts/im-fell-french-canon';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    IMFellFrenchCanon_Regular400,
-    IMFellFrenchCanon_Regular400_Italic,
+    IMFellFrenchCanon_400Regular,
+    IMFellFrenchCanon_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,13 +49,13 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IMFellFrenchCanon_Regular400' }}>
-          IMFellFrenchCanon_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IMFellFrenchCanon_400Regular' }}>
+          IMFellFrenchCanon_400Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'IMFellFrenchCanon_Regular400_Italic' }}>
-          IMFellFrenchCanon_Regular400_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'IMFellFrenchCanon_400Regular_Italic' }}>
+          IMFellFrenchCanon_400Regular_Italic
         </Text>
       </View>
     );
@@ -68,11 +66,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IMFellFrenchCanon_Regular400
-![IMFellFrenchCanon_Regular400](./3a31b3ab35a73617ff634ad3017bc55e23ceb3daa2bf23c00c25afa3331aade8.ttf.png)
+##### IMFellFrenchCanon_400Regular
+![IMFellFrenchCanon_400Regular](./IMFellFrenchCanon_400Regular.ttf.png)
 
-##### IMFellFrenchCanon_Regular400_Italic
-![IMFellFrenchCanon_Regular400_Italic](./54332a8adf4fa4b9bd5ba4553b7f66a4e8c5ffb07d61701dbfee60bfac4394a4.ttf.png)
+##### IMFellFrenchCanon_400Regular_Italic
+![IMFellFrenchCanon_400Regular_Italic](./IMFellFrenchCanon_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -102,7 +100,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/im-fell-french-canon)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

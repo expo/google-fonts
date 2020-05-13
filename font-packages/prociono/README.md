@@ -7,15 +7,13 @@
 
 This package lets you use the [**Prociono**](https://fonts.google.com/specimen/Prociono) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Prociono
 
 ![Prociono](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Prociono_Regular400`
+- `Prociono_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Prociono_Regular400, useFonts } from '@expo-google-fonts/prociono';
+import { useFonts, Prociono_400Regular } from '@expo-google-fonts/prociono';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Prociono_Regular400,
+    Prociono_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prociono_Regular400' }}>
-          Prociono_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prociono_400Regular' }}>
+          Prociono_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Prociono_Regular400
-![Prociono_Regular400](./61f885124a2a2bbcb15f757f4ac96bf9509c0c1869f1efaa3c4cc6ce99d01f16.ttf.png)
+##### Prociono_400Regular
+![Prociono_400Regular](./Prociono_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/prociono)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,24 +4,22 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Taviraj';
-export const __fontFamilyVersion__ = 2;
-
-export const Taviraj_Thin100 = require('./52fbea14874ede87677741ccb667e42f7f7032e15c8b1a97be9fb092777027f3.ttf');
-export const Taviraj_Thin100_Italic = require('./d637ee5b1965213b2d0a0e00861b1be03c91e65b536d89344ca8311230055a55.ttf');
-export const Taviraj_ExtraLight200 = require('./0f7c36cf8282e0201e715b76951dfdbbb3cbfd0205738f51c9ecf4317214ac1d.ttf');
-export const Taviraj_ExtraLight200_Italic = require('./595da34fe677c807a56dbef57b36441f4cd9de4747ca13a95bc88dd802565032.ttf');
-export const Taviraj_Light300 = require('./b164693b28772a83e0ba3ea3b0795121a18396d1d22e4896f1f49fc90acc48b0.ttf');
-export const Taviraj_Light300_Italic = require('./4835b3444e501b13a94cc6e04b4b19278bf42fae51e45998c0b41de8111b0727.ttf');
-export const Taviraj_Regular400 = require('./cc53748aefd7d7a100dafa7ee826dbe17e7e14c04500e79b83a7960d0e379305.ttf');
-export const Taviraj_Regular400_Italic = require('./9dd995b1166e87570dc10d6a2afb2e5bdc5a0a8897063971ff30f8be824cbdb0.ttf');
-export const Taviraj_Medium500 = require('./8088b428c6a34c587047b747ef8b7e12084beb84bd154855e5c2d5038047e712.ttf');
-export const Taviraj_Medium500_Italic = require('./f38fc8738bdc33986e0ef3c36e4c1af93939c40aee8d6db38f93edcefac57482.ttf');
-export const Taviraj_SemiBold600 = require('./60262effd08d123f96e4ab6a7b67e4bdf366592724ab6211ea76e298b32de956.ttf');
-export const Taviraj_SemiBold600_Italic = require('./c32503bb0fe3a7c346743b68f48dba5c7de00074f0b33e16f2e1e34686a75575.ttf');
-export const Taviraj_Bold700 = require('./df6e4ecf9639e7dc02de4f99c5c63ebf641345e361470a40c48179c0dc47de55.ttf');
-export const Taviraj_Bold700_Italic = require('./e3ea04696627c46a58fa5ef27becd6ba6de21760fbeda60718e5ea072290165b.ttf');
-export const Taviraj_ExtraBold800 = require('./aff20cbaad70c21cda602d83dcf1df3e91122111271040a17451c90f91c0bc44.ttf');
-export const Taviraj_ExtraBold800_Italic = require('./ce78de38f72b4be9e1af07713b59f4497cc2677898bd647e19679c6b10bd16d7.ttf');
-export const Taviraj_Black900 = require('./75383093cb1afbe41275d2188c2d57c958f8fb94eff2dc57382eb5c77ca82138.ttf');
-export const Taviraj_Black900_Italic = require('./181f5aa6c3cfc77afd3dbcbc58dd4a621984f78739969774a7f939caee61b936.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Taviraj_100Thin = require('./Taviraj_100Thin.ttf');
+export const Taviraj_100Thin_Italic = require('./Taviraj_100Thin_Italic.ttf');
+export const Taviraj_200ExtraLight = require('./Taviraj_200ExtraLight.ttf');
+export const Taviraj_200ExtraLight_Italic = require('./Taviraj_200ExtraLight_Italic.ttf');
+export const Taviraj_300Light = require('./Taviraj_300Light.ttf');
+export const Taviraj_300Light_Italic = require('./Taviraj_300Light_Italic.ttf');
+export const Taviraj_400Regular = require('./Taviraj_400Regular.ttf');
+export const Taviraj_400Regular_Italic = require('./Taviraj_400Regular_Italic.ttf');
+export const Taviraj_500Medium = require('./Taviraj_500Medium.ttf');
+export const Taviraj_500Medium_Italic = require('./Taviraj_500Medium_Italic.ttf');
+export const Taviraj_600SemiBold = require('./Taviraj_600SemiBold.ttf');
+export const Taviraj_600SemiBold_Italic = require('./Taviraj_600SemiBold_Italic.ttf');
+export const Taviraj_700Bold = require('./Taviraj_700Bold.ttf');
+export const Taviraj_700Bold_Italic = require('./Taviraj_700Bold_Italic.ttf');
+export const Taviraj_800ExtraBold = require('./Taviraj_800ExtraBold.ttf');
+export const Taviraj_800ExtraBold_Italic = require('./Taviraj_800ExtraBold_Italic.ttf');
+export const Taviraj_900Black = require('./Taviraj_900Black.ttf');
+export const Taviraj_900Black_Italic = require('./Taviraj_900Black_Italic.ttf');

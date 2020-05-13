@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Berkshire Swash';
-export const __fontFamilyVersion__ = 4;
-
-export const BerkshireSwash_Regular400 = require('./2e73eb938ce44215938a21b199bc0a7eba8e1805d0d2528c3300ad7a1813d5e0.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BerkshireSwash_400Regular = require('./BerkshireSwash_400Regular.ttf');

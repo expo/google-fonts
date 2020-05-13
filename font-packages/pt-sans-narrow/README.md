@@ -7,16 +7,14 @@
 
 This package lets you use the [**PT Sans Narrow**](https://fonts.google.com/specimen/PT+Sans+Narrow) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## PT Sans Narrow
 
 ![PT Sans Narrow](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `PTSansNarrow_Regular400`
-- `PTSansNarrow_Bold700`
+- `PTSansNarrow_400Regular`
+- `PTSansNarrow_700Bold`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  PTSansNarrow_Regular400,
-  PTSansNarrow_Bold700,
   useFonts,
+  PTSansNarrow_400Regular,
+  PTSansNarrow_700Bold,
 } from '@expo-google-fonts/pt-sans-narrow';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    PTSansNarrow_Regular400,
-    PTSansNarrow_Bold700,
+    PTSansNarrow_400Regular,
+    PTSansNarrow_700Bold,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSansNarrow_Regular400' }}>
-          PTSansNarrow_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSansNarrow_400Regular' }}>
+          PTSansNarrow_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSansNarrow_Bold700' }}>
-          PTSansNarrow_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSansNarrow_700Bold' }}>
+          PTSansNarrow_700Bold
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PTSansNarrow_Regular400
-![PTSansNarrow_Regular400](./9d184233e6f48f81c6e510a1067d4f632052f899bf2f2bef4a69ab709bfe45a5.ttf.png)
+##### PTSansNarrow_400Regular
+![PTSansNarrow_400Regular](./PTSansNarrow_400Regular.ttf.png)
 
-##### PTSansNarrow_Bold700
-![PTSansNarrow_Bold700](./a16a62299cf1143c59a4ec676c956c6831a90698fd830de4c85632a83c56d52c.ttf.png)
+##### PTSansNarrow_700Bold
+![PTSansNarrow_700Bold](./PTSansNarrow_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/pt-sans-narrow)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

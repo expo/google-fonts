@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Nova Square';
-export const __fontFamilyVersion__ = 8;
-
-export const NovaSquare_Regular400 = require('./e0a393378490eb55bf6732aca6c44a808436009d82e3d1c08bfe96e079af967c.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const NovaSquare_400Regular = require('./NovaSquare_400Regular.ttf');

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Dynalight**](https://fonts.google.com/specimen/Dynalight) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Dynalight
 
 ![Dynalight](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Dynalight_Regular400`
+- `Dynalight_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Dynalight_Regular400, useFonts } from '@expo-google-fonts/dynalight';
+import { useFonts, Dynalight_400Regular } from '@expo-google-fonts/dynalight';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Dynalight_Regular400,
+    Dynalight_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Dynalight_Regular400' }}>
-          Dynalight_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Dynalight_400Regular' }}>
+          Dynalight_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Dynalight_Regular400
-![Dynalight_Regular400](./3380e0bde50ff63e8151f548155d2d265154e826a3fcd8e17eda92dd29d14064.ttf.png)
+##### Dynalight_400Regular
+![Dynalight_400Regular](./Dynalight_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/dynalight)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

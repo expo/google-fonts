@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Six Caps';
-export const __fontFamilyVersion__ = 7;
-
-export const SixCaps_Regular400 = require('./ecba544210f8553e76664f6e55b95afb42c005696628af22f50b59b88678debd.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const SixCaps_400Regular = require('./SixCaps_400Regular.ttf');

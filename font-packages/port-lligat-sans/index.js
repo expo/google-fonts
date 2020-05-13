@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Port Lligat Sans';
-export const __fontFamilyVersion__ = 5;
-
-export const PortLligatSans_Regular400 = require('./84c1f23904d96ac1b51af7e38d0892c88f5a84b7bdd1c30685b9cb4d2213706d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const PortLligatSans_400Regular = require('./PortLligatSans_400Regular.ttf');

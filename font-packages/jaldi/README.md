@@ -7,16 +7,14 @@
 
 This package lets you use the [**Jaldi**](https://fonts.google.com/specimen/Jaldi) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Jaldi
 
 ![Jaldi](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Jaldi_Regular400`
-- `Jaldi_Bold700`
+- `Jaldi_400Regular`
+- `Jaldi_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Jaldi_Regular400, Jaldi_Bold700, useFonts } from '@expo-google-fonts/jaldi';
+import { useFonts, Jaldi_400Regular, Jaldi_700Bold } from '@expo-google-fonts/jaldi';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Jaldi_Regular400,
-    Jaldi_Bold700,
+    Jaldi_400Regular,
+    Jaldi_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jaldi_Regular400' }}>
-          Jaldi_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jaldi_400Regular' }}>
+          Jaldi_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jaldi_Bold700' }}>
-          Jaldi_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jaldi_700Bold' }}>
+          Jaldi_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Jaldi_Regular400
-![Jaldi_Regular400](./2fd0aecfd94af32615e102201a3d6b70dd7b98a317a4b6457f9d5683435f2680.ttf.png)
+##### Jaldi_400Regular
+![Jaldi_400Regular](./Jaldi_400Regular.ttf.png)
 
-##### Jaldi_Bold700
-![Jaldi_Bold700](./1eb9040b249dbbf98470eca20e05d667c64d16570d20f4f3b5c8082472d03566.ttf.png)
+##### Jaldi_700Bold
+![Jaldi_700Bold](./Jaldi_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/jaldi)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Creepster';
-export const __fontFamilyVersion__ = 5;
-
-export const Creepster_Regular400 = require('./bb14e63f8fb5e6bd8706e47aea59d9e2b6b3da1b2f987d1468a6ba5cda2d1fc1.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Creepster_400Regular = require('./Creepster_400Regular.ttf');

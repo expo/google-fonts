@@ -7,18 +7,16 @@
 
 This package lets you use the [**Almendra**](https://fonts.google.com/specimen/Almendra) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Almendra
 
 ![Almendra](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Almendra_Regular400`
-- `Almendra_Regular400_Italic`
-- `Almendra_Bold700`
-- `Almendra_Bold700_Italic`
+- `Almendra_400Regular`
+- `Almendra_400Regular_Italic`
+- `Almendra_700Bold`
+- `Almendra_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Almendra_Regular400,
-  Almendra_Regular400_Italic,
-  Almendra_Bold700,
-  Almendra_Bold700_Italic,
   useFonts,
+  Almendra_400Regular,
+  Almendra_400Regular_Italic,
+  Almendra_700Bold,
+  Almendra_700Bold_Italic,
 } from '@expo-google-fonts/almendra';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Almendra_Regular400,
-    Almendra_Regular400_Italic,
-    Almendra_Bold700,
-    Almendra_Bold700_Italic,
+    Almendra_400Regular,
+    Almendra_400Regular_Italic,
+    Almendra_700Bold,
+    Almendra_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Almendra_Regular400' }}>
-          Almendra_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Almendra_400Regular' }}>
+          Almendra_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Almendra_Regular400_Italic' }}>
-          Almendra_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Almendra_400Regular_Italic' }}>
+          Almendra_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Almendra_Bold700' }}>
-          Almendra_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Almendra_700Bold' }}>
+          Almendra_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Almendra_Bold700_Italic' }}>
-          Almendra_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Almendra_700Bold_Italic' }}>
+          Almendra_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Almendra_Regular400
-![Almendra_Regular400](./08fa6c15ee1bba267ec0f0f30bd11a5be545d922ebd057f450a702f87aa9aaa8.ttf.png)
+##### Almendra_400Regular
+![Almendra_400Regular](./Almendra_400Regular.ttf.png)
 
-##### Almendra_Regular400_Italic
-![Almendra_Regular400_Italic](./d40d53b865a76778b1362d4e74f6c6294fbde5ae31f24f0173d9401c3fabcddc.ttf.png)
+##### Almendra_400Regular_Italic
+![Almendra_400Regular_Italic](./Almendra_400Regular_Italic.ttf.png)
 
-##### Almendra_Bold700
-![Almendra_Bold700](./b0792b18907bbbe9c24855a75a53fc8ac926ae12e181ec5bbc70fae19df05bfa.ttf.png)
+##### Almendra_700Bold
+![Almendra_700Bold](./Almendra_700Bold.ttf.png)
 
-##### Almendra_Bold700_Italic
-![Almendra_Bold700_Italic](./eb34d628f80f6ab95c12f0ef6dd4138d2182b94042d615028af5353e58b9f1ee.ttf.png)
+##### Almendra_700Bold_Italic
+![Almendra_700Bold_Italic](./Almendra_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/almendra)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

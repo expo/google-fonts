@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Cantarell';
-export const __fontFamilyVersion__ = 6;
-
-export const Cantarell_Regular400 = require('./1e62d82800c92f72ed501733b5d52d7b8a5d88d1c6315bfdaf7f8ce781108c00.ttf');
-export const Cantarell_Regular400_Italic = require('./6d9559dd0df30daed7da97dc8ef05e7f39b72205fb9bd7a055ddaa5242afd36f.ttf');
-export const Cantarell_Bold700 = require('./db0c34021061680135f973a2cb5565811527ea91f2fa07d023f4e105eb6f45d3.ttf');
-export const Cantarell_Bold700_Italic = require('./bb2c0f469972ec2016c3b8b8254ea0077f46207efb249afb3c4d356cf2c5418e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Cantarell_400Regular = require('./Cantarell_400Regular.ttf');
+export const Cantarell_400Regular_Italic = require('./Cantarell_400Regular_Italic.ttf');
+export const Cantarell_700Bold = require('./Cantarell_700Bold.ttf');
+export const Cantarell_700Bold_Italic = require('./Cantarell_700Bold_Italic.ttf');

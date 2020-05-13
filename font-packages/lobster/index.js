@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Lobster';
-export const __fontFamilyVersion__ = 18;
-
-export const Lobster_Regular400 = require('./ce455bfe5094ab723cf0b59871eb112f9f9acbe6d58811590b3d22a7236fa435.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Lobster_400Regular = require('./Lobster_400Regular.ttf');

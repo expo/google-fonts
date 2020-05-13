@@ -4,12 +4,14 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Alegreya';
-export const __fontFamilyVersion__ = 8;
-
-export const Alegreya_Regular400 = require('./530d78cba23c5d8e261ae9447b431e1fa550f9dc6563540a0c400be3f7ee88ab.ttf');
-export const Alegreya_Regular400_Italic = require('./efba5f9b4495a2e911ec871cc4dfebb5dba60bc72d643c0dd346e8f90513f81a.ttf');
-export const Alegreya_Bold700 = require('./c00ad52d215d793be827a98a0661e13bbd3276c96c6aa5e6c8d71c9487a3da03.ttf');
-export const Alegreya_Bold700_Italic = require('./bd912b8f7b092f81fc94ee9f3b769e57ecbb1a2443bfce7d405d2ad0c48c04b4.ttf');
-export const Alegreya_Black900 = require('./f2d4a4c114f8e7ad762e764046f117bf954b1ba7797bbe6b6d754decc9bdbf99.ttf');
-export const Alegreya_Black900_Italic = require('./01804c5bcb6aedbda393491d82c14328987c7fb66a6ef8c8313aed5d683d3dad.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Alegreya_400Regular = require('./Alegreya_400Regular.ttf');
+export const Alegreya_400Regular_Italic = require('./Alegreya_400Regular_Italic.ttf');
+export const Alegreya_500Medium = require('./Alegreya_500Medium.ttf');
+export const Alegreya_500Medium_Italic = require('./Alegreya_500Medium_Italic.ttf');
+export const Alegreya_700Bold = require('./Alegreya_700Bold.ttf');
+export const Alegreya_700Bold_Italic = require('./Alegreya_700Bold_Italic.ttf');
+export const Alegreya_800ExtraBold = require('./Alegreya_800ExtraBold.ttf');
+export const Alegreya_800ExtraBold_Italic = require('./Alegreya_800ExtraBold_Italic.ttf');
+export const Alegreya_900Black = require('./Alegreya_900Black.ttf');
+export const Alegreya_900Black_Italic = require('./Alegreya_900Black_Italic.ttf');

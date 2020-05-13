@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Sawarabi Mincho';
-export const __fontFamilyVersion__ = 10;
-
-export const SawarabiMincho_Regular400 = require('./f3beec4e12191867fb2f0f6f9b79f2367eab607cb6a1f28f445a8ae4b13f6c15.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const SawarabiMincho_400Regular = require('./SawarabiMincho_400Regular.ttf');

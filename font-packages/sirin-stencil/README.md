@@ -7,15 +7,13 @@
 
 This package lets you use the [**Sirin Stencil**](https://fonts.google.com/specimen/Sirin+Stencil) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sirin Stencil
 
 ![Sirin Stencil](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `SirinStencil_Regular400`
+- `SirinStencil_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { SirinStencil_Regular400, useFonts } from '@expo-google-fonts/sirin-stencil';
+import { useFonts, SirinStencil_400Regular } from '@expo-google-fonts/sirin-stencil';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    SirinStencil_Regular400,
+    SirinStencil_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SirinStencil_Regular400' }}>
-          SirinStencil_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SirinStencil_400Regular' }}>
+          SirinStencil_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SirinStencil_Regular400
-![SirinStencil_Regular400](./49b8495ba38ff41cb2fe6ffa19be0105173e6318d239a91687520ba2ed2b5cbc.ttf.png)
+##### SirinStencil_400Regular
+![SirinStencil_400Regular](./SirinStencil_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sirin-stencil)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

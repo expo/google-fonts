@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Iceland';
-export const __fontFamilyVersion__ = 5;
-
-export const Iceland_Regular400 = require('./d15cc78dabadb60a047db08291c49cb8c2d05c29de29c7505de00383b8f447cf.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Iceland_400Regular = require('./Iceland_400Regular.ttf');

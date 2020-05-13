@@ -7,16 +7,14 @@
 
 This package lets you use the [**IM Fell Double Pica**](https://fonts.google.com/specimen/IM+Fell+Double+Pica) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## IM Fell Double Pica
 
 ![IM Fell Double Pica](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `IMFellDoublePica_Regular400`
-- `IMFellDoublePica_Regular400_Italic`
+- `IMFellDoublePica_400Regular`
+- `IMFellDoublePica_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  IMFellDoublePica_Regular400,
-  IMFellDoublePica_Regular400_Italic,
   useFonts,
+  IMFellDoublePica_400Regular,
+  IMFellDoublePica_400Regular_Italic,
 } from '@expo-google-fonts/im-fell-double-pica';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    IMFellDoublePica_Regular400,
-    IMFellDoublePica_Regular400_Italic,
+    IMFellDoublePica_400Regular,
+    IMFellDoublePica_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,13 +49,13 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IMFellDoublePica_Regular400' }}>
-          IMFellDoublePica_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IMFellDoublePica_400Regular' }}>
+          IMFellDoublePica_400Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'IMFellDoublePica_Regular400_Italic' }}>
-          IMFellDoublePica_Regular400_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'IMFellDoublePica_400Regular_Italic' }}>
+          IMFellDoublePica_400Regular_Italic
         </Text>
       </View>
     );
@@ -68,11 +66,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IMFellDoublePica_Regular400
-![IMFellDoublePica_Regular400](./450b7878b03e1b88b59cd3c88d5a9dab68e698f5e89d49f6bd99bd40514f1eff.ttf.png)
+##### IMFellDoublePica_400Regular
+![IMFellDoublePica_400Regular](./IMFellDoublePica_400Regular.ttf.png)
 
-##### IMFellDoublePica_Regular400_Italic
-![IMFellDoublePica_Regular400_Italic](./63f80b5f83de7edd9b6a5674a903289d1c0f0679fefe1835d013e2c6910afacd.ttf.png)
+##### IMFellDoublePica_400Regular_Italic
+![IMFellDoublePica_400Regular_Italic](./IMFellDoublePica_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -102,7 +100,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/im-fell-double-pica)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

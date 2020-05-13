@@ -7,15 +7,13 @@
 
 This package lets you use the [**Kavoon**](https://fonts.google.com/specimen/Kavoon) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Kavoon
 
 ![Kavoon](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Kavoon_Regular400`
+- `Kavoon_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Kavoon_Regular400, useFonts } from '@expo-google-fonts/kavoon';
+import { useFonts, Kavoon_400Regular } from '@expo-google-fonts/kavoon';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Kavoon_Regular400,
+    Kavoon_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kavoon_Regular400' }}>
-          Kavoon_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kavoon_400Regular' }}>
+          Kavoon_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Kavoon_Regular400
-![Kavoon_Regular400](./2c2328be5a827d790cddbe56db46b1c94043f473e5d01286be1567e454a4038d.ttf.png)
+##### Kavoon_400Regular
+![Kavoon_400Regular](./Kavoon_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/kavoon)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

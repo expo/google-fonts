@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Sniglet';
-export const __fontFamilyVersion__ = 8;
-
-export const Sniglet_Regular400 = require('./106613b6566b3b9a696c095879b31e220c39d60c508dae033b5f3680aaa48732.ttf');
-export const Sniglet_ExtraBold800 = require('./439b0ab4a7a1d2a1328cc8eb52d10167325643f9c15a187d3d7650cdd15cf896.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Sniglet_400Regular = require('./Sniglet_400Regular.ttf');
+export const Sniglet_800ExtraBold = require('./Sniglet_800ExtraBold.ttf');

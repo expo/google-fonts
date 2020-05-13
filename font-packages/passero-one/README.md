@@ -7,15 +7,13 @@
 
 This package lets you use the [**Passero One**](https://fonts.google.com/specimen/Passero+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Passero One
 
 ![Passero One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `PasseroOne_Regular400`
+- `PasseroOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { PasseroOne_Regular400, useFonts } from '@expo-google-fonts/passero-one';
+import { useFonts, PasseroOne_400Regular } from '@expo-google-fonts/passero-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    PasseroOne_Regular400,
+    PasseroOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PasseroOne_Regular400' }}>
-          PasseroOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PasseroOne_400Regular' }}>
+          PasseroOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PasseroOne_Regular400
-![PasseroOne_Regular400](./b2d19067da678681f5952e5350d1924a2ac5a8a03eda9d27347e43a3ce35f8ad.ttf.png)
+##### PasseroOne_400Regular
+![PasseroOne_400Regular](./PasseroOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/passero-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

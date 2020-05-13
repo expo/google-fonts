@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/federant",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Use the Federant font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",

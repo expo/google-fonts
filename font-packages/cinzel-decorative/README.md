@@ -7,17 +7,15 @@
 
 This package lets you use the [**Cinzel Decorative**](https://fonts.google.com/specimen/Cinzel+Decorative) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Cinzel Decorative
 
 ![Cinzel Decorative](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `CinzelDecorative_Regular400`
-- `CinzelDecorative_Bold700`
-- `CinzelDecorative_Black900`
+- `CinzelDecorative_400Regular`
+- `CinzelDecorative_700Bold`
+- `CinzelDecorative_900Black`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  CinzelDecorative_Regular400,
-  CinzelDecorative_Bold700,
-  CinzelDecorative_Black900,
   useFonts,
+  CinzelDecorative_400Regular,
+  CinzelDecorative_700Bold,
+  CinzelDecorative_900Black,
 } from '@expo-google-fonts/cinzel-decorative';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CinzelDecorative_Regular400,
-    CinzelDecorative_Bold700,
-    CinzelDecorative_Black900,
+    CinzelDecorative_400Regular,
+    CinzelDecorative_700Bold,
+    CinzelDecorative_900Black,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CinzelDecorative_Regular400' }}>
-          CinzelDecorative_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CinzelDecorative_400Regular' }}>
+          CinzelDecorative_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CinzelDecorative_Bold700' }}>
-          CinzelDecorative_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CinzelDecorative_700Bold' }}>
+          CinzelDecorative_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CinzelDecorative_Black900' }}>
-          CinzelDecorative_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CinzelDecorative_900Black' }}>
+          CinzelDecorative_900Black
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CinzelDecorative_Regular400
-![CinzelDecorative_Regular400](./e2559504f7da1fc2410b4eca9cb5ca6fee8c1ead7c3920a0b225ef4f1da9034f.ttf.png)
+##### CinzelDecorative_400Regular
+![CinzelDecorative_400Regular](./CinzelDecorative_400Regular.ttf.png)
 
-##### CinzelDecorative_Bold700
-![CinzelDecorative_Bold700](./3a01d62b7c7d50b908e2fd62beb09363fb5e99ea2f21e0e79f71e5a6c356ceba.ttf.png)
+##### CinzelDecorative_700Bold
+![CinzelDecorative_700Bold](./CinzelDecorative_700Bold.ttf.png)
 
-##### CinzelDecorative_Black900
-![CinzelDecorative_Black900](./a9e463550cabc5d5d694e24c136e6d235212011e58c21d523229960a16bc5148.ttf.png)
+##### CinzelDecorative_900Black
+![CinzelDecorative_900Black](./CinzelDecorative_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cinzel-decorative)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

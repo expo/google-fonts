@@ -7,15 +7,13 @@
 
 This package lets you use the [**Antic**](https://fonts.google.com/specimen/Antic) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Antic
 
 ![Antic](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Antic_Regular400`
+- `Antic_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Antic_Regular400, useFonts } from '@expo-google-fonts/antic';
+import { useFonts, Antic_400Regular } from '@expo-google-fonts/antic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Antic_Regular400,
+    Antic_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Antic_Regular400' }}>
-          Antic_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Antic_400Regular' }}>
+          Antic_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Antic_Regular400
-![Antic_Regular400](./6526fff8a94a5503810bc8805b716126e91295380d0e970f089e3e663a4440d5.ttf.png)
+##### Antic_400Regular
+![Antic_400Regular](./Antic_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/antic)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

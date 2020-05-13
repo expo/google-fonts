@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Fruktur';
-export const __fontFamilyVersion__ = 9;
-
-export const Fruktur_Regular400 = require('./78b40ffd5e4efdcbad2cda23700072933938f41123f3149b98ceef2c1abdea2e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Fruktur_400Regular = require('./Fruktur_400Regular.ttf');

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Belleza';
-export const __fontFamilyVersion__ = 4;
-
-export const Belleza_Regular400 = require('./916c38d3ec21ba4e080cbb7c82b60f62b023224acf789357a9338460a610def2.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Belleza_400Regular = require('./Belleza_400Regular.ttf');

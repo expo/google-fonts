@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Carrois Gothic';
-export const __fontFamilyVersion__ = 6;
-
-export const CarroisGothic_Regular400 = require('./d013d780a3d17a244794f0d2649a6214a1946f102ddf0a02fe366fa7bb8bb6ec.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const CarroisGothic_400Regular = require('./CarroisGothic_400Regular.ttf');

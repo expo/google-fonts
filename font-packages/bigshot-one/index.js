@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bigshot One';
-export const __fontFamilyVersion__ = 6;
-
-export const BigshotOne_Regular400 = require('./cd6b11ed5794f665b3e412e676ae624b63b086b93992d6c0b00c9afd26180c79.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BigshotOne_400Regular = require('./BigshotOne_400Regular.ttf');

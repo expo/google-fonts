@@ -4,12 +4,10 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Athiti';
-export const __fontFamilyVersion__ = 1;
-
-export const Athiti_ExtraLight200 = require('./4abe61baf7f8762b4dcb6b88b0610de73f42b112a793e28b92da163ee7e441d7.ttf');
-export const Athiti_Light300 = require('./f9c6df08ed329fa184304cf4bc64319e7812c62c2ae136dc89cb10a5d5c35018.ttf');
-export const Athiti_Regular400 = require('./4559ae55fe1020c88dc144ae60afba5e282fcd3aa1c5107292df173d42135806.ttf');
-export const Athiti_Medium500 = require('./6e1f0a1706330d270d93ea13e88b35d9c6f4bf71d927e9468278c03b57986330.ttf');
-export const Athiti_SemiBold600 = require('./398a37b4c34df12c6ede4a85f215d56eaa5a8b515ea5e0bdad2ef676c2ae858a.ttf');
-export const Athiti_Bold700 = require('./63b6ab040d22bd64ce5d5400f352fac3ecefa83827b1862b8a216d5c729ea286.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Athiti_200ExtraLight = require('./Athiti_200ExtraLight.ttf');
+export const Athiti_300Light = require('./Athiti_300Light.ttf');
+export const Athiti_400Regular = require('./Athiti_400Regular.ttf');
+export const Athiti_500Medium = require('./Athiti_500Medium.ttf');
+export const Athiti_600SemiBold = require('./Athiti_600SemiBold.ttf');
+export const Athiti_700Bold = require('./Athiti_700Bold.ttf');

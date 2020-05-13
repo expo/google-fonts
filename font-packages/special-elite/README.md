@@ -7,15 +7,13 @@
 
 This package lets you use the [**Special Elite**](https://fonts.google.com/specimen/Special+Elite) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Special Elite
 
 ![Special Elite](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `SpecialElite_Regular400`
+- `SpecialElite_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { SpecialElite_Regular400, useFonts } from '@expo-google-fonts/special-elite';
+import { useFonts, SpecialElite_400Regular } from '@expo-google-fonts/special-elite';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    SpecialElite_Regular400,
+    SpecialElite_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SpecialElite_Regular400' }}>
-          SpecialElite_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SpecialElite_400Regular' }}>
+          SpecialElite_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SpecialElite_Regular400
-![SpecialElite_Regular400](./1a1b32a7d4f38d2ebfa68de6ead2295ba312231237e0088e5d4fc3e1c66a516d.ttf.png)
+##### SpecialElite_400Regular
+![SpecialElite_400Regular](./SpecialElite_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/special-elite)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Marko One**](https://fonts.google.com/specimen/Marko+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Marko One
 
 ![Marko One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `MarkoOne_Regular400`
+- `MarkoOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { MarkoOne_Regular400, useFonts } from '@expo-google-fonts/marko-one';
+import { useFonts, MarkoOne_400Regular } from '@expo-google-fonts/marko-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MarkoOne_Regular400,
+    MarkoOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MarkoOne_Regular400' }}>
-          MarkoOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MarkoOne_400Regular' }}>
+          MarkoOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MarkoOne_Regular400
-![MarkoOne_Regular400](./f84b713ecebd47ffa67dc6fea96096b65f6a1abfb9819f1014a1ed0d1a4c1455.ttf.png)
+##### MarkoOne_400Regular
+![MarkoOne_400Regular](./MarkoOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/marko-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

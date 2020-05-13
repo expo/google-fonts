@@ -7,21 +7,19 @@
 
 This package lets you use the [**Biryani**](https://fonts.google.com/specimen/Biryani) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Biryani
 
 ![Biryani](./font-family.png)
 
 This font family contains [7 styles](#-gallery).
 
-- `Biryani_ExtraLight200`
-- `Biryani_Light300`
-- `Biryani_Regular400`
-- `Biryani_SemiBold600`
-- `Biryani_Bold700`
-- `Biryani_ExtraBold800`
-- `Biryani_Black900`
+- `Biryani_200ExtraLight`
+- `Biryani_300Light`
+- `Biryani_400Regular`
+- `Biryani_600SemiBold`
+- `Biryani_700Bold`
+- `Biryani_800ExtraBold`
+- `Biryani_900Black`
 
 ## Usage
 
@@ -37,25 +35,25 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Biryani_ExtraLight200,
-  Biryani_Light300,
-  Biryani_Regular400,
-  Biryani_SemiBold600,
-  Biryani_Bold700,
-  Biryani_ExtraBold800,
-  Biryani_Black900,
   useFonts,
+  Biryani_200ExtraLight,
+  Biryani_300Light,
+  Biryani_400Regular,
+  Biryani_600SemiBold,
+  Biryani_700Bold,
+  Biryani_800ExtraBold,
+  Biryani_900Black,
 } from '@expo-google-fonts/biryani';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Biryani_ExtraLight200,
-    Biryani_Light300,
-    Biryani_Regular400,
-    Biryani_SemiBold600,
-    Biryani_Bold700,
-    Biryani_ExtraBold800,
-    Biryani_Black900,
+    Biryani_200ExtraLight,
+    Biryani_300Light,
+    Biryani_400Regular,
+    Biryani_600SemiBold,
+    Biryani_700Bold,
+    Biryani_800ExtraBold,
+    Biryani_900Black,
   });
 
   let fontSize = 24;
@@ -66,32 +64,32 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_ExtraLight200' }}>
-          Biryani_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_200ExtraLight' }}>
+          Biryani_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_Light300' }}>
-          Biryani_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_300Light' }}>
+          Biryani_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_Regular400' }}>
-          Biryani_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_400Regular' }}>
+          Biryani_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_SemiBold600' }}>
-          Biryani_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_600SemiBold' }}>
+          Biryani_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_Bold700' }}>
-          Biryani_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_700Bold' }}>
+          Biryani_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_ExtraBold800' }}>
-          Biryani_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_800ExtraBold' }}>
+          Biryani_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_Black900' }}>
-          Biryani_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_900Black' }}>
+          Biryani_900Black
         </Text>
       </View>
     );
@@ -102,26 +100,26 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Biryani_ExtraLight200
-![Biryani_ExtraLight200](./f65303a20787e99a61c757c6e4cbc9ee68af544a375dac932049def734163642.ttf.png)
+##### Biryani_200ExtraLight
+![Biryani_200ExtraLight](./Biryani_200ExtraLight.ttf.png)
 
-##### Biryani_Light300
-![Biryani_Light300](./842f2d86cd486de76ca080714383fb99a105dfb85b3bae4360d00e8ac8db8c9f.ttf.png)
+##### Biryani_300Light
+![Biryani_300Light](./Biryani_300Light.ttf.png)
 
-##### Biryani_Regular400
-![Biryani_Regular400](./16e70205340aba8294e2da2cc8581ec3c5fb3f2af846d51a3de360f447d6f254.ttf.png)
+##### Biryani_400Regular
+![Biryani_400Regular](./Biryani_400Regular.ttf.png)
 
-##### Biryani_SemiBold600
-![Biryani_SemiBold600](./80169a7f1fadd79859c89b0e9a066fd8dbbc460f13a4e5df8389cd853dc67be9.ttf.png)
+##### Biryani_600SemiBold
+![Biryani_600SemiBold](./Biryani_600SemiBold.ttf.png)
 
-##### Biryani_Bold700
-![Biryani_Bold700](./8834894534eb39412acdbc906f20b8d4addd5339d6777eaf647ee1ecbd44538c.ttf.png)
+##### Biryani_700Bold
+![Biryani_700Bold](./Biryani_700Bold.ttf.png)
 
-##### Biryani_ExtraBold800
-![Biryani_ExtraBold800](./ba9bcb5882f72d4ac114689fb32db356c2be660bc64a16c88ac2457bdbefd777.ttf.png)
+##### Biryani_800ExtraBold
+![Biryani_800ExtraBold](./Biryani_800ExtraBold.ttf.png)
 
-##### Biryani_Black900
-![Biryani_Black900](./5bad25e5e05861d1da7ddd858aefac18d200688fc997bf2760059fcc2c2ad30d.ttf.png)
+##### Biryani_900Black
+![Biryani_900Black](./Biryani_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -151,7 +149,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/biryani)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

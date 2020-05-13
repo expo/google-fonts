@@ -7,15 +7,13 @@
 
 This package lets you use the [**VT323**](https://fonts.google.com/specimen/VT323) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## VT323
 
 ![VT323](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `VT323_Regular400`
+- `VT323_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { VT323_Regular400, useFonts } from '@expo-google-fonts/vt323';
+import { useFonts, VT323_400Regular } from '@expo-google-fonts/vt323';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    VT323_Regular400,
+    VT323_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VT323_Regular400' }}>
-          VT323_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'VT323_400Regular' }}>
+          VT323_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### VT323_Regular400
-![VT323_Regular400](./bb4e9d2d01d2cd1a001d4822ed239ffd38df2ee07a6a1f581288f34dbd2f4060.ttf.png)
+##### VT323_400Regular
+![VT323_400Regular](./VT323_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/vt323)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

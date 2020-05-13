@@ -7,16 +7,14 @@
 
 This package lets you use the [**Amatic SC**](https://fonts.google.com/specimen/Amatic+SC) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Amatic SC
 
 ![Amatic SC](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `AmaticSC_Regular400`
-- `AmaticSC_Bold700`
+- `AmaticSC_400Regular`
+- `AmaticSC_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { AmaticSC_Regular400, AmaticSC_Bold700, useFonts } from '@expo-google-fonts/amatic-sc';
+import { useFonts, AmaticSC_400Regular, AmaticSC_700Bold } from '@expo-google-fonts/amatic-sc';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    AmaticSC_Regular400,
-    AmaticSC_Bold700,
+    AmaticSC_400Regular,
+    AmaticSC_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AmaticSC_Regular400' }}>
-          AmaticSC_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AmaticSC_400Regular' }}>
+          AmaticSC_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AmaticSC_Bold700' }}>
-          AmaticSC_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AmaticSC_700Bold' }}>
+          AmaticSC_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AmaticSC_Regular400
-![AmaticSC_Regular400](./9da6405b57357f309f00592371cf54bb3c1d57b8e7d9fc40fff6f364d6ca80fe.ttf.png)
+##### AmaticSC_400Regular
+![AmaticSC_400Regular](./AmaticSC_400Regular.ttf.png)
 
-##### AmaticSC_Bold700
-![AmaticSC_Bold700](./81f4df2ecbc8d2fcae65290f5075ff98149f4f95ea00bb6bf3a0711e4e1afd75.ttf.png)
+##### AmaticSC_700Bold
+![AmaticSC_700Bold](./AmaticSC_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/amatic-sc)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

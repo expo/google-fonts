@@ -4,9 +4,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Comfortaa';
-export const __fontFamilyVersion__ = 10;
-
-export const Comfortaa_Light300 = require('./9c42dde162aca0ef35c66a372266676483320b31bd2d1069fd2ec3879d092000.ttf');
-export const Comfortaa_Regular400 = require('./b1a86afe9202b2f23f62ea6a901f0f299515c34673aea8cf0d8ab2270b4d7013.ttf');
-export const Comfortaa_Bold700 = require('./30b5d292bb0fe9543a8ae812c3a2ce1ca57f9fd6701afafad31156536db5f08d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Comfortaa_300Light = require('./Comfortaa_300Light.ttf');
+export const Comfortaa_400Regular = require('./Comfortaa_400Regular.ttf');
+export const Comfortaa_500Medium = require('./Comfortaa_500Medium.ttf');
+export const Comfortaa_600SemiBold = require('./Comfortaa_600SemiBold.ttf');
+export const Comfortaa_700Bold = require('./Comfortaa_700Bold.ttf');

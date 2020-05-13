@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bungee Shade';
-export const __fontFamilyVersion__ = 2;
-
-export const BungeeShade_Regular400 = require('./bd736a1fd1e9468b036a7df272341d90fa2864fa1a985cfef42c164898cadd99.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BungeeShade_400Regular = require('./BungeeShade_400Regular.ttf');

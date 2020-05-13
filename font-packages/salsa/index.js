@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Salsa';
-export const __fontFamilyVersion__ = 6;
-
-export const Salsa_Regular400 = require('./f7150b0f04dbec851c854504d5f97adf34024d4260449086de5fbdc791ab89ac.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Salsa_400Regular = require('./Salsa_400Regular.ttf');

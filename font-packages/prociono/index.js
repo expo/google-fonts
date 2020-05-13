@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Prociono';
-export const __fontFamilyVersion__ = 6;
-
-export const Prociono_Regular400 = require('./61f885124a2a2bbcb15f757f4ac96bf9509c0c1869f1efaa3c4cc6ce99d01f16.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Prociono_400Regular = require('./Prociono_400Regular.ttf');

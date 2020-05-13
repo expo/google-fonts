@@ -7,21 +7,19 @@
 
 This package lets you use the [**Manrope**](https://fonts.google.com/specimen/Manrope) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Manrope
 
 ![Manrope](./font-family.png)
 
 This font family contains [7 styles](#-gallery).
 
-- `Manrope_ExtraLight200`
-- `Manrope_Light300`
-- `Manrope_Regular400`
-- `Manrope_Medium500`
-- `Manrope_SemiBold600`
-- `Manrope_Bold700`
-- `Manrope_ExtraBold800`
+- `Manrope_200ExtraLight`
+- `Manrope_300Light`
+- `Manrope_400Regular`
+- `Manrope_500Medium`
+- `Manrope_600SemiBold`
+- `Manrope_700Bold`
+- `Manrope_800ExtraBold`
 
 ## Usage
 
@@ -37,25 +35,25 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Manrope_ExtraLight200,
-  Manrope_Light300,
-  Manrope_Regular400,
-  Manrope_Medium500,
-  Manrope_SemiBold600,
-  Manrope_Bold700,
-  Manrope_ExtraBold800,
   useFonts,
+  Manrope_200ExtraLight,
+  Manrope_300Light,
+  Manrope_400Regular,
+  Manrope_500Medium,
+  Manrope_600SemiBold,
+  Manrope_700Bold,
+  Manrope_800ExtraBold,
 } from '@expo-google-fonts/manrope';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Manrope_ExtraLight200,
-    Manrope_Light300,
-    Manrope_Regular400,
-    Manrope_Medium500,
-    Manrope_SemiBold600,
-    Manrope_Bold700,
-    Manrope_ExtraBold800,
+    Manrope_200ExtraLight,
+    Manrope_300Light,
+    Manrope_400Regular,
+    Manrope_500Medium,
+    Manrope_600SemiBold,
+    Manrope_700Bold,
+    Manrope_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -66,32 +64,32 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_ExtraLight200' }}>
-          Manrope_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_200ExtraLight' }}>
+          Manrope_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_Light300' }}>
-          Manrope_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_300Light' }}>
+          Manrope_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_Regular400' }}>
-          Manrope_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_400Regular' }}>
+          Manrope_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_Medium500' }}>
-          Manrope_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_500Medium' }}>
+          Manrope_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_SemiBold600' }}>
-          Manrope_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_600SemiBold' }}>
+          Manrope_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_Bold700' }}>
-          Manrope_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_700Bold' }}>
+          Manrope_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_ExtraBold800' }}>
-          Manrope_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_800ExtraBold' }}>
+          Manrope_800ExtraBold
         </Text>
       </View>
     );
@@ -102,26 +100,26 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Manrope_ExtraLight200
-![Manrope_ExtraLight200](./0e0aac7c30d815ffee8f590cf386f62ccea077282904c5bcc089f83e1e3fa6ba.ttf.png)
+##### Manrope_200ExtraLight
+![Manrope_200ExtraLight](./Manrope_200ExtraLight.ttf.png)
 
-##### Manrope_Light300
-![Manrope_Light300](./b00c95e47bd20d7096fc9bd66552bab89fdaee62611c600e651efcc4c1808b29.ttf.png)
+##### Manrope_300Light
+![Manrope_300Light](./Manrope_300Light.ttf.png)
 
-##### Manrope_Regular400
-![Manrope_Regular400](./1f742b6ef495bb5b9f5b968a27c50281ca1f9822bb53ec99bb3757ff2f3febfd.ttf.png)
+##### Manrope_400Regular
+![Manrope_400Regular](./Manrope_400Regular.ttf.png)
 
-##### Manrope_Medium500
-![Manrope_Medium500](./1b26cd5641c96028ba3251bc1c3017c3b7f0f66db8bffa236e6a9fba9273dbe4.ttf.png)
+##### Manrope_500Medium
+![Manrope_500Medium](./Manrope_500Medium.ttf.png)
 
-##### Manrope_SemiBold600
-![Manrope_SemiBold600](./2926db83b22f15d5dead94c407d4b830fe032adae54af4611e4a3b1d95e5059b.ttf.png)
+##### Manrope_600SemiBold
+![Manrope_600SemiBold](./Manrope_600SemiBold.ttf.png)
 
-##### Manrope_Bold700
-![Manrope_Bold700](./89fbadf5ffbbcf438d182a4931c241c4beb528b1c11c22290afc4b4b8c8f854d.ttf.png)
+##### Manrope_700Bold
+![Manrope_700Bold](./Manrope_700Bold.ttf.png)
 
-##### Manrope_ExtraBold800
-![Manrope_ExtraBold800](./f94757bb3fe3b1f1a20cdb49284c1a311dec4ed72554c5858d186fc93db7afaf.ttf.png)
+##### Manrope_800ExtraBold
+![Manrope_800ExtraBold](./Manrope_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -151,7 +149,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/manrope)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

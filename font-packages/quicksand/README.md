@@ -7,18 +7,17 @@
 
 This package lets you use the [**Quicksand**](https://fonts.google.com/specimen/Quicksand) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Quicksand
 
 ![Quicksand](./font-family.png)
 
-This font family contains [4 styles](#-gallery).
+This font family contains [5 styles](#-gallery).
 
-- `Quicksand_Light300`
-- `Quicksand_Regular400`
-- `Quicksand_Medium500`
-- `Quicksand_Bold700`
+- `Quicksand_300Light`
+- `Quicksand_400Regular`
+- `Quicksand_500Medium`
+- `Quicksand_600SemiBold`
+- `Quicksand_700Bold`
 
 ## Usage
 
@@ -34,19 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Quicksand_Light300,
-  Quicksand_Regular400,
-  Quicksand_Medium500,
-  Quicksand_Bold700,
   useFonts,
+  Quicksand_300Light,
+  Quicksand_400Regular,
+  Quicksand_500Medium,
+  Quicksand_600SemiBold,
+  Quicksand_700Bold,
 } from '@expo-google-fonts/quicksand';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Quicksand_Light300,
-    Quicksand_Regular400,
-    Quicksand_Medium500,
-    Quicksand_Bold700,
+    Quicksand_300Light,
+    Quicksand_400Regular,
+    Quicksand_500Medium,
+    Quicksand_600SemiBold,
+    Quicksand_700Bold,
   });
 
   let fontSize = 24;
@@ -57,20 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quicksand_Light300' }}>
-          Quicksand_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quicksand_300Light' }}>
+          Quicksand_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quicksand_Regular400' }}>
-          Quicksand_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quicksand_400Regular' }}>
+          Quicksand_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quicksand_Medium500' }}>
-          Quicksand_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quicksand_500Medium' }}>
+          Quicksand_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quicksand_Bold700' }}>
-          Quicksand_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quicksand_600SemiBold' }}>
+          Quicksand_600SemiBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quicksand_700Bold' }}>
+          Quicksand_700Bold
         </Text>
       </View>
     );
@@ -81,17 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Quicksand_Light300
-![Quicksand_Light300](./1d9cb44be0f4a238981aae2eb07e9157e00c48fae09163bea0866e136d1c3f1f.ttf.png)
+##### Quicksand_300Light
+![Quicksand_300Light](./Quicksand_300Light.ttf.png)
 
-##### Quicksand_Regular400
-![Quicksand_Regular400](./0f408f35c3679417b5580701f3ac08830ce36535af5a643a2ef5b59e91c3c6b7.ttf.png)
+##### Quicksand_400Regular
+![Quicksand_400Regular](./Quicksand_400Regular.ttf.png)
 
-##### Quicksand_Medium500
-![Quicksand_Medium500](./76d743f0975259e38b62a1b671044d0a6584e7ae0a8389a9dca5d6d7e5e24031.ttf.png)
+##### Quicksand_500Medium
+![Quicksand_500Medium](./Quicksand_500Medium.ttf.png)
 
-##### Quicksand_Bold700
-![Quicksand_Bold700](./6bb475d143c61221c4ea174d3c51728268e58b12dbc14600d59020ef8deaaead.ttf.png)
+##### Quicksand_600SemiBold
+![Quicksand_600SemiBold](./Quicksand_600SemiBold.ttf.png)
+
+##### Quicksand_700Bold
+![Quicksand_700Bold](./Quicksand_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/quicksand)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

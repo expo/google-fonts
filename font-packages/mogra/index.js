@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Mogra';
-export const __fontFamilyVersion__ = 3;
-
-export const Mogra_Regular400 = require('./11a1b64ecdf329dcbc068f036c2c09a2058b63bda66c3a541102b48e959c2a4e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Mogra_400Regular = require('./Mogra_400Regular.ttf');

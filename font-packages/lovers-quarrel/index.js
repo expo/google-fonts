@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Lovers Quarrel';
-export const __fontFamilyVersion__ = 4;
-
-export const LoversQuarrel_Regular400 = require('./2b3afd5d2a24b3641cc9053301da4dd11e595d360d1f052a9527036e96ab00e9.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const LoversQuarrel_400Regular = require('./LoversQuarrel_400Regular.ttf');

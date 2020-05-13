@@ -7,16 +7,14 @@
 
 This package lets you use the [**Miriam Libre**](https://fonts.google.com/specimen/Miriam+Libre) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Miriam Libre
 
 ![Miriam Libre](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `MiriamLibre_Regular400`
-- `MiriamLibre_Bold700`
+- `MiriamLibre_400Regular`
+- `MiriamLibre_700Bold`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  MiriamLibre_Regular400,
-  MiriamLibre_Bold700,
   useFonts,
+  MiriamLibre_400Regular,
+  MiriamLibre_700Bold,
 } from '@expo-google-fonts/miriam-libre';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MiriamLibre_Regular400,
-    MiriamLibre_Bold700,
+    MiriamLibre_400Regular,
+    MiriamLibre_700Bold,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MiriamLibre_Regular400' }}>
-          MiriamLibre_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MiriamLibre_400Regular' }}>
+          MiriamLibre_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MiriamLibre_Bold700' }}>
-          MiriamLibre_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MiriamLibre_700Bold' }}>
+          MiriamLibre_700Bold
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MiriamLibre_Regular400
-![MiriamLibre_Regular400](./c4dc8662662a1708ab4d397f59152bba9bde4ce4c524d9286d49d078a8c58dc6.ttf.png)
+##### MiriamLibre_400Regular
+![MiriamLibre_400Regular](./MiriamLibre_400Regular.ttf.png)
 
-##### MiriamLibre_Bold700
-![MiriamLibre_Bold700](./cbe1ade0a4a8eddd786eb1050d18d81c71465545f3f80392927a36af9035c775.ttf.png)
+##### MiriamLibre_700Bold
+![MiriamLibre_700Bold](./MiriamLibre_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/miriam-libre)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

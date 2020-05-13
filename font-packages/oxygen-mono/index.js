@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Oxygen Mono';
-export const __fontFamilyVersion__ = 4;
-
-export const OxygenMono_Regular400 = require('./4a8f20c04bb875a24603d2f13aa59fa112316075b0d8531e06a1212759450a20.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const OxygenMono_400Regular = require('./OxygenMono_400Regular.ttf');

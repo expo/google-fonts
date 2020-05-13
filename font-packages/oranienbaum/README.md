@@ -7,15 +7,13 @@
 
 This package lets you use the [**Oranienbaum**](https://fonts.google.com/specimen/Oranienbaum) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Oranienbaum
 
 ![Oranienbaum](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Oranienbaum_Regular400`
+- `Oranienbaum_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Oranienbaum_Regular400, useFonts } from '@expo-google-fonts/oranienbaum';
+import { useFonts, Oranienbaum_400Regular } from '@expo-google-fonts/oranienbaum';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Oranienbaum_Regular400,
+    Oranienbaum_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oranienbaum_Regular400' }}>
-          Oranienbaum_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oranienbaum_400Regular' }}>
+          Oranienbaum_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Oranienbaum_Regular400
-![Oranienbaum_Regular400](./ce3ec0eb54fc0cdef2aae64151cb3dc95720f5347739c1c1d19e6d2bb3629d6e.ttf.png)
+##### Oranienbaum_400Regular
+![Oranienbaum_400Regular](./Oranienbaum_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/oranienbaum)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

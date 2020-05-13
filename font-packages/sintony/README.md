@@ -7,16 +7,14 @@
 
 This package lets you use the [**Sintony**](https://fonts.google.com/specimen/Sintony) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sintony
 
 ![Sintony](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Sintony_Regular400`
-- `Sintony_Bold700`
+- `Sintony_400Regular`
+- `Sintony_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Sintony_Regular400, Sintony_Bold700, useFonts } from '@expo-google-fonts/sintony';
+import { useFonts, Sintony_400Regular, Sintony_700Bold } from '@expo-google-fonts/sintony';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Sintony_Regular400,
-    Sintony_Bold700,
+    Sintony_400Regular,
+    Sintony_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sintony_Regular400' }}>
-          Sintony_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sintony_400Regular' }}>
+          Sintony_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sintony_Bold700' }}>
-          Sintony_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sintony_700Bold' }}>
+          Sintony_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sintony_Regular400
-![Sintony_Regular400](./69767c8fec4cb9cf66b8022ffc9f15e99f1b4f6a15c1412ba8974fd55969ffa1.ttf.png)
+##### Sintony_400Regular
+![Sintony_400Regular](./Sintony_400Regular.ttf.png)
 
-##### Sintony_Bold700
-![Sintony_Bold700](./9c0d2538023d9d221278dc34698930aa90cd23ba0e8b8516986c6c7d88e03a3b.ttf.png)
+##### Sintony_700Bold
+![Sintony_700Bold](./Sintony_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sintony)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Trykker**](https://fonts.google.com/specimen/Trykker) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Trykker
 
 ![Trykker](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Trykker_Regular400`
+- `Trykker_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Trykker_Regular400, useFonts } from '@expo-google-fonts/trykker';
+import { useFonts, Trykker_400Regular } from '@expo-google-fonts/trykker';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Trykker_Regular400,
+    Trykker_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Trykker_Regular400' }}>
-          Trykker_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Trykker_400Regular' }}>
+          Trykker_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Trykker_Regular400
-![Trykker_Regular400](./a90a15371d777f248a91bd42582cdab700d67f8d3ca9b191fa8f32923f781e02.ttf.png)
+##### Trykker_400Regular
+![Trykker_400Regular](./Trykker_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/trykker)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,16 +7,14 @@
 
 This package lets you use the [**Scheherazade**](https://fonts.google.com/specimen/Scheherazade) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Scheherazade
 
 ![Scheherazade](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Scheherazade_Regular400`
-- `Scheherazade_Bold700`
+- `Scheherazade_400Regular`
+- `Scheherazade_700Bold`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Scheherazade_Regular400,
-  Scheherazade_Bold700,
   useFonts,
+  Scheherazade_400Regular,
+  Scheherazade_700Bold,
 } from '@expo-google-fonts/scheherazade';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Scheherazade_Regular400,
-    Scheherazade_Bold700,
+    Scheherazade_400Regular,
+    Scheherazade_700Bold,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scheherazade_Regular400' }}>
-          Scheherazade_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scheherazade_400Regular' }}>
+          Scheherazade_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scheherazade_Bold700' }}>
-          Scheherazade_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scheherazade_700Bold' }}>
+          Scheherazade_700Bold
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Scheherazade_Regular400
-![Scheherazade_Regular400](./19195e141f9f7a6781f93d0ee49ef46a8784c28c28047b0b821b639546c9d562.ttf.png)
+##### Scheherazade_400Regular
+![Scheherazade_400Regular](./Scheherazade_400Regular.ttf.png)
 
-##### Scheherazade_Bold700
-![Scheherazade_Bold700](./4a5d40a2e35f3920327fbc1d576a3a1f7aadda38089f736dad6eda793e74a225.ttf.png)
+##### Scheherazade_700Bold
+![Scheherazade_700Bold](./Scheherazade_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/scheherazade)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

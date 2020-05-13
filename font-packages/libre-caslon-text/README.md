@@ -7,17 +7,15 @@
 
 This package lets you use the [**Libre Caslon Text**](https://fonts.google.com/specimen/Libre+Caslon+Text) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Libre Caslon Text
 
 ![Libre Caslon Text](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `LibreCaslonText_Regular400`
-- `LibreCaslonText_Regular400_Italic`
-- `LibreCaslonText_Bold700`
+- `LibreCaslonText_400Regular`
+- `LibreCaslonText_400Regular_Italic`
+- `LibreCaslonText_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  LibreCaslonText_Regular400,
-  LibreCaslonText_Regular400_Italic,
-  LibreCaslonText_Bold700,
   useFonts,
+  LibreCaslonText_400Regular,
+  LibreCaslonText_400Regular_Italic,
+  LibreCaslonText_700Bold,
 } from '@expo-google-fonts/libre-caslon-text';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LibreCaslonText_Regular400,
-    LibreCaslonText_Regular400_Italic,
-    LibreCaslonText_Bold700,
+    LibreCaslonText_400Regular,
+    LibreCaslonText_400Regular_Italic,
+    LibreCaslonText_700Bold,
   });
 
   let fontSize = 24;
@@ -54,17 +52,17 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreCaslonText_Regular400' }}>
-          LibreCaslonText_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreCaslonText_400Regular' }}>
+          LibreCaslonText_400Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'LibreCaslonText_Regular400_Italic' }}>
-          LibreCaslonText_Regular400_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'LibreCaslonText_400Regular_Italic' }}>
+          LibreCaslonText_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreCaslonText_Bold700' }}>
-          LibreCaslonText_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreCaslonText_700Bold' }}>
+          LibreCaslonText_700Bold
         </Text>
       </View>
     );
@@ -75,14 +73,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LibreCaslonText_Regular400
-![LibreCaslonText_Regular400](./bf61a45047b0948452918933bf02a0c550f66b703720c33a588f9d912c930525.ttf.png)
+##### LibreCaslonText_400Regular
+![LibreCaslonText_400Regular](./LibreCaslonText_400Regular.ttf.png)
 
-##### LibreCaslonText_Regular400_Italic
-![LibreCaslonText_Regular400_Italic](./9127e87ed024695b4753bfa734aa694e4e7ca57ec318f8e69856ba19b8bbd8d6.ttf.png)
+##### LibreCaslonText_400Regular_Italic
+![LibreCaslonText_400Regular_Italic](./LibreCaslonText_400Regular_Italic.ttf.png)
 
-##### LibreCaslonText_Bold700
-![LibreCaslonText_Bold700](./5b9e7454ac79e153edca85178361ae1f5f7e9de7ade1e87c1bc514bdbd0baa5a.ttf.png)
+##### LibreCaslonText_700Bold
+![LibreCaslonText_700Bold](./LibreCaslonText_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -112,7 +110,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/libre-caslon-text)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

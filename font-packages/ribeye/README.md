@@ -7,15 +7,13 @@
 
 This package lets you use the [**Ribeye**](https://fonts.google.com/specimen/Ribeye) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Ribeye
 
 ![Ribeye](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Ribeye_Regular400`
+- `Ribeye_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Ribeye_Regular400, useFonts } from '@expo-google-fonts/ribeye';
+import { useFonts, Ribeye_400Regular } from '@expo-google-fonts/ribeye';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Ribeye_Regular400,
+    Ribeye_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ribeye_Regular400' }}>
-          Ribeye_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ribeye_400Regular' }}>
+          Ribeye_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Ribeye_Regular400
-![Ribeye_Regular400](./9fe858f86a4e9a56b2a520c8f615ee7dd682f4a2fed5b8033405258755e1105e.ttf.png)
+##### Ribeye_400Regular
+![Ribeye_400Regular](./Ribeye_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/ribeye)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

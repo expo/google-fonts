@@ -7,20 +7,18 @@
 
 This package lets you use the [**Athiti**](https://fonts.google.com/specimen/Athiti) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Athiti
 
 ![Athiti](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `Athiti_ExtraLight200`
-- `Athiti_Light300`
-- `Athiti_Regular400`
-- `Athiti_Medium500`
-- `Athiti_SemiBold600`
-- `Athiti_Bold700`
+- `Athiti_200ExtraLight`
+- `Athiti_300Light`
+- `Athiti_400Regular`
+- `Athiti_500Medium`
+- `Athiti_600SemiBold`
+- `Athiti_700Bold`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Athiti_ExtraLight200,
-  Athiti_Light300,
-  Athiti_Regular400,
-  Athiti_Medium500,
-  Athiti_SemiBold600,
-  Athiti_Bold700,
   useFonts,
+  Athiti_200ExtraLight,
+  Athiti_300Light,
+  Athiti_400Regular,
+  Athiti_500Medium,
+  Athiti_600SemiBold,
+  Athiti_700Bold,
 } from '@expo-google-fonts/athiti';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Athiti_ExtraLight200,
-    Athiti_Light300,
-    Athiti_Regular400,
-    Athiti_Medium500,
-    Athiti_SemiBold600,
-    Athiti_Bold700,
+    Athiti_200ExtraLight,
+    Athiti_300Light,
+    Athiti_400Regular,
+    Athiti_500Medium,
+    Athiti_600SemiBold,
+    Athiti_700Bold,
   });
 
   let fontSize = 24;
@@ -63,28 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_ExtraLight200' }}>
-          Athiti_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_200ExtraLight' }}>
+          Athiti_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_Light300' }}>
-          Athiti_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_300Light' }}>
+          Athiti_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_Regular400' }}>
-          Athiti_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_400Regular' }}>
+          Athiti_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_Medium500' }}>
-          Athiti_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_500Medium' }}>
+          Athiti_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_SemiBold600' }}>
-          Athiti_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_600SemiBold' }}>
+          Athiti_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_Bold700' }}>
-          Athiti_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_700Bold' }}>
+          Athiti_700Bold
         </Text>
       </View>
     );
@@ -95,23 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Athiti_ExtraLight200
-![Athiti_ExtraLight200](./4abe61baf7f8762b4dcb6b88b0610de73f42b112a793e28b92da163ee7e441d7.ttf.png)
+##### Athiti_200ExtraLight
+![Athiti_200ExtraLight](./Athiti_200ExtraLight.ttf.png)
 
-##### Athiti_Light300
-![Athiti_Light300](./f9c6df08ed329fa184304cf4bc64319e7812c62c2ae136dc89cb10a5d5c35018.ttf.png)
+##### Athiti_300Light
+![Athiti_300Light](./Athiti_300Light.ttf.png)
 
-##### Athiti_Regular400
-![Athiti_Regular400](./4559ae55fe1020c88dc144ae60afba5e282fcd3aa1c5107292df173d42135806.ttf.png)
+##### Athiti_400Regular
+![Athiti_400Regular](./Athiti_400Regular.ttf.png)
 
-##### Athiti_Medium500
-![Athiti_Medium500](./6e1f0a1706330d270d93ea13e88b35d9c6f4bf71d927e9468278c03b57986330.ttf.png)
+##### Athiti_500Medium
+![Athiti_500Medium](./Athiti_500Medium.ttf.png)
 
-##### Athiti_SemiBold600
-![Athiti_SemiBold600](./398a37b4c34df12c6ede4a85f215d56eaa5a8b515ea5e0bdad2ef676c2ae858a.ttf.png)
+##### Athiti_600SemiBold
+![Athiti_600SemiBold](./Athiti_600SemiBold.ttf.png)
 
-##### Athiti_Bold700
-![Athiti_Bold700](./63b6ab040d22bd64ce5d5400f352fac3ecefa83827b1862b8a216d5c729ea286.ttf.png)
+##### Athiti_700Bold
+![Athiti_700Bold](./Athiti_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -141,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/athiti)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

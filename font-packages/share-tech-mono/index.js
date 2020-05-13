@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Share Tech Mono';
-export const __fontFamilyVersion__ = 6;
-
-export const ShareTechMono_Regular400 = require('./9d8191f3a7dbbc940a83fb98e35db9faed0904879a2d5fd1d1c4443b1c3e9057.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ShareTechMono_400Regular = require('./ShareTechMono_400Regular.ttf');

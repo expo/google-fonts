@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Suravaram';
-export const __fontFamilyVersion__ = 3;
-
-export const Suravaram_Regular400 = require('./f9de796b7b600961688891106b7bc5efe1090a6ab181d91cc08b19a88e999360.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Suravaram_400Regular = require('./Suravaram_400Regular.ttf');

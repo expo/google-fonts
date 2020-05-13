@@ -7,15 +7,13 @@
 
 This package lets you use the [**Waiting for the Sunrise**](https://fonts.google.com/specimen/Waiting+for+the+Sunrise) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Waiting for the Sunrise
 
 ![Waiting for the Sunrise](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `WaitingfortheSunrise_Regular400`
+- `WaitingfortheSunrise_400Regular`
 
 ## Usage
 
@@ -31,13 +29,13 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  WaitingfortheSunrise_Regular400,
   useFonts,
+  WaitingfortheSunrise_400Regular,
 } from '@expo-google-fonts/waiting-for-the-sunrise';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    WaitingfortheSunrise_Regular400,
+    WaitingfortheSunrise_400Regular,
   });
 
   let fontSize = 24;
@@ -48,8 +46,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WaitingfortheSunrise_Regular400' }}>
-          WaitingfortheSunrise_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'WaitingfortheSunrise_400Regular' }}>
+          WaitingfortheSunrise_400Regular
         </Text>
       </View>
     );
@@ -60,8 +58,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### WaitingfortheSunrise_Regular400
-![WaitingfortheSunrise_Regular400](./5d952514968d1ce922a541f2099d884967f1970682676c3f1cca1b4668f07ff1.ttf.png)
+##### WaitingfortheSunrise_400Regular
+![WaitingfortheSunrise_400Regular](./WaitingfortheSunrise_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -91,7 +89,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/waiting-for-the-sunrise)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

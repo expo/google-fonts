@@ -4,9 +4,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Kreon';
-export const __fontFamilyVersion__ = 10;
-
-export const Kreon_Light300 = require('./988fb49f563aec3452b26437e4cef99cd52bf368c5fb6c30e7b9e1419e4a3723.ttf');
-export const Kreon_Regular400 = require('./95de76c3d8f95714fbfda4a89b6cf0b74a4285d9d0f81908cbd91c7146109d83.ttf');
-export const Kreon_Bold700 = require('./9d9092c90a6173026afefda0a94456688b33166363b733d8d42200e68837b012.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Kreon_300Light = require('./Kreon_300Light.ttf');
+export const Kreon_400Regular = require('./Kreon_400Regular.ttf');
+export const Kreon_500Medium = require('./Kreon_500Medium.ttf');
+export const Kreon_600SemiBold = require('./Kreon_600SemiBold.ttf');
+export const Kreon_700Bold = require('./Kreon_700Bold.ttf');

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'MedievalSharp';
-export const __fontFamilyVersion__ = 8;
-
-export const MedievalSharp_Regular400 = require('./93afbe692f662b93c6faf17b061d07ad7b343db38496d49e05bc31fcfaf585ae.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MedievalSharp_400Regular = require('./MedievalSharp_400Regular.ttf');

@@ -7,22 +7,20 @@
 
 This package lets you use the [**Literata**](https://fonts.google.com/specimen/Literata) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Literata
 
 ![Literata](./font-family.png)
 
 This font family contains [8 styles](#-gallery).
 
-- `Literata_Regular400`
-- `Literata_Medium500`
-- `Literata_SemiBold600`
-- `Literata_Bold700`
-- `Literata_Regular400_Italic`
-- `Literata_Medium500_Italic`
-- `Literata_SemiBold600_Italic`
-- `Literata_Bold700_Italic`
+- `Literata_400Regular`
+- `Literata_500Medium`
+- `Literata_600SemiBold`
+- `Literata_700Bold`
+- `Literata_400Regular_Italic`
+- `Literata_500Medium_Italic`
+- `Literata_600SemiBold_Italic`
+- `Literata_700Bold_Italic`
 
 ## Usage
 
@@ -38,27 +36,27 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Literata_Regular400,
-  Literata_Medium500,
-  Literata_SemiBold600,
-  Literata_Bold700,
-  Literata_Regular400_Italic,
-  Literata_Medium500_Italic,
-  Literata_SemiBold600_Italic,
-  Literata_Bold700_Italic,
   useFonts,
+  Literata_400Regular,
+  Literata_500Medium,
+  Literata_600SemiBold,
+  Literata_700Bold,
+  Literata_400Regular_Italic,
+  Literata_500Medium_Italic,
+  Literata_600SemiBold_Italic,
+  Literata_700Bold_Italic,
 } from '@expo-google-fonts/literata';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Literata_Regular400,
-    Literata_Medium500,
-    Literata_SemiBold600,
-    Literata_Bold700,
-    Literata_Regular400_Italic,
-    Literata_Medium500_Italic,
-    Literata_SemiBold600_Italic,
-    Literata_Bold700_Italic,
+    Literata_400Regular,
+    Literata_500Medium,
+    Literata_600SemiBold,
+    Literata_700Bold,
+    Literata_400Regular_Italic,
+    Literata_500Medium_Italic,
+    Literata_600SemiBold_Italic,
+    Literata_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -69,36 +67,36 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_Regular400' }}>
-          Literata_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_400Regular' }}>
+          Literata_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_Medium500' }}>
-          Literata_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_500Medium' }}>
+          Literata_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_SemiBold600' }}>
-          Literata_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_600SemiBold' }}>
+          Literata_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_Bold700' }}>
-          Literata_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_700Bold' }}>
+          Literata_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_Regular400_Italic' }}>
-          Literata_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_400Regular_Italic' }}>
+          Literata_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_Medium500_Italic' }}>
-          Literata_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_500Medium_Italic' }}>
+          Literata_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_SemiBold600_Italic' }}>
-          Literata_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_600SemiBold_Italic' }}>
+          Literata_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_Bold700_Italic' }}>
-          Literata_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_700Bold_Italic' }}>
+          Literata_700Bold_Italic
         </Text>
       </View>
     );
@@ -109,29 +107,29 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Literata_Regular400
-![Literata_Regular400](./f994a4c14415cfac63df0a88d12df379634376d190047a3aac8c1ccac859181b.ttf.png)
+##### Literata_400Regular
+![Literata_400Regular](./Literata_400Regular.ttf.png)
 
-##### Literata_Medium500
-![Literata_Medium500](./1011ff34c164167eb8c8e3cca7b775188431d8992affa5794a30375c51b6d938.ttf.png)
+##### Literata_500Medium
+![Literata_500Medium](./Literata_500Medium.ttf.png)
 
-##### Literata_SemiBold600
-![Literata_SemiBold600](./497b001be8a26d6015abe84fe17796af4a7dc95f03ad846ec89f4a5555f9f588.ttf.png)
+##### Literata_600SemiBold
+![Literata_600SemiBold](./Literata_600SemiBold.ttf.png)
 
-##### Literata_Bold700
-![Literata_Bold700](./438f5478b62d5696ec3eb207a5421131200429183907d6e3b4beb353b7169c6c.ttf.png)
+##### Literata_700Bold
+![Literata_700Bold](./Literata_700Bold.ttf.png)
 
-##### Literata_Regular400_Italic
-![Literata_Regular400_Italic](./fbac7c28db9313dc90a0f798d878fbe937ab215b86a35aef428cbba8f8fa8594.ttf.png)
+##### Literata_400Regular_Italic
+![Literata_400Regular_Italic](./Literata_400Regular_Italic.ttf.png)
 
-##### Literata_Medium500_Italic
-![Literata_Medium500_Italic](./4842145089ec9a11f9e11c7ebcfba39e857c3b88315313402619eb2a34bda353.ttf.png)
+##### Literata_500Medium_Italic
+![Literata_500Medium_Italic](./Literata_500Medium_Italic.ttf.png)
 
-##### Literata_SemiBold600_Italic
-![Literata_SemiBold600_Italic](./49a0d45ea7e35b031a48ab51d25b49734acf802145bcb84f0870c6629241d148.ttf.png)
+##### Literata_600SemiBold_Italic
+![Literata_600SemiBold_Italic](./Literata_600SemiBold_Italic.ttf.png)
 
-##### Literata_Bold700_Italic
-![Literata_Bold700_Italic](./b5feaa5aa4ea544737c3a07671e847a9c6664d791d284ccd3866fe24d45f2927.ttf.png)
+##### Literata_700Bold_Italic
+![Literata_700Bold_Italic](./Literata_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -161,7 +159,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/literata)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,11 +4,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Solway';
-export const __fontFamilyVersion__ = 2;
-
-export const Solway_Light300 = require('./30f12e709261a80d1a2f35d02c568e8080aa52e556cea38ec163ee09a6482606.ttf');
-export const Solway_Regular400 = require('./bc55ce65a041c9b5001bb030477677f6a44eeb3946a418259202a162382044d2.ttf');
-export const Solway_Medium500 = require('./c03b2ecebe399988e043ffcd0707d72b1327076b7c0f255c24c88e453a8163eb.ttf');
-export const Solway_Bold700 = require('./d3b46e3ef557420e377ce5924289b7f1987a6a99f5625aa5e6ef6f74002198fd.ttf');
-export const Solway_ExtraBold800 = require('./6be411cbc685fc6716528e253c309c7af939f60f2bf83919a384384ee527a079.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Solway_300Light = require('./Solway_300Light.ttf');
+export const Solway_400Regular = require('./Solway_400Regular.ttf');
+export const Solway_500Medium = require('./Solway_500Medium.ttf');
+export const Solway_700Bold = require('./Solway_700Bold.ttf');
+export const Solway_800ExtraBold = require('./Solway_800ExtraBold.ttf');

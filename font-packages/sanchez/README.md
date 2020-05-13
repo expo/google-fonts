@@ -7,16 +7,14 @@
 
 This package lets you use the [**Sanchez**](https://fonts.google.com/specimen/Sanchez) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sanchez
 
 ![Sanchez](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Sanchez_Regular400`
-- `Sanchez_Regular400_Italic`
+- `Sanchez_400Regular`
+- `Sanchez_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Sanchez_Regular400,
-  Sanchez_Regular400_Italic,
   useFonts,
+  Sanchez_400Regular,
+  Sanchez_400Regular_Italic,
 } from '@expo-google-fonts/sanchez';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Sanchez_Regular400,
-    Sanchez_Regular400_Italic,
+    Sanchez_400Regular,
+    Sanchez_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sanchez_Regular400' }}>
-          Sanchez_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sanchez_400Regular' }}>
+          Sanchez_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sanchez_Regular400_Italic' }}>
-          Sanchez_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sanchez_400Regular_Italic' }}>
+          Sanchez_400Regular_Italic
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sanchez_Regular400
-![Sanchez_Regular400](./d4353709b92c21bf0606f2e6c956fddf56ee0fdea20110524ed03052efcc2bbe.ttf.png)
+##### Sanchez_400Regular
+![Sanchez_400Regular](./Sanchez_400Regular.ttf.png)
 
-##### Sanchez_Regular400_Italic
-![Sanchez_Regular400_Italic](./62da09506355ddb13a8f3a0b9829d9420e5a0dc10a04fe9d6bd314501b513c93.ttf.png)
+##### Sanchez_400Regular_Italic
+![Sanchez_400Regular_Italic](./Sanchez_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sanchez)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

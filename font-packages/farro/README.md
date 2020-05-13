@@ -7,18 +7,16 @@
 
 This package lets you use the [**Farro**](https://fonts.google.com/specimen/Farro) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Farro
 
 ![Farro](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Farro_Light300`
-- `Farro_Regular400`
-- `Farro_Medium500`
-- `Farro_Bold700`
+- `Farro_300Light`
+- `Farro_400Regular`
+- `Farro_500Medium`
+- `Farro_700Bold`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Farro_Light300,
-  Farro_Regular400,
-  Farro_Medium500,
-  Farro_Bold700,
   useFonts,
+  Farro_300Light,
+  Farro_400Regular,
+  Farro_500Medium,
+  Farro_700Bold,
 } from '@expo-google-fonts/farro';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Farro_Light300,
-    Farro_Regular400,
-    Farro_Medium500,
-    Farro_Bold700,
+    Farro_300Light,
+    Farro_400Regular,
+    Farro_500Medium,
+    Farro_700Bold,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Farro_Light300' }}>
-          Farro_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Farro_300Light' }}>
+          Farro_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Farro_Regular400' }}>
-          Farro_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Farro_400Regular' }}>
+          Farro_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Farro_Medium500' }}>
-          Farro_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Farro_500Medium' }}>
+          Farro_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Farro_Bold700' }}>
-          Farro_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Farro_700Bold' }}>
+          Farro_700Bold
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Farro_Light300
-![Farro_Light300](./ca8a2c854888fbeb59e572d229d903a5793ba08741fb5effc6484dad0baca84b.ttf.png)
+##### Farro_300Light
+![Farro_300Light](./Farro_300Light.ttf.png)
 
-##### Farro_Regular400
-![Farro_Regular400](./04c2276c71a6e273507190f49761498509d6b0b4dda77befd400b8b093ca1ad8.ttf.png)
+##### Farro_400Regular
+![Farro_400Regular](./Farro_400Regular.ttf.png)
 
-##### Farro_Medium500
-![Farro_Medium500](./43a287bb29da4b09c5492c818eeb5cab21180fcead8c66a9340ba185728d5ab5.ttf.png)
+##### Farro_500Medium
+![Farro_500Medium](./Farro_500Medium.ttf.png)
 
-##### Farro_Bold700
-![Farro_Bold700](./f000197888095e4fccd58e6e7af75f410a611fe4292e359d52d9110505fb0373.ttf.png)
+##### Farro_700Bold
+![Farro_700Bold](./Farro_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/farro)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

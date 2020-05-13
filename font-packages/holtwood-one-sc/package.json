@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/holtwood-one-sc",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Use the Holtwood One SC font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",

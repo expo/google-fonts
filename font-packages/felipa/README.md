@@ -7,15 +7,13 @@
 
 This package lets you use the [**Felipa**](https://fonts.google.com/specimen/Felipa) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Felipa
 
 ![Felipa](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Felipa_Regular400`
+- `Felipa_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Felipa_Regular400, useFonts } from '@expo-google-fonts/felipa';
+import { useFonts, Felipa_400Regular } from '@expo-google-fonts/felipa';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Felipa_Regular400,
+    Felipa_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Felipa_Regular400' }}>
-          Felipa_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Felipa_400Regular' }}>
+          Felipa_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Felipa_Regular400
-![Felipa_Regular400](./1636ce9582e69c11f567c7e8cbea02601d37fb40da1e6affdd5b71a01c7cd36b.ttf.png)
+##### Felipa_400Regular
+![Felipa_400Regular](./Felipa_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/felipa)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

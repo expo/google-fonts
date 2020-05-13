@@ -7,15 +7,13 @@
 
 This package lets you use the [**Monoton**](https://fonts.google.com/specimen/Monoton) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Monoton
 
 ![Monoton](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Monoton_Regular400`
+- `Monoton_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Monoton_Regular400, useFonts } from '@expo-google-fonts/monoton';
+import { useFonts, Monoton_400Regular } from '@expo-google-fonts/monoton';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Monoton_Regular400,
+    Monoton_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Monoton_Regular400' }}>
-          Monoton_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Monoton_400Regular' }}>
+          Monoton_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Monoton_Regular400
-![Monoton_Regular400](./432f7ab89e5991e379800eb285fad653a999a44aca1f9204e62060bbf932b2bf.ttf.png)
+##### Monoton_400Regular
+![Monoton_400Regular](./Monoton_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/monoton)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

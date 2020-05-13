@@ -7,19 +7,17 @@
 
 This package lets you use the [**Atma**](https://fonts.google.com/specimen/Atma) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Atma
 
 ![Atma](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `Atma_Light300`
-- `Atma_Regular400`
-- `Atma_Medium500`
-- `Atma_SemiBold600`
-- `Atma_Bold700`
+- `Atma_300Light`
+- `Atma_400Regular`
+- `Atma_500Medium`
+- `Atma_600SemiBold`
+- `Atma_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Atma_Light300,
-  Atma_Regular400,
-  Atma_Medium500,
-  Atma_SemiBold600,
-  Atma_Bold700,
   useFonts,
+  Atma_300Light,
+  Atma_400Regular,
+  Atma_500Medium,
+  Atma_600SemiBold,
+  Atma_700Bold,
 } from '@expo-google-fonts/atma';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Atma_Light300,
-    Atma_Regular400,
-    Atma_Medium500,
-    Atma_SemiBold600,
-    Atma_Bold700,
+    Atma_300Light,
+    Atma_400Regular,
+    Atma_500Medium,
+    Atma_600SemiBold,
+    Atma_700Bold,
   });
 
   let fontSize = 24;
@@ -60,23 +58,23 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Atma_Light300' }}>
-          Atma_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Atma_300Light' }}>
+          Atma_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Atma_Regular400' }}>
-          Atma_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Atma_400Regular' }}>
+          Atma_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Atma_Medium500' }}>
-          Atma_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Atma_500Medium' }}>
+          Atma_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Atma_SemiBold600' }}>
-          Atma_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Atma_600SemiBold' }}>
+          Atma_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Atma_Bold700' }}>Atma_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Atma_700Bold' }}>Atma_700Bold</Text>
       </View>
     );
   }
@@ -86,20 +84,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Atma_Light300
-![Atma_Light300](./d691cbd1df6f6a53328f8d9d9514102c915be55e93a8c1f0cb0826a27a60e4f2.ttf.png)
+##### Atma_300Light
+![Atma_300Light](./Atma_300Light.ttf.png)
 
-##### Atma_Regular400
-![Atma_Regular400](./702ceed58c58203ab0c8ad4bbbbda56c77b89a29496d748322180acbed120201.ttf.png)
+##### Atma_400Regular
+![Atma_400Regular](./Atma_400Regular.ttf.png)
 
-##### Atma_Medium500
-![Atma_Medium500](./cc558572cee6afca8a8d34b8cb8a2397d749e0c22f9d9977f39eb0e84d636967.ttf.png)
+##### Atma_500Medium
+![Atma_500Medium](./Atma_500Medium.ttf.png)
 
-##### Atma_SemiBold600
-![Atma_SemiBold600](./b569b84d6ee492ead3f4c73af6244137b0e4c604c9e98cc57627162221d498bb.ttf.png)
+##### Atma_600SemiBold
+![Atma_600SemiBold](./Atma_600SemiBold.ttf.png)
 
-##### Atma_Bold700
-![Atma_Bold700](./127f716e96fc47aee7624acf9cebd859693a19f2fc1f7d832f33835e5bd3b834.ttf.png)
+##### Atma_700Bold
+![Atma_700Bold](./Atma_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -129,7 +127,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/atma)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

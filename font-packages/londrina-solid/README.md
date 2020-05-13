@@ -7,15 +7,16 @@
 
 This package lets you use the [**Londrina Solid**](https://fonts.google.com/specimen/Londrina+Solid) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Londrina Solid
 
 ![Londrina Solid](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [4 styles](#-gallery).
 
-- `LondrinaSolid_Regular400`
+- `LondrinaSolid_100Thin`
+- `LondrinaSolid_300Light`
+- `LondrinaSolid_400Regular`
+- `LondrinaSolid_900Black`
 
 ## Usage
 
@@ -30,11 +31,20 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { LondrinaSolid_Regular400, useFonts } from '@expo-google-fonts/londrina-solid';
+import {
+  useFonts,
+  LondrinaSolid_100Thin,
+  LondrinaSolid_300Light,
+  LondrinaSolid_400Regular,
+  LondrinaSolid_900Black,
+} from '@expo-google-fonts/londrina-solid';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LondrinaSolid_Regular400,
+    LondrinaSolid_100Thin,
+    LondrinaSolid_300Light,
+    LondrinaSolid_400Regular,
+    LondrinaSolid_900Black,
   });
 
   let fontSize = 24;
@@ -45,8 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LondrinaSolid_Regular400' }}>
-          LondrinaSolid_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LondrinaSolid_100Thin' }}>
+          LondrinaSolid_100Thin
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LondrinaSolid_300Light' }}>
+          LondrinaSolid_300Light
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LondrinaSolid_400Regular' }}>
+          LondrinaSolid_400Regular
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LondrinaSolid_900Black' }}>
+          LondrinaSolid_900Black
         </Text>
       </View>
     );
@@ -57,8 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LondrinaSolid_Regular400
-![LondrinaSolid_Regular400](./85115a63ada513540474540a077cb696b1e089220014e3496bbb17c6d81ae8af.ttf.png)
+##### LondrinaSolid_100Thin
+![LondrinaSolid_100Thin](./LondrinaSolid_100Thin.ttf.png)
+
+##### LondrinaSolid_300Light
+![LondrinaSolid_300Light](./LondrinaSolid_300Light.ttf.png)
+
+##### LondrinaSolid_400Regular
+![LondrinaSolid_400Regular](./LondrinaSolid_400Regular.ttf.png)
+
+##### LondrinaSolid_900Black
+![LondrinaSolid_900Black](./LondrinaSolid_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/londrina-solid)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

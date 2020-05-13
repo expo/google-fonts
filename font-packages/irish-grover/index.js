@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Irish Grover';
-export const __fontFamilyVersion__ = 6;
-
-export const IrishGrover_Regular400 = require('./871e6c825a4e60667eb8131be9f23ace65f65e3f15a9c08c3a798797c9e361b2.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const IrishGrover_400Regular = require('./IrishGrover_400Regular.ttf');

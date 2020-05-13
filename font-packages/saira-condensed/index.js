@@ -4,15 +4,13 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Saira Condensed';
-export const __fontFamilyVersion__ = 2;
-
-export const SairaCondensed_Thin100 = require('./8220c0c8f2f9288ded38da89babb11b6da4163ebaf504f877d22fb4ee43a5418.ttf');
-export const SairaCondensed_ExtraLight200 = require('./589e794e8c485b04766db461cee8244dec0abc305e90f5cffd6dc37917ace3e4.ttf');
-export const SairaCondensed_Light300 = require('./6aeb3495feb7c7ed8e87afce584590944e61b1a581d26f494de054b8a430dca7.ttf');
-export const SairaCondensed_Regular400 = require('./b0c1ee3c73539fe0da52806bb378267b315d3ebd7ffd40f7c435dd3dfef91baa.ttf');
-export const SairaCondensed_Medium500 = require('./c78b83e91201287296ae34c6159727fed972526b1dd8aefae5b922dd4196e687.ttf');
-export const SairaCondensed_SemiBold600 = require('./f1b084d4812e81b0cdfa9eed1b7256d043f5d4d8a00a81ab67440f9354549fc9.ttf');
-export const SairaCondensed_Bold700 = require('./9ca3926b06ade51157b1ce932574cac89a6f16dfbdd601a345701da25b7aa8dc.ttf');
-export const SairaCondensed_ExtraBold800 = require('./17caf4ad92a39b0d9333a8f668c1582d993748126b1a8ebbd4b26bca25c66a00.ttf');
-export const SairaCondensed_Black900 = require('./3235689af1f16e3535c26922c2fb739dd02adef166d3e761175b3af89f72240b.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const SairaCondensed_100Thin = require('./SairaCondensed_100Thin.ttf');
+export const SairaCondensed_200ExtraLight = require('./SairaCondensed_200ExtraLight.ttf');
+export const SairaCondensed_300Light = require('./SairaCondensed_300Light.ttf');
+export const SairaCondensed_400Regular = require('./SairaCondensed_400Regular.ttf');
+export const SairaCondensed_500Medium = require('./SairaCondensed_500Medium.ttf');
+export const SairaCondensed_600SemiBold = require('./SairaCondensed_600SemiBold.ttf');
+export const SairaCondensed_700Bold = require('./SairaCondensed_700Bold.ttf');
+export const SairaCondensed_800ExtraBold = require('./SairaCondensed_800ExtraBold.ttf');
+export const SairaCondensed_900Black = require('./SairaCondensed_900Black.ttf');

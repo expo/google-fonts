@@ -7,21 +7,19 @@
 
 This package lets you use the [**M PLUS Rounded 1c**](https://fonts.google.com/specimen/M+PLUS+Rounded+1c) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## M PLUS Rounded 1c
 
 ![M PLUS Rounded 1c](./font-family.png)
 
 This font family contains [7 styles](#-gallery).
 
-- `MPLUSRounded1c_Thin100`
-- `MPLUSRounded1c_Light300`
-- `MPLUSRounded1c_Regular400`
-- `MPLUSRounded1c_Medium500`
-- `MPLUSRounded1c_Bold700`
-- `MPLUSRounded1c_ExtraBold800`
-- `MPLUSRounded1c_Black900`
+- `MPLUSRounded1c_100Thin`
+- `MPLUSRounded1c_300Light`
+- `MPLUSRounded1c_400Regular`
+- `MPLUSRounded1c_500Medium`
+- `MPLUSRounded1c_700Bold`
+- `MPLUSRounded1c_800ExtraBold`
+- `MPLUSRounded1c_900Black`
 
 ## Usage
 
@@ -37,25 +35,25 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  MPLUSRounded1c_Thin100,
-  MPLUSRounded1c_Light300,
-  MPLUSRounded1c_Regular400,
-  MPLUSRounded1c_Medium500,
-  MPLUSRounded1c_Bold700,
-  MPLUSRounded1c_ExtraBold800,
-  MPLUSRounded1c_Black900,
   useFonts,
+  MPLUSRounded1c_100Thin,
+  MPLUSRounded1c_300Light,
+  MPLUSRounded1c_400Regular,
+  MPLUSRounded1c_500Medium,
+  MPLUSRounded1c_700Bold,
+  MPLUSRounded1c_800ExtraBold,
+  MPLUSRounded1c_900Black,
 } from '@expo-google-fonts/m-plus-rounded-1c';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MPLUSRounded1c_Thin100,
-    MPLUSRounded1c_Light300,
-    MPLUSRounded1c_Regular400,
-    MPLUSRounded1c_Medium500,
-    MPLUSRounded1c_Bold700,
-    MPLUSRounded1c_ExtraBold800,
-    MPLUSRounded1c_Black900,
+    MPLUSRounded1c_100Thin,
+    MPLUSRounded1c_300Light,
+    MPLUSRounded1c_400Regular,
+    MPLUSRounded1c_500Medium,
+    MPLUSRounded1c_700Bold,
+    MPLUSRounded1c_800ExtraBold,
+    MPLUSRounded1c_900Black,
   });
 
   let fontSize = 24;
@@ -66,32 +64,32 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_Thin100' }}>
-          MPLUSRounded1c_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_100Thin' }}>
+          MPLUSRounded1c_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_Light300' }}>
-          MPLUSRounded1c_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_300Light' }}>
+          MPLUSRounded1c_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_Regular400' }}>
-          MPLUSRounded1c_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_400Regular' }}>
+          MPLUSRounded1c_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_Medium500' }}>
-          MPLUSRounded1c_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_500Medium' }}>
+          MPLUSRounded1c_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_Bold700' }}>
-          MPLUSRounded1c_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_700Bold' }}>
+          MPLUSRounded1c_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_ExtraBold800' }}>
-          MPLUSRounded1c_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_800ExtraBold' }}>
+          MPLUSRounded1c_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_Black900' }}>
-          MPLUSRounded1c_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_900Black' }}>
+          MPLUSRounded1c_900Black
         </Text>
       </View>
     );
@@ -102,26 +100,26 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MPLUSRounded1c_Thin100
-![MPLUSRounded1c_Thin100](./6d028025ec621f30d69f25f3b121f0eb6e4678e96d47f16d760f1fcf59248d2c.ttf.png)
+##### MPLUSRounded1c_100Thin
+![MPLUSRounded1c_100Thin](./MPLUSRounded1c_100Thin.ttf.png)
 
-##### MPLUSRounded1c_Light300
-![MPLUSRounded1c_Light300](./8e6655c0fc1e40abbfe6631bef1b71cf55ed1f706c0d130fa9fc82cfb1a644c7.ttf.png)
+##### MPLUSRounded1c_300Light
+![MPLUSRounded1c_300Light](./MPLUSRounded1c_300Light.ttf.png)
 
-##### MPLUSRounded1c_Regular400
-![MPLUSRounded1c_Regular400](./ff70cb1f3f4fe4691c6ec7c7725c4a0aa37e2d1fa2704d659c9efcd304a6bb24.ttf.png)
+##### MPLUSRounded1c_400Regular
+![MPLUSRounded1c_400Regular](./MPLUSRounded1c_400Regular.ttf.png)
 
-##### MPLUSRounded1c_Medium500
-![MPLUSRounded1c_Medium500](./a6066483cf3c5b68c17d69a4a957e9a50dbe366ac10cbf88a9f3776744ec5048.ttf.png)
+##### MPLUSRounded1c_500Medium
+![MPLUSRounded1c_500Medium](./MPLUSRounded1c_500Medium.ttf.png)
 
-##### MPLUSRounded1c_Bold700
-![MPLUSRounded1c_Bold700](./c9070409f93c9e7a46a302d0205de1c15bdde3b59f65c32ff73315592afaf17e.ttf.png)
+##### MPLUSRounded1c_700Bold
+![MPLUSRounded1c_700Bold](./MPLUSRounded1c_700Bold.ttf.png)
 
-##### MPLUSRounded1c_ExtraBold800
-![MPLUSRounded1c_ExtraBold800](./a7b92c0902d7c3f543a4ecc04c44c8cf62f26c4bcc92ecb26e40ef9849277e61.ttf.png)
+##### MPLUSRounded1c_800ExtraBold
+![MPLUSRounded1c_800ExtraBold](./MPLUSRounded1c_800ExtraBold.ttf.png)
 
-##### MPLUSRounded1c_Black900
-![MPLUSRounded1c_Black900](./cadad2376795cd1bcdaae984a16f1fef7e2f18ca27fd2493f32f620867a1ef05.ttf.png)
+##### MPLUSRounded1c_900Black
+![MPLUSRounded1c_900Black](./MPLUSRounded1c_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -151,7 +149,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/m-plus-rounded-1c)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

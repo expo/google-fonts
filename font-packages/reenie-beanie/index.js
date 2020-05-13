@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Reenie Beanie';
-export const __fontFamilyVersion__ = 7;
-
-export const ReenieBeanie_Regular400 = require('./3bc036be5570dcb23bf8f01f888f56bc55c5e3606875bdd2bb8afd3ebb48d2a6.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ReenieBeanie_400Regular = require('./ReenieBeanie_400Regular.ttf');

@@ -7,16 +7,14 @@
 
 This package lets you use the [**Allan**](https://fonts.google.com/specimen/Allan) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Allan
 
 ![Allan](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Allan_Regular400`
-- `Allan_Bold700`
+- `Allan_400Regular`
+- `Allan_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Allan_Regular400, Allan_Bold700, useFonts } from '@expo-google-fonts/allan';
+import { useFonts, Allan_400Regular, Allan_700Bold } from '@expo-google-fonts/allan';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Allan_Regular400,
-    Allan_Bold700,
+    Allan_400Regular,
+    Allan_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Allan_Regular400' }}>
-          Allan_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Allan_400Regular' }}>
+          Allan_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Allan_Bold700' }}>
-          Allan_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Allan_700Bold' }}>
+          Allan_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Allan_Regular400
-![Allan_Regular400](./83a268d06857cada4246725e7cc04eb4d7b87d19e6d4f44e745d33be739852fb.ttf.png)
+##### Allan_400Regular
+![Allan_400Regular](./Allan_400Regular.ttf.png)
 
-##### Allan_Bold700
-![Allan_Bold700](./b309341937b6f2a1893638c71f9877c70c658e6461e5b18011f9ab7f2782adc9.ttf.png)
+##### Allan_700Bold
+![Allan_700Bold](./Allan_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/allan)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Sirin Stencil';
-export const __fontFamilyVersion__ = 5;
-
-export const SirinStencil_Regular400 = require('./49b8495ba38ff41cb2fe6ffa19be0105173e6318d239a91687520ba2ed2b5cbc.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const SirinStencil_400Regular = require('./SirinStencil_400Regular.ttf');

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Alata**](https://fonts.google.com/specimen/Alata) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Alata
 
 ![Alata](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Alata_Regular400`
+- `Alata_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Alata_Regular400, useFonts } from '@expo-google-fonts/alata';
+import { useFonts, Alata_400Regular } from '@expo-google-fonts/alata';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Alata_Regular400,
+    Alata_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Alata_Regular400' }}>
-          Alata_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Alata_400Regular' }}>
+          Alata_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Alata_Regular400
-![Alata_Regular400](./0e69926cd849e08f0dfa58fa809a89d58262ec6a29e3dd4e2c59ea279301b12e.ttf.png)
+##### Alata_400Regular
+![Alata_400Regular](./Alata_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/alata)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,15 +7,13 @@
 
 This package lets you use the [**GFS Didot**](https://fonts.google.com/specimen/GFS+Didot) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## GFS Didot
 
 ![GFS Didot](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `GFSDidot_Regular400`
+- `GFSDidot_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { GFSDidot_Regular400, useFonts } from '@expo-google-fonts/gfs-didot';
+import { useFonts, GFSDidot_400Regular } from '@expo-google-fonts/gfs-didot';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    GFSDidot_Regular400,
+    GFSDidot_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GFSDidot_Regular400' }}>
-          GFSDidot_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GFSDidot_400Regular' }}>
+          GFSDidot_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GFSDidot_Regular400
-![GFSDidot_Regular400](./f1953ca586ed73b65dd476de045e1f32b7446b71165bff9533f465ac46c73741.ttf.png)
+##### GFSDidot_400Regular
+![GFSDidot_400Regular](./GFSDidot_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/gfs-didot)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

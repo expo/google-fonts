@@ -7,15 +7,13 @@
 
 This package lets you use the [**Smokum**](https://fonts.google.com/specimen/Smokum) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Smokum
 
 ![Smokum](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Smokum_Regular400`
+- `Smokum_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Smokum_Regular400, useFonts } from '@expo-google-fonts/smokum';
+import { useFonts, Smokum_400Regular } from '@expo-google-fonts/smokum';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Smokum_Regular400,
+    Smokum_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Smokum_Regular400' }}>
-          Smokum_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Smokum_400Regular' }}>
+          Smokum_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Smokum_Regular400
-![Smokum_Regular400](./2c700a4722b34ec677fb0c4c7ae242886cead014ec06aef3e02dc311def9ccbb.ttf.png)
+##### Smokum_400Regular
+![Smokum_400Regular](./Smokum_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/smokum)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

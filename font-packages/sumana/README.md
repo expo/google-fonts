@@ -7,16 +7,14 @@
 
 This package lets you use the [**Sumana**](https://fonts.google.com/specimen/Sumana) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sumana
 
 ![Sumana](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Sumana_Regular400`
-- `Sumana_Bold700`
+- `Sumana_400Regular`
+- `Sumana_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Sumana_Regular400, Sumana_Bold700, useFonts } from '@expo-google-fonts/sumana';
+import { useFonts, Sumana_400Regular, Sumana_700Bold } from '@expo-google-fonts/sumana';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Sumana_Regular400,
-    Sumana_Bold700,
+    Sumana_400Regular,
+    Sumana_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sumana_Regular400' }}>
-          Sumana_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sumana_400Regular' }}>
+          Sumana_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sumana_Bold700' }}>
-          Sumana_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sumana_700Bold' }}>
+          Sumana_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sumana_Regular400
-![Sumana_Regular400](./9fc4eb110fb834ab65fd4f7af149d8ca3402dde810677f1f6dc84f2b08194c7c.ttf.png)
+##### Sumana_400Regular
+![Sumana_400Regular](./Sumana_400Regular.ttf.png)
 
-##### Sumana_Bold700
-![Sumana_Bold700](./b035af08a910c59c4baf4941cca6a95cdea0a5c22c5d2615f77267f808f82c28.ttf.png)
+##### Sumana_700Bold
+![Sumana_700Bold](./Sumana_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sumana)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

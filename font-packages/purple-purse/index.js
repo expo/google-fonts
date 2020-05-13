@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Purple Purse';
-export const __fontFamilyVersion__ = 5;
-
-export const PurplePurse_Regular400 = require('./5653d111577461c5bb526447a3f51696f803a7e41f0e5d379ae3a558f69927e0.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const PurplePurse_400Regular = require('./PurplePurse_400Regular.ttf');

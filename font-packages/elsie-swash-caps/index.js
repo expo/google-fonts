@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Elsie Swash Caps';
-export const __fontFamilyVersion__ = 5;
-
-export const ElsieSwashCaps_Regular400 = require('./5073c3bee53b70fcf6b284c6882db47468b86bb95077b497007cfecf47b76bdb.ttf');
-export const ElsieSwashCaps_Black900 = require('./b3610e846ce9868a9ba2c54980426523ef730f265ae56366cb7fa77fd9cdce35.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ElsieSwashCaps_400Regular = require('./ElsieSwashCaps_400Regular.ttf');
+export const ElsieSwashCaps_900Black = require('./ElsieSwashCaps_900Black.ttf');

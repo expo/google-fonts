@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Sumana';
-export const __fontFamilyVersion__ = 1;
-
-export const Sumana_Regular400 = require('./9fc4eb110fb834ab65fd4f7af149d8ca3402dde810677f1f6dc84f2b08194c7c.ttf');
-export const Sumana_Bold700 = require('./b035af08a910c59c4baf4941cca6a95cdea0a5c22c5d2615f77267f808f82c28.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Sumana_400Regular = require('./Sumana_400Regular.ttf');
+export const Sumana_700Bold = require('./Sumana_700Bold.ttf');

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Average**](https://fonts.google.com/specimen/Average) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Average
 
 ![Average](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Average_Regular400`
+- `Average_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Average_Regular400, useFonts } from '@expo-google-fonts/average';
+import { useFonts, Average_400Regular } from '@expo-google-fonts/average';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Average_Regular400,
+    Average_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Average_Regular400' }}>
-          Average_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Average_400Regular' }}>
+          Average_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Average_Regular400
-![Average_Regular400](./ce0697844aa3a978d483dfa380fbebd5bff8e7e6dc0897bf6c2c009fb9ae4ab2.ttf.png)
+##### Average_400Regular
+![Average_400Regular](./Average_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/average)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

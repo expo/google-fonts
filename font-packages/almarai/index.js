@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Almarai';
-export const __fontFamilyVersion__ = 2;
-
-export const Almarai_Light300 = require('./d65c40f0692b45d73302895b80e837f57f1b4e69a5d3255c3f186919eab23780.ttf');
-export const Almarai_Regular400 = require('./1b22529a81e051312110ae38c450d9b4f5474030f2275dc4574f26c8fcf5318e.ttf');
-export const Almarai_Bold700 = require('./6cf3b7ecc9ac853f7071684fc5dfb22dd3a13f41901fee6aeb54cd9cc81d1126.ttf');
-export const Almarai_ExtraBold800 = require('./55d68f8e4adef1c44ed2dbc154537092c330112b9ac46a94338e58f08f02bcb6.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Almarai_300Light = require('./Almarai_300Light.ttf');
+export const Almarai_400Regular = require('./Almarai_400Regular.ttf');
+export const Almarai_700Bold = require('./Almarai_700Bold.ttf');
+export const Almarai_800ExtraBold = require('./Almarai_800ExtraBold.ttf');

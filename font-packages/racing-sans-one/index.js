@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Racing Sans One';
-export const __fontFamilyVersion__ = 4;
-
-export const RacingSansOne_Regular400 = require('./d832218eb9f68c818398e21dff506b95b27cf9a0830a3866a204eb2d2044027a.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const RacingSansOne_400Regular = require('./RacingSansOne_400Regular.ttf');

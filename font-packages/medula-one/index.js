@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Medula One';
-export const __fontFamilyVersion__ = 6;
-
-export const MedulaOne_Regular400 = require('./01411348aab468ebfca2f176a931010b30ec982ff382993310e5cc4d65e49904.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MedulaOne_400Regular = require('./MedulaOne_400Regular.ttf');

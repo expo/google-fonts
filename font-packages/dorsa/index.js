@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Dorsa';
-export const __fontFamilyVersion__ = 7;
-
-export const Dorsa_Regular400 = require('./0126c6beb66497797a2fe86e3ceecbd95fadcc67cd7ba35e2b604acdda520730.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Dorsa_400Regular = require('./Dorsa_400Regular.ttf');

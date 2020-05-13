@@ -7,15 +7,13 @@
 
 This package lets you use the [**Tulpen One**](https://fonts.google.com/specimen/Tulpen+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Tulpen One
 
 ![Tulpen One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `TulpenOne_Regular400`
+- `TulpenOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { TulpenOne_Regular400, useFonts } from '@expo-google-fonts/tulpen-one';
+import { useFonts, TulpenOne_400Regular } from '@expo-google-fonts/tulpen-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    TulpenOne_Regular400,
+    TulpenOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TulpenOne_Regular400' }}>
-          TulpenOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TulpenOne_400Regular' }}>
+          TulpenOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### TulpenOne_Regular400
-![TulpenOne_Regular400](./a7952e8a169708673ce2f03a77306fa166fa25d0f8475c26ea3cf055d955577c.ttf.png)
+##### TulpenOne_400Regular
+![TulpenOne_400Regular](./TulpenOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/tulpen-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

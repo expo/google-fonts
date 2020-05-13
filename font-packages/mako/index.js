@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Mako';
-export const __fontFamilyVersion__ = 7;
-
-export const Mako_Regular400 = require('./db4609e335050755bb95ce1a179f4666e1a93d3fac9c679e99d96b472582d0a1.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Mako_400Regular = require('./Mako_400Regular.ttf');

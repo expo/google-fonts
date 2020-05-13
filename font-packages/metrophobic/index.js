@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Metrophobic';
-export const __fontFamilyVersion__ = 9;
-
-export const Metrophobic_Regular400 = require('./fba0d5a8f2ffaa5c02bcfc5580a50f6b1dac80580d8d3a77073e6a74aa189b5c.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Metrophobic_400Regular = require('./Metrophobic_400Regular.ttf');

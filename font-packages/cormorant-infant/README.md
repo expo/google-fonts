@@ -7,24 +7,22 @@
 
 This package lets you use the [**Cormorant Infant**](https://fonts.google.com/specimen/Cormorant+Infant) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Cormorant Infant
 
 ![Cormorant Infant](./font-family.png)
 
 This font family contains [10 styles](#-gallery).
 
-- `CormorantInfant_Light300`
-- `CormorantInfant_Light300_Italic`
-- `CormorantInfant_Regular400`
-- `CormorantInfant_Regular400_Italic`
-- `CormorantInfant_Medium500`
-- `CormorantInfant_Medium500_Italic`
-- `CormorantInfant_SemiBold600`
-- `CormorantInfant_SemiBold600_Italic`
-- `CormorantInfant_Bold700`
-- `CormorantInfant_Bold700_Italic`
+- `CormorantInfant_300Light`
+- `CormorantInfant_300Light_Italic`
+- `CormorantInfant_400Regular`
+- `CormorantInfant_400Regular_Italic`
+- `CormorantInfant_500Medium`
+- `CormorantInfant_500Medium_Italic`
+- `CormorantInfant_600SemiBold`
+- `CormorantInfant_600SemiBold_Italic`
+- `CormorantInfant_700Bold`
+- `CormorantInfant_700Bold_Italic`
 
 ## Usage
 
@@ -40,31 +38,31 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  CormorantInfant_Light300,
-  CormorantInfant_Light300_Italic,
-  CormorantInfant_Regular400,
-  CormorantInfant_Regular400_Italic,
-  CormorantInfant_Medium500,
-  CormorantInfant_Medium500_Italic,
-  CormorantInfant_SemiBold600,
-  CormorantInfant_SemiBold600_Italic,
-  CormorantInfant_Bold700,
-  CormorantInfant_Bold700_Italic,
   useFonts,
+  CormorantInfant_300Light,
+  CormorantInfant_300Light_Italic,
+  CormorantInfant_400Regular,
+  CormorantInfant_400Regular_Italic,
+  CormorantInfant_500Medium,
+  CormorantInfant_500Medium_Italic,
+  CormorantInfant_600SemiBold,
+  CormorantInfant_600SemiBold_Italic,
+  CormorantInfant_700Bold,
+  CormorantInfant_700Bold_Italic,
 } from '@expo-google-fonts/cormorant-infant';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CormorantInfant_Light300,
-    CormorantInfant_Light300_Italic,
-    CormorantInfant_Regular400,
-    CormorantInfant_Regular400_Italic,
-    CormorantInfant_Medium500,
-    CormorantInfant_Medium500_Italic,
-    CormorantInfant_SemiBold600,
-    CormorantInfant_SemiBold600_Italic,
-    CormorantInfant_Bold700,
-    CormorantInfant_Bold700_Italic,
+    CormorantInfant_300Light,
+    CormorantInfant_300Light_Italic,
+    CormorantInfant_400Regular,
+    CormorantInfant_400Regular_Italic,
+    CormorantInfant_500Medium,
+    CormorantInfant_500Medium_Italic,
+    CormorantInfant_600SemiBold,
+    CormorantInfant_600SemiBold_Italic,
+    CormorantInfant_700Bold,
+    CormorantInfant_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -75,46 +73,46 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_Light300' }}>
-          CormorantInfant_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_300Light' }}>
+          CormorantInfant_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_Light300_Italic' }}>
-          CormorantInfant_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_300Light_Italic' }}>
+          CormorantInfant_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_Regular400' }}>
-          CormorantInfant_Regular400
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_Regular400_Italic' }}>
-          CormorantInfant_Regular400_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_Medium500' }}>
-          CormorantInfant_Medium500
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_Medium500_Italic' }}>
-          CormorantInfant_Medium500_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_SemiBold600' }}>
-          CormorantInfant_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_400Regular' }}>
+          CormorantInfant_400Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_SemiBold600_Italic' }}>
-          CormorantInfant_SemiBold600_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_400Regular_Italic' }}>
+          CormorantInfant_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_Bold700' }}>
-          CormorantInfant_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_500Medium' }}>
+          CormorantInfant_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_Bold700_Italic' }}>
-          CormorantInfant_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_500Medium_Italic' }}>
+          CormorantInfant_500Medium_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_600SemiBold' }}>
+          CormorantInfant_600SemiBold
+        </Text>
+
+        <Text
+          style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_600SemiBold_Italic' }}>
+          CormorantInfant_600SemiBold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_700Bold' }}>
+          CormorantInfant_700Bold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantInfant_700Bold_Italic' }}>
+          CormorantInfant_700Bold_Italic
         </Text>
       </View>
     );
@@ -125,35 +123,35 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CormorantInfant_Light300
-![CormorantInfant_Light300](./9168080bdab2d447729e3f3046722e4d88cfd4cb5a1862dc6d916cba737791c5.ttf.png)
+##### CormorantInfant_300Light
+![CormorantInfant_300Light](./CormorantInfant_300Light.ttf.png)
 
-##### CormorantInfant_Light300_Italic
-![CormorantInfant_Light300_Italic](./e6958c39fabaf907bdde7ba424eb0c17f3fef77c989edbaa01115b1fe5c6e067.ttf.png)
+##### CormorantInfant_300Light_Italic
+![CormorantInfant_300Light_Italic](./CormorantInfant_300Light_Italic.ttf.png)
 
-##### CormorantInfant_Regular400
-![CormorantInfant_Regular400](./47164cf35cfe61e120d0e8c3e775559372e1a738f9e2c57cf85aa05e8c4bc806.ttf.png)
+##### CormorantInfant_400Regular
+![CormorantInfant_400Regular](./CormorantInfant_400Regular.ttf.png)
 
-##### CormorantInfant_Regular400_Italic
-![CormorantInfant_Regular400_Italic](./84f78b4a61cce77b8c2c9663434b1c6cf0316b556002a2c9ea9df9265533cf6b.ttf.png)
+##### CormorantInfant_400Regular_Italic
+![CormorantInfant_400Regular_Italic](./CormorantInfant_400Regular_Italic.ttf.png)
 
-##### CormorantInfant_Medium500
-![CormorantInfant_Medium500](./1d23820c90080bfb4aa4f9cec1e1ef64424729ef0c9b0e977e27806b21d81304.ttf.png)
+##### CormorantInfant_500Medium
+![CormorantInfant_500Medium](./CormorantInfant_500Medium.ttf.png)
 
-##### CormorantInfant_Medium500_Italic
-![CormorantInfant_Medium500_Italic](./f8a57af623179b25d7e59c823c1acd0563f9cfb6f1f03da9532e49bf49739dab.ttf.png)
+##### CormorantInfant_500Medium_Italic
+![CormorantInfant_500Medium_Italic](./CormorantInfant_500Medium_Italic.ttf.png)
 
-##### CormorantInfant_SemiBold600
-![CormorantInfant_SemiBold600](./f6a06c7e0bd73d14e395e0d977119af3b5fae58a9ce153ab18a277182316b424.ttf.png)
+##### CormorantInfant_600SemiBold
+![CormorantInfant_600SemiBold](./CormorantInfant_600SemiBold.ttf.png)
 
-##### CormorantInfant_SemiBold600_Italic
-![CormorantInfant_SemiBold600_Italic](./e1ae8191f481ca057de000de05308f0098090fd60456b76f13b1ffdc82ac1b1d.ttf.png)
+##### CormorantInfant_600SemiBold_Italic
+![CormorantInfant_600SemiBold_Italic](./CormorantInfant_600SemiBold_Italic.ttf.png)
 
-##### CormorantInfant_Bold700
-![CormorantInfant_Bold700](./a03a98979c43146bda66d723dfb38c68b77012ab2433f4eafcbda573433d75b5.ttf.png)
+##### CormorantInfant_700Bold
+![CormorantInfant_700Bold](./CormorantInfant_700Bold.ttf.png)
 
-##### CormorantInfant_Bold700_Italic
-![CormorantInfant_Bold700_Italic](./ceb4474fec6832dee11e5cc5624186c760e7993898bc39599f3fe8248cbb1b70.ttf.png)
+##### CormorantInfant_700Bold_Italic
+![CormorantInfant_700Bold_Italic](./CormorantInfant_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -183,7 +181,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cormorant-infant)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

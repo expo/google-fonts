@@ -4,9 +4,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Amiko';
-export const __fontFamilyVersion__ = 1;
-
-export const Amiko_Regular400 = require('./c2e782cc6b503328a87e3b81b3ee6afa1acb6cd66bd04d9da2ba5d3ff4c43e3f.ttf');
-export const Amiko_SemiBold600 = require('./d56799efb6c3d56b106cae38c558a3f2f9da3d0a90d0d1ea64449c693d3cadfc.ttf');
-export const Amiko_Bold700 = require('./037bbdff86b70266d62abc94be043671d3c04188f477dbb0ead70ee89df98ecb.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Amiko_400Regular = require('./Amiko_400Regular.ttf');
+export const Amiko_600SemiBold = require('./Amiko_600SemiBold.ttf');
+export const Amiko_700Bold = require('./Amiko_700Bold.ttf');

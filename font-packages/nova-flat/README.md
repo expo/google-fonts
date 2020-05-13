@@ -7,15 +7,13 @@
 
 This package lets you use the [**Nova Flat**](https://fonts.google.com/specimen/Nova+Flat) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Nova Flat
 
 ![Nova Flat](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `NovaFlat_Regular400`
+- `NovaFlat_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { NovaFlat_Regular400, useFonts } from '@expo-google-fonts/nova-flat';
+import { useFonts, NovaFlat_400Regular } from '@expo-google-fonts/nova-flat';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    NovaFlat_Regular400,
+    NovaFlat_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NovaFlat_Regular400' }}>
-          NovaFlat_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NovaFlat_400Regular' }}>
+          NovaFlat_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NovaFlat_Regular400
-![NovaFlat_Regular400](./532bddc6fc21c8561e5bcd3b4e0378be147a5f2eaff0e7e9624374551f0c4a2b.ttf.png)
+##### NovaFlat_400Regular
+![NovaFlat_400Regular](./NovaFlat_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/nova-flat)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

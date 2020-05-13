@@ -7,15 +7,13 @@
 
 This package lets you use the [**Voces**](https://fonts.google.com/specimen/Voces) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Voces
 
 ![Voces](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Voces_Regular400`
+- `Voces_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Voces_Regular400, useFonts } from '@expo-google-fonts/voces';
+import { useFonts, Voces_400Regular } from '@expo-google-fonts/voces';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Voces_Regular400,
+    Voces_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Voces_Regular400' }}>
-          Voces_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Voces_400Regular' }}>
+          Voces_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Voces_Regular400
-![Voces_Regular400](./0be995322d0fd8e055fc6d3cb9352a0c551e91531d41946d20c450fe3e4c20d8.ttf.png)
+##### Voces_400Regular
+![Voces_400Regular](./Voces_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/voces)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

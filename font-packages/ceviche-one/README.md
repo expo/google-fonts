@@ -7,15 +7,13 @@
 
 This package lets you use the [**Ceviche One**](https://fonts.google.com/specimen/Ceviche+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Ceviche One
 
 ![Ceviche One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `CevicheOne_Regular400`
+- `CevicheOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { CevicheOne_Regular400, useFonts } from '@expo-google-fonts/ceviche-one';
+import { useFonts, CevicheOne_400Regular } from '@expo-google-fonts/ceviche-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CevicheOne_Regular400,
+    CevicheOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CevicheOne_Regular400' }}>
-          CevicheOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CevicheOne_400Regular' }}>
+          CevicheOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CevicheOne_Regular400
-![CevicheOne_Regular400](./9ed3cdc36bf356dbe366b2198c633acbf26815fc96c14ba05a7847b274043909.ttf.png)
+##### CevicheOne_400Regular
+![CevicheOne_400Regular](./CevicheOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/ceviche-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Ma Shan Zheng**](https://fonts.google.com/specimen/Ma+Shan+Zheng) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Ma Shan Zheng
 
 ![Ma Shan Zheng](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `MaShanZheng_Regular400`
+- `MaShanZheng_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { MaShanZheng_Regular400, useFonts } from '@expo-google-fonts/ma-shan-zheng';
+import { useFonts, MaShanZheng_400Regular } from '@expo-google-fonts/ma-shan-zheng';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MaShanZheng_Regular400,
+    MaShanZheng_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MaShanZheng_Regular400' }}>
-          MaShanZheng_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MaShanZheng_400Regular' }}>
+          MaShanZheng_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MaShanZheng_Regular400
-![MaShanZheng_Regular400](./b09c8b63681f2770158618c3110f15aa53948e2ef43d7bcbee34cfe43cdfa646.ttf.png)
+##### MaShanZheng_400Regular
+![MaShanZheng_400Regular](./MaShanZheng_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/ma-shan-zheng)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Geostar**](https://fonts.google.com/specimen/Geostar) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Geostar
 
 ![Geostar](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Geostar_Regular400`
+- `Geostar_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Geostar_Regular400, useFonts } from '@expo-google-fonts/geostar';
+import { useFonts, Geostar_400Regular } from '@expo-google-fonts/geostar';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Geostar_Regular400,
+    Geostar_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Geostar_Regular400' }}>
-          Geostar_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Geostar_400Regular' }}>
+          Geostar_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Geostar_Regular400
-![Geostar_Regular400](./7b9967368c76fa8693221781a74e18323bde42a1df8fff30b1d5b2dd2e654dc5.ttf.png)
+##### Geostar_400Regular
+![Geostar_400Regular](./Geostar_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/geostar)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Lacquer**](https://fonts.google.com/specimen/Lacquer) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Lacquer
 
 ![Lacquer](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Lacquer_Regular400`
+- `Lacquer_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Lacquer_Regular400, useFonts } from '@expo-google-fonts/lacquer';
+import { useFonts, Lacquer_400Regular } from '@expo-google-fonts/lacquer';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Lacquer_Regular400,
+    Lacquer_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lacquer_Regular400' }}>
-          Lacquer_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lacquer_400Regular' }}>
+          Lacquer_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Lacquer_Regular400
-![Lacquer_Regular400](./4d33d0518b8cf4ae8d6149c8bc8e7e19ced4124d6b80d47934fd4e7897cda55a.ttf.png)
+##### Lacquer_400Regular
+![Lacquer_400Regular](./Lacquer_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/lacquer)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

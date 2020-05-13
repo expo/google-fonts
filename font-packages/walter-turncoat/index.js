@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Walter Turncoat';
-export const __fontFamilyVersion__ = 6;
-
-export const WalterTurncoat_Regular400 = require('./4ea002cd3a82b6686a400f26ba3da2fa47721b8300266adcc80cc3fbd52a86a3.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const WalterTurncoat_400Regular = require('./WalterTurncoat_400Regular.ttf');

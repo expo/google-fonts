@@ -4,20 +4,18 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Nunito Sans';
-export const __fontFamilyVersion__ = 2;
-
-export const NunitoSans_ExtraLight200 = require('./70c2474c36bf599083e387d302c27f28e5439ccd1d15425222ba9855b31f6e11.ttf');
-export const NunitoSans_ExtraLight200_Italic = require('./c77baab8ad61508949ffaf4c0fc2381d7f31ddc2f12f24bd32fda15d0f02970a.ttf');
-export const NunitoSans_Light300 = require('./5af44ca8126245c16771271ce081fc4c5f5801d190ca549007575c51ec1c91da.ttf');
-export const NunitoSans_Light300_Italic = require('./acfe4eb8ed22882df2b122cfe78b0bd761d3025ed62826d5335856d565237582.ttf');
-export const NunitoSans_Regular400 = require('./3b369d5939d0bdfcbe583bb27259c6f6616b01b0948a86dade1dd3ec128c3898.ttf');
-export const NunitoSans_Regular400_Italic = require('./988d1d496236aa9ab3e63745e0d5d82783762ea4d3a21d1940ffa2ff7111b664.ttf');
-export const NunitoSans_SemiBold600 = require('./62d9b0c17a7423bf90868c8da851ce9b40f15422fe0604d85f036703a60f6807.ttf');
-export const NunitoSans_SemiBold600_Italic = require('./79fc6cab022106d0daaf1abc5b854c8a876df8e831445c71bc095e8be2a9bd1a.ttf');
-export const NunitoSans_Bold700 = require('./471cb67b6491aee31f19c1ba10edb324872722bfd6b848706ba31614fe6e1655.ttf');
-export const NunitoSans_Bold700_Italic = require('./cf6f24fcf4a51b61957a7b72cb3e4c38fc3a9260e5323ee20a7b24bb2c522255.ttf');
-export const NunitoSans_ExtraBold800 = require('./7778244928e2e17a87dc2b7bf3a424a284ce6d4cdd2bd9a3f27fbbb31e7a1dcb.ttf');
-export const NunitoSans_ExtraBold800_Italic = require('./c0bbb1deb95af6b335d94ee8dd132d4ba26aaee59cd749c84bf1c7609a164748.ttf');
-export const NunitoSans_Black900 = require('./76da9a3301eb15a1f2488e15b4385547bcde1c10b13035937296cef72d4deee6.ttf');
-export const NunitoSans_Black900_Italic = require('./1ef6bb692fd273ef402051d20962975c507172596da00ed72faf7907d1e00118.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const NunitoSans_200ExtraLight = require('./NunitoSans_200ExtraLight.ttf');
+export const NunitoSans_200ExtraLight_Italic = require('./NunitoSans_200ExtraLight_Italic.ttf');
+export const NunitoSans_300Light = require('./NunitoSans_300Light.ttf');
+export const NunitoSans_300Light_Italic = require('./NunitoSans_300Light_Italic.ttf');
+export const NunitoSans_400Regular = require('./NunitoSans_400Regular.ttf');
+export const NunitoSans_400Regular_Italic = require('./NunitoSans_400Regular_Italic.ttf');
+export const NunitoSans_600SemiBold = require('./NunitoSans_600SemiBold.ttf');
+export const NunitoSans_600SemiBold_Italic = require('./NunitoSans_600SemiBold_Italic.ttf');
+export const NunitoSans_700Bold = require('./NunitoSans_700Bold.ttf');
+export const NunitoSans_700Bold_Italic = require('./NunitoSans_700Bold_Italic.ttf');
+export const NunitoSans_800ExtraBold = require('./NunitoSans_800ExtraBold.ttf');
+export const NunitoSans_800ExtraBold_Italic = require('./NunitoSans_800ExtraBold_Italic.ttf');
+export const NunitoSans_900Black = require('./NunitoSans_900Black.ttf');
+export const NunitoSans_900Black_Italic = require('./NunitoSans_900Black_Italic.ttf');

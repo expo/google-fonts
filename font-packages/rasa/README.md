@@ -7,19 +7,17 @@
 
 This package lets you use the [**Rasa**](https://fonts.google.com/specimen/Rasa) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Rasa
 
 ![Rasa](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `Rasa_Light300`
-- `Rasa_Regular400`
-- `Rasa_Medium500`
-- `Rasa_SemiBold600`
-- `Rasa_Bold700`
+- `Rasa_300Light`
+- `Rasa_400Regular`
+- `Rasa_500Medium`
+- `Rasa_600SemiBold`
+- `Rasa_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Rasa_Light300,
-  Rasa_Regular400,
-  Rasa_Medium500,
-  Rasa_SemiBold600,
-  Rasa_Bold700,
   useFonts,
+  Rasa_300Light,
+  Rasa_400Regular,
+  Rasa_500Medium,
+  Rasa_600SemiBold,
+  Rasa_700Bold,
 } from '@expo-google-fonts/rasa';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Rasa_Light300,
-    Rasa_Regular400,
-    Rasa_Medium500,
-    Rasa_SemiBold600,
-    Rasa_Bold700,
+    Rasa_300Light,
+    Rasa_400Regular,
+    Rasa_500Medium,
+    Rasa_600SemiBold,
+    Rasa_700Bold,
   });
 
   let fontSize = 24;
@@ -60,23 +58,23 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rasa_Light300' }}>
-          Rasa_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rasa_300Light' }}>
+          Rasa_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rasa_Regular400' }}>
-          Rasa_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rasa_400Regular' }}>
+          Rasa_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rasa_Medium500' }}>
-          Rasa_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rasa_500Medium' }}>
+          Rasa_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rasa_SemiBold600' }}>
-          Rasa_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rasa_600SemiBold' }}>
+          Rasa_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rasa_Bold700' }}>Rasa_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rasa_700Bold' }}>Rasa_700Bold</Text>
       </View>
     );
   }
@@ -86,20 +84,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rasa_Light300
-![Rasa_Light300](./6d1458902052379a4c442fe3c08dfb90a878e6187abc480b52afc11943431dd3.ttf.png)
+##### Rasa_300Light
+![Rasa_300Light](./Rasa_300Light.ttf.png)
 
-##### Rasa_Regular400
-![Rasa_Regular400](./d5a933545a7d1e9a3ce0493c853f75c27dc067506d4c32398c0f724f726435cb.ttf.png)
+##### Rasa_400Regular
+![Rasa_400Regular](./Rasa_400Regular.ttf.png)
 
-##### Rasa_Medium500
-![Rasa_Medium500](./f5a6e10ca22dc5d39cb49a70330bb3f3b7dc5361feb0b59693284816acf3dc6d.ttf.png)
+##### Rasa_500Medium
+![Rasa_500Medium](./Rasa_500Medium.ttf.png)
 
-##### Rasa_SemiBold600
-![Rasa_SemiBold600](./0ce2031b3cd5dd01a2d4c96225c44fa6813df124cbf2f4f078c859e4e0abdd6d.ttf.png)
+##### Rasa_600SemiBold
+![Rasa_600SemiBold](./Rasa_600SemiBold.ttf.png)
 
-##### Rasa_Bold700
-![Rasa_Bold700](./f756b8a84bfdccc709dbc00ba23c8852f077e23210d148b4a158e4feb7c1901e.ttf.png)
+##### Rasa_700Bold
+![Rasa_700Bold](./Rasa_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -129,7 +127,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/rasa)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

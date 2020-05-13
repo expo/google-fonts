@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Sree Krushnadevaraya';
-export const __fontFamilyVersion__ = 4;
-
-export const SreeKrushnadevaraya_Regular400 = require('./380fee09dc7039f216c5208086c2919b9b332d06de401d60f4b57d8cba7e080e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const SreeKrushnadevaraya_400Regular = require('./SreeKrushnadevaraya_400Regular.ttf');

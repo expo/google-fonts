@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Timmana';
-export const __fontFamilyVersion__ = 1;
-
-export const Timmana_Regular400 = require('./6cf943319390cff3797ae7f9cf411dc8a14a739df02bdb952ae54284aaf15b01.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Timmana_400Regular = require('./Timmana_400Regular.ttf');

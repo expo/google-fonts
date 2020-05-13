@@ -7,17 +7,15 @@
 
 This package lets you use the [**Trochut**](https://fonts.google.com/specimen/Trochut) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Trochut
 
 ![Trochut](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `Trochut_Regular400`
-- `Trochut_Regular400_Italic`
-- `Trochut_Bold700`
+- `Trochut_400Regular`
+- `Trochut_400Regular_Italic`
+- `Trochut_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Trochut_Regular400,
-  Trochut_Regular400_Italic,
-  Trochut_Bold700,
   useFonts,
+  Trochut_400Regular,
+  Trochut_400Regular_Italic,
+  Trochut_700Bold,
 } from '@expo-google-fonts/trochut';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Trochut_Regular400,
-    Trochut_Regular400_Italic,
-    Trochut_Bold700,
+    Trochut_400Regular,
+    Trochut_400Regular_Italic,
+    Trochut_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Trochut_Regular400' }}>
-          Trochut_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Trochut_400Regular' }}>
+          Trochut_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Trochut_Regular400_Italic' }}>
-          Trochut_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Trochut_400Regular_Italic' }}>
+          Trochut_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Trochut_Bold700' }}>
-          Trochut_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Trochut_700Bold' }}>
+          Trochut_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Trochut_Regular400
-![Trochut_Regular400](./fb7ad314480eec04c8ff53ad7a24690495145d924a92be149c75ccd5fe144215.ttf.png)
+##### Trochut_400Regular
+![Trochut_400Regular](./Trochut_400Regular.ttf.png)
 
-##### Trochut_Regular400_Italic
-![Trochut_Regular400_Italic](./05e2d11e0d53984525926d1c86d71eab21194ae2664a3696175f68fb9e8969de.ttf.png)
+##### Trochut_400Regular_Italic
+![Trochut_400Regular_Italic](./Trochut_400Regular_Italic.ttf.png)
 
-##### Trochut_Bold700
-![Trochut_Bold700](./82633b54306a8a1649b8590f40a509a2808ff33ef157f6cc3f98d52130752914.ttf.png)
+##### Trochut_700Bold
+![Trochut_700Bold](./Trochut_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/trochut)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

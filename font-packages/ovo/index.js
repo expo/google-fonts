@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Ovo';
-export const __fontFamilyVersion__ = 7;
-
-export const Ovo_Regular400 = require('./50e634088f389dcf2f463aa182c8ccb9d19042decdd216fed34fa70b5dfb49fd.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Ovo_400Regular = require('./Ovo_400Regular.ttf');

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Architects Daughter**](https://fonts.google.com/specimen/Architects+Daughter) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Architects Daughter
 
 ![Architects Daughter](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `ArchitectsDaughter_Regular400`
+- `ArchitectsDaughter_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { ArchitectsDaughter_Regular400, useFonts } from '@expo-google-fonts/architects-daughter';
+import { useFonts, ArchitectsDaughter_400Regular } from '@expo-google-fonts/architects-daughter';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ArchitectsDaughter_Regular400,
+    ArchitectsDaughter_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArchitectsDaughter_Regular400' }}>
-          ArchitectsDaughter_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArchitectsDaughter_400Regular' }}>
+          ArchitectsDaughter_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ArchitectsDaughter_Regular400
-![ArchitectsDaughter_Regular400](./a4f5860f4b7aca9b95305b6c5a3b14e2f1c951eaddd28b5d1fffd374171ccdba.ttf.png)
+##### ArchitectsDaughter_400Regular
+![ArchitectsDaughter_400Regular](./ArchitectsDaughter_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/architects-daughter)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Cagliostro';
-export const __fontFamilyVersion__ = 5;
-
-export const Cagliostro_Regular400 = require('./3f57e12bc813bf3381233056c5544a970ea10f321f64dc63eef3ae1e650b2b93.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Cagliostro_400Regular = require('./Cagliostro_400Regular.ttf');

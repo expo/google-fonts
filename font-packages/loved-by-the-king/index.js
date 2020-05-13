@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Loved by the King';
-export const __fontFamilyVersion__ = 6;
-
-export const LovedbytheKing_Regular400 = require('./a37e323dc32cf1679842583e8ac1cf460c0cbf68f0367394bb943ad1f662a77b.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const LovedbytheKing_400Regular = require('./LovedbytheKing_400Regular.ttf');

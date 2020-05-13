@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Buda';
-export const __fontFamilyVersion__ = 6;
-
-export const Buda_Light300 = require('./385d4247a0218281950ea513488d597434ce1d22bafe1b9e0b0853fce9304338.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Buda_300Light = require('./Buda_300Light.ttf');

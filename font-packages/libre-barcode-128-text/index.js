@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Libre Barcode 128 Text';
-export const __fontFamilyVersion__ = 9;
-
-export const LibreBarcode128Text_Regular400 = require('./f4129dbbda4ac792c69c162a644275345c7a08c7619a041d31702eca3b14b308.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const LibreBarcode128Text_400Regular = require('./LibreBarcode128Text_400Regular.ttf');

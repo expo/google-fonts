@@ -7,15 +7,13 @@
 
 This package lets you use the [**Ruge Boogie**](https://fonts.google.com/specimen/Ruge+Boogie) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Ruge Boogie
 
 ![Ruge Boogie](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `RugeBoogie_Regular400`
+- `RugeBoogie_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { RugeBoogie_Regular400, useFonts } from '@expo-google-fonts/ruge-boogie';
+import { useFonts, RugeBoogie_400Regular } from '@expo-google-fonts/ruge-boogie';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    RugeBoogie_Regular400,
+    RugeBoogie_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RugeBoogie_Regular400' }}>
-          RugeBoogie_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RugeBoogie_400Regular' }}>
+          RugeBoogie_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RugeBoogie_Regular400
-![RugeBoogie_Regular400](./91717da896d2b742035d5a0b0ba8e6e4eb616fa3040d3ba55be14c2e92b1aa8f.ttf.png)
+##### RugeBoogie_400Regular
+![RugeBoogie_400Regular](./RugeBoogie_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/ruge-boogie)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

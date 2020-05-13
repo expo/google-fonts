@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'GFS Didot';
-export const __fontFamilyVersion__ = 6;
-
-export const GFSDidot_Regular400 = require('./f1953ca586ed73b65dd476de045e1f32b7446b71165bff9533f465ac46c73741.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const GFSDidot_400Regular = require('./GFSDidot_400Regular.ttf');

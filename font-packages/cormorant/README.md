@@ -7,24 +7,22 @@
 
 This package lets you use the [**Cormorant**](https://fonts.google.com/specimen/Cormorant) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Cormorant
 
 ![Cormorant](./font-family.png)
 
 This font family contains [10 styles](#-gallery).
 
-- `Cormorant_Light300`
-- `Cormorant_Light300_Italic`
-- `Cormorant_Regular400`
-- `Cormorant_Regular400_Italic`
-- `Cormorant_Medium500`
-- `Cormorant_Medium500_Italic`
-- `Cormorant_SemiBold600`
-- `Cormorant_SemiBold600_Italic`
-- `Cormorant_Bold700`
-- `Cormorant_Bold700_Italic`
+- `Cormorant_300Light`
+- `Cormorant_300Light_Italic`
+- `Cormorant_400Regular`
+- `Cormorant_400Regular_Italic`
+- `Cormorant_500Medium`
+- `Cormorant_500Medium_Italic`
+- `Cormorant_600SemiBold`
+- `Cormorant_600SemiBold_Italic`
+- `Cormorant_700Bold`
+- `Cormorant_700Bold_Italic`
 
 ## Usage
 
@@ -40,31 +38,31 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Cormorant_Light300,
-  Cormorant_Light300_Italic,
-  Cormorant_Regular400,
-  Cormorant_Regular400_Italic,
-  Cormorant_Medium500,
-  Cormorant_Medium500_Italic,
-  Cormorant_SemiBold600,
-  Cormorant_SemiBold600_Italic,
-  Cormorant_Bold700,
-  Cormorant_Bold700_Italic,
   useFonts,
+  Cormorant_300Light,
+  Cormorant_300Light_Italic,
+  Cormorant_400Regular,
+  Cormorant_400Regular_Italic,
+  Cormorant_500Medium,
+  Cormorant_500Medium_Italic,
+  Cormorant_600SemiBold,
+  Cormorant_600SemiBold_Italic,
+  Cormorant_700Bold,
+  Cormorant_700Bold_Italic,
 } from '@expo-google-fonts/cormorant';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Cormorant_Light300,
-    Cormorant_Light300_Italic,
-    Cormorant_Regular400,
-    Cormorant_Regular400_Italic,
-    Cormorant_Medium500,
-    Cormorant_Medium500_Italic,
-    Cormorant_SemiBold600,
-    Cormorant_SemiBold600_Italic,
-    Cormorant_Bold700,
-    Cormorant_Bold700_Italic,
+    Cormorant_300Light,
+    Cormorant_300Light_Italic,
+    Cormorant_400Regular,
+    Cormorant_400Regular_Italic,
+    Cormorant_500Medium,
+    Cormorant_500Medium_Italic,
+    Cormorant_600SemiBold,
+    Cormorant_600SemiBold_Italic,
+    Cormorant_700Bold,
+    Cormorant_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -75,44 +73,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_Light300' }}>
-          Cormorant_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_300Light' }}>
+          Cormorant_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_Light300_Italic' }}>
-          Cormorant_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_300Light_Italic' }}>
+          Cormorant_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_Regular400' }}>
-          Cormorant_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_400Regular' }}>
+          Cormorant_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_Regular400_Italic' }}>
-          Cormorant_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_400Regular_Italic' }}>
+          Cormorant_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_Medium500' }}>
-          Cormorant_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_500Medium' }}>
+          Cormorant_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_Medium500_Italic' }}>
-          Cormorant_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_500Medium_Italic' }}>
+          Cormorant_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_SemiBold600' }}>
-          Cormorant_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_600SemiBold' }}>
+          Cormorant_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_SemiBold600_Italic' }}>
-          Cormorant_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_600SemiBold_Italic' }}>
+          Cormorant_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_Bold700' }}>
-          Cormorant_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_700Bold' }}>
+          Cormorant_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_Bold700_Italic' }}>
-          Cormorant_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_700Bold_Italic' }}>
+          Cormorant_700Bold_Italic
         </Text>
       </View>
     );
@@ -123,35 +121,35 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Cormorant_Light300
-![Cormorant_Light300](./25d9142c8c73577fb3546a40795e753bab11f4e22663e2f1168cbc485cbaa542.ttf.png)
+##### Cormorant_300Light
+![Cormorant_300Light](./Cormorant_300Light.ttf.png)
 
-##### Cormorant_Light300_Italic
-![Cormorant_Light300_Italic](./d90d995e2a130e04d6e32ee3778e059092e41f5d9c1c812a659c7ffb52951a19.ttf.png)
+##### Cormorant_300Light_Italic
+![Cormorant_300Light_Italic](./Cormorant_300Light_Italic.ttf.png)
 
-##### Cormorant_Regular400
-![Cormorant_Regular400](./fd04cb22306c1c15bb1727fc4b3d2344de940e929b75dbe3faa9b7f43f9e0d6d.ttf.png)
+##### Cormorant_400Regular
+![Cormorant_400Regular](./Cormorant_400Regular.ttf.png)
 
-##### Cormorant_Regular400_Italic
-![Cormorant_Regular400_Italic](./1f64218505ec6321eba3b8df95d0806808f61c872f9c081bce39c00a402a4429.ttf.png)
+##### Cormorant_400Regular_Italic
+![Cormorant_400Regular_Italic](./Cormorant_400Regular_Italic.ttf.png)
 
-##### Cormorant_Medium500
-![Cormorant_Medium500](./20c11bc6844b3f25ad300ce80d94c0c0fc2fb997b51e04cd1959156c6d78309d.ttf.png)
+##### Cormorant_500Medium
+![Cormorant_500Medium](./Cormorant_500Medium.ttf.png)
 
-##### Cormorant_Medium500_Italic
-![Cormorant_Medium500_Italic](./47bba53369e3f5bcda0e230d7e6fe60ae86b40b59b80d57c603c50e273d2f17c.ttf.png)
+##### Cormorant_500Medium_Italic
+![Cormorant_500Medium_Italic](./Cormorant_500Medium_Italic.ttf.png)
 
-##### Cormorant_SemiBold600
-![Cormorant_SemiBold600](./c1821d5e327189284afba6a7a2a9831a3025677c5afb37910353410a72391791.ttf.png)
+##### Cormorant_600SemiBold
+![Cormorant_600SemiBold](./Cormorant_600SemiBold.ttf.png)
 
-##### Cormorant_SemiBold600_Italic
-![Cormorant_SemiBold600_Italic](./c02d2b3a07288427fe5cd64e378eebe86d6a308b6d7dfe0e8cc4d1975d32e0d5.ttf.png)
+##### Cormorant_600SemiBold_Italic
+![Cormorant_600SemiBold_Italic](./Cormorant_600SemiBold_Italic.ttf.png)
 
-##### Cormorant_Bold700
-![Cormorant_Bold700](./a91dc6bed8f499ba7dfc43c8259fa142dc1d0097d84aba2a73c003c35b409845.ttf.png)
+##### Cormorant_700Bold
+![Cormorant_700Bold](./Cormorant_700Bold.ttf.png)
 
-##### Cormorant_Bold700_Italic
-![Cormorant_Bold700_Italic](./01317d3f16a7d1e98e9fcb9e49778326433ab76c291971e501f5e721ac437b0d.ttf.png)
+##### Cormorant_700Bold_Italic
+![Cormorant_700Bold_Italic](./Cormorant_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -181,7 +179,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cormorant)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

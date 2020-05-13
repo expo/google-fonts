@@ -7,15 +7,13 @@
 
 This package lets you use the [**Miniver**](https://fonts.google.com/specimen/Miniver) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Miniver
 
 ![Miniver](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Miniver_Regular400`
+- `Miniver_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Miniver_Regular400, useFonts } from '@expo-google-fonts/miniver';
+import { useFonts, Miniver_400Regular } from '@expo-google-fonts/miniver';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Miniver_Regular400,
+    Miniver_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Miniver_Regular400' }}>
-          Miniver_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Miniver_400Regular' }}>
+          Miniver_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Miniver_Regular400
-![Miniver_Regular400](./5fee893072a2326d9baa9122deb089cd6f8d0645ee00cd02de22b415de3c7c54.ttf.png)
+##### Miniver_400Regular
+![Miniver_400Regular](./Miniver_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/miniver)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

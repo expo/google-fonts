@@ -7,15 +7,13 @@
 
 This package lets you use the [**Vast Shadow**](https://fonts.google.com/specimen/Vast+Shadow) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Vast Shadow
 
 ![Vast Shadow](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `VastShadow_Regular400`
+- `VastShadow_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { VastShadow_Regular400, useFonts } from '@expo-google-fonts/vast-shadow';
+import { useFonts, VastShadow_400Regular } from '@expo-google-fonts/vast-shadow';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    VastShadow_Regular400,
+    VastShadow_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VastShadow_Regular400' }}>
-          VastShadow_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'VastShadow_400Regular' }}>
+          VastShadow_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### VastShadow_Regular400
-![VastShadow_Regular400](./c7455e059437040326c4daa3043261ce959c3f096f26dbe670dec65d1a611705.ttf.png)
+##### VastShadow_400Regular
+![VastShadow_400Regular](./VastShadow_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/vast-shadow)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

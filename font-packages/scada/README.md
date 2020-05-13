@@ -7,18 +7,16 @@
 
 This package lets you use the [**Scada**](https://fonts.google.com/specimen/Scada) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Scada
 
 ![Scada](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Scada_Regular400`
-- `Scada_Regular400_Italic`
-- `Scada_Bold700`
-- `Scada_Bold700_Italic`
+- `Scada_400Regular`
+- `Scada_400Regular_Italic`
+- `Scada_700Bold`
+- `Scada_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Scada_Regular400,
-  Scada_Regular400_Italic,
-  Scada_Bold700,
-  Scada_Bold700_Italic,
   useFonts,
+  Scada_400Regular,
+  Scada_400Regular_Italic,
+  Scada_700Bold,
+  Scada_700Bold_Italic,
 } from '@expo-google-fonts/scada';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Scada_Regular400,
-    Scada_Regular400_Italic,
-    Scada_Bold700,
-    Scada_Bold700_Italic,
+    Scada_400Regular,
+    Scada_400Regular_Italic,
+    Scada_700Bold,
+    Scada_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scada_Regular400' }}>
-          Scada_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scada_400Regular' }}>
+          Scada_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scada_Regular400_Italic' }}>
-          Scada_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scada_400Regular_Italic' }}>
+          Scada_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scada_Bold700' }}>
-          Scada_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scada_700Bold' }}>
+          Scada_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scada_Bold700_Italic' }}>
-          Scada_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scada_700Bold_Italic' }}>
+          Scada_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Scada_Regular400
-![Scada_Regular400](./b50d4e47b78665f29007e923c626d8127c7c9793f60cc8b94e55fe65a9e1b156.ttf.png)
+##### Scada_400Regular
+![Scada_400Regular](./Scada_400Regular.ttf.png)
 
-##### Scada_Regular400_Italic
-![Scada_Regular400_Italic](./19e3630deea1d0d7694e73dfb85c5a97e8fc332031fc27897d4b5b14fb6f62b3.ttf.png)
+##### Scada_400Regular_Italic
+![Scada_400Regular_Italic](./Scada_400Regular_Italic.ttf.png)
 
-##### Scada_Bold700
-![Scada_Bold700](./9a106a75900b9cafa514e2c814b45cabcd61c5f50ceac1772ce6a12386cfa505.ttf.png)
+##### Scada_700Bold
+![Scada_700Bold](./Scada_700Bold.ttf.png)
 
-##### Scada_Bold700_Italic
-![Scada_Bold700_Italic](./c61947a93ece6ef8f4f35e6f1f51f2d2eae7d27d8c1e103b8a0792818925421e.ttf.png)
+##### Scada_700Bold_Italic
+![Scada_700Bold_Italic](./Scada_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/scada)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

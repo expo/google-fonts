@@ -4,12 +4,10 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Sarpanch';
-export const __fontFamilyVersion__ = 2;
-
-export const Sarpanch_Regular400 = require('./a694e1d94a3cd59dead878c6ef1da8eb55274eb3b10e6f667a4506f4d2bf6a36.ttf');
-export const Sarpanch_Medium500 = require('./c7dedb13d24392e5c3e796641d50cce4643a03762ea0df2936f01cbdf94976bd.ttf');
-export const Sarpanch_SemiBold600 = require('./6bf8e038e00a3b7997da00d55f7715433a7c61351b1434e3659fb806f0c25a0e.ttf');
-export const Sarpanch_Bold700 = require('./5e1a7afd37c3b896e4eeb5de1bd8a3414b6966b45f7a9652b041ae80cb3b1855.ttf');
-export const Sarpanch_ExtraBold800 = require('./a9575bc7bbbe80afa882bd838018d60f95a70408b16be48f2ce3f32eefebc620.ttf');
-export const Sarpanch_Black900 = require('./353bbda31bbbf4d1b499d676bded12b04e4aabafae78f929c4e5e875ecd09a19.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Sarpanch_400Regular = require('./Sarpanch_400Regular.ttf');
+export const Sarpanch_500Medium = require('./Sarpanch_500Medium.ttf');
+export const Sarpanch_600SemiBold = require('./Sarpanch_600SemiBold.ttf');
+export const Sarpanch_700Bold = require('./Sarpanch_700Bold.ttf');
+export const Sarpanch_800ExtraBold = require('./Sarpanch_800ExtraBold.ttf');
+export const Sarpanch_900Black = require('./Sarpanch_900Black.ttf');

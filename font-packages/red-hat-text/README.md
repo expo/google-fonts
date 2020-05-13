@@ -7,20 +7,18 @@
 
 This package lets you use the [**Red Hat Text**](https://fonts.google.com/specimen/Red+Hat+Text) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Red Hat Text
 
 ![Red Hat Text](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `RedHatText_Regular400`
-- `RedHatText_Regular400_Italic`
-- `RedHatText_Medium500`
-- `RedHatText_Medium500_Italic`
-- `RedHatText_Bold700`
-- `RedHatText_Bold700_Italic`
+- `RedHatText_400Regular`
+- `RedHatText_400Regular_Italic`
+- `RedHatText_500Medium`
+- `RedHatText_500Medium_Italic`
+- `RedHatText_700Bold`
+- `RedHatText_700Bold_Italic`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  RedHatText_Regular400,
-  RedHatText_Regular400_Italic,
-  RedHatText_Medium500,
-  RedHatText_Medium500_Italic,
-  RedHatText_Bold700,
-  RedHatText_Bold700_Italic,
   useFonts,
+  RedHatText_400Regular,
+  RedHatText_400Regular_Italic,
+  RedHatText_500Medium,
+  RedHatText_500Medium_Italic,
+  RedHatText_700Bold,
+  RedHatText_700Bold_Italic,
 } from '@expo-google-fonts/red-hat-text';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    RedHatText_Regular400,
-    RedHatText_Regular400_Italic,
-    RedHatText_Medium500,
-    RedHatText_Medium500_Italic,
-    RedHatText_Bold700,
-    RedHatText_Bold700_Italic,
+    RedHatText_400Regular,
+    RedHatText_400Regular_Italic,
+    RedHatText_500Medium,
+    RedHatText_500Medium_Italic,
+    RedHatText_700Bold,
+    RedHatText_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -63,28 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatText_Regular400' }}>
-          RedHatText_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatText_400Regular' }}>
+          RedHatText_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatText_Regular400_Italic' }}>
-          RedHatText_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatText_400Regular_Italic' }}>
+          RedHatText_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatText_Medium500' }}>
-          RedHatText_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatText_500Medium' }}>
+          RedHatText_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatText_Medium500_Italic' }}>
-          RedHatText_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatText_500Medium_Italic' }}>
+          RedHatText_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatText_Bold700' }}>
-          RedHatText_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatText_700Bold' }}>
+          RedHatText_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatText_Bold700_Italic' }}>
-          RedHatText_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatText_700Bold_Italic' }}>
+          RedHatText_700Bold_Italic
         </Text>
       </View>
     );
@@ -95,23 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RedHatText_Regular400
-![RedHatText_Regular400](./0d9ffb6cd7ed3ba3a171dc3f14fc4f0ee80d0bcc276de998f2d1856e2e4c46bc.ttf.png)
+##### RedHatText_400Regular
+![RedHatText_400Regular](./RedHatText_400Regular.ttf.png)
 
-##### RedHatText_Regular400_Italic
-![RedHatText_Regular400_Italic](./c25033ec3d2ae9b4a79da58b3a841070303dba586f0797ab0d60afcd8d5e6708.ttf.png)
+##### RedHatText_400Regular_Italic
+![RedHatText_400Regular_Italic](./RedHatText_400Regular_Italic.ttf.png)
 
-##### RedHatText_Medium500
-![RedHatText_Medium500](./8e6613e0c2b79e3e7adfce20e339e92aa65b3b932d8daed7102603d8a7e05352.ttf.png)
+##### RedHatText_500Medium
+![RedHatText_500Medium](./RedHatText_500Medium.ttf.png)
 
-##### RedHatText_Medium500_Italic
-![RedHatText_Medium500_Italic](./492f537d5c3ba80c637f66cd970d7ab47e7cdf85b3daa0783ae5b96ea8a95770.ttf.png)
+##### RedHatText_500Medium_Italic
+![RedHatText_500Medium_Italic](./RedHatText_500Medium_Italic.ttf.png)
 
-##### RedHatText_Bold700
-![RedHatText_Bold700](./0ed0cf791ad1be4c2b900b22803db61988f37e96e044682319e45bce7a859b91.ttf.png)
+##### RedHatText_700Bold
+![RedHatText_700Bold](./RedHatText_700Bold.ttf.png)
 
-##### RedHatText_Bold700_Italic
-![RedHatText_Bold700_Italic](./be2de719ea5a677cf21fed0bf32ac84f816db39db4d91e04de07bd8bfcf2d8d7.ttf.png)
+##### RedHatText_700Bold_Italic
+![RedHatText_700Bold_Italic](./RedHatText_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -141,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/red-hat-text)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

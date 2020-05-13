@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Almendra SC';
-export const __fontFamilyVersion__ = 6;
-
-export const AlmendraSC_Regular400 = require('./12f0d325f41e23a75aa0ddb706236e13487d31b43a77435817a684f239f324bd.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const AlmendraSC_400Regular = require('./AlmendraSC_400Regular.ttf');

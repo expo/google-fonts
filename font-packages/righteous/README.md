@@ -7,15 +7,13 @@
 
 This package lets you use the [**Righteous**](https://fonts.google.com/specimen/Righteous) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Righteous
 
 ![Righteous](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Righteous_Regular400`
+- `Righteous_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Righteous_Regular400, useFonts } from '@expo-google-fonts/righteous';
+import { useFonts, Righteous_400Regular } from '@expo-google-fonts/righteous';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Righteous_Regular400,
+    Righteous_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Righteous_Regular400' }}>
-          Righteous_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Righteous_400Regular' }}>
+          Righteous_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Righteous_Regular400
-![Righteous_Regular400](./b40fb221f7d3d9f9d2681d60785245f09112b91485a2380235241e647b852428.ttf.png)
+##### Righteous_400Regular
+![Righteous_400Regular](./Righteous_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/righteous)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

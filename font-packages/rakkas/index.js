@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Rakkas';
-export const __fontFamilyVersion__ = 1;
-
-export const Rakkas_Regular400 = require('./b55368f62b7541a21f5f2e81100067268567c036b1f9f1b1435d7f856475a9f5.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Rakkas_400Regular = require('./Rakkas_400Regular.ttf');

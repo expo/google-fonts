@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Homenaje';
-export const __fontFamilyVersion__ = 6;
-
-export const Homenaje_Regular400 = require('./efaa8006929ef2ce2bc82593647ea2be59dcb513e048e4cb4b105cc66119d343.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Homenaje_400Regular = require('./Homenaje_400Regular.ttf');

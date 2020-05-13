@@ -4,12 +4,10 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Crimson Text';
-export const __fontFamilyVersion__ = 7;
-
-export const CrimsonText_Regular400 = require('./883d56072155a485051564cd3019bb34a608ddfa0553e2295413e7a59c67bd28.ttf');
-export const CrimsonText_Regular400_Italic = require('./33025a7588fc7f2ca1b8eb2b599e2420ad23278ee100a8f7e11c881d385af57a.ttf');
-export const CrimsonText_SemiBold600 = require('./37e75069b54a5c937eec2ba3fd3d193e3825fab2122bef2b86d86bc5ff1caab3.ttf');
-export const CrimsonText_SemiBold600_Italic = require('./15672e6c5d2b277c8dee2e6dcbffc17d3ba0c9a3018c446e199636f68dd227b1.ttf');
-export const CrimsonText_Bold700 = require('./c6bfa338154c86d462eef6a8dc69f2443ecc35740bbdc2f2da06e7599c037cbc.ttf');
-export const CrimsonText_Bold700_Italic = require('./c79dc3f51f37e16300b571c6835d06bff022a018b65d9ea69f1f897137acc238.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const CrimsonText_400Regular = require('./CrimsonText_400Regular.ttf');
+export const CrimsonText_400Regular_Italic = require('./CrimsonText_400Regular_Italic.ttf');
+export const CrimsonText_600SemiBold = require('./CrimsonText_600SemiBold.ttf');
+export const CrimsonText_600SemiBold_Italic = require('./CrimsonText_600SemiBold_Italic.ttf');
+export const CrimsonText_700Bold = require('./CrimsonText_700Bold.ttf');
+export const CrimsonText_700Bold_Italic = require('./CrimsonText_700Bold_Italic.ttf');

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Lilita One**](https://fonts.google.com/specimen/Lilita+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Lilita One
 
 ![Lilita One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `LilitaOne_Regular400`
+- `LilitaOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { LilitaOne_Regular400, useFonts } from '@expo-google-fonts/lilita-one';
+import { useFonts, LilitaOne_400Regular } from '@expo-google-fonts/lilita-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LilitaOne_Regular400,
+    LilitaOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LilitaOne_Regular400' }}>
-          LilitaOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LilitaOne_400Regular' }}>
+          LilitaOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LilitaOne_Regular400
-![LilitaOne_Regular400](./9bec8798e040c1fbce51e8a057cea3e28ed1d6af1f649b2abec2cba17eb20016.ttf.png)
+##### LilitaOne_400Regular
+![LilitaOne_400Regular](./LilitaOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/lilita-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

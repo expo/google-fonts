@@ -7,16 +7,14 @@
 
 This package lets you use the [**DM Serif Display**](https://fonts.google.com/specimen/DM+Serif+Display) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## DM Serif Display
 
 ![DM Serif Display](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `DMSerifDisplay_Regular400`
-- `DMSerifDisplay_Regular400_Italic`
+- `DMSerifDisplay_400Regular`
+- `DMSerifDisplay_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  DMSerifDisplay_Regular400,
-  DMSerifDisplay_Regular400_Italic,
   useFonts,
+  DMSerifDisplay_400Regular,
+  DMSerifDisplay_400Regular_Italic,
 } from '@expo-google-fonts/dm-serif-display';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    DMSerifDisplay_Regular400,
-    DMSerifDisplay_Regular400_Italic,
+    DMSerifDisplay_400Regular,
+    DMSerifDisplay_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DMSerifDisplay_Regular400' }}>
-          DMSerifDisplay_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DMSerifDisplay_400Regular' }}>
+          DMSerifDisplay_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DMSerifDisplay_Regular400_Italic' }}>
-          DMSerifDisplay_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DMSerifDisplay_400Regular_Italic' }}>
+          DMSerifDisplay_400Regular_Italic
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DMSerifDisplay_Regular400
-![DMSerifDisplay_Regular400](./e1157689ec181ea520aeee52f8f7f8c16e0ced52d30800c402aae31faf50985a.ttf.png)
+##### DMSerifDisplay_400Regular
+![DMSerifDisplay_400Regular](./DMSerifDisplay_400Regular.ttf.png)
 
-##### DMSerifDisplay_Regular400_Italic
-![DMSerifDisplay_Regular400_Italic](./007cfd580d7b1323a1b43156d2591b8119745361daba6117832dcbfb0146a36a.ttf.png)
+##### DMSerifDisplay_400Regular_Italic
+![DMSerifDisplay_400Regular_Italic](./DMSerifDisplay_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/dm-serif-display)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

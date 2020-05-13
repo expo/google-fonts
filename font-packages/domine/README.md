@@ -7,16 +7,14 @@
 
 This package lets you use the [**Domine**](https://fonts.google.com/specimen/Domine) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Domine
 
 ![Domine](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Domine_Regular400`
-- `Domine_Bold700`
+- `Domine_400Regular`
+- `Domine_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Domine_Regular400, Domine_Bold700, useFonts } from '@expo-google-fonts/domine';
+import { useFonts, Domine_400Regular, Domine_700Bold } from '@expo-google-fonts/domine';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Domine_Regular400,
-    Domine_Bold700,
+    Domine_400Regular,
+    Domine_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Domine_Regular400' }}>
-          Domine_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Domine_400Regular' }}>
+          Domine_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Domine_Bold700' }}>
-          Domine_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Domine_700Bold' }}>
+          Domine_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Domine_Regular400
-![Domine_Regular400](./7b5d61cb478ce2e3fd32416939a39f3b9aa118d0eb76c107195e0857c44ada1c.ttf.png)
+##### Domine_400Regular
+![Domine_400Regular](./Domine_400Regular.ttf.png)
 
-##### Domine_Bold700
-![Domine_Bold700](./5865b0de838f6cabefc862631b06e8c7e86a0b8865e9ee530819d8590dd23e6f.ttf.png)
+##### Domine_700Bold
+![Domine_700Bold](./Domine_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/domine)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

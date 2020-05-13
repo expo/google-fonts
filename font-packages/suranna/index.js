@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Suranna';
-export const __fontFamilyVersion__ = 4;
-
-export const Suranna_Regular400 = require('./5737d88c714925c169afd72de230a6a9feb3a2d7a026b33b5ccfa42e60cef970.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Suranna_400Regular = require('./Suranna_400Regular.ttf');

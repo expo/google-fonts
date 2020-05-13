@@ -7,16 +7,14 @@
 
 This package lets you use the [**Skranji**](https://fonts.google.com/specimen/Skranji) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Skranji
 
 ![Skranji](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Skranji_Regular400`
-- `Skranji_Bold700`
+- `Skranji_400Regular`
+- `Skranji_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Skranji_Regular400, Skranji_Bold700, useFonts } from '@expo-google-fonts/skranji';
+import { useFonts, Skranji_400Regular, Skranji_700Bold } from '@expo-google-fonts/skranji';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Skranji_Regular400,
-    Skranji_Bold700,
+    Skranji_400Regular,
+    Skranji_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Skranji_Regular400' }}>
-          Skranji_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Skranji_400Regular' }}>
+          Skranji_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Skranji_Bold700' }}>
-          Skranji_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Skranji_700Bold' }}>
+          Skranji_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Skranji_Regular400
-![Skranji_Regular400](./9ee2c9312ee6ae5db2fdf49b0a797da03bd5ae1df447d051b081612b3db1d2fd.ttf.png)
+##### Skranji_400Regular
+![Skranji_400Regular](./Skranji_400Regular.ttf.png)
 
-##### Skranji_Bold700
-![Skranji_Bold700](./7dd8ded95fc8d9be6c80296a989eb3057929d548770081d17653c90dc11d8248.ttf.png)
+##### Skranji_700Bold
+![Skranji_700Bold](./Skranji_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/skranji)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

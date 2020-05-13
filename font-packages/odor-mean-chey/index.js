@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Odor Mean Chey';
-export const __fontFamilyVersion__ = 8;
-
-export const OdorMeanChey_Regular400 = require('./50cfa9e8e065a77d82613a14408be3f61743af92c0b938b32e0fba703c21f027.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const OdorMeanChey_400Regular = require('./OdorMeanChey_400Regular.ttf');

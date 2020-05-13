@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Antic Slab';
-export const __fontFamilyVersion__ = 4;
-
-export const AnticSlab_Regular400 = require('./1348202760ad87d67e74d3a921ad2be20b563b2cd2a8d6e99d54da029c7f2aad.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const AnticSlab_400Regular = require('./AnticSlab_400Regular.ttf');

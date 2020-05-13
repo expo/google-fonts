@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Gurajada';
-export const __fontFamilyVersion__ = 4;
-
-export const Gurajada_Regular400 = require('./9647a956c03e34f58b38200ffb45cc56377e8ba1c333ce052b8e20c3216198c3.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Gurajada_400Regular = require('./Gurajada_400Regular.ttf');

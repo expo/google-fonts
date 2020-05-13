@@ -7,16 +7,14 @@
 
 This package lets you use the [**Alef**](https://fonts.google.com/specimen/Alef) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Alef
 
 ![Alef](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Alef_Regular400`
-- `Alef_Bold700`
+- `Alef_400Regular`
+- `Alef_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Alef_Regular400, Alef_Bold700, useFonts } from '@expo-google-fonts/alef';
+import { useFonts, Alef_400Regular, Alef_700Bold } from '@expo-google-fonts/alef';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Alef_Regular400,
-    Alef_Bold700,
+    Alef_400Regular,
+    Alef_700Bold,
   });
 
   let fontSize = 24;
@@ -47,11 +45,11 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Alef_Regular400' }}>
-          Alef_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Alef_400Regular' }}>
+          Alef_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Alef_Bold700' }}>Alef_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Alef_700Bold' }}>Alef_700Bold</Text>
       </View>
     );
   }
@@ -61,11 +59,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Alef_Regular400
-![Alef_Regular400](./a50dedb5215d98f65036893675ded42762d4c7bdae624c71adb1ea584f5a1467.ttf.png)
+##### Alef_400Regular
+![Alef_400Regular](./Alef_400Regular.ttf.png)
 
-##### Alef_Bold700
-![Alef_Bold700](./acbe7d381fcdbd3bca38351290cba306a1dde6549d74fbdef431ee9fcb60030d.ttf.png)
+##### Alef_700Bold
+![Alef_700Bold](./Alef_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -95,7 +93,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/alef)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

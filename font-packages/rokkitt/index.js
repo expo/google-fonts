@@ -4,15 +4,13 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Rokkitt';
-export const __fontFamilyVersion__ = 11;
-
-export const Rokkitt_Thin100 = require('./9a0a1b138370aa3841a848edde26bd7045ac2a5a0f13a513b247417c3489811c.ttf');
-export const Rokkitt_ExtraLight200 = require('./840d357a7d06133d859000a071917c4ea92f02d0f001f247137046392166ff1b.ttf');
-export const Rokkitt_Light300 = require('./19b250411cba0e1bc39378cf1e47ecbd217b7b52e845159655611f9cce3f016f.ttf');
-export const Rokkitt_Regular400 = require('./d605b424de78054bd585518d8a4e136ab863ab5f3110ee43cb0745bca0f94eb3.ttf');
-export const Rokkitt_Medium500 = require('./c3ce457383a5f17f5736ecff7d423f0d5e1f10ba000e7a78145fef0d293439c7.ttf');
-export const Rokkitt_SemiBold600 = require('./710018ab00f1b7534021eb425d0afa5cd1ccc82a3d91a174d7f359afac93f384.ttf');
-export const Rokkitt_Bold700 = require('./76808b96844704a6d75bee1943315ea236557fc6fb1a239ec5fcee6f9c5fcd58.ttf');
-export const Rokkitt_ExtraBold800 = require('./1e99689267ca0778d003215820f88badff6b9986410c8b9d07d2c857c6e04beb.ttf');
-export const Rokkitt_Black900 = require('./a8cf419d654432575866170e1d718f434f7f5cfa52673194ae8fc3d08cbefe92.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Rokkitt_100Thin = require('./Rokkitt_100Thin.ttf');
+export const Rokkitt_200ExtraLight = require('./Rokkitt_200ExtraLight.ttf');
+export const Rokkitt_300Light = require('./Rokkitt_300Light.ttf');
+export const Rokkitt_400Regular = require('./Rokkitt_400Regular.ttf');
+export const Rokkitt_500Medium = require('./Rokkitt_500Medium.ttf');
+export const Rokkitt_600SemiBold = require('./Rokkitt_600SemiBold.ttf');
+export const Rokkitt_700Bold = require('./Rokkitt_700Bold.ttf');
+export const Rokkitt_800ExtraBold = require('./Rokkitt_800ExtraBold.ttf');
+export const Rokkitt_900Black = require('./Rokkitt_900Black.ttf');

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Cambo';
-export const __fontFamilyVersion__ = 5;
-
-export const Cambo_Regular400 = require('./4d8d683131ae5168d1210d9676808b76b985ad2a151d3a7514ec02f7b8a776b9.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Cambo_400Regular = require('./Cambo_400Regular.ttf');

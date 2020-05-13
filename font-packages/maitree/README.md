@@ -7,20 +7,18 @@
 
 This package lets you use the [**Maitree**](https://fonts.google.com/specimen/Maitree) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Maitree
 
 ![Maitree](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `Maitree_ExtraLight200`
-- `Maitree_Light300`
-- `Maitree_Regular400`
-- `Maitree_Medium500`
-- `Maitree_SemiBold600`
-- `Maitree_Bold700`
+- `Maitree_200ExtraLight`
+- `Maitree_300Light`
+- `Maitree_400Regular`
+- `Maitree_500Medium`
+- `Maitree_600SemiBold`
+- `Maitree_700Bold`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Maitree_ExtraLight200,
-  Maitree_Light300,
-  Maitree_Regular400,
-  Maitree_Medium500,
-  Maitree_SemiBold600,
-  Maitree_Bold700,
   useFonts,
+  Maitree_200ExtraLight,
+  Maitree_300Light,
+  Maitree_400Regular,
+  Maitree_500Medium,
+  Maitree_600SemiBold,
+  Maitree_700Bold,
 } from '@expo-google-fonts/maitree';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Maitree_ExtraLight200,
-    Maitree_Light300,
-    Maitree_Regular400,
-    Maitree_Medium500,
-    Maitree_SemiBold600,
-    Maitree_Bold700,
+    Maitree_200ExtraLight,
+    Maitree_300Light,
+    Maitree_400Regular,
+    Maitree_500Medium,
+    Maitree_600SemiBold,
+    Maitree_700Bold,
   });
 
   let fontSize = 24;
@@ -63,28 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_ExtraLight200' }}>
-          Maitree_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_200ExtraLight' }}>
+          Maitree_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_Light300' }}>
-          Maitree_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_300Light' }}>
+          Maitree_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_Regular400' }}>
-          Maitree_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_400Regular' }}>
+          Maitree_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_Medium500' }}>
-          Maitree_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_500Medium' }}>
+          Maitree_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_SemiBold600' }}>
-          Maitree_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_600SemiBold' }}>
+          Maitree_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_Bold700' }}>
-          Maitree_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_700Bold' }}>
+          Maitree_700Bold
         </Text>
       </View>
     );
@@ -95,23 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Maitree_ExtraLight200
-![Maitree_ExtraLight200](./0739208db7083eb1320ec06ca68d5399840b972ed04401c338c373289f55ea74.ttf.png)
+##### Maitree_200ExtraLight
+![Maitree_200ExtraLight](./Maitree_200ExtraLight.ttf.png)
 
-##### Maitree_Light300
-![Maitree_Light300](./19f05ca05c789289a2d8b35a68f7d2eb186a1bdbb47ff7d630f96485b8d06f67.ttf.png)
+##### Maitree_300Light
+![Maitree_300Light](./Maitree_300Light.ttf.png)
 
-##### Maitree_Regular400
-![Maitree_Regular400](./acbe712e2f0c98c52be38409f5b250521e6124b9af003a579b4c94e4e1ad0f49.ttf.png)
+##### Maitree_400Regular
+![Maitree_400Regular](./Maitree_400Regular.ttf.png)
 
-##### Maitree_Medium500
-![Maitree_Medium500](./40f80d32ae82b7f67fe5a2ba972ccaecdf4b1cafee213b04baf2deb885eaf0a5.ttf.png)
+##### Maitree_500Medium
+![Maitree_500Medium](./Maitree_500Medium.ttf.png)
 
-##### Maitree_SemiBold600
-![Maitree_SemiBold600](./fa9e3fc69089c2a19cf33871b62432a04f1b7d8bbb7faa0150665802ed267f0e.ttf.png)
+##### Maitree_600SemiBold
+![Maitree_600SemiBold](./Maitree_600SemiBold.ttf.png)
 
-##### Maitree_Bold700
-![Maitree_Bold700](./0dd3d4080658f7cdb11b91c35ec62b8ff94caac9d5808f03343f66556b2f0ed9.ttf.png)
+##### Maitree_700Bold
+![Maitree_700Bold](./Maitree_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -141,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/maitree)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,24 +4,22 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Prompt';
-export const __fontFamilyVersion__ = 1;
-
-export const Prompt_Thin100 = require('./48988c00dff9e5346bafb0230e233cc244d06d53de9a8c7b1c5ae95b508878d9.ttf');
-export const Prompt_Thin100_Italic = require('./fa017c19d47d8c1de3c967302dc49e99d37de71795dfb971c06ce63c31a2b230.ttf');
-export const Prompt_ExtraLight200 = require('./be13887c30cb0eb82b46627a8d18c34490049df205c234b3d27d8c3efbfeacec.ttf');
-export const Prompt_ExtraLight200_Italic = require('./2ac60a88dbbd5f9ae43c89ce90966920480aa263c9c157da76a8f51c68efebc6.ttf');
-export const Prompt_Light300 = require('./3e355dba756f556f47a7a9d99fe46cfa2d2676c6937bb2af9f39e84bf13ba0a8.ttf');
-export const Prompt_Light300_Italic = require('./cdbdb3675fcbe7c22771818e356aaca5f5bfbd59635b7223dff98a1ef9843b4b.ttf');
-export const Prompt_Regular400 = require('./a26fa613f518a56e8d6ab2da471f1a74fde4a5fd95552a539694b777832f2627.ttf');
-export const Prompt_Regular400_Italic = require('./2ac0428ddf82e1d43425e6afb249d0000b0f3eed6e8583cd6712f53f585f33fa.ttf');
-export const Prompt_Medium500 = require('./627e26dc44fbd7d87a3300a5ddb700b5d169b5cee2c915f78085ced694f0ef98.ttf');
-export const Prompt_Medium500_Italic = require('./c455330873fbc77aaf5958ea7fe12fc7af2325446a34440ebaf090775b7a2f4f.ttf');
-export const Prompt_SemiBold600 = require('./5be3aa9ccbda532fccad8b87b6e554f0403860f32b4499ea56228ecc81246e5d.ttf');
-export const Prompt_SemiBold600_Italic = require('./692795800d326358c0dfeb443453d36353284ee31c283cfde37df17258f6f2bc.ttf');
-export const Prompt_Bold700 = require('./1a3f1635714fe8861ed1027027e0e34183db3b1197ebfba3c2283739950e1fc7.ttf');
-export const Prompt_Bold700_Italic = require('./46317d49f08a684dff0cd9a335124eba5f1feebc850ab74ab6a023096f224c4f.ttf');
-export const Prompt_ExtraBold800 = require('./79977c86dc67cc15e7cce3392fd9a3b9bfcaf261c5bf48de9820fb6b9cf8dd5a.ttf');
-export const Prompt_ExtraBold800_Italic = require('./1bd02cc605f0e4ec0c90fa33ee5726bd1679d6a36c64f1779de4aee232e8a88a.ttf');
-export const Prompt_Black900 = require('./5f0519c649be920aec99489ffcd76b23ec686b254b28fe9cffdd6e5690280c41.ttf');
-export const Prompt_Black900_Italic = require('./9390dbb38f163bec75f6d6682ae93a821e776cd9bed89bf402c7104d295dca25.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Prompt_100Thin = require('./Prompt_100Thin.ttf');
+export const Prompt_100Thin_Italic = require('./Prompt_100Thin_Italic.ttf');
+export const Prompt_200ExtraLight = require('./Prompt_200ExtraLight.ttf');
+export const Prompt_200ExtraLight_Italic = require('./Prompt_200ExtraLight_Italic.ttf');
+export const Prompt_300Light = require('./Prompt_300Light.ttf');
+export const Prompt_300Light_Italic = require('./Prompt_300Light_Italic.ttf');
+export const Prompt_400Regular = require('./Prompt_400Regular.ttf');
+export const Prompt_400Regular_Italic = require('./Prompt_400Regular_Italic.ttf');
+export const Prompt_500Medium = require('./Prompt_500Medium.ttf');
+export const Prompt_500Medium_Italic = require('./Prompt_500Medium_Italic.ttf');
+export const Prompt_600SemiBold = require('./Prompt_600SemiBold.ttf');
+export const Prompt_600SemiBold_Italic = require('./Prompt_600SemiBold_Italic.ttf');
+export const Prompt_700Bold = require('./Prompt_700Bold.ttf');
+export const Prompt_700Bold_Italic = require('./Prompt_700Bold_Italic.ttf');
+export const Prompt_800ExtraBold = require('./Prompt_800ExtraBold.ttf');
+export const Prompt_800ExtraBold_Italic = require('./Prompt_800ExtraBold_Italic.ttf');
+export const Prompt_900Black = require('./Prompt_900Black.ttf');
+export const Prompt_900Black_Italic = require('./Prompt_900Black_Italic.ttf');

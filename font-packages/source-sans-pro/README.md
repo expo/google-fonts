@@ -7,26 +7,24 @@
 
 This package lets you use the [**Source Sans Pro**](https://fonts.google.com/specimen/Source+Sans+Pro) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Source Sans Pro
 
 ![Source Sans Pro](./font-family.png)
 
 This font family contains [12 styles](#-gallery).
 
-- `SourceSansPro_ExtraLight200`
-- `SourceSansPro_ExtraLight200_Italic`
-- `SourceSansPro_Light300`
-- `SourceSansPro_Light300_Italic`
-- `SourceSansPro_Regular400`
-- `SourceSansPro_Regular400_Italic`
-- `SourceSansPro_SemiBold600`
-- `SourceSansPro_SemiBold600_Italic`
-- `SourceSansPro_Bold700`
-- `SourceSansPro_Bold700_Italic`
-- `SourceSansPro_Black900`
-- `SourceSansPro_Black900_Italic`
+- `SourceSansPro_200ExtraLight`
+- `SourceSansPro_200ExtraLight_Italic`
+- `SourceSansPro_300Light`
+- `SourceSansPro_300Light_Italic`
+- `SourceSansPro_400Regular`
+- `SourceSansPro_400Regular_Italic`
+- `SourceSansPro_600SemiBold`
+- `SourceSansPro_600SemiBold_Italic`
+- `SourceSansPro_700Bold`
+- `SourceSansPro_700Bold_Italic`
+- `SourceSansPro_900Black`
+- `SourceSansPro_900Black_Italic`
 
 ## Usage
 
@@ -42,35 +40,35 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  SourceSansPro_ExtraLight200,
-  SourceSansPro_ExtraLight200_Italic,
-  SourceSansPro_Light300,
-  SourceSansPro_Light300_Italic,
-  SourceSansPro_Regular400,
-  SourceSansPro_Regular400_Italic,
-  SourceSansPro_SemiBold600,
-  SourceSansPro_SemiBold600_Italic,
-  SourceSansPro_Bold700,
-  SourceSansPro_Bold700_Italic,
-  SourceSansPro_Black900,
-  SourceSansPro_Black900_Italic,
   useFonts,
+  SourceSansPro_200ExtraLight,
+  SourceSansPro_200ExtraLight_Italic,
+  SourceSansPro_300Light,
+  SourceSansPro_300Light_Italic,
+  SourceSansPro_400Regular,
+  SourceSansPro_400Regular_Italic,
+  SourceSansPro_600SemiBold,
+  SourceSansPro_600SemiBold_Italic,
+  SourceSansPro_700Bold,
+  SourceSansPro_700Bold_Italic,
+  SourceSansPro_900Black,
+  SourceSansPro_900Black_Italic,
 } from '@expo-google-fonts/source-sans-pro';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    SourceSansPro_ExtraLight200,
-    SourceSansPro_ExtraLight200_Italic,
-    SourceSansPro_Light300,
-    SourceSansPro_Light300_Italic,
-    SourceSansPro_Regular400,
-    SourceSansPro_Regular400_Italic,
-    SourceSansPro_SemiBold600,
-    SourceSansPro_SemiBold600_Italic,
-    SourceSansPro_Bold700,
-    SourceSansPro_Bold700_Italic,
-    SourceSansPro_Black900,
-    SourceSansPro_Black900_Italic,
+    SourceSansPro_200ExtraLight,
+    SourceSansPro_200ExtraLight_Italic,
+    SourceSansPro_300Light,
+    SourceSansPro_300Light_Italic,
+    SourceSansPro_400Regular,
+    SourceSansPro_400Regular_Italic,
+    SourceSansPro_600SemiBold,
+    SourceSansPro_600SemiBold_Italic,
+    SourceSansPro_700Bold,
+    SourceSansPro_700Bold_Italic,
+    SourceSansPro_900Black,
+    SourceSansPro_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -81,53 +79,53 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_ExtraLight200' }}>
-          SourceSansPro_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_200ExtraLight' }}>
+          SourceSansPro_200ExtraLight
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_ExtraLight200_Italic' }}>
-          SourceSansPro_ExtraLight200_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_200ExtraLight_Italic' }}>
+          SourceSansPro_200ExtraLight_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_Light300' }}>
-          SourceSansPro_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_300Light' }}>
+          SourceSansPro_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_Light300_Italic' }}>
-          SourceSansPro_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_300Light_Italic' }}>
+          SourceSansPro_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_Regular400' }}>
-          SourceSansPro_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_400Regular' }}>
+          SourceSansPro_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_Regular400_Italic' }}>
-          SourceSansPro_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_400Regular_Italic' }}>
+          SourceSansPro_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_SemiBold600' }}>
-          SourceSansPro_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_600SemiBold' }}>
+          SourceSansPro_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_SemiBold600_Italic' }}>
-          SourceSansPro_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_600SemiBold_Italic' }}>
+          SourceSansPro_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_Bold700' }}>
-          SourceSansPro_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_700Bold' }}>
+          SourceSansPro_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_Bold700_Italic' }}>
-          SourceSansPro_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_700Bold_Italic' }}>
+          SourceSansPro_700Bold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_Black900' }}>
-          SourceSansPro_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_900Black' }}>
+          SourceSansPro_900Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_Black900_Italic' }}>
-          SourceSansPro_Black900_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_900Black_Italic' }}>
+          SourceSansPro_900Black_Italic
         </Text>
       </View>
     );
@@ -138,41 +136,41 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SourceSansPro_ExtraLight200
-![SourceSansPro_ExtraLight200](./069aaad5d271d9417c8b97f8312f686cf5a9a41a8e3644b572c60c8e176ed7e0.ttf.png)
+##### SourceSansPro_200ExtraLight
+![SourceSansPro_200ExtraLight](./SourceSansPro_200ExtraLight.ttf.png)
 
-##### SourceSansPro_ExtraLight200_Italic
-![SourceSansPro_ExtraLight200_Italic](./1538944579d3bc333bfe34ed45c1db572897fcf695af75f4e45ef5ac42c3aa12.ttf.png)
+##### SourceSansPro_200ExtraLight_Italic
+![SourceSansPro_200ExtraLight_Italic](./SourceSansPro_200ExtraLight_Italic.ttf.png)
 
-##### SourceSansPro_Light300
-![SourceSansPro_Light300](./bb276921895494650544883e21f7d2bc91ec918522ac3d355582b0cd472592cc.ttf.png)
+##### SourceSansPro_300Light
+![SourceSansPro_300Light](./SourceSansPro_300Light.ttf.png)
 
-##### SourceSansPro_Light300_Italic
-![SourceSansPro_Light300_Italic](./c068f601e24f3e8ced3014cb3dc4a32022c06af8e27ca870d6c76432d280e75a.ttf.png)
+##### SourceSansPro_300Light_Italic
+![SourceSansPro_300Light_Italic](./SourceSansPro_300Light_Italic.ttf.png)
 
-##### SourceSansPro_Regular400
-![SourceSansPro_Regular400](./6ed615e8d0355256e2d6d907b3addb929879c90c8383dd566b2208c79ffd16f7.ttf.png)
+##### SourceSansPro_400Regular
+![SourceSansPro_400Regular](./SourceSansPro_400Regular.ttf.png)
 
-##### SourceSansPro_Regular400_Italic
-![SourceSansPro_Regular400_Italic](./e35d7fde727174172e9689f4584ff9e4559a37ca0b39b096fa72f0f657b31bc9.ttf.png)
+##### SourceSansPro_400Regular_Italic
+![SourceSansPro_400Regular_Italic](./SourceSansPro_400Regular_Italic.ttf.png)
 
-##### SourceSansPro_SemiBold600
-![SourceSansPro_SemiBold600](./5629ccf5ed16fa41c51a964b882a8e1e1e395a714906a90567278bd0c439ecc1.ttf.png)
+##### SourceSansPro_600SemiBold
+![SourceSansPro_600SemiBold](./SourceSansPro_600SemiBold.ttf.png)
 
-##### SourceSansPro_SemiBold600_Italic
-![SourceSansPro_SemiBold600_Italic](./e8bcda13818deef42d6e19f3009f6e18a595746c5dcc1d35c56280c5dea32b21.ttf.png)
+##### SourceSansPro_600SemiBold_Italic
+![SourceSansPro_600SemiBold_Italic](./SourceSansPro_600SemiBold_Italic.ttf.png)
 
-##### SourceSansPro_Bold700
-![SourceSansPro_Bold700](./6b9e7872867a9a0fca2083e62b2c39727a93c81b736fb1e21cc1c29ba89008ff.ttf.png)
+##### SourceSansPro_700Bold
+![SourceSansPro_700Bold](./SourceSansPro_700Bold.ttf.png)
 
-##### SourceSansPro_Bold700_Italic
-![SourceSansPro_Bold700_Italic](./f417993b734490d591dd2a3f10022f8ff1a376876eeca00098baf25759b2522b.ttf.png)
+##### SourceSansPro_700Bold_Italic
+![SourceSansPro_700Bold_Italic](./SourceSansPro_700Bold_Italic.ttf.png)
 
-##### SourceSansPro_Black900
-![SourceSansPro_Black900](./1d969d176ba4ea2075fe69e5b9799e9dbc146889092823d49453241c80e93a2a.ttf.png)
+##### SourceSansPro_900Black
+![SourceSansPro_900Black](./SourceSansPro_900Black.ttf.png)
 
-##### SourceSansPro_Black900_Italic
-![SourceSansPro_Black900_Italic](./954080abe4fffebb675bea9c34eb0d873cf25f8674e9d55cde4c9c962f44a421.ttf.png)
+##### SourceSansPro_900Black_Italic
+![SourceSansPro_900Black_Italic](./SourceSansPro_900Black_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -202,7 +200,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/source-sans-pro)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

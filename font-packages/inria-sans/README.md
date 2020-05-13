@@ -7,20 +7,18 @@
 
 This package lets you use the [**Inria Sans**](https://fonts.google.com/specimen/Inria+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Inria Sans
 
 ![Inria Sans](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `InriaSans_Light300`
-- `InriaSans_Light300_Italic`
-- `InriaSans_Regular400`
-- `InriaSans_Regular400_Italic`
-- `InriaSans_Bold700`
-- `InriaSans_Bold700_Italic`
+- `InriaSans_300Light`
+- `InriaSans_300Light_Italic`
+- `InriaSans_400Regular`
+- `InriaSans_400Regular_Italic`
+- `InriaSans_700Bold`
+- `InriaSans_700Bold_Italic`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  InriaSans_Light300,
-  InriaSans_Light300_Italic,
-  InriaSans_Regular400,
-  InriaSans_Regular400_Italic,
-  InriaSans_Bold700,
-  InriaSans_Bold700_Italic,
   useFonts,
+  InriaSans_300Light,
+  InriaSans_300Light_Italic,
+  InriaSans_400Regular,
+  InriaSans_400Regular_Italic,
+  InriaSans_700Bold,
+  InriaSans_700Bold_Italic,
 } from '@expo-google-fonts/inria-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    InriaSans_Light300,
-    InriaSans_Light300_Italic,
-    InriaSans_Regular400,
-    InriaSans_Regular400_Italic,
-    InriaSans_Bold700,
-    InriaSans_Bold700_Italic,
+    InriaSans_300Light,
+    InriaSans_300Light_Italic,
+    InriaSans_400Regular,
+    InriaSans_400Regular_Italic,
+    InriaSans_700Bold,
+    InriaSans_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -63,28 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSans_Light300' }}>
-          InriaSans_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSans_300Light' }}>
+          InriaSans_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSans_Light300_Italic' }}>
-          InriaSans_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSans_300Light_Italic' }}>
+          InriaSans_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSans_Regular400' }}>
-          InriaSans_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSans_400Regular' }}>
+          InriaSans_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSans_Regular400_Italic' }}>
-          InriaSans_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSans_400Regular_Italic' }}>
+          InriaSans_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSans_Bold700' }}>
-          InriaSans_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSans_700Bold' }}>
+          InriaSans_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSans_Bold700_Italic' }}>
-          InriaSans_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSans_700Bold_Italic' }}>
+          InriaSans_700Bold_Italic
         </Text>
       </View>
     );
@@ -95,23 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### InriaSans_Light300
-![InriaSans_Light300](./3bde5e08b5ec7274f1c28704b62bd581c28724f8cf4412d56a9e24435e927789.ttf.png)
+##### InriaSans_300Light
+![InriaSans_300Light](./InriaSans_300Light.ttf.png)
 
-##### InriaSans_Light300_Italic
-![InriaSans_Light300_Italic](./e33d8e62a895c0402146425676e4254906218e07c6adde8532ae0f436aff96ae.ttf.png)
+##### InriaSans_300Light_Italic
+![InriaSans_300Light_Italic](./InriaSans_300Light_Italic.ttf.png)
 
-##### InriaSans_Regular400
-![InriaSans_Regular400](./78a5989461a98cf7daa6612f5b9240f06cf592fcaeb0684a49a73d5616085753.ttf.png)
+##### InriaSans_400Regular
+![InriaSans_400Regular](./InriaSans_400Regular.ttf.png)
 
-##### InriaSans_Regular400_Italic
-![InriaSans_Regular400_Italic](./dea0c172e0ec1669869a55587b188534d474341d049a62012e316cdd79e82f22.ttf.png)
+##### InriaSans_400Regular_Italic
+![InriaSans_400Regular_Italic](./InriaSans_400Regular_Italic.ttf.png)
 
-##### InriaSans_Bold700
-![InriaSans_Bold700](./7747b367f8106ba29552aff3126864e3d6b20c008e33d214252ca30fff47f65c.ttf.png)
+##### InriaSans_700Bold
+![InriaSans_700Bold](./InriaSans_700Bold.ttf.png)
 
-##### InriaSans_Bold700_Italic
-![InriaSans_Bold700_Italic](./70544f369add81b1bf7a0b8f3d4108c7bdca0f1426f9251c47d8d54ae6820b90.ttf.png)
+##### InriaSans_700Bold_Italic
+![InriaSans_700Bold_Italic](./InriaSans_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -141,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/inria-sans)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

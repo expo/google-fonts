@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Jolly Lodger';
-export const __fontFamilyVersion__ = 4;
-
-export const JollyLodger_Regular400 = require('./816f864e770d0e20f949a3c6064291765734593637efde29ea2295a773c7afa2.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const JollyLodger_400Regular = require('./JollyLodger_400Regular.ttf');

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Dhurjati';
-export const __fontFamilyVersion__ = 4;
-
-export const Dhurjati_Regular400 = require('./ee0b382be9acedd63b3e624d49e646e5951cb5e8d54c0724ad01128bd8690012.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Dhurjati_400Regular = require('./Dhurjati_400Regular.ttf');

@@ -7,16 +7,14 @@
 
 This package lets you use the [**Quattrocento**](https://fonts.google.com/specimen/Quattrocento) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Quattrocento
 
 ![Quattrocento](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Quattrocento_Regular400`
-- `Quattrocento_Bold700`
+- `Quattrocento_400Regular`
+- `Quattrocento_700Bold`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Quattrocento_Regular400,
-  Quattrocento_Bold700,
   useFonts,
+  Quattrocento_400Regular,
+  Quattrocento_700Bold,
 } from '@expo-google-fonts/quattrocento';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Quattrocento_Regular400,
-    Quattrocento_Bold700,
+    Quattrocento_400Regular,
+    Quattrocento_700Bold,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quattrocento_Regular400' }}>
-          Quattrocento_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quattrocento_400Regular' }}>
+          Quattrocento_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quattrocento_Bold700' }}>
-          Quattrocento_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quattrocento_700Bold' }}>
+          Quattrocento_700Bold
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Quattrocento_Regular400
-![Quattrocento_Regular400](./5889732ed96c5175bebb886a2f99f90cbf93d54ad643f7cf5376b4532c385aaa.ttf.png)
+##### Quattrocento_400Regular
+![Quattrocento_400Regular](./Quattrocento_400Regular.ttf.png)
 
-##### Quattrocento_Bold700
-![Quattrocento_Bold700](./72919cef5349b9fa016e032e20becd479cf50e5b1a159f0b68747631e333ae6c.ttf.png)
+##### Quattrocento_700Bold
+![Quattrocento_700Bold](./Quattrocento_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/quattrocento)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

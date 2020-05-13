@@ -7,16 +7,14 @@
 
 This package lets you use the [**Coda**](https://fonts.google.com/specimen/Coda) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Coda
 
 ![Coda](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Coda_Regular400`
-- `Coda_ExtraBold800`
+- `Coda_400Regular`
+- `Coda_800ExtraBold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Coda_Regular400, Coda_ExtraBold800, useFonts } from '@expo-google-fonts/coda';
+import { useFonts, Coda_400Regular, Coda_800ExtraBold } from '@expo-google-fonts/coda';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Coda_Regular400,
-    Coda_ExtraBold800,
+    Coda_400Regular,
+    Coda_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Coda_Regular400' }}>
-          Coda_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Coda_400Regular' }}>
+          Coda_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Coda_ExtraBold800' }}>
-          Coda_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Coda_800ExtraBold' }}>
+          Coda_800ExtraBold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Coda_Regular400
-![Coda_Regular400](./3286b71ee83e8775ab6ae6fef1580c62d0344ad5a8a10ba144104648a36f9749.ttf.png)
+##### Coda_400Regular
+![Coda_400Regular](./Coda_400Regular.ttf.png)
 
-##### Coda_ExtraBold800
-![Coda_ExtraBold800](./0f385f570ff23725ac544ecfcf2ec8b8cbca733a730d2038266a6eb8b071e4c0.ttf.png)
+##### Coda_800ExtraBold
+![Coda_800ExtraBold](./Coda_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/coda)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

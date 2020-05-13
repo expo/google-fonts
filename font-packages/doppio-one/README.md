@@ -7,15 +7,13 @@
 
 This package lets you use the [**Doppio One**](https://fonts.google.com/specimen/Doppio+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Doppio One
 
 ![Doppio One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `DoppioOne_Regular400`
+- `DoppioOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { DoppioOne_Regular400, useFonts } from '@expo-google-fonts/doppio-one';
+import { useFonts, DoppioOne_400Regular } from '@expo-google-fonts/doppio-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    DoppioOne_Regular400,
+    DoppioOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DoppioOne_Regular400' }}>
-          DoppioOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DoppioOne_400Regular' }}>
+          DoppioOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DoppioOne_Regular400
-![DoppioOne_Regular400](./72f56b16a716f87ccdb2d2fa52196eb1c365c8b142e58ef5bc106a01345cdc28.ttf.png)
+##### DoppioOne_400Regular
+![DoppioOne_400Regular](./DoppioOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/doppio-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

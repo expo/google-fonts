@@ -4,17 +4,15 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Titillium Web';
-export const __fontFamilyVersion__ = 5;
-
-export const TitilliumWeb_ExtraLight200 = require('./19772d85bad94abc7a76fc4a64849db9638e9c00e7e0dadd3872a583b74adbe3.ttf');
-export const TitilliumWeb_ExtraLight200_Italic = require('./a39917b8e97b8433f10dae6821885f087662f1062a48a366f2f2f287c74ecb6c.ttf');
-export const TitilliumWeb_Light300 = require('./7da8c41b9e519ca322471fc0bdcc15a795423fb09cbf094a6787142218ec1c9e.ttf');
-export const TitilliumWeb_Light300_Italic = require('./f0ff528b94c980870d32757c89817e790c119bea9de817d49334ba1a3f04ef9a.ttf');
-export const TitilliumWeb_Regular400 = require('./ba6d03922294b498b3e57ace654a9ee6715c33081cd24c1df56004ca64ba6e66.ttf');
-export const TitilliumWeb_Regular400_Italic = require('./d785f9b4efc2d7f91a854d36930d269122091296e25a46cc7931e2cd717567d5.ttf');
-export const TitilliumWeb_SemiBold600 = require('./8c9b215a8e543b09a087afec74223fb41a74378deb5b83c8457630d03f0b5fc3.ttf');
-export const TitilliumWeb_SemiBold600_Italic = require('./e43b57298b99f0da6d3bfa3de072e88a539bf01332c5232e8e29dfee09cb859c.ttf');
-export const TitilliumWeb_Bold700 = require('./10e8c4207611b16691202b4204f5fbd4e27aa240a45dbb2ca91f63f341056539.ttf');
-export const TitilliumWeb_Bold700_Italic = require('./dd23a74d333a9694f51ccb193efddc8d38e892053eca374882e2fe4043181559.ttf');
-export const TitilliumWeb_Black900 = require('./742f14f17526638a90f24974f5222008c89acabe2c636deb378ba287cf381bc6.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const TitilliumWeb_200ExtraLight = require('./TitilliumWeb_200ExtraLight.ttf');
+export const TitilliumWeb_200ExtraLight_Italic = require('./TitilliumWeb_200ExtraLight_Italic.ttf');
+export const TitilliumWeb_300Light = require('./TitilliumWeb_300Light.ttf');
+export const TitilliumWeb_300Light_Italic = require('./TitilliumWeb_300Light_Italic.ttf');
+export const TitilliumWeb_400Regular = require('./TitilliumWeb_400Regular.ttf');
+export const TitilliumWeb_400Regular_Italic = require('./TitilliumWeb_400Regular_Italic.ttf');
+export const TitilliumWeb_600SemiBold = require('./TitilliumWeb_600SemiBold.ttf');
+export const TitilliumWeb_600SemiBold_Italic = require('./TitilliumWeb_600SemiBold_Italic.ttf');
+export const TitilliumWeb_700Bold = require('./TitilliumWeb_700Bold.ttf');
+export const TitilliumWeb_700Bold_Italic = require('./TitilliumWeb_700Bold_Italic.ttf');
+export const TitilliumWeb_900Black = require('./TitilliumWeb_900Black.ttf');

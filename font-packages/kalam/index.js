@@ -4,9 +4,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Kalam';
-export const __fontFamilyVersion__ = 7;
-
-export const Kalam_Light300 = require('./acc410247649f3164d61952a81b88737fb56977ac409e4d5f35d960e3b13747a.ttf');
-export const Kalam_Regular400 = require('./546c956074b4cd1c7d9936a82b03a712ec46df693b5a0faa80d4233f6bc17d2c.ttf');
-export const Kalam_Bold700 = require('./d48470c951c546b15999abb42141211e85484cffff16ce7612d07676efb9d0d8.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Kalam_300Light = require('./Kalam_300Light.ttf');
+export const Kalam_400Regular = require('./Kalam_400Regular.ttf');
+export const Kalam_700Bold = require('./Kalam_700Bold.ttf');

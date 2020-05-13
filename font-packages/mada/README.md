@@ -7,21 +7,19 @@
 
 This package lets you use the [**Mada**](https://fonts.google.com/specimen/Mada) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Mada
 
 ![Mada](./font-family.png)
 
 This font family contains [7 styles](#-gallery).
 
-- `Mada_ExtraLight200`
-- `Mada_Light300`
-- `Mada_Regular400`
-- `Mada_Medium500`
-- `Mada_SemiBold600`
-- `Mada_Bold700`
-- `Mada_Black900`
+- `Mada_200ExtraLight`
+- `Mada_300Light`
+- `Mada_400Regular`
+- `Mada_500Medium`
+- `Mada_600SemiBold`
+- `Mada_700Bold`
+- `Mada_900Black`
 
 ## Usage
 
@@ -37,25 +35,25 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Mada_ExtraLight200,
-  Mada_Light300,
-  Mada_Regular400,
-  Mada_Medium500,
-  Mada_SemiBold600,
-  Mada_Bold700,
-  Mada_Black900,
   useFonts,
+  Mada_200ExtraLight,
+  Mada_300Light,
+  Mada_400Regular,
+  Mada_500Medium,
+  Mada_600SemiBold,
+  Mada_700Bold,
+  Mada_900Black,
 } from '@expo-google-fonts/mada';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Mada_ExtraLight200,
-    Mada_Light300,
-    Mada_Regular400,
-    Mada_Medium500,
-    Mada_SemiBold600,
-    Mada_Bold700,
-    Mada_Black900,
+    Mada_200ExtraLight,
+    Mada_300Light,
+    Mada_400Regular,
+    Mada_500Medium,
+    Mada_600SemiBold,
+    Mada_700Bold,
+    Mada_900Black,
   });
 
   let fontSize = 24;
@@ -66,30 +64,30 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_ExtraLight200' }}>
-          Mada_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_200ExtraLight' }}>
+          Mada_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_Light300' }}>
-          Mada_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_300Light' }}>
+          Mada_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_Regular400' }}>
-          Mada_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_400Regular' }}>
+          Mada_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_Medium500' }}>
-          Mada_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_500Medium' }}>
+          Mada_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_SemiBold600' }}>
-          Mada_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_600SemiBold' }}>
+          Mada_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_Bold700' }}>Mada_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_700Bold' }}>Mada_700Bold</Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_Black900' }}>
-          Mada_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_900Black' }}>
+          Mada_900Black
         </Text>
       </View>
     );
@@ -100,26 +98,26 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Mada_ExtraLight200
-![Mada_ExtraLight200](./9e8f4edc7b74697883d4382000502d7429481f7ccc59b65ac62c28e99481cbc3.ttf.png)
+##### Mada_200ExtraLight
+![Mada_200ExtraLight](./Mada_200ExtraLight.ttf.png)
 
-##### Mada_Light300
-![Mada_Light300](./4987425fde45e8da45ede3fad409b0ac00e32ca0255a60b44b8e1f701764346c.ttf.png)
+##### Mada_300Light
+![Mada_300Light](./Mada_300Light.ttf.png)
 
-##### Mada_Regular400
-![Mada_Regular400](./9e3c24ab83037a6d4fc5b72d068caaa6a0767414bd20d7defe31c562ced6d6e7.ttf.png)
+##### Mada_400Regular
+![Mada_400Regular](./Mada_400Regular.ttf.png)
 
-##### Mada_Medium500
-![Mada_Medium500](./c3e70bf71ab0557ddd82906726c36d89e199792db1997040b1599f61e00acd78.ttf.png)
+##### Mada_500Medium
+![Mada_500Medium](./Mada_500Medium.ttf.png)
 
-##### Mada_SemiBold600
-![Mada_SemiBold600](./052e0e0f174e9e8ff63bf2a85f70db6cc59d3391a016a31ace8e20c49d0fa0d6.ttf.png)
+##### Mada_600SemiBold
+![Mada_600SemiBold](./Mada_600SemiBold.ttf.png)
 
-##### Mada_Bold700
-![Mada_Bold700](./b94e1f9c917ae40e5e6b8d95fe24de1817e37942aafb9b9310d5e0d4b049221a.ttf.png)
+##### Mada_700Bold
+![Mada_700Bold](./Mada_700Bold.ttf.png)
 
-##### Mada_Black900
-![Mada_Black900](./7746a4ca1c6767a971c0db31ec18594fa5211adcc318e293d27b55efc36bded9.ttf.png)
+##### Mada_900Black
+![Mada_900Black](./Mada_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -149,7 +147,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/mada)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

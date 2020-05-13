@@ -7,18 +7,16 @@
 
 This package lets you use the [**Amiri**](https://fonts.google.com/specimen/Amiri) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Amiri
 
 ![Amiri](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Amiri_Regular400`
-- `Amiri_Regular400_Italic`
-- `Amiri_Bold700`
-- `Amiri_Bold700_Italic`
+- `Amiri_400Regular`
+- `Amiri_400Regular_Italic`
+- `Amiri_700Bold`
+- `Amiri_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Amiri_Regular400,
-  Amiri_Regular400_Italic,
-  Amiri_Bold700,
-  Amiri_Bold700_Italic,
   useFonts,
+  Amiri_400Regular,
+  Amiri_400Regular_Italic,
+  Amiri_700Bold,
+  Amiri_700Bold_Italic,
 } from '@expo-google-fonts/amiri';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Amiri_Regular400,
-    Amiri_Regular400_Italic,
-    Amiri_Bold700,
-    Amiri_Bold700_Italic,
+    Amiri_400Regular,
+    Amiri_400Regular_Italic,
+    Amiri_700Bold,
+    Amiri_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiri_Regular400' }}>
-          Amiri_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiri_400Regular' }}>
+          Amiri_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiri_Regular400_Italic' }}>
-          Amiri_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiri_400Regular_Italic' }}>
+          Amiri_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiri_Bold700' }}>
-          Amiri_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiri_700Bold' }}>
+          Amiri_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiri_Bold700_Italic' }}>
-          Amiri_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiri_700Bold_Italic' }}>
+          Amiri_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Amiri_Regular400
-![Amiri_Regular400](./15af380107efd8a082b372d1ba8027d5fd6d4720ccf7f7ce48345b845cfb83b6.ttf.png)
+##### Amiri_400Regular
+![Amiri_400Regular](./Amiri_400Regular.ttf.png)
 
-##### Amiri_Regular400_Italic
-![Amiri_Regular400_Italic](./03496500b8efdd151ca91912b003f23e04fcb45a8d39cee588e4ea47b61fc052.ttf.png)
+##### Amiri_400Regular_Italic
+![Amiri_400Regular_Italic](./Amiri_400Regular_Italic.ttf.png)
 
-##### Amiri_Bold700
-![Amiri_Bold700](./a1f6fcfa01fc6084132c66ff5b8da7b655fbf82dae7a9200c4471400281678bb.ttf.png)
+##### Amiri_700Bold
+![Amiri_700Bold](./Amiri_700Bold.ttf.png)
 
-##### Amiri_Bold700_Italic
-![Amiri_Bold700_Italic](./9d9add54ab339fd5ca1f0b2fbda1117e04758800cefa39fa72d5f1e38b7a2e27.ttf.png)
+##### Amiri_700Bold_Italic
+![Amiri_700Bold_Italic](./Amiri_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/amiri)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,15 +7,13 @@
 
 This package lets you use the [**NTR**](https://fonts.google.com/specimen/NTR) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## NTR
 
 ![NTR](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `NTR_Regular400`
+- `NTR_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { NTR_Regular400, useFonts } from '@expo-google-fonts/ntr';
+import { useFonts, NTR_400Regular } from '@expo-google-fonts/ntr';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    NTR_Regular400,
+    NTR_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NTR_Regular400' }}>
-          NTR_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NTR_400Regular' }}>
+          NTR_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NTR_Regular400
-![NTR_Regular400](./a81d9625c6e1cc5d20f097e68c4604194966a833b0bacfa533a882ad3fe92592.ttf.png)
+##### NTR_400Regular
+![NTR_400Regular](./NTR_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/ntr)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

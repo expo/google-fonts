@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Goudy Bookletter 1911';
-export const __fontFamilyVersion__ = 6;
-
-export const GoudyBookletter1911_Regular400 = require('./a4ea1fd345de7df9251d754f6ecc38147180ed991b78a0979f3ec409ee987e8b.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const GoudyBookletter1911_400Regular = require('./GoudyBookletter1911_400Regular.ttf');

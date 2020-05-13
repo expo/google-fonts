@@ -7,15 +7,13 @@
 
 This package lets you use the [**Peddana**](https://fonts.google.com/specimen/Peddana) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Peddana
 
 ![Peddana](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Peddana_Regular400`
+- `Peddana_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Peddana_Regular400, useFonts } from '@expo-google-fonts/peddana';
+import { useFonts, Peddana_400Regular } from '@expo-google-fonts/peddana';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Peddana_Regular400,
+    Peddana_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Peddana_Regular400' }}>
-          Peddana_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Peddana_400Regular' }}>
+          Peddana_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Peddana_Regular400
-![Peddana_Regular400](./4c066d855b7652305b1b9d3d0308b0c71161bd1e83a7b4a8bdebadd005f749b6.ttf.png)
+##### Peddana_400Regular
+![Peddana_400Regular](./Peddana_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/peddana)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

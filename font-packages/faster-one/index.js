@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Faster One';
-export const __fontFamilyVersion__ = 6;
-
-export const FasterOne_Regular400 = require('./fbde65e70c94e07f0152fa5b1506d0a77cf338a94d29423fec1aa0730891cd04.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const FasterOne_400Regular = require('./FasterOne_400Regular.ttf');

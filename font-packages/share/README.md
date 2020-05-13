@@ -7,18 +7,16 @@
 
 This package lets you use the [**Share**](https://fonts.google.com/specimen/Share) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Share
 
 ![Share](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Share_Regular400`
-- `Share_Regular400_Italic`
-- `Share_Bold700`
-- `Share_Bold700_Italic`
+- `Share_400Regular`
+- `Share_400Regular_Italic`
+- `Share_700Bold`
+- `Share_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Share_Regular400,
-  Share_Regular400_Italic,
-  Share_Bold700,
-  Share_Bold700_Italic,
   useFonts,
+  Share_400Regular,
+  Share_400Regular_Italic,
+  Share_700Bold,
+  Share_700Bold_Italic,
 } from '@expo-google-fonts/share';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Share_Regular400,
-    Share_Regular400_Italic,
-    Share_Bold700,
-    Share_Bold700_Italic,
+    Share_400Regular,
+    Share_400Regular_Italic,
+    Share_700Bold,
+    Share_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Share_Regular400' }}>
-          Share_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Share_400Regular' }}>
+          Share_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Share_Regular400_Italic' }}>
-          Share_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Share_400Regular_Italic' }}>
+          Share_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Share_Bold700' }}>
-          Share_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Share_700Bold' }}>
+          Share_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Share_Bold700_Italic' }}>
-          Share_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Share_700Bold_Italic' }}>
+          Share_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Share_Regular400
-![Share_Regular400](./c1621fb56fac35ccedec411f3ee0e726ca8c3b6c1e5616fcaec194d0e26c1207.ttf.png)
+##### Share_400Regular
+![Share_400Regular](./Share_400Regular.ttf.png)
 
-##### Share_Regular400_Italic
-![Share_Regular400_Italic](./e7c900b0cd2cdfb860519a4df3b0242ad6ae849a1fcb892760fbf78e93214626.ttf.png)
+##### Share_400Regular_Italic
+![Share_400Regular_Italic](./Share_400Regular_Italic.ttf.png)
 
-##### Share_Bold700
-![Share_Bold700](./283b89ac6d01b1444d546b1992f9ce7ab0f1ecda06b9d33769bbbf3ee979a76c.ttf.png)
+##### Share_700Bold
+![Share_700Bold](./Share_700Bold.ttf.png)
 
-##### Share_Bold700_Italic
-![Share_Bold700_Italic](./a8f8a01adf843c6551142bd88a1f437fa3b739e7dbaaef798f80a5500afae4d3.ttf.png)
+##### Share_700Bold_Italic
+![Share_700Bold_Italic](./Share_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/share)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

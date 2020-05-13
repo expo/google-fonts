@@ -7,19 +7,17 @@
 
 This package lets you use the [**Laila**](https://fonts.google.com/specimen/Laila) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Laila
 
 ![Laila](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `Laila_Light300`
-- `Laila_Regular400`
-- `Laila_Medium500`
-- `Laila_SemiBold600`
-- `Laila_Bold700`
+- `Laila_300Light`
+- `Laila_400Regular`
+- `Laila_500Medium`
+- `Laila_600SemiBold`
+- `Laila_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Laila_Light300,
-  Laila_Regular400,
-  Laila_Medium500,
-  Laila_SemiBold600,
-  Laila_Bold700,
   useFonts,
+  Laila_300Light,
+  Laila_400Regular,
+  Laila_500Medium,
+  Laila_600SemiBold,
+  Laila_700Bold,
 } from '@expo-google-fonts/laila';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Laila_Light300,
-    Laila_Regular400,
-    Laila_Medium500,
-    Laila_SemiBold600,
-    Laila_Bold700,
+    Laila_300Light,
+    Laila_400Regular,
+    Laila_500Medium,
+    Laila_600SemiBold,
+    Laila_700Bold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Laila_Light300' }}>
-          Laila_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Laila_300Light' }}>
+          Laila_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Laila_Regular400' }}>
-          Laila_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Laila_400Regular' }}>
+          Laila_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Laila_Medium500' }}>
-          Laila_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Laila_500Medium' }}>
+          Laila_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Laila_SemiBold600' }}>
-          Laila_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Laila_600SemiBold' }}>
+          Laila_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Laila_Bold700' }}>
-          Laila_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Laila_700Bold' }}>
+          Laila_700Bold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Laila_Light300
-![Laila_Light300](./8aac335fe109f453ca82438785143a3d54ca6b5860f929a066015b366dd23603.ttf.png)
+##### Laila_300Light
+![Laila_300Light](./Laila_300Light.ttf.png)
 
-##### Laila_Regular400
-![Laila_Regular400](./ba573905733e8e1ec12baa194825add1cb80997c3c08b032d6439d524eef298a.ttf.png)
+##### Laila_400Regular
+![Laila_400Regular](./Laila_400Regular.ttf.png)
 
-##### Laila_Medium500
-![Laila_Medium500](./445309cf766b79874168d66f2dc2f5eb067c865989ed496a8e2389411de9e18b.ttf.png)
+##### Laila_500Medium
+![Laila_500Medium](./Laila_500Medium.ttf.png)
 
-##### Laila_SemiBold600
-![Laila_SemiBold600](./f393a4935161c1ac8a55a20d2a1107e698de003ace696ae5c6db50c7bf8c0781.ttf.png)
+##### Laila_600SemiBold
+![Laila_600SemiBold](./Laila_600SemiBold.ttf.png)
 
-##### Laila_Bold700
-![Laila_Bold700](./a2cfeefaeb650171ed23e31b4fe85b7c5b8605f36e351821ffd3a351aeec6c17.ttf.png)
+##### Laila_700Bold
+![Laila_700Bold](./Laila_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/laila)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

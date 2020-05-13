@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Averia Gruesa Libre';
-export const __fontFamilyVersion__ = 5;
-
-export const AveriaGruesaLibre_Regular400 = require('./3c60fda1756722c9f8d80009e0627d49eb2106d9eada7962d132e3ebef09c96a.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const AveriaGruesaLibre_400Regular = require('./AveriaGruesaLibre_400Regular.ttf');

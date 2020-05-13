@@ -7,18 +7,21 @@
 
 This package lets you use the [**Roboto Slab**](https://fonts.google.com/specimen/Roboto+Slab) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Roboto Slab
 
 ![Roboto Slab](./font-family.png)
 
-This font family contains [4 styles](#-gallery).
+This font family contains [9 styles](#-gallery).
 
-- `RobotoSlab_Thin100`
-- `RobotoSlab_Light300`
-- `RobotoSlab_Regular400`
-- `RobotoSlab_Bold700`
+- `RobotoSlab_100Thin`
+- `RobotoSlab_200ExtraLight`
+- `RobotoSlab_300Light`
+- `RobotoSlab_400Regular`
+- `RobotoSlab_500Medium`
+- `RobotoSlab_600SemiBold`
+- `RobotoSlab_700Bold`
+- `RobotoSlab_800ExtraBold`
+- `RobotoSlab_900Black`
 
 ## Usage
 
@@ -34,19 +37,29 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  RobotoSlab_Thin100,
-  RobotoSlab_Light300,
-  RobotoSlab_Regular400,
-  RobotoSlab_Bold700,
   useFonts,
+  RobotoSlab_100Thin,
+  RobotoSlab_200ExtraLight,
+  RobotoSlab_300Light,
+  RobotoSlab_400Regular,
+  RobotoSlab_500Medium,
+  RobotoSlab_600SemiBold,
+  RobotoSlab_700Bold,
+  RobotoSlab_800ExtraBold,
+  RobotoSlab_900Black,
 } from '@expo-google-fonts/roboto-slab';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    RobotoSlab_Thin100,
-    RobotoSlab_Light300,
-    RobotoSlab_Regular400,
-    RobotoSlab_Bold700,
+    RobotoSlab_100Thin,
+    RobotoSlab_200ExtraLight,
+    RobotoSlab_300Light,
+    RobotoSlab_400Regular,
+    RobotoSlab_500Medium,
+    RobotoSlab_600SemiBold,
+    RobotoSlab_700Bold,
+    RobotoSlab_800ExtraBold,
+    RobotoSlab_900Black,
   });
 
   let fontSize = 24;
@@ -57,20 +70,40 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_Thin100' }}>
-          RobotoSlab_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_100Thin' }}>
+          RobotoSlab_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_Light300' }}>
-          RobotoSlab_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_200ExtraLight' }}>
+          RobotoSlab_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_Regular400' }}>
-          RobotoSlab_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_300Light' }}>
+          RobotoSlab_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_Bold700' }}>
-          RobotoSlab_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_400Regular' }}>
+          RobotoSlab_400Regular
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_500Medium' }}>
+          RobotoSlab_500Medium
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_600SemiBold' }}>
+          RobotoSlab_600SemiBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_700Bold' }}>
+          RobotoSlab_700Bold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_800ExtraBold' }}>
+          RobotoSlab_800ExtraBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_900Black' }}>
+          RobotoSlab_900Black
         </Text>
       </View>
     );
@@ -81,17 +114,32 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RobotoSlab_Thin100
-![RobotoSlab_Thin100](./39d17021e49dab28b629d9c337f6d659da0a8b37bbfb8ae5ccfe9ee8f8d16878.ttf.png)
+##### RobotoSlab_100Thin
+![RobotoSlab_100Thin](./RobotoSlab_100Thin.ttf.png)
 
-##### RobotoSlab_Light300
-![RobotoSlab_Light300](./5b6bad2cf6f07f140e117c46893165483ad9dd034a75a4a090f1d9825992210e.ttf.png)
+##### RobotoSlab_200ExtraLight
+![RobotoSlab_200ExtraLight](./RobotoSlab_200ExtraLight.ttf.png)
 
-##### RobotoSlab_Regular400
-![RobotoSlab_Regular400](./89c16ab4d99ac752daea2ecf31af3aae669305b909e558170bafd48dc9b8b9aa.ttf.png)
+##### RobotoSlab_300Light
+![RobotoSlab_300Light](./RobotoSlab_300Light.ttf.png)
 
-##### RobotoSlab_Bold700
-![RobotoSlab_Bold700](./e87e906df2d8d66b24a131bef23415760d6d2afee657275eb91f1a3a5e5dcb5e.ttf.png)
+##### RobotoSlab_400Regular
+![RobotoSlab_400Regular](./RobotoSlab_400Regular.ttf.png)
+
+##### RobotoSlab_500Medium
+![RobotoSlab_500Medium](./RobotoSlab_500Medium.ttf.png)
+
+##### RobotoSlab_600SemiBold
+![RobotoSlab_600SemiBold](./RobotoSlab_600SemiBold.ttf.png)
+
+##### RobotoSlab_700Bold
+![RobotoSlab_700Bold](./RobotoSlab_700Bold.ttf.png)
+
+##### RobotoSlab_800ExtraBold
+![RobotoSlab_800ExtraBold](./RobotoSlab_800ExtraBold.ttf.png)
+
+##### RobotoSlab_900Black
+![RobotoSlab_900Black](./RobotoSlab_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +169,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/roboto-slab)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

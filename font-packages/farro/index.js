@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Farro';
-export const __fontFamilyVersion__ = 1;
-
-export const Farro_Light300 = require('./ca8a2c854888fbeb59e572d229d903a5793ba08741fb5effc6484dad0baca84b.ttf');
-export const Farro_Regular400 = require('./04c2276c71a6e273507190f49761498509d6b0b4dda77befd400b8b093ca1ad8.ttf');
-export const Farro_Medium500 = require('./43a287bb29da4b09c5492c818eeb5cab21180fcead8c66a9340ba185728d5ab5.ttf');
-export const Farro_Bold700 = require('./f000197888095e4fccd58e6e7af75f410a611fe4292e359d52d9110505fb0373.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Farro_300Light = require('./Farro_300Light.ttf');
+export const Farro_400Regular = require('./Farro_400Regular.ttf');
+export const Farro_500Medium = require('./Farro_500Medium.ttf');
+export const Farro_700Bold = require('./Farro_700Bold.ttf');

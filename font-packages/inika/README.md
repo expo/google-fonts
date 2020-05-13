@@ -7,16 +7,14 @@
 
 This package lets you use the [**Inika**](https://fonts.google.com/specimen/Inika) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Inika
 
 ![Inika](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Inika_Regular400`
-- `Inika_Bold700`
+- `Inika_400Regular`
+- `Inika_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Inika_Regular400, Inika_Bold700, useFonts } from '@expo-google-fonts/inika';
+import { useFonts, Inika_400Regular, Inika_700Bold } from '@expo-google-fonts/inika';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Inika_Regular400,
-    Inika_Bold700,
+    Inika_400Regular,
+    Inika_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inika_Regular400' }}>
-          Inika_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inika_400Regular' }}>
+          Inika_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inika_Bold700' }}>
-          Inika_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inika_700Bold' }}>
+          Inika_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Inika_Regular400
-![Inika_Regular400](./b4a85642ea25e8b6a0657684af8ab67401b31b1f39ef952616d46f1ee711107e.ttf.png)
+##### Inika_400Regular
+![Inika_400Regular](./Inika_400Regular.ttf.png)
 
-##### Inika_Bold700
-![Inika_Bold700](./e831ff700e7e5ee39b33fb1ae47d7f98ce526a136e1d90c4aaf1cbfbba0d4336.ttf.png)
+##### Inika_700Bold
+![Inika_700Bold](./Inika_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/inika)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

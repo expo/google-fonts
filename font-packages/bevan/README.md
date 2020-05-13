@@ -7,15 +7,13 @@
 
 This package lets you use the [**Bevan**](https://fonts.google.com/specimen/Bevan) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Bevan
 
 ![Bevan](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Bevan_Regular400`
+- `Bevan_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Bevan_Regular400, useFonts } from '@expo-google-fonts/bevan';
+import { useFonts, Bevan_400Regular } from '@expo-google-fonts/bevan';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Bevan_Regular400,
+    Bevan_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Bevan_Regular400' }}>
-          Bevan_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Bevan_400Regular' }}>
+          Bevan_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Bevan_Regular400
-![Bevan_Regular400](./95fb9ca931c31e79c8312fb66d76a2239472f842f9aeed9c261367a55723370f.ttf.png)
+##### Bevan_400Regular
+![Bevan_400Regular](./Bevan_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/bevan)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

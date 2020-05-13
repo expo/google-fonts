@@ -7,15 +7,13 @@
 
 This package lets you use the [**Meera Inimai**](https://fonts.google.com/specimen/Meera+Inimai) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Meera Inimai
 
 ![Meera Inimai](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `MeeraInimai_Regular400`
+- `MeeraInimai_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { MeeraInimai_Regular400, useFonts } from '@expo-google-fonts/meera-inimai';
+import { useFonts, MeeraInimai_400Regular } from '@expo-google-fonts/meera-inimai';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MeeraInimai_Regular400,
+    MeeraInimai_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MeeraInimai_Regular400' }}>
-          MeeraInimai_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MeeraInimai_400Regular' }}>
+          MeeraInimai_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MeeraInimai_Regular400
-![MeeraInimai_Regular400](./199785360f92220660b6a90e66afd8907c31df21ef4e4470e2af99c968017208.ttf.png)
+##### MeeraInimai_400Regular
+![MeeraInimai_400Regular](./MeeraInimai_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/meera-inimai)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Beth Ellen';
-export const __fontFamilyVersion__ = 1;
-
-export const BethEllen_Regular400 = require('./33f7d9b097ad741e56ef314b447fa4e0d310aab981ba6aea5db368053b65bc56.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BethEllen_400Regular = require('./BethEllen_400Regular.ttf');

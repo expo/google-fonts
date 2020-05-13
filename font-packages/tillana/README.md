@@ -7,19 +7,17 @@
 
 This package lets you use the [**Tillana**](https://fonts.google.com/specimen/Tillana) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Tillana
 
 ![Tillana](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `Tillana_Regular400`
-- `Tillana_Medium500`
-- `Tillana_SemiBold600`
-- `Tillana_Bold700`
-- `Tillana_ExtraBold800`
+- `Tillana_400Regular`
+- `Tillana_500Medium`
+- `Tillana_600SemiBold`
+- `Tillana_700Bold`
+- `Tillana_800ExtraBold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Tillana_Regular400,
-  Tillana_Medium500,
-  Tillana_SemiBold600,
-  Tillana_Bold700,
-  Tillana_ExtraBold800,
   useFonts,
+  Tillana_400Regular,
+  Tillana_500Medium,
+  Tillana_600SemiBold,
+  Tillana_700Bold,
+  Tillana_800ExtraBold,
 } from '@expo-google-fonts/tillana';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Tillana_Regular400,
-    Tillana_Medium500,
-    Tillana_SemiBold600,
-    Tillana_Bold700,
-    Tillana_ExtraBold800,
+    Tillana_400Regular,
+    Tillana_500Medium,
+    Tillana_600SemiBold,
+    Tillana_700Bold,
+    Tillana_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tillana_Regular400' }}>
-          Tillana_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tillana_400Regular' }}>
+          Tillana_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tillana_Medium500' }}>
-          Tillana_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tillana_500Medium' }}>
+          Tillana_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tillana_SemiBold600' }}>
-          Tillana_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tillana_600SemiBold' }}>
+          Tillana_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tillana_Bold700' }}>
-          Tillana_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tillana_700Bold' }}>
+          Tillana_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tillana_ExtraBold800' }}>
-          Tillana_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tillana_800ExtraBold' }}>
+          Tillana_800ExtraBold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Tillana_Regular400
-![Tillana_Regular400](./f767b3a50e7fbd85244228fd72776e996704c5b833256c5fa56b782821e015af.ttf.png)
+##### Tillana_400Regular
+![Tillana_400Regular](./Tillana_400Regular.ttf.png)
 
-##### Tillana_Medium500
-![Tillana_Medium500](./5aecdf23e36ca11770901c226daf192765931a12afd290bbf684884f9bbf1c7c.ttf.png)
+##### Tillana_500Medium
+![Tillana_500Medium](./Tillana_500Medium.ttf.png)
 
-##### Tillana_SemiBold600
-![Tillana_SemiBold600](./a5f11d010b5bd339931701e1853b2788fccf7cb07bbf503ff03f027a3086f3f3.ttf.png)
+##### Tillana_600SemiBold
+![Tillana_600SemiBold](./Tillana_600SemiBold.ttf.png)
 
-##### Tillana_Bold700
-![Tillana_Bold700](./aed658fc70549eb112a013dc7ce6145b1f2719ee7d6179a5c4fd7be399a68511.ttf.png)
+##### Tillana_700Bold
+![Tillana_700Bold](./Tillana_700Bold.ttf.png)
 
-##### Tillana_ExtraBold800
-![Tillana_ExtraBold800](./df261f8eeab47304d5e83ee3d77bba8193f51bd098bab3370180417296143318.ttf.png)
+##### Tillana_800ExtraBold
+![Tillana_800ExtraBold](./Tillana_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/tillana)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

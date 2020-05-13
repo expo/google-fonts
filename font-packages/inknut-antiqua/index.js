@@ -4,13 +4,11 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Inknut Antiqua';
-export const __fontFamilyVersion__ = 2;
-
-export const InknutAntiqua_Light300 = require('./8fae03035a8fb6772fc7bcac683c4a01747a3902ede69b6897be980d35cd3c42.ttf');
-export const InknutAntiqua_Regular400 = require('./bad6e7b6f2580d3870d5242c04a7edbb0712500e639570759d1b76b16ad225af.ttf');
-export const InknutAntiqua_Medium500 = require('./f7bad3658649b817553e3c3a1e3b75b8b1c2f93af24d3ee0c2f491f13695cee4.ttf');
-export const InknutAntiqua_SemiBold600 = require('./4249a7edc9acfbbb46d50638be038427a109d75df9478fd696a6d61ac2c6262b.ttf');
-export const InknutAntiqua_Bold700 = require('./ed4800a911bc4a319bbb68949167b0e0c9149ae4542444b3643b0949f21dbebb.ttf');
-export const InknutAntiqua_ExtraBold800 = require('./58f6a2abd44b4a7ba81f42611ec481c40e08bed9129fec6f638b2dca583bf20d.ttf');
-export const InknutAntiqua_Black900 = require('./068486e18282d9c5300c186834bd1a055d1d4d2697ac3498756bc41e999b676b.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const InknutAntiqua_300Light = require('./InknutAntiqua_300Light.ttf');
+export const InknutAntiqua_400Regular = require('./InknutAntiqua_400Regular.ttf');
+export const InknutAntiqua_500Medium = require('./InknutAntiqua_500Medium.ttf');
+export const InknutAntiqua_600SemiBold = require('./InknutAntiqua_600SemiBold.ttf');
+export const InknutAntiqua_700Bold = require('./InknutAntiqua_700Bold.ttf');
+export const InknutAntiqua_800ExtraBold = require('./InknutAntiqua_800ExtraBold.ttf');
+export const InknutAntiqua_900Black = require('./InknutAntiqua_900Black.ttf');

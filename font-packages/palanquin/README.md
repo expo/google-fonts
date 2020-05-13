@@ -7,21 +7,19 @@
 
 This package lets you use the [**Palanquin**](https://fonts.google.com/specimen/Palanquin) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Palanquin
 
 ![Palanquin](./font-family.png)
 
 This font family contains [7 styles](#-gallery).
 
-- `Palanquin_Thin100`
-- `Palanquin_ExtraLight200`
-- `Palanquin_Light300`
-- `Palanquin_Regular400`
-- `Palanquin_Medium500`
-- `Palanquin_SemiBold600`
-- `Palanquin_Bold700`
+- `Palanquin_100Thin`
+- `Palanquin_200ExtraLight`
+- `Palanquin_300Light`
+- `Palanquin_400Regular`
+- `Palanquin_500Medium`
+- `Palanquin_600SemiBold`
+- `Palanquin_700Bold`
 
 ## Usage
 
@@ -37,25 +35,25 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Palanquin_Thin100,
-  Palanquin_ExtraLight200,
-  Palanquin_Light300,
-  Palanquin_Regular400,
-  Palanquin_Medium500,
-  Palanquin_SemiBold600,
-  Palanquin_Bold700,
   useFonts,
+  Palanquin_100Thin,
+  Palanquin_200ExtraLight,
+  Palanquin_300Light,
+  Palanquin_400Regular,
+  Palanquin_500Medium,
+  Palanquin_600SemiBold,
+  Palanquin_700Bold,
 } from '@expo-google-fonts/palanquin';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Palanquin_Thin100,
-    Palanquin_ExtraLight200,
-    Palanquin_Light300,
-    Palanquin_Regular400,
-    Palanquin_Medium500,
-    Palanquin_SemiBold600,
-    Palanquin_Bold700,
+    Palanquin_100Thin,
+    Palanquin_200ExtraLight,
+    Palanquin_300Light,
+    Palanquin_400Regular,
+    Palanquin_500Medium,
+    Palanquin_600SemiBold,
+    Palanquin_700Bold,
   });
 
   let fontSize = 24;
@@ -66,32 +64,32 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_Thin100' }}>
-          Palanquin_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_100Thin' }}>
+          Palanquin_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_ExtraLight200' }}>
-          Palanquin_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_200ExtraLight' }}>
+          Palanquin_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_Light300' }}>
-          Palanquin_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_300Light' }}>
+          Palanquin_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_Regular400' }}>
-          Palanquin_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_400Regular' }}>
+          Palanquin_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_Medium500' }}>
-          Palanquin_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_500Medium' }}>
+          Palanquin_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_SemiBold600' }}>
-          Palanquin_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_600SemiBold' }}>
+          Palanquin_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_Bold700' }}>
-          Palanquin_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_700Bold' }}>
+          Palanquin_700Bold
         </Text>
       </View>
     );
@@ -102,26 +100,26 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Palanquin_Thin100
-![Palanquin_Thin100](./c2f2587b9d7e9715b99bbe03f6115a2dcf52f8cb016c7e31f06e26561f3f13bb.ttf.png)
+##### Palanquin_100Thin
+![Palanquin_100Thin](./Palanquin_100Thin.ttf.png)
 
-##### Palanquin_ExtraLight200
-![Palanquin_ExtraLight200](./e3ae6db39173fbbc643b90005a108980c36ea6111e91516ed3e754cd247f965d.ttf.png)
+##### Palanquin_200ExtraLight
+![Palanquin_200ExtraLight](./Palanquin_200ExtraLight.ttf.png)
 
-##### Palanquin_Light300
-![Palanquin_Light300](./94dbed29146fdc39c8979eff474e5210368a5276c9c7b55706418b745036a240.ttf.png)
+##### Palanquin_300Light
+![Palanquin_300Light](./Palanquin_300Light.ttf.png)
 
-##### Palanquin_Regular400
-![Palanquin_Regular400](./a3fd79ddbba4270727bcb4649e1015a2726418eef7abd8cb984139bca11f5df5.ttf.png)
+##### Palanquin_400Regular
+![Palanquin_400Regular](./Palanquin_400Regular.ttf.png)
 
-##### Palanquin_Medium500
-![Palanquin_Medium500](./c027a6ee638527b57eed686cb93382141e9da3ad55c331614b735f4b26dfe2f9.ttf.png)
+##### Palanquin_500Medium
+![Palanquin_500Medium](./Palanquin_500Medium.ttf.png)
 
-##### Palanquin_SemiBold600
-![Palanquin_SemiBold600](./e342fbd31bc4d7a837724b2e51ac0c6e4057d44809e8e984d2c72c0b0a3dc48a.ttf.png)
+##### Palanquin_600SemiBold
+![Palanquin_600SemiBold](./Palanquin_600SemiBold.ttf.png)
 
-##### Palanquin_Bold700
-![Palanquin_Bold700](./a1812757fe429bab601701c1010e05f49540ea857170789a8ee91e0fe1d5e9d2.ttf.png)
+##### Palanquin_700Bold
+![Palanquin_700Bold](./Palanquin_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -151,7 +149,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/palanquin)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

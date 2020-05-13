@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Atomic Age';
-export const __fontFamilyVersion__ = 7;
-
-export const AtomicAge_Regular400 = require('./6fc59a494c6184d973d9d5db8ec698d8acb6283fc807bd1a13c30000b83b832c.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const AtomicAge_400Regular = require('./AtomicAge_400Regular.ttf');

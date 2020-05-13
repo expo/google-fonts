@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Aguafina Script';
-export const __fontFamilyVersion__ = 5;
-
-export const AguafinaScript_Regular400 = require('./282b677fa945b70a3a5a57b8ffb8064638a07feb77edc68cf29591225bc7b5ce.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const AguafinaScript_400Regular = require('./AguafinaScript_400Regular.ttf');

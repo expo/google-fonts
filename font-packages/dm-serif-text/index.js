@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'DM Serif Text';
-export const __fontFamilyVersion__ = 3;
-
-export const DMSerifText_Regular400 = require('./8fe3c6727cf74e86cfd545dfe7e6aa3a1dbdff9563e84e085acd65c07f633744.ttf');
-export const DMSerifText_Regular400_Italic = require('./13b9bbb9c2b065c645eb14efbe2bc8dd2a4e41e635d12f8bc15b532e1d5fc628.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const DMSerifText_400Regular = require('./DMSerifText_400Regular.ttf');
+export const DMSerifText_400Regular_Italic = require('./DMSerifText_400Regular_Italic.ttf');

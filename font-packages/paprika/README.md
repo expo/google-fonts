@@ -7,15 +7,13 @@
 
 This package lets you use the [**Paprika**](https://fonts.google.com/specimen/Paprika) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Paprika
 
 ![Paprika](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Paprika_Regular400`
+- `Paprika_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Paprika_Regular400, useFonts } from '@expo-google-fonts/paprika';
+import { useFonts, Paprika_400Regular } from '@expo-google-fonts/paprika';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Paprika_Regular400,
+    Paprika_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Paprika_Regular400' }}>
-          Paprika_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Paprika_400Regular' }}>
+          Paprika_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Paprika_Regular400
-![Paprika_Regular400](./3611025b91e6a3a1daf2e78541775555d832ba6b4f010ae8b4553d5d5be2bac6.ttf.png)
+##### Paprika_400Regular
+![Paprika_400Regular](./Paprika_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/paprika)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

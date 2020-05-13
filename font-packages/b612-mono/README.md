@@ -7,18 +7,16 @@
 
 This package lets you use the [**B612 Mono**](https://fonts.google.com/specimen/B612+Mono) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## B612 Mono
 
 ![B612 Mono](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `B612Mono_Regular400`
-- `B612Mono_Regular400_Italic`
-- `B612Mono_Bold700`
-- `B612Mono_Bold700_Italic`
+- `B612Mono_400Regular`
+- `B612Mono_400Regular_Italic`
+- `B612Mono_700Bold`
+- `B612Mono_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  B612Mono_Regular400,
-  B612Mono_Regular400_Italic,
-  B612Mono_Bold700,
-  B612Mono_Bold700_Italic,
   useFonts,
+  B612Mono_400Regular,
+  B612Mono_400Regular_Italic,
+  B612Mono_700Bold,
+  B612Mono_700Bold_Italic,
 } from '@expo-google-fonts/b612-mono';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    B612Mono_Regular400,
-    B612Mono_Regular400_Italic,
-    B612Mono_Bold700,
-    B612Mono_Bold700_Italic,
+    B612Mono_400Regular,
+    B612Mono_400Regular_Italic,
+    B612Mono_700Bold,
+    B612Mono_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612Mono_Regular400' }}>
-          B612Mono_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612Mono_400Regular' }}>
+          B612Mono_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612Mono_Regular400_Italic' }}>
-          B612Mono_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612Mono_400Regular_Italic' }}>
+          B612Mono_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612Mono_Bold700' }}>
-          B612Mono_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612Mono_700Bold' }}>
+          B612Mono_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612Mono_Bold700_Italic' }}>
-          B612Mono_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612Mono_700Bold_Italic' }}>
+          B612Mono_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### B612Mono_Regular400
-![B612Mono_Regular400](./4ffa9cacfa6fcd1a7a413d3b87f6f5ac6e2b201649b64695d976e0af5a46d512.ttf.png)
+##### B612Mono_400Regular
+![B612Mono_400Regular](./B612Mono_400Regular.ttf.png)
 
-##### B612Mono_Regular400_Italic
-![B612Mono_Regular400_Italic](./55c1dcdfe00e2848cd4e1946617c601f62a0828e6ba3c73924b8b4f4e705785c.ttf.png)
+##### B612Mono_400Regular_Italic
+![B612Mono_400Regular_Italic](./B612Mono_400Regular_Italic.ttf.png)
 
-##### B612Mono_Bold700
-![B612Mono_Bold700](./515c42e5f2790fd973f2ee9685301efa0110bc2dfb33df69b57875318ad1e100.ttf.png)
+##### B612Mono_700Bold
+![B612Mono_700Bold](./B612Mono_700Bold.ttf.png)
 
-##### B612Mono_Bold700_Italic
-![B612Mono_Bold700_Italic](./a4a6d28684fe7467e89b15c82070e98ed4c0623a5df5a9a05d347f757cda41e6.ttf.png)
+##### B612Mono_700Bold_Italic
+![B612Mono_700Bold_Italic](./B612Mono_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/b612-mono)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,18 +7,16 @@
 
 This package lets you use the [**Cantarell**](https://fonts.google.com/specimen/Cantarell) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Cantarell
 
 ![Cantarell](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Cantarell_Regular400`
-- `Cantarell_Regular400_Italic`
-- `Cantarell_Bold700`
-- `Cantarell_Bold700_Italic`
+- `Cantarell_400Regular`
+- `Cantarell_400Regular_Italic`
+- `Cantarell_700Bold`
+- `Cantarell_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Cantarell_Regular400,
-  Cantarell_Regular400_Italic,
-  Cantarell_Bold700,
-  Cantarell_Bold700_Italic,
   useFonts,
+  Cantarell_400Regular,
+  Cantarell_400Regular_Italic,
+  Cantarell_700Bold,
+  Cantarell_700Bold_Italic,
 } from '@expo-google-fonts/cantarell';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Cantarell_Regular400,
-    Cantarell_Regular400_Italic,
-    Cantarell_Bold700,
-    Cantarell_Bold700_Italic,
+    Cantarell_400Regular,
+    Cantarell_400Regular_Italic,
+    Cantarell_700Bold,
+    Cantarell_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cantarell_Regular400' }}>
-          Cantarell_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cantarell_400Regular' }}>
+          Cantarell_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cantarell_Regular400_Italic' }}>
-          Cantarell_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cantarell_400Regular_Italic' }}>
+          Cantarell_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cantarell_Bold700' }}>
-          Cantarell_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cantarell_700Bold' }}>
+          Cantarell_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cantarell_Bold700_Italic' }}>
-          Cantarell_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cantarell_700Bold_Italic' }}>
+          Cantarell_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Cantarell_Regular400
-![Cantarell_Regular400](./1e62d82800c92f72ed501733b5d52d7b8a5d88d1c6315bfdaf7f8ce781108c00.ttf.png)
+##### Cantarell_400Regular
+![Cantarell_400Regular](./Cantarell_400Regular.ttf.png)
 
-##### Cantarell_Regular400_Italic
-![Cantarell_Regular400_Italic](./6d9559dd0df30daed7da97dc8ef05e7f39b72205fb9bd7a055ddaa5242afd36f.ttf.png)
+##### Cantarell_400Regular_Italic
+![Cantarell_400Regular_Italic](./Cantarell_400Regular_Italic.ttf.png)
 
-##### Cantarell_Bold700
-![Cantarell_Bold700](./db0c34021061680135f973a2cb5565811527ea91f2fa07d023f4e105eb6f45d3.ttf.png)
+##### Cantarell_700Bold
+![Cantarell_700Bold](./Cantarell_700Bold.ttf.png)
 
-##### Cantarell_Bold700_Italic
-![Cantarell_Bold700_Italic](./bb2c0f469972ec2016c3b8b8254ea0077f46207efb249afb3c4d356cf2c5418e.ttf.png)
+##### Cantarell_700Bold_Italic
+![Cantarell_700Bold_Italic](./Cantarell_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cantarell)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

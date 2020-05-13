@@ -7,15 +7,13 @@
 
 This package lets you use the [**La Belle Aurore**](https://fonts.google.com/specimen/La+Belle+Aurore) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## La Belle Aurore
 
 ![La Belle Aurore](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `LaBelleAurore_Regular400`
+- `LaBelleAurore_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { LaBelleAurore_Regular400, useFonts } from '@expo-google-fonts/la-belle-aurore';
+import { useFonts, LaBelleAurore_400Regular } from '@expo-google-fonts/la-belle-aurore';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LaBelleAurore_Regular400,
+    LaBelleAurore_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LaBelleAurore_Regular400' }}>
-          LaBelleAurore_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LaBelleAurore_400Regular' }}>
+          LaBelleAurore_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LaBelleAurore_Regular400
-![LaBelleAurore_Regular400](./604ab650c1e1ab2e45459ba2bc1302e120467025e2f3a9946978bb7e7e0d03a3.ttf.png)
+##### LaBelleAurore_400Regular
+![LaBelleAurore_400Regular](./LaBelleAurore_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/la-belle-aurore)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

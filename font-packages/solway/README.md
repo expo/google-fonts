@@ -7,19 +7,17 @@
 
 This package lets you use the [**Solway**](https://fonts.google.com/specimen/Solway) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Solway
 
 ![Solway](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `Solway_Light300`
-- `Solway_Regular400`
-- `Solway_Medium500`
-- `Solway_Bold700`
-- `Solway_ExtraBold800`
+- `Solway_300Light`
+- `Solway_400Regular`
+- `Solway_500Medium`
+- `Solway_700Bold`
+- `Solway_800ExtraBold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Solway_Light300,
-  Solway_Regular400,
-  Solway_Medium500,
-  Solway_Bold700,
-  Solway_ExtraBold800,
   useFonts,
+  Solway_300Light,
+  Solway_400Regular,
+  Solway_500Medium,
+  Solway_700Bold,
+  Solway_800ExtraBold,
 } from '@expo-google-fonts/solway';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Solway_Light300,
-    Solway_Regular400,
-    Solway_Medium500,
-    Solway_Bold700,
-    Solway_ExtraBold800,
+    Solway_300Light,
+    Solway_400Regular,
+    Solway_500Medium,
+    Solway_700Bold,
+    Solway_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Solway_Light300' }}>
-          Solway_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Solway_300Light' }}>
+          Solway_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Solway_Regular400' }}>
-          Solway_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Solway_400Regular' }}>
+          Solway_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Solway_Medium500' }}>
-          Solway_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Solway_500Medium' }}>
+          Solway_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Solway_Bold700' }}>
-          Solway_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Solway_700Bold' }}>
+          Solway_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Solway_ExtraBold800' }}>
-          Solway_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Solway_800ExtraBold' }}>
+          Solway_800ExtraBold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Solway_Light300
-![Solway_Light300](./30f12e709261a80d1a2f35d02c568e8080aa52e556cea38ec163ee09a6482606.ttf.png)
+##### Solway_300Light
+![Solway_300Light](./Solway_300Light.ttf.png)
 
-##### Solway_Regular400
-![Solway_Regular400](./bc55ce65a041c9b5001bb030477677f6a44eeb3946a418259202a162382044d2.ttf.png)
+##### Solway_400Regular
+![Solway_400Regular](./Solway_400Regular.ttf.png)
 
-##### Solway_Medium500
-![Solway_Medium500](./c03b2ecebe399988e043ffcd0707d72b1327076b7c0f255c24c88e453a8163eb.ttf.png)
+##### Solway_500Medium
+![Solway_500Medium](./Solway_500Medium.ttf.png)
 
-##### Solway_Bold700
-![Solway_Bold700](./d3b46e3ef557420e377ce5924289b7f1987a6a99f5625aa5e6ef6f74002198fd.ttf.png)
+##### Solway_700Bold
+![Solway_700Bold](./Solway_700Bold.ttf.png)
 
-##### Solway_ExtraBold800
-![Solway_ExtraBold800](./6be411cbc685fc6716528e253c309c7af939f60f2bf83919a384384ee527a079.ttf.png)
+##### Solway_800ExtraBold
+![Solway_800ExtraBold](./Solway_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/solway)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

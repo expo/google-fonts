@@ -7,16 +7,14 @@
 
 This package lets you use the [**Magra**](https://fonts.google.com/specimen/Magra) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Magra
 
 ![Magra](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Magra_Regular400`
-- `Magra_Bold700`
+- `Magra_400Regular`
+- `Magra_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Magra_Regular400, Magra_Bold700, useFonts } from '@expo-google-fonts/magra';
+import { useFonts, Magra_400Regular, Magra_700Bold } from '@expo-google-fonts/magra';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Magra_Regular400,
-    Magra_Bold700,
+    Magra_400Regular,
+    Magra_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Magra_Regular400' }}>
-          Magra_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Magra_400Regular' }}>
+          Magra_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Magra_Bold700' }}>
-          Magra_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Magra_700Bold' }}>
+          Magra_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Magra_Regular400
-![Magra_Regular400](./9af41cbbd0f37a100cfb6828248fbfbac10111faefb7b379eb4d74092ebd2f8b.ttf.png)
+##### Magra_400Regular
+![Magra_400Regular](./Magra_400Regular.ttf.png)
 
-##### Magra_Bold700
-![Magra_Bold700](./ab81d03efbb8cfb766cdee7ef1e7333d196769ab264426971367541a4feee673.ttf.png)
+##### Magra_700Bold
+![Magra_700Bold](./Magra_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/magra)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

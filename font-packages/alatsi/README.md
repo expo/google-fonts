@@ -7,15 +7,13 @@
 
 This package lets you use the [**Alatsi**](https://fonts.google.com/specimen/Alatsi) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Alatsi
 
 ![Alatsi](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Alatsi_Regular400`
+- `Alatsi_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Alatsi_Regular400, useFonts } from '@expo-google-fonts/alatsi';
+import { useFonts, Alatsi_400Regular } from '@expo-google-fonts/alatsi';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Alatsi_Regular400,
+    Alatsi_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Alatsi_Regular400' }}>
-          Alatsi_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Alatsi_400Regular' }}>
+          Alatsi_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Alatsi_Regular400
-![Alatsi_Regular400](./7fa5a16b3bfdf1423bfccb98349fc2cee90ca48e42252467b9a36f5a3149622e.ttf.png)
+##### Alatsi_400Regular
+![Alatsi_400Regular](./Alatsi_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/alatsi)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

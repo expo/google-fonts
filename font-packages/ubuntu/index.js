@@ -4,14 +4,12 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Ubuntu';
-export const __fontFamilyVersion__ = 10;
-
-export const Ubuntu_Light300 = require('./af68436b9e6b56275cecbabf026fbfa760095b5fc054f802c17ae15dcb4cbf18.ttf');
-export const Ubuntu_Light300_Italic = require('./f1fc680395fdc7b33c4b64324bb4e34779fb8acfbb6d18b837932e0b8d1a69ee.ttf');
-export const Ubuntu_Regular400 = require('./69538c1ee708ba76c975ea534b5ea8bd65054114da93581ed279bdedde98986c.ttf');
-export const Ubuntu_Regular400_Italic = require('./191ec3d947057bfaa61cf55e8133a8dfa252400009e628a2141f7aafd3047ca9.ttf');
-export const Ubuntu_Medium500 = require('./c1964f6ef40fc1fdf7599700b74b4446f181c52a6547cac09a325565ad55e639.ttf');
-export const Ubuntu_Medium500_Italic = require('./02b8cbdca4e9916efc303be2f40666b27aa1928896d3f783fec01f97e23f7f64.ttf');
-export const Ubuntu_Bold700 = require('./d897d5edfc8d1b9f611f1936d05ea7f52b66071ab5f3fa3dbc357cee0e02f204.ttf');
-export const Ubuntu_Bold700_Italic = require('./5c1ea5c0feab209d1204650845041e13ed77ef6451d9f081711e7d698ba20b52.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Ubuntu_300Light = require('./Ubuntu_300Light.ttf');
+export const Ubuntu_300Light_Italic = require('./Ubuntu_300Light_Italic.ttf');
+export const Ubuntu_400Regular = require('./Ubuntu_400Regular.ttf');
+export const Ubuntu_400Regular_Italic = require('./Ubuntu_400Regular_Italic.ttf');
+export const Ubuntu_500Medium = require('./Ubuntu_500Medium.ttf');
+export const Ubuntu_500Medium_Italic = require('./Ubuntu_500Medium_Italic.ttf');
+export const Ubuntu_700Bold = require('./Ubuntu_700Bold.ttf');
+export const Ubuntu_700Bold_Italic = require('./Ubuntu_700Bold_Italic.ttf');

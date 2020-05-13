@@ -7,15 +7,13 @@
 
 This package lets you use the [**Armata**](https://fonts.google.com/specimen/Armata) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Armata
 
 ![Armata](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Armata_Regular400`
+- `Armata_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Armata_Regular400, useFonts } from '@expo-google-fonts/armata';
+import { useFonts, Armata_400Regular } from '@expo-google-fonts/armata';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Armata_Regular400,
+    Armata_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Armata_Regular400' }}>
-          Armata_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Armata_400Regular' }}>
+          Armata_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Armata_Regular400
-![Armata_Regular400](./7631b4ae2fae472da8b9d0b46acfec928c9c550e82dbee1685e72f389ab890d9.ttf.png)
+##### Armata_400Regular
+![Armata_400Regular](./Armata_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/armata)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

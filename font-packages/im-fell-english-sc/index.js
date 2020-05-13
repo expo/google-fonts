@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'IM Fell English SC';
-export const __fontFamilyVersion__ = 6;
-
-export const IMFellEnglishSC_Regular400 = require('./b52b93a50244bb83984cf1b52863db1a14baf8f683fe002dd71199783477502a.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const IMFellEnglishSC_400Regular = require('./IMFellEnglishSC_400Regular.ttf');

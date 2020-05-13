@@ -7,16 +7,14 @@
 
 This package lets you use the [**Amita**](https://fonts.google.com/specimen/Amita) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Amita
 
 ![Amita](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Amita_Regular400`
-- `Amita_Bold700`
+- `Amita_400Regular`
+- `Amita_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Amita_Regular400, Amita_Bold700, useFonts } from '@expo-google-fonts/amita';
+import { useFonts, Amita_400Regular, Amita_700Bold } from '@expo-google-fonts/amita';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Amita_Regular400,
-    Amita_Bold700,
+    Amita_400Regular,
+    Amita_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amita_Regular400' }}>
-          Amita_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amita_400Regular' }}>
+          Amita_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amita_Bold700' }}>
-          Amita_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amita_700Bold' }}>
+          Amita_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Amita_Regular400
-![Amita_Regular400](./f8ab328073e1c729f0b4f38521b47bb39c63db396da1602f6b08a2a8775249f4.ttf.png)
+##### Amita_400Regular
+![Amita_400Regular](./Amita_400Regular.ttf.png)
 
-##### Amita_Bold700
-![Amita_Bold700](./e421cec126c6014995b96189e28c3c8b119e3e21dbe1c3dea8585ec31afa0679.ttf.png)
+##### Amita_700Bold
+![Amita_700Bold](./Amita_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/amita)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

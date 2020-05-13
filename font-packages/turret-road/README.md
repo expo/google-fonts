@@ -7,20 +7,18 @@
 
 This package lets you use the [**Turret Road**](https://fonts.google.com/specimen/Turret+Road) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Turret Road
 
 ![Turret Road](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `TurretRoad_ExtraLight200`
-- `TurretRoad_Light300`
-- `TurretRoad_Regular400`
-- `TurretRoad_Medium500`
-- `TurretRoad_Bold700`
-- `TurretRoad_ExtraBold800`
+- `TurretRoad_200ExtraLight`
+- `TurretRoad_300Light`
+- `TurretRoad_400Regular`
+- `TurretRoad_500Medium`
+- `TurretRoad_700Bold`
+- `TurretRoad_800ExtraBold`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  TurretRoad_ExtraLight200,
-  TurretRoad_Light300,
-  TurretRoad_Regular400,
-  TurretRoad_Medium500,
-  TurretRoad_Bold700,
-  TurretRoad_ExtraBold800,
   useFonts,
+  TurretRoad_200ExtraLight,
+  TurretRoad_300Light,
+  TurretRoad_400Regular,
+  TurretRoad_500Medium,
+  TurretRoad_700Bold,
+  TurretRoad_800ExtraBold,
 } from '@expo-google-fonts/turret-road';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    TurretRoad_ExtraLight200,
-    TurretRoad_Light300,
-    TurretRoad_Regular400,
-    TurretRoad_Medium500,
-    TurretRoad_Bold700,
-    TurretRoad_ExtraBold800,
+    TurretRoad_200ExtraLight,
+    TurretRoad_300Light,
+    TurretRoad_400Regular,
+    TurretRoad_500Medium,
+    TurretRoad_700Bold,
+    TurretRoad_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -63,28 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_ExtraLight200' }}>
-          TurretRoad_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_200ExtraLight' }}>
+          TurretRoad_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_Light300' }}>
-          TurretRoad_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_300Light' }}>
+          TurretRoad_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_Regular400' }}>
-          TurretRoad_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_400Regular' }}>
+          TurretRoad_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_Medium500' }}>
-          TurretRoad_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_500Medium' }}>
+          TurretRoad_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_Bold700' }}>
-          TurretRoad_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_700Bold' }}>
+          TurretRoad_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_ExtraBold800' }}>
-          TurretRoad_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_800ExtraBold' }}>
+          TurretRoad_800ExtraBold
         </Text>
       </View>
     );
@@ -95,23 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### TurretRoad_ExtraLight200
-![TurretRoad_ExtraLight200](./1eb2f6296f0d09925f225ecec4142547ba09542fcc5069fe46fe0d8673c2b6a3.ttf.png)
+##### TurretRoad_200ExtraLight
+![TurretRoad_200ExtraLight](./TurretRoad_200ExtraLight.ttf.png)
 
-##### TurretRoad_Light300
-![TurretRoad_Light300](./e38827c14383deae6789dc0f07d95b6cbb5f0093dbd0d872fcd4e792c8903562.ttf.png)
+##### TurretRoad_300Light
+![TurretRoad_300Light](./TurretRoad_300Light.ttf.png)
 
-##### TurretRoad_Regular400
-![TurretRoad_Regular400](./a9fe5d3ea03de544cf78476012b66bd6ec9240790f7e13b7365bab19f4d7dceb.ttf.png)
+##### TurretRoad_400Regular
+![TurretRoad_400Regular](./TurretRoad_400Regular.ttf.png)
 
-##### TurretRoad_Medium500
-![TurretRoad_Medium500](./6d3a6fdd0ccdd0665ca8b9ff99c62c571a5779139c039da471fb8b0d313b4c09.ttf.png)
+##### TurretRoad_500Medium
+![TurretRoad_500Medium](./TurretRoad_500Medium.ttf.png)
 
-##### TurretRoad_Bold700
-![TurretRoad_Bold700](./1ba5b04b2f9d8431b7bd41642ebdd197b5d904f1002cafc12fa7828579bc9970.ttf.png)
+##### TurretRoad_700Bold
+![TurretRoad_700Bold](./TurretRoad_700Bold.ttf.png)
 
-##### TurretRoad_ExtraBold800
-![TurretRoad_ExtraBold800](./b60bec40097c905a21009c6ad48cbe4c2c44f58ef95171a0a61efb0d6727a620.ttf.png)
+##### TurretRoad_800ExtraBold
+![TurretRoad_800ExtraBold](./TurretRoad_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -141,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/turret-road)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

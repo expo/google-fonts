@@ -7,15 +7,13 @@
 
 This package lets you use the [**ZCOOL QingKe HuangYou**](https://fonts.google.com/specimen/ZCOOL+QingKe+HuangYou) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## ZCOOL QingKe HuangYou
 
 ![ZCOOL QingKe HuangYou](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `ZCOOLQingKeHuangYou_Regular400`
+- `ZCOOLQingKeHuangYou_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { ZCOOLQingKeHuangYou_Regular400, useFonts } from '@expo-google-fonts/zcool-qingke-huangyou';
+import { useFonts, ZCOOLQingKeHuangYou_400Regular } from '@expo-google-fonts/zcool-qingke-huangyou';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ZCOOLQingKeHuangYou_Regular400,
+    ZCOOLQingKeHuangYou_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZCOOLQingKeHuangYou_Regular400' }}>
-          ZCOOLQingKeHuangYou_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZCOOLQingKeHuangYou_400Regular' }}>
+          ZCOOLQingKeHuangYou_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ZCOOLQingKeHuangYou_Regular400
-![ZCOOLQingKeHuangYou_Regular400](./dca9156773f9e058aafeaded91d3d5e64e41a67187907e37a66210e708d3dc73.ttf.png)
+##### ZCOOLQingKeHuangYou_400Regular
+![ZCOOLQingKeHuangYou_400Regular](./ZCOOLQingKeHuangYou_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/zcool-qingke-huangyou)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

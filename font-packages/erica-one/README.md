@@ -7,15 +7,13 @@
 
 This package lets you use the [**Erica One**](https://fonts.google.com/specimen/Erica+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Erica One
 
 ![Erica One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `EricaOne_Regular400`
+- `EricaOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { EricaOne_Regular400, useFonts } from '@expo-google-fonts/erica-one';
+import { useFonts, EricaOne_400Regular } from '@expo-google-fonts/erica-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    EricaOne_Regular400,
+    EricaOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EricaOne_Regular400' }}>
-          EricaOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EricaOne_400Regular' }}>
+          EricaOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### EricaOne_Regular400
-![EricaOne_Regular400](./718a969fb44854ce221ced461f15a49e4e53dea2478eb4fb6bac911b5dc5a99b.ttf.png)
+##### EricaOne_400Regular
+![EricaOne_400Regular](./EricaOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/erica-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

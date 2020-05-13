@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bigelow Rules';
-export const __fontFamilyVersion__ = 4;
-
-export const BigelowRules_Regular400 = require('./b86229b1bc741bc11ef0517467d96769485504f74278c1011120697a17d74d26.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BigelowRules_400Regular = require('./BigelowRules_400Regular.ttf');

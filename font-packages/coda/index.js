@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Coda';
-export const __fontFamilyVersion__ = 12;
-
-export const Coda_Regular400 = require('./3286b71ee83e8775ab6ae6fef1580c62d0344ad5a8a10ba144104648a36f9749.ttf');
-export const Coda_ExtraBold800 = require('./0f385f570ff23725ac544ecfcf2ec8b8cbca733a730d2038266a6eb8b071e4c0.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Coda_400Regular = require('./Coda_400Regular.ttf');
+export const Coda_800ExtraBold = require('./Coda_800ExtraBold.ttf');

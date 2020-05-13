@@ -7,16 +7,15 @@
 
 This package lets you use the [**Life Savers**](https://fonts.google.com/specimen/Life+Savers) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Life Savers
 
 ![Life Savers](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [3 styles](#-gallery).
 
-- `LifeSavers_Regular400`
-- `LifeSavers_Bold700`
+- `LifeSavers_400Regular`
+- `LifeSavers_700Bold`
+- `LifeSavers_800ExtraBold`
 
 ## Usage
 
@@ -32,15 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  LifeSavers_Regular400,
-  LifeSavers_Bold700,
   useFonts,
+  LifeSavers_400Regular,
+  LifeSavers_700Bold,
+  LifeSavers_800ExtraBold,
 } from '@expo-google-fonts/life-savers';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LifeSavers_Regular400,
-    LifeSavers_Bold700,
+    LifeSavers_400Regular,
+    LifeSavers_700Bold,
+    LifeSavers_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -51,12 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LifeSavers_Regular400' }}>
-          LifeSavers_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LifeSavers_400Regular' }}>
+          LifeSavers_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LifeSavers_Bold700' }}>
-          LifeSavers_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LifeSavers_700Bold' }}>
+          LifeSavers_700Bold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LifeSavers_800ExtraBold' }}>
+          LifeSavers_800ExtraBold
         </Text>
       </View>
     );
@@ -67,11 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LifeSavers_Regular400
-![LifeSavers_Regular400](./04d39ceac525bd7119947e50ca506cd62efc8803e38347a7b1d07e401463bcee.ttf.png)
+##### LifeSavers_400Regular
+![LifeSavers_400Regular](./LifeSavers_400Regular.ttf.png)
 
-##### LifeSavers_Bold700
-![LifeSavers_Bold700](./362b7da392f70200e34ca8d939a7739b45fdd4cb54b9aee41f6a1db39d13a08b.ttf.png)
+##### LifeSavers_700Bold
+![LifeSavers_700Bold](./LifeSavers_700Bold.ttf.png)
+
+##### LifeSavers_800ExtraBold
+![LifeSavers_800ExtraBold](./LifeSavers_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/life-savers)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

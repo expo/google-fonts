@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Denk One';
-export const __fontFamilyVersion__ = 4;
-
-export const DenkOne_Regular400 = require('./213821a54136d58fd7013e4aca0f3b0307e9ec564c83ce75d6a9e63bfb6b1714.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const DenkOne_400Regular = require('./DenkOne_400Regular.ttf');

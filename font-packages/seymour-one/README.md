@@ -7,15 +7,13 @@
 
 This package lets you use the [**Seymour One**](https://fonts.google.com/specimen/Seymour+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Seymour One
 
 ![Seymour One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `SeymourOne_Regular400`
+- `SeymourOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { SeymourOne_Regular400, useFonts } from '@expo-google-fonts/seymour-one';
+import { useFonts, SeymourOne_400Regular } from '@expo-google-fonts/seymour-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    SeymourOne_Regular400,
+    SeymourOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SeymourOne_Regular400' }}>
-          SeymourOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SeymourOne_400Regular' }}>
+          SeymourOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SeymourOne_Regular400
-![SeymourOne_Regular400](./e7cbd22ce54883fd2ac35ed6713f3fe1d70045e47934b033a6d51357e4d097f2.ttf.png)
+##### SeymourOne_400Regular
+![SeymourOne_400Regular](./SeymourOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/seymour-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

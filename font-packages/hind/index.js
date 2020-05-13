@@ -4,11 +4,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Hind';
-export const __fontFamilyVersion__ = 7;
-
-export const Hind_Light300 = require('./fa60918477db30de0e2a697db644a3ada9014744668b10708e487b2731a95e70.ttf');
-export const Hind_Regular400 = require('./c6c2ab346a94eb5613fbc0721b8b1b9062968050182abaa239ca636a32911d90.ttf');
-export const Hind_Medium500 = require('./d4fd25d01c80707a336cb4b040f3a52767f1cd612f042572d044e0b575c4d05b.ttf');
-export const Hind_SemiBold600 = require('./98d33c7c6f79077dfb001ecff6aa383168fca5cebe664a277c74acff145e6685.ttf');
-export const Hind_Bold700 = require('./2e7dd62cde147432a10070b99d17f623f3c13f9c8796be3afa987f6e0707f030.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Hind_300Light = require('./Hind_300Light.ttf');
+export const Hind_400Regular = require('./Hind_400Regular.ttf');
+export const Hind_500Medium = require('./Hind_500Medium.ttf');
+export const Hind_600SemiBold = require('./Hind_600SemiBold.ttf');
+export const Hind_700Bold = require('./Hind_700Bold.ttf');

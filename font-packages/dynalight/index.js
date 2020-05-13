@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Dynalight';
-export const __fontFamilyVersion__ = 5;
-
-export const Dynalight_Regular400 = require('./3380e0bde50ff63e8151f548155d2d265154e826a3fcd8e17eda92dd29d14064.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Dynalight_400Regular = require('./Dynalight_400Regular.ttf');

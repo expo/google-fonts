@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Fauna One';
-export const __fontFamilyVersion__ = 4;
-
-export const FaunaOne_Regular400 = require('./afbf7594d1feb78a9b5e6262887492adcf721a6e1d033b1c6d26aeba06bcc132.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const FaunaOne_400Regular = require('./FaunaOne_400Regular.ttf');

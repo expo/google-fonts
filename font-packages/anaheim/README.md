@@ -7,15 +7,13 @@
 
 This package lets you use the [**Anaheim**](https://fonts.google.com/specimen/Anaheim) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Anaheim
 
 ![Anaheim](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Anaheim_Regular400`
+- `Anaheim_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Anaheim_Regular400, useFonts } from '@expo-google-fonts/anaheim';
+import { useFonts, Anaheim_400Regular } from '@expo-google-fonts/anaheim';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Anaheim_Regular400,
+    Anaheim_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Anaheim_Regular400' }}>
-          Anaheim_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Anaheim_400Regular' }}>
+          Anaheim_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Anaheim_Regular400
-![Anaheim_Regular400](./738fa7ae0283744abbfcfd999eb71d255210a7ee0fa7e195a47482269b9e381e.ttf.png)
+##### Anaheim_400Regular
+![Anaheim_400Regular](./Anaheim_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/anaheim)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,16 +7,16 @@
 
 This package lets you use the [**Enriqueta**](https://fonts.google.com/specimen/Enriqueta) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Enriqueta
 
 ![Enriqueta](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [4 styles](#-gallery).
 
-- `Enriqueta_Regular400`
-- `Enriqueta_Bold700`
+- `Enriqueta_400Regular`
+- `Enriqueta_500Medium`
+- `Enriqueta_600SemiBold`
+- `Enriqueta_700Bold`
 
 ## Usage
 
@@ -31,12 +31,20 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Enriqueta_Regular400, Enriqueta_Bold700, useFonts } from '@expo-google-fonts/enriqueta';
+import {
+  useFonts,
+  Enriqueta_400Regular,
+  Enriqueta_500Medium,
+  Enriqueta_600SemiBold,
+  Enriqueta_700Bold,
+} from '@expo-google-fonts/enriqueta';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Enriqueta_Regular400,
-    Enriqueta_Bold700,
+    Enriqueta_400Regular,
+    Enriqueta_500Medium,
+    Enriqueta_600SemiBold,
+    Enriqueta_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Enriqueta_Regular400' }}>
-          Enriqueta_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Enriqueta_400Regular' }}>
+          Enriqueta_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Enriqueta_Bold700' }}>
-          Enriqueta_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Enriqueta_500Medium' }}>
+          Enriqueta_500Medium
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Enriqueta_600SemiBold' }}>
+          Enriqueta_600SemiBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Enriqueta_700Bold' }}>
+          Enriqueta_700Bold
         </Text>
       </View>
     );
@@ -63,11 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Enriqueta_Regular400
-![Enriqueta_Regular400](./8efdf359579cbd9731b621eb32ddd55b3311bb4f3efe2479e1b87a731deb2b3f.ttf.png)
+##### Enriqueta_400Regular
+![Enriqueta_400Regular](./Enriqueta_400Regular.ttf.png)
 
-##### Enriqueta_Bold700
-![Enriqueta_Bold700](./75092b77ab687551bb7a93707771fa18a40ebfe0621befe7dbaca438b8a8c954.ttf.png)
+##### Enriqueta_500Medium
+![Enriqueta_500Medium](./Enriqueta_500Medium.ttf.png)
+
+##### Enriqueta_600SemiBold
+![Enriqueta_600SemiBold](./Enriqueta_600SemiBold.ttf.png)
+
+##### Enriqueta_700Bold
+![Enriqueta_700Bold](./Enriqueta_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/enriqueta)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

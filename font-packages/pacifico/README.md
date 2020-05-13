@@ -7,15 +7,13 @@
 
 This package lets you use the [**Pacifico**](https://fonts.google.com/specimen/Pacifico) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Pacifico
 
 ![Pacifico](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Pacifico_Regular400`
+- `Pacifico_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Pacifico_Regular400, useFonts } from '@expo-google-fonts/pacifico';
+import { useFonts, Pacifico_400Regular } from '@expo-google-fonts/pacifico';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Pacifico_Regular400,
+    Pacifico_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pacifico_Regular400' }}>
-          Pacifico_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pacifico_400Regular' }}>
+          Pacifico_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Pacifico_Regular400
-![Pacifico_Regular400](./03452c0b90c71f4088222325620904576503c4d5a3a6c563ee22d1e896788d3e.ttf.png)
+##### Pacifico_400Regular
+![Pacifico_400Regular](./Pacifico_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/pacifico)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Ranchers';
-export const __fontFamilyVersion__ = 4;
-
-export const Ranchers_Regular400 = require('./ee03833b1756509c106b58261df85478f7bd82ff2fd7ca6b4d5890de33cae655.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Ranchers_400Regular = require('./Ranchers_400Regular.ttf');

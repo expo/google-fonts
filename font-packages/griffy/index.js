@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Griffy';
-export const __fontFamilyVersion__ = 4;
-
-export const Griffy_Regular400 = require('./9f37c4a3b39667330abe546b4133f6acfb3799da67a89997fb46b39dbc3fc6d8.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Griffy_400Regular = require('./Griffy_400Regular.ttf');

@@ -7,17 +7,15 @@
 
 This package lets you use the [**Source Serif Pro**](https://fonts.google.com/specimen/Source+Serif+Pro) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Source Serif Pro
 
 ![Source Serif Pro](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `SourceSerifPro_Regular400`
-- `SourceSerifPro_SemiBold600`
-- `SourceSerifPro_Bold700`
+- `SourceSerifPro_400Regular`
+- `SourceSerifPro_600SemiBold`
+- `SourceSerifPro_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  SourceSerifPro_Regular400,
-  SourceSerifPro_SemiBold600,
-  SourceSerifPro_Bold700,
   useFonts,
+  SourceSerifPro_400Regular,
+  SourceSerifPro_600SemiBold,
+  SourceSerifPro_700Bold,
 } from '@expo-google-fonts/source-serif-pro';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    SourceSerifPro_Regular400,
-    SourceSerifPro_SemiBold600,
-    SourceSerifPro_Bold700,
+    SourceSerifPro_400Regular,
+    SourceSerifPro_600SemiBold,
+    SourceSerifPro_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSerifPro_Regular400' }}>
-          SourceSerifPro_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSerifPro_400Regular' }}>
+          SourceSerifPro_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSerifPro_SemiBold600' }}>
-          SourceSerifPro_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSerifPro_600SemiBold' }}>
+          SourceSerifPro_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSerifPro_Bold700' }}>
-          SourceSerifPro_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSerifPro_700Bold' }}>
+          SourceSerifPro_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SourceSerifPro_Regular400
-![SourceSerifPro_Regular400](./f87f7b82ba7f18f5fc9e92b9a88f9da0c847cee069182948fc67c6440c888949.ttf.png)
+##### SourceSerifPro_400Regular
+![SourceSerifPro_400Regular](./SourceSerifPro_400Regular.ttf.png)
 
-##### SourceSerifPro_SemiBold600
-![SourceSerifPro_SemiBold600](./21ba3c9624cb12920db48bb25f0e1db9398acab0031d2ae8f13b8628f4d02740.ttf.png)
+##### SourceSerifPro_600SemiBold
+![SourceSerifPro_600SemiBold](./SourceSerifPro_600SemiBold.ttf.png)
 
-##### SourceSerifPro_Bold700
-![SourceSerifPro_Bold700](./eb04de6aca072d01a88545fa409c6264d93f9b38f86a0ecd3a00708917085bd8.ttf.png)
+##### SourceSerifPro_700Bold
+![SourceSerifPro_700Bold](./SourceSerifPro_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/source-serif-pro)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

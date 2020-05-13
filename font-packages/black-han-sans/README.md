@@ -7,15 +7,13 @@
 
 This package lets you use the [**Black Han Sans**](https://fonts.google.com/specimen/Black+Han+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Black Han Sans
 
 ![Black Han Sans](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `BlackHanSans_Regular400`
+- `BlackHanSans_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { BlackHanSans_Regular400, useFonts } from '@expo-google-fonts/black-han-sans';
+import { useFonts, BlackHanSans_400Regular } from '@expo-google-fonts/black-han-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    BlackHanSans_Regular400,
+    BlackHanSans_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BlackHanSans_Regular400' }}>
-          BlackHanSans_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BlackHanSans_400Regular' }}>
+          BlackHanSans_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BlackHanSans_Regular400
-![BlackHanSans_Regular400](./ea3e07623642e89ce9ae84a698b9557dd6361db9bc40b993b7715531404db088.ttf.png)
+##### BlackHanSans_400Regular
+![BlackHanSans_400Regular](./BlackHanSans_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/black-han-sans)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

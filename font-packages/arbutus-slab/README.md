@@ -7,15 +7,13 @@
 
 This package lets you use the [**Arbutus Slab**](https://fonts.google.com/specimen/Arbutus+Slab) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Arbutus Slab
 
 ![Arbutus Slab](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `ArbutusSlab_Regular400`
+- `ArbutusSlab_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { ArbutusSlab_Regular400, useFonts } from '@expo-google-fonts/arbutus-slab';
+import { useFonts, ArbutusSlab_400Regular } from '@expo-google-fonts/arbutus-slab';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ArbutusSlab_Regular400,
+    ArbutusSlab_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArbutusSlab_Regular400' }}>
-          ArbutusSlab_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArbutusSlab_400Regular' }}>
+          ArbutusSlab_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ArbutusSlab_Regular400
-![ArbutusSlab_Regular400](./a7c7bbc09f84fc70a8541195a960de7d282eeaee64c5b146253bd79fd209893d.ttf.png)
+##### ArbutusSlab_400Regular
+![ArbutusSlab_400Regular](./ArbutusSlab_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/arbutus-slab)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

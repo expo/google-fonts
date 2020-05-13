@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Plaster';
-export const __fontFamilyVersion__ = 8;
-
-export const Plaster_Regular400 = require('./075c37d102ea4665ad52b444dd9ccf8c06ebd6d7125c8cf59644c1b1653abe6d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Plaster_400Regular = require('./Plaster_400Regular.ttf');

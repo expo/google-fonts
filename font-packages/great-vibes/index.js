@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Great Vibes';
-export const __fontFamilyVersion__ = 4;
-
-export const GreatVibes_Regular400 = require('./a4131255cb3cb73cefc120a8d68c6888fa33a5c24045934a0353f0c199fe254d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const GreatVibes_400Regular = require('./GreatVibes_400Regular.ttf');

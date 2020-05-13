@@ -7,15 +7,13 @@
 
 This package lets you use the [**Lexend Peta**](https://fonts.google.com/specimen/Lexend+Peta) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Lexend Peta
 
 ![Lexend Peta](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `LexendPeta_Regular400`
+- `LexendPeta_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { LexendPeta_Regular400, useFonts } from '@expo-google-fonts/lexend-peta';
+import { useFonts, LexendPeta_400Regular } from '@expo-google-fonts/lexend-peta';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LexendPeta_Regular400,
+    LexendPeta_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LexendPeta_Regular400' }}>
-          LexendPeta_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LexendPeta_400Regular' }}>
+          LexendPeta_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LexendPeta_Regular400
-![LexendPeta_Regular400](./417f097595c2e66cb6c0ddc8f6add4e4f493b24f53527848dc0d03462e133fd5.ttf.png)
+##### LexendPeta_400Regular
+![LexendPeta_400Regular](./LexendPeta_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/lexend-peta)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

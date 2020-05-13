@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bangers';
-export const __fontFamilyVersion__ = 9;
-
-export const Bangers_Regular400 = require('./42a6646ed15dc91b9430f7e69e6259203235b48fa12c9cc10b6b72afab348de0.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Bangers_400Regular = require('./Bangers_400Regular.ttf');

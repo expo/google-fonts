@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Arimo';
-export const __fontFamilyVersion__ = 9;
-
-export const Arimo_Regular400 = require('./df255da5c656bbf01f4aa3012b4d4ba16f7bd17664a4e1fc011146a4eb95d436.ttf');
-export const Arimo_Regular400_Italic = require('./eafe825bf96517b1ff3b8d8710254e225584de1489e4c3deaa6b1cb8549a027d.ttf');
-export const Arimo_Bold700 = require('./5a4f400fb6090e3938136ea6fd3ec2c02777fb674d13b9582f96d4515044df23.ttf');
-export const Arimo_Bold700_Italic = require('./e6b358f015564a1505c76b32db9b3f5c538a8f7d220dd04446697d286c820bf0.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Arimo_400Regular = require('./Arimo_400Regular.ttf');
+export const Arimo_400Regular_Italic = require('./Arimo_400Regular_Italic.ttf');
+export const Arimo_700Bold = require('./Arimo_700Bold.ttf');
+export const Arimo_700Bold_Italic = require('./Arimo_700Bold_Italic.ttf');

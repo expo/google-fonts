@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Mr Bedfort';
-export const __fontFamilyVersion__ = 5;
-
-export const MrBedfort_Regular400 = require('./e15139ad970a418042aa1bd423cac0ecbc77211a359ea93bf60c67ade7f97542.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MrBedfort_400Regular = require('./MrBedfort_400Regular.ttf');

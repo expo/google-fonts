@@ -4,12 +4,10 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bellota';
-export const __fontFamilyVersion__ = 1;
-
-export const Bellota_Light300 = require('./29b1164370f0eca544e3c2cb64f06324bd098c99c35f5ecdd5527d6642e5a78f.ttf');
-export const Bellota_Light300_Italic = require('./2876a1892bc886d0df661eef1cc4fd3273dc8bce9563d1a7fba2c72987e340c5.ttf');
-export const Bellota_Regular400 = require('./0ae1ca7fd73a6c369b6bf3b7326788cb2a360b467fa83a298140dac4166b8efa.ttf');
-export const Bellota_Regular400_Italic = require('./d628b046cfc942ee35db112226b78f9ac3973ccaf005074bbbe867656201b8ec.ttf');
-export const Bellota_Bold700 = require('./ac23e7ab6ffb89ee1593424695c867b8150bd97cd85fdbe2a3d7f89bf32a0973.ttf');
-export const Bellota_Bold700_Italic = require('./e876bb51e7fba1f8fadcef59f4b68e3020a0909557cef70a98c84253c9e32f2f.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Bellota_300Light = require('./Bellota_300Light.ttf');
+export const Bellota_300Light_Italic = require('./Bellota_300Light_Italic.ttf');
+export const Bellota_400Regular = require('./Bellota_400Regular.ttf');
+export const Bellota_400Regular_Italic = require('./Bellota_400Regular_Italic.ttf');
+export const Bellota_700Bold = require('./Bellota_700Bold.ttf');
+export const Bellota_700Bold_Italic = require('./Bellota_700Bold_Italic.ttf');

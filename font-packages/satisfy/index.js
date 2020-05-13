@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Satisfy';
-export const __fontFamilyVersion__ = 6;
-
-export const Satisfy_Regular400 = require('./4d3c18800d0d83b916c8d564ef9d72f9c23fd58cb7650edd14153251d25ffffc.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Satisfy_400Regular = require('./Satisfy_400Regular.ttf');

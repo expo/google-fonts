@@ -7,15 +7,13 @@
 
 This package lets you use the [**IM Fell Double Pica SC**](https://fonts.google.com/specimen/IM+Fell+Double+Pica+SC) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## IM Fell Double Pica SC
 
 ![IM Fell Double Pica SC](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `IMFellDoublePicaSC_Regular400`
+- `IMFellDoublePicaSC_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { IMFellDoublePicaSC_Regular400, useFonts } from '@expo-google-fonts/im-fell-double-pica-sc';
+import { useFonts, IMFellDoublePicaSC_400Regular } from '@expo-google-fonts/im-fell-double-pica-sc';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    IMFellDoublePicaSC_Regular400,
+    IMFellDoublePicaSC_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IMFellDoublePicaSC_Regular400' }}>
-          IMFellDoublePicaSC_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IMFellDoublePicaSC_400Regular' }}>
+          IMFellDoublePicaSC_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IMFellDoublePicaSC_Regular400
-![IMFellDoublePicaSC_Regular400](./f63ae624a66cf32943ef34cf81b7d800305ce516f8396bd0b01895abf588d8d6.ttf.png)
+##### IMFellDoublePicaSC_400Regular
+![IMFellDoublePicaSC_400Regular](./IMFellDoublePicaSC_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/im-fell-double-pica-sc)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

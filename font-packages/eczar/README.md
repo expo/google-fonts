@@ -7,19 +7,17 @@
 
 This package lets you use the [**Eczar**](https://fonts.google.com/specimen/Eczar) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Eczar
 
 ![Eczar](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `Eczar_Regular400`
-- `Eczar_Medium500`
-- `Eczar_SemiBold600`
-- `Eczar_Bold700`
-- `Eczar_ExtraBold800`
+- `Eczar_400Regular`
+- `Eczar_500Medium`
+- `Eczar_600SemiBold`
+- `Eczar_700Bold`
+- `Eczar_800ExtraBold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Eczar_Regular400,
-  Eczar_Medium500,
-  Eczar_SemiBold600,
-  Eczar_Bold700,
-  Eczar_ExtraBold800,
   useFonts,
+  Eczar_400Regular,
+  Eczar_500Medium,
+  Eczar_600SemiBold,
+  Eczar_700Bold,
+  Eczar_800ExtraBold,
 } from '@expo-google-fonts/eczar';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Eczar_Regular400,
-    Eczar_Medium500,
-    Eczar_SemiBold600,
-    Eczar_Bold700,
-    Eczar_ExtraBold800,
+    Eczar_400Regular,
+    Eczar_500Medium,
+    Eczar_600SemiBold,
+    Eczar_700Bold,
+    Eczar_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Eczar_Regular400' }}>
-          Eczar_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Eczar_400Regular' }}>
+          Eczar_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Eczar_Medium500' }}>
-          Eczar_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Eczar_500Medium' }}>
+          Eczar_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Eczar_SemiBold600' }}>
-          Eczar_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Eczar_600SemiBold' }}>
+          Eczar_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Eczar_Bold700' }}>
-          Eczar_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Eczar_700Bold' }}>
+          Eczar_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Eczar_ExtraBold800' }}>
-          Eczar_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Eczar_800ExtraBold' }}>
+          Eczar_800ExtraBold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Eczar_Regular400
-![Eczar_Regular400](./c6e04a6ef288e1fca3e9420bfd9752bfdc230a20ce55a05855a8896bdb763a8e.ttf.png)
+##### Eczar_400Regular
+![Eczar_400Regular](./Eczar_400Regular.ttf.png)
 
-##### Eczar_Medium500
-![Eczar_Medium500](./d91586e1decf2874b409ef01f87cf50e9725e5f419ea08e5158a6c0a06595fbe.ttf.png)
+##### Eczar_500Medium
+![Eczar_500Medium](./Eczar_500Medium.ttf.png)
 
-##### Eczar_SemiBold600
-![Eczar_SemiBold600](./ba1eb42528b2001e261653b3e56b8566ae08e9a3a6709b57e20f58b84b82a76a.ttf.png)
+##### Eczar_600SemiBold
+![Eczar_600SemiBold](./Eczar_600SemiBold.ttf.png)
 
-##### Eczar_Bold700
-![Eczar_Bold700](./254b1a9878dd1e9479e9aab40683ad5d17b35782b413a724f71d89952f460b39.ttf.png)
+##### Eczar_700Bold
+![Eczar_700Bold](./Eczar_700Bold.ttf.png)
 
-##### Eczar_ExtraBold800
-![Eczar_ExtraBold800](./d9144eab6daf83585fcb44f4726902a8cbca81d5df060ed6f09787fd5192239f.ttf.png)
+##### Eczar_800ExtraBold
+![Eczar_800ExtraBold](./Eczar_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/eczar)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

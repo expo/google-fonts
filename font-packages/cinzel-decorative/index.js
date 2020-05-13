@@ -4,9 +4,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Cinzel Decorative';
-export const __fontFamilyVersion__ = 5;
-
-export const CinzelDecorative_Regular400 = require('./e2559504f7da1fc2410b4eca9cb5ca6fee8c1ead7c3920a0b225ef4f1da9034f.ttf');
-export const CinzelDecorative_Bold700 = require('./3a01d62b7c7d50b908e2fd62beb09363fb5e99ea2f21e0e79f71e5a6c356ceba.ttf');
-export const CinzelDecorative_Black900 = require('./a9e463550cabc5d5d694e24c136e6d235212011e58c21d523229960a16bc5148.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const CinzelDecorative_400Regular = require('./CinzelDecorative_400Regular.ttf');
+export const CinzelDecorative_700Bold = require('./CinzelDecorative_700Bold.ttf');
+export const CinzelDecorative_900Black = require('./CinzelDecorative_900Black.ttf');

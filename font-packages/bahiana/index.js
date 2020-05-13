@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bahiana';
-export const __fontFamilyVersion__ = 1;
-
-export const Bahiana_Regular400 = require('./1134edff7d2708933a16883c07c5223938a3500e9880b289c754c2602b9181f7.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Bahiana_400Regular = require('./Bahiana_400Regular.ttf');

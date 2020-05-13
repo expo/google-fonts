@@ -4,10 +4,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Quicksand';
-export const __fontFamilyVersion__ = 6;
-
-export const Quicksand_Light300 = require('./1d9cb44be0f4a238981aae2eb07e9157e00c48fae09163bea0866e136d1c3f1f.ttf');
-export const Quicksand_Regular400 = require('./0f408f35c3679417b5580701f3ac08830ce36535af5a643a2ef5b59e91c3c6b7.ttf');
-export const Quicksand_Medium500 = require('./76d743f0975259e38b62a1b671044d0a6584e7ae0a8389a9dca5d6d7e5e24031.ttf');
-export const Quicksand_Bold700 = require('./6bb475d143c61221c4ea174d3c51728268e58b12dbc14600d59020ef8deaaead.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Quicksand_300Light = require('./Quicksand_300Light.ttf');
+export const Quicksand_400Regular = require('./Quicksand_400Regular.ttf');
+export const Quicksand_500Medium = require('./Quicksand_500Medium.ttf');
+export const Quicksand_600SemiBold = require('./Quicksand_600SemiBold.ttf');
+export const Quicksand_700Bold = require('./Quicksand_700Bold.ttf');

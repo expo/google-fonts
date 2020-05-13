@@ -7,19 +7,17 @@
 
 This package lets you use the [**Fira Code**](https://fonts.google.com/specimen/Fira+Code) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Fira Code
 
 ![Fira Code](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `FiraCode_Light300`
-- `FiraCode_Regular400`
-- `FiraCode_Medium500`
-- `FiraCode_SemiBold600`
-- `FiraCode_Bold700`
+- `FiraCode_300Light`
+- `FiraCode_400Regular`
+- `FiraCode_500Medium`
+- `FiraCode_600SemiBold`
+- `FiraCode_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  FiraCode_Light300,
-  FiraCode_Regular400,
-  FiraCode_Medium500,
-  FiraCode_SemiBold600,
-  FiraCode_Bold700,
   useFonts,
+  FiraCode_300Light,
+  FiraCode_400Regular,
+  FiraCode_500Medium,
+  FiraCode_600SemiBold,
+  FiraCode_700Bold,
 } from '@expo-google-fonts/fira-code';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    FiraCode_Light300,
-    FiraCode_Regular400,
-    FiraCode_Medium500,
-    FiraCode_SemiBold600,
-    FiraCode_Bold700,
+    FiraCode_300Light,
+    FiraCode_400Regular,
+    FiraCode_500Medium,
+    FiraCode_600SemiBold,
+    FiraCode_700Bold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraCode_Light300' }}>
-          FiraCode_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraCode_300Light' }}>
+          FiraCode_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraCode_Regular400' }}>
-          FiraCode_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraCode_400Regular' }}>
+          FiraCode_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraCode_Medium500' }}>
-          FiraCode_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraCode_500Medium' }}>
+          FiraCode_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraCode_SemiBold600' }}>
-          FiraCode_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraCode_600SemiBold' }}>
+          FiraCode_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraCode_Bold700' }}>
-          FiraCode_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraCode_700Bold' }}>
+          FiraCode_700Bold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FiraCode_Light300
-![FiraCode_Light300](./53d9824e306c207a6de228abf02372c59c9b2166fc2a5b38d40d9f8b2cca4f53.ttf.png)
+##### FiraCode_300Light
+![FiraCode_300Light](./FiraCode_300Light.ttf.png)
 
-##### FiraCode_Regular400
-![FiraCode_Regular400](./952b0d5a1d329fa4c8229aa97143ed9ff3f239f1b4bd84e4c14b6f4f1ccdd705.ttf.png)
+##### FiraCode_400Regular
+![FiraCode_400Regular](./FiraCode_400Regular.ttf.png)
 
-##### FiraCode_Medium500
-![FiraCode_Medium500](./eeca9b497781ac45524ddd9ca6fdfa383130e3d2a613045bc288fbeaf3796ce6.ttf.png)
+##### FiraCode_500Medium
+![FiraCode_500Medium](./FiraCode_500Medium.ttf.png)
 
-##### FiraCode_SemiBold600
-![FiraCode_SemiBold600](./9272ceedc952a0945683c249045952038f3cd3c1cf0bd0bfda3a07417e44fd48.ttf.png)
+##### FiraCode_600SemiBold
+![FiraCode_600SemiBold](./FiraCode_600SemiBold.ttf.png)
 
-##### FiraCode_Bold700
-![FiraCode_Bold700](./e534947b075377251fa622cf2ae6881dd4073346a5fefda144b1406f45b9ade9.ttf.png)
+##### FiraCode_700Bold
+![FiraCode_700Bold](./FiraCode_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/fira-code)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

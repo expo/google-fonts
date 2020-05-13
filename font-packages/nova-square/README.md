@@ -7,15 +7,13 @@
 
 This package lets you use the [**Nova Square**](https://fonts.google.com/specimen/Nova+Square) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Nova Square
 
 ![Nova Square](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `NovaSquare_Regular400`
+- `NovaSquare_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { NovaSquare_Regular400, useFonts } from '@expo-google-fonts/nova-square';
+import { useFonts, NovaSquare_400Regular } from '@expo-google-fonts/nova-square';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    NovaSquare_Regular400,
+    NovaSquare_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NovaSquare_Regular400' }}>
-          NovaSquare_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NovaSquare_400Regular' }}>
+          NovaSquare_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NovaSquare_Regular400
-![NovaSquare_Regular400](./e0a393378490eb55bf6732aca6c44a808436009d82e3d1c08bfe96e079af967c.ttf.png)
+##### NovaSquare_400Regular
+![NovaSquare_400Regular](./NovaSquare_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/nova-square)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

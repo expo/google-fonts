@@ -7,18 +7,16 @@
 
 This package lets you use the [**PT Serif**](https://fonts.google.com/specimen/PT+Serif) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## PT Serif
 
 ![PT Serif](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `PTSerif_Regular400`
-- `PTSerif_Regular400_Italic`
-- `PTSerif_Bold700`
-- `PTSerif_Bold700_Italic`
+- `PTSerif_400Regular`
+- `PTSerif_400Regular_Italic`
+- `PTSerif_700Bold`
+- `PTSerif_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  PTSerif_Regular400,
-  PTSerif_Regular400_Italic,
-  PTSerif_Bold700,
-  PTSerif_Bold700_Italic,
   useFonts,
+  PTSerif_400Regular,
+  PTSerif_400Regular_Italic,
+  PTSerif_700Bold,
+  PTSerif_700Bold_Italic,
 } from '@expo-google-fonts/pt-serif';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    PTSerif_Regular400,
-    PTSerif_Regular400_Italic,
-    PTSerif_Bold700,
-    PTSerif_Bold700_Italic,
+    PTSerif_400Regular,
+    PTSerif_400Regular_Italic,
+    PTSerif_700Bold,
+    PTSerif_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSerif_Regular400' }}>
-          PTSerif_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSerif_400Regular' }}>
+          PTSerif_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSerif_Regular400_Italic' }}>
-          PTSerif_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSerif_400Regular_Italic' }}>
+          PTSerif_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSerif_Bold700' }}>
-          PTSerif_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSerif_700Bold' }}>
+          PTSerif_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSerif_Bold700_Italic' }}>
-          PTSerif_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSerif_700Bold_Italic' }}>
+          PTSerif_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PTSerif_Regular400
-![PTSerif_Regular400](./77cd8f3a9ae2f3546135a48656a468afd4312d1ebf5720bb967ebe3a43291fa8.ttf.png)
+##### PTSerif_400Regular
+![PTSerif_400Regular](./PTSerif_400Regular.ttf.png)
 
-##### PTSerif_Regular400_Italic
-![PTSerif_Regular400_Italic](./c623ffd63812daa5b0776e75e7a99de63340eb1fa6d3d5692c27a5fe30e21c22.ttf.png)
+##### PTSerif_400Regular_Italic
+![PTSerif_400Regular_Italic](./PTSerif_400Regular_Italic.ttf.png)
 
-##### PTSerif_Bold700
-![PTSerif_Bold700](./8945a761fd4a69fd6eb9b058e025925dd964c9b2cf5cc02b14290746f6aaf356.ttf.png)
+##### PTSerif_700Bold
+![PTSerif_700Bold](./PTSerif_700Bold.ttf.png)
 
-##### PTSerif_Bold700_Italic
-![PTSerif_Bold700_Italic](./ab351a82c9e93d363fcb9525df6f6d111fc14e15c3cf0d5e125e77ef0ddf5fd0.ttf.png)
+##### PTSerif_700Bold_Italic
+![PTSerif_700Bold_Italic](./PTSerif_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/pt-serif)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

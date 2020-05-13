@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Play';
-export const __fontFamilyVersion__ = 8;
-
-export const Play_Regular400 = require('./e198eae88b87f9891da54cbb4e5b631b4f8e8af961970b14082506c5c1bd3183.ttf');
-export const Play_Bold700 = require('./46b28c6395256a72fe1900fc5218c9ef0c78153157532b0ebc6b6859696d717d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Play_400Regular = require('./Play_400Regular.ttf');
+export const Play_700Bold = require('./Play_700Bold.ttf');

@@ -7,19 +7,17 @@
 
 This package lets you use the [**Halant**](https://fonts.google.com/specimen/Halant) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Halant
 
 ![Halant](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `Halant_Light300`
-- `Halant_Regular400`
-- `Halant_Medium500`
-- `Halant_SemiBold600`
-- `Halant_Bold700`
+- `Halant_300Light`
+- `Halant_400Regular`
+- `Halant_500Medium`
+- `Halant_600SemiBold`
+- `Halant_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Halant_Light300,
-  Halant_Regular400,
-  Halant_Medium500,
-  Halant_SemiBold600,
-  Halant_Bold700,
   useFonts,
+  Halant_300Light,
+  Halant_400Regular,
+  Halant_500Medium,
+  Halant_600SemiBold,
+  Halant_700Bold,
 } from '@expo-google-fonts/halant';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Halant_Light300,
-    Halant_Regular400,
-    Halant_Medium500,
-    Halant_SemiBold600,
-    Halant_Bold700,
+    Halant_300Light,
+    Halant_400Regular,
+    Halant_500Medium,
+    Halant_600SemiBold,
+    Halant_700Bold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Halant_Light300' }}>
-          Halant_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Halant_300Light' }}>
+          Halant_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Halant_Regular400' }}>
-          Halant_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Halant_400Regular' }}>
+          Halant_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Halant_Medium500' }}>
-          Halant_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Halant_500Medium' }}>
+          Halant_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Halant_SemiBold600' }}>
-          Halant_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Halant_600SemiBold' }}>
+          Halant_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Halant_Bold700' }}>
-          Halant_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Halant_700Bold' }}>
+          Halant_700Bold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Halant_Light300
-![Halant_Light300](./efbf1567d1ee285b609cc33198f6bf85b75ffc137871c0c74b770bda82fe5f96.ttf.png)
+##### Halant_300Light
+![Halant_300Light](./Halant_300Light.ttf.png)
 
-##### Halant_Regular400
-![Halant_Regular400](./d2becc2fc9d31bd06f7378b501b26b4eb057167cc3722297588a277f45b05fba.ttf.png)
+##### Halant_400Regular
+![Halant_400Regular](./Halant_400Regular.ttf.png)
 
-##### Halant_Medium500
-![Halant_Medium500](./e6e6c9b73832eb91900f4298ec5c6b73e8d537163220299fa6213b8d702b9f37.ttf.png)
+##### Halant_500Medium
+![Halant_500Medium](./Halant_500Medium.ttf.png)
 
-##### Halant_SemiBold600
-![Halant_SemiBold600](./c38923af0ef17edd914dfb2737891b725cd1cc9dfc36bd72ba413213e99839a3.ttf.png)
+##### Halant_600SemiBold
+![Halant_600SemiBold](./Halant_600SemiBold.ttf.png)
 
-##### Halant_Bold700
-![Halant_Bold700](./4d09a5ce42fc23e8619b6c817a9bc5522bc64ede74b5a75d99fe2815244ca6a8.ttf.png)
+##### Halant_700Bold
+![Halant_700Bold](./Halant_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/halant)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

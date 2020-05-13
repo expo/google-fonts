@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Poller One';
-export const __fontFamilyVersion__ = 6;
-
-export const PollerOne_Regular400 = require('./8000b5517c4c1c62df73fa743687dad6e25276b2caea09a6ff237f0c19f9128d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const PollerOne_400Regular = require('./PollerOne_400Regular.ttf');

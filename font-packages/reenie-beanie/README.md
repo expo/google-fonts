@@ -7,15 +7,13 @@
 
 This package lets you use the [**Reenie Beanie**](https://fonts.google.com/specimen/Reenie+Beanie) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Reenie Beanie
 
 ![Reenie Beanie](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `ReenieBeanie_Regular400`
+- `ReenieBeanie_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { ReenieBeanie_Regular400, useFonts } from '@expo-google-fonts/reenie-beanie';
+import { useFonts, ReenieBeanie_400Regular } from '@expo-google-fonts/reenie-beanie';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ReenieBeanie_Regular400,
+    ReenieBeanie_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ReenieBeanie_Regular400' }}>
-          ReenieBeanie_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ReenieBeanie_400Regular' }}>
+          ReenieBeanie_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ReenieBeanie_Regular400
-![ReenieBeanie_Regular400](./3bc036be5570dcb23bf8f01f888f56bc55c5e3606875bdd2bb8afd3ebb48d2a6.ttf.png)
+##### ReenieBeanie_400Regular
+![ReenieBeanie_400Regular](./ReenieBeanie_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/reenie-beanie)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

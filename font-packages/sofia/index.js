@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Sofia';
-export const __fontFamilyVersion__ = 5;
-
-export const Sofia_Regular400 = require('./ca5d81d1b4b38fae521b80e8ab25a7632893d98285e79fa51e53975b807afcb1.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Sofia_400Regular = require('./Sofia_400Regular.ttf');

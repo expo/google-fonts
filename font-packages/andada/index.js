@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Andada';
-export const __fontFamilyVersion__ = 7;
-
-export const Andada_Regular400 = require('./7c3fda3cdd2dcc60f34129cdd9c0a2f139b2a4bec16bcff6b27521d87d222f1e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Andada_400Regular = require('./Andada_400Regular.ttf');

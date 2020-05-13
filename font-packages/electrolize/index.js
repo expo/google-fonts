@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Electrolize';
-export const __fontFamilyVersion__ = 5;
-
-export const Electrolize_Regular400 = require('./c68d85c8396ce2228f3bd601b3423d838c24c546404f25a38db6c05e64a4521b.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Electrolize_400Regular = require('./Electrolize_400Regular.ttf');

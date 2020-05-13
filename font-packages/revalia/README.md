@@ -7,15 +7,13 @@
 
 This package lets you use the [**Revalia**](https://fonts.google.com/specimen/Revalia) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Revalia
 
 ![Revalia](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Revalia_Regular400`
+- `Revalia_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Revalia_Regular400, useFonts } from '@expo-google-fonts/revalia';
+import { useFonts, Revalia_400Regular } from '@expo-google-fonts/revalia';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Revalia_Regular400,
+    Revalia_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Revalia_Regular400' }}>
-          Revalia_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Revalia_400Regular' }}>
+          Revalia_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Revalia_Regular400
-![Revalia_Regular400](./b093f6aebb81a6ee15d476875815645a7d5544b359370f2565d91a77dfa8d3e6.ttf.png)
+##### Revalia_400Regular
+![Revalia_400Regular](./Revalia_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/revalia)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

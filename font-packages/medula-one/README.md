@@ -7,15 +7,13 @@
 
 This package lets you use the [**Medula One**](https://fonts.google.com/specimen/Medula+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Medula One
 
 ![Medula One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `MedulaOne_Regular400`
+- `MedulaOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { MedulaOne_Regular400, useFonts } from '@expo-google-fonts/medula-one';
+import { useFonts, MedulaOne_400Regular } from '@expo-google-fonts/medula-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MedulaOne_Regular400,
+    MedulaOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MedulaOne_Regular400' }}>
-          MedulaOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MedulaOne_400Regular' }}>
+          MedulaOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MedulaOne_Regular400
-![MedulaOne_Regular400](./01411348aab468ebfca2f176a931010b30ec982ff382993310e5cc4d65e49904.ttf.png)
+##### MedulaOne_400Regular
+![MedulaOne_400Regular](./MedulaOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/medula-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

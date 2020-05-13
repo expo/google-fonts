@@ -4,13 +4,11 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'M PLUS Rounded 1c';
-export const __fontFamilyVersion__ = 10;
-
-export const MPLUSRounded1c_Thin100 = require('./6d028025ec621f30d69f25f3b121f0eb6e4678e96d47f16d760f1fcf59248d2c.ttf');
-export const MPLUSRounded1c_Light300 = require('./8e6655c0fc1e40abbfe6631bef1b71cf55ed1f706c0d130fa9fc82cfb1a644c7.ttf');
-export const MPLUSRounded1c_Regular400 = require('./ff70cb1f3f4fe4691c6ec7c7725c4a0aa37e2d1fa2704d659c9efcd304a6bb24.ttf');
-export const MPLUSRounded1c_Medium500 = require('./a6066483cf3c5b68c17d69a4a957e9a50dbe366ac10cbf88a9f3776744ec5048.ttf');
-export const MPLUSRounded1c_Bold700 = require('./c9070409f93c9e7a46a302d0205de1c15bdde3b59f65c32ff73315592afaf17e.ttf');
-export const MPLUSRounded1c_ExtraBold800 = require('./a7b92c0902d7c3f543a4ecc04c44c8cf62f26c4bcc92ecb26e40ef9849277e61.ttf');
-export const MPLUSRounded1c_Black900 = require('./cadad2376795cd1bcdaae984a16f1fef7e2f18ca27fd2493f32f620867a1ef05.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MPLUSRounded1c_100Thin = require('./MPLUSRounded1c_100Thin.ttf');
+export const MPLUSRounded1c_300Light = require('./MPLUSRounded1c_300Light.ttf');
+export const MPLUSRounded1c_400Regular = require('./MPLUSRounded1c_400Regular.ttf');
+export const MPLUSRounded1c_500Medium = require('./MPLUSRounded1c_500Medium.ttf');
+export const MPLUSRounded1c_700Bold = require('./MPLUSRounded1c_700Bold.ttf');
+export const MPLUSRounded1c_800ExtraBold = require('./MPLUSRounded1c_800ExtraBold.ttf');
+export const MPLUSRounded1c_900Black = require('./MPLUSRounded1c_900Black.ttf');

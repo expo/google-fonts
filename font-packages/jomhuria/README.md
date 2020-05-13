@@ -7,15 +7,13 @@
 
 This package lets you use the [**Jomhuria**](https://fonts.google.com/specimen/Jomhuria) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Jomhuria
 
 ![Jomhuria](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Jomhuria_Regular400`
+- `Jomhuria_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Jomhuria_Regular400, useFonts } from '@expo-google-fonts/jomhuria';
+import { useFonts, Jomhuria_400Regular } from '@expo-google-fonts/jomhuria';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Jomhuria_Regular400,
+    Jomhuria_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jomhuria_Regular400' }}>
-          Jomhuria_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jomhuria_400Regular' }}>
+          Jomhuria_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Jomhuria_Regular400
-![Jomhuria_Regular400](./6dce267ed457cc6f5511cd60d4fbbc941e2c0cf029959a91effbd93815f66d47.ttf.png)
+##### Jomhuria_400Regular
+![Jomhuria_400Regular](./Jomhuria_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/jomhuria)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

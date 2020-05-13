@@ -4,16 +4,14 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Kulim Park';
-export const __fontFamilyVersion__ = 1;
-
-export const KulimPark_ExtraLight200 = require('./840c4d3989e45ba899e1b3d09646ca3f9bef766fb66b167c5ea95b0726f44a0b.ttf');
-export const KulimPark_ExtraLight200_Italic = require('./8737e36ff5a77edc8d6596fcaa803b3cf72b11b077e0b7b0397fa81c2f03dd31.ttf');
-export const KulimPark_Light300 = require('./5f528827be704c4d4f91d75915cedac8ff4754733bcac2e61e48bdac1e6752eb.ttf');
-export const KulimPark_Light300_Italic = require('./62e148954a2bd0e9e8c26272bfc3eedaaeecdf3a318ade20223eb51d2b83abdb.ttf');
-export const KulimPark_Regular400 = require('./d2dc8ced6a590e1bfbabfeaf4b27a7366fccc572cfee1fe459f22618ab3f1e58.ttf');
-export const KulimPark_Regular400_Italic = require('./d3d40eaa8f0ae675fa6895c58f65a5c082236f54ee433a53963584e3f308f7c8.ttf');
-export const KulimPark_SemiBold600 = require('./cea3878ffef1244f27d1495beb506d10f3206d59da7d09f737ac355fde66784e.ttf');
-export const KulimPark_SemiBold600_Italic = require('./62a7e064a37929edd5a709ff870cd8bafcf530cd6439f26277ab061d4128a8ad.ttf');
-export const KulimPark_Bold700 = require('./23e77b347e0afbacac1a4ba530b6fc6e0a7e166bd3edf29bdc414dd6497b806d.ttf');
-export const KulimPark_Bold700_Italic = require('./baa22986aa8baf32baf6fbbd27e630ee792aac59cbf10df4701f9cd85d3232cd.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const KulimPark_200ExtraLight = require('./KulimPark_200ExtraLight.ttf');
+export const KulimPark_200ExtraLight_Italic = require('./KulimPark_200ExtraLight_Italic.ttf');
+export const KulimPark_300Light = require('./KulimPark_300Light.ttf');
+export const KulimPark_300Light_Italic = require('./KulimPark_300Light_Italic.ttf');
+export const KulimPark_400Regular = require('./KulimPark_400Regular.ttf');
+export const KulimPark_400Regular_Italic = require('./KulimPark_400Regular_Italic.ttf');
+export const KulimPark_600SemiBold = require('./KulimPark_600SemiBold.ttf');
+export const KulimPark_600SemiBold_Italic = require('./KulimPark_600SemiBold_Italic.ttf');
+export const KulimPark_700Bold = require('./KulimPark_700Bold.ttf');
+export const KulimPark_700Bold_Italic = require('./KulimPark_700Bold_Italic.ttf');

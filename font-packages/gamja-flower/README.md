@@ -7,15 +7,13 @@
 
 This package lets you use the [**Gamja Flower**](https://fonts.google.com/specimen/Gamja+Flower) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Gamja Flower
 
 ![Gamja Flower](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `GamjaFlower_Regular400`
+- `GamjaFlower_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { GamjaFlower_Regular400, useFonts } from '@expo-google-fonts/gamja-flower';
+import { useFonts, GamjaFlower_400Regular } from '@expo-google-fonts/gamja-flower';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    GamjaFlower_Regular400,
+    GamjaFlower_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GamjaFlower_Regular400' }}>
-          GamjaFlower_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GamjaFlower_400Regular' }}>
+          GamjaFlower_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GamjaFlower_Regular400
-![GamjaFlower_Regular400](./e1315b2ce49da4d60b566f31827736a5b33670f46d95c26c4df7a7608f8634ea.ttf.png)
+##### GamjaFlower_400Regular
+![GamjaFlower_400Regular](./GamjaFlower_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/gamja-flower)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

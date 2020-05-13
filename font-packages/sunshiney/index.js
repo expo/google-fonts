@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Sunshiney';
-export const __fontFamilyVersion__ = 6;
-
-export const Sunshiney_Regular400 = require('./a7ec73237e0e7d1a4339d0381c584067becd402e92eb382bcff00860e277d2ca.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Sunshiney_400Regular = require('./Sunshiney_400Regular.ttf');

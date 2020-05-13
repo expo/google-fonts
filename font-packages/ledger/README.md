@@ -7,15 +7,13 @@
 
 This package lets you use the [**Ledger**](https://fonts.google.com/specimen/Ledger) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Ledger
 
 ![Ledger](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Ledger_Regular400`
+- `Ledger_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Ledger_Regular400, useFonts } from '@expo-google-fonts/ledger';
+import { useFonts, Ledger_400Regular } from '@expo-google-fonts/ledger';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Ledger_Regular400,
+    Ledger_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ledger_Regular400' }}>
-          Ledger_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ledger_400Regular' }}>
+          Ledger_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Ledger_Regular400
-![Ledger_Regular400](./3d3e17668a2b5762ca671d8a2496ba50de6e3896eaada54fa3f74ad82f0daf43.ttf.png)
+##### Ledger_400Regular
+![Ledger_400Regular](./Ledger_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/ledger)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

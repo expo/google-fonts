@@ -7,15 +7,13 @@
 
 This package lets you use the [**Niconne**](https://fonts.google.com/specimen/Niconne) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Niconne
 
 ![Niconne](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Niconne_Regular400`
+- `Niconne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Niconne_Regular400, useFonts } from '@expo-google-fonts/niconne';
+import { useFonts, Niconne_400Regular } from '@expo-google-fonts/niconne';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Niconne_Regular400,
+    Niconne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Niconne_Regular400' }}>
-          Niconne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Niconne_400Regular' }}>
+          Niconne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Niconne_Regular400
-![Niconne_Regular400](./c5d99f37c7fc29904227e4a5909347b604c87dbe244293db4353ba24f5263d28.ttf.png)
+##### Niconne_400Regular
+![Niconne_400Regular](./Niconne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/niconne)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

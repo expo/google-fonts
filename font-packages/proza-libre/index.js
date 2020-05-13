@@ -4,16 +4,14 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Proza Libre';
-export const __fontFamilyVersion__ = 1;
-
-export const ProzaLibre_Regular400 = require('./9b6195e0fb14a5155dc5f1e836d174961876e69e0c471b7ab8357696acb1d404.ttf');
-export const ProzaLibre_Regular400_Italic = require('./79a33a14fa8f5bd86b8bd985de9a92647b0d6b62085299ae05b0c4f2cbf98bc8.ttf');
-export const ProzaLibre_Medium500 = require('./ac113922a0dc8f8533dcac9f1f9ec44f777502e94608291bd50da0fa981083d6.ttf');
-export const ProzaLibre_Medium500_Italic = require('./a6506ab9342408e2f16f5991f7f13117f9c080dfb34c268e4378f507d01fe3b8.ttf');
-export const ProzaLibre_SemiBold600 = require('./1e1b5cd4d00344b8bbbb015679e9bd7cc5e99a2fa3d6eb18b4f1303c90c3e68e.ttf');
-export const ProzaLibre_SemiBold600_Italic = require('./522e6755ed4fd909ed6968fa89460d7eb69e6b90fb0124f5fec6dfadb7dd5dac.ttf');
-export const ProzaLibre_Bold700 = require('./14701643695bd3fb18b0e9f16049cd1caa35acee12446ecf10b0a179697f7748.ttf');
-export const ProzaLibre_Bold700_Italic = require('./176582be0d8f918514d1f30bb1cfea4729cbd968974eced79e977378653c62c9.ttf');
-export const ProzaLibre_ExtraBold800 = require('./6d37a997a436ffd489943e8d33d8917c4eac47e1c20959ae0cd68f6470e932bb.ttf');
-export const ProzaLibre_ExtraBold800_Italic = require('./e5a8cfe2f4e6f80f7a40d647e5ca78ffe1df63c22c413d962ce2f937a8ce34e2.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ProzaLibre_400Regular = require('./ProzaLibre_400Regular.ttf');
+export const ProzaLibre_400Regular_Italic = require('./ProzaLibre_400Regular_Italic.ttf');
+export const ProzaLibre_500Medium = require('./ProzaLibre_500Medium.ttf');
+export const ProzaLibre_500Medium_Italic = require('./ProzaLibre_500Medium_Italic.ttf');
+export const ProzaLibre_600SemiBold = require('./ProzaLibre_600SemiBold.ttf');
+export const ProzaLibre_600SemiBold_Italic = require('./ProzaLibre_600SemiBold_Italic.ttf');
+export const ProzaLibre_700Bold = require('./ProzaLibre_700Bold.ttf');
+export const ProzaLibre_700Bold_Italic = require('./ProzaLibre_700Bold_Italic.ttf');
+export const ProzaLibre_800ExtraBold = require('./ProzaLibre_800ExtraBold.ttf');
+export const ProzaLibre_800ExtraBold_Italic = require('./ProzaLibre_800ExtraBold_Italic.ttf');

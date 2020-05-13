@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Elsie';
-export const __fontFamilyVersion__ = 6;
-
-export const Elsie_Regular400 = require('./bc0b83b9cbe3b25809361a2f4e495bdc9f10756f669072da3bc89689a42c8845.ttf');
-export const Elsie_Black900 = require('./9aca439d3b5c4abdf62ae59fb1a643c185345724ebdb002f388d25d7926f8f98.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Elsie_400Regular = require('./Elsie_400Regular.ttf');
+export const Elsie_900Black = require('./Elsie_900Black.ttf');

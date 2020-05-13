@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Overpass Mono';
-export const __fontFamilyVersion__ = 2;
-
-export const OverpassMono_Light300 = require('./a46cc06eb5b5001bdf1404b0e24fb82ee14159aca202af7094984ff4d48896dd.ttf');
-export const OverpassMono_Regular400 = require('./d3a8c0a4613ebae3d21471198e12e57aa70e9f051f7592e3942953e2c36bd190.ttf');
-export const OverpassMono_SemiBold600 = require('./f6b8f8180ef4c0f650402aa53effdd61f2d9771c4973d07f722d14ebd60e59da.ttf');
-export const OverpassMono_Bold700 = require('./d8f645bd2f708d8127ab1d3078ae22195543fbe52abee9362a8ed5a980cb1648.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const OverpassMono_300Light = require('./OverpassMono_300Light.ttf');
+export const OverpassMono_400Regular = require('./OverpassMono_400Regular.ttf');
+export const OverpassMono_600SemiBold = require('./OverpassMono_600SemiBold.ttf');
+export const OverpassMono_700Bold = require('./OverpassMono_700Bold.ttf');

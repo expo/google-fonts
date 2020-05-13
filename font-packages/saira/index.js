@@ -4,15 +4,13 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Saira';
-export const __fontFamilyVersion__ = 2;
-
-export const Saira_Thin100 = require('./b6d764b20e47ac3d6764acfa56dcca309c570f72779558c6c85b227d3d52c1a9.ttf');
-export const Saira_ExtraLight200 = require('./2b401181dcedd7b5ce954c3110d4a358e96333124e6afb4335cf4ce5a9612a21.ttf');
-export const Saira_Light300 = require('./9bc2a7efb47daf648f831278c1e7d476dc527592af052be0f1b56d14e3b4e333.ttf');
-export const Saira_Regular400 = require('./52c681d7513af192559d2240ada8f9fa22b3643bdb673ee7e21e6eb5684435f9.ttf');
-export const Saira_Medium500 = require('./2ca26aa1deaa72e2d0a3578ee8e0308aeeabd47a10628833efad904d84f252ba.ttf');
-export const Saira_SemiBold600 = require('./d9b40c01b3303786bc3fffeff6a6d3a756acf2bd892721e8d28e640b1269900f.ttf');
-export const Saira_Bold700 = require('./6f648ffbf75c94be4a3f3bdce9ed055f5ca4c76cea8df354c32deecf172d4bc3.ttf');
-export const Saira_ExtraBold800 = require('./e7ef6f260e896a02dd09b2e149372bffaf3c2fc81e6a3eaba79751a2f84bc498.ttf');
-export const Saira_Black900 = require('./784cb5c4c9a4355b55b1f819414b962800d401a312f0874e035e90ba2d1ebeb8.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Saira_100Thin = require('./Saira_100Thin.ttf');
+export const Saira_200ExtraLight = require('./Saira_200ExtraLight.ttf');
+export const Saira_300Light = require('./Saira_300Light.ttf');
+export const Saira_400Regular = require('./Saira_400Regular.ttf');
+export const Saira_500Medium = require('./Saira_500Medium.ttf');
+export const Saira_600SemiBold = require('./Saira_600SemiBold.ttf');
+export const Saira_700Bold = require('./Saira_700Bold.ttf');
+export const Saira_800ExtraBold = require('./Saira_800ExtraBold.ttf');
+export const Saira_900Black = require('./Saira_900Black.ttf');

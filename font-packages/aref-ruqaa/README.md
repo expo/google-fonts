@@ -7,16 +7,14 @@
 
 This package lets you use the [**Aref Ruqaa**](https://fonts.google.com/specimen/Aref+Ruqaa) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Aref Ruqaa
 
 ![Aref Ruqaa](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `ArefRuqaa_Regular400`
-- `ArefRuqaa_Bold700`
+- `ArefRuqaa_400Regular`
+- `ArefRuqaa_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { ArefRuqaa_Regular400, ArefRuqaa_Bold700, useFonts } from '@expo-google-fonts/aref-ruqaa';
+import { useFonts, ArefRuqaa_400Regular, ArefRuqaa_700Bold } from '@expo-google-fonts/aref-ruqaa';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ArefRuqaa_Regular400,
-    ArefRuqaa_Bold700,
+    ArefRuqaa_400Regular,
+    ArefRuqaa_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArefRuqaa_Regular400' }}>
-          ArefRuqaa_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArefRuqaa_400Regular' }}>
+          ArefRuqaa_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArefRuqaa_Bold700' }}>
-          ArefRuqaa_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArefRuqaa_700Bold' }}>
+          ArefRuqaa_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ArefRuqaa_Regular400
-![ArefRuqaa_Regular400](./483d6ce42473c62a61b38dc4e30c6b1a5d9b02921ab5034c8eec4b8f0496127d.ttf.png)
+##### ArefRuqaa_400Regular
+![ArefRuqaa_400Regular](./ArefRuqaa_400Regular.ttf.png)
 
-##### ArefRuqaa_Bold700
-![ArefRuqaa_Bold700](./4ea198095e22fea5b0b08338b3b524a2ac489bd669154eab1927955f20124358.ttf.png)
+##### ArefRuqaa_700Bold
+![ArefRuqaa_700Bold](./ArefRuqaa_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/aref-ruqaa)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

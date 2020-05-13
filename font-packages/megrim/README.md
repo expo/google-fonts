@@ -7,15 +7,13 @@
 
 This package lets you use the [**Megrim**](https://fonts.google.com/specimen/Megrim) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Megrim
 
 ![Megrim](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Megrim_Regular400`
+- `Megrim_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Megrim_Regular400, useFonts } from '@expo-google-fonts/megrim';
+import { useFonts, Megrim_400Regular } from '@expo-google-fonts/megrim';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Megrim_Regular400,
+    Megrim_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Megrim_Regular400' }}>
-          Megrim_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Megrim_400Regular' }}>
+          Megrim_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Megrim_Regular400
-![Megrim_Regular400](./af75cd9219b5b5df8c1ebc7dff3232935d81325c33d502dfabc83f32a310831d.ttf.png)
+##### Megrim_400Regular
+![Megrim_400Regular](./Megrim_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/megrim)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

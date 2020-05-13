@@ -7,16 +7,14 @@
 
 This package lets you use the [**Zilla Slab Highlight**](https://fonts.google.com/specimen/Zilla+Slab+Highlight) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Zilla Slab Highlight
 
 ![Zilla Slab Highlight](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `ZillaSlabHighlight_Regular400`
-- `ZillaSlabHighlight_Bold700`
+- `ZillaSlabHighlight_400Regular`
+- `ZillaSlabHighlight_700Bold`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  ZillaSlabHighlight_Regular400,
-  ZillaSlabHighlight_Bold700,
   useFonts,
+  ZillaSlabHighlight_400Regular,
+  ZillaSlabHighlight_700Bold,
 } from '@expo-google-fonts/zilla-slab-highlight';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ZillaSlabHighlight_Regular400,
-    ZillaSlabHighlight_Bold700,
+    ZillaSlabHighlight_400Regular,
+    ZillaSlabHighlight_700Bold,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZillaSlabHighlight_Regular400' }}>
-          ZillaSlabHighlight_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZillaSlabHighlight_400Regular' }}>
+          ZillaSlabHighlight_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZillaSlabHighlight_Bold700' }}>
-          ZillaSlabHighlight_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZillaSlabHighlight_700Bold' }}>
+          ZillaSlabHighlight_700Bold
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ZillaSlabHighlight_Regular400
-![ZillaSlabHighlight_Regular400](./dbd546264c0d549b6c3cd17c1acf40b35bbe910885e09b5e2a270aa090b6ee53.ttf.png)
+##### ZillaSlabHighlight_400Regular
+![ZillaSlabHighlight_400Regular](./ZillaSlabHighlight_400Regular.ttf.png)
 
-##### ZillaSlabHighlight_Bold700
-![ZillaSlabHighlight_Bold700](./be3605b5e26a2439fde6293b4159f4c401273e65483cab10505e6c4010523ece.ttf.png)
+##### ZillaSlabHighlight_700Bold
+![ZillaSlabHighlight_700Bold](./ZillaSlabHighlight_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/zilla-slab-highlight)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

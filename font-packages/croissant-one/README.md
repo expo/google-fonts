@@ -7,15 +7,13 @@
 
 This package lets you use the [**Croissant One**](https://fonts.google.com/specimen/Croissant+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Croissant One
 
 ![Croissant One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `CroissantOne_Regular400`
+- `CroissantOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { CroissantOne_Regular400, useFonts } from '@expo-google-fonts/croissant-one';
+import { useFonts, CroissantOne_400Regular } from '@expo-google-fonts/croissant-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CroissantOne_Regular400,
+    CroissantOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CroissantOne_Regular400' }}>
-          CroissantOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CroissantOne_400Regular' }}>
+          CroissantOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CroissantOne_Regular400
-![CroissantOne_Regular400](./a51f330afdb3504b94cb09686589076855186483e4e89665623ebe0f655ce6ec.ttf.png)
+##### CroissantOne_400Regular
+![CroissantOne_400Regular](./CroissantOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/croissant-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

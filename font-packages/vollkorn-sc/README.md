@@ -7,18 +7,16 @@
 
 This package lets you use the [**Vollkorn SC**](https://fonts.google.com/specimen/Vollkorn+SC) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Vollkorn SC
 
 ![Vollkorn SC](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `VollkornSC_Regular400`
-- `VollkornSC_SemiBold600`
-- `VollkornSC_Bold700`
-- `VollkornSC_Black900`
+- `VollkornSC_400Regular`
+- `VollkornSC_600SemiBold`
+- `VollkornSC_700Bold`
+- `VollkornSC_900Black`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  VollkornSC_Regular400,
-  VollkornSC_SemiBold600,
-  VollkornSC_Bold700,
-  VollkornSC_Black900,
   useFonts,
+  VollkornSC_400Regular,
+  VollkornSC_600SemiBold,
+  VollkornSC_700Bold,
+  VollkornSC_900Black,
 } from '@expo-google-fonts/vollkorn-sc';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    VollkornSC_Regular400,
-    VollkornSC_SemiBold600,
-    VollkornSC_Bold700,
-    VollkornSC_Black900,
+    VollkornSC_400Regular,
+    VollkornSC_600SemiBold,
+    VollkornSC_700Bold,
+    VollkornSC_900Black,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VollkornSC_Regular400' }}>
-          VollkornSC_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'VollkornSC_400Regular' }}>
+          VollkornSC_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VollkornSC_SemiBold600' }}>
-          VollkornSC_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'VollkornSC_600SemiBold' }}>
+          VollkornSC_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VollkornSC_Bold700' }}>
-          VollkornSC_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'VollkornSC_700Bold' }}>
+          VollkornSC_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VollkornSC_Black900' }}>
-          VollkornSC_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'VollkornSC_900Black' }}>
+          VollkornSC_900Black
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### VollkornSC_Regular400
-![VollkornSC_Regular400](./3a204e8e6e256d182887114991a86b3853bd7b370eb298c5c5358a4924e94326.ttf.png)
+##### VollkornSC_400Regular
+![VollkornSC_400Regular](./VollkornSC_400Regular.ttf.png)
 
-##### VollkornSC_SemiBold600
-![VollkornSC_SemiBold600](./c3f8bc857ab58e19ba62ee008373ba5b707f586065cc0a59e68cf3781b1075f5.ttf.png)
+##### VollkornSC_600SemiBold
+![VollkornSC_600SemiBold](./VollkornSC_600SemiBold.ttf.png)
 
-##### VollkornSC_Bold700
-![VollkornSC_Bold700](./0281449b729b1b8cb680dbcd00fd7d2e9d40ff24c858a834e3670997a561aea3.ttf.png)
+##### VollkornSC_700Bold
+![VollkornSC_700Bold](./VollkornSC_700Bold.ttf.png)
 
-##### VollkornSC_Black900
-![VollkornSC_Black900](./b95dc90d6b58551cd5cadf844986de95a70432ebf303eaf23270184113144a67.ttf.png)
+##### VollkornSC_900Black
+![VollkornSC_900Black](./VollkornSC_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/vollkorn-sc)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Average';
-export const __fontFamilyVersion__ = 4;
-
-export const Average_Regular400 = require('./ce0697844aa3a978d483dfa380fbebd5bff8e7e6dc0897bf6c2c009fb9ae4ab2.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Average_400Regular = require('./Average_400Regular.ttf');

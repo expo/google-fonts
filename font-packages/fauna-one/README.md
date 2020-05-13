@@ -7,15 +7,13 @@
 
 This package lets you use the [**Fauna One**](https://fonts.google.com/specimen/Fauna+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Fauna One
 
 ![Fauna One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `FaunaOne_Regular400`
+- `FaunaOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { FaunaOne_Regular400, useFonts } from '@expo-google-fonts/fauna-one';
+import { useFonts, FaunaOne_400Regular } from '@expo-google-fonts/fauna-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    FaunaOne_Regular400,
+    FaunaOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FaunaOne_Regular400' }}>
-          FaunaOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FaunaOne_400Regular' }}>
+          FaunaOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FaunaOne_Regular400
-![FaunaOne_Regular400](./afbf7594d1feb78a9b5e6262887492adcf721a6e1d033b1c6d26aeba06bcc132.ttf.png)
+##### FaunaOne_400Regular
+![FaunaOne_400Regular](./FaunaOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/fauna-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

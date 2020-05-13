@@ -7,17 +7,15 @@
 
 This package lets you use the [**Amiko**](https://fonts.google.com/specimen/Amiko) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Amiko
 
 ![Amiko](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `Amiko_Regular400`
-- `Amiko_SemiBold600`
-- `Amiko_Bold700`
+- `Amiko_400Regular`
+- `Amiko_600SemiBold`
+- `Amiko_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Amiko_Regular400,
-  Amiko_SemiBold600,
-  Amiko_Bold700,
   useFonts,
+  Amiko_400Regular,
+  Amiko_600SemiBold,
+  Amiko_700Bold,
 } from '@expo-google-fonts/amiko';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Amiko_Regular400,
-    Amiko_SemiBold600,
-    Amiko_Bold700,
+    Amiko_400Regular,
+    Amiko_600SemiBold,
+    Amiko_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiko_Regular400' }}>
-          Amiko_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiko_400Regular' }}>
+          Amiko_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiko_SemiBold600' }}>
-          Amiko_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiko_600SemiBold' }}>
+          Amiko_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiko_Bold700' }}>
-          Amiko_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiko_700Bold' }}>
+          Amiko_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Amiko_Regular400
-![Amiko_Regular400](./c2e782cc6b503328a87e3b81b3ee6afa1acb6cd66bd04d9da2ba5d3ff4c43e3f.ttf.png)
+##### Amiko_400Regular
+![Amiko_400Regular](./Amiko_400Regular.ttf.png)
 
-##### Amiko_SemiBold600
-![Amiko_SemiBold600](./d56799efb6c3d56b106cae38c558a3f2f9da3d0a90d0d1ea64449c693d3cadfc.ttf.png)
+##### Amiko_600SemiBold
+![Amiko_600SemiBold](./Amiko_600SemiBold.ttf.png)
 
-##### Amiko_Bold700
-![Amiko_Bold700](./037bbdff86b70266d62abc94be043671d3c04188f477dbb0ead70ee89df98ecb.ttf.png)
+##### Amiko_700Bold
+![Amiko_700Bold](./Amiko_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/amiko)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

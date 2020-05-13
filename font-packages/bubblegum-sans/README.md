@@ -7,15 +7,13 @@
 
 This package lets you use the [**Bubblegum Sans**](https://fonts.google.com/specimen/Bubblegum+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Bubblegum Sans
 
 ![Bubblegum Sans](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `BubblegumSans_Regular400`
+- `BubblegumSans_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { BubblegumSans_Regular400, useFonts } from '@expo-google-fonts/bubblegum-sans';
+import { useFonts, BubblegumSans_400Regular } from '@expo-google-fonts/bubblegum-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    BubblegumSans_Regular400,
+    BubblegumSans_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BubblegumSans_Regular400' }}>
-          BubblegumSans_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BubblegumSans_400Regular' }}>
+          BubblegumSans_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BubblegumSans_Regular400
-![BubblegumSans_Regular400](./53e2f591d5b22787b4fd506e06145d2652da6014e1707f782a92395533188726.ttf.png)
+##### BubblegumSans_400Regular
+![BubblegumSans_400Regular](./BubblegumSans_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/bubblegum-sans)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Imprima';
-export const __fontFamilyVersion__ = 4;
-
-export const Imprima_Regular400 = require('./40a584db206f3a44197d5245155bcca66a72cf6c2dd346e78ca4b30b36af92b4.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Imprima_400Regular = require('./Imprima_400Regular.ttf');

@@ -7,30 +7,28 @@
 
 This package lets you use the [**K2D**](https://fonts.google.com/specimen/K2D) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## K2D
 
 ![K2D](./font-family.png)
 
 This font family contains [16 styles](#-gallery).
 
-- `K2D_Thin100`
-- `K2D_Thin100_Italic`
-- `K2D_ExtraLight200`
-- `K2D_ExtraLight200_Italic`
-- `K2D_Light300`
-- `K2D_Light300_Italic`
-- `K2D_Regular400`
-- `K2D_Regular400_Italic`
-- `K2D_Medium500`
-- `K2D_Medium500_Italic`
-- `K2D_SemiBold600`
-- `K2D_SemiBold600_Italic`
-- `K2D_Bold700`
-- `K2D_Bold700_Italic`
-- `K2D_ExtraBold800`
-- `K2D_ExtraBold800_Italic`
+- `K2D_100Thin`
+- `K2D_100Thin_Italic`
+- `K2D_200ExtraLight`
+- `K2D_200ExtraLight_Italic`
+- `K2D_300Light`
+- `K2D_300Light_Italic`
+- `K2D_400Regular`
+- `K2D_400Regular_Italic`
+- `K2D_500Medium`
+- `K2D_500Medium_Italic`
+- `K2D_600SemiBold`
+- `K2D_600SemiBold_Italic`
+- `K2D_700Bold`
+- `K2D_700Bold_Italic`
+- `K2D_800ExtraBold`
+- `K2D_800ExtraBold_Italic`
 
 ## Usage
 
@@ -46,43 +44,43 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  K2D_Thin100,
-  K2D_Thin100_Italic,
-  K2D_ExtraLight200,
-  K2D_ExtraLight200_Italic,
-  K2D_Light300,
-  K2D_Light300_Italic,
-  K2D_Regular400,
-  K2D_Regular400_Italic,
-  K2D_Medium500,
-  K2D_Medium500_Italic,
-  K2D_SemiBold600,
-  K2D_SemiBold600_Italic,
-  K2D_Bold700,
-  K2D_Bold700_Italic,
-  K2D_ExtraBold800,
-  K2D_ExtraBold800_Italic,
   useFonts,
+  K2D_100Thin,
+  K2D_100Thin_Italic,
+  K2D_200ExtraLight,
+  K2D_200ExtraLight_Italic,
+  K2D_300Light,
+  K2D_300Light_Italic,
+  K2D_400Regular,
+  K2D_400Regular_Italic,
+  K2D_500Medium,
+  K2D_500Medium_Italic,
+  K2D_600SemiBold,
+  K2D_600SemiBold_Italic,
+  K2D_700Bold,
+  K2D_700Bold_Italic,
+  K2D_800ExtraBold,
+  K2D_800ExtraBold_Italic,
 } from '@expo-google-fonts/k2d';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    K2D_Thin100,
-    K2D_Thin100_Italic,
-    K2D_ExtraLight200,
-    K2D_ExtraLight200_Italic,
-    K2D_Light300,
-    K2D_Light300_Italic,
-    K2D_Regular400,
-    K2D_Regular400_Italic,
-    K2D_Medium500,
-    K2D_Medium500_Italic,
-    K2D_SemiBold600,
-    K2D_SemiBold600_Italic,
-    K2D_Bold700,
-    K2D_Bold700_Italic,
-    K2D_ExtraBold800,
-    K2D_ExtraBold800_Italic,
+    K2D_100Thin,
+    K2D_100Thin_Italic,
+    K2D_200ExtraLight,
+    K2D_200ExtraLight_Italic,
+    K2D_300Light,
+    K2D_300Light_Italic,
+    K2D_400Regular,
+    K2D_400Regular_Italic,
+    K2D_500Medium,
+    K2D_500Medium_Italic,
+    K2D_600SemiBold,
+    K2D_600SemiBold_Italic,
+    K2D_700Bold,
+    K2D_700Bold_Italic,
+    K2D_800ExtraBold,
+    K2D_800ExtraBold_Italic,
   });
 
   let fontSize = 24;
@@ -93,62 +91,62 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_Thin100' }}>K2D_Thin100</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_100Thin' }}>K2D_100Thin</Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_Thin100_Italic' }}>
-          K2D_Thin100_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_100Thin_Italic' }}>
+          K2D_100Thin_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_ExtraLight200' }}>
-          K2D_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_200ExtraLight' }}>
+          K2D_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_ExtraLight200_Italic' }}>
-          K2D_ExtraLight200_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_200ExtraLight_Italic' }}>
+          K2D_200ExtraLight_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_Light300' }}>K2D_Light300</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_300Light' }}>K2D_300Light</Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_Light300_Italic' }}>
-          K2D_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_300Light_Italic' }}>
+          K2D_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_Regular400' }}>
-          K2D_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_400Regular' }}>
+          K2D_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_Regular400_Italic' }}>
-          K2D_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_400Regular_Italic' }}>
+          K2D_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_Medium500' }}>
-          K2D_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_500Medium' }}>
+          K2D_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_Medium500_Italic' }}>
-          K2D_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_500Medium_Italic' }}>
+          K2D_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_SemiBold600' }}>
-          K2D_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_600SemiBold' }}>
+          K2D_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_SemiBold600_Italic' }}>
-          K2D_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_600SemiBold_Italic' }}>
+          K2D_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_Bold700' }}>K2D_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_700Bold' }}>K2D_700Bold</Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_Bold700_Italic' }}>
-          K2D_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_700Bold_Italic' }}>
+          K2D_700Bold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_ExtraBold800' }}>
-          K2D_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_800ExtraBold' }}>
+          K2D_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_ExtraBold800_Italic' }}>
-          K2D_ExtraBold800_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_800ExtraBold_Italic' }}>
+          K2D_800ExtraBold_Italic
         </Text>
       </View>
     );
@@ -159,53 +157,53 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### K2D_Thin100
-![K2D_Thin100](./d221fa3a362d33d180e193b479bfddbf9e8ab02b545540d3a80121af669090de.ttf.png)
+##### K2D_100Thin
+![K2D_100Thin](./K2D_100Thin.ttf.png)
 
-##### K2D_Thin100_Italic
-![K2D_Thin100_Italic](./2ee77370590db6101099fae848e5f0e4fad425bcb6a8bb711390100587eacf49.ttf.png)
+##### K2D_100Thin_Italic
+![K2D_100Thin_Italic](./K2D_100Thin_Italic.ttf.png)
 
-##### K2D_ExtraLight200
-![K2D_ExtraLight200](./84c5594915b66f9cd68b4acb3820acdf5be79979f881f4edbece711c1a63d0cd.ttf.png)
+##### K2D_200ExtraLight
+![K2D_200ExtraLight](./K2D_200ExtraLight.ttf.png)
 
-##### K2D_ExtraLight200_Italic
-![K2D_ExtraLight200_Italic](./989bf534f4958d0d4655079703f5c6788e8cd7b1add81d08a1de93c354d69c1c.ttf.png)
+##### K2D_200ExtraLight_Italic
+![K2D_200ExtraLight_Italic](./K2D_200ExtraLight_Italic.ttf.png)
 
-##### K2D_Light300
-![K2D_Light300](./bad065e1eeca31036e60587a4472530b8db84eb93149d94f2b687a28c8b0af39.ttf.png)
+##### K2D_300Light
+![K2D_300Light](./K2D_300Light.ttf.png)
 
-##### K2D_Light300_Italic
-![K2D_Light300_Italic](./1696fa34076cad6a8c919ffbe3247882c29a281086a573ddb8abc0c175794aed.ttf.png)
+##### K2D_300Light_Italic
+![K2D_300Light_Italic](./K2D_300Light_Italic.ttf.png)
 
-##### K2D_Regular400
-![K2D_Regular400](./ebd6d32612d7badd90f78a25b0a45e1573bcbd0b93954b702d17188d178d9e87.ttf.png)
+##### K2D_400Regular
+![K2D_400Regular](./K2D_400Regular.ttf.png)
 
-##### K2D_Regular400_Italic
-![K2D_Regular400_Italic](./d7dc126127f8fcfeda097e5da4a1097f60e396ed7c4696060eaa0da6f1727366.ttf.png)
+##### K2D_400Regular_Italic
+![K2D_400Regular_Italic](./K2D_400Regular_Italic.ttf.png)
 
-##### K2D_Medium500
-![K2D_Medium500](./57c28cc8eae5e455cd2000ea358ed6be014ff9f0e69866e18a1e7b9c6345bce0.ttf.png)
+##### K2D_500Medium
+![K2D_500Medium](./K2D_500Medium.ttf.png)
 
-##### K2D_Medium500_Italic
-![K2D_Medium500_Italic](./00dc6e342b171a8e55a277d83326c4612d8f176cd576ee5f666636b13fc4ca18.ttf.png)
+##### K2D_500Medium_Italic
+![K2D_500Medium_Italic](./K2D_500Medium_Italic.ttf.png)
 
-##### K2D_SemiBold600
-![K2D_SemiBold600](./8ceb3795ff3e683d9c70a4d12f431d94434b2527d61dcc11d59f840bfd644a8a.ttf.png)
+##### K2D_600SemiBold
+![K2D_600SemiBold](./K2D_600SemiBold.ttf.png)
 
-##### K2D_SemiBold600_Italic
-![K2D_SemiBold600_Italic](./3bff6acc9a59d6af0e9d2b3170d55987d1c96e9bb88ff5c20be84053cdb0dd81.ttf.png)
+##### K2D_600SemiBold_Italic
+![K2D_600SemiBold_Italic](./K2D_600SemiBold_Italic.ttf.png)
 
-##### K2D_Bold700
-![K2D_Bold700](./42e6c8a5b79abf6121af3fc8777219f39b88045a96a42dfe628d28c2112a4e12.ttf.png)
+##### K2D_700Bold
+![K2D_700Bold](./K2D_700Bold.ttf.png)
 
-##### K2D_Bold700_Italic
-![K2D_Bold700_Italic](./3d449eedd3718213cee306d0dd007fccf31827c55aa2d25b3d14ca933471e53b.ttf.png)
+##### K2D_700Bold_Italic
+![K2D_700Bold_Italic](./K2D_700Bold_Italic.ttf.png)
 
-##### K2D_ExtraBold800
-![K2D_ExtraBold800](./8f35ce22ce957eeee7bffef62f142fb7bf751169767ad5ab73cd78ba6c135821.ttf.png)
+##### K2D_800ExtraBold
+![K2D_800ExtraBold](./K2D_800ExtraBold.ttf.png)
 
-##### K2D_ExtraBold800_Italic
-![K2D_ExtraBold800_Italic](./2141bd5b98bac331831e687a2131f46a8d23093831953a533451e0081a54f6aa.ttf.png)
+##### K2D_800ExtraBold_Italic
+![K2D_800ExtraBold_Italic](./K2D_800ExtraBold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -235,7 +233,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/k2d)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,19 +7,17 @@
 
 This package lets you use the [**Khula**](https://fonts.google.com/specimen/Khula) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Khula
 
 ![Khula](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `Khula_Light300`
-- `Khula_Regular400`
-- `Khula_SemiBold600`
-- `Khula_Bold700`
-- `Khula_ExtraBold800`
+- `Khula_300Light`
+- `Khula_400Regular`
+- `Khula_600SemiBold`
+- `Khula_700Bold`
+- `Khula_800ExtraBold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Khula_Light300,
-  Khula_Regular400,
-  Khula_SemiBold600,
-  Khula_Bold700,
-  Khula_ExtraBold800,
   useFonts,
+  Khula_300Light,
+  Khula_400Regular,
+  Khula_600SemiBold,
+  Khula_700Bold,
+  Khula_800ExtraBold,
 } from '@expo-google-fonts/khula';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Khula_Light300,
-    Khula_Regular400,
-    Khula_SemiBold600,
-    Khula_Bold700,
-    Khula_ExtraBold800,
+    Khula_300Light,
+    Khula_400Regular,
+    Khula_600SemiBold,
+    Khula_700Bold,
+    Khula_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khula_Light300' }}>
-          Khula_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khula_300Light' }}>
+          Khula_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khula_Regular400' }}>
-          Khula_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khula_400Regular' }}>
+          Khula_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khula_SemiBold600' }}>
-          Khula_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khula_600SemiBold' }}>
+          Khula_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khula_Bold700' }}>
-          Khula_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khula_700Bold' }}>
+          Khula_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khula_ExtraBold800' }}>
-          Khula_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khula_800ExtraBold' }}>
+          Khula_800ExtraBold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Khula_Light300
-![Khula_Light300](./565c281fe5c11e451834dd30eda6e6d94a41c1a9c186c175541aa8ddef492d4f.ttf.png)
+##### Khula_300Light
+![Khula_300Light](./Khula_300Light.ttf.png)
 
-##### Khula_Regular400
-![Khula_Regular400](./743e9de20b77192c80fd43452b591fcc85ef36aa1dd7746171503962b5687046.ttf.png)
+##### Khula_400Regular
+![Khula_400Regular](./Khula_400Regular.ttf.png)
 
-##### Khula_SemiBold600
-![Khula_SemiBold600](./af7d4733894aa875443cf8921445981662df9f4f3ee13e8cc151dee7c9ca5dde.ttf.png)
+##### Khula_600SemiBold
+![Khula_600SemiBold](./Khula_600SemiBold.ttf.png)
 
-##### Khula_Bold700
-![Khula_Bold700](./f8536c085e0c982334e632c44c763535658fd643b50254fb20784b8f377a6231.ttf.png)
+##### Khula_700Bold
+![Khula_700Bold](./Khula_700Bold.ttf.png)
 
-##### Khula_ExtraBold800
-![Khula_ExtraBold800](./976ee869557699be72a4b83bbb3362cc7be7de27930b5b671210b69063a49d2f.ttf.png)
+##### Khula_800ExtraBold
+![Khula_800ExtraBold](./Khula_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/khula)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

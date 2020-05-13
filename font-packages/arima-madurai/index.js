@@ -4,14 +4,12 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Arima Madurai';
-export const __fontFamilyVersion__ = 2;
-
-export const ArimaMadurai_Thin100 = require('./20fe984789a290b9c540b82d788511cf37e7dcb0c94a3f808ed8a9980ce92262.ttf');
-export const ArimaMadurai_ExtraLight200 = require('./4ea122a5616110be9d6b0719ff9a8e5d87a5bb067671e53f60e9e2f34151a054.ttf');
-export const ArimaMadurai_Light300 = require('./e9bb6dffdcb0e85ac571c284727a1ff484951f065ccff0e42668f232709bcfd0.ttf');
-export const ArimaMadurai_Regular400 = require('./72a8a5252b9293d6af843e90bdda0f995b86531cb25d7a2489b5b58e7c495575.ttf');
-export const ArimaMadurai_Medium500 = require('./b608979162b4bce202e22f3cba5768ef3c5f96294c41e1d36229b02393a70cf7.ttf');
-export const ArimaMadurai_Bold700 = require('./f9809fc1ba075315f2526aba738bb8c4bfb8af33451d402a57eae3edbdbe45b6.ttf');
-export const ArimaMadurai_ExtraBold800 = require('./030889c403dcab9b3a79394ed59d1d1da7d0dbafae26fc8c6d1b870d7732c997.ttf');
-export const ArimaMadurai_Black900 = require('./25561cbe875f9bad0c96c060f2a1f8108ba709366496e68ff510efdf5930429f.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ArimaMadurai_100Thin = require('./ArimaMadurai_100Thin.ttf');
+export const ArimaMadurai_200ExtraLight = require('./ArimaMadurai_200ExtraLight.ttf');
+export const ArimaMadurai_300Light = require('./ArimaMadurai_300Light.ttf');
+export const ArimaMadurai_400Regular = require('./ArimaMadurai_400Regular.ttf');
+export const ArimaMadurai_500Medium = require('./ArimaMadurai_500Medium.ttf');
+export const ArimaMadurai_700Bold = require('./ArimaMadurai_700Bold.ttf');
+export const ArimaMadurai_800ExtraBold = require('./ArimaMadurai_800ExtraBold.ttf');
+export const ArimaMadurai_900Black = require('./ArimaMadurai_900Black.ttf');

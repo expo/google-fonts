@@ -7,21 +7,19 @@
 
 This package lets you use the [**Inknut Antiqua**](https://fonts.google.com/specimen/Inknut+Antiqua) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Inknut Antiqua
 
 ![Inknut Antiqua](./font-family.png)
 
 This font family contains [7 styles](#-gallery).
 
-- `InknutAntiqua_Light300`
-- `InknutAntiqua_Regular400`
-- `InknutAntiqua_Medium500`
-- `InknutAntiqua_SemiBold600`
-- `InknutAntiqua_Bold700`
-- `InknutAntiqua_ExtraBold800`
-- `InknutAntiqua_Black900`
+- `InknutAntiqua_300Light`
+- `InknutAntiqua_400Regular`
+- `InknutAntiqua_500Medium`
+- `InknutAntiqua_600SemiBold`
+- `InknutAntiqua_700Bold`
+- `InknutAntiqua_800ExtraBold`
+- `InknutAntiqua_900Black`
 
 ## Usage
 
@@ -37,25 +35,25 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  InknutAntiqua_Light300,
-  InknutAntiqua_Regular400,
-  InknutAntiqua_Medium500,
-  InknutAntiqua_SemiBold600,
-  InknutAntiqua_Bold700,
-  InknutAntiqua_ExtraBold800,
-  InknutAntiqua_Black900,
   useFonts,
+  InknutAntiqua_300Light,
+  InknutAntiqua_400Regular,
+  InknutAntiqua_500Medium,
+  InknutAntiqua_600SemiBold,
+  InknutAntiqua_700Bold,
+  InknutAntiqua_800ExtraBold,
+  InknutAntiqua_900Black,
 } from '@expo-google-fonts/inknut-antiqua';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    InknutAntiqua_Light300,
-    InknutAntiqua_Regular400,
-    InknutAntiqua_Medium500,
-    InknutAntiqua_SemiBold600,
-    InknutAntiqua_Bold700,
-    InknutAntiqua_ExtraBold800,
-    InknutAntiqua_Black900,
+    InknutAntiqua_300Light,
+    InknutAntiqua_400Regular,
+    InknutAntiqua_500Medium,
+    InknutAntiqua_600SemiBold,
+    InknutAntiqua_700Bold,
+    InknutAntiqua_800ExtraBold,
+    InknutAntiqua_900Black,
   });
 
   let fontSize = 24;
@@ -66,32 +64,32 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_Light300' }}>
-          InknutAntiqua_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_300Light' }}>
+          InknutAntiqua_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_Regular400' }}>
-          InknutAntiqua_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_400Regular' }}>
+          InknutAntiqua_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_Medium500' }}>
-          InknutAntiqua_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_500Medium' }}>
+          InknutAntiqua_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_SemiBold600' }}>
-          InknutAntiqua_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_600SemiBold' }}>
+          InknutAntiqua_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_Bold700' }}>
-          InknutAntiqua_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_700Bold' }}>
+          InknutAntiqua_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_ExtraBold800' }}>
-          InknutAntiqua_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_800ExtraBold' }}>
+          InknutAntiqua_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_Black900' }}>
-          InknutAntiqua_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_900Black' }}>
+          InknutAntiqua_900Black
         </Text>
       </View>
     );
@@ -102,26 +100,26 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### InknutAntiqua_Light300
-![InknutAntiqua_Light300](./8fae03035a8fb6772fc7bcac683c4a01747a3902ede69b6897be980d35cd3c42.ttf.png)
+##### InknutAntiqua_300Light
+![InknutAntiqua_300Light](./InknutAntiqua_300Light.ttf.png)
 
-##### InknutAntiqua_Regular400
-![InknutAntiqua_Regular400](./bad6e7b6f2580d3870d5242c04a7edbb0712500e639570759d1b76b16ad225af.ttf.png)
+##### InknutAntiqua_400Regular
+![InknutAntiqua_400Regular](./InknutAntiqua_400Regular.ttf.png)
 
-##### InknutAntiqua_Medium500
-![InknutAntiqua_Medium500](./f7bad3658649b817553e3c3a1e3b75b8b1c2f93af24d3ee0c2f491f13695cee4.ttf.png)
+##### InknutAntiqua_500Medium
+![InknutAntiqua_500Medium](./InknutAntiqua_500Medium.ttf.png)
 
-##### InknutAntiqua_SemiBold600
-![InknutAntiqua_SemiBold600](./4249a7edc9acfbbb46d50638be038427a109d75df9478fd696a6d61ac2c6262b.ttf.png)
+##### InknutAntiqua_600SemiBold
+![InknutAntiqua_600SemiBold](./InknutAntiqua_600SemiBold.ttf.png)
 
-##### InknutAntiqua_Bold700
-![InknutAntiqua_Bold700](./ed4800a911bc4a319bbb68949167b0e0c9149ae4542444b3643b0949f21dbebb.ttf.png)
+##### InknutAntiqua_700Bold
+![InknutAntiqua_700Bold](./InknutAntiqua_700Bold.ttf.png)
 
-##### InknutAntiqua_ExtraBold800
-![InknutAntiqua_ExtraBold800](./58f6a2abd44b4a7ba81f42611ec481c40e08bed9129fec6f638b2dca583bf20d.ttf.png)
+##### InknutAntiqua_800ExtraBold
+![InknutAntiqua_800ExtraBold](./InknutAntiqua_800ExtraBold.ttf.png)
 
-##### InknutAntiqua_Black900
-![InknutAntiqua_Black900](./068486e18282d9c5300c186834bd1a055d1d4d2697ac3498756bc41e999b676b.ttf.png)
+##### InknutAntiqua_900Black
+![InknutAntiqua_900Black](./InknutAntiqua_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -151,7 +149,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/inknut-antiqua)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

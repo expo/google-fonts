@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Galada';
-export const __fontFamilyVersion__ = 1;
-
-export const Galada_Regular400 = require('./51eded8448fda4469fa2bddc7f049589ba69c75270cdf61adabbe4453abc8728.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Galada_400Regular = require('./Galada_400Regular.ttf');

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Sedgwick Ave**](https://fonts.google.com/specimen/Sedgwick+Ave) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sedgwick Ave
 
 ![Sedgwick Ave](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `SedgwickAve_Regular400`
+- `SedgwickAve_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { SedgwickAve_Regular400, useFonts } from '@expo-google-fonts/sedgwick-ave';
+import { useFonts, SedgwickAve_400Regular } from '@expo-google-fonts/sedgwick-ave';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    SedgwickAve_Regular400,
+    SedgwickAve_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SedgwickAve_Regular400' }}>
-          SedgwickAve_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SedgwickAve_400Regular' }}>
+          SedgwickAve_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SedgwickAve_Regular400
-![SedgwickAve_Regular400](./75c5db2b35fc38825c6bb8e5b7950fcedcfd03dec14b735dc12648a9b601d9f8.ttf.png)
+##### SedgwickAve_400Regular
+![SedgwickAve_400Regular](./SedgwickAve_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sedgwick-ave)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

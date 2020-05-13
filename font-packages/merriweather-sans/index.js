@@ -4,14 +4,12 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Merriweather Sans';
-export const __fontFamilyVersion__ = 8;
-
-export const MerriweatherSans_Light300 = require('./f616380e06211b4f761656da4fa581a7d0342e10ef56f5be45bee9306dfc3a9b.ttf');
-export const MerriweatherSans_Light300_Italic = require('./05ca1d14a17191d43a6d7622e29059462800af4da0f507c95243b2bad8fa630c.ttf');
-export const MerriweatherSans_Regular400 = require('./6bed429e28f419d7f2a83544104f8c0561a37b088ae9f84c2bcd7400c2589dea.ttf');
-export const MerriweatherSans_Regular400_Italic = require('./2064c7a30f875f7364657c94031f67a4ec37225a03e604d81190ef884df6b744.ttf');
-export const MerriweatherSans_Bold700 = require('./fa38d2e5c8adaa4e200490a344d5cf28495405d0d83c6a0620bef8510853c9ac.ttf');
-export const MerriweatherSans_Bold700_Italic = require('./5c33c69255f4345f6510aeb92fb1edd05495c99313368face8b8c9f996bf5545.ttf');
-export const MerriweatherSans_ExtraBold800 = require('./344758d11e4f83c18b0998f11d76dfc215dabfffa863207739c8a99248ec5f89.ttf');
-export const MerriweatherSans_ExtraBold800_Italic = require('./45321dfdc3c655bfed2b7abc7fb30131d49e307233bf42d8a8d477135890fc04.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MerriweatherSans_300Light = require('./MerriweatherSans_300Light.ttf');
+export const MerriweatherSans_300Light_Italic = require('./MerriweatherSans_300Light_Italic.ttf');
+export const MerriweatherSans_400Regular = require('./MerriweatherSans_400Regular.ttf');
+export const MerriweatherSans_400Regular_Italic = require('./MerriweatherSans_400Regular_Italic.ttf');
+export const MerriweatherSans_700Bold = require('./MerriweatherSans_700Bold.ttf');
+export const MerriweatherSans_700Bold_Italic = require('./MerriweatherSans_700Bold_Italic.ttf');
+export const MerriweatherSans_800ExtraBold = require('./MerriweatherSans_800ExtraBold.ttf');
+export const MerriweatherSans_800ExtraBold_Italic = require('./MerriweatherSans_800ExtraBold_Italic.ttf');

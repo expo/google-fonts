@@ -7,16 +7,14 @@
 
 This package lets you use the [**Padauk**](https://fonts.google.com/specimen/Padauk) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Padauk
 
 ![Padauk](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Padauk_Regular400`
-- `Padauk_Bold700`
+- `Padauk_400Regular`
+- `Padauk_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Padauk_Regular400, Padauk_Bold700, useFonts } from '@expo-google-fonts/padauk';
+import { useFonts, Padauk_400Regular, Padauk_700Bold } from '@expo-google-fonts/padauk';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Padauk_Regular400,
-    Padauk_Bold700,
+    Padauk_400Regular,
+    Padauk_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Padauk_Regular400' }}>
-          Padauk_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Padauk_400Regular' }}>
+          Padauk_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Padauk_Bold700' }}>
-          Padauk_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Padauk_700Bold' }}>
+          Padauk_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Padauk_Regular400
-![Padauk_Regular400](./5326568d3a2c4690b03acaafdf444cd2e52712e7a16d96a3639b40f17fcfe8b0.ttf.png)
+##### Padauk_400Regular
+![Padauk_400Regular](./Padauk_400Regular.ttf.png)
 
-##### Padauk_Bold700
-![Padauk_Bold700](./a3054832e288beedeba883a9477e908a910c186e002a455277fb4c54e37518f6.ttf.png)
+##### Padauk_700Bold
+![Padauk_700Bold](./Padauk_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/padauk)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

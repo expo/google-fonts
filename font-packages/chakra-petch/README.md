@@ -7,24 +7,22 @@
 
 This package lets you use the [**Chakra Petch**](https://fonts.google.com/specimen/Chakra+Petch) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Chakra Petch
 
 ![Chakra Petch](./font-family.png)
 
 This font family contains [10 styles](#-gallery).
 
-- `ChakraPetch_Light300`
-- `ChakraPetch_Light300_Italic`
-- `ChakraPetch_Regular400`
-- `ChakraPetch_Regular400_Italic`
-- `ChakraPetch_Medium500`
-- `ChakraPetch_Medium500_Italic`
-- `ChakraPetch_SemiBold600`
-- `ChakraPetch_SemiBold600_Italic`
-- `ChakraPetch_Bold700`
-- `ChakraPetch_Bold700_Italic`
+- `ChakraPetch_300Light`
+- `ChakraPetch_300Light_Italic`
+- `ChakraPetch_400Regular`
+- `ChakraPetch_400Regular_Italic`
+- `ChakraPetch_500Medium`
+- `ChakraPetch_500Medium_Italic`
+- `ChakraPetch_600SemiBold`
+- `ChakraPetch_600SemiBold_Italic`
+- `ChakraPetch_700Bold`
+- `ChakraPetch_700Bold_Italic`
 
 ## Usage
 
@@ -40,31 +38,31 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  ChakraPetch_Light300,
-  ChakraPetch_Light300_Italic,
-  ChakraPetch_Regular400,
-  ChakraPetch_Regular400_Italic,
-  ChakraPetch_Medium500,
-  ChakraPetch_Medium500_Italic,
-  ChakraPetch_SemiBold600,
-  ChakraPetch_SemiBold600_Italic,
-  ChakraPetch_Bold700,
-  ChakraPetch_Bold700_Italic,
   useFonts,
+  ChakraPetch_300Light,
+  ChakraPetch_300Light_Italic,
+  ChakraPetch_400Regular,
+  ChakraPetch_400Regular_Italic,
+  ChakraPetch_500Medium,
+  ChakraPetch_500Medium_Italic,
+  ChakraPetch_600SemiBold,
+  ChakraPetch_600SemiBold_Italic,
+  ChakraPetch_700Bold,
+  ChakraPetch_700Bold_Italic,
 } from '@expo-google-fonts/chakra-petch';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ChakraPetch_Light300,
-    ChakraPetch_Light300_Italic,
-    ChakraPetch_Regular400,
-    ChakraPetch_Regular400_Italic,
-    ChakraPetch_Medium500,
-    ChakraPetch_Medium500_Italic,
-    ChakraPetch_SemiBold600,
-    ChakraPetch_SemiBold600_Italic,
-    ChakraPetch_Bold700,
-    ChakraPetch_Bold700_Italic,
+    ChakraPetch_300Light,
+    ChakraPetch_300Light_Italic,
+    ChakraPetch_400Regular,
+    ChakraPetch_400Regular_Italic,
+    ChakraPetch_500Medium,
+    ChakraPetch_500Medium_Italic,
+    ChakraPetch_600SemiBold,
+    ChakraPetch_600SemiBold_Italic,
+    ChakraPetch_700Bold,
+    ChakraPetch_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -75,44 +73,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_Light300' }}>
-          ChakraPetch_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_300Light' }}>
+          ChakraPetch_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_Light300_Italic' }}>
-          ChakraPetch_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_300Light_Italic' }}>
+          ChakraPetch_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_Regular400' }}>
-          ChakraPetch_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_400Regular' }}>
+          ChakraPetch_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_Regular400_Italic' }}>
-          ChakraPetch_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_400Regular_Italic' }}>
+          ChakraPetch_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_Medium500' }}>
-          ChakraPetch_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_500Medium' }}>
+          ChakraPetch_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_Medium500_Italic' }}>
-          ChakraPetch_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_500Medium_Italic' }}>
+          ChakraPetch_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_SemiBold600' }}>
-          ChakraPetch_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_600SemiBold' }}>
+          ChakraPetch_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_SemiBold600_Italic' }}>
-          ChakraPetch_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_600SemiBold_Italic' }}>
+          ChakraPetch_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_Bold700' }}>
-          ChakraPetch_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_700Bold' }}>
+          ChakraPetch_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_Bold700_Italic' }}>
-          ChakraPetch_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_700Bold_Italic' }}>
+          ChakraPetch_700Bold_Italic
         </Text>
       </View>
     );
@@ -123,35 +121,35 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ChakraPetch_Light300
-![ChakraPetch_Light300](./ecaf4ae2d67c61e2a3fa8df13a271ccea00d43000ba74107e7bfda439f60b1d2.ttf.png)
+##### ChakraPetch_300Light
+![ChakraPetch_300Light](./ChakraPetch_300Light.ttf.png)
 
-##### ChakraPetch_Light300_Italic
-![ChakraPetch_Light300_Italic](./020376f9083d9c7e6f32ecb879dee72b6fadef64ea9a3df0bd01d4952a06f1aa.ttf.png)
+##### ChakraPetch_300Light_Italic
+![ChakraPetch_300Light_Italic](./ChakraPetch_300Light_Italic.ttf.png)
 
-##### ChakraPetch_Regular400
-![ChakraPetch_Regular400](./6854c9992a9a1345525235ab8e75582a0f6f3f828c37e4720a78aad1de6c0aa5.ttf.png)
+##### ChakraPetch_400Regular
+![ChakraPetch_400Regular](./ChakraPetch_400Regular.ttf.png)
 
-##### ChakraPetch_Regular400_Italic
-![ChakraPetch_Regular400_Italic](./114572d34834d0022111a2a7a0eaf1d6bb7e3b70537f2c52e283219fa86ccd02.ttf.png)
+##### ChakraPetch_400Regular_Italic
+![ChakraPetch_400Regular_Italic](./ChakraPetch_400Regular_Italic.ttf.png)
 
-##### ChakraPetch_Medium500
-![ChakraPetch_Medium500](./179d4e7774a67d1c01789bcf1bf48e72fbc37fa173f3373470769b54a505ad17.ttf.png)
+##### ChakraPetch_500Medium
+![ChakraPetch_500Medium](./ChakraPetch_500Medium.ttf.png)
 
-##### ChakraPetch_Medium500_Italic
-![ChakraPetch_Medium500_Italic](./f7172b64774efd15a32d833b00836c9e30c0ee766c096a08de2a427c904f5c2d.ttf.png)
+##### ChakraPetch_500Medium_Italic
+![ChakraPetch_500Medium_Italic](./ChakraPetch_500Medium_Italic.ttf.png)
 
-##### ChakraPetch_SemiBold600
-![ChakraPetch_SemiBold600](./a6b54f7d68496d966460fe300af5b72cc91ca631822110de9fbc976ceabb2591.ttf.png)
+##### ChakraPetch_600SemiBold
+![ChakraPetch_600SemiBold](./ChakraPetch_600SemiBold.ttf.png)
 
-##### ChakraPetch_SemiBold600_Italic
-![ChakraPetch_SemiBold600_Italic](./a7a04e1ebef703c41253da2ca8a90c83a63649e471590d939c69828a0e0e591f.ttf.png)
+##### ChakraPetch_600SemiBold_Italic
+![ChakraPetch_600SemiBold_Italic](./ChakraPetch_600SemiBold_Italic.ttf.png)
 
-##### ChakraPetch_Bold700
-![ChakraPetch_Bold700](./e409c139ac42c535be29bfb904109788499a4b3971f95c0853dce713da259ea9.ttf.png)
+##### ChakraPetch_700Bold
+![ChakraPetch_700Bold](./ChakraPetch_700Bold.ttf.png)
 
-##### ChakraPetch_Bold700_Italic
-![ChakraPetch_Bold700_Italic](./86042cd1693573443cb56c465a3f44172486eb888d707fcc03eb3dc8600008cb.ttf.png)
+##### ChakraPetch_700Bold_Italic
+![ChakraPetch_700Bold_Italic](./ChakraPetch_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -181,7 +179,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/chakra-petch)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

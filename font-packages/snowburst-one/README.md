@@ -7,15 +7,13 @@
 
 This package lets you use the [**Snowburst One**](https://fonts.google.com/specimen/Snowburst+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Snowburst One
 
 ![Snowburst One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `SnowburstOne_Regular400`
+- `SnowburstOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { SnowburstOne_Regular400, useFonts } from '@expo-google-fonts/snowburst-one';
+import { useFonts, SnowburstOne_400Regular } from '@expo-google-fonts/snowburst-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    SnowburstOne_Regular400,
+    SnowburstOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SnowburstOne_Regular400' }}>
-          SnowburstOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SnowburstOne_400Regular' }}>
+          SnowburstOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SnowburstOne_Regular400
-![SnowburstOne_Regular400](./f0b3d75c3024cdb3e14b5006a726dacaa747fd5b1436d7123f63ed83d1d60e28.ttf.png)
+##### SnowburstOne_400Regular
+![SnowburstOne_400Regular](./SnowburstOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/snowburst-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Amita';
-export const __fontFamilyVersion__ = 1;
-
-export const Amita_Regular400 = require('./f8ab328073e1c729f0b4f38521b47bb39c63db396da1602f6b08a2a8775249f4.ttf');
-export const Amita_Bold700 = require('./e421cec126c6014995b96189e28c3c8b119e3e21dbe1c3dea8585ec31afa0679.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Amita_400Regular = require('./Amita_400Regular.ttf');
+export const Amita_700Bold = require('./Amita_700Bold.ttf');

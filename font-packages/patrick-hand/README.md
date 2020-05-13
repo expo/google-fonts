@@ -7,15 +7,13 @@
 
 This package lets you use the [**Patrick Hand**](https://fonts.google.com/specimen/Patrick+Hand) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Patrick Hand
 
 ![Patrick Hand](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `PatrickHand_Regular400`
+- `PatrickHand_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { PatrickHand_Regular400, useFonts } from '@expo-google-fonts/patrick-hand';
+import { useFonts, PatrickHand_400Regular } from '@expo-google-fonts/patrick-hand';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    PatrickHand_Regular400,
+    PatrickHand_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PatrickHand_Regular400' }}>
-          PatrickHand_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PatrickHand_400Regular' }}>
+          PatrickHand_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PatrickHand_Regular400
-![PatrickHand_Regular400](./b63c9a7041a5fc7005d8f0580dd04bf71c5eed9b4b6d843857ccb8f2485ebbf6.ttf.png)
+##### PatrickHand_400Regular
+![PatrickHand_400Regular](./PatrickHand_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/patrick-hand)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

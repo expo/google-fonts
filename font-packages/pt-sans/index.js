@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'PT Sans';
-export const __fontFamilyVersion__ = 8;
-
-export const PTSans_Regular400 = require('./8a587dc4260abac4008021f8b9302115ee0f9616aee70d95d4d49f447f4df0f9.ttf');
-export const PTSans_Regular400_Italic = require('./6de2d3f34e12548006ef800234119a1b1d90bba33fb1d33f5bf41577bc954338.ttf');
-export const PTSans_Bold700 = require('./2a88a8de5aeccdc3e4febba14c9ade00ec49e16f2718050be6bc3f4f37e8ff0b.ttf');
-export const PTSans_Bold700_Italic = require('./a37694659d53ae08c11bf532f8871e90b911f61967c3e23f456e59e7c55b33e6.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const PTSans_400Regular = require('./PTSans_400Regular.ttf');
+export const PTSans_400Regular_Italic = require('./PTSans_400Regular_Italic.ttf');
+export const PTSans_700Bold = require('./PTSans_700Bold.ttf');
+export const PTSans_700Bold_Italic = require('./PTSans_700Bold_Italic.ttf');

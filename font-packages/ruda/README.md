@@ -7,17 +7,18 @@
 
 This package lets you use the [**Ruda**](https://fonts.google.com/specimen/Ruda) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Ruda
 
 ![Ruda](./font-family.png)
 
-This font family contains [3 styles](#-gallery).
+This font family contains [6 styles](#-gallery).
 
-- `Ruda_Regular400`
-- `Ruda_Bold700`
-- `Ruda_Black900`
+- `Ruda_400Regular`
+- `Ruda_500Medium`
+- `Ruda_600SemiBold`
+- `Ruda_700Bold`
+- `Ruda_800ExtraBold`
+- `Ruda_900Black`
 
 ## Usage
 
@@ -32,13 +33,24 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Ruda_Regular400, Ruda_Bold700, Ruda_Black900, useFonts } from '@expo-google-fonts/ruda';
+import {
+  useFonts,
+  Ruda_400Regular,
+  Ruda_500Medium,
+  Ruda_600SemiBold,
+  Ruda_700Bold,
+  Ruda_800ExtraBold,
+  Ruda_900Black,
+} from '@expo-google-fonts/ruda';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Ruda_Regular400,
-    Ruda_Bold700,
-    Ruda_Black900,
+    Ruda_400Regular,
+    Ruda_500Medium,
+    Ruda_600SemiBold,
+    Ruda_700Bold,
+    Ruda_800ExtraBold,
+    Ruda_900Black,
   });
 
   let fontSize = 24;
@@ -49,14 +61,26 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_Regular400' }}>
-          Ruda_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_400Regular' }}>
+          Ruda_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_Bold700' }}>Ruda_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_500Medium' }}>
+          Ruda_500Medium
+        </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_Black900' }}>
-          Ruda_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_600SemiBold' }}>
+          Ruda_600SemiBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_700Bold' }}>Ruda_700Bold</Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_800ExtraBold' }}>
+          Ruda_800ExtraBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_900Black' }}>
+          Ruda_900Black
         </Text>
       </View>
     );
@@ -67,14 +91,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Ruda_Regular400
-![Ruda_Regular400](./a254aa475c3646075b11d4e1a7db06d96c2f16a001e31943133c66d6bbe7558d.ttf.png)
+##### Ruda_400Regular
+![Ruda_400Regular](./Ruda_400Regular.ttf.png)
 
-##### Ruda_Bold700
-![Ruda_Bold700](./af38ec0bb3b6d599d8ad3f56b0f6f3fb81bd7dfd3234fd8f9dbaaf5029c0b2ab.ttf.png)
+##### Ruda_500Medium
+![Ruda_500Medium](./Ruda_500Medium.ttf.png)
 
-##### Ruda_Black900
-![Ruda_Black900](./0a25461d4ccbfb0f3a77a33f66143f8474a3eccfbee06850f5e778bf29216894.ttf.png)
+##### Ruda_600SemiBold
+![Ruda_600SemiBold](./Ruda_600SemiBold.ttf.png)
+
+##### Ruda_700Bold
+![Ruda_700Bold](./Ruda_700Bold.ttf.png)
+
+##### Ruda_800ExtraBold
+![Ruda_800ExtraBold](./Ruda_800ExtraBold.ttf.png)
+
+##### Ruda_900Black
+![Ruda_900Black](./Ruda_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -104,7 +137,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/ruda)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

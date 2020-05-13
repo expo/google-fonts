@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Amiri';
-export const __fontFamilyVersion__ = 7;
-
-export const Amiri_Regular400 = require('./15af380107efd8a082b372d1ba8027d5fd6d4720ccf7f7ce48345b845cfb83b6.ttf');
-export const Amiri_Regular400_Italic = require('./03496500b8efdd151ca91912b003f23e04fcb45a8d39cee588e4ea47b61fc052.ttf');
-export const Amiri_Bold700 = require('./a1f6fcfa01fc6084132c66ff5b8da7b655fbf82dae7a9200c4471400281678bb.ttf');
-export const Amiri_Bold700_Italic = require('./9d9add54ab339fd5ca1f0b2fbda1117e04758800cefa39fa72d5f1e38b7a2e27.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Amiri_400Regular = require('./Amiri_400Regular.ttf');
+export const Amiri_400Regular_Italic = require('./Amiri_400Regular_Italic.ttf');
+export const Amiri_700Bold = require('./Amiri_700Bold.ttf');
+export const Amiri_700Bold_Italic = require('./Amiri_700Bold_Italic.ttf');

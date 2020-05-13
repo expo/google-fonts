@@ -7,15 +7,13 @@
 
 This package lets you use the [**Coiny**](https://fonts.google.com/specimen/Coiny) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Coiny
 
 ![Coiny](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Coiny_Regular400`
+- `Coiny_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Coiny_Regular400, useFonts } from '@expo-google-fonts/coiny';
+import { useFonts, Coiny_400Regular } from '@expo-google-fonts/coiny';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Coiny_Regular400,
+    Coiny_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Coiny_Regular400' }}>
-          Coiny_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Coiny_400Regular' }}>
+          Coiny_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Coiny_Regular400
-![Coiny_Regular400](./d7c4ad8ba1a68159f3a01ce26a6ae52110298a54077d3aa35b12d216941a3f28.ttf.png)
+##### Coiny_400Regular
+![Coiny_400Regular](./Coiny_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/coiny)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

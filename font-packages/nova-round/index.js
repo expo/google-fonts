@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Nova Round';
-export const __fontFamilyVersion__ = 8;
-
-export const NovaRound_Regular400 = require('./153aad90d58ece4ea5c7af76531c3fac5f2cfd1c45563654100ee416c5250af1.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const NovaRound_400Regular = require('./NovaRound_400Regular.ttf');

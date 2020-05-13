@@ -7,18 +7,20 @@
 
 This package lets you use the [**Lora**](https://fonts.google.com/specimen/Lora) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Lora
 
 ![Lora](./font-family.png)
 
-This font family contains [4 styles](#-gallery).
+This font family contains [8 styles](#-gallery).
 
-- `Lora_Regular400`
-- `Lora_Regular400_Italic`
-- `Lora_Bold700`
-- `Lora_Bold700_Italic`
+- `Lora_400Regular`
+- `Lora_500Medium`
+- `Lora_600SemiBold`
+- `Lora_700Bold`
+- `Lora_400Regular_Italic`
+- `Lora_500Medium_Italic`
+- `Lora_600SemiBold_Italic`
+- `Lora_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +36,27 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Lora_Regular400,
-  Lora_Regular400_Italic,
-  Lora_Bold700,
-  Lora_Bold700_Italic,
   useFonts,
+  Lora_400Regular,
+  Lora_500Medium,
+  Lora_600SemiBold,
+  Lora_700Bold,
+  Lora_400Regular_Italic,
+  Lora_500Medium_Italic,
+  Lora_600SemiBold_Italic,
+  Lora_700Bold_Italic,
 } from '@expo-google-fonts/lora';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Lora_Regular400,
-    Lora_Regular400_Italic,
-    Lora_Bold700,
-    Lora_Bold700_Italic,
+    Lora_400Regular,
+    Lora_500Medium,
+    Lora_600SemiBold,
+    Lora_700Bold,
+    Lora_400Regular_Italic,
+    Lora_500Medium_Italic,
+    Lora_600SemiBold_Italic,
+    Lora_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,18 +67,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_Regular400' }}>
-          Lora_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_400Regular' }}>
+          Lora_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_Regular400_Italic' }}>
-          Lora_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_500Medium' }}>
+          Lora_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_Bold700' }}>Lora_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_600SemiBold' }}>
+          Lora_600SemiBold
+        </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_Bold700_Italic' }}>
-          Lora_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_700Bold' }}>Lora_700Bold</Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_400Regular_Italic' }}>
+          Lora_400Regular_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_500Medium_Italic' }}>
+          Lora_500Medium_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_600SemiBold_Italic' }}>
+          Lora_600SemiBold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_700Bold_Italic' }}>
+          Lora_700Bold_Italic
         </Text>
       </View>
     );
@@ -79,17 +105,29 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Lora_Regular400
-![Lora_Regular400](./ab4a36d4eeabba7b21d6d9f9cf3402c3cfc28c64a4fb06cb6c424de03a8c98b9.ttf.png)
+##### Lora_400Regular
+![Lora_400Regular](./Lora_400Regular.ttf.png)
 
-##### Lora_Regular400_Italic
-![Lora_Regular400_Italic](./5bda244cfbcaf07666bfff144e4e1e5809f93966fa537d9ba1a29fcfd7e0ebb5.ttf.png)
+##### Lora_500Medium
+![Lora_500Medium](./Lora_500Medium.ttf.png)
 
-##### Lora_Bold700
-![Lora_Bold700](./aada77cdac3a872737be48f8c95b39befadbb124e16cc8b8e5076dd429400ea1.ttf.png)
+##### Lora_600SemiBold
+![Lora_600SemiBold](./Lora_600SemiBold.ttf.png)
 
-##### Lora_Bold700_Italic
-![Lora_Bold700_Italic](./b8238541d0dfa01767e098baf5d7942885a58372a7b97e09d2af15e9d295f2f2.ttf.png)
+##### Lora_700Bold
+![Lora_700Bold](./Lora_700Bold.ttf.png)
+
+##### Lora_400Regular_Italic
+![Lora_400Regular_Italic](./Lora_400Regular_Italic.ttf.png)
+
+##### Lora_500Medium_Italic
+![Lora_500Medium_Italic](./Lora_500Medium_Italic.ttf.png)
+
+##### Lora_600SemiBold_Italic
+![Lora_600SemiBold_Italic](./Lora_600SemiBold_Italic.ttf.png)
+
+##### Lora_700Bold_Italic
+![Lora_700Bold_Italic](./Lora_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -119,7 +157,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/lora)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,22 +7,20 @@
 
 This package lets you use the [**Big Shoulders Display**](https://fonts.google.com/specimen/Big+Shoulders+Display) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Big Shoulders Display
 
 ![Big Shoulders Display](./font-family.png)
 
 This font family contains [8 styles](#-gallery).
 
-- `BigShouldersDisplay_Thin100`
-- `BigShouldersDisplay_Light300`
-- `BigShouldersDisplay_Regular400`
-- `BigShouldersDisplay_Medium500`
-- `BigShouldersDisplay_SemiBold600`
-- `BigShouldersDisplay_Bold700`
-- `BigShouldersDisplay_ExtraBold800`
-- `BigShouldersDisplay_Black900`
+- `BigShouldersDisplay_100Thin`
+- `BigShouldersDisplay_300Light`
+- `BigShouldersDisplay_400Regular`
+- `BigShouldersDisplay_500Medium`
+- `BigShouldersDisplay_600SemiBold`
+- `BigShouldersDisplay_700Bold`
+- `BigShouldersDisplay_800ExtraBold`
+- `BigShouldersDisplay_900Black`
 
 ## Usage
 
@@ -38,27 +36,27 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  BigShouldersDisplay_Thin100,
-  BigShouldersDisplay_Light300,
-  BigShouldersDisplay_Regular400,
-  BigShouldersDisplay_Medium500,
-  BigShouldersDisplay_SemiBold600,
-  BigShouldersDisplay_Bold700,
-  BigShouldersDisplay_ExtraBold800,
-  BigShouldersDisplay_Black900,
   useFonts,
+  BigShouldersDisplay_100Thin,
+  BigShouldersDisplay_300Light,
+  BigShouldersDisplay_400Regular,
+  BigShouldersDisplay_500Medium,
+  BigShouldersDisplay_600SemiBold,
+  BigShouldersDisplay_700Bold,
+  BigShouldersDisplay_800ExtraBold,
+  BigShouldersDisplay_900Black,
 } from '@expo-google-fonts/big-shoulders-display';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    BigShouldersDisplay_Thin100,
-    BigShouldersDisplay_Light300,
-    BigShouldersDisplay_Regular400,
-    BigShouldersDisplay_Medium500,
-    BigShouldersDisplay_SemiBold600,
-    BigShouldersDisplay_Bold700,
-    BigShouldersDisplay_ExtraBold800,
-    BigShouldersDisplay_Black900,
+    BigShouldersDisplay_100Thin,
+    BigShouldersDisplay_300Light,
+    BigShouldersDisplay_400Regular,
+    BigShouldersDisplay_500Medium,
+    BigShouldersDisplay_600SemiBold,
+    BigShouldersDisplay_700Bold,
+    BigShouldersDisplay_800ExtraBold,
+    BigShouldersDisplay_900Black,
   });
 
   let fontSize = 24;
@@ -69,36 +67,36 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersDisplay_Thin100' }}>
-          BigShouldersDisplay_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersDisplay_100Thin' }}>
+          BigShouldersDisplay_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersDisplay_Light300' }}>
-          BigShouldersDisplay_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersDisplay_300Light' }}>
+          BigShouldersDisplay_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersDisplay_Regular400' }}>
-          BigShouldersDisplay_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersDisplay_400Regular' }}>
+          BigShouldersDisplay_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersDisplay_Medium500' }}>
-          BigShouldersDisplay_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersDisplay_500Medium' }}>
+          BigShouldersDisplay_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersDisplay_SemiBold600' }}>
-          BigShouldersDisplay_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersDisplay_600SemiBold' }}>
+          BigShouldersDisplay_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersDisplay_Bold700' }}>
-          BigShouldersDisplay_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersDisplay_700Bold' }}>
+          BigShouldersDisplay_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersDisplay_ExtraBold800' }}>
-          BigShouldersDisplay_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersDisplay_800ExtraBold' }}>
+          BigShouldersDisplay_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersDisplay_Black900' }}>
-          BigShouldersDisplay_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersDisplay_900Black' }}>
+          BigShouldersDisplay_900Black
         </Text>
       </View>
     );
@@ -109,29 +107,29 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BigShouldersDisplay_Thin100
-![BigShouldersDisplay_Thin100](./243bc59e9459b35c35fa0bc5cc49219e1cbf248be840664569ca730a8a7a7e5e.ttf.png)
+##### BigShouldersDisplay_100Thin
+![BigShouldersDisplay_100Thin](./BigShouldersDisplay_100Thin.ttf.png)
 
-##### BigShouldersDisplay_Light300
-![BigShouldersDisplay_Light300](./f9d601dd24fc0f4bb73ca5a9bc3fb23c2d744597df0f10a2894d566903ba1154.ttf.png)
+##### BigShouldersDisplay_300Light
+![BigShouldersDisplay_300Light](./BigShouldersDisplay_300Light.ttf.png)
 
-##### BigShouldersDisplay_Regular400
-![BigShouldersDisplay_Regular400](./0d1c3a1a7aca284022f6d11318ac148fe815d11c400a02d20e25768bbcf17f16.ttf.png)
+##### BigShouldersDisplay_400Regular
+![BigShouldersDisplay_400Regular](./BigShouldersDisplay_400Regular.ttf.png)
 
-##### BigShouldersDisplay_Medium500
-![BigShouldersDisplay_Medium500](./782f7156f414a376945013c065917553e525e9f55dc801588c0f2f47406a51a3.ttf.png)
+##### BigShouldersDisplay_500Medium
+![BigShouldersDisplay_500Medium](./BigShouldersDisplay_500Medium.ttf.png)
 
-##### BigShouldersDisplay_SemiBold600
-![BigShouldersDisplay_SemiBold600](./abf50d14f1c83beca50dbf4875c46279d06f2120f997bd0b3670236cf24bf1aa.ttf.png)
+##### BigShouldersDisplay_600SemiBold
+![BigShouldersDisplay_600SemiBold](./BigShouldersDisplay_600SemiBold.ttf.png)
 
-##### BigShouldersDisplay_Bold700
-![BigShouldersDisplay_Bold700](./908c135c2591d12f000c0af1d59e56e72fb77beb39c1ba091505f250575b4ea6.ttf.png)
+##### BigShouldersDisplay_700Bold
+![BigShouldersDisplay_700Bold](./BigShouldersDisplay_700Bold.ttf.png)
 
-##### BigShouldersDisplay_ExtraBold800
-![BigShouldersDisplay_ExtraBold800](./19b8e205eb51647a9245e28993f1aa99df1cdc107cab1e823db05dce048363ca.ttf.png)
+##### BigShouldersDisplay_800ExtraBold
+![BigShouldersDisplay_800ExtraBold](./BigShouldersDisplay_800ExtraBold.ttf.png)
 
-##### BigShouldersDisplay_Black900
-![BigShouldersDisplay_Black900](./71c2e1ad1b8e3abbf78e31165b5b054095b45b80cdd32410b9df8abaa45a631f.ttf.png)
+##### BigShouldersDisplay_900Black
+![BigShouldersDisplay_900Black](./BigShouldersDisplay_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -161,7 +159,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-display)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

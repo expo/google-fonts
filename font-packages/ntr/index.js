@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'NTR';
-export const __fontFamilyVersion__ = 4;
-
-export const NTR_Regular400 = require('./a81d9625c6e1cc5d20f097e68c4604194966a833b0bacfa533a882ad3fe92592.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const NTR_400Regular = require('./NTR_400Regular.ttf');

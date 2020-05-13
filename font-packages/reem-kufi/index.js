@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Reem Kufi';
-export const __fontFamilyVersion__ = 3;
-
-export const ReemKufi_Regular400 = require('./ea139970598b2fe720c5ddab2a0e2483460759bc626931104aa1adb9c4ef6b9a.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ReemKufi_400Regular = require('./ReemKufi_400Regular.ttf');

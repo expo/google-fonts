@@ -7,15 +7,13 @@
 
 This package lets you use the [**Trade Winds**](https://fonts.google.com/specimen/Trade+Winds) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Trade Winds
 
 ![Trade Winds](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `TradeWinds_Regular400`
+- `TradeWinds_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { TradeWinds_Regular400, useFonts } from '@expo-google-fonts/trade-winds';
+import { useFonts, TradeWinds_400Regular } from '@expo-google-fonts/trade-winds';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    TradeWinds_Regular400,
+    TradeWinds_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TradeWinds_Regular400' }}>
-          TradeWinds_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TradeWinds_400Regular' }}>
+          TradeWinds_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### TradeWinds_Regular400
-![TradeWinds_Regular400](./3700d4f7d8215f29936d00b52a4b5bf1b2c28b9df395be53d179282b32834cdb.ttf.png)
+##### TradeWinds_400Regular
+![TradeWinds_400Regular](./TradeWinds_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/trade-winds)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

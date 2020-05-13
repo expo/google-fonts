@@ -7,18 +7,16 @@
 
 This package lets you use the [**Signika Negative**](https://fonts.google.com/specimen/Signika+Negative) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Signika Negative
 
 ![Signika Negative](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `SignikaNegative_Light300`
-- `SignikaNegative_Regular400`
-- `SignikaNegative_SemiBold600`
-- `SignikaNegative_Bold700`
+- `SignikaNegative_300Light`
+- `SignikaNegative_400Regular`
+- `SignikaNegative_600SemiBold`
+- `SignikaNegative_700Bold`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  SignikaNegative_Light300,
-  SignikaNegative_Regular400,
-  SignikaNegative_SemiBold600,
-  SignikaNegative_Bold700,
   useFonts,
+  SignikaNegative_300Light,
+  SignikaNegative_400Regular,
+  SignikaNegative_600SemiBold,
+  SignikaNegative_700Bold,
 } from '@expo-google-fonts/signika-negative';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    SignikaNegative_Light300,
-    SignikaNegative_Regular400,
-    SignikaNegative_SemiBold600,
-    SignikaNegative_Bold700,
+    SignikaNegative_300Light,
+    SignikaNegative_400Regular,
+    SignikaNegative_600SemiBold,
+    SignikaNegative_700Bold,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SignikaNegative_Light300' }}>
-          SignikaNegative_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SignikaNegative_300Light' }}>
+          SignikaNegative_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SignikaNegative_Regular400' }}>
-          SignikaNegative_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SignikaNegative_400Regular' }}>
+          SignikaNegative_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SignikaNegative_SemiBold600' }}>
-          SignikaNegative_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SignikaNegative_600SemiBold' }}>
+          SignikaNegative_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SignikaNegative_Bold700' }}>
-          SignikaNegative_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SignikaNegative_700Bold' }}>
+          SignikaNegative_700Bold
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SignikaNegative_Light300
-![SignikaNegative_Light300](./8a98587d6b5889382e0756db0404bae7fab53cd05d1ed3acfe5d2e92ce054710.ttf.png)
+##### SignikaNegative_300Light
+![SignikaNegative_300Light](./SignikaNegative_300Light.ttf.png)
 
-##### SignikaNegative_Regular400
-![SignikaNegative_Regular400](./4dafecef4dffed68c6467a6368c16342c151a400ebf2e1d10c208843e0f7f4f2.ttf.png)
+##### SignikaNegative_400Regular
+![SignikaNegative_400Regular](./SignikaNegative_400Regular.ttf.png)
 
-##### SignikaNegative_SemiBold600
-![SignikaNegative_SemiBold600](./00703f7e2d564d97ed7ae01055939e32779956267e52d2c91697d4c58571d0a3.ttf.png)
+##### SignikaNegative_600SemiBold
+![SignikaNegative_600SemiBold](./SignikaNegative_600SemiBold.ttf.png)
 
-##### SignikaNegative_Bold700
-![SignikaNegative_Bold700](./49c7f19df1afc9e1068c8860087405401cf9a4d406cfc46b15013bbb95ecb2e4.ttf.png)
+##### SignikaNegative_700Bold
+![SignikaNegative_700Bold](./SignikaNegative_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/signika-negative)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

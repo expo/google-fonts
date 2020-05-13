@@ -7,19 +7,17 @@
 
 This package lets you use the [**Hind**](https://fonts.google.com/specimen/Hind) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Hind
 
 ![Hind](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `Hind_Light300`
-- `Hind_Regular400`
-- `Hind_Medium500`
-- `Hind_SemiBold600`
-- `Hind_Bold700`
+- `Hind_300Light`
+- `Hind_400Regular`
+- `Hind_500Medium`
+- `Hind_600SemiBold`
+- `Hind_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Hind_Light300,
-  Hind_Regular400,
-  Hind_Medium500,
-  Hind_SemiBold600,
-  Hind_Bold700,
   useFonts,
+  Hind_300Light,
+  Hind_400Regular,
+  Hind_500Medium,
+  Hind_600SemiBold,
+  Hind_700Bold,
 } from '@expo-google-fonts/hind';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Hind_Light300,
-    Hind_Regular400,
-    Hind_Medium500,
-    Hind_SemiBold600,
-    Hind_Bold700,
+    Hind_300Light,
+    Hind_400Regular,
+    Hind_500Medium,
+    Hind_600SemiBold,
+    Hind_700Bold,
   });
 
   let fontSize = 24;
@@ -60,23 +58,23 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Hind_Light300' }}>
-          Hind_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Hind_300Light' }}>
+          Hind_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Hind_Regular400' }}>
-          Hind_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Hind_400Regular' }}>
+          Hind_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Hind_Medium500' }}>
-          Hind_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Hind_500Medium' }}>
+          Hind_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Hind_SemiBold600' }}>
-          Hind_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Hind_600SemiBold' }}>
+          Hind_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Hind_Bold700' }}>Hind_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Hind_700Bold' }}>Hind_700Bold</Text>
       </View>
     );
   }
@@ -86,20 +84,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Hind_Light300
-![Hind_Light300](./fa60918477db30de0e2a697db644a3ada9014744668b10708e487b2731a95e70.ttf.png)
+##### Hind_300Light
+![Hind_300Light](./Hind_300Light.ttf.png)
 
-##### Hind_Regular400
-![Hind_Regular400](./c6c2ab346a94eb5613fbc0721b8b1b9062968050182abaa239ca636a32911d90.ttf.png)
+##### Hind_400Regular
+![Hind_400Regular](./Hind_400Regular.ttf.png)
 
-##### Hind_Medium500
-![Hind_Medium500](./d4fd25d01c80707a336cb4b040f3a52767f1cd612f042572d044e0b575c4d05b.ttf.png)
+##### Hind_500Medium
+![Hind_500Medium](./Hind_500Medium.ttf.png)
 
-##### Hind_SemiBold600
-![Hind_SemiBold600](./98d33c7c6f79077dfb001ecff6aa383168fca5cebe664a277c74acff145e6685.ttf.png)
+##### Hind_600SemiBold
+![Hind_600SemiBold](./Hind_600SemiBold.ttf.png)
 
-##### Hind_Bold700
-![Hind_Bold700](./2e7dd62cde147432a10070b99d17f623f3c13f9c8796be3afa987f6e0707f030.ttf.png)
+##### Hind_700Bold
+![Hind_700Bold](./Hind_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -129,7 +127,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/hind)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

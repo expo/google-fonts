@@ -4,9 +4,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Gayathri';
-export const __fontFamilyVersion__ = 1;
-
-export const Gayathri_Thin100 = require('./6d8dba16325ef843155b024f792235ef54403fc4ce39f71ffe50c6a7cca110da.ttf');
-export const Gayathri_Regular400 = require('./d5538d385b6f28efddc8cc7d5e5cf0dcbe3243febfcb81ba4112a03ab5901d1e.ttf');
-export const Gayathri_Bold700 = require('./dac84e865cf4bf1f5f2bd54100f9b5ded81e0b2e3904ba8a3a6a992df1c13627.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Gayathri_100Thin = require('./Gayathri_100Thin.ttf');
+export const Gayathri_400Regular = require('./Gayathri_400Regular.ttf');
+export const Gayathri_700Bold = require('./Gayathri_700Bold.ttf');

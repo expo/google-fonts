@@ -7,16 +7,14 @@
 
 This package lets you use the [**Unkempt**](https://fonts.google.com/specimen/Unkempt) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Unkempt
 
 ![Unkempt](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Unkempt_Regular400`
-- `Unkempt_Bold700`
+- `Unkempt_400Regular`
+- `Unkempt_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Unkempt_Regular400, Unkempt_Bold700, useFonts } from '@expo-google-fonts/unkempt';
+import { useFonts, Unkempt_400Regular, Unkempt_700Bold } from '@expo-google-fonts/unkempt';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Unkempt_Regular400,
-    Unkempt_Bold700,
+    Unkempt_400Regular,
+    Unkempt_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unkempt_Regular400' }}>
-          Unkempt_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unkempt_400Regular' }}>
+          Unkempt_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unkempt_Bold700' }}>
-          Unkempt_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unkempt_700Bold' }}>
+          Unkempt_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Unkempt_Regular400
-![Unkempt_Regular400](./d4f6b7d5ae22a39c55f20fa7871901f21fd6c60c5a788fcf578cf326216a1052.ttf.png)
+##### Unkempt_400Regular
+![Unkempt_400Regular](./Unkempt_400Regular.ttf.png)
 
-##### Unkempt_Bold700
-![Unkempt_Bold700](./7fd27119b105972e2538d19f5b9fc686ccaf1e10de3d8c7ab7c7d3e0111700dd.ttf.png)
+##### Unkempt_700Bold
+![Unkempt_700Bold](./Unkempt_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/unkempt)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

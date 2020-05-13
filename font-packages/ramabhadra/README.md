@@ -7,15 +7,13 @@
 
 This package lets you use the [**Ramabhadra**](https://fonts.google.com/specimen/Ramabhadra) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Ramabhadra
 
 ![Ramabhadra](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Ramabhadra_Regular400`
+- `Ramabhadra_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Ramabhadra_Regular400, useFonts } from '@expo-google-fonts/ramabhadra';
+import { useFonts, Ramabhadra_400Regular } from '@expo-google-fonts/ramabhadra';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Ramabhadra_Regular400,
+    Ramabhadra_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ramabhadra_Regular400' }}>
-          Ramabhadra_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ramabhadra_400Regular' }}>
+          Ramabhadra_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Ramabhadra_Regular400
-![Ramabhadra_Regular400](./f8ceda8c345cda5342d5ed25537f3c2a16bf4548f447746c5d7553cff470362c.ttf.png)
+##### Ramabhadra_400Regular
+![Ramabhadra_400Regular](./Ramabhadra_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/ramabhadra)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

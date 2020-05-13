@@ -7,15 +7,13 @@
 
 This package lets you use the [**Julee**](https://fonts.google.com/specimen/Julee) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Julee
 
 ![Julee](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Julee_Regular400`
+- `Julee_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Julee_Regular400, useFonts } from '@expo-google-fonts/julee';
+import { useFonts, Julee_400Regular } from '@expo-google-fonts/julee';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Julee_Regular400,
+    Julee_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Julee_Regular400' }}>
-          Julee_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Julee_400Regular' }}>
+          Julee_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Julee_Regular400
-![Julee_Regular400](./3f334d6179a0a109566471f8a12eb16eb9b7ce8b2fb4ae975450fc8a2dd71358.ttf.png)
+##### Julee_400Regular
+![Julee_400Regular](./Julee_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/julee)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

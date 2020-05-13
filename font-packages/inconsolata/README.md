@@ -7,16 +7,20 @@
 
 This package lets you use the [**Inconsolata**](https://fonts.google.com/specimen/Inconsolata) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Inconsolata
 
 ![Inconsolata](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [8 styles](#-gallery).
 
-- `Inconsolata_Regular400`
-- `Inconsolata_Bold700`
+- `Inconsolata_200ExtraLight`
+- `Inconsolata_300Light`
+- `Inconsolata_400Regular`
+- `Inconsolata_500Medium`
+- `Inconsolata_600SemiBold`
+- `Inconsolata_700Bold`
+- `Inconsolata_800ExtraBold`
+- `Inconsolata_900Black`
 
 ## Usage
 
@@ -32,15 +36,27 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Inconsolata_Regular400,
-  Inconsolata_Bold700,
   useFonts,
+  Inconsolata_200ExtraLight,
+  Inconsolata_300Light,
+  Inconsolata_400Regular,
+  Inconsolata_500Medium,
+  Inconsolata_600SemiBold,
+  Inconsolata_700Bold,
+  Inconsolata_800ExtraBold,
+  Inconsolata_900Black,
 } from '@expo-google-fonts/inconsolata';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Inconsolata_Regular400,
-    Inconsolata_Bold700,
+    Inconsolata_200ExtraLight,
+    Inconsolata_300Light,
+    Inconsolata_400Regular,
+    Inconsolata_500Medium,
+    Inconsolata_600SemiBold,
+    Inconsolata_700Bold,
+    Inconsolata_800ExtraBold,
+    Inconsolata_900Black,
   });
 
   let fontSize = 24;
@@ -51,12 +67,36 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_Regular400' }}>
-          Inconsolata_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_200ExtraLight' }}>
+          Inconsolata_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_Bold700' }}>
-          Inconsolata_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_300Light' }}>
+          Inconsolata_300Light
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_400Regular' }}>
+          Inconsolata_400Regular
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_500Medium' }}>
+          Inconsolata_500Medium
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_600SemiBold' }}>
+          Inconsolata_600SemiBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_700Bold' }}>
+          Inconsolata_700Bold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_800ExtraBold' }}>
+          Inconsolata_800ExtraBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_900Black' }}>
+          Inconsolata_900Black
         </Text>
       </View>
     );
@@ -67,11 +107,29 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Inconsolata_Regular400
-![Inconsolata_Regular400](./7b710cb16b36b86fd08be8de67824345433e776ff152ce4d819f8dac26b76bb2.ttf.png)
+##### Inconsolata_200ExtraLight
+![Inconsolata_200ExtraLight](./Inconsolata_200ExtraLight.ttf.png)
 
-##### Inconsolata_Bold700
-![Inconsolata_Bold700](./499bfec42f5525e40e1acc5d044cce315e80cc9c1205db693cf68fd5a7b724d3.ttf.png)
+##### Inconsolata_300Light
+![Inconsolata_300Light](./Inconsolata_300Light.ttf.png)
+
+##### Inconsolata_400Regular
+![Inconsolata_400Regular](./Inconsolata_400Regular.ttf.png)
+
+##### Inconsolata_500Medium
+![Inconsolata_500Medium](./Inconsolata_500Medium.ttf.png)
+
+##### Inconsolata_600SemiBold
+![Inconsolata_600SemiBold](./Inconsolata_600SemiBold.ttf.png)
+
+##### Inconsolata_700Bold
+![Inconsolata_700Bold](./Inconsolata_700Bold.ttf.png)
+
+##### Inconsolata_800ExtraBold
+![Inconsolata_800ExtraBold](./Inconsolata_800ExtraBold.ttf.png)
+
+##### Inconsolata_900Black
+![Inconsolata_900Black](./Inconsolata_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +159,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/inconsolata)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

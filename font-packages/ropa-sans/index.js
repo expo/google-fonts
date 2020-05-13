@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Ropa Sans';
-export const __fontFamilyVersion__ = 6;
-
-export const RopaSans_Regular400 = require('./ded2bcc06059fc1d86ad77aedff4ca5827287da7e5d969867d190f24ce2c5916.ttf');
-export const RopaSans_Regular400_Italic = require('./0fc33e982fa4003ec3947ef040bddfed3e33ad447086af587ee5ed6cc4ef4fac.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const RopaSans_400Regular = require('./RopaSans_400Regular.ttf');
+export const RopaSans_400Regular_Italic = require('./RopaSans_400Regular_Italic.ttf');

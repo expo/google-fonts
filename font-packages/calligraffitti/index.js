@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Calligraffitti';
-export const __fontFamilyVersion__ = 7;
-
-export const Calligraffitti_Regular400 = require('./580e522ce80a61e980096a261015c86696213b70822d677e4de3902787578e63.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Calligraffitti_400Regular = require('./Calligraffitti_400Regular.ttf');

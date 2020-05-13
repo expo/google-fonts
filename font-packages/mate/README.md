@@ -7,16 +7,14 @@
 
 This package lets you use the [**Mate**](https://fonts.google.com/specimen/Mate) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Mate
 
 ![Mate](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Mate_Regular400`
-- `Mate_Regular400_Italic`
+- `Mate_400Regular`
+- `Mate_400Regular_Italic`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Mate_Regular400, Mate_Regular400_Italic, useFonts } from '@expo-google-fonts/mate';
+import { useFonts, Mate_400Regular, Mate_400Regular_Italic } from '@expo-google-fonts/mate';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Mate_Regular400,
-    Mate_Regular400_Italic,
+    Mate_400Regular,
+    Mate_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mate_Regular400' }}>
-          Mate_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mate_400Regular' }}>
+          Mate_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mate_Regular400_Italic' }}>
-          Mate_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mate_400Regular_Italic' }}>
+          Mate_400Regular_Italic
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Mate_Regular400
-![Mate_Regular400](./5701b2952429c600058781ef4db8a7525ee3bfcdc98015ed08588eff40647848.ttf.png)
+##### Mate_400Regular
+![Mate_400Regular](./Mate_400Regular.ttf.png)
 
-##### Mate_Regular400_Italic
-![Mate_Regular400_Italic](./30cd036adcb37680b470e2671c3973733f6900c1cc99419e1fde6201aa100018.ttf.png)
+##### Mate_400Regular_Italic
+![Mate_400Regular_Italic](./Mate_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/mate)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

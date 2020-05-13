@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Katibeh';
-export const __fontFamilyVersion__ = 2;
-
-export const Katibeh_Regular400 = require('./16765d8ec4094a1fc5253399ebcf655c81c391de1a03f36d75059b0118e154a0.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Katibeh_400Regular = require('./Katibeh_400Regular.ttf');

@@ -7,21 +7,19 @@
 
 This package lets you use the [**M PLUS 1p**](https://fonts.google.com/specimen/M+PLUS+1p) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## M PLUS 1p
 
 ![M PLUS 1p](./font-family.png)
 
 This font family contains [7 styles](#-gallery).
 
-- `MPLUS1p_Thin100`
-- `MPLUS1p_Light300`
-- `MPLUS1p_Regular400`
-- `MPLUS1p_Medium500`
-- `MPLUS1p_Bold700`
-- `MPLUS1p_ExtraBold800`
-- `MPLUS1p_Black900`
+- `MPLUS1p_100Thin`
+- `MPLUS1p_300Light`
+- `MPLUS1p_400Regular`
+- `MPLUS1p_500Medium`
+- `MPLUS1p_700Bold`
+- `MPLUS1p_800ExtraBold`
+- `MPLUS1p_900Black`
 
 ## Usage
 
@@ -37,25 +35,25 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  MPLUS1p_Thin100,
-  MPLUS1p_Light300,
-  MPLUS1p_Regular400,
-  MPLUS1p_Medium500,
-  MPLUS1p_Bold700,
-  MPLUS1p_ExtraBold800,
-  MPLUS1p_Black900,
   useFonts,
+  MPLUS1p_100Thin,
+  MPLUS1p_300Light,
+  MPLUS1p_400Regular,
+  MPLUS1p_500Medium,
+  MPLUS1p_700Bold,
+  MPLUS1p_800ExtraBold,
+  MPLUS1p_900Black,
 } from '@expo-google-fonts/m-plus-1p';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MPLUS1p_Thin100,
-    MPLUS1p_Light300,
-    MPLUS1p_Regular400,
-    MPLUS1p_Medium500,
-    MPLUS1p_Bold700,
-    MPLUS1p_ExtraBold800,
-    MPLUS1p_Black900,
+    MPLUS1p_100Thin,
+    MPLUS1p_300Light,
+    MPLUS1p_400Regular,
+    MPLUS1p_500Medium,
+    MPLUS1p_700Bold,
+    MPLUS1p_800ExtraBold,
+    MPLUS1p_900Black,
   });
 
   let fontSize = 24;
@@ -66,32 +64,32 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_Thin100' }}>
-          MPLUS1p_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_100Thin' }}>
+          MPLUS1p_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_Light300' }}>
-          MPLUS1p_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_300Light' }}>
+          MPLUS1p_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_Regular400' }}>
-          MPLUS1p_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_400Regular' }}>
+          MPLUS1p_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_Medium500' }}>
-          MPLUS1p_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_500Medium' }}>
+          MPLUS1p_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_Bold700' }}>
-          MPLUS1p_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_700Bold' }}>
+          MPLUS1p_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_ExtraBold800' }}>
-          MPLUS1p_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_800ExtraBold' }}>
+          MPLUS1p_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_Black900' }}>
-          MPLUS1p_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_900Black' }}>
+          MPLUS1p_900Black
         </Text>
       </View>
     );
@@ -102,26 +100,26 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MPLUS1p_Thin100
-![MPLUS1p_Thin100](./0654233f2cc095bd1af48724031070c0b16e3dd46fc5c29bd87070d485b7a366.ttf.png)
+##### MPLUS1p_100Thin
+![MPLUS1p_100Thin](./MPLUS1p_100Thin.ttf.png)
 
-##### MPLUS1p_Light300
-![MPLUS1p_Light300](./328d60a811d0715a23a96805dda2004f69c4b0a888dc1711c77a2d589650c97f.ttf.png)
+##### MPLUS1p_300Light
+![MPLUS1p_300Light](./MPLUS1p_300Light.ttf.png)
 
-##### MPLUS1p_Regular400
-![MPLUS1p_Regular400](./6d33f3ea856c224db5e2d573ab252d85cc66e3d2ec9981d4dded4cb5df17a345.ttf.png)
+##### MPLUS1p_400Regular
+![MPLUS1p_400Regular](./MPLUS1p_400Regular.ttf.png)
 
-##### MPLUS1p_Medium500
-![MPLUS1p_Medium500](./45129fd4450f7465b6ad68ee3a7f2579df75712cdedec1690b2f2b8e2a008400.ttf.png)
+##### MPLUS1p_500Medium
+![MPLUS1p_500Medium](./MPLUS1p_500Medium.ttf.png)
 
-##### MPLUS1p_Bold700
-![MPLUS1p_Bold700](./42106dfc33cc933616115e3c69191bc75d0675df68106571eedbe23c14b5ad1f.ttf.png)
+##### MPLUS1p_700Bold
+![MPLUS1p_700Bold](./MPLUS1p_700Bold.ttf.png)
 
-##### MPLUS1p_ExtraBold800
-![MPLUS1p_ExtraBold800](./27bd65580cfc4564b1dc3ee85e12bdc336861dc586fd838a943bdef4a3bd8730.ttf.png)
+##### MPLUS1p_800ExtraBold
+![MPLUS1p_800ExtraBold](./MPLUS1p_800ExtraBold.ttf.png)
 
-##### MPLUS1p_Black900
-![MPLUS1p_Black900](./21baffc573a6103dcd6c23b9ad751e3686f142c921212717fa3b4356e01a38bc.ttf.png)
+##### MPLUS1p_900Black
+![MPLUS1p_900Black](./MPLUS1p_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -151,7 +149,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/m-plus-1p)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

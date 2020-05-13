@@ -4,12 +4,10 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Inria Sans';
-export const __fontFamilyVersion__ = 1;
-
-export const InriaSans_Light300 = require('./3bde5e08b5ec7274f1c28704b62bd581c28724f8cf4412d56a9e24435e927789.ttf');
-export const InriaSans_Light300_Italic = require('./e33d8e62a895c0402146425676e4254906218e07c6adde8532ae0f436aff96ae.ttf');
-export const InriaSans_Regular400 = require('./78a5989461a98cf7daa6612f5b9240f06cf592fcaeb0684a49a73d5616085753.ttf');
-export const InriaSans_Regular400_Italic = require('./dea0c172e0ec1669869a55587b188534d474341d049a62012e316cdd79e82f22.ttf');
-export const InriaSans_Bold700 = require('./7747b367f8106ba29552aff3126864e3d6b20c008e33d214252ca30fff47f65c.ttf');
-export const InriaSans_Bold700_Italic = require('./70544f369add81b1bf7a0b8f3d4108c7bdca0f1426f9251c47d8d54ae6820b90.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const InriaSans_300Light = require('./InriaSans_300Light.ttf');
+export const InriaSans_300Light_Italic = require('./InriaSans_300Light_Italic.ttf');
+export const InriaSans_400Regular = require('./InriaSans_400Regular.ttf');
+export const InriaSans_400Regular_Italic = require('./InriaSans_400Regular_Italic.ttf');
+export const InriaSans_700Bold = require('./InriaSans_700Bold.ttf');
+export const InriaSans_700Bold_Italic = require('./InriaSans_700Bold_Italic.ttf');

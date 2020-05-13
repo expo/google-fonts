@@ -7,16 +7,14 @@
 
 This package lets you use the [**Coustard**](https://fonts.google.com/specimen/Coustard) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Coustard
 
 ![Coustard](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Coustard_Regular400`
-- `Coustard_Black900`
+- `Coustard_400Regular`
+- `Coustard_900Black`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Coustard_Regular400, Coustard_Black900, useFonts } from '@expo-google-fonts/coustard';
+import { useFonts, Coustard_400Regular, Coustard_900Black } from '@expo-google-fonts/coustard';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Coustard_Regular400,
-    Coustard_Black900,
+    Coustard_400Regular,
+    Coustard_900Black,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Coustard_Regular400' }}>
-          Coustard_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Coustard_400Regular' }}>
+          Coustard_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Coustard_Black900' }}>
-          Coustard_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Coustard_900Black' }}>
+          Coustard_900Black
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Coustard_Regular400
-![Coustard_Regular400](./657fe3ebd0e1b0402731533db6ddbe6120271871430adfff3ea617c35120f166.ttf.png)
+##### Coustard_400Regular
+![Coustard_400Regular](./Coustard_400Regular.ttf.png)
 
-##### Coustard_Black900
-![Coustard_Black900](./c9288e8be500e6cb9ea6f0ae05167d9ee149c0d91fc8a422055f396236b1e413.ttf.png)
+##### Coustard_900Black
+![Coustard_900Black](./Coustard_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/coustard)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,11 +4,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Karma';
-export const __fontFamilyVersion__ = 6;
-
-export const Karma_Light300 = require('./3efd1dc089cbb099173fc03a8bfc22d406db0671888af830ca7137e548369989.ttf');
-export const Karma_Regular400 = require('./8852b0f721a3603b10be618c6a5ad02f581025568b8db801a75130da5f0c8d48.ttf');
-export const Karma_Medium500 = require('./2701feff031a171c4d982c100c27cf15d52d5051c49481762f43eeecc4bd54bd.ttf');
-export const Karma_SemiBold600 = require('./932cd064de412606a66f2a06a29ed0003de9669fe26d7f1f9f3e76bfc74dbb78.ttf');
-export const Karma_Bold700 = require('./132e41c0f90df6a2646b59a685af793e0ce62b2b64245d2db081d1ab1f6889e8.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Karma_300Light = require('./Karma_300Light.ttf');
+export const Karma_400Regular = require('./Karma_400Regular.ttf');
+export const Karma_500Medium = require('./Karma_500Medium.ttf');
+export const Karma_600SemiBold = require('./Karma_600SemiBold.ttf');
+export const Karma_700Bold = require('./Karma_700Bold.ttf');

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Mrs Sheppards';
-export const __fontFamilyVersion__ = 5;
-
-export const MrsSheppards_Regular400 = require('./e405bf3cb038e30fac744c48068e8e3687a50c1b5cff874a57476b07f44b3b04.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MrsSheppards_400Regular = require('./MrsSheppards_400Regular.ttf');

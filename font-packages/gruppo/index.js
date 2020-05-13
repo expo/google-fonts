@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Gruppo';
-export const __fontFamilyVersion__ = 7;
-
-export const Gruppo_Regular400 = require('./6cf289ec6fe4592706aa68de1f9711e3f1967db26053962cfbddd4e51a7ac65e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Gruppo_400Regular = require('./Gruppo_400Regular.ttf');

@@ -7,19 +7,17 @@
 
 This package lets you use the [**BioRhyme Expanded**](https://fonts.google.com/specimen/BioRhyme+Expanded) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## BioRhyme Expanded
 
 ![BioRhyme Expanded](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `BioRhymeExpanded_ExtraLight200`
-- `BioRhymeExpanded_Light300`
-- `BioRhymeExpanded_Regular400`
-- `BioRhymeExpanded_Bold700`
-- `BioRhymeExpanded_ExtraBold800`
+- `BioRhymeExpanded_200ExtraLight`
+- `BioRhymeExpanded_300Light`
+- `BioRhymeExpanded_400Regular`
+- `BioRhymeExpanded_700Bold`
+- `BioRhymeExpanded_800ExtraBold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  BioRhymeExpanded_ExtraLight200,
-  BioRhymeExpanded_Light300,
-  BioRhymeExpanded_Regular400,
-  BioRhymeExpanded_Bold700,
-  BioRhymeExpanded_ExtraBold800,
   useFonts,
+  BioRhymeExpanded_200ExtraLight,
+  BioRhymeExpanded_300Light,
+  BioRhymeExpanded_400Regular,
+  BioRhymeExpanded_700Bold,
+  BioRhymeExpanded_800ExtraBold,
 } from '@expo-google-fonts/biorhyme-expanded';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    BioRhymeExpanded_ExtraLight200,
-    BioRhymeExpanded_Light300,
-    BioRhymeExpanded_Regular400,
-    BioRhymeExpanded_Bold700,
-    BioRhymeExpanded_ExtraBold800,
+    BioRhymeExpanded_200ExtraLight,
+    BioRhymeExpanded_300Light,
+    BioRhymeExpanded_400Regular,
+    BioRhymeExpanded_700Bold,
+    BioRhymeExpanded_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhymeExpanded_ExtraLight200' }}>
-          BioRhymeExpanded_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhymeExpanded_200ExtraLight' }}>
+          BioRhymeExpanded_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhymeExpanded_Light300' }}>
-          BioRhymeExpanded_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhymeExpanded_300Light' }}>
+          BioRhymeExpanded_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhymeExpanded_Regular400' }}>
-          BioRhymeExpanded_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhymeExpanded_400Regular' }}>
+          BioRhymeExpanded_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhymeExpanded_Bold700' }}>
-          BioRhymeExpanded_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhymeExpanded_700Bold' }}>
+          BioRhymeExpanded_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhymeExpanded_ExtraBold800' }}>
-          BioRhymeExpanded_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhymeExpanded_800ExtraBold' }}>
+          BioRhymeExpanded_800ExtraBold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BioRhymeExpanded_ExtraLight200
-![BioRhymeExpanded_ExtraLight200](./7770459b3448470de7eebc842dd6d1b27857480f955caa6fda9114f30f9c487a.ttf.png)
+##### BioRhymeExpanded_200ExtraLight
+![BioRhymeExpanded_200ExtraLight](./BioRhymeExpanded_200ExtraLight.ttf.png)
 
-##### BioRhymeExpanded_Light300
-![BioRhymeExpanded_Light300](./564af9bc89e9baac8c99c4a2b2bb1262ed16deaec1971840ab3e348ed0dc8e22.ttf.png)
+##### BioRhymeExpanded_300Light
+![BioRhymeExpanded_300Light](./BioRhymeExpanded_300Light.ttf.png)
 
-##### BioRhymeExpanded_Regular400
-![BioRhymeExpanded_Regular400](./1fa6003a77f1c41cfe89fc6db7c98358f0e6fa62b61c965e0e1a04ed960601b9.ttf.png)
+##### BioRhymeExpanded_400Regular
+![BioRhymeExpanded_400Regular](./BioRhymeExpanded_400Regular.ttf.png)
 
-##### BioRhymeExpanded_Bold700
-![BioRhymeExpanded_Bold700](./89375361cdabf9dbf2e57378fa40cc8c19512e518617d5e8502c9db8aa4ee2a1.ttf.png)
+##### BioRhymeExpanded_700Bold
+![BioRhymeExpanded_700Bold](./BioRhymeExpanded_700Bold.ttf.png)
 
-##### BioRhymeExpanded_ExtraBold800
-![BioRhymeExpanded_ExtraBold800](./586a8d74b8042767a173971c026734fb6cb75934497b3c9d2ebd80ad9e60c31d.ttf.png)
+##### BioRhymeExpanded_800ExtraBold
+![BioRhymeExpanded_800ExtraBold](./BioRhymeExpanded_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/biorhyme-expanded)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

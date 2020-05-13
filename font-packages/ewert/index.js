@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Ewert';
-export const __fontFamilyVersion__ = 4;
-
-export const Ewert_Regular400 = require('./e2a4aed1fe4d33019eb7c6a9273a251e7f28ac19b2820f61ef61329d32cb89a8.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Ewert_400Regular = require('./Ewert_400Regular.ttf');

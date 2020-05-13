@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Lexend Zetta';
-export const __fontFamilyVersion__ = 1;
-
-export const LexendZetta_Regular400 = require('./e6de0f389e45c6725bfc8b444ce22b404d8ef5f4649f41b979fdf5cb1125dfd1.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const LexendZetta_400Regular = require('./LexendZetta_400Regular.ttf');

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Liu Jian Mao Cao**](https://fonts.google.com/specimen/Liu+Jian+Mao+Cao) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Liu Jian Mao Cao
 
 ![Liu Jian Mao Cao](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `LiuJianMaoCao_Regular400`
+- `LiuJianMaoCao_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { LiuJianMaoCao_Regular400, useFonts } from '@expo-google-fonts/liu-jian-mao-cao';
+import { useFonts, LiuJianMaoCao_400Regular } from '@expo-google-fonts/liu-jian-mao-cao';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LiuJianMaoCao_Regular400,
+    LiuJianMaoCao_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LiuJianMaoCao_Regular400' }}>
-          LiuJianMaoCao_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LiuJianMaoCao_400Regular' }}>
+          LiuJianMaoCao_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LiuJianMaoCao_Regular400
-![LiuJianMaoCao_Regular400](./b88821c3a72f98bbab2428a3b3f4a51c2f0eba1644fd8877d195afdf32143cdd.ttf.png)
+##### LiuJianMaoCao_400Regular
+![LiuJianMaoCao_400Regular](./LiuJianMaoCao_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/liu-jian-mao-cao)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

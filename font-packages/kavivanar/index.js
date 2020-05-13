@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Kavivanar';
-export const __fontFamilyVersion__ = 1;
-
-export const Kavivanar_Regular400 = require('./18f829fa1d200c2774144c3fcc8eb4f393a7bf7e2c8e3d95ecf831dd96e498ae.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Kavivanar_400Regular = require('./Kavivanar_400Regular.ttf');

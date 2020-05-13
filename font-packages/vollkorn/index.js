@@ -4,14 +4,12 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Vollkorn';
-export const __fontFamilyVersion__ = 8;
-
-export const Vollkorn_Regular400 = require('./9fd84335b1beb10505c201815682f7b543aa429a5a909e8b2126f15d36a0705a.ttf');
-export const Vollkorn_Regular400_Italic = require('./784ba33f30493ef78ca0217d7f6c243c8bf7bec2cd1b9c4d813af99941bf730e.ttf');
-export const Vollkorn_SemiBold600 = require('./9d702c22f1d2ea4a1521efff825d5c362adca54b6fbe2343ab2ed6b7e2119610.ttf');
-export const Vollkorn_SemiBold600_Italic = require('./6cd6efd288ac8587690f7a7f5788bea147c0c5432224a04874dc4494a8691955.ttf');
-export const Vollkorn_Bold700 = require('./14aa1fb5f42a8088a0d91ca54dbc7d6eea615db621929c7bdc35ae4a6c64fcb5.ttf');
-export const Vollkorn_Bold700_Italic = require('./ef717b899e1af61e2a62cfed23623b0d5c844e2745616be4a949bf84f6e7457e.ttf');
-export const Vollkorn_Black900 = require('./14e5d20d80ab9df765ef117415850050320fa766eb246296c67924737f88c2d1.ttf');
-export const Vollkorn_Black900_Italic = require('./3953dfef7c1118f089612462105779d89da8f9df1aa11b74a8b2a58bb8359a44.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Vollkorn_400Regular = require('./Vollkorn_400Regular.ttf');
+export const Vollkorn_400Regular_Italic = require('./Vollkorn_400Regular_Italic.ttf');
+export const Vollkorn_600SemiBold = require('./Vollkorn_600SemiBold.ttf');
+export const Vollkorn_600SemiBold_Italic = require('./Vollkorn_600SemiBold_Italic.ttf');
+export const Vollkorn_700Bold = require('./Vollkorn_700Bold.ttf');
+export const Vollkorn_700Bold_Italic = require('./Vollkorn_700Bold_Italic.ttf');
+export const Vollkorn_900Black = require('./Vollkorn_900Black.ttf');
+export const Vollkorn_900Black_Italic = require('./Vollkorn_900Black_Italic.ttf');

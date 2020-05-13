@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Yeon Sung';
-export const __fontFamilyVersion__ = 4;
-
-export const YeonSung_Regular400 = require('./cc6d366c352d7d897155bde07516cd01c0fcd308ff28d0d6545d6634046cecec.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const YeonSung_400Regular = require('./YeonSung_400Regular.ttf');

@@ -4,9 +4,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Cardo';
-export const __fontFamilyVersion__ = 8;
-
-export const Cardo_Regular400 = require('./286e6a4bde92ea6087b503978338898808df924a3cdd8144741fa780d11603a2.ttf');
-export const Cardo_Regular400_Italic = require('./43bee56e6bb3d2ad574558a859227592f0b0ac881a70fd8f2cf74b808bb9be00.ttf');
-export const Cardo_Bold700 = require('./10c0bab22a674656a3d5e94e05e64f9c6c6ea25acce0d0fc846f964985b142ce.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Cardo_400Regular = require('./Cardo_400Regular.ttf');
+export const Cardo_400Regular_Italic = require('./Cardo_400Regular_Italic.ttf');
+export const Cardo_700Bold = require('./Cardo_700Bold.ttf');

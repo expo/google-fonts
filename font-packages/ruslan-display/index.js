@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Ruslan Display';
-export const __fontFamilyVersion__ = 7;
-
-export const RuslanDisplay_Regular400 = require('./4ed18797941421375fffab1522b84e81a16d399abe36964f4f3278683b1dc29f.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const RuslanDisplay_400Regular = require('./RuslanDisplay_400Regular.ttf');

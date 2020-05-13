@@ -7,22 +7,20 @@
 
 This package lets you use the [**Manuale**](https://fonts.google.com/specimen/Manuale) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Manuale
 
 ![Manuale](./font-family.png)
 
 This font family contains [8 styles](#-gallery).
 
-- `Manuale_Regular400`
-- `Manuale_Regular400_Italic`
-- `Manuale_Medium500`
-- `Manuale_Medium500_Italic`
-- `Manuale_SemiBold600`
-- `Manuale_SemiBold600_Italic`
-- `Manuale_Bold700`
-- `Manuale_Bold700_Italic`
+- `Manuale_400Regular`
+- `Manuale_500Medium`
+- `Manuale_600SemiBold`
+- `Manuale_700Bold`
+- `Manuale_400Regular_Italic`
+- `Manuale_500Medium_Italic`
+- `Manuale_600SemiBold_Italic`
+- `Manuale_700Bold_Italic`
 
 ## Usage
 
@@ -38,27 +36,27 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Manuale_Regular400,
-  Manuale_Regular400_Italic,
-  Manuale_Medium500,
-  Manuale_Medium500_Italic,
-  Manuale_SemiBold600,
-  Manuale_SemiBold600_Italic,
-  Manuale_Bold700,
-  Manuale_Bold700_Italic,
   useFonts,
+  Manuale_400Regular,
+  Manuale_500Medium,
+  Manuale_600SemiBold,
+  Manuale_700Bold,
+  Manuale_400Regular_Italic,
+  Manuale_500Medium_Italic,
+  Manuale_600SemiBold_Italic,
+  Manuale_700Bold_Italic,
 } from '@expo-google-fonts/manuale';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Manuale_Regular400,
-    Manuale_Regular400_Italic,
-    Manuale_Medium500,
-    Manuale_Medium500_Italic,
-    Manuale_SemiBold600,
-    Manuale_SemiBold600_Italic,
-    Manuale_Bold700,
-    Manuale_Bold700_Italic,
+    Manuale_400Regular,
+    Manuale_500Medium,
+    Manuale_600SemiBold,
+    Manuale_700Bold,
+    Manuale_400Regular_Italic,
+    Manuale_500Medium_Italic,
+    Manuale_600SemiBold_Italic,
+    Manuale_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -69,36 +67,36 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_Regular400' }}>
-          Manuale_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_400Regular' }}>
+          Manuale_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_Regular400_Italic' }}>
-          Manuale_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_500Medium' }}>
+          Manuale_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_Medium500' }}>
-          Manuale_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_600SemiBold' }}>
+          Manuale_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_Medium500_Italic' }}>
-          Manuale_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_700Bold' }}>
+          Manuale_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_SemiBold600' }}>
-          Manuale_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_400Regular_Italic' }}>
+          Manuale_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_SemiBold600_Italic' }}>
-          Manuale_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_500Medium_Italic' }}>
+          Manuale_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_Bold700' }}>
-          Manuale_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_600SemiBold_Italic' }}>
+          Manuale_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_Bold700_Italic' }}>
-          Manuale_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_700Bold_Italic' }}>
+          Manuale_700Bold_Italic
         </Text>
       </View>
     );
@@ -109,29 +107,29 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Manuale_Regular400
-![Manuale_Regular400](./cfd06fa1d33d937fd3d097835096788da1e29fe217c0e6619d7f4e92770987f2.ttf.png)
+##### Manuale_400Regular
+![Manuale_400Regular](./Manuale_400Regular.ttf.png)
 
-##### Manuale_Regular400_Italic
-![Manuale_Regular400_Italic](./b7144bb9db9fc28df1a2f22173a91396c535d078a58256b0937d0ed4916ac08d.ttf.png)
+##### Manuale_500Medium
+![Manuale_500Medium](./Manuale_500Medium.ttf.png)
 
-##### Manuale_Medium500
-![Manuale_Medium500](./bee63de104b5fab81c246551830fd9cf2910da15ffb1fe837913493df2612797.ttf.png)
+##### Manuale_600SemiBold
+![Manuale_600SemiBold](./Manuale_600SemiBold.ttf.png)
 
-##### Manuale_Medium500_Italic
-![Manuale_Medium500_Italic](./b9d7d38e3301e49ed48cee4bdbfdf8bf85004f299e7d33795cc55fad29b5406f.ttf.png)
+##### Manuale_700Bold
+![Manuale_700Bold](./Manuale_700Bold.ttf.png)
 
-##### Manuale_SemiBold600
-![Manuale_SemiBold600](./1b0e482a58bde31d3c0408ea84a5ce8287b1669e24bb7e75648b20ee859ade8b.ttf.png)
+##### Manuale_400Regular_Italic
+![Manuale_400Regular_Italic](./Manuale_400Regular_Italic.ttf.png)
 
-##### Manuale_SemiBold600_Italic
-![Manuale_SemiBold600_Italic](./023ded306bfcddff115b0b04ed36de8a5184275774cd972ce1fb34d8d917c61e.ttf.png)
+##### Manuale_500Medium_Italic
+![Manuale_500Medium_Italic](./Manuale_500Medium_Italic.ttf.png)
 
-##### Manuale_Bold700
-![Manuale_Bold700](./50014d6214dc09001362c4e4a770de808a95fc3f590d52d895c9eef86b71d68a.ttf.png)
+##### Manuale_600SemiBold_Italic
+![Manuale_600SemiBold_Italic](./Manuale_600SemiBold_Italic.ttf.png)
 
-##### Manuale_Bold700_Italic
-![Manuale_Bold700_Italic](./2a59ed27fb6985f70acb9fc94d9038ae63cfc4a2ddc5226dfecb7c8407b5a93f.ttf.png)
+##### Manuale_700Bold_Italic
+![Manuale_700Bold_Italic](./Manuale_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -161,7 +159,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/manuale)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

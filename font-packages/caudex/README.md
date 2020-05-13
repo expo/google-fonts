@@ -7,18 +7,16 @@
 
 This package lets you use the [**Caudex**](https://fonts.google.com/specimen/Caudex) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Caudex
 
 ![Caudex](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Caudex_Regular400`
-- `Caudex_Regular400_Italic`
-- `Caudex_Bold700`
-- `Caudex_Bold700_Italic`
+- `Caudex_400Regular`
+- `Caudex_400Regular_Italic`
+- `Caudex_700Bold`
+- `Caudex_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Caudex_Regular400,
-  Caudex_Regular400_Italic,
-  Caudex_Bold700,
-  Caudex_Bold700_Italic,
   useFonts,
+  Caudex_400Regular,
+  Caudex_400Regular_Italic,
+  Caudex_700Bold,
+  Caudex_700Bold_Italic,
 } from '@expo-google-fonts/caudex';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Caudex_Regular400,
-    Caudex_Regular400_Italic,
-    Caudex_Bold700,
-    Caudex_Bold700_Italic,
+    Caudex_400Regular,
+    Caudex_400Regular_Italic,
+    Caudex_700Bold,
+    Caudex_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caudex_Regular400' }}>
-          Caudex_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caudex_400Regular' }}>
+          Caudex_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caudex_Regular400_Italic' }}>
-          Caudex_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caudex_400Regular_Italic' }}>
+          Caudex_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caudex_Bold700' }}>
-          Caudex_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caudex_700Bold' }}>
+          Caudex_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caudex_Bold700_Italic' }}>
-          Caudex_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caudex_700Bold_Italic' }}>
+          Caudex_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Caudex_Regular400
-![Caudex_Regular400](./e0c195632ea06158f87e86ee898119dd8a7f59788999552ed79be77c33c6a726.ttf.png)
+##### Caudex_400Regular
+![Caudex_400Regular](./Caudex_400Regular.ttf.png)
 
-##### Caudex_Regular400_Italic
-![Caudex_Regular400_Italic](./53374860983e21bb358d83d1162c824903649ae49f873a963c665b066514bb9d.ttf.png)
+##### Caudex_400Regular_Italic
+![Caudex_400Regular_Italic](./Caudex_400Regular_Italic.ttf.png)
 
-##### Caudex_Bold700
-![Caudex_Bold700](./09a6db433fd45eb3e1423e9947afe5b766008cc358cb482b42103970fc840676.ttf.png)
+##### Caudex_700Bold
+![Caudex_700Bold](./Caudex_700Bold.ttf.png)
 
-##### Caudex_Bold700_Italic
-![Caudex_Bold700_Italic](./45c118976f77e53a2a5122e22cace7fb846373a14892fbb7e0ff61e1a46de1d4.ttf.png)
+##### Caudex_700Bold_Italic
+![Caudex_700Bold_Italic](./Caudex_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/caudex)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

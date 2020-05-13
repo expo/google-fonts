@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Dr Sugiyama';
-export const __fontFamilyVersion__ = 5;
-
-export const DrSugiyama_Regular400 = require('./222640befef81fb644265039a2b7df8ab86103b0d4427b5a88b9fb9ebbbcd273.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const DrSugiyama_400Regular = require('./DrSugiyama_400Regular.ttf');

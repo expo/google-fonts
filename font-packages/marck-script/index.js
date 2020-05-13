@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Marck Script';
-export const __fontFamilyVersion__ = 7;
-
-export const MarckScript_Regular400 = require('./f111edb73a2a290328fb706396fd239519a491528780e18030fc8b0265a1b669.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MarckScript_400Regular = require('./MarckScript_400Regular.ttf');

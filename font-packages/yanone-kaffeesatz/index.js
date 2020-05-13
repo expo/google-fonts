@@ -4,10 +4,10 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Yanone Kaffeesatz';
-export const __fontFamilyVersion__ = 8;
-
-export const YanoneKaffeesatz_ExtraLight200 = require('./9805245cc2de9c8da9ae786c7e17ac2da9f93c7b2ba3cc8f481e28eb05146193.ttf');
-export const YanoneKaffeesatz_Light300 = require('./d9ed8432723bd4d507a98d52dc50b9852ac3d6456e0fbcf9bf639b19982af563.ttf');
-export const YanoneKaffeesatz_Regular400 = require('./c590a52e12f62af4fec495eae613bff7aa7763fb2c5bec48e1db96503ba91c1b.ttf');
-export const YanoneKaffeesatz_Bold700 = require('./5245342d46c5e01aaa2e808a7962687a57c7ffaad83ff05db327e9fbf28d79c0.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const YanoneKaffeesatz_200ExtraLight = require('./YanoneKaffeesatz_200ExtraLight.ttf');
+export const YanoneKaffeesatz_300Light = require('./YanoneKaffeesatz_300Light.ttf');
+export const YanoneKaffeesatz_400Regular = require('./YanoneKaffeesatz_400Regular.ttf');
+export const YanoneKaffeesatz_500Medium = require('./YanoneKaffeesatz_500Medium.ttf');
+export const YanoneKaffeesatz_600SemiBold = require('./YanoneKaffeesatz_600SemiBold.ttf');
+export const YanoneKaffeesatz_700Bold = require('./YanoneKaffeesatz_700Bold.ttf');

@@ -7,17 +7,15 @@
 
 This package lets you use the [**Oxygen**](https://fonts.google.com/specimen/Oxygen) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Oxygen
 
 ![Oxygen](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `Oxygen_Light300`
-- `Oxygen_Regular400`
-- `Oxygen_Bold700`
+- `Oxygen_300Light`
+- `Oxygen_400Regular`
+- `Oxygen_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Oxygen_Light300,
-  Oxygen_Regular400,
-  Oxygen_Bold700,
   useFonts,
+  Oxygen_300Light,
+  Oxygen_400Regular,
+  Oxygen_700Bold,
 } from '@expo-google-fonts/oxygen';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Oxygen_Light300,
-    Oxygen_Regular400,
-    Oxygen_Bold700,
+    Oxygen_300Light,
+    Oxygen_400Regular,
+    Oxygen_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxygen_Light300' }}>
-          Oxygen_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxygen_300Light' }}>
+          Oxygen_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxygen_Regular400' }}>
-          Oxygen_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxygen_400Regular' }}>
+          Oxygen_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxygen_Bold700' }}>
-          Oxygen_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxygen_700Bold' }}>
+          Oxygen_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Oxygen_Light300
-![Oxygen_Light300](./a7e1244b4a11ee9f21f86e2f25d7dd963f8e8f93d7b8e411620c959f4cf66fa2.ttf.png)
+##### Oxygen_300Light
+![Oxygen_300Light](./Oxygen_300Light.ttf.png)
 
-##### Oxygen_Regular400
-![Oxygen_Regular400](./f6497c6c0bb7a884669e84095f3e56550bd7c0ccba79656b0af00d8b3200d790.ttf.png)
+##### Oxygen_400Regular
+![Oxygen_400Regular](./Oxygen_400Regular.ttf.png)
 
-##### Oxygen_Bold700
-![Oxygen_Bold700](./4bccf594c248e25c3da7e37b9dc5e9cddfcf3bc405504b7d15f4523358d81f76.ttf.png)
+##### Oxygen_700Bold
+![Oxygen_700Bold](./Oxygen_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/oxygen)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

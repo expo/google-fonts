@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Glass Antiqua';
-export const __fontFamilyVersion__ = 4;
-
-export const GlassAntiqua_Regular400 = require('./e175bb6abcc9cd23e8e7fff60b5a13a870ecafeb7aab3af67614547c14354aad.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const GlassAntiqua_400Regular = require('./GlassAntiqua_400Regular.ttf');

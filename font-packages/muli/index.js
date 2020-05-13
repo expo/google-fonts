@@ -4,20 +4,20 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Muli';
-export const __fontFamilyVersion__ = 10;
-
-export const Muli_ExtraLight200 = require('./dbcba4190351f997830d7652727c7f42e0c882f325d1f75ba8a3c606f8ab0e23.ttf');
-export const Muli_ExtraLight200_Italic = require('./939afc08c356b9f83c67ee2b78dec42c2f7e1eed1ade0be8b8fc1095d1429b04.ttf');
-export const Muli_Light300 = require('./5de108957fcdaef883f06a6d0852f415189779437851b0d6d7abb06c9b717a86.ttf');
-export const Muli_Light300_Italic = require('./7cc6d79998df498ec95b3c68aa52f263ad62a25202e7971a6b75de645da069c2.ttf');
-export const Muli_Regular400 = require('./ea4701f9a5e0b0e4c96b45b1c04278e62159ddb385941274af0394132622a139.ttf');
-export const Muli_Regular400_Italic = require('./e5a17a307589ccf860441ba4904d3819f0ce0a4d7001a6e4b7d0efd5858bcde8.ttf');
-export const Muli_SemiBold600 = require('./10d78b9b78e06d25335389823e4383b15fea791de3324adb6497069821c2e214.ttf');
-export const Muli_SemiBold600_Italic = require('./9844bb9dc82723a3d8c41821d7ed75f37aa979969dbcf244e03676190a26c279.ttf');
-export const Muli_Bold700 = require('./3ab6877022dc43f69329d1c8e73ede36b36ef3cd49a833da18c388c6311a18c7.ttf');
-export const Muli_Bold700_Italic = require('./93112f6142019f2669649529f27d3d42f5bc8859bf1dadaaf1ab66b07492b366.ttf');
-export const Muli_ExtraBold800 = require('./9ba6c90c1b1b2a61cc450ef443603f86e5acffbba7430c4d41e9ce1ef434b516.ttf');
-export const Muli_ExtraBold800_Italic = require('./dc2a00ad0b251d39d19272f9277b6940bb685b29b9cecca33bfb4008d5188d2c.ttf');
-export const Muli_Black900 = require('./a887d75b7f4ca0f8a220638d755864474c4a89972ef84be00ba81d5764519e8c.ttf');
-export const Muli_Black900_Italic = require('./c1c38c7b31e983faf9ac1ba63d8a98cb93cdf7c854abd833e826a7bea94248c6.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Muli_200ExtraLight = require('./Muli_200ExtraLight.ttf');
+export const Muli_300Light = require('./Muli_300Light.ttf');
+export const Muli_400Regular = require('./Muli_400Regular.ttf');
+export const Muli_500Medium = require('./Muli_500Medium.ttf');
+export const Muli_600SemiBold = require('./Muli_600SemiBold.ttf');
+export const Muli_700Bold = require('./Muli_700Bold.ttf');
+export const Muli_800ExtraBold = require('./Muli_800ExtraBold.ttf');
+export const Muli_900Black = require('./Muli_900Black.ttf');
+export const Muli_200ExtraLight_Italic = require('./Muli_200ExtraLight_Italic.ttf');
+export const Muli_300Light_Italic = require('./Muli_300Light_Italic.ttf');
+export const Muli_400Regular_Italic = require('./Muli_400Regular_Italic.ttf');
+export const Muli_500Medium_Italic = require('./Muli_500Medium_Italic.ttf');
+export const Muli_600SemiBold_Italic = require('./Muli_600SemiBold_Italic.ttf');
+export const Muli_700Bold_Italic = require('./Muli_700Bold_Italic.ttf');
+export const Muli_800ExtraBold_Italic = require('./Muli_800ExtraBold_Italic.ttf');
+export const Muli_900Black_Italic = require('./Muli_900Black_Italic.ttf');

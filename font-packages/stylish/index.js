@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Stylish';
-export const __fontFamilyVersion__ = 4;
-
-export const Stylish_Regular400 = require('./489ff10987ec4798768e532c108dbfb20bf68e1e122df1f77b9f35568d34a103.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Stylish_400Regular = require('./Stylish_400Regular.ttf');

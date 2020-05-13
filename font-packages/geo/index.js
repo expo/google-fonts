@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Geo';
-export const __fontFamilyVersion__ = 8;
-
-export const Geo_Regular400 = require('./1eea344681e2eab82088131eca8f88554cd2107b68a5bc70ac8e0eeb7877920e.ttf');
-export const Geo_Regular400_Italic = require('./6aff203bbf11c87ca0cbd331d3181277be2cc5f373a85fc6a0c898ed393d151b.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Geo_400Regular = require('./Geo_400Regular.ttf');
+export const Geo_400Regular_Italic = require('./Geo_400Regular_Italic.ttf');

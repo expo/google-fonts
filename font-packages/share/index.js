@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Share';
-export const __fontFamilyVersion__ = 7;
-
-export const Share_Regular400 = require('./c1621fb56fac35ccedec411f3ee0e726ca8c3b6c1e5616fcaec194d0e26c1207.ttf');
-export const Share_Regular400_Italic = require('./e7c900b0cd2cdfb860519a4df3b0242ad6ae849a1fcb892760fbf78e93214626.ttf');
-export const Share_Bold700 = require('./283b89ac6d01b1444d546b1992f9ce7ab0f1ecda06b9d33769bbbf3ee979a76c.ttf');
-export const Share_Bold700_Italic = require('./a8f8a01adf843c6551142bd88a1f437fa3b739e7dbaaef798f80a5500afae4d3.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Share_400Regular = require('./Share_400Regular.ttf');
+export const Share_400Regular_Italic = require('./Share_400Regular_Italic.ttf');
+export const Share_700Bold = require('./Share_700Bold.ttf');
+export const Share_700Bold_Italic = require('./Share_700Bold_Italic.ttf');

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bungee Hairline';
-export const __fontFamilyVersion__ = 2;
-
-export const BungeeHairline_Regular400 = require('./7082ad6f58a7ae0bdd49f1c56b50fdd5f19c8e5a7a760de15f353ff47bf2c391.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BungeeHairline_400Regular = require('./BungeeHairline_400Regular.ttf');

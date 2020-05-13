@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Ubuntu Mono';
-export const __fontFamilyVersion__ = 6;
-
-export const UbuntuMono_Regular400 = require('./cd1f8cec4767686edcf755dcde43ac58d83cef21ee96f0e6d850aaf359edd22c.ttf');
-export const UbuntuMono_Regular400_Italic = require('./f9935197a4379e2812e72644ce77c4d8bd3f108ff3b23ed5fccb7032f08d6626.ttf');
-export const UbuntuMono_Bold700 = require('./7f6a2a5a1eeef3fd539d7cb59119e2a720c33fb75347a47de6c1b4daef4ab63c.ttf');
-export const UbuntuMono_Bold700_Italic = require('./91873d66153347506011f860ea9c87fc36c2ee4ef726bd95cc88c86e0b1ec5f2.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const UbuntuMono_400Regular = require('./UbuntuMono_400Regular.ttf');
+export const UbuntuMono_400Regular_Italic = require('./UbuntuMono_400Regular_Italic.ttf');
+export const UbuntuMono_700Bold = require('./UbuntuMono_700Bold.ttf');
+export const UbuntuMono_700Bold_Italic = require('./UbuntuMono_700Bold_Italic.ttf');

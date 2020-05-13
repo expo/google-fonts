@@ -7,17 +7,15 @@
 
 This package lets you use the [**Gayathri**](https://fonts.google.com/specimen/Gayathri) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Gayathri
 
 ![Gayathri](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `Gayathri_Thin100`
-- `Gayathri_Regular400`
-- `Gayathri_Bold700`
+- `Gayathri_100Thin`
+- `Gayathri_400Regular`
+- `Gayathri_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Gayathri_Thin100,
-  Gayathri_Regular400,
-  Gayathri_Bold700,
   useFonts,
+  Gayathri_100Thin,
+  Gayathri_400Regular,
+  Gayathri_700Bold,
 } from '@expo-google-fonts/gayathri';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Gayathri_Thin100,
-    Gayathri_Regular400,
-    Gayathri_Bold700,
+    Gayathri_100Thin,
+    Gayathri_400Regular,
+    Gayathri_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gayathri_Thin100' }}>
-          Gayathri_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gayathri_100Thin' }}>
+          Gayathri_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gayathri_Regular400' }}>
-          Gayathri_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gayathri_400Regular' }}>
+          Gayathri_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gayathri_Bold700' }}>
-          Gayathri_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gayathri_700Bold' }}>
+          Gayathri_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gayathri_Thin100
-![Gayathri_Thin100](./6d8dba16325ef843155b024f792235ef54403fc4ce39f71ffe50c6a7cca110da.ttf.png)
+##### Gayathri_100Thin
+![Gayathri_100Thin](./Gayathri_100Thin.ttf.png)
 
-##### Gayathri_Regular400
-![Gayathri_Regular400](./d5538d385b6f28efddc8cc7d5e5cf0dcbe3243febfcb81ba4112a03ab5901d1e.ttf.png)
+##### Gayathri_400Regular
+![Gayathri_400Regular](./Gayathri_400Regular.ttf.png)
 
-##### Gayathri_Bold700
-![Gayathri_Bold700](./dac84e865cf4bf1f5f2bd54100f9b5ded81e0b2e3904ba8a3a6a992df1c13627.ttf.png)
+##### Gayathri_700Bold
+![Gayathri_700Bold](./Gayathri_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/gayathri)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

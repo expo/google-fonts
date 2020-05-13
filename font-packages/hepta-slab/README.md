@@ -7,23 +7,21 @@
 
 This package lets you use the [**Hepta Slab**](https://fonts.google.com/specimen/Hepta+Slab) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Hepta Slab
 
 ![Hepta Slab](./font-family.png)
 
 This font family contains [9 styles](#-gallery).
 
-- `HeptaSlab_Thin100`
-- `HeptaSlab_ExtraLight200`
-- `HeptaSlab_Light300`
-- `HeptaSlab_Regular400`
-- `HeptaSlab_Medium500`
-- `HeptaSlab_SemiBold600`
-- `HeptaSlab_Bold700`
-- `HeptaSlab_ExtraBold800`
-- `HeptaSlab_Black900`
+- `HeptaSlab_100Thin`
+- `HeptaSlab_200ExtraLight`
+- `HeptaSlab_300Light`
+- `HeptaSlab_400Regular`
+- `HeptaSlab_500Medium`
+- `HeptaSlab_600SemiBold`
+- `HeptaSlab_700Bold`
+- `HeptaSlab_800ExtraBold`
+- `HeptaSlab_900Black`
 
 ## Usage
 
@@ -39,29 +37,29 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  HeptaSlab_Thin100,
-  HeptaSlab_ExtraLight200,
-  HeptaSlab_Light300,
-  HeptaSlab_Regular400,
-  HeptaSlab_Medium500,
-  HeptaSlab_SemiBold600,
-  HeptaSlab_Bold700,
-  HeptaSlab_ExtraBold800,
-  HeptaSlab_Black900,
   useFonts,
+  HeptaSlab_100Thin,
+  HeptaSlab_200ExtraLight,
+  HeptaSlab_300Light,
+  HeptaSlab_400Regular,
+  HeptaSlab_500Medium,
+  HeptaSlab_600SemiBold,
+  HeptaSlab_700Bold,
+  HeptaSlab_800ExtraBold,
+  HeptaSlab_900Black,
 } from '@expo-google-fonts/hepta-slab';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    HeptaSlab_Thin100,
-    HeptaSlab_ExtraLight200,
-    HeptaSlab_Light300,
-    HeptaSlab_Regular400,
-    HeptaSlab_Medium500,
-    HeptaSlab_SemiBold600,
-    HeptaSlab_Bold700,
-    HeptaSlab_ExtraBold800,
-    HeptaSlab_Black900,
+    HeptaSlab_100Thin,
+    HeptaSlab_200ExtraLight,
+    HeptaSlab_300Light,
+    HeptaSlab_400Regular,
+    HeptaSlab_500Medium,
+    HeptaSlab_600SemiBold,
+    HeptaSlab_700Bold,
+    HeptaSlab_800ExtraBold,
+    HeptaSlab_900Black,
   });
 
   let fontSize = 24;
@@ -72,40 +70,40 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_Thin100' }}>
-          HeptaSlab_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_100Thin' }}>
+          HeptaSlab_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_ExtraLight200' }}>
-          HeptaSlab_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_200ExtraLight' }}>
+          HeptaSlab_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_Light300' }}>
-          HeptaSlab_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_300Light' }}>
+          HeptaSlab_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_Regular400' }}>
-          HeptaSlab_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_400Regular' }}>
+          HeptaSlab_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_Medium500' }}>
-          HeptaSlab_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_500Medium' }}>
+          HeptaSlab_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_SemiBold600' }}>
-          HeptaSlab_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_600SemiBold' }}>
+          HeptaSlab_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_Bold700' }}>
-          HeptaSlab_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_700Bold' }}>
+          HeptaSlab_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_ExtraBold800' }}>
-          HeptaSlab_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_800ExtraBold' }}>
+          HeptaSlab_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_Black900' }}>
-          HeptaSlab_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_900Black' }}>
+          HeptaSlab_900Black
         </Text>
       </View>
     );
@@ -116,32 +114,32 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HeptaSlab_Thin100
-![HeptaSlab_Thin100](./534d777769f5477f07228b5576ec1d9e5f8524ebb5568ee0c7ead05433221d78.ttf.png)
+##### HeptaSlab_100Thin
+![HeptaSlab_100Thin](./HeptaSlab_100Thin.ttf.png)
 
-##### HeptaSlab_ExtraLight200
-![HeptaSlab_ExtraLight200](./de95a9d08b1575d9f362c8b8fdd65bd2909ac29ad85189cbcc2d2bb7b79bae55.ttf.png)
+##### HeptaSlab_200ExtraLight
+![HeptaSlab_200ExtraLight](./HeptaSlab_200ExtraLight.ttf.png)
 
-##### HeptaSlab_Light300
-![HeptaSlab_Light300](./4cd4b89cf596ab747187626051fcb2da9f1ee5facedc163666b009c58d2e6a4a.ttf.png)
+##### HeptaSlab_300Light
+![HeptaSlab_300Light](./HeptaSlab_300Light.ttf.png)
 
-##### HeptaSlab_Regular400
-![HeptaSlab_Regular400](./fd8aa078be565bf9944c3c9a7158b16836fdcd409b6df1377b7ce805078acf7f.ttf.png)
+##### HeptaSlab_400Regular
+![HeptaSlab_400Regular](./HeptaSlab_400Regular.ttf.png)
 
-##### HeptaSlab_Medium500
-![HeptaSlab_Medium500](./7d62a8746b071e53a6b32f2f3a0052555f9d40c47fecd5bd70697f632af7b585.ttf.png)
+##### HeptaSlab_500Medium
+![HeptaSlab_500Medium](./HeptaSlab_500Medium.ttf.png)
 
-##### HeptaSlab_SemiBold600
-![HeptaSlab_SemiBold600](./5b2cd08d92feb50e4548237182dede8320631fffad112e55ac8ffec9bd254dbc.ttf.png)
+##### HeptaSlab_600SemiBold
+![HeptaSlab_600SemiBold](./HeptaSlab_600SemiBold.ttf.png)
 
-##### HeptaSlab_Bold700
-![HeptaSlab_Bold700](./c732dc9ed4d5762dd9391ce2ed11a31606c9ec3305bef745bce6d06bdb2403df.ttf.png)
+##### HeptaSlab_700Bold
+![HeptaSlab_700Bold](./HeptaSlab_700Bold.ttf.png)
 
-##### HeptaSlab_ExtraBold800
-![HeptaSlab_ExtraBold800](./d4ba935b82b68baaeb5bc719f5132fb28f94a27979e65e4ad25c5ff85d02303f.ttf.png)
+##### HeptaSlab_800ExtraBold
+![HeptaSlab_800ExtraBold](./HeptaSlab_800ExtraBold.ttf.png)
 
-##### HeptaSlab_Black900
-![HeptaSlab_Black900](./bf562116fb32949fa7d908466470e1c6d03ae7bb83023d1428527ecec91d9201.ttf.png)
+##### HeptaSlab_900Black
+![HeptaSlab_900Black](./HeptaSlab_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -171,7 +169,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/hepta-slab)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

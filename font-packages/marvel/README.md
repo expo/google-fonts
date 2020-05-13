@@ -7,18 +7,16 @@
 
 This package lets you use the [**Marvel**](https://fonts.google.com/specimen/Marvel) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Marvel
 
 ![Marvel](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Marvel_Regular400`
-- `Marvel_Regular400_Italic`
-- `Marvel_Bold700`
-- `Marvel_Bold700_Italic`
+- `Marvel_400Regular`
+- `Marvel_400Regular_Italic`
+- `Marvel_700Bold`
+- `Marvel_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Marvel_Regular400,
-  Marvel_Regular400_Italic,
-  Marvel_Bold700,
-  Marvel_Bold700_Italic,
   useFonts,
+  Marvel_400Regular,
+  Marvel_400Regular_Italic,
+  Marvel_700Bold,
+  Marvel_700Bold_Italic,
 } from '@expo-google-fonts/marvel';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Marvel_Regular400,
-    Marvel_Regular400_Italic,
-    Marvel_Bold700,
-    Marvel_Bold700_Italic,
+    Marvel_400Regular,
+    Marvel_400Regular_Italic,
+    Marvel_700Bold,
+    Marvel_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Marvel_Regular400' }}>
-          Marvel_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Marvel_400Regular' }}>
+          Marvel_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Marvel_Regular400_Italic' }}>
-          Marvel_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Marvel_400Regular_Italic' }}>
+          Marvel_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Marvel_Bold700' }}>
-          Marvel_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Marvel_700Bold' }}>
+          Marvel_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Marvel_Bold700_Italic' }}>
-          Marvel_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Marvel_700Bold_Italic' }}>
+          Marvel_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Marvel_Regular400
-![Marvel_Regular400](./3762fad5facc07dfebad111a683192dbddb8dc02a4a43406d2c79a4303b11b95.ttf.png)
+##### Marvel_400Regular
+![Marvel_400Regular](./Marvel_400Regular.ttf.png)
 
-##### Marvel_Regular400_Italic
-![Marvel_Regular400_Italic](./aaf0a4ec8425cfad4c7d8c41f37da8d7de878baf6fe877de46e9bb6a21afa443.ttf.png)
+##### Marvel_400Regular_Italic
+![Marvel_400Regular_Italic](./Marvel_400Regular_Italic.ttf.png)
 
-##### Marvel_Bold700
-![Marvel_Bold700](./84edf56bb5528f4a5a646cc54e1df7f8b8f0acfcab08ba176e2140d05e3576dc.ttf.png)
+##### Marvel_700Bold
+![Marvel_700Bold](./Marvel_700Bold.ttf.png)
 
-##### Marvel_Bold700_Italic
-![Marvel_Bold700_Italic](./3b41fd323f8f2702af4eac210e3a7aaccc576298b28256bf11c98cba436c90c9.ttf.png)
+##### Marvel_700Bold_Italic
+![Marvel_700Bold_Italic](./Marvel_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/marvel)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

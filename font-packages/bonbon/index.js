@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bonbon';
-export const __fontFamilyVersion__ = 7;
-
-export const Bonbon_Regular400 = require('./a7c2ebdfc96584f15448c9196a29a7983cad1097756e748e6d3d89db0cab6796.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Bonbon_400Regular = require('./Bonbon_400Regular.ttf');

@@ -7,32 +7,30 @@
 
 This package lets you use the [**Grenze**](https://fonts.google.com/specimen/Grenze) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Grenze
 
 ![Grenze](./font-family.png)
 
 This font family contains [18 styles](#-gallery).
 
-- `Grenze_Thin100`
-- `Grenze_Thin100_Italic`
-- `Grenze_ExtraLight200`
-- `Grenze_ExtraLight200_Italic`
-- `Grenze_Light300`
-- `Grenze_Light300_Italic`
-- `Grenze_Regular400`
-- `Grenze_Regular400_Italic`
-- `Grenze_Medium500`
-- `Grenze_Medium500_Italic`
-- `Grenze_SemiBold600`
-- `Grenze_SemiBold600_Italic`
-- `Grenze_Bold700`
-- `Grenze_Bold700_Italic`
-- `Grenze_ExtraBold800`
-- `Grenze_ExtraBold800_Italic`
-- `Grenze_Black900`
-- `Grenze_Black900_Italic`
+- `Grenze_100Thin`
+- `Grenze_100Thin_Italic`
+- `Grenze_200ExtraLight`
+- `Grenze_200ExtraLight_Italic`
+- `Grenze_300Light`
+- `Grenze_300Light_Italic`
+- `Grenze_400Regular`
+- `Grenze_400Regular_Italic`
+- `Grenze_500Medium`
+- `Grenze_500Medium_Italic`
+- `Grenze_600SemiBold`
+- `Grenze_600SemiBold_Italic`
+- `Grenze_700Bold`
+- `Grenze_700Bold_Italic`
+- `Grenze_800ExtraBold`
+- `Grenze_800ExtraBold_Italic`
+- `Grenze_900Black`
+- `Grenze_900Black_Italic`
 
 ## Usage
 
@@ -48,47 +46,47 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Grenze_Thin100,
-  Grenze_Thin100_Italic,
-  Grenze_ExtraLight200,
-  Grenze_ExtraLight200_Italic,
-  Grenze_Light300,
-  Grenze_Light300_Italic,
-  Grenze_Regular400,
-  Grenze_Regular400_Italic,
-  Grenze_Medium500,
-  Grenze_Medium500_Italic,
-  Grenze_SemiBold600,
-  Grenze_SemiBold600_Italic,
-  Grenze_Bold700,
-  Grenze_Bold700_Italic,
-  Grenze_ExtraBold800,
-  Grenze_ExtraBold800_Italic,
-  Grenze_Black900,
-  Grenze_Black900_Italic,
   useFonts,
+  Grenze_100Thin,
+  Grenze_100Thin_Italic,
+  Grenze_200ExtraLight,
+  Grenze_200ExtraLight_Italic,
+  Grenze_300Light,
+  Grenze_300Light_Italic,
+  Grenze_400Regular,
+  Grenze_400Regular_Italic,
+  Grenze_500Medium,
+  Grenze_500Medium_Italic,
+  Grenze_600SemiBold,
+  Grenze_600SemiBold_Italic,
+  Grenze_700Bold,
+  Grenze_700Bold_Italic,
+  Grenze_800ExtraBold,
+  Grenze_800ExtraBold_Italic,
+  Grenze_900Black,
+  Grenze_900Black_Italic,
 } from '@expo-google-fonts/grenze';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Grenze_Thin100,
-    Grenze_Thin100_Italic,
-    Grenze_ExtraLight200,
-    Grenze_ExtraLight200_Italic,
-    Grenze_Light300,
-    Grenze_Light300_Italic,
-    Grenze_Regular400,
-    Grenze_Regular400_Italic,
-    Grenze_Medium500,
-    Grenze_Medium500_Italic,
-    Grenze_SemiBold600,
-    Grenze_SemiBold600_Italic,
-    Grenze_Bold700,
-    Grenze_Bold700_Italic,
-    Grenze_ExtraBold800,
-    Grenze_ExtraBold800_Italic,
-    Grenze_Black900,
-    Grenze_Black900_Italic,
+    Grenze_100Thin,
+    Grenze_100Thin_Italic,
+    Grenze_200ExtraLight,
+    Grenze_200ExtraLight_Italic,
+    Grenze_300Light,
+    Grenze_300Light_Italic,
+    Grenze_400Regular,
+    Grenze_400Regular_Italic,
+    Grenze_500Medium,
+    Grenze_500Medium_Italic,
+    Grenze_600SemiBold,
+    Grenze_600SemiBold_Italic,
+    Grenze_700Bold,
+    Grenze_700Bold_Italic,
+    Grenze_800ExtraBold,
+    Grenze_800ExtraBold_Italic,
+    Grenze_900Black,
+    Grenze_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -99,76 +97,76 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_Thin100' }}>
-          Grenze_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_100Thin' }}>
+          Grenze_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_Thin100_Italic' }}>
-          Grenze_Thin100_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_100Thin_Italic' }}>
+          Grenze_100Thin_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_ExtraLight200' }}>
-          Grenze_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_200ExtraLight' }}>
+          Grenze_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_ExtraLight200_Italic' }}>
-          Grenze_ExtraLight200_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_200ExtraLight_Italic' }}>
+          Grenze_200ExtraLight_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_Light300' }}>
-          Grenze_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_300Light' }}>
+          Grenze_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_Light300_Italic' }}>
-          Grenze_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_300Light_Italic' }}>
+          Grenze_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_Regular400' }}>
-          Grenze_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_400Regular' }}>
+          Grenze_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_Regular400_Italic' }}>
-          Grenze_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_400Regular_Italic' }}>
+          Grenze_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_Medium500' }}>
-          Grenze_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_500Medium' }}>
+          Grenze_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_Medium500_Italic' }}>
-          Grenze_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_500Medium_Italic' }}>
+          Grenze_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_SemiBold600' }}>
-          Grenze_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_600SemiBold' }}>
+          Grenze_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_SemiBold600_Italic' }}>
-          Grenze_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_600SemiBold_Italic' }}>
+          Grenze_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_Bold700' }}>
-          Grenze_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_700Bold' }}>
+          Grenze_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_Bold700_Italic' }}>
-          Grenze_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_700Bold_Italic' }}>
+          Grenze_700Bold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_ExtraBold800' }}>
-          Grenze_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_800ExtraBold' }}>
+          Grenze_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_ExtraBold800_Italic' }}>
-          Grenze_ExtraBold800_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_800ExtraBold_Italic' }}>
+          Grenze_800ExtraBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_Black900' }}>
-          Grenze_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_900Black' }}>
+          Grenze_900Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_Black900_Italic' }}>
-          Grenze_Black900_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Grenze_900Black_Italic' }}>
+          Grenze_900Black_Italic
         </Text>
       </View>
     );
@@ -179,59 +177,59 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Grenze_Thin100
-![Grenze_Thin100](./0990a8c493d15ce4bc040461ac83778fbd658ffb4e5470ded379c5d932c0ad64.ttf.png)
+##### Grenze_100Thin
+![Grenze_100Thin](./Grenze_100Thin.ttf.png)
 
-##### Grenze_Thin100_Italic
-![Grenze_Thin100_Italic](./b76ab96616d0138d6376f8da6777f4dcd53174ecd6cc3d105f926d138412156a.ttf.png)
+##### Grenze_100Thin_Italic
+![Grenze_100Thin_Italic](./Grenze_100Thin_Italic.ttf.png)
 
-##### Grenze_ExtraLight200
-![Grenze_ExtraLight200](./ea5652640e0126eca9dd8ec9af72afd38c03f0608cf8066ba85e8d3cc84b72f5.ttf.png)
+##### Grenze_200ExtraLight
+![Grenze_200ExtraLight](./Grenze_200ExtraLight.ttf.png)
 
-##### Grenze_ExtraLight200_Italic
-![Grenze_ExtraLight200_Italic](./62177aecb9fc857767b77f93de0e28aaff0aa14d6743fcb2e074b3b17d10ed6a.ttf.png)
+##### Grenze_200ExtraLight_Italic
+![Grenze_200ExtraLight_Italic](./Grenze_200ExtraLight_Italic.ttf.png)
 
-##### Grenze_Light300
-![Grenze_Light300](./306db261f5db582fb834c4d4bd749cd7bbd220410f22c0f91e9da3906fea195a.ttf.png)
+##### Grenze_300Light
+![Grenze_300Light](./Grenze_300Light.ttf.png)
 
-##### Grenze_Light300_Italic
-![Grenze_Light300_Italic](./8328aa2d7be6cb51506689c284e11d44e22a65cc87f444619d3e74029b3c6b4d.ttf.png)
+##### Grenze_300Light_Italic
+![Grenze_300Light_Italic](./Grenze_300Light_Italic.ttf.png)
 
-##### Grenze_Regular400
-![Grenze_Regular400](./c881a6bd46175e518a6059d0c5fd2fef4f0e1ad8433e903ab0df21ac113772f6.ttf.png)
+##### Grenze_400Regular
+![Grenze_400Regular](./Grenze_400Regular.ttf.png)
 
-##### Grenze_Regular400_Italic
-![Grenze_Regular400_Italic](./396353d483f4c64a4c320999b4a8ea7bd7d3fc2f3d1126d31dd62c2bd7474f60.ttf.png)
+##### Grenze_400Regular_Italic
+![Grenze_400Regular_Italic](./Grenze_400Regular_Italic.ttf.png)
 
-##### Grenze_Medium500
-![Grenze_Medium500](./7685525db63573b7d2818041934dd2608e56fd7eaf5af7bcbb29f02b9cd5f948.ttf.png)
+##### Grenze_500Medium
+![Grenze_500Medium](./Grenze_500Medium.ttf.png)
 
-##### Grenze_Medium500_Italic
-![Grenze_Medium500_Italic](./da991020ed06646693057a5dfc4dae9bed270609081f0e2167ff1b6d6893483a.ttf.png)
+##### Grenze_500Medium_Italic
+![Grenze_500Medium_Italic](./Grenze_500Medium_Italic.ttf.png)
 
-##### Grenze_SemiBold600
-![Grenze_SemiBold600](./c4b885545038f7f41fa22671f8e1d9becd9672ffe403f1267a77e244c2ebbe7f.ttf.png)
+##### Grenze_600SemiBold
+![Grenze_600SemiBold](./Grenze_600SemiBold.ttf.png)
 
-##### Grenze_SemiBold600_Italic
-![Grenze_SemiBold600_Italic](./e85fde935308bfd3bcdc33373ab0a7296b4c852c9689504d830dd8a2c722828c.ttf.png)
+##### Grenze_600SemiBold_Italic
+![Grenze_600SemiBold_Italic](./Grenze_600SemiBold_Italic.ttf.png)
 
-##### Grenze_Bold700
-![Grenze_Bold700](./59bbcbbac7dbc3b0875ff2e1f9b73917427553fe9494ce5072c9408e4805693c.ttf.png)
+##### Grenze_700Bold
+![Grenze_700Bold](./Grenze_700Bold.ttf.png)
 
-##### Grenze_Bold700_Italic
-![Grenze_Bold700_Italic](./b408bf29942d61415edcf80e8d329a6c9d54eedf1b2a0be057164e93cda0029a.ttf.png)
+##### Grenze_700Bold_Italic
+![Grenze_700Bold_Italic](./Grenze_700Bold_Italic.ttf.png)
 
-##### Grenze_ExtraBold800
-![Grenze_ExtraBold800](./10f31373e1d786f62febeb25a546f803218359aefe0c2e9d0247008665f54a92.ttf.png)
+##### Grenze_800ExtraBold
+![Grenze_800ExtraBold](./Grenze_800ExtraBold.ttf.png)
 
-##### Grenze_ExtraBold800_Italic
-![Grenze_ExtraBold800_Italic](./6c6bbecf82467b9cbc2bc5373b2132d2a72fc1ab1d19beab9247d96b9aeaf437.ttf.png)
+##### Grenze_800ExtraBold_Italic
+![Grenze_800ExtraBold_Italic](./Grenze_800ExtraBold_Italic.ttf.png)
 
-##### Grenze_Black900
-![Grenze_Black900](./e99c2c3ccee2de60f0fa0836977cfb7f1f5db667eaba9c59b205a9860377cb15.ttf.png)
+##### Grenze_900Black
+![Grenze_900Black](./Grenze_900Black.ttf.png)
 
-##### Grenze_Black900_Italic
-![Grenze_Black900_Italic](./26ebaa2c75db3de90f21f701605ab5e085a7f4c1f23fcb5235a754a34ef4defa.ttf.png)
+##### Grenze_900Black_Italic
+![Grenze_900Black_Italic](./Grenze_900Black_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -261,7 +259,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/grenze)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

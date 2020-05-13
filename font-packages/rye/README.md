@@ -7,15 +7,13 @@
 
 This package lets you use the [**Rye**](https://fonts.google.com/specimen/Rye) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Rye
 
 ![Rye](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Rye_Regular400`
+- `Rye_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Rye_Regular400, useFonts } from '@expo-google-fonts/rye';
+import { useFonts, Rye_400Regular } from '@expo-google-fonts/rye';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Rye_Regular400,
+    Rye_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rye_Regular400' }}>
-          Rye_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rye_400Regular' }}>
+          Rye_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rye_Regular400
-![Rye_Regular400](./925017b50d3328d30961faf597e0912d32371e48a76c36b3d89fa06e538003bc.ttf.png)
+##### Rye_400Regular
+![Rye_400Regular](./Rye_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/rye)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

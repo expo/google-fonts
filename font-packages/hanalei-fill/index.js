@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Hanalei Fill';
-export const __fontFamilyVersion__ = 5;
-
-export const HanaleiFill_Regular400 = require('./8a762eb869da8deb93071d72d31cc3f5d6ab83cbeff8da397a582e507aa65465.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const HanaleiFill_400Regular = require('./HanaleiFill_400Regular.ttf');

@@ -7,17 +7,15 @@
 
 This package lets you use the [**Lekton**](https://fonts.google.com/specimen/Lekton) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Lekton
 
 ![Lekton](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `Lekton_Regular400`
-- `Lekton_Regular400_Italic`
-- `Lekton_Bold700`
+- `Lekton_400Regular`
+- `Lekton_400Regular_Italic`
+- `Lekton_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Lekton_Regular400,
-  Lekton_Regular400_Italic,
-  Lekton_Bold700,
   useFonts,
+  Lekton_400Regular,
+  Lekton_400Regular_Italic,
+  Lekton_700Bold,
 } from '@expo-google-fonts/lekton';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Lekton_Regular400,
-    Lekton_Regular400_Italic,
-    Lekton_Bold700,
+    Lekton_400Regular,
+    Lekton_400Regular_Italic,
+    Lekton_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lekton_Regular400' }}>
-          Lekton_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lekton_400Regular' }}>
+          Lekton_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lekton_Regular400_Italic' }}>
-          Lekton_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lekton_400Regular_Italic' }}>
+          Lekton_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lekton_Bold700' }}>
-          Lekton_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lekton_700Bold' }}>
+          Lekton_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Lekton_Regular400
-![Lekton_Regular400](./919f93dff330901c348455426b31bc6ad6270b29b4527387ab2f16ae1a8b1b37.ttf.png)
+##### Lekton_400Regular
+![Lekton_400Regular](./Lekton_400Regular.ttf.png)
 
-##### Lekton_Regular400_Italic
-![Lekton_Regular400_Italic](./5bdc665e2f574f3cde6b0db13ba296956f6736f4277decf03a015151ca063072.ttf.png)
+##### Lekton_400Regular_Italic
+![Lekton_400Regular_Italic](./Lekton_400Regular_Italic.ttf.png)
 
-##### Lekton_Bold700
-![Lekton_Bold700](./34d7bf522a1cd2ddb84bd57082d9651c5155029004a5a66c713dec61c865ab08.ttf.png)
+##### Lekton_700Bold
+![Lekton_700Bold](./Lekton_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/lekton)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

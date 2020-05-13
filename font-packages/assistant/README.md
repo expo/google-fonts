@@ -7,20 +7,18 @@
 
 This package lets you use the [**Assistant**](https://fonts.google.com/specimen/Assistant) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Assistant
 
 ![Assistant](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `Assistant_ExtraLight200`
-- `Assistant_Light300`
-- `Assistant_Regular400`
-- `Assistant_SemiBold600`
-- `Assistant_Bold700`
-- `Assistant_ExtraBold800`
+- `Assistant_200ExtraLight`
+- `Assistant_300Light`
+- `Assistant_400Regular`
+- `Assistant_600SemiBold`
+- `Assistant_700Bold`
+- `Assistant_800ExtraBold`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Assistant_ExtraLight200,
-  Assistant_Light300,
-  Assistant_Regular400,
-  Assistant_SemiBold600,
-  Assistant_Bold700,
-  Assistant_ExtraBold800,
   useFonts,
+  Assistant_200ExtraLight,
+  Assistant_300Light,
+  Assistant_400Regular,
+  Assistant_600SemiBold,
+  Assistant_700Bold,
+  Assistant_800ExtraBold,
 } from '@expo-google-fonts/assistant';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Assistant_ExtraLight200,
-    Assistant_Light300,
-    Assistant_Regular400,
-    Assistant_SemiBold600,
-    Assistant_Bold700,
-    Assistant_ExtraBold800,
+    Assistant_200ExtraLight,
+    Assistant_300Light,
+    Assistant_400Regular,
+    Assistant_600SemiBold,
+    Assistant_700Bold,
+    Assistant_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -63,28 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_ExtraLight200' }}>
-          Assistant_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_200ExtraLight' }}>
+          Assistant_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_Light300' }}>
-          Assistant_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_300Light' }}>
+          Assistant_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_Regular400' }}>
-          Assistant_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_400Regular' }}>
+          Assistant_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_SemiBold600' }}>
-          Assistant_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_600SemiBold' }}>
+          Assistant_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_Bold700' }}>
-          Assistant_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_700Bold' }}>
+          Assistant_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_ExtraBold800' }}>
-          Assistant_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_800ExtraBold' }}>
+          Assistant_800ExtraBold
         </Text>
       </View>
     );
@@ -95,23 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Assistant_ExtraLight200
-![Assistant_ExtraLight200](./6f4c276bf1e4d52183015128074de4702a86fc31cce04f575a8ebef54a077c78.ttf.png)
+##### Assistant_200ExtraLight
+![Assistant_200ExtraLight](./Assistant_200ExtraLight.ttf.png)
 
-##### Assistant_Light300
-![Assistant_Light300](./ad7ba792736448061fddf24806abe616e89d7a21a00d169ac4bf95db35ffe9cc.ttf.png)
+##### Assistant_300Light
+![Assistant_300Light](./Assistant_300Light.ttf.png)
 
-##### Assistant_Regular400
-![Assistant_Regular400](./1ffb8d00a2bd6ab725bb34dc8eaf61737481f6b285988332e4f6a4b60279dbde.ttf.png)
+##### Assistant_400Regular
+![Assistant_400Regular](./Assistant_400Regular.ttf.png)
 
-##### Assistant_SemiBold600
-![Assistant_SemiBold600](./1dc8095e8dddae977007770ce433f8ed1e374d0a83d7330ecea3b335109a4985.ttf.png)
+##### Assistant_600SemiBold
+![Assistant_600SemiBold](./Assistant_600SemiBold.ttf.png)
 
-##### Assistant_Bold700
-![Assistant_Bold700](./81008b85f8a91125a8efe85a353982fe1b825def9ef33eed881b709a6debf250.ttf.png)
+##### Assistant_700Bold
+![Assistant_700Bold](./Assistant_700Bold.ttf.png)
 
-##### Assistant_ExtraBold800
-![Assistant_ExtraBold800](./a7370c1c3e5649abcfa6f44475eed601eb070ab934a708081b87627827d5463a.ttf.png)
+##### Assistant_800ExtraBold
+![Assistant_800ExtraBold](./Assistant_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -141,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/assistant)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

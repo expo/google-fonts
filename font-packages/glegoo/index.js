@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Glegoo';
-export const __fontFamilyVersion__ = 5;
-
-export const Glegoo_Regular400 = require('./91a94e2b397503a978c0e061d4d1f39323e741fd649d6f743538a8d947cc1f13.ttf');
-export const Glegoo_Bold700 = require('./32ba529e1df310b4629e2a4b94b577e8d2b995647f1b0b02b97cbc401c43100c.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Glegoo_400Regular = require('./Glegoo_400Regular.ttf');
+export const Glegoo_700Bold = require('./Glegoo_700Bold.ttf');

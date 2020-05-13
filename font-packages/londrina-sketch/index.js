@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Londrina Sketch';
-export const __fontFamilyVersion__ = 4;
-
-export const LondrinaSketch_Regular400 = require('./f0bd303136aee90e673136b6266fb6b196cc94ef0966d955269deffaecbffacc.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const LondrinaSketch_400Regular = require('./LondrinaSketch_400Regular.ttf');

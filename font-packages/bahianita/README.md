@@ -7,15 +7,13 @@
 
 This package lets you use the [**Bahianita**](https://fonts.google.com/specimen/Bahianita) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Bahianita
 
 ![Bahianita](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Bahianita_Regular400`
+- `Bahianita_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Bahianita_Regular400, useFonts } from '@expo-google-fonts/bahianita';
+import { useFonts, Bahianita_400Regular } from '@expo-google-fonts/bahianita';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Bahianita_Regular400,
+    Bahianita_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Bahianita_Regular400' }}>
-          Bahianita_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Bahianita_400Regular' }}>
+          Bahianita_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Bahianita_Regular400
-![Bahianita_Regular400](./8eae7d3828ad86d4af376a41fb9bd577433f7b9acf6f561f8c3383bf8f37224b.ttf.png)
+##### Bahianita_400Regular
+![Bahianita_400Regular](./Bahianita_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/bahianita)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

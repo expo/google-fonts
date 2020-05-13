@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Arapey';
-export const __fontFamilyVersion__ = 5;
-
-export const Arapey_Regular400 = require('./8d4786e233fac8fe0069ba6efaa828eb2fffef7b1d21a92a6d4f250ae9710415.ttf');
-export const Arapey_Regular400_Italic = require('./10f469eeecd1cca95a1881d5fbd920abff25911a343caf957f7b2a0e3d4de390.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Arapey_400Regular = require('./Arapey_400Regular.ttf');
+export const Arapey_400Regular_Italic = require('./Arapey_400Regular_Italic.ttf');

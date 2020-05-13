@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Montserrat Subrayada';
-export const __fontFamilyVersion__ = 4;
-
-export const MontserratSubrayada_Regular400 = require('./bcf81f50b96cbae5ccbd3337f693c53bbbe2bb5717bb8637eeaf4d5dff5699c4.ttf');
-export const MontserratSubrayada_Bold700 = require('./6a2a4c0ee5aade485aa6bf9a1a43b1ef3fe0aa5dda27e70b0b9abe7625562124.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MontserratSubrayada_400Regular = require('./MontserratSubrayada_400Regular.ttf');
+export const MontserratSubrayada_700Bold = require('./MontserratSubrayada_700Bold.ttf');

@@ -7,21 +7,19 @@
 
 This package lets you use the [**Oxanium**](https://fonts.google.com/specimen/Oxanium) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Oxanium
 
 ![Oxanium](./font-family.png)
 
 This font family contains [7 styles](#-gallery).
 
-- `Oxanium_ExtraLight200`
-- `Oxanium_Light300`
-- `Oxanium_Regular400`
-- `Oxanium_Medium500`
-- `Oxanium_SemiBold600`
-- `Oxanium_Bold700`
-- `Oxanium_ExtraBold800`
+- `Oxanium_200ExtraLight`
+- `Oxanium_300Light`
+- `Oxanium_400Regular`
+- `Oxanium_500Medium`
+- `Oxanium_600SemiBold`
+- `Oxanium_700Bold`
+- `Oxanium_800ExtraBold`
 
 ## Usage
 
@@ -37,25 +35,25 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Oxanium_ExtraLight200,
-  Oxanium_Light300,
-  Oxanium_Regular400,
-  Oxanium_Medium500,
-  Oxanium_SemiBold600,
-  Oxanium_Bold700,
-  Oxanium_ExtraBold800,
   useFonts,
+  Oxanium_200ExtraLight,
+  Oxanium_300Light,
+  Oxanium_400Regular,
+  Oxanium_500Medium,
+  Oxanium_600SemiBold,
+  Oxanium_700Bold,
+  Oxanium_800ExtraBold,
 } from '@expo-google-fonts/oxanium';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Oxanium_ExtraLight200,
-    Oxanium_Light300,
-    Oxanium_Regular400,
-    Oxanium_Medium500,
-    Oxanium_SemiBold600,
-    Oxanium_Bold700,
-    Oxanium_ExtraBold800,
+    Oxanium_200ExtraLight,
+    Oxanium_300Light,
+    Oxanium_400Regular,
+    Oxanium_500Medium,
+    Oxanium_600SemiBold,
+    Oxanium_700Bold,
+    Oxanium_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -66,32 +64,32 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_ExtraLight200' }}>
-          Oxanium_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_200ExtraLight' }}>
+          Oxanium_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_Light300' }}>
-          Oxanium_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_300Light' }}>
+          Oxanium_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_Regular400' }}>
-          Oxanium_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_400Regular' }}>
+          Oxanium_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_Medium500' }}>
-          Oxanium_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_500Medium' }}>
+          Oxanium_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_SemiBold600' }}>
-          Oxanium_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_600SemiBold' }}>
+          Oxanium_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_Bold700' }}>
-          Oxanium_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_700Bold' }}>
+          Oxanium_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_ExtraBold800' }}>
-          Oxanium_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_800ExtraBold' }}>
+          Oxanium_800ExtraBold
         </Text>
       </View>
     );
@@ -102,26 +100,26 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Oxanium_ExtraLight200
-![Oxanium_ExtraLight200](./89daee61e7358c34dbacac977e9f2c92221971ab81d9345af9d294687a538ace.ttf.png)
+##### Oxanium_200ExtraLight
+![Oxanium_200ExtraLight](./Oxanium_200ExtraLight.ttf.png)
 
-##### Oxanium_Light300
-![Oxanium_Light300](./fef895a1cf0e2e0ea02299a10df50702cff292d28fd9fba618f118b9d7f1cc70.ttf.png)
+##### Oxanium_300Light
+![Oxanium_300Light](./Oxanium_300Light.ttf.png)
 
-##### Oxanium_Regular400
-![Oxanium_Regular400](./09fedc2fbf2c81af9711328c3b1fe1bf632512d8714d254cafe53fd7c9e23ebe.ttf.png)
+##### Oxanium_400Regular
+![Oxanium_400Regular](./Oxanium_400Regular.ttf.png)
 
-##### Oxanium_Medium500
-![Oxanium_Medium500](./f15be0f59920c03bbe89ad1bb66c9df4b660acb2c329f30e1d75e846e10e30d2.ttf.png)
+##### Oxanium_500Medium
+![Oxanium_500Medium](./Oxanium_500Medium.ttf.png)
 
-##### Oxanium_SemiBold600
-![Oxanium_SemiBold600](./c3a19352e2ab05f91352b26d6eeef4d8b57575350956c0a8d99d7824bfea43c6.ttf.png)
+##### Oxanium_600SemiBold
+![Oxanium_600SemiBold](./Oxanium_600SemiBold.ttf.png)
 
-##### Oxanium_Bold700
-![Oxanium_Bold700](./02e5724444f1a7053fc3043649b8c5b76a2f698757d9c678cc2e80dbaa8a221a.ttf.png)
+##### Oxanium_700Bold
+![Oxanium_700Bold](./Oxanium_700Bold.ttf.png)
 
-##### Oxanium_ExtraBold800
-![Oxanium_ExtraBold800](./1d805023212166271a84af73c8e13073ce5a29746483c5fa3ae9941eaa7577c8.ttf.png)
+##### Oxanium_800ExtraBold
+![Oxanium_800ExtraBold](./Oxanium_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -151,7 +149,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/oxanium)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

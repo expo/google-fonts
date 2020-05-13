@@ -7,16 +7,14 @@
 
 This package lets you use the [**Sura**](https://fonts.google.com/specimen/Sura) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sura
 
 ![Sura](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Sura_Regular400`
-- `Sura_Bold700`
+- `Sura_400Regular`
+- `Sura_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Sura_Regular400, Sura_Bold700, useFonts } from '@expo-google-fonts/sura';
+import { useFonts, Sura_400Regular, Sura_700Bold } from '@expo-google-fonts/sura';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Sura_Regular400,
-    Sura_Bold700,
+    Sura_400Regular,
+    Sura_700Bold,
   });
 
   let fontSize = 24;
@@ -47,11 +45,11 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sura_Regular400' }}>
-          Sura_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sura_400Regular' }}>
+          Sura_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sura_Bold700' }}>Sura_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sura_700Bold' }}>Sura_700Bold</Text>
       </View>
     );
   }
@@ -61,11 +59,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sura_Regular400
-![Sura_Regular400](./701cc1c8fa22221123e6045f90d0db8d42edadf3b831862ce801b57bb14ac1b1.ttf.png)
+##### Sura_400Regular
+![Sura_400Regular](./Sura_400Regular.ttf.png)
 
-##### Sura_Bold700
-![Sura_Bold700](./a88482ddb9067b01125775fc0f780c4b615bc72ad86cbec920ee03b2756d8d90.ttf.png)
+##### Sura_700Bold
+![Sura_700Bold](./Sura_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -95,7 +93,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sura)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

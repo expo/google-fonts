@@ -7,16 +7,14 @@
 
 This package lets you use the [**Elsie Swash Caps**](https://fonts.google.com/specimen/Elsie+Swash+Caps) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Elsie Swash Caps
 
 ![Elsie Swash Caps](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `ElsieSwashCaps_Regular400`
-- `ElsieSwashCaps_Black900`
+- `ElsieSwashCaps_400Regular`
+- `ElsieSwashCaps_900Black`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  ElsieSwashCaps_Regular400,
-  ElsieSwashCaps_Black900,
   useFonts,
+  ElsieSwashCaps_400Regular,
+  ElsieSwashCaps_900Black,
 } from '@expo-google-fonts/elsie-swash-caps';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ElsieSwashCaps_Regular400,
-    ElsieSwashCaps_Black900,
+    ElsieSwashCaps_400Regular,
+    ElsieSwashCaps_900Black,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ElsieSwashCaps_Regular400' }}>
-          ElsieSwashCaps_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ElsieSwashCaps_400Regular' }}>
+          ElsieSwashCaps_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ElsieSwashCaps_Black900' }}>
-          ElsieSwashCaps_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ElsieSwashCaps_900Black' }}>
+          ElsieSwashCaps_900Black
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ElsieSwashCaps_Regular400
-![ElsieSwashCaps_Regular400](./5073c3bee53b70fcf6b284c6882db47468b86bb95077b497007cfecf47b76bdb.ttf.png)
+##### ElsieSwashCaps_400Regular
+![ElsieSwashCaps_400Regular](./ElsieSwashCaps_400Regular.ttf.png)
 
-##### ElsieSwashCaps_Black900
-![ElsieSwashCaps_Black900](./b3610e846ce9868a9ba2c54980426523ef730f265ae56366cb7fa77fd9cdce35.ttf.png)
+##### ElsieSwashCaps_900Black
+![ElsieSwashCaps_900Black](./ElsieSwashCaps_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/elsie-swash-caps)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

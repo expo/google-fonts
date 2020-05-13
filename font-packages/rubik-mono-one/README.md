@@ -7,15 +7,13 @@
 
 This package lets you use the [**Rubik Mono One**](https://fonts.google.com/specimen/Rubik+Mono+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Rubik Mono One
 
 ![Rubik Mono One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `RubikMonoOne_Regular400`
+- `RubikMonoOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { RubikMonoOne_Regular400, useFonts } from '@expo-google-fonts/rubik-mono-one';
+import { useFonts, RubikMonoOne_400Regular } from '@expo-google-fonts/rubik-mono-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    RubikMonoOne_Regular400,
+    RubikMonoOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RubikMonoOne_Regular400' }}>
-          RubikMonoOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RubikMonoOne_400Regular' }}>
+          RubikMonoOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RubikMonoOne_Regular400
-![RubikMonoOne_Regular400](./e7309c62b1b75116a4ed60639db8643e8bf50f3f4ed2f798823b2eb3b1f2a225.ttf.png)
+##### RubikMonoOne_400Regular
+![RubikMonoOne_400Regular](./RubikMonoOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/rubik-mono-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

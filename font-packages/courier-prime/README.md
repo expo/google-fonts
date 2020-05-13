@@ -7,18 +7,16 @@
 
 This package lets you use the [**Courier Prime**](https://fonts.google.com/specimen/Courier+Prime) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Courier Prime
 
 ![Courier Prime](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `CourierPrime_Regular400`
-- `CourierPrime_Regular400_Italic`
-- `CourierPrime_Bold700`
-- `CourierPrime_Bold700_Italic`
+- `CourierPrime_400Regular`
+- `CourierPrime_400Regular_Italic`
+- `CourierPrime_700Bold`
+- `CourierPrime_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  CourierPrime_Regular400,
-  CourierPrime_Regular400_Italic,
-  CourierPrime_Bold700,
-  CourierPrime_Bold700_Italic,
   useFonts,
+  CourierPrime_400Regular,
+  CourierPrime_400Regular_Italic,
+  CourierPrime_700Bold,
+  CourierPrime_700Bold_Italic,
 } from '@expo-google-fonts/courier-prime';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CourierPrime_Regular400,
-    CourierPrime_Regular400_Italic,
-    CourierPrime_Bold700,
-    CourierPrime_Bold700_Italic,
+    CourierPrime_400Regular,
+    CourierPrime_400Regular_Italic,
+    CourierPrime_700Bold,
+    CourierPrime_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CourierPrime_Regular400' }}>
-          CourierPrime_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CourierPrime_400Regular' }}>
+          CourierPrime_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CourierPrime_Regular400_Italic' }}>
-          CourierPrime_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CourierPrime_400Regular_Italic' }}>
+          CourierPrime_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CourierPrime_Bold700' }}>
-          CourierPrime_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CourierPrime_700Bold' }}>
+          CourierPrime_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CourierPrime_Bold700_Italic' }}>
-          CourierPrime_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CourierPrime_700Bold_Italic' }}>
+          CourierPrime_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CourierPrime_Regular400
-![CourierPrime_Regular400](./4ab28865b2644070e548699748855f2d5a34b5bf8adea09607e18d4a7adc8999.ttf.png)
+##### CourierPrime_400Regular
+![CourierPrime_400Regular](./CourierPrime_400Regular.ttf.png)
 
-##### CourierPrime_Regular400_Italic
-![CourierPrime_Regular400_Italic](./7109c63818181b56013b7ced3e5da53d756aab727e6a9786a0c8a58affe4ec23.ttf.png)
+##### CourierPrime_400Regular_Italic
+![CourierPrime_400Regular_Italic](./CourierPrime_400Regular_Italic.ttf.png)
 
-##### CourierPrime_Bold700
-![CourierPrime_Bold700](./385e70d216befbb71f12f5009f1824d235e0f4f2ab653bb0296d5d999afdfd3f.ttf.png)
+##### CourierPrime_700Bold
+![CourierPrime_700Bold](./CourierPrime_700Bold.ttf.png)
 
-##### CourierPrime_Bold700_Italic
-![CourierPrime_Bold700_Italic](./3f61e15019812e414a4dba4f3b4fbdda453e8c4dd18deafacb7c55686cef11a7.ttf.png)
+##### CourierPrime_700Bold_Italic
+![CourierPrime_700Bold_Italic](./CourierPrime_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/courier-prime)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

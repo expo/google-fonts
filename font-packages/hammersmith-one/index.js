@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Hammersmith One';
-export const __fontFamilyVersion__ = 7;
-
-export const HammersmithOne_Regular400 = require('./bbd2dab2dede4753a7b96c8c6c16d212a15b9feda00f0620edbe4cb62e1604fe.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const HammersmithOne_400Regular = require('./HammersmithOne_400Regular.ttf');

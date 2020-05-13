@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Underdog';
-export const __fontFamilyVersion__ = 5;
-
-export const Underdog_Regular400 = require('./02f2cb9d97d94732f703fb34d2332cacf667304208fd69704a5e2ff904dcccff.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Underdog_400Regular = require('./Underdog_400Regular.ttf');

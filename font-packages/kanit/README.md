@@ -7,32 +7,30 @@
 
 This package lets you use the [**Kanit**](https://fonts.google.com/specimen/Kanit) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Kanit
 
 ![Kanit](./font-family.png)
 
 This font family contains [18 styles](#-gallery).
 
-- `Kanit_Thin100`
-- `Kanit_Thin100_Italic`
-- `Kanit_ExtraLight200`
-- `Kanit_ExtraLight200_Italic`
-- `Kanit_Light300`
-- `Kanit_Light300_Italic`
-- `Kanit_Regular400`
-- `Kanit_Regular400_Italic`
-- `Kanit_Medium500`
-- `Kanit_Medium500_Italic`
-- `Kanit_SemiBold600`
-- `Kanit_SemiBold600_Italic`
-- `Kanit_Bold700`
-- `Kanit_Bold700_Italic`
-- `Kanit_ExtraBold800`
-- `Kanit_ExtraBold800_Italic`
-- `Kanit_Black900`
-- `Kanit_Black900_Italic`
+- `Kanit_100Thin`
+- `Kanit_100Thin_Italic`
+- `Kanit_200ExtraLight`
+- `Kanit_200ExtraLight_Italic`
+- `Kanit_300Light`
+- `Kanit_300Light_Italic`
+- `Kanit_400Regular`
+- `Kanit_400Regular_Italic`
+- `Kanit_500Medium`
+- `Kanit_500Medium_Italic`
+- `Kanit_600SemiBold`
+- `Kanit_600SemiBold_Italic`
+- `Kanit_700Bold`
+- `Kanit_700Bold_Italic`
+- `Kanit_800ExtraBold`
+- `Kanit_800ExtraBold_Italic`
+- `Kanit_900Black`
+- `Kanit_900Black_Italic`
 
 ## Usage
 
@@ -48,47 +46,47 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Kanit_Thin100,
-  Kanit_Thin100_Italic,
-  Kanit_ExtraLight200,
-  Kanit_ExtraLight200_Italic,
-  Kanit_Light300,
-  Kanit_Light300_Italic,
-  Kanit_Regular400,
-  Kanit_Regular400_Italic,
-  Kanit_Medium500,
-  Kanit_Medium500_Italic,
-  Kanit_SemiBold600,
-  Kanit_SemiBold600_Italic,
-  Kanit_Bold700,
-  Kanit_Bold700_Italic,
-  Kanit_ExtraBold800,
-  Kanit_ExtraBold800_Italic,
-  Kanit_Black900,
-  Kanit_Black900_Italic,
   useFonts,
+  Kanit_100Thin,
+  Kanit_100Thin_Italic,
+  Kanit_200ExtraLight,
+  Kanit_200ExtraLight_Italic,
+  Kanit_300Light,
+  Kanit_300Light_Italic,
+  Kanit_400Regular,
+  Kanit_400Regular_Italic,
+  Kanit_500Medium,
+  Kanit_500Medium_Italic,
+  Kanit_600SemiBold,
+  Kanit_600SemiBold_Italic,
+  Kanit_700Bold,
+  Kanit_700Bold_Italic,
+  Kanit_800ExtraBold,
+  Kanit_800ExtraBold_Italic,
+  Kanit_900Black,
+  Kanit_900Black_Italic,
 } from '@expo-google-fonts/kanit';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Kanit_Thin100,
-    Kanit_Thin100_Italic,
-    Kanit_ExtraLight200,
-    Kanit_ExtraLight200_Italic,
-    Kanit_Light300,
-    Kanit_Light300_Italic,
-    Kanit_Regular400,
-    Kanit_Regular400_Italic,
-    Kanit_Medium500,
-    Kanit_Medium500_Italic,
-    Kanit_SemiBold600,
-    Kanit_SemiBold600_Italic,
-    Kanit_Bold700,
-    Kanit_Bold700_Italic,
-    Kanit_ExtraBold800,
-    Kanit_ExtraBold800_Italic,
-    Kanit_Black900,
-    Kanit_Black900_Italic,
+    Kanit_100Thin,
+    Kanit_100Thin_Italic,
+    Kanit_200ExtraLight,
+    Kanit_200ExtraLight_Italic,
+    Kanit_300Light,
+    Kanit_300Light_Italic,
+    Kanit_400Regular,
+    Kanit_400Regular_Italic,
+    Kanit_500Medium,
+    Kanit_500Medium_Italic,
+    Kanit_600SemiBold,
+    Kanit_600SemiBold_Italic,
+    Kanit_700Bold,
+    Kanit_700Bold_Italic,
+    Kanit_800ExtraBold,
+    Kanit_800ExtraBold_Italic,
+    Kanit_900Black,
+    Kanit_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -99,76 +97,76 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_Thin100' }}>
-          Kanit_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_100Thin' }}>
+          Kanit_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_Thin100_Italic' }}>
-          Kanit_Thin100_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_100Thin_Italic' }}>
+          Kanit_100Thin_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_ExtraLight200' }}>
-          Kanit_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_200ExtraLight' }}>
+          Kanit_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_ExtraLight200_Italic' }}>
-          Kanit_ExtraLight200_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_200ExtraLight_Italic' }}>
+          Kanit_200ExtraLight_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_Light300' }}>
-          Kanit_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_300Light' }}>
+          Kanit_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_Light300_Italic' }}>
-          Kanit_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_300Light_Italic' }}>
+          Kanit_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_Regular400' }}>
-          Kanit_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_400Regular' }}>
+          Kanit_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_Regular400_Italic' }}>
-          Kanit_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_400Regular_Italic' }}>
+          Kanit_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_Medium500' }}>
-          Kanit_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_500Medium' }}>
+          Kanit_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_Medium500_Italic' }}>
-          Kanit_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_500Medium_Italic' }}>
+          Kanit_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_SemiBold600' }}>
-          Kanit_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_600SemiBold' }}>
+          Kanit_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_SemiBold600_Italic' }}>
-          Kanit_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_600SemiBold_Italic' }}>
+          Kanit_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_Bold700' }}>
-          Kanit_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_700Bold' }}>
+          Kanit_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_Bold700_Italic' }}>
-          Kanit_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_700Bold_Italic' }}>
+          Kanit_700Bold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_ExtraBold800' }}>
-          Kanit_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_800ExtraBold' }}>
+          Kanit_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_ExtraBold800_Italic' }}>
-          Kanit_ExtraBold800_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_800ExtraBold_Italic' }}>
+          Kanit_800ExtraBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_Black900' }}>
-          Kanit_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_900Black' }}>
+          Kanit_900Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_Black900_Italic' }}>
-          Kanit_Black900_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_900Black_Italic' }}>
+          Kanit_900Black_Italic
         </Text>
       </View>
     );
@@ -179,59 +177,59 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Kanit_Thin100
-![Kanit_Thin100](./9ae2534d6b4ec69c677d8c2cf336e1ba3c802e9e316c028c99a8db43ebb63f70.ttf.png)
+##### Kanit_100Thin
+![Kanit_100Thin](./Kanit_100Thin.ttf.png)
 
-##### Kanit_Thin100_Italic
-![Kanit_Thin100_Italic](./07d136289c506d3788ccbfcdf9e764427270b557b1b601d925bf997d002827ff.ttf.png)
+##### Kanit_100Thin_Italic
+![Kanit_100Thin_Italic](./Kanit_100Thin_Italic.ttf.png)
 
-##### Kanit_ExtraLight200
-![Kanit_ExtraLight200](./5a7bd784e91a9a006ec021a5f891a29ac3d867878f998bb1c2d7cdeac7dcb6b2.ttf.png)
+##### Kanit_200ExtraLight
+![Kanit_200ExtraLight](./Kanit_200ExtraLight.ttf.png)
 
-##### Kanit_ExtraLight200_Italic
-![Kanit_ExtraLight200_Italic](./4171f0d7fdb919ffe44d9fb9fcccb08610ca5646f6e1f258e62ebe1b237d40b7.ttf.png)
+##### Kanit_200ExtraLight_Italic
+![Kanit_200ExtraLight_Italic](./Kanit_200ExtraLight_Italic.ttf.png)
 
-##### Kanit_Light300
-![Kanit_Light300](./af3df5dc97d26cade1367d07a411e2ce209ab130f0d0f22c73594f2f9488f231.ttf.png)
+##### Kanit_300Light
+![Kanit_300Light](./Kanit_300Light.ttf.png)
 
-##### Kanit_Light300_Italic
-![Kanit_Light300_Italic](./684fbd0330c7997a7aa6d6b72454ed7dbcaab91d2c54be50157988c9669ff845.ttf.png)
+##### Kanit_300Light_Italic
+![Kanit_300Light_Italic](./Kanit_300Light_Italic.ttf.png)
 
-##### Kanit_Regular400
-![Kanit_Regular400](./7996f53043acf5b6c782024a9c21ccd0bbab714f137cba3f64a2108709df989b.ttf.png)
+##### Kanit_400Regular
+![Kanit_400Regular](./Kanit_400Regular.ttf.png)
 
-##### Kanit_Regular400_Italic
-![Kanit_Regular400_Italic](./9367b66fe82713a777016d80d74986e22f272688d4fa1a7aaa2e8d999d31b0d4.ttf.png)
+##### Kanit_400Regular_Italic
+![Kanit_400Regular_Italic](./Kanit_400Regular_Italic.ttf.png)
 
-##### Kanit_Medium500
-![Kanit_Medium500](./696301b8ecd45c7227d2c5ff3a308bbf701b05428b121fa43523622416c87e12.ttf.png)
+##### Kanit_500Medium
+![Kanit_500Medium](./Kanit_500Medium.ttf.png)
 
-##### Kanit_Medium500_Italic
-![Kanit_Medium500_Italic](./6dd4b995a1dde18512697195090fb6bee9d0f44b124e8deb55d8619204637957.ttf.png)
+##### Kanit_500Medium_Italic
+![Kanit_500Medium_Italic](./Kanit_500Medium_Italic.ttf.png)
 
-##### Kanit_SemiBold600
-![Kanit_SemiBold600](./ccc6cb20ad4fe61a7cd12f4124476933985e5e8c105008bf5549dee46d671fcb.ttf.png)
+##### Kanit_600SemiBold
+![Kanit_600SemiBold](./Kanit_600SemiBold.ttf.png)
 
-##### Kanit_SemiBold600_Italic
-![Kanit_SemiBold600_Italic](./5f81f4c0eae984a4ba6dec488b4b74c2b72db9871111ee3b595473a73be34d5b.ttf.png)
+##### Kanit_600SemiBold_Italic
+![Kanit_600SemiBold_Italic](./Kanit_600SemiBold_Italic.ttf.png)
 
-##### Kanit_Bold700
-![Kanit_Bold700](./9844297d29f6a9c9d97cfa435750cc2933cc8d47b30e9c380e080d665310aaad.ttf.png)
+##### Kanit_700Bold
+![Kanit_700Bold](./Kanit_700Bold.ttf.png)
 
-##### Kanit_Bold700_Italic
-![Kanit_Bold700_Italic](./84a74264e2a1b11040aa80b859501eb498938736938cc12e1838be482ca1681f.ttf.png)
+##### Kanit_700Bold_Italic
+![Kanit_700Bold_Italic](./Kanit_700Bold_Italic.ttf.png)
 
-##### Kanit_ExtraBold800
-![Kanit_ExtraBold800](./ac86afa00dd8b070dc0325ff6ee63daee98cd4004aacce60aab9a9f147d3151e.ttf.png)
+##### Kanit_800ExtraBold
+![Kanit_800ExtraBold](./Kanit_800ExtraBold.ttf.png)
 
-##### Kanit_ExtraBold800_Italic
-![Kanit_ExtraBold800_Italic](./0d3cf6f6f9f8952c9fbffa0fba60279f3b0fee229b846a4ff1d127732642c3c8.ttf.png)
+##### Kanit_800ExtraBold_Italic
+![Kanit_800ExtraBold_Italic](./Kanit_800ExtraBold_Italic.ttf.png)
 
-##### Kanit_Black900
-![Kanit_Black900](./593120b5c1292664ccee5994d9936265b8372449097d70ce0cdc3737408f0c1f.ttf.png)
+##### Kanit_900Black
+![Kanit_900Black](./Kanit_900Black.ttf.png)
 
-##### Kanit_Black900_Italic
-![Kanit_Black900_Italic](./887e5a2586587398cc15672b3f3fef3e35836150f74ff4c8f80a34895effe69a.ttf.png)
+##### Kanit_900Black_Italic
+![Kanit_900Black_Italic](./Kanit_900Black_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -261,7 +259,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/kanit)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

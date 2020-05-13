@@ -7,15 +7,13 @@
 
 This package lets you use the [**Molle**](https://fonts.google.com/specimen/Molle) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Molle
 
 ![Molle](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Molle_Regular400_Italic`
+- `Molle_400Regular_Italic`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Molle_Regular400_Italic, useFonts } from '@expo-google-fonts/molle';
+import { useFonts, Molle_400Regular_Italic } from '@expo-google-fonts/molle';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Molle_Regular400_Italic,
+    Molle_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Molle_Regular400_Italic' }}>
-          Molle_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Molle_400Regular_Italic' }}>
+          Molle_400Regular_Italic
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Molle_Regular400_Italic
-![Molle_Regular400_Italic](./d081c5d8d7d19361eaa68e5c05b211b519fa2d27ca94a3ec76da0a39f880acb9.ttf.png)
+##### Molle_400Regular_Italic
+![Molle_400Regular_Italic](./Molle_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/molle)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

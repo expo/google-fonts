@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Butterfly Kids';
-export const __fontFamilyVersion__ = 4;
-
-export const ButterflyKids_Regular400 = require('./3e78c92335db0b2820b46df2d4a84c41e8690af1bac099b4a552e36736643b61.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ButterflyKids_400Regular = require('./ButterflyKids_400Regular.ttf');

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Marcellus';
-export const __fontFamilyVersion__ = 4;
-
-export const Marcellus_Regular400 = require('./da6549c2bc3ceec2f36d4caac4758fda610e67ff654b4c90304b83b55ee36084.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Marcellus_400Regular = require('./Marcellus_400Regular.ttf');

@@ -7,18 +7,16 @@
 
 This package lets you use the [**Overpass Mono**](https://fonts.google.com/specimen/Overpass+Mono) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Overpass Mono
 
 ![Overpass Mono](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `OverpassMono_Light300`
-- `OverpassMono_Regular400`
-- `OverpassMono_SemiBold600`
-- `OverpassMono_Bold700`
+- `OverpassMono_300Light`
+- `OverpassMono_400Regular`
+- `OverpassMono_600SemiBold`
+- `OverpassMono_700Bold`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  OverpassMono_Light300,
-  OverpassMono_Regular400,
-  OverpassMono_SemiBold600,
-  OverpassMono_Bold700,
   useFonts,
+  OverpassMono_300Light,
+  OverpassMono_400Regular,
+  OverpassMono_600SemiBold,
+  OverpassMono_700Bold,
 } from '@expo-google-fonts/overpass-mono';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    OverpassMono_Light300,
-    OverpassMono_Regular400,
-    OverpassMono_SemiBold600,
-    OverpassMono_Bold700,
+    OverpassMono_300Light,
+    OverpassMono_400Regular,
+    OverpassMono_600SemiBold,
+    OverpassMono_700Bold,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OverpassMono_Light300' }}>
-          OverpassMono_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'OverpassMono_300Light' }}>
+          OverpassMono_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OverpassMono_Regular400' }}>
-          OverpassMono_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'OverpassMono_400Regular' }}>
+          OverpassMono_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OverpassMono_SemiBold600' }}>
-          OverpassMono_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'OverpassMono_600SemiBold' }}>
+          OverpassMono_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OverpassMono_Bold700' }}>
-          OverpassMono_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'OverpassMono_700Bold' }}>
+          OverpassMono_700Bold
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### OverpassMono_Light300
-![OverpassMono_Light300](./a46cc06eb5b5001bdf1404b0e24fb82ee14159aca202af7094984ff4d48896dd.ttf.png)
+##### OverpassMono_300Light
+![OverpassMono_300Light](./OverpassMono_300Light.ttf.png)
 
-##### OverpassMono_Regular400
-![OverpassMono_Regular400](./d3a8c0a4613ebae3d21471198e12e57aa70e9f051f7592e3942953e2c36bd190.ttf.png)
+##### OverpassMono_400Regular
+![OverpassMono_400Regular](./OverpassMono_400Regular.ttf.png)
 
-##### OverpassMono_SemiBold600
-![OverpassMono_SemiBold600](./f6b8f8180ef4c0f650402aa53effdd61f2d9771c4973d07f722d14ebd60e59da.ttf.png)
+##### OverpassMono_600SemiBold
+![OverpassMono_600SemiBold](./OverpassMono_600SemiBold.ttf.png)
 
-##### OverpassMono_Bold700
-![OverpassMono_Bold700](./d8f645bd2f708d8127ab1d3078ae22195543fbe52abee9362a8ed5a980cb1648.ttf.png)
+##### OverpassMono_700Bold
+![OverpassMono_700Bold](./OverpassMono_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/overpass-mono)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

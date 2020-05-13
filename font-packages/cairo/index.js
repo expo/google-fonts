@@ -4,12 +4,10 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Cairo';
-export const __fontFamilyVersion__ = 1;
-
-export const Cairo_ExtraLight200 = require('./4f4138b4fc3c1369eee1151ad813f76e1b371364feb318c2dfed606c6c7a98dc.ttf');
-export const Cairo_Light300 = require('./22d57a326952ad111119348fad278153f66b456e3f1e1b3eba074a4dc167f96e.ttf');
-export const Cairo_Regular400 = require('./1537c4e5a58de46dea37716791ce13157250bce598772e19adbf07abdaa2f5c0.ttf');
-export const Cairo_SemiBold600 = require('./1f5b7f284695e2fd50ce750d2a479bcbdc7f701be3c33893f0773866193c8fba.ttf');
-export const Cairo_Bold700 = require('./56f0547834a0a361e7216604988268770c085dcbd6f3241778f613b02d6db926.ttf');
-export const Cairo_Black900 = require('./4cf0e64d282c925bd689d2224fc9f34075e4586dbbebdbfa585ebab25a42059c.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Cairo_200ExtraLight = require('./Cairo_200ExtraLight.ttf');
+export const Cairo_300Light = require('./Cairo_300Light.ttf');
+export const Cairo_400Regular = require('./Cairo_400Regular.ttf');
+export const Cairo_600SemiBold = require('./Cairo_600SemiBold.ttf');
+export const Cairo_700Bold = require('./Cairo_700Bold.ttf');
+export const Cairo_900Black = require('./Cairo_900Black.ttf');

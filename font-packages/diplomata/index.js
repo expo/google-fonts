@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Diplomata';
-export const __fontFamilyVersion__ = 8;
-
-export const Diplomata_Regular400 = require('./ff25ccc70ef0385bf72a71864293132375bd427ee6e3f974f22a732523948936.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Diplomata_400Regular = require('./Diplomata_400Regular.ttf');

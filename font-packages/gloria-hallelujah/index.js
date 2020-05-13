@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Gloria Hallelujah';
-export const __fontFamilyVersion__ = 8;
-
-export const GloriaHallelujah_Regular400 = require('./0ea0610b2d462be9ddfd55db487fd670e7b0855857d198cc6293f623adc66ff8.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const GloriaHallelujah_400Regular = require('./GloriaHallelujah_400Regular.ttf');

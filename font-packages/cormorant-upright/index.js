@@ -4,11 +4,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Cormorant Upright';
-export const __fontFamilyVersion__ = 3;
-
-export const CormorantUpright_Light300 = require('./29c9067ec4aab7f8532dfad801cd638d35f8738903ec7c40f80069030e231431.ttf');
-export const CormorantUpright_Regular400 = require('./d7c8d8d44c6591234b85e43c1b61a5f4adc82016e3c7f315b206cf31fda62572.ttf');
-export const CormorantUpright_Medium500 = require('./9e1c85ea60d180f0a621d975977e7e75c7d398a4d4fcb569d2ccadd85c42adce.ttf');
-export const CormorantUpright_SemiBold600 = require('./0d60d4f81c0c154612e2e9b3b5dd56c2ab5e74e4d8e8507d9725ce908a54c914.ttf');
-export const CormorantUpright_Bold700 = require('./441604498e23b982bd6adbe6fe749140f9955eddd7a905329bb88bf4ca9a8f85.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const CormorantUpright_300Light = require('./CormorantUpright_300Light.ttf');
+export const CormorantUpright_400Regular = require('./CormorantUpright_400Regular.ttf');
+export const CormorantUpright_500Medium = require('./CormorantUpright_500Medium.ttf');
+export const CormorantUpright_600SemiBold = require('./CormorantUpright_600SemiBold.ttf');
+export const CormorantUpright_700Bold = require('./CormorantUpright_700Bold.ttf');

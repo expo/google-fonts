@@ -7,18 +7,16 @@
 
 This package lets you use the [**Caladea**](https://fonts.google.com/specimen/Caladea) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Caladea
 
 ![Caladea](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Caladea_Regular400`
-- `Caladea_Regular400_Italic`
-- `Caladea_Bold700`
-- `Caladea_Bold700_Italic`
+- `Caladea_400Regular`
+- `Caladea_400Regular_Italic`
+- `Caladea_700Bold`
+- `Caladea_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Caladea_Regular400,
-  Caladea_Regular400_Italic,
-  Caladea_Bold700,
-  Caladea_Bold700_Italic,
   useFonts,
+  Caladea_400Regular,
+  Caladea_400Regular_Italic,
+  Caladea_700Bold,
+  Caladea_700Bold_Italic,
 } from '@expo-google-fonts/caladea';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Caladea_Regular400,
-    Caladea_Regular400_Italic,
-    Caladea_Bold700,
-    Caladea_Bold700_Italic,
+    Caladea_400Regular,
+    Caladea_400Regular_Italic,
+    Caladea_700Bold,
+    Caladea_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caladea_Regular400' }}>
-          Caladea_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caladea_400Regular' }}>
+          Caladea_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caladea_Regular400_Italic' }}>
-          Caladea_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caladea_400Regular_Italic' }}>
+          Caladea_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caladea_Bold700' }}>
-          Caladea_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caladea_700Bold' }}>
+          Caladea_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caladea_Bold700_Italic' }}>
-          Caladea_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caladea_700Bold_Italic' }}>
+          Caladea_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Caladea_Regular400
-![Caladea_Regular400](./60f1d4e3a572497f3530ac2ae1478709e606b3bdaaa56f97fd7efbc48e01de08.ttf.png)
+##### Caladea_400Regular
+![Caladea_400Regular](./Caladea_400Regular.ttf.png)
 
-##### Caladea_Regular400_Italic
-![Caladea_Regular400_Italic](./a200599eb491ec914c9ce2fe7b2cdda1f14b4d082af53d054932993d3db7e7bb.ttf.png)
+##### Caladea_400Regular_Italic
+![Caladea_400Regular_Italic](./Caladea_400Regular_Italic.ttf.png)
 
-##### Caladea_Bold700
-![Caladea_Bold700](./fb25a8c8d05e937b9c5c3a001d1801276ba670641e4332a5f5d83cdc357cc5c3.ttf.png)
+##### Caladea_700Bold
+![Caladea_700Bold](./Caladea_700Bold.ttf.png)
 
-##### Caladea_Bold700_Italic
-![Caladea_Bold700_Italic](./0d6a8296a9489017c434820f994212d73ffe43b80bc9b3913f0eec7a4b3d4ed5.ttf.png)
+##### Caladea_700Bold_Italic
+![Caladea_700Bold_Italic](./Caladea_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/caladea)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

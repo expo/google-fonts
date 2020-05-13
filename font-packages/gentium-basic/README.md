@@ -7,18 +7,16 @@
 
 This package lets you use the [**Gentium Basic**](https://fonts.google.com/specimen/Gentium+Basic) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Gentium Basic
 
 ![Gentium Basic](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `GentiumBasic_Regular400`
-- `GentiumBasic_Regular400_Italic`
-- `GentiumBasic_Bold700`
-- `GentiumBasic_Bold700_Italic`
+- `GentiumBasic_400Regular`
+- `GentiumBasic_400Regular_Italic`
+- `GentiumBasic_700Bold`
+- `GentiumBasic_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  GentiumBasic_Regular400,
-  GentiumBasic_Regular400_Italic,
-  GentiumBasic_Bold700,
-  GentiumBasic_Bold700_Italic,
   useFonts,
+  GentiumBasic_400Regular,
+  GentiumBasic_400Regular_Italic,
+  GentiumBasic_700Bold,
+  GentiumBasic_700Bold_Italic,
 } from '@expo-google-fonts/gentium-basic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    GentiumBasic_Regular400,
-    GentiumBasic_Regular400_Italic,
-    GentiumBasic_Bold700,
-    GentiumBasic_Bold700_Italic,
+    GentiumBasic_400Regular,
+    GentiumBasic_400Regular_Italic,
+    GentiumBasic_700Bold,
+    GentiumBasic_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GentiumBasic_Regular400' }}>
-          GentiumBasic_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GentiumBasic_400Regular' }}>
+          GentiumBasic_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GentiumBasic_Regular400_Italic' }}>
-          GentiumBasic_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GentiumBasic_400Regular_Italic' }}>
+          GentiumBasic_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GentiumBasic_Bold700' }}>
-          GentiumBasic_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GentiumBasic_700Bold' }}>
+          GentiumBasic_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GentiumBasic_Bold700_Italic' }}>
-          GentiumBasic_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GentiumBasic_700Bold_Italic' }}>
+          GentiumBasic_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GentiumBasic_Regular400
-![GentiumBasic_Regular400](./86bcf47467c7c966ff4e8c216451273329982a4bbf3477b33615c1e5ff916fb2.ttf.png)
+##### GentiumBasic_400Regular
+![GentiumBasic_400Regular](./GentiumBasic_400Regular.ttf.png)
 
-##### GentiumBasic_Regular400_Italic
-![GentiumBasic_Regular400_Italic](./d84eb1ad32e37c3f5e4a8eeaf077b66ec63a516eb0a631a71b3b17b0d6c43de1.ttf.png)
+##### GentiumBasic_400Regular_Italic
+![GentiumBasic_400Regular_Italic](./GentiumBasic_400Regular_Italic.ttf.png)
 
-##### GentiumBasic_Bold700
-![GentiumBasic_Bold700](./33b22faef221568e2734ae86ee972b4499a967b00f6d6ae128b1649a904044d7.ttf.png)
+##### GentiumBasic_700Bold
+![GentiumBasic_700Bold](./GentiumBasic_700Bold.ttf.png)
 
-##### GentiumBasic_Bold700_Italic
-![GentiumBasic_Bold700_Italic](./b1ea05dbd54b903a6206abbb48c0183924236546ddb457db2f97273aa1d47fcd.ttf.png)
+##### GentiumBasic_700Bold_Italic
+![GentiumBasic_700Bold_Italic](./GentiumBasic_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/gentium-basic)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

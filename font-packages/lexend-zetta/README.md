@@ -7,15 +7,13 @@
 
 This package lets you use the [**Lexend Zetta**](https://fonts.google.com/specimen/Lexend+Zetta) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Lexend Zetta
 
 ![Lexend Zetta](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `LexendZetta_Regular400`
+- `LexendZetta_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { LexendZetta_Regular400, useFonts } from '@expo-google-fonts/lexend-zetta';
+import { useFonts, LexendZetta_400Regular } from '@expo-google-fonts/lexend-zetta';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LexendZetta_Regular400,
+    LexendZetta_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LexendZetta_Regular400' }}>
-          LexendZetta_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LexendZetta_400Regular' }}>
+          LexendZetta_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LexendZetta_Regular400
-![LexendZetta_Regular400](./e6de0f389e45c6725bfc8b444ce22b404d8ef5f4649f41b979fdf5cb1125dfd1.ttf.png)
+##### LexendZetta_400Regular
+![LexendZetta_400Regular](./LexendZetta_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/lexend-zetta)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

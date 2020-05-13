@@ -7,18 +7,16 @@
 
 This package lets you use the [**Tinos**](https://fonts.google.com/specimen/Tinos) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Tinos
 
 ![Tinos](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Tinos_Regular400`
-- `Tinos_Regular400_Italic`
-- `Tinos_Bold700`
-- `Tinos_Bold700_Italic`
+- `Tinos_400Regular`
+- `Tinos_400Regular_Italic`
+- `Tinos_700Bold`
+- `Tinos_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Tinos_Regular400,
-  Tinos_Regular400_Italic,
-  Tinos_Bold700,
-  Tinos_Bold700_Italic,
   useFonts,
+  Tinos_400Regular,
+  Tinos_400Regular_Italic,
+  Tinos_700Bold,
+  Tinos_700Bold_Italic,
 } from '@expo-google-fonts/tinos';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Tinos_Regular400,
-    Tinos_Regular400_Italic,
-    Tinos_Bold700,
-    Tinos_Bold700_Italic,
+    Tinos_400Regular,
+    Tinos_400Regular_Italic,
+    Tinos_700Bold,
+    Tinos_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tinos_Regular400' }}>
-          Tinos_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tinos_400Regular' }}>
+          Tinos_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tinos_Regular400_Italic' }}>
-          Tinos_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tinos_400Regular_Italic' }}>
+          Tinos_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tinos_Bold700' }}>
-          Tinos_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tinos_700Bold' }}>
+          Tinos_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tinos_Bold700_Italic' }}>
-          Tinos_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tinos_700Bold_Italic' }}>
+          Tinos_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Tinos_Regular400
-![Tinos_Regular400](./e3fb073d6d034814d7825107e1eae4eee8c1f169d87607f2df536bb4e4093ddf.ttf.png)
+##### Tinos_400Regular
+![Tinos_400Regular](./Tinos_400Regular.ttf.png)
 
-##### Tinos_Regular400_Italic
-![Tinos_Regular400_Italic](./27dde2d7c4a3b5edc81ddca48874ffcb63a893df81e508e07a3565f70323fdaf.ttf.png)
+##### Tinos_400Regular_Italic
+![Tinos_400Regular_Italic](./Tinos_400Regular_Italic.ttf.png)
 
-##### Tinos_Bold700
-![Tinos_Bold700](./dc658c10271c22ff1ad12fc220c05dadf678b1fa42443b874fd100f68afa117c.ttf.png)
+##### Tinos_700Bold
+![Tinos_700Bold](./Tinos_700Bold.ttf.png)
 
-##### Tinos_Bold700_Italic
-![Tinos_Bold700_Italic](./839f50ca06adbf9bc25feef137791fcd9983139a76881789a290e71d685feab5.ttf.png)
+##### Tinos_700Bold_Italic
+![Tinos_700Bold_Italic](./Tinos_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/tinos)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

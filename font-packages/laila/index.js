@@ -4,11 +4,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Laila';
-export const __fontFamilyVersion__ = 3;
-
-export const Laila_Light300 = require('./8aac335fe109f453ca82438785143a3d54ca6b5860f929a066015b366dd23603.ttf');
-export const Laila_Regular400 = require('./ba573905733e8e1ec12baa194825add1cb80997c3c08b032d6439d524eef298a.ttf');
-export const Laila_Medium500 = require('./445309cf766b79874168d66f2dc2f5eb067c865989ed496a8e2389411de9e18b.ttf');
-export const Laila_SemiBold600 = require('./f393a4935161c1ac8a55a20d2a1107e698de003ace696ae5c6db50c7bf8c0781.ttf');
-export const Laila_Bold700 = require('./a2cfeefaeb650171ed23e31b4fe85b7c5b8605f36e351821ffd3a351aeec6c17.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Laila_300Light = require('./Laila_300Light.ttf');
+export const Laila_400Regular = require('./Laila_400Regular.ttf');
+export const Laila_500Medium = require('./Laila_500Medium.ttf');
+export const Laila_600SemiBold = require('./Laila_600SemiBold.ttf');
+export const Laila_700Bold = require('./Laila_700Bold.ttf');

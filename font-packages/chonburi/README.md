@@ -7,15 +7,13 @@
 
 This package lets you use the [**Chonburi**](https://fonts.google.com/specimen/Chonburi) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Chonburi
 
 ![Chonburi](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Chonburi_Regular400`
+- `Chonburi_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Chonburi_Regular400, useFonts } from '@expo-google-fonts/chonburi';
+import { useFonts, Chonburi_400Regular } from '@expo-google-fonts/chonburi';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Chonburi_Regular400,
+    Chonburi_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chonburi_Regular400' }}>
-          Chonburi_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chonburi_400Regular' }}>
+          Chonburi_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Chonburi_Regular400
-![Chonburi_Regular400](./b8e4b1d59bd57981915ee60262422c0d7b7bc237ec938d181c684425e608baca.ttf.png)
+##### Chonburi_400Regular
+![Chonburi_400Regular](./Chonburi_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/chonburi)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

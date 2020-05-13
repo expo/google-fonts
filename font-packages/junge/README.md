@@ -7,15 +7,13 @@
 
 This package lets you use the [**Junge**](https://fonts.google.com/specimen/Junge) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Junge
 
 ![Junge](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Junge_Regular400`
+- `Junge_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Junge_Regular400, useFonts } from '@expo-google-fonts/junge';
+import { useFonts, Junge_400Regular } from '@expo-google-fonts/junge';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Junge_Regular400,
+    Junge_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Junge_Regular400' }}>
-          Junge_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Junge_400Regular' }}>
+          Junge_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Junge_Regular400
-![Junge_Regular400](./573f4ddfb30769905cf4446b3fc01243dd50c8d9ad1f810c91f3b009b109d031.ttf.png)
+##### Junge_400Regular
+![Junge_400Regular](./Junge_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/junge)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

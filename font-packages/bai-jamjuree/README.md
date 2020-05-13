@@ -7,26 +7,24 @@
 
 This package lets you use the [**Bai Jamjuree**](https://fonts.google.com/specimen/Bai+Jamjuree) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Bai Jamjuree
 
 ![Bai Jamjuree](./font-family.png)
 
 This font family contains [12 styles](#-gallery).
 
-- `BaiJamjuree_ExtraLight200`
-- `BaiJamjuree_ExtraLight200_Italic`
-- `BaiJamjuree_Light300`
-- `BaiJamjuree_Light300_Italic`
-- `BaiJamjuree_Regular400`
-- `BaiJamjuree_Regular400_Italic`
-- `BaiJamjuree_Medium500`
-- `BaiJamjuree_Medium500_Italic`
-- `BaiJamjuree_SemiBold600`
-- `BaiJamjuree_SemiBold600_Italic`
-- `BaiJamjuree_Bold700`
-- `BaiJamjuree_Bold700_Italic`
+- `BaiJamjuree_200ExtraLight`
+- `BaiJamjuree_200ExtraLight_Italic`
+- `BaiJamjuree_300Light`
+- `BaiJamjuree_300Light_Italic`
+- `BaiJamjuree_400Regular`
+- `BaiJamjuree_400Regular_Italic`
+- `BaiJamjuree_500Medium`
+- `BaiJamjuree_500Medium_Italic`
+- `BaiJamjuree_600SemiBold`
+- `BaiJamjuree_600SemiBold_Italic`
+- `BaiJamjuree_700Bold`
+- `BaiJamjuree_700Bold_Italic`
 
 ## Usage
 
@@ -42,35 +40,35 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  BaiJamjuree_ExtraLight200,
-  BaiJamjuree_ExtraLight200_Italic,
-  BaiJamjuree_Light300,
-  BaiJamjuree_Light300_Italic,
-  BaiJamjuree_Regular400,
-  BaiJamjuree_Regular400_Italic,
-  BaiJamjuree_Medium500,
-  BaiJamjuree_Medium500_Italic,
-  BaiJamjuree_SemiBold600,
-  BaiJamjuree_SemiBold600_Italic,
-  BaiJamjuree_Bold700,
-  BaiJamjuree_Bold700_Italic,
   useFonts,
+  BaiJamjuree_200ExtraLight,
+  BaiJamjuree_200ExtraLight_Italic,
+  BaiJamjuree_300Light,
+  BaiJamjuree_300Light_Italic,
+  BaiJamjuree_400Regular,
+  BaiJamjuree_400Regular_Italic,
+  BaiJamjuree_500Medium,
+  BaiJamjuree_500Medium_Italic,
+  BaiJamjuree_600SemiBold,
+  BaiJamjuree_600SemiBold_Italic,
+  BaiJamjuree_700Bold,
+  BaiJamjuree_700Bold_Italic,
 } from '@expo-google-fonts/bai-jamjuree';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    BaiJamjuree_ExtraLight200,
-    BaiJamjuree_ExtraLight200_Italic,
-    BaiJamjuree_Light300,
-    BaiJamjuree_Light300_Italic,
-    BaiJamjuree_Regular400,
-    BaiJamjuree_Regular400_Italic,
-    BaiJamjuree_Medium500,
-    BaiJamjuree_Medium500_Italic,
-    BaiJamjuree_SemiBold600,
-    BaiJamjuree_SemiBold600_Italic,
-    BaiJamjuree_Bold700,
-    BaiJamjuree_Bold700_Italic,
+    BaiJamjuree_200ExtraLight,
+    BaiJamjuree_200ExtraLight_Italic,
+    BaiJamjuree_300Light,
+    BaiJamjuree_300Light_Italic,
+    BaiJamjuree_400Regular,
+    BaiJamjuree_400Regular_Italic,
+    BaiJamjuree_500Medium,
+    BaiJamjuree_500Medium_Italic,
+    BaiJamjuree_600SemiBold,
+    BaiJamjuree_600SemiBold_Italic,
+    BaiJamjuree_700Bold,
+    BaiJamjuree_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -81,52 +79,52 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_ExtraLight200' }}>
-          BaiJamjuree_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_200ExtraLight' }}>
+          BaiJamjuree_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_ExtraLight200_Italic' }}>
-          BaiJamjuree_ExtraLight200_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_200ExtraLight_Italic' }}>
+          BaiJamjuree_200ExtraLight_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_Light300' }}>
-          BaiJamjuree_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_300Light' }}>
+          BaiJamjuree_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_Light300_Italic' }}>
-          BaiJamjuree_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_300Light_Italic' }}>
+          BaiJamjuree_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_Regular400' }}>
-          BaiJamjuree_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_400Regular' }}>
+          BaiJamjuree_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_Regular400_Italic' }}>
-          BaiJamjuree_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_400Regular_Italic' }}>
+          BaiJamjuree_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_Medium500' }}>
-          BaiJamjuree_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_500Medium' }}>
+          BaiJamjuree_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_Medium500_Italic' }}>
-          BaiJamjuree_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_500Medium_Italic' }}>
+          BaiJamjuree_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_SemiBold600' }}>
-          BaiJamjuree_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_600SemiBold' }}>
+          BaiJamjuree_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_SemiBold600_Italic' }}>
-          BaiJamjuree_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_600SemiBold_Italic' }}>
+          BaiJamjuree_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_Bold700' }}>
-          BaiJamjuree_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_700Bold' }}>
+          BaiJamjuree_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_Bold700_Italic' }}>
-          BaiJamjuree_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_700Bold_Italic' }}>
+          BaiJamjuree_700Bold_Italic
         </Text>
       </View>
     );
@@ -137,41 +135,41 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BaiJamjuree_ExtraLight200
-![BaiJamjuree_ExtraLight200](./fdb9acd5c9a309240a161cc16a0a5e3a1f3bf9258d1f2cf14fdfdf6f79d83c8e.ttf.png)
+##### BaiJamjuree_200ExtraLight
+![BaiJamjuree_200ExtraLight](./BaiJamjuree_200ExtraLight.ttf.png)
 
-##### BaiJamjuree_ExtraLight200_Italic
-![BaiJamjuree_ExtraLight200_Italic](./fff587a7a746a3d84947c3982968551180877152f29ac4e6b58a5d060e741ee3.ttf.png)
+##### BaiJamjuree_200ExtraLight_Italic
+![BaiJamjuree_200ExtraLight_Italic](./BaiJamjuree_200ExtraLight_Italic.ttf.png)
 
-##### BaiJamjuree_Light300
-![BaiJamjuree_Light300](./253ea5a1c8d0d3dacbf5b9f0db496617c2af6b95a5e0680df9c9c62b989b1799.ttf.png)
+##### BaiJamjuree_300Light
+![BaiJamjuree_300Light](./BaiJamjuree_300Light.ttf.png)
 
-##### BaiJamjuree_Light300_Italic
-![BaiJamjuree_Light300_Italic](./c31f0c72862a5db7605a1625ddf34cc3c20c1c8a756b7d8848bf7f57a2707e0c.ttf.png)
+##### BaiJamjuree_300Light_Italic
+![BaiJamjuree_300Light_Italic](./BaiJamjuree_300Light_Italic.ttf.png)
 
-##### BaiJamjuree_Regular400
-![BaiJamjuree_Regular400](./c1dad5e37560fcacf02277fc359aecaab78b734f4a4839c6cf910296b20101fa.ttf.png)
+##### BaiJamjuree_400Regular
+![BaiJamjuree_400Regular](./BaiJamjuree_400Regular.ttf.png)
 
-##### BaiJamjuree_Regular400_Italic
-![BaiJamjuree_Regular400_Italic](./e8939d2176c550b12487aed8e2fbc3b25917494c1174787534ed05c61be397f2.ttf.png)
+##### BaiJamjuree_400Regular_Italic
+![BaiJamjuree_400Regular_Italic](./BaiJamjuree_400Regular_Italic.ttf.png)
 
-##### BaiJamjuree_Medium500
-![BaiJamjuree_Medium500](./9f9c01d94ba412108985bed479c74ca19d6b1b8c6982ee1fc113a970d5d323ea.ttf.png)
+##### BaiJamjuree_500Medium
+![BaiJamjuree_500Medium](./BaiJamjuree_500Medium.ttf.png)
 
-##### BaiJamjuree_Medium500_Italic
-![BaiJamjuree_Medium500_Italic](./01569d323f908485836ed8c94772695fc05a4b02812f4f29a62ec257f911b55b.ttf.png)
+##### BaiJamjuree_500Medium_Italic
+![BaiJamjuree_500Medium_Italic](./BaiJamjuree_500Medium_Italic.ttf.png)
 
-##### BaiJamjuree_SemiBold600
-![BaiJamjuree_SemiBold600](./a2ef2b81cbfb6b9a14a4bb8931a87a0887e676e237a098c40aa9e61d601dcbd2.ttf.png)
+##### BaiJamjuree_600SemiBold
+![BaiJamjuree_600SemiBold](./BaiJamjuree_600SemiBold.ttf.png)
 
-##### BaiJamjuree_SemiBold600_Italic
-![BaiJamjuree_SemiBold600_Italic](./7db95e5673e505c331643e67b6172b4465e72300e3642242b55e75a28d7f5883.ttf.png)
+##### BaiJamjuree_600SemiBold_Italic
+![BaiJamjuree_600SemiBold_Italic](./BaiJamjuree_600SemiBold_Italic.ttf.png)
 
-##### BaiJamjuree_Bold700
-![BaiJamjuree_Bold700](./e456eaafee629c1aa6ffda2fbc121b9b76b54ab7f4b6dcaac6a4a523263b2237.ttf.png)
+##### BaiJamjuree_700Bold
+![BaiJamjuree_700Bold](./BaiJamjuree_700Bold.ttf.png)
 
-##### BaiJamjuree_Bold700_Italic
-![BaiJamjuree_Bold700_Italic](./3445df11af52dc901fce718f3b68b4df5dc14a6c7b2ae6399dcf47c7fa7dd34b.ttf.png)
+##### BaiJamjuree_700Bold_Italic
+![BaiJamjuree_700Bold_Italic](./BaiJamjuree_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -201,7 +199,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/bai-jamjuree)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

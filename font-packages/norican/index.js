@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Norican';
-export const __fontFamilyVersion__ = 4;
-
-export const Norican_Regular400 = require('./f4fbc9fb71760f8b74862d7d705863f375de95bb99192acfeca61ab3185b6468.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Norican_400Regular = require('./Norican_400Regular.ttf');

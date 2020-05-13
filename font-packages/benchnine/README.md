@@ -7,17 +7,15 @@
 
 This package lets you use the [**BenchNine**](https://fonts.google.com/specimen/BenchNine) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## BenchNine
 
 ![BenchNine](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `BenchNine_Light300`
-- `BenchNine_Regular400`
-- `BenchNine_Bold700`
+- `BenchNine_300Light`
+- `BenchNine_400Regular`
+- `BenchNine_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  BenchNine_Light300,
-  BenchNine_Regular400,
-  BenchNine_Bold700,
   useFonts,
+  BenchNine_300Light,
+  BenchNine_400Regular,
+  BenchNine_700Bold,
 } from '@expo-google-fonts/benchnine';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    BenchNine_Light300,
-    BenchNine_Regular400,
-    BenchNine_Bold700,
+    BenchNine_300Light,
+    BenchNine_400Regular,
+    BenchNine_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BenchNine_Light300' }}>
-          BenchNine_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BenchNine_300Light' }}>
+          BenchNine_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BenchNine_Regular400' }}>
-          BenchNine_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BenchNine_400Regular' }}>
+          BenchNine_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BenchNine_Bold700' }}>
-          BenchNine_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BenchNine_700Bold' }}>
+          BenchNine_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BenchNine_Light300
-![BenchNine_Light300](./819e7479fd3310e52e9754666e7a85aae97b6ea92363f425c93d1763341c5720.ttf.png)
+##### BenchNine_300Light
+![BenchNine_300Light](./BenchNine_300Light.ttf.png)
 
-##### BenchNine_Regular400
-![BenchNine_Regular400](./6ff13f62cc4e1011ea688bc0bdad0ec34826a3c14cbc1b9ec0ed2b768a756be1.ttf.png)
+##### BenchNine_400Regular
+![BenchNine_400Regular](./BenchNine_400Regular.ttf.png)
 
-##### BenchNine_Bold700
-![BenchNine_Bold700](./ad7761d772dd04c7cf6c3ea55ea6f5bc9ca1540a2961a12251b37aee5d067022.ttf.png)
+##### BenchNine_700Bold
+![BenchNine_700Bold](./BenchNine_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/benchnine)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

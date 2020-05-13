@@ -4,13 +4,18 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Source Code Pro';
-export const __fontFamilyVersion__ = 6;
-
-export const SourceCodePro_ExtraLight200 = require('./5a618360951a8134d26923216c53da2cee51d55e6e2ca0003ecfe111b701bae5.ttf');
-export const SourceCodePro_Light300 = require('./e0184502d4eb4b41dcd3d65fecad4fcf8b6b46f13967b60ac98eedcc43aacb30.ttf');
-export const SourceCodePro_Regular400 = require('./2d1bcd5038af1287746b7b1d1a4db65f091b3e9811428076d43a73121893922d.ttf');
-export const SourceCodePro_Medium500 = require('./18daf5f11e4f1462c2a5b5f8e439dfce5a846e27eff21a622f9031f58d257aa2.ttf');
-export const SourceCodePro_SemiBold600 = require('./807061463bc4cdacd2299a10cc0b7862e4a925cb984fec0016307fea9df6aa78.ttf');
-export const SourceCodePro_Bold700 = require('./51b4ad25947aa6ab4e72faea203ad4b74e4de08b9bbc4d254cdd9dc26dfc2d19.ttf');
-export const SourceCodePro_Black900 = require('./677bde76eea8889e4ec713ec738f7fadd150aee2ffca36efb65946a45e6b93cc.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const SourceCodePro_200ExtraLight = require('./SourceCodePro_200ExtraLight.ttf');
+export const SourceCodePro_200ExtraLight_Italic = require('./SourceCodePro_200ExtraLight_Italic.ttf');
+export const SourceCodePro_300Light = require('./SourceCodePro_300Light.ttf');
+export const SourceCodePro_300Light_Italic = require('./SourceCodePro_300Light_Italic.ttf');
+export const SourceCodePro_400Regular = require('./SourceCodePro_400Regular.ttf');
+export const SourceCodePro_400Regular_Italic = require('./SourceCodePro_400Regular_Italic.ttf');
+export const SourceCodePro_500Medium = require('./SourceCodePro_500Medium.ttf');
+export const SourceCodePro_500Medium_Italic = require('./SourceCodePro_500Medium_Italic.ttf');
+export const SourceCodePro_600SemiBold = require('./SourceCodePro_600SemiBold.ttf');
+export const SourceCodePro_600SemiBold_Italic = require('./SourceCodePro_600SemiBold_Italic.ttf');
+export const SourceCodePro_700Bold = require('./SourceCodePro_700Bold.ttf');
+export const SourceCodePro_700Bold_Italic = require('./SourceCodePro_700Bold_Italic.ttf');
+export const SourceCodePro_900Black = require('./SourceCodePro_900Black.ttf');
+export const SourceCodePro_900Black_Italic = require('./SourceCodePro_900Black_Italic.ttf');

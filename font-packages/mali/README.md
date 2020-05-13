@@ -7,26 +7,24 @@
 
 This package lets you use the [**Mali**](https://fonts.google.com/specimen/Mali) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Mali
 
 ![Mali](./font-family.png)
 
 This font family contains [12 styles](#-gallery).
 
-- `Mali_ExtraLight200`
-- `Mali_ExtraLight200_Italic`
-- `Mali_Light300`
-- `Mali_Light300_Italic`
-- `Mali_Regular400`
-- `Mali_Regular400_Italic`
-- `Mali_Medium500`
-- `Mali_Medium500_Italic`
-- `Mali_SemiBold600`
-- `Mali_SemiBold600_Italic`
-- `Mali_Bold700`
-- `Mali_Bold700_Italic`
+- `Mali_200ExtraLight`
+- `Mali_200ExtraLight_Italic`
+- `Mali_300Light`
+- `Mali_300Light_Italic`
+- `Mali_400Regular`
+- `Mali_400Regular_Italic`
+- `Mali_500Medium`
+- `Mali_500Medium_Italic`
+- `Mali_600SemiBold`
+- `Mali_600SemiBold_Italic`
+- `Mali_700Bold`
+- `Mali_700Bold_Italic`
 
 ## Usage
 
@@ -42,35 +40,35 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Mali_ExtraLight200,
-  Mali_ExtraLight200_Italic,
-  Mali_Light300,
-  Mali_Light300_Italic,
-  Mali_Regular400,
-  Mali_Regular400_Italic,
-  Mali_Medium500,
-  Mali_Medium500_Italic,
-  Mali_SemiBold600,
-  Mali_SemiBold600_Italic,
-  Mali_Bold700,
-  Mali_Bold700_Italic,
   useFonts,
+  Mali_200ExtraLight,
+  Mali_200ExtraLight_Italic,
+  Mali_300Light,
+  Mali_300Light_Italic,
+  Mali_400Regular,
+  Mali_400Regular_Italic,
+  Mali_500Medium,
+  Mali_500Medium_Italic,
+  Mali_600SemiBold,
+  Mali_600SemiBold_Italic,
+  Mali_700Bold,
+  Mali_700Bold_Italic,
 } from '@expo-google-fonts/mali';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Mali_ExtraLight200,
-    Mali_ExtraLight200_Italic,
-    Mali_Light300,
-    Mali_Light300_Italic,
-    Mali_Regular400,
-    Mali_Regular400_Italic,
-    Mali_Medium500,
-    Mali_Medium500_Italic,
-    Mali_SemiBold600,
-    Mali_SemiBold600_Italic,
-    Mali_Bold700,
-    Mali_Bold700_Italic,
+    Mali_200ExtraLight,
+    Mali_200ExtraLight_Italic,
+    Mali_300Light,
+    Mali_300Light_Italic,
+    Mali_400Regular,
+    Mali_400Regular_Italic,
+    Mali_500Medium,
+    Mali_500Medium_Italic,
+    Mali_600SemiBold,
+    Mali_600SemiBold_Italic,
+    Mali_700Bold,
+    Mali_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -81,50 +79,50 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_ExtraLight200' }}>
-          Mali_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_200ExtraLight' }}>
+          Mali_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_ExtraLight200_Italic' }}>
-          Mali_ExtraLight200_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_200ExtraLight_Italic' }}>
+          Mali_200ExtraLight_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_Light300' }}>
-          Mali_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_300Light' }}>
+          Mali_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_Light300_Italic' }}>
-          Mali_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_300Light_Italic' }}>
+          Mali_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_Regular400' }}>
-          Mali_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_400Regular' }}>
+          Mali_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_Regular400_Italic' }}>
-          Mali_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_400Regular_Italic' }}>
+          Mali_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_Medium500' }}>
-          Mali_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_500Medium' }}>
+          Mali_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_Medium500_Italic' }}>
-          Mali_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_500Medium_Italic' }}>
+          Mali_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_SemiBold600' }}>
-          Mali_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_600SemiBold' }}>
+          Mali_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_SemiBold600_Italic' }}>
-          Mali_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_600SemiBold_Italic' }}>
+          Mali_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_Bold700' }}>Mali_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_700Bold' }}>Mali_700Bold</Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_Bold700_Italic' }}>
-          Mali_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_700Bold_Italic' }}>
+          Mali_700Bold_Italic
         </Text>
       </View>
     );
@@ -135,41 +133,41 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Mali_ExtraLight200
-![Mali_ExtraLight200](./e492669e95f03389c8fdab60ebc0fc25dc89f921dfa3b4156ed4ee3556b26a22.ttf.png)
+##### Mali_200ExtraLight
+![Mali_200ExtraLight](./Mali_200ExtraLight.ttf.png)
 
-##### Mali_ExtraLight200_Italic
-![Mali_ExtraLight200_Italic](./9c4049d3990bfb82d515b0f6b44c0669352cf1d4f0ad71a6c39c4d800d91afc5.ttf.png)
+##### Mali_200ExtraLight_Italic
+![Mali_200ExtraLight_Italic](./Mali_200ExtraLight_Italic.ttf.png)
 
-##### Mali_Light300
-![Mali_Light300](./7ea3a4d356e5cb938ea97489c60b148dd2e33b9bdc641f01c245b965a8028725.ttf.png)
+##### Mali_300Light
+![Mali_300Light](./Mali_300Light.ttf.png)
 
-##### Mali_Light300_Italic
-![Mali_Light300_Italic](./4aec4ec351696e4bc5a49deed841e02a84880d0fdc72dafdedce7154770dd8d0.ttf.png)
+##### Mali_300Light_Italic
+![Mali_300Light_Italic](./Mali_300Light_Italic.ttf.png)
 
-##### Mali_Regular400
-![Mali_Regular400](./cc1fb36bca8387ebe3fdb1a9052a01ed8312a51a3ac265b51d93b7a6bf6ae45c.ttf.png)
+##### Mali_400Regular
+![Mali_400Regular](./Mali_400Regular.ttf.png)
 
-##### Mali_Regular400_Italic
-![Mali_Regular400_Italic](./575418ad9604b624f1d09cbaa0d15edbdec2653423419c83fae61131d0f0fdc5.ttf.png)
+##### Mali_400Regular_Italic
+![Mali_400Regular_Italic](./Mali_400Regular_Italic.ttf.png)
 
-##### Mali_Medium500
-![Mali_Medium500](./56baed7152d5e08635cc8a9e3a241afd0e7659f30374cb82033266959d273382.ttf.png)
+##### Mali_500Medium
+![Mali_500Medium](./Mali_500Medium.ttf.png)
 
-##### Mali_Medium500_Italic
-![Mali_Medium500_Italic](./d1e4f0963402e82a0e541cc7ff0d371c1311270840c7059b94bd710b0953210a.ttf.png)
+##### Mali_500Medium_Italic
+![Mali_500Medium_Italic](./Mali_500Medium_Italic.ttf.png)
 
-##### Mali_SemiBold600
-![Mali_SemiBold600](./3d34348744efcb7d239f7d07237bf644507c1d98545de940f5e36475267d7937.ttf.png)
+##### Mali_600SemiBold
+![Mali_600SemiBold](./Mali_600SemiBold.ttf.png)
 
-##### Mali_SemiBold600_Italic
-![Mali_SemiBold600_Italic](./56a65ebf56f24e0082786c224207d28f9e3ac7d58473839ef4e014f58dddc92e.ttf.png)
+##### Mali_600SemiBold_Italic
+![Mali_600SemiBold_Italic](./Mali_600SemiBold_Italic.ttf.png)
 
-##### Mali_Bold700
-![Mali_Bold700](./7d22887c912c6d24c96e8a7bd85a8bec285b2f6e82cb0f1239c7d62df8d66db1.ttf.png)
+##### Mali_700Bold
+![Mali_700Bold](./Mali_700Bold.ttf.png)
 
-##### Mali_Bold700_Italic
-![Mali_Bold700_Italic](./0cf0f0229db8cba537f46efd1c9a4734268f6011e5e10fc1ad8981849edfc421.ttf.png)
+##### Mali_700Bold_Italic
+![Mali_700Bold_Italic](./Mali_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -199,7 +197,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/mali)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Arya';
-export const __fontFamilyVersion__ = 1;
-
-export const Arya_Regular400 = require('./98cf640f609db3f8940fc4bc1566dda034961cb11d23f71a277f3ab268c8859a.ttf');
-export const Arya_Bold700 = require('./6c168a53b559c7407d20692a42b94301046b15c4838d709b83992c32cab5732c.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Arya_400Regular = require('./Arya_400Regular.ttf');
+export const Arya_700Bold = require('./Arya_700Bold.ttf');

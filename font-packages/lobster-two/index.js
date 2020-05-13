@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Lobster Two';
-export const __fontFamilyVersion__ = 9;
-
-export const LobsterTwo_Regular400 = require('./0c7a1501aa183946996d6a6dd00639131356d161f596511cf06339053570e634.ttf');
-export const LobsterTwo_Regular400_Italic = require('./c0dbd5c04e410d8e4da9017651e742b0e62adac50ae9b77ad22cf0407e27e211.ttf');
-export const LobsterTwo_Bold700 = require('./510f984a2bfaf23d533e8c389063fe40f2e0d02c2d16889ff79e565345b3aaa5.ttf');
-export const LobsterTwo_Bold700_Italic = require('./37a829bca6d8cab14c9768897a1dafc7fcc08b7b459ba3bd2a2e0dac406eead9.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const LobsterTwo_400Regular = require('./LobsterTwo_400Regular.ttf');
+export const LobsterTwo_400Regular_Italic = require('./LobsterTwo_400Regular_Italic.ttf');
+export const LobsterTwo_700Bold = require('./LobsterTwo_700Bold.ttf');
+export const LobsterTwo_700Bold_Italic = require('./LobsterTwo_700Bold_Italic.ttf');

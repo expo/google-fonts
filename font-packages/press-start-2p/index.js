@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Press Start 2P';
-export const __fontFamilyVersion__ = 5;
-
-export const PressStart2P_Regular400 = require('./ba4683bc76380100a5f8e7fae42dd03216a17bd62025a4f24d933df65845a9ac.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const PressStart2P_400Regular = require('./PressStart2P_400Regular.ttf');

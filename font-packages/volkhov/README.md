@@ -7,18 +7,16 @@
 
 This package lets you use the [**Volkhov**](https://fonts.google.com/specimen/Volkhov) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Volkhov
 
 ![Volkhov](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Volkhov_Regular400`
-- `Volkhov_Regular400_Italic`
-- `Volkhov_Bold700`
-- `Volkhov_Bold700_Italic`
+- `Volkhov_400Regular`
+- `Volkhov_400Regular_Italic`
+- `Volkhov_700Bold`
+- `Volkhov_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Volkhov_Regular400,
-  Volkhov_Regular400_Italic,
-  Volkhov_Bold700,
-  Volkhov_Bold700_Italic,
   useFonts,
+  Volkhov_400Regular,
+  Volkhov_400Regular_Italic,
+  Volkhov_700Bold,
+  Volkhov_700Bold_Italic,
 } from '@expo-google-fonts/volkhov';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Volkhov_Regular400,
-    Volkhov_Regular400_Italic,
-    Volkhov_Bold700,
-    Volkhov_Bold700_Italic,
+    Volkhov_400Regular,
+    Volkhov_400Regular_Italic,
+    Volkhov_700Bold,
+    Volkhov_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Volkhov_Regular400' }}>
-          Volkhov_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Volkhov_400Regular' }}>
+          Volkhov_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Volkhov_Regular400_Italic' }}>
-          Volkhov_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Volkhov_400Regular_Italic' }}>
+          Volkhov_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Volkhov_Bold700' }}>
-          Volkhov_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Volkhov_700Bold' }}>
+          Volkhov_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Volkhov_Bold700_Italic' }}>
-          Volkhov_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Volkhov_700Bold_Italic' }}>
+          Volkhov_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Volkhov_Regular400
-![Volkhov_Regular400](./a3fa059553ab62381a8974ef60376b4bad0e91f2d72092094e74fb1c2fcca886.ttf.png)
+##### Volkhov_400Regular
+![Volkhov_400Regular](./Volkhov_400Regular.ttf.png)
 
-##### Volkhov_Regular400_Italic
-![Volkhov_Regular400_Italic](./7d27f866b8f11b00603bcc07b2e7ae49e4405fde4b3db227065ad57f92b8953c.ttf.png)
+##### Volkhov_400Regular_Italic
+![Volkhov_400Regular_Italic](./Volkhov_400Regular_Italic.ttf.png)
 
-##### Volkhov_Bold700
-![Volkhov_Bold700](./f24fe6c57bdf816d9c6e09602548002ca61aca7eec23b40635c4a46f84347d47.ttf.png)
+##### Volkhov_700Bold
+![Volkhov_700Bold](./Volkhov_700Bold.ttf.png)
 
-##### Volkhov_Bold700_Italic
-![Volkhov_Bold700_Italic](./0db6f541c0e1a1f792feaacd69708e50b99aabf1ada6028e80fca14cfafe030c.ttf.png)
+##### Volkhov_700Bold_Italic
+![Volkhov_700Bold_Italic](./Volkhov_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/volkhov)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

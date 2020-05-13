@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Rhodium Libre';
-export const __fontFamilyVersion__ = 1;
-
-export const RhodiumLibre_Regular400 = require('./9c5b10db8b1e6bcf720d3a76cdf51a5dc63ec9f1a7115e777e07921fa2b738e6.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const RhodiumLibre_400Regular = require('./RhodiumLibre_400Regular.ttf');

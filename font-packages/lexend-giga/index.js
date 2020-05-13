@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Lexend Giga';
-export const __fontFamilyVersion__ = 1;
-
-export const LexendGiga_Regular400 = require('./1239824b7d568f46db623f61bf9aa0fc21275920dbb5861fdd9d57f132aec548.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const LexendGiga_400Regular = require('./LexendGiga_400Regular.ttf');

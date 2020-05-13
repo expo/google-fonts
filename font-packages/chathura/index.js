@@ -4,11 +4,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Chathura';
-export const __fontFamilyVersion__ = 2;
-
-export const Chathura_Thin100 = require('./78a5a2532fd10bcf3317ec8440d1e758a309bd152369607ccea764abddbcb168.ttf');
-export const Chathura_Light300 = require('./7b8357f2b60bfe270ca77801978a0bd5e729870ffad8b19d54ff69cded800a1f.ttf');
-export const Chathura_Regular400 = require('./f8abdba026fb7a58e3f5b2cbe302ab4d9e817e69dfd7c6fce0ffbf22fe9600f5.ttf');
-export const Chathura_Bold700 = require('./129573e675c52db3364e6d6ac3d517a6cb8113531a3bc2b54276e1d28d28c11a.ttf');
-export const Chathura_ExtraBold800 = require('./c6190f40f502b8b950146bbe4ba7b7b02eea38047766ba5b56895059e3b6c655.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Chathura_100Thin = require('./Chathura_100Thin.ttf');
+export const Chathura_300Light = require('./Chathura_300Light.ttf');
+export const Chathura_400Regular = require('./Chathura_400Regular.ttf');
+export const Chathura_700Bold = require('./Chathura_700Bold.ttf');
+export const Chathura_800ExtraBold = require('./Chathura_800ExtraBold.ttf');

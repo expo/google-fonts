@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Francois One';
-export const __fontFamilyVersion__ = 10;
-
-export const FrancoisOne_Regular400 = require('./9732016aa4f374d99be54bb4dff92ffaa1133a4d293595c2bd7f621e01b38e85.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const FrancoisOne_400Regular = require('./FrancoisOne_400Regular.ttf');

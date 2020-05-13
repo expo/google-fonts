@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Anonymous Pro';
-export const __fontFamilyVersion__ = 9;
-
-export const AnonymousPro_Regular400 = require('./9ca7beef0b5eb5c9e72533cd45bc1e4f41c8272dc2335f22d3649e32a795995f.ttf');
-export const AnonymousPro_Regular400_Italic = require('./71ce3ee6476a91f9e89e9f8010d9ea13314306b645af3e8d7b7add697e6f0d3e.ttf');
-export const AnonymousPro_Bold700 = require('./d00937283f3b530bee6700e02cfabfbb96b833d42559d48fc5fdfcfde2ff5b39.ttf');
-export const AnonymousPro_Bold700_Italic = require('./60f1f3cae99bbc1323cdcdf9af6a0127d5b4684ef675e6836fa3034a297dc16a.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const AnonymousPro_400Regular = require('./AnonymousPro_400Regular.ttf');
+export const AnonymousPro_400Regular_Italic = require('./AnonymousPro_400Regular_Italic.ttf');
+export const AnonymousPro_700Bold = require('./AnonymousPro_700Bold.ttf');
+export const AnonymousPro_700Bold_Italic = require('./AnonymousPro_700Bold_Italic.ttf');

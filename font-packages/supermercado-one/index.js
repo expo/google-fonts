@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Supermercado One';
-export const __fontFamilyVersion__ = 6;
-
-export const SupermercadoOne_Regular400 = require('./ea1b33f9fdd9d3df950419909fa184a44918ab451c8e9e3fc175b440d0938a9f.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const SupermercadoOne_400Regular = require('./SupermercadoOne_400Regular.ttf');

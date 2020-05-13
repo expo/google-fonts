@@ -7,18 +7,16 @@
 
 This package lets you use the [**Economica**](https://fonts.google.com/specimen/Economica) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Economica
 
 ![Economica](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Economica_Regular400`
-- `Economica_Regular400_Italic`
-- `Economica_Bold700`
-- `Economica_Bold700_Italic`
+- `Economica_400Regular`
+- `Economica_400Regular_Italic`
+- `Economica_700Bold`
+- `Economica_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Economica_Regular400,
-  Economica_Regular400_Italic,
-  Economica_Bold700,
-  Economica_Bold700_Italic,
   useFonts,
+  Economica_400Regular,
+  Economica_400Regular_Italic,
+  Economica_700Bold,
+  Economica_700Bold_Italic,
 } from '@expo-google-fonts/economica';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Economica_Regular400,
-    Economica_Regular400_Italic,
-    Economica_Bold700,
-    Economica_Bold700_Italic,
+    Economica_400Regular,
+    Economica_400Regular_Italic,
+    Economica_700Bold,
+    Economica_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Economica_Regular400' }}>
-          Economica_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Economica_400Regular' }}>
+          Economica_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Economica_Regular400_Italic' }}>
-          Economica_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Economica_400Regular_Italic' }}>
+          Economica_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Economica_Bold700' }}>
-          Economica_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Economica_700Bold' }}>
+          Economica_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Economica_Bold700_Italic' }}>
-          Economica_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Economica_700Bold_Italic' }}>
+          Economica_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Economica_Regular400
-![Economica_Regular400](./73b7c6770eb6ca35b71cc345a389203c788cc27aac43302793865dc33771dcd9.ttf.png)
+##### Economica_400Regular
+![Economica_400Regular](./Economica_400Regular.ttf.png)
 
-##### Economica_Regular400_Italic
-![Economica_Regular400_Italic](./ce63d04fe7b161c08efa83fba9b4d096be6f6390a294e904e16f2d7eecc90820.ttf.png)
+##### Economica_400Regular_Italic
+![Economica_400Regular_Italic](./Economica_400Regular_Italic.ttf.png)
 
-##### Economica_Bold700
-![Economica_Bold700](./2886009c049eeeb1a75ea749115fbfece59efeb95fcaf29b5f8a82a8c680ab99.ttf.png)
+##### Economica_700Bold
+![Economica_700Bold](./Economica_700Bold.ttf.png)
 
-##### Economica_Bold700_Italic
-![Economica_Bold700_Italic](./d8f54eb9ef53335c26d3f638df8a0bcbdd291dff65990970ea5cd5a2529dfd91.ttf.png)
+##### Economica_700Bold_Italic
+![Economica_700Bold_Italic](./Economica_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/economica)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

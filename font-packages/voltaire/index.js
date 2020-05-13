@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Voltaire';
-export const __fontFamilyVersion__ = 6;
-
-export const Voltaire_Regular400 = require('./8e446b1dcde5e45745bd6e82bfacf76b313042b232e4fceaa22d745f13e176d3.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Voltaire_400Regular = require('./Voltaire_400Regular.ttf');

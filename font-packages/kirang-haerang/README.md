@@ -7,15 +7,13 @@
 
 This package lets you use the [**Kirang Haerang**](https://fonts.google.com/specimen/Kirang+Haerang) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Kirang Haerang
 
 ![Kirang Haerang](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `KirangHaerang_Regular400`
+- `KirangHaerang_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { KirangHaerang_Regular400, useFonts } from '@expo-google-fonts/kirang-haerang';
+import { useFonts, KirangHaerang_400Regular } from '@expo-google-fonts/kirang-haerang';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    KirangHaerang_Regular400,
+    KirangHaerang_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KirangHaerang_Regular400' }}>
-          KirangHaerang_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'KirangHaerang_400Regular' }}>
+          KirangHaerang_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### KirangHaerang_Regular400
-![KirangHaerang_Regular400](./419ae98f0574b7c2a5b81ce99a859d0db9335d7be00145712bad1d7d8881abb1.ttf.png)
+##### KirangHaerang_400Regular
+![KirangHaerang_400Regular](./KirangHaerang_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/kirang-haerang)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

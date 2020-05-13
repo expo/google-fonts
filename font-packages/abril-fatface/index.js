@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Abril Fatface';
-export const __fontFamilyVersion__ = 8;
-
-export const AbrilFatface_Regular400 = require('./2baf7b134013a2183457312f0d26115640d0171829d024dfb1466616a3ac789a.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const AbrilFatface_400Regular = require('./AbrilFatface_400Regular.ttf');

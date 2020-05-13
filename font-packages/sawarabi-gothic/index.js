@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Sawarabi Gothic';
-export const __fontFamilyVersion__ = 8;
-
-export const SawarabiGothic_Regular400 = require('./da6058a80d658ffc7eaa1acdae31b56f86f9f59fcae94417efa5205b8c2a9c3e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const SawarabiGothic_400Regular = require('./SawarabiGothic_400Regular.ttf');

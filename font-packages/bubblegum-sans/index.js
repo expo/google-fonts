@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bubblegum Sans';
-export const __fontFamilyVersion__ = 5;
-
-export const BubblegumSans_Regular400 = require('./53e2f591d5b22787b4fd506e06145d2652da6014e1707f782a92395533188726.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BubblegumSans_400Regular = require('./BubblegumSans_400Regular.ttf');

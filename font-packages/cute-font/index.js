@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Cute Font';
-export const __fontFamilyVersion__ = 4;
-
-export const CuteFont_Regular400 = require('./264e6741d6541397294f9de009ed33b609adf005445eaf7a346c99b03ae75feb.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const CuteFont_400Regular = require('./CuteFont_400Regular.ttf');

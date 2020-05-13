@@ -7,15 +7,13 @@
 
 This package lets you use the [**Bigelow Rules**](https://fonts.google.com/specimen/Bigelow+Rules) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Bigelow Rules
 
 ![Bigelow Rules](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `BigelowRules_Regular400`
+- `BigelowRules_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { BigelowRules_Regular400, useFonts } from '@expo-google-fonts/bigelow-rules';
+import { useFonts, BigelowRules_400Regular } from '@expo-google-fonts/bigelow-rules';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    BigelowRules_Regular400,
+    BigelowRules_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigelowRules_Regular400' }}>
-          BigelowRules_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigelowRules_400Regular' }}>
+          BigelowRules_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BigelowRules_Regular400
-![BigelowRules_Regular400](./b86229b1bc741bc11ef0517467d96769485504f74278c1011120697a17d74d26.ttf.png)
+##### BigelowRules_400Regular
+![BigelowRules_400Regular](./BigelowRules_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/bigelow-rules)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Jacques Francois**](https://fonts.google.com/specimen/Jacques+Francois) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Jacques Francois
 
 ![Jacques Francois](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `JacquesFrancois_Regular400`
+- `JacquesFrancois_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { JacquesFrancois_Regular400, useFonts } from '@expo-google-fonts/jacques-francois';
+import { useFonts, JacquesFrancois_400Regular } from '@expo-google-fonts/jacques-francois';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    JacquesFrancois_Regular400,
+    JacquesFrancois_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JacquesFrancois_Regular400' }}>
-          JacquesFrancois_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JacquesFrancois_400Regular' }}>
+          JacquesFrancois_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### JacquesFrancois_Regular400
-![JacquesFrancois_Regular400](./d263121e53613f81bea06459cb1ac924693f48b654d9943d34776a3efa1fc52e.ttf.png)
+##### JacquesFrancois_400Regular
+![JacquesFrancois_400Regular](./JacquesFrancois_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/jacques-francois)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

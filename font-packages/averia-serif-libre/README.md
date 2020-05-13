@@ -7,20 +7,18 @@
 
 This package lets you use the [**Averia Serif Libre**](https://fonts.google.com/specimen/Averia+Serif+Libre) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Averia Serif Libre
 
 ![Averia Serif Libre](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `AveriaSerifLibre_Light300`
-- `AveriaSerifLibre_Light300_Italic`
-- `AveriaSerifLibre_Regular400`
-- `AveriaSerifLibre_Regular400_Italic`
-- `AveriaSerifLibre_Bold700`
-- `AveriaSerifLibre_Bold700_Italic`
+- `AveriaSerifLibre_300Light`
+- `AveriaSerifLibre_300Light_Italic`
+- `AveriaSerifLibre_400Regular`
+- `AveriaSerifLibre_400Regular_Italic`
+- `AveriaSerifLibre_700Bold`
+- `AveriaSerifLibre_700Bold_Italic`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  AveriaSerifLibre_Light300,
-  AveriaSerifLibre_Light300_Italic,
-  AveriaSerifLibre_Regular400,
-  AveriaSerifLibre_Regular400_Italic,
-  AveriaSerifLibre_Bold700,
-  AveriaSerifLibre_Bold700_Italic,
   useFonts,
+  AveriaSerifLibre_300Light,
+  AveriaSerifLibre_300Light_Italic,
+  AveriaSerifLibre_400Regular,
+  AveriaSerifLibre_400Regular_Italic,
+  AveriaSerifLibre_700Bold,
+  AveriaSerifLibre_700Bold_Italic,
 } from '@expo-google-fonts/averia-serif-libre';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    AveriaSerifLibre_Light300,
-    AveriaSerifLibre_Light300_Italic,
-    AveriaSerifLibre_Regular400,
-    AveriaSerifLibre_Regular400_Italic,
-    AveriaSerifLibre_Bold700,
-    AveriaSerifLibre_Bold700_Italic,
+    AveriaSerifLibre_300Light,
+    AveriaSerifLibre_300Light_Italic,
+    AveriaSerifLibre_400Regular,
+    AveriaSerifLibre_400Regular_Italic,
+    AveriaSerifLibre_700Bold,
+    AveriaSerifLibre_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -63,29 +61,29 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_Light300' }}>
-          AveriaSerifLibre_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_300Light' }}>
+          AveriaSerifLibre_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_Light300_Italic' }}>
-          AveriaSerifLibre_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_300Light_Italic' }}>
+          AveriaSerifLibre_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_Regular400' }}>
-          AveriaSerifLibre_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_400Regular' }}>
+          AveriaSerifLibre_400Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_Regular400_Italic' }}>
-          AveriaSerifLibre_Regular400_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_400Regular_Italic' }}>
+          AveriaSerifLibre_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_Bold700' }}>
-          AveriaSerifLibre_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_700Bold' }}>
+          AveriaSerifLibre_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_Bold700_Italic' }}>
-          AveriaSerifLibre_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_700Bold_Italic' }}>
+          AveriaSerifLibre_700Bold_Italic
         </Text>
       </View>
     );
@@ -96,23 +94,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AveriaSerifLibre_Light300
-![AveriaSerifLibre_Light300](./605722d0534e8b2a7a4ce36ebc7ecfa14868d5aeae52ba3419e14a19e67c92ba.ttf.png)
+##### AveriaSerifLibre_300Light
+![AveriaSerifLibre_300Light](./AveriaSerifLibre_300Light.ttf.png)
 
-##### AveriaSerifLibre_Light300_Italic
-![AveriaSerifLibre_Light300_Italic](./4b675f9e2f2962fb69b7145f35ea9df241cdc9b91744abeac3cdfbf7aca1740b.ttf.png)
+##### AveriaSerifLibre_300Light_Italic
+![AveriaSerifLibre_300Light_Italic](./AveriaSerifLibre_300Light_Italic.ttf.png)
 
-##### AveriaSerifLibre_Regular400
-![AveriaSerifLibre_Regular400](./1939fc59e6192c78872b151f71d328c64c84552c1f8f7548f3278d3db023959f.ttf.png)
+##### AveriaSerifLibre_400Regular
+![AveriaSerifLibre_400Regular](./AveriaSerifLibre_400Regular.ttf.png)
 
-##### AveriaSerifLibre_Regular400_Italic
-![AveriaSerifLibre_Regular400_Italic](./383c63d8878e96726e26c44d5a631030fcf28d4abdcb9bdadd86dbb01a623de9.ttf.png)
+##### AveriaSerifLibre_400Regular_Italic
+![AveriaSerifLibre_400Regular_Italic](./AveriaSerifLibre_400Regular_Italic.ttf.png)
 
-##### AveriaSerifLibre_Bold700
-![AveriaSerifLibre_Bold700](./19af7d57b5ea32ff5df3f2405e0d51759fdbab503fa4cfd420a5eb4943805fcc.ttf.png)
+##### AveriaSerifLibre_700Bold
+![AveriaSerifLibre_700Bold](./AveriaSerifLibre_700Bold.ttf.png)
 
-##### AveriaSerifLibre_Bold700_Italic
-![AveriaSerifLibre_Bold700_Italic](./164c3a01088756eebd948641705d6759b2fc7dabfd77d6e36490aa39befa0028.ttf.png)
+##### AveriaSerifLibre_700Bold_Italic
+![AveriaSerifLibre_700Bold_Italic](./AveriaSerifLibre_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -142,7 +140,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/averia-serif-libre)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,9 +4,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Lekton';
-export const __fontFamilyVersion__ = 7;
-
-export const Lekton_Regular400 = require('./919f93dff330901c348455426b31bc6ad6270b29b4527387ab2f16ae1a8b1b37.ttf');
-export const Lekton_Regular400_Italic = require('./5bdc665e2f574f3cde6b0db13ba296956f6736f4277decf03a015151ca063072.ttf');
-export const Lekton_Bold700 = require('./34d7bf522a1cd2ddb84bd57082d9651c5155029004a5a66c713dec61c865ab08.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Lekton_400Regular = require('./Lekton_400Regular.ttf');
+export const Lekton_400Regular_Italic = require('./Lekton_400Regular_Italic.ttf');
+export const Lekton_700Bold = require('./Lekton_700Bold.ttf');

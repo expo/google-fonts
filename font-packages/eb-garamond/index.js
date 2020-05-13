@@ -4,7 +4,14 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'EB Garamond';
-export const __fontFamilyVersion__ = 7;
-
-export const EBGaramond_Regular400 = require('./45b9fd8b021be544bd8edb0bce9007faafdc3029fdb0f19e4deb80b50e9c4adb.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const EBGaramond_400Regular = require('./EBGaramond_400Regular.ttf');
+export const EBGaramond_500Medium = require('./EBGaramond_500Medium.ttf');
+export const EBGaramond_600SemiBold = require('./EBGaramond_600SemiBold.ttf');
+export const EBGaramond_700Bold = require('./EBGaramond_700Bold.ttf');
+export const EBGaramond_800ExtraBold = require('./EBGaramond_800ExtraBold.ttf');
+export const EBGaramond_400Regular_Italic = require('./EBGaramond_400Regular_Italic.ttf');
+export const EBGaramond_500Medium_Italic = require('./EBGaramond_500Medium_Italic.ttf');
+export const EBGaramond_600SemiBold_Italic = require('./EBGaramond_600SemiBold_Italic.ttf');
+export const EBGaramond_700Bold_Italic = require('./EBGaramond_700Bold_Italic.ttf');
+export const EBGaramond_800ExtraBold_Italic = require('./EBGaramond_800ExtraBold_Italic.ttf');

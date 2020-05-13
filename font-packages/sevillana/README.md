@@ -7,15 +7,13 @@
 
 This package lets you use the [**Sevillana**](https://fonts.google.com/specimen/Sevillana) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sevillana
 
 ![Sevillana](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Sevillana_Regular400`
+- `Sevillana_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Sevillana_Regular400, useFonts } from '@expo-google-fonts/sevillana';
+import { useFonts, Sevillana_400Regular } from '@expo-google-fonts/sevillana';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Sevillana_Regular400,
+    Sevillana_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sevillana_Regular400' }}>
-          Sevillana_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sevillana_400Regular' }}>
+          Sevillana_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sevillana_Regular400
-![Sevillana_Regular400](./1932da733380cee1525fb66845203d6b91ab799d20f9836d43b021d247101c76.ttf.png)
+##### Sevillana_400Regular
+![Sevillana_400Regular](./Sevillana_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sevillana)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

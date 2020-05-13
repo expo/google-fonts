@@ -4,12 +4,10 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Oswald';
-export const __fontFamilyVersion__ = 16;
-
-export const Oswald_ExtraLight200 = require('./73cf9867fcced84ac0fd26238bf74e4e1f69dcbefc5ff327c2a69f6c5c107e5d.ttf');
-export const Oswald_Light300 = require('./f10d40bae3fb58ed7a554af7cb46beca6d4f2866de12223b8e349f1b30c76968.ttf');
-export const Oswald_Regular400 = require('./9dc4929f8d8935621ca4717817eb3167fc881d03d496c6dca51ff292f730c873.ttf');
-export const Oswald_Medium500 = require('./f59f85cc613954e6acc66c7f89abe9b46c1add1b2236d5bee71f4a71a7769402.ttf');
-export const Oswald_SemiBold600 = require('./c0d6ab388b1c3537b78f8976a204a6dc2c5d62b73ae37506d1c93575e52420f2.ttf');
-export const Oswald_Bold700 = require('./a11b684909ba0ee2b2c493e89626c6fa9df02e25dec537e42127fa0b1a4e5e92.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Oswald_200ExtraLight = require('./Oswald_200ExtraLight.ttf');
+export const Oswald_300Light = require('./Oswald_300Light.ttf');
+export const Oswald_400Regular = require('./Oswald_400Regular.ttf');
+export const Oswald_500Medium = require('./Oswald_500Medium.ttf');
+export const Oswald_600SemiBold = require('./Oswald_600SemiBold.ttf');
+export const Oswald_700Bold = require('./Oswald_700Bold.ttf');

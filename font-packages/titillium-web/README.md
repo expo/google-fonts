@@ -7,25 +7,23 @@
 
 This package lets you use the [**Titillium Web**](https://fonts.google.com/specimen/Titillium+Web) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Titillium Web
 
 ![Titillium Web](./font-family.png)
 
 This font family contains [11 styles](#-gallery).
 
-- `TitilliumWeb_ExtraLight200`
-- `TitilliumWeb_ExtraLight200_Italic`
-- `TitilliumWeb_Light300`
-- `TitilliumWeb_Light300_Italic`
-- `TitilliumWeb_Regular400`
-- `TitilliumWeb_Regular400_Italic`
-- `TitilliumWeb_SemiBold600`
-- `TitilliumWeb_SemiBold600_Italic`
-- `TitilliumWeb_Bold700`
-- `TitilliumWeb_Bold700_Italic`
-- `TitilliumWeb_Black900`
+- `TitilliumWeb_200ExtraLight`
+- `TitilliumWeb_200ExtraLight_Italic`
+- `TitilliumWeb_300Light`
+- `TitilliumWeb_300Light_Italic`
+- `TitilliumWeb_400Regular`
+- `TitilliumWeb_400Regular_Italic`
+- `TitilliumWeb_600SemiBold`
+- `TitilliumWeb_600SemiBold_Italic`
+- `TitilliumWeb_700Bold`
+- `TitilliumWeb_700Bold_Italic`
+- `TitilliumWeb_900Black`
 
 ## Usage
 
@@ -41,33 +39,33 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  TitilliumWeb_ExtraLight200,
-  TitilliumWeb_ExtraLight200_Italic,
-  TitilliumWeb_Light300,
-  TitilliumWeb_Light300_Italic,
-  TitilliumWeb_Regular400,
-  TitilliumWeb_Regular400_Italic,
-  TitilliumWeb_SemiBold600,
-  TitilliumWeb_SemiBold600_Italic,
-  TitilliumWeb_Bold700,
-  TitilliumWeb_Bold700_Italic,
-  TitilliumWeb_Black900,
   useFonts,
+  TitilliumWeb_200ExtraLight,
+  TitilliumWeb_200ExtraLight_Italic,
+  TitilliumWeb_300Light,
+  TitilliumWeb_300Light_Italic,
+  TitilliumWeb_400Regular,
+  TitilliumWeb_400Regular_Italic,
+  TitilliumWeb_600SemiBold,
+  TitilliumWeb_600SemiBold_Italic,
+  TitilliumWeb_700Bold,
+  TitilliumWeb_700Bold_Italic,
+  TitilliumWeb_900Black,
 } from '@expo-google-fonts/titillium-web';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    TitilliumWeb_ExtraLight200,
-    TitilliumWeb_ExtraLight200_Italic,
-    TitilliumWeb_Light300,
-    TitilliumWeb_Light300_Italic,
-    TitilliumWeb_Regular400,
-    TitilliumWeb_Regular400_Italic,
-    TitilliumWeb_SemiBold600,
-    TitilliumWeb_SemiBold600_Italic,
-    TitilliumWeb_Bold700,
-    TitilliumWeb_Bold700_Italic,
-    TitilliumWeb_Black900,
+    TitilliumWeb_200ExtraLight,
+    TitilliumWeb_200ExtraLight_Italic,
+    TitilliumWeb_300Light,
+    TitilliumWeb_300Light_Italic,
+    TitilliumWeb_400Regular,
+    TitilliumWeb_400Regular_Italic,
+    TitilliumWeb_600SemiBold,
+    TitilliumWeb_600SemiBold_Italic,
+    TitilliumWeb_700Bold,
+    TitilliumWeb_700Bold_Italic,
+    TitilliumWeb_900Black,
   });
 
   let fontSize = 24;
@@ -78,49 +76,49 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_ExtraLight200' }}>
-          TitilliumWeb_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_200ExtraLight' }}>
+          TitilliumWeb_200ExtraLight
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_ExtraLight200_Italic' }}>
-          TitilliumWeb_ExtraLight200_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_200ExtraLight_Italic' }}>
+          TitilliumWeb_200ExtraLight_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_Light300' }}>
-          TitilliumWeb_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_300Light' }}>
+          TitilliumWeb_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_Light300_Italic' }}>
-          TitilliumWeb_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_300Light_Italic' }}>
+          TitilliumWeb_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_Regular400' }}>
-          TitilliumWeb_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_400Regular' }}>
+          TitilliumWeb_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_Regular400_Italic' }}>
-          TitilliumWeb_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_400Regular_Italic' }}>
+          TitilliumWeb_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_SemiBold600' }}>
-          TitilliumWeb_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_600SemiBold' }}>
+          TitilliumWeb_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_SemiBold600_Italic' }}>
-          TitilliumWeb_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_600SemiBold_Italic' }}>
+          TitilliumWeb_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_Bold700' }}>
-          TitilliumWeb_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_700Bold' }}>
+          TitilliumWeb_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_Bold700_Italic' }}>
-          TitilliumWeb_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_700Bold_Italic' }}>
+          TitilliumWeb_700Bold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_Black900' }}>
-          TitilliumWeb_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_900Black' }}>
+          TitilliumWeb_900Black
         </Text>
       </View>
     );
@@ -131,38 +129,38 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### TitilliumWeb_ExtraLight200
-![TitilliumWeb_ExtraLight200](./19772d85bad94abc7a76fc4a64849db9638e9c00e7e0dadd3872a583b74adbe3.ttf.png)
+##### TitilliumWeb_200ExtraLight
+![TitilliumWeb_200ExtraLight](./TitilliumWeb_200ExtraLight.ttf.png)
 
-##### TitilliumWeb_ExtraLight200_Italic
-![TitilliumWeb_ExtraLight200_Italic](./a39917b8e97b8433f10dae6821885f087662f1062a48a366f2f2f287c74ecb6c.ttf.png)
+##### TitilliumWeb_200ExtraLight_Italic
+![TitilliumWeb_200ExtraLight_Italic](./TitilliumWeb_200ExtraLight_Italic.ttf.png)
 
-##### TitilliumWeb_Light300
-![TitilliumWeb_Light300](./7da8c41b9e519ca322471fc0bdcc15a795423fb09cbf094a6787142218ec1c9e.ttf.png)
+##### TitilliumWeb_300Light
+![TitilliumWeb_300Light](./TitilliumWeb_300Light.ttf.png)
 
-##### TitilliumWeb_Light300_Italic
-![TitilliumWeb_Light300_Italic](./f0ff528b94c980870d32757c89817e790c119bea9de817d49334ba1a3f04ef9a.ttf.png)
+##### TitilliumWeb_300Light_Italic
+![TitilliumWeb_300Light_Italic](./TitilliumWeb_300Light_Italic.ttf.png)
 
-##### TitilliumWeb_Regular400
-![TitilliumWeb_Regular400](./ba6d03922294b498b3e57ace654a9ee6715c33081cd24c1df56004ca64ba6e66.ttf.png)
+##### TitilliumWeb_400Regular
+![TitilliumWeb_400Regular](./TitilliumWeb_400Regular.ttf.png)
 
-##### TitilliumWeb_Regular400_Italic
-![TitilliumWeb_Regular400_Italic](./d785f9b4efc2d7f91a854d36930d269122091296e25a46cc7931e2cd717567d5.ttf.png)
+##### TitilliumWeb_400Regular_Italic
+![TitilliumWeb_400Regular_Italic](./TitilliumWeb_400Regular_Italic.ttf.png)
 
-##### TitilliumWeb_SemiBold600
-![TitilliumWeb_SemiBold600](./8c9b215a8e543b09a087afec74223fb41a74378deb5b83c8457630d03f0b5fc3.ttf.png)
+##### TitilliumWeb_600SemiBold
+![TitilliumWeb_600SemiBold](./TitilliumWeb_600SemiBold.ttf.png)
 
-##### TitilliumWeb_SemiBold600_Italic
-![TitilliumWeb_SemiBold600_Italic](./e43b57298b99f0da6d3bfa3de072e88a539bf01332c5232e8e29dfee09cb859c.ttf.png)
+##### TitilliumWeb_600SemiBold_Italic
+![TitilliumWeb_600SemiBold_Italic](./TitilliumWeb_600SemiBold_Italic.ttf.png)
 
-##### TitilliumWeb_Bold700
-![TitilliumWeb_Bold700](./10e8c4207611b16691202b4204f5fbd4e27aa240a45dbb2ca91f63f341056539.ttf.png)
+##### TitilliumWeb_700Bold
+![TitilliumWeb_700Bold](./TitilliumWeb_700Bold.ttf.png)
 
-##### TitilliumWeb_Bold700_Italic
-![TitilliumWeb_Bold700_Italic](./dd23a74d333a9694f51ccb193efddc8d38e892053eca374882e2fe4043181559.ttf.png)
+##### TitilliumWeb_700Bold_Italic
+![TitilliumWeb_700Bold_Italic](./TitilliumWeb_700Bold_Italic.ttf.png)
 
-##### TitilliumWeb_Black900
-![TitilliumWeb_Black900](./742f14f17526638a90f24974f5222008c89acabe2c636deb378ba287cf381bc6.ttf.png)
+##### TitilliumWeb_900Black
+![TitilliumWeb_900Black](./TitilliumWeb_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -192,7 +190,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/titillium-web)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

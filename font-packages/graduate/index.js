@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Graduate';
-export const __fontFamilyVersion__ = 4;
-
-export const Graduate_Regular400 = require('./26483ff4a5a591dbbd59a7a59b4dfcfbc10b96f20b67a1b2af0da6fbc33dc2da.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Graduate_400Regular = require('./Graduate_400Regular.ttf');

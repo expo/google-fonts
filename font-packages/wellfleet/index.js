@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Wellfleet';
-export const __fontFamilyVersion__ = 4;
-
-export const Wellfleet_Regular400 = require('./9bdc76fbcd0c8aa30aa62c892008d4e6cf4a7df66502008137949866fc091693.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Wellfleet_400Regular = require('./Wellfleet_400Regular.ttf');

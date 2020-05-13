@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Sorts Mill Goudy';
-export const __fontFamilyVersion__ = 6;
-
-export const SortsMillGoudy_Regular400 = require('./70d3ad626ef92c3b9eeaff7e3694af6d64f477a31ab242d11f98704e9903a065.ttf');
-export const SortsMillGoudy_Regular400_Italic = require('./d8d1d17c5bffaec08a5c129dfdbd62c0a538de036da120d20edef29019f0b5bf.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const SortsMillGoudy_400Regular = require('./SortsMillGoudy_400Regular.ttf');
+export const SortsMillGoudy_400Regular_Italic = require('./SortsMillGoudy_400Regular_Italic.ttf');

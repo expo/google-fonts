@@ -7,15 +7,13 @@
 
 This package lets you use the [**Ruthie**](https://fonts.google.com/specimen/Ruthie) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Ruthie
 
 ![Ruthie](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Ruthie_Regular400`
+- `Ruthie_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Ruthie_Regular400, useFonts } from '@expo-google-fonts/ruthie';
+import { useFonts, Ruthie_400Regular } from '@expo-google-fonts/ruthie';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Ruthie_Regular400,
+    Ruthie_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruthie_Regular400' }}>
-          Ruthie_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruthie_400Regular' }}>
+          Ruthie_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Ruthie_Regular400
-![Ruthie_Regular400](./07b0c223b1890d96133629bd33f84988e27371098aac4a68a738cb05f15ce183.ttf.png)
+##### Ruthie_400Regular
+![Ruthie_400Regular](./Ruthie_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/ruthie)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

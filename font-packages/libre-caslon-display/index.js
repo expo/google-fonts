@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Libre Caslon Display';
-export const __fontFamilyVersion__ = 1;
-
-export const LibreCaslonDisplay_Regular400 = require('./c30a6ef1396c17e855a72b95f2848b064fceedce5de3bc974c99f5a75c48148f.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const LibreCaslonDisplay_400Regular = require('./LibreCaslonDisplay_400Regular.ttf');

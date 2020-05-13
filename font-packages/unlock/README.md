@@ -7,15 +7,13 @@
 
 This package lets you use the [**Unlock**](https://fonts.google.com/specimen/Unlock) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Unlock
 
 ![Unlock](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Unlock_Regular400`
+- `Unlock_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Unlock_Regular400, useFonts } from '@expo-google-fonts/unlock';
+import { useFonts, Unlock_400Regular } from '@expo-google-fonts/unlock';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Unlock_Regular400,
+    Unlock_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unlock_Regular400' }}>
-          Unlock_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unlock_400Regular' }}>
+          Unlock_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Unlock_Regular400
-![Unlock_Regular400](./e9ad989b6ef86cedca3ed0f4a06cc4bb6fbf6dce9c2d5ccd288512d49e861de4.ttf.png)
+##### Unlock_400Regular
+![Unlock_400Regular](./Unlock_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/unlock)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

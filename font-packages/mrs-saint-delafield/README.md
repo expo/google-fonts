@@ -7,15 +7,13 @@
 
 This package lets you use the [**Mrs Saint Delafield**](https://fonts.google.com/specimen/Mrs+Saint+Delafield) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Mrs Saint Delafield
 
 ![Mrs Saint Delafield](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `MrsSaintDelafield_Regular400`
+- `MrsSaintDelafield_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { MrsSaintDelafield_Regular400, useFonts } from '@expo-google-fonts/mrs-saint-delafield';
+import { useFonts, MrsSaintDelafield_400Regular } from '@expo-google-fonts/mrs-saint-delafield';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MrsSaintDelafield_Regular400,
+    MrsSaintDelafield_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MrsSaintDelafield_Regular400' }}>
-          MrsSaintDelafield_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MrsSaintDelafield_400Regular' }}>
+          MrsSaintDelafield_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MrsSaintDelafield_Regular400
-![MrsSaintDelafield_Regular400](./b864d74de51aa37c270217c9c01320fd78f8b1c23077b4ef0c20cb697a41d899.ttf.png)
+##### MrsSaintDelafield_400Regular
+![MrsSaintDelafield_400Regular](./MrsSaintDelafield_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/mrs-saint-delafield)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

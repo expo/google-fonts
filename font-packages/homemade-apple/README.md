@@ -7,15 +7,13 @@
 
 This package lets you use the [**Homemade Apple**](https://fonts.google.com/specimen/Homemade+Apple) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Homemade Apple
 
 ![Homemade Apple](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `HomemadeApple_Regular400`
+- `HomemadeApple_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { HomemadeApple_Regular400, useFonts } from '@expo-google-fonts/homemade-apple';
+import { useFonts, HomemadeApple_400Regular } from '@expo-google-fonts/homemade-apple';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    HomemadeApple_Regular400,
+    HomemadeApple_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HomemadeApple_Regular400' }}>
-          HomemadeApple_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HomemadeApple_400Regular' }}>
+          HomemadeApple_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HomemadeApple_Regular400
-![HomemadeApple_Regular400](./492f1c4f1d496ff595958cd8454693eccded599173fc699c93cb2df8a2561201.ttf.png)
+##### HomemadeApple_400Regular
+![HomemadeApple_400Regular](./HomemadeApple_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/homemade-apple)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

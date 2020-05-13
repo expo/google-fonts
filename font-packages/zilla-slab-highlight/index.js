@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Zilla Slab Highlight';
-export const __fontFamilyVersion__ = 5;
-
-export const ZillaSlabHighlight_Regular400 = require('./dbd546264c0d549b6c3cd17c1acf40b35bbe910885e09b5e2a270aa090b6ee53.ttf');
-export const ZillaSlabHighlight_Bold700 = require('./be3605b5e26a2439fde6293b4159f4c401273e65483cab10505e6c4010523ece.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ZillaSlabHighlight_400Regular = require('./ZillaSlabHighlight_400Regular.ttf');
+export const ZillaSlabHighlight_700Bold = require('./ZillaSlabHighlight_700Bold.ttf');

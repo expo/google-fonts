@@ -7,18 +7,16 @@
 
 This package lets you use the [**Signika**](https://fonts.google.com/specimen/Signika) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Signika
 
 ![Signika](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Signika_Light300`
-- `Signika_Regular400`
-- `Signika_SemiBold600`
-- `Signika_Bold700`
+- `Signika_300Light`
+- `Signika_400Regular`
+- `Signika_600SemiBold`
+- `Signika_700Bold`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Signika_Light300,
-  Signika_Regular400,
-  Signika_SemiBold600,
-  Signika_Bold700,
   useFonts,
+  Signika_300Light,
+  Signika_400Regular,
+  Signika_600SemiBold,
+  Signika_700Bold,
 } from '@expo-google-fonts/signika';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Signika_Light300,
-    Signika_Regular400,
-    Signika_SemiBold600,
-    Signika_Bold700,
+    Signika_300Light,
+    Signika_400Regular,
+    Signika_600SemiBold,
+    Signika_700Bold,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Signika_Light300' }}>
-          Signika_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Signika_300Light' }}>
+          Signika_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Signika_Regular400' }}>
-          Signika_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Signika_400Regular' }}>
+          Signika_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Signika_SemiBold600' }}>
-          Signika_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Signika_600SemiBold' }}>
+          Signika_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Signika_Bold700' }}>
-          Signika_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Signika_700Bold' }}>
+          Signika_700Bold
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Signika_Light300
-![Signika_Light300](./57a28a3623e1ad46bb9a9d87d09811b72a87364aeb2d326a4df99bf0e23c0874.ttf.png)
+##### Signika_300Light
+![Signika_300Light](./Signika_300Light.ttf.png)
 
-##### Signika_Regular400
-![Signika_Regular400](./028c027c049948e0a67c1a20b73992c9449bec50376131d3a57d3f98ad790c63.ttf.png)
+##### Signika_400Regular
+![Signika_400Regular](./Signika_400Regular.ttf.png)
 
-##### Signika_SemiBold600
-![Signika_SemiBold600](./2d6ed6b2f09f8f763304a07135b4a8dca9de0b7e1aea586a5f033133ae2e83cd.ttf.png)
+##### Signika_600SemiBold
+![Signika_600SemiBold](./Signika_600SemiBold.ttf.png)
 
-##### Signika_Bold700
-![Signika_Bold700](./9ffc0cf7832a52fdacc4833c2d951e529281b9eb803b1eeac14f4e69a0b5d1f7.ttf.png)
+##### Signika_700Bold
+![Signika_700Bold](./Signika_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/signika)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

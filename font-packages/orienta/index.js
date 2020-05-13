@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Orienta';
-export const __fontFamilyVersion__ = 4;
-
-export const Orienta_Regular400 = require('./6d087fac0635ed6186f7b55f474c1522ed229582419b850a3f77f333d9b0a355.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Orienta_400Regular = require('./Orienta_400Regular.ttf');

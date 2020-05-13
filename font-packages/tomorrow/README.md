@@ -7,32 +7,30 @@
 
 This package lets you use the [**Tomorrow**](https://fonts.google.com/specimen/Tomorrow) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Tomorrow
 
 ![Tomorrow](./font-family.png)
 
 This font family contains [18 styles](#-gallery).
 
-- `Tomorrow_Thin100`
-- `Tomorrow_Thin100_Italic`
-- `Tomorrow_ExtraLight200`
-- `Tomorrow_ExtraLight200_Italic`
-- `Tomorrow_Light300`
-- `Tomorrow_Light300_Italic`
-- `Tomorrow_Regular400`
-- `Tomorrow_Regular400_Italic`
-- `Tomorrow_Medium500`
-- `Tomorrow_Medium500_Italic`
-- `Tomorrow_SemiBold600`
-- `Tomorrow_SemiBold600_Italic`
-- `Tomorrow_Bold700`
-- `Tomorrow_Bold700_Italic`
-- `Tomorrow_ExtraBold800`
-- `Tomorrow_ExtraBold800_Italic`
-- `Tomorrow_Black900`
-- `Tomorrow_Black900_Italic`
+- `Tomorrow_100Thin`
+- `Tomorrow_100Thin_Italic`
+- `Tomorrow_200ExtraLight`
+- `Tomorrow_200ExtraLight_Italic`
+- `Tomorrow_300Light`
+- `Tomorrow_300Light_Italic`
+- `Tomorrow_400Regular`
+- `Tomorrow_400Regular_Italic`
+- `Tomorrow_500Medium`
+- `Tomorrow_500Medium_Italic`
+- `Tomorrow_600SemiBold`
+- `Tomorrow_600SemiBold_Italic`
+- `Tomorrow_700Bold`
+- `Tomorrow_700Bold_Italic`
+- `Tomorrow_800ExtraBold`
+- `Tomorrow_800ExtraBold_Italic`
+- `Tomorrow_900Black`
+- `Tomorrow_900Black_Italic`
 
 ## Usage
 
@@ -48,47 +46,47 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Tomorrow_Thin100,
-  Tomorrow_Thin100_Italic,
-  Tomorrow_ExtraLight200,
-  Tomorrow_ExtraLight200_Italic,
-  Tomorrow_Light300,
-  Tomorrow_Light300_Italic,
-  Tomorrow_Regular400,
-  Tomorrow_Regular400_Italic,
-  Tomorrow_Medium500,
-  Tomorrow_Medium500_Italic,
-  Tomorrow_SemiBold600,
-  Tomorrow_SemiBold600_Italic,
-  Tomorrow_Bold700,
-  Tomorrow_Bold700_Italic,
-  Tomorrow_ExtraBold800,
-  Tomorrow_ExtraBold800_Italic,
-  Tomorrow_Black900,
-  Tomorrow_Black900_Italic,
   useFonts,
+  Tomorrow_100Thin,
+  Tomorrow_100Thin_Italic,
+  Tomorrow_200ExtraLight,
+  Tomorrow_200ExtraLight_Italic,
+  Tomorrow_300Light,
+  Tomorrow_300Light_Italic,
+  Tomorrow_400Regular,
+  Tomorrow_400Regular_Italic,
+  Tomorrow_500Medium,
+  Tomorrow_500Medium_Italic,
+  Tomorrow_600SemiBold,
+  Tomorrow_600SemiBold_Italic,
+  Tomorrow_700Bold,
+  Tomorrow_700Bold_Italic,
+  Tomorrow_800ExtraBold,
+  Tomorrow_800ExtraBold_Italic,
+  Tomorrow_900Black,
+  Tomorrow_900Black_Italic,
 } from '@expo-google-fonts/tomorrow';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Tomorrow_Thin100,
-    Tomorrow_Thin100_Italic,
-    Tomorrow_ExtraLight200,
-    Tomorrow_ExtraLight200_Italic,
-    Tomorrow_Light300,
-    Tomorrow_Light300_Italic,
-    Tomorrow_Regular400,
-    Tomorrow_Regular400_Italic,
-    Tomorrow_Medium500,
-    Tomorrow_Medium500_Italic,
-    Tomorrow_SemiBold600,
-    Tomorrow_SemiBold600_Italic,
-    Tomorrow_Bold700,
-    Tomorrow_Bold700_Italic,
-    Tomorrow_ExtraBold800,
-    Tomorrow_ExtraBold800_Italic,
-    Tomorrow_Black900,
-    Tomorrow_Black900_Italic,
+    Tomorrow_100Thin,
+    Tomorrow_100Thin_Italic,
+    Tomorrow_200ExtraLight,
+    Tomorrow_200ExtraLight_Italic,
+    Tomorrow_300Light,
+    Tomorrow_300Light_Italic,
+    Tomorrow_400Regular,
+    Tomorrow_400Regular_Italic,
+    Tomorrow_500Medium,
+    Tomorrow_500Medium_Italic,
+    Tomorrow_600SemiBold,
+    Tomorrow_600SemiBold_Italic,
+    Tomorrow_700Bold,
+    Tomorrow_700Bold_Italic,
+    Tomorrow_800ExtraBold,
+    Tomorrow_800ExtraBold_Italic,
+    Tomorrow_900Black,
+    Tomorrow_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -99,76 +97,76 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_Thin100' }}>
-          Tomorrow_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_100Thin' }}>
+          Tomorrow_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_Thin100_Italic' }}>
-          Tomorrow_Thin100_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_100Thin_Italic' }}>
+          Tomorrow_100Thin_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_ExtraLight200' }}>
-          Tomorrow_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_200ExtraLight' }}>
+          Tomorrow_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_ExtraLight200_Italic' }}>
-          Tomorrow_ExtraLight200_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_200ExtraLight_Italic' }}>
+          Tomorrow_200ExtraLight_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_Light300' }}>
-          Tomorrow_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_300Light' }}>
+          Tomorrow_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_Light300_Italic' }}>
-          Tomorrow_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_300Light_Italic' }}>
+          Tomorrow_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_Regular400' }}>
-          Tomorrow_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_400Regular' }}>
+          Tomorrow_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_Regular400_Italic' }}>
-          Tomorrow_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_400Regular_Italic' }}>
+          Tomorrow_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_Medium500' }}>
-          Tomorrow_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_500Medium' }}>
+          Tomorrow_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_Medium500_Italic' }}>
-          Tomorrow_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_500Medium_Italic' }}>
+          Tomorrow_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_SemiBold600' }}>
-          Tomorrow_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_600SemiBold' }}>
+          Tomorrow_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_SemiBold600_Italic' }}>
-          Tomorrow_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_600SemiBold_Italic' }}>
+          Tomorrow_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_Bold700' }}>
-          Tomorrow_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_700Bold' }}>
+          Tomorrow_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_Bold700_Italic' }}>
-          Tomorrow_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_700Bold_Italic' }}>
+          Tomorrow_700Bold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_ExtraBold800' }}>
-          Tomorrow_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_800ExtraBold' }}>
+          Tomorrow_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_ExtraBold800_Italic' }}>
-          Tomorrow_ExtraBold800_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_800ExtraBold_Italic' }}>
+          Tomorrow_800ExtraBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_Black900' }}>
-          Tomorrow_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_900Black' }}>
+          Tomorrow_900Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_Black900_Italic' }}>
-          Tomorrow_Black900_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tomorrow_900Black_Italic' }}>
+          Tomorrow_900Black_Italic
         </Text>
       </View>
     );
@@ -179,59 +177,59 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Tomorrow_Thin100
-![Tomorrow_Thin100](./2bf064837570b16e64b6e16bb607ccd32e353ea52ff1860fd61a0de72f6a5ea0.ttf.png)
+##### Tomorrow_100Thin
+![Tomorrow_100Thin](./Tomorrow_100Thin.ttf.png)
 
-##### Tomorrow_Thin100_Italic
-![Tomorrow_Thin100_Italic](./5dd9ba1be08d4e07fc0457665070caeecdad448ec1322aaac51e215904362e1e.ttf.png)
+##### Tomorrow_100Thin_Italic
+![Tomorrow_100Thin_Italic](./Tomorrow_100Thin_Italic.ttf.png)
 
-##### Tomorrow_ExtraLight200
-![Tomorrow_ExtraLight200](./79fcf41f1188438fdf8ed0f55418e4ca98f03b8443301282f5802555a96f74af.ttf.png)
+##### Tomorrow_200ExtraLight
+![Tomorrow_200ExtraLight](./Tomorrow_200ExtraLight.ttf.png)
 
-##### Tomorrow_ExtraLight200_Italic
-![Tomorrow_ExtraLight200_Italic](./425bd4136783e2ffeb2842db5e8492f0dc216f55affb59a6318a92710baa27eb.ttf.png)
+##### Tomorrow_200ExtraLight_Italic
+![Tomorrow_200ExtraLight_Italic](./Tomorrow_200ExtraLight_Italic.ttf.png)
 
-##### Tomorrow_Light300
-![Tomorrow_Light300](./7b2dfcddbd51d970a89a1da730c28728ef35143b92571a0784e276e6717c88ef.ttf.png)
+##### Tomorrow_300Light
+![Tomorrow_300Light](./Tomorrow_300Light.ttf.png)
 
-##### Tomorrow_Light300_Italic
-![Tomorrow_Light300_Italic](./d222b2be7527fd1ff40802e62efd580a26a2af8429cf2dbddbce712e5a794dba.ttf.png)
+##### Tomorrow_300Light_Italic
+![Tomorrow_300Light_Italic](./Tomorrow_300Light_Italic.ttf.png)
 
-##### Tomorrow_Regular400
-![Tomorrow_Regular400](./5256d55c0d21f605ff31cd07ca4024c586239869f4fe1ce2e54ef2b9b6dd1611.ttf.png)
+##### Tomorrow_400Regular
+![Tomorrow_400Regular](./Tomorrow_400Regular.ttf.png)
 
-##### Tomorrow_Regular400_Italic
-![Tomorrow_Regular400_Italic](./b3eda563419f8c13997aed418ed32fcc44e137a85792169be016f3242f1dbd26.ttf.png)
+##### Tomorrow_400Regular_Italic
+![Tomorrow_400Regular_Italic](./Tomorrow_400Regular_Italic.ttf.png)
 
-##### Tomorrow_Medium500
-![Tomorrow_Medium500](./60bf8a426801434668a4d142fe97fa27c6e2dc3fa243ddeebf54f7c9d0284cbf.ttf.png)
+##### Tomorrow_500Medium
+![Tomorrow_500Medium](./Tomorrow_500Medium.ttf.png)
 
-##### Tomorrow_Medium500_Italic
-![Tomorrow_Medium500_Italic](./74048134b96771acecb5de5c4af84c177e24ca1b8a7c3b6c9852c5f68517cbb0.ttf.png)
+##### Tomorrow_500Medium_Italic
+![Tomorrow_500Medium_Italic](./Tomorrow_500Medium_Italic.ttf.png)
 
-##### Tomorrow_SemiBold600
-![Tomorrow_SemiBold600](./3de6c087f280da15fd40635ba1cc66fe7c78a10350dd0f94ae6ada95384f31a4.ttf.png)
+##### Tomorrow_600SemiBold
+![Tomorrow_600SemiBold](./Tomorrow_600SemiBold.ttf.png)
 
-##### Tomorrow_SemiBold600_Italic
-![Tomorrow_SemiBold600_Italic](./2e985e11cd4dd1e0fd28d54e7a8c28dd1d7bf7fb880476ad1ff3ea0920bae21a.ttf.png)
+##### Tomorrow_600SemiBold_Italic
+![Tomorrow_600SemiBold_Italic](./Tomorrow_600SemiBold_Italic.ttf.png)
 
-##### Tomorrow_Bold700
-![Tomorrow_Bold700](./2434798866b49db9f385b1aff9ce12097fd03456a8dd4c6aa8dfa8478446c036.ttf.png)
+##### Tomorrow_700Bold
+![Tomorrow_700Bold](./Tomorrow_700Bold.ttf.png)
 
-##### Tomorrow_Bold700_Italic
-![Tomorrow_Bold700_Italic](./523759fa7f5b6d8e1fd036f0fe530eb086c95d6be872aa152730f72cc697b264.ttf.png)
+##### Tomorrow_700Bold_Italic
+![Tomorrow_700Bold_Italic](./Tomorrow_700Bold_Italic.ttf.png)
 
-##### Tomorrow_ExtraBold800
-![Tomorrow_ExtraBold800](./1a88013dd353dca273c7a4129ba7433767521753e669d6b73174ac30b3004aca.ttf.png)
+##### Tomorrow_800ExtraBold
+![Tomorrow_800ExtraBold](./Tomorrow_800ExtraBold.ttf.png)
 
-##### Tomorrow_ExtraBold800_Italic
-![Tomorrow_ExtraBold800_Italic](./c11ab2b695c695bcd579be5ede3d5e8f268d1754defa82cb82da445a0f6fcc68.ttf.png)
+##### Tomorrow_800ExtraBold_Italic
+![Tomorrow_800ExtraBold_Italic](./Tomorrow_800ExtraBold_Italic.ttf.png)
 
-##### Tomorrow_Black900
-![Tomorrow_Black900](./976124bee1d9ac2c0b64250e695eb111c22947028b468261ac2ba747e935ce41.ttf.png)
+##### Tomorrow_900Black
+![Tomorrow_900Black](./Tomorrow_900Black.ttf.png)
 
-##### Tomorrow_Black900_Italic
-![Tomorrow_Black900_Italic](./84a0fcf0b30441638a28059e5e836a2441bbd5f51553c29ae163f37af0e07b6e.ttf.png)
+##### Tomorrow_900Black_Italic
+![Tomorrow_900Black_Italic](./Tomorrow_900Black_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -261,7 +259,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/tomorrow)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

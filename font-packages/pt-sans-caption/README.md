@@ -7,16 +7,14 @@
 
 This package lets you use the [**PT Sans Caption**](https://fonts.google.com/specimen/PT+Sans+Caption) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## PT Sans Caption
 
 ![PT Sans Caption](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `PTSansCaption_Regular400`
-- `PTSansCaption_Bold700`
+- `PTSansCaption_400Regular`
+- `PTSansCaption_700Bold`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  PTSansCaption_Regular400,
-  PTSansCaption_Bold700,
   useFonts,
+  PTSansCaption_400Regular,
+  PTSansCaption_700Bold,
 } from '@expo-google-fonts/pt-sans-caption';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    PTSansCaption_Regular400,
-    PTSansCaption_Bold700,
+    PTSansCaption_400Regular,
+    PTSansCaption_700Bold,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSansCaption_Regular400' }}>
-          PTSansCaption_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSansCaption_400Regular' }}>
+          PTSansCaption_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSansCaption_Bold700' }}>
-          PTSansCaption_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSansCaption_700Bold' }}>
+          PTSansCaption_700Bold
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PTSansCaption_Regular400
-![PTSansCaption_Regular400](./1245ca967adbb79f480b169e92cf44a71ae4cb8571b9847ceb3de43e7235361c.ttf.png)
+##### PTSansCaption_400Regular
+![PTSansCaption_400Regular](./PTSansCaption_400Regular.ttf.png)
 
-##### PTSansCaption_Bold700
-![PTSansCaption_Bold700](./f47afcc4feb502bfa6ca192ad230e0d743be26deb97832412722544b223ed461.ttf.png)
+##### PTSansCaption_700Bold
+![PTSansCaption_700Bold](./PTSansCaption_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/pt-sans-caption)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Lily Script One';
-export const __fontFamilyVersion__ = 4;
-
-export const LilyScriptOne_Regular400 = require('./e8c1fa639d81f625fc5e1f8d3e2988ea5a29d0a6b0a0b6b6a617ee21af28ffc6.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const LilyScriptOne_400Regular = require('./LilyScriptOne_400Regular.ttf');

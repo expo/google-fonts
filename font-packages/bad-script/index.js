@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bad Script';
-export const __fontFamilyVersion__ = 5;
-
-export const BadScript_Regular400 = require('./85388546eb146e3e3bf5803d4a47f053ad2a9491ee3470c23912777bfbfbc111.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BadScript_400Regular = require('./BadScript_400Regular.ttf');

@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Nanum Gothic Coding';
-export const __fontFamilyVersion__ = 7;
-
-export const NanumGothicCoding_Regular400 = require('./87aa4e424fb41b2eb66974966afbb9b9d113444c73ddfec8d9960d1c9f15ca2a.ttf');
-export const NanumGothicCoding_Bold700 = require('./bfd061e7ac41bb2ac41c1b32e194b64a92ea19253afc0008d1a5e58e330434f9.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const NanumGothicCoding_400Regular = require('./NanumGothicCoding_400Regular.ttf');
+export const NanumGothicCoding_700Bold = require('./NanumGothicCoding_700Bold.ttf');

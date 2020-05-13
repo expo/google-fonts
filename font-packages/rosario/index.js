@@ -4,10 +4,14 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Rosario';
-export const __fontFamilyVersion__ = 11;
-
-export const Rosario_Regular400 = require('./dc6413573a989dcba9ee4d0b7670f9eb53c458ddefc205ef6e0bd1e1c0be395e.ttf');
-export const Rosario_Regular400_Italic = require('./f099b91c7f453830c2471e0be3a576f1f58943f343e98b2d994a8f195364e51f.ttf');
-export const Rosario_Bold700 = require('./eba2172f0e05afe4e99a14d3a265d3f334e6110105c10842f43387dc99341df6.ttf');
-export const Rosario_Bold700_Italic = require('./2fde400ab1655e1710a53bca2ab413a1504a54748fcac3b8ffea6135f4b8aabb.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Rosario_300Light = require('./Rosario_300Light.ttf');
+export const Rosario_400Regular = require('./Rosario_400Regular.ttf');
+export const Rosario_500Medium = require('./Rosario_500Medium.ttf');
+export const Rosario_600SemiBold = require('./Rosario_600SemiBold.ttf');
+export const Rosario_700Bold = require('./Rosario_700Bold.ttf');
+export const Rosario_300Light_Italic = require('./Rosario_300Light_Italic.ttf');
+export const Rosario_400Regular_Italic = require('./Rosario_400Regular_Italic.ttf');
+export const Rosario_500Medium_Italic = require('./Rosario_500Medium_Italic.ttf');
+export const Rosario_600SemiBold_Italic = require('./Rosario_600SemiBold_Italic.ttf');
+export const Rosario_700Bold_Italic = require('./Rosario_700Bold_Italic.ttf');

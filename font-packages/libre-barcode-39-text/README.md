@@ -7,15 +7,13 @@
 
 This package lets you use the [**Libre Barcode 39 Text**](https://fonts.google.com/specimen/Libre+Barcode+39+Text) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Libre Barcode 39 Text
 
 ![Libre Barcode 39 Text](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `LibreBarcode39Text_Regular400`
+- `LibreBarcode39Text_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { LibreBarcode39Text_Regular400, useFonts } from '@expo-google-fonts/libre-barcode-39-text';
+import { useFonts, LibreBarcode39Text_400Regular } from '@expo-google-fonts/libre-barcode-39-text';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LibreBarcode39Text_Regular400,
+    LibreBarcode39Text_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreBarcode39Text_Regular400' }}>
-          LibreBarcode39Text_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreBarcode39Text_400Regular' }}>
+          LibreBarcode39Text_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LibreBarcode39Text_Regular400
-![LibreBarcode39Text_Regular400](./ee70d574bc973714d8a7d914d0647a5125c638ce6a1f231fae84020e61b2576e.ttf.png)
+##### LibreBarcode39Text_400Regular
+![LibreBarcode39Text_400Regular](./LibreBarcode39Text_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/libre-barcode-39-text)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

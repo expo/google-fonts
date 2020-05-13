@@ -7,15 +7,13 @@
 
 This package lets you use the [**Alike Angular**](https://fonts.google.com/specimen/Alike+Angular) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Alike Angular
 
 ![Alike Angular](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `AlikeAngular_Regular400`
+- `AlikeAngular_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { AlikeAngular_Regular400, useFonts } from '@expo-google-fonts/alike-angular';
+import { useFonts, AlikeAngular_400Regular } from '@expo-google-fonts/alike-angular';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    AlikeAngular_Regular400,
+    AlikeAngular_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlikeAngular_Regular400' }}>
-          AlikeAngular_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlikeAngular_400Regular' }}>
+          AlikeAngular_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AlikeAngular_Regular400
-![AlikeAngular_Regular400](./0ae146a31a48840c579bbeefc31597a7c9b385c626ef8387ad461aeea8432452.ttf.png)
+##### AlikeAngular_400Regular
+![AlikeAngular_400Regular](./AlikeAngular_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/alike-angular)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

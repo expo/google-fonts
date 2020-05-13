@@ -7,15 +7,13 @@
 
 This package lets you use the [**Love Ya Like A Sister**](https://fonts.google.com/specimen/Love+Ya+Like+A+Sister) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Love Ya Like A Sister
 
 ![Love Ya Like A Sister](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `LoveYaLikeASister_Regular400`
+- `LoveYaLikeASister_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { LoveYaLikeASister_Regular400, useFonts } from '@expo-google-fonts/love-ya-like-a-sister';
+import { useFonts, LoveYaLikeASister_400Regular } from '@expo-google-fonts/love-ya-like-a-sister';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LoveYaLikeASister_Regular400,
+    LoveYaLikeASister_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LoveYaLikeASister_Regular400' }}>
-          LoveYaLikeASister_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LoveYaLikeASister_400Regular' }}>
+          LoveYaLikeASister_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LoveYaLikeASister_Regular400
-![LoveYaLikeASister_Regular400](./d7068a0e071e73ae0e18893c97cb33a901b4cd1482fed4150d017e6ac0f7a636.ttf.png)
+##### LoveYaLikeASister_400Regular
+![LoveYaLikeASister_400Regular](./LoveYaLikeASister_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/love-ya-like-a-sister)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

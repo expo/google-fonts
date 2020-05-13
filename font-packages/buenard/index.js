@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Buenard';
-export const __fontFamilyVersion__ = 7;
-
-export const Buenard_Regular400 = require('./98e52931f613305f11ff078f1cb569682195e516554178bf3c4127f644df907a.ttf');
-export const Buenard_Bold700 = require('./8b680cec9af406d125f721b89472951a526fcf17393adea7449be902ffb7f5cd.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Buenard_400Regular = require('./Buenard_400Regular.ttf');
+export const Buenard_700Bold = require('./Buenard_700Bold.ttf');

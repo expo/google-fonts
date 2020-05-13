@@ -7,15 +7,13 @@
 
 This package lets you use the [**Carrois Gothic**](https://fonts.google.com/specimen/Carrois+Gothic) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Carrois Gothic
 
 ![Carrois Gothic](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `CarroisGothic_Regular400`
+- `CarroisGothic_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { CarroisGothic_Regular400, useFonts } from '@expo-google-fonts/carrois-gothic';
+import { useFonts, CarroisGothic_400Regular } from '@expo-google-fonts/carrois-gothic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CarroisGothic_Regular400,
+    CarroisGothic_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CarroisGothic_Regular400' }}>
-          CarroisGothic_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CarroisGothic_400Regular' }}>
+          CarroisGothic_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CarroisGothic_Regular400
-![CarroisGothic_Regular400](./d013d780a3d17a244794f0d2649a6214a1946f102ddf0a02fe366fa7bb8bb6ec.ttf.png)
+##### CarroisGothic_400Regular
+![CarroisGothic_400Regular](./CarroisGothic_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/carrois-gothic)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

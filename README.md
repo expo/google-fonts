@@ -4,7 +4,7 @@
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 
 The `@expo-google-fonts` packages for Expo allow you to easily use 
-any of 964 fonts (and their variants) from 
+any of 991 fonts (and their variants) from 
 [fonts.google.com](https://fonts.google.com) in your Expo app.
 
 These packages and all these fonts work across web, iOS, and Android.
@@ -27,8 +27,9 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Nunito_Regular400,
-  Nunito_SemiBold600_Italic,
+  useFonts,
+  Nunito_400Regular,
+  Nunito_600SemiBold_Italic,
   useFonts,
 } from '@expo-google-fonts/nunito';
 
@@ -47,12 +48,12 @@ export default () => {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_Regular400' }}>
-          Nunito_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_400Regular' }}>
+          Nunito_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_SemiBold600_Italic' }}>
-          Nunito_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_600SemiBold_Italic' }}>
+          Nunito_600SemiBold_Italic
         </Text>
 
       </View>
@@ -73,19 +74,15 @@ Each individual font family package README includes a complete example of using 
 
 You can browse all available Google Fonts on [fonts.google.com](https://fonts.google.com).
 
-Here are a few examples of the 964 font families available:
+Here are a few examples of the 991 font families available:
 
 
 ||||
 |-|-|-|
-|[![Manrope](./font-packages/manrope/1f742b6ef495bb5b9f5b968a27c50281ca1f9822bb53ec99bb3757ff2f3febfd.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/manrope#readme)|[![Inter](./font-packages/inter/74b0b48ce5240039e1a17c62f24f5abc322d3d77d4bf96efcdad6d637123cc9d.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/inter#readme)|[![Allan](./font-packages/allan/83a268d06857cada4246725e7cc04eb4d7b87d19e6d4f44e745d33be739852fb.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/allan#readme)|
-|[![Roboto](./font-packages/roboto/030868028bda24a27a45e0be44c8ae15544762b94f80da746c8b8a1c05f8e952.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)|[![Lusitana](./font-packages/lusitana/c6df963163bf20f6d3c7e20307b4e363715e13d9047b5707caa9407e11af4ebb.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/lusitana#readme)|[![OpenSans](./font-packages/open-sans/7b37b8abba9dcb01b9474da19527db14307fd9211e34e4d8a3d77dc9a19f2753.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/open-sans#readme)|
-|[![Bangers](./font-packages/bangers/42a6646ed15dc91b9430f7e69e6259203235b48fa12c9cc10b6b72afab348de0.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/bangers#readme)|[![SourceSansPro](./font-packages/source-sans-pro/6ed615e8d0355256e2d6d907b3addb929879c90c8383dd566b2208c79ffd16f7.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/source-sans-pro#readme)|[![RobotoCondensed](./font-packages/roboto-condensed/a0e62c76df9173512c94484b3994d83d2b4648dadb8ea6104f3656a3b60f25bc.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto-condensed#readme)|
-|[![PlayfairDisplay](./font-packages/playfair-display/924bc8e9d64e8b2f2cb789375461b2d504e9975b6f77da5ffc252ddc8a3aac57.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playfair-display#readme)|[![Ubuntu](./font-packages/ubuntu/69538c1ee708ba76c975ea534b5ea8bd65054114da93581ed279bdedde98986c.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/ubuntu#readme)|[![Oswald](./font-packages/oswald/9dc4929f8d8935621ca4717817eb3167fc881d03d496c6dca51ff292f730c873.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/oswald#readme)|
-
-
-
-
+|[![Manrope](./font-packages/manrope/Manrope_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/manrope#readme)|[![Inter](./font-packages/inter/Inter_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/inter#readme)|[![Allan](./font-packages/allan/Allan_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/allan#readme)|
+|[![Roboto](./font-packages/roboto/Roboto_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)|[![Lusitana](./font-packages/lusitana/Lusitana_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/lusitana#readme)|[![OpenSans](./font-packages/open-sans/OpenSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/open-sans#readme)|
+|[![Bangers](./font-packages/bangers/Bangers_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/bangers#readme)|[![SourceSansPro](./font-packages/source-sans-pro/SourceSansPro_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/source-sans-pro#readme)|[![RobotoCondensed](./font-packages/roboto-condensed/RobotoCondensed_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto-condensed#readme)|
+|[![PlayfairDisplay](./font-packages/playfair-display/PlayfairDisplay_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playfair-display#readme)|[![Ubuntu](./font-packages/ubuntu/Ubuntu_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/ubuntu#readme)|[![Oswald](./font-packages/oswald/Oswald_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/oswald#readme)|
 
 
 You can check out [the gallery for this project](./GALLERY.md) to see all of them.
@@ -99,8 +96,6 @@ You can import *any* font style from any Expo Google Fonts package from it. It w
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
 for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.
-
-
 
 ## 📖 Licensing
 

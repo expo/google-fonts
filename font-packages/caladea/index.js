@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Caladea';
-export const __fontFamilyVersion__ = 1;
-
-export const Caladea_Regular400 = require('./60f1d4e3a572497f3530ac2ae1478709e606b3bdaaa56f97fd7efbc48e01de08.ttf');
-export const Caladea_Regular400_Italic = require('./a200599eb491ec914c9ce2fe7b2cdda1f14b4d082af53d054932993d3db7e7bb.ttf');
-export const Caladea_Bold700 = require('./fb25a8c8d05e937b9c5c3a001d1801276ba670641e4332a5f5d83cdc357cc5c3.ttf');
-export const Caladea_Bold700_Italic = require('./0d6a8296a9489017c434820f994212d73ffe43b80bc9b3913f0eec7a4b3d4ed5.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Caladea_400Regular = require('./Caladea_400Regular.ttf');
+export const Caladea_400Regular_Italic = require('./Caladea_400Regular_Italic.ttf');
+export const Caladea_700Bold = require('./Caladea_700Bold.ttf');
+export const Caladea_700Bold_Italic = require('./Caladea_700Bold_Italic.ttf');

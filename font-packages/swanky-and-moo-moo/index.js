@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Swanky and Moo Moo';
-export const __fontFamilyVersion__ = 6;
-
-export const SwankyandMooMoo_Regular400 = require('./5d97fafd655154f9469db4b981793373b837c26023dd266164ebd62c6320aa39.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const SwankyandMooMoo_400Regular = require('./SwankyandMooMoo_400Regular.ttf');

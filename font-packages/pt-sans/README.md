@@ -7,18 +7,16 @@
 
 This package lets you use the [**PT Sans**](https://fonts.google.com/specimen/PT+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## PT Sans
 
 ![PT Sans](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `PTSans_Regular400`
-- `PTSans_Regular400_Italic`
-- `PTSans_Bold700`
-- `PTSans_Bold700_Italic`
+- `PTSans_400Regular`
+- `PTSans_400Regular_Italic`
+- `PTSans_700Bold`
+- `PTSans_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  PTSans_Regular400,
-  PTSans_Regular400_Italic,
-  PTSans_Bold700,
-  PTSans_Bold700_Italic,
   useFonts,
+  PTSans_400Regular,
+  PTSans_400Regular_Italic,
+  PTSans_700Bold,
+  PTSans_700Bold_Italic,
 } from '@expo-google-fonts/pt-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    PTSans_Regular400,
-    PTSans_Regular400_Italic,
-    PTSans_Bold700,
-    PTSans_Bold700_Italic,
+    PTSans_400Regular,
+    PTSans_400Regular_Italic,
+    PTSans_700Bold,
+    PTSans_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSans_Regular400' }}>
-          PTSans_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSans_400Regular' }}>
+          PTSans_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSans_Regular400_Italic' }}>
-          PTSans_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSans_400Regular_Italic' }}>
+          PTSans_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSans_Bold700' }}>
-          PTSans_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSans_700Bold' }}>
+          PTSans_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSans_Bold700_Italic' }}>
-          PTSans_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSans_700Bold_Italic' }}>
+          PTSans_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PTSans_Regular400
-![PTSans_Regular400](./8a587dc4260abac4008021f8b9302115ee0f9616aee70d95d4d49f447f4df0f9.ttf.png)
+##### PTSans_400Regular
+![PTSans_400Regular](./PTSans_400Regular.ttf.png)
 
-##### PTSans_Regular400_Italic
-![PTSans_Regular400_Italic](./6de2d3f34e12548006ef800234119a1b1d90bba33fb1d33f5bf41577bc954338.ttf.png)
+##### PTSans_400Regular_Italic
+![PTSans_400Regular_Italic](./PTSans_400Regular_Italic.ttf.png)
 
-##### PTSans_Bold700
-![PTSans_Bold700](./2a88a8de5aeccdc3e4febba14c9ade00ec49e16f2718050be6bc3f4f37e8ff0b.ttf.png)
+##### PTSans_700Bold
+![PTSans_700Bold](./PTSans_700Bold.ttf.png)
 
-##### PTSans_Bold700_Italic
-![PTSans_Bold700_Italic](./a37694659d53ae08c11bf532f8871e90b911f61967c3e23f456e59e7c55b33e6.ttf.png)
+##### PTSans_700Bold_Italic
+![PTSans_700Bold_Italic](./PTSans_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/pt-sans)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

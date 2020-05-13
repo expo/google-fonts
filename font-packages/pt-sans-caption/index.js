@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'PT Sans Caption';
-export const __fontFamilyVersion__ = 9;
-
-export const PTSansCaption_Regular400 = require('./1245ca967adbb79f480b169e92cf44a71ae4cb8571b9847ceb3de43e7235361c.ttf');
-export const PTSansCaption_Bold700 = require('./f47afcc4feb502bfa6ca192ad230e0d743be26deb97832412722544b223ed461.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const PTSansCaption_400Regular = require('./PTSansCaption_400Regular.ttf');
+export const PTSansCaption_700Bold = require('./PTSansCaption_700Bold.ttf');

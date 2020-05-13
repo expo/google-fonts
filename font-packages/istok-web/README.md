@@ -7,18 +7,16 @@
 
 This package lets you use the [**Istok Web**](https://fonts.google.com/specimen/Istok+Web) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Istok Web
 
 ![Istok Web](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `IstokWeb_Regular400`
-- `IstokWeb_Regular400_Italic`
-- `IstokWeb_Bold700`
-- `IstokWeb_Bold700_Italic`
+- `IstokWeb_400Regular`
+- `IstokWeb_400Regular_Italic`
+- `IstokWeb_700Bold`
+- `IstokWeb_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  IstokWeb_Regular400,
-  IstokWeb_Regular400_Italic,
-  IstokWeb_Bold700,
-  IstokWeb_Bold700_Italic,
   useFonts,
+  IstokWeb_400Regular,
+  IstokWeb_400Regular_Italic,
+  IstokWeb_700Bold,
+  IstokWeb_700Bold_Italic,
 } from '@expo-google-fonts/istok-web';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    IstokWeb_Regular400,
-    IstokWeb_Regular400_Italic,
-    IstokWeb_Bold700,
-    IstokWeb_Bold700_Italic,
+    IstokWeb_400Regular,
+    IstokWeb_400Regular_Italic,
+    IstokWeb_700Bold,
+    IstokWeb_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IstokWeb_Regular400' }}>
-          IstokWeb_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IstokWeb_400Regular' }}>
+          IstokWeb_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IstokWeb_Regular400_Italic' }}>
-          IstokWeb_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IstokWeb_400Regular_Italic' }}>
+          IstokWeb_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IstokWeb_Bold700' }}>
-          IstokWeb_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IstokWeb_700Bold' }}>
+          IstokWeb_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IstokWeb_Bold700_Italic' }}>
-          IstokWeb_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IstokWeb_700Bold_Italic' }}>
+          IstokWeb_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IstokWeb_Regular400
-![IstokWeb_Regular400](./69f0e211d11c1acf74b2c9076af79b8c4437700758d0282acf48674ef128953a.ttf.png)
+##### IstokWeb_400Regular
+![IstokWeb_400Regular](./IstokWeb_400Regular.ttf.png)
 
-##### IstokWeb_Regular400_Italic
-![IstokWeb_Regular400_Italic](./05eee5ff9d276f82970504c5e15e6097ae58262e043f86c6620a18611cdcf94e.ttf.png)
+##### IstokWeb_400Regular_Italic
+![IstokWeb_400Regular_Italic](./IstokWeb_400Regular_Italic.ttf.png)
 
-##### IstokWeb_Bold700
-![IstokWeb_Bold700](./000e33f7e7a72f87087ee83ef75edf7993294fc065f5f8e52ae6ca1c90c7517f.ttf.png)
+##### IstokWeb_700Bold
+![IstokWeb_700Bold](./IstokWeb_700Bold.ttf.png)
 
-##### IstokWeb_Bold700_Italic
-![IstokWeb_Bold700_Italic](./c19d7189ef0fb5066351d3851d3a386722d97b98c62fc344ffce8f4f1889512a.ttf.png)
+##### IstokWeb_700Bold_Italic
+![IstokWeb_700Bold_Italic](./IstokWeb_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/istok-web)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

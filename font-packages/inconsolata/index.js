@@ -4,8 +4,12 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Inconsolata';
-export const __fontFamilyVersion__ = 15;
-
-export const Inconsolata_Regular400 = require('./7b710cb16b36b86fd08be8de67824345433e776ff152ce4d819f8dac26b76bb2.ttf');
-export const Inconsolata_Bold700 = require('./499bfec42f5525e40e1acc5d044cce315e80cc9c1205db693cf68fd5a7b724d3.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Inconsolata_200ExtraLight = require('./Inconsolata_200ExtraLight.ttf');
+export const Inconsolata_300Light = require('./Inconsolata_300Light.ttf');
+export const Inconsolata_400Regular = require('./Inconsolata_400Regular.ttf');
+export const Inconsolata_500Medium = require('./Inconsolata_500Medium.ttf');
+export const Inconsolata_600SemiBold = require('./Inconsolata_600SemiBold.ttf');
+export const Inconsolata_700Bold = require('./Inconsolata_700Bold.ttf');
+export const Inconsolata_800ExtraBold = require('./Inconsolata_800ExtraBold.ttf');
+export const Inconsolata_900Black = require('./Inconsolata_900Black.ttf');

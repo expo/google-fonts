@@ -7,15 +7,13 @@
 
 This package lets you use the [**Black And White Picture**](https://fonts.google.com/specimen/Black+And+White+Picture) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Black And White Picture
 
 ![Black And White Picture](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `BlackAndWhitePicture_Regular400`
+- `BlackAndWhitePicture_400Regular`
 
 ## Usage
 
@@ -31,13 +29,13 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  BlackAndWhitePicture_Regular400,
   useFonts,
+  BlackAndWhitePicture_400Regular,
 } from '@expo-google-fonts/black-and-white-picture';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    BlackAndWhitePicture_Regular400,
+    BlackAndWhitePicture_400Regular,
   });
 
   let fontSize = 24;
@@ -48,8 +46,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BlackAndWhitePicture_Regular400' }}>
-          BlackAndWhitePicture_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BlackAndWhitePicture_400Regular' }}>
+          BlackAndWhitePicture_400Regular
         </Text>
       </View>
     );
@@ -60,8 +58,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BlackAndWhitePicture_Regular400
-![BlackAndWhitePicture_Regular400](./0c951e047e8f1e152232363c35791b975f78ae96c97bfa6f14634c7a2551970c.ttf.png)
+##### BlackAndWhitePicture_400Regular
+![BlackAndWhitePicture_400Regular](./BlackAndWhitePicture_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -91,7 +89,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/black-and-white-picture)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

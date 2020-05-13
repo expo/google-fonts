@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Oleo Script';
-export const __fontFamilyVersion__ = 5;
-
-export const OleoScript_Regular400 = require('./e45b8be9acc97bbb496e30675fa48edc79f4cfe2e8c66346914c8264acbe18b3.ttf');
-export const OleoScript_Bold700 = require('./5742e5a26ecfd414f7f87868d0fb5fefead55b1227f381bfefe5243750279804.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const OleoScript_400Regular = require('./OleoScript_400Regular.ttf');
+export const OleoScript_700Bold = require('./OleoScript_700Bold.ttf');

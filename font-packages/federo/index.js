@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Federo';
-export const __fontFamilyVersion__ = 8;
-
-export const Federo_Regular400 = require('./cefb7b8c896226fdb5493d3bd75dbb0baae167b10f60d892578bc75dc1acc5b5.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Federo_400Regular = require('./Federo_400Regular.ttf');

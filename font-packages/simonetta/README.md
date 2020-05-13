@@ -7,18 +7,16 @@
 
 This package lets you use the [**Simonetta**](https://fonts.google.com/specimen/Simonetta) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Simonetta
 
 ![Simonetta](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Simonetta_Regular400`
-- `Simonetta_Regular400_Italic`
-- `Simonetta_Black900`
-- `Simonetta_Black900_Italic`
+- `Simonetta_400Regular`
+- `Simonetta_400Regular_Italic`
+- `Simonetta_900Black`
+- `Simonetta_900Black_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Simonetta_Regular400,
-  Simonetta_Regular400_Italic,
-  Simonetta_Black900,
-  Simonetta_Black900_Italic,
   useFonts,
+  Simonetta_400Regular,
+  Simonetta_400Regular_Italic,
+  Simonetta_900Black,
+  Simonetta_900Black_Italic,
 } from '@expo-google-fonts/simonetta';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Simonetta_Regular400,
-    Simonetta_Regular400_Italic,
-    Simonetta_Black900,
-    Simonetta_Black900_Italic,
+    Simonetta_400Regular,
+    Simonetta_400Regular_Italic,
+    Simonetta_900Black,
+    Simonetta_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Simonetta_Regular400' }}>
-          Simonetta_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Simonetta_400Regular' }}>
+          Simonetta_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Simonetta_Regular400_Italic' }}>
-          Simonetta_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Simonetta_400Regular_Italic' }}>
+          Simonetta_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Simonetta_Black900' }}>
-          Simonetta_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Simonetta_900Black' }}>
+          Simonetta_900Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Simonetta_Black900_Italic' }}>
-          Simonetta_Black900_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Simonetta_900Black_Italic' }}>
+          Simonetta_900Black_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Simonetta_Regular400
-![Simonetta_Regular400](./d055b6397968d2e7b9a9c70b4e5d12a390ae937fbb2c140c5a2ca2bcb019501f.ttf.png)
+##### Simonetta_400Regular
+![Simonetta_400Regular](./Simonetta_400Regular.ttf.png)
 
-##### Simonetta_Regular400_Italic
-![Simonetta_Regular400_Italic](./dbbbd6a2dedbac1c09bf69696a69adec943f3ac81e9a4b6cedf0fab0beee274e.ttf.png)
+##### Simonetta_400Regular_Italic
+![Simonetta_400Regular_Italic](./Simonetta_400Regular_Italic.ttf.png)
 
-##### Simonetta_Black900
-![Simonetta_Black900](./2f9dab867c54e03c7203dae54a40e8233843e6ed0c74e9f1c939a0c3ff6e48ef.ttf.png)
+##### Simonetta_900Black
+![Simonetta_900Black](./Simonetta_900Black.ttf.png)
 
-##### Simonetta_Black900_Italic
-![Simonetta_Black900_Italic](./b59c51c3445243e941c14dbc3663f87d2ffaa11e037d4eca6d8cc9103048d478.ttf.png)
+##### Simonetta_900Black_Italic
+![Simonetta_900Black_Italic](./Simonetta_900Black_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/simonetta)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Gentium Book Basic';
-export const __fontFamilyVersion__ = 7;
-
-export const GentiumBookBasic_Regular400 = require('./0323cf4ee5a40f059eff7a114c130fd29fb414699c37336d6d305d42e3d30318.ttf');
-export const GentiumBookBasic_Regular400_Italic = require('./105db1c75307402ef0aaf8126c049e1910ec90f6a89c2745ac1fff1eb7525d03.ttf');
-export const GentiumBookBasic_Bold700 = require('./743cd21e49c299921cf5cdf719c179e0adc85a19aa73a142726805c1cb607f82.ttf');
-export const GentiumBookBasic_Bold700_Italic = require('./73ca1eff2db69f993bfff34753f6f216404bceaeb657dbf84734a8bce6f279a5.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const GentiumBookBasic_400Regular = require('./GentiumBookBasic_400Regular.ttf');
+export const GentiumBookBasic_400Regular_Italic = require('./GentiumBookBasic_400Regular_Italic.ttf');
+export const GentiumBookBasic_700Bold = require('./GentiumBookBasic_700Bold.ttf');
+export const GentiumBookBasic_700Bold_Italic = require('./GentiumBookBasic_700Bold_Italic.ttf');

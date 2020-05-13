@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Rozha One';
-export const __fontFamilyVersion__ = 3;
-
-export const RozhaOne_Regular400 = require('./f19c35bdc6cdb6ad7f6251e42e4bd0c4e43757cb71b9ecd26421f1fac039d1ef.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const RozhaOne_400Regular = require('./RozhaOne_400Regular.ttf');

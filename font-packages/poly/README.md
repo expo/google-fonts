@@ -7,16 +7,14 @@
 
 This package lets you use the [**Poly**](https://fonts.google.com/specimen/Poly) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Poly
 
 ![Poly](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Poly_Regular400`
-- `Poly_Regular400_Italic`
+- `Poly_400Regular`
+- `Poly_400Regular_Italic`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Poly_Regular400, Poly_Regular400_Italic, useFonts } from '@expo-google-fonts/poly';
+import { useFonts, Poly_400Regular, Poly_400Regular_Italic } from '@expo-google-fonts/poly';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Poly_Regular400,
-    Poly_Regular400_Italic,
+    Poly_400Regular,
+    Poly_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Poly_Regular400' }}>
-          Poly_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Poly_400Regular' }}>
+          Poly_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Poly_Regular400_Italic' }}>
-          Poly_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Poly_400Regular_Italic' }}>
+          Poly_400Regular_Italic
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Poly_Regular400
-![Poly_Regular400](./25d6b0314754bfa56533ecd2bf390f3f2108e60043db13b206cca5e0a900f857.ttf.png)
+##### Poly_400Regular
+![Poly_400Regular](./Poly_400Regular.ttf.png)
 
-##### Poly_Regular400_Italic
-![Poly_Regular400_Italic](./cc94a04fc599f53d7e32be6f932b998f8229d4e0462ebb808d61554abb4f0dbc.ttf.png)
+##### Poly_400Regular_Italic
+![Poly_400Regular_Italic](./Poly_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/poly)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

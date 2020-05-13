@@ -7,17 +7,15 @@
 
 This package lets you use the [**Fira Mono**](https://fonts.google.com/specimen/Fira+Mono) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Fira Mono
 
 ![Fira Mono](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `FiraMono_Regular400`
-- `FiraMono_Medium500`
-- `FiraMono_Bold700`
+- `FiraMono_400Regular`
+- `FiraMono_500Medium`
+- `FiraMono_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  FiraMono_Regular400,
-  FiraMono_Medium500,
-  FiraMono_Bold700,
   useFonts,
+  FiraMono_400Regular,
+  FiraMono_500Medium,
+  FiraMono_700Bold,
 } from '@expo-google-fonts/fira-mono';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    FiraMono_Regular400,
-    FiraMono_Medium500,
-    FiraMono_Bold700,
+    FiraMono_400Regular,
+    FiraMono_500Medium,
+    FiraMono_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraMono_Regular400' }}>
-          FiraMono_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraMono_400Regular' }}>
+          FiraMono_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraMono_Medium500' }}>
-          FiraMono_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraMono_500Medium' }}>
+          FiraMono_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraMono_Bold700' }}>
-          FiraMono_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraMono_700Bold' }}>
+          FiraMono_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FiraMono_Regular400
-![FiraMono_Regular400](./f17d60778f78f5928584a4f314a221b328dbce03da62fcc09caeebac82f76809.ttf.png)
+##### FiraMono_400Regular
+![FiraMono_400Regular](./FiraMono_400Regular.ttf.png)
 
-##### FiraMono_Medium500
-![FiraMono_Medium500](./003aa1dc6866482549cf715d4075e470701e918eadd47a035568d8d254f63e02.ttf.png)
+##### FiraMono_500Medium
+![FiraMono_500Medium](./FiraMono_500Medium.ttf.png)
 
-##### FiraMono_Bold700
-![FiraMono_Bold700](./4dab36f8faa3f89e09e177a6ef40eaacd307b98b2a38a14426be96ce9ed67a3b.ttf.png)
+##### FiraMono_700Bold
+![FiraMono_700Bold](./FiraMono_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/fira-mono)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

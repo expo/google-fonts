@@ -4,9 +4,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Trochut';
-export const __fontFamilyVersion__ = 4;
-
-export const Trochut_Regular400 = require('./fb7ad314480eec04c8ff53ad7a24690495145d924a92be149c75ccd5fe144215.ttf');
-export const Trochut_Regular400_Italic = require('./05e2d11e0d53984525926d1c86d71eab21194ae2664a3696175f68fb9e8969de.ttf');
-export const Trochut_Bold700 = require('./82633b54306a8a1649b8590f40a509a2808ff33ef157f6cc3f98d52130752914.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Trochut_400Regular = require('./Trochut_400Regular.ttf');
+export const Trochut_400Regular_Italic = require('./Trochut_400Regular_Italic.ttf');
+export const Trochut_700Bold = require('./Trochut_700Bold.ttf');

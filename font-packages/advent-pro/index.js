@@ -4,13 +4,11 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Advent Pro';
-export const __fontFamilyVersion__ = 5;
-
-export const AdventPro_Thin100 = require('./4041ce69b488624d0653057137ff69ead9c9496be2059ede6a5056fd48780850.ttf');
-export const AdventPro_ExtraLight200 = require('./20f54f798dd883fc2fab8294006f8201f1deed59b0abd0ad6c6864bb0062eb47.ttf');
-export const AdventPro_Light300 = require('./23462d311ba53dbeac614ad5c99742d75264652538c2aaaea50fa3f9a37c1111.ttf');
-export const AdventPro_Regular400 = require('./c7084224aa15f7d31683e67bc3107aa12f725f4d20a10e9b65bbcec912162191.ttf');
-export const AdventPro_Medium500 = require('./21feddd6602a8e2daf17501cb32c4b27a26b6a357f3652ad357008c8a90f1646.ttf');
-export const AdventPro_SemiBold600 = require('./908b9b388605933b6e469878f17c52da7e2cd9cd6c4ec72a3e12aa5a9c3b9b79.ttf');
-export const AdventPro_Bold700 = require('./962b3ce8591b2ca225b23e65b3914233c576d21700e3f24c6b820230fe8424e0.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const AdventPro_100Thin = require('./AdventPro_100Thin.ttf');
+export const AdventPro_200ExtraLight = require('./AdventPro_200ExtraLight.ttf');
+export const AdventPro_300Light = require('./AdventPro_300Light.ttf');
+export const AdventPro_400Regular = require('./AdventPro_400Regular.ttf');
+export const AdventPro_500Medium = require('./AdventPro_500Medium.ttf');
+export const AdventPro_600SemiBold = require('./AdventPro_600SemiBold.ttf');
+export const AdventPro_700Bold = require('./AdventPro_700Bold.ttf');

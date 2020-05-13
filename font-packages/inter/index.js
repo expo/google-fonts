@@ -4,15 +4,13 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Inter';
-export const __fontFamilyVersion__ = 1;
-
-export const Inter_Thin100 = require('./897d64cd0dfbeb56e7867aff5fb59519c0a18eaa535b4d4f9d636ac43028afb5.ttf');
-export const Inter_ExtraLight200 = require('./a8c528f80a6ad8d07eb0a822ff9763e3286ce1463b1cd881cafbc2d3d9018512.ttf');
-export const Inter_Light300 = require('./7cedc5ced62f88258ed3781a814ff426d7c63e5ef822bc77e66b393b3316ce86.ttf');
-export const Inter_Regular400 = require('./74b0b48ce5240039e1a17c62f24f5abc322d3d77d4bf96efcdad6d637123cc9d.ttf');
-export const Inter_Medium500 = require('./177913939a2c83016eaf35b8dcf5b863fcb5d8e86fcb78a14ad753d055d06436.ttf');
-export const Inter_SemiBold600 = require('./f0a9e5b2bc1eef6c3241a779a62cea7c34b88535d7e586390fdcdf28ab01d673.ttf');
-export const Inter_Bold700 = require('./94c9d9a14fc9ae26fd08041b634823238718b745b8a34986ddfb57cf3db367da.ttf');
-export const Inter_ExtraBold800 = require('./e5493c1e805b48142688a216308108352fd538721635d7f990c47996dcf8e2c4.ttf');
-export const Inter_Black900 = require('./a2a712f761390199ddad75da5123d6f97f529f5d6dab247f94ceb954a8fe381e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Inter_100Thin = require('./Inter_100Thin.ttf');
+export const Inter_200ExtraLight = require('./Inter_200ExtraLight.ttf');
+export const Inter_300Light = require('./Inter_300Light.ttf');
+export const Inter_400Regular = require('./Inter_400Regular.ttf');
+export const Inter_500Medium = require('./Inter_500Medium.ttf');
+export const Inter_600SemiBold = require('./Inter_600SemiBold.ttf');
+export const Inter_700Bold = require('./Inter_700Bold.ttf');
+export const Inter_800ExtraBold = require('./Inter_800ExtraBold.ttf');
+export const Inter_900Black = require('./Inter_900Black.ttf');

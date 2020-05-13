@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Short Stack';
-export const __fontFamilyVersion__ = 6;
-
-export const ShortStack_Regular400 = require('./558333b2d2edb0db150ab52358a8d983ea83d194559c81b99d0defac9ef6ea5c.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ShortStack_400Regular = require('./ShortStack_400Regular.ttf');

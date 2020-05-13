@@ -7,19 +7,17 @@
 
 This package lets you use the [**BioRhyme**](https://fonts.google.com/specimen/BioRhyme) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## BioRhyme
 
 ![BioRhyme](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `BioRhyme_ExtraLight200`
-- `BioRhyme_Light300`
-- `BioRhyme_Regular400`
-- `BioRhyme_Bold700`
-- `BioRhyme_ExtraBold800`
+- `BioRhyme_200ExtraLight`
+- `BioRhyme_300Light`
+- `BioRhyme_400Regular`
+- `BioRhyme_700Bold`
+- `BioRhyme_800ExtraBold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  BioRhyme_ExtraLight200,
-  BioRhyme_Light300,
-  BioRhyme_Regular400,
-  BioRhyme_Bold700,
-  BioRhyme_ExtraBold800,
   useFonts,
+  BioRhyme_200ExtraLight,
+  BioRhyme_300Light,
+  BioRhyme_400Regular,
+  BioRhyme_700Bold,
+  BioRhyme_800ExtraBold,
 } from '@expo-google-fonts/biorhyme';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    BioRhyme_ExtraLight200,
-    BioRhyme_Light300,
-    BioRhyme_Regular400,
-    BioRhyme_Bold700,
-    BioRhyme_ExtraBold800,
+    BioRhyme_200ExtraLight,
+    BioRhyme_300Light,
+    BioRhyme_400Regular,
+    BioRhyme_700Bold,
+    BioRhyme_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhyme_ExtraLight200' }}>
-          BioRhyme_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhyme_200ExtraLight' }}>
+          BioRhyme_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhyme_Light300' }}>
-          BioRhyme_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhyme_300Light' }}>
+          BioRhyme_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhyme_Regular400' }}>
-          BioRhyme_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhyme_400Regular' }}>
+          BioRhyme_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhyme_Bold700' }}>
-          BioRhyme_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhyme_700Bold' }}>
+          BioRhyme_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhyme_ExtraBold800' }}>
-          BioRhyme_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhyme_800ExtraBold' }}>
+          BioRhyme_800ExtraBold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BioRhyme_ExtraLight200
-![BioRhyme_ExtraLight200](./8c7047e02059b7ea10893cf7bcfe3dc06e450dd3fb6000e05171462fedc43f7e.ttf.png)
+##### BioRhyme_200ExtraLight
+![BioRhyme_200ExtraLight](./BioRhyme_200ExtraLight.ttf.png)
 
-##### BioRhyme_Light300
-![BioRhyme_Light300](./b9ee5307ca507a88bed949ef452d4b6c835e503ef09b30cbb1ace6d65030e873.ttf.png)
+##### BioRhyme_300Light
+![BioRhyme_300Light](./BioRhyme_300Light.ttf.png)
 
-##### BioRhyme_Regular400
-![BioRhyme_Regular400](./bfe90585ffc1c3fc0d661d75c86187e9b6176836b56026b7882465f43a328616.ttf.png)
+##### BioRhyme_400Regular
+![BioRhyme_400Regular](./BioRhyme_400Regular.ttf.png)
 
-##### BioRhyme_Bold700
-![BioRhyme_Bold700](./cd56fec3e00f732e0ff393a16cd304a5b4818b7b5bc437e4f418142a976284e6.ttf.png)
+##### BioRhyme_700Bold
+![BioRhyme_700Bold](./BioRhyme_700Bold.ttf.png)
 
-##### BioRhyme_ExtraBold800
-![BioRhyme_ExtraBold800](./43c38cd7da3c0c61638db3dbfd450b28e4abcacc9a48011176274140cf681c2b.ttf.png)
+##### BioRhyme_800ExtraBold
+![BioRhyme_800ExtraBold](./BioRhyme_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/biorhyme)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

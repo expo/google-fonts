@@ -7,15 +7,13 @@
 
 This package lets you use the [**Bree Serif**](https://fonts.google.com/specimen/Bree+Serif) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Bree Serif
 
 ![Bree Serif](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `BreeSerif_Regular400`
+- `BreeSerif_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { BreeSerif_Regular400, useFonts } from '@expo-google-fonts/bree-serif';
+import { useFonts, BreeSerif_400Regular } from '@expo-google-fonts/bree-serif';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    BreeSerif_Regular400,
+    BreeSerif_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BreeSerif_Regular400' }}>
-          BreeSerif_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BreeSerif_400Regular' }}>
+          BreeSerif_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BreeSerif_Regular400
-![BreeSerif_Regular400](./9a7248ed16d47821a8836aa345a8297f6c44d86162fdbc6475497bc799db0e9f.ttf.png)
+##### BreeSerif_400Regular
+![BreeSerif_400Regular](./BreeSerif_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/bree-serif)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

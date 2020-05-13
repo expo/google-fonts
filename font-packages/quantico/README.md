@@ -7,18 +7,16 @@
 
 This package lets you use the [**Quantico**](https://fonts.google.com/specimen/Quantico) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Quantico
 
 ![Quantico](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Quantico_Regular400`
-- `Quantico_Regular400_Italic`
-- `Quantico_Bold700`
-- `Quantico_Bold700_Italic`
+- `Quantico_400Regular`
+- `Quantico_400Regular_Italic`
+- `Quantico_700Bold`
+- `Quantico_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Quantico_Regular400,
-  Quantico_Regular400_Italic,
-  Quantico_Bold700,
-  Quantico_Bold700_Italic,
   useFonts,
+  Quantico_400Regular,
+  Quantico_400Regular_Italic,
+  Quantico_700Bold,
+  Quantico_700Bold_Italic,
 } from '@expo-google-fonts/quantico';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Quantico_Regular400,
-    Quantico_Regular400_Italic,
-    Quantico_Bold700,
-    Quantico_Bold700_Italic,
+    Quantico_400Regular,
+    Quantico_400Regular_Italic,
+    Quantico_700Bold,
+    Quantico_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quantico_Regular400' }}>
-          Quantico_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quantico_400Regular' }}>
+          Quantico_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quantico_Regular400_Italic' }}>
-          Quantico_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quantico_400Regular_Italic' }}>
+          Quantico_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quantico_Bold700' }}>
-          Quantico_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quantico_700Bold' }}>
+          Quantico_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quantico_Bold700_Italic' }}>
-          Quantico_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quantico_700Bold_Italic' }}>
+          Quantico_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Quantico_Regular400
-![Quantico_Regular400](./c0e68a0bf4434bcaf5078482638325be95f9ff8d23e161320e71396c3bac24db.ttf.png)
+##### Quantico_400Regular
+![Quantico_400Regular](./Quantico_400Regular.ttf.png)
 
-##### Quantico_Regular400_Italic
-![Quantico_Regular400_Italic](./8dc51f4e759adff1e4ef04d9489decee6534f253a8c586119e29e6ac5d4ba3e8.ttf.png)
+##### Quantico_400Regular_Italic
+![Quantico_400Regular_Italic](./Quantico_400Regular_Italic.ttf.png)
 
-##### Quantico_Bold700
-![Quantico_Bold700](./893455159a698723c49ac3c7b21b2eab8d58a8ae07a566c4b1aa1d49d301b100.ttf.png)
+##### Quantico_700Bold
+![Quantico_700Bold](./Quantico_700Bold.ttf.png)
 
-##### Quantico_Bold700_Italic
-![Quantico_Bold700_Italic](./1021a5020ebf627e4f792a27cf1af37913a9f7f26454ac4cc914f0f78b08df22.ttf.png)
+##### Quantico_700Bold_Italic
+![Quantico_700Bold_Italic](./Quantico_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/quantico)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

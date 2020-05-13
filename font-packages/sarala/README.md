@@ -7,16 +7,14 @@
 
 This package lets you use the [**Sarala**](https://fonts.google.com/specimen/Sarala) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sarala
 
 ![Sarala](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Sarala_Regular400`
-- `Sarala_Bold700`
+- `Sarala_400Regular`
+- `Sarala_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Sarala_Regular400, Sarala_Bold700, useFonts } from '@expo-google-fonts/sarala';
+import { useFonts, Sarala_400Regular, Sarala_700Bold } from '@expo-google-fonts/sarala';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Sarala_Regular400,
-    Sarala_Bold700,
+    Sarala_400Regular,
+    Sarala_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarala_Regular400' }}>
-          Sarala_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarala_400Regular' }}>
+          Sarala_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarala_Bold700' }}>
-          Sarala_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarala_700Bold' }}>
+          Sarala_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sarala_Regular400
-![Sarala_Regular400](./a9d80ed2e5dae04bd639f269f2f43d7fa0b65ef816a0abb64bbcae03db7a59bb.ttf.png)
+##### Sarala_400Regular
+![Sarala_400Regular](./Sarala_400Regular.ttf.png)
 
-##### Sarala_Bold700
-![Sarala_Bold700](./2b0699ce4a9bd9eb0f091d571c8992f4ff81d558ef3b60edd81a71a081a6420f.ttf.png)
+##### Sarala_700Bold
+![Sarala_700Bold](./Sarala_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sarala)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,16 +7,14 @@
 
 This package lets you use the [**Arapey**](https://fonts.google.com/specimen/Arapey) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Arapey
 
 ![Arapey](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Arapey_Regular400`
-- `Arapey_Regular400_Italic`
+- `Arapey_400Regular`
+- `Arapey_400Regular_Italic`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Arapey_Regular400, Arapey_Regular400_Italic, useFonts } from '@expo-google-fonts/arapey';
+import { useFonts, Arapey_400Regular, Arapey_400Regular_Italic } from '@expo-google-fonts/arapey';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Arapey_Regular400,
-    Arapey_Regular400_Italic,
+    Arapey_400Regular,
+    Arapey_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arapey_Regular400' }}>
-          Arapey_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arapey_400Regular' }}>
+          Arapey_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arapey_Regular400_Italic' }}>
-          Arapey_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arapey_400Regular_Italic' }}>
+          Arapey_400Regular_Italic
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Arapey_Regular400
-![Arapey_Regular400](./8d4786e233fac8fe0069ba6efaa828eb2fffef7b1d21a92a6d4f250ae9710415.ttf.png)
+##### Arapey_400Regular
+![Arapey_400Regular](./Arapey_400Regular.ttf.png)
 
-##### Arapey_Regular400_Italic
-![Arapey_Regular400_Italic](./10f469eeecd1cca95a1881d5fbd920abff25911a343caf957f7b2a0e3d4de390.ttf.png)
+##### Arapey_400Regular_Italic
+![Arapey_400Regular_Italic](./Arapey_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/arapey)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

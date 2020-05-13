@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Copse';
-export const __fontFamilyVersion__ = 6;
-
-export const Copse_Regular400 = require('./ace02d3cf195f5ddfbe562a9361241356d198ed56d25ec6d8dfb69e08a50133a.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Copse_400Regular = require('./Copse_400Regular.ttf');

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Antic';
-export const __fontFamilyVersion__ = 7;
-
-export const Antic_Regular400 = require('./6526fff8a94a5503810bc8805b716126e91295380d0e970f089e3e663a4440d5.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Antic_400Regular = require('./Antic_400Regular.ttf');

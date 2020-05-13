@@ -7,15 +7,13 @@
 
 This package lets you use the [**Lovers Quarrel**](https://fonts.google.com/specimen/Lovers+Quarrel) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Lovers Quarrel
 
 ![Lovers Quarrel](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `LoversQuarrel_Regular400`
+- `LoversQuarrel_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { LoversQuarrel_Regular400, useFonts } from '@expo-google-fonts/lovers-quarrel';
+import { useFonts, LoversQuarrel_400Regular } from '@expo-google-fonts/lovers-quarrel';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LoversQuarrel_Regular400,
+    LoversQuarrel_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LoversQuarrel_Regular400' }}>
-          LoversQuarrel_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LoversQuarrel_400Regular' }}>
+          LoversQuarrel_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LoversQuarrel_Regular400
-![LoversQuarrel_Regular400](./2b3afd5d2a24b3641cc9053301da4dd11e595d360d1f052a9527036e96ab00e9.ttf.png)
+##### LoversQuarrel_400Regular
+![LoversQuarrel_400Regular](./LoversQuarrel_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/lovers-quarrel)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

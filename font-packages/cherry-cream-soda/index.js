@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Cherry Cream Soda';
-export const __fontFamilyVersion__ = 6;
-
-export const CherryCreamSoda_Regular400 = require('./47e79c87ca78a16fd9c841454bdf7ea5a7485a08a7f78baddcc83bbc2f510729.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const CherryCreamSoda_400Regular = require('./CherryCreamSoda_400Regular.ttf');

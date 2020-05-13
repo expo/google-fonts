@@ -7,15 +7,13 @@
 
 This package lets you use the [**Varela Round**](https://fonts.google.com/specimen/Varela+Round) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Varela Round
 
 ![Varela Round](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `VarelaRound_Regular400`
+- `VarelaRound_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { VarelaRound_Regular400, useFonts } from '@expo-google-fonts/varela-round';
+import { useFonts, VarelaRound_400Regular } from '@expo-google-fonts/varela-round';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    VarelaRound_Regular400,
+    VarelaRound_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VarelaRound_Regular400' }}>
-          VarelaRound_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'VarelaRound_400Regular' }}>
+          VarelaRound_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### VarelaRound_Regular400
-![VarelaRound_Regular400](./23459f7eed93ae80137b9ac0c3c1ab000743c9c983fb7c14b6d5f3ceb8e4eb15.ttf.png)
+##### VarelaRound_400Regular
+![VarelaRound_400Regular](./VarelaRound_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/varela-round)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

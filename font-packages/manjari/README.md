@@ -7,17 +7,15 @@
 
 This package lets you use the [**Manjari**](https://fonts.google.com/specimen/Manjari) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Manjari
 
 ![Manjari](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `Manjari_Thin100`
-- `Manjari_Regular400`
-- `Manjari_Bold700`
+- `Manjari_100Thin`
+- `Manjari_400Regular`
+- `Manjari_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Manjari_Thin100,
-  Manjari_Regular400,
-  Manjari_Bold700,
   useFonts,
+  Manjari_100Thin,
+  Manjari_400Regular,
+  Manjari_700Bold,
 } from '@expo-google-fonts/manjari';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Manjari_Thin100,
-    Manjari_Regular400,
-    Manjari_Bold700,
+    Manjari_100Thin,
+    Manjari_400Regular,
+    Manjari_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manjari_Thin100' }}>
-          Manjari_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manjari_100Thin' }}>
+          Manjari_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manjari_Regular400' }}>
-          Manjari_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manjari_400Regular' }}>
+          Manjari_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manjari_Bold700' }}>
-          Manjari_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manjari_700Bold' }}>
+          Manjari_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Manjari_Thin100
-![Manjari_Thin100](./bf27671bb835dda0357f930bf36e8187a3b84c55eee29c45942c1f24658669b6.ttf.png)
+##### Manjari_100Thin
+![Manjari_100Thin](./Manjari_100Thin.ttf.png)
 
-##### Manjari_Regular400
-![Manjari_Regular400](./1f336f99d4a94b987c207d844c5dcf944f0499c38fa5136e75debe864ea9cb43.ttf.png)
+##### Manjari_400Regular
+![Manjari_400Regular](./Manjari_400Regular.ttf.png)
 
-##### Manjari_Bold700
-![Manjari_Bold700](./3679ad318e4f3587d288eeeedd62d875b904a491a6163aecc418b38e359be2d4.ttf.png)
+##### Manjari_700Bold
+![Manjari_700Bold](./Manjari_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/manjari)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

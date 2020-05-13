@@ -7,16 +7,14 @@
 
 This package lets you use the [**Ropa Sans**](https://fonts.google.com/specimen/Ropa+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Ropa Sans
 
 ![Ropa Sans](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `RopaSans_Regular400`
-- `RopaSans_Regular400_Italic`
+- `RopaSans_400Regular`
+- `RopaSans_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  RopaSans_Regular400,
-  RopaSans_Regular400_Italic,
   useFonts,
+  RopaSans_400Regular,
+  RopaSans_400Regular_Italic,
 } from '@expo-google-fonts/ropa-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    RopaSans_Regular400,
-    RopaSans_Regular400_Italic,
+    RopaSans_400Regular,
+    RopaSans_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RopaSans_Regular400' }}>
-          RopaSans_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RopaSans_400Regular' }}>
+          RopaSans_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RopaSans_Regular400_Italic' }}>
-          RopaSans_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RopaSans_400Regular_Italic' }}>
+          RopaSans_400Regular_Italic
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RopaSans_Regular400
-![RopaSans_Regular400](./ded2bcc06059fc1d86ad77aedff4ca5827287da7e5d969867d190f24ce2c5916.ttf.png)
+##### RopaSans_400Regular
+![RopaSans_400Regular](./RopaSans_400Regular.ttf.png)
 
-##### RopaSans_Regular400_Italic
-![RopaSans_Regular400_Italic](./0fc33e982fa4003ec3947ef040bddfed3e33ad447086af587ee5ed6cc4ef4fac.ttf.png)
+##### RopaSans_400Regular_Italic
+![RopaSans_400Regular_Italic](./RopaSans_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/ropa-sans)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

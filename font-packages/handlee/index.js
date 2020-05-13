@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Handlee';
-export const __fontFamilyVersion__ = 5;
-
-export const Handlee_Regular400 = require('./10f3e83c9fcbcd234b04cde9d1f8001a0255ea2bf3be48eb39ba87a44ff27fac.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Handlee_400Regular = require('./Handlee_400Regular.ttf');

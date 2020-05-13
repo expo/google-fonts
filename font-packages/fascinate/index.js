@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Fascinate';
-export const __fontFamilyVersion__ = 5;
-
-export const Fascinate_Regular400 = require('./f23d154a851bb211f83de2d4f7dd5242620662579daa75f0a4ac8e4c692a1832.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Fascinate_400Regular = require('./Fascinate_400Regular.ttf');

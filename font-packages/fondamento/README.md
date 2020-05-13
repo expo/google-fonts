@@ -7,16 +7,14 @@
 
 This package lets you use the [**Fondamento**](https://fonts.google.com/specimen/Fondamento) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Fondamento
 
 ![Fondamento](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Fondamento_Regular400`
-- `Fondamento_Regular400_Italic`
+- `Fondamento_400Regular`
+- `Fondamento_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Fondamento_Regular400,
-  Fondamento_Regular400_Italic,
   useFonts,
+  Fondamento_400Regular,
+  Fondamento_400Regular_Italic,
 } from '@expo-google-fonts/fondamento';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Fondamento_Regular400,
-    Fondamento_Regular400_Italic,
+    Fondamento_400Regular,
+    Fondamento_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fondamento_Regular400' }}>
-          Fondamento_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fondamento_400Regular' }}>
+          Fondamento_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fondamento_Regular400_Italic' }}>
-          Fondamento_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fondamento_400Regular_Italic' }}>
+          Fondamento_400Regular_Italic
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Fondamento_Regular400
-![Fondamento_Regular400](./75f9d66c336050a69b4366a5bd1cd8d8a0a5b7338dddd16b9af1f679ed3f6543.ttf.png)
+##### Fondamento_400Regular
+![Fondamento_400Regular](./Fondamento_400Regular.ttf.png)
 
-##### Fondamento_Regular400_Italic
-![Fondamento_Regular400_Italic](./78976bc375126e59b80ff99b8d26195e4332d5cc86505149fc21d183b60e8340.ttf.png)
+##### Fondamento_400Regular_Italic
+![Fondamento_400Regular_Italic](./Fondamento_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/fondamento)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

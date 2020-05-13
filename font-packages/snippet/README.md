@@ -7,15 +7,13 @@
 
 This package lets you use the [**Snippet**](https://fonts.google.com/specimen/Snippet) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Snippet
 
 ![Snippet](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Snippet_Regular400`
+- `Snippet_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Snippet_Regular400, useFonts } from '@expo-google-fonts/snippet';
+import { useFonts, Snippet_400Regular } from '@expo-google-fonts/snippet';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Snippet_Regular400,
+    Snippet_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Snippet_Regular400' }}>
-          Snippet_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Snippet_400Regular' }}>
+          Snippet_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Snippet_Regular400
-![Snippet_Regular400](./8cc4ae1951b9917cd740fe17346eee27c893d200ad251063c1aa3c48b6e02682.ttf.png)
+##### Snippet_400Regular
+![Snippet_400Regular](./Snippet_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/snippet)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

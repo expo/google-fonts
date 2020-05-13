@@ -7,15 +7,13 @@
 
 This package lets you use the [**Joti One**](https://fonts.google.com/specimen/Joti+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Joti One
 
 ![Joti One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `JotiOne_Regular400`
+- `JotiOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { JotiOne_Regular400, useFonts } from '@expo-google-fonts/joti-one';
+import { useFonts, JotiOne_400Regular } from '@expo-google-fonts/joti-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    JotiOne_Regular400,
+    JotiOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JotiOne_Regular400' }}>
-          JotiOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JotiOne_400Regular' }}>
+          JotiOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### JotiOne_Regular400
-![JotiOne_Regular400](./8f5feca23a0920be0f78e1eb58c62cdb9ef32b1c4142f6b1ebc3cf13e172683d.ttf.png)
+##### JotiOne_400Regular
+![JotiOne_400Regular](./JotiOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/joti-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

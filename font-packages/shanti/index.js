@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Shanti';
-export const __fontFamilyVersion__ = 8;
-
-export const Shanti_Regular400 = require('./a3182c815ff6755fb8f9b08ac951b5735b102c05b851eac2b1f6fd50a623cd82.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Shanti_400Regular = require('./Shanti_400Regular.ttf');

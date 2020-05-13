@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Qwigley';
-export const __fontFamilyVersion__ = 6;
-
-export const Qwigley_Regular400 = require('./9e8fd5b41b64bfc84fd94dd67445892d8149c004a0054984f37eb95effb71095.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Qwigley_400Regular = require('./Qwigley_400Regular.ttf');

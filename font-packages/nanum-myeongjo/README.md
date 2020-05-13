@@ -7,17 +7,15 @@
 
 This package lets you use the [**Nanum Myeongjo**](https://fonts.google.com/specimen/Nanum+Myeongjo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Nanum Myeongjo
 
 ![Nanum Myeongjo](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `NanumMyeongjo_Regular400`
-- `NanumMyeongjo_Bold700`
-- `NanumMyeongjo_ExtraBold800`
+- `NanumMyeongjo_400Regular`
+- `NanumMyeongjo_700Bold`
+- `NanumMyeongjo_800ExtraBold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  NanumMyeongjo_Regular400,
-  NanumMyeongjo_Bold700,
-  NanumMyeongjo_ExtraBold800,
   useFonts,
+  NanumMyeongjo_400Regular,
+  NanumMyeongjo_700Bold,
+  NanumMyeongjo_800ExtraBold,
 } from '@expo-google-fonts/nanum-myeongjo';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    NanumMyeongjo_Regular400,
-    NanumMyeongjo_Bold700,
-    NanumMyeongjo_ExtraBold800,
+    NanumMyeongjo_400Regular,
+    NanumMyeongjo_700Bold,
+    NanumMyeongjo_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NanumMyeongjo_Regular400' }}>
-          NanumMyeongjo_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NanumMyeongjo_400Regular' }}>
+          NanumMyeongjo_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NanumMyeongjo_Bold700' }}>
-          NanumMyeongjo_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NanumMyeongjo_700Bold' }}>
+          NanumMyeongjo_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NanumMyeongjo_ExtraBold800' }}>
-          NanumMyeongjo_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NanumMyeongjo_800ExtraBold' }}>
+          NanumMyeongjo_800ExtraBold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NanumMyeongjo_Regular400
-![NanumMyeongjo_Regular400](./3df71af0cacc55f9ee8f8e5e35a48672e379aefb187f3ae133a8fd5100c3810f.ttf.png)
+##### NanumMyeongjo_400Regular
+![NanumMyeongjo_400Regular](./NanumMyeongjo_400Regular.ttf.png)
 
-##### NanumMyeongjo_Bold700
-![NanumMyeongjo_Bold700](./c78488cd4af94bf04459b776f90fbe7942e11af15dda46bd856a1abc0523ae11.ttf.png)
+##### NanumMyeongjo_700Bold
+![NanumMyeongjo_700Bold](./NanumMyeongjo_700Bold.ttf.png)
 
-##### NanumMyeongjo_ExtraBold800
-![NanumMyeongjo_ExtraBold800](./2da8166e69673863a98b44792cb5b54e1a13b597c11dca437783e5a9336cfa9c.ttf.png)
+##### NanumMyeongjo_800ExtraBold
+![NanumMyeongjo_800ExtraBold](./NanumMyeongjo_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/nanum-myeongjo)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

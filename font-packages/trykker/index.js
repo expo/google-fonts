@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Trykker';
-export const __fontFamilyVersion__ = 5;
-
-export const Trykker_Regular400 = require('./a90a15371d777f248a91bd42582cdab700d67f8d3ca9b191fa8f32923f781e02.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Trykker_400Regular = require('./Trykker_400Regular.ttf');

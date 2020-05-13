@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Vidaloka';
-export const __fontFamilyVersion__ = 8;
-
-export const Vidaloka_Regular400 = require('./222cf887f6f4ef0661c73aee6ad041d0d4e6630c7d2bff7e851025a024b44cfd.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Vidaloka_400Regular = require('./Vidaloka_400Regular.ttf');

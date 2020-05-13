@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Magra';
-export const __fontFamilyVersion__ = 4;
-
-export const Magra_Regular400 = require('./9af41cbbd0f37a100cfb6828248fbfbac10111faefb7b379eb4d74092ebd2f8b.ttf');
-export const Magra_Bold700 = require('./ab81d03efbb8cfb766cdee7ef1e7333d196769ab264426971367541a4feee673.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Magra_400Regular = require('./Magra_400Regular.ttf');
+export const Magra_700Bold = require('./Magra_700Bold.ttf');

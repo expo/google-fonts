@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Limelight';
-export const __fontFamilyVersion__ = 7;
-
-export const Limelight_Regular400 = require('./ba79f57019c587202d831e35a7e10e6dc9ab23546f46ec9da01aa4d25d509913.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Limelight_400Regular = require('./Limelight_400Regular.ttf');

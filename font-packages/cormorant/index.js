@@ -4,16 +4,14 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Cormorant';
-export const __fontFamilyVersion__ = 5;
-
-export const Cormorant_Light300 = require('./25d9142c8c73577fb3546a40795e753bab11f4e22663e2f1168cbc485cbaa542.ttf');
-export const Cormorant_Light300_Italic = require('./d90d995e2a130e04d6e32ee3778e059092e41f5d9c1c812a659c7ffb52951a19.ttf');
-export const Cormorant_Regular400 = require('./fd04cb22306c1c15bb1727fc4b3d2344de940e929b75dbe3faa9b7f43f9e0d6d.ttf');
-export const Cormorant_Regular400_Italic = require('./1f64218505ec6321eba3b8df95d0806808f61c872f9c081bce39c00a402a4429.ttf');
-export const Cormorant_Medium500 = require('./20c11bc6844b3f25ad300ce80d94c0c0fc2fb997b51e04cd1959156c6d78309d.ttf');
-export const Cormorant_Medium500_Italic = require('./47bba53369e3f5bcda0e230d7e6fe60ae86b40b59b80d57c603c50e273d2f17c.ttf');
-export const Cormorant_SemiBold600 = require('./c1821d5e327189284afba6a7a2a9831a3025677c5afb37910353410a72391791.ttf');
-export const Cormorant_SemiBold600_Italic = require('./c02d2b3a07288427fe5cd64e378eebe86d6a308b6d7dfe0e8cc4d1975d32e0d5.ttf');
-export const Cormorant_Bold700 = require('./a91dc6bed8f499ba7dfc43c8259fa142dc1d0097d84aba2a73c003c35b409845.ttf');
-export const Cormorant_Bold700_Italic = require('./01317d3f16a7d1e98e9fcb9e49778326433ab76c291971e501f5e721ac437b0d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Cormorant_300Light = require('./Cormorant_300Light.ttf');
+export const Cormorant_300Light_Italic = require('./Cormorant_300Light_Italic.ttf');
+export const Cormorant_400Regular = require('./Cormorant_400Regular.ttf');
+export const Cormorant_400Regular_Italic = require('./Cormorant_400Regular_Italic.ttf');
+export const Cormorant_500Medium = require('./Cormorant_500Medium.ttf');
+export const Cormorant_500Medium_Italic = require('./Cormorant_500Medium_Italic.ttf');
+export const Cormorant_600SemiBold = require('./Cormorant_600SemiBold.ttf');
+export const Cormorant_600SemiBold_Italic = require('./Cormorant_600SemiBold_Italic.ttf');
+export const Cormorant_700Bold = require('./Cormorant_700Bold.ttf');
+export const Cormorant_700Bold_Italic = require('./Cormorant_700Bold_Italic.ttf');

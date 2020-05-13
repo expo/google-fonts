@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Telex';
-export const __fontFamilyVersion__ = 5;
-
-export const Telex_Regular400 = require('./75d35766aa0cce57bcd40915972194111fc782787321d3eed8813c7c8d1e9e39.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Telex_400Regular = require('./Telex_400Regular.ttf');

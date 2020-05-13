@@ -7,18 +7,16 @@
 
 This package lets you use the [**Palanquin Dark**](https://fonts.google.com/specimen/Palanquin+Dark) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Palanquin Dark
 
 ![Palanquin Dark](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `PalanquinDark_Regular400`
-- `PalanquinDark_Medium500`
-- `PalanquinDark_SemiBold600`
-- `PalanquinDark_Bold700`
+- `PalanquinDark_400Regular`
+- `PalanquinDark_500Medium`
+- `PalanquinDark_600SemiBold`
+- `PalanquinDark_700Bold`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  PalanquinDark_Regular400,
-  PalanquinDark_Medium500,
-  PalanquinDark_SemiBold600,
-  PalanquinDark_Bold700,
   useFonts,
+  PalanquinDark_400Regular,
+  PalanquinDark_500Medium,
+  PalanquinDark_600SemiBold,
+  PalanquinDark_700Bold,
 } from '@expo-google-fonts/palanquin-dark';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    PalanquinDark_Regular400,
-    PalanquinDark_Medium500,
-    PalanquinDark_SemiBold600,
-    PalanquinDark_Bold700,
+    PalanquinDark_400Regular,
+    PalanquinDark_500Medium,
+    PalanquinDark_600SemiBold,
+    PalanquinDark_700Bold,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PalanquinDark_Regular400' }}>
-          PalanquinDark_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PalanquinDark_400Regular' }}>
+          PalanquinDark_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PalanquinDark_Medium500' }}>
-          PalanquinDark_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PalanquinDark_500Medium' }}>
+          PalanquinDark_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PalanquinDark_SemiBold600' }}>
-          PalanquinDark_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PalanquinDark_600SemiBold' }}>
+          PalanquinDark_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PalanquinDark_Bold700' }}>
-          PalanquinDark_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PalanquinDark_700Bold' }}>
+          PalanquinDark_700Bold
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PalanquinDark_Regular400
-![PalanquinDark_Regular400](./2a564d738b34f664cbdc4ec631b53907f90205b8dd0e177be158ebc30b67182a.ttf.png)
+##### PalanquinDark_400Regular
+![PalanquinDark_400Regular](./PalanquinDark_400Regular.ttf.png)
 
-##### PalanquinDark_Medium500
-![PalanquinDark_Medium500](./2741c907db3e5853a79489713ec11a8669cff876897076b98d70d302086296c9.ttf.png)
+##### PalanquinDark_500Medium
+![PalanquinDark_500Medium](./PalanquinDark_500Medium.ttf.png)
 
-##### PalanquinDark_SemiBold600
-![PalanquinDark_SemiBold600](./ee40721d326a2509669e0c3f41d846f48e353b774b15fb78426c4e812aadf4e9.ttf.png)
+##### PalanquinDark_600SemiBold
+![PalanquinDark_600SemiBold](./PalanquinDark_600SemiBold.ttf.png)
 
-##### PalanquinDark_Bold700
-![PalanquinDark_Bold700](./3f46195270b56b1dd32d5f48a0bb546a30e424b9d30ff4daabe395c2257a157e.ttf.png)
+##### PalanquinDark_700Bold
+![PalanquinDark_700Bold](./PalanquinDark_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/palanquin-dark)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

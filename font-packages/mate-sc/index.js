@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Mate SC';
-export const __fontFamilyVersion__ = 5;
-
-export const MateSC_Regular400 = require('./9105b12c369a593ea31abf9530db6e89458635e2c5584c36d4e9af55177be4b8.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MateSC_400Regular = require('./MateSC_400Regular.ttf');

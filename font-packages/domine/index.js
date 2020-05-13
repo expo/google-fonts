@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Domine';
-export const __fontFamilyVersion__ = 4;
-
-export const Domine_Regular400 = require('./7b5d61cb478ce2e3fd32416939a39f3b9aa118d0eb76c107195e0857c44ada1c.ttf');
-export const Domine_Bold700 = require('./5865b0de838f6cabefc862631b06e8c7e86a0b8865e9ee530819d8590dd23e6f.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Domine_400Regular = require('./Domine_400Regular.ttf');
+export const Domine_700Bold = require('./Domine_700Bold.ttf');

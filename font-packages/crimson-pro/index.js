@@ -4,22 +4,20 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Crimson Pro';
-export const __fontFamilyVersion__ = 12;
-
-export const CrimsonPro_ExtraLight200 = require('./8b66abfec21e34e91fc61b2ac08084816d4d166259ea2198ed01578a1ac727e5.ttf');
-export const CrimsonPro_Light300 = require('./9abd9060a62aa38f10dc60738f37bada274814485a3b3bef4353cbc2503358cc.ttf');
-export const CrimsonPro_Regular400 = require('./510241ec6793070724a690b137fdfb9f98422a611b8f81c1e6f22d345a0fef65.ttf');
-export const CrimsonPro_Medium500 = require('./c758f7367d51b291ba0a17386117e7269f7a438bb2dc40acedc1574b113e43e2.ttf');
-export const CrimsonPro_SemiBold600 = require('./a0668cef91f47f8b6609de80f66e247d934bc12467bed847c61ad8397297db31.ttf');
-export const CrimsonPro_Bold700 = require('./37a3b4d93b35047eba32401d0e748ed133547287e16a5bacc9e40c85d85b489c.ttf');
-export const CrimsonPro_ExtraBold800 = require('./2fff124d10656b451037180b7611d390d0fb4f603400346db8986461325e2503.ttf');
-export const CrimsonPro_Black900 = require('./1e12367e6d503736e81c46a7e8dec43a84b804f31bcd06c8cd2e318cac7888b3.ttf');
-export const CrimsonPro_ExtraLight200_Italic = require('./02069dd1baa583bd54af1c82cd1979f3a078ee4087ddd6f64eb34b23c9370ee1.ttf');
-export const CrimsonPro_Light300_Italic = require('./96b97a5f9ec116f9f218a3b7de6daa5e95e9c6cb1c49b21f12e2df59d5ff2380.ttf');
-export const CrimsonPro_Regular400_Italic = require('./737b0264b20a8110302dc2f70673ca8320d865b82c59d69c354a1e54b2edde3e.ttf');
-export const CrimsonPro_Medium500_Italic = require('./654dd004b7fefe64e3ef615227b16e1da3abce493c844e6359cebe3bc1e98f18.ttf');
-export const CrimsonPro_SemiBold600_Italic = require('./c98a3ef2ed0a7bc571852f4b28fe383e22c671bf9696106fb88605680abfe9eb.ttf');
-export const CrimsonPro_Bold700_Italic = require('./dfc39b2565c337e814711b840e339b33b5f5b223042561963c34a8a4cfcd41c8.ttf');
-export const CrimsonPro_ExtraBold800_Italic = require('./a2dfc4edba8a2ecffbdf37c1e7ffc640034bbf2e83449b7e5df15e39cd78be80.ttf');
-export const CrimsonPro_Black900_Italic = require('./a99ef7991d1f3adeaa296d774cdf32d4441511e024a0bf21a52b3cac625c49e9.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const CrimsonPro_200ExtraLight = require('./CrimsonPro_200ExtraLight.ttf');
+export const CrimsonPro_300Light = require('./CrimsonPro_300Light.ttf');
+export const CrimsonPro_400Regular = require('./CrimsonPro_400Regular.ttf');
+export const CrimsonPro_500Medium = require('./CrimsonPro_500Medium.ttf');
+export const CrimsonPro_600SemiBold = require('./CrimsonPro_600SemiBold.ttf');
+export const CrimsonPro_700Bold = require('./CrimsonPro_700Bold.ttf');
+export const CrimsonPro_800ExtraBold = require('./CrimsonPro_800ExtraBold.ttf');
+export const CrimsonPro_900Black = require('./CrimsonPro_900Black.ttf');
+export const CrimsonPro_200ExtraLight_Italic = require('./CrimsonPro_200ExtraLight_Italic.ttf');
+export const CrimsonPro_300Light_Italic = require('./CrimsonPro_300Light_Italic.ttf');
+export const CrimsonPro_400Regular_Italic = require('./CrimsonPro_400Regular_Italic.ttf');
+export const CrimsonPro_500Medium_Italic = require('./CrimsonPro_500Medium_Italic.ttf');
+export const CrimsonPro_600SemiBold_Italic = require('./CrimsonPro_600SemiBold_Italic.ttf');
+export const CrimsonPro_700Bold_Italic = require('./CrimsonPro_700Bold_Italic.ttf');
+export const CrimsonPro_800ExtraBold_Italic = require('./CrimsonPro_800ExtraBold_Italic.ttf');
+export const CrimsonPro_900Black_Italic = require('./CrimsonPro_900Black_Italic.ttf');

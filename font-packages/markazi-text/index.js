@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Markazi Text';
-export const __fontFamilyVersion__ = 11;
-
-export const MarkaziText_Regular400 = require('./0e5e6bb8cf276742072a5a22282dd79c7d532219e9a950faad9fcf21d2cf8cea.ttf');
-export const MarkaziText_Medium500 = require('./d6f033a9cc38e8da2e1570b35f84c43b8312a13a2f126dfd89f67a322513d7eb.ttf');
-export const MarkaziText_SemiBold600 = require('./68bfe2ab439b778907c8544102bbbb7de31be886ff40a6bf5172cab6c7c23eee.ttf');
-export const MarkaziText_Bold700 = require('./342d38b7c70eeaf282e54f367d5ba4eba6d1c07b2c2363023084bcbed4d1c05e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MarkaziText_400Regular = require('./MarkaziText_400Regular.ttf');
+export const MarkaziText_500Medium = require('./MarkaziText_500Medium.ttf');
+export const MarkaziText_600SemiBold = require('./MarkaziText_600SemiBold.ttf');
+export const MarkaziText_700Bold = require('./MarkaziText_700Bold.ttf');

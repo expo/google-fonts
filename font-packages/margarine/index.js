@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Margarine';
-export const __fontFamilyVersion__ = 5;
-
-export const Margarine_Regular400 = require('./86d801ed5c2e92441a7292c5dd8599a87757c63d0c8723543bcd44b504f37776.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Margarine_400Regular = require('./Margarine_400Regular.ttf');

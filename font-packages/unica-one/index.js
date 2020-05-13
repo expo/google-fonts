@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Unica One';
-export const __fontFamilyVersion__ = 4;
-
-export const UnicaOne_Regular400 = require('./5616e05bc01af9a3a0c6ab46088658b8dfa74ac2b709df893baaefaa711889ed.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const UnicaOne_400Regular = require('./UnicaOne_400Regular.ttf');

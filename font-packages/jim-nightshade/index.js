@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Jim Nightshade';
-export const __fontFamilyVersion__ = 4;
-
-export const JimNightshade_Regular400 = require('./69667733e323bd8537cd7e8ab6c0cde0b0d48e1f336695228e8a9de962feec29.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const JimNightshade_400Regular = require('./JimNightshade_400Regular.ttf');

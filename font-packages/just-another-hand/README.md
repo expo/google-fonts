@@ -7,15 +7,13 @@
 
 This package lets you use the [**Just Another Hand**](https://fonts.google.com/specimen/Just+Another+Hand) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Just Another Hand
 
 ![Just Another Hand](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `JustAnotherHand_Regular400`
+- `JustAnotherHand_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { JustAnotherHand_Regular400, useFonts } from '@expo-google-fonts/just-another-hand';
+import { useFonts, JustAnotherHand_400Regular } from '@expo-google-fonts/just-another-hand';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    JustAnotherHand_Regular400,
+    JustAnotherHand_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JustAnotherHand_Regular400' }}>
-          JustAnotherHand_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JustAnotherHand_400Regular' }}>
+          JustAnotherHand_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### JustAnotherHand_Regular400
-![JustAnotherHand_Regular400](./1a03840122f7580fc7dfc0c3371d5450fd3b1c04f891bcc1e86780354e7c53d4.ttf.png)
+##### JustAnotherHand_400Regular
+![JustAnotherHand_400Regular](./JustAnotherHand_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/just-another-hand)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

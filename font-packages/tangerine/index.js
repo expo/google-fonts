@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Tangerine';
-export const __fontFamilyVersion__ = 8;
-
-export const Tangerine_Regular400 = require('./d57c4cf7ce5cace0ff51506a942305cb2a8342c0d13badf47b74d8b7ccd6a976.ttf');
-export const Tangerine_Bold700 = require('./99be610fa0d0acc2de30af936f07ac82bda5378a98b867c55dc1d8ae1a763c72.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Tangerine_400Regular = require('./Tangerine_400Regular.ttf');
+export const Tangerine_700Bold = require('./Tangerine_700Bold.ttf');

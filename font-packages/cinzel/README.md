@@ -7,17 +7,15 @@
 
 This package lets you use the [**Cinzel**](https://fonts.google.com/specimen/Cinzel) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Cinzel
 
 ![Cinzel](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `Cinzel_Regular400`
-- `Cinzel_Bold700`
-- `Cinzel_Black900`
+- `Cinzel_400Regular`
+- `Cinzel_700Bold`
+- `Cinzel_900Black`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Cinzel_Regular400,
-  Cinzel_Bold700,
-  Cinzel_Black900,
   useFonts,
+  Cinzel_400Regular,
+  Cinzel_700Bold,
+  Cinzel_900Black,
 } from '@expo-google-fonts/cinzel';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Cinzel_Regular400,
-    Cinzel_Bold700,
-    Cinzel_Black900,
+    Cinzel_400Regular,
+    Cinzel_700Bold,
+    Cinzel_900Black,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cinzel_Regular400' }}>
-          Cinzel_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cinzel_400Regular' }}>
+          Cinzel_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cinzel_Bold700' }}>
-          Cinzel_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cinzel_700Bold' }}>
+          Cinzel_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cinzel_Black900' }}>
-          Cinzel_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cinzel_900Black' }}>
+          Cinzel_900Black
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Cinzel_Regular400
-![Cinzel_Regular400](./1a1d67206903b7688f4187df3dd0563dce75a49b26d036c7e88798adcd6c8fab.ttf.png)
+##### Cinzel_400Regular
+![Cinzel_400Regular](./Cinzel_400Regular.ttf.png)
 
-##### Cinzel_Bold700
-![Cinzel_Bold700](./d385de045feb981ef4256fb3f82d128c1835f686ed5611dd1c5b01e8b615e7bb.ttf.png)
+##### Cinzel_700Bold
+![Cinzel_700Bold](./Cinzel_700Bold.ttf.png)
 
-##### Cinzel_Black900
-![Cinzel_Black900](./fbb068fbb60eb4c57957c490b9e8c4b00d9c8cc14bd064d85fca96516f5ae46f.ttf.png)
+##### Cinzel_900Black
+![Cinzel_900Black](./Cinzel_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cinzel)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

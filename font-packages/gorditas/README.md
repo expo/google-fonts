@@ -7,16 +7,14 @@
 
 This package lets you use the [**Gorditas**](https://fonts.google.com/specimen/Gorditas) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Gorditas
 
 ![Gorditas](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Gorditas_Regular400`
-- `Gorditas_Bold700`
+- `Gorditas_400Regular`
+- `Gorditas_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Gorditas_Regular400, Gorditas_Bold700, useFonts } from '@expo-google-fonts/gorditas';
+import { useFonts, Gorditas_400Regular, Gorditas_700Bold } from '@expo-google-fonts/gorditas';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Gorditas_Regular400,
-    Gorditas_Bold700,
+    Gorditas_400Regular,
+    Gorditas_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gorditas_Regular400' }}>
-          Gorditas_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gorditas_400Regular' }}>
+          Gorditas_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gorditas_Bold700' }}>
-          Gorditas_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gorditas_700Bold' }}>
+          Gorditas_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gorditas_Regular400
-![Gorditas_Regular400](./987a5551dac8207ac89158c984bb117eac9569a4def85c67405a6f7ee656ca7b.ttf.png)
+##### Gorditas_400Regular
+![Gorditas_400Regular](./Gorditas_400Regular.ttf.png)
 
-##### Gorditas_Bold700
-![Gorditas_Bold700](./1a73ab190434815fb46d5c9f8095a8d40543c248bd203391f3e120aebb2c223e.ttf.png)
+##### Gorditas_700Bold
+![Gorditas_700Bold](./Gorditas_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/gorditas)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

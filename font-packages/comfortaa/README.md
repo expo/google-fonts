@@ -7,17 +7,17 @@
 
 This package lets you use the [**Comfortaa**](https://fonts.google.com/specimen/Comfortaa) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Comfortaa
 
 ![Comfortaa](./font-family.png)
 
-This font family contains [3 styles](#-gallery).
+This font family contains [5 styles](#-gallery).
 
-- `Comfortaa_Light300`
-- `Comfortaa_Regular400`
-- `Comfortaa_Bold700`
+- `Comfortaa_300Light`
+- `Comfortaa_400Regular`
+- `Comfortaa_500Medium`
+- `Comfortaa_600SemiBold`
+- `Comfortaa_700Bold`
 
 ## Usage
 
@@ -33,17 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Comfortaa_Light300,
-  Comfortaa_Regular400,
-  Comfortaa_Bold700,
   useFonts,
+  Comfortaa_300Light,
+  Comfortaa_400Regular,
+  Comfortaa_500Medium,
+  Comfortaa_600SemiBold,
+  Comfortaa_700Bold,
 } from '@expo-google-fonts/comfortaa';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Comfortaa_Light300,
-    Comfortaa_Regular400,
-    Comfortaa_Bold700,
+    Comfortaa_300Light,
+    Comfortaa_400Regular,
+    Comfortaa_500Medium,
+    Comfortaa_600SemiBold,
+    Comfortaa_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Comfortaa_Light300' }}>
-          Comfortaa_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Comfortaa_300Light' }}>
+          Comfortaa_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Comfortaa_Regular400' }}>
-          Comfortaa_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Comfortaa_400Regular' }}>
+          Comfortaa_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Comfortaa_Bold700' }}>
-          Comfortaa_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Comfortaa_500Medium' }}>
+          Comfortaa_500Medium
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Comfortaa_600SemiBold' }}>
+          Comfortaa_600SemiBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Comfortaa_700Bold' }}>
+          Comfortaa_700Bold
         </Text>
       </View>
     );
@@ -74,14 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Comfortaa_Light300
-![Comfortaa_Light300](./9c42dde162aca0ef35c66a372266676483320b31bd2d1069fd2ec3879d092000.ttf.png)
+##### Comfortaa_300Light
+![Comfortaa_300Light](./Comfortaa_300Light.ttf.png)
 
-##### Comfortaa_Regular400
-![Comfortaa_Regular400](./b1a86afe9202b2f23f62ea6a901f0f299515c34673aea8cf0d8ab2270b4d7013.ttf.png)
+##### Comfortaa_400Regular
+![Comfortaa_400Regular](./Comfortaa_400Regular.ttf.png)
 
-##### Comfortaa_Bold700
-![Comfortaa_Bold700](./30b5d292bb0fe9543a8ae812c3a2ce1ca57f9fd6701afafad31156536db5f08d.ttf.png)
+##### Comfortaa_500Medium
+![Comfortaa_500Medium](./Comfortaa_500Medium.ttf.png)
+
+##### Comfortaa_600SemiBold
+![Comfortaa_600SemiBold](./Comfortaa_600SemiBold.ttf.png)
+
+##### Comfortaa_700Bold
+![Comfortaa_700Bold](./Comfortaa_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/comfortaa)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

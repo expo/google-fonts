@@ -7,16 +7,16 @@
 
 This package lets you use the [**Dancing Script**](https://fonts.google.com/specimen/Dancing+Script) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Dancing Script
 
 ![Dancing Script](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [4 styles](#-gallery).
 
-- `DancingScript_Regular400`
-- `DancingScript_Bold700`
+- `DancingScript_400Regular`
+- `DancingScript_500Medium`
+- `DancingScript_600SemiBold`
+- `DancingScript_700Bold`
 
 ## Usage
 
@@ -32,15 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  DancingScript_Regular400,
-  DancingScript_Bold700,
   useFonts,
+  DancingScript_400Regular,
+  DancingScript_500Medium,
+  DancingScript_600SemiBold,
+  DancingScript_700Bold,
 } from '@expo-google-fonts/dancing-script';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    DancingScript_Regular400,
-    DancingScript_Bold700,
+    DancingScript_400Regular,
+    DancingScript_500Medium,
+    DancingScript_600SemiBold,
+    DancingScript_700Bold,
   });
 
   let fontSize = 24;
@@ -51,12 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DancingScript_Regular400' }}>
-          DancingScript_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DancingScript_400Regular' }}>
+          DancingScript_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DancingScript_Bold700' }}>
-          DancingScript_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DancingScript_500Medium' }}>
+          DancingScript_500Medium
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DancingScript_600SemiBold' }}>
+          DancingScript_600SemiBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DancingScript_700Bold' }}>
+          DancingScript_700Bold
         </Text>
       </View>
     );
@@ -67,11 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DancingScript_Regular400
-![DancingScript_Regular400](./40f021e25f9f4e2b67f5072ac941218596581a1621931f44173cbf5245b91fd3.ttf.png)
+##### DancingScript_400Regular
+![DancingScript_400Regular](./DancingScript_400Regular.ttf.png)
 
-##### DancingScript_Bold700
-![DancingScript_Bold700](./4a2aa446dc86aad49ec46eb66fb313889bded9ef23f286664bba90a2eb156f87.ttf.png)
+##### DancingScript_500Medium
+![DancingScript_500Medium](./DancingScript_500Medium.ttf.png)
+
+##### DancingScript_600SemiBold
+![DancingScript_600SemiBold](./DancingScript_600SemiBold.ttf.png)
+
+##### DancingScript_700Bold
+![DancingScript_700Bold](./DancingScript_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/dancing-script)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

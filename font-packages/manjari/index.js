@@ -4,9 +4,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Manjari';
-export const __fontFamilyVersion__ = 2;
-
-export const Manjari_Thin100 = require('./bf27671bb835dda0357f930bf36e8187a3b84c55eee29c45942c1f24658669b6.ttf');
-export const Manjari_Regular400 = require('./1f336f99d4a94b987c207d844c5dcf944f0499c38fa5136e75debe864ea9cb43.ttf');
-export const Manjari_Bold700 = require('./3679ad318e4f3587d288eeeedd62d875b904a491a6163aecc418b38e359be2d4.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Manjari_100Thin = require('./Manjari_100Thin.ttf');
+export const Manjari_400Regular = require('./Manjari_400Regular.ttf');
+export const Manjari_700Bold = require('./Manjari_700Bold.ttf');

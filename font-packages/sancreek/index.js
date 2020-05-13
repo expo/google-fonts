@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Sancreek';
-export const __fontFamilyVersion__ = 7;
-
-export const Sancreek_Regular400 = require('./ed5c3c851564b594f1e46baf486678ec23c42381e0439cdb2c79c04ca159563e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Sancreek_400Regular = require('./Sancreek_400Regular.ttf');

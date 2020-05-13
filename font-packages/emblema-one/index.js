@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Emblema One';
-export const __fontFamilyVersion__ = 5;
-
-export const EmblemaOne_Regular400 = require('./ae7300f04f026825b14eaefb3738782763992c203df0821debfdf47a5bd349ed.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const EmblemaOne_400Regular = require('./EmblemaOne_400Regular.ttf');

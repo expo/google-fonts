@@ -7,15 +7,13 @@
 
 This package lets you use the [**Cagliostro**](https://fonts.google.com/specimen/Cagliostro) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Cagliostro
 
 ![Cagliostro](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Cagliostro_Regular400`
+- `Cagliostro_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Cagliostro_Regular400, useFonts } from '@expo-google-fonts/cagliostro';
+import { useFonts, Cagliostro_400Regular } from '@expo-google-fonts/cagliostro';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Cagliostro_Regular400,
+    Cagliostro_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cagliostro_Regular400' }}>
-          Cagliostro_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cagliostro_400Regular' }}>
+          Cagliostro_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Cagliostro_Regular400
-![Cagliostro_Regular400](./3f57e12bc813bf3381233056c5544a970ea10f321f64dc63eef3ae1e650b2b93.ttf.png)
+##### Cagliostro_400Regular
+![Cagliostro_400Regular](./Cagliostro_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cagliostro)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

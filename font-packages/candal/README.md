@@ -7,15 +7,13 @@
 
 This package lets you use the [**Candal**](https://fonts.google.com/specimen/Candal) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Candal
 
 ![Candal](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Candal_Regular400`
+- `Candal_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Candal_Regular400, useFonts } from '@expo-google-fonts/candal';
+import { useFonts, Candal_400Regular } from '@expo-google-fonts/candal';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Candal_Regular400,
+    Candal_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Candal_Regular400' }}>
-          Candal_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Candal_400Regular' }}>
+          Candal_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Candal_Regular400
-![Candal_Regular400](./2e16795a5489340834dda623038868a2e7f48f4bc0f154f98c1a1962894a2598.ttf.png)
+##### Candal_400Regular
+![Candal_400Regular](./Candal_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/candal)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

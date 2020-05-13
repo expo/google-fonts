@@ -7,16 +7,14 @@
 
 This package lets you use the [**Codystar**](https://fonts.google.com/specimen/Codystar) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Codystar
 
 ![Codystar](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Codystar_Light300`
-- `Codystar_Regular400`
+- `Codystar_300Light`
+- `Codystar_400Regular`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Codystar_Light300, Codystar_Regular400, useFonts } from '@expo-google-fonts/codystar';
+import { useFonts, Codystar_300Light, Codystar_400Regular } from '@expo-google-fonts/codystar';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Codystar_Light300,
-    Codystar_Regular400,
+    Codystar_300Light,
+    Codystar_400Regular,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Codystar_Light300' }}>
-          Codystar_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Codystar_300Light' }}>
+          Codystar_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Codystar_Regular400' }}>
-          Codystar_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Codystar_400Regular' }}>
+          Codystar_400Regular
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Codystar_Light300
-![Codystar_Light300](./d8599cf77d1a295657a62a9be2067a1d7c27dad40e7ae89910c6516e57f1fdb1.ttf.png)
+##### Codystar_300Light
+![Codystar_300Light](./Codystar_300Light.ttf.png)
 
-##### Codystar_Regular400
-![Codystar_Regular400](./5d2fb67af692de14dd1f3b942de494168b78c1cef3cc103867d36c4281ac0b00.ttf.png)
+##### Codystar_400Regular
+![Codystar_400Regular](./Codystar_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/codystar)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

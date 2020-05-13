@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Cousine';
-export const __fontFamilyVersion__ = 10;
-
-export const Cousine_Regular400 = require('./753f2dd34e36271520e1bf057a91850492b226f76d6da301cf6955b4b32177a1.ttf');
-export const Cousine_Regular400_Italic = require('./23ddf22bc3d06b028fce6e266632d38c97fa151a580be71b5ad43ee7d34d13a0.ttf');
-export const Cousine_Bold700 = require('./9e472053ed3d50c647f75d5654f0d2ff42cbf5221cb14e1b1af3dc25dbbd6ea4.ttf');
-export const Cousine_Bold700_Italic = require('./8b14c04baa12f36602157da1c6c26f539163a93e571133c17d0b5acc34345bfa.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Cousine_400Regular = require('./Cousine_400Regular.ttf');
+export const Cousine_400Regular_Italic = require('./Cousine_400Regular_Italic.ttf');
+export const Cousine_700Bold = require('./Cousine_700Bold.ttf');
+export const Cousine_700Bold_Italic = require('./Cousine_700Bold_Italic.ttf');

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Prata**](https://fonts.google.com/specimen/Prata) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Prata
 
 ![Prata](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Prata_Regular400`
+- `Prata_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Prata_Regular400, useFonts } from '@expo-google-fonts/prata';
+import { useFonts, Prata_400Regular } from '@expo-google-fonts/prata';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Prata_Regular400,
+    Prata_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prata_Regular400' }}>
-          Prata_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prata_400Regular' }}>
+          Prata_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Prata_Regular400
-![Prata_Regular400](./dae0ecee4b97ae6292786b6e9e7efc1c63cf85f8beaef215151813c08fd2aa02.ttf.png)
+##### Prata_400Regular
+![Prata_400Regular](./Prata_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/prata)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,16 +7,14 @@
 
 This package lets you use the [**Pragati Narrow**](https://fonts.google.com/specimen/Pragati+Narrow) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Pragati Narrow
 
 ![Pragati Narrow](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `PragatiNarrow_Regular400`
-- `PragatiNarrow_Bold700`
+- `PragatiNarrow_400Regular`
+- `PragatiNarrow_700Bold`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  PragatiNarrow_Regular400,
-  PragatiNarrow_Bold700,
   useFonts,
+  PragatiNarrow_400Regular,
+  PragatiNarrow_700Bold,
 } from '@expo-google-fonts/pragati-narrow';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    PragatiNarrow_Regular400,
-    PragatiNarrow_Bold700,
+    PragatiNarrow_400Regular,
+    PragatiNarrow_700Bold,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PragatiNarrow_Regular400' }}>
-          PragatiNarrow_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PragatiNarrow_400Regular' }}>
+          PragatiNarrow_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PragatiNarrow_Bold700' }}>
-          PragatiNarrow_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PragatiNarrow_700Bold' }}>
+          PragatiNarrow_700Bold
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PragatiNarrow_Regular400
-![PragatiNarrow_Regular400](./1778fbb91f3825af5daf5dfe6d44737ee48e6c63a95f25348b39ccb9fcda8fb6.ttf.png)
+##### PragatiNarrow_400Regular
+![PragatiNarrow_400Regular](./PragatiNarrow_400Regular.ttf.png)
 
-##### PragatiNarrow_Bold700
-![PragatiNarrow_Bold700](./9e7b8eb47eaef49ea50a19115bddfaf35aebf2f4577f8a3b9cab531595bc97ef.ttf.png)
+##### PragatiNarrow_700Bold
+![PragatiNarrow_700Bold](./PragatiNarrow_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/pragati-narrow)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

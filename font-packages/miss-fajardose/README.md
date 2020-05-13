@@ -7,15 +7,13 @@
 
 This package lets you use the [**Miss Fajardose**](https://fonts.google.com/specimen/Miss+Fajardose) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Miss Fajardose
 
 ![Miss Fajardose](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `MissFajardose_Regular400`
+- `MissFajardose_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { MissFajardose_Regular400, useFonts } from '@expo-google-fonts/miss-fajardose';
+import { useFonts, MissFajardose_400Regular } from '@expo-google-fonts/miss-fajardose';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MissFajardose_Regular400,
+    MissFajardose_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MissFajardose_Regular400' }}>
-          MissFajardose_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MissFajardose_400Regular' }}>
+          MissFajardose_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MissFajardose_Regular400
-![MissFajardose_Regular400](./8de81a59ca34a15be7f6749a4f5247486c41ce79afb9b16e4212d54c0e5d9a89.ttf.png)
+##### MissFajardose_400Regular
+![MissFajardose_400Regular](./MissFajardose_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/miss-fajardose)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

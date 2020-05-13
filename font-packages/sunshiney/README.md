@@ -7,15 +7,13 @@
 
 This package lets you use the [**Sunshiney**](https://fonts.google.com/specimen/Sunshiney) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sunshiney
 
 ![Sunshiney](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Sunshiney_Regular400`
+- `Sunshiney_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Sunshiney_Regular400, useFonts } from '@expo-google-fonts/sunshiney';
+import { useFonts, Sunshiney_400Regular } from '@expo-google-fonts/sunshiney';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Sunshiney_Regular400,
+    Sunshiney_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sunshiney_Regular400' }}>
-          Sunshiney_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sunshiney_400Regular' }}>
+          Sunshiney_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sunshiney_Regular400
-![Sunshiney_Regular400](./a7ec73237e0e7d1a4339d0381c584067becd402e92eb382bcff00860e277d2ca.ttf.png)
+##### Sunshiney_400Regular
+![Sunshiney_400Regular](./Sunshiney_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sunshiney)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

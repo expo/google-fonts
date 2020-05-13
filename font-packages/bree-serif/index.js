@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bree Serif';
-export const __fontFamilyVersion__ = 5;
-
-export const BreeSerif_Regular400 = require('./9a7248ed16d47821a8836aa345a8297f6c44d86162fdbc6475497bc799db0e9f.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BreeSerif_400Regular = require('./BreeSerif_400Regular.ttf');

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Redressed**](https://fonts.google.com/specimen/Redressed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Redressed
 
 ![Redressed](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Redressed_Regular400`
+- `Redressed_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Redressed_Regular400, useFonts } from '@expo-google-fonts/redressed';
+import { useFonts, Redressed_400Regular } from '@expo-google-fonts/redressed';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Redressed_Regular400,
+    Redressed_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Redressed_Regular400' }}>
-          Redressed_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Redressed_400Regular' }}>
+          Redressed_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Redressed_Regular400
-![Redressed_Regular400](./b7da182df7a86a14b448d200c3efd866dca0885111c28fce6449cf8aef103e77.ttf.png)
+##### Redressed_400Regular
+![Redressed_400Regular](./Redressed_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/redressed)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

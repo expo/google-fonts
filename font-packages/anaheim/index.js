@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Anaheim';
-export const __fontFamilyVersion__ = 4;
-
-export const Anaheim_Regular400 = require('./738fa7ae0283744abbfcfd999eb71d255210a7ee0fa7e195a47482269b9e381e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Anaheim_400Regular = require('./Anaheim_400Regular.ttf');

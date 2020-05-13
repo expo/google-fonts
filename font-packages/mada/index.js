@@ -4,13 +4,11 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Mada';
-export const __fontFamilyVersion__ = 4;
-
-export const Mada_ExtraLight200 = require('./9e8f4edc7b74697883d4382000502d7429481f7ccc59b65ac62c28e99481cbc3.ttf');
-export const Mada_Light300 = require('./4987425fde45e8da45ede3fad409b0ac00e32ca0255a60b44b8e1f701764346c.ttf');
-export const Mada_Regular400 = require('./9e3c24ab83037a6d4fc5b72d068caaa6a0767414bd20d7defe31c562ced6d6e7.ttf');
-export const Mada_Medium500 = require('./c3e70bf71ab0557ddd82906726c36d89e199792db1997040b1599f61e00acd78.ttf');
-export const Mada_SemiBold600 = require('./052e0e0f174e9e8ff63bf2a85f70db6cc59d3391a016a31ace8e20c49d0fa0d6.ttf');
-export const Mada_Bold700 = require('./b94e1f9c917ae40e5e6b8d95fe24de1817e37942aafb9b9310d5e0d4b049221a.ttf');
-export const Mada_Black900 = require('./7746a4ca1c6767a971c0db31ec18594fa5211adcc318e293d27b55efc36bded9.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Mada_200ExtraLight = require('./Mada_200ExtraLight.ttf');
+export const Mada_300Light = require('./Mada_300Light.ttf');
+export const Mada_400Regular = require('./Mada_400Regular.ttf');
+export const Mada_500Medium = require('./Mada_500Medium.ttf');
+export const Mada_600SemiBold = require('./Mada_600SemiBold.ttf');
+export const Mada_700Bold = require('./Mada_700Bold.ttf');
+export const Mada_900Black = require('./Mada_900Black.ttf');

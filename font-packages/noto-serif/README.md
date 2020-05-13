@@ -7,18 +7,16 @@
 
 This package lets you use the [**Noto Serif**](https://fonts.google.com/specimen/Noto+Serif) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Noto Serif
 
 ![Noto Serif](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `NotoSerif_Regular400`
-- `NotoSerif_Regular400_Italic`
-- `NotoSerif_Bold700`
-- `NotoSerif_Bold700_Italic`
+- `NotoSerif_400Regular`
+- `NotoSerif_400Regular_Italic`
+- `NotoSerif_700Bold`
+- `NotoSerif_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  NotoSerif_Regular400,
-  NotoSerif_Regular400_Italic,
-  NotoSerif_Bold700,
-  NotoSerif_Bold700_Italic,
   useFonts,
+  NotoSerif_400Regular,
+  NotoSerif_400Regular_Italic,
+  NotoSerif_700Bold,
+  NotoSerif_700Bold_Italic,
 } from '@expo-google-fonts/noto-serif';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    NotoSerif_Regular400,
-    NotoSerif_Regular400_Italic,
-    NotoSerif_Bold700,
-    NotoSerif_Bold700_Italic,
+    NotoSerif_400Regular,
+    NotoSerif_400Regular_Italic,
+    NotoSerif_700Bold,
+    NotoSerif_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerif_Regular400' }}>
-          NotoSerif_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerif_400Regular' }}>
+          NotoSerif_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerif_Regular400_Italic' }}>
-          NotoSerif_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerif_400Regular_Italic' }}>
+          NotoSerif_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerif_Bold700' }}>
-          NotoSerif_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerif_700Bold' }}>
+          NotoSerif_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerif_Bold700_Italic' }}>
-          NotoSerif_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerif_700Bold_Italic' }}>
+          NotoSerif_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NotoSerif_Regular400
-![NotoSerif_Regular400](./756d85930a29b444fc130d6ab854e9f796a951dff740c2bedb926522aa2db185.ttf.png)
+##### NotoSerif_400Regular
+![NotoSerif_400Regular](./NotoSerif_400Regular.ttf.png)
 
-##### NotoSerif_Regular400_Italic
-![NotoSerif_Regular400_Italic](./3a8f4b27348c68ceb866bc4d52c0eae507c8cf764c1ab8d398805aeb89e40eb6.ttf.png)
+##### NotoSerif_400Regular_Italic
+![NotoSerif_400Regular_Italic](./NotoSerif_400Regular_Italic.ttf.png)
 
-##### NotoSerif_Bold700
-![NotoSerif_Bold700](./b8ab5cf0042204e461a5d83a980849507daa6ef58dda05725bcfa7403675eb0d.ttf.png)
+##### NotoSerif_700Bold
+![NotoSerif_700Bold](./NotoSerif_700Bold.ttf.png)
 
-##### NotoSerif_Bold700_Italic
-![NotoSerif_Bold700_Italic](./fff456cbd82e58d6ca98db85fc03a22b982377a0f7e36525541d06b1eaaa1db0.ttf.png)
+##### NotoSerif_700Bold_Italic
+![NotoSerif_700Bold_Italic](./NotoSerif_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/noto-serif)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

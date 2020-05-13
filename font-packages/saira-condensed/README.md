@@ -7,23 +7,21 @@
 
 This package lets you use the [**Saira Condensed**](https://fonts.google.com/specimen/Saira+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Saira Condensed
 
 ![Saira Condensed](./font-family.png)
 
 This font family contains [9 styles](#-gallery).
 
-- `SairaCondensed_Thin100`
-- `SairaCondensed_ExtraLight200`
-- `SairaCondensed_Light300`
-- `SairaCondensed_Regular400`
-- `SairaCondensed_Medium500`
-- `SairaCondensed_SemiBold600`
-- `SairaCondensed_Bold700`
-- `SairaCondensed_ExtraBold800`
-- `SairaCondensed_Black900`
+- `SairaCondensed_100Thin`
+- `SairaCondensed_200ExtraLight`
+- `SairaCondensed_300Light`
+- `SairaCondensed_400Regular`
+- `SairaCondensed_500Medium`
+- `SairaCondensed_600SemiBold`
+- `SairaCondensed_700Bold`
+- `SairaCondensed_800ExtraBold`
+- `SairaCondensed_900Black`
 
 ## Usage
 
@@ -39,29 +37,29 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  SairaCondensed_Thin100,
-  SairaCondensed_ExtraLight200,
-  SairaCondensed_Light300,
-  SairaCondensed_Regular400,
-  SairaCondensed_Medium500,
-  SairaCondensed_SemiBold600,
-  SairaCondensed_Bold700,
-  SairaCondensed_ExtraBold800,
-  SairaCondensed_Black900,
   useFonts,
+  SairaCondensed_100Thin,
+  SairaCondensed_200ExtraLight,
+  SairaCondensed_300Light,
+  SairaCondensed_400Regular,
+  SairaCondensed_500Medium,
+  SairaCondensed_600SemiBold,
+  SairaCondensed_700Bold,
+  SairaCondensed_800ExtraBold,
+  SairaCondensed_900Black,
 } from '@expo-google-fonts/saira-condensed';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    SairaCondensed_Thin100,
-    SairaCondensed_ExtraLight200,
-    SairaCondensed_Light300,
-    SairaCondensed_Regular400,
-    SairaCondensed_Medium500,
-    SairaCondensed_SemiBold600,
-    SairaCondensed_Bold700,
-    SairaCondensed_ExtraBold800,
-    SairaCondensed_Black900,
+    SairaCondensed_100Thin,
+    SairaCondensed_200ExtraLight,
+    SairaCondensed_300Light,
+    SairaCondensed_400Regular,
+    SairaCondensed_500Medium,
+    SairaCondensed_600SemiBold,
+    SairaCondensed_700Bold,
+    SairaCondensed_800ExtraBold,
+    SairaCondensed_900Black,
   });
 
   let fontSize = 24;
@@ -72,40 +70,40 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_Thin100' }}>
-          SairaCondensed_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_100Thin' }}>
+          SairaCondensed_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_ExtraLight200' }}>
-          SairaCondensed_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_200ExtraLight' }}>
+          SairaCondensed_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_Light300' }}>
-          SairaCondensed_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_300Light' }}>
+          SairaCondensed_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_Regular400' }}>
-          SairaCondensed_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_400Regular' }}>
+          SairaCondensed_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_Medium500' }}>
-          SairaCondensed_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_500Medium' }}>
+          SairaCondensed_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_SemiBold600' }}>
-          SairaCondensed_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_600SemiBold' }}>
+          SairaCondensed_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_Bold700' }}>
-          SairaCondensed_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_700Bold' }}>
+          SairaCondensed_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_ExtraBold800' }}>
-          SairaCondensed_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_800ExtraBold' }}>
+          SairaCondensed_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_Black900' }}>
-          SairaCondensed_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_900Black' }}>
+          SairaCondensed_900Black
         </Text>
       </View>
     );
@@ -116,32 +114,32 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SairaCondensed_Thin100
-![SairaCondensed_Thin100](./8220c0c8f2f9288ded38da89babb11b6da4163ebaf504f877d22fb4ee43a5418.ttf.png)
+##### SairaCondensed_100Thin
+![SairaCondensed_100Thin](./SairaCondensed_100Thin.ttf.png)
 
-##### SairaCondensed_ExtraLight200
-![SairaCondensed_ExtraLight200](./589e794e8c485b04766db461cee8244dec0abc305e90f5cffd6dc37917ace3e4.ttf.png)
+##### SairaCondensed_200ExtraLight
+![SairaCondensed_200ExtraLight](./SairaCondensed_200ExtraLight.ttf.png)
 
-##### SairaCondensed_Light300
-![SairaCondensed_Light300](./6aeb3495feb7c7ed8e87afce584590944e61b1a581d26f494de054b8a430dca7.ttf.png)
+##### SairaCondensed_300Light
+![SairaCondensed_300Light](./SairaCondensed_300Light.ttf.png)
 
-##### SairaCondensed_Regular400
-![SairaCondensed_Regular400](./b0c1ee3c73539fe0da52806bb378267b315d3ebd7ffd40f7c435dd3dfef91baa.ttf.png)
+##### SairaCondensed_400Regular
+![SairaCondensed_400Regular](./SairaCondensed_400Regular.ttf.png)
 
-##### SairaCondensed_Medium500
-![SairaCondensed_Medium500](./c78b83e91201287296ae34c6159727fed972526b1dd8aefae5b922dd4196e687.ttf.png)
+##### SairaCondensed_500Medium
+![SairaCondensed_500Medium](./SairaCondensed_500Medium.ttf.png)
 
-##### SairaCondensed_SemiBold600
-![SairaCondensed_SemiBold600](./f1b084d4812e81b0cdfa9eed1b7256d043f5d4d8a00a81ab67440f9354549fc9.ttf.png)
+##### SairaCondensed_600SemiBold
+![SairaCondensed_600SemiBold](./SairaCondensed_600SemiBold.ttf.png)
 
-##### SairaCondensed_Bold700
-![SairaCondensed_Bold700](./9ca3926b06ade51157b1ce932574cac89a6f16dfbdd601a345701da25b7aa8dc.ttf.png)
+##### SairaCondensed_700Bold
+![SairaCondensed_700Bold](./SairaCondensed_700Bold.ttf.png)
 
-##### SairaCondensed_ExtraBold800
-![SairaCondensed_ExtraBold800](./17caf4ad92a39b0d9333a8f668c1582d993748126b1a8ebbd4b26bca25c66a00.ttf.png)
+##### SairaCondensed_800ExtraBold
+![SairaCondensed_800ExtraBold](./SairaCondensed_800ExtraBold.ttf.png)
 
-##### SairaCondensed_Black900
-![SairaCondensed_Black900](./3235689af1f16e3535c26922c2fb739dd02adef166d3e761175b3af89f72240b.ttf.png)
+##### SairaCondensed_900Black
+![SairaCondensed_900Black](./SairaCondensed_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -171,7 +169,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/saira-condensed)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

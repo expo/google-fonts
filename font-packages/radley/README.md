@@ -7,16 +7,14 @@
 
 This package lets you use the [**Radley**](https://fonts.google.com/specimen/Radley) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Radley
 
 ![Radley](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Radley_Regular400`
-- `Radley_Regular400_Italic`
+- `Radley_400Regular`
+- `Radley_400Regular_Italic`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Radley_Regular400, Radley_Regular400_Italic, useFonts } from '@expo-google-fonts/radley';
+import { useFonts, Radley_400Regular, Radley_400Regular_Italic } from '@expo-google-fonts/radley';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Radley_Regular400,
-    Radley_Regular400_Italic,
+    Radley_400Regular,
+    Radley_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Radley_Regular400' }}>
-          Radley_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Radley_400Regular' }}>
+          Radley_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Radley_Regular400_Italic' }}>
-          Radley_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Radley_400Regular_Italic' }}>
+          Radley_400Regular_Italic
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Radley_Regular400
-![Radley_Regular400](./6793fc8150706eb473a493107e09c2e519147ccf8d28dea89f49427c0dca0481.ttf.png)
+##### Radley_400Regular
+![Radley_400Regular](./Radley_400Regular.ttf.png)
 
-##### Radley_Regular400_Italic
-![Radley_Regular400_Italic](./d01dd3f7b9c28e1f719a10c2a9dc88cd2827fcc64c09173e01e8b397f7615442.ttf.png)
+##### Radley_400Regular_Italic
+![Radley_400Regular_Italic](./Radley_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/radley)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

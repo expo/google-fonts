@@ -7,17 +7,15 @@
 
 This package lets you use the [**Bitter**](https://fonts.google.com/specimen/Bitter) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Bitter
 
 ![Bitter](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `Bitter_Regular400`
-- `Bitter_Regular400_Italic`
-- `Bitter_Bold700`
+- `Bitter_400Regular`
+- `Bitter_400Regular_Italic`
+- `Bitter_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Bitter_Regular400,
-  Bitter_Regular400_Italic,
-  Bitter_Bold700,
   useFonts,
+  Bitter_400Regular,
+  Bitter_400Regular_Italic,
+  Bitter_700Bold,
 } from '@expo-google-fonts/bitter';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Bitter_Regular400,
-    Bitter_Regular400_Italic,
-    Bitter_Bold700,
+    Bitter_400Regular,
+    Bitter_400Regular_Italic,
+    Bitter_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Bitter_Regular400' }}>
-          Bitter_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Bitter_400Regular' }}>
+          Bitter_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Bitter_Regular400_Italic' }}>
-          Bitter_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Bitter_400Regular_Italic' }}>
+          Bitter_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Bitter_Bold700' }}>
-          Bitter_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Bitter_700Bold' }}>
+          Bitter_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Bitter_Regular400
-![Bitter_Regular400](./937e0cb8bbc92b1b89eafc86f73c06dec677f4e8d2c39de72208ae4fffedc7fa.ttf.png)
+##### Bitter_400Regular
+![Bitter_400Regular](./Bitter_400Regular.ttf.png)
 
-##### Bitter_Regular400_Italic
-![Bitter_Regular400_Italic](./7a9ae7d2a6428de7df36662a7014e91b880c5d09663ae9c66abb8a928c0ad371.ttf.png)
+##### Bitter_400Regular_Italic
+![Bitter_400Regular_Italic](./Bitter_400Regular_Italic.ttf.png)
 
-##### Bitter_Bold700
-![Bitter_Bold700](./c41cd10ef080e4d415bc6da6d86b29b73fe87ba84afe455423476109ed6addbd.ttf.png)
+##### Bitter_700Bold
+![Bitter_700Bold](./Bitter_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/bitter)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

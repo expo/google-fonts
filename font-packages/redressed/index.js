@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Redressed';
-export const __fontFamilyVersion__ = 6;
-
-export const Redressed_Regular400 = require('./b7da182df7a86a14b448d200c3efd866dca0885111c28fce6449cf8aef103e77.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Redressed_400Regular = require('./Redressed_400Regular.ttf');

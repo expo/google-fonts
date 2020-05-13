@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Aladin';
-export const __fontFamilyVersion__ = 5;
-
-export const Aladin_Regular400 = require('./47e6aa68e0a6686d85005a8cd4e3c3055dc4828dc3b49d69fdf88f38491c8ae2.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Aladin_400Regular = require('./Aladin_400Regular.ttf');

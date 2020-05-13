@@ -7,20 +7,18 @@
 
 This package lets you use the [**Inria Serif**](https://fonts.google.com/specimen/Inria+Serif) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Inria Serif
 
 ![Inria Serif](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `InriaSerif_Light300`
-- `InriaSerif_Light300_Italic`
-- `InriaSerif_Regular400`
-- `InriaSerif_Regular400_Italic`
-- `InriaSerif_Bold700`
-- `InriaSerif_Bold700_Italic`
+- `InriaSerif_300Light`
+- `InriaSerif_300Light_Italic`
+- `InriaSerif_400Regular`
+- `InriaSerif_400Regular_Italic`
+- `InriaSerif_700Bold`
+- `InriaSerif_700Bold_Italic`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  InriaSerif_Light300,
-  InriaSerif_Light300_Italic,
-  InriaSerif_Regular400,
-  InriaSerif_Regular400_Italic,
-  InriaSerif_Bold700,
-  InriaSerif_Bold700_Italic,
   useFonts,
+  InriaSerif_300Light,
+  InriaSerif_300Light_Italic,
+  InriaSerif_400Regular,
+  InriaSerif_400Regular_Italic,
+  InriaSerif_700Bold,
+  InriaSerif_700Bold_Italic,
 } from '@expo-google-fonts/inria-serif';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    InriaSerif_Light300,
-    InriaSerif_Light300_Italic,
-    InriaSerif_Regular400,
-    InriaSerif_Regular400_Italic,
-    InriaSerif_Bold700,
-    InriaSerif_Bold700_Italic,
+    InriaSerif_300Light,
+    InriaSerif_300Light_Italic,
+    InriaSerif_400Regular,
+    InriaSerif_400Regular_Italic,
+    InriaSerif_700Bold,
+    InriaSerif_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -63,28 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_Light300' }}>
-          InriaSerif_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_300Light' }}>
+          InriaSerif_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_Light300_Italic' }}>
-          InriaSerif_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_300Light_Italic' }}>
+          InriaSerif_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_Regular400' }}>
-          InriaSerif_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_400Regular' }}>
+          InriaSerif_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_Regular400_Italic' }}>
-          InriaSerif_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_400Regular_Italic' }}>
+          InriaSerif_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_Bold700' }}>
-          InriaSerif_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_700Bold' }}>
+          InriaSerif_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_Bold700_Italic' }}>
-          InriaSerif_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_700Bold_Italic' }}>
+          InriaSerif_700Bold_Italic
         </Text>
       </View>
     );
@@ -95,23 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### InriaSerif_Light300
-![InriaSerif_Light300](./843b3e9e758e66cd88535ad2c67fba727e83e342a871227e9d6dd1640acbd496.ttf.png)
+##### InriaSerif_300Light
+![InriaSerif_300Light](./InriaSerif_300Light.ttf.png)
 
-##### InriaSerif_Light300_Italic
-![InriaSerif_Light300_Italic](./f4537cff635316910c2b9f1449b29caaa2d9aaf852dc13bd2d82adc9070e861d.ttf.png)
+##### InriaSerif_300Light_Italic
+![InriaSerif_300Light_Italic](./InriaSerif_300Light_Italic.ttf.png)
 
-##### InriaSerif_Regular400
-![InriaSerif_Regular400](./3e86dfe8f6fc1e2431b0a39040b2dc845fe91b448d1a75733f8a2e1d8dd54586.ttf.png)
+##### InriaSerif_400Regular
+![InriaSerif_400Regular](./InriaSerif_400Regular.ttf.png)
 
-##### InriaSerif_Regular400_Italic
-![InriaSerif_Regular400_Italic](./911f907aefd837c9e50f383f376f437fef8b69dee712ca4f5513ffc70769cc5a.ttf.png)
+##### InriaSerif_400Regular_Italic
+![InriaSerif_400Regular_Italic](./InriaSerif_400Regular_Italic.ttf.png)
 
-##### InriaSerif_Bold700
-![InriaSerif_Bold700](./ee42dcf7120d640f7b28930c80818aaec0e114784ea1935fbf0721429519d6c5.ttf.png)
+##### InriaSerif_700Bold
+![InriaSerif_700Bold](./InriaSerif_700Bold.ttf.png)
 
-##### InriaSerif_Bold700_Italic
-![InriaSerif_Bold700_Italic](./503bdc8982bd9fc8af24dadb68f8e5304ddeb3d2aa5f9135811977c9b4c4eb80.ttf.png)
+##### InriaSerif_700Bold_Italic
+![InriaSerif_700Bold_Italic](./InriaSerif_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -141,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/inria-serif)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

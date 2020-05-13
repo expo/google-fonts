@@ -7,15 +7,13 @@
 
 This package lets you use the [**Petrona**](https://fonts.google.com/specimen/Petrona) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Petrona
 
 ![Petrona](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Petrona_Regular400`
+- `Petrona_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Petrona_Regular400, useFonts } from '@expo-google-fonts/petrona';
+import { useFonts, Petrona_400Regular } from '@expo-google-fonts/petrona';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Petrona_Regular400,
+    Petrona_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Petrona_Regular400' }}>
-          Petrona_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Petrona_400Regular' }}>
+          Petrona_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Petrona_Regular400
-![Petrona_Regular400](./d80f7ebf1277bc91932826582e099143b69fb77dc61f1259d442558087cc2714.ttf.png)
+##### Petrona_400Regular
+![Petrona_400Regular](./Petrona_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/petrona)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,23 +7,21 @@
 
 This package lets you use the [**Encode Sans Semi Condensed**](https://fonts.google.com/specimen/Encode+Sans+Semi+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Encode Sans Semi Condensed
 
 ![Encode Sans Semi Condensed](./font-family.png)
 
 This font family contains [9 styles](#-gallery).
 
-- `EncodeSansSemiCondensed_Thin100`
-- `EncodeSansSemiCondensed_ExtraLight200`
-- `EncodeSansSemiCondensed_Light300`
-- `EncodeSansSemiCondensed_Regular400`
-- `EncodeSansSemiCondensed_Medium500`
-- `EncodeSansSemiCondensed_SemiBold600`
-- `EncodeSansSemiCondensed_Bold700`
-- `EncodeSansSemiCondensed_ExtraBold800`
-- `EncodeSansSemiCondensed_Black900`
+- `EncodeSansSemiCondensed_100Thin`
+- `EncodeSansSemiCondensed_200ExtraLight`
+- `EncodeSansSemiCondensed_300Light`
+- `EncodeSansSemiCondensed_400Regular`
+- `EncodeSansSemiCondensed_500Medium`
+- `EncodeSansSemiCondensed_600SemiBold`
+- `EncodeSansSemiCondensed_700Bold`
+- `EncodeSansSemiCondensed_800ExtraBold`
+- `EncodeSansSemiCondensed_900Black`
 
 ## Usage
 
@@ -39,29 +37,29 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  EncodeSansSemiCondensed_Thin100,
-  EncodeSansSemiCondensed_ExtraLight200,
-  EncodeSansSemiCondensed_Light300,
-  EncodeSansSemiCondensed_Regular400,
-  EncodeSansSemiCondensed_Medium500,
-  EncodeSansSemiCondensed_SemiBold600,
-  EncodeSansSemiCondensed_Bold700,
-  EncodeSansSemiCondensed_ExtraBold800,
-  EncodeSansSemiCondensed_Black900,
   useFonts,
+  EncodeSansSemiCondensed_100Thin,
+  EncodeSansSemiCondensed_200ExtraLight,
+  EncodeSansSemiCondensed_300Light,
+  EncodeSansSemiCondensed_400Regular,
+  EncodeSansSemiCondensed_500Medium,
+  EncodeSansSemiCondensed_600SemiBold,
+  EncodeSansSemiCondensed_700Bold,
+  EncodeSansSemiCondensed_800ExtraBold,
+  EncodeSansSemiCondensed_900Black,
 } from '@expo-google-fonts/encode-sans-semi-condensed';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    EncodeSansSemiCondensed_Thin100,
-    EncodeSansSemiCondensed_ExtraLight200,
-    EncodeSansSemiCondensed_Light300,
-    EncodeSansSemiCondensed_Regular400,
-    EncodeSansSemiCondensed_Medium500,
-    EncodeSansSemiCondensed_SemiBold600,
-    EncodeSansSemiCondensed_Bold700,
-    EncodeSansSemiCondensed_ExtraBold800,
-    EncodeSansSemiCondensed_Black900,
+    EncodeSansSemiCondensed_100Thin,
+    EncodeSansSemiCondensed_200ExtraLight,
+    EncodeSansSemiCondensed_300Light,
+    EncodeSansSemiCondensed_400Regular,
+    EncodeSansSemiCondensed_500Medium,
+    EncodeSansSemiCondensed_600SemiBold,
+    EncodeSansSemiCondensed_700Bold,
+    EncodeSansSemiCondensed_800ExtraBold,
+    EncodeSansSemiCondensed_900Black,
   });
 
   let fontSize = 24;
@@ -72,49 +70,49 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansSemiCondensed_Thin100' }}>
-          EncodeSansSemiCondensed_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansSemiCondensed_100Thin' }}>
+          EncodeSansSemiCondensed_100Thin
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
-            fontFamily: 'EncodeSansSemiCondensed_ExtraLight200',
+            fontFamily: 'EncodeSansSemiCondensed_200ExtraLight',
           }}>
-          EncodeSansSemiCondensed_ExtraLight200
+          EncodeSansSemiCondensed_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansSemiCondensed_Light300' }}>
-          EncodeSansSemiCondensed_Light300
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansSemiCondensed_Regular400' }}>
-          EncodeSansSemiCondensed_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansSemiCondensed_300Light' }}>
+          EncodeSansSemiCondensed_300Light
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansSemiCondensed_Medium500' }}>
-          EncodeSansSemiCondensed_Medium500
+          style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansSemiCondensed_400Regular' }}>
+          EncodeSansSemiCondensed_400Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansSemiCondensed_SemiBold600' }}>
-          EncodeSansSemiCondensed_SemiBold600
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansSemiCondensed_Bold700' }}>
-          EncodeSansSemiCondensed_Bold700
+          style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansSemiCondensed_500Medium' }}>
+          EncodeSansSemiCondensed_500Medium
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansSemiCondensed_ExtraBold800' }}>
-          EncodeSansSemiCondensed_ExtraBold800
+          style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansSemiCondensed_600SemiBold' }}>
+          EncodeSansSemiCondensed_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansSemiCondensed_Black900' }}>
-          EncodeSansSemiCondensed_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansSemiCondensed_700Bold' }}>
+          EncodeSansSemiCondensed_700Bold
+        </Text>
+
+        <Text
+          style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansSemiCondensed_800ExtraBold' }}>
+          EncodeSansSemiCondensed_800ExtraBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansSemiCondensed_900Black' }}>
+          EncodeSansSemiCondensed_900Black
         </Text>
       </View>
     );
@@ -125,32 +123,32 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### EncodeSansSemiCondensed_Thin100
-![EncodeSansSemiCondensed_Thin100](./05e33431ccd816003d590171a6110b72fc3f122c224c46c4f5339f4919b57873.ttf.png)
+##### EncodeSansSemiCondensed_100Thin
+![EncodeSansSemiCondensed_100Thin](./EncodeSansSemiCondensed_100Thin.ttf.png)
 
-##### EncodeSansSemiCondensed_ExtraLight200
-![EncodeSansSemiCondensed_ExtraLight200](./06726656f1a2937a42770740e0772bbcd1187d2bdbe2f5bfd42bab081286b643.ttf.png)
+##### EncodeSansSemiCondensed_200ExtraLight
+![EncodeSansSemiCondensed_200ExtraLight](./EncodeSansSemiCondensed_200ExtraLight.ttf.png)
 
-##### EncodeSansSemiCondensed_Light300
-![EncodeSansSemiCondensed_Light300](./6ea764a1fca4cd3308fdc9f6284e890fe9ef8409ab991115bb08a4d0be1b544a.ttf.png)
+##### EncodeSansSemiCondensed_300Light
+![EncodeSansSemiCondensed_300Light](./EncodeSansSemiCondensed_300Light.ttf.png)
 
-##### EncodeSansSemiCondensed_Regular400
-![EncodeSansSemiCondensed_Regular400](./ec67d15d3d449c0b0cf65c4fc57fbca88395b306ff4f30d409b4c8eb4d06abbf.ttf.png)
+##### EncodeSansSemiCondensed_400Regular
+![EncodeSansSemiCondensed_400Regular](./EncodeSansSemiCondensed_400Regular.ttf.png)
 
-##### EncodeSansSemiCondensed_Medium500
-![EncodeSansSemiCondensed_Medium500](./972df21a043f38bbac81d476692cdd0ccea7537ceac026fe837daf17c4836aa4.ttf.png)
+##### EncodeSansSemiCondensed_500Medium
+![EncodeSansSemiCondensed_500Medium](./EncodeSansSemiCondensed_500Medium.ttf.png)
 
-##### EncodeSansSemiCondensed_SemiBold600
-![EncodeSansSemiCondensed_SemiBold600](./654f95bfaeb0563e8a7622832f25016d47e3f8e60e4dd59c2ef9cf3835f5e1b1.ttf.png)
+##### EncodeSansSemiCondensed_600SemiBold
+![EncodeSansSemiCondensed_600SemiBold](./EncodeSansSemiCondensed_600SemiBold.ttf.png)
 
-##### EncodeSansSemiCondensed_Bold700
-![EncodeSansSemiCondensed_Bold700](./99c6ae51b272d20f915f0c4b8454b27ac9400423ba0a207b770a7dc3201f9d5c.ttf.png)
+##### EncodeSansSemiCondensed_700Bold
+![EncodeSansSemiCondensed_700Bold](./EncodeSansSemiCondensed_700Bold.ttf.png)
 
-##### EncodeSansSemiCondensed_ExtraBold800
-![EncodeSansSemiCondensed_ExtraBold800](./7d33b1fd6f457c91d58d3287767a4f0089fa3fd5ee2c18539c597f8a895b3646.ttf.png)
+##### EncodeSansSemiCondensed_800ExtraBold
+![EncodeSansSemiCondensed_800ExtraBold](./EncodeSansSemiCondensed_800ExtraBold.ttf.png)
 
-##### EncodeSansSemiCondensed_Black900
-![EncodeSansSemiCondensed_Black900](./a7075bb5ddbdaca47f1356022fa375630ca868fc11d6ac6e53026c8bac0888b1.ttf.png)
+##### EncodeSansSemiCondensed_900Black
+![EncodeSansSemiCondensed_900Black](./EncodeSansSemiCondensed_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -180,7 +178,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/encode-sans-semi-condensed)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

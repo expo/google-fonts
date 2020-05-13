@@ -7,18 +7,18 @@
 
 This package lets you use the [**Nobile**](https://fonts.google.com/specimen/Nobile) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Nobile
 
 ![Nobile](./font-family.png)
 
-This font family contains [4 styles](#-gallery).
+This font family contains [6 styles](#-gallery).
 
-- `Nobile_Regular400`
-- `Nobile_Regular400_Italic`
-- `Nobile_Bold700`
-- `Nobile_Bold700_Italic`
+- `Nobile_400Regular`
+- `Nobile_400Regular_Italic`
+- `Nobile_500Medium`
+- `Nobile_500Medium_Italic`
+- `Nobile_700Bold`
+- `Nobile_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Nobile_Regular400,
-  Nobile_Regular400_Italic,
-  Nobile_Bold700,
-  Nobile_Bold700_Italic,
   useFonts,
+  Nobile_400Regular,
+  Nobile_400Regular_Italic,
+  Nobile_500Medium,
+  Nobile_500Medium_Italic,
+  Nobile_700Bold,
+  Nobile_700Bold_Italic,
 } from '@expo-google-fonts/nobile';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Nobile_Regular400,
-    Nobile_Regular400_Italic,
-    Nobile_Bold700,
-    Nobile_Bold700_Italic,
+    Nobile_400Regular,
+    Nobile_400Regular_Italic,
+    Nobile_500Medium,
+    Nobile_500Medium_Italic,
+    Nobile_700Bold,
+    Nobile_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nobile_Regular400' }}>
-          Nobile_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nobile_400Regular' }}>
+          Nobile_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nobile_Regular400_Italic' }}>
-          Nobile_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nobile_400Regular_Italic' }}>
+          Nobile_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nobile_Bold700' }}>
-          Nobile_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nobile_500Medium' }}>
+          Nobile_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nobile_Bold700_Italic' }}>
-          Nobile_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nobile_500Medium_Italic' }}>
+          Nobile_500Medium_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nobile_700Bold' }}>
+          Nobile_700Bold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nobile_700Bold_Italic' }}>
+          Nobile_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Nobile_Regular400
-![Nobile_Regular400](./d0fcaab1c3dc981d4dcbe2840d5a12039de03b68f4f2736ac648e6eb339249c1.ttf.png)
+##### Nobile_400Regular
+![Nobile_400Regular](./Nobile_400Regular.ttf.png)
 
-##### Nobile_Regular400_Italic
-![Nobile_Regular400_Italic](./88fda8926ed6fdf634aeaf690e2d21e66e8e88231993df94bf3b2359a617491b.ttf.png)
+##### Nobile_400Regular_Italic
+![Nobile_400Regular_Italic](./Nobile_400Regular_Italic.ttf.png)
 
-##### Nobile_Bold700
-![Nobile_Bold700](./809ce5e05bb84a8872fd7ec295e71892fab43593a18179bb43c2a0f94cca53d2.ttf.png)
+##### Nobile_500Medium
+![Nobile_500Medium](./Nobile_500Medium.ttf.png)
 
-##### Nobile_Bold700_Italic
-![Nobile_Bold700_Italic](./c889dceebe4337abc148cab8adbcb5ad8e6277635316b13a75afb02db100212d.ttf.png)
+##### Nobile_500Medium_Italic
+![Nobile_500Medium_Italic](./Nobile_500Medium_Italic.ttf.png)
+
+##### Nobile_700Bold
+![Nobile_700Bold](./Nobile_700Bold.ttf.png)
+
+##### Nobile_700Bold_Italic
+![Nobile_700Bold_Italic](./Nobile_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/nobile)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

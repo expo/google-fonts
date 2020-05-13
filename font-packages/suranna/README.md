@@ -7,15 +7,13 @@
 
 This package lets you use the [**Suranna**](https://fonts.google.com/specimen/Suranna) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Suranna
 
 ![Suranna](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Suranna_Regular400`
+- `Suranna_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Suranna_Regular400, useFonts } from '@expo-google-fonts/suranna';
+import { useFonts, Suranna_400Regular } from '@expo-google-fonts/suranna';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Suranna_Regular400,
+    Suranna_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Suranna_Regular400' }}>
-          Suranna_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Suranna_400Regular' }}>
+          Suranna_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Suranna_Regular400
-![Suranna_Regular400](./5737d88c714925c169afd72de230a6a9feb3a2d7a026b33b5ccfa42e60cef970.ttf.png)
+##### Suranna_400Regular
+![Suranna_400Regular](./Suranna_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/suranna)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

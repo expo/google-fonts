@@ -7,16 +7,14 @@
 
 This package lets you use the [**Caveat**](https://fonts.google.com/specimen/Caveat) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Caveat
 
 ![Caveat](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Caveat_Regular400`
-- `Caveat_Bold700`
+- `Caveat_400Regular`
+- `Caveat_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Caveat_Regular400, Caveat_Bold700, useFonts } from '@expo-google-fonts/caveat';
+import { useFonts, Caveat_400Regular, Caveat_700Bold } from '@expo-google-fonts/caveat';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Caveat_Regular400,
-    Caveat_Bold700,
+    Caveat_400Regular,
+    Caveat_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caveat_Regular400' }}>
-          Caveat_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caveat_400Regular' }}>
+          Caveat_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caveat_Bold700' }}>
-          Caveat_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caveat_700Bold' }}>
+          Caveat_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Caveat_Regular400
-![Caveat_Regular400](./0ffe3acdd9c8d91838d7ba021d1c4e9111151e34a104318a8aafe0efeda5755f.ttf.png)
+##### Caveat_400Regular
+![Caveat_400Regular](./Caveat_400Regular.ttf.png)
 
-##### Caveat_Bold700
-![Caveat_Bold700](./6993da01fa90c359d45a03be9927b46be80d261978de6f5805f43d75ed2d172f.ttf.png)
+##### Caveat_700Bold
+![Caveat_700Bold](./Caveat_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/caveat)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

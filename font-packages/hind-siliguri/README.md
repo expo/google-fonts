@@ -7,19 +7,17 @@
 
 This package lets you use the [**Hind Siliguri**](https://fonts.google.com/specimen/Hind+Siliguri) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Hind Siliguri
 
 ![Hind Siliguri](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `HindSiliguri_Light300`
-- `HindSiliguri_Regular400`
-- `HindSiliguri_Medium500`
-- `HindSiliguri_SemiBold600`
-- `HindSiliguri_Bold700`
+- `HindSiliguri_300Light`
+- `HindSiliguri_400Regular`
+- `HindSiliguri_500Medium`
+- `HindSiliguri_600SemiBold`
+- `HindSiliguri_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  HindSiliguri_Light300,
-  HindSiliguri_Regular400,
-  HindSiliguri_Medium500,
-  HindSiliguri_SemiBold600,
-  HindSiliguri_Bold700,
   useFonts,
+  HindSiliguri_300Light,
+  HindSiliguri_400Regular,
+  HindSiliguri_500Medium,
+  HindSiliguri_600SemiBold,
+  HindSiliguri_700Bold,
 } from '@expo-google-fonts/hind-siliguri';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    HindSiliguri_Light300,
-    HindSiliguri_Regular400,
-    HindSiliguri_Medium500,
-    HindSiliguri_SemiBold600,
-    HindSiliguri_Bold700,
+    HindSiliguri_300Light,
+    HindSiliguri_400Regular,
+    HindSiliguri_500Medium,
+    HindSiliguri_600SemiBold,
+    HindSiliguri_700Bold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindSiliguri_Light300' }}>
-          HindSiliguri_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindSiliguri_300Light' }}>
+          HindSiliguri_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindSiliguri_Regular400' }}>
-          HindSiliguri_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindSiliguri_400Regular' }}>
+          HindSiliguri_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindSiliguri_Medium500' }}>
-          HindSiliguri_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindSiliguri_500Medium' }}>
+          HindSiliguri_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindSiliguri_SemiBold600' }}>
-          HindSiliguri_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindSiliguri_600SemiBold' }}>
+          HindSiliguri_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindSiliguri_Bold700' }}>
-          HindSiliguri_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindSiliguri_700Bold' }}>
+          HindSiliguri_700Bold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HindSiliguri_Light300
-![HindSiliguri_Light300](./ac4fb0e6616374786c8c79c069fb7ec555580917d9534053bbc5cfca7cc35a6b.ttf.png)
+##### HindSiliguri_300Light
+![HindSiliguri_300Light](./HindSiliguri_300Light.ttf.png)
 
-##### HindSiliguri_Regular400
-![HindSiliguri_Regular400](./4f3c785b698527e53bc193bce4c13e1eedc1eadefe7c65720c5eb0ddafcc78c4.ttf.png)
+##### HindSiliguri_400Regular
+![HindSiliguri_400Regular](./HindSiliguri_400Regular.ttf.png)
 
-##### HindSiliguri_Medium500
-![HindSiliguri_Medium500](./f112da1e6bbd4b1fbf998db772359e0812e0bf2acc7c60e21a0e99c24ec1e48f.ttf.png)
+##### HindSiliguri_500Medium
+![HindSiliguri_500Medium](./HindSiliguri_500Medium.ttf.png)
 
-##### HindSiliguri_SemiBold600
-![HindSiliguri_SemiBold600](./c80fdec935e6023f68b5a13e7bde8edff218450fe58f3ca7c3fe6e454b4cdd54.ttf.png)
+##### HindSiliguri_600SemiBold
+![HindSiliguri_600SemiBold](./HindSiliguri_600SemiBold.ttf.png)
 
-##### HindSiliguri_Bold700
-![HindSiliguri_Bold700](./3b363f06eb2b3264843731ba51fa467aba8cf06454281e9ceab83a3bc8c802ce.ttf.png)
+##### HindSiliguri_700Bold
+![HindSiliguri_700Bold](./HindSiliguri_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/hind-siliguri)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

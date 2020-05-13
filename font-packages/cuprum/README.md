@@ -7,18 +7,16 @@
 
 This package lets you use the [**Cuprum**](https://fonts.google.com/specimen/Cuprum) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Cuprum
 
 ![Cuprum](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Cuprum_Regular400`
-- `Cuprum_Regular400_Italic`
-- `Cuprum_Bold700`
-- `Cuprum_Bold700_Italic`
+- `Cuprum_400Regular`
+- `Cuprum_400Regular_Italic`
+- `Cuprum_700Bold`
+- `Cuprum_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Cuprum_Regular400,
-  Cuprum_Regular400_Italic,
-  Cuprum_Bold700,
-  Cuprum_Bold700_Italic,
   useFonts,
+  Cuprum_400Regular,
+  Cuprum_400Regular_Italic,
+  Cuprum_700Bold,
+  Cuprum_700Bold_Italic,
 } from '@expo-google-fonts/cuprum';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Cuprum_Regular400,
-    Cuprum_Regular400_Italic,
-    Cuprum_Bold700,
-    Cuprum_Bold700_Italic,
+    Cuprum_400Regular,
+    Cuprum_400Regular_Italic,
+    Cuprum_700Bold,
+    Cuprum_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cuprum_Regular400' }}>
-          Cuprum_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cuprum_400Regular' }}>
+          Cuprum_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cuprum_Regular400_Italic' }}>
-          Cuprum_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cuprum_400Regular_Italic' }}>
+          Cuprum_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cuprum_Bold700' }}>
-          Cuprum_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cuprum_700Bold' }}>
+          Cuprum_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cuprum_Bold700_Italic' }}>
-          Cuprum_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cuprum_700Bold_Italic' }}>
+          Cuprum_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Cuprum_Regular400
-![Cuprum_Regular400](./bddf1f3b7162539ab2c939e699c275d83ee353437fc657257d945347dce5c66d.ttf.png)
+##### Cuprum_400Regular
+![Cuprum_400Regular](./Cuprum_400Regular.ttf.png)
 
-##### Cuprum_Regular400_Italic
-![Cuprum_Regular400_Italic](./27d4e15720e86dcbe0f0f3e93656c40e57203137b143f5a396d8a56e654963c8.ttf.png)
+##### Cuprum_400Regular_Italic
+![Cuprum_400Regular_Italic](./Cuprum_400Regular_Italic.ttf.png)
 
-##### Cuprum_Bold700
-![Cuprum_Bold700](./0a3719a13307973f16e4ebfb3980da3f7d190316e71ada51aa42650b95524c97.ttf.png)
+##### Cuprum_700Bold
+![Cuprum_700Bold](./Cuprum_700Bold.ttf.png)
 
-##### Cuprum_Bold700_Italic
-![Cuprum_Bold700_Italic](./9bac99436b2027f87f8c0f692398a62b76be18874fbda4ea2b56aaa99553e6b2.ttf.png)
+##### Cuprum_700Bold_Italic
+![Cuprum_700Bold_Italic](./Cuprum_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cuprum)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

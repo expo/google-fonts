@@ -7,20 +7,18 @@
 
 This package lets you use the [**Averia Libre**](https://fonts.google.com/specimen/Averia+Libre) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Averia Libre
 
 ![Averia Libre](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `AveriaLibre_Light300`
-- `AveriaLibre_Light300_Italic`
-- `AveriaLibre_Regular400`
-- `AveriaLibre_Regular400_Italic`
-- `AveriaLibre_Bold700`
-- `AveriaLibre_Bold700_Italic`
+- `AveriaLibre_300Light`
+- `AveriaLibre_300Light_Italic`
+- `AveriaLibre_400Regular`
+- `AveriaLibre_400Regular_Italic`
+- `AveriaLibre_700Bold`
+- `AveriaLibre_700Bold_Italic`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  AveriaLibre_Light300,
-  AveriaLibre_Light300_Italic,
-  AveriaLibre_Regular400,
-  AveriaLibre_Regular400_Italic,
-  AveriaLibre_Bold700,
-  AveriaLibre_Bold700_Italic,
   useFonts,
+  AveriaLibre_300Light,
+  AveriaLibre_300Light_Italic,
+  AveriaLibre_400Regular,
+  AveriaLibre_400Regular_Italic,
+  AveriaLibre_700Bold,
+  AveriaLibre_700Bold_Italic,
 } from '@expo-google-fonts/averia-libre';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    AveriaLibre_Light300,
-    AveriaLibre_Light300_Italic,
-    AveriaLibre_Regular400,
-    AveriaLibre_Regular400_Italic,
-    AveriaLibre_Bold700,
-    AveriaLibre_Bold700_Italic,
+    AveriaLibre_300Light,
+    AveriaLibre_300Light_Italic,
+    AveriaLibre_400Regular,
+    AveriaLibre_400Regular_Italic,
+    AveriaLibre_700Bold,
+    AveriaLibre_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -63,28 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaLibre_Light300' }}>
-          AveriaLibre_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaLibre_300Light' }}>
+          AveriaLibre_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaLibre_Light300_Italic' }}>
-          AveriaLibre_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaLibre_300Light_Italic' }}>
+          AveriaLibre_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaLibre_Regular400' }}>
-          AveriaLibre_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaLibre_400Regular' }}>
+          AveriaLibre_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaLibre_Regular400_Italic' }}>
-          AveriaLibre_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaLibre_400Regular_Italic' }}>
+          AveriaLibre_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaLibre_Bold700' }}>
-          AveriaLibre_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaLibre_700Bold' }}>
+          AveriaLibre_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaLibre_Bold700_Italic' }}>
-          AveriaLibre_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaLibre_700Bold_Italic' }}>
+          AveriaLibre_700Bold_Italic
         </Text>
       </View>
     );
@@ -95,23 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AveriaLibre_Light300
-![AveriaLibre_Light300](./446105043cce1cc90406cda4c387ef2100b294d9d63b3946d4a395d3f2a9ce07.ttf.png)
+##### AveriaLibre_300Light
+![AveriaLibre_300Light](./AveriaLibre_300Light.ttf.png)
 
-##### AveriaLibre_Light300_Italic
-![AveriaLibre_Light300_Italic](./c8a24e13d7d611dd8a4e15743ac34b163b1e96d1c9a9e82746f0bd9d3a878613.ttf.png)
+##### AveriaLibre_300Light_Italic
+![AveriaLibre_300Light_Italic](./AveriaLibre_300Light_Italic.ttf.png)
 
-##### AveriaLibre_Regular400
-![AveriaLibre_Regular400](./2b819eb7a1c11f4de65f3bfe1a8f658ea56fc62b2b7a24b2cf8688e9ced04c96.ttf.png)
+##### AveriaLibre_400Regular
+![AveriaLibre_400Regular](./AveriaLibre_400Regular.ttf.png)
 
-##### AveriaLibre_Regular400_Italic
-![AveriaLibre_Regular400_Italic](./793d505e83fbdbef6ceeabd6897693fb515a4890b822623deb545b53e7ec68dd.ttf.png)
+##### AveriaLibre_400Regular_Italic
+![AveriaLibre_400Regular_Italic](./AveriaLibre_400Regular_Italic.ttf.png)
 
-##### AveriaLibre_Bold700
-![AveriaLibre_Bold700](./6b157a260e6fd6b7cdd2d54fc4f46e1a72fbb33034b74a6929cbc4d0a7d83e3d.ttf.png)
+##### AveriaLibre_700Bold
+![AveriaLibre_700Bold](./AveriaLibre_700Bold.ttf.png)
 
-##### AveriaLibre_Bold700_Italic
-![AveriaLibre_Bold700_Italic](./08c2c28ffffd04d884122fa538e0c615e52983959363269b543084794a60955f.ttf.png)
+##### AveriaLibre_700Bold_Italic
+![AveriaLibre_700Bold_Italic](./AveriaLibre_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -141,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/averia-libre)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

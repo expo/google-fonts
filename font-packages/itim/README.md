@@ -7,15 +7,13 @@
 
 This package lets you use the [**Itim**](https://fonts.google.com/specimen/Itim) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Itim
 
 ![Itim](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Itim_Regular400`
+- `Itim_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Itim_Regular400, useFonts } from '@expo-google-fonts/itim';
+import { useFonts, Itim_400Regular } from '@expo-google-fonts/itim';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Itim_Regular400,
+    Itim_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Itim_Regular400' }}>
-          Itim_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Itim_400Regular' }}>
+          Itim_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Itim_Regular400
-![Itim_Regular400](./d649b08c03fa8e37e169c6e7fc22372fe2c6f97d639fbcbe67f8702afb9ef1bc.ttf.png)
+##### Itim_400Regular
+![Itim_400Regular](./Itim_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/itim)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

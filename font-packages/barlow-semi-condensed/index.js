@@ -4,24 +4,22 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Barlow Semi Condensed';
-export const __fontFamilyVersion__ = 1;
-
-export const BarlowSemiCondensed_Thin100 = require('./429d1fa72c7702c9b3dcb38d750756505166e563306daaf1b66cb753a68f9e2d.ttf');
-export const BarlowSemiCondensed_Thin100_Italic = require('./39a411a6e0b959d02638199381cb91af60eb4da3e34ac231c61bea08043966e1.ttf');
-export const BarlowSemiCondensed_ExtraLight200 = require('./d4d4a161e4199c955202ca92d228838efee2dfa3cf68a0cf388085e19395aa5f.ttf');
-export const BarlowSemiCondensed_ExtraLight200_Italic = require('./79508f19bd17b1cdbf0b5b6f486c964d65c4a893a7f8f739a63cb71d206bb157.ttf');
-export const BarlowSemiCondensed_Light300 = require('./1b2c8175065ed2235c4db66650397fad918d8f97db3f1b3991125f2df604b76c.ttf');
-export const BarlowSemiCondensed_Light300_Italic = require('./b1eca79a9e101dd60e1836afb98fee66886d6042c2870f88b7ec822a7b97877b.ttf');
-export const BarlowSemiCondensed_Regular400 = require('./1a9dca109aaa256a5afb98477989b87e0e102269f948949e5573b65b45779d4e.ttf');
-export const BarlowSemiCondensed_Regular400_Italic = require('./97fff70c506e46d82a769311aa3efd01c86a10161c92dee921fb6c75da5ba39c.ttf');
-export const BarlowSemiCondensed_Medium500 = require('./73e602f9d74684f25a9d352cc61a0cfefc4ab505dfecb50b843492b1b5a87c3e.ttf');
-export const BarlowSemiCondensed_Medium500_Italic = require('./f1b5d4427848534739c734c5af7bdae1967a666e5c68e04156f0c5a60c1a1c78.ttf');
-export const BarlowSemiCondensed_SemiBold600 = require('./b98dce5b8a6c1c5c2804cd26be37b203c56aee083840f4bad5d1907c4bf0b295.ttf');
-export const BarlowSemiCondensed_SemiBold600_Italic = require('./82e1d9e57f5b1c3fba390bb1e428d9b26538ead3342f04c40e60ded6325cc06e.ttf');
-export const BarlowSemiCondensed_Bold700 = require('./acfd284673d183fe78a563ebf695ce70f7800151495260debfa9532d93289a55.ttf');
-export const BarlowSemiCondensed_Bold700_Italic = require('./e07191b9549a6c8c553608c75269487bb83c555c9e2fd9c08cfe704a5416e750.ttf');
-export const BarlowSemiCondensed_ExtraBold800 = require('./b42194ff2e3637db2ee27a0720eed118d756d564014725a948bcdc8964d25901.ttf');
-export const BarlowSemiCondensed_ExtraBold800_Italic = require('./36f4cee581975816949c810a10be068d6131acdc211a99acb3a2ce6c9586174f.ttf');
-export const BarlowSemiCondensed_Black900 = require('./2305373351846fd5f75bfb35b24697021e9bd4ea4fac80bb25bfe62c9afcb604.ttf');
-export const BarlowSemiCondensed_Black900_Italic = require('./29476cff7567544f2a04e61c90254033e0eb160089bfae4dea9871e8f6fbe2f9.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BarlowSemiCondensed_100Thin = require('./BarlowSemiCondensed_100Thin.ttf');
+export const BarlowSemiCondensed_100Thin_Italic = require('./BarlowSemiCondensed_100Thin_Italic.ttf');
+export const BarlowSemiCondensed_200ExtraLight = require('./BarlowSemiCondensed_200ExtraLight.ttf');
+export const BarlowSemiCondensed_200ExtraLight_Italic = require('./BarlowSemiCondensed_200ExtraLight_Italic.ttf');
+export const BarlowSemiCondensed_300Light = require('./BarlowSemiCondensed_300Light.ttf');
+export const BarlowSemiCondensed_300Light_Italic = require('./BarlowSemiCondensed_300Light_Italic.ttf');
+export const BarlowSemiCondensed_400Regular = require('./BarlowSemiCondensed_400Regular.ttf');
+export const BarlowSemiCondensed_400Regular_Italic = require('./BarlowSemiCondensed_400Regular_Italic.ttf');
+export const BarlowSemiCondensed_500Medium = require('./BarlowSemiCondensed_500Medium.ttf');
+export const BarlowSemiCondensed_500Medium_Italic = require('./BarlowSemiCondensed_500Medium_Italic.ttf');
+export const BarlowSemiCondensed_600SemiBold = require('./BarlowSemiCondensed_600SemiBold.ttf');
+export const BarlowSemiCondensed_600SemiBold_Italic = require('./BarlowSemiCondensed_600SemiBold_Italic.ttf');
+export const BarlowSemiCondensed_700Bold = require('./BarlowSemiCondensed_700Bold.ttf');
+export const BarlowSemiCondensed_700Bold_Italic = require('./BarlowSemiCondensed_700Bold_Italic.ttf');
+export const BarlowSemiCondensed_800ExtraBold = require('./BarlowSemiCondensed_800ExtraBold.ttf');
+export const BarlowSemiCondensed_800ExtraBold_Italic = require('./BarlowSemiCondensed_800ExtraBold_Italic.ttf');
+export const BarlowSemiCondensed_900Black = require('./BarlowSemiCondensed_900Black.ttf');
+export const BarlowSemiCondensed_900Black_Italic = require('./BarlowSemiCondensed_900Black_Italic.ttf');

@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Simonetta';
-export const __fontFamilyVersion__ = 6;
-
-export const Simonetta_Regular400 = require('./d055b6397968d2e7b9a9c70b4e5d12a390ae937fbb2c140c5a2ca2bcb019501f.ttf');
-export const Simonetta_Regular400_Italic = require('./dbbbd6a2dedbac1c09bf69696a69adec943f3ac81e9a4b6cedf0fab0beee274e.ttf');
-export const Simonetta_Black900 = require('./2f9dab867c54e03c7203dae54a40e8233843e6ed0c74e9f1c939a0c3ff6e48ef.ttf');
-export const Simonetta_Black900_Italic = require('./b59c51c3445243e941c14dbc3663f87d2ffaa11e037d4eca6d8cc9103048d478.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Simonetta_400Regular = require('./Simonetta_400Regular.ttf');
+export const Simonetta_400Regular_Italic = require('./Simonetta_400Regular_Italic.ttf');
+export const Simonetta_900Black = require('./Simonetta_900Black.ttf');
+export const Simonetta_900Black_Italic = require('./Simonetta_900Black_Italic.ttf');

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Goblin One**](https://fonts.google.com/specimen/Goblin+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Goblin One
 
 ![Goblin One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `GoblinOne_Regular400`
+- `GoblinOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { GoblinOne_Regular400, useFonts } from '@expo-google-fonts/goblin-one';
+import { useFonts, GoblinOne_400Regular } from '@expo-google-fonts/goblin-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    GoblinOne_Regular400,
+    GoblinOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GoblinOne_Regular400' }}>
-          GoblinOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GoblinOne_400Regular' }}>
+          GoblinOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GoblinOne_Regular400
-![GoblinOne_Regular400](./4d2f4678ed209cc09bfe4cefb1df66ef95e21a1b2f6f71fdf1c8408b5135472f.ttf.png)
+##### GoblinOne_400Regular
+![GoblinOne_400Regular](./GoblinOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/goblin-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

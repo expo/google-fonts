@@ -7,16 +7,14 @@
 
 This package lets you use the [**Tangerine**](https://fonts.google.com/specimen/Tangerine) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Tangerine
 
 ![Tangerine](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Tangerine_Regular400`
-- `Tangerine_Bold700`
+- `Tangerine_400Regular`
+- `Tangerine_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Tangerine_Regular400, Tangerine_Bold700, useFonts } from '@expo-google-fonts/tangerine';
+import { useFonts, Tangerine_400Regular, Tangerine_700Bold } from '@expo-google-fonts/tangerine';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Tangerine_Regular400,
-    Tangerine_Bold700,
+    Tangerine_400Regular,
+    Tangerine_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tangerine_Regular400' }}>
-          Tangerine_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tangerine_400Regular' }}>
+          Tangerine_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tangerine_Bold700' }}>
-          Tangerine_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tangerine_700Bold' }}>
+          Tangerine_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Tangerine_Regular400
-![Tangerine_Regular400](./d57c4cf7ce5cace0ff51506a942305cb2a8342c0d13badf47b74d8b7ccd6a976.ttf.png)
+##### Tangerine_400Regular
+![Tangerine_400Regular](./Tangerine_400Regular.ttf.png)
 
-##### Tangerine_Bold700
-![Tangerine_Bold700](./99be610fa0d0acc2de30af936f07ac82bda5378a98b867c55dc1d8ae1a763c72.ttf.png)
+##### Tangerine_700Bold
+![Tangerine_700Bold](./Tangerine_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/tangerine)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

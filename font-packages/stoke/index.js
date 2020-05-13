@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Stoke';
-export const __fontFamilyVersion__ = 6;
-
-export const Stoke_Light300 = require('./d452122746813947edb624edec6a876538c722d14e0fe96ba0524f09e515f3b6.ttf');
-export const Stoke_Regular400 = require('./fcfdfb02835f6966c5279db21b784abc2cfe9e1ec03d8c4452852483fb8f17c1.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Stoke_300Light = require('./Stoke_300Light.ttf');
+export const Stoke_400Regular = require('./Stoke_400Regular.ttf');

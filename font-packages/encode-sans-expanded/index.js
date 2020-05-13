@@ -4,15 +4,13 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Encode Sans Expanded';
-export const __fontFamilyVersion__ = 2;
-
-export const EncodeSansExpanded_Thin100 = require('./380345d9f11a5d51121f04ec7692992b4393552df2a3a7d880f4fee2445141d0.ttf');
-export const EncodeSansExpanded_ExtraLight200 = require('./4a7de0181c2afd610c6c4f4cdd0c1b277e273ce075ebc1aeac436fad20e45419.ttf');
-export const EncodeSansExpanded_Light300 = require('./9b50fe9a059788e12206f492db451f122f3ae30e6b8aa5944b51f4fa9b128373.ttf');
-export const EncodeSansExpanded_Regular400 = require('./f2fa9b86d419104b4b7ab7aa2d8507d9998032c843e7127317c103b55c3900c3.ttf');
-export const EncodeSansExpanded_Medium500 = require('./9ec9211a546cbefbb5fdbdca840aa8782bdbfdef2bc24a03e769b5676d869dd1.ttf');
-export const EncodeSansExpanded_SemiBold600 = require('./57adaf522bbff1044518d732d894dc3b9619455577129c3806e15c41ab7a0cf0.ttf');
-export const EncodeSansExpanded_Bold700 = require('./4ff65de1f2f27bec57c2af88329ff74b61c90a349cda06d054d87125aa4d4588.ttf');
-export const EncodeSansExpanded_ExtraBold800 = require('./93137f85c3ca94e2b0d5d2501170e4b955208bf20d99d3279a12420033315efe.ttf');
-export const EncodeSansExpanded_Black900 = require('./bc58d2db7b8afc49e3bc54a2ffd46ce334497d9361768e992654a18428895228.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const EncodeSansExpanded_100Thin = require('./EncodeSansExpanded_100Thin.ttf');
+export const EncodeSansExpanded_200ExtraLight = require('./EncodeSansExpanded_200ExtraLight.ttf');
+export const EncodeSansExpanded_300Light = require('./EncodeSansExpanded_300Light.ttf');
+export const EncodeSansExpanded_400Regular = require('./EncodeSansExpanded_400Regular.ttf');
+export const EncodeSansExpanded_500Medium = require('./EncodeSansExpanded_500Medium.ttf');
+export const EncodeSansExpanded_600SemiBold = require('./EncodeSansExpanded_600SemiBold.ttf');
+export const EncodeSansExpanded_700Bold = require('./EncodeSansExpanded_700Bold.ttf');
+export const EncodeSansExpanded_800ExtraBold = require('./EncodeSansExpanded_800ExtraBold.ttf');
+export const EncodeSansExpanded_900Black = require('./EncodeSansExpanded_900Black.ttf');

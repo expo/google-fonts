@@ -7,18 +7,16 @@
 
 This package lets you use the [**Rambla**](https://fonts.google.com/specimen/Rambla) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Rambla
 
 ![Rambla](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Rambla_Regular400`
-- `Rambla_Regular400_Italic`
-- `Rambla_Bold700`
-- `Rambla_Bold700_Italic`
+- `Rambla_400Regular`
+- `Rambla_400Regular_Italic`
+- `Rambla_700Bold`
+- `Rambla_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Rambla_Regular400,
-  Rambla_Regular400_Italic,
-  Rambla_Bold700,
-  Rambla_Bold700_Italic,
   useFonts,
+  Rambla_400Regular,
+  Rambla_400Regular_Italic,
+  Rambla_700Bold,
+  Rambla_700Bold_Italic,
 } from '@expo-google-fonts/rambla';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Rambla_Regular400,
-    Rambla_Regular400_Italic,
-    Rambla_Bold700,
-    Rambla_Bold700_Italic,
+    Rambla_400Regular,
+    Rambla_400Regular_Italic,
+    Rambla_700Bold,
+    Rambla_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rambla_Regular400' }}>
-          Rambla_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rambla_400Regular' }}>
+          Rambla_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rambla_Regular400_Italic' }}>
-          Rambla_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rambla_400Regular_Italic' }}>
+          Rambla_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rambla_Bold700' }}>
-          Rambla_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rambla_700Bold' }}>
+          Rambla_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rambla_Bold700_Italic' }}>
-          Rambla_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rambla_700Bold_Italic' }}>
+          Rambla_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rambla_Regular400
-![Rambla_Regular400](./8cc56fcd2e3777d5c3699b8db651965ee39a057e20813adb1a07b181a8511e65.ttf.png)
+##### Rambla_400Regular
+![Rambla_400Regular](./Rambla_400Regular.ttf.png)
 
-##### Rambla_Regular400_Italic
-![Rambla_Regular400_Italic](./6486467dd0269443e3b474df8d13f8a02e42791674f0fcf5964b9ee8419cdbae.ttf.png)
+##### Rambla_400Regular_Italic
+![Rambla_400Regular_Italic](./Rambla_400Regular_Italic.ttf.png)
 
-##### Rambla_Bold700
-![Rambla_Bold700](./3c855f5e3c26200aeb6e55a7d0bbf80b16fceb67ab65b97d50a788c68d315379.ttf.png)
+##### Rambla_700Bold
+![Rambla_700Bold](./Rambla_700Bold.ttf.png)
 
-##### Rambla_Bold700_Italic
-![Rambla_Bold700_Italic](./f20b77570105aff68e4179538c4243221228d9f13bc6eb988847fdf6800b97b4.ttf.png)
+##### Rambla_700Bold_Italic
+![Rambla_700Bold_Italic](./Rambla_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/rambla)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

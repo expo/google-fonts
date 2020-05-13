@@ -7,18 +7,16 @@
 
 This package lets you use the [**Markazi Text**](https://fonts.google.com/specimen/Markazi+Text) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Markazi Text
 
 ![Markazi Text](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `MarkaziText_Regular400`
-- `MarkaziText_Medium500`
-- `MarkaziText_SemiBold600`
-- `MarkaziText_Bold700`
+- `MarkaziText_400Regular`
+- `MarkaziText_500Medium`
+- `MarkaziText_600SemiBold`
+- `MarkaziText_700Bold`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  MarkaziText_Regular400,
-  MarkaziText_Medium500,
-  MarkaziText_SemiBold600,
-  MarkaziText_Bold700,
   useFonts,
+  MarkaziText_400Regular,
+  MarkaziText_500Medium,
+  MarkaziText_600SemiBold,
+  MarkaziText_700Bold,
 } from '@expo-google-fonts/markazi-text';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MarkaziText_Regular400,
-    MarkaziText_Medium500,
-    MarkaziText_SemiBold600,
-    MarkaziText_Bold700,
+    MarkaziText_400Regular,
+    MarkaziText_500Medium,
+    MarkaziText_600SemiBold,
+    MarkaziText_700Bold,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MarkaziText_Regular400' }}>
-          MarkaziText_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MarkaziText_400Regular' }}>
+          MarkaziText_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MarkaziText_Medium500' }}>
-          MarkaziText_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MarkaziText_500Medium' }}>
+          MarkaziText_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MarkaziText_SemiBold600' }}>
-          MarkaziText_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MarkaziText_600SemiBold' }}>
+          MarkaziText_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MarkaziText_Bold700' }}>
-          MarkaziText_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MarkaziText_700Bold' }}>
+          MarkaziText_700Bold
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MarkaziText_Regular400
-![MarkaziText_Regular400](./0e5e6bb8cf276742072a5a22282dd79c7d532219e9a950faad9fcf21d2cf8cea.ttf.png)
+##### MarkaziText_400Regular
+![MarkaziText_400Regular](./MarkaziText_400Regular.ttf.png)
 
-##### MarkaziText_Medium500
-![MarkaziText_Medium500](./d6f033a9cc38e8da2e1570b35f84c43b8312a13a2f126dfd89f67a322513d7eb.ttf.png)
+##### MarkaziText_500Medium
+![MarkaziText_500Medium](./MarkaziText_500Medium.ttf.png)
 
-##### MarkaziText_SemiBold600
-![MarkaziText_SemiBold600](./68bfe2ab439b778907c8544102bbbb7de31be886ff40a6bf5172cab6c7c23eee.ttf.png)
+##### MarkaziText_600SemiBold
+![MarkaziText_600SemiBold](./MarkaziText_600SemiBold.ttf.png)
 
-##### MarkaziText_Bold700
-![MarkaziText_Bold700](./342d38b7c70eeaf282e54f367d5ba4eba6d1c07b2c2363023084bcbed4d1c05e.ttf.png)
+##### MarkaziText_700Bold
+![MarkaziText_700Bold](./MarkaziText_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/markazi-text)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

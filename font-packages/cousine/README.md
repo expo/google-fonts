@@ -7,18 +7,16 @@
 
 This package lets you use the [**Cousine**](https://fonts.google.com/specimen/Cousine) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Cousine
 
 ![Cousine](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Cousine_Regular400`
-- `Cousine_Regular400_Italic`
-- `Cousine_Bold700`
-- `Cousine_Bold700_Italic`
+- `Cousine_400Regular`
+- `Cousine_400Regular_Italic`
+- `Cousine_700Bold`
+- `Cousine_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Cousine_Regular400,
-  Cousine_Regular400_Italic,
-  Cousine_Bold700,
-  Cousine_Bold700_Italic,
   useFonts,
+  Cousine_400Regular,
+  Cousine_400Regular_Italic,
+  Cousine_700Bold,
+  Cousine_700Bold_Italic,
 } from '@expo-google-fonts/cousine';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Cousine_Regular400,
-    Cousine_Regular400_Italic,
-    Cousine_Bold700,
-    Cousine_Bold700_Italic,
+    Cousine_400Regular,
+    Cousine_400Regular_Italic,
+    Cousine_700Bold,
+    Cousine_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cousine_Regular400' }}>
-          Cousine_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cousine_400Regular' }}>
+          Cousine_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cousine_Regular400_Italic' }}>
-          Cousine_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cousine_400Regular_Italic' }}>
+          Cousine_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cousine_Bold700' }}>
-          Cousine_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cousine_700Bold' }}>
+          Cousine_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cousine_Bold700_Italic' }}>
-          Cousine_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cousine_700Bold_Italic' }}>
+          Cousine_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Cousine_Regular400
-![Cousine_Regular400](./753f2dd34e36271520e1bf057a91850492b226f76d6da301cf6955b4b32177a1.ttf.png)
+##### Cousine_400Regular
+![Cousine_400Regular](./Cousine_400Regular.ttf.png)
 
-##### Cousine_Regular400_Italic
-![Cousine_Regular400_Italic](./23ddf22bc3d06b028fce6e266632d38c97fa151a580be71b5ad43ee7d34d13a0.ttf.png)
+##### Cousine_400Regular_Italic
+![Cousine_400Regular_Italic](./Cousine_400Regular_Italic.ttf.png)
 
-##### Cousine_Bold700
-![Cousine_Bold700](./9e472053ed3d50c647f75d5654f0d2ff42cbf5221cb14e1b1af3dc25dbbd6ea4.ttf.png)
+##### Cousine_700Bold
+![Cousine_700Bold](./Cousine_700Bold.ttf.png)
 
-##### Cousine_Bold700_Italic
-![Cousine_Bold700_Italic](./8b14c04baa12f36602157da1c6c26f539163a93e571133c17d0b5acc34345bfa.ttf.png)
+##### Cousine_700Bold_Italic
+![Cousine_700Bold_Italic](./Cousine_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cousine)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

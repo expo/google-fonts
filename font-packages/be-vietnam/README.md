@@ -7,28 +7,26 @@
 
 This package lets you use the [**Be Vietnam**](https://fonts.google.com/specimen/Be+Vietnam) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Be Vietnam
 
 ![Be Vietnam](./font-family.png)
 
 This font family contains [14 styles](#-gallery).
 
-- `BeVietnam_Thin100`
-- `BeVietnam_Thin100_Italic`
-- `BeVietnam_Light300`
-- `BeVietnam_Light300_Italic`
-- `BeVietnam_Regular400`
-- `BeVietnam_Regular400_Italic`
-- `BeVietnam_Medium500`
-- `BeVietnam_Medium500_Italic`
-- `BeVietnam_SemiBold600`
-- `BeVietnam_SemiBold600_Italic`
-- `BeVietnam_Bold700`
-- `BeVietnam_Bold700_Italic`
-- `BeVietnam_ExtraBold800`
-- `BeVietnam_ExtraBold800_Italic`
+- `BeVietnam_100Thin`
+- `BeVietnam_100Thin_Italic`
+- `BeVietnam_300Light`
+- `BeVietnam_300Light_Italic`
+- `BeVietnam_400Regular`
+- `BeVietnam_400Regular_Italic`
+- `BeVietnam_500Medium`
+- `BeVietnam_500Medium_Italic`
+- `BeVietnam_600SemiBold`
+- `BeVietnam_600SemiBold_Italic`
+- `BeVietnam_700Bold`
+- `BeVietnam_700Bold_Italic`
+- `BeVietnam_800ExtraBold`
+- `BeVietnam_800ExtraBold_Italic`
 
 ## Usage
 
@@ -44,39 +42,39 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  BeVietnam_Thin100,
-  BeVietnam_Thin100_Italic,
-  BeVietnam_Light300,
-  BeVietnam_Light300_Italic,
-  BeVietnam_Regular400,
-  BeVietnam_Regular400_Italic,
-  BeVietnam_Medium500,
-  BeVietnam_Medium500_Italic,
-  BeVietnam_SemiBold600,
-  BeVietnam_SemiBold600_Italic,
-  BeVietnam_Bold700,
-  BeVietnam_Bold700_Italic,
-  BeVietnam_ExtraBold800,
-  BeVietnam_ExtraBold800_Italic,
   useFonts,
+  BeVietnam_100Thin,
+  BeVietnam_100Thin_Italic,
+  BeVietnam_300Light,
+  BeVietnam_300Light_Italic,
+  BeVietnam_400Regular,
+  BeVietnam_400Regular_Italic,
+  BeVietnam_500Medium,
+  BeVietnam_500Medium_Italic,
+  BeVietnam_600SemiBold,
+  BeVietnam_600SemiBold_Italic,
+  BeVietnam_700Bold,
+  BeVietnam_700Bold_Italic,
+  BeVietnam_800ExtraBold,
+  BeVietnam_800ExtraBold_Italic,
 } from '@expo-google-fonts/be-vietnam';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    BeVietnam_Thin100,
-    BeVietnam_Thin100_Italic,
-    BeVietnam_Light300,
-    BeVietnam_Light300_Italic,
-    BeVietnam_Regular400,
-    BeVietnam_Regular400_Italic,
-    BeVietnam_Medium500,
-    BeVietnam_Medium500_Italic,
-    BeVietnam_SemiBold600,
-    BeVietnam_SemiBold600_Italic,
-    BeVietnam_Bold700,
-    BeVietnam_Bold700_Italic,
-    BeVietnam_ExtraBold800,
-    BeVietnam_ExtraBold800_Italic,
+    BeVietnam_100Thin,
+    BeVietnam_100Thin_Italic,
+    BeVietnam_300Light,
+    BeVietnam_300Light_Italic,
+    BeVietnam_400Regular,
+    BeVietnam_400Regular_Italic,
+    BeVietnam_500Medium,
+    BeVietnam_500Medium_Italic,
+    BeVietnam_600SemiBold,
+    BeVietnam_600SemiBold_Italic,
+    BeVietnam_700Bold,
+    BeVietnam_700Bold_Italic,
+    BeVietnam_800ExtraBold,
+    BeVietnam_800ExtraBold_Italic,
   });
 
   let fontSize = 24;
@@ -87,60 +85,60 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_Thin100' }}>
-          BeVietnam_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_100Thin' }}>
+          BeVietnam_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_Thin100_Italic' }}>
-          BeVietnam_Thin100_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_100Thin_Italic' }}>
+          BeVietnam_100Thin_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_Light300' }}>
-          BeVietnam_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_300Light' }}>
+          BeVietnam_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_Light300_Italic' }}>
-          BeVietnam_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_300Light_Italic' }}>
+          BeVietnam_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_Regular400' }}>
-          BeVietnam_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_400Regular' }}>
+          BeVietnam_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_Regular400_Italic' }}>
-          BeVietnam_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_400Regular_Italic' }}>
+          BeVietnam_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_Medium500' }}>
-          BeVietnam_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_500Medium' }}>
+          BeVietnam_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_Medium500_Italic' }}>
-          BeVietnam_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_500Medium_Italic' }}>
+          BeVietnam_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_SemiBold600' }}>
-          BeVietnam_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_600SemiBold' }}>
+          BeVietnam_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_SemiBold600_Italic' }}>
-          BeVietnam_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_600SemiBold_Italic' }}>
+          BeVietnam_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_Bold700' }}>
-          BeVietnam_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_700Bold' }}>
+          BeVietnam_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_Bold700_Italic' }}>
-          BeVietnam_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_700Bold_Italic' }}>
+          BeVietnam_700Bold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_ExtraBold800' }}>
-          BeVietnam_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_800ExtraBold' }}>
+          BeVietnam_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_ExtraBold800_Italic' }}>
-          BeVietnam_ExtraBold800_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_800ExtraBold_Italic' }}>
+          BeVietnam_800ExtraBold_Italic
         </Text>
       </View>
     );
@@ -151,47 +149,47 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BeVietnam_Thin100
-![BeVietnam_Thin100](./0cc0f5cd392e42154ccdcf1ffc6987159ee0807caf89c6ac0796a273c9c80cd4.ttf.png)
+##### BeVietnam_100Thin
+![BeVietnam_100Thin](./BeVietnam_100Thin.ttf.png)
 
-##### BeVietnam_Thin100_Italic
-![BeVietnam_Thin100_Italic](./11b1d7f41abb8a24b4ba203416df07809dbaf7de51619a1d167ab9af0361b6b7.ttf.png)
+##### BeVietnam_100Thin_Italic
+![BeVietnam_100Thin_Italic](./BeVietnam_100Thin_Italic.ttf.png)
 
-##### BeVietnam_Light300
-![BeVietnam_Light300](./03d32b9f1d2ddaa56a41075b22ab477cbc078409bda7fe7f7e030491bf70988a.ttf.png)
+##### BeVietnam_300Light
+![BeVietnam_300Light](./BeVietnam_300Light.ttf.png)
 
-##### BeVietnam_Light300_Italic
-![BeVietnam_Light300_Italic](./a46d7c089e1fe8c124bc2de7b2cdf8a7f23fc0e9724766f3029c5c528b88b2cf.ttf.png)
+##### BeVietnam_300Light_Italic
+![BeVietnam_300Light_Italic](./BeVietnam_300Light_Italic.ttf.png)
 
-##### BeVietnam_Regular400
-![BeVietnam_Regular400](./79220c67d8f8488a5dc457833419e884bef66e01eae43ec9c9b7e2944c5d88f0.ttf.png)
+##### BeVietnam_400Regular
+![BeVietnam_400Regular](./BeVietnam_400Regular.ttf.png)
 
-##### BeVietnam_Regular400_Italic
-![BeVietnam_Regular400_Italic](./e2928c1924824c824cac4ddaa74885a1fb9f3723429fa145c579cde5e79eeba5.ttf.png)
+##### BeVietnam_400Regular_Italic
+![BeVietnam_400Regular_Italic](./BeVietnam_400Regular_Italic.ttf.png)
 
-##### BeVietnam_Medium500
-![BeVietnam_Medium500](./8d504a978c86a628884d737bacc817b24a74963f8e36e6cab5e9b81b9977b1f4.ttf.png)
+##### BeVietnam_500Medium
+![BeVietnam_500Medium](./BeVietnam_500Medium.ttf.png)
 
-##### BeVietnam_Medium500_Italic
-![BeVietnam_Medium500_Italic](./a2af11a383bfb3ee1ef8731946b78f349dce66a9151e6724f9428a29af43faac.ttf.png)
+##### BeVietnam_500Medium_Italic
+![BeVietnam_500Medium_Italic](./BeVietnam_500Medium_Italic.ttf.png)
 
-##### BeVietnam_SemiBold600
-![BeVietnam_SemiBold600](./94efd29230ff40c08cd89d8ae44d0e847ad17d53088280868a4bfbe29bc9afe0.ttf.png)
+##### BeVietnam_600SemiBold
+![BeVietnam_600SemiBold](./BeVietnam_600SemiBold.ttf.png)
 
-##### BeVietnam_SemiBold600_Italic
-![BeVietnam_SemiBold600_Italic](./2e18bd0f37b3e15856f513a8bd6b5d019948460f502359bf06716759b5b07664.ttf.png)
+##### BeVietnam_600SemiBold_Italic
+![BeVietnam_600SemiBold_Italic](./BeVietnam_600SemiBold_Italic.ttf.png)
 
-##### BeVietnam_Bold700
-![BeVietnam_Bold700](./6f6fdb78c7c80b7871c787918369b6f9908cb55d29a6f68602b90d557a0ef839.ttf.png)
+##### BeVietnam_700Bold
+![BeVietnam_700Bold](./BeVietnam_700Bold.ttf.png)
 
-##### BeVietnam_Bold700_Italic
-![BeVietnam_Bold700_Italic](./c54104de856f3762629b69585ceb0eed536f7f7a19d2a2e1cdb44c1b1398e6b8.ttf.png)
+##### BeVietnam_700Bold_Italic
+![BeVietnam_700Bold_Italic](./BeVietnam_700Bold_Italic.ttf.png)
 
-##### BeVietnam_ExtraBold800
-![BeVietnam_ExtraBold800](./920f1f8cbfb2d9b94b66296e1f4ddf430a02ce638be482c79c598832645fda13.ttf.png)
+##### BeVietnam_800ExtraBold
+![BeVietnam_800ExtraBold](./BeVietnam_800ExtraBold.ttf.png)
 
-##### BeVietnam_ExtraBold800_Italic
-![BeVietnam_ExtraBold800_Italic](./2140e6025b6df417db0a543e64c090a9a5aa119d7523fd43a5f806a1550bdb37.ttf.png)
+##### BeVietnam_800ExtraBold_Italic
+![BeVietnam_800ExtraBold_Italic](./BeVietnam_800ExtraBold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -221,7 +219,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/be-vietnam)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

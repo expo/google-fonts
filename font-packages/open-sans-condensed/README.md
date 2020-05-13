@@ -7,17 +7,15 @@
 
 This package lets you use the [**Open Sans Condensed**](https://fonts.google.com/specimen/Open+Sans+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Open Sans Condensed
 
 ![Open Sans Condensed](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `OpenSansCondensed_Light300`
-- `OpenSansCondensed_Light300_Italic`
-- `OpenSansCondensed_Bold700`
+- `OpenSansCondensed_300Light`
+- `OpenSansCondensed_300Light_Italic`
+- `OpenSansCondensed_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  OpenSansCondensed_Light300,
-  OpenSansCondensed_Light300_Italic,
-  OpenSansCondensed_Bold700,
   useFonts,
+  OpenSansCondensed_300Light,
+  OpenSansCondensed_300Light_Italic,
+  OpenSansCondensed_700Bold,
 } from '@expo-google-fonts/open-sans-condensed';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    OpenSansCondensed_Light300,
-    OpenSansCondensed_Light300_Italic,
-    OpenSansCondensed_Bold700,
+    OpenSansCondensed_300Light,
+    OpenSansCondensed_300Light_Italic,
+    OpenSansCondensed_700Bold,
   });
 
   let fontSize = 24;
@@ -54,17 +52,17 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OpenSansCondensed_Light300' }}>
-          OpenSansCondensed_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'OpenSansCondensed_300Light' }}>
+          OpenSansCondensed_300Light
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'OpenSansCondensed_Light300_Italic' }}>
-          OpenSansCondensed_Light300_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'OpenSansCondensed_300Light_Italic' }}>
+          OpenSansCondensed_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OpenSansCondensed_Bold700' }}>
-          OpenSansCondensed_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'OpenSansCondensed_700Bold' }}>
+          OpenSansCondensed_700Bold
         </Text>
       </View>
     );
@@ -75,14 +73,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### OpenSansCondensed_Light300
-![OpenSansCondensed_Light300](./04a7cf776cec6c53387f15bd8878b365d22ea65c97dfd605c269b3774e4e7ed2.ttf.png)
+##### OpenSansCondensed_300Light
+![OpenSansCondensed_300Light](./OpenSansCondensed_300Light.ttf.png)
 
-##### OpenSansCondensed_Light300_Italic
-![OpenSansCondensed_Light300_Italic](./c5330d8a82169e940228bf53acb980b56a23fb1f640d6bf8b7e18a8681d67eda.ttf.png)
+##### OpenSansCondensed_300Light_Italic
+![OpenSansCondensed_300Light_Italic](./OpenSansCondensed_300Light_Italic.ttf.png)
 
-##### OpenSansCondensed_Bold700
-![OpenSansCondensed_Bold700](./9b8228ed1f9d087708d275dcc32be58269ffaf9cd7f8028db765305347303f88.ttf.png)
+##### OpenSansCondensed_700Bold
+![OpenSansCondensed_700Bold](./OpenSansCondensed_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -112,7 +110,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/open-sans-condensed)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

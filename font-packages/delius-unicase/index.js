@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Delius Unicase';
-export const __fontFamilyVersion__ = 9;
-
-export const DeliusUnicase_Regular400 = require('./3bbebd3cb94431156468b1ce457ee032a1f68d964171655b60f5ae2ecf0243cb.ttf');
-export const DeliusUnicase_Bold700 = require('./f761b09efebd15e0a91eabc186d565aec75f56f2b04f9cb1ed1f72d91be340ef.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const DeliusUnicase_400Regular = require('./DeliusUnicase_400Regular.ttf');
+export const DeliusUnicase_700Bold = require('./DeliusUnicase_700Bold.ttf');

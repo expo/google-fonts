@@ -7,15 +7,13 @@
 
 This package lets you use the [**Peralta**](https://fonts.google.com/specimen/Peralta) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Peralta
 
 ![Peralta](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Peralta_Regular400`
+- `Peralta_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Peralta_Regular400, useFonts } from '@expo-google-fonts/peralta';
+import { useFonts, Peralta_400Regular } from '@expo-google-fonts/peralta';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Peralta_Regular400,
+    Peralta_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Peralta_Regular400' }}>
-          Peralta_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Peralta_400Regular' }}>
+          Peralta_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Peralta_Regular400
-![Peralta_Regular400](./28a0d3b695c9ecde1fe0ab5e4dceac96b21749fe6a3df062847e363b47af3360.ttf.png)
+##### Peralta_400Regular
+![Peralta_400Regular](./Peralta_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/peralta)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

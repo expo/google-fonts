@@ -4,14 +4,12 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Big Shoulders Display';
-export const __fontFamilyVersion__ = 1;
-
-export const BigShouldersDisplay_Thin100 = require('./243bc59e9459b35c35fa0bc5cc49219e1cbf248be840664569ca730a8a7a7e5e.ttf');
-export const BigShouldersDisplay_Light300 = require('./f9d601dd24fc0f4bb73ca5a9bc3fb23c2d744597df0f10a2894d566903ba1154.ttf');
-export const BigShouldersDisplay_Regular400 = require('./0d1c3a1a7aca284022f6d11318ac148fe815d11c400a02d20e25768bbcf17f16.ttf');
-export const BigShouldersDisplay_Medium500 = require('./782f7156f414a376945013c065917553e525e9f55dc801588c0f2f47406a51a3.ttf');
-export const BigShouldersDisplay_SemiBold600 = require('./abf50d14f1c83beca50dbf4875c46279d06f2120f997bd0b3670236cf24bf1aa.ttf');
-export const BigShouldersDisplay_Bold700 = require('./908c135c2591d12f000c0af1d59e56e72fb77beb39c1ba091505f250575b4ea6.ttf');
-export const BigShouldersDisplay_ExtraBold800 = require('./19b8e205eb51647a9245e28993f1aa99df1cdc107cab1e823db05dce048363ca.ttf');
-export const BigShouldersDisplay_Black900 = require('./71c2e1ad1b8e3abbf78e31165b5b054095b45b80cdd32410b9df8abaa45a631f.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BigShouldersDisplay_100Thin = require('./BigShouldersDisplay_100Thin.ttf');
+export const BigShouldersDisplay_300Light = require('./BigShouldersDisplay_300Light.ttf');
+export const BigShouldersDisplay_400Regular = require('./BigShouldersDisplay_400Regular.ttf');
+export const BigShouldersDisplay_500Medium = require('./BigShouldersDisplay_500Medium.ttf');
+export const BigShouldersDisplay_600SemiBold = require('./BigShouldersDisplay_600SemiBold.ttf');
+export const BigShouldersDisplay_700Bold = require('./BigShouldersDisplay_700Bold.ttf');
+export const BigShouldersDisplay_800ExtraBold = require('./BigShouldersDisplay_800ExtraBold.ttf');
+export const BigShouldersDisplay_900Black = require('./BigShouldersDisplay_900Black.ttf');

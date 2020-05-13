@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Calistoga';
-export const __fontFamilyVersion__ = 1;
-
-export const Calistoga_Regular400 = require('./bbcc8c6618b098df3f7de4ee7afbe7a4ebe1832e5d8cca3579199c4e73ef5e8f.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Calistoga_400Regular = require('./Calistoga_400Regular.ttf');

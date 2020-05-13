@@ -7,19 +7,17 @@
 
 This package lets you use the [**Teko**](https://fonts.google.com/specimen/Teko) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Teko
 
 ![Teko](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `Teko_Light300`
-- `Teko_Regular400`
-- `Teko_Medium500`
-- `Teko_SemiBold600`
-- `Teko_Bold700`
+- `Teko_300Light`
+- `Teko_400Regular`
+- `Teko_500Medium`
+- `Teko_600SemiBold`
+- `Teko_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Teko_Light300,
-  Teko_Regular400,
-  Teko_Medium500,
-  Teko_SemiBold600,
-  Teko_Bold700,
   useFonts,
+  Teko_300Light,
+  Teko_400Regular,
+  Teko_500Medium,
+  Teko_600SemiBold,
+  Teko_700Bold,
 } from '@expo-google-fonts/teko';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Teko_Light300,
-    Teko_Regular400,
-    Teko_Medium500,
-    Teko_SemiBold600,
-    Teko_Bold700,
+    Teko_300Light,
+    Teko_400Regular,
+    Teko_500Medium,
+    Teko_600SemiBold,
+    Teko_700Bold,
   });
 
   let fontSize = 24;
@@ -60,23 +58,23 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Teko_Light300' }}>
-          Teko_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Teko_300Light' }}>
+          Teko_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Teko_Regular400' }}>
-          Teko_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Teko_400Regular' }}>
+          Teko_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Teko_Medium500' }}>
-          Teko_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Teko_500Medium' }}>
+          Teko_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Teko_SemiBold600' }}>
-          Teko_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Teko_600SemiBold' }}>
+          Teko_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Teko_Bold700' }}>Teko_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Teko_700Bold' }}>Teko_700Bold</Text>
       </View>
     );
   }
@@ -86,20 +84,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Teko_Light300
-![Teko_Light300](./b31400af25afcb1ea24b0a3b59e18957132c4df53084ec09f2978ddfd1e67fc5.ttf.png)
+##### Teko_300Light
+![Teko_300Light](./Teko_300Light.ttf.png)
 
-##### Teko_Regular400
-![Teko_Regular400](./d796b7d93c33a941a6521bb31d3ce37f381b87f97447077405c1cf841c4cb586.ttf.png)
+##### Teko_400Regular
+![Teko_400Regular](./Teko_400Regular.ttf.png)
 
-##### Teko_Medium500
-![Teko_Medium500](./88b2962aecc7ff0d4a09258f8eff7210ff6c72abd16a8229f30da45d3c428b44.ttf.png)
+##### Teko_500Medium
+![Teko_500Medium](./Teko_500Medium.ttf.png)
 
-##### Teko_SemiBold600
-![Teko_SemiBold600](./93c13926efeae26ea7017e3777dd33149524c7eb3907c791e4b8c8edc57848f6.ttf.png)
+##### Teko_600SemiBold
+![Teko_600SemiBold](./Teko_600SemiBold.ttf.png)
 
-##### Teko_Bold700
-![Teko_Bold700](./8c33b42189d0afc837f06ec5fd8b20cc431d75823356156ab00af8dcb949fa69.ttf.png)
+##### Teko_700Bold
+![Teko_700Bold](./Teko_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -129,7 +127,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/teko)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

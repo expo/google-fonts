@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Allura';
-export const __fontFamilyVersion__ = 4;
-
-export const Allura_Regular400 = require('./32adf6de6bc3ee14bedf4674a1020492d2c2e4a939883aa672ff9a31777f63ed.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Allura_400Regular = require('./Allura_400Regular.ttf');

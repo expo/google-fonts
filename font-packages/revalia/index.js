@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Revalia';
-export const __fontFamilyVersion__ = 4;
-
-export const Revalia_Regular400 = require('./b093f6aebb81a6ee15d476875815645a7d5544b359370f2565d91a77dfa8d3e6.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Revalia_400Regular = require('./Revalia_400Regular.ttf');

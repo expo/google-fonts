@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Suez One';
-export const __fontFamilyVersion__ = 1;
-
-export const SuezOne_Regular400 = require('./7e2e07a8ef35ea21aa3b0630f261b07ce1e992cf94e2161128376c440c9ed2df.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const SuezOne_400Regular = require('./SuezOne_400Regular.ttf');

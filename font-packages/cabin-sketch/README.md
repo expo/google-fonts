@@ -7,16 +7,14 @@
 
 This package lets you use the [**Cabin Sketch**](https://fonts.google.com/specimen/Cabin+Sketch) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Cabin Sketch
 
 ![Cabin Sketch](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `CabinSketch_Regular400`
-- `CabinSketch_Bold700`
+- `CabinSketch_400Regular`
+- `CabinSketch_700Bold`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  CabinSketch_Regular400,
-  CabinSketch_Bold700,
   useFonts,
+  CabinSketch_400Regular,
+  CabinSketch_700Bold,
 } from '@expo-google-fonts/cabin-sketch';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CabinSketch_Regular400,
-    CabinSketch_Bold700,
+    CabinSketch_400Regular,
+    CabinSketch_700Bold,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CabinSketch_Regular400' }}>
-          CabinSketch_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CabinSketch_400Regular' }}>
+          CabinSketch_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CabinSketch_Bold700' }}>
-          CabinSketch_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CabinSketch_700Bold' }}>
+          CabinSketch_700Bold
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CabinSketch_Regular400
-![CabinSketch_Regular400](./c56ec3d2c6227ce0f5959e906b36dda6fbf2ea830ed4edeb9000ee53197c122e.ttf.png)
+##### CabinSketch_400Regular
+![CabinSketch_400Regular](./CabinSketch_400Regular.ttf.png)
 
-##### CabinSketch_Bold700
-![CabinSketch_Bold700](./6dab969699fde26ddd2636960d9e77e5178036db4b98b1f3761df0e74e17ca88.ttf.png)
+##### CabinSketch_700Bold
+![CabinSketch_700Bold](./CabinSketch_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cabin-sketch)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

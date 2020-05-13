@@ -7,19 +7,17 @@
 
 This package lets you use the [**Hind Vadodara**](https://fonts.google.com/specimen/Hind+Vadodara) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Hind Vadodara
 
 ![Hind Vadodara](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `HindVadodara_Light300`
-- `HindVadodara_Regular400`
-- `HindVadodara_Medium500`
-- `HindVadodara_SemiBold600`
-- `HindVadodara_Bold700`
+- `HindVadodara_300Light`
+- `HindVadodara_400Regular`
+- `HindVadodara_500Medium`
+- `HindVadodara_600SemiBold`
+- `HindVadodara_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  HindVadodara_Light300,
-  HindVadodara_Regular400,
-  HindVadodara_Medium500,
-  HindVadodara_SemiBold600,
-  HindVadodara_Bold700,
   useFonts,
+  HindVadodara_300Light,
+  HindVadodara_400Regular,
+  HindVadodara_500Medium,
+  HindVadodara_600SemiBold,
+  HindVadodara_700Bold,
 } from '@expo-google-fonts/hind-vadodara';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    HindVadodara_Light300,
-    HindVadodara_Regular400,
-    HindVadodara_Medium500,
-    HindVadodara_SemiBold600,
-    HindVadodara_Bold700,
+    HindVadodara_300Light,
+    HindVadodara_400Regular,
+    HindVadodara_500Medium,
+    HindVadodara_600SemiBold,
+    HindVadodara_700Bold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindVadodara_Light300' }}>
-          HindVadodara_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindVadodara_300Light' }}>
+          HindVadodara_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindVadodara_Regular400' }}>
-          HindVadodara_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindVadodara_400Regular' }}>
+          HindVadodara_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindVadodara_Medium500' }}>
-          HindVadodara_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindVadodara_500Medium' }}>
+          HindVadodara_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindVadodara_SemiBold600' }}>
-          HindVadodara_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindVadodara_600SemiBold' }}>
+          HindVadodara_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindVadodara_Bold700' }}>
-          HindVadodara_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindVadodara_700Bold' }}>
+          HindVadodara_700Bold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HindVadodara_Light300
-![HindVadodara_Light300](./28ad92a17d66f3a0995bb68875c29dba3cdaf9fb43feb40a882e2eb2638b7d0e.ttf.png)
+##### HindVadodara_300Light
+![HindVadodara_300Light](./HindVadodara_300Light.ttf.png)
 
-##### HindVadodara_Regular400
-![HindVadodara_Regular400](./9ceba975d8428bc0815764806b013c8ab2629dd726f64eedc432d9089567ba31.ttf.png)
+##### HindVadodara_400Regular
+![HindVadodara_400Regular](./HindVadodara_400Regular.ttf.png)
 
-##### HindVadodara_Medium500
-![HindVadodara_Medium500](./99808cdfa62f14d0fb695cf7a37fd7987ec1f14b71dfd11d87f428432e5641c7.ttf.png)
+##### HindVadodara_500Medium
+![HindVadodara_500Medium](./HindVadodara_500Medium.ttf.png)
 
-##### HindVadodara_SemiBold600
-![HindVadodara_SemiBold600](./931dba7983e3c75f3bcfc57cbb486114347aa39bd48e261bf327bfc5d2b2f7cd.ttf.png)
+##### HindVadodara_600SemiBold
+![HindVadodara_600SemiBold](./HindVadodara_600SemiBold.ttf.png)
 
-##### HindVadodara_Bold700
-![HindVadodara_Bold700](./e717f555c38c3a3665cdb7fc053e8b12904225205d5eab82b472417208c7c483.ttf.png)
+##### HindVadodara_700Bold
+![HindVadodara_700Bold](./HindVadodara_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/hind-vadodara)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

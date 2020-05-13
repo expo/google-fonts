@@ -7,15 +7,13 @@
 
 This package lets you use the [**Audiowide**](https://fonts.google.com/specimen/Audiowide) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Audiowide
 
 ![Audiowide](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Audiowide_Regular400`
+- `Audiowide_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Audiowide_Regular400, useFonts } from '@expo-google-fonts/audiowide';
+import { useFonts, Audiowide_400Regular } from '@expo-google-fonts/audiowide';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Audiowide_Regular400,
+    Audiowide_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Audiowide_Regular400' }}>
-          Audiowide_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Audiowide_400Regular' }}>
+          Audiowide_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Audiowide_Regular400
-![Audiowide_Regular400](./2054b5910bd5457176b1479122e09690d5afe73d3749e5ef89a3686e6f724c29.ttf.png)
+##### Audiowide_400Regular
+![Audiowide_400Regular](./Audiowide_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/audiowide)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

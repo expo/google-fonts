@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Mandali';
-export const __fontFamilyVersion__ = 4;
-
-export const Mandali_Regular400 = require('./bf8fcb272aa15d749c2b5a6660a64af1b0014a47b0fe3ed3394e761ce7637f1d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Mandali_400Regular = require('./Mandali_400Regular.ttf');

@@ -7,17 +7,15 @@
 
 This package lets you use the [**Sulphur Point**](https://fonts.google.com/specimen/Sulphur+Point) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sulphur Point
 
 ![Sulphur Point](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `SulphurPoint_Light300`
-- `SulphurPoint_Regular400`
-- `SulphurPoint_Bold700`
+- `SulphurPoint_300Light`
+- `SulphurPoint_400Regular`
+- `SulphurPoint_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  SulphurPoint_Light300,
-  SulphurPoint_Regular400,
-  SulphurPoint_Bold700,
   useFonts,
+  SulphurPoint_300Light,
+  SulphurPoint_400Regular,
+  SulphurPoint_700Bold,
 } from '@expo-google-fonts/sulphur-point';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    SulphurPoint_Light300,
-    SulphurPoint_Regular400,
-    SulphurPoint_Bold700,
+    SulphurPoint_300Light,
+    SulphurPoint_400Regular,
+    SulphurPoint_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SulphurPoint_Light300' }}>
-          SulphurPoint_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SulphurPoint_300Light' }}>
+          SulphurPoint_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SulphurPoint_Regular400' }}>
-          SulphurPoint_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SulphurPoint_400Regular' }}>
+          SulphurPoint_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SulphurPoint_Bold700' }}>
-          SulphurPoint_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SulphurPoint_700Bold' }}>
+          SulphurPoint_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SulphurPoint_Light300
-![SulphurPoint_Light300](./a21388d3a52630430a38cfb9e7aefbfa4653889b768e5fdc07c3eaa76c4bc5f0.ttf.png)
+##### SulphurPoint_300Light
+![SulphurPoint_300Light](./SulphurPoint_300Light.ttf.png)
 
-##### SulphurPoint_Regular400
-![SulphurPoint_Regular400](./fd7664cb5a15da70be5d1769533c9cfa5abe937f64ce7bc3cf0fd9e155151280.ttf.png)
+##### SulphurPoint_400Regular
+![SulphurPoint_400Regular](./SulphurPoint_400Regular.ttf.png)
 
-##### SulphurPoint_Bold700
-![SulphurPoint_Bold700](./27c023fb553e5fa85d985bf1965ac74cdc7ca09e715c656f8dfe82a44c53f18d.ttf.png)
+##### SulphurPoint_700Bold
+![SulphurPoint_700Bold](./SulphurPoint_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sulphur-point)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

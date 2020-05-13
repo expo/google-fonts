@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bubbler One';
-export const __fontFamilyVersion__ = 4;
-
-export const BubblerOne_Regular400 = require('./fd7ed8791a88cc19effc14df166be456cef77a85b707501822da21df19386254.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BubblerOne_400Regular = require('./BubblerOne_400Regular.ttf');

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Dr Sugiyama**](https://fonts.google.com/specimen/Dr+Sugiyama) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Dr Sugiyama
 
 ![Dr Sugiyama](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `DrSugiyama_Regular400`
+- `DrSugiyama_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { DrSugiyama_Regular400, useFonts } from '@expo-google-fonts/dr-sugiyama';
+import { useFonts, DrSugiyama_400Regular } from '@expo-google-fonts/dr-sugiyama';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    DrSugiyama_Regular400,
+    DrSugiyama_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DrSugiyama_Regular400' }}>
-          DrSugiyama_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DrSugiyama_400Regular' }}>
+          DrSugiyama_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DrSugiyama_Regular400
-![DrSugiyama_Regular400](./222640befef81fb644265039a2b7df8ab86103b0d4427b5a88b9fb9ebbbcd273.ttf.png)
+##### DrSugiyama_400Regular
+![DrSugiyama_400Regular](./DrSugiyama_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/dr-sugiyama)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

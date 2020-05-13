@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Spinnaker';
-export const __fontFamilyVersion__ = 8;
-
-export const Spinnaker_Regular400 = require('./086026fa129fbdfec07fc9736f5f1a5577d7c1a6f4cf1daa40f5a524db14db1d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Spinnaker_400Regular = require('./Spinnaker_400Regular.ttf');

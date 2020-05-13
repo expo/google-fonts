@@ -7,15 +7,13 @@
 
 This package lets you use the [**Fenix**](https://fonts.google.com/specimen/Fenix) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Fenix
 
 ![Fenix](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Fenix_Regular400`
+- `Fenix_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Fenix_Regular400, useFonts } from '@expo-google-fonts/fenix';
+import { useFonts, Fenix_400Regular } from '@expo-google-fonts/fenix';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Fenix_Regular400,
+    Fenix_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fenix_Regular400' }}>
-          Fenix_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fenix_400Regular' }}>
+          Fenix_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Fenix_Regular400
-![Fenix_Regular400](./8601d9f9c9a93dcbc9a75b2e7e9e1f567e66ca628768e1567225078fee043e8f.ttf.png)
+##### Fenix_400Regular
+![Fenix_400Regular](./Fenix_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/fenix)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

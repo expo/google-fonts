@@ -7,15 +7,13 @@
 
 This package lets you use the [**Black Ops One**](https://fonts.google.com/specimen/Black+Ops+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Black Ops One
 
 ![Black Ops One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `BlackOpsOne_Regular400`
+- `BlackOpsOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { BlackOpsOne_Regular400, useFonts } from '@expo-google-fonts/black-ops-one';
+import { useFonts, BlackOpsOne_400Regular } from '@expo-google-fonts/black-ops-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    BlackOpsOne_Regular400,
+    BlackOpsOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BlackOpsOne_Regular400' }}>
-          BlackOpsOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BlackOpsOne_400Regular' }}>
+          BlackOpsOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BlackOpsOne_Regular400
-![BlackOpsOne_Regular400](./9a9eebffdb4d3c168c63bfcd5d0ec80a1571160a66e46ef698786f9c56922256.ttf.png)
+##### BlackOpsOne_400Regular
+![BlackOpsOne_400Regular](./BlackOpsOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/black-ops-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

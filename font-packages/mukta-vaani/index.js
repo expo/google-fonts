@@ -4,13 +4,11 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Mukta Vaani';
-export const __fontFamilyVersion__ = 4;
-
-export const MuktaVaani_ExtraLight200 = require('./29b1cbb5d158be22b06c5c6af360d55da720b6c8a7b9b218dd184cbfc2a97885.ttf');
-export const MuktaVaani_Light300 = require('./b273ecb298d23bd198fdcf92d8137f3bb392abc1843e055c814580f254f3a4d2.ttf');
-export const MuktaVaani_Regular400 = require('./89cee2e2edc87643ff46594bc56da0b32e9f4fd9acb8b87979dda5d4da2bccb6.ttf');
-export const MuktaVaani_Medium500 = require('./5da49257aaa42ad92f5abf8235b58834033471554455112dea55a3a00761f1c0.ttf');
-export const MuktaVaani_SemiBold600 = require('./7f14d4f17f14c4106a7fe56a9e591a9ef7d89e8dee221d5b4d359cac2667f138.ttf');
-export const MuktaVaani_Bold700 = require('./6e1e0572586f30b3b9b794997b0b26cc725d41d3348eda988662d14d1fdc89b4.ttf');
-export const MuktaVaani_ExtraBold800 = require('./09f9de8c00ef147925056cf61c1d7e324b50fd29b1fe15c95500c506ddd79aeb.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MuktaVaani_200ExtraLight = require('./MuktaVaani_200ExtraLight.ttf');
+export const MuktaVaani_300Light = require('./MuktaVaani_300Light.ttf');
+export const MuktaVaani_400Regular = require('./MuktaVaani_400Regular.ttf');
+export const MuktaVaani_500Medium = require('./MuktaVaani_500Medium.ttf');
+export const MuktaVaani_600SemiBold = require('./MuktaVaani_600SemiBold.ttf');
+export const MuktaVaani_700Bold = require('./MuktaVaani_700Bold.ttf');
+export const MuktaVaani_800ExtraBold = require('./MuktaVaani_800ExtraBold.ttf');

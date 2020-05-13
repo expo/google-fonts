@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Acme';
-export const __fontFamilyVersion__ = 6;
-
-export const Acme_Regular400 = require('./f7d0b4054bd37012deca722e47899589c1d35302b51b2fd21ea83e7f3410bccd.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Acme_400Regular = require('./Acme_400Regular.ttf');

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Stint Ultra Expanded**](https://fonts.google.com/specimen/Stint+Ultra+Expanded) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Stint Ultra Expanded
 
 ![Stint Ultra Expanded](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `StintUltraExpanded_Regular400`
+- `StintUltraExpanded_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { StintUltraExpanded_Regular400, useFonts } from '@expo-google-fonts/stint-ultra-expanded';
+import { useFonts, StintUltraExpanded_400Regular } from '@expo-google-fonts/stint-ultra-expanded';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    StintUltraExpanded_Regular400,
+    StintUltraExpanded_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'StintUltraExpanded_Regular400' }}>
-          StintUltraExpanded_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'StintUltraExpanded_400Regular' }}>
+          StintUltraExpanded_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### StintUltraExpanded_Regular400
-![StintUltraExpanded_Regular400](./e2e52b99f99f593fd768d038a499b7217a4852adceb02fa177857827ecd46921.ttf.png)
+##### StintUltraExpanded_400Regular
+![StintUltraExpanded_400Regular](./StintUltraExpanded_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/stint-ultra-expanded)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Miltonian';
-export const __fontFamilyVersion__ = 10;
-
-export const Miltonian_Regular400 = require('./39ba52477439aa52410287a79a2d8064fb7b18f82af5f6ae22fd50b70e31d96c.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Miltonian_400Regular = require('./Miltonian_400Regular.ttf');

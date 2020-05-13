@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Coming Soon';
-export const __fontFamilyVersion__ = 6;
-
-export const ComingSoon_Regular400 = require('./193064f6768240e8165c7b8f6dec7b2dd4cf009b638b76c7b879098469346c5e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ComingSoon_400Regular = require('./ComingSoon_400Regular.ttf');

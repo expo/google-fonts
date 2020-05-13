@@ -4,13 +4,11 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Manrope';
-export const __fontFamilyVersion__ = 1;
-
-export const Manrope_ExtraLight200 = require('./0e0aac7c30d815ffee8f590cf386f62ccea077282904c5bcc089f83e1e3fa6ba.ttf');
-export const Manrope_Light300 = require('./b00c95e47bd20d7096fc9bd66552bab89fdaee62611c600e651efcc4c1808b29.ttf');
-export const Manrope_Regular400 = require('./1f742b6ef495bb5b9f5b968a27c50281ca1f9822bb53ec99bb3757ff2f3febfd.ttf');
-export const Manrope_Medium500 = require('./1b26cd5641c96028ba3251bc1c3017c3b7f0f66db8bffa236e6a9fba9273dbe4.ttf');
-export const Manrope_SemiBold600 = require('./2926db83b22f15d5dead94c407d4b830fe032adae54af4611e4a3b1d95e5059b.ttf');
-export const Manrope_Bold700 = require('./89fbadf5ffbbcf438d182a4931c241c4beb528b1c11c22290afc4b4b8c8f854d.ttf');
-export const Manrope_ExtraBold800 = require('./f94757bb3fe3b1f1a20cdb49284c1a311dec4ed72554c5858d186fc93db7afaf.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Manrope_200ExtraLight = require('./Manrope_200ExtraLight.ttf');
+export const Manrope_300Light = require('./Manrope_300Light.ttf');
+export const Manrope_400Regular = require('./Manrope_400Regular.ttf');
+export const Manrope_500Medium = require('./Manrope_500Medium.ttf');
+export const Manrope_600SemiBold = require('./Manrope_600SemiBold.ttf');
+export const Manrope_700Bold = require('./Manrope_700Bold.ttf');
+export const Manrope_800ExtraBold = require('./Manrope_800ExtraBold.ttf');

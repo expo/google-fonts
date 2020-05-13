@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bilbo Swash Caps';
-export const __fontFamilyVersion__ = 7;
-
-export const BilboSwashCaps_Regular400 = require('./e55126acc93a6cae98b3736d06e24e1301a26f9aa4ac2173998ab1fa142b1736.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BilboSwashCaps_400Regular = require('./BilboSwashCaps_400Regular.ttf');

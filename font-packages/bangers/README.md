@@ -7,15 +7,13 @@
 
 This package lets you use the [**Bangers**](https://fonts.google.com/specimen/Bangers) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Bangers
 
 ![Bangers](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Bangers_Regular400`
+- `Bangers_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Bangers_Regular400, useFonts } from '@expo-google-fonts/bangers';
+import { useFonts, Bangers_400Regular } from '@expo-google-fonts/bangers';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Bangers_Regular400,
+    Bangers_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Bangers_Regular400' }}>
-          Bangers_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Bangers_400Regular' }}>
+          Bangers_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Bangers_Regular400
-![Bangers_Regular400](./42a6646ed15dc91b9430f7e69e6259203235b48fa12c9cc10b6b72afab348de0.ttf.png)
+##### Bangers_400Regular
+![Bangers_400Regular](./Bangers_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/bangers)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

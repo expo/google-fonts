@@ -7,15 +7,13 @@
 
 This package lets you use the [**Hanalei Fill**](https://fonts.google.com/specimen/Hanalei+Fill) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Hanalei Fill
 
 ![Hanalei Fill](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `HanaleiFill_Regular400`
+- `HanaleiFill_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { HanaleiFill_Regular400, useFonts } from '@expo-google-fonts/hanalei-fill';
+import { useFonts, HanaleiFill_400Regular } from '@expo-google-fonts/hanalei-fill';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    HanaleiFill_Regular400,
+    HanaleiFill_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HanaleiFill_Regular400' }}>
-          HanaleiFill_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HanaleiFill_400Regular' }}>
+          HanaleiFill_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HanaleiFill_Regular400
-![HanaleiFill_Regular400](./8a762eb869da8deb93071d72d31cc3f5d6ab83cbeff8da397a582e507aa65465.ttf.png)
+##### HanaleiFill_400Regular
+![HanaleiFill_400Regular](./HanaleiFill_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/hanalei-fill)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

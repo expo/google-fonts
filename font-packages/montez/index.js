@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Montez';
-export const __fontFamilyVersion__ = 6;
-
-export const Montez_Regular400 = require('./d2ffdd5ee7b2b6e5f8a08b9bc62a24eac29a4755576e27b7856e039043d596ea.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Montez_400Regular = require('./Montez_400Regular.ttf');

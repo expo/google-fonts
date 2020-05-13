@@ -4,13 +4,11 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'M PLUS 1p';
-export const __fontFamilyVersion__ = 19;
-
-export const MPLUS1p_Thin100 = require('./0654233f2cc095bd1af48724031070c0b16e3dd46fc5c29bd87070d485b7a366.ttf');
-export const MPLUS1p_Light300 = require('./328d60a811d0715a23a96805dda2004f69c4b0a888dc1711c77a2d589650c97f.ttf');
-export const MPLUS1p_Regular400 = require('./6d33f3ea856c224db5e2d573ab252d85cc66e3d2ec9981d4dded4cb5df17a345.ttf');
-export const MPLUS1p_Medium500 = require('./45129fd4450f7465b6ad68ee3a7f2579df75712cdedec1690b2f2b8e2a008400.ttf');
-export const MPLUS1p_Bold700 = require('./42106dfc33cc933616115e3c69191bc75d0675df68106571eedbe23c14b5ad1f.ttf');
-export const MPLUS1p_ExtraBold800 = require('./27bd65580cfc4564b1dc3ee85e12bdc336861dc586fd838a943bdef4a3bd8730.ttf');
-export const MPLUS1p_Black900 = require('./21baffc573a6103dcd6c23b9ad751e3686f142c921212717fa3b4356e01a38bc.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MPLUS1p_100Thin = require('./MPLUS1p_100Thin.ttf');
+export const MPLUS1p_300Light = require('./MPLUS1p_300Light.ttf');
+export const MPLUS1p_400Regular = require('./MPLUS1p_400Regular.ttf');
+export const MPLUS1p_500Medium = require('./MPLUS1p_500Medium.ttf');
+export const MPLUS1p_700Bold = require('./MPLUS1p_700Bold.ttf');
+export const MPLUS1p_800ExtraBold = require('./MPLUS1p_800ExtraBold.ttf');
+export const MPLUS1p_900Black = require('./MPLUS1p_900Black.ttf');

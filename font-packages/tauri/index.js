@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Tauri';
-export const __fontFamilyVersion__ = 4;
-
-export const Tauri_Regular400 = require('./364639e2343951f5f67f35cd32dddd5050f5a7d4b5170fd1f4b9bcdcfd3b70a5.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Tauri_400Regular = require('./Tauri_400Regular.ttf');

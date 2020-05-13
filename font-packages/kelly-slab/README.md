@@ -7,15 +7,13 @@
 
 This package lets you use the [**Kelly Slab**](https://fonts.google.com/specimen/Kelly+Slab) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Kelly Slab
 
 ![Kelly Slab](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `KellySlab_Regular400`
+- `KellySlab_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { KellySlab_Regular400, useFonts } from '@expo-google-fonts/kelly-slab';
+import { useFonts, KellySlab_400Regular } from '@expo-google-fonts/kelly-slab';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    KellySlab_Regular400,
+    KellySlab_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KellySlab_Regular400' }}>
-          KellySlab_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'KellySlab_400Regular' }}>
+          KellySlab_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### KellySlab_Regular400
-![KellySlab_Regular400](./0e2083c69e8813f4eaba66f9dbe4960cd23ce5e098577997c4a3ae8d09c15c31.ttf.png)
+##### KellySlab_400Regular
+![KellySlab_400Regular](./KellySlab_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/kelly-slab)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

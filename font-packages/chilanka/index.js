@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Chilanka';
-export const __fontFamilyVersion__ = 5;
-
-export const Chilanka_Regular400 = require('./c0b4dcbe94cf228d02f67f71242fed2881a691a3b3516a791881a3428605d6dc.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Chilanka_400Regular = require('./Chilanka_400Regular.ttf');

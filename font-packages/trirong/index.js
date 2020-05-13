@@ -4,24 +4,22 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Trirong';
-export const __fontFamilyVersion__ = 2;
-
-export const Trirong_Thin100 = require('./ebda10c096f251b0f84ce8b6fad4468a087d944c5c45081c09f9b355ed9c2757.ttf');
-export const Trirong_Thin100_Italic = require('./7a42cfb5ac38b434d94f2da531cd684023ef0223664c7a1dcc27c1abbb1da60a.ttf');
-export const Trirong_ExtraLight200 = require('./c24e38979d00ca5cc7b8263089200c8047ff2589fdccff637c44dd6e0ab1f408.ttf');
-export const Trirong_ExtraLight200_Italic = require('./273025dcd85321fcb1f102724944a7150fea25d03ff9ed2bb7386973e88b9e50.ttf');
-export const Trirong_Light300 = require('./5f63c33f4190aa7884d7b64f11279c4507d7317e5624d0bfc1b05eca2ff418e7.ttf');
-export const Trirong_Light300_Italic = require('./1784836440ffdf31286b0df9584970579b1af1952ac75dfd022bf9d7e0984fe1.ttf');
-export const Trirong_Regular400 = require('./83969f4046620c10445d07b6cec90f9d567b3cb5ae9f8a0d216568cc2d15654c.ttf');
-export const Trirong_Regular400_Italic = require('./841e812a25eb28ca4e21cb658d8366c9bb981105dd1d7aa88ca994bb54894ea3.ttf');
-export const Trirong_Medium500 = require('./43bcfe3403429145f5c7fb7b1c235b3f7c6ec53c0eb74c60aacf204b951b5401.ttf');
-export const Trirong_Medium500_Italic = require('./5e3cacecc05b4c5ec441b805e2a762128058bec1d536af471ba5e41bdc4aeab6.ttf');
-export const Trirong_SemiBold600 = require('./1bcf42948a6cb24de06e4672a41d7be5d5a78f8666cb01af47465ae500a71d3f.ttf');
-export const Trirong_SemiBold600_Italic = require('./33b42029fe9f85e3aca1571116b8931e01d2c0532a8686fa4d4c1a9a6002d4c7.ttf');
-export const Trirong_Bold700 = require('./f44ac39f4897c03dc6b971c1150fb6931ae23244de24ad8b7e7786cf80d05bdf.ttf');
-export const Trirong_Bold700_Italic = require('./253f1ffccc8aef2bd32268020b2c2043f73135a8ae452a59da8a0392eb550f15.ttf');
-export const Trirong_ExtraBold800 = require('./91503f7fd8f6427f0f52f59b2eb579609644a895bbc23cf120d005ca661664a3.ttf');
-export const Trirong_ExtraBold800_Italic = require('./4bfb31e96b8c31946d7ad03ee00d18bbe83bb6f3259286bfcf595eb3a58f0d0c.ttf');
-export const Trirong_Black900 = require('./68b6c54a09143e5a61f93d87711cea8b55c71178340aa29d7900f345a39d6fec.ttf');
-export const Trirong_Black900_Italic = require('./3065ef76d27a4859bed714e0ff5f472bd1675a0fc4b103a5b365fb7e367acbdc.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Trirong_100Thin = require('./Trirong_100Thin.ttf');
+export const Trirong_100Thin_Italic = require('./Trirong_100Thin_Italic.ttf');
+export const Trirong_200ExtraLight = require('./Trirong_200ExtraLight.ttf');
+export const Trirong_200ExtraLight_Italic = require('./Trirong_200ExtraLight_Italic.ttf');
+export const Trirong_300Light = require('./Trirong_300Light.ttf');
+export const Trirong_300Light_Italic = require('./Trirong_300Light_Italic.ttf');
+export const Trirong_400Regular = require('./Trirong_400Regular.ttf');
+export const Trirong_400Regular_Italic = require('./Trirong_400Regular_Italic.ttf');
+export const Trirong_500Medium = require('./Trirong_500Medium.ttf');
+export const Trirong_500Medium_Italic = require('./Trirong_500Medium_Italic.ttf');
+export const Trirong_600SemiBold = require('./Trirong_600SemiBold.ttf');
+export const Trirong_600SemiBold_Italic = require('./Trirong_600SemiBold_Italic.ttf');
+export const Trirong_700Bold = require('./Trirong_700Bold.ttf');
+export const Trirong_700Bold_Italic = require('./Trirong_700Bold_Italic.ttf');
+export const Trirong_800ExtraBold = require('./Trirong_800ExtraBold.ttf');
+export const Trirong_800ExtraBold_Italic = require('./Trirong_800ExtraBold_Italic.ttf');
+export const Trirong_900Black = require('./Trirong_900Black.ttf');
+export const Trirong_900Black_Italic = require('./Trirong_900Black_Italic.ttf');

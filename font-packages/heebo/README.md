@@ -7,21 +7,19 @@
 
 This package lets you use the [**Heebo**](https://fonts.google.com/specimen/Heebo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Heebo
 
 ![Heebo](./font-family.png)
 
 This font family contains [7 styles](#-gallery).
 
-- `Heebo_Thin100`
-- `Heebo_Light300`
-- `Heebo_Regular400`
-- `Heebo_Medium500`
-- `Heebo_Bold700`
-- `Heebo_ExtraBold800`
-- `Heebo_Black900`
+- `Heebo_100Thin`
+- `Heebo_300Light`
+- `Heebo_400Regular`
+- `Heebo_500Medium`
+- `Heebo_700Bold`
+- `Heebo_800ExtraBold`
+- `Heebo_900Black`
 
 ## Usage
 
@@ -37,25 +35,25 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Heebo_Thin100,
-  Heebo_Light300,
-  Heebo_Regular400,
-  Heebo_Medium500,
-  Heebo_Bold700,
-  Heebo_ExtraBold800,
-  Heebo_Black900,
   useFonts,
+  Heebo_100Thin,
+  Heebo_300Light,
+  Heebo_400Regular,
+  Heebo_500Medium,
+  Heebo_700Bold,
+  Heebo_800ExtraBold,
+  Heebo_900Black,
 } from '@expo-google-fonts/heebo';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Heebo_Thin100,
-    Heebo_Light300,
-    Heebo_Regular400,
-    Heebo_Medium500,
-    Heebo_Bold700,
-    Heebo_ExtraBold800,
-    Heebo_Black900,
+    Heebo_100Thin,
+    Heebo_300Light,
+    Heebo_400Regular,
+    Heebo_500Medium,
+    Heebo_700Bold,
+    Heebo_800ExtraBold,
+    Heebo_900Black,
   });
 
   let fontSize = 24;
@@ -66,32 +64,32 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_Thin100' }}>
-          Heebo_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_100Thin' }}>
+          Heebo_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_Light300' }}>
-          Heebo_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_300Light' }}>
+          Heebo_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_Regular400' }}>
-          Heebo_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_400Regular' }}>
+          Heebo_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_Medium500' }}>
-          Heebo_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_500Medium' }}>
+          Heebo_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_Bold700' }}>
-          Heebo_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_700Bold' }}>
+          Heebo_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_ExtraBold800' }}>
-          Heebo_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_800ExtraBold' }}>
+          Heebo_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_Black900' }}>
-          Heebo_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_900Black' }}>
+          Heebo_900Black
         </Text>
       </View>
     );
@@ -102,26 +100,26 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Heebo_Thin100
-![Heebo_Thin100](./2f2d859884539805a307db5a1953174f56bbb1e6903e915be95fe2a03d9ccacf.ttf.png)
+##### Heebo_100Thin
+![Heebo_100Thin](./Heebo_100Thin.ttf.png)
 
-##### Heebo_Light300
-![Heebo_Light300](./eca72d49e0e063205daeaedb86fcdfc0cc36c5aaeb2d564ace316302e6ae62d9.ttf.png)
+##### Heebo_300Light
+![Heebo_300Light](./Heebo_300Light.ttf.png)
 
-##### Heebo_Regular400
-![Heebo_Regular400](./afb3fdd559b309c81c88a054148d94587299a397f1e8a3798cfb7cc2d485369c.ttf.png)
+##### Heebo_400Regular
+![Heebo_400Regular](./Heebo_400Regular.ttf.png)
 
-##### Heebo_Medium500
-![Heebo_Medium500](./6655017f4c44bf09c5f66243feddb0c2cc8654284f24057da878243794d13286.ttf.png)
+##### Heebo_500Medium
+![Heebo_500Medium](./Heebo_500Medium.ttf.png)
 
-##### Heebo_Bold700
-![Heebo_Bold700](./61bb78902136df2bcd0ef85590cbe95a59a3d85b975e0778906df1211029bd34.ttf.png)
+##### Heebo_700Bold
+![Heebo_700Bold](./Heebo_700Bold.ttf.png)
 
-##### Heebo_ExtraBold800
-![Heebo_ExtraBold800](./c1324f3250d2f9405f19d63450423cd5a8a8cf6c6b7129e3afda9592f69c2df4.ttf.png)
+##### Heebo_800ExtraBold
+![Heebo_800ExtraBold](./Heebo_800ExtraBold.ttf.png)
 
-##### Heebo_Black900
-![Heebo_Black900](./500b1881e185310128c33157aa1484b2a52573bfe32f11d60065e0deffe8471c.ttf.png)
+##### Heebo_900Black
+![Heebo_900Black](./Heebo_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -151,7 +149,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/heebo)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,21 +7,19 @@
 
 This package lets you use the [**Martel Sans**](https://fonts.google.com/specimen/Martel+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Martel Sans
 
 ![Martel Sans](./font-family.png)
 
 This font family contains [7 styles](#-gallery).
 
-- `MartelSans_ExtraLight200`
-- `MartelSans_Light300`
-- `MartelSans_Regular400`
-- `MartelSans_SemiBold600`
-- `MartelSans_Bold700`
-- `MartelSans_ExtraBold800`
-- `MartelSans_Black900`
+- `MartelSans_200ExtraLight`
+- `MartelSans_300Light`
+- `MartelSans_400Regular`
+- `MartelSans_600SemiBold`
+- `MartelSans_700Bold`
+- `MartelSans_800ExtraBold`
+- `MartelSans_900Black`
 
 ## Usage
 
@@ -37,25 +35,25 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  MartelSans_ExtraLight200,
-  MartelSans_Light300,
-  MartelSans_Regular400,
-  MartelSans_SemiBold600,
-  MartelSans_Bold700,
-  MartelSans_ExtraBold800,
-  MartelSans_Black900,
   useFonts,
+  MartelSans_200ExtraLight,
+  MartelSans_300Light,
+  MartelSans_400Regular,
+  MartelSans_600SemiBold,
+  MartelSans_700Bold,
+  MartelSans_800ExtraBold,
+  MartelSans_900Black,
 } from '@expo-google-fonts/martel-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MartelSans_ExtraLight200,
-    MartelSans_Light300,
-    MartelSans_Regular400,
-    MartelSans_SemiBold600,
-    MartelSans_Bold700,
-    MartelSans_ExtraBold800,
-    MartelSans_Black900,
+    MartelSans_200ExtraLight,
+    MartelSans_300Light,
+    MartelSans_400Regular,
+    MartelSans_600SemiBold,
+    MartelSans_700Bold,
+    MartelSans_800ExtraBold,
+    MartelSans_900Black,
   });
 
   let fontSize = 24;
@@ -66,32 +64,32 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_ExtraLight200' }}>
-          MartelSans_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_200ExtraLight' }}>
+          MartelSans_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_Light300' }}>
-          MartelSans_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_300Light' }}>
+          MartelSans_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_Regular400' }}>
-          MartelSans_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_400Regular' }}>
+          MartelSans_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_SemiBold600' }}>
-          MartelSans_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_600SemiBold' }}>
+          MartelSans_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_Bold700' }}>
-          MartelSans_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_700Bold' }}>
+          MartelSans_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_ExtraBold800' }}>
-          MartelSans_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_800ExtraBold' }}>
+          MartelSans_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_Black900' }}>
-          MartelSans_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_900Black' }}>
+          MartelSans_900Black
         </Text>
       </View>
     );
@@ -102,26 +100,26 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MartelSans_ExtraLight200
-![MartelSans_ExtraLight200](./1fc958d478da9b8b19e77c989d4fb6dbbd2f412a15b122ba72a2b11ee450907f.ttf.png)
+##### MartelSans_200ExtraLight
+![MartelSans_200ExtraLight](./MartelSans_200ExtraLight.ttf.png)
 
-##### MartelSans_Light300
-![MartelSans_Light300](./2115f8757576a27c80ccede4ba84e8febb53a0ec9f63840ab713b4d5e848f950.ttf.png)
+##### MartelSans_300Light
+![MartelSans_300Light](./MartelSans_300Light.ttf.png)
 
-##### MartelSans_Regular400
-![MartelSans_Regular400](./f782be9e1cecfb4c75dd0bb7a8d88dce2794738a35bf5532079d99d4d529502d.ttf.png)
+##### MartelSans_400Regular
+![MartelSans_400Regular](./MartelSans_400Regular.ttf.png)
 
-##### MartelSans_SemiBold600
-![MartelSans_SemiBold600](./52f4a456d3927808cd2aa64f46cd6d63f7a938b904b289f66ab69c0db2e884a7.ttf.png)
+##### MartelSans_600SemiBold
+![MartelSans_600SemiBold](./MartelSans_600SemiBold.ttf.png)
 
-##### MartelSans_Bold700
-![MartelSans_Bold700](./fcf8c1bb73f62f8c3e86ed5126daf3eb4ee130c49e70f7ebdcaf27ae635bfc1b.ttf.png)
+##### MartelSans_700Bold
+![MartelSans_700Bold](./MartelSans_700Bold.ttf.png)
 
-##### MartelSans_ExtraBold800
-![MartelSans_ExtraBold800](./0860874935148b1b8ffd9705d6ccef02322d3972a1bf7a38e63a65cf542e6395.ttf.png)
+##### MartelSans_800ExtraBold
+![MartelSans_800ExtraBold](./MartelSans_800ExtraBold.ttf.png)
 
-##### MartelSans_Black900
-![MartelSans_Black900](./9145c71bcab8472ba22b19f9e4e898639945be5fed13f10cd4d399fd5eac5a83.ttf.png)
+##### MartelSans_900Black
+![MartelSans_900Black](./MartelSans_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -151,7 +149,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/martel-sans)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

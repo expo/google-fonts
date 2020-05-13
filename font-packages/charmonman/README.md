@@ -7,16 +7,14 @@
 
 This package lets you use the [**Charmonman**](https://fonts.google.com/specimen/Charmonman) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Charmonman
 
 ![Charmonman](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Charmonman_Regular400`
-- `Charmonman_Bold700`
+- `Charmonman_400Regular`
+- `Charmonman_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Charmonman_Regular400, Charmonman_Bold700, useFonts } from '@expo-google-fonts/charmonman';
+import { useFonts, Charmonman_400Regular, Charmonman_700Bold } from '@expo-google-fonts/charmonman';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Charmonman_Regular400,
-    Charmonman_Bold700,
+    Charmonman_400Regular,
+    Charmonman_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Charmonman_Regular400' }}>
-          Charmonman_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Charmonman_400Regular' }}>
+          Charmonman_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Charmonman_Bold700' }}>
-          Charmonman_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Charmonman_700Bold' }}>
+          Charmonman_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Charmonman_Regular400
-![Charmonman_Regular400](./8c4d7f973e9f5d882d38668d863ec90889ddc79cd302e832da538621ac970513.ttf.png)
+##### Charmonman_400Regular
+![Charmonman_400Regular](./Charmonman_400Regular.ttf.png)
 
-##### Charmonman_Bold700
-![Charmonman_Bold700](./d1492915dc59b590610a5b5bcf4d1b9aca380c377b870a0a9de187fc05146908.ttf.png)
+##### Charmonman_700Bold
+![Charmonman_700Bold](./Charmonman_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/charmonman)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

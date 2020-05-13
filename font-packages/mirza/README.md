@@ -7,18 +7,16 @@
 
 This package lets you use the [**Mirza**](https://fonts.google.com/specimen/Mirza) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Mirza
 
 ![Mirza](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Mirza_Regular400`
-- `Mirza_Medium500`
-- `Mirza_SemiBold600`
-- `Mirza_Bold700`
+- `Mirza_400Regular`
+- `Mirza_500Medium`
+- `Mirza_600SemiBold`
+- `Mirza_700Bold`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Mirza_Regular400,
-  Mirza_Medium500,
-  Mirza_SemiBold600,
-  Mirza_Bold700,
   useFonts,
+  Mirza_400Regular,
+  Mirza_500Medium,
+  Mirza_600SemiBold,
+  Mirza_700Bold,
 } from '@expo-google-fonts/mirza';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Mirza_Regular400,
-    Mirza_Medium500,
-    Mirza_SemiBold600,
-    Mirza_Bold700,
+    Mirza_400Regular,
+    Mirza_500Medium,
+    Mirza_600SemiBold,
+    Mirza_700Bold,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mirza_Regular400' }}>
-          Mirza_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mirza_400Regular' }}>
+          Mirza_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mirza_Medium500' }}>
-          Mirza_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mirza_500Medium' }}>
+          Mirza_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mirza_SemiBold600' }}>
-          Mirza_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mirza_600SemiBold' }}>
+          Mirza_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mirza_Bold700' }}>
-          Mirza_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mirza_700Bold' }}>
+          Mirza_700Bold
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Mirza_Regular400
-![Mirza_Regular400](./5b1ac6cb285ca3492e313a53d5252b9784bf7607f2835a2d44cb3cbad0168539.ttf.png)
+##### Mirza_400Regular
+![Mirza_400Regular](./Mirza_400Regular.ttf.png)
 
-##### Mirza_Medium500
-![Mirza_Medium500](./423532407cc832ef84cc8f08a3359f26b50e721c8aa0e00221e4215cc83440b3.ttf.png)
+##### Mirza_500Medium
+![Mirza_500Medium](./Mirza_500Medium.ttf.png)
 
-##### Mirza_SemiBold600
-![Mirza_SemiBold600](./4225215d0df4ad389c4ac29d48fddc531703776591ade64c23f6f995669d4078.ttf.png)
+##### Mirza_600SemiBold
+![Mirza_600SemiBold](./Mirza_600SemiBold.ttf.png)
 
-##### Mirza_Bold700
-![Mirza_Bold700](./306b412a39d9f93ca840c13ca62300eb5c7712e2afa94bd7ef2272b51131be6d.ttf.png)
+##### Mirza_700Bold
+![Mirza_700Bold](./Mirza_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/mirza)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Caveat Brush**](https://fonts.google.com/specimen/Caveat+Brush) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Caveat Brush
 
 ![Caveat Brush](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `CaveatBrush_Regular400`
+- `CaveatBrush_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { CaveatBrush_Regular400, useFonts } from '@expo-google-fonts/caveat-brush';
+import { useFonts, CaveatBrush_400Regular } from '@expo-google-fonts/caveat-brush';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CaveatBrush_Regular400,
+    CaveatBrush_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CaveatBrush_Regular400' }}>
-          CaveatBrush_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CaveatBrush_400Regular' }}>
+          CaveatBrush_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CaveatBrush_Regular400
-![CaveatBrush_Regular400](./70de81a815f44819880ddba3c93eda87ab6bd1a4b21db15e5ba29c9271cba521.ttf.png)
+##### CaveatBrush_400Regular
+![CaveatBrush_400Regular](./CaveatBrush_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/caveat-brush)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

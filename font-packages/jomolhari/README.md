@@ -7,15 +7,13 @@
 
 This package lets you use the [**Jomolhari**](https://fonts.google.com/specimen/Jomolhari) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Jomolhari
 
 ![Jomolhari](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Jomolhari_Regular400`
+- `Jomolhari_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Jomolhari_Regular400, useFonts } from '@expo-google-fonts/jomolhari';
+import { useFonts, Jomolhari_400Regular } from '@expo-google-fonts/jomolhari';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Jomolhari_Regular400,
+    Jomolhari_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jomolhari_Regular400' }}>
-          Jomolhari_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jomolhari_400Regular' }}>
+          Jomolhari_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Jomolhari_Regular400
-![Jomolhari_Regular400](./3ee25009d9daf59851273c5b12d4656fbdfd943f715735eda3c58bbf19ebd677.ttf.png)
+##### Jomolhari_400Regular
+![Jomolhari_400Regular](./Jomolhari_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/jomolhari)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

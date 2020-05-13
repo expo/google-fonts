@@ -7,15 +7,13 @@
 
 This package lets you use the [**Yeseva One**](https://fonts.google.com/specimen/Yeseva+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Yeseva One
 
 ![Yeseva One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `YesevaOne_Regular400`
+- `YesevaOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { YesevaOne_Regular400, useFonts } from '@expo-google-fonts/yeseva-one';
+import { useFonts, YesevaOne_400Regular } from '@expo-google-fonts/yeseva-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    YesevaOne_Regular400,
+    YesevaOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'YesevaOne_Regular400' }}>
-          YesevaOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'YesevaOne_400Regular' }}>
+          YesevaOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### YesevaOne_Regular400
-![YesevaOne_Regular400](./326eec1af27e3634bbf470c04d8127d985571a07b5b79696eb6424489e27e106.ttf.png)
+##### YesevaOne_400Regular
+![YesevaOne_400Regular](./YesevaOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/yeseva-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

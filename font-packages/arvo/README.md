@@ -7,18 +7,16 @@
 
 This package lets you use the [**Arvo**](https://fonts.google.com/specimen/Arvo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Arvo
 
 ![Arvo](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Arvo_Regular400`
-- `Arvo_Regular400_Italic`
-- `Arvo_Bold700`
-- `Arvo_Bold700_Italic`
+- `Arvo_400Regular`
+- `Arvo_400Regular_Italic`
+- `Arvo_700Bold`
+- `Arvo_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Arvo_Regular400,
-  Arvo_Regular400_Italic,
-  Arvo_Bold700,
-  Arvo_Bold700_Italic,
   useFonts,
+  Arvo_400Regular,
+  Arvo_400Regular_Italic,
+  Arvo_700Bold,
+  Arvo_700Bold_Italic,
 } from '@expo-google-fonts/arvo';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Arvo_Regular400,
-    Arvo_Regular400_Italic,
-    Arvo_Bold700,
-    Arvo_Bold700_Italic,
+    Arvo_400Regular,
+    Arvo_400Regular_Italic,
+    Arvo_700Bold,
+    Arvo_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,18 +55,18 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arvo_Regular400' }}>
-          Arvo_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arvo_400Regular' }}>
+          Arvo_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arvo_Regular400_Italic' }}>
-          Arvo_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arvo_400Regular_Italic' }}>
+          Arvo_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arvo_Bold700' }}>Arvo_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arvo_700Bold' }}>Arvo_700Bold</Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arvo_Bold700_Italic' }}>
-          Arvo_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arvo_700Bold_Italic' }}>
+          Arvo_700Bold_Italic
         </Text>
       </View>
     );
@@ -79,17 +77,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Arvo_Regular400
-![Arvo_Regular400](./b816c4a4a7813e7daaa88e2f869b5c8acefbf8d52e00205c41d15dda95f1766c.ttf.png)
+##### Arvo_400Regular
+![Arvo_400Regular](./Arvo_400Regular.ttf.png)
 
-##### Arvo_Regular400_Italic
-![Arvo_Regular400_Italic](./5250cf6a9f89eba5cb07686924135f2bce7a6f8775a569fac7276b5c83b03db7.ttf.png)
+##### Arvo_400Regular_Italic
+![Arvo_400Regular_Italic](./Arvo_400Regular_Italic.ttf.png)
 
-##### Arvo_Bold700
-![Arvo_Bold700](./1126bb2afe7e919632493ca620fc94e998910794a9fd47d82092f6edc26f4368.ttf.png)
+##### Arvo_700Bold
+![Arvo_700Bold](./Arvo_700Bold.ttf.png)
 
-##### Arvo_Bold700_Italic
-![Arvo_Bold700_Italic](./43a330e1b8afd2c95f4f6b1c9c67ef7dfab28ed90bfb6a4551efe8480a060222.ttf.png)
+##### Arvo_700Bold_Italic
+![Arvo_700Bold_Italic](./Arvo_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -119,7 +117,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/arvo)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

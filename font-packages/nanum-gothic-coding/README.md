@@ -7,16 +7,14 @@
 
 This package lets you use the [**Nanum Gothic Coding**](https://fonts.google.com/specimen/Nanum+Gothic+Coding) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Nanum Gothic Coding
 
 ![Nanum Gothic Coding](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `NanumGothicCoding_Regular400`
-- `NanumGothicCoding_Bold700`
+- `NanumGothicCoding_400Regular`
+- `NanumGothicCoding_700Bold`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  NanumGothicCoding_Regular400,
-  NanumGothicCoding_Bold700,
   useFonts,
+  NanumGothicCoding_400Regular,
+  NanumGothicCoding_700Bold,
 } from '@expo-google-fonts/nanum-gothic-coding';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    NanumGothicCoding_Regular400,
-    NanumGothicCoding_Bold700,
+    NanumGothicCoding_400Regular,
+    NanumGothicCoding_700Bold,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NanumGothicCoding_Regular400' }}>
-          NanumGothicCoding_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NanumGothicCoding_400Regular' }}>
+          NanumGothicCoding_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NanumGothicCoding_Bold700' }}>
-          NanumGothicCoding_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NanumGothicCoding_700Bold' }}>
+          NanumGothicCoding_700Bold
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NanumGothicCoding_Regular400
-![NanumGothicCoding_Regular400](./87aa4e424fb41b2eb66974966afbb9b9d113444c73ddfec8d9960d1c9f15ca2a.ttf.png)
+##### NanumGothicCoding_400Regular
+![NanumGothicCoding_400Regular](./NanumGothicCoding_400Regular.ttf.png)
 
-##### NanumGothicCoding_Bold700
-![NanumGothicCoding_Bold700](./bfd061e7ac41bb2ac41c1b32e194b64a92ea19253afc0008d1a5e58e330434f9.ttf.png)
+##### NanumGothicCoding_700Bold
+![NanumGothicCoding_700Bold](./NanumGothicCoding_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/nanum-gothic-coding)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

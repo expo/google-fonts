@@ -4,16 +4,14 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Chakra Petch';
-export const __fontFamilyVersion__ = 3;
-
-export const ChakraPetch_Light300 = require('./ecaf4ae2d67c61e2a3fa8df13a271ccea00d43000ba74107e7bfda439f60b1d2.ttf');
-export const ChakraPetch_Light300_Italic = require('./020376f9083d9c7e6f32ecb879dee72b6fadef64ea9a3df0bd01d4952a06f1aa.ttf');
-export const ChakraPetch_Regular400 = require('./6854c9992a9a1345525235ab8e75582a0f6f3f828c37e4720a78aad1de6c0aa5.ttf');
-export const ChakraPetch_Regular400_Italic = require('./114572d34834d0022111a2a7a0eaf1d6bb7e3b70537f2c52e283219fa86ccd02.ttf');
-export const ChakraPetch_Medium500 = require('./179d4e7774a67d1c01789bcf1bf48e72fbc37fa173f3373470769b54a505ad17.ttf');
-export const ChakraPetch_Medium500_Italic = require('./f7172b64774efd15a32d833b00836c9e30c0ee766c096a08de2a427c904f5c2d.ttf');
-export const ChakraPetch_SemiBold600 = require('./a6b54f7d68496d966460fe300af5b72cc91ca631822110de9fbc976ceabb2591.ttf');
-export const ChakraPetch_SemiBold600_Italic = require('./a7a04e1ebef703c41253da2ca8a90c83a63649e471590d939c69828a0e0e591f.ttf');
-export const ChakraPetch_Bold700 = require('./e409c139ac42c535be29bfb904109788499a4b3971f95c0853dce713da259ea9.ttf');
-export const ChakraPetch_Bold700_Italic = require('./86042cd1693573443cb56c465a3f44172486eb888d707fcc03eb3dc8600008cb.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ChakraPetch_300Light = require('./ChakraPetch_300Light.ttf');
+export const ChakraPetch_300Light_Italic = require('./ChakraPetch_300Light_Italic.ttf');
+export const ChakraPetch_400Regular = require('./ChakraPetch_400Regular.ttf');
+export const ChakraPetch_400Regular_Italic = require('./ChakraPetch_400Regular_Italic.ttf');
+export const ChakraPetch_500Medium = require('./ChakraPetch_500Medium.ttf');
+export const ChakraPetch_500Medium_Italic = require('./ChakraPetch_500Medium_Italic.ttf');
+export const ChakraPetch_600SemiBold = require('./ChakraPetch_600SemiBold.ttf');
+export const ChakraPetch_600SemiBold_Italic = require('./ChakraPetch_600SemiBold_Italic.ttf');
+export const ChakraPetch_700Bold = require('./ChakraPetch_700Bold.ttf');
+export const ChakraPetch_700Bold_Italic = require('./ChakraPetch_700Bold_Italic.ttf');

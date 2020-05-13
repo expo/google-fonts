@@ -7,18 +7,16 @@
 
 This package lets you use the [**Vesper Libre**](https://fonts.google.com/specimen/Vesper+Libre) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Vesper Libre
 
 ![Vesper Libre](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `VesperLibre_Regular400`
-- `VesperLibre_Medium500`
-- `VesperLibre_Bold700`
-- `VesperLibre_Black900`
+- `VesperLibre_400Regular`
+- `VesperLibre_500Medium`
+- `VesperLibre_700Bold`
+- `VesperLibre_900Black`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  VesperLibre_Regular400,
-  VesperLibre_Medium500,
-  VesperLibre_Bold700,
-  VesperLibre_Black900,
   useFonts,
+  VesperLibre_400Regular,
+  VesperLibre_500Medium,
+  VesperLibre_700Bold,
+  VesperLibre_900Black,
 } from '@expo-google-fonts/vesper-libre';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    VesperLibre_Regular400,
-    VesperLibre_Medium500,
-    VesperLibre_Bold700,
-    VesperLibre_Black900,
+    VesperLibre_400Regular,
+    VesperLibre_500Medium,
+    VesperLibre_700Bold,
+    VesperLibre_900Black,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VesperLibre_Regular400' }}>
-          VesperLibre_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'VesperLibre_400Regular' }}>
+          VesperLibre_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VesperLibre_Medium500' }}>
-          VesperLibre_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'VesperLibre_500Medium' }}>
+          VesperLibre_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VesperLibre_Bold700' }}>
-          VesperLibre_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'VesperLibre_700Bold' }}>
+          VesperLibre_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VesperLibre_Black900' }}>
-          VesperLibre_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'VesperLibre_900Black' }}>
+          VesperLibre_900Black
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### VesperLibre_Regular400
-![VesperLibre_Regular400](./23ebf9650e07e0d9fc46ae2eba26ac2ec4ce96fb1c5dfe8d1e68697caa450075.ttf.png)
+##### VesperLibre_400Regular
+![VesperLibre_400Regular](./VesperLibre_400Regular.ttf.png)
 
-##### VesperLibre_Medium500
-![VesperLibre_Medium500](./0d1943717826e25f00193643ca5cef6a8e84d9949f43eea2e7fcbbcf7eac6472.ttf.png)
+##### VesperLibre_500Medium
+![VesperLibre_500Medium](./VesperLibre_500Medium.ttf.png)
 
-##### VesperLibre_Bold700
-![VesperLibre_Bold700](./c45aa4f922411d07c89ae4f96d05177e84e280aecdda0fdee999b1a617b4c1ce.ttf.png)
+##### VesperLibre_700Bold
+![VesperLibre_700Bold](./VesperLibre_700Bold.ttf.png)
 
-##### VesperLibre_Black900
-![VesperLibre_Black900](./0f6179f3446d68f20aa486aed461cc68f86028fd02217a13559a2bf5c3e60702.ttf.png)
+##### VesperLibre_900Black
+![VesperLibre_900Black](./VesperLibre_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/vesper-libre)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

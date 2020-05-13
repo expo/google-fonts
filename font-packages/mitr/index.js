@@ -4,12 +4,10 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Mitr';
-export const __fontFamilyVersion__ = 2;
-
-export const Mitr_ExtraLight200 = require('./13aa43b100ddb2ef3f574409c44d5148c96e262d636030f3546632afc8bec583.ttf');
-export const Mitr_Light300 = require('./42aaeccd38bab09aab541391f181cf90544aed031b28240064e03a597d820aff.ttf');
-export const Mitr_Regular400 = require('./51a838bb86fd8ae3d3b14861b86090b8e590d6cec16828f5ff85cc29e255fdd4.ttf');
-export const Mitr_Medium500 = require('./a8c0fad121eecc6ccc06afd51a3ed04b7632eabd778490fabe406d010d492fb6.ttf');
-export const Mitr_SemiBold600 = require('./f52b41a04226fd35e8292e4074e68cf18847a0b362d1ea41038b6cebcad7953c.ttf');
-export const Mitr_Bold700 = require('./302b58d18b982fe3745338cc6ea87e5868436d2ba962262423c98cac9d161c47.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Mitr_200ExtraLight = require('./Mitr_200ExtraLight.ttf');
+export const Mitr_300Light = require('./Mitr_300Light.ttf');
+export const Mitr_400Regular = require('./Mitr_400Regular.ttf');
+export const Mitr_500Medium = require('./Mitr_500Medium.ttf');
+export const Mitr_600SemiBold = require('./Mitr_600SemiBold.ttf');
+export const Mitr_700Bold = require('./Mitr_700Bold.ttf');

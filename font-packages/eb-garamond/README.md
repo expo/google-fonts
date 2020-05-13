@@ -7,15 +7,22 @@
 
 This package lets you use the [**EB Garamond**](https://fonts.google.com/specimen/EB+Garamond) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## EB Garamond
 
 ![EB Garamond](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [10 styles](#-gallery).
 
-- `EBGaramond_Regular400`
+- `EBGaramond_400Regular`
+- `EBGaramond_500Medium`
+- `EBGaramond_600SemiBold`
+- `EBGaramond_700Bold`
+- `EBGaramond_800ExtraBold`
+- `EBGaramond_400Regular_Italic`
+- `EBGaramond_500Medium_Italic`
+- `EBGaramond_600SemiBold_Italic`
+- `EBGaramond_700Bold_Italic`
+- `EBGaramond_800ExtraBold_Italic`
 
 ## Usage
 
@@ -30,11 +37,32 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { EBGaramond_Regular400, useFonts } from '@expo-google-fonts/eb-garamond';
+import {
+  useFonts,
+  EBGaramond_400Regular,
+  EBGaramond_500Medium,
+  EBGaramond_600SemiBold,
+  EBGaramond_700Bold,
+  EBGaramond_800ExtraBold,
+  EBGaramond_400Regular_Italic,
+  EBGaramond_500Medium_Italic,
+  EBGaramond_600SemiBold_Italic,
+  EBGaramond_700Bold_Italic,
+  EBGaramond_800ExtraBold_Italic,
+} from '@expo-google-fonts/eb-garamond';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    EBGaramond_Regular400,
+    EBGaramond_400Regular,
+    EBGaramond_500Medium,
+    EBGaramond_600SemiBold,
+    EBGaramond_700Bold,
+    EBGaramond_800ExtraBold,
+    EBGaramond_400Regular_Italic,
+    EBGaramond_500Medium_Italic,
+    EBGaramond_600SemiBold_Italic,
+    EBGaramond_700Bold_Italic,
+    EBGaramond_800ExtraBold_Italic,
   });
 
   let fontSize = 24;
@@ -45,8 +73,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_Regular400' }}>
-          EBGaramond_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_400Regular' }}>
+          EBGaramond_400Regular
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_500Medium' }}>
+          EBGaramond_500Medium
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_600SemiBold' }}>
+          EBGaramond_600SemiBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_700Bold' }}>
+          EBGaramond_700Bold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_800ExtraBold' }}>
+          EBGaramond_800ExtraBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_400Regular_Italic' }}>
+          EBGaramond_400Regular_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_500Medium_Italic' }}>
+          EBGaramond_500Medium_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_600SemiBold_Italic' }}>
+          EBGaramond_600SemiBold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_700Bold_Italic' }}>
+          EBGaramond_700Bold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_800ExtraBold_Italic' }}>
+          EBGaramond_800ExtraBold_Italic
         </Text>
       </View>
     );
@@ -57,8 +121,35 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### EBGaramond_Regular400
-![EBGaramond_Regular400](./45b9fd8b021be544bd8edb0bce9007faafdc3029fdb0f19e4deb80b50e9c4adb.ttf.png)
+##### EBGaramond_400Regular
+![EBGaramond_400Regular](./EBGaramond_400Regular.ttf.png)
+
+##### EBGaramond_500Medium
+![EBGaramond_500Medium](./EBGaramond_500Medium.ttf.png)
+
+##### EBGaramond_600SemiBold
+![EBGaramond_600SemiBold](./EBGaramond_600SemiBold.ttf.png)
+
+##### EBGaramond_700Bold
+![EBGaramond_700Bold](./EBGaramond_700Bold.ttf.png)
+
+##### EBGaramond_800ExtraBold
+![EBGaramond_800ExtraBold](./EBGaramond_800ExtraBold.ttf.png)
+
+##### EBGaramond_400Regular_Italic
+![EBGaramond_400Regular_Italic](./EBGaramond_400Regular_Italic.ttf.png)
+
+##### EBGaramond_500Medium_Italic
+![EBGaramond_500Medium_Italic](./EBGaramond_500Medium_Italic.ttf.png)
+
+##### EBGaramond_600SemiBold_Italic
+![EBGaramond_600SemiBold_Italic](./EBGaramond_600SemiBold_Italic.ttf.png)
+
+##### EBGaramond_700Bold_Italic
+![EBGaramond_700Bold_Italic](./EBGaramond_700Bold_Italic.ttf.png)
+
+##### EBGaramond_800ExtraBold_Italic
+![EBGaramond_800ExtraBold_Italic](./EBGaramond_800ExtraBold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +179,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/eb-garamond)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

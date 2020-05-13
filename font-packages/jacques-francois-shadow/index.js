@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Jacques Francois Shadow';
-export const __fontFamilyVersion__ = 4;
-
-export const JacquesFrancoisShadow_Regular400 = require('./e4664490f27116a48b79a15fc06c1817e3669ac1d3ee0e65f80b093997b5e935.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const JacquesFrancoisShadow_400Regular = require('./JacquesFrancoisShadow_400Regular.ttf');

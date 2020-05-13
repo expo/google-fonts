@@ -7,17 +7,15 @@
 
 This package lets you use the [**Passion One**](https://fonts.google.com/specimen/Passion+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Passion One
 
 ![Passion One](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `PassionOne_Regular400`
-- `PassionOne_Bold700`
-- `PassionOne_Black900`
+- `PassionOne_400Regular`
+- `PassionOne_700Bold`
+- `PassionOne_900Black`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  PassionOne_Regular400,
-  PassionOne_Bold700,
-  PassionOne_Black900,
   useFonts,
+  PassionOne_400Regular,
+  PassionOne_700Bold,
+  PassionOne_900Black,
 } from '@expo-google-fonts/passion-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    PassionOne_Regular400,
-    PassionOne_Bold700,
-    PassionOne_Black900,
+    PassionOne_400Regular,
+    PassionOne_700Bold,
+    PassionOne_900Black,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PassionOne_Regular400' }}>
-          PassionOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PassionOne_400Regular' }}>
+          PassionOne_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PassionOne_Bold700' }}>
-          PassionOne_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PassionOne_700Bold' }}>
+          PassionOne_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PassionOne_Black900' }}>
-          PassionOne_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PassionOne_900Black' }}>
+          PassionOne_900Black
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PassionOne_Regular400
-![PassionOne_Regular400](./1f9e3f81509fa1087e3a4636d898f6ce048f4953bf6c06a6d79d9cb78115c03d.ttf.png)
+##### PassionOne_400Regular
+![PassionOne_400Regular](./PassionOne_400Regular.ttf.png)
 
-##### PassionOne_Bold700
-![PassionOne_Bold700](./567181e9763fb8cb33a51945378a8a2756c423cb05608d37fdc2e0d8ff170fa1.ttf.png)
+##### PassionOne_700Bold
+![PassionOne_700Bold](./PassionOne_700Bold.ttf.png)
 
-##### PassionOne_Black900
-![PassionOne_Black900](./351dd38c35e67c20b4ae84db1964391fd924cd245611616eacaf6b9e63113442.ttf.png)
+##### PassionOne_900Black
+![PassionOne_900Black](./PassionOne_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/passion-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

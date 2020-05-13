@@ -7,18 +7,16 @@
 
 This package lets you use the [**Anonymous Pro**](https://fonts.google.com/specimen/Anonymous+Pro) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Anonymous Pro
 
 ![Anonymous Pro](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `AnonymousPro_Regular400`
-- `AnonymousPro_Regular400_Italic`
-- `AnonymousPro_Bold700`
-- `AnonymousPro_Bold700_Italic`
+- `AnonymousPro_400Regular`
+- `AnonymousPro_400Regular_Italic`
+- `AnonymousPro_700Bold`
+- `AnonymousPro_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  AnonymousPro_Regular400,
-  AnonymousPro_Regular400_Italic,
-  AnonymousPro_Bold700,
-  AnonymousPro_Bold700_Italic,
   useFonts,
+  AnonymousPro_400Regular,
+  AnonymousPro_400Regular_Italic,
+  AnonymousPro_700Bold,
+  AnonymousPro_700Bold_Italic,
 } from '@expo-google-fonts/anonymous-pro';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    AnonymousPro_Regular400,
-    AnonymousPro_Regular400_Italic,
-    AnonymousPro_Bold700,
-    AnonymousPro_Bold700_Italic,
+    AnonymousPro_400Regular,
+    AnonymousPro_400Regular_Italic,
+    AnonymousPro_700Bold,
+    AnonymousPro_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AnonymousPro_Regular400' }}>
-          AnonymousPro_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AnonymousPro_400Regular' }}>
+          AnonymousPro_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AnonymousPro_Regular400_Italic' }}>
-          AnonymousPro_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AnonymousPro_400Regular_Italic' }}>
+          AnonymousPro_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AnonymousPro_Bold700' }}>
-          AnonymousPro_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AnonymousPro_700Bold' }}>
+          AnonymousPro_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AnonymousPro_Bold700_Italic' }}>
-          AnonymousPro_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AnonymousPro_700Bold_Italic' }}>
+          AnonymousPro_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AnonymousPro_Regular400
-![AnonymousPro_Regular400](./9ca7beef0b5eb5c9e72533cd45bc1e4f41c8272dc2335f22d3649e32a795995f.ttf.png)
+##### AnonymousPro_400Regular
+![AnonymousPro_400Regular](./AnonymousPro_400Regular.ttf.png)
 
-##### AnonymousPro_Regular400_Italic
-![AnonymousPro_Regular400_Italic](./71ce3ee6476a91f9e89e9f8010d9ea13314306b645af3e8d7b7add697e6f0d3e.ttf.png)
+##### AnonymousPro_400Regular_Italic
+![AnonymousPro_400Regular_Italic](./AnonymousPro_400Regular_Italic.ttf.png)
 
-##### AnonymousPro_Bold700
-![AnonymousPro_Bold700](./d00937283f3b530bee6700e02cfabfbb96b833d42559d48fc5fdfcfde2ff5b39.ttf.png)
+##### AnonymousPro_700Bold
+![AnonymousPro_700Bold](./AnonymousPro_700Bold.ttf.png)
 
-##### AnonymousPro_Bold700_Italic
-![AnonymousPro_Bold700_Italic](./60f1f3cae99bbc1323cdcdf9af6a0127d5b4684ef675e6836fa3034a297dc16a.ttf.png)
+##### AnonymousPro_700Bold_Italic
+![AnonymousPro_700Bold_Italic](./AnonymousPro_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/anonymous-pro)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

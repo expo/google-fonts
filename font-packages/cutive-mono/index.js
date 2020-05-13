@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Cutive Mono';
-export const __fontFamilyVersion__ = 5;
-
-export const CutiveMono_Regular400 = require('./0582d0fd288afe72a3eeebdace411705bd456580eb96ee5ef7214afd771ebfce.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const CutiveMono_400Regular = require('./CutiveMono_400Regular.ttf');

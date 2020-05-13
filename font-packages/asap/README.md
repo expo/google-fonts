@@ -7,20 +7,20 @@
 
 This package lets you use the [**Asap**](https://fonts.google.com/specimen/Asap) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Asap
 
 ![Asap](./font-family.png)
 
-This font family contains [6 styles](#-gallery).
+This font family contains [8 styles](#-gallery).
 
-- `Asap_Regular400`
-- `Asap_Regular400_Italic`
-- `Asap_Medium500`
-- `Asap_Medium500_Italic`
-- `Asap_Bold700`
-- `Asap_Bold700_Italic`
+- `Asap_400Regular`
+- `Asap_400Regular_Italic`
+- `Asap_500Medium`
+- `Asap_500Medium_Italic`
+- `Asap_600SemiBold`
+- `Asap_600SemiBold_Italic`
+- `Asap_700Bold`
+- `Asap_700Bold_Italic`
 
 ## Usage
 
@@ -36,23 +36,27 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Asap_Regular400,
-  Asap_Regular400_Italic,
-  Asap_Medium500,
-  Asap_Medium500_Italic,
-  Asap_Bold700,
-  Asap_Bold700_Italic,
   useFonts,
+  Asap_400Regular,
+  Asap_400Regular_Italic,
+  Asap_500Medium,
+  Asap_500Medium_Italic,
+  Asap_600SemiBold,
+  Asap_600SemiBold_Italic,
+  Asap_700Bold,
+  Asap_700Bold_Italic,
 } from '@expo-google-fonts/asap';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Asap_Regular400,
-    Asap_Regular400_Italic,
-    Asap_Medium500,
-    Asap_Medium500_Italic,
-    Asap_Bold700,
-    Asap_Bold700_Italic,
+    Asap_400Regular,
+    Asap_400Regular_Italic,
+    Asap_500Medium,
+    Asap_500Medium_Italic,
+    Asap_600SemiBold,
+    Asap_600SemiBold_Italic,
+    Asap_700Bold,
+    Asap_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -63,26 +67,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asap_Regular400' }}>
-          Asap_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asap_400Regular' }}>
+          Asap_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asap_Regular400_Italic' }}>
-          Asap_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asap_400Regular_Italic' }}>
+          Asap_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asap_Medium500' }}>
-          Asap_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asap_500Medium' }}>
+          Asap_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asap_Medium500_Italic' }}>
-          Asap_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asap_500Medium_Italic' }}>
+          Asap_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asap_Bold700' }}>Asap_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asap_600SemiBold' }}>
+          Asap_600SemiBold
+        </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asap_Bold700_Italic' }}>
-          Asap_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asap_600SemiBold_Italic' }}>
+          Asap_600SemiBold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asap_700Bold' }}>Asap_700Bold</Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Asap_700Bold_Italic' }}>
+          Asap_700Bold_Italic
         </Text>
       </View>
     );
@@ -93,23 +105,29 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Asap_Regular400
-![Asap_Regular400](./3424989c5e2512f04cbd78fd70665961847d7307eb5d795caadac8db451f74cc.ttf.png)
+##### Asap_400Regular
+![Asap_400Regular](./Asap_400Regular.ttf.png)
 
-##### Asap_Regular400_Italic
-![Asap_Regular400_Italic](./6286c24191501089796508556c20c3086610ae6aeb56d9aadceaaa0b7d825c51.ttf.png)
+##### Asap_400Regular_Italic
+![Asap_400Regular_Italic](./Asap_400Regular_Italic.ttf.png)
 
-##### Asap_Medium500
-![Asap_Medium500](./c7034a58c9a896f74c127472a7085dbd1d6bfb6fd2cafb4140dfde291f0bc399.ttf.png)
+##### Asap_500Medium
+![Asap_500Medium](./Asap_500Medium.ttf.png)
 
-##### Asap_Medium500_Italic
-![Asap_Medium500_Italic](./13483b794adc9a08424049bbf8e6a03b399069e87c0c4d01777ae17c3328de81.ttf.png)
+##### Asap_500Medium_Italic
+![Asap_500Medium_Italic](./Asap_500Medium_Italic.ttf.png)
 
-##### Asap_Bold700
-![Asap_Bold700](./835a74fedec5a1877e092c739d9f213a3e41860462c70437da2465b5f99ea073.ttf.png)
+##### Asap_600SemiBold
+![Asap_600SemiBold](./Asap_600SemiBold.ttf.png)
 
-##### Asap_Bold700_Italic
-![Asap_Bold700_Italic](./ce966470982f0031860428bc4a47e41d80471ac70ccc857fac1e948d6c964eb7.ttf.png)
+##### Asap_600SemiBold_Italic
+![Asap_600SemiBold_Italic](./Asap_600SemiBold_Italic.ttf.png)
+
+##### Asap_700Bold
+![Asap_700Bold](./Asap_700Bold.ttf.png)
+
+##### Asap_700Bold_Italic
+![Asap_700Bold_Italic](./Asap_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -139,7 +157,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/asap)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

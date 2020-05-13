@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Allerta Stencil';
-export const __fontFamilyVersion__ = 7;
-
-export const AllertaStencil_Regular400 = require('./d43b315a156fb147d0bcd2dad6a682e5a23d388f0d12365c29c2d46fbf1e2c96.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const AllertaStencil_400Regular = require('./AllertaStencil_400Regular.ttf');

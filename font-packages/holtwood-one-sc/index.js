@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Holtwood One SC';
-export const __fontFamilyVersion__ = 7;
-
-export const HoltwoodOneSC_Regular400 = require('./e13ec5f1ab20c1d4d3cd916510331011904e2d9a5083dff4b0bdfa42c86a4eac.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const HoltwoodOneSC_400Regular = require('./HoltwoodOneSC_400Regular.ttf');

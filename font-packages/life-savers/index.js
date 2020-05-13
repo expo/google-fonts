@@ -4,8 +4,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Life Savers';
-export const __fontFamilyVersion__ = 6;
-
-export const LifeSavers_Regular400 = require('./04d39ceac525bd7119947e50ca506cd62efc8803e38347a7b1d07e401463bcee.ttf');
-export const LifeSavers_Bold700 = require('./362b7da392f70200e34ca8d939a7739b45fdd4cb54b9aee41f6a1db39d13a08b.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const LifeSavers_400Regular = require('./LifeSavers_400Regular.ttf');
+export const LifeSavers_700Bold = require('./LifeSavers_700Bold.ttf');
+export const LifeSavers_800ExtraBold = require('./LifeSavers_800ExtraBold.ttf');

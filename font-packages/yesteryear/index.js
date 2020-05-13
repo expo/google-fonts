@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Yesteryear';
-export const __fontFamilyVersion__ = 5;
-
-export const Yesteryear_Regular400 = require('./de930d7a2b4adea15c08668114a1672322e74ae93b6b134e78a953c6789ea86d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Yesteryear_400Regular = require('./Yesteryear_400Regular.ttf');

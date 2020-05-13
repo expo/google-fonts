@@ -27,10 +27,10 @@ let WeightNames = {
 };
 
 let ProjectRootDir = path.join(__dirname, '..', '..');
-let FontPackagesDir = path.join(ProjectRootDir, 'dist2', 'font-packages');
-let FontAssetsDir = path.join(ProjectRootDir, 'dist2', 'font-assets');
-let FontImagesDir = path.join(ProjectRootDir, 'dist2', 'font-images');
-let FontDirectoryPackageDir = path.join(ProjectRootDir, 'dist2', 'font-packages', 'font-directory');
+let FontPackagesDir = path.join(ProjectRootDir, 'font-packages');
+let FontAssetsDir = path.join(ProjectRootDir, 'font-assets');
+let FontImagesDir = path.join(ProjectRootDir, 'font-images');
+let FontDirectoryPackageDir = path.join(ProjectRootDir, 'font-packages', 'font-directory');
 let DevPackageDir = path.join(FontPackagesDir, 'dev');
 
 let PackageScope = '@expo-google-fonts/';
@@ -56,17 +56,20 @@ let CPUBoundConcurrency = Math.max(1, physicalCpuCount - 1);
 let NetworkBoundConcurrency = 12;
 let IOBoundConcurrency = 2;
 
-async function main({ images } = { images: true }) {
+async function main({ images, download } = { images: true, download: true }) {
   console.log('Getting directory');
   let fontDirectory = await getDirectory();
   console.log('done.');
 
-  console.log('Downloading all fonts...');
-  await downloadAllFonts(fontDirectory);
-  console.log('done.');
+  if (download) {
+    console.log('Downloading all fonts...');
+    await downloadAllFonts(fontDirectory);
+    console.log('done.');
+  }
 
   if (images) {
     console.log('Generating image previews for all fonts...');
+    await generateImagesForFonts(fontDirectory);
     console.log('done.');
   }
 
@@ -274,7 +277,7 @@ async function generateAllFontPackages(fontDirectory) {
 
   let webfontCount = fontDirectory.items.length;
 
-  let concurrency = IOBoundConcurrency;
+  let concurrency = CPUBoundConcurrency;
 
   let bar = new cliProgress.SingleBar(
     {
@@ -724,7 +727,7 @@ async function generateRootReadme(fontDirectory) {
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 
 The \`@expo-google-fonts\` packages for Expo allow you to easily use 
-any of ${fontDirectory.family.length} fonts (and their variants) from 
+any of ${fontDirectory.items.length} fonts (and their variants) from 
 [fonts.google.com](https://fonts.google.com) in your Expo app.
 
 These packages and all these fonts work across web, iOS, and Android.
@@ -802,7 +805,7 @@ You can check out [the gallery for this project](./GALLERY.md) to see all of the
 
 ## 👩‍💻 @expo-google-fonts/dev
 
-${devPackageMarkdown}
+${DevPackageMarkdown}
 
 ## 📖 Licensing
 
@@ -869,7 +872,7 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
   for (let fontName of featuredFonts) {
     for (let webfont of fontDirectory.items) {
       if (webfont.family === fontName) {
-        featured.push(family);
+        featured.push(webfont);
       }
     }
   }
@@ -885,10 +888,14 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
       let webfont = featured.shift();
       let variantKey = getDefaultVariantKeyForWebfont(webfont);
       let styleImagePath =
-        './font-packages/' + getPackageNameForWebfont(webfont) + '/' + filenameForFontVariant(webfont, font) + '.png';
-      let packageName = getPackageNameForFamily(family);
-      md += `[![${varNameForFamily(
-        family
+        './font-packages/' +
+        getPackageNameForWebfont(webfont) +
+        '/' +
+        filenameForFontVariant(webfont, variantKey) +
+        '.png';
+      let packageName = getPackageNameForWebfont(webfont);
+      md += `[![${varNameForWebfont(
+        webfont
       )}](${styleImagePath})](https://github.com/expo/google-fonts/tree/master/font-packages/${packageName}#readme)|`;
     }
     md += '\n';
@@ -928,6 +935,10 @@ let t = {
     let d = await getDirectory();
     return await generateFontDirectoryPackage(d);
   },
+  generateRootReadme: async () => {
+    let d = await getDirectory();
+    return await generateRootReadme(d);
+  },
 };
 
 module.exports = {
@@ -944,6 +955,7 @@ module.exports = {
   getDefaultVariantKeyForWebfont,
   generateFontPackage,
   generatePackageHeaderImage,
+  generateRootReadme,
 };
 
 if (require.main === module) {

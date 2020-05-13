@@ -4,16 +4,14 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Rubik';
-export const __fontFamilyVersion__ = 7;
-
-export const Rubik_Light300 = require('./d06ee1ddd9a38ecea7c204c94d69e670e155c7e5f6b9ca5bdbbc851871397569.ttf');
-export const Rubik_Light300_Italic = require('./39eb0e8cc0f4f0f949cd7ab1192004ad43fa616ab0ba09ba2f1c5e975b6ed29f.ttf');
-export const Rubik_Regular400 = require('./1441b864d5f661c6ad072120b1ee340e6c799fab34f7d408ec3fbf11f41f3ea0.ttf');
-export const Rubik_Regular400_Italic = require('./1daca2e29940a75b3f1d4f3d7bb0356f63332d3013133093e3a75295dcdaf781.ttf');
-export const Rubik_Medium500 = require('./334711470701a9df2e7c93bcc418d6d16e8844ed0bf4ae4411f588cdb913869a.ttf');
-export const Rubik_Medium500_Italic = require('./131d5d182158888dbccfcf0de7726b6a878bdb7eb60bbc96fb8a42561abc6b8c.ttf');
-export const Rubik_Bold700 = require('./395804d64aff5eda80de3c9e8fc2ffe482af2f6483707546f9fb8c3b14e747d9.ttf');
-export const Rubik_Bold700_Italic = require('./7dc9a621668992ae25fd33cb83bc658c0bd8e2068c92524544164c3ba79737b6.ttf');
-export const Rubik_Black900 = require('./f660cd5e361c3f00ea913d713f53325c9248887d961ee7a130335fc796750fff.ttf');
-export const Rubik_Black900_Italic = require('./1e373f9418d94e2ae6e4b31972520bf13c7b93e0811f8621d0ce8d72e0576c9b.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Rubik_300Light = require('./Rubik_300Light.ttf');
+export const Rubik_300Light_Italic = require('./Rubik_300Light_Italic.ttf');
+export const Rubik_400Regular = require('./Rubik_400Regular.ttf');
+export const Rubik_400Regular_Italic = require('./Rubik_400Regular_Italic.ttf');
+export const Rubik_500Medium = require('./Rubik_500Medium.ttf');
+export const Rubik_500Medium_Italic = require('./Rubik_500Medium_Italic.ttf');
+export const Rubik_700Bold = require('./Rubik_700Bold.ttf');
+export const Rubik_700Bold_Italic = require('./Rubik_700Bold_Italic.ttf');
+export const Rubik_900Black = require('./Rubik_900Black.ttf');
+export const Rubik_900Black_Italic = require('./Rubik_900Black_Italic.ttf');

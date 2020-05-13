@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Nova Slim';
-export const __fontFamilyVersion__ = 8;
-
-export const NovaSlim_Regular400 = require('./1b56497df8d2fd1b918c16eb9ff0e33f3d57c66a8c3b83e0d23aa0124ae67ca5.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const NovaSlim_400Regular = require('./NovaSlim_400Regular.ttf');

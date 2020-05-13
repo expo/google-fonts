@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Yatra One';
-export const __fontFamilyVersion__ = 3;
-
-export const YatraOne_Regular400 = require('./91d2a8a128a89559c899d8149591b1704546ba00b04c2d0f50dd252f57a00bfb.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const YatraOne_400Regular = require('./YatraOne_400Regular.ttf');

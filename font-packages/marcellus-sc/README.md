@@ -7,15 +7,13 @@
 
 This package lets you use the [**Marcellus SC**](https://fonts.google.com/specimen/Marcellus+SC) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Marcellus SC
 
 ![Marcellus SC](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `MarcellusSC_Regular400`
+- `MarcellusSC_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { MarcellusSC_Regular400, useFonts } from '@expo-google-fonts/marcellus-sc';
+import { useFonts, MarcellusSC_400Regular } from '@expo-google-fonts/marcellus-sc';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MarcellusSC_Regular400,
+    MarcellusSC_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MarcellusSC_Regular400' }}>
-          MarcellusSC_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MarcellusSC_400Regular' }}>
+          MarcellusSC_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MarcellusSC_Regular400
-![MarcellusSC_Regular400](./7c5ce48eb9c8ceab009d792056be549983c1b1322fca2784a6e75e7579b347f9.ttf.png)
+##### MarcellusSC_400Regular
+![MarcellusSC_400Regular](./MarcellusSC_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/marcellus-sc)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

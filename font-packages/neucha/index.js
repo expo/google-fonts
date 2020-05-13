@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Neucha';
-export const __fontFamilyVersion__ = 8;
-
-export const Neucha_Regular400 = require('./1e6e5577b90d7925c65ee7e36c988d5da0c8abd382abf4f7d7a5cbc0ab477a99.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Neucha_400Regular = require('./Neucha_400Regular.ttf');

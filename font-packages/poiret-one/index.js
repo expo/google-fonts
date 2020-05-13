@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Poiret One';
-export const __fontFamilyVersion__ = 4;
-
-export const PoiretOne_Regular400 = require('./67bb327af0416e138d92e1fea7c569a19a5c981b0997edee4464ad15cd4ce9f7.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const PoiretOne_400Regular = require('./PoiretOne_400Regular.ttf');

@@ -7,23 +7,21 @@
 
 This package lets you use the [**Encode Sans Expanded**](https://fonts.google.com/specimen/Encode+Sans+Expanded) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Encode Sans Expanded
 
 ![Encode Sans Expanded](./font-family.png)
 
 This font family contains [9 styles](#-gallery).
 
-- `EncodeSansExpanded_Thin100`
-- `EncodeSansExpanded_ExtraLight200`
-- `EncodeSansExpanded_Light300`
-- `EncodeSansExpanded_Regular400`
-- `EncodeSansExpanded_Medium500`
-- `EncodeSansExpanded_SemiBold600`
-- `EncodeSansExpanded_Bold700`
-- `EncodeSansExpanded_ExtraBold800`
-- `EncodeSansExpanded_Black900`
+- `EncodeSansExpanded_100Thin`
+- `EncodeSansExpanded_200ExtraLight`
+- `EncodeSansExpanded_300Light`
+- `EncodeSansExpanded_400Regular`
+- `EncodeSansExpanded_500Medium`
+- `EncodeSansExpanded_600SemiBold`
+- `EncodeSansExpanded_700Bold`
+- `EncodeSansExpanded_800ExtraBold`
+- `EncodeSansExpanded_900Black`
 
 ## Usage
 
@@ -39,29 +37,29 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  EncodeSansExpanded_Thin100,
-  EncodeSansExpanded_ExtraLight200,
-  EncodeSansExpanded_Light300,
-  EncodeSansExpanded_Regular400,
-  EncodeSansExpanded_Medium500,
-  EncodeSansExpanded_SemiBold600,
-  EncodeSansExpanded_Bold700,
-  EncodeSansExpanded_ExtraBold800,
-  EncodeSansExpanded_Black900,
   useFonts,
+  EncodeSansExpanded_100Thin,
+  EncodeSansExpanded_200ExtraLight,
+  EncodeSansExpanded_300Light,
+  EncodeSansExpanded_400Regular,
+  EncodeSansExpanded_500Medium,
+  EncodeSansExpanded_600SemiBold,
+  EncodeSansExpanded_700Bold,
+  EncodeSansExpanded_800ExtraBold,
+  EncodeSansExpanded_900Black,
 } from '@expo-google-fonts/encode-sans-expanded';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    EncodeSansExpanded_Thin100,
-    EncodeSansExpanded_ExtraLight200,
-    EncodeSansExpanded_Light300,
-    EncodeSansExpanded_Regular400,
-    EncodeSansExpanded_Medium500,
-    EncodeSansExpanded_SemiBold600,
-    EncodeSansExpanded_Bold700,
-    EncodeSansExpanded_ExtraBold800,
-    EncodeSansExpanded_Black900,
+    EncodeSansExpanded_100Thin,
+    EncodeSansExpanded_200ExtraLight,
+    EncodeSansExpanded_300Light,
+    EncodeSansExpanded_400Regular,
+    EncodeSansExpanded_500Medium,
+    EncodeSansExpanded_600SemiBold,
+    EncodeSansExpanded_700Bold,
+    EncodeSansExpanded_800ExtraBold,
+    EncodeSansExpanded_900Black,
   });
 
   let fontSize = 24;
@@ -72,40 +70,40 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_Thin100' }}>
-          EncodeSansExpanded_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_100Thin' }}>
+          EncodeSansExpanded_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_ExtraLight200' }}>
-          EncodeSansExpanded_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_200ExtraLight' }}>
+          EncodeSansExpanded_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_Light300' }}>
-          EncodeSansExpanded_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_300Light' }}>
+          EncodeSansExpanded_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_Regular400' }}>
-          EncodeSansExpanded_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_400Regular' }}>
+          EncodeSansExpanded_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_Medium500' }}>
-          EncodeSansExpanded_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_500Medium' }}>
+          EncodeSansExpanded_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_SemiBold600' }}>
-          EncodeSansExpanded_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_600SemiBold' }}>
+          EncodeSansExpanded_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_Bold700' }}>
-          EncodeSansExpanded_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_700Bold' }}>
+          EncodeSansExpanded_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_ExtraBold800' }}>
-          EncodeSansExpanded_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_800ExtraBold' }}>
+          EncodeSansExpanded_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_Black900' }}>
-          EncodeSansExpanded_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansExpanded_900Black' }}>
+          EncodeSansExpanded_900Black
         </Text>
       </View>
     );
@@ -116,32 +114,32 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### EncodeSansExpanded_Thin100
-![EncodeSansExpanded_Thin100](./380345d9f11a5d51121f04ec7692992b4393552df2a3a7d880f4fee2445141d0.ttf.png)
+##### EncodeSansExpanded_100Thin
+![EncodeSansExpanded_100Thin](./EncodeSansExpanded_100Thin.ttf.png)
 
-##### EncodeSansExpanded_ExtraLight200
-![EncodeSansExpanded_ExtraLight200](./4a7de0181c2afd610c6c4f4cdd0c1b277e273ce075ebc1aeac436fad20e45419.ttf.png)
+##### EncodeSansExpanded_200ExtraLight
+![EncodeSansExpanded_200ExtraLight](./EncodeSansExpanded_200ExtraLight.ttf.png)
 
-##### EncodeSansExpanded_Light300
-![EncodeSansExpanded_Light300](./9b50fe9a059788e12206f492db451f122f3ae30e6b8aa5944b51f4fa9b128373.ttf.png)
+##### EncodeSansExpanded_300Light
+![EncodeSansExpanded_300Light](./EncodeSansExpanded_300Light.ttf.png)
 
-##### EncodeSansExpanded_Regular400
-![EncodeSansExpanded_Regular400](./f2fa9b86d419104b4b7ab7aa2d8507d9998032c843e7127317c103b55c3900c3.ttf.png)
+##### EncodeSansExpanded_400Regular
+![EncodeSansExpanded_400Regular](./EncodeSansExpanded_400Regular.ttf.png)
 
-##### EncodeSansExpanded_Medium500
-![EncodeSansExpanded_Medium500](./9ec9211a546cbefbb5fdbdca840aa8782bdbfdef2bc24a03e769b5676d869dd1.ttf.png)
+##### EncodeSansExpanded_500Medium
+![EncodeSansExpanded_500Medium](./EncodeSansExpanded_500Medium.ttf.png)
 
-##### EncodeSansExpanded_SemiBold600
-![EncodeSansExpanded_SemiBold600](./57adaf522bbff1044518d732d894dc3b9619455577129c3806e15c41ab7a0cf0.ttf.png)
+##### EncodeSansExpanded_600SemiBold
+![EncodeSansExpanded_600SemiBold](./EncodeSansExpanded_600SemiBold.ttf.png)
 
-##### EncodeSansExpanded_Bold700
-![EncodeSansExpanded_Bold700](./4ff65de1f2f27bec57c2af88329ff74b61c90a349cda06d054d87125aa4d4588.ttf.png)
+##### EncodeSansExpanded_700Bold
+![EncodeSansExpanded_700Bold](./EncodeSansExpanded_700Bold.ttf.png)
 
-##### EncodeSansExpanded_ExtraBold800
-![EncodeSansExpanded_ExtraBold800](./93137f85c3ca94e2b0d5d2501170e4b955208bf20d99d3279a12420033315efe.ttf.png)
+##### EncodeSansExpanded_800ExtraBold
+![EncodeSansExpanded_800ExtraBold](./EncodeSansExpanded_800ExtraBold.ttf.png)
 
-##### EncodeSansExpanded_Black900
-![EncodeSansExpanded_Black900](./bc58d2db7b8afc49e3bc54a2ffd46ce334497d9361768e992654a18428895228.ttf.png)
+##### EncodeSansExpanded_900Black
+![EncodeSansExpanded_900Black](./EncodeSansExpanded_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -171,7 +169,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/encode-sans-expanded)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

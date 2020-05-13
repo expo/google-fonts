@@ -7,15 +7,13 @@
 
 This package lets you use the [**Flavors**](https://fonts.google.com/specimen/Flavors) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Flavors
 
 ![Flavors](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Flavors_Regular400`
+- `Flavors_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Flavors_Regular400, useFonts } from '@expo-google-fonts/flavors';
+import { useFonts, Flavors_400Regular } from '@expo-google-fonts/flavors';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Flavors_Regular400,
+    Flavors_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Flavors_Regular400' }}>
-          Flavors_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Flavors_400Regular' }}>
+          Flavors_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Flavors_Regular400
-![Flavors_Regular400](./f56d6a319c30faa62651b4a9fde87c7e4a496c678e7fb6642dccfa9c815d29dd.ttf.png)
+##### Flavors_400Regular
+![Flavors_400Regular](./Flavors_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/flavors)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

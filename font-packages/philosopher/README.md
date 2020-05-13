@@ -7,18 +7,16 @@
 
 This package lets you use the [**Philosopher**](https://fonts.google.com/specimen/Philosopher) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Philosopher
 
 ![Philosopher](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Philosopher_Regular400`
-- `Philosopher_Regular400_Italic`
-- `Philosopher_Bold700`
-- `Philosopher_Bold700_Italic`
+- `Philosopher_400Regular`
+- `Philosopher_400Regular_Italic`
+- `Philosopher_700Bold`
+- `Philosopher_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Philosopher_Regular400,
-  Philosopher_Regular400_Italic,
-  Philosopher_Bold700,
-  Philosopher_Bold700_Italic,
   useFonts,
+  Philosopher_400Regular,
+  Philosopher_400Regular_Italic,
+  Philosopher_700Bold,
+  Philosopher_700Bold_Italic,
 } from '@expo-google-fonts/philosopher';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Philosopher_Regular400,
-    Philosopher_Regular400_Italic,
-    Philosopher_Bold700,
-    Philosopher_Bold700_Italic,
+    Philosopher_400Regular,
+    Philosopher_400Regular_Italic,
+    Philosopher_700Bold,
+    Philosopher_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Philosopher_Regular400' }}>
-          Philosopher_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Philosopher_400Regular' }}>
+          Philosopher_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Philosopher_Regular400_Italic' }}>
-          Philosopher_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Philosopher_400Regular_Italic' }}>
+          Philosopher_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Philosopher_Bold700' }}>
-          Philosopher_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Philosopher_700Bold' }}>
+          Philosopher_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Philosopher_Bold700_Italic' }}>
-          Philosopher_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Philosopher_700Bold_Italic' }}>
+          Philosopher_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Philosopher_Regular400
-![Philosopher_Regular400](./51b0e57bc81490c490b7400858499b5823a13926de953476e8d40730ab9fc02f.ttf.png)
+##### Philosopher_400Regular
+![Philosopher_400Regular](./Philosopher_400Regular.ttf.png)
 
-##### Philosopher_Regular400_Italic
-![Philosopher_Regular400_Italic](./32aafaf60ca199b7f91291e6aa9e68b91df4b48f53246f454e7eddf8e25ff50c.ttf.png)
+##### Philosopher_400Regular_Italic
+![Philosopher_400Regular_Italic](./Philosopher_400Regular_Italic.ttf.png)
 
-##### Philosopher_Bold700
-![Philosopher_Bold700](./174ba5b59df6e5bdec8e23657ecdf679226b3b6f23f5625fa814540e88b30628.ttf.png)
+##### Philosopher_700Bold
+![Philosopher_700Bold](./Philosopher_700Bold.ttf.png)
 
-##### Philosopher_Bold700_Italic
-![Philosopher_Bold700_Italic](./aed7000bdaef8a04be340ee51e9ff7157c538442a3fda8daeee40a849eaf33cb.ttf.png)
+##### Philosopher_700Bold_Italic
+![Philosopher_700Bold_Italic](./Philosopher_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/philosopher)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

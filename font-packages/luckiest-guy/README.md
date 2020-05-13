@@ -7,15 +7,13 @@
 
 This package lets you use the [**Luckiest Guy**](https://fonts.google.com/specimen/Luckiest+Guy) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Luckiest Guy
 
 ![Luckiest Guy](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `LuckiestGuy_Regular400`
+- `LuckiestGuy_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { LuckiestGuy_Regular400, useFonts } from '@expo-google-fonts/luckiest-guy';
+import { useFonts, LuckiestGuy_400Regular } from '@expo-google-fonts/luckiest-guy';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LuckiestGuy_Regular400,
+    LuckiestGuy_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LuckiestGuy_Regular400' }}>
-          LuckiestGuy_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LuckiestGuy_400Regular' }}>
+          LuckiestGuy_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LuckiestGuy_Regular400
-![LuckiestGuy_Regular400](./6a9e5eaeb4d4b04aa5e82f16dabc4206d86d2981ac19d033b535be88d1a773e7.ttf.png)
+##### LuckiestGuy_400Regular
+![LuckiestGuy_400Regular](./LuckiestGuy_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/luckiest-guy)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

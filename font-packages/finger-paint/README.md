@@ -7,15 +7,13 @@
 
 This package lets you use the [**Finger Paint**](https://fonts.google.com/specimen/Finger+Paint) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Finger Paint
 
 ![Finger Paint](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `FingerPaint_Regular400`
+- `FingerPaint_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { FingerPaint_Regular400, useFonts } from '@expo-google-fonts/finger-paint';
+import { useFonts, FingerPaint_400Regular } from '@expo-google-fonts/finger-paint';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    FingerPaint_Regular400,
+    FingerPaint_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FingerPaint_Regular400' }}>
-          FingerPaint_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FingerPaint_400Regular' }}>
+          FingerPaint_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FingerPaint_Regular400
-![FingerPaint_Regular400](./6ab3ff7f8e0eaf096c590997201b069ff984623d2eae2b71d8712f4a94a504a9.ttf.png)
+##### FingerPaint_400Regular
+![FingerPaint_400Regular](./FingerPaint_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/finger-paint)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

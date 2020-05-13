@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Caesar Dressing';
-export const __fontFamilyVersion__ = 5;
-
-export const CaesarDressing_Regular400 = require('./ee89ad88164ca8c3eeb747410087b9deecb5d306172af188f53bd267ec033f9c.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const CaesarDressing_400Regular = require('./CaesarDressing_400Regular.ttf');

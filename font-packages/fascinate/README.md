@@ -7,15 +7,13 @@
 
 This package lets you use the [**Fascinate**](https://fonts.google.com/specimen/Fascinate) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Fascinate
 
 ![Fascinate](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Fascinate_Regular400`
+- `Fascinate_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Fascinate_Regular400, useFonts } from '@expo-google-fonts/fascinate';
+import { useFonts, Fascinate_400Regular } from '@expo-google-fonts/fascinate';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Fascinate_Regular400,
+    Fascinate_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fascinate_Regular400' }}>
-          Fascinate_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fascinate_400Regular' }}>
+          Fascinate_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Fascinate_Regular400
-![Fascinate_Regular400](./f23d154a851bb211f83de2d4f7dd5242620662579daa75f0a4ac8e4c692a1832.ttf.png)
+##### Fascinate_400Regular
+![Fascinate_400Regular](./Fascinate_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/fascinate)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

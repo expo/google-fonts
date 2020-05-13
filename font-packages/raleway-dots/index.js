@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Raleway Dots';
-export const __fontFamilyVersion__ = 4;
-
-export const RalewayDots_Regular400 = require('./4b4b8ff2afb81e87d73fd84bb88f05e768029ed7d4f839078f82d515111ba83b.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const RalewayDots_400Regular = require('./RalewayDots_400Regular.ttf');

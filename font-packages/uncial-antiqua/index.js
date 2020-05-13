@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Uncial Antiqua';
-export const __fontFamilyVersion__ = 4;
-
-export const UncialAntiqua_Regular400 = require('./88158802093284fa91900c03a6d4ad980decb35d9f668fb97ae46095f6669770.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const UncialAntiqua_400Regular = require('./UncialAntiqua_400Regular.ttf');

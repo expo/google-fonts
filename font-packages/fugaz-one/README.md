@@ -7,15 +7,13 @@
 
 This package lets you use the [**Fugaz One**](https://fonts.google.com/specimen/Fugaz+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Fugaz One
 
 ![Fugaz One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `FugazOne_Regular400`
+- `FugazOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { FugazOne_Regular400, useFonts } from '@expo-google-fonts/fugaz-one';
+import { useFonts, FugazOne_400Regular } from '@expo-google-fonts/fugaz-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    FugazOne_Regular400,
+    FugazOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FugazOne_Regular400' }}>
-          FugazOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FugazOne_400Regular' }}>
+          FugazOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FugazOne_Regular400
-![FugazOne_Regular400](./bfd2016b130a197bdc3a7842cf6711aea8a2bc92fc2b0962ff9c9c266e680a07.ttf.png)
+##### FugazOne_400Regular
+![FugazOne_400Regular](./FugazOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/fugaz-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

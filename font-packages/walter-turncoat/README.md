@@ -7,15 +7,13 @@
 
 This package lets you use the [**Walter Turncoat**](https://fonts.google.com/specimen/Walter+Turncoat) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Walter Turncoat
 
 ![Walter Turncoat](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `WalterTurncoat_Regular400`
+- `WalterTurncoat_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { WalterTurncoat_Regular400, useFonts } from '@expo-google-fonts/walter-turncoat';
+import { useFonts, WalterTurncoat_400Regular } from '@expo-google-fonts/walter-turncoat';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    WalterTurncoat_Regular400,
+    WalterTurncoat_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WalterTurncoat_Regular400' }}>
-          WalterTurncoat_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'WalterTurncoat_400Regular' }}>
+          WalterTurncoat_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### WalterTurncoat_Regular400
-![WalterTurncoat_Regular400](./4ea002cd3a82b6686a400f26ba3da2fa47721b8300266adcc80cc3fbd52a86a3.ttf.png)
+##### WalterTurncoat_400Regular
+![WalterTurncoat_400Regular](./WalterTurncoat_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/walter-turncoat)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

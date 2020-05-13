@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Alice';
-export const __fontFamilyVersion__ = 8;
-
-export const Alice_Regular400 = require('./b09d7119f6ceba6b3b798683927d8bd51757498f4af762dc4509d1c76aafc6a3.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Alice_400Regular = require('./Alice_400Regular.ttf');

@@ -7,24 +7,26 @@
 
 This package lets you use the [**Josefin Sans**](https://fonts.google.com/specimen/Josefin+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Josefin Sans
 
 ![Josefin Sans](./font-family.png)
 
-This font family contains [10 styles](#-gallery).
+This font family contains [14 styles](#-gallery).
 
-- `JosefinSans_Thin100`
-- `JosefinSans_Thin100_Italic`
-- `JosefinSans_Light300`
-- `JosefinSans_Light300_Italic`
-- `JosefinSans_Regular400`
-- `JosefinSans_Regular400_Italic`
-- `JosefinSans_SemiBold600`
-- `JosefinSans_SemiBold600_Italic`
-- `JosefinSans_Bold700`
-- `JosefinSans_Bold700_Italic`
+- `JosefinSans_100Thin`
+- `JosefinSans_200ExtraLight`
+- `JosefinSans_300Light`
+- `JosefinSans_400Regular`
+- `JosefinSans_500Medium`
+- `JosefinSans_600SemiBold`
+- `JosefinSans_700Bold`
+- `JosefinSans_100Thin_Italic`
+- `JosefinSans_200ExtraLight_Italic`
+- `JosefinSans_300Light_Italic`
+- `JosefinSans_400Regular_Italic`
+- `JosefinSans_500Medium_Italic`
+- `JosefinSans_600SemiBold_Italic`
+- `JosefinSans_700Bold_Italic`
 
 ## Usage
 
@@ -40,31 +42,39 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  JosefinSans_Thin100,
-  JosefinSans_Thin100_Italic,
-  JosefinSans_Light300,
-  JosefinSans_Light300_Italic,
-  JosefinSans_Regular400,
-  JosefinSans_Regular400_Italic,
-  JosefinSans_SemiBold600,
-  JosefinSans_SemiBold600_Italic,
-  JosefinSans_Bold700,
-  JosefinSans_Bold700_Italic,
   useFonts,
+  JosefinSans_100Thin,
+  JosefinSans_200ExtraLight,
+  JosefinSans_300Light,
+  JosefinSans_400Regular,
+  JosefinSans_500Medium,
+  JosefinSans_600SemiBold,
+  JosefinSans_700Bold,
+  JosefinSans_100Thin_Italic,
+  JosefinSans_200ExtraLight_Italic,
+  JosefinSans_300Light_Italic,
+  JosefinSans_400Regular_Italic,
+  JosefinSans_500Medium_Italic,
+  JosefinSans_600SemiBold_Italic,
+  JosefinSans_700Bold_Italic,
 } from '@expo-google-fonts/josefin-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    JosefinSans_Thin100,
-    JosefinSans_Thin100_Italic,
-    JosefinSans_Light300,
-    JosefinSans_Light300_Italic,
-    JosefinSans_Regular400,
-    JosefinSans_Regular400_Italic,
-    JosefinSans_SemiBold600,
-    JosefinSans_SemiBold600_Italic,
-    JosefinSans_Bold700,
-    JosefinSans_Bold700_Italic,
+    JosefinSans_100Thin,
+    JosefinSans_200ExtraLight,
+    JosefinSans_300Light,
+    JosefinSans_400Regular,
+    JosefinSans_500Medium,
+    JosefinSans_600SemiBold,
+    JosefinSans_700Bold,
+    JosefinSans_100Thin_Italic,
+    JosefinSans_200ExtraLight_Italic,
+    JosefinSans_300Light_Italic,
+    JosefinSans_400Regular_Italic,
+    JosefinSans_500Medium_Italic,
+    JosefinSans_600SemiBold_Italic,
+    JosefinSans_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -75,44 +85,60 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_Thin100' }}>
-          JosefinSans_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_100Thin' }}>
+          JosefinSans_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_Thin100_Italic' }}>
-          JosefinSans_Thin100_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_200ExtraLight' }}>
+          JosefinSans_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_Light300' }}>
-          JosefinSans_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_300Light' }}>
+          JosefinSans_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_Light300_Italic' }}>
-          JosefinSans_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_400Regular' }}>
+          JosefinSans_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_Regular400' }}>
-          JosefinSans_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_500Medium' }}>
+          JosefinSans_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_Regular400_Italic' }}>
-          JosefinSans_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_600SemiBold' }}>
+          JosefinSans_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_SemiBold600' }}>
-          JosefinSans_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_700Bold' }}>
+          JosefinSans_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_SemiBold600_Italic' }}>
-          JosefinSans_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_100Thin_Italic' }}>
+          JosefinSans_100Thin_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_Bold700' }}>
-          JosefinSans_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_200ExtraLight_Italic' }}>
+          JosefinSans_200ExtraLight_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_Bold700_Italic' }}>
-          JosefinSans_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_300Light_Italic' }}>
+          JosefinSans_300Light_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_400Regular_Italic' }}>
+          JosefinSans_400Regular_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_500Medium_Italic' }}>
+          JosefinSans_500Medium_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_600SemiBold_Italic' }}>
+          JosefinSans_600SemiBold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_700Bold_Italic' }}>
+          JosefinSans_700Bold_Italic
         </Text>
       </View>
     );
@@ -123,35 +149,47 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### JosefinSans_Thin100
-![JosefinSans_Thin100](./d9274027036e4bec6eeac49709c56529144d0714f2d42cfefabb8f29aa669110.ttf.png)
+##### JosefinSans_100Thin
+![JosefinSans_100Thin](./JosefinSans_100Thin.ttf.png)
 
-##### JosefinSans_Thin100_Italic
-![JosefinSans_Thin100_Italic](./fe583724f6b3b6ff7f2a65b872c7a8be86957b1f03d8efb03b7c3a83271d22f0.ttf.png)
+##### JosefinSans_200ExtraLight
+![JosefinSans_200ExtraLight](./JosefinSans_200ExtraLight.ttf.png)
 
-##### JosefinSans_Light300
-![JosefinSans_Light300](./2bfd7038e00c3bcb80df604697efc092891a519557503aab5b119fad6fb79d41.ttf.png)
+##### JosefinSans_300Light
+![JosefinSans_300Light](./JosefinSans_300Light.ttf.png)
 
-##### JosefinSans_Light300_Italic
-![JosefinSans_Light300_Italic](./7ab4a22bc24c0da9b9abeae23dcabe78ebe9cb10010845ffc5b916764b87f63a.ttf.png)
+##### JosefinSans_400Regular
+![JosefinSans_400Regular](./JosefinSans_400Regular.ttf.png)
 
-##### JosefinSans_Regular400
-![JosefinSans_Regular400](./ad0ce8b3f694b796a43e60893235246f404c728782ef2719a3122b54b6aee1d6.ttf.png)
+##### JosefinSans_500Medium
+![JosefinSans_500Medium](./JosefinSans_500Medium.ttf.png)
 
-##### JosefinSans_Regular400_Italic
-![JosefinSans_Regular400_Italic](./e240205c12a00fd8fec9a99ee4ce68015307c91c1dc38586775ff103177bbf6b.ttf.png)
+##### JosefinSans_600SemiBold
+![JosefinSans_600SemiBold](./JosefinSans_600SemiBold.ttf.png)
 
-##### JosefinSans_SemiBold600
-![JosefinSans_SemiBold600](./1af031215debaf6e64b6373e58d995de8763c248952fcf2a5f2b03b1cff3e26f.ttf.png)
+##### JosefinSans_700Bold
+![JosefinSans_700Bold](./JosefinSans_700Bold.ttf.png)
 
-##### JosefinSans_SemiBold600_Italic
-![JosefinSans_SemiBold600_Italic](./d8d67f5eb2f1bd5f94c9574d8aee64e7e1706e25d0e4715e73d236bf12efeca0.ttf.png)
+##### JosefinSans_100Thin_Italic
+![JosefinSans_100Thin_Italic](./JosefinSans_100Thin_Italic.ttf.png)
 
-##### JosefinSans_Bold700
-![JosefinSans_Bold700](./dd252f6382ade7107cb7955cfb5062f3b8b8546376fd9bdb6774fc830292db75.ttf.png)
+##### JosefinSans_200ExtraLight_Italic
+![JosefinSans_200ExtraLight_Italic](./JosefinSans_200ExtraLight_Italic.ttf.png)
 
-##### JosefinSans_Bold700_Italic
-![JosefinSans_Bold700_Italic](./de8609adb9deaf3cd40532c56050226a1aa22c9f100b56fd248fd4b77fd8fd88.ttf.png)
+##### JosefinSans_300Light_Italic
+![JosefinSans_300Light_Italic](./JosefinSans_300Light_Italic.ttf.png)
+
+##### JosefinSans_400Regular_Italic
+![JosefinSans_400Regular_Italic](./JosefinSans_400Regular_Italic.ttf.png)
+
+##### JosefinSans_500Medium_Italic
+![JosefinSans_500Medium_Italic](./JosefinSans_500Medium_Italic.ttf.png)
+
+##### JosefinSans_600SemiBold_Italic
+![JosefinSans_600SemiBold_Italic](./JosefinSans_600SemiBold_Italic.ttf.png)
+
+##### JosefinSans_700Bold_Italic
+![JosefinSans_700Bold_Italic](./JosefinSans_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -181,7 +219,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/josefin-sans)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

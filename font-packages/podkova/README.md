@@ -7,19 +7,17 @@
 
 This package lets you use the [**Podkova**](https://fonts.google.com/specimen/Podkova) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Podkova
 
 ![Podkova](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `Podkova_Regular400`
-- `Podkova_Medium500`
-- `Podkova_SemiBold600`
-- `Podkova_Bold700`
-- `Podkova_ExtraBold800`
+- `Podkova_400Regular`
+- `Podkova_500Medium`
+- `Podkova_600SemiBold`
+- `Podkova_700Bold`
+- `Podkova_800ExtraBold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Podkova_Regular400,
-  Podkova_Medium500,
-  Podkova_SemiBold600,
-  Podkova_Bold700,
-  Podkova_ExtraBold800,
   useFonts,
+  Podkova_400Regular,
+  Podkova_500Medium,
+  Podkova_600SemiBold,
+  Podkova_700Bold,
+  Podkova_800ExtraBold,
 } from '@expo-google-fonts/podkova';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Podkova_Regular400,
-    Podkova_Medium500,
-    Podkova_SemiBold600,
-    Podkova_Bold700,
-    Podkova_ExtraBold800,
+    Podkova_400Regular,
+    Podkova_500Medium,
+    Podkova_600SemiBold,
+    Podkova_700Bold,
+    Podkova_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Podkova_Regular400' }}>
-          Podkova_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Podkova_400Regular' }}>
+          Podkova_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Podkova_Medium500' }}>
-          Podkova_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Podkova_500Medium' }}>
+          Podkova_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Podkova_SemiBold600' }}>
-          Podkova_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Podkova_600SemiBold' }}>
+          Podkova_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Podkova_Bold700' }}>
-          Podkova_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Podkova_700Bold' }}>
+          Podkova_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Podkova_ExtraBold800' }}>
-          Podkova_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Podkova_800ExtraBold' }}>
+          Podkova_800ExtraBold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Podkova_Regular400
-![Podkova_Regular400](./0add25e02638273bd9b4fcf35c8b76256a3a4e03952c161c48592fae22c5fc34.ttf.png)
+##### Podkova_400Regular
+![Podkova_400Regular](./Podkova_400Regular.ttf.png)
 
-##### Podkova_Medium500
-![Podkova_Medium500](./3f02b4ccaed0ce6f2b29a1a9a6a7d4277651708435bc6f85466d43b1f7946980.ttf.png)
+##### Podkova_500Medium
+![Podkova_500Medium](./Podkova_500Medium.ttf.png)
 
-##### Podkova_SemiBold600
-![Podkova_SemiBold600](./0cc312c8ebd6612b3c99e662d435f1299506dd87fe2eda68b3a99a77910ff84b.ttf.png)
+##### Podkova_600SemiBold
+![Podkova_600SemiBold](./Podkova_600SemiBold.ttf.png)
 
-##### Podkova_Bold700
-![Podkova_Bold700](./18a450ac10399ddda8864f93d96f61b5d636d2d450b6ce5b67ed4247c24b8fb4.ttf.png)
+##### Podkova_700Bold
+![Podkova_700Bold](./Podkova_700Bold.ttf.png)
 
-##### Podkova_ExtraBold800
-![Podkova_ExtraBold800](./f608ec4d8cd807e20ea8e24c392d1d2a7480b32148f5ad72b5c133b6f630b8f6.ttf.png)
+##### Podkova_800ExtraBold
+![Podkova_800ExtraBold](./Podkova_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/podkova)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Asar';
-export const __fontFamilyVersion__ = 2;
-
-export const Asar_Regular400 = require('./52cdc31a962e99a625bf96be5b06ab8118290c27e17701c4938182d9e56109af.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Asar_400Regular = require('./Asar_400Regular.ttf');

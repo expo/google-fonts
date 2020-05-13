@@ -7,20 +7,18 @@
 
 This package lets you use the [**Ibarra Real Nova**](https://fonts.google.com/specimen/Ibarra+Real+Nova) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Ibarra Real Nova
 
 ![Ibarra Real Nova](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `IbarraRealNova_Regular400`
-- `IbarraRealNova_Regular400_Italic`
-- `IbarraRealNova_SemiBold600`
-- `IbarraRealNova_SemiBold600_Italic`
-- `IbarraRealNova_Bold700`
-- `IbarraRealNova_Bold700_Italic`
+- `IbarraRealNova_400Regular`
+- `IbarraRealNova_400Regular_Italic`
+- `IbarraRealNova_600SemiBold`
+- `IbarraRealNova_600SemiBold_Italic`
+- `IbarraRealNova_700Bold`
+- `IbarraRealNova_700Bold_Italic`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  IbarraRealNova_Regular400,
-  IbarraRealNova_Regular400_Italic,
-  IbarraRealNova_SemiBold600,
-  IbarraRealNova_SemiBold600_Italic,
-  IbarraRealNova_Bold700,
-  IbarraRealNova_Bold700_Italic,
   useFonts,
+  IbarraRealNova_400Regular,
+  IbarraRealNova_400Regular_Italic,
+  IbarraRealNova_600SemiBold,
+  IbarraRealNova_600SemiBold_Italic,
+  IbarraRealNova_700Bold,
+  IbarraRealNova_700Bold_Italic,
 } from '@expo-google-fonts/ibarra-real-nova';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    IbarraRealNova_Regular400,
-    IbarraRealNova_Regular400_Italic,
-    IbarraRealNova_SemiBold600,
-    IbarraRealNova_SemiBold600_Italic,
-    IbarraRealNova_Bold700,
-    IbarraRealNova_Bold700_Italic,
+    IbarraRealNova_400Regular,
+    IbarraRealNova_400Regular_Italic,
+    IbarraRealNova_600SemiBold,
+    IbarraRealNova_600SemiBold_Italic,
+    IbarraRealNova_700Bold,
+    IbarraRealNova_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -63,29 +61,29 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_Regular400' }}>
-          IbarraRealNova_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_400Regular' }}>
+          IbarraRealNova_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_Regular400_Italic' }}>
-          IbarraRealNova_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_400Regular_Italic' }}>
+          IbarraRealNova_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_SemiBold600' }}>
-          IbarraRealNova_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_600SemiBold' }}>
+          IbarraRealNova_600SemiBold
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_SemiBold600_Italic' }}>
-          IbarraRealNova_SemiBold600_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_600SemiBold_Italic' }}>
+          IbarraRealNova_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_Bold700' }}>
-          IbarraRealNova_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_700Bold' }}>
+          IbarraRealNova_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_Bold700_Italic' }}>
-          IbarraRealNova_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_700Bold_Italic' }}>
+          IbarraRealNova_700Bold_Italic
         </Text>
       </View>
     );
@@ -96,23 +94,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IbarraRealNova_Regular400
-![IbarraRealNova_Regular400](./fa62d319d71f5e7580a79ee36ecae3548c35a0e2d7892f8695afa7e237a3b660.ttf.png)
+##### IbarraRealNova_400Regular
+![IbarraRealNova_400Regular](./IbarraRealNova_400Regular.ttf.png)
 
-##### IbarraRealNova_Regular400_Italic
-![IbarraRealNova_Regular400_Italic](./0f9205ed765c8774cf31fd539aee83f11aec36439f0fd12bfab29a491352b9f7.ttf.png)
+##### IbarraRealNova_400Regular_Italic
+![IbarraRealNova_400Regular_Italic](./IbarraRealNova_400Regular_Italic.ttf.png)
 
-##### IbarraRealNova_SemiBold600
-![IbarraRealNova_SemiBold600](./91c844d08ae013b372d204d91e5dd37e879057e12a50150929228512c78eec5d.ttf.png)
+##### IbarraRealNova_600SemiBold
+![IbarraRealNova_600SemiBold](./IbarraRealNova_600SemiBold.ttf.png)
 
-##### IbarraRealNova_SemiBold600_Italic
-![IbarraRealNova_SemiBold600_Italic](./77e539a16bef74671e0c9ea382e533233bfa3f2b0219d2bd7d2d11db7502dc23.ttf.png)
+##### IbarraRealNova_600SemiBold_Italic
+![IbarraRealNova_600SemiBold_Italic](./IbarraRealNova_600SemiBold_Italic.ttf.png)
 
-##### IbarraRealNova_Bold700
-![IbarraRealNova_Bold700](./a2ae8b1765ec3d56c893888f27607c49f613d48918f01ed3034e7c5119269948.ttf.png)
+##### IbarraRealNova_700Bold
+![IbarraRealNova_700Bold](./IbarraRealNova_700Bold.ttf.png)
 
-##### IbarraRealNova_Bold700_Italic
-![IbarraRealNova_Bold700_Italic](./be0a49f8da3aff4a325e615fb9bd69330b92f562ff4c805471e29bca7ec57e72.ttf.png)
+##### IbarraRealNova_700Bold_Italic
+![IbarraRealNova_700Bold_Italic](./IbarraRealNova_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -142,7 +140,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/ibarra-real-nova)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

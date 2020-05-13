@@ -7,16 +7,14 @@
 
 This package lets you use the [**Crete Round**](https://fonts.google.com/specimen/Crete+Round) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Crete Round
 
 ![Crete Round](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `CreteRound_Regular400`
-- `CreteRound_Regular400_Italic`
+- `CreteRound_400Regular`
+- `CreteRound_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  CreteRound_Regular400,
-  CreteRound_Regular400_Italic,
   useFonts,
+  CreteRound_400Regular,
+  CreteRound_400Regular_Italic,
 } from '@expo-google-fonts/crete-round';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CreteRound_Regular400,
-    CreteRound_Regular400_Italic,
+    CreteRound_400Regular,
+    CreteRound_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CreteRound_Regular400' }}>
-          CreteRound_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CreteRound_400Regular' }}>
+          CreteRound_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CreteRound_Regular400_Italic' }}>
-          CreteRound_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CreteRound_400Regular_Italic' }}>
+          CreteRound_400Regular_Italic
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CreteRound_Regular400
-![CreteRound_Regular400](./62fbd9c68fa6485a1a4fde14a03ed6a5268f26365fff7614e5704531390f0363.ttf.png)
+##### CreteRound_400Regular
+![CreteRound_400Regular](./CreteRound_400Regular.ttf.png)
 
-##### CreteRound_Regular400_Italic
-![CreteRound_Regular400_Italic](./c8e915bc50126a1af673b8fbd3181aa9f8eac78545ec1b8d827ac5bac66b5cc5.ttf.png)
+##### CreteRound_400Regular_Italic
+![CreteRound_400Regular_Italic](./CreteRound_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/crete-round)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

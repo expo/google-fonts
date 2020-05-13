@@ -4,15 +4,13 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Catamaran';
-export const __fontFamilyVersion__ = 4;
-
-export const Catamaran_Thin100 = require('./e8e9d704be93826d9781f133277934bb6184afd9522b149f005c78f5d89e62ac.ttf');
-export const Catamaran_ExtraLight200 = require('./3f24bc068d63c199fab01e5c0690d6e034f485057c3c19571b656e705a78756b.ttf');
-export const Catamaran_Light300 = require('./853537ef3cef46cebdd3f2ee0f94b33861095d50b2584d6f96a47725f6f4b79d.ttf');
-export const Catamaran_Regular400 = require('./6af095039ae2cc21b9f8e147b290dc6fae99dd4f45843dd262a9e30557dd4e65.ttf');
-export const Catamaran_Medium500 = require('./2b80fad7d7ef99a42af9235090775e879520d07fb7b3deda4986a64c81be4a96.ttf');
-export const Catamaran_SemiBold600 = require('./d77e1072b0d92cfa66cc458ff7e053b1e33cfa9dd663fb52f75062ba9a134122.ttf');
-export const Catamaran_Bold700 = require('./47d32e32345049db4c0f41c0ffba707afcf0ac18cb7000817fd26ae811255728.ttf');
-export const Catamaran_ExtraBold800 = require('./342bd0052b9b81ca6df68a9cdda635ad6f77c796e37045545bfa1d0a071c0bc8.ttf');
-export const Catamaran_Black900 = require('./fa466db090fa897764fa413a006d0c4f7a975a118db3de634988a14f674446cb.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Catamaran_100Thin = require('./Catamaran_100Thin.ttf');
+export const Catamaran_200ExtraLight = require('./Catamaran_200ExtraLight.ttf');
+export const Catamaran_300Light = require('./Catamaran_300Light.ttf');
+export const Catamaran_400Regular = require('./Catamaran_400Regular.ttf');
+export const Catamaran_500Medium = require('./Catamaran_500Medium.ttf');
+export const Catamaran_600SemiBold = require('./Catamaran_600SemiBold.ttf');
+export const Catamaran_700Bold = require('./Catamaran_700Bold.ttf');
+export const Catamaran_800ExtraBold = require('./Catamaran_800ExtraBold.ttf');
+export const Catamaran_900Black = require('./Catamaran_900Black.ttf');

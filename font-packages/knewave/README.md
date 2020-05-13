@@ -7,15 +7,13 @@
 
 This package lets you use the [**Knewave**](https://fonts.google.com/specimen/Knewave) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Knewave
 
 ![Knewave](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Knewave_Regular400`
+- `Knewave_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Knewave_Regular400, useFonts } from '@expo-google-fonts/knewave';
+import { useFonts, Knewave_400Regular } from '@expo-google-fonts/knewave';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Knewave_Regular400,
+    Knewave_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Knewave_Regular400' }}>
-          Knewave_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Knewave_400Regular' }}>
+          Knewave_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Knewave_Regular400
-![Knewave_Regular400](./c3a13f54f0f82d09a1c116c40d693c4e9a6212437c8602f91acb88a205ea9fdc.ttf.png)
+##### Knewave_400Regular
+![Knewave_400Regular](./Knewave_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/knewave)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

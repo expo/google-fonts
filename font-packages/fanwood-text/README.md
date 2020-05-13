@@ -7,16 +7,14 @@
 
 This package lets you use the [**Fanwood Text**](https://fonts.google.com/specimen/Fanwood+Text) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Fanwood Text
 
 ![Fanwood Text](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `FanwoodText_Regular400`
-- `FanwoodText_Regular400_Italic`
+- `FanwoodText_400Regular`
+- `FanwoodText_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  FanwoodText_Regular400,
-  FanwoodText_Regular400_Italic,
   useFonts,
+  FanwoodText_400Regular,
+  FanwoodText_400Regular_Italic,
 } from '@expo-google-fonts/fanwood-text';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    FanwoodText_Regular400,
-    FanwoodText_Regular400_Italic,
+    FanwoodText_400Regular,
+    FanwoodText_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FanwoodText_Regular400' }}>
-          FanwoodText_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FanwoodText_400Regular' }}>
+          FanwoodText_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FanwoodText_Regular400_Italic' }}>
-          FanwoodText_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FanwoodText_400Regular_Italic' }}>
+          FanwoodText_400Regular_Italic
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FanwoodText_Regular400
-![FanwoodText_Regular400](./37c7865d9942ebc3e421992f87faa2a1c1f686716fd40054035736abd0938f1d.ttf.png)
+##### FanwoodText_400Regular
+![FanwoodText_400Regular](./FanwoodText_400Regular.ttf.png)
 
-##### FanwoodText_Regular400_Italic
-![FanwoodText_Regular400_Italic](./ebb9e6f0a9aad6a9a9a13de40ed43e94061e0aefeb1fc8ab3399b0a3307dfee8.ttf.png)
+##### FanwoodText_400Regular_Italic
+![FanwoodText_400Regular_Italic](./FanwoodText_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/fanwood-text)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

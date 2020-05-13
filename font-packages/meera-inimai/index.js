@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Meera Inimai';
-export const __fontFamilyVersion__ = 1;
-
-export const MeeraInimai_Regular400 = require('./199785360f92220660b6a90e66afd8907c31df21ef4e4470e2af99c968017208.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MeeraInimai_400Regular = require('./MeeraInimai_400Regular.ttf');

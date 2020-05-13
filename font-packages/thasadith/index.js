@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Thasadith';
-export const __fontFamilyVersion__ = 3;
-
-export const Thasadith_Regular400 = require('./b9b28f00da26a27f2be523c47e0404d6bad035dead548d2418197cd755cc3ac5.ttf');
-export const Thasadith_Regular400_Italic = require('./6c61662859aba973376a911040a9d141a67b1fa741ad54150e2bca1ec179e824.ttf');
-export const Thasadith_Bold700 = require('./45b2059a66559645a04c064051f3e3d8f18c0e883aab89bae7fff6d05ad0043b.ttf');
-export const Thasadith_Bold700_Italic = require('./758c9bca5f80c1e919aa4821259cd1a773692ab770622c36f688ea4c8524b0ae.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Thasadith_400Regular = require('./Thasadith_400Regular.ttf');
+export const Thasadith_400Regular_Italic = require('./Thasadith_400Regular_Italic.ttf');
+export const Thasadith_700Bold = require('./Thasadith_700Bold.ttf');
+export const Thasadith_700Bold_Italic = require('./Thasadith_700Bold_Italic.ttf');

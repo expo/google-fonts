@@ -7,18 +7,16 @@
 
 This package lets you use the [**Arsenal**](https://fonts.google.com/specimen/Arsenal) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Arsenal
 
 ![Arsenal](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Arsenal_Regular400`
-- `Arsenal_Regular400_Italic`
-- `Arsenal_Bold700`
-- `Arsenal_Bold700_Italic`
+- `Arsenal_400Regular`
+- `Arsenal_400Regular_Italic`
+- `Arsenal_700Bold`
+- `Arsenal_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Arsenal_Regular400,
-  Arsenal_Regular400_Italic,
-  Arsenal_Bold700,
-  Arsenal_Bold700_Italic,
   useFonts,
+  Arsenal_400Regular,
+  Arsenal_400Regular_Italic,
+  Arsenal_700Bold,
+  Arsenal_700Bold_Italic,
 } from '@expo-google-fonts/arsenal';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Arsenal_Regular400,
-    Arsenal_Regular400_Italic,
-    Arsenal_Bold700,
-    Arsenal_Bold700_Italic,
+    Arsenal_400Regular,
+    Arsenal_400Regular_Italic,
+    Arsenal_700Bold,
+    Arsenal_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arsenal_Regular400' }}>
-          Arsenal_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arsenal_400Regular' }}>
+          Arsenal_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arsenal_Regular400_Italic' }}>
-          Arsenal_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arsenal_400Regular_Italic' }}>
+          Arsenal_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arsenal_Bold700' }}>
-          Arsenal_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arsenal_700Bold' }}>
+          Arsenal_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arsenal_Bold700_Italic' }}>
-          Arsenal_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arsenal_700Bold_Italic' }}>
+          Arsenal_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Arsenal_Regular400
-![Arsenal_Regular400](./7b13a735c3c27289a74f4e934b380f078f89568b2633c5d8386e97a97d46158c.ttf.png)
+##### Arsenal_400Regular
+![Arsenal_400Regular](./Arsenal_400Regular.ttf.png)
 
-##### Arsenal_Regular400_Italic
-![Arsenal_Regular400_Italic](./f687cc6b9b17ac45aaf3391fbe649c2e1607804ce3ab85daddf9669f796d0a79.ttf.png)
+##### Arsenal_400Regular_Italic
+![Arsenal_400Regular_Italic](./Arsenal_400Regular_Italic.ttf.png)
 
-##### Arsenal_Bold700
-![Arsenal_Bold700](./0ac62eb1c6ee28d30c2dacea06acdbec9c72bcbfdca1f76a873b8a2c18ac8ae6.ttf.png)
+##### Arsenal_700Bold
+![Arsenal_700Bold](./Arsenal_700Bold.ttf.png)
 
-##### Arsenal_Bold700_Italic
-![Arsenal_Bold700_Italic](./41b9ba2384a037e4ec361896e5868107cfa8535ab8befda2d9666584884aca80.ttf.png)
+##### Arsenal_700Bold_Italic
+![Arsenal_700Bold_Italic](./Arsenal_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/arsenal)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

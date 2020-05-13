@@ -7,15 +7,13 @@
 
 This package lets you use the [**Shadows Into Light**](https://fonts.google.com/specimen/Shadows+Into+Light) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Shadows Into Light
 
 ![Shadows Into Light](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `ShadowsIntoLight_Regular400`
+- `ShadowsIntoLight_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { ShadowsIntoLight_Regular400, useFonts } from '@expo-google-fonts/shadows-into-light';
+import { useFonts, ShadowsIntoLight_400Regular } from '@expo-google-fonts/shadows-into-light';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ShadowsIntoLight_Regular400,
+    ShadowsIntoLight_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ShadowsIntoLight_Regular400' }}>
-          ShadowsIntoLight_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ShadowsIntoLight_400Regular' }}>
+          ShadowsIntoLight_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ShadowsIntoLight_Regular400
-![ShadowsIntoLight_Regular400](./d737d913f418f2f8e85744c94be63b75e1af421856c3a203104a211dc7f337fa.ttf.png)
+##### ShadowsIntoLight_400Regular
+![ShadowsIntoLight_400Regular](./ShadowsIntoLight_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/shadows-into-light)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

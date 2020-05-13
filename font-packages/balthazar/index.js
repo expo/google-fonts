@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Balthazar';
-export const __fontFamilyVersion__ = 5;
-
-export const Balthazar_Regular400 = require('./6f532266accd2179da995d74ed36fa8bf3095162e9404d68381594561a335b66.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Balthazar_400Regular = require('./Balthazar_400Regular.ttf');

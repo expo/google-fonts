@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bowlby One';
-export const __fontFamilyVersion__ = 7;
-
-export const BowlbyOne_Regular400 = require('./4d04430262e4d8e8e549ffcc4c97a27cb31ad26f9d2d85b2ba224381697b1a8d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BowlbyOne_400Regular = require('./BowlbyOne_400Regular.ttf');

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Inder';
-export const __fontFamilyVersion__ = 5;
-
-export const Inder_Regular400 = require('./eb41a206e08e82f74d76415f5d8d2feeaf53587676b8ed6c2ea15bb2e88ccf8d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Inder_400Regular = require('./Inder_400Regular.ttf');

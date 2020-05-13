@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Jua';
-export const __fontFamilyVersion__ = 4;
-
-export const Jua_Regular400 = require('./6e140114334d538cd7aba3f5c53621623e62b941efa1a0fd2aa8d5dbea4c61e1.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Jua_400Regular = require('./Jua_400Regular.ttf');

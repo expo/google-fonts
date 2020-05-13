@@ -4,12 +4,10 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Playfair Display SC';
-export const __fontFamilyVersion__ = 5;
-
-export const PlayfairDisplaySC_Regular400 = require('./b4e28ec5aef07315383b9ec24d14cafd9f9e82652f0907ffa96bc78936a2bcf3.ttf');
-export const PlayfairDisplaySC_Regular400_Italic = require('./fdba2100fec23dad94f0b77ea42bd7fe1e70cb13c977ff4097bee8f4a5d3deb2.ttf');
-export const PlayfairDisplaySC_Bold700 = require('./6e248f16fb366b22ece90b547726b0fa0844647d39802ca9bf4509e2c994973e.ttf');
-export const PlayfairDisplaySC_Bold700_Italic = require('./40348910c72e109930f4b7b7beac71da6dbd2154ab6e19342f6403cfb39799b8.ttf');
-export const PlayfairDisplaySC_Black900 = require('./76b7867b75532041e0acff80523482c84138383984e6e03047bbcdf82664edaf.ttf');
-export const PlayfairDisplaySC_Black900_Italic = require('./2bd6dd3db89e38a5d8e179e638978bc19492a6891d5a77a39f9391d18b2d35d7.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const PlayfairDisplaySC_400Regular = require('./PlayfairDisplaySC_400Regular.ttf');
+export const PlayfairDisplaySC_400Regular_Italic = require('./PlayfairDisplaySC_400Regular_Italic.ttf');
+export const PlayfairDisplaySC_700Bold = require('./PlayfairDisplaySC_700Bold.ttf');
+export const PlayfairDisplaySC_700Bold_Italic = require('./PlayfairDisplaySC_700Bold_Italic.ttf');
+export const PlayfairDisplaySC_900Black = require('./PlayfairDisplaySC_900Black.ttf');
+export const PlayfairDisplaySC_900Black_Italic = require('./PlayfairDisplaySC_900Black_Italic.ttf');

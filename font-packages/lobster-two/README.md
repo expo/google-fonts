@@ -7,18 +7,16 @@
 
 This package lets you use the [**Lobster Two**](https://fonts.google.com/specimen/Lobster+Two) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Lobster Two
 
 ![Lobster Two](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `LobsterTwo_Regular400`
-- `LobsterTwo_Regular400_Italic`
-- `LobsterTwo_Bold700`
-- `LobsterTwo_Bold700_Italic`
+- `LobsterTwo_400Regular`
+- `LobsterTwo_400Regular_Italic`
+- `LobsterTwo_700Bold`
+- `LobsterTwo_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  LobsterTwo_Regular400,
-  LobsterTwo_Regular400_Italic,
-  LobsterTwo_Bold700,
-  LobsterTwo_Bold700_Italic,
   useFonts,
+  LobsterTwo_400Regular,
+  LobsterTwo_400Regular_Italic,
+  LobsterTwo_700Bold,
+  LobsterTwo_700Bold_Italic,
 } from '@expo-google-fonts/lobster-two';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LobsterTwo_Regular400,
-    LobsterTwo_Regular400_Italic,
-    LobsterTwo_Bold700,
-    LobsterTwo_Bold700_Italic,
+    LobsterTwo_400Regular,
+    LobsterTwo_400Regular_Italic,
+    LobsterTwo_700Bold,
+    LobsterTwo_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LobsterTwo_Regular400' }}>
-          LobsterTwo_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LobsterTwo_400Regular' }}>
+          LobsterTwo_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LobsterTwo_Regular400_Italic' }}>
-          LobsterTwo_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LobsterTwo_400Regular_Italic' }}>
+          LobsterTwo_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LobsterTwo_Bold700' }}>
-          LobsterTwo_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LobsterTwo_700Bold' }}>
+          LobsterTwo_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LobsterTwo_Bold700_Italic' }}>
-          LobsterTwo_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LobsterTwo_700Bold_Italic' }}>
+          LobsterTwo_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LobsterTwo_Regular400
-![LobsterTwo_Regular400](./0c7a1501aa183946996d6a6dd00639131356d161f596511cf06339053570e634.ttf.png)
+##### LobsterTwo_400Regular
+![LobsterTwo_400Regular](./LobsterTwo_400Regular.ttf.png)
 
-##### LobsterTwo_Regular400_Italic
-![LobsterTwo_Regular400_Italic](./c0dbd5c04e410d8e4da9017651e742b0e62adac50ae9b77ad22cf0407e27e211.ttf.png)
+##### LobsterTwo_400Regular_Italic
+![LobsterTwo_400Regular_Italic](./LobsterTwo_400Regular_Italic.ttf.png)
 
-##### LobsterTwo_Bold700
-![LobsterTwo_Bold700](./510f984a2bfaf23d533e8c389063fe40f2e0d02c2d16889ff79e565345b3aaa5.ttf.png)
+##### LobsterTwo_700Bold
+![LobsterTwo_700Bold](./LobsterTwo_700Bold.ttf.png)
 
-##### LobsterTwo_Bold700_Italic
-![LobsterTwo_Bold700_Italic](./37a829bca6d8cab14c9768897a1dafc7fcc08b7b459ba3bd2a2e0dac406eead9.ttf.png)
+##### LobsterTwo_700Bold_Italic
+![LobsterTwo_700Bold_Italic](./LobsterTwo_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/lobster-two)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

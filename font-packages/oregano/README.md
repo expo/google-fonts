@@ -7,16 +7,14 @@
 
 This package lets you use the [**Oregano**](https://fonts.google.com/specimen/Oregano) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Oregano
 
 ![Oregano](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Oregano_Regular400`
-- `Oregano_Regular400_Italic`
+- `Oregano_400Regular`
+- `Oregano_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Oregano_Regular400,
-  Oregano_Regular400_Italic,
   useFonts,
+  Oregano_400Regular,
+  Oregano_400Regular_Italic,
 } from '@expo-google-fonts/oregano';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Oregano_Regular400,
-    Oregano_Regular400_Italic,
+    Oregano_400Regular,
+    Oregano_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oregano_Regular400' }}>
-          Oregano_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oregano_400Regular' }}>
+          Oregano_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oregano_Regular400_Italic' }}>
-          Oregano_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oregano_400Regular_Italic' }}>
+          Oregano_400Regular_Italic
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Oregano_Regular400
-![Oregano_Regular400](./e94ad5230aca64ae37dfe726233d5567a0743967af08b68b44f81d2b3da30d36.ttf.png)
+##### Oregano_400Regular
+![Oregano_400Regular](./Oregano_400Regular.ttf.png)
 
-##### Oregano_Regular400_Italic
-![Oregano_Regular400_Italic](./afbb45b2855b15596c6f30346e28c0c3cfb2145954f5abfaf9bf3b9f0b8e2f1d.ttf.png)
+##### Oregano_400Regular_Italic
+![Oregano_400Regular_Italic](./Oregano_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/oregano)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

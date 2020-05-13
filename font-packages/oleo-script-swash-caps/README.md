@@ -7,16 +7,14 @@
 
 This package lets you use the [**Oleo Script Swash Caps**](https://fonts.google.com/specimen/Oleo+Script+Swash+Caps) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Oleo Script Swash Caps
 
 ![Oleo Script Swash Caps](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `OleoScriptSwashCaps_Regular400`
-- `OleoScriptSwashCaps_Bold700`
+- `OleoScriptSwashCaps_400Regular`
+- `OleoScriptSwashCaps_700Bold`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  OleoScriptSwashCaps_Regular400,
-  OleoScriptSwashCaps_Bold700,
   useFonts,
+  OleoScriptSwashCaps_400Regular,
+  OleoScriptSwashCaps_700Bold,
 } from '@expo-google-fonts/oleo-script-swash-caps';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    OleoScriptSwashCaps_Regular400,
-    OleoScriptSwashCaps_Bold700,
+    OleoScriptSwashCaps_400Regular,
+    OleoScriptSwashCaps_700Bold,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OleoScriptSwashCaps_Regular400' }}>
-          OleoScriptSwashCaps_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'OleoScriptSwashCaps_400Regular' }}>
+          OleoScriptSwashCaps_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OleoScriptSwashCaps_Bold700' }}>
-          OleoScriptSwashCaps_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'OleoScriptSwashCaps_700Bold' }}>
+          OleoScriptSwashCaps_700Bold
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### OleoScriptSwashCaps_Regular400
-![OleoScriptSwashCaps_Regular400](./9375d47eb832ce8884342c974dccc6d94746d0e57dd79232ee81a5ab8c9d36a5.ttf.png)
+##### OleoScriptSwashCaps_400Regular
+![OleoScriptSwashCaps_400Regular](./OleoScriptSwashCaps_400Regular.ttf.png)
 
-##### OleoScriptSwashCaps_Bold700
-![OleoScriptSwashCaps_Bold700](./fefbbb389f88ec3c2fdca446b6cd4543a073c75e48b59a1ca1c1fc03ef8756b1.ttf.png)
+##### OleoScriptSwashCaps_700Bold
+![OleoScriptSwashCaps_700Bold](./OleoScriptSwashCaps_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/oleo-script-swash-caps)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

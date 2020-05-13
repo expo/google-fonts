@@ -4,12 +4,10 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Assistant';
-export const __fontFamilyVersion__ = 1;
-
-export const Assistant_ExtraLight200 = require('./6f4c276bf1e4d52183015128074de4702a86fc31cce04f575a8ebef54a077c78.ttf');
-export const Assistant_Light300 = require('./ad7ba792736448061fddf24806abe616e89d7a21a00d169ac4bf95db35ffe9cc.ttf');
-export const Assistant_Regular400 = require('./1ffb8d00a2bd6ab725bb34dc8eaf61737481f6b285988332e4f6a4b60279dbde.ttf');
-export const Assistant_SemiBold600 = require('./1dc8095e8dddae977007770ce433f8ed1e374d0a83d7330ecea3b335109a4985.ttf');
-export const Assistant_Bold700 = require('./81008b85f8a91125a8efe85a353982fe1b825def9ef33eed881b709a6debf250.ttf');
-export const Assistant_ExtraBold800 = require('./a7370c1c3e5649abcfa6f44475eed601eb070ab934a708081b87627827d5463a.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Assistant_200ExtraLight = require('./Assistant_200ExtraLight.ttf');
+export const Assistant_300Light = require('./Assistant_300Light.ttf');
+export const Assistant_400Regular = require('./Assistant_400Regular.ttf');
+export const Assistant_600SemiBold = require('./Assistant_600SemiBold.ttf');
+export const Assistant_700Bold = require('./Assistant_700Bold.ttf');
+export const Assistant_800ExtraBold = require('./Assistant_800ExtraBold.ttf');

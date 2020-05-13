@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Allan';
-export const __fontFamilyVersion__ = 8;
-
-export const Allan_Regular400 = require('./83a268d06857cada4246725e7cc04eb4d7b87d19e6d4f44e745d33be739852fb.ttf');
-export const Allan_Bold700 = require('./b309341937b6f2a1893638c71f9877c70c658e6461e5b18011f9ab7f2782adc9.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Allan_400Regular = require('./Allan_400Regular.ttf');
+export const Allan_700Bold = require('./Allan_700Bold.ttf');

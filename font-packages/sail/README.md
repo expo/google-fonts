@@ -7,15 +7,13 @@
 
 This package lets you use the [**Sail**](https://fonts.google.com/specimen/Sail) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sail
 
 ![Sail](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Sail_Regular400`
+- `Sail_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Sail_Regular400, useFonts } from '@expo-google-fonts/sail';
+import { useFonts, Sail_400Regular } from '@expo-google-fonts/sail';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Sail_Regular400,
+    Sail_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sail_Regular400' }}>
-          Sail_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sail_400Regular' }}>
+          Sail_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sail_Regular400
-![Sail_Regular400](./448cb365963b156da5ce3bb2b69bd8c6837dfd0a2beb5f00d831143b1910ec6e.ttf.png)
+##### Sail_400Regular
+![Sail_400Regular](./Sail_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sail)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

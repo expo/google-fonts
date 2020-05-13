@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Englebert';
-export const __fontFamilyVersion__ = 4;
-
-export const Englebert_Regular400 = require('./5ceab7490f339b83c9f46a3baf7274203de3e060802b185fbd65c2aa9f5ec76c.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Englebert_400Regular = require('./Englebert_400Regular.ttf');

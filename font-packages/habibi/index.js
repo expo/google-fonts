@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Habibi';
-export const __fontFamilyVersion__ = 5;
-
-export const Habibi_Regular400 = require('./9177d379d59937eb418704aa1a5f16ff6bfa046d3828ba6f495ffe7c2d040c5c.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Habibi_400Regular = require('./Habibi_400Regular.ttf');

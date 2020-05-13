@@ -7,15 +7,13 @@
 
 This package lets you use the [**Coda Caption**](https://fonts.google.com/specimen/Coda+Caption) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Coda Caption
 
 ![Coda Caption](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `CodaCaption_ExtraBold800`
+- `CodaCaption_800ExtraBold`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { CodaCaption_ExtraBold800, useFonts } from '@expo-google-fonts/coda-caption';
+import { useFonts, CodaCaption_800ExtraBold } from '@expo-google-fonts/coda-caption';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CodaCaption_ExtraBold800,
+    CodaCaption_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CodaCaption_ExtraBold800' }}>
-          CodaCaption_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CodaCaption_800ExtraBold' }}>
+          CodaCaption_800ExtraBold
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CodaCaption_ExtraBold800
-![CodaCaption_ExtraBold800](./28b801f8b4a3bbeae1f47a3081d64a60cba59d844b8d9719165a993bbfd5424b.ttf.png)
+##### CodaCaption_800ExtraBold
+![CodaCaption_800ExtraBold](./CodaCaption_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/coda-caption)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

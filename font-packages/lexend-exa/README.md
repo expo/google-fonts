@@ -7,15 +7,13 @@
 
 This package lets you use the [**Lexend Exa**](https://fonts.google.com/specimen/Lexend+Exa) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Lexend Exa
 
 ![Lexend Exa](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `LexendExa_Regular400`
+- `LexendExa_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { LexendExa_Regular400, useFonts } from '@expo-google-fonts/lexend-exa';
+import { useFonts, LexendExa_400Regular } from '@expo-google-fonts/lexend-exa';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LexendExa_Regular400,
+    LexendExa_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LexendExa_Regular400' }}>
-          LexendExa_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LexendExa_400Regular' }}>
+          LexendExa_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LexendExa_Regular400
-![LexendExa_Regular400](./fb84184cbd1e9470db5355e5c25309509f5f98bf0676304b47958907ba6f7e12.ttf.png)
+##### LexendExa_400Regular
+![LexendExa_400Regular](./LexendExa_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/lexend-exa)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

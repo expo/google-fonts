@@ -4,9 +4,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Gudea';
-export const __fontFamilyVersion__ = 4;
-
-export const Gudea_Regular400 = require('./4b41bce93d5a05ba71bb86e2be22eb03b270fa198be7df07c9c5a818a1724c0f.ttf');
-export const Gudea_Regular400_Italic = require('./ab00b4c571bb901b0d274550fab83154da5b8bb4529e382ae7d58962b0d05f80.ttf');
-export const Gudea_Bold700 = require('./b1c48f399971799fe09414206e205ea8a5f37a1e17adc5ed4329ee9ddb9d074e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Gudea_400Regular = require('./Gudea_400Regular.ttf');
+export const Gudea_400Regular_Italic = require('./Gudea_400Regular_Italic.ttf');
+export const Gudea_700Bold = require('./Gudea_700Bold.ttf');

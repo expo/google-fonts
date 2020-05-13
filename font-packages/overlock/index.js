@@ -4,12 +4,10 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Overlock';
-export const __fontFamilyVersion__ = 6;
-
-export const Overlock_Regular400 = require('./f4eb336168d4c74d8a4795ef601c2c88a8c6e58cc2029bb029abde86dba8de8d.ttf');
-export const Overlock_Regular400_Italic = require('./862e0a21cd810bed2e0c1809a8799cab17a8a9c3a1b24486e797286d12bd47e0.ttf');
-export const Overlock_Bold700 = require('./c181ce17a8b786d224bdfb18e0b0fd345243fcdf4fcdd4a301a6b68c6898e1bc.ttf');
-export const Overlock_Bold700_Italic = require('./ac1a5a813f6667fe8e4a60d3450a57e9e8dcbb9beaa2619a979bafcf0261698f.ttf');
-export const Overlock_Black900 = require('./2f8bded0796145dd91249b13aecd8e185ea1d9222a3846c3873ad486679f5524.ttf');
-export const Overlock_Black900_Italic = require('./dd19e6be709bf9ee365d90ee333b1766e7714578cd954bb3b5dcb1fae2e2022a.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Overlock_400Regular = require('./Overlock_400Regular.ttf');
+export const Overlock_400Regular_Italic = require('./Overlock_400Regular_Italic.ttf');
+export const Overlock_700Bold = require('./Overlock_700Bold.ttf');
+export const Overlock_700Bold_Italic = require('./Overlock_700Bold_Italic.ttf');
+export const Overlock_900Black = require('./Overlock_900Black.ttf');
+export const Overlock_900Black_Italic = require('./Overlock_900Black_Italic.ttf');

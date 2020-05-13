@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Duru Sans';
-export const __fontFamilyVersion__ = 9;
-
-export const DuruSans_Regular400 = require('./97e1b1a772ca2113d6a27390b0c7b2ce1a3b72cebf29a876a253b200136fd5b1.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const DuruSans_400Regular = require('./DuruSans_400Regular.ttf');

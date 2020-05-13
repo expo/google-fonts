@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Crushed';
-export const __fontFamilyVersion__ = 6;
-
-export const Crushed_Regular400 = require('./f8487a87e68819238f02206a3eab5aedf7deae9e72b1010c364816df3934ab08.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Crushed_400Regular = require('./Crushed_400Regular.ttf');

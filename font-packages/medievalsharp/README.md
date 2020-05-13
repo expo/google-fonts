@@ -7,15 +7,13 @@
 
 This package lets you use the [**MedievalSharp**](https://fonts.google.com/specimen/MedievalSharp) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## MedievalSharp
 
 ![MedievalSharp](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `MedievalSharp_Regular400`
+- `MedievalSharp_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { MedievalSharp_Regular400, useFonts } from '@expo-google-fonts/medievalsharp';
+import { useFonts, MedievalSharp_400Regular } from '@expo-google-fonts/medievalsharp';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MedievalSharp_Regular400,
+    MedievalSharp_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MedievalSharp_Regular400' }}>
-          MedievalSharp_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MedievalSharp_400Regular' }}>
+          MedievalSharp_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MedievalSharp_Regular400
-![MedievalSharp_Regular400](./93afbe692f662b93c6faf17b061d07ad7b343db38496d49e05bc31fcfaf585ae.ttf.png)
+##### MedievalSharp_400Regular
+![MedievalSharp_400Regular](./MedievalSharp_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/medievalsharp)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

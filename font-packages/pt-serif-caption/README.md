@@ -7,16 +7,14 @@
 
 This package lets you use the [**PT Serif Caption**](https://fonts.google.com/specimen/PT+Serif+Caption) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## PT Serif Caption
 
 ![PT Serif Caption](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `PTSerifCaption_Regular400`
-- `PTSerifCaption_Regular400_Italic`
+- `PTSerifCaption_400Regular`
+- `PTSerifCaption_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  PTSerifCaption_Regular400,
-  PTSerifCaption_Regular400_Italic,
   useFonts,
+  PTSerifCaption_400Regular,
+  PTSerifCaption_400Regular_Italic,
 } from '@expo-google-fonts/pt-serif-caption';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    PTSerifCaption_Regular400,
-    PTSerifCaption_Regular400_Italic,
+    PTSerifCaption_400Regular,
+    PTSerifCaption_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSerifCaption_Regular400' }}>
-          PTSerifCaption_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSerifCaption_400Regular' }}>
+          PTSerifCaption_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSerifCaption_Regular400_Italic' }}>
-          PTSerifCaption_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSerifCaption_400Regular_Italic' }}>
+          PTSerifCaption_400Regular_Italic
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PTSerifCaption_Regular400
-![PTSerifCaption_Regular400](./fa2de071d21315555c75861f438b09fdfc9205ed9845c49d401903c6db245582.ttf.png)
+##### PTSerifCaption_400Regular
+![PTSerifCaption_400Regular](./PTSerifCaption_400Regular.ttf.png)
 
-##### PTSerifCaption_Regular400_Italic
-![PTSerifCaption_Regular400_Italic](./0d238ee69704d0810493bff87f27c3236c6c9b81abda84fba39091e70f47eb26.ttf.png)
+##### PTSerifCaption_400Regular_Italic
+![PTSerifCaption_400Regular_Italic](./PTSerifCaption_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/pt-serif-caption)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

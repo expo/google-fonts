@@ -7,15 +7,13 @@
 
 This package lets you use the [**Modern Antiqua**](https://fonts.google.com/specimen/Modern+Antiqua) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Modern Antiqua
 
 ![Modern Antiqua](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `ModernAntiqua_Regular400`
+- `ModernAntiqua_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { ModernAntiqua_Regular400, useFonts } from '@expo-google-fonts/modern-antiqua';
+import { useFonts, ModernAntiqua_400Regular } from '@expo-google-fonts/modern-antiqua';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ModernAntiqua_Regular400,
+    ModernAntiqua_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ModernAntiqua_Regular400' }}>
-          ModernAntiqua_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ModernAntiqua_400Regular' }}>
+          ModernAntiqua_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ModernAntiqua_Regular400
-![ModernAntiqua_Regular400](./df7e73ec3e130e1a70e2680351228d3e058ceea718f4e7ab314b98ce3978d7f9.ttf.png)
+##### ModernAntiqua_400Regular
+![ModernAntiqua_400Regular](./ModernAntiqua_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/modern-antiqua)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

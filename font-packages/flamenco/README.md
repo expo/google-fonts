@@ -7,16 +7,14 @@
 
 This package lets you use the [**Flamenco**](https://fonts.google.com/specimen/Flamenco) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Flamenco
 
 ![Flamenco](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Flamenco_Light300`
-- `Flamenco_Regular400`
+- `Flamenco_300Light`
+- `Flamenco_400Regular`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Flamenco_Light300, Flamenco_Regular400, useFonts } from '@expo-google-fonts/flamenco';
+import { useFonts, Flamenco_300Light, Flamenco_400Regular } from '@expo-google-fonts/flamenco';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Flamenco_Light300,
-    Flamenco_Regular400,
+    Flamenco_300Light,
+    Flamenco_400Regular,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Flamenco_Light300' }}>
-          Flamenco_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Flamenco_300Light' }}>
+          Flamenco_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Flamenco_Regular400' }}>
-          Flamenco_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Flamenco_400Regular' }}>
+          Flamenco_400Regular
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Flamenco_Light300
-![Flamenco_Light300](./5e1405fc92b58d9d35feb160e51edfaa54ace38f1e035d9fe2bfbf79a4087fe2.ttf.png)
+##### Flamenco_300Light
+![Flamenco_300Light](./Flamenco_300Light.ttf.png)
 
-##### Flamenco_Regular400
-![Flamenco_Regular400](./f5146448316dfb5f65a04e6a343c26f45f45587351d34559af1459a54eaa864c.ttf.png)
+##### Flamenco_400Regular
+![Flamenco_400Regular](./Flamenco_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/flamenco)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

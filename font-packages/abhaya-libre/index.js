@@ -4,11 +4,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Abhaya Libre';
-export const __fontFamilyVersion__ = 2;
-
-export const AbhayaLibre_Regular400 = require('./f8e1a260e8a56f8cdb2e2401be9e3a6903026becbf134336b9c8f6b2e2490cd5.ttf');
-export const AbhayaLibre_Medium500 = require('./ff52a780878fd838b81f8c96e548f49d7bbd4f92cb0a3dc68eb3f852ca3f3fd4.ttf');
-export const AbhayaLibre_SemiBold600 = require('./e3be63e1c52229673f453da3c6abd79dc0011d02fd57da38489880434556aa77.ttf');
-export const AbhayaLibre_Bold700 = require('./1c7bdb109ab0e98ef91a41ec55825dcb97c2ea2e9274c67dde899104f5b59878.ttf');
-export const AbhayaLibre_ExtraBold800 = require('./9457be94f81fc73b59af3e850d0dcb91790d60078cbdc252da50881c615173aa.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const AbhayaLibre_400Regular = require('./AbhayaLibre_400Regular.ttf');
+export const AbhayaLibre_500Medium = require('./AbhayaLibre_500Medium.ttf');
+export const AbhayaLibre_600SemiBold = require('./AbhayaLibre_600SemiBold.ttf');
+export const AbhayaLibre_700Bold = require('./AbhayaLibre_700Bold.ttf');
+export const AbhayaLibre_800ExtraBold = require('./AbhayaLibre_800ExtraBold.ttf');

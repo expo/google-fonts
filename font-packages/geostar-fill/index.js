@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Geostar Fill';
-export const __fontFamilyVersion__ = 6;
-
-export const GeostarFill_Regular400 = require('./4be1af95d7c9c5f412f0bd7ca965a79a3691840d102dc4d542068f95fc8a04ac.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const GeostarFill_400Regular = require('./GeostarFill_400Regular.ttf');

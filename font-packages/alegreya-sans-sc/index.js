@@ -4,20 +4,18 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Alegreya Sans SC';
-export const __fontFamilyVersion__ = 4;
-
-export const AlegreyaSansSC_Thin100 = require('./7f5b4f9e7531121c2163e92598f24222cdef538a04352553731f0c81f69c4227.ttf');
-export const AlegreyaSansSC_Thin100_Italic = require('./1a8c6b334dbb0663e1b509d268363d557f9d231f702c2fb6ffe0727c0bb374b5.ttf');
-export const AlegreyaSansSC_Light300 = require('./0d94b7e8e30244280988269fbefbf776d08ff9ad0be6df4f620a6a5b7e0362f0.ttf');
-export const AlegreyaSansSC_Light300_Italic = require('./ccd17db40859ba985ad048cea705168d600d36d89c00086787c0e0c4b3d82350.ttf');
-export const AlegreyaSansSC_Regular400 = require('./2487f405a054a83c784021b2c8e860860b9243fb34fc64b7a5fd2250d68bf4f9.ttf');
-export const AlegreyaSansSC_Regular400_Italic = require('./b427017865c854fea91f74c2c65b73010299f090c4ce77e0854fac9a1de8bc0a.ttf');
-export const AlegreyaSansSC_Medium500 = require('./edb603dab26042252c435e746201e0f2f353dd09865130082f25072fb0969e0b.ttf');
-export const AlegreyaSansSC_Medium500_Italic = require('./de77ecc3bedb1b421aebae8d44d23fc290cb7f252c8cd7eea6cc478ee69e13ec.ttf');
-export const AlegreyaSansSC_Bold700 = require('./c46b10c450739d774b11b6e3d2f51e421d416b9a8174d249ad85973c5018894c.ttf');
-export const AlegreyaSansSC_Bold700_Italic = require('./16e2233f43d03898a785024de868496150dfcba5754cec33d4e349b92c857453.ttf');
-export const AlegreyaSansSC_ExtraBold800 = require('./356b90a20e5818313f51f03a05985f5c63745944a01aa92b78804caa0b7a4268.ttf');
-export const AlegreyaSansSC_ExtraBold800_Italic = require('./85eb333661be027f374e08a28cc4b0c394fa0052fc64197c5a96409168532e87.ttf');
-export const AlegreyaSansSC_Black900 = require('./41a1bac96732155ce8415a0155d80de58383ab4223de540ad68c383f51b3cb5e.ttf');
-export const AlegreyaSansSC_Black900_Italic = require('./7100fdd6d991e596021a3bc2578fd4eb74fb5bd5d7dfc6c30dcde981e6a27281.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const AlegreyaSansSC_100Thin = require('./AlegreyaSansSC_100Thin.ttf');
+export const AlegreyaSansSC_100Thin_Italic = require('./AlegreyaSansSC_100Thin_Italic.ttf');
+export const AlegreyaSansSC_300Light = require('./AlegreyaSansSC_300Light.ttf');
+export const AlegreyaSansSC_300Light_Italic = require('./AlegreyaSansSC_300Light_Italic.ttf');
+export const AlegreyaSansSC_400Regular = require('./AlegreyaSansSC_400Regular.ttf');
+export const AlegreyaSansSC_400Regular_Italic = require('./AlegreyaSansSC_400Regular_Italic.ttf');
+export const AlegreyaSansSC_500Medium = require('./AlegreyaSansSC_500Medium.ttf');
+export const AlegreyaSansSC_500Medium_Italic = require('./AlegreyaSansSC_500Medium_Italic.ttf');
+export const AlegreyaSansSC_700Bold = require('./AlegreyaSansSC_700Bold.ttf');
+export const AlegreyaSansSC_700Bold_Italic = require('./AlegreyaSansSC_700Bold_Italic.ttf');
+export const AlegreyaSansSC_800ExtraBold = require('./AlegreyaSansSC_800ExtraBold.ttf');
+export const AlegreyaSansSC_800ExtraBold_Italic = require('./AlegreyaSansSC_800ExtraBold_Italic.ttf');
+export const AlegreyaSansSC_900Black = require('./AlegreyaSansSC_900Black.ttf');
+export const AlegreyaSansSC_900Black_Italic = require('./AlegreyaSansSC_900Black_Italic.ttf');

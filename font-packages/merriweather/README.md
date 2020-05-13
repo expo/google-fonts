@@ -7,22 +7,20 @@
 
 This package lets you use the [**Merriweather**](https://fonts.google.com/specimen/Merriweather) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Merriweather
 
 ![Merriweather](./font-family.png)
 
 This font family contains [8 styles](#-gallery).
 
-- `Merriweather_Light300`
-- `Merriweather_Light300_Italic`
-- `Merriweather_Regular400`
-- `Merriweather_Regular400_Italic`
-- `Merriweather_Bold700`
-- `Merriweather_Bold700_Italic`
-- `Merriweather_Black900`
-- `Merriweather_Black900_Italic`
+- `Merriweather_300Light`
+- `Merriweather_300Light_Italic`
+- `Merriweather_400Regular`
+- `Merriweather_400Regular_Italic`
+- `Merriweather_700Bold`
+- `Merriweather_700Bold_Italic`
+- `Merriweather_900Black`
+- `Merriweather_900Black_Italic`
 
 ## Usage
 
@@ -38,27 +36,27 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Merriweather_Light300,
-  Merriweather_Light300_Italic,
-  Merriweather_Regular400,
-  Merriweather_Regular400_Italic,
-  Merriweather_Bold700,
-  Merriweather_Bold700_Italic,
-  Merriweather_Black900,
-  Merriweather_Black900_Italic,
   useFonts,
+  Merriweather_300Light,
+  Merriweather_300Light_Italic,
+  Merriweather_400Regular,
+  Merriweather_400Regular_Italic,
+  Merriweather_700Bold,
+  Merriweather_700Bold_Italic,
+  Merriweather_900Black,
+  Merriweather_900Black_Italic,
 } from '@expo-google-fonts/merriweather';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Merriweather_Light300,
-    Merriweather_Light300_Italic,
-    Merriweather_Regular400,
-    Merriweather_Regular400_Italic,
-    Merriweather_Bold700,
-    Merriweather_Bold700_Italic,
-    Merriweather_Black900,
-    Merriweather_Black900_Italic,
+    Merriweather_300Light,
+    Merriweather_300Light_Italic,
+    Merriweather_400Regular,
+    Merriweather_400Regular_Italic,
+    Merriweather_700Bold,
+    Merriweather_700Bold_Italic,
+    Merriweather_900Black,
+    Merriweather_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -69,36 +67,36 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_Light300' }}>
-          Merriweather_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_300Light' }}>
+          Merriweather_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_Light300_Italic' }}>
-          Merriweather_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_300Light_Italic' }}>
+          Merriweather_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_Regular400' }}>
-          Merriweather_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_400Regular' }}>
+          Merriweather_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_Regular400_Italic' }}>
-          Merriweather_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_400Regular_Italic' }}>
+          Merriweather_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_Bold700' }}>
-          Merriweather_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_700Bold' }}>
+          Merriweather_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_Bold700_Italic' }}>
-          Merriweather_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_700Bold_Italic' }}>
+          Merriweather_700Bold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_Black900' }}>
-          Merriweather_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_900Black' }}>
+          Merriweather_900Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_Black900_Italic' }}>
-          Merriweather_Black900_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_900Black_Italic' }}>
+          Merriweather_900Black_Italic
         </Text>
       </View>
     );
@@ -109,29 +107,29 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Merriweather_Light300
-![Merriweather_Light300](./8e88a5324d8b8b44503a016700f8509fb935a78d5668c821daa0092bfea21493.ttf.png)
+##### Merriweather_300Light
+![Merriweather_300Light](./Merriweather_300Light.ttf.png)
 
-##### Merriweather_Light300_Italic
-![Merriweather_Light300_Italic](./328531f24df7325999a988ae9020486990b3f719e0380ebc4c92287bf487a8ff.ttf.png)
+##### Merriweather_300Light_Italic
+![Merriweather_300Light_Italic](./Merriweather_300Light_Italic.ttf.png)
 
-##### Merriweather_Regular400
-![Merriweather_Regular400](./7c2d3ddfee4c635410c77868a5443efcbf7f660b64d159ba2cbd7d03f43e02f3.ttf.png)
+##### Merriweather_400Regular
+![Merriweather_400Regular](./Merriweather_400Regular.ttf.png)
 
-##### Merriweather_Regular400_Italic
-![Merriweather_Regular400_Italic](./ec0e385dcae93a7bfa85adcf27ca8465f179fba9a112e05f07384561b29a4b1a.ttf.png)
+##### Merriweather_400Regular_Italic
+![Merriweather_400Regular_Italic](./Merriweather_400Regular_Italic.ttf.png)
 
-##### Merriweather_Bold700
-![Merriweather_Bold700](./853dd62f5464fdb7677eeceedf17f771b710501d4fb15dd7076912d7430e92e3.ttf.png)
+##### Merriweather_700Bold
+![Merriweather_700Bold](./Merriweather_700Bold.ttf.png)
 
-##### Merriweather_Bold700_Italic
-![Merriweather_Bold700_Italic](./acca91ffc59368ee6894a41c9c417f5d2ec9f03c2c181b8e90013e49a401caf4.ttf.png)
+##### Merriweather_700Bold_Italic
+![Merriweather_700Bold_Italic](./Merriweather_700Bold_Italic.ttf.png)
 
-##### Merriweather_Black900
-![Merriweather_Black900](./aeb362f6ad7c32d24b6a96265394b98c1da77b6620d79ecace57a083ff21c9d2.ttf.png)
+##### Merriweather_900Black
+![Merriweather_900Black](./Merriweather_900Black.ttf.png)
 
-##### Merriweather_Black900_Italic
-![Merriweather_Black900_Italic](./c6aef6fa65ac3afe1f4e813c13cc623329ddae356f8fa330370e3f1cd754f928.ttf.png)
+##### Merriweather_900Black_Italic
+![Merriweather_900Black_Italic](./Merriweather_900Black_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -161,7 +159,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

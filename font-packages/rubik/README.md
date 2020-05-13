@@ -7,24 +7,22 @@
 
 This package lets you use the [**Rubik**](https://fonts.google.com/specimen/Rubik) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Rubik
 
 ![Rubik](./font-family.png)
 
 This font family contains [10 styles](#-gallery).
 
-- `Rubik_Light300`
-- `Rubik_Light300_Italic`
-- `Rubik_Regular400`
-- `Rubik_Regular400_Italic`
-- `Rubik_Medium500`
-- `Rubik_Medium500_Italic`
-- `Rubik_Bold700`
-- `Rubik_Bold700_Italic`
-- `Rubik_Black900`
-- `Rubik_Black900_Italic`
+- `Rubik_300Light`
+- `Rubik_300Light_Italic`
+- `Rubik_400Regular`
+- `Rubik_400Regular_Italic`
+- `Rubik_500Medium`
+- `Rubik_500Medium_Italic`
+- `Rubik_700Bold`
+- `Rubik_700Bold_Italic`
+- `Rubik_900Black`
+- `Rubik_900Black_Italic`
 
 ## Usage
 
@@ -40,31 +38,31 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Rubik_Light300,
-  Rubik_Light300_Italic,
-  Rubik_Regular400,
-  Rubik_Regular400_Italic,
-  Rubik_Medium500,
-  Rubik_Medium500_Italic,
-  Rubik_Bold700,
-  Rubik_Bold700_Italic,
-  Rubik_Black900,
-  Rubik_Black900_Italic,
   useFonts,
+  Rubik_300Light,
+  Rubik_300Light_Italic,
+  Rubik_400Regular,
+  Rubik_400Regular_Italic,
+  Rubik_500Medium,
+  Rubik_500Medium_Italic,
+  Rubik_700Bold,
+  Rubik_700Bold_Italic,
+  Rubik_900Black,
+  Rubik_900Black_Italic,
 } from '@expo-google-fonts/rubik';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Rubik_Light300,
-    Rubik_Light300_Italic,
-    Rubik_Regular400,
-    Rubik_Regular400_Italic,
-    Rubik_Medium500,
-    Rubik_Medium500_Italic,
-    Rubik_Bold700,
-    Rubik_Bold700_Italic,
-    Rubik_Black900,
-    Rubik_Black900_Italic,
+    Rubik_300Light,
+    Rubik_300Light_Italic,
+    Rubik_400Regular,
+    Rubik_400Regular_Italic,
+    Rubik_500Medium,
+    Rubik_500Medium_Italic,
+    Rubik_700Bold,
+    Rubik_700Bold_Italic,
+    Rubik_900Black,
+    Rubik_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -75,44 +73,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_Light300' }}>
-          Rubik_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_300Light' }}>
+          Rubik_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_Light300_Italic' }}>
-          Rubik_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_300Light_Italic' }}>
+          Rubik_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_Regular400' }}>
-          Rubik_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_400Regular' }}>
+          Rubik_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_Regular400_Italic' }}>
-          Rubik_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_400Regular_Italic' }}>
+          Rubik_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_Medium500' }}>
-          Rubik_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_500Medium' }}>
+          Rubik_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_Medium500_Italic' }}>
-          Rubik_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_500Medium_Italic' }}>
+          Rubik_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_Bold700' }}>
-          Rubik_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_700Bold' }}>
+          Rubik_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_Bold700_Italic' }}>
-          Rubik_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_700Bold_Italic' }}>
+          Rubik_700Bold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_Black900' }}>
-          Rubik_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_900Black' }}>
+          Rubik_900Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_Black900_Italic' }}>
-          Rubik_Black900_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_900Black_Italic' }}>
+          Rubik_900Black_Italic
         </Text>
       </View>
     );
@@ -123,35 +121,35 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rubik_Light300
-![Rubik_Light300](./d06ee1ddd9a38ecea7c204c94d69e670e155c7e5f6b9ca5bdbbc851871397569.ttf.png)
+##### Rubik_300Light
+![Rubik_300Light](./Rubik_300Light.ttf.png)
 
-##### Rubik_Light300_Italic
-![Rubik_Light300_Italic](./39eb0e8cc0f4f0f949cd7ab1192004ad43fa616ab0ba09ba2f1c5e975b6ed29f.ttf.png)
+##### Rubik_300Light_Italic
+![Rubik_300Light_Italic](./Rubik_300Light_Italic.ttf.png)
 
-##### Rubik_Regular400
-![Rubik_Regular400](./1441b864d5f661c6ad072120b1ee340e6c799fab34f7d408ec3fbf11f41f3ea0.ttf.png)
+##### Rubik_400Regular
+![Rubik_400Regular](./Rubik_400Regular.ttf.png)
 
-##### Rubik_Regular400_Italic
-![Rubik_Regular400_Italic](./1daca2e29940a75b3f1d4f3d7bb0356f63332d3013133093e3a75295dcdaf781.ttf.png)
+##### Rubik_400Regular_Italic
+![Rubik_400Regular_Italic](./Rubik_400Regular_Italic.ttf.png)
 
-##### Rubik_Medium500
-![Rubik_Medium500](./334711470701a9df2e7c93bcc418d6d16e8844ed0bf4ae4411f588cdb913869a.ttf.png)
+##### Rubik_500Medium
+![Rubik_500Medium](./Rubik_500Medium.ttf.png)
 
-##### Rubik_Medium500_Italic
-![Rubik_Medium500_Italic](./131d5d182158888dbccfcf0de7726b6a878bdb7eb60bbc96fb8a42561abc6b8c.ttf.png)
+##### Rubik_500Medium_Italic
+![Rubik_500Medium_Italic](./Rubik_500Medium_Italic.ttf.png)
 
-##### Rubik_Bold700
-![Rubik_Bold700](./395804d64aff5eda80de3c9e8fc2ffe482af2f6483707546f9fb8c3b14e747d9.ttf.png)
+##### Rubik_700Bold
+![Rubik_700Bold](./Rubik_700Bold.ttf.png)
 
-##### Rubik_Bold700_Italic
-![Rubik_Bold700_Italic](./7dc9a621668992ae25fd33cb83bc658c0bd8e2068c92524544164c3ba79737b6.ttf.png)
+##### Rubik_700Bold_Italic
+![Rubik_700Bold_Italic](./Rubik_700Bold_Italic.ttf.png)
 
-##### Rubik_Black900
-![Rubik_Black900](./f660cd5e361c3f00ea913d713f53325c9248887d961ee7a130335fc796750fff.ttf.png)
+##### Rubik_900Black
+![Rubik_900Black](./Rubik_900Black.ttf.png)
 
-##### Rubik_Black900_Italic
-![Rubik_Black900_Italic](./1e373f9418d94e2ae6e4b31972520bf13c7b93e0811f8621d0ce8d72e0576c9b.ttf.png)
+##### Rubik_900Black_Italic
+![Rubik_900Black_Italic](./Rubik_900Black_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -181,7 +179,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/rubik)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

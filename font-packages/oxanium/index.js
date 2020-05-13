@@ -4,13 +4,11 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Oxanium';
-export const __fontFamilyVersion__ = 1;
-
-export const Oxanium_ExtraLight200 = require('./89daee61e7358c34dbacac977e9f2c92221971ab81d9345af9d294687a538ace.ttf');
-export const Oxanium_Light300 = require('./fef895a1cf0e2e0ea02299a10df50702cff292d28fd9fba618f118b9d7f1cc70.ttf');
-export const Oxanium_Regular400 = require('./09fedc2fbf2c81af9711328c3b1fe1bf632512d8714d254cafe53fd7c9e23ebe.ttf');
-export const Oxanium_Medium500 = require('./f15be0f59920c03bbe89ad1bb66c9df4b660acb2c329f30e1d75e846e10e30d2.ttf');
-export const Oxanium_SemiBold600 = require('./c3a19352e2ab05f91352b26d6eeef4d8b57575350956c0a8d99d7824bfea43c6.ttf');
-export const Oxanium_Bold700 = require('./02e5724444f1a7053fc3043649b8c5b76a2f698757d9c678cc2e80dbaa8a221a.ttf');
-export const Oxanium_ExtraBold800 = require('./1d805023212166271a84af73c8e13073ce5a29746483c5fa3ae9941eaa7577c8.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Oxanium_200ExtraLight = require('./Oxanium_200ExtraLight.ttf');
+export const Oxanium_300Light = require('./Oxanium_300Light.ttf');
+export const Oxanium_400Regular = require('./Oxanium_400Regular.ttf');
+export const Oxanium_500Medium = require('./Oxanium_500Medium.ttf');
+export const Oxanium_600SemiBold = require('./Oxanium_600SemiBold.ttf');
+export const Oxanium_700Bold = require('./Oxanium_700Bold.ttf');
+export const Oxanium_800ExtraBold = require('./Oxanium_800ExtraBold.ttf');

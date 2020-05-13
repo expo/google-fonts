@@ -7,15 +7,13 @@
 
 This package lets you use the [**New Rocker**](https://fonts.google.com/specimen/New+Rocker) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## New Rocker
 
 ![New Rocker](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `NewRocker_Regular400`
+- `NewRocker_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { NewRocker_Regular400, useFonts } from '@expo-google-fonts/new-rocker';
+import { useFonts, NewRocker_400Regular } from '@expo-google-fonts/new-rocker';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    NewRocker_Regular400,
+    NewRocker_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NewRocker_Regular400' }}>
-          NewRocker_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NewRocker_400Regular' }}>
+          NewRocker_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NewRocker_Regular400
-![NewRocker_Regular400](./20dd1e4e2d3c0003707b649a59ebb5a729e108cc20929f1a1c06bb03319b07d7.ttf.png)
+##### NewRocker_400Regular
+![NewRocker_400Regular](./NewRocker_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/new-rocker)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

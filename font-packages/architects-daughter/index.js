@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Architects Daughter';
-export const __fontFamilyVersion__ = 6;
-
-export const ArchitectsDaughter_Regular400 = require('./a4f5860f4b7aca9b95305b6c5a3b14e2f1c951eaddd28b5d1fffd374171ccdba.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ArchitectsDaughter_400Regular = require('./ArchitectsDaughter_400Regular.ttf');

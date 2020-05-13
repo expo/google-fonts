@@ -7,20 +7,18 @@
 
 This package lets you use the [**Oswald**](https://fonts.google.com/specimen/Oswald) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Oswald
 
 ![Oswald](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `Oswald_ExtraLight200`
-- `Oswald_Light300`
-- `Oswald_Regular400`
-- `Oswald_Medium500`
-- `Oswald_SemiBold600`
-- `Oswald_Bold700`
+- `Oswald_200ExtraLight`
+- `Oswald_300Light`
+- `Oswald_400Regular`
+- `Oswald_500Medium`
+- `Oswald_600SemiBold`
+- `Oswald_700Bold`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Oswald_ExtraLight200,
-  Oswald_Light300,
-  Oswald_Regular400,
-  Oswald_Medium500,
-  Oswald_SemiBold600,
-  Oswald_Bold700,
   useFonts,
+  Oswald_200ExtraLight,
+  Oswald_300Light,
+  Oswald_400Regular,
+  Oswald_500Medium,
+  Oswald_600SemiBold,
+  Oswald_700Bold,
 } from '@expo-google-fonts/oswald';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Oswald_ExtraLight200,
-    Oswald_Light300,
-    Oswald_Regular400,
-    Oswald_Medium500,
-    Oswald_SemiBold600,
-    Oswald_Bold700,
+    Oswald_200ExtraLight,
+    Oswald_300Light,
+    Oswald_400Regular,
+    Oswald_500Medium,
+    Oswald_600SemiBold,
+    Oswald_700Bold,
   });
 
   let fontSize = 24;
@@ -63,28 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_ExtraLight200' }}>
-          Oswald_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_200ExtraLight' }}>
+          Oswald_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_Light300' }}>
-          Oswald_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_300Light' }}>
+          Oswald_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_Regular400' }}>
-          Oswald_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_400Regular' }}>
+          Oswald_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_Medium500' }}>
-          Oswald_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_500Medium' }}>
+          Oswald_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_SemiBold600' }}>
-          Oswald_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_600SemiBold' }}>
+          Oswald_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_Bold700' }}>
-          Oswald_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_700Bold' }}>
+          Oswald_700Bold
         </Text>
       </View>
     );
@@ -95,23 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Oswald_ExtraLight200
-![Oswald_ExtraLight200](./73cf9867fcced84ac0fd26238bf74e4e1f69dcbefc5ff327c2a69f6c5c107e5d.ttf.png)
+##### Oswald_200ExtraLight
+![Oswald_200ExtraLight](./Oswald_200ExtraLight.ttf.png)
 
-##### Oswald_Light300
-![Oswald_Light300](./f10d40bae3fb58ed7a554af7cb46beca6d4f2866de12223b8e349f1b30c76968.ttf.png)
+##### Oswald_300Light
+![Oswald_300Light](./Oswald_300Light.ttf.png)
 
-##### Oswald_Regular400
-![Oswald_Regular400](./9dc4929f8d8935621ca4717817eb3167fc881d03d496c6dca51ff292f730c873.ttf.png)
+##### Oswald_400Regular
+![Oswald_400Regular](./Oswald_400Regular.ttf.png)
 
-##### Oswald_Medium500
-![Oswald_Medium500](./f59f85cc613954e6acc66c7f89abe9b46c1add1b2236d5bee71f4a71a7769402.ttf.png)
+##### Oswald_500Medium
+![Oswald_500Medium](./Oswald_500Medium.ttf.png)
 
-##### Oswald_SemiBold600
-![Oswald_SemiBold600](./c0d6ab388b1c3537b78f8976a204a6dc2c5d62b73ae37506d1c93575e52420f2.ttf.png)
+##### Oswald_600SemiBold
+![Oswald_600SemiBold](./Oswald_600SemiBold.ttf.png)
 
-##### Oswald_Bold700
-![Oswald_Bold700](./a11b684909ba0ee2b2c493e89626c6fa9df02e25dec537e42127fa0b1a4e5e92.ttf.png)
+##### Oswald_700Bold
+![Oswald_700Bold](./Oswald_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -141,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/oswald)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

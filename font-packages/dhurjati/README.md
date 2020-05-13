@@ -7,15 +7,13 @@
 
 This package lets you use the [**Dhurjati**](https://fonts.google.com/specimen/Dhurjati) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Dhurjati
 
 ![Dhurjati](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Dhurjati_Regular400`
+- `Dhurjati_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Dhurjati_Regular400, useFonts } from '@expo-google-fonts/dhurjati';
+import { useFonts, Dhurjati_400Regular } from '@expo-google-fonts/dhurjati';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Dhurjati_Regular400,
+    Dhurjati_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Dhurjati_Regular400' }}>
-          Dhurjati_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Dhurjati_400Regular' }}>
+          Dhurjati_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Dhurjati_Regular400
-![Dhurjati_Regular400](./ee0b382be9acedd63b3e624d49e646e5951cb5e8d54c0724ad01128bd8690012.ttf.png)
+##### Dhurjati_400Regular
+![Dhurjati_400Regular](./Dhurjati_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/dhurjati)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

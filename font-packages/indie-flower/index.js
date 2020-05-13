@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Indie Flower';
-export const __fontFamilyVersion__ = 8;
-
-export const IndieFlower_Regular400 = require('./61c24604992861512306296260abd7382a4e89dbe2d6e0d5ba3dbd1a15b95ff4.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const IndieFlower_400Regular = require('./IndieFlower_400Regular.ttf');

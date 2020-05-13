@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Cookie';
-export const __fontFamilyVersion__ = 7;
-
-export const Cookie_Regular400 = require('./8d01e7c434faf0f6a1c7c2f49021b8ac01590d10ba4cb8c15683299ed0997536.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Cookie_400Regular = require('./Cookie_400Regular.ttf');

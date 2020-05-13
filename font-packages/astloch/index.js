@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Astloch';
-export const __fontFamilyVersion__ = 6;
-
-export const Astloch_Regular400 = require('./b51d807f9b0f818e44f8f40d4fbedacfff7df981efda85e7b722d62f6022a168.ttf');
-export const Astloch_Bold700 = require('./b86a5f0e90945d44c5b629fde8c5a667dd7882ab201ccb397f96f482fd7e98bc.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Astloch_400Regular = require('./Astloch_400Regular.ttf');
+export const Astloch_700Bold = require('./Astloch_700Bold.ttf');

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bentham';
-export const __fontFamilyVersion__ = 6;
-
-export const Bentham_Regular400 = require('./36b9c399aae73bd09e01d76e51e8697f80e9e34f14e954b929a08d6cfbc5f697.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Bentham_400Regular = require('./Bentham_400Regular.ttf');

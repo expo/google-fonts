@@ -7,15 +7,13 @@
 
 This package lets you use the [**Mrs Sheppards**](https://fonts.google.com/specimen/Mrs+Sheppards) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Mrs Sheppards
 
 ![Mrs Sheppards](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `MrsSheppards_Regular400`
+- `MrsSheppards_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { MrsSheppards_Regular400, useFonts } from '@expo-google-fonts/mrs-sheppards';
+import { useFonts, MrsSheppards_400Regular } from '@expo-google-fonts/mrs-sheppards';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MrsSheppards_Regular400,
+    MrsSheppards_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MrsSheppards_Regular400' }}>
-          MrsSheppards_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MrsSheppards_400Regular' }}>
+          MrsSheppards_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MrsSheppards_Regular400
-![MrsSheppards_Regular400](./e405bf3cb038e30fac744c48068e8e3687a50c1b5cff874a57476b07f44b3b04.ttf.png)
+##### MrsSheppards_400Regular
+![MrsSheppards_400Regular](./MrsSheppards_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/mrs-sheppards)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

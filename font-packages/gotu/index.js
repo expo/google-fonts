@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Gotu';
-export const __fontFamilyVersion__ = 1;
-
-export const Gotu_Regular400 = require('./a8a68ca0799b2cb999b3b4c9ed791251063ffa4c8d870256ebc31438c8e3c5f1.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Gotu_400Regular = require('./Gotu_400Regular.ttf');

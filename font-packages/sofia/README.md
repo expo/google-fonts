@@ -7,15 +7,13 @@
 
 This package lets you use the [**Sofia**](https://fonts.google.com/specimen/Sofia) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sofia
 
 ![Sofia](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Sofia_Regular400`
+- `Sofia_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Sofia_Regular400, useFonts } from '@expo-google-fonts/sofia';
+import { useFonts, Sofia_400Regular } from '@expo-google-fonts/sofia';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Sofia_Regular400,
+    Sofia_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sofia_Regular400' }}>
-          Sofia_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sofia_400Regular' }}>
+          Sofia_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sofia_Regular400
-![Sofia_Regular400](./ca5d81d1b4b38fae521b80e8ab25a7632893d98285e79fa51e53975b807afcb1.ttf.png)
+##### Sofia_400Regular
+![Sofia_400Regular](./Sofia_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sofia)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

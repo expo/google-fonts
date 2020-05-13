@@ -4,22 +4,20 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Overpass';
-export const __fontFamilyVersion__ = 1;
-
-export const Overpass_Thin100 = require('./c5a2c38a969c611bc238e0242455585ccfc48cf11fc9cd85063641ab4b2d7bb9.ttf');
-export const Overpass_Thin100_Italic = require('./8ecef7f4baf8bb9d34f1619e0a9ee510cf744ff855c5d5b856e508d1b2af0b81.ttf');
-export const Overpass_ExtraLight200 = require('./54947a66287be19cdb01fbceed60457202e90bdf36580195800894eb70d641ff.ttf');
-export const Overpass_ExtraLight200_Italic = require('./4ddb32270da20661fabc6aa1e944e280881d9603059b11da50ca0b655b159bfe.ttf');
-export const Overpass_Light300 = require('./ba40f1801228e6e65c3d4a8e7ba94d86c2855de57d4193bf93aaaf65d91138bb.ttf');
-export const Overpass_Light300_Italic = require('./b2c69aa4282875efbbd517f89eb8a9a2ff7ff6523948bec58365e27a992e2474.ttf');
-export const Overpass_Regular400 = require('./a5d3ea903c065a7e458256aedede6ee1b27ab4b67c6af46c31eee97fcf66108e.ttf');
-export const Overpass_Regular400_Italic = require('./89e039660730531554ae5f96a9ea3faae03107ccb63ca23fff3acebd28ca7dce.ttf');
-export const Overpass_SemiBold600 = require('./c474f4f6c3a2d86f49aadc0cd3d5bfb14968ecdc2509b30baad6c0ce881bddb6.ttf');
-export const Overpass_SemiBold600_Italic = require('./8a01f2c08d4b650cb7c597e094ff0db9cb4ae6b1bfc79ad9af8a20ba275a567d.ttf');
-export const Overpass_Bold700 = require('./43a5239e32a28e8d1efbf2a9b8922042b98e6310bb1ebf89af5a86bdfb35d997.ttf');
-export const Overpass_Bold700_Italic = require('./06068d83442ba5f4324460ab2602523f4b89643f8afa4440fa2051e47a16e95f.ttf');
-export const Overpass_ExtraBold800 = require('./894fdd41407a09bc7c4336dc3462d749cd7381ab80e320fa78a0475311e9ac69.ttf');
-export const Overpass_ExtraBold800_Italic = require('./aa9e63cded98890be1bc09083dcb64378b7f35f4af84f43e9635e50d404cdb53.ttf');
-export const Overpass_Black900 = require('./59f5ad4bb5b4469f7c3079f4bd6b3996a5c81d01f9f4311c74d68e9411f66c51.ttf');
-export const Overpass_Black900_Italic = require('./a9e3b080c9a28d813d94e69fea3eb65560b09cefb4e4653b4baa47a7d95be402.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Overpass_100Thin = require('./Overpass_100Thin.ttf');
+export const Overpass_100Thin_Italic = require('./Overpass_100Thin_Italic.ttf');
+export const Overpass_200ExtraLight = require('./Overpass_200ExtraLight.ttf');
+export const Overpass_200ExtraLight_Italic = require('./Overpass_200ExtraLight_Italic.ttf');
+export const Overpass_300Light = require('./Overpass_300Light.ttf');
+export const Overpass_300Light_Italic = require('./Overpass_300Light_Italic.ttf');
+export const Overpass_400Regular = require('./Overpass_400Regular.ttf');
+export const Overpass_400Regular_Italic = require('./Overpass_400Regular_Italic.ttf');
+export const Overpass_600SemiBold = require('./Overpass_600SemiBold.ttf');
+export const Overpass_600SemiBold_Italic = require('./Overpass_600SemiBold_Italic.ttf');
+export const Overpass_700Bold = require('./Overpass_700Bold.ttf');
+export const Overpass_700Bold_Italic = require('./Overpass_700Bold_Italic.ttf');
+export const Overpass_800ExtraBold = require('./Overpass_800ExtraBold.ttf');
+export const Overpass_800ExtraBold_Italic = require('./Overpass_800ExtraBold_Italic.ttf');
+export const Overpass_900Black = require('./Overpass_900Black.ttf');
+export const Overpass_900Black_Italic = require('./Overpass_900Black_Italic.ttf');

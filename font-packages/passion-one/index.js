@@ -4,9 +4,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Passion One';
-export const __fontFamilyVersion__ = 7;
-
-export const PassionOne_Regular400 = require('./1f9e3f81509fa1087e3a4636d898f6ce048f4953bf6c06a6d79d9cb78115c03d.ttf');
-export const PassionOne_Bold700 = require('./567181e9763fb8cb33a51945378a8a2756c423cb05608d37fdc2e0d8ff170fa1.ttf');
-export const PassionOne_Black900 = require('./351dd38c35e67c20b4ae84db1964391fd924cd245611616eacaf6b9e63113442.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const PassionOne_400Regular = require('./PassionOne_400Regular.ttf');
+export const PassionOne_700Bold = require('./PassionOne_700Bold.ttf');
+export const PassionOne_900Black = require('./PassionOne_900Black.ttf');

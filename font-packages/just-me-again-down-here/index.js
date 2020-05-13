@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Just Me Again Down Here';
-export const __fontFamilyVersion__ = 8;
-
-export const JustMeAgainDownHere_Regular400 = require('./fc0ac5f253850191002f529e5fd66829627682a2f9740fe0345a4bb339da7438.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const JustMeAgainDownHere_400Regular = require('./JustMeAgainDownHere_400Regular.ttf');

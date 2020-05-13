@@ -7,15 +7,13 @@
 
 This package lets you use the [**Bigshot One**](https://fonts.google.com/specimen/Bigshot+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Bigshot One
 
 ![Bigshot One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `BigshotOne_Regular400`
+- `BigshotOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { BigshotOne_Regular400, useFonts } from '@expo-google-fonts/bigshot-one';
+import { useFonts, BigshotOne_400Regular } from '@expo-google-fonts/bigshot-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    BigshotOne_Regular400,
+    BigshotOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigshotOne_Regular400' }}>
-          BigshotOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigshotOne_400Regular' }}>
+          BigshotOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BigshotOne_Regular400
-![BigshotOne_Regular400](./cd6b11ed5794f665b3e412e676ae624b63b086b93992d6c0b00c9afd26180c79.ttf.png)
+##### BigshotOne_400Regular
+![BigshotOne_400Regular](./BigshotOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/bigshot-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

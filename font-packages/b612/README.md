@@ -7,18 +7,16 @@
 
 This package lets you use the [**B612**](https://fonts.google.com/specimen/B612) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## B612
 
 ![B612](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `B612_Regular400`
-- `B612_Regular400_Italic`
-- `B612_Bold700`
-- `B612_Bold700_Italic`
+- `B612_400Regular`
+- `B612_400Regular_Italic`
+- `B612_700Bold`
+- `B612_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  B612_Regular400,
-  B612_Regular400_Italic,
-  B612_Bold700,
-  B612_Bold700_Italic,
   useFonts,
+  B612_400Regular,
+  B612_400Regular_Italic,
+  B612_700Bold,
+  B612_700Bold_Italic,
 } from '@expo-google-fonts/b612';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    B612_Regular400,
-    B612_Regular400_Italic,
-    B612_Bold700,
-    B612_Bold700_Italic,
+    B612_400Regular,
+    B612_400Regular_Italic,
+    B612_700Bold,
+    B612_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,18 +55,18 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612_Regular400' }}>
-          B612_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612_400Regular' }}>
+          B612_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612_Regular400_Italic' }}>
-          B612_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612_400Regular_Italic' }}>
+          B612_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612_Bold700' }}>B612_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612_700Bold' }}>B612_700Bold</Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612_Bold700_Italic' }}>
-          B612_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612_700Bold_Italic' }}>
+          B612_700Bold_Italic
         </Text>
       </View>
     );
@@ -79,17 +77,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### B612_Regular400
-![B612_Regular400](./b11c6d50f8a4ef2abd6df134192e3770a9b392c814caf916bcf0efa87e6743d2.ttf.png)
+##### B612_400Regular
+![B612_400Regular](./B612_400Regular.ttf.png)
 
-##### B612_Regular400_Italic
-![B612_Regular400_Italic](./4250a2e42f4ceda476c771828532dfb8cb2e9170ceb541e8aecc34ecea7977b4.ttf.png)
+##### B612_400Regular_Italic
+![B612_400Regular_Italic](./B612_400Regular_Italic.ttf.png)
 
-##### B612_Bold700
-![B612_Bold700](./d3f9b01c62cb7bf3bc87cbc07452bc98a3058af8a40db93b64528fb711a429ea.ttf.png)
+##### B612_700Bold
+![B612_700Bold](./B612_700Bold.ttf.png)
 
-##### B612_Bold700_Italic
-![B612_Bold700_Italic](./f930926cd0cbbde94c51659420d91fb464c93fa3109c6bdf553a706985e307e2.ttf.png)
+##### B612_700Bold_Italic
+![B612_700Bold_Italic](./B612_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -119,7 +117,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/b612)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

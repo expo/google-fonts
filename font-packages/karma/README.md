@@ -7,19 +7,17 @@
 
 This package lets you use the [**Karma**](https://fonts.google.com/specimen/Karma) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Karma
 
 ![Karma](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `Karma_Light300`
-- `Karma_Regular400`
-- `Karma_Medium500`
-- `Karma_SemiBold600`
-- `Karma_Bold700`
+- `Karma_300Light`
+- `Karma_400Regular`
+- `Karma_500Medium`
+- `Karma_600SemiBold`
+- `Karma_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Karma_Light300,
-  Karma_Regular400,
-  Karma_Medium500,
-  Karma_SemiBold600,
-  Karma_Bold700,
   useFonts,
+  Karma_300Light,
+  Karma_400Regular,
+  Karma_500Medium,
+  Karma_600SemiBold,
+  Karma_700Bold,
 } from '@expo-google-fonts/karma';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Karma_Light300,
-    Karma_Regular400,
-    Karma_Medium500,
-    Karma_SemiBold600,
-    Karma_Bold700,
+    Karma_300Light,
+    Karma_400Regular,
+    Karma_500Medium,
+    Karma_600SemiBold,
+    Karma_700Bold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karma_Light300' }}>
-          Karma_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karma_300Light' }}>
+          Karma_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karma_Regular400' }}>
-          Karma_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karma_400Regular' }}>
+          Karma_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karma_Medium500' }}>
-          Karma_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karma_500Medium' }}>
+          Karma_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karma_SemiBold600' }}>
-          Karma_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karma_600SemiBold' }}>
+          Karma_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karma_Bold700' }}>
-          Karma_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karma_700Bold' }}>
+          Karma_700Bold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Karma_Light300
-![Karma_Light300](./3efd1dc089cbb099173fc03a8bfc22d406db0671888af830ca7137e548369989.ttf.png)
+##### Karma_300Light
+![Karma_300Light](./Karma_300Light.ttf.png)
 
-##### Karma_Regular400
-![Karma_Regular400](./8852b0f721a3603b10be618c6a5ad02f581025568b8db801a75130da5f0c8d48.ttf.png)
+##### Karma_400Regular
+![Karma_400Regular](./Karma_400Regular.ttf.png)
 
-##### Karma_Medium500
-![Karma_Medium500](./2701feff031a171c4d982c100c27cf15d52d5051c49481762f43eeecc4bd54bd.ttf.png)
+##### Karma_500Medium
+![Karma_500Medium](./Karma_500Medium.ttf.png)
 
-##### Karma_SemiBold600
-![Karma_SemiBold600](./932cd064de412606a66f2a06a29ed0003de9669fe26d7f1f9f3e76bfc74dbb78.ttf.png)
+##### Karma_600SemiBold
+![Karma_600SemiBold](./Karma_600SemiBold.ttf.png)
 
-##### Karma_Bold700
-![Karma_Bold700](./132e41c0f90df6a2646b59a685af793e0ce62b2b64245d2db081d1ab1f6889e8.ttf.png)
+##### Karma_700Bold
+![Karma_700Bold](./Karma_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/karma)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

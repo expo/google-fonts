@@ -7,20 +7,18 @@
 
 This package lets you use the [**Mitr**](https://fonts.google.com/specimen/Mitr) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Mitr
 
 ![Mitr](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `Mitr_ExtraLight200`
-- `Mitr_Light300`
-- `Mitr_Regular400`
-- `Mitr_Medium500`
-- `Mitr_SemiBold600`
-- `Mitr_Bold700`
+- `Mitr_200ExtraLight`
+- `Mitr_300Light`
+- `Mitr_400Regular`
+- `Mitr_500Medium`
+- `Mitr_600SemiBold`
+- `Mitr_700Bold`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Mitr_ExtraLight200,
-  Mitr_Light300,
-  Mitr_Regular400,
-  Mitr_Medium500,
-  Mitr_SemiBold600,
-  Mitr_Bold700,
   useFonts,
+  Mitr_200ExtraLight,
+  Mitr_300Light,
+  Mitr_400Regular,
+  Mitr_500Medium,
+  Mitr_600SemiBold,
+  Mitr_700Bold,
 } from '@expo-google-fonts/mitr';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Mitr_ExtraLight200,
-    Mitr_Light300,
-    Mitr_Regular400,
-    Mitr_Medium500,
-    Mitr_SemiBold600,
-    Mitr_Bold700,
+    Mitr_200ExtraLight,
+    Mitr_300Light,
+    Mitr_400Regular,
+    Mitr_500Medium,
+    Mitr_600SemiBold,
+    Mitr_700Bold,
   });
 
   let fontSize = 24;
@@ -63,27 +61,27 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_ExtraLight200' }}>
-          Mitr_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_200ExtraLight' }}>
+          Mitr_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_Light300' }}>
-          Mitr_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_300Light' }}>
+          Mitr_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_Regular400' }}>
-          Mitr_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_400Regular' }}>
+          Mitr_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_Medium500' }}>
-          Mitr_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_500Medium' }}>
+          Mitr_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_SemiBold600' }}>
-          Mitr_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_600SemiBold' }}>
+          Mitr_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_Bold700' }}>Mitr_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_700Bold' }}>Mitr_700Bold</Text>
       </View>
     );
   }
@@ -93,23 +91,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Mitr_ExtraLight200
-![Mitr_ExtraLight200](./13aa43b100ddb2ef3f574409c44d5148c96e262d636030f3546632afc8bec583.ttf.png)
+##### Mitr_200ExtraLight
+![Mitr_200ExtraLight](./Mitr_200ExtraLight.ttf.png)
 
-##### Mitr_Light300
-![Mitr_Light300](./42aaeccd38bab09aab541391f181cf90544aed031b28240064e03a597d820aff.ttf.png)
+##### Mitr_300Light
+![Mitr_300Light](./Mitr_300Light.ttf.png)
 
-##### Mitr_Regular400
-![Mitr_Regular400](./51a838bb86fd8ae3d3b14861b86090b8e590d6cec16828f5ff85cc29e255fdd4.ttf.png)
+##### Mitr_400Regular
+![Mitr_400Regular](./Mitr_400Regular.ttf.png)
 
-##### Mitr_Medium500
-![Mitr_Medium500](./a8c0fad121eecc6ccc06afd51a3ed04b7632eabd778490fabe406d010d492fb6.ttf.png)
+##### Mitr_500Medium
+![Mitr_500Medium](./Mitr_500Medium.ttf.png)
 
-##### Mitr_SemiBold600
-![Mitr_SemiBold600](./f52b41a04226fd35e8292e4074e68cf18847a0b362d1ea41038b6cebcad7953c.ttf.png)
+##### Mitr_600SemiBold
+![Mitr_600SemiBold](./Mitr_600SemiBold.ttf.png)
 
-##### Mitr_Bold700
-![Mitr_Bold700](./302b58d18b982fe3745338cc6ea87e5868436d2ba962262423c98cac9d161c47.ttf.png)
+##### Mitr_700Bold
+![Mitr_700Bold](./Mitr_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -139,7 +137,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/mitr)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

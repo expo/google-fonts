@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Oldenburg';
-export const __fontFamilyVersion__ = 4;
-
-export const Oldenburg_Regular400 = require('./f8c67d292b49c2c0beb3655aa66d9ec6090cc7c03dcfd25c4dbc5518bc9c2ba4.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Oldenburg_400Regular = require('./Oldenburg_400Regular.ttf');

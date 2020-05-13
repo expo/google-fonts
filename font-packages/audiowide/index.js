@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Audiowide';
-export const __fontFamilyVersion__ = 4;
-
-export const Audiowide_Regular400 = require('./2054b5910bd5457176b1479122e09690d5afe73d3749e5ef89a3686e6f724c29.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Audiowide_400Regular = require('./Audiowide_400Regular.ttf');

@@ -4,14 +4,12 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Manuale';
-export const __fontFamilyVersion__ = 2;
-
-export const Manuale_Regular400 = require('./cfd06fa1d33d937fd3d097835096788da1e29fe217c0e6619d7f4e92770987f2.ttf');
-export const Manuale_Regular400_Italic = require('./b7144bb9db9fc28df1a2f22173a91396c535d078a58256b0937d0ed4916ac08d.ttf');
-export const Manuale_Medium500 = require('./bee63de104b5fab81c246551830fd9cf2910da15ffb1fe837913493df2612797.ttf');
-export const Manuale_Medium500_Italic = require('./b9d7d38e3301e49ed48cee4bdbfdf8bf85004f299e7d33795cc55fad29b5406f.ttf');
-export const Manuale_SemiBold600 = require('./1b0e482a58bde31d3c0408ea84a5ce8287b1669e24bb7e75648b20ee859ade8b.ttf');
-export const Manuale_SemiBold600_Italic = require('./023ded306bfcddff115b0b04ed36de8a5184275774cd972ce1fb34d8d917c61e.ttf');
-export const Manuale_Bold700 = require('./50014d6214dc09001362c4e4a770de808a95fc3f590d52d895c9eef86b71d68a.ttf');
-export const Manuale_Bold700_Italic = require('./2a59ed27fb6985f70acb9fc94d9038ae63cfc4a2ddc5226dfecb7c8407b5a93f.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Manuale_400Regular = require('./Manuale_400Regular.ttf');
+export const Manuale_500Medium = require('./Manuale_500Medium.ttf');
+export const Manuale_600SemiBold = require('./Manuale_600SemiBold.ttf');
+export const Manuale_700Bold = require('./Manuale_700Bold.ttf');
+export const Manuale_400Regular_Italic = require('./Manuale_400Regular_Italic.ttf');
+export const Manuale_500Medium_Italic = require('./Manuale_500Medium_Italic.ttf');
+export const Manuale_600SemiBold_Italic = require('./Manuale_600SemiBold_Italic.ttf');
+export const Manuale_700Bold_Italic = require('./Manuale_700Bold_Italic.ttf');

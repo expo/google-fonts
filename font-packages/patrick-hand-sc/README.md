@@ -7,15 +7,13 @@
 
 This package lets you use the [**Patrick Hand SC**](https://fonts.google.com/specimen/Patrick+Hand+SC) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Patrick Hand SC
 
 ![Patrick Hand SC](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `PatrickHandSC_Regular400`
+- `PatrickHandSC_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { PatrickHandSC_Regular400, useFonts } from '@expo-google-fonts/patrick-hand-sc';
+import { useFonts, PatrickHandSC_400Regular } from '@expo-google-fonts/patrick-hand-sc';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    PatrickHandSC_Regular400,
+    PatrickHandSC_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PatrickHandSC_Regular400' }}>
-          PatrickHandSC_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PatrickHandSC_400Regular' }}>
+          PatrickHandSC_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PatrickHandSC_Regular400
-![PatrickHandSC_Regular400](./73b9443b6806844f52e636b33036ac9bba72136e16d3e10e7fc43d906509238c.ttf.png)
+##### PatrickHandSC_400Regular
+![PatrickHandSC_400Regular](./PatrickHandSC_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/patrick-hand-sc)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

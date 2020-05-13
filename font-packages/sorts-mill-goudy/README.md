@@ -7,16 +7,14 @@
 
 This package lets you use the [**Sorts Mill Goudy**](https://fonts.google.com/specimen/Sorts+Mill+Goudy) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sorts Mill Goudy
 
 ![Sorts Mill Goudy](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `SortsMillGoudy_Regular400`
-- `SortsMillGoudy_Regular400_Italic`
+- `SortsMillGoudy_400Regular`
+- `SortsMillGoudy_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  SortsMillGoudy_Regular400,
-  SortsMillGoudy_Regular400_Italic,
   useFonts,
+  SortsMillGoudy_400Regular,
+  SortsMillGoudy_400Regular_Italic,
 } from '@expo-google-fonts/sorts-mill-goudy';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    SortsMillGoudy_Regular400,
-    SortsMillGoudy_Regular400_Italic,
+    SortsMillGoudy_400Regular,
+    SortsMillGoudy_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SortsMillGoudy_Regular400' }}>
-          SortsMillGoudy_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SortsMillGoudy_400Regular' }}>
+          SortsMillGoudy_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SortsMillGoudy_Regular400_Italic' }}>
-          SortsMillGoudy_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SortsMillGoudy_400Regular_Italic' }}>
+          SortsMillGoudy_400Regular_Italic
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SortsMillGoudy_Regular400
-![SortsMillGoudy_Regular400](./70d3ad626ef92c3b9eeaff7e3694af6d64f477a31ab242d11f98704e9903a065.ttf.png)
+##### SortsMillGoudy_400Regular
+![SortsMillGoudy_400Regular](./SortsMillGoudy_400Regular.ttf.png)
 
-##### SortsMillGoudy_Regular400_Italic
-![SortsMillGoudy_Regular400_Italic](./d8d1d17c5bffaec08a5c129dfdbd62c0a538de036da120d20edef29019f0b5bf.ttf.png)
+##### SortsMillGoudy_400Regular_Italic
+![SortsMillGoudy_400Regular_Italic](./SortsMillGoudy_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sorts-mill-goudy)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

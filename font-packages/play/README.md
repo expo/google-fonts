@@ -7,16 +7,14 @@
 
 This package lets you use the [**Play**](https://fonts.google.com/specimen/Play) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Play
 
 ![Play](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Play_Regular400`
-- `Play_Bold700`
+- `Play_400Regular`
+- `Play_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Play_Regular400, Play_Bold700, useFonts } from '@expo-google-fonts/play';
+import { useFonts, Play_400Regular, Play_700Bold } from '@expo-google-fonts/play';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Play_Regular400,
-    Play_Bold700,
+    Play_400Regular,
+    Play_700Bold,
   });
 
   let fontSize = 24;
@@ -47,11 +45,11 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Play_Regular400' }}>
-          Play_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Play_400Regular' }}>
+          Play_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Play_Bold700' }}>Play_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Play_700Bold' }}>Play_700Bold</Text>
       </View>
     );
   }
@@ -61,11 +59,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Play_Regular400
-![Play_Regular400](./e198eae88b87f9891da54cbb4e5b631b4f8e8af961970b14082506c5c1bd3183.ttf.png)
+##### Play_400Regular
+![Play_400Regular](./Play_400Regular.ttf.png)
 
-##### Play_Bold700
-![Play_Bold700](./46b28c6395256a72fe1900fc5218c9ef0c78153157532b0ebc6b6859696d717d.ttf.png)
+##### Play_700Bold
+![Play_700Bold](./Play_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -95,7 +93,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/play)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

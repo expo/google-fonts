@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Petit Formal Script';
-export const __fontFamilyVersion__ = 4;
-
-export const PetitFormalScript_Regular400 = require('./60b5efe480f0bafdd5de13f5786bc9017ffcddab4de13ece1ee542791fe4eba2.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const PetitFormalScript_400Regular = require('./PetitFormalScript_400Regular.ttf');

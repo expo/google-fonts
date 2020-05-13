@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Rye';
-export const __fontFamilyVersion__ = 4;
-
-export const Rye_Regular400 = require('./925017b50d3328d30961faf597e0912d32371e48a76c36b3d89fa06e538003bc.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Rye_400Regular = require('./Rye_400Regular.ttf');

@@ -4,18 +4,16 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'KoHo';
-export const __fontFamilyVersion__ = 3;
-
-export const KoHo_ExtraLight200 = require('./7b4addbdb3d0cadc2f6c0149b90b29c059dc7f2be08d0b28292acb880db45124.ttf');
-export const KoHo_ExtraLight200_Italic = require('./73dd6271884581477beeb0860878fd6b524f3e880cc020295c24e2bf1d41a70c.ttf');
-export const KoHo_Light300 = require('./676e89293e4714a1c63fdd477c5dc88950461834031e2ea0437e65b31fc5a03a.ttf');
-export const KoHo_Light300_Italic = require('./5c2ce20516635678f4f67581782cd3c0429b8cf361e732c24021bc1711fc609e.ttf');
-export const KoHo_Regular400 = require('./e8128e00cc778e37cc7db7f518f22ca833399d8c4bdfac07fd1fd063435ba658.ttf');
-export const KoHo_Regular400_Italic = require('./3225382b5d36a6963f8d1cc5fb60086a657ecb39882bab5259eda483f292af57.ttf');
-export const KoHo_Medium500 = require('./90a011adf31d93ee90f5e105dd20a7a69e7de53626672d10449e9bced87b5916.ttf');
-export const KoHo_Medium500_Italic = require('./cd0a466ebee7135ca6790a7908264c0457b65dbd9c927ec7082f43827d45f5d4.ttf');
-export const KoHo_SemiBold600 = require('./7cf86562498ddfbbaa3a3b5d46e848407702a925472a4a3e76ab1ef1a7949106.ttf');
-export const KoHo_SemiBold600_Italic = require('./cd527fcf4a07b728233b2d93e0ef12477bf9988918e604f16fd823a15a2c3639.ttf');
-export const KoHo_Bold700 = require('./c059ce850125c2f3bec60528a808fea56f6191b9b9bac380a4a38da9d2f42bfa.ttf');
-export const KoHo_Bold700_Italic = require('./16a471d3f9b251d19034945ede1cd8c304c08caba74db67fc08e01556ec0e3b4.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const KoHo_200ExtraLight = require('./KoHo_200ExtraLight.ttf');
+export const KoHo_200ExtraLight_Italic = require('./KoHo_200ExtraLight_Italic.ttf');
+export const KoHo_300Light = require('./KoHo_300Light.ttf');
+export const KoHo_300Light_Italic = require('./KoHo_300Light_Italic.ttf');
+export const KoHo_400Regular = require('./KoHo_400Regular.ttf');
+export const KoHo_400Regular_Italic = require('./KoHo_400Regular_Italic.ttf');
+export const KoHo_500Medium = require('./KoHo_500Medium.ttf');
+export const KoHo_500Medium_Italic = require('./KoHo_500Medium_Italic.ttf');
+export const KoHo_600SemiBold = require('./KoHo_600SemiBold.ttf');
+export const KoHo_600SemiBold_Italic = require('./KoHo_600SemiBold_Italic.ttf');
+export const KoHo_700Bold = require('./KoHo_700Bold.ttf');
+export const KoHo_700Bold_Italic = require('./KoHo_700Bold_Italic.ttf');

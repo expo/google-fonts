@@ -4,10 +4,10 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Nobile';
-export const __fontFamilyVersion__ = 7;
-
-export const Nobile_Regular400 = require('./d0fcaab1c3dc981d4dcbe2840d5a12039de03b68f4f2736ac648e6eb339249c1.ttf');
-export const Nobile_Regular400_Italic = require('./88fda8926ed6fdf634aeaf690e2d21e66e8e88231993df94bf3b2359a617491b.ttf');
-export const Nobile_Bold700 = require('./809ce5e05bb84a8872fd7ec295e71892fab43593a18179bb43c2a0f94cca53d2.ttf');
-export const Nobile_Bold700_Italic = require('./c889dceebe4337abc148cab8adbcb5ad8e6277635316b13a75afb02db100212d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Nobile_400Regular = require('./Nobile_400Regular.ttf');
+export const Nobile_400Regular_Italic = require('./Nobile_400Regular_Italic.ttf');
+export const Nobile_500Medium = require('./Nobile_500Medium.ttf');
+export const Nobile_500Medium_Italic = require('./Nobile_500Medium_Italic.ttf');
+export const Nobile_700Bold = require('./Nobile_700Bold.ttf');
+export const Nobile_700Bold_Italic = require('./Nobile_700Bold_Italic.ttf');

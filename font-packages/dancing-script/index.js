@@ -4,8 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Dancing Script';
-export const __fontFamilyVersion__ = 8;
-
-export const DancingScript_Regular400 = require('./40f021e25f9f4e2b67f5072ac941218596581a1621931f44173cbf5245b91fd3.ttf');
-export const DancingScript_Bold700 = require('./4a2aa446dc86aad49ec46eb66fb313889bded9ef23f286664bba90a2eb156f87.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const DancingScript_400Regular = require('./DancingScript_400Regular.ttf');
+export const DancingScript_500Medium = require('./DancingScript_500Medium.ttf');
+export const DancingScript_600SemiBold = require('./DancingScript_600SemiBold.ttf');
+export const DancingScript_700Bold = require('./DancingScript_700Bold.ttf');

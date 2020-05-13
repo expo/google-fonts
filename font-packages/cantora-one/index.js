@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Cantora One';
-export const __fontFamilyVersion__ = 6;
-
-export const CantoraOne_Regular400 = require('./242d2167789079107cbe59c3e9ccd0339ca51419245296a4659c6b3ad73cc41c.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const CantoraOne_400Regular = require('./CantoraOne_400Regular.ttf');

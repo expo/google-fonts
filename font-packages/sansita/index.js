@@ -4,14 +4,12 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Sansita';
-export const __fontFamilyVersion__ = 1;
-
-export const Sansita_Regular400 = require('./7e365aa3bbe93b56d5d0182d955c0e71da391d8d6a95479cab79fa24ced4e21e.ttf');
-export const Sansita_Regular400_Italic = require('./5aadd2db25ea4fcdeb76680b8b44761b6914ed6b874b5861a9e8c52412b66918.ttf');
-export const Sansita_Bold700 = require('./b4828652c6bf26cd36ad5741e616104c91b8c4023c6a891b4460029e6642a4cb.ttf');
-export const Sansita_Bold700_Italic = require('./50757fb78ba6b455ca114555fcedffe03432f6fd4eb385544018c427a43c0430.ttf');
-export const Sansita_ExtraBold800 = require('./45499f61b5c2d545e14c3d78cc4a76d906ae3a15bacbf4b5479233e04c979cad.ttf');
-export const Sansita_ExtraBold800_Italic = require('./6639d72f7bea1c80dcce732810166ac07da8ae78f5bb5cc798d11f97ce256a0b.ttf');
-export const Sansita_Black900 = require('./21bb47cdb40ec87c2ddbbfcb8b02a2af52cab2e20147315381b65d54d1ae0e5f.ttf');
-export const Sansita_Black900_Italic = require('./2d3308301f6e427d108e0dab0cd6ed936a27d83cfd3dbfbc8693b260574b7cd3.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Sansita_400Regular = require('./Sansita_400Regular.ttf');
+export const Sansita_400Regular_Italic = require('./Sansita_400Regular_Italic.ttf');
+export const Sansita_700Bold = require('./Sansita_700Bold.ttf');
+export const Sansita_700Bold_Italic = require('./Sansita_700Bold_Italic.ttf');
+export const Sansita_800ExtraBold = require('./Sansita_800ExtraBold.ttf');
+export const Sansita_800ExtraBold_Italic = require('./Sansita_800ExtraBold_Italic.ttf');
+export const Sansita_900Black = require('./Sansita_900Black.ttf');
+export const Sansita_900Black_Italic = require('./Sansita_900Black_Italic.ttf');

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Warnes';
-export const __fontFamilyVersion__ = 6;
-
-export const Warnes_Regular400 = require('./509079dd5c127782c43242772c6a327f4e16ede0d28f7d18b01e7092b4e902c8.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Warnes_400Regular = require('./Warnes_400Regular.ttf');

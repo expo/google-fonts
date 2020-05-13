@@ -7,15 +7,13 @@
 
 This package lets you use the [**Lakki Reddy**](https://fonts.google.com/specimen/Lakki+Reddy) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Lakki Reddy
 
 ![Lakki Reddy](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `LakkiReddy_Regular400`
+- `LakkiReddy_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { LakkiReddy_Regular400, useFonts } from '@expo-google-fonts/lakki-reddy';
+import { useFonts, LakkiReddy_400Regular } from '@expo-google-fonts/lakki-reddy';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LakkiReddy_Regular400,
+    LakkiReddy_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LakkiReddy_Regular400' }}>
-          LakkiReddy_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LakkiReddy_400Regular' }}>
+          LakkiReddy_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LakkiReddy_Regular400
-![LakkiReddy_Regular400](./7517025d73568d9d811b25e8c5ef20a9f9d94bb816d4f334668f3c2d2830d079.ttf.png)
+##### LakkiReddy_400Regular
+![LakkiReddy_400Regular](./LakkiReddy_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/lakki-reddy)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

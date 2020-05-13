@@ -7,15 +7,13 @@
 
 This package lets you use the [**Pontano Sans**](https://fonts.google.com/specimen/Pontano+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Pontano Sans
 
 ![Pontano Sans](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `PontanoSans_Regular400`
+- `PontanoSans_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { PontanoSans_Regular400, useFonts } from '@expo-google-fonts/pontano-sans';
+import { useFonts, PontanoSans_400Regular } from '@expo-google-fonts/pontano-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    PontanoSans_Regular400,
+    PontanoSans_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PontanoSans_Regular400' }}>
-          PontanoSans_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PontanoSans_400Regular' }}>
+          PontanoSans_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PontanoSans_Regular400
-![PontanoSans_Regular400](./5642e38228ac272d77222d1b2150dd461c55d090beba64bbb9f11d169e573589.ttf.png)
+##### PontanoSans_400Regular
+![PontanoSans_400Regular](./PontanoSans_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/pontano-sans)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Unkempt';
-export const __fontFamilyVersion__ = 7;
-
-export const Unkempt_Regular400 = require('./d4f6b7d5ae22a39c55f20fa7871901f21fd6c60c5a788fcf578cf326216a1052.ttf');
-export const Unkempt_Bold700 = require('./7fd27119b105972e2538d19f5b9fc686ccaf1e10de3d8c7ab7c7d3e0111700dd.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Unkempt_400Regular = require('./Unkempt_400Regular.ttf');
+export const Unkempt_700Bold = require('./Unkempt_700Bold.ttf');

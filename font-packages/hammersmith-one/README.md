@@ -7,15 +7,13 @@
 
 This package lets you use the [**Hammersmith One**](https://fonts.google.com/specimen/Hammersmith+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Hammersmith One
 
 ![Hammersmith One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `HammersmithOne_Regular400`
+- `HammersmithOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { HammersmithOne_Regular400, useFonts } from '@expo-google-fonts/hammersmith-one';
+import { useFonts, HammersmithOne_400Regular } from '@expo-google-fonts/hammersmith-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    HammersmithOne_Regular400,
+    HammersmithOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HammersmithOne_Regular400' }}>
-          HammersmithOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HammersmithOne_400Regular' }}>
+          HammersmithOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HammersmithOne_Regular400
-![HammersmithOne_Regular400](./bbd2dab2dede4753a7b96c8c6c16d212a15b9feda00f0620edbe4cb62e1604fe.ttf.png)
+##### HammersmithOne_400Regular
+![HammersmithOne_400Regular](./HammersmithOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/hammersmith-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

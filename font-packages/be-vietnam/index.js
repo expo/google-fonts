@@ -4,20 +4,18 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Be Vietnam';
-export const __fontFamilyVersion__ = 1;
-
-export const BeVietnam_Thin100 = require('./0cc0f5cd392e42154ccdcf1ffc6987159ee0807caf89c6ac0796a273c9c80cd4.ttf');
-export const BeVietnam_Thin100_Italic = require('./11b1d7f41abb8a24b4ba203416df07809dbaf7de51619a1d167ab9af0361b6b7.ttf');
-export const BeVietnam_Light300 = require('./03d32b9f1d2ddaa56a41075b22ab477cbc078409bda7fe7f7e030491bf70988a.ttf');
-export const BeVietnam_Light300_Italic = require('./a46d7c089e1fe8c124bc2de7b2cdf8a7f23fc0e9724766f3029c5c528b88b2cf.ttf');
-export const BeVietnam_Regular400 = require('./79220c67d8f8488a5dc457833419e884bef66e01eae43ec9c9b7e2944c5d88f0.ttf');
-export const BeVietnam_Regular400_Italic = require('./e2928c1924824c824cac4ddaa74885a1fb9f3723429fa145c579cde5e79eeba5.ttf');
-export const BeVietnam_Medium500 = require('./8d504a978c86a628884d737bacc817b24a74963f8e36e6cab5e9b81b9977b1f4.ttf');
-export const BeVietnam_Medium500_Italic = require('./a2af11a383bfb3ee1ef8731946b78f349dce66a9151e6724f9428a29af43faac.ttf');
-export const BeVietnam_SemiBold600 = require('./94efd29230ff40c08cd89d8ae44d0e847ad17d53088280868a4bfbe29bc9afe0.ttf');
-export const BeVietnam_SemiBold600_Italic = require('./2e18bd0f37b3e15856f513a8bd6b5d019948460f502359bf06716759b5b07664.ttf');
-export const BeVietnam_Bold700 = require('./6f6fdb78c7c80b7871c787918369b6f9908cb55d29a6f68602b90d557a0ef839.ttf');
-export const BeVietnam_Bold700_Italic = require('./c54104de856f3762629b69585ceb0eed536f7f7a19d2a2e1cdb44c1b1398e6b8.ttf');
-export const BeVietnam_ExtraBold800 = require('./920f1f8cbfb2d9b94b66296e1f4ddf430a02ce638be482c79c598832645fda13.ttf');
-export const BeVietnam_ExtraBold800_Italic = require('./2140e6025b6df417db0a543e64c090a9a5aa119d7523fd43a5f806a1550bdb37.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BeVietnam_100Thin = require('./BeVietnam_100Thin.ttf');
+export const BeVietnam_100Thin_Italic = require('./BeVietnam_100Thin_Italic.ttf');
+export const BeVietnam_300Light = require('./BeVietnam_300Light.ttf');
+export const BeVietnam_300Light_Italic = require('./BeVietnam_300Light_Italic.ttf');
+export const BeVietnam_400Regular = require('./BeVietnam_400Regular.ttf');
+export const BeVietnam_400Regular_Italic = require('./BeVietnam_400Regular_Italic.ttf');
+export const BeVietnam_500Medium = require('./BeVietnam_500Medium.ttf');
+export const BeVietnam_500Medium_Italic = require('./BeVietnam_500Medium_Italic.ttf');
+export const BeVietnam_600SemiBold = require('./BeVietnam_600SemiBold.ttf');
+export const BeVietnam_600SemiBold_Italic = require('./BeVietnam_600SemiBold_Italic.ttf');
+export const BeVietnam_700Bold = require('./BeVietnam_700Bold.ttf');
+export const BeVietnam_700Bold_Italic = require('./BeVietnam_700Bold_Italic.ttf');
+export const BeVietnam_800ExtraBold = require('./BeVietnam_800ExtraBold.ttf');
+export const BeVietnam_800ExtraBold_Italic = require('./BeVietnam_800ExtraBold_Italic.ttf');

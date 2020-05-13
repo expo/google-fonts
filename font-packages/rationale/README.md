@@ -7,15 +7,13 @@
 
 This package lets you use the [**Rationale**](https://fonts.google.com/specimen/Rationale) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Rationale
 
 ![Rationale](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Rationale_Regular400`
+- `Rationale_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Rationale_Regular400, useFonts } from '@expo-google-fonts/rationale';
+import { useFonts, Rationale_400Regular } from '@expo-google-fonts/rationale';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Rationale_Regular400,
+    Rationale_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rationale_Regular400' }}>
-          Rationale_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rationale_400Regular' }}>
+          Rationale_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rationale_Regular400
-![Rationale_Regular400](./be5538f847ecbac23916ea02bdabf914bbcb6d6d35c8ad538b227d6ab3efffee.ttf.png)
+##### Rationale_400Regular
+![Rationale_400Regular](./Rationale_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/rationale)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

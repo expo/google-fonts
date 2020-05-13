@@ -7,15 +7,13 @@
 
 This package lets you use the [**Michroma**](https://fonts.google.com/specimen/Michroma) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Michroma
 
 ![Michroma](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Michroma_Regular400`
+- `Michroma_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Michroma_Regular400, useFonts } from '@expo-google-fonts/michroma';
+import { useFonts, Michroma_400Regular } from '@expo-google-fonts/michroma';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Michroma_Regular400,
+    Michroma_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Michroma_Regular400' }}>
-          Michroma_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Michroma_400Regular' }}>
+          Michroma_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Michroma_Regular400
-![Michroma_Regular400](./5799106e7f554ca9657d0f56c31b6babe55b321aefea779d8eae0c68dec1fd03.ttf.png)
+##### Michroma_400Regular
+![Michroma_400Regular](./Michroma_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/michroma)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,24 +4,22 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Exo';
-export const __fontFamilyVersion__ = 6;
-
-export const Exo_Thin100 = require('./2eda7d4b0bab32b1724ead985ca4ab23ba46b1647e60b50df836f3e142105e85.ttf');
-export const Exo_Thin100_Italic = require('./5315edfaf9326a2112d609345e056a733da22ecf1c3aed8f0a78d51539300ec7.ttf');
-export const Exo_ExtraLight200 = require('./b9271134900d316a8aa07b17a3850ad179e6c77b533419aad39926ab5fbbba5e.ttf');
-export const Exo_ExtraLight200_Italic = require('./58251d3b9daf7e91b2c9371c9800e0dbcd1374a54b0eee6b026a237c4d9fe63c.ttf');
-export const Exo_Light300 = require('./bf846eb403540e7bfaae3e3975ff0577b88730403c02d4b2e57bb241e7294e1f.ttf');
-export const Exo_Light300_Italic = require('./278cc62e59aeca97f6e14f44ded0943df0201e7aa692faff1b40a9e6d7b22dc0.ttf');
-export const Exo_Regular400 = require('./ab24d45bd0887f54e98614ec395c5addfe82b0e8389b4721f5465954e1e2f060.ttf');
-export const Exo_Regular400_Italic = require('./b79a6db3b900824a3c9cbd804a328bc0bd070b648e0615e9a45f5a5c0eb8dd63.ttf');
-export const Exo_Medium500 = require('./cb038971b993fa7fa126ed43d4dc54e20af90eeb8213b0c2a9c735a2c82c0d4e.ttf');
-export const Exo_Medium500_Italic = require('./224493dbc8c8852c0a452618d375990f1383d43ba5f9f4726b4d87ec6c6f50c0.ttf');
-export const Exo_SemiBold600 = require('./754632bf7096e73d05f2e15e3f52a82b34201bad1aa105d6e650de745d120eda.ttf');
-export const Exo_SemiBold600_Italic = require('./397a2c49640d1470bf9df914dfbbfa914148dd86642d25e248193a1f649b27dc.ttf');
-export const Exo_Bold700 = require('./3b0e87021af2542173d6c39db5a95d9e18ba59c0c9aa7ad37b6df04523947309.ttf');
-export const Exo_Bold700_Italic = require('./75d249c747ae8332516fd6d2c3996d3f2c440f659339765dc8e13a97f942ad64.ttf');
-export const Exo_ExtraBold800 = require('./5e5a390588a0eb152906de109ebd9c65d662628da5f1afbb3d17bd4a237c873d.ttf');
-export const Exo_ExtraBold800_Italic = require('./0c6ffd7e0358672dd7d40462c46a11562e062f1cab60d82d80b8a71737cb3141.ttf');
-export const Exo_Black900 = require('./9d12eeaf10d56d2e39321c9d10253d25ccce5e188ab6684ec5eac5d7d9ac99be.ttf');
-export const Exo_Black900_Italic = require('./5a6cc3dfdcfe4e6990da4fa3f55a861ed2ae701a0ae1a30d30b23daafa215604.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Exo_100Thin = require('./Exo_100Thin.ttf');
+export const Exo_200ExtraLight = require('./Exo_200ExtraLight.ttf');
+export const Exo_300Light = require('./Exo_300Light.ttf');
+export const Exo_400Regular = require('./Exo_400Regular.ttf');
+export const Exo_500Medium = require('./Exo_500Medium.ttf');
+export const Exo_600SemiBold = require('./Exo_600SemiBold.ttf');
+export const Exo_700Bold = require('./Exo_700Bold.ttf');
+export const Exo_800ExtraBold = require('./Exo_800ExtraBold.ttf');
+export const Exo_900Black = require('./Exo_900Black.ttf');
+export const Exo_100Thin_Italic = require('./Exo_100Thin_Italic.ttf');
+export const Exo_200ExtraLight_Italic = require('./Exo_200ExtraLight_Italic.ttf');
+export const Exo_300Light_Italic = require('./Exo_300Light_Italic.ttf');
+export const Exo_400Regular_Italic = require('./Exo_400Regular_Italic.ttf');
+export const Exo_500Medium_Italic = require('./Exo_500Medium_Italic.ttf');
+export const Exo_600SemiBold_Italic = require('./Exo_600SemiBold_Italic.ttf');
+export const Exo_700Bold_Italic = require('./Exo_700Bold_Italic.ttf');
+export const Exo_800ExtraBold_Italic = require('./Exo_800ExtraBold_Italic.ttf');
+export const Exo_900Black_Italic = require('./Exo_900Black_Italic.ttf');

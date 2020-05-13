@@ -7,21 +7,19 @@
 
 This package lets you use the [**Mukta Malar**](https://fonts.google.com/specimen/Mukta+Malar) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Mukta Malar
 
 ![Mukta Malar](./font-family.png)
 
 This font family contains [7 styles](#-gallery).
 
-- `MuktaMalar_ExtraLight200`
-- `MuktaMalar_Light300`
-- `MuktaMalar_Regular400`
-- `MuktaMalar_Medium500`
-- `MuktaMalar_SemiBold600`
-- `MuktaMalar_Bold700`
-- `MuktaMalar_ExtraBold800`
+- `MuktaMalar_200ExtraLight`
+- `MuktaMalar_300Light`
+- `MuktaMalar_400Regular`
+- `MuktaMalar_500Medium`
+- `MuktaMalar_600SemiBold`
+- `MuktaMalar_700Bold`
+- `MuktaMalar_800ExtraBold`
 
 ## Usage
 
@@ -37,25 +35,25 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  MuktaMalar_ExtraLight200,
-  MuktaMalar_Light300,
-  MuktaMalar_Regular400,
-  MuktaMalar_Medium500,
-  MuktaMalar_SemiBold600,
-  MuktaMalar_Bold700,
-  MuktaMalar_ExtraBold800,
   useFonts,
+  MuktaMalar_200ExtraLight,
+  MuktaMalar_300Light,
+  MuktaMalar_400Regular,
+  MuktaMalar_500Medium,
+  MuktaMalar_600SemiBold,
+  MuktaMalar_700Bold,
+  MuktaMalar_800ExtraBold,
 } from '@expo-google-fonts/mukta-malar';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MuktaMalar_ExtraLight200,
-    MuktaMalar_Light300,
-    MuktaMalar_Regular400,
-    MuktaMalar_Medium500,
-    MuktaMalar_SemiBold600,
-    MuktaMalar_Bold700,
-    MuktaMalar_ExtraBold800,
+    MuktaMalar_200ExtraLight,
+    MuktaMalar_300Light,
+    MuktaMalar_400Regular,
+    MuktaMalar_500Medium,
+    MuktaMalar_600SemiBold,
+    MuktaMalar_700Bold,
+    MuktaMalar_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -66,32 +64,32 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_ExtraLight200' }}>
-          MuktaMalar_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_200ExtraLight' }}>
+          MuktaMalar_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_Light300' }}>
-          MuktaMalar_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_300Light' }}>
+          MuktaMalar_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_Regular400' }}>
-          MuktaMalar_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_400Regular' }}>
+          MuktaMalar_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_Medium500' }}>
-          MuktaMalar_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_500Medium' }}>
+          MuktaMalar_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_SemiBold600' }}>
-          MuktaMalar_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_600SemiBold' }}>
+          MuktaMalar_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_Bold700' }}>
-          MuktaMalar_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_700Bold' }}>
+          MuktaMalar_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_ExtraBold800' }}>
-          MuktaMalar_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_800ExtraBold' }}>
+          MuktaMalar_800ExtraBold
         </Text>
       </View>
     );
@@ -102,26 +100,26 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MuktaMalar_ExtraLight200
-![MuktaMalar_ExtraLight200](./9ae35f34ee0aecd84455b8074812b101d5d11bc4ae0ada4a90c3e6963cf1b93c.ttf.png)
+##### MuktaMalar_200ExtraLight
+![MuktaMalar_200ExtraLight](./MuktaMalar_200ExtraLight.ttf.png)
 
-##### MuktaMalar_Light300
-![MuktaMalar_Light300](./2d5b4747199d5f755d4d21f2dfb23f52cbeba3d94d82a526575d63a6be36c99b.ttf.png)
+##### MuktaMalar_300Light
+![MuktaMalar_300Light](./MuktaMalar_300Light.ttf.png)
 
-##### MuktaMalar_Regular400
-![MuktaMalar_Regular400](./e58544a43eef9e9b107ca973ca2d3233a1e15b8eddffcc73a3cb767a82c86fd6.ttf.png)
+##### MuktaMalar_400Regular
+![MuktaMalar_400Regular](./MuktaMalar_400Regular.ttf.png)
 
-##### MuktaMalar_Medium500
-![MuktaMalar_Medium500](./05e1d0c09c615550bb87408248e0d42ce654f55e0757f1fa6f4f93323f8c8121.ttf.png)
+##### MuktaMalar_500Medium
+![MuktaMalar_500Medium](./MuktaMalar_500Medium.ttf.png)
 
-##### MuktaMalar_SemiBold600
-![MuktaMalar_SemiBold600](./e4f26dcbc25c0f26d1fce4a3558f4aacdf8089148a638079c3353f6049ae21e9.ttf.png)
+##### MuktaMalar_600SemiBold
+![MuktaMalar_600SemiBold](./MuktaMalar_600SemiBold.ttf.png)
 
-##### MuktaMalar_Bold700
-![MuktaMalar_Bold700](./bacffc5f82b7219e1a4ff85b030aca1a5f805e0a1224534a6f2bfb01e4bd61cc.ttf.png)
+##### MuktaMalar_700Bold
+![MuktaMalar_700Bold](./MuktaMalar_700Bold.ttf.png)
 
-##### MuktaMalar_ExtraBold800
-![MuktaMalar_ExtraBold800](./848b7be10b4d701ac02f5f2208071858aa399b564d503cd2e4ca428d25886da9.ttf.png)
+##### MuktaMalar_800ExtraBold
+![MuktaMalar_800ExtraBold](./MuktaMalar_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -151,7 +149,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/mukta-malar)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

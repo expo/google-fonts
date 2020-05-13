@@ -7,15 +7,13 @@
 
 This package lets you use the [**Gloria Hallelujah**](https://fonts.google.com/specimen/Gloria+Hallelujah) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Gloria Hallelujah
 
 ![Gloria Hallelujah](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `GloriaHallelujah_Regular400`
+- `GloriaHallelujah_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { GloriaHallelujah_Regular400, useFonts } from '@expo-google-fonts/gloria-hallelujah';
+import { useFonts, GloriaHallelujah_400Regular } from '@expo-google-fonts/gloria-hallelujah';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    GloriaHallelujah_Regular400,
+    GloriaHallelujah_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GloriaHallelujah_Regular400' }}>
-          GloriaHallelujah_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GloriaHallelujah_400Regular' }}>
+          GloriaHallelujah_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GloriaHallelujah_Regular400
-![GloriaHallelujah_Regular400](./0ea0610b2d462be9ddfd55db487fd670e7b0855857d198cc6293f623adc66ff8.ttf.png)
+##### GloriaHallelujah_400Regular
+![GloriaHallelujah_400Regular](./GloriaHallelujah_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/gloria-hallelujah)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,16 +7,14 @@
 
 This package lets you use the [**Srisakdi**](https://fonts.google.com/specimen/Srisakdi) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Srisakdi
 
 ![Srisakdi](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Srisakdi_Regular400`
-- `Srisakdi_Bold700`
+- `Srisakdi_400Regular`
+- `Srisakdi_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Srisakdi_Regular400, Srisakdi_Bold700, useFonts } from '@expo-google-fonts/srisakdi';
+import { useFonts, Srisakdi_400Regular, Srisakdi_700Bold } from '@expo-google-fonts/srisakdi';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Srisakdi_Regular400,
-    Srisakdi_Bold700,
+    Srisakdi_400Regular,
+    Srisakdi_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Srisakdi_Regular400' }}>
-          Srisakdi_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Srisakdi_400Regular' }}>
+          Srisakdi_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Srisakdi_Bold700' }}>
-          Srisakdi_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Srisakdi_700Bold' }}>
+          Srisakdi_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Srisakdi_Regular400
-![Srisakdi_Regular400](./5b078682ce7a5aa20cc137b975bd70e97752800f9ba9fc1761c050ef3bffc84a.ttf.png)
+##### Srisakdi_400Regular
+![Srisakdi_400Regular](./Srisakdi_400Regular.ttf.png)
 
-##### Srisakdi_Bold700
-![Srisakdi_Bold700](./a3084b442fdea4ccce8907fe71e60006e0bcd2b686cd8c5d2c572d0483a1e27a.ttf.png)
+##### Srisakdi_700Bold
+![Srisakdi_700Bold](./Srisakdi_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/srisakdi)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

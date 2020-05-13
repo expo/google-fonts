@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Kotta One';
-export const __fontFamilyVersion__ = 4;
-
-export const KottaOne_Regular400 = require('./0d0a0a70c6c66af4f55948fe817266bdb57b4ac8de0a0fe31f41350ccb139a41.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const KottaOne_400Regular = require('./KottaOne_400Regular.ttf');

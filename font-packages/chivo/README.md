@@ -7,22 +7,20 @@
 
 This package lets you use the [**Chivo**](https://fonts.google.com/specimen/Chivo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Chivo
 
 ![Chivo](./font-family.png)
 
 This font family contains [8 styles](#-gallery).
 
-- `Chivo_Light300`
-- `Chivo_Light300_Italic`
-- `Chivo_Regular400`
-- `Chivo_Regular400_Italic`
-- `Chivo_Bold700`
-- `Chivo_Bold700_Italic`
-- `Chivo_Black900`
-- `Chivo_Black900_Italic`
+- `Chivo_300Light`
+- `Chivo_300Light_Italic`
+- `Chivo_400Regular`
+- `Chivo_400Regular_Italic`
+- `Chivo_700Bold`
+- `Chivo_700Bold_Italic`
+- `Chivo_900Black`
+- `Chivo_900Black_Italic`
 
 ## Usage
 
@@ -38,27 +36,27 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Chivo_Light300,
-  Chivo_Light300_Italic,
-  Chivo_Regular400,
-  Chivo_Regular400_Italic,
-  Chivo_Bold700,
-  Chivo_Bold700_Italic,
-  Chivo_Black900,
-  Chivo_Black900_Italic,
   useFonts,
+  Chivo_300Light,
+  Chivo_300Light_Italic,
+  Chivo_400Regular,
+  Chivo_400Regular_Italic,
+  Chivo_700Bold,
+  Chivo_700Bold_Italic,
+  Chivo_900Black,
+  Chivo_900Black_Italic,
 } from '@expo-google-fonts/chivo';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Chivo_Light300,
-    Chivo_Light300_Italic,
-    Chivo_Regular400,
-    Chivo_Regular400_Italic,
-    Chivo_Bold700,
-    Chivo_Bold700_Italic,
-    Chivo_Black900,
-    Chivo_Black900_Italic,
+    Chivo_300Light,
+    Chivo_300Light_Italic,
+    Chivo_400Regular,
+    Chivo_400Regular_Italic,
+    Chivo_700Bold,
+    Chivo_700Bold_Italic,
+    Chivo_900Black,
+    Chivo_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -69,36 +67,36 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_Light300' }}>
-          Chivo_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_300Light' }}>
+          Chivo_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_Light300_Italic' }}>
-          Chivo_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_300Light_Italic' }}>
+          Chivo_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_Regular400' }}>
-          Chivo_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_400Regular' }}>
+          Chivo_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_Regular400_Italic' }}>
-          Chivo_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_400Regular_Italic' }}>
+          Chivo_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_Bold700' }}>
-          Chivo_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_700Bold' }}>
+          Chivo_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_Bold700_Italic' }}>
-          Chivo_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_700Bold_Italic' }}>
+          Chivo_700Bold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_Black900' }}>
-          Chivo_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_900Black' }}>
+          Chivo_900Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_Black900_Italic' }}>
-          Chivo_Black900_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_900Black_Italic' }}>
+          Chivo_900Black_Italic
         </Text>
       </View>
     );
@@ -109,29 +107,29 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Chivo_Light300
-![Chivo_Light300](./994635489f0d118a198cb7efcdd1b61cbd4431c9e6426fffad5b731c4d2c1a5c.ttf.png)
+##### Chivo_300Light
+![Chivo_300Light](./Chivo_300Light.ttf.png)
 
-##### Chivo_Light300_Italic
-![Chivo_Light300_Italic](./f512baee58b1fc81a387836a8de41c055d2bebbfde221bd5f6829c1db58d9baa.ttf.png)
+##### Chivo_300Light_Italic
+![Chivo_300Light_Italic](./Chivo_300Light_Italic.ttf.png)
 
-##### Chivo_Regular400
-![Chivo_Regular400](./c45551e766074f40061345617f0e07c5a4a2ecbd70ce90f3c7456284827c3184.ttf.png)
+##### Chivo_400Regular
+![Chivo_400Regular](./Chivo_400Regular.ttf.png)
 
-##### Chivo_Regular400_Italic
-![Chivo_Regular400_Italic](./1940d6e1383f625468fbb0231dc6d8ea95eda2d8483e23e66e94d6bb05996ca2.ttf.png)
+##### Chivo_400Regular_Italic
+![Chivo_400Regular_Italic](./Chivo_400Regular_Italic.ttf.png)
 
-##### Chivo_Bold700
-![Chivo_Bold700](./49e634b98df69d1812b9406be76ebe8c76888e0202ae16c267aff5f9897d279f.ttf.png)
+##### Chivo_700Bold
+![Chivo_700Bold](./Chivo_700Bold.ttf.png)
 
-##### Chivo_Bold700_Italic
-![Chivo_Bold700_Italic](./eea6f18e9fa02d840e18d03dfe74e65437743472807f1f0a93bb11254419cdb4.ttf.png)
+##### Chivo_700Bold_Italic
+![Chivo_700Bold_Italic](./Chivo_700Bold_Italic.ttf.png)
 
-##### Chivo_Black900
-![Chivo_Black900](./b16f1d6acd367f8f1dd75d71e56027975f5f4c661b7272c0ae41a0635d55908a.ttf.png)
+##### Chivo_900Black
+![Chivo_900Black](./Chivo_900Black.ttf.png)
 
-##### Chivo_Black900_Italic
-![Chivo_Black900_Italic](./da92d63af2ecddbae2e8cf92a528caebcba3ed94b7b00e2ab04d228c4622c806.ttf.png)
+##### Chivo_900Black_Italic
+![Chivo_900Black_Italic](./Chivo_900Black_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -161,7 +159,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/chivo)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

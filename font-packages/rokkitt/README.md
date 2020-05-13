@@ -7,23 +7,21 @@
 
 This package lets you use the [**Rokkitt**](https://fonts.google.com/specimen/Rokkitt) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Rokkitt
 
 ![Rokkitt](./font-family.png)
 
 This font family contains [9 styles](#-gallery).
 
-- `Rokkitt_Thin100`
-- `Rokkitt_ExtraLight200`
-- `Rokkitt_Light300`
-- `Rokkitt_Regular400`
-- `Rokkitt_Medium500`
-- `Rokkitt_SemiBold600`
-- `Rokkitt_Bold700`
-- `Rokkitt_ExtraBold800`
-- `Rokkitt_Black900`
+- `Rokkitt_100Thin`
+- `Rokkitt_200ExtraLight`
+- `Rokkitt_300Light`
+- `Rokkitt_400Regular`
+- `Rokkitt_500Medium`
+- `Rokkitt_600SemiBold`
+- `Rokkitt_700Bold`
+- `Rokkitt_800ExtraBold`
+- `Rokkitt_900Black`
 
 ## Usage
 
@@ -39,29 +37,29 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Rokkitt_Thin100,
-  Rokkitt_ExtraLight200,
-  Rokkitt_Light300,
-  Rokkitt_Regular400,
-  Rokkitt_Medium500,
-  Rokkitt_SemiBold600,
-  Rokkitt_Bold700,
-  Rokkitt_ExtraBold800,
-  Rokkitt_Black900,
   useFonts,
+  Rokkitt_100Thin,
+  Rokkitt_200ExtraLight,
+  Rokkitt_300Light,
+  Rokkitt_400Regular,
+  Rokkitt_500Medium,
+  Rokkitt_600SemiBold,
+  Rokkitt_700Bold,
+  Rokkitt_800ExtraBold,
+  Rokkitt_900Black,
 } from '@expo-google-fonts/rokkitt';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Rokkitt_Thin100,
-    Rokkitt_ExtraLight200,
-    Rokkitt_Light300,
-    Rokkitt_Regular400,
-    Rokkitt_Medium500,
-    Rokkitt_SemiBold600,
-    Rokkitt_Bold700,
-    Rokkitt_ExtraBold800,
-    Rokkitt_Black900,
+    Rokkitt_100Thin,
+    Rokkitt_200ExtraLight,
+    Rokkitt_300Light,
+    Rokkitt_400Regular,
+    Rokkitt_500Medium,
+    Rokkitt_600SemiBold,
+    Rokkitt_700Bold,
+    Rokkitt_800ExtraBold,
+    Rokkitt_900Black,
   });
 
   let fontSize = 24;
@@ -72,40 +70,40 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_Thin100' }}>
-          Rokkitt_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_100Thin' }}>
+          Rokkitt_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_ExtraLight200' }}>
-          Rokkitt_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_200ExtraLight' }}>
+          Rokkitt_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_Light300' }}>
-          Rokkitt_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_300Light' }}>
+          Rokkitt_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_Regular400' }}>
-          Rokkitt_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_400Regular' }}>
+          Rokkitt_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_Medium500' }}>
-          Rokkitt_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_500Medium' }}>
+          Rokkitt_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_SemiBold600' }}>
-          Rokkitt_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_600SemiBold' }}>
+          Rokkitt_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_Bold700' }}>
-          Rokkitt_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_700Bold' }}>
+          Rokkitt_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_ExtraBold800' }}>
-          Rokkitt_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_800ExtraBold' }}>
+          Rokkitt_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_Black900' }}>
-          Rokkitt_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_900Black' }}>
+          Rokkitt_900Black
         </Text>
       </View>
     );
@@ -116,32 +114,32 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rokkitt_Thin100
-![Rokkitt_Thin100](./9a0a1b138370aa3841a848edde26bd7045ac2a5a0f13a513b247417c3489811c.ttf.png)
+##### Rokkitt_100Thin
+![Rokkitt_100Thin](./Rokkitt_100Thin.ttf.png)
 
-##### Rokkitt_ExtraLight200
-![Rokkitt_ExtraLight200](./840d357a7d06133d859000a071917c4ea92f02d0f001f247137046392166ff1b.ttf.png)
+##### Rokkitt_200ExtraLight
+![Rokkitt_200ExtraLight](./Rokkitt_200ExtraLight.ttf.png)
 
-##### Rokkitt_Light300
-![Rokkitt_Light300](./19b250411cba0e1bc39378cf1e47ecbd217b7b52e845159655611f9cce3f016f.ttf.png)
+##### Rokkitt_300Light
+![Rokkitt_300Light](./Rokkitt_300Light.ttf.png)
 
-##### Rokkitt_Regular400
-![Rokkitt_Regular400](./d605b424de78054bd585518d8a4e136ab863ab5f3110ee43cb0745bca0f94eb3.ttf.png)
+##### Rokkitt_400Regular
+![Rokkitt_400Regular](./Rokkitt_400Regular.ttf.png)
 
-##### Rokkitt_Medium500
-![Rokkitt_Medium500](./c3ce457383a5f17f5736ecff7d423f0d5e1f10ba000e7a78145fef0d293439c7.ttf.png)
+##### Rokkitt_500Medium
+![Rokkitt_500Medium](./Rokkitt_500Medium.ttf.png)
 
-##### Rokkitt_SemiBold600
-![Rokkitt_SemiBold600](./710018ab00f1b7534021eb425d0afa5cd1ccc82a3d91a174d7f359afac93f384.ttf.png)
+##### Rokkitt_600SemiBold
+![Rokkitt_600SemiBold](./Rokkitt_600SemiBold.ttf.png)
 
-##### Rokkitt_Bold700
-![Rokkitt_Bold700](./76808b96844704a6d75bee1943315ea236557fc6fb1a239ec5fcee6f9c5fcd58.ttf.png)
+##### Rokkitt_700Bold
+![Rokkitt_700Bold](./Rokkitt_700Bold.ttf.png)
 
-##### Rokkitt_ExtraBold800
-![Rokkitt_ExtraBold800](./1e99689267ca0778d003215820f88badff6b9986410c8b9d07d2c857c6e04beb.ttf.png)
+##### Rokkitt_800ExtraBold
+![Rokkitt_800ExtraBold](./Rokkitt_800ExtraBold.ttf.png)
 
-##### Rokkitt_Black900
-![Rokkitt_Black900](./a8cf419d654432575866170e1d718f434f7f5cfa52673194ae8fc3d08cbefe92.ttf.png)
+##### Rokkitt_900Black
+![Rokkitt_900Black](./Rokkitt_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -171,7 +169,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/rokkitt)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

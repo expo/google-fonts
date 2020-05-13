@@ -7,15 +7,13 @@
 
 This package lets you use the [**Rancho**](https://fonts.google.com/specimen/Rancho) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Rancho
 
 ![Rancho](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Rancho_Regular400`
+- `Rancho_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Rancho_Regular400, useFonts } from '@expo-google-fonts/rancho';
+import { useFonts, Rancho_400Regular } from '@expo-google-fonts/rancho';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Rancho_Regular400,
+    Rancho_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rancho_Regular400' }}>
-          Rancho_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rancho_400Regular' }}>
+          Rancho_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rancho_Regular400
-![Rancho_Regular400](./2691ae7a785afc3443c02c1383179f3e510bbcbe3015a78c6b04b9a2ce719ea2.ttf.png)
+##### Rancho_400Regular
+![Rancho_400Regular](./Rancho_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/rancho)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

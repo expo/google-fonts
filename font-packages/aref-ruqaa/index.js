@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Aref Ruqaa';
-export const __fontFamilyVersion__ = 1;
-
-export const ArefRuqaa_Regular400 = require('./483d6ce42473c62a61b38dc4e30c6b1a5d9b02921ab5034c8eec4b8f0496127d.ttf');
-export const ArefRuqaa_Bold700 = require('./4ea198095e22fea5b0b08338b3b524a2ac489bd669154eab1927955f20124358.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ArefRuqaa_400Regular = require('./ArefRuqaa_400Regular.ttf');
+export const ArefRuqaa_700Bold = require('./ArefRuqaa_700Bold.ttf');

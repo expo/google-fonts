@@ -7,15 +7,13 @@
 
 This package lets you use the [**UnifrakturCook**](https://fonts.google.com/specimen/UnifrakturCook) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## UnifrakturCook
 
 ![UnifrakturCook](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `UnifrakturCook_Bold700`
+- `UnifrakturCook_700Bold`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { UnifrakturCook_Bold700, useFonts } from '@expo-google-fonts/unifrakturcook';
+import { useFonts, UnifrakturCook_700Bold } from '@expo-google-fonts/unifrakturcook';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    UnifrakturCook_Bold700,
+    UnifrakturCook_700Bold,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'UnifrakturCook_Bold700' }}>
-          UnifrakturCook_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'UnifrakturCook_700Bold' }}>
+          UnifrakturCook_700Bold
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### UnifrakturCook_Bold700
-![UnifrakturCook_Bold700](./36511c1da21b02a70a6926e12d439ba9c9dba3d5ff0a282c31fa85c4ca96a121.ttf.png)
+##### UnifrakturCook_700Bold
+![UnifrakturCook_700Bold](./UnifrakturCook_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/unifrakturcook)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

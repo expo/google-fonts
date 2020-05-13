@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Varela Round';
-export const __fontFamilyVersion__ = 8;
-
-export const VarelaRound_Regular400 = require('./23459f7eed93ae80137b9ac0c3c1ab000743c9c983fb7c14b6d5f3ceb8e4eb15.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const VarelaRound_400Regular = require('./VarelaRound_400Regular.ttf');

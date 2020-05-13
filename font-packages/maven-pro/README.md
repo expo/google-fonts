@@ -7,18 +7,18 @@
 
 This package lets you use the [**Maven Pro**](https://fonts.google.com/specimen/Maven+Pro) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Maven Pro
 
 ![Maven Pro](./font-family.png)
 
-This font family contains [4 styles](#-gallery).
+This font family contains [6 styles](#-gallery).
 
-- `MavenPro_Regular400`
-- `MavenPro_Medium500`
-- `MavenPro_Bold700`
-- `MavenPro_Black900`
+- `MavenPro_400Regular`
+- `MavenPro_500Medium`
+- `MavenPro_600SemiBold`
+- `MavenPro_700Bold`
+- `MavenPro_800ExtraBold`
+- `MavenPro_900Black`
 
 ## Usage
 
@@ -34,19 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  MavenPro_Regular400,
-  MavenPro_Medium500,
-  MavenPro_Bold700,
-  MavenPro_Black900,
   useFonts,
+  MavenPro_400Regular,
+  MavenPro_500Medium,
+  MavenPro_600SemiBold,
+  MavenPro_700Bold,
+  MavenPro_800ExtraBold,
+  MavenPro_900Black,
 } from '@expo-google-fonts/maven-pro';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MavenPro_Regular400,
-    MavenPro_Medium500,
-    MavenPro_Bold700,
-    MavenPro_Black900,
+    MavenPro_400Regular,
+    MavenPro_500Medium,
+    MavenPro_600SemiBold,
+    MavenPro_700Bold,
+    MavenPro_800ExtraBold,
+    MavenPro_900Black,
   });
 
   let fontSize = 24;
@@ -57,20 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MavenPro_Regular400' }}>
-          MavenPro_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MavenPro_400Regular' }}>
+          MavenPro_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MavenPro_Medium500' }}>
-          MavenPro_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MavenPro_500Medium' }}>
+          MavenPro_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MavenPro_Bold700' }}>
-          MavenPro_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MavenPro_600SemiBold' }}>
+          MavenPro_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MavenPro_Black900' }}>
-          MavenPro_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MavenPro_700Bold' }}>
+          MavenPro_700Bold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MavenPro_800ExtraBold' }}>
+          MavenPro_800ExtraBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MavenPro_900Black' }}>
+          MavenPro_900Black
         </Text>
       </View>
     );
@@ -81,17 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MavenPro_Regular400
-![MavenPro_Regular400](./20ff29ac0e19858eec2689ee81f18e45489d0afec4b61a21036d0c755edafcd7.ttf.png)
+##### MavenPro_400Regular
+![MavenPro_400Regular](./MavenPro_400Regular.ttf.png)
 
-##### MavenPro_Medium500
-![MavenPro_Medium500](./afd784d77bd20f7e76864636023d94a988f8732c47ec791f79d096b11d1c327c.ttf.png)
+##### MavenPro_500Medium
+![MavenPro_500Medium](./MavenPro_500Medium.ttf.png)
 
-##### MavenPro_Bold700
-![MavenPro_Bold700](./1f1c606af4cb59fd55c5e9d478e3c109eb47ee3c48c458ab10edcbcde15f0562.ttf.png)
+##### MavenPro_600SemiBold
+![MavenPro_600SemiBold](./MavenPro_600SemiBold.ttf.png)
 
-##### MavenPro_Black900
-![MavenPro_Black900](./9a922f263eff247f7ccc3823865c2b9241e10c305b6c64b3754dbb06ce6b5e33.ttf.png)
+##### MavenPro_700Bold
+![MavenPro_700Bold](./MavenPro_700Bold.ttf.png)
+
+##### MavenPro_800ExtraBold
+![MavenPro_800ExtraBold](./MavenPro_800ExtraBold.ttf.png)
+
+##### MavenPro_900Black
+![MavenPro_900Black](./MavenPro_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/maven-pro)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

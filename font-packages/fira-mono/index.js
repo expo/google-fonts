@@ -4,9 +4,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Fira Mono';
-export const __fontFamilyVersion__ = 5;
-
-export const FiraMono_Regular400 = require('./f17d60778f78f5928584a4f314a221b328dbce03da62fcc09caeebac82f76809.ttf');
-export const FiraMono_Medium500 = require('./003aa1dc6866482549cf715d4075e470701e918eadd47a035568d8d254f63e02.ttf');
-export const FiraMono_Bold700 = require('./4dab36f8faa3f89e09e177a6ef40eaacd307b98b2a38a14426be96ce9ed67a3b.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const FiraMono_400Regular = require('./FiraMono_400Regular.ttf');
+export const FiraMono_500Medium = require('./FiraMono_500Medium.ttf');
+export const FiraMono_700Bold = require('./FiraMono_700Bold.ttf');

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Akronim**](https://fonts.google.com/specimen/Akronim) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Akronim
 
 ![Akronim](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Akronim_Regular400`
+- `Akronim_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Akronim_Regular400, useFonts } from '@expo-google-fonts/akronim';
+import { useFonts, Akronim_400Regular } from '@expo-google-fonts/akronim';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Akronim_Regular400,
+    Akronim_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Akronim_Regular400' }}>
-          Akronim_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Akronim_400Regular' }}>
+          Akronim_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Akronim_Regular400
-![Akronim_Regular400](./bb077a1601fc7353abf83d6f7e667b5c1ff47a853f2a90f466be1dd738f4e6a1.ttf.png)
+##### Akronim_400Regular
+![Akronim_400Regular](./Akronim_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/akronim)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

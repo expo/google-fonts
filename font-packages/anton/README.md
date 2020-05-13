@@ -7,15 +7,13 @@
 
 This package lets you use the [**Anton**](https://fonts.google.com/specimen/Anton) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Anton
 
 ![Anton](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Anton_Regular400`
+- `Anton_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Anton_Regular400, useFonts } from '@expo-google-fonts/anton';
+import { useFonts, Anton_400Regular } from '@expo-google-fonts/anton';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Anton_Regular400,
+    Anton_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Anton_Regular400' }}>
-          Anton_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Anton_400Regular' }}>
+          Anton_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Anton_Regular400
-![Anton_Regular400](./e0d29150a430129b0bfdaabaa46ba1e7967ccabc46440a5789bffe18b7dfcc2d.ttf.png)
+##### Anton_400Regular
+![Anton_400Regular](./Anton_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/anton)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

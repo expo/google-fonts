@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Concert One';
-export const __fontFamilyVersion__ = 7;
-
-export const ConcertOne_Regular400 = require('./2539111a44381dd36a5a1ab7f50323edd3755088027d0c83419b5ecb88ac14e2.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ConcertOne_400Regular = require('./ConcertOne_400Regular.ttf');

@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Codystar';
-export const __fontFamilyVersion__ = 4;
-
-export const Codystar_Light300 = require('./d8599cf77d1a295657a62a9be2067a1d7c27dad40e7ae89910c6516e57f1fdb1.ttf');
-export const Codystar_Regular400 = require('./5d2fb67af692de14dd1f3b942de494168b78c1cef3cc103867d36c4281ac0b00.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Codystar_300Light = require('./Codystar_300Light.ttf');
+export const Codystar_400Regular = require('./Codystar_400Regular.ttf');

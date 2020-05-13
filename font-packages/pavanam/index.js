@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Pavanam';
-export const __fontFamilyVersion__ = 1;
-
-export const Pavanam_Regular400 = require('./177d645082f388adf4ae3cf8413e270d77cbb5f7b24b7d521cce366a857de30a.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Pavanam_400Regular = require('./Pavanam_400Regular.ttf');

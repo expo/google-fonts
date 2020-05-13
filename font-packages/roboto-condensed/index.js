@@ -4,12 +4,10 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Roboto Condensed';
-export const __fontFamilyVersion__ = 16;
-
-export const RobotoCondensed_Light300 = require('./779b7e4fc31ca5d743e125a1799e9c79dc6ac4ec6e87ca8668ddbe5a157114d7.ttf');
-export const RobotoCondensed_Light300_Italic = require('./f3f74b2f03d3c52f24982b0c06b087165cebeeff210f3db18314a3cede24d9c5.ttf');
-export const RobotoCondensed_Regular400 = require('./a0e62c76df9173512c94484b3994d83d2b4648dadb8ea6104f3656a3b60f25bc.ttf');
-export const RobotoCondensed_Regular400_Italic = require('./271bd0834c4b4fdb5c9c023bbb4067bb29b29e248cd45f845be792f649d30934.ttf');
-export const RobotoCondensed_Bold700 = require('./75a8116fe33c85a153cc824951286cc88ea5c5278e72f1ad56bf94693e9302e7.ttf');
-export const RobotoCondensed_Bold700_Italic = require('./6aeda8628b19ddf4671e2e3710998ea138a2cd845f54640bb82f89acad0bbaf6.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const RobotoCondensed_300Light = require('./RobotoCondensed_300Light.ttf');
+export const RobotoCondensed_300Light_Italic = require('./RobotoCondensed_300Light_Italic.ttf');
+export const RobotoCondensed_400Regular = require('./RobotoCondensed_400Regular.ttf');
+export const RobotoCondensed_400Regular_Italic = require('./RobotoCondensed_400Regular_Italic.ttf');
+export const RobotoCondensed_700Bold = require('./RobotoCondensed_700Bold.ttf');
+export const RobotoCondensed_700Bold_Italic = require('./RobotoCondensed_700Bold_Italic.ttf');

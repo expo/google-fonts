@@ -7,15 +7,13 @@
 
 This package lets you use the [**Marmelad**](https://fonts.google.com/specimen/Marmelad) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Marmelad
 
 ![Marmelad](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Marmelad_Regular400`
+- `Marmelad_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Marmelad_Regular400, useFonts } from '@expo-google-fonts/marmelad';
+import { useFonts, Marmelad_400Regular } from '@expo-google-fonts/marmelad';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Marmelad_Regular400,
+    Marmelad_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Marmelad_Regular400' }}>
-          Marmelad_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Marmelad_400Regular' }}>
+          Marmelad_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Marmelad_Regular400
-![Marmelad_Regular400](./9d26c08790a329b7df0bf3cd14c6102856d22040c14545f72c05a2f1f47633d6.ttf.png)
+##### Marmelad_400Regular
+![Marmelad_400Regular](./Marmelad_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/marmelad)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

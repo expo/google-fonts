@@ -7,15 +7,13 @@
 
 This package lets you use the [**Brawler**](https://fonts.google.com/specimen/Brawler) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Brawler
 
 ![Brawler](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Brawler_Regular400`
+- `Brawler_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Brawler_Regular400, useFonts } from '@expo-google-fonts/brawler';
+import { useFonts, Brawler_400Regular } from '@expo-google-fonts/brawler';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Brawler_Regular400,
+    Brawler_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Brawler_Regular400' }}>
-          Brawler_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Brawler_400Regular' }}>
+          Brawler_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Brawler_Regular400
-![Brawler_Regular400](./58683ec3f93abe0d96615faa1fc7fce9f3297205572a4c8c6265d0be27219279.ttf.png)
+##### Brawler_400Regular
+![Brawler_400Regular](./Brawler_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/brawler)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

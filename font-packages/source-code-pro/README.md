@@ -7,21 +7,26 @@
 
 This package lets you use the [**Source Code Pro**](https://fonts.google.com/specimen/Source+Code+Pro) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Source Code Pro
 
 ![Source Code Pro](./font-family.png)
 
-This font family contains [7 styles](#-gallery).
+This font family contains [14 styles](#-gallery).
 
-- `SourceCodePro_ExtraLight200`
-- `SourceCodePro_Light300`
-- `SourceCodePro_Regular400`
-- `SourceCodePro_Medium500`
-- `SourceCodePro_SemiBold600`
-- `SourceCodePro_Bold700`
-- `SourceCodePro_Black900`
+- `SourceCodePro_200ExtraLight`
+- `SourceCodePro_200ExtraLight_Italic`
+- `SourceCodePro_300Light`
+- `SourceCodePro_300Light_Italic`
+- `SourceCodePro_400Regular`
+- `SourceCodePro_400Regular_Italic`
+- `SourceCodePro_500Medium`
+- `SourceCodePro_500Medium_Italic`
+- `SourceCodePro_600SemiBold`
+- `SourceCodePro_600SemiBold_Italic`
+- `SourceCodePro_700Bold`
+- `SourceCodePro_700Bold_Italic`
+- `SourceCodePro_900Black`
+- `SourceCodePro_900Black_Italic`
 
 ## Usage
 
@@ -37,25 +42,39 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  SourceCodePro_ExtraLight200,
-  SourceCodePro_Light300,
-  SourceCodePro_Regular400,
-  SourceCodePro_Medium500,
-  SourceCodePro_SemiBold600,
-  SourceCodePro_Bold700,
-  SourceCodePro_Black900,
   useFonts,
+  SourceCodePro_200ExtraLight,
+  SourceCodePro_200ExtraLight_Italic,
+  SourceCodePro_300Light,
+  SourceCodePro_300Light_Italic,
+  SourceCodePro_400Regular,
+  SourceCodePro_400Regular_Italic,
+  SourceCodePro_500Medium,
+  SourceCodePro_500Medium_Italic,
+  SourceCodePro_600SemiBold,
+  SourceCodePro_600SemiBold_Italic,
+  SourceCodePro_700Bold,
+  SourceCodePro_700Bold_Italic,
+  SourceCodePro_900Black,
+  SourceCodePro_900Black_Italic,
 } from '@expo-google-fonts/source-code-pro';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    SourceCodePro_ExtraLight200,
-    SourceCodePro_Light300,
-    SourceCodePro_Regular400,
-    SourceCodePro_Medium500,
-    SourceCodePro_SemiBold600,
-    SourceCodePro_Bold700,
-    SourceCodePro_Black900,
+    SourceCodePro_200ExtraLight,
+    SourceCodePro_200ExtraLight_Italic,
+    SourceCodePro_300Light,
+    SourceCodePro_300Light_Italic,
+    SourceCodePro_400Regular,
+    SourceCodePro_400Regular_Italic,
+    SourceCodePro_500Medium,
+    SourceCodePro_500Medium_Italic,
+    SourceCodePro_600SemiBold,
+    SourceCodePro_600SemiBold_Italic,
+    SourceCodePro_700Bold,
+    SourceCodePro_700Bold_Italic,
+    SourceCodePro_900Black,
+    SourceCodePro_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -66,32 +85,61 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_ExtraLight200' }}>
-          SourceCodePro_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_200ExtraLight' }}>
+          SourceCodePro_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_Light300' }}>
-          SourceCodePro_Light300
+        <Text
+          style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_200ExtraLight_Italic' }}>
+          SourceCodePro_200ExtraLight_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_Regular400' }}>
-          SourceCodePro_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_300Light' }}>
+          SourceCodePro_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_Medium500' }}>
-          SourceCodePro_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_300Light_Italic' }}>
+          SourceCodePro_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_SemiBold600' }}>
-          SourceCodePro_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_400Regular' }}>
+          SourceCodePro_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_Bold700' }}>
-          SourceCodePro_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_400Regular_Italic' }}>
+          SourceCodePro_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_Black900' }}>
-          SourceCodePro_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_500Medium' }}>
+          SourceCodePro_500Medium
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_500Medium_Italic' }}>
+          SourceCodePro_500Medium_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_600SemiBold' }}>
+          SourceCodePro_600SemiBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_600SemiBold_Italic' }}>
+          SourceCodePro_600SemiBold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_700Bold' }}>
+          SourceCodePro_700Bold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_700Bold_Italic' }}>
+          SourceCodePro_700Bold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_900Black' }}>
+          SourceCodePro_900Black
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_900Black_Italic' }}>
+          SourceCodePro_900Black_Italic
         </Text>
       </View>
     );
@@ -102,26 +150,47 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SourceCodePro_ExtraLight200
-![SourceCodePro_ExtraLight200](./5a618360951a8134d26923216c53da2cee51d55e6e2ca0003ecfe111b701bae5.ttf.png)
+##### SourceCodePro_200ExtraLight
+![SourceCodePro_200ExtraLight](./SourceCodePro_200ExtraLight.ttf.png)
 
-##### SourceCodePro_Light300
-![SourceCodePro_Light300](./e0184502d4eb4b41dcd3d65fecad4fcf8b6b46f13967b60ac98eedcc43aacb30.ttf.png)
+##### SourceCodePro_200ExtraLight_Italic
+![SourceCodePro_200ExtraLight_Italic](./SourceCodePro_200ExtraLight_Italic.ttf.png)
 
-##### SourceCodePro_Regular400
-![SourceCodePro_Regular400](./2d1bcd5038af1287746b7b1d1a4db65f091b3e9811428076d43a73121893922d.ttf.png)
+##### SourceCodePro_300Light
+![SourceCodePro_300Light](./SourceCodePro_300Light.ttf.png)
 
-##### SourceCodePro_Medium500
-![SourceCodePro_Medium500](./18daf5f11e4f1462c2a5b5f8e439dfce5a846e27eff21a622f9031f58d257aa2.ttf.png)
+##### SourceCodePro_300Light_Italic
+![SourceCodePro_300Light_Italic](./SourceCodePro_300Light_Italic.ttf.png)
 
-##### SourceCodePro_SemiBold600
-![SourceCodePro_SemiBold600](./807061463bc4cdacd2299a10cc0b7862e4a925cb984fec0016307fea9df6aa78.ttf.png)
+##### SourceCodePro_400Regular
+![SourceCodePro_400Regular](./SourceCodePro_400Regular.ttf.png)
 
-##### SourceCodePro_Bold700
-![SourceCodePro_Bold700](./51b4ad25947aa6ab4e72faea203ad4b74e4de08b9bbc4d254cdd9dc26dfc2d19.ttf.png)
+##### SourceCodePro_400Regular_Italic
+![SourceCodePro_400Regular_Italic](./SourceCodePro_400Regular_Italic.ttf.png)
 
-##### SourceCodePro_Black900
-![SourceCodePro_Black900](./677bde76eea8889e4ec713ec738f7fadd150aee2ffca36efb65946a45e6b93cc.ttf.png)
+##### SourceCodePro_500Medium
+![SourceCodePro_500Medium](./SourceCodePro_500Medium.ttf.png)
+
+##### SourceCodePro_500Medium_Italic
+![SourceCodePro_500Medium_Italic](./SourceCodePro_500Medium_Italic.ttf.png)
+
+##### SourceCodePro_600SemiBold
+![SourceCodePro_600SemiBold](./SourceCodePro_600SemiBold.ttf.png)
+
+##### SourceCodePro_600SemiBold_Italic
+![SourceCodePro_600SemiBold_Italic](./SourceCodePro_600SemiBold_Italic.ttf.png)
+
+##### SourceCodePro_700Bold
+![SourceCodePro_700Bold](./SourceCodePro_700Bold.ttf.png)
+
+##### SourceCodePro_700Bold_Italic
+![SourceCodePro_700Bold_Italic](./SourceCodePro_700Bold_Italic.ttf.png)
+
+##### SourceCodePro_900Black
+![SourceCodePro_900Black](./SourceCodePro_900Black.ttf.png)
+
+##### SourceCodePro_900Black_Italic
+![SourceCodePro_900Black_Italic](./SourceCodePro_900Black_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -151,7 +220,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/source-code-pro)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

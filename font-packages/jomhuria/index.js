@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Jomhuria';
-export const __fontFamilyVersion__ = 2;
-
-export const Jomhuria_Regular400 = require('./6dce267ed457cc6f5511cd60d4fbbc941e2c0cf029959a91effbd93815f66d47.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Jomhuria_400Regular = require('./Jomhuria_400Regular.ttf');

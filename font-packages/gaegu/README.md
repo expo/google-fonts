@@ -7,17 +7,15 @@
 
 This package lets you use the [**Gaegu**](https://fonts.google.com/specimen/Gaegu) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Gaegu
 
 ![Gaegu](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `Gaegu_Light300`
-- `Gaegu_Regular400`
-- `Gaegu_Bold700`
+- `Gaegu_300Light`
+- `Gaegu_400Regular`
+- `Gaegu_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Gaegu_Light300,
-  Gaegu_Regular400,
-  Gaegu_Bold700,
   useFonts,
+  Gaegu_300Light,
+  Gaegu_400Regular,
+  Gaegu_700Bold,
 } from '@expo-google-fonts/gaegu';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Gaegu_Light300,
-    Gaegu_Regular400,
-    Gaegu_Bold700,
+    Gaegu_300Light,
+    Gaegu_400Regular,
+    Gaegu_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gaegu_Light300' }}>
-          Gaegu_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gaegu_300Light' }}>
+          Gaegu_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gaegu_Regular400' }}>
-          Gaegu_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gaegu_400Regular' }}>
+          Gaegu_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gaegu_Bold700' }}>
-          Gaegu_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gaegu_700Bold' }}>
+          Gaegu_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gaegu_Light300
-![Gaegu_Light300](./4b15c05b09479751067fd7c35435678b929504ea6e4a7e996ab5d09a77df6a9c.ttf.png)
+##### Gaegu_300Light
+![Gaegu_300Light](./Gaegu_300Light.ttf.png)
 
-##### Gaegu_Regular400
-![Gaegu_Regular400](./aee336135ec347654a2f36421c05f5d68a6017eec18e264e58e7aeda0f702951.ttf.png)
+##### Gaegu_400Regular
+![Gaegu_400Regular](./Gaegu_400Regular.ttf.png)
 
-##### Gaegu_Bold700
-![Gaegu_Bold700](./047c721d06b371ebfb6f94beb758b1de181d8afc8c8e6eca6829405bd8a1cb91.ttf.png)
+##### Gaegu_700Bold
+![Gaegu_700Bold](./Gaegu_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/gaegu)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

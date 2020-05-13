@@ -7,16 +7,14 @@
 
 This package lets you use the [**IM Fell English**](https://fonts.google.com/specimen/IM+Fell+English) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## IM Fell English
 
 ![IM Fell English](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `IMFellEnglish_Regular400`
-- `IMFellEnglish_Regular400_Italic`
+- `IMFellEnglish_400Regular`
+- `IMFellEnglish_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  IMFellEnglish_Regular400,
-  IMFellEnglish_Regular400_Italic,
   useFonts,
+  IMFellEnglish_400Regular,
+  IMFellEnglish_400Regular_Italic,
 } from '@expo-google-fonts/im-fell-english';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    IMFellEnglish_Regular400,
-    IMFellEnglish_Regular400_Italic,
+    IMFellEnglish_400Regular,
+    IMFellEnglish_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IMFellEnglish_Regular400' }}>
-          IMFellEnglish_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IMFellEnglish_400Regular' }}>
+          IMFellEnglish_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IMFellEnglish_Regular400_Italic' }}>
-          IMFellEnglish_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IMFellEnglish_400Regular_Italic' }}>
+          IMFellEnglish_400Regular_Italic
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IMFellEnglish_Regular400
-![IMFellEnglish_Regular400](./1f559be93fb1947f0551b021260410225bbafe0586dd5236d734d852bf0769f1.ttf.png)
+##### IMFellEnglish_400Regular
+![IMFellEnglish_400Regular](./IMFellEnglish_400Regular.ttf.png)
 
-##### IMFellEnglish_Regular400_Italic
-![IMFellEnglish_Regular400_Italic](./67701b098b491cf87633fd626de486662128571e48aee106245d472750bcd7c4.ttf.png)
+##### IMFellEnglish_400Regular_Italic
+![IMFellEnglish_400Regular_Italic](./IMFellEnglish_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/im-fell-english)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

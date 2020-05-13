@@ -7,17 +7,17 @@
 
 This package lets you use the [**Kreon**](https://fonts.google.com/specimen/Kreon) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Kreon
 
 ![Kreon](./font-family.png)
 
-This font family contains [3 styles](#-gallery).
+This font family contains [5 styles](#-gallery).
 
-- `Kreon_Light300`
-- `Kreon_Regular400`
-- `Kreon_Bold700`
+- `Kreon_300Light`
+- `Kreon_400Regular`
+- `Kreon_500Medium`
+- `Kreon_600SemiBold`
+- `Kreon_700Bold`
 
 ## Usage
 
@@ -33,17 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Kreon_Light300,
-  Kreon_Regular400,
-  Kreon_Bold700,
   useFonts,
+  Kreon_300Light,
+  Kreon_400Regular,
+  Kreon_500Medium,
+  Kreon_600SemiBold,
+  Kreon_700Bold,
 } from '@expo-google-fonts/kreon';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Kreon_Light300,
-    Kreon_Regular400,
-    Kreon_Bold700,
+    Kreon_300Light,
+    Kreon_400Regular,
+    Kreon_500Medium,
+    Kreon_600SemiBold,
+    Kreon_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kreon_Light300' }}>
-          Kreon_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kreon_300Light' }}>
+          Kreon_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kreon_Regular400' }}>
-          Kreon_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kreon_400Regular' }}>
+          Kreon_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kreon_Bold700' }}>
-          Kreon_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kreon_500Medium' }}>
+          Kreon_500Medium
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kreon_600SemiBold' }}>
+          Kreon_600SemiBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kreon_700Bold' }}>
+          Kreon_700Bold
         </Text>
       </View>
     );
@@ -74,14 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Kreon_Light300
-![Kreon_Light300](./988fb49f563aec3452b26437e4cef99cd52bf368c5fb6c30e7b9e1419e4a3723.ttf.png)
+##### Kreon_300Light
+![Kreon_300Light](./Kreon_300Light.ttf.png)
 
-##### Kreon_Regular400
-![Kreon_Regular400](./95de76c3d8f95714fbfda4a89b6cf0b74a4285d9d0f81908cbd91c7146109d83.ttf.png)
+##### Kreon_400Regular
+![Kreon_400Regular](./Kreon_400Regular.ttf.png)
 
-##### Kreon_Bold700
-![Kreon_Bold700](./9d9092c90a6173026afefda0a94456688b33166363b733d8d42200e68837b012.ttf.png)
+##### Kreon_500Medium
+![Kreon_500Medium](./Kreon_500Medium.ttf.png)
+
+##### Kreon_600SemiBold
+![Kreon_600SemiBold](./Kreon_600SemiBold.ttf.png)
+
+##### Kreon_700Bold
+![Kreon_700Bold](./Kreon_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/kreon)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,18 +4,16 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bai Jamjuree';
-export const __fontFamilyVersion__ = 3;
-
-export const BaiJamjuree_ExtraLight200 = require('./fdb9acd5c9a309240a161cc16a0a5e3a1f3bf9258d1f2cf14fdfdf6f79d83c8e.ttf');
-export const BaiJamjuree_ExtraLight200_Italic = require('./fff587a7a746a3d84947c3982968551180877152f29ac4e6b58a5d060e741ee3.ttf');
-export const BaiJamjuree_Light300 = require('./253ea5a1c8d0d3dacbf5b9f0db496617c2af6b95a5e0680df9c9c62b989b1799.ttf');
-export const BaiJamjuree_Light300_Italic = require('./c31f0c72862a5db7605a1625ddf34cc3c20c1c8a756b7d8848bf7f57a2707e0c.ttf');
-export const BaiJamjuree_Regular400 = require('./c1dad5e37560fcacf02277fc359aecaab78b734f4a4839c6cf910296b20101fa.ttf');
-export const BaiJamjuree_Regular400_Italic = require('./e8939d2176c550b12487aed8e2fbc3b25917494c1174787534ed05c61be397f2.ttf');
-export const BaiJamjuree_Medium500 = require('./9f9c01d94ba412108985bed479c74ca19d6b1b8c6982ee1fc113a970d5d323ea.ttf');
-export const BaiJamjuree_Medium500_Italic = require('./01569d323f908485836ed8c94772695fc05a4b02812f4f29a62ec257f911b55b.ttf');
-export const BaiJamjuree_SemiBold600 = require('./a2ef2b81cbfb6b9a14a4bb8931a87a0887e676e237a098c40aa9e61d601dcbd2.ttf');
-export const BaiJamjuree_SemiBold600_Italic = require('./7db95e5673e505c331643e67b6172b4465e72300e3642242b55e75a28d7f5883.ttf');
-export const BaiJamjuree_Bold700 = require('./e456eaafee629c1aa6ffda2fbc121b9b76b54ab7f4b6dcaac6a4a523263b2237.ttf');
-export const BaiJamjuree_Bold700_Italic = require('./3445df11af52dc901fce718f3b68b4df5dc14a6c7b2ae6399dcf47c7fa7dd34b.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BaiJamjuree_200ExtraLight = require('./BaiJamjuree_200ExtraLight.ttf');
+export const BaiJamjuree_200ExtraLight_Italic = require('./BaiJamjuree_200ExtraLight_Italic.ttf');
+export const BaiJamjuree_300Light = require('./BaiJamjuree_300Light.ttf');
+export const BaiJamjuree_300Light_Italic = require('./BaiJamjuree_300Light_Italic.ttf');
+export const BaiJamjuree_400Regular = require('./BaiJamjuree_400Regular.ttf');
+export const BaiJamjuree_400Regular_Italic = require('./BaiJamjuree_400Regular_Italic.ttf');
+export const BaiJamjuree_500Medium = require('./BaiJamjuree_500Medium.ttf');
+export const BaiJamjuree_500Medium_Italic = require('./BaiJamjuree_500Medium_Italic.ttf');
+export const BaiJamjuree_600SemiBold = require('./BaiJamjuree_600SemiBold.ttf');
+export const BaiJamjuree_600SemiBold_Italic = require('./BaiJamjuree_600SemiBold_Italic.ttf');
+export const BaiJamjuree_700Bold = require('./BaiJamjuree_700Bold.ttf');
+export const BaiJamjuree_700Bold_Italic = require('./BaiJamjuree_700Bold_Italic.ttf');

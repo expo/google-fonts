@@ -4,11 +4,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Hind Vadodara';
-export const __fontFamilyVersion__ = 3;
-
-export const HindVadodara_Light300 = require('./28ad92a17d66f3a0995bb68875c29dba3cdaf9fb43feb40a882e2eb2638b7d0e.ttf');
-export const HindVadodara_Regular400 = require('./9ceba975d8428bc0815764806b013c8ab2629dd726f64eedc432d9089567ba31.ttf');
-export const HindVadodara_Medium500 = require('./99808cdfa62f14d0fb695cf7a37fd7987ec1f14b71dfd11d87f428432e5641c7.ttf');
-export const HindVadodara_SemiBold600 = require('./931dba7983e3c75f3bcfc57cbb486114347aa39bd48e261bf327bfc5d2b2f7cd.ttf');
-export const HindVadodara_Bold700 = require('./e717f555c38c3a3665cdb7fc053e8b12904225205d5eab82b472417208c7c483.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const HindVadodara_300Light = require('./HindVadodara_300Light.ttf');
+export const HindVadodara_400Regular = require('./HindVadodara_400Regular.ttf');
+export const HindVadodara_500Medium = require('./HindVadodara_500Medium.ttf');
+export const HindVadodara_600SemiBold = require('./HindVadodara_600SemiBold.ttf');
+export const HindVadodara_700Bold = require('./HindVadodara_700Bold.ttf');

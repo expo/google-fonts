@@ -7,15 +7,13 @@
 
 This package lets you use the [**Antic Didone**](https://fonts.google.com/specimen/Antic+Didone) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Antic Didone
 
 ![Antic Didone](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `AnticDidone_Regular400`
+- `AnticDidone_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { AnticDidone_Regular400, useFonts } from '@expo-google-fonts/antic-didone';
+import { useFonts, AnticDidone_400Regular } from '@expo-google-fonts/antic-didone';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    AnticDidone_Regular400,
+    AnticDidone_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AnticDidone_Regular400' }}>
-          AnticDidone_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AnticDidone_400Regular' }}>
+          AnticDidone_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AnticDidone_Regular400
-![AnticDidone_Regular400](./ed8ca32ea2c34cc27f4a10cdf51c0ddb35d0cd580df90b19e68d8096a145ec35.ttf.png)
+##### AnticDidone_400Regular
+![AnticDidone_400Regular](./AnticDidone_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/antic-didone)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

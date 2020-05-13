@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Istok Web';
-export const __fontFamilyVersion__ = 10;
-
-export const IstokWeb_Regular400 = require('./69f0e211d11c1acf74b2c9076af79b8c4437700758d0282acf48674ef128953a.ttf');
-export const IstokWeb_Regular400_Italic = require('./05eee5ff9d276f82970504c5e15e6097ae58262e043f86c6620a18611cdcf94e.ttf');
-export const IstokWeb_Bold700 = require('./000e33f7e7a72f87087ee83ef75edf7993294fc065f5f8e52ae6ca1c90c7517f.ttf');
-export const IstokWeb_Bold700_Italic = require('./c19d7189ef0fb5066351d3851d3a386722d97b98c62fc344ffce8f4f1889512a.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const IstokWeb_400Regular = require('./IstokWeb_400Regular.ttf');
+export const IstokWeb_400Regular_Italic = require('./IstokWeb_400Regular_Italic.ttf');
+export const IstokWeb_700Bold = require('./IstokWeb_700Bold.ttf');
+export const IstokWeb_700Bold_Italic = require('./IstokWeb_700Bold_Italic.ttf');

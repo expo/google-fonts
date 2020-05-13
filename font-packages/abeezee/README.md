@@ -7,16 +7,14 @@
 
 This package lets you use the [**ABeeZee**](https://fonts.google.com/specimen/ABeeZee) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## ABeeZee
 
 ![ABeeZee](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `ABeeZee_Regular400`
-- `ABeeZee_Regular400_Italic`
+- `ABeeZee_400Regular`
+- `ABeeZee_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  ABeeZee_Regular400,
-  ABeeZee_Regular400_Italic,
   useFonts,
+  ABeeZee_400Regular,
+  ABeeZee_400Regular_Italic,
 } from '@expo-google-fonts/abeezee';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    ABeeZee_Regular400,
-    ABeeZee_Regular400_Italic,
+    ABeeZee_400Regular,
+    ABeeZee_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ABeeZee_Regular400' }}>
-          ABeeZee_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ABeeZee_400Regular' }}>
+          ABeeZee_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ABeeZee_Regular400_Italic' }}>
-          ABeeZee_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'ABeeZee_400Regular_Italic' }}>
+          ABeeZee_400Regular_Italic
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ABeeZee_Regular400
-![ABeeZee_Regular400](./2ff99dd1bd594806e1b9f7423a75f1c1dfbbbcddb2698b3ab91f5709b1b90caf.ttf.png)
+##### ABeeZee_400Regular
+![ABeeZee_400Regular](./ABeeZee_400Regular.ttf.png)
 
-##### ABeeZee_Regular400_Italic
-![ABeeZee_Regular400_Italic](./8654a417521bf7fa4ffd1a7f7b62648648c5415ff0f7e0d53474e4436d049b7a.ttf.png)
+##### ABeeZee_400Regular_Italic
+![ABeeZee_400Regular_Italic](./ABeeZee_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/abeezee)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

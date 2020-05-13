@@ -7,28 +7,26 @@
 
 This package lets you use the [**IBM Plex Mono**](https://fonts.google.com/specimen/IBM+Plex+Mono) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## IBM Plex Mono
 
 ![IBM Plex Mono](./font-family.png)
 
 This font family contains [14 styles](#-gallery).
 
-- `IBMPlexMono_Thin100`
-- `IBMPlexMono_Thin100_Italic`
-- `IBMPlexMono_ExtraLight200`
-- `IBMPlexMono_ExtraLight200_Italic`
-- `IBMPlexMono_Light300`
-- `IBMPlexMono_Light300_Italic`
-- `IBMPlexMono_Regular400`
-- `IBMPlexMono_Regular400_Italic`
-- `IBMPlexMono_Medium500`
-- `IBMPlexMono_Medium500_Italic`
-- `IBMPlexMono_SemiBold600`
-- `IBMPlexMono_SemiBold600_Italic`
-- `IBMPlexMono_Bold700`
-- `IBMPlexMono_Bold700_Italic`
+- `IBMPlexMono_100Thin`
+- `IBMPlexMono_100Thin_Italic`
+- `IBMPlexMono_200ExtraLight`
+- `IBMPlexMono_200ExtraLight_Italic`
+- `IBMPlexMono_300Light`
+- `IBMPlexMono_300Light_Italic`
+- `IBMPlexMono_400Regular`
+- `IBMPlexMono_400Regular_Italic`
+- `IBMPlexMono_500Medium`
+- `IBMPlexMono_500Medium_Italic`
+- `IBMPlexMono_600SemiBold`
+- `IBMPlexMono_600SemiBold_Italic`
+- `IBMPlexMono_700Bold`
+- `IBMPlexMono_700Bold_Italic`
 
 ## Usage
 
@@ -44,39 +42,39 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  IBMPlexMono_Thin100,
-  IBMPlexMono_Thin100_Italic,
-  IBMPlexMono_ExtraLight200,
-  IBMPlexMono_ExtraLight200_Italic,
-  IBMPlexMono_Light300,
-  IBMPlexMono_Light300_Italic,
-  IBMPlexMono_Regular400,
-  IBMPlexMono_Regular400_Italic,
-  IBMPlexMono_Medium500,
-  IBMPlexMono_Medium500_Italic,
-  IBMPlexMono_SemiBold600,
-  IBMPlexMono_SemiBold600_Italic,
-  IBMPlexMono_Bold700,
-  IBMPlexMono_Bold700_Italic,
   useFonts,
+  IBMPlexMono_100Thin,
+  IBMPlexMono_100Thin_Italic,
+  IBMPlexMono_200ExtraLight,
+  IBMPlexMono_200ExtraLight_Italic,
+  IBMPlexMono_300Light,
+  IBMPlexMono_300Light_Italic,
+  IBMPlexMono_400Regular,
+  IBMPlexMono_400Regular_Italic,
+  IBMPlexMono_500Medium,
+  IBMPlexMono_500Medium_Italic,
+  IBMPlexMono_600SemiBold,
+  IBMPlexMono_600SemiBold_Italic,
+  IBMPlexMono_700Bold,
+  IBMPlexMono_700Bold_Italic,
 } from '@expo-google-fonts/ibm-plex-mono';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    IBMPlexMono_Thin100,
-    IBMPlexMono_Thin100_Italic,
-    IBMPlexMono_ExtraLight200,
-    IBMPlexMono_ExtraLight200_Italic,
-    IBMPlexMono_Light300,
-    IBMPlexMono_Light300_Italic,
-    IBMPlexMono_Regular400,
-    IBMPlexMono_Regular400_Italic,
-    IBMPlexMono_Medium500,
-    IBMPlexMono_Medium500_Italic,
-    IBMPlexMono_SemiBold600,
-    IBMPlexMono_SemiBold600_Italic,
-    IBMPlexMono_Bold700,
-    IBMPlexMono_Bold700_Italic,
+    IBMPlexMono_100Thin,
+    IBMPlexMono_100Thin_Italic,
+    IBMPlexMono_200ExtraLight,
+    IBMPlexMono_200ExtraLight_Italic,
+    IBMPlexMono_300Light,
+    IBMPlexMono_300Light_Italic,
+    IBMPlexMono_400Regular,
+    IBMPlexMono_400Regular_Italic,
+    IBMPlexMono_500Medium,
+    IBMPlexMono_500Medium_Italic,
+    IBMPlexMono_600SemiBold,
+    IBMPlexMono_600SemiBold_Italic,
+    IBMPlexMono_700Bold,
+    IBMPlexMono_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -87,60 +85,60 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_Thin100' }}>
-          IBMPlexMono_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_100Thin' }}>
+          IBMPlexMono_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_Thin100_Italic' }}>
-          IBMPlexMono_Thin100_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_100Thin_Italic' }}>
+          IBMPlexMono_100Thin_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_ExtraLight200' }}>
-          IBMPlexMono_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_200ExtraLight' }}>
+          IBMPlexMono_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_ExtraLight200_Italic' }}>
-          IBMPlexMono_ExtraLight200_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_200ExtraLight_Italic' }}>
+          IBMPlexMono_200ExtraLight_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_Light300' }}>
-          IBMPlexMono_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_300Light' }}>
+          IBMPlexMono_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_Light300_Italic' }}>
-          IBMPlexMono_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_300Light_Italic' }}>
+          IBMPlexMono_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_Regular400' }}>
-          IBMPlexMono_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_400Regular' }}>
+          IBMPlexMono_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_Regular400_Italic' }}>
-          IBMPlexMono_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_400Regular_Italic' }}>
+          IBMPlexMono_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_Medium500' }}>
-          IBMPlexMono_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_500Medium' }}>
+          IBMPlexMono_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_Medium500_Italic' }}>
-          IBMPlexMono_Medium500_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_500Medium_Italic' }}>
+          IBMPlexMono_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_SemiBold600' }}>
-          IBMPlexMono_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_600SemiBold' }}>
+          IBMPlexMono_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_SemiBold600_Italic' }}>
-          IBMPlexMono_SemiBold600_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_600SemiBold_Italic' }}>
+          IBMPlexMono_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_Bold700' }}>
-          IBMPlexMono_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_700Bold' }}>
+          IBMPlexMono_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_Bold700_Italic' }}>
-          IBMPlexMono_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexMono_700Bold_Italic' }}>
+          IBMPlexMono_700Bold_Italic
         </Text>
       </View>
     );
@@ -151,47 +149,47 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IBMPlexMono_Thin100
-![IBMPlexMono_Thin100](./0b176030119e3bf8008cc3a1ab395de2490609893cbf42c9ad93a1b97131c1ad.ttf.png)
+##### IBMPlexMono_100Thin
+![IBMPlexMono_100Thin](./IBMPlexMono_100Thin.ttf.png)
 
-##### IBMPlexMono_Thin100_Italic
-![IBMPlexMono_Thin100_Italic](./49cc21b7b1c2e02aec83be236218fc1bf64c43ab6693d02e5f57dc5c4d580a42.ttf.png)
+##### IBMPlexMono_100Thin_Italic
+![IBMPlexMono_100Thin_Italic](./IBMPlexMono_100Thin_Italic.ttf.png)
 
-##### IBMPlexMono_ExtraLight200
-![IBMPlexMono_ExtraLight200](./84f407c2acc498e7797432543eba48500150e851182f2706d2a48e4fc61aef13.ttf.png)
+##### IBMPlexMono_200ExtraLight
+![IBMPlexMono_200ExtraLight](./IBMPlexMono_200ExtraLight.ttf.png)
 
-##### IBMPlexMono_ExtraLight200_Italic
-![IBMPlexMono_ExtraLight200_Italic](./973e67e339972330580f84b47bc69af70b6ffb871605061a2c44830772432449.ttf.png)
+##### IBMPlexMono_200ExtraLight_Italic
+![IBMPlexMono_200ExtraLight_Italic](./IBMPlexMono_200ExtraLight_Italic.ttf.png)
 
-##### IBMPlexMono_Light300
-![IBMPlexMono_Light300](./7860eafcb749cd16c35f7d63a81d0d83919b82475eeb29338cd5eea961a4bbfd.ttf.png)
+##### IBMPlexMono_300Light
+![IBMPlexMono_300Light](./IBMPlexMono_300Light.ttf.png)
 
-##### IBMPlexMono_Light300_Italic
-![IBMPlexMono_Light300_Italic](./ad14a6133399a3b691d1311e56718da47fe30d69f6f48d68f43c25f62084f4d0.ttf.png)
+##### IBMPlexMono_300Light_Italic
+![IBMPlexMono_300Light_Italic](./IBMPlexMono_300Light_Italic.ttf.png)
 
-##### IBMPlexMono_Regular400
-![IBMPlexMono_Regular400](./4e5360e6435ca0fda23ac8bde947e30a690395bedc6a0e0f9b360aceeb490851.ttf.png)
+##### IBMPlexMono_400Regular
+![IBMPlexMono_400Regular](./IBMPlexMono_400Regular.ttf.png)
 
-##### IBMPlexMono_Regular400_Italic
-![IBMPlexMono_Regular400_Italic](./8b7513201954154b316d56ba7185e0f58200a044e0150145e17d797a98dcbb52.ttf.png)
+##### IBMPlexMono_400Regular_Italic
+![IBMPlexMono_400Regular_Italic](./IBMPlexMono_400Regular_Italic.ttf.png)
 
-##### IBMPlexMono_Medium500
-![IBMPlexMono_Medium500](./8bea2481c75885bfb6d132add1b2ac6d4ccdbedfa94dda1d4dc34e7d00ca8ffd.ttf.png)
+##### IBMPlexMono_500Medium
+![IBMPlexMono_500Medium](./IBMPlexMono_500Medium.ttf.png)
 
-##### IBMPlexMono_Medium500_Italic
-![IBMPlexMono_Medium500_Italic](./eb363301d9364248dd094562021ed86fc2b1b9e2351f313c635e72b14d98179f.ttf.png)
+##### IBMPlexMono_500Medium_Italic
+![IBMPlexMono_500Medium_Italic](./IBMPlexMono_500Medium_Italic.ttf.png)
 
-##### IBMPlexMono_SemiBold600
-![IBMPlexMono_SemiBold600](./b6f0266c5d40d72cd5d4051aaa3dc1836d7874fc40471cae205892e07fdd87ad.ttf.png)
+##### IBMPlexMono_600SemiBold
+![IBMPlexMono_600SemiBold](./IBMPlexMono_600SemiBold.ttf.png)
 
-##### IBMPlexMono_SemiBold600_Italic
-![IBMPlexMono_SemiBold600_Italic](./48174c08a0c28ee87d255c8380c23b2beca649d5ed46c8287c5062304417209b.ttf.png)
+##### IBMPlexMono_600SemiBold_Italic
+![IBMPlexMono_600SemiBold_Italic](./IBMPlexMono_600SemiBold_Italic.ttf.png)
 
-##### IBMPlexMono_Bold700
-![IBMPlexMono_Bold700](./089c2f087950891775cef79553f8c15f825bea671e0a1323f495354feb06d3b3.ttf.png)
+##### IBMPlexMono_700Bold
+![IBMPlexMono_700Bold](./IBMPlexMono_700Bold.ttf.png)
 
-##### IBMPlexMono_Bold700_Italic
-![IBMPlexMono_Bold700_Italic](./3fdca15f4f471d5ef3f57c790ad9b09474ab6d24e75f300f10c9eb8219ddad39.ttf.png)
+##### IBMPlexMono_700Bold_Italic
+![IBMPlexMono_700Bold_Italic](./IBMPlexMono_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -221,7 +219,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/ibm-plex-mono)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

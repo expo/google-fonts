@@ -7,15 +7,13 @@
 
 This package lets you use the [**Dokdo**](https://fonts.google.com/specimen/Dokdo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Dokdo
 
 ![Dokdo](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Dokdo_Regular400`
+- `Dokdo_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Dokdo_Regular400, useFonts } from '@expo-google-fonts/dokdo';
+import { useFonts, Dokdo_400Regular } from '@expo-google-fonts/dokdo';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Dokdo_Regular400,
+    Dokdo_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Dokdo_Regular400' }}>
-          Dokdo_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Dokdo_400Regular' }}>
+          Dokdo_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Dokdo_Regular400
-![Dokdo_Regular400](./b88083d5e2a376a3766403b0ff323016dd93814b3d540b48859e517dbcc28d08.ttf.png)
+##### Dokdo_400Regular
+![Dokdo_400Regular](./Dokdo_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/dokdo)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Atomic Age**](https://fonts.google.com/specimen/Atomic+Age) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Atomic Age
 
 ![Atomic Age](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `AtomicAge_Regular400`
+- `AtomicAge_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { AtomicAge_Regular400, useFonts } from '@expo-google-fonts/atomic-age';
+import { useFonts, AtomicAge_400Regular } from '@expo-google-fonts/atomic-age';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    AtomicAge_Regular400,
+    AtomicAge_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AtomicAge_Regular400' }}>
-          AtomicAge_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AtomicAge_400Regular' }}>
+          AtomicAge_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AtomicAge_Regular400
-![AtomicAge_Regular400](./6fc59a494c6184d973d9d5db8ec698d8acb6283fc807bd1a13c30000b83b832c.ttf.png)
+##### AtomicAge_400Regular
+![AtomicAge_400Regular](./AtomicAge_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/atomic-age)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

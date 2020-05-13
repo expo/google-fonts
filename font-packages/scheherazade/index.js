@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Scheherazade';
-export const __fontFamilyVersion__ = 12;
-
-export const Scheherazade_Regular400 = require('./19195e141f9f7a6781f93d0ee49ef46a8784c28c28047b0b821b639546c9d562.ttf');
-export const Scheherazade_Bold700 = require('./4a5d40a2e35f3920327fbc1d576a3a1f7aadda38089f736dad6eda793e74a225.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Scheherazade_400Regular = require('./Scheherazade_400Regular.ttf');
+export const Scheherazade_700Bold = require('./Scheherazade_700Bold.ttf');

@@ -7,23 +7,21 @@
 
 This package lets you use the [**Saira Semi Condensed**](https://fonts.google.com/specimen/Saira+Semi+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Saira Semi Condensed
 
 ![Saira Semi Condensed](./font-family.png)
 
 This font family contains [9 styles](#-gallery).
 
-- `SairaSemiCondensed_Thin100`
-- `SairaSemiCondensed_ExtraLight200`
-- `SairaSemiCondensed_Light300`
-- `SairaSemiCondensed_Regular400`
-- `SairaSemiCondensed_Medium500`
-- `SairaSemiCondensed_SemiBold600`
-- `SairaSemiCondensed_Bold700`
-- `SairaSemiCondensed_ExtraBold800`
-- `SairaSemiCondensed_Black900`
+- `SairaSemiCondensed_100Thin`
+- `SairaSemiCondensed_200ExtraLight`
+- `SairaSemiCondensed_300Light`
+- `SairaSemiCondensed_400Regular`
+- `SairaSemiCondensed_500Medium`
+- `SairaSemiCondensed_600SemiBold`
+- `SairaSemiCondensed_700Bold`
+- `SairaSemiCondensed_800ExtraBold`
+- `SairaSemiCondensed_900Black`
 
 ## Usage
 
@@ -39,29 +37,29 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  SairaSemiCondensed_Thin100,
-  SairaSemiCondensed_ExtraLight200,
-  SairaSemiCondensed_Light300,
-  SairaSemiCondensed_Regular400,
-  SairaSemiCondensed_Medium500,
-  SairaSemiCondensed_SemiBold600,
-  SairaSemiCondensed_Bold700,
-  SairaSemiCondensed_ExtraBold800,
-  SairaSemiCondensed_Black900,
   useFonts,
+  SairaSemiCondensed_100Thin,
+  SairaSemiCondensed_200ExtraLight,
+  SairaSemiCondensed_300Light,
+  SairaSemiCondensed_400Regular,
+  SairaSemiCondensed_500Medium,
+  SairaSemiCondensed_600SemiBold,
+  SairaSemiCondensed_700Bold,
+  SairaSemiCondensed_800ExtraBold,
+  SairaSemiCondensed_900Black,
 } from '@expo-google-fonts/saira-semi-condensed';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    SairaSemiCondensed_Thin100,
-    SairaSemiCondensed_ExtraLight200,
-    SairaSemiCondensed_Light300,
-    SairaSemiCondensed_Regular400,
-    SairaSemiCondensed_Medium500,
-    SairaSemiCondensed_SemiBold600,
-    SairaSemiCondensed_Bold700,
-    SairaSemiCondensed_ExtraBold800,
-    SairaSemiCondensed_Black900,
+    SairaSemiCondensed_100Thin,
+    SairaSemiCondensed_200ExtraLight,
+    SairaSemiCondensed_300Light,
+    SairaSemiCondensed_400Regular,
+    SairaSemiCondensed_500Medium,
+    SairaSemiCondensed_600SemiBold,
+    SairaSemiCondensed_700Bold,
+    SairaSemiCondensed_800ExtraBold,
+    SairaSemiCondensed_900Black,
   });
 
   let fontSize = 24;
@@ -72,40 +70,40 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_Thin100' }}>
-          SairaSemiCondensed_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_100Thin' }}>
+          SairaSemiCondensed_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_ExtraLight200' }}>
-          SairaSemiCondensed_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_200ExtraLight' }}>
+          SairaSemiCondensed_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_Light300' }}>
-          SairaSemiCondensed_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_300Light' }}>
+          SairaSemiCondensed_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_Regular400' }}>
-          SairaSemiCondensed_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_400Regular' }}>
+          SairaSemiCondensed_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_Medium500' }}>
-          SairaSemiCondensed_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_500Medium' }}>
+          SairaSemiCondensed_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_SemiBold600' }}>
-          SairaSemiCondensed_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_600SemiBold' }}>
+          SairaSemiCondensed_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_Bold700' }}>
-          SairaSemiCondensed_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_700Bold' }}>
+          SairaSemiCondensed_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_ExtraBold800' }}>
-          SairaSemiCondensed_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_800ExtraBold' }}>
+          SairaSemiCondensed_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_Black900' }}>
-          SairaSemiCondensed_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_900Black' }}>
+          SairaSemiCondensed_900Black
         </Text>
       </View>
     );
@@ -116,32 +114,32 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SairaSemiCondensed_Thin100
-![SairaSemiCondensed_Thin100](./6b2e6d1dd40d36454cc2926dcb4a1a5561eefd558ed4335da50334fe382ae95e.ttf.png)
+##### SairaSemiCondensed_100Thin
+![SairaSemiCondensed_100Thin](./SairaSemiCondensed_100Thin.ttf.png)
 
-##### SairaSemiCondensed_ExtraLight200
-![SairaSemiCondensed_ExtraLight200](./ce22147c0af87efa1aecbc39ff8b87923aee3cf2f49375403f5f34979223e610.ttf.png)
+##### SairaSemiCondensed_200ExtraLight
+![SairaSemiCondensed_200ExtraLight](./SairaSemiCondensed_200ExtraLight.ttf.png)
 
-##### SairaSemiCondensed_Light300
-![SairaSemiCondensed_Light300](./ef45b03e2a6a021a7b398dc695d9fe949857b4defe4cd062b0d2be306f51ef4e.ttf.png)
+##### SairaSemiCondensed_300Light
+![SairaSemiCondensed_300Light](./SairaSemiCondensed_300Light.ttf.png)
 
-##### SairaSemiCondensed_Regular400
-![SairaSemiCondensed_Regular400](./80d72d164a187ce7476240396003c4b453c0f3b4565db50583a99ec1485cb6dc.ttf.png)
+##### SairaSemiCondensed_400Regular
+![SairaSemiCondensed_400Regular](./SairaSemiCondensed_400Regular.ttf.png)
 
-##### SairaSemiCondensed_Medium500
-![SairaSemiCondensed_Medium500](./77903b1b3697f92cb3c1338d2bbd5de692eb31244fc785e5224c5e32faae51e4.ttf.png)
+##### SairaSemiCondensed_500Medium
+![SairaSemiCondensed_500Medium](./SairaSemiCondensed_500Medium.ttf.png)
 
-##### SairaSemiCondensed_SemiBold600
-![SairaSemiCondensed_SemiBold600](./10bc52c72bdddd14cf11a9a428d2dd3348861b4c6106cd154406562cf41b7e66.ttf.png)
+##### SairaSemiCondensed_600SemiBold
+![SairaSemiCondensed_600SemiBold](./SairaSemiCondensed_600SemiBold.ttf.png)
 
-##### SairaSemiCondensed_Bold700
-![SairaSemiCondensed_Bold700](./daba4551f3f2e9c9a6720e74d136524da54d3946352c47f4df6e3acb9a315ca9.ttf.png)
+##### SairaSemiCondensed_700Bold
+![SairaSemiCondensed_700Bold](./SairaSemiCondensed_700Bold.ttf.png)
 
-##### SairaSemiCondensed_ExtraBold800
-![SairaSemiCondensed_ExtraBold800](./a742dc6740800e28cf269ffb74084610ab7590779de6185e12259b99ca780d21.ttf.png)
+##### SairaSemiCondensed_800ExtraBold
+![SairaSemiCondensed_800ExtraBold](./SairaSemiCondensed_800ExtraBold.ttf.png)
 
-##### SairaSemiCondensed_Black900
-![SairaSemiCondensed_Black900](./127a359a67e8fa386310e298528a130878d4284d08e3c7c34872f38bedbe6be5.ttf.png)
+##### SairaSemiCondensed_900Black
+![SairaSemiCondensed_900Black](./SairaSemiCondensed_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -171,7 +169,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/saira-semi-condensed)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

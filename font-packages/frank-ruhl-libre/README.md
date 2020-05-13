@@ -7,19 +7,17 @@
 
 This package lets you use the [**Frank Ruhl Libre**](https://fonts.google.com/specimen/Frank+Ruhl+Libre) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Frank Ruhl Libre
 
 ![Frank Ruhl Libre](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `FrankRuhlLibre_Light300`
-- `FrankRuhlLibre_Regular400`
-- `FrankRuhlLibre_Medium500`
-- `FrankRuhlLibre_Bold700`
-- `FrankRuhlLibre_Black900`
+- `FrankRuhlLibre_300Light`
+- `FrankRuhlLibre_400Regular`
+- `FrankRuhlLibre_500Medium`
+- `FrankRuhlLibre_700Bold`
+- `FrankRuhlLibre_900Black`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  FrankRuhlLibre_Light300,
-  FrankRuhlLibre_Regular400,
-  FrankRuhlLibre_Medium500,
-  FrankRuhlLibre_Bold700,
-  FrankRuhlLibre_Black900,
   useFonts,
+  FrankRuhlLibre_300Light,
+  FrankRuhlLibre_400Regular,
+  FrankRuhlLibre_500Medium,
+  FrankRuhlLibre_700Bold,
+  FrankRuhlLibre_900Black,
 } from '@expo-google-fonts/frank-ruhl-libre';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    FrankRuhlLibre_Light300,
-    FrankRuhlLibre_Regular400,
-    FrankRuhlLibre_Medium500,
-    FrankRuhlLibre_Bold700,
-    FrankRuhlLibre_Black900,
+    FrankRuhlLibre_300Light,
+    FrankRuhlLibre_400Regular,
+    FrankRuhlLibre_500Medium,
+    FrankRuhlLibre_700Bold,
+    FrankRuhlLibre_900Black,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FrankRuhlLibre_Light300' }}>
-          FrankRuhlLibre_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FrankRuhlLibre_300Light' }}>
+          FrankRuhlLibre_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FrankRuhlLibre_Regular400' }}>
-          FrankRuhlLibre_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FrankRuhlLibre_400Regular' }}>
+          FrankRuhlLibre_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FrankRuhlLibre_Medium500' }}>
-          FrankRuhlLibre_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FrankRuhlLibre_500Medium' }}>
+          FrankRuhlLibre_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FrankRuhlLibre_Bold700' }}>
-          FrankRuhlLibre_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FrankRuhlLibre_700Bold' }}>
+          FrankRuhlLibre_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FrankRuhlLibre_Black900' }}>
-          FrankRuhlLibre_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FrankRuhlLibre_900Black' }}>
+          FrankRuhlLibre_900Black
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FrankRuhlLibre_Light300
-![FrankRuhlLibre_Light300](./a5522476a201c815bdc0a30e19c5eb768edd4ddbe563647bf958a6326d7de351.ttf.png)
+##### FrankRuhlLibre_300Light
+![FrankRuhlLibre_300Light](./FrankRuhlLibre_300Light.ttf.png)
 
-##### FrankRuhlLibre_Regular400
-![FrankRuhlLibre_Regular400](./9a33b30005cd2b612a70785a7205c43bf5f1a43c839b44d7ab7ddb581503e7ea.ttf.png)
+##### FrankRuhlLibre_400Regular
+![FrankRuhlLibre_400Regular](./FrankRuhlLibre_400Regular.ttf.png)
 
-##### FrankRuhlLibre_Medium500
-![FrankRuhlLibre_Medium500](./009ea0ba06f79de2ac7a440b5f01b2aa767bbe10be39cfb151cef128d8c5c378.ttf.png)
+##### FrankRuhlLibre_500Medium
+![FrankRuhlLibre_500Medium](./FrankRuhlLibre_500Medium.ttf.png)
 
-##### FrankRuhlLibre_Bold700
-![FrankRuhlLibre_Bold700](./bf711279089d27a7d3707704287cee15972baf963565dccb30e23486a65697cf.ttf.png)
+##### FrankRuhlLibre_700Bold
+![FrankRuhlLibre_700Bold](./FrankRuhlLibre_700Bold.ttf.png)
 
-##### FrankRuhlLibre_Black900
-![FrankRuhlLibre_Black900](./1be4c921fb7b84259c4252c3caadda7f65b0ed5ad332ce0b680224f76e280363.ttf.png)
+##### FrankRuhlLibre_900Black
+![FrankRuhlLibre_900Black](./FrankRuhlLibre_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/frank-ruhl-libre)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Pattaya';
-export const __fontFamilyVersion__ = 1;
-
-export const Pattaya_Regular400 = require('./041d4a84883eccfdd46adb393da062a32f3b3c0deafbd5431c6fb5e6c2669c7c.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Pattaya_400Regular = require('./Pattaya_400Regular.ttf');

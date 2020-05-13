@@ -7,21 +7,19 @@
 
 This package lets you use the [**Darker Grotesque**](https://fonts.google.com/specimen/Darker+Grotesque) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Darker Grotesque
 
 ![Darker Grotesque](./font-family.png)
 
 This font family contains [7 styles](#-gallery).
 
-- `DarkerGrotesque_Light300`
-- `DarkerGrotesque_Regular400`
-- `DarkerGrotesque_Medium500`
-- `DarkerGrotesque_SemiBold600`
-- `DarkerGrotesque_Bold700`
-- `DarkerGrotesque_ExtraBold800`
-- `DarkerGrotesque_Black900`
+- `DarkerGrotesque_300Light`
+- `DarkerGrotesque_400Regular`
+- `DarkerGrotesque_500Medium`
+- `DarkerGrotesque_600SemiBold`
+- `DarkerGrotesque_700Bold`
+- `DarkerGrotesque_800ExtraBold`
+- `DarkerGrotesque_900Black`
 
 ## Usage
 
@@ -37,25 +35,25 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  DarkerGrotesque_Light300,
-  DarkerGrotesque_Regular400,
-  DarkerGrotesque_Medium500,
-  DarkerGrotesque_SemiBold600,
-  DarkerGrotesque_Bold700,
-  DarkerGrotesque_ExtraBold800,
-  DarkerGrotesque_Black900,
   useFonts,
+  DarkerGrotesque_300Light,
+  DarkerGrotesque_400Regular,
+  DarkerGrotesque_500Medium,
+  DarkerGrotesque_600SemiBold,
+  DarkerGrotesque_700Bold,
+  DarkerGrotesque_800ExtraBold,
+  DarkerGrotesque_900Black,
 } from '@expo-google-fonts/darker-grotesque';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    DarkerGrotesque_Light300,
-    DarkerGrotesque_Regular400,
-    DarkerGrotesque_Medium500,
-    DarkerGrotesque_SemiBold600,
-    DarkerGrotesque_Bold700,
-    DarkerGrotesque_ExtraBold800,
-    DarkerGrotesque_Black900,
+    DarkerGrotesque_300Light,
+    DarkerGrotesque_400Regular,
+    DarkerGrotesque_500Medium,
+    DarkerGrotesque_600SemiBold,
+    DarkerGrotesque_700Bold,
+    DarkerGrotesque_800ExtraBold,
+    DarkerGrotesque_900Black,
   });
 
   let fontSize = 24;
@@ -66,32 +64,32 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_Light300' }}>
-          DarkerGrotesque_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_300Light' }}>
+          DarkerGrotesque_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_Regular400' }}>
-          DarkerGrotesque_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_400Regular' }}>
+          DarkerGrotesque_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_Medium500' }}>
-          DarkerGrotesque_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_500Medium' }}>
+          DarkerGrotesque_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_SemiBold600' }}>
-          DarkerGrotesque_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_600SemiBold' }}>
+          DarkerGrotesque_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_Bold700' }}>
-          DarkerGrotesque_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_700Bold' }}>
+          DarkerGrotesque_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_ExtraBold800' }}>
-          DarkerGrotesque_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_800ExtraBold' }}>
+          DarkerGrotesque_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_Black900' }}>
-          DarkerGrotesque_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_900Black' }}>
+          DarkerGrotesque_900Black
         </Text>
       </View>
     );
@@ -102,26 +100,26 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DarkerGrotesque_Light300
-![DarkerGrotesque_Light300](./f789e82ef267fb0b5f0798267ba5e3340b661840b52e1de87f7830b7d87a180e.ttf.png)
+##### DarkerGrotesque_300Light
+![DarkerGrotesque_300Light](./DarkerGrotesque_300Light.ttf.png)
 
-##### DarkerGrotesque_Regular400
-![DarkerGrotesque_Regular400](./60303e0b600c0176b00422a680228f744d38795fbd8d35344f494b02400628c1.ttf.png)
+##### DarkerGrotesque_400Regular
+![DarkerGrotesque_400Regular](./DarkerGrotesque_400Regular.ttf.png)
 
-##### DarkerGrotesque_Medium500
-![DarkerGrotesque_Medium500](./a6e1eb6614b97b3298d1d253f5ed4399556da5b06bb191596cebfc813bdd3505.ttf.png)
+##### DarkerGrotesque_500Medium
+![DarkerGrotesque_500Medium](./DarkerGrotesque_500Medium.ttf.png)
 
-##### DarkerGrotesque_SemiBold600
-![DarkerGrotesque_SemiBold600](./3e516ad3d1d4cec56249227f367cba1e2830faa7cedbcf49abca81e7c202b434.ttf.png)
+##### DarkerGrotesque_600SemiBold
+![DarkerGrotesque_600SemiBold](./DarkerGrotesque_600SemiBold.ttf.png)
 
-##### DarkerGrotesque_Bold700
-![DarkerGrotesque_Bold700](./b56136288e57809ada8707a74f6756261c3763b3a2686398738c1fd25f157d9c.ttf.png)
+##### DarkerGrotesque_700Bold
+![DarkerGrotesque_700Bold](./DarkerGrotesque_700Bold.ttf.png)
 
-##### DarkerGrotesque_ExtraBold800
-![DarkerGrotesque_ExtraBold800](./cf5f4f44b908aeed8723415a103b1ad9c5550388d2c8e139adab630a61a74712.ttf.png)
+##### DarkerGrotesque_800ExtraBold
+![DarkerGrotesque_800ExtraBold](./DarkerGrotesque_800ExtraBold.ttf.png)
 
-##### DarkerGrotesque_Black900
-![DarkerGrotesque_Black900](./eae6b24bfd325c090ef4a304519707f58942487ea7e118bfe036175f8c4690aa.ttf.png)
+##### DarkerGrotesque_900Black
+![DarkerGrotesque_900Black](./DarkerGrotesque_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -151,7 +149,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/darker-grotesque)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

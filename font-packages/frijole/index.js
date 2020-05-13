@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Frijole';
-export const __fontFamilyVersion__ = 5;
-
-export const Frijole_Regular400 = require('./82733a19e8b30ed4cd1325f58bf2631042b40495acd959d7dd5e38a7437ca7b1.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Frijole_400Regular = require('./Frijole_400Regular.ttf');

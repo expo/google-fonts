@@ -4,14 +4,12 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Chivo';
-export const __fontFamilyVersion__ = 8;
-
-export const Chivo_Light300 = require('./994635489f0d118a198cb7efcdd1b61cbd4431c9e6426fffad5b731c4d2c1a5c.ttf');
-export const Chivo_Light300_Italic = require('./f512baee58b1fc81a387836a8de41c055d2bebbfde221bd5f6829c1db58d9baa.ttf');
-export const Chivo_Regular400 = require('./c45551e766074f40061345617f0e07c5a4a2ecbd70ce90f3c7456284827c3184.ttf');
-export const Chivo_Regular400_Italic = require('./1940d6e1383f625468fbb0231dc6d8ea95eda2d8483e23e66e94d6bb05996ca2.ttf');
-export const Chivo_Bold700 = require('./49e634b98df69d1812b9406be76ebe8c76888e0202ae16c267aff5f9897d279f.ttf');
-export const Chivo_Bold700_Italic = require('./eea6f18e9fa02d840e18d03dfe74e65437743472807f1f0a93bb11254419cdb4.ttf');
-export const Chivo_Black900 = require('./b16f1d6acd367f8f1dd75d71e56027975f5f4c661b7272c0ae41a0635d55908a.ttf');
-export const Chivo_Black900_Italic = require('./da92d63af2ecddbae2e8cf92a528caebcba3ed94b7b00e2ab04d228c4622c806.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Chivo_300Light = require('./Chivo_300Light.ttf');
+export const Chivo_300Light_Italic = require('./Chivo_300Light_Italic.ttf');
+export const Chivo_400Regular = require('./Chivo_400Regular.ttf');
+export const Chivo_400Regular_Italic = require('./Chivo_400Regular_Italic.ttf');
+export const Chivo_700Bold = require('./Chivo_700Bold.ttf');
+export const Chivo_700Bold_Italic = require('./Chivo_700Bold_Italic.ttf');
+export const Chivo_900Black = require('./Chivo_900Black.ttf');
+export const Chivo_900Black_Italic = require('./Chivo_900Black_Italic.ttf');

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Happy Monkey**](https://fonts.google.com/specimen/Happy+Monkey) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Happy Monkey
 
 ![Happy Monkey](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `HappyMonkey_Regular400`
+- `HappyMonkey_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { HappyMonkey_Regular400, useFonts } from '@expo-google-fonts/happy-monkey';
+import { useFonts, HappyMonkey_400Regular } from '@expo-google-fonts/happy-monkey';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    HappyMonkey_Regular400,
+    HappyMonkey_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HappyMonkey_Regular400' }}>
-          HappyMonkey_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HappyMonkey_400Regular' }}>
+          HappyMonkey_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HappyMonkey_Regular400
-![HappyMonkey_Regular400](./edf47e48fdc5ee842cf7de5d9333a50f1455140283974d5f0585583198b0b994.ttf.png)
+##### HappyMonkey_400Regular
+![HappyMonkey_400Regular](./HappyMonkey_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/happy-monkey)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

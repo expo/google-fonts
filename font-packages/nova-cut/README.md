@@ -7,15 +7,13 @@
 
 This package lets you use the [**Nova Cut**](https://fonts.google.com/specimen/Nova+Cut) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Nova Cut
 
 ![Nova Cut](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `NovaCut_Regular400`
+- `NovaCut_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { NovaCut_Regular400, useFonts } from '@expo-google-fonts/nova-cut';
+import { useFonts, NovaCut_400Regular } from '@expo-google-fonts/nova-cut';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    NovaCut_Regular400,
+    NovaCut_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NovaCut_Regular400' }}>
-          NovaCut_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NovaCut_400Regular' }}>
+          NovaCut_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NovaCut_Regular400
-![NovaCut_Regular400](./543ab5f33cdf7dc59059344f4a7edc567bd3041f068be2f42c28b47d67dcd3ba.ttf.png)
+##### NovaCut_400Regular
+![NovaCut_400Regular](./NovaCut_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/nova-cut)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

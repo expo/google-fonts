@@ -7,16 +7,14 @@
 
 This package lets you use the [**Oleo Script**](https://fonts.google.com/specimen/Oleo+Script) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Oleo Script
 
 ![Oleo Script](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `OleoScript_Regular400`
-- `OleoScript_Bold700`
+- `OleoScript_400Regular`
+- `OleoScript_700Bold`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  OleoScript_Regular400,
-  OleoScript_Bold700,
   useFonts,
+  OleoScript_400Regular,
+  OleoScript_700Bold,
 } from '@expo-google-fonts/oleo-script';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    OleoScript_Regular400,
-    OleoScript_Bold700,
+    OleoScript_400Regular,
+    OleoScript_700Bold,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OleoScript_Regular400' }}>
-          OleoScript_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'OleoScript_400Regular' }}>
+          OleoScript_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OleoScript_Bold700' }}>
-          OleoScript_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'OleoScript_700Bold' }}>
+          OleoScript_700Bold
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### OleoScript_Regular400
-![OleoScript_Regular400](./e45b8be9acc97bbb496e30675fa48edc79f4cfe2e8c66346914c8264acbe18b3.ttf.png)
+##### OleoScript_400Regular
+![OleoScript_400Regular](./OleoScript_400Regular.ttf.png)
 
-##### OleoScript_Bold700
-![OleoScript_Bold700](./5742e5a26ecfd414f7f87868d0fb5fefead55b1227f381bfefe5243750279804.ttf.png)
+##### OleoScript_700Bold
+![OleoScript_700Bold](./OleoScript_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/oleo-script)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

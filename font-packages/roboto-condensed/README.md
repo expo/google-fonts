@@ -7,20 +7,18 @@
 
 This package lets you use the [**Roboto Condensed**](https://fonts.google.com/specimen/Roboto+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Roboto Condensed
 
 ![Roboto Condensed](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `RobotoCondensed_Light300`
-- `RobotoCondensed_Light300_Italic`
-- `RobotoCondensed_Regular400`
-- `RobotoCondensed_Regular400_Italic`
-- `RobotoCondensed_Bold700`
-- `RobotoCondensed_Bold700_Italic`
+- `RobotoCondensed_300Light`
+- `RobotoCondensed_300Light_Italic`
+- `RobotoCondensed_400Regular`
+- `RobotoCondensed_400Regular_Italic`
+- `RobotoCondensed_700Bold`
+- `RobotoCondensed_700Bold_Italic`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  RobotoCondensed_Light300,
-  RobotoCondensed_Light300_Italic,
-  RobotoCondensed_Regular400,
-  RobotoCondensed_Regular400_Italic,
-  RobotoCondensed_Bold700,
-  RobotoCondensed_Bold700_Italic,
   useFonts,
+  RobotoCondensed_300Light,
+  RobotoCondensed_300Light_Italic,
+  RobotoCondensed_400Regular,
+  RobotoCondensed_400Regular_Italic,
+  RobotoCondensed_700Bold,
+  RobotoCondensed_700Bold_Italic,
 } from '@expo-google-fonts/roboto-condensed';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    RobotoCondensed_Light300,
-    RobotoCondensed_Light300_Italic,
-    RobotoCondensed_Regular400,
-    RobotoCondensed_Regular400_Italic,
-    RobotoCondensed_Bold700,
-    RobotoCondensed_Bold700_Italic,
+    RobotoCondensed_300Light,
+    RobotoCondensed_300Light_Italic,
+    RobotoCondensed_400Regular,
+    RobotoCondensed_400Regular_Italic,
+    RobotoCondensed_700Bold,
+    RobotoCondensed_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -63,29 +61,29 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_Light300' }}>
-          RobotoCondensed_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_300Light' }}>
+          RobotoCondensed_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_Light300_Italic' }}>
-          RobotoCondensed_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_300Light_Italic' }}>
+          RobotoCondensed_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_Regular400' }}>
-          RobotoCondensed_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_400Regular' }}>
+          RobotoCondensed_400Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_Regular400_Italic' }}>
-          RobotoCondensed_Regular400_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_400Regular_Italic' }}>
+          RobotoCondensed_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_Bold700' }}>
-          RobotoCondensed_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_700Bold' }}>
+          RobotoCondensed_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_Bold700_Italic' }}>
-          RobotoCondensed_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_700Bold_Italic' }}>
+          RobotoCondensed_700Bold_Italic
         </Text>
       </View>
     );
@@ -96,23 +94,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RobotoCondensed_Light300
-![RobotoCondensed_Light300](./779b7e4fc31ca5d743e125a1799e9c79dc6ac4ec6e87ca8668ddbe5a157114d7.ttf.png)
+##### RobotoCondensed_300Light
+![RobotoCondensed_300Light](./RobotoCondensed_300Light.ttf.png)
 
-##### RobotoCondensed_Light300_Italic
-![RobotoCondensed_Light300_Italic](./f3f74b2f03d3c52f24982b0c06b087165cebeeff210f3db18314a3cede24d9c5.ttf.png)
+##### RobotoCondensed_300Light_Italic
+![RobotoCondensed_300Light_Italic](./RobotoCondensed_300Light_Italic.ttf.png)
 
-##### RobotoCondensed_Regular400
-![RobotoCondensed_Regular400](./a0e62c76df9173512c94484b3994d83d2b4648dadb8ea6104f3656a3b60f25bc.ttf.png)
+##### RobotoCondensed_400Regular
+![RobotoCondensed_400Regular](./RobotoCondensed_400Regular.ttf.png)
 
-##### RobotoCondensed_Regular400_Italic
-![RobotoCondensed_Regular400_Italic](./271bd0834c4b4fdb5c9c023bbb4067bb29b29e248cd45f845be792f649d30934.ttf.png)
+##### RobotoCondensed_400Regular_Italic
+![RobotoCondensed_400Regular_Italic](./RobotoCondensed_400Regular_Italic.ttf.png)
 
-##### RobotoCondensed_Bold700
-![RobotoCondensed_Bold700](./75a8116fe33c85a153cc824951286cc88ea5c5278e72f1ad56bf94693e9302e7.ttf.png)
+##### RobotoCondensed_700Bold
+![RobotoCondensed_700Bold](./RobotoCondensed_700Bold.ttf.png)
 
-##### RobotoCondensed_Bold700_Italic
-![RobotoCondensed_Bold700_Italic](./6aeda8628b19ddf4671e2e3710998ea138a2cd845f54640bb82f89acad0bbaf6.ttf.png)
+##### RobotoCondensed_700Bold_Italic
+![RobotoCondensed_700Bold_Italic](./RobotoCondensed_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -142,7 +140,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/roboto-condensed)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

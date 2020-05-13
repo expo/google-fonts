@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Meddon';
-export const __fontFamilyVersion__ = 9;
-
-export const Meddon_Regular400 = require('./50d2aafad12ffd4c696c904a7fdfa8fa855a6edc2d671fdd64af6375a052029e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Meddon_400Regular = require('./Meddon_400Regular.ttf');

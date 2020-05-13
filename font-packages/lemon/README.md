@@ -7,15 +7,13 @@
 
 This package lets you use the [**Lemon**](https://fonts.google.com/specimen/Lemon) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Lemon
 
 ![Lemon](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Lemon_Regular400`
+- `Lemon_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Lemon_Regular400, useFonts } from '@expo-google-fonts/lemon';
+import { useFonts, Lemon_400Regular } from '@expo-google-fonts/lemon';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Lemon_Regular400,
+    Lemon_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lemon_Regular400' }}>
-          Lemon_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lemon_400Regular' }}>
+          Lemon_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Lemon_Regular400
-![Lemon_Regular400](./512e0e1aeb4008ca5b6b9a325a936751f306ba97d1a480fe76da5adfc1f404c8.ttf.png)
+##### Lemon_400Regular
+![Lemon_400Regular](./Lemon_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/lemon)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

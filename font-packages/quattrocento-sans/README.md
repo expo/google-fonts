@@ -7,18 +7,16 @@
 
 This package lets you use the [**Quattrocento Sans**](https://fonts.google.com/specimen/Quattrocento+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Quattrocento Sans
 
 ![Quattrocento Sans](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `QuattrocentoSans_Regular400`
-- `QuattrocentoSans_Regular400_Italic`
-- `QuattrocentoSans_Bold700`
-- `QuattrocentoSans_Bold700_Italic`
+- `QuattrocentoSans_400Regular`
+- `QuattrocentoSans_400Regular_Italic`
+- `QuattrocentoSans_700Bold`
+- `QuattrocentoSans_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  QuattrocentoSans_Regular400,
-  QuattrocentoSans_Regular400_Italic,
-  QuattrocentoSans_Bold700,
-  QuattrocentoSans_Bold700_Italic,
   useFonts,
+  QuattrocentoSans_400Regular,
+  QuattrocentoSans_400Regular_Italic,
+  QuattrocentoSans_700Bold,
+  QuattrocentoSans_700Bold_Italic,
 } from '@expo-google-fonts/quattrocento-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    QuattrocentoSans_Regular400,
-    QuattrocentoSans_Regular400_Italic,
-    QuattrocentoSans_Bold700,
-    QuattrocentoSans_Bold700_Italic,
+    QuattrocentoSans_400Regular,
+    QuattrocentoSans_400Regular_Italic,
+    QuattrocentoSans_700Bold,
+    QuattrocentoSans_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,21 +55,21 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'QuattrocentoSans_Regular400' }}>
-          QuattrocentoSans_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'QuattrocentoSans_400Regular' }}>
+          QuattrocentoSans_400Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'QuattrocentoSans_Regular400_Italic' }}>
-          QuattrocentoSans_Regular400_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'QuattrocentoSans_400Regular_Italic' }}>
+          QuattrocentoSans_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'QuattrocentoSans_Bold700' }}>
-          QuattrocentoSans_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'QuattrocentoSans_700Bold' }}>
+          QuattrocentoSans_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'QuattrocentoSans_Bold700_Italic' }}>
-          QuattrocentoSans_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'QuattrocentoSans_700Bold_Italic' }}>
+          QuattrocentoSans_700Bold_Italic
         </Text>
       </View>
     );
@@ -82,17 +80,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### QuattrocentoSans_Regular400
-![QuattrocentoSans_Regular400](./114280821a2f8698d737c5c9bcbc986cf36a4dbd9fa7c58e448b35520a6053ec.ttf.png)
+##### QuattrocentoSans_400Regular
+![QuattrocentoSans_400Regular](./QuattrocentoSans_400Regular.ttf.png)
 
-##### QuattrocentoSans_Regular400_Italic
-![QuattrocentoSans_Regular400_Italic](./c933f0ba971f5573109a7674a40f980252c7f3c810a75f9ff29c016102118e85.ttf.png)
+##### QuattrocentoSans_400Regular_Italic
+![QuattrocentoSans_400Regular_Italic](./QuattrocentoSans_400Regular_Italic.ttf.png)
 
-##### QuattrocentoSans_Bold700
-![QuattrocentoSans_Bold700](./1a542b5aa650f5ce3fa5e6b692feef037c10962d8ae63545c47fdf964e5b3e26.ttf.png)
+##### QuattrocentoSans_700Bold
+![QuattrocentoSans_700Bold](./QuattrocentoSans_700Bold.ttf.png)
 
-##### QuattrocentoSans_Bold700_Italic
-![QuattrocentoSans_Bold700_Italic](./edadcb4799c44215ae17124bc3eac621aef5a4348743df4d74ff83fd09a601a4.ttf.png)
+##### QuattrocentoSans_700Bold_Italic
+![QuattrocentoSans_700Bold_Italic](./QuattrocentoSans_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -122,7 +120,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/quattrocento-sans)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

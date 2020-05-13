@@ -7,17 +7,15 @@
 
 This package lets you use the [**Gudea**](https://fonts.google.com/specimen/Gudea) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Gudea
 
 ![Gudea](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `Gudea_Regular400`
-- `Gudea_Regular400_Italic`
-- `Gudea_Bold700`
+- `Gudea_400Regular`
+- `Gudea_400Regular_Italic`
+- `Gudea_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Gudea_Regular400,
-  Gudea_Regular400_Italic,
-  Gudea_Bold700,
   useFonts,
+  Gudea_400Regular,
+  Gudea_400Regular_Italic,
+  Gudea_700Bold,
 } from '@expo-google-fonts/gudea';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Gudea_Regular400,
-    Gudea_Regular400_Italic,
-    Gudea_Bold700,
+    Gudea_400Regular,
+    Gudea_400Regular_Italic,
+    Gudea_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gudea_Regular400' }}>
-          Gudea_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gudea_400Regular' }}>
+          Gudea_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gudea_Regular400_Italic' }}>
-          Gudea_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gudea_400Regular_Italic' }}>
+          Gudea_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gudea_Bold700' }}>
-          Gudea_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gudea_700Bold' }}>
+          Gudea_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gudea_Regular400
-![Gudea_Regular400](./4b41bce93d5a05ba71bb86e2be22eb03b270fa198be7df07c9c5a818a1724c0f.ttf.png)
+##### Gudea_400Regular
+![Gudea_400Regular](./Gudea_400Regular.ttf.png)
 
-##### Gudea_Regular400_Italic
-![Gudea_Regular400_Italic](./ab00b4c571bb901b0d274550fab83154da5b8bb4529e382ae7d58962b0d05f80.ttf.png)
+##### Gudea_400Regular_Italic
+![Gudea_400Regular_Italic](./Gudea_400Regular_Italic.ttf.png)
 
-##### Gudea_Bold700
-![Gudea_Bold700](./b1c48f399971799fe09414206e205ea8a5f37a1e17adc5ed4329ee9ddb9d074e.ttf.png)
+##### Gudea_700Bold
+![Gudea_700Bold](./Gudea_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/gudea)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

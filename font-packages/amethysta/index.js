@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Amethysta';
-export const __fontFamilyVersion__ = 4;
-
-export const Amethysta_Regular400 = require('./e4d26711903ae08c3bd10750f3b713928bdd3ee56d00372e37bd8606a3fe2d7a.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Amethysta_400Regular = require('./Amethysta_400Regular.ttf');

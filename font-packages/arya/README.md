@@ -7,16 +7,14 @@
 
 This package lets you use the [**Arya**](https://fonts.google.com/specimen/Arya) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Arya
 
 ![Arya](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Arya_Regular400`
-- `Arya_Bold700`
+- `Arya_400Regular`
+- `Arya_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Arya_Regular400, Arya_Bold700, useFonts } from '@expo-google-fonts/arya';
+import { useFonts, Arya_400Regular, Arya_700Bold } from '@expo-google-fonts/arya';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Arya_Regular400,
-    Arya_Bold700,
+    Arya_400Regular,
+    Arya_700Bold,
   });
 
   let fontSize = 24;
@@ -47,11 +45,11 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arya_Regular400' }}>
-          Arya_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arya_400Regular' }}>
+          Arya_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arya_Bold700' }}>Arya_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arya_700Bold' }}>Arya_700Bold</Text>
       </View>
     );
   }
@@ -61,11 +59,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Arya_Regular400
-![Arya_Regular400](./98cf640f609db3f8940fc4bc1566dda034961cb11d23f71a277f3ab268c8859a.ttf.png)
+##### Arya_400Regular
+![Arya_400Regular](./Arya_400Regular.ttf.png)
 
-##### Arya_Bold700
-![Arya_Bold700](./6c168a53b559c7407d20692a42b94301046b15c4838d709b83992c32cab5732c.ttf.png)
+##### Arya_700Bold
+![Arya_700Bold](./Arya_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -95,7 +93,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/arya)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

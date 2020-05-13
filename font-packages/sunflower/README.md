@@ -7,17 +7,15 @@
 
 This package lets you use the [**Sunflower**](https://fonts.google.com/specimen/Sunflower) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sunflower
 
 ![Sunflower](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `Sunflower_Light300`
-- `Sunflower_Medium500`
-- `Sunflower_Bold700`
+- `Sunflower_300Light`
+- `Sunflower_500Medium`
+- `Sunflower_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Sunflower_Light300,
-  Sunflower_Medium500,
-  Sunflower_Bold700,
   useFonts,
+  Sunflower_300Light,
+  Sunflower_500Medium,
+  Sunflower_700Bold,
 } from '@expo-google-fonts/sunflower';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Sunflower_Light300,
-    Sunflower_Medium500,
-    Sunflower_Bold700,
+    Sunflower_300Light,
+    Sunflower_500Medium,
+    Sunflower_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sunflower_Light300' }}>
-          Sunflower_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sunflower_300Light' }}>
+          Sunflower_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sunflower_Medium500' }}>
-          Sunflower_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sunflower_500Medium' }}>
+          Sunflower_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sunflower_Bold700' }}>
-          Sunflower_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sunflower_700Bold' }}>
+          Sunflower_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sunflower_Light300
-![Sunflower_Light300](./e60ce84d8ac799e771211c4fa34de99812b730e86342f32f94fbccfa79461bd0.ttf.png)
+##### Sunflower_300Light
+![Sunflower_300Light](./Sunflower_300Light.ttf.png)
 
-##### Sunflower_Medium500
-![Sunflower_Medium500](./cf53d978b098c900279393bfdf56611a8003d688b2b16b7bd767182e1b0c58e8.ttf.png)
+##### Sunflower_500Medium
+![Sunflower_500Medium](./Sunflower_500Medium.ttf.png)
 
-##### Sunflower_Bold700
-![Sunflower_Bold700](./f3b680ac8a8f4a8a9ede88bf72084ae45ddd8dd7a8a87e826b9ce8946a7b0536.ttf.png)
+##### Sunflower_700Bold
+![Sunflower_700Bold](./Sunflower_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sunflower)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

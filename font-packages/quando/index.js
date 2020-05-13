@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Quando';
-export const __fontFamilyVersion__ = 5;
-
-export const Quando_Regular400 = require('./2a8053aa17f88c09896da7eb7b6ee5d1652eaec863ae13d59efd1a763afcdb2a.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Quando_400Regular = require('./Quando_400Regular.ttf');

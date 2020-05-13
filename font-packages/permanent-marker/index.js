@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Permanent Marker';
-export const __fontFamilyVersion__ = 5;
-
-export const PermanentMarker_Regular400 = require('./b256508a46019a9b82045efd1b32fea49660231fc60b1b4bd43585c2808cf128.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const PermanentMarker_400Regular = require('./PermanentMarker_400Regular.ttf');

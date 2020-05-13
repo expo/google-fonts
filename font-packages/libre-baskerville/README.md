@@ -7,17 +7,15 @@
 
 This package lets you use the [**Libre Baskerville**](https://fonts.google.com/specimen/Libre+Baskerville) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Libre Baskerville
 
 ![Libre Baskerville](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `LibreBaskerville_Regular400`
-- `LibreBaskerville_Regular400_Italic`
-- `LibreBaskerville_Bold700`
+- `LibreBaskerville_400Regular`
+- `LibreBaskerville_400Regular_Italic`
+- `LibreBaskerville_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  LibreBaskerville_Regular400,
-  LibreBaskerville_Regular400_Italic,
-  LibreBaskerville_Bold700,
   useFonts,
+  LibreBaskerville_400Regular,
+  LibreBaskerville_400Regular_Italic,
+  LibreBaskerville_700Bold,
 } from '@expo-google-fonts/libre-baskerville';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LibreBaskerville_Regular400,
-    LibreBaskerville_Regular400_Italic,
-    LibreBaskerville_Bold700,
+    LibreBaskerville_400Regular,
+    LibreBaskerville_400Regular_Italic,
+    LibreBaskerville_700Bold,
   });
 
   let fontSize = 24;
@@ -54,17 +52,17 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreBaskerville_Regular400' }}>
-          LibreBaskerville_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreBaskerville_400Regular' }}>
+          LibreBaskerville_400Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'LibreBaskerville_Regular400_Italic' }}>
-          LibreBaskerville_Regular400_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'LibreBaskerville_400Regular_Italic' }}>
+          LibreBaskerville_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreBaskerville_Bold700' }}>
-          LibreBaskerville_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreBaskerville_700Bold' }}>
+          LibreBaskerville_700Bold
         </Text>
       </View>
     );
@@ -75,14 +73,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LibreBaskerville_Regular400
-![LibreBaskerville_Regular400](./9823638a0177e6fb752280379b200fdaa407e687c8c8e2e7f67bb73b6098f478.ttf.png)
+##### LibreBaskerville_400Regular
+![LibreBaskerville_400Regular](./LibreBaskerville_400Regular.ttf.png)
 
-##### LibreBaskerville_Regular400_Italic
-![LibreBaskerville_Regular400_Italic](./47c63ebb507fc5ce683210642c5b0529745a907c2a98ca886eef85e798558b3b.ttf.png)
+##### LibreBaskerville_400Regular_Italic
+![LibreBaskerville_400Regular_Italic](./LibreBaskerville_400Regular_Italic.ttf.png)
 
-##### LibreBaskerville_Bold700
-![LibreBaskerville_Bold700](./e4f9416f4d8d90e78dc3993de94575a0c44a72da6b4216e5f6346cfee242d201.ttf.png)
+##### LibreBaskerville_700Bold
+![LibreBaskerville_700Bold](./LibreBaskerville_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -112,7 +110,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/libre-baskerville)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

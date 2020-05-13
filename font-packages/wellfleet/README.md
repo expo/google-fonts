@@ -7,15 +7,13 @@
 
 This package lets you use the [**Wellfleet**](https://fonts.google.com/specimen/Wellfleet) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Wellfleet
 
 ![Wellfleet](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Wellfleet_Regular400`
+- `Wellfleet_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Wellfleet_Regular400, useFonts } from '@expo-google-fonts/wellfleet';
+import { useFonts, Wellfleet_400Regular } from '@expo-google-fonts/wellfleet';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Wellfleet_Regular400,
+    Wellfleet_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Wellfleet_Regular400' }}>
-          Wellfleet_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Wellfleet_400Regular' }}>
+          Wellfleet_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Wellfleet_Regular400
-![Wellfleet_Regular400](./9bdc76fbcd0c8aa30aa62c892008d4e6cf4a7df66502008137949866fc091693.ttf.png)
+##### Wellfleet_400Regular
+![Wellfleet_400Regular](./Wellfleet_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/wellfleet)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Sacramento**](https://fonts.google.com/specimen/Sacramento) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sacramento
 
 ![Sacramento](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Sacramento_Regular400`
+- `Sacramento_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Sacramento_Regular400, useFonts } from '@expo-google-fonts/sacramento';
+import { useFonts, Sacramento_400Regular } from '@expo-google-fonts/sacramento';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Sacramento_Regular400,
+    Sacramento_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sacramento_Regular400' }}>
-          Sacramento_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sacramento_400Regular' }}>
+          Sacramento_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sacramento_Regular400
-![Sacramento_Regular400](./3063956ef6275e1b23cf8ab5ce022e853414c069af3d200d3cdad4924c5f6eb5.ttf.png)
+##### Sacramento_400Regular
+![Sacramento_400Regular](./Sacramento_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sacramento)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

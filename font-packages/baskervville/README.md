@@ -7,16 +7,14 @@
 
 This package lets you use the [**Baskervville**](https://fonts.google.com/specimen/Baskervville) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Baskervville
 
 ![Baskervville](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Baskervville_Regular400`
-- `Baskervville_Regular400_Italic`
+- `Baskervville_400Regular`
+- `Baskervville_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Baskervville_Regular400,
-  Baskervville_Regular400_Italic,
   useFonts,
+  Baskervville_400Regular,
+  Baskervville_400Regular_Italic,
 } from '@expo-google-fonts/baskervville';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Baskervville_Regular400,
-    Baskervville_Regular400_Italic,
+    Baskervville_400Regular,
+    Baskervville_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Baskervville_Regular400' }}>
-          Baskervville_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Baskervville_400Regular' }}>
+          Baskervville_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Baskervville_Regular400_Italic' }}>
-          Baskervville_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Baskervville_400Regular_Italic' }}>
+          Baskervville_400Regular_Italic
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Baskervville_Regular400
-![Baskervville_Regular400](./4f83292ed3ada742c822e6b55c57b05a68a0d27b136b872ed2cb3edaf2dd778c.ttf.png)
+##### Baskervville_400Regular
+![Baskervville_400Regular](./Baskervville_400Regular.ttf.png)
 
-##### Baskervville_Regular400_Italic
-![Baskervville_Regular400_Italic](./fdcacb6cacae51af7ce0b4bc57b4400feedcf38a9e21898b144205607cd15185.ttf.png)
+##### Baskervville_400Regular_Italic
+![Baskervville_400Regular_Italic](./Baskervville_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/baskervville)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

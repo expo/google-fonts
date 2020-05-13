@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Antic Didone';
-export const __fontFamilyVersion__ = 4;
-
-export const AnticDidone_Regular400 = require('./ed8ca32ea2c34cc27f4a10cdf51c0ddb35d0cd580df90b19e68d8096a145ec35.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const AnticDidone_400Regular = require('./AnticDidone_400Regular.ttf');

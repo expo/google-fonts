@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Tenor Sans';
-export const __fontFamilyVersion__ = 7;
-
-export const TenorSans_Regular400 = require('./8282a828e14c73c12ba9034180b4a4840baca4c02a86359f63143806dcc81f23.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const TenorSans_400Regular = require('./TenorSans_400Regular.ttf');

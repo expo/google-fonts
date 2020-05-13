@@ -7,17 +7,15 @@
 
 This package lets you use the [**Kantumruy**](https://fonts.google.com/specimen/Kantumruy) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Kantumruy
 
 ![Kantumruy](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `Kantumruy_Light300`
-- `Kantumruy_Regular400`
-- `Kantumruy_Bold700`
+- `Kantumruy_300Light`
+- `Kantumruy_400Regular`
+- `Kantumruy_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Kantumruy_Light300,
-  Kantumruy_Regular400,
-  Kantumruy_Bold700,
   useFonts,
+  Kantumruy_300Light,
+  Kantumruy_400Regular,
+  Kantumruy_700Bold,
 } from '@expo-google-fonts/kantumruy';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Kantumruy_Light300,
-    Kantumruy_Regular400,
-    Kantumruy_Bold700,
+    Kantumruy_300Light,
+    Kantumruy_400Regular,
+    Kantumruy_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kantumruy_Light300' }}>
-          Kantumruy_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kantumruy_300Light' }}>
+          Kantumruy_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kantumruy_Regular400' }}>
-          Kantumruy_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kantumruy_400Regular' }}>
+          Kantumruy_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kantumruy_Bold700' }}>
-          Kantumruy_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kantumruy_700Bold' }}>
+          Kantumruy_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Kantumruy_Light300
-![Kantumruy_Light300](./b1d181333c6beb8df855376481f36dcaa1e27f9c6fe7ba0c990035a73aca6686.ttf.png)
+##### Kantumruy_300Light
+![Kantumruy_300Light](./Kantumruy_300Light.ttf.png)
 
-##### Kantumruy_Regular400
-![Kantumruy_Regular400](./9b0483d5bc7f567f83bda10131a033929865349c666f585d4feaa69600a60802.ttf.png)
+##### Kantumruy_400Regular
+![Kantumruy_400Regular](./Kantumruy_400Regular.ttf.png)
 
-##### Kantumruy_Bold700
-![Kantumruy_Bold700](./6e6b33a5b9d03c7ed3f4e94d9704262ca70dc513ac1f129964f79ccddba04e06.ttf.png)
+##### Kantumruy_700Bold
+![Kantumruy_700Bold](./Kantumruy_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/kantumruy)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

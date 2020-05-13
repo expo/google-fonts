@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Andika';
-export const __fontFamilyVersion__ = 7;
-
-export const Andika_Regular400 = require('./1c10763224ab91314d3fae862634f6bddf0aae60bd71668d68950102ca77b5d4.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Andika_400Regular = require('./Andika_400Regular.ttf');

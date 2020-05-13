@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Armata';
-export const __fontFamilyVersion__ = 6;
-
-export const Armata_Regular400 = require('./7631b4ae2fae472da8b9d0b46acfec928c9c550e82dbee1685e72f389ab890d9.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Armata_400Regular = require('./Armata_400Regular.ttf');

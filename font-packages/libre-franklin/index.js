@@ -4,24 +4,22 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Libre Franklin';
-export const __fontFamilyVersion__ = 1;
-
-export const LibreFranklin_Thin100 = require('./a1f21b9a28ecb3d6ea935dfde51aee05540140c3a25253b0641b9444dda667c1.ttf');
-export const LibreFranklin_Thin100_Italic = require('./09e958f9da1c899ed89026561f56a7c052b9408db021ae9a897f9247aad44039.ttf');
-export const LibreFranklin_ExtraLight200 = require('./97dcc6cedbef15bad22ec4941bcf10ede26cae6bbf0844281f0935c77e475130.ttf');
-export const LibreFranklin_ExtraLight200_Italic = require('./d7ed8c62c5358fda45d46e54541af5e0e8397f71242f11a485c04dc39a11218d.ttf');
-export const LibreFranklin_Light300 = require('./948626a8cfb11d7e06c5fafa6b5e1c4fa4be5db5351c6a223f2ca782b9795798.ttf');
-export const LibreFranklin_Light300_Italic = require('./34e2e0606ed438b0a6d4debccf0e4c6db3db50b9963425c4f53fa58c91e75aae.ttf');
-export const LibreFranklin_Regular400 = require('./d81c9f4f52bd37777bfda74e64a609d354ef7ccbae5ccc54d946e46d0355ce5d.ttf');
-export const LibreFranklin_Regular400_Italic = require('./a6f8c531931908db5a4f8c02ab8f7bb923b97ba2db982c240715f93114bcd958.ttf');
-export const LibreFranklin_Medium500 = require('./05ef5f27b97c4867b996bc39496419b7ece8741ac22d6eefe59e893a9a499089.ttf');
-export const LibreFranklin_Medium500_Italic = require('./92e317ea35eba4231dde4a6c824a53ccfa8c615e10e8ecc6cae2d148cdff6b49.ttf');
-export const LibreFranklin_SemiBold600 = require('./b31f2f6914b461a54f80a39780a73cfc0e9fdb98c0025558fc780865881f4379.ttf');
-export const LibreFranklin_SemiBold600_Italic = require('./51e7bd4a4cc8faf0e20e3a2f9ee81132e7a586a1cd64c19fa34654b505fd56ec.ttf');
-export const LibreFranklin_Bold700 = require('./df03d679c9dba10b0ec29c9d44006aba2dd476ae7c3886c4b3e713665ca443fe.ttf');
-export const LibreFranklin_Bold700_Italic = require('./a6883fda2b8a258fd408d8655880863ebf75e8eb0c22afc895f6e7f60d955d6c.ttf');
-export const LibreFranklin_ExtraBold800 = require('./09d37126271e3ab9282776debe97a4652875fb69f4d98f773a1b6b8d37256299.ttf');
-export const LibreFranklin_ExtraBold800_Italic = require('./1a059fcf7d8cb61a71e33599611f5f014c20d34592f0ce2d4afb7ce9e3dfbbd8.ttf');
-export const LibreFranklin_Black900 = require('./41ab0fe0ad9c37f298d693d6b8e4c5f3cef041ad27ed08c25ee44af8653ee501.ttf');
-export const LibreFranklin_Black900_Italic = require('./136f29fe980b3eaed9bf88c730b2383f963681429fc8d55de10ce71392487a12.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const LibreFranklin_100Thin = require('./LibreFranklin_100Thin.ttf');
+export const LibreFranklin_100Thin_Italic = require('./LibreFranklin_100Thin_Italic.ttf');
+export const LibreFranklin_200ExtraLight = require('./LibreFranklin_200ExtraLight.ttf');
+export const LibreFranklin_200ExtraLight_Italic = require('./LibreFranklin_200ExtraLight_Italic.ttf');
+export const LibreFranklin_300Light = require('./LibreFranklin_300Light.ttf');
+export const LibreFranklin_300Light_Italic = require('./LibreFranklin_300Light_Italic.ttf');
+export const LibreFranklin_400Regular = require('./LibreFranklin_400Regular.ttf');
+export const LibreFranklin_400Regular_Italic = require('./LibreFranklin_400Regular_Italic.ttf');
+export const LibreFranklin_500Medium = require('./LibreFranklin_500Medium.ttf');
+export const LibreFranklin_500Medium_Italic = require('./LibreFranklin_500Medium_Italic.ttf');
+export const LibreFranklin_600SemiBold = require('./LibreFranklin_600SemiBold.ttf');
+export const LibreFranklin_600SemiBold_Italic = require('./LibreFranklin_600SemiBold_Italic.ttf');
+export const LibreFranklin_700Bold = require('./LibreFranklin_700Bold.ttf');
+export const LibreFranklin_700Bold_Italic = require('./LibreFranklin_700Bold_Italic.ttf');
+export const LibreFranklin_800ExtraBold = require('./LibreFranklin_800ExtraBold.ttf');
+export const LibreFranklin_800ExtraBold_Italic = require('./LibreFranklin_800ExtraBold_Italic.ttf');
+export const LibreFranklin_900Black = require('./LibreFranklin_900Black.ttf');
+export const LibreFranklin_900Black_Italic = require('./LibreFranklin_900Black_Italic.ttf');

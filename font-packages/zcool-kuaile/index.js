@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'ZCOOL KuaiLe';
-export const __fontFamilyVersion__ = 5;
-
-export const ZCOOLKuaiLe_Regular400 = require('./0809b4605f58fdd321743ae7e5b76d4ac6c2153fe0b5b7185dd12c1974659c00.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ZCOOLKuaiLe_400Regular = require('./ZCOOLKuaiLe_400Regular.ttf');

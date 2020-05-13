@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Sacramento';
-export const __fontFamilyVersion__ = 4;
-
-export const Sacramento_Regular400 = require('./3063956ef6275e1b23cf8ab5ce022e853414c069af3d200d3cdad4924c5f6eb5.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Sacramento_400Regular = require('./Sacramento_400Regular.ttf');

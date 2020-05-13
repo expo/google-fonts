@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bebas Neue';
-export const __fontFamilyVersion__ = 1;
-
-export const BebasNeue_Regular400 = require('./bd16210fc689a14930beb51e89f3890e3167bdb105c0e7618abb62d6c4a2cc5d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BebasNeue_400Regular = require('./BebasNeue_400Regular.ttf');

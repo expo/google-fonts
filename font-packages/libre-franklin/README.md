@@ -7,32 +7,30 @@
 
 This package lets you use the [**Libre Franklin**](https://fonts.google.com/specimen/Libre+Franklin) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Libre Franklin
 
 ![Libre Franklin](./font-family.png)
 
 This font family contains [18 styles](#-gallery).
 
-- `LibreFranklin_Thin100`
-- `LibreFranklin_Thin100_Italic`
-- `LibreFranklin_ExtraLight200`
-- `LibreFranklin_ExtraLight200_Italic`
-- `LibreFranklin_Light300`
-- `LibreFranklin_Light300_Italic`
-- `LibreFranklin_Regular400`
-- `LibreFranklin_Regular400_Italic`
-- `LibreFranklin_Medium500`
-- `LibreFranklin_Medium500_Italic`
-- `LibreFranklin_SemiBold600`
-- `LibreFranklin_SemiBold600_Italic`
-- `LibreFranklin_Bold700`
-- `LibreFranklin_Bold700_Italic`
-- `LibreFranklin_ExtraBold800`
-- `LibreFranklin_ExtraBold800_Italic`
-- `LibreFranklin_Black900`
-- `LibreFranklin_Black900_Italic`
+- `LibreFranklin_100Thin`
+- `LibreFranklin_100Thin_Italic`
+- `LibreFranklin_200ExtraLight`
+- `LibreFranklin_200ExtraLight_Italic`
+- `LibreFranklin_300Light`
+- `LibreFranklin_300Light_Italic`
+- `LibreFranklin_400Regular`
+- `LibreFranklin_400Regular_Italic`
+- `LibreFranklin_500Medium`
+- `LibreFranklin_500Medium_Italic`
+- `LibreFranklin_600SemiBold`
+- `LibreFranklin_600SemiBold_Italic`
+- `LibreFranklin_700Bold`
+- `LibreFranklin_700Bold_Italic`
+- `LibreFranklin_800ExtraBold`
+- `LibreFranklin_800ExtraBold_Italic`
+- `LibreFranklin_900Black`
+- `LibreFranklin_900Black_Italic`
 
 ## Usage
 
@@ -48,47 +46,47 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  LibreFranklin_Thin100,
-  LibreFranklin_Thin100_Italic,
-  LibreFranklin_ExtraLight200,
-  LibreFranklin_ExtraLight200_Italic,
-  LibreFranklin_Light300,
-  LibreFranklin_Light300_Italic,
-  LibreFranklin_Regular400,
-  LibreFranklin_Regular400_Italic,
-  LibreFranklin_Medium500,
-  LibreFranklin_Medium500_Italic,
-  LibreFranklin_SemiBold600,
-  LibreFranklin_SemiBold600_Italic,
-  LibreFranklin_Bold700,
-  LibreFranklin_Bold700_Italic,
-  LibreFranklin_ExtraBold800,
-  LibreFranklin_ExtraBold800_Italic,
-  LibreFranklin_Black900,
-  LibreFranklin_Black900_Italic,
   useFonts,
+  LibreFranklin_100Thin,
+  LibreFranklin_100Thin_Italic,
+  LibreFranklin_200ExtraLight,
+  LibreFranklin_200ExtraLight_Italic,
+  LibreFranklin_300Light,
+  LibreFranklin_300Light_Italic,
+  LibreFranklin_400Regular,
+  LibreFranklin_400Regular_Italic,
+  LibreFranklin_500Medium,
+  LibreFranklin_500Medium_Italic,
+  LibreFranklin_600SemiBold,
+  LibreFranklin_600SemiBold_Italic,
+  LibreFranklin_700Bold,
+  LibreFranklin_700Bold_Italic,
+  LibreFranklin_800ExtraBold,
+  LibreFranklin_800ExtraBold_Italic,
+  LibreFranklin_900Black,
+  LibreFranklin_900Black_Italic,
 } from '@expo-google-fonts/libre-franklin';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LibreFranklin_Thin100,
-    LibreFranklin_Thin100_Italic,
-    LibreFranklin_ExtraLight200,
-    LibreFranklin_ExtraLight200_Italic,
-    LibreFranklin_Light300,
-    LibreFranklin_Light300_Italic,
-    LibreFranklin_Regular400,
-    LibreFranklin_Regular400_Italic,
-    LibreFranklin_Medium500,
-    LibreFranklin_Medium500_Italic,
-    LibreFranklin_SemiBold600,
-    LibreFranklin_SemiBold600_Italic,
-    LibreFranklin_Bold700,
-    LibreFranklin_Bold700_Italic,
-    LibreFranklin_ExtraBold800,
-    LibreFranklin_ExtraBold800_Italic,
-    LibreFranklin_Black900,
-    LibreFranklin_Black900_Italic,
+    LibreFranklin_100Thin,
+    LibreFranklin_100Thin_Italic,
+    LibreFranklin_200ExtraLight,
+    LibreFranklin_200ExtraLight_Italic,
+    LibreFranklin_300Light,
+    LibreFranklin_300Light_Italic,
+    LibreFranklin_400Regular,
+    LibreFranklin_400Regular_Italic,
+    LibreFranklin_500Medium,
+    LibreFranklin_500Medium_Italic,
+    LibreFranklin_600SemiBold,
+    LibreFranklin_600SemiBold_Italic,
+    LibreFranklin_700Bold,
+    LibreFranklin_700Bold_Italic,
+    LibreFranklin_800ExtraBold,
+    LibreFranklin_800ExtraBold_Italic,
+    LibreFranklin_900Black,
+    LibreFranklin_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -99,78 +97,78 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_Thin100' }}>
-          LibreFranklin_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_100Thin' }}>
+          LibreFranklin_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_Thin100_Italic' }}>
-          LibreFranklin_Thin100_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_100Thin_Italic' }}>
+          LibreFranklin_100Thin_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_ExtraLight200' }}>
-          LibreFranklin_ExtraLight200
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_ExtraLight200_Italic' }}>
-          LibreFranklin_ExtraLight200_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_Light300' }}>
-          LibreFranklin_Light300
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_Light300_Italic' }}>
-          LibreFranklin_Light300_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_Regular400' }}>
-          LibreFranklin_Regular400
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_Regular400_Italic' }}>
-          LibreFranklin_Regular400_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_Medium500' }}>
-          LibreFranklin_Medium500
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_Medium500_Italic' }}>
-          LibreFranklin_Medium500_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_SemiBold600' }}>
-          LibreFranklin_SemiBold600
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_SemiBold600_Italic' }}>
-          LibreFranklin_SemiBold600_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_Bold700' }}>
-          LibreFranklin_Bold700
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_Bold700_Italic' }}>
-          LibreFranklin_Bold700_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_ExtraBold800' }}>
-          LibreFranklin_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_200ExtraLight' }}>
+          LibreFranklin_200ExtraLight
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_ExtraBold800_Italic' }}>
-          LibreFranklin_ExtraBold800_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_200ExtraLight_Italic' }}>
+          LibreFranklin_200ExtraLight_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_Black900' }}>
-          LibreFranklin_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_300Light' }}>
+          LibreFranklin_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_Black900_Italic' }}>
-          LibreFranklin_Black900_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_300Light_Italic' }}>
+          LibreFranklin_300Light_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_400Regular' }}>
+          LibreFranklin_400Regular
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_400Regular_Italic' }}>
+          LibreFranklin_400Regular_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_500Medium' }}>
+          LibreFranklin_500Medium
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_500Medium_Italic' }}>
+          LibreFranklin_500Medium_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_600SemiBold' }}>
+          LibreFranklin_600SemiBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_600SemiBold_Italic' }}>
+          LibreFranklin_600SemiBold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_700Bold' }}>
+          LibreFranklin_700Bold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_700Bold_Italic' }}>
+          LibreFranklin_700Bold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_800ExtraBold' }}>
+          LibreFranklin_800ExtraBold
+        </Text>
+
+        <Text
+          style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_800ExtraBold_Italic' }}>
+          LibreFranklin_800ExtraBold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_900Black' }}>
+          LibreFranklin_900Black
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreFranklin_900Black_Italic' }}>
+          LibreFranklin_900Black_Italic
         </Text>
       </View>
     );
@@ -181,59 +179,59 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LibreFranklin_Thin100
-![LibreFranklin_Thin100](./a1f21b9a28ecb3d6ea935dfde51aee05540140c3a25253b0641b9444dda667c1.ttf.png)
+##### LibreFranklin_100Thin
+![LibreFranklin_100Thin](./LibreFranklin_100Thin.ttf.png)
 
-##### LibreFranklin_Thin100_Italic
-![LibreFranklin_Thin100_Italic](./09e958f9da1c899ed89026561f56a7c052b9408db021ae9a897f9247aad44039.ttf.png)
+##### LibreFranklin_100Thin_Italic
+![LibreFranklin_100Thin_Italic](./LibreFranklin_100Thin_Italic.ttf.png)
 
-##### LibreFranklin_ExtraLight200
-![LibreFranklin_ExtraLight200](./97dcc6cedbef15bad22ec4941bcf10ede26cae6bbf0844281f0935c77e475130.ttf.png)
+##### LibreFranklin_200ExtraLight
+![LibreFranklin_200ExtraLight](./LibreFranklin_200ExtraLight.ttf.png)
 
-##### LibreFranklin_ExtraLight200_Italic
-![LibreFranklin_ExtraLight200_Italic](./d7ed8c62c5358fda45d46e54541af5e0e8397f71242f11a485c04dc39a11218d.ttf.png)
+##### LibreFranklin_200ExtraLight_Italic
+![LibreFranklin_200ExtraLight_Italic](./LibreFranklin_200ExtraLight_Italic.ttf.png)
 
-##### LibreFranklin_Light300
-![LibreFranklin_Light300](./948626a8cfb11d7e06c5fafa6b5e1c4fa4be5db5351c6a223f2ca782b9795798.ttf.png)
+##### LibreFranklin_300Light
+![LibreFranklin_300Light](./LibreFranklin_300Light.ttf.png)
 
-##### LibreFranklin_Light300_Italic
-![LibreFranklin_Light300_Italic](./34e2e0606ed438b0a6d4debccf0e4c6db3db50b9963425c4f53fa58c91e75aae.ttf.png)
+##### LibreFranklin_300Light_Italic
+![LibreFranklin_300Light_Italic](./LibreFranklin_300Light_Italic.ttf.png)
 
-##### LibreFranklin_Regular400
-![LibreFranklin_Regular400](./d81c9f4f52bd37777bfda74e64a609d354ef7ccbae5ccc54d946e46d0355ce5d.ttf.png)
+##### LibreFranklin_400Regular
+![LibreFranklin_400Regular](./LibreFranklin_400Regular.ttf.png)
 
-##### LibreFranklin_Regular400_Italic
-![LibreFranklin_Regular400_Italic](./a6f8c531931908db5a4f8c02ab8f7bb923b97ba2db982c240715f93114bcd958.ttf.png)
+##### LibreFranklin_400Regular_Italic
+![LibreFranklin_400Regular_Italic](./LibreFranklin_400Regular_Italic.ttf.png)
 
-##### LibreFranklin_Medium500
-![LibreFranklin_Medium500](./05ef5f27b97c4867b996bc39496419b7ece8741ac22d6eefe59e893a9a499089.ttf.png)
+##### LibreFranklin_500Medium
+![LibreFranklin_500Medium](./LibreFranklin_500Medium.ttf.png)
 
-##### LibreFranklin_Medium500_Italic
-![LibreFranklin_Medium500_Italic](./92e317ea35eba4231dde4a6c824a53ccfa8c615e10e8ecc6cae2d148cdff6b49.ttf.png)
+##### LibreFranklin_500Medium_Italic
+![LibreFranklin_500Medium_Italic](./LibreFranklin_500Medium_Italic.ttf.png)
 
-##### LibreFranklin_SemiBold600
-![LibreFranklin_SemiBold600](./b31f2f6914b461a54f80a39780a73cfc0e9fdb98c0025558fc780865881f4379.ttf.png)
+##### LibreFranklin_600SemiBold
+![LibreFranklin_600SemiBold](./LibreFranklin_600SemiBold.ttf.png)
 
-##### LibreFranklin_SemiBold600_Italic
-![LibreFranklin_SemiBold600_Italic](./51e7bd4a4cc8faf0e20e3a2f9ee81132e7a586a1cd64c19fa34654b505fd56ec.ttf.png)
+##### LibreFranklin_600SemiBold_Italic
+![LibreFranklin_600SemiBold_Italic](./LibreFranklin_600SemiBold_Italic.ttf.png)
 
-##### LibreFranklin_Bold700
-![LibreFranklin_Bold700](./df03d679c9dba10b0ec29c9d44006aba2dd476ae7c3886c4b3e713665ca443fe.ttf.png)
+##### LibreFranklin_700Bold
+![LibreFranklin_700Bold](./LibreFranklin_700Bold.ttf.png)
 
-##### LibreFranklin_Bold700_Italic
-![LibreFranklin_Bold700_Italic](./a6883fda2b8a258fd408d8655880863ebf75e8eb0c22afc895f6e7f60d955d6c.ttf.png)
+##### LibreFranklin_700Bold_Italic
+![LibreFranklin_700Bold_Italic](./LibreFranklin_700Bold_Italic.ttf.png)
 
-##### LibreFranklin_ExtraBold800
-![LibreFranklin_ExtraBold800](./09d37126271e3ab9282776debe97a4652875fb69f4d98f773a1b6b8d37256299.ttf.png)
+##### LibreFranklin_800ExtraBold
+![LibreFranklin_800ExtraBold](./LibreFranklin_800ExtraBold.ttf.png)
 
-##### LibreFranklin_ExtraBold800_Italic
-![LibreFranklin_ExtraBold800_Italic](./1a059fcf7d8cb61a71e33599611f5f014c20d34592f0ce2d4afb7ce9e3dfbbd8.ttf.png)
+##### LibreFranklin_800ExtraBold_Italic
+![LibreFranklin_800ExtraBold_Italic](./LibreFranklin_800ExtraBold_Italic.ttf.png)
 
-##### LibreFranklin_Black900
-![LibreFranklin_Black900](./41ab0fe0ad9c37f298d693d6b8e4c5f3cef041ad27ed08c25ee44af8653ee501.ttf.png)
+##### LibreFranklin_900Black
+![LibreFranklin_900Black](./LibreFranklin_900Black.ttf.png)
 
-##### LibreFranklin_Black900_Italic
-![LibreFranklin_Black900_Italic](./136f29fe980b3eaed9bf88c730b2383f963681429fc8d55de10ce71392487a12.ttf.png)
+##### LibreFranklin_900Black_Italic
+![LibreFranklin_900Black_Italic](./LibreFranklin_900Black_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -263,7 +261,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/libre-franklin)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

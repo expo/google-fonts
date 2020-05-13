@@ -7,19 +7,17 @@
 
 This package lets you use the [**Khand**](https://fonts.google.com/specimen/Khand) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Khand
 
 ![Khand](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `Khand_Light300`
-- `Khand_Regular400`
-- `Khand_Medium500`
-- `Khand_SemiBold600`
-- `Khand_Bold700`
+- `Khand_300Light`
+- `Khand_400Regular`
+- `Khand_500Medium`
+- `Khand_600SemiBold`
+- `Khand_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Khand_Light300,
-  Khand_Regular400,
-  Khand_Medium500,
-  Khand_SemiBold600,
-  Khand_Bold700,
   useFonts,
+  Khand_300Light,
+  Khand_400Regular,
+  Khand_500Medium,
+  Khand_600SemiBold,
+  Khand_700Bold,
 } from '@expo-google-fonts/khand';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Khand_Light300,
-    Khand_Regular400,
-    Khand_Medium500,
-    Khand_SemiBold600,
-    Khand_Bold700,
+    Khand_300Light,
+    Khand_400Regular,
+    Khand_500Medium,
+    Khand_600SemiBold,
+    Khand_700Bold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khand_Light300' }}>
-          Khand_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khand_300Light' }}>
+          Khand_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khand_Regular400' }}>
-          Khand_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khand_400Regular' }}>
+          Khand_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khand_Medium500' }}>
-          Khand_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khand_500Medium' }}>
+          Khand_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khand_SemiBold600' }}>
-          Khand_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khand_600SemiBold' }}>
+          Khand_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khand_Bold700' }}>
-          Khand_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khand_700Bold' }}>
+          Khand_700Bold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Khand_Light300
-![Khand_Light300](./7cd4683a916646dd278fb0eb4426f6826ca4f0cc92ce083de087f2287fb11f98.ttf.png)
+##### Khand_300Light
+![Khand_300Light](./Khand_300Light.ttf.png)
 
-##### Khand_Regular400
-![Khand_Regular400](./325e1b6938310cd0385a917b47fcadabece70ea8fa6356a276e20fb171d57af5.ttf.png)
+##### Khand_400Regular
+![Khand_400Regular](./Khand_400Regular.ttf.png)
 
-##### Khand_Medium500
-![Khand_Medium500](./6dd2785eedd866d3f7e329ad7264d66157ec7a40ef41d48aab098287b5a8863d.ttf.png)
+##### Khand_500Medium
+![Khand_500Medium](./Khand_500Medium.ttf.png)
 
-##### Khand_SemiBold600
-![Khand_SemiBold600](./2471269ec4d3228c379da2bc6e54db78b4c7b315613d0cd1e639539c7d92d75d.ttf.png)
+##### Khand_600SemiBold
+![Khand_600SemiBold](./Khand_600SemiBold.ttf.png)
 
-##### Khand_Bold700
-![Khand_Bold700](./609dc9682e1321a8db6ab6a4caeffe07395b8517327ee5ce936b365e586fb402.ttf.png)
+##### Khand_700Bold
+![Khand_700Bold](./Khand_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/khand)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

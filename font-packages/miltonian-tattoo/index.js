@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Miltonian Tattoo';
-export const __fontFamilyVersion__ = 11;
-
-export const MiltonianTattoo_Regular400 = require('./e6b0d4cb984d618866e97a59156c448971703186b779d38d1402b650790004cf.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MiltonianTattoo_400Regular = require('./MiltonianTattoo_400Regular.ttf');

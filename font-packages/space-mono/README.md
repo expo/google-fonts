@@ -7,18 +7,16 @@
 
 This package lets you use the [**Space Mono**](https://fonts.google.com/specimen/Space+Mono) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Space Mono
 
 ![Space Mono](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `SpaceMono_Regular400`
-- `SpaceMono_Regular400_Italic`
-- `SpaceMono_Bold700`
-- `SpaceMono_Bold700_Italic`
+- `SpaceMono_400Regular`
+- `SpaceMono_400Regular_Italic`
+- `SpaceMono_700Bold`
+- `SpaceMono_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  SpaceMono_Regular400,
-  SpaceMono_Regular400_Italic,
-  SpaceMono_Bold700,
-  SpaceMono_Bold700_Italic,
   useFonts,
+  SpaceMono_400Regular,
+  SpaceMono_400Regular_Italic,
+  SpaceMono_700Bold,
+  SpaceMono_700Bold_Italic,
 } from '@expo-google-fonts/space-mono';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    SpaceMono_Regular400,
-    SpaceMono_Regular400_Italic,
-    SpaceMono_Bold700,
-    SpaceMono_Bold700_Italic,
+    SpaceMono_400Regular,
+    SpaceMono_400Regular_Italic,
+    SpaceMono_700Bold,
+    SpaceMono_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SpaceMono_Regular400' }}>
-          SpaceMono_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SpaceMono_400Regular' }}>
+          SpaceMono_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SpaceMono_Regular400_Italic' }}>
-          SpaceMono_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SpaceMono_400Regular_Italic' }}>
+          SpaceMono_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SpaceMono_Bold700' }}>
-          SpaceMono_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SpaceMono_700Bold' }}>
+          SpaceMono_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SpaceMono_Bold700_Italic' }}>
-          SpaceMono_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SpaceMono_700Bold_Italic' }}>
+          SpaceMono_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SpaceMono_Regular400
-![SpaceMono_Regular400](./1308fd8bd0f79e0517319bf0429226dfce5ae67beb495577737524f29b537527.ttf.png)
+##### SpaceMono_400Regular
+![SpaceMono_400Regular](./SpaceMono_400Regular.ttf.png)
 
-##### SpaceMono_Regular400_Italic
-![SpaceMono_Regular400_Italic](./461bb1d5b84d057c522eedf582e3704890be96aed239020438b09168f8ef296b.ttf.png)
+##### SpaceMono_400Regular_Italic
+![SpaceMono_400Regular_Italic](./SpaceMono_400Regular_Italic.ttf.png)
 
-##### SpaceMono_Bold700
-![SpaceMono_Bold700](./9d1e9fe7ab3138b3f1465d1b1afc457934abae86c1803611dbbcfd28f5f97e2b.ttf.png)
+##### SpaceMono_700Bold
+![SpaceMono_700Bold](./SpaceMono_700Bold.ttf.png)
 
-##### SpaceMono_Bold700_Italic
-![SpaceMono_Bold700_Italic](./ec50d2d9cc5bbed72fae03e2bc8a720e2cca1324f8bc99b30089d51896917f0e.ttf.png)
+##### SpaceMono_700Bold_Italic
+![SpaceMono_700Bold_Italic](./SpaceMono_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/space-mono)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

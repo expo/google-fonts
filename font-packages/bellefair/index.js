@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bellefair';
-export const __fontFamilyVersion__ = 3;
-
-export const Bellefair_Regular400 = require('./581fd752c6fe9933425b7868917fe51b6d222b42336b931e58385cea219007a0.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Bellefair_400Regular = require('./Bellefair_400Regular.ttf');

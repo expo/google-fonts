@@ -7,16 +7,14 @@
 
 This package lets you use the [**Mountains of Christmas**](https://fonts.google.com/specimen/Mountains+of+Christmas) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Mountains of Christmas
 
 ![Mountains of Christmas](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `MountainsofChristmas_Regular400`
-- `MountainsofChristmas_Bold700`
+- `MountainsofChristmas_400Regular`
+- `MountainsofChristmas_700Bold`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  MountainsofChristmas_Regular400,
-  MountainsofChristmas_Bold700,
   useFonts,
+  MountainsofChristmas_400Regular,
+  MountainsofChristmas_700Bold,
 } from '@expo-google-fonts/mountains-of-christmas';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MountainsofChristmas_Regular400,
-    MountainsofChristmas_Bold700,
+    MountainsofChristmas_400Regular,
+    MountainsofChristmas_700Bold,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MountainsofChristmas_Regular400' }}>
-          MountainsofChristmas_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MountainsofChristmas_400Regular' }}>
+          MountainsofChristmas_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MountainsofChristmas_Bold700' }}>
-          MountainsofChristmas_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MountainsofChristmas_700Bold' }}>
+          MountainsofChristmas_700Bold
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MountainsofChristmas_Regular400
-![MountainsofChristmas_Regular400](./c2200cef227dc27280b133ec5d366a7a1c5e8956523b6a69490c6d3be875831f.ttf.png)
+##### MountainsofChristmas_400Regular
+![MountainsofChristmas_400Regular](./MountainsofChristmas_400Regular.ttf.png)
 
-##### MountainsofChristmas_Bold700
-![MountainsofChristmas_Bold700](./52a7b2b21269dc6d67187a7882fa4bbc19f093792adc852c62497c6495d129e6.ttf.png)
+##### MountainsofChristmas_700Bold
+![MountainsofChristmas_700Bold](./MountainsofChristmas_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/mountains-of-christmas)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

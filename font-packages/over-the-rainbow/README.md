@@ -7,15 +7,13 @@
 
 This package lets you use the [**Over the Rainbow**](https://fonts.google.com/specimen/Over+the+Rainbow) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Over the Rainbow
 
 ![Over the Rainbow](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `OvertheRainbow_Regular400`
+- `OvertheRainbow_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { OvertheRainbow_Regular400, useFonts } from '@expo-google-fonts/over-the-rainbow';
+import { useFonts, OvertheRainbow_400Regular } from '@expo-google-fonts/over-the-rainbow';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    OvertheRainbow_Regular400,
+    OvertheRainbow_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OvertheRainbow_Regular400' }}>
-          OvertheRainbow_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'OvertheRainbow_400Regular' }}>
+          OvertheRainbow_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### OvertheRainbow_Regular400
-![OvertheRainbow_Regular400](./3bbe72603fa8df4b1b63a308cd07fb091054678395faeddc3fc2388f614bbd29.ttf.png)
+##### OvertheRainbow_400Regular
+![OvertheRainbow_400Regular](./OvertheRainbow_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/over-the-rainbow)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

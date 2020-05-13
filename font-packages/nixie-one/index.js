@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Nixie One';
-export const __fontFamilyVersion__ = 7;
-
-export const NixieOne_Regular400 = require('./087111fe60593408bf58ff7befff4b557a237a72d80e56ad3727d99693b4a087.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const NixieOne_400Regular = require('./NixieOne_400Regular.ttf');

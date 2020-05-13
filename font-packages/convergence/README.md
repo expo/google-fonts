@@ -7,15 +7,13 @@
 
 This package lets you use the [**Convergence**](https://fonts.google.com/specimen/Convergence) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Convergence
 
 ![Convergence](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Convergence_Regular400`
+- `Convergence_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Convergence_Regular400, useFonts } from '@expo-google-fonts/convergence';
+import { useFonts, Convergence_400Regular } from '@expo-google-fonts/convergence';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Convergence_Regular400,
+    Convergence_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Convergence_Regular400' }}>
-          Convergence_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Convergence_400Regular' }}>
+          Convergence_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Convergence_Regular400
-![Convergence_Regular400](./bee94289e5374af0501d83d8b767d631571ce0a2ab1c16a765bad418a9fbbf22.ttf.png)
+##### Convergence_400Regular
+![Convergence_400Regular](./Convergence_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/convergence)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Maiden Orange';
-export const __fontFamilyVersion__ = 6;
-
-export const MaidenOrange_Regular400 = require('./f4952dcb36962c7d3f35f54be08eb204ab4600cfc9afad59f213d36b5ff5e8e6.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MaidenOrange_400Regular = require('./MaidenOrange_400Regular.ttf');

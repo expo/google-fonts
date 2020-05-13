@@ -7,15 +7,13 @@
 
 This package lets you use the [**Cedarville Cursive**](https://fonts.google.com/specimen/Cedarville+Cursive) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Cedarville Cursive
 
 ![Cedarville Cursive](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `CedarvilleCursive_Regular400`
+- `CedarvilleCursive_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { CedarvilleCursive_Regular400, useFonts } from '@expo-google-fonts/cedarville-cursive';
+import { useFonts, CedarvilleCursive_400Regular } from '@expo-google-fonts/cedarville-cursive';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CedarvilleCursive_Regular400,
+    CedarvilleCursive_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CedarvilleCursive_Regular400' }}>
-          CedarvilleCursive_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CedarvilleCursive_400Regular' }}>
+          CedarvilleCursive_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CedarvilleCursive_Regular400
-![CedarvilleCursive_Regular400](./b1296a081a20bf4a1936ace5eac4d05fa6702cdfaab5f94a5088af4c0aa46c3d.ttf.png)
+##### CedarvilleCursive_400Regular
+![CedarvilleCursive_400Regular](./CedarvilleCursive_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cedarville-cursive)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

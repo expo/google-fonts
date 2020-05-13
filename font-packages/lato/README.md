@@ -7,24 +7,22 @@
 
 This package lets you use the [**Lato**](https://fonts.google.com/specimen/Lato) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Lato
 
 ![Lato](./font-family.png)
 
 This font family contains [10 styles](#-gallery).
 
-- `Lato_Thin100`
-- `Lato_Thin100_Italic`
-- `Lato_Light300`
-- `Lato_Light300_Italic`
-- `Lato_Regular400`
-- `Lato_Regular400_Italic`
-- `Lato_Bold700`
-- `Lato_Bold700_Italic`
-- `Lato_Black900`
-- `Lato_Black900_Italic`
+- `Lato_100Thin`
+- `Lato_100Thin_Italic`
+- `Lato_300Light`
+- `Lato_300Light_Italic`
+- `Lato_400Regular`
+- `Lato_400Regular_Italic`
+- `Lato_700Bold`
+- `Lato_700Bold_Italic`
+- `Lato_900Black`
+- `Lato_900Black_Italic`
 
 ## Usage
 
@@ -40,31 +38,31 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Lato_Thin100,
-  Lato_Thin100_Italic,
-  Lato_Light300,
-  Lato_Light300_Italic,
-  Lato_Regular400,
-  Lato_Regular400_Italic,
-  Lato_Bold700,
-  Lato_Bold700_Italic,
-  Lato_Black900,
-  Lato_Black900_Italic,
   useFonts,
+  Lato_100Thin,
+  Lato_100Thin_Italic,
+  Lato_300Light,
+  Lato_300Light_Italic,
+  Lato_400Regular,
+  Lato_400Regular_Italic,
+  Lato_700Bold,
+  Lato_700Bold_Italic,
+  Lato_900Black,
+  Lato_900Black_Italic,
 } from '@expo-google-fonts/lato';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Lato_Thin100,
-    Lato_Thin100_Italic,
-    Lato_Light300,
-    Lato_Light300_Italic,
-    Lato_Regular400,
-    Lato_Regular400_Italic,
-    Lato_Bold700,
-    Lato_Bold700_Italic,
-    Lato_Black900,
-    Lato_Black900_Italic,
+    Lato_100Thin,
+    Lato_100Thin_Italic,
+    Lato_300Light,
+    Lato_300Light_Italic,
+    Lato_400Regular,
+    Lato_400Regular_Italic,
+    Lato_700Bold,
+    Lato_700Bold_Italic,
+    Lato_900Black,
+    Lato_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -75,40 +73,40 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_Thin100' }}>Lato_Thin100</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_100Thin' }}>Lato_100Thin</Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_Thin100_Italic' }}>
-          Lato_Thin100_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_100Thin_Italic' }}>
+          Lato_100Thin_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_Light300' }}>
-          Lato_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_300Light' }}>
+          Lato_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_Light300_Italic' }}>
-          Lato_Light300_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_300Light_Italic' }}>
+          Lato_300Light_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_Regular400' }}>
-          Lato_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_400Regular' }}>
+          Lato_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_Regular400_Italic' }}>
-          Lato_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_400Regular_Italic' }}>
+          Lato_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_Bold700' }}>Lato_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_700Bold' }}>Lato_700Bold</Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_Bold700_Italic' }}>
-          Lato_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_700Bold_Italic' }}>
+          Lato_700Bold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_Black900' }}>
-          Lato_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_900Black' }}>
+          Lato_900Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_Black900_Italic' }}>
-          Lato_Black900_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lato_900Black_Italic' }}>
+          Lato_900Black_Italic
         </Text>
       </View>
     );
@@ -119,35 +117,35 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Lato_Thin100
-![Lato_Thin100](./2e734a39ad0b4a1dffd327f552cce678e867791007200be49b6a93a6c7c71b27.ttf.png)
+##### Lato_100Thin
+![Lato_100Thin](./Lato_100Thin.ttf.png)
 
-##### Lato_Thin100_Italic
-![Lato_Thin100_Italic](./00d4076b836620336e608f16588994045e53f8aca14d9e430205db56649a8a55.ttf.png)
+##### Lato_100Thin_Italic
+![Lato_100Thin_Italic](./Lato_100Thin_Italic.ttf.png)
 
-##### Lato_Light300
-![Lato_Light300](./9b25850654f3dd59daf526a3d63dcca1c435e231c9fa2dd949ccde9cea994366.ttf.png)
+##### Lato_300Light
+![Lato_300Light](./Lato_300Light.ttf.png)
 
-##### Lato_Light300_Italic
-![Lato_Light300_Italic](./4cf23877950718d8775e526ee06380072a1bba6692d47bb5fb623fefb650b74b.ttf.png)
+##### Lato_300Light_Italic
+![Lato_300Light_Italic](./Lato_300Light_Italic.ttf.png)
 
-##### Lato_Regular400
-![Lato_Regular400](./a649aaf21573a59079c46db19314fd95648f531e610fa932101f2705616b2882.ttf.png)
+##### Lato_400Regular
+![Lato_400Regular](./Lato_400Regular.ttf.png)
 
-##### Lato_Regular400_Italic
-![Lato_Regular400_Italic](./484dd58cc095656f129f756067ede55183de20d70a6260c22ac747ed583672d6.ttf.png)
+##### Lato_400Regular_Italic
+![Lato_400Regular_Italic](./Lato_400Regular_Italic.ttf.png)
 
-##### Lato_Bold700
-![Lato_Bold700](./407592da08cb1f6060fbc69262ad33edd0b61ec9160521455eca8f726bbd4353.ttf.png)
+##### Lato_700Bold
+![Lato_700Bold](./Lato_700Bold.ttf.png)
 
-##### Lato_Bold700_Italic
-![Lato_Bold700_Italic](./6449b474d050304983a9431099406936e7f6978e22025a4a5ff8533871529bba.ttf.png)
+##### Lato_700Bold_Italic
+![Lato_700Bold_Italic](./Lato_700Bold_Italic.ttf.png)
 
-##### Lato_Black900
-![Lato_Black900](./abae7ec6de16f8108f1a3e1e3dc9edf11c5903ab89b3513821f4e079a51ae175.ttf.png)
+##### Lato_900Black
+![Lato_900Black](./Lato_900Black.ttf.png)
 
-##### Lato_Black900_Italic
-![Lato_Black900_Italic](./60407472b091a98e26c61f47900329eb3f971651fa76edc26d9f32f87e27f13f.ttf.png)
+##### Lato_900Black_Italic
+![Lato_900Black_Italic](./Lato_900Black_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -177,7 +175,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/lato)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

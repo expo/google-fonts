@@ -4,11 +4,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Hind Madurai';
-export const __fontFamilyVersion__ = 2;
-
-export const HindMadurai_Light300 = require('./5d2a60f4ad6943bf7f1de4b16722cf8992b893d91bdb242860538507d4514dfa.ttf');
-export const HindMadurai_Regular400 = require('./fe0b759733d5d95da02f65af60da858c2e45e9fc35332036694fef1e4f2369aa.ttf');
-export const HindMadurai_Medium500 = require('./367a1897906f0dafe97990639330a1ad8058b45f8d8deae93db5e40a9ae90f44.ttf');
-export const HindMadurai_SemiBold600 = require('./559d4bdf4c6fc62a412864ae9323ea997294ef17fda3b84684d928c0e042c1a0.ttf');
-export const HindMadurai_Bold700 = require('./59964f77b9fded7f3b4030894b5bde3bf552e70132670a0108ec2218ae31fb9b.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const HindMadurai_300Light = require('./HindMadurai_300Light.ttf');
+export const HindMadurai_400Regular = require('./HindMadurai_400Regular.ttf');
+export const HindMadurai_500Medium = require('./HindMadurai_500Medium.ttf');
+export const HindMadurai_600SemiBold = require('./HindMadurai_600SemiBold.ttf');
+export const HindMadurai_700Bold = require('./HindMadurai_700Bold.ttf');

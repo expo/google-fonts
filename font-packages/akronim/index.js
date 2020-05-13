@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Akronim';
-export const __fontFamilyVersion__ = 6;
-
-export const Akronim_Regular400 = require('./bb077a1601fc7353abf83d6f7e667b5c1ff47a853f2a90f466be1dd738f4e6a1.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Akronim_400Regular = require('./Akronim_400Regular.ttf');

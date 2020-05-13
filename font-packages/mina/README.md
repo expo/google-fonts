@@ -7,16 +7,14 @@
 
 This package lets you use the [**Mina**](https://fonts.google.com/specimen/Mina) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Mina
 
 ![Mina](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Mina_Regular400`
-- `Mina_Bold700`
+- `Mina_400Regular`
+- `Mina_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Mina_Regular400, Mina_Bold700, useFonts } from '@expo-google-fonts/mina';
+import { useFonts, Mina_400Regular, Mina_700Bold } from '@expo-google-fonts/mina';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Mina_Regular400,
-    Mina_Bold700,
+    Mina_400Regular,
+    Mina_700Bold,
   });
 
   let fontSize = 24;
@@ -47,11 +45,11 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mina_Regular400' }}>
-          Mina_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mina_400Regular' }}>
+          Mina_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mina_Bold700' }}>Mina_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mina_700Bold' }}>Mina_700Bold</Text>
       </View>
     );
   }
@@ -61,11 +59,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Mina_Regular400
-![Mina_Regular400](./2cb3c2707dad5e0a5f21dbad8da10b86eb3b1da477394a33f4d47a819fafb82d.ttf.png)
+##### Mina_400Regular
+![Mina_400Regular](./Mina_400Regular.ttf.png)
 
-##### Mina_Bold700
-![Mina_Bold700](./7dae008ee6a398a7d7b23f1fbdeeaced41fd8ba3b71cb12b94900ded063f6467.ttf.png)
+##### Mina_700Bold
+![Mina_700Bold](./Mina_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -95,7 +93,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/mina)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

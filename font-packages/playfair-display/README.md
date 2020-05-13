@@ -7,20 +7,24 @@
 
 This package lets you use the [**Playfair Display**](https://fonts.google.com/specimen/Playfair+Display) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Playfair Display
 
 ![Playfair Display](./font-family.png)
 
-This font family contains [6 styles](#-gallery).
+This font family contains [12 styles](#-gallery).
 
-- `PlayfairDisplay_Regular400`
-- `PlayfairDisplay_Regular400_Italic`
-- `PlayfairDisplay_Bold700`
-- `PlayfairDisplay_Bold700_Italic`
-- `PlayfairDisplay_Black900`
-- `PlayfairDisplay_Black900_Italic`
+- `PlayfairDisplay_400Regular`
+- `PlayfairDisplay_500Medium`
+- `PlayfairDisplay_600SemiBold`
+- `PlayfairDisplay_700Bold`
+- `PlayfairDisplay_800ExtraBold`
+- `PlayfairDisplay_900Black`
+- `PlayfairDisplay_400Regular_Italic`
+- `PlayfairDisplay_500Medium_Italic`
+- `PlayfairDisplay_600SemiBold_Italic`
+- `PlayfairDisplay_700Bold_Italic`
+- `PlayfairDisplay_800ExtraBold_Italic`
+- `PlayfairDisplay_900Black_Italic`
 
 ## Usage
 
@@ -36,23 +40,35 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  PlayfairDisplay_Regular400,
-  PlayfairDisplay_Regular400_Italic,
-  PlayfairDisplay_Bold700,
-  PlayfairDisplay_Bold700_Italic,
-  PlayfairDisplay_Black900,
-  PlayfairDisplay_Black900_Italic,
   useFonts,
+  PlayfairDisplay_400Regular,
+  PlayfairDisplay_500Medium,
+  PlayfairDisplay_600SemiBold,
+  PlayfairDisplay_700Bold,
+  PlayfairDisplay_800ExtraBold,
+  PlayfairDisplay_900Black,
+  PlayfairDisplay_400Regular_Italic,
+  PlayfairDisplay_500Medium_Italic,
+  PlayfairDisplay_600SemiBold_Italic,
+  PlayfairDisplay_700Bold_Italic,
+  PlayfairDisplay_800ExtraBold_Italic,
+  PlayfairDisplay_900Black_Italic,
 } from '@expo-google-fonts/playfair-display';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    PlayfairDisplay_Regular400,
-    PlayfairDisplay_Regular400_Italic,
-    PlayfairDisplay_Bold700,
-    PlayfairDisplay_Bold700_Italic,
-    PlayfairDisplay_Black900,
-    PlayfairDisplay_Black900_Italic,
+    PlayfairDisplay_400Regular,
+    PlayfairDisplay_500Medium,
+    PlayfairDisplay_600SemiBold,
+    PlayfairDisplay_700Bold,
+    PlayfairDisplay_800ExtraBold,
+    PlayfairDisplay_900Black,
+    PlayfairDisplay_400Regular_Italic,
+    PlayfairDisplay_500Medium_Italic,
+    PlayfairDisplay_600SemiBold_Italic,
+    PlayfairDisplay_700Bold_Italic,
+    PlayfairDisplay_800ExtraBold_Italic,
+    PlayfairDisplay_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -63,29 +79,55 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_Regular400' }}>
-          PlayfairDisplay_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_400Regular' }}>
+          PlayfairDisplay_400Regular
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_500Medium' }}>
+          PlayfairDisplay_500Medium
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_600SemiBold' }}>
+          PlayfairDisplay_600SemiBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_700Bold' }}>
+          PlayfairDisplay_700Bold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_800ExtraBold' }}>
+          PlayfairDisplay_800ExtraBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_900Black' }}>
+          PlayfairDisplay_900Black
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_Regular400_Italic' }}>
-          PlayfairDisplay_Regular400_Italic
+          style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_400Regular_Italic' }}>
+          PlayfairDisplay_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_Bold700' }}>
-          PlayfairDisplay_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_500Medium_Italic' }}>
+          PlayfairDisplay_500Medium_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_Bold700_Italic' }}>
-          PlayfairDisplay_Bold700_Italic
+        <Text
+          style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_600SemiBold_Italic' }}>
+          PlayfairDisplay_600SemiBold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_Black900' }}>
-          PlayfairDisplay_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_700Bold_Italic' }}>
+          PlayfairDisplay_700Bold_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_Black900_Italic' }}>
-          PlayfairDisplay_Black900_Italic
+        <Text
+          style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_800ExtraBold_Italic' }}>
+          PlayfairDisplay_800ExtraBold_Italic
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplay_900Black_Italic' }}>
+          PlayfairDisplay_900Black_Italic
         </Text>
       </View>
     );
@@ -96,23 +138,41 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PlayfairDisplay_Regular400
-![PlayfairDisplay_Regular400](./924bc8e9d64e8b2f2cb789375461b2d504e9975b6f77da5ffc252ddc8a3aac57.ttf.png)
+##### PlayfairDisplay_400Regular
+![PlayfairDisplay_400Regular](./PlayfairDisplay_400Regular.ttf.png)
 
-##### PlayfairDisplay_Regular400_Italic
-![PlayfairDisplay_Regular400_Italic](./548814592545ef5a92d9c32a90d369cc51da8a75c2a9397c3f8b64550d64f723.ttf.png)
+##### PlayfairDisplay_500Medium
+![PlayfairDisplay_500Medium](./PlayfairDisplay_500Medium.ttf.png)
 
-##### PlayfairDisplay_Bold700
-![PlayfairDisplay_Bold700](./e5f443f351dd32a170af092c9d5509a205b292561fff1cc93c7a775be1508529.ttf.png)
+##### PlayfairDisplay_600SemiBold
+![PlayfairDisplay_600SemiBold](./PlayfairDisplay_600SemiBold.ttf.png)
 
-##### PlayfairDisplay_Bold700_Italic
-![PlayfairDisplay_Bold700_Italic](./b30290eb18fd60330cbcf52d5f3cfdb174100195152ee6c527c286b01155a193.ttf.png)
+##### PlayfairDisplay_700Bold
+![PlayfairDisplay_700Bold](./PlayfairDisplay_700Bold.ttf.png)
 
-##### PlayfairDisplay_Black900
-![PlayfairDisplay_Black900](./b6c0ff8733004f8c2f6cf42f45af14fbd569ba824fb2843b3db4f3e15616cedd.ttf.png)
+##### PlayfairDisplay_800ExtraBold
+![PlayfairDisplay_800ExtraBold](./PlayfairDisplay_800ExtraBold.ttf.png)
 
-##### PlayfairDisplay_Black900_Italic
-![PlayfairDisplay_Black900_Italic](./19e0ceccbc574b8a28fe94bd62388dc4dd8dbb00da8fda92003d293ff75bf9ed.ttf.png)
+##### PlayfairDisplay_900Black
+![PlayfairDisplay_900Black](./PlayfairDisplay_900Black.ttf.png)
+
+##### PlayfairDisplay_400Regular_Italic
+![PlayfairDisplay_400Regular_Italic](./PlayfairDisplay_400Regular_Italic.ttf.png)
+
+##### PlayfairDisplay_500Medium_Italic
+![PlayfairDisplay_500Medium_Italic](./PlayfairDisplay_500Medium_Italic.ttf.png)
+
+##### PlayfairDisplay_600SemiBold_Italic
+![PlayfairDisplay_600SemiBold_Italic](./PlayfairDisplay_600SemiBold_Italic.ttf.png)
+
+##### PlayfairDisplay_700Bold_Italic
+![PlayfairDisplay_700Bold_Italic](./PlayfairDisplay_700Bold_Italic.ttf.png)
+
+##### PlayfairDisplay_800ExtraBold_Italic
+![PlayfairDisplay_800ExtraBold_Italic](./PlayfairDisplay_800ExtraBold_Italic.ttf.png)
+
+##### PlayfairDisplay_900Black_Italic
+![PlayfairDisplay_900Black_Italic](./PlayfairDisplay_900Black_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -142,7 +202,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/playfair-display)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

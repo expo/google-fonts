@@ -7,16 +7,14 @@
 
 This package lets you use the [**Linden Hill**](https://fonts.google.com/specimen/Linden+Hill) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Linden Hill
 
 ![Linden Hill](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `LindenHill_Regular400`
-- `LindenHill_Regular400_Italic`
+- `LindenHill_400Regular`
+- `LindenHill_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  LindenHill_Regular400,
-  LindenHill_Regular400_Italic,
   useFonts,
+  LindenHill_400Regular,
+  LindenHill_400Regular_Italic,
 } from '@expo-google-fonts/linden-hill';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    LindenHill_Regular400,
-    LindenHill_Regular400_Italic,
+    LindenHill_400Regular,
+    LindenHill_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LindenHill_Regular400' }}>
-          LindenHill_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LindenHill_400Regular' }}>
+          LindenHill_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LindenHill_Regular400_Italic' }}>
-          LindenHill_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'LindenHill_400Regular_Italic' }}>
+          LindenHill_400Regular_Italic
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LindenHill_Regular400
-![LindenHill_Regular400](./f32a2438962995a6cced863561c2653cdbd06a951ca2497da2a9275d3fb83fcb.ttf.png)
+##### LindenHill_400Regular
+![LindenHill_400Regular](./LindenHill_400Regular.ttf.png)
 
-##### LindenHill_Regular400_Italic
-![LindenHill_Regular400_Italic](./312de55c585397a60a43de01015efb512a794ffb875c4edd86fcb2e8af39db39.ttf.png)
+##### LindenHill_400Regular_Italic
+![LindenHill_400Regular_Italic](./LindenHill_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/linden-hill)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

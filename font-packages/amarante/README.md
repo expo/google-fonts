@@ -7,15 +7,13 @@
 
 This package lets you use the [**Amarante**](https://fonts.google.com/specimen/Amarante) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Amarante
 
 ![Amarante](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Amarante_Regular400`
+- `Amarante_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Amarante_Regular400, useFonts } from '@expo-google-fonts/amarante';
+import { useFonts, Amarante_400Regular } from '@expo-google-fonts/amarante';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Amarante_Regular400,
+    Amarante_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amarante_Regular400' }}>
-          Amarante_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amarante_400Regular' }}>
+          Amarante_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Amarante_Regular400
-![Amarante_Regular400](./f11a52c1a0f3e94f81dde8d9c60832c688c1d9b01c5bb1098c3ea30daac8ad29.ttf.png)
+##### Amarante_400Regular
+![Amarante_400Regular](./Amarante_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/amarante)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

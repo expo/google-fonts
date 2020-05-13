@@ -7,18 +7,16 @@
 
 This package lets you use the [**Arimo**](https://fonts.google.com/specimen/Arimo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Arimo
 
 ![Arimo](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Arimo_Regular400`
-- `Arimo_Regular400_Italic`
-- `Arimo_Bold700`
-- `Arimo_Bold700_Italic`
+- `Arimo_400Regular`
+- `Arimo_400Regular_Italic`
+- `Arimo_700Bold`
+- `Arimo_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Arimo_Regular400,
-  Arimo_Regular400_Italic,
-  Arimo_Bold700,
-  Arimo_Bold700_Italic,
   useFonts,
+  Arimo_400Regular,
+  Arimo_400Regular_Italic,
+  Arimo_700Bold,
+  Arimo_700Bold_Italic,
 } from '@expo-google-fonts/arimo';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Arimo_Regular400,
-    Arimo_Regular400_Italic,
-    Arimo_Bold700,
-    Arimo_Bold700_Italic,
+    Arimo_400Regular,
+    Arimo_400Regular_Italic,
+    Arimo_700Bold,
+    Arimo_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arimo_Regular400' }}>
-          Arimo_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arimo_400Regular' }}>
+          Arimo_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arimo_Regular400_Italic' }}>
-          Arimo_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arimo_400Regular_Italic' }}>
+          Arimo_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arimo_Bold700' }}>
-          Arimo_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arimo_700Bold' }}>
+          Arimo_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arimo_Bold700_Italic' }}>
-          Arimo_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arimo_700Bold_Italic' }}>
+          Arimo_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Arimo_Regular400
-![Arimo_Regular400](./df255da5c656bbf01f4aa3012b4d4ba16f7bd17664a4e1fc011146a4eb95d436.ttf.png)
+##### Arimo_400Regular
+![Arimo_400Regular](./Arimo_400Regular.ttf.png)
 
-##### Arimo_Regular400_Italic
-![Arimo_Regular400_Italic](./eafe825bf96517b1ff3b8d8710254e225584de1489e4c3deaa6b1cb8549a027d.ttf.png)
+##### Arimo_400Regular_Italic
+![Arimo_400Regular_Italic](./Arimo_400Regular_Italic.ttf.png)
 
-##### Arimo_Bold700
-![Arimo_Bold700](./5a4f400fb6090e3938136ea6fd3ec2c02777fb674d13b9582f96d4515044df23.ttf.png)
+##### Arimo_700Bold
+![Arimo_700Bold](./Arimo_700Bold.ttf.png)
 
-##### Arimo_Bold700_Italic
-![Arimo_Bold700_Italic](./e6b358f015564a1505c76b32db9b3f5c538a8f7d220dd04446697d286c820bf0.ttf.png)
+##### Arimo_700Bold_Italic
+![Arimo_700Bold_Italic](./Arimo_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/arimo)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

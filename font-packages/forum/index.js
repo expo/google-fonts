@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Forum';
-export const __fontFamilyVersion__ = 7;
-
-export const Forum_Regular400 = require('./3dd2cb0744af0bc963b13a121b6194f8d271243f3973b40041c90b6113d168b2.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Forum_400Regular = require('./Forum_400Regular.ttf');

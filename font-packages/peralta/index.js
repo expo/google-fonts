@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Peralta';
-export const __fontFamilyVersion__ = 4;
-
-export const Peralta_Regular400 = require('./28a0d3b695c9ecde1fe0ab5e4dceac96b21749fe6a3df062847e363b47af3360.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Peralta_400Regular = require('./Peralta_400Regular.ttf');

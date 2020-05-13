@@ -7,15 +7,13 @@
 
 This package lets you use the [**Caesar Dressing**](https://fonts.google.com/specimen/Caesar+Dressing) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Caesar Dressing
 
 ![Caesar Dressing](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `CaesarDressing_Regular400`
+- `CaesarDressing_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { CaesarDressing_Regular400, useFonts } from '@expo-google-fonts/caesar-dressing';
+import { useFonts, CaesarDressing_400Regular } from '@expo-google-fonts/caesar-dressing';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CaesarDressing_Regular400,
+    CaesarDressing_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CaesarDressing_Regular400' }}>
-          CaesarDressing_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CaesarDressing_400Regular' }}>
+          CaesarDressing_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CaesarDressing_Regular400
-![CaesarDressing_Regular400](./ee89ad88164ca8c3eeb747410087b9deecb5d306172af188f53bd267ec033f9c.ttf.png)
+##### CaesarDressing_400Regular
+![CaesarDressing_400Regular](./CaesarDressing_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/caesar-dressing)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

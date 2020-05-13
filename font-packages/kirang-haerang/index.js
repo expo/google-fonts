@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Kirang Haerang';
-export const __fontFamilyVersion__ = 4;
-
-export const KirangHaerang_Regular400 = require('./419ae98f0574b7c2a5b81ce99a859d0db9335d7be00145712bad1d7d8881abb1.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const KirangHaerang_400Regular = require('./KirangHaerang_400Regular.ttf');

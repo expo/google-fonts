@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Fredericka the Great';
-export const __fontFamilyVersion__ = 5;
-
-export const FrederickatheGreat_Regular400 = require('./532a820c85a4591fdb49ad776bcc3950cb9e66fec68cb9263fc47c65406e575d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const FrederickatheGreat_400Regular = require('./FrederickatheGreat_400Regular.ttf');

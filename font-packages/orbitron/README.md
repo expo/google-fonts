@@ -7,18 +7,18 @@
 
 This package lets you use the [**Orbitron**](https://fonts.google.com/specimen/Orbitron) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Orbitron
 
 ![Orbitron](./font-family.png)
 
-This font family contains [4 styles](#-gallery).
+This font family contains [6 styles](#-gallery).
 
-- `Orbitron_Regular400`
-- `Orbitron_Medium500`
-- `Orbitron_Bold700`
-- `Orbitron_Black900`
+- `Orbitron_400Regular`
+- `Orbitron_500Medium`
+- `Orbitron_600SemiBold`
+- `Orbitron_700Bold`
+- `Orbitron_800ExtraBold`
+- `Orbitron_900Black`
 
 ## Usage
 
@@ -34,19 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Orbitron_Regular400,
-  Orbitron_Medium500,
-  Orbitron_Bold700,
-  Orbitron_Black900,
   useFonts,
+  Orbitron_400Regular,
+  Orbitron_500Medium,
+  Orbitron_600SemiBold,
+  Orbitron_700Bold,
+  Orbitron_800ExtraBold,
+  Orbitron_900Black,
 } from '@expo-google-fonts/orbitron';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Orbitron_Regular400,
-    Orbitron_Medium500,
-    Orbitron_Bold700,
-    Orbitron_Black900,
+    Orbitron_400Regular,
+    Orbitron_500Medium,
+    Orbitron_600SemiBold,
+    Orbitron_700Bold,
+    Orbitron_800ExtraBold,
+    Orbitron_900Black,
   });
 
   let fontSize = 24;
@@ -57,20 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Orbitron_Regular400' }}>
-          Orbitron_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Orbitron_400Regular' }}>
+          Orbitron_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Orbitron_Medium500' }}>
-          Orbitron_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Orbitron_500Medium' }}>
+          Orbitron_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Orbitron_Bold700' }}>
-          Orbitron_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Orbitron_600SemiBold' }}>
+          Orbitron_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Orbitron_Black900' }}>
-          Orbitron_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Orbitron_700Bold' }}>
+          Orbitron_700Bold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Orbitron_800ExtraBold' }}>
+          Orbitron_800ExtraBold
+        </Text>
+
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Orbitron_900Black' }}>
+          Orbitron_900Black
         </Text>
       </View>
     );
@@ -81,17 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Orbitron_Regular400
-![Orbitron_Regular400](./92d53d02a61d246157ee4ac3e2668206b546a454087e25530c48918b92bfce32.ttf.png)
+##### Orbitron_400Regular
+![Orbitron_400Regular](./Orbitron_400Regular.ttf.png)
 
-##### Orbitron_Medium500
-![Orbitron_Medium500](./1c174158cbedc3b8323f310b03842e82bc72c5fd2d5327ee80671506188cc6cc.ttf.png)
+##### Orbitron_500Medium
+![Orbitron_500Medium](./Orbitron_500Medium.ttf.png)
 
-##### Orbitron_Bold700
-![Orbitron_Bold700](./baf59aa462bae9b1e738270aa2b901810db31788e78774046146f315809bc1a6.ttf.png)
+##### Orbitron_600SemiBold
+![Orbitron_600SemiBold](./Orbitron_600SemiBold.ttf.png)
 
-##### Orbitron_Black900
-![Orbitron_Black900](./3853d940cd873a88dc5e24918311876228ef02a6216677db898c41efccc598f0.ttf.png)
+##### Orbitron_700Bold
+![Orbitron_700Bold](./Orbitron_700Bold.ttf.png)
+
+##### Orbitron_800ExtraBold
+![Orbitron_800ExtraBold](./Orbitron_800ExtraBold.ttf.png)
+
+##### Orbitron_900Black
+![Orbitron_900Black](./Orbitron_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/orbitron)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

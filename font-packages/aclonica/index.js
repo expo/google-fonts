@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Aclonica';
-export const __fontFamilyVersion__ = 7;
-
-export const Aclonica_Regular400 = require('./e26afc4582406a86fc1e1b81aad6e16a03f9276419fa76e91b98f9e42d868cc8.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Aclonica_400Regular = require('./Aclonica_400Regular.ttf');

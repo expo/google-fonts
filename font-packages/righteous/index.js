@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Righteous';
-export const __fontFamilyVersion__ = 5;
-
-export const Righteous_Regular400 = require('./b40fb221f7d3d9f9d2681d60785245f09112b91485a2380235241e647b852428.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Righteous_400Regular = require('./Righteous_400Regular.ttf');

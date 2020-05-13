@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Risque';
-export const __fontFamilyVersion__ = 4;
-
-export const Risque_Regular400 = require('./5f8b847245100d0b265af4b51f5155b82e072ba6124a272762a8868071c2e9a8.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Risque_400Regular = require('./Risque_400Regular.ttf');

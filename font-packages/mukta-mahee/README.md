@@ -7,21 +7,19 @@
 
 This package lets you use the [**Mukta Mahee**](https://fonts.google.com/specimen/Mukta+Mahee) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Mukta Mahee
 
 ![Mukta Mahee](./font-family.png)
 
 This font family contains [7 styles](#-gallery).
 
-- `MuktaMahee_ExtraLight200`
-- `MuktaMahee_Light300`
-- `MuktaMahee_Regular400`
-- `MuktaMahee_Medium500`
-- `MuktaMahee_SemiBold600`
-- `MuktaMahee_Bold700`
-- `MuktaMahee_ExtraBold800`
+- `MuktaMahee_200ExtraLight`
+- `MuktaMahee_300Light`
+- `MuktaMahee_400Regular`
+- `MuktaMahee_500Medium`
+- `MuktaMahee_600SemiBold`
+- `MuktaMahee_700Bold`
+- `MuktaMahee_800ExtraBold`
 
 ## Usage
 
@@ -37,25 +35,25 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  MuktaMahee_ExtraLight200,
-  MuktaMahee_Light300,
-  MuktaMahee_Regular400,
-  MuktaMahee_Medium500,
-  MuktaMahee_SemiBold600,
-  MuktaMahee_Bold700,
-  MuktaMahee_ExtraBold800,
   useFonts,
+  MuktaMahee_200ExtraLight,
+  MuktaMahee_300Light,
+  MuktaMahee_400Regular,
+  MuktaMahee_500Medium,
+  MuktaMahee_600SemiBold,
+  MuktaMahee_700Bold,
+  MuktaMahee_800ExtraBold,
 } from '@expo-google-fonts/mukta-mahee';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    MuktaMahee_ExtraLight200,
-    MuktaMahee_Light300,
-    MuktaMahee_Regular400,
-    MuktaMahee_Medium500,
-    MuktaMahee_SemiBold600,
-    MuktaMahee_Bold700,
-    MuktaMahee_ExtraBold800,
+    MuktaMahee_200ExtraLight,
+    MuktaMahee_300Light,
+    MuktaMahee_400Regular,
+    MuktaMahee_500Medium,
+    MuktaMahee_600SemiBold,
+    MuktaMahee_700Bold,
+    MuktaMahee_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -66,32 +64,32 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMahee_ExtraLight200' }}>
-          MuktaMahee_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMahee_200ExtraLight' }}>
+          MuktaMahee_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMahee_Light300' }}>
-          MuktaMahee_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMahee_300Light' }}>
+          MuktaMahee_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMahee_Regular400' }}>
-          MuktaMahee_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMahee_400Regular' }}>
+          MuktaMahee_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMahee_Medium500' }}>
-          MuktaMahee_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMahee_500Medium' }}>
+          MuktaMahee_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMahee_SemiBold600' }}>
-          MuktaMahee_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMahee_600SemiBold' }}>
+          MuktaMahee_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMahee_Bold700' }}>
-          MuktaMahee_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMahee_700Bold' }}>
+          MuktaMahee_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMahee_ExtraBold800' }}>
-          MuktaMahee_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMahee_800ExtraBold' }}>
+          MuktaMahee_800ExtraBold
         </Text>
       </View>
     );
@@ -102,26 +100,26 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MuktaMahee_ExtraLight200
-![MuktaMahee_ExtraLight200](./deb2926281b06e4d02371cd3f6f4883d13a38514549e581c6269cb16250c5a63.ttf.png)
+##### MuktaMahee_200ExtraLight
+![MuktaMahee_200ExtraLight](./MuktaMahee_200ExtraLight.ttf.png)
 
-##### MuktaMahee_Light300
-![MuktaMahee_Light300](./448813ce747d7ccc8e7b380c48932fe537454f9a86ac18052fa515874298334e.ttf.png)
+##### MuktaMahee_300Light
+![MuktaMahee_300Light](./MuktaMahee_300Light.ttf.png)
 
-##### MuktaMahee_Regular400
-![MuktaMahee_Regular400](./e185695b95ca5300e131bf6cf64a2442b7517874432a1a82f968ee61ed116717.ttf.png)
+##### MuktaMahee_400Regular
+![MuktaMahee_400Regular](./MuktaMahee_400Regular.ttf.png)
 
-##### MuktaMahee_Medium500
-![MuktaMahee_Medium500](./e224c5c38bb5fe5efb69e8392dfd476427211ddb37a97f4fd77b807d5aad8b7c.ttf.png)
+##### MuktaMahee_500Medium
+![MuktaMahee_500Medium](./MuktaMahee_500Medium.ttf.png)
 
-##### MuktaMahee_SemiBold600
-![MuktaMahee_SemiBold600](./f2c62fede24e5fe712f6f59500c550749c89e47b21cb749ea96f447ace17a57a.ttf.png)
+##### MuktaMahee_600SemiBold
+![MuktaMahee_600SemiBold](./MuktaMahee_600SemiBold.ttf.png)
 
-##### MuktaMahee_Bold700
-![MuktaMahee_Bold700](./0bde54d9dc9448b8d81abd2d849dade4e04c4b7c4ec8565ccb09e80f0fd2be99.ttf.png)
+##### MuktaMahee_700Bold
+![MuktaMahee_700Bold](./MuktaMahee_700Bold.ttf.png)
 
-##### MuktaMahee_ExtraBold800
-![MuktaMahee_ExtraBold800](./561a2604bd143dc10cc3499ba4e3c7eef16b6705db72db31da22ad356b76feb5.ttf.png)
+##### MuktaMahee_800ExtraBold
+![MuktaMahee_800ExtraBold](./MuktaMahee_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -151,7 +149,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/mukta-mahee)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

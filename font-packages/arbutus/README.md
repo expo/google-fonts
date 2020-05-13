@@ -7,15 +7,13 @@
 
 This package lets you use the [**Arbutus**](https://fonts.google.com/specimen/Arbutus) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Arbutus
 
 ![Arbutus](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Arbutus_Regular400`
+- `Arbutus_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Arbutus_Regular400, useFonts } from '@expo-google-fonts/arbutus';
+import { useFonts, Arbutus_400Regular } from '@expo-google-fonts/arbutus';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Arbutus_Regular400,
+    Arbutus_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arbutus_Regular400' }}>
-          Arbutus_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arbutus_400Regular' }}>
+          Arbutus_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Arbutus_Regular400
-![Arbutus_Regular400](./d1484fe1dd2948c05f4d1ab7f6acbbc88d4acea2e32880263ec8f991cba4905f.ttf.png)
+##### Arbutus_400Regular
+![Arbutus_400Regular](./Arbutus_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/arbutus)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

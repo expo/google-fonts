@@ -7,16 +7,14 @@
 
 This package lets you use the [**Sniglet**](https://fonts.google.com/specimen/Sniglet) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sniglet
 
 ![Sniglet](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Sniglet_Regular400`
-- `Sniglet_ExtraBold800`
+- `Sniglet_400Regular`
+- `Sniglet_800ExtraBold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Sniglet_Regular400, Sniglet_ExtraBold800, useFonts } from '@expo-google-fonts/sniglet';
+import { useFonts, Sniglet_400Regular, Sniglet_800ExtraBold } from '@expo-google-fonts/sniglet';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Sniglet_Regular400,
-    Sniglet_ExtraBold800,
+    Sniglet_400Regular,
+    Sniglet_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sniglet_Regular400' }}>
-          Sniglet_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sniglet_400Regular' }}>
+          Sniglet_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sniglet_ExtraBold800' }}>
-          Sniglet_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sniglet_800ExtraBold' }}>
+          Sniglet_800ExtraBold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sniglet_Regular400
-![Sniglet_Regular400](./106613b6566b3b9a696c095879b31e220c39d60c508dae033b5f3680aaa48732.ttf.png)
+##### Sniglet_400Regular
+![Sniglet_400Regular](./Sniglet_400Regular.ttf.png)
 
-##### Sniglet_ExtraBold800
-![Sniglet_ExtraBold800](./439b0ab4a7a1d2a1328cc8eb52d10167325643f9c15a187d3d7650cdd15cf896.ttf.png)
+##### Sniglet_800ExtraBold
+![Sniglet_800ExtraBold](./Sniglet_800ExtraBold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sniglet)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

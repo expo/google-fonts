@@ -7,18 +7,16 @@
 
 This package lets you use the [**Ubuntu Mono**](https://fonts.google.com/specimen/Ubuntu+Mono) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Ubuntu Mono
 
 ![Ubuntu Mono](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `UbuntuMono_Regular400`
-- `UbuntuMono_Regular400_Italic`
-- `UbuntuMono_Bold700`
-- `UbuntuMono_Bold700_Italic`
+- `UbuntuMono_400Regular`
+- `UbuntuMono_400Regular_Italic`
+- `UbuntuMono_700Bold`
+- `UbuntuMono_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  UbuntuMono_Regular400,
-  UbuntuMono_Regular400_Italic,
-  UbuntuMono_Bold700,
-  UbuntuMono_Bold700_Italic,
   useFonts,
+  UbuntuMono_400Regular,
+  UbuntuMono_400Regular_Italic,
+  UbuntuMono_700Bold,
+  UbuntuMono_700Bold_Italic,
 } from '@expo-google-fonts/ubuntu-mono';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    UbuntuMono_Regular400,
-    UbuntuMono_Regular400_Italic,
-    UbuntuMono_Bold700,
-    UbuntuMono_Bold700_Italic,
+    UbuntuMono_400Regular,
+    UbuntuMono_400Regular_Italic,
+    UbuntuMono_700Bold,
+    UbuntuMono_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'UbuntuMono_Regular400' }}>
-          UbuntuMono_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'UbuntuMono_400Regular' }}>
+          UbuntuMono_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'UbuntuMono_Regular400_Italic' }}>
-          UbuntuMono_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'UbuntuMono_400Regular_Italic' }}>
+          UbuntuMono_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'UbuntuMono_Bold700' }}>
-          UbuntuMono_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'UbuntuMono_700Bold' }}>
+          UbuntuMono_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'UbuntuMono_Bold700_Italic' }}>
-          UbuntuMono_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'UbuntuMono_700Bold_Italic' }}>
+          UbuntuMono_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### UbuntuMono_Regular400
-![UbuntuMono_Regular400](./cd1f8cec4767686edcf755dcde43ac58d83cef21ee96f0e6d850aaf359edd22c.ttf.png)
+##### UbuntuMono_400Regular
+![UbuntuMono_400Regular](./UbuntuMono_400Regular.ttf.png)
 
-##### UbuntuMono_Regular400_Italic
-![UbuntuMono_Regular400_Italic](./f9935197a4379e2812e72644ce77c4d8bd3f108ff3b23ed5fccb7032f08d6626.ttf.png)
+##### UbuntuMono_400Regular_Italic
+![UbuntuMono_400Regular_Italic](./UbuntuMono_400Regular_Italic.ttf.png)
 
-##### UbuntuMono_Bold700
-![UbuntuMono_Bold700](./7f6a2a5a1eeef3fd539d7cb59119e2a720c33fb75347a47de6c1b4daef4ab63c.ttf.png)
+##### UbuntuMono_700Bold
+![UbuntuMono_700Bold](./UbuntuMono_700Bold.ttf.png)
 
-##### UbuntuMono_Bold700_Italic
-![UbuntuMono_Bold700_Italic](./91873d66153347506011f860ea9c87fc36c2ee4ef726bd95cc88c86e0b1ec5f2.ttf.png)
+##### UbuntuMono_700Bold_Italic
+![UbuntuMono_700Bold_Italic](./UbuntuMono_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/ubuntu-mono)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

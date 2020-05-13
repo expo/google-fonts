@@ -7,16 +7,14 @@
 
 This package lets you use the [**Monda**](https://fonts.google.com/specimen/Monda) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Monda
 
 ![Monda](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Monda_Regular400`
-- `Monda_Bold700`
+- `Monda_400Regular`
+- `Monda_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Monda_Regular400, Monda_Bold700, useFonts } from '@expo-google-fonts/monda';
+import { useFonts, Monda_400Regular, Monda_700Bold } from '@expo-google-fonts/monda';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Monda_Regular400,
-    Monda_Bold700,
+    Monda_400Regular,
+    Monda_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Monda_Regular400' }}>
-          Monda_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Monda_400Regular' }}>
+          Monda_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Monda_Bold700' }}>
-          Monda_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Monda_700Bold' }}>
+          Monda_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Monda_Regular400
-![Monda_Regular400](./b28adc169d42a434c7b435bab7f4c11ae50fdc1516bc03426f8835d8b70dbee7.ttf.png)
+##### Monda_400Regular
+![Monda_400Regular](./Monda_400Regular.ttf.png)
 
-##### Monda_Bold700
-![Monda_Bold700](./b05dc6798c3ea80d95c20709740c72bb72d07040538c1240f850c220292e3f6f.ttf.png)
+##### Monda_700Bold
+![Monda_700Bold](./Monda_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/monda)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

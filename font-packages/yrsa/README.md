@@ -7,19 +7,17 @@
 
 This package lets you use the [**Yrsa**](https://fonts.google.com/specimen/Yrsa) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Yrsa
 
 ![Yrsa](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `Yrsa_Light300`
-- `Yrsa_Regular400`
-- `Yrsa_Medium500`
-- `Yrsa_SemiBold600`
-- `Yrsa_Bold700`
+- `Yrsa_300Light`
+- `Yrsa_400Regular`
+- `Yrsa_500Medium`
+- `Yrsa_600SemiBold`
+- `Yrsa_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Yrsa_Light300,
-  Yrsa_Regular400,
-  Yrsa_Medium500,
-  Yrsa_SemiBold600,
-  Yrsa_Bold700,
   useFonts,
+  Yrsa_300Light,
+  Yrsa_400Regular,
+  Yrsa_500Medium,
+  Yrsa_600SemiBold,
+  Yrsa_700Bold,
 } from '@expo-google-fonts/yrsa';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Yrsa_Light300,
-    Yrsa_Regular400,
-    Yrsa_Medium500,
-    Yrsa_SemiBold600,
-    Yrsa_Bold700,
+    Yrsa_300Light,
+    Yrsa_400Regular,
+    Yrsa_500Medium,
+    Yrsa_600SemiBold,
+    Yrsa_700Bold,
   });
 
   let fontSize = 24;
@@ -60,23 +58,23 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yrsa_Light300' }}>
-          Yrsa_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yrsa_300Light' }}>
+          Yrsa_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yrsa_Regular400' }}>
-          Yrsa_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yrsa_400Regular' }}>
+          Yrsa_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yrsa_Medium500' }}>
-          Yrsa_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yrsa_500Medium' }}>
+          Yrsa_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yrsa_SemiBold600' }}>
-          Yrsa_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yrsa_600SemiBold' }}>
+          Yrsa_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yrsa_Bold700' }}>Yrsa_Bold700</Text>
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yrsa_700Bold' }}>Yrsa_700Bold</Text>
       </View>
     );
   }
@@ -86,20 +84,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Yrsa_Light300
-![Yrsa_Light300](./b942444580e24561d6008f08b6b3145662d902d140408e9f6c92ee7cd5affa00.ttf.png)
+##### Yrsa_300Light
+![Yrsa_300Light](./Yrsa_300Light.ttf.png)
 
-##### Yrsa_Regular400
-![Yrsa_Regular400](./9782370d37625db345595b8f48ae5156b4c8256cd4867b119af3114faa566686.ttf.png)
+##### Yrsa_400Regular
+![Yrsa_400Regular](./Yrsa_400Regular.ttf.png)
 
-##### Yrsa_Medium500
-![Yrsa_Medium500](./61c4e4c03498db5ec4f926576603b2102fac9f90b73b7aafe7e6ebadc30444b0.ttf.png)
+##### Yrsa_500Medium
+![Yrsa_500Medium](./Yrsa_500Medium.ttf.png)
 
-##### Yrsa_SemiBold600
-![Yrsa_SemiBold600](./dd8f96acf795a40fc16730d309bc4a64f1f21d96ac4e93763611cee5539b77f9.ttf.png)
+##### Yrsa_600SemiBold
+![Yrsa_600SemiBold](./Yrsa_600SemiBold.ttf.png)
 
-##### Yrsa_Bold700
-![Yrsa_Bold700](./94de8af1023c6dab0ffcb86966c85582afca7392a0c3377cd0f1cb536c9d095c.ttf.png)
+##### Yrsa_700Bold
+![Yrsa_700Bold](./Yrsa_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -129,7 +127,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/yrsa)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

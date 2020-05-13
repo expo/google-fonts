@@ -7,19 +7,17 @@
 
 This package lets you use the [**Hind Madurai**](https://fonts.google.com/specimen/Hind+Madurai) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Hind Madurai
 
 ![Hind Madurai](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `HindMadurai_Light300`
-- `HindMadurai_Regular400`
-- `HindMadurai_Medium500`
-- `HindMadurai_SemiBold600`
-- `HindMadurai_Bold700`
+- `HindMadurai_300Light`
+- `HindMadurai_400Regular`
+- `HindMadurai_500Medium`
+- `HindMadurai_600SemiBold`
+- `HindMadurai_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  HindMadurai_Light300,
-  HindMadurai_Regular400,
-  HindMadurai_Medium500,
-  HindMadurai_SemiBold600,
-  HindMadurai_Bold700,
   useFonts,
+  HindMadurai_300Light,
+  HindMadurai_400Regular,
+  HindMadurai_500Medium,
+  HindMadurai_600SemiBold,
+  HindMadurai_700Bold,
 } from '@expo-google-fonts/hind-madurai';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    HindMadurai_Light300,
-    HindMadurai_Regular400,
-    HindMadurai_Medium500,
-    HindMadurai_SemiBold600,
-    HindMadurai_Bold700,
+    HindMadurai_300Light,
+    HindMadurai_400Regular,
+    HindMadurai_500Medium,
+    HindMadurai_600SemiBold,
+    HindMadurai_700Bold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindMadurai_Light300' }}>
-          HindMadurai_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindMadurai_300Light' }}>
+          HindMadurai_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindMadurai_Regular400' }}>
-          HindMadurai_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindMadurai_400Regular' }}>
+          HindMadurai_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindMadurai_Medium500' }}>
-          HindMadurai_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindMadurai_500Medium' }}>
+          HindMadurai_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindMadurai_SemiBold600' }}>
-          HindMadurai_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindMadurai_600SemiBold' }}>
+          HindMadurai_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindMadurai_Bold700' }}>
-          HindMadurai_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindMadurai_700Bold' }}>
+          HindMadurai_700Bold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HindMadurai_Light300
-![HindMadurai_Light300](./5d2a60f4ad6943bf7f1de4b16722cf8992b893d91bdb242860538507d4514dfa.ttf.png)
+##### HindMadurai_300Light
+![HindMadurai_300Light](./HindMadurai_300Light.ttf.png)
 
-##### HindMadurai_Regular400
-![HindMadurai_Regular400](./fe0b759733d5d95da02f65af60da858c2e45e9fc35332036694fef1e4f2369aa.ttf.png)
+##### HindMadurai_400Regular
+![HindMadurai_400Regular](./HindMadurai_400Regular.ttf.png)
 
-##### HindMadurai_Medium500
-![HindMadurai_Medium500](./367a1897906f0dafe97990639330a1ad8058b45f8d8deae93db5e40a9ae90f44.ttf.png)
+##### HindMadurai_500Medium
+![HindMadurai_500Medium](./HindMadurai_500Medium.ttf.png)
 
-##### HindMadurai_SemiBold600
-![HindMadurai_SemiBold600](./559d4bdf4c6fc62a412864ae9323ea997294ef17fda3b84684d928c0e042c1a0.ttf.png)
+##### HindMadurai_600SemiBold
+![HindMadurai_600SemiBold](./HindMadurai_600SemiBold.ttf.png)
 
-##### HindMadurai_Bold700
-![HindMadurai_Bold700](./59964f77b9fded7f3b4030894b5bde3bf552e70132670a0108ec2218ae31fb9b.ttf.png)
+##### HindMadurai_700Bold
+![HindMadurai_700Bold](./HindMadurai_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/hind-madurai)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

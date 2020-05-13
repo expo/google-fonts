@@ -7,15 +7,13 @@
 
 This package lets you use the [**Basic**](https://fonts.google.com/specimen/Basic) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Basic
 
 ![Basic](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Basic_Regular400`
+- `Basic_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Basic_Regular400, useFonts } from '@expo-google-fonts/basic';
+import { useFonts, Basic_400Regular } from '@expo-google-fonts/basic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Basic_Regular400,
+    Basic_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Basic_Regular400' }}>
-          Basic_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Basic_400Regular' }}>
+          Basic_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Basic_Regular400
-![Basic_Regular400](./29cf0f576451b712f706b5f33a2e8e1b6e2be41ed145ebce30bcf8828ec37960.ttf.png)
+##### Basic_400Regular
+![Basic_400Regular](./Basic_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/basic)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

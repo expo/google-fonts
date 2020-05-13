@@ -7,15 +7,13 @@
 
 This package lets you use the [**Gilda Display**](https://fonts.google.com/specimen/Gilda+Display) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Gilda Display
 
 ![Gilda Display](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `GildaDisplay_Regular400`
+- `GildaDisplay_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { GildaDisplay_Regular400, useFonts } from '@expo-google-fonts/gilda-display';
+import { useFonts, GildaDisplay_400Regular } from '@expo-google-fonts/gilda-display';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    GildaDisplay_Regular400,
+    GildaDisplay_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GildaDisplay_Regular400' }}>
-          GildaDisplay_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GildaDisplay_400Regular' }}>
+          GildaDisplay_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GildaDisplay_Regular400
-![GildaDisplay_Regular400](./d46a827dcf6e69348a898d71938544f7f63de075eaea97cb6cb797bd3c234904.ttf.png)
+##### GildaDisplay_400Regular
+![GildaDisplay_400Regular](./GildaDisplay_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/gilda-display)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,20 +7,18 @@
 
 This package lets you use the [**Yantramanav**](https://fonts.google.com/specimen/Yantramanav) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Yantramanav
 
 ![Yantramanav](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `Yantramanav_Thin100`
-- `Yantramanav_Light300`
-- `Yantramanav_Regular400`
-- `Yantramanav_Medium500`
-- `Yantramanav_Bold700`
-- `Yantramanav_Black900`
+- `Yantramanav_100Thin`
+- `Yantramanav_300Light`
+- `Yantramanav_400Regular`
+- `Yantramanav_500Medium`
+- `Yantramanav_700Bold`
+- `Yantramanav_900Black`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Yantramanav_Thin100,
-  Yantramanav_Light300,
-  Yantramanav_Regular400,
-  Yantramanav_Medium500,
-  Yantramanav_Bold700,
-  Yantramanav_Black900,
   useFonts,
+  Yantramanav_100Thin,
+  Yantramanav_300Light,
+  Yantramanav_400Regular,
+  Yantramanav_500Medium,
+  Yantramanav_700Bold,
+  Yantramanav_900Black,
 } from '@expo-google-fonts/yantramanav';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Yantramanav_Thin100,
-    Yantramanav_Light300,
-    Yantramanav_Regular400,
-    Yantramanav_Medium500,
-    Yantramanav_Bold700,
-    Yantramanav_Black900,
+    Yantramanav_100Thin,
+    Yantramanav_300Light,
+    Yantramanav_400Regular,
+    Yantramanav_500Medium,
+    Yantramanav_700Bold,
+    Yantramanav_900Black,
   });
 
   let fontSize = 24;
@@ -63,28 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_Thin100' }}>
-          Yantramanav_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_100Thin' }}>
+          Yantramanav_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_Light300' }}>
-          Yantramanav_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_300Light' }}>
+          Yantramanav_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_Regular400' }}>
-          Yantramanav_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_400Regular' }}>
+          Yantramanav_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_Medium500' }}>
-          Yantramanav_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_500Medium' }}>
+          Yantramanav_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_Bold700' }}>
-          Yantramanav_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_700Bold' }}>
+          Yantramanav_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_Black900' }}>
-          Yantramanav_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_900Black' }}>
+          Yantramanav_900Black
         </Text>
       </View>
     );
@@ -95,23 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Yantramanav_Thin100
-![Yantramanav_Thin100](./86689d7a0f2e854d67499f3b138d736bbc906760e4ce2965a494ede2bd7bebca.ttf.png)
+##### Yantramanav_100Thin
+![Yantramanav_100Thin](./Yantramanav_100Thin.ttf.png)
 
-##### Yantramanav_Light300
-![Yantramanav_Light300](./4ab0f6ae96b7ee1e64385a964c2e10db696f46e64a3c7e9966131d0a0e2d4584.ttf.png)
+##### Yantramanav_300Light
+![Yantramanav_300Light](./Yantramanav_300Light.ttf.png)
 
-##### Yantramanav_Regular400
-![Yantramanav_Regular400](./41c02d7da7c104c3ea5207122b178f4cbcf308b4911dbc4e4a460b23ba64f09e.ttf.png)
+##### Yantramanav_400Regular
+![Yantramanav_400Regular](./Yantramanav_400Regular.ttf.png)
 
-##### Yantramanav_Medium500
-![Yantramanav_Medium500](./14362b0efe1ebbde59b45ed4e1f345c1a41e777d03fce97684b6bd8b67ecc385.ttf.png)
+##### Yantramanav_500Medium
+![Yantramanav_500Medium](./Yantramanav_500Medium.ttf.png)
 
-##### Yantramanav_Bold700
-![Yantramanav_Bold700](./6036c39566fdfe4d7a96f8959775282729df41c691b5791efb80a530d96732e6.ttf.png)
+##### Yantramanav_700Bold
+![Yantramanav_700Bold](./Yantramanav_700Bold.ttf.png)
 
-##### Yantramanav_Black900
-![Yantramanav_Black900](./117b18180127afc0bb9a28d0aa5d5aa9bcd8090b84d34a9adf571661c1896578.ttf.png)
+##### Yantramanav_900Black
+![Yantramanav_900Black](./Yantramanav_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -141,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/yantramanav)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

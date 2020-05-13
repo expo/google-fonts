@@ -7,16 +7,14 @@
 
 This package lets you use the [**Merienda**](https://fonts.google.com/specimen/Merienda) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Merienda
 
 ![Merienda](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Merienda_Regular400`
-- `Merienda_Bold700`
+- `Merienda_400Regular`
+- `Merienda_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Merienda_Regular400, Merienda_Bold700, useFonts } from '@expo-google-fonts/merienda';
+import { useFonts, Merienda_400Regular, Merienda_700Bold } from '@expo-google-fonts/merienda';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Merienda_Regular400,
-    Merienda_Bold700,
+    Merienda_400Regular,
+    Merienda_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merienda_Regular400' }}>
-          Merienda_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merienda_400Regular' }}>
+          Merienda_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merienda_Bold700' }}>
-          Merienda_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merienda_700Bold' }}>
+          Merienda_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Merienda_Regular400
-![Merienda_Regular400](./1132399bc1f3e2caf41c69cc4f7c590c83da549f8e9b8cf43dadc262df733048.ttf.png)
+##### Merienda_400Regular
+![Merienda_400Regular](./Merienda_400Regular.ttf.png)
 
-##### Merienda_Bold700
-![Merienda_Bold700](./5f177984e147fff648e2e2bd9ca6e74e13c2be2d6d14b466b154b51e93df5f14.ttf.png)
+##### Merienda_700Bold
+![Merienda_700Bold](./Merienda_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/merienda)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Freckle Face**](https://fonts.google.com/specimen/Freckle+Face) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Freckle Face
 
 ![Freckle Face](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `FreckleFace_Regular400`
+- `FreckleFace_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { FreckleFace_Regular400, useFonts } from '@expo-google-fonts/freckle-face';
+import { useFonts, FreckleFace_400Regular } from '@expo-google-fonts/freckle-face';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    FreckleFace_Regular400,
+    FreckleFace_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FreckleFace_Regular400' }}>
-          FreckleFace_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FreckleFace_400Regular' }}>
+          FreckleFace_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FreckleFace_Regular400
-![FreckleFace_Regular400](./9c910c4a9c496679a818b2d0399b140f598d9f2f8b80bd1ad82b11b1aee3e93d.ttf.png)
+##### FreckleFace_400Regular
+![FreckleFace_400Regular](./FreckleFace_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/freckle-face)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

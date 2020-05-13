@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Notable';
-export const __fontFamilyVersion__ = 4;
-
-export const Notable_Regular400 = require('./17b2981242270d0087017ea92cac3bb8bad89c43bd4d9907ded7255e92dbc8aa.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Notable_400Regular = require('./Notable_400Regular.ttf');

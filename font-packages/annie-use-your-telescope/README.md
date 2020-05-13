@@ -7,15 +7,13 @@
 
 This package lets you use the [**Annie Use Your Telescope**](https://fonts.google.com/specimen/Annie+Use+Your+Telescope) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Annie Use Your Telescope
 
 ![Annie Use Your Telescope](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `AnnieUseYourTelescope_Regular400`
+- `AnnieUseYourTelescope_400Regular`
 
 ## Usage
 
@@ -31,13 +29,13 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  AnnieUseYourTelescope_Regular400,
   useFonts,
+  AnnieUseYourTelescope_400Regular,
 } from '@expo-google-fonts/annie-use-your-telescope';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    AnnieUseYourTelescope_Regular400,
+    AnnieUseYourTelescope_400Regular,
   });
 
   let fontSize = 24;
@@ -48,8 +46,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AnnieUseYourTelescope_Regular400' }}>
-          AnnieUseYourTelescope_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AnnieUseYourTelescope_400Regular' }}>
+          AnnieUseYourTelescope_400Regular
         </Text>
       </View>
     );
@@ -60,8 +58,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AnnieUseYourTelescope_Regular400
-![AnnieUseYourTelescope_Regular400](./65c0cd06d1ec2528de45688966f2971cf95fed9f810f246e08b4efd9e717d850.ttf.png)
+##### AnnieUseYourTelescope_400Regular
+![AnnieUseYourTelescope_400Regular](./AnnieUseYourTelescope_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -91,7 +89,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/annie-use-your-telescope)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

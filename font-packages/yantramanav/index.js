@@ -4,12 +4,10 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Yantramanav';
-export const __fontFamilyVersion__ = 2;
-
-export const Yantramanav_Thin100 = require('./86689d7a0f2e854d67499f3b138d736bbc906760e4ce2965a494ede2bd7bebca.ttf');
-export const Yantramanav_Light300 = require('./4ab0f6ae96b7ee1e64385a964c2e10db696f46e64a3c7e9966131d0a0e2d4584.ttf');
-export const Yantramanav_Regular400 = require('./41c02d7da7c104c3ea5207122b178f4cbcf308b4911dbc4e4a460b23ba64f09e.ttf');
-export const Yantramanav_Medium500 = require('./14362b0efe1ebbde59b45ed4e1f345c1a41e777d03fce97684b6bd8b67ecc385.ttf');
-export const Yantramanav_Bold700 = require('./6036c39566fdfe4d7a96f8959775282729df41c691b5791efb80a530d96732e6.ttf');
-export const Yantramanav_Black900 = require('./117b18180127afc0bb9a28d0aa5d5aa9bcd8090b84d34a9adf571661c1896578.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Yantramanav_100Thin = require('./Yantramanav_100Thin.ttf');
+export const Yantramanav_300Light = require('./Yantramanav_300Light.ttf');
+export const Yantramanav_400Regular = require('./Yantramanav_400Regular.ttf');
+export const Yantramanav_500Medium = require('./Yantramanav_500Medium.ttf');
+export const Yantramanav_700Bold = require('./Yantramanav_700Bold.ttf');
+export const Yantramanav_900Black = require('./Yantramanav_900Black.ttf');

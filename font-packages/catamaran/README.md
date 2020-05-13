@@ -7,23 +7,21 @@
 
 This package lets you use the [**Catamaran**](https://fonts.google.com/specimen/Catamaran) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Catamaran
 
 ![Catamaran](./font-family.png)
 
 This font family contains [9 styles](#-gallery).
 
-- `Catamaran_Thin100`
-- `Catamaran_ExtraLight200`
-- `Catamaran_Light300`
-- `Catamaran_Regular400`
-- `Catamaran_Medium500`
-- `Catamaran_SemiBold600`
-- `Catamaran_Bold700`
-- `Catamaran_ExtraBold800`
-- `Catamaran_Black900`
+- `Catamaran_100Thin`
+- `Catamaran_200ExtraLight`
+- `Catamaran_300Light`
+- `Catamaran_400Regular`
+- `Catamaran_500Medium`
+- `Catamaran_600SemiBold`
+- `Catamaran_700Bold`
+- `Catamaran_800ExtraBold`
+- `Catamaran_900Black`
 
 ## Usage
 
@@ -39,29 +37,29 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Catamaran_Thin100,
-  Catamaran_ExtraLight200,
-  Catamaran_Light300,
-  Catamaran_Regular400,
-  Catamaran_Medium500,
-  Catamaran_SemiBold600,
-  Catamaran_Bold700,
-  Catamaran_ExtraBold800,
-  Catamaran_Black900,
   useFonts,
+  Catamaran_100Thin,
+  Catamaran_200ExtraLight,
+  Catamaran_300Light,
+  Catamaran_400Regular,
+  Catamaran_500Medium,
+  Catamaran_600SemiBold,
+  Catamaran_700Bold,
+  Catamaran_800ExtraBold,
+  Catamaran_900Black,
 } from '@expo-google-fonts/catamaran';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Catamaran_Thin100,
-    Catamaran_ExtraLight200,
-    Catamaran_Light300,
-    Catamaran_Regular400,
-    Catamaran_Medium500,
-    Catamaran_SemiBold600,
-    Catamaran_Bold700,
-    Catamaran_ExtraBold800,
-    Catamaran_Black900,
+    Catamaran_100Thin,
+    Catamaran_200ExtraLight,
+    Catamaran_300Light,
+    Catamaran_400Regular,
+    Catamaran_500Medium,
+    Catamaran_600SemiBold,
+    Catamaran_700Bold,
+    Catamaran_800ExtraBold,
+    Catamaran_900Black,
   });
 
   let fontSize = 24;
@@ -72,40 +70,40 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_Thin100' }}>
-          Catamaran_Thin100
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_100Thin' }}>
+          Catamaran_100Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_ExtraLight200' }}>
-          Catamaran_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_200ExtraLight' }}>
+          Catamaran_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_Light300' }}>
-          Catamaran_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_300Light' }}>
+          Catamaran_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_Regular400' }}>
-          Catamaran_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_400Regular' }}>
+          Catamaran_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_Medium500' }}>
-          Catamaran_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_500Medium' }}>
+          Catamaran_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_SemiBold600' }}>
-          Catamaran_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_600SemiBold' }}>
+          Catamaran_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_Bold700' }}>
-          Catamaran_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_700Bold' }}>
+          Catamaran_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_ExtraBold800' }}>
-          Catamaran_ExtraBold800
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_800ExtraBold' }}>
+          Catamaran_800ExtraBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_Black900' }}>
-          Catamaran_Black900
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_900Black' }}>
+          Catamaran_900Black
         </Text>
       </View>
     );
@@ -116,32 +114,32 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Catamaran_Thin100
-![Catamaran_Thin100](./e8e9d704be93826d9781f133277934bb6184afd9522b149f005c78f5d89e62ac.ttf.png)
+##### Catamaran_100Thin
+![Catamaran_100Thin](./Catamaran_100Thin.ttf.png)
 
-##### Catamaran_ExtraLight200
-![Catamaran_ExtraLight200](./3f24bc068d63c199fab01e5c0690d6e034f485057c3c19571b656e705a78756b.ttf.png)
+##### Catamaran_200ExtraLight
+![Catamaran_200ExtraLight](./Catamaran_200ExtraLight.ttf.png)
 
-##### Catamaran_Light300
-![Catamaran_Light300](./853537ef3cef46cebdd3f2ee0f94b33861095d50b2584d6f96a47725f6f4b79d.ttf.png)
+##### Catamaran_300Light
+![Catamaran_300Light](./Catamaran_300Light.ttf.png)
 
-##### Catamaran_Regular400
-![Catamaran_Regular400](./6af095039ae2cc21b9f8e147b290dc6fae99dd4f45843dd262a9e30557dd4e65.ttf.png)
+##### Catamaran_400Regular
+![Catamaran_400Regular](./Catamaran_400Regular.ttf.png)
 
-##### Catamaran_Medium500
-![Catamaran_Medium500](./2b80fad7d7ef99a42af9235090775e879520d07fb7b3deda4986a64c81be4a96.ttf.png)
+##### Catamaran_500Medium
+![Catamaran_500Medium](./Catamaran_500Medium.ttf.png)
 
-##### Catamaran_SemiBold600
-![Catamaran_SemiBold600](./d77e1072b0d92cfa66cc458ff7e053b1e33cfa9dd663fb52f75062ba9a134122.ttf.png)
+##### Catamaran_600SemiBold
+![Catamaran_600SemiBold](./Catamaran_600SemiBold.ttf.png)
 
-##### Catamaran_Bold700
-![Catamaran_Bold700](./47d32e32345049db4c0f41c0ffba707afcf0ac18cb7000817fd26ae811255728.ttf.png)
+##### Catamaran_700Bold
+![Catamaran_700Bold](./Catamaran_700Bold.ttf.png)
 
-##### Catamaran_ExtraBold800
-![Catamaran_ExtraBold800](./342bd0052b9b81ca6df68a9cdda635ad6f77c796e37045545bfa1d0a071c0bc8.ttf.png)
+##### Catamaran_800ExtraBold
+![Catamaran_800ExtraBold](./Catamaran_800ExtraBold.ttf.png)
 
-##### Catamaran_Black900
-![Catamaran_Black900](./fa466db090fa897764fa413a006d0c4f7a975a118db3de634988a14f674446cb.ttf.png)
+##### Catamaran_900Black
+![Catamaran_900Black](./Catamaran_900Black.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -171,7 +169,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/catamaran)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

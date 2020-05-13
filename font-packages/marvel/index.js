@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Marvel';
-export const __fontFamilyVersion__ = 6;
-
-export const Marvel_Regular400 = require('./3762fad5facc07dfebad111a683192dbddb8dc02a4a43406d2c79a4303b11b95.ttf');
-export const Marvel_Regular400_Italic = require('./aaf0a4ec8425cfad4c7d8c41f37da8d7de878baf6fe877de46e9bb6a21afa443.ttf');
-export const Marvel_Bold700 = require('./84edf56bb5528f4a5a646cc54e1df7f8b8f0acfcab08ba176e2140d05e3576dc.ttf');
-export const Marvel_Bold700_Italic = require('./3b41fd323f8f2702af4eac210e3a7aaccc576298b28256bf11c98cba436c90c9.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Marvel_400Regular = require('./Marvel_400Regular.ttf');
+export const Marvel_400Regular_Italic = require('./Marvel_400Regular_Italic.ttf');
+export const Marvel_700Bold = require('./Marvel_700Bold.ttf');
+export const Marvel_700Bold_Italic = require('./Marvel_700Bold_Italic.ttf');

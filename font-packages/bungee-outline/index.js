@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Bungee Outline';
-export const __fontFamilyVersion__ = 2;
-
-export const BungeeOutline_Regular400 = require('./53bb5dbad57c06403c9f7c9503b0397f17f001d2a0881305c5bee9de3c610f78.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const BungeeOutline_400Regular = require('./BungeeOutline_400Regular.ttf');

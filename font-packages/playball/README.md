@@ -7,15 +7,13 @@
 
 This package lets you use the [**Playball**](https://fonts.google.com/specimen/Playball) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Playball
 
 ![Playball](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Playball_Regular400`
+- `Playball_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Playball_Regular400, useFonts } from '@expo-google-fonts/playball';
+import { useFonts, Playball_400Regular } from '@expo-google-fonts/playball';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Playball_Regular400,
+    Playball_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Playball_Regular400' }}>
-          Playball_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Playball_400Regular' }}>
+          Playball_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Playball_Regular400
-![Playball_Regular400](./73b95f0b1cd341f32c0f20d1fda10e035733b1906538a749d3fc06d9402c8f2f.ttf.png)
+##### Playball_400Regular
+![Playball_400Regular](./Playball_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/playball)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

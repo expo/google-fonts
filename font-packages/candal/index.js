@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Candal';
-export const __fontFamilyVersion__ = 6;
-
-export const Candal_Regular400 = require('./2e16795a5489340834dda623038868a2e7f48f4bc0f154f98c1a1962894a2598.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Candal_400Regular = require('./Candal_400Regular.ttf');

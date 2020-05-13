@@ -7,15 +7,13 @@
 
 This package lets you use the [**IM Fell DW Pica SC**](https://fonts.google.com/specimen/IM+Fell+DW+Pica+SC) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## IM Fell DW Pica SC
 
 ![IM Fell DW Pica SC](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `IMFellDWPicaSC_Regular400`
+- `IMFellDWPicaSC_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { IMFellDWPicaSC_Regular400, useFonts } from '@expo-google-fonts/im-fell-dw-pica-sc';
+import { useFonts, IMFellDWPicaSC_400Regular } from '@expo-google-fonts/im-fell-dw-pica-sc';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    IMFellDWPicaSC_Regular400,
+    IMFellDWPicaSC_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IMFellDWPicaSC_Regular400' }}>
-          IMFellDWPicaSC_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'IMFellDWPicaSC_400Regular' }}>
+          IMFellDWPicaSC_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IMFellDWPicaSC_Regular400
-![IMFellDWPicaSC_Regular400](./6fb16b0108016bc27dd4f279a9d1e8247d0028f492cfca827753ea01a8423c83.ttf.png)
+##### IMFellDWPicaSC_400Regular
+![IMFellDWPicaSC_400Regular](./IMFellDWPicaSC_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/im-fell-dw-pica-sc)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

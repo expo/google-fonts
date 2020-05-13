@@ -4,12 +4,10 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Neuton';
-export const __fontFamilyVersion__ = 9;
-
-export const Neuton_ExtraLight200 = require('./52a1f786965c5e1a5ddb72c3453133e67248c6daa74320a01e034161e4476a0f.ttf');
-export const Neuton_Light300 = require('./ff0297b52f6d34d72fb14e197dd0504d57fdb2769b98619facc41590e900c8e9.ttf');
-export const Neuton_Regular400 = require('./2147893351f8ace96b011dcc7c1c826ba84daac170ed6538e0456e5ed8ffe947.ttf');
-export const Neuton_Regular400_Italic = require('./8be52f34f889303ed24d24ec94bc56c8fb7130049db10eb3983aab619a05bcb5.ttf');
-export const Neuton_Bold700 = require('./1c83bf4d18e666ffe37bb75b7005b9ad99f4166347cbce93e1f798c45954f87e.ttf');
-export const Neuton_ExtraBold800 = require('./2ccde11ee55979183e280ea4860ec28e4fd88da81c66a8eee82963c4fe2befca.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Neuton_200ExtraLight = require('./Neuton_200ExtraLight.ttf');
+export const Neuton_300Light = require('./Neuton_300Light.ttf');
+export const Neuton_400Regular = require('./Neuton_400Regular.ttf');
+export const Neuton_400Regular_Italic = require('./Neuton_400Regular_Italic.ttf');
+export const Neuton_700Bold = require('./Neuton_700Bold.ttf');
+export const Neuton_800ExtraBold = require('./Neuton_800ExtraBold.ttf');

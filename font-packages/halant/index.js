@@ -4,11 +4,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Halant';
-export const __fontFamilyVersion__ = 3;
-
-export const Halant_Light300 = require('./efbf1567d1ee285b609cc33198f6bf85b75ffc137871c0c74b770bda82fe5f96.ttf');
-export const Halant_Regular400 = require('./d2becc2fc9d31bd06f7378b501b26b4eb057167cc3722297588a277f45b05fba.ttf');
-export const Halant_Medium500 = require('./e6e6c9b73832eb91900f4298ec5c6b73e8d537163220299fa6213b8d702b9f37.ttf');
-export const Halant_SemiBold600 = require('./c38923af0ef17edd914dfb2737891b725cd1cc9dfc36bd72ba413213e99839a3.ttf');
-export const Halant_Bold700 = require('./4d09a5ce42fc23e8619b6c817a9bc5522bc64ede74b5a75d99fe2815244ca6a8.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Halant_300Light = require('./Halant_300Light.ttf');
+export const Halant_400Regular = require('./Halant_400Regular.ttf');
+export const Halant_500Medium = require('./Halant_500Medium.ttf');
+export const Halant_600SemiBold = require('./Halant_600SemiBold.ttf');
+export const Halant_700Bold = require('./Halant_700Bold.ttf');

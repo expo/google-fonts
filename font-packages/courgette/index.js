@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Courgette';
-export const __fontFamilyVersion__ = 4;
-
-export const Courgette_Regular400 = require('./2754f22af579b8f14d78397e6cc4d3879519ad579085e8c047ba2f7719c592a4.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Courgette_400Regular = require('./Courgette_400Regular.ttf');

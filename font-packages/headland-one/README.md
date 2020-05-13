@@ -7,15 +7,13 @@
 
 This package lets you use the [**Headland One**](https://fonts.google.com/specimen/Headland+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Headland One
 
 ![Headland One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `HeadlandOne_Regular400`
+- `HeadlandOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { HeadlandOne_Regular400, useFonts } from '@expo-google-fonts/headland-one';
+import { useFonts, HeadlandOne_400Regular } from '@expo-google-fonts/headland-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    HeadlandOne_Regular400,
+    HeadlandOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeadlandOne_Regular400' }}>
-          HeadlandOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeadlandOne_400Regular' }}>
+          HeadlandOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HeadlandOne_Regular400
-![HeadlandOne_Regular400](./09bc81418bd95b221c7661eb2081838c8bd80b6bcd38c45d2e560ff3983c9fde.ttf.png)
+##### HeadlandOne_400Regular
+![HeadlandOne_400Regular](./HeadlandOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/headland-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

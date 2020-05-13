@@ -7,15 +7,13 @@
 
 This package lets you use the [**Autour One**](https://fonts.google.com/specimen/Autour+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Autour One
 
 ![Autour One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `AutourOne_Regular400`
+- `AutourOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { AutourOne_Regular400, useFonts } from '@expo-google-fonts/autour-one';
+import { useFonts, AutourOne_400Regular } from '@expo-google-fonts/autour-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    AutourOne_Regular400,
+    AutourOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AutourOne_Regular400' }}>
-          AutourOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'AutourOne_400Regular' }}>
+          AutourOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AutourOne_Regular400
-![AutourOne_Regular400](./ee63c9c20873c21ac935c1493e94bb24b9dc9782f63d01761b54dfedf4b3972c.ttf.png)
+##### AutourOne_400Regular
+![AutourOne_400Regular](./AutourOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/autour-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

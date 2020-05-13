@@ -7,15 +7,13 @@
 
 This package lets you use the [**Molengo**](https://fonts.google.com/specimen/Molengo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Molengo
 
 ![Molengo](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Molengo_Regular400`
+- `Molengo_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Molengo_Regular400, useFonts } from '@expo-google-fonts/molengo';
+import { useFonts, Molengo_400Regular } from '@expo-google-fonts/molengo';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Molengo_Regular400,
+    Molengo_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Molengo_Regular400' }}>
-          Molengo_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Molengo_400Regular' }}>
+          Molengo_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Molengo_Regular400
-![Molengo_Regular400](./c17cda006ffaf122363be2ad7ed8394c0bf59581bd9e5e9a7e7f5c0ed161a4c0.ttf.png)
+##### Molengo_400Regular
+![Molengo_400Regular](./Molengo_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/molengo)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

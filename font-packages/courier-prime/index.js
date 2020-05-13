@@ -4,10 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Courier Prime';
-export const __fontFamilyVersion__ = 1;
-
-export const CourierPrime_Regular400 = require('./4ab28865b2644070e548699748855f2d5a34b5bf8adea09607e18d4a7adc8999.ttf');
-export const CourierPrime_Regular400_Italic = require('./7109c63818181b56013b7ced3e5da53d756aab727e6a9786a0c8a58affe4ec23.ttf');
-export const CourierPrime_Bold700 = require('./385e70d216befbb71f12f5009f1824d235e0f4f2ab653bb0296d5d999afdfd3f.ttf');
-export const CourierPrime_Bold700_Italic = require('./3f61e15019812e414a4dba4f3b4fbdda453e8c4dd18deafacb7c55686cef11a7.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const CourierPrime_400Regular = require('./CourierPrime_400Regular.ttf');
+export const CourierPrime_400Regular_Italic = require('./CourierPrime_400Regular_Italic.ttf');
+export const CourierPrime_700Bold = require('./CourierPrime_700Bold.ttf');
+export const CourierPrime_700Bold_Italic = require('./CourierPrime_700Bold_Italic.ttf');

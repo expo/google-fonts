@@ -7,18 +7,16 @@
 
 This package lets you use the [**Cambay**](https://fonts.google.com/specimen/Cambay) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Cambay
 
 ![Cambay](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Cambay_Regular400`
-- `Cambay_Regular400_Italic`
-- `Cambay_Bold700`
-- `Cambay_Bold700_Italic`
+- `Cambay_400Regular`
+- `Cambay_400Regular_Italic`
+- `Cambay_700Bold`
+- `Cambay_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Cambay_Regular400,
-  Cambay_Regular400_Italic,
-  Cambay_Bold700,
-  Cambay_Bold700_Italic,
   useFonts,
+  Cambay_400Regular,
+  Cambay_400Regular_Italic,
+  Cambay_700Bold,
+  Cambay_700Bold_Italic,
 } from '@expo-google-fonts/cambay';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Cambay_Regular400,
-    Cambay_Regular400_Italic,
-    Cambay_Bold700,
-    Cambay_Bold700_Italic,
+    Cambay_400Regular,
+    Cambay_400Regular_Italic,
+    Cambay_700Bold,
+    Cambay_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cambay_Regular400' }}>
-          Cambay_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cambay_400Regular' }}>
+          Cambay_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cambay_Regular400_Italic' }}>
-          Cambay_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cambay_400Regular_Italic' }}>
+          Cambay_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cambay_Bold700' }}>
-          Cambay_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cambay_700Bold' }}>
+          Cambay_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cambay_Bold700_Italic' }}>
-          Cambay_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cambay_700Bold_Italic' }}>
+          Cambay_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Cambay_Regular400
-![Cambay_Regular400](./a7bad4e2ac4cc5bdeef53e890b4b3d52b065fdae8ebe5f754f263384995f7c73.ttf.png)
+##### Cambay_400Regular
+![Cambay_400Regular](./Cambay_400Regular.ttf.png)
 
-##### Cambay_Regular400_Italic
-![Cambay_Regular400_Italic](./e821a1eb24db547646223e8b5065d6feeed373e25daf722bd4c3499785d3b6aa.ttf.png)
+##### Cambay_400Regular_Italic
+![Cambay_400Regular_Italic](./Cambay_400Regular_Italic.ttf.png)
 
-##### Cambay_Bold700
-![Cambay_Bold700](./ece04d3d10726b39914e7a3c3ebbef7ccadcf7a26272fc090c83d3bf7690eea4.ttf.png)
+##### Cambay_700Bold
+![Cambay_700Bold](./Cambay_700Bold.ttf.png)
 
-##### Cambay_Bold700_Italic
-![Cambay_Bold700_Italic](./d17daa8d61f0a8bdd69696d0da7fc566e3a13141eb0ae45e512b48dcafb92565.ttf.png)
+##### Cambay_700Bold_Italic
+![Cambay_700Bold_Italic](./Cambay_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cambay)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

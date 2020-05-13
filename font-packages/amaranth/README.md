@@ -7,18 +7,16 @@
 
 This package lets you use the [**Amaranth**](https://fonts.google.com/specimen/Amaranth) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Amaranth
 
 ![Amaranth](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `Amaranth_Regular400`
-- `Amaranth_Regular400_Italic`
-- `Amaranth_Bold700`
-- `Amaranth_Bold700_Italic`
+- `Amaranth_400Regular`
+- `Amaranth_400Regular_Italic`
+- `Amaranth_700Bold`
+- `Amaranth_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Amaranth_Regular400,
-  Amaranth_Regular400_Italic,
-  Amaranth_Bold700,
-  Amaranth_Bold700_Italic,
   useFonts,
+  Amaranth_400Regular,
+  Amaranth_400Regular_Italic,
+  Amaranth_700Bold,
+  Amaranth_700Bold_Italic,
 } from '@expo-google-fonts/amaranth';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Amaranth_Regular400,
-    Amaranth_Regular400_Italic,
-    Amaranth_Bold700,
-    Amaranth_Bold700_Italic,
+    Amaranth_400Regular,
+    Amaranth_400Regular_Italic,
+    Amaranth_700Bold,
+    Amaranth_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amaranth_Regular400' }}>
-          Amaranth_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amaranth_400Regular' }}>
+          Amaranth_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amaranth_Regular400_Italic' }}>
-          Amaranth_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amaranth_400Regular_Italic' }}>
+          Amaranth_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amaranth_Bold700' }}>
-          Amaranth_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amaranth_700Bold' }}>
+          Amaranth_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amaranth_Bold700_Italic' }}>
-          Amaranth_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amaranth_700Bold_Italic' }}>
+          Amaranth_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Amaranth_Regular400
-![Amaranth_Regular400](./4b8c69a7d5f0b230b1b010da8da3ad4ccb84f4dff4a1247a14af83392c9ecf64.ttf.png)
+##### Amaranth_400Regular
+![Amaranth_400Regular](./Amaranth_400Regular.ttf.png)
 
-##### Amaranth_Regular400_Italic
-![Amaranth_Regular400_Italic](./359639014bf096771cbebb373f2d347f8e1b44a2ef2b48556e1a21289dbc7eb5.ttf.png)
+##### Amaranth_400Regular_Italic
+![Amaranth_400Regular_Italic](./Amaranth_400Regular_Italic.ttf.png)
 
-##### Amaranth_Bold700
-![Amaranth_Bold700](./9b35625ebc301f471cd70df7575f4fc81597a8ab27dc321418707c40d8a99616.ttf.png)
+##### Amaranth_700Bold
+![Amaranth_700Bold](./Amaranth_700Bold.ttf.png)
 
-##### Amaranth_Bold700_Italic
-![Amaranth_Bold700_Italic](./48c74968a6ddedd92d0c4d4e05959d24a1ae124fce3ab60c793c5a331dddee10.ttf.png)
+##### Amaranth_700Bold_Italic
+![Amaranth_700Bold_Italic](./Amaranth_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/amaranth)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

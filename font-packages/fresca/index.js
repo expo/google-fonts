@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Fresca';
-export const __fontFamilyVersion__ = 5;
-
-export const Fresca_Regular400 = require('./a2fb3bbb67399806b72a60bce8a66e5e8c7260a33a6ac9368b6130534242f340.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Fresca_400Regular = require('./Fresca_400Regular.ttf');

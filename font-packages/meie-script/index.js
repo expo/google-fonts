@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Meie Script';
-export const __fontFamilyVersion__ = 4;
-
-export const MeieScript_Regular400 = require('./aefe23d9bdd07bdf03debfd770abb2ea2f50634e5b0803593abf3eb0b9a784c4.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MeieScript_400Regular = require('./MeieScript_400Regular.ttf');

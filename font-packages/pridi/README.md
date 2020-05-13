@@ -7,20 +7,18 @@
 
 This package lets you use the [**Pridi**](https://fonts.google.com/specimen/Pridi) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Pridi
 
 ![Pridi](./font-family.png)
 
 This font family contains [6 styles](#-gallery).
 
-- `Pridi_ExtraLight200`
-- `Pridi_Light300`
-- `Pridi_Regular400`
-- `Pridi_Medium500`
-- `Pridi_SemiBold600`
-- `Pridi_Bold700`
+- `Pridi_200ExtraLight`
+- `Pridi_300Light`
+- `Pridi_400Regular`
+- `Pridi_500Medium`
+- `Pridi_600SemiBold`
+- `Pridi_700Bold`
 
 ## Usage
 
@@ -36,23 +34,23 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Pridi_ExtraLight200,
-  Pridi_Light300,
-  Pridi_Regular400,
-  Pridi_Medium500,
-  Pridi_SemiBold600,
-  Pridi_Bold700,
   useFonts,
+  Pridi_200ExtraLight,
+  Pridi_300Light,
+  Pridi_400Regular,
+  Pridi_500Medium,
+  Pridi_600SemiBold,
+  Pridi_700Bold,
 } from '@expo-google-fonts/pridi';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Pridi_ExtraLight200,
-    Pridi_Light300,
-    Pridi_Regular400,
-    Pridi_Medium500,
-    Pridi_SemiBold600,
-    Pridi_Bold700,
+    Pridi_200ExtraLight,
+    Pridi_300Light,
+    Pridi_400Regular,
+    Pridi_500Medium,
+    Pridi_600SemiBold,
+    Pridi_700Bold,
   });
 
   let fontSize = 24;
@@ -63,28 +61,28 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_ExtraLight200' }}>
-          Pridi_ExtraLight200
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_200ExtraLight' }}>
+          Pridi_200ExtraLight
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_Light300' }}>
-          Pridi_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_300Light' }}>
+          Pridi_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_Regular400' }}>
-          Pridi_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_400Regular' }}>
+          Pridi_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_Medium500' }}>
-          Pridi_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_500Medium' }}>
+          Pridi_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_SemiBold600' }}>
-          Pridi_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_600SemiBold' }}>
+          Pridi_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_Bold700' }}>
-          Pridi_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_700Bold' }}>
+          Pridi_700Bold
         </Text>
       </View>
     );
@@ -95,23 +93,23 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Pridi_ExtraLight200
-![Pridi_ExtraLight200](./25767951345549f712ecc99e7f7e0ed309d7e3b707e8f82ac578dea2843ee338.ttf.png)
+##### Pridi_200ExtraLight
+![Pridi_200ExtraLight](./Pridi_200ExtraLight.ttf.png)
 
-##### Pridi_Light300
-![Pridi_Light300](./418f1e97f68102aa823ef64c5f96fbcec3fb67597331f6b65bbff28c82031fed.ttf.png)
+##### Pridi_300Light
+![Pridi_300Light](./Pridi_300Light.ttf.png)
 
-##### Pridi_Regular400
-![Pridi_Regular400](./33f3b1e354916fe8ce1a179c631238fdc60f52a959f39a02efbd3f8023bfbbda.ttf.png)
+##### Pridi_400Regular
+![Pridi_400Regular](./Pridi_400Regular.ttf.png)
 
-##### Pridi_Medium500
-![Pridi_Medium500](./b57f641bac735f6cd44057a11cbabb787cbc33d1c8270040dc7d1cb6c4563858.ttf.png)
+##### Pridi_500Medium
+![Pridi_500Medium](./Pridi_500Medium.ttf.png)
 
-##### Pridi_SemiBold600
-![Pridi_SemiBold600](./8847f26d3d388eb8a757c857d14058773c4f265b29fe5ef2da5da9132fb2924a.ttf.png)
+##### Pridi_600SemiBold
+![Pridi_600SemiBold](./Pridi_600SemiBold.ttf.png)
 
-##### Pridi_Bold700
-![Pridi_Bold700](./26c0c1d38bb9f9387d48474dd1abf32af18563e40fa1067abcfa242e8870cf6b.ttf.png)
+##### Pridi_700Bold
+![Pridi_700Bold](./Pridi_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -141,7 +139,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/pridi)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

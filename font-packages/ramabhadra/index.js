@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Ramabhadra';
-export const __fontFamilyVersion__ = 5;
-
-export const Ramabhadra_Regular400 = require('./f8ceda8c345cda5342d5ed25537f3c2a16bf4548f447746c5d7553cff470362c.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Ramabhadra_400Regular = require('./Ramabhadra_400Regular.ttf');

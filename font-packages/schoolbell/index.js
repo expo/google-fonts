@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Schoolbell';
-export const __fontFamilyVersion__ = 6;
-
-export const Schoolbell_Regular400 = require('./6746cbf7f7065953ffdd505057d2aafca2c4c38989ab1a2bb37f953e3692c7c9.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Schoolbell_400Regular = require('./Schoolbell_400Regular.ttf');

@@ -4,8 +4,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Enriqueta';
-export const __fontFamilyVersion__ = 5;
-
-export const Enriqueta_Regular400 = require('./8efdf359579cbd9731b621eb32ddd55b3311bb4f3efe2479e1b87a731deb2b3f.ttf');
-export const Enriqueta_Bold700 = require('./75092b77ab687551bb7a93707771fa18a40ebfe0621befe7dbaca438b8a8c954.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Enriqueta_400Regular = require('./Enriqueta_400Regular.ttf');
+export const Enriqueta_500Medium = require('./Enriqueta_500Medium.ttf');
+export const Enriqueta_600SemiBold = require('./Enriqueta_600SemiBold.ttf');
+export const Enriqueta_700Bold = require('./Enriqueta_700Bold.ttf');

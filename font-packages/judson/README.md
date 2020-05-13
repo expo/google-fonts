@@ -7,17 +7,15 @@
 
 This package lets you use the [**Judson**](https://fonts.google.com/specimen/Judson) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Judson
 
 ![Judson](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `Judson_Regular400`
-- `Judson_Regular400_Italic`
-- `Judson_Bold700`
+- `Judson_400Regular`
+- `Judson_400Regular_Italic`
+- `Judson_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Judson_Regular400,
-  Judson_Regular400_Italic,
-  Judson_Bold700,
   useFonts,
+  Judson_400Regular,
+  Judson_400Regular_Italic,
+  Judson_700Bold,
 } from '@expo-google-fonts/judson';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Judson_Regular400,
-    Judson_Regular400_Italic,
-    Judson_Bold700,
+    Judson_400Regular,
+    Judson_400Regular_Italic,
+    Judson_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Judson_Regular400' }}>
-          Judson_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Judson_400Regular' }}>
+          Judson_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Judson_Regular400_Italic' }}>
-          Judson_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Judson_400Regular_Italic' }}>
+          Judson_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Judson_Bold700' }}>
-          Judson_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Judson_700Bold' }}>
+          Judson_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Judson_Regular400
-![Judson_Regular400](./a0e44f8bee5db23549c40c2bdd46ee689a1d4427410df98883638059880eb73b.ttf.png)
+##### Judson_400Regular
+![Judson_400Regular](./Judson_400Regular.ttf.png)
 
-##### Judson_Regular400_Italic
-![Judson_Regular400_Italic](./434a445b96fb17f89c47a66f76abe63757bb6c0997d49bc83a86e2b0cca56b58.ttf.png)
+##### Judson_400Regular_Italic
+![Judson_400Regular_Italic](./Judson_400Regular_Italic.ttf.png)
 
-##### Judson_Bold700
-![Judson_Bold700](./b39af14b252a5cb398202d4738e995ef23ad94afe48fbd78fac58759d298f49e.ttf.png)
+##### Judson_700Bold
+![Judson_700Bold](./Judson_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/judson)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

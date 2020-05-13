@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Julius Sans One';
-export const __fontFamilyVersion__ = 5;
-
-export const JuliusSansOne_Regular400 = require('./2453dedd8ffddbabbe0e7b6822b7cf607757d98524241a40596bb7ae18212156.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const JuliusSansOne_400Regular = require('./JuliusSansOne_400Regular.ttf');

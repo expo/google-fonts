@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Monofett';
-export const __fontFamilyVersion__ = 6;
-
-export const Monofett_Regular400 = require('./ebeb36e324072bc8a4e7717f33c5c72271409af395fdf3b4f1e66b529addb881.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Monofett_400Regular = require('./Monofett_400Regular.ttf');

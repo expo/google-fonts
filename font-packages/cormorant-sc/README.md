@@ -7,19 +7,17 @@
 
 This package lets you use the [**Cormorant SC**](https://fonts.google.com/specimen/Cormorant+SC) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Cormorant SC
 
 ![Cormorant SC](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `CormorantSC_Light300`
-- `CormorantSC_Regular400`
-- `CormorantSC_Medium500`
-- `CormorantSC_SemiBold600`
-- `CormorantSC_Bold700`
+- `CormorantSC_300Light`
+- `CormorantSC_400Regular`
+- `CormorantSC_500Medium`
+- `CormorantSC_600SemiBold`
+- `CormorantSC_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  CormorantSC_Light300,
-  CormorantSC_Regular400,
-  CormorantSC_Medium500,
-  CormorantSC_SemiBold600,
-  CormorantSC_Bold700,
   useFonts,
+  CormorantSC_300Light,
+  CormorantSC_400Regular,
+  CormorantSC_500Medium,
+  CormorantSC_600SemiBold,
+  CormorantSC_700Bold,
 } from '@expo-google-fonts/cormorant-sc';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CormorantSC_Light300,
-    CormorantSC_Regular400,
-    CormorantSC_Medium500,
-    CormorantSC_SemiBold600,
-    CormorantSC_Bold700,
+    CormorantSC_300Light,
+    CormorantSC_400Regular,
+    CormorantSC_500Medium,
+    CormorantSC_600SemiBold,
+    CormorantSC_700Bold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantSC_Light300' }}>
-          CormorantSC_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantSC_300Light' }}>
+          CormorantSC_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantSC_Regular400' }}>
-          CormorantSC_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantSC_400Regular' }}>
+          CormorantSC_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantSC_Medium500' }}>
-          CormorantSC_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantSC_500Medium' }}>
+          CormorantSC_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantSC_SemiBold600' }}>
-          CormorantSC_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantSC_600SemiBold' }}>
+          CormorantSC_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantSC_Bold700' }}>
-          CormorantSC_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantSC_700Bold' }}>
+          CormorantSC_700Bold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CormorantSC_Light300
-![CormorantSC_Light300](./20075e607eb45ea2e8f60f9365f2bf608df1251f443ae12295d751b425dd9b62.ttf.png)
+##### CormorantSC_300Light
+![CormorantSC_300Light](./CormorantSC_300Light.ttf.png)
 
-##### CormorantSC_Regular400
-![CormorantSC_Regular400](./e8c091c9484c2f6ac490d1613295b59e76d359ad34e1c52fb2f853a8c2ea0aac.ttf.png)
+##### CormorantSC_400Regular
+![CormorantSC_400Regular](./CormorantSC_400Regular.ttf.png)
 
-##### CormorantSC_Medium500
-![CormorantSC_Medium500](./85cf334d625e0deec8283f8aa03ec6295e20a52c371096595411dcee4bef2039.ttf.png)
+##### CormorantSC_500Medium
+![CormorantSC_500Medium](./CormorantSC_500Medium.ttf.png)
 
-##### CormorantSC_SemiBold600
-![CormorantSC_SemiBold600](./2a187b0fe3cebc137da0b069c1017ad0c1cfb10ef8992089d21b8261bbc9ad0c.ttf.png)
+##### CormorantSC_600SemiBold
+![CormorantSC_600SemiBold](./CormorantSC_600SemiBold.ttf.png)
 
-##### CormorantSC_Bold700
-![CormorantSC_Bold700](./29e53a056b50572310c96ff3a83932d488c6954871aced226c122e7f3ff8b00b.ttf.png)
+##### CormorantSC_700Bold
+![CormorantSC_700Bold](./CormorantSC_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cormorant-sc)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

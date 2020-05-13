@@ -7,16 +7,14 @@
 
 This package lets you use the [**Cherry Swash**](https://fonts.google.com/specimen/Cherry+Swash) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Cherry Swash
 
 ![Cherry Swash](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `CherrySwash_Regular400`
-- `CherrySwash_Bold700`
+- `CherrySwash_400Regular`
+- `CherrySwash_700Bold`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  CherrySwash_Regular400,
-  CherrySwash_Bold700,
   useFonts,
+  CherrySwash_400Regular,
+  CherrySwash_700Bold,
 } from '@expo-google-fonts/cherry-swash';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    CherrySwash_Regular400,
-    CherrySwash_Bold700,
+    CherrySwash_400Regular,
+    CherrySwash_700Bold,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CherrySwash_Regular400' }}>
-          CherrySwash_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CherrySwash_400Regular' }}>
+          CherrySwash_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CherrySwash_Bold700' }}>
-          CherrySwash_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'CherrySwash_700Bold' }}>
+          CherrySwash_700Bold
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CherrySwash_Regular400
-![CherrySwash_Regular400](./c16f18e4a0ef56672f00dcd810fae50a7468eccc6174968c6890ca1ed1eb4dc0.ttf.png)
+##### CherrySwash_400Regular
+![CherrySwash_400Regular](./CherrySwash_400Regular.ttf.png)
 
-##### CherrySwash_Bold700
-![CherrySwash_Bold700](./46fc53776950e3047f5b647b1819e4ec28a5521b733a7e614aa9d97562cb5371.ttf.png)
+##### CherrySwash_700Bold
+![CherrySwash_700Bold](./CherrySwash_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cherry-swash)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

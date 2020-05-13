@@ -7,16 +7,14 @@
 
 This package lets you use the [**Delius Unicase**](https://fonts.google.com/specimen/Delius+Unicase) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Delius Unicase
 
 ![Delius Unicase](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `DeliusUnicase_Regular400`
-- `DeliusUnicase_Bold700`
+- `DeliusUnicase_400Regular`
+- `DeliusUnicase_700Bold`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  DeliusUnicase_Regular400,
-  DeliusUnicase_Bold700,
   useFonts,
+  DeliusUnicase_400Regular,
+  DeliusUnicase_700Bold,
 } from '@expo-google-fonts/delius-unicase';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    DeliusUnicase_Regular400,
-    DeliusUnicase_Bold700,
+    DeliusUnicase_400Regular,
+    DeliusUnicase_700Bold,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DeliusUnicase_Regular400' }}>
-          DeliusUnicase_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DeliusUnicase_400Regular' }}>
+          DeliusUnicase_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DeliusUnicase_Bold700' }}>
-          DeliusUnicase_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DeliusUnicase_700Bold' }}>
+          DeliusUnicase_700Bold
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DeliusUnicase_Regular400
-![DeliusUnicase_Regular400](./3bbebd3cb94431156468b1ce457ee032a1f68d964171655b60f5ae2ecf0243cb.ttf.png)
+##### DeliusUnicase_400Regular
+![DeliusUnicase_400Regular](./DeliusUnicase_400Regular.ttf.png)
 
-##### DeliusUnicase_Bold700
-![DeliusUnicase_Bold700](./f761b09efebd15e0a91eabc186d565aec75f56f2b04f9cb1ed1f72d91be340ef.ttf.png)
+##### DeliusUnicase_700Bold
+![DeliusUnicase_700Bold](./DeliusUnicase_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/delius-unicase)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

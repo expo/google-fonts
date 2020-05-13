@@ -7,15 +7,13 @@
 
 This package lets you use the [**Donegal One**](https://fonts.google.com/specimen/Donegal+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Donegal One
 
 ![Donegal One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `DonegalOne_Regular400`
+- `DonegalOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { DonegalOne_Regular400, useFonts } from '@expo-google-fonts/donegal-one';
+import { useFonts, DonegalOne_400Regular } from '@expo-google-fonts/donegal-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    DonegalOne_Regular400,
+    DonegalOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DonegalOne_Regular400' }}>
-          DonegalOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DonegalOne_400Regular' }}>
+          DonegalOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DonegalOne_Regular400
-![DonegalOne_Regular400](./75cadf3ba9559e8ba497b68a3e7695d2c733b4ce2264119f7f181974902025ba.ttf.png)
+##### DonegalOne_400Regular
+![DonegalOne_400Regular](./DonegalOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/donegal-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

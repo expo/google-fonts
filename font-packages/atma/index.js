@@ -4,11 +4,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Atma';
-export const __fontFamilyVersion__ = 2;
-
-export const Atma_Light300 = require('./d691cbd1df6f6a53328f8d9d9514102c915be55e93a8c1f0cb0826a27a60e4f2.ttf');
-export const Atma_Regular400 = require('./702ceed58c58203ab0c8ad4bbbbda56c77b89a29496d748322180acbed120201.ttf');
-export const Atma_Medium500 = require('./cc558572cee6afca8a8d34b8cb8a2397d749e0c22f9d9977f39eb0e84d636967.ttf');
-export const Atma_SemiBold600 = require('./b569b84d6ee492ead3f4c73af6244137b0e4c604c9e98cc57627162221d498bb.ttf');
-export const Atma_Bold700 = require('./127f716e96fc47aee7624acf9cebd859693a19f2fc1f7d832f33835e5bd3b834.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Atma_300Light = require('./Atma_300Light.ttf');
+export const Atma_400Regular = require('./Atma_400Regular.ttf');
+export const Atma_500Medium = require('./Atma_500Medium.ttf');
+export const Atma_600SemiBold = require('./Atma_600SemiBold.ttf');
+export const Atma_700Bold = require('./Atma_700Bold.ttf');

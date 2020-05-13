@@ -7,15 +7,13 @@
 
 This package lets you use the [**Do Hyeon**](https://fonts.google.com/specimen/Do+Hyeon) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Do Hyeon
 
 ![Do Hyeon](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `DoHyeon_Regular400`
+- `DoHyeon_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { DoHyeon_Regular400, useFonts } from '@expo-google-fonts/do-hyeon';
+import { useFonts, DoHyeon_400Regular } from '@expo-google-fonts/do-hyeon';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    DoHyeon_Regular400,
+    DoHyeon_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DoHyeon_Regular400' }}>
-          DoHyeon_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DoHyeon_400Regular' }}>
+          DoHyeon_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DoHyeon_Regular400
-![DoHyeon_Regular400](./f24aa5cecd71141bf907f712b4e1a8d1ae20bfc48e6f4c397af431431965c7c3.ttf.png)
+##### DoHyeon_400Regular
+![DoHyeon_400Regular](./DoHyeon_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/do-hyeon)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

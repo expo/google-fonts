@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Molengo';
-export const __fontFamilyVersion__ = 7;
-
-export const Molengo_Regular400 = require('./c17cda006ffaf122363be2ad7ed8394c0bf59581bd9e5e9a7e7f5c0ed161a4c0.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Molengo_400Regular = require('./Molengo_400Regular.ttf');

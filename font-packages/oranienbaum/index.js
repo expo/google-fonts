@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Oranienbaum';
-export const __fontFamilyVersion__ = 5;
-
-export const Oranienbaum_Regular400 = require('./ce3ec0eb54fc0cdef2aae64151cb3dc95720f5347739c1c1d19e6d2bb3629d6e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Oranienbaum_400Regular = require('./Oranienbaum_400Regular.ttf');

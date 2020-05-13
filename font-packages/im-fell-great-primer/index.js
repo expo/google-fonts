@@ -4,8 +4,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'IM Fell Great Primer';
-export const __fontFamilyVersion__ = 6;
-
-export const IMFellGreatPrimer_Regular400 = require('./fede2a25cf42680231c7bfb90da7306e0962092c8e1074fbfc44ef59289257ec.ttf');
-export const IMFellGreatPrimer_Regular400_Italic = require('./020c8f65ef327b827d6e28ca2e4be8f019b4a81075f1c7c00a53993664b41b93.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const IMFellGreatPrimer_400Regular = require('./IMFellGreatPrimer_400Regular.ttf');
+export const IMFellGreatPrimer_400Regular_Italic = require('./IMFellGreatPrimer_400Regular_Italic.ttf');

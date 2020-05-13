@@ -7,17 +7,15 @@
 
 This package lets you use the [**Kalam**](https://fonts.google.com/specimen/Kalam) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Kalam
 
 ![Kalam](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `Kalam_Light300`
-- `Kalam_Regular400`
-- `Kalam_Bold700`
+- `Kalam_300Light`
+- `Kalam_400Regular`
+- `Kalam_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Kalam_Light300,
-  Kalam_Regular400,
-  Kalam_Bold700,
   useFonts,
+  Kalam_300Light,
+  Kalam_400Regular,
+  Kalam_700Bold,
 } from '@expo-google-fonts/kalam';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Kalam_Light300,
-    Kalam_Regular400,
-    Kalam_Bold700,
+    Kalam_300Light,
+    Kalam_400Regular,
+    Kalam_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kalam_Light300' }}>
-          Kalam_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kalam_300Light' }}>
+          Kalam_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kalam_Regular400' }}>
-          Kalam_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kalam_400Regular' }}>
+          Kalam_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kalam_Bold700' }}>
-          Kalam_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kalam_700Bold' }}>
+          Kalam_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Kalam_Light300
-![Kalam_Light300](./acc410247649f3164d61952a81b88737fb56977ac409e4d5f35d960e3b13747a.ttf.png)
+##### Kalam_300Light
+![Kalam_300Light](./Kalam_300Light.ttf.png)
 
-##### Kalam_Regular400
-![Kalam_Regular400](./546c956074b4cd1c7d9936a82b03a712ec46df693b5a0faa80d4233f6bc17d2c.ttf.png)
+##### Kalam_400Regular
+![Kalam_400Regular](./Kalam_400Regular.ttf.png)
 
-##### Kalam_Bold700
-![Kalam_Bold700](./d48470c951c546b15999abb42141211e85484cffff16ce7612d07676efb9d0d8.ttf.png)
+##### Kalam_700Bold
+![Kalam_700Bold](./Kalam_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/kalam)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

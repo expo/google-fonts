@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Ma Shan Zheng';
-export const __fontFamilyVersion__ = 5;
-
-export const MaShanZheng_Regular400 = require('./b09c8b63681f2770158618c3110f15aa53948e2ef43d7bcbee34cfe43cdfa646.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const MaShanZheng_400Regular = require('./MaShanZheng_400Regular.ttf');

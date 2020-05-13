@@ -7,19 +7,17 @@
 
 This package lets you use the [**Hind Guntur**](https://fonts.google.com/specimen/Hind+Guntur) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Hind Guntur
 
 ![Hind Guntur](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `HindGuntur_Light300`
-- `HindGuntur_Regular400`
-- `HindGuntur_Medium500`
-- `HindGuntur_SemiBold600`
-- `HindGuntur_Bold700`
+- `HindGuntur_300Light`
+- `HindGuntur_400Regular`
+- `HindGuntur_500Medium`
+- `HindGuntur_600SemiBold`
+- `HindGuntur_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  HindGuntur_Light300,
-  HindGuntur_Regular400,
-  HindGuntur_Medium500,
-  HindGuntur_SemiBold600,
-  HindGuntur_Bold700,
   useFonts,
+  HindGuntur_300Light,
+  HindGuntur_400Regular,
+  HindGuntur_500Medium,
+  HindGuntur_600SemiBold,
+  HindGuntur_700Bold,
 } from '@expo-google-fonts/hind-guntur';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    HindGuntur_Light300,
-    HindGuntur_Regular400,
-    HindGuntur_Medium500,
-    HindGuntur_SemiBold600,
-    HindGuntur_Bold700,
+    HindGuntur_300Light,
+    HindGuntur_400Regular,
+    HindGuntur_500Medium,
+    HindGuntur_600SemiBold,
+    HindGuntur_700Bold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindGuntur_Light300' }}>
-          HindGuntur_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindGuntur_300Light' }}>
+          HindGuntur_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindGuntur_Regular400' }}>
-          HindGuntur_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindGuntur_400Regular' }}>
+          HindGuntur_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindGuntur_Medium500' }}>
-          HindGuntur_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindGuntur_500Medium' }}>
+          HindGuntur_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindGuntur_SemiBold600' }}>
-          HindGuntur_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindGuntur_600SemiBold' }}>
+          HindGuntur_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindGuntur_Bold700' }}>
-          HindGuntur_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindGuntur_700Bold' }}>
+          HindGuntur_700Bold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HindGuntur_Light300
-![HindGuntur_Light300](./83f2591cf78a025ae8e85ebecda4a590c393eb80bf83f18bace7e5d144b57bc8.ttf.png)
+##### HindGuntur_300Light
+![HindGuntur_300Light](./HindGuntur_300Light.ttf.png)
 
-##### HindGuntur_Regular400
-![HindGuntur_Regular400](./58962c61fd64e7df2aa4d0fbf8b7044df4531b4098533fd14348043d05fb8b42.ttf.png)
+##### HindGuntur_400Regular
+![HindGuntur_400Regular](./HindGuntur_400Regular.ttf.png)
 
-##### HindGuntur_Medium500
-![HindGuntur_Medium500](./1548c29a01fac4cf5904cd44cf584eaec84e08ed0b15f96638c1cb9ff8995583.ttf.png)
+##### HindGuntur_500Medium
+![HindGuntur_500Medium](./HindGuntur_500Medium.ttf.png)
 
-##### HindGuntur_SemiBold600
-![HindGuntur_SemiBold600](./12aa908469a5d74ca315816664934ede78906a4593e2310e5ea1894cd964c2a1.ttf.png)
+##### HindGuntur_600SemiBold
+![HindGuntur_600SemiBold](./HindGuntur_600SemiBold.ttf.png)
 
-##### HindGuntur_Bold700
-![HindGuntur_Bold700](./751c8dd12898b1caafe20c6458531dce8773242b36537ea2e341d9a4bd01bafe.ttf.png)
+##### HindGuntur_700Bold
+![HindGuntur_700Bold](./HindGuntur_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/hind-guntur)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

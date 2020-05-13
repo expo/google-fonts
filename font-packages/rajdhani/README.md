@@ -7,19 +7,17 @@
 
 This package lets you use the [**Rajdhani**](https://fonts.google.com/specimen/Rajdhani) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Rajdhani
 
 ![Rajdhani](./font-family.png)
 
 This font family contains [5 styles](#-gallery).
 
-- `Rajdhani_Light300`
-- `Rajdhani_Regular400`
-- `Rajdhani_Medium500`
-- `Rajdhani_SemiBold600`
-- `Rajdhani_Bold700`
+- `Rajdhani_300Light`
+- `Rajdhani_400Regular`
+- `Rajdhani_500Medium`
+- `Rajdhani_600SemiBold`
+- `Rajdhani_700Bold`
 
 ## Usage
 
@@ -35,21 +33,21 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Rajdhani_Light300,
-  Rajdhani_Regular400,
-  Rajdhani_Medium500,
-  Rajdhani_SemiBold600,
-  Rajdhani_Bold700,
   useFonts,
+  Rajdhani_300Light,
+  Rajdhani_400Regular,
+  Rajdhani_500Medium,
+  Rajdhani_600SemiBold,
+  Rajdhani_700Bold,
 } from '@expo-google-fonts/rajdhani';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Rajdhani_Light300,
-    Rajdhani_Regular400,
-    Rajdhani_Medium500,
-    Rajdhani_SemiBold600,
-    Rajdhani_Bold700,
+    Rajdhani_300Light,
+    Rajdhani_400Regular,
+    Rajdhani_500Medium,
+    Rajdhani_600SemiBold,
+    Rajdhani_700Bold,
   });
 
   let fontSize = 24;
@@ -60,24 +58,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rajdhani_Light300' }}>
-          Rajdhani_Light300
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rajdhani_300Light' }}>
+          Rajdhani_300Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rajdhani_Regular400' }}>
-          Rajdhani_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rajdhani_400Regular' }}>
+          Rajdhani_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rajdhani_Medium500' }}>
-          Rajdhani_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rajdhani_500Medium' }}>
+          Rajdhani_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rajdhani_SemiBold600' }}>
-          Rajdhani_SemiBold600
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rajdhani_600SemiBold' }}>
+          Rajdhani_600SemiBold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rajdhani_Bold700' }}>
-          Rajdhani_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rajdhani_700Bold' }}>
+          Rajdhani_700Bold
         </Text>
       </View>
     );
@@ -88,20 +86,20 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rajdhani_Light300
-![Rajdhani_Light300](./5d3e322fc971c11dc62d2cb01d49ffb76c16b801c7811493250d84aa8f12fa3f.ttf.png)
+##### Rajdhani_300Light
+![Rajdhani_300Light](./Rajdhani_300Light.ttf.png)
 
-##### Rajdhani_Regular400
-![Rajdhani_Regular400](./28d153f34f1ea3bd1abf9d6639f49ee9ee3b8b01badde2e32892146d8196b19a.ttf.png)
+##### Rajdhani_400Regular
+![Rajdhani_400Regular](./Rajdhani_400Regular.ttf.png)
 
-##### Rajdhani_Medium500
-![Rajdhani_Medium500](./d0e11c0858bfd9226f322293328602ca2c5a89cec03fd80c333f933e0b26e653.ttf.png)
+##### Rajdhani_500Medium
+![Rajdhani_500Medium](./Rajdhani_500Medium.ttf.png)
 
-##### Rajdhani_SemiBold600
-![Rajdhani_SemiBold600](./2ab7a240fa08011c00222b91e955d71588ccf8d82ed43833580bf8a20082c836.ttf.png)
+##### Rajdhani_600SemiBold
+![Rajdhani_600SemiBold](./Rajdhani_600SemiBold.ttf.png)
 
-##### Rajdhani_Bold700
-![Rajdhani_Bold700](./01025724bc7898c86c82d19ae1779cb44ca7492a947094eb0249653e3d26850a.ttf.png)
+##### Rajdhani_700Bold
+![Rajdhani_700Bold](./Rajdhani_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -131,7 +129,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/rajdhani)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Kristi';
-export const __fontFamilyVersion__ = 8;
-
-export const Kristi_Regular400 = require('./6769ae6a5019b65b4c320170421385429bc0ab627affdc0b481ad8b7f7e2814b.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Kristi_400Regular = require('./Kristi_400Regular.ttf');

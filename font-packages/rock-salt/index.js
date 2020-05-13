@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Rock Salt';
-export const __fontFamilyVersion__ = 6;
-
-export const RockSalt_Regular400 = require('./f806681f8229dcdbd4eecfbadbbba02c5db0e98796d6996917c01a006376910f.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const RockSalt_400Regular = require('./RockSalt_400Regular.ttf');

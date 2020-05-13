@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Romanesco';
-export const __fontFamilyVersion__ = 5;
-
-export const Romanesco_Regular400 = require('./8d69cd23e2f9e72bfe24b40e81d3301f35d942aa11864ee86d116da929e93a27.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Romanesco_400Regular = require('./Romanesco_400Regular.ttf');

@@ -7,15 +7,13 @@
 
 This package lets you use the [**Chewy**](https://fonts.google.com/specimen/Chewy) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Chewy
 
 ![Chewy](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Chewy_Regular400`
+- `Chewy_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Chewy_Regular400, useFonts } from '@expo-google-fonts/chewy';
+import { useFonts, Chewy_400Regular } from '@expo-google-fonts/chewy';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Chewy_Regular400,
+    Chewy_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chewy_Regular400' }}>
-          Chewy_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chewy_400Regular' }}>
+          Chewy_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Chewy_Regular400
-![Chewy_Regular400](./d88ead910c7aca7ef7e4aec8e38bc7bd8ea2f85b93181a960e2747192d839469.ttf.png)
+##### Chewy_400Regular
+![Chewy_400Regular](./Chewy_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/chewy)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

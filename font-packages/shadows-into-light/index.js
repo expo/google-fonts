@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Shadows Into Light';
-export const __fontFamilyVersion__ = 6;
-
-export const ShadowsIntoLight_Regular400 = require('./d737d913f418f2f8e85744c94be63b75e1af421856c3a203104a211dc7f337fa.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const ShadowsIntoLight_400Regular = require('./ShadowsIntoLight_400Regular.ttf');

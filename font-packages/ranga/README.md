@@ -7,16 +7,14 @@
 
 This package lets you use the [**Ranga**](https://fonts.google.com/specimen/Ranga) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Ranga
 
 ![Ranga](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Ranga_Regular400`
-- `Ranga_Bold700`
+- `Ranga_400Regular`
+- `Ranga_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Ranga_Regular400, Ranga_Bold700, useFonts } from '@expo-google-fonts/ranga';
+import { useFonts, Ranga_400Regular, Ranga_700Bold } from '@expo-google-fonts/ranga';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Ranga_Regular400,
-    Ranga_Bold700,
+    Ranga_400Regular,
+    Ranga_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ranga_Regular400' }}>
-          Ranga_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ranga_400Regular' }}>
+          Ranga_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ranga_Bold700' }}>
-          Ranga_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ranga_700Bold' }}>
+          Ranga_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Ranga_Regular400
-![Ranga_Regular400](./e51a6898e34d12bd9b9057002e645f176d30f5e821bfaa1ccc4e56294af7099a.ttf.png)
+##### Ranga_400Regular
+![Ranga_400Regular](./Ranga_400Regular.ttf.png)
 
-##### Ranga_Bold700
-![Ranga_Bold700](./c5c763628e805a2af3c9deb68abd0b70227a98911f7ba56f4f8c2a3e8c286b96.ttf.png)
+##### Ranga_700Bold
+![Ranga_700Bold](./Ranga_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/ranga)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

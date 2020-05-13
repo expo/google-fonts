@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Jacques Francois';
-export const __fontFamilyVersion__ = 4;
-
-export const JacquesFrancois_Regular400 = require('./d263121e53613f81bea06459cb1ac924693f48b654d9943d34776a3efa1fc52e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const JacquesFrancois_400Regular = require('./JacquesFrancois_400Regular.ttf');

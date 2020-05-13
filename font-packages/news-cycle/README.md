@@ -7,16 +7,14 @@
 
 This package lets you use the [**News Cycle**](https://fonts.google.com/specimen/News+Cycle) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## News Cycle
 
 ![News Cycle](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `NewsCycle_Regular400`
-- `NewsCycle_Bold700`
+- `NewsCycle_400Regular`
+- `NewsCycle_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { NewsCycle_Regular400, NewsCycle_Bold700, useFonts } from '@expo-google-fonts/news-cycle';
+import { useFonts, NewsCycle_400Regular, NewsCycle_700Bold } from '@expo-google-fonts/news-cycle';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    NewsCycle_Regular400,
-    NewsCycle_Bold700,
+    NewsCycle_400Regular,
+    NewsCycle_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NewsCycle_Regular400' }}>
-          NewsCycle_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NewsCycle_400Regular' }}>
+          NewsCycle_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NewsCycle_Bold700' }}>
-          NewsCycle_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NewsCycle_700Bold' }}>
+          NewsCycle_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NewsCycle_Regular400
-![NewsCycle_Regular400](./9dc74270959405ee468a6ea83452b01a8075067bf71cb96c8097511477f8aec6.ttf.png)
+##### NewsCycle_400Regular
+![NewsCycle_400Regular](./NewsCycle_400Regular.ttf.png)
 
-##### NewsCycle_Bold700
-![NewsCycle_Bold700](./301d13c6e3a40093c2244566226928b2e8bd2843d5cb06302c5c30b44c3d4bc2.ttf.png)
+##### NewsCycle_700Bold
+![NewsCycle_700Bold](./NewsCycle_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/news-cycle)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'IM Fell Great Primer SC';
-export const __fontFamilyVersion__ = 6;
-
-export const IMFellGreatPrimerSC_Regular400 = require('./8894f603e127ce2093a63d487149eb1cf10f58b20ea4abbae6ac6635472dcc85.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const IMFellGreatPrimerSC_400Regular = require('./IMFellGreatPrimerSC_400Regular.ttf');

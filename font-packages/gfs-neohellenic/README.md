@@ -7,18 +7,16 @@
 
 This package lets you use the [**GFS Neohellenic**](https://fonts.google.com/specimen/GFS+Neohellenic) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## GFS Neohellenic
 
 ![GFS Neohellenic](./font-family.png)
 
 This font family contains [4 styles](#-gallery).
 
-- `GFSNeohellenic_Regular400`
-- `GFSNeohellenic_Regular400_Italic`
-- `GFSNeohellenic_Bold700`
-- `GFSNeohellenic_Bold700_Italic`
+- `GFSNeohellenic_400Regular`
+- `GFSNeohellenic_400Regular_Italic`
+- `GFSNeohellenic_700Bold`
+- `GFSNeohellenic_700Bold_Italic`
 
 ## Usage
 
@@ -34,19 +32,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  GFSNeohellenic_Regular400,
-  GFSNeohellenic_Regular400_Italic,
-  GFSNeohellenic_Bold700,
-  GFSNeohellenic_Bold700_Italic,
   useFonts,
+  GFSNeohellenic_400Regular,
+  GFSNeohellenic_400Regular_Italic,
+  GFSNeohellenic_700Bold,
+  GFSNeohellenic_700Bold_Italic,
 } from '@expo-google-fonts/gfs-neohellenic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    GFSNeohellenic_Regular400,
-    GFSNeohellenic_Regular400_Italic,
-    GFSNeohellenic_Bold700,
-    GFSNeohellenic_Bold700_Italic,
+    GFSNeohellenic_400Regular,
+    GFSNeohellenic_400Regular_Italic,
+    GFSNeohellenic_700Bold,
+    GFSNeohellenic_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -57,20 +55,20 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GFSNeohellenic_Regular400' }}>
-          GFSNeohellenic_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GFSNeohellenic_400Regular' }}>
+          GFSNeohellenic_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GFSNeohellenic_Regular400_Italic' }}>
-          GFSNeohellenic_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GFSNeohellenic_400Regular_Italic' }}>
+          GFSNeohellenic_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GFSNeohellenic_Bold700' }}>
-          GFSNeohellenic_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GFSNeohellenic_700Bold' }}>
+          GFSNeohellenic_700Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GFSNeohellenic_Bold700_Italic' }}>
-          GFSNeohellenic_Bold700_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GFSNeohellenic_700Bold_Italic' }}>
+          GFSNeohellenic_700Bold_Italic
         </Text>
       </View>
     );
@@ -81,17 +79,17 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GFSNeohellenic_Regular400
-![GFSNeohellenic_Regular400](./bd8b39a679957cee00c5e50a23c2e6d3d6ba8d207873672a245c1de120f75028.ttf.png)
+##### GFSNeohellenic_400Regular
+![GFSNeohellenic_400Regular](./GFSNeohellenic_400Regular.ttf.png)
 
-##### GFSNeohellenic_Regular400_Italic
-![GFSNeohellenic_Regular400_Italic](./44d41c717d709e6a615d33a24a85f8bd9bb4eff83466d4fafb85844a41ac142b.ttf.png)
+##### GFSNeohellenic_400Regular_Italic
+![GFSNeohellenic_400Regular_Italic](./GFSNeohellenic_400Regular_Italic.ttf.png)
 
-##### GFSNeohellenic_Bold700
-![GFSNeohellenic_Bold700](./07ff63886ca5101d1a9bc31d7fb3f8dba0dfe2b725183cfb5349444e2ad8d4ad.ttf.png)
+##### GFSNeohellenic_700Bold
+![GFSNeohellenic_700Bold](./GFSNeohellenic_700Bold.ttf.png)
 
-##### GFSNeohellenic_Bold700_Italic
-![GFSNeohellenic_Bold700_Italic](./3317aac2c90d40a458f2817b4d514af6fa109becec2a0735a3415f2fda7a4603.ttf.png)
+##### GFSNeohellenic_700Bold_Italic
+![GFSNeohellenic_700Bold_Italic](./GFSNeohellenic_700Bold_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -121,7 +119,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/gfs-neohellenic)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

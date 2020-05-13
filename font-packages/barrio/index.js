@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Barrio';
-export const __fontFamilyVersion__ = 1;
-
-export const Barrio_Regular400 = require('./e1745250902305ccc432fd4ac10b9b248159dddd57634c31c70b8b4f3e3983f1.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Barrio_400Regular = require('./Barrio_400Regular.ttf');

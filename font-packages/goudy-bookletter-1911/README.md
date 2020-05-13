@@ -7,15 +7,13 @@
 
 This package lets you use the [**Goudy Bookletter 1911**](https://fonts.google.com/specimen/Goudy+Bookletter+1911) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Goudy Bookletter 1911
 
 ![Goudy Bookletter 1911](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `GoudyBookletter1911_Regular400`
+- `GoudyBookletter1911_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { GoudyBookletter1911_Regular400, useFonts } from '@expo-google-fonts/goudy-bookletter-1911';
+import { useFonts, GoudyBookletter1911_400Regular } from '@expo-google-fonts/goudy-bookletter-1911';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    GoudyBookletter1911_Regular400,
+    GoudyBookletter1911_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GoudyBookletter1911_Regular400' }}>
-          GoudyBookletter1911_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'GoudyBookletter1911_400Regular' }}>
+          GoudyBookletter1911_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GoudyBookletter1911_Regular400
-![GoudyBookletter1911_Regular400](./a4ea1fd345de7df9251d754f6ecc38147180ed991b78a0979f3ec409ee987e8b.ttf.png)
+##### GoudyBookletter1911_400Regular
+![GoudyBookletter1911_400Regular](./GoudyBookletter1911_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/goudy-bookletter-1911)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

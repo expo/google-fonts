@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Dekko';
-export const __fontFamilyVersion__ = 3;
-
-export const Dekko_Regular400 = require('./71d66d24dfda326e074654507fa7b6be6a766f318cf01f17b000fdc6f870fb4d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Dekko_400Regular = require('./Dekko_400Regular.ttf');

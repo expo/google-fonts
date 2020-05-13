@@ -7,15 +7,13 @@
 
 This package lets you use the [**McLaren**](https://fonts.google.com/specimen/McLaren) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## McLaren
 
 ![McLaren](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `McLaren_Regular400`
+- `McLaren_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { McLaren_Regular400, useFonts } from '@expo-google-fonts/mclaren';
+import { useFonts, McLaren_400Regular } from '@expo-google-fonts/mclaren';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    McLaren_Regular400,
+    McLaren_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'McLaren_Regular400' }}>
-          McLaren_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'McLaren_400Regular' }}>
+          McLaren_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### McLaren_Regular400
-![McLaren_Regular400](./ca48a5e17b0201057453d49c4271d139e5824b553505ad1c6fbbd7cbbbf4d1dc.ttf.png)
+##### McLaren_400Regular
+![McLaren_400Regular](./McLaren_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/mclaren)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

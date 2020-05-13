@@ -7,15 +7,13 @@
 
 This package lets you use the [**Fascinate Inline**](https://fonts.google.com/specimen/Fascinate+Inline) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Fascinate Inline
 
 ![Fascinate Inline](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `FascinateInline_Regular400`
+- `FascinateInline_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { FascinateInline_Regular400, useFonts } from '@expo-google-fonts/fascinate-inline';
+import { useFonts, FascinateInline_400Regular } from '@expo-google-fonts/fascinate-inline';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    FascinateInline_Regular400,
+    FascinateInline_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FascinateInline_Regular400' }}>
-          FascinateInline_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'FascinateInline_400Regular' }}>
+          FascinateInline_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FascinateInline_Regular400
-![FascinateInline_Regular400](./c052c5d8595ae4b44c8e2c92cd12be41381064837072f05fc6a3f4807f1d80e7.ttf.png)
+##### FascinateInline_400Regular
+![FascinateInline_400Regular](./FascinateInline_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/fascinate-inline)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

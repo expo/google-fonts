@@ -7,15 +7,13 @@
 
 This package lets you use the [**Just Me Again Down Here**](https://fonts.google.com/specimen/Just+Me+Again+Down+Here) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Just Me Again Down Here
 
 ![Just Me Again Down Here](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `JustMeAgainDownHere_Regular400`
+- `JustMeAgainDownHere_400Regular`
 
 ## Usage
 
@@ -31,13 +29,13 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  JustMeAgainDownHere_Regular400,
   useFonts,
+  JustMeAgainDownHere_400Regular,
 } from '@expo-google-fonts/just-me-again-down-here';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    JustMeAgainDownHere_Regular400,
+    JustMeAgainDownHere_400Regular,
   });
 
   let fontSize = 24;
@@ -48,8 +46,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JustMeAgainDownHere_Regular400' }}>
-          JustMeAgainDownHere_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'JustMeAgainDownHere_400Regular' }}>
+          JustMeAgainDownHere_400Regular
         </Text>
       </View>
     );
@@ -60,8 +58,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### JustMeAgainDownHere_Regular400
-![JustMeAgainDownHere_Regular400](./fc0ac5f253850191002f529e5fd66829627682a2f9740fe0345a4bb339da7438.ttf.png)
+##### JustMeAgainDownHere_400Regular
+![JustMeAgainDownHere_400Regular](./JustMeAgainDownHere_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -91,7 +89,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/just-me-again-down-here)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

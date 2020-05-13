@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Amarante';
-export const __fontFamilyVersion__ = 4;
-
-export const Amarante_Regular400 = require('./f11a52c1a0f3e94f81dde8d9c60832c688c1d9b01c5bb1098c3ea30daac8ad29.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Amarante_400Regular = require('./Amarante_400Regular.ttf');

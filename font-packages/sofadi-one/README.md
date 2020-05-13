@@ -7,15 +7,13 @@
 
 This package lets you use the [**Sofadi One**](https://fonts.google.com/specimen/Sofadi+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Sofadi One
 
 ![Sofadi One](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `SofadiOne_Regular400`
+- `SofadiOne_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { SofadiOne_Regular400, useFonts } from '@expo-google-fonts/sofadi-one';
+import { useFonts, SofadiOne_400Regular } from '@expo-google-fonts/sofadi-one';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    SofadiOne_Regular400,
+    SofadiOne_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SofadiOne_Regular400' }}>
-          SofadiOne_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'SofadiOne_400Regular' }}>
+          SofadiOne_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SofadiOne_Regular400
-![SofadiOne_Regular400](./bd2ee7258a722de3e36e84a9aadf3edfe4b91221f382e3e5bbe75b786119526f.ttf.png)
+##### SofadiOne_400Regular
+![SofadiOne_400Regular](./SofadiOne_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/sofadi-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

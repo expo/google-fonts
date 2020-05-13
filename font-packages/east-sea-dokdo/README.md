@@ -7,15 +7,13 @@
 
 This package lets you use the [**East Sea Dokdo**](https://fonts.google.com/specimen/East+Sea+Dokdo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## East Sea Dokdo
 
 ![East Sea Dokdo](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `EastSeaDokdo_Regular400`
+- `EastSeaDokdo_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { EastSeaDokdo_Regular400, useFonts } from '@expo-google-fonts/east-sea-dokdo';
+import { useFonts, EastSeaDokdo_400Regular } from '@expo-google-fonts/east-sea-dokdo';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    EastSeaDokdo_Regular400,
+    EastSeaDokdo_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EastSeaDokdo_Regular400' }}>
-          EastSeaDokdo_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'EastSeaDokdo_400Regular' }}>
+          EastSeaDokdo_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### EastSeaDokdo_Regular400
-![EastSeaDokdo_Regular400](./28e44e5875cc0c761d9fa6492d1a738977cb5a555b57aa3016e44e2a138df2f7.ttf.png)
+##### EastSeaDokdo_400Regular
+![EastSeaDokdo_400Regular](./EastSeaDokdo_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/east-sea-dokdo)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -7,17 +7,15 @@
 
 This package lets you use the [**Cardo**](https://fonts.google.com/specimen/Cardo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Cardo
 
 ![Cardo](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `Cardo_Regular400`
-- `Cardo_Regular400_Italic`
-- `Cardo_Bold700`
+- `Cardo_400Regular`
+- `Cardo_400Regular_Italic`
+- `Cardo_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Cardo_Regular400,
-  Cardo_Regular400_Italic,
-  Cardo_Bold700,
   useFonts,
+  Cardo_400Regular,
+  Cardo_400Regular_Italic,
+  Cardo_700Bold,
 } from '@expo-google-fonts/cardo';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Cardo_Regular400,
-    Cardo_Regular400_Italic,
-    Cardo_Bold700,
+    Cardo_400Regular,
+    Cardo_400Regular_Italic,
+    Cardo_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cardo_Regular400' }}>
-          Cardo_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cardo_400Regular' }}>
+          Cardo_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cardo_Regular400_Italic' }}>
-          Cardo_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cardo_400Regular_Italic' }}>
+          Cardo_400Regular_Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cardo_Bold700' }}>
-          Cardo_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cardo_700Bold' }}>
+          Cardo_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Cardo_Regular400
-![Cardo_Regular400](./286e6a4bde92ea6087b503978338898808df924a3cdd8144741fa780d11603a2.ttf.png)
+##### Cardo_400Regular
+![Cardo_400Regular](./Cardo_400Regular.ttf.png)
 
-##### Cardo_Regular400_Italic
-![Cardo_Regular400_Italic](./43bee56e6bb3d2ad574558a859227592f0b0ac881a70fd8f2cf74b808bb9be00.ttf.png)
+##### Cardo_400Regular_Italic
+![Cardo_400Regular_Italic](./Cardo_400Regular_Italic.ttf.png)
 
-##### Cardo_Bold700
-![Cardo_Bold700](./10c0bab22a674656a3d5e94e05e64f9c6c6ea25acce0d0fc846f964985b142ce.ttf.png)
+##### Cardo_700Bold
+![Cardo_700Bold](./Cardo_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cardo)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

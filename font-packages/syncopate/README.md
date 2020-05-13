@@ -7,16 +7,14 @@
 
 This package lets you use the [**Syncopate**](https://fonts.google.com/specimen/Syncopate) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Syncopate
 
 ![Syncopate](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Syncopate_Regular400`
-- `Syncopate_Bold700`
+- `Syncopate_400Regular`
+- `Syncopate_700Bold`
 
 ## Usage
 
@@ -31,12 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Syncopate_Regular400, Syncopate_Bold700, useFonts } from '@expo-google-fonts/syncopate';
+import { useFonts, Syncopate_400Regular, Syncopate_700Bold } from '@expo-google-fonts/syncopate';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Syncopate_Regular400,
-    Syncopate_Bold700,
+    Syncopate_400Regular,
+    Syncopate_700Bold,
   });
 
   let fontSize = 24;
@@ -47,12 +45,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Syncopate_Regular400' }}>
-          Syncopate_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Syncopate_400Regular' }}>
+          Syncopate_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Syncopate_Bold700' }}>
-          Syncopate_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Syncopate_700Bold' }}>
+          Syncopate_700Bold
         </Text>
       </View>
     );
@@ -63,11 +61,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Syncopate_Regular400
-![Syncopate_Regular400](./8f40fe696b566662712524f9cf3f5c4aff3afa640f0bd4ec0e527c22369561a9.ttf.png)
+##### Syncopate_400Regular
+![Syncopate_400Regular](./Syncopate_400Regular.ttf.png)
 
-##### Syncopate_Bold700
-![Syncopate_Bold700](./0c6b8fb391ff34b292bb2091302fb45fcc3b16eefc6bf4e67b9f1fe38f4ab3fe.ttf.png)
+##### Syncopate_700Bold
+![Syncopate_700Bold](./Syncopate_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -97,7 +95,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/syncopate)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

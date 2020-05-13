@@ -7,17 +7,15 @@
 
 This package lets you use the [**David Libre**](https://fonts.google.com/specimen/David+Libre) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## David Libre
 
 ![David Libre](./font-family.png)
 
 This font family contains [3 styles](#-gallery).
 
-- `DavidLibre_Regular400`
-- `DavidLibre_Medium500`
-- `DavidLibre_Bold700`
+- `DavidLibre_400Regular`
+- `DavidLibre_500Medium`
+- `DavidLibre_700Bold`
 
 ## Usage
 
@@ -33,17 +31,17 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  DavidLibre_Regular400,
-  DavidLibre_Medium500,
-  DavidLibre_Bold700,
   useFonts,
+  DavidLibre_400Regular,
+  DavidLibre_500Medium,
+  DavidLibre_700Bold,
 } from '@expo-google-fonts/david-libre';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    DavidLibre_Regular400,
-    DavidLibre_Medium500,
-    DavidLibre_Bold700,
+    DavidLibre_400Regular,
+    DavidLibre_500Medium,
+    DavidLibre_700Bold,
   });
 
   let fontSize = 24;
@@ -54,16 +52,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DavidLibre_Regular400' }}>
-          DavidLibre_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DavidLibre_400Regular' }}>
+          DavidLibre_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DavidLibre_Medium500' }}>
-          DavidLibre_Medium500
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DavidLibre_500Medium' }}>
+          DavidLibre_500Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DavidLibre_Bold700' }}>
-          DavidLibre_Bold700
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'DavidLibre_700Bold' }}>
+          DavidLibre_700Bold
         </Text>
       </View>
     );
@@ -74,14 +72,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DavidLibre_Regular400
-![DavidLibre_Regular400](./8319053cbaa4074884c0364b74327548dbe246119e76a214a864d9d55a12353d.ttf.png)
+##### DavidLibre_400Regular
+![DavidLibre_400Regular](./DavidLibre_400Regular.ttf.png)
 
-##### DavidLibre_Medium500
-![DavidLibre_Medium500](./288d258f0790230352ec2d9b0eef7f533d14554250a99cd0b5cfc80c349d2b38.ttf.png)
+##### DavidLibre_500Medium
+![DavidLibre_500Medium](./DavidLibre_500Medium.ttf.png)
 
-##### DavidLibre_Bold700
-![DavidLibre_Bold700](./d02a7be354414e34512a70b5f00901c7c3c4e7df88c6bab47e8ed2e50c770c71.ttf.png)
+##### DavidLibre_700Bold
+![DavidLibre_700Bold](./DavidLibre_700Bold.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -111,7 +109,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/david-libre)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

@@ -4,11 +4,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Teko';
-export const __fontFamilyVersion__ = 6;
-
-export const Teko_Light300 = require('./b31400af25afcb1ea24b0a3b59e18957132c4df53084ec09f2978ddfd1e67fc5.ttf');
-export const Teko_Regular400 = require('./d796b7d93c33a941a6521bb31d3ce37f381b87f97447077405c1cf841c4cb586.ttf');
-export const Teko_Medium500 = require('./88b2962aecc7ff0d4a09258f8eff7210ff6c72abd16a8229f30da45d3c428b44.ttf');
-export const Teko_SemiBold600 = require('./93c13926efeae26ea7017e3777dd33149524c7eb3907c791e4b8c8edc57848f6.ttf');
-export const Teko_Bold700 = require('./8c33b42189d0afc837f06ec5fd8b20cc431d75823356156ab00af8dcb949fa69.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Teko_300Light = require('./Teko_300Light.ttf');
+export const Teko_400Regular = require('./Teko_400Regular.ttf');
+export const Teko_500Medium = require('./Teko_500Medium.ttf');
+export const Teko_600SemiBold = require('./Teko_600SemiBold.ttf');
+export const Teko_700Bold = require('./Teko_700Bold.ttf');

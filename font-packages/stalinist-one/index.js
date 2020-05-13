@@ -4,7 +4,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Stalinist One';
-export const __fontFamilyVersion__ = 9;
-
-export const StalinistOne_Regular400 = require('./87936ca01db4621bdb144a35bb1e89bc7e9b769a899d90ea618736467886c01d.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const StalinistOne_400Regular = require('./StalinistOne_400Regular.ttf');

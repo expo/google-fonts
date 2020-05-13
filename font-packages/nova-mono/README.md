@@ -7,15 +7,13 @@
 
 This package lets you use the [**Nova Mono**](https://fonts.google.com/specimen/Nova+Mono) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Nova Mono
 
 ![Nova Mono](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `NovaMono_Regular400`
+- `NovaMono_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { NovaMono_Regular400, useFonts } from '@expo-google-fonts/nova-mono';
+import { useFonts, NovaMono_400Regular } from '@expo-google-fonts/nova-mono';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    NovaMono_Regular400,
+    NovaMono_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NovaMono_Regular400' }}>
-          NovaMono_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'NovaMono_400Regular' }}>
+          NovaMono_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NovaMono_Regular400
-![NovaMono_Regular400](./b8d5ca79e024fdc4cd75176241d8d2b12f485ddee89219d04d8210d4f53e8919.ttf.png)
+##### NovaMono_400Regular
+![NovaMono_400Regular](./NovaMono_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/nova-mono)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

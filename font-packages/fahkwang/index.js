@@ -4,18 +4,16 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'Fahkwang';
-export const __fontFamilyVersion__ = 3;
-
-export const Fahkwang_ExtraLight200 = require('./07a682d6bc044cbd486744e34dcb061077bac07d9501f34c8f50b67aa2c02b7f.ttf');
-export const Fahkwang_ExtraLight200_Italic = require('./c9cba18dabd9762bcd5cd460bbc145d71a364a65255b3ff8514cb385997506c8.ttf');
-export const Fahkwang_Light300 = require('./a4f936e2bce0a9dc318b8e50537d34ffd7475cd6199842a810f7b9ef9072cdae.ttf');
-export const Fahkwang_Light300_Italic = require('./a1ef09b096105c18faf5fadb52cbeb7979873ad7e9d50910b116ce244b4fe166.ttf');
-export const Fahkwang_Regular400 = require('./9e288aad85ecd44f0568c3d218d1478f896a2e9656dea8978a0462f0432102f7.ttf');
-export const Fahkwang_Regular400_Italic = require('./d39b9b3782631bd9e5ca85b327f2e86ade2f88ca6d30a9f85112209c08f703e5.ttf');
-export const Fahkwang_Medium500 = require('./f7b5bd7dd6726ca8619156e571f3ab9429a229e110e87eb4807508a6e603b055.ttf');
-export const Fahkwang_Medium500_Italic = require('./99dff1eec80cee80e76e31de570b32a627c8b114c5f4a6edda2349c62ef7eb9e.ttf');
-export const Fahkwang_SemiBold600 = require('./b415ad58dda4167eef2957ac799ec99e305a626797d3f015c814096dcab8244f.ttf');
-export const Fahkwang_SemiBold600_Italic = require('./a3cb35f606a6f504a703c26834f242e79e57064c9cc15b016acd7ead15c1c379.ttf');
-export const Fahkwang_Bold700 = require('./9d4c87b61ab6b7a8c8fd345b20f1bdea3f0eaf90b1f3d014ba9a1aed4df71bc5.ttf');
-export const Fahkwang_Bold700_Italic = require('./02444f0d64cab232aa85ca6646af07c761791397753194217bec25ee19e4107e.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const Fahkwang_200ExtraLight = require('./Fahkwang_200ExtraLight.ttf');
+export const Fahkwang_200ExtraLight_Italic = require('./Fahkwang_200ExtraLight_Italic.ttf');
+export const Fahkwang_300Light = require('./Fahkwang_300Light.ttf');
+export const Fahkwang_300Light_Italic = require('./Fahkwang_300Light_Italic.ttf');
+export const Fahkwang_400Regular = require('./Fahkwang_400Regular.ttf');
+export const Fahkwang_400Regular_Italic = require('./Fahkwang_400Regular_Italic.ttf');
+export const Fahkwang_500Medium = require('./Fahkwang_500Medium.ttf');
+export const Fahkwang_500Medium_Italic = require('./Fahkwang_500Medium_Italic.ttf');
+export const Fahkwang_600SemiBold = require('./Fahkwang_600SemiBold.ttf');
+export const Fahkwang_600SemiBold_Italic = require('./Fahkwang_600SemiBold_Italic.ttf');
+export const Fahkwang_700Bold = require('./Fahkwang_700Bold.ttf');
+export const Fahkwang_700Bold_Italic = require('./Fahkwang_700Bold_Italic.ttf');

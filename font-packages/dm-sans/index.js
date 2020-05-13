@@ -4,12 +4,10 @@
 
 export { useFonts } from './useFonts';
 
-export const __fontFamilyName__ = 'DM Sans';
-export const __fontFamilyVersion__ = 3;
-
-export const DMSans_Regular400 = require('./e518fdb0a5c0ebe0d1d1b02a9025067837e79d235418ab9dc8366e7ce87fad55.ttf');
-export const DMSans_Regular400_Italic = require('./de4a1215c7928ebdd157181021531f87614894038bb9396b05826b7ae9595611.ttf');
-export const DMSans_Medium500 = require('./683cd0ce949642886f9652656cfe66d569a79d1530fcde104214769c266ae121.ttf');
-export const DMSans_Medium500_Italic = require('./c3126b61a6d535d42dd4e6e4eb66648863d4d4f9bf639d63da74d20cb3fa1fb4.ttf');
-export const DMSans_Bold700 = require('./940d8601e85100233071b73474474f0ea11612beecddd6da32efb7cd8a3971bd.ttf');
-export const DMSans_Bold700_Italic = require('./579b8c8cd4a4fd71ee7ac563e399eacbcba63f3f8556516c95830d98bb9fbae9.ttf');
+export { default as __metadata__ } from './metadata.json';
+export const DMSans_400Regular = require('./DMSans_400Regular.ttf');
+export const DMSans_400Regular_Italic = require('./DMSans_400Regular_Italic.ttf');
+export const DMSans_500Medium = require('./DMSans_500Medium.ttf');
+export const DMSans_500Medium_Italic = require('./DMSans_500Medium_Italic.ttf');
+export const DMSans_700Bold = require('./DMSans_700Bold.ttf');
+export const DMSans_700Bold_Italic = require('./DMSans_700Bold_Italic.ttf');

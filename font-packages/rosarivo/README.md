@@ -7,16 +7,14 @@
 
 This package lets you use the [**Rosarivo**](https://fonts.google.com/specimen/Rosarivo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Rosarivo
 
 ![Rosarivo](./font-family.png)
 
 This font family contains [2 styles](#-gallery).
 
-- `Rosarivo_Regular400`
-- `Rosarivo_Regular400_Italic`
+- `Rosarivo_400Regular`
+- `Rosarivo_400Regular_Italic`
 
 ## Usage
 
@@ -32,15 +30,15 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
-  Rosarivo_Regular400,
-  Rosarivo_Regular400_Italic,
   useFonts,
+  Rosarivo_400Regular,
+  Rosarivo_400Regular_Italic,
 } from '@expo-google-fonts/rosarivo';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Rosarivo_Regular400,
-    Rosarivo_Regular400_Italic,
+    Rosarivo_400Regular,
+    Rosarivo_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -51,12 +49,12 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosarivo_Regular400' }}>
-          Rosarivo_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosarivo_400Regular' }}>
+          Rosarivo_400Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosarivo_Regular400_Italic' }}>
-          Rosarivo_Regular400_Italic
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosarivo_400Regular_Italic' }}>
+          Rosarivo_400Regular_Italic
         </Text>
       </View>
     );
@@ -67,11 +65,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rosarivo_Regular400
-![Rosarivo_Regular400](./d5878b2fc902263df1fa49b327526cf9d20d935600e9d19b05ed00453639dd2e.ttf.png)
+##### Rosarivo_400Regular
+![Rosarivo_400Regular](./Rosarivo_400Regular.ttf.png)
 
-##### Rosarivo_Regular400_Italic
-![Rosarivo_Regular400_Italic](./0decb12337d01f7da972a8999c759b44d150a6b4da6f78459c1fc7732df0e5ea.ttf.png)
+##### Rosarivo_400Regular_Italic
+![Rosarivo_400Regular_Italic](./Rosarivo_400Regular_Italic.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -101,7 +99,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/rosarivo)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 

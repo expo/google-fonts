@@ -7,15 +7,13 @@
 
 This package lets you use the [**Kosugi**](https://fonts.google.com/specimen/Kosugi) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
-v0.0.3
-
 ## Kosugi
 
 ![Kosugi](./font-family.png)
 
 This font family contains [1 style](#-gallery).
 
-- `Kosugi_Regular400`
+- `Kosugi_400Regular`
 
 ## Usage
 
@@ -30,11 +28,11 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { Kosugi_Regular400, useFonts } from '@expo-google-fonts/kosugi';
+import { useFonts, Kosugi_400Regular } from '@expo-google-fonts/kosugi';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Kosugi_Regular400,
+    Kosugi_400Regular,
   });
 
   let fontSize = 24;
@@ -45,8 +43,8 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kosugi_Regular400' }}>
-          Kosugi_Regular400
+        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kosugi_400Regular' }}>
+          Kosugi_400Regular
         </Text>
       </View>
     );
@@ -57,8 +55,8 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Kosugi_Regular400
-![Kosugi_Regular400](./100d52cf4a5ea4cf706199b6573e20b6963747dbf39a6fa2bd5eace488da7cfa.ttf.png)
+##### Kosugi_400Regular
+![Kosugi_400Regular](./Kosugi_400Regular.ttf.png)
 
 
 ## 👩‍💻 Use During Development
@@ -88,7 +86,6 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/kosugi)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
-
 
 ## 🤝 Contributing
 
