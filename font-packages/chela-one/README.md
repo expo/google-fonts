@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ChelaOne_400Regular
-![ChelaOne_400Regular](./ChelaOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![ChelaOne_400Regular](./ChelaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PoorStory_400Regular
-![PoorStory_400Regular](./PoorStory_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![PoorStory_400Regular](./PoorStory_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

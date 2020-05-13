@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Ruthie_400Regular
-![Ruthie_400Regular](./Ruthie_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Ruthie_400Regular](./Ruthie_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

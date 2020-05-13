@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PTMono_400Regular
-![PTMono_400Regular](./PTMono_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![PTMono_400Regular](./PTMono_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

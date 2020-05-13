@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Charmonman_400Regular
-![Charmonman_400Regular](./Charmonman_400Regular.ttf.png)
 
-##### Charmonman_700Bold
-![Charmonman_700Bold](./Charmonman_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Charmonman_400Regular](./Charmonman_400Regular.ttf.png)|![Charmonman_700Bold](./Charmonman_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

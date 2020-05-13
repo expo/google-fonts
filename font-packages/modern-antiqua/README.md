@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ModernAntiqua_400Regular
-![ModernAntiqua_400Regular](./ModernAntiqua_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![ModernAntiqua_400Regular](./ModernAntiqua_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

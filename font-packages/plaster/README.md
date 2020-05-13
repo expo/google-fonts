@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Plaster_400Regular
-![Plaster_400Regular](./Plaster_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Plaster_400Regular](./Plaster_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

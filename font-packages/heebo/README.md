@@ -142,26 +142,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Heebo_100Thin
-![Heebo_100Thin](./Heebo_100Thin.ttf.png)
 
-##### Heebo_300Light
-![Heebo_300Light](./Heebo_300Light.ttf.png)
-
-##### Heebo_400Regular
-![Heebo_400Regular](./Heebo_400Regular.ttf.png)
-
-##### Heebo_500Medium
-![Heebo_500Medium](./Heebo_500Medium.ttf.png)
-
-##### Heebo_700Bold
-![Heebo_700Bold](./Heebo_700Bold.ttf.png)
-
-##### Heebo_800ExtraBold
-![Heebo_800ExtraBold](./Heebo_800ExtraBold.ttf.png)
-
-##### Heebo_900Black
-![Heebo_900Black](./Heebo_900Black.ttf.png)
+||||
+|-|-|-|
+|![Heebo_100Thin](./Heebo_100Thin.ttf.png)|![Heebo_300Light](./Heebo_300Light.ttf.png)|![Heebo_400Regular](./Heebo_400Regular.ttf.png)||
+|![Heebo_500Medium](./Heebo_500Medium.ttf.png)|![Heebo_700Bold](./Heebo_700Bold.ttf.png)|![Heebo_800ExtraBold](./Heebo_800ExtraBold.ttf.png)||
+|![Heebo_900Black](./Heebo_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

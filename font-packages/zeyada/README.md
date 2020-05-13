@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Zeyada_400Regular
-![Zeyada_400Regular](./Zeyada_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Zeyada_400Regular](./Zeyada_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

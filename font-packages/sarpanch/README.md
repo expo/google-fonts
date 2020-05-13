@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sarpanch_400Regular
-![Sarpanch_400Regular](./Sarpanch_400Regular.ttf.png)
 
-##### Sarpanch_500Medium
-![Sarpanch_500Medium](./Sarpanch_500Medium.ttf.png)
-
-##### Sarpanch_600SemiBold
-![Sarpanch_600SemiBold](./Sarpanch_600SemiBold.ttf.png)
-
-##### Sarpanch_700Bold
-![Sarpanch_700Bold](./Sarpanch_700Bold.ttf.png)
-
-##### Sarpanch_800ExtraBold
-![Sarpanch_800ExtraBold](./Sarpanch_800ExtraBold.ttf.png)
-
-##### Sarpanch_900Black
-![Sarpanch_900Black](./Sarpanch_900Black.ttf.png)
+||||
+|-|-|-|
+|![Sarpanch_400Regular](./Sarpanch_400Regular.ttf.png)|![Sarpanch_500Medium](./Sarpanch_500Medium.ttf.png)|![Sarpanch_600SemiBold](./Sarpanch_600SemiBold.ttf.png)||
+|![Sarpanch_700Bold](./Sarpanch_700Bold.ttf.png)|![Sarpanch_800ExtraBold](./Sarpanch_800ExtraBold.ttf.png)|![Sarpanch_900Black](./Sarpanch_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

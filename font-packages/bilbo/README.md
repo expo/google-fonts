@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Bilbo_400Regular
-![Bilbo_400Regular](./Bilbo_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Bilbo_400Regular](./Bilbo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NovaRound_400Regular
-![NovaRound_400Regular](./NovaRound_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![NovaRound_400Regular](./NovaRound_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

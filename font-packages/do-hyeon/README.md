@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DoHyeon_400Regular
-![DoHyeon_400Regular](./DoHyeon_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![DoHyeon_400Regular](./DoHyeon_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

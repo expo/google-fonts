@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MrsSheppards_400Regular
-![MrsSheppards_400Regular](./MrsSheppards_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MrsSheppards_400Regular](./MrsSheppards_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

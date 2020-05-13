@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Scheherazade_400Regular
-![Scheherazade_400Regular](./Scheherazade_400Regular.ttf.png)
 
-##### Scheherazade_700Bold
-![Scheherazade_700Bold](./Scheherazade_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Scheherazade_400Regular](./Scheherazade_400Regular.ttf.png)|![Scheherazade_700Bold](./Scheherazade_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

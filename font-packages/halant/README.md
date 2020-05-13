@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Halant_300Light
-![Halant_300Light](./Halant_300Light.ttf.png)
 
-##### Halant_400Regular
-![Halant_400Regular](./Halant_400Regular.ttf.png)
-
-##### Halant_500Medium
-![Halant_500Medium](./Halant_500Medium.ttf.png)
-
-##### Halant_600SemiBold
-![Halant_600SemiBold](./Halant_600SemiBold.ttf.png)
-
-##### Halant_700Bold
-![Halant_700Bold](./Halant_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Halant_300Light](./Halant_300Light.ttf.png)|![Halant_400Regular](./Halant_400Regular.ttf.png)|![Halant_500Medium](./Halant_500Medium.ttf.png)||
+|![Halant_600SemiBold](./Halant_600SemiBold.ttf.png)|![Halant_700Bold](./Halant_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

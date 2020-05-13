@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Mansalva_400Regular
-![Mansalva_400Regular](./Mansalva_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Mansalva_400Regular](./Mansalva_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

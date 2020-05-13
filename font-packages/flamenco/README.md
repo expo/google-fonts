@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Flamenco_300Light
-![Flamenco_300Light](./Flamenco_300Light.ttf.png)
 
-##### Flamenco_400Regular
-![Flamenco_400Regular](./Flamenco_400Regular.ttf.png)
+||||
+|-|-|-|
+|![Flamenco_300Light](./Flamenco_300Light.ttf.png)|![Flamenco_400Regular](./Flamenco_400Regular.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

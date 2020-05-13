@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gugi_400Regular
-![Gugi_400Regular](./Gugi_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Gugi_400Regular](./Gugi_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

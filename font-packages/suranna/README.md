@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Suranna_400Regular
-![Suranna_400Regular](./Suranna_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Suranna_400Regular](./Suranna_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

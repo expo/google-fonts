@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Lemon_400Regular
-![Lemon_400Regular](./Lemon_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Lemon_400Regular](./Lemon_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Lobster_400Regular
-![Lobster_400Regular](./Lobster_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Lobster_400Regular](./Lobster_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

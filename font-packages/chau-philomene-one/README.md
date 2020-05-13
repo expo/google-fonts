@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ChauPhilomeneOne_400Regular
-![ChauPhilomeneOne_400Regular](./ChauPhilomeneOne_400Regular.ttf.png)
 
-##### ChauPhilomeneOne_400Regular_Italic
-![ChauPhilomeneOne_400Regular_Italic](./ChauPhilomeneOne_400Regular_Italic.ttf.png)
+||||
+|-|-|-|
+|![ChauPhilomeneOne_400Regular](./ChauPhilomeneOne_400Regular.ttf.png)|![ChauPhilomeneOne_400Regular_Italic](./ChauPhilomeneOne_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

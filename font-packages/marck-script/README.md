@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MarckScript_400Regular
-![MarckScript_400Regular](./MarckScript_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MarckScript_400Regular](./MarckScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -64,8 +64,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### WaitingfortheSunrise_400Regular
-![WaitingfortheSunrise_400Regular](./WaitingfortheSunrise_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![WaitingfortheSunrise_400Regular](./WaitingfortheSunrise_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

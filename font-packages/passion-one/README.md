@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PassionOne_400Regular
-![PassionOne_400Regular](./PassionOne_400Regular.ttf.png)
 
-##### PassionOne_700Bold
-![PassionOne_700Bold](./PassionOne_700Bold.ttf.png)
-
-##### PassionOne_900Black
-![PassionOne_900Black](./PassionOne_900Black.ttf.png)
+||||
+|-|-|-|
+|![PassionOne_400Regular](./PassionOne_400Regular.ttf.png)|![PassionOne_700Bold](./PassionOne_700Bold.ttf.png)|![PassionOne_900Black](./PassionOne_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

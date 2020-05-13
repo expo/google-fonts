@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rationale_400Regular
-![Rationale_400Regular](./Rationale_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Rationale_400Regular](./Rationale_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

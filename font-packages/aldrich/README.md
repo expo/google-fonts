@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Aldrich_400Regular
-![Aldrich_400Regular](./Aldrich_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Aldrich_400Regular](./Aldrich_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

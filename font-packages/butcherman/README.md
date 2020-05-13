@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Butcherman_400Regular
-![Butcherman_400Regular](./Butcherman_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Butcherman_400Regular](./Butcherman_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

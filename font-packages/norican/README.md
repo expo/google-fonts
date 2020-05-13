@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Norican_400Regular
-![Norican_400Regular](./Norican_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Norican_400Regular](./Norican_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

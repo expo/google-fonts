@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Arimo_400Regular
-![Arimo_400Regular](./Arimo_400Regular.ttf.png)
 
-##### Arimo_400Regular_Italic
-![Arimo_400Regular_Italic](./Arimo_400Regular_Italic.ttf.png)
-
-##### Arimo_700Bold
-![Arimo_700Bold](./Arimo_700Bold.ttf.png)
-
-##### Arimo_700Bold_Italic
-![Arimo_700Bold_Italic](./Arimo_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Arimo_400Regular](./Arimo_400Regular.ttf.png)|![Arimo_400Regular_Italic](./Arimo_400Regular_Italic.ttf.png)|![Arimo_700Bold](./Arimo_700Bold.ttf.png)||
+|![Arimo_700Bold_Italic](./Arimo_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

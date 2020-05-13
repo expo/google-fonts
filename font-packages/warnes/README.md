@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Warnes_400Regular
-![Warnes_400Regular](./Warnes_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Warnes_400Regular](./Warnes_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

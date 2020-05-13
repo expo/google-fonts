@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CantataOne_400Regular
-![CantataOne_400Regular](./CantataOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![CantataOne_400Regular](./CantataOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

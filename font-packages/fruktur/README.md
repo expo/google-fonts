@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Fruktur_400Regular
-![Fruktur_400Regular](./Fruktur_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Fruktur_400Regular](./Fruktur_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

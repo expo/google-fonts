@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MiriamLibre_400Regular
-![MiriamLibre_400Regular](./MiriamLibre_400Regular.ttf.png)
 
-##### MiriamLibre_700Bold
-![MiriamLibre_700Bold](./MiriamLibre_700Bold.ttf.png)
+||||
+|-|-|-|
+|![MiriamLibre_400Regular](./MiriamLibre_400Regular.ttf.png)|![MiriamLibre_700Bold](./MiriamLibre_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

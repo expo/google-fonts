@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Kalam_300Light
-![Kalam_300Light](./Kalam_300Light.ttf.png)
 
-##### Kalam_400Regular
-![Kalam_400Regular](./Kalam_400Regular.ttf.png)
-
-##### Kalam_700Bold
-![Kalam_700Bold](./Kalam_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Kalam_300Light](./Kalam_300Light.ttf.png)|![Kalam_400Regular](./Kalam_400Regular.ttf.png)|![Kalam_700Bold](./Kalam_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

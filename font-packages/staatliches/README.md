@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Staatliches_400Regular
-![Staatliches_400Regular](./Staatliches_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Staatliches_400Regular](./Staatliches_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

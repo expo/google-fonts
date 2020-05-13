@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DMSans_400Regular
-![DMSans_400Regular](./DMSans_400Regular.ttf.png)
 
-##### DMSans_400Regular_Italic
-![DMSans_400Regular_Italic](./DMSans_400Regular_Italic.ttf.png)
-
-##### DMSans_500Medium
-![DMSans_500Medium](./DMSans_500Medium.ttf.png)
-
-##### DMSans_500Medium_Italic
-![DMSans_500Medium_Italic](./DMSans_500Medium_Italic.ttf.png)
-
-##### DMSans_700Bold
-![DMSans_700Bold](./DMSans_700Bold.ttf.png)
-
-##### DMSans_700Bold_Italic
-![DMSans_700Bold_Italic](./DMSans_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![DMSans_400Regular](./DMSans_400Regular.ttf.png)|![DMSans_400Regular_Italic](./DMSans_400Regular_Italic.ttf.png)|![DMSans_500Medium](./DMSans_500Medium.ttf.png)||
+|![DMSans_500Medium_Italic](./DMSans_500Medium_Italic.ttf.png)|![DMSans_700Bold](./DMSans_700Bold.ttf.png)|![DMSans_700Bold_Italic](./DMSans_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

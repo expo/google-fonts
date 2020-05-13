@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Chango_400Regular
-![Chango_400Regular](./Chango_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Chango_400Regular](./Chango_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

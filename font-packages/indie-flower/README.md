@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IndieFlower_400Regular
-![IndieFlower_400Regular](./IndieFlower_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![IndieFlower_400Regular](./IndieFlower_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BreeSerif_400Regular
-![BreeSerif_400Regular](./BreeSerif_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![BreeSerif_400Regular](./BreeSerif_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

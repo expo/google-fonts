@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SpecialElite_400Regular
-![SpecialElite_400Regular](./SpecialElite_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![SpecialElite_400Regular](./SpecialElite_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

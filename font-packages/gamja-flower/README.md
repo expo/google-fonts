@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GamjaFlower_400Regular
-![GamjaFlower_400Regular](./GamjaFlower_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![GamjaFlower_400Regular](./GamjaFlower_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

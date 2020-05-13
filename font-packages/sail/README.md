@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sail_400Regular
-![Sail_400Regular](./Sail_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Sail_400Regular](./Sail_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

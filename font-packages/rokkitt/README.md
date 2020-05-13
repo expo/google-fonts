@@ -168,32 +168,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rokkitt_100Thin
-![Rokkitt_100Thin](./Rokkitt_100Thin.ttf.png)
 
-##### Rokkitt_200ExtraLight
-![Rokkitt_200ExtraLight](./Rokkitt_200ExtraLight.ttf.png)
-
-##### Rokkitt_300Light
-![Rokkitt_300Light](./Rokkitt_300Light.ttf.png)
-
-##### Rokkitt_400Regular
-![Rokkitt_400Regular](./Rokkitt_400Regular.ttf.png)
-
-##### Rokkitt_500Medium
-![Rokkitt_500Medium](./Rokkitt_500Medium.ttf.png)
-
-##### Rokkitt_600SemiBold
-![Rokkitt_600SemiBold](./Rokkitt_600SemiBold.ttf.png)
-
-##### Rokkitt_700Bold
-![Rokkitt_700Bold](./Rokkitt_700Bold.ttf.png)
-
-##### Rokkitt_800ExtraBold
-![Rokkitt_800ExtraBold](./Rokkitt_800ExtraBold.ttf.png)
-
-##### Rokkitt_900Black
-![Rokkitt_900Black](./Rokkitt_900Black.ttf.png)
+||||
+|-|-|-|
+|![Rokkitt_100Thin](./Rokkitt_100Thin.ttf.png)|![Rokkitt_200ExtraLight](./Rokkitt_200ExtraLight.ttf.png)|![Rokkitt_300Light](./Rokkitt_300Light.ttf.png)||
+|![Rokkitt_400Regular](./Rokkitt_400Regular.ttf.png)|![Rokkitt_500Medium](./Rokkitt_500Medium.ttf.png)|![Rokkitt_600SemiBold](./Rokkitt_600SemiBold.ttf.png)||
+|![Rokkitt_700Bold](./Rokkitt_700Bold.ttf.png)|![Rokkitt_800ExtraBold](./Rokkitt_800ExtraBold.ttf.png)|![Rokkitt_900Black](./Rokkitt_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

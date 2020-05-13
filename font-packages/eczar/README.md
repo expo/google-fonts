@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Eczar_400Regular
-![Eczar_400Regular](./Eczar_400Regular.ttf.png)
 
-##### Eczar_500Medium
-![Eczar_500Medium](./Eczar_500Medium.ttf.png)
-
-##### Eczar_600SemiBold
-![Eczar_600SemiBold](./Eczar_600SemiBold.ttf.png)
-
-##### Eczar_700Bold
-![Eczar_700Bold](./Eczar_700Bold.ttf.png)
-
-##### Eczar_800ExtraBold
-![Eczar_800ExtraBold](./Eczar_800ExtraBold.ttf.png)
+||||
+|-|-|-|
+|![Eczar_400Regular](./Eczar_400Regular.ttf.png)|![Eczar_500Medium](./Eczar_500Medium.ttf.png)|![Eczar_600SemiBold](./Eczar_600SemiBold.ttf.png)||
+|![Eczar_700Bold](./Eczar_700Bold.ttf.png)|![Eczar_800ExtraBold](./Eczar_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

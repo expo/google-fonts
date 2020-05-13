@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ReenieBeanie_400Regular
-![ReenieBeanie_400Regular](./ReenieBeanie_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![ReenieBeanie_400Regular](./ReenieBeanie_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

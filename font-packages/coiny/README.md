@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Coiny_400Regular
-![Coiny_400Regular](./Coiny_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Coiny_400Regular](./Coiny_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

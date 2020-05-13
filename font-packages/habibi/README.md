@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Habibi_400Regular
-![Habibi_400Regular](./Habibi_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Habibi_400Regular](./Habibi_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

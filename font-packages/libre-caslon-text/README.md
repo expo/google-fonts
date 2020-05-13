@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LibreCaslonText_400Regular
-![LibreCaslonText_400Regular](./LibreCaslonText_400Regular.ttf.png)
 
-##### LibreCaslonText_400Regular_Italic
-![LibreCaslonText_400Regular_Italic](./LibreCaslonText_400Regular_Italic.ttf.png)
-
-##### LibreCaslonText_700Bold
-![LibreCaslonText_700Bold](./LibreCaslonText_700Bold.ttf.png)
+||||
+|-|-|-|
+|![LibreCaslonText_400Regular](./LibreCaslonText_400Regular.ttf.png)|![LibreCaslonText_400Regular_Italic](./LibreCaslonText_400Regular_Italic.ttf.png)|![LibreCaslonText_700Bold](./LibreCaslonText_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

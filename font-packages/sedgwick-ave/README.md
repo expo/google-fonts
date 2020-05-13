@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SedgwickAve_400Regular
-![SedgwickAve_400Regular](./SedgwickAve_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![SedgwickAve_400Regular](./SedgwickAve_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

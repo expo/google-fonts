@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Bokor_400Regular
-![Bokor_400Regular](./Bokor_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Bokor_400Regular](./Bokor_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

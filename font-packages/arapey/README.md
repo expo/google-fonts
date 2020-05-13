@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Arapey_400Regular
-![Arapey_400Regular](./Arapey_400Regular.ttf.png)
 
-##### Arapey_400Regular_Italic
-![Arapey_400Regular_Italic](./Arapey_400Regular_Italic.ttf.png)
+||||
+|-|-|-|
+|![Arapey_400Regular](./Arapey_400Regular.ttf.png)|![Arapey_400Regular_Italic](./Arapey_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

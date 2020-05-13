@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CinzelDecorative_400Regular
-![CinzelDecorative_400Regular](./CinzelDecorative_400Regular.ttf.png)
 
-##### CinzelDecorative_700Bold
-![CinzelDecorative_700Bold](./CinzelDecorative_700Bold.ttf.png)
-
-##### CinzelDecorative_900Black
-![CinzelDecorative_900Black](./CinzelDecorative_900Black.ttf.png)
+||||
+|-|-|-|
+|![CinzelDecorative_400Regular](./CinzelDecorative_400Regular.ttf.png)|![CinzelDecorative_700Bold](./CinzelDecorative_700Bold.ttf.png)|![CinzelDecorative_900Black](./CinzelDecorative_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

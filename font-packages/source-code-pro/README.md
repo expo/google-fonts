@@ -233,47 +233,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SourceCodePro_200ExtraLight
-![SourceCodePro_200ExtraLight](./SourceCodePro_200ExtraLight.ttf.png)
 
-##### SourceCodePro_200ExtraLight_Italic
-![SourceCodePro_200ExtraLight_Italic](./SourceCodePro_200ExtraLight_Italic.ttf.png)
-
-##### SourceCodePro_300Light
-![SourceCodePro_300Light](./SourceCodePro_300Light.ttf.png)
-
-##### SourceCodePro_300Light_Italic
-![SourceCodePro_300Light_Italic](./SourceCodePro_300Light_Italic.ttf.png)
-
-##### SourceCodePro_400Regular
-![SourceCodePro_400Regular](./SourceCodePro_400Regular.ttf.png)
-
-##### SourceCodePro_400Regular_Italic
-![SourceCodePro_400Regular_Italic](./SourceCodePro_400Regular_Italic.ttf.png)
-
-##### SourceCodePro_500Medium
-![SourceCodePro_500Medium](./SourceCodePro_500Medium.ttf.png)
-
-##### SourceCodePro_500Medium_Italic
-![SourceCodePro_500Medium_Italic](./SourceCodePro_500Medium_Italic.ttf.png)
-
-##### SourceCodePro_600SemiBold
-![SourceCodePro_600SemiBold](./SourceCodePro_600SemiBold.ttf.png)
-
-##### SourceCodePro_600SemiBold_Italic
-![SourceCodePro_600SemiBold_Italic](./SourceCodePro_600SemiBold_Italic.ttf.png)
-
-##### SourceCodePro_700Bold
-![SourceCodePro_700Bold](./SourceCodePro_700Bold.ttf.png)
-
-##### SourceCodePro_700Bold_Italic
-![SourceCodePro_700Bold_Italic](./SourceCodePro_700Bold_Italic.ttf.png)
-
-##### SourceCodePro_900Black
-![SourceCodePro_900Black](./SourceCodePro_900Black.ttf.png)
-
-##### SourceCodePro_900Black_Italic
-![SourceCodePro_900Black_Italic](./SourceCodePro_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![SourceCodePro_200ExtraLight](./SourceCodePro_200ExtraLight.ttf.png)|![SourceCodePro_200ExtraLight_Italic](./SourceCodePro_200ExtraLight_Italic.ttf.png)|![SourceCodePro_300Light](./SourceCodePro_300Light.ttf.png)||
+|![SourceCodePro_300Light_Italic](./SourceCodePro_300Light_Italic.ttf.png)|![SourceCodePro_400Regular](./SourceCodePro_400Regular.ttf.png)|![SourceCodePro_400Regular_Italic](./SourceCodePro_400Regular_Italic.ttf.png)||
+|![SourceCodePro_500Medium](./SourceCodePro_500Medium.ttf.png)|![SourceCodePro_500Medium_Italic](./SourceCodePro_500Medium_Italic.ttf.png)|![SourceCodePro_600SemiBold](./SourceCodePro_600SemiBold.ttf.png)||
+|![SourceCodePro_600SemiBold_Italic](./SourceCodePro_600SemiBold_Italic.ttf.png)|![SourceCodePro_700Bold](./SourceCodePro_700Bold.ttf.png)|![SourceCodePro_700Bold_Italic](./SourceCodePro_700Bold_Italic.ttf.png)||
+|![SourceCodePro_900Black](./SourceCodePro_900Black.ttf.png)|![SourceCodePro_900Black_Italic](./SourceCodePro_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

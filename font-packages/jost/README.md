@@ -285,59 +285,15 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Jost_100Thin
-![Jost_100Thin](./Jost_100Thin.ttf.png)
 
-##### Jost_200ExtraLight
-![Jost_200ExtraLight](./Jost_200ExtraLight.ttf.png)
-
-##### Jost_300Light
-![Jost_300Light](./Jost_300Light.ttf.png)
-
-##### Jost_400Regular
-![Jost_400Regular](./Jost_400Regular.ttf.png)
-
-##### Jost_500Medium
-![Jost_500Medium](./Jost_500Medium.ttf.png)
-
-##### Jost_600SemiBold
-![Jost_600SemiBold](./Jost_600SemiBold.ttf.png)
-
-##### Jost_700Bold
-![Jost_700Bold](./Jost_700Bold.ttf.png)
-
-##### Jost_800ExtraBold
-![Jost_800ExtraBold](./Jost_800ExtraBold.ttf.png)
-
-##### Jost_900Black
-![Jost_900Black](./Jost_900Black.ttf.png)
-
-##### Jost_100Thin_Italic
-![Jost_100Thin_Italic](./Jost_100Thin_Italic.ttf.png)
-
-##### Jost_200ExtraLight_Italic
-![Jost_200ExtraLight_Italic](./Jost_200ExtraLight_Italic.ttf.png)
-
-##### Jost_300Light_Italic
-![Jost_300Light_Italic](./Jost_300Light_Italic.ttf.png)
-
-##### Jost_400Regular_Italic
-![Jost_400Regular_Italic](./Jost_400Regular_Italic.ttf.png)
-
-##### Jost_500Medium_Italic
-![Jost_500Medium_Italic](./Jost_500Medium_Italic.ttf.png)
-
-##### Jost_600SemiBold_Italic
-![Jost_600SemiBold_Italic](./Jost_600SemiBold_Italic.ttf.png)
-
-##### Jost_700Bold_Italic
-![Jost_700Bold_Italic](./Jost_700Bold_Italic.ttf.png)
-
-##### Jost_800ExtraBold_Italic
-![Jost_800ExtraBold_Italic](./Jost_800ExtraBold_Italic.ttf.png)
-
-##### Jost_900Black_Italic
-![Jost_900Black_Italic](./Jost_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![Jost_100Thin](./Jost_100Thin.ttf.png)|![Jost_200ExtraLight](./Jost_200ExtraLight.ttf.png)|![Jost_300Light](./Jost_300Light.ttf.png)||
+|![Jost_400Regular](./Jost_400Regular.ttf.png)|![Jost_500Medium](./Jost_500Medium.ttf.png)|![Jost_600SemiBold](./Jost_600SemiBold.ttf.png)||
+|![Jost_700Bold](./Jost_700Bold.ttf.png)|![Jost_800ExtraBold](./Jost_800ExtraBold.ttf.png)|![Jost_900Black](./Jost_900Black.ttf.png)||
+|![Jost_100Thin_Italic](./Jost_100Thin_Italic.ttf.png)|![Jost_200ExtraLight_Italic](./Jost_200ExtraLight_Italic.ttf.png)|![Jost_300Light_Italic](./Jost_300Light_Italic.ttf.png)||
+|![Jost_400Regular_Italic](./Jost_400Regular_Italic.ttf.png)|![Jost_500Medium_Italic](./Jost_500Medium_Italic.ttf.png)|![Jost_600SemiBold_Italic](./Jost_600SemiBold_Italic.ttf.png)||
+|![Jost_700Bold_Italic](./Jost_700Bold_Italic.ttf.png)|![Jost_800ExtraBold_Italic](./Jost_800ExtraBold_Italic.ttf.png)|![Jost_900Black_Italic](./Jost_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

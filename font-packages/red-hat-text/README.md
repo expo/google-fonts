@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RedHatText_400Regular
-![RedHatText_400Regular](./RedHatText_400Regular.ttf.png)
 
-##### RedHatText_400Regular_Italic
-![RedHatText_400Regular_Italic](./RedHatText_400Regular_Italic.ttf.png)
-
-##### RedHatText_500Medium
-![RedHatText_500Medium](./RedHatText_500Medium.ttf.png)
-
-##### RedHatText_500Medium_Italic
-![RedHatText_500Medium_Italic](./RedHatText_500Medium_Italic.ttf.png)
-
-##### RedHatText_700Bold
-![RedHatText_700Bold](./RedHatText_700Bold.ttf.png)
-
-##### RedHatText_700Bold_Italic
-![RedHatText_700Bold_Italic](./RedHatText_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![RedHatText_400Regular](./RedHatText_400Regular.ttf.png)|![RedHatText_400Regular_Italic](./RedHatText_400Regular_Italic.ttf.png)|![RedHatText_500Medium](./RedHatText_500Medium.ttf.png)||
+|![RedHatText_500Medium_Italic](./RedHatText_500Medium_Italic.ttf.png)|![RedHatText_700Bold](./RedHatText_700Bold.ttf.png)|![RedHatText_700Bold_Italic](./RedHatText_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

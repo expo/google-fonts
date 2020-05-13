@@ -285,59 +285,15 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Exo_100Thin
-![Exo_100Thin](./Exo_100Thin.ttf.png)
 
-##### Exo_200ExtraLight
-![Exo_200ExtraLight](./Exo_200ExtraLight.ttf.png)
-
-##### Exo_300Light
-![Exo_300Light](./Exo_300Light.ttf.png)
-
-##### Exo_400Regular
-![Exo_400Regular](./Exo_400Regular.ttf.png)
-
-##### Exo_500Medium
-![Exo_500Medium](./Exo_500Medium.ttf.png)
-
-##### Exo_600SemiBold
-![Exo_600SemiBold](./Exo_600SemiBold.ttf.png)
-
-##### Exo_700Bold
-![Exo_700Bold](./Exo_700Bold.ttf.png)
-
-##### Exo_800ExtraBold
-![Exo_800ExtraBold](./Exo_800ExtraBold.ttf.png)
-
-##### Exo_900Black
-![Exo_900Black](./Exo_900Black.ttf.png)
-
-##### Exo_100Thin_Italic
-![Exo_100Thin_Italic](./Exo_100Thin_Italic.ttf.png)
-
-##### Exo_200ExtraLight_Italic
-![Exo_200ExtraLight_Italic](./Exo_200ExtraLight_Italic.ttf.png)
-
-##### Exo_300Light_Italic
-![Exo_300Light_Italic](./Exo_300Light_Italic.ttf.png)
-
-##### Exo_400Regular_Italic
-![Exo_400Regular_Italic](./Exo_400Regular_Italic.ttf.png)
-
-##### Exo_500Medium_Italic
-![Exo_500Medium_Italic](./Exo_500Medium_Italic.ttf.png)
-
-##### Exo_600SemiBold_Italic
-![Exo_600SemiBold_Italic](./Exo_600SemiBold_Italic.ttf.png)
-
-##### Exo_700Bold_Italic
-![Exo_700Bold_Italic](./Exo_700Bold_Italic.ttf.png)
-
-##### Exo_800ExtraBold_Italic
-![Exo_800ExtraBold_Italic](./Exo_800ExtraBold_Italic.ttf.png)
-
-##### Exo_900Black_Italic
-![Exo_900Black_Italic](./Exo_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![Exo_100Thin](./Exo_100Thin.ttf.png)|![Exo_200ExtraLight](./Exo_200ExtraLight.ttf.png)|![Exo_300Light](./Exo_300Light.ttf.png)||
+|![Exo_400Regular](./Exo_400Regular.ttf.png)|![Exo_500Medium](./Exo_500Medium.ttf.png)|![Exo_600SemiBold](./Exo_600SemiBold.ttf.png)||
+|![Exo_700Bold](./Exo_700Bold.ttf.png)|![Exo_800ExtraBold](./Exo_800ExtraBold.ttf.png)|![Exo_900Black](./Exo_900Black.ttf.png)||
+|![Exo_100Thin_Italic](./Exo_100Thin_Italic.ttf.png)|![Exo_200ExtraLight_Italic](./Exo_200ExtraLight_Italic.ttf.png)|![Exo_300Light_Italic](./Exo_300Light_Italic.ttf.png)||
+|![Exo_400Regular_Italic](./Exo_400Regular_Italic.ttf.png)|![Exo_500Medium_Italic](./Exo_500Medium_Italic.ttf.png)|![Exo_600SemiBold_Italic](./Exo_600SemiBold_Italic.ttf.png)||
+|![Exo_700Bold_Italic](./Exo_700Bold_Italic.ttf.png)|![Exo_800ExtraBold_Italic](./Exo_800ExtraBold_Italic.ttf.png)|![Exo_900Black_Italic](./Exo_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

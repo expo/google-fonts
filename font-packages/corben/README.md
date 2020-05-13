@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Corben_400Regular
-![Corben_400Regular](./Corben_400Regular.ttf.png)
 
-##### Corben_700Bold
-![Corben_700Bold](./Corben_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Corben_400Regular](./Corben_400Regular.ttf.png)|![Corben_700Bold](./Corben_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

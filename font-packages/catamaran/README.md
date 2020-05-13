@@ -168,32 +168,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Catamaran_100Thin
-![Catamaran_100Thin](./Catamaran_100Thin.ttf.png)
 
-##### Catamaran_200ExtraLight
-![Catamaran_200ExtraLight](./Catamaran_200ExtraLight.ttf.png)
-
-##### Catamaran_300Light
-![Catamaran_300Light](./Catamaran_300Light.ttf.png)
-
-##### Catamaran_400Regular
-![Catamaran_400Regular](./Catamaran_400Regular.ttf.png)
-
-##### Catamaran_500Medium
-![Catamaran_500Medium](./Catamaran_500Medium.ttf.png)
-
-##### Catamaran_600SemiBold
-![Catamaran_600SemiBold](./Catamaran_600SemiBold.ttf.png)
-
-##### Catamaran_700Bold
-![Catamaran_700Bold](./Catamaran_700Bold.ttf.png)
-
-##### Catamaran_800ExtraBold
-![Catamaran_800ExtraBold](./Catamaran_800ExtraBold.ttf.png)
-
-##### Catamaran_900Black
-![Catamaran_900Black](./Catamaran_900Black.ttf.png)
+||||
+|-|-|-|
+|![Catamaran_100Thin](./Catamaran_100Thin.ttf.png)|![Catamaran_200ExtraLight](./Catamaran_200ExtraLight.ttf.png)|![Catamaran_300Light](./Catamaran_300Light.ttf.png)||
+|![Catamaran_400Regular](./Catamaran_400Regular.ttf.png)|![Catamaran_500Medium](./Catamaran_500Medium.ttf.png)|![Catamaran_600SemiBold](./Catamaran_600SemiBold.ttf.png)||
+|![Catamaran_700Bold](./Catamaran_700Bold.ttf.png)|![Catamaran_800ExtraBold](./Catamaran_800ExtraBold.ttf.png)|![Catamaran_900Black](./Catamaran_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

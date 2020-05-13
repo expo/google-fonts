@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Bungee_400Regular
-![Bungee_400Regular](./Bungee_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Bungee_400Regular](./Bungee_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

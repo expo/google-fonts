@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Arbutus_400Regular
-![Arbutus_400Regular](./Arbutus_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Arbutus_400Regular](./Arbutus_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ShortStack_400Regular
-![ShortStack_400Regular](./ShortStack_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![ShortStack_400Regular](./ShortStack_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

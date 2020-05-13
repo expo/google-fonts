@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### WalterTurncoat_400Regular
-![WalterTurncoat_400Regular](./WalterTurncoat_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![WalterTurncoat_400Regular](./WalterTurncoat_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

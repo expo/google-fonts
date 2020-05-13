@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LilyScriptOne_400Regular
-![LilyScriptOne_400Regular](./LilyScriptOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![LilyScriptOne_400Regular](./LilyScriptOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

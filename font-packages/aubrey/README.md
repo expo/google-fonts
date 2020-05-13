@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Aubrey_400Regular
-![Aubrey_400Regular](./Aubrey_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Aubrey_400Regular](./Aubrey_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

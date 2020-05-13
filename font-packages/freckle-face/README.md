@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FreckleFace_400Regular
-![FreckleFace_400Regular](./FreckleFace_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![FreckleFace_400Regular](./FreckleFace_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

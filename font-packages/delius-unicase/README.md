@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DeliusUnicase_400Regular
-![DeliusUnicase_400Regular](./DeliusUnicase_400Regular.ttf.png)
 
-##### DeliusUnicase_700Bold
-![DeliusUnicase_700Bold](./DeliusUnicase_700Bold.ttf.png)
+||||
+|-|-|-|
+|![DeliusUnicase_400Regular](./DeliusUnicase_400Regular.ttf.png)|![DeliusUnicase_700Bold](./DeliusUnicase_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

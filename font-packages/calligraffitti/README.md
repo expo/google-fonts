@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Calligraffitti_400Regular
-![Calligraffitti_400Regular](./Calligraffitti_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Calligraffitti_400Regular](./Calligraffitti_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

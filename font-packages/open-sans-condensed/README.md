@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### OpenSansCondensed_300Light
-![OpenSansCondensed_300Light](./OpenSansCondensed_300Light.ttf.png)
 
-##### OpenSansCondensed_300Light_Italic
-![OpenSansCondensed_300Light_Italic](./OpenSansCondensed_300Light_Italic.ttf.png)
-
-##### OpenSansCondensed_700Bold
-![OpenSansCondensed_700Bold](./OpenSansCondensed_700Bold.ttf.png)
+||||
+|-|-|-|
+|![OpenSansCondensed_300Light](./OpenSansCondensed_300Light.ttf.png)|![OpenSansCondensed_300Light_Italic](./OpenSansCondensed_300Light_Italic.ttf.png)|![OpenSansCondensed_700Bold](./OpenSansCondensed_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

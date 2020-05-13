@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NTR_400Regular
-![NTR_400Regular](./NTR_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![NTR_400Regular](./NTR_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

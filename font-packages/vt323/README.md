@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### VT323_400Regular
-![VT323_400Regular](./VT323_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![VT323_400Regular](./VT323_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

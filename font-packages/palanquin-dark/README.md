@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PalanquinDark_400Regular
-![PalanquinDark_400Regular](./PalanquinDark_400Regular.ttf.png)
 
-##### PalanquinDark_500Medium
-![PalanquinDark_500Medium](./PalanquinDark_500Medium.ttf.png)
-
-##### PalanquinDark_600SemiBold
-![PalanquinDark_600SemiBold](./PalanquinDark_600SemiBold.ttf.png)
-
-##### PalanquinDark_700Bold
-![PalanquinDark_700Bold](./PalanquinDark_700Bold.ttf.png)
+||||
+|-|-|-|
+|![PalanquinDark_400Regular](./PalanquinDark_400Regular.ttf.png)|![PalanquinDark_500Medium](./PalanquinDark_500Medium.ttf.png)|![PalanquinDark_600SemiBold](./PalanquinDark_600SemiBold.ttf.png)||
+|![PalanquinDark_700Bold](./PalanquinDark_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

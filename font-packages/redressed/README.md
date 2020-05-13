@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Redressed_400Regular
-![Redressed_400Regular](./Redressed_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Redressed_400Regular](./Redressed_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

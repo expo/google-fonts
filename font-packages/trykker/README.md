@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Trykker_400Regular
-![Trykker_400Regular](./Trykker_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Trykker_400Regular](./Trykker_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

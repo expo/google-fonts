@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Barriecito_400Regular
-![Barriecito_400Regular](./Barriecito_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Barriecito_400Regular](./Barriecito_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

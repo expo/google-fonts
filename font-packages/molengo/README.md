@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Molengo_400Regular
-![Molengo_400Regular](./Molengo_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Molengo_400Regular](./Molengo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

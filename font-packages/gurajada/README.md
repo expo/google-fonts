@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gurajada_400Regular
-![Gurajada_400Regular](./Gurajada_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Gurajada_400Regular](./Gurajada_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

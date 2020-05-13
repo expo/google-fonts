@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IbarraRealNova_400Regular
-![IbarraRealNova_400Regular](./IbarraRealNova_400Regular.ttf.png)
 
-##### IbarraRealNova_400Regular_Italic
-![IbarraRealNova_400Regular_Italic](./IbarraRealNova_400Regular_Italic.ttf.png)
-
-##### IbarraRealNova_600SemiBold
-![IbarraRealNova_600SemiBold](./IbarraRealNova_600SemiBold.ttf.png)
-
-##### IbarraRealNova_600SemiBold_Italic
-![IbarraRealNova_600SemiBold_Italic](./IbarraRealNova_600SemiBold_Italic.ttf.png)
-
-##### IbarraRealNova_700Bold
-![IbarraRealNova_700Bold](./IbarraRealNova_700Bold.ttf.png)
-
-##### IbarraRealNova_700Bold_Italic
-![IbarraRealNova_700Bold_Italic](./IbarraRealNova_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![IbarraRealNova_400Regular](./IbarraRealNova_400Regular.ttf.png)|![IbarraRealNova_400Regular_Italic](./IbarraRealNova_400Regular_Italic.ttf.png)|![IbarraRealNova_600SemiBold](./IbarraRealNova_600SemiBold.ttf.png)||
+|![IbarraRealNova_600SemiBold_Italic](./IbarraRealNova_600SemiBold_Italic.ttf.png)|![IbarraRealNova_700Bold](./IbarraRealNova_700Bold.ttf.png)|![IbarraRealNova_700Bold_Italic](./IbarraRealNova_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

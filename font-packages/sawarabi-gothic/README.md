@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SawarabiGothic_400Regular
-![SawarabiGothic_400Regular](./SawarabiGothic_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![SawarabiGothic_400Regular](./SawarabiGothic_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

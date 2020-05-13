@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Amiri_400Regular
-![Amiri_400Regular](./Amiri_400Regular.ttf.png)
 
-##### Amiri_400Regular_Italic
-![Amiri_400Regular_Italic](./Amiri_400Regular_Italic.ttf.png)
-
-##### Amiri_700Bold
-![Amiri_700Bold](./Amiri_700Bold.ttf.png)
-
-##### Amiri_700Bold_Italic
-![Amiri_700Bold_Italic](./Amiri_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Amiri_400Regular](./Amiri_400Regular.ttf.png)|![Amiri_400Regular_Italic](./Amiri_400Regular_Italic.ttf.png)|![Amiri_700Bold](./Amiri_700Bold.ttf.png)||
+|![Amiri_700Bold_Italic](./Amiri_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

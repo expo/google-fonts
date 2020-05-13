@@ -168,32 +168,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Saira_100Thin
-![Saira_100Thin](./Saira_100Thin.ttf.png)
 
-##### Saira_200ExtraLight
-![Saira_200ExtraLight](./Saira_200ExtraLight.ttf.png)
-
-##### Saira_300Light
-![Saira_300Light](./Saira_300Light.ttf.png)
-
-##### Saira_400Regular
-![Saira_400Regular](./Saira_400Regular.ttf.png)
-
-##### Saira_500Medium
-![Saira_500Medium](./Saira_500Medium.ttf.png)
-
-##### Saira_600SemiBold
-![Saira_600SemiBold](./Saira_600SemiBold.ttf.png)
-
-##### Saira_700Bold
-![Saira_700Bold](./Saira_700Bold.ttf.png)
-
-##### Saira_800ExtraBold
-![Saira_800ExtraBold](./Saira_800ExtraBold.ttf.png)
-
-##### Saira_900Black
-![Saira_900Black](./Saira_900Black.ttf.png)
+||||
+|-|-|-|
+|![Saira_100Thin](./Saira_100Thin.ttf.png)|![Saira_200ExtraLight](./Saira_200ExtraLight.ttf.png)|![Saira_300Light](./Saira_300Light.ttf.png)||
+|![Saira_400Regular](./Saira_400Regular.ttf.png)|![Saira_500Medium](./Saira_500Medium.ttf.png)|![Saira_600SemiBold](./Saira_600SemiBold.ttf.png)||
+|![Saira_700Bold](./Saira_700Bold.ttf.png)|![Saira_800ExtraBold](./Saira_800ExtraBold.ttf.png)|![Saira_900Black](./Saira_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -142,26 +142,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MartelSans_200ExtraLight
-![MartelSans_200ExtraLight](./MartelSans_200ExtraLight.ttf.png)
 
-##### MartelSans_300Light
-![MartelSans_300Light](./MartelSans_300Light.ttf.png)
-
-##### MartelSans_400Regular
-![MartelSans_400Regular](./MartelSans_400Regular.ttf.png)
-
-##### MartelSans_600SemiBold
-![MartelSans_600SemiBold](./MartelSans_600SemiBold.ttf.png)
-
-##### MartelSans_700Bold
-![MartelSans_700Bold](./MartelSans_700Bold.ttf.png)
-
-##### MartelSans_800ExtraBold
-![MartelSans_800ExtraBold](./MartelSans_800ExtraBold.ttf.png)
-
-##### MartelSans_900Black
-![MartelSans_900Black](./MartelSans_900Black.ttf.png)
+||||
+|-|-|-|
+|![MartelSans_200ExtraLight](./MartelSans_200ExtraLight.ttf.png)|![MartelSans_300Light](./MartelSans_300Light.ttf.png)|![MartelSans_400Regular](./MartelSans_400Regular.ttf.png)||
+|![MartelSans_600SemiBold](./MartelSans_600SemiBold.ttf.png)|![MartelSans_700Bold](./MartelSans_700Bold.ttf.png)|![MartelSans_800ExtraBold](./MartelSans_800ExtraBold.ttf.png)||
+|![MartelSans_900Black](./MartelSans_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

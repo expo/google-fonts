@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sunshiney_400Regular
-![Sunshiney_400Regular](./Sunshiney_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Sunshiney_400Regular](./Sunshiney_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

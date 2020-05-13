@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### JotiOne_400Regular
-![JotiOne_400Regular](./JotiOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![JotiOne_400Regular](./JotiOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

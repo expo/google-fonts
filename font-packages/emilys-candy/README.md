@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### EmilysCandy_400Regular
-![EmilysCandy_400Regular](./EmilysCandy_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![EmilysCandy_400Regular](./EmilysCandy_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

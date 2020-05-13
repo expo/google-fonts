@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NovaScript_400Regular
-![NovaScript_400Regular](./NovaScript_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![NovaScript_400Regular](./NovaScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

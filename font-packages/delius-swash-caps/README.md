@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DeliusSwashCaps_400Regular
-![DeliusSwashCaps_400Regular](./DeliusSwashCaps_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![DeliusSwashCaps_400Regular](./DeliusSwashCaps_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

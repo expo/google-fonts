@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Chewy_400Regular
-![Chewy_400Regular](./Chewy_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Chewy_400Regular](./Chewy_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

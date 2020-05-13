@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Snippet_400Regular
-![Snippet_400Regular](./Snippet_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Snippet_400Regular](./Snippet_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

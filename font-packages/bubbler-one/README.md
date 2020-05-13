@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BubblerOne_400Regular
-![BubblerOne_400Regular](./BubblerOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![BubblerOne_400Regular](./BubblerOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

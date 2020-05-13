@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Oregano_400Regular
-![Oregano_400Regular](./Oregano_400Regular.ttf.png)
 
-##### Oregano_400Regular_Italic
-![Oregano_400Regular_Italic](./Oregano_400Regular_Italic.ttf.png)
+||||
+|-|-|-|
+|![Oregano_400Regular](./Oregano_400Regular.ttf.png)|![Oregano_400Regular_Italic](./Oregano_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

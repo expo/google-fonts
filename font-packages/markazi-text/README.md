@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MarkaziText_400Regular
-![MarkaziText_400Regular](./MarkaziText_400Regular.ttf.png)
 
-##### MarkaziText_500Medium
-![MarkaziText_500Medium](./MarkaziText_500Medium.ttf.png)
-
-##### MarkaziText_600SemiBold
-![MarkaziText_600SemiBold](./MarkaziText_600SemiBold.ttf.png)
-
-##### MarkaziText_700Bold
-![MarkaziText_700Bold](./MarkaziText_700Bold.ttf.png)
+||||
+|-|-|-|
+|![MarkaziText_400Regular](./MarkaziText_400Regular.ttf.png)|![MarkaziText_500Medium](./MarkaziText_500Medium.ttf.png)|![MarkaziText_600SemiBold](./MarkaziText_600SemiBold.ttf.png)||
+|![MarkaziText_700Bold](./MarkaziText_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

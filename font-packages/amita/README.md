@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Amita_400Regular
-![Amita_400Regular](./Amita_400Regular.ttf.png)
 
-##### Amita_700Bold
-![Amita_700Bold](./Amita_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Amita_400Regular](./Amita_400Regular.ttf.png)|![Amita_700Bold](./Amita_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

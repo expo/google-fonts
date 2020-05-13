@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### VastShadow_400Regular
-![VastShadow_400Regular](./VastShadow_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![VastShadow_400Regular](./VastShadow_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

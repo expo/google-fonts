@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### TulpenOne_400Regular
-![TulpenOne_400Regular](./TulpenOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![TulpenOne_400Regular](./TulpenOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

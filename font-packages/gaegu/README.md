@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gaegu_300Light
-![Gaegu_300Light](./Gaegu_300Light.ttf.png)
 
-##### Gaegu_400Regular
-![Gaegu_400Regular](./Gaegu_400Regular.ttf.png)
-
-##### Gaegu_700Bold
-![Gaegu_700Bold](./Gaegu_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Gaegu_300Light](./Gaegu_300Light.ttf.png)|![Gaegu_400Regular](./Gaegu_400Regular.ttf.png)|![Gaegu_700Bold](./Gaegu_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

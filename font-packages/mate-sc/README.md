@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MateSC_400Regular
-![MateSC_400Regular](./MateSC_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MateSC_400Regular](./MateSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

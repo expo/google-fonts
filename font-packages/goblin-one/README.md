@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GoblinOne_400Regular
-![GoblinOne_400Regular](./GoblinOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![GoblinOne_400Regular](./GoblinOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

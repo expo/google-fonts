@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ContrailOne_400Regular
-![ContrailOne_400Regular](./ContrailOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![ContrailOne_400Regular](./ContrailOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

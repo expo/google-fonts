@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CevicheOne_400Regular
-![CevicheOne_400Regular](./CevicheOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![CevicheOne_400Regular](./CevicheOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

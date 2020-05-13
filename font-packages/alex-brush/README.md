@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AlexBrush_400Regular
-![AlexBrush_400Regular](./AlexBrush_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![AlexBrush_400Regular](./AlexBrush_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

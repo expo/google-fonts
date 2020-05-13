@@ -233,47 +233,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Nunito_200ExtraLight
-![Nunito_200ExtraLight](./Nunito_200ExtraLight.ttf.png)
 
-##### Nunito_200ExtraLight_Italic
-![Nunito_200ExtraLight_Italic](./Nunito_200ExtraLight_Italic.ttf.png)
-
-##### Nunito_300Light
-![Nunito_300Light](./Nunito_300Light.ttf.png)
-
-##### Nunito_300Light_Italic
-![Nunito_300Light_Italic](./Nunito_300Light_Italic.ttf.png)
-
-##### Nunito_400Regular
-![Nunito_400Regular](./Nunito_400Regular.ttf.png)
-
-##### Nunito_400Regular_Italic
-![Nunito_400Regular_Italic](./Nunito_400Regular_Italic.ttf.png)
-
-##### Nunito_600SemiBold
-![Nunito_600SemiBold](./Nunito_600SemiBold.ttf.png)
-
-##### Nunito_600SemiBold_Italic
-![Nunito_600SemiBold_Italic](./Nunito_600SemiBold_Italic.ttf.png)
-
-##### Nunito_700Bold
-![Nunito_700Bold](./Nunito_700Bold.ttf.png)
-
-##### Nunito_700Bold_Italic
-![Nunito_700Bold_Italic](./Nunito_700Bold_Italic.ttf.png)
-
-##### Nunito_800ExtraBold
-![Nunito_800ExtraBold](./Nunito_800ExtraBold.ttf.png)
-
-##### Nunito_800ExtraBold_Italic
-![Nunito_800ExtraBold_Italic](./Nunito_800ExtraBold_Italic.ttf.png)
-
-##### Nunito_900Black
-![Nunito_900Black](./Nunito_900Black.ttf.png)
-
-##### Nunito_900Black_Italic
-![Nunito_900Black_Italic](./Nunito_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![Nunito_200ExtraLight](./Nunito_200ExtraLight.ttf.png)|![Nunito_200ExtraLight_Italic](./Nunito_200ExtraLight_Italic.ttf.png)|![Nunito_300Light](./Nunito_300Light.ttf.png)||
+|![Nunito_300Light_Italic](./Nunito_300Light_Italic.ttf.png)|![Nunito_400Regular](./Nunito_400Regular.ttf.png)|![Nunito_400Regular_Italic](./Nunito_400Regular_Italic.ttf.png)||
+|![Nunito_600SemiBold](./Nunito_600SemiBold.ttf.png)|![Nunito_600SemiBold_Italic](./Nunito_600SemiBold_Italic.ttf.png)|![Nunito_700Bold](./Nunito_700Bold.ttf.png)||
+|![Nunito_700Bold_Italic](./Nunito_700Bold_Italic.ttf.png)|![Nunito_800ExtraBold](./Nunito_800ExtraBold.ttf.png)|![Nunito_800ExtraBold_Italic](./Nunito_800ExtraBold_Italic.ttf.png)||
+|![Nunito_900Black](./Nunito_900Black.ttf.png)|![Nunito_900Black_Italic](./Nunito_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

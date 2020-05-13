@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Alef_400Regular
-![Alef_400Regular](./Alef_400Regular.ttf.png)
 
-##### Alef_700Bold
-![Alef_700Bold](./Alef_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Alef_400Regular](./Alef_400Regular.ttf.png)|![Alef_700Bold](./Alef_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

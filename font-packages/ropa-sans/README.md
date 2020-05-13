@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RopaSans_400Regular
-![RopaSans_400Regular](./RopaSans_400Regular.ttf.png)
 
-##### RopaSans_400Regular_Italic
-![RopaSans_400Regular_Italic](./RopaSans_400Regular_Italic.ttf.png)
+||||
+|-|-|-|
+|![RopaSans_400Regular](./RopaSans_400Regular.ttf.png)|![RopaSans_400Regular_Italic](./RopaSans_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

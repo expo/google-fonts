@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MedievalSharp_400Regular
-![MedievalSharp_400Regular](./MedievalSharp_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MedievalSharp_400Regular](./MedievalSharp_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

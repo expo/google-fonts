@@ -168,32 +168,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### EncodeSans_100Thin
-![EncodeSans_100Thin](./EncodeSans_100Thin.ttf.png)
 
-##### EncodeSans_200ExtraLight
-![EncodeSans_200ExtraLight](./EncodeSans_200ExtraLight.ttf.png)
-
-##### EncodeSans_300Light
-![EncodeSans_300Light](./EncodeSans_300Light.ttf.png)
-
-##### EncodeSans_400Regular
-![EncodeSans_400Regular](./EncodeSans_400Regular.ttf.png)
-
-##### EncodeSans_500Medium
-![EncodeSans_500Medium](./EncodeSans_500Medium.ttf.png)
-
-##### EncodeSans_600SemiBold
-![EncodeSans_600SemiBold](./EncodeSans_600SemiBold.ttf.png)
-
-##### EncodeSans_700Bold
-![EncodeSans_700Bold](./EncodeSans_700Bold.ttf.png)
-
-##### EncodeSans_800ExtraBold
-![EncodeSans_800ExtraBold](./EncodeSans_800ExtraBold.ttf.png)
-
-##### EncodeSans_900Black
-![EncodeSans_900Black](./EncodeSans_900Black.ttf.png)
+||||
+|-|-|-|
+|![EncodeSans_100Thin](./EncodeSans_100Thin.ttf.png)|![EncodeSans_200ExtraLight](./EncodeSans_200ExtraLight.ttf.png)|![EncodeSans_300Light](./EncodeSans_300Light.ttf.png)||
+|![EncodeSans_400Regular](./EncodeSans_400Regular.ttf.png)|![EncodeSans_500Medium](./EncodeSans_500Medium.ttf.png)|![EncodeSans_600SemiBold](./EncodeSans_600SemiBold.ttf.png)||
+|![EncodeSans_700Bold](./EncodeSans_700Bold.ttf.png)|![EncodeSans_800ExtraBold](./EncodeSans_800ExtraBold.ttf.png)|![EncodeSans_900Black](./EncodeSans_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

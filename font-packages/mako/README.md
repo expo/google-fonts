@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Mako_400Regular
-![Mako_400Regular](./Mako_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Mako_400Regular](./Mako_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

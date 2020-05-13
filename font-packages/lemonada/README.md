@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Lemonada_300Light
-![Lemonada_300Light](./Lemonada_300Light.ttf.png)
 
-##### Lemonada_400Regular
-![Lemonada_400Regular](./Lemonada_400Regular.ttf.png)
-
-##### Lemonada_500Medium
-![Lemonada_500Medium](./Lemonada_500Medium.ttf.png)
-
-##### Lemonada_600SemiBold
-![Lemonada_600SemiBold](./Lemonada_600SemiBold.ttf.png)
-
-##### Lemonada_700Bold
-![Lemonada_700Bold](./Lemonada_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Lemonada_300Light](./Lemonada_300Light.ttf.png)|![Lemonada_400Regular](./Lemonada_400Regular.ttf.png)|![Lemonada_500Medium](./Lemonada_500Medium.ttf.png)||
+|![Lemonada_600SemiBold](./Lemonada_600SemiBold.ttf.png)|![Lemonada_700Bold](./Lemonada_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

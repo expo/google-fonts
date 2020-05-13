@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Forum_400Regular
-![Forum_400Regular](./Forum_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Forum_400Regular](./Forum_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -155,29 +155,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Archivo_400Regular
-![Archivo_400Regular](./Archivo_400Regular.ttf.png)
 
-##### Archivo_400Regular_Italic
-![Archivo_400Regular_Italic](./Archivo_400Regular_Italic.ttf.png)
-
-##### Archivo_500Medium
-![Archivo_500Medium](./Archivo_500Medium.ttf.png)
-
-##### Archivo_500Medium_Italic
-![Archivo_500Medium_Italic](./Archivo_500Medium_Italic.ttf.png)
-
-##### Archivo_600SemiBold
-![Archivo_600SemiBold](./Archivo_600SemiBold.ttf.png)
-
-##### Archivo_600SemiBold_Italic
-![Archivo_600SemiBold_Italic](./Archivo_600SemiBold_Italic.ttf.png)
-
-##### Archivo_700Bold
-![Archivo_700Bold](./Archivo_700Bold.ttf.png)
-
-##### Archivo_700Bold_Italic
-![Archivo_700Bold_Italic](./Archivo_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Archivo_400Regular](./Archivo_400Regular.ttf.png)|![Archivo_400Regular_Italic](./Archivo_400Regular_Italic.ttf.png)|![Archivo_500Medium](./Archivo_500Medium.ttf.png)||
+|![Archivo_500Medium_Italic](./Archivo_500Medium_Italic.ttf.png)|![Archivo_600SemiBold](./Archivo_600SemiBold.ttf.png)|![Archivo_600SemiBold_Italic](./Archivo_600SemiBold_Italic.ttf.png)||
+|![Archivo_700Bold](./Archivo_700Bold.ttf.png)|![Archivo_700Bold_Italic](./Archivo_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Quando_400Regular
-![Quando_400Regular](./Quando_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Quando_400Regular](./Quando_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

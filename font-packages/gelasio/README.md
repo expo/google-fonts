@@ -155,29 +155,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gelasio_400Regular
-![Gelasio_400Regular](./Gelasio_400Regular.ttf.png)
 
-##### Gelasio_400Regular_Italic
-![Gelasio_400Regular_Italic](./Gelasio_400Regular_Italic.ttf.png)
-
-##### Gelasio_500Medium
-![Gelasio_500Medium](./Gelasio_500Medium.ttf.png)
-
-##### Gelasio_500Medium_Italic
-![Gelasio_500Medium_Italic](./Gelasio_500Medium_Italic.ttf.png)
-
-##### Gelasio_600SemiBold
-![Gelasio_600SemiBold](./Gelasio_600SemiBold.ttf.png)
-
-##### Gelasio_600SemiBold_Italic
-![Gelasio_600SemiBold_Italic](./Gelasio_600SemiBold_Italic.ttf.png)
-
-##### Gelasio_700Bold
-![Gelasio_700Bold](./Gelasio_700Bold.ttf.png)
-
-##### Gelasio_700Bold_Italic
-![Gelasio_700Bold_Italic](./Gelasio_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Gelasio_400Regular](./Gelasio_400Regular.ttf.png)|![Gelasio_400Regular_Italic](./Gelasio_400Regular_Italic.ttf.png)|![Gelasio_500Medium](./Gelasio_500Medium.ttf.png)||
+|![Gelasio_500Medium_Italic](./Gelasio_500Medium_Italic.ttf.png)|![Gelasio_600SemiBold](./Gelasio_600SemiBold.ttf.png)|![Gelasio_600SemiBold_Italic](./Gelasio_600SemiBold_Italic.ttf.png)||
+|![Gelasio_700Bold](./Gelasio_700Bold.ttf.png)|![Gelasio_700Bold_Italic](./Gelasio_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

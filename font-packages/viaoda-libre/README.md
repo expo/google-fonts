@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ViaodaLibre_400Regular
-![ViaodaLibre_400Regular](./ViaodaLibre_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![ViaodaLibre_400Regular](./ViaodaLibre_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

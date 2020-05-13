@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Enriqueta_400Regular
-![Enriqueta_400Regular](./Enriqueta_400Regular.ttf.png)
 
-##### Enriqueta_500Medium
-![Enriqueta_500Medium](./Enriqueta_500Medium.ttf.png)
-
-##### Enriqueta_600SemiBold
-![Enriqueta_600SemiBold](./Enriqueta_600SemiBold.ttf.png)
-
-##### Enriqueta_700Bold
-![Enriqueta_700Bold](./Enriqueta_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Enriqueta_400Regular](./Enriqueta_400Regular.ttf.png)|![Enriqueta_500Medium](./Enriqueta_500Medium.ttf.png)|![Enriqueta_600SemiBold](./Enriqueta_600SemiBold.ttf.png)||
+|![Enriqueta_700Bold](./Enriqueta_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

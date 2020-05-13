@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PatrickHandSC_400Regular
-![PatrickHandSC_400Regular](./PatrickHandSC_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![PatrickHandSC_400Regular](./PatrickHandSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

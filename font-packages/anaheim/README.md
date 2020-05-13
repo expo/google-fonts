@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Anaheim_400Regular
-![Anaheim_400Regular](./Anaheim_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Anaheim_400Regular](./Anaheim_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

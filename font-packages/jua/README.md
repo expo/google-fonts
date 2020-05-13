@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Jua_400Regular
-![Jua_400Regular](./Jua_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Jua_400Regular](./Jua_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

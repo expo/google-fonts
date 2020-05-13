@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MonsieurLaDoulaise_400Regular
-![MonsieurLaDoulaise_400Regular](./MonsieurLaDoulaise_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MonsieurLaDoulaise_400Regular](./MonsieurLaDoulaise_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

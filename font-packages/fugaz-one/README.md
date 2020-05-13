@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FugazOne_400Regular
-![FugazOne_400Regular](./FugazOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![FugazOne_400Regular](./FugazOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -233,47 +233,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IBMPlexMono_100Thin
-![IBMPlexMono_100Thin](./IBMPlexMono_100Thin.ttf.png)
 
-##### IBMPlexMono_100Thin_Italic
-![IBMPlexMono_100Thin_Italic](./IBMPlexMono_100Thin_Italic.ttf.png)
-
-##### IBMPlexMono_200ExtraLight
-![IBMPlexMono_200ExtraLight](./IBMPlexMono_200ExtraLight.ttf.png)
-
-##### IBMPlexMono_200ExtraLight_Italic
-![IBMPlexMono_200ExtraLight_Italic](./IBMPlexMono_200ExtraLight_Italic.ttf.png)
-
-##### IBMPlexMono_300Light
-![IBMPlexMono_300Light](./IBMPlexMono_300Light.ttf.png)
-
-##### IBMPlexMono_300Light_Italic
-![IBMPlexMono_300Light_Italic](./IBMPlexMono_300Light_Italic.ttf.png)
-
-##### IBMPlexMono_400Regular
-![IBMPlexMono_400Regular](./IBMPlexMono_400Regular.ttf.png)
-
-##### IBMPlexMono_400Regular_Italic
-![IBMPlexMono_400Regular_Italic](./IBMPlexMono_400Regular_Italic.ttf.png)
-
-##### IBMPlexMono_500Medium
-![IBMPlexMono_500Medium](./IBMPlexMono_500Medium.ttf.png)
-
-##### IBMPlexMono_500Medium_Italic
-![IBMPlexMono_500Medium_Italic](./IBMPlexMono_500Medium_Italic.ttf.png)
-
-##### IBMPlexMono_600SemiBold
-![IBMPlexMono_600SemiBold](./IBMPlexMono_600SemiBold.ttf.png)
-
-##### IBMPlexMono_600SemiBold_Italic
-![IBMPlexMono_600SemiBold_Italic](./IBMPlexMono_600SemiBold_Italic.ttf.png)
-
-##### IBMPlexMono_700Bold
-![IBMPlexMono_700Bold](./IBMPlexMono_700Bold.ttf.png)
-
-##### IBMPlexMono_700Bold_Italic
-![IBMPlexMono_700Bold_Italic](./IBMPlexMono_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![IBMPlexMono_100Thin](./IBMPlexMono_100Thin.ttf.png)|![IBMPlexMono_100Thin_Italic](./IBMPlexMono_100Thin_Italic.ttf.png)|![IBMPlexMono_200ExtraLight](./IBMPlexMono_200ExtraLight.ttf.png)||
+|![IBMPlexMono_200ExtraLight_Italic](./IBMPlexMono_200ExtraLight_Italic.ttf.png)|![IBMPlexMono_300Light](./IBMPlexMono_300Light.ttf.png)|![IBMPlexMono_300Light_Italic](./IBMPlexMono_300Light_Italic.ttf.png)||
+|![IBMPlexMono_400Regular](./IBMPlexMono_400Regular.ttf.png)|![IBMPlexMono_400Regular_Italic](./IBMPlexMono_400Regular_Italic.ttf.png)|![IBMPlexMono_500Medium](./IBMPlexMono_500Medium.ttf.png)||
+|![IBMPlexMono_500Medium_Italic](./IBMPlexMono_500Medium_Italic.ttf.png)|![IBMPlexMono_600SemiBold](./IBMPlexMono_600SemiBold.ttf.png)|![IBMPlexMono_600SemiBold_Italic](./IBMPlexMono_600SemiBold_Italic.ttf.png)||
+|![IBMPlexMono_700Bold](./IBMPlexMono_700Bold.ttf.png)|![IBMPlexMono_700Bold_Italic](./IBMPlexMono_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

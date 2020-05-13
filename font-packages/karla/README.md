@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Karla_400Regular
-![Karla_400Regular](./Karla_400Regular.ttf.png)
 
-##### Karla_400Regular_Italic
-![Karla_400Regular_Italic](./Karla_400Regular_Italic.ttf.png)
-
-##### Karla_700Bold
-![Karla_700Bold](./Karla_700Bold.ttf.png)
-
-##### Karla_700Bold_Italic
-![Karla_700Bold_Italic](./Karla_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Karla_400Regular](./Karla_400Regular.ttf.png)|![Karla_400Regular_Italic](./Karla_400Regular_Italic.ttf.png)|![Karla_700Bold](./Karla_700Bold.ttf.png)||
+|![Karla_700Bold_Italic](./Karla_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

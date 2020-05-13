@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### EuphoriaScript_400Regular
-![EuphoriaScript_400Regular](./EuphoriaScript_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![EuphoriaScript_400Regular](./EuphoriaScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rosarivo_400Regular
-![Rosarivo_400Regular](./Rosarivo_400Regular.ttf.png)
 
-##### Rosarivo_400Regular_Italic
-![Rosarivo_400Regular_Italic](./Rosarivo_400Regular_Italic.ttf.png)
+||||
+|-|-|-|
+|![Rosarivo_400Regular](./Rosarivo_400Regular.ttf.png)|![Rosarivo_400Regular_Italic](./Rosarivo_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

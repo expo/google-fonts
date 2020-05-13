@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### EagleLake_400Regular
-![EagleLake_400Regular](./EagleLake_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![EagleLake_400Regular](./EagleLake_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

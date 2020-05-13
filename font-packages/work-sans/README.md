@@ -285,59 +285,15 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### WorkSans_100Thin
-![WorkSans_100Thin](./WorkSans_100Thin.ttf.png)
 
-##### WorkSans_200ExtraLight
-![WorkSans_200ExtraLight](./WorkSans_200ExtraLight.ttf.png)
-
-##### WorkSans_300Light
-![WorkSans_300Light](./WorkSans_300Light.ttf.png)
-
-##### WorkSans_400Regular
-![WorkSans_400Regular](./WorkSans_400Regular.ttf.png)
-
-##### WorkSans_500Medium
-![WorkSans_500Medium](./WorkSans_500Medium.ttf.png)
-
-##### WorkSans_600SemiBold
-![WorkSans_600SemiBold](./WorkSans_600SemiBold.ttf.png)
-
-##### WorkSans_700Bold
-![WorkSans_700Bold](./WorkSans_700Bold.ttf.png)
-
-##### WorkSans_800ExtraBold
-![WorkSans_800ExtraBold](./WorkSans_800ExtraBold.ttf.png)
-
-##### WorkSans_900Black
-![WorkSans_900Black](./WorkSans_900Black.ttf.png)
-
-##### WorkSans_100Thin_Italic
-![WorkSans_100Thin_Italic](./WorkSans_100Thin_Italic.ttf.png)
-
-##### WorkSans_200ExtraLight_Italic
-![WorkSans_200ExtraLight_Italic](./WorkSans_200ExtraLight_Italic.ttf.png)
-
-##### WorkSans_300Light_Italic
-![WorkSans_300Light_Italic](./WorkSans_300Light_Italic.ttf.png)
-
-##### WorkSans_400Regular_Italic
-![WorkSans_400Regular_Italic](./WorkSans_400Regular_Italic.ttf.png)
-
-##### WorkSans_500Medium_Italic
-![WorkSans_500Medium_Italic](./WorkSans_500Medium_Italic.ttf.png)
-
-##### WorkSans_600SemiBold_Italic
-![WorkSans_600SemiBold_Italic](./WorkSans_600SemiBold_Italic.ttf.png)
-
-##### WorkSans_700Bold_Italic
-![WorkSans_700Bold_Italic](./WorkSans_700Bold_Italic.ttf.png)
-
-##### WorkSans_800ExtraBold_Italic
-![WorkSans_800ExtraBold_Italic](./WorkSans_800ExtraBold_Italic.ttf.png)
-
-##### WorkSans_900Black_Italic
-![WorkSans_900Black_Italic](./WorkSans_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![WorkSans_100Thin](./WorkSans_100Thin.ttf.png)|![WorkSans_200ExtraLight](./WorkSans_200ExtraLight.ttf.png)|![WorkSans_300Light](./WorkSans_300Light.ttf.png)||
+|![WorkSans_400Regular](./WorkSans_400Regular.ttf.png)|![WorkSans_500Medium](./WorkSans_500Medium.ttf.png)|![WorkSans_600SemiBold](./WorkSans_600SemiBold.ttf.png)||
+|![WorkSans_700Bold](./WorkSans_700Bold.ttf.png)|![WorkSans_800ExtraBold](./WorkSans_800ExtraBold.ttf.png)|![WorkSans_900Black](./WorkSans_900Black.ttf.png)||
+|![WorkSans_100Thin_Italic](./WorkSans_100Thin_Italic.ttf.png)|![WorkSans_200ExtraLight_Italic](./WorkSans_200ExtraLight_Italic.ttf.png)|![WorkSans_300Light_Italic](./WorkSans_300Light_Italic.ttf.png)||
+|![WorkSans_400Regular_Italic](./WorkSans_400Regular_Italic.ttf.png)|![WorkSans_500Medium_Italic](./WorkSans_500Medium_Italic.ttf.png)|![WorkSans_600SemiBold_Italic](./WorkSans_600SemiBold_Italic.ttf.png)||
+|![WorkSans_700Bold_Italic](./WorkSans_700Bold_Italic.ttf.png)|![WorkSans_800ExtraBold_Italic](./WorkSans_800ExtraBold_Italic.ttf.png)|![WorkSans_900Black_Italic](./WorkSans_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

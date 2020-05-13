@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BlackOpsOne_400Regular
-![BlackOpsOne_400Regular](./BlackOpsOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![BlackOpsOne_400Regular](./BlackOpsOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NovaOval_400Regular
-![NovaOval_400Regular](./NovaOval_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![NovaOval_400Regular](./NovaOval_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

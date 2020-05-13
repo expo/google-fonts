@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RuslanDisplay_400Regular
-![RuslanDisplay_400Regular](./RuslanDisplay_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![RuslanDisplay_400Regular](./RuslanDisplay_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

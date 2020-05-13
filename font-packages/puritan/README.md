@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Puritan_400Regular
-![Puritan_400Regular](./Puritan_400Regular.ttf.png)
 
-##### Puritan_400Regular_Italic
-![Puritan_400Regular_Italic](./Puritan_400Regular_Italic.ttf.png)
-
-##### Puritan_700Bold
-![Puritan_700Bold](./Puritan_700Bold.ttf.png)
-
-##### Puritan_700Bold_Italic
-![Puritan_700Bold_Italic](./Puritan_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Puritan_400Regular](./Puritan_400Regular.ttf.png)|![Puritan_400Regular_Italic](./Puritan_400Regular_Italic.ttf.png)|![Puritan_700Bold](./Puritan_700Bold.ttf.png)||
+|![Puritan_700Bold_Italic](./Puritan_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

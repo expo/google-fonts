@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Armata_400Regular
-![Armata_400Regular](./Armata_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Armata_400Regular](./Armata_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

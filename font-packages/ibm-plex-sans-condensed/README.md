@@ -233,47 +233,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IBMPlexSansCondensed_100Thin
-![IBMPlexSansCondensed_100Thin](./IBMPlexSansCondensed_100Thin.ttf.png)
 
-##### IBMPlexSansCondensed_100Thin_Italic
-![IBMPlexSansCondensed_100Thin_Italic](./IBMPlexSansCondensed_100Thin_Italic.ttf.png)
-
-##### IBMPlexSansCondensed_200ExtraLight
-![IBMPlexSansCondensed_200ExtraLight](./IBMPlexSansCondensed_200ExtraLight.ttf.png)
-
-##### IBMPlexSansCondensed_200ExtraLight_Italic
-![IBMPlexSansCondensed_200ExtraLight_Italic](./IBMPlexSansCondensed_200ExtraLight_Italic.ttf.png)
-
-##### IBMPlexSansCondensed_300Light
-![IBMPlexSansCondensed_300Light](./IBMPlexSansCondensed_300Light.ttf.png)
-
-##### IBMPlexSansCondensed_300Light_Italic
-![IBMPlexSansCondensed_300Light_Italic](./IBMPlexSansCondensed_300Light_Italic.ttf.png)
-
-##### IBMPlexSansCondensed_400Regular
-![IBMPlexSansCondensed_400Regular](./IBMPlexSansCondensed_400Regular.ttf.png)
-
-##### IBMPlexSansCondensed_400Regular_Italic
-![IBMPlexSansCondensed_400Regular_Italic](./IBMPlexSansCondensed_400Regular_Italic.ttf.png)
-
-##### IBMPlexSansCondensed_500Medium
-![IBMPlexSansCondensed_500Medium](./IBMPlexSansCondensed_500Medium.ttf.png)
-
-##### IBMPlexSansCondensed_500Medium_Italic
-![IBMPlexSansCondensed_500Medium_Italic](./IBMPlexSansCondensed_500Medium_Italic.ttf.png)
-
-##### IBMPlexSansCondensed_600SemiBold
-![IBMPlexSansCondensed_600SemiBold](./IBMPlexSansCondensed_600SemiBold.ttf.png)
-
-##### IBMPlexSansCondensed_600SemiBold_Italic
-![IBMPlexSansCondensed_600SemiBold_Italic](./IBMPlexSansCondensed_600SemiBold_Italic.ttf.png)
-
-##### IBMPlexSansCondensed_700Bold
-![IBMPlexSansCondensed_700Bold](./IBMPlexSansCondensed_700Bold.ttf.png)
-
-##### IBMPlexSansCondensed_700Bold_Italic
-![IBMPlexSansCondensed_700Bold_Italic](./IBMPlexSansCondensed_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![IBMPlexSansCondensed_100Thin](./IBMPlexSansCondensed_100Thin.ttf.png)|![IBMPlexSansCondensed_100Thin_Italic](./IBMPlexSansCondensed_100Thin_Italic.ttf.png)|![IBMPlexSansCondensed_200ExtraLight](./IBMPlexSansCondensed_200ExtraLight.ttf.png)||
+|![IBMPlexSansCondensed_200ExtraLight_Italic](./IBMPlexSansCondensed_200ExtraLight_Italic.ttf.png)|![IBMPlexSansCondensed_300Light](./IBMPlexSansCondensed_300Light.ttf.png)|![IBMPlexSansCondensed_300Light_Italic](./IBMPlexSansCondensed_300Light_Italic.ttf.png)||
+|![IBMPlexSansCondensed_400Regular](./IBMPlexSansCondensed_400Regular.ttf.png)|![IBMPlexSansCondensed_400Regular_Italic](./IBMPlexSansCondensed_400Regular_Italic.ttf.png)|![IBMPlexSansCondensed_500Medium](./IBMPlexSansCondensed_500Medium.ttf.png)||
+|![IBMPlexSansCondensed_500Medium_Italic](./IBMPlexSansCondensed_500Medium_Italic.ttf.png)|![IBMPlexSansCondensed_600SemiBold](./IBMPlexSansCondensed_600SemiBold.ttf.png)|![IBMPlexSansCondensed_600SemiBold_Italic](./IBMPlexSansCondensed_600SemiBold_Italic.ttf.png)||
+|![IBMPlexSansCondensed_700Bold](./IBMPlexSansCondensed_700Bold.ttf.png)|![IBMPlexSansCondensed_700Bold_Italic](./IBMPlexSansCondensed_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

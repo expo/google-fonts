@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Englebert_400Regular
-![Englebert_400Regular](./Englebert_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Englebert_400Regular](./Englebert_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

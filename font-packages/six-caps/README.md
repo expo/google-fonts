@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SixCaps_400Regular
-![SixCaps_400Regular](./SixCaps_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![SixCaps_400Regular](./SixCaps_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

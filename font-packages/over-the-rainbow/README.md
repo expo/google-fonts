@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### OvertheRainbow_400Regular
-![OvertheRainbow_400Regular](./OvertheRainbow_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![OvertheRainbow_400Regular](./OvertheRainbow_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

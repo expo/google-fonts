@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AutourOne_400Regular
-![AutourOne_400Regular](./AutourOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![AutourOne_400Regular](./AutourOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

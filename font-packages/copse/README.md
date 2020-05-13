@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Copse_400Regular
-![Copse_400Regular](./Copse_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Copse_400Regular](./Copse_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

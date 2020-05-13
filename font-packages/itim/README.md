@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Itim_400Regular
-![Itim_400Regular](./Itim_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Itim_400Regular](./Itim_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

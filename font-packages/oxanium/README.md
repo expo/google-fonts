@@ -142,26 +142,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Oxanium_200ExtraLight
-![Oxanium_200ExtraLight](./Oxanium_200ExtraLight.ttf.png)
 
-##### Oxanium_300Light
-![Oxanium_300Light](./Oxanium_300Light.ttf.png)
-
-##### Oxanium_400Regular
-![Oxanium_400Regular](./Oxanium_400Regular.ttf.png)
-
-##### Oxanium_500Medium
-![Oxanium_500Medium](./Oxanium_500Medium.ttf.png)
-
-##### Oxanium_600SemiBold
-![Oxanium_600SemiBold](./Oxanium_600SemiBold.ttf.png)
-
-##### Oxanium_700Bold
-![Oxanium_700Bold](./Oxanium_700Bold.ttf.png)
-
-##### Oxanium_800ExtraBold
-![Oxanium_800ExtraBold](./Oxanium_800ExtraBold.ttf.png)
+||||
+|-|-|-|
+|![Oxanium_200ExtraLight](./Oxanium_200ExtraLight.ttf.png)|![Oxanium_300Light](./Oxanium_300Light.ttf.png)|![Oxanium_400Regular](./Oxanium_400Regular.ttf.png)||
+|![Oxanium_500Medium](./Oxanium_500Medium.ttf.png)|![Oxanium_600SemiBold](./Oxanium_600SemiBold.ttf.png)|![Oxanium_700Bold](./Oxanium_700Bold.ttf.png)||
+|![Oxanium_800ExtraBold](./Oxanium_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

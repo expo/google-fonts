@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FingerPaint_400Regular
-![FingerPaint_400Regular](./FingerPaint_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![FingerPaint_400Regular](./FingerPaint_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

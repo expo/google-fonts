@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HiMelody_400Regular
-![HiMelody_400Regular](./HiMelody_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![HiMelody_400Regular](./HiMelody_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

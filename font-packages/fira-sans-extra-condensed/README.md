@@ -285,59 +285,15 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FiraSansExtraCondensed_100Thin
-![FiraSansExtraCondensed_100Thin](./FiraSansExtraCondensed_100Thin.ttf.png)
 
-##### FiraSansExtraCondensed_100Thin_Italic
-![FiraSansExtraCondensed_100Thin_Italic](./FiraSansExtraCondensed_100Thin_Italic.ttf.png)
-
-##### FiraSansExtraCondensed_200ExtraLight
-![FiraSansExtraCondensed_200ExtraLight](./FiraSansExtraCondensed_200ExtraLight.ttf.png)
-
-##### FiraSansExtraCondensed_200ExtraLight_Italic
-![FiraSansExtraCondensed_200ExtraLight_Italic](./FiraSansExtraCondensed_200ExtraLight_Italic.ttf.png)
-
-##### FiraSansExtraCondensed_300Light
-![FiraSansExtraCondensed_300Light](./FiraSansExtraCondensed_300Light.ttf.png)
-
-##### FiraSansExtraCondensed_300Light_Italic
-![FiraSansExtraCondensed_300Light_Italic](./FiraSansExtraCondensed_300Light_Italic.ttf.png)
-
-##### FiraSansExtraCondensed_400Regular
-![FiraSansExtraCondensed_400Regular](./FiraSansExtraCondensed_400Regular.ttf.png)
-
-##### FiraSansExtraCondensed_400Regular_Italic
-![FiraSansExtraCondensed_400Regular_Italic](./FiraSansExtraCondensed_400Regular_Italic.ttf.png)
-
-##### FiraSansExtraCondensed_500Medium
-![FiraSansExtraCondensed_500Medium](./FiraSansExtraCondensed_500Medium.ttf.png)
-
-##### FiraSansExtraCondensed_500Medium_Italic
-![FiraSansExtraCondensed_500Medium_Italic](./FiraSansExtraCondensed_500Medium_Italic.ttf.png)
-
-##### FiraSansExtraCondensed_600SemiBold
-![FiraSansExtraCondensed_600SemiBold](./FiraSansExtraCondensed_600SemiBold.ttf.png)
-
-##### FiraSansExtraCondensed_600SemiBold_Italic
-![FiraSansExtraCondensed_600SemiBold_Italic](./FiraSansExtraCondensed_600SemiBold_Italic.ttf.png)
-
-##### FiraSansExtraCondensed_700Bold
-![FiraSansExtraCondensed_700Bold](./FiraSansExtraCondensed_700Bold.ttf.png)
-
-##### FiraSansExtraCondensed_700Bold_Italic
-![FiraSansExtraCondensed_700Bold_Italic](./FiraSansExtraCondensed_700Bold_Italic.ttf.png)
-
-##### FiraSansExtraCondensed_800ExtraBold
-![FiraSansExtraCondensed_800ExtraBold](./FiraSansExtraCondensed_800ExtraBold.ttf.png)
-
-##### FiraSansExtraCondensed_800ExtraBold_Italic
-![FiraSansExtraCondensed_800ExtraBold_Italic](./FiraSansExtraCondensed_800ExtraBold_Italic.ttf.png)
-
-##### FiraSansExtraCondensed_900Black
-![FiraSansExtraCondensed_900Black](./FiraSansExtraCondensed_900Black.ttf.png)
-
-##### FiraSansExtraCondensed_900Black_Italic
-![FiraSansExtraCondensed_900Black_Italic](./FiraSansExtraCondensed_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![FiraSansExtraCondensed_100Thin](./FiraSansExtraCondensed_100Thin.ttf.png)|![FiraSansExtraCondensed_100Thin_Italic](./FiraSansExtraCondensed_100Thin_Italic.ttf.png)|![FiraSansExtraCondensed_200ExtraLight](./FiraSansExtraCondensed_200ExtraLight.ttf.png)||
+|![FiraSansExtraCondensed_200ExtraLight_Italic](./FiraSansExtraCondensed_200ExtraLight_Italic.ttf.png)|![FiraSansExtraCondensed_300Light](./FiraSansExtraCondensed_300Light.ttf.png)|![FiraSansExtraCondensed_300Light_Italic](./FiraSansExtraCondensed_300Light_Italic.ttf.png)||
+|![FiraSansExtraCondensed_400Regular](./FiraSansExtraCondensed_400Regular.ttf.png)|![FiraSansExtraCondensed_400Regular_Italic](./FiraSansExtraCondensed_400Regular_Italic.ttf.png)|![FiraSansExtraCondensed_500Medium](./FiraSansExtraCondensed_500Medium.ttf.png)||
+|![FiraSansExtraCondensed_500Medium_Italic](./FiraSansExtraCondensed_500Medium_Italic.ttf.png)|![FiraSansExtraCondensed_600SemiBold](./FiraSansExtraCondensed_600SemiBold.ttf.png)|![FiraSansExtraCondensed_600SemiBold_Italic](./FiraSansExtraCondensed_600SemiBold_Italic.ttf.png)||
+|![FiraSansExtraCondensed_700Bold](./FiraSansExtraCondensed_700Bold.ttf.png)|![FiraSansExtraCondensed_700Bold_Italic](./FiraSansExtraCondensed_700Bold_Italic.ttf.png)|![FiraSansExtraCondensed_800ExtraBold](./FiraSansExtraCondensed_800ExtraBold.ttf.png)||
+|![FiraSansExtraCondensed_800ExtraBold_Italic](./FiraSansExtraCondensed_800ExtraBold_Italic.ttf.png)|![FiraSansExtraCondensed_900Black](./FiraSansExtraCondensed_900Black.ttf.png)|![FiraSansExtraCondensed_900Black_Italic](./FiraSansExtraCondensed_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

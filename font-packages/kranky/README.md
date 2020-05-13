@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Kranky_400Regular
-![Kranky_400Regular](./Kranky_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Kranky_400Regular](./Kranky_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

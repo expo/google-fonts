@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BilboSwashCaps_400Regular
-![BilboSwashCaps_400Regular](./BilboSwashCaps_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![BilboSwashCaps_400Regular](./BilboSwashCaps_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

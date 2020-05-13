@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NewRocker_400Regular
-![NewRocker_400Regular](./NewRocker_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![NewRocker_400Regular](./NewRocker_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

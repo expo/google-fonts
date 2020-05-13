@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Pridi_200ExtraLight
-![Pridi_200ExtraLight](./Pridi_200ExtraLight.ttf.png)
 
-##### Pridi_300Light
-![Pridi_300Light](./Pridi_300Light.ttf.png)
-
-##### Pridi_400Regular
-![Pridi_400Regular](./Pridi_400Regular.ttf.png)
-
-##### Pridi_500Medium
-![Pridi_500Medium](./Pridi_500Medium.ttf.png)
-
-##### Pridi_600SemiBold
-![Pridi_600SemiBold](./Pridi_600SemiBold.ttf.png)
-
-##### Pridi_700Bold
-![Pridi_700Bold](./Pridi_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Pridi_200ExtraLight](./Pridi_200ExtraLight.ttf.png)|![Pridi_300Light](./Pridi_300Light.ttf.png)|![Pridi_400Regular](./Pridi_400Regular.ttf.png)||
+|![Pridi_500Medium](./Pridi_500Medium.ttf.png)|![Pridi_600SemiBold](./Pridi_600SemiBold.ttf.png)|![Pridi_700Bold](./Pridi_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

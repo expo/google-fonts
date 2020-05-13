@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### VampiroOne_400Regular
-![VampiroOne_400Regular](./VampiroOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![VampiroOne_400Regular](./VampiroOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

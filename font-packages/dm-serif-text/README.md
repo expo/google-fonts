@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DMSerifText_400Regular
-![DMSerifText_400Regular](./DMSerifText_400Regular.ttf.png)
 
-##### DMSerifText_400Regular_Italic
-![DMSerifText_400Regular_Italic](./DMSerifText_400Regular_Italic.ttf.png)
+||||
+|-|-|-|
+|![DMSerifText_400Regular](./DMSerifText_400Regular.ttf.png)|![DMSerifText_400Regular_Italic](./DMSerifText_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

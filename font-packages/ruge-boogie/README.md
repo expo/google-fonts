@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RugeBoogie_400Regular
-![RugeBoogie_400Regular](./RugeBoogie_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![RugeBoogie_400Regular](./RugeBoogie_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

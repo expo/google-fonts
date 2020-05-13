@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GFSDidot_400Regular
-![GFSDidot_400Regular](./GFSDidot_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![GFSDidot_400Regular](./GFSDidot_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

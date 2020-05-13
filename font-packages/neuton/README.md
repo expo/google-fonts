@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Neuton_200ExtraLight
-![Neuton_200ExtraLight](./Neuton_200ExtraLight.ttf.png)
 
-##### Neuton_300Light
-![Neuton_300Light](./Neuton_300Light.ttf.png)
-
-##### Neuton_400Regular
-![Neuton_400Regular](./Neuton_400Regular.ttf.png)
-
-##### Neuton_400Regular_Italic
-![Neuton_400Regular_Italic](./Neuton_400Regular_Italic.ttf.png)
-
-##### Neuton_700Bold
-![Neuton_700Bold](./Neuton_700Bold.ttf.png)
-
-##### Neuton_800ExtraBold
-![Neuton_800ExtraBold](./Neuton_800ExtraBold.ttf.png)
+||||
+|-|-|-|
+|![Neuton_200ExtraLight](./Neuton_200ExtraLight.ttf.png)|![Neuton_300Light](./Neuton_300Light.ttf.png)|![Neuton_400Regular](./Neuton_400Regular.ttf.png)||
+|![Neuton_400Regular_Italic](./Neuton_400Regular_Italic.ttf.png)|![Neuton_700Bold](./Neuton_700Bold.ttf.png)|![Neuton_800ExtraBold](./Neuton_800ExtraBold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

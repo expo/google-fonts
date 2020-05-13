@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FiraMono_400Regular
-![FiraMono_400Regular](./FiraMono_400Regular.ttf.png)
 
-##### FiraMono_500Medium
-![FiraMono_500Medium](./FiraMono_500Medium.ttf.png)
-
-##### FiraMono_700Bold
-![FiraMono_700Bold](./FiraMono_700Bold.ttf.png)
+||||
+|-|-|-|
+|![FiraMono_400Regular](./FiraMono_400Regular.ttf.png)|![FiraMono_500Medium](./FiraMono_500Medium.ttf.png)|![FiraMono_700Bold](./FiraMono_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

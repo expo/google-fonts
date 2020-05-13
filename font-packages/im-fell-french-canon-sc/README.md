@@ -64,8 +64,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IMFellFrenchCanonSC_400Regular
-![IMFellFrenchCanonSC_400Regular](./IMFellFrenchCanonSC_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![IMFellFrenchCanonSC_400Regular](./IMFellFrenchCanonSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

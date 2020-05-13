@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DonegalOne_400Regular
-![DonegalOne_400Regular](./DonegalOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![DonegalOne_400Regular](./DonegalOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

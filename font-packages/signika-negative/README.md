@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SignikaNegative_300Light
-![SignikaNegative_300Light](./SignikaNegative_300Light.ttf.png)
 
-##### SignikaNegative_400Regular
-![SignikaNegative_400Regular](./SignikaNegative_400Regular.ttf.png)
-
-##### SignikaNegative_600SemiBold
-![SignikaNegative_600SemiBold](./SignikaNegative_600SemiBold.ttf.png)
-
-##### SignikaNegative_700Bold
-![SignikaNegative_700Bold](./SignikaNegative_700Bold.ttf.png)
+||||
+|-|-|-|
+|![SignikaNegative_300Light](./SignikaNegative_300Light.ttf.png)|![SignikaNegative_400Regular](./SignikaNegative_400Regular.ttf.png)|![SignikaNegative_600SemiBold](./SignikaNegative_600SemiBold.ttf.png)||
+|![SignikaNegative_700Bold](./SignikaNegative_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### TenaliRamakrishna_400Regular
-![TenaliRamakrishna_400Regular](./TenaliRamakrishna_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![TenaliRamakrishna_400Regular](./TenaliRamakrishna_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

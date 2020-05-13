@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LongCang_400Regular
-![LongCang_400Regular](./LongCang_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![LongCang_400Regular](./LongCang_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

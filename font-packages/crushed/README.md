@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Crushed_400Regular
-![Crushed_400Regular](./Crushed_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Crushed_400Regular](./Crushed_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

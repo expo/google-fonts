@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Karma_300Light
-![Karma_300Light](./Karma_300Light.ttf.png)
 
-##### Karma_400Regular
-![Karma_400Regular](./Karma_400Regular.ttf.png)
-
-##### Karma_500Medium
-![Karma_500Medium](./Karma_500Medium.ttf.png)
-
-##### Karma_600SemiBold
-![Karma_600SemiBold](./Karma_600SemiBold.ttf.png)
-
-##### Karma_700Bold
-![Karma_700Bold](./Karma_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Karma_300Light](./Karma_300Light.ttf.png)|![Karma_400Regular](./Karma_400Regular.ttf.png)|![Karma_500Medium](./Karma_500Medium.ttf.png)||
+|![Karma_600SemiBold](./Karma_600SemiBold.ttf.png)|![Karma_700Bold](./Karma_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

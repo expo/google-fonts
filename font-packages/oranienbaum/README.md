@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Oranienbaum_400Regular
-![Oranienbaum_400Regular](./Oranienbaum_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Oranienbaum_400Regular](./Oranienbaum_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

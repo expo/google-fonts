@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### JockeyOne_400Regular
-![JockeyOne_400Regular](./JockeyOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![JockeyOne_400Regular](./JockeyOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

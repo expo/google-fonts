@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Telex_400Regular
-![Telex_400Regular](./Telex_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Telex_400Regular](./Telex_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SonsieOne_400Regular
-![SonsieOne_400Regular](./SonsieOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![SonsieOne_400Regular](./SonsieOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

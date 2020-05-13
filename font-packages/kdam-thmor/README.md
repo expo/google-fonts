@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### KdamThmor_400Regular
-![KdamThmor_400Regular](./KdamThmor_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![KdamThmor_400Regular](./KdamThmor_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

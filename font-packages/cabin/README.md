@@ -155,29 +155,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Cabin_400Regular
-![Cabin_400Regular](./Cabin_400Regular.ttf.png)
 
-##### Cabin_400Regular_Italic
-![Cabin_400Regular_Italic](./Cabin_400Regular_Italic.ttf.png)
-
-##### Cabin_500Medium
-![Cabin_500Medium](./Cabin_500Medium.ttf.png)
-
-##### Cabin_500Medium_Italic
-![Cabin_500Medium_Italic](./Cabin_500Medium_Italic.ttf.png)
-
-##### Cabin_600SemiBold
-![Cabin_600SemiBold](./Cabin_600SemiBold.ttf.png)
-
-##### Cabin_600SemiBold_Italic
-![Cabin_600SemiBold_Italic](./Cabin_600SemiBold_Italic.ttf.png)
-
-##### Cabin_700Bold
-![Cabin_700Bold](./Cabin_700Bold.ttf.png)
-
-##### Cabin_700Bold_Italic
-![Cabin_700Bold_Italic](./Cabin_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Cabin_400Regular](./Cabin_400Regular.ttf.png)|![Cabin_400Regular_Italic](./Cabin_400Regular_Italic.ttf.png)|![Cabin_500Medium](./Cabin_500Medium.ttf.png)||
+|![Cabin_500Medium_Italic](./Cabin_500Medium_Italic.ttf.png)|![Cabin_600SemiBold](./Cabin_600SemiBold.ttf.png)|![Cabin_600SemiBold_Italic](./Cabin_600SemiBold_Italic.ttf.png)||
+|![Cabin_700Bold](./Cabin_700Bold.ttf.png)|![Cabin_700Bold_Italic](./Cabin_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

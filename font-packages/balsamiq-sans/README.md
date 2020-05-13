@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BalsamiqSans_400Regular
-![BalsamiqSans_400Regular](./BalsamiqSans_400Regular.ttf.png)
 
-##### BalsamiqSans_400Regular_Italic
-![BalsamiqSans_400Regular_Italic](./BalsamiqSans_400Regular_Italic.ttf.png)
-
-##### BalsamiqSans_700Bold
-![BalsamiqSans_700Bold](./BalsamiqSans_700Bold.ttf.png)
-
-##### BalsamiqSans_700Bold_Italic
-![BalsamiqSans_700Bold_Italic](./BalsamiqSans_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![BalsamiqSans_400Regular](./BalsamiqSans_400Regular.ttf.png)|![BalsamiqSans_400Regular_Italic](./BalsamiqSans_400Regular_Italic.ttf.png)|![BalsamiqSans_700Bold](./BalsamiqSans_700Bold.ttf.png)||
+|![BalsamiqSans_700Bold_Italic](./BalsamiqSans_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

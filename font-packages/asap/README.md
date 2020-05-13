@@ -155,29 +155,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Asap_400Regular
-![Asap_400Regular](./Asap_400Regular.ttf.png)
 
-##### Asap_400Regular_Italic
-![Asap_400Regular_Italic](./Asap_400Regular_Italic.ttf.png)
-
-##### Asap_500Medium
-![Asap_500Medium](./Asap_500Medium.ttf.png)
-
-##### Asap_500Medium_Italic
-![Asap_500Medium_Italic](./Asap_500Medium_Italic.ttf.png)
-
-##### Asap_600SemiBold
-![Asap_600SemiBold](./Asap_600SemiBold.ttf.png)
-
-##### Asap_600SemiBold_Italic
-![Asap_600SemiBold_Italic](./Asap_600SemiBold_Italic.ttf.png)
-
-##### Asap_700Bold
-![Asap_700Bold](./Asap_700Bold.ttf.png)
-
-##### Asap_700Bold_Italic
-![Asap_700Bold_Italic](./Asap_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Asap_400Regular](./Asap_400Regular.ttf.png)|![Asap_400Regular_Italic](./Asap_400Regular_Italic.ttf.png)|![Asap_500Medium](./Asap_500Medium.ttf.png)||
+|![Asap_500Medium_Italic](./Asap_500Medium_Italic.ttf.png)|![Asap_600SemiBold](./Asap_600SemiBold.ttf.png)|![Asap_600SemiBold_Italic](./Asap_600SemiBold_Italic.ttf.png)||
+|![Asap_700Bold](./Asap_700Bold.ttf.png)|![Asap_700Bold_Italic](./Asap_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

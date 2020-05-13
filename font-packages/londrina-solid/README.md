@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LondrinaSolid_100Thin
-![LondrinaSolid_100Thin](./LondrinaSolid_100Thin.ttf.png)
 
-##### LondrinaSolid_300Light
-![LondrinaSolid_300Light](./LondrinaSolid_300Light.ttf.png)
-
-##### LondrinaSolid_400Regular
-![LondrinaSolid_400Regular](./LondrinaSolid_400Regular.ttf.png)
-
-##### LondrinaSolid_900Black
-![LondrinaSolid_900Black](./LondrinaSolid_900Black.ttf.png)
+||||
+|-|-|-|
+|![LondrinaSolid_100Thin](./LondrinaSolid_100Thin.ttf.png)|![LondrinaSolid_300Light](./LondrinaSolid_300Light.ttf.png)|![LondrinaSolid_400Regular](./LondrinaSolid_400Regular.ttf.png)||
+|![LondrinaSolid_900Black](./LondrinaSolid_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

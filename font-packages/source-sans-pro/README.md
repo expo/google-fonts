@@ -207,41 +207,13 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SourceSansPro_200ExtraLight
-![SourceSansPro_200ExtraLight](./SourceSansPro_200ExtraLight.ttf.png)
 
-##### SourceSansPro_200ExtraLight_Italic
-![SourceSansPro_200ExtraLight_Italic](./SourceSansPro_200ExtraLight_Italic.ttf.png)
-
-##### SourceSansPro_300Light
-![SourceSansPro_300Light](./SourceSansPro_300Light.ttf.png)
-
-##### SourceSansPro_300Light_Italic
-![SourceSansPro_300Light_Italic](./SourceSansPro_300Light_Italic.ttf.png)
-
-##### SourceSansPro_400Regular
-![SourceSansPro_400Regular](./SourceSansPro_400Regular.ttf.png)
-
-##### SourceSansPro_400Regular_Italic
-![SourceSansPro_400Regular_Italic](./SourceSansPro_400Regular_Italic.ttf.png)
-
-##### SourceSansPro_600SemiBold
-![SourceSansPro_600SemiBold](./SourceSansPro_600SemiBold.ttf.png)
-
-##### SourceSansPro_600SemiBold_Italic
-![SourceSansPro_600SemiBold_Italic](./SourceSansPro_600SemiBold_Italic.ttf.png)
-
-##### SourceSansPro_700Bold
-![SourceSansPro_700Bold](./SourceSansPro_700Bold.ttf.png)
-
-##### SourceSansPro_700Bold_Italic
-![SourceSansPro_700Bold_Italic](./SourceSansPro_700Bold_Italic.ttf.png)
-
-##### SourceSansPro_900Black
-![SourceSansPro_900Black](./SourceSansPro_900Black.ttf.png)
-
-##### SourceSansPro_900Black_Italic
-![SourceSansPro_900Black_Italic](./SourceSansPro_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![SourceSansPro_200ExtraLight](./SourceSansPro_200ExtraLight.ttf.png)|![SourceSansPro_200ExtraLight_Italic](./SourceSansPro_200ExtraLight_Italic.ttf.png)|![SourceSansPro_300Light](./SourceSansPro_300Light.ttf.png)||
+|![SourceSansPro_300Light_Italic](./SourceSansPro_300Light_Italic.ttf.png)|![SourceSansPro_400Regular](./SourceSansPro_400Regular.ttf.png)|![SourceSansPro_400Regular_Italic](./SourceSansPro_400Regular_Italic.ttf.png)||
+|![SourceSansPro_600SemiBold](./SourceSansPro_600SemiBold.ttf.png)|![SourceSansPro_600SemiBold_Italic](./SourceSansPro_600SemiBold_Italic.ttf.png)|![SourceSansPro_700Bold](./SourceSansPro_700Bold.ttf.png)||
+|![SourceSansPro_700Bold_Italic](./SourceSansPro_700Bold_Italic.ttf.png)|![SourceSansPro_900Black](./SourceSansPro_900Black.ttf.png)|![SourceSansPro_900Black_Italic](./SourceSansPro_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

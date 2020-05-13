@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MrsSaintDelafield_400Regular
-![MrsSaintDelafield_400Regular](./MrsSaintDelafield_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MrsSaintDelafield_400Regular](./MrsSaintDelafield_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### KumarOne_400Regular
-![KumarOne_400Regular](./KumarOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![KumarOne_400Regular](./KumarOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

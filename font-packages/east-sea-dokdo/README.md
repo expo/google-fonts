@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### EastSeaDokdo_400Regular
-![EastSeaDokdo_400Regular](./EastSeaDokdo_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![EastSeaDokdo_400Regular](./EastSeaDokdo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

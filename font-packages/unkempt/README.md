@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Unkempt_400Regular
-![Unkempt_400Regular](./Unkempt_400Regular.ttf.png)
 
-##### Unkempt_700Bold
-![Unkempt_700Bold](./Unkempt_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Unkempt_400Regular](./Unkempt_400Regular.ttf.png)|![Unkempt_700Bold](./Unkempt_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

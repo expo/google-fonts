@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Mirza_400Regular
-![Mirza_400Regular](./Mirza_400Regular.ttf.png)
 
-##### Mirza_500Medium
-![Mirza_500Medium](./Mirza_500Medium.ttf.png)
-
-##### Mirza_600SemiBold
-![Mirza_600SemiBold](./Mirza_600SemiBold.ttf.png)
-
-##### Mirza_700Bold
-![Mirza_700Bold](./Mirza_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Mirza_400Regular](./Mirza_400Regular.ttf.png)|![Mirza_500Medium](./Mirza_500Medium.ttf.png)|![Mirza_600SemiBold](./Mirza_600SemiBold.ttf.png)||
+|![Mirza_700Bold](./Mirza_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Akronim_400Regular
-![Akronim_400Regular](./Akronim_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Akronim_400Regular](./Akronim_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### UbuntuMono_400Regular
-![UbuntuMono_400Regular](./UbuntuMono_400Regular.ttf.png)
 
-##### UbuntuMono_400Regular_Italic
-![UbuntuMono_400Regular_Italic](./UbuntuMono_400Regular_Italic.ttf.png)
-
-##### UbuntuMono_700Bold
-![UbuntuMono_700Bold](./UbuntuMono_700Bold.ttf.png)
-
-##### UbuntuMono_700Bold_Italic
-![UbuntuMono_700Bold_Italic](./UbuntuMono_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![UbuntuMono_400Regular](./UbuntuMono_400Regular.ttf.png)|![UbuntuMono_400Regular_Italic](./UbuntuMono_400Regular_Italic.ttf.png)|![UbuntuMono_700Bold](./UbuntuMono_700Bold.ttf.png)||
+|![UbuntuMono_700Bold_Italic](./UbuntuMono_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

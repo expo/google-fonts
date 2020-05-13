@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Chicle_400Regular
-![Chicle_400Regular](./Chicle_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Chicle_400Regular](./Chicle_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

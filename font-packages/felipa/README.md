@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Felipa_400Regular
-![Felipa_400Regular](./Felipa_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Felipa_400Regular](./Felipa_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

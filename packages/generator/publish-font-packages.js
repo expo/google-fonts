@@ -8,22 +8,22 @@ let generator = require('./generator');
 
 async function publishAllFontPackages() {
   let fontDirectory = await generator.getDirectory();
-  let { fontPackagesDir } = generator;
+  let { FontPackagesDir } = generator;
   let i = 0;
   let errors = [];
-  let concurrency = 12;
+  let concurrency = 4;
   let q = new PQueue({ concurrency });
   let bar = new cliProgress.SingleBar(
     {
-      format: ' {bar} {percentage}% | ETA: {eta}s | {value}/{total} | {errorCount} errors | {font}',
+      format: ` {bar} {percentage}% | x${concurrency} | ETA: {eta}s | {value}/{total} | {errorCount} errors | {font}`,
       clearOnComplete: true,
     },
     cliProgress.Presets.shades_classic
   );
-  bar.start(fontDirectory.family.length + 2, i);
-  bar.update(i, { font: 'dev' });
+  bar.start(fontDirectory.items.length + 2, i);
+  bar.update(i, { font: 'dev', errorCount: errors.length });
   try {
-    let devPkgDir = path.join(fontPackagesDir, 'dev');
+    let devPkgDir = path.join(FontPackagesDir, 'dev');
     try {
       await spawnAsync('npm', ['publish'], { cwd: devPkgDir });
     } catch (e) {
@@ -33,7 +33,7 @@ async function publishAllFontPackages() {
     }
 
     bar.update(i, { font: 'font-directory' });
-    let dirPkgDir = path.join(fontPackagesDir, 'font-directory');
+    let dirPkgDir = path.join(FontPackagesDir, 'font-directory');
     try {
       await spawnAsync('npm', ['publish'], { cwd: dirPkgDir });
     } catch (e) {
@@ -42,15 +42,16 @@ async function publishAllFontPackages() {
       i++;
     }
 
-    for (let family of fontDirectory.family) {
-      let pkgDir = path.join(generator.fontPackagesDir, generator.getPackageNameForFamily(family));
+    for (let webfont of fontDirectory.items) {
+      let pkgDir = path.join(FontPackagesDir, generator.getPackageNameForWebfont(webfont));
       let p = q.add(() => spawnAsync('npm', ['publish'], { cwd: pkgDir }));
-      p.fontFamily = family.name;
+      p.fontFamily = webfont.family;
       (async () => {
         try {
           await p;
         } catch (e) {
-          errors.push([family.name, e]);
+          console.error(e);
+          errors.push([webfont.family, e]);
         } finally {
           i++;
           bar.update(i, { font: p.fontFamily, errorCount: errors.length });

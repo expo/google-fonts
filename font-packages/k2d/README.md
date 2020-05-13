@@ -259,53 +259,15 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### K2D_100Thin
-![K2D_100Thin](./K2D_100Thin.ttf.png)
 
-##### K2D_100Thin_Italic
-![K2D_100Thin_Italic](./K2D_100Thin_Italic.ttf.png)
-
-##### K2D_200ExtraLight
-![K2D_200ExtraLight](./K2D_200ExtraLight.ttf.png)
-
-##### K2D_200ExtraLight_Italic
-![K2D_200ExtraLight_Italic](./K2D_200ExtraLight_Italic.ttf.png)
-
-##### K2D_300Light
-![K2D_300Light](./K2D_300Light.ttf.png)
-
-##### K2D_300Light_Italic
-![K2D_300Light_Italic](./K2D_300Light_Italic.ttf.png)
-
-##### K2D_400Regular
-![K2D_400Regular](./K2D_400Regular.ttf.png)
-
-##### K2D_400Regular_Italic
-![K2D_400Regular_Italic](./K2D_400Regular_Italic.ttf.png)
-
-##### K2D_500Medium
-![K2D_500Medium](./K2D_500Medium.ttf.png)
-
-##### K2D_500Medium_Italic
-![K2D_500Medium_Italic](./K2D_500Medium_Italic.ttf.png)
-
-##### K2D_600SemiBold
-![K2D_600SemiBold](./K2D_600SemiBold.ttf.png)
-
-##### K2D_600SemiBold_Italic
-![K2D_600SemiBold_Italic](./K2D_600SemiBold_Italic.ttf.png)
-
-##### K2D_700Bold
-![K2D_700Bold](./K2D_700Bold.ttf.png)
-
-##### K2D_700Bold_Italic
-![K2D_700Bold_Italic](./K2D_700Bold_Italic.ttf.png)
-
-##### K2D_800ExtraBold
-![K2D_800ExtraBold](./K2D_800ExtraBold.ttf.png)
-
-##### K2D_800ExtraBold_Italic
-![K2D_800ExtraBold_Italic](./K2D_800ExtraBold_Italic.ttf.png)
+||||
+|-|-|-|
+|![K2D_100Thin](./K2D_100Thin.ttf.png)|![K2D_100Thin_Italic](./K2D_100Thin_Italic.ttf.png)|![K2D_200ExtraLight](./K2D_200ExtraLight.ttf.png)||
+|![K2D_200ExtraLight_Italic](./K2D_200ExtraLight_Italic.ttf.png)|![K2D_300Light](./K2D_300Light.ttf.png)|![K2D_300Light_Italic](./K2D_300Light_Italic.ttf.png)||
+|![K2D_400Regular](./K2D_400Regular.ttf.png)|![K2D_400Regular_Italic](./K2D_400Regular_Italic.ttf.png)|![K2D_500Medium](./K2D_500Medium.ttf.png)||
+|![K2D_500Medium_Italic](./K2D_500Medium_Italic.ttf.png)|![K2D_600SemiBold](./K2D_600SemiBold.ttf.png)|![K2D_600SemiBold_Italic](./K2D_600SemiBold_Italic.ttf.png)||
+|![K2D_700Bold](./K2D_700Bold.ttf.png)|![K2D_700Bold_Italic](./K2D_700Bold_Italic.ttf.png)|![K2D_800ExtraBold](./K2D_800ExtraBold.ttf.png)||
+|![K2D_800ExtraBold_Italic](./K2D_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

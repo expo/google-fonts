@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Lustria_400Regular
-![Lustria_400Regular](./Lustria_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Lustria_400Regular](./Lustria_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

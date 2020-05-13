@@ -168,32 +168,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SairaSemiCondensed_100Thin
-![SairaSemiCondensed_100Thin](./SairaSemiCondensed_100Thin.ttf.png)
 
-##### SairaSemiCondensed_200ExtraLight
-![SairaSemiCondensed_200ExtraLight](./SairaSemiCondensed_200ExtraLight.ttf.png)
-
-##### SairaSemiCondensed_300Light
-![SairaSemiCondensed_300Light](./SairaSemiCondensed_300Light.ttf.png)
-
-##### SairaSemiCondensed_400Regular
-![SairaSemiCondensed_400Regular](./SairaSemiCondensed_400Regular.ttf.png)
-
-##### SairaSemiCondensed_500Medium
-![SairaSemiCondensed_500Medium](./SairaSemiCondensed_500Medium.ttf.png)
-
-##### SairaSemiCondensed_600SemiBold
-![SairaSemiCondensed_600SemiBold](./SairaSemiCondensed_600SemiBold.ttf.png)
-
-##### SairaSemiCondensed_700Bold
-![SairaSemiCondensed_700Bold](./SairaSemiCondensed_700Bold.ttf.png)
-
-##### SairaSemiCondensed_800ExtraBold
-![SairaSemiCondensed_800ExtraBold](./SairaSemiCondensed_800ExtraBold.ttf.png)
-
-##### SairaSemiCondensed_900Black
-![SairaSemiCondensed_900Black](./SairaSemiCondensed_900Black.ttf.png)
+||||
+|-|-|-|
+|![SairaSemiCondensed_100Thin](./SairaSemiCondensed_100Thin.ttf.png)|![SairaSemiCondensed_200ExtraLight](./SairaSemiCondensed_200ExtraLight.ttf.png)|![SairaSemiCondensed_300Light](./SairaSemiCondensed_300Light.ttf.png)||
+|![SairaSemiCondensed_400Regular](./SairaSemiCondensed_400Regular.ttf.png)|![SairaSemiCondensed_500Medium](./SairaSemiCondensed_500Medium.ttf.png)|![SairaSemiCondensed_600SemiBold](./SairaSemiCondensed_600SemiBold.ttf.png)||
+|![SairaSemiCondensed_700Bold](./SairaSemiCondensed_700Bold.ttf.png)|![SairaSemiCondensed_800ExtraBold](./SairaSemiCondensed_800ExtraBold.ttf.png)|![SairaSemiCondensed_900Black](./SairaSemiCondensed_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

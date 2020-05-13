@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Timmana_400Regular
-![Timmana_400Regular](./Timmana_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Timmana_400Regular](./Timmana_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

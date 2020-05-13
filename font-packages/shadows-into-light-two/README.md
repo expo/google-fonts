@@ -64,8 +64,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ShadowsIntoLightTwo_400Regular
-![ShadowsIntoLightTwo_400Regular](./ShadowsIntoLightTwo_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![ShadowsIntoLightTwo_400Regular](./ShadowsIntoLightTwo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

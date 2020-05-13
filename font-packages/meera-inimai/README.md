@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MeeraInimai_400Regular
-![MeeraInimai_400Regular](./MeeraInimai_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MeeraInimai_400Regular](./MeeraInimai_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

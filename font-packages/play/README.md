@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Play_400Regular
-![Play_400Regular](./Play_400Regular.ttf.png)
 
-##### Play_700Bold
-![Play_700Bold](./Play_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Play_400Regular](./Play_400Regular.ttf.png)|![Play_700Bold](./Play_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

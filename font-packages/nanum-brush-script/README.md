@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NanumBrushScript_400Regular
-![NanumBrushScript_400Regular](./NanumBrushScript_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![NanumBrushScript_400Regular](./NanumBrushScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

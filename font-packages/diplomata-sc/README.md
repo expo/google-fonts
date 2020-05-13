@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DiplomataSC_400Regular
-![DiplomataSC_400Regular](./DiplomataSC_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![DiplomataSC_400Regular](./DiplomataSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

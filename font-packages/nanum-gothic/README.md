@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NanumGothic_400Regular
-![NanumGothic_400Regular](./NanumGothic_400Regular.ttf.png)
 
-##### NanumGothic_700Bold
-![NanumGothic_700Bold](./NanumGothic_700Bold.ttf.png)
-
-##### NanumGothic_800ExtraBold
-![NanumGothic_800ExtraBold](./NanumGothic_800ExtraBold.ttf.png)
+||||
+|-|-|-|
+|![NanumGothic_400Regular](./NanumGothic_400Regular.ttf.png)|![NanumGothic_700Bold](./NanumGothic_700Bold.ttf.png)|![NanumGothic_800ExtraBold](./NanumGothic_800ExtraBold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

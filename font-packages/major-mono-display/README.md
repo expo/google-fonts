@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MajorMonoDisplay_400Regular
-![MajorMonoDisplay_400Regular](./MajorMonoDisplay_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MajorMonoDisplay_400Regular](./MajorMonoDisplay_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

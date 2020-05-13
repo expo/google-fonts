@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Thasadith_400Regular
-![Thasadith_400Regular](./Thasadith_400Regular.ttf.png)
 
-##### Thasadith_400Regular_Italic
-![Thasadith_400Regular_Italic](./Thasadith_400Regular_Italic.ttf.png)
-
-##### Thasadith_700Bold
-![Thasadith_700Bold](./Thasadith_700Bold.ttf.png)
-
-##### Thasadith_700Bold_Italic
-![Thasadith_700Bold_Italic](./Thasadith_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Thasadith_400Regular](./Thasadith_400Regular.ttf.png)|![Thasadith_400Regular_Italic](./Thasadith_400Regular_Italic.ttf.png)|![Thasadith_700Bold](./Thasadith_700Bold.ttf.png)||
+|![Thasadith_700Bold_Italic](./Thasadith_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

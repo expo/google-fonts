@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RhodiumLibre_400Regular
-![RhodiumLibre_400Regular](./RhodiumLibre_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![RhodiumLibre_400Regular](./RhodiumLibre_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LibreBarcode128_400Regular
-![LibreBarcode128_400Regular](./LibreBarcode128_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![LibreBarcode128_400Regular](./LibreBarcode128_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

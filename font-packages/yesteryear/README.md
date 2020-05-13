@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Yesteryear_400Regular
-![Yesteryear_400Regular](./Yesteryear_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Yesteryear_400Regular](./Yesteryear_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -181,35 +181,13 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Lato_100Thin
-![Lato_100Thin](./Lato_100Thin.ttf.png)
 
-##### Lato_100Thin_Italic
-![Lato_100Thin_Italic](./Lato_100Thin_Italic.ttf.png)
-
-##### Lato_300Light
-![Lato_300Light](./Lato_300Light.ttf.png)
-
-##### Lato_300Light_Italic
-![Lato_300Light_Italic](./Lato_300Light_Italic.ttf.png)
-
-##### Lato_400Regular
-![Lato_400Regular](./Lato_400Regular.ttf.png)
-
-##### Lato_400Regular_Italic
-![Lato_400Regular_Italic](./Lato_400Regular_Italic.ttf.png)
-
-##### Lato_700Bold
-![Lato_700Bold](./Lato_700Bold.ttf.png)
-
-##### Lato_700Bold_Italic
-![Lato_700Bold_Italic](./Lato_700Bold_Italic.ttf.png)
-
-##### Lato_900Black
-![Lato_900Black](./Lato_900Black.ttf.png)
-
-##### Lato_900Black_Italic
-![Lato_900Black_Italic](./Lato_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![Lato_100Thin](./Lato_100Thin.ttf.png)|![Lato_100Thin_Italic](./Lato_100Thin_Italic.ttf.png)|![Lato_300Light](./Lato_300Light.ttf.png)||
+|![Lato_300Light_Italic](./Lato_300Light_Italic.ttf.png)|![Lato_400Regular](./Lato_400Regular.ttf.png)|![Lato_400Regular_Italic](./Lato_400Regular_Italic.ttf.png)||
+|![Lato_700Bold](./Lato_700Bold.ttf.png)|![Lato_700Bold_Italic](./Lato_700Bold_Italic.ttf.png)|![Lato_900Black](./Lato_900Black.ttf.png)||
+|![Lato_900Black_Italic](./Lato_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

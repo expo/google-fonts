@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rasa_300Light
-![Rasa_300Light](./Rasa_300Light.ttf.png)
 
-##### Rasa_400Regular
-![Rasa_400Regular](./Rasa_400Regular.ttf.png)
-
-##### Rasa_500Medium
-![Rasa_500Medium](./Rasa_500Medium.ttf.png)
-
-##### Rasa_600SemiBold
-![Rasa_600SemiBold](./Rasa_600SemiBold.ttf.png)
-
-##### Rasa_700Bold
-![Rasa_700Bold](./Rasa_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Rasa_300Light](./Rasa_300Light.ttf.png)|![Rasa_400Regular](./Rasa_400Regular.ttf.png)|![Rasa_500Medium](./Rasa_500Medium.ttf.png)||
+|![Rasa_600SemiBold](./Rasa_600SemiBold.ttf.png)|![Rasa_700Bold](./Rasa_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

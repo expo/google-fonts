@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Michroma_400Regular
-![Michroma_400Regular](./Michroma_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Michroma_400Regular](./Michroma_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

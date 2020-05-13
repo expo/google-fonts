@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MedulaOne_400Regular
-![MedulaOne_400Regular](./MedulaOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MedulaOne_400Regular](./MedulaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

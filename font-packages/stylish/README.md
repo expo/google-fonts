@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Stylish_400Regular
-![Stylish_400Regular](./Stylish_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Stylish_400Regular](./Stylish_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

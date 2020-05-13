@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### OdibeeSans_400Regular
-![OdibeeSans_400Regular](./OdibeeSans_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![OdibeeSans_400Regular](./OdibeeSans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

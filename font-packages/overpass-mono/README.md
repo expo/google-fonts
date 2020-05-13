@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### OverpassMono_300Light
-![OverpassMono_300Light](./OverpassMono_300Light.ttf.png)
 
-##### OverpassMono_400Regular
-![OverpassMono_400Regular](./OverpassMono_400Regular.ttf.png)
-
-##### OverpassMono_600SemiBold
-![OverpassMono_600SemiBold](./OverpassMono_600SemiBold.ttf.png)
-
-##### OverpassMono_700Bold
-![OverpassMono_700Bold](./OverpassMono_700Bold.ttf.png)
+||||
+|-|-|-|
+|![OverpassMono_300Light](./OverpassMono_300Light.ttf.png)|![OverpassMono_400Regular](./OverpassMono_400Regular.ttf.png)|![OverpassMono_600SemiBold](./OverpassMono_600SemiBold.ttf.png)||
+|![OverpassMono_700Bold](./OverpassMono_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

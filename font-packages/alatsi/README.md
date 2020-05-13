@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Alatsi_400Regular
-![Alatsi_400Regular](./Alatsi_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Alatsi_400Regular](./Alatsi_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

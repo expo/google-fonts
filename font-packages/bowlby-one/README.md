@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BowlbyOne_400Regular
-![BowlbyOne_400Regular](./BowlbyOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![BowlbyOne_400Regular](./BowlbyOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

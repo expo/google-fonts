@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HomemadeApple_400Regular
-![HomemadeApple_400Regular](./HomemadeApple_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![HomemadeApple_400Regular](./HomemadeApple_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Piedra_400Regular
-![Piedra_400Regular](./Piedra_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Piedra_400Regular](./Piedra_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

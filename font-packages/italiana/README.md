@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Italiana_400Regular
-![Italiana_400Regular](./Italiana_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Italiana_400Regular](./Italiana_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

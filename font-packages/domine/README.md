@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Domine_400Regular
-![Domine_400Regular](./Domine_400Regular.ttf.png)
 
-##### Domine_700Bold
-![Domine_700Bold](./Domine_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Domine_400Regular](./Domine_400Regular.ttf.png)|![Domine_700Bold](./Domine_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

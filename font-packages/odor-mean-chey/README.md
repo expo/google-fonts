@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### OdorMeanChey_400Regular
-![OdorMeanChey_400Regular](./OdorMeanChey_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![OdorMeanChey_400Regular](./OdorMeanChey_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

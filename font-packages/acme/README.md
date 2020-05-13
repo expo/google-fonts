@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Acme_400Regular
-![Acme_400Regular](./Acme_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Acme_400Regular](./Acme_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

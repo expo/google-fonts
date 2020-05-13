@@ -181,35 +181,13 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rubik_300Light
-![Rubik_300Light](./Rubik_300Light.ttf.png)
 
-##### Rubik_300Light_Italic
-![Rubik_300Light_Italic](./Rubik_300Light_Italic.ttf.png)
-
-##### Rubik_400Regular
-![Rubik_400Regular](./Rubik_400Regular.ttf.png)
-
-##### Rubik_400Regular_Italic
-![Rubik_400Regular_Italic](./Rubik_400Regular_Italic.ttf.png)
-
-##### Rubik_500Medium
-![Rubik_500Medium](./Rubik_500Medium.ttf.png)
-
-##### Rubik_500Medium_Italic
-![Rubik_500Medium_Italic](./Rubik_500Medium_Italic.ttf.png)
-
-##### Rubik_700Bold
-![Rubik_700Bold](./Rubik_700Bold.ttf.png)
-
-##### Rubik_700Bold_Italic
-![Rubik_700Bold_Italic](./Rubik_700Bold_Italic.ttf.png)
-
-##### Rubik_900Black
-![Rubik_900Black](./Rubik_900Black.ttf.png)
-
-##### Rubik_900Black_Italic
-![Rubik_900Black_Italic](./Rubik_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![Rubik_300Light](./Rubik_300Light.ttf.png)|![Rubik_300Light_Italic](./Rubik_300Light_Italic.ttf.png)|![Rubik_400Regular](./Rubik_400Regular.ttf.png)||
+|![Rubik_400Regular_Italic](./Rubik_400Regular_Italic.ttf.png)|![Rubik_500Medium](./Rubik_500Medium.ttf.png)|![Rubik_500Medium_Italic](./Rubik_500Medium_Italic.ttf.png)||
+|![Rubik_700Bold](./Rubik_700Bold.ttf.png)|![Rubik_700Bold_Italic](./Rubik_700Bold_Italic.ttf.png)|![Rubik_900Black](./Rubik_900Black.ttf.png)||
+|![Rubik_900Black_Italic](./Rubik_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

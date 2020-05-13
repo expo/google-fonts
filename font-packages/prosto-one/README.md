@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ProstoOne_400Regular
-![ProstoOne_400Regular](./ProstoOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![ProstoOne_400Regular](./ProstoOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

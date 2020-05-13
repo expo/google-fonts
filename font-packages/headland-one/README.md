@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HeadlandOne_400Regular
-![HeadlandOne_400Regular](./HeadlandOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![HeadlandOne_400Regular](./HeadlandOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Notable_400Regular
-![Notable_400Regular](./Notable_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Notable_400Regular](./Notable_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

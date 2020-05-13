@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gabriela_400Regular
-![Gabriela_400Regular](./Gabriela_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Gabriela_400Regular](./Gabriela_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

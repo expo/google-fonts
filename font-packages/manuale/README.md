@@ -155,29 +155,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Manuale_400Regular
-![Manuale_400Regular](./Manuale_400Regular.ttf.png)
 
-##### Manuale_500Medium
-![Manuale_500Medium](./Manuale_500Medium.ttf.png)
-
-##### Manuale_600SemiBold
-![Manuale_600SemiBold](./Manuale_600SemiBold.ttf.png)
-
-##### Manuale_700Bold
-![Manuale_700Bold](./Manuale_700Bold.ttf.png)
-
-##### Manuale_400Regular_Italic
-![Manuale_400Regular_Italic](./Manuale_400Regular_Italic.ttf.png)
-
-##### Manuale_500Medium_Italic
-![Manuale_500Medium_Italic](./Manuale_500Medium_Italic.ttf.png)
-
-##### Manuale_600SemiBold_Italic
-![Manuale_600SemiBold_Italic](./Manuale_600SemiBold_Italic.ttf.png)
-
-##### Manuale_700Bold_Italic
-![Manuale_700Bold_Italic](./Manuale_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Manuale_400Regular](./Manuale_400Regular.ttf.png)|![Manuale_500Medium](./Manuale_500Medium.ttf.png)|![Manuale_600SemiBold](./Manuale_600SemiBold.ttf.png)||
+|![Manuale_700Bold](./Manuale_700Bold.ttf.png)|![Manuale_400Regular_Italic](./Manuale_400Regular_Italic.ttf.png)|![Manuale_500Medium_Italic](./Manuale_500Medium_Italic.ttf.png)||
+|![Manuale_600SemiBold_Italic](./Manuale_600SemiBold_Italic.ttf.png)|![Manuale_700Bold_Italic](./Manuale_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

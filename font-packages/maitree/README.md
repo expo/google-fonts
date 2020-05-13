@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Maitree_200ExtraLight
-![Maitree_200ExtraLight](./Maitree_200ExtraLight.ttf.png)
 
-##### Maitree_300Light
-![Maitree_300Light](./Maitree_300Light.ttf.png)
-
-##### Maitree_400Regular
-![Maitree_400Regular](./Maitree_400Regular.ttf.png)
-
-##### Maitree_500Medium
-![Maitree_500Medium](./Maitree_500Medium.ttf.png)
-
-##### Maitree_600SemiBold
-![Maitree_600SemiBold](./Maitree_600SemiBold.ttf.png)
-
-##### Maitree_700Bold
-![Maitree_700Bold](./Maitree_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Maitree_200ExtraLight](./Maitree_200ExtraLight.ttf.png)|![Maitree_300Light](./Maitree_300Light.ttf.png)|![Maitree_400Regular](./Maitree_400Regular.ttf.png)||
+|![Maitree_500Medium](./Maitree_500Medium.ttf.png)|![Maitree_600SemiBold](./Maitree_600SemiBold.ttf.png)|![Maitree_700Bold](./Maitree_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

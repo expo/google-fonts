@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Alice_400Regular
-![Alice_400Regular](./Alice_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Alice_400Regular](./Alice_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

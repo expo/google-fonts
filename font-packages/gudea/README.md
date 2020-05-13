@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gudea_400Regular
-![Gudea_400Regular](./Gudea_400Regular.ttf.png)
 
-##### Gudea_400Regular_Italic
-![Gudea_400Regular_Italic](./Gudea_400Regular_Italic.ttf.png)
-
-##### Gudea_700Bold
-![Gudea_700Bold](./Gudea_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Gudea_400Regular](./Gudea_400Regular.ttf.png)|![Gudea_400Regular_Italic](./Gudea_400Regular_Italic.ttf.png)|![Gudea_700Bold](./Gudea_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

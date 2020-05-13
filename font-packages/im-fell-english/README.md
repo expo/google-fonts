@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IMFellEnglish_400Regular
-![IMFellEnglish_400Regular](./IMFellEnglish_400Regular.ttf.png)
 
-##### IMFellEnglish_400Regular_Italic
-![IMFellEnglish_400Regular_Italic](./IMFellEnglish_400Regular_Italic.ttf.png)
+||||
+|-|-|-|
+|![IMFellEnglish_400Regular](./IMFellEnglish_400Regular.ttf.png)|![IMFellEnglish_400Regular_Italic](./IMFellEnglish_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

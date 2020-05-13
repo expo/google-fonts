@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Belleza_400Regular
-![Belleza_400Regular](./Belleza_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Belleza_400Regular](./Belleza_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

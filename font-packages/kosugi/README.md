@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Kosugi_400Regular
-![Kosugi_400Regular](./Kosugi_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Kosugi_400Regular](./Kosugi_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

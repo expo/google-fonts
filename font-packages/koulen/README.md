@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Koulen_400Regular
-![Koulen_400Regular](./Koulen_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Koulen_400Regular](./Koulen_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

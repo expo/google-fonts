@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Atma_300Light
-![Atma_300Light](./Atma_300Light.ttf.png)
 
-##### Atma_400Regular
-![Atma_400Regular](./Atma_400Regular.ttf.png)
-
-##### Atma_500Medium
-![Atma_500Medium](./Atma_500Medium.ttf.png)
-
-##### Atma_600SemiBold
-![Atma_600SemiBold](./Atma_600SemiBold.ttf.png)
-
-##### Atma_700Bold
-![Atma_700Bold](./Atma_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Atma_300Light](./Atma_300Light.ttf.png)|![Atma_400Regular](./Atma_400Regular.ttf.png)|![Atma_500Medium](./Atma_500Medium.ttf.png)||
+|![Atma_600SemiBold](./Atma_600SemiBold.ttf.png)|![Atma_700Bold](./Atma_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

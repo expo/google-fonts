@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Fasthand_400Regular
-![Fasthand_400Regular](./Fasthand_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Fasthand_400Regular](./Fasthand_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

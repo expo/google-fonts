@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Kadwa_400Regular
-![Kadwa_400Regular](./Kadwa_400Regular.ttf.png)
 
-##### Kadwa_700Bold
-![Kadwa_700Bold](./Kadwa_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Kadwa_400Regular](./Kadwa_400Regular.ttf.png)|![Kadwa_700Bold](./Kadwa_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

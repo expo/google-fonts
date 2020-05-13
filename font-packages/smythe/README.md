@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Smythe_400Regular
-![Smythe_400Regular](./Smythe_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Smythe_400Regular](./Smythe_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### UnicaOne_400Regular
-![UnicaOne_400Regular](./UnicaOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![UnicaOne_400Regular](./UnicaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

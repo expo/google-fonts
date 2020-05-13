@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PontanoSans_400Regular
-![PontanoSans_400Regular](./PontanoSans_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![PontanoSans_400Regular](./PontanoSans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

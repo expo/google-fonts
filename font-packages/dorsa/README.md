@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Dorsa_400Regular
-![Dorsa_400Regular](./Dorsa_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Dorsa_400Regular](./Dorsa_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

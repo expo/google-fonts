@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rakkas_400Regular
-![Rakkas_400Regular](./Rakkas_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Rakkas_400Regular](./Rakkas_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

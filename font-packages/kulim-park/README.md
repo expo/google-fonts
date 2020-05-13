@@ -181,35 +181,13 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### KulimPark_200ExtraLight
-![KulimPark_200ExtraLight](./KulimPark_200ExtraLight.ttf.png)
 
-##### KulimPark_200ExtraLight_Italic
-![KulimPark_200ExtraLight_Italic](./KulimPark_200ExtraLight_Italic.ttf.png)
-
-##### KulimPark_300Light
-![KulimPark_300Light](./KulimPark_300Light.ttf.png)
-
-##### KulimPark_300Light_Italic
-![KulimPark_300Light_Italic](./KulimPark_300Light_Italic.ttf.png)
-
-##### KulimPark_400Regular
-![KulimPark_400Regular](./KulimPark_400Regular.ttf.png)
-
-##### KulimPark_400Regular_Italic
-![KulimPark_400Regular_Italic](./KulimPark_400Regular_Italic.ttf.png)
-
-##### KulimPark_600SemiBold
-![KulimPark_600SemiBold](./KulimPark_600SemiBold.ttf.png)
-
-##### KulimPark_600SemiBold_Italic
-![KulimPark_600SemiBold_Italic](./KulimPark_600SemiBold_Italic.ttf.png)
-
-##### KulimPark_700Bold
-![KulimPark_700Bold](./KulimPark_700Bold.ttf.png)
-
-##### KulimPark_700Bold_Italic
-![KulimPark_700Bold_Italic](./KulimPark_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![KulimPark_200ExtraLight](./KulimPark_200ExtraLight.ttf.png)|![KulimPark_200ExtraLight_Italic](./KulimPark_200ExtraLight_Italic.ttf.png)|![KulimPark_300Light](./KulimPark_300Light.ttf.png)||
+|![KulimPark_300Light_Italic](./KulimPark_300Light_Italic.ttf.png)|![KulimPark_400Regular](./KulimPark_400Regular.ttf.png)|![KulimPark_400Regular_Italic](./KulimPark_400Regular_Italic.ttf.png)||
+|![KulimPark_600SemiBold](./KulimPark_600SemiBold.ttf.png)|![KulimPark_600SemiBold_Italic](./KulimPark_600SemiBold_Italic.ttf.png)|![KulimPark_700Bold](./KulimPark_700Bold.ttf.png)||
+|![KulimPark_700Bold_Italic](./KulimPark_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

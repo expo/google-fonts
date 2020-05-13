@@ -155,29 +155,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Chivo_300Light
-![Chivo_300Light](./Chivo_300Light.ttf.png)
 
-##### Chivo_300Light_Italic
-![Chivo_300Light_Italic](./Chivo_300Light_Italic.ttf.png)
-
-##### Chivo_400Regular
-![Chivo_400Regular](./Chivo_400Regular.ttf.png)
-
-##### Chivo_400Regular_Italic
-![Chivo_400Regular_Italic](./Chivo_400Regular_Italic.ttf.png)
-
-##### Chivo_700Bold
-![Chivo_700Bold](./Chivo_700Bold.ttf.png)
-
-##### Chivo_700Bold_Italic
-![Chivo_700Bold_Italic](./Chivo_700Bold_Italic.ttf.png)
-
-##### Chivo_900Black
-![Chivo_900Black](./Chivo_900Black.ttf.png)
-
-##### Chivo_900Black_Italic
-![Chivo_900Black_Italic](./Chivo_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![Chivo_300Light](./Chivo_300Light.ttf.png)|![Chivo_300Light_Italic](./Chivo_300Light_Italic.ttf.png)|![Chivo_400Regular](./Chivo_400Regular.ttf.png)||
+|![Chivo_400Regular_Italic](./Chivo_400Regular_Italic.ttf.png)|![Chivo_700Bold](./Chivo_700Bold.ttf.png)|![Chivo_700Bold_Italic](./Chivo_700Bold_Italic.ttf.png)||
+|![Chivo_900Black](./Chivo_900Black.ttf.png)|![Chivo_900Black_Italic](./Chivo_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

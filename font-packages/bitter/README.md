@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Bitter_400Regular
-![Bitter_400Regular](./Bitter_400Regular.ttf.png)
 
-##### Bitter_400Regular_Italic
-![Bitter_400Regular_Italic](./Bitter_400Regular_Italic.ttf.png)
-
-##### Bitter_700Bold
-![Bitter_700Bold](./Bitter_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Bitter_400Regular](./Bitter_400Regular.ttf.png)|![Bitter_400Regular_Italic](./Bitter_400Regular_Italic.ttf.png)|![Bitter_700Bold](./Bitter_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

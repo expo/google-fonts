@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PatuaOne_400Regular
-![PatuaOne_400Regular](./PatuaOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![PatuaOne_400Regular](./PatuaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

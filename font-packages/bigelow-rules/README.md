@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BigelowRules_400Regular
-![BigelowRules_400Regular](./BigelowRules_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![BigelowRules_400Regular](./BigelowRules_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

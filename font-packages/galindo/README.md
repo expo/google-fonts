@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Galindo_400Regular
-![Galindo_400Regular](./Galindo_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Galindo_400Regular](./Galindo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

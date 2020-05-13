@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MavenPro_400Regular
-![MavenPro_400Regular](./MavenPro_400Regular.ttf.png)
 
-##### MavenPro_500Medium
-![MavenPro_500Medium](./MavenPro_500Medium.ttf.png)
-
-##### MavenPro_600SemiBold
-![MavenPro_600SemiBold](./MavenPro_600SemiBold.ttf.png)
-
-##### MavenPro_700Bold
-![MavenPro_700Bold](./MavenPro_700Bold.ttf.png)
-
-##### MavenPro_800ExtraBold
-![MavenPro_800ExtraBold](./MavenPro_800ExtraBold.ttf.png)
-
-##### MavenPro_900Black
-![MavenPro_900Black](./MavenPro_900Black.ttf.png)
+||||
+|-|-|-|
+|![MavenPro_400Regular](./MavenPro_400Regular.ttf.png)|![MavenPro_500Medium](./MavenPro_500Medium.ttf.png)|![MavenPro_600SemiBold](./MavenPro_600SemiBold.ttf.png)||
+|![MavenPro_700Bold](./MavenPro_700Bold.ttf.png)|![MavenPro_800ExtraBold](./MavenPro_800ExtraBold.ttf.png)|![MavenPro_900Black](./MavenPro_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

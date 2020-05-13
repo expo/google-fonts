@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Dangrek_400Regular
-![Dangrek_400Regular](./Dangrek_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Dangrek_400Regular](./Dangrek_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

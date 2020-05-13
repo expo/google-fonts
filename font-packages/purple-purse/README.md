@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PurplePurse_400Regular
-![PurplePurse_400Regular](./PurplePurse_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![PurplePurse_400Regular](./PurplePurse_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

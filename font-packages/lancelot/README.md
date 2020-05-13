@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Lancelot_400Regular
-![Lancelot_400Regular](./Lancelot_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Lancelot_400Regular](./Lancelot_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

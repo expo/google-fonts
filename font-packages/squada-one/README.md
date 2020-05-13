@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SquadaOne_400Regular
-![SquadaOne_400Regular](./SquadaOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![SquadaOne_400Regular](./SquadaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

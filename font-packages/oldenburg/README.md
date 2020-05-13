@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Oldenburg_400Regular
-![Oldenburg_400Regular](./Oldenburg_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Oldenburg_400Regular](./Oldenburg_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

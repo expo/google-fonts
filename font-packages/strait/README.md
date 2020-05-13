@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Strait_400Regular
-![Strait_400Regular](./Strait_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Strait_400Regular](./Strait_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

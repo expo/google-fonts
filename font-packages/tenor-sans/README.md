@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### TenorSans_400Regular
-![TenorSans_400Regular](./TenorSans_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![TenorSans_400Regular](./TenorSans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

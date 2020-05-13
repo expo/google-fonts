@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### OverlockSC_400Regular
-![OverlockSC_400Regular](./OverlockSC_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![OverlockSC_400Regular](./OverlockSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

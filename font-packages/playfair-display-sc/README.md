@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PlayfairDisplaySC_400Regular
-![PlayfairDisplaySC_400Regular](./PlayfairDisplaySC_400Regular.ttf.png)
 
-##### PlayfairDisplaySC_400Regular_Italic
-![PlayfairDisplaySC_400Regular_Italic](./PlayfairDisplaySC_400Regular_Italic.ttf.png)
-
-##### PlayfairDisplaySC_700Bold
-![PlayfairDisplaySC_700Bold](./PlayfairDisplaySC_700Bold.ttf.png)
-
-##### PlayfairDisplaySC_700Bold_Italic
-![PlayfairDisplaySC_700Bold_Italic](./PlayfairDisplaySC_700Bold_Italic.ttf.png)
-
-##### PlayfairDisplaySC_900Black
-![PlayfairDisplaySC_900Black](./PlayfairDisplaySC_900Black.ttf.png)
-
-##### PlayfairDisplaySC_900Black_Italic
-![PlayfairDisplaySC_900Black_Italic](./PlayfairDisplaySC_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![PlayfairDisplaySC_400Regular](./PlayfairDisplaySC_400Regular.ttf.png)|![PlayfairDisplaySC_400Regular_Italic](./PlayfairDisplaySC_400Regular_Italic.ttf.png)|![PlayfairDisplaySC_700Bold](./PlayfairDisplaySC_700Bold.ttf.png)||
+|![PlayfairDisplaySC_700Bold_Italic](./PlayfairDisplaySC_700Bold_Italic.ttf.png)|![PlayfairDisplaySC_900Black](./PlayfairDisplaySC_900Black.ttf.png)|![PlayfairDisplaySC_900Black_Italic](./PlayfairDisplaySC_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

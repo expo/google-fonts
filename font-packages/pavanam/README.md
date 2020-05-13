@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Pavanam_400Regular
-![Pavanam_400Regular](./Pavanam_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Pavanam_400Regular](./Pavanam_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IrishGrover_400Regular
-![IrishGrover_400Regular](./IrishGrover_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![IrishGrover_400Regular](./IrishGrover_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

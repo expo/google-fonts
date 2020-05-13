@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FrankRuhlLibre_300Light
-![FrankRuhlLibre_300Light](./FrankRuhlLibre_300Light.ttf.png)
 
-##### FrankRuhlLibre_400Regular
-![FrankRuhlLibre_400Regular](./FrankRuhlLibre_400Regular.ttf.png)
-
-##### FrankRuhlLibre_500Medium
-![FrankRuhlLibre_500Medium](./FrankRuhlLibre_500Medium.ttf.png)
-
-##### FrankRuhlLibre_700Bold
-![FrankRuhlLibre_700Bold](./FrankRuhlLibre_700Bold.ttf.png)
-
-##### FrankRuhlLibre_900Black
-![FrankRuhlLibre_900Black](./FrankRuhlLibre_900Black.ttf.png)
+||||
+|-|-|-|
+|![FrankRuhlLibre_300Light](./FrankRuhlLibre_300Light.ttf.png)|![FrankRuhlLibre_400Regular](./FrankRuhlLibre_400Regular.ttf.png)|![FrankRuhlLibre_500Medium](./FrankRuhlLibre_500Medium.ttf.png)||
+|![FrankRuhlLibre_700Bold](./FrankRuhlLibre_700Bold.ttf.png)|![FrankRuhlLibre_900Black](./FrankRuhlLibre_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Manjari_100Thin
-![Manjari_100Thin](./Manjari_100Thin.ttf.png)
 
-##### Manjari_400Regular
-![Manjari_400Regular](./Manjari_400Regular.ttf.png)
-
-##### Manjari_700Bold
-![Manjari_700Bold](./Manjari_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Manjari_100Thin](./Manjari_100Thin.ttf.png)|![Manjari_400Regular](./Manjari_400Regular.ttf.png)|![Manjari_700Bold](./Manjari_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

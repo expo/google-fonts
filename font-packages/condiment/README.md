@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Condiment_400Regular
-![Condiment_400Regular](./Condiment_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Condiment_400Regular](./Condiment_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

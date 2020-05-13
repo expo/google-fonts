@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ShareTechMono_400Regular
-![ShareTechMono_400Regular](./ShareTechMono_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![ShareTechMono_400Regular](./ShareTechMono_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

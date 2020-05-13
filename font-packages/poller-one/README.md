@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PollerOne_400Regular
-![PollerOne_400Regular](./PollerOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![PollerOne_400Regular](./PollerOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

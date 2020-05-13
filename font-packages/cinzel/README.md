@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Cinzel_400Regular
-![Cinzel_400Regular](./Cinzel_400Regular.ttf.png)
 
-##### Cinzel_700Bold
-![Cinzel_700Bold](./Cinzel_700Bold.ttf.png)
-
-##### Cinzel_900Black
-![Cinzel_900Black](./Cinzel_900Black.ttf.png)
+||||
+|-|-|-|
+|![Cinzel_400Regular](./Cinzel_400Regular.ttf.png)|![Cinzel_700Bold](./Cinzel_700Bold.ttf.png)|![Cinzel_900Black](./Cinzel_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

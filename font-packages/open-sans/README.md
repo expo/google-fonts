@@ -181,35 +181,13 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### OpenSans_300Light
-![OpenSans_300Light](./OpenSans_300Light.ttf.png)
 
-##### OpenSans_300Light_Italic
-![OpenSans_300Light_Italic](./OpenSans_300Light_Italic.ttf.png)
-
-##### OpenSans_400Regular
-![OpenSans_400Regular](./OpenSans_400Regular.ttf.png)
-
-##### OpenSans_400Regular_Italic
-![OpenSans_400Regular_Italic](./OpenSans_400Regular_Italic.ttf.png)
-
-##### OpenSans_600SemiBold
-![OpenSans_600SemiBold](./OpenSans_600SemiBold.ttf.png)
-
-##### OpenSans_600SemiBold_Italic
-![OpenSans_600SemiBold_Italic](./OpenSans_600SemiBold_Italic.ttf.png)
-
-##### OpenSans_700Bold
-![OpenSans_700Bold](./OpenSans_700Bold.ttf.png)
-
-##### OpenSans_700Bold_Italic
-![OpenSans_700Bold_Italic](./OpenSans_700Bold_Italic.ttf.png)
-
-##### OpenSans_800ExtraBold
-![OpenSans_800ExtraBold](./OpenSans_800ExtraBold.ttf.png)
-
-##### OpenSans_800ExtraBold_Italic
-![OpenSans_800ExtraBold_Italic](./OpenSans_800ExtraBold_Italic.ttf.png)
+||||
+|-|-|-|
+|![OpenSans_300Light](./OpenSans_300Light.ttf.png)|![OpenSans_300Light_Italic](./OpenSans_300Light_Italic.ttf.png)|![OpenSans_400Regular](./OpenSans_400Regular.ttf.png)||
+|![OpenSans_400Regular_Italic](./OpenSans_400Regular_Italic.ttf.png)|![OpenSans_600SemiBold](./OpenSans_600SemiBold.ttf.png)|![OpenSans_600SemiBold_Italic](./OpenSans_600SemiBold_Italic.ttf.png)||
+|![OpenSans_700Bold](./OpenSans_700Bold.ttf.png)|![OpenSans_700Bold_Italic](./OpenSans_700Bold_Italic.ttf.png)|![OpenSans_800ExtraBold](./OpenSans_800ExtraBold.ttf.png)||
+|![OpenSans_800ExtraBold_Italic](./OpenSans_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

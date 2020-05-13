@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CraftyGirls_400Regular
-![CraftyGirls_400Regular](./CraftyGirls_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![CraftyGirls_400Regular](./CraftyGirls_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

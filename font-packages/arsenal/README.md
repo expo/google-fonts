@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Arsenal_400Regular
-![Arsenal_400Regular](./Arsenal_400Regular.ttf.png)
 
-##### Arsenal_400Regular_Italic
-![Arsenal_400Regular_Italic](./Arsenal_400Regular_Italic.ttf.png)
-
-##### Arsenal_700Bold
-![Arsenal_700Bold](./Arsenal_700Bold.ttf.png)
-
-##### Arsenal_700Bold_Italic
-![Arsenal_700Bold_Italic](./Arsenal_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Arsenal_400Regular](./Arsenal_400Regular.ttf.png)|![Arsenal_400Regular_Italic](./Arsenal_400Regular_Italic.ttf.png)|![Arsenal_700Bold](./Arsenal_700Bold.ttf.png)||
+|![Arsenal_700Bold_Italic](./Arsenal_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

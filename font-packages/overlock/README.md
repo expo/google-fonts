@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Overlock_400Regular
-![Overlock_400Regular](./Overlock_400Regular.ttf.png)
 
-##### Overlock_400Regular_Italic
-![Overlock_400Regular_Italic](./Overlock_400Regular_Italic.ttf.png)
-
-##### Overlock_700Bold
-![Overlock_700Bold](./Overlock_700Bold.ttf.png)
-
-##### Overlock_700Bold_Italic
-![Overlock_700Bold_Italic](./Overlock_700Bold_Italic.ttf.png)
-
-##### Overlock_900Black
-![Overlock_900Black](./Overlock_900Black.ttf.png)
-
-##### Overlock_900Black_Italic
-![Overlock_900Black_Italic](./Overlock_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![Overlock_400Regular](./Overlock_400Regular.ttf.png)|![Overlock_400Regular_Italic](./Overlock_400Regular_Italic.ttf.png)|![Overlock_700Bold](./Overlock_700Bold.ttf.png)||
+|![Overlock_700Bold_Italic](./Overlock_700Bold_Italic.ttf.png)|![Overlock_900Black](./Overlock_900Black.ttf.png)|![Overlock_900Black_Italic](./Overlock_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

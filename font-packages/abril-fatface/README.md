@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AbrilFatface_400Regular
-![AbrilFatface_400Regular](./AbrilFatface_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![AbrilFatface_400Regular](./AbrilFatface_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

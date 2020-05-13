@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Radley_400Regular
-![Radley_400Regular](./Radley_400Regular.ttf.png)
 
-##### Radley_400Regular_Italic
-![Radley_400Regular_Italic](./Radley_400Regular_Italic.ttf.png)
+||||
+|-|-|-|
+|![Radley_400Regular](./Radley_400Regular.ttf.png)|![Radley_400Regular_Italic](./Radley_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

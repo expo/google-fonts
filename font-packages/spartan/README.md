@@ -168,32 +168,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Spartan_100Thin
-![Spartan_100Thin](./Spartan_100Thin.ttf.png)
 
-##### Spartan_200ExtraLight
-![Spartan_200ExtraLight](./Spartan_200ExtraLight.ttf.png)
-
-##### Spartan_300Light
-![Spartan_300Light](./Spartan_300Light.ttf.png)
-
-##### Spartan_400Regular
-![Spartan_400Regular](./Spartan_400Regular.ttf.png)
-
-##### Spartan_500Medium
-![Spartan_500Medium](./Spartan_500Medium.ttf.png)
-
-##### Spartan_600SemiBold
-![Spartan_600SemiBold](./Spartan_600SemiBold.ttf.png)
-
-##### Spartan_700Bold
-![Spartan_700Bold](./Spartan_700Bold.ttf.png)
-
-##### Spartan_800ExtraBold
-![Spartan_800ExtraBold](./Spartan_800ExtraBold.ttf.png)
-
-##### Spartan_900Black
-![Spartan_900Black](./Spartan_900Black.ttf.png)
+||||
+|-|-|-|
+|![Spartan_100Thin](./Spartan_100Thin.ttf.png)|![Spartan_200ExtraLight](./Spartan_200ExtraLight.ttf.png)|![Spartan_300Light](./Spartan_300Light.ttf.png)||
+|![Spartan_400Regular](./Spartan_400Regular.ttf.png)|![Spartan_500Medium](./Spartan_500Medium.ttf.png)|![Spartan_600SemiBold](./Spartan_600SemiBold.ttf.png)||
+|![Spartan_700Bold](./Spartan_700Bold.ttf.png)|![Spartan_800ExtraBold](./Spartan_800ExtraBold.ttf.png)|![Spartan_900Black](./Spartan_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

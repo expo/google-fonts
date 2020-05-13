@@ -142,26 +142,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Mukta_200ExtraLight
-![Mukta_200ExtraLight](./Mukta_200ExtraLight.ttf.png)
 
-##### Mukta_300Light
-![Mukta_300Light](./Mukta_300Light.ttf.png)
-
-##### Mukta_400Regular
-![Mukta_400Regular](./Mukta_400Regular.ttf.png)
-
-##### Mukta_500Medium
-![Mukta_500Medium](./Mukta_500Medium.ttf.png)
-
-##### Mukta_600SemiBold
-![Mukta_600SemiBold](./Mukta_600SemiBold.ttf.png)
-
-##### Mukta_700Bold
-![Mukta_700Bold](./Mukta_700Bold.ttf.png)
-
-##### Mukta_800ExtraBold
-![Mukta_800ExtraBold](./Mukta_800ExtraBold.ttf.png)
+||||
+|-|-|-|
+|![Mukta_200ExtraLight](./Mukta_200ExtraLight.ttf.png)|![Mukta_300Light](./Mukta_300Light.ttf.png)|![Mukta_400Regular](./Mukta_400Regular.ttf.png)||
+|![Mukta_500Medium](./Mukta_500Medium.ttf.png)|![Mukta_600SemiBold](./Mukta_600SemiBold.ttf.png)|![Mukta_700Bold](./Mukta_700Bold.ttf.png)||
+|![Mukta_800ExtraBold](./Mukta_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

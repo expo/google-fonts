@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Federo_400Regular
-![Federo_400Regular](./Federo_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Federo_400Regular](./Federo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

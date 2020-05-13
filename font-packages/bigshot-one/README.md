@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BigshotOne_400Regular
-![BigshotOne_400Regular](./BigshotOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![BigshotOne_400Regular](./BigshotOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

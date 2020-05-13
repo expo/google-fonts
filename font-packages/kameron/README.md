@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Kameron_400Regular
-![Kameron_400Regular](./Kameron_400Regular.ttf.png)
 
-##### Kameron_700Bold
-![Kameron_700Bold](./Kameron_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Kameron_400Regular](./Kameron_400Regular.ttf.png)|![Kameron_700Bold](./Kameron_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

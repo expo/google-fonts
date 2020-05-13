@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DellaRespira_400Regular
-![DellaRespira_400Regular](./DellaRespira_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![DellaRespira_400Regular](./DellaRespira_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

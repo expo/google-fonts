@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### KaushanScript_400Regular
-![KaushanScript_400Regular](./KaushanScript_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![KaushanScript_400Regular](./KaushanScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sarina_400Regular
-![Sarina_400Regular](./Sarina_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Sarina_400Regular](./Sarina_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

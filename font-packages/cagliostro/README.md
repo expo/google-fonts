@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Cagliostro_400Regular
-![Cagliostro_400Regular](./Cagliostro_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Cagliostro_400Regular](./Cagliostro_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

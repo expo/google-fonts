@@ -85,14 +85,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sen_400Regular
-![Sen_400Regular](./Sen_400Regular.ttf.png)
 
-##### Sen_700Bold
-![Sen_700Bold](./Sen_700Bold.ttf.png)
-
-##### Sen_800ExtraBold
-![Sen_800ExtraBold](./Sen_800ExtraBold.ttf.png)
+||||
+|-|-|-|
+|![Sen_400Regular](./Sen_400Regular.ttf.png)|![Sen_700Bold](./Sen_700Bold.ttf.png)|![Sen_800ExtraBold](./Sen_800ExtraBold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

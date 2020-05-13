@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GiveYouGlory_400Regular
-![GiveYouGlory_400Regular](./GiveYouGlory_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![GiveYouGlory_400Regular](./GiveYouGlory_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

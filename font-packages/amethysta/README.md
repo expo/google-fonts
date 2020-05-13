@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Amethysta_400Regular
-![Amethysta_400Regular](./Amethysta_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Amethysta_400Regular](./Amethysta_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

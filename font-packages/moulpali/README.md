@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Moulpali_400Regular
-![Moulpali_400Regular](./Moulpali_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Moulpali_400Regular](./Moulpali_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

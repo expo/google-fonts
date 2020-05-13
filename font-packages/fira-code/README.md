@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FiraCode_300Light
-![FiraCode_300Light](./FiraCode_300Light.ttf.png)
 
-##### FiraCode_400Regular
-![FiraCode_400Regular](./FiraCode_400Regular.ttf.png)
-
-##### FiraCode_500Medium
-![FiraCode_500Medium](./FiraCode_500Medium.ttf.png)
-
-##### FiraCode_600SemiBold
-![FiraCode_600SemiBold](./FiraCode_600SemiBold.ttf.png)
-
-##### FiraCode_700Bold
-![FiraCode_700Bold](./FiraCode_700Bold.ttf.png)
+||||
+|-|-|-|
+|![FiraCode_300Light](./FiraCode_300Light.ttf.png)|![FiraCode_400Regular](./FiraCode_400Regular.ttf.png)|![FiraCode_500Medium](./FiraCode_500Medium.ttf.png)||
+|![FiraCode_600SemiBold](./FiraCode_600SemiBold.ttf.png)|![FiraCode_700Bold](./FiraCode_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

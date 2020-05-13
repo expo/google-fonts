@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PasseroOne_400Regular
-![PasseroOne_400Regular](./PasseroOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![PasseroOne_400Regular](./PasseroOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

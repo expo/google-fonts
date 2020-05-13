@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Ramaraja_400Regular
-![Ramaraja_400Regular](./Ramaraja_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Ramaraja_400Regular](./Ramaraja_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

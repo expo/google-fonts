@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Orbitron_400Regular
-![Orbitron_400Regular](./Orbitron_400Regular.ttf.png)
 
-##### Orbitron_500Medium
-![Orbitron_500Medium](./Orbitron_500Medium.ttf.png)
-
-##### Orbitron_600SemiBold
-![Orbitron_600SemiBold](./Orbitron_600SemiBold.ttf.png)
-
-##### Orbitron_700Bold
-![Orbitron_700Bold](./Orbitron_700Bold.ttf.png)
-
-##### Orbitron_800ExtraBold
-![Orbitron_800ExtraBold](./Orbitron_800ExtraBold.ttf.png)
-
-##### Orbitron_900Black
-![Orbitron_900Black](./Orbitron_900Black.ttf.png)
+||||
+|-|-|-|
+|![Orbitron_400Regular](./Orbitron_400Regular.ttf.png)|![Orbitron_500Medium](./Orbitron_500Medium.ttf.png)|![Orbitron_600SemiBold](./Orbitron_600SemiBold.ttf.png)||
+|![Orbitron_700Bold](./Orbitron_700Bold.ttf.png)|![Orbitron_800ExtraBold](./Orbitron_800ExtraBold.ttf.png)|![Orbitron_900Black](./Orbitron_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

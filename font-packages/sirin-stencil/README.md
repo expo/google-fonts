@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SirinStencil_400Regular
-![SirinStencil_400Regular](./SirinStencil_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![SirinStencil_400Regular](./SirinStencil_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

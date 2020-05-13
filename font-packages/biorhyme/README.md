@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BioRhyme_200ExtraLight
-![BioRhyme_200ExtraLight](./BioRhyme_200ExtraLight.ttf.png)
 
-##### BioRhyme_300Light
-![BioRhyme_300Light](./BioRhyme_300Light.ttf.png)
-
-##### BioRhyme_400Regular
-![BioRhyme_400Regular](./BioRhyme_400Regular.ttf.png)
-
-##### BioRhyme_700Bold
-![BioRhyme_700Bold](./BioRhyme_700Bold.ttf.png)
-
-##### BioRhyme_800ExtraBold
-![BioRhyme_800ExtraBold](./BioRhyme_800ExtraBold.ttf.png)
+||||
+|-|-|-|
+|![BioRhyme_200ExtraLight](./BioRhyme_200ExtraLight.ttf.png)|![BioRhyme_300Light](./BioRhyme_300Light.ttf.png)|![BioRhyme_400Regular](./BioRhyme_400Regular.ttf.png)||
+|![BioRhyme_700Bold](./BioRhyme_700Bold.ttf.png)|![BioRhyme_800ExtraBold](./BioRhyme_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

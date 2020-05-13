@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HindGuntur_300Light
-![HindGuntur_300Light](./HindGuntur_300Light.ttf.png)
 
-##### HindGuntur_400Regular
-![HindGuntur_400Regular](./HindGuntur_400Regular.ttf.png)
-
-##### HindGuntur_500Medium
-![HindGuntur_500Medium](./HindGuntur_500Medium.ttf.png)
-
-##### HindGuntur_600SemiBold
-![HindGuntur_600SemiBold](./HindGuntur_600SemiBold.ttf.png)
-
-##### HindGuntur_700Bold
-![HindGuntur_700Bold](./HindGuntur_700Bold.ttf.png)
+||||
+|-|-|-|
+|![HindGuntur_300Light](./HindGuntur_300Light.ttf.png)|![HindGuntur_400Regular](./HindGuntur_400Regular.ttf.png)|![HindGuntur_500Medium](./HindGuntur_500Medium.ttf.png)||
+|![HindGuntur_600SemiBold](./HindGuntur_600SemiBold.ttf.png)|![HindGuntur_700Bold](./HindGuntur_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

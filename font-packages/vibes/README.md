@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Vibes_400Regular
-![Vibes_400Regular](./Vibes_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Vibes_400Regular](./Vibes_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

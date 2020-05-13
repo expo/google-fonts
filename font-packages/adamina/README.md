@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Adamina_400Regular
-![Adamina_400Regular](./Adamina_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Adamina_400Regular](./Adamina_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

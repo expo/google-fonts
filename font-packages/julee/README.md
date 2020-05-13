@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Julee_400Regular
-![Julee_400Regular](./Julee_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Julee_400Regular](./Julee_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

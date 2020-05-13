@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Graduate_400Regular
-![Graduate_400Regular](./Graduate_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Graduate_400Regular](./Graduate_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

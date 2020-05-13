@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IMFellDoublePica_400Regular
-![IMFellDoublePica_400Regular](./IMFellDoublePica_400Regular.ttf.png)
 
-##### IMFellDoublePica_400Regular_Italic
-![IMFellDoublePica_400Regular_Italic](./IMFellDoublePica_400Regular_Italic.ttf.png)
+||||
+|-|-|-|
+|![IMFellDoublePica_400Regular](./IMFellDoublePica_400Regular.ttf.png)|![IMFellDoublePica_400Regular_Italic](./IMFellDoublePica_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

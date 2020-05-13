@@ -155,29 +155,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Vollkorn_400Regular
-![Vollkorn_400Regular](./Vollkorn_400Regular.ttf.png)
 
-##### Vollkorn_400Regular_Italic
-![Vollkorn_400Regular_Italic](./Vollkorn_400Regular_Italic.ttf.png)
-
-##### Vollkorn_600SemiBold
-![Vollkorn_600SemiBold](./Vollkorn_600SemiBold.ttf.png)
-
-##### Vollkorn_600SemiBold_Italic
-![Vollkorn_600SemiBold_Italic](./Vollkorn_600SemiBold_Italic.ttf.png)
-
-##### Vollkorn_700Bold
-![Vollkorn_700Bold](./Vollkorn_700Bold.ttf.png)
-
-##### Vollkorn_700Bold_Italic
-![Vollkorn_700Bold_Italic](./Vollkorn_700Bold_Italic.ttf.png)
-
-##### Vollkorn_900Black
-![Vollkorn_900Black](./Vollkorn_900Black.ttf.png)
-
-##### Vollkorn_900Black_Italic
-![Vollkorn_900Black_Italic](./Vollkorn_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![Vollkorn_400Regular](./Vollkorn_400Regular.ttf.png)|![Vollkorn_400Regular_Italic](./Vollkorn_400Regular_Italic.ttf.png)|![Vollkorn_600SemiBold](./Vollkorn_600SemiBold.ttf.png)||
+|![Vollkorn_600SemiBold_Italic](./Vollkorn_600SemiBold_Italic.ttf.png)|![Vollkorn_700Bold](./Vollkorn_700Bold.ttf.png)|![Vollkorn_700Bold_Italic](./Vollkorn_700Bold_Italic.ttf.png)||
+|![Vollkorn_900Black](./Vollkorn_900Black.ttf.png)|![Vollkorn_900Black_Italic](./Vollkorn_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

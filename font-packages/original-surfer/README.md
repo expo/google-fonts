@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### OriginalSurfer_400Regular
-![OriginalSurfer_400Regular](./OriginalSurfer_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![OriginalSurfer_400Regular](./OriginalSurfer_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

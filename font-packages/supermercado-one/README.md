@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SupermercadoOne_400Regular
-![SupermercadoOne_400Regular](./SupermercadoOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![SupermercadoOne_400Regular](./SupermercadoOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

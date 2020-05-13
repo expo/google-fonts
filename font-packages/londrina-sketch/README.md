@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LondrinaSketch_400Regular
-![LondrinaSketch_400Regular](./LondrinaSketch_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![LondrinaSketch_400Regular](./LondrinaSketch_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PortLligatSlab_400Regular
-![PortLligatSlab_400Regular](./PortLligatSlab_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![PortLligatSlab_400Regular](./PortLligatSlab_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

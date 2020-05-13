@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Knewave_400Regular
-![Knewave_400Regular](./Knewave_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Knewave_400Regular](./Knewave_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

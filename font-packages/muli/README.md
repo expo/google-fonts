@@ -259,53 +259,15 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Muli_200ExtraLight
-![Muli_200ExtraLight](./Muli_200ExtraLight.ttf.png)
 
-##### Muli_300Light
-![Muli_300Light](./Muli_300Light.ttf.png)
-
-##### Muli_400Regular
-![Muli_400Regular](./Muli_400Regular.ttf.png)
-
-##### Muli_500Medium
-![Muli_500Medium](./Muli_500Medium.ttf.png)
-
-##### Muli_600SemiBold
-![Muli_600SemiBold](./Muli_600SemiBold.ttf.png)
-
-##### Muli_700Bold
-![Muli_700Bold](./Muli_700Bold.ttf.png)
-
-##### Muli_800ExtraBold
-![Muli_800ExtraBold](./Muli_800ExtraBold.ttf.png)
-
-##### Muli_900Black
-![Muli_900Black](./Muli_900Black.ttf.png)
-
-##### Muli_200ExtraLight_Italic
-![Muli_200ExtraLight_Italic](./Muli_200ExtraLight_Italic.ttf.png)
-
-##### Muli_300Light_Italic
-![Muli_300Light_Italic](./Muli_300Light_Italic.ttf.png)
-
-##### Muli_400Regular_Italic
-![Muli_400Regular_Italic](./Muli_400Regular_Italic.ttf.png)
-
-##### Muli_500Medium_Italic
-![Muli_500Medium_Italic](./Muli_500Medium_Italic.ttf.png)
-
-##### Muli_600SemiBold_Italic
-![Muli_600SemiBold_Italic](./Muli_600SemiBold_Italic.ttf.png)
-
-##### Muli_700Bold_Italic
-![Muli_700Bold_Italic](./Muli_700Bold_Italic.ttf.png)
-
-##### Muli_800ExtraBold_Italic
-![Muli_800ExtraBold_Italic](./Muli_800ExtraBold_Italic.ttf.png)
-
-##### Muli_900Black_Italic
-![Muli_900Black_Italic](./Muli_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![Muli_200ExtraLight](./Muli_200ExtraLight.ttf.png)|![Muli_300Light](./Muli_300Light.ttf.png)|![Muli_400Regular](./Muli_400Regular.ttf.png)||
+|![Muli_500Medium](./Muli_500Medium.ttf.png)|![Muli_600SemiBold](./Muli_600SemiBold.ttf.png)|![Muli_700Bold](./Muli_700Bold.ttf.png)||
+|![Muli_800ExtraBold](./Muli_800ExtraBold.ttf.png)|![Muli_900Black](./Muli_900Black.ttf.png)|![Muli_200ExtraLight_Italic](./Muli_200ExtraLight_Italic.ttf.png)||
+|![Muli_300Light_Italic](./Muli_300Light_Italic.ttf.png)|![Muli_400Regular_Italic](./Muli_400Regular_Italic.ttf.png)|![Muli_500Medium_Italic](./Muli_500Medium_Italic.ttf.png)||
+|![Muli_600SemiBold_Italic](./Muli_600SemiBold_Italic.ttf.png)|![Muli_700Bold_Italic](./Muli_700Bold_Italic.ttf.png)|![Muli_800ExtraBold_Italic](./Muli_800ExtraBold_Italic.ttf.png)||
+|![Muli_900Black_Italic](./Muli_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

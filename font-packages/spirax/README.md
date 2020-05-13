@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Spirax_400Regular
-![Spirax_400Regular](./Spirax_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Spirax_400Regular](./Spirax_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

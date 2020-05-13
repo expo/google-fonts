@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SigmarOne_400Regular
-![SigmarOne_400Regular](./SigmarOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![SigmarOne_400Regular](./SigmarOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

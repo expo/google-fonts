@@ -285,59 +285,15 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Trirong_100Thin
-![Trirong_100Thin](./Trirong_100Thin.ttf.png)
 
-##### Trirong_100Thin_Italic
-![Trirong_100Thin_Italic](./Trirong_100Thin_Italic.ttf.png)
-
-##### Trirong_200ExtraLight
-![Trirong_200ExtraLight](./Trirong_200ExtraLight.ttf.png)
-
-##### Trirong_200ExtraLight_Italic
-![Trirong_200ExtraLight_Italic](./Trirong_200ExtraLight_Italic.ttf.png)
-
-##### Trirong_300Light
-![Trirong_300Light](./Trirong_300Light.ttf.png)
-
-##### Trirong_300Light_Italic
-![Trirong_300Light_Italic](./Trirong_300Light_Italic.ttf.png)
-
-##### Trirong_400Regular
-![Trirong_400Regular](./Trirong_400Regular.ttf.png)
-
-##### Trirong_400Regular_Italic
-![Trirong_400Regular_Italic](./Trirong_400Regular_Italic.ttf.png)
-
-##### Trirong_500Medium
-![Trirong_500Medium](./Trirong_500Medium.ttf.png)
-
-##### Trirong_500Medium_Italic
-![Trirong_500Medium_Italic](./Trirong_500Medium_Italic.ttf.png)
-
-##### Trirong_600SemiBold
-![Trirong_600SemiBold](./Trirong_600SemiBold.ttf.png)
-
-##### Trirong_600SemiBold_Italic
-![Trirong_600SemiBold_Italic](./Trirong_600SemiBold_Italic.ttf.png)
-
-##### Trirong_700Bold
-![Trirong_700Bold](./Trirong_700Bold.ttf.png)
-
-##### Trirong_700Bold_Italic
-![Trirong_700Bold_Italic](./Trirong_700Bold_Italic.ttf.png)
-
-##### Trirong_800ExtraBold
-![Trirong_800ExtraBold](./Trirong_800ExtraBold.ttf.png)
-
-##### Trirong_800ExtraBold_Italic
-![Trirong_800ExtraBold_Italic](./Trirong_800ExtraBold_Italic.ttf.png)
-
-##### Trirong_900Black
-![Trirong_900Black](./Trirong_900Black.ttf.png)
-
-##### Trirong_900Black_Italic
-![Trirong_900Black_Italic](./Trirong_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![Trirong_100Thin](./Trirong_100Thin.ttf.png)|![Trirong_100Thin_Italic](./Trirong_100Thin_Italic.ttf.png)|![Trirong_200ExtraLight](./Trirong_200ExtraLight.ttf.png)||
+|![Trirong_200ExtraLight_Italic](./Trirong_200ExtraLight_Italic.ttf.png)|![Trirong_300Light](./Trirong_300Light.ttf.png)|![Trirong_300Light_Italic](./Trirong_300Light_Italic.ttf.png)||
+|![Trirong_400Regular](./Trirong_400Regular.ttf.png)|![Trirong_400Regular_Italic](./Trirong_400Regular_Italic.ttf.png)|![Trirong_500Medium](./Trirong_500Medium.ttf.png)||
+|![Trirong_500Medium_Italic](./Trirong_500Medium_Italic.ttf.png)|![Trirong_600SemiBold](./Trirong_600SemiBold.ttf.png)|![Trirong_600SemiBold_Italic](./Trirong_600SemiBold_Italic.ttf.png)||
+|![Trirong_700Bold](./Trirong_700Bold.ttf.png)|![Trirong_700Bold_Italic](./Trirong_700Bold_Italic.ttf.png)|![Trirong_800ExtraBold](./Trirong_800ExtraBold.ttf.png)||
+|![Trirong_800ExtraBold_Italic](./Trirong_800ExtraBold_Italic.ttf.png)|![Trirong_900Black](./Trirong_900Black.ttf.png)|![Trirong_900Black_Italic](./Trirong_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

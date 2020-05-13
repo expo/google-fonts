@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Metrophobic_400Regular
-![Metrophobic_400Regular](./Metrophobic_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Metrophobic_400Regular](./Metrophobic_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

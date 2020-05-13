@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Modak_400Regular
-![Modak_400Regular](./Modak_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Modak_400Regular](./Modak_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

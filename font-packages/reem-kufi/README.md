@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ReemKufi_400Regular
-![ReemKufi_400Regular](./ReemKufi_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![ReemKufi_400Regular](./ReemKufi_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

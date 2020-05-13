@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AveriaLibre_300Light
-![AveriaLibre_300Light](./AveriaLibre_300Light.ttf.png)
 
-##### AveriaLibre_300Light_Italic
-![AveriaLibre_300Light_Italic](./AveriaLibre_300Light_Italic.ttf.png)
-
-##### AveriaLibre_400Regular
-![AveriaLibre_400Regular](./AveriaLibre_400Regular.ttf.png)
-
-##### AveriaLibre_400Regular_Italic
-![AveriaLibre_400Regular_Italic](./AveriaLibre_400Regular_Italic.ttf.png)
-
-##### AveriaLibre_700Bold
-![AveriaLibre_700Bold](./AveriaLibre_700Bold.ttf.png)
-
-##### AveriaLibre_700Bold_Italic
-![AveriaLibre_700Bold_Italic](./AveriaLibre_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![AveriaLibre_300Light](./AveriaLibre_300Light.ttf.png)|![AveriaLibre_300Light_Italic](./AveriaLibre_300Light_Italic.ttf.png)|![AveriaLibre_400Regular](./AveriaLibre_400Regular.ttf.png)||
+|![AveriaLibre_400Regular_Italic](./AveriaLibre_400Regular_Italic.ttf.png)|![AveriaLibre_700Bold](./AveriaLibre_700Bold.ttf.png)|![AveriaLibre_700Bold_Italic](./AveriaLibre_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -285,59 +285,15 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Grenze_100Thin
-![Grenze_100Thin](./Grenze_100Thin.ttf.png)
 
-##### Grenze_100Thin_Italic
-![Grenze_100Thin_Italic](./Grenze_100Thin_Italic.ttf.png)
-
-##### Grenze_200ExtraLight
-![Grenze_200ExtraLight](./Grenze_200ExtraLight.ttf.png)
-
-##### Grenze_200ExtraLight_Italic
-![Grenze_200ExtraLight_Italic](./Grenze_200ExtraLight_Italic.ttf.png)
-
-##### Grenze_300Light
-![Grenze_300Light](./Grenze_300Light.ttf.png)
-
-##### Grenze_300Light_Italic
-![Grenze_300Light_Italic](./Grenze_300Light_Italic.ttf.png)
-
-##### Grenze_400Regular
-![Grenze_400Regular](./Grenze_400Regular.ttf.png)
-
-##### Grenze_400Regular_Italic
-![Grenze_400Regular_Italic](./Grenze_400Regular_Italic.ttf.png)
-
-##### Grenze_500Medium
-![Grenze_500Medium](./Grenze_500Medium.ttf.png)
-
-##### Grenze_500Medium_Italic
-![Grenze_500Medium_Italic](./Grenze_500Medium_Italic.ttf.png)
-
-##### Grenze_600SemiBold
-![Grenze_600SemiBold](./Grenze_600SemiBold.ttf.png)
-
-##### Grenze_600SemiBold_Italic
-![Grenze_600SemiBold_Italic](./Grenze_600SemiBold_Italic.ttf.png)
-
-##### Grenze_700Bold
-![Grenze_700Bold](./Grenze_700Bold.ttf.png)
-
-##### Grenze_700Bold_Italic
-![Grenze_700Bold_Italic](./Grenze_700Bold_Italic.ttf.png)
-
-##### Grenze_800ExtraBold
-![Grenze_800ExtraBold](./Grenze_800ExtraBold.ttf.png)
-
-##### Grenze_800ExtraBold_Italic
-![Grenze_800ExtraBold_Italic](./Grenze_800ExtraBold_Italic.ttf.png)
-
-##### Grenze_900Black
-![Grenze_900Black](./Grenze_900Black.ttf.png)
-
-##### Grenze_900Black_Italic
-![Grenze_900Black_Italic](./Grenze_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![Grenze_100Thin](./Grenze_100Thin.ttf.png)|![Grenze_100Thin_Italic](./Grenze_100Thin_Italic.ttf.png)|![Grenze_200ExtraLight](./Grenze_200ExtraLight.ttf.png)||
+|![Grenze_200ExtraLight_Italic](./Grenze_200ExtraLight_Italic.ttf.png)|![Grenze_300Light](./Grenze_300Light.ttf.png)|![Grenze_300Light_Italic](./Grenze_300Light_Italic.ttf.png)||
+|![Grenze_400Regular](./Grenze_400Regular.ttf.png)|![Grenze_400Regular_Italic](./Grenze_400Regular_Italic.ttf.png)|![Grenze_500Medium](./Grenze_500Medium.ttf.png)||
+|![Grenze_500Medium_Italic](./Grenze_500Medium_Italic.ttf.png)|![Grenze_600SemiBold](./Grenze_600SemiBold.ttf.png)|![Grenze_600SemiBold_Italic](./Grenze_600SemiBold_Italic.ttf.png)||
+|![Grenze_700Bold](./Grenze_700Bold.ttf.png)|![Grenze_700Bold_Italic](./Grenze_700Bold_Italic.ttf.png)|![Grenze_800ExtraBold](./Grenze_800ExtraBold.ttf.png)||
+|![Grenze_800ExtraBold_Italic](./Grenze_800ExtraBold_Italic.ttf.png)|![Grenze_900Black](./Grenze_900Black.ttf.png)|![Grenze_900Black_Italic](./Grenze_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

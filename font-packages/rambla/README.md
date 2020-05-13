@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rambla_400Regular
-![Rambla_400Regular](./Rambla_400Regular.ttf.png)
 
-##### Rambla_400Regular_Italic
-![Rambla_400Regular_Italic](./Rambla_400Regular_Italic.ttf.png)
-
-##### Rambla_700Bold
-![Rambla_700Bold](./Rambla_700Bold.ttf.png)
-
-##### Rambla_700Bold_Italic
-![Rambla_700Bold_Italic](./Rambla_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Rambla_400Regular](./Rambla_400Regular.ttf.png)|![Rambla_400Regular_Italic](./Rambla_400Regular_Italic.ttf.png)|![Rambla_700Bold](./Rambla_700Bold.ttf.png)||
+|![Rambla_700Bold_Italic](./Rambla_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

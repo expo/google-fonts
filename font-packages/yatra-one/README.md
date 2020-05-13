@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### YatraOne_400Regular
-![YatraOne_400Regular](./YatraOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![YatraOne_400Regular](./YatraOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

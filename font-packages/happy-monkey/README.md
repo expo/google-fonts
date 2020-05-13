@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HappyMonkey_400Regular
-![HappyMonkey_400Regular](./HappyMonkey_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![HappyMonkey_400Regular](./HappyMonkey_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

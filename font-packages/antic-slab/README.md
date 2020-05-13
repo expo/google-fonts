@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AnticSlab_400Regular
-![AnticSlab_400Regular](./AnticSlab_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![AnticSlab_400Regular](./AnticSlab_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

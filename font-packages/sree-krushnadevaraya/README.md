@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SreeKrushnadevaraya_400Regular
-![SreeKrushnadevaraya_400Regular](./SreeKrushnadevaraya_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![SreeKrushnadevaraya_400Regular](./SreeKrushnadevaraya_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

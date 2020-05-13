@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PragatiNarrow_400Regular
-![PragatiNarrow_400Regular](./PragatiNarrow_400Regular.ttf.png)
 
-##### PragatiNarrow_700Bold
-![PragatiNarrow_700Bold](./PragatiNarrow_700Bold.ttf.png)
+||||
+|-|-|-|
+|![PragatiNarrow_400Regular](./PragatiNarrow_400Regular.ttf.png)|![PragatiNarrow_700Bold](./PragatiNarrow_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

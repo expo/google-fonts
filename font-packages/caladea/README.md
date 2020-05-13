@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Caladea_400Regular
-![Caladea_400Regular](./Caladea_400Regular.ttf.png)
 
-##### Caladea_400Regular_Italic
-![Caladea_400Regular_Italic](./Caladea_400Regular_Italic.ttf.png)
-
-##### Caladea_700Bold
-![Caladea_700Bold](./Caladea_700Bold.ttf.png)
-
-##### Caladea_700Bold_Italic
-![Caladea_700Bold_Italic](./Caladea_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Caladea_400Regular](./Caladea_400Regular.ttf.png)|![Caladea_400Regular_Italic](./Caladea_400Regular_Italic.ttf.png)|![Caladea_700Bold](./Caladea_700Bold.ttf.png)||
+|![Caladea_700Bold_Italic](./Caladea_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

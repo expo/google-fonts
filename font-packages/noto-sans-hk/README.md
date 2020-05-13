@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NotoSansHK_100Thin
-![NotoSansHK_100Thin](./NotoSansHK_100Thin.ttf.png)
 
-##### NotoSansHK_300Light
-![NotoSansHK_300Light](./NotoSansHK_300Light.ttf.png)
-
-##### NotoSansHK_400Regular
-![NotoSansHK_400Regular](./NotoSansHK_400Regular.ttf.png)
-
-##### NotoSansHK_500Medium
-![NotoSansHK_500Medium](./NotoSansHK_500Medium.ttf.png)
-
-##### NotoSansHK_700Bold
-![NotoSansHK_700Bold](./NotoSansHK_700Bold.ttf.png)
-
-##### NotoSansHK_900Black
-![NotoSansHK_900Black](./NotoSansHK_900Black.ttf.png)
+||||
+|-|-|-|
+|![NotoSansHK_100Thin](./NotoSansHK_100Thin.ttf.png)|![NotoSansHK_300Light](./NotoSansHK_300Light.ttf.png)|![NotoSansHK_400Regular](./NotoSansHK_400Regular.ttf.png)||
+|![NotoSansHK_500Medium](./NotoSansHK_500Medium.ttf.png)|![NotoSansHK_700Bold](./NotoSansHK_700Bold.ttf.png)|![NotoSansHK_900Black](./NotoSansHK_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DancingScript_400Regular
-![DancingScript_400Regular](./DancingScript_400Regular.ttf.png)
 
-##### DancingScript_500Medium
-![DancingScript_500Medium](./DancingScript_500Medium.ttf.png)
-
-##### DancingScript_600SemiBold
-![DancingScript_600SemiBold](./DancingScript_600SemiBold.ttf.png)
-
-##### DancingScript_700Bold
-![DancingScript_700Bold](./DancingScript_700Bold.ttf.png)
+||||
+|-|-|-|
+|![DancingScript_400Regular](./DancingScript_400Regular.ttf.png)|![DancingScript_500Medium](./DancingScript_500Medium.ttf.png)|![DancingScript_600SemiBold](./DancingScript_600SemiBold.ttf.png)||
+|![DancingScript_700Bold](./DancingScript_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

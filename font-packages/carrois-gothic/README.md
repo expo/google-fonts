@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CarroisGothic_400Regular
-![CarroisGothic_400Regular](./CarroisGothic_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![CarroisGothic_400Regular](./CarroisGothic_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

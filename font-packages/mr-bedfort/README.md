@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MrBedfort_400Regular
-![MrBedfort_400Regular](./MrBedfort_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MrBedfort_400Regular](./MrBedfort_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MrDafoe_400Regular
-![MrDafoe_400Regular](./MrDafoe_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MrDafoe_400Regular](./MrDafoe_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

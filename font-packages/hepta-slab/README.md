@@ -168,32 +168,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HeptaSlab_100Thin
-![HeptaSlab_100Thin](./HeptaSlab_100Thin.ttf.png)
 
-##### HeptaSlab_200ExtraLight
-![HeptaSlab_200ExtraLight](./HeptaSlab_200ExtraLight.ttf.png)
-
-##### HeptaSlab_300Light
-![HeptaSlab_300Light](./HeptaSlab_300Light.ttf.png)
-
-##### HeptaSlab_400Regular
-![HeptaSlab_400Regular](./HeptaSlab_400Regular.ttf.png)
-
-##### HeptaSlab_500Medium
-![HeptaSlab_500Medium](./HeptaSlab_500Medium.ttf.png)
-
-##### HeptaSlab_600SemiBold
-![HeptaSlab_600SemiBold](./HeptaSlab_600SemiBold.ttf.png)
-
-##### HeptaSlab_700Bold
-![HeptaSlab_700Bold](./HeptaSlab_700Bold.ttf.png)
-
-##### HeptaSlab_800ExtraBold
-![HeptaSlab_800ExtraBold](./HeptaSlab_800ExtraBold.ttf.png)
-
-##### HeptaSlab_900Black
-![HeptaSlab_900Black](./HeptaSlab_900Black.ttf.png)
+||||
+|-|-|-|
+|![HeptaSlab_100Thin](./HeptaSlab_100Thin.ttf.png)|![HeptaSlab_200ExtraLight](./HeptaSlab_200ExtraLight.ttf.png)|![HeptaSlab_300Light](./HeptaSlab_300Light.ttf.png)||
+|![HeptaSlab_400Regular](./HeptaSlab_400Regular.ttf.png)|![HeptaSlab_500Medium](./HeptaSlab_500Medium.ttf.png)|![HeptaSlab_600SemiBold](./HeptaSlab_600SemiBold.ttf.png)||
+|![HeptaSlab_700Bold](./HeptaSlab_700Bold.ttf.png)|![HeptaSlab_800ExtraBold](./HeptaSlab_800ExtraBold.ttf.png)|![HeptaSlab_900Black](./HeptaSlab_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

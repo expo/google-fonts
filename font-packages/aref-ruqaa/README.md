@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ArefRuqaa_400Regular
-![ArefRuqaa_400Regular](./ArefRuqaa_400Regular.ttf.png)
 
-##### ArefRuqaa_700Bold
-![ArefRuqaa_700Bold](./ArefRuqaa_700Bold.ttf.png)
+||||
+|-|-|-|
+|![ArefRuqaa_400Regular](./ArefRuqaa_400Regular.ttf.png)|![ArefRuqaa_700Bold](./ArefRuqaa_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

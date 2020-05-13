@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### VesperLibre_400Regular
-![VesperLibre_400Regular](./VesperLibre_400Regular.ttf.png)
 
-##### VesperLibre_500Medium
-![VesperLibre_500Medium](./VesperLibre_500Medium.ttf.png)
-
-##### VesperLibre_700Bold
-![VesperLibre_700Bold](./VesperLibre_700Bold.ttf.png)
-
-##### VesperLibre_900Black
-![VesperLibre_900Black](./VesperLibre_900Black.ttf.png)
+||||
+|-|-|-|
+|![VesperLibre_400Regular](./VesperLibre_400Regular.ttf.png)|![VesperLibre_500Medium](./VesperLibre_500Medium.ttf.png)|![VesperLibre_700Bold](./VesperLibre_700Bold.ttf.png)||
+|![VesperLibre_900Black](./VesperLibre_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

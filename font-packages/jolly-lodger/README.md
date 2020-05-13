@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### JollyLodger_400Regular
-![JollyLodger_400Regular](./JollyLodger_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![JollyLodger_400Regular](./JollyLodger_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

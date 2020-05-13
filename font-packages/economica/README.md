@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Economica_400Regular
-![Economica_400Regular](./Economica_400Regular.ttf.png)
 
-##### Economica_400Regular_Italic
-![Economica_400Regular_Italic](./Economica_400Regular_Italic.ttf.png)
-
-##### Economica_700Bold
-![Economica_700Bold](./Economica_700Bold.ttf.png)
-
-##### Economica_700Bold_Italic
-![Economica_700Bold_Italic](./Economica_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Economica_400Regular](./Economica_400Regular.ttf.png)|![Economica_400Regular_Italic](./Economica_400Regular_Italic.ttf.png)|![Economica_700Bold](./Economica_700Bold.ttf.png)||
+|![Economica_700Bold_Italic](./Economica_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

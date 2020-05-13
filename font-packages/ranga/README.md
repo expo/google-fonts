@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Ranga_400Regular
-![Ranga_400Regular](./Ranga_400Regular.ttf.png)
 
-##### Ranga_700Bold
-![Ranga_700Bold](./Ranga_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Ranga_400Regular](./Ranga_400Regular.ttf.png)|![Ranga_700Bold](./Ranga_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

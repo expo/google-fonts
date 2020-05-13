@@ -155,29 +155,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Literata_400Regular
-![Literata_400Regular](./Literata_400Regular.ttf.png)
 
-##### Literata_500Medium
-![Literata_500Medium](./Literata_500Medium.ttf.png)
-
-##### Literata_600SemiBold
-![Literata_600SemiBold](./Literata_600SemiBold.ttf.png)
-
-##### Literata_700Bold
-![Literata_700Bold](./Literata_700Bold.ttf.png)
-
-##### Literata_400Regular_Italic
-![Literata_400Regular_Italic](./Literata_400Regular_Italic.ttf.png)
-
-##### Literata_500Medium_Italic
-![Literata_500Medium_Italic](./Literata_500Medium_Italic.ttf.png)
-
-##### Literata_600SemiBold_Italic
-![Literata_600SemiBold_Italic](./Literata_600SemiBold_Italic.ttf.png)
-
-##### Literata_700Bold_Italic
-![Literata_700Bold_Italic](./Literata_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Literata_400Regular](./Literata_400Regular.ttf.png)|![Literata_500Medium](./Literata_500Medium.ttf.png)|![Literata_600SemiBold](./Literata_600SemiBold.ttf.png)||
+|![Literata_700Bold](./Literata_700Bold.ttf.png)|![Literata_400Regular_Italic](./Literata_400Regular_Italic.ttf.png)|![Literata_500Medium_Italic](./Literata_500Medium_Italic.ttf.png)||
+|![Literata_600SemiBold_Italic](./Literata_600SemiBold_Italic.ttf.png)|![Literata_700Bold_Italic](./Literata_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

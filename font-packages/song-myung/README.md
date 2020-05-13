@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SongMyung_400Regular
-![SongMyung_400Regular](./SongMyung_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![SongMyung_400Regular](./SongMyung_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

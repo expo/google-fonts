@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Voltaire_400Regular
-![Voltaire_400Regular](./Voltaire_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Voltaire_400Regular](./Voltaire_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

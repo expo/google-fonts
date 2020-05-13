@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### JuliusSansOne_400Regular
-![JuliusSansOne_400Regular](./JuliusSansOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![JuliusSansOne_400Regular](./JuliusSansOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

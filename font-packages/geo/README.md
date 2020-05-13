@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Geo_400Regular
-![Geo_400Regular](./Geo_400Regular.ttf.png)
 
-##### Geo_400Regular_Italic
-![Geo_400Regular_Italic](./Geo_400Regular_Italic.ttf.png)
+||||
+|-|-|-|
+|![Geo_400Regular](./Geo_400Regular.ttf.png)|![Geo_400Regular_Italic](./Geo_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

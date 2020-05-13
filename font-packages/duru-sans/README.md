@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DuruSans_400Regular
-![DuruSans_400Regular](./DuruSans_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![DuruSans_400Regular](./DuruSans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

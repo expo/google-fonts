@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Amarante_400Regular
-![Amarante_400Regular](./Amarante_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Amarante_400Regular](./Amarante_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

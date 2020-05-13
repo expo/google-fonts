@@ -155,29 +155,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Faustina_400Regular
-![Faustina_400Regular](./Faustina_400Regular.ttf.png)
 
-##### Faustina_500Medium
-![Faustina_500Medium](./Faustina_500Medium.ttf.png)
-
-##### Faustina_600SemiBold
-![Faustina_600SemiBold](./Faustina_600SemiBold.ttf.png)
-
-##### Faustina_700Bold
-![Faustina_700Bold](./Faustina_700Bold.ttf.png)
-
-##### Faustina_400Regular_Italic
-![Faustina_400Regular_Italic](./Faustina_400Regular_Italic.ttf.png)
-
-##### Faustina_500Medium_Italic
-![Faustina_500Medium_Italic](./Faustina_500Medium_Italic.ttf.png)
-
-##### Faustina_600SemiBold_Italic
-![Faustina_600SemiBold_Italic](./Faustina_600SemiBold_Italic.ttf.png)
-
-##### Faustina_700Bold_Italic
-![Faustina_700Bold_Italic](./Faustina_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Faustina_400Regular](./Faustina_400Regular.ttf.png)|![Faustina_500Medium](./Faustina_500Medium.ttf.png)|![Faustina_600SemiBold](./Faustina_600SemiBold.ttf.png)||
+|![Faustina_700Bold](./Faustina_700Bold.ttf.png)|![Faustina_400Regular_Italic](./Faustina_400Regular_Italic.ttf.png)|![Faustina_500Medium_Italic](./Faustina_500Medium_Italic.ttf.png)||
+|![Faustina_600SemiBold_Italic](./Faustina_600SemiBold_Italic.ttf.png)|![Faustina_700Bold_Italic](./Faustina_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

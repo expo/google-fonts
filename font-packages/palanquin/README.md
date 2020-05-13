@@ -142,26 +142,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Palanquin_100Thin
-![Palanquin_100Thin](./Palanquin_100Thin.ttf.png)
 
-##### Palanquin_200ExtraLight
-![Palanquin_200ExtraLight](./Palanquin_200ExtraLight.ttf.png)
-
-##### Palanquin_300Light
-![Palanquin_300Light](./Palanquin_300Light.ttf.png)
-
-##### Palanquin_400Regular
-![Palanquin_400Regular](./Palanquin_400Regular.ttf.png)
-
-##### Palanquin_500Medium
-![Palanquin_500Medium](./Palanquin_500Medium.ttf.png)
-
-##### Palanquin_600SemiBold
-![Palanquin_600SemiBold](./Palanquin_600SemiBold.ttf.png)
-
-##### Palanquin_700Bold
-![Palanquin_700Bold](./Palanquin_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Palanquin_100Thin](./Palanquin_100Thin.ttf.png)|![Palanquin_200ExtraLight](./Palanquin_200ExtraLight.ttf.png)|![Palanquin_300Light](./Palanquin_300Light.ttf.png)||
+|![Palanquin_400Regular](./Palanquin_400Regular.ttf.png)|![Palanquin_500Medium](./Palanquin_500Medium.ttf.png)|![Palanquin_600SemiBold](./Palanquin_600SemiBold.ttf.png)||
+|![Palanquin_700Bold](./Palanquin_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LexendGiga_400Regular
-![LexendGiga_400Regular](./LexendGiga_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![LexendGiga_400Regular](./LexendGiga_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

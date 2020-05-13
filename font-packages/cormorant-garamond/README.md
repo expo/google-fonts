@@ -181,35 +181,13 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CormorantGaramond_300Light
-![CormorantGaramond_300Light](./CormorantGaramond_300Light.ttf.png)
 
-##### CormorantGaramond_300Light_Italic
-![CormorantGaramond_300Light_Italic](./CormorantGaramond_300Light_Italic.ttf.png)
-
-##### CormorantGaramond_400Regular
-![CormorantGaramond_400Regular](./CormorantGaramond_400Regular.ttf.png)
-
-##### CormorantGaramond_400Regular_Italic
-![CormorantGaramond_400Regular_Italic](./CormorantGaramond_400Regular_Italic.ttf.png)
-
-##### CormorantGaramond_500Medium
-![CormorantGaramond_500Medium](./CormorantGaramond_500Medium.ttf.png)
-
-##### CormorantGaramond_500Medium_Italic
-![CormorantGaramond_500Medium_Italic](./CormorantGaramond_500Medium_Italic.ttf.png)
-
-##### CormorantGaramond_600SemiBold
-![CormorantGaramond_600SemiBold](./CormorantGaramond_600SemiBold.ttf.png)
-
-##### CormorantGaramond_600SemiBold_Italic
-![CormorantGaramond_600SemiBold_Italic](./CormorantGaramond_600SemiBold_Italic.ttf.png)
-
-##### CormorantGaramond_700Bold
-![CormorantGaramond_700Bold](./CormorantGaramond_700Bold.ttf.png)
-
-##### CormorantGaramond_700Bold_Italic
-![CormorantGaramond_700Bold_Italic](./CormorantGaramond_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![CormorantGaramond_300Light](./CormorantGaramond_300Light.ttf.png)|![CormorantGaramond_300Light_Italic](./CormorantGaramond_300Light_Italic.ttf.png)|![CormorantGaramond_400Regular](./CormorantGaramond_400Regular.ttf.png)||
+|![CormorantGaramond_400Regular_Italic](./CormorantGaramond_400Regular_Italic.ttf.png)|![CormorantGaramond_500Medium](./CormorantGaramond_500Medium.ttf.png)|![CormorantGaramond_500Medium_Italic](./CormorantGaramond_500Medium_Italic.ttf.png)||
+|![CormorantGaramond_600SemiBold](./CormorantGaramond_600SemiBold.ttf.png)|![CormorantGaramond_600SemiBold_Italic](./CormorantGaramond_600SemiBold_Italic.ttf.png)|![CormorantGaramond_700Bold](./CormorantGaramond_700Bold.ttf.png)||
+|![CormorantGaramond_700Bold_Italic](./CormorantGaramond_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

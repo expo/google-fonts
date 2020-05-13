@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HerrVonMuellerhoff_400Regular
-![HerrVonMuellerhoff_400Regular](./HerrVonMuellerhoff_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![HerrVonMuellerhoff_400Regular](./HerrVonMuellerhoff_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

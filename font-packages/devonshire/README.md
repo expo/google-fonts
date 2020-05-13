@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Devonshire_400Regular
-![Devonshire_400Regular](./Devonshire_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Devonshire_400Regular](./Devonshire_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

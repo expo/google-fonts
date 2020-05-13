@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RockSalt_400Regular
-![RockSalt_400Regular](./RockSalt_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![RockSalt_400Regular](./RockSalt_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RubikMonoOne_400Regular
-![RubikMonoOne_400Regular](./RubikMonoOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![RubikMonoOne_400Regular](./RubikMonoOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

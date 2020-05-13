@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BalooChettan2_400Regular
-![BalooChettan2_400Regular](./BalooChettan2_400Regular.ttf.png)
 
-##### BalooChettan2_500Medium
-![BalooChettan2_500Medium](./BalooChettan2_500Medium.ttf.png)
-
-##### BalooChettan2_600SemiBold
-![BalooChettan2_600SemiBold](./BalooChettan2_600SemiBold.ttf.png)
-
-##### BalooChettan2_700Bold
-![BalooChettan2_700Bold](./BalooChettan2_700Bold.ttf.png)
-
-##### BalooChettan2_800ExtraBold
-![BalooChettan2_800ExtraBold](./BalooChettan2_800ExtraBold.ttf.png)
+||||
+|-|-|-|
+|![BalooChettan2_400Regular](./BalooChettan2_400Regular.ttf.png)|![BalooChettan2_500Medium](./BalooChettan2_500Medium.ttf.png)|![BalooChettan2_600SemiBold](./BalooChettan2_600SemiBold.ttf.png)||
+|![BalooChettan2_700Bold](./BalooChettan2_700Bold.ttf.png)|![BalooChettan2_800ExtraBold](./BalooChettan2_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

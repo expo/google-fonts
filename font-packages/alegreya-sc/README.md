@@ -181,35 +181,13 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AlegreyaSC_400Regular
-![AlegreyaSC_400Regular](./AlegreyaSC_400Regular.ttf.png)
 
-##### AlegreyaSC_400Regular_Italic
-![AlegreyaSC_400Regular_Italic](./AlegreyaSC_400Regular_Italic.ttf.png)
-
-##### AlegreyaSC_500Medium
-![AlegreyaSC_500Medium](./AlegreyaSC_500Medium.ttf.png)
-
-##### AlegreyaSC_500Medium_Italic
-![AlegreyaSC_500Medium_Italic](./AlegreyaSC_500Medium_Italic.ttf.png)
-
-##### AlegreyaSC_700Bold
-![AlegreyaSC_700Bold](./AlegreyaSC_700Bold.ttf.png)
-
-##### AlegreyaSC_700Bold_Italic
-![AlegreyaSC_700Bold_Italic](./AlegreyaSC_700Bold_Italic.ttf.png)
-
-##### AlegreyaSC_800ExtraBold
-![AlegreyaSC_800ExtraBold](./AlegreyaSC_800ExtraBold.ttf.png)
-
-##### AlegreyaSC_800ExtraBold_Italic
-![AlegreyaSC_800ExtraBold_Italic](./AlegreyaSC_800ExtraBold_Italic.ttf.png)
-
-##### AlegreyaSC_900Black
-![AlegreyaSC_900Black](./AlegreyaSC_900Black.ttf.png)
-
-##### AlegreyaSC_900Black_Italic
-![AlegreyaSC_900Black_Italic](./AlegreyaSC_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![AlegreyaSC_400Regular](./AlegreyaSC_400Regular.ttf.png)|![AlegreyaSC_400Regular_Italic](./AlegreyaSC_400Regular_Italic.ttf.png)|![AlegreyaSC_500Medium](./AlegreyaSC_500Medium.ttf.png)||
+|![AlegreyaSC_500Medium_Italic](./AlegreyaSC_500Medium_Italic.ttf.png)|![AlegreyaSC_700Bold](./AlegreyaSC_700Bold.ttf.png)|![AlegreyaSC_700Bold_Italic](./AlegreyaSC_700Bold_Italic.ttf.png)||
+|![AlegreyaSC_800ExtraBold](./AlegreyaSC_800ExtraBold.ttf.png)|![AlegreyaSC_800ExtraBold_Italic](./AlegreyaSC_800ExtraBold_Italic.ttf.png)|![AlegreyaSC_900Black](./AlegreyaSC_900Black.ttf.png)||
+|![AlegreyaSC_900Black_Italic](./AlegreyaSC_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

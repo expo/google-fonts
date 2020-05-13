@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Marmelad_400Regular
-![Marmelad_400Regular](./Marmelad_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Marmelad_400Regular](./Marmelad_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

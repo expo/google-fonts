@@ -285,59 +285,15 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Raleway_100Thin
-![Raleway_100Thin](./Raleway_100Thin.ttf.png)
 
-##### Raleway_100Thin_Italic
-![Raleway_100Thin_Italic](./Raleway_100Thin_Italic.ttf.png)
-
-##### Raleway_200ExtraLight
-![Raleway_200ExtraLight](./Raleway_200ExtraLight.ttf.png)
-
-##### Raleway_200ExtraLight_Italic
-![Raleway_200ExtraLight_Italic](./Raleway_200ExtraLight_Italic.ttf.png)
-
-##### Raleway_300Light
-![Raleway_300Light](./Raleway_300Light.ttf.png)
-
-##### Raleway_300Light_Italic
-![Raleway_300Light_Italic](./Raleway_300Light_Italic.ttf.png)
-
-##### Raleway_400Regular
-![Raleway_400Regular](./Raleway_400Regular.ttf.png)
-
-##### Raleway_400Regular_Italic
-![Raleway_400Regular_Italic](./Raleway_400Regular_Italic.ttf.png)
-
-##### Raleway_500Medium
-![Raleway_500Medium](./Raleway_500Medium.ttf.png)
-
-##### Raleway_500Medium_Italic
-![Raleway_500Medium_Italic](./Raleway_500Medium_Italic.ttf.png)
-
-##### Raleway_600SemiBold
-![Raleway_600SemiBold](./Raleway_600SemiBold.ttf.png)
-
-##### Raleway_600SemiBold_Italic
-![Raleway_600SemiBold_Italic](./Raleway_600SemiBold_Italic.ttf.png)
-
-##### Raleway_700Bold
-![Raleway_700Bold](./Raleway_700Bold.ttf.png)
-
-##### Raleway_700Bold_Italic
-![Raleway_700Bold_Italic](./Raleway_700Bold_Italic.ttf.png)
-
-##### Raleway_800ExtraBold
-![Raleway_800ExtraBold](./Raleway_800ExtraBold.ttf.png)
-
-##### Raleway_800ExtraBold_Italic
-![Raleway_800ExtraBold_Italic](./Raleway_800ExtraBold_Italic.ttf.png)
-
-##### Raleway_900Black
-![Raleway_900Black](./Raleway_900Black.ttf.png)
-
-##### Raleway_900Black_Italic
-![Raleway_900Black_Italic](./Raleway_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![Raleway_100Thin](./Raleway_100Thin.ttf.png)|![Raleway_100Thin_Italic](./Raleway_100Thin_Italic.ttf.png)|![Raleway_200ExtraLight](./Raleway_200ExtraLight.ttf.png)||
+|![Raleway_200ExtraLight_Italic](./Raleway_200ExtraLight_Italic.ttf.png)|![Raleway_300Light](./Raleway_300Light.ttf.png)|![Raleway_300Light_Italic](./Raleway_300Light_Italic.ttf.png)||
+|![Raleway_400Regular](./Raleway_400Regular.ttf.png)|![Raleway_400Regular_Italic](./Raleway_400Regular_Italic.ttf.png)|![Raleway_500Medium](./Raleway_500Medium.ttf.png)||
+|![Raleway_500Medium_Italic](./Raleway_500Medium_Italic.ttf.png)|![Raleway_600SemiBold](./Raleway_600SemiBold.ttf.png)|![Raleway_600SemiBold_Italic](./Raleway_600SemiBold_Italic.ttf.png)||
+|![Raleway_700Bold](./Raleway_700Bold.ttf.png)|![Raleway_700Bold_Italic](./Raleway_700Bold_Italic.ttf.png)|![Raleway_800ExtraBold](./Raleway_800ExtraBold.ttf.png)||
+|![Raleway_800ExtraBold_Italic](./Raleway_800ExtraBold_Italic.ttf.png)|![Raleway_900Black](./Raleway_900Black.ttf.png)|![Raleway_900Black_Italic](./Raleway_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

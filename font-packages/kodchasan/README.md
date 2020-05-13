@@ -207,41 +207,13 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Kodchasan_200ExtraLight
-![Kodchasan_200ExtraLight](./Kodchasan_200ExtraLight.ttf.png)
 
-##### Kodchasan_200ExtraLight_Italic
-![Kodchasan_200ExtraLight_Italic](./Kodchasan_200ExtraLight_Italic.ttf.png)
-
-##### Kodchasan_300Light
-![Kodchasan_300Light](./Kodchasan_300Light.ttf.png)
-
-##### Kodchasan_300Light_Italic
-![Kodchasan_300Light_Italic](./Kodchasan_300Light_Italic.ttf.png)
-
-##### Kodchasan_400Regular
-![Kodchasan_400Regular](./Kodchasan_400Regular.ttf.png)
-
-##### Kodchasan_400Regular_Italic
-![Kodchasan_400Regular_Italic](./Kodchasan_400Regular_Italic.ttf.png)
-
-##### Kodchasan_500Medium
-![Kodchasan_500Medium](./Kodchasan_500Medium.ttf.png)
-
-##### Kodchasan_500Medium_Italic
-![Kodchasan_500Medium_Italic](./Kodchasan_500Medium_Italic.ttf.png)
-
-##### Kodchasan_600SemiBold
-![Kodchasan_600SemiBold](./Kodchasan_600SemiBold.ttf.png)
-
-##### Kodchasan_600SemiBold_Italic
-![Kodchasan_600SemiBold_Italic](./Kodchasan_600SemiBold_Italic.ttf.png)
-
-##### Kodchasan_700Bold
-![Kodchasan_700Bold](./Kodchasan_700Bold.ttf.png)
-
-##### Kodchasan_700Bold_Italic
-![Kodchasan_700Bold_Italic](./Kodchasan_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Kodchasan_200ExtraLight](./Kodchasan_200ExtraLight.ttf.png)|![Kodchasan_200ExtraLight_Italic](./Kodchasan_200ExtraLight_Italic.ttf.png)|![Kodchasan_300Light](./Kodchasan_300Light.ttf.png)||
+|![Kodchasan_300Light_Italic](./Kodchasan_300Light_Italic.ttf.png)|![Kodchasan_400Regular](./Kodchasan_400Regular.ttf.png)|![Kodchasan_400Regular_Italic](./Kodchasan_400Regular_Italic.ttf.png)||
+|![Kodchasan_500Medium](./Kodchasan_500Medium.ttf.png)|![Kodchasan_500Medium_Italic](./Kodchasan_500Medium_Italic.ttf.png)|![Kodchasan_600SemiBold](./Kodchasan_600SemiBold.ttf.png)||
+|![Kodchasan_600SemiBold_Italic](./Kodchasan_600SemiBold_Italic.ttf.png)|![Kodchasan_700Bold](./Kodchasan_700Bold.ttf.png)|![Kodchasan_700Bold_Italic](./Kodchasan_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

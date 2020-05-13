@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Farro_300Light
-![Farro_300Light](./Farro_300Light.ttf.png)
 
-##### Farro_400Regular
-![Farro_400Regular](./Farro_400Regular.ttf.png)
-
-##### Farro_500Medium
-![Farro_500Medium](./Farro_500Medium.ttf.png)
-
-##### Farro_700Bold
-![Farro_700Bold](./Farro_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Farro_300Light](./Farro_300Light.ttf.png)|![Farro_400Regular](./Farro_400Regular.ttf.png)|![Farro_500Medium](./Farro_500Medium.ttf.png)||
+|![Farro_700Bold](./Farro_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

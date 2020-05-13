@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BalooThambi2_400Regular
-![BalooThambi2_400Regular](./BalooThambi2_400Regular.ttf.png)
 
-##### BalooThambi2_500Medium
-![BalooThambi2_500Medium](./BalooThambi2_500Medium.ttf.png)
-
-##### BalooThambi2_600SemiBold
-![BalooThambi2_600SemiBold](./BalooThambi2_600SemiBold.ttf.png)
-
-##### BalooThambi2_700Bold
-![BalooThambi2_700Bold](./BalooThambi2_700Bold.ttf.png)
-
-##### BalooThambi2_800ExtraBold
-![BalooThambi2_800ExtraBold](./BalooThambi2_800ExtraBold.ttf.png)
+||||
+|-|-|-|
+|![BalooThambi2_400Regular](./BalooThambi2_400Regular.ttf.png)|![BalooThambi2_500Medium](./BalooThambi2_500Medium.ttf.png)|![BalooThambi2_600SemiBold](./BalooThambi2_600SemiBold.ttf.png)||
+|![BalooThambi2_700Bold](./BalooThambi2_700Bold.ttf.png)|![BalooThambi2_800ExtraBold](./BalooThambi2_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

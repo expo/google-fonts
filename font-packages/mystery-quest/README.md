@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MysteryQuest_400Regular
-![MysteryQuest_400Regular](./MysteryQuest_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MysteryQuest_400Regular](./MysteryQuest_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

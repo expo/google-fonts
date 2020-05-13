@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### OxygenMono_400Regular
-![OxygenMono_400Regular](./OxygenMono_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![OxygenMono_400Regular](./OxygenMono_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

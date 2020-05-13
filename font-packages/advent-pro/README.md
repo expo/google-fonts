@@ -142,26 +142,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AdventPro_100Thin
-![AdventPro_100Thin](./AdventPro_100Thin.ttf.png)
 
-##### AdventPro_200ExtraLight
-![AdventPro_200ExtraLight](./AdventPro_200ExtraLight.ttf.png)
-
-##### AdventPro_300Light
-![AdventPro_300Light](./AdventPro_300Light.ttf.png)
-
-##### AdventPro_400Regular
-![AdventPro_400Regular](./AdventPro_400Regular.ttf.png)
-
-##### AdventPro_500Medium
-![AdventPro_500Medium](./AdventPro_500Medium.ttf.png)
-
-##### AdventPro_600SemiBold
-![AdventPro_600SemiBold](./AdventPro_600SemiBold.ttf.png)
-
-##### AdventPro_700Bold
-![AdventPro_700Bold](./AdventPro_700Bold.ttf.png)
+||||
+|-|-|-|
+|![AdventPro_100Thin](./AdventPro_100Thin.ttf.png)|![AdventPro_200ExtraLight](./AdventPro_200ExtraLight.ttf.png)|![AdventPro_300Light](./AdventPro_300Light.ttf.png)||
+|![AdventPro_400Regular](./AdventPro_400Regular.ttf.png)|![AdventPro_500Medium](./AdventPro_500Medium.ttf.png)|![AdventPro_600SemiBold](./AdventPro_600SemiBold.ttf.png)||
+|![AdventPro_700Bold](./AdventPro_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

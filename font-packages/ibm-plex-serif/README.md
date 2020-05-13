@@ -233,47 +233,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IBMPlexSerif_100Thin
-![IBMPlexSerif_100Thin](./IBMPlexSerif_100Thin.ttf.png)
 
-##### IBMPlexSerif_100Thin_Italic
-![IBMPlexSerif_100Thin_Italic](./IBMPlexSerif_100Thin_Italic.ttf.png)
-
-##### IBMPlexSerif_200ExtraLight
-![IBMPlexSerif_200ExtraLight](./IBMPlexSerif_200ExtraLight.ttf.png)
-
-##### IBMPlexSerif_200ExtraLight_Italic
-![IBMPlexSerif_200ExtraLight_Italic](./IBMPlexSerif_200ExtraLight_Italic.ttf.png)
-
-##### IBMPlexSerif_300Light
-![IBMPlexSerif_300Light](./IBMPlexSerif_300Light.ttf.png)
-
-##### IBMPlexSerif_300Light_Italic
-![IBMPlexSerif_300Light_Italic](./IBMPlexSerif_300Light_Italic.ttf.png)
-
-##### IBMPlexSerif_400Regular
-![IBMPlexSerif_400Regular](./IBMPlexSerif_400Regular.ttf.png)
-
-##### IBMPlexSerif_400Regular_Italic
-![IBMPlexSerif_400Regular_Italic](./IBMPlexSerif_400Regular_Italic.ttf.png)
-
-##### IBMPlexSerif_500Medium
-![IBMPlexSerif_500Medium](./IBMPlexSerif_500Medium.ttf.png)
-
-##### IBMPlexSerif_500Medium_Italic
-![IBMPlexSerif_500Medium_Italic](./IBMPlexSerif_500Medium_Italic.ttf.png)
-
-##### IBMPlexSerif_600SemiBold
-![IBMPlexSerif_600SemiBold](./IBMPlexSerif_600SemiBold.ttf.png)
-
-##### IBMPlexSerif_600SemiBold_Italic
-![IBMPlexSerif_600SemiBold_Italic](./IBMPlexSerif_600SemiBold_Italic.ttf.png)
-
-##### IBMPlexSerif_700Bold
-![IBMPlexSerif_700Bold](./IBMPlexSerif_700Bold.ttf.png)
-
-##### IBMPlexSerif_700Bold_Italic
-![IBMPlexSerif_700Bold_Italic](./IBMPlexSerif_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![IBMPlexSerif_100Thin](./IBMPlexSerif_100Thin.ttf.png)|![IBMPlexSerif_100Thin_Italic](./IBMPlexSerif_100Thin_Italic.ttf.png)|![IBMPlexSerif_200ExtraLight](./IBMPlexSerif_200ExtraLight.ttf.png)||
+|![IBMPlexSerif_200ExtraLight_Italic](./IBMPlexSerif_200ExtraLight_Italic.ttf.png)|![IBMPlexSerif_300Light](./IBMPlexSerif_300Light.ttf.png)|![IBMPlexSerif_300Light_Italic](./IBMPlexSerif_300Light_Italic.ttf.png)||
+|![IBMPlexSerif_400Regular](./IBMPlexSerif_400Regular.ttf.png)|![IBMPlexSerif_400Regular_Italic](./IBMPlexSerif_400Regular_Italic.ttf.png)|![IBMPlexSerif_500Medium](./IBMPlexSerif_500Medium.ttf.png)||
+|![IBMPlexSerif_500Medium_Italic](./IBMPlexSerif_500Medium_Italic.ttf.png)|![IBMPlexSerif_600SemiBold](./IBMPlexSerif_600SemiBold.ttf.png)|![IBMPlexSerif_600SemiBold_Italic](./IBMPlexSerif_600SemiBold_Italic.ttf.png)||
+|![IBMPlexSerif_700Bold](./IBMPlexSerif_700Bold.ttf.png)|![IBMPlexSerif_700Bold_Italic](./IBMPlexSerif_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

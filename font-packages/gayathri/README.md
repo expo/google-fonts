@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gayathri_100Thin
-![Gayathri_100Thin](./Gayathri_100Thin.ttf.png)
 
-##### Gayathri_400Regular
-![Gayathri_400Regular](./Gayathri_400Regular.ttf.png)
-
-##### Gayathri_700Bold
-![Gayathri_700Bold](./Gayathri_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Gayathri_100Thin](./Gayathri_100Thin.ttf.png)|![Gayathri_400Regular](./Gayathri_400Regular.ttf.png)|![Gayathri_700Bold](./Gayathri_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

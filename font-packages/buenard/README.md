@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Buenard_400Regular
-![Buenard_400Regular](./Buenard_400Regular.ttf.png)
 
-##### Buenard_700Bold
-![Buenard_700Bold](./Buenard_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Buenard_400Regular](./Buenard_400Regular.ttf.png)|![Buenard_700Bold](./Buenard_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

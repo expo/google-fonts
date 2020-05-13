@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Quicksand_300Light
-![Quicksand_300Light](./Quicksand_300Light.ttf.png)
 
-##### Quicksand_400Regular
-![Quicksand_400Regular](./Quicksand_400Regular.ttf.png)
-
-##### Quicksand_500Medium
-![Quicksand_500Medium](./Quicksand_500Medium.ttf.png)
-
-##### Quicksand_600SemiBold
-![Quicksand_600SemiBold](./Quicksand_600SemiBold.ttf.png)
-
-##### Quicksand_700Bold
-![Quicksand_700Bold](./Quicksand_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Quicksand_300Light](./Quicksand_300Light.ttf.png)|![Quicksand_400Regular](./Quicksand_400Regular.ttf.png)|![Quicksand_500Medium](./Quicksand_500Medium.ttf.png)||
+|![Quicksand_600SemiBold](./Quicksand_600SemiBold.ttf.png)|![Quicksand_700Bold](./Quicksand_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

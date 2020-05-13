@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AnonymousPro_400Regular
-![AnonymousPro_400Regular](./AnonymousPro_400Regular.ttf.png)
 
-##### AnonymousPro_400Regular_Italic
-![AnonymousPro_400Regular_Italic](./AnonymousPro_400Regular_Italic.ttf.png)
-
-##### AnonymousPro_700Bold
-![AnonymousPro_700Bold](./AnonymousPro_700Bold.ttf.png)
-
-##### AnonymousPro_700Bold_Italic
-![AnonymousPro_700Bold_Italic](./AnonymousPro_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![AnonymousPro_400Regular](./AnonymousPro_400Regular.ttf.png)|![AnonymousPro_400Regular_Italic](./AnonymousPro_400Regular_Italic.ttf.png)|![AnonymousPro_700Bold](./AnonymousPro_700Bold.ttf.png)||
+|![AnonymousPro_700Bold_Italic](./AnonymousPro_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

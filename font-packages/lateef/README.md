@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Lateef_400Regular
-![Lateef_400Regular](./Lateef_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Lateef_400Regular](./Lateef_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### TextMeOne_400Regular
-![TextMeOne_400Regular](./TextMeOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![TextMeOne_400Regular](./TextMeOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

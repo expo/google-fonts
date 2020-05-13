@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Parisienne_400Regular
-![Parisienne_400Regular](./Parisienne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Parisienne_400Regular](./Parisienne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

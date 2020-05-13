@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BenchNine_300Light
-![BenchNine_300Light](./BenchNine_300Light.ttf.png)
 
-##### BenchNine_400Regular
-![BenchNine_400Regular](./BenchNine_400Regular.ttf.png)
-
-##### BenchNine_700Bold
-![BenchNine_700Bold](./BenchNine_700Bold.ttf.png)
+||||
+|-|-|-|
+|![BenchNine_300Light](./BenchNine_300Light.ttf.png)|![BenchNine_400Regular](./BenchNine_400Regular.ttf.png)|![BenchNine_700Bold](./BenchNine_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

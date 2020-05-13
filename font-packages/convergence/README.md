@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Convergence_400Regular
-![Convergence_400Regular](./Convergence_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Convergence_400Regular](./Convergence_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

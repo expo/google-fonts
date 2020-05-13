@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HammersmithOne_400Regular
-![HammersmithOne_400Regular](./HammersmithOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![HammersmithOne_400Regular](./HammersmithOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

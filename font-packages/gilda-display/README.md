@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GildaDisplay_400Regular
-![GildaDisplay_400Regular](./GildaDisplay_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![GildaDisplay_400Regular](./GildaDisplay_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

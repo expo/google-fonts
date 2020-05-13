@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Trochut_400Regular
-![Trochut_400Regular](./Trochut_400Regular.ttf.png)
 
-##### Trochut_400Regular_Italic
-![Trochut_400Regular_Italic](./Trochut_400Regular_Italic.ttf.png)
-
-##### Trochut_700Bold
-![Trochut_700Bold](./Trochut_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Trochut_400Regular](./Trochut_400Regular.ttf.png)|![Trochut_400Regular_Italic](./Trochut_400Regular_Italic.ttf.png)|![Trochut_700Bold](./Trochut_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

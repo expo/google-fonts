@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ComingSoon_400Regular
-![ComingSoon_400Regular](./ComingSoon_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![ComingSoon_400Regular](./ComingSoon_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

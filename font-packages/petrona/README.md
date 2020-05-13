@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Petrona_400Regular
-![Petrona_400Regular](./Petrona_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Petrona_400Regular](./Petrona_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

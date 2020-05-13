@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GentiumBasic_400Regular
-![GentiumBasic_400Regular](./GentiumBasic_400Regular.ttf.png)
 
-##### GentiumBasic_400Regular_Italic
-![GentiumBasic_400Regular_Italic](./GentiumBasic_400Regular_Italic.ttf.png)
-
-##### GentiumBasic_700Bold
-![GentiumBasic_700Bold](./GentiumBasic_700Bold.ttf.png)
-
-##### GentiumBasic_700Bold_Italic
-![GentiumBasic_700Bold_Italic](./GentiumBasic_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![GentiumBasic_400Regular](./GentiumBasic_400Regular.ttf.png)|![GentiumBasic_400Regular_Italic](./GentiumBasic_400Regular_Italic.ttf.png)|![GentiumBasic_700Bold](./GentiumBasic_700Bold.ttf.png)||
+|![GentiumBasic_700Bold_Italic](./GentiumBasic_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

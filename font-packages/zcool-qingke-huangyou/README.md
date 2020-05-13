@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ZCOOLQingKeHuangYou_400Regular
-![ZCOOLQingKeHuangYou_400Regular](./ZCOOLQingKeHuangYou_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![ZCOOLQingKeHuangYou_400Regular](./ZCOOLQingKeHuangYou_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

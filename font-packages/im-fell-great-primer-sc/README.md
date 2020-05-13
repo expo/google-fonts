@@ -64,8 +64,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IMFellGreatPrimerSC_400Regular
-![IMFellGreatPrimerSC_400Regular](./IMFellGreatPrimerSC_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![IMFellGreatPrimerSC_400Regular](./IMFellGreatPrimerSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

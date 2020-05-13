@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rajdhani_300Light
-![Rajdhani_300Light](./Rajdhani_300Light.ttf.png)
 
-##### Rajdhani_400Regular
-![Rajdhani_400Regular](./Rajdhani_400Regular.ttf.png)
-
-##### Rajdhani_500Medium
-![Rajdhani_500Medium](./Rajdhani_500Medium.ttf.png)
-
-##### Rajdhani_600SemiBold
-![Rajdhani_600SemiBold](./Rajdhani_600SemiBold.ttf.png)
-
-##### Rajdhani_700Bold
-![Rajdhani_700Bold](./Rajdhani_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Rajdhani_300Light](./Rajdhani_300Light.ttf.png)|![Rajdhani_400Regular](./Rajdhani_400Regular.ttf.png)|![Rajdhani_500Medium](./Rajdhani_500Medium.ttf.png)||
+|![Rajdhani_600SemiBold](./Rajdhani_600SemiBold.ttf.png)|![Rajdhani_700Bold](./Rajdhani_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

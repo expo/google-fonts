@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SairaStencilOne_400Regular
-![SairaStencilOne_400Regular](./SairaStencilOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![SairaStencilOne_400Regular](./SairaStencilOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

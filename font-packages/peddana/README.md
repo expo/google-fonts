@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Peddana_400Regular
-![Peddana_400Regular](./Peddana_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Peddana_400Regular](./Peddana_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

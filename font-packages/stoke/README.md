@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Stoke_300Light
-![Stoke_300Light](./Stoke_300Light.ttf.png)
 
-##### Stoke_400Regular
-![Stoke_400Regular](./Stoke_400Regular.ttf.png)
+||||
+|-|-|-|
+|![Stoke_300Light](./Stoke_300Light.ttf.png)|![Stoke_400Regular](./Stoke_400Regular.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

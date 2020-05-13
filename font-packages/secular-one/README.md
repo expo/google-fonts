@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SecularOne_400Regular
-![SecularOne_400Regular](./SecularOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![SecularOne_400Regular](./SecularOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

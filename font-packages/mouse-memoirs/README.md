@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MouseMemoirs_400Regular
-![MouseMemoirs_400Regular](./MouseMemoirs_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MouseMemoirs_400Regular](./MouseMemoirs_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

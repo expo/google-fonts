@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Hanalei_400Regular
-![Hanalei_400Regular](./Hanalei_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Hanalei_400Regular](./Hanalei_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

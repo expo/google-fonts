@@ -194,38 +194,13 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### TitilliumWeb_200ExtraLight
-![TitilliumWeb_200ExtraLight](./TitilliumWeb_200ExtraLight.ttf.png)
 
-##### TitilliumWeb_200ExtraLight_Italic
-![TitilliumWeb_200ExtraLight_Italic](./TitilliumWeb_200ExtraLight_Italic.ttf.png)
-
-##### TitilliumWeb_300Light
-![TitilliumWeb_300Light](./TitilliumWeb_300Light.ttf.png)
-
-##### TitilliumWeb_300Light_Italic
-![TitilliumWeb_300Light_Italic](./TitilliumWeb_300Light_Italic.ttf.png)
-
-##### TitilliumWeb_400Regular
-![TitilliumWeb_400Regular](./TitilliumWeb_400Regular.ttf.png)
-
-##### TitilliumWeb_400Regular_Italic
-![TitilliumWeb_400Regular_Italic](./TitilliumWeb_400Regular_Italic.ttf.png)
-
-##### TitilliumWeb_600SemiBold
-![TitilliumWeb_600SemiBold](./TitilliumWeb_600SemiBold.ttf.png)
-
-##### TitilliumWeb_600SemiBold_Italic
-![TitilliumWeb_600SemiBold_Italic](./TitilliumWeb_600SemiBold_Italic.ttf.png)
-
-##### TitilliumWeb_700Bold
-![TitilliumWeb_700Bold](./TitilliumWeb_700Bold.ttf.png)
-
-##### TitilliumWeb_700Bold_Italic
-![TitilliumWeb_700Bold_Italic](./TitilliumWeb_700Bold_Italic.ttf.png)
-
-##### TitilliumWeb_900Black
-![TitilliumWeb_900Black](./TitilliumWeb_900Black.ttf.png)
+||||
+|-|-|-|
+|![TitilliumWeb_200ExtraLight](./TitilliumWeb_200ExtraLight.ttf.png)|![TitilliumWeb_200ExtraLight_Italic](./TitilliumWeb_200ExtraLight_Italic.ttf.png)|![TitilliumWeb_300Light](./TitilliumWeb_300Light.ttf.png)||
+|![TitilliumWeb_300Light_Italic](./TitilliumWeb_300Light_Italic.ttf.png)|![TitilliumWeb_400Regular](./TitilliumWeb_400Regular.ttf.png)|![TitilliumWeb_400Regular_Italic](./TitilliumWeb_400Regular_Italic.ttf.png)||
+|![TitilliumWeb_600SemiBold](./TitilliumWeb_600SemiBold.ttf.png)|![TitilliumWeb_600SemiBold_Italic](./TitilliumWeb_600SemiBold_Italic.ttf.png)|![TitilliumWeb_700Bold](./TitilliumWeb_700Bold.ttf.png)||
+|![TitilliumWeb_700Bold_Italic](./TitilliumWeb_700Bold_Italic.ttf.png)|![TitilliumWeb_900Black](./TitilliumWeb_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

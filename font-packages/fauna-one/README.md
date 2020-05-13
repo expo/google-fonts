@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FaunaOne_400Regular
-![FaunaOne_400Regular](./FaunaOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![FaunaOne_400Regular](./FaunaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

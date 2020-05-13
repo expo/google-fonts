@@ -207,41 +207,13 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BaiJamjuree_200ExtraLight
-![BaiJamjuree_200ExtraLight](./BaiJamjuree_200ExtraLight.ttf.png)
 
-##### BaiJamjuree_200ExtraLight_Italic
-![BaiJamjuree_200ExtraLight_Italic](./BaiJamjuree_200ExtraLight_Italic.ttf.png)
-
-##### BaiJamjuree_300Light
-![BaiJamjuree_300Light](./BaiJamjuree_300Light.ttf.png)
-
-##### BaiJamjuree_300Light_Italic
-![BaiJamjuree_300Light_Italic](./BaiJamjuree_300Light_Italic.ttf.png)
-
-##### BaiJamjuree_400Regular
-![BaiJamjuree_400Regular](./BaiJamjuree_400Regular.ttf.png)
-
-##### BaiJamjuree_400Regular_Italic
-![BaiJamjuree_400Regular_Italic](./BaiJamjuree_400Regular_Italic.ttf.png)
-
-##### BaiJamjuree_500Medium
-![BaiJamjuree_500Medium](./BaiJamjuree_500Medium.ttf.png)
-
-##### BaiJamjuree_500Medium_Italic
-![BaiJamjuree_500Medium_Italic](./BaiJamjuree_500Medium_Italic.ttf.png)
-
-##### BaiJamjuree_600SemiBold
-![BaiJamjuree_600SemiBold](./BaiJamjuree_600SemiBold.ttf.png)
-
-##### BaiJamjuree_600SemiBold_Italic
-![BaiJamjuree_600SemiBold_Italic](./BaiJamjuree_600SemiBold_Italic.ttf.png)
-
-##### BaiJamjuree_700Bold
-![BaiJamjuree_700Bold](./BaiJamjuree_700Bold.ttf.png)
-
-##### BaiJamjuree_700Bold_Italic
-![BaiJamjuree_700Bold_Italic](./BaiJamjuree_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![BaiJamjuree_200ExtraLight](./BaiJamjuree_200ExtraLight.ttf.png)|![BaiJamjuree_200ExtraLight_Italic](./BaiJamjuree_200ExtraLight_Italic.ttf.png)|![BaiJamjuree_300Light](./BaiJamjuree_300Light.ttf.png)||
+|![BaiJamjuree_300Light_Italic](./BaiJamjuree_300Light_Italic.ttf.png)|![BaiJamjuree_400Regular](./BaiJamjuree_400Regular.ttf.png)|![BaiJamjuree_400Regular_Italic](./BaiJamjuree_400Regular_Italic.ttf.png)||
+|![BaiJamjuree_500Medium](./BaiJamjuree_500Medium.ttf.png)|![BaiJamjuree_500Medium_Italic](./BaiJamjuree_500Medium_Italic.ttf.png)|![BaiJamjuree_600SemiBold](./BaiJamjuree_600SemiBold.ttf.png)||
+|![BaiJamjuree_600SemiBold_Italic](./BaiJamjuree_600SemiBold_Italic.ttf.png)|![BaiJamjuree_700Bold](./BaiJamjuree_700Bold.ttf.png)|![BaiJamjuree_700Bold_Italic](./BaiJamjuree_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

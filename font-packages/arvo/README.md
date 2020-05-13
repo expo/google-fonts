@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Arvo_400Regular
-![Arvo_400Regular](./Arvo_400Regular.ttf.png)
 
-##### Arvo_400Regular_Italic
-![Arvo_400Regular_Italic](./Arvo_400Regular_Italic.ttf.png)
-
-##### Arvo_700Bold
-![Arvo_700Bold](./Arvo_700Bold.ttf.png)
-
-##### Arvo_700Bold_Italic
-![Arvo_700Bold_Italic](./Arvo_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Arvo_400Regular](./Arvo_400Regular.ttf.png)|![Arvo_400Regular_Italic](./Arvo_400Regular_Italic.ttf.png)|![Arvo_700Bold](./Arvo_700Bold.ttf.png)||
+|![Arvo_700Bold_Italic](./Arvo_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

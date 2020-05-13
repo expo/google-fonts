@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Creepster_400Regular
-![Creepster_400Regular](./Creepster_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Creepster_400Regular](./Creepster_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

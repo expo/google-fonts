@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PetitFormalScript_400Regular
-![PetitFormalScript_400Regular](./PetitFormalScript_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![PetitFormalScript_400Regular](./PetitFormalScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

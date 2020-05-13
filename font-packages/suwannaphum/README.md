@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Suwannaphum_400Regular
-![Suwannaphum_400Regular](./Suwannaphum_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Suwannaphum_400Regular](./Suwannaphum_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

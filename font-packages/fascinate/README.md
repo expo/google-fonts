@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Fascinate_400Regular
-![Fascinate_400Regular](./Fascinate_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Fascinate_400Regular](./Fascinate_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

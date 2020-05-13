@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Pompiere_400Regular
-![Pompiere_400Regular](./Pompiere_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Pompiere_400Regular](./Pompiere_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

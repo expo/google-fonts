@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Shanti_400Regular
-![Shanti_400Regular](./Shanti_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Shanti_400Regular](./Shanti_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

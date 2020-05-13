@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MaShanZheng_400Regular
-![MaShanZheng_400Regular](./MaShanZheng_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MaShanZheng_400Regular](./MaShanZheng_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

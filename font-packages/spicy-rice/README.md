@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SpicyRice_400Regular
-![SpicyRice_400Regular](./SpicyRice_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![SpicyRice_400Regular](./SpicyRice_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

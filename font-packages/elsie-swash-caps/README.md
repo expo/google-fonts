@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ElsieSwashCaps_400Regular
-![ElsieSwashCaps_400Regular](./ElsieSwashCaps_400Regular.ttf.png)
 
-##### ElsieSwashCaps_900Black
-![ElsieSwashCaps_900Black](./ElsieSwashCaps_900Black.ttf.png)
+||||
+|-|-|-|
+|![ElsieSwashCaps_400Regular](./ElsieSwashCaps_400Regular.ttf.png)|![ElsieSwashCaps_900Black](./ElsieSwashCaps_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

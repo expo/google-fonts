@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Belgrano_400Regular
-![Belgrano_400Regular](./Belgrano_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Belgrano_400Regular](./Belgrano_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

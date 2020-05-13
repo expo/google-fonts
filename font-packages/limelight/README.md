@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Limelight_400Regular
-![Limelight_400Regular](./Limelight_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Limelight_400Regular](./Limelight_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

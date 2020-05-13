@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CreteRound_400Regular
-![CreteRound_400Regular](./CreteRound_400Regular.ttf.png)
 
-##### CreteRound_400Regular_Italic
-![CreteRound_400Regular_Italic](./CreteRound_400Regular_Italic.ttf.png)
+||||
+|-|-|-|
+|![CreteRound_400Regular](./CreteRound_400Regular.ttf.png)|![CreteRound_400Regular_Italic](./CreteRound_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

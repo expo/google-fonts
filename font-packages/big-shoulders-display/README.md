@@ -155,29 +155,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BigShouldersDisplay_100Thin
-![BigShouldersDisplay_100Thin](./BigShouldersDisplay_100Thin.ttf.png)
 
-##### BigShouldersDisplay_300Light
-![BigShouldersDisplay_300Light](./BigShouldersDisplay_300Light.ttf.png)
-
-##### BigShouldersDisplay_400Regular
-![BigShouldersDisplay_400Regular](./BigShouldersDisplay_400Regular.ttf.png)
-
-##### BigShouldersDisplay_500Medium
-![BigShouldersDisplay_500Medium](./BigShouldersDisplay_500Medium.ttf.png)
-
-##### BigShouldersDisplay_600SemiBold
-![BigShouldersDisplay_600SemiBold](./BigShouldersDisplay_600SemiBold.ttf.png)
-
-##### BigShouldersDisplay_700Bold
-![BigShouldersDisplay_700Bold](./BigShouldersDisplay_700Bold.ttf.png)
-
-##### BigShouldersDisplay_800ExtraBold
-![BigShouldersDisplay_800ExtraBold](./BigShouldersDisplay_800ExtraBold.ttf.png)
-
-##### BigShouldersDisplay_900Black
-![BigShouldersDisplay_900Black](./BigShouldersDisplay_900Black.ttf.png)
+||||
+|-|-|-|
+|![BigShouldersDisplay_100Thin](./BigShouldersDisplay_100Thin.ttf.png)|![BigShouldersDisplay_300Light](./BigShouldersDisplay_300Light.ttf.png)|![BigShouldersDisplay_400Regular](./BigShouldersDisplay_400Regular.ttf.png)||
+|![BigShouldersDisplay_500Medium](./BigShouldersDisplay_500Medium.ttf.png)|![BigShouldersDisplay_600SemiBold](./BigShouldersDisplay_600SemiBold.ttf.png)|![BigShouldersDisplay_700Bold](./BigShouldersDisplay_700Bold.ttf.png)||
+|![BigShouldersDisplay_800ExtraBold](./BigShouldersDisplay_800ExtraBold.ttf.png)|![BigShouldersDisplay_900Black](./BigShouldersDisplay_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

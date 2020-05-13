@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MetalMania_400Regular
-![MetalMania_400Regular](./MetalMania_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MetalMania_400Regular](./MetalMania_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

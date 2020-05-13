@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GrandHotel_400Regular
-![GrandHotel_400Regular](./GrandHotel_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![GrandHotel_400Regular](./GrandHotel_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

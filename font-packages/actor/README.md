@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Actor_400Regular
-![Actor_400Regular](./Actor_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Actor_400Regular](./Actor_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Kreon_300Light
-![Kreon_300Light](./Kreon_300Light.ttf.png)
 
-##### Kreon_400Regular
-![Kreon_400Regular](./Kreon_400Regular.ttf.png)
-
-##### Kreon_500Medium
-![Kreon_500Medium](./Kreon_500Medium.ttf.png)
-
-##### Kreon_600SemiBold
-![Kreon_600SemiBold](./Kreon_600SemiBold.ttf.png)
-
-##### Kreon_700Bold
-![Kreon_700Bold](./Kreon_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Kreon_300Light](./Kreon_300Light.ttf.png)|![Kreon_400Regular](./Kreon_400Regular.ttf.png)|![Kreon_500Medium](./Kreon_500Medium.ttf.png)||
+|![Kreon_600SemiBold](./Kreon_600SemiBold.ttf.png)|![Kreon_700Bold](./Kreon_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

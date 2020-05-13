@@ -181,35 +181,13 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RobotoMono_100Thin
-![RobotoMono_100Thin](./RobotoMono_100Thin.ttf.png)
 
-##### RobotoMono_100Thin_Italic
-![RobotoMono_100Thin_Italic](./RobotoMono_100Thin_Italic.ttf.png)
-
-##### RobotoMono_300Light
-![RobotoMono_300Light](./RobotoMono_300Light.ttf.png)
-
-##### RobotoMono_300Light_Italic
-![RobotoMono_300Light_Italic](./RobotoMono_300Light_Italic.ttf.png)
-
-##### RobotoMono_400Regular
-![RobotoMono_400Regular](./RobotoMono_400Regular.ttf.png)
-
-##### RobotoMono_400Regular_Italic
-![RobotoMono_400Regular_Italic](./RobotoMono_400Regular_Italic.ttf.png)
-
-##### RobotoMono_500Medium
-![RobotoMono_500Medium](./RobotoMono_500Medium.ttf.png)
-
-##### RobotoMono_500Medium_Italic
-![RobotoMono_500Medium_Italic](./RobotoMono_500Medium_Italic.ttf.png)
-
-##### RobotoMono_700Bold
-![RobotoMono_700Bold](./RobotoMono_700Bold.ttf.png)
-
-##### RobotoMono_700Bold_Italic
-![RobotoMono_700Bold_Italic](./RobotoMono_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![RobotoMono_100Thin](./RobotoMono_100Thin.ttf.png)|![RobotoMono_100Thin_Italic](./RobotoMono_100Thin_Italic.ttf.png)|![RobotoMono_300Light](./RobotoMono_300Light.ttf.png)||
+|![RobotoMono_300Light_Italic](./RobotoMono_300Light_Italic.ttf.png)|![RobotoMono_400Regular](./RobotoMono_400Regular.ttf.png)|![RobotoMono_400Regular_Italic](./RobotoMono_400Regular_Italic.ttf.png)||
+|![RobotoMono_500Medium](./RobotoMono_500Medium.ttf.png)|![RobotoMono_500Medium_Italic](./RobotoMono_500Medium_Italic.ttf.png)|![RobotoMono_700Bold](./RobotoMono_700Bold.ttf.png)||
+|![RobotoMono_700Bold_Italic](./RobotoMono_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -207,41 +207,13 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Krub_200ExtraLight
-![Krub_200ExtraLight](./Krub_200ExtraLight.ttf.png)
 
-##### Krub_200ExtraLight_Italic
-![Krub_200ExtraLight_Italic](./Krub_200ExtraLight_Italic.ttf.png)
-
-##### Krub_300Light
-![Krub_300Light](./Krub_300Light.ttf.png)
-
-##### Krub_300Light_Italic
-![Krub_300Light_Italic](./Krub_300Light_Italic.ttf.png)
-
-##### Krub_400Regular
-![Krub_400Regular](./Krub_400Regular.ttf.png)
-
-##### Krub_400Regular_Italic
-![Krub_400Regular_Italic](./Krub_400Regular_Italic.ttf.png)
-
-##### Krub_500Medium
-![Krub_500Medium](./Krub_500Medium.ttf.png)
-
-##### Krub_500Medium_Italic
-![Krub_500Medium_Italic](./Krub_500Medium_Italic.ttf.png)
-
-##### Krub_600SemiBold
-![Krub_600SemiBold](./Krub_600SemiBold.ttf.png)
-
-##### Krub_600SemiBold_Italic
-![Krub_600SemiBold_Italic](./Krub_600SemiBold_Italic.ttf.png)
-
-##### Krub_700Bold
-![Krub_700Bold](./Krub_700Bold.ttf.png)
-
-##### Krub_700Bold_Italic
-![Krub_700Bold_Italic](./Krub_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Krub_200ExtraLight](./Krub_200ExtraLight.ttf.png)|![Krub_200ExtraLight_Italic](./Krub_200ExtraLight_Italic.ttf.png)|![Krub_300Light](./Krub_300Light.ttf.png)||
+|![Krub_300Light_Italic](./Krub_300Light_Italic.ttf.png)|![Krub_400Regular](./Krub_400Regular.ttf.png)|![Krub_400Regular_Italic](./Krub_400Regular_Italic.ttf.png)||
+|![Krub_500Medium](./Krub_500Medium.ttf.png)|![Krub_500Medium_Italic](./Krub_500Medium_Italic.ttf.png)|![Krub_600SemiBold](./Krub_600SemiBold.ttf.png)||
+|![Krub_600SemiBold_Italic](./Krub_600SemiBold_Italic.ttf.png)|![Krub_700Bold](./Krub_700Bold.ttf.png)|![Krub_700Bold_Italic](./Krub_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

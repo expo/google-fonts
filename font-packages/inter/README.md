@@ -168,32 +168,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Inter_100Thin
-![Inter_100Thin](./Inter_100Thin.ttf.png)
 
-##### Inter_200ExtraLight
-![Inter_200ExtraLight](./Inter_200ExtraLight.ttf.png)
-
-##### Inter_300Light
-![Inter_300Light](./Inter_300Light.ttf.png)
-
-##### Inter_400Regular
-![Inter_400Regular](./Inter_400Regular.ttf.png)
-
-##### Inter_500Medium
-![Inter_500Medium](./Inter_500Medium.ttf.png)
-
-##### Inter_600SemiBold
-![Inter_600SemiBold](./Inter_600SemiBold.ttf.png)
-
-##### Inter_700Bold
-![Inter_700Bold](./Inter_700Bold.ttf.png)
-
-##### Inter_800ExtraBold
-![Inter_800ExtraBold](./Inter_800ExtraBold.ttf.png)
-
-##### Inter_900Black
-![Inter_900Black](./Inter_900Black.ttf.png)
+||||
+|-|-|-|
+|![Inter_100Thin](./Inter_100Thin.ttf.png)|![Inter_200ExtraLight](./Inter_200ExtraLight.ttf.png)|![Inter_300Light](./Inter_300Light.ttf.png)||
+|![Inter_400Regular](./Inter_400Regular.ttf.png)|![Inter_500Medium](./Inter_500Medium.ttf.png)|![Inter_600SemiBold](./Inter_600SemiBold.ttf.png)||
+|![Inter_700Bold](./Inter_700Bold.ttf.png)|![Inter_800ExtraBold](./Inter_800ExtraBold.ttf.png)|![Inter_900Black](./Inter_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

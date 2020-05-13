@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Aclonica_400Regular
-![Aclonica_400Regular](./Aclonica_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Aclonica_400Regular](./Aclonica_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

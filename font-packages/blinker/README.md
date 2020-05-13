@@ -155,29 +155,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Blinker_100Thin
-![Blinker_100Thin](./Blinker_100Thin.ttf.png)
 
-##### Blinker_200ExtraLight
-![Blinker_200ExtraLight](./Blinker_200ExtraLight.ttf.png)
-
-##### Blinker_300Light
-![Blinker_300Light](./Blinker_300Light.ttf.png)
-
-##### Blinker_400Regular
-![Blinker_400Regular](./Blinker_400Regular.ttf.png)
-
-##### Blinker_600SemiBold
-![Blinker_600SemiBold](./Blinker_600SemiBold.ttf.png)
-
-##### Blinker_700Bold
-![Blinker_700Bold](./Blinker_700Bold.ttf.png)
-
-##### Blinker_800ExtraBold
-![Blinker_800ExtraBold](./Blinker_800ExtraBold.ttf.png)
-
-##### Blinker_900Black
-![Blinker_900Black](./Blinker_900Black.ttf.png)
+||||
+|-|-|-|
+|![Blinker_100Thin](./Blinker_100Thin.ttf.png)|![Blinker_200ExtraLight](./Blinker_200ExtraLight.ttf.png)|![Blinker_300Light](./Blinker_300Light.ttf.png)||
+|![Blinker_400Regular](./Blinker_400Regular.ttf.png)|![Blinker_600SemiBold](./Blinker_600SemiBold.ttf.png)|![Blinker_700Bold](./Blinker_700Bold.ttf.png)||
+|![Blinker_800ExtraBold](./Blinker_800ExtraBold.ttf.png)|![Blinker_900Black](./Blinker_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

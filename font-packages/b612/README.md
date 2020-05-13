@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### B612_400Regular
-![B612_400Regular](./B612_400Regular.ttf.png)
 
-##### B612_400Regular_Italic
-![B612_400Regular_Italic](./B612_400Regular_Italic.ttf.png)
-
-##### B612_700Bold
-![B612_700Bold](./B612_700Bold.ttf.png)
-
-##### B612_700Bold_Italic
-![B612_700Bold_Italic](./B612_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![B612_400Regular](./B612_400Regular.ttf.png)|![B612_400Regular_Italic](./B612_400Regular_Italic.ttf.png)|![B612_700Bold](./B612_700Bold.ttf.png)||
+|![B612_700Bold_Italic](./B612_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

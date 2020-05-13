@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Ruluko_400Regular
-![Ruluko_400Regular](./Ruluko_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Ruluko_400Regular](./Ruluko_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rancho_400Regular
-![Rancho_400Regular](./Rancho_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Rancho_400Regular](./Rancho_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

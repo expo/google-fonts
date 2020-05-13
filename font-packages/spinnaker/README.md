@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Spinnaker_400Regular
-![Spinnaker_400Regular](./Spinnaker_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Spinnaker_400Regular](./Spinnaker_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

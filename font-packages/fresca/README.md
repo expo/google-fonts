@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Fresca_400Regular
-![Fresca_400Regular](./Fresca_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Fresca_400Regular](./Fresca_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

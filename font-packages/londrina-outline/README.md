@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LondrinaOutline_400Regular
-![LondrinaOutline_400Regular](./LondrinaOutline_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![LondrinaOutline_400Regular](./LondrinaOutline_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

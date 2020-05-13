@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MarcellusSC_400Regular
-![MarcellusSC_400Regular](./MarcellusSC_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MarcellusSC_400Regular](./MarcellusSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

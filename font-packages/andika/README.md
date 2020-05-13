@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Andika_400Regular
-![Andika_400Regular](./Andika_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Andika_400Regular](./Andika_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

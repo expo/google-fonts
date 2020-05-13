@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Assistant_200ExtraLight
-![Assistant_200ExtraLight](./Assistant_200ExtraLight.ttf.png)
 
-##### Assistant_300Light
-![Assistant_300Light](./Assistant_300Light.ttf.png)
-
-##### Assistant_400Regular
-![Assistant_400Regular](./Assistant_400Regular.ttf.png)
-
-##### Assistant_600SemiBold
-![Assistant_600SemiBold](./Assistant_600SemiBold.ttf.png)
-
-##### Assistant_700Bold
-![Assistant_700Bold](./Assistant_700Bold.ttf.png)
-
-##### Assistant_800ExtraBold
-![Assistant_800ExtraBold](./Assistant_800ExtraBold.ttf.png)
+||||
+|-|-|-|
+|![Assistant_200ExtraLight](./Assistant_200ExtraLight.ttf.png)|![Assistant_300Light](./Assistant_300Light.ttf.png)|![Assistant_400Regular](./Assistant_400Regular.ttf.png)||
+|![Assistant_600SemiBold](./Assistant_600SemiBold.ttf.png)|![Assistant_700Bold](./Assistant_700Bold.ttf.png)|![Assistant_800ExtraBold](./Assistant_800ExtraBold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

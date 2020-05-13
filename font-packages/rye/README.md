@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rye_400Regular
-![Rye_400Regular](./Rye_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Rye_400Regular](./Rye_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SourceSerifPro_400Regular
-![SourceSerifPro_400Regular](./SourceSerifPro_400Regular.ttf.png)
 
-##### SourceSerifPro_600SemiBold
-![SourceSerifPro_600SemiBold](./SourceSerifPro_600SemiBold.ttf.png)
-
-##### SourceSerifPro_700Bold
-![SourceSerifPro_700Bold](./SourceSerifPro_700Bold.ttf.png)
+||||
+|-|-|-|
+|![SourceSerifPro_400Regular](./SourceSerifPro_400Regular.ttf.png)|![SourceSerifPro_600SemiBold](./SourceSerifPro_600SemiBold.ttf.png)|![SourceSerifPro_700Bold](./SourceSerifPro_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

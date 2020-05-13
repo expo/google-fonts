@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LeckerliOne_400Regular
-![LeckerliOne_400Regular](./LeckerliOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![LeckerliOne_400Regular](./LeckerliOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

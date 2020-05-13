@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### UnifrakturMaguntia_400Regular
-![UnifrakturMaguntia_400Regular](./UnifrakturMaguntia_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![UnifrakturMaguntia_400Regular](./UnifrakturMaguntia_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

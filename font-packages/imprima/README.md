@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Imprima_400Regular
-![Imprima_400Regular](./Imprima_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Imprima_400Regular](./Imprima_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

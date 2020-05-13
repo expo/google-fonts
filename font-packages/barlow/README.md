@@ -285,59 +285,15 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Barlow_100Thin
-![Barlow_100Thin](./Barlow_100Thin.ttf.png)
 
-##### Barlow_100Thin_Italic
-![Barlow_100Thin_Italic](./Barlow_100Thin_Italic.ttf.png)
-
-##### Barlow_200ExtraLight
-![Barlow_200ExtraLight](./Barlow_200ExtraLight.ttf.png)
-
-##### Barlow_200ExtraLight_Italic
-![Barlow_200ExtraLight_Italic](./Barlow_200ExtraLight_Italic.ttf.png)
-
-##### Barlow_300Light
-![Barlow_300Light](./Barlow_300Light.ttf.png)
-
-##### Barlow_300Light_Italic
-![Barlow_300Light_Italic](./Barlow_300Light_Italic.ttf.png)
-
-##### Barlow_400Regular
-![Barlow_400Regular](./Barlow_400Regular.ttf.png)
-
-##### Barlow_400Regular_Italic
-![Barlow_400Regular_Italic](./Barlow_400Regular_Italic.ttf.png)
-
-##### Barlow_500Medium
-![Barlow_500Medium](./Barlow_500Medium.ttf.png)
-
-##### Barlow_500Medium_Italic
-![Barlow_500Medium_Italic](./Barlow_500Medium_Italic.ttf.png)
-
-##### Barlow_600SemiBold
-![Barlow_600SemiBold](./Barlow_600SemiBold.ttf.png)
-
-##### Barlow_600SemiBold_Italic
-![Barlow_600SemiBold_Italic](./Barlow_600SemiBold_Italic.ttf.png)
-
-##### Barlow_700Bold
-![Barlow_700Bold](./Barlow_700Bold.ttf.png)
-
-##### Barlow_700Bold_Italic
-![Barlow_700Bold_Italic](./Barlow_700Bold_Italic.ttf.png)
-
-##### Barlow_800ExtraBold
-![Barlow_800ExtraBold](./Barlow_800ExtraBold.ttf.png)
-
-##### Barlow_800ExtraBold_Italic
-![Barlow_800ExtraBold_Italic](./Barlow_800ExtraBold_Italic.ttf.png)
-
-##### Barlow_900Black
-![Barlow_900Black](./Barlow_900Black.ttf.png)
-
-##### Barlow_900Black_Italic
-![Barlow_900Black_Italic](./Barlow_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![Barlow_100Thin](./Barlow_100Thin.ttf.png)|![Barlow_100Thin_Italic](./Barlow_100Thin_Italic.ttf.png)|![Barlow_200ExtraLight](./Barlow_200ExtraLight.ttf.png)||
+|![Barlow_200ExtraLight_Italic](./Barlow_200ExtraLight_Italic.ttf.png)|![Barlow_300Light](./Barlow_300Light.ttf.png)|![Barlow_300Light_Italic](./Barlow_300Light_Italic.ttf.png)||
+|![Barlow_400Regular](./Barlow_400Regular.ttf.png)|![Barlow_400Regular_Italic](./Barlow_400Regular_Italic.ttf.png)|![Barlow_500Medium](./Barlow_500Medium.ttf.png)||
+|![Barlow_500Medium_Italic](./Barlow_500Medium_Italic.ttf.png)|![Barlow_600SemiBold](./Barlow_600SemiBold.ttf.png)|![Barlow_600SemiBold_Italic](./Barlow_600SemiBold_Italic.ttf.png)||
+|![Barlow_700Bold](./Barlow_700Bold.ttf.png)|![Barlow_700Bold_Italic](./Barlow_700Bold_Italic.ttf.png)|![Barlow_800ExtraBold](./Barlow_800ExtraBold.ttf.png)||
+|![Barlow_800ExtraBold_Italic](./Barlow_800ExtraBold_Italic.ttf.png)|![Barlow_900Black](./Barlow_900Black.ttf.png)|![Barlow_900Black_Italic](./Barlow_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

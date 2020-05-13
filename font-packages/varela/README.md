@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Varela_400Regular
-![Varela_400Regular](./Varela_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Varela_400Regular](./Varela_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

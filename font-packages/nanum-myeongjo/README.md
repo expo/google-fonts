@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NanumMyeongjo_400Regular
-![NanumMyeongjo_400Regular](./NanumMyeongjo_400Regular.ttf.png)
 
-##### NanumMyeongjo_700Bold
-![NanumMyeongjo_700Bold](./NanumMyeongjo_700Bold.ttf.png)
-
-##### NanumMyeongjo_800ExtraBold
-![NanumMyeongjo_800ExtraBold](./NanumMyeongjo_800ExtraBold.ttf.png)
+||||
+|-|-|-|
+|![NanumMyeongjo_400Regular](./NanumMyeongjo_400Regular.ttf.png)|![NanumMyeongjo_700Bold](./NanumMyeongjo_700Bold.ttf.png)|![NanumMyeongjo_800ExtraBold](./NanumMyeongjo_800ExtraBold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

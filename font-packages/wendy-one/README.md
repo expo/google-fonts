@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### WendyOne_400Regular
-![WendyOne_400Regular](./WendyOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![WendyOne_400Regular](./WendyOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

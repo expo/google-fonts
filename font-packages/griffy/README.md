@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Griffy_400Regular
-![Griffy_400Regular](./Griffy_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Griffy_400Regular](./Griffy_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

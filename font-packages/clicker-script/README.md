@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ClickerScript_400Regular
-![ClickerScript_400Regular](./ClickerScript_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![ClickerScript_400Regular](./ClickerScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

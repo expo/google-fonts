@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sumana_400Regular
-![Sumana_400Regular](./Sumana_400Regular.ttf.png)
 
-##### Sumana_700Bold
-![Sumana_700Bold](./Sumana_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Sumana_400Regular](./Sumana_400Regular.ttf.png)|![Sumana_700Bold](./Sumana_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Tillana_400Regular
-![Tillana_400Regular](./Tillana_400Regular.ttf.png)
 
-##### Tillana_500Medium
-![Tillana_500Medium](./Tillana_500Medium.ttf.png)
-
-##### Tillana_600SemiBold
-![Tillana_600SemiBold](./Tillana_600SemiBold.ttf.png)
-
-##### Tillana_700Bold
-![Tillana_700Bold](./Tillana_700Bold.ttf.png)
-
-##### Tillana_800ExtraBold
-![Tillana_800ExtraBold](./Tillana_800ExtraBold.ttf.png)
+||||
+|-|-|-|
+|![Tillana_400Regular](./Tillana_400Regular.ttf.png)|![Tillana_500Medium](./Tillana_500Medium.ttf.png)|![Tillana_600SemiBold](./Tillana_600SemiBold.ttf.png)||
+|![Tillana_700Bold](./Tillana_700Bold.ttf.png)|![Tillana_800ExtraBold](./Tillana_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

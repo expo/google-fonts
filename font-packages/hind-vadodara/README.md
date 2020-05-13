@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HindVadodara_300Light
-![HindVadodara_300Light](./HindVadodara_300Light.ttf.png)
 
-##### HindVadodara_400Regular
-![HindVadodara_400Regular](./HindVadodara_400Regular.ttf.png)
-
-##### HindVadodara_500Medium
-![HindVadodara_500Medium](./HindVadodara_500Medium.ttf.png)
-
-##### HindVadodara_600SemiBold
-![HindVadodara_600SemiBold](./HindVadodara_600SemiBold.ttf.png)
-
-##### HindVadodara_700Bold
-![HindVadodara_700Bold](./HindVadodara_700Bold.ttf.png)
+||||
+|-|-|-|
+|![HindVadodara_300Light](./HindVadodara_300Light.ttf.png)|![HindVadodara_400Regular](./HindVadodara_400Regular.ttf.png)|![HindVadodara_500Medium](./HindVadodara_500Medium.ttf.png)||
+|![HindVadodara_600SemiBold](./HindVadodara_600SemiBold.ttf.png)|![HindVadodara_700Bold](./HindVadodara_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

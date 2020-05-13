@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Signika_300Light
-![Signika_300Light](./Signika_300Light.ttf.png)
 
-##### Signika_400Regular
-![Signika_400Regular](./Signika_400Regular.ttf.png)
-
-##### Signika_600SemiBold
-![Signika_600SemiBold](./Signika_600SemiBold.ttf.png)
-
-##### Signika_700Bold
-![Signika_700Bold](./Signika_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Signika_300Light](./Signika_300Light.ttf.png)|![Signika_400Regular](./Signika_400Regular.ttf.png)|![Signika_600SemiBold](./Signika_600SemiBold.ttf.png)||
+|![Signika_700Bold](./Signika_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

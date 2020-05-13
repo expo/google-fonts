@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Alike_400Regular
-![Alike_400Regular](./Alike_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Alike_400Regular](./Alike_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

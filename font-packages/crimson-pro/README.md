@@ -259,53 +259,15 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CrimsonPro_200ExtraLight
-![CrimsonPro_200ExtraLight](./CrimsonPro_200ExtraLight.ttf.png)
 
-##### CrimsonPro_300Light
-![CrimsonPro_300Light](./CrimsonPro_300Light.ttf.png)
-
-##### CrimsonPro_400Regular
-![CrimsonPro_400Regular](./CrimsonPro_400Regular.ttf.png)
-
-##### CrimsonPro_500Medium
-![CrimsonPro_500Medium](./CrimsonPro_500Medium.ttf.png)
-
-##### CrimsonPro_600SemiBold
-![CrimsonPro_600SemiBold](./CrimsonPro_600SemiBold.ttf.png)
-
-##### CrimsonPro_700Bold
-![CrimsonPro_700Bold](./CrimsonPro_700Bold.ttf.png)
-
-##### CrimsonPro_800ExtraBold
-![CrimsonPro_800ExtraBold](./CrimsonPro_800ExtraBold.ttf.png)
-
-##### CrimsonPro_900Black
-![CrimsonPro_900Black](./CrimsonPro_900Black.ttf.png)
-
-##### CrimsonPro_200ExtraLight_Italic
-![CrimsonPro_200ExtraLight_Italic](./CrimsonPro_200ExtraLight_Italic.ttf.png)
-
-##### CrimsonPro_300Light_Italic
-![CrimsonPro_300Light_Italic](./CrimsonPro_300Light_Italic.ttf.png)
-
-##### CrimsonPro_400Regular_Italic
-![CrimsonPro_400Regular_Italic](./CrimsonPro_400Regular_Italic.ttf.png)
-
-##### CrimsonPro_500Medium_Italic
-![CrimsonPro_500Medium_Italic](./CrimsonPro_500Medium_Italic.ttf.png)
-
-##### CrimsonPro_600SemiBold_Italic
-![CrimsonPro_600SemiBold_Italic](./CrimsonPro_600SemiBold_Italic.ttf.png)
-
-##### CrimsonPro_700Bold_Italic
-![CrimsonPro_700Bold_Italic](./CrimsonPro_700Bold_Italic.ttf.png)
-
-##### CrimsonPro_800ExtraBold_Italic
-![CrimsonPro_800ExtraBold_Italic](./CrimsonPro_800ExtraBold_Italic.ttf.png)
-
-##### CrimsonPro_900Black_Italic
-![CrimsonPro_900Black_Italic](./CrimsonPro_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![CrimsonPro_200ExtraLight](./CrimsonPro_200ExtraLight.ttf.png)|![CrimsonPro_300Light](./CrimsonPro_300Light.ttf.png)|![CrimsonPro_400Regular](./CrimsonPro_400Regular.ttf.png)||
+|![CrimsonPro_500Medium](./CrimsonPro_500Medium.ttf.png)|![CrimsonPro_600SemiBold](./CrimsonPro_600SemiBold.ttf.png)|![CrimsonPro_700Bold](./CrimsonPro_700Bold.ttf.png)||
+|![CrimsonPro_800ExtraBold](./CrimsonPro_800ExtraBold.ttf.png)|![CrimsonPro_900Black](./CrimsonPro_900Black.ttf.png)|![CrimsonPro_200ExtraLight_Italic](./CrimsonPro_200ExtraLight_Italic.ttf.png)||
+|![CrimsonPro_300Light_Italic](./CrimsonPro_300Light_Italic.ttf.png)|![CrimsonPro_400Regular_Italic](./CrimsonPro_400Regular_Italic.ttf.png)|![CrimsonPro_500Medium_Italic](./CrimsonPro_500Medium_Italic.ttf.png)||
+|![CrimsonPro_600SemiBold_Italic](./CrimsonPro_600SemiBold_Italic.ttf.png)|![CrimsonPro_700Bold_Italic](./CrimsonPro_700Bold_Italic.ttf.png)|![CrimsonPro_800ExtraBold_Italic](./CrimsonPro_800ExtraBold_Italic.ttf.png)||
+|![CrimsonPro_900Black_Italic](./CrimsonPro_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

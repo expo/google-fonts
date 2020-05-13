@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Righteous_400Regular
-![Righteous_400Regular](./Righteous_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Righteous_400Regular](./Righteous_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

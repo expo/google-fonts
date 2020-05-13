@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MissFajardose_400Regular
-![MissFajardose_400Regular](./MissFajardose_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MissFajardose_400Regular](./MissFajardose_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

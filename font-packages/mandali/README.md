@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Mandali_400Regular
-![Mandali_400Regular](./Mandali_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Mandali_400Regular](./Mandali_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

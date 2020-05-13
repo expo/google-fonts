@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MrDeHaviland_400Regular
-![MrDeHaviland_400Regular](./MrDeHaviland_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MrDeHaviland_400Regular](./MrDeHaviland_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

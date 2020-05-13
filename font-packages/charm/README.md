@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Charm_400Regular
-![Charm_400Regular](./Charm_400Regular.ttf.png)
 
-##### Charm_700Bold
-![Charm_700Bold](./Charm_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Charm_400Regular](./Charm_400Regular.ttf.png)|![Charm_700Bold](./Charm_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

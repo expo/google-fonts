@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AmaticSC_400Regular
-![AmaticSC_400Regular](./AmaticSC_400Regular.ttf.png)
 
-##### AmaticSC_700Bold
-![AmaticSC_700Bold](./AmaticSC_700Bold.ttf.png)
+||||
+|-|-|-|
+|![AmaticSC_400Regular](./AmaticSC_400Regular.ttf.png)|![AmaticSC_700Bold](./AmaticSC_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

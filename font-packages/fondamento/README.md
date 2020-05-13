@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Fondamento_400Regular
-![Fondamento_400Regular](./Fondamento_400Regular.ttf.png)
 
-##### Fondamento_400Regular_Italic
-![Fondamento_400Regular_Italic](./Fondamento_400Regular_Italic.ttf.png)
+||||
+|-|-|-|
+|![Fondamento_400Regular](./Fondamento_400Regular.ttf.png)|![Fondamento_400Regular_Italic](./Fondamento_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

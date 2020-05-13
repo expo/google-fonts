@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Eater_400Regular
-![Eater_400Regular](./Eater_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Eater_400Regular](./Eater_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

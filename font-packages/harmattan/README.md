@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Harmattan_400Regular
-![Harmattan_400Regular](./Harmattan_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Harmattan_400Regular](./Harmattan_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

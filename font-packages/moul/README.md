@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Moul_400Regular
-![Moul_400Regular](./Moul_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Moul_400Regular](./Moul_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

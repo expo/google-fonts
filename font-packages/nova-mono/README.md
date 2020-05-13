@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NovaMono_400Regular
-![NovaMono_400Regular](./NovaMono_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![NovaMono_400Regular](./NovaMono_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Slabo27px_400Regular
-![Slabo27px_400Regular](./Slabo27px_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Slabo27px_400Regular](./Slabo27px_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

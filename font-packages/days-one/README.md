@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DaysOne_400Regular
-![DaysOne_400Regular](./DaysOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![DaysOne_400Regular](./DaysOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

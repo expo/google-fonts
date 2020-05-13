@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LindenHill_400Regular
-![LindenHill_400Regular](./LindenHill_400Regular.ttf.png)
 
-##### LindenHill_400Regular_Italic
-![LindenHill_400Regular_Italic](./LindenHill_400Regular_Italic.ttf.png)
+||||
+|-|-|-|
+|![LindenHill_400Regular](./LindenHill_400Regular.ttf.png)|![LindenHill_400Regular_Italic](./LindenHill_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

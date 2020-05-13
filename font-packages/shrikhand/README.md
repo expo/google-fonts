@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Shrikhand_400Regular
-![Shrikhand_400Regular](./Shrikhand_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Shrikhand_400Regular](./Shrikhand_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

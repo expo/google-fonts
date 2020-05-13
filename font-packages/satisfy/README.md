@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Satisfy_400Regular
-![Satisfy_400Regular](./Satisfy_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Satisfy_400Regular](./Satisfy_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -285,59 +285,15 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FiraSans_100Thin
-![FiraSans_100Thin](./FiraSans_100Thin.ttf.png)
 
-##### FiraSans_100Thin_Italic
-![FiraSans_100Thin_Italic](./FiraSans_100Thin_Italic.ttf.png)
-
-##### FiraSans_200ExtraLight
-![FiraSans_200ExtraLight](./FiraSans_200ExtraLight.ttf.png)
-
-##### FiraSans_200ExtraLight_Italic
-![FiraSans_200ExtraLight_Italic](./FiraSans_200ExtraLight_Italic.ttf.png)
-
-##### FiraSans_300Light
-![FiraSans_300Light](./FiraSans_300Light.ttf.png)
-
-##### FiraSans_300Light_Italic
-![FiraSans_300Light_Italic](./FiraSans_300Light_Italic.ttf.png)
-
-##### FiraSans_400Regular
-![FiraSans_400Regular](./FiraSans_400Regular.ttf.png)
-
-##### FiraSans_400Regular_Italic
-![FiraSans_400Regular_Italic](./FiraSans_400Regular_Italic.ttf.png)
-
-##### FiraSans_500Medium
-![FiraSans_500Medium](./FiraSans_500Medium.ttf.png)
-
-##### FiraSans_500Medium_Italic
-![FiraSans_500Medium_Italic](./FiraSans_500Medium_Italic.ttf.png)
-
-##### FiraSans_600SemiBold
-![FiraSans_600SemiBold](./FiraSans_600SemiBold.ttf.png)
-
-##### FiraSans_600SemiBold_Italic
-![FiraSans_600SemiBold_Italic](./FiraSans_600SemiBold_Italic.ttf.png)
-
-##### FiraSans_700Bold
-![FiraSans_700Bold](./FiraSans_700Bold.ttf.png)
-
-##### FiraSans_700Bold_Italic
-![FiraSans_700Bold_Italic](./FiraSans_700Bold_Italic.ttf.png)
-
-##### FiraSans_800ExtraBold
-![FiraSans_800ExtraBold](./FiraSans_800ExtraBold.ttf.png)
-
-##### FiraSans_800ExtraBold_Italic
-![FiraSans_800ExtraBold_Italic](./FiraSans_800ExtraBold_Italic.ttf.png)
-
-##### FiraSans_900Black
-![FiraSans_900Black](./FiraSans_900Black.ttf.png)
-
-##### FiraSans_900Black_Italic
-![FiraSans_900Black_Italic](./FiraSans_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![FiraSans_100Thin](./FiraSans_100Thin.ttf.png)|![FiraSans_100Thin_Italic](./FiraSans_100Thin_Italic.ttf.png)|![FiraSans_200ExtraLight](./FiraSans_200ExtraLight.ttf.png)||
+|![FiraSans_200ExtraLight_Italic](./FiraSans_200ExtraLight_Italic.ttf.png)|![FiraSans_300Light](./FiraSans_300Light.ttf.png)|![FiraSans_300Light_Italic](./FiraSans_300Light_Italic.ttf.png)||
+|![FiraSans_400Regular](./FiraSans_400Regular.ttf.png)|![FiraSans_400Regular_Italic](./FiraSans_400Regular_Italic.ttf.png)|![FiraSans_500Medium](./FiraSans_500Medium.ttf.png)||
+|![FiraSans_500Medium_Italic](./FiraSans_500Medium_Italic.ttf.png)|![FiraSans_600SemiBold](./FiraSans_600SemiBold.ttf.png)|![FiraSans_600SemiBold_Italic](./FiraSans_600SemiBold_Italic.ttf.png)||
+|![FiraSans_700Bold](./FiraSans_700Bold.ttf.png)|![FiraSans_700Bold_Italic](./FiraSans_700Bold_Italic.ttf.png)|![FiraSans_800ExtraBold](./FiraSans_800ExtraBold.ttf.png)||
+|![FiraSans_800ExtraBold_Italic](./FiraSans_800ExtraBold_Italic.ttf.png)|![FiraSans_900Black](./FiraSans_900Black.ttf.png)|![FiraSans_900Black_Italic](./FiraSans_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

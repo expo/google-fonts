@@ -155,29 +155,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RedHatDisplay_400Regular
-![RedHatDisplay_400Regular](./RedHatDisplay_400Regular.ttf.png)
 
-##### RedHatDisplay_400Regular_Italic
-![RedHatDisplay_400Regular_Italic](./RedHatDisplay_400Regular_Italic.ttf.png)
-
-##### RedHatDisplay_500Medium
-![RedHatDisplay_500Medium](./RedHatDisplay_500Medium.ttf.png)
-
-##### RedHatDisplay_500Medium_Italic
-![RedHatDisplay_500Medium_Italic](./RedHatDisplay_500Medium_Italic.ttf.png)
-
-##### RedHatDisplay_700Bold
-![RedHatDisplay_700Bold](./RedHatDisplay_700Bold.ttf.png)
-
-##### RedHatDisplay_700Bold_Italic
-![RedHatDisplay_700Bold_Italic](./RedHatDisplay_700Bold_Italic.ttf.png)
-
-##### RedHatDisplay_900Black
-![RedHatDisplay_900Black](./RedHatDisplay_900Black.ttf.png)
-
-##### RedHatDisplay_900Black_Italic
-![RedHatDisplay_900Black_Italic](./RedHatDisplay_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![RedHatDisplay_400Regular](./RedHatDisplay_400Regular.ttf.png)|![RedHatDisplay_400Regular_Italic](./RedHatDisplay_400Regular_Italic.ttf.png)|![RedHatDisplay_500Medium](./RedHatDisplay_500Medium.ttf.png)||
+|![RedHatDisplay_500Medium_Italic](./RedHatDisplay_500Medium_Italic.ttf.png)|![RedHatDisplay_700Bold](./RedHatDisplay_700Bold.ttf.png)|![RedHatDisplay_700Bold_Italic](./RedHatDisplay_700Bold_Italic.ttf.png)||
+|![RedHatDisplay_900Black](./RedHatDisplay_900Black.ttf.png)|![RedHatDisplay_900Black_Italic](./RedHatDisplay_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Arizonia_400Regular
-![Arizonia_400Regular](./Arizonia_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Arizonia_400Regular](./Arizonia_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

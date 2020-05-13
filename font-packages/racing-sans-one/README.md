@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RacingSansOne_400Regular
-![RacingSansOne_400Regular](./RacingSansOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![RacingSansOne_400Regular](./RacingSansOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

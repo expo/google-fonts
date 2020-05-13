@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Nobile_400Regular
-![Nobile_400Regular](./Nobile_400Regular.ttf.png)
 
-##### Nobile_400Regular_Italic
-![Nobile_400Regular_Italic](./Nobile_400Regular_Italic.ttf.png)
-
-##### Nobile_500Medium
-![Nobile_500Medium](./Nobile_500Medium.ttf.png)
-
-##### Nobile_500Medium_Italic
-![Nobile_500Medium_Italic](./Nobile_500Medium_Italic.ttf.png)
-
-##### Nobile_700Bold
-![Nobile_700Bold](./Nobile_700Bold.ttf.png)
-
-##### Nobile_700Bold_Italic
-![Nobile_700Bold_Italic](./Nobile_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Nobile_400Regular](./Nobile_400Regular.ttf.png)|![Nobile_400Regular_Italic](./Nobile_400Regular_Italic.ttf.png)|![Nobile_500Medium](./Nobile_500Medium.ttf.png)||
+|![Nobile_500Medium_Italic](./Nobile_500Medium_Italic.ttf.png)|![Nobile_700Bold](./Nobile_700Bold.ttf.png)|![Nobile_700Bold_Italic](./Nobile_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CormorantSC_300Light
-![CormorantSC_300Light](./CormorantSC_300Light.ttf.png)
 
-##### CormorantSC_400Regular
-![CormorantSC_400Regular](./CormorantSC_400Regular.ttf.png)
-
-##### CormorantSC_500Medium
-![CormorantSC_500Medium](./CormorantSC_500Medium.ttf.png)
-
-##### CormorantSC_600SemiBold
-![CormorantSC_600SemiBold](./CormorantSC_600SemiBold.ttf.png)
-
-##### CormorantSC_700Bold
-![CormorantSC_700Bold](./CormorantSC_700Bold.ttf.png)
+||||
+|-|-|-|
+|![CormorantSC_300Light](./CormorantSC_300Light.ttf.png)|![CormorantSC_400Regular](./CormorantSC_400Regular.ttf.png)|![CormorantSC_500Medium](./CormorantSC_500Medium.ttf.png)||
+|![CormorantSC_600SemiBold](./CormorantSC_600SemiBold.ttf.png)|![CormorantSC_700Bold](./CormorantSC_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

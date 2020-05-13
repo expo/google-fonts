@@ -142,26 +142,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Mada_200ExtraLight
-![Mada_200ExtraLight](./Mada_200ExtraLight.ttf.png)
 
-##### Mada_300Light
-![Mada_300Light](./Mada_300Light.ttf.png)
-
-##### Mada_400Regular
-![Mada_400Regular](./Mada_400Regular.ttf.png)
-
-##### Mada_500Medium
-![Mada_500Medium](./Mada_500Medium.ttf.png)
-
-##### Mada_600SemiBold
-![Mada_600SemiBold](./Mada_600SemiBold.ttf.png)
-
-##### Mada_700Bold
-![Mada_700Bold](./Mada_700Bold.ttf.png)
-
-##### Mada_900Black
-![Mada_900Black](./Mada_900Black.ttf.png)
+||||
+|-|-|-|
+|![Mada_200ExtraLight](./Mada_200ExtraLight.ttf.png)|![Mada_300Light](./Mada_300Light.ttf.png)|![Mada_400Regular](./Mada_400Regular.ttf.png)||
+|![Mada_500Medium](./Mada_500Medium.ttf.png)|![Mada_600SemiBold](./Mada_600SemiBold.ttf.png)|![Mada_700Bold](./Mada_700Bold.ttf.png)||
+|![Mada_900Black](./Mada_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

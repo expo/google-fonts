@@ -181,35 +181,13 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### JosefinSlab_100Thin
-![JosefinSlab_100Thin](./JosefinSlab_100Thin.ttf.png)
 
-##### JosefinSlab_100Thin_Italic
-![JosefinSlab_100Thin_Italic](./JosefinSlab_100Thin_Italic.ttf.png)
-
-##### JosefinSlab_300Light
-![JosefinSlab_300Light](./JosefinSlab_300Light.ttf.png)
-
-##### JosefinSlab_300Light_Italic
-![JosefinSlab_300Light_Italic](./JosefinSlab_300Light_Italic.ttf.png)
-
-##### JosefinSlab_400Regular
-![JosefinSlab_400Regular](./JosefinSlab_400Regular.ttf.png)
-
-##### JosefinSlab_400Regular_Italic
-![JosefinSlab_400Regular_Italic](./JosefinSlab_400Regular_Italic.ttf.png)
-
-##### JosefinSlab_600SemiBold
-![JosefinSlab_600SemiBold](./JosefinSlab_600SemiBold.ttf.png)
-
-##### JosefinSlab_600SemiBold_Italic
-![JosefinSlab_600SemiBold_Italic](./JosefinSlab_600SemiBold_Italic.ttf.png)
-
-##### JosefinSlab_700Bold
-![JosefinSlab_700Bold](./JosefinSlab_700Bold.ttf.png)
-
-##### JosefinSlab_700Bold_Italic
-![JosefinSlab_700Bold_Italic](./JosefinSlab_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![JosefinSlab_100Thin](./JosefinSlab_100Thin.ttf.png)|![JosefinSlab_100Thin_Italic](./JosefinSlab_100Thin_Italic.ttf.png)|![JosefinSlab_300Light](./JosefinSlab_300Light.ttf.png)||
+|![JosefinSlab_300Light_Italic](./JosefinSlab_300Light_Italic.ttf.png)|![JosefinSlab_400Regular](./JosefinSlab_400Regular.ttf.png)|![JosefinSlab_400Regular_Italic](./JosefinSlab_400Regular_Italic.ttf.png)||
+|![JosefinSlab_600SemiBold](./JosefinSlab_600SemiBold.ttf.png)|![JosefinSlab_600SemiBold_Italic](./JosefinSlab_600SemiBold_Italic.ttf.png)|![JosefinSlab_700Bold](./JosefinSlab_700Bold.ttf.png)||
+|![JosefinSlab_700Bold_Italic](./JosefinSlab_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

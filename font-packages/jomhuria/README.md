@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Jomhuria_400Regular
-![Jomhuria_400Regular](./Jomhuria_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Jomhuria_400Regular](./Jomhuria_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ABeeZee_400Regular
-![ABeeZee_400Regular](./ABeeZee_400Regular.ttf.png)
 
-##### ABeeZee_400Regular_Italic
-![ABeeZee_400Regular_Italic](./ABeeZee_400Regular_Italic.ttf.png)
+||||
+|-|-|-|
+|![ABeeZee_400Regular](./ABeeZee_400Regular.ttf.png)|![ABeeZee_400Regular_Italic](./ABeeZee_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

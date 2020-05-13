@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Unna_400Regular
-![Unna_400Regular](./Unna_400Regular.ttf.png)
 
-##### Unna_400Regular_Italic
-![Unna_400Regular_Italic](./Unna_400Regular_Italic.ttf.png)
-
-##### Unna_700Bold
-![Unna_700Bold](./Unna_700Bold.ttf.png)
-
-##### Unna_700Bold_Italic
-![Unna_700Bold_Italic](./Unna_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Unna_400Regular](./Unna_400Regular.ttf.png)|![Unna_400Regular_Italic](./Unna_400Regular_Italic.ttf.png)|![Unna_700Bold](./Unna_700Bold.ttf.png)||
+|![Unna_700Bold_Italic](./Unna_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

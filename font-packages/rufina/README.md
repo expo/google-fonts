@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rufina_400Regular
-![Rufina_400Regular](./Rufina_400Regular.ttf.png)
 
-##### Rufina_700Bold
-![Rufina_700Bold](./Rufina_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Rufina_400Regular](./Rufina_400Regular.ttf.png)|![Rufina_700Bold](./Rufina_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

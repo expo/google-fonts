@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NotoSerif_400Regular
-![NotoSerif_400Regular](./NotoSerif_400Regular.ttf.png)
 
-##### NotoSerif_400Regular_Italic
-![NotoSerif_400Regular_Italic](./NotoSerif_400Regular_Italic.ttf.png)
-
-##### NotoSerif_700Bold
-![NotoSerif_700Bold](./NotoSerif_700Bold.ttf.png)
-
-##### NotoSerif_700Bold_Italic
-![NotoSerif_700Bold_Italic](./NotoSerif_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![NotoSerif_400Regular](./NotoSerif_400Regular.ttf.png)|![NotoSerif_400Regular_Italic](./NotoSerif_400Regular_Italic.ttf.png)|![NotoSerif_700Bold](./NotoSerif_700Bold.ttf.png)||
+|![NotoSerif_700Bold_Italic](./NotoSerif_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

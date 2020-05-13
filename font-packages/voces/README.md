@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Voces_400Regular
-![Voces_400Regular](./Voces_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Voces_400Regular](./Voces_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

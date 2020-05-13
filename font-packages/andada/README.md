@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Andada_400Regular
-![Andada_400Regular](./Andada_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Andada_400Regular](./Andada_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

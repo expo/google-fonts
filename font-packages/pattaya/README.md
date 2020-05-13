@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Pattaya_400Regular
-![Pattaya_400Regular](./Pattaya_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Pattaya_400Regular](./Pattaya_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

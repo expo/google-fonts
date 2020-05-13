@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ZhiMangXing_400Regular
-![ZhiMangXing_400Regular](./ZhiMangXing_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![ZhiMangXing_400Regular](./ZhiMangXing_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gotu_400Regular
-![Gotu_400Regular](./Gotu_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Gotu_400Regular](./Gotu_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

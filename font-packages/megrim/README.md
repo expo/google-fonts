@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Megrim_400Regular
-![Megrim_400Regular](./Megrim_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Megrim_400Regular](./Megrim_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

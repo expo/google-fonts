@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GentiumBookBasic_400Regular
-![GentiumBookBasic_400Regular](./GentiumBookBasic_400Regular.ttf.png)
 
-##### GentiumBookBasic_400Regular_Italic
-![GentiumBookBasic_400Regular_Italic](./GentiumBookBasic_400Regular_Italic.ttf.png)
-
-##### GentiumBookBasic_700Bold
-![GentiumBookBasic_700Bold](./GentiumBookBasic_700Bold.ttf.png)
-
-##### GentiumBookBasic_700Bold_Italic
-![GentiumBookBasic_700Bold_Italic](./GentiumBookBasic_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![GentiumBookBasic_400Regular](./GentiumBookBasic_400Regular.ttf.png)|![GentiumBookBasic_400Regular_Italic](./GentiumBookBasic_400Regular_Italic.ttf.png)|![GentiumBookBasic_700Bold](./GentiumBookBasic_700Bold.ttf.png)||
+|![GentiumBookBasic_700Bold_Italic](./GentiumBookBasic_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

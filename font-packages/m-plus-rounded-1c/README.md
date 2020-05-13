@@ -142,26 +142,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MPLUSRounded1c_100Thin
-![MPLUSRounded1c_100Thin](./MPLUSRounded1c_100Thin.ttf.png)
 
-##### MPLUSRounded1c_300Light
-![MPLUSRounded1c_300Light](./MPLUSRounded1c_300Light.ttf.png)
-
-##### MPLUSRounded1c_400Regular
-![MPLUSRounded1c_400Regular](./MPLUSRounded1c_400Regular.ttf.png)
-
-##### MPLUSRounded1c_500Medium
-![MPLUSRounded1c_500Medium](./MPLUSRounded1c_500Medium.ttf.png)
-
-##### MPLUSRounded1c_700Bold
-![MPLUSRounded1c_700Bold](./MPLUSRounded1c_700Bold.ttf.png)
-
-##### MPLUSRounded1c_800ExtraBold
-![MPLUSRounded1c_800ExtraBold](./MPLUSRounded1c_800ExtraBold.ttf.png)
-
-##### MPLUSRounded1c_900Black
-![MPLUSRounded1c_900Black](./MPLUSRounded1c_900Black.ttf.png)
+||||
+|-|-|-|
+|![MPLUSRounded1c_100Thin](./MPLUSRounded1c_100Thin.ttf.png)|![MPLUSRounded1c_300Light](./MPLUSRounded1c_300Light.ttf.png)|![MPLUSRounded1c_400Regular](./MPLUSRounded1c_400Regular.ttf.png)||
+|![MPLUSRounded1c_500Medium](./MPLUSRounded1c_500Medium.ttf.png)|![MPLUSRounded1c_700Bold](./MPLUSRounded1c_700Bold.ttf.png)|![MPLUSRounded1c_800ExtraBold](./MPLUSRounded1c_800ExtraBold.ttf.png)||
+|![MPLUSRounded1c_900Black](./MPLUSRounded1c_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

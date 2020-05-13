@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BlackHanSans_400Regular
-![BlackHanSans_400Regular](./BlackHanSans_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![BlackHanSans_400Regular](./BlackHanSans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

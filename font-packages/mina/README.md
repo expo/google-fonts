@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Mina_400Regular
-![Mina_400Regular](./Mina_400Regular.ttf.png)
 
-##### Mina_700Bold
-![Mina_700Bold](./Mina_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Mina_400Regular](./Mina_400Regular.ttf.png)|![Mina_700Bold](./Mina_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

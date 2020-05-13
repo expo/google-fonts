@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sunflower_300Light
-![Sunflower_300Light](./Sunflower_300Light.ttf.png)
 
-##### Sunflower_500Medium
-![Sunflower_500Medium](./Sunflower_500Medium.ttf.png)
-
-##### Sunflower_700Bold
-![Sunflower_700Bold](./Sunflower_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Sunflower_300Light](./Sunflower_300Light.ttf.png)|![Sunflower_500Medium](./Sunflower_500Medium.ttf.png)|![Sunflower_700Bold](./Sunflower_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

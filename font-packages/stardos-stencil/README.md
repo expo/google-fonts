@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### StardosStencil_400Regular
-![StardosStencil_400Regular](./StardosStencil_400Regular.ttf.png)
 
-##### StardosStencil_700Bold
-![StardosStencil_700Bold](./StardosStencil_700Bold.ttf.png)
+||||
+|-|-|-|
+|![StardosStencil_400Regular](./StardosStencil_400Regular.ttf.png)|![StardosStencil_700Bold](./StardosStencil_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

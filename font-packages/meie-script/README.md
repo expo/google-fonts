@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MeieScript_400Regular
-![MeieScript_400Regular](./MeieScript_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MeieScript_400Regular](./MeieScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

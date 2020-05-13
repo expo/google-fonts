@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Skranji_400Regular
-![Skranji_400Regular](./Skranji_400Regular.ttf.png)
 
-##### Skranji_700Bold
-![Skranji_700Bold](./Skranji_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Skranji_400Regular](./Skranji_400Regular.ttf.png)|![Skranji_700Bold](./Skranji_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

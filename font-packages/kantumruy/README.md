@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Kantumruy_300Light
-![Kantumruy_300Light](./Kantumruy_300Light.ttf.png)
 
-##### Kantumruy_400Regular
-![Kantumruy_400Regular](./Kantumruy_400Regular.ttf.png)
-
-##### Kantumruy_700Bold
-![Kantumruy_700Bold](./Kantumruy_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Kantumruy_300Light](./Kantumruy_300Light.ttf.png)|![Kantumruy_400Regular](./Kantumruy_400Regular.ttf.png)|![Kantumruy_700Bold](./Kantumruy_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

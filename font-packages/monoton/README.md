@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Monoton_400Regular
-![Monoton_400Regular](./Monoton_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Monoton_400Regular](./Monoton_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AveriaGruesaLibre_400Regular
-![AveriaGruesaLibre_400Regular](./AveriaGruesaLibre_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![AveriaGruesaLibre_400Regular](./AveriaGruesaLibre_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

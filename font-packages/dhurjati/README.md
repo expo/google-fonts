@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Dhurjati_400Regular
-![Dhurjati_400Regular](./Dhurjati_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Dhurjati_400Regular](./Dhurjati_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

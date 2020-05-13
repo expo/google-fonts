@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Smokum_400Regular
-![Smokum_400Regular](./Smokum_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Smokum_400Regular](./Smokum_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Hanuman_400Regular
-![Hanuman_400Regular](./Hanuman_400Regular.ttf.png)
 
-##### Hanuman_700Bold
-![Hanuman_700Bold](./Hanuman_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Hanuman_400Regular](./Hanuman_400Regular.ttf.png)|![Hanuman_700Bold](./Hanuman_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

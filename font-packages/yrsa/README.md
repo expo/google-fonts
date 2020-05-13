@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Yrsa_300Light
-![Yrsa_300Light](./Yrsa_300Light.ttf.png)
 
-##### Yrsa_400Regular
-![Yrsa_400Regular](./Yrsa_400Regular.ttf.png)
-
-##### Yrsa_500Medium
-![Yrsa_500Medium](./Yrsa_500Medium.ttf.png)
-
-##### Yrsa_600SemiBold
-![Yrsa_600SemiBold](./Yrsa_600SemiBold.ttf.png)
-
-##### Yrsa_700Bold
-![Yrsa_700Bold](./Yrsa_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Yrsa_300Light](./Yrsa_300Light.ttf.png)|![Yrsa_400Regular](./Yrsa_400Regular.ttf.png)|![Yrsa_500Medium](./Yrsa_500Medium.ttf.png)||
+|![Yrsa_600SemiBold](./Yrsa_600SemiBold.ttf.png)|![Yrsa_700Bold](./Yrsa_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

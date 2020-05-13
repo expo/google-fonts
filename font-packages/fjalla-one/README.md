@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FjallaOne_400Regular
-![FjallaOne_400Regular](./FjallaOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![FjallaOne_400Regular](./FjallaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Khmer_400Regular
-![Khmer_400Regular](./Khmer_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Khmer_400Regular](./Khmer_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

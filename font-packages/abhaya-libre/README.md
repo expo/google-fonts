@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AbhayaLibre_400Regular
-![AbhayaLibre_400Regular](./AbhayaLibre_400Regular.ttf.png)
 
-##### AbhayaLibre_500Medium
-![AbhayaLibre_500Medium](./AbhayaLibre_500Medium.ttf.png)
-
-##### AbhayaLibre_600SemiBold
-![AbhayaLibre_600SemiBold](./AbhayaLibre_600SemiBold.ttf.png)
-
-##### AbhayaLibre_700Bold
-![AbhayaLibre_700Bold](./AbhayaLibre_700Bold.ttf.png)
-
-##### AbhayaLibre_800ExtraBold
-![AbhayaLibre_800ExtraBold](./AbhayaLibre_800ExtraBold.ttf.png)
+||||
+|-|-|-|
+|![AbhayaLibre_400Regular](./AbhayaLibre_400Regular.ttf.png)|![AbhayaLibre_500Medium](./AbhayaLibre_500Medium.ttf.png)|![AbhayaLibre_600SemiBold](./AbhayaLibre_600SemiBold.ttf.png)||
+|![AbhayaLibre_700Bold](./AbhayaLibre_700Bold.ttf.png)|![AbhayaLibre_800ExtraBold](./AbhayaLibre_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

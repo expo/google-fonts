@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IMFellDWPicaSC_400Regular
-![IMFellDWPicaSC_400Regular](./IMFellDWPicaSC_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![IMFellDWPicaSC_400Regular](./IMFellDWPicaSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RaviPrakash_400Regular
-![RaviPrakash_400Regular](./RaviPrakash_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![RaviPrakash_400Regular](./RaviPrakash_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

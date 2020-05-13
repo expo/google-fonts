@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Cookie_400Regular
-![Cookie_400Regular](./Cookie_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Cookie_400Regular](./Cookie_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

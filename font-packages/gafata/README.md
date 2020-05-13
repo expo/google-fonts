@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gafata_400Regular
-![Gafata_400Regular](./Gafata_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Gafata_400Regular](./Gafata_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

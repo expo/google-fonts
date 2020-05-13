@@ -181,35 +181,13 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ProzaLibre_400Regular
-![ProzaLibre_400Regular](./ProzaLibre_400Regular.ttf.png)
 
-##### ProzaLibre_400Regular_Italic
-![ProzaLibre_400Regular_Italic](./ProzaLibre_400Regular_Italic.ttf.png)
-
-##### ProzaLibre_500Medium
-![ProzaLibre_500Medium](./ProzaLibre_500Medium.ttf.png)
-
-##### ProzaLibre_500Medium_Italic
-![ProzaLibre_500Medium_Italic](./ProzaLibre_500Medium_Italic.ttf.png)
-
-##### ProzaLibre_600SemiBold
-![ProzaLibre_600SemiBold](./ProzaLibre_600SemiBold.ttf.png)
-
-##### ProzaLibre_600SemiBold_Italic
-![ProzaLibre_600SemiBold_Italic](./ProzaLibre_600SemiBold_Italic.ttf.png)
-
-##### ProzaLibre_700Bold
-![ProzaLibre_700Bold](./ProzaLibre_700Bold.ttf.png)
-
-##### ProzaLibre_700Bold_Italic
-![ProzaLibre_700Bold_Italic](./ProzaLibre_700Bold_Italic.ttf.png)
-
-##### ProzaLibre_800ExtraBold
-![ProzaLibre_800ExtraBold](./ProzaLibre_800ExtraBold.ttf.png)
-
-##### ProzaLibre_800ExtraBold_Italic
-![ProzaLibre_800ExtraBold_Italic](./ProzaLibre_800ExtraBold_Italic.ttf.png)
+||||
+|-|-|-|
+|![ProzaLibre_400Regular](./ProzaLibre_400Regular.ttf.png)|![ProzaLibre_400Regular_Italic](./ProzaLibre_400Regular_Italic.ttf.png)|![ProzaLibre_500Medium](./ProzaLibre_500Medium.ttf.png)||
+|![ProzaLibre_500Medium_Italic](./ProzaLibre_500Medium_Italic.ttf.png)|![ProzaLibre_600SemiBold](./ProzaLibre_600SemiBold.ttf.png)|![ProzaLibre_600SemiBold_Italic](./ProzaLibre_600SemiBold_Italic.ttf.png)||
+|![ProzaLibre_700Bold](./ProzaLibre_700Bold.ttf.png)|![ProzaLibre_700Bold_Italic](./ProzaLibre_700Bold_Italic.ttf.png)|![ProzaLibre_800ExtraBold](./ProzaLibre_800ExtraBold.ttf.png)||
+|![ProzaLibre_800ExtraBold_Italic](./ProzaLibre_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

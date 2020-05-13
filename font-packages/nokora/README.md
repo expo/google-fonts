@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Nokora_400Regular
-![Nokora_400Regular](./Nokora_400Regular.ttf.png)
 
-##### Nokora_700Bold
-![Nokora_700Bold](./Nokora_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Nokora_400Regular](./Nokora_400Regular.ttf.png)|![Nokora_700Bold](./Nokora_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

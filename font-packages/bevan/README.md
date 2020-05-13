@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Bevan_400Regular
-![Bevan_400Regular](./Bevan_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Bevan_400Regular](./Bevan_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

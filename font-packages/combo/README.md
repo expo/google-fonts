@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Combo_400Regular
-![Combo_400Regular](./Combo_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Combo_400Regular](./Combo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

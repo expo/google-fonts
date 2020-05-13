@@ -181,35 +181,13 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Rosario_300Light
-![Rosario_300Light](./Rosario_300Light.ttf.png)
 
-##### Rosario_400Regular
-![Rosario_400Regular](./Rosario_400Regular.ttf.png)
-
-##### Rosario_500Medium
-![Rosario_500Medium](./Rosario_500Medium.ttf.png)
-
-##### Rosario_600SemiBold
-![Rosario_600SemiBold](./Rosario_600SemiBold.ttf.png)
-
-##### Rosario_700Bold
-![Rosario_700Bold](./Rosario_700Bold.ttf.png)
-
-##### Rosario_300Light_Italic
-![Rosario_300Light_Italic](./Rosario_300Light_Italic.ttf.png)
-
-##### Rosario_400Regular_Italic
-![Rosario_400Regular_Italic](./Rosario_400Regular_Italic.ttf.png)
-
-##### Rosario_500Medium_Italic
-![Rosario_500Medium_Italic](./Rosario_500Medium_Italic.ttf.png)
-
-##### Rosario_600SemiBold_Italic
-![Rosario_600SemiBold_Italic](./Rosario_600SemiBold_Italic.ttf.png)
-
-##### Rosario_700Bold_Italic
-![Rosario_700Bold_Italic](./Rosario_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Rosario_300Light](./Rosario_300Light.ttf.png)|![Rosario_400Regular](./Rosario_400Regular.ttf.png)|![Rosario_500Medium](./Rosario_500Medium.ttf.png)||
+|![Rosario_600SemiBold](./Rosario_600SemiBold.ttf.png)|![Rosario_700Bold](./Rosario_700Bold.ttf.png)|![Rosario_300Light_Italic](./Rosario_300Light_Italic.ttf.png)||
+|![Rosario_400Regular_Italic](./Rosario_400Regular_Italic.ttf.png)|![Rosario_500Medium_Italic](./Rosario_500Medium_Italic.ttf.png)|![Rosario_600SemiBold_Italic](./Rosario_600SemiBold_Italic.ttf.png)||
+|![Rosario_700Bold_Italic](./Rosario_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

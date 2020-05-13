@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Astloch_400Regular
-![Astloch_400Regular](./Astloch_400Regular.ttf.png)
 
-##### Astloch_700Bold
-![Astloch_700Bold](./Astloch_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Astloch_400Regular](./Astloch_400Regular.ttf.png)|![Astloch_700Bold](./Astloch_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

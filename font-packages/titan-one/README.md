@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### TitanOne_400Regular
-![TitanOne_400Regular](./TitanOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![TitanOne_400Regular](./TitanOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

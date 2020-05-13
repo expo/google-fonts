@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Engagement_400Regular
-![Engagement_400Regular](./Engagement_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Engagement_400Regular](./Engagement_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

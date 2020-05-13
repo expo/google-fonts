@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Miniver_400Regular
-![Miniver_400Regular](./Miniver_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Miniver_400Regular](./Miniver_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

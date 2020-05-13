@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### UncialAntiqua_400Regular
-![UncialAntiqua_400Regular](./UncialAntiqua_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![UncialAntiqua_400Regular](./UncialAntiqua_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Baskervville_400Regular
-![Baskervville_400Regular](./Baskervville_400Regular.ttf.png)
 
-##### Baskervville_400Regular_Italic
-![Baskervville_400Regular_Italic](./Baskervville_400Regular_Italic.ttf.png)
+||||
+|-|-|-|
+|![Baskervville_400Regular](./Baskervville_400Regular.ttf.png)|![Baskervville_400Regular_Italic](./Baskervville_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Capriola_400Regular
-![Capriola_400Regular](./Capriola_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Capriola_400Regular](./Capriola_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

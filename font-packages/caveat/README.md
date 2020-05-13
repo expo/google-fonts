@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Caveat_400Regular
-![Caveat_400Regular](./Caveat_400Regular.ttf.png)
 
-##### Caveat_700Bold
-![Caveat_700Bold](./Caveat_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Caveat_400Regular](./Caveat_400Regular.ttf.png)|![Caveat_700Bold](./Caveat_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

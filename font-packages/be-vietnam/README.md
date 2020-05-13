@@ -233,47 +233,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BeVietnam_100Thin
-![BeVietnam_100Thin](./BeVietnam_100Thin.ttf.png)
 
-##### BeVietnam_100Thin_Italic
-![BeVietnam_100Thin_Italic](./BeVietnam_100Thin_Italic.ttf.png)
-
-##### BeVietnam_300Light
-![BeVietnam_300Light](./BeVietnam_300Light.ttf.png)
-
-##### BeVietnam_300Light_Italic
-![BeVietnam_300Light_Italic](./BeVietnam_300Light_Italic.ttf.png)
-
-##### BeVietnam_400Regular
-![BeVietnam_400Regular](./BeVietnam_400Regular.ttf.png)
-
-##### BeVietnam_400Regular_Italic
-![BeVietnam_400Regular_Italic](./BeVietnam_400Regular_Italic.ttf.png)
-
-##### BeVietnam_500Medium
-![BeVietnam_500Medium](./BeVietnam_500Medium.ttf.png)
-
-##### BeVietnam_500Medium_Italic
-![BeVietnam_500Medium_Italic](./BeVietnam_500Medium_Italic.ttf.png)
-
-##### BeVietnam_600SemiBold
-![BeVietnam_600SemiBold](./BeVietnam_600SemiBold.ttf.png)
-
-##### BeVietnam_600SemiBold_Italic
-![BeVietnam_600SemiBold_Italic](./BeVietnam_600SemiBold_Italic.ttf.png)
-
-##### BeVietnam_700Bold
-![BeVietnam_700Bold](./BeVietnam_700Bold.ttf.png)
-
-##### BeVietnam_700Bold_Italic
-![BeVietnam_700Bold_Italic](./BeVietnam_700Bold_Italic.ttf.png)
-
-##### BeVietnam_800ExtraBold
-![BeVietnam_800ExtraBold](./BeVietnam_800ExtraBold.ttf.png)
-
-##### BeVietnam_800ExtraBold_Italic
-![BeVietnam_800ExtraBold_Italic](./BeVietnam_800ExtraBold_Italic.ttf.png)
+||||
+|-|-|-|
+|![BeVietnam_100Thin](./BeVietnam_100Thin.ttf.png)|![BeVietnam_100Thin_Italic](./BeVietnam_100Thin_Italic.ttf.png)|![BeVietnam_300Light](./BeVietnam_300Light.ttf.png)||
+|![BeVietnam_300Light_Italic](./BeVietnam_300Light_Italic.ttf.png)|![BeVietnam_400Regular](./BeVietnam_400Regular.ttf.png)|![BeVietnam_400Regular_Italic](./BeVietnam_400Regular_Italic.ttf.png)||
+|![BeVietnam_500Medium](./BeVietnam_500Medium.ttf.png)|![BeVietnam_500Medium_Italic](./BeVietnam_500Medium_Italic.ttf.png)|![BeVietnam_600SemiBold](./BeVietnam_600SemiBold.ttf.png)||
+|![BeVietnam_600SemiBold_Italic](./BeVietnam_600SemiBold_Italic.ttf.png)|![BeVietnam_700Bold](./BeVietnam_700Bold.ttf.png)|![BeVietnam_700Bold_Italic](./BeVietnam_700Bold_Italic.ttf.png)||
+|![BeVietnam_800ExtraBold](./BeVietnam_800ExtraBold.ttf.png)|![BeVietnam_800ExtraBold_Italic](./BeVietnam_800ExtraBold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

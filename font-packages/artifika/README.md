@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Artifika_400Regular
-![Artifika_400Regular](./Artifika_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Artifika_400Regular](./Artifika_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NotoSansSC_100Thin
-![NotoSansSC_100Thin](./NotoSansSC_100Thin.ttf.png)
 
-##### NotoSansSC_300Light
-![NotoSansSC_300Light](./NotoSansSC_300Light.ttf.png)
-
-##### NotoSansSC_400Regular
-![NotoSansSC_400Regular](./NotoSansSC_400Regular.ttf.png)
-
-##### NotoSansSC_500Medium
-![NotoSansSC_500Medium](./NotoSansSC_500Medium.ttf.png)
-
-##### NotoSansSC_700Bold
-![NotoSansSC_700Bold](./NotoSansSC_700Bold.ttf.png)
-
-##### NotoSansSC_900Black
-![NotoSansSC_900Black](./NotoSansSC_900Black.ttf.png)
+||||
+|-|-|-|
+|![NotoSansSC_100Thin](./NotoSansSC_100Thin.ttf.png)|![NotoSansSC_300Light](./NotoSansSC_300Light.ttf.png)|![NotoSansSC_400Regular](./NotoSansSC_400Regular.ttf.png)||
+|![NotoSansSC_500Medium](./NotoSansSC_500Medium.ttf.png)|![NotoSansSC_700Bold](./NotoSansSC_700Bold.ttf.png)|![NotoSansSC_900Black](./NotoSansSC_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Mogra_400Regular
-![Mogra_400Regular](./Mogra_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Mogra_400Regular](./Mogra_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

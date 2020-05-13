@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### EricaOne_400Regular
-![EricaOne_400Regular](./EricaOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![EricaOne_400Regular](./EricaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

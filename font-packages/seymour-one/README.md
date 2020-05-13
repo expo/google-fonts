@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SeymourOne_400Regular
-![SeymourOne_400Regular](./SeymourOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![SeymourOne_400Regular](./SeymourOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

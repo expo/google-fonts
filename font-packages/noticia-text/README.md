@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NoticiaText_400Regular
-![NoticiaText_400Regular](./NoticiaText_400Regular.ttf.png)
 
-##### NoticiaText_400Regular_Italic
-![NoticiaText_400Regular_Italic](./NoticiaText_400Regular_Italic.ttf.png)
-
-##### NoticiaText_700Bold
-![NoticiaText_700Bold](./NoticiaText_700Bold.ttf.png)
-
-##### NoticiaText_700Bold_Italic
-![NoticiaText_700Bold_Italic](./NoticiaText_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![NoticiaText_400Regular](./NoticiaText_400Regular.ttf.png)|![NoticiaText_400Regular_Italic](./NoticiaText_400Regular_Italic.ttf.png)|![NoticiaText_700Bold](./NoticiaText_700Bold.ttf.png)||
+|![NoticiaText_700Bold_Italic](./NoticiaText_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

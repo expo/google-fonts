@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Handlee_400Regular
-![Handlee_400Regular](./Handlee_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Handlee_400Regular](./Handlee_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

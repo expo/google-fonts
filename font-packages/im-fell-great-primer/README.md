@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### IMFellGreatPrimer_400Regular
-![IMFellGreatPrimer_400Regular](./IMFellGreatPrimer_400Regular.ttf.png)
 
-##### IMFellGreatPrimer_400Regular_Italic
-![IMFellGreatPrimer_400Regular_Italic](./IMFellGreatPrimer_400Regular_Italic.ttf.png)
+||||
+|-|-|-|
+|![IMFellGreatPrimer_400Regular](./IMFellGreatPrimer_400Regular.ttf.png)|![IMFellGreatPrimer_400Regular_Italic](./IMFellGreatPrimer_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

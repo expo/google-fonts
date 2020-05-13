@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ZillaSlabHighlight_400Regular
-![ZillaSlabHighlight_400Regular](./ZillaSlabHighlight_400Regular.ttf.png)
 
-##### ZillaSlabHighlight_700Bold
-![ZillaSlabHighlight_700Bold](./ZillaSlabHighlight_700Bold.ttf.png)
+||||
+|-|-|-|
+|![ZillaSlabHighlight_400Regular](./ZillaSlabHighlight_400Regular.ttf.png)|![ZillaSlabHighlight_700Bold](./ZillaSlabHighlight_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

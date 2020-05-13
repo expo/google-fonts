@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Arya_400Regular
-![Arya_400Regular](./Arya_400Regular.ttf.png)
 
-##### Arya_700Bold
-![Arya_700Bold](./Arya_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Arya_400Regular](./Arya_400Regular.ttf.png)|![Arya_700Bold](./Arya_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

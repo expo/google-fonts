@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Federant_400Regular
-![Federant_400Regular](./Federant_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Federant_400Regular](./Federant_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

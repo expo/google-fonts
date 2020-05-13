@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Katibeh_400Regular
-![Katibeh_400Regular](./Katibeh_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Katibeh_400Regular](./Katibeh_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

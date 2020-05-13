@@ -168,32 +168,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### EncodeSansExpanded_100Thin
-![EncodeSansExpanded_100Thin](./EncodeSansExpanded_100Thin.ttf.png)
 
-##### EncodeSansExpanded_200ExtraLight
-![EncodeSansExpanded_200ExtraLight](./EncodeSansExpanded_200ExtraLight.ttf.png)
-
-##### EncodeSansExpanded_300Light
-![EncodeSansExpanded_300Light](./EncodeSansExpanded_300Light.ttf.png)
-
-##### EncodeSansExpanded_400Regular
-![EncodeSansExpanded_400Regular](./EncodeSansExpanded_400Regular.ttf.png)
-
-##### EncodeSansExpanded_500Medium
-![EncodeSansExpanded_500Medium](./EncodeSansExpanded_500Medium.ttf.png)
-
-##### EncodeSansExpanded_600SemiBold
-![EncodeSansExpanded_600SemiBold](./EncodeSansExpanded_600SemiBold.ttf.png)
-
-##### EncodeSansExpanded_700Bold
-![EncodeSansExpanded_700Bold](./EncodeSansExpanded_700Bold.ttf.png)
-
-##### EncodeSansExpanded_800ExtraBold
-![EncodeSansExpanded_800ExtraBold](./EncodeSansExpanded_800ExtraBold.ttf.png)
-
-##### EncodeSansExpanded_900Black
-![EncodeSansExpanded_900Black](./EncodeSansExpanded_900Black.ttf.png)
+||||
+|-|-|-|
+|![EncodeSansExpanded_100Thin](./EncodeSansExpanded_100Thin.ttf.png)|![EncodeSansExpanded_200ExtraLight](./EncodeSansExpanded_200ExtraLight.ttf.png)|![EncodeSansExpanded_300Light](./EncodeSansExpanded_300Light.ttf.png)||
+|![EncodeSansExpanded_400Regular](./EncodeSansExpanded_400Regular.ttf.png)|![EncodeSansExpanded_500Medium](./EncodeSansExpanded_500Medium.ttf.png)|![EncodeSansExpanded_600SemiBold](./EncodeSansExpanded_600SemiBold.ttf.png)||
+|![EncodeSansExpanded_700Bold](./EncodeSansExpanded_700Bold.ttf.png)|![EncodeSansExpanded_800ExtraBold](./EncodeSansExpanded_800ExtraBold.ttf.png)|![EncodeSansExpanded_900Black](./EncodeSansExpanded_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

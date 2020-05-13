@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ArchitectsDaughter_400Regular
-![ArchitectsDaughter_400Regular](./ArchitectsDaughter_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![ArchitectsDaughter_400Regular](./ArchitectsDaughter_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

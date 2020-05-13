@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Codystar_300Light
-![Codystar_300Light](./Codystar_300Light.ttf.png)
 
-##### Codystar_400Regular
-![Codystar_400Regular](./Codystar_400Regular.ttf.png)
+||||
+|-|-|-|
+|![Codystar_300Light](./Codystar_300Light.ttf.png)|![Codystar_400Regular](./Codystar_400Regular.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

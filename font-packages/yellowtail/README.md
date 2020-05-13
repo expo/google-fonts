@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Yellowtail_400Regular
-![Yellowtail_400Regular](./Yellowtail_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Yellowtail_400Regular](./Yellowtail_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

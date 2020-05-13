@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Yantramanav_100Thin
-![Yantramanav_100Thin](./Yantramanav_100Thin.ttf.png)
 
-##### Yantramanav_300Light
-![Yantramanav_300Light](./Yantramanav_300Light.ttf.png)
-
-##### Yantramanav_400Regular
-![Yantramanav_400Regular](./Yantramanav_400Regular.ttf.png)
-
-##### Yantramanav_500Medium
-![Yantramanav_500Medium](./Yantramanav_500Medium.ttf.png)
-
-##### Yantramanav_700Bold
-![Yantramanav_700Bold](./Yantramanav_700Bold.ttf.png)
-
-##### Yantramanav_900Black
-![Yantramanav_900Black](./Yantramanav_900Black.ttf.png)
+||||
+|-|-|-|
+|![Yantramanav_100Thin](./Yantramanav_100Thin.ttf.png)|![Yantramanav_300Light](./Yantramanav_300Light.ttf.png)|![Yantramanav_400Regular](./Yantramanav_400Regular.ttf.png)||
+|![Yantramanav_500Medium](./Yantramanav_500Medium.ttf.png)|![Yantramanav_700Bold](./Yantramanav_700Bold.ttf.png)|![Yantramanav_900Black](./Yantramanav_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Frijole_400Regular
-![Frijole_400Regular](./Frijole_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Frijole_400Regular](./Frijole_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gorditas_400Regular
-![Gorditas_400Regular](./Gorditas_400Regular.ttf.png)
 
-##### Gorditas_700Bold
-![Gorditas_700Bold](./Gorditas_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Gorditas_400Regular](./Gorditas_400Regular.ttf.png)|![Gorditas_700Bold](./Gorditas_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

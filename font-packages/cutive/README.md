@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Cutive_400Regular
-![Cutive_400Regular](./Cutive_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Cutive_400Regular](./Cutive_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

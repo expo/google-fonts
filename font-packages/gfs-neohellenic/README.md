@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GFSNeohellenic_400Regular
-![GFSNeohellenic_400Regular](./GFSNeohellenic_400Regular.ttf.png)
 
-##### GFSNeohellenic_400Regular_Italic
-![GFSNeohellenic_400Regular_Italic](./GFSNeohellenic_400Regular_Italic.ttf.png)
-
-##### GFSNeohellenic_700Bold
-![GFSNeohellenic_700Bold](./GFSNeohellenic_700Bold.ttf.png)
-
-##### GFSNeohellenic_700Bold_Italic
-![GFSNeohellenic_700Bold_Italic](./GFSNeohellenic_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![GFSNeohellenic_400Regular](./GFSNeohellenic_400Regular.ttf.png)|![GFSNeohellenic_400Regular_Italic](./GFSNeohellenic_400Regular_Italic.ttf.png)|![GFSNeohellenic_700Bold](./GFSNeohellenic_700Bold.ttf.png)||
+|![GFSNeohellenic_700Bold_Italic](./GFSNeohellenic_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

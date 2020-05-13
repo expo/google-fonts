@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Battambang_400Regular
-![Battambang_400Regular](./Battambang_400Regular.ttf.png)
 
-##### Battambang_700Bold
-![Battambang_700Bold](./Battambang_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Battambang_400Regular](./Battambang_400Regular.ttf.png)|![Battambang_700Bold](./Battambang_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

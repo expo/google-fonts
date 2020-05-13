@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Offside_400Regular
-![Offside_400Regular](./Offside_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Offside_400Regular](./Offside_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

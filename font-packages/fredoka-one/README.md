@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FredokaOne_400Regular
-![FredokaOne_400Regular](./FredokaOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![FredokaOne_400Regular](./FredokaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

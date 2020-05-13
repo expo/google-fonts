@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Oxygen_300Light
-![Oxygen_300Light](./Oxygen_300Light.ttf.png)
 
-##### Oxygen_400Regular
-![Oxygen_400Regular](./Oxygen_400Regular.ttf.png)
-
-##### Oxygen_700Bold
-![Oxygen_700Bold](./Oxygen_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Oxygen_300Light](./Oxygen_300Light.ttf.png)|![Oxygen_400Regular](./Oxygen_400Regular.ttf.png)|![Oxygen_700Bold](./Oxygen_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

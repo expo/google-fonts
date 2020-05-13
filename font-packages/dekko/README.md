@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Dekko_400Regular
-![Dekko_400Regular](./Dekko_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Dekko_400Regular](./Dekko_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

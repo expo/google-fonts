@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### KiteOne_400Regular
-![KiteOne_400Regular](./KiteOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![KiteOne_400Regular](./KiteOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

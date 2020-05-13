@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Athiti_200ExtraLight
-![Athiti_200ExtraLight](./Athiti_200ExtraLight.ttf.png)
 
-##### Athiti_300Light
-![Athiti_300Light](./Athiti_300Light.ttf.png)
-
-##### Athiti_400Regular
-![Athiti_400Regular](./Athiti_400Regular.ttf.png)
-
-##### Athiti_500Medium
-![Athiti_500Medium](./Athiti_500Medium.ttf.png)
-
-##### Athiti_600SemiBold
-![Athiti_600SemiBold](./Athiti_600SemiBold.ttf.png)
-
-##### Athiti_700Bold
-![Athiti_700Bold](./Athiti_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Athiti_200ExtraLight](./Athiti_200ExtraLight.ttf.png)|![Athiti_300Light](./Athiti_300Light.ttf.png)|![Athiti_400Regular](./Athiti_400Regular.ttf.png)||
+|![Athiti_500Medium](./Athiti_500Medium.ttf.png)|![Athiti_600SemiBold](./Athiti_600SemiBold.ttf.png)|![Athiti_700Bold](./Athiti_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

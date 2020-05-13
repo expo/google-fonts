@@ -168,32 +168,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### EncodeSansSemiCondensed_100Thin
-![EncodeSansSemiCondensed_100Thin](./EncodeSansSemiCondensed_100Thin.ttf.png)
 
-##### EncodeSansSemiCondensed_200ExtraLight
-![EncodeSansSemiCondensed_200ExtraLight](./EncodeSansSemiCondensed_200ExtraLight.ttf.png)
-
-##### EncodeSansSemiCondensed_300Light
-![EncodeSansSemiCondensed_300Light](./EncodeSansSemiCondensed_300Light.ttf.png)
-
-##### EncodeSansSemiCondensed_400Regular
-![EncodeSansSemiCondensed_400Regular](./EncodeSansSemiCondensed_400Regular.ttf.png)
-
-##### EncodeSansSemiCondensed_500Medium
-![EncodeSansSemiCondensed_500Medium](./EncodeSansSemiCondensed_500Medium.ttf.png)
-
-##### EncodeSansSemiCondensed_600SemiBold
-![EncodeSansSemiCondensed_600SemiBold](./EncodeSansSemiCondensed_600SemiBold.ttf.png)
-
-##### EncodeSansSemiCondensed_700Bold
-![EncodeSansSemiCondensed_700Bold](./EncodeSansSemiCondensed_700Bold.ttf.png)
-
-##### EncodeSansSemiCondensed_800ExtraBold
-![EncodeSansSemiCondensed_800ExtraBold](./EncodeSansSemiCondensed_800ExtraBold.ttf.png)
-
-##### EncodeSansSemiCondensed_900Black
-![EncodeSansSemiCondensed_900Black](./EncodeSansSemiCondensed_900Black.ttf.png)
+||||
+|-|-|-|
+|![EncodeSansSemiCondensed_100Thin](./EncodeSansSemiCondensed_100Thin.ttf.png)|![EncodeSansSemiCondensed_200ExtraLight](./EncodeSansSemiCondensed_200ExtraLight.ttf.png)|![EncodeSansSemiCondensed_300Light](./EncodeSansSemiCondensed_300Light.ttf.png)||
+|![EncodeSansSemiCondensed_400Regular](./EncodeSansSemiCondensed_400Regular.ttf.png)|![EncodeSansSemiCondensed_500Medium](./EncodeSansSemiCondensed_500Medium.ttf.png)|![EncodeSansSemiCondensed_600SemiBold](./EncodeSansSemiCondensed_600SemiBold.ttf.png)||
+|![EncodeSansSemiCondensed_700Bold](./EncodeSansSemiCondensed_700Bold.ttf.png)|![EncodeSansSemiCondensed_800ExtraBold](./EncodeSansSemiCondensed_800ExtraBold.ttf.png)|![EncodeSansSemiCondensed_900Black](./EncodeSansSemiCondensed_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

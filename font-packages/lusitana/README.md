@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Lusitana_400Regular
-![Lusitana_400Regular](./Lusitana_400Regular.ttf.png)
 
-##### Lusitana_700Bold
-![Lusitana_700Bold](./Lusitana_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Lusitana_400Regular](./Lusitana_400Regular.ttf.png)|![Lusitana_700Bold](./Lusitana_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

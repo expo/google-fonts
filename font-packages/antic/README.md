@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Antic_400Regular
-![Antic_400Regular](./Antic_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Antic_400Regular](./Antic_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

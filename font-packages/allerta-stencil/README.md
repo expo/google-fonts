@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AllertaStencil_400Regular
-![AllertaStencil_400Regular](./AllertaStencil_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![AllertaStencil_400Regular](./AllertaStencil_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

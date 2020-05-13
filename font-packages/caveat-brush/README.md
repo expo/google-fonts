@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CaveatBrush_400Regular
-![CaveatBrush_400Regular](./CaveatBrush_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![CaveatBrush_400Regular](./CaveatBrush_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

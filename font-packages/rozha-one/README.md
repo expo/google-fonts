@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RozhaOne_400Regular
-![RozhaOne_400Regular](./RozhaOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![RozhaOne_400Regular](./RozhaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### TradeWinds_400Regular
-![TradeWinds_400Regular](./TradeWinds_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![TradeWinds_400Regular](./TradeWinds_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

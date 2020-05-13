@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PTSansNarrow_400Regular
-![PTSansNarrow_400Regular](./PTSansNarrow_400Regular.ttf.png)
 
-##### PTSansNarrow_700Bold
-![PTSansNarrow_700Bold](./PTSansNarrow_700Bold.ttf.png)
+||||
+|-|-|-|
+|![PTSansNarrow_400Regular](./PTSansNarrow_400Regular.ttf.png)|![PTSansNarrow_700Bold](./PTSansNarrow_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Flavors_400Regular
-![Flavors_400Regular](./Flavors_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Flavors_400Regular](./Flavors_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

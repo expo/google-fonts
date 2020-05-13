@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Scada_400Regular
-![Scada_400Regular](./Scada_400Regular.ttf.png)
 
-##### Scada_400Regular_Italic
-![Scada_400Regular_Italic](./Scada_400Regular_Italic.ttf.png)
-
-##### Scada_700Bold
-![Scada_700Bold](./Scada_700Bold.ttf.png)
-
-##### Scada_700Bold_Italic
-![Scada_700Bold_Italic](./Scada_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Scada_400Regular](./Scada_400Regular.ttf.png)|![Scada_400Regular_Italic](./Scada_400Regular_Italic.ttf.png)|![Scada_700Bold](./Scada_700Bold.ttf.png)||
+|![Scada_700Bold_Italic](./Scada_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

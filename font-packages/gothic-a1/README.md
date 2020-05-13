@@ -168,32 +168,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GothicA1_100Thin
-![GothicA1_100Thin](./GothicA1_100Thin.ttf.png)
 
-##### GothicA1_200ExtraLight
-![GothicA1_200ExtraLight](./GothicA1_200ExtraLight.ttf.png)
-
-##### GothicA1_300Light
-![GothicA1_300Light](./GothicA1_300Light.ttf.png)
-
-##### GothicA1_400Regular
-![GothicA1_400Regular](./GothicA1_400Regular.ttf.png)
-
-##### GothicA1_500Medium
-![GothicA1_500Medium](./GothicA1_500Medium.ttf.png)
-
-##### GothicA1_600SemiBold
-![GothicA1_600SemiBold](./GothicA1_600SemiBold.ttf.png)
-
-##### GothicA1_700Bold
-![GothicA1_700Bold](./GothicA1_700Bold.ttf.png)
-
-##### GothicA1_800ExtraBold
-![GothicA1_800ExtraBold](./GothicA1_800ExtraBold.ttf.png)
-
-##### GothicA1_900Black
-![GothicA1_900Black](./GothicA1_900Black.ttf.png)
+||||
+|-|-|-|
+|![GothicA1_100Thin](./GothicA1_100Thin.ttf.png)|![GothicA1_200ExtraLight](./GothicA1_200ExtraLight.ttf.png)|![GothicA1_300Light](./GothicA1_300Light.ttf.png)||
+|![GothicA1_400Regular](./GothicA1_400Regular.ttf.png)|![GothicA1_500Medium](./GothicA1_500Medium.ttf.png)|![GothicA1_600SemiBold](./GothicA1_600SemiBold.ttf.png)||
+|![GothicA1_700Bold](./GothicA1_700Bold.ttf.png)|![GothicA1_800ExtraBold](./GothicA1_800ExtraBold.ttf.png)|![GothicA1_900Black](./GothicA1_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

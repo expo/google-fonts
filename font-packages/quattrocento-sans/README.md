@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### QuattrocentoSans_400Regular
-![QuattrocentoSans_400Regular](./QuattrocentoSans_400Regular.ttf.png)
 
-##### QuattrocentoSans_400Regular_Italic
-![QuattrocentoSans_400Regular_Italic](./QuattrocentoSans_400Regular_Italic.ttf.png)
-
-##### QuattrocentoSans_700Bold
-![QuattrocentoSans_700Bold](./QuattrocentoSans_700Bold.ttf.png)
-
-##### QuattrocentoSans_700Bold_Italic
-![QuattrocentoSans_700Bold_Italic](./QuattrocentoSans_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![QuattrocentoSans_400Regular](./QuattrocentoSans_400Regular.ttf.png)|![QuattrocentoSans_400Regular_Italic](./QuattrocentoSans_400Regular_Italic.ttf.png)|![QuattrocentoSans_700Bold](./QuattrocentoSans_700Bold.ttf.png)||
+|![QuattrocentoSans_700Bold_Italic](./QuattrocentoSans_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

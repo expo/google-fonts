@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FrancoisOne_400Regular
-![FrancoisOne_400Regular](./FrancoisOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![FrancoisOne_400Regular](./FrancoisOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

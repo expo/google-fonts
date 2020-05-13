@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Baumans_400Regular
-![Baumans_400Regular](./Baumans_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Baumans_400Regular](./Baumans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

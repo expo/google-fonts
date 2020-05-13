@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DidactGothic_400Regular
-![DidactGothic_400Regular](./DidactGothic_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![DidactGothic_400Regular](./DidactGothic_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

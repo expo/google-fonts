@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sancreek_400Regular
-![Sancreek_400Regular](./Sancreek_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Sancreek_400Regular](./Sancreek_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

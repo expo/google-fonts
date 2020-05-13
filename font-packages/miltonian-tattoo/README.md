@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MiltonianTattoo_400Regular
-![MiltonianTattoo_400Regular](./MiltonianTattoo_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MiltonianTattoo_400Regular](./MiltonianTattoo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

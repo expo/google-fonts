@@ -64,8 +64,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BlackAndWhitePicture_400Regular
-![BlackAndWhitePicture_400Regular](./BlackAndWhitePicture_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![BlackAndWhitePicture_400Regular](./BlackAndWhitePicture_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

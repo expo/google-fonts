@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LobsterTwo_400Regular
-![LobsterTwo_400Regular](./LobsterTwo_400Regular.ttf.png)
 
-##### LobsterTwo_400Regular_Italic
-![LobsterTwo_400Regular_Italic](./LobsterTwo_400Regular_Italic.ttf.png)
-
-##### LobsterTwo_700Bold
-![LobsterTwo_700Bold](./LobsterTwo_700Bold.ttf.png)
-
-##### LobsterTwo_700Bold_Italic
-![LobsterTwo_700Bold_Italic](./LobsterTwo_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![LobsterTwo_400Regular](./LobsterTwo_400Regular.ttf.png)|![LobsterTwo_400Regular_Italic](./LobsterTwo_400Regular_Italic.ttf.png)|![LobsterTwo_700Bold](./LobsterTwo_700Bold.ttf.png)||
+|![LobsterTwo_700Bold_Italic](./LobsterTwo_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

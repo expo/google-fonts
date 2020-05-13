@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### JimNightshade_400Regular
-![JimNightshade_400Regular](./JimNightshade_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![JimNightshade_400Regular](./JimNightshade_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

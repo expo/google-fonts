@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### BalooPaaji2_400Regular
-![BalooPaaji2_400Regular](./BalooPaaji2_400Regular.ttf.png)
 
-##### BalooPaaji2_500Medium
-![BalooPaaji2_500Medium](./BalooPaaji2_500Medium.ttf.png)
-
-##### BalooPaaji2_600SemiBold
-![BalooPaaji2_600SemiBold](./BalooPaaji2_600SemiBold.ttf.png)
-
-##### BalooPaaji2_700Bold
-![BalooPaaji2_700Bold](./BalooPaaji2_700Bold.ttf.png)
-
-##### BalooPaaji2_800ExtraBold
-![BalooPaaji2_800ExtraBold](./BalooPaaji2_800ExtraBold.ttf.png)
+||||
+|-|-|-|
+|![BalooPaaji2_400Regular](./BalooPaaji2_400Regular.ttf.png)|![BalooPaaji2_500Medium](./BalooPaaji2_500Medium.ttf.png)|![BalooPaaji2_600SemiBold](./BalooPaaji2_600SemiBold.ttf.png)||
+|![BalooPaaji2_700Bold](./BalooPaaji2_700Bold.ttf.png)|![BalooPaaji2_800ExtraBold](./BalooPaaji2_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

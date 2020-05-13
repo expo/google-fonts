@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Niconne_400Regular
-![Niconne_400Regular](./Niconne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Niconne_400Regular](./Niconne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

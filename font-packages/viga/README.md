@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Viga_400Regular
-![Viga_400Regular](./Viga_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Viga_400Regular](./Viga_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

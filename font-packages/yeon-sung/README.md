@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### YeonSung_400Regular
-![YeonSung_400Regular](./YeonSung_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![YeonSung_400Regular](./YeonSung_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

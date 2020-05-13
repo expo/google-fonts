@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Quattrocento_400Regular
-![Quattrocento_400Regular](./Quattrocento_400Regular.ttf.png)
 
-##### Quattrocento_700Bold
-![Quattrocento_700Bold](./Quattrocento_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Quattrocento_400Regular](./Quattrocento_400Regular.ttf.png)|![Quattrocento_700Bold](./Quattrocento_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

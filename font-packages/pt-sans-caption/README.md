@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PTSansCaption_400Regular
-![PTSansCaption_400Regular](./PTSansCaption_400Regular.ttf.png)
 
-##### PTSansCaption_700Bold
-![PTSansCaption_700Bold](./PTSansCaption_700Bold.ttf.png)
+||||
+|-|-|-|
+|![PTSansCaption_400Regular](./PTSansCaption_400Regular.ttf.png)|![PTSansCaption_700Bold](./PTSansCaption_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

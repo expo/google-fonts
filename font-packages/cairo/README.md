@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Cairo_200ExtraLight
-![Cairo_200ExtraLight](./Cairo_200ExtraLight.ttf.png)
 
-##### Cairo_300Light
-![Cairo_300Light](./Cairo_300Light.ttf.png)
-
-##### Cairo_400Regular
-![Cairo_400Regular](./Cairo_400Regular.ttf.png)
-
-##### Cairo_600SemiBold
-![Cairo_600SemiBold](./Cairo_600SemiBold.ttf.png)
-
-##### Cairo_700Bold
-![Cairo_700Bold](./Cairo_700Bold.ttf.png)
-
-##### Cairo_900Black
-![Cairo_900Black](./Cairo_900Black.ttf.png)
+||||
+|-|-|-|
+|![Cairo_200ExtraLight](./Cairo_200ExtraLight.ttf.png)|![Cairo_300Light](./Cairo_300Light.ttf.png)|![Cairo_400Regular](./Cairo_400Regular.ttf.png)||
+|![Cairo_600SemiBold](./Cairo_600SemiBold.ttf.png)|![Cairo_700Bold](./Cairo_700Bold.ttf.png)|![Cairo_900Black](./Cairo_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

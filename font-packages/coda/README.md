@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Coda_400Regular
-![Coda_400Regular](./Coda_400Regular.ttf.png)
 
-##### Coda_800ExtraBold
-![Coda_800ExtraBold](./Coda_800ExtraBold.ttf.png)
+||||
+|-|-|-|
+|![Coda_400Regular](./Coda_400Regular.ttf.png)|![Coda_800ExtraBold](./Coda_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

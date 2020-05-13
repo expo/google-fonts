@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Kurale_400Regular
-![Kurale_400Regular](./Kurale_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Kurale_400Regular](./Kurale_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

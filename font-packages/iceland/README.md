@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Iceland_400Regular
-![Iceland_400Regular](./Iceland_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Iceland_400Regular](./Iceland_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

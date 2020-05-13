@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Dynalight_400Regular
-![Dynalight_400Regular](./Dynalight_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Dynalight_400Regular](./Dynalight_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

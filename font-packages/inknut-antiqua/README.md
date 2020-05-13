@@ -142,26 +142,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### InknutAntiqua_300Light
-![InknutAntiqua_300Light](./InknutAntiqua_300Light.ttf.png)
 
-##### InknutAntiqua_400Regular
-![InknutAntiqua_400Regular](./InknutAntiqua_400Regular.ttf.png)
-
-##### InknutAntiqua_500Medium
-![InknutAntiqua_500Medium](./InknutAntiqua_500Medium.ttf.png)
-
-##### InknutAntiqua_600SemiBold
-![InknutAntiqua_600SemiBold](./InknutAntiqua_600SemiBold.ttf.png)
-
-##### InknutAntiqua_700Bold
-![InknutAntiqua_700Bold](./InknutAntiqua_700Bold.ttf.png)
-
-##### InknutAntiqua_800ExtraBold
-![InknutAntiqua_800ExtraBold](./InknutAntiqua_800ExtraBold.ttf.png)
-
-##### InknutAntiqua_900Black
-![InknutAntiqua_900Black](./InknutAntiqua_900Black.ttf.png)
+||||
+|-|-|-|
+|![InknutAntiqua_300Light](./InknutAntiqua_300Light.ttf.png)|![InknutAntiqua_400Regular](./InknutAntiqua_400Regular.ttf.png)|![InknutAntiqua_500Medium](./InknutAntiqua_500Medium.ttf.png)||
+|![InknutAntiqua_600SemiBold](./InknutAntiqua_600SemiBold.ttf.png)|![InknutAntiqua_700Bold](./InknutAntiqua_700Bold.ttf.png)|![InknutAntiqua_800ExtraBold](./InknutAntiqua_800ExtraBold.ttf.png)||
+|![InknutAntiqua_900Black](./InknutAntiqua_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

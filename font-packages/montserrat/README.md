@@ -285,59 +285,15 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Montserrat_100Thin
-![Montserrat_100Thin](./Montserrat_100Thin.ttf.png)
 
-##### Montserrat_100Thin_Italic
-![Montserrat_100Thin_Italic](./Montserrat_100Thin_Italic.ttf.png)
-
-##### Montserrat_200ExtraLight
-![Montserrat_200ExtraLight](./Montserrat_200ExtraLight.ttf.png)
-
-##### Montserrat_200ExtraLight_Italic
-![Montserrat_200ExtraLight_Italic](./Montserrat_200ExtraLight_Italic.ttf.png)
-
-##### Montserrat_300Light
-![Montserrat_300Light](./Montserrat_300Light.ttf.png)
-
-##### Montserrat_300Light_Italic
-![Montserrat_300Light_Italic](./Montserrat_300Light_Italic.ttf.png)
-
-##### Montserrat_400Regular
-![Montserrat_400Regular](./Montserrat_400Regular.ttf.png)
-
-##### Montserrat_400Regular_Italic
-![Montserrat_400Regular_Italic](./Montserrat_400Regular_Italic.ttf.png)
-
-##### Montserrat_500Medium
-![Montserrat_500Medium](./Montserrat_500Medium.ttf.png)
-
-##### Montserrat_500Medium_Italic
-![Montserrat_500Medium_Italic](./Montserrat_500Medium_Italic.ttf.png)
-
-##### Montserrat_600SemiBold
-![Montserrat_600SemiBold](./Montserrat_600SemiBold.ttf.png)
-
-##### Montserrat_600SemiBold_Italic
-![Montserrat_600SemiBold_Italic](./Montserrat_600SemiBold_Italic.ttf.png)
-
-##### Montserrat_700Bold
-![Montserrat_700Bold](./Montserrat_700Bold.ttf.png)
-
-##### Montserrat_700Bold_Italic
-![Montserrat_700Bold_Italic](./Montserrat_700Bold_Italic.ttf.png)
-
-##### Montserrat_800ExtraBold
-![Montserrat_800ExtraBold](./Montserrat_800ExtraBold.ttf.png)
-
-##### Montserrat_800ExtraBold_Italic
-![Montserrat_800ExtraBold_Italic](./Montserrat_800ExtraBold_Italic.ttf.png)
-
-##### Montserrat_900Black
-![Montserrat_900Black](./Montserrat_900Black.ttf.png)
-
-##### Montserrat_900Black_Italic
-![Montserrat_900Black_Italic](./Montserrat_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![Montserrat_100Thin](./Montserrat_100Thin.ttf.png)|![Montserrat_100Thin_Italic](./Montserrat_100Thin_Italic.ttf.png)|![Montserrat_200ExtraLight](./Montserrat_200ExtraLight.ttf.png)||
+|![Montserrat_200ExtraLight_Italic](./Montserrat_200ExtraLight_Italic.ttf.png)|![Montserrat_300Light](./Montserrat_300Light.ttf.png)|![Montserrat_300Light_Italic](./Montserrat_300Light_Italic.ttf.png)||
+|![Montserrat_400Regular](./Montserrat_400Regular.ttf.png)|![Montserrat_400Regular_Italic](./Montserrat_400Regular_Italic.ttf.png)|![Montserrat_500Medium](./Montserrat_500Medium.ttf.png)||
+|![Montserrat_500Medium_Italic](./Montserrat_500Medium_Italic.ttf.png)|![Montserrat_600SemiBold](./Montserrat_600SemiBold.ttf.png)|![Montserrat_600SemiBold_Italic](./Montserrat_600SemiBold_Italic.ttf.png)||
+|![Montserrat_700Bold](./Montserrat_700Bold.ttf.png)|![Montserrat_700Bold_Italic](./Montserrat_700Bold_Italic.ttf.png)|![Montserrat_800ExtraBold](./Montserrat_800ExtraBold.ttf.png)||
+|![Montserrat_800ExtraBold_Italic](./Montserrat_800ExtraBold_Italic.ttf.png)|![Montserrat_900Black](./Montserrat_900Black.ttf.png)|![Montserrat_900Black_Italic](./Montserrat_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

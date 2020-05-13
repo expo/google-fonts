@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AnticDidone_400Regular
-![AnticDidone_400Regular](./AnticDidone_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![AnticDidone_400Regular](./AnticDidone_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

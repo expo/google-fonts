@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Ovo_400Regular
-![Ovo_400Regular](./Ovo_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Ovo_400Regular](./Ovo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Tienne_400Regular
-![Tienne_400Regular](./Tienne_400Regular.ttf.png)
 
-##### Tienne_700Bold
-![Tienne_700Bold](./Tienne_700Bold.ttf.png)
-
-##### Tienne_900Black
-![Tienne_900Black](./Tienne_900Black.ttf.png)
+||||
+|-|-|-|
+|![Tienne_400Regular](./Tienne_400Regular.ttf.png)|![Tienne_700Bold](./Tienne_700Bold.ttf.png)|![Tienne_900Black](./Tienne_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

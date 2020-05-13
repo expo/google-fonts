@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RobotoCondensed_300Light
-![RobotoCondensed_300Light](./RobotoCondensed_300Light.ttf.png)
 
-##### RobotoCondensed_300Light_Italic
-![RobotoCondensed_300Light_Italic](./RobotoCondensed_300Light_Italic.ttf.png)
-
-##### RobotoCondensed_400Regular
-![RobotoCondensed_400Regular](./RobotoCondensed_400Regular.ttf.png)
-
-##### RobotoCondensed_400Regular_Italic
-![RobotoCondensed_400Regular_Italic](./RobotoCondensed_400Regular_Italic.ttf.png)
-
-##### RobotoCondensed_700Bold
-![RobotoCondensed_700Bold](./RobotoCondensed_700Bold.ttf.png)
-
-##### RobotoCondensed_700Bold_Italic
-![RobotoCondensed_700Bold_Italic](./RobotoCondensed_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![RobotoCondensed_300Light](./RobotoCondensed_300Light.ttf.png)|![RobotoCondensed_300Light_Italic](./RobotoCondensed_300Light_Italic.ttf.png)|![RobotoCondensed_400Regular](./RobotoCondensed_400Regular.ttf.png)||
+|![RobotoCondensed_400Regular_Italic](./RobotoCondensed_400Regular_Italic.ttf.png)|![RobotoCondensed_700Bold](./RobotoCondensed_700Bold.ttf.png)|![RobotoCondensed_700Bold_Italic](./RobotoCondensed_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

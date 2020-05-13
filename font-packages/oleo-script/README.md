@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### OleoScript_400Regular
-![OleoScript_400Regular](./OleoScript_400Regular.ttf.png)
 
-##### OleoScript_700Bold
-![OleoScript_700Bold](./OleoScript_700Bold.ttf.png)
+||||
+|-|-|-|
+|![OleoScript_400Regular](./OleoScript_400Regular.ttf.png)|![OleoScript_700Bold](./OleoScript_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

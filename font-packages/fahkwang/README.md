@@ -207,41 +207,13 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Fahkwang_200ExtraLight
-![Fahkwang_200ExtraLight](./Fahkwang_200ExtraLight.ttf.png)
 
-##### Fahkwang_200ExtraLight_Italic
-![Fahkwang_200ExtraLight_Italic](./Fahkwang_200ExtraLight_Italic.ttf.png)
-
-##### Fahkwang_300Light
-![Fahkwang_300Light](./Fahkwang_300Light.ttf.png)
-
-##### Fahkwang_300Light_Italic
-![Fahkwang_300Light_Italic](./Fahkwang_300Light_Italic.ttf.png)
-
-##### Fahkwang_400Regular
-![Fahkwang_400Regular](./Fahkwang_400Regular.ttf.png)
-
-##### Fahkwang_400Regular_Italic
-![Fahkwang_400Regular_Italic](./Fahkwang_400Regular_Italic.ttf.png)
-
-##### Fahkwang_500Medium
-![Fahkwang_500Medium](./Fahkwang_500Medium.ttf.png)
-
-##### Fahkwang_500Medium_Italic
-![Fahkwang_500Medium_Italic](./Fahkwang_500Medium_Italic.ttf.png)
-
-##### Fahkwang_600SemiBold
-![Fahkwang_600SemiBold](./Fahkwang_600SemiBold.ttf.png)
-
-##### Fahkwang_600SemiBold_Italic
-![Fahkwang_600SemiBold_Italic](./Fahkwang_600SemiBold_Italic.ttf.png)
-
-##### Fahkwang_700Bold
-![Fahkwang_700Bold](./Fahkwang_700Bold.ttf.png)
-
-##### Fahkwang_700Bold_Italic
-![Fahkwang_700Bold_Italic](./Fahkwang_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Fahkwang_200ExtraLight](./Fahkwang_200ExtraLight.ttf.png)|![Fahkwang_200ExtraLight_Italic](./Fahkwang_200ExtraLight_Italic.ttf.png)|![Fahkwang_300Light](./Fahkwang_300Light.ttf.png)||
+|![Fahkwang_300Light_Italic](./Fahkwang_300Light_Italic.ttf.png)|![Fahkwang_400Regular](./Fahkwang_400Regular.ttf.png)|![Fahkwang_400Regular_Italic](./Fahkwang_400Regular_Italic.ttf.png)||
+|![Fahkwang_500Medium](./Fahkwang_500Medium.ttf.png)|![Fahkwang_500Medium_Italic](./Fahkwang_500Medium_Italic.ttf.png)|![Fahkwang_600SemiBold](./Fahkwang_600SemiBold.ttf.png)||
+|![Fahkwang_600SemiBold_Italic](./Fahkwang_600SemiBold_Italic.ttf.png)|![Fahkwang_700Bold](./Fahkwang_700Bold.ttf.png)|![Fahkwang_700Bold_Italic](./Fahkwang_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Prata_400Regular
-![Prata_400Regular](./Prata_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Prata_400Regular](./Prata_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

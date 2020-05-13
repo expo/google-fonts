@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### McLaren_400Regular
-![McLaren_400Regular](./McLaren_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![McLaren_400Regular](./McLaren_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

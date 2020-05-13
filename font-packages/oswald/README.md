@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Oswald_200ExtraLight
-![Oswald_200ExtraLight](./Oswald_200ExtraLight.ttf.png)
 
-##### Oswald_300Light
-![Oswald_300Light](./Oswald_300Light.ttf.png)
-
-##### Oswald_400Regular
-![Oswald_400Regular](./Oswald_400Regular.ttf.png)
-
-##### Oswald_500Medium
-![Oswald_500Medium](./Oswald_500Medium.ttf.png)
-
-##### Oswald_600SemiBold
-![Oswald_600SemiBold](./Oswald_600SemiBold.ttf.png)
-
-##### Oswald_700Bold
-![Oswald_700Bold](./Oswald_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Oswald_200ExtraLight](./Oswald_200ExtraLight.ttf.png)|![Oswald_300Light](./Oswald_300Light.ttf.png)|![Oswald_400Regular](./Oswald_400Regular.ttf.png)||
+|![Oswald_500Medium](./Oswald_500Medium.ttf.png)|![Oswald_600SemiBold](./Oswald_600SemiBold.ttf.png)|![Oswald_700Bold](./Oswald_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

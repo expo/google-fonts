@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Courgette_400Regular
-![Courgette_400Regular](./Courgette_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Courgette_400Regular](./Courgette_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

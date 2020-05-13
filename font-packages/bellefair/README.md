@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Bellefair_400Regular
-![Bellefair_400Regular](./Bellefair_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Bellefair_400Regular](./Bellefair_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

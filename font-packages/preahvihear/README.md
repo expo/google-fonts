@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Preahvihear_400Regular
-![Preahvihear_400Regular](./Preahvihear_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Preahvihear_400Regular](./Preahvihear_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

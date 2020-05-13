@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Allerta_400Regular
-![Allerta_400Regular](./Allerta_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Allerta_400Regular](./Allerta_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

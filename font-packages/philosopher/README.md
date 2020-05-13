@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Philosopher_400Regular
-![Philosopher_400Regular](./Philosopher_400Regular.ttf.png)
 
-##### Philosopher_400Regular_Italic
-![Philosopher_400Regular_Italic](./Philosopher_400Regular_Italic.ttf.png)
-
-##### Philosopher_700Bold
-![Philosopher_700Bold](./Philosopher_700Bold.ttf.png)
-
-##### Philosopher_700Bold_Italic
-![Philosopher_700Bold_Italic](./Philosopher_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Philosopher_400Regular](./Philosopher_400Regular.ttf.png)|![Philosopher_400Regular_Italic](./Philosopher_400Regular_Italic.ttf.png)|![Philosopher_700Bold](./Philosopher_700Bold.ttf.png)||
+|![Philosopher_700Bold_Italic](./Philosopher_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

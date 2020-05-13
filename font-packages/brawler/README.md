@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Brawler_400Regular
-![Brawler_400Regular](./Brawler_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Brawler_400Regular](./Brawler_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

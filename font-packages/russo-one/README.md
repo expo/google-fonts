@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### RussoOne_400Regular
-![RussoOne_400Regular](./RussoOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![RussoOne_400Regular](./RussoOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

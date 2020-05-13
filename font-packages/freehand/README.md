@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Freehand_400Regular
-![Freehand_400Regular](./Freehand_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Freehand_400Regular](./Freehand_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CuteFont_400Regular
-![CuteFont_400Regular](./CuteFont_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![CuteFont_400Regular](./CuteFont_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

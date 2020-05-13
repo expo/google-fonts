@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Teko_300Light
-![Teko_300Light](./Teko_300Light.ttf.png)
 
-##### Teko_400Regular
-![Teko_400Regular](./Teko_400Regular.ttf.png)
-
-##### Teko_500Medium
-![Teko_500Medium](./Teko_500Medium.ttf.png)
-
-##### Teko_600SemiBold
-![Teko_600SemiBold](./Teko_600SemiBold.ttf.png)
-
-##### Teko_700Bold
-![Teko_700Bold](./Teko_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Teko_300Light](./Teko_300Light.ttf.png)|![Teko_400Regular](./Teko_400Regular.ttf.png)|![Teko_500Medium](./Teko_500Medium.ttf.png)||
+|![Teko_600SemiBold](./Teko_600SemiBold.ttf.png)|![Teko_700Bold](./Teko_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

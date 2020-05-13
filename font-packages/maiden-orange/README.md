@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MaidenOrange_400Regular
-![MaidenOrange_400Regular](./MaidenOrange_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![MaidenOrange_400Regular](./MaidenOrange_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

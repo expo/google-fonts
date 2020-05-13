@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PortLligatSans_400Regular
-![PortLligatSans_400Regular](./PortLligatSans_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![PortLligatSans_400Regular](./PortLligatSans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

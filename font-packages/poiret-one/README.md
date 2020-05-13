@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PoiretOne_400Regular
-![PoiretOne_400Regular](./PoiretOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![PoiretOne_400Regular](./PoiretOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -129,23 +129,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Aleo_300Light
-![Aleo_300Light](./Aleo_300Light.ttf.png)
 
-##### Aleo_300Light_Italic
-![Aleo_300Light_Italic](./Aleo_300Light_Italic.ttf.png)
-
-##### Aleo_400Regular
-![Aleo_400Regular](./Aleo_400Regular.ttf.png)
-
-##### Aleo_400Regular_Italic
-![Aleo_400Regular_Italic](./Aleo_400Regular_Italic.ttf.png)
-
-##### Aleo_700Bold
-![Aleo_700Bold](./Aleo_700Bold.ttf.png)
-
-##### Aleo_700Bold_Italic
-![Aleo_700Bold_Italic](./Aleo_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Aleo_300Light](./Aleo_300Light.ttf.png)|![Aleo_300Light_Italic](./Aleo_300Light_Italic.ttf.png)|![Aleo_400Regular](./Aleo_400Regular.ttf.png)||
+|![Aleo_400Regular_Italic](./Aleo_400Regular_Italic.ttf.png)|![Aleo_700Bold](./Aleo_700Bold.ttf.png)|![Aleo_700Bold_Italic](./Aleo_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

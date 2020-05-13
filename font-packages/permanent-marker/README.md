@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PermanentMarker_400Regular
-![PermanentMarker_400Regular](./PermanentMarker_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![PermanentMarker_400Regular](./PermanentMarker_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

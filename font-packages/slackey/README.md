@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Slackey_400Regular
-![Slackey_400Regular](./Slackey_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Slackey_400Regular](./Slackey_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

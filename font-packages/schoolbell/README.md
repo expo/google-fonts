@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Schoolbell_400Regular
-![Schoolbell_400Regular](./Schoolbell_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Schoolbell_400Regular](./Schoolbell_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

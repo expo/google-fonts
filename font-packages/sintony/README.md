@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sintony_400Regular
-![Sintony_400Regular](./Sintony_400Regular.ttf.png)
 
-##### Sintony_700Bold
-![Sintony_700Bold](./Sintony_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Sintony_400Regular](./Sintony_400Regular.ttf.png)|![Sintony_700Bold](./Sintony_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

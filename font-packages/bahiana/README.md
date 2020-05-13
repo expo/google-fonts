@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Bahiana_400Regular
-![Bahiana_400Regular](./Bahiana_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Bahiana_400Regular](./Bahiana_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

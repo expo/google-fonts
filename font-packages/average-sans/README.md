@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AverageSans_400Regular
-![AverageSans_400Regular](./AverageSans_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![AverageSans_400Regular](./AverageSans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -233,47 +233,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NunitoSans_200ExtraLight
-![NunitoSans_200ExtraLight](./NunitoSans_200ExtraLight.ttf.png)
 
-##### NunitoSans_200ExtraLight_Italic
-![NunitoSans_200ExtraLight_Italic](./NunitoSans_200ExtraLight_Italic.ttf.png)
-
-##### NunitoSans_300Light
-![NunitoSans_300Light](./NunitoSans_300Light.ttf.png)
-
-##### NunitoSans_300Light_Italic
-![NunitoSans_300Light_Italic](./NunitoSans_300Light_Italic.ttf.png)
-
-##### NunitoSans_400Regular
-![NunitoSans_400Regular](./NunitoSans_400Regular.ttf.png)
-
-##### NunitoSans_400Regular_Italic
-![NunitoSans_400Regular_Italic](./NunitoSans_400Regular_Italic.ttf.png)
-
-##### NunitoSans_600SemiBold
-![NunitoSans_600SemiBold](./NunitoSans_600SemiBold.ttf.png)
-
-##### NunitoSans_600SemiBold_Italic
-![NunitoSans_600SemiBold_Italic](./NunitoSans_600SemiBold_Italic.ttf.png)
-
-##### NunitoSans_700Bold
-![NunitoSans_700Bold](./NunitoSans_700Bold.ttf.png)
-
-##### NunitoSans_700Bold_Italic
-![NunitoSans_700Bold_Italic](./NunitoSans_700Bold_Italic.ttf.png)
-
-##### NunitoSans_800ExtraBold
-![NunitoSans_800ExtraBold](./NunitoSans_800ExtraBold.ttf.png)
-
-##### NunitoSans_800ExtraBold_Italic
-![NunitoSans_800ExtraBold_Italic](./NunitoSans_800ExtraBold_Italic.ttf.png)
-
-##### NunitoSans_900Black
-![NunitoSans_900Black](./NunitoSans_900Black.ttf.png)
-
-##### NunitoSans_900Black_Italic
-![NunitoSans_900Black_Italic](./NunitoSans_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![NunitoSans_200ExtraLight](./NunitoSans_200ExtraLight.ttf.png)|![NunitoSans_200ExtraLight_Italic](./NunitoSans_200ExtraLight_Italic.ttf.png)|![NunitoSans_300Light](./NunitoSans_300Light.ttf.png)||
+|![NunitoSans_300Light_Italic](./NunitoSans_300Light_Italic.ttf.png)|![NunitoSans_400Regular](./NunitoSans_400Regular.ttf.png)|![NunitoSans_400Regular_Italic](./NunitoSans_400Regular_Italic.ttf.png)||
+|![NunitoSans_600SemiBold](./NunitoSans_600SemiBold.ttf.png)|![NunitoSans_600SemiBold_Italic](./NunitoSans_600SemiBold_Italic.ttf.png)|![NunitoSans_700Bold](./NunitoSans_700Bold.ttf.png)||
+|![NunitoSans_700Bold_Italic](./NunitoSans_700Bold_Italic.ttf.png)|![NunitoSans_800ExtraBold](./NunitoSans_800ExtraBold.ttf.png)|![NunitoSans_800ExtraBold_Italic](./NunitoSans_800ExtraBold_Italic.ttf.png)||
+|![NunitoSans_900Black](./NunitoSans_900Black.ttf.png)|![NunitoSans_900Black_Italic](./NunitoSans_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

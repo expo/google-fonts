@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Anton_400Regular
-![Anton_400Regular](./Anton_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Anton_400Regular](./Anton_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

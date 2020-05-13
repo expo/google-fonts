@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GravitasOne_400Regular
-![GravitasOne_400Regular](./GravitasOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![GravitasOne_400Regular](./GravitasOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

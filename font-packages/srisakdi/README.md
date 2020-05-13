@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Srisakdi_400Regular
-![Srisakdi_400Regular](./Srisakdi_400Regular.ttf.png)
 
-##### Srisakdi_700Bold
-![Srisakdi_700Bold](./Srisakdi_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Srisakdi_400Regular](./Srisakdi_400Regular.ttf.png)|![Srisakdi_700Bold](./Srisakdi_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

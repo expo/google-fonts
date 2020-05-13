@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MontserratSubrayada_400Regular
-![MontserratSubrayada_400Regular](./MontserratSubrayada_400Regular.ttf.png)
 
-##### MontserratSubrayada_700Bold
-![MontserratSubrayada_700Bold](./MontserratSubrayada_700Bold.ttf.png)
+||||
+|-|-|-|
+|![MontserratSubrayada_400Regular](./MontserratSubrayada_400Regular.ttf.png)|![MontserratSubrayada_700Bold](./MontserratSubrayada_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

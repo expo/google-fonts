@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Jomolhari_400Regular
-![Jomolhari_400Regular](./Jomolhari_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Jomolhari_400Regular](./Jomolhari_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

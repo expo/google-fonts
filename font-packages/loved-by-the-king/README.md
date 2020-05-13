@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LovedbytheKing_400Regular
-![LovedbytheKing_400Regular](./LovedbytheKing_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![LovedbytheKing_400Regular](./LovedbytheKing_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

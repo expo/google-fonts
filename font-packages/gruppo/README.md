@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Gruppo_400Regular
-![Gruppo_400Regular](./Gruppo_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Gruppo_400Regular](./Gruppo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

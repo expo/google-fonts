@@ -77,11 +77,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NanumGothicCoding_400Regular
-![NanumGothicCoding_400Regular](./NanumGothicCoding_400Regular.ttf.png)
 
-##### NanumGothicCoding_700Bold
-![NanumGothicCoding_700Bold](./NanumGothicCoding_700Bold.ttf.png)
+||||
+|-|-|-|
+|![NanumGothicCoding_400Regular](./NanumGothicCoding_400Regular.ttf.png)|![NanumGothicCoding_700Bold](./NanumGothicCoding_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

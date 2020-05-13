@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Margarine_400Regular
-![Margarine_400Regular](./Margarine_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Margarine_400Regular](./Margarine_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

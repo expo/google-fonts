@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### KirangHaerang_400Regular
-![KirangHaerang_400Regular](./KirangHaerang_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![KirangHaerang_400Regular](./KirangHaerang_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

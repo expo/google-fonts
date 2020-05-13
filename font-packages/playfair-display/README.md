@@ -207,41 +207,13 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PlayfairDisplay_400Regular
-![PlayfairDisplay_400Regular](./PlayfairDisplay_400Regular.ttf.png)
 
-##### PlayfairDisplay_500Medium
-![PlayfairDisplay_500Medium](./PlayfairDisplay_500Medium.ttf.png)
-
-##### PlayfairDisplay_600SemiBold
-![PlayfairDisplay_600SemiBold](./PlayfairDisplay_600SemiBold.ttf.png)
-
-##### PlayfairDisplay_700Bold
-![PlayfairDisplay_700Bold](./PlayfairDisplay_700Bold.ttf.png)
-
-##### PlayfairDisplay_800ExtraBold
-![PlayfairDisplay_800ExtraBold](./PlayfairDisplay_800ExtraBold.ttf.png)
-
-##### PlayfairDisplay_900Black
-![PlayfairDisplay_900Black](./PlayfairDisplay_900Black.ttf.png)
-
-##### PlayfairDisplay_400Regular_Italic
-![PlayfairDisplay_400Regular_Italic](./PlayfairDisplay_400Regular_Italic.ttf.png)
-
-##### PlayfairDisplay_500Medium_Italic
-![PlayfairDisplay_500Medium_Italic](./PlayfairDisplay_500Medium_Italic.ttf.png)
-
-##### PlayfairDisplay_600SemiBold_Italic
-![PlayfairDisplay_600SemiBold_Italic](./PlayfairDisplay_600SemiBold_Italic.ttf.png)
-
-##### PlayfairDisplay_700Bold_Italic
-![PlayfairDisplay_700Bold_Italic](./PlayfairDisplay_700Bold_Italic.ttf.png)
-
-##### PlayfairDisplay_800ExtraBold_Italic
-![PlayfairDisplay_800ExtraBold_Italic](./PlayfairDisplay_800ExtraBold_Italic.ttf.png)
-
-##### PlayfairDisplay_900Black_Italic
-![PlayfairDisplay_900Black_Italic](./PlayfairDisplay_900Black_Italic.ttf.png)
+||||
+|-|-|-|
+|![PlayfairDisplay_400Regular](./PlayfairDisplay_400Regular.ttf.png)|![PlayfairDisplay_500Medium](./PlayfairDisplay_500Medium.ttf.png)|![PlayfairDisplay_600SemiBold](./PlayfairDisplay_600SemiBold.ttf.png)||
+|![PlayfairDisplay_700Bold](./PlayfairDisplay_700Bold.ttf.png)|![PlayfairDisplay_800ExtraBold](./PlayfairDisplay_800ExtraBold.ttf.png)|![PlayfairDisplay_900Black](./PlayfairDisplay_900Black.ttf.png)||
+|![PlayfairDisplay_400Regular_Italic](./PlayfairDisplay_400Regular_Italic.ttf.png)|![PlayfairDisplay_500Medium_Italic](./PlayfairDisplay_500Medium_Italic.ttf.png)|![PlayfairDisplay_600SemiBold_Italic](./PlayfairDisplay_600SemiBold_Italic.ttf.png)||
+|![PlayfairDisplay_700Bold_Italic](./PlayfairDisplay_700Bold_Italic.ttf.png)|![PlayfairDisplay_800ExtraBold_Italic](./PlayfairDisplay_800ExtraBold_Italic.ttf.png)|![PlayfairDisplay_900Black_Italic](./PlayfairDisplay_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

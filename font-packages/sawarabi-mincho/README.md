@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### SawarabiMincho_400Regular
-![SawarabiMincho_400Regular](./SawarabiMincho_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![SawarabiMincho_400Regular](./SawarabiMincho_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

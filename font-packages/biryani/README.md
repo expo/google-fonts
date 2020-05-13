@@ -142,26 +142,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Biryani_200ExtraLight
-![Biryani_200ExtraLight](./Biryani_200ExtraLight.ttf.png)
 
-##### Biryani_300Light
-![Biryani_300Light](./Biryani_300Light.ttf.png)
-
-##### Biryani_400Regular
-![Biryani_400Regular](./Biryani_400Regular.ttf.png)
-
-##### Biryani_600SemiBold
-![Biryani_600SemiBold](./Biryani_600SemiBold.ttf.png)
-
-##### Biryani_700Bold
-![Biryani_700Bold](./Biryani_700Bold.ttf.png)
-
-##### Biryani_800ExtraBold
-![Biryani_800ExtraBold](./Biryani_800ExtraBold.ttf.png)
-
-##### Biryani_900Black
-![Biryani_900Black](./Biryani_900Black.ttf.png)
+||||
+|-|-|-|
+|![Biryani_200ExtraLight](./Biryani_200ExtraLight.ttf.png)|![Biryani_300Light](./Biryani_300Light.ttf.png)|![Biryani_400Regular](./Biryani_400Regular.ttf.png)||
+|![Biryani_600SemiBold](./Biryani_600SemiBold.ttf.png)|![Biryani_700Bold](./Biryani_700Bold.ttf.png)|![Biryani_800ExtraBold](./Biryani_800ExtraBold.ttf.png)||
+|![Biryani_900Black](./Biryani_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

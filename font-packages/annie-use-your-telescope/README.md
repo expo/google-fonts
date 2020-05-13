@@ -64,8 +64,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AnnieUseYourTelescope_400Regular
-![AnnieUseYourTelescope_400Regular](./AnnieUseYourTelescope_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![AnnieUseYourTelescope_400Regular](./AnnieUseYourTelescope_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Padauk_400Regular
-![Padauk_400Regular](./Padauk_400Regular.ttf.png)
 
-##### Padauk_700Bold
-![Padauk_700Bold](./Padauk_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Padauk_400Regular](./Padauk_400Regular.ttf.png)|![Padauk_700Bold](./Padauk_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

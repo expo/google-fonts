@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Underdog_400Regular
-![Underdog_400Regular](./Underdog_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Underdog_400Regular](./Underdog_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

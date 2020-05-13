@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CarterOne_400Regular
-![CarterOne_400Regular](./CarterOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![CarterOne_400Regular](./CarterOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

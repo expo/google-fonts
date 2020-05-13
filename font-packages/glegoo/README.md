@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Glegoo_400Regular
-![Glegoo_400Regular](./Glegoo_400Regular.ttf.png)
 
-##### Glegoo_700Bold
-![Glegoo_700Bold](./Glegoo_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Glegoo_400Regular](./Glegoo_400Regular.ttf.png)|![Glegoo_700Bold](./Glegoo_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

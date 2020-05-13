@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sniglet_400Regular
-![Sniglet_400Regular](./Sniglet_400Regular.ttf.png)
 
-##### Sniglet_800ExtraBold
-![Sniglet_800ExtraBold](./Sniglet_800ExtraBold.ttf.png)
+||||
+|-|-|-|
+|![Sniglet_400Regular](./Sniglet_400Regular.ttf.png)|![Sniglet_800ExtraBold](./Sniglet_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### KottaOne_400Regular
-![KottaOne_400Regular](./KottaOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![KottaOne_400Regular](./KottaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Electrolize_400Regular
-![Electrolize_400Regular](./Electrolize_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Electrolize_400Regular](./Electrolize_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

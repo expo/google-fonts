@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CodaCaption_800ExtraBold
-![CodaCaption_800ExtraBold](./CodaCaption_800ExtraBold.ttf.png)
+
+||||
+|-|-|-|
+|![CodaCaption_800ExtraBold](./CodaCaption_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

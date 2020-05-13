@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Neucha_400Regular
-![Neucha_400Regular](./Neucha_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Neucha_400Regular](./Neucha_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

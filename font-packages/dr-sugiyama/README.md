@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DrSugiyama_400Regular
-![DrSugiyama_400Regular](./DrSugiyama_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![DrSugiyama_400Regular](./DrSugiyama_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

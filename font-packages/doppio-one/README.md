@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### DoppioOne_400Regular
-![DoppioOne_400Regular](./DoppioOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![DoppioOne_400Regular](./DoppioOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

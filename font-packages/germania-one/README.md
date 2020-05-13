@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### GermaniaOne_400Regular
-![GermaniaOne_400Regular](./GermaniaOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![GermaniaOne_400Regular](./GermaniaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

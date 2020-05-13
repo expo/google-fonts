@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Monda_400Regular
-![Monda_400Regular](./Monda_400Regular.ttf.png)
 
-##### Monda_700Bold
-![Monda_700Bold](./Monda_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Monda_400Regular](./Monda_400Regular.ttf.png)|![Monda_700Bold](./Monda_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

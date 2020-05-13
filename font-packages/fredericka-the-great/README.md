@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FrederickatheGreat_400Regular
-![FrederickatheGreat_400Regular](./FrederickatheGreat_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![FrederickatheGreat_400Regular](./FrederickatheGreat_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

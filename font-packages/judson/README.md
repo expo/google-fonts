@@ -90,14 +90,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Judson_400Regular
-![Judson_400Regular](./Judson_400Regular.ttf.png)
 
-##### Judson_400Regular_Italic
-![Judson_400Regular_Italic](./Judson_400Regular_Italic.ttf.png)
-
-##### Judson_700Bold
-![Judson_700Bold](./Judson_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Judson_400Regular](./Judson_400Regular.ttf.png)|![Judson_400Regular_Italic](./Judson_400Regular_Italic.ttf.png)|![Judson_700Bold](./Judson_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

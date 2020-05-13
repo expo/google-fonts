@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### PaytoneOne_400Regular
-![PaytoneOne_400Regular](./PaytoneOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![PaytoneOne_400Regular](./PaytoneOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

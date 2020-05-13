@@ -73,11 +73,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Merienda_400Regular
-![Merienda_400Regular](./Merienda_400Regular.ttf.png)
 
-##### Merienda_700Bold
-![Merienda_700Bold](./Merienda_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Merienda_400Regular](./Merienda_400Regular.ttf.png)|![Merienda_700Bold](./Merienda_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

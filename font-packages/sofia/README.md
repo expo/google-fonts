@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Sofia_400Regular
-![Sofia_400Regular](./Sofia_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Sofia_400Regular](./Sofia_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

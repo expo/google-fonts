@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Esteban_400Regular
-![Esteban_400Regular](./Esteban_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Esteban_400Regular](./Esteban_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -142,26 +142,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Tajawal_200ExtraLight
-![Tajawal_200ExtraLight](./Tajawal_200ExtraLight.ttf.png)
 
-##### Tajawal_300Light
-![Tajawal_300Light](./Tajawal_300Light.ttf.png)
-
-##### Tajawal_400Regular
-![Tajawal_400Regular](./Tajawal_400Regular.ttf.png)
-
-##### Tajawal_500Medium
-![Tajawal_500Medium](./Tajawal_500Medium.ttf.png)
-
-##### Tajawal_700Bold
-![Tajawal_700Bold](./Tajawal_700Bold.ttf.png)
-
-##### Tajawal_800ExtraBold
-![Tajawal_800ExtraBold](./Tajawal_800ExtraBold.ttf.png)
-
-##### Tajawal_900Black
-![Tajawal_900Black](./Tajawal_900Black.ttf.png)
+||||
+|-|-|-|
+|![Tajawal_200ExtraLight](./Tajawal_200ExtraLight.ttf.png)|![Tajawal_300Light](./Tajawal_300Light.ttf.png)|![Tajawal_400Regular](./Tajawal_400Regular.ttf.png)||
+|![Tajawal_500Medium](./Tajawal_500Medium.ttf.png)|![Tajawal_700Bold](./Tajawal_700Bold.ttf.png)|![Tajawal_800ExtraBold](./Tajawal_800ExtraBold.ttf.png)||
+|![Tajawal_900Black](./Tajawal_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

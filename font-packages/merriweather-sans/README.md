@@ -155,29 +155,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### MerriweatherSans_300Light
-![MerriweatherSans_300Light](./MerriweatherSans_300Light.ttf.png)
 
-##### MerriweatherSans_300Light_Italic
-![MerriweatherSans_300Light_Italic](./MerriweatherSans_300Light_Italic.ttf.png)
-
-##### MerriweatherSans_400Regular
-![MerriweatherSans_400Regular](./MerriweatherSans_400Regular.ttf.png)
-
-##### MerriweatherSans_400Regular_Italic
-![MerriweatherSans_400Regular_Italic](./MerriweatherSans_400Regular_Italic.ttf.png)
-
-##### MerriweatherSans_700Bold
-![MerriweatherSans_700Bold](./MerriweatherSans_700Bold.ttf.png)
-
-##### MerriweatherSans_700Bold_Italic
-![MerriweatherSans_700Bold_Italic](./MerriweatherSans_700Bold_Italic.ttf.png)
-
-##### MerriweatherSans_800ExtraBold
-![MerriweatherSans_800ExtraBold](./MerriweatherSans_800ExtraBold.ttf.png)
-
-##### MerriweatherSans_800ExtraBold_Italic
-![MerriweatherSans_800ExtraBold_Italic](./MerriweatherSans_800ExtraBold_Italic.ttf.png)
+||||
+|-|-|-|
+|![MerriweatherSans_300Light](./MerriweatherSans_300Light.ttf.png)|![MerriweatherSans_300Light_Italic](./MerriweatherSans_300Light_Italic.ttf.png)|![MerriweatherSans_400Regular](./MerriweatherSans_400Regular.ttf.png)||
+|![MerriweatherSans_400Regular_Italic](./MerriweatherSans_400Regular_Italic.ttf.png)|![MerriweatherSans_700Bold](./MerriweatherSans_700Bold.ttf.png)|![MerriweatherSans_700Bold_Italic](./MerriweatherSans_700Bold_Italic.ttf.png)||
+|![MerriweatherSans_800ExtraBold](./MerriweatherSans_800ExtraBold.ttf.png)|![MerriweatherSans_800ExtraBold_Italic](./MerriweatherSans_800ExtraBold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ChelseaMarket_400Regular
-![ChelseaMarket_400Regular](./ChelseaMarket_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![ChelseaMarket_400Regular](./ChelseaMarket_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

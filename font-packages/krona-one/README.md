@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### KronaOne_400Regular
-![KronaOne_400Regular](./KronaOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![KronaOne_400Regular](./KronaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

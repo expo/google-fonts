@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LexendZetta_400Regular
-![LexendZetta_400Regular](./LexendZetta_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![LexendZetta_400Regular](./LexendZetta_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

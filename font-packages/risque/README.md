@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Risque_400Regular
-![Risque_400Regular](./Risque_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Risque_400Regular](./Risque_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

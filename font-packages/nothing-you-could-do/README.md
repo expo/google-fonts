@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### NothingYouCouldDo_400Regular
-![NothingYouCouldDo_400Regular](./NothingYouCouldDo_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![NothingYouCouldDo_400Regular](./NothingYouCouldDo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

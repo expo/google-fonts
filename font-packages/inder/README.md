@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Inder_400Regular
-![Inder_400Regular](./Inder_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Inder_400Regular](./Inder_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

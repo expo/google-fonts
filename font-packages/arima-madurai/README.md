@@ -155,29 +155,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ArimaMadurai_100Thin
-![ArimaMadurai_100Thin](./ArimaMadurai_100Thin.ttf.png)
 
-##### ArimaMadurai_200ExtraLight
-![ArimaMadurai_200ExtraLight](./ArimaMadurai_200ExtraLight.ttf.png)
-
-##### ArimaMadurai_300Light
-![ArimaMadurai_300Light](./ArimaMadurai_300Light.ttf.png)
-
-##### ArimaMadurai_400Regular
-![ArimaMadurai_400Regular](./ArimaMadurai_400Regular.ttf.png)
-
-##### ArimaMadurai_500Medium
-![ArimaMadurai_500Medium](./ArimaMadurai_500Medium.ttf.png)
-
-##### ArimaMadurai_700Bold
-![ArimaMadurai_700Bold](./ArimaMadurai_700Bold.ttf.png)
-
-##### ArimaMadurai_800ExtraBold
-![ArimaMadurai_800ExtraBold](./ArimaMadurai_800ExtraBold.ttf.png)
-
-##### ArimaMadurai_900Black
-![ArimaMadurai_900Black](./ArimaMadurai_900Black.ttf.png)
+||||
+|-|-|-|
+|![ArimaMadurai_100Thin](./ArimaMadurai_100Thin.ttf.png)|![ArimaMadurai_200ExtraLight](./ArimaMadurai_200ExtraLight.ttf.png)|![ArimaMadurai_300Light](./ArimaMadurai_300Light.ttf.png)||
+|![ArimaMadurai_400Regular](./ArimaMadurai_400Regular.ttf.png)|![ArimaMadurai_500Medium](./ArimaMadurai_500Medium.ttf.png)|![ArimaMadurai_700Bold](./ArimaMadurai_700Bold.ttf.png)||
+|![ArimaMadurai_800ExtraBold](./ArimaMadurai_800ExtraBold.ttf.png)|![ArimaMadurai_900Black](./ArimaMadurai_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

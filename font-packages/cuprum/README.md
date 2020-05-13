@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Cuprum_400Regular
-![Cuprum_400Regular](./Cuprum_400Regular.ttf.png)
 
-##### Cuprum_400Regular_Italic
-![Cuprum_400Regular_Italic](./Cuprum_400Regular_Italic.ttf.png)
-
-##### Cuprum_700Bold
-![Cuprum_700Bold](./Cuprum_700Bold.ttf.png)
-
-##### Cuprum_700Bold_Italic
-![Cuprum_700Bold_Italic](./Cuprum_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Cuprum_400Regular](./Cuprum_400Regular.ttf.png)|![Cuprum_400Regular_Italic](./Cuprum_400Regular_Italic.ttf.png)|![Cuprum_700Bold](./Cuprum_700Bold.ttf.png)||
+|![Cuprum_700Bold_Italic](./Cuprum_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -155,29 +155,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ArchivoNarrow_400Regular
-![ArchivoNarrow_400Regular](./ArchivoNarrow_400Regular.ttf.png)
 
-##### ArchivoNarrow_400Regular_Italic
-![ArchivoNarrow_400Regular_Italic](./ArchivoNarrow_400Regular_Italic.ttf.png)
-
-##### ArchivoNarrow_500Medium
-![ArchivoNarrow_500Medium](./ArchivoNarrow_500Medium.ttf.png)
-
-##### ArchivoNarrow_500Medium_Italic
-![ArchivoNarrow_500Medium_Italic](./ArchivoNarrow_500Medium_Italic.ttf.png)
-
-##### ArchivoNarrow_600SemiBold
-![ArchivoNarrow_600SemiBold](./ArchivoNarrow_600SemiBold.ttf.png)
-
-##### ArchivoNarrow_600SemiBold_Italic
-![ArchivoNarrow_600SemiBold_Italic](./ArchivoNarrow_600SemiBold_Italic.ttf.png)
-
-##### ArchivoNarrow_700Bold
-![ArchivoNarrow_700Bold](./ArchivoNarrow_700Bold.ttf.png)
-
-##### ArchivoNarrow_700Bold_Italic
-![ArchivoNarrow_700Bold_Italic](./ArchivoNarrow_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![ArchivoNarrow_400Regular](./ArchivoNarrow_400Regular.ttf.png)|![ArchivoNarrow_400Regular_Italic](./ArchivoNarrow_400Regular_Italic.ttf.png)|![ArchivoNarrow_500Medium](./ArchivoNarrow_500Medium.ttf.png)||
+|![ArchivoNarrow_500Medium_Italic](./ArchivoNarrow_500Medium_Italic.ttf.png)|![ArchivoNarrow_600SemiBold](./ArchivoNarrow_600SemiBold.ttf.png)|![ArchivoNarrow_600SemiBold_Italic](./ArchivoNarrow_600SemiBold_Italic.ttf.png)||
+|![ArchivoNarrow_700Bold](./ArchivoNarrow_700Bold.ttf.png)|![ArchivoNarrow_700Bold_Italic](./ArchivoNarrow_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

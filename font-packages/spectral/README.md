@@ -233,47 +233,14 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Spectral_200ExtraLight
-![Spectral_200ExtraLight](./Spectral_200ExtraLight.ttf.png)
 
-##### Spectral_200ExtraLight_Italic
-![Spectral_200ExtraLight_Italic](./Spectral_200ExtraLight_Italic.ttf.png)
-
-##### Spectral_300Light
-![Spectral_300Light](./Spectral_300Light.ttf.png)
-
-##### Spectral_300Light_Italic
-![Spectral_300Light_Italic](./Spectral_300Light_Italic.ttf.png)
-
-##### Spectral_400Regular
-![Spectral_400Regular](./Spectral_400Regular.ttf.png)
-
-##### Spectral_400Regular_Italic
-![Spectral_400Regular_Italic](./Spectral_400Regular_Italic.ttf.png)
-
-##### Spectral_500Medium
-![Spectral_500Medium](./Spectral_500Medium.ttf.png)
-
-##### Spectral_500Medium_Italic
-![Spectral_500Medium_Italic](./Spectral_500Medium_Italic.ttf.png)
-
-##### Spectral_600SemiBold
-![Spectral_600SemiBold](./Spectral_600SemiBold.ttf.png)
-
-##### Spectral_600SemiBold_Italic
-![Spectral_600SemiBold_Italic](./Spectral_600SemiBold_Italic.ttf.png)
-
-##### Spectral_700Bold
-![Spectral_700Bold](./Spectral_700Bold.ttf.png)
-
-##### Spectral_700Bold_Italic
-![Spectral_700Bold_Italic](./Spectral_700Bold_Italic.ttf.png)
-
-##### Spectral_800ExtraBold
-![Spectral_800ExtraBold](./Spectral_800ExtraBold.ttf.png)
-
-##### Spectral_800ExtraBold_Italic
-![Spectral_800ExtraBold_Italic](./Spectral_800ExtraBold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Spectral_200ExtraLight](./Spectral_200ExtraLight.ttf.png)|![Spectral_200ExtraLight_Italic](./Spectral_200ExtraLight_Italic.ttf.png)|![Spectral_300Light](./Spectral_300Light.ttf.png)||
+|![Spectral_300Light_Italic](./Spectral_300Light_Italic.ttf.png)|![Spectral_400Regular](./Spectral_400Regular.ttf.png)|![Spectral_400Regular_Italic](./Spectral_400Regular_Italic.ttf.png)||
+|![Spectral_500Medium](./Spectral_500Medium.ttf.png)|![Spectral_500Medium_Italic](./Spectral_500Medium_Italic.ttf.png)|![Spectral_600SemiBold](./Spectral_600SemiBold.ttf.png)||
+|![Spectral_600SemiBold_Italic](./Spectral_600SemiBold_Italic.ttf.png)|![Spectral_700Bold](./Spectral_700Bold.ttf.png)|![Spectral_700Bold_Italic](./Spectral_700Bold_Italic.ttf.png)||
+|![Spectral_800ExtraBold](./Spectral_800ExtraBold.ttf.png)|![Spectral_800ExtraBold_Italic](./Spectral_800ExtraBold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

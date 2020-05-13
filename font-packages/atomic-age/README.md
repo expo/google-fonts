@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### AtomicAge_400Regular
-![AtomicAge_400Regular](./AtomicAge_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![AtomicAge_400Regular](./AtomicAge_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

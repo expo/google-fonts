@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### LilitaOne_400Regular
-![LilitaOne_400Regular](./LilitaOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![LilitaOne_400Regular](./LilitaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

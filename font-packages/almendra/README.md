@@ -103,17 +103,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Almendra_400Regular
-![Almendra_400Regular](./Almendra_400Regular.ttf.png)
 
-##### Almendra_400Regular_Italic
-![Almendra_400Regular_Italic](./Almendra_400Regular_Italic.ttf.png)
-
-##### Almendra_700Bold
-![Almendra_700Bold](./Almendra_700Bold.ttf.png)
-
-##### Almendra_700Bold_Italic
-![Almendra_700Bold_Italic](./Almendra_700Bold_Italic.ttf.png)
+||||
+|-|-|-|
+|![Almendra_400Regular](./Almendra_400Regular.ttf.png)|![Almendra_400Regular_Italic](./Almendra_400Regular_Italic.ttf.png)|![Almendra_700Bold](./Almendra_700Bold.ttf.png)||
+|![Almendra_700Bold_Italic](./Almendra_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

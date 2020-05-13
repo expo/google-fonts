@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### ButterflyKids_400Regular
-![ButterflyKids_400Regular](./ButterflyKids_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![ButterflyKids_400Regular](./ButterflyKids_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

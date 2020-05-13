@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Khand_300Light
-![Khand_300Light](./Khand_300Light.ttf.png)
 
-##### Khand_400Regular
-![Khand_400Regular](./Khand_400Regular.ttf.png)
-
-##### Khand_500Medium
-![Khand_500Medium](./Khand_500Medium.ttf.png)
-
-##### Khand_600SemiBold
-![Khand_600SemiBold](./Khand_600SemiBold.ttf.png)
-
-##### Khand_700Bold
-![Khand_700Bold](./Khand_700Bold.ttf.png)
+||||
+|-|-|-|
+|![Khand_300Light](./Khand_300Light.ttf.png)|![Khand_400Regular](./Khand_400Regular.ttf.png)|![Khand_500Medium](./Khand_500Medium.ttf.png)||
+|![Khand_600SemiBold](./Khand_600SemiBold.ttf.png)|![Khand_700Bold](./Khand_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

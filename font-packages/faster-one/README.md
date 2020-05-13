@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### FasterOne_400Regular
-![FasterOne_400Regular](./FasterOne_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![FasterOne_400Regular](./FasterOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

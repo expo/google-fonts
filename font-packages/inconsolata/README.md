@@ -155,29 +155,12 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Inconsolata_200ExtraLight
-![Inconsolata_200ExtraLight](./Inconsolata_200ExtraLight.ttf.png)
 
-##### Inconsolata_300Light
-![Inconsolata_300Light](./Inconsolata_300Light.ttf.png)
-
-##### Inconsolata_400Regular
-![Inconsolata_400Regular](./Inconsolata_400Regular.ttf.png)
-
-##### Inconsolata_500Medium
-![Inconsolata_500Medium](./Inconsolata_500Medium.ttf.png)
-
-##### Inconsolata_600SemiBold
-![Inconsolata_600SemiBold](./Inconsolata_600SemiBold.ttf.png)
-
-##### Inconsolata_700Bold
-![Inconsolata_700Bold](./Inconsolata_700Bold.ttf.png)
-
-##### Inconsolata_800ExtraBold
-![Inconsolata_800ExtraBold](./Inconsolata_800ExtraBold.ttf.png)
-
-##### Inconsolata_900Black
-![Inconsolata_900Black](./Inconsolata_900Black.ttf.png)
+||||
+|-|-|-|
+|![Inconsolata_200ExtraLight](./Inconsolata_200ExtraLight.ttf.png)|![Inconsolata_300Light](./Inconsolata_300Light.ttf.png)|![Inconsolata_400Regular](./Inconsolata_400Regular.ttf.png)||
+|![Inconsolata_500Medium](./Inconsolata_500Medium.ttf.png)|![Inconsolata_600SemiBold](./Inconsolata_600SemiBold.ttf.png)|![Inconsolata_700Bold](./Inconsolata_700Bold.ttf.png)||
+|![Inconsolata_800ExtraBold](./Inconsolata_800ExtraBold.ttf.png)|![Inconsolata_900Black](./Inconsolata_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

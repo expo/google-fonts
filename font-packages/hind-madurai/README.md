@@ -116,20 +116,11 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### HindMadurai_300Light
-![HindMadurai_300Light](./HindMadurai_300Light.ttf.png)
 
-##### HindMadurai_400Regular
-![HindMadurai_400Regular](./HindMadurai_400Regular.ttf.png)
-
-##### HindMadurai_500Medium
-![HindMadurai_500Medium](./HindMadurai_500Medium.ttf.png)
-
-##### HindMadurai_600SemiBold
-![HindMadurai_600SemiBold](./HindMadurai_600SemiBold.ttf.png)
-
-##### HindMadurai_700Bold
-![HindMadurai_700Bold](./HindMadurai_700Bold.ttf.png)
+||||
+|-|-|-|
+|![HindMadurai_300Light](./HindMadurai_300Light.ttf.png)|![HindMadurai_400Regular](./HindMadurai_400Regular.ttf.png)|![HindMadurai_500Medium](./HindMadurai_500Medium.ttf.png)||
+|![HindMadurai_600SemiBold](./HindMadurai_600SemiBold.ttf.png)|![HindMadurai_700Bold](./HindMadurai_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Asar_400Regular
-![Asar_400Regular](./Asar_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Asar_400Regular](./Asar_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### CaesarDressing_400Regular
-![CaesarDressing_400Regular](./CaesarDressing_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![CaesarDressing_400Regular](./CaesarDressing_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

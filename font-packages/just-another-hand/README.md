@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### JustAnotherHand_400Regular
-![JustAnotherHand_400Regular](./JustAnotherHand_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![JustAnotherHand_400Regular](./JustAnotherHand_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -61,8 +61,10 @@ export default () => {
 
 ## 🔡 Gallery
 
-##### Carme_400Regular
-![Carme_400Regular](./Carme_400Regular.ttf.png)
+
+||||
+|-|-|-|
+|![Carme_400Regular](./Carme_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development
