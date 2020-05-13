@@ -782,7 +782,6 @@ etc.
 }
 
 async function generateRootReadme(fontDirectory) {
-
   let outputFilepath = path.join(ProjectRootDir, 'README.md');
 
   let variantCount = 0;
@@ -795,7 +794,7 @@ async function generateRootReadme(fontDirectory) {
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/dev)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 
-![Expo Google Fonts](./title.gif)
+![Expo Google Fonts](./gifs/title.gif)
 
 The \`@expo-google-fonts\` packages for Expo allow you to easily use 
 any of ${fontDirectory.items.length} fonts (and their variants) from 
@@ -859,7 +858,9 @@ Each individual font family package README includes a complete example of using 
 
 You can browse all available Google Fonts on [fonts.google.com](https://fonts.google.com).
 
-Here are a few examples of the ${variantCount} variants of ${fontDirectory.items.length} fonts available:
+Here are a few examples of the ${variantCount} variants of ${
+    fontDirectory.items.length
+  } fonts available:
 
 ${await getFeaturedGalleryMarkdown(fontDirectory)}
 
@@ -916,8 +917,9 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
     'Allan',
 
     'Roboto',
+    'Lusitana',
+    // 'Open Sans',
     'Nunito',
-    'Open Sans',
 
     'Bangers',
     'Source Sans Pro',
@@ -1095,7 +1097,7 @@ let t = {
       t += webfont.variants.length;
     }
     return t;
-  }
+  },
 };
 
 module.exports = {

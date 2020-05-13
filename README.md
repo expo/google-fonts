@@ -3,7 +3,7 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/dev)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 
-![Expo Google Fonts](./title.gif)
+![Expo Google Fonts](./gifs/title.gif)
 
 The `@expo-google-fonts` packages for Expo allow you to easily use 
 any of 991 fonts (and their variants) from 
@@ -14,12 +14,12 @@ are free to use and open source.
 
 ## Usage
 
-Here is an example of using the [Nunito font family](https://fonts.google.com/specimen/Nunito) in a very simple project.
+Here is an example of using the [Inter font family](https://fonts.google.com/specimen/Inter) in a very simple project.
 
 #### Install the package for the font you want
 
 ```sh
-expo install @expo-google-fonts/nunito expo-font
+expo install @expo-google-fonts/inter expo-font
 ```
 
 #### In your app
@@ -31,12 +31,12 @@ import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
   useFonts,
-  Nunito_400Regular,
-} from '@expo-google-fonts/nunito';
+  Inter_400Regular,
+} from '@expo-google-fonts/inter';
 
 export default () => {
   let [fontsLoaded] = useFonts({
-    Nunito_Regular400,
+    Inter_Regular400,
   });
 
   if (!fontsLoaded) {
@@ -45,8 +45,8 @@ export default () => {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
 
-        <Text style={{ fontFamily: 'Nunito_400Regular' }}>
-          Nunito Regular
+        <Text style={{ fontFamily: 'Inter_400Regular' }}>
+          Inter Regular
         </Text>
 
       </View>
@@ -73,7 +73,7 @@ Here are a few examples of the 3014 variants of 991 fonts available:
 ||||
 |-|-|-|
 |[![Inter](./font-packages/inter/Inter_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/inter#readme)|[![Manrope](./font-packages/manrope/Manrope_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/manrope#readme)|[![Allan](./font-packages/allan/Allan_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/allan#readme)|
-|[![Roboto](./font-packages/roboto/Roboto_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)|[![Lusitana](./font-packages/lusitana/Lusitana_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/lusitana#readme)|[![OpenSans](./font-packages/open-sans/OpenSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/open-sans#readme)|
+|[![Roboto](./font-packages/roboto/Roboto_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)|[![Lusitana](./font-packages/lusitana/Lusitana_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/lusitana#readme)|[![Nunito](./font-packages/nunito/Nunito_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/nunito#readme)|
 |[![Bangers](./font-packages/bangers/Bangers_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/bangers#readme)|[![SourceSansPro](./font-packages/source-sans-pro/SourceSansPro_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/source-sans-pro#readme)|[![RobotoCondensed](./font-packages/roboto-condensed/RobotoCondensed_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto-condensed#readme)|
 |[![PlayfairDisplay](./font-packages/playfair-display/PlayfairDisplay_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playfair-display#readme)|[![Ubuntu](./font-packages/ubuntu/Ubuntu_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/ubuntu#readme)|[![Oswald](./font-packages/oswald/Oswald_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/oswald#readme)|
 |[![BalsamiqSans](./font-packages/balsamiq-sans/BalsamiqSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/balsamiq-sans#readme)|[![Jost](./font-packages/jost/Jost_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/jost#readme)|[![Lato](./font-packages/lato/Lato_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/lato#readme)|
