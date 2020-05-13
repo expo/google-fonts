@@ -52,17 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreCaslonText_400Regular' }}>
-          LibreCaslonText_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LibreCaslonText_400Regular',
+          }}>
+          Libre Caslon Text Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'LibreCaslonText_400Regular_Italic' }}>
-          LibreCaslonText_400Regular_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LibreCaslonText_400Regular_Italic',
+          }}>
+          Libre Caslon Text Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LibreCaslonText_700Bold' }}>
-          LibreCaslonText_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LibreCaslonText_700Bold',
+          }}>
+          Libre Caslon Text Bold
         </Text>
       </View>
     );

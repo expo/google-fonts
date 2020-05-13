@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OverpassMono_300Light' }}>
-          OverpassMono_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OverpassMono_300Light',
+          }}>
+          Overpass Mono Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OverpassMono_400Regular' }}>
-          OverpassMono_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OverpassMono_400Regular',
+          }}>
+          Overpass Mono Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OverpassMono_600SemiBold' }}>
-          OverpassMono_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OverpassMono_600SemiBold',
+          }}>
+          Overpass Mono Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OverpassMono_700Bold' }}>
-          OverpassMono_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OverpassMono_700Bold',
+          }}>
+          Overpass Mono Bold
         </Text>
       </View>
     );

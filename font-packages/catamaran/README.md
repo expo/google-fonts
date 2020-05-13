@@ -70,40 +70,94 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_100Thin' }}>
-          Catamaran_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Catamaran_100Thin',
+          }}>
+          Catamaran Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_200ExtraLight' }}>
-          Catamaran_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Catamaran_200ExtraLight',
+          }}>
+          Catamaran Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_300Light' }}>
-          Catamaran_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Catamaran_300Light',
+          }}>
+          Catamaran Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_400Regular' }}>
-          Catamaran_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Catamaran_400Regular',
+          }}>
+          Catamaran Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_500Medium' }}>
-          Catamaran_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Catamaran_500Medium',
+          }}>
+          Catamaran Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_600SemiBold' }}>
-          Catamaran_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Catamaran_600SemiBold',
+          }}>
+          Catamaran Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_700Bold' }}>
-          Catamaran_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Catamaran_700Bold',
+          }}>
+          Catamaran Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_800ExtraBold' }}>
-          Catamaran_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Catamaran_800ExtraBold',
+          }}>
+          Catamaran Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Catamaran_900Black' }}>
-          Catamaran_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Catamaran_900Black',
+          }}>
+          Catamaran Black
         </Text>
       </View>
     );

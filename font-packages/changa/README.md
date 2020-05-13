@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Changa_200ExtraLight' }}>
-          Changa_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Changa_200ExtraLight',
+          }}>
+          Changa Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Changa_300Light' }}>
-          Changa_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Changa_300Light',
+          }}>
+          Changa Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Changa_400Regular' }}>
-          Changa_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Changa_400Regular',
+          }}>
+          Changa Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Changa_500Medium' }}>
-          Changa_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Changa_500Medium',
+          }}>
+          Changa Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Changa_600SemiBold' }}>
-          Changa_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Changa_600SemiBold',
+          }}>
+          Changa Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Changa_700Bold' }}>
-          Changa_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Changa_700Bold',
+          }}>
+          Changa Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Changa_800ExtraBold' }}>
-          Changa_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Changa_800ExtraBold',
+          }}>
+          Changa Extra Bold
         </Text>
       </View>
     );

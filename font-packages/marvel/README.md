@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Marvel_400Regular' }}>
-          Marvel_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Marvel_400Regular',
+          }}>
+          Marvel Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Marvel_400Regular_Italic' }}>
-          Marvel_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Marvel_400Regular_Italic',
+          }}>
+          Marvel Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Marvel_700Bold' }}>
-          Marvel_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Marvel_700Bold',
+          }}>
+          Marvel Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Marvel_700Bold_Italic' }}>
-          Marvel_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Marvel_700Bold_Italic',
+          }}>
+          Marvel Bold Italic
         </Text>
       </View>
     );

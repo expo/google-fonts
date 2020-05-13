@@ -79,52 +79,124 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fahkwang_200ExtraLight' }}>
-          Fahkwang_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Fahkwang_200ExtraLight',
+          }}>
+          Fahkwang Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fahkwang_200ExtraLight_Italic' }}>
-          Fahkwang_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Fahkwang_200ExtraLight_Italic',
+          }}>
+          Fahkwang Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fahkwang_300Light' }}>
-          Fahkwang_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Fahkwang_300Light',
+          }}>
+          Fahkwang Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fahkwang_300Light_Italic' }}>
-          Fahkwang_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Fahkwang_300Light_Italic',
+          }}>
+          Fahkwang Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fahkwang_400Regular' }}>
-          Fahkwang_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Fahkwang_400Regular',
+          }}>
+          Fahkwang Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fahkwang_400Regular_Italic' }}>
-          Fahkwang_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Fahkwang_400Regular_Italic',
+          }}>
+          Fahkwang Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fahkwang_500Medium' }}>
-          Fahkwang_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Fahkwang_500Medium',
+          }}>
+          Fahkwang Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fahkwang_500Medium_Italic' }}>
-          Fahkwang_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Fahkwang_500Medium_Italic',
+          }}>
+          Fahkwang Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fahkwang_600SemiBold' }}>
-          Fahkwang_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Fahkwang_600SemiBold',
+          }}>
+          Fahkwang Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fahkwang_600SemiBold_Italic' }}>
-          Fahkwang_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Fahkwang_600SemiBold_Italic',
+          }}>
+          Fahkwang Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fahkwang_700Bold' }}>
-          Fahkwang_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Fahkwang_700Bold',
+          }}>
+          Fahkwang Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Fahkwang_700Bold_Italic' }}>
-          Fahkwang_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Fahkwang_700Bold_Italic',
+          }}>
+          Fahkwang Bold Italic
         </Text>
       </View>
     );

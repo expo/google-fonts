@@ -43,8 +43,14 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitanOne_400Regular' }}>
-          TitanOne_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TitanOne_400Regular',
+          }}>
+          Titan One Regular
         </Text>
       </View>
     );

@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amaranth_400Regular' }}>
-          Amaranth_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Amaranth_400Regular',
+          }}>
+          Amaranth Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amaranth_400Regular_Italic' }}>
-          Amaranth_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Amaranth_400Regular_Italic',
+          }}>
+          Amaranth Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amaranth_700Bold' }}>
-          Amaranth_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Amaranth_700Bold',
+          }}>
+          Amaranth Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amaranth_700Bold_Italic' }}>
-          Amaranth_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Amaranth_700Bold_Italic',
+          }}>
+          Amaranth Bold Italic
         </Text>
       </View>
     );

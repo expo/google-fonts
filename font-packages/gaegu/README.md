@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gaegu_300Light' }}>
-          Gaegu_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gaegu_300Light',
+          }}>
+          Gaegu Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gaegu_400Regular' }}>
-          Gaegu_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gaegu_400Regular',
+          }}>
+          Gaegu Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gaegu_700Bold' }}>
-          Gaegu_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gaegu_700Bold',
+          }}>
+          Gaegu Bold
         </Text>
       </View>
     );

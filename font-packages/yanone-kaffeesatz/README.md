@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'YanoneKaffeesatz_200ExtraLight' }}>
-          YanoneKaffeesatz_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'YanoneKaffeesatz_200ExtraLight',
+          }}>
+          Yanone Kaffeesatz Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'YanoneKaffeesatz_300Light' }}>
-          YanoneKaffeesatz_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'YanoneKaffeesatz_300Light',
+          }}>
+          Yanone Kaffeesatz Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'YanoneKaffeesatz_400Regular' }}>
-          YanoneKaffeesatz_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'YanoneKaffeesatz_400Regular',
+          }}>
+          Yanone Kaffeesatz Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'YanoneKaffeesatz_500Medium' }}>
-          YanoneKaffeesatz_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'YanoneKaffeesatz_500Medium',
+          }}>
+          Yanone Kaffeesatz Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'YanoneKaffeesatz_600SemiBold' }}>
-          YanoneKaffeesatz_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'YanoneKaffeesatz_600SemiBold',
+          }}>
+          Yanone Kaffeesatz Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'YanoneKaffeesatz_700Bold' }}>
-          YanoneKaffeesatz_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'YanoneKaffeesatz_700Bold',
+          }}>
+          Yanone Kaffeesatz Bold
         </Text>
       </View>
     );

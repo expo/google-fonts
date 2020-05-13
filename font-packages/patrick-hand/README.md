@@ -43,8 +43,14 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PatrickHand_400Regular' }}>
-          PatrickHand_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PatrickHand_400Regular',
+          }}>
+          Patrick Hand Regular
         </Text>
       </View>
     );

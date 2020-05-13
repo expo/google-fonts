@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arsenal_400Regular' }}>
-          Arsenal_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arsenal_400Regular',
+          }}>
+          Arsenal Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arsenal_400Regular_Italic' }}>
-          Arsenal_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arsenal_400Regular_Italic',
+          }}>
+          Arsenal Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arsenal_700Bold' }}>
-          Arsenal_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arsenal_700Bold',
+          }}>
+          Arsenal Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arsenal_700Bold_Italic' }}>
-          Arsenal_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arsenal_700Bold_Italic',
+          }}>
+          Arsenal Bold Italic
         </Text>
       </View>
     );

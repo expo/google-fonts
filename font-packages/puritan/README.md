@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Puritan_400Regular' }}>
-          Puritan_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Puritan_400Regular',
+          }}>
+          Puritan Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Puritan_400Regular_Italic' }}>
-          Puritan_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Puritan_400Regular_Italic',
+          }}>
+          Puritan Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Puritan_700Bold' }}>
-          Puritan_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Puritan_700Bold',
+          }}>
+          Puritan Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Puritan_700Bold_Italic' }}>
-          Puritan_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Puritan_700Bold_Italic',
+          }}>
+          Puritan Bold Italic
         </Text>
       </View>
     );

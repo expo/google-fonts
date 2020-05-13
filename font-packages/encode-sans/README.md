@@ -70,40 +70,94 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSans_100Thin' }}>
-          EncodeSans_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSans_100Thin',
+          }}>
+          Encode Sans Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSans_200ExtraLight' }}>
-          EncodeSans_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSans_200ExtraLight',
+          }}>
+          Encode Sans Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSans_300Light' }}>
-          EncodeSans_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSans_300Light',
+          }}>
+          Encode Sans Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSans_400Regular' }}>
-          EncodeSans_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSans_400Regular',
+          }}>
+          Encode Sans Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSans_500Medium' }}>
-          EncodeSans_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSans_500Medium',
+          }}>
+          Encode Sans Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSans_600SemiBold' }}>
-          EncodeSans_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSans_600SemiBold',
+          }}>
+          Encode Sans Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSans_700Bold' }}>
-          EncodeSans_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSans_700Bold',
+          }}>
+          Encode Sans Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSans_800ExtraBold' }}>
-          EncodeSans_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSans_800ExtraBold',
+          }}>
+          Encode Sans Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSans_900Black' }}>
-          EncodeSans_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSans_900Black',
+          }}>
+          Encode Sans Black
         </Text>
       </View>
     );

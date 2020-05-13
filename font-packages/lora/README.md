@@ -67,34 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_400Regular' }}>
-          Lora_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lora_400Regular',
+          }}>
+          Lora Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_500Medium' }}>
-          Lora_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lora_500Medium',
+          }}>
+          Lora Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_600SemiBold' }}>
-          Lora_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lora_600SemiBold',
+          }}>
+          Lora Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_700Bold' }}>Lora_700Bold</Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_400Regular_Italic' }}>
-          Lora_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lora_700Bold',
+          }}>
+          Lora Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_500Medium_Italic' }}>
-          Lora_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lora_400Regular_Italic',
+          }}>
+          Lora Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_600SemiBold_Italic' }}>
-          Lora_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lora_500Medium_Italic',
+          }}>
+          Lora Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lora_700Bold_Italic' }}>
-          Lora_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lora_600SemiBold_Italic',
+          }}>
+          Lora Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lora_700Bold_Italic',
+          }}>
+          Lora Bold Italic
         </Text>
       </View>
     );

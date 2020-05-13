@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PalanquinDark_400Regular' }}>
-          PalanquinDark_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PalanquinDark_400Regular',
+          }}>
+          Palanquin Dark Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PalanquinDark_500Medium' }}>
-          PalanquinDark_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PalanquinDark_500Medium',
+          }}>
+          Palanquin Dark Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PalanquinDark_600SemiBold' }}>
-          PalanquinDark_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PalanquinDark_600SemiBold',
+          }}>
+          Palanquin Dark Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PalanquinDark_700Bold' }}>
-          PalanquinDark_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PalanquinDark_700Bold',
+          }}>
+          Palanquin Dark Bold
         </Text>
       </View>
     );

@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiko_400Regular' }}>
-          Amiko_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Amiko_400Regular',
+          }}>
+          Amiko Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiko_600SemiBold' }}>
-          Amiko_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Amiko_600SemiBold',
+          }}>
+          Amiko Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiko_700Bold' }}>
-          Amiko_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Amiko_700Bold',
+          }}>
+          Amiko Bold
         </Text>
       </View>
     );

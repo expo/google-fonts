@@ -58,23 +58,55 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Hind_300Light' }}>
-          Hind_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Hind_300Light',
+          }}>
+          Hind Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Hind_400Regular' }}>
-          Hind_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Hind_400Regular',
+          }}>
+          Hind Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Hind_500Medium' }}>
-          Hind_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Hind_500Medium',
+          }}>
+          Hind Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Hind_600SemiBold' }}>
-          Hind_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Hind_600SemiBold',
+          }}>
+          Hind Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Hind_700Bold' }}>Hind_700Bold</Text>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Hind_700Bold',
+          }}>
+          Hind Bold
+        </Text>
       </View>
     );
   }

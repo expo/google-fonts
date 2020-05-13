@@ -49,12 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OleoScriptSwashCaps_400Regular' }}>
-          OleoScriptSwashCaps_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OleoScriptSwashCaps_400Regular',
+          }}>
+          Oleo Script Swash Caps Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OleoScriptSwashCaps_700Bold' }}>
-          OleoScriptSwashCaps_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OleoScriptSwashCaps_700Bold',
+          }}>
+          Oleo Script Swash Caps Bold
         </Text>
       </View>
     );

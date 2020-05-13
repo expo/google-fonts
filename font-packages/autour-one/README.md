@@ -43,8 +43,14 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AutourOne_400Regular' }}>
-          AutourOne_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AutourOne_400Regular',
+          }}>
+          Autour One Regular
         </Text>
       </View>
     );

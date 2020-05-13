@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VesperLibre_400Regular' }}>
-          VesperLibre_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'VesperLibre_400Regular',
+          }}>
+          Vesper Libre Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VesperLibre_500Medium' }}>
-          VesperLibre_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'VesperLibre_500Medium',
+          }}>
+          Vesper Libre Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VesperLibre_700Bold' }}>
-          VesperLibre_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'VesperLibre_700Bold',
+          }}>
+          Vesper Libre Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VesperLibre_900Black' }}>
-          VesperLibre_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'VesperLibre_900Black',
+          }}>
+          Vesper Libre Black
         </Text>
       </View>
     );

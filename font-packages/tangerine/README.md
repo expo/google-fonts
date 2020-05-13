@@ -45,12 +45,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tangerine_400Regular' }}>
-          Tangerine_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tangerine_400Regular',
+          }}>
+          Tangerine Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tangerine_700Bold' }}>
-          Tangerine_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tangerine_700Bold',
+          }}>
+          Tangerine Bold
         </Text>
       </View>
     );

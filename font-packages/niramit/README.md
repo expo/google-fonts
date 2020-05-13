@@ -79,52 +79,124 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Niramit_200ExtraLight' }}>
-          Niramit_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Niramit_200ExtraLight',
+          }}>
+          Niramit Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Niramit_200ExtraLight_Italic' }}>
-          Niramit_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Niramit_200ExtraLight_Italic',
+          }}>
+          Niramit Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Niramit_300Light' }}>
-          Niramit_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Niramit_300Light',
+          }}>
+          Niramit Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Niramit_300Light_Italic' }}>
-          Niramit_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Niramit_300Light_Italic',
+          }}>
+          Niramit Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Niramit_400Regular' }}>
-          Niramit_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Niramit_400Regular',
+          }}>
+          Niramit Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Niramit_400Regular_Italic' }}>
-          Niramit_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Niramit_400Regular_Italic',
+          }}>
+          Niramit Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Niramit_500Medium' }}>
-          Niramit_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Niramit_500Medium',
+          }}>
+          Niramit Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Niramit_500Medium_Italic' }}>
-          Niramit_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Niramit_500Medium_Italic',
+          }}>
+          Niramit Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Niramit_600SemiBold' }}>
-          Niramit_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Niramit_600SemiBold',
+          }}>
+          Niramit Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Niramit_600SemiBold_Italic' }}>
-          Niramit_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Niramit_600SemiBold_Italic',
+          }}>
+          Niramit Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Niramit_700Bold' }}>
-          Niramit_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Niramit_700Bold',
+          }}>
+          Niramit Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Niramit_700Bold_Italic' }}>
-          Niramit_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Niramit_700Bold_Italic',
+          }}>
+          Niramit Bold Italic
         </Text>
       </View>
     );

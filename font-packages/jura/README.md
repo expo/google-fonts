@@ -58,23 +58,55 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jura_300Light' }}>
-          Jura_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jura_300Light',
+          }}>
+          Jura Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jura_400Regular' }}>
-          Jura_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jura_400Regular',
+          }}>
+          Jura Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jura_500Medium' }}>
-          Jura_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jura_500Medium',
+          }}>
+          Jura Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jura_600SemiBold' }}>
-          Jura_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jura_600SemiBold',
+          }}>
+          Jura Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jura_700Bold' }}>Jura_700Bold</Text>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jura_700Bold',
+          }}>
+          Jura Bold
+        </Text>
       </View>
     );
   }

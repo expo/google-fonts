@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gupter_400Regular' }}>
-          Gupter_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gupter_400Regular',
+          }}>
+          Gupter Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gupter_500Medium' }}>
-          Gupter_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gupter_500Medium',
+          }}>
+          Gupter Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gupter_700Bold' }}>
-          Gupter_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gupter_700Bold',
+          }}>
+          Gupter Bold
         </Text>
       </View>
     );

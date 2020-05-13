@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_200ExtraLight' }}>
-          Pridi_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Pridi_200ExtraLight',
+          }}>
+          Pridi Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_300Light' }}>
-          Pridi_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Pridi_300Light',
+          }}>
+          Pridi Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_400Regular' }}>
-          Pridi_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Pridi_400Regular',
+          }}>
+          Pridi Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_500Medium' }}>
-          Pridi_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Pridi_500Medium',
+          }}>
+          Pridi Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_600SemiBold' }}>
-          Pridi_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Pridi_600SemiBold',
+          }}>
+          Pridi Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Pridi_700Bold' }}>
-          Pridi_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Pridi_700Bold',
+          }}>
+          Pridi Bold
         </Text>
       </View>
     );

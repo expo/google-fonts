@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindSiliguri_300Light' }}>
-          HindSiliguri_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HindSiliguri_300Light',
+          }}>
+          Hind Siliguri Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindSiliguri_400Regular' }}>
-          HindSiliguri_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HindSiliguri_400Regular',
+          }}>
+          Hind Siliguri Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindSiliguri_500Medium' }}>
-          HindSiliguri_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HindSiliguri_500Medium',
+          }}>
+          Hind Siliguri Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindSiliguri_600SemiBold' }}>
-          HindSiliguri_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HindSiliguri_600SemiBold',
+          }}>
+          Hind Siliguri Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindSiliguri_700Bold' }}>
-          HindSiliguri_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HindSiliguri_700Bold',
+          }}>
+          Hind Siliguri Bold
         </Text>
       </View>
     );

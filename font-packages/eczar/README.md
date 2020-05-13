@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Eczar_400Regular' }}>
-          Eczar_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Eczar_400Regular',
+          }}>
+          Eczar Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Eczar_500Medium' }}>
-          Eczar_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Eczar_500Medium',
+          }}>
+          Eczar Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Eczar_600SemiBold' }}>
-          Eczar_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Eczar_600SemiBold',
+          }}>
+          Eczar Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Eczar_700Bold' }}>
-          Eczar_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Eczar_700Bold',
+          }}>
+          Eczar Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Eczar_800ExtraBold' }}>
-          Eczar_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Eczar_800ExtraBold',
+          }}>
+          Eczar Extra Bold
         </Text>
       </View>
     );

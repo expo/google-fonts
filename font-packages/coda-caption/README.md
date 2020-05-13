@@ -43,8 +43,14 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CodaCaption_800ExtraBold' }}>
-          CodaCaption_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CodaCaption_800ExtraBold',
+          }}>
+          Coda Caption Extra Bold
         </Text>
       </View>
     );

@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cuprum_400Regular' }}>
-          Cuprum_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cuprum_400Regular',
+          }}>
+          Cuprum Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cuprum_400Regular_Italic' }}>
-          Cuprum_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cuprum_400Regular_Italic',
+          }}>
+          Cuprum Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cuprum_700Bold' }}>
-          Cuprum_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cuprum_700Bold',
+          }}>
+          Cuprum Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cuprum_700Bold_Italic' }}>
-          Cuprum_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cuprum_700Bold_Italic',
+          }}>
+          Cuprum Bold Italic
         </Text>
       </View>
     );

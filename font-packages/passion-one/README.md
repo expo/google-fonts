@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PassionOne_400Regular' }}>
-          PassionOne_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PassionOne_400Regular',
+          }}>
+          Passion One Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PassionOne_700Bold' }}>
-          PassionOne_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PassionOne_700Bold',
+          }}>
+          Passion One Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PassionOne_900Black' }}>
-          PassionOne_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PassionOne_900Black',
+          }}>
+          Passion One Black
         </Text>
       </View>
     );

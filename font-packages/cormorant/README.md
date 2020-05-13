@@ -73,44 +73,104 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_300Light' }}>
-          Cormorant_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cormorant_300Light',
+          }}>
+          Cormorant Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_300Light_Italic' }}>
-          Cormorant_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cormorant_300Light_Italic',
+          }}>
+          Cormorant Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_400Regular' }}>
-          Cormorant_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cormorant_400Regular',
+          }}>
+          Cormorant Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_400Regular_Italic' }}>
-          Cormorant_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cormorant_400Regular_Italic',
+          }}>
+          Cormorant Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_500Medium' }}>
-          Cormorant_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cormorant_500Medium',
+          }}>
+          Cormorant Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_500Medium_Italic' }}>
-          Cormorant_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cormorant_500Medium_Italic',
+          }}>
+          Cormorant Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_600SemiBold' }}>
-          Cormorant_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cormorant_600SemiBold',
+          }}>
+          Cormorant Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_600SemiBold_Italic' }}>
-          Cormorant_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cormorant_600SemiBold_Italic',
+          }}>
+          Cormorant Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_700Bold' }}>
-          Cormorant_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cormorant_700Bold',
+          }}>
+          Cormorant Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cormorant_700Bold_Italic' }}>
-          Cormorant_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cormorant_700Bold_Italic',
+          }}>
+          Cormorant Bold Italic
         </Text>
       </View>
     );

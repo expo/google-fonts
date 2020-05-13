@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalooDa2_400Regular' }}>
-          BalooDa2_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalooDa2_400Regular',
+          }}>
+          Baloo Da 2 Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalooDa2_500Medium' }}>
-          BalooDa2_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalooDa2_500Medium',
+          }}>
+          Baloo Da 2 Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalooDa2_600SemiBold' }}>
-          BalooDa2_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalooDa2_600SemiBold',
+          }}>
+          Baloo Da 2 Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalooDa2_700Bold' }}>
-          BalooDa2_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalooDa2_700Bold',
+          }}>
+          Baloo Da 2 Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalooDa2_800ExtraBold' }}>
-          BalooDa2_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalooDa2_800ExtraBold',
+          }}>
+          Baloo Da 2 Extra Bold
         </Text>
       </View>
     );

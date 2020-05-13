@@ -45,12 +45,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Flamenco_300Light' }}>
-          Flamenco_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Flamenco_300Light',
+          }}>
+          Flamenco Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Flamenco_400Regular' }}>
-          Flamenco_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Flamenco_400Regular',
+          }}>
+          Flamenco Regular
         </Text>
       </View>
     );

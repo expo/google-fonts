@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_100Thin' }}>
-          Heebo_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Heebo_100Thin',
+          }}>
+          Heebo Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_300Light' }}>
-          Heebo_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Heebo_300Light',
+          }}>
+          Heebo Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_400Regular' }}>
-          Heebo_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Heebo_400Regular',
+          }}>
+          Heebo Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_500Medium' }}>
-          Heebo_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Heebo_500Medium',
+          }}>
+          Heebo Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_700Bold' }}>
-          Heebo_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Heebo_700Bold',
+          }}>
+          Heebo Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_800ExtraBold' }}>
-          Heebo_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Heebo_800ExtraBold',
+          }}>
+          Heebo Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Heebo_900Black' }}>
-          Heebo_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Heebo_900Black',
+          }}>
+          Heebo Black
         </Text>
       </View>
     );

@@ -49,12 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SortsMillGoudy_400Regular' }}>
-          SortsMillGoudy_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SortsMillGoudy_400Regular',
+          }}>
+          Sorts Mill Goudy Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SortsMillGoudy_400Regular_Italic' }}>
-          SortsMillGoudy_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SortsMillGoudy_400Regular_Italic',
+          }}>
+          Sorts Mill Goudy Italic
         </Text>
       </View>
     );

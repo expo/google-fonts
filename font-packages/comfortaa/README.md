@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Comfortaa_300Light' }}>
-          Comfortaa_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Comfortaa_300Light',
+          }}>
+          Comfortaa Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Comfortaa_400Regular' }}>
-          Comfortaa_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Comfortaa_400Regular',
+          }}>
+          Comfortaa Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Comfortaa_500Medium' }}>
-          Comfortaa_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Comfortaa_500Medium',
+          }}>
+          Comfortaa Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Comfortaa_600SemiBold' }}>
-          Comfortaa_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Comfortaa_600SemiBold',
+          }}>
+          Comfortaa Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Comfortaa_700Bold' }}>
-          Comfortaa_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Comfortaa_700Bold',
+          }}>
+          Comfortaa Bold
         </Text>
       </View>
     );

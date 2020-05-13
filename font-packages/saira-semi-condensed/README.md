@@ -70,40 +70,94 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_100Thin' }}>
-          SairaSemiCondensed_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaSemiCondensed_100Thin',
+          }}>
+          Saira Semi Condensed Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_200ExtraLight' }}>
-          SairaSemiCondensed_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaSemiCondensed_200ExtraLight',
+          }}>
+          Saira Semi Condensed Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_300Light' }}>
-          SairaSemiCondensed_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaSemiCondensed_300Light',
+          }}>
+          Saira Semi Condensed Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_400Regular' }}>
-          SairaSemiCondensed_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaSemiCondensed_400Regular',
+          }}>
+          Saira Semi Condensed Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_500Medium' }}>
-          SairaSemiCondensed_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaSemiCondensed_500Medium',
+          }}>
+          Saira Semi Condensed Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_600SemiBold' }}>
-          SairaSemiCondensed_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaSemiCondensed_600SemiBold',
+          }}>
+          Saira Semi Condensed Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_700Bold' }}>
-          SairaSemiCondensed_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaSemiCondensed_700Bold',
+          }}>
+          Saira Semi Condensed Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_800ExtraBold' }}>
-          SairaSemiCondensed_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaSemiCondensed_800ExtraBold',
+          }}>
+          Saira Semi Condensed Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaSemiCondensed_900Black' }}>
-          SairaSemiCondensed_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaSemiCondensed_900Black',
+          }}>
+          Saira Semi Condensed Black
         </Text>
       </View>
     );

@@ -85,60 +85,144 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSans_100Thin' }}>
-          IBMPlexSans_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_100Thin',
+          }}>
+          IBM Plex Sans Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSans_100Thin_Italic' }}>
-          IBMPlexSans_100Thin_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_100Thin_Italic',
+          }}>
+          IBM Plex Sans Thin Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSans_200ExtraLight' }}>
-          IBMPlexSans_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_200ExtraLight',
+          }}>
+          IBM Plex Sans Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSans_200ExtraLight_Italic' }}>
-          IBMPlexSans_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_200ExtraLight_Italic',
+          }}>
+          IBM Plex Sans Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSans_300Light' }}>
-          IBMPlexSans_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_300Light',
+          }}>
+          IBM Plex Sans Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSans_300Light_Italic' }}>
-          IBMPlexSans_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_300Light_Italic',
+          }}>
+          IBM Plex Sans Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSans_400Regular' }}>
-          IBMPlexSans_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_400Regular',
+          }}>
+          IBM Plex Sans Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSans_400Regular_Italic' }}>
-          IBMPlexSans_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_400Regular_Italic',
+          }}>
+          IBM Plex Sans Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSans_500Medium' }}>
-          IBMPlexSans_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_500Medium',
+          }}>
+          IBM Plex Sans Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSans_500Medium_Italic' }}>
-          IBMPlexSans_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_500Medium_Italic',
+          }}>
+          IBM Plex Sans Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSans_600SemiBold' }}>
-          IBMPlexSans_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_600SemiBold',
+          }}>
+          IBM Plex Sans Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSans_600SemiBold_Italic' }}>
-          IBMPlexSans_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_600SemiBold_Italic',
+          }}>
+          IBM Plex Sans Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSans_700Bold' }}>
-          IBMPlexSans_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_700Bold',
+          }}>
+          IBM Plex Sans Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSans_700Bold_Italic' }}>
-          IBMPlexSans_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_700Bold_Italic',
+          }}>
+          IBM Plex Sans Bold Italic
         </Text>
       </View>
     );

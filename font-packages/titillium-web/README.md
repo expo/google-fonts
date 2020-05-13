@@ -76,49 +76,114 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_200ExtraLight' }}>
-          TitilliumWeb_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TitilliumWeb_200ExtraLight',
+          }}>
+          Titillium Web Extra Light
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_200ExtraLight_Italic' }}>
-          TitilliumWeb_200ExtraLight_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TitilliumWeb_200ExtraLight_Italic',
+          }}>
+          Titillium Web Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_300Light' }}>
-          TitilliumWeb_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TitilliumWeb_300Light',
+          }}>
+          Titillium Web Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_300Light_Italic' }}>
-          TitilliumWeb_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TitilliumWeb_300Light_Italic',
+          }}>
+          Titillium Web Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_400Regular' }}>
-          TitilliumWeb_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TitilliumWeb_400Regular',
+          }}>
+          Titillium Web Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_400Regular_Italic' }}>
-          TitilliumWeb_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TitilliumWeb_400Regular_Italic',
+          }}>
+          Titillium Web Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_600SemiBold' }}>
-          TitilliumWeb_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TitilliumWeb_600SemiBold',
+          }}>
+          Titillium Web Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_600SemiBold_Italic' }}>
-          TitilliumWeb_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TitilliumWeb_600SemiBold_Italic',
+          }}>
+          Titillium Web Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_700Bold' }}>
-          TitilliumWeb_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TitilliumWeb_700Bold',
+          }}>
+          Titillium Web Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_700Bold_Italic' }}>
-          TitilliumWeb_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TitilliumWeb_700Bold_Italic',
+          }}>
+          Titillium Web Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TitilliumWeb_900Black' }}>
-          TitilliumWeb_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TitilliumWeb_900Black',
+          }}>
+          Titillium Web Black
         </Text>
       </View>
     );

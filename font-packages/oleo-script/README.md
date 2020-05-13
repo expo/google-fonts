@@ -49,12 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OleoScript_400Regular' }}>
-          OleoScript_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OleoScript_400Regular',
+          }}>
+          Oleo Script Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OleoScript_700Bold' }}>
-          OleoScript_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OleoScript_700Bold',
+          }}>
+          Oleo Script Bold
         </Text>
       </View>
     );

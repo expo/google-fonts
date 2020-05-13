@@ -61,27 +61,65 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_200ExtraLight' }}>
-          Mitr_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mitr_200ExtraLight',
+          }}>
+          Mitr Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_300Light' }}>
-          Mitr_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mitr_300Light',
+          }}>
+          Mitr Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_400Regular' }}>
-          Mitr_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mitr_400Regular',
+          }}>
+          Mitr Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_500Medium' }}>
-          Mitr_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mitr_500Medium',
+          }}>
+          Mitr Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_600SemiBold' }}>
-          Mitr_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mitr_600SemiBold',
+          }}>
+          Mitr Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mitr_700Bold' }}>Mitr_700Bold</Text>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mitr_700Bold',
+          }}>
+          Mitr Bold
+        </Text>
       </View>
     );
   }

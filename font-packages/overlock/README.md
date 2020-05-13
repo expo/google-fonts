@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overlock_400Regular' }}>
-          Overlock_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overlock_400Regular',
+          }}>
+          Overlock Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overlock_400Regular_Italic' }}>
-          Overlock_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overlock_400Regular_Italic',
+          }}>
+          Overlock Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overlock_700Bold' }}>
-          Overlock_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overlock_700Bold',
+          }}>
+          Overlock Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overlock_700Bold_Italic' }}>
-          Overlock_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overlock_700Bold_Italic',
+          }}>
+          Overlock Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overlock_900Black' }}>
-          Overlock_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overlock_900Black',
+          }}>
+          Overlock Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overlock_900Black_Italic' }}>
-          Overlock_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overlock_900Black_Italic',
+          }}>
+          Overlock Black Italic
         </Text>
       </View>
     );

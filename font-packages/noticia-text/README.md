@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NoticiaText_400Regular' }}>
-          NoticiaText_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NoticiaText_400Regular',
+          }}>
+          Noticia Text Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NoticiaText_400Regular_Italic' }}>
-          NoticiaText_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NoticiaText_400Regular_Italic',
+          }}>
+          Noticia Text Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NoticiaText_700Bold' }}>
-          NoticiaText_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NoticiaText_700Bold',
+          }}>
+          Noticia Text Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NoticiaText_700Bold_Italic' }}>
-          NoticiaText_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NoticiaText_700Bold_Italic',
+          }}>
+          Noticia Text Bold Italic
         </Text>
       </View>
     );

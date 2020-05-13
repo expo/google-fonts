@@ -49,12 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'StardosStencil_400Regular' }}>
-          StardosStencil_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'StardosStencil_400Regular',
+          }}>
+          Stardos Stencil Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'StardosStencil_700Bold' }}>
-          StardosStencil_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'StardosStencil_700Bold',
+          }}>
+          Stardos Stencil Bold
         </Text>
       </View>
     );

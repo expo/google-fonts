@@ -45,12 +45,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lusitana_400Regular' }}>
-          Lusitana_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lusitana_400Regular',
+          }}>
+          Lusitana Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lusitana_700Bold' }}>
-          Lusitana_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lusitana_700Bold',
+          }}>
+          Lusitana Bold
         </Text>
       </View>
     );

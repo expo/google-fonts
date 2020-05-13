@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_200ExtraLight' }}>
-          Athiti_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Athiti_200ExtraLight',
+          }}>
+          Athiti Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_300Light' }}>
-          Athiti_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Athiti_300Light',
+          }}>
+          Athiti Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_400Regular' }}>
-          Athiti_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Athiti_400Regular',
+          }}>
+          Athiti Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_500Medium' }}>
-          Athiti_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Athiti_500Medium',
+          }}>
+          Athiti Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_600SemiBold' }}>
-          Athiti_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Athiti_600SemiBold',
+          }}>
+          Athiti Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Athiti_700Bold' }}>
-          Athiti_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Athiti_700Bold',
+          }}>
+          Athiti Bold
         </Text>
       </View>
     );

@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DavidLibre_400Regular' }}>
-          DavidLibre_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DavidLibre_400Regular',
+          }}>
+          David Libre Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DavidLibre_500Medium' }}>
-          DavidLibre_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DavidLibre_500Medium',
+          }}>
+          David Libre Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DavidLibre_700Bold' }}>
-          DavidLibre_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DavidLibre_700Bold',
+          }}>
+          David Libre Bold
         </Text>
       </View>
     );

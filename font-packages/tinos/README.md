@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tinos_400Regular' }}>
-          Tinos_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tinos_400Regular',
+          }}>
+          Tinos Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tinos_400Regular_Italic' }}>
-          Tinos_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tinos_400Regular_Italic',
+          }}>
+          Tinos Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tinos_700Bold' }}>
-          Tinos_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tinos_700Bold',
+          }}>
+          Tinos Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tinos_700Bold_Italic' }}>
-          Tinos_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tinos_700Bold_Italic',
+          }}>
+          Tinos Bold Italic
         </Text>
       </View>
     );

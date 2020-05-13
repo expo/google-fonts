@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SpaceMono_400Regular' }}>
-          SpaceMono_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SpaceMono_400Regular',
+          }}>
+          Space Mono Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SpaceMono_400Regular_Italic' }}>
-          SpaceMono_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SpaceMono_400Regular_Italic',
+          }}>
+          Space Mono Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SpaceMono_700Bold' }}>
-          SpaceMono_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SpaceMono_700Bold',
+          }}>
+          Space Mono Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SpaceMono_700Bold_Italic' }}>
-          SpaceMono_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SpaceMono_700Bold_Italic',
+          }}>
+          Space Mono Bold Italic
         </Text>
       </View>
     );

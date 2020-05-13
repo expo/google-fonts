@@ -49,12 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ABeeZee_400Regular' }}>
-          ABeeZee_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ABeeZee_400Regular',
+          }}>
+          ABeeZee Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ABeeZee_400Regular_Italic' }}>
-          ABeeZee_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ABeeZee_400Regular_Italic',
+          }}>
+          ABeeZee Italic
         </Text>
       </View>
     );

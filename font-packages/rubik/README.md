@@ -73,44 +73,104 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_300Light' }}>
-          Rubik_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rubik_300Light',
+          }}>
+          Rubik Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_300Light_Italic' }}>
-          Rubik_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rubik_300Light_Italic',
+          }}>
+          Rubik Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_400Regular' }}>
-          Rubik_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rubik_400Regular',
+          }}>
+          Rubik Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_400Regular_Italic' }}>
-          Rubik_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rubik_400Regular_Italic',
+          }}>
+          Rubik Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_500Medium' }}>
-          Rubik_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rubik_500Medium',
+          }}>
+          Rubik Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_500Medium_Italic' }}>
-          Rubik_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rubik_500Medium_Italic',
+          }}>
+          Rubik Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_700Bold' }}>
-          Rubik_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rubik_700Bold',
+          }}>
+          Rubik Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_700Bold_Italic' }}>
-          Rubik_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rubik_700Bold_Italic',
+          }}>
+          Rubik Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_900Black' }}>
-          Rubik_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rubik_900Black',
+          }}>
+          Rubik Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rubik_900Black_Italic' }}>
-          Rubik_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rubik_900Black_Italic',
+          }}>
+          Rubik Black Italic
         </Text>
       </View>
     );

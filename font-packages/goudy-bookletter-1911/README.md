@@ -43,8 +43,14 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GoudyBookletter1911_400Regular' }}>
-          GoudyBookletter1911_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GoudyBookletter1911_400Regular',
+          }}>
+          Goudy Bookletter 1911 Regular
         </Text>
       </View>
     );

@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tienne_400Regular' }}>
-          Tienne_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tienne_400Regular',
+          }}>
+          Tienne Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tienne_700Bold' }}>
-          Tienne_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tienne_700Bold',
+          }}>
+          Tienne Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tienne_900Black' }}>
-          Tienne_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tienne_900Black',
+          }}>
+          Tienne Black
         </Text>
       </View>
     );

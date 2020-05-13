@@ -97,125 +97,184 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansExtraCondensed_100Thin' }}>
-          FiraSansExtraCondensed_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FiraSansExtraCondensed_100Thin',
+          }}>
+          Fira Sans Extra Condensed Thin
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'FiraSansExtraCondensed_100Thin_Italic',
           }}>
-          FiraSansExtraCondensed_100Thin_Italic
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'FiraSansExtraCondensed_200ExtraLight' }}>
-          FiraSansExtraCondensed_200ExtraLight
+          Fira Sans Extra Condensed Thin Italic
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FiraSansExtraCondensed_200ExtraLight',
+          }}>
+          Fira Sans Extra Condensed Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'FiraSansExtraCondensed_200ExtraLight_Italic',
           }}>
-          FiraSansExtraCondensed_200ExtraLight_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansExtraCondensed_300Light' }}>
-          FiraSansExtraCondensed_300Light
+          Fira Sans Extra Condensed Extra Light Italic
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FiraSansExtraCondensed_300Light',
+          }}>
+          Fira Sans Extra Condensed Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'FiraSansExtraCondensed_300Light_Italic',
           }}>
-          FiraSansExtraCondensed_300Light_Italic
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'FiraSansExtraCondensed_400Regular' }}>
-          FiraSansExtraCondensed_400Regular
+          Fira Sans Extra Condensed Light Italic
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FiraSansExtraCondensed_400Regular',
+          }}>
+          Fira Sans Extra Condensed Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'FiraSansExtraCondensed_400Regular_Italic',
           }}>
-          FiraSansExtraCondensed_400Regular_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansExtraCondensed_500Medium' }}>
-          FiraSansExtraCondensed_500Medium
+          Fira Sans Extra Condensed Italic
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FiraSansExtraCondensed_500Medium',
+          }}>
+          Fira Sans Extra Condensed Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'FiraSansExtraCondensed_500Medium_Italic',
           }}>
-          FiraSansExtraCondensed_500Medium_Italic
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'FiraSansExtraCondensed_600SemiBold' }}>
-          FiraSansExtraCondensed_600SemiBold
+          Fira Sans Extra Condensed Medium Italic
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FiraSansExtraCondensed_600SemiBold',
+          }}>
+          Fira Sans Extra Condensed Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'FiraSansExtraCondensed_600SemiBold_Italic',
           }}>
-          FiraSansExtraCondensed_600SemiBold_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansExtraCondensed_700Bold' }}>
-          FiraSansExtraCondensed_700Bold
+          Fira Sans Extra Condensed Semi Bold Italic
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FiraSansExtraCondensed_700Bold',
+          }}>
+          Fira Sans Extra Condensed Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'FiraSansExtraCondensed_700Bold_Italic',
           }}>
-          FiraSansExtraCondensed_700Bold_Italic
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'FiraSansExtraCondensed_800ExtraBold' }}>
-          FiraSansExtraCondensed_800ExtraBold
+          Fira Sans Extra Condensed Bold Italic
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FiraSansExtraCondensed_800ExtraBold',
+          }}>
+          Fira Sans Extra Condensed Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'FiraSansExtraCondensed_800ExtraBold_Italic',
           }}>
-          FiraSansExtraCondensed_800ExtraBold_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraSansExtraCondensed_900Black' }}>
-          FiraSansExtraCondensed_900Black
+          Fira Sans Extra Condensed Extra Bold Italic
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FiraSansExtraCondensed_900Black',
+          }}>
+          Fira Sans Extra Condensed Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'FiraSansExtraCondensed_900Black_Italic',
           }}>
-          FiraSansExtraCondensed_900Black_Italic
+          Fira Sans Extra Condensed Black Italic
         </Text>
       </View>
     );

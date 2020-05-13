@@ -73,44 +73,104 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoMono_100Thin' }}>
-          RobotoMono_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoMono_100Thin',
+          }}>
+          Roboto Mono Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoMono_100Thin_Italic' }}>
-          RobotoMono_100Thin_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoMono_100Thin_Italic',
+          }}>
+          Roboto Mono Thin Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoMono_300Light' }}>
-          RobotoMono_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoMono_300Light',
+          }}>
+          Roboto Mono Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoMono_300Light_Italic' }}>
-          RobotoMono_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoMono_300Light_Italic',
+          }}>
+          Roboto Mono Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoMono_400Regular' }}>
-          RobotoMono_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoMono_400Regular',
+          }}>
+          Roboto Mono Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoMono_400Regular_Italic' }}>
-          RobotoMono_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoMono_400Regular_Italic',
+          }}>
+          Roboto Mono Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoMono_500Medium' }}>
-          RobotoMono_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoMono_500Medium',
+          }}>
+          Roboto Mono Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoMono_500Medium_Italic' }}>
-          RobotoMono_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoMono_500Medium_Italic',
+          }}>
+          Roboto Mono Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoMono_700Bold' }}>
-          RobotoMono_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoMono_700Bold',
+          }}>
+          Roboto Mono Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoMono_700Bold_Italic' }}>
-          RobotoMono_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoMono_700Bold_Italic',
+          }}>
+          Roboto Mono Bold Italic
         </Text>
       </View>
     );

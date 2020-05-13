@@ -49,12 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DeliusUnicase_400Regular' }}>
-          DeliusUnicase_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DeliusUnicase_400Regular',
+          }}>
+          Delius Unicase Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DeliusUnicase_700Bold' }}>
-          DeliusUnicase_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DeliusUnicase_700Bold',
+          }}>
+          Delius Unicase Bold
         </Text>
       </View>
     );

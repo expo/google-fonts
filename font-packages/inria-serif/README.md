@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_300Light' }}>
-          InriaSerif_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'InriaSerif_300Light',
+          }}>
+          Inria Serif Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_300Light_Italic' }}>
-          InriaSerif_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'InriaSerif_300Light_Italic',
+          }}>
+          Inria Serif Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_400Regular' }}>
-          InriaSerif_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'InriaSerif_400Regular',
+          }}>
+          Inria Serif Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_400Regular_Italic' }}>
-          InriaSerif_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'InriaSerif_400Regular_Italic',
+          }}>
+          Inria Serif Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_700Bold' }}>
-          InriaSerif_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'InriaSerif_700Bold',
+          }}>
+          Inria Serif Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InriaSerif_700Bold_Italic' }}>
-          InriaSerif_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'InriaSerif_700Bold_Italic',
+          }}>
+          Inria Serif Bold Italic
         </Text>
       </View>
     );

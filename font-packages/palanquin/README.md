@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_100Thin' }}>
-          Palanquin_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Palanquin_100Thin',
+          }}>
+          Palanquin Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_200ExtraLight' }}>
-          Palanquin_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Palanquin_200ExtraLight',
+          }}>
+          Palanquin Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_300Light' }}>
-          Palanquin_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Palanquin_300Light',
+          }}>
+          Palanquin Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_400Regular' }}>
-          Palanquin_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Palanquin_400Regular',
+          }}>
+          Palanquin Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_500Medium' }}>
-          Palanquin_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Palanquin_500Medium',
+          }}>
+          Palanquin Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_600SemiBold' }}>
-          Palanquin_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Palanquin_600SemiBold',
+          }}>
+          Palanquin Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Palanquin_700Bold' }}>
-          Palanquin_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Palanquin_700Bold',
+          }}>
+          Palanquin Bold
         </Text>
       </View>
     );

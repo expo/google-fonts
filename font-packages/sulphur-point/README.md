@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SulphurPoint_300Light' }}>
-          SulphurPoint_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SulphurPoint_300Light',
+          }}>
+          Sulphur Point Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SulphurPoint_400Regular' }}>
-          SulphurPoint_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SulphurPoint_400Regular',
+          }}>
+          Sulphur Point Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SulphurPoint_700Bold' }}>
-          SulphurPoint_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SulphurPoint_700Bold',
+          }}>
+          Sulphur Point Bold
         </Text>
       </View>
     );

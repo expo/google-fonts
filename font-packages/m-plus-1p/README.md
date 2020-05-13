@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_100Thin' }}>
-          MPLUS1p_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MPLUS1p_100Thin',
+          }}>
+          M PLUS 1p Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_300Light' }}>
-          MPLUS1p_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MPLUS1p_300Light',
+          }}>
+          M PLUS 1p Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_400Regular' }}>
-          MPLUS1p_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MPLUS1p_400Regular',
+          }}>
+          M PLUS 1p Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_500Medium' }}>
-          MPLUS1p_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MPLUS1p_500Medium',
+          }}>
+          M PLUS 1p Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_700Bold' }}>
-          MPLUS1p_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MPLUS1p_700Bold',
+          }}>
+          M PLUS 1p Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_800ExtraBold' }}>
-          MPLUS1p_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MPLUS1p_800ExtraBold',
+          }}>
+          M PLUS 1p Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUS1p_900Black' }}>
-          MPLUS1p_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MPLUS1p_900Black',
+          }}>
+          M PLUS 1p Black
         </Text>
       </View>
     );

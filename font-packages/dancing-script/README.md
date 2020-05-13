@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DancingScript_400Regular' }}>
-          DancingScript_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DancingScript_400Regular',
+          }}>
+          Dancing Script Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DancingScript_500Medium' }}>
-          DancingScript_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DancingScript_500Medium',
+          }}>
+          Dancing Script Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DancingScript_600SemiBold' }}>
-          DancingScript_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DancingScript_600SemiBold',
+          }}>
+          Dancing Script Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DancingScript_700Bold' }}>
-          DancingScript_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DancingScript_700Bold',
+          }}>
+          Dancing Script Bold
         </Text>
       </View>
     );

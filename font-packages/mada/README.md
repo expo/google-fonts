@@ -64,30 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_200ExtraLight' }}>
-          Mada_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mada_200ExtraLight',
+          }}>
+          Mada Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_300Light' }}>
-          Mada_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mada_300Light',
+          }}>
+          Mada Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_400Regular' }}>
-          Mada_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mada_400Regular',
+          }}>
+          Mada Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_500Medium' }}>
-          Mada_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mada_500Medium',
+          }}>
+          Mada Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_600SemiBold' }}>
-          Mada_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mada_600SemiBold',
+          }}>
+          Mada Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_700Bold' }}>Mada_700Bold</Text>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mada_700Bold',
+          }}>
+          Mada Bold
+        </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mada_900Black' }}>
-          Mada_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mada_900Black',
+          }}>
+          Mada Black
         </Text>
       </View>
     );

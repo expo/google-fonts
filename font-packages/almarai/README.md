@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Almarai_300Light' }}>
-          Almarai_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Almarai_300Light',
+          }}>
+          Almarai Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Almarai_400Regular' }}>
-          Almarai_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Almarai_400Regular',
+          }}>
+          Almarai Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Almarai_700Bold' }}>
-          Almarai_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Almarai_700Bold',
+          }}>
+          Almarai Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Almarai_800ExtraBold' }}>
-          Almarai_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Almarai_800ExtraBold',
+          }}>
+          Almarai Extra Bold
         </Text>
       </View>
     );

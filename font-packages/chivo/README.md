@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_300Light' }}>
-          Chivo_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_300Light',
+          }}>
+          Chivo Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_300Light_Italic' }}>
-          Chivo_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_300Light_Italic',
+          }}>
+          Chivo Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_400Regular' }}>
-          Chivo_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_400Regular',
+          }}>
+          Chivo Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_400Regular_Italic' }}>
-          Chivo_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_400Regular_Italic',
+          }}>
+          Chivo Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_700Bold' }}>
-          Chivo_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_700Bold',
+          }}>
+          Chivo Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_700Bold_Italic' }}>
-          Chivo_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_700Bold_Italic',
+          }}>
+          Chivo Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_900Black' }}>
-          Chivo_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_900Black',
+          }}>
+          Chivo Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chivo_900Black_Italic' }}>
-          Chivo_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_900Black_Italic',
+          }}>
+          Chivo Black Italic
         </Text>
       </View>
     );

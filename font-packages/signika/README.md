@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Signika_300Light' }}>
-          Signika_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Signika_300Light',
+          }}>
+          Signika Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Signika_400Regular' }}>
-          Signika_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Signika_400Regular',
+          }}>
+          Signika Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Signika_600SemiBold' }}>
-          Signika_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Signika_600SemiBold',
+          }}>
+          Signika Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Signika_700Bold' }}>
-          Signika_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Signika_700Bold',
+          }}>
+          Signika Bold
         </Text>
       </View>
     );

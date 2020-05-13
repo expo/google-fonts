@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Volkhov_400Regular' }}>
-          Volkhov_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Volkhov_400Regular',
+          }}>
+          Volkhov Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Volkhov_400Regular_Italic' }}>
-          Volkhov_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Volkhov_400Regular_Italic',
+          }}>
+          Volkhov Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Volkhov_700Bold' }}>
-          Volkhov_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Volkhov_700Bold',
+          }}>
+          Volkhov Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Volkhov_700Bold_Italic' }}>
-          Volkhov_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Volkhov_700Bold_Italic',
+          }}>
+          Volkhov Bold Italic
         </Text>
       </View>
     );

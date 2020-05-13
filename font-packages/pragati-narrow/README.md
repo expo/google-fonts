@@ -49,12 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PragatiNarrow_400Regular' }}>
-          PragatiNarrow_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PragatiNarrow_400Regular',
+          }}>
+          Pragati Narrow Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PragatiNarrow_700Bold' }}>
-          PragatiNarrow_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PragatiNarrow_700Bold',
+          }}>
+          Pragati Narrow Bold
         </Text>
       </View>
     );

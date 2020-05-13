@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaVaani_200ExtraLight' }}>
-          MuktaVaani_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuktaVaani_200ExtraLight',
+          }}>
+          Mukta Vaani Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaVaani_300Light' }}>
-          MuktaVaani_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuktaVaani_300Light',
+          }}>
+          Mukta Vaani Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaVaani_400Regular' }}>
-          MuktaVaani_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuktaVaani_400Regular',
+          }}>
+          Mukta Vaani Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaVaani_500Medium' }}>
-          MuktaVaani_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuktaVaani_500Medium',
+          }}>
+          Mukta Vaani Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaVaani_600SemiBold' }}>
-          MuktaVaani_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuktaVaani_600SemiBold',
+          }}>
+          Mukta Vaani Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaVaani_700Bold' }}>
-          MuktaVaani_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuktaVaani_700Bold',
+          }}>
+          Mukta Vaani Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaVaani_800ExtraBold' }}>
-          MuktaVaani_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuktaVaani_800ExtraBold',
+          }}>
+          Mukta Vaani Extra Bold
         </Text>
       </View>
     );

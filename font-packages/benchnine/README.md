@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BenchNine_300Light' }}>
-          BenchNine_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BenchNine_300Light',
+          }}>
+          BenchNine Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BenchNine_400Regular' }}>
-          BenchNine_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BenchNine_400Regular',
+          }}>
+          BenchNine Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BenchNine_700Bold' }}>
-          BenchNine_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BenchNine_700Bold',
+          }}>
+          BenchNine Bold
         </Text>
       </View>
     );

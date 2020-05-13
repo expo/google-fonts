@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LondrinaSolid_100Thin' }}>
-          LondrinaSolid_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LondrinaSolid_100Thin',
+          }}>
+          Londrina Solid Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LondrinaSolid_300Light' }}>
-          LondrinaSolid_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LondrinaSolid_300Light',
+          }}>
+          Londrina Solid Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LondrinaSolid_400Regular' }}>
-          LondrinaSolid_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LondrinaSolid_400Regular',
+          }}>
+          Londrina Solid Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LondrinaSolid_900Black' }}>
-          LondrinaSolid_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LondrinaSolid_900Black',
+          }}>
+          Londrina Solid Black
         </Text>
       </View>
     );

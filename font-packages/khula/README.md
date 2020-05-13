@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khula_300Light' }}>
-          Khula_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Khula_300Light',
+          }}>
+          Khula Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khula_400Regular' }}>
-          Khula_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Khula_400Regular',
+          }}>
+          Khula Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khula_600SemiBold' }}>
-          Khula_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Khula_600SemiBold',
+          }}>
+          Khula Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khula_700Bold' }}>
-          Khula_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Khula_700Bold',
+          }}>
+          Khula Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khula_800ExtraBold' }}>
-          Khula_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Khula_800ExtraBold',
+          }}>
+          Khula Extra Bold
         </Text>
       </View>
     );

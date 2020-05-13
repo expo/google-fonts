@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalooBhai2_400Regular' }}>
-          BalooBhai2_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalooBhai2_400Regular',
+          }}>
+          Baloo Bhai 2 Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalooBhai2_500Medium' }}>
-          BalooBhai2_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalooBhai2_500Medium',
+          }}>
+          Baloo Bhai 2 Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalooBhai2_600SemiBold' }}>
-          BalooBhai2_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalooBhai2_600SemiBold',
+          }}>
+          Baloo Bhai 2 Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalooBhai2_700Bold' }}>
-          BalooBhai2_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalooBhai2_700Bold',
+          }}>
+          Baloo Bhai 2 Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalooBhai2_800ExtraBold' }}>
-          BalooBhai2_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalooBhai2_800ExtraBold',
+          }}>
+          Baloo Bhai 2 Extra Bold
         </Text>
       </View>
     );

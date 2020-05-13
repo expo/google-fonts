@@ -97,107 +97,184 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MontserratAlternates_100Thin' }}>
-          MontserratAlternates_100Thin
-        </Text>
-
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'MontserratAlternates_100Thin_Italic' }}>
-          MontserratAlternates_100Thin_Italic
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'MontserratAlternates_200ExtraLight' }}>
-          MontserratAlternates_200ExtraLight
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MontserratAlternates_100Thin',
+          }}>
+          Montserrat Alternates Thin
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MontserratAlternates_100Thin_Italic',
+          }}>
+          Montserrat Alternates Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MontserratAlternates_200ExtraLight',
+          }}>
+          Montserrat Alternates Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'MontserratAlternates_200ExtraLight_Italic',
           }}>
-          MontserratAlternates_200ExtraLight_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MontserratAlternates_300Light' }}>
-          MontserratAlternates_300Light
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'MontserratAlternates_300Light_Italic' }}>
-          MontserratAlternates_300Light_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MontserratAlternates_400Regular' }}>
-          MontserratAlternates_400Regular
+          Montserrat Alternates Extra Light Italic
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MontserratAlternates_300Light',
+          }}>
+          Montserrat Alternates Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MontserratAlternates_300Light_Italic',
+          }}>
+          Montserrat Alternates Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MontserratAlternates_400Regular',
+          }}>
+          Montserrat Alternates Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'MontserratAlternates_400Regular_Italic',
           }}>
-          MontserratAlternates_400Regular_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MontserratAlternates_500Medium' }}>
-          MontserratAlternates_500Medium
+          Montserrat Alternates Italic
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MontserratAlternates_500Medium',
+          }}>
+          Montserrat Alternates Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'MontserratAlternates_500Medium_Italic',
           }}>
-          MontserratAlternates_500Medium_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MontserratAlternates_600SemiBold' }}>
-          MontserratAlternates_600SemiBold
+          Montserrat Alternates Medium Italic
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MontserratAlternates_600SemiBold',
+          }}>
+          Montserrat Alternates Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'MontserratAlternates_600SemiBold_Italic',
           }}>
-          MontserratAlternates_600SemiBold_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MontserratAlternates_700Bold' }}>
-          MontserratAlternates_700Bold
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'MontserratAlternates_700Bold_Italic' }}>
-          MontserratAlternates_700Bold_Italic
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'MontserratAlternates_800ExtraBold' }}>
-          MontserratAlternates_800ExtraBold
+          Montserrat Alternates Semi Bold Italic
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
-            fontFamily: 'MontserratAlternates_800ExtraBold_Italic',
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MontserratAlternates_700Bold',
           }}>
-          MontserratAlternates_800ExtraBold_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MontserratAlternates_900Black' }}>
-          MontserratAlternates_900Black
+          Montserrat Alternates Bold
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'MontserratAlternates_900Black_Italic' }}>
-          MontserratAlternates_900Black_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MontserratAlternates_700Bold_Italic',
+          }}>
+          Montserrat Alternates Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MontserratAlternates_800ExtraBold',
+          }}>
+          Montserrat Alternates Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MontserratAlternates_800ExtraBold_Italic',
+          }}>
+          Montserrat Alternates Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MontserratAlternates_900Black',
+          }}>
+          Montserrat Alternates Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MontserratAlternates_900Black_Italic',
+          }}>
+          Montserrat Alternates Black Italic
         </Text>
       </View>
     );

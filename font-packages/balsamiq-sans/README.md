@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalsamiqSans_400Regular' }}>
-          BalsamiqSans_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalsamiqSans_400Regular',
+          }}>
+          Balsamiq Sans Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalsamiqSans_400Regular_Italic' }}>
-          BalsamiqSans_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalsamiqSans_400Regular_Italic',
+          }}>
+          Balsamiq Sans Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalsamiqSans_700Bold' }}>
-          BalsamiqSans_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalsamiqSans_700Bold',
+          }}>
+          Balsamiq Sans Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalsamiqSans_700Bold_Italic' }}>
-          BalsamiqSans_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalsamiqSans_700Bold_Italic',
+          }}>
+          Balsamiq Sans Bold Italic
         </Text>
       </View>
     );

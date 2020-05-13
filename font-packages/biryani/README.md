@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_200ExtraLight' }}>
-          Biryani_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Biryani_200ExtraLight',
+          }}>
+          Biryani Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_300Light' }}>
-          Biryani_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Biryani_300Light',
+          }}>
+          Biryani Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_400Regular' }}>
-          Biryani_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Biryani_400Regular',
+          }}>
+          Biryani Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_600SemiBold' }}>
-          Biryani_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Biryani_600SemiBold',
+          }}>
+          Biryani Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_700Bold' }}>
-          Biryani_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Biryani_700Bold',
+          }}>
+          Biryani Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_800ExtraBold' }}>
-          Biryani_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Biryani_800ExtraBold',
+          }}>
+          Biryani Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Biryani_900Black' }}>
-          Biryani_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Biryani_900Black',
+          }}>
+          Biryani Black
         </Text>
       </View>
     );

@@ -85,60 +85,144 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NunitoSans_200ExtraLight' }}>
-          NunitoSans_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NunitoSans_200ExtraLight',
+          }}>
+          Nunito Sans Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NunitoSans_200ExtraLight_Italic' }}>
-          NunitoSans_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NunitoSans_200ExtraLight_Italic',
+          }}>
+          Nunito Sans Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NunitoSans_300Light' }}>
-          NunitoSans_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NunitoSans_300Light',
+          }}>
+          Nunito Sans Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NunitoSans_300Light_Italic' }}>
-          NunitoSans_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NunitoSans_300Light_Italic',
+          }}>
+          Nunito Sans Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NunitoSans_400Regular' }}>
-          NunitoSans_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NunitoSans_400Regular',
+          }}>
+          Nunito Sans Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NunitoSans_400Regular_Italic' }}>
-          NunitoSans_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NunitoSans_400Regular_Italic',
+          }}>
+          Nunito Sans Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NunitoSans_600SemiBold' }}>
-          NunitoSans_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NunitoSans_600SemiBold',
+          }}>
+          Nunito Sans Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NunitoSans_600SemiBold_Italic' }}>
-          NunitoSans_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NunitoSans_600SemiBold_Italic',
+          }}>
+          Nunito Sans Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NunitoSans_700Bold' }}>
-          NunitoSans_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NunitoSans_700Bold',
+          }}>
+          Nunito Sans Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NunitoSans_700Bold_Italic' }}>
-          NunitoSans_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NunitoSans_700Bold_Italic',
+          }}>
+          Nunito Sans Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NunitoSans_800ExtraBold' }}>
-          NunitoSans_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NunitoSans_800ExtraBold',
+          }}>
+          Nunito Sans Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NunitoSans_800ExtraBold_Italic' }}>
-          NunitoSans_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NunitoSans_800ExtraBold_Italic',
+          }}>
+          Nunito Sans Extra Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NunitoSans_900Black' }}>
-          NunitoSans_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NunitoSans_900Black',
+          }}>
+          Nunito Sans Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NunitoSans_900Black_Italic' }}>
-          NunitoSans_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NunitoSans_900Black_Italic',
+          }}>
+          Nunito Sans Black Italic
         </Text>
       </View>
     );

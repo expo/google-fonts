@@ -61,29 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_400Regular' }}>
-          IbarraRealNova_400Regular
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_400Regular_Italic' }}>
-          IbarraRealNova_400Regular_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_600SemiBold' }}>
-          IbarraRealNova_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IbarraRealNova_400Regular',
+          }}>
+          Ibarra Real Nova Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_600SemiBold_Italic' }}>
-          IbarraRealNova_600SemiBold_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IbarraRealNova_400Regular_Italic',
+          }}>
+          Ibarra Real Nova Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_700Bold' }}>
-          IbarraRealNova_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IbarraRealNova_600SemiBold',
+          }}>
+          Ibarra Real Nova Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IbarraRealNova_700Bold_Italic' }}>
-          IbarraRealNova_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IbarraRealNova_600SemiBold_Italic',
+          }}>
+          Ibarra Real Nova Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IbarraRealNova_700Bold',
+          }}>
+          Ibarra Real Nova Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IbarraRealNova_700Bold_Italic',
+          }}>
+          Ibarra Real Nova Bold Italic
         </Text>
       </View>
     );

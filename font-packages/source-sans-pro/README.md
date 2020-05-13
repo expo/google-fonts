@@ -79,53 +79,124 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_200ExtraLight' }}>
-          SourceSansPro_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSansPro_200ExtraLight',
+          }}>
+          Source Sans Pro Extra Light
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_200ExtraLight_Italic' }}>
-          SourceSansPro_200ExtraLight_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSansPro_200ExtraLight_Italic',
+          }}>
+          Source Sans Pro Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_300Light' }}>
-          SourceSansPro_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSansPro_300Light',
+          }}>
+          Source Sans Pro Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_300Light_Italic' }}>
-          SourceSansPro_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSansPro_300Light_Italic',
+          }}>
+          Source Sans Pro Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_400Regular' }}>
-          SourceSansPro_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSansPro_400Regular',
+          }}>
+          Source Sans Pro Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_400Regular_Italic' }}>
-          SourceSansPro_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSansPro_400Regular_Italic',
+          }}>
+          Source Sans Pro Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_600SemiBold' }}>
-          SourceSansPro_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSansPro_600SemiBold',
+          }}>
+          Source Sans Pro Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_600SemiBold_Italic' }}>
-          SourceSansPro_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSansPro_600SemiBold_Italic',
+          }}>
+          Source Sans Pro Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_700Bold' }}>
-          SourceSansPro_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSansPro_700Bold',
+          }}>
+          Source Sans Pro Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_700Bold_Italic' }}>
-          SourceSansPro_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSansPro_700Bold_Italic',
+          }}>
+          Source Sans Pro Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_900Black' }}>
-          SourceSansPro_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSansPro_900Black',
+          }}>
+          Source Sans Pro Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceSansPro_900Black_Italic' }}>
-          SourceSansPro_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSansPro_900Black_Italic',
+          }}>
+          Source Sans Pro Black Italic
         </Text>
       </View>
     );

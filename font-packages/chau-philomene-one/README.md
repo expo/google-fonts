@@ -49,13 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChauPhilomeneOne_400Regular' }}>
-          ChauPhilomeneOne_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ChauPhilomeneOne_400Regular',
+          }}>
+          Chau Philomene One Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'ChauPhilomeneOne_400Regular_Italic' }}>
-          ChauPhilomeneOne_400Regular_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ChauPhilomeneOne_400Regular_Italic',
+          }}>
+          Chau Philomene One Italic
         </Text>
       </View>
     );

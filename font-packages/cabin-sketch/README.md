@@ -49,12 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CabinSketch_400Regular' }}>
-          CabinSketch_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CabinSketch_400Regular',
+          }}>
+          Cabin Sketch Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CabinSketch_700Bold' }}>
-          CabinSketch_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CabinSketch_700Bold',
+          }}>
+          Cabin Sketch Bold
         </Text>
       </View>
     );

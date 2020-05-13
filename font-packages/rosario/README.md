@@ -73,44 +73,104 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_300Light' }}>
-          Rosario_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rosario_300Light',
+          }}>
+          Rosario Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_400Regular' }}>
-          Rosario_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rosario_400Regular',
+          }}>
+          Rosario Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_500Medium' }}>
-          Rosario_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rosario_500Medium',
+          }}>
+          Rosario Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_600SemiBold' }}>
-          Rosario_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rosario_600SemiBold',
+          }}>
+          Rosario Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_700Bold' }}>
-          Rosario_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rosario_700Bold',
+          }}>
+          Rosario Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_300Light_Italic' }}>
-          Rosario_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rosario_300Light_Italic',
+          }}>
+          Rosario Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_400Regular_Italic' }}>
-          Rosario_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rosario_400Regular_Italic',
+          }}>
+          Rosario Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_500Medium_Italic' }}>
-          Rosario_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rosario_500Medium_Italic',
+          }}>
+          Rosario Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_600SemiBold_Italic' }}>
-          Rosario_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rosario_600SemiBold_Italic',
+          }}>
+          Rosario Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rosario_700Bold_Italic' }}>
-          Rosario_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rosario_700Bold_Italic',
+          }}>
+          Rosario Bold Italic
         </Text>
       </View>
     );

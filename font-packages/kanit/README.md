@@ -97,76 +97,184 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_100Thin' }}>
-          Kanit_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_100Thin',
+          }}>
+          Kanit Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_100Thin_Italic' }}>
-          Kanit_100Thin_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_100Thin_Italic',
+          }}>
+          Kanit Thin Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_200ExtraLight' }}>
-          Kanit_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_200ExtraLight',
+          }}>
+          Kanit Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_200ExtraLight_Italic' }}>
-          Kanit_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_200ExtraLight_Italic',
+          }}>
+          Kanit Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_300Light' }}>
-          Kanit_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_300Light',
+          }}>
+          Kanit Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_300Light_Italic' }}>
-          Kanit_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_300Light_Italic',
+          }}>
+          Kanit Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_400Regular' }}>
-          Kanit_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_400Regular',
+          }}>
+          Kanit Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_400Regular_Italic' }}>
-          Kanit_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_400Regular_Italic',
+          }}>
+          Kanit Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_500Medium' }}>
-          Kanit_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_500Medium',
+          }}>
+          Kanit Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_500Medium_Italic' }}>
-          Kanit_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_500Medium_Italic',
+          }}>
+          Kanit Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_600SemiBold' }}>
-          Kanit_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_600SemiBold',
+          }}>
+          Kanit Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_600SemiBold_Italic' }}>
-          Kanit_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_600SemiBold_Italic',
+          }}>
+          Kanit Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_700Bold' }}>
-          Kanit_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_700Bold',
+          }}>
+          Kanit Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_700Bold_Italic' }}>
-          Kanit_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_700Bold_Italic',
+          }}>
+          Kanit Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_800ExtraBold' }}>
-          Kanit_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_800ExtraBold',
+          }}>
+          Kanit Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_800ExtraBold_Italic' }}>
-          Kanit_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_800ExtraBold_Italic',
+          }}>
+          Kanit Extra Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_900Black' }}>
-          Kanit_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_900Black',
+          }}>
+          Kanit Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kanit_900Black_Italic' }}>
-          Kanit_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kanit_900Black_Italic',
+          }}>
+          Kanit Black Italic
         </Text>
       </View>
     );

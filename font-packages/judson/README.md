@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Judson_400Regular' }}>
-          Judson_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Judson_400Regular',
+          }}>
+          Judson Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Judson_400Regular_Italic' }}>
-          Judson_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Judson_400Regular_Italic',
+          }}>
+          Judson Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Judson_700Bold' }}>
-          Judson_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Judson_700Bold',
+          }}>
+          Judson Bold
         </Text>
       </View>
     );

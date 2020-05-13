@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_200ExtraLight' }}>
-          Manrope_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manrope_200ExtraLight',
+          }}>
+          Manrope Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_300Light' }}>
-          Manrope_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manrope_300Light',
+          }}>
+          Manrope Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_400Regular' }}>
-          Manrope_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manrope_400Regular',
+          }}>
+          Manrope Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_500Medium' }}>
-          Manrope_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manrope_500Medium',
+          }}>
+          Manrope Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_600SemiBold' }}>
-          Manrope_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manrope_600SemiBold',
+          }}>
+          Manrope Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_700Bold' }}>
-          Manrope_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manrope_700Bold',
+          }}>
+          Manrope Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manrope_800ExtraBold' }}>
-          Manrope_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manrope_800ExtraBold',
+          }}>
+          Manrope Extra Bold
         </Text>
       </View>
     );

@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ElMessiri_400Regular' }}>
-          ElMessiri_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ElMessiri_400Regular',
+          }}>
+          El Messiri Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ElMessiri_500Medium' }}>
-          ElMessiri_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ElMessiri_500Medium',
+          }}>
+          El Messiri Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ElMessiri_600SemiBold' }}>
-          ElMessiri_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ElMessiri_600SemiBold',
+          }}>
+          El Messiri Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ElMessiri_700Bold' }}>
-          ElMessiri_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ElMessiri_700Bold',
+          }}>
+          El Messiri Bold
         </Text>
       </View>
     );

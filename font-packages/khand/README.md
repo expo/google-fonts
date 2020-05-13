@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khand_300Light' }}>
-          Khand_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Khand_300Light',
+          }}>
+          Khand Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khand_400Regular' }}>
-          Khand_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Khand_400Regular',
+          }}>
+          Khand Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khand_500Medium' }}>
-          Khand_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Khand_500Medium',
+          }}>
+          Khand Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khand_600SemiBold' }}>
-          Khand_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Khand_600SemiBold',
+          }}>
+          Khand Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Khand_700Bold' }}>
-          Khand_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Khand_700Bold',
+          }}>
+          Khand Bold
         </Text>
       </View>
     );

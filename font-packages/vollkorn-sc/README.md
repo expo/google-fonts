@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VollkornSC_400Regular' }}>
-          VollkornSC_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'VollkornSC_400Regular',
+          }}>
+          Vollkorn SC Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VollkornSC_600SemiBold' }}>
-          VollkornSC_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'VollkornSC_600SemiBold',
+          }}>
+          Vollkorn SC Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VollkornSC_700Bold' }}>
-          VollkornSC_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'VollkornSC_700Bold',
+          }}>
+          Vollkorn SC Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'VollkornSC_900Black' }}>
-          VollkornSC_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'VollkornSC_900Black',
+          }}>
+          Vollkorn SC Black
         </Text>
       </View>
     );

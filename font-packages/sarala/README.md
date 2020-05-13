@@ -45,12 +45,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarala_400Regular' }}>
-          Sarala_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarala_400Regular',
+          }}>
+          Sarala Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarala_700Bold' }}>
-          Sarala_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarala_700Bold',
+          }}>
+          Sarala Bold
         </Text>
       </View>
     );

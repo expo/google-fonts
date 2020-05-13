@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nobile_400Regular' }}>
-          Nobile_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nobile_400Regular',
+          }}>
+          Nobile Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nobile_400Regular_Italic' }}>
-          Nobile_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nobile_400Regular_Italic',
+          }}>
+          Nobile Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nobile_500Medium' }}>
-          Nobile_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nobile_500Medium',
+          }}>
+          Nobile Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nobile_500Medium_Italic' }}>
-          Nobile_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nobile_500Medium_Italic',
+          }}>
+          Nobile Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nobile_700Bold' }}>
-          Nobile_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nobile_700Bold',
+          }}>
+          Nobile Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nobile_700Bold_Italic' }}>
-          Nobile_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nobile_700Bold_Italic',
+          }}>
+          Nobile Bold Italic
         </Text>
       </View>
     );

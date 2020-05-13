@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_200ExtraLight' }}>
-          Oxanium_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Oxanium_200ExtraLight',
+          }}>
+          Oxanium Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_300Light' }}>
-          Oxanium_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Oxanium_300Light',
+          }}>
+          Oxanium Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_400Regular' }}>
-          Oxanium_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Oxanium_400Regular',
+          }}>
+          Oxanium Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_500Medium' }}>
-          Oxanium_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Oxanium_500Medium',
+          }}>
+          Oxanium Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_600SemiBold' }}>
-          Oxanium_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Oxanium_600SemiBold',
+          }}>
+          Oxanium Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_700Bold' }}>
-          Oxanium_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Oxanium_700Bold',
+          }}>
+          Oxanium Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxanium_800ExtraBold' }}>
-          Oxanium_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Oxanium_800ExtraBold',
+          }}>
+          Oxanium Extra Bold
         </Text>
       </View>
     );

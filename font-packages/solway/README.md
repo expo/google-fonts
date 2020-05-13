@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Solway_300Light' }}>
-          Solway_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Solway_300Light',
+          }}>
+          Solway Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Solway_400Regular' }}>
-          Solway_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Solway_400Regular',
+          }}>
+          Solway Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Solway_500Medium' }}>
-          Solway_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Solway_500Medium',
+          }}>
+          Solway Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Solway_700Bold' }}>
-          Solway_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Solway_700Bold',
+          }}>
+          Solway Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Solway_800ExtraBold' }}>
-          Solway_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Solway_800ExtraBold',
+          }}>
+          Solway Extra Bold
         </Text>
       </View>
     );

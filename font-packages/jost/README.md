@@ -97,72 +97,184 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_100Thin' }}>Jost_100Thin</Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_200ExtraLight' }}>
-          Jost_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_100Thin',
+          }}>
+          Jost Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_300Light' }}>
-          Jost_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_200ExtraLight',
+          }}>
+          Jost Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_400Regular' }}>
-          Jost_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_300Light',
+          }}>
+          Jost Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_500Medium' }}>
-          Jost_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_400Regular',
+          }}>
+          Jost Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_600SemiBold' }}>
-          Jost_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_500Medium',
+          }}>
+          Jost Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_700Bold' }}>Jost_700Bold</Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_800ExtraBold' }}>
-          Jost_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_600SemiBold',
+          }}>
+          Jost Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_900Black' }}>
-          Jost_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_700Bold',
+          }}>
+          Jost Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_100Thin_Italic' }}>
-          Jost_100Thin_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_800ExtraBold',
+          }}>
+          Jost Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_200ExtraLight_Italic' }}>
-          Jost_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_900Black',
+          }}>
+          Jost Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_300Light_Italic' }}>
-          Jost_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_100Thin_Italic',
+          }}>
+          Jost Thin Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_400Regular_Italic' }}>
-          Jost_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_200ExtraLight_Italic',
+          }}>
+          Jost Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_500Medium_Italic' }}>
-          Jost_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_300Light_Italic',
+          }}>
+          Jost Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_600SemiBold_Italic' }}>
-          Jost_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_400Regular_Italic',
+          }}>
+          Jost Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_700Bold_Italic' }}>
-          Jost_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_500Medium_Italic',
+          }}>
+          Jost Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_800ExtraBold_Italic' }}>
-          Jost_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_600SemiBold_Italic',
+          }}>
+          Jost Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Jost_900Black_Italic' }}>
-          Jost_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_700Bold_Italic',
+          }}>
+          Jost Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_800ExtraBold_Italic',
+          }}>
+          Jost Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Jost_900Black_Italic',
+          }}>
+          Jost Black Italic
         </Text>
       </View>
     );

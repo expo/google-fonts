@@ -70,40 +70,94 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_100Thin' }}>
-          Rokkitt_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_100Thin',
+          }}>
+          Rokkitt Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_200ExtraLight' }}>
-          Rokkitt_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_200ExtraLight',
+          }}>
+          Rokkitt Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_300Light' }}>
-          Rokkitt_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_300Light',
+          }}>
+          Rokkitt Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_400Regular' }}>
-          Rokkitt_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_400Regular',
+          }}>
+          Rokkitt Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_500Medium' }}>
-          Rokkitt_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_500Medium',
+          }}>
+          Rokkitt Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_600SemiBold' }}>
-          Rokkitt_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_600SemiBold',
+          }}>
+          Rokkitt Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_700Bold' }}>
-          Rokkitt_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_700Bold',
+          }}>
+          Rokkitt Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_800ExtraBold' }}>
-          Rokkitt_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_800ExtraBold',
+          }}>
+          Rokkitt Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rokkitt_900Black' }}>
-          Rokkitt_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_900Black',
+          }}>
+          Rokkitt Black
         </Text>
       </View>
     );

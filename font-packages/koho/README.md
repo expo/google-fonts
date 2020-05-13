@@ -79,50 +79,124 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KoHo_200ExtraLight' }}>
-          KoHo_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KoHo_200ExtraLight',
+          }}>
+          KoHo Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KoHo_200ExtraLight_Italic' }}>
-          KoHo_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KoHo_200ExtraLight_Italic',
+          }}>
+          KoHo Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KoHo_300Light' }}>
-          KoHo_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KoHo_300Light',
+          }}>
+          KoHo Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KoHo_300Light_Italic' }}>
-          KoHo_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KoHo_300Light_Italic',
+          }}>
+          KoHo Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KoHo_400Regular' }}>
-          KoHo_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KoHo_400Regular',
+          }}>
+          KoHo Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KoHo_400Regular_Italic' }}>
-          KoHo_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KoHo_400Regular_Italic',
+          }}>
+          KoHo Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KoHo_500Medium' }}>
-          KoHo_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KoHo_500Medium',
+          }}>
+          KoHo Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KoHo_500Medium_Italic' }}>
-          KoHo_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KoHo_500Medium_Italic',
+          }}>
+          KoHo Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KoHo_600SemiBold' }}>
-          KoHo_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KoHo_600SemiBold',
+          }}>
+          KoHo Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KoHo_600SemiBold_Italic' }}>
-          KoHo_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KoHo_600SemiBold_Italic',
+          }}>
+          KoHo Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KoHo_700Bold' }}>KoHo_700Bold</Text>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KoHo_700Bold',
+          }}>
+          KoHo Bold
+        </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KoHo_700Bold_Italic' }}>
-          KoHo_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KoHo_700Bold_Italic',
+          }}>
+          KoHo Bold Italic
         </Text>
       </View>
     );

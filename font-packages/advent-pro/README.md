@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AdventPro_100Thin' }}>
-          AdventPro_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_100Thin',
+          }}>
+          Advent Pro Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AdventPro_200ExtraLight' }}>
-          AdventPro_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_200ExtraLight',
+          }}>
+          Advent Pro Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AdventPro_300Light' }}>
-          AdventPro_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_300Light',
+          }}>
+          Advent Pro Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AdventPro_400Regular' }}>
-          AdventPro_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_400Regular',
+          }}>
+          Advent Pro Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AdventPro_500Medium' }}>
-          AdventPro_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_500Medium',
+          }}>
+          Advent Pro Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AdventPro_600SemiBold' }}>
-          AdventPro_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_600SemiBold',
+          }}>
+          Advent Pro Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AdventPro_700Bold' }}>
-          AdventPro_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_700Bold',
+          }}>
+          Advent Pro Bold
         </Text>
       </View>
     );

@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Faustina_400Regular' }}>
-          Faustina_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Faustina_400Regular',
+          }}>
+          Faustina Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Faustina_500Medium' }}>
-          Faustina_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Faustina_500Medium',
+          }}>
+          Faustina Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Faustina_600SemiBold' }}>
-          Faustina_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Faustina_600SemiBold',
+          }}>
+          Faustina Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Faustina_700Bold' }}>
-          Faustina_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Faustina_700Bold',
+          }}>
+          Faustina Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Faustina_400Regular_Italic' }}>
-          Faustina_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Faustina_400Regular_Italic',
+          }}>
+          Faustina Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Faustina_500Medium_Italic' }}>
-          Faustina_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Faustina_500Medium_Italic',
+          }}>
+          Faustina Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Faustina_600SemiBold_Italic' }}>
-          Faustina_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Faustina_600SemiBold_Italic',
+          }}>
+          Faustina Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Faustina_700Bold_Italic' }}>
-          Faustina_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Faustina_700Bold_Italic',
+          }}>
+          Faustina Bold Italic
         </Text>
       </View>
     );

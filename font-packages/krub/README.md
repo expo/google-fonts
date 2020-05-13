@@ -79,50 +79,124 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_200ExtraLight' }}>
-          Krub_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Krub_200ExtraLight',
+          }}>
+          Krub Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_200ExtraLight_Italic' }}>
-          Krub_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Krub_200ExtraLight_Italic',
+          }}>
+          Krub Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_300Light' }}>
-          Krub_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Krub_300Light',
+          }}>
+          Krub Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_300Light_Italic' }}>
-          Krub_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Krub_300Light_Italic',
+          }}>
+          Krub Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_400Regular' }}>
-          Krub_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Krub_400Regular',
+          }}>
+          Krub Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_400Regular_Italic' }}>
-          Krub_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Krub_400Regular_Italic',
+          }}>
+          Krub Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_500Medium' }}>
-          Krub_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Krub_500Medium',
+          }}>
+          Krub Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_500Medium_Italic' }}>
-          Krub_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Krub_500Medium_Italic',
+          }}>
+          Krub Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_600SemiBold' }}>
-          Krub_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Krub_600SemiBold',
+          }}>
+          Krub Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_600SemiBold_Italic' }}>
-          Krub_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Krub_600SemiBold_Italic',
+          }}>
+          Krub Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_700Bold' }}>Krub_700Bold</Text>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Krub_700Bold',
+          }}>
+          Krub Bold
+        </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Krub_700Bold_Italic' }}>
-          Krub_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Krub_700Bold_Italic',
+          }}>
+          Krub Bold Italic
         </Text>
       </View>
     );

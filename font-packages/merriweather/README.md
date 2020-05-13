@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_300Light' }}>
-          Merriweather_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Merriweather_300Light',
+          }}>
+          Merriweather Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_300Light_Italic' }}>
-          Merriweather_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Merriweather_300Light_Italic',
+          }}>
+          Merriweather Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_400Regular' }}>
-          Merriweather_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Merriweather_400Regular',
+          }}>
+          Merriweather Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_400Regular_Italic' }}>
-          Merriweather_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Merriweather_400Regular_Italic',
+          }}>
+          Merriweather Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_700Bold' }}>
-          Merriweather_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Merriweather_700Bold',
+          }}>
+          Merriweather Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_700Bold_Italic' }}>
-          Merriweather_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Merriweather_700Bold_Italic',
+          }}>
+          Merriweather Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_900Black' }}>
-          Merriweather_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Merriweather_900Black',
+          }}>
+          Merriweather Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Merriweather_900Black_Italic' }}>
-          Merriweather_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Merriweather_900Black_Italic',
+          }}>
+          Merriweather Black Italic
         </Text>
       </View>
     );

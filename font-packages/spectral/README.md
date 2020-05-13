@@ -85,60 +85,144 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spectral_200ExtraLight' }}>
-          Spectral_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spectral_200ExtraLight',
+          }}>
+          Spectral Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spectral_200ExtraLight_Italic' }}>
-          Spectral_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spectral_200ExtraLight_Italic',
+          }}>
+          Spectral Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spectral_300Light' }}>
-          Spectral_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spectral_300Light',
+          }}>
+          Spectral Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spectral_300Light_Italic' }}>
-          Spectral_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spectral_300Light_Italic',
+          }}>
+          Spectral Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spectral_400Regular' }}>
-          Spectral_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spectral_400Regular',
+          }}>
+          Spectral Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spectral_400Regular_Italic' }}>
-          Spectral_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spectral_400Regular_Italic',
+          }}>
+          Spectral Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spectral_500Medium' }}>
-          Spectral_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spectral_500Medium',
+          }}>
+          Spectral Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spectral_500Medium_Italic' }}>
-          Spectral_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spectral_500Medium_Italic',
+          }}>
+          Spectral Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spectral_600SemiBold' }}>
-          Spectral_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spectral_600SemiBold',
+          }}>
+          Spectral Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spectral_600SemiBold_Italic' }}>
-          Spectral_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spectral_600SemiBold_Italic',
+          }}>
+          Spectral Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spectral_700Bold' }}>
-          Spectral_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spectral_700Bold',
+          }}>
+          Spectral Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spectral_700Bold_Italic' }}>
-          Spectral_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spectral_700Bold_Italic',
+          }}>
+          Spectral Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spectral_800ExtraBold' }}>
-          Spectral_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spectral_800ExtraBold',
+          }}>
+          Spectral Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spectral_800ExtraBold_Italic' }}>
-          Spectral_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spectral_800ExtraBold_Italic',
+          }}>
+          Spectral Extra Bold Italic
         </Text>
       </View>
     );

@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kantumruy_300Light' }}>
-          Kantumruy_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kantumruy_300Light',
+          }}>
+          Kantumruy Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kantumruy_400Regular' }}>
-          Kantumruy_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kantumruy_400Regular',
+          }}>
+          Kantumruy Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kantumruy_700Bold' }}>
-          Kantumruy_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kantumruy_700Bold',
+          }}>
+          Kantumruy Bold
         </Text>
       </View>
     );

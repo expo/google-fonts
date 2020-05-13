@@ -70,40 +70,94 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_100Thin' }}>
-          SairaCondensed_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaCondensed_100Thin',
+          }}>
+          Saira Condensed Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_200ExtraLight' }}>
-          SairaCondensed_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaCondensed_200ExtraLight',
+          }}>
+          Saira Condensed Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_300Light' }}>
-          SairaCondensed_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaCondensed_300Light',
+          }}>
+          Saira Condensed Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_400Regular' }}>
-          SairaCondensed_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaCondensed_400Regular',
+          }}>
+          Saira Condensed Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_500Medium' }}>
-          SairaCondensed_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaCondensed_500Medium',
+          }}>
+          Saira Condensed Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_600SemiBold' }}>
-          SairaCondensed_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaCondensed_600SemiBold',
+          }}>
+          Saira Condensed Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_700Bold' }}>
-          SairaCondensed_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaCondensed_700Bold',
+          }}>
+          Saira Condensed Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_800ExtraBold' }}>
-          SairaCondensed_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaCondensed_800ExtraBold',
+          }}>
+          Saira Condensed Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SairaCondensed_900Black' }}>
-          SairaCondensed_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SairaCondensed_900Black',
+          }}>
+          Saira Condensed Black
         </Text>
       </View>
     );

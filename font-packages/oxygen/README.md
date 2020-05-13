@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxygen_300Light' }}>
-          Oxygen_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Oxygen_300Light',
+          }}>
+          Oxygen Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxygen_400Regular' }}>
-          Oxygen_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Oxygen_400Regular',
+          }}>
+          Oxygen Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oxygen_700Bold' }}>
-          Oxygen_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Oxygen_700Bold',
+          }}>
+          Oxygen Bold
         </Text>
       </View>
     );

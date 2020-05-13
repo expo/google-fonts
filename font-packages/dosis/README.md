@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Dosis_200ExtraLight' }}>
-          Dosis_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Dosis_200ExtraLight',
+          }}>
+          Dosis Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Dosis_300Light' }}>
-          Dosis_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Dosis_300Light',
+          }}>
+          Dosis Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Dosis_400Regular' }}>
-          Dosis_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Dosis_400Regular',
+          }}>
+          Dosis Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Dosis_500Medium' }}>
-          Dosis_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Dosis_500Medium',
+          }}>
+          Dosis Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Dosis_600SemiBold' }}>
-          Dosis_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Dosis_600SemiBold',
+          }}>
+          Dosis Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Dosis_700Bold' }}>
-          Dosis_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Dosis_700Bold',
+          }}>
+          Dosis Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Dosis_800ExtraBold' }}>
-          Dosis_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Dosis_800ExtraBold',
+          }}>
+          Dosis Extra Bold
         </Text>
       </View>
     );

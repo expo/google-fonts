@@ -73,44 +73,104 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_400Regular' }}>
-          EBGaramond_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EBGaramond_400Regular',
+          }}>
+          EB Garamond Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_500Medium' }}>
-          EBGaramond_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EBGaramond_500Medium',
+          }}>
+          EB Garamond Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_600SemiBold' }}>
-          EBGaramond_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EBGaramond_600SemiBold',
+          }}>
+          EB Garamond Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_700Bold' }}>
-          EBGaramond_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EBGaramond_700Bold',
+          }}>
+          EB Garamond Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_800ExtraBold' }}>
-          EBGaramond_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EBGaramond_800ExtraBold',
+          }}>
+          EB Garamond Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_400Regular_Italic' }}>
-          EBGaramond_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EBGaramond_400Regular_Italic',
+          }}>
+          EB Garamond Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_500Medium_Italic' }}>
-          EBGaramond_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EBGaramond_500Medium_Italic',
+          }}>
+          EB Garamond Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_600SemiBold_Italic' }}>
-          EBGaramond_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EBGaramond_600SemiBold_Italic',
+          }}>
+          EB Garamond Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_700Bold_Italic' }}>
-          EBGaramond_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EBGaramond_700Bold_Italic',
+          }}>
+          EB Garamond Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EBGaramond_800ExtraBold_Italic' }}>
-          EBGaramond_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EBGaramond_800ExtraBold_Italic',
+          }}>
+          EB Garamond Extra Bold Italic
         </Text>
       </View>
     );

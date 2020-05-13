@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lemonada_300Light' }}>
-          Lemonada_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lemonada_300Light',
+          }}>
+          Lemonada Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lemonada_400Regular' }}>
-          Lemonada_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lemonada_400Regular',
+          }}>
+          Lemonada Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lemonada_500Medium' }}>
-          Lemonada_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lemonada_500Medium',
+          }}>
+          Lemonada Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lemonada_600SemiBold' }}>
-          Lemonada_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lemonada_600SemiBold',
+          }}>
+          Lemonada Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lemonada_700Bold' }}>
-          Lemonada_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lemonada_700Bold',
+          }}>
+          Lemonada Bold
         </Text>
       </View>
     );

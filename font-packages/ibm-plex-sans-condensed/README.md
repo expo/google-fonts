@@ -85,84 +85,144 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSansCondensed_100Thin' }}>
-          IBMPlexSansCondensed_100Thin
-        </Text>
-
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSansCondensed_100Thin_Italic' }}>
-          IBMPlexSansCondensed_100Thin_Italic
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSansCondensed_200ExtraLight' }}>
-          IBMPlexSansCondensed_200ExtraLight
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSansCondensed_100Thin',
+          }}>
+          IBM Plex Sans Condensed Thin
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSansCondensed_100Thin_Italic',
+          }}>
+          IBM Plex Sans Condensed Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSansCondensed_200ExtraLight',
+          }}>
+          IBM Plex Sans Condensed Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'IBMPlexSansCondensed_200ExtraLight_Italic',
           }}>
-          IBMPlexSansCondensed_200ExtraLight_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSansCondensed_300Light' }}>
-          IBMPlexSansCondensed_300Light
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSansCondensed_300Light_Italic' }}>
-          IBMPlexSansCondensed_300Light_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSansCondensed_400Regular' }}>
-          IBMPlexSansCondensed_400Regular
+          IBM Plex Sans Condensed Extra Light Italic
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSansCondensed_300Light',
+          }}>
+          IBM Plex Sans Condensed Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSansCondensed_300Light_Italic',
+          }}>
+          IBM Plex Sans Condensed Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSansCondensed_400Regular',
+          }}>
+          IBM Plex Sans Condensed Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'IBMPlexSansCondensed_400Regular_Italic',
           }}>
-          IBMPlexSansCondensed_400Regular_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSansCondensed_500Medium' }}>
-          IBMPlexSansCondensed_500Medium
+          IBM Plex Sans Condensed Italic
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSansCondensed_500Medium',
+          }}>
+          IBM Plex Sans Condensed Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'IBMPlexSansCondensed_500Medium_Italic',
           }}>
-          IBMPlexSansCondensed_500Medium_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSansCondensed_600SemiBold' }}>
-          IBMPlexSansCondensed_600SemiBold
+          IBM Plex Sans Condensed Medium Italic
         </Text>
 
         <Text
           style={{
             fontSize,
             paddingVertical,
-            fontFamily: 'IBMPlexSansCondensed_600SemiBold_Italic',
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSansCondensed_600SemiBold',
           }}>
-          IBMPlexSansCondensed_600SemiBold_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSansCondensed_700Bold' }}>
-          IBMPlexSansCondensed_700Bold
+          IBM Plex Sans Condensed Semi Bold
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'IBMPlexSansCondensed_700Bold_Italic' }}>
-          IBMPlexSansCondensed_700Bold_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSansCondensed_600SemiBold_Italic',
+          }}>
+          IBM Plex Sans Condensed Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSansCondensed_700Bold',
+          }}>
+          IBM Plex Sans Condensed Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSansCondensed_700Bold_Italic',
+          }}>
+          IBM Plex Sans Condensed Bold Italic
         </Text>
       </View>
     );

@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindGuntur_300Light' }}>
-          HindGuntur_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HindGuntur_300Light',
+          }}>
+          Hind Guntur Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindGuntur_400Regular' }}>
-          HindGuntur_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HindGuntur_400Regular',
+          }}>
+          Hind Guntur Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindGuntur_500Medium' }}>
-          HindGuntur_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HindGuntur_500Medium',
+          }}>
+          Hind Guntur Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindGuntur_600SemiBold' }}>
-          HindGuntur_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HindGuntur_600SemiBold',
+          }}>
+          Hind Guntur Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindGuntur_700Bold' }}>
-          HindGuntur_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HindGuntur_700Bold',
+          }}>
+          Hind Guntur Bold
         </Text>
       </View>
     );

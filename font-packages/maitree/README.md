@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_200ExtraLight' }}>
-          Maitree_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Maitree_200ExtraLight',
+          }}>
+          Maitree Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_300Light' }}>
-          Maitree_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Maitree_300Light',
+          }}>
+          Maitree Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_400Regular' }}>
-          Maitree_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Maitree_400Regular',
+          }}>
+          Maitree Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_500Medium' }}>
-          Maitree_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Maitree_500Medium',
+          }}>
+          Maitree Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_600SemiBold' }}>
-          Maitree_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Maitree_600SemiBold',
+          }}>
+          Maitree Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Maitree_700Bold' }}>
-          Maitree_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Maitree_700Bold',
+          }}>
+          Maitree Bold
         </Text>
       </View>
     );

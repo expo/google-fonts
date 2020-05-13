@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalooBhaina2_400Regular' }}>
-          BalooBhaina2_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalooBhaina2_400Regular',
+          }}>
+          Baloo Bhaina 2 Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalooBhaina2_500Medium' }}>
-          BalooBhaina2_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalooBhaina2_500Medium',
+          }}>
+          Baloo Bhaina 2 Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalooBhaina2_600SemiBold' }}>
-          BalooBhaina2_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalooBhaina2_600SemiBold',
+          }}>
+          Baloo Bhaina 2 Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalooBhaina2_700Bold' }}>
-          BalooBhaina2_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalooBhaina2_700Bold',
+          }}>
+          Baloo Bhaina 2 Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BalooBhaina2_800ExtraBold' }}>
-          BalooBhaina2_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BalooBhaina2_800ExtraBold',
+          }}>
+          Baloo Bhaina 2 Extra Bold
         </Text>
       </View>
     );

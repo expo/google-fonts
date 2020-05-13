@@ -45,12 +45,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arapey_400Regular' }}>
-          Arapey_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arapey_400Regular',
+          }}>
+          Arapey Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arapey_400Regular_Italic' }}>
-          Arapey_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arapey_400Regular_Italic',
+          }}>
+          Arapey Italic
         </Text>
       </View>
     );

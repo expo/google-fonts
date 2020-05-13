@@ -55,21 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'QuattrocentoSans_400Regular' }}>
-          QuattrocentoSans_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'QuattrocentoSans_400Regular',
+          }}>
+          Quattrocento Sans Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'QuattrocentoSans_400Regular_Italic' }}>
-          QuattrocentoSans_400Regular_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'QuattrocentoSans_400Regular_Italic',
+          }}>
+          Quattrocento Sans Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'QuattrocentoSans_700Bold' }}>
-          QuattrocentoSans_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'QuattrocentoSans_700Bold',
+          }}>
+          Quattrocento Sans Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'QuattrocentoSans_700Bold_Italic' }}>
-          QuattrocentoSans_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'QuattrocentoSans_700Bold_Italic',
+          }}>
+          Quattrocento Sans Bold Italic
         </Text>
       </View>
     );

@@ -50,9 +50,10 @@ export default () => {
           style={{
             fontSize,
             paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'LibreBarcode39ExtendedText_400Regular',
           }}>
-          LibreBarcode39ExtendedText_400Regular
+          Libre Barcode 39 Extended Text Regular
         </Text>
       </View>
     );

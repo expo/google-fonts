@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tillana_400Regular' }}>
-          Tillana_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tillana_400Regular',
+          }}>
+          Tillana Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tillana_500Medium' }}>
-          Tillana_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tillana_500Medium',
+          }}>
+          Tillana Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tillana_600SemiBold' }}>
-          Tillana_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tillana_600SemiBold',
+          }}>
+          Tillana Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tillana_700Bold' }}>
-          Tillana_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tillana_700Bold',
+          }}>
+          Tillana Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tillana_800ExtraBold' }}>
-          Tillana_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tillana_800ExtraBold',
+          }}>
+          Tillana Extra Bold
         </Text>
       </View>
     );

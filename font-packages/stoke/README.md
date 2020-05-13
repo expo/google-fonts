@@ -45,12 +45,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Stoke_300Light' }}>
-          Stoke_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Stoke_300Light',
+          }}>
+          Stoke Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Stoke_400Regular' }}>
-          Stoke_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Stoke_400Regular',
+          }}>
+          Stoke Regular
         </Text>
       </View>
     );

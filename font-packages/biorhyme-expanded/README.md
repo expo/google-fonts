@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhymeExpanded_200ExtraLight' }}>
-          BioRhymeExpanded_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BioRhymeExpanded_200ExtraLight',
+          }}>
+          BioRhyme Expanded Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhymeExpanded_300Light' }}>
-          BioRhymeExpanded_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BioRhymeExpanded_300Light',
+          }}>
+          BioRhyme Expanded Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhymeExpanded_400Regular' }}>
-          BioRhymeExpanded_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BioRhymeExpanded_400Regular',
+          }}>
+          BioRhyme Expanded Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhymeExpanded_700Bold' }}>
-          BioRhymeExpanded_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BioRhymeExpanded_700Bold',
+          }}>
+          BioRhyme Expanded Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BioRhymeExpanded_800ExtraBold' }}>
-          BioRhymeExpanded_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BioRhymeExpanded_800ExtraBold',
+          }}>
+          BioRhyme Expanded Extra Bold
         </Text>
       </View>
     );

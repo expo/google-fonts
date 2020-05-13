@@ -97,76 +97,184 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_100Thin' }}>
-          Prompt_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_100Thin',
+          }}>
+          Prompt Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_100Thin_Italic' }}>
-          Prompt_100Thin_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_100Thin_Italic',
+          }}>
+          Prompt Thin Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_200ExtraLight' }}>
-          Prompt_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_200ExtraLight',
+          }}>
+          Prompt Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_200ExtraLight_Italic' }}>
-          Prompt_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_200ExtraLight_Italic',
+          }}>
+          Prompt Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_300Light' }}>
-          Prompt_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_300Light',
+          }}>
+          Prompt Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_300Light_Italic' }}>
-          Prompt_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_300Light_Italic',
+          }}>
+          Prompt Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_400Regular' }}>
-          Prompt_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_400Regular',
+          }}>
+          Prompt Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_400Regular_Italic' }}>
-          Prompt_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_400Regular_Italic',
+          }}>
+          Prompt Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_500Medium' }}>
-          Prompt_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_500Medium',
+          }}>
+          Prompt Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_500Medium_Italic' }}>
-          Prompt_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_500Medium_Italic',
+          }}>
+          Prompt Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_600SemiBold' }}>
-          Prompt_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_600SemiBold',
+          }}>
+          Prompt Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_600SemiBold_Italic' }}>
-          Prompt_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_600SemiBold_Italic',
+          }}>
+          Prompt Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_700Bold' }}>
-          Prompt_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_700Bold',
+          }}>
+          Prompt Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_700Bold_Italic' }}>
-          Prompt_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_700Bold_Italic',
+          }}>
+          Prompt Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_800ExtraBold' }}>
-          Prompt_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_800ExtraBold',
+          }}>
+          Prompt Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_800ExtraBold_Italic' }}>
-          Prompt_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_800ExtraBold_Italic',
+          }}>
+          Prompt Extra Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_900Black' }}>
-          Prompt_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_900Black',
+          }}>
+          Prompt Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Prompt_900Black_Italic' }}>
-          Prompt_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Prompt_900Black_Italic',
+          }}>
+          Prompt Black Italic
         </Text>
       </View>
     );

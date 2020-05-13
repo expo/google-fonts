@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cinzel_400Regular' }}>
-          Cinzel_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cinzel_400Regular',
+          }}>
+          Cinzel Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cinzel_700Bold' }}>
-          Cinzel_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cinzel_700Bold',
+          }}>
+          Cinzel Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cinzel_900Black' }}>
-          Cinzel_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cinzel_900Black',
+          }}>
+          Cinzel Black
         </Text>
       </View>
     );

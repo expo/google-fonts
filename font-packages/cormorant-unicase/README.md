@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUnicase_300Light' }}>
-          CormorantUnicase_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantUnicase_300Light',
+          }}>
+          Cormorant Unicase Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUnicase_400Regular' }}>
-          CormorantUnicase_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantUnicase_400Regular',
+          }}>
+          Cormorant Unicase Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUnicase_500Medium' }}>
-          CormorantUnicase_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantUnicase_500Medium',
+          }}>
+          Cormorant Unicase Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUnicase_600SemiBold' }}>
-          CormorantUnicase_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantUnicase_600SemiBold',
+          }}>
+          Cormorant Unicase Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUnicase_700Bold' }}>
-          CormorantUnicase_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantUnicase_700Bold',
+          }}>
+          Cormorant Unicase Bold
         </Text>
       </View>
     );

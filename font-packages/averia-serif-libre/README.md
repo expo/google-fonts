@@ -61,29 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_300Light' }}>
-          AveriaSerifLibre_300Light
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_300Light_Italic' }}>
-          AveriaSerifLibre_300Light_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_400Regular' }}>
-          AveriaSerifLibre_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AveriaSerifLibre_300Light',
+          }}>
+          Averia Serif Libre Light
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_400Regular_Italic' }}>
-          AveriaSerifLibre_400Regular_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AveriaSerifLibre_300Light_Italic',
+          }}>
+          Averia Serif Libre Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_700Bold' }}>
-          AveriaSerifLibre_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AveriaSerifLibre_400Regular',
+          }}>
+          Averia Serif Libre Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AveriaSerifLibre_700Bold_Italic' }}>
-          AveriaSerifLibre_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AveriaSerifLibre_400Regular_Italic',
+          }}>
+          Averia Serif Libre Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AveriaSerifLibre_700Bold',
+          }}>
+          Averia Serif Libre Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AveriaSerifLibre_700Bold_Italic',
+          }}>
+          Averia Serif Libre Bold Italic
         </Text>
       </View>
     );

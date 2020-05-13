@@ -45,12 +45,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Padauk_400Regular' }}>
-          Padauk_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Padauk_400Regular',
+          }}>
+          Padauk Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Padauk_700Bold' }}>
-          Padauk_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Padauk_700Bold',
+          }}>
+          Padauk Bold
         </Text>
       </View>
     );

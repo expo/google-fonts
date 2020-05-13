@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Farro_300Light' }}>
-          Farro_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Farro_300Light',
+          }}>
+          Farro Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Farro_400Regular' }}>
-          Farro_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Farro_400Regular',
+          }}>
+          Farro Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Farro_500Medium' }}>
-          Farro_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Farro_500Medium',
+          }}>
+          Farro Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Farro_700Bold' }}>
-          Farro_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Farro_700Bold',
+          }}>
+          Farro Bold
         </Text>
       </View>
     );

@@ -79,50 +79,124 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_200ExtraLight' }}>
-          Mali_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mali_200ExtraLight',
+          }}>
+          Mali Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_200ExtraLight_Italic' }}>
-          Mali_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mali_200ExtraLight_Italic',
+          }}>
+          Mali Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_300Light' }}>
-          Mali_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mali_300Light',
+          }}>
+          Mali Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_300Light_Italic' }}>
-          Mali_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mali_300Light_Italic',
+          }}>
+          Mali Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_400Regular' }}>
-          Mali_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mali_400Regular',
+          }}>
+          Mali Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_400Regular_Italic' }}>
-          Mali_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mali_400Regular_Italic',
+          }}>
+          Mali Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_500Medium' }}>
-          Mali_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mali_500Medium',
+          }}>
+          Mali Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_500Medium_Italic' }}>
-          Mali_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mali_500Medium_Italic',
+          }}>
+          Mali Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_600SemiBold' }}>
-          Mali_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mali_600SemiBold',
+          }}>
+          Mali Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_600SemiBold_Italic' }}>
-          Mali_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mali_600SemiBold_Italic',
+          }}>
+          Mali Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_700Bold' }}>Mali_700Bold</Text>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mali_700Bold',
+          }}>
+          Mali Bold
+        </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Mali_700Bold_Italic' }}>
-          Mali_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mali_700Bold_Italic',
+          }}>
+          Mali Bold Italic
         </Text>
       </View>
     );

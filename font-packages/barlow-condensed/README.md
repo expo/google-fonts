@@ -97,80 +97,184 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_100Thin' }}>
-          BarlowCondensed_100Thin
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_100Thin_Italic' }}>
-          BarlowCondensed_100Thin_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_200ExtraLight' }}>
-          BarlowCondensed_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_100Thin',
+          }}>
+          Barlow Condensed Thin
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_200ExtraLight_Italic' }}>
-          BarlowCondensed_200ExtraLight_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_300Light' }}>
-          BarlowCondensed_300Light
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_300Light_Italic' }}>
-          BarlowCondensed_300Light_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_400Regular' }}>
-          BarlowCondensed_400Regular
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_100Thin_Italic',
+          }}>
+          Barlow Condensed Thin Italic
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_400Regular_Italic' }}>
-          BarlowCondensed_400Regular_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_500Medium' }}>
-          BarlowCondensed_500Medium
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_500Medium_Italic' }}>
-          BarlowCondensed_500Medium_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_600SemiBold' }}>
-          BarlowCondensed_600SemiBold
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_200ExtraLight',
+          }}>
+          Barlow Condensed Extra Light
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_600SemiBold_Italic' }}>
-          BarlowCondensed_600SemiBold_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_700Bold' }}>
-          BarlowCondensed_700Bold
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_700Bold_Italic' }}>
-          BarlowCondensed_700Bold_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_800ExtraBold' }}>
-          BarlowCondensed_800ExtraBold
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_200ExtraLight_Italic',
+          }}>
+          Barlow Condensed Extra Light Italic
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_800ExtraBold_Italic' }}>
-          BarlowCondensed_800ExtraBold_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_300Light',
+          }}>
+          Barlow Condensed Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_900Black' }}>
-          BarlowCondensed_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_300Light_Italic',
+          }}>
+          Barlow Condensed Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BarlowCondensed_900Black_Italic' }}>
-          BarlowCondensed_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_400Regular',
+          }}>
+          Barlow Condensed Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_400Regular_Italic',
+          }}>
+          Barlow Condensed Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_500Medium',
+          }}>
+          Barlow Condensed Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_500Medium_Italic',
+          }}>
+          Barlow Condensed Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_600SemiBold',
+          }}>
+          Barlow Condensed Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_600SemiBold_Italic',
+          }}>
+          Barlow Condensed Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_700Bold',
+          }}>
+          Barlow Condensed Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_700Bold_Italic',
+          }}>
+          Barlow Condensed Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_800ExtraBold',
+          }}>
+          Barlow Condensed Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_800ExtraBold_Italic',
+          }}>
+          Barlow Condensed Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_900Black',
+          }}>
+          Barlow Condensed Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BarlowCondensed_900Black_Italic',
+          }}>
+          Barlow Condensed Black Italic
         </Text>
       </View>
     );

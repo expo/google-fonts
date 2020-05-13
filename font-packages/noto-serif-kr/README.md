@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerifKR_200ExtraLight' }}>
-          NotoSerifKR_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerifKR_200ExtraLight',
+          }}>
+          Noto Serif KR Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerifKR_300Light' }}>
-          NotoSerifKR_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerifKR_300Light',
+          }}>
+          Noto Serif KR Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerifKR_400Regular' }}>
-          NotoSerifKR_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerifKR_400Regular',
+          }}>
+          Noto Serif KR Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerifKR_500Medium' }}>
-          NotoSerifKR_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerifKR_500Medium',
+          }}>
+          Noto Serif KR Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerifKR_600SemiBold' }}>
-          NotoSerifKR_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerifKR_600SemiBold',
+          }}>
+          Noto Serif KR Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerifKR_700Bold' }}>
-          NotoSerifKR_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerifKR_700Bold',
+          }}>
+          Noto Serif KR Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerifKR_900Black' }}>
-          NotoSerifKR_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerifKR_900Black',
+          }}>
+          Noto Serif KR Black
         </Text>
       </View>
     );

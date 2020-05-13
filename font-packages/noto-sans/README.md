@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSans_400Regular' }}>
-          NotoSans_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_400Regular',
+          }}>
+          Noto Sans Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSans_400Regular_Italic' }}>
-          NotoSans_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_400Regular_Italic',
+          }}>
+          Noto Sans Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSans_700Bold' }}>
-          NotoSans_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_700Bold',
+          }}>
+          Noto Sans Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSans_700Bold_Italic' }}>
-          NotoSans_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_700Bold_Italic',
+          }}>
+          Noto Sans Bold Italic
         </Text>
       </View>
     );

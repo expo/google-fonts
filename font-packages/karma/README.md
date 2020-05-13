@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karma_300Light' }}>
-          Karma_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karma_300Light',
+          }}>
+          Karma Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karma_400Regular' }}>
-          Karma_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karma_400Regular',
+          }}>
+          Karma Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karma_500Medium' }}>
-          Karma_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karma_500Medium',
+          }}>
+          Karma Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karma_600SemiBold' }}>
-          Karma_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karma_600SemiBold',
+          }}>
+          Karma Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karma_700Bold' }}>
-          Karma_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karma_700Bold',
+          }}>
+          Karma Bold
         </Text>
       </View>
     );

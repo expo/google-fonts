@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Archivo_400Regular' }}>
-          Archivo_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_400Regular',
+          }}>
+          Archivo Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Archivo_400Regular_Italic' }}>
-          Archivo_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_400Regular_Italic',
+          }}>
+          Archivo Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Archivo_500Medium' }}>
-          Archivo_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_500Medium',
+          }}>
+          Archivo Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Archivo_500Medium_Italic' }}>
-          Archivo_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_500Medium_Italic',
+          }}>
+          Archivo Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Archivo_600SemiBold' }}>
-          Archivo_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_600SemiBold',
+          }}>
+          Archivo Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Archivo_600SemiBold_Italic' }}>
-          Archivo_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_600SemiBold_Italic',
+          }}>
+          Archivo Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Archivo_700Bold' }}>
-          Archivo_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_700Bold',
+          }}>
+          Archivo Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Archivo_700Bold_Italic' }}>
-          Archivo_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_700Bold_Italic',
+          }}>
+          Archivo Bold Italic
         </Text>
       </View>
     );

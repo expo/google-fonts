@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LobsterTwo_400Regular' }}>
-          LobsterTwo_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LobsterTwo_400Regular',
+          }}>
+          Lobster Two Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LobsterTwo_400Regular_Italic' }}>
-          LobsterTwo_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LobsterTwo_400Regular_Italic',
+          }}>
+          Lobster Two Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LobsterTwo_700Bold' }}>
-          LobsterTwo_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LobsterTwo_700Bold',
+          }}>
+          Lobster Two Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LobsterTwo_700Bold_Italic' }}>
-          LobsterTwo_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LobsterTwo_700Bold_Italic',
+          }}>
+          Lobster Two Bold Italic
         </Text>
       </View>
     );

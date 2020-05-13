@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Podkova_400Regular' }}>
-          Podkova_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Podkova_400Regular',
+          }}>
+          Podkova Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Podkova_500Medium' }}>
-          Podkova_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Podkova_500Medium',
+          }}>
+          Podkova Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Podkova_600SemiBold' }}>
-          Podkova_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Podkova_600SemiBold',
+          }}>
+          Podkova Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Podkova_700Bold' }}>
-          Podkova_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Podkova_700Bold',
+          }}>
+          Podkova Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Podkova_800ExtraBold' }}>
-          Podkova_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Podkova_800ExtraBold',
+          }}>
+          Podkova Extra Bold
         </Text>
       </View>
     );

@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_200ExtraLight' }}>
-          Neuton_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Neuton_200ExtraLight',
+          }}>
+          Neuton Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_300Light' }}>
-          Neuton_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Neuton_300Light',
+          }}>
+          Neuton Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_400Regular' }}>
-          Neuton_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Neuton_400Regular',
+          }}>
+          Neuton Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_400Regular_Italic' }}>
-          Neuton_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Neuton_400Regular_Italic',
+          }}>
+          Neuton Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_700Bold' }}>
-          Neuton_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Neuton_700Bold',
+          }}>
+          Neuton Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Neuton_800ExtraBold' }}>
-          Neuton_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Neuton_800ExtraBold',
+          }}>
+          Neuton Extra Bold
         </Text>
       </View>
     );

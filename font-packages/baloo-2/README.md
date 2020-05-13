@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Baloo2_400Regular' }}>
-          Baloo2_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Baloo2_400Regular',
+          }}>
+          Baloo 2 Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Baloo2_500Medium' }}>
-          Baloo2_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Baloo2_500Medium',
+          }}>
+          Baloo 2 Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Baloo2_600SemiBold' }}>
-          Baloo2_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Baloo2_600SemiBold',
+          }}>
+          Baloo 2 Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Baloo2_700Bold' }}>
-          Baloo2_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Baloo2_700Bold',
+          }}>
+          Baloo 2 Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Baloo2_800ExtraBold' }}>
-          Baloo2_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Baloo2_800ExtraBold',
+          }}>
+          Baloo 2 Extra Bold
         </Text>
       </View>
     );

@@ -45,12 +45,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Coda_400Regular' }}>
-          Coda_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Coda_400Regular',
+          }}>
+          Coda Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Coda_800ExtraBold' }}>
-          Coda_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Coda_800ExtraBold',
+          }}>
+          Coda Extra Bold
         </Text>
       </View>
     );

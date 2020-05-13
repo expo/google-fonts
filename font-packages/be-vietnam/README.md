@@ -85,60 +85,144 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_100Thin' }}>
-          BeVietnam_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BeVietnam_100Thin',
+          }}>
+          Be Vietnam Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_100Thin_Italic' }}>
-          BeVietnam_100Thin_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BeVietnam_100Thin_Italic',
+          }}>
+          Be Vietnam Thin Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_300Light' }}>
-          BeVietnam_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BeVietnam_300Light',
+          }}>
+          Be Vietnam Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_300Light_Italic' }}>
-          BeVietnam_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BeVietnam_300Light_Italic',
+          }}>
+          Be Vietnam Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_400Regular' }}>
-          BeVietnam_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BeVietnam_400Regular',
+          }}>
+          Be Vietnam Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_400Regular_Italic' }}>
-          BeVietnam_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BeVietnam_400Regular_Italic',
+          }}>
+          Be Vietnam Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_500Medium' }}>
-          BeVietnam_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BeVietnam_500Medium',
+          }}>
+          Be Vietnam Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_500Medium_Italic' }}>
-          BeVietnam_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BeVietnam_500Medium_Italic',
+          }}>
+          Be Vietnam Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_600SemiBold' }}>
-          BeVietnam_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BeVietnam_600SemiBold',
+          }}>
+          Be Vietnam Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_600SemiBold_Italic' }}>
-          BeVietnam_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BeVietnam_600SemiBold_Italic',
+          }}>
+          Be Vietnam Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_700Bold' }}>
-          BeVietnam_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BeVietnam_700Bold',
+          }}>
+          Be Vietnam Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_700Bold_Italic' }}>
-          BeVietnam_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BeVietnam_700Bold_Italic',
+          }}>
+          Be Vietnam Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_800ExtraBold' }}>
-          BeVietnam_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BeVietnam_800ExtraBold',
+          }}>
+          Be Vietnam Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BeVietnam_800ExtraBold_Italic' }}>
-          BeVietnam_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BeVietnam_800ExtraBold_Italic',
+          }}>
+          Be Vietnam Extra Bold Italic
         </Text>
       </View>
     );

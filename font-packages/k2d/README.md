@@ -91,62 +91,164 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_100Thin' }}>K2D_100Thin</Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_100Thin_Italic' }}>
-          K2D_100Thin_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'K2D_100Thin',
+          }}>
+          K2D Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_200ExtraLight' }}>
-          K2D_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'K2D_100Thin_Italic',
+          }}>
+          K2D Thin Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_200ExtraLight_Italic' }}>
-          K2D_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'K2D_200ExtraLight',
+          }}>
+          K2D Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_300Light' }}>K2D_300Light</Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_300Light_Italic' }}>
-          K2D_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'K2D_200ExtraLight_Italic',
+          }}>
+          K2D Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_400Regular' }}>
-          K2D_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'K2D_300Light',
+          }}>
+          K2D Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_400Regular_Italic' }}>
-          K2D_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'K2D_300Light_Italic',
+          }}>
+          K2D Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_500Medium' }}>
-          K2D_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'K2D_400Regular',
+          }}>
+          K2D Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_500Medium_Italic' }}>
-          K2D_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'K2D_400Regular_Italic',
+          }}>
+          K2D Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_600SemiBold' }}>
-          K2D_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'K2D_500Medium',
+          }}>
+          K2D Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_600SemiBold_Italic' }}>
-          K2D_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'K2D_500Medium_Italic',
+          }}>
+          K2D Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_700Bold' }}>K2D_700Bold</Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_700Bold_Italic' }}>
-          K2D_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'K2D_600SemiBold',
+          }}>
+          K2D Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_800ExtraBold' }}>
-          K2D_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'K2D_600SemiBold_Italic',
+          }}>
+          K2D Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'K2D_800ExtraBold_Italic' }}>
-          K2D_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'K2D_700Bold',
+          }}>
+          K2D Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'K2D_700Bold_Italic',
+          }}>
+          K2D Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'K2D_800ExtraBold',
+          }}>
+          K2D Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'K2D_800ExtraBold_Italic',
+          }}>
+          K2D Extra Bold Italic
         </Text>
       </View>
     );

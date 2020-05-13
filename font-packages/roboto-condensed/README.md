@@ -61,29 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_300Light' }}>
-          RobotoCondensed_300Light
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_300Light_Italic' }}>
-          RobotoCondensed_300Light_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_400Regular' }}>
-          RobotoCondensed_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_300Light',
+          }}>
+          Roboto Condensed Light
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_400Regular_Italic' }}>
-          RobotoCondensed_400Regular_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_300Light_Italic',
+          }}>
+          Roboto Condensed Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_700Bold' }}>
-          RobotoCondensed_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_400Regular',
+          }}>
+          Roboto Condensed Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoCondensed_700Bold_Italic' }}>
-          RobotoCondensed_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_400Regular_Italic',
+          }}>
+          Roboto Condensed Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_700Bold',
+          }}>
+          Roboto Condensed Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_700Bold_Italic',
+          }}>
+          Roboto Condensed Bold Italic
         </Text>
       </View>
     );

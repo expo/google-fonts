@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GFSNeohellenic_400Regular' }}>
-          GFSNeohellenic_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GFSNeohellenic_400Regular',
+          }}>
+          GFS Neohellenic Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GFSNeohellenic_400Regular_Italic' }}>
-          GFSNeohellenic_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GFSNeohellenic_400Regular_Italic',
+          }}>
+          GFS Neohellenic Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GFSNeohellenic_700Bold' }}>
-          GFSNeohellenic_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GFSNeohellenic_700Bold',
+          }}>
+          GFS Neohellenic Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GFSNeohellenic_700Bold_Italic' }}>
-          GFSNeohellenic_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GFSNeohellenic_700Bold_Italic',
+          }}>
+          GFS Neohellenic Bold Italic
         </Text>
       </View>
     );

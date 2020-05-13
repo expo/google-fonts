@@ -47,14 +47,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sen_400Regular' }}>
-          Sen_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sen_400Regular',
+          }}>
+          Sen Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sen_700Bold' }}>Sen_700Bold</Text>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sen_700Bold',
+          }}>
+          Sen Bold
+        </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sen_800ExtraBold' }}>
-          Sen_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sen_800ExtraBold',
+          }}>
+          Sen Extra Bold
         </Text>
       </View>
     );

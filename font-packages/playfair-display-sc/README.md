@@ -61,30 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplaySC_400Regular' }}>
-          PlayfairDisplaySC_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PlayfairDisplaySC_400Regular',
+          }}>
+          Playfair Display SC Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplaySC_400Regular_Italic' }}>
-          PlayfairDisplaySC_400Regular_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplaySC_700Bold' }}>
-          PlayfairDisplaySC_700Bold
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplaySC_700Bold_Italic' }}>
-          PlayfairDisplaySC_700Bold_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplaySC_900Black' }}>
-          PlayfairDisplaySC_900Black
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PlayfairDisplaySC_400Regular_Italic',
+          }}>
+          Playfair Display SC Italic
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'PlayfairDisplaySC_900Black_Italic' }}>
-          PlayfairDisplaySC_900Black_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PlayfairDisplaySC_700Bold',
+          }}>
+          Playfair Display SC Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PlayfairDisplaySC_700Bold_Italic',
+          }}>
+          Playfair Display SC Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PlayfairDisplaySC_900Black',
+          }}>
+          Playfair Display SC Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PlayfairDisplaySC_900Black_Italic',
+          }}>
+          Playfair Display SC Black Italic
         </Text>
       </View>
     );

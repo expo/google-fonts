@@ -55,18 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arvo_400Regular' }}>
-          Arvo_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arvo_400Regular',
+          }}>
+          Arvo Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arvo_400Regular_Italic' }}>
-          Arvo_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arvo_400Regular_Italic',
+          }}>
+          Arvo Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arvo_700Bold' }}>Arvo_700Bold</Text>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arvo_700Bold',
+          }}>
+          Arvo Bold
+        </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arvo_700Bold_Italic' }}>
-          Arvo_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arvo_700Bold_Italic',
+          }}>
+          Arvo Bold Italic
         </Text>
       </View>
     );

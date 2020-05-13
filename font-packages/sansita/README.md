@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sansita_400Regular' }}>
-          Sansita_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sansita_400Regular',
+          }}>
+          Sansita Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sansita_400Regular_Italic' }}>
-          Sansita_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sansita_400Regular_Italic',
+          }}>
+          Sansita Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sansita_700Bold' }}>
-          Sansita_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sansita_700Bold',
+          }}>
+          Sansita Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sansita_700Bold_Italic' }}>
-          Sansita_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sansita_700Bold_Italic',
+          }}>
+          Sansita Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sansita_800ExtraBold' }}>
-          Sansita_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sansita_800ExtraBold',
+          }}>
+          Sansita Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sansita_800ExtraBold_Italic' }}>
-          Sansita_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sansita_800ExtraBold_Italic',
+          }}>
+          Sansita Extra Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sansita_900Black' }}>
-          Sansita_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sansita_900Black',
+          }}>
+          Sansita Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sansita_900Black_Italic' }}>
-          Sansita_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sansita_900Black_Italic',
+          }}>
+          Sansita Black Italic
         </Text>
       </View>
     );

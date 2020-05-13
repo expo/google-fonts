@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gudea_400Regular' }}>
-          Gudea_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gudea_400Regular',
+          }}>
+          Gudea Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gudea_400Regular_Italic' }}>
-          Gudea_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gudea_400Regular_Italic',
+          }}>
+          Gudea Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gudea_700Bold' }}>
-          Gudea_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gudea_700Bold',
+          }}>
+          Gudea Bold
         </Text>
       </View>
     );

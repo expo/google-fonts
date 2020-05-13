@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Almendra_400Regular' }}>
-          Almendra_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Almendra_400Regular',
+          }}>
+          Almendra Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Almendra_400Regular_Italic' }}>
-          Almendra_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Almendra_400Regular_Italic',
+          }}>
+          Almendra Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Almendra_700Bold' }}>
-          Almendra_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Almendra_700Bold',
+          }}>
+          Almendra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Almendra_700Bold_Italic' }}>
-          Almendra_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Almendra_700Bold_Italic',
+          }}>
+          Almendra Bold Italic
         </Text>
       </View>
     );

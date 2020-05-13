@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gayathri_100Thin' }}>
-          Gayathri_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gayathri_100Thin',
+          }}>
+          Gayathri Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gayathri_400Regular' }}>
-          Gayathri_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gayathri_400Regular',
+          }}>
+          Gayathri Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gayathri_700Bold' }}>
-          Gayathri_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gayathri_700Bold',
+          }}>
+          Gayathri Bold
         </Text>
       </View>
     );

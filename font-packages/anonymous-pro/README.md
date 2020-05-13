@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AnonymousPro_400Regular' }}>
-          AnonymousPro_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AnonymousPro_400Regular',
+          }}>
+          Anonymous Pro Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AnonymousPro_400Regular_Italic' }}>
-          AnonymousPro_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AnonymousPro_400Regular_Italic',
+          }}>
+          Anonymous Pro Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AnonymousPro_700Bold' }}>
-          AnonymousPro_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AnonymousPro_700Bold',
+          }}>
+          Anonymous Pro Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AnonymousPro_700Bold_Italic' }}>
-          AnonymousPro_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AnonymousPro_700Bold_Italic',
+          }}>
+          Anonymous Pro Bold Italic
         </Text>
       </View>
     );

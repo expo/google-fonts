@@ -45,12 +45,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gorditas_400Regular' }}>
-          Gorditas_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gorditas_400Regular',
+          }}>
+          Gorditas Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gorditas_700Bold' }}>
-          Gorditas_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gorditas_700Bold',
+          }}>
+          Gorditas Bold
         </Text>
       </View>
     );

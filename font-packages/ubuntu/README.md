@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ubuntu_300Light' }}>
-          Ubuntu_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Ubuntu_300Light',
+          }}>
+          Ubuntu Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ubuntu_300Light_Italic' }}>
-          Ubuntu_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Ubuntu_300Light_Italic',
+          }}>
+          Ubuntu Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ubuntu_400Regular' }}>
-          Ubuntu_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Ubuntu_400Regular',
+          }}>
+          Ubuntu Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ubuntu_400Regular_Italic' }}>
-          Ubuntu_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Ubuntu_400Regular_Italic',
+          }}>
+          Ubuntu Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ubuntu_500Medium' }}>
-          Ubuntu_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Ubuntu_500Medium',
+          }}>
+          Ubuntu Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ubuntu_500Medium_Italic' }}>
-          Ubuntu_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Ubuntu_500Medium_Italic',
+          }}>
+          Ubuntu Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ubuntu_700Bold' }}>
-          Ubuntu_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Ubuntu_700Bold',
+          }}>
+          Ubuntu Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ubuntu_700Bold_Italic' }}>
-          Ubuntu_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Ubuntu_700Bold_Italic',
+          }}>
+          Ubuntu Bold Italic
         </Text>
       </View>
     );

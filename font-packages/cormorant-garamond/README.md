@@ -73,48 +73,104 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantGaramond_300Light' }}>
-          CormorantGaramond_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantGaramond_300Light',
+          }}>
+          Cormorant Garamond Light
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'CormorantGaramond_300Light_Italic' }}>
-          CormorantGaramond_300Light_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantGaramond_400Regular' }}>
-          CormorantGaramond_400Regular
-        </Text>
-
-        <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'CormorantGaramond_400Regular_Italic' }}>
-          CormorantGaramond_400Regular_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantGaramond_500Medium' }}>
-          CormorantGaramond_500Medium
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantGaramond_300Light_Italic',
+          }}>
+          Cormorant Garamond Light Italic
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'CormorantGaramond_500Medium_Italic' }}>
-          CormorantGaramond_500Medium_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantGaramond_600SemiBold' }}>
-          CormorantGaramond_600SemiBold
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantGaramond_400Regular',
+          }}>
+          Cormorant Garamond Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'CormorantGaramond_600SemiBold_Italic' }}>
-          CormorantGaramond_600SemiBold_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantGaramond_400Regular_Italic',
+          }}>
+          Cormorant Garamond Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantGaramond_700Bold' }}>
-          CormorantGaramond_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantGaramond_500Medium',
+          }}>
+          Cormorant Garamond Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantGaramond_700Bold_Italic' }}>
-          CormorantGaramond_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantGaramond_500Medium_Italic',
+          }}>
+          Cormorant Garamond Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantGaramond_600SemiBold',
+          }}>
+          Cormorant Garamond Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantGaramond_600SemiBold_Italic',
+          }}>
+          Cormorant Garamond Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantGaramond_700Bold',
+          }}>
+          Cormorant Garamond Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantGaramond_700Bold_Italic',
+          }}>
+          Cormorant Garamond Bold Italic
         </Text>
       </View>
     );

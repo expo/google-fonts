@@ -47,8 +47,13 @@ export default () => {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'LibreBarcode39Extended_400Regular' }}>
-          LibreBarcode39Extended_400Regular
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LibreBarcode39Extended_400Regular',
+          }}>
+          Libre Barcode 39 Extended Regular
         </Text>
       </View>
     );

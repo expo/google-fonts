@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612Mono_400Regular' }}>
-          B612Mono_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'B612Mono_400Regular',
+          }}>
+          B612 Mono Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612Mono_400Regular_Italic' }}>
-          B612Mono_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'B612Mono_400Regular_Italic',
+          }}>
+          B612 Mono Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612Mono_700Bold' }}>
-          B612Mono_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'B612Mono_700Bold',
+          }}>
+          B612 Mono Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'B612Mono_700Bold_Italic' }}>
-          B612Mono_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'B612Mono_700Bold_Italic',
+          }}>
+          B612 Mono Bold Italic
         </Text>
       </View>
     );

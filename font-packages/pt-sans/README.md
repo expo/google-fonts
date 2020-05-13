@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSans_400Regular' }}>
-          PTSans_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PTSans_400Regular',
+          }}>
+          PT Sans Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSans_400Regular_Italic' }}>
-          PTSans_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PTSans_400Regular_Italic',
+          }}>
+          PT Sans Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSans_700Bold' }}>
-          PTSans_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PTSans_700Bold',
+          }}>
+          PT Sans Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PTSans_700Bold_Italic' }}>
-          PTSans_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PTSans_700Bold_Italic',
+          }}>
+          PT Sans Bold Italic
         </Text>
       </View>
     );

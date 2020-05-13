@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'UbuntuMono_400Regular' }}>
-          UbuntuMono_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'UbuntuMono_400Regular',
+          }}>
+          Ubuntu Mono Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'UbuntuMono_400Regular_Italic' }}>
-          UbuntuMono_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'UbuntuMono_400Regular_Italic',
+          }}>
+          Ubuntu Mono Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'UbuntuMono_700Bold' }}>
-          UbuntuMono_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'UbuntuMono_700Bold',
+          }}>
+          Ubuntu Mono Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'UbuntuMono_700Bold_Italic' }}>
-          UbuntuMono_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'UbuntuMono_700Bold_Italic',
+          }}>
+          Ubuntu Mono Bold Italic
         </Text>
       </View>
     );

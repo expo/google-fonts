@@ -45,12 +45,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Elsie_400Regular' }}>
-          Elsie_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Elsie_400Regular',
+          }}>
+          Elsie Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Elsie_900Black' }}>
-          Elsie_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Elsie_900Black',
+          }}>
+          Elsie Black
         </Text>
       </View>
     );

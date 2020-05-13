@@ -79,52 +79,124 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_200ExtraLight' }}>
-          BaiJamjuree_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BaiJamjuree_200ExtraLight',
+          }}>
+          Bai Jamjuree Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_200ExtraLight_Italic' }}>
-          BaiJamjuree_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BaiJamjuree_200ExtraLight_Italic',
+          }}>
+          Bai Jamjuree Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_300Light' }}>
-          BaiJamjuree_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BaiJamjuree_300Light',
+          }}>
+          Bai Jamjuree Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_300Light_Italic' }}>
-          BaiJamjuree_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BaiJamjuree_300Light_Italic',
+          }}>
+          Bai Jamjuree Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_400Regular' }}>
-          BaiJamjuree_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BaiJamjuree_400Regular',
+          }}>
+          Bai Jamjuree Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_400Regular_Italic' }}>
-          BaiJamjuree_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BaiJamjuree_400Regular_Italic',
+          }}>
+          Bai Jamjuree Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_500Medium' }}>
-          BaiJamjuree_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BaiJamjuree_500Medium',
+          }}>
+          Bai Jamjuree Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_500Medium_Italic' }}>
-          BaiJamjuree_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BaiJamjuree_500Medium_Italic',
+          }}>
+          Bai Jamjuree Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_600SemiBold' }}>
-          BaiJamjuree_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BaiJamjuree_600SemiBold',
+          }}>
+          Bai Jamjuree Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_600SemiBold_Italic' }}>
-          BaiJamjuree_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BaiJamjuree_600SemiBold_Italic',
+          }}>
+          Bai Jamjuree Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_700Bold' }}>
-          BaiJamjuree_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BaiJamjuree_700Bold',
+          }}>
+          Bai Jamjuree Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BaiJamjuree_700Bold_Italic' }}>
-          BaiJamjuree_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BaiJamjuree_700Bold_Italic',
+          }}>
+          Bai Jamjuree Bold Italic
         </Text>
       </View>
     );

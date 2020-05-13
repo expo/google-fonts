@@ -70,40 +70,94 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_100Thin' }}>
-          RobotoSlab_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoSlab_100Thin',
+          }}>
+          Roboto Slab Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_200ExtraLight' }}>
-          RobotoSlab_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoSlab_200ExtraLight',
+          }}>
+          Roboto Slab Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_300Light' }}>
-          RobotoSlab_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoSlab_300Light',
+          }}>
+          Roboto Slab Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_400Regular' }}>
-          RobotoSlab_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoSlab_400Regular',
+          }}>
+          Roboto Slab Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_500Medium' }}>
-          RobotoSlab_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoSlab_500Medium',
+          }}>
+          Roboto Slab Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_600SemiBold' }}>
-          RobotoSlab_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoSlab_600SemiBold',
+          }}>
+          Roboto Slab Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_700Bold' }}>
-          RobotoSlab_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoSlab_700Bold',
+          }}>
+          Roboto Slab Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_800ExtraBold' }}>
-          RobotoSlab_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoSlab_800ExtraBold',
+          }}>
+          Roboto Slab Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RobotoSlab_900Black' }}>
-          RobotoSlab_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoSlab_900Black',
+          }}>
+          Roboto Slab Black
         </Text>
       </View>
     );

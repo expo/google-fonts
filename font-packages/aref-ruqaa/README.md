@@ -45,12 +45,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArefRuqaa_400Regular' }}>
-          ArefRuqaa_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArefRuqaa_400Regular',
+          }}>
+          Aref Ruqaa Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArefRuqaa_700Bold' }}>
-          ArefRuqaa_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArefRuqaa_700Bold',
+          }}>
+          Aref Ruqaa Bold
         </Text>
       </View>
     );

@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraCode_300Light' }}>
-          FiraCode_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FiraCode_300Light',
+          }}>
+          Fira Code Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraCode_400Regular' }}>
-          FiraCode_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FiraCode_400Regular',
+          }}>
+          Fira Code Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraCode_500Medium' }}>
-          FiraCode_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FiraCode_500Medium',
+          }}>
+          Fira Code Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraCode_600SemiBold' }}>
-          FiraCode_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FiraCode_600SemiBold',
+          }}>
+          Fira Code Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FiraCode_700Bold' }}>
-          FiraCode_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FiraCode_700Bold',
+          }}>
+          Fira Code Bold
         </Text>
       </View>
     );

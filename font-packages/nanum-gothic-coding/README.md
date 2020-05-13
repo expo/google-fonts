@@ -49,12 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NanumGothicCoding_400Regular' }}>
-          NanumGothicCoding_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NanumGothicCoding_400Regular',
+          }}>
+          Nanum Gothic Coding Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NanumGothicCoding_700Bold' }}>
-          NanumGothicCoding_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NanumGothicCoding_700Bold',
+          }}>
+          Nanum Gothic Coding Bold
         </Text>
       </View>
     );

@@ -49,12 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FanwoodText_400Regular' }}>
-          FanwoodText_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FanwoodText_400Regular',
+          }}>
+          Fanwood Text Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FanwoodText_400Regular_Italic' }}>
-          FanwoodText_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FanwoodText_400Regular_Italic',
+          }}>
+          Fanwood Text Italic
         </Text>
       </View>
     );

@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArimaMadurai_100Thin' }}>
-          ArimaMadurai_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArimaMadurai_100Thin',
+          }}>
+          Arima Madurai Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArimaMadurai_200ExtraLight' }}>
-          ArimaMadurai_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArimaMadurai_200ExtraLight',
+          }}>
+          Arima Madurai Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArimaMadurai_300Light' }}>
-          ArimaMadurai_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArimaMadurai_300Light',
+          }}>
+          Arima Madurai Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArimaMadurai_400Regular' }}>
-          ArimaMadurai_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArimaMadurai_400Regular',
+          }}>
+          Arima Madurai Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArimaMadurai_500Medium' }}>
-          ArimaMadurai_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArimaMadurai_500Medium',
+          }}>
+          Arima Madurai Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArimaMadurai_700Bold' }}>
-          ArimaMadurai_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArimaMadurai_700Bold',
+          }}>
+          Arima Madurai Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArimaMadurai_800ExtraBold' }}>
-          ArimaMadurai_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArimaMadurai_800ExtraBold',
+          }}>
+          Arima Madurai Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArimaMadurai_900Black' }}>
-          ArimaMadurai_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArimaMadurai_900Black',
+          }}>
+          Arima Madurai Black
         </Text>
       </View>
     );

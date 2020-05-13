@@ -73,44 +73,104 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_300Light' }}>
-          ChakraPetch_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ChakraPetch_300Light',
+          }}>
+          Chakra Petch Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_300Light_Italic' }}>
-          ChakraPetch_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ChakraPetch_300Light_Italic',
+          }}>
+          Chakra Petch Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_400Regular' }}>
-          ChakraPetch_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ChakraPetch_400Regular',
+          }}>
+          Chakra Petch Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_400Regular_Italic' }}>
-          ChakraPetch_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ChakraPetch_400Regular_Italic',
+          }}>
+          Chakra Petch Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_500Medium' }}>
-          ChakraPetch_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ChakraPetch_500Medium',
+          }}>
+          Chakra Petch Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_500Medium_Italic' }}>
-          ChakraPetch_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ChakraPetch_500Medium_Italic',
+          }}>
+          Chakra Petch Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_600SemiBold' }}>
-          ChakraPetch_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ChakraPetch_600SemiBold',
+          }}>
+          Chakra Petch Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_600SemiBold_Italic' }}>
-          ChakraPetch_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ChakraPetch_600SemiBold_Italic',
+          }}>
+          Chakra Petch Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_700Bold' }}>
-          ChakraPetch_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ChakraPetch_700Bold',
+          }}>
+          Chakra Petch Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChakraPetch_700Bold_Italic' }}>
-          ChakraPetch_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ChakraPetch_700Bold_Italic',
+          }}>
+          Chakra Petch Bold Italic
         </Text>
       </View>
     );

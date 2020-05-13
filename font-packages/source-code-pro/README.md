@@ -85,61 +85,144 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_200ExtraLight' }}>
-          SourceCodePro_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_200ExtraLight',
+          }}>
+          Source Code Pro Extra Light
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_200ExtraLight_Italic' }}>
-          SourceCodePro_200ExtraLight_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_200ExtraLight_Italic',
+          }}>
+          Source Code Pro Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_300Light' }}>
-          SourceCodePro_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_300Light',
+          }}>
+          Source Code Pro Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_300Light_Italic' }}>
-          SourceCodePro_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_300Light_Italic',
+          }}>
+          Source Code Pro Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_400Regular' }}>
-          SourceCodePro_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_400Regular',
+          }}>
+          Source Code Pro Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_400Regular_Italic' }}>
-          SourceCodePro_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_400Regular_Italic',
+          }}>
+          Source Code Pro Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_500Medium' }}>
-          SourceCodePro_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_500Medium',
+          }}>
+          Source Code Pro Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_500Medium_Italic' }}>
-          SourceCodePro_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_500Medium_Italic',
+          }}>
+          Source Code Pro Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_600SemiBold' }}>
-          SourceCodePro_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_600SemiBold',
+          }}>
+          Source Code Pro Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_600SemiBold_Italic' }}>
-          SourceCodePro_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_600SemiBold_Italic',
+          }}>
+          Source Code Pro Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_700Bold' }}>
-          SourceCodePro_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_700Bold',
+          }}>
+          Source Code Pro Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_700Bold_Italic' }}>
-          SourceCodePro_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_700Bold_Italic',
+          }}>
+          Source Code Pro Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_900Black' }}>
-          SourceCodePro_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_900Black',
+          }}>
+          Source Code Pro Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'SourceCodePro_900Black_Italic' }}>
-          SourceCodePro_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_900Black_Italic',
+          }}>
+          Source Code Pro Black Italic
         </Text>
       </View>
     );

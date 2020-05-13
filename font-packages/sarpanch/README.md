@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_400Regular' }}>
-          Sarpanch_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarpanch_400Regular',
+          }}>
+          Sarpanch Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_500Medium' }}>
-          Sarpanch_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarpanch_500Medium',
+          }}>
+          Sarpanch Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_600SemiBold' }}>
-          Sarpanch_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarpanch_600SemiBold',
+          }}>
+          Sarpanch Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_700Bold' }}>
-          Sarpanch_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarpanch_700Bold',
+          }}>
+          Sarpanch Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_800ExtraBold' }}>
-          Sarpanch_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarpanch_800ExtraBold',
+          }}>
+          Sarpanch Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarpanch_900Black' }}>
-          Sarpanch_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarpanch_900Black',
+          }}>
+          Sarpanch Black
         </Text>
       </View>
     );

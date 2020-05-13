@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_200ExtraLight' }}>
-          TurretRoad_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TurretRoad_200ExtraLight',
+          }}>
+          Turret Road Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_300Light' }}>
-          TurretRoad_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TurretRoad_300Light',
+          }}>
+          Turret Road Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_400Regular' }}>
-          TurretRoad_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TurretRoad_400Regular',
+          }}>
+          Turret Road Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_500Medium' }}>
-          TurretRoad_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TurretRoad_500Medium',
+          }}>
+          Turret Road Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_700Bold' }}>
-          TurretRoad_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TurretRoad_700Bold',
+          }}>
+          Turret Road Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'TurretRoad_800ExtraBold' }}>
-          TurretRoad_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'TurretRoad_800ExtraBold',
+          }}>
+          Turret Road Extra Bold
         </Text>
       </View>
     );

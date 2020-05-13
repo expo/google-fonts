@@ -73,44 +73,104 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_400Regular' }}>
-          ProzaLibre_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ProzaLibre_400Regular',
+          }}>
+          Proza Libre Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_400Regular_Italic' }}>
-          ProzaLibre_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ProzaLibre_400Regular_Italic',
+          }}>
+          Proza Libre Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_500Medium' }}>
-          ProzaLibre_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ProzaLibre_500Medium',
+          }}>
+          Proza Libre Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_500Medium_Italic' }}>
-          ProzaLibre_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ProzaLibre_500Medium_Italic',
+          }}>
+          Proza Libre Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_600SemiBold' }}>
-          ProzaLibre_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ProzaLibre_600SemiBold',
+          }}>
+          Proza Libre Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_600SemiBold_Italic' }}>
-          ProzaLibre_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ProzaLibre_600SemiBold_Italic',
+          }}>
+          Proza Libre Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_700Bold' }}>
-          ProzaLibre_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ProzaLibre_700Bold',
+          }}>
+          Proza Libre Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_700Bold_Italic' }}>
-          ProzaLibre_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ProzaLibre_700Bold_Italic',
+          }}>
+          Proza Libre Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_800ExtraBold' }}>
-          ProzaLibre_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ProzaLibre_800ExtraBold',
+          }}>
+          Proza Libre Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ProzaLibre_800ExtraBold_Italic' }}>
-          ProzaLibre_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ProzaLibre_800ExtraBold_Italic',
+          }}>
+          Proza Libre Extra Bold Italic
         </Text>
       </View>
     );

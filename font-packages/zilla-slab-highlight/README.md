@@ -49,12 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZillaSlabHighlight_400Regular' }}>
-          ZillaSlabHighlight_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ZillaSlabHighlight_400Regular',
+          }}>
+          Zilla Slab Highlight Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZillaSlabHighlight_700Bold' }}>
-          ZillaSlabHighlight_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ZillaSlabHighlight_700Bold',
+          }}>
+          Zilla Slab Highlight Bold
         </Text>
       </View>
     );

@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Halant_300Light' }}>
-          Halant_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Halant_300Light',
+          }}>
+          Halant Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Halant_400Regular' }}>
-          Halant_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Halant_400Regular',
+          }}>
+          Halant Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Halant_500Medium' }}>
-          Halant_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Halant_500Medium',
+          }}>
+          Halant Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Halant_600SemiBold' }}>
-          Halant_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Halant_600SemiBold',
+          }}>
+          Halant Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Halant_700Bold' }}>
-          Halant_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Halant_700Bold',
+          }}>
+          Halant Bold
         </Text>
       </View>
     );

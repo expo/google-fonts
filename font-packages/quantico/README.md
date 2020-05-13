@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quantico_400Regular' }}>
-          Quantico_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Quantico_400Regular',
+          }}>
+          Quantico Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quantico_400Regular_Italic' }}>
-          Quantico_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Quantico_400Regular_Italic',
+          }}>
+          Quantico Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quantico_700Bold' }}>
-          Quantico_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Quantico_700Bold',
+          }}>
+          Quantico Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quantico_700Bold_Italic' }}>
-          Quantico_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Quantico_700Bold_Italic',
+          }}>
+          Quantico Bold Italic
         </Text>
       </View>
     );

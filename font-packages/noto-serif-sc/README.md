@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerifSC_200ExtraLight' }}>
-          NotoSerifSC_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerifSC_200ExtraLight',
+          }}>
+          Noto Serif SC Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerifSC_300Light' }}>
-          NotoSerifSC_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerifSC_300Light',
+          }}>
+          Noto Serif SC Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerifSC_400Regular' }}>
-          NotoSerifSC_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerifSC_400Regular',
+          }}>
+          Noto Serif SC Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerifSC_500Medium' }}>
-          NotoSerifSC_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerifSC_500Medium',
+          }}>
+          Noto Serif SC Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerifSC_600SemiBold' }}>
-          NotoSerifSC_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerifSC_600SemiBold',
+          }}>
+          Noto Serif SC Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerifSC_700Bold' }}>
-          NotoSerifSC_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerifSC_700Bold',
+          }}>
+          Noto Serif SC Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSerifSC_900Black' }}>
-          NotoSerifSC_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerifSC_900Black',
+          }}>
+          Noto Serif SC Black
         </Text>
       </View>
     );

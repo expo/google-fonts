@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArchivoNarrow_400Regular' }}>
-          ArchivoNarrow_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArchivoNarrow_400Regular',
+          }}>
+          Archivo Narrow Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArchivoNarrow_400Regular_Italic' }}>
-          ArchivoNarrow_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArchivoNarrow_400Regular_Italic',
+          }}>
+          Archivo Narrow Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArchivoNarrow_500Medium' }}>
-          ArchivoNarrow_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArchivoNarrow_500Medium',
+          }}>
+          Archivo Narrow Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArchivoNarrow_500Medium_Italic' }}>
-          ArchivoNarrow_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArchivoNarrow_500Medium_Italic',
+          }}>
+          Archivo Narrow Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArchivoNarrow_600SemiBold' }}>
-          ArchivoNarrow_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArchivoNarrow_600SemiBold',
+          }}>
+          Archivo Narrow Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArchivoNarrow_600SemiBold_Italic' }}>
-          ArchivoNarrow_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArchivoNarrow_600SemiBold_Italic',
+          }}>
+          Archivo Narrow Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArchivoNarrow_700Bold' }}>
-          ArchivoNarrow_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArchivoNarrow_700Bold',
+          }}>
+          Archivo Narrow Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ArchivoNarrow_700Bold_Italic' }}>
-          ArchivoNarrow_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArchivoNarrow_700Bold_Italic',
+          }}>
+          Archivo Narrow Bold Italic
         </Text>
       </View>
     );

@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LifeSavers_400Regular' }}>
-          LifeSavers_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LifeSavers_400Regular',
+          }}>
+          Life Savers Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LifeSavers_700Bold' }}>
-          LifeSavers_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LifeSavers_700Bold',
+          }}>
+          Life Savers Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'LifeSavers_800ExtraBold' }}>
-          LifeSavers_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LifeSavers_800ExtraBold',
+          }}>
+          Life Savers Extra Bold
         </Text>
       </View>
     );

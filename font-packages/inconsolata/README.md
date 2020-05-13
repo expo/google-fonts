@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_200ExtraLight' }}>
-          Inconsolata_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inconsolata_200ExtraLight',
+          }}>
+          Inconsolata Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_300Light' }}>
-          Inconsolata_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inconsolata_300Light',
+          }}>
+          Inconsolata Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_400Regular' }}>
-          Inconsolata_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inconsolata_400Regular',
+          }}>
+          Inconsolata Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_500Medium' }}>
-          Inconsolata_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inconsolata_500Medium',
+          }}>
+          Inconsolata Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_600SemiBold' }}>
-          Inconsolata_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inconsolata_600SemiBold',
+          }}>
+          Inconsolata Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_700Bold' }}>
-          Inconsolata_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inconsolata_700Bold',
+          }}>
+          Inconsolata Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_800ExtraBold' }}>
-          Inconsolata_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inconsolata_800ExtraBold',
+          }}>
+          Inconsolata Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inconsolata_900Black' }}>
-          Inconsolata_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inconsolata_900Black',
+          }}>
+          Inconsolata Black
         </Text>
       </View>
     );

@@ -52,17 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OpenSansCondensed_300Light' }}>
-          OpenSansCondensed_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OpenSansCondensed_300Light',
+          }}>
+          Open Sans Condensed Light
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'OpenSansCondensed_300Light_Italic' }}>
-          OpenSansCondensed_300Light_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OpenSansCondensed_300Light_Italic',
+          }}>
+          Open Sans Condensed Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OpenSansCondensed_700Bold' }}>
-          OpenSansCondensed_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OpenSansCondensed_700Bold',
+          }}>
+          Open Sans Condensed Bold
         </Text>
       </View>
     );

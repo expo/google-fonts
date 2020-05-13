@@ -49,12 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MontserratSubrayada_400Regular' }}>
-          MontserratSubrayada_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MontserratSubrayada_400Regular',
+          }}>
+          Montserrat Subrayada Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MontserratSubrayada_700Bold' }}>
-          MontserratSubrayada_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MontserratSubrayada_700Bold',
+          }}>
+          Montserrat Subrayada Bold
         </Text>
       </View>
     );

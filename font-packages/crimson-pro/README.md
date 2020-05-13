@@ -91,68 +91,164 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonPro_200ExtraLight' }}>
-          CrimsonPro_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CrimsonPro_200ExtraLight',
+          }}>
+          Crimson Pro Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonPro_300Light' }}>
-          CrimsonPro_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CrimsonPro_300Light',
+          }}>
+          Crimson Pro Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonPro_400Regular' }}>
-          CrimsonPro_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CrimsonPro_400Regular',
+          }}>
+          Crimson Pro Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonPro_500Medium' }}>
-          CrimsonPro_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CrimsonPro_500Medium',
+          }}>
+          Crimson Pro Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonPro_600SemiBold' }}>
-          CrimsonPro_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CrimsonPro_600SemiBold',
+          }}>
+          Crimson Pro Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonPro_700Bold' }}>
-          CrimsonPro_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CrimsonPro_700Bold',
+          }}>
+          Crimson Pro Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonPro_800ExtraBold' }}>
-          CrimsonPro_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CrimsonPro_800ExtraBold',
+          }}>
+          Crimson Pro Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonPro_900Black' }}>
-          CrimsonPro_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CrimsonPro_900Black',
+          }}>
+          Crimson Pro Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonPro_200ExtraLight_Italic' }}>
-          CrimsonPro_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CrimsonPro_200ExtraLight_Italic',
+          }}>
+          Crimson Pro Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonPro_300Light_Italic' }}>
-          CrimsonPro_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CrimsonPro_300Light_Italic',
+          }}>
+          Crimson Pro Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonPro_400Regular_Italic' }}>
-          CrimsonPro_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CrimsonPro_400Regular_Italic',
+          }}>
+          Crimson Pro Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonPro_500Medium_Italic' }}>
-          CrimsonPro_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CrimsonPro_500Medium_Italic',
+          }}>
+          Crimson Pro Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonPro_600SemiBold_Italic' }}>
-          CrimsonPro_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CrimsonPro_600SemiBold_Italic',
+          }}>
+          Crimson Pro Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonPro_700Bold_Italic' }}>
-          CrimsonPro_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CrimsonPro_700Bold_Italic',
+          }}>
+          Crimson Pro Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonPro_800ExtraBold_Italic' }}>
-          CrimsonPro_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CrimsonPro_800ExtraBold_Italic',
+          }}>
+          Crimson Pro Extra Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CrimsonPro_900Black_Italic' }}>
-          CrimsonPro_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CrimsonPro_900Black_Italic',
+          }}>
+          Crimson Pro Black Italic
         </Text>
       </View>
     );

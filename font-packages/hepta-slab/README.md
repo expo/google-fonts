@@ -70,40 +70,94 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_100Thin' }}>
-          HeptaSlab_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HeptaSlab_100Thin',
+          }}>
+          Hepta Slab Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_200ExtraLight' }}>
-          HeptaSlab_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HeptaSlab_200ExtraLight',
+          }}>
+          Hepta Slab Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_300Light' }}>
-          HeptaSlab_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HeptaSlab_300Light',
+          }}>
+          Hepta Slab Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_400Regular' }}>
-          HeptaSlab_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HeptaSlab_400Regular',
+          }}>
+          Hepta Slab Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_500Medium' }}>
-          HeptaSlab_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HeptaSlab_500Medium',
+          }}>
+          Hepta Slab Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_600SemiBold' }}>
-          HeptaSlab_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HeptaSlab_600SemiBold',
+          }}>
+          Hepta Slab Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_700Bold' }}>
-          HeptaSlab_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HeptaSlab_700Bold',
+          }}>
+          Hepta Slab Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_800ExtraBold' }}>
-          HeptaSlab_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HeptaSlab_800ExtraBold',
+          }}>
+          Hepta Slab Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HeptaSlab_900Black' }}>
-          HeptaSlab_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HeptaSlab_900Black',
+          }}>
+          Hepta Slab Black
         </Text>
       </View>
     );

@@ -97,76 +97,184 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_100Thin' }}>
-          WorkSans_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_100Thin',
+          }}>
+          Work Sans Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_200ExtraLight' }}>
-          WorkSans_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_200ExtraLight',
+          }}>
+          Work Sans Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_300Light' }}>
-          WorkSans_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_300Light',
+          }}>
+          Work Sans Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_400Regular' }}>
-          WorkSans_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_400Regular',
+          }}>
+          Work Sans Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_500Medium' }}>
-          WorkSans_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_500Medium',
+          }}>
+          Work Sans Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_600SemiBold' }}>
-          WorkSans_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_600SemiBold',
+          }}>
+          Work Sans Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_700Bold' }}>
-          WorkSans_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_700Bold',
+          }}>
+          Work Sans Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_800ExtraBold' }}>
-          WorkSans_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_800ExtraBold',
+          }}>
+          Work Sans Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_900Black' }}>
-          WorkSans_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_900Black',
+          }}>
+          Work Sans Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_100Thin_Italic' }}>
-          WorkSans_100Thin_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_100Thin_Italic',
+          }}>
+          Work Sans Thin Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_200ExtraLight_Italic' }}>
-          WorkSans_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_200ExtraLight_Italic',
+          }}>
+          Work Sans Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_300Light_Italic' }}>
-          WorkSans_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_300Light_Italic',
+          }}>
+          Work Sans Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_400Regular_Italic' }}>
-          WorkSans_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_400Regular_Italic',
+          }}>
+          Work Sans Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_500Medium_Italic' }}>
-          WorkSans_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_500Medium_Italic',
+          }}>
+          Work Sans Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_600SemiBold_Italic' }}>
-          WorkSans_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_600SemiBold_Italic',
+          }}>
+          Work Sans Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_700Bold_Italic' }}>
-          WorkSans_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_700Bold_Italic',
+          }}>
+          Work Sans Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_800ExtraBold_Italic' }}>
-          WorkSans_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_800ExtraBold_Italic',
+          }}>
+          Work Sans Extra Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WorkSans_900Black_Italic' }}>
-          WorkSans_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WorkSans_900Black_Italic',
+          }}>
+          Work Sans Black Italic
         </Text>
       </View>
     );

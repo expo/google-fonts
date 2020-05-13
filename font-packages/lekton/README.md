@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lekton_400Regular' }}>
-          Lekton_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lekton_400Regular',
+          }}>
+          Lekton Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lekton_400Regular_Italic' }}>
-          Lekton_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lekton_400Regular_Italic',
+          }}>
+          Lekton Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Lekton_700Bold' }}>
-          Lekton_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lekton_700Bold',
+          }}>
+          Lekton Bold
         </Text>
       </View>
     );

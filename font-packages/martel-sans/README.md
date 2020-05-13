@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_200ExtraLight' }}>
-          MartelSans_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MartelSans_200ExtraLight',
+          }}>
+          Martel Sans Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_300Light' }}>
-          MartelSans_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MartelSans_300Light',
+          }}>
+          Martel Sans Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_400Regular' }}>
-          MartelSans_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MartelSans_400Regular',
+          }}>
+          Martel Sans Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_600SemiBold' }}>
-          MartelSans_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MartelSans_600SemiBold',
+          }}>
+          Martel Sans Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_700Bold' }}>
-          MartelSans_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MartelSans_700Bold',
+          }}>
+          Martel Sans Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_800ExtraBold' }}>
-          MartelSans_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MartelSans_800ExtraBold',
+          }}>
+          Martel Sans Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MartelSans_900Black' }}>
-          MartelSans_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MartelSans_900Black',
+          }}>
+          Martel Sans Black
         </Text>
       </View>
     );

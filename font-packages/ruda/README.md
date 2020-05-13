@@ -61,26 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_400Regular' }}>
-          Ruda_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Ruda_400Regular',
+          }}>
+          Ruda Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_500Medium' }}>
-          Ruda_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Ruda_500Medium',
+          }}>
+          Ruda Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_600SemiBold' }}>
-          Ruda_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Ruda_600SemiBold',
+          }}>
+          Ruda Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_700Bold' }}>Ruda_700Bold</Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_800ExtraBold' }}>
-          Ruda_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Ruda_700Bold',
+          }}>
+          Ruda Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Ruda_900Black' }}>
-          Ruda_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Ruda_800ExtraBold',
+          }}>
+          Ruda Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Ruda_900Black',
+          }}>
+          Ruda Black
         </Text>
       </View>
     );

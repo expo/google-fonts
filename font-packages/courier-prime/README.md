@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CourierPrime_400Regular' }}>
-          CourierPrime_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CourierPrime_400Regular',
+          }}>
+          Courier Prime Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CourierPrime_400Regular_Italic' }}>
-          CourierPrime_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CourierPrime_400Regular_Italic',
+          }}>
+          Courier Prime Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CourierPrime_700Bold' }}>
-          CourierPrime_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CourierPrime_700Bold',
+          }}>
+          Courier Prime Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CourierPrime_700Bold_Italic' }}>
-          CourierPrime_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CourierPrime_700Bold_Italic',
+          }}>
+          Courier Prime Bold Italic
         </Text>
       </View>
     );

@@ -45,12 +45,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amita_400Regular' }}>
-          Amita_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Amita_400Regular',
+          }}>
+          Amita Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amita_700Bold' }}>
-          Amita_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Amita_700Bold',
+          }}>
+          Amita Bold
         </Text>
       </View>
     );

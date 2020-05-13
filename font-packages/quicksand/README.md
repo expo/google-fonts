@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quicksand_300Light' }}>
-          Quicksand_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Quicksand_300Light',
+          }}>
+          Quicksand Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quicksand_400Regular' }}>
-          Quicksand_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Quicksand_400Regular',
+          }}>
+          Quicksand Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quicksand_500Medium' }}>
-          Quicksand_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Quicksand_500Medium',
+          }}>
+          Quicksand Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quicksand_600SemiBold' }}>
-          Quicksand_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Quicksand_600SemiBold',
+          }}>
+          Quicksand Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Quicksand_700Bold' }}>
-          Quicksand_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Quicksand_700Bold',
+          }}>
+          Quicksand Bold
         </Text>
       </View>
     );

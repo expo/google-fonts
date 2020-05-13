@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kalam_300Light' }}>
-          Kalam_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kalam_300Light',
+          }}>
+          Kalam Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kalam_400Regular' }}>
-          Kalam_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kalam_400Regular',
+          }}>
+          Kalam Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kalam_700Bold' }}>
-          Kalam_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kalam_700Bold',
+          }}>
+          Kalam Bold
         </Text>
       </View>
     );

@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindMadurai_300Light' }}>
-          HindMadurai_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HindMadurai_300Light',
+          }}>
+          Hind Madurai Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindMadurai_400Regular' }}>
-          HindMadurai_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HindMadurai_400Regular',
+          }}>
+          Hind Madurai Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindMadurai_500Medium' }}>
-          HindMadurai_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HindMadurai_500Medium',
+          }}>
+          Hind Madurai Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindMadurai_600SemiBold' }}>
-          HindMadurai_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HindMadurai_600SemiBold',
+          }}>
+          Hind Madurai Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'HindMadurai_700Bold' }}>
-          HindMadurai_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'HindMadurai_700Bold',
+          }}>
+          Hind Madurai Bold
         </Text>
       </View>
     );

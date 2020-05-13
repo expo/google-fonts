@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersText_100Thin' }}>
-          BigShouldersText_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BigShouldersText_100Thin',
+          }}>
+          Big Shoulders Text Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersText_300Light' }}>
-          BigShouldersText_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BigShouldersText_300Light',
+          }}>
+          Big Shoulders Text Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersText_400Regular' }}>
-          BigShouldersText_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BigShouldersText_400Regular',
+          }}>
+          Big Shoulders Text Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersText_500Medium' }}>
-          BigShouldersText_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BigShouldersText_500Medium',
+          }}>
+          Big Shoulders Text Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersText_600SemiBold' }}>
-          BigShouldersText_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BigShouldersText_600SemiBold',
+          }}>
+          Big Shoulders Text Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersText_700Bold' }}>
-          BigShouldersText_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BigShouldersText_700Bold',
+          }}>
+          Big Shoulders Text Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersText_800ExtraBold' }}>
-          BigShouldersText_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BigShouldersText_800ExtraBold',
+          }}>
+          Big Shoulders Text Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BigShouldersText_900Black' }}>
-          BigShouldersText_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BigShouldersText_900Black',
+          }}>
+          Big Shoulders Text Black
         </Text>
       </View>
     );

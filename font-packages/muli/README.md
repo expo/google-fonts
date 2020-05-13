@@ -91,66 +91,164 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Muli_200ExtraLight' }}>
-          Muli_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Muli_200ExtraLight',
+          }}>
+          Muli Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Muli_300Light' }}>
-          Muli_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Muli_300Light',
+          }}>
+          Muli Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Muli_400Regular' }}>
-          Muli_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Muli_400Regular',
+          }}>
+          Muli Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Muli_500Medium' }}>
-          Muli_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Muli_500Medium',
+          }}>
+          Muli Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Muli_600SemiBold' }}>
-          Muli_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Muli_600SemiBold',
+          }}>
+          Muli Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Muli_700Bold' }}>Muli_700Bold</Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Muli_800ExtraBold' }}>
-          Muli_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Muli_700Bold',
+          }}>
+          Muli Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Muli_900Black' }}>
-          Muli_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Muli_800ExtraBold',
+          }}>
+          Muli Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Muli_200ExtraLight_Italic' }}>
-          Muli_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Muli_900Black',
+          }}>
+          Muli Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Muli_300Light_Italic' }}>
-          Muli_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Muli_200ExtraLight_Italic',
+          }}>
+          Muli Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Muli_400Regular_Italic' }}>
-          Muli_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Muli_300Light_Italic',
+          }}>
+          Muli Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Muli_500Medium_Italic' }}>
-          Muli_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Muli_400Regular_Italic',
+          }}>
+          Muli Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Muli_600SemiBold_Italic' }}>
-          Muli_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Muli_500Medium_Italic',
+          }}>
+          Muli Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Muli_700Bold_Italic' }}>
-          Muli_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Muli_600SemiBold_Italic',
+          }}>
+          Muli Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Muli_800ExtraBold_Italic' }}>
-          Muli_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Muli_700Bold_Italic',
+          }}>
+          Muli Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Muli_900Black_Italic' }}>
-          Muli_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Muli_800ExtraBold_Italic',
+          }}>
+          Muli Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Muli_900Black_Italic',
+          }}>
+          Muli Black Italic
         </Text>
       </View>
     );

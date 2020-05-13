@@ -45,12 +45,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Codystar_300Light' }}>
-          Codystar_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Codystar_300Light',
+          }}>
+          Codystar Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Codystar_400Regular' }}>
-          Codystar_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Codystar_400Regular',
+          }}>
+          Codystar Regular
         </Text>
       </View>
     );

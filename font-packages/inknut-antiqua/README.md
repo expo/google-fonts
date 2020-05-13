@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_300Light' }}>
-          InknutAntiqua_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'InknutAntiqua_300Light',
+          }}>
+          Inknut Antiqua Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_400Regular' }}>
-          InknutAntiqua_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'InknutAntiqua_400Regular',
+          }}>
+          Inknut Antiqua Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_500Medium' }}>
-          InknutAntiqua_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'InknutAntiqua_500Medium',
+          }}>
+          Inknut Antiqua Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_600SemiBold' }}>
-          InknutAntiqua_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'InknutAntiqua_600SemiBold',
+          }}>
+          Inknut Antiqua Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_700Bold' }}>
-          InknutAntiqua_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'InknutAntiqua_700Bold',
+          }}>
+          Inknut Antiqua Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_800ExtraBold' }}>
-          InknutAntiqua_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'InknutAntiqua_800ExtraBold',
+          }}>
+          Inknut Antiqua Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'InknutAntiqua_900Black' }}>
-          InknutAntiqua_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'InknutAntiqua_900Black',
+          }}>
+          Inknut Antiqua Black
         </Text>
       </View>
     );

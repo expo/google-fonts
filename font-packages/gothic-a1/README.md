@@ -70,40 +70,94 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GothicA1_100Thin' }}>
-          GothicA1_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GothicA1_100Thin',
+          }}>
+          Gothic A1 Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GothicA1_200ExtraLight' }}>
-          GothicA1_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GothicA1_200ExtraLight',
+          }}>
+          Gothic A1 Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GothicA1_300Light' }}>
-          GothicA1_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GothicA1_300Light',
+          }}>
+          Gothic A1 Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GothicA1_400Regular' }}>
-          GothicA1_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GothicA1_400Regular',
+          }}>
+          Gothic A1 Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GothicA1_500Medium' }}>
-          GothicA1_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GothicA1_500Medium',
+          }}>
+          Gothic A1 Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GothicA1_600SemiBold' }}>
-          GothicA1_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GothicA1_600SemiBold',
+          }}>
+          Gothic A1 Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GothicA1_700Bold' }}>
-          GothicA1_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GothicA1_700Bold',
+          }}>
+          Gothic A1 Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GothicA1_800ExtraBold' }}>
-          GothicA1_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GothicA1_800ExtraBold',
+          }}>
+          Gothic A1 Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GothicA1_900Black' }}>
-          GothicA1_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GothicA1_900Black',
+          }}>
+          Gothic A1 Black
         </Text>
       </View>
     );

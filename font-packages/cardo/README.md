@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cardo_400Regular' }}>
-          Cardo_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cardo_400Regular',
+          }}>
+          Cardo Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cardo_400Regular_Italic' }}>
-          Cardo_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cardo_400Regular_Italic',
+          }}>
+          Cardo Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cardo_700Bold' }}>
-          Cardo_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cardo_700Bold',
+          }}>
+          Cardo Bold
         </Text>
       </View>
     );

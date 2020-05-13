@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NanumMyeongjo_400Regular' }}>
-          NanumMyeongjo_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NanumMyeongjo_400Regular',
+          }}>
+          Nanum Myeongjo Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NanumMyeongjo_700Bold' }}>
-          NanumMyeongjo_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NanumMyeongjo_700Bold',
+          }}>
+          Nanum Myeongjo Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NanumMyeongjo_800ExtraBold' }}>
-          NanumMyeongjo_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NanumMyeongjo_800ExtraBold',
+          }}>
+          Nanum Myeongjo Extra Bold
         </Text>
       </View>
     );

@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scada_400Regular' }}>
-          Scada_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Scada_400Regular',
+          }}>
+          Scada Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scada_400Regular_Italic' }}>
-          Scada_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Scada_400Regular_Italic',
+          }}>
+          Scada Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scada_700Bold' }}>
-          Scada_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Scada_700Bold',
+          }}>
+          Scada Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scada_700Bold_Italic' }}>
-          Scada_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Scada_700Bold_Italic',
+          }}>
+          Scada Bold Italic
         </Text>
       </View>
     );

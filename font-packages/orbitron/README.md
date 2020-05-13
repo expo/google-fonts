@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Orbitron_400Regular' }}>
-          Orbitron_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Orbitron_400Regular',
+          }}>
+          Orbitron Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Orbitron_500Medium' }}>
-          Orbitron_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Orbitron_500Medium',
+          }}>
+          Orbitron Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Orbitron_600SemiBold' }}>
-          Orbitron_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Orbitron_600SemiBold',
+          }}>
+          Orbitron Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Orbitron_700Bold' }}>
-          Orbitron_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Orbitron_700Bold',
+          }}>
+          Orbitron Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Orbitron_800ExtraBold' }}>
-          Orbitron_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Orbitron_800ExtraBold',
+          }}>
+          Orbitron Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Orbitron_900Black' }}>
-          Orbitron_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Orbitron_900Black',
+          }}>
+          Orbitron Black
         </Text>
       </View>
     );

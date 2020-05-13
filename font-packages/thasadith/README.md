@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Thasadith_400Regular' }}>
-          Thasadith_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Thasadith_400Regular',
+          }}>
+          Thasadith Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Thasadith_400Regular_Italic' }}>
-          Thasadith_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Thasadith_400Regular_Italic',
+          }}>
+          Thasadith Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Thasadith_700Bold' }}>
-          Thasadith_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Thasadith_700Bold',
+          }}>
+          Thasadith Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Thasadith_700Bold_Italic' }}>
-          Thasadith_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Thasadith_700Bold_Italic',
+          }}>
+          Thasadith Bold Italic
         </Text>
       </View>
     );

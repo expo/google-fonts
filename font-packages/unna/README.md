@@ -55,18 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unna_400Regular' }}>
-          Unna_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Unna_400Regular',
+          }}>
+          Unna Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unna_400Regular_Italic' }}>
-          Unna_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Unna_400Regular_Italic',
+          }}>
+          Unna Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unna_700Bold' }}>Unna_700Bold</Text>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Unna_700Bold',
+          }}>
+          Unna Bold
+        </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Unna_700Bold_Italic' }}>
-          Unna_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Unna_700Bold_Italic',
+          }}>
+          Unna Bold Italic
         </Text>
       </View>
     );

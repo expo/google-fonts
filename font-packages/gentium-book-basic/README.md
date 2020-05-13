@@ -55,21 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GentiumBookBasic_400Regular' }}>
-          GentiumBookBasic_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GentiumBookBasic_400Regular',
+          }}>
+          Gentium Book Basic Regular
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'GentiumBookBasic_400Regular_Italic' }}>
-          GentiumBookBasic_400Regular_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GentiumBookBasic_400Regular_Italic',
+          }}>
+          Gentium Book Basic Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GentiumBookBasic_700Bold' }}>
-          GentiumBookBasic_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GentiumBookBasic_700Bold',
+          }}>
+          Gentium Book Basic Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GentiumBookBasic_700Bold_Italic' }}>
-          GentiumBookBasic_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GentiumBookBasic_700Bold_Italic',
+          }}>
+          Gentium Book Basic Bold Italic
         </Text>
       </View>
     );

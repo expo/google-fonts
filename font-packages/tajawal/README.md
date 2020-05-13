@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tajawal_200ExtraLight' }}>
-          Tajawal_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tajawal_200ExtraLight',
+          }}>
+          Tajawal Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tajawal_300Light' }}>
-          Tajawal_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tajawal_300Light',
+          }}>
+          Tajawal Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tajawal_400Regular' }}>
-          Tajawal_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tajawal_400Regular',
+          }}>
+          Tajawal Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tajawal_500Medium' }}>
-          Tajawal_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tajawal_500Medium',
+          }}>
+          Tajawal Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tajawal_700Bold' }}>
-          Tajawal_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tajawal_700Bold',
+          }}>
+          Tajawal Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tajawal_800ExtraBold' }}>
-          Tajawal_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tajawal_800ExtraBold',
+          }}>
+          Tajawal Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Tajawal_900Black' }}>
-          Tajawal_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Tajawal_900Black',
+          }}>
+          Tajawal Black
         </Text>
       </View>
     );

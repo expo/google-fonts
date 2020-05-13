@@ -97,76 +97,184 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_100Thin' }}>
-          Taviraj_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_100Thin',
+          }}>
+          Taviraj Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_100Thin_Italic' }}>
-          Taviraj_100Thin_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_100Thin_Italic',
+          }}>
+          Taviraj Thin Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_200ExtraLight' }}>
-          Taviraj_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_200ExtraLight',
+          }}>
+          Taviraj Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_200ExtraLight_Italic' }}>
-          Taviraj_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_200ExtraLight_Italic',
+          }}>
+          Taviraj Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_300Light' }}>
-          Taviraj_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_300Light',
+          }}>
+          Taviraj Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_300Light_Italic' }}>
-          Taviraj_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_300Light_Italic',
+          }}>
+          Taviraj Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_400Regular' }}>
-          Taviraj_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_400Regular',
+          }}>
+          Taviraj Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_400Regular_Italic' }}>
-          Taviraj_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_400Regular_Italic',
+          }}>
+          Taviraj Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_500Medium' }}>
-          Taviraj_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_500Medium',
+          }}>
+          Taviraj Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_500Medium_Italic' }}>
-          Taviraj_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_500Medium_Italic',
+          }}>
+          Taviraj Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_600SemiBold' }}>
-          Taviraj_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_600SemiBold',
+          }}>
+          Taviraj Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_600SemiBold_Italic' }}>
-          Taviraj_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_600SemiBold_Italic',
+          }}>
+          Taviraj Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_700Bold' }}>
-          Taviraj_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_700Bold',
+          }}>
+          Taviraj Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_700Bold_Italic' }}>
-          Taviraj_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_700Bold_Italic',
+          }}>
+          Taviraj Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_800ExtraBold' }}>
-          Taviraj_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_800ExtraBold',
+          }}>
+          Taviraj Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_800ExtraBold_Italic' }}>
-          Taviraj_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_800ExtraBold_Italic',
+          }}>
+          Taviraj Extra Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_900Black' }}>
-          Taviraj_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_900Black',
+          }}>
+          Taviraj Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Taviraj_900Black_Italic' }}>
-          Taviraj_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Taviraj_900Black_Italic',
+          }}>
+          Taviraj Black Italic
         </Text>
       </View>
     );

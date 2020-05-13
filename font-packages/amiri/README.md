@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiri_400Regular' }}>
-          Amiri_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Amiri_400Regular',
+          }}>
+          Amiri Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiri_400Regular_Italic' }}>
-          Amiri_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Amiri_400Regular_Italic',
+          }}>
+          Amiri Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiri_700Bold' }}>
-          Amiri_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Amiri_700Bold',
+          }}>
+          Amiri Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Amiri_700Bold_Italic' }}>
-          Amiri_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Amiri_700Bold_Italic',
+          }}>
+          Amiri Bold Italic
         </Text>
       </View>
     );

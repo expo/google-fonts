@@ -49,12 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IMFellDWPica_400Regular' }}>
-          IMFellDWPica_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IMFellDWPica_400Regular',
+          }}>
+          IM Fell DW Pica Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IMFellDWPica_400Regular_Italic' }}>
-          IMFellDWPica_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IMFellDWPica_400Regular_Italic',
+          }}>
+          IM Fell DW Pica Italic
         </Text>
       </View>
     );

@@ -70,40 +70,94 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_100Thin' }}>
-          Inter_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_100Thin',
+          }}>
+          Inter Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_200ExtraLight' }}>
-          Inter_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_200ExtraLight',
+          }}>
+          Inter Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_300Light' }}>
-          Inter_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_300Light',
+          }}>
+          Inter Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_400Regular' }}>
-          Inter_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_400Regular',
+          }}>
+          Inter Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_500Medium' }}>
-          Inter_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_500Medium',
+          }}>
+          Inter Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_600SemiBold' }}>
-          Inter_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_600SemiBold',
+          }}>
+          Inter Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_700Bold' }}>
-          Inter_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_700Bold',
+          }}>
+          Inter Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_800ExtraBold' }}>
-          Inter_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_800ExtraBold',
+          }}>
+          Inter Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Inter_900Black' }}>
-          Inter_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_900Black',
+          }}>
+          Inter Black
         </Text>
       </View>
     );

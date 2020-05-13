@@ -43,8 +43,14 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'PortLligatSlab_400Regular' }}>
-          PortLligatSlab_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PortLligatSlab_400Regular',
+          }}>
+          Port Lligat Slab Regular
         </Text>
       </View>
     );

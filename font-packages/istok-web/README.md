@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IstokWeb_400Regular' }}>
-          IstokWeb_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IstokWeb_400Regular',
+          }}>
+          Istok Web Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IstokWeb_400Regular_Italic' }}>
-          IstokWeb_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IstokWeb_400Regular_Italic',
+          }}>
+          Istok Web Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IstokWeb_700Bold' }}>
-          IstokWeb_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IstokWeb_700Bold',
+          }}>
+          Istok Web Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IstokWeb_700Bold_Italic' }}>
-          IstokWeb_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IstokWeb_700Bold_Italic',
+          }}>
+          Istok Web Bold Italic
         </Text>
       </View>
     );

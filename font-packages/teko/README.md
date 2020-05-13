@@ -58,23 +58,55 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Teko_300Light' }}>
-          Teko_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Teko_300Light',
+          }}>
+          Teko Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Teko_400Regular' }}>
-          Teko_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Teko_400Regular',
+          }}>
+          Teko Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Teko_500Medium' }}>
-          Teko_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Teko_500Medium',
+          }}>
+          Teko Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Teko_600SemiBold' }}>
-          Teko_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Teko_600SemiBold',
+          }}>
+          Teko Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Teko_700Bold' }}>Teko_700Bold</Text>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Teko_700Bold',
+          }}>
+          Teko Bold
+        </Text>
       </View>
     );
   }

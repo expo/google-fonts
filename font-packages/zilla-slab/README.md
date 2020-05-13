@@ -73,44 +73,104 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZillaSlab_300Light' }}>
-          ZillaSlab_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ZillaSlab_300Light',
+          }}>
+          Zilla Slab Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZillaSlab_300Light_Italic' }}>
-          ZillaSlab_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ZillaSlab_300Light_Italic',
+          }}>
+          Zilla Slab Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZillaSlab_400Regular' }}>
-          ZillaSlab_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ZillaSlab_400Regular',
+          }}>
+          Zilla Slab Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZillaSlab_400Regular_Italic' }}>
-          ZillaSlab_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ZillaSlab_400Regular_Italic',
+          }}>
+          Zilla Slab Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZillaSlab_500Medium' }}>
-          ZillaSlab_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ZillaSlab_500Medium',
+          }}>
+          Zilla Slab Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZillaSlab_500Medium_Italic' }}>
-          ZillaSlab_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ZillaSlab_500Medium_Italic',
+          }}>
+          Zilla Slab Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZillaSlab_600SemiBold' }}>
-          ZillaSlab_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ZillaSlab_600SemiBold',
+          }}>
+          Zilla Slab Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZillaSlab_600SemiBold_Italic' }}>
-          ZillaSlab_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ZillaSlab_600SemiBold_Italic',
+          }}>
+          Zilla Slab Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZillaSlab_700Bold' }}>
-          ZillaSlab_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ZillaSlab_700Bold',
+          }}>
+          Zilla Slab Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ZillaSlab_700Bold_Italic' }}>
-          ZillaSlab_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ZillaSlab_700Bold_Italic',
+          }}>
+          Zilla Slab Bold Italic
         </Text>
       </View>
     );

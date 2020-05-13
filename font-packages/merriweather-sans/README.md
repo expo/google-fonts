@@ -67,38 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MerriweatherSans_300Light' }}>
-          MerriweatherSans_300Light
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MerriweatherSans_300Light_Italic' }}>
-          MerriweatherSans_300Light_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MerriweatherSans_400Regular' }}>
-          MerriweatherSans_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MerriweatherSans_300Light',
+          }}>
+          Merriweather Sans Light
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'MerriweatherSans_400Regular_Italic' }}>
-          MerriweatherSans_400Regular_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MerriweatherSans_700Bold' }}>
-          MerriweatherSans_700Bold
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MerriweatherSans_700Bold_Italic' }}>
-          MerriweatherSans_700Bold_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MerriweatherSans_800ExtraBold' }}>
-          MerriweatherSans_800ExtraBold
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MerriweatherSans_300Light_Italic',
+          }}>
+          Merriweather Sans Light Italic
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'MerriweatherSans_800ExtraBold_Italic' }}>
-          MerriweatherSans_800ExtraBold_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MerriweatherSans_400Regular',
+          }}>
+          Merriweather Sans Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MerriweatherSans_400Regular_Italic',
+          }}>
+          Merriweather Sans Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MerriweatherSans_700Bold',
+          }}>
+          Merriweather Sans Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MerriweatherSans_700Bold_Italic',
+          }}>
+          Merriweather Sans Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MerriweatherSans_800ExtraBold',
+          }}>
+          Merriweather Sans Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MerriweatherSans_800ExtraBold_Italic',
+          }}>
+          Merriweather Sans Extra Bold Italic
         </Text>
       </View>
     );

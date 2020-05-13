@@ -61,26 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Aleo_300Light' }}>
-          Aleo_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_300Light',
+          }}>
+          Aleo Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Aleo_300Light_Italic' }}>
-          Aleo_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_300Light_Italic',
+          }}>
+          Aleo Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Aleo_400Regular' }}>
-          Aleo_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_400Regular',
+          }}>
+          Aleo Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Aleo_400Regular_Italic' }}>
-          Aleo_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_400Regular_Italic',
+          }}>
+          Aleo Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Aleo_700Bold' }}>Aleo_700Bold</Text>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_700Bold',
+          }}>
+          Aleo Bold
+        </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Aleo_700Bold_Italic' }}>
-          Aleo_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_700Bold_Italic',
+          }}>
+          Aleo Bold Italic
         </Text>
       </View>
     );

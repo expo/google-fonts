@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Vollkorn_400Regular' }}>
-          Vollkorn_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Vollkorn_400Regular',
+          }}>
+          Vollkorn Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Vollkorn_400Regular_Italic' }}>
-          Vollkorn_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Vollkorn_400Regular_Italic',
+          }}>
+          Vollkorn Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Vollkorn_600SemiBold' }}>
-          Vollkorn_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Vollkorn_600SemiBold',
+          }}>
+          Vollkorn Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Vollkorn_600SemiBold_Italic' }}>
-          Vollkorn_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Vollkorn_600SemiBold_Italic',
+          }}>
+          Vollkorn Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Vollkorn_700Bold' }}>
-          Vollkorn_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Vollkorn_700Bold',
+          }}>
+          Vollkorn Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Vollkorn_700Bold_Italic' }}>
-          Vollkorn_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Vollkorn_700Bold_Italic',
+          }}>
+          Vollkorn Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Vollkorn_900Black' }}>
-          Vollkorn_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Vollkorn_900Black',
+          }}>
+          Vollkorn Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Vollkorn_900Black_Italic' }}>
-          Vollkorn_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Vollkorn_900Black_Italic',
+          }}>
+          Vollkorn Black Italic
         </Text>
       </View>
     );

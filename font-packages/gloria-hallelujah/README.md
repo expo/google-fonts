@@ -43,8 +43,14 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'GloriaHallelujah_400Regular' }}>
-          GloriaHallelujah_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'GloriaHallelujah_400Regular',
+          }}>
+          Gloria Hallelujah Regular
         </Text>
       </View>
     );

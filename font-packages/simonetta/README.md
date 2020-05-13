@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Simonetta_400Regular' }}>
-          Simonetta_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Simonetta_400Regular',
+          }}>
+          Simonetta Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Simonetta_400Regular_Italic' }}>
-          Simonetta_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Simonetta_400Regular_Italic',
+          }}>
+          Simonetta Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Simonetta_900Black' }}>
-          Simonetta_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Simonetta_900Black',
+          }}>
+          Simonetta Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Simonetta_900Black_Italic' }}>
-          Simonetta_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Simonetta_900Black_Italic',
+          }}>
+          Simonetta Black Italic
         </Text>
       </View>
     );

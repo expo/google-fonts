@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSansKR_100Thin' }}>
-          NotoSansKR_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansKR_100Thin',
+          }}>
+          Noto Sans KR Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSansKR_300Light' }}>
-          NotoSansKR_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansKR_300Light',
+          }}>
+          Noto Sans KR Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSansKR_400Regular' }}>
-          NotoSansKR_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansKR_400Regular',
+          }}>
+          Noto Sans KR Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSansKR_500Medium' }}>
-          NotoSansKR_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansKR_500Medium',
+          }}>
+          Noto Sans KR Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSansKR_700Bold' }}>
-          NotoSansKR_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansKR_700Bold',
+          }}>
+          Noto Sans KR Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'NotoSansKR_900Black' }}>
-          NotoSansKR_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansKR_900Black',
+          }}>
+          Noto Sans KR Black
         </Text>
       </View>
     );

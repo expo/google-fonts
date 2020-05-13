@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Philosopher_400Regular' }}>
-          Philosopher_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Philosopher_400Regular',
+          }}>
+          Philosopher Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Philosopher_400Regular_Italic' }}>
-          Philosopher_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Philosopher_400Regular_Italic',
+          }}>
+          Philosopher Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Philosopher_700Bold' }}>
-          Philosopher_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Philosopher_700Bold',
+          }}>
+          Philosopher Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Philosopher_700Bold_Italic' }}>
-          Philosopher_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Philosopher_700Bold_Italic',
+          }}>
+          Philosopher Bold Italic
         </Text>
       </View>
     );

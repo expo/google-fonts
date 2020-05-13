@@ -43,8 +43,14 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'IMFellDWPicaSC_400Regular' }}>
-          IMFellDWPicaSC_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IMFellDWPicaSC_400Regular',
+          }}>
+          IM Fell DW Pica SC Regular
         </Text>
       </View>
     );

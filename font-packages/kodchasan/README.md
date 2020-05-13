@@ -79,52 +79,124 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kodchasan_200ExtraLight' }}>
-          Kodchasan_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kodchasan_200ExtraLight',
+          }}>
+          Kodchasan Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kodchasan_200ExtraLight_Italic' }}>
-          Kodchasan_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kodchasan_200ExtraLight_Italic',
+          }}>
+          Kodchasan Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kodchasan_300Light' }}>
-          Kodchasan_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kodchasan_300Light',
+          }}>
+          Kodchasan Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kodchasan_300Light_Italic' }}>
-          Kodchasan_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kodchasan_300Light_Italic',
+          }}>
+          Kodchasan Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kodchasan_400Regular' }}>
-          Kodchasan_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kodchasan_400Regular',
+          }}>
+          Kodchasan Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kodchasan_400Regular_Italic' }}>
-          Kodchasan_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kodchasan_400Regular_Italic',
+          }}>
+          Kodchasan Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kodchasan_500Medium' }}>
-          Kodchasan_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kodchasan_500Medium',
+          }}>
+          Kodchasan Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kodchasan_500Medium_Italic' }}>
-          Kodchasan_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kodchasan_500Medium_Italic',
+          }}>
+          Kodchasan Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kodchasan_600SemiBold' }}>
-          Kodchasan_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kodchasan_600SemiBold',
+          }}>
+          Kodchasan Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kodchasan_600SemiBold_Italic' }}>
-          Kodchasan_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kodchasan_600SemiBold_Italic',
+          }}>
+          Kodchasan Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kodchasan_700Bold' }}>
-          Kodchasan_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kodchasan_700Bold',
+          }}>
+          Kodchasan Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Kodchasan_700Bold_Italic' }}>
-          Kodchasan_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kodchasan_700Bold_Italic',
+          }}>
+          Kodchasan Bold Italic
         </Text>
       </View>
     );

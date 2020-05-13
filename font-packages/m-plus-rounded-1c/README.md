@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_100Thin' }}>
-          MPLUSRounded1c_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MPLUSRounded1c_100Thin',
+          }}>
+          M PLUS Rounded 1c Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_300Light' }}>
-          MPLUSRounded1c_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MPLUSRounded1c_300Light',
+          }}>
+          M PLUS Rounded 1c Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_400Regular' }}>
-          MPLUSRounded1c_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MPLUSRounded1c_400Regular',
+          }}>
+          M PLUS Rounded 1c Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_500Medium' }}>
-          MPLUSRounded1c_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MPLUSRounded1c_500Medium',
+          }}>
+          M PLUS Rounded 1c Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_700Bold' }}>
-          MPLUSRounded1c_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MPLUSRounded1c_700Bold',
+          }}>
+          M PLUS Rounded 1c Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_800ExtraBold' }}>
-          MPLUSRounded1c_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MPLUSRounded1c_800ExtraBold',
+          }}>
+          M PLUS Rounded 1c Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MPLUSRounded1c_900Black' }}>
-          MPLUSRounded1c_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MPLUSRounded1c_900Black',
+          }}>
+          M PLUS Rounded 1c Black
         </Text>
       </View>
     );

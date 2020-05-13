@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rambla_400Regular' }}>
-          Rambla_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rambla_400Regular',
+          }}>
+          Rambla Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rambla_400Regular_Italic' }}>
-          Rambla_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rambla_400Regular_Italic',
+          }}>
+          Rambla Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rambla_700Bold' }}>
-          Rambla_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rambla_700Bold',
+          }}>
+          Rambla Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rambla_700Bold_Italic' }}>
-          Rambla_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rambla_700Bold_Italic',
+          }}>
+          Rambla Bold Italic
         </Text>
       </View>
     );

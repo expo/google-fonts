@@ -85,60 +85,144 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_100Thin' }}>
-          JosefinSans_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSans_100Thin',
+          }}>
+          Josefin Sans Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_200ExtraLight' }}>
-          JosefinSans_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSans_200ExtraLight',
+          }}>
+          Josefin Sans Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_300Light' }}>
-          JosefinSans_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSans_300Light',
+          }}>
+          Josefin Sans Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_400Regular' }}>
-          JosefinSans_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSans_400Regular',
+          }}>
+          Josefin Sans Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_500Medium' }}>
-          JosefinSans_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSans_500Medium',
+          }}>
+          Josefin Sans Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_600SemiBold' }}>
-          JosefinSans_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSans_600SemiBold',
+          }}>
+          Josefin Sans Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_700Bold' }}>
-          JosefinSans_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSans_700Bold',
+          }}>
+          Josefin Sans Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_100Thin_Italic' }}>
-          JosefinSans_100Thin_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSans_100Thin_Italic',
+          }}>
+          Josefin Sans Thin Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_200ExtraLight_Italic' }}>
-          JosefinSans_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSans_200ExtraLight_Italic',
+          }}>
+          Josefin Sans Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_300Light_Italic' }}>
-          JosefinSans_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSans_300Light_Italic',
+          }}>
+          Josefin Sans Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_400Regular_Italic' }}>
-          JosefinSans_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSans_400Regular_Italic',
+          }}>
+          Josefin Sans Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_500Medium_Italic' }}>
-          JosefinSans_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSans_500Medium_Italic',
+          }}>
+          Josefin Sans Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_600SemiBold_Italic' }}>
-          JosefinSans_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSans_600SemiBold_Italic',
+          }}>
+          Josefin Sans Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'JosefinSans_700Bold_Italic' }}>
-          JosefinSans_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSans_700Bold_Italic',
+          }}>
+          Josefin Sans Bold Italic
         </Text>
       </View>
     );

@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DMSans_400Regular' }}>
-          DMSans_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_400Regular',
+          }}>
+          DM Sans Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DMSans_400Regular_Italic' }}>
-          DMSans_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_400Regular_Italic',
+          }}>
+          DM Sans Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DMSans_500Medium' }}>
-          DMSans_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_500Medium',
+          }}>
+          DM Sans Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DMSans_500Medium_Italic' }}>
-          DMSans_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_500Medium_Italic',
+          }}>
+          DM Sans Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DMSans_700Bold' }}>
-          DMSans_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_700Bold',
+          }}>
+          DM Sans Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DMSans_700Bold_Italic' }}>
-          DMSans_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_700Bold_Italic',
+          }}>
+          DM Sans Bold Italic
         </Text>
       </View>
     );

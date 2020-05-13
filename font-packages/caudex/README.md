@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caudex_400Regular' }}>
-          Caudex_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Caudex_400Regular',
+          }}>
+          Caudex Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caudex_400Regular_Italic' }}>
-          Caudex_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Caudex_400Regular_Italic',
+          }}>
+          Caudex Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caudex_700Bold' }}>
-          Caudex_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Caudex_700Bold',
+          }}>
+          Caudex Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Caudex_700Bold_Italic' }}>
-          Caudex_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Caudex_700Bold_Italic',
+          }}>
+          Caudex Bold Italic
         </Text>
       </View>
     );

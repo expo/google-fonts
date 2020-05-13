@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AsapCondensed_400Regular' }}>
-          AsapCondensed_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AsapCondensed_400Regular',
+          }}>
+          Asap Condensed Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AsapCondensed_400Regular_Italic' }}>
-          AsapCondensed_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AsapCondensed_400Regular_Italic',
+          }}>
+          Asap Condensed Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AsapCondensed_500Medium' }}>
-          AsapCondensed_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AsapCondensed_500Medium',
+          }}>
+          Asap Condensed Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AsapCondensed_500Medium_Italic' }}>
-          AsapCondensed_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AsapCondensed_500Medium_Italic',
+          }}>
+          Asap Condensed Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AsapCondensed_600SemiBold' }}>
-          AsapCondensed_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AsapCondensed_600SemiBold',
+          }}>
+          Asap Condensed Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AsapCondensed_600SemiBold_Italic' }}>
-          AsapCondensed_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AsapCondensed_600SemiBold_Italic',
+          }}>
+          Asap Condensed Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AsapCondensed_700Bold' }}>
-          AsapCondensed_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AsapCondensed_700Bold',
+          }}>
+          Asap Condensed Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AsapCondensed_700Bold_Italic' }}>
-          AsapCondensed_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AsapCondensed_700Bold_Italic',
+          }}>
+          Asap Condensed Bold Italic
         </Text>
       </View>
     );

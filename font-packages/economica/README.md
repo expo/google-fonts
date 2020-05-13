@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Economica_400Regular' }}>
-          Economica_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Economica_400Regular',
+          }}>
+          Economica Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Economica_400Regular_Italic' }}>
-          Economica_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Economica_400Regular_Italic',
+          }}>
+          Economica Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Economica_700Bold' }}>
-          Economica_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Economica_700Bold',
+          }}>
+          Economica Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Economica_700Bold_Italic' }}>
-          Economica_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Economica_700Bold_Italic',
+          }}>
+          Economica Bold Italic
         </Text>
       </View>
     );

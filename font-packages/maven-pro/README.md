@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MavenPro_400Regular' }}>
-          MavenPro_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MavenPro_400Regular',
+          }}>
+          Maven Pro Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MavenPro_500Medium' }}>
-          MavenPro_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MavenPro_500Medium',
+          }}>
+          Maven Pro Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MavenPro_600SemiBold' }}>
-          MavenPro_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MavenPro_600SemiBold',
+          }}>
+          Maven Pro Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MavenPro_700Bold' }}>
-          MavenPro_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MavenPro_700Bold',
+          }}>
+          Maven Pro Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MavenPro_800ExtraBold' }}>
-          MavenPro_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MavenPro_800ExtraBold',
+          }}>
+          Maven Pro Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MavenPro_900Black' }}>
-          MavenPro_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MavenPro_900Black',
+          }}>
+          Maven Pro Black
         </Text>
       </View>
     );

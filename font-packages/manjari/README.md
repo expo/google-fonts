@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manjari_100Thin' }}>
-          Manjari_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manjari_100Thin',
+          }}>
+          Manjari Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manjari_400Regular' }}>
-          Manjari_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manjari_400Regular',
+          }}>
+          Manjari Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manjari_700Bold' }}>
-          Manjari_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manjari_700Bold',
+          }}>
+          Manjari Bold
         </Text>
       </View>
     );

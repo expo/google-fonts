@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_400Regular' }}>
-          Gelasio_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gelasio_400Regular',
+          }}>
+          Gelasio Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_400Regular_Italic' }}>
-          Gelasio_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gelasio_400Regular_Italic',
+          }}>
+          Gelasio Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_500Medium' }}>
-          Gelasio_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gelasio_500Medium',
+          }}>
+          Gelasio Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_500Medium_Italic' }}>
-          Gelasio_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gelasio_500Medium_Italic',
+          }}>
+          Gelasio Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_600SemiBold' }}>
-          Gelasio_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gelasio_600SemiBold',
+          }}>
+          Gelasio Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_600SemiBold_Italic' }}>
-          Gelasio_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gelasio_600SemiBold_Italic',
+          }}>
+          Gelasio Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_700Bold' }}>
-          Gelasio_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gelasio_700Bold',
+          }}>
+          Gelasio Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Gelasio_700Bold_Italic' }}>
-          Gelasio_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gelasio_700Bold_Italic',
+          }}>
+          Gelasio Bold Italic
         </Text>
       </View>
     );

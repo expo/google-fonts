@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cantarell_400Regular' }}>
-          Cantarell_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cantarell_400Regular',
+          }}>
+          Cantarell Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cantarell_400Regular_Italic' }}>
-          Cantarell_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cantarell_400Regular_Italic',
+          }}>
+          Cantarell Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cantarell_700Bold' }}>
-          Cantarell_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cantarell_700Bold',
+          }}>
+          Cantarell Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cantarell_700Bold_Italic' }}>
-          Cantarell_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cantarell_700Bold_Italic',
+          }}>
+          Cantarell Bold Italic
         </Text>
       </View>
     );

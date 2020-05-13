@@ -58,23 +58,55 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yrsa_300Light' }}>
-          Yrsa_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Yrsa_300Light',
+          }}>
+          Yrsa Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yrsa_400Regular' }}>
-          Yrsa_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Yrsa_400Regular',
+          }}>
+          Yrsa Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yrsa_500Medium' }}>
-          Yrsa_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Yrsa_500Medium',
+          }}>
+          Yrsa Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yrsa_600SemiBold' }}>
-          Yrsa_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Yrsa_600SemiBold',
+          }}>
+          Yrsa Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yrsa_700Bold' }}>Yrsa_700Bold</Text>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Yrsa_700Bold',
+          }}>
+          Yrsa Bold
+        </Text>
       </View>
     );
   }

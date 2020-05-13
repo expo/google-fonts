@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rajdhani_300Light' }}>
-          Rajdhani_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rajdhani_300Light',
+          }}>
+          Rajdhani Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rajdhani_400Regular' }}>
-          Rajdhani_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rajdhani_400Regular',
+          }}>
+          Rajdhani Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rajdhani_500Medium' }}>
-          Rajdhani_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rajdhani_500Medium',
+          }}>
+          Rajdhani Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rajdhani_600SemiBold' }}>
-          Rajdhani_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rajdhani_600SemiBold',
+          }}>
+          Rajdhani Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rajdhani_700Bold' }}>
-          Rajdhani_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rajdhani_700Bold',
+          }}>
+          Rajdhani Bold
         </Text>
       </View>
     );

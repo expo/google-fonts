@@ -85,61 +85,144 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSansSC_100Thin' }}>
-          AlegreyaSansSC_100Thin
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSansSC_100Thin_Italic' }}>
-          AlegreyaSansSC_100Thin_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSansSC_300Light' }}>
-          AlegreyaSansSC_300Light
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSansSC_300Light_Italic' }}>
-          AlegreyaSansSC_300Light_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSansSC_400Regular' }}>
-          AlegreyaSansSC_400Regular
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSansSC_400Regular_Italic' }}>
-          AlegreyaSansSC_400Regular_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSansSC_500Medium' }}>
-          AlegreyaSansSC_500Medium
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSansSC_500Medium_Italic' }}>
-          AlegreyaSansSC_500Medium_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSansSC_700Bold' }}>
-          AlegreyaSansSC_700Bold
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSansSC_700Bold_Italic' }}>
-          AlegreyaSansSC_700Bold_Italic
-        </Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSansSC_800ExtraBold' }}>
-          AlegreyaSansSC_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AlegreyaSansSC_100Thin',
+          }}>
+          Alegreya Sans SC Thin
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSansSC_800ExtraBold_Italic' }}>
-          AlegreyaSansSC_800ExtraBold_Italic
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AlegreyaSansSC_100Thin_Italic',
+          }}>
+          Alegreya Sans SC Thin Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSansSC_900Black' }}>
-          AlegreyaSansSC_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AlegreyaSansSC_300Light',
+          }}>
+          Alegreya Sans SC Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'AlegreyaSansSC_900Black_Italic' }}>
-          AlegreyaSansSC_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AlegreyaSansSC_300Light_Italic',
+          }}>
+          Alegreya Sans SC Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AlegreyaSansSC_400Regular',
+          }}>
+          Alegreya Sans SC Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AlegreyaSansSC_400Regular_Italic',
+          }}>
+          Alegreya Sans SC Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AlegreyaSansSC_500Medium',
+          }}>
+          Alegreya Sans SC Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AlegreyaSansSC_500Medium_Italic',
+          }}>
+          Alegreya Sans SC Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AlegreyaSansSC_700Bold',
+          }}>
+          Alegreya Sans SC Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AlegreyaSansSC_700Bold_Italic',
+          }}>
+          Alegreya Sans SC Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AlegreyaSansSC_800ExtraBold',
+          }}>
+          Alegreya Sans SC Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AlegreyaSansSC_800ExtraBold_Italic',
+          }}>
+          Alegreya Sans SC Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AlegreyaSansSC_900Black',
+          }}>
+          Alegreya Sans SC Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AlegreyaSansSC_900Black_Italic',
+          }}>
+          Alegreya Sans SC Black Italic
         </Text>
       </View>
     );

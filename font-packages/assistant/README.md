@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_200ExtraLight' }}>
-          Assistant_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Assistant_200ExtraLight',
+          }}>
+          Assistant Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_300Light' }}>
-          Assistant_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Assistant_300Light',
+          }}>
+          Assistant Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_400Regular' }}>
-          Assistant_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Assistant_400Regular',
+          }}>
+          Assistant Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_600SemiBold' }}>
-          Assistant_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Assistant_600SemiBold',
+          }}>
+          Assistant Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_700Bold' }}>
-          Assistant_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Assistant_700Bold',
+          }}>
+          Assistant Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Assistant_800ExtraBold' }}>
-          Assistant_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Assistant_800ExtraBold',
+          }}>
+          Assistant Extra Bold
         </Text>
       </View>
     );

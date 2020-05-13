@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ExpletusSans_400Regular' }}>
-          ExpletusSans_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ExpletusSans_400Regular',
+          }}>
+          Expletus Sans Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ExpletusSans_400Regular_Italic' }}>
-          ExpletusSans_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ExpletusSans_400Regular_Italic',
+          }}>
+          Expletus Sans Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ExpletusSans_500Medium' }}>
-          ExpletusSans_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ExpletusSans_500Medium',
+          }}>
+          Expletus Sans Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ExpletusSans_500Medium_Italic' }}>
-          ExpletusSans_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ExpletusSans_500Medium_Italic',
+          }}>
+          Expletus Sans Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ExpletusSans_600SemiBold' }}>
-          ExpletusSans_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ExpletusSans_600SemiBold',
+          }}>
+          Expletus Sans Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ExpletusSans_600SemiBold_Italic' }}>
-          ExpletusSans_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ExpletusSans_600SemiBold_Italic',
+          }}>
+          Expletus Sans Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ExpletusSans_700Bold' }}>
-          ExpletusSans_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ExpletusSans_700Bold',
+          }}>
+          Expletus Sans Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ExpletusSans_700Bold_Italic' }}>
-          ExpletusSans_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ExpletusSans_700Bold_Italic',
+          }}>
+          Expletus Sans Bold Italic
         </Text>
       </View>
     );

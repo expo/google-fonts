@@ -45,12 +45,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sniglet_400Regular' }}>
-          Sniglet_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sniglet_400Regular',
+          }}>
+          Sniglet Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sniglet_800ExtraBold' }}>
-          Sniglet_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sniglet_800ExtraBold',
+          }}>
+          Sniglet Extra Bold
         </Text>
       </View>
     );

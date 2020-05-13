@@ -97,76 +97,184 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_100Thin' }}>
-          Raleway_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_100Thin',
+          }}>
+          Raleway Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_100Thin_Italic' }}>
-          Raleway_100Thin_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_100Thin_Italic',
+          }}>
+          Raleway Thin Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_200ExtraLight' }}>
-          Raleway_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_200ExtraLight',
+          }}>
+          Raleway Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_200ExtraLight_Italic' }}>
-          Raleway_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_200ExtraLight_Italic',
+          }}>
+          Raleway Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_300Light' }}>
-          Raleway_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_300Light',
+          }}>
+          Raleway Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_300Light_Italic' }}>
-          Raleway_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_300Light_Italic',
+          }}>
+          Raleway Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_400Regular' }}>
-          Raleway_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_400Regular',
+          }}>
+          Raleway Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_400Regular_Italic' }}>
-          Raleway_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_400Regular_Italic',
+          }}>
+          Raleway Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_500Medium' }}>
-          Raleway_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_500Medium',
+          }}>
+          Raleway Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_500Medium_Italic' }}>
-          Raleway_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_500Medium_Italic',
+          }}>
+          Raleway Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_600SemiBold' }}>
-          Raleway_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_600SemiBold',
+          }}>
+          Raleway Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_600SemiBold_Italic' }}>
-          Raleway_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_600SemiBold_Italic',
+          }}>
+          Raleway Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_700Bold' }}>
-          Raleway_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_700Bold',
+          }}>
+          Raleway Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_700Bold_Italic' }}>
-          Raleway_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_700Bold_Italic',
+          }}>
+          Raleway Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_800ExtraBold' }}>
-          Raleway_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_800ExtraBold',
+          }}>
+          Raleway Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_800ExtraBold_Italic' }}>
-          Raleway_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_800ExtraBold_Italic',
+          }}>
+          Raleway Extra Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_900Black' }}>
-          Raleway_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_900Black',
+          }}>
+          Raleway Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Raleway_900Black_Italic' }}>
-          Raleway_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_900Black_Italic',
+          }}>
+          Raleway Black Italic
         </Text>
       </View>
     );

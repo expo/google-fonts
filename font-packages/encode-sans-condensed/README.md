@@ -70,41 +70,94 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansCondensed_100Thin' }}>
-          EncodeSansCondensed_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSansCondensed_100Thin',
+          }}>
+          Encode Sans Condensed Thin
         </Text>
 
         <Text
-          style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansCondensed_200ExtraLight' }}>
-          EncodeSansCondensed_200ExtraLight
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSansCondensed_200ExtraLight',
+          }}>
+          Encode Sans Condensed Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansCondensed_300Light' }}>
-          EncodeSansCondensed_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSansCondensed_300Light',
+          }}>
+          Encode Sans Condensed Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansCondensed_400Regular' }}>
-          EncodeSansCondensed_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSansCondensed_400Regular',
+          }}>
+          Encode Sans Condensed Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansCondensed_500Medium' }}>
-          EncodeSansCondensed_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSansCondensed_500Medium',
+          }}>
+          Encode Sans Condensed Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansCondensed_600SemiBold' }}>
-          EncodeSansCondensed_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSansCondensed_600SemiBold',
+          }}>
+          Encode Sans Condensed Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansCondensed_700Bold' }}>
-          EncodeSansCondensed_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSansCondensed_700Bold',
+          }}>
+          Encode Sans Condensed Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansCondensed_800ExtraBold' }}>
-          EncodeSansCondensed_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSansCondensed_800ExtraBold',
+          }}>
+          Encode Sans Condensed Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'EncodeSansCondensed_900Black' }}>
-          EncodeSansCondensed_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'EncodeSansCondensed_900Black',
+          }}>
+          Encode Sans Condensed Black
         </Text>
       </View>
     );

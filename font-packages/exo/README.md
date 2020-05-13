@@ -97,68 +97,184 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_100Thin' }}>Exo_100Thin</Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_200ExtraLight' }}>
-          Exo_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_100Thin',
+          }}>
+          Exo Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_300Light' }}>Exo_300Light</Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_400Regular' }}>
-          Exo_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_200ExtraLight',
+          }}>
+          Exo Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_500Medium' }}>
-          Exo_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_300Light',
+          }}>
+          Exo Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_600SemiBold' }}>
-          Exo_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_400Regular',
+          }}>
+          Exo Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_700Bold' }}>Exo_700Bold</Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_800ExtraBold' }}>
-          Exo_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_500Medium',
+          }}>
+          Exo Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_900Black' }}>Exo_900Black</Text>
-
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_100Thin_Italic' }}>
-          Exo_100Thin_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_600SemiBold',
+          }}>
+          Exo Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_200ExtraLight_Italic' }}>
-          Exo_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_700Bold',
+          }}>
+          Exo Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_300Light_Italic' }}>
-          Exo_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_800ExtraBold',
+          }}>
+          Exo Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_400Regular_Italic' }}>
-          Exo_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_900Black',
+          }}>
+          Exo Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_500Medium_Italic' }}>
-          Exo_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_100Thin_Italic',
+          }}>
+          Exo Thin Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_600SemiBold_Italic' }}>
-          Exo_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_200ExtraLight_Italic',
+          }}>
+          Exo Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_700Bold_Italic' }}>
-          Exo_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_300Light_Italic',
+          }}>
+          Exo Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_800ExtraBold_Italic' }}>
-          Exo_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_400Regular_Italic',
+          }}>
+          Exo Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Exo_900Black_Italic' }}>
-          Exo_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_500Medium_Italic',
+          }}>
+          Exo Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_600SemiBold_Italic',
+          }}>
+          Exo Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_700Bold_Italic',
+          }}>
+          Exo Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_800ExtraBold_Italic',
+          }}>
+          Exo Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Exo_900Black_Italic',
+          }}>
+          Exo Black Italic
         </Text>
       </View>
     );

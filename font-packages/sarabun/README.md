@@ -91,68 +91,164 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarabun_100Thin' }}>
-          Sarabun_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarabun_100Thin',
+          }}>
+          Sarabun Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarabun_100Thin_Italic' }}>
-          Sarabun_100Thin_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarabun_100Thin_Italic',
+          }}>
+          Sarabun Thin Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarabun_200ExtraLight' }}>
-          Sarabun_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarabun_200ExtraLight',
+          }}>
+          Sarabun Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarabun_200ExtraLight_Italic' }}>
-          Sarabun_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarabun_200ExtraLight_Italic',
+          }}>
+          Sarabun Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarabun_300Light' }}>
-          Sarabun_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarabun_300Light',
+          }}>
+          Sarabun Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarabun_300Light_Italic' }}>
-          Sarabun_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarabun_300Light_Italic',
+          }}>
+          Sarabun Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarabun_400Regular' }}>
-          Sarabun_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarabun_400Regular',
+          }}>
+          Sarabun Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarabun_400Regular_Italic' }}>
-          Sarabun_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarabun_400Regular_Italic',
+          }}>
+          Sarabun Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarabun_500Medium' }}>
-          Sarabun_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarabun_500Medium',
+          }}>
+          Sarabun Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarabun_500Medium_Italic' }}>
-          Sarabun_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarabun_500Medium_Italic',
+          }}>
+          Sarabun Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarabun_600SemiBold' }}>
-          Sarabun_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarabun_600SemiBold',
+          }}>
+          Sarabun Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarabun_600SemiBold_Italic' }}>
-          Sarabun_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarabun_600SemiBold_Italic',
+          }}>
+          Sarabun Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarabun_700Bold' }}>
-          Sarabun_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarabun_700Bold',
+          }}>
+          Sarabun Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarabun_700Bold_Italic' }}>
-          Sarabun_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarabun_700Bold_Italic',
+          }}>
+          Sarabun Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarabun_800ExtraBold' }}>
-          Sarabun_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarabun_800ExtraBold',
+          }}>
+          Sarabun Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sarabun_800ExtraBold_Italic' }}>
-          Sarabun_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sarabun_800ExtraBold_Italic',
+          }}>
+          Sarabun Extra Bold Italic
         </Text>
       </View>
     );

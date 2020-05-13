@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Laila_300Light' }}>
-          Laila_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Laila_300Light',
+          }}>
+          Laila Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Laila_400Regular' }}>
-          Laila_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Laila_400Regular',
+          }}>
+          Laila Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Laila_500Medium' }}>
-          Laila_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Laila_500Medium',
+          }}>
+          Laila Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Laila_600SemiBold' }}>
-          Laila_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Laila_600SemiBold',
+          }}>
+          Laila Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Laila_700Bold' }}>
-          Laila_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Laila_700Bold',
+          }}>
+          Laila Bold
         </Text>
       </View>
     );

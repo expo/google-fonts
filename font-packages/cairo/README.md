@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cairo_200ExtraLight' }}>
-          Cairo_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cairo_200ExtraLight',
+          }}>
+          Cairo Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cairo_300Light' }}>
-          Cairo_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cairo_300Light',
+          }}>
+          Cairo Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cairo_400Regular' }}>
-          Cairo_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cairo_400Regular',
+          }}>
+          Cairo Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cairo_600SemiBold' }}>
-          Cairo_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cairo_600SemiBold',
+          }}>
+          Cairo Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cairo_700Bold' }}>
-          Cairo_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cairo_700Bold',
+          }}>
+          Cairo Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cairo_900Black' }}>
-          Cairo_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cairo_900Black',
+          }}>
+          Cairo Black
         </Text>
       </View>
     );

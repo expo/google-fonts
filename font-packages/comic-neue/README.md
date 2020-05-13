@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_300Light' }}>
-          ComicNeue_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ComicNeue_300Light',
+          }}>
+          Comic Neue Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_300Light_Italic' }}>
-          ComicNeue_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ComicNeue_300Light_Italic',
+          }}>
+          Comic Neue Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_400Regular' }}>
-          ComicNeue_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ComicNeue_400Regular',
+          }}>
+          Comic Neue Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_400Regular_Italic' }}>
-          ComicNeue_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ComicNeue_400Regular_Italic',
+          }}>
+          Comic Neue Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_700Bold' }}>
-          ComicNeue_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ComicNeue_700Bold',
+          }}>
+          Comic Neue Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ComicNeue_700Bold_Italic' }}>
-          ComicNeue_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ComicNeue_700Bold_Italic',
+          }}>
+          Comic Neue Bold Italic
         </Text>
       </View>
     );

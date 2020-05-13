@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_200ExtraLight' }}>
-          Oswald_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Oswald_200ExtraLight',
+          }}>
+          Oswald Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_300Light' }}>
-          Oswald_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Oswald_300Light',
+          }}>
+          Oswald Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_400Regular' }}>
-          Oswald_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Oswald_400Regular',
+          }}>
+          Oswald Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_500Medium' }}>
-          Oswald_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Oswald_500Medium',
+          }}>
+          Oswald Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_600SemiBold' }}>
-          Oswald_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Oswald_600SemiBold',
+          }}>
+          Oswald Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Oswald_700Bold' }}>
-          Oswald_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Oswald_700Bold',
+          }}>
+          Oswald Bold
         </Text>
       </View>
     );

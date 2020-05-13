@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_400Regular' }}>
-          Manuale_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manuale_400Regular',
+          }}>
+          Manuale Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_500Medium' }}>
-          Manuale_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manuale_500Medium',
+          }}>
+          Manuale Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_600SemiBold' }}>
-          Manuale_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manuale_600SemiBold',
+          }}>
+          Manuale Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_700Bold' }}>
-          Manuale_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manuale_700Bold',
+          }}>
+          Manuale Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_400Regular_Italic' }}>
-          Manuale_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manuale_400Regular_Italic',
+          }}>
+          Manuale Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_500Medium_Italic' }}>
-          Manuale_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manuale_500Medium_Italic',
+          }}>
+          Manuale Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_600SemiBold_Italic' }}>
-          Manuale_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manuale_600SemiBold_Italic',
+          }}>
+          Manuale Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Manuale_700Bold_Italic' }}>
-          Manuale_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manuale_700Bold_Italic',
+          }}>
+          Manuale Bold Italic
         </Text>
       </View>
     );

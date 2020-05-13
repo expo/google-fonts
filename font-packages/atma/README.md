@@ -58,23 +58,55 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Atma_300Light' }}>
-          Atma_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Atma_300Light',
+          }}>
+          Atma Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Atma_400Regular' }}>
-          Atma_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Atma_400Regular',
+          }}>
+          Atma Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Atma_500Medium' }}>
-          Atma_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Atma_500Medium',
+          }}>
+          Atma Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Atma_600SemiBold' }}>
-          Atma_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Atma_600SemiBold',
+          }}>
+          Atma Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Atma_700Bold' }}>Atma_700Bold</Text>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Atma_700Bold',
+          }}>
+          Atma Bold
+        </Text>
       </View>
     );
   }

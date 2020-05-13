@@ -70,40 +70,94 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spartan_100Thin' }}>
-          Spartan_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spartan_100Thin',
+          }}>
+          Spartan Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spartan_200ExtraLight' }}>
-          Spartan_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spartan_200ExtraLight',
+          }}>
+          Spartan Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spartan_300Light' }}>
-          Spartan_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spartan_300Light',
+          }}>
+          Spartan Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spartan_400Regular' }}>
-          Spartan_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spartan_400Regular',
+          }}>
+          Spartan Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spartan_500Medium' }}>
-          Spartan_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spartan_500Medium',
+          }}>
+          Spartan Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spartan_600SemiBold' }}>
-          Spartan_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spartan_600SemiBold',
+          }}>
+          Spartan Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spartan_700Bold' }}>
-          Spartan_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spartan_700Bold',
+          }}>
+          Spartan Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spartan_800ExtraBold' }}>
-          Spartan_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spartan_800ExtraBold',
+          }}>
+          Spartan Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Spartan_900Black' }}>
-          Spartan_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Spartan_900Black',
+          }}>
+          Spartan Black
         </Text>
       </View>
     );

@@ -85,60 +85,144 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_200ExtraLight' }}>
-          Nunito_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_200ExtraLight',
+          }}>
+          Nunito Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_200ExtraLight_Italic' }}>
-          Nunito_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_200ExtraLight_Italic',
+          }}>
+          Nunito Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_300Light' }}>
-          Nunito_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_300Light',
+          }}>
+          Nunito Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_300Light_Italic' }}>
-          Nunito_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_300Light_Italic',
+          }}>
+          Nunito Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_400Regular' }}>
-          Nunito_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_400Regular',
+          }}>
+          Nunito Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_400Regular_Italic' }}>
-          Nunito_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_400Regular_Italic',
+          }}>
+          Nunito Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_600SemiBold' }}>
-          Nunito_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_600SemiBold',
+          }}>
+          Nunito Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_600SemiBold_Italic' }}>
-          Nunito_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_600SemiBold_Italic',
+          }}>
+          Nunito Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_700Bold' }}>
-          Nunito_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_700Bold',
+          }}>
+          Nunito Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_700Bold_Italic' }}>
-          Nunito_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_700Bold_Italic',
+          }}>
+          Nunito Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_800ExtraBold' }}>
-          Nunito_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_800ExtraBold',
+          }}>
+          Nunito Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_800ExtraBold_Italic' }}>
-          Nunito_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_800ExtraBold_Italic',
+          }}>
+          Nunito Extra Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_900Black' }}>
-          Nunito_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_900Black',
+          }}>
+          Nunito Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Nunito_900Black_Italic' }}>
-          Nunito_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_900Black_Italic',
+          }}>
+          Nunito Black Italic
         </Text>
       </View>
     );

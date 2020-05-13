@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sunflower_300Light' }}>
-          Sunflower_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sunflower_300Light',
+          }}>
+          Sunflower Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sunflower_500Medium' }}>
-          Sunflower_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sunflower_500Medium',
+          }}>
+          Sunflower Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Sunflower_700Bold' }}>
-          Sunflower_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sunflower_700Bold',
+          }}>
+          Sunflower Bold
         </Text>
       </View>
     );

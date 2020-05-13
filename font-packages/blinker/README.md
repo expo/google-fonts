@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_100Thin' }}>
-          Blinker_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Blinker_100Thin',
+          }}>
+          Blinker Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_200ExtraLight' }}>
-          Blinker_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Blinker_200ExtraLight',
+          }}>
+          Blinker Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_300Light' }}>
-          Blinker_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Blinker_300Light',
+          }}>
+          Blinker Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_400Regular' }}>
-          Blinker_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Blinker_400Regular',
+          }}>
+          Blinker Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_600SemiBold' }}>
-          Blinker_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Blinker_600SemiBold',
+          }}>
+          Blinker Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_700Bold' }}>
-          Blinker_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Blinker_700Bold',
+          }}>
+          Blinker Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_800ExtraBold' }}>
-          Blinker_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Blinker_800ExtraBold',
+          }}>
+          Blinker Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Blinker_900Black' }}>
-          Blinker_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Blinker_900Black',
+          }}>
+          Blinker Black
         </Text>
       </View>
     );

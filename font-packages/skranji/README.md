@@ -45,12 +45,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Skranji_400Regular' }}>
-          Skranji_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Skranji_400Regular',
+          }}>
+          Skranji Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Skranji_700Bold' }}>
-          Skranji_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Skranji_700Bold',
+          }}>
+          Skranji Bold
         </Text>
       </View>
     );

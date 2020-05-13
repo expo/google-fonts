@@ -49,12 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChangaOne_400Regular' }}>
-          ChangaOne_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ChangaOne_400Regular',
+          }}>
+          Changa One Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'ChangaOne_400Regular_Italic' }}>
-          ChangaOne_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ChangaOne_400Regular_Italic',
+          }}>
+          Changa One Italic
         </Text>
       </View>
     );

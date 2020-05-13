@@ -49,12 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MountainsofChristmas_400Regular' }}>
-          MountainsofChristmas_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MountainsofChristmas_400Regular',
+          }}>
+          Mountains of Christmas Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MountainsofChristmas_700Bold' }}>
-          MountainsofChristmas_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MountainsofChristmas_700Bold',
+          }}>
+          Mountains of Christmas Bold
         </Text>
       </View>
     );

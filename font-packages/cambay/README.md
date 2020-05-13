@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cambay_400Regular' }}>
-          Cambay_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cambay_400Regular',
+          }}>
+          Cambay Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cambay_400Regular_Italic' }}>
-          Cambay_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cambay_400Regular_Italic',
+          }}>
+          Cambay Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cambay_700Bold' }}>
-          Cambay_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cambay_700Bold',
+          }}>
+          Cambay Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Cambay_700Bold_Italic' }}>
-          Cambay_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cambay_700Bold_Italic',
+          }}>
+          Cambay Bold Italic
         </Text>
       </View>
     );

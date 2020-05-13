@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BellotaText_300Light' }}>
-          BellotaText_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BellotaText_300Light',
+          }}>
+          Bellota Text Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BellotaText_300Light_Italic' }}>
-          BellotaText_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BellotaText_300Light_Italic',
+          }}>
+          Bellota Text Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BellotaText_400Regular' }}>
-          BellotaText_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BellotaText_400Regular',
+          }}>
+          Bellota Text Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BellotaText_400Regular_Italic' }}>
-          BellotaText_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BellotaText_400Regular_Italic',
+          }}>
+          Bellota Text Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BellotaText_700Bold' }}>
-          BellotaText_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BellotaText_700Bold',
+          }}>
+          Bellota Text Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'BellotaText_700Bold_Italic' }}>
-          BellotaText_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BellotaText_700Bold_Italic',
+          }}>
+          Bellota Text Bold Italic
         </Text>
       </View>
     );

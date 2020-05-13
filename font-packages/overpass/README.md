@@ -91,68 +91,164 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overpass_100Thin' }}>
-          Overpass_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_100Thin',
+          }}>
+          Overpass Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overpass_100Thin_Italic' }}>
-          Overpass_100Thin_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_100Thin_Italic',
+          }}>
+          Overpass Thin Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overpass_200ExtraLight' }}>
-          Overpass_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_200ExtraLight',
+          }}>
+          Overpass Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overpass_200ExtraLight_Italic' }}>
-          Overpass_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_200ExtraLight_Italic',
+          }}>
+          Overpass Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overpass_300Light' }}>
-          Overpass_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_300Light',
+          }}>
+          Overpass Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overpass_300Light_Italic' }}>
-          Overpass_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_300Light_Italic',
+          }}>
+          Overpass Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overpass_400Regular' }}>
-          Overpass_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_400Regular',
+          }}>
+          Overpass Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overpass_400Regular_Italic' }}>
-          Overpass_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_400Regular_Italic',
+          }}>
+          Overpass Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overpass_600SemiBold' }}>
-          Overpass_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_600SemiBold',
+          }}>
+          Overpass Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overpass_600SemiBold_Italic' }}>
-          Overpass_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_600SemiBold_Italic',
+          }}>
+          Overpass Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overpass_700Bold' }}>
-          Overpass_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_700Bold',
+          }}>
+          Overpass Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overpass_700Bold_Italic' }}>
-          Overpass_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_700Bold_Italic',
+          }}>
+          Overpass Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overpass_800ExtraBold' }}>
-          Overpass_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_800ExtraBold',
+          }}>
+          Overpass Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overpass_800ExtraBold_Italic' }}>
-          Overpass_800ExtraBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_800ExtraBold_Italic',
+          }}>
+          Overpass Extra Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overpass_900Black' }}>
-          Overpass_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_900Black',
+          }}>
+          Overpass Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Overpass_900Black_Italic' }}>
-          Overpass_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_900Black_Italic',
+          }}>
+          Overpass Black Italic
         </Text>
       </View>
     );

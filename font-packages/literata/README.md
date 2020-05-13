@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_400Regular' }}>
-          Literata_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Literata_400Regular',
+          }}>
+          Literata Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_500Medium' }}>
-          Literata_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Literata_500Medium',
+          }}>
+          Literata Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_600SemiBold' }}>
-          Literata_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Literata_600SemiBold',
+          }}>
+          Literata Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_700Bold' }}>
-          Literata_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Literata_700Bold',
+          }}>
+          Literata Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_400Regular_Italic' }}>
-          Literata_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Literata_400Regular_Italic',
+          }}>
+          Literata Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_500Medium_Italic' }}>
-          Literata_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Literata_500Medium_Italic',
+          }}>
+          Literata Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_600SemiBold_Italic' }}>
-          Literata_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Literata_600SemiBold_Italic',
+          }}>
+          Literata Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Literata_700Bold_Italic' }}>
-          Literata_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Literata_700Bold_Italic',
+          }}>
+          Literata Bold Italic
         </Text>
       </View>
     );

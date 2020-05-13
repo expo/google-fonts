@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DMMono_300Light' }}>
-          DMMono_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMMono_300Light',
+          }}>
+          DM Mono Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DMMono_300Light_Italic' }}>
-          DMMono_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMMono_300Light_Italic',
+          }}>
+          DM Mono Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DMMono_400Regular' }}>
-          DMMono_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMMono_400Regular',
+          }}>
+          DM Mono Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DMMono_400Regular_Italic' }}>
-          DMMono_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMMono_400Regular_Italic',
+          }}>
+          DM Mono Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DMMono_500Medium' }}>
-          DMMono_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMMono_500Medium',
+          }}>
+          DM Mono Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DMMono_500Medium_Italic' }}>
-          DMMono_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMMono_500Medium_Italic',
+          }}>
+          DM Mono Medium Italic
         </Text>
       </View>
     );

@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUpright_300Light' }}>
-          CormorantUpright_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantUpright_300Light',
+          }}>
+          Cormorant Upright Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUpright_400Regular' }}>
-          CormorantUpright_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantUpright_400Regular',
+          }}>
+          Cormorant Upright Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUpright_500Medium' }}>
-          CormorantUpright_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantUpright_500Medium',
+          }}>
+          Cormorant Upright Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUpright_600SemiBold' }}>
-          CormorantUpright_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantUpright_600SemiBold',
+          }}>
+          Cormorant Upright Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'CormorantUpright_700Bold' }}>
-          CormorantUpright_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantUpright_700Bold',
+          }}>
+          Cormorant Upright Bold
         </Text>
       </View>
     );

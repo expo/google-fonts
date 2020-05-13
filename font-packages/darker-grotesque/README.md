@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_300Light' }}>
-          DarkerGrotesque_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DarkerGrotesque_300Light',
+          }}>
+          Darker Grotesque Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_400Regular' }}>
-          DarkerGrotesque_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DarkerGrotesque_400Regular',
+          }}>
+          Darker Grotesque Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_500Medium' }}>
-          DarkerGrotesque_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DarkerGrotesque_500Medium',
+          }}>
+          Darker Grotesque Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_600SemiBold' }}>
-          DarkerGrotesque_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DarkerGrotesque_600SemiBold',
+          }}>
+          Darker Grotesque Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_700Bold' }}>
-          DarkerGrotesque_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DarkerGrotesque_700Bold',
+          }}>
+          Darker Grotesque Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_800ExtraBold' }}>
-          DarkerGrotesque_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DarkerGrotesque_800ExtraBold',
+          }}>
+          Darker Grotesque Extra Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'DarkerGrotesque_900Black' }}>
-          DarkerGrotesque_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DarkerGrotesque_900Black',
+          }}>
+          Darker Grotesque Black
         </Text>
       </View>
     );

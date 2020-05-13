@@ -58,23 +58,55 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rasa_300Light' }}>
-          Rasa_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rasa_300Light',
+          }}>
+          Rasa Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rasa_400Regular' }}>
-          Rasa_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rasa_400Regular',
+          }}>
+          Rasa Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rasa_500Medium' }}>
-          Rasa_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rasa_500Medium',
+          }}>
+          Rasa Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rasa_600SemiBold' }}>
-          Rasa_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rasa_600SemiBold',
+          }}>
+          Rasa Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Rasa_700Bold' }}>Rasa_700Bold</Text>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rasa_700Bold',
+          }}>
+          Rasa Bold
+        </Text>
       </View>
     );
   }

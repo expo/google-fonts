@@ -67,36 +67,84 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatDisplay_400Regular' }}>
-          RedHatDisplay_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatDisplay_400Regular',
+          }}>
+          Red Hat Display Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatDisplay_400Regular_Italic' }}>
-          RedHatDisplay_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatDisplay_400Regular_Italic',
+          }}>
+          Red Hat Display Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatDisplay_500Medium' }}>
-          RedHatDisplay_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatDisplay_500Medium',
+          }}>
+          Red Hat Display Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatDisplay_500Medium_Italic' }}>
-          RedHatDisplay_500Medium_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatDisplay_500Medium_Italic',
+          }}>
+          Red Hat Display Medium Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatDisplay_700Bold' }}>
-          RedHatDisplay_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatDisplay_700Bold',
+          }}>
+          Red Hat Display Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatDisplay_700Bold_Italic' }}>
-          RedHatDisplay_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatDisplay_700Bold_Italic',
+          }}>
+          Red Hat Display Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatDisplay_900Black' }}>
-          RedHatDisplay_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatDisplay_900Black',
+          }}>
+          Red Hat Display Black
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'RedHatDisplay_900Black_Italic' }}>
-          RedHatDisplay_900Black_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatDisplay_900Black_Italic',
+          }}>
+          Red Hat Display Black Italic
         </Text>
       </View>
     );

@@ -46,8 +46,14 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'WaitingfortheSunrise_400Regular' }}>
-          WaitingfortheSunrise_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'WaitingfortheSunrise_400Regular',
+          }}>
+          Waiting for the Sunrise Regular
         </Text>
       </View>
     );

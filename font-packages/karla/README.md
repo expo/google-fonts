@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karla_400Regular' }}>
-          Karla_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karla_400Regular',
+          }}>
+          Karla Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karla_400Regular_Italic' }}>
-          Karla_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karla_400Regular_Italic',
+          }}>
+          Karla Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karla_700Bold' }}>
-          Karla_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karla_700Bold',
+          }}>
+          Karla Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Karla_700Bold_Italic' }}>
-          Karla_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karla_700Bold_Italic',
+          }}>
+          Karla Bold Italic
         </Text>
       </View>
     );

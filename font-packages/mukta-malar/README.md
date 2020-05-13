@@ -64,32 +64,74 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_200ExtraLight' }}>
-          MuktaMalar_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuktaMalar_200ExtraLight',
+          }}>
+          Mukta Malar Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_300Light' }}>
-          MuktaMalar_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuktaMalar_300Light',
+          }}>
+          Mukta Malar Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_400Regular' }}>
-          MuktaMalar_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuktaMalar_400Regular',
+          }}>
+          Mukta Malar Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_500Medium' }}>
-          MuktaMalar_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuktaMalar_500Medium',
+          }}>
+          Mukta Malar Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_600SemiBold' }}>
-          MuktaMalar_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuktaMalar_600SemiBold',
+          }}>
+          Mukta Malar Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_700Bold' }}>
-          MuktaMalar_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuktaMalar_700Bold',
+          }}>
+          Mukta Malar Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MuktaMalar_800ExtraBold' }}>
-          MuktaMalar_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuktaMalar_800ExtraBold',
+          }}>
+          Mukta Malar Extra Bold
         </Text>
       </View>
     );

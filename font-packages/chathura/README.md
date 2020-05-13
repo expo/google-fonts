@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chathura_100Thin' }}>
-          Chathura_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chathura_100Thin',
+          }}>
+          Chathura Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chathura_300Light' }}>
-          Chathura_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chathura_300Light',
+          }}>
+          Chathura Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chathura_400Regular' }}>
-          Chathura_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chathura_400Regular',
+          }}>
+          Chathura Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chathura_700Bold' }}>
-          Chathura_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chathura_700Bold',
+          }}>
+          Chathura Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Chathura_800ExtraBold' }}>
-          Chathura_800ExtraBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chathura_800ExtraBold',
+          }}>
+          Chathura Extra Bold
         </Text>
       </View>
     );

@@ -52,16 +52,34 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OldStandardTT_400Regular' }}>
-          OldStandardTT_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OldStandardTT_400Regular',
+          }}>
+          Old Standard TT Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OldStandardTT_400Regular_Italic' }}>
-          OldStandardTT_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OldStandardTT_400Regular_Italic',
+          }}>
+          Old Standard TT Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'OldStandardTT_700Bold' }}>
-          OldStandardTT_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OldStandardTT_700Bold',
+          }}>
+          Old Standard TT Bold
         </Text>
       </View>
     );

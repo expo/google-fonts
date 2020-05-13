@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arimo_400Regular' }}>
-          Arimo_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arimo_400Regular',
+          }}>
+          Arimo Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arimo_400Regular_Italic' }}>
-          Arimo_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arimo_400Regular_Italic',
+          }}>
+          Arimo Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arimo_700Bold' }}>
-          Arimo_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arimo_700Bold',
+          }}>
+          Arimo Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Arimo_700Bold_Italic' }}>
-          Arimo_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arimo_700Bold_Italic',
+          }}>
+          Arimo Bold Italic
         </Text>
       </View>
     );

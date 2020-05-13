@@ -49,12 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scheherazade_400Regular' }}>
-          Scheherazade_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Scheherazade_400Regular',
+          }}>
+          Scheherazade Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Scheherazade_700Bold' }}>
-          Scheherazade_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Scheherazade_700Bold',
+          }}>
+          Scheherazade Bold
         </Text>
       </View>
     );

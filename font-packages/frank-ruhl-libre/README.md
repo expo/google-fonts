@@ -58,24 +58,54 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FrankRuhlLibre_300Light' }}>
-          FrankRuhlLibre_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FrankRuhlLibre_300Light',
+          }}>
+          Frank Ruhl Libre Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FrankRuhlLibre_400Regular' }}>
-          FrankRuhlLibre_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FrankRuhlLibre_400Regular',
+          }}>
+          Frank Ruhl Libre Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FrankRuhlLibre_500Medium' }}>
-          FrankRuhlLibre_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FrankRuhlLibre_500Medium',
+          }}>
+          Frank Ruhl Libre Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FrankRuhlLibre_700Bold' }}>
-          FrankRuhlLibre_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FrankRuhlLibre_700Bold',
+          }}>
+          Frank Ruhl Libre Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'FrankRuhlLibre_900Black' }}>
-          FrankRuhlLibre_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FrankRuhlLibre_900Black',
+          }}>
+          Frank Ruhl Libre Black
         </Text>
       </View>
     );

@@ -49,12 +49,24 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MiriamLibre_400Regular' }}>
-          MiriamLibre_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MiriamLibre_400Regular',
+          }}>
+          Miriam Libre Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'MiriamLibre_700Bold' }}>
-          MiriamLibre_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MiriamLibre_700Bold',
+          }}>
+          Miriam Libre Bold
         </Text>
       </View>
     );

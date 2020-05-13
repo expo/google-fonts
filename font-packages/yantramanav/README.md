@@ -61,28 +61,64 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_100Thin' }}>
-          Yantramanav_100Thin
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Yantramanav_100Thin',
+          }}>
+          Yantramanav Thin
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_300Light' }}>
-          Yantramanav_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Yantramanav_300Light',
+          }}>
+          Yantramanav Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_400Regular' }}>
-          Yantramanav_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Yantramanav_400Regular',
+          }}>
+          Yantramanav Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_500Medium' }}>
-          Yantramanav_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Yantramanav_500Medium',
+          }}>
+          Yantramanav Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_700Bold' }}>
-          Yantramanav_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Yantramanav_700Bold',
+          }}>
+          Yantramanav Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Yantramanav_900Black' }}>
-          Yantramanav_900Black
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Yantramanav_900Black',
+          }}>
+          Yantramanav Black
         </Text>
       </View>
     );

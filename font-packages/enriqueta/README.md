@@ -55,20 +55,44 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Enriqueta_400Regular' }}>
-          Enriqueta_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Enriqueta_400Regular',
+          }}>
+          Enriqueta Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Enriqueta_500Medium' }}>
-          Enriqueta_500Medium
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Enriqueta_500Medium',
+          }}>
+          Enriqueta Medium
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Enriqueta_600SemiBold' }}>
-          Enriqueta_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Enriqueta_600SemiBold',
+          }}>
+          Enriqueta Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'Enriqueta_700Bold' }}>
-          Enriqueta_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Enriqueta_700Bold',
+          }}>
+          Enriqueta Bold
         </Text>
       </View>
     );

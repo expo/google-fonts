@@ -73,44 +73,104 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KulimPark_200ExtraLight' }}>
-          KulimPark_200ExtraLight
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KulimPark_200ExtraLight',
+          }}>
+          Kulim Park Extra Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KulimPark_200ExtraLight_Italic' }}>
-          KulimPark_200ExtraLight_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KulimPark_200ExtraLight_Italic',
+          }}>
+          Kulim Park Extra Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KulimPark_300Light' }}>
-          KulimPark_300Light
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KulimPark_300Light',
+          }}>
+          Kulim Park Light
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KulimPark_300Light_Italic' }}>
-          KulimPark_300Light_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KulimPark_300Light_Italic',
+          }}>
+          Kulim Park Light Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KulimPark_400Regular' }}>
-          KulimPark_400Regular
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KulimPark_400Regular',
+          }}>
+          Kulim Park Regular
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KulimPark_400Regular_Italic' }}>
-          KulimPark_400Regular_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KulimPark_400Regular_Italic',
+          }}>
+          Kulim Park Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KulimPark_600SemiBold' }}>
-          KulimPark_600SemiBold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KulimPark_600SemiBold',
+          }}>
+          Kulim Park Semi Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KulimPark_600SemiBold_Italic' }}>
-          KulimPark_600SemiBold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KulimPark_600SemiBold_Italic',
+          }}>
+          Kulim Park Semi Bold Italic
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KulimPark_700Bold' }}>
-          KulimPark_700Bold
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KulimPark_700Bold',
+          }}>
+          Kulim Park Bold
         </Text>
 
-        <Text style={{ fontSize, paddingVertical, fontFamily: 'KulimPark_700Bold_Italic' }}>
-          KulimPark_700Bold_Italic
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KulimPark_700Bold_Italic',
+          }}>
+          Kulim Park Bold Italic
         </Text>
       </View>
     );
