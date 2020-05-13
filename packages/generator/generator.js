@@ -1070,7 +1070,7 @@ let t = {
 
   generateDevPackage: async () => {
     let d = await getDirectory();
-    return await generateDevPackage();
+    return await generateDevPackage(d);
   },
   generateFontDirectoryPackage: async () => {
     let d = await getDirectory();
