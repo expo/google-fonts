@@ -753,7 +753,6 @@ import {
   useFonts,
   Nunito_400Regular,
   Nunito_600SemiBold_Italic,
-  useFonts,
 } from '@expo-google-fonts/nunito';
 
 export default () => {
@@ -763,7 +762,7 @@ export default () => {
   });
 
   let fontSize = 24;
-  let paddingVrtical = 6;
+  let paddingVertical = 6;
 
   if (!fontsLoaded) {
     return <AppLoading />;

@@ -1,17 +1,17 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts, Limelight_Regular400 } from '@expo-google-fonts/limelight';
+import { useFonts, Limelight_400Regular } from '@expo-google-fonts/limelight';
 import {
-  SourceSansPro_Bold700,
-  SourceSansPro_Regular400_Italic,
+  SourceSansPro_400Regular_Italic,
+  SourceSansPro_700Bold,
 } from '@expo-google-fonts/source-sans-pro';
 
 export default function App() {
   let [fontsLoaded] = useFonts({
-    Limelight_Regular400,
-    SourceSansPro_Bold700,
-    SourceSansPro_Regular400_Italic,
+    Limelight_400Regular,
+    SourceSansPro_400Regular_Italic,
+    SourceSansPro_700Bold,
   });
 
   if (!fontsLoaded) {
@@ -19,14 +19,14 @@ export default function App() {
   } else {
     return (
       <View style={styles.container}>
-        <Text style={[styles.text, { fontFamily: 'Limelight_Regular400' }]}>
-          Limelight_Regular400
+        <Text style={[styles.text, { fontFamily: 'Limelight_400Regular' }]}>
+          Limelight_400Regular
         </Text>
-        <Text style={[styles.text, { fontFamily: 'SourceSansPro_Bold700' }]}>
-          SourceSansPro_Bold700
+        <Text style={[styles.text, { fontFamily: 'SourceSansPro_400Regular_Italic' }]}>
+          SourceSansPro_400Regular_Italic
         </Text>
-        <Text style={[styles.text, { fontFamily: 'SourceSansPro_Regular400_Italic' }]}>
-          SourceSansPro_Regular400_Italic
+        <Text style={[styles.text, { fontFamily: 'SourceSansPro_700Bold' }]}>
+          SourceSansPro_700Bold
         </Text>
         <Text style={[styles.text]}>Platform Default</Text>
       </View>
