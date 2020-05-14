@@ -858,13 +858,17 @@ Each individual font family package README includes a complete example of using 
 
 You can browse all available Google Fonts on [fonts.google.com](https://fonts.google.com).
 
+[https://directory.now.sh/](https://directory.now.sh/) is a directory / search engine that will 
+let you browse and search through all of the available fonts and show you the appropriate
+\`import\` statements you'll need so you can copy & paste into your own code.
+
 Here are a few examples of the ${variantCount} variants of ${
     fontDirectory.items.length
   } fonts available:
 
 ${await getFeaturedGalleryMarkdown(fontDirectory)}
 
-You can check out [the gallery for this project](./GALLERY.md) to see all of them.
+There is also a [gallery in this repo](./GALLERY.md#readme) showing every font family and variant available.
 
 ## 👩‍💻 @expo-google-fonts/dev
 

@@ -67,6 +67,10 @@ Each individual font family package README includes a complete example of using 
 
 You can browse all available Google Fonts on [fonts.google.com](https://fonts.google.com).
 
+[https://directory.now.sh/](https://directory.now.sh/) is a directory / search engine that will 
+let you browse and search through all of the available fonts and show you the appropriate
+`import` statements you'll need so you can copy & paste into your own code.
+
 Here are a few examples of the 3020 variants of 991 fonts available:
 
 
@@ -79,7 +83,7 @@ Here are a few examples of the 3020 variants of 991 fonts available:
 |[![BalsamiqSans](./font-packages/balsamiq-sans/BalsamiqSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/balsamiq-sans#readme)|[![Jost](./font-packages/jost/Jost_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/jost#readme)|[![Lato](./font-packages/lato/Lato_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/lato#readme)|
 
 
-You can check out [the gallery for this project](./GALLERY.md) to see all of them.
+There is also a [gallery in this repo](./GALLERY.md#readme) showing every font family and variant available.
 
 ## 👩‍💻 @expo-google-fonts/dev
 
