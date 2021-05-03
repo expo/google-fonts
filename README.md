@@ -19,7 +19,7 @@ Here is an example of using the [Inter font family](https://fonts.google.com/spe
 #### Install the package for the font you want
 
 ```sh
-expo install @expo-google-fonts/inter expo-font
+expo install @expo-google-fonts/inter expo-font expo-app-loading
 ```
 
 #### In your app
@@ -28,7 +28,7 @@ expo install @expo-google-fonts/inter expo-font
 import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
-import { AppLoading } from 'expo';
+import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   Inter_900Black,
