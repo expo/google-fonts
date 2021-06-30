@@ -1,0 +1,14 @@
+{
+  "family": "Kiwi Maru",
+  "variants": ["300", "regular", "500"],
+  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2021-04-20",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/kiwimaru/v4/R70djykGkuuDep-hRg6gNCi0Vxn9R5ShnA.ttf",
+    "500": "http://fonts.gstatic.com/s/kiwimaru/v4/R70djykGkuuDep-hRg6gbCm0Vxn9R5ShnA.ttf",
+    "regular": "http://fonts.gstatic.com/s/kiwimaru/v4/R70YjykGkuuDep-hRg6YmACQXzLhTg.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

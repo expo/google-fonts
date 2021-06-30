@@ -1,0 +1,19 @@
+{
+  "family": "Trispace",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v6",
+  "lastModified": "2021-03-19",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/trispace/v6/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbH9qoQl0zHugpt0.ttf",
+    "200": "http://fonts.gstatic.com/s/trispace/v6/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbP9roQl0zHugpt0.ttf",
+    "300": "http://fonts.gstatic.com/s/trispace/v6/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbCFroQl0zHugpt0.ttf",
+    "500": "http://fonts.gstatic.com/s/trispace/v6/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbE1roQl0zHugpt0.ttf",
+    "600": "http://fonts.gstatic.com/s/trispace/v6/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbKFsoQl0zHugpt0.ttf",
+    "700": "http://fonts.gstatic.com/s/trispace/v6/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbJhsoQl0zHugpt0.ttf",
+    "800": "http://fonts.gstatic.com/s/trispace/v6/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbP9soQl0zHugpt0.ttf",
+    "regular": "http://fonts.gstatic.com/s/trispace/v6/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbH9roQl0zHugpt0.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

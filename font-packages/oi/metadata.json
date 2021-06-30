@@ -1,0 +1,10 @@
+{
+  "family": "Oi",
+  "variants": ["regular"],
+  "subsets": ["greek", "latin", "latin-ext", "vietnamese"],
+  "version": "v4",
+  "lastModified": "2021-03-24",
+  "files": { "regular": "http://fonts.gstatic.com/s/oi/v4/w8gXH2EuRqtaut6yjBOG.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

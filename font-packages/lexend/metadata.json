@@ -1,0 +1,18 @@
+{
+  "family": "Lexend",
+  "variants": ["100", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2021-04-20",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/lexend/v5/wlpygwvFAVdoq2_nmKQR82JHaTBX.ttf",
+    "300": "http://fonts.gstatic.com/s/lexend/v5/wlpzgwvFAVdoq2_nUIYx2UxLYClOCg.ttf",
+    "500": "http://fonts.gstatic.com/s/lexend/v5/wlpzgwvFAVdoq2_nCIcx2UxLYClOCg.ttf",
+    "600": "http://fonts.gstatic.com/s/lexend/v5/wlpzgwvFAVdoq2_nJIAx2UxLYClOCg.ttf",
+    "700": "http://fonts.gstatic.com/s/lexend/v5/wlpzgwvFAVdoq2_nQIEx2UxLYClOCg.ttf",
+    "800": "http://fonts.gstatic.com/s/lexend/v5/wlpzgwvFAVdoq2_nXIIx2UxLYClOCg.ttf",
+    "regular": "http://fonts.gstatic.com/s/lexend/v5/wlpwgwvFAVdoq2_f_K4V0WdXaQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

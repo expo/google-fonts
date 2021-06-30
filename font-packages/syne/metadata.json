@@ -1,0 +1,16 @@
+{
+  "family": "Syne",
+  "variants": ["regular", "500", "600", "700", "800"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v3",
+  "lastModified": "2021-01-21",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/syne/v3/8vIS7w4qzmVxsWxjBZRjr0FKM_0KuT6kR47NCV5Z.ttf",
+    "600": "http://fonts.gstatic.com/s/syne/v3/8vIS7w4qzmVxsWxjBZRjr0FKM_3mvj6kR47NCV5Z.ttf",
+    "700": "http://fonts.gstatic.com/s/syne/v3/8vIS7w4qzmVxsWxjBZRjr0FKM_3fvj6kR47NCV5Z.ttf",
+    "800": "http://fonts.gstatic.com/s/syne/v3/8vIS7w4qzmVxsWxjBZRjr0FKM_24vj6kR47NCV5Z.ttf",
+    "regular": "http://fonts.gstatic.com/s/syne/v3/8vIS7w4qzmVxsWxjBZRjr0FKM_04uT6kR47NCV5Z.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

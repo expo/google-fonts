@@ -1,0 +1,19 @@
+{
+  "family": "Big Shoulders Stencil Text",
+  "variants": ["100", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2021-03-24",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUi9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYSZYGLxtPhi2eA.ttf",
+    "300": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYRRQkLbmvRrwPmQ.ttf",
+    "500": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYQJQ0LbmvRrwPmQ.ttf",
+    "600": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYQlRELbmvRrwPmQ.ttf",
+    "700": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYRBRULbmvRrwPmQ.ttf",
+    "800": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYRdRkLbmvRrwPmQ.ttf",
+    "900": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYR5R0LbmvRrwPmQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUg9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcbz9ambTsehi.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

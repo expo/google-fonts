@@ -1,0 +1,12 @@
+{
+  "family": "Libre Barcode EAN13 Text",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2021-03-24",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/librebarcodeean13text/v9/wlpigxXFDU1_oCu9nfZytgIqSG0XRcJm_OQiB96PAGEki52WfA.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

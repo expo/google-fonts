@@ -25,7 +25,7 @@ async function publishAllFontPackages() {
   try {
     let devPkgDir = path.join(FontPackagesDir, 'dev');
     try {
-      await spawnAsync('npm', ['publish'], { cwd: devPkgDir });
+      await spawnAsync('npm', ['publish', '--otp=185035'], { cwd: devPkgDir });
     } catch (e) {
       errors.push(['dev', e]);
     } finally {

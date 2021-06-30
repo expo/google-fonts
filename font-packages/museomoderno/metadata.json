@@ -1,0 +1,20 @@
+{
+  "family": "MuseoModerno",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v7",
+  "lastModified": "2021-03-19",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMlZFuewajeKlCdo.ttf",
+    "200": "http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMtZEuewajeKlCdo.ttf",
+    "300": "http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMghEuewajeKlCdo.ttf",
+    "500": "http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMmREuewajeKlCdo.ttf",
+    "600": "http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMohDuewajeKlCdo.ttf",
+    "700": "http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMrFDuewajeKlCdo.ttf",
+    "800": "http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMtZDuewajeKlCdo.ttf",
+    "900": "http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMv9DuewajeKlCdo.ttf",
+    "regular": "http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMlZEuewajeKlCdo.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

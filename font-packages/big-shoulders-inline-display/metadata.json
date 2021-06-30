@@ -1,0 +1,19 @@
+{
+  "family": "Big Shoulders Inline Display",
+  "variants": ["100", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2021-03-24",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v5/_LOlmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COrytjChoEoUCJg.ttf",
+    "300": "http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v5/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COnSPrAJGHowbP0g.ttf",
+    "500": "http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v5/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COiyOrAJGHowbP0g.ttf",
+    "600": "http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v5/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COgCJrAJGHowbP0g.ttf",
+    "700": "http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v5/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COmSIrAJGHowbP0g.ttf",
+    "800": "http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v5/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COniLrAJGHowbP0g.ttf",
+    "900": "http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v5/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COlyKrAJGHowbP0g.ttf",
+    "regular": "http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v5/_LObmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CAtiniAptAoU.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

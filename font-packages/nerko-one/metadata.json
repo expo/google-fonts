@@ -1,0 +1,12 @@
+{
+  "family": "Nerko One",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2021-03-24",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/nerkoone/v5/m8JQjfZSc7OXlB3ZMOjzcJ5BZmqa3A.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

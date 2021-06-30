@@ -1,0 +1,12 @@
+{
+  "family": "Potta One",
+  "variants": ["regular"],
+  "subsets": ["japanese", "latin", "latin-ext", "vietnamese"],
+  "version": "v6",
+  "lastModified": "2021-03-24",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/pottaone/v6/FeVSS05Bp6cy7xI-YfxQ3Z5nm29Gww.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

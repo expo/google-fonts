@@ -1,0 +1,12 @@
+{
+  "family": "DotGothic16",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2021-03-24",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/dotgothic16/v4/v6-QGYjBJFKgyw5nSoDAGE7L435YPFrT.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

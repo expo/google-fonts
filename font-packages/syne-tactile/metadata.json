@@ -1,0 +1,12 @@
+{
+  "family": "Syne Tactile",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2021-03-24",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/synetactile/v5/11hGGpna2UTQKjMCVzjAPMKh3ysdjvKU8Q.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

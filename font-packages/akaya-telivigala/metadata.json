@@ -1,0 +1,12 @@
+{
+  "family": "Akaya Telivigala",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "telugu"],
+  "version": "v9",
+  "lastModified": "2021-02-18",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/akayatelivigala/v9/lJwc-oo_iG9wXqU3rCTD395tp0uifdLdsIH0YH8.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

@@ -1,0 +1,12 @@
+{
+  "family": "Syne Mono",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2021-03-24",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/synemono/v5/K2FzfZNHj_FHBmRbFvHzIqCkDyvqZA.ttf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont"
+}

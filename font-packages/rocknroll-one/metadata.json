@@ -1,0 +1,12 @@
+{
+  "family": "RocknRoll One",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2021-03-24",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/rocknrollone/v4/kmK7ZqspGAfCeUiW6FFlmEC9guVhs7tfUxc.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

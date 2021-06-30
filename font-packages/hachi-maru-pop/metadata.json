@@ -1,0 +1,12 @@
+{
+  "family": "Hachi Maru Pop",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "version": "v6",
+  "lastModified": "2021-03-24",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/hachimarupop/v6/HI_TiYoRLqpLrEiMAuO9Ysfz7rW1EM_btd8u.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

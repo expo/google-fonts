@@ -1,0 +1,12 @@
+{
+  "family": "Train One",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2021-04-20",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/trainone/v4/gyB-hwkiNtc6KnxUVjWHOqbZRY7JVQ.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

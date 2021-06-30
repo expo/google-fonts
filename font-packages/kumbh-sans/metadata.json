@@ -1,0 +1,14 @@
+{
+  "family": "Kumbh Sans",
+  "variants": ["300", "regular", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2021-03-24",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/kumbhsans/v5/c4mm1n92AsfhuCq6tVsagit_3KKVXUv8Los.ttf",
+    "700": "http://fonts.gstatic.com/s/kumbhsans/v5/c4mm1n92AsfhuCq6tVsagjt43KKVXUv8Los.ttf",
+    "regular": "http://fonts.gstatic.com/s/kumbhsans/v5/c4ml1n92AsfhuCq6tVsauodX-Kq-QUI.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

@@ -1,0 +1,19 @@
+{
+  "family": "Big Shoulders Inline Text",
+  "variants": ["100", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2021-03-24",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/bigshouldersinlinetext/v5/vm8idQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEU7wG3AwE9VRww.ttf",
+    "300": "http://fonts.gstatic.com/s/bigshouldersinlinetext/v5/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEYbSO1oeH9xI2gc.ttf",
+    "500": "http://fonts.gstatic.com/s/bigshouldersinlinetext/v5/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEd7TO1oeH9xI2gc.ttf",
+    "600": "http://fonts.gstatic.com/s/bigshouldersinlinetext/v5/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEfLUO1oeH9xI2gc.ttf",
+    "700": "http://fonts.gstatic.com/s/bigshouldersinlinetext/v5/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEZbVO1oeH9xI2gc.ttf",
+    "800": "http://fonts.gstatic.com/s/bigshouldersinlinetext/v5/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEYrWO1oeH9xI2gc.ttf",
+    "900": "http://fonts.gstatic.com/s/bigshouldersinlinetext/v5/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEa7XO1oeH9xI2gc.ttf",
+    "regular": "http://fonts.gstatic.com/s/bigshouldersinlinetext/v5/vm8kdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NKSr6H1I1A9U.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

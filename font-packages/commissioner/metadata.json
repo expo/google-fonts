@@ -1,0 +1,20 @@
+{
+  "family": "Commissioner",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2021-03-19",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/commissioner/v5/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5Ni-IO9pOXuRoaY.ttf",
+    "200": "http://fonts.gstatic.com/s/commissioner/v5/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5Fi_IO9pOXuRoaY.ttf",
+    "300": "http://fonts.gstatic.com/s/commissioner/v5/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5Ia_IO9pOXuRoaY.ttf",
+    "500": "http://fonts.gstatic.com/s/commissioner/v5/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5Oq_IO9pOXuRoaY.ttf",
+    "600": "http://fonts.gstatic.com/s/commissioner/v5/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5Aa4IO9pOXuRoaY.ttf",
+    "700": "http://fonts.gstatic.com/s/commissioner/v5/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5D-4IO9pOXuRoaY.ttf",
+    "800": "http://fonts.gstatic.com/s/commissioner/v5/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5Fi4IO9pOXuRoaY.ttf",
+    "900": "http://fonts.gstatic.com/s/commissioner/v5/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5HG4IO9pOXuRoaY.ttf",
+    "regular": "http://fonts.gstatic.com/s/commissioner/v5/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5Ni_IO9pOXuRoaY.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

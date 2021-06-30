@@ -1,0 +1,16 @@
+{
+  "family": "Shippori Mincho B1",
+  "variants": ["regular", "500", "600", "700", "800"],
+  "subsets": ["japanese", "latin", "latin-ext"],
+  "version": "v10",
+  "lastModified": "2021-06-23",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/shipporiminchob1/v10/~ChcKElNoaXBwb3JpIE1pbmNobyBCMRj0AyAAKgQIARgB.ttf",
+    "600": "http://fonts.gstatic.com/s/shipporiminchob1/v10/~ChcKElNoaXBwb3JpIE1pbmNobyBCMRjYBCAAKgQIARgB.ttf",
+    "700": "http://fonts.gstatic.com/s/shipporiminchob1/v10/~ChcKElNoaXBwb3JpIE1pbmNobyBCMRi8BSAAKgQIARgB.ttf",
+    "800": "http://fonts.gstatic.com/s/shipporiminchob1/v10/~ChcKElNoaXBwb3JpIE1pbmNobyBCMRigBiAAKgQIARgB.ttf",
+    "regular": "http://fonts.gstatic.com/s/shipporiminchob1/v10/~ChQKElNoaXBwb3JpIE1pbmNobyBCMSAAKgQIARgB.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

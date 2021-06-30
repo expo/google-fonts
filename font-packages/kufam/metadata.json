@@ -1,0 +1,36 @@
+{
+  "family": "Kufam",
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic",
+    "800italic",
+    "900italic"
+  ],
+  "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
+  "version": "v6",
+  "lastModified": "2021-03-19",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/kufam/v6/C8c-4cY7pG7w_oSJDszBXsKCcBH3pKk7qQCJHvIwYg.ttf",
+    "600": "http://fonts.gstatic.com/s/kufam/v6/C8c-4cY7pG7w_oSJDszBXsKCcBH3SK47qQCJHvIwYg.ttf",
+    "700": "http://fonts.gstatic.com/s/kufam/v6/C8c-4cY7pG7w_oSJDszBXsKCcBH3ca47qQCJHvIwYg.ttf",
+    "800": "http://fonts.gstatic.com/s/kufam/v6/C8c-4cY7pG7w_oSJDszBXsKCcBH3Fq47qQCJHvIwYg.ttf",
+    "900": "http://fonts.gstatic.com/s/kufam/v6/C8c-4cY7pG7w_oSJDszBXsKCcBH3P647qQCJHvIwYg.ttf",
+    "regular": "http://fonts.gstatic.com/s/kufam/v6/C8c-4cY7pG7w_oSJDszBXsKCcBH3lqk7qQCJHvIwYg.ttf",
+    "italic": "http://fonts.gstatic.com/s/kufam/v6/C8c84cY7pG7w_q6APDMZN6kY3hbiXurT6gqNPPcgYp0i.ttf",
+    "500italic": "http://fonts.gstatic.com/s/kufam/v6/C8c84cY7pG7w_q6APDMZN6kY3hbiXurh6gqNPPcgYp0i.ttf",
+    "600italic": "http://fonts.gstatic.com/s/kufam/v6/C8c84cY7pG7w_q6APDMZN6kY3hbiXuoN7QqNPPcgYp0i.ttf",
+    "700italic": "http://fonts.gstatic.com/s/kufam/v6/C8c84cY7pG7w_q6APDMZN6kY3hbiXuo07QqNPPcgYp0i.ttf",
+    "800italic": "http://fonts.gstatic.com/s/kufam/v6/C8c84cY7pG7w_q6APDMZN6kY3hbiXupT7QqNPPcgYp0i.ttf",
+    "900italic": "http://fonts.gstatic.com/s/kufam/v6/C8c84cY7pG7w_q6APDMZN6kY3hbiXup67QqNPPcgYp0i.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

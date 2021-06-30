@@ -1,0 +1,12 @@
+{
+  "family": "Akaya Kanadaka",
+  "variants": ["regular"],
+  "subsets": ["kannada", "latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2021-03-24",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/akayakanadaka/v4/N0bM2S5CPO5oOQqvazoRRb-8-PfRS5VBBSSF.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}
