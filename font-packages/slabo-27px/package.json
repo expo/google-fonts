@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/slabo-27px",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Use the Slabo 27px font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",

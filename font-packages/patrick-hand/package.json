@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/patrick-hand",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Use the Patrick Hand font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",

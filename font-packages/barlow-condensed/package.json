@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/barlow-condensed",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Use the Barlow Condensed font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",

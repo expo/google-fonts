@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/liu-jian-mao-cao",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Use the Liu Jian Mao Cao font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",

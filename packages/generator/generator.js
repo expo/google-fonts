@@ -285,7 +285,6 @@ async function generatePng(outputFilepath, text, webfont, variantKey, pointsize,
   try {
     //await spawnAsync('./magick', args);
     await spawnAsync('magick', args);
-
   } catch (e) {
     // Some fonts, like Noto Color Emoji Compat, break ImageMagick here
     // and so we just link the empty png but rethrow the error so that the
@@ -501,7 +500,7 @@ async function generateReadmeForWebfont(webfont) {
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import { AppLoading } from "expo";
+import AppLoading from "expo-app-loading";
 import { useFonts, ${fontStyleVars.join(',')} } from '@expo-google-fonts/${packageName}';
 
 export default () => {
@@ -559,7 +558,7 @@ ${fontStyleVars.map((fsv) => '- `' + fsv + '`').join('\n')}
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 \`\`\`sh
-expo install @expo-google-fonts/${packageName} expo-font
+expo install @expo-google-fonts/${packageName} expo-font expo-app-loading
 \`\`\`
 
 Now add code like this to your project
@@ -761,7 +760,7 @@ you can important any font variant from any font family from \`@expo-google-font
 #### Install the package
 
 \`\`\`js
-expo install @expo-google-fonts/dev expo-font
+expo install @expo-google-fonts/dev expo-font expo-app-loading
 \`\`\`
 
 #### In your app
@@ -821,7 +820,7 @@ expo install @expo-google-fonts/inter expo-font
 import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
-import { AppLoading } from 'expo';
+import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   Inter_900Black,
@@ -1125,6 +1124,7 @@ module.exports = {
   FontPackagesDir,
   getPackageNameForWebfont,
   generateAllFontPackages,
+  main,
 };
 
 if (require.main === module) {

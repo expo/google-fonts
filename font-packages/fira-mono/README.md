@@ -21,7 +21,7 @@ This font family contains [3 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/fira-mono expo-font
+expo install @expo-google-fonts/fira-mono expo-font expo-app-loading
 ```
 
 Now add code like this to your project
@@ -29,7 +29,7 @@ Now add code like this to your project
 import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
-import { AppLoading } from 'expo';
+import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   FiraMono_400Regular,

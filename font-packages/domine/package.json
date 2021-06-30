@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/domine",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Use the Domine font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",

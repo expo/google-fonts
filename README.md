@@ -28,7 +28,7 @@ expo install @expo-google-fonts/inter expo-font
 import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
-import { AppLoading } from 'expo';
+import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   Inter_900Black,
