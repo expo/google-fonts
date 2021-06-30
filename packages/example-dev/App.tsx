@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { useFonts } from '@use-expo/font';
-import { AppLoading } from 'expo';
+import AppLoading from 'expo-app-loading';
 
 import {
   BalsamiqSans_400Regular,

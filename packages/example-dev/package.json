@@ -10,20 +10,21 @@
   "dependencies": {
     "@expo-google-fonts/dev": "../../font-packages/dev",
     "@use-expo/font": "^2.0.0",
-    "expo": "~37.0.3",
-    "expo-font": "^8.1.1",
-    "react": "~16.9.0",
-    "react-dom": "~16.9.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
-    "react-native-screens": "~2.2.0",
-    "react-native-web": "~0.11.7"
+    "expo": "^41.0.0",
+    "expo-app-loading": "*",
+    "expo-font": "~9.1.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
+    "react-native-screens": "~3.0.0",
+    "react-native-web": "~0.13.12"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.6",
-    "@types/react": "~16.9.23",
-    "@types/react-native": "~0.61.17",
-    "babel-preset-expo": "~8.1.0",
-    "typescript": "~3.8.3"
+    "@babel/core": "~7.9.0",
+    "@types/react": "~16.9.35",
+    "@types/react-native": "~0.63.2",
+    "babel-preset-expo": "8.3.0",
+    "typescript": "~4.0.0"
   },
   "private": true
 }
