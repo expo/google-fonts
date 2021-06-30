@@ -11,15 +11,19 @@ This package lets you use the [**Vollkorn**](https://fonts.google.com/specimen/V
 
 ![Vollkorn](./font-family.png)
 
-This font family contains [8 styles](#-gallery).
+This font family contains [12 styles](#-gallery).
 
 - `Vollkorn_400Regular`
-- `Vollkorn_400Regular_Italic`
+- `Vollkorn_500Medium`
 - `Vollkorn_600SemiBold`
-- `Vollkorn_600SemiBold_Italic`
 - `Vollkorn_700Bold`
-- `Vollkorn_700Bold_Italic`
+- `Vollkorn_800ExtraBold`
 - `Vollkorn_900Black`
+- `Vollkorn_400Regular_Italic`
+- `Vollkorn_500Medium_Italic`
+- `Vollkorn_600SemiBold_Italic`
+- `Vollkorn_700Bold_Italic`
+- `Vollkorn_800ExtraBold_Italic`
 - `Vollkorn_900Black_Italic`
 
 ## Usage
@@ -38,24 +42,32 @@ import { AppLoading } from 'expo';
 import {
   useFonts,
   Vollkorn_400Regular,
-  Vollkorn_400Regular_Italic,
+  Vollkorn_500Medium,
   Vollkorn_600SemiBold,
-  Vollkorn_600SemiBold_Italic,
   Vollkorn_700Bold,
-  Vollkorn_700Bold_Italic,
+  Vollkorn_800ExtraBold,
   Vollkorn_900Black,
+  Vollkorn_400Regular_Italic,
+  Vollkorn_500Medium_Italic,
+  Vollkorn_600SemiBold_Italic,
+  Vollkorn_700Bold_Italic,
+  Vollkorn_800ExtraBold_Italic,
   Vollkorn_900Black_Italic,
 } from '@expo-google-fonts/vollkorn';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Vollkorn_400Regular,
-    Vollkorn_400Regular_Italic,
+    Vollkorn_500Medium,
     Vollkorn_600SemiBold,
-    Vollkorn_600SemiBold_Italic,
     Vollkorn_700Bold,
-    Vollkorn_700Bold_Italic,
+    Vollkorn_800ExtraBold,
     Vollkorn_900Black,
+    Vollkorn_400Regular_Italic,
+    Vollkorn_500Medium_Italic,
+    Vollkorn_600SemiBold_Italic,
+    Vollkorn_700Bold_Italic,
+    Vollkorn_800ExtraBold_Italic,
     Vollkorn_900Black_Italic,
   });
 
@@ -82,9 +94,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vollkorn_400Regular_Italic',
+            fontFamily: 'Vollkorn_500Medium',
           }}>
-          Vollkorn Italic
+          Vollkorn Medium
         </Text>
 
         <Text
@@ -102,9 +114,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vollkorn_600SemiBold_Italic',
+            fontFamily: 'Vollkorn_700Bold',
           }}>
-          Vollkorn Semi Bold Italic
+          Vollkorn Bold
         </Text>
 
         <Text
@@ -112,9 +124,49 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vollkorn_700Bold',
+            fontFamily: 'Vollkorn_800ExtraBold',
           }}>
-          Vollkorn Bold
+          Vollkorn Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Vollkorn_900Black',
+          }}>
+          Vollkorn Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Vollkorn_400Regular_Italic',
+          }}>
+          Vollkorn Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Vollkorn_500Medium_Italic',
+          }}>
+          Vollkorn Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Vollkorn_600SemiBold_Italic',
+          }}>
+          Vollkorn Semi Bold Italic
         </Text>
 
         <Text
@@ -132,9 +184,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vollkorn_900Black',
+            fontFamily: 'Vollkorn_800ExtraBold_Italic',
           }}>
-          Vollkorn Black
+          Vollkorn Extra Bold Italic
         </Text>
 
         <Text
@@ -158,9 +210,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Vollkorn_400Regular](./Vollkorn_400Regular.ttf.png)|![Vollkorn_400Regular_Italic](./Vollkorn_400Regular_Italic.ttf.png)|![Vollkorn_600SemiBold](./Vollkorn_600SemiBold.ttf.png)||
-|![Vollkorn_600SemiBold_Italic](./Vollkorn_600SemiBold_Italic.ttf.png)|![Vollkorn_700Bold](./Vollkorn_700Bold.ttf.png)|![Vollkorn_700Bold_Italic](./Vollkorn_700Bold_Italic.ttf.png)||
-|![Vollkorn_900Black](./Vollkorn_900Black.ttf.png)|![Vollkorn_900Black_Italic](./Vollkorn_900Black_Italic.ttf.png)|||
+|![Vollkorn_400Regular](./Vollkorn_400Regular.ttf.png)|![Vollkorn_500Medium](./Vollkorn_500Medium.ttf.png)|![Vollkorn_600SemiBold](./Vollkorn_600SemiBold.ttf.png)||
+|![Vollkorn_700Bold](./Vollkorn_700Bold.ttf.png)|![Vollkorn_800ExtraBold](./Vollkorn_800ExtraBold.ttf.png)|![Vollkorn_900Black](./Vollkorn_900Black.ttf.png)||
+|![Vollkorn_400Regular_Italic](./Vollkorn_400Regular_Italic.ttf.png)|![Vollkorn_500Medium_Italic](./Vollkorn_500Medium_Italic.ttf.png)|![Vollkorn_600SemiBold_Italic](./Vollkorn_600SemiBold_Italic.ttf.png)||
+|![Vollkorn_700Bold_Italic](./Vollkorn_700Bold_Italic.ttf.png)|![Vollkorn_800ExtraBold_Italic](./Vollkorn_800ExtraBold_Italic.ttf.png)|![Vollkorn_900Black_Italic](./Vollkorn_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

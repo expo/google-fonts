@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Graduate",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/graduate/v7/C8cg4cs3o2n15t_2YxgR6X2NZAn2.ttf" }
+  "version": "v8",
+  "lastModified": "2020-09-02",
+  "files": { "regular": "http://fonts.gstatic.com/s/graduate/v8/C8cg4cs3o2n15t_2YxgR6X2NZAn2.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

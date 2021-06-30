@@ -1,17 +1,19 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Ibarra Real Nova",
-  "category": "serif",
-  "variants": ["regular", "italic", "600", "600italic", "700", "700italic"],
+  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v2",
-  "lastModified": "2020-04-13",
+  "version": "v8",
+  "lastModified": "2021-03-19",
   "files": {
-    "600": "http://fonts.gstatic.com/s/ibarrarealnova/v2/sZlYdQiA-DBIDCcaWtQzL4BZHoiDmKR8NNRFMuhjCXY.ttf",
-    "700": "http://fonts.gstatic.com/s/ibarrarealnova/v2/sZlYdQiA-DBIDCcaWtQzL4BZHoiDmMB9NNRFMuhjCXY.ttf",
-    "regular": "http://fonts.gstatic.com/s/ibarrarealnova/v2/sZlfdQiA-DBIDCcaWtQzL4BZHoiDoHxSENxuLuE.ttf",
-    "italic": "http://fonts.gstatic.com/s/ibarrarealnova/v2/sZlZdQiA-DBIDCcaWtQzL4BZHoiDkH5YFP5rPuF6EA.ttf",
-    "600italic": "http://fonts.gstatic.com/s/ibarrarealnova/v2/sZladQiA-DBIDCcaWtQzL4BZHoiDkH5gzNBPNspmGXawpg.ttf",
-    "700italic": "http://fonts.gstatic.com/s/ibarrarealnova/v2/sZladQiA-DBIDCcaWtQzL4BZHoiDkH5gqNFPNspmGXawpg.ttf"
-  }
+    "500": "http://fonts.gstatic.com/s/ibarrarealnova/v8/sZlSdQiA-DBIDCcaWtQzL4BZHoiDundw4ATyjed3EXdS5MDtVT9TWIvS.ttf",
+    "600": "http://fonts.gstatic.com/s/ibarrarealnova/v8/sZlSdQiA-DBIDCcaWtQzL4BZHoiDundw4ATyjed3EXe-48DtVT9TWIvS.ttf",
+    "700": "http://fonts.gstatic.com/s/ibarrarealnova/v8/sZlSdQiA-DBIDCcaWtQzL4BZHoiDundw4ATyjed3EXeH48DtVT9TWIvS.ttf",
+    "regular": "http://fonts.gstatic.com/s/ibarrarealnova/v8/sZlSdQiA-DBIDCcaWtQzL4BZHoiDundw4ATyjed3EXdg5MDtVT9TWIvS.ttf",
+    "italic": "http://fonts.gstatic.com/s/ibarrarealnova/v8/sZlsdQiA-DBIDCcaWtQzL4BZHoiDkH5CH9yb5n3ZFmKopyiuXztxXZvSkTo.ttf",
+    "500italic": "http://fonts.gstatic.com/s/ibarrarealnova/v8/sZlsdQiA-DBIDCcaWtQzL4BZHoiDkH5CH9yb5n3ZFmKopxquXztxXZvSkTo.ttf",
+    "600italic": "http://fonts.gstatic.com/s/ibarrarealnova/v8/sZlsdQiA-DBIDCcaWtQzL4BZHoiDkH5CH9yb5n3ZFmKop_apXztxXZvSkTo.ttf",
+    "700italic": "http://fonts.gstatic.com/s/ibarrarealnova/v8/sZlsdQiA-DBIDCcaWtQzL4BZHoiDkH5CH9yb5n3ZFmKop8-pXztxXZvSkTo.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

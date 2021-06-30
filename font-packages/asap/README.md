@@ -14,12 +14,12 @@ This package lets you use the [**Asap**](https://fonts.google.com/specimen/Asap)
 This font family contains [8 styles](#-gallery).
 
 - `Asap_400Regular`
-- `Asap_400Regular_Italic`
 - `Asap_500Medium`
-- `Asap_500Medium_Italic`
 - `Asap_600SemiBold`
-- `Asap_600SemiBold_Italic`
 - `Asap_700Bold`
+- `Asap_400Regular_Italic`
+- `Asap_500Medium_Italic`
+- `Asap_600SemiBold_Italic`
 - `Asap_700Bold_Italic`
 
 ## Usage
@@ -38,24 +38,24 @@ import { AppLoading } from 'expo';
 import {
   useFonts,
   Asap_400Regular,
-  Asap_400Regular_Italic,
   Asap_500Medium,
-  Asap_500Medium_Italic,
   Asap_600SemiBold,
-  Asap_600SemiBold_Italic,
   Asap_700Bold,
+  Asap_400Regular_Italic,
+  Asap_500Medium_Italic,
+  Asap_600SemiBold_Italic,
   Asap_700Bold_Italic,
 } from '@expo-google-fonts/asap';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Asap_400Regular,
-    Asap_400Regular_Italic,
     Asap_500Medium,
-    Asap_500Medium_Italic,
     Asap_600SemiBold,
-    Asap_600SemiBold_Italic,
     Asap_700Bold,
+    Asap_400Regular_Italic,
+    Asap_500Medium_Italic,
+    Asap_600SemiBold_Italic,
     Asap_700Bold_Italic,
   });
 
@@ -82,29 +82,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_400Regular_Italic',
-          }}>
-          Asap Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Asap_500Medium',
           }}>
           Asap Medium
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_500Medium_Italic',
-          }}>
-          Asap Medium Italic
         </Text>
 
         <Text
@@ -122,9 +102,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_600SemiBold_Italic',
+            fontFamily: 'Asap_700Bold',
           }}>
-          Asap Semi Bold Italic
+          Asap Bold
         </Text>
 
         <Text
@@ -132,9 +112,29 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_700Bold',
+            fontFamily: 'Asap_400Regular_Italic',
           }}>
-          Asap Bold
+          Asap Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Asap_500Medium_Italic',
+          }}>
+          Asap Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Asap_600SemiBold_Italic',
+          }}>
+          Asap Semi Bold Italic
         </Text>
 
         <Text
@@ -158,9 +158,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Asap_400Regular](./Asap_400Regular.ttf.png)|![Asap_400Regular_Italic](./Asap_400Regular_Italic.ttf.png)|![Asap_500Medium](./Asap_500Medium.ttf.png)||
-|![Asap_500Medium_Italic](./Asap_500Medium_Italic.ttf.png)|![Asap_600SemiBold](./Asap_600SemiBold.ttf.png)|![Asap_600SemiBold_Italic](./Asap_600SemiBold_Italic.ttf.png)||
-|![Asap_700Bold](./Asap_700Bold.ttf.png)|![Asap_700Bold_Italic](./Asap_700Bold_Italic.ttf.png)|||
+|![Asap_400Regular](./Asap_400Regular.ttf.png)|![Asap_500Medium](./Asap_500Medium.ttf.png)|![Asap_600SemiBold](./Asap_600SemiBold.ttf.png)||
+|![Asap_700Bold](./Asap_700Bold.ttf.png)|![Asap_400Regular_Italic](./Asap_400Regular_Italic.ttf.png)|![Asap_500Medium_Italic](./Asap_500Medium_Italic.ttf.png)||
+|![Asap_600SemiBold_Italic](./Asap_600SemiBold_Italic.ttf.png)|![Asap_700Bold_Italic](./Asap_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

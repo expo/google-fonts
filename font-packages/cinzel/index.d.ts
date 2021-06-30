@@ -7,5 +7,8 @@ export { useFonts } from './useFonts';
 
 export const __metdata__: Any;
 export const Cinzel_400Regular: number;
+export const Cinzel_500Medium: number;
+export const Cinzel_600SemiBold: number;
 export const Cinzel_700Bold: number;
+export const Cinzel_800ExtraBold: number;
 export const Cinzel_900Black: number;

@@ -7,10 +7,10 @@ export { useFonts } from './useFonts';
 
 export const __metdata__: Any;
 export const Asap_400Regular: number;
-export const Asap_400Regular_Italic: number;
 export const Asap_500Medium: number;
-export const Asap_500Medium_Italic: number;
 export const Asap_600SemiBold: number;
-export const Asap_600SemiBold_Italic: number;
 export const Asap_700Bold: number;
+export const Asap_400Regular_Italic: number;
+export const Asap_500Medium_Italic: number;
+export const Asap_600SemiBold_Italic: number;
 export const Asap_700Bold_Italic: number;

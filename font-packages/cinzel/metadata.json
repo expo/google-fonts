@@ -1,14 +1,17 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Cinzel",
-  "category": "serif",
-  "variants": ["regular", "700", "900"],
+  "variants": ["regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2019-07-17",
+  "version": "v11",
+  "lastModified": "2021-01-30",
   "files": {
-    "700": "http://fonts.gstatic.com/s/cinzel/v9/8vIK7ww63mVu7gtzTUHeFGxbO_zo-w.ttf",
-    "900": "http://fonts.gstatic.com/s/cinzel/v9/8vIK7ww63mVu7gtzdUPeFGxbO_zo-w.ttf",
-    "regular": "http://fonts.gstatic.com/s/cinzel/v9/8vIJ7ww63mVu7gtL8W76HEdHMg.ttf"
-  }
+    "500": "http://fonts.gstatic.com/s/cinzel/v11/8vIU7ww63mVu7gtR-kwKxNvkNOjw-uTnTYrvDE5ZdqU.ttf",
+    "600": "http://fonts.gstatic.com/s/cinzel/v11/8vIU7ww63mVu7gtR-kwKxNvkNOjw-gjgTYrvDE5ZdqU.ttf",
+    "700": "http://fonts.gstatic.com/s/cinzel/v11/8vIU7ww63mVu7gtR-kwKxNvkNOjw-jHgTYrvDE5ZdqU.ttf",
+    "800": "http://fonts.gstatic.com/s/cinzel/v11/8vIU7ww63mVu7gtR-kwKxNvkNOjw-lbgTYrvDE5ZdqU.ttf",
+    "900": "http://fonts.gstatic.com/s/cinzel/v11/8vIU7ww63mVu7gtR-kwKxNvkNOjw-n_gTYrvDE5ZdqU.ttf",
+    "regular": "http://fonts.gstatic.com/s/cinzel/v11/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnTYrvDE5ZdqU.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

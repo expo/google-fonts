@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Questrial",
-  "category": "sans-serif",
   "variants": ["regular"],
-  "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-17",
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v13",
+  "lastModified": "2021-03-24",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/questrial/v9/QdVUSTchPBm7nuUeVf7EuStkm20oJA.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/questrial/v13/QdVUSTchPBm7nuUeVf7EuStkm20oJA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

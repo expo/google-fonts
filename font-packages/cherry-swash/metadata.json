@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Cherry Swash",
-  "category": "display",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2021-03-19",
   "files": {
-    "700": "http://fonts.gstatic.com/s/cherryswash/v8/i7dSIFByZjaNAMxtZcnfAy5E_FeaGy6QZ3WfYg.ttf",
-    "regular": "http://fonts.gstatic.com/s/cherryswash/v8/i7dNIFByZjaNAMxtZcnfAy58QHi-EwWMbg.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/cherryswash/v11/i7dSIFByZjaNAMxtZcnfAy5E_FeaGy6QZ3WfYg.ttf",
+    "regular": "http://fonts.gstatic.com/s/cherryswash/v11/i7dNIFByZjaNAMxtZcnfAy58QHi-EwWMbg.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

@@ -1,17 +1,17 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Pridi",
-  "category": "serif",
   "variants": ["200", "300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2019-07-16",
+  "version": "v6",
+  "lastModified": "2020-09-02",
   "files": {
-    "200": "http://fonts.gstatic.com/s/pridi/v5/2sDdZG5JnZLfkc1SiE0jRUG0AqUc.ttf",
-    "300": "http://fonts.gstatic.com/s/pridi/v5/2sDdZG5JnZLfkc02i00jRUG0AqUc.ttf",
-    "500": "http://fonts.gstatic.com/s/pridi/v5/2sDdZG5JnZLfkc1uik0jRUG0AqUc.ttf",
-    "600": "http://fonts.gstatic.com/s/pridi/v5/2sDdZG5JnZLfkc1CjU0jRUG0AqUc.ttf",
-    "700": "http://fonts.gstatic.com/s/pridi/v5/2sDdZG5JnZLfkc0mjE0jRUG0AqUc.ttf",
-    "regular": "http://fonts.gstatic.com/s/pridi/v5/2sDQZG5JnZLfkfWao2krbl29.ttf"
-  }
+    "200": "http://fonts.gstatic.com/s/pridi/v6/2sDdZG5JnZLfkc1SiE0jRUG0AqUc.ttf",
+    "300": "http://fonts.gstatic.com/s/pridi/v6/2sDdZG5JnZLfkc02i00jRUG0AqUc.ttf",
+    "500": "http://fonts.gstatic.com/s/pridi/v6/2sDdZG5JnZLfkc1uik0jRUG0AqUc.ttf",
+    "600": "http://fonts.gstatic.com/s/pridi/v6/2sDdZG5JnZLfkc1CjU0jRUG0AqUc.ttf",
+    "700": "http://fonts.gstatic.com/s/pridi/v6/2sDdZG5JnZLfkc0mjE0jRUG0AqUc.ttf",
+    "regular": "http://fonts.gstatic.com/s/pridi/v6/2sDQZG5JnZLfkfWao2krbl29.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

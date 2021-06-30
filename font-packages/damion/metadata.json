@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Damion",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/damion/v9/hv-XlzJ3KEUe_YZUbWY3MTFgVg.ttf" }
+  "version": "v10",
+  "lastModified": "2020-09-02",
+  "files": { "regular": "http://fonts.gstatic.com/s/damion/v10/hv-XlzJ3KEUe_YZUbWY3MTFgVg.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Kameron",
-  "category": "serif",
   "variants": ["regular", "700"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2020-09-02",
   "files": {
-    "700": "http://fonts.gstatic.com/s/kameron/v10/vm8zdR7vXErQxuzniAIfC-3jfHb--NY.ttf",
-    "regular": "http://fonts.gstatic.com/s/kameron/v10/vm82dR7vXErQxuznsL4wL-XIYH8.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/kameron/v11/vm8zdR7vXErQxuzniAIfC-3jfHb--NY.ttf",
+    "regular": "http://fonts.gstatic.com/s/kameron/v11/vm82dR7vXErQxuznsL4wL-XIYH8.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Almendra Display",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v13",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/almendradisplay/v10/0FlPVOGWl1Sb4O3tETtADHRRlZhzXS_eTyer338.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/almendradisplay/v13/0FlPVOGWl1Sb4O3tETtADHRRlZhzXS_eTyer338.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

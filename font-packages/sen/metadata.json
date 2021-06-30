@@ -1,14 +1,14 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Sen",
-  "category": "sans-serif",
   "variants": ["regular", "700", "800"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v1",
-  "lastModified": "2020-04-21",
+  "version": "v2",
+  "lastModified": "2020-07-23",
   "files": {
-    "700": "http://fonts.gstatic.com/s/sen/v1/6xKudSxYI9__J9CoKkH1JHUQSQ.ttf",
-    "800": "http://fonts.gstatic.com/s/sen/v1/6xKudSxYI9__O9OoKkH1JHUQSQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/sen/v1/6xKjdSxYI9_Hm_-MImrpLQ.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/sen/v2/6xKudSxYI9__J9CoKkH1JHUQSQ.ttf",
+    "800": "http://fonts.gstatic.com/s/sen/v2/6xKudSxYI9__O9OoKkH1JHUQSQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/sen/v2/6xKjdSxYI9_Hm_-MImrpLQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

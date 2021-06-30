@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Prata",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "vietnamese"],
-  "version": "v11",
-  "lastModified": "2020-01-30",
-  "files": { "regular": "http://fonts.gstatic.com/s/prata/v11/6xKhdSpbNNCT-vWIAG_5LWwJ.ttf" }
+  "version": "v13",
+  "lastModified": "2020-09-02",
+  "files": { "regular": "http://fonts.gstatic.com/s/prata/v13/6xKhdSpbNNCT-vWIAG_5LWwJ.ttf" },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

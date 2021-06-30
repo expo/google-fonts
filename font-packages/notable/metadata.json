@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Notable",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v4",
-  "lastModified": "2019-11-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/notable/v4/gNMEW3N_SIqx-WX9-HMoFIez5MI.ttf" }
+  "version": "v9",
+  "lastModified": "2021-03-24",
+  "files": { "regular": "http://fonts.gstatic.com/s/notable/v9/gNMEW3N_SIqx-WX9-HMoFIez5MI.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

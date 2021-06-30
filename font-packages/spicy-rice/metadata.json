@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Spicy Rice",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/spicyrice/v8/uK_24rSEd-Uqwk4jY1RyGv-2WkowRcc.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/spicyrice/v11/uK_24rSEd-Uqwk4jY1RyGv-2WkowRcc.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

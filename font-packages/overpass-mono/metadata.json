@@ -1,15 +1,15 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Overpass Mono",
-  "category": "monospace",
   "variants": ["300", "regular", "600", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2019-07-16",
+  "version": "v6",
+  "lastModified": "2020-09-02",
   "files": {
-    "300": "http://fonts.gstatic.com/s/overpassmono/v5/_Xm3-H86tzKDdAPa-KPQZ-AC3oSWk_edB3Zf8EQ.ttf",
-    "600": "http://fonts.gstatic.com/s/overpassmono/v5/_Xm3-H86tzKDdAPa-KPQZ-AC3vCQk_edB3Zf8EQ.ttf",
-    "700": "http://fonts.gstatic.com/s/overpassmono/v5/_Xm3-H86tzKDdAPa-KPQZ-AC3pSRk_edB3Zf8EQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/overpassmono/v5/_Xmq-H86tzKDdAPa-KPQZ-AC5ii-t_-2G38.ttf"
-  }
+    "300": "http://fonts.gstatic.com/s/overpassmono/v6/_Xm3-H86tzKDdAPa-KPQZ-AC3oSWk_edB3Zf8EQ.ttf",
+    "600": "http://fonts.gstatic.com/s/overpassmono/v6/_Xm3-H86tzKDdAPa-KPQZ-AC3vCQk_edB3Zf8EQ.ttf",
+    "700": "http://fonts.gstatic.com/s/overpassmono/v6/_Xm3-H86tzKDdAPa-KPQZ-AC3pSRk_edB3Zf8EQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/overpassmono/v6/_Xmq-H86tzKDdAPa-KPQZ-AC5ii-t_-2G38.ttf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont"
 }

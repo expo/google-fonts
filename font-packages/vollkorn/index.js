@@ -6,10 +6,14 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const Vollkorn_400Regular = require('./Vollkorn_400Regular.ttf');
-export const Vollkorn_400Regular_Italic = require('./Vollkorn_400Regular_Italic.ttf');
+export const Vollkorn_500Medium = require('./Vollkorn_500Medium.ttf');
 export const Vollkorn_600SemiBold = require('./Vollkorn_600SemiBold.ttf');
-export const Vollkorn_600SemiBold_Italic = require('./Vollkorn_600SemiBold_Italic.ttf');
 export const Vollkorn_700Bold = require('./Vollkorn_700Bold.ttf');
-export const Vollkorn_700Bold_Italic = require('./Vollkorn_700Bold_Italic.ttf');
+export const Vollkorn_800ExtraBold = require('./Vollkorn_800ExtraBold.ttf');
 export const Vollkorn_900Black = require('./Vollkorn_900Black.ttf');
+export const Vollkorn_400Regular_Italic = require('./Vollkorn_400Regular_Italic.ttf');
+export const Vollkorn_500Medium_Italic = require('./Vollkorn_500Medium_Italic.ttf');
+export const Vollkorn_600SemiBold_Italic = require('./Vollkorn_600SemiBold_Italic.ttf');
+export const Vollkorn_700Bold_Italic = require('./Vollkorn_700Bold_Italic.ttf');
+export const Vollkorn_800ExtraBold_Italic = require('./Vollkorn_800ExtraBold_Italic.ttf');
 export const Vollkorn_900Black_Italic = require('./Vollkorn_900Black_Italic.ttf');

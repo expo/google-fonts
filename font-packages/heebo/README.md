@@ -11,12 +11,14 @@ This package lets you use the [**Heebo**](https://fonts.google.com/specimen/Heeb
 
 ![Heebo](./font-family.png)
 
-This font family contains [7 styles](#-gallery).
+This font family contains [9 styles](#-gallery).
 
 - `Heebo_100Thin`
+- `Heebo_200ExtraLight`
 - `Heebo_300Light`
 - `Heebo_400Regular`
 - `Heebo_500Medium`
+- `Heebo_600SemiBold`
 - `Heebo_700Bold`
 - `Heebo_800ExtraBold`
 - `Heebo_900Black`
@@ -37,9 +39,11 @@ import { AppLoading } from 'expo';
 import {
   useFonts,
   Heebo_100Thin,
+  Heebo_200ExtraLight,
   Heebo_300Light,
   Heebo_400Regular,
   Heebo_500Medium,
+  Heebo_600SemiBold,
   Heebo_700Bold,
   Heebo_800ExtraBold,
   Heebo_900Black,
@@ -48,9 +52,11 @@ import {
 export default () => {
   let [fontsLoaded] = useFonts({
     Heebo_100Thin,
+    Heebo_200ExtraLight,
     Heebo_300Light,
     Heebo_400Regular,
     Heebo_500Medium,
+    Heebo_600SemiBold,
     Heebo_700Bold,
     Heebo_800ExtraBold,
     Heebo_900Black,
@@ -72,6 +78,16 @@ export default () => {
             fontFamily: 'Heebo_100Thin',
           }}>
           Heebo Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Heebo_200ExtraLight',
+          }}>
+          Heebo Extra Light
         </Text>
 
         <Text
@@ -102,6 +118,16 @@ export default () => {
             fontFamily: 'Heebo_500Medium',
           }}>
           Heebo Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Heebo_600SemiBold',
+          }}>
+          Heebo Semi Bold
         </Text>
 
         <Text
@@ -145,9 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Heebo_100Thin](./Heebo_100Thin.ttf.png)|![Heebo_300Light](./Heebo_300Light.ttf.png)|![Heebo_400Regular](./Heebo_400Regular.ttf.png)||
-|![Heebo_500Medium](./Heebo_500Medium.ttf.png)|![Heebo_700Bold](./Heebo_700Bold.ttf.png)|![Heebo_800ExtraBold](./Heebo_800ExtraBold.ttf.png)||
-|![Heebo_900Black](./Heebo_900Black.ttf.png)||||
+|![Heebo_100Thin](./Heebo_100Thin.ttf.png)|![Heebo_200ExtraLight](./Heebo_200ExtraLight.ttf.png)|![Heebo_300Light](./Heebo_300Light.ttf.png)||
+|![Heebo_400Regular](./Heebo_400Regular.ttf.png)|![Heebo_500Medium](./Heebo_500Medium.ttf.png)|![Heebo_600SemiBold](./Heebo_600SemiBold.ttf.png)||
+|![Heebo_700Bold](./Heebo_700Bold.ttf.png)|![Heebo_800ExtraBold](./Heebo_800ExtraBold.ttf.png)|![Heebo_900Black](./Heebo_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Bangers",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v12",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/bangers/v12/FeVQS0BTqb0h60ACL5la2bxii28.ttf" }
+  "version": "v13",
+  "lastModified": "2020-09-02",
+  "files": { "regular": "http://fonts.gstatic.com/s/bangers/v13/FeVQS0BTqb0h60ACL5la2bxii28.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

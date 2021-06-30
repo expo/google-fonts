@@ -1,7 +1,5 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Nanum Gothic",
-  "category": "sans-serif",
   "variants": ["regular", "700", "800"],
   "subsets": ["korean", "latin"],
   "version": "v17",
@@ -10,5 +8,7 @@
     "700": "http://fonts.gstatic.com/s/nanumgothic/v17/PN_oRfi-oW3hYwmKDpxS7F_LQv37zlEn14YEUQ.ttf",
     "800": "http://fonts.gstatic.com/s/nanumgothic/v17/PN_oRfi-oW3hYwmKDpxS7F_LXv77zlEn14YEUQ.ttf",
     "regular": "http://fonts.gstatic.com/s/nanumgothic/v17/PN_3Rfi-oW3hYwmKDpxS7F_z_tLfxno73g.ttf"
-  }
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

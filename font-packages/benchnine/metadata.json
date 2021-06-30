@@ -1,14 +1,14 @@
 {
-  "kind": "webfonts#webfont",
   "family": "BenchNine",
-  "category": "sans-serif",
   "variants": ["300", "regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2020-09-02",
   "files": {
-    "300": "http://fonts.gstatic.com/s/benchnine/v8/ahcev8612zF4jxrwMosT--tRhWa8q0v8ag.ttf",
-    "700": "http://fonts.gstatic.com/s/benchnine/v8/ahcev8612zF4jxrwMosT6-xRhWa8q0v8ag.ttf",
-    "regular": "http://fonts.gstatic.com/s/benchnine/v8/ahcbv8612zF4jxrwMosrV8N1jU2gog.ttf"
-  }
+    "300": "http://fonts.gstatic.com/s/benchnine/v9/ahcev8612zF4jxrwMosT--tRhWa8q0v8ag.ttf",
+    "700": "http://fonts.gstatic.com/s/benchnine/v9/ahcev8612zF4jxrwMosT6-xRhWa8q0v8ag.ttf",
+    "regular": "http://fonts.gstatic.com/s/benchnine/v9/ahcbv8612zF4jxrwMosrV8N1jU2gog.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

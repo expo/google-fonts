@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Wire One",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/wireone/v10/qFdH35Wah5htUhV75WGiWdrCwwcJ.ttf" }
+  "version": "v13",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/wireone/v13/qFdH35Wah5htUhV75WGiWdrCwwcJ.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

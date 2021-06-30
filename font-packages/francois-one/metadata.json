@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Francois One",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v14",
-  "lastModified": "2019-07-17",
+  "version": "v15",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/francoisone/v14/_Xmr-H4zszafZw3A-KPSZutNxgKQu_avAg.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/francoisone/v15/_Xmr-H4zszafZw3A-KPSZutNxgKQu_avAg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

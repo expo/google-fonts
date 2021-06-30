@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Dokdo",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/dokdo/v8/esDf315XNuCBLxLo4NaMlKcH.ttf" }
+  "version": "v10",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/dokdo/v10/esDf315XNuCBLxLo4NaMlKcH.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

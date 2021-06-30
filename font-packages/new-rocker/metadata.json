@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "New Rocker",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/newrocker/v8/MwQzbhjp3-HImzcCU_cJkGMViblPtXs.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/newrocker/v11/MwQzbhjp3-HImzcCU_cJkGMViblPtXs.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

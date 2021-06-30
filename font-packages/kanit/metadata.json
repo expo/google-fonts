@@ -1,7 +1,5 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Kanit",
-  "category": "sans-serif",
   "variants": [
     "100",
     "100italic",
@@ -23,26 +21,28 @@
     "900italic"
   ],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2019-07-17",
+  "version": "v7",
+  "lastModified": "2020-09-02",
   "files": {
-    "100": "http://fonts.gstatic.com/s/kanit/v5/nKKX-Go6G5tXcr72GwWKcaxALFs.ttf",
-    "200": "http://fonts.gstatic.com/s/kanit/v5/nKKU-Go6G5tXcr5aOiWgX6BJNUJy.ttf",
-    "300": "http://fonts.gstatic.com/s/kanit/v5/nKKU-Go6G5tXcr4-OSWgX6BJNUJy.ttf",
-    "500": "http://fonts.gstatic.com/s/kanit/v5/nKKU-Go6G5tXcr5mOCWgX6BJNUJy.ttf",
-    "600": "http://fonts.gstatic.com/s/kanit/v5/nKKU-Go6G5tXcr5KPyWgX6BJNUJy.ttf",
-    "700": "http://fonts.gstatic.com/s/kanit/v5/nKKU-Go6G5tXcr4uPiWgX6BJNUJy.ttf",
-    "800": "http://fonts.gstatic.com/s/kanit/v5/nKKU-Go6G5tXcr4yPSWgX6BJNUJy.ttf",
-    "900": "http://fonts.gstatic.com/s/kanit/v5/nKKU-Go6G5tXcr4WPCWgX6BJNUJy.ttf",
-    "100italic": "http://fonts.gstatic.com/s/kanit/v5/nKKV-Go6G5tXcraQI2GAdY5FPFtrGw.ttf",
-    "200italic": "http://fonts.gstatic.com/s/kanit/v5/nKKS-Go6G5tXcraQI82hVaRrMFJyAu4.ttf",
-    "300italic": "http://fonts.gstatic.com/s/kanit/v5/nKKS-Go6G5tXcraQI6miVaRrMFJyAu4.ttf",
-    "regular": "http://fonts.gstatic.com/s/kanit/v5/nKKZ-Go6G5tXcoaSEQGodLxA.ttf",
-    "italic": "http://fonts.gstatic.com/s/kanit/v5/nKKX-Go6G5tXcraQGwWKcaxALFs.ttf",
-    "500italic": "http://fonts.gstatic.com/s/kanit/v5/nKKS-Go6G5tXcraQI_GjVaRrMFJyAu4.ttf",
-    "600italic": "http://fonts.gstatic.com/s/kanit/v5/nKKS-Go6G5tXcraQI92kVaRrMFJyAu4.ttf",
-    "700italic": "http://fonts.gstatic.com/s/kanit/v5/nKKS-Go6G5tXcraQI7mlVaRrMFJyAu4.ttf",
-    "800italic": "http://fonts.gstatic.com/s/kanit/v5/nKKS-Go6G5tXcraQI6WmVaRrMFJyAu4.ttf",
-    "900italic": "http://fonts.gstatic.com/s/kanit/v5/nKKS-Go6G5tXcraQI4GnVaRrMFJyAu4.ttf"
-  }
+    "100": "http://fonts.gstatic.com/s/kanit/v7/nKKX-Go6G5tXcr72GwWKcaxALFs.ttf",
+    "200": "http://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr5aOiWgX6BJNUJy.ttf",
+    "300": "http://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4-OSWgX6BJNUJy.ttf",
+    "500": "http://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr5mOCWgX6BJNUJy.ttf",
+    "600": "http://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr5KPyWgX6BJNUJy.ttf",
+    "700": "http://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4uPiWgX6BJNUJy.ttf",
+    "800": "http://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4yPSWgX6BJNUJy.ttf",
+    "900": "http://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4WPCWgX6BJNUJy.ttf",
+    "100italic": "http://fonts.gstatic.com/s/kanit/v7/nKKV-Go6G5tXcraQI2GAdY5FPFtrGw.ttf",
+    "200italic": "http://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI82hVaRrMFJyAu4.ttf",
+    "300italic": "http://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI6miVaRrMFJyAu4.ttf",
+    "regular": "http://fonts.gstatic.com/s/kanit/v7/nKKZ-Go6G5tXcoaSEQGodLxA.ttf",
+    "italic": "http://fonts.gstatic.com/s/kanit/v7/nKKX-Go6G5tXcraQGwWKcaxALFs.ttf",
+    "500italic": "http://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI_GjVaRrMFJyAu4.ttf",
+    "600italic": "http://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI92kVaRrMFJyAu4.ttf",
+    "700italic": "http://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI7mlVaRrMFJyAu4.ttf",
+    "800italic": "http://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI6WmVaRrMFJyAu4.ttf",
+    "900italic": "http://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI4GnVaRrMFJyAu4.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

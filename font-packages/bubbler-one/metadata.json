@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Bubbler One",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/bubblerone/v8/f0Xy0eqj68ppQV9KBLmAouHH26MPePkt.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/bubblerone/v11/f0Xy0eqj68ppQV9KBLmAouHH26MPePkt.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

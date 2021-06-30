@@ -1,14 +1,14 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Kantumruy",
-  "category": "sans-serif",
   "variants": ["300", "regular", "700"],
   "subsets": ["khmer"],
-  "version": "v7",
-  "lastModified": "2019-07-26",
+  "version": "v11",
+  "lastModified": "2021-03-19",
   "files": {
-    "300": "http://fonts.gstatic.com/s/kantumruy/v7/syk0-yJ0m7wyVb-f4FOPUtDlpn-UJ1H6Uw.ttf",
-    "700": "http://fonts.gstatic.com/s/kantumruy/v7/syk0-yJ0m7wyVb-f4FOPQtflpn-UJ1H6Uw.ttf",
-    "regular": "http://fonts.gstatic.com/s/kantumruy/v7/sykx-yJ0m7wyVb-f4FO3_vjBrlSILg.ttf"
-  }
+    "300": "http://fonts.gstatic.com/s/kantumruy/v11/syk0-yJ0m7wyVb-f4FOPUtDlpn-UJ1H6Uw.ttf",
+    "700": "http://fonts.gstatic.com/s/kantumruy/v11/syk0-yJ0m7wyVb-f4FOPQtflpn-UJ1H6Uw.ttf",
+    "regular": "http://fonts.gstatic.com/s/kantumruy/v11/sykx-yJ0m7wyVb-f4FO3_vjBrlSILg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

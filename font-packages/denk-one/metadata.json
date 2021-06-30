@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Denk One",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/denkone/v7/dg4m_pzhrqcFb2IzROtHpbglShon.ttf" }
+  "version": "v10",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/denkone/v10/dg4m_pzhrqcFb2IzROtHpbglShon.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

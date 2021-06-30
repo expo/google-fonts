@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Medula One",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/medulaone/v9/YA9Wr0qb5kjJM6l2V0yukiEqs7GtlvY.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/medulaone/v12/YA9Wr0qb5kjJM6l2V0yukiEqs7GtlvY.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

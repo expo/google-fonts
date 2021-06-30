@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Lexend Zetta",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v1",
-  "lastModified": "2020-03-03",
+  "version": "v10",
+  "lastModified": "2021-03-24",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/lexendzetta/v1/ll87K2KYXje7CdOFnEWcU8soliQejRR7AQ.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/lexendzetta/v10/ll87K2KYXje7CdOFnEWcU8soliQejRR7AQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

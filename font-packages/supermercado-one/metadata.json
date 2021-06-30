@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Supermercado One",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/supermercadoone/v9/OpNXnpQWg8jc_xps_Gi14kVVEXOn60b3MClBRTs.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/supermercadoone/v12/OpNXnpQWg8jc_xps_Gi14kVVEXOn60b3MClBRTs.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

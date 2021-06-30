@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Fjalla One",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-17",
+  "version": "v8",
+  "lastModified": "2020-09-10",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/fjallaone/v7/Yq6R-LCAWCX3-6Ky7FAFnOZwkxgtUb8.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/fjallaone/v8/Yq6R-LCAWCX3-6Ky7FAFnOZwkxgtUb8.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

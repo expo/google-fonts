@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Akronim",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/akronim/v9/fdN-9sqWtWZZlHRp-gBxkFYN-a8.ttf" }
+  "version": "v12",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/akronim/v12/fdN-9sqWtWZZlHRp-gBxkFYN-a8.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

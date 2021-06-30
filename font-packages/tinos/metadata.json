@@ -1,7 +1,5 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Tinos",
-  "category": "serif",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": [
     "cyrillic",
@@ -13,12 +11,14 @@
     "latin-ext",
     "vietnamese"
   ],
-  "version": "v13",
-  "lastModified": "2019-07-17",
+  "version": "v16",
+  "lastModified": "2021-03-24",
   "files": {
-    "700": "http://fonts.gstatic.com/s/tinos/v13/buE1poGnedXvwj1AW0Fp2i43-cxL.ttf",
-    "regular": "http://fonts.gstatic.com/s/tinos/v13/buE4poGnedXvwgX8dGVh8TI-.ttf",
-    "italic": "http://fonts.gstatic.com/s/tinos/v13/buE2poGnedXvwjX-fmFD9CI-4NU.ttf",
-    "700italic": "http://fonts.gstatic.com/s/tinos/v13/buEzpoGnedXvwjX-Rt1s0CoV_NxLeiw.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/tinos/v16/buE1poGnedXvwj1AW0Fp2i43-cxL.ttf",
+    "regular": "http://fonts.gstatic.com/s/tinos/v16/buE4poGnedXvwgX8dGVh8TI-.ttf",
+    "italic": "http://fonts.gstatic.com/s/tinos/v16/buE2poGnedXvwjX-fmFD9CI-4NU.ttf",
+    "700italic": "http://fonts.gstatic.com/s/tinos/v16/buEzpoGnedXvwjX-Rt1s0CoV_NxLeiw.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

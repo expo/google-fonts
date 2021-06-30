@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Slabo 13px",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v8",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/slabo13px/v7/11hEGp_azEvXZUdSBzzRcKer2wkYnvI.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/slabo13px/v8/11hEGp_azEvXZUdSBzzRcKer2wkYnvI.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

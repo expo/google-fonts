@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Sevillana",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/sevillana/v8/KFOlCnWFscmDt1Bfiy1vAx05IsDqlA.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/sevillana/v11/KFOlCnWFscmDt1Bfiy1vAx05IsDqlA.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

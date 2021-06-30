@@ -8,6 +8,7 @@ export { default as __metadata__ } from './metadata.json';
 export const Assistant_200ExtraLight = require('./Assistant_200ExtraLight.ttf');
 export const Assistant_300Light = require('./Assistant_300Light.ttf');
 export const Assistant_400Regular = require('./Assistant_400Regular.ttf');
+export const Assistant_500Medium = require('./Assistant_500Medium.ttf');
 export const Assistant_600SemiBold = require('./Assistant_600SemiBold.ttf');
 export const Assistant_700Bold = require('./Assistant_700Bold.ttf');
 export const Assistant_800ExtraBold = require('./Assistant_800ExtraBold.ttf');

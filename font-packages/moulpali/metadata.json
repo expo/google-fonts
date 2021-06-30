@@ -1,10 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Moulpali",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["khmer"],
-  "version": "v12",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/moulpali/v12/H4ckBXKMl9HagUWymyY6wr-wg763.ttf" }
+  "version": "v15",
+  "lastModified": "2021-03-19",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/moulpali/v15/H4ckBXKMl9HagUWymyY6wr-wg763.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

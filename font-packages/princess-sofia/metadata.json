@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Princess Sofia",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/princesssofia/v8/qWczB6yguIb8DZ_GXZst16n7GRz7mDUoupoI.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/princesssofia/v11/qWczB6yguIb8DZ_GXZst16n7GRz7mDUoupoI.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

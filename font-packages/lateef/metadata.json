@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Lateef",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["arabic", "latin"],
-  "version": "v15",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/lateef/v15/hESw6XVnNCxEvkbMpheEZo_H_w.ttf" }
+  "version": "v18",
+  "lastModified": "2021-03-24",
+  "files": { "regular": "http://fonts.gstatic.com/s/lateef/v18/hESw6XVnNCxEvkbMpheEZo_H_w.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

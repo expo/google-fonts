@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Nova Cut",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/novacut/v11/KFOkCnSYu8mL-39LkWxPKTM1K9nz.ttf" }
+  "version": "v14",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/novacut/v14/KFOkCnSYu8mL-39LkWxPKTM1K9nz.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

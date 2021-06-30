@@ -11,17 +11,21 @@ This package lets you use the [**Josefin Slab**](https://fonts.google.com/specim
 
 ![Josefin Slab](./font-family.png)
 
-This font family contains [10 styles](#-gallery).
+This font family contains [14 styles](#-gallery).
 
 - `JosefinSlab_100Thin`
-- `JosefinSlab_100Thin_Italic`
+- `JosefinSlab_200ExtraLight`
 - `JosefinSlab_300Light`
-- `JosefinSlab_300Light_Italic`
 - `JosefinSlab_400Regular`
-- `JosefinSlab_400Regular_Italic`
+- `JosefinSlab_500Medium`
 - `JosefinSlab_600SemiBold`
-- `JosefinSlab_600SemiBold_Italic`
 - `JosefinSlab_700Bold`
+- `JosefinSlab_100Thin_Italic`
+- `JosefinSlab_200ExtraLight_Italic`
+- `JosefinSlab_300Light_Italic`
+- `JosefinSlab_400Regular_Italic`
+- `JosefinSlab_500Medium_Italic`
+- `JosefinSlab_600SemiBold_Italic`
 - `JosefinSlab_700Bold_Italic`
 
 ## Usage
@@ -40,28 +44,36 @@ import { AppLoading } from 'expo';
 import {
   useFonts,
   JosefinSlab_100Thin,
-  JosefinSlab_100Thin_Italic,
+  JosefinSlab_200ExtraLight,
   JosefinSlab_300Light,
-  JosefinSlab_300Light_Italic,
   JosefinSlab_400Regular,
-  JosefinSlab_400Regular_Italic,
+  JosefinSlab_500Medium,
   JosefinSlab_600SemiBold,
-  JosefinSlab_600SemiBold_Italic,
   JosefinSlab_700Bold,
+  JosefinSlab_100Thin_Italic,
+  JosefinSlab_200ExtraLight_Italic,
+  JosefinSlab_300Light_Italic,
+  JosefinSlab_400Regular_Italic,
+  JosefinSlab_500Medium_Italic,
+  JosefinSlab_600SemiBold_Italic,
   JosefinSlab_700Bold_Italic,
 } from '@expo-google-fonts/josefin-slab';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     JosefinSlab_100Thin,
-    JosefinSlab_100Thin_Italic,
+    JosefinSlab_200ExtraLight,
     JosefinSlab_300Light,
-    JosefinSlab_300Light_Italic,
     JosefinSlab_400Regular,
-    JosefinSlab_400Regular_Italic,
+    JosefinSlab_500Medium,
     JosefinSlab_600SemiBold,
-    JosefinSlab_600SemiBold_Italic,
     JosefinSlab_700Bold,
+    JosefinSlab_100Thin_Italic,
+    JosefinSlab_200ExtraLight_Italic,
+    JosefinSlab_300Light_Italic,
+    JosefinSlab_400Regular_Italic,
+    JosefinSlab_500Medium_Italic,
+    JosefinSlab_600SemiBold_Italic,
     JosefinSlab_700Bold_Italic,
   });
 
@@ -88,9 +100,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_100Thin_Italic',
+            fontFamily: 'JosefinSlab_200ExtraLight',
           }}>
-          Josefin Slab Thin Italic
+          Josefin Slab Extra Light
         </Text>
 
         <Text
@@ -108,16 +120,6 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_300Light_Italic',
-          }}>
-          Josefin Slab Light Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'JosefinSlab_400Regular',
           }}>
           Josefin Slab Regular
@@ -128,9 +130,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_400Regular_Italic',
+            fontFamily: 'JosefinSlab_500Medium',
           }}>
-          Josefin Slab Italic
+          Josefin Slab Medium
         </Text>
 
         <Text
@@ -148,9 +150,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_600SemiBold_Italic',
+            fontFamily: 'JosefinSlab_700Bold',
           }}>
-          Josefin Slab Semi Bold Italic
+          Josefin Slab Bold
         </Text>
 
         <Text
@@ -158,9 +160,59 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_700Bold',
+            fontFamily: 'JosefinSlab_100Thin_Italic',
           }}>
-          Josefin Slab Bold
+          Josefin Slab Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSlab_200ExtraLight_Italic',
+          }}>
+          Josefin Slab Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSlab_300Light_Italic',
+          }}>
+          Josefin Slab Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSlab_400Regular_Italic',
+          }}>
+          Josefin Slab Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSlab_500Medium_Italic',
+          }}>
+          Josefin Slab Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'JosefinSlab_600SemiBold_Italic',
+          }}>
+          Josefin Slab Semi Bold Italic
         </Text>
 
         <Text
@@ -184,10 +236,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![JosefinSlab_100Thin](./JosefinSlab_100Thin.ttf.png)|![JosefinSlab_100Thin_Italic](./JosefinSlab_100Thin_Italic.ttf.png)|![JosefinSlab_300Light](./JosefinSlab_300Light.ttf.png)||
-|![JosefinSlab_300Light_Italic](./JosefinSlab_300Light_Italic.ttf.png)|![JosefinSlab_400Regular](./JosefinSlab_400Regular.ttf.png)|![JosefinSlab_400Regular_Italic](./JosefinSlab_400Regular_Italic.ttf.png)||
-|![JosefinSlab_600SemiBold](./JosefinSlab_600SemiBold.ttf.png)|![JosefinSlab_600SemiBold_Italic](./JosefinSlab_600SemiBold_Italic.ttf.png)|![JosefinSlab_700Bold](./JosefinSlab_700Bold.ttf.png)||
-|![JosefinSlab_700Bold_Italic](./JosefinSlab_700Bold_Italic.ttf.png)||||
+|![JosefinSlab_100Thin](./JosefinSlab_100Thin.ttf.png)|![JosefinSlab_200ExtraLight](./JosefinSlab_200ExtraLight.ttf.png)|![JosefinSlab_300Light](./JosefinSlab_300Light.ttf.png)||
+|![JosefinSlab_400Regular](./JosefinSlab_400Regular.ttf.png)|![JosefinSlab_500Medium](./JosefinSlab_500Medium.ttf.png)|![JosefinSlab_600SemiBold](./JosefinSlab_600SemiBold.ttf.png)||
+|![JosefinSlab_700Bold](./JosefinSlab_700Bold.ttf.png)|![JosefinSlab_100Thin_Italic](./JosefinSlab_100Thin_Italic.ttf.png)|![JosefinSlab_200ExtraLight_Italic](./JosefinSlab_200ExtraLight_Italic.ttf.png)||
+|![JosefinSlab_300Light_Italic](./JosefinSlab_300Light_Italic.ttf.png)|![JosefinSlab_400Regular_Italic](./JosefinSlab_400Regular_Italic.ttf.png)|![JosefinSlab_500Medium_Italic](./JosefinSlab_500Medium_Italic.ttf.png)||
+|![JosefinSlab_600SemiBold_Italic](./JosefinSlab_600SemiBold_Italic.ttf.png)|![JosefinSlab_700Bold_Italic](./JosefinSlab_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

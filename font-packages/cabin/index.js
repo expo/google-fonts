@@ -6,10 +6,10 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const Cabin_400Regular = require('./Cabin_400Regular.ttf');
-export const Cabin_400Regular_Italic = require('./Cabin_400Regular_Italic.ttf');
 export const Cabin_500Medium = require('./Cabin_500Medium.ttf');
-export const Cabin_500Medium_Italic = require('./Cabin_500Medium_Italic.ttf');
 export const Cabin_600SemiBold = require('./Cabin_600SemiBold.ttf');
-export const Cabin_600SemiBold_Italic = require('./Cabin_600SemiBold_Italic.ttf');
 export const Cabin_700Bold = require('./Cabin_700Bold.ttf');
+export const Cabin_400Regular_Italic = require('./Cabin_400Regular_Italic.ttf');
+export const Cabin_500Medium_Italic = require('./Cabin_500Medium_Italic.ttf');
+export const Cabin_600SemiBold_Italic = require('./Cabin_600SemiBold_Italic.ttf');
 export const Cabin_700Bold_Italic = require('./Cabin_700Bold_Italic.ttf');

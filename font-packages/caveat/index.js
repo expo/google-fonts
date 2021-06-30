@@ -6,4 +6,6 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const Caveat_400Regular = require('./Caveat_400Regular.ttf');
+export const Caveat_500Medium = require('./Caveat_500Medium.ttf');
+export const Caveat_600SemiBold = require('./Caveat_600SemiBold.ttf');
 export const Caveat_700Bold = require('./Caveat_700Bold.ttf');

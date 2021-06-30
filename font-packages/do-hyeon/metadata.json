@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Do Hyeon",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
   "version": "v11",
   "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/dohyeon/v11/TwMN-I8CRRU2zM86HFE3ZwaH__-C.ttf" }
+  "files": { "regular": "http://fonts.gstatic.com/s/dohyeon/v11/TwMN-I8CRRU2zM86HFE3ZwaH__-C.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

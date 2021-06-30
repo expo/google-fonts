@@ -11,16 +11,26 @@ This package lets you use the [**Archivo**](https://fonts.google.com/specimen/Ar
 
 ![Archivo](./font-family.png)
 
-This font family contains [8 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
+- `Archivo_100Thin`
+- `Archivo_200ExtraLight`
+- `Archivo_300Light`
 - `Archivo_400Regular`
-- `Archivo_400Regular_Italic`
 - `Archivo_500Medium`
-- `Archivo_500Medium_Italic`
 - `Archivo_600SemiBold`
-- `Archivo_600SemiBold_Italic`
 - `Archivo_700Bold`
+- `Archivo_800ExtraBold`
+- `Archivo_900Black`
+- `Archivo_100Thin_Italic`
+- `Archivo_200ExtraLight_Italic`
+- `Archivo_300Light_Italic`
+- `Archivo_400Regular_Italic`
+- `Archivo_500Medium_Italic`
+- `Archivo_600SemiBold_Italic`
 - `Archivo_700Bold_Italic`
+- `Archivo_800ExtraBold_Italic`
+- `Archivo_900Black_Italic`
 
 ## Usage
 
@@ -37,26 +47,46 @@ import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
   useFonts,
+  Archivo_100Thin,
+  Archivo_200ExtraLight,
+  Archivo_300Light,
   Archivo_400Regular,
-  Archivo_400Regular_Italic,
   Archivo_500Medium,
-  Archivo_500Medium_Italic,
   Archivo_600SemiBold,
-  Archivo_600SemiBold_Italic,
   Archivo_700Bold,
+  Archivo_800ExtraBold,
+  Archivo_900Black,
+  Archivo_100Thin_Italic,
+  Archivo_200ExtraLight_Italic,
+  Archivo_300Light_Italic,
+  Archivo_400Regular_Italic,
+  Archivo_500Medium_Italic,
+  Archivo_600SemiBold_Italic,
   Archivo_700Bold_Italic,
+  Archivo_800ExtraBold_Italic,
+  Archivo_900Black_Italic,
 } from '@expo-google-fonts/archivo';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    Archivo_100Thin,
+    Archivo_200ExtraLight,
+    Archivo_300Light,
     Archivo_400Regular,
-    Archivo_400Regular_Italic,
     Archivo_500Medium,
-    Archivo_500Medium_Italic,
     Archivo_600SemiBold,
-    Archivo_600SemiBold_Italic,
     Archivo_700Bold,
+    Archivo_800ExtraBold,
+    Archivo_900Black,
+    Archivo_100Thin_Italic,
+    Archivo_200ExtraLight_Italic,
+    Archivo_300Light_Italic,
+    Archivo_400Regular_Italic,
+    Archivo_500Medium_Italic,
+    Archivo_600SemiBold_Italic,
     Archivo_700Bold_Italic,
+    Archivo_800ExtraBold_Italic,
+    Archivo_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -72,9 +102,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_400Regular',
+            fontFamily: 'Archivo_100Thin',
           }}>
-          Archivo Regular
+          Archivo Thin
         </Text>
 
         <Text
@@ -82,9 +112,29 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_400Regular_Italic',
+            fontFamily: 'Archivo_200ExtraLight',
           }}>
-          Archivo Italic
+          Archivo Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_300Light',
+          }}>
+          Archivo Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_400Regular',
+          }}>
+          Archivo Regular
         </Text>
 
         <Text
@@ -102,29 +152,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_500Medium_Italic',
-          }}>
-          Archivo Medium Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Archivo_600SemiBold',
           }}>
           Archivo Semi Bold
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_600SemiBold_Italic',
-          }}>
-          Archivo Semi Bold Italic
         </Text>
 
         <Text
@@ -142,9 +172,109 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_800ExtraBold',
+          }}>
+          Archivo Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_900Black',
+          }}>
+          Archivo Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_100Thin_Italic',
+          }}>
+          Archivo Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_200ExtraLight_Italic',
+          }}>
+          Archivo Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_300Light_Italic',
+          }}>
+          Archivo Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_400Regular_Italic',
+          }}>
+          Archivo Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_500Medium_Italic',
+          }}>
+          Archivo Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_600SemiBold_Italic',
+          }}>
+          Archivo Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Archivo_700Bold_Italic',
           }}>
           Archivo Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_800ExtraBold_Italic',
+          }}>
+          Archivo Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Archivo_900Black_Italic',
+          }}>
+          Archivo Black Italic
         </Text>
       </View>
     );
@@ -158,9 +288,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Archivo_400Regular](./Archivo_400Regular.ttf.png)|![Archivo_400Regular_Italic](./Archivo_400Regular_Italic.ttf.png)|![Archivo_500Medium](./Archivo_500Medium.ttf.png)||
-|![Archivo_500Medium_Italic](./Archivo_500Medium_Italic.ttf.png)|![Archivo_600SemiBold](./Archivo_600SemiBold.ttf.png)|![Archivo_600SemiBold_Italic](./Archivo_600SemiBold_Italic.ttf.png)||
-|![Archivo_700Bold](./Archivo_700Bold.ttf.png)|![Archivo_700Bold_Italic](./Archivo_700Bold_Italic.ttf.png)|||
+|![Archivo_100Thin](./Archivo_100Thin.ttf.png)|![Archivo_200ExtraLight](./Archivo_200ExtraLight.ttf.png)|![Archivo_300Light](./Archivo_300Light.ttf.png)||
+|![Archivo_400Regular](./Archivo_400Regular.ttf.png)|![Archivo_500Medium](./Archivo_500Medium.ttf.png)|![Archivo_600SemiBold](./Archivo_600SemiBold.ttf.png)||
+|![Archivo_700Bold](./Archivo_700Bold.ttf.png)|![Archivo_800ExtraBold](./Archivo_800ExtraBold.ttf.png)|![Archivo_900Black](./Archivo_900Black.ttf.png)||
+|![Archivo_100Thin_Italic](./Archivo_100Thin_Italic.ttf.png)|![Archivo_200ExtraLight_Italic](./Archivo_200ExtraLight_Italic.ttf.png)|![Archivo_300Light_Italic](./Archivo_300Light_Italic.ttf.png)||
+|![Archivo_400Regular_Italic](./Archivo_400Regular_Italic.ttf.png)|![Archivo_500Medium_Italic](./Archivo_500Medium_Italic.ttf.png)|![Archivo_600SemiBold_Italic](./Archivo_600SemiBold_Italic.ttf.png)||
+|![Archivo_700Bold_Italic](./Archivo_700Bold_Italic.ttf.png)|![Archivo_800ExtraBold_Italic](./Archivo_800ExtraBold_Italic.ttf.png)|![Archivo_900Black_Italic](./Archivo_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

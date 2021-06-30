@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Sarala",
-  "category": "sans-serif",
   "variants": ["regular", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v4",
-  "lastModified": "2019-07-16",
+  "version": "v5",
+  "lastModified": "2021-04-01",
   "files": {
-    "700": "http://fonts.gstatic.com/s/sarala/v4/uK_x4riEZv4o1w9ptjI3OtWYVkMpXA.ttf",
-    "regular": "http://fonts.gstatic.com/s/sarala/v4/uK_y4riEZv4o1w9RCh0TMv6EXw.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/sarala/v5/uK_x4riEZv4o1w9ptjI3OtWYVkMpXA.ttf",
+    "regular": "http://fonts.gstatic.com/s/sarala/v5/uK_y4riEZv4o1w9RCh0TMv6EXw.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

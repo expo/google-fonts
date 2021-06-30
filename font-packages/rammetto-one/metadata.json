@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Rammetto One",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/rammettoone/v8/LhWiMV3HOfMbMetJG3lQDpp9Mvuciu-_SQ.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/rammettoone/v9/LhWiMV3HOfMbMetJG3lQDpp9Mvuciu-_SQ.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

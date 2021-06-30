@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Bevan",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v11",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/bevan/v11/4iCj6KZ0a9NXjF8aUir7tlSJ.ttf" }
+  "version": "v12",
+  "lastModified": "2020-09-02",
+  "files": { "regular": "http://fonts.gstatic.com/s/bevan/v12/4iCj6KZ0a9NXjF8aUir7tlSJ.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Emblema One",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/emblemaone/v8/nKKT-GQ0F5dSY8vzG0rOEIRBHl57G_f_.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/emblemaone/v11/nKKT-GQ0F5dSY8vzG0rOEIRBHl57G_f_.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

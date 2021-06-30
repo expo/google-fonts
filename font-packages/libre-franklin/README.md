@@ -14,22 +14,22 @@ This package lets you use the [**Libre Franklin**](https://fonts.google.com/spec
 This font family contains [18 styles](#-gallery).
 
 - `LibreFranklin_100Thin`
-- `LibreFranklin_100Thin_Italic`
 - `LibreFranklin_200ExtraLight`
-- `LibreFranklin_200ExtraLight_Italic`
 - `LibreFranklin_300Light`
-- `LibreFranklin_300Light_Italic`
 - `LibreFranklin_400Regular`
-- `LibreFranklin_400Regular_Italic`
 - `LibreFranklin_500Medium`
-- `LibreFranklin_500Medium_Italic`
 - `LibreFranklin_600SemiBold`
-- `LibreFranklin_600SemiBold_Italic`
 - `LibreFranklin_700Bold`
-- `LibreFranklin_700Bold_Italic`
 - `LibreFranklin_800ExtraBold`
-- `LibreFranklin_800ExtraBold_Italic`
 - `LibreFranklin_900Black`
+- `LibreFranklin_100Thin_Italic`
+- `LibreFranklin_200ExtraLight_Italic`
+- `LibreFranklin_300Light_Italic`
+- `LibreFranklin_400Regular_Italic`
+- `LibreFranklin_500Medium_Italic`
+- `LibreFranklin_600SemiBold_Italic`
+- `LibreFranklin_700Bold_Italic`
+- `LibreFranklin_800ExtraBold_Italic`
 - `LibreFranklin_900Black_Italic`
 
 ## Usage
@@ -48,44 +48,44 @@ import { AppLoading } from 'expo';
 import {
   useFonts,
   LibreFranklin_100Thin,
-  LibreFranklin_100Thin_Italic,
   LibreFranklin_200ExtraLight,
-  LibreFranklin_200ExtraLight_Italic,
   LibreFranklin_300Light,
-  LibreFranklin_300Light_Italic,
   LibreFranklin_400Regular,
-  LibreFranklin_400Regular_Italic,
   LibreFranklin_500Medium,
-  LibreFranklin_500Medium_Italic,
   LibreFranklin_600SemiBold,
-  LibreFranklin_600SemiBold_Italic,
   LibreFranklin_700Bold,
-  LibreFranklin_700Bold_Italic,
   LibreFranklin_800ExtraBold,
-  LibreFranklin_800ExtraBold_Italic,
   LibreFranklin_900Black,
+  LibreFranklin_100Thin_Italic,
+  LibreFranklin_200ExtraLight_Italic,
+  LibreFranklin_300Light_Italic,
+  LibreFranklin_400Regular_Italic,
+  LibreFranklin_500Medium_Italic,
+  LibreFranklin_600SemiBold_Italic,
+  LibreFranklin_700Bold_Italic,
+  LibreFranklin_800ExtraBold_Italic,
   LibreFranklin_900Black_Italic,
 } from '@expo-google-fonts/libre-franklin';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     LibreFranklin_100Thin,
-    LibreFranklin_100Thin_Italic,
     LibreFranklin_200ExtraLight,
-    LibreFranklin_200ExtraLight_Italic,
     LibreFranklin_300Light,
-    LibreFranklin_300Light_Italic,
     LibreFranklin_400Regular,
-    LibreFranklin_400Regular_Italic,
     LibreFranklin_500Medium,
-    LibreFranklin_500Medium_Italic,
     LibreFranklin_600SemiBold,
-    LibreFranklin_600SemiBold_Italic,
     LibreFranklin_700Bold,
-    LibreFranklin_700Bold_Italic,
     LibreFranklin_800ExtraBold,
-    LibreFranklin_800ExtraBold_Italic,
     LibreFranklin_900Black,
+    LibreFranklin_100Thin_Italic,
+    LibreFranklin_200ExtraLight_Italic,
+    LibreFranklin_300Light_Italic,
+    LibreFranklin_400Regular_Italic,
+    LibreFranklin_500Medium_Italic,
+    LibreFranklin_600SemiBold_Italic,
+    LibreFranklin_700Bold_Italic,
+    LibreFranklin_800ExtraBold_Italic,
     LibreFranklin_900Black_Italic,
   });
 
@@ -112,29 +112,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_100Thin_Italic',
-          }}>
-          Libre Franklin Thin Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'LibreFranklin_200ExtraLight',
           }}>
           Libre Franklin Extra Light
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_200ExtraLight_Italic',
-          }}>
-          Libre Franklin Extra Light Italic
         </Text>
 
         <Text
@@ -152,29 +132,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_300Light_Italic',
-          }}>
-          Libre Franklin Light Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'LibreFranklin_400Regular',
           }}>
           Libre Franklin Regular
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_400Regular_Italic',
-          }}>
-          Libre Franklin Italic
         </Text>
 
         <Text
@@ -192,29 +152,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_500Medium_Italic',
-          }}>
-          Libre Franklin Medium Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'LibreFranklin_600SemiBold',
           }}>
           Libre Franklin Semi Bold
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_600SemiBold_Italic',
-          }}>
-          Libre Franklin Semi Bold Italic
         </Text>
 
         <Text
@@ -232,16 +172,6 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_700Bold_Italic',
-          }}>
-          Libre Franklin Bold Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'LibreFranklin_800ExtraBold',
           }}>
           Libre Franklin Extra Bold
@@ -252,9 +182,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_800ExtraBold_Italic',
+            fontFamily: 'LibreFranklin_900Black',
           }}>
-          Libre Franklin Extra Bold Italic
+          Libre Franklin Black
         </Text>
 
         <Text
@@ -262,9 +192,79 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_900Black',
+            fontFamily: 'LibreFranklin_100Thin_Italic',
           }}>
-          Libre Franklin Black
+          Libre Franklin Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LibreFranklin_200ExtraLight_Italic',
+          }}>
+          Libre Franklin Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LibreFranklin_300Light_Italic',
+          }}>
+          Libre Franklin Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LibreFranklin_400Regular_Italic',
+          }}>
+          Libre Franklin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LibreFranklin_500Medium_Italic',
+          }}>
+          Libre Franklin Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LibreFranklin_600SemiBold_Italic',
+          }}>
+          Libre Franklin Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LibreFranklin_700Bold_Italic',
+          }}>
+          Libre Franklin Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LibreFranklin_800ExtraBold_Italic',
+          }}>
+          Libre Franklin Extra Bold Italic
         </Text>
 
         <Text
@@ -288,12 +288,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LibreFranklin_100Thin](./LibreFranklin_100Thin.ttf.png)|![LibreFranklin_100Thin_Italic](./LibreFranklin_100Thin_Italic.ttf.png)|![LibreFranklin_200ExtraLight](./LibreFranklin_200ExtraLight.ttf.png)||
-|![LibreFranklin_200ExtraLight_Italic](./LibreFranklin_200ExtraLight_Italic.ttf.png)|![LibreFranklin_300Light](./LibreFranklin_300Light.ttf.png)|![LibreFranklin_300Light_Italic](./LibreFranklin_300Light_Italic.ttf.png)||
-|![LibreFranklin_400Regular](./LibreFranklin_400Regular.ttf.png)|![LibreFranklin_400Regular_Italic](./LibreFranklin_400Regular_Italic.ttf.png)|![LibreFranklin_500Medium](./LibreFranklin_500Medium.ttf.png)||
-|![LibreFranklin_500Medium_Italic](./LibreFranklin_500Medium_Italic.ttf.png)|![LibreFranklin_600SemiBold](./LibreFranklin_600SemiBold.ttf.png)|![LibreFranklin_600SemiBold_Italic](./LibreFranklin_600SemiBold_Italic.ttf.png)||
-|![LibreFranklin_700Bold](./LibreFranklin_700Bold.ttf.png)|![LibreFranklin_700Bold_Italic](./LibreFranklin_700Bold_Italic.ttf.png)|![LibreFranklin_800ExtraBold](./LibreFranklin_800ExtraBold.ttf.png)||
-|![LibreFranklin_800ExtraBold_Italic](./LibreFranklin_800ExtraBold_Italic.ttf.png)|![LibreFranklin_900Black](./LibreFranklin_900Black.ttf.png)|![LibreFranklin_900Black_Italic](./LibreFranklin_900Black_Italic.ttf.png)||
+|![LibreFranklin_100Thin](./LibreFranklin_100Thin.ttf.png)|![LibreFranklin_200ExtraLight](./LibreFranklin_200ExtraLight.ttf.png)|![LibreFranklin_300Light](./LibreFranklin_300Light.ttf.png)||
+|![LibreFranklin_400Regular](./LibreFranklin_400Regular.ttf.png)|![LibreFranklin_500Medium](./LibreFranklin_500Medium.ttf.png)|![LibreFranklin_600SemiBold](./LibreFranklin_600SemiBold.ttf.png)||
+|![LibreFranklin_700Bold](./LibreFranklin_700Bold.ttf.png)|![LibreFranklin_800ExtraBold](./LibreFranklin_800ExtraBold.ttf.png)|![LibreFranklin_900Black](./LibreFranklin_900Black.ttf.png)||
+|![LibreFranklin_100Thin_Italic](./LibreFranklin_100Thin_Italic.ttf.png)|![LibreFranklin_200ExtraLight_Italic](./LibreFranklin_200ExtraLight_Italic.ttf.png)|![LibreFranklin_300Light_Italic](./LibreFranklin_300Light_Italic.ttf.png)||
+|![LibreFranklin_400Regular_Italic](./LibreFranklin_400Regular_Italic.ttf.png)|![LibreFranklin_500Medium_Italic](./LibreFranklin_500Medium_Italic.ttf.png)|![LibreFranklin_600SemiBold_Italic](./LibreFranklin_600SemiBold_Italic.ttf.png)||
+|![LibreFranklin_700Bold_Italic](./LibreFranklin_700Bold_Italic.ttf.png)|![LibreFranklin_800ExtraBold_Italic](./LibreFranklin_800ExtraBold_Italic.ttf.png)|![LibreFranklin_900Black_Italic](./LibreFranklin_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

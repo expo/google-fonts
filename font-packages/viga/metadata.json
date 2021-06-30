@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Viga",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-17",
-  "files": { "regular": "http://fonts.gstatic.com/s/viga/v8/xMQbuFFdSaiX_QIjD4e2OX8.ttf" }
+  "version": "v9",
+  "lastModified": "2020-09-02",
+  "files": { "regular": "http://fonts.gstatic.com/s/viga/v9/xMQbuFFdSaiX_QIjD4e2OX8.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

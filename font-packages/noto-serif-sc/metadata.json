@@ -1,18 +1,18 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Noto Serif SC",
-  "category": "serif",
   "variants": ["200", "300", "regular", "500", "600", "700", "900"],
   "subsets": ["chinese-simplified", "latin"],
-  "version": "v7",
-  "lastModified": "2020-01-30",
+  "version": "v8",
+  "lastModified": "2020-11-12",
   "files": {
-    "200": "http://fonts.gstatic.com/s/notoserifsc/v7/H4c8BXePl9DZ0Xe7gG9cyOj7mm63SzZBEtERe7U.otf",
-    "300": "http://fonts.gstatic.com/s/notoserifsc/v7/H4c8BXePl9DZ0Xe7gG9cyOj7mgq0SzZBEtERe7U.otf",
-    "500": "http://fonts.gstatic.com/s/notoserifsc/v7/H4c8BXePl9DZ0Xe7gG9cyOj7mlK1SzZBEtERe7U.otf",
-    "600": "http://fonts.gstatic.com/s/notoserifsc/v7/H4c8BXePl9DZ0Xe7gG9cyOj7mn6ySzZBEtERe7U.otf",
-    "700": "http://fonts.gstatic.com/s/notoserifsc/v7/H4c8BXePl9DZ0Xe7gG9cyOj7mhqzSzZBEtERe7U.otf",
-    "900": "http://fonts.gstatic.com/s/notoserifsc/v7/H4c8BXePl9DZ0Xe7gG9cyOj7miKxSzZBEtERe7U.otf",
-    "regular": "http://fonts.gstatic.com/s/notoserifsc/v7/H4chBXePl9DZ0Xe7gG9cyOj7oqCcbzhqDtg.otf"
-  }
+    "200": "http://fonts.gstatic.com/s/notoserifsc/v8/H4c8BXePl9DZ0Xe7gG9cyOj7mm63SzZBEtERe7U.otf",
+    "300": "http://fonts.gstatic.com/s/notoserifsc/v8/H4c8BXePl9DZ0Xe7gG9cyOj7mgq0SzZBEtERe7U.otf",
+    "500": "http://fonts.gstatic.com/s/notoserifsc/v8/H4c8BXePl9DZ0Xe7gG9cyOj7mlK1SzZBEtERe7U.otf",
+    "600": "http://fonts.gstatic.com/s/notoserifsc/v8/H4c8BXePl9DZ0Xe7gG9cyOj7mn6ySzZBEtERe7U.otf",
+    "700": "http://fonts.gstatic.com/s/notoserifsc/v8/H4c8BXePl9DZ0Xe7gG9cyOj7mhqzSzZBEtERe7U.otf",
+    "900": "http://fonts.gstatic.com/s/notoserifsc/v8/H4c8BXePl9DZ0Xe7gG9cyOj7miKxSzZBEtERe7U.otf",
+    "regular": "http://fonts.gstatic.com/s/notoserifsc/v8/H4chBXePl9DZ0Xe7gG9cyOj7oqCcbzhqDtg.otf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

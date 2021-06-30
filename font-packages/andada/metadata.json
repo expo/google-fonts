@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Andada",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/andada/v11/uK_y4riWaego3w9RCh0TMv6EXw.ttf" }
+  "version": "v12",
+  "lastModified": "2020-07-23",
+  "files": { "regular": "http://fonts.gstatic.com/s/andada/v12/uK_y4riWaego3w9RCh0TMv6EXw.ttf" },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

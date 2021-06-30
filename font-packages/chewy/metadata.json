@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Chewy",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/chewy/v11/uK_94ruUb-k-wk5xIDMfO-ed.ttf" }
+  "version": "v12",
+  "lastModified": "2020-09-02",
+  "files": { "regular": "http://fonts.gstatic.com/s/chewy/v12/uK_94ruUb-k-wk5xIDMfO-ed.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Hanuman",
-  "category": "serif",
   "variants": ["regular", "700"],
   "subsets": ["khmer"],
-  "version": "v13",
-  "lastModified": "2019-07-16",
+  "version": "v14",
+  "lastModified": "2020-09-02",
   "files": {
-    "700": "http://fonts.gstatic.com/s/hanuman/v13/VuJ0dNvD15HhpJJBQBr4HIlMZRNcp0o.ttf",
-    "regular": "http://fonts.gstatic.com/s/hanuman/v13/VuJxdNvD15HhpJJBeKbXOIFneRo.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/hanuman/v14/VuJ0dNvD15HhpJJBQBr4HIlMZRNcp0o.ttf",
+    "regular": "http://fonts.gstatic.com/s/hanuman/v14/VuJxdNvD15HhpJJBeKbXOIFneRo.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

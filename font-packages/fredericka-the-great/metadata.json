@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Fredericka the Great",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2019-07-26",
+  "version": "v10",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/frederickathegreat/v9/9Bt33CxNwt7aOctW2xjbCstzwVKsIBVV-9Skz7Ylch2L.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/frederickathegreat/v10/9Bt33CxNwt7aOctW2xjbCstzwVKsIBVV-9Skz7Ylch2L.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

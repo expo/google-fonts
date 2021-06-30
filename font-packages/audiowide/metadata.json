@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Audiowide",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/audiowide/v8/l7gdbjpo0cum0ckerWCtkQXPExpQBw.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/audiowide/v9/l7gdbjpo0cum0ckerWCtkQXPExpQBw.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

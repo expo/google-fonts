@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Libre Caslon Display",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v1",
-  "lastModified": "2020-03-03",
+  "version": "v4",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/librecaslondisplay/v1/TuGOUUFxWphYQ6YI6q9Xp61FQzxDRKmzr2lRdRhtCC4d.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/librecaslondisplay/v4/TuGOUUFxWphYQ6YI6q9Xp61FQzxDRKmzr2lRdRhtCC4d.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

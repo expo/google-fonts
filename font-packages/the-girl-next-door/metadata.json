@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "The Girl Next Door",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v13",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/thegirlnextdoor/v10/pe0zMJCIMIsBjFxqYBIcZ6_OI5oFHCYIV7t7w6bE2A.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/thegirlnextdoor/v13/pe0zMJCIMIsBjFxqYBIcZ6_OI5oFHCYIV7t7w6bE2A.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

@@ -1,7 +1,5 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Overpass",
-  "category": "sans-serif",
   "variants": [
     "100",
     "100italic",
@@ -21,24 +19,26 @@
     "900italic"
   ],
   "subsets": ["latin", "latin-ext"],
-  "version": "v4",
-  "lastModified": "2019-07-17",
+  "version": "v5",
+  "lastModified": "2020-09-10",
   "files": {
-    "100": "http://fonts.gstatic.com/s/overpass/v4/qFdB35WCmI96Ajtm81nGU97gxhcJk1s.ttf",
-    "200": "http://fonts.gstatic.com/s/overpass/v4/qFdA35WCmI96Ajtm81lqcv7K6BsAikI7.ttf",
-    "300": "http://fonts.gstatic.com/s/overpass/v4/qFdA35WCmI96Ajtm81kOcf7K6BsAikI7.ttf",
-    "600": "http://fonts.gstatic.com/s/overpass/v4/qFdA35WCmI96Ajtm81l6d_7K6BsAikI7.ttf",
-    "700": "http://fonts.gstatic.com/s/overpass/v4/qFdA35WCmI96Ajtm81kedv7K6BsAikI7.ttf",
-    "800": "http://fonts.gstatic.com/s/overpass/v4/qFdA35WCmI96Ajtm81kCdf7K6BsAikI7.ttf",
-    "900": "http://fonts.gstatic.com/s/overpass/v4/qFdA35WCmI96Ajtm81kmdP7K6BsAikI7.ttf",
-    "100italic": "http://fonts.gstatic.com/s/overpass/v4/qFdD35WCmI96Ajtm81Gga7rqwjUMg1siNQ.ttf",
-    "200italic": "http://fonts.gstatic.com/s/overpass/v4/qFdC35WCmI96Ajtm81GgaxbL4h8ij1I7LLE.ttf",
-    "300italic": "http://fonts.gstatic.com/s/overpass/v4/qFdC35WCmI96Ajtm81Gga3LI4h8ij1I7LLE.ttf",
-    "regular": "http://fonts.gstatic.com/s/overpass/v4/qFdH35WCmI96Ajtm82GiWdrCwwcJ.ttf",
-    "italic": "http://fonts.gstatic.com/s/overpass/v4/qFdB35WCmI96Ajtm81GgU97gxhcJk1s.ttf",
-    "600italic": "http://fonts.gstatic.com/s/overpass/v4/qFdC35WCmI96Ajtm81GgawbO4h8ij1I7LLE.ttf",
-    "700italic": "http://fonts.gstatic.com/s/overpass/v4/qFdC35WCmI96Ajtm81Gga2LP4h8ij1I7LLE.ttf",
-    "800italic": "http://fonts.gstatic.com/s/overpass/v4/qFdC35WCmI96Ajtm81Gga37M4h8ij1I7LLE.ttf",
-    "900italic": "http://fonts.gstatic.com/s/overpass/v4/qFdC35WCmI96Ajtm81Gga1rN4h8ij1I7LLE.ttf"
-  }
+    "100": "http://fonts.gstatic.com/s/overpass/v5/qFdB35WCmI96Ajtm81nGU97gxhcJk1s.ttf",
+    "200": "http://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81lqcv7K6BsAikI7.ttf",
+    "300": "http://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81kOcf7K6BsAikI7.ttf",
+    "600": "http://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81l6d_7K6BsAikI7.ttf",
+    "700": "http://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81kedv7K6BsAikI7.ttf",
+    "800": "http://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81kCdf7K6BsAikI7.ttf",
+    "900": "http://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81kmdP7K6BsAikI7.ttf",
+    "100italic": "http://fonts.gstatic.com/s/overpass/v5/qFdD35WCmI96Ajtm81Gga7rqwjUMg1siNQ.ttf",
+    "200italic": "http://fonts.gstatic.com/s/overpass/v5/qFdC35WCmI96Ajtm81GgaxbL4h8ij1I7LLE.ttf",
+    "300italic": "http://fonts.gstatic.com/s/overpass/v5/qFdC35WCmI96Ajtm81Gga3LI4h8ij1I7LLE.ttf",
+    "regular": "http://fonts.gstatic.com/s/overpass/v5/qFdH35WCmI96Ajtm82GiWdrCwwcJ.ttf",
+    "italic": "http://fonts.gstatic.com/s/overpass/v5/qFdB35WCmI96Ajtm81GgU97gxhcJk1s.ttf",
+    "600italic": "http://fonts.gstatic.com/s/overpass/v5/qFdC35WCmI96Ajtm81GgawbO4h8ij1I7LLE.ttf",
+    "700italic": "http://fonts.gstatic.com/s/overpass/v5/qFdC35WCmI96Ajtm81Gga2LP4h8ij1I7LLE.ttf",
+    "800italic": "http://fonts.gstatic.com/s/overpass/v5/qFdC35WCmI96Ajtm81Gga37M4h8ij1I7LLE.ttf",
+    "900italic": "http://fonts.gstatic.com/s/overpass/v5/qFdC35WCmI96Ajtm81Gga1rN4h8ij1I7LLE.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

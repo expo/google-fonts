@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Suwannaphum",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["khmer"],
-  "version": "v13",
-  "lastModified": "2019-07-16",
+  "version": "v16",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/suwannaphum/v13/jAnCgHV7GtDvc8jbe8hXXIWl_8C0Wg2V.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/suwannaphum/v16/jAnCgHV7GtDvc8jbe8hXXIWl_8C0Wg2V.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Yeseva One",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v14",
-  "lastModified": "2019-07-16",
+  "version": "v15",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/yesevaone/v14/OpNJno4ck8vc-xYpwWWxpipfWhXD00c.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/yesevaone/v15/OpNJno4ck8vc-xYpwWWxpipfWhXD00c.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

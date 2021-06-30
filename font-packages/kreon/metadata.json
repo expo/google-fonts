@@ -1,16 +1,16 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Kreon",
-  "category": "serif",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v22",
-  "lastModified": "2020-02-05",
+  "version": "v24",
+  "lastModified": "2021-01-30",
   "files": {
-    "300": "http://fonts.gstatic.com/s/kreon/v22/t5t9IRIUKY-TFF_LW5lnMR3v2DnvPNimejUfp2dWNg.ttf",
-    "500": "http://fonts.gstatic.com/s/kreon/v22/t5t9IRIUKY-TFF_LW5lnMR3v2DnvUNimejUfp2dWNg.ttf",
-    "600": "http://fonts.gstatic.com/s/kreon/v22/t5t9IRIUKY-TFF_LW5lnMR3v2DnvvN-mejUfp2dWNg.ttf",
-    "700": "http://fonts.gstatic.com/s/kreon/v22/t5t9IRIUKY-TFF_LW5lnMR3v2Dnvhd-mejUfp2dWNg.ttf",
-    "regular": "http://fonts.gstatic.com/s/kreon/v22/t5t9IRIUKY-TFF_LW5lnMR3v2DnvYtimejUfp2dWNg.ttf"
-  }
+    "300": "http://fonts.gstatic.com/s/kreon/v24/t5t9IRIUKY-TFF_LW5lnMR3v2DnvPNimejUfp2dWNg.ttf",
+    "500": "http://fonts.gstatic.com/s/kreon/v24/t5t9IRIUKY-TFF_LW5lnMR3v2DnvUNimejUfp2dWNg.ttf",
+    "600": "http://fonts.gstatic.com/s/kreon/v24/t5t9IRIUKY-TFF_LW5lnMR3v2DnvvN-mejUfp2dWNg.ttf",
+    "700": "http://fonts.gstatic.com/s/kreon/v24/t5t9IRIUKY-TFF_LW5lnMR3v2Dnvhd-mejUfp2dWNg.ttf",
+    "regular": "http://fonts.gstatic.com/s/kreon/v24/t5t9IRIUKY-TFF_LW5lnMR3v2DnvYtimejUfp2dWNg.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Warnes",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/warnes/v9/pONn1hc0GsW6sW5OpiC2o6Lkqg.ttf" }
+  "version": "v12",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/warnes/v12/pONn1hc0GsW6sW5OpiC2o6Lkqg.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

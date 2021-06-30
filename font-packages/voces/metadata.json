@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Voces",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/voces/v9/-F6_fjJyLyU8d4PBBG7YpzlJ.ttf" }
+  "version": "v12",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/voces/v12/-F6_fjJyLyU8d4PBBG7YpzlJ.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

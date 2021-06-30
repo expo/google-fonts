@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Suez One",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["hebrew", "latin", "latin-ext"],
-  "version": "v4",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/suezone/v4/taiJGmd_EZ6rqscQgNFJkIqg-I0w.ttf" }
+  "version": "v5",
+  "lastModified": "2020-09-02",
+  "files": { "regular": "http://fonts.gstatic.com/s/suezone/v5/taiJGmd_EZ6rqscQgNFJkIqg-I0w.ttf" },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

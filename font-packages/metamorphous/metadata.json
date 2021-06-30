@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Metamorphous",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v13",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/metamorphous/v10/Wnz8HA03aAXcC39ZEX5y1330PCCthTsmaQ.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/metamorphous/v13/Wnz8HA03aAXcC39ZEX5y1330PCCthTsmaQ.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

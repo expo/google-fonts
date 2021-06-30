@@ -1,16 +1,16 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Baloo Da 2",
-  "category": "display",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["bengali", "latin", "latin-ext", "vietnamese"],
-  "version": "v1",
-  "lastModified": "2020-03-06",
+  "version": "v2",
+  "lastModified": "2021-04-01",
   "files": {
-    "500": "http://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJShr-hZloY23zejE.ttf",
-    "600": "http://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJSjb5hZloY23zejE.ttf",
-    "700": "http://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJSlL4hZloY23zejE.ttf",
-    "800": "http://fonts.gstatic.com/s/balooda2/v1/2-ch9J9j0IaUMQZwAJyJSk77hZloY23zejE.ttf",
-    "regular": "http://fonts.gstatic.com/s/balooda2/v1/2-ci9J9j0IaUMQZwAJyJcu7XoZFDf2Q.ttf"
-  }
+    "500": "http://fonts.gstatic.com/s/balooda2/v2/2-ch9J9j0IaUMQZwAJyJShr-hZloY23zejE.ttf",
+    "600": "http://fonts.gstatic.com/s/balooda2/v2/2-ch9J9j0IaUMQZwAJyJSjb5hZloY23zejE.ttf",
+    "700": "http://fonts.gstatic.com/s/balooda2/v2/2-ch9J9j0IaUMQZwAJyJSlL4hZloY23zejE.ttf",
+    "800": "http://fonts.gstatic.com/s/balooda2/v2/2-ch9J9j0IaUMQZwAJyJSk77hZloY23zejE.ttf",
+    "regular": "http://fonts.gstatic.com/s/balooda2/v2/2-ci9J9j0IaUMQZwAJyJcu7XoZFDf2Q.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

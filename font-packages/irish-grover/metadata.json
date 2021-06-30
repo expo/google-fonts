@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Irish Grover",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/irishgrover/v10/buExpoi6YtLz2QW7LA4flVgf-P5Oaiw4cw.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/irishgrover/v12/buExpoi6YtLz2QW7LA4flVgf-P5Oaiw4cw.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

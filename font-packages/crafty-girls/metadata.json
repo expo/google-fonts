@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Crafty Girls",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v10",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/craftygirls/v9/va9B4kXI39VaDdlPJo8N_NvuQR37fF3Wlg.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/craftygirls/v10/va9B4kXI39VaDdlPJo8N_NvuQR37fF3Wlg.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

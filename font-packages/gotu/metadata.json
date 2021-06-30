@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Gotu",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["devanagari", "latin", "latin-ext", "vietnamese"],
-  "version": "v1",
-  "lastModified": "2020-04-21",
-  "files": { "regular": "http://fonts.gstatic.com/s/gotu/v1/o-0FIpksx3QOlH0Lioh6-hU.ttf" }
+  "version": "v4",
+  "lastModified": "2021-04-01",
+  "files": { "regular": "http://fonts.gstatic.com/s/gotu/v4/o-0FIpksx3QOlH0Lioh6-hU.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

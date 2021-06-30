@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Herr Von Muellerhoff",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v10",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/herrvonmuellerhoff/v9/WBL6rFjRZkREW8WqmCWYLgCkQKXb4CAft3c6_qJY3QPQ.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/herrvonmuellerhoff/v10/WBL6rFjRZkREW8WqmCWYLgCkQKXb4CAft3c6_qJY3QPQ.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

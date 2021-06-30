@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Delius Swash Caps",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2019-07-16",
+  "version": "v14",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/deliusswashcaps/v11/oY1E8fPLr7v4JWCExZpWebxVKORpXXedKmeBvEYs.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/deliusswashcaps/v14/oY1E8fPLr7v4JWCExZpWebxVKORpXXedKmeBvEYs.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

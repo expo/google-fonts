@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Crushed",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/crushed/v10/U9Mc6dym6WXImTlFT1kfuIqyLzA.ttf" }
+  "version": "v13",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/crushed/v13/U9Mc6dym6WXImTlFT1kfuIqyLzA.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

@@ -1,16 +1,16 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Cormorant Unicase",
-  "category": "serif",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v13",
+  "lastModified": "2021-03-24",
   "files": {
-    "300": "http://fonts.gstatic.com/s/cormorantunicase/v8/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9N_tucv7Gy0DRzS.ttf",
-    "500": "http://fonts.gstatic.com/s/cormorantunicase/v8/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9Mnt-cv7Gy0DRzS.ttf",
-    "600": "http://fonts.gstatic.com/s/cormorantunicase/v8/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9MLsOcv7Gy0DRzS.ttf",
-    "700": "http://fonts.gstatic.com/s/cormorantunicase/v8/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9Nvsecv7Gy0DRzS.ttf",
-    "regular": "http://fonts.gstatic.com/s/cormorantunicase/v8/HI_QiZUaILtOqhqgDeXoF_n1_fTGX-vTnsMnx3C9.ttf"
-  }
+    "300": "http://fonts.gstatic.com/s/cormorantunicase/v13/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9N_tucv7Gy0DRzS.ttf",
+    "500": "http://fonts.gstatic.com/s/cormorantunicase/v13/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9Mnt-cv7Gy0DRzS.ttf",
+    "600": "http://fonts.gstatic.com/s/cormorantunicase/v13/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9MLsOcv7Gy0DRzS.ttf",
+    "700": "http://fonts.gstatic.com/s/cormorantunicase/v13/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9Nvsecv7Gy0DRzS.ttf",
+    "regular": "http://fonts.gstatic.com/s/cormorantunicase/v13/HI_QiZUaILtOqhqgDeXoF_n1_fTGX-vTnsMnx3C9.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

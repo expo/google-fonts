@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "IM Fell French Canon SC",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/imfellfrenchcanonsc/v9/FBVmdCru5-ifcor2bgq9V89khWcmQghEURY7H3c0UBCVIVqH.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/imfellfrenchcanonsc/v12/FBVmdCru5-ifcor2bgq9V89khWcmQghEURY7H3c0UBCVIVqH.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

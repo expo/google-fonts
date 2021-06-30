@@ -1,14 +1,14 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Amiko",
-  "category": "sans-serif",
   "variants": ["regular", "600", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v4",
-  "lastModified": "2019-07-16",
+  "version": "v5",
+  "lastModified": "2020-07-23",
   "files": {
-    "600": "http://fonts.gstatic.com/s/amiko/v4/WwkdxPq1DFK04uJ9XXrEGoQAUco5.ttf",
-    "700": "http://fonts.gstatic.com/s/amiko/v4/WwkdxPq1DFK04uIZXHrEGoQAUco5.ttf",
-    "regular": "http://fonts.gstatic.com/s/amiko/v4/WwkQxPq1DFK04tqlc17MMZgJ.ttf"
-  }
+    "600": "http://fonts.gstatic.com/s/amiko/v5/WwkdxPq1DFK04uJ9XXrEGoQAUco5.ttf",
+    "700": "http://fonts.gstatic.com/s/amiko/v5/WwkdxPq1DFK04uIZXHrEGoQAUco5.ttf",
+    "regular": "http://fonts.gstatic.com/s/amiko/v5/WwkQxPq1DFK04tqlc17MMZgJ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

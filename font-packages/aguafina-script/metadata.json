@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Aguafina Script",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/aguafinascript/v8/If2QXTv_ZzSxGIO30LemWEOmt1bHqs4pgicOrg.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/aguafinascript/v9/If2QXTv_ZzSxGIO30LemWEOmt1bHqs4pgicOrg.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

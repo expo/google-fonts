@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Battambang",
-  "category": "display",
   "variants": ["regular", "700"],
   "subsets": ["khmer"],
-  "version": "v13",
-  "lastModified": "2019-07-16",
+  "version": "v14",
+  "lastModified": "2020-07-23",
   "files": {
-    "700": "http://fonts.gstatic.com/s/battambang/v13/uk-lEGe7raEw-HjkzZabNsmMxyRa8oZK9I0.ttf",
-    "regular": "http://fonts.gstatic.com/s/battambang/v13/uk-mEGe7raEw-HjkzZabDnWj4yxx7o8.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/battambang/v14/uk-lEGe7raEw-HjkzZabNsmMxyRa8oZK9I0.ttf",
+    "regular": "http://fonts.gstatic.com/s/battambang/v14/uk-mEGe7raEw-HjkzZabDnWj4yxx7o8.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

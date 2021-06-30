@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Fontdiner Swanky",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/fontdinerswanky/v10/ijwOs4XgRNsiaI5-hcVb4hQgMvCD4uEfKiGvxts.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/fontdinerswanky/v11/ijwOs4XgRNsiaI5-hcVb4hQgMvCD4uEfKiGvxts.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

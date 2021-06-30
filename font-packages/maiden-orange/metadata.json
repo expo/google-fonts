@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Maiden Orange",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v13",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/maidenorange/v10/kJE1BuIX7AUmhi2V4m08kb1XjOZdCZS8FY8.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/maidenorange/v13/kJE1BuIX7AUmhi2V4m08kb1XjOZdCZS8FY8.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

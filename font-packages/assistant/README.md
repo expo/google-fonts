@@ -11,11 +11,12 @@ This package lets you use the [**Assistant**](https://fonts.google.com/specimen/
 
 ![Assistant](./font-family.png)
 
-This font family contains [6 styles](#-gallery).
+This font family contains [7 styles](#-gallery).
 
 - `Assistant_200ExtraLight`
 - `Assistant_300Light`
 - `Assistant_400Regular`
+- `Assistant_500Medium`
 - `Assistant_600SemiBold`
 - `Assistant_700Bold`
 - `Assistant_800ExtraBold`
@@ -38,6 +39,7 @@ import {
   Assistant_200ExtraLight,
   Assistant_300Light,
   Assistant_400Regular,
+  Assistant_500Medium,
   Assistant_600SemiBold,
   Assistant_700Bold,
   Assistant_800ExtraBold,
@@ -48,6 +50,7 @@ export default () => {
     Assistant_200ExtraLight,
     Assistant_300Light,
     Assistant_400Regular,
+    Assistant_500Medium,
     Assistant_600SemiBold,
     Assistant_700Bold,
     Assistant_800ExtraBold,
@@ -96,6 +99,16 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Assistant_500Medium',
+          }}>
+          Assistant Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Assistant_600SemiBold',
           }}>
           Assistant Semi Bold
@@ -133,7 +146,8 @@ export default () => {
 ||||
 |-|-|-|
 |![Assistant_200ExtraLight](./Assistant_200ExtraLight.ttf.png)|![Assistant_300Light](./Assistant_300Light.ttf.png)|![Assistant_400Regular](./Assistant_400Regular.ttf.png)||
-|![Assistant_600SemiBold](./Assistant_600SemiBold.ttf.png)|![Assistant_700Bold](./Assistant_700Bold.ttf.png)|![Assistant_800ExtraBold](./Assistant_800ExtraBold.ttf.png)||
+|![Assistant_500Medium](./Assistant_500Medium.ttf.png)|![Assistant_600SemiBold](./Assistant_600SemiBold.ttf.png)|![Assistant_700Bold](./Assistant_700Bold.ttf.png)||
+|![Assistant_800ExtraBold](./Assistant_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

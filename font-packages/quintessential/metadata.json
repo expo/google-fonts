@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Quintessential",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v10",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/quintessential/v7/fdNn9sOGq31Yjnh3qWU14DdtjY5wS7kmAyxM.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/quintessential/v10/fdNn9sOGq31Yjnh3qWU14DdtjY5wS7kmAyxM.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

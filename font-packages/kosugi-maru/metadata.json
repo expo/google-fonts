@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Kosugi Maru",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["cyrillic", "japanese", "latin"],
   "version": "v6",
   "lastModified": "2020-03-03",
   "files": {
     "regular": "http://fonts.gstatic.com/s/kosugimaru/v6/0nksC9PgP_wGh21A2KeqGiTqivr9iBq_.ttf"
-  }
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

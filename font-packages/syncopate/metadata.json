@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Syncopate",
-  "category": "sans-serif",
   "variants": ["regular", "700"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2020-09-02",
   "files": {
-    "700": "http://fonts.gstatic.com/s/syncopate/v11/pe0pMIuPIYBCpEV5eFdKvtKaA_Rue1UwVg.ttf",
-    "regular": "http://fonts.gstatic.com/s/syncopate/v11/pe0sMIuPIYBCpEV5eFdyAv2-C99ycg.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/syncopate/v12/pe0pMIuPIYBCpEV5eFdKvtKaA_Rue1UwVg.ttf",
+    "regular": "http://fonts.gstatic.com/s/syncopate/v12/pe0sMIuPIYBCpEV5eFdyAv2-C99ycg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

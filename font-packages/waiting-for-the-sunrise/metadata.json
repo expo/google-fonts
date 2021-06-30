@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Waiting for the Sunrise",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/waitingforthesunrise/v10/WBL1rFvOYl9CEv2i1mO6KUW8RKWJ2zoXoz5JsYZQ9h_ZYk5J.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/waitingforthesunrise/v11/WBL1rFvOYl9CEv2i1mO6KUW8RKWJ2zoXoz5JsYZQ9h_ZYk5J.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Metal",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["khmer"],
-  "version": "v12",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/metal/v12/lW-wwjUJIXTo7i3nnoQAUdN2.ttf" }
+  "version": "v15",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/metal/v15/lW-wwjUJIXTo7i3nnoQAUdN2.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

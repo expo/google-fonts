@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "IM Fell DW Pica",
-  "category": "serif",
   "variants": ["regular", "italic"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/imfelldwpica/v9/2sDGZGRQotv9nbn2qSl0TxXVYNw9ZAPUvi88MQ.ttf",
-    "italic": "http://fonts.gstatic.com/s/imfelldwpica/v9/2sDEZGRQotv9nbn2qSl0TxXVYNwNZgnQnCosMXm0.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/imfelldwpica/v12/2sDGZGRQotv9nbn2qSl0TxXVYNw9ZAPUvi88MQ.ttf",
+    "italic": "http://fonts.gstatic.com/s/imfelldwpica/v12/2sDEZGRQotv9nbn2qSl0TxXVYNwNZgnQnCosMXm0.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

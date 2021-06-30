@@ -11,17 +11,19 @@ This package lets you use the [**Alegreya**](https://fonts.google.com/specimen/A
 
 ![Alegreya](./font-family.png)
 
-This font family contains [10 styles](#-gallery).
+This font family contains [12 styles](#-gallery).
 
 - `Alegreya_400Regular`
-- `Alegreya_400Regular_Italic`
 - `Alegreya_500Medium`
-- `Alegreya_500Medium_Italic`
+- `Alegreya_600SemiBold`
 - `Alegreya_700Bold`
-- `Alegreya_700Bold_Italic`
 - `Alegreya_800ExtraBold`
-- `Alegreya_800ExtraBold_Italic`
 - `Alegreya_900Black`
+- `Alegreya_400Regular_Italic`
+- `Alegreya_500Medium_Italic`
+- `Alegreya_600SemiBold_Italic`
+- `Alegreya_700Bold_Italic`
+- `Alegreya_800ExtraBold_Italic`
 - `Alegreya_900Black_Italic`
 
 ## Usage
@@ -40,28 +42,32 @@ import { AppLoading } from 'expo';
 import {
   useFonts,
   Alegreya_400Regular,
-  Alegreya_400Regular_Italic,
   Alegreya_500Medium,
-  Alegreya_500Medium_Italic,
+  Alegreya_600SemiBold,
   Alegreya_700Bold,
-  Alegreya_700Bold_Italic,
   Alegreya_800ExtraBold,
-  Alegreya_800ExtraBold_Italic,
   Alegreya_900Black,
+  Alegreya_400Regular_Italic,
+  Alegreya_500Medium_Italic,
+  Alegreya_600SemiBold_Italic,
+  Alegreya_700Bold_Italic,
+  Alegreya_800ExtraBold_Italic,
   Alegreya_900Black_Italic,
 } from '@expo-google-fonts/alegreya';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Alegreya_400Regular,
-    Alegreya_400Regular_Italic,
     Alegreya_500Medium,
-    Alegreya_500Medium_Italic,
+    Alegreya_600SemiBold,
     Alegreya_700Bold,
-    Alegreya_700Bold_Italic,
     Alegreya_800ExtraBold,
-    Alegreya_800ExtraBold_Italic,
     Alegreya_900Black,
+    Alegreya_400Regular_Italic,
+    Alegreya_500Medium_Italic,
+    Alegreya_600SemiBold_Italic,
+    Alegreya_700Bold_Italic,
+    Alegreya_800ExtraBold_Italic,
     Alegreya_900Black_Italic,
   });
 
@@ -88,16 +94,6 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alegreya_400Regular_Italic',
-          }}>
-          Alegreya Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Alegreya_500Medium',
           }}>
           Alegreya Medium
@@ -108,9 +104,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alegreya_500Medium_Italic',
+            fontFamily: 'Alegreya_600SemiBold',
           }}>
-          Alegreya Medium Italic
+          Alegreya Semi Bold
         </Text>
 
         <Text
@@ -128,16 +124,6 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alegreya_700Bold_Italic',
-          }}>
-          Alegreya Bold Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Alegreya_800ExtraBold',
           }}>
           Alegreya Extra Bold
@@ -148,9 +134,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alegreya_800ExtraBold_Italic',
+            fontFamily: 'Alegreya_900Black',
           }}>
-          Alegreya Extra Bold Italic
+          Alegreya Black
         </Text>
 
         <Text
@@ -158,9 +144,49 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alegreya_900Black',
+            fontFamily: 'Alegreya_400Regular_Italic',
           }}>
-          Alegreya Black
+          Alegreya Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Alegreya_500Medium_Italic',
+          }}>
+          Alegreya Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Alegreya_600SemiBold_Italic',
+          }}>
+          Alegreya Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Alegreya_700Bold_Italic',
+          }}>
+          Alegreya Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Alegreya_800ExtraBold_Italic',
+          }}>
+          Alegreya Extra Bold Italic
         </Text>
 
         <Text
@@ -184,10 +210,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Alegreya_400Regular](./Alegreya_400Regular.ttf.png)|![Alegreya_400Regular_Italic](./Alegreya_400Regular_Italic.ttf.png)|![Alegreya_500Medium](./Alegreya_500Medium.ttf.png)||
-|![Alegreya_500Medium_Italic](./Alegreya_500Medium_Italic.ttf.png)|![Alegreya_700Bold](./Alegreya_700Bold.ttf.png)|![Alegreya_700Bold_Italic](./Alegreya_700Bold_Italic.ttf.png)||
-|![Alegreya_800ExtraBold](./Alegreya_800ExtraBold.ttf.png)|![Alegreya_800ExtraBold_Italic](./Alegreya_800ExtraBold_Italic.ttf.png)|![Alegreya_900Black](./Alegreya_900Black.ttf.png)||
-|![Alegreya_900Black_Italic](./Alegreya_900Black_Italic.ttf.png)||||
+|![Alegreya_400Regular](./Alegreya_400Regular.ttf.png)|![Alegreya_500Medium](./Alegreya_500Medium.ttf.png)|![Alegreya_600SemiBold](./Alegreya_600SemiBold.ttf.png)||
+|![Alegreya_700Bold](./Alegreya_700Bold.ttf.png)|![Alegreya_800ExtraBold](./Alegreya_800ExtraBold.ttf.png)|![Alegreya_900Black](./Alegreya_900Black.ttf.png)||
+|![Alegreya_400Regular_Italic](./Alegreya_400Regular_Italic.ttf.png)|![Alegreya_500Medium_Italic](./Alegreya_500Medium_Italic.ttf.png)|![Alegreya_600SemiBold_Italic](./Alegreya_600SemiBold_Italic.ttf.png)||
+|![Alegreya_700Bold_Italic](./Alegreya_700Bold_Italic.ttf.png)|![Alegreya_800ExtraBold_Italic](./Alegreya_800ExtraBold_Italic.ttf.png)|![Alegreya_900Black_Italic](./Alegreya_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Sarina",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/sarina/v8/-F6wfjF3ITQwasLhLkDUriBQxw.ttf" }
+  "version": "v11",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/sarina/v11/-F6wfjF3ITQwasLhLkDUriBQxw.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

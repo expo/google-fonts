@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Bahiana",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v4",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/bahiana/v4/uU9PCBUV4YenPWJU7xPb3vyHmlI.ttf" }
+  "version": "v7",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/bahiana/v7/uU9PCBUV4YenPWJU7xPb3vyHmlI.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

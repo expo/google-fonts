@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Cedarville Cursive",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/cedarvillecursive/v11/yYL00g_a2veiudhUmxjo5VKkoqA-B_neJbBxw8BeTg.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/cedarvillecursive/v12/yYL00g_a2veiudhUmxjo5VKkoqA-B_neJbBxw8BeTg.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

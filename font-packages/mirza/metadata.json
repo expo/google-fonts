@@ -1,15 +1,15 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Mirza",
-  "category": "display",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v10",
+  "lastModified": "2021-03-24",
   "files": {
-    "500": "http://fonts.gstatic.com/s/mirza/v7/co3FmWlikiN5EtIpAeO4mafBomDi.ttf",
-    "600": "http://fonts.gstatic.com/s/mirza/v7/co3FmWlikiN5EtIFBuO4mafBomDi.ttf",
-    "700": "http://fonts.gstatic.com/s/mirza/v7/co3FmWlikiN5EtJhB-O4mafBomDi.ttf",
-    "regular": "http://fonts.gstatic.com/s/mirza/v7/co3ImWlikiN5EurdKMewsrvI.ttf"
-  }
+    "500": "http://fonts.gstatic.com/s/mirza/v10/co3FmWlikiN5EtIpAeO4mafBomDi.ttf",
+    "600": "http://fonts.gstatic.com/s/mirza/v10/co3FmWlikiN5EtIFBuO4mafBomDi.ttf",
+    "700": "http://fonts.gstatic.com/s/mirza/v10/co3FmWlikiN5EtJhB-O4mafBomDi.ttf",
+    "regular": "http://fonts.gstatic.com/s/mirza/v10/co3ImWlikiN5EurdKMewsrvI.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

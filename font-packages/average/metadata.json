@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Average",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/average/v8/fC1hPYBHe23MxA7rIeJwVWytTyk.ttf" }
+  "version": "v9",
+  "lastModified": "2020-07-23",
+  "files": { "regular": "http://fonts.gstatic.com/s/average/v9/fC1hPYBHe23MxA7rIeJwVWytTyk.ttf" },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

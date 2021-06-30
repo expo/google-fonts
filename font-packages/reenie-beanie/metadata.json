@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Reenie Beanie",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/reeniebeanie/v10/z7NSdR76eDkaJKZJFkkjuvWxbP2_qoOgf_w.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/reeniebeanie/v11/z7NSdR76eDkaJKZJFkkjuvWxbP2_qoOgf_w.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

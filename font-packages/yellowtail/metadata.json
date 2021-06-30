@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Yellowtail",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/yellowtail/v10/OZpGg_pnoDtINPfRIlLotlzNwED-b4g.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/yellowtail/v11/OZpGg_pnoDtINPfRIlLotlzNwED-b4g.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

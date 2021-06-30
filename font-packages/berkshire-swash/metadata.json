@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Berkshire Swash",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/berkshireswash/v8/ptRRTi-cavZOGqCvnNJDl5m5XmNPrcQybX4pQA.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/berkshireswash/v9/ptRRTi-cavZOGqCvnNJDl5m5XmNPrcQybX4pQA.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

@@ -11,12 +11,22 @@ This package lets you use the [**Karla**](https://fonts.google.com/specimen/Karl
 
 ![Karla](./font-family.png)
 
-This font family contains [4 styles](#-gallery).
+This font family contains [14 styles](#-gallery).
 
+- `Karla_200ExtraLight`
+- `Karla_300Light`
 - `Karla_400Regular`
-- `Karla_400Regular_Italic`
+- `Karla_500Medium`
+- `Karla_600SemiBold`
 - `Karla_700Bold`
+- `Karla_800ExtraBold`
+- `Karla_200ExtraLight_Italic`
+- `Karla_300Light_Italic`
+- `Karla_400Regular_Italic`
+- `Karla_500Medium_Italic`
+- `Karla_600SemiBold_Italic`
 - `Karla_700Bold_Italic`
+- `Karla_800ExtraBold_Italic`
 
 ## Usage
 
@@ -33,18 +43,38 @@ import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
   useFonts,
+  Karla_200ExtraLight,
+  Karla_300Light,
   Karla_400Regular,
-  Karla_400Regular_Italic,
+  Karla_500Medium,
+  Karla_600SemiBold,
   Karla_700Bold,
+  Karla_800ExtraBold,
+  Karla_200ExtraLight_Italic,
+  Karla_300Light_Italic,
+  Karla_400Regular_Italic,
+  Karla_500Medium_Italic,
+  Karla_600SemiBold_Italic,
   Karla_700Bold_Italic,
+  Karla_800ExtraBold_Italic,
 } from '@expo-google-fonts/karla';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    Karla_200ExtraLight,
+    Karla_300Light,
     Karla_400Regular,
-    Karla_400Regular_Italic,
+    Karla_500Medium,
+    Karla_600SemiBold,
     Karla_700Bold,
+    Karla_800ExtraBold,
+    Karla_200ExtraLight_Italic,
+    Karla_300Light_Italic,
+    Karla_400Regular_Italic,
+    Karla_500Medium_Italic,
+    Karla_600SemiBold_Italic,
     Karla_700Bold_Italic,
+    Karla_800ExtraBold_Italic,
   });
 
   let fontSize = 24;
@@ -60,6 +90,26 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karla_200ExtraLight',
+          }}>
+          Karla Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karla_300Light',
+          }}>
+          Karla Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Karla_400Regular',
           }}>
           Karla Regular
@@ -70,9 +120,19 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karla_400Regular_Italic',
+            fontFamily: 'Karla_500Medium',
           }}>
-          Karla Italic
+          Karla Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karla_600SemiBold',
+          }}>
+          Karla Semi Bold
         </Text>
 
         <Text
@@ -90,9 +150,79 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karla_800ExtraBold',
+          }}>
+          Karla Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karla_200ExtraLight_Italic',
+          }}>
+          Karla Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karla_300Light_Italic',
+          }}>
+          Karla Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karla_400Regular_Italic',
+          }}>
+          Karla Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karla_500Medium_Italic',
+          }}>
+          Karla Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karla_600SemiBold_Italic',
+          }}>
+          Karla Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Karla_700Bold_Italic',
           }}>
           Karla Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Karla_800ExtraBold_Italic',
+          }}>
+          Karla Extra Bold Italic
         </Text>
       </View>
     );
@@ -106,8 +236,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Karla_400Regular](./Karla_400Regular.ttf.png)|![Karla_400Regular_Italic](./Karla_400Regular_Italic.ttf.png)|![Karla_700Bold](./Karla_700Bold.ttf.png)||
-|![Karla_700Bold_Italic](./Karla_700Bold_Italic.ttf.png)||||
+|![Karla_200ExtraLight](./Karla_200ExtraLight.ttf.png)|![Karla_300Light](./Karla_300Light.ttf.png)|![Karla_400Regular](./Karla_400Regular.ttf.png)||
+|![Karla_500Medium](./Karla_500Medium.ttf.png)|![Karla_600SemiBold](./Karla_600SemiBold.ttf.png)|![Karla_700Bold](./Karla_700Bold.ttf.png)||
+|![Karla_800ExtraBold](./Karla_800ExtraBold.ttf.png)|![Karla_200ExtraLight_Italic](./Karla_200ExtraLight_Italic.ttf.png)|![Karla_300Light_Italic](./Karla_300Light_Italic.ttf.png)||
+|![Karla_400Regular_Italic](./Karla_400Regular_Italic.ttf.png)|![Karla_500Medium_Italic](./Karla_500Medium_Italic.ttf.png)|![Karla_600SemiBold_Italic](./Karla_600SemiBold_Italic.ttf.png)||
+|![Karla_700Bold_Italic](./Karla_700Bold_Italic.ttf.png)|![Karla_800ExtraBold_Italic](./Karla_800ExtraBold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

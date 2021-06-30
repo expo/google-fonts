@@ -11,9 +11,10 @@ This package lets you use the [**Harmattan**](https://fonts.google.com/specimen/
 
 ![Harmattan](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [2 styles](#-gallery).
 
 - `Harmattan_400Regular`
+- `Harmattan_700Bold`
 
 ## Usage
 
@@ -28,11 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts, Harmattan_400Regular } from '@expo-google-fonts/harmattan';
+import { useFonts, Harmattan_400Regular, Harmattan_700Bold } from '@expo-google-fonts/harmattan';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Harmattan_400Regular,
+    Harmattan_700Bold,
   });
 
   let fontSize = 24;
@@ -52,6 +54,16 @@ export default () => {
           }}>
           Harmattan Regular
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Harmattan_700Bold',
+          }}>
+          Harmattan Bold
+        </Text>
       </View>
     );
   }
@@ -64,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Harmattan_400Regular](./Harmattan_400Regular.ttf.png)||||
+|![Harmattan_400Regular](./Harmattan_400Regular.ttf.png)|![Harmattan_700Bold](./Harmattan_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

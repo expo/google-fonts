@@ -1,16 +1,16 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Baloo Chettan 2",
-  "category": "display",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["latin", "latin-ext", "malayalam", "vietnamese"],
-  "version": "v1",
-  "lastModified": "2020-03-06",
+  "version": "v2",
+  "lastModified": "2021-04-01",
   "files": {
-    "500": "http://fonts.gstatic.com/s/baloochettan2/v1/vm8rdRbmXEva26PK-NtuX4ynWEznFNRfMr0fn5bhCA.ttf",
-    "600": "http://fonts.gstatic.com/s/baloochettan2/v1/vm8rdRbmXEva26PK-NtuX4ynWEznONNfMr0fn5bhCA.ttf",
-    "700": "http://fonts.gstatic.com/s/baloochettan2/v1/vm8rdRbmXEva26PK-NtuX4ynWEznXNJfMr0fn5bhCA.ttf",
-    "800": "http://fonts.gstatic.com/s/baloochettan2/v1/vm8rdRbmXEva26PK-NtuX4ynWEznQNFfMr0fn5bhCA.ttf",
-    "regular": "http://fonts.gstatic.com/s/baloochettan2/v1/vm8udRbmXEva26PK-NtuX4ynWEzf4P17OpYDlg.ttf"
-  }
+    "500": "http://fonts.gstatic.com/s/baloochettan2/v2/vm8rdRbmXEva26PK-NtuX4ynWEznFNRfMr0fn5bhCA.ttf",
+    "600": "http://fonts.gstatic.com/s/baloochettan2/v2/vm8rdRbmXEva26PK-NtuX4ynWEznONNfMr0fn5bhCA.ttf",
+    "700": "http://fonts.gstatic.com/s/baloochettan2/v2/vm8rdRbmXEva26PK-NtuX4ynWEznXNJfMr0fn5bhCA.ttf",
+    "800": "http://fonts.gstatic.com/s/baloochettan2/v2/vm8rdRbmXEva26PK-NtuX4ynWEznQNFfMr0fn5bhCA.ttf",
+    "regular": "http://fonts.gstatic.com/s/baloochettan2/v2/vm8udRbmXEva26PK-NtuX4ynWEzf4P17OpYDlg.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

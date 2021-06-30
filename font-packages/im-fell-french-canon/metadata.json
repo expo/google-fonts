@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "IM Fell French Canon",
-  "category": "serif",
   "variants": ["regular", "italic"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/imfellfrenchcanon/v9/-F6ufiNtDWYfYc-tDiyiw08rrghJszkK6coVPt1ozoPz.ttf",
-    "italic": "http://fonts.gstatic.com/s/imfellfrenchcanon/v9/-F6gfiNtDWYfYc-tDiyiw08rrghJszkK6foXNNlKy5PzzrU.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/imfellfrenchcanon/v12/-F6ufiNtDWYfYc-tDiyiw08rrghJszkK6coVPt1ozoPz.ttf",
+    "italic": "http://fonts.gstatic.com/s/imfellfrenchcanon/v12/-F6gfiNtDWYfYc-tDiyiw08rrghJszkK6foXNNlKy5PzzrU.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

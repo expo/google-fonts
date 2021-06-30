@@ -1,7 +1,5 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Bai Jamjuree",
-  "category": "sans-serif",
   "variants": [
     "200",
     "200italic",
@@ -17,20 +15,22 @@
     "700italic"
   ],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v3",
-  "lastModified": "2019-11-05",
+  "version": "v4",
+  "lastModified": "2020-09-02",
   "files": {
-    "200": "http://fonts.gstatic.com/s/baijamjuree/v3/LDIqapSCOBt_aeQQ7ftydoa0kePuk5A1-yiSgA.ttf",
-    "300": "http://fonts.gstatic.com/s/baijamjuree/v3/LDIqapSCOBt_aeQQ7ftydoa09eDuk5A1-yiSgA.ttf",
-    "500": "http://fonts.gstatic.com/s/baijamjuree/v3/LDIqapSCOBt_aeQQ7ftydoa0reHuk5A1-yiSgA.ttf",
-    "600": "http://fonts.gstatic.com/s/baijamjuree/v3/LDIqapSCOBt_aeQQ7ftydoa0gebuk5A1-yiSgA.ttf",
-    "700": "http://fonts.gstatic.com/s/baijamjuree/v3/LDIqapSCOBt_aeQQ7ftydoa05efuk5A1-yiSgA.ttf",
-    "200italic": "http://fonts.gstatic.com/s/baijamjuree/v3/LDIoapSCOBt_aeQQ7ftydoa8W_oGkpox2S2CgOva.ttf",
-    "300italic": "http://fonts.gstatic.com/s/baijamjuree/v3/LDIoapSCOBt_aeQQ7ftydoa8W_pikZox2S2CgOva.ttf",
-    "regular": "http://fonts.gstatic.com/s/baijamjuree/v3/LDI1apSCOBt_aeQQ7ftydoaMWcjKm7sp8g.ttf",
-    "italic": "http://fonts.gstatic.com/s/baijamjuree/v3/LDIrapSCOBt_aeQQ7ftydoa8W8LOub458jGL.ttf",
-    "500italic": "http://fonts.gstatic.com/s/baijamjuree/v3/LDIoapSCOBt_aeQQ7ftydoa8W_o6kJox2S2CgOva.ttf",
-    "600italic": "http://fonts.gstatic.com/s/baijamjuree/v3/LDIoapSCOBt_aeQQ7ftydoa8W_oWl5ox2S2CgOva.ttf",
-    "700italic": "http://fonts.gstatic.com/s/baijamjuree/v3/LDIoapSCOBt_aeQQ7ftydoa8W_pylpox2S2CgOva.ttf"
-  }
+    "200": "http://fonts.gstatic.com/s/baijamjuree/v4/LDIqapSCOBt_aeQQ7ftydoa0kePuk5A1-yiSgA.ttf",
+    "300": "http://fonts.gstatic.com/s/baijamjuree/v4/LDIqapSCOBt_aeQQ7ftydoa09eDuk5A1-yiSgA.ttf",
+    "500": "http://fonts.gstatic.com/s/baijamjuree/v4/LDIqapSCOBt_aeQQ7ftydoa0reHuk5A1-yiSgA.ttf",
+    "600": "http://fonts.gstatic.com/s/baijamjuree/v4/LDIqapSCOBt_aeQQ7ftydoa0gebuk5A1-yiSgA.ttf",
+    "700": "http://fonts.gstatic.com/s/baijamjuree/v4/LDIqapSCOBt_aeQQ7ftydoa05efuk5A1-yiSgA.ttf",
+    "200italic": "http://fonts.gstatic.com/s/baijamjuree/v4/LDIoapSCOBt_aeQQ7ftydoa8W_oGkpox2S2CgOva.ttf",
+    "300italic": "http://fonts.gstatic.com/s/baijamjuree/v4/LDIoapSCOBt_aeQQ7ftydoa8W_pikZox2S2CgOva.ttf",
+    "regular": "http://fonts.gstatic.com/s/baijamjuree/v4/LDI1apSCOBt_aeQQ7ftydoaMWcjKm7sp8g.ttf",
+    "italic": "http://fonts.gstatic.com/s/baijamjuree/v4/LDIrapSCOBt_aeQQ7ftydoa8W8LOub458jGL.ttf",
+    "500italic": "http://fonts.gstatic.com/s/baijamjuree/v4/LDIoapSCOBt_aeQQ7ftydoa8W_o6kJox2S2CgOva.ttf",
+    "600italic": "http://fonts.gstatic.com/s/baijamjuree/v4/LDIoapSCOBt_aeQQ7ftydoa8W_oWl5ox2S2CgOva.ttf",
+    "700italic": "http://fonts.gstatic.com/s/baijamjuree/v4/LDIoapSCOBt_aeQQ7ftydoa8W_pylpox2S2CgOva.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

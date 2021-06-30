@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Almendra SC",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v13",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/almendrasc/v10/Iure6Yx284eebowr7hbyTZZJprVA4XQ0.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/almendrasc/v13/Iure6Yx284eebowr7hbyTZZJprVA4XQ0.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

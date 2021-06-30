@@ -7,9 +7,11 @@ export { useFonts } from './useFonts';
 
 export const __metdata__: Any;
 export const Heebo_100Thin: number;
+export const Heebo_200ExtraLight: number;
 export const Heebo_300Light: number;
 export const Heebo_400Regular: number;
 export const Heebo_500Medium: number;
+export const Heebo_600SemiBold: number;
 export const Heebo_700Bold: number;
 export const Heebo_800ExtraBold: number;
 export const Heebo_900Black: number;

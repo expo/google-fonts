@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Pavanam",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "tamil"],
-  "version": "v4",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/pavanam/v4/BXRrvF_aiezLh0xPDOtQ9Wf0QcE.ttf" }
+  "version": "v5",
+  "lastModified": "2020-07-23",
+  "files": { "regular": "http://fonts.gstatic.com/s/pavanam/v5/BXRrvF_aiezLh0xPDOtQ9Wf0QcE.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

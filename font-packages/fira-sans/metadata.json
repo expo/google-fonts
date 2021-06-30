@@ -1,7 +1,5 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Fira Sans",
-  "category": "sans-serif",
   "variants": [
     "100",
     "100italic",
@@ -23,26 +21,28 @@
     "900italic"
   ],
   "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v10",
-  "lastModified": "2019-07-22",
+  "version": "v11",
+  "lastModified": "2021-04-01",
   "files": {
-    "100": "http://fonts.gstatic.com/s/firasans/v10/va9C4kDNxMZdWfMOD5Vn9IjOazP3dUTP.ttf",
-    "200": "http://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnWKnuQR37fF3Wlg.ttf",
-    "300": "http://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnPKruQR37fF3Wlg.ttf",
-    "500": "http://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnZKvuQR37fF3Wlg.ttf",
-    "600": "http://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnSKzuQR37fF3Wlg.ttf",
-    "700": "http://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnLK3uQR37fF3Wlg.ttf",
-    "800": "http://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnMK7uQR37fF3Wlg.ttf",
-    "900": "http://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnFK_uQR37fF3Wlg.ttf",
-    "100italic": "http://fonts.gstatic.com/s/firasans/v10/va9A4kDNxMZdWfMOD5VvkrCqYTfVcFTPj0s.ttf",
-    "200italic": "http://fonts.gstatic.com/s/firasans/v10/va9f4kDNxMZdWfMOD5VvkrAGQBf_XljGllLX.ttf",
-    "300italic": "http://fonts.gstatic.com/s/firasans/v10/va9f4kDNxMZdWfMOD5VvkrBiQxf_XljGllLX.ttf",
-    "regular": "http://fonts.gstatic.com/s/firasans/v10/va9E4kDNxMZdWfMOD5VfkILKSTbndQ.ttf",
-    "italic": "http://fonts.gstatic.com/s/firasans/v10/va9C4kDNxMZdWfMOD5VvkojOazP3dUTP.ttf",
-    "500italic": "http://fonts.gstatic.com/s/firasans/v10/va9f4kDNxMZdWfMOD5VvkrA6Qhf_XljGllLX.ttf",
-    "600italic": "http://fonts.gstatic.com/s/firasans/v10/va9f4kDNxMZdWfMOD5VvkrAWRRf_XljGllLX.ttf",
-    "700italic": "http://fonts.gstatic.com/s/firasans/v10/va9f4kDNxMZdWfMOD5VvkrByRBf_XljGllLX.ttf",
-    "800italic": "http://fonts.gstatic.com/s/firasans/v10/va9f4kDNxMZdWfMOD5VvkrBuRxf_XljGllLX.ttf",
-    "900italic": "http://fonts.gstatic.com/s/firasans/v10/va9f4kDNxMZdWfMOD5VvkrBKRhf_XljGllLX.ttf"
-  }
+    "100": "http://fonts.gstatic.com/s/firasans/v11/va9C4kDNxMZdWfMOD5Vn9IjOazP3dUTP.ttf",
+    "200": "http://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnWKnuQR37fF3Wlg.ttf",
+    "300": "http://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnPKruQR37fF3Wlg.ttf",
+    "500": "http://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKvuQR37fF3Wlg.ttf",
+    "600": "http://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnSKzuQR37fF3Wlg.ttf",
+    "700": "http://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnLK3uQR37fF3Wlg.ttf",
+    "800": "http://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnMK7uQR37fF3Wlg.ttf",
+    "900": "http://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnFK_uQR37fF3Wlg.ttf",
+    "100italic": "http://fonts.gstatic.com/s/firasans/v11/va9A4kDNxMZdWfMOD5VvkrCqYTfVcFTPj0s.ttf",
+    "200italic": "http://fonts.gstatic.com/s/firasans/v11/va9f4kDNxMZdWfMOD5VvkrAGQBf_XljGllLX.ttf",
+    "300italic": "http://fonts.gstatic.com/s/firasans/v11/va9f4kDNxMZdWfMOD5VvkrBiQxf_XljGllLX.ttf",
+    "regular": "http://fonts.gstatic.com/s/firasans/v11/va9E4kDNxMZdWfMOD5VfkILKSTbndQ.ttf",
+    "italic": "http://fonts.gstatic.com/s/firasans/v11/va9C4kDNxMZdWfMOD5VvkojOazP3dUTP.ttf",
+    "500italic": "http://fonts.gstatic.com/s/firasans/v11/va9f4kDNxMZdWfMOD5VvkrA6Qhf_XljGllLX.ttf",
+    "600italic": "http://fonts.gstatic.com/s/firasans/v11/va9f4kDNxMZdWfMOD5VvkrAWRRf_XljGllLX.ttf",
+    "700italic": "http://fonts.gstatic.com/s/firasans/v11/va9f4kDNxMZdWfMOD5VvkrByRBf_XljGllLX.ttf",
+    "800italic": "http://fonts.gstatic.com/s/firasans/v11/va9f4kDNxMZdWfMOD5VvkrBuRxf_XljGllLX.ttf",
+    "900italic": "http://fonts.gstatic.com/s/firasans/v11/va9f4kDNxMZdWfMOD5VvkrBKRhf_XljGllLX.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

@@ -1,16 +1,16 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Karma",
-  "category": "serif",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2020-09-02",
   "files": {
-    "300": "http://fonts.gstatic.com/s/karma/v10/va9F4kzAzMZRGLjDY8Z_uqzGQC_-.ttf",
-    "500": "http://fonts.gstatic.com/s/karma/v10/va9F4kzAzMZRGLibYsZ_uqzGQC_-.ttf",
-    "600": "http://fonts.gstatic.com/s/karma/v10/va9F4kzAzMZRGLi3ZcZ_uqzGQC_-.ttf",
-    "700": "http://fonts.gstatic.com/s/karma/v10/va9F4kzAzMZRGLjTZMZ_uqzGQC_-.ttf",
-    "regular": "http://fonts.gstatic.com/s/karma/v10/va9I4kzAzMZRGIBvS-J3kbDP.ttf"
-  }
+    "300": "http://fonts.gstatic.com/s/karma/v11/va9F4kzAzMZRGLjDY8Z_uqzGQC_-.ttf",
+    "500": "http://fonts.gstatic.com/s/karma/v11/va9F4kzAzMZRGLibYsZ_uqzGQC_-.ttf",
+    "600": "http://fonts.gstatic.com/s/karma/v11/va9F4kzAzMZRGLi3ZcZ_uqzGQC_-.ttf",
+    "700": "http://fonts.gstatic.com/s/karma/v11/va9F4kzAzMZRGLjTZMZ_uqzGQC_-.ttf",
+    "regular": "http://fonts.gstatic.com/s/karma/v11/va9I4kzAzMZRGIBvS-J3kbDP.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Baumans",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/baumans/v9/-W_-XJj9QyTd3QfpR_oyaksqY5Q.ttf" }
+  "version": "v10",
+  "lastModified": "2020-07-23",
+  "files": { "regular": "http://fonts.gstatic.com/s/baumans/v10/-W_-XJj9QyTd3QfpR_oyaksqY5Q.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

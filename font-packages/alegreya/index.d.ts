@@ -7,12 +7,14 @@ export { useFonts } from './useFonts';
 
 export const __metdata__: Any;
 export const Alegreya_400Regular: number;
-export const Alegreya_400Regular_Italic: number;
 export const Alegreya_500Medium: number;
-export const Alegreya_500Medium_Italic: number;
+export const Alegreya_600SemiBold: number;
 export const Alegreya_700Bold: number;
-export const Alegreya_700Bold_Italic: number;
 export const Alegreya_800ExtraBold: number;
-export const Alegreya_800ExtraBold_Italic: number;
 export const Alegreya_900Black: number;
+export const Alegreya_400Regular_Italic: number;
+export const Alegreya_500Medium_Italic: number;
+export const Alegreya_600SemiBold_Italic: number;
+export const Alegreya_700Bold_Italic: number;
+export const Alegreya_800ExtraBold_Italic: number;
 export const Alegreya_900Black_Italic: number;

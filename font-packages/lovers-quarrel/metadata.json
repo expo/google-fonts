@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Lovers Quarrel",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v10",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/loversquarrel/v7/Yq6N-LSKXTL-5bCy8ksBzpQ_-zAsY7pO6siz.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/loversquarrel/v10/Yq6N-LSKXTL-5bCy8ksBzpQ_-zAsY7pO6siz.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

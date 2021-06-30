@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Amita",
-  "category": "handwriting",
   "variants": ["regular", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2021-03-24",
   "files": {
-    "700": "http://fonts.gstatic.com/s/amita/v5/HhyXU5si9Om7PTHTLtCCOopCTKkI.ttf",
-    "regular": "http://fonts.gstatic.com/s/amita/v5/HhyaU5si9Om7PQlvAfSKEZZL.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/amita/v9/HhyXU5si9Om7PTHTLtCCOopCTKkI.ttf",
+    "regular": "http://fonts.gstatic.com/s/amita/v9/HhyaU5si9Om7PQlvAfSKEZZL.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Chicle",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/chicle/v8/lJwG-pw9i2dqU-BDyWKuobYSxw.ttf" }
+  "version": "v11",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/chicle/v11/lJwG-pw9i2dqU-BDyWKuobYSxw.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Aldrich",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/aldrich/v10/MCoTzAn-1s3IGyJMZaAS3pP5H_E.ttf" }
+  "version": "v11",
+  "lastModified": "2020-09-02",
+  "files": { "regular": "http://fonts.gstatic.com/s/aldrich/v11/MCoTzAn-1s3IGyJMZaAS3pP5H_E.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

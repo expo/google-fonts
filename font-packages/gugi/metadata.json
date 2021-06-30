@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Gugi",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
   "version": "v8",
   "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/gugi/v8/A2BVn5dXywshVA6A9DEfgqM.ttf" }
+  "files": { "regular": "http://fonts.gstatic.com/s/gugi/v8/A2BVn5dXywshVA6A9DEfgqM.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

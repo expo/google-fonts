@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "IM Fell Double Pica SC",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/imfelldoublepicasc/v9/neIazDmuiMkFo6zj_sHpQ8teNbWlwBB_hXjJ4Y0Eeru2dGg.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/imfelldoublepicasc/v12/neIazDmuiMkFo6zj_sHpQ8teNbWlwBB_hXjJ4Y0Eeru2dGg.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

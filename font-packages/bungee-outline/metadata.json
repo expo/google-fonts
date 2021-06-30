@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Bungee Outline",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2019-07-16",
+  "version": "v8",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/bungeeoutline/v5/_6_mEDvmVP24UvU2MyiGDslL3Qg3YhJqPXxo.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/bungeeoutline/v8/_6_mEDvmVP24UvU2MyiGDslL3Qg3YhJqPXxo.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

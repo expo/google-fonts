@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/gothic-a1",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Use the Gothic A1 font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",

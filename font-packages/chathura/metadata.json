@@ -1,16 +1,16 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Chathura",
-  "category": "sans-serif",
   "variants": ["100", "300", "regular", "700", "800"],
   "subsets": ["latin", "telugu"],
-  "version": "v5",
-  "lastModified": "2019-07-16",
+  "version": "v10",
+  "lastModified": "2021-04-12",
   "files": {
-    "100": "http://fonts.gstatic.com/s/chathura/v5/_gP91R7-rzUuVjim42dEq0SbTvZyuDo.ttf",
-    "300": "http://fonts.gstatic.com/s/chathura/v5/_gP81R7-rzUuVjim42eMiWSxYPp7oSNy.ttf",
-    "700": "http://fonts.gstatic.com/s/chathura/v5/_gP81R7-rzUuVjim42ecjmSxYPp7oSNy.ttf",
-    "800": "http://fonts.gstatic.com/s/chathura/v5/_gP81R7-rzUuVjim42eAjWSxYPp7oSNy.ttf",
-    "regular": "http://fonts.gstatic.com/s/chathura/v5/_gP71R7-rzUuVjim418goUC5S-Zy.ttf"
-  }
+    "100": "http://fonts.gstatic.com/s/chathura/v10/_gP91R7-rzUuVjim42dEq0SbTvZyuDo.ttf",
+    "300": "http://fonts.gstatic.com/s/chathura/v10/_gP81R7-rzUuVjim42eMiWSxYPp7oSNy.ttf",
+    "700": "http://fonts.gstatic.com/s/chathura/v10/_gP81R7-rzUuVjim42ecjmSxYPp7oSNy.ttf",
+    "800": "http://fonts.gstatic.com/s/chathura/v10/_gP81R7-rzUuVjim42eAjWSxYPp7oSNy.ttf",
+    "regular": "http://fonts.gstatic.com/s/chathura/v10/_gP71R7-rzUuVjim418goUC5S-Zy.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

@@ -1,10 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Gurajada",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/gurajada/v7/FwZY7-Qx308m-l-0Kd6A4sijpFu_.ttf" }
+  "version": "v10",
+  "lastModified": "2021-03-24",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/gurajada/v10/FwZY7-Qx308m-l-0Kd6A4sijpFu_.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

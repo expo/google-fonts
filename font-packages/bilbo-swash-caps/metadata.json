@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Bilbo Swash Caps",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2019-07-16",
+  "version": "v15",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/bilboswashcaps/v12/zrf-0GXbz-H3Wb4XBsGrTgq2PVmdqAPopiRfKp8.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/bilboswashcaps/v15/zrf-0GXbz-H3Wb4XBsGrTgq2PVmdqAPopiRfKp8.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

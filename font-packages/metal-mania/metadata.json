@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Metal Mania",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/metalmania/v9/RWmMoKWb4e8kqMfBUdPFJeXCg6UKDXlq.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/metalmania/v12/RWmMoKWb4e8kqMfBUdPFJeXCg6UKDXlq.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Coda",
-  "category": "display",
   "variants": ["regular", "800"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2019-07-16",
+  "version": "v16",
+  "lastModified": "2020-09-02",
   "files": {
-    "800": "http://fonts.gstatic.com/s/coda/v15/SLXIc1jY5nQ8HeIgTp6mw9t1cX8.ttf",
-    "regular": "http://fonts.gstatic.com/s/coda/v15/SLXHc1jY5nQ8JUIMapaN39I.ttf"
-  }
+    "800": "http://fonts.gstatic.com/s/coda/v16/SLXIc1jY5nQ8HeIgTp6mw9t1cX8.ttf",
+    "regular": "http://fonts.gstatic.com/s/coda/v16/SLXHc1jY5nQ8JUIMapaN39I.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

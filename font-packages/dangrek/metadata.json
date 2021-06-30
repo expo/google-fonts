@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Dangrek",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["khmer"],
-  "version": "v11",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/dangrek/v11/LYjCdG30nEgoH8E2gCNqqVIuTN4.ttf" }
+  "version": "v14",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/dangrek/v14/LYjCdG30nEgoH8E2gCNqqVIuTN4.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Staatliches",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v3",
-  "lastModified": "2019-11-05",
+  "version": "v6",
+  "lastModified": "2021-03-24",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/staatliches/v3/HI_OiY8KO6hCsQSoAPmtMbectJG9O9PS.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/staatliches/v6/HI_OiY8KO6hCsQSoAPmtMbectJG9O9PS.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

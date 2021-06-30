@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Marko One",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/markoone/v9/9Btq3DFG0cnVM5lw1haaKpUfrHPzUw.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/markoone/v12/9Btq3DFG0cnVM5lw1haaKpUfrHPzUw.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

@@ -1,15 +1,15 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Cantarell",
-  "category": "sans-serif",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-17",
+  "version": "v10",
+  "lastModified": "2020-09-02",
   "files": {
-    "700": "http://fonts.gstatic.com/s/cantarell/v9/B50IF7ZDq37KMUvlO01xN4dOFISeJY8GgQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/cantarell/v9/B50NF7ZDq37KMUvlO01Ji6hqHK-CLA.ttf",
-    "italic": "http://fonts.gstatic.com/s/cantarell/v9/B50LF7ZDq37KMUvlO015iaJuPqqSLJYf.ttf",
-    "700italic": "http://fonts.gstatic.com/s/cantarell/v9/B50WF7ZDq37KMUvlO015iZrSEY6aB4oWgWHB.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/cantarell/v10/B50IF7ZDq37KMUvlO01xN4dOFISeJY8GgQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/cantarell/v10/B50NF7ZDq37KMUvlO01Ji6hqHK-CLA.ttf",
+    "italic": "http://fonts.gstatic.com/s/cantarell/v10/B50LF7ZDq37KMUvlO015iaJuPqqSLJYf.ttf",
+    "700italic": "http://fonts.gstatic.com/s/cantarell/v10/B50WF7ZDq37KMUvlO015iZrSEY6aB4oWgWHB.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

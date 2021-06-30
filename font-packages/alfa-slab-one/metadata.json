@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Alfa Slab One",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v9",
-  "lastModified": "2019-07-17",
+  "version": "v10",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/alfaslabone/v9/6NUQ8FmMKwSEKjnm5-4v-4Jh6dVretWvYmE.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/alfaslabone/v10/6NUQ8FmMKwSEKjnm5-4v-4Jh6dVretWvYmE.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

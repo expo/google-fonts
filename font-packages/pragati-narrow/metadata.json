@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Pragati Narrow",
-  "category": "sans-serif",
   "variants": ["regular", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2019-07-16",
+  "version": "v8",
+  "lastModified": "2021-03-24",
   "files": {
-    "700": "http://fonts.gstatic.com/s/pragatinarrow/v5/vm8sdRf0T0bS1ffgsPB7WZ-mD2ZD5fd_GJMTlo_4.ttf",
-    "regular": "http://fonts.gstatic.com/s/pragatinarrow/v5/vm8vdRf0T0bS1ffgsPB7WZ-mD17_ytN3M48a.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/pragatinarrow/v8/vm8sdRf0T0bS1ffgsPB7WZ-mD2ZD5fd_GJMTlo_4.ttf",
+    "regular": "http://fonts.gstatic.com/s/pragatinarrow/v8/vm8vdRf0T0bS1ffgsPB7WZ-mD17_ytN3M48a.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

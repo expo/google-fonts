@@ -1,15 +1,15 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Arsenal",
-  "category": "sans-serif",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v4",
-  "lastModified": "2019-07-16",
+  "version": "v5",
+  "lastModified": "2020-09-02",
   "files": {
-    "700": "http://fonts.gstatic.com/s/arsenal/v4/wXKuE3kQtZQ4pF3D7-P5JeQAmX8yrdk.ttf",
-    "regular": "http://fonts.gstatic.com/s/arsenal/v4/wXKrE3kQtZQ4pF3D11_WAewrhXY.ttf",
-    "italic": "http://fonts.gstatic.com/s/arsenal/v4/wXKpE3kQtZQ4pF3D513cBc4ulXYrtA.ttf",
-    "700italic": "http://fonts.gstatic.com/s/arsenal/v4/wXKsE3kQtZQ4pF3D513kueEKnV03vdnKjw.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/arsenal/v5/wXKuE3kQtZQ4pF3D7-P5JeQAmX8yrdk.ttf",
+    "regular": "http://fonts.gstatic.com/s/arsenal/v5/wXKrE3kQtZQ4pF3D11_WAewrhXY.ttf",
+    "italic": "http://fonts.gstatic.com/s/arsenal/v5/wXKpE3kQtZQ4pF3D513cBc4ulXYrtA.ttf",
+    "700italic": "http://fonts.gstatic.com/s/arsenal/v5/wXKsE3kQtZQ4pF3D513kueEKnV03vdnKjw.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

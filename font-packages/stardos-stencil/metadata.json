@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Stardos Stencil",
-  "category": "display",
   "variants": ["regular", "700"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-26",
+  "version": "v11",
+  "lastModified": "2020-07-23",
   "files": {
-    "700": "http://fonts.gstatic.com/s/stardosstencil/v10/X7n44bcuGPC8hrvEOHXOgaKCc2TpU3tTvg-t29HSHw.ttf",
-    "regular": "http://fonts.gstatic.com/s/stardosstencil/v10/X7n94bcuGPC8hrvEOHXOgaKCc2TR71R3tiSx0g.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/stardosstencil/v11/X7n44bcuGPC8hrvEOHXOgaKCc2TpU3tTvg-t29HSHw.ttf",
+    "regular": "http://fonts.gstatic.com/s/stardosstencil/v11/X7n94bcuGPC8hrvEOHXOgaKCc2TR71R3tiSx0g.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

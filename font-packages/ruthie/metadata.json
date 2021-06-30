@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Ruthie",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/ruthie/v10/gokvH63sGkdqXuU9lD53Q2u_mQ.ttf" }
+  "version": "v13",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/ruthie/v13/gokvH63sGkdqXuU9lD53Q2u_mQ.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

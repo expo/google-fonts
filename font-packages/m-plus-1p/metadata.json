@@ -1,7 +1,5 @@
 {
-  "kind": "webfonts#webfont",
   "family": "M PLUS 1p",
-  "category": "sans-serif",
   "variants": ["100", "300", "regular", "500", "700", "800", "900"],
   "subsets": [
     "cyrillic",
@@ -24,5 +22,7 @@
     "800": "http://fonts.gstatic.com/s/mplus1p/v19/e3tmeuShHdiFyPFzBRrQWBIge0PWovdU4w.ttf",
     "900": "http://fonts.gstatic.com/s/mplus1p/v19/e3tmeuShHdiFyPFzBRrQfBMge0PWovdU4w.ttf",
     "regular": "http://fonts.gstatic.com/s/mplus1p/v19/e3tjeuShHdiFyPFzBRro-D4Ec2jKqw.ttf"
-  }
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Pathway Gothic One",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-17",
+  "version": "v9",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/pathwaygothicone/v8/MwQrbgD32-KAvjkYGNUUxAtW7pEBwx-dTFxeb80flQ.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/pathwaygothicone/v9/MwQrbgD32-KAvjkYGNUUxAtW7pEBwx-dTFxeb80flQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Ruge Boogie",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v13",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/rugeboogie/v10/JIA3UVFwbHRF_GIWSMhKNROiPzUveSxy.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/rugeboogie/v13/JIA3UVFwbHRF_GIWSMhKNROiPzUveSxy.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

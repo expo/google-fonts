@@ -1,7 +1,5 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Be Vietnam",
-  "category": "sans-serif",
   "variants": [
     "100",
     "100italic",
@@ -19,22 +17,24 @@
     "800italic"
   ],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v1",
-  "lastModified": "2020-03-03",
+  "version": "v2",
+  "lastModified": "2020-07-23",
   "files": {
-    "100": "http://fonts.gstatic.com/s/bevietnam/v1/FBVxdDflz-iPfoPuIC2iKsUn7W1hK2czPg.ttf",
-    "300": "http://fonts.gstatic.com/s/bevietnam/v1/FBVwdDflz-iPfoPuIC2iKg0FzUdPJ24qJzc.ttf",
-    "500": "http://fonts.gstatic.com/s/bevietnam/v1/FBVwdDflz-iPfoPuIC2iKlUEzUdPJ24qJzc.ttf",
-    "600": "http://fonts.gstatic.com/s/bevietnam/v1/FBVwdDflz-iPfoPuIC2iKnkDzUdPJ24qJzc.ttf",
-    "700": "http://fonts.gstatic.com/s/bevietnam/v1/FBVwdDflz-iPfoPuIC2iKh0CzUdPJ24qJzc.ttf",
-    "800": "http://fonts.gstatic.com/s/bevietnam/v1/FBVwdDflz-iPfoPuIC2iKgEBzUdPJ24qJzc.ttf",
-    "100italic": "http://fonts.gstatic.com/s/bevietnam/v1/FBVvdDflz-iPfoPuIC2iIqMfiWdlCWIjPi5p.ttf",
-    "300italic": "http://fonts.gstatic.com/s/bevietnam/v1/FBVudDflz-iPfoPuIC2iIqMfQUVFI0wvNzdwXQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/bevietnam/v1/FBVzdDflz-iPfoPuIC2iEqEt6U9kO2c.ttf",
-    "italic": "http://fonts.gstatic.com/s/bevietnam/v1/FBVxdDflz-iPfoPuIC2iIqMn7W1hK2czPg.ttf",
-    "500italic": "http://fonts.gstatic.com/s/bevietnam/v1/FBVudDflz-iPfoPuIC2iIqMfGURFI0wvNzdwXQ.ttf",
-    "600italic": "http://fonts.gstatic.com/s/bevietnam/v1/FBVudDflz-iPfoPuIC2iIqMfNUNFI0wvNzdwXQ.ttf",
-    "700italic": "http://fonts.gstatic.com/s/bevietnam/v1/FBVudDflz-iPfoPuIC2iIqMfUUJFI0wvNzdwXQ.ttf",
-    "800italic": "http://fonts.gstatic.com/s/bevietnam/v1/FBVudDflz-iPfoPuIC2iIqMfTUFFI0wvNzdwXQ.ttf"
-  }
+    "100": "http://fonts.gstatic.com/s/bevietnam/v2/FBVxdDflz-iPfoPuIC2iKsUn7W1hK2czPg.ttf",
+    "300": "http://fonts.gstatic.com/s/bevietnam/v2/FBVwdDflz-iPfoPuIC2iKg0FzUdPJ24qJzc.ttf",
+    "500": "http://fonts.gstatic.com/s/bevietnam/v2/FBVwdDflz-iPfoPuIC2iKlUEzUdPJ24qJzc.ttf",
+    "600": "http://fonts.gstatic.com/s/bevietnam/v2/FBVwdDflz-iPfoPuIC2iKnkDzUdPJ24qJzc.ttf",
+    "700": "http://fonts.gstatic.com/s/bevietnam/v2/FBVwdDflz-iPfoPuIC2iKh0CzUdPJ24qJzc.ttf",
+    "800": "http://fonts.gstatic.com/s/bevietnam/v2/FBVwdDflz-iPfoPuIC2iKgEBzUdPJ24qJzc.ttf",
+    "100italic": "http://fonts.gstatic.com/s/bevietnam/v2/FBVvdDflz-iPfoPuIC2iIqMfiWdlCWIjPi5p.ttf",
+    "300italic": "http://fonts.gstatic.com/s/bevietnam/v2/FBVudDflz-iPfoPuIC2iIqMfQUVFI0wvNzdwXQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/bevietnam/v2/FBVzdDflz-iPfoPuIC2iEqEt6U9kO2c.ttf",
+    "italic": "http://fonts.gstatic.com/s/bevietnam/v2/FBVxdDflz-iPfoPuIC2iIqMn7W1hK2czPg.ttf",
+    "500italic": "http://fonts.gstatic.com/s/bevietnam/v2/FBVudDflz-iPfoPuIC2iIqMfGURFI0wvNzdwXQ.ttf",
+    "600italic": "http://fonts.gstatic.com/s/bevietnam/v2/FBVudDflz-iPfoPuIC2iIqMfNUNFI0wvNzdwXQ.ttf",
+    "700italic": "http://fonts.gstatic.com/s/bevietnam/v2/FBVudDflz-iPfoPuIC2iIqMfUUJFI0wvNzdwXQ.ttf",
+    "800italic": "http://fonts.gstatic.com/s/bevietnam/v2/FBVudDflz-iPfoPuIC2iIqMfTUFFI0wvNzdwXQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

@@ -11,13 +11,15 @@ This package lets you use the [**Ibarra Real Nova**](https://fonts.google.com/sp
 
 ![Ibarra Real Nova](./font-family.png)
 
-This font family contains [6 styles](#-gallery).
+This font family contains [8 styles](#-gallery).
 
 - `IbarraRealNova_400Regular`
-- `IbarraRealNova_400Regular_Italic`
+- `IbarraRealNova_500Medium`
 - `IbarraRealNova_600SemiBold`
-- `IbarraRealNova_600SemiBold_Italic`
 - `IbarraRealNova_700Bold`
+- `IbarraRealNova_400Regular_Italic`
+- `IbarraRealNova_500Medium_Italic`
+- `IbarraRealNova_600SemiBold_Italic`
 - `IbarraRealNova_700Bold_Italic`
 
 ## Usage
@@ -36,20 +38,24 @@ import { AppLoading } from 'expo';
 import {
   useFonts,
   IbarraRealNova_400Regular,
-  IbarraRealNova_400Regular_Italic,
+  IbarraRealNova_500Medium,
   IbarraRealNova_600SemiBold,
-  IbarraRealNova_600SemiBold_Italic,
   IbarraRealNova_700Bold,
+  IbarraRealNova_400Regular_Italic,
+  IbarraRealNova_500Medium_Italic,
+  IbarraRealNova_600SemiBold_Italic,
   IbarraRealNova_700Bold_Italic,
 } from '@expo-google-fonts/ibarra-real-nova';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     IbarraRealNova_400Regular,
-    IbarraRealNova_400Regular_Italic,
+    IbarraRealNova_500Medium,
     IbarraRealNova_600SemiBold,
-    IbarraRealNova_600SemiBold_Italic,
     IbarraRealNova_700Bold,
+    IbarraRealNova_400Regular_Italic,
+    IbarraRealNova_500Medium_Italic,
+    IbarraRealNova_600SemiBold_Italic,
     IbarraRealNova_700Bold_Italic,
   });
 
@@ -76,9 +82,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IbarraRealNova_400Regular_Italic',
+            fontFamily: 'IbarraRealNova_500Medium',
           }}>
-          Ibarra Real Nova Italic
+          Ibarra Real Nova Medium
         </Text>
 
         <Text
@@ -96,9 +102,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IbarraRealNova_600SemiBold_Italic',
+            fontFamily: 'IbarraRealNova_700Bold',
           }}>
-          Ibarra Real Nova Semi Bold Italic
+          Ibarra Real Nova Bold
         </Text>
 
         <Text
@@ -106,9 +112,29 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IbarraRealNova_700Bold',
+            fontFamily: 'IbarraRealNova_400Regular_Italic',
           }}>
-          Ibarra Real Nova Bold
+          Ibarra Real Nova Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IbarraRealNova_500Medium_Italic',
+          }}>
+          Ibarra Real Nova Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IbarraRealNova_600SemiBold_Italic',
+          }}>
+          Ibarra Real Nova Semi Bold Italic
         </Text>
 
         <Text
@@ -132,8 +158,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IbarraRealNova_400Regular](./IbarraRealNova_400Regular.ttf.png)|![IbarraRealNova_400Regular_Italic](./IbarraRealNova_400Regular_Italic.ttf.png)|![IbarraRealNova_600SemiBold](./IbarraRealNova_600SemiBold.ttf.png)||
-|![IbarraRealNova_600SemiBold_Italic](./IbarraRealNova_600SemiBold_Italic.ttf.png)|![IbarraRealNova_700Bold](./IbarraRealNova_700Bold.ttf.png)|![IbarraRealNova_700Bold_Italic](./IbarraRealNova_700Bold_Italic.ttf.png)||
+|![IbarraRealNova_400Regular](./IbarraRealNova_400Regular.ttf.png)|![IbarraRealNova_500Medium](./IbarraRealNova_500Medium.ttf.png)|![IbarraRealNova_600SemiBold](./IbarraRealNova_600SemiBold.ttf.png)||
+|![IbarraRealNova_700Bold](./IbarraRealNova_700Bold.ttf.png)|![IbarraRealNova_400Regular_Italic](./IbarraRealNova_400Regular_Italic.ttf.png)|![IbarraRealNova_500Medium_Italic](./IbarraRealNova_500Medium_Italic.ttf.png)||
+|![IbarraRealNova_600SemiBold_Italic](./IbarraRealNova_600SemiBold_Italic.ttf.png)|![IbarraRealNova_700Bold_Italic](./IbarraRealNova_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Fredoka One",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v8",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/fredokaone/v7/k3kUo8kEI-tA1RRcTZGmTmHBA6aF8Bf_.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/fredokaone/v8/k3kUo8kEI-tA1RRcTZGmTmHBA6aF8Bf_.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

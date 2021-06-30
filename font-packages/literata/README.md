@@ -11,16 +11,24 @@ This package lets you use the [**Literata**](https://fonts.google.com/specimen/L
 
 ![Literata](./font-family.png)
 
-This font family contains [8 styles](#-gallery).
+This font family contains [16 styles](#-gallery).
 
+- `Literata_200ExtraLight`
+- `Literata_300Light`
 - `Literata_400Regular`
 - `Literata_500Medium`
 - `Literata_600SemiBold`
 - `Literata_700Bold`
+- `Literata_800ExtraBold`
+- `Literata_900Black`
+- `Literata_200ExtraLight_Italic`
+- `Literata_300Light_Italic`
 - `Literata_400Regular_Italic`
 - `Literata_500Medium_Italic`
 - `Literata_600SemiBold_Italic`
 - `Literata_700Bold_Italic`
+- `Literata_800ExtraBold_Italic`
+- `Literata_900Black_Italic`
 
 ## Usage
 
@@ -37,26 +45,42 @@ import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
   useFonts,
+  Literata_200ExtraLight,
+  Literata_300Light,
   Literata_400Regular,
   Literata_500Medium,
   Literata_600SemiBold,
   Literata_700Bold,
+  Literata_800ExtraBold,
+  Literata_900Black,
+  Literata_200ExtraLight_Italic,
+  Literata_300Light_Italic,
   Literata_400Regular_Italic,
   Literata_500Medium_Italic,
   Literata_600SemiBold_Italic,
   Literata_700Bold_Italic,
+  Literata_800ExtraBold_Italic,
+  Literata_900Black_Italic,
 } from '@expo-google-fonts/literata';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    Literata_200ExtraLight,
+    Literata_300Light,
     Literata_400Regular,
     Literata_500Medium,
     Literata_600SemiBold,
     Literata_700Bold,
+    Literata_800ExtraBold,
+    Literata_900Black,
+    Literata_200ExtraLight_Italic,
+    Literata_300Light_Italic,
     Literata_400Regular_Italic,
     Literata_500Medium_Italic,
     Literata_600SemiBold_Italic,
     Literata_700Bold_Italic,
+    Literata_800ExtraBold_Italic,
+    Literata_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -67,6 +91,26 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Literata_200ExtraLight',
+          }}>
+          Literata Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Literata_300Light',
+          }}>
+          Literata Light
+        </Text>
+
         <Text
           style={{
             fontSize,
@@ -112,6 +156,46 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Literata_800ExtraBold',
+          }}>
+          Literata Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Literata_900Black',
+          }}>
+          Literata Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Literata_200ExtraLight_Italic',
+          }}>
+          Literata Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Literata_300Light_Italic',
+          }}>
+          Literata Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Literata_400Regular_Italic',
           }}>
           Literata Italic
@@ -146,6 +230,26 @@ export default () => {
           }}>
           Literata Bold Italic
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Literata_800ExtraBold_Italic',
+          }}>
+          Literata Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Literata_900Black_Italic',
+          }}>
+          Literata Black Italic
+        </Text>
       </View>
     );
   }
@@ -158,9 +262,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Literata_400Regular](./Literata_400Regular.ttf.png)|![Literata_500Medium](./Literata_500Medium.ttf.png)|![Literata_600SemiBold](./Literata_600SemiBold.ttf.png)||
-|![Literata_700Bold](./Literata_700Bold.ttf.png)|![Literata_400Regular_Italic](./Literata_400Regular_Italic.ttf.png)|![Literata_500Medium_Italic](./Literata_500Medium_Italic.ttf.png)||
-|![Literata_600SemiBold_Italic](./Literata_600SemiBold_Italic.ttf.png)|![Literata_700Bold_Italic](./Literata_700Bold_Italic.ttf.png)|||
+|![Literata_200ExtraLight](./Literata_200ExtraLight.ttf.png)|![Literata_300Light](./Literata_300Light.ttf.png)|![Literata_400Regular](./Literata_400Regular.ttf.png)||
+|![Literata_500Medium](./Literata_500Medium.ttf.png)|![Literata_600SemiBold](./Literata_600SemiBold.ttf.png)|![Literata_700Bold](./Literata_700Bold.ttf.png)||
+|![Literata_800ExtraBold](./Literata_800ExtraBold.ttf.png)|![Literata_900Black](./Literata_900Black.ttf.png)|![Literata_200ExtraLight_Italic](./Literata_200ExtraLight_Italic.ttf.png)||
+|![Literata_300Light_Italic](./Literata_300Light_Italic.ttf.png)|![Literata_400Regular_Italic](./Literata_400Regular_Italic.ttf.png)|![Literata_500Medium_Italic](./Literata_500Medium_Italic.ttf.png)||
+|![Literata_600SemiBold_Italic](./Literata_600SemiBold_Italic.ttf.png)|![Literata_700Bold_Italic](./Literata_700Bold_Italic.ttf.png)|![Literata_800ExtraBold_Italic](./Literata_800ExtraBold_Italic.ttf.png)||
+|![Literata_900Black_Italic](./Literata_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

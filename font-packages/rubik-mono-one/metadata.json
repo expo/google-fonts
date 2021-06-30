@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Rubik Mono One",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/rubikmonoone/v8/UqyJK8kPP3hjw6ANTdfRk9YSN-8wRqQrc_j9.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/rubikmonoone/v9/UqyJK8kPP3hjw6ANTdfRk9YSN-8wRqQrc_j9.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

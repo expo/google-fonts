@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Ubuntu Condensed",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2019-07-17",
+  "version": "v11",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/ubuntucondensed/v10/u-4k0rCzjgs5J7oXnJcM_0kACGMtf-fVqvHoJXw.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/ubuntucondensed/v11/u-4k0rCzjgs5J7oXnJcM_0kACGMtf-fVqvHoJXw.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

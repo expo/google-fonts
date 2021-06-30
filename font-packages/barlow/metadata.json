@@ -1,7 +1,5 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Barlow",
-  "category": "sans-serif",
   "variants": [
     "100",
     "100italic",
@@ -23,26 +21,28 @@
     "900italic"
   ],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v4",
-  "lastModified": "2019-07-17",
+  "version": "v5",
+  "lastModified": "2020-09-10",
   "files": {
-    "100": "http://fonts.gstatic.com/s/barlow/v4/7cHrv4kjgoGqM7E3b8s8yn4hnCci.ttf",
-    "200": "http://fonts.gstatic.com/s/barlow/v4/7cHqv4kjgoGqM7E3w-oc4FAtlT47dw.ttf",
-    "300": "http://fonts.gstatic.com/s/barlow/v4/7cHqv4kjgoGqM7E3p-kc4FAtlT47dw.ttf",
-    "500": "http://fonts.gstatic.com/s/barlow/v4/7cHqv4kjgoGqM7E3_-gc4FAtlT47dw.ttf",
-    "600": "http://fonts.gstatic.com/s/barlow/v4/7cHqv4kjgoGqM7E30-8c4FAtlT47dw.ttf",
-    "700": "http://fonts.gstatic.com/s/barlow/v4/7cHqv4kjgoGqM7E3t-4c4FAtlT47dw.ttf",
-    "800": "http://fonts.gstatic.com/s/barlow/v4/7cHqv4kjgoGqM7E3q-0c4FAtlT47dw.ttf",
-    "900": "http://fonts.gstatic.com/s/barlow/v4/7cHqv4kjgoGqM7E3j-wc4FAtlT47dw.ttf",
-    "100italic": "http://fonts.gstatic.com/s/barlow/v4/7cHtv4kjgoGqM7E_CfNYwHoDmTcibrA.ttf",
-    "200italic": "http://fonts.gstatic.com/s/barlow/v4/7cHsv4kjgoGqM7E_CfP04Voptzsrd6m9.ttf",
-    "300italic": "http://fonts.gstatic.com/s/barlow/v4/7cHsv4kjgoGqM7E_CfOQ4loptzsrd6m9.ttf",
-    "regular": "http://fonts.gstatic.com/s/barlow/v4/7cHpv4kjgoGqM7EPC8E46HsxnA.ttf",
-    "italic": "http://fonts.gstatic.com/s/barlow/v4/7cHrv4kjgoGqM7E_Ccs8yn4hnCci.ttf",
-    "500italic": "http://fonts.gstatic.com/s/barlow/v4/7cHsv4kjgoGqM7E_CfPI41optzsrd6m9.ttf",
-    "600italic": "http://fonts.gstatic.com/s/barlow/v4/7cHsv4kjgoGqM7E_CfPk5Foptzsrd6m9.ttf",
-    "700italic": "http://fonts.gstatic.com/s/barlow/v4/7cHsv4kjgoGqM7E_CfOA5Voptzsrd6m9.ttf",
-    "800italic": "http://fonts.gstatic.com/s/barlow/v4/7cHsv4kjgoGqM7E_CfOc5loptzsrd6m9.ttf",
-    "900italic": "http://fonts.gstatic.com/s/barlow/v4/7cHsv4kjgoGqM7E_CfO451optzsrd6m9.ttf"
-  }
+    "100": "http://fonts.gstatic.com/s/barlow/v5/7cHrv4kjgoGqM7E3b8s8yn4hnCci.ttf",
+    "200": "http://fonts.gstatic.com/s/barlow/v5/7cHqv4kjgoGqM7E3w-oc4FAtlT47dw.ttf",
+    "300": "http://fonts.gstatic.com/s/barlow/v5/7cHqv4kjgoGqM7E3p-kc4FAtlT47dw.ttf",
+    "500": "http://fonts.gstatic.com/s/barlow/v5/7cHqv4kjgoGqM7E3_-gc4FAtlT47dw.ttf",
+    "600": "http://fonts.gstatic.com/s/barlow/v5/7cHqv4kjgoGqM7E30-8c4FAtlT47dw.ttf",
+    "700": "http://fonts.gstatic.com/s/barlow/v5/7cHqv4kjgoGqM7E3t-4c4FAtlT47dw.ttf",
+    "800": "http://fonts.gstatic.com/s/barlow/v5/7cHqv4kjgoGqM7E3q-0c4FAtlT47dw.ttf",
+    "900": "http://fonts.gstatic.com/s/barlow/v5/7cHqv4kjgoGqM7E3j-wc4FAtlT47dw.ttf",
+    "100italic": "http://fonts.gstatic.com/s/barlow/v5/7cHtv4kjgoGqM7E_CfNYwHoDmTcibrA.ttf",
+    "200italic": "http://fonts.gstatic.com/s/barlow/v5/7cHsv4kjgoGqM7E_CfP04Voptzsrd6m9.ttf",
+    "300italic": "http://fonts.gstatic.com/s/barlow/v5/7cHsv4kjgoGqM7E_CfOQ4loptzsrd6m9.ttf",
+    "regular": "http://fonts.gstatic.com/s/barlow/v5/7cHpv4kjgoGqM7EPC8E46HsxnA.ttf",
+    "italic": "http://fonts.gstatic.com/s/barlow/v5/7cHrv4kjgoGqM7E_Ccs8yn4hnCci.ttf",
+    "500italic": "http://fonts.gstatic.com/s/barlow/v5/7cHsv4kjgoGqM7E_CfPI41optzsrd6m9.ttf",
+    "600italic": "http://fonts.gstatic.com/s/barlow/v5/7cHsv4kjgoGqM7E_CfPk5Foptzsrd6m9.ttf",
+    "700italic": "http://fonts.gstatic.com/s/barlow/v5/7cHsv4kjgoGqM7E_CfOA5Voptzsrd6m9.ttf",
+    "800italic": "http://fonts.gstatic.com/s/barlow/v5/7cHsv4kjgoGqM7E_CfOc5loptzsrd6m9.ttf",
+    "900italic": "http://fonts.gstatic.com/s/barlow/v5/7cHsv4kjgoGqM7E_CfO451optzsrd6m9.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

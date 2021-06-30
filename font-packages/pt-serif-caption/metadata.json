@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "PT Serif Caption",
-  "category": "serif",
   "variants": ["regular", "italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/ptserifcaption/v11/ieVl2ZhbGCW-JoW6S34pSDpqYKU059WxDCs5cvI.ttf",
-    "italic": "http://fonts.gstatic.com/s/ptserifcaption/v11/ieVj2ZhbGCW-JoW6S34pSDpqYKU019e7CAk8YvJEeg.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/ptserifcaption/v12/ieVl2ZhbGCW-JoW6S34pSDpqYKU059WxDCs5cvI.ttf",
+    "italic": "http://fonts.gstatic.com/s/ptserifcaption/v12/ieVj2ZhbGCW-JoW6S34pSDpqYKU019e7CAk8YvJEeg.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

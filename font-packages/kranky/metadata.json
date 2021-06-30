@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Kranky",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/kranky/v10/hESw6XVgJzlPsFnMpheEZo_H_w.ttf" }
+  "version": "v13",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/kranky/v13/hESw6XVgJzlPsFnMpheEZo_H_w.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

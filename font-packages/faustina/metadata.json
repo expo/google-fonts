@@ -1,19 +1,19 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Faustina",
-  "category": "serif",
   "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2020-02-05",
+  "version": "v8",
+  "lastModified": "2021-01-30",
   "files": {
-    "500": "http://fonts.gstatic.com/s/faustina/v6/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHlssIEvGVWWe8tbEg.ttf",
-    "600": "http://fonts.gstatic.com/s/faustina/v6/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHlsXIYvGVWWe8tbEg.ttf",
-    "700": "http://fonts.gstatic.com/s/faustina/v6/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHlsZYYvGVWWe8tbEg.ttf",
-    "regular": "http://fonts.gstatic.com/s/faustina/v6/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHlsgoEvGVWWe8tbEg.ttf",
-    "italic": "http://fonts.gstatic.com/s/faustina/v6/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsLHWl-SWc5LEnoF.ttf",
-    "500italic": "http://fonts.gstatic.com/s/faustina/v6/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsL1Wl-SWc5LEnoF.ttf",
-    "600italic": "http://fonts.gstatic.com/s/faustina/v6/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsIZXV-SWc5LEnoF.ttf",
-    "700italic": "http://fonts.gstatic.com/s/faustina/v6/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsIgXV-SWc5LEnoF.ttf"
-  }
+    "500": "http://fonts.gstatic.com/s/faustina/v8/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHlssIEvGVWWe8tbEg.ttf",
+    "600": "http://fonts.gstatic.com/s/faustina/v8/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHlsXIYvGVWWe8tbEg.ttf",
+    "700": "http://fonts.gstatic.com/s/faustina/v8/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHlsZYYvGVWWe8tbEg.ttf",
+    "regular": "http://fonts.gstatic.com/s/faustina/v8/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHlsgoEvGVWWe8tbEg.ttf",
+    "italic": "http://fonts.gstatic.com/s/faustina/v8/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsLHWl-SWc5LEnoF.ttf",
+    "500italic": "http://fonts.gstatic.com/s/faustina/v8/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsL1Wl-SWc5LEnoF.ttf",
+    "600italic": "http://fonts.gstatic.com/s/faustina/v8/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsIZXV-SWc5LEnoF.ttf",
+    "700italic": "http://fonts.gstatic.com/s/faustina/v8/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsIgXV-SWc5LEnoF.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

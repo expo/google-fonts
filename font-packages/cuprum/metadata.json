@@ -1,15 +1,19 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Cuprum",
-  "category": "sans-serif",
-  "variants": ["regular", "italic", "700", "700italic"],
+  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v11",
-  "lastModified": "2019-07-17",
+  "version": "v14",
+  "lastModified": "2021-01-30",
   "files": {
-    "700": "http://fonts.gstatic.com/s/cuprum/v11/dg4n_pLmvrkcOkBFnc5nj5YpQwM-gg.ttf",
-    "regular": "http://fonts.gstatic.com/s/cuprum/v11/dg4k_pLmvrkcOkB9IeFDh701Sg.ttf",
-    "italic": "http://fonts.gstatic.com/s/cuprum/v11/dg4m_pLmvrkcOkBNI-tHpbglShon.ttf",
-    "700italic": "http://fonts.gstatic.com/s/cuprum/v11/dg4h_pLmvrkcOkBNI9P7ipwtYQYugjW4.ttf"
-  }
+    "500": "http://fonts.gstatic.com/s/cuprum/v14/dg45_pLmvrkcOkBnKsOzXyGWTBcmg9f6ZjzSJjQjgnU.ttf",
+    "600": "http://fonts.gstatic.com/s/cuprum/v14/dg45_pLmvrkcOkBnKsOzXyGWTBcmgzv9ZjzSJjQjgnU.ttf",
+    "700": "http://fonts.gstatic.com/s/cuprum/v14/dg45_pLmvrkcOkBnKsOzXyGWTBcmgwL9ZjzSJjQjgnU.ttf",
+    "regular": "http://fonts.gstatic.com/s/cuprum/v14/dg45_pLmvrkcOkBnKsOzXyGWTBcmg-X6ZjzSJjQjgnU.ttf",
+    "italic": "http://fonts.gstatic.com/s/cuprum/v14/dg47_pLmvrkcOkBNI_FMh0j91rkhli25jn_YIhYmknUPEA.ttf",
+    "500italic": "http://fonts.gstatic.com/s/cuprum/v14/dg47_pLmvrkcOkBNI_FMh0j91rkhli25vH_YIhYmknUPEA.ttf",
+    "600italic": "http://fonts.gstatic.com/s/cuprum/v14/dg47_pLmvrkcOkBNI_FMh0j91rkhli25UHjYIhYmknUPEA.ttf",
+    "700italic": "http://fonts.gstatic.com/s/cuprum/v14/dg47_pLmvrkcOkBNI_FMh0j91rkhli25aXjYIhYmknUPEA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

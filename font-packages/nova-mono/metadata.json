@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Nova Mono",
-  "category": "monospace",
   "variants": ["regular"],
   "subsets": ["greek", "latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v13",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/novamono/v10/Cn-0JtiGWQ5Ajb--MRKfYGxYrdM9Sg.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/novamono/v13/Cn-0JtiGWQ5Ajb--MRKfYGxYrdM9Sg.ttf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont"
 }

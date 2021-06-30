@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Aladin",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/aladin/v8/ZgNSjPJFPrvJV5f16Sf4pGT2Ng.ttf" }
+  "version": "v9",
+  "lastModified": "2020-07-23",
+  "files": { "regular": "http://fonts.gstatic.com/s/aladin/v9/ZgNSjPJFPrvJV5f16Sf4pGT2Ng.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

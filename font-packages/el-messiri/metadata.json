@@ -1,15 +1,15 @@
 {
-  "kind": "webfonts#webfont",
   "family": "El Messiri",
-  "category": "sans-serif",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["arabic", "cyrillic", "latin"],
-  "version": "v6",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2021-03-24",
   "files": {
-    "500": "http://fonts.gstatic.com/s/elmessiri/v6/K2F3fZBRmr9vQ1pHEey6On6jJyrYYWOMluQ.ttf",
-    "600": "http://fonts.gstatic.com/s/elmessiri/v6/K2F3fZBRmr9vQ1pHEey6OlKkJyrYYWOMluQ.ttf",
-    "700": "http://fonts.gstatic.com/s/elmessiri/v6/K2F3fZBRmr9vQ1pHEey6OjalJyrYYWOMluQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/elmessiri/v6/K2F0fZBRmr9vQ1pHEey6AoqKAyLzfWo.ttf"
-  }
+    "500": "http://fonts.gstatic.com/s/elmessiri/v9/K2F3fZBRmr9vQ1pHEey6On6jJyrYYWOMluQ.ttf",
+    "600": "http://fonts.gstatic.com/s/elmessiri/v9/K2F3fZBRmr9vQ1pHEey6OlKkJyrYYWOMluQ.ttf",
+    "700": "http://fonts.gstatic.com/s/elmessiri/v9/K2F3fZBRmr9vQ1pHEey6OjalJyrYYWOMluQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/elmessiri/v9/K2F0fZBRmr9vQ1pHEey6AoqKAyLzfWo.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

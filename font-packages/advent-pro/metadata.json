@@ -1,18 +1,18 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Advent Pro",
-  "category": "sans-serif",
   "variants": ["100", "200", "300", "regular", "500", "600", "700"],
   "subsets": ["greek", "latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2020-09-02",
   "files": {
-    "100": "http://fonts.gstatic.com/s/adventpro/v10/V8mCoQfxVT4Dvddr_yOwjVmtLZxcBtItFw.ttf",
-    "200": "http://fonts.gstatic.com/s/adventpro/v10/V8mDoQfxVT4Dvddr_yOwjfWMDbZyCts0DqQ.ttf",
-    "300": "http://fonts.gstatic.com/s/adventpro/v10/V8mDoQfxVT4Dvddr_yOwjZGPDbZyCts0DqQ.ttf",
-    "500": "http://fonts.gstatic.com/s/adventpro/v10/V8mDoQfxVT4Dvddr_yOwjcmODbZyCts0DqQ.ttf",
-    "600": "http://fonts.gstatic.com/s/adventpro/v10/V8mDoQfxVT4Dvddr_yOwjeWJDbZyCts0DqQ.ttf",
-    "700": "http://fonts.gstatic.com/s/adventpro/v10/V8mDoQfxVT4Dvddr_yOwjYGIDbZyCts0DqQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/adventpro/v10/V8mAoQfxVT4Dvddr_yOwtT2nKb5ZFtI.ttf"
-  }
+    "100": "http://fonts.gstatic.com/s/adventpro/v11/V8mCoQfxVT4Dvddr_yOwjVmtLZxcBtItFw.ttf",
+    "200": "http://fonts.gstatic.com/s/adventpro/v11/V8mDoQfxVT4Dvddr_yOwjfWMDbZyCts0DqQ.ttf",
+    "300": "http://fonts.gstatic.com/s/adventpro/v11/V8mDoQfxVT4Dvddr_yOwjZGPDbZyCts0DqQ.ttf",
+    "500": "http://fonts.gstatic.com/s/adventpro/v11/V8mDoQfxVT4Dvddr_yOwjcmODbZyCts0DqQ.ttf",
+    "600": "http://fonts.gstatic.com/s/adventpro/v11/V8mDoQfxVT4Dvddr_yOwjeWJDbZyCts0DqQ.ttf",
+    "700": "http://fonts.gstatic.com/s/adventpro/v11/V8mDoQfxVT4Dvddr_yOwjYGIDbZyCts0DqQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/adventpro/v11/V8mAoQfxVT4Dvddr_yOwtT2nKb5ZFtI.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

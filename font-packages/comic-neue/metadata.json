@@ -1,17 +1,17 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Comic Neue",
-  "category": "handwriting",
   "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
   "subsets": ["latin"],
-  "version": "v1",
-  "lastModified": "2020-05-01",
+  "version": "v2",
+  "lastModified": "2020-07-23",
   "files": {
-    "300": "http://fonts.gstatic.com/s/comicneue/v1/4UaErEJDsxBrF37olUeD_wHLwpteLwtHJlc.ttf",
-    "700": "http://fonts.gstatic.com/s/comicneue/v1/4UaErEJDsxBrF37olUeD_xHMwpteLwtHJlc.ttf",
-    "300italic": "http://fonts.gstatic.com/s/comicneue/v1/4UaarEJDsxBrF37olUeD96_RTplUKylCNlcw_Q.ttf",
-    "regular": "http://fonts.gstatic.com/s/comicneue/v1/4UaHrEJDsxBrF37olUeDx63j5pN1MwI.ttf",
-    "italic": "http://fonts.gstatic.com/s/comicneue/v1/4UaFrEJDsxBrF37olUeD96_p4rFwIwJePw.ttf",
-    "700italic": "http://fonts.gstatic.com/s/comicneue/v1/4UaarEJDsxBrF37olUeD96_RXp5UKylCNlcw_Q.ttf"
-  }
+    "300": "http://fonts.gstatic.com/s/comicneue/v2/4UaErEJDsxBrF37olUeD_wHLwpteLwtHJlc.ttf",
+    "700": "http://fonts.gstatic.com/s/comicneue/v2/4UaErEJDsxBrF37olUeD_xHMwpteLwtHJlc.ttf",
+    "300italic": "http://fonts.gstatic.com/s/comicneue/v2/4UaarEJDsxBrF37olUeD96_RTplUKylCNlcw_Q.ttf",
+    "regular": "http://fonts.gstatic.com/s/comicneue/v2/4UaHrEJDsxBrF37olUeDx63j5pN1MwI.ttf",
+    "italic": "http://fonts.gstatic.com/s/comicneue/v2/4UaFrEJDsxBrF37olUeD96_p4rFwIwJePw.ttf",
+    "700italic": "http://fonts.gstatic.com/s/comicneue/v2/4UaarEJDsxBrF37olUeD96_RXp5UKylCNlcw_Q.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

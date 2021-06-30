@@ -1,16 +1,16 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Cormorant Upright",
-  "category": "serif",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2021-03-24",
   "files": {
-    "300": "http://fonts.gstatic.com/s/cormorantupright/v6/VuJudM3I2Y35poFONtLdafkUCHw1y1N5phDsU9X6RPzQ.ttf",
-    "500": "http://fonts.gstatic.com/s/cormorantupright/v6/VuJudM3I2Y35poFONtLdafkUCHw1y1MhpxDsU9X6RPzQ.ttf",
-    "600": "http://fonts.gstatic.com/s/cormorantupright/v6/VuJudM3I2Y35poFONtLdafkUCHw1y1MNoBDsU9X6RPzQ.ttf",
-    "700": "http://fonts.gstatic.com/s/cormorantupright/v6/VuJudM3I2Y35poFONtLdafkUCHw1y1NpoRDsU9X6RPzQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/cormorantupright/v6/VuJrdM3I2Y35poFONtLdafkUCHw1y2vVjjTkeMnz.ttf"
-  }
+    "300": "http://fonts.gstatic.com/s/cormorantupright/v11/VuJudM3I2Y35poFONtLdafkUCHw1y1N5phDsU9X6RPzQ.ttf",
+    "500": "http://fonts.gstatic.com/s/cormorantupright/v11/VuJudM3I2Y35poFONtLdafkUCHw1y1MhpxDsU9X6RPzQ.ttf",
+    "600": "http://fonts.gstatic.com/s/cormorantupright/v11/VuJudM3I2Y35poFONtLdafkUCHw1y1MNoBDsU9X6RPzQ.ttf",
+    "700": "http://fonts.gstatic.com/s/cormorantupright/v11/VuJudM3I2Y35poFONtLdafkUCHw1y1NpoRDsU9X6RPzQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/cormorantupright/v11/VuJrdM3I2Y35poFONtLdafkUCHw1y2vVjjTkeMnz.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

@@ -1,20 +1,20 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Catamaran",
-  "category": "sans-serif",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "tamil"],
-  "version": "v6",
-  "lastModified": "2019-07-17",
+  "version": "v8",
+  "lastModified": "2021-01-30",
   "files": {
-    "100": "http://fonts.gstatic.com/s/catamaran/v6/o-0OIpQoyXQa2RxT7-5jhjRFSfiM7HBj.ttf",
-    "200": "http://fonts.gstatic.com/s/catamaran/v6/o-0NIpQoyXQa2RxT7-5jKhVlY9aA5Wl6PQ.ttf",
-    "300": "http://fonts.gstatic.com/s/catamaran/v6/o-0NIpQoyXQa2RxT7-5jThZlY9aA5Wl6PQ.ttf",
-    "500": "http://fonts.gstatic.com/s/catamaran/v6/o-0NIpQoyXQa2RxT7-5jFhdlY9aA5Wl6PQ.ttf",
-    "600": "http://fonts.gstatic.com/s/catamaran/v6/o-0NIpQoyXQa2RxT7-5jOhBlY9aA5Wl6PQ.ttf",
-    "700": "http://fonts.gstatic.com/s/catamaran/v6/o-0NIpQoyXQa2RxT7-5jXhFlY9aA5Wl6PQ.ttf",
-    "800": "http://fonts.gstatic.com/s/catamaran/v6/o-0NIpQoyXQa2RxT7-5jQhJlY9aA5Wl6PQ.ttf",
-    "900": "http://fonts.gstatic.com/s/catamaran/v6/o-0NIpQoyXQa2RxT7-5jZhNlY9aA5Wl6PQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/catamaran/v6/o-0IIpQoyXQa2RxT7-5b4j5Ba_2c7A.ttf"
-  }
+    "100": "http://fonts.gstatic.com/s/catamaran/v8/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPHjc1anXuluiLyw.ttf",
+    "200": "http://fonts.gstatic.com/s/catamaran/v8/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPPjd1anXuluiLyw.ttf",
+    "300": "http://fonts.gstatic.com/s/catamaran/v8/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPCbd1anXuluiLyw.ttf",
+    "500": "http://fonts.gstatic.com/s/catamaran/v8/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPErd1anXuluiLyw.ttf",
+    "600": "http://fonts.gstatic.com/s/catamaran/v8/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPKba1anXuluiLyw.ttf",
+    "700": "http://fonts.gstatic.com/s/catamaran/v8/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPJ_a1anXuluiLyw.ttf",
+    "800": "http://fonts.gstatic.com/s/catamaran/v8/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPPja1anXuluiLyw.ttf",
+    "900": "http://fonts.gstatic.com/s/catamaran/v8/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPNHa1anXuluiLyw.ttf",
+    "regular": "http://fonts.gstatic.com/s/catamaran/v8/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPHjd1anXuluiLyw.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

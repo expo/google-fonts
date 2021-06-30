@@ -1,16 +1,16 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Eczar",
-  "category": "serif",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2020-09-02",
   "files": {
-    "500": "http://fonts.gstatic.com/s/eczar/v8/BXRovF3Pi-DLmzXWL8t622v9WNjW.ttf",
-    "600": "http://fonts.gstatic.com/s/eczar/v8/BXRovF3Pi-DLmzX6KMt622v9WNjW.ttf",
-    "700": "http://fonts.gstatic.com/s/eczar/v8/BXRovF3Pi-DLmzWeKct622v9WNjW.ttf",
-    "800": "http://fonts.gstatic.com/s/eczar/v8/BXRovF3Pi-DLmzWCKst622v9WNjW.ttf",
-    "regular": "http://fonts.gstatic.com/s/eczar/v8/BXRlvF3Pi-DLmw0iBu9y8Hf0.ttf"
-  }
+    "500": "http://fonts.gstatic.com/s/eczar/v9/BXRovF3Pi-DLmzXWL8t622v9WNjW.ttf",
+    "600": "http://fonts.gstatic.com/s/eczar/v9/BXRovF3Pi-DLmzX6KMt622v9WNjW.ttf",
+    "700": "http://fonts.gstatic.com/s/eczar/v9/BXRovF3Pi-DLmzWeKct622v9WNjW.ttf",
+    "800": "http://fonts.gstatic.com/s/eczar/v9/BXRovF3Pi-DLmzWCKst622v9WNjW.ttf",
+    "regular": "http://fonts.gstatic.com/s/eczar/v9/BXRlvF3Pi-DLmw0iBu9y8Hf0.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

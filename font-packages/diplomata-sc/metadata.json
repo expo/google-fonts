@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Diplomata SC",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/diplomatasc/v8/buExpoi3ecvs3kidKgBJo2kf-P5Oaiw4cw.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/diplomatasc/v11/buExpoi3ecvs3kidKgBJo2kf-P5Oaiw4cw.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

@@ -11,15 +11,19 @@ This package lets you use the [**Merriweather Sans**](https://fonts.google.com/s
 
 ![Merriweather Sans](./font-family.png)
 
-This font family contains [8 styles](#-gallery).
+This font family contains [12 styles](#-gallery).
 
 - `MerriweatherSans_300Light`
-- `MerriweatherSans_300Light_Italic`
 - `MerriweatherSans_400Regular`
-- `MerriweatherSans_400Regular_Italic`
+- `MerriweatherSans_500Medium`
+- `MerriweatherSans_600SemiBold`
 - `MerriweatherSans_700Bold`
-- `MerriweatherSans_700Bold_Italic`
 - `MerriweatherSans_800ExtraBold`
+- `MerriweatherSans_300Light_Italic`
+- `MerriweatherSans_400Regular_Italic`
+- `MerriweatherSans_500Medium_Italic`
+- `MerriweatherSans_600SemiBold_Italic`
+- `MerriweatherSans_700Bold_Italic`
 - `MerriweatherSans_800ExtraBold_Italic`
 
 ## Usage
@@ -38,24 +42,32 @@ import { AppLoading } from 'expo';
 import {
   useFonts,
   MerriweatherSans_300Light,
-  MerriweatherSans_300Light_Italic,
   MerriweatherSans_400Regular,
-  MerriweatherSans_400Regular_Italic,
+  MerriweatherSans_500Medium,
+  MerriweatherSans_600SemiBold,
   MerriweatherSans_700Bold,
-  MerriweatherSans_700Bold_Italic,
   MerriweatherSans_800ExtraBold,
+  MerriweatherSans_300Light_Italic,
+  MerriweatherSans_400Regular_Italic,
+  MerriweatherSans_500Medium_Italic,
+  MerriweatherSans_600SemiBold_Italic,
+  MerriweatherSans_700Bold_Italic,
   MerriweatherSans_800ExtraBold_Italic,
 } from '@expo-google-fonts/merriweather-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     MerriweatherSans_300Light,
-    MerriweatherSans_300Light_Italic,
     MerriweatherSans_400Regular,
-    MerriweatherSans_400Regular_Italic,
+    MerriweatherSans_500Medium,
+    MerriweatherSans_600SemiBold,
     MerriweatherSans_700Bold,
-    MerriweatherSans_700Bold_Italic,
     MerriweatherSans_800ExtraBold,
+    MerriweatherSans_300Light_Italic,
+    MerriweatherSans_400Regular_Italic,
+    MerriweatherSans_500Medium_Italic,
+    MerriweatherSans_600SemiBold_Italic,
+    MerriweatherSans_700Bold_Italic,
     MerriweatherSans_800ExtraBold_Italic,
   });
 
@@ -82,16 +94,6 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MerriweatherSans_300Light_Italic',
-          }}>
-          Merriweather Sans Light Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'MerriweatherSans_400Regular',
           }}>
           Merriweather Sans Regular
@@ -102,9 +104,19 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MerriweatherSans_400Regular_Italic',
+            fontFamily: 'MerriweatherSans_500Medium',
           }}>
-          Merriweather Sans Italic
+          Merriweather Sans Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MerriweatherSans_600SemiBold',
+          }}>
+          Merriweather Sans Semi Bold
         </Text>
 
         <Text
@@ -122,9 +134,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MerriweatherSans_700Bold_Italic',
+            fontFamily: 'MerriweatherSans_800ExtraBold',
           }}>
-          Merriweather Sans Bold Italic
+          Merriweather Sans Extra Bold
         </Text>
 
         <Text
@@ -132,9 +144,49 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MerriweatherSans_800ExtraBold',
+            fontFamily: 'MerriweatherSans_300Light_Italic',
           }}>
-          Merriweather Sans Extra Bold
+          Merriweather Sans Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MerriweatherSans_400Regular_Italic',
+          }}>
+          Merriweather Sans Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MerriweatherSans_500Medium_Italic',
+          }}>
+          Merriweather Sans Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MerriweatherSans_600SemiBold_Italic',
+          }}>
+          Merriweather Sans Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MerriweatherSans_700Bold_Italic',
+          }}>
+          Merriweather Sans Bold Italic
         </Text>
 
         <Text
@@ -158,9 +210,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MerriweatherSans_300Light](./MerriweatherSans_300Light.ttf.png)|![MerriweatherSans_300Light_Italic](./MerriweatherSans_300Light_Italic.ttf.png)|![MerriweatherSans_400Regular](./MerriweatherSans_400Regular.ttf.png)||
-|![MerriweatherSans_400Regular_Italic](./MerriweatherSans_400Regular_Italic.ttf.png)|![MerriweatherSans_700Bold](./MerriweatherSans_700Bold.ttf.png)|![MerriweatherSans_700Bold_Italic](./MerriweatherSans_700Bold_Italic.ttf.png)||
-|![MerriweatherSans_800ExtraBold](./MerriweatherSans_800ExtraBold.ttf.png)|![MerriweatherSans_800ExtraBold_Italic](./MerriweatherSans_800ExtraBold_Italic.ttf.png)|||
+|![MerriweatherSans_300Light](./MerriweatherSans_300Light.ttf.png)|![MerriweatherSans_400Regular](./MerriweatherSans_400Regular.ttf.png)|![MerriweatherSans_500Medium](./MerriweatherSans_500Medium.ttf.png)||
+|![MerriweatherSans_600SemiBold](./MerriweatherSans_600SemiBold.ttf.png)|![MerriweatherSans_700Bold](./MerriweatherSans_700Bold.ttf.png)|![MerriweatherSans_800ExtraBold](./MerriweatherSans_800ExtraBold.ttf.png)||
+|![MerriweatherSans_300Light_Italic](./MerriweatherSans_300Light_Italic.ttf.png)|![MerriweatherSans_400Regular_Italic](./MerriweatherSans_400Regular_Italic.ttf.png)|![MerriweatherSans_500Medium_Italic](./MerriweatherSans_500Medium_Italic.ttf.png)||
+|![MerriweatherSans_600SemiBold_Italic](./MerriweatherSans_600SemiBold_Italic.ttf.png)|![MerriweatherSans_700Bold_Italic](./MerriweatherSans_700Bold_Italic.ttf.png)|![MerriweatherSans_800ExtraBold_Italic](./MerriweatherSans_800ExtraBold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

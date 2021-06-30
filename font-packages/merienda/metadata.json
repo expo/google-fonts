@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Merienda",
-  "category": "handwriting",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-17",
+  "version": "v9",
+  "lastModified": "2020-09-02",
   "files": {
-    "700": "http://fonts.gstatic.com/s/merienda/v8/gNMAW3x8Qoy5_mf8uWu-Fa-y1sfpPES4.ttf",
-    "regular": "http://fonts.gstatic.com/s/merienda/v8/gNMHW3x8Qoy5_mf8uVMCOou6_dvg.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/merienda/v9/gNMAW3x8Qoy5_mf8uWu-Fa-y1sfpPES4.ttf",
+    "regular": "http://fonts.gstatic.com/s/merienda/v9/gNMHW3x8Qoy5_mf8uVMCOou6_dvg.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Jaldi",
-  "category": "sans-serif",
   "variants": ["regular", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v6",
-  "lastModified": "2019-07-16",
+  "version": "v7",
+  "lastModified": "2020-09-02",
   "files": {
-    "700": "http://fonts.gstatic.com/s/jaldi/v6/or3hQ67z0_CI33voSbT3LLQ1niPn.ttf",
-    "regular": "http://fonts.gstatic.com/s/jaldi/v6/or3sQ67z0_CI30NUZpD_B6g8.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/jaldi/v7/or3hQ67z0_CI33voSbT3LLQ1niPn.ttf",
+    "regular": "http://fonts.gstatic.com/s/jaldi/v7/or3sQ67z0_CI30NUZpD_B6g8.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

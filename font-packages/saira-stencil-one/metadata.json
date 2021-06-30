@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Saira Stencil One",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v1",
-  "lastModified": "2019-11-05",
+  "version": "v4",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/sairastencilone/v1/SLXSc03I6HkvZGJ1GvvipLoYSTEL9AsMawif2YQ2.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/sairastencilone/v4/SLXSc03I6HkvZGJ1GvvipLoYSTEL9AsMawif2YQ2.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

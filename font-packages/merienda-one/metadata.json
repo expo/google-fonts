@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Merienda One",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/meriendaone/v10/H4cgBXaMndbflEq6kyZ1ht6YgoyyYzFzFw.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/meriendaone/v11/H4cgBXaMndbflEq6kyZ1ht6YgoyyYzFzFw.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

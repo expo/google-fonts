@@ -11,11 +11,26 @@ This package lets you use the [**Bitter**](https://fonts.google.com/specimen/Bit
 
 ![Bitter](./font-family.png)
 
-This font family contains [3 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
+- `Bitter_100Thin`
+- `Bitter_200ExtraLight`
+- `Bitter_300Light`
 - `Bitter_400Regular`
-- `Bitter_400Regular_Italic`
+- `Bitter_500Medium`
+- `Bitter_600SemiBold`
 - `Bitter_700Bold`
+- `Bitter_800ExtraBold`
+- `Bitter_900Black`
+- `Bitter_100Thin_Italic`
+- `Bitter_200ExtraLight_Italic`
+- `Bitter_300Light_Italic`
+- `Bitter_400Regular_Italic`
+- `Bitter_500Medium_Italic`
+- `Bitter_600SemiBold_Italic`
+- `Bitter_700Bold_Italic`
+- `Bitter_800ExtraBold_Italic`
+- `Bitter_900Black_Italic`
 
 ## Usage
 
@@ -32,16 +47,46 @@ import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
   useFonts,
+  Bitter_100Thin,
+  Bitter_200ExtraLight,
+  Bitter_300Light,
   Bitter_400Regular,
-  Bitter_400Regular_Italic,
+  Bitter_500Medium,
+  Bitter_600SemiBold,
   Bitter_700Bold,
+  Bitter_800ExtraBold,
+  Bitter_900Black,
+  Bitter_100Thin_Italic,
+  Bitter_200ExtraLight_Italic,
+  Bitter_300Light_Italic,
+  Bitter_400Regular_Italic,
+  Bitter_500Medium_Italic,
+  Bitter_600SemiBold_Italic,
+  Bitter_700Bold_Italic,
+  Bitter_800ExtraBold_Italic,
+  Bitter_900Black_Italic,
 } from '@expo-google-fonts/bitter';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    Bitter_100Thin,
+    Bitter_200ExtraLight,
+    Bitter_300Light,
     Bitter_400Regular,
-    Bitter_400Regular_Italic,
+    Bitter_500Medium,
+    Bitter_600SemiBold,
     Bitter_700Bold,
+    Bitter_800ExtraBold,
+    Bitter_900Black,
+    Bitter_100Thin_Italic,
+    Bitter_200ExtraLight_Italic,
+    Bitter_300Light_Italic,
+    Bitter_400Regular_Italic,
+    Bitter_500Medium_Italic,
+    Bitter_600SemiBold_Italic,
+    Bitter_700Bold_Italic,
+    Bitter_800ExtraBold_Italic,
+    Bitter_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -57,9 +102,119 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Bitter_100Thin',
+          }}>
+          Bitter Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Bitter_200ExtraLight',
+          }}>
+          Bitter Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Bitter_300Light',
+          }}>
+          Bitter Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Bitter_400Regular',
           }}>
           Bitter Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Bitter_500Medium',
+          }}>
+          Bitter Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Bitter_600SemiBold',
+          }}>
+          Bitter Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Bitter_700Bold',
+          }}>
+          Bitter Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Bitter_800ExtraBold',
+          }}>
+          Bitter Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Bitter_900Black',
+          }}>
+          Bitter Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Bitter_100Thin_Italic',
+          }}>
+          Bitter Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Bitter_200ExtraLight_Italic',
+          }}>
+          Bitter Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Bitter_300Light_Italic',
+          }}>
+          Bitter Light Italic
         </Text>
 
         <Text
@@ -77,9 +232,49 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_700Bold',
+            fontFamily: 'Bitter_500Medium_Italic',
           }}>
-          Bitter Bold
+          Bitter Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Bitter_600SemiBold_Italic',
+          }}>
+          Bitter Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Bitter_700Bold_Italic',
+          }}>
+          Bitter Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Bitter_800ExtraBold_Italic',
+          }}>
+          Bitter Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Bitter_900Black_Italic',
+          }}>
+          Bitter Black Italic
         </Text>
       </View>
     );
@@ -93,7 +288,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Bitter_400Regular](./Bitter_400Regular.ttf.png)|![Bitter_400Regular_Italic](./Bitter_400Regular_Italic.ttf.png)|![Bitter_700Bold](./Bitter_700Bold.ttf.png)||
+|![Bitter_100Thin](./Bitter_100Thin.ttf.png)|![Bitter_200ExtraLight](./Bitter_200ExtraLight.ttf.png)|![Bitter_300Light](./Bitter_300Light.ttf.png)||
+|![Bitter_400Regular](./Bitter_400Regular.ttf.png)|![Bitter_500Medium](./Bitter_500Medium.ttf.png)|![Bitter_600SemiBold](./Bitter_600SemiBold.ttf.png)||
+|![Bitter_700Bold](./Bitter_700Bold.ttf.png)|![Bitter_800ExtraBold](./Bitter_800ExtraBold.ttf.png)|![Bitter_900Black](./Bitter_900Black.ttf.png)||
+|![Bitter_100Thin_Italic](./Bitter_100Thin_Italic.ttf.png)|![Bitter_200ExtraLight_Italic](./Bitter_200ExtraLight_Italic.ttf.png)|![Bitter_300Light_Italic](./Bitter_300Light_Italic.ttf.png)||
+|![Bitter_400Regular_Italic](./Bitter_400Regular_Italic.ttf.png)|![Bitter_500Medium_Italic](./Bitter_500Medium_Italic.ttf.png)|![Bitter_600SemiBold_Italic](./Bitter_600SemiBold_Italic.ttf.png)||
+|![Bitter_700Bold_Italic](./Bitter_700Bold_Italic.ttf.png)|![Bitter_800ExtraBold_Italic](./Bitter_800ExtraBold_Italic.ttf.png)|![Bitter_900Black_Italic](./Bitter_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

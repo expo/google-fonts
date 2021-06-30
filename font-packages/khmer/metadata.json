@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Khmer",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["khmer"],
-  "version": "v12",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/khmer/v12/MjQImit_vPPwpF-BpN2EeYmD.ttf" }
+  "version": "v15",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/khmer/v15/MjQImit_vPPwpF-BpN2EeYmD.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

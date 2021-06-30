@@ -1,7 +1,5 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Sunflower",
-  "category": "sans-serif",
   "variants": ["300", "500", "700"],
   "subsets": ["korean", "latin"],
   "version": "v9",
@@ -10,5 +8,7 @@
     "300": "http://fonts.gstatic.com/s/sunflower/v9/RWmPoKeF8fUjqIj7Vc-06MfiqYsGBGBzCw.ttf",
     "500": "http://fonts.gstatic.com/s/sunflower/v9/RWmPoKeF8fUjqIj7Vc-0sMbiqYsGBGBzCw.ttf",
     "700": "http://fonts.gstatic.com/s/sunflower/v9/RWmPoKeF8fUjqIj7Vc-0-MDiqYsGBGBzCw.ttf"
-  }
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

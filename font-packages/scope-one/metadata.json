@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Scope One",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v6",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/scopeone/v6/WBLnrEXKYFlGHrOKmGD1W0_MJMGxiQ.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/scopeone/v9/WBLnrEXKYFlGHrOKmGD1W0_MJMGxiQ.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

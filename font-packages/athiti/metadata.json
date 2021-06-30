@@ -1,17 +1,17 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Athiti",
-  "category": "sans-serif",
   "variants": ["200", "300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v4",
-  "lastModified": "2019-07-16",
+  "version": "v5",
+  "lastModified": "2020-07-23",
   "files": {
-    "200": "http://fonts.gstatic.com/s/athiti/v4/pe0sMISdLIZIv1wAxDNyAv2-C99ycg.ttf",
-    "300": "http://fonts.gstatic.com/s/athiti/v4/pe0sMISdLIZIv1wAoDByAv2-C99ycg.ttf",
-    "500": "http://fonts.gstatic.com/s/athiti/v4/pe0sMISdLIZIv1wA-DFyAv2-C99ycg.ttf",
-    "600": "http://fonts.gstatic.com/s/athiti/v4/pe0sMISdLIZIv1wA1DZyAv2-C99ycg.ttf",
-    "700": "http://fonts.gstatic.com/s/athiti/v4/pe0sMISdLIZIv1wAsDdyAv2-C99ycg.ttf",
-    "regular": "http://fonts.gstatic.com/s/athiti/v4/pe0vMISdLIZIv1w4DBhWCtaiAg.ttf"
-  }
+    "200": "http://fonts.gstatic.com/s/athiti/v5/pe0sMISdLIZIv1wAxDNyAv2-C99ycg.ttf",
+    "300": "http://fonts.gstatic.com/s/athiti/v5/pe0sMISdLIZIv1wAoDByAv2-C99ycg.ttf",
+    "500": "http://fonts.gstatic.com/s/athiti/v5/pe0sMISdLIZIv1wA-DFyAv2-C99ycg.ttf",
+    "600": "http://fonts.gstatic.com/s/athiti/v5/pe0sMISdLIZIv1wA1DZyAv2-C99ycg.ttf",
+    "700": "http://fonts.gstatic.com/s/athiti/v5/pe0sMISdLIZIv1wAsDdyAv2-C99ycg.ttf",
+    "regular": "http://fonts.gstatic.com/s/athiti/v5/pe0vMISdLIZIv1w4DBhWCtaiAg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

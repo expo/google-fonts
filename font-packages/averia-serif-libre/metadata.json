@@ -1,17 +1,17 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Averia Serif Libre",
-  "category": "display",
   "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v10",
+  "lastModified": "2020-07-23",
   "files": {
-    "300": "http://fonts.gstatic.com/s/averiaseriflibre/v9/neIVzD2ms4wxr6GvjeD0X88SHPyX2xYGCSmqwacqdrKvbQ.ttf",
-    "700": "http://fonts.gstatic.com/s/averiaseriflibre/v9/neIVzD2ms4wxr6GvjeD0X88SHPyX2xYGGS6qwacqdrKvbQ.ttf",
-    "300italic": "http://fonts.gstatic.com/s/averiaseriflibre/v9/neIbzD2ms4wxr6GvjeD0X88SHPyX2xYOpzMmw60uVLe_bXHq.ttf",
-    "regular": "http://fonts.gstatic.com/s/averiaseriflibre/v9/neIWzD2ms4wxr6GvjeD0X88SHPyX2xY-pQGOyYw2fw.ttf",
-    "italic": "http://fonts.gstatic.com/s/averiaseriflibre/v9/neIUzD2ms4wxr6GvjeD0X88SHPyX2xYOpwuK64kmf6u2.ttf",
-    "700italic": "http://fonts.gstatic.com/s/averiaseriflibre/v9/neIbzD2ms4wxr6GvjeD0X88SHPyX2xYOpzM2xK0uVLe_bXHq.ttf"
-  }
+    "300": "http://fonts.gstatic.com/s/averiaseriflibre/v10/neIVzD2ms4wxr6GvjeD0X88SHPyX2xYGCSmqwacqdrKvbQ.ttf",
+    "700": "http://fonts.gstatic.com/s/averiaseriflibre/v10/neIVzD2ms4wxr6GvjeD0X88SHPyX2xYGGS6qwacqdrKvbQ.ttf",
+    "300italic": "http://fonts.gstatic.com/s/averiaseriflibre/v10/neIbzD2ms4wxr6GvjeD0X88SHPyX2xYOpzMmw60uVLe_bXHq.ttf",
+    "regular": "http://fonts.gstatic.com/s/averiaseriflibre/v10/neIWzD2ms4wxr6GvjeD0X88SHPyX2xY-pQGOyYw2fw.ttf",
+    "italic": "http://fonts.gstatic.com/s/averiaseriflibre/v10/neIUzD2ms4wxr6GvjeD0X88SHPyX2xYOpwuK64kmf6u2.ttf",
+    "700italic": "http://fonts.gstatic.com/s/averiaseriflibre/v10/neIbzD2ms4wxr6GvjeD0X88SHPyX2xYOpzM2xK0uVLe_bXHq.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

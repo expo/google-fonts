@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Bigshot One",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v13",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/bigshotone/v10/u-470qukhRkkO6BD_7cM_gxuUQJBXv_-.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/bigshotone/v13/u-470qukhRkkO6BD_7cM_gxuUQJBXv_-.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

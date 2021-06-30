@@ -11,10 +11,11 @@ This package lets you use the [**Signika**](https://fonts.google.com/specimen/Si
 
 ![Signika](./font-family.png)
 
-This font family contains [4 styles](#-gallery).
+This font family contains [5 styles](#-gallery).
 
 - `Signika_300Light`
 - `Signika_400Regular`
+- `Signika_500Medium`
 - `Signika_600SemiBold`
 - `Signika_700Bold`
 
@@ -35,6 +36,7 @@ import {
   useFonts,
   Signika_300Light,
   Signika_400Regular,
+  Signika_500Medium,
   Signika_600SemiBold,
   Signika_700Bold,
 } from '@expo-google-fonts/signika';
@@ -43,6 +45,7 @@ export default () => {
   let [fontsLoaded] = useFonts({
     Signika_300Light,
     Signika_400Regular,
+    Signika_500Medium,
     Signika_600SemiBold,
     Signika_700Bold,
   });
@@ -80,6 +83,16 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Signika_500Medium',
+          }}>
+          Signika Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Signika_600SemiBold',
           }}>
           Signika Semi Bold
@@ -106,8 +119,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Signika_300Light](./Signika_300Light.ttf.png)|![Signika_400Regular](./Signika_400Regular.ttf.png)|![Signika_600SemiBold](./Signika_600SemiBold.ttf.png)||
-|![Signika_700Bold](./Signika_700Bold.ttf.png)||||
+|![Signika_300Light](./Signika_300Light.ttf.png)|![Signika_400Regular](./Signika_400Regular.ttf.png)|![Signika_500Medium](./Signika_500Medium.ttf.png)||
+|![Signika_600SemiBold](./Signika_600SemiBold.ttf.png)|![Signika_700Bold](./Signika_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -1,10 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Boogaloo",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/boogaloo/v11/kmK-Zq45GAvOdnaW6x1F_SrQo_1K.ttf" }
+  "version": "v12",
+  "lastModified": "2020-09-02",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/boogaloo/v12/kmK-Zq45GAvOdnaW6x1F_SrQo_1K.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

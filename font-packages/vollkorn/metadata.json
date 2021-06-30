@@ -1,19 +1,36 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Vollkorn",
-  "category": "serif",
-  "variants": ["regular", "italic", "600", "600italic", "700", "700italic", "900", "900italic"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic",
+    "800italic",
+    "900italic"
+  ],
   "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "vietnamese"],
-  "version": "v10",
-  "lastModified": "2019-07-17",
+  "version": "v13",
+  "lastModified": "2021-01-30",
   "files": {
-    "600": "http://fonts.gstatic.com/s/vollkorn/v10/0yb6GDoxxrvAnPhYGxH2TGg-hhQ8_C_3.ttf",
-    "700": "http://fonts.gstatic.com/s/vollkorn/v10/0yb6GDoxxrvAnPhYGxGSTWg-hhQ8_C_3.ttf",
-    "900": "http://fonts.gstatic.com/s/vollkorn/v10/0yb6GDoxxrvAnPhYGxGqT2g-hhQ8_C_3.ttf",
-    "regular": "http://fonts.gstatic.com/s/vollkorn/v10/0yb9GDoxxrvAnPhYGykuYkw2rQg1.ttf",
-    "italic": "http://fonts.gstatic.com/s/vollkorn/v10/0yb7GDoxxrvAnPhYGxksaEgUqBg15TY.ttf",
-    "600italic": "http://fonts.gstatic.com/s/vollkorn/v10/0yb4GDoxxrvAnPhYGxksUJA6jBAe-T_34DM.ttf",
-    "700italic": "http://fonts.gstatic.com/s/vollkorn/v10/0yb4GDoxxrvAnPhYGxksUPQ7jBAe-T_34DM.ttf",
-    "900italic": "http://fonts.gstatic.com/s/vollkorn/v10/0yb4GDoxxrvAnPhYGxksUMw5jBAe-T_34DM.ttf"
-  }
+    "500": "http://fonts.gstatic.com/s/vollkorn/v13/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2AnGuGWOdEbD63w.ttf",
+    "600": "http://fonts.gstatic.com/s/vollkorn/v13/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df27nauGWOdEbD63w.ttf",
+    "700": "http://fonts.gstatic.com/s/vollkorn/v13/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df213auGWOdEbD63w.ttf",
+    "800": "http://fonts.gstatic.com/s/vollkorn/v13/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2sHauGWOdEbD63w.ttf",
+    "900": "http://fonts.gstatic.com/s/vollkorn/v13/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2mXauGWOdEbD63w.ttf",
+    "regular": "http://fonts.gstatic.com/s/vollkorn/v13/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2MHGuGWOdEbD63w.ttf",
+    "italic": "http://fonts.gstatic.com/s/vollkorn/v13/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DJGWmmZM7Xq34g9.ttf",
+    "500italic": "http://fonts.gstatic.com/s/vollkorn/v13/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DJ0WmmZM7Xq34g9.ttf",
+    "600italic": "http://fonts.gstatic.com/s/vollkorn/v13/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DKYXWmZM7Xq34g9.ttf",
+    "700italic": "http://fonts.gstatic.com/s/vollkorn/v13/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DKhXWmZM7Xq34g9.ttf",
+    "800italic": "http://fonts.gstatic.com/s/vollkorn/v13/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DLGXWmZM7Xq34g9.ttf",
+    "900italic": "http://fonts.gstatic.com/s/vollkorn/v13/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DLvXWmZM7Xq34g9.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

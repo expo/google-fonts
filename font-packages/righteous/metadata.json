@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Righteous",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-17",
+  "version": "v9",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/righteous/v8/1cXxaUPXBpj2rGoU7C9mj3uEicG01A.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/righteous/v9/1cXxaUPXBpj2rGoU7C9mj3uEicG01A.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

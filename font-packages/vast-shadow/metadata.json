@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Vast Shadow",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v10",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/vastshadow/v9/pe0qMImKOZ1V62ZwbVY9dfe6Kdpickwp.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/vastshadow/v10/pe0qMImKOZ1V62ZwbVY9dfe6Kdpickwp.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

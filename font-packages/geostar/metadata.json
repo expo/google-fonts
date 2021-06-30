@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Geostar",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/geostar/v10/sykz-yx4n701VLOftSq9-trEvlQ.ttf" }
+  "version": "v13",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/geostar/v13/sykz-yx4n701VLOftSq9-trEvlQ.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

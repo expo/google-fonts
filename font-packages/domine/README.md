@@ -11,9 +11,11 @@ This package lets you use the [**Domine**](https://fonts.google.com/specimen/Dom
 
 ![Domine](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [4 styles](#-gallery).
 
 - `Domine_400Regular`
+- `Domine_500Medium`
+- `Domine_600SemiBold`
 - `Domine_700Bold`
 
 ## Usage
@@ -29,11 +31,19 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts, Domine_400Regular, Domine_700Bold } from '@expo-google-fonts/domine';
+import {
+  useFonts,
+  Domine_400Regular,
+  Domine_500Medium,
+  Domine_600SemiBold,
+  Domine_700Bold,
+} from '@expo-google-fonts/domine';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Domine_400Regular,
+    Domine_500Medium,
+    Domine_600SemiBold,
     Domine_700Bold,
   });
 
@@ -60,6 +70,26 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Domine_500Medium',
+          }}>
+          Domine Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Domine_600SemiBold',
+          }}>
+          Domine Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Domine_700Bold',
           }}>
           Domine Bold
@@ -76,7 +106,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Domine_400Regular](./Domine_400Regular.ttf.png)|![Domine_700Bold](./Domine_700Bold.ttf.png)|||
+|![Domine_400Regular](./Domine_400Regular.ttf.png)|![Domine_500Medium](./Domine_500Medium.ttf.png)|![Domine_600SemiBold](./Domine_600SemiBold.ttf.png)||
+|![Domine_700Bold](./Domine_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

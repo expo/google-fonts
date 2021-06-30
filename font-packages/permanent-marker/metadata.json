@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Permanent Marker",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-17",
+  "version": "v10",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/permanentmarker/v9/Fh4uPib9Iyv2ucM6pGQMWimMp004HaqIfrT5nlk.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/permanentmarker/v10/Fh4uPib9Iyv2ucM6pGQMWimMp004HaqIfrT5nlk.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

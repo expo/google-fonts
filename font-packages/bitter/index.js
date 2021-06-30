@@ -5,6 +5,21 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const Bitter_100Thin = require('./Bitter_100Thin.ttf');
+export const Bitter_200ExtraLight = require('./Bitter_200ExtraLight.ttf');
+export const Bitter_300Light = require('./Bitter_300Light.ttf');
 export const Bitter_400Regular = require('./Bitter_400Regular.ttf');
-export const Bitter_400Regular_Italic = require('./Bitter_400Regular_Italic.ttf');
+export const Bitter_500Medium = require('./Bitter_500Medium.ttf');
+export const Bitter_600SemiBold = require('./Bitter_600SemiBold.ttf');
 export const Bitter_700Bold = require('./Bitter_700Bold.ttf');
+export const Bitter_800ExtraBold = require('./Bitter_800ExtraBold.ttf');
+export const Bitter_900Black = require('./Bitter_900Black.ttf');
+export const Bitter_100Thin_Italic = require('./Bitter_100Thin_Italic.ttf');
+export const Bitter_200ExtraLight_Italic = require('./Bitter_200ExtraLight_Italic.ttf');
+export const Bitter_300Light_Italic = require('./Bitter_300Light_Italic.ttf');
+export const Bitter_400Regular_Italic = require('./Bitter_400Regular_Italic.ttf');
+export const Bitter_500Medium_Italic = require('./Bitter_500Medium_Italic.ttf');
+export const Bitter_600SemiBold_Italic = require('./Bitter_600SemiBold_Italic.ttf');
+export const Bitter_700Bold_Italic = require('./Bitter_700Bold_Italic.ttf');
+export const Bitter_800ExtraBold_Italic = require('./Bitter_800ExtraBold_Italic.ttf');
+export const Bitter_900Black_Italic = require('./Bitter_900Black_Italic.ttf');

@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Lexend Mega",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v1",
-  "lastModified": "2020-03-03",
+  "version": "v10",
+  "lastModified": "2021-03-24",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/lexendmega/v1/qFdA35aBi5JtHD41zSTFEv7K6BsAikI7.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/lexendmega/v10/qFdA35aBi5JtHD41zSTFEv7K6BsAikI7.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

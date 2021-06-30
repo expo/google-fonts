@@ -11,11 +11,15 @@ This package lets you use the [**Arimo**](https://fonts.google.com/specimen/Arim
 
 ![Arimo](./font-family.png)
 
-This font family contains [4 styles](#-gallery).
+This font family contains [8 styles](#-gallery).
 
 - `Arimo_400Regular`
-- `Arimo_400Regular_Italic`
+- `Arimo_500Medium`
+- `Arimo_600SemiBold`
 - `Arimo_700Bold`
+- `Arimo_400Regular_Italic`
+- `Arimo_500Medium_Italic`
+- `Arimo_600SemiBold_Italic`
 - `Arimo_700Bold_Italic`
 
 ## Usage
@@ -34,16 +38,24 @@ import { AppLoading } from 'expo';
 import {
   useFonts,
   Arimo_400Regular,
-  Arimo_400Regular_Italic,
+  Arimo_500Medium,
+  Arimo_600SemiBold,
   Arimo_700Bold,
+  Arimo_400Regular_Italic,
+  Arimo_500Medium_Italic,
+  Arimo_600SemiBold_Italic,
   Arimo_700Bold_Italic,
 } from '@expo-google-fonts/arimo';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Arimo_400Regular,
-    Arimo_400Regular_Italic,
+    Arimo_500Medium,
+    Arimo_600SemiBold,
     Arimo_700Bold,
+    Arimo_400Regular_Italic,
+    Arimo_500Medium_Italic,
+    Arimo_600SemiBold_Italic,
     Arimo_700Bold_Italic,
   });
 
@@ -70,9 +82,19 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Arimo_400Regular_Italic',
+            fontFamily: 'Arimo_500Medium',
           }}>
-          Arimo Italic
+          Arimo Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arimo_600SemiBold',
+          }}>
+          Arimo Semi Bold
         </Text>
 
         <Text
@@ -83,6 +105,36 @@ export default () => {
             fontFamily: 'Arimo_700Bold',
           }}>
           Arimo Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arimo_400Regular_Italic',
+          }}>
+          Arimo Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arimo_500Medium_Italic',
+          }}>
+          Arimo Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Arimo_600SemiBold_Italic',
+          }}>
+          Arimo Semi Bold Italic
         </Text>
 
         <Text
@@ -106,8 +158,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Arimo_400Regular](./Arimo_400Regular.ttf.png)|![Arimo_400Regular_Italic](./Arimo_400Regular_Italic.ttf.png)|![Arimo_700Bold](./Arimo_700Bold.ttf.png)||
-|![Arimo_700Bold_Italic](./Arimo_700Bold_Italic.ttf.png)||||
+|![Arimo_400Regular](./Arimo_400Regular.ttf.png)|![Arimo_500Medium](./Arimo_500Medium.ttf.png)|![Arimo_600SemiBold](./Arimo_600SemiBold.ttf.png)||
+|![Arimo_700Bold](./Arimo_700Bold.ttf.png)|![Arimo_400Regular_Italic](./Arimo_400Regular_Italic.ttf.png)|![Arimo_500Medium_Italic](./Arimo_500Medium_Italic.ttf.png)||
+|![Arimo_600SemiBold_Italic](./Arimo_600SemiBold_Italic.ttf.png)|![Arimo_700Bold_Italic](./Arimo_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

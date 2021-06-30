@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Sacramento",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v8",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/sacramento/v7/buEzpo6gcdjy0EiZMBUG0CoV_NxLeiw.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/sacramento/v8/buEzpo6gcdjy0EiZMBUG0CoV_NxLeiw.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

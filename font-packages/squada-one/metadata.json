@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Squada One",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/squadaone/v8/BCasqZ8XsOrx4mcOk6MtWaA8WDBkHgs.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/squadaone/v9/BCasqZ8XsOrx4mcOk6MtWaA8WDBkHgs.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

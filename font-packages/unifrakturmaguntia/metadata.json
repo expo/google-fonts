@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "UnifrakturMaguntia",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/unifrakturmaguntia/v10/WWXPlieVYwiGNomYU-ciRLRvEmK7oaVun2xNNgNa1A.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/unifrakturmaguntia/v11/WWXPlieVYwiGNomYU-ciRLRvEmK7oaVun2xNNgNa1A.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

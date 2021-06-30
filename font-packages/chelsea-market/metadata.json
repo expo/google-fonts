@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Chelsea Market",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v8",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/chelseamarket/v7/BCawqZsHqfr89WNP_IApC8tzKBhlLA4uKkWk.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/chelseamarket/v8/BCawqZsHqfr89WNP_IApC8tzKBhlLA4uKkWk.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

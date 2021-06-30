@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Stoke",
-  "category": "serif",
   "variants": ["300", "regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2021-03-19",
   "files": {
-    "300": "http://fonts.gstatic.com/s/stoke/v9/z7NXdRb7aTMfKNvFVgxC_pjcTeWU.ttf",
-    "regular": "http://fonts.gstatic.com/s/stoke/v9/z7NadRb7aTMfKONpfihK1YTV.ttf"
-  }
+    "300": "http://fonts.gstatic.com/s/stoke/v12/z7NXdRb7aTMfKNvFVgxC_pjcTeWU.ttf",
+    "regular": "http://fonts.gstatic.com/s/stoke/v12/z7NadRb7aTMfKONpfihK1YTV.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

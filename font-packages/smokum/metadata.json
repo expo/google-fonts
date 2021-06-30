@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Smokum",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/smokum/v10/TK3iWkUbAhopmrdGHjUHte5fKg.ttf" }
+  "version": "v13",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/smokum/v13/TK3iWkUbAhopmrdGHjUHte5fKg.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

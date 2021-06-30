@@ -1,15 +1,15 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Thasadith",
-  "category": "sans-serif",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v3",
-  "lastModified": "2019-11-05",
+  "version": "v4",
+  "lastModified": "2020-07-23",
   "files": {
-    "700": "http://fonts.gstatic.com/s/thasadith/v3/mtG94_1TIqPYrd_f5R1gDGYw2A6yHk9d8w.ttf",
-    "regular": "http://fonts.gstatic.com/s/thasadith/v3/mtG44_1TIqPYrd_f5R1YsEkU0CWuFw.ttf",
-    "italic": "http://fonts.gstatic.com/s/thasadith/v3/mtG-4_1TIqPYrd_f5R1oskMQ8iC-F1ZE.ttf",
-    "700italic": "http://fonts.gstatic.com/s/thasadith/v3/mtGj4_1TIqPYrd_f5R1osnus3QS2PEpN8zxA.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/thasadith/v4/mtG94_1TIqPYrd_f5R1gDGYw2A6yHk9d8w.ttf",
+    "regular": "http://fonts.gstatic.com/s/thasadith/v4/mtG44_1TIqPYrd_f5R1YsEkU0CWuFw.ttf",
+    "italic": "http://fonts.gstatic.com/s/thasadith/v4/mtG-4_1TIqPYrd_f5R1oskMQ8iC-F1ZE.ttf",
+    "700italic": "http://fonts.gstatic.com/s/thasadith/v4/mtGj4_1TIqPYrd_f5R1osnus3QS2PEpN8zxA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

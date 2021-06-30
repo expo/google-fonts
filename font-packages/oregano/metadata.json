@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Oregano",
-  "category": "display",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v8",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/oregano/v7/If2IXTPxciS3H4S2kZffPznO3yM.ttf",
-    "italic": "http://fonts.gstatic.com/s/oregano/v7/If2KXTPxciS3H4S2oZXVOxvLzyP_qw.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/oregano/v8/If2IXTPxciS3H4S2kZffPznO3yM.ttf",
+    "italic": "http://fonts.gstatic.com/s/oregano/v8/If2KXTPxciS3H4S2oZXVOxvLzyP_qw.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

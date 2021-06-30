@@ -1,17 +1,17 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Maitree",
-  "category": "serif",
   "variants": ["200", "300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v4",
-  "lastModified": "2019-07-16",
+  "version": "v5",
+  "lastModified": "2020-07-23",
   "files": {
-    "200": "http://fonts.gstatic.com/s/maitree/v4/MjQDmil5tffhpBrklhGNWJGovLdh6OE.ttf",
-    "300": "http://fonts.gstatic.com/s/maitree/v4/MjQDmil5tffhpBrklnWOWJGovLdh6OE.ttf",
-    "500": "http://fonts.gstatic.com/s/maitree/v4/MjQDmil5tffhpBrkli2PWJGovLdh6OE.ttf",
-    "600": "http://fonts.gstatic.com/s/maitree/v4/MjQDmil5tffhpBrklgGIWJGovLdh6OE.ttf",
-    "700": "http://fonts.gstatic.com/s/maitree/v4/MjQDmil5tffhpBrklmWJWJGovLdh6OE.ttf",
-    "regular": "http://fonts.gstatic.com/s/maitree/v4/MjQGmil5tffhpBrkrtmmfJmDoL4.ttf"
-  }
+    "200": "http://fonts.gstatic.com/s/maitree/v5/MjQDmil5tffhpBrklhGNWJGovLdh6OE.ttf",
+    "300": "http://fonts.gstatic.com/s/maitree/v5/MjQDmil5tffhpBrklnWOWJGovLdh6OE.ttf",
+    "500": "http://fonts.gstatic.com/s/maitree/v5/MjQDmil5tffhpBrkli2PWJGovLdh6OE.ttf",
+    "600": "http://fonts.gstatic.com/s/maitree/v5/MjQDmil5tffhpBrklgGIWJGovLdh6OE.ttf",
+    "700": "http://fonts.gstatic.com/s/maitree/v5/MjQDmil5tffhpBrklmWJWJGovLdh6OE.ttf",
+    "regular": "http://fonts.gstatic.com/s/maitree/v5/MjQGmil5tffhpBrkrtmmfJmDoL4.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

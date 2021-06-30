@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Creepster",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/creepster/v8/AlZy_zVUqJz4yMrniH4hdXf4XB0Tow.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/creepster/v9/AlZy_zVUqJz4yMrniH4hdXf4XB0Tow.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

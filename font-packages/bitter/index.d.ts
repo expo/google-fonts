@@ -6,6 +6,21 @@
 export { useFonts } from './useFonts';
 
 export const __metdata__: Any;
+export const Bitter_100Thin: number;
+export const Bitter_200ExtraLight: number;
+export const Bitter_300Light: number;
 export const Bitter_400Regular: number;
-export const Bitter_400Regular_Italic: number;
+export const Bitter_500Medium: number;
+export const Bitter_600SemiBold: number;
 export const Bitter_700Bold: number;
+export const Bitter_800ExtraBold: number;
+export const Bitter_900Black: number;
+export const Bitter_100Thin_Italic: number;
+export const Bitter_200ExtraLight_Italic: number;
+export const Bitter_300Light_Italic: number;
+export const Bitter_400Regular_Italic: number;
+export const Bitter_500Medium_Italic: number;
+export const Bitter_600SemiBold_Italic: number;
+export const Bitter_700Bold_Italic: number;
+export const Bitter_800ExtraBold_Italic: number;
+export const Bitter_900Black_Italic: number;

@@ -1,15 +1,15 @@
 {
-  "kind": "webfonts#webfont",
   "family": "B612 Mono",
-  "category": "monospace",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["latin"],
-  "version": "v4",
-  "lastModified": "2019-11-05",
+  "version": "v5",
+  "lastModified": "2020-07-23",
   "files": {
-    "700": "http://fonts.gstatic.com/s/b612mono/v4/kmK6Zq85QVWbN1eW6lJdayv4os9Pv7JGSg.ttf",
-    "regular": "http://fonts.gstatic.com/s/b612mono/v4/kmK_Zq85QVWbN1eW6lJl1wTcquRTtg.ttf",
-    "italic": "http://fonts.gstatic.com/s/b612mono/v4/kmK5Zq85QVWbN1eW6lJV1Q7YiOFDtqtf.ttf",
-    "700italic": "http://fonts.gstatic.com/s/b612mono/v4/kmKkZq85QVWbN1eW6lJV1TZkp8VLnbdWSg4x.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/b612mono/v5/kmK6Zq85QVWbN1eW6lJdayv4os9Pv7JGSg.ttf",
+    "regular": "http://fonts.gstatic.com/s/b612mono/v5/kmK_Zq85QVWbN1eW6lJl1wTcquRTtg.ttf",
+    "italic": "http://fonts.gstatic.com/s/b612mono/v5/kmK5Zq85QVWbN1eW6lJV1Q7YiOFDtqtf.ttf",
+    "700italic": "http://fonts.gstatic.com/s/b612mono/v5/kmKkZq85QVWbN1eW6lJV1TZkp8VLnbdWSg4x.ttf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont"
 }

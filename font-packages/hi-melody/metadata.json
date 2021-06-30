@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Hi Melody",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
   "version": "v8",
   "lastModified": "2019-07-16",
   "files": {
     "regular": "http://fonts.gstatic.com/s/himelody/v8/46ktlbP8Vnz0pJcqCTbEf29E31BBGA.ttf"
-  }
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

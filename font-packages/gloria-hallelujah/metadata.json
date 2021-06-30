@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Gloria Hallelujah",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2019-07-17",
+  "version": "v12",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/gloriahallelujah/v11/LYjYdHv3kUk9BMV96EIswT9DIbW-MLSy3TKEvkCF.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/gloriahallelujah/v12/LYjYdHv3kUk9BMV96EIswT9DIbW-MLSy3TKEvkCF.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

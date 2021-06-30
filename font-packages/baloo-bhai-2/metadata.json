@@ -1,16 +1,16 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Baloo Bhai 2",
-  "category": "display",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["gujarati", "latin", "latin-ext", "vietnamese"],
-  "version": "v1",
-  "lastModified": "2020-03-06",
+  "version": "v4",
+  "lastModified": "2021-04-01",
   "files": {
-    "500": "http://fonts.gstatic.com/s/baloobhai2/v1/sZlcdRSL-z1VEWZ4YNA7Y5IPhf3CgFZ8HNV3Nw.ttf",
-    "600": "http://fonts.gstatic.com/s/baloobhai2/v1/sZlcdRSL-z1VEWZ4YNA7Y5IPqfrCgFZ8HNV3Nw.ttf",
-    "700": "http://fonts.gstatic.com/s/baloobhai2/v1/sZlcdRSL-z1VEWZ4YNA7Y5IPzfvCgFZ8HNV3Nw.ttf",
-    "800": "http://fonts.gstatic.com/s/baloobhai2/v1/sZlcdRSL-z1VEWZ4YNA7Y5IP0fjCgFZ8HNV3Nw.ttf",
-    "regular": "http://fonts.gstatic.com/s/baloobhai2/v1/sZlDdRSL-z1VEWZ4YNA7Y5I3cdTmiH1gFQ.ttf"
-  }
+    "500": "http://fonts.gstatic.com/s/baloobhai2/v4/sZlcdRSL-z1VEWZ4YNA7Y5IPhf3CgFZ8HNV3Nw.ttf",
+    "600": "http://fonts.gstatic.com/s/baloobhai2/v4/sZlcdRSL-z1VEWZ4YNA7Y5IPqfrCgFZ8HNV3Nw.ttf",
+    "700": "http://fonts.gstatic.com/s/baloobhai2/v4/sZlcdRSL-z1VEWZ4YNA7Y5IPzfvCgFZ8HNV3Nw.ttf",
+    "800": "http://fonts.gstatic.com/s/baloobhai2/v4/sZlcdRSL-z1VEWZ4YNA7Y5IP0fjCgFZ8HNV3Nw.ttf",
+    "regular": "http://fonts.gstatic.com/s/baloobhai2/v4/sZlDdRSL-z1VEWZ4YNA7Y5I3cdTmiH1gFQ.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Sniglet",
-  "category": "display",
   "variants": ["regular", "800"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2020-07-23",
   "files": {
-    "800": "http://fonts.gstatic.com/s/sniglet/v11/cIf4MaFLtkE3UjaJ_ImHRGEsnIJkWL4.ttf",
-    "regular": "http://fonts.gstatic.com/s/sniglet/v11/cIf9MaFLtkE3UjaJxCmrYGkHgIs.ttf"
-  }
+    "800": "http://fonts.gstatic.com/s/sniglet/v12/cIf4MaFLtkE3UjaJ_ImHRGEsnIJkWL4.ttf",
+    "regular": "http://fonts.gstatic.com/s/sniglet/v12/cIf9MaFLtkE3UjaJxCmrYGkHgIs.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

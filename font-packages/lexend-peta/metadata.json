@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Lexend Peta",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v1",
-  "lastModified": "2020-03-03",
+  "version": "v10",
+  "lastModified": "2021-03-24",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/lexendpeta/v1/BXRvvFPGjeLPh0kCfI4OkE_1c8Tf1IW3.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/lexendpeta/v10/BXRvvFPGjeLPh0kCfI4OkE_1c8Tf1IW3.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

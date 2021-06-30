@@ -6,10 +6,10 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const Asap_400Regular = require('./Asap_400Regular.ttf');
-export const Asap_400Regular_Italic = require('./Asap_400Regular_Italic.ttf');
 export const Asap_500Medium = require('./Asap_500Medium.ttf');
-export const Asap_500Medium_Italic = require('./Asap_500Medium_Italic.ttf');
 export const Asap_600SemiBold = require('./Asap_600SemiBold.ttf');
-export const Asap_600SemiBold_Italic = require('./Asap_600SemiBold_Italic.ttf');
 export const Asap_700Bold = require('./Asap_700Bold.ttf');
+export const Asap_400Regular_Italic = require('./Asap_400Regular_Italic.ttf');
+export const Asap_500Medium_Italic = require('./Asap_500Medium_Italic.ttf');
+export const Asap_600SemiBold_Italic = require('./Asap_600SemiBold_Italic.ttf');
 export const Asap_700Bold_Italic = require('./Asap_700Bold_Italic.ttf');

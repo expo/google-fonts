@@ -1,15 +1,15 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Istok Web",
-  "category": "sans-serif",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2019-07-16",
+  "version": "v15",
+  "lastModified": "2020-09-02",
   "files": {
-    "700": "http://fonts.gstatic.com/s/istokweb/v14/3qTqojGmgSyUukBzKslhvU5a_mkUYBfcMw.ttf",
-    "regular": "http://fonts.gstatic.com/s/istokweb/v14/3qTvojGmgSyUukBzKslZAWF-9kIIaQ.ttf",
-    "italic": "http://fonts.gstatic.com/s/istokweb/v14/3qTpojGmgSyUukBzKslpA2t61EcYaQ7F.ttf",
-    "700italic": "http://fonts.gstatic.com/s/istokweb/v14/3qT0ojGmgSyUukBzKslpA1PG-2MQQhLMMygN.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/istokweb/v15/3qTqojGmgSyUukBzKslhvU5a_mkUYBfcMw.ttf",
+    "regular": "http://fonts.gstatic.com/s/istokweb/v15/3qTvojGmgSyUukBzKslZAWF-9kIIaQ.ttf",
+    "italic": "http://fonts.gstatic.com/s/istokweb/v15/3qTpojGmgSyUukBzKslpA2t61EcYaQ7F.ttf",
+    "700italic": "http://fonts.gstatic.com/s/istokweb/v15/3qT0ojGmgSyUukBzKslpA1PG-2MQQhLMMygN.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

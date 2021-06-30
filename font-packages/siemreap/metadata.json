@@ -1,10 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Siemreap",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["khmer"],
-  "version": "v12",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/siemreap/v12/Gg82N5oFbgLvHAfNl2YbnA8DLXpe.ttf" }
+  "version": "v15",
+  "lastModified": "2021-03-19",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/siemreap/v15/Gg82N5oFbgLvHAfNl2YbnA8DLXpe.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

@@ -11,11 +11,20 @@ This package lets you use the [**Source Serif Pro**](https://fonts.google.com/sp
 
 ![Source Serif Pro](./font-family.png)
 
-This font family contains [3 styles](#-gallery).
+This font family contains [12 styles](#-gallery).
 
+- `SourceSerifPro_200ExtraLight`
+- `SourceSerifPro_200ExtraLight_Italic`
+- `SourceSerifPro_300Light`
+- `SourceSerifPro_300Light_Italic`
 - `SourceSerifPro_400Regular`
+- `SourceSerifPro_400Regular_Italic`
 - `SourceSerifPro_600SemiBold`
+- `SourceSerifPro_600SemiBold_Italic`
 - `SourceSerifPro_700Bold`
+- `SourceSerifPro_700Bold_Italic`
+- `SourceSerifPro_900Black`
+- `SourceSerifPro_900Black_Italic`
 
 ## Usage
 
@@ -32,16 +41,34 @@ import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
 import {
   useFonts,
+  SourceSerifPro_200ExtraLight,
+  SourceSerifPro_200ExtraLight_Italic,
+  SourceSerifPro_300Light,
+  SourceSerifPro_300Light_Italic,
   SourceSerifPro_400Regular,
+  SourceSerifPro_400Regular_Italic,
   SourceSerifPro_600SemiBold,
+  SourceSerifPro_600SemiBold_Italic,
   SourceSerifPro_700Bold,
+  SourceSerifPro_700Bold_Italic,
+  SourceSerifPro_900Black,
+  SourceSerifPro_900Black_Italic,
 } from '@expo-google-fonts/source-serif-pro';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    SourceSerifPro_200ExtraLight,
+    SourceSerifPro_200ExtraLight_Italic,
+    SourceSerifPro_300Light,
+    SourceSerifPro_300Light_Italic,
     SourceSerifPro_400Regular,
+    SourceSerifPro_400Regular_Italic,
     SourceSerifPro_600SemiBold,
+    SourceSerifPro_600SemiBold_Italic,
     SourceSerifPro_700Bold,
+    SourceSerifPro_700Bold_Italic,
+    SourceSerifPro_900Black,
+    SourceSerifPro_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -57,9 +84,59 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSerifPro_200ExtraLight',
+          }}>
+          Source Serif Pro Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSerifPro_200ExtraLight_Italic',
+          }}>
+          Source Serif Pro Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSerifPro_300Light',
+          }}>
+          Source Serif Pro Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSerifPro_300Light_Italic',
+          }}>
+          Source Serif Pro Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'SourceSerifPro_400Regular',
           }}>
           Source Serif Pro Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSerifPro_400Regular_Italic',
+          }}>
+          Source Serif Pro Italic
         </Text>
 
         <Text
@@ -77,9 +154,49 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSerifPro_600SemiBold_Italic',
+          }}>
+          Source Serif Pro Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'SourceSerifPro_700Bold',
           }}>
           Source Serif Pro Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSerifPro_700Bold_Italic',
+          }}>
+          Source Serif Pro Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSerifPro_900Black',
+          }}>
+          Source Serif Pro Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceSerifPro_900Black_Italic',
+          }}>
+          Source Serif Pro Black Italic
         </Text>
       </View>
     );
@@ -93,7 +210,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SourceSerifPro_400Regular](./SourceSerifPro_400Regular.ttf.png)|![SourceSerifPro_600SemiBold](./SourceSerifPro_600SemiBold.ttf.png)|![SourceSerifPro_700Bold](./SourceSerifPro_700Bold.ttf.png)||
+|![SourceSerifPro_200ExtraLight](./SourceSerifPro_200ExtraLight.ttf.png)|![SourceSerifPro_200ExtraLight_Italic](./SourceSerifPro_200ExtraLight_Italic.ttf.png)|![SourceSerifPro_300Light](./SourceSerifPro_300Light.ttf.png)||
+|![SourceSerifPro_300Light_Italic](./SourceSerifPro_300Light_Italic.ttf.png)|![SourceSerifPro_400Regular](./SourceSerifPro_400Regular.ttf.png)|![SourceSerifPro_400Regular_Italic](./SourceSerifPro_400Regular_Italic.ttf.png)||
+|![SourceSerifPro_600SemiBold](./SourceSerifPro_600SemiBold.ttf.png)|![SourceSerifPro_600SemiBold_Italic](./SourceSerifPro_600SemiBold_Italic.ttf.png)|![SourceSerifPro_700Bold](./SourceSerifPro_700Bold.ttf.png)||
+|![SourceSerifPro_700Bold_Italic](./SourceSerifPro_700Bold_Italic.ttf.png)|![SourceSerifPro_900Black](./SourceSerifPro_900Black.ttf.png)|![SourceSerifPro_900Black_Italic](./SourceSerifPro_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

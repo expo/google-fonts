@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Libre Barcode 128 Text",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2020-03-03",
+  "version": "v16",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/librebarcode128text/v9/fdNv9tubt3ZEnz1Gu3I4-zppwZ9CWZ16Z0w5cV3Y6M90w4k.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/librebarcode128text/v16/fdNv9tubt3ZEnz1Gu3I4-zppwZ9CWZ16Z0w5cV3Y6M90w4k.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

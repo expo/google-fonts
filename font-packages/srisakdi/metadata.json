@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Srisakdi",
-  "category": "display",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v3",
-  "lastModified": "2019-11-05",
+  "version": "v6",
+  "lastModified": "2021-03-19",
   "files": {
-    "700": "http://fonts.gstatic.com/s/srisakdi/v3/yMJWMIlvdpDbkB0A-gIAUghxoNFxW0Hz.ttf",
-    "regular": "http://fonts.gstatic.com/s/srisakdi/v3/yMJRMIlvdpDbkB0A-jq8fSx5i814.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/srisakdi/v6/yMJWMIlvdpDbkB0A-gIAUghxoNFxW0Hz.ttf",
+    "regular": "http://fonts.gstatic.com/s/srisakdi/v6/yMJRMIlvdpDbkB0A-jq8fSx5i814.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

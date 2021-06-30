@@ -1,8 +1,6 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Arimo",
-  "category": "sans-serif",
-  "variants": ["regular", "italic", "700", "700italic"],
+  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
   "subsets": [
     "cyrillic",
     "cyrillic-ext",
@@ -13,12 +11,18 @@
     "latin-ext",
     "vietnamese"
   ],
-  "version": "v13",
-  "lastModified": "2019-07-22",
+  "version": "v17",
+  "lastModified": "2021-01-30",
   "files": {
-    "700": "http://fonts.gstatic.com/s/arimo/v13/P5sBzZCDf9_T_1Wi4QREp5On0ME2.ttf",
-    "regular": "http://fonts.gstatic.com/s/arimo/v13/P5sMzZCDf9_T_20eziBMjI-u.ttf",
-    "italic": "http://fonts.gstatic.com/s/arimo/v13/P5sCzZCDf9_T_10cxCRuiZ-uydg.ttf",
-    "700italic": "http://fonts.gstatic.com/s/arimo/v13/P5sHzZCDf9_T_10c_JhBrZeF1dE2PY4.ttf"
-  }
+    "500": "http://fonts.gstatic.com/s/arimo/v17/P5sfzZCDf9_T_3cV7NCUECyoxNk338xsBxDAVQI4aA.ttf",
+    "600": "http://fonts.gstatic.com/s/arimo/v17/P5sfzZCDf9_T_3cV7NCUECyoxNk3M8tsBxDAVQI4aA.ttf",
+    "700": "http://fonts.gstatic.com/s/arimo/v17/P5sfzZCDf9_T_3cV7NCUECyoxNk3CstsBxDAVQI4aA.ttf",
+    "regular": "http://fonts.gstatic.com/s/arimo/v17/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxsBxDAVQI4aA.ttf",
+    "italic": "http://fonts.gstatic.com/s/arimo/v17/P5sdzZCDf9_T_10c3i9MeUcyat4iJY-ERBrEdwcoaKww.ttf",
+    "500italic": "http://fonts.gstatic.com/s/arimo/v17/P5sdzZCDf9_T_10c3i9MeUcyat4iJY-2RBrEdwcoaKww.ttf",
+    "600italic": "http://fonts.gstatic.com/s/arimo/v17/P5sdzZCDf9_T_10c3i9MeUcyat4iJY9aQxrEdwcoaKww.ttf",
+    "700italic": "http://fonts.gstatic.com/s/arimo/v17/P5sdzZCDf9_T_10c3i9MeUcyat4iJY9jQxrEdwcoaKww.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

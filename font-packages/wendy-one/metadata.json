@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Wendy One",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/wendyone/v8/2sDcZGJOipXfgfXV5wgDb2-4C7wFZQ.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/wendyone/v9/2sDcZGJOipXfgfXV5wgDb2-4C7wFZQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

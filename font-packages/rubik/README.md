@@ -11,17 +11,21 @@ This package lets you use the [**Rubik**](https://fonts.google.com/specimen/Rubi
 
 ![Rubik](./font-family.png)
 
-This font family contains [10 styles](#-gallery).
+This font family contains [14 styles](#-gallery).
 
 - `Rubik_300Light`
-- `Rubik_300Light_Italic`
 - `Rubik_400Regular`
-- `Rubik_400Regular_Italic`
 - `Rubik_500Medium`
-- `Rubik_500Medium_Italic`
+- `Rubik_600SemiBold`
 - `Rubik_700Bold`
-- `Rubik_700Bold_Italic`
+- `Rubik_800ExtraBold`
 - `Rubik_900Black`
+- `Rubik_300Light_Italic`
+- `Rubik_400Regular_Italic`
+- `Rubik_500Medium_Italic`
+- `Rubik_600SemiBold_Italic`
+- `Rubik_700Bold_Italic`
+- `Rubik_800ExtraBold_Italic`
 - `Rubik_900Black_Italic`
 
 ## Usage
@@ -40,28 +44,36 @@ import { AppLoading } from 'expo';
 import {
   useFonts,
   Rubik_300Light,
-  Rubik_300Light_Italic,
   Rubik_400Regular,
-  Rubik_400Regular_Italic,
   Rubik_500Medium,
-  Rubik_500Medium_Italic,
+  Rubik_600SemiBold,
   Rubik_700Bold,
-  Rubik_700Bold_Italic,
+  Rubik_800ExtraBold,
   Rubik_900Black,
+  Rubik_300Light_Italic,
+  Rubik_400Regular_Italic,
+  Rubik_500Medium_Italic,
+  Rubik_600SemiBold_Italic,
+  Rubik_700Bold_Italic,
+  Rubik_800ExtraBold_Italic,
   Rubik_900Black_Italic,
 } from '@expo-google-fonts/rubik';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Rubik_300Light,
-    Rubik_300Light_Italic,
     Rubik_400Regular,
-    Rubik_400Regular_Italic,
     Rubik_500Medium,
-    Rubik_500Medium_Italic,
+    Rubik_600SemiBold,
     Rubik_700Bold,
-    Rubik_700Bold_Italic,
+    Rubik_800ExtraBold,
     Rubik_900Black,
+    Rubik_300Light_Italic,
+    Rubik_400Regular_Italic,
+    Rubik_500Medium_Italic,
+    Rubik_600SemiBold_Italic,
+    Rubik_700Bold_Italic,
+    Rubik_800ExtraBold_Italic,
     Rubik_900Black_Italic,
   });
 
@@ -88,29 +100,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rubik_300Light_Italic',
-          }}>
-          Rubik Light Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Rubik_400Regular',
           }}>
           Rubik Regular
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rubik_400Regular_Italic',
-          }}>
-          Rubik Italic
         </Text>
 
         <Text
@@ -128,9 +120,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rubik_500Medium_Italic',
+            fontFamily: 'Rubik_600SemiBold',
           }}>
-          Rubik Medium Italic
+          Rubik Semi Bold
         </Text>
 
         <Text
@@ -148,9 +140,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rubik_700Bold_Italic',
+            fontFamily: 'Rubik_800ExtraBold',
           }}>
-          Rubik Bold Italic
+          Rubik Extra Bold
         </Text>
 
         <Text
@@ -161,6 +153,66 @@ export default () => {
             fontFamily: 'Rubik_900Black',
           }}>
           Rubik Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rubik_300Light_Italic',
+          }}>
+          Rubik Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rubik_400Regular_Italic',
+          }}>
+          Rubik Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rubik_500Medium_Italic',
+          }}>
+          Rubik Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rubik_600SemiBold_Italic',
+          }}>
+          Rubik Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rubik_700Bold_Italic',
+          }}>
+          Rubik Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rubik_800ExtraBold_Italic',
+          }}>
+          Rubik Extra Bold Italic
         </Text>
 
         <Text
@@ -184,10 +236,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Rubik_300Light](./Rubik_300Light.ttf.png)|![Rubik_300Light_Italic](./Rubik_300Light_Italic.ttf.png)|![Rubik_400Regular](./Rubik_400Regular.ttf.png)||
-|![Rubik_400Regular_Italic](./Rubik_400Regular_Italic.ttf.png)|![Rubik_500Medium](./Rubik_500Medium.ttf.png)|![Rubik_500Medium_Italic](./Rubik_500Medium_Italic.ttf.png)||
-|![Rubik_700Bold](./Rubik_700Bold.ttf.png)|![Rubik_700Bold_Italic](./Rubik_700Bold_Italic.ttf.png)|![Rubik_900Black](./Rubik_900Black.ttf.png)||
-|![Rubik_900Black_Italic](./Rubik_900Black_Italic.ttf.png)||||
+|![Rubik_300Light](./Rubik_300Light.ttf.png)|![Rubik_400Regular](./Rubik_400Regular.ttf.png)|![Rubik_500Medium](./Rubik_500Medium.ttf.png)||
+|![Rubik_600SemiBold](./Rubik_600SemiBold.ttf.png)|![Rubik_700Bold](./Rubik_700Bold.ttf.png)|![Rubik_800ExtraBold](./Rubik_800ExtraBold.ttf.png)||
+|![Rubik_900Black](./Rubik_900Black.ttf.png)|![Rubik_300Light_Italic](./Rubik_300Light_Italic.ttf.png)|![Rubik_400Regular_Italic](./Rubik_400Regular_Italic.ttf.png)||
+|![Rubik_500Medium_Italic](./Rubik_500Medium_Italic.ttf.png)|![Rubik_600SemiBold_Italic](./Rubik_600SemiBold_Italic.ttf.png)|![Rubik_700Bold_Italic](./Rubik_700Bold_Italic.ttf.png)||
+|![Rubik_800ExtraBold_Italic](./Rubik_800ExtraBold_Italic.ttf.png)|![Rubik_900Black_Italic](./Rubik_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

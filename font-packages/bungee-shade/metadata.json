@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Bungee Shade",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2019-07-16",
+  "version": "v6",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/bungeeshade/v5/DtVkJxarWL0t2KdzK3oI_jks7iLSrwFUlw.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/bungeeshade/v6/DtVkJxarWL0t2KdzK3oI_jks7iLSrwFUlw.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

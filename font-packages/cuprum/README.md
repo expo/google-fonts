@@ -11,11 +11,15 @@ This package lets you use the [**Cuprum**](https://fonts.google.com/specimen/Cup
 
 ![Cuprum](./font-family.png)
 
-This font family contains [4 styles](#-gallery).
+This font family contains [8 styles](#-gallery).
 
 - `Cuprum_400Regular`
-- `Cuprum_400Regular_Italic`
+- `Cuprum_500Medium`
+- `Cuprum_600SemiBold`
 - `Cuprum_700Bold`
+- `Cuprum_400Regular_Italic`
+- `Cuprum_500Medium_Italic`
+- `Cuprum_600SemiBold_Italic`
 - `Cuprum_700Bold_Italic`
 
 ## Usage
@@ -34,16 +38,24 @@ import { AppLoading } from 'expo';
 import {
   useFonts,
   Cuprum_400Regular,
-  Cuprum_400Regular_Italic,
+  Cuprum_500Medium,
+  Cuprum_600SemiBold,
   Cuprum_700Bold,
+  Cuprum_400Regular_Italic,
+  Cuprum_500Medium_Italic,
+  Cuprum_600SemiBold_Italic,
   Cuprum_700Bold_Italic,
 } from '@expo-google-fonts/cuprum';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Cuprum_400Regular,
-    Cuprum_400Regular_Italic,
+    Cuprum_500Medium,
+    Cuprum_600SemiBold,
     Cuprum_700Bold,
+    Cuprum_400Regular_Italic,
+    Cuprum_500Medium_Italic,
+    Cuprum_600SemiBold_Italic,
     Cuprum_700Bold_Italic,
   });
 
@@ -70,9 +82,19 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cuprum_400Regular_Italic',
+            fontFamily: 'Cuprum_500Medium',
           }}>
-          Cuprum Italic
+          Cuprum Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cuprum_600SemiBold',
+          }}>
+          Cuprum Semi Bold
         </Text>
 
         <Text
@@ -83,6 +105,36 @@ export default () => {
             fontFamily: 'Cuprum_700Bold',
           }}>
           Cuprum Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cuprum_400Regular_Italic',
+          }}>
+          Cuprum Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cuprum_500Medium_Italic',
+          }}>
+          Cuprum Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cuprum_600SemiBold_Italic',
+          }}>
+          Cuprum Semi Bold Italic
         </Text>
 
         <Text
@@ -106,8 +158,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Cuprum_400Regular](./Cuprum_400Regular.ttf.png)|![Cuprum_400Regular_Italic](./Cuprum_400Regular_Italic.ttf.png)|![Cuprum_700Bold](./Cuprum_700Bold.ttf.png)||
-|![Cuprum_700Bold_Italic](./Cuprum_700Bold_Italic.ttf.png)||||
+|![Cuprum_400Regular](./Cuprum_400Regular.ttf.png)|![Cuprum_500Medium](./Cuprum_500Medium.ttf.png)|![Cuprum_600SemiBold](./Cuprum_600SemiBold.ttf.png)||
+|![Cuprum_700Bold](./Cuprum_700Bold.ttf.png)|![Cuprum_400Regular_Italic](./Cuprum_400Regular_Italic.ttf.png)|![Cuprum_500Medium_Italic](./Cuprum_500Medium_Italic.ttf.png)||
+|![Cuprum_600SemiBold_Italic](./Cuprum_600SemiBold_Italic.ttf.png)|![Cuprum_700Bold_Italic](./Cuprum_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

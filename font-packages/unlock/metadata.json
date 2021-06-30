@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Unlock",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/unlock/v9/7Au-p_8ykD-cDl7GKAjSwkUVOQ.ttf" }
+  "version": "v12",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/unlock/v12/7Au-p_8ykD-cDl7GKAjSwkUVOQ.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

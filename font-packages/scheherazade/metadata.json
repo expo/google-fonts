@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Scheherazade",
-  "category": "serif",
   "variants": ["regular", "700"],
   "subsets": ["arabic", "latin"],
-  "version": "v17",
-  "lastModified": "2019-07-16",
+  "version": "v20",
+  "lastModified": "2021-03-24",
   "files": {
-    "700": "http://fonts.gstatic.com/s/scheherazade/v17/YA9Lr0yF4ETZN60keViq1kQYC7yMjt3V_dB0Yw.ttf",
-    "regular": "http://fonts.gstatic.com/s/scheherazade/v17/YA9Ur0yF4ETZN60keViq1kQgt5OohvbJ9A.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/scheherazade/v20/YA9Lr0yF4ETZN60keViq1kQYC7yMjt3V_dB0Yw.ttf",
+    "regular": "http://fonts.gstatic.com/s/scheherazade/v20/YA9Ur0yF4ETZN60keViq1kQgt5OohvbJ9A.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

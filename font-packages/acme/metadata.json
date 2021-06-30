@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Acme",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-17",
-  "files": { "regular": "http://fonts.gstatic.com/s/acme/v9/RrQfboBx-C5_bx3Lb23lzLk.ttf" }
+  "version": "v11",
+  "lastModified": "2020-10-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/acme/v11/RrQfboBx-C5_bx3Lb23lzLk.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

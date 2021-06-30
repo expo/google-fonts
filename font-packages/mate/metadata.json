@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Mate",
-  "category": "serif",
   "variants": ["regular", "italic"],
   "subsets": ["latin"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/mate/v8/m8JdjftRd7WZ2z28WoXSaLU.ttf",
-    "italic": "http://fonts.gstatic.com/s/mate/v8/m8JTjftRd7WZ6z-2XqfXeLVdbw.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/mate/v9/m8JdjftRd7WZ2z28WoXSaLU.ttf",
+    "italic": "http://fonts.gstatic.com/s/mate/v9/m8JTjftRd7WZ6z-2XqfXeLVdbw.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

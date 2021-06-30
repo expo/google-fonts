@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Kumar One Outline",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["gujarati", "latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2019-07-16",
+  "version": "v8",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/kumaroneoutline/v5/Noao6VH62pyLP0fsrZ-v18wlUEcX9zDwRQu8EGKF.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/kumaroneoutline/v8/Noao6VH62pyLP0fsrZ-v18wlUEcX9zDwRQu8EGKF.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

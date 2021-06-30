@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Cabin Sketch",
-  "category": "display",
   "variants": ["regular", "700"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2019-07-16",
+  "version": "v14",
+  "lastModified": "2020-09-02",
   "files": {
-    "700": "http://fonts.gstatic.com/s/cabinsketch/v13/QGY2z_kZZAGCONcK2A4bGOj0I_1o4dLyI4CMFw.ttf",
-    "regular": "http://fonts.gstatic.com/s/cabinsketch/v13/QGYpz_kZZAGCONcK2A4bGOjMn9JM6fnuKg.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/cabinsketch/v14/QGY2z_kZZAGCONcK2A4bGOj0I_1o4dLyI4CMFw.ttf",
+    "regular": "http://fonts.gstatic.com/s/cabinsketch/v14/QGYpz_kZZAGCONcK2A4bGOjMn9JM6fnuKg.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

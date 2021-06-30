@@ -1,18 +1,18 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Tajawal",
-  "category": "sans-serif",
   "variants": ["200", "300", "regular", "500", "700", "800", "900"],
   "subsets": ["arabic", "latin"],
-  "version": "v3",
-  "lastModified": "2019-07-16",
+  "version": "v4",
+  "lastModified": "2021-04-01",
   "files": {
-    "200": "http://fonts.gstatic.com/s/tajawal/v3/Iurf6YBj_oCad4k1l_6gLrZjiLlJ-G0.ttf",
-    "300": "http://fonts.gstatic.com/s/tajawal/v3/Iurf6YBj_oCad4k1l5qjLrZjiLlJ-G0.ttf",
-    "500": "http://fonts.gstatic.com/s/tajawal/v3/Iurf6YBj_oCad4k1l8KiLrZjiLlJ-G0.ttf",
-    "700": "http://fonts.gstatic.com/s/tajawal/v3/Iurf6YBj_oCad4k1l4qkLrZjiLlJ-G0.ttf",
-    "800": "http://fonts.gstatic.com/s/tajawal/v3/Iurf6YBj_oCad4k1l5anLrZjiLlJ-G0.ttf",
-    "900": "http://fonts.gstatic.com/s/tajawal/v3/Iurf6YBj_oCad4k1l7KmLrZjiLlJ-G0.ttf",
-    "regular": "http://fonts.gstatic.com/s/tajawal/v3/Iura6YBj_oCad4k1rzaLCr5IlLA.ttf"
-  }
+    "200": "http://fonts.gstatic.com/s/tajawal/v4/Iurf6YBj_oCad4k1l_6gLrZjiLlJ-G0.ttf",
+    "300": "http://fonts.gstatic.com/s/tajawal/v4/Iurf6YBj_oCad4k1l5qjLrZjiLlJ-G0.ttf",
+    "500": "http://fonts.gstatic.com/s/tajawal/v4/Iurf6YBj_oCad4k1l8KiLrZjiLlJ-G0.ttf",
+    "700": "http://fonts.gstatic.com/s/tajawal/v4/Iurf6YBj_oCad4k1l4qkLrZjiLlJ-G0.ttf",
+    "800": "http://fonts.gstatic.com/s/tajawal/v4/Iurf6YBj_oCad4k1l5anLrZjiLlJ-G0.ttf",
+    "900": "http://fonts.gstatic.com/s/tajawal/v4/Iurf6YBj_oCad4k1l7KmLrZjiLlJ-G0.ttf",
+    "regular": "http://fonts.gstatic.com/s/tajawal/v4/Iura6YBj_oCad4k1rzaLCr5IlLA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

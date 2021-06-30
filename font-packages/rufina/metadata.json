@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Rufina",
-  "category": "serif",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v8",
+  "lastModified": "2020-09-02",
   "files": {
-    "700": "http://fonts.gstatic.com/s/rufina/v7/Yq6W-LyURyLy-aKKHztAvMxenxE0SA.ttf",
-    "regular": "http://fonts.gstatic.com/s/rufina/v7/Yq6V-LyURyLy-aKyoxRktOdClg.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/rufina/v8/Yq6W-LyURyLy-aKKHztAvMxenxE0SA.ttf",
+    "regular": "http://fonts.gstatic.com/s/rufina/v8/Yq6V-LyURyLy-aKyoxRktOdClg.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

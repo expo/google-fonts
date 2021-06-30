@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Rye",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/rye/v7/r05XGLJT86YDFpTsXOqx4w.ttf" }
+  "version": "v8",
+  "lastModified": "2020-07-23",
+  "files": { "regular": "http://fonts.gstatic.com/s/rye/v8/r05XGLJT86YDFpTsXOqx4w.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

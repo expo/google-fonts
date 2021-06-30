@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Norican",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/norican/v8/MwQ2bhXp1eSBqjkPGJJRtGs-lbA.ttf" }
+  "version": "v9",
+  "lastModified": "2020-09-02",
+  "files": { "regular": "http://fonts.gstatic.com/s/norican/v9/MwQ2bhXp1eSBqjkPGJJRtGs-lbA.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

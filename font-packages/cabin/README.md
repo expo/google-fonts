@@ -14,12 +14,12 @@ This package lets you use the [**Cabin**](https://fonts.google.com/specimen/Cabi
 This font family contains [8 styles](#-gallery).
 
 - `Cabin_400Regular`
-- `Cabin_400Regular_Italic`
 - `Cabin_500Medium`
-- `Cabin_500Medium_Italic`
 - `Cabin_600SemiBold`
-- `Cabin_600SemiBold_Italic`
 - `Cabin_700Bold`
+- `Cabin_400Regular_Italic`
+- `Cabin_500Medium_Italic`
+- `Cabin_600SemiBold_Italic`
 - `Cabin_700Bold_Italic`
 
 ## Usage
@@ -38,24 +38,24 @@ import { AppLoading } from 'expo';
 import {
   useFonts,
   Cabin_400Regular,
-  Cabin_400Regular_Italic,
   Cabin_500Medium,
-  Cabin_500Medium_Italic,
   Cabin_600SemiBold,
-  Cabin_600SemiBold_Italic,
   Cabin_700Bold,
+  Cabin_400Regular_Italic,
+  Cabin_500Medium_Italic,
+  Cabin_600SemiBold_Italic,
   Cabin_700Bold_Italic,
 } from '@expo-google-fonts/cabin';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Cabin_400Regular,
-    Cabin_400Regular_Italic,
     Cabin_500Medium,
-    Cabin_500Medium_Italic,
     Cabin_600SemiBold,
-    Cabin_600SemiBold_Italic,
     Cabin_700Bold,
+    Cabin_400Regular_Italic,
+    Cabin_500Medium_Italic,
+    Cabin_600SemiBold_Italic,
     Cabin_700Bold_Italic,
   });
 
@@ -82,29 +82,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cabin_400Regular_Italic',
-          }}>
-          Cabin Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Cabin_500Medium',
           }}>
           Cabin Medium
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cabin_500Medium_Italic',
-          }}>
-          Cabin Medium Italic
         </Text>
 
         <Text
@@ -122,9 +102,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cabin_600SemiBold_Italic',
+            fontFamily: 'Cabin_700Bold',
           }}>
-          Cabin Semi Bold Italic
+          Cabin Bold
         </Text>
 
         <Text
@@ -132,9 +112,29 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cabin_700Bold',
+            fontFamily: 'Cabin_400Regular_Italic',
           }}>
-          Cabin Bold
+          Cabin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cabin_500Medium_Italic',
+          }}>
+          Cabin Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cabin_600SemiBold_Italic',
+          }}>
+          Cabin Semi Bold Italic
         </Text>
 
         <Text
@@ -158,9 +158,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Cabin_400Regular](./Cabin_400Regular.ttf.png)|![Cabin_400Regular_Italic](./Cabin_400Regular_Italic.ttf.png)|![Cabin_500Medium](./Cabin_500Medium.ttf.png)||
-|![Cabin_500Medium_Italic](./Cabin_500Medium_Italic.ttf.png)|![Cabin_600SemiBold](./Cabin_600SemiBold.ttf.png)|![Cabin_600SemiBold_Italic](./Cabin_600SemiBold_Italic.ttf.png)||
-|![Cabin_700Bold](./Cabin_700Bold.ttf.png)|![Cabin_700Bold_Italic](./Cabin_700Bold_Italic.ttf.png)|||
+|![Cabin_400Regular](./Cabin_400Regular.ttf.png)|![Cabin_500Medium](./Cabin_500Medium.ttf.png)|![Cabin_600SemiBold](./Cabin_600SemiBold.ttf.png)||
+|![Cabin_700Bold](./Cabin_700Bold.ttf.png)|![Cabin_400Regular_Italic](./Cabin_400Regular_Italic.ttf.png)|![Cabin_500Medium_Italic](./Cabin_500Medium_Italic.ttf.png)||
+|![Cabin_600SemiBold_Italic](./Cabin_600SemiBold_Italic.ttf.png)|![Cabin_700Bold_Italic](./Cabin_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

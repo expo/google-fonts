@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Electrolize",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/electrolize/v8/cIf5Ma1dtE0zSiGSiED7AUEGso5tQafB.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/electrolize/v9/cIf5Ma1dtE0zSiGSiED7AUEGso5tQafB.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

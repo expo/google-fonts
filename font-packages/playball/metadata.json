@@ -1,10 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Playball",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/playball/v9/TK3gWksYAxQ7jbsKcj8Dl-tPKo2t.ttf" }
+  "version": "v10",
+  "lastModified": "2020-09-02",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/playball/v10/TK3gWksYAxQ7jbsKcj8Dl-tPKo2t.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

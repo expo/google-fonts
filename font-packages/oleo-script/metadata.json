@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Oleo Script",
-  "category": "display",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2020-09-02",
   "files": {
-    "700": "http://fonts.gstatic.com/s/oleoscript/v8/raxkHieDvtMOe0iICsUccCDmnmrY2zqUKafv.ttf",
-    "regular": "http://fonts.gstatic.com/s/oleoscript/v8/rax5HieDvtMOe0iICsUccBhasU7Q8Cad.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/oleoscript/v9/raxkHieDvtMOe0iICsUccCDmnmrY2zqUKafv.ttf",
+    "regular": "http://fonts.gstatic.com/s/oleoscript/v9/rax5HieDvtMOe0iICsUccBhasU7Q8Cad.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

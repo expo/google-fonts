@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Mogra",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["gujarati", "latin", "latin-ext"],
-  "version": "v6",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/mogra/v6/f0X40eSs8c95TBo4DvLmxtnG.ttf" }
+  "version": "v9",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/mogra/v9/f0X40eSs8c95TBo4DvLmxtnG.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

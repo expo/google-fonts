@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Junge",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/junge/v7/gokgH670Gl1lUqAdvhB7SnKm.ttf" }
+  "version": "v10",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/junge/v10/gokgH670Gl1lUqAdvhB7SnKm.ttf" },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

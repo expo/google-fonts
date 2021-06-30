@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Gochi Hand",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/gochihand/v10/hES06XlsOjtJsgCkx1PkTo71-n0nXWA.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/gochihand/v11/hES06XlsOjtJsgCkx1PkTo71-n0nXWA.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

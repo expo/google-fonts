@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Fondamento",
-  "category": "handwriting",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/fondamento/v10/4UaHrEJGsxNmFTPDnkaJx63j5pN1MwI.ttf",
-    "italic": "http://fonts.gstatic.com/s/fondamento/v10/4UaFrEJGsxNmFTPDnkaJ96_p4rFwIwJePw.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/fondamento/v11/4UaHrEJGsxNmFTPDnkaJx63j5pN1MwI.ttf",
+    "italic": "http://fonts.gstatic.com/s/fondamento/v11/4UaFrEJGsxNmFTPDnkaJ96_p4rFwIwJePw.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

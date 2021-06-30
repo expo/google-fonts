@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Fanwood Text",
-  "category": "serif",
   "variants": ["regular", "italic"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v10",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/fanwoodtext/v9/3XFtErwl05Ad_vSCF6Fq7xXGRdbY1P1Sbg.ttf",
-    "italic": "http://fonts.gstatic.com/s/fanwoodtext/v9/3XFzErwl05Ad_vSCF6Fq7xX2R9zc9vhCblye.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/fanwoodtext/v10/3XFtErwl05Ad_vSCF6Fq7xXGRdbY1P1Sbg.ttf",
+    "italic": "http://fonts.gstatic.com/s/fanwoodtext/v10/3XFzErwl05Ad_vSCF6Fq7xX2R9zc9vhCblye.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

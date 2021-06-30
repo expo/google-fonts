@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Stint Ultra Expanded",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v10",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/stintultraexpanded/v7/CSRg4yNNh-GbW3o3JkwoDcdvMKMf0oBAd0qoATQkWwam.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/stintultraexpanded/v10/CSRg4yNNh-GbW3o3JkwoDcdvMKMf0oBAd0qoATQkWwam.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

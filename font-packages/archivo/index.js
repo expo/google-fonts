@@ -5,11 +5,21 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const Archivo_100Thin = require('./Archivo_100Thin.ttf');
+export const Archivo_200ExtraLight = require('./Archivo_200ExtraLight.ttf');
+export const Archivo_300Light = require('./Archivo_300Light.ttf');
 export const Archivo_400Regular = require('./Archivo_400Regular.ttf');
-export const Archivo_400Regular_Italic = require('./Archivo_400Regular_Italic.ttf');
 export const Archivo_500Medium = require('./Archivo_500Medium.ttf');
-export const Archivo_500Medium_Italic = require('./Archivo_500Medium_Italic.ttf');
 export const Archivo_600SemiBold = require('./Archivo_600SemiBold.ttf');
-export const Archivo_600SemiBold_Italic = require('./Archivo_600SemiBold_Italic.ttf');
 export const Archivo_700Bold = require('./Archivo_700Bold.ttf');
+export const Archivo_800ExtraBold = require('./Archivo_800ExtraBold.ttf');
+export const Archivo_900Black = require('./Archivo_900Black.ttf');
+export const Archivo_100Thin_Italic = require('./Archivo_100Thin_Italic.ttf');
+export const Archivo_200ExtraLight_Italic = require('./Archivo_200ExtraLight_Italic.ttf');
+export const Archivo_300Light_Italic = require('./Archivo_300Light_Italic.ttf');
+export const Archivo_400Regular_Italic = require('./Archivo_400Regular_Italic.ttf');
+export const Archivo_500Medium_Italic = require('./Archivo_500Medium_Italic.ttf');
+export const Archivo_600SemiBold_Italic = require('./Archivo_600SemiBold_Italic.ttf');
 export const Archivo_700Bold_Italic = require('./Archivo_700Bold_Italic.ttf');
+export const Archivo_800ExtraBold_Italic = require('./Archivo_800ExtraBold_Italic.ttf');
+export const Archivo_900Black_Italic = require('./Archivo_900Black_Italic.ttf');

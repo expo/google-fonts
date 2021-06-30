@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Oldenburg",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v10",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/oldenburg/v7/fC1jPY5JYWzbywv7c4V6UU6oXyndrw.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/oldenburg/v10/fC1jPY5JYWzbywv7c4V6UU6oXyndrw.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

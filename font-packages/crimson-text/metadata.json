@@ -1,17 +1,17 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Crimson Text",
-  "category": "serif",
   "variants": ["regular", "italic", "600", "600italic", "700", "700italic"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-22",
+  "version": "v11",
+  "lastModified": "2020-09-10",
   "files": {
-    "600": "http://fonts.gstatic.com/s/crimsontext/v10/wlppgwHKFkZgtmSR3NB0oRJXsCx2C9lR1LFffg.ttf",
-    "700": "http://fonts.gstatic.com/s/crimsontext/v10/wlppgwHKFkZgtmSR3NB0oRJX1C12C9lR1LFffg.ttf",
-    "regular": "http://fonts.gstatic.com/s/crimsontext/v10/wlp2gwHKFkZgtmSR3NB0oRJvaAJSA_JN3Q.ttf",
-    "italic": "http://fonts.gstatic.com/s/crimsontext/v10/wlpogwHKFkZgtmSR3NB0oRJfaghWIfdd3ahG.ttf",
-    "600italic": "http://fonts.gstatic.com/s/crimsontext/v10/wlprgwHKFkZgtmSR3NB0oRJfajCOD9NV9rRPfrKu.ttf",
-    "700italic": "http://fonts.gstatic.com/s/crimsontext/v10/wlprgwHKFkZgtmSR3NB0oRJfajDqDtNV9rRPfrKu.ttf"
-  }
+    "600": "http://fonts.gstatic.com/s/crimsontext/v11/wlppgwHKFkZgtmSR3NB0oRJXsCx2C9lR1LFffg.ttf",
+    "700": "http://fonts.gstatic.com/s/crimsontext/v11/wlppgwHKFkZgtmSR3NB0oRJX1C12C9lR1LFffg.ttf",
+    "regular": "http://fonts.gstatic.com/s/crimsontext/v11/wlp2gwHKFkZgtmSR3NB0oRJvaAJSA_JN3Q.ttf",
+    "italic": "http://fonts.gstatic.com/s/crimsontext/v11/wlpogwHKFkZgtmSR3NB0oRJfaghWIfdd3ahG.ttf",
+    "600italic": "http://fonts.gstatic.com/s/crimsontext/v11/wlprgwHKFkZgtmSR3NB0oRJfajCOD9NV9rRPfrKu.ttf",
+    "700italic": "http://fonts.gstatic.com/s/crimsontext/v11/wlprgwHKFkZgtmSR3NB0oRJfajDqDtNV9rRPfrKu.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

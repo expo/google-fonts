@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Imprima",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/imprima/v8/VEMxRoN7sY3yuy-7-oWHyDzktPo.ttf" }
+  "version": "v11",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/imprima/v11/VEMxRoN7sY3yuy-7-oWHyDzktPo.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

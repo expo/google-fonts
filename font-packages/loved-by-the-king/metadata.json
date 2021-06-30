@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Loved by the King",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/lovedbytheking/v9/Gw6gwdP76VDVJNXerebZxUMeRXUF2PiNlXFu2R64.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/lovedbytheking/v12/Gw6gwdP76VDVJNXerebZxUMeRXUF2PiNlXFu2R64.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

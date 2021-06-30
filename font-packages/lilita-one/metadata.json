@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Lilita One",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v8",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/lilitaone/v7/i7dPIFZ9Zz-WBtRtedDbUEZ2RFq7AwU.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/lilitaone/v8/i7dPIFZ9Zz-WBtRtedDbUEZ2RFq7AwU.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Coiny",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "tamil", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/coiny/v5/gyByhwU1K989PXwbElSvO5Tc.ttf" }
+  "version": "v8",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/coiny/v8/gyByhwU1K989PXwbElSvO5Tc.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

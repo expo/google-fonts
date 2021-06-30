@@ -1,7 +1,5 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Gothic A1",
-  "category": "sans-serif",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["korean", "latin"],
   "version": "v8",
@@ -16,5 +14,7 @@
     "800": "http://fonts.gstatic.com/s/gothica1/v8/CSR44z5ZnPydRjlCCwlCzOEKSPl6tOU9Eg.ttf",
     "900": "http://fonts.gstatic.com/s/gothica1/v8/CSR44z5ZnPydRjlCCwlC6OAKSPl6tOU9Eg.ttf",
     "regular": "http://fonts.gstatic.com/s/gothica1/v8/CSR94z5ZnPydRjlCCwl6bM0uQNJmvQ.ttf"
-  }
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

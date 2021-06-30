@@ -6,7 +6,7 @@
 ![Expo Google Fonts](./gifs/title.gif)
 
 The `@expo-google-fonts` packages for Expo allow you to easily use 
-any of 991 fonts (and their variants) from 
+any of 1052 fonts (and their variants) from 
 [fonts.google.com](https://fonts.google.com) in your Expo app.
 
 These packages and all these fonts work across web, iOS, and Android and 
@@ -19,7 +19,7 @@ Here is an example of using the [Inter font family](https://fonts.google.com/spe
 #### Install the package for the font you want
 
 ```sh
-expo install @expo-google-fonts/inter expo-font expo-app-loading
+expo install @expo-google-fonts/inter expo-font
 ```
 
 #### In your app
@@ -28,7 +28,7 @@ expo install @expo-google-fonts/inter expo-font expo-app-loading
 import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
+import { AppLoading } from 'expo';
 import {
   useFonts,
   Inter_900Black,
@@ -71,7 +71,7 @@ You can browse all available Google Fonts on [fonts.google.com](https://fonts.go
 let you browse and search through all of the available fonts and show you the appropriate
 `import` statements you'll need so you can copy & paste into your own code.
 
-Here are a few examples of the 3020 variants of 991 fonts available:
+Here are a few examples of the 3483 variants of 1052 fonts available:
 
 
 ||||

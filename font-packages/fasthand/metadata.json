@@ -1,10 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Fasthand",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["khmer"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/fasthand/v10/0yb9GDohyKTYn_ZEESkuYkw2rQg1.ttf" }
+  "version": "v13",
+  "lastModified": "2021-03-19",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/fasthand/v13/0yb9GDohyKTYn_ZEESkuYkw2rQg1.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Euphoria Script",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/euphoriascript/v8/mFTpWb0X2bLb_cx6To2B8GpKoD5ak_ZT1D8x7Q.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/euphoriascript/v11/mFTpWb0X2bLb_cx6To2B8GpKoD5ak_ZT1D8x7Q.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

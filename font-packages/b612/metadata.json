@@ -1,15 +1,15 @@
 {
-  "kind": "webfonts#webfont",
   "family": "B612",
-  "category": "sans-serif",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["latin"],
-  "version": "v4",
-  "lastModified": "2019-11-05",
+  "version": "v5",
+  "lastModified": "2020-07-23",
   "files": {
-    "700": "http://fonts.gstatic.com/s/b612/v4/3Jn9SDDxiSz34oWXPDCLTXUETuE.ttf",
-    "regular": "http://fonts.gstatic.com/s/b612/v4/3JnySDDxiSz32jm4GDigUXw.ttf",
-    "italic": "http://fonts.gstatic.com/s/b612/v4/3Jn8SDDxiSz36juyHBqlQXwdVw.ttf",
-    "700italic": "http://fonts.gstatic.com/s/b612/v4/3Jn_SDDxiSz36juKoDWBSVcBXuFb0Q.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/b612/v5/3Jn9SDDxiSz34oWXPDCLTXUETuE.ttf",
+    "regular": "http://fonts.gstatic.com/s/b612/v5/3JnySDDxiSz32jm4GDigUXw.ttf",
+    "italic": "http://fonts.gstatic.com/s/b612/v5/3Jn8SDDxiSz36juyHBqlQXwdVw.ttf",
+    "700italic": "http://fonts.gstatic.com/s/b612/v5/3Jn_SDDxiSz36juKoDWBSVcBXuFb0Q.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

@@ -1,7 +1,5 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Cormorant",
-  "category": "serif",
   "variants": [
     "300",
     "300italic",
@@ -15,18 +13,20 @@
     "700italic"
   ],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2021-03-24",
   "files": {
-    "300": "http://fonts.gstatic.com/s/cormorant/v8/H4cgBXOCl9bbnla_nHIiRLmYgoyyYzFzFw.ttf",
-    "500": "http://fonts.gstatic.com/s/cormorant/v8/H4cgBXOCl9bbnla_nHIiHLiYgoyyYzFzFw.ttf",
-    "600": "http://fonts.gstatic.com/s/cormorant/v8/H4cgBXOCl9bbnla_nHIiML-YgoyyYzFzFw.ttf",
-    "700": "http://fonts.gstatic.com/s/cormorant/v8/H4cgBXOCl9bbnla_nHIiVL6YgoyyYzFzFw.ttf",
-    "300italic": "http://fonts.gstatic.com/s/cormorant/v8/H4c-BXOCl9bbnla_nHIq6qMUgIa2QTRjF8ER.ttf",
-    "regular": "http://fonts.gstatic.com/s/cormorant/v8/H4clBXOCl9bbnla_nHIa6JG8iqeuag.ttf",
-    "italic": "http://fonts.gstatic.com/s/cormorant/v8/H4cjBXOCl9bbnla_nHIq6pu4qKK-aihq.ttf",
-    "500italic": "http://fonts.gstatic.com/s/cormorant/v8/H4c-BXOCl9bbnla_nHIq6qNMgYa2QTRjF8ER.ttf",
-    "600italic": "http://fonts.gstatic.com/s/cormorant/v8/H4c-BXOCl9bbnla_nHIq6qNghoa2QTRjF8ER.ttf",
-    "700italic": "http://fonts.gstatic.com/s/cormorant/v8/H4c-BXOCl9bbnla_nHIq6qMEh4a2QTRjF8ER.ttf"
-  }
+    "300": "http://fonts.gstatic.com/s/cormorant/v11/H4cgBXOCl9bbnla_nHIiRLmYgoyyYzFzFw.ttf",
+    "500": "http://fonts.gstatic.com/s/cormorant/v11/H4cgBXOCl9bbnla_nHIiHLiYgoyyYzFzFw.ttf",
+    "600": "http://fonts.gstatic.com/s/cormorant/v11/H4cgBXOCl9bbnla_nHIiML-YgoyyYzFzFw.ttf",
+    "700": "http://fonts.gstatic.com/s/cormorant/v11/H4cgBXOCl9bbnla_nHIiVL6YgoyyYzFzFw.ttf",
+    "300italic": "http://fonts.gstatic.com/s/cormorant/v11/H4c-BXOCl9bbnla_nHIq6qMUgIa2QTRjF8ER.ttf",
+    "regular": "http://fonts.gstatic.com/s/cormorant/v11/H4clBXOCl9bbnla_nHIa6JG8iqeuag.ttf",
+    "italic": "http://fonts.gstatic.com/s/cormorant/v11/H4cjBXOCl9bbnla_nHIq6pu4qKK-aihq.ttf",
+    "500italic": "http://fonts.gstatic.com/s/cormorant/v11/H4c-BXOCl9bbnla_nHIq6qNMgYa2QTRjF8ER.ttf",
+    "600italic": "http://fonts.gstatic.com/s/cormorant/v11/H4c-BXOCl9bbnla_nHIq6qNghoa2QTRjF8ER.ttf",
+    "700italic": "http://fonts.gstatic.com/s/cormorant/v11/H4c-BXOCl9bbnla_nHIq6qMEh4a2QTRjF8ER.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

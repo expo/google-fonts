@@ -11,10 +11,13 @@ This package lets you use the [**Cinzel**](https://fonts.google.com/specimen/Cin
 
 ![Cinzel](./font-family.png)
 
-This font family contains [3 styles](#-gallery).
+This font family contains [6 styles](#-gallery).
 
 - `Cinzel_400Regular`
+- `Cinzel_500Medium`
+- `Cinzel_600SemiBold`
 - `Cinzel_700Bold`
+- `Cinzel_800ExtraBold`
 - `Cinzel_900Black`
 
 ## Usage
@@ -33,14 +36,20 @@ import { AppLoading } from 'expo';
 import {
   useFonts,
   Cinzel_400Regular,
+  Cinzel_500Medium,
+  Cinzel_600SemiBold,
   Cinzel_700Bold,
+  Cinzel_800ExtraBold,
   Cinzel_900Black,
 } from '@expo-google-fonts/cinzel';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Cinzel_400Regular,
+    Cinzel_500Medium,
+    Cinzel_600SemiBold,
     Cinzel_700Bold,
+    Cinzel_800ExtraBold,
     Cinzel_900Black,
   });
 
@@ -67,9 +76,39 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cinzel_500Medium',
+          }}>
+          Cinzel Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cinzel_600SemiBold',
+          }}>
+          Cinzel Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Cinzel_700Bold',
           }}>
           Cinzel Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cinzel_800ExtraBold',
+          }}>
+          Cinzel Extra Bold
         </Text>
 
         <Text
@@ -93,7 +132,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Cinzel_400Regular](./Cinzel_400Regular.ttf.png)|![Cinzel_700Bold](./Cinzel_700Bold.ttf.png)|![Cinzel_900Black](./Cinzel_900Black.ttf.png)||
+|![Cinzel_400Regular](./Cinzel_400Regular.ttf.png)|![Cinzel_500Medium](./Cinzel_500Medium.ttf.png)|![Cinzel_600SemiBold](./Cinzel_600SemiBold.ttf.png)||
+|![Cinzel_700Bold](./Cinzel_700Bold.ttf.png)|![Cinzel_800ExtraBold](./Cinzel_800ExtraBold.ttf.png)|![Cinzel_900Black](./Cinzel_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

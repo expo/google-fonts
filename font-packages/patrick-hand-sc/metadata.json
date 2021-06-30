@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Patrick Hand SC",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v8",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/patrickhandsc/v7/0nkwC9f7MfsBiWcLtY65AWDK873ViSi6JQc7Vg.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/patrickhandsc/v8/0nkwC9f7MfsBiWcLtY65AWDK873ViSi6JQc7Vg.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

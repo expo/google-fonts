@@ -1,15 +1,15 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Share",
-  "category": "display",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2020-09-02",
   "files": {
-    "700": "http://fonts.gstatic.com/s/share/v10/i7dJIFliZjKNF63xM56-WkJUQUq7.ttf",
-    "regular": "http://fonts.gstatic.com/s/share/v10/i7dEIFliZjKNF5VNHLq2cV5d.ttf",
-    "italic": "http://fonts.gstatic.com/s/share/v10/i7dKIFliZjKNF6VPFr6UdE5dWFM.ttf",
-    "700italic": "http://fonts.gstatic.com/s/share/v10/i7dPIFliZjKNF6VPLgK7UEZ2RFq7AwU.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/share/v11/i7dJIFliZjKNF63xM56-WkJUQUq7.ttf",
+    "regular": "http://fonts.gstatic.com/s/share/v11/i7dEIFliZjKNF5VNHLq2cV5d.ttf",
+    "italic": "http://fonts.gstatic.com/s/share/v11/i7dKIFliZjKNF6VPFr6UdE5dWFM.ttf",
+    "700italic": "http://fonts.gstatic.com/s/share/v11/i7dPIFliZjKNF6VPLgK7UEZ2RFq7AwU.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

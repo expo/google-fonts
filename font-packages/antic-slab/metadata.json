@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Antic Slab",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/anticslab/v8/bWt97fPFfRzkCa9Jlp6IWcJWXW5p5Qo.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/anticslab/v9/bWt97fPFfRzkCa9Jlp6IWcJWXW5p5Qo.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

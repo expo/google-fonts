@@ -1,10 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Monofett",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/monofett/v9/mFTyWbofw6zc9NtnW43SuRwr0VJ7.ttf" }
+  "version": "v12",
+  "lastModified": "2021-03-19",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/monofett/v12/mFTyWbofw6zc9NtnW43SuRwr0VJ7.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

@@ -6,3 +6,4 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const Harmattan_400Regular = require('./Harmattan_400Regular.ttf');
+export const Harmattan_700Bold = require('./Harmattan_700Bold.ttf');

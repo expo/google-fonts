@@ -1,13 +1,15 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Caveat",
-  "category": "handwriting",
-  "variants": ["regular", "700"],
+  "variants": ["regular", "500", "600", "700"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-17",
+  "version": "v10",
+  "lastModified": "2021-01-30",
   "files": {
-    "700": "http://fonts.gstatic.com/s/caveat/v7/Wnz5HAc5bAfYB2Qz3RM9oiTQNAuxjA.ttf",
-    "regular": "http://fonts.gstatic.com/s/caveat/v7/Wnz6HAc5bAfYB2QLYTwZqg_MPQ.ttf"
-  }
+    "500": "http://fonts.gstatic.com/s/caveat/v10/WnznHAc5bAfYB2QRah7pcpNvOx-pjcB9SIKjYBxPigs.ttf",
+    "600": "http://fonts.gstatic.com/s/caveat/v10/WnznHAc5bAfYB2QRah7pcpNvOx-pjSx6SIKjYBxPigs.ttf",
+    "700": "http://fonts.gstatic.com/s/caveat/v10/WnznHAc5bAfYB2QRah7pcpNvOx-pjRV6SIKjYBxPigs.ttf",
+    "regular": "http://fonts.gstatic.com/s/caveat/v10/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9SIKjYBxPigs.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

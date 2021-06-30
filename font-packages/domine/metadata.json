@@ -1,13 +1,15 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Domine",
-  "category": "serif",
-  "variants": ["regular", "700"],
+  "variants": ["regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-17",
+  "version": "v11",
+  "lastModified": "2021-01-30",
   "files": {
-    "700": "http://fonts.gstatic.com/s/domine/v7/L0x_DFMnlVwD4h3pAN-CTQJIg3uuXg.ttf",
-    "regular": "http://fonts.gstatic.com/s/domine/v7/L0x8DFMnlVwD4h3RvPCmRSlUig.ttf"
-  }
+    "500": "http://fonts.gstatic.com/s/domine/v11/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X0DAI10VErGuW8Q.ttf",
+    "600": "http://fonts.gstatic.com/s/domine/v11/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X6zHI10VErGuW8Q.ttf",
+    "700": "http://fonts.gstatic.com/s/domine/v11/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X5XHI10VErGuW8Q.ttf",
+    "regular": "http://fonts.gstatic.com/s/domine/v11/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X3LAI10VErGuW8Q.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

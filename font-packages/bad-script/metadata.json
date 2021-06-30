@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Bad Script",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/badscript/v8/6NUT8F6PJgbFWQn47_x7lOwuzd1AZtw.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/badscript/v9/6NUT8F6PJgbFWQn47_x7lOwuzd1AZtw.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

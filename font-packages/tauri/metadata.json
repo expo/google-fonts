@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Tauri",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/tauri/v8/TwMA-IISS0AM3IpVWHU_TBqO.ttf" }
+  "version": "v11",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/tauri/v11/TwMA-IISS0AM3IpVWHU_TBqO.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

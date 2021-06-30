@@ -1,7 +1,5 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Krub",
-  "category": "sans-serif",
   "variants": [
     "200",
     "200italic",
@@ -17,20 +15,22 @@
     "700italic"
   ],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v3",
-  "lastModified": "2019-11-05",
+  "version": "v4",
+  "lastModified": "2020-09-02",
   "files": {
-    "200": "http://fonts.gstatic.com/s/krub/v3/sZlEdRyC6CRYZo47KLF4R6gWaf8.ttf",
-    "300": "http://fonts.gstatic.com/s/krub/v3/sZlEdRyC6CRYZuo4KLF4R6gWaf8.ttf",
-    "500": "http://fonts.gstatic.com/s/krub/v3/sZlEdRyC6CRYZrI5KLF4R6gWaf8.ttf",
-    "600": "http://fonts.gstatic.com/s/krub/v3/sZlEdRyC6CRYZp4-KLF4R6gWaf8.ttf",
-    "700": "http://fonts.gstatic.com/s/krub/v3/sZlEdRyC6CRYZvo_KLF4R6gWaf8.ttf",
-    "200italic": "http://fonts.gstatic.com/s/krub/v3/sZlGdRyC6CRYbkQiwLByQ4oTef_6gQ.ttf",
-    "300italic": "http://fonts.gstatic.com/s/krub/v3/sZlGdRyC6CRYbkQipLNyQ4oTef_6gQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/krub/v3/sZlLdRyC6CRYXkYQDLlTW6E.ttf",
-    "italic": "http://fonts.gstatic.com/s/krub/v3/sZlFdRyC6CRYbkQaCJtWS6EPcA.ttf",
-    "500italic": "http://fonts.gstatic.com/s/krub/v3/sZlGdRyC6CRYbkQi_LJyQ4oTef_6gQ.ttf",
-    "600italic": "http://fonts.gstatic.com/s/krub/v3/sZlGdRyC6CRYbkQi0LVyQ4oTef_6gQ.ttf",
-    "700italic": "http://fonts.gstatic.com/s/krub/v3/sZlGdRyC6CRYbkQitLRyQ4oTef_6gQ.ttf"
-  }
+    "200": "http://fonts.gstatic.com/s/krub/v4/sZlEdRyC6CRYZo47KLF4R6gWaf8.ttf",
+    "300": "http://fonts.gstatic.com/s/krub/v4/sZlEdRyC6CRYZuo4KLF4R6gWaf8.ttf",
+    "500": "http://fonts.gstatic.com/s/krub/v4/sZlEdRyC6CRYZrI5KLF4R6gWaf8.ttf",
+    "600": "http://fonts.gstatic.com/s/krub/v4/sZlEdRyC6CRYZp4-KLF4R6gWaf8.ttf",
+    "700": "http://fonts.gstatic.com/s/krub/v4/sZlEdRyC6CRYZvo_KLF4R6gWaf8.ttf",
+    "200italic": "http://fonts.gstatic.com/s/krub/v4/sZlGdRyC6CRYbkQiwLByQ4oTef_6gQ.ttf",
+    "300italic": "http://fonts.gstatic.com/s/krub/v4/sZlGdRyC6CRYbkQipLNyQ4oTef_6gQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/krub/v4/sZlLdRyC6CRYXkYQDLlTW6E.ttf",
+    "italic": "http://fonts.gstatic.com/s/krub/v4/sZlFdRyC6CRYbkQaCJtWS6EPcA.ttf",
+    "500italic": "http://fonts.gstatic.com/s/krub/v4/sZlGdRyC6CRYbkQi_LJyQ4oTef_6gQ.ttf",
+    "600italic": "http://fonts.gstatic.com/s/krub/v4/sZlGdRyC6CRYbkQi0LVyQ4oTef_6gQ.ttf",
+    "700italic": "http://fonts.gstatic.com/s/krub/v4/sZlGdRyC6CRYbkQitLRyQ4oTef_6gQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

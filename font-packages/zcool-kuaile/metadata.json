@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "ZCOOL KuaiLe",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["chinese-simplified", "latin"],
-  "version": "v5",
-  "lastModified": "2019-11-05",
+  "version": "v7",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/zcoolkuaile/v5/tssqApdaRQokwFjFJjvM6h2WpozzoXhC2g.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/zcoolkuaile/v7/tssqApdaRQokwFjFJjvM6h2WpozzoXhC2g.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Happy Monkey",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/happymonkey/v8/K2F2fZZcl-9SXwl5F_C4R_OABwD2bWqVjw.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/happymonkey/v9/K2F2fZZcl-9SXwl5F_C4R_OABwD2bWqVjw.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

@@ -9,6 +9,7 @@ export const __metdata__: Any;
 export const Assistant_200ExtraLight: number;
 export const Assistant_300Light: number;
 export const Assistant_400Regular: number;
+export const Assistant_500Medium: number;
 export const Assistant_600SemiBold: number;
 export const Assistant_700Bold: number;
 export const Assistant_800ExtraBold: number;

@@ -1,7 +1,5 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Spectral",
-  "category": "serif",
   "variants": [
     "200",
     "200italic",
@@ -19,22 +17,24 @@
     "800italic"
   ],
   "subsets": ["cyrillic", "latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2019-07-16",
+  "version": "v7",
+  "lastModified": "2021-04-01",
   "files": {
-    "200": "http://fonts.gstatic.com/s/spectral/v6/rnCs-xNNww_2s0amA9v2s13GY_etWWIJ.ttf",
-    "300": "http://fonts.gstatic.com/s/spectral/v6/rnCs-xNNww_2s0amA9uSsF3GY_etWWIJ.ttf",
-    "500": "http://fonts.gstatic.com/s/spectral/v6/rnCs-xNNww_2s0amA9vKsV3GY_etWWIJ.ttf",
-    "600": "http://fonts.gstatic.com/s/spectral/v6/rnCs-xNNww_2s0amA9vmtl3GY_etWWIJ.ttf",
-    "700": "http://fonts.gstatic.com/s/spectral/v6/rnCs-xNNww_2s0amA9uCt13GY_etWWIJ.ttf",
-    "800": "http://fonts.gstatic.com/s/spectral/v6/rnCs-xNNww_2s0amA9uetF3GY_etWWIJ.ttf",
-    "200italic": "http://fonts.gstatic.com/s/spectral/v6/rnCu-xNNww_2s0amA9M8qrXHafOPXHIJErY.ttf",
-    "300italic": "http://fonts.gstatic.com/s/spectral/v6/rnCu-xNNww_2s0amA9M8qtHEafOPXHIJErY.ttf",
-    "regular": "http://fonts.gstatic.com/s/spectral/v6/rnCr-xNNww_2s0amA-M-mHnOSOuk.ttf",
-    "italic": "http://fonts.gstatic.com/s/spectral/v6/rnCt-xNNww_2s0amA9M8kn3sTfukQHs.ttf",
-    "500italic": "http://fonts.gstatic.com/s/spectral/v6/rnCu-xNNww_2s0amA9M8qonFafOPXHIJErY.ttf",
-    "600italic": "http://fonts.gstatic.com/s/spectral/v6/rnCu-xNNww_2s0amA9M8qqXCafOPXHIJErY.ttf",
-    "700italic": "http://fonts.gstatic.com/s/spectral/v6/rnCu-xNNww_2s0amA9M8qsHDafOPXHIJErY.ttf",
-    "800italic": "http://fonts.gstatic.com/s/spectral/v6/rnCu-xNNww_2s0amA9M8qt3AafOPXHIJErY.ttf"
-  }
+    "200": "http://fonts.gstatic.com/s/spectral/v7/rnCs-xNNww_2s0amA9v2s13GY_etWWIJ.ttf",
+    "300": "http://fonts.gstatic.com/s/spectral/v7/rnCs-xNNww_2s0amA9uSsF3GY_etWWIJ.ttf",
+    "500": "http://fonts.gstatic.com/s/spectral/v7/rnCs-xNNww_2s0amA9vKsV3GY_etWWIJ.ttf",
+    "600": "http://fonts.gstatic.com/s/spectral/v7/rnCs-xNNww_2s0amA9vmtl3GY_etWWIJ.ttf",
+    "700": "http://fonts.gstatic.com/s/spectral/v7/rnCs-xNNww_2s0amA9uCt13GY_etWWIJ.ttf",
+    "800": "http://fonts.gstatic.com/s/spectral/v7/rnCs-xNNww_2s0amA9uetF3GY_etWWIJ.ttf",
+    "200italic": "http://fonts.gstatic.com/s/spectral/v7/rnCu-xNNww_2s0amA9M8qrXHafOPXHIJErY.ttf",
+    "300italic": "http://fonts.gstatic.com/s/spectral/v7/rnCu-xNNww_2s0amA9M8qtHEafOPXHIJErY.ttf",
+    "regular": "http://fonts.gstatic.com/s/spectral/v7/rnCr-xNNww_2s0amA-M-mHnOSOuk.ttf",
+    "italic": "http://fonts.gstatic.com/s/spectral/v7/rnCt-xNNww_2s0amA9M8kn3sTfukQHs.ttf",
+    "500italic": "http://fonts.gstatic.com/s/spectral/v7/rnCu-xNNww_2s0amA9M8qonFafOPXHIJErY.ttf",
+    "600italic": "http://fonts.gstatic.com/s/spectral/v7/rnCu-xNNww_2s0amA9M8qqXCafOPXHIJErY.ttf",
+    "700italic": "http://fonts.gstatic.com/s/spectral/v7/rnCu-xNNww_2s0amA9M8qsHDafOPXHIJErY.ttf",
+    "800italic": "http://fonts.gstatic.com/s/spectral/v7/rnCu-xNNww_2s0amA9M8qt3AafOPXHIJErY.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

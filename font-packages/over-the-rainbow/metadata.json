@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Over the Rainbow",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/overtherainbow/v10/11haGoXG1k_HKhMLUWz7Mc7vvW5upvOm9NA2XG0.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/overtherainbow/v11/11haGoXG1k_HKhMLUWz7Mc7vvW5upvOm9NA2XG0.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

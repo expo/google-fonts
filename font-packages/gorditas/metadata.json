@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Gorditas",
-  "category": "display",
   "variants": ["regular", "700"],
   "subsets": ["latin"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v10",
+  "lastModified": "2021-03-19",
   "files": {
-    "700": "http://fonts.gstatic.com/s/gorditas/v7/ll84K2aTVD26DsPEtThUIooIvAoShA1i.ttf",
-    "regular": "http://fonts.gstatic.com/s/gorditas/v7/ll8_K2aTVD26DsPEtQDoDa4AlxYb.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/gorditas/v10/ll84K2aTVD26DsPEtThUIooIvAoShA1i.ttf",
+    "regular": "http://fonts.gstatic.com/s/gorditas/v10/ll8_K2aTVD26DsPEtQDoDa4AlxYb.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

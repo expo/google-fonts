@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Quattrocento",
-  "category": "serif",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2020-09-02",
   "files": {
-    "700": "http://fonts.gstatic.com/s/quattrocento/v11/OZpbg_xvsDZQL_LKIF7q4jP_eE3fd6PZsXcM9w.ttf",
-    "regular": "http://fonts.gstatic.com/s/quattrocento/v11/OZpEg_xvsDZQL_LKIF7q4jPHxGL7f4jFuA.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/quattrocento/v12/OZpbg_xvsDZQL_LKIF7q4jP_eE3fd6PZsXcM9w.ttf",
+    "regular": "http://fonts.gstatic.com/s/quattrocento/v12/OZpEg_xvsDZQL_LKIF7q4jPHxGL7f4jFuA.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

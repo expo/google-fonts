@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "IM Fell Great Primer",
-  "category": "serif",
   "variants": ["regular", "italic"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/imfellgreatprimer/v9/bx6aNwSJtayYxOkbYFsT6hMsLzX7u85rJorXvDo3SQY1.ttf",
-    "italic": "http://fonts.gstatic.com/s/imfellgreatprimer/v9/bx6UNwSJtayYxOkbYFsT6hMsLzX7u85rJrrVtj4VTBY1N6U.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/imfellgreatprimer/v12/bx6aNwSJtayYxOkbYFsT6hMsLzX7u85rJorXvDo3SQY1.ttf",
+    "italic": "http://fonts.gstatic.com/s/imfellgreatprimer/v12/bx6UNwSJtayYxOkbYFsT6hMsLzX7u85rJrrVtj4VTBY1N6U.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

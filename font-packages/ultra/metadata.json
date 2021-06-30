@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Ultra",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/ultra/v12/zOLy4prXmrtY-tT6yLOD6NxF.ttf" }
+  "version": "v13",
+  "lastModified": "2020-09-02",
+  "files": { "regular": "http://fonts.gstatic.com/s/ultra/v13/zOLy4prXmrtY-tT6yLOD6NxF.ttf" },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Pinyon Script",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-03-30",
+  "version": "v11",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/pinyonscript/v10/6xKpdSJbL9-e9LuoeQiDRQR8aOLQO4bhiDY.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/pinyonscript/v11/6xKpdSJbL9-e9LuoeQiDRQR8aOLQO4bhiDY.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

@@ -5,7 +5,17 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const Karla_200ExtraLight = require('./Karla_200ExtraLight.ttf');
+export const Karla_300Light = require('./Karla_300Light.ttf');
 export const Karla_400Regular = require('./Karla_400Regular.ttf');
-export const Karla_400Regular_Italic = require('./Karla_400Regular_Italic.ttf');
+export const Karla_500Medium = require('./Karla_500Medium.ttf');
+export const Karla_600SemiBold = require('./Karla_600SemiBold.ttf');
 export const Karla_700Bold = require('./Karla_700Bold.ttf');
+export const Karla_800ExtraBold = require('./Karla_800ExtraBold.ttf');
+export const Karla_200ExtraLight_Italic = require('./Karla_200ExtraLight_Italic.ttf');
+export const Karla_300Light_Italic = require('./Karla_300Light_Italic.ttf');
+export const Karla_400Regular_Italic = require('./Karla_400Regular_Italic.ttf');
+export const Karla_500Medium_Italic = require('./Karla_500Medium_Italic.ttf');
+export const Karla_600SemiBold_Italic = require('./Karla_600SemiBold_Italic.ttf');
 export const Karla_700Bold_Italic = require('./Karla_700Bold_Italic.ttf');
+export const Karla_800ExtraBold_Italic = require('./Karla_800ExtraBold_Italic.ttf');

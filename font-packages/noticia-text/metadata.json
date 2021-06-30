@@ -1,15 +1,15 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Noticia Text",
-  "category": "serif",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v9",
-  "lastModified": "2019-07-17",
+  "version": "v10",
+  "lastModified": "2020-09-02",
   "files": {
-    "700": "http://fonts.gstatic.com/s/noticiatext/v9/VuJpdNDF2Yv9qppOePKYRP1-3R59v2HRrDH0eA.ttf",
-    "regular": "http://fonts.gstatic.com/s/noticiatext/v9/VuJ2dNDF2Yv9qppOePKYRP1GYTFZt0rNpQ.ttf",
-    "italic": "http://fonts.gstatic.com/s/noticiatext/v9/VuJodNDF2Yv9qppOePKYRP12YztdlU_dpSjt.ttf",
-    "700italic": "http://fonts.gstatic.com/s/noticiatext/v9/VuJrdNDF2Yv9qppOePKYRP12YwPhumvVjjTkeMnz.ttf"
-  }
+    "700": "http://fonts.gstatic.com/s/noticiatext/v10/VuJpdNDF2Yv9qppOePKYRP1-3R59v2HRrDH0eA.ttf",
+    "regular": "http://fonts.gstatic.com/s/noticiatext/v10/VuJ2dNDF2Yv9qppOePKYRP1GYTFZt0rNpQ.ttf",
+    "italic": "http://fonts.gstatic.com/s/noticiatext/v10/VuJodNDF2Yv9qppOePKYRP12YztdlU_dpSjt.ttf",
+    "700italic": "http://fonts.gstatic.com/s/noticiatext/v10/VuJrdNDF2Yv9qppOePKYRP12YwPhumvVjjTkeMnz.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

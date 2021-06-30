@@ -11,9 +11,26 @@ This package lets you use the [**Petrona**](https://fonts.google.com/specimen/Pe
 
 ![Petrona](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [18 styles](#-gallery).
 
+- `Petrona_100Thin`
+- `Petrona_200ExtraLight`
+- `Petrona_300Light`
 - `Petrona_400Regular`
+- `Petrona_500Medium`
+- `Petrona_600SemiBold`
+- `Petrona_700Bold`
+- `Petrona_800ExtraBold`
+- `Petrona_900Black`
+- `Petrona_100Thin_Italic`
+- `Petrona_200ExtraLight_Italic`
+- `Petrona_300Light_Italic`
+- `Petrona_400Regular_Italic`
+- `Petrona_500Medium_Italic`
+- `Petrona_600SemiBold_Italic`
+- `Petrona_700Bold_Italic`
+- `Petrona_800ExtraBold_Italic`
+- `Petrona_900Black_Italic`
 
 ## Usage
 
@@ -28,11 +45,48 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts, Petrona_400Regular } from '@expo-google-fonts/petrona';
+import {
+  useFonts,
+  Petrona_100Thin,
+  Petrona_200ExtraLight,
+  Petrona_300Light,
+  Petrona_400Regular,
+  Petrona_500Medium,
+  Petrona_600SemiBold,
+  Petrona_700Bold,
+  Petrona_800ExtraBold,
+  Petrona_900Black,
+  Petrona_100Thin_Italic,
+  Petrona_200ExtraLight_Italic,
+  Petrona_300Light_Italic,
+  Petrona_400Regular_Italic,
+  Petrona_500Medium_Italic,
+  Petrona_600SemiBold_Italic,
+  Petrona_700Bold_Italic,
+  Petrona_800ExtraBold_Italic,
+  Petrona_900Black_Italic,
+} from '@expo-google-fonts/petrona';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    Petrona_100Thin,
+    Petrona_200ExtraLight,
+    Petrona_300Light,
     Petrona_400Regular,
+    Petrona_500Medium,
+    Petrona_600SemiBold,
+    Petrona_700Bold,
+    Petrona_800ExtraBold,
+    Petrona_900Black,
+    Petrona_100Thin_Italic,
+    Petrona_200ExtraLight_Italic,
+    Petrona_300Light_Italic,
+    Petrona_400Regular_Italic,
+    Petrona_500Medium_Italic,
+    Petrona_600SemiBold_Italic,
+    Petrona_700Bold_Italic,
+    Petrona_800ExtraBold_Italic,
+    Petrona_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -48,9 +102,179 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Petrona_100Thin',
+          }}>
+          Petrona Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Petrona_200ExtraLight',
+          }}>
+          Petrona Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Petrona_300Light',
+          }}>
+          Petrona Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Petrona_400Regular',
           }}>
           Petrona Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Petrona_500Medium',
+          }}>
+          Petrona Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Petrona_600SemiBold',
+          }}>
+          Petrona Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Petrona_700Bold',
+          }}>
+          Petrona Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Petrona_800ExtraBold',
+          }}>
+          Petrona Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Petrona_900Black',
+          }}>
+          Petrona Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Petrona_100Thin_Italic',
+          }}>
+          Petrona Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Petrona_200ExtraLight_Italic',
+          }}>
+          Petrona Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Petrona_300Light_Italic',
+          }}>
+          Petrona Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Petrona_400Regular_Italic',
+          }}>
+          Petrona Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Petrona_500Medium_Italic',
+          }}>
+          Petrona Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Petrona_600SemiBold_Italic',
+          }}>
+          Petrona Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Petrona_700Bold_Italic',
+          }}>
+          Petrona Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Petrona_800ExtraBold_Italic',
+          }}>
+          Petrona Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Petrona_900Black_Italic',
+          }}>
+          Petrona Black Italic
         </Text>
       </View>
     );
@@ -64,7 +288,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Petrona_400Regular](./Petrona_400Regular.ttf.png)||||
+|![Petrona_100Thin](./Petrona_100Thin.ttf.png)|![Petrona_200ExtraLight](./Petrona_200ExtraLight.ttf.png)|![Petrona_300Light](./Petrona_300Light.ttf.png)||
+|![Petrona_400Regular](./Petrona_400Regular.ttf.png)|![Petrona_500Medium](./Petrona_500Medium.ttf.png)|![Petrona_600SemiBold](./Petrona_600SemiBold.ttf.png)||
+|![Petrona_700Bold](./Petrona_700Bold.ttf.png)|![Petrona_800ExtraBold](./Petrona_800ExtraBold.ttf.png)|![Petrona_900Black](./Petrona_900Black.ttf.png)||
+|![Petrona_100Thin_Italic](./Petrona_100Thin_Italic.ttf.png)|![Petrona_200ExtraLight_Italic](./Petrona_200ExtraLight_Italic.ttf.png)|![Petrona_300Light_Italic](./Petrona_300Light_Italic.ttf.png)||
+|![Petrona_400Regular_Italic](./Petrona_400Regular_Italic.ttf.png)|![Petrona_500Medium_Italic](./Petrona_500Medium_Italic.ttf.png)|![Petrona_600SemiBold_Italic](./Petrona_600SemiBold_Italic.ttf.png)||
+|![Petrona_700Bold_Italic](./Petrona_700Bold_Italic.ttf.png)|![Petrona_800ExtraBold_Italic](./Petrona_800ExtraBold_Italic.ttf.png)|![Petrona_900Black_Italic](./Petrona_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

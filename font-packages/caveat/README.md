@@ -11,9 +11,11 @@ This package lets you use the [**Caveat**](https://fonts.google.com/specimen/Cav
 
 ![Caveat](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [4 styles](#-gallery).
 
 - `Caveat_400Regular`
+- `Caveat_500Medium`
+- `Caveat_600SemiBold`
 - `Caveat_700Bold`
 
 ## Usage
@@ -29,11 +31,19 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import { AppLoading } from 'expo';
-import { useFonts, Caveat_400Regular, Caveat_700Bold } from '@expo-google-fonts/caveat';
+import {
+  useFonts,
+  Caveat_400Regular,
+  Caveat_500Medium,
+  Caveat_600SemiBold,
+  Caveat_700Bold,
+} from '@expo-google-fonts/caveat';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Caveat_400Regular,
+    Caveat_500Medium,
+    Caveat_600SemiBold,
     Caveat_700Bold,
   });
 
@@ -60,6 +70,26 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Caveat_500Medium',
+          }}>
+          Caveat Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Caveat_600SemiBold',
+          }}>
+          Caveat Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Caveat_700Bold',
           }}>
           Caveat Bold
@@ -76,7 +106,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Caveat_400Regular](./Caveat_400Regular.ttf.png)|![Caveat_700Bold](./Caveat_700Bold.ttf.png)|||
+|![Caveat_400Regular](./Caveat_400Regular.ttf.png)|![Caveat_500Medium](./Caveat_500Medium.ttf.png)|![Caveat_600SemiBold](./Caveat_600SemiBold.ttf.png)||
+|![Caveat_700Bold](./Caveat_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

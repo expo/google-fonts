@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Piedra",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/piedra/v8/ke8kOg8aN0Bn7hTunEyHN_M3gA.ttf" }
+  "version": "v11",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/piedra/v11/ke8kOg8aN0Bn7hTunEyHN_M3gA.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

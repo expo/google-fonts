@@ -1,7 +1,5 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Trirong",
-  "category": "serif",
   "variants": [
     "100",
     "100italic",
@@ -23,26 +21,28 @@
     "900italic"
   ],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2019-07-16",
+  "version": "v6",
+  "lastModified": "2020-09-02",
   "files": {
-    "100": "http://fonts.gstatic.com/s/trirong/v5/7r3EqXNgp8wxdOdOl-go3YRl6ujngw.ttf",
-    "200": "http://fonts.gstatic.com/s/trirong/v5/7r3DqXNgp8wxdOdOl0QJ_a5L5uH-mts.ttf",
-    "300": "http://fonts.gstatic.com/s/trirong/v5/7r3DqXNgp8wxdOdOlyAK_a5L5uH-mts.ttf",
-    "500": "http://fonts.gstatic.com/s/trirong/v5/7r3DqXNgp8wxdOdOl3gL_a5L5uH-mts.ttf",
-    "600": "http://fonts.gstatic.com/s/trirong/v5/7r3DqXNgp8wxdOdOl1QM_a5L5uH-mts.ttf",
-    "700": "http://fonts.gstatic.com/s/trirong/v5/7r3DqXNgp8wxdOdOlzAN_a5L5uH-mts.ttf",
-    "800": "http://fonts.gstatic.com/s/trirong/v5/7r3DqXNgp8wxdOdOlywO_a5L5uH-mts.ttf",
-    "900": "http://fonts.gstatic.com/s/trirong/v5/7r3DqXNgp8wxdOdOlwgP_a5L5uH-mts.ttf",
-    "100italic": "http://fonts.gstatic.com/s/trirong/v5/7r3CqXNgp8wxdOdOn44QuY5hyO33g8IY.ttf",
-    "200italic": "http://fonts.gstatic.com/s/trirong/v5/7r3BqXNgp8wxdOdOn44QFa9B4sP7itsB5g.ttf",
-    "300italic": "http://fonts.gstatic.com/s/trirong/v5/7r3BqXNgp8wxdOdOn44QcaxB4sP7itsB5g.ttf",
-    "regular": "http://fonts.gstatic.com/s/trirong/v5/7r3GqXNgp8wxdOdOr4wi2aZg-ug.ttf",
-    "italic": "http://fonts.gstatic.com/s/trirong/v5/7r3EqXNgp8wxdOdOn44o3YRl6ujngw.ttf",
-    "500italic": "http://fonts.gstatic.com/s/trirong/v5/7r3BqXNgp8wxdOdOn44QKa1B4sP7itsB5g.ttf",
-    "600italic": "http://fonts.gstatic.com/s/trirong/v5/7r3BqXNgp8wxdOdOn44QBapB4sP7itsB5g.ttf",
-    "700italic": "http://fonts.gstatic.com/s/trirong/v5/7r3BqXNgp8wxdOdOn44QYatB4sP7itsB5g.ttf",
-    "800italic": "http://fonts.gstatic.com/s/trirong/v5/7r3BqXNgp8wxdOdOn44QfahB4sP7itsB5g.ttf",
-    "900italic": "http://fonts.gstatic.com/s/trirong/v5/7r3BqXNgp8wxdOdOn44QWalB4sP7itsB5g.ttf"
-  }
+    "100": "http://fonts.gstatic.com/s/trirong/v6/7r3EqXNgp8wxdOdOl-go3YRl6ujngw.ttf",
+    "200": "http://fonts.gstatic.com/s/trirong/v6/7r3DqXNgp8wxdOdOl0QJ_a5L5uH-mts.ttf",
+    "300": "http://fonts.gstatic.com/s/trirong/v6/7r3DqXNgp8wxdOdOlyAK_a5L5uH-mts.ttf",
+    "500": "http://fonts.gstatic.com/s/trirong/v6/7r3DqXNgp8wxdOdOl3gL_a5L5uH-mts.ttf",
+    "600": "http://fonts.gstatic.com/s/trirong/v6/7r3DqXNgp8wxdOdOl1QM_a5L5uH-mts.ttf",
+    "700": "http://fonts.gstatic.com/s/trirong/v6/7r3DqXNgp8wxdOdOlzAN_a5L5uH-mts.ttf",
+    "800": "http://fonts.gstatic.com/s/trirong/v6/7r3DqXNgp8wxdOdOlywO_a5L5uH-mts.ttf",
+    "900": "http://fonts.gstatic.com/s/trirong/v6/7r3DqXNgp8wxdOdOlwgP_a5L5uH-mts.ttf",
+    "100italic": "http://fonts.gstatic.com/s/trirong/v6/7r3CqXNgp8wxdOdOn44QuY5hyO33g8IY.ttf",
+    "200italic": "http://fonts.gstatic.com/s/trirong/v6/7r3BqXNgp8wxdOdOn44QFa9B4sP7itsB5g.ttf",
+    "300italic": "http://fonts.gstatic.com/s/trirong/v6/7r3BqXNgp8wxdOdOn44QcaxB4sP7itsB5g.ttf",
+    "regular": "http://fonts.gstatic.com/s/trirong/v6/7r3GqXNgp8wxdOdOr4wi2aZg-ug.ttf",
+    "italic": "http://fonts.gstatic.com/s/trirong/v6/7r3EqXNgp8wxdOdOn44o3YRl6ujngw.ttf",
+    "500italic": "http://fonts.gstatic.com/s/trirong/v6/7r3BqXNgp8wxdOdOn44QKa1B4sP7itsB5g.ttf",
+    "600italic": "http://fonts.gstatic.com/s/trirong/v6/7r3BqXNgp8wxdOdOn44QBapB4sP7itsB5g.ttf",
+    "700italic": "http://fonts.gstatic.com/s/trirong/v6/7r3BqXNgp8wxdOdOn44QYatB4sP7itsB5g.ttf",
+    "800italic": "http://fonts.gstatic.com/s/trirong/v6/7r3BqXNgp8wxdOdOn44QfahB4sP7itsB5g.ttf",
+    "900italic": "http://fonts.gstatic.com/s/trirong/v6/7r3BqXNgp8wxdOdOn44QWalB4sP7itsB5g.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

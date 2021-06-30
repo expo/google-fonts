@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "La Belle Aurore",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/labelleaurore/v10/RrQIbot8-mNYKnGNDkWlocovHeIIG-eFNVmULg.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/labelleaurore/v11/RrQIbot8-mNYKnGNDkWlocovHeIIG-eFNVmULg.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

@@ -1,7 +1,5 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Nanum Gothic Coding",
-  "category": "monospace",
   "variants": ["regular", "700"],
   "subsets": ["korean", "latin"],
   "version": "v14",
@@ -9,5 +7,7 @@
   "files": {
     "700": "http://fonts.gstatic.com/s/nanumgothiccoding/v14/8QIYdjzHisX_8vv59_xMxtPFW4IXROws8xgecsV88t5V9r4.ttf",
     "regular": "http://fonts.gstatic.com/s/nanumgothiccoding/v14/8QIVdjzHisX_8vv59_xMxtPFW4IXROwsy6QxVs1X7tc.ttf"
-  }
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont"
 }

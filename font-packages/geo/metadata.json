@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Geo",
-  "category": "sans-serif",
   "variants": ["regular", "italic"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2019-07-16",
+  "version": "v14",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/geo/v11/CSRz4zRZlufVL3BmQjlCbQ.ttf",
-    "italic": "http://fonts.gstatic.com/s/geo/v11/CSRx4zRZluflLXpiYDxSbf8r.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/geo/v14/CSRz4zRZlufVL3BmQjlCbQ.ttf",
+    "italic": "http://fonts.gstatic.com/s/geo/v14/CSRx4zRZluflLXpiYDxSbf8r.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

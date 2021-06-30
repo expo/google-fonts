@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Offside",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/offside/v7/HI_KiYMWKa9QrAykQ5HiRp-dhpQ.ttf" }
+  "version": "v10",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/offside/v10/HI_KiYMWKa9QrAykQ5HiRp-dhpQ.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

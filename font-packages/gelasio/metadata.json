@@ -1,19 +1,19 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Gelasio",
-  "category": "serif",
   "variants": ["regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v1",
-  "lastModified": "2020-03-03",
+  "version": "v4",
+  "lastModified": "2021-03-24",
   "files": {
-    "500": "http://fonts.gstatic.com/s/gelasio/v1/cIf4MaFfvUQxTTqS_N2CRGEsnIJkWL4.ttf",
-    "600": "http://fonts.gstatic.com/s/gelasio/v1/cIf4MaFfvUQxTTqS_PGFRGEsnIJkWL4.ttf",
-    "700": "http://fonts.gstatic.com/s/gelasio/v1/cIf4MaFfvUQxTTqS_JWERGEsnIJkWL4.ttf",
-    "regular": "http://fonts.gstatic.com/s/gelasio/v1/cIf9MaFfvUQxTTqSxCmrYGkHgIs.ttf",
-    "italic": "http://fonts.gstatic.com/s/gelasio/v1/cIf_MaFfvUQxTTqS9CuhZEsCkIt9QQ.ttf",
-    "500italic": "http://fonts.gstatic.com/s/gelasio/v1/cIf6MaFfvUQxTTqS9CuZkGImmKBhSL7Y1Q.ttf",
-    "600italic": "http://fonts.gstatic.com/s/gelasio/v1/cIf6MaFfvUQxTTqS9CuZvGUmmKBhSL7Y1Q.ttf",
-    "700italic": "http://fonts.gstatic.com/s/gelasio/v1/cIf6MaFfvUQxTTqS9CuZ2GQmmKBhSL7Y1Q.ttf"
-  }
+    "500": "http://fonts.gstatic.com/s/gelasio/v4/cIf4MaFfvUQxTTqS_N2CRGEsnIJkWL4.ttf",
+    "600": "http://fonts.gstatic.com/s/gelasio/v4/cIf4MaFfvUQxTTqS_PGFRGEsnIJkWL4.ttf",
+    "700": "http://fonts.gstatic.com/s/gelasio/v4/cIf4MaFfvUQxTTqS_JWERGEsnIJkWL4.ttf",
+    "regular": "http://fonts.gstatic.com/s/gelasio/v4/cIf9MaFfvUQxTTqSxCmrYGkHgIs.ttf",
+    "italic": "http://fonts.gstatic.com/s/gelasio/v4/cIf_MaFfvUQxTTqS9CuhZEsCkIt9QQ.ttf",
+    "500italic": "http://fonts.gstatic.com/s/gelasio/v4/cIf6MaFfvUQxTTqS9CuZkGImmKBhSL7Y1Q.ttf",
+    "600italic": "http://fonts.gstatic.com/s/gelasio/v4/cIf6MaFfvUQxTTqS9CuZvGUmmKBhSL7Y1Q.ttf",
+    "700italic": "http://fonts.gstatic.com/s/gelasio/v4/cIf6MaFfvUQxTTqS9CuZ2GQmmKBhSL7Y1Q.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

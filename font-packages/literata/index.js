@@ -5,11 +5,19 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const Literata_200ExtraLight = require('./Literata_200ExtraLight.ttf');
+export const Literata_300Light = require('./Literata_300Light.ttf');
 export const Literata_400Regular = require('./Literata_400Regular.ttf');
 export const Literata_500Medium = require('./Literata_500Medium.ttf');
 export const Literata_600SemiBold = require('./Literata_600SemiBold.ttf');
 export const Literata_700Bold = require('./Literata_700Bold.ttf');
+export const Literata_800ExtraBold = require('./Literata_800ExtraBold.ttf');
+export const Literata_900Black = require('./Literata_900Black.ttf');
+export const Literata_200ExtraLight_Italic = require('./Literata_200ExtraLight_Italic.ttf');
+export const Literata_300Light_Italic = require('./Literata_300Light_Italic.ttf');
 export const Literata_400Regular_Italic = require('./Literata_400Regular_Italic.ttf');
 export const Literata_500Medium_Italic = require('./Literata_500Medium_Italic.ttf');
 export const Literata_600SemiBold_Italic = require('./Literata_600SemiBold_Italic.ttf');
 export const Literata_700Bold_Italic = require('./Literata_700Bold_Italic.ttf');
+export const Literata_800ExtraBold_Italic = require('./Literata_800ExtraBold_Italic.ttf');
+export const Literata_900Black_Italic = require('./Literata_900Black_Italic.ttf');

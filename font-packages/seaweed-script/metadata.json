@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Seaweed Script",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v8",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/seaweedscript/v7/bx6cNx6Tne2pxOATYE8C_Rsoe0WJ-KcGVbLW.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/seaweedscript/v8/bx6cNx6Tne2pxOATYE8C_Rsoe0WJ-KcGVbLW.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

@@ -1,18 +1,20 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Heebo",
-  "category": "sans-serif",
-  "variants": ["100", "300", "regular", "500", "700", "800", "900"],
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["hebrew", "latin"],
-  "version": "v5",
-  "lastModified": "2019-07-22",
+  "version": "v10",
+  "lastModified": "2021-01-30",
   "files": {
-    "100": "http://fonts.gstatic.com/s/heebo/v5/NGS0v5_NC0k9P9mVTbRhtKMByaw.ttf",
-    "300": "http://fonts.gstatic.com/s/heebo/v5/NGS3v5_NC0k9P9ldb5RLmq8I0LVF.ttf",
-    "500": "http://fonts.gstatic.com/s/heebo/v5/NGS3v5_NC0k9P9kFbpRLmq8I0LVF.ttf",
-    "700": "http://fonts.gstatic.com/s/heebo/v5/NGS3v5_NC0k9P9lNaJRLmq8I0LVF.ttf",
-    "800": "http://fonts.gstatic.com/s/heebo/v5/NGS3v5_NC0k9P9lRa5RLmq8I0LVF.ttf",
-    "900": "http://fonts.gstatic.com/s/heebo/v5/NGS3v5_NC0k9P9l1apRLmq8I0LVF.ttf",
-    "regular": "http://fonts.gstatic.com/s/heebo/v5/NGS6v5_NC0k9P-HxR7BDsbMB.ttf"
-  }
+    "100": "http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiS2cckOnz02SXQ.ttf",
+    "200": "http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1ECSycckOnz02SXQ.ttf",
+    "300": "http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1E1yycckOnz02SXQ.ttf",
+    "500": "http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EuyycckOnz02SXQ.ttf",
+    "600": "http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EVyucckOnz02SXQ.ttf",
+    "700": "http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EbiucckOnz02SXQ.ttf",
+    "800": "http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1ECSucckOnz02SXQ.ttf",
+    "900": "http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EICucckOnz02SXQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiSycckOnz02SXQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

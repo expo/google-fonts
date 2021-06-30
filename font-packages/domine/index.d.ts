@@ -7,4 +7,6 @@ export { useFonts } from './useFonts';
 
 export const __metdata__: Any;
 export const Domine_400Regular: number;
+export const Domine_500Medium: number;
+export const Domine_600SemiBold: number;
 export const Domine_700Bold: number;

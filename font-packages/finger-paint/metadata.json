@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Finger Paint",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v10",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/fingerpaint/v9/0QInMXVJ-o-oRn_7dron8YWO85bS8ANesw.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/fingerpaint/v10/0QInMXVJ-o-oRn_7dron8YWO85bS8ANesw.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

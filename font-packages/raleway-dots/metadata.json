@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Raleway Dots",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v8",
+  "lastModified": "2020-07-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/ralewaydots/v7/6NUR8FifJg6AfQvzpshgwJ8kyf9Fdty2ew.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/ralewaydots/v8/6NUR8FifJg6AfQvzpshgwJ8kyf9Fdty2ew.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

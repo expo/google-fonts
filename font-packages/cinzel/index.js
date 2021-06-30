@@ -6,5 +6,8 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const Cinzel_400Regular = require('./Cinzel_400Regular.ttf');
+export const Cinzel_500Medium = require('./Cinzel_500Medium.ttf');
+export const Cinzel_600SemiBold = require('./Cinzel_600SemiBold.ttf');
 export const Cinzel_700Bold = require('./Cinzel_700Bold.ttf');
+export const Cinzel_800ExtraBold = require('./Cinzel_800ExtraBold.ttf');
 export const Cinzel_900Black = require('./Cinzel_900Black.ttf');

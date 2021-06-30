@@ -1,17 +1,17 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Noto Sans HK",
-  "category": "sans-serif",
   "variants": ["100", "300", "regular", "500", "700", "900"],
   "subsets": ["chinese-hongkong", "latin"],
-  "version": "v5",
-  "lastModified": "2019-07-16",
+  "version": "v6",
+  "lastModified": "2020-11-12",
   "files": {
-    "100": "http://fonts.gstatic.com/s/notosanshk/v5/nKKO-GM_FYFRJvXzVXaAPe9ZUHp1MOv2ObB7.otf",
-    "300": "http://fonts.gstatic.com/s/notosanshk/v5/nKKP-GM_FYFRJvXzVXaAPe9ZmFhTHMX6MKliqQ.otf",
-    "500": "http://fonts.gstatic.com/s/notosanshk/v5/nKKP-GM_FYFRJvXzVXaAPe9ZwFlTHMX6MKliqQ.otf",
-    "700": "http://fonts.gstatic.com/s/notosanshk/v5/nKKP-GM_FYFRJvXzVXaAPe9ZiF9THMX6MKliqQ.otf",
-    "900": "http://fonts.gstatic.com/s/notosanshk/v5/nKKP-GM_FYFRJvXzVXaAPe9ZsF1THMX6MKliqQ.otf",
-    "regular": "http://fonts.gstatic.com/s/notosanshk/v5/nKKQ-GM_FYFRJvXzVXaAPe9hMnB3Eu7mOQ.otf"
-  }
+    "100": "http://fonts.gstatic.com/s/notosanshk/v6/nKKO-GM_FYFRJvXzVXaAPe9ZUHp1MOv2ObB7.otf",
+    "300": "http://fonts.gstatic.com/s/notosanshk/v6/nKKP-GM_FYFRJvXzVXaAPe9ZmFhTHMX6MKliqQ.otf",
+    "500": "http://fonts.gstatic.com/s/notosanshk/v6/nKKP-GM_FYFRJvXzVXaAPe9ZwFlTHMX6MKliqQ.otf",
+    "700": "http://fonts.gstatic.com/s/notosanshk/v6/nKKP-GM_FYFRJvXzVXaAPe9ZiF9THMX6MKliqQ.otf",
+    "900": "http://fonts.gstatic.com/s/notosanshk/v6/nKKP-GM_FYFRJvXzVXaAPe9ZsF1THMX6MKliqQ.otf",
+    "regular": "http://fonts.gstatic.com/s/notosanshk/v6/nKKQ-GM_FYFRJvXzVXaAPe9hMnB3Eu7mOQ.otf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

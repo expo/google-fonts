@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Architects Daughter",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2020-09-10",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvfY5q4szgE-Q.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/architectsdaughter/v11/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvfY5q4szgE-Q.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

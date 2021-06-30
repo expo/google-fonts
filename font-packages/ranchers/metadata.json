@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Ranchers",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/ranchers/v7/zrfm0H3Lx-P2Xvs2AoDYDC79XTHv.ttf" }
+  "version": "v8",
+  "lastModified": "2020-07-23",
+  "files": { "regular": "http://fonts.gstatic.com/s/ranchers/v8/zrfm0H3Lx-P2Xvs2AoDYDC79XTHv.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

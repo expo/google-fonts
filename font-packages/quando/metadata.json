@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Quando",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/quando/v8/xMQVuFNaVa6YuW0pC6WzKX_QmA.ttf" }
+  "version": "v9",
+  "lastModified": "2020-07-23",
+  "files": { "regular": "http://fonts.gstatic.com/s/quando/v9/xMQVuFNaVa6YuW0pC6WzKX_QmA.ttf" },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

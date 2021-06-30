@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Galada",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["bengali", "latin"],
-  "version": "v5",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/galada/v5/H4cmBXyGmcjXlUX-8iw-4Lqggw.ttf" }
+  "version": "v8",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/galada/v8/H4cmBXyGmcjXlUX-8iw-4Lqggw.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

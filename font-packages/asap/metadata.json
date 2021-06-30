@@ -1,19 +1,19 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Asap",
-  "category": "sans-serif",
-  "variants": ["regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v11",
-  "lastModified": "2019-07-26",
+  "version": "v15",
+  "lastModified": "2021-03-22",
   "files": {
-    "500": "http://fonts.gstatic.com/s/asap/v11/KFOnCniXp96aw8g9xUxlBz88MsA.ttf",
-    "600": "http://fonts.gstatic.com/s/asap/v11/KFOnCniXp96aw-Q6xUxlBz88MsA.ttf",
-    "700": "http://fonts.gstatic.com/s/asap/v11/KFOnCniXp96aw4A7xUxlBz88MsA.ttf",
-    "regular": "http://fonts.gstatic.com/s/asap/v11/KFOoCniXp96a-zwU4UROGzY.ttf",
-    "italic": "http://fonts.gstatic.com/s/asap/v11/KFOmCniXp96ayz4e5WZLCzYlKw.ttf",
-    "500italic": "http://fonts.gstatic.com/s/asap/v11/KFOlCniXp96ayz4mEU9vAx05IsDqlA.ttf",
-    "600italic": "http://fonts.gstatic.com/s/asap/v11/KFOlCniXp96ayz4mPUhvAx05IsDqlA.ttf",
-    "700italic": "http://fonts.gstatic.com/s/asap/v11/KFOlCniXp96ayz4mWUlvAx05IsDqlA.ttf"
-  }
+    "500": "http://fonts.gstatic.com/s/asap/v15/KFO9CniXp96a4Tc2EZzSuDAoKsEI1qhOUX-8AEEe.ttf",
+    "600": "http://fonts.gstatic.com/s/asap/v15/KFO9CniXp96a4Tc2EZzSuDAoKsHk0ahOUX-8AEEe.ttf",
+    "700": "http://fonts.gstatic.com/s/asap/v15/KFO9CniXp96a4Tc2EZzSuDAoKsHd0ahOUX-8AEEe.ttf",
+    "regular": "http://fonts.gstatic.com/s/asap/v15/KFO9CniXp96a4Tc2EZzSuDAoKsE61qhOUX-8AEEe.ttf",
+    "italic": "http://fonts.gstatic.com/s/asap/v15/KFO7CniXp96ayz4E7kS706qGLdTylUANW3ueBVEeezU.ttf",
+    "500italic": "http://fonts.gstatic.com/s/asap/v15/KFO7CniXp96ayz4E7kS706qGLdTylXINW3ueBVEeezU.ttf",
+    "600italic": "http://fonts.gstatic.com/s/asap/v15/KFO7CniXp96ayz4E7kS706qGLdTylZ4KW3ueBVEeezU.ttf",
+    "700italic": "http://fonts.gstatic.com/s/asap/v15/KFO7CniXp96ayz4E7kS706qGLdTylacKW3ueBVEeezU.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

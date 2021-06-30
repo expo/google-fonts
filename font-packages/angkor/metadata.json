@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Angkor",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["khmer"],
-  "version": "v12",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/angkor/v12/H4cmBXyAlsPdnlb-8iw-4Lqggw.ttf" }
+  "version": "v15",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/angkor/v15/H4cmBXyAlsPdnlb-8iw-4Lqggw.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

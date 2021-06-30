@@ -1,13 +1,13 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Arapey",
-  "category": "serif",
   "variants": ["regular", "italic"],
   "subsets": ["latin"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v9",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/arapey/v8/-W__XJn-UDDA2RC6Z9AcZkIzeg.ttf",
-    "italic": "http://fonts.gstatic.com/s/arapey/v8/-W_9XJn-UDDA2RCKZdoYREcjeo0k.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/arapey/v9/-W__XJn-UDDA2RC6Z9AcZkIzeg.ttf",
+    "italic": "http://fonts.gstatic.com/s/arapey/v9/-W_9XJn-UDDA2RCKZdoYREcjeo0k.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Bungee Hairline",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2019-07-16",
+  "version": "v8",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/bungeehairline/v5/snfys0G548t04270a_ljTLUVrv-7YB2dQ5ZPqQ.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/bungeehairline/v8/snfys0G548t04270a_ljTLUVrv-7YB2dQ5ZPqQ.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

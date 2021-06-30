@@ -1,16 +1,16 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Yrsa",
-  "category": "serif",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2019-07-16",
+  "version": "v6",
+  "lastModified": "2020-09-02",
   "files": {
-    "300": "http://fonts.gstatic.com/s/yrsa/v5/wlpxgwnQFlxs3af93IQ73W5OcCk.ttf",
-    "500": "http://fonts.gstatic.com/s/yrsa/v5/wlpxgwnQFlxs3f_83IQ73W5OcCk.ttf",
-    "600": "http://fonts.gstatic.com/s/yrsa/v5/wlpxgwnQFlxs3dP73IQ73W5OcCk.ttf",
-    "700": "http://fonts.gstatic.com/s/yrsa/v5/wlpxgwnQFlxs3bf63IQ73W5OcCk.ttf",
-    "regular": "http://fonts.gstatic.com/s/yrsa/v5/wlp-gwnQFlxs5QvV-IwQwWc.ttf"
-  }
+    "300": "http://fonts.gstatic.com/s/yrsa/v6/wlpxgwnQFlxs3af93IQ73W5OcCk.ttf",
+    "500": "http://fonts.gstatic.com/s/yrsa/v6/wlpxgwnQFlxs3f_83IQ73W5OcCk.ttf",
+    "600": "http://fonts.gstatic.com/s/yrsa/v6/wlpxgwnQFlxs3dP73IQ73W5OcCk.ttf",
+    "700": "http://fonts.gstatic.com/s/yrsa/v6/wlpxgwnQFlxs3bf63IQ73W5OcCk.ttf",
+    "regular": "http://fonts.gstatic.com/s/yrsa/v6/wlp-gwnQFlxs5QvV-IwQwWc.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Suravaram",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v6",
-  "lastModified": "2019-07-16",
+  "version": "v11",
+  "lastModified": "2021-03-24",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/suravaram/v6/_gP61R_usiY7SCym4xIAi261Qv9roQ.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/suravaram/v11/_gP61R_usiY7SCym4xIAi261Qv9roQ.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

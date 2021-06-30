@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Nova Square",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2019-07-16",
+  "version": "v15",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/novasquare/v12/RrQUbo9-9DV7b06QHgSWsZhARYMgGtWA.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/novasquare/v15/RrQUbo9-9DV7b06QHgSWsZhARYMgGtWA.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

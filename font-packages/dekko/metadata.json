@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Dekko",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v6",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/dekko/v6/46khlb_wWjfSrttFR0vsfl1B.ttf" }
+  "version": "v9",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/dekko/v9/46khlb_wWjfSrttFR0vsfl1B.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

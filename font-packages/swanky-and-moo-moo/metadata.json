@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Swanky and Moo Moo",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/swankyandmoomoo/v9/flUlRrKz24IuWVI_WJYTYcqbEsMUZ3kUtbPkR64SYQ.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/swankyandmoomoo/v12/flUlRrKz24IuWVI_WJYTYcqbEsMUZ3kUtbPkR64SYQ.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

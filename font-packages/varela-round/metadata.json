@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Varela Round",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["hebrew", "latin", "latin-ext", "vietnamese"],
-  "version": "v12",
-  "lastModified": "2019-07-17",
+  "version": "v13",
+  "lastModified": "2020-09-10",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/varelaround/v12/w8gdH283Tvk__Lua32TysjIvoMGOD9gxZw.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/varelaround/v13/w8gdH283Tvk__Lua32TysjIvoMGOD9gxZw.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

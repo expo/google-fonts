@@ -14,22 +14,22 @@ This package lets you use the [**Raleway**](https://fonts.google.com/specimen/Ra
 This font family contains [18 styles](#-gallery).
 
 - `Raleway_100Thin`
-- `Raleway_100Thin_Italic`
 - `Raleway_200ExtraLight`
-- `Raleway_200ExtraLight_Italic`
 - `Raleway_300Light`
-- `Raleway_300Light_Italic`
 - `Raleway_400Regular`
-- `Raleway_400Regular_Italic`
 - `Raleway_500Medium`
-- `Raleway_500Medium_Italic`
 - `Raleway_600SemiBold`
-- `Raleway_600SemiBold_Italic`
 - `Raleway_700Bold`
-- `Raleway_700Bold_Italic`
 - `Raleway_800ExtraBold`
-- `Raleway_800ExtraBold_Italic`
 - `Raleway_900Black`
+- `Raleway_100Thin_Italic`
+- `Raleway_200ExtraLight_Italic`
+- `Raleway_300Light_Italic`
+- `Raleway_400Regular_Italic`
+- `Raleway_500Medium_Italic`
+- `Raleway_600SemiBold_Italic`
+- `Raleway_700Bold_Italic`
+- `Raleway_800ExtraBold_Italic`
 - `Raleway_900Black_Italic`
 
 ## Usage
@@ -48,44 +48,44 @@ import { AppLoading } from 'expo';
 import {
   useFonts,
   Raleway_100Thin,
-  Raleway_100Thin_Italic,
   Raleway_200ExtraLight,
-  Raleway_200ExtraLight_Italic,
   Raleway_300Light,
-  Raleway_300Light_Italic,
   Raleway_400Regular,
-  Raleway_400Regular_Italic,
   Raleway_500Medium,
-  Raleway_500Medium_Italic,
   Raleway_600SemiBold,
-  Raleway_600SemiBold_Italic,
   Raleway_700Bold,
-  Raleway_700Bold_Italic,
   Raleway_800ExtraBold,
-  Raleway_800ExtraBold_Italic,
   Raleway_900Black,
+  Raleway_100Thin_Italic,
+  Raleway_200ExtraLight_Italic,
+  Raleway_300Light_Italic,
+  Raleway_400Regular_Italic,
+  Raleway_500Medium_Italic,
+  Raleway_600SemiBold_Italic,
+  Raleway_700Bold_Italic,
+  Raleway_800ExtraBold_Italic,
   Raleway_900Black_Italic,
 } from '@expo-google-fonts/raleway';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Raleway_100Thin,
-    Raleway_100Thin_Italic,
     Raleway_200ExtraLight,
-    Raleway_200ExtraLight_Italic,
     Raleway_300Light,
-    Raleway_300Light_Italic,
     Raleway_400Regular,
-    Raleway_400Regular_Italic,
     Raleway_500Medium,
-    Raleway_500Medium_Italic,
     Raleway_600SemiBold,
-    Raleway_600SemiBold_Italic,
     Raleway_700Bold,
-    Raleway_700Bold_Italic,
     Raleway_800ExtraBold,
-    Raleway_800ExtraBold_Italic,
     Raleway_900Black,
+    Raleway_100Thin_Italic,
+    Raleway_200ExtraLight_Italic,
+    Raleway_300Light_Italic,
+    Raleway_400Regular_Italic,
+    Raleway_500Medium_Italic,
+    Raleway_600SemiBold_Italic,
+    Raleway_700Bold_Italic,
+    Raleway_800ExtraBold_Italic,
     Raleway_900Black_Italic,
   });
 
@@ -112,29 +112,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_100Thin_Italic',
-          }}>
-          Raleway Thin Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Raleway_200ExtraLight',
           }}>
           Raleway Extra Light
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_200ExtraLight_Italic',
-          }}>
-          Raleway Extra Light Italic
         </Text>
 
         <Text
@@ -152,29 +132,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_300Light_Italic',
-          }}>
-          Raleway Light Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Raleway_400Regular',
           }}>
           Raleway Regular
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_400Regular_Italic',
-          }}>
-          Raleway Italic
         </Text>
 
         <Text
@@ -192,29 +152,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_500Medium_Italic',
-          }}>
-          Raleway Medium Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Raleway_600SemiBold',
           }}>
           Raleway Semi Bold
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_600SemiBold_Italic',
-          }}>
-          Raleway Semi Bold Italic
         </Text>
 
         <Text
@@ -232,16 +172,6 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_700Bold_Italic',
-          }}>
-          Raleway Bold Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Raleway_800ExtraBold',
           }}>
           Raleway Extra Bold
@@ -252,9 +182,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_800ExtraBold_Italic',
+            fontFamily: 'Raleway_900Black',
           }}>
-          Raleway Extra Bold Italic
+          Raleway Black
         </Text>
 
         <Text
@@ -262,9 +192,79 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_900Black',
+            fontFamily: 'Raleway_100Thin_Italic',
           }}>
-          Raleway Black
+          Raleway Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_200ExtraLight_Italic',
+          }}>
+          Raleway Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_300Light_Italic',
+          }}>
+          Raleway Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_400Regular_Italic',
+          }}>
+          Raleway Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_500Medium_Italic',
+          }}>
+          Raleway Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_600SemiBold_Italic',
+          }}>
+          Raleway Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_700Bold_Italic',
+          }}>
+          Raleway Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Raleway_800ExtraBold_Italic',
+          }}>
+          Raleway Extra Bold Italic
         </Text>
 
         <Text
@@ -288,12 +288,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Raleway_100Thin](./Raleway_100Thin.ttf.png)|![Raleway_100Thin_Italic](./Raleway_100Thin_Italic.ttf.png)|![Raleway_200ExtraLight](./Raleway_200ExtraLight.ttf.png)||
-|![Raleway_200ExtraLight_Italic](./Raleway_200ExtraLight_Italic.ttf.png)|![Raleway_300Light](./Raleway_300Light.ttf.png)|![Raleway_300Light_Italic](./Raleway_300Light_Italic.ttf.png)||
-|![Raleway_400Regular](./Raleway_400Regular.ttf.png)|![Raleway_400Regular_Italic](./Raleway_400Regular_Italic.ttf.png)|![Raleway_500Medium](./Raleway_500Medium.ttf.png)||
-|![Raleway_500Medium_Italic](./Raleway_500Medium_Italic.ttf.png)|![Raleway_600SemiBold](./Raleway_600SemiBold.ttf.png)|![Raleway_600SemiBold_Italic](./Raleway_600SemiBold_Italic.ttf.png)||
-|![Raleway_700Bold](./Raleway_700Bold.ttf.png)|![Raleway_700Bold_Italic](./Raleway_700Bold_Italic.ttf.png)|![Raleway_800ExtraBold](./Raleway_800ExtraBold.ttf.png)||
-|![Raleway_800ExtraBold_Italic](./Raleway_800ExtraBold_Italic.ttf.png)|![Raleway_900Black](./Raleway_900Black.ttf.png)|![Raleway_900Black_Italic](./Raleway_900Black_Italic.ttf.png)||
+|![Raleway_100Thin](./Raleway_100Thin.ttf.png)|![Raleway_200ExtraLight](./Raleway_200ExtraLight.ttf.png)|![Raleway_300Light](./Raleway_300Light.ttf.png)||
+|![Raleway_400Regular](./Raleway_400Regular.ttf.png)|![Raleway_500Medium](./Raleway_500Medium.ttf.png)|![Raleway_600SemiBold](./Raleway_600SemiBold.ttf.png)||
+|![Raleway_700Bold](./Raleway_700Bold.ttf.png)|![Raleway_800ExtraBold](./Raleway_800ExtraBold.ttf.png)|![Raleway_900Black](./Raleway_900Black.ttf.png)||
+|![Raleway_100Thin_Italic](./Raleway_100Thin_Italic.ttf.png)|![Raleway_200ExtraLight_Italic](./Raleway_200ExtraLight_Italic.ttf.png)|![Raleway_300Light_Italic](./Raleway_300Light_Italic.ttf.png)||
+|![Raleway_400Regular_Italic](./Raleway_400Regular_Italic.ttf.png)|![Raleway_500Medium_Italic](./Raleway_500Medium_Italic.ttf.png)|![Raleway_600SemiBold_Italic](./Raleway_600SemiBold_Italic.ttf.png)||
+|![Raleway_700Bold_Italic](./Raleway_700Bold_Italic.ttf.png)|![Raleway_800ExtraBold_Italic](./Raleway_800ExtraBold_Italic.ttf.png)|![Raleway_900Black_Italic](./Raleway_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

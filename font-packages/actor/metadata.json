@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Actor",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/actor/v9/wEOzEBbCkc5cO3ekXygtUMIO.ttf" }
+  "version": "v10",
+  "lastModified": "2020-09-02",
+  "files": { "regular": "http://fonts.gstatic.com/s/actor/v10/wEOzEBbCkc5cO3ekXygtUMIO.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

@@ -6,10 +6,14 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const MerriweatherSans_300Light = require('./MerriweatherSans_300Light.ttf');
-export const MerriweatherSans_300Light_Italic = require('./MerriweatherSans_300Light_Italic.ttf');
 export const MerriweatherSans_400Regular = require('./MerriweatherSans_400Regular.ttf');
-export const MerriweatherSans_400Regular_Italic = require('./MerriweatherSans_400Regular_Italic.ttf');
+export const MerriweatherSans_500Medium = require('./MerriweatherSans_500Medium.ttf');
+export const MerriweatherSans_600SemiBold = require('./MerriweatherSans_600SemiBold.ttf');
 export const MerriweatherSans_700Bold = require('./MerriweatherSans_700Bold.ttf');
-export const MerriweatherSans_700Bold_Italic = require('./MerriweatherSans_700Bold_Italic.ttf');
 export const MerriweatherSans_800ExtraBold = require('./MerriweatherSans_800ExtraBold.ttf');
+export const MerriweatherSans_300Light_Italic = require('./MerriweatherSans_300Light_Italic.ttf');
+export const MerriweatherSans_400Regular_Italic = require('./MerriweatherSans_400Regular_Italic.ttf');
+export const MerriweatherSans_500Medium_Italic = require('./MerriweatherSans_500Medium_Italic.ttf');
+export const MerriweatherSans_600SemiBold_Italic = require('./MerriweatherSans_600SemiBold_Italic.ttf');
+export const MerriweatherSans_700Bold_Italic = require('./MerriweatherSans_700Bold_Italic.ttf');
 export const MerriweatherSans_800ExtraBold_Italic = require('./MerriweatherSans_800ExtraBold_Italic.ttf');

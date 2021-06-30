@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Julee",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/julee/v9/TuGfUVB3RpZPQ6ZLodgzydtk.ttf" }
+  "version": "v12",
+  "lastModified": "2021-03-19",
+  "files": { "regular": "http://fonts.gstatic.com/s/julee/v12/TuGfUVB3RpZPQ6ZLodgzydtk.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }

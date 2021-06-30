@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Uncial Antiqua",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v10",
+  "lastModified": "2021-03-19",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/uncialantiqua/v7/N0bM2S5WOex4OUbESzoESK-i-PfRS5VBBSSF.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/uncialantiqua/v10/N0bM2S5WOex4OUbESzoESK-i-PfRS5VBBSSF.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Six Caps",
-  "category": "sans-serif",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/sixcaps/v10/6ae_4KGrU7VR7bNmabcS9XXaPCop.ttf" }
+  "version": "v11",
+  "lastModified": "2020-09-02",
+  "files": { "regular": "http://fonts.gstatic.com/s/sixcaps/v11/6ae_4KGrU7VR7bNmabcS9XXaPCop.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
 }

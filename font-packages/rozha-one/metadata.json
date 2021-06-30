@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Rozha One",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
+  "version": "v8",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/rozhaone/v7/AlZy_zVFtYP12Zncg2khdXf4XB0Tow.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/rozhaone/v8/AlZy_zVFtYP12Zncg2khdXf4XB0Tow.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

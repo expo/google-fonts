@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Lustria",
-  "category": "serif",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v7",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/lustria/v7/9oRONYodvDEyjuhOrCg5MtPyAcg.ttf" }
+  "version": "v8",
+  "lastModified": "2020-07-23",
+  "files": { "regular": "http://fonts.gstatic.com/s/lustria/v8/9oRONYodvDEyjuhOrCg5MtPyAcg.ttf" },
+  "category": "serif",
+  "kind": "webfonts#webfont"
 }

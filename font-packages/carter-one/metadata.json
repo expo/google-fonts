@@ -1,12 +1,12 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Carter One",
-  "category": "display",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2019-07-16",
+  "version": "v12",
+  "lastModified": "2020-09-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/carterone/v11/q5uCsoe5IOB2-pXv9UcNIxR2hYxREMs.ttf"
-  }
+    "regular": "http://fonts.gstatic.com/s/carterone/v12/q5uCsoe5IOB2-pXv9UcNIxR2hYxREMs.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
 }

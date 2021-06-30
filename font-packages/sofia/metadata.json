@@ -1,10 +1,10 @@
 {
-  "kind": "webfonts#webfont",
   "family": "Sofia",
-  "category": "handwriting",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/sofia/v8/8QIHdirahM3j_vu-sowsrqjk.ttf" }
+  "version": "v9",
+  "lastModified": "2020-07-23",
+  "files": { "regular": "http://fonts.gstatic.com/s/sofia/v9/8QIHdirahM3j_vu-sowsrqjk.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
 }
