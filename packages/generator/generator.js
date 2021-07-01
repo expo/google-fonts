@@ -260,8 +260,8 @@ async function generateImageForFontVariant(webfont, variantKey) {
 }
 
 async function generatePng(outputFilepath, text, webfont, variantKey, pointsize, density) {
-  let fill = 'black';
-  let background = 'none';
+  let fill = '#1B1F23';
+  let background = '#FFFFFF';
   let fontFilepath = filepathForFontVariant(webfont, variantKey);
   pointsize = pointsize || 40;
   density = density || 144; // 458; // iPhone 11 Pro Max = 458
