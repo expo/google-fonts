@@ -817,35 +817,38 @@ expo install @expo-google-fonts/inter expo-font
 #### In your app
 
 \`\`\`js
-import React, { useState, useEffect } from 'react';
-
+import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
+
 import {
   useFonts,
   Inter_900Black,
 } from '@expo-google-fonts/inter';
 
-export default () => {
-  let [fontsLoaded] = useFonts({
+export default function App() {
+  const [fontsLoaded] = useFonts({
     Inter_900Black,
   });
 
-  if (!fontsLoaded) {
-    return <AppLoading />;
-  } else {
-    return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+  if (!fontsLoaded) return <AppLoading />;
 
-        <Text style={{ fontFamily: 'Inter_900Black' }}>
-          Inter Black
-        </Text>
+  return (
+    <View style={styles.container}>
+      <Text style={{ fontFamily: 'Inter_900Black' }}>
+        Inter Black
+      </Text>
+    </View>
+  );
+}
 
-      </View>
-    );
-  }
-};
-
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
 \`\`\`
 
 
