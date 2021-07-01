@@ -1,5 +1,3 @@
-<!-- Banner Image -->
-
 <p align="center">
   <a href="https://github.com/expo/google-fonts">
     <img alt="Expo Google Fonts" src="./gifs/title.gif">
@@ -27,7 +25,6 @@
 </p>
   
 ---
-
 
 # expo-google-fonts
 
