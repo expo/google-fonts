@@ -11,4 +11,10 @@ module.exports = [
     affiliation: 'AtilaDev',
     github: 'AtilaDev',
   },
+  {
+    name: 'Cedric van Putten',
+    twitter: 'cedricvanputten',
+    github: 'byCedric',
+    affiliation: 'Expo',
+  },
 ];
