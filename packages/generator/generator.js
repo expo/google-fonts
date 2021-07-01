@@ -280,6 +280,10 @@ async function generatePng(outputFilepath, text, webfont, variantKey, pointsize,
     '-pointsize',
     '' + pointsize,
     'label:' + text,
+    '-bordercolor',
+    background, 
+    '-border', 
+    '32x16',
     outputFilepath,
   ];
   try {
