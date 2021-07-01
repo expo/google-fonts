@@ -6,6 +6,8 @@
   </a>
 </p>
 
+<p align="center">Use any of the 1052 fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
+
 <p align="center">
   <a aria-label="npm version" href="https://www.npmjs.com/org/expo-google-fonts" target="_blank">
     <img alt="expo-google-fonts npm version" src="https://flat.badgen.net/npm/v/@expo-google-fonts/dev" />
