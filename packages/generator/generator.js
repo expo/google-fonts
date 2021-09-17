@@ -391,7 +391,7 @@ async function generateFontPackage(webfont) {
   dts += ReexportHookDefinition + '\n';
 
   code += `export { default as __metadata__ } from './metadata.json';\n`;
-  dts += `export const __metdata__: Any;\n`;
+  dts += `export const __metadata__: Any;\n`;
 
   // metadata.json
   await fs.promises.writeFile(
