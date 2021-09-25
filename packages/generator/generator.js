@@ -67,7 +67,7 @@ let PrettierOptions = {
 };
 
 let ReexportHook = `
-exports.useFonts = require('./useFonts');
+exports.useFonts = require('./useFonts').useFonts;
 `;
 let ReexportHookDefinition = `
 export { useFonts } from './useFonts';
