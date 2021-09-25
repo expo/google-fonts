@@ -67,7 +67,7 @@ let PrettierOptions = {
 };
 
 let ReexportHook = `
-export { useFonts } from './useFonts';
+exports.useFonts = require('./useFonts');
 `;
 let ReexportHookDefinition = `
 export { useFonts } from './useFonts';
@@ -390,7 +390,7 @@ async function generateFontPackage(webfont) {
   code += ReexportHook + '\n';
   dts += ReexportHookDefinition + '\n';
 
-  code += `export { default as __metadata__ } from './metadata.json';\n`;
+  code += `exports.__metadata__ = require('./metadata.json').default;\n`;
   dts += `export const __metadata__: Any;\n`;
 
   // metadata.json
@@ -406,7 +406,7 @@ async function generateFontPackage(webfont) {
   for (let variantKey of webfont.variants) {
     let v = varNameForFontVariant(webfont, variantKey);
     let ffn = filenameForFontVariant(webfont, variantKey);
-    code += `export const ${v} = require(${JSON.stringify('./' + ffn)});\n`;
+    code += `exports.${v} = require(${JSON.stringify('./' + ffn)});\n`;
     dts += `export const ${v}: number;\n`; // TODO: Is there an easy way to do type-aliasing so we could refer to this as a module or something?
 
     // link fonts and image previews
