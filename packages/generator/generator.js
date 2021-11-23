@@ -796,7 +796,7 @@ async function generateRootReadme(fontDirectory) {
   </a>
 </p>
 
-<p align="center">Use any of the 1052 fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
+<p align="center">Use any of the ${fontDirectory.items.length} fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
 
 <p align="center">
   <a aria-label="npm version" href="https://www.npmjs.com/org/expo-google-fonts" target="_blank">
