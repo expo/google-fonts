@@ -1,9 +1,32 @@
-# expo-google-fonts
-  
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/dev)
-![license](https://flat.badgen.net/github/license/expo/google-fonts)
+<p align="center">
+  <a href="https://github.com/expo/google-fonts">
+    <img alt="Expo Google Fonts" src="./gifs/title.gif">
+  </a>
+</p>
 
-![Expo Google Fonts](./gifs/title.gif)
+<p align="center">Use any of the 1052 fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
+
+<p align="center">
+  <a aria-label="npm version" href="https://www.npmjs.com/org/expo-google-fonts" target="_blank">
+    <img alt="expo-google-fonts npm version" src="https://flat.badgen.net/npm/v/@expo-google-fonts/dev" />
+  </a>
+  <a aria-label="Expo is free to use" href="https://github.com/expo/expo/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://flat.badgen.net/github/license/expo/google-fonts" target="_blank" />
+  </a>
+</p>
+
+<p>
+  <a aria-label="Follow @expo on Twitter" href="https://twitter.com/intent/follow?screen_name=expo" target="_blank">
+    <img  alt="Twitter: expo" src="https://img.shields.io/twitter/follow/expo.svg?style=flat-square&label=Follow%20%40expo&logo=TWITTER&logoColor=FFFFFF&labelColor=00aced&logoWidth=15&color=lightgray" target="_blank" />
+  </a>
+  <a aria-label="Follow Expo on Medium" href="https://blog.expo.io">
+    <img align="right" alt="Medium: exposition" src="https://img.shields.io/badge/Learn%20more%20on%20our%20blog-lightgray.svg?style=flat-square" target="_blank" />
+  </a>
+</p>
+  
+---
+
+# expo-google-fonts
 
 The `@expo-google-fonts` packages for Expo allow you to easily use 
 any of 1052 fonts (and their variants) from 
