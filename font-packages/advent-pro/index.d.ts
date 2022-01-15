@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const AdventPro_100Thin: number;
 export const AdventPro_200ExtraLight: number;
 export const AdventPro_300Light: number;

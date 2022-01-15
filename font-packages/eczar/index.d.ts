@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Eczar_400Regular: number;
 export const Eczar_500Medium: number;
 export const Eczar_600SemiBold: number;

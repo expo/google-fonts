@@ -2,10 +2,10 @@
   "family": "Kirang Haerang",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
+  "version": "v18",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/kiranghaerang/v10/E21-_dn_gvvIjhYON1lpIU4-bcqvWPaJq4no.ttf"
+    "regular": "http://fonts.gstatic.com/s/kiranghaerang/v18/E21-_dn_gvvIjhYON1lpIU4-bcqvWPaJq4no.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

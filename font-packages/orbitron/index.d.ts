@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Orbitron_400Regular: number;
 export const Orbitron_500Medium: number;
 export const Orbitron_600SemiBold: number;

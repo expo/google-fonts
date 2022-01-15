@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Tillana_400Regular: number;
 export const Tillana_500Medium: number;
 export const Tillana_600SemiBold: number;

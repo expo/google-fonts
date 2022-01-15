@@ -2,15 +2,15 @@
   "family": "Sarpanch",
   "variants": ["regular", "500", "600", "700", "800", "900"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v6",
-  "lastModified": "2020-07-23",
+  "version": "v9",
+  "lastModified": "2022-01-13",
   "files": {
-    "500": "http://fonts.gstatic.com/s/sarpanch/v6/hES16Xt4NCpRuk6PziV0ba7f1HEuRHkM.ttf",
-    "600": "http://fonts.gstatic.com/s/sarpanch/v6/hES16Xt4NCpRuk6PziVYaq7f1HEuRHkM.ttf",
-    "700": "http://fonts.gstatic.com/s/sarpanch/v6/hES16Xt4NCpRuk6PziU8a67f1HEuRHkM.ttf",
-    "800": "http://fonts.gstatic.com/s/sarpanch/v6/hES16Xt4NCpRuk6PziUgaK7f1HEuRHkM.ttf",
-    "900": "http://fonts.gstatic.com/s/sarpanch/v6/hES16Xt4NCpRuk6PziUEaa7f1HEuRHkM.ttf",
-    "regular": "http://fonts.gstatic.com/s/sarpanch/v6/hESy6Xt4NCpRuk6Pzh2ARIrX_20n.ttf"
+    "500": "http://fonts.gstatic.com/s/sarpanch/v9/hES16Xt4NCpRuk6PziV0ba7f1HEuRHkM.ttf",
+    "600": "http://fonts.gstatic.com/s/sarpanch/v9/hES16Xt4NCpRuk6PziVYaq7f1HEuRHkM.ttf",
+    "700": "http://fonts.gstatic.com/s/sarpanch/v9/hES16Xt4NCpRuk6PziU8a67f1HEuRHkM.ttf",
+    "800": "http://fonts.gstatic.com/s/sarpanch/v9/hES16Xt4NCpRuk6PziUgaK7f1HEuRHkM.ttf",
+    "900": "http://fonts.gstatic.com/s/sarpanch/v9/hES16Xt4NCpRuk6PziUEaa7f1HEuRHkM.ttf",
+    "regular": "http://fonts.gstatic.com/s/sarpanch/v9/hESy6Xt4NCpRuk6Pzh2ARIrX_20n.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

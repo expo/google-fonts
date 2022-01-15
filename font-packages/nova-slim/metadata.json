@@ -2,10 +2,10 @@
   "family": "Nova Slim",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2021-03-19",
+  "version": "v22",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/novaslim/v14/Z9XUDmZNQAuem8jyZcn-yMOInrib9Q.ttf"
+    "regular": "http://fonts.gstatic.com/s/novaslim/v22/Z9XUDmZNQAuem8jyZcn-yMOInrib9Q.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

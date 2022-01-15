@@ -2,10 +2,10 @@
   "family": "Modern Antiqua",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
+  "version": "v20",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/modernantiqua/v12/NGStv5TIAUg6Iq_RLNo_2dp1sI1Ea2u0c3Gi.ttf"
+    "regular": "http://fonts.gstatic.com/s/modernantiqua/v20/NGStv5TIAUg6Iq_RLNo_2dp1sI1Ea2u0c3Gi.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

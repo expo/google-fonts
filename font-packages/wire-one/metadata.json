@@ -2,9 +2,9 @@
   "family": "Wire One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/wireone/v13/qFdH35Wah5htUhV75WGiWdrCwwcJ.ttf" },
+  "version": "v21",
+  "lastModified": "2022-01-11",
+  "files": { "regular": "http://fonts.gstatic.com/s/wireone/v21/qFdH35Wah5htUhV75WGiWdrCwwcJ.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

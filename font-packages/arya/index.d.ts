@@ -5,6 +5,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Arya_400Regular: number;
 export const Arya_700Bold: number;

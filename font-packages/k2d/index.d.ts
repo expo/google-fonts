@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const K2D_100Thin: number;
 export const K2D_100Thin_Italic: number;
 export const K2D_200ExtraLight: number;

@@ -6,10 +6,10 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const ArchivoNarrow_400Regular = require('./ArchivoNarrow_400Regular.ttf');
-export const ArchivoNarrow_400Regular_Italic = require('./ArchivoNarrow_400Regular_Italic.ttf');
 export const ArchivoNarrow_500Medium = require('./ArchivoNarrow_500Medium.ttf');
-export const ArchivoNarrow_500Medium_Italic = require('./ArchivoNarrow_500Medium_Italic.ttf');
 export const ArchivoNarrow_600SemiBold = require('./ArchivoNarrow_600SemiBold.ttf');
-export const ArchivoNarrow_600SemiBold_Italic = require('./ArchivoNarrow_600SemiBold_Italic.ttf');
 export const ArchivoNarrow_700Bold = require('./ArchivoNarrow_700Bold.ttf');
+export const ArchivoNarrow_400Regular_Italic = require('./ArchivoNarrow_400Regular_Italic.ttf');
+export const ArchivoNarrow_500Medium_Italic = require('./ArchivoNarrow_500Medium_Italic.ttf');
+export const ArchivoNarrow_600SemiBold_Italic = require('./ArchivoNarrow_600SemiBold_Italic.ttf');
 export const ArchivoNarrow_700Bold_Italic = require('./ArchivoNarrow_700Bold_Italic.ttf');

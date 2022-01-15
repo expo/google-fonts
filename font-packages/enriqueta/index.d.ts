@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Enriqueta_400Regular: number;
 export const Enriqueta_500Medium: number;
 export const Enriqueta_600SemiBold: number;

@@ -5,10 +5,12 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Cairo_200ExtraLight: number;
 export const Cairo_300Light: number;
 export const Cairo_400Regular: number;
+export const Cairo_500Medium: number;
 export const Cairo_600SemiBold: number;
 export const Cairo_700Bold: number;
+export const Cairo_800ExtraBold: number;
 export const Cairo_900Black: number;

@@ -2,13 +2,13 @@
   "family": "Caudex",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["greek", "greek-ext", "latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
+  "version": "v13",
+  "lastModified": "2022-01-13",
   "files": {
-    "700": "http://fonts.gstatic.com/s/caudex/v10/esDT311QOP6BJUrwdteklZUCGpG-GQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/caudex/v10/esDQ311QOP6BJUrIyviAnb4eEw.ttf",
-    "italic": "http://fonts.gstatic.com/s/caudex/v10/esDS311QOP6BJUr4yPKEv7sOE4in.ttf",
-    "700italic": "http://fonts.gstatic.com/s/caudex/v10/esDV311QOP6BJUr4yMo4kJ8GOJSuGdLB.ttf"
+    "700": "http://fonts.gstatic.com/s/caudex/v13/esDT311QOP6BJUrwdteklZUCGpG-GQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/caudex/v13/esDQ311QOP6BJUrIyviAnb4eEw.ttf",
+    "italic": "http://fonts.gstatic.com/s/caudex/v13/esDS311QOP6BJUr4yPKEv7sOE4in.ttf",
+    "700italic": "http://fonts.gstatic.com/s/caudex/v13/esDV311QOP6BJUr4yMo4kJ8GOJSuGdLB.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

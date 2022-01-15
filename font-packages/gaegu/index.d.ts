@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Gaegu_300Light: number;
 export const Gaegu_400Regular: number;
 export const Gaegu_700Bold: number;

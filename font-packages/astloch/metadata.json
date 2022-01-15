@@ -2,11 +2,11 @@
   "family": "Astloch",
   "variants": ["regular", "700"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2021-03-19",
+  "version": "v24",
+  "lastModified": "2022-01-05",
   "files": {
-    "700": "http://fonts.gstatic.com/s/astloch/v14/TuGUUVJ8QI5GSeUjk2A-6MNPA10xLMQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/astloch/v14/TuGRUVJ8QI5GSeUjq9wRzMtkH1Q.ttf"
+    "700": "http://fonts.gstatic.com/s/astloch/v24/TuGUUVJ8QI5GSeUjk2A-6MNPA10xLMQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/astloch/v24/TuGRUVJ8QI5GSeUjq9wRzMtkH1Q.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

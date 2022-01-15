@@ -5,5 +5,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const CaesarDressing_400Regular: number;

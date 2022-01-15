@@ -2,9 +2,9 @@
   "family": "Suranna",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v8",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/suranna/v8/gokuH6ztGkFjWe58tBRZT2KmgP0.ttf" },
+  "version": "v11",
+  "lastModified": "2022-01-13",
+  "files": { "regular": "http://fonts.gstatic.com/s/suranna/v11/gokuH6ztGkFjWe58tBRZT2KmgP0.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

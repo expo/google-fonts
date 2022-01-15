@@ -2,10 +2,10 @@
   "family": "Antic Didone",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2020-07-23",
+  "version": "v14",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/anticdidone/v9/RWmPoKKX6u8sp8fIWdnDKqDiqYsGBGBzCw.ttf"
+    "regular": "http://fonts.gstatic.com/s/anticdidone/v14/RWmPoKKX6u8sp8fIWdnDKqDiqYsGBGBzCw.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

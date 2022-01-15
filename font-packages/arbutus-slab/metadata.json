@@ -2,10 +2,10 @@
   "family": "Arbutus Slab",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-09-02",
+  "version": "v14",
+  "lastModified": "2022-01-13",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/arbutusslab/v9/oY1Z8e7OuLXkJGbXtr5ba7ZVa68dJlaFAQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/arbutusslab/v14/oY1Z8e7OuLXkJGbXtr5ba7ZVa68dJlaFAQ.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

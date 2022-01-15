@@ -2,10 +2,10 @@
   "family": "Viaoda Libre",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2021-03-19",
+  "version": "v13",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/viaodalibre/v5/vEFW2_lWCgoR6OKuRz9kcRVJb2IY2tOHXg.ttf"
+    "regular": "http://fonts.gstatic.com/s/viaodalibre/v13/vEFW2_lWCgoR6OKuRz9kcRVJb2IY2tOHXg.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

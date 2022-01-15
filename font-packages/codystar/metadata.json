@@ -2,11 +2,11 @@
   "family": "Codystar",
   "variants": ["300", "regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
+  "version": "v13",
+  "lastModified": "2022-01-11",
   "files": {
-    "300": "http://fonts.gstatic.com/s/codystar/v10/FwZf7-Q1xVk-40qxOuYsyuyrj0e29bfC.ttf",
-    "regular": "http://fonts.gstatic.com/s/codystar/v10/FwZY7-Q1xVk-40qxOt6A4sijpFu_.ttf"
+    "300": "http://fonts.gstatic.com/s/codystar/v13/FwZf7-Q1xVk-40qxOuYsyuyrj0e29bfC.ttf",
+    "regular": "http://fonts.gstatic.com/s/codystar/v13/FwZY7-Q1xVk-40qxOt6A4sijpFu_.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

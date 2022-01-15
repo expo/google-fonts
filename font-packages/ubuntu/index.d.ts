@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Ubuntu_300Light: number;
 export const Ubuntu_300Light_Italic: number;
 export const Ubuntu_400Regular: number;

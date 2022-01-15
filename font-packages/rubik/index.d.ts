@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Rubik_300Light: number;
 export const Rubik_400Regular: number;
 export const Rubik_500Medium: number;

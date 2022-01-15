@@ -2,13 +2,13 @@
   "family": "Markazi Text",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
-  "version": "v13",
-  "lastModified": "2021-01-30",
+  "version": "v16",
+  "lastModified": "2021-08-18",
   "files": {
-    "500": "http://fonts.gstatic.com/s/markazitext/v13/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtcaQT4MlBekmJLo.ttf",
-    "600": "http://fonts.gstatic.com/s/markazitext/v13/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtSqXT4MlBekmJLo.ttf",
-    "700": "http://fonts.gstatic.com/s/markazitext/v13/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtROXT4MlBekmJLo.ttf",
-    "regular": "http://fonts.gstatic.com/s/markazitext/v13/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQT4MlBekmJLo.ttf"
+    "500": "http://fonts.gstatic.com/s/markazitext/v16/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtcaQT4MlBekmJLo.ttf",
+    "600": "http://fonts.gstatic.com/s/markazitext/v16/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtSqXT4MlBekmJLo.ttf",
+    "700": "http://fonts.gstatic.com/s/markazitext/v16/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtROXT4MlBekmJLo.ttf",
+    "regular": "http://fonts.gstatic.com/s/markazitext/v16/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQT4MlBekmJLo.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

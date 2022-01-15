@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Piazzolla_100Thin: number;
 export const Piazzolla_200ExtraLight: number;
 export const Piazzolla_300Light: number;

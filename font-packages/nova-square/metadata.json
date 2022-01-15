@@ -2,10 +2,10 @@
   "family": "Nova Square",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2021-03-19",
+  "version": "v18",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/novasquare/v15/RrQUbo9-9DV7b06QHgSWsZhARYMgGtWA.ttf"
+    "regular": "http://fonts.gstatic.com/s/novasquare/v18/RrQUbo9-9DV7b06QHgSWsZhARYMgGtWA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

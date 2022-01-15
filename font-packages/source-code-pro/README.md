@@ -11,21 +11,23 @@ This package lets you use the [**Source Code Pro**](https://fonts.google.com/spe
 
 ![Source Code Pro](./font-family.png)
 
-This font family contains [14 styles](#-gallery).
+This font family contains [16 styles](#-gallery).
 
 - `SourceCodePro_200ExtraLight`
-- `SourceCodePro_200ExtraLight_Italic`
 - `SourceCodePro_300Light`
-- `SourceCodePro_300Light_Italic`
 - `SourceCodePro_400Regular`
-- `SourceCodePro_400Regular_Italic`
 - `SourceCodePro_500Medium`
-- `SourceCodePro_500Medium_Italic`
 - `SourceCodePro_600SemiBold`
-- `SourceCodePro_600SemiBold_Italic`
 - `SourceCodePro_700Bold`
-- `SourceCodePro_700Bold_Italic`
+- `SourceCodePro_800ExtraBold`
 - `SourceCodePro_900Black`
+- `SourceCodePro_200ExtraLight_Italic`
+- `SourceCodePro_300Light_Italic`
+- `SourceCodePro_400Regular_Italic`
+- `SourceCodePro_500Medium_Italic`
+- `SourceCodePro_600SemiBold_Italic`
+- `SourceCodePro_700Bold_Italic`
+- `SourceCodePro_800ExtraBold_Italic`
 - `SourceCodePro_900Black_Italic`
 
 ## Usage
@@ -44,36 +46,40 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   SourceCodePro_200ExtraLight,
-  SourceCodePro_200ExtraLight_Italic,
   SourceCodePro_300Light,
-  SourceCodePro_300Light_Italic,
   SourceCodePro_400Regular,
-  SourceCodePro_400Regular_Italic,
   SourceCodePro_500Medium,
-  SourceCodePro_500Medium_Italic,
   SourceCodePro_600SemiBold,
-  SourceCodePro_600SemiBold_Italic,
   SourceCodePro_700Bold,
-  SourceCodePro_700Bold_Italic,
+  SourceCodePro_800ExtraBold,
   SourceCodePro_900Black,
+  SourceCodePro_200ExtraLight_Italic,
+  SourceCodePro_300Light_Italic,
+  SourceCodePro_400Regular_Italic,
+  SourceCodePro_500Medium_Italic,
+  SourceCodePro_600SemiBold_Italic,
+  SourceCodePro_700Bold_Italic,
+  SourceCodePro_800ExtraBold_Italic,
   SourceCodePro_900Black_Italic,
 } from '@expo-google-fonts/source-code-pro';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     SourceCodePro_200ExtraLight,
-    SourceCodePro_200ExtraLight_Italic,
     SourceCodePro_300Light,
-    SourceCodePro_300Light_Italic,
     SourceCodePro_400Regular,
-    SourceCodePro_400Regular_Italic,
     SourceCodePro_500Medium,
-    SourceCodePro_500Medium_Italic,
     SourceCodePro_600SemiBold,
-    SourceCodePro_600SemiBold_Italic,
     SourceCodePro_700Bold,
-    SourceCodePro_700Bold_Italic,
+    SourceCodePro_800ExtraBold,
     SourceCodePro_900Black,
+    SourceCodePro_200ExtraLight_Italic,
+    SourceCodePro_300Light_Italic,
+    SourceCodePro_400Regular_Italic,
+    SourceCodePro_500Medium_Italic,
+    SourceCodePro_600SemiBold_Italic,
+    SourceCodePro_700Bold_Italic,
+    SourceCodePro_800ExtraBold_Italic,
     SourceCodePro_900Black_Italic,
   });
 
@@ -100,29 +106,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_200ExtraLight_Italic',
-          }}>
-          Source Code Pro Extra Light Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'SourceCodePro_300Light',
           }}>
           Source Code Pro Light
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_300Light_Italic',
-          }}>
-          Source Code Pro Light Italic
         </Text>
 
         <Text
@@ -140,29 +126,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_400Regular_Italic',
-          }}>
-          Source Code Pro Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'SourceCodePro_500Medium',
           }}>
           Source Code Pro Medium
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_500Medium_Italic',
-          }}>
-          Source Code Pro Medium Italic
         </Text>
 
         <Text
@@ -180,9 +146,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_600SemiBold_Italic',
+            fontFamily: 'SourceCodePro_700Bold',
           }}>
-          Source Code Pro Semi Bold Italic
+          Source Code Pro Bold
         </Text>
 
         <Text
@@ -190,9 +156,69 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_700Bold',
+            fontFamily: 'SourceCodePro_800ExtraBold',
           }}>
-          Source Code Pro Bold
+          Source Code Pro Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_900Black',
+          }}>
+          Source Code Pro Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_200ExtraLight_Italic',
+          }}>
+          Source Code Pro Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_300Light_Italic',
+          }}>
+          Source Code Pro Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_400Regular_Italic',
+          }}>
+          Source Code Pro Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_500Medium_Italic',
+          }}>
+          Source Code Pro Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SourceCodePro_600SemiBold_Italic',
+          }}>
+          Source Code Pro Semi Bold Italic
         </Text>
 
         <Text
@@ -210,9 +236,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_900Black',
+            fontFamily: 'SourceCodePro_800ExtraBold_Italic',
           }}>
-          Source Code Pro Black
+          Source Code Pro Extra Bold Italic
         </Text>
 
         <Text
@@ -236,11 +262,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SourceCodePro_200ExtraLight](./SourceCodePro_200ExtraLight.ttf.png)|![SourceCodePro_200ExtraLight_Italic](./SourceCodePro_200ExtraLight_Italic.ttf.png)|![SourceCodePro_300Light](./SourceCodePro_300Light.ttf.png)||
-|![SourceCodePro_300Light_Italic](./SourceCodePro_300Light_Italic.ttf.png)|![SourceCodePro_400Regular](./SourceCodePro_400Regular.ttf.png)|![SourceCodePro_400Regular_Italic](./SourceCodePro_400Regular_Italic.ttf.png)||
-|![SourceCodePro_500Medium](./SourceCodePro_500Medium.ttf.png)|![SourceCodePro_500Medium_Italic](./SourceCodePro_500Medium_Italic.ttf.png)|![SourceCodePro_600SemiBold](./SourceCodePro_600SemiBold.ttf.png)||
-|![SourceCodePro_600SemiBold_Italic](./SourceCodePro_600SemiBold_Italic.ttf.png)|![SourceCodePro_700Bold](./SourceCodePro_700Bold.ttf.png)|![SourceCodePro_700Bold_Italic](./SourceCodePro_700Bold_Italic.ttf.png)||
-|![SourceCodePro_900Black](./SourceCodePro_900Black.ttf.png)|![SourceCodePro_900Black_Italic](./SourceCodePro_900Black_Italic.ttf.png)|||
+|![SourceCodePro_200ExtraLight](./SourceCodePro_200ExtraLight.ttf.png)|![SourceCodePro_300Light](./SourceCodePro_300Light.ttf.png)|![SourceCodePro_400Regular](./SourceCodePro_400Regular.ttf.png)||
+|![SourceCodePro_500Medium](./SourceCodePro_500Medium.ttf.png)|![SourceCodePro_600SemiBold](./SourceCodePro_600SemiBold.ttf.png)|![SourceCodePro_700Bold](./SourceCodePro_700Bold.ttf.png)||
+|![SourceCodePro_800ExtraBold](./SourceCodePro_800ExtraBold.ttf.png)|![SourceCodePro_900Black](./SourceCodePro_900Black.ttf.png)|![SourceCodePro_200ExtraLight_Italic](./SourceCodePro_200ExtraLight_Italic.ttf.png)||
+|![SourceCodePro_300Light_Italic](./SourceCodePro_300Light_Italic.ttf.png)|![SourceCodePro_400Regular_Italic](./SourceCodePro_400Regular_Italic.ttf.png)|![SourceCodePro_500Medium_Italic](./SourceCodePro_500Medium_Italic.ttf.png)||
+|![SourceCodePro_600SemiBold_Italic](./SourceCodePro_600SemiBold_Italic.ttf.png)|![SourceCodePro_700Bold_Italic](./SourceCodePro_700Bold_Italic.ttf.png)|![SourceCodePro_800ExtraBold_Italic](./SourceCodePro_800ExtraBold_Italic.ttf.png)||
+|![SourceCodePro_900Black_Italic](./SourceCodePro_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

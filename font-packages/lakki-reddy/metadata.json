@@ -2,10 +2,10 @@
   "family": "Lakki Reddy",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v9",
-  "lastModified": "2021-03-19",
+  "version": "v17",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/lakkireddy/v9/S6u5w49MUSzD9jlCPmvLZQfox9k97-xZ.ttf"
+    "regular": "http://fonts.gstatic.com/s/lakkireddy/v17/S6u5w49MUSzD9jlCPmvLZQfox9k97-xZ.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

@@ -5,6 +5,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Gorditas_400Regular: number;
 export const Gorditas_700Bold: number;

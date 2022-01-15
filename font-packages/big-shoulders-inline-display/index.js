@@ -6,6 +6,7 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const BigShouldersInlineDisplay_100Thin = require('./BigShouldersInlineDisplay_100Thin.ttf');
+export const BigShouldersInlineDisplay_200ExtraLight = require('./BigShouldersInlineDisplay_200ExtraLight.ttf');
 export const BigShouldersInlineDisplay_300Light = require('./BigShouldersInlineDisplay_300Light.ttf');
 export const BigShouldersInlineDisplay_400Regular = require('./BigShouldersInlineDisplay_400Regular.ttf');
 export const BigShouldersInlineDisplay_500Medium = require('./BigShouldersInlineDisplay_500Medium.ttf');

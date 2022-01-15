@@ -2,12 +2,12 @@
   "family": "Karantina",
   "variants": ["300", "regular", "700"],
   "subsets": ["hebrew", "latin", "latin-ext"],
-  "version": "v1",
-  "lastModified": "2021-04-12",
+  "version": "v8",
+  "lastModified": "2022-01-05",
   "files": {
-    "300": "http://fonts.gstatic.com/s/karantina/v1/buExpo24ccnh31GVMABxXCgf-P5Oaiw4cw.ttf",
-    "700": "http://fonts.gstatic.com/s/karantina/v1/buExpo24ccnh31GVMABxTC8f-P5Oaiw4cw.ttf",
-    "regular": "http://fonts.gstatic.com/s/karantina/v1/buE0po24ccnh31GVMABJ8AA78NVSYw.ttf"
+    "300": "http://fonts.gstatic.com/s/karantina/v8/buExpo24ccnh31GVMABxXCgf-P5Oaiw4cw.ttf",
+    "700": "http://fonts.gstatic.com/s/karantina/v8/buExpo24ccnh31GVMABxTC8f-P5Oaiw4cw.ttf",
+    "regular": "http://fonts.gstatic.com/s/karantina/v8/buE0po24ccnh31GVMABJ8AA78NVSYw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

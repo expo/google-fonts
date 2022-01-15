@@ -5,6 +5,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const OleoScriptSwashCaps_400Regular: number;
 export const OleoScriptSwashCaps_700Bold: number;

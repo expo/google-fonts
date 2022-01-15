@@ -2,10 +2,10 @@
   "family": "Medula One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
+  "version": "v17",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/medulaone/v12/YA9Wr0qb5kjJM6l2V0yukiEqs7GtlvY.ttf"
+    "regular": "http://fonts.gstatic.com/s/medulaone/v17/YA9Wr0qb5kjJM6l2V0yukiEqs7GtlvY.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

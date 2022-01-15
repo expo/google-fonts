@@ -11,9 +11,10 @@ This package lets you use the [**Big Shoulders Inline Text**](https://fonts.goog
 
 ![Big Shoulders Inline Text](./font-family.png)
 
-This font family contains [8 styles](#-gallery).
+This font family contains [9 styles](#-gallery).
 
 - `BigShouldersInlineText_100Thin`
+- `BigShouldersInlineText_200ExtraLight`
 - `BigShouldersInlineText_300Light`
 - `BigShouldersInlineText_400Regular`
 - `BigShouldersInlineText_500Medium`
@@ -38,6 +39,7 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   BigShouldersInlineText_100Thin,
+  BigShouldersInlineText_200ExtraLight,
   BigShouldersInlineText_300Light,
   BigShouldersInlineText_400Regular,
   BigShouldersInlineText_500Medium,
@@ -50,6 +52,7 @@ import {
 export default () => {
   let [fontsLoaded] = useFonts({
     BigShouldersInlineText_100Thin,
+    BigShouldersInlineText_200ExtraLight,
     BigShouldersInlineText_300Light,
     BigShouldersInlineText_400Regular,
     BigShouldersInlineText_500Medium,
@@ -75,6 +78,16 @@ export default () => {
             fontFamily: 'BigShouldersInlineText_100Thin',
           }}>
           Big Shoulders Inline Text Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BigShouldersInlineText_200ExtraLight',
+          }}>
+          Big Shoulders Inline Text Extra Light
         </Text>
 
         <Text
@@ -158,9 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BigShouldersInlineText_100Thin](./BigShouldersInlineText_100Thin.ttf.png)|![BigShouldersInlineText_300Light](./BigShouldersInlineText_300Light.ttf.png)|![BigShouldersInlineText_400Regular](./BigShouldersInlineText_400Regular.ttf.png)||
-|![BigShouldersInlineText_500Medium](./BigShouldersInlineText_500Medium.ttf.png)|![BigShouldersInlineText_600SemiBold](./BigShouldersInlineText_600SemiBold.ttf.png)|![BigShouldersInlineText_700Bold](./BigShouldersInlineText_700Bold.ttf.png)||
-|![BigShouldersInlineText_800ExtraBold](./BigShouldersInlineText_800ExtraBold.ttf.png)|![BigShouldersInlineText_900Black](./BigShouldersInlineText_900Black.ttf.png)|||
+|![BigShouldersInlineText_100Thin](./BigShouldersInlineText_100Thin.ttf.png)|![BigShouldersInlineText_200ExtraLight](./BigShouldersInlineText_200ExtraLight.ttf.png)|![BigShouldersInlineText_300Light](./BigShouldersInlineText_300Light.ttf.png)||
+|![BigShouldersInlineText_400Regular](./BigShouldersInlineText_400Regular.ttf.png)|![BigShouldersInlineText_500Medium](./BigShouldersInlineText_500Medium.ttf.png)|![BigShouldersInlineText_600SemiBold](./BigShouldersInlineText_600SemiBold.ttf.png)||
+|![BigShouldersInlineText_700Bold](./BigShouldersInlineText_700Bold.ttf.png)|![BigShouldersInlineText_800ExtraBold](./BigShouldersInlineText_800ExtraBold.ttf.png)|![BigShouldersInlineText_900Black](./BigShouldersInlineText_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

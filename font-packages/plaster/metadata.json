@@ -2,9 +2,9 @@
   "family": "Plaster",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/plaster/v14/DdTm79QatW80eRh4Ei5JOtLOeLI.ttf" },
+  "version": "v22",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/plaster/v22/DdTm79QatW80eRh4Ei5JOtLOeLI.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

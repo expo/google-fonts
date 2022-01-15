@@ -2,9 +2,9 @@
   "family": "Crushed",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/crushed/v13/U9Mc6dym6WXImTlFT1kfuIqyLzA.ttf" },
+  "version": "v23",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/crushed/v23/U9Mc6dym6WXImTlFT1kfuIqyLzA.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

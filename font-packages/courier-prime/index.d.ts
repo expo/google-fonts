@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const CourierPrime_400Regular: number;
 export const CourierPrime_400Regular_Italic: number;
 export const CourierPrime_700Bold: number;

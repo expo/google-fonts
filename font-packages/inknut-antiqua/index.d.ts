@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const InknutAntiqua_300Light: number;
 export const InknutAntiqua_400Regular: number;
 export const InknutAntiqua_500Medium: number;

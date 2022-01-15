@@ -1,11 +1,11 @@
 {
   "family": "Playball",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v11",
+  "lastModified": "2021-07-26",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/playball/v10/TK3gWksYAxQ7jbsKcj8Dl-tPKo2t.ttf"
+    "regular": "http://fonts.gstatic.com/s/playball/v11/TK3gWksYAxQ7jbsKcj8Dl-tPKo2t.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

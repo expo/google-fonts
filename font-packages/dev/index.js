@@ -3,69 +3,1035 @@
 ///
 
 export { useFonts } from './useFonts';
+export const LoveLight_400Regular =
+  'http://fonts.gstatic.com/s/lovelight/v1/t5tlIR0TNJyZWimpNAXDjKbCyTHuspo.ttf';
+export const MeaCulpa_400Regular =
+  'http://fonts.gstatic.com/s/meaculpa/v1/AMOTz4GcuWbEIuza8jsZms0QW3mqyg.ttf';
+export const Ole_400Regular = 'http://fonts.gstatic.com/s/ole/v1/dFazZf6Z-rd89fw69qJ_ew.ttf';
+export const Inspiration_400Regular =
+  'http://fonts.gstatic.com/s/inspiration/v1/x3dkckPPZa6L4wIg5cZOEvoGnSrlBBsy.ttf';
+export const KolkerBrush_400Regular =
+  'http://fonts.gstatic.com/s/kolkerbrush/v1/iJWDBXWRZjfKWdvmzwvvog3-7KJ6x8qNUQ.ttf';
+export const MooLahLah_400Regular =
+  'http://fonts.gstatic.com/s/moolahlah/v1/dg4h_p_opKZOA0w1AYcm55wtYQYugjW4.ttf';
+export const OoohBaby_400Regular =
+  'http://fonts.gstatic.com/s/ooohbaby/v1/2sDcZGJWgJTT2Jf76xQDb2-4C7wFZQ.ttf';
+export const QwitcherGrypen_400Regular =
+  'http://fonts.gstatic.com/s/qwitchergrypen/v1/pxicypclp9tDilN9RrC5BSI1dZmrSGNAom-wpw.ttf';
+export const QwitcherGrypen_700Bold =
+  'http://fonts.gstatic.com/s/qwitchergrypen/v1/pxiZypclp9tDilN9RrC5BSI1dZmT9ExkqkSsrvNXiA.ttf';
+export const TwinkleStar_400Regular =
+  'http://fonts.gstatic.com/s/twinklestar/v1/pe0pMI6IL4dPoFl9LGEmY6WaA_Rue1UwVg.ttf';
+export const SplineSans_300Light =
+  'http://fonts.gstatic.com/s/splinesans/v1/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpZlnYEtvlUfE2kw.ttf';
+export const SplineSans_400Regular =
+  'http://fonts.gstatic.com/s/splinesans/v1/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpOFnYEtvlUfE2kw.ttf';
+export const SplineSans_500Medium =
+  'http://fonts.gstatic.com/s/splinesans/v1/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpClnYEtvlUfE2kw.ttf';
+export const SplineSans_600SemiBold =
+  'http://fonts.gstatic.com/s/splinesans/v1/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp5l7YEtvlUfE2kw.ttf';
+export const SplineSans_700Bold =
+  'http://fonts.gstatic.com/s/splinesans/v1/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp317YEtvlUfE2kw.ttf';
+export const ImperialScript_400Regular =
+  'http://fonts.gstatic.com/s/imperialscript/v1/5DCPAKrpzy_H98IV2ISnZBbGrVNvPenlvttWNg.ttf';
+export const IslandMoments_400Regular =
+  'http://fonts.gstatic.com/s/islandmoments/v1/NaPBcZfVGvBdxIt7Ar0qzkXJF-TGIohbZ6SY.ttf';
+export const Licorice_400Regular =
+  'http://fonts.gstatic.com/s/licorice/v1/t5tjIR8TMomTCAyjNk23hqLgzCHu.ttf';
+export const LuxuriousRoman_400Regular =
+  'http://fonts.gstatic.com/s/luxuriousroman/v1/buEupou_ZcP1w0yTKxJJokVSmbpqYgckeo9RMw.ttf';
+export const MoonDance_400Regular =
+  'http://fonts.gstatic.com/s/moondance/v1/WBLgrEbUbFlYW9ekmGawe2XiKMiokE4.ttf';
+export const Neonderthaw_400Regular =
+  'http://fonts.gstatic.com/s/neonderthaw/v1/Iure6Yx5-oWVZI0r-17AeZZJprVA4XQ0.ttf';
+export const TheNautigal_400Regular =
+  'http://fonts.gstatic.com/s/thenautigal/v1/VdGZAZ8ZH51Lvng9fQV2bfKr5wVk09Se5Q.ttf';
+export const TheNautigal_700Bold =
+  'http://fonts.gstatic.com/s/thenautigal/v1/VdGGAZ8ZH51Lvng9fQV2bfKTWypA2_-C7LoS7g.ttf';
+export const VujahdayScript_400Regular =
+  'http://fonts.gstatic.com/s/vujahdayscript/v1/RWmQoKGA8fEkrIPtSZ3_J7er2dUiDEtvAlaMKw.ttf';
+export const Waterfall_400Regular =
+  'http://fonts.gstatic.com/s/waterfall/v1/MCoRzAfo293fACdFKcwY2rH8D_EZwA.ttf';
+export const SourceSerif4_200ExtraLight =
+  'http://fonts.gstatic.com/s/sourceserif4/v1/vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjipdqrhxXD-wGvjU.ttf';
+export const SourceSerif4_300Light =
+  'http://fonts.gstatic.com/s/sourceserif4/v1/vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjiklqrhxXD-wGvjU.ttf';
+export const SourceSerif4_400Regular =
+  'http://fonts.gstatic.com/s/sourceserif4/v1/vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjihdqrhxXD-wGvjU.ttf';
+export const SourceSerif4_500Medium =
+  'http://fonts.gstatic.com/s/sourceserif4/v1/vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjiiVqrhxXD-wGvjU.ttf';
+export const SourceSerif4_600SemiBold =
+  'http://fonts.gstatic.com/s/sourceserif4/v1/vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjisltrhxXD-wGvjU.ttf';
+export const SourceSerif4_700Bold =
+  'http://fonts.gstatic.com/s/sourceserif4/v1/vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjivBtrhxXD-wGvjU.ttf';
+export const SourceSerif4_800ExtraBold =
+  'http://fonts.gstatic.com/s/sourceserif4/v1/vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjipdtrhxXD-wGvjU.ttf';
+export const SourceSerif4_900Black =
+  'http://fonts.gstatic.com/s/sourceserif4/v1/vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjir5trhxXD-wGvjU.ttf';
+export const SourceSerif4_200ExtraLight_Italic =
+  'http://fonts.gstatic.com/s/sourceserif4/v1/vEF02_tTDB4M7-auWDN0ahZJW1ge6NmXpVAHV83Bfb_US2D2QYxoUKIkn98pxl9dC84DrjXEXw.ttf';
+export const SourceSerif4_300Light_Italic =
+  'http://fonts.gstatic.com/s/sourceserif4/v1/vEF02_tTDB4M7-auWDN0ahZJW1ge6NmXpVAHV83Bfb_US2D2QYxoUKIkn98pGF9dC84DrjXEXw.ttf';
+export const SourceSerif4_400Regular_Italic =
+  'http://fonts.gstatic.com/s/sourceserif4/v1/vEF02_tTDB4M7-auWDN0ahZJW1ge6NmXpVAHV83Bfb_US2D2QYxoUKIkn98pRl9dC84DrjXEXw.ttf';
+export const SourceSerif4_500Medium_Italic =
+  'http://fonts.gstatic.com/s/sourceserif4/v1/vEF02_tTDB4M7-auWDN0ahZJW1ge6NmXpVAHV83Bfb_US2D2QYxoUKIkn98pdF9dC84DrjXEXw.ttf';
+export const SourceSerif4_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/sourceserif4/v1/vEF02_tTDB4M7-auWDN0ahZJW1ge6NmXpVAHV83Bfb_US2D2QYxoUKIkn98pmFhdC84DrjXEXw.ttf';
+export const SourceSerif4_700Bold_Italic =
+  'http://fonts.gstatic.com/s/sourceserif4/v1/vEF02_tTDB4M7-auWDN0ahZJW1ge6NmXpVAHV83Bfb_US2D2QYxoUKIkn98poVhdC84DrjXEXw.ttf';
+export const SourceSerif4_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/sourceserif4/v1/vEF02_tTDB4M7-auWDN0ahZJW1ge6NmXpVAHV83Bfb_US2D2QYxoUKIkn98pxlhdC84DrjXEXw.ttf';
+export const SourceSerif4_900Black_Italic =
+  'http://fonts.gstatic.com/s/sourceserif4/v1/vEF02_tTDB4M7-auWDN0ahZJW1ge6NmXpVAHV83Bfb_US2D2QYxoUKIkn98p71hdC84DrjXEXw.ttf';
+export const FuzzyBubbles_400Regular =
+  'http://fonts.gstatic.com/s/fuzzybubbles/v3/6qLGKZMbrgv9pwtjPEVNV0F2NnP5Zxsreko.ttf';
+export const FuzzyBubbles_700Bold =
+  'http://fonts.gstatic.com/s/fuzzybubbles/v3/6qLbKZMbrgv9pwtjPEVNV0F2Ds_WQxMAZkM1pn4.ttf';
+export const Gwendolyn_400Regular =
+  'http://fonts.gstatic.com/s/gwendolyn/v3/qkBXXvoO_M3CSss-d7ee5JRLkAXbMQ.ttf';
+export const Gwendolyn_700Bold =
+  'http://fonts.gstatic.com/s/gwendolyn/v3/qkBSXvoO_M3CSss-d7emWLtvmC7HONiSFQ.ttf';
+export const LuxuriousScript_400Regular =
+  'http://fonts.gstatic.com/s/luxuriousscript/v3/ahcCv9e7yydulT32KZ0rBIoD7DzMg0rOby1JtYk.ttf';
+export const MeowScript_400Regular =
+  'http://fonts.gstatic.com/s/meowscript/v3/0FlQVPqanlaJrtr8AnJ0ESch0_0CfDf1.ttf';
+export const Smooch_400Regular =
+  'http://fonts.gstatic.com/s/smooch/v3/o-0LIps4xW8U1xUBjqp_6hVdYg.ttf';
+export const BalooBhaijaan2_400Regular =
+  'http://fonts.gstatic.com/s/baloobhaijaan2/v3/zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8TyRSqP4L4ppfcyC.ttf';
+export const BalooBhaijaan2_500Medium =
+  'http://fonts.gstatic.com/s/baloobhaijaan2/v3/zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8TyjSqP4L4ppfcyC.ttf';
+export const BalooBhaijaan2_600SemiBold =
+  'http://fonts.gstatic.com/s/baloobhaijaan2/v3/zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8TxPTaP4L4ppfcyC.ttf';
+export const BalooBhaijaan2_700Bold =
+  'http://fonts.gstatic.com/s/baloobhaijaan2/v3/zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8Tx2TaP4L4ppfcyC.ttf';
+export const BalooBhaijaan2_800ExtraBold =
+  'http://fonts.gstatic.com/s/baloobhaijaan2/v3/zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8TwRTaP4L4ppfcyC.ttf';
+export const Murecho_100Thin =
+  'http://fonts.gstatic.com/s/murecho/v2/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMpr5HWZLCpUOaM6.ttf';
+export const Murecho_200ExtraLight =
+  'http://fonts.gstatic.com/s/murecho/v2/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMrr5XWZLCpUOaM6.ttf';
+export const Murecho_300Light =
+  'http://fonts.gstatic.com/s/murecho/v2/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMo15XWZLCpUOaM6.ttf';
+export const Murecho_400Regular =
+  'http://fonts.gstatic.com/s/murecho/v2/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMpr5XWZLCpUOaM6.ttf';
+export const Murecho_500Medium =
+  'http://fonts.gstatic.com/s/murecho/v2/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMpZ5XWZLCpUOaM6.ttf';
+export const Murecho_600SemiBold =
+  'http://fonts.gstatic.com/s/murecho/v2/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMq14nWZLCpUOaM6.ttf';
+export const Murecho_700Bold =
+  'http://fonts.gstatic.com/s/murecho/v2/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMqM4nWZLCpUOaM6.ttf';
+export const Murecho_800ExtraBold =
+  'http://fonts.gstatic.com/s/murecho/v2/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMrr4nWZLCpUOaM6.ttf';
+export const Murecho_900Black =
+  'http://fonts.gstatic.com/s/murecho/v2/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMrC4nWZLCpUOaM6.ttf';
+export const FlowBlock_400Regular =
+  'http://fonts.gstatic.com/s/flowblock/v4/wlp0gwfPCEB65UmTk-d6-WZlbCBXE_I.ttf';
+export const FlowCircular_400Regular =
+  'http://fonts.gstatic.com/s/flowcircular/v4/lJwB-pc4j2F-H8YKuyvfxdZ45ifpWdr2rIg.ttf';
+export const FlowRounded_400Regular =
+  'http://fonts.gstatic.com/s/flowrounded/v4/-zki91mtwsU9qlLiGwD4oQX3oZX-Xup87g.ttf';
+export const Kings_400Regular = 'http://fonts.gstatic.com/s/kings/v3/8AtnGsK4O5CYXU_Iq6GSPaHS.ttf';
+export const RoadRage_400Regular =
+  'http://fonts.gstatic.com/s/roadrage/v3/6NUU8F2fKAOBKjjr4ekvtMYAwdRZfw.ttf';
+export const Shalimar_400Regular =
+  'http://fonts.gstatic.com/s/shalimar/v3/uU9MCBoE6I6iNWFUvTPx8PCOg0uX.ttf';
+export const Praise_400Regular =
+  'http://fonts.gstatic.com/s/praise/v3/qkBUXvUZ-cnFXcFyDvO67L9XmQ.ttf';
+export const PuppiesPlay_400Regular =
+  'http://fonts.gstatic.com/s/puppiesplay/v3/wlp2gwHZEV99rG6M3NR9uB9vaAJSA_JN3Q.ttf';
+export const SassyFrass_400Regular =
+  'http://fonts.gstatic.com/s/sassyfrass/v3/LhWhMVrGOe0FLb97BjhsE99dGNWQg_am.ttf';
+export const Genos_100Thin =
+  'http://fonts.gstatic.com/s/genos/v2/SlGNmQqPqpUOYTYjacb0Hc91fTwVqknorUK6K7ZsAg.ttf';
+export const Genos_200ExtraLight =
+  'http://fonts.gstatic.com/s/genos/v2/SlGNmQqPqpUOYTYjacb0Hc91fTwVKkjorUK6K7ZsAg.ttf';
+export const Genos_300Light =
+  'http://fonts.gstatic.com/s/genos/v2/SlGNmQqPqpUOYTYjacb0Hc91fTwV9EjorUK6K7ZsAg.ttf';
+export const Genos_400Regular =
+  'http://fonts.gstatic.com/s/genos/v2/SlGNmQqPqpUOYTYjacb0Hc91fTwVqkjorUK6K7ZsAg.ttf';
+export const Genos_500Medium =
+  'http://fonts.gstatic.com/s/genos/v2/SlGNmQqPqpUOYTYjacb0Hc91fTwVmEjorUK6K7ZsAg.ttf';
+export const Genos_600SemiBold =
+  'http://fonts.gstatic.com/s/genos/v2/SlGNmQqPqpUOYTYjacb0Hc91fTwVdE_orUK6K7ZsAg.ttf';
+export const Genos_700Bold =
+  'http://fonts.gstatic.com/s/genos/v2/SlGNmQqPqpUOYTYjacb0Hc91fTwVTU_orUK6K7ZsAg.ttf';
+export const Genos_800ExtraBold =
+  'http://fonts.gstatic.com/s/genos/v2/SlGNmQqPqpUOYTYjacb0Hc91fTwVKk_orUK6K7ZsAg.ttf';
+export const Genos_900Black =
+  'http://fonts.gstatic.com/s/genos/v2/SlGNmQqPqpUOYTYjacb0Hc91fTwVA0_orUK6K7ZsAg.ttf';
+export const Genos_100Thin_Italic =
+  'http://fonts.gstatic.com/s/genos/v2/SlGPmQqPqpUOYRwqWzksdKTv0zsAYgsA70i-CbN8Ard7.ttf';
+export const Genos_200ExtraLight_Italic =
+  'http://fonts.gstatic.com/s/genos/v2/SlGPmQqPqpUOYRwqWzksdKTv0zsAYguA7ki-CbN8Ard7.ttf';
+export const Genos_300Light_Italic =
+  'http://fonts.gstatic.com/s/genos/v2/SlGPmQqPqpUOYRwqWzksdKTv0zsAYgte7ki-CbN8Ard7.ttf';
+export const Genos_400Regular_Italic =
+  'http://fonts.gstatic.com/s/genos/v2/SlGPmQqPqpUOYRwqWzksdKTv0zsAYgsA7ki-CbN8Ard7.ttf';
+export const Genos_500Medium_Italic =
+  'http://fonts.gstatic.com/s/genos/v2/SlGPmQqPqpUOYRwqWzksdKTv0zsAYgsy7ki-CbN8Ard7.ttf';
+export const Genos_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/genos/v2/SlGPmQqPqpUOYRwqWzksdKTv0zsAYgve6Ui-CbN8Ard7.ttf';
+export const Genos_700Bold_Italic =
+  'http://fonts.gstatic.com/s/genos/v2/SlGPmQqPqpUOYRwqWzksdKTv0zsAYgvn6Ui-CbN8Ard7.ttf';
+export const Genos_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/genos/v2/SlGPmQqPqpUOYRwqWzksdKTv0zsAYguA6Ui-CbN8Ard7.ttf';
+export const Genos_900Black_Italic =
+  'http://fonts.gstatic.com/s/genos/v2/SlGPmQqPqpUOYRwqWzksdKTv0zsAYgup6Ui-CbN8Ard7.ttf';
+export const Hurricane_400Regular =
+  'http://fonts.gstatic.com/s/hurricane/v3/pe0sMIuULZxTolZ5YldyAv2-C99ycg.ttf';
+export const PassionsConflict_400Regular =
+  'http://fonts.gstatic.com/s/passionsconflict/v3/kmKnZrcrFhfafnWX9x0GuEC-zowow5NeYRI4CN2V.ttf';
+export const Petemoss_400Regular =
+  'http://fonts.gstatic.com/s/petemoss/v3/A2BZn5tA2xgtGWHZgxkesKb9UouQ.ttf';
+export const Comforter_400Regular =
+  'http://fonts.gstatic.com/s/comforter/v3/H4clBXOCl8nQnlaql3Qa6JG8iqeuag.ttf';
+export const Outfit_100Thin =
+  'http://fonts.gstatic.com/s/outfit/v2/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC0C4G-EiAou6Y.ttf';
+export const Outfit_200ExtraLight =
+  'http://fonts.gstatic.com/s/outfit/v2/QGYyz_MVcBeNP4NjuGObqx1XmO1I4bC1C4G-EiAou6Y.ttf';
+export const Outfit_300Light =
+  'http://fonts.gstatic.com/s/outfit/v2/QGYyz_MVcBeNP4NjuGObqx1XmO1I4W61C4G-EiAou6Y.ttf';
+export const Outfit_400Regular =
+  'http://fonts.gstatic.com/s/outfit/v2/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1C4G-EiAou6Y.ttf';
+export const Outfit_500Medium =
+  'http://fonts.gstatic.com/s/outfit/v2/QGYyz_MVcBeNP4NjuGObqx1XmO1I4QK1C4G-EiAou6Y.ttf';
+export const Outfit_600SemiBold =
+  'http://fonts.gstatic.com/s/outfit/v2/QGYyz_MVcBeNP4NjuGObqx1XmO1I4e6yC4G-EiAou6Y.ttf';
+export const Outfit_700Bold =
+  'http://fonts.gstatic.com/s/outfit/v2/QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyC4G-EiAou6Y.ttf';
+export const Outfit_800ExtraBold =
+  'http://fonts.gstatic.com/s/outfit/v2/QGYyz_MVcBeNP4NjuGObqx1XmO1I4bCyC4G-EiAou6Y.ttf';
+export const Outfit_900Black =
+  'http://fonts.gstatic.com/s/outfit/v2/QGYyz_MVcBeNP4NjuGObqx1XmO1I4ZmyC4G-EiAou6Y.ttf';
+export const YujiBoku_400Regular =
+  'http://fonts.gstatic.com/s/yujiboku/v3/P5sAzZybeNzXsA9xj1Fkjb2r2dgvJA.ttf';
+export const YujiMai_400Regular =
+  'http://fonts.gstatic.com/s/yujimai/v3/ZgNQjPxdJ7DEHrS0gC38hmHmNpCO.ttf';
+export const YujiSyuku_400Regular =
+  'http://fonts.gstatic.com/s/yujisyuku/v3/BngNUXdTV3vO6Lw5ApOPqPfgwqiA-Rk.ttf';
+export const MPLUS1Code_100Thin =
+  'http://fonts.gstatic.com/s/mplus1code/v3/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7iN0XHpapwmdZhY.ttf';
+export const MPLUS1Code_200ExtraLight =
+  'http://fonts.gstatic.com/s/mplus1code/v3/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7gN0HHpapwmdZhY.ttf';
+export const MPLUS1Code_300Light =
+  'http://fonts.gstatic.com/s/mplus1code/v3/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7jT0HHpapwmdZhY.ttf';
+export const MPLUS1Code_400Regular =
+  'http://fonts.gstatic.com/s/mplus1code/v3/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7iN0HHpapwmdZhY.ttf';
+export const MPLUS1Code_500Medium =
+  'http://fonts.gstatic.com/s/mplus1code/v3/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7i_0HHpapwmdZhY.ttf';
+export const MPLUS1Code_600SemiBold =
+  'http://fonts.gstatic.com/s/mplus1code/v3/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7hT13HpapwmdZhY.ttf';
+export const MPLUS1Code_700Bold =
+  'http://fonts.gstatic.com/s/mplus1code/v3/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7hq13HpapwmdZhY.ttf';
+export const MPLUSCodeLatin_100Thin =
+  'http://fonts.gstatic.com/s/mpluscodelatin/v3/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1EbB6i5MqF9TRwg.ttf';
+export const MPLUSCodeLatin_200ExtraLight =
+  'http://fonts.gstatic.com/s/mpluscodelatin/v3/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1MbA6i5MqF9TRwg.ttf';
+export const MPLUSCodeLatin_300Light =
+  'http://fonts.gstatic.com/s/mpluscodelatin/v3/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1BjA6i5MqF9TRwg.ttf';
+export const MPLUSCodeLatin_400Regular =
+  'http://fonts.gstatic.com/s/mpluscodelatin/v3/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1EbA6i5MqF9TRwg.ttf';
+export const MPLUSCodeLatin_500Medium =
+  'http://fonts.gstatic.com/s/mpluscodelatin/v3/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1HTA6i5MqF9TRwg.ttf';
+export const MPLUSCodeLatin_600SemiBold =
+  'http://fonts.gstatic.com/s/mpluscodelatin/v3/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1JjH6i5MqF9TRwg.ttf';
+export const MPLUSCodeLatin_700Bold =
+  'http://fonts.gstatic.com/s/mpluscodelatin/v3/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1KHH6i5MqF9TRwg.ttf';
+export const MontaguSlab_100Thin =
+  'http://fonts.gstatic.com/s/montaguslab/v2/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDbE3P9Fs7bOSO7.ttf';
+export const MontaguSlab_200ExtraLight =
+  'http://fonts.gstatic.com/s/montaguslab/v2/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkBbEnP9Fs7bOSO7.ttf';
+export const MontaguSlab_300Light =
+  'http://fonts.gstatic.com/s/montaguslab/v2/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkCFEnP9Fs7bOSO7.ttf';
+export const MontaguSlab_400Regular =
+  'http://fonts.gstatic.com/s/montaguslab/v2/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDbEnP9Fs7bOSO7.ttf';
+export const MontaguSlab_500Medium =
+  'http://fonts.gstatic.com/s/montaguslab/v2/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDpEnP9Fs7bOSO7.ttf';
+export const MontaguSlab_600SemiBold =
+  'http://fonts.gstatic.com/s/montaguslab/v2/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkAFFXP9Fs7bOSO7.ttf';
+export const MontaguSlab_700Bold =
+  'http://fonts.gstatic.com/s/montaguslab/v2/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkA8FXP9Fs7bOSO7.ttf';
+export const SourceSans3_200ExtraLight =
+  'http://fonts.gstatic.com/s/sourcesans3/v2/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kw461EN_io6npfB.ttf';
+export const SourceSans3_300Light =
+  'http://fonts.gstatic.com/s/sourcesans3/v2/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kzm61EN_io6npfB.ttf';
+export const SourceSans3_400Regular =
+  'http://fonts.gstatic.com/s/sourcesans3/v2/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky461EN_io6npfB.ttf';
+export const SourceSans3_500Medium =
+  'http://fonts.gstatic.com/s/sourcesans3/v2/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8KyK61EN_io6npfB.ttf';
+export const SourceSans3_600SemiBold =
+  'http://fonts.gstatic.com/s/sourcesans3/v2/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxm7FEN_io6npfB.ttf';
+export const SourceSans3_700Bold =
+  'http://fonts.gstatic.com/s/sourcesans3/v2/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxf7FEN_io6npfB.ttf';
+export const SourceSans3_800ExtraBold =
+  'http://fonts.gstatic.com/s/sourcesans3/v2/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kw47FEN_io6npfB.ttf';
+export const SourceSans3_900Black =
+  'http://fonts.gstatic.com/s/sourcesans3/v2/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8KwR7FEN_io6npfB.ttf';
+export const SourceSans3_200ExtraLight_Italic =
+  'http://fonts.gstatic.com/s/sourcesans3/v2/nwpDtKy2OAdR1K-IwhWudF-R3woAa8opPOrG97lwqDlO9C4Ym4fB3Ts.ttf';
+export const SourceSans3_300Light_Italic =
+  'http://fonts.gstatic.com/s/sourcesans3/v2/nwpDtKy2OAdR1K-IwhWudF-R3woAa8opPOrG97lwqOdO9C4Ym4fB3Ts.ttf';
+export const SourceSans3_400Regular_Italic =
+  'http://fonts.gstatic.com/s/sourcesans3/v2/nwpDtKy2OAdR1K-IwhWudF-R3woAa8opPOrG97lwqLlO9C4Ym4fB3Ts.ttf';
+export const SourceSans3_500Medium_Italic =
+  'http://fonts.gstatic.com/s/sourcesans3/v2/nwpDtKy2OAdR1K-IwhWudF-R3woAa8opPOrG97lwqItO9C4Ym4fB3Ts.ttf';
+export const SourceSans3_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/sourcesans3/v2/nwpDtKy2OAdR1K-IwhWudF-R3woAa8opPOrG97lwqGdJ9C4Ym4fB3Ts.ttf';
+export const SourceSans3_700Bold_Italic =
+  'http://fonts.gstatic.com/s/sourcesans3/v2/nwpDtKy2OAdR1K-IwhWudF-R3woAa8opPOrG97lwqF5J9C4Ym4fB3Ts.ttf';
+export const SourceSans3_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/sourcesans3/v2/nwpDtKy2OAdR1K-IwhWudF-R3woAa8opPOrG97lwqDlJ9C4Ym4fB3Ts.ttf';
+export const SourceSans3_900Black_Italic =
+  'http://fonts.gstatic.com/s/sourcesans3/v2/nwpDtKy2OAdR1K-IwhWudF-R3woAa8opPOrG97lwqBBJ9C4Ym4fB3Ts.ttf';
+export const ComforterBrush_400Regular =
+  'http://fonts.gstatic.com/s/comforterbrush/v3/Y4GTYa1xVSggrfzZI5WMjxRaOz0jwLL9Th8YYA.ttf';
+export const ReadexPro_200ExtraLight =
+  'http://fonts.gstatic.com/s/readexpro/v6/SLXYc1bJ7HE5YDoGPuzj_dh8na74KiwZQQzfm7w3bk38hTB8.ttf';
+export const ReadexPro_300Light =
+  'http://fonts.gstatic.com/s/readexpro/v6/SLXYc1bJ7HE5YDoGPuzj_dh8na74KiwZQQwBm7w3bk38hTB8.ttf';
+export const ReadexPro_400Regular =
+  'http://fonts.gstatic.com/s/readexpro/v6/SLXYc1bJ7HE5YDoGPuzj_dh8na74KiwZQQxfm7w3bk38hTB8.ttf';
+export const ReadexPro_500Medium =
+  'http://fonts.gstatic.com/s/readexpro/v6/SLXYc1bJ7HE5YDoGPuzj_dh8na74KiwZQQxtm7w3bk38hTB8.ttf';
+export const ReadexPro_600SemiBold =
+  'http://fonts.gstatic.com/s/readexpro/v6/SLXYc1bJ7HE5YDoGPuzj_dh8na74KiwZQQyBnLw3bk38hTB8.ttf';
+export const ReadexPro_700Bold =
+  'http://fonts.gstatic.com/s/readexpro/v6/SLXYc1bJ7HE5YDoGPuzj_dh8na74KiwZQQy4nLw3bk38hTB8.ttf';
+export const BakbakOne_400Regular =
+  'http://fonts.gstatic.com/s/bakbakone/v3/zOL54pXAl6RI-p_ardnuycRuv-hHkOs.ttf';
+export const BirthstoneBounce_400Regular =
+  'http://fonts.gstatic.com/s/birthstonebounce/v7/ga6XaxZF43lIvTWrktHOTBJZGH7dEeVJGIMYDo_8.ttf';
+export const BirthstoneBounce_500Medium =
+  'http://fonts.gstatic.com/s/birthstonebounce/v7/ga6SaxZF43lIvTWrktHOTBJZGH7dEd29MacQJZP1LmD9.ttf';
+export const FleurDeLeah_400Regular =
+  'http://fonts.gstatic.com/s/fleurdeleah/v5/AYCNpXX7ftYZWLhv9UmPJTMC5vat4I_Gdq0.ttf';
+export const Gluten_100Thin =
+  'http://fonts.gstatic.com/s/gluten/v4/HhyIU5gk9fW7OUdVIPh2wBPxSqQJ_zh3_DMrQqcdJrk.ttf';
+export const Gluten_200ExtraLight =
+  'http://fonts.gstatic.com/s/gluten/v4/HhyIU5gk9fW7OUdVIPh2wBPxSqQJ_7h2_DMrQqcdJrk.ttf';
+export const Gluten_300Light =
+  'http://fonts.gstatic.com/s/gluten/v4/HhyIU5gk9fW7OUdVIPh2wBPxSqQJ_2Z2_DMrQqcdJrk.ttf';
+export const Gluten_400Regular =
+  'http://fonts.gstatic.com/s/gluten/v4/HhyIU5gk9fW7OUdVIPh2wBPxSqQJ_zh2_DMrQqcdJrk.ttf';
+export const Gluten_500Medium =
+  'http://fonts.gstatic.com/s/gluten/v4/HhyIU5gk9fW7OUdVIPh2wBPxSqQJ_wp2_DMrQqcdJrk.ttf';
+export const Gluten_600SemiBold =
+  'http://fonts.gstatic.com/s/gluten/v4/HhyIU5gk9fW7OUdVIPh2wBPxSqQJ_-Zx_DMrQqcdJrk.ttf';
+export const Gluten_700Bold =
+  'http://fonts.gstatic.com/s/gluten/v4/HhyIU5gk9fW7OUdVIPh2wBPxSqQJ_99x_DMrQqcdJrk.ttf';
+export const Gluten_800ExtraBold =
+  'http://fonts.gstatic.com/s/gluten/v4/HhyIU5gk9fW7OUdVIPh2wBPxSqQJ_7hx_DMrQqcdJrk.ttf';
+export const Gluten_900Black =
+  'http://fonts.gstatic.com/s/gluten/v4/HhyIU5gk9fW7OUdVIPh2wBPxSqQJ_5Fx_DMrQqcdJrk.ttf';
+export const GrechenFuemen_400Regular =
+  'http://fonts.gstatic.com/s/grechenfuemen/v5/vEFI2_tHEQ4d5ObgKxBzZh0MAWgc-NaXXq7H.ttf';
+export const GreyQo_400Regular =
+  'http://fonts.gstatic.com/s/greyqo/v5/BXRrvF_Nmv_TyXxNDOtQ9Wf0QcE.ttf';
+export const RubikBeastly_400Regular =
+  'http://fonts.gstatic.com/s/rubikbeastly/v5/0QImMXRd5oOmSC2ZQ7o9653X07z8_ApHqqk.ttf';
+export const ZenMaruGothic_300Light =
+  'http://fonts.gstatic.com/s/zenmarugothic/v7/o-0XIpIxzW5b-RxT-6A8jWAtCp-cQWpCPJqa_ajlvw.ttf';
+export const ZenMaruGothic_400Regular =
+  'http://fonts.gstatic.com/s/zenmarugothic/v7/o-0SIpIxzW5b-RxT-6A8jWAtCp-k7UJmNLGG9A.ttf';
+export const ZenMaruGothic_500Medium =
+  'http://fonts.gstatic.com/s/zenmarugothic/v7/o-0XIpIxzW5b-RxT-6A8jWAtCp-cGWtCPJqa_ajlvw.ttf';
+export const ZenMaruGothic_700Bold =
+  'http://fonts.gstatic.com/s/zenmarugothic/v7/o-0XIpIxzW5b-RxT-6A8jWAtCp-cUW1CPJqa_ajlvw.ttf';
+export const ZenMaruGothic_900Black =
+  'http://fonts.gstatic.com/s/zenmarugothic/v7/o-0XIpIxzW5b-RxT-6A8jWAtCp-caW9CPJqa_ajlvw.ttf';
+export const ZenOldMincho_400Regular =
+  'http://fonts.gstatic.com/s/zenoldmincho/v7/tss0ApVaYytLwxTqcxfMyBveyYb3g31S2s8p.ttf';
+export const ZenOldMincho_700Bold =
+  'http://fonts.gstatic.com/s/zenoldmincho/v7/tss3ApVaYytLwxTqcxfMyBveyb5LrFla8dMgPgBu.ttf';
+export const ZenOldMincho_900Black =
+  'http://fonts.gstatic.com/s/zenoldmincho/v7/tss3ApVaYytLwxTqcxfMyBveyb5zrlla8dMgPgBu.ttf';
+export const ZenKurenaido_400Regular =
+  'http://fonts.gstatic.com/s/zenkurenaido/v7/3XFsEr0515BK2u6UUptu_gWJZfz22PRLd0U.ttf';
+export const ZenKakuGothicNew_300Light =
+  'http://fonts.gstatic.com/s/zenkakugothicnew/v7/gNMVW2drQpDw0GjzrVNFf_valaDBcznOqpdKaWTSTGlMyd8.ttf';
+export const ZenKakuGothicNew_400Regular =
+  'http://fonts.gstatic.com/s/zenkakugothicnew/v7/gNMYW2drQpDw0GjzrVNFf_valaDBcznOkjtiTWz5UGA.ttf';
+export const ZenKakuGothicNew_500Medium =
+  'http://fonts.gstatic.com/s/zenkakugothicnew/v7/gNMVW2drQpDw0GjzrVNFf_valaDBcznOqs9LaWTSTGlMyd8.ttf';
+export const ZenKakuGothicNew_700Bold =
+  'http://fonts.gstatic.com/s/zenkakugothicnew/v7/gNMVW2drQpDw0GjzrVNFf_valaDBcznOqodNaWTSTGlMyd8.ttf';
+export const ZenKakuGothicNew_900Black =
+  'http://fonts.gstatic.com/s/zenkakugothicnew/v7/gNMVW2drQpDw0GjzrVNFf_valaDBcznOqr9PaWTSTGlMyd8.ttf';
+export const ZenKakuGothicAntique_300Light =
+  'http://fonts.gstatic.com/s/zenkakugothicantique/v7/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22cM9TarWJtyZyGU.ttf';
+export const ZenKakuGothicAntique_400Regular =
+  'http://fonts.gstatic.com/s/zenkakugothicantique/v7/6qLQKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB21-g3RKjc4d7.ttf';
+export const ZenKakuGothicAntique_500Medium =
+  'http://fonts.gstatic.com/s/zenkakugothicantique/v7/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22dU9DarWJtyZyGU.ttf';
+export const ZenKakuGothicAntique_700Bold =
+  'http://fonts.gstatic.com/s/zenkakugothicantique/v7/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22cc8jarWJtyZyGU.ttf';
+export const ZenKakuGothicAntique_900Black =
+  'http://fonts.gstatic.com/s/zenkakugothicantique/v7/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22ck8DarWJtyZyGU.ttf';
+export const ZenAntiqueSoft_400Regular =
+  'http://fonts.gstatic.com/s/zenantiquesoft/v7/DtV4JwqzSL1q_KwnEWMc_3xfgW6ihwBmkui5HNg.ttf';
+export const ZenAntique_400Regular =
+  'http://fonts.gstatic.com/s/zenantique/v7/AYCPpXPnd91Ma_Zf-Ri2JXJq7PKP5Z_G.ttf';
+export const AreYouSerious_400Regular =
+  'http://fonts.gstatic.com/s/areyouserious/v8/ll8kK2GVSSr-PtjQ5nONVcNn4306hT9nCGRayg.ttf';
+export const Carattere_400Regular =
+  'http://fonts.gstatic.com/s/carattere/v5/4iCv6Kp1b9dXlgt_CkvTt2aMH4V_gg.ttf';
+export const Corinthia_400Regular =
+  'http://fonts.gstatic.com/s/corinthia/v7/wEO_EBrAnchaJyPMHE0FUfAL3EsHiA.ttf';
+export const Corinthia_700Bold =
+  'http://fonts.gstatic.com/s/corinthia/v7/wEO6EBrAnchaJyPMHE097d8v1GAbgbLXQA.ttf';
+export const Estonia_400Regular =
+  'http://fonts.gstatic.com/s/estonia/v7/7Au_p_4ijSecA1yHCCL8zkwMIFg.ttf';
+export const GideonRoman_400Regular =
+  'http://fonts.gstatic.com/s/gideonroman/v5/e3tmeuGrVOys8sxzZgWlmXoge0PWovdU4w.ttf';
+export const MPLUS1_100Thin =
+  'http://fonts.gstatic.com/s/mplus1/v2/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5VSe78nZcsGGycA.ttf';
+export const MPLUS1_200ExtraLight =
+  'http://fonts.gstatic.com/s/mplus1/v2/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW51Sa78nZcsGGycA.ttf';
+export const MPLUS1_300Light =
+  'http://fonts.gstatic.com/s/mplus1/v2/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5Cya78nZcsGGycA.ttf';
+export const MPLUS1_400Regular =
+  'http://fonts.gstatic.com/s/mplus1/v2/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5VSa78nZcsGGycA.ttf';
+export const MPLUS1_500Medium =
+  'http://fonts.gstatic.com/s/mplus1/v2/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5Zya78nZcsGGycA.ttf';
+export const MPLUS1_600SemiBold =
+  'http://fonts.gstatic.com/s/mplus1/v2/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5iyG78nZcsGGycA.ttf';
+export const MPLUS1_700Bold =
+  'http://fonts.gstatic.com/s/mplus1/v2/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5siG78nZcsGGycA.ttf';
+export const MPLUS1_800ExtraBold =
+  'http://fonts.gstatic.com/s/mplus1/v2/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW51SG78nZcsGGycA.ttf';
+export const MPLUS1_900Black =
+  'http://fonts.gstatic.com/s/mplus1/v2/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5_CG78nZcsGGycA.ttf';
+export const MPLUS2_100Thin =
+  'http://fonts.gstatic.com/s/mplus2/v2/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkwOa-VxlqHrzNgAw.ttf';
+export const MPLUS2_200ExtraLight =
+  'http://fonts.gstatic.com/s/mplus2/v2/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkwua6VxlqHrzNgAw.ttf';
+export const MPLUS2_300Light =
+  'http://fonts.gstatic.com/s/mplus2/v2/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkwZ66VxlqHrzNgAw.ttf';
+export const MPLUS2_400Regular =
+  'http://fonts.gstatic.com/s/mplus2/v2/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkwOa6VxlqHrzNgAw.ttf';
+export const MPLUS2_500Medium =
+  'http://fonts.gstatic.com/s/mplus2/v2/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkwC66VxlqHrzNgAw.ttf';
+export const MPLUS2_600SemiBold =
+  'http://fonts.gstatic.com/s/mplus2/v2/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkw56mVxlqHrzNgAw.ttf';
+export const MPLUS2_700Bold =
+  'http://fonts.gstatic.com/s/mplus2/v2/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkw3qmVxlqHrzNgAw.ttf';
+export const MPLUS2_800ExtraBold =
+  'http://fonts.gstatic.com/s/mplus2/v2/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkwuamVxlqHrzNgAw.ttf';
+export const MPLUS2_900Black =
+  'http://fonts.gstatic.com/s/mplus2/v2/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkwkKmVxlqHrzNgAw.ttf';
+export const Cherish_400Regular =
+  'http://fonts.gstatic.com/s/cherish/v5/ll88K2mXUyqsDsTN5iDCI6IJjg8.ttf';
+export const Explora_400Regular =
+  'http://fonts.gstatic.com/s/explora/v5/tsstApxFfjUH4wrvc1qPonC3vqc.ttf';
+export const Birthstone_400Regular =
+  'http://fonts.gstatic.com/s/birthstone/v8/8AtsGs2xO4yLRhy87sv_HLn5jRfZHzM.ttf';
+export const BonheurRoyale_400Regular =
+  'http://fonts.gstatic.com/s/bonheurroyale/v7/c4m51nt_GMTrtX-b9GcG4-YRmYK_c0f1N5Ij.ttf';
+export const Caramel_400Regular =
+  'http://fonts.gstatic.com/s/caramel/v5/P5sCzZKBbMTf_ShyxCRuiZ-uydg.ttf';
+export const Ephesis_400Regular =
+  'http://fonts.gstatic.com/s/ephesis/v5/uU9PCBUS8IerL2VG7xPb3vyHmlI.ttf';
+export const Allison_400Regular =
+  'http://fonts.gstatic.com/s/allison/v7/X7nl4b88AP2nkbvZOCaQ4MTgAgk.ttf';
+export const StickNoBills_200ExtraLight =
+  'http://fonts.gstatic.com/s/sticknobills/v4/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVP8Q7KriwKhcTKA.ttf';
+export const StickNoBills_300Light =
+  'http://fonts.gstatic.com/s/sticknobills/v4/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcV4cQ7KriwKhcTKA.ttf';
+export const StickNoBills_400Regular =
+  'http://fonts.gstatic.com/s/sticknobills/v4/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVv8Q7KriwKhcTKA.ttf';
+export const StickNoBills_500Medium =
+  'http://fonts.gstatic.com/s/sticknobills/v4/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVjcQ7KriwKhcTKA.ttf';
+export const StickNoBills_600SemiBold =
+  'http://fonts.gstatic.com/s/sticknobills/v4/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVYcM7KriwKhcTKA.ttf';
+export const StickNoBills_700Bold =
+  'http://fonts.gstatic.com/s/sticknobills/v4/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVWMM7KriwKhcTKA.ttf';
+export const StickNoBills_800ExtraBold =
+  'http://fonts.gstatic.com/s/sticknobills/v4/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVP8M7KriwKhcTKA.ttf';
+export const Yaldevi_200ExtraLight =
+  'http://fonts.gstatic.com/s/yaldevi/v4/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpfxJzvobxLCBJkS.ttf';
+export const Yaldevi_300Light =
+  'http://fonts.gstatic.com/s/yaldevi/v4/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpcvJzvobxLCBJkS.ttf';
+export const Yaldevi_400Regular =
+  'http://fonts.gstatic.com/s/yaldevi/v4/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpdxJzvobxLCBJkS.ttf';
+export const Yaldevi_500Medium =
+  'http://fonts.gstatic.com/s/yaldevi/v4/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpdDJzvobxLCBJkS.ttf';
+export const Yaldevi_600SemiBold =
+  'http://fonts.gstatic.com/s/yaldevi/v4/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpevIDvobxLCBJkS.ttf';
+export const Yaldevi_700Bold =
+  'http://fonts.gstatic.com/s/yaldevi/v4/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpeWIDvobxLCBJkS.ttf';
+export const AlumniSans_100Thin =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd9OO5QqFsJ3C8qng.ttf';
+export const AlumniSans_200ExtraLight =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd9uO9QqFsJ3C8qng.ttf';
+export const AlumniSans_300Light =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd9Zu9QqFsJ3C8qng.ttf';
+export const AlumniSans_400Regular =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd9OO9QqFsJ3C8qng.ttf';
+export const AlumniSans_500Medium =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd9Cu9QqFsJ3C8qng.ttf';
+export const AlumniSans_600SemiBold =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd95uhQqFsJ3C8qng.ttf';
+export const AlumniSans_700Bold =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd93-hQqFsJ3C8qng.ttf';
+export const AlumniSans_800ExtraBold =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd9uOhQqFsJ3C8qng.ttf';
+export const AlumniSans_900Black =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd9kehQqFsJ3C8qng.ttf';
+export const AlumniSans_100Thin_Italic =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8Ky46lEN_io6npfB.ttf';
+export const AlumniSans_200ExtraLight_Italic =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8Kw461EN_io6npfB.ttf';
+export const AlumniSans_300Light_Italic =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8Kzm61EN_io6npfB.ttf';
+export const AlumniSans_400Regular_Italic =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8Ky461EN_io6npfB.ttf';
+export const AlumniSans_500Medium_Italic =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8KyK61EN_io6npfB.ttf';
+export const AlumniSans_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8Kxm7FEN_io6npfB.ttf';
+export const AlumniSans_700Bold_Italic =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8Kxf7FEN_io6npfB.ttf';
+export const AlumniSans_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8Kw47FEN_io6npfB.ttf';
+export const AlumniSans_900Black_Italic =
+  'http://fonts.gstatic.com/s/alumnisans/v6/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8KwR7FEN_io6npfB.ttf';
+export const IBMPlexSansDevanagari_100Thin =
+  'http://fonts.gstatic.com/s/ibmplexsansdevanagari/v5/XRXB3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HMUjwUcjwCEQq.ttf';
+export const IBMPlexSansDevanagari_200ExtraLight =
+  'http://fonts.gstatic.com/s/ibmplexsansdevanagari/v5/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HnWnQe-b8AV0z0w.ttf';
+export const IBMPlexSansDevanagari_300Light =
+  'http://fonts.gstatic.com/s/ibmplexsansdevanagari/v5/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_H-WrQe-b8AV0z0w.ttf';
+export const IBMPlexSansDevanagari_400Regular =
+  'http://fonts.gstatic.com/s/ibmplexsansdevanagari/v5/XRXH3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O__VUL0c83gCA.ttf';
+export const IBMPlexSansDevanagari_500Medium =
+  'http://fonts.gstatic.com/s/ibmplexsansdevanagari/v5/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HoWvQe-b8AV0z0w.ttf';
+export const IBMPlexSansDevanagari_600SemiBold =
+  'http://fonts.gstatic.com/s/ibmplexsansdevanagari/v5/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HjWzQe-b8AV0z0w.ttf';
+export const IBMPlexSansDevanagari_700Bold =
+  'http://fonts.gstatic.com/s/ibmplexsansdevanagari/v5/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_H6W3Qe-b8AV0z0w.ttf';
+export const IBMPlexSansHebrew_100Thin =
+  'http://fonts.gstatic.com/s/ibmplexsanshebrew/v5/BCa4qYENg9Kw1mpLpO0bGM5lfHAAZHhDXEXB-l0VqDaM7C4.ttf';
+export const IBMPlexSansHebrew_200ExtraLight =
+  'http://fonts.gstatic.com/s/ibmplexsanshebrew/v5/BCa5qYENg9Kw1mpLpO0bGM5lfHAAZHhDXEVt230_hjqF9Tc2.ttf';
+export const IBMPlexSansHebrew_300Light =
+  'http://fonts.gstatic.com/s/ibmplexsanshebrew/v5/BCa5qYENg9Kw1mpLpO0bGM5lfHAAZHhDXEUJ2H0_hjqF9Tc2.ttf';
+export const IBMPlexSansHebrew_400Regular =
+  'http://fonts.gstatic.com/s/ibmplexsanshebrew/v5/BCa2qYENg9Kw1mpLpO0bGM5lfHAAZHhDXH2l8Fk3rSaM.ttf';
+export const IBMPlexSansHebrew_500Medium =
+  'http://fonts.gstatic.com/s/ibmplexsanshebrew/v5/BCa5qYENg9Kw1mpLpO0bGM5lfHAAZHhDXEVR2X0_hjqF9Tc2.ttf';
+export const IBMPlexSansHebrew_600SemiBold =
+  'http://fonts.gstatic.com/s/ibmplexsanshebrew/v5/BCa5qYENg9Kw1mpLpO0bGM5lfHAAZHhDXEV93n0_hjqF9Tc2.ttf';
+export const IBMPlexSansHebrew_700Bold =
+  'http://fonts.gstatic.com/s/ibmplexsanshebrew/v5/BCa5qYENg9Kw1mpLpO0bGM5lfHAAZHhDXEUZ330_hjqF9Tc2.ttf';
+export const IBMPlexSansKR_100Thin =
+  'http://fonts.gstatic.com/s/ibmplexsanskr/v5/vEFM2-VJISZe3O_rc3ZVYh4aTwNOyra_X5zCpMrMfA.ttf';
+export const IBMPlexSansKR_200ExtraLight =
+  'http://fonts.gstatic.com/s/ibmplexsanskr/v5/vEFN2-VJISZe3O_rc3ZVYh4aTwNOyhqef7bsqMPVZb4.ttf';
+export const IBMPlexSansKR_300Light =
+  'http://fonts.gstatic.com/s/ibmplexsanskr/v5/vEFN2-VJISZe3O_rc3ZVYh4aTwNOyn6df7bsqMPVZb4.ttf';
+export const IBMPlexSansKR_400Regular =
+  'http://fonts.gstatic.com/s/ibmplexsanskr/v5/vEFK2-VJISZe3O_rc3ZVYh4aTwNO8tK1W77HtMo.ttf';
+export const IBMPlexSansKR_500Medium =
+  'http://fonts.gstatic.com/s/ibmplexsanskr/v5/vEFN2-VJISZe3O_rc3ZVYh4aTwNOyiacf7bsqMPVZb4.ttf';
+export const IBMPlexSansKR_600SemiBold =
+  'http://fonts.gstatic.com/s/ibmplexsanskr/v5/vEFN2-VJISZe3O_rc3ZVYh4aTwNOygqbf7bsqMPVZb4.ttf';
+export const IBMPlexSansKR_700Bold =
+  'http://fonts.gstatic.com/s/ibmplexsanskr/v5/vEFN2-VJISZe3O_rc3ZVYh4aTwNOym6af7bsqMPVZb4.ttf';
+export const IBMPlexSansThai_100Thin =
+  'http://fonts.gstatic.com/s/ibmplexsansthai/v5/m8JNje1VVIzcq1HzJq2AEdo2Tj_qvLqEatYlR8ZKUqcX.ttf';
+export const IBMPlexSansThai_200ExtraLight =
+  'http://fonts.gstatic.com/s/ibmplexsansthai/v5/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqExvcFbehGW74OXw.ttf';
+export const IBMPlexSansThai_300Light =
+  'http://fonts.gstatic.com/s/ibmplexsansthai/v5/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqEovQFbehGW74OXw.ttf';
+export const IBMPlexSansThai_400Regular =
+  'http://fonts.gstatic.com/s/ibmplexsansthai/v5/m8JPje1VVIzcq1HzJq2AEdo2Tj_qvLq8DtwhZcNaUg.ttf';
+export const IBMPlexSansThai_500Medium =
+  'http://fonts.gstatic.com/s/ibmplexsansthai/v5/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE-vUFbehGW74OXw.ttf';
+export const IBMPlexSansThai_600SemiBold =
+  'http://fonts.gstatic.com/s/ibmplexsansthai/v5/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE1vIFbehGW74OXw.ttf';
+export const IBMPlexSansThai_700Bold =
+  'http://fonts.gstatic.com/s/ibmplexsansthai/v5/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqEsvMFbehGW74OXw.ttf';
+export const IBMPlexSansThaiLooped_100Thin =
+  'http://fonts.gstatic.com/s/ibmplexsansthailooped/v5/tss5AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_HaKpHOtFCQ76Q.ttf';
+export const IBMPlexSansThaiLooped_200ExtraLight =
+  'http://fonts.gstatic.com/s/ibmplexsansthailooped/v5/tss6AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_NqrhFmDGC0i8Cc.ttf';
+export const IBMPlexSansThaiLooped_300Light =
+  'http://fonts.gstatic.com/s/ibmplexsansthailooped/v5/tss6AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_L6ohFmDGC0i8Cc.ttf';
+export const IBMPlexSansThaiLooped_400Regular =
+  'http://fonts.gstatic.com/s/ibmplexsansthailooped/v5/tss_AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30LxBKAoFGoBCQ.ttf';
+export const IBMPlexSansThaiLooped_500Medium =
+  'http://fonts.gstatic.com/s/ibmplexsansthailooped/v5/tss6AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_OaphFmDGC0i8Cc.ttf';
+export const IBMPlexSansThaiLooped_600SemiBold =
+  'http://fonts.gstatic.com/s/ibmplexsansthailooped/v5/tss6AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_MquhFmDGC0i8Cc.ttf';
+export const IBMPlexSansThaiLooped_700Bold =
+  'http://fonts.gstatic.com/s/ibmplexsansthailooped/v5/tss6AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_K6vhFmDGC0i8Cc.ttf';
+export const Glory_100Thin =
+  'http://fonts.gstatic.com/s/glory/v5/q5uasoi9Lf1w5t3Est24nq9blIRQwIiDpn-dDi9EOQ.ttf';
+export const Glory_200ExtraLight =
+  'http://fonts.gstatic.com/s/glory/v5/q5uasoi9Lf1w5t3Est24nq9blIRQQImDpn-dDi9EOQ.ttf';
+export const Glory_300Light =
+  'http://fonts.gstatic.com/s/glory/v5/q5uasoi9Lf1w5t3Est24nq9blIRQnomDpn-dDi9EOQ.ttf';
+export const Glory_400Regular =
+  'http://fonts.gstatic.com/s/glory/v5/q5uasoi9Lf1w5t3Est24nq9blIRQwImDpn-dDi9EOQ.ttf';
+export const Glory_500Medium =
+  'http://fonts.gstatic.com/s/glory/v5/q5uasoi9Lf1w5t3Est24nq9blIRQ8omDpn-dDi9EOQ.ttf';
+export const Glory_600SemiBold =
+  'http://fonts.gstatic.com/s/glory/v5/q5uasoi9Lf1w5t3Est24nq9blIRQHo6Dpn-dDi9EOQ.ttf';
+export const Glory_700Bold =
+  'http://fonts.gstatic.com/s/glory/v5/q5uasoi9Lf1w5t3Est24nq9blIRQJ46Dpn-dDi9EOQ.ttf';
+export const Glory_800ExtraBold =
+  'http://fonts.gstatic.com/s/glory/v5/q5uasoi9Lf1w5t3Est24nq9blIRQQI6Dpn-dDi9EOQ.ttf';
+export const Glory_100Thin_Italic =
+  'http://fonts.gstatic.com/s/glory/v5/q5uYsoi9Lf1w5vfNgCJg98TBOoNFCMpr5HWZLCpUOaM6.ttf';
+export const Glory_200ExtraLight_Italic =
+  'http://fonts.gstatic.com/s/glory/v5/q5uYsoi9Lf1w5vfNgCJg98TBOoNFCMrr5XWZLCpUOaM6.ttf';
+export const Glory_300Light_Italic =
+  'http://fonts.gstatic.com/s/glory/v5/q5uYsoi9Lf1w5vfNgCJg98TBOoNFCMo15XWZLCpUOaM6.ttf';
+export const Glory_400Regular_Italic =
+  'http://fonts.gstatic.com/s/glory/v5/q5uYsoi9Lf1w5vfNgCJg98TBOoNFCMpr5XWZLCpUOaM6.ttf';
+export const Glory_500Medium_Italic =
+  'http://fonts.gstatic.com/s/glory/v5/q5uYsoi9Lf1w5vfNgCJg98TBOoNFCMpZ5XWZLCpUOaM6.ttf';
+export const Glory_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/glory/v5/q5uYsoi9Lf1w5vfNgCJg98TBOoNFCMq14nWZLCpUOaM6.ttf';
+export const Glory_700Bold_Italic =
+  'http://fonts.gstatic.com/s/glory/v5/q5uYsoi9Lf1w5vfNgCJg98TBOoNFCMqM4nWZLCpUOaM6.ttf';
+export const Glory_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/glory/v5/q5uYsoi9Lf1w5vfNgCJg98TBOoNFCMrr4nWZLCpUOaM6.ttf';
+export const IBMPlexSansArabic_100Thin =
+  'http://fonts.gstatic.com/s/ibmplexsansarabic/v5/Qw3MZRtWPQCuHme67tEYUIx3Kh0PHR9N6YNe3PC5eMlAMg0.ttf';
+export const IBMPlexSansArabic_200ExtraLight =
+  'http://fonts.gstatic.com/s/ibmplexsansarabic/v5/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPy_dCTVsVJKxTs.ttf';
+export const IBMPlexSansArabic_300Light =
+  'http://fonts.gstatic.com/s/ibmplexsansarabic/v5/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YOW_tCTVsVJKxTs.ttf';
+export const IBMPlexSansArabic_400Regular =
+  'http://fonts.gstatic.com/s/ibmplexsansarabic/v5/Qw3CZRtWPQCuHme67tEYUIx3Kh0PHR9N6bs61vSbfdlA.ttf';
+export const IBMPlexSansArabic_500Medium =
+  'http://fonts.gstatic.com/s/ibmplexsansarabic/v5/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPO_9CTVsVJKxTs.ttf';
+export const IBMPlexSansArabic_600SemiBold =
+  'http://fonts.gstatic.com/s/ibmplexsansarabic/v5/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPi-NCTVsVJKxTs.ttf';
+export const IBMPlexSansArabic_700Bold =
+  'http://fonts.gstatic.com/s/ibmplexsansarabic/v5/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YOG-dCTVsVJKxTs.ttf';
+export const Dongle_300Light =
+  'http://fonts.gstatic.com/s/dongle/v6/sJoG3Ltdjt6VPkqeEcxrYjWNzXvVPA.ttf';
+export const Dongle_400Regular =
+  'http://fonts.gstatic.com/s/dongle/v6/sJoF3Ltdjt6VPkqmveRPah6RxA.ttf';
+export const Dongle_700Bold =
+  'http://fonts.gstatic.com/s/dongle/v6/sJoG3Ltdjt6VPkqeActrYjWNzXvVPA.ttf';
+export const BeVietnamPro_100Thin =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVNSTAyLFyeg_IDWvOJmVES_HRUBX8YYbAiah8.ttf';
+export const BeVietnamPro_100Thin_Italic =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVLSTAyLFyeg_IDWvOJmVES_HwyPRsSZZIneh-waA.ttf';
+export const BeVietnamPro_200ExtraLight =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVMSTAyLFyeg_IDWvOJmVES_HT4JF8yT7wrcwap.ttf';
+export const BeVietnamPro_200ExtraLight_Italic =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVKSTAyLFyeg_IDWvOJmVES_HwyPbczRbgJdhapcUU.ttf';
+export const BeVietnamPro_300Light =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVMSTAyLFyeg_IDWvOJmVES_HScJ18yT7wrcwap.ttf';
+export const BeVietnamPro_300Light_Italic =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVKSTAyLFyeg_IDWvOJmVES_HwyPdMwRbgJdhapcUU.ttf';
+export const BeVietnamPro_400Regular =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVPSTAyLFyeg_IDWvOJmVES_EwwD3s6ZKAi.ttf';
+export const BeVietnamPro_400Regular_Italic =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVNSTAyLFyeg_IDWvOJmVES_HwyBX8YYbAiah8.ttf';
+export const BeVietnamPro_500Medium =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVMSTAyLFyeg_IDWvOJmVES_HTEJl8yT7wrcwap.ttf';
+export const BeVietnamPro_500Medium_Italic =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVKSTAyLFyeg_IDWvOJmVES_HwyPYsxRbgJdhapcUU.ttf';
+export const BeVietnamPro_600SemiBold =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVMSTAyLFyeg_IDWvOJmVES_HToIV8yT7wrcwap.ttf';
+export const BeVietnamPro_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVKSTAyLFyeg_IDWvOJmVES_HwyPac2RbgJdhapcUU.ttf';
+export const BeVietnamPro_700Bold =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVMSTAyLFyeg_IDWvOJmVES_HSMIF8yT7wrcwap.ttf';
+export const BeVietnamPro_700Bold_Italic =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVKSTAyLFyeg_IDWvOJmVES_HwyPcM3RbgJdhapcUU.ttf';
+export const BeVietnamPro_800ExtraBold =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVMSTAyLFyeg_IDWvOJmVES_HSQI18yT7wrcwap.ttf';
+export const BeVietnamPro_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVKSTAyLFyeg_IDWvOJmVES_HwyPd80RbgJdhapcUU.ttf';
+export const BeVietnamPro_900Black =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVMSTAyLFyeg_IDWvOJmVES_HS0Il8yT7wrcwap.ttf';
+export const BeVietnamPro_900Black_Italic =
+  'http://fonts.gstatic.com/s/bevietnampro/v8/QdVKSTAyLFyeg_IDWvOJmVES_HwyPfs1RbgJdhapcUU.ttf';
+export const GowunBatang_400Regular =
+  'http://fonts.gstatic.com/s/gowunbatang/v5/ijwSs5nhRMIjYsdSgcMa3wRhXLH-yuAtLw.ttf';
+export const GowunBatang_700Bold =
+  'http://fonts.gstatic.com/s/gowunbatang/v5/ijwNs5nhRMIjYsdSgcMa3wRZ4J7awssxJii23w.ttf';
+export const GowunDodum_400Regular =
+  'http://fonts.gstatic.com/s/gowundodum/v5/3Jn5SD_00GqwlBnWc1TUJF0FfORL0fNy.ttf';
+export const KohSantepheap_100Thin =
+  'http://fonts.gstatic.com/s/kohsantepheap/v7/gNMfW3p6SJbwyGj2rBZyeOrTjNuFHVyTtjNJUWU.ttf';
+export const KohSantepheap_300Light =
+  'http://fonts.gstatic.com/s/kohsantepheap/v7/gNMeW3p6SJbwyGj2rBZyeOrTjNtNP3y5mD9ASHz5.ttf';
+export const KohSantepheap_400Regular =
+  'http://fonts.gstatic.com/s/kohsantepheap/v7/gNMdW3p6SJbwyGj2rBZyeOrTjOPhF1ixsyNJ.ttf';
+export const KohSantepheap_700Bold =
+  'http://fonts.gstatic.com/s/kohsantepheap/v7/gNMeW3p6SJbwyGj2rBZyeOrTjNtdOHy5mD9ASHz5.ttf';
+export const KohSantepheap_900Black =
+  'http://fonts.gstatic.com/s/kohsantepheap/v7/gNMeW3p6SJbwyGj2rBZyeOrTjNtlOny5mD9ASHz5.ttf';
+export const RedHatMono_300Light =
+  'http://fonts.gstatic.com/s/redhatmono/v5/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQQPI-7HNuW4QuKI.ttf';
+export const RedHatMono_400Regular =
+  'http://fonts.gstatic.com/s/redhatmono/v5/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQV3I-7HNuW4QuKI.ttf';
+export const RedHatMono_500Medium =
+  'http://fonts.gstatic.com/s/redhatmono/v5/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQW_I-7HNuW4QuKI.ttf';
+export const RedHatMono_600SemiBold =
+  'http://fonts.gstatic.com/s/redhatmono/v5/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQYPP-7HNuW4QuKI.ttf';
+export const RedHatMono_700Bold =
+  'http://fonts.gstatic.com/s/redhatmono/v5/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQbrP-7HNuW4QuKI.ttf';
+export const RedHatMono_300Light_Italic =
+  'http://fonts.gstatic.com/s/redhatmono/v5/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLTfLHvUwVqKIJuw.ttf';
+export const RedHatMono_400Regular_Italic =
+  'http://fonts.gstatic.com/s/redhatmono/v5/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLE_LHvUwVqKIJuw.ttf';
+export const RedHatMono_500Medium_Italic =
+  'http://fonts.gstatic.com/s/redhatmono/v5/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLIfLHvUwVqKIJuw.ttf';
+export const RedHatMono_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/redhatmono/v5/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLzfXHvUwVqKIJuw.ttf';
+export const RedHatMono_700Bold_Italic =
+  'http://fonts.gstatic.com/s/redhatmono/v5/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWL9PXHvUwVqKIJuw.ttf';
+export const YujiHentaiganaAkari_400Regular =
+  'http://fonts.gstatic.com/s/yujihentaiganaakari/v6/cY9bfiyVT0VB6QuhWKOrpr6z58lnb_zYFnLIRTzODYALaA.ttf';
+export const YujiHentaiganaAkebono_400Regular =
+  'http://fonts.gstatic.com/s/yujihentaiganaakebono/v6/EJRGQhkhRNwM-RtitGUwh930GU_f5KAlkuL0wQy9NKXRzrrF.ttf';
+export const AzeretMono_100Thin =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF5ErsiyJsY9O_Gepph-FvtTQgMQUdNekSfnPRh0raa-5s3AA.ttf';
+export const AzeretMono_200ExtraLight =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF5ErsiyJsY9O_Gepph-FvtTQgMQUdNekSfHPVh0raa-5s3AA.ttf';
+export const AzeretMono_300Light =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF5ErsiyJsY9O_Gepph-FvtTQgMQUdNekSfwvVh0raa-5s3AA.ttf';
+export const AzeretMono_400Regular =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF5ErsiyJsY9O_Gepph-FvtTQgMQUdNekSfnPVh0raa-5s3AA.ttf';
+export const AzeretMono_500Medium =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF5ErsiyJsY9O_Gepph-FvtTQgMQUdNekSfrvVh0raa-5s3AA.ttf';
+export const AzeretMono_600SemiBold =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF5ErsiyJsY9O_Gepph-FvtTQgMQUdNekSfQvJh0raa-5s3AA.ttf';
+export const AzeretMono_700Bold =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF5ErsiyJsY9O_Gepph-FvtTQgMQUdNekSfe_Jh0raa-5s3AA.ttf';
+export const AzeretMono_800ExtraBold =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF5ErsiyJsY9O_Gepph-FvtTQgMQUdNekSfHPJh0raa-5s3AA.ttf';
+export const AzeretMono_900Black =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF5ErsiyJsY9O_Gepph-FvtTQgMQUdNekSfNfJh0raa-5s3AA.ttf';
+export const AzeretMono_100Thin_Italic =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF_ErsiyJsY9O_Gepph-HHkf_fUKCzX1EOKVLaJkLye2Z4nAN7J.ttf';
+export const AzeretMono_200ExtraLight_Italic =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF_ErsiyJsY9O_Gepph-HHkf_fUKCzX1EOKVLYJkbye2Z4nAN7J.ttf';
+export const AzeretMono_300Light_Italic =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF_ErsiyJsY9O_Gepph-HHkf_fUKCzX1EOKVLbXkbye2Z4nAN7J.ttf';
+export const AzeretMono_400Regular_Italic =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF_ErsiyJsY9O_Gepph-HHkf_fUKCzX1EOKVLaJkbye2Z4nAN7J.ttf';
+export const AzeretMono_500Medium_Italic =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF_ErsiyJsY9O_Gepph-HHkf_fUKCzX1EOKVLa7kbye2Z4nAN7J.ttf';
+export const AzeretMono_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF_ErsiyJsY9O_Gepph-HHkf_fUKCzX1EOKVLZXlrye2Z4nAN7J.ttf';
+export const AzeretMono_700Bold_Italic =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF_ErsiyJsY9O_Gepph-HHkf_fUKCzX1EOKVLZulrye2Z4nAN7J.ttf';
+export const AzeretMono_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF_ErsiyJsY9O_Gepph-HHkf_fUKCzX1EOKVLYJlrye2Z4nAN7J.ttf';
+export const AzeretMono_900Black_Italic =
+  'http://fonts.gstatic.com/s/azeretmono/v6/3XF_ErsiyJsY9O_Gepph-HHkf_fUKCzX1EOKVLYglrye2Z4nAN7J.ttf';
+export const KleeOne_400Regular =
+  'http://fonts.gstatic.com/s/kleeone/v5/LDIxapCLNRc6A8oT4q4AOeekWPrP.ttf';
+export const KleeOne_600SemiBold =
+  'http://fonts.gstatic.com/s/kleeone/v5/LDI2apCLNRc6A8oT4pbYF8Osc-bGkqIw.ttf';
+export const RampartOne_400Regular =
+  'http://fonts.gstatic.com/s/rampartone/v5/K2F1fZFGl_JSR1tAWNG9R6qgLS76ZHOM.ttf';
+export const Urbanist_100Thin =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDyx8fFpOrS8SlKw.ttf';
+export const Urbanist_200ExtraLight =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDSx4fFpOrS8SlKw.ttf';
+export const Urbanist_300Light =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDlR4fFpOrS8SlKw.ttf';
+export const Urbanist_400Regular =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDyx4fFpOrS8SlKw.ttf';
+export const Urbanist_500Medium =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xjDF02iFML4hGCyOCpRdycFsGxSrqD-R4fFpOrS8SlKw.ttf';
+export const Urbanist_600SemiBold =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDFRkfFpOrS8SlKw.ttf';
+export const Urbanist_700Bold =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDLBkfFpOrS8SlKw.ttf';
+export const Urbanist_800ExtraBold =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDSxkfFpOrS8SlKw.ttf';
+export const Urbanist_900Black =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDYhkfFpOrS8SlKw.ttf';
+export const Urbanist_100Thin_Italic =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA133VJmvacG1K4S1.ttf';
+export const Urbanist_200ExtraLight_Italic =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA113VZmvacG1K4S1.ttf';
+export const Urbanist_300Light_Italic =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA12pVZmvacG1K4S1.ttf';
+export const Urbanist_400Regular_Italic =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA133VZmvacG1K4S1.ttf';
+export const Urbanist_500Medium_Italic =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA13FVZmvacG1K4S1.ttf';
+export const Urbanist_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA10pUpmvacG1K4S1.ttf';
+export const Urbanist_700Bold_Italic =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA10QUpmvacG1K4S1.ttf';
+export const Urbanist_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA113UpmvacG1K4S1.ttf';
+export const Urbanist_900Black_Italic =
+  'http://fonts.gstatic.com/s/urbanist/v5/L0xtDF02iFML4hGCyMqgdyNEf6or5L2WA11eUpmvacG1K4S1.ttf';
+export const WindSong_400Regular =
+  'http://fonts.gstatic.com/s/windsong/v5/KR1WBsyu-P-GFEW57r95HdG6vjH3.ttf';
+export const WindSong_500Medium =
+  'http://fonts.gstatic.com/s/windsong/v5/KR1RBsyu-P-GFEW57oeNNPWylS3-jVXm.ttf';
+export const KaiseiDecol_400Regular =
+  'http://fonts.gstatic.com/s/kaiseidecol/v6/bMrwmSqP45sidWf3QmfFW6iyW1EP22OjoA.ttf';
+export const KaiseiDecol_500Medium =
+  'http://fonts.gstatic.com/s/kaiseidecol/v6/bMrvmSqP45sidWf3QmfFW6iKr3gr00i_qb57kA.ttf';
+export const KaiseiDecol_700Bold =
+  'http://fonts.gstatic.com/s/kaiseidecol/v6/bMrvmSqP45sidWf3QmfFW6iK534r00i_qb57kA.ttf';
+export const KaiseiHarunoUmi_400Regular =
+  'http://fonts.gstatic.com/s/kaiseiharunoumi/v6/HI_RiZQSLqBQoAHhK_C6N_nzy_jcGsv5sM8u3mk.ttf';
+export const KaiseiHarunoUmi_500Medium =
+  'http://fonts.gstatic.com/s/kaiseiharunoumi/v6/HI_WiZQSLqBQoAHhK_C6N_nzy_jcIj_QlMcFwmC9FAU.ttf';
+export const KaiseiHarunoUmi_700Bold =
+  'http://fonts.gstatic.com/s/kaiseiharunoumi/v6/HI_WiZQSLqBQoAHhK_C6N_nzy_jcInfWlMcFwmC9FAU.ttf';
+export const KaiseiOpti_400Regular =
+  'http://fonts.gstatic.com/s/kaiseiopti/v6/QldKNThJphYb8_g6c2nlIFle7KlmxuHx.ttf';
+export const KaiseiOpti_500Medium =
+  'http://fonts.gstatic.com/s/kaiseiopti/v6/QldXNThJphYb8_g6c2nlIGGqxY1u7f34DYwn.ttf';
+export const KaiseiOpti_700Bold =
+  'http://fonts.gstatic.com/s/kaiseiopti/v6/QldXNThJphYb8_g6c2nlIGHiw41u7f34DYwn.ttf';
+export const KaiseiTokumin_400Regular =
+  'http://fonts.gstatic.com/s/kaiseitokumin/v6/Gg8sN5wdZg7xCwuMsylww2ZiQkJf1l0pj946.ttf';
+export const KaiseiTokumin_500Medium =
+  'http://fonts.gstatic.com/s/kaiseitokumin/v6/Gg8vN5wdZg7xCwuMsylww2ZiQnqr_3khpMIzeI6v.ttf';
+export const KaiseiTokumin_700Bold =
+  'http://fonts.gstatic.com/s/kaiseitokumin/v6/Gg8vN5wdZg7xCwuMsylww2ZiQnrj-XkhpMIzeI6v.ttf';
+export const KaiseiTokumin_800ExtraBold =
+  'http://fonts.gstatic.com/s/kaiseitokumin/v6/Gg8vN5wdZg7xCwuMsylww2ZiQnr_-nkhpMIzeI6v.ttf';
+export const AndadaPro_400Regular =
+  'http://fonts.gstatic.com/s/andadapro/v7/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DPJBY8cFLzvIt2S.ttf';
+export const AndadaPro_500Medium =
+  'http://fonts.gstatic.com/s/andadapro/v7/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DP7BY8cFLzvIt2S.ttf';
+export const AndadaPro_600SemiBold =
+  'http://fonts.gstatic.com/s/andadapro/v7/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DMXAo8cFLzvIt2S.ttf';
+export const AndadaPro_700Bold =
+  'http://fonts.gstatic.com/s/andadapro/v7/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DMuAo8cFLzvIt2S.ttf';
+export const AndadaPro_800ExtraBold =
+  'http://fonts.gstatic.com/s/andadapro/v7/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DNJAo8cFLzvIt2S.ttf';
+export const AndadaPro_400Regular_Italic =
+  'http://fonts.gstatic.com/s/andadapro/v7/HhyGU5Qi9-SuOEhPe4LtAIxwRrn9L22O2yYBRmdfHrjNJ82Stjw.ttf';
+export const AndadaPro_500Medium_Italic =
+  'http://fonts.gstatic.com/s/andadapro/v7/HhyGU5Qi9-SuOEhPe4LtAIxwRrn9L22O2yYBRlVfHrjNJ82Stjw.ttf';
+export const AndadaPro_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/andadapro/v7/HhyGU5Qi9-SuOEhPe4LtAIxwRrn9L22O2yYBRrlYHrjNJ82Stjw.ttf';
+export const AndadaPro_700Bold_Italic =
+  'http://fonts.gstatic.com/s/andadapro/v7/HhyGU5Qi9-SuOEhPe4LtAIxwRrn9L22O2yYBRoBYHrjNJ82Stjw.ttf';
+export const AndadaPro_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/andadapro/v7/HhyGU5Qi9-SuOEhPe4LtAIxwRrn9L22O2yYBRudYHrjNJ82Stjw.ttf';
+export const MonteCarlo_400Regular =
+  'http://fonts.gstatic.com/s/montecarlo/v5/buEzpo6-f9X01GadLA0G0CoV_NxLeiw.ttf';
+export const StyleScript_400Regular =
+  'http://fonts.gstatic.com/s/stylescript/v5/vm8xdRX3SV7Z0aPa88xzW5npeFT76NZnMw.ttf';
+export const Hahmlet_100Thin =
+  'http://fonts.gstatic.com/s/hahmlet/v5/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RhKOdjobsO-aVxn.ttf';
+export const Hahmlet_200ExtraLight =
+  'http://fonts.gstatic.com/s/hahmlet/v5/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RjKONjobsO-aVxn.ttf';
+export const Hahmlet_300Light =
+  'http://fonts.gstatic.com/s/hahmlet/v5/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RgUONjobsO-aVxn.ttf';
+export const Hahmlet_400Regular =
+  'http://fonts.gstatic.com/s/hahmlet/v5/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RhKONjobsO-aVxn.ttf';
+export const Hahmlet_500Medium =
+  'http://fonts.gstatic.com/s/hahmlet/v5/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4Rh4ONjobsO-aVxn.ttf';
+export const Hahmlet_600SemiBold =
+  'http://fonts.gstatic.com/s/hahmlet/v5/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RiUP9jobsO-aVxn.ttf';
+export const Hahmlet_700Bold =
+  'http://fonts.gstatic.com/s/hahmlet/v5/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RitP9jobsO-aVxn.ttf';
+export const Hahmlet_800ExtraBold =
+  'http://fonts.gstatic.com/s/hahmlet/v5/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RjKP9jobsO-aVxn.ttf';
+export const Hahmlet_900Black =
+  'http://fonts.gstatic.com/s/hahmlet/v5/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RjjP9jobsO-aVxn.ttf';
+export const ScheherazadeNew_400Regular =
+  'http://fonts.gstatic.com/s/scheherazadenew/v8/4UaZrFhTvxVnHDvUkUiHg8jprP4DCwNsOl4p5Is.ttf';
+export const ScheherazadeNew_700Bold =
+  'http://fonts.gstatic.com/s/scheherazadenew/v8/4UaerFhTvxVnHDvUkUiHg8jprP4DM79DHlYC-IKnoSE.ttf';
+export const AtkinsonHyperlegible_400Regular =
+  'http://fonts.gstatic.com/s/atkinsonhyperlegible/v7/9Bt23C1KxNDXMspQ1lPyU89-1h6ONRlW45GE5ZgpewSSbQ.ttf';
+export const AtkinsonHyperlegible_400Regular_Italic =
+  'http://fonts.gstatic.com/s/atkinsonhyperlegible/v7/9Bt43C1KxNDXMspQ1lPyU89-1h6ONRlW45G055ItWQGCbUWn.ttf';
+export const AtkinsonHyperlegible_700Bold =
+  'http://fonts.gstatic.com/s/atkinsonhyperlegible/v7/9Bt73C1KxNDXMspQ1lPyU89-1h6ONRlW45G8WbcNcy-OZFy-FA.ttf';
+export const AtkinsonHyperlegible_700Bold_Italic =
+  'http://fonts.gstatic.com/s/atkinsonhyperlegible/v7/9Bt93C1KxNDXMspQ1lPyU89-1h6ONRlW45G056qRdiWKRlmuFH24.ttf';
+export const ZenTokyoZoo_400Regular =
+  'http://fonts.gstatic.com/s/zentokyozoo/v5/NGSyv5ffC0J_BK6aFNtr6sRv8a1uRWe9amg.ttf';
+export const Fuggles_400Regular =
+  'http://fonts.gstatic.com/s/fuggles/v6/k3kQo8UEJOlD1hpOTd7iL0nAMaM.ttf';
+export const Tourney_100Thin =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZa_ztDtYzv1tzq1wcJnbVt7xseomk-tNs7qrzTWbyt8n7GOQByZTp1I1LcGA.ttf';
+export const Tourney_200ExtraLight =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZa_ztDtYzv1tzq1wcJnbVt7xseomk-tNs7qrzTWbyt8n7GuQFyZTp1I1LcGA.ttf';
+export const Tourney_300Light =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZa_ztDtYzv1tzq1wcJnbVt7xseomk-tNs7qrzTWbyt8n7GZwFyZTp1I1LcGA.ttf';
+export const Tourney_400Regular =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZa_ztDtYzv1tzq1wcJnbVt7xseomk-tNs7qrzTWbyt8n7GOQFyZTp1I1LcGA.ttf';
+export const Tourney_500Medium =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZa_ztDtYzv1tzq1wcJnbVt7xseomk-tNs7qrzTWbyt8n7GCwFyZTp1I1LcGA.ttf';
+export const Tourney_600SemiBold =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZa_ztDtYzv1tzq1wcJnbVt7xseomk-tNs7qrzTWbyt8n7G5wZyZTp1I1LcGA.ttf';
+export const Tourney_700Bold =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZa_ztDtYzv1tzq1wcJnbVt7xseomk-tNs7qrzTWbyt8n7G3gZyZTp1I1LcGA.ttf';
+export const Tourney_800ExtraBold =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZa_ztDtYzv1tzq1wcJnbVt7xseomk-tNs7qrzTWbyt8n7GuQZyZTp1I1LcGA.ttf';
+export const Tourney_900Black =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZa_ztDtYzv1tzq1wcJnbVt7xseomk-tNs7qrzTWbyt8n7GkAZyZTp1I1LcGA.ttf';
+export const Tourney_100Thin_Italic =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZc_ztDtYzv1tzq_Q47flUUvI2wpXz29ilymEMLMNc3XHnT8UKaJzBxAVfMGOPb.ttf';
+export const Tourney_200ExtraLight_Italic =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZc_ztDtYzv1tzq_Q47flUUvI2wpXz29ilymEMLMNc3XHnT8UIaJjBxAVfMGOPb.ttf';
+export const Tourney_300Light_Italic =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZc_ztDtYzv1tzq_Q47flUUvI2wpXz29ilymEMLMNc3XHnT8ULEJjBxAVfMGOPb.ttf';
+export const Tourney_400Regular_Italic =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZc_ztDtYzv1tzq_Q47flUUvI2wpXz29ilymEMLMNc3XHnT8UKaJjBxAVfMGOPb.ttf';
+export const Tourney_500Medium_Italic =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZc_ztDtYzv1tzq_Q47flUUvI2wpXz29ilymEMLMNc3XHnT8UKoJjBxAVfMGOPb.ttf';
+export const Tourney_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZc_ztDtYzv1tzq_Q47flUUvI2wpXz29ilymEMLMNc3XHnT8UJEITBxAVfMGOPb.ttf';
+export const Tourney_700Bold_Italic =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZc_ztDtYzv1tzq_Q47flUUvI2wpXz29ilymEMLMNc3XHnT8UJ9ITBxAVfMGOPb.ttf';
+export const Tourney_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZc_ztDtYzv1tzq_Q47flUUvI2wpXz29ilymEMLMNc3XHnT8UIaITBxAVfMGOPb.ttf';
+export const Tourney_900Black_Italic =
+  'http://fonts.gstatic.com/s/tourney/v4/AlZc_ztDtYzv1tzq_Q47flUUvI2wpXz29ilymEMLMNc3XHnT8UIzITBxAVfMGOPb.ttf';
+export const Festive_400Regular =
+  'http://fonts.gstatic.com/s/festive/v5/cY9Ffj6KX1xcoDWhFtfgy9HTkak.ttf';
+export const STIXTwoText_400Regular =
+  'http://fonts.gstatic.com/s/stixtwotext/v4/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5Yihg2SOYWxFMN1WD.ttf';
+export const STIXTwoText_500Medium =
+  'http://fonts.gstatic.com/s/stixtwotext/v4/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5YihS2SOYWxFMN1WD.ttf';
+export const STIXTwoText_600SemiBold =
+  'http://fonts.gstatic.com/s/stixtwotext/v4/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5Yii-3iOYWxFMN1WD.ttf';
+export const STIXTwoText_700Bold =
+  'http://fonts.gstatic.com/s/stixtwotext/v4/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5YiiH3iOYWxFMN1WD.ttf';
+export const STIXTwoText_400Regular_Italic =
+  'http://fonts.gstatic.com/s/stixtwotext/v4/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omsvbURVuMkWDmSo.ttf';
+export const STIXTwoText_500Medium_Italic =
+  'http://fonts.gstatic.com/s/stixtwotext/v4/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omvnbURVuMkWDmSo.ttf';
+export const STIXTwoText_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/stixtwotext/v4/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omhXcURVuMkWDmSo.ttf';
+export const STIXTwoText_700Bold_Italic =
+  'http://fonts.gstatic.com/s/stixtwotext/v4/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omizcURVuMkWDmSo.ttf';
+export const HinaMincho_400Regular =
+  'http://fonts.gstatic.com/s/hinamincho/v6/2sDaZGBRhpXa2Jjz5w5LAGW8KbkVZTHR.ttf';
+export const MochiyPopOne_400Regular =
+  'http://fonts.gstatic.com/s/mochiypopone/v5/QdVPSTA9Jh-gg-5XZP2UmU4O9kwwD3s6ZKAi.ttf';
+export const MochiyPopPOne_400Regular =
+  'http://fonts.gstatic.com/s/mochiypoppone/v5/Ktk2AKuPeY_td1-h9LayHYWCjAqyN4O3WYZB_sU.ttf';
+export const ShipporiAntique_400Regular =
+  'http://fonts.gstatic.com/s/shipporiantique/v6/-F6qfid3KC8pdMyzR0qRyFUht11v8ldPg-IUDNg.ttf';
+export const ShipporiAntiqueB1_400Regular =
+  'http://fonts.gstatic.com/s/shipporiantiqueb1/v6/2Eb7L_JwClR7Zl_UAKZ0mUHw3oMKd40grRFCj9-5Y8Y.ttf';
+export const Yomogi_400Regular =
+  'http://fonts.gstatic.com/s/yomogi/v6/VuJwdNrS2ZL7rpoPWIz5NIh-YA.ttf';
+export const BonaNova_400Regular =
+  'http://fonts.gstatic.com/s/bonanova/v7/B50NF7ZCpX7fcHfvIUBJi6hqHK-CLA.ttf';
+export const BonaNova_400Regular_Italic =
+  'http://fonts.gstatic.com/s/bonanova/v7/B50LF7ZCpX7fcHfvIUB5iaJuPqqSLJYf.ttf';
+export const BonaNova_700Bold =
+  'http://fonts.gstatic.com/s/bonanova/v7/B50IF7ZCpX7fcHfvIUBxN4dOFISeJY8GgQ.ttf';
+export const PaletteMosaic_400Regular =
+  'http://fonts.gstatic.com/s/palettemosaic/v5/AMOIz4aBvWuBFe3TohdW6YZ9MFiy4dxL4jSr.ttf';
+export const Qahiri_400Regular =
+  'http://fonts.gstatic.com/s/qahiri/v5/tsssAp1RZy0C_hGuU3Chrnmupw.ttf';
 export const Karantina_300Light =
-  'http://fonts.gstatic.com/s/karantina/v1/buExpo24ccnh31GVMABxXCgf-P5Oaiw4cw.ttf';
+  'http://fonts.gstatic.com/s/karantina/v8/buExpo24ccnh31GVMABxXCgf-P5Oaiw4cw.ttf';
 export const Karantina_400Regular =
-  'http://fonts.gstatic.com/s/karantina/v1/buE0po24ccnh31GVMABJ8AA78NVSYw.ttf';
+  'http://fonts.gstatic.com/s/karantina/v8/buE0po24ccnh31GVMABJ8AA78NVSYw.ttf';
 export const Karantina_700Bold =
-  'http://fonts.gstatic.com/s/karantina/v1/buExpo24ccnh31GVMABxTC8f-P5Oaiw4cw.ttf';
+  'http://fonts.gstatic.com/s/karantina/v8/buExpo24ccnh31GVMABxTC8f-P5Oaiw4cw.ttf';
 export const OrelegaOne_400Regular =
-  'http://fonts.gstatic.com/s/orelegaone/v1/3qTpojOggD2XtAdFb-QXZGt61EcYaQ7F.ttf';
+  'http://fonts.gstatic.com/s/orelegaone/v8/3qTpojOggD2XtAdFb-QXZGt61EcYaQ7F.ttf';
 export const ZenDots_400Regular =
-  'http://fonts.gstatic.com/s/zendots/v1/XRXX3ICfm00IGoesQeaETM_FcCIG.ttf';
+  'http://fonts.gstatic.com/s/zendots/v8/XRXX3ICfm00IGoesQeaETM_FcCIG.ttf';
+export const ZenLoop_400Regular =
+  'http://fonts.gstatic.com/s/zenloop/v5/h0GrssK16UsnJwHsEK9zqwzX5vOG.ttf';
+export const ZenLoop_400Regular_Italic =
+  'http://fonts.gstatic.com/s/zenloop/v5/h0GtssK16UsnJwHsEJ9xoQj14-OGJ0w.ttf';
 export const Lexend_100Thin =
-  'http://fonts.gstatic.com/s/lexend/v5/wlpygwvFAVdoq2_nmKQR82JHaTBX.ttf';
+  'http://fonts.gstatic.com/s/lexend/v12/wlptgwvFAVdoq2_F94zlCfv0bz1WCzsX_LBte6KuGEo.ttf';
+export const Lexend_200ExtraLight =
+  'http://fonts.gstatic.com/s/lexend/v12/wlptgwvFAVdoq2_F94zlCfv0bz1WC7sW_LBte6KuGEo.ttf';
 export const Lexend_300Light =
-  'http://fonts.gstatic.com/s/lexend/v5/wlpzgwvFAVdoq2_nUIYx2UxLYClOCg.ttf';
+  'http://fonts.gstatic.com/s/lexend/v12/wlptgwvFAVdoq2_F94zlCfv0bz1WC2UW_LBte6KuGEo.ttf';
 export const Lexend_400Regular =
-  'http://fonts.gstatic.com/s/lexend/v5/wlpwgwvFAVdoq2_f_K4V0WdXaQ.ttf';
+  'http://fonts.gstatic.com/s/lexend/v12/wlptgwvFAVdoq2_F94zlCfv0bz1WCzsW_LBte6KuGEo.ttf';
 export const Lexend_500Medium =
-  'http://fonts.gstatic.com/s/lexend/v5/wlpzgwvFAVdoq2_nCIcx2UxLYClOCg.ttf';
+  'http://fonts.gstatic.com/s/lexend/v12/wlptgwvFAVdoq2_F94zlCfv0bz1WCwkW_LBte6KuGEo.ttf';
 export const Lexend_600SemiBold =
-  'http://fonts.gstatic.com/s/lexend/v5/wlpzgwvFAVdoq2_nJIAx2UxLYClOCg.ttf';
+  'http://fonts.gstatic.com/s/lexend/v12/wlptgwvFAVdoq2_F94zlCfv0bz1WC-UR_LBte6KuGEo.ttf';
 export const Lexend_700Bold =
-  'http://fonts.gstatic.com/s/lexend/v5/wlpzgwvFAVdoq2_nQIEx2UxLYClOCg.ttf';
+  'http://fonts.gstatic.com/s/lexend/v12/wlptgwvFAVdoq2_F94zlCfv0bz1WC9wR_LBte6KuGEo.ttf';
 export const Lexend_800ExtraBold =
-  'http://fonts.gstatic.com/s/lexend/v5/wlpzgwvFAVdoq2_nXIIx2UxLYClOCg.ttf';
-export const Oi_400Regular = 'http://fonts.gstatic.com/s/oi/v4/w8gXH2EuRqtaut6yjBOG.ttf';
+  'http://fonts.gstatic.com/s/lexend/v12/wlptgwvFAVdoq2_F94zlCfv0bz1WC7sR_LBte6KuGEo.ttf';
+export const Lexend_900Black =
+  'http://fonts.gstatic.com/s/lexend/v12/wlptgwvFAVdoq2_F94zlCfv0bz1WC5IR_LBte6KuGEo.ttf';
+export const Oi_400Regular = 'http://fonts.gstatic.com/s/oi/v13/w8gXH2EuRqtaut6yjBOG.ttf';
 export const Brygada1918_400Regular =
-  'http://fonts.gstatic.com/s/brygada1918/v3/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y2-f-V8Wu5O3gbo.ttf';
+  'http://fonts.gstatic.com/s/brygada1918/v15/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y2-f-V8Wu5O3gbo.ttf';
 export const Brygada1918_500Medium =
-  'http://fonts.gstatic.com/s/brygada1918/v3/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y12f-V8Wu5O3gbo.ttf';
+  'http://fonts.gstatic.com/s/brygada1918/v15/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y12f-V8Wu5O3gbo.ttf';
 export const Brygada1918_600SemiBold =
-  'http://fonts.gstatic.com/s/brygada1918/v3/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y7GY-V8Wu5O3gbo.ttf';
+  'http://fonts.gstatic.com/s/brygada1918/v15/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y7GY-V8Wu5O3gbo.ttf';
 export const Brygada1918_700Bold =
-  'http://fonts.gstatic.com/s/brygada1918/v3/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y4iY-V8Wu5O3gbo.ttf';
+  'http://fonts.gstatic.com/s/brygada1918/v15/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y4iY-V8Wu5O3gbo.ttf';
 export const Brygada1918_400Regular_Italic =
-  'http://fonts.gstatic.com/s/brygada1918/v3/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfcERwcv7GykboaLg.ttf';
+  'http://fonts.gstatic.com/s/brygada1918/v15/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfcERwcv7GykboaLg.ttf';
 export const Brygada1918_500Medium_Italic =
-  'http://fonts.gstatic.com/s/brygada1918/v3/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfcIxwcv7GykboaLg.ttf';
+  'http://fonts.gstatic.com/s/brygada1918/v15/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfcIxwcv7GykboaLg.ttf';
 export const Brygada1918_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/brygada1918/v3/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfczxscv7GykboaLg.ttf';
+  'http://fonts.gstatic.com/s/brygada1918/v15/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfczxscv7GykboaLg.ttf';
 export const Brygada1918_700Bold_Italic =
-  'http://fonts.gstatic.com/s/brygada1918/v3/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfc9hscv7GykboaLg.ttf';
+  'http://fonts.gstatic.com/s/brygada1918/v15/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfc9hscv7GykboaLg.ttf';
 export const AkayaKanadaka_400Regular =
-  'http://fonts.gstatic.com/s/akayakanadaka/v4/N0bM2S5CPO5oOQqvazoRRb-8-PfRS5VBBSSF.ttf';
+  'http://fonts.gstatic.com/s/akayakanadaka/v14/N0bM2S5CPO5oOQqvazoRRb-8-PfRS5VBBSSF.ttf';
+export const Besley_400Regular =
+  'http://fonts.gstatic.com/s/besley/v7/PlIhFlO1MaNwaNGWUC92IOH_mtG4fbbBSdRoFPOl8-E.ttf';
+export const Besley_500Medium =
+  'http://fonts.gstatic.com/s/besley/v7/PlIhFlO1MaNwaNGWUC92IOH_mtG4fYTBSdRoFPOl8-E.ttf';
+export const Besley_600SemiBold =
+  'http://fonts.gstatic.com/s/besley/v7/PlIhFlO1MaNwaNGWUC92IOH_mtG4fWjGSdRoFPOl8-E.ttf';
+export const Besley_700Bold =
+  'http://fonts.gstatic.com/s/besley/v7/PlIhFlO1MaNwaNGWUC92IOH_mtG4fVHGSdRoFPOl8-E.ttf';
+export const Besley_800ExtraBold =
+  'http://fonts.gstatic.com/s/besley/v7/PlIhFlO1MaNwaNGWUC92IOH_mtG4fTbGSdRoFPOl8-E.ttf';
+export const Besley_900Black =
+  'http://fonts.gstatic.com/s/besley/v7/PlIhFlO1MaNwaNGWUC92IOH_mtG4fR_GSdRoFPOl8-E.ttf';
+export const Besley_400Regular_Italic =
+  'http://fonts.gstatic.com/s/besley/v7/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CoZdiENGg4-E04A.ttf';
+export const Besley_500Medium_Italic =
+  'http://fonts.gstatic.com/s/besley/v7/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6Ck5diENGg4-E04A.ttf';
+export const Besley_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/besley/v7/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6Cf5BiENGg4-E04A.ttf';
+export const Besley_700Bold_Italic =
+  'http://fonts.gstatic.com/s/besley/v7/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CRpBiENGg4-E04A.ttf';
+export const Besley_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/besley/v7/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CIZBiENGg4-E04A.ttf';
+export const Besley_900Black_Italic =
+  'http://fonts.gstatic.com/s/besley/v7/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CCJBiENGg4-E04A.ttf';
 export const ShipporiMincho_400Regular =
-  'http://fonts.gstatic.com/s/shipporimincho/v7/VdGGAZweH5EbgHY6YExcZfDoj0BA2_-C7LoS7g.ttf';
+  'http://fonts.gstatic.com/s/shipporimincho/v11/VdGGAZweH5EbgHY6YExcZfDoj0BA2_-C7LoS7g.ttf';
 export const ShipporiMincho_500Medium =
-  'http://fonts.gstatic.com/s/shipporimincho/v7/VdGDAZweH5EbgHY6YExcZfDoj0B4L9am5JEO5--2zg.ttf';
+  'http://fonts.gstatic.com/s/shipporimincho/v11/VdGDAZweH5EbgHY6YExcZfDoj0B4L9am5JEO5--2zg.ttf';
 export const ShipporiMincho_600SemiBold =
-  'http://fonts.gstatic.com/s/shipporimincho/v7/VdGDAZweH5EbgHY6YExcZfDoj0B4A9Gm5JEO5--2zg.ttf';
+  'http://fonts.gstatic.com/s/shipporimincho/v11/VdGDAZweH5EbgHY6YExcZfDoj0B4A9Gm5JEO5--2zg.ttf';
 export const ShipporiMincho_700Bold =
-  'http://fonts.gstatic.com/s/shipporimincho/v7/VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm5JEO5--2zg.ttf';
+  'http://fonts.gstatic.com/s/shipporimincho/v11/VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm5JEO5--2zg.ttf';
 export const ShipporiMincho_800ExtraBold =
-  'http://fonts.gstatic.com/s/shipporimincho/v7/VdGDAZweH5EbgHY6YExcZfDoj0B4e9Om5JEO5--2zg.ttf';
+  'http://fonts.gstatic.com/s/shipporimincho/v11/VdGDAZweH5EbgHY6YExcZfDoj0B4e9Om5JEO5--2zg.ttf';
 export const ShipporiMinchoB1_400Regular =
-  'http://fonts.gstatic.com/s/shipporiminchob1/v10/~ChQKElNoaXBwb3JpIE1pbmNobyBCMSAAKgQIARgB.ttf';
+  'http://fonts.gstatic.com/s/shipporiminchob1/v14/~ChQKElNoaXBwb3JpIE1pbmNobyBCMSAAKgQIARgB.ttf';
 export const ShipporiMinchoB1_500Medium =
-  'http://fonts.gstatic.com/s/shipporiminchob1/v10/~ChcKElNoaXBwb3JpIE1pbmNobyBCMRj0AyAAKgQIARgB.ttf';
+  'http://fonts.gstatic.com/s/shipporiminchob1/v14/~ChcKElNoaXBwb3JpIE1pbmNobyBCMRj0AyAAKgQIARgB.ttf';
 export const ShipporiMinchoB1_600SemiBold =
-  'http://fonts.gstatic.com/s/shipporiminchob1/v10/~ChcKElNoaXBwb3JpIE1pbmNobyBCMRjYBCAAKgQIARgB.ttf';
+  'http://fonts.gstatic.com/s/shipporiminchob1/v14/~ChcKElNoaXBwb3JpIE1pbmNobyBCMRjYBCAAKgQIARgB.ttf';
 export const ShipporiMinchoB1_700Bold =
-  'http://fonts.gstatic.com/s/shipporiminchob1/v10/~ChcKElNoaXBwb3JpIE1pbmNobyBCMRi8BSAAKgQIARgB.ttf';
+  'http://fonts.gstatic.com/s/shipporiminchob1/v14/~ChcKElNoaXBwb3JpIE1pbmNobyBCMRi8BSAAKgQIARgB.ttf';
 export const ShipporiMinchoB1_800ExtraBold =
-  'http://fonts.gstatic.com/s/shipporiminchob1/v10/~ChcKElNoaXBwb3JpIE1pbmNobyBCMRigBiAAKgQIARgB.ttf';
+  'http://fonts.gstatic.com/s/shipporiminchob1/v14/~ChcKElNoaXBwb3JpIE1pbmNobyBCMRigBiAAKgQIARgB.ttf';
 export const Truculenta_100Thin =
   'http://fonts.gstatic.com/s/truculenta/v6/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMlAjswcFHnJMMhg.ttf';
 export const Truculenta_200ExtraLight =
@@ -85,30 +1051,36 @@ export const Truculenta_800ExtraBold =
 export const Truculenta_900Black =
   'http://fonts.gstatic.com/s/truculenta/v6/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMvklswcFHnJMMhg.ttf';
 export const DotGothic16_400Regular =
-  'http://fonts.gstatic.com/s/dotgothic16/v4/v6-QGYjBJFKgyw5nSoDAGE7L435YPFrT.ttf';
+  'http://fonts.gstatic.com/s/dotgothic16/v10/~Cg0KC0RvdEdvdGhpYzE2IAAqBAgBGAE=.ttf';
 export const ReggaeOne_400Regular =
-  'http://fonts.gstatic.com/s/reggaeone/v3/7r3DqX5msMIkeuwJwOJt_a5L5uH-mts.ttf';
+  'http://fonts.gstatic.com/s/reggaeone/v9/~CgwKClJlZ2dhZSBPbmUgACoECAEYAQ==.ttf';
 export const RocknRollOne_400Regular =
-  'http://fonts.gstatic.com/s/rocknrollone/v4/kmK7ZqspGAfCeUiW6FFlmEC9guVhs7tfUxc.ttf';
-export const Stick_400Regular = 'http://fonts.gstatic.com/s/stick/v4/Qw3TZQpMCyTtJSvfvPVDMPoF.ttf';
+  'http://fonts.gstatic.com/s/rocknrollone/v7/kmK7ZqspGAfCeUiW6FFlmEC9guVhs7tfUxc.ttf';
+export const Stick_400Regular = 'http://fonts.gstatic.com/s/stick/v13/Qw3TZQpMCyTtJSvfvPVDMPoF.ttf';
 export const TrainOne_400Regular =
-  'http://fonts.gstatic.com/s/trainone/v4/gyB-hwkiNtc6KnxUVjWHOqbZRY7JVQ.ttf';
+  'http://fonts.gstatic.com/s/trainone/v11/gyB-hwkiNtc6KnxUVjWHOqbZRY7JVQ.ttf';
 export const HachiMaruPop_400Regular =
-  'http://fonts.gstatic.com/s/hachimarupop/v6/HI_TiYoRLqpLrEiMAuO9Ysfz7rW1EM_btd8u.ttf';
+  'http://fonts.gstatic.com/s/hachimarupop/v15/HI_TiYoRLqpLrEiMAuO9Ysfz7rW1EM_btd8u.ttf';
 export const KiwiMaru_300Light =
-  'http://fonts.gstatic.com/s/kiwimaru/v4/R70djykGkuuDep-hRg6gNCi0Vxn9R5ShnA.ttf';
+  'http://fonts.gstatic.com/s/kiwimaru/v12/R70djykGkuuDep-hRg6gNCi0Vxn9R5ShnA.ttf';
 export const KiwiMaru_400Regular =
-  'http://fonts.gstatic.com/s/kiwimaru/v4/R70YjykGkuuDep-hRg6YmACQXzLhTg.ttf';
+  'http://fonts.gstatic.com/s/kiwimaru/v12/R70YjykGkuuDep-hRg6YmACQXzLhTg.ttf';
 export const KiwiMaru_500Medium =
-  'http://fonts.gstatic.com/s/kiwimaru/v4/R70djykGkuuDep-hRg6gbCm0Vxn9R5ShnA.ttf';
+  'http://fonts.gstatic.com/s/kiwimaru/v12/R70djykGkuuDep-hRg6gbCm0Vxn9R5ShnA.ttf';
+export const OtomanopeeOne_400Regular =
+  'http://fonts.gstatic.com/s/otomanopeeone/v4/xMQNuFtEVKCbvGxme-rSATGm_Aea91uCCB9o.ttf';
 export const PottaOne_400Regular =
-  'http://fonts.gstatic.com/s/pottaone/v6/FeVSS05Bp6cy7xI-YfxQ3Z5nm29Gww.ttf';
+  'http://fonts.gstatic.com/s/pottaone/v14/FeVSS05Bp6cy7xI-YfxQ3Z5nm29Gww.ttf';
+export const Rock3D_400Regular =
+  'http://fonts.gstatic.com/s/rock3d/v5/yYLp0hrL0PCo651513SnwRnQyNI.ttf';
 export const YuseiMagic_400Regular =
-  'http://fonts.gstatic.com/s/yuseimagic/v5/yYLt0hbAyuCmoo5wlhPkpjHR-tdfcIT_.ttf';
+  'http://fonts.gstatic.com/s/yuseimagic/v9/yYLt0hbAyuCmoo5wlhPkpjHR-tdfcIT_.ttf';
 export const DelaGothicOne_400Regular =
-  'http://fonts.gstatic.com/s/delagothicone/v4/hESp6XxvMDRA-2eD0lXpDa6QkBAGRUsJQAlbUA.ttf';
+  'http://fonts.gstatic.com/s/delagothicone/v8/~ChEKD0RlbGEgR290aGljIE9uZSAAKgQIARgB.ttf';
 export const NewTegomin_400Regular =
-  'http://fonts.gstatic.com/s/newtegomin/v5/SLXMc1fV7Gd9USdBAfPlqfN0Q3ptkDMN.ttf';
+  'http://fonts.gstatic.com/s/newtegomin/v8/SLXMc1fV7Gd9USdBAfPlqfN0Q3ptkDMN.ttf';
+export const Shizuru_400Regular =
+  'http://fonts.gstatic.com/s/shizuru/v5/O4ZSFGfvnxFiCA3i30IJlgUTj2A.ttf';
 export const Imbue_100Thin =
   'http://fonts.gstatic.com/s/imbue/v9/RLpXK5P16Ki3fXhj5cvGrqjocPk4n-gVX3M93TnrnvhoP8iWfOsNNK-Q4xY.ttf';
 export const Imbue_200ExtraLight =
@@ -152,13 +1124,1267 @@ export const BodoniModa_800ExtraBold_Italic =
 export const BodoniModa_900Black_Italic =
   'http://fonts.gstatic.com/s/bodonimoda/v7/aFT07PxzY382XsXX63LUYJSPUqb0pL6OQqxrZLnVbvZedvJtj-V7tIaZgcR4sXrJcwHqoQ.ttf';
 export const AndikaNewBasic_400Regular =
-  'http://fonts.gstatic.com/s/andikanewbasic/v5/taiRGn9tCp-44eleq5Q-mszJivxSSK-UEGKDBz4.ttf';
+  'http://fonts.gstatic.com/s/andikanewbasic/v15/taiRGn9tCp-44eleq5Q-mszJivxSSK-UEGKDBz4.ttf';
 export const AndikaNewBasic_400Regular_Italic =
-  'http://fonts.gstatic.com/s/andikanewbasic/v5/taiXGn9tCp-44eleq5Q-mszJivxSeK2eFECGFz5VCg.ttf';
+  'http://fonts.gstatic.com/s/andikanewbasic/v15/taiXGn9tCp-44eleq5Q-mszJivxSeK2eFECGFz5VCg.ttf';
 export const AndikaNewBasic_700Bold =
-  'http://fonts.gstatic.com/s/andikanewbasic/v5/taiWGn9tCp-44eleq5Q-mszJivxScBO7NGqoGzdME84.ttf';
+  'http://fonts.gstatic.com/s/andikanewbasic/v15/taiWGn9tCp-44eleq5Q-mszJivxScBO7NGqoGzdME84.ttf';
 export const AndikaNewBasic_700Bold_Italic =
-  'http://fonts.gstatic.com/s/andikanewbasic/v5/taiUGn9tCp-44eleq5Q-mszJivxSeK2mqG-iHxVJA85Okw.ttf';
+  'http://fonts.gstatic.com/s/andikanewbasic/v15/taiUGn9tCp-44eleq5Q-mszJivxSeK2mqG-iHxVJA85Okw.ttf';
+export const NotoKufiArabic_100Thin =
+  'http://fonts.gstatic.com/s/notokufiarabic/v11/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh5v3obPnLSmf5yD.ttf';
+export const NotoKufiArabic_200ExtraLight =
+  'http://fonts.gstatic.com/s/notokufiarabic/v11/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh7v34bPnLSmf5yD.ttf';
+export const NotoKufiArabic_300Light =
+  'http://fonts.gstatic.com/s/notokufiarabic/v11/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh4x34bPnLSmf5yD.ttf';
+export const NotoKufiArabic_400Regular =
+  'http://fonts.gstatic.com/s/notokufiarabic/v11/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh5v34bPnLSmf5yD.ttf';
+export const NotoKufiArabic_500Medium =
+  'http://fonts.gstatic.com/s/notokufiarabic/v11/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh5d34bPnLSmf5yD.ttf';
+export const NotoKufiArabic_600SemiBold =
+  'http://fonts.gstatic.com/s/notokufiarabic/v11/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh6x2IbPnLSmf5yD.ttf';
+export const NotoKufiArabic_700Bold =
+  'http://fonts.gstatic.com/s/notokufiarabic/v11/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh6I2IbPnLSmf5yD.ttf';
+export const NotoKufiArabic_800ExtraBold =
+  'http://fonts.gstatic.com/s/notokufiarabic/v11/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh7v2IbPnLSmf5yD.ttf';
+export const NotoKufiArabic_900Black =
+  'http://fonts.gstatic.com/s/notokufiarabic/v11/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh7G2IbPnLSmf5yD.ttf';
+export const NotoMusic_400Regular =
+  'http://fonts.gstatic.com/s/notomusic/v13/pe0rMIiSN5pO63htf1sxIteQB9Zra1U.ttf';
+export const NotoNaskhArabic_400Regular =
+  'http://fonts.gstatic.com/s/notonaskharabic/v13/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc5krK0z9_Mnuw.ttf';
+export const NotoNaskhArabic_500Medium =
+  'http://fonts.gstatic.com/s/notonaskharabic/v13/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwj85krK0z9_Mnuw.ttf';
+export const NotoNaskhArabic_600SemiBold =
+  'http://fonts.gstatic.com/s/notonaskharabic/v13/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwY8lkrK0z9_Mnuw.ttf';
+export const NotoNaskhArabic_700Bold =
+  'http://fonts.gstatic.com/s/notonaskharabic/v13/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwWslkrK0z9_Mnuw.ttf';
+export const NotoNastaliqUrdu_400Regular =
+  'http://fonts.gstatic.com/s/notonastaliqurdu/v11/LhW4MUPbN-oZdNFcBy1-DJYsEoTq5puHSPANO9blOA.ttf';
+export const NotoNastaliqUrdu_700Bold =
+  'http://fonts.gstatic.com/s/notonastaliqurdu/v11/LhW7MUPbN-oZdNFcBy1-DJYsEoTq5pu_9N8pM_35MVRvQw.ttf';
+export const NotoRashiHebrew_100Thin =
+  'http://fonts.gstatic.com/s/notorashihebrew/v13/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZB-DkRyq6Nf2pfA.ttf';
+export const NotoRashiHebrew_200ExtraLight =
+  'http://fonts.gstatic.com/s/notorashihebrew/v13/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZh-HkRyq6Nf2pfA.ttf';
+export const NotoRashiHebrew_300Light =
+  'http://fonts.gstatic.com/s/notorashihebrew/v13/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZWeHkRyq6Nf2pfA.ttf';
+export const NotoRashiHebrew_400Regular =
+  'http://fonts.gstatic.com/s/notorashihebrew/v13/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZB-HkRyq6Nf2pfA.ttf';
+export const NotoRashiHebrew_500Medium =
+  'http://fonts.gstatic.com/s/notorashihebrew/v13/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZNeHkRyq6Nf2pfA.ttf';
+export const NotoRashiHebrew_600SemiBold =
+  'http://fonts.gstatic.com/s/notorashihebrew/v13/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZ2ebkRyq6Nf2pfA.ttf';
+export const NotoRashiHebrew_700Bold =
+  'http://fonts.gstatic.com/s/notorashihebrew/v13/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZ4ObkRyq6Nf2pfA.ttf';
+export const NotoRashiHebrew_800ExtraBold =
+  'http://fonts.gstatic.com/s/notorashihebrew/v13/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZh-bkRyq6Nf2pfA.ttf';
+export const NotoRashiHebrew_900Black =
+  'http://fonts.gstatic.com/s/notorashihebrew/v13/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZrubkRyq6Nf2pfA.ttf';
+export const NotoSansAdlam_400Regular =
+  'http://fonts.gstatic.com/s/notosansadlam/v13/neIczCCpqp0s5pPusPamd81eMfjPonvqdbYxxpgufnv0TGnBZLwhuvk.ttf';
+export const NotoSansAdlam_500Medium =
+  'http://fonts.gstatic.com/s/notosansadlam/v13/neIczCCpqp0s5pPusPamd81eMfjPonvqdbYxxpgufkn0TGnBZLwhuvk.ttf';
+export const NotoSansAdlam_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansadlam/v13/neIczCCpqp0s5pPusPamd81eMfjPonvqdbYxxpgufqXzTGnBZLwhuvk.ttf';
+export const NotoSansAdlam_700Bold =
+  'http://fonts.gstatic.com/s/notosansadlam/v13/neIczCCpqp0s5pPusPamd81eMfjPonvqdbYxxpgufpzzTGnBZLwhuvk.ttf';
+export const NotoSansAdlamUnjoined_400Regular =
+  'http://fonts.gstatic.com/s/notosansadlamunjoined/v13/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_Ye35PMEe-E3slUg.ttf';
+export const NotoSansAdlamUnjoined_500Medium =
+  'http://fonts.gstatic.com/s/notosansadlamunjoined/v13/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_Yd_5PMEe-E3slUg.ttf';
+export const NotoSansAdlamUnjoined_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansadlamunjoined/v13/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_YTP-PMEe-E3slUg.ttf';
+export const NotoSansAdlamUnjoined_700Bold =
+  'http://fonts.gstatic.com/s/notosansadlamunjoined/v13/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_YQr-PMEe-E3slUg.ttf';
+export const NotoSansAnatolianHieroglyphs_400Regular =
+  'http://fonts.gstatic.com/s/notosansanatolianhieroglyphs/v13/ijw9s4roRME5LLRxjsRb8A0gKPSWq4BbDmHHu6j2pEtUJzZWXybIymc5QYo.ttf';
+export const NotoSansArabic_100Thin =
+  'http://fonts.gstatic.com/s/notosansarabic/v13/nwpxtLGrOAZMl5nJ_wfgRg3DrWFZWsnVBJ_sS6tlqHHFlhQ5l3sQWIHPqzCfyG2vu3CBFQLaig.ttf';
+export const NotoSansArabic_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosansarabic/v13/nwpxtLGrOAZMl5nJ_wfgRg3DrWFZWsnVBJ_sS6tlqHHFlhQ5l3sQWIHPqzCfSGyvu3CBFQLaig.ttf';
+export const NotoSansArabic_300Light =
+  'http://fonts.gstatic.com/s/notosansarabic/v13/nwpxtLGrOAZMl5nJ_wfgRg3DrWFZWsnVBJ_sS6tlqHHFlhQ5l3sQWIHPqzCflmyvu3CBFQLaig.ttf';
+export const NotoSansArabic_400Regular =
+  'http://fonts.gstatic.com/s/notosansarabic/v13/nwpxtLGrOAZMl5nJ_wfgRg3DrWFZWsnVBJ_sS6tlqHHFlhQ5l3sQWIHPqzCfyGyvu3CBFQLaig.ttf';
+export const NotoSansArabic_500Medium =
+  'http://fonts.gstatic.com/s/notosansarabic/v13/nwpxtLGrOAZMl5nJ_wfgRg3DrWFZWsnVBJ_sS6tlqHHFlhQ5l3sQWIHPqzCf-myvu3CBFQLaig.ttf';
+export const NotoSansArabic_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansarabic/v13/nwpxtLGrOAZMl5nJ_wfgRg3DrWFZWsnVBJ_sS6tlqHHFlhQ5l3sQWIHPqzCfFmuvu3CBFQLaig.ttf';
+export const NotoSansArabic_700Bold =
+  'http://fonts.gstatic.com/s/notosansarabic/v13/nwpxtLGrOAZMl5nJ_wfgRg3DrWFZWsnVBJ_sS6tlqHHFlhQ5l3sQWIHPqzCfL2uvu3CBFQLaig.ttf';
+export const NotoSansArabic_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosansarabic/v13/nwpxtLGrOAZMl5nJ_wfgRg3DrWFZWsnVBJ_sS6tlqHHFlhQ5l3sQWIHPqzCfSGuvu3CBFQLaig.ttf';
+export const NotoSansArabic_900Black =
+  'http://fonts.gstatic.com/s/notosansarabic/v13/nwpxtLGrOAZMl5nJ_wfgRg3DrWFZWsnVBJ_sS6tlqHHFlhQ5l3sQWIHPqzCfYWuvu3CBFQLaig.ttf';
+export const NotoSansArmenian_100Thin =
+  'http://fonts.gstatic.com/s/notosansarmenian/v28/ZgN0jOZKPa7CHqq0h37c7ReDUubm2SEdFXp7ig73qtTY5idb74R9UdM3y2nZLorxbq0iYy6zF3Eg.ttf';
+export const NotoSansArmenian_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosansarmenian/v28/ZgN0jOZKPa7CHqq0h37c7ReDUubm2SEdFXp7ig73qtTY5idb74R9UdM3y2nZLopxb60iYy6zF3Eg.ttf';
+export const NotoSansArmenian_300Light =
+  'http://fonts.gstatic.com/s/notosansarmenian/v28/ZgN0jOZKPa7CHqq0h37c7ReDUubm2SEdFXp7ig73qtTY5idb74R9UdM3y2nZLoqvb60iYy6zF3Eg.ttf';
+export const NotoSansArmenian_400Regular =
+  'http://fonts.gstatic.com/s/notosansarmenian/v28/ZgN0jOZKPa7CHqq0h37c7ReDUubm2SEdFXp7ig73qtTY5idb74R9UdM3y2nZLorxb60iYy6zF3Eg.ttf';
+export const NotoSansArmenian_500Medium =
+  'http://fonts.gstatic.com/s/notosansarmenian/v28/ZgN0jOZKPa7CHqq0h37c7ReDUubm2SEdFXp7ig73qtTY5idb74R9UdM3y2nZLorDb60iYy6zF3Eg.ttf';
+export const NotoSansArmenian_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansarmenian/v28/ZgN0jOZKPa7CHqq0h37c7ReDUubm2SEdFXp7ig73qtTY5idb74R9UdM3y2nZLoovaK0iYy6zF3Eg.ttf';
+export const NotoSansArmenian_700Bold =
+  'http://fonts.gstatic.com/s/notosansarmenian/v28/ZgN0jOZKPa7CHqq0h37c7ReDUubm2SEdFXp7ig73qtTY5idb74R9UdM3y2nZLooWaK0iYy6zF3Eg.ttf';
+export const NotoSansArmenian_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosansarmenian/v28/ZgN0jOZKPa7CHqq0h37c7ReDUubm2SEdFXp7ig73qtTY5idb74R9UdM3y2nZLopxaK0iYy6zF3Eg.ttf';
+export const NotoSansArmenian_900Black =
+  'http://fonts.gstatic.com/s/notosansarmenian/v28/ZgN0jOZKPa7CHqq0h37c7ReDUubm2SEdFXp7ig73qtTY5idb74R9UdM3y2nZLopYaK0iYy6zF3Eg.ttf';
+export const NotoSansAvestan_400Regular =
+  'http://fonts.gstatic.com/s/notosansavestan/v13/bWti7ejKfBziStx7lIzKOLQZKhIJkyu9SASLji8U.ttf';
+export const NotoSansBalinese_400Regular =
+  'http://fonts.gstatic.com/s/notosansbalinese/v13/NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov7fdhE5Vd222PPY.ttf';
+export const NotoSansBalinese_500Medium =
+  'http://fonts.gstatic.com/s/notosansbalinese/v13/NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov4XdhE5Vd222PPY.ttf';
+export const NotoSansBalinese_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansbalinese/v13/NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov2nahE5Vd222PPY.ttf';
+export const NotoSansBalinese_700Bold =
+  'http://fonts.gstatic.com/s/notosansbalinese/v13/NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov1DahE5Vd222PPY.ttf';
+export const NotoSansBamum_400Regular =
+  'http://fonts.gstatic.com/s/notosansbamum/v14/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPEddO-_gLykxEkxA.ttf';
+export const NotoSansBamum_500Medium =
+  'http://fonts.gstatic.com/s/notosansbamum/v14/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPEeVO-_gLykxEkxA.ttf';
+export const NotoSansBamum_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansbamum/v14/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPEQlJ-_gLykxEkxA.ttf';
+export const NotoSansBamum_700Bold =
+  'http://fonts.gstatic.com/s/notosansbamum/v14/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPETBJ-_gLykxEkxA.ttf';
+export const NotoSansBassaVah_400Regular =
+  'http://fonts.gstatic.com/s/notosansbassavah/v13/PN_sRee-r3f7LnqsD5sax12gjZn7mBpL_4c2VNUQptE.ttf';
+export const NotoSansBatak_400Regular =
+  'http://fonts.gstatic.com/s/notosansbatak/v13/gok2H6TwAEdtF9N8-mdTCQvT-Zdgo4_PHuk74A.ttf';
+export const NotoSansBengali_100Thin =
+  'http://fonts.gstatic.com/s/notosansbengali/v13/Cn-SJsCGWQxOjaGwMQ6fIiMywrNJIky6nvd8BjzVMvJx2mcSPVFpVEqE-6KmsolKudCk8izI0lc.ttf';
+export const NotoSansBengali_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosansbengali/v13/Cn-SJsCGWQxOjaGwMQ6fIiMywrNJIky6nvd8BjzVMvJx2mcSPVFpVEqE-6KmsglLudCk8izI0lc.ttf';
+export const NotoSansBengali_300Light =
+  'http://fonts.gstatic.com/s/notosansbengali/v13/Cn-SJsCGWQxOjaGwMQ6fIiMywrNJIky6nvd8BjzVMvJx2mcSPVFpVEqE-6KmstdLudCk8izI0lc.ttf';
+export const NotoSansBengali_400Regular =
+  'http://fonts.gstatic.com/s/notosansbengali/v13/Cn-SJsCGWQxOjaGwMQ6fIiMywrNJIky6nvd8BjzVMvJx2mcSPVFpVEqE-6KmsolLudCk8izI0lc.ttf';
+export const NotoSansBengali_500Medium =
+  'http://fonts.gstatic.com/s/notosansbengali/v13/Cn-SJsCGWQxOjaGwMQ6fIiMywrNJIky6nvd8BjzVMvJx2mcSPVFpVEqE-6KmsrtLudCk8izI0lc.ttf';
+export const NotoSansBengali_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansbengali/v13/Cn-SJsCGWQxOjaGwMQ6fIiMywrNJIky6nvd8BjzVMvJx2mcSPVFpVEqE-6KmsldMudCk8izI0lc.ttf';
+export const NotoSansBengali_700Bold =
+  'http://fonts.gstatic.com/s/notosansbengali/v13/Cn-SJsCGWQxOjaGwMQ6fIiMywrNJIky6nvd8BjzVMvJx2mcSPVFpVEqE-6Kmsm5MudCk8izI0lc.ttf';
+export const NotoSansBengali_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosansbengali/v13/Cn-SJsCGWQxOjaGwMQ6fIiMywrNJIky6nvd8BjzVMvJx2mcSPVFpVEqE-6KmsglMudCk8izI0lc.ttf';
+export const NotoSansBengali_900Black =
+  'http://fonts.gstatic.com/s/notosansbengali/v13/Cn-SJsCGWQxOjaGwMQ6fIiMywrNJIky6nvd8BjzVMvJx2mcSPVFpVEqE-6KmsiBMudCk8izI0lc.ttf';
+export const NotoSansBhaiksuki_400Regular =
+  'http://fonts.gstatic.com/s/notosansbhaiksuki/v13/UcC63EosKniBH4iELXATsSBWdvUHXxhj8rLUdU4wh9U.ttf';
+export const NotoSansBrahmi_400Regular =
+  'http://fonts.gstatic.com/s/notosansbrahmi/v13/vEFK2-VODB8RrNDvZSUmQQIIByV18tK1W77HtMo.ttf';
+export const NotoSansBuginese_400Regular =
+  'http://fonts.gstatic.com/s/notosansbuginese/v13/esDM30ldNv-KYGGJpKGk18phe_7Da6_gtfuEXLmNtw.ttf';
+export const NotoSansBuhid_400Regular =
+  'http://fonts.gstatic.com/s/notosansbuhid/v13/Dxxy8jiXMW75w3OmoDXVWJD7YwzAe6tgnaFoGA.ttf';
+export const NotoSansCanadianAboriginal_100Thin =
+  'http://fonts.gstatic.com/s/notosanscanadianaboriginal/v13/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzigWLj_yAsg0q0uhQ.ttf';
+export const NotoSansCanadianAboriginal_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosanscanadianaboriginal/v13/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzig2Ln_yAsg0q0uhQ.ttf';
+export const NotoSansCanadianAboriginal_300Light =
+  'http://fonts.gstatic.com/s/notosanscanadianaboriginal/v13/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzigBrn_yAsg0q0uhQ.ttf';
+export const NotoSansCanadianAboriginal_400Regular =
+  'http://fonts.gstatic.com/s/notosanscanadianaboriginal/v13/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzigWLn_yAsg0q0uhQ.ttf';
+export const NotoSansCanadianAboriginal_500Medium =
+  'http://fonts.gstatic.com/s/notosanscanadianaboriginal/v13/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzigarn_yAsg0q0uhQ.ttf';
+export const NotoSansCanadianAboriginal_600SemiBold =
+  'http://fonts.gstatic.com/s/notosanscanadianaboriginal/v13/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzighr7_yAsg0q0uhQ.ttf';
+export const NotoSansCanadianAboriginal_700Bold =
+  'http://fonts.gstatic.com/s/notosanscanadianaboriginal/v13/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzigv77_yAsg0q0uhQ.ttf';
+export const NotoSansCanadianAboriginal_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosanscanadianaboriginal/v13/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzig2L7_yAsg0q0uhQ.ttf';
+export const NotoSansCanadianAboriginal_900Black =
+  'http://fonts.gstatic.com/s/notosanscanadianaboriginal/v13/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzig8b7_yAsg0q0uhQ.ttf';
+export const NotoSansCarian_400Regular =
+  'http://fonts.gstatic.com/s/notosanscarian/v13/LDIpaoiONgYwA9Yc6f0gUILeMIOgs7ob9yGLmfI.ttf';
+export const NotoSansCaucasianAlbanian_400Regular =
+  'http://fonts.gstatic.com/s/notosanscaucasianalbanian/v14/nKKA-HM_FYFRJvXzVXaANsU0VzsAc46QGOkWytlTs-TXrYDmoVmRSZo.ttf';
+export const NotoSansChakma_400Regular =
+  'http://fonts.gstatic.com/s/notosanschakma/v13/Y4GQYbJ8VTEp4t3MKJSMjg5OIzhi4JjTQhYBeYo.ttf';
+export const NotoSansCham_100Thin =
+  'http://fonts.gstatic.com/s/notosanscham/v13/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcER0cv7GykboaLg.ttf';
+export const NotoSansCham_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosanscham/v13/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfckRwcv7GykboaLg.ttf';
+export const NotoSansCham_300Light =
+  'http://fonts.gstatic.com/s/notosanscham/v13/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcTxwcv7GykboaLg.ttf';
+export const NotoSansCham_400Regular =
+  'http://fonts.gstatic.com/s/notosanscham/v13/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcERwcv7GykboaLg.ttf';
+export const NotoSansCham_500Medium =
+  'http://fonts.gstatic.com/s/notosanscham/v13/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcIxwcv7GykboaLg.ttf';
+export const NotoSansCham_600SemiBold =
+  'http://fonts.gstatic.com/s/notosanscham/v13/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfczxscv7GykboaLg.ttf';
+export const NotoSansCham_700Bold =
+  'http://fonts.gstatic.com/s/notosanscham/v13/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfc9hscv7GykboaLg.ttf';
+export const NotoSansCham_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosanscham/v13/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfckRscv7GykboaLg.ttf';
+export const NotoSansCham_900Black =
+  'http://fonts.gstatic.com/s/notosanscham/v13/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcuBscv7GykboaLg.ttf';
+export const NotoSansCherokee_100Thin =
+  'http://fonts.gstatic.com/s/notosanscherokee/v13/KFOPCm6Yu8uF-29fiz9vQF9YWK6Z8O10cHNA0cSkZCHYWi5ODkm5rAffjl0.ttf';
+export const NotoSansCherokee_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosanscherokee/v13/KFOPCm6Yu8uF-29fiz9vQF9YWK6Z8O10cHNA0cSkZCHYWq5PDkm5rAffjl0.ttf';
+export const NotoSansCherokee_300Light =
+  'http://fonts.gstatic.com/s/notosanscherokee/v13/KFOPCm6Yu8uF-29fiz9vQF9YWK6Z8O10cHNA0cSkZCHYWnBPDkm5rAffjl0.ttf';
+export const NotoSansCherokee_400Regular =
+  'http://fonts.gstatic.com/s/notosanscherokee/v13/KFOPCm6Yu8uF-29fiz9vQF9YWK6Z8O10cHNA0cSkZCHYWi5PDkm5rAffjl0.ttf';
+export const NotoSansCherokee_500Medium =
+  'http://fonts.gstatic.com/s/notosanscherokee/v13/KFOPCm6Yu8uF-29fiz9vQF9YWK6Z8O10cHNA0cSkZCHYWhxPDkm5rAffjl0.ttf';
+export const NotoSansCherokee_600SemiBold =
+  'http://fonts.gstatic.com/s/notosanscherokee/v13/KFOPCm6Yu8uF-29fiz9vQF9YWK6Z8O10cHNA0cSkZCHYWvBIDkm5rAffjl0.ttf';
+export const NotoSansCherokee_700Bold =
+  'http://fonts.gstatic.com/s/notosanscherokee/v13/KFOPCm6Yu8uF-29fiz9vQF9YWK6Z8O10cHNA0cSkZCHYWslIDkm5rAffjl0.ttf';
+export const NotoSansCherokee_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosanscherokee/v13/KFOPCm6Yu8uF-29fiz9vQF9YWK6Z8O10cHNA0cSkZCHYWq5IDkm5rAffjl0.ttf';
+export const NotoSansCherokee_900Black =
+  'http://fonts.gstatic.com/s/notosanscherokee/v13/KFOPCm6Yu8uF-29fiz9vQF9YWK6Z8O10cHNA0cSkZCHYWodIDkm5rAffjl0.ttf';
+export const NotoSansCoptic_400Regular =
+  'http://fonts.gstatic.com/s/notosanscoptic/v13/iJWfBWmUZi_OHPqn4wq6kgqumOEd78u_VG0xR4Y.ttf';
+export const NotoSansCuneiform_400Regular =
+  'http://fonts.gstatic.com/s/notosanscuneiform/v13/bMrrmTWK7YY-MF22aHGGd7H8PhJtvBDWgb9JlRQueeQ.ttf';
+export const NotoSansCypriot_400Regular =
+  'http://fonts.gstatic.com/s/notosanscypriot/v13/8AtzGta9PYqQDjyp79a6f8Cj-3a3cxIsK5MPpahF.ttf';
+export const NotoSansDeseret_400Regular =
+  'http://fonts.gstatic.com/s/notosansdeseret/v13/MwQsbgPp1eKH6QsAVuFb9AZM6MMr2Vq9ZnJSZtQG.ttf';
+export const NotoSansDevanagari_100Thin =
+  'http://fonts.gstatic.com/s/notosansdevanagari/v13/TuGAUUFzXI5FBtUq5a8bjKYTZjtRU6Sgv1E1fxxPDT4d_AU.ttf';
+export const NotoSansDevanagari_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosansdevanagari/v13/TuGBUUFzXI5FBtUq5a8bjKYTZjtRU6Sgv1GZXjxlIzIU5RwD.ttf';
+export const NotoSansDevanagari_300Light =
+  'http://fonts.gstatic.com/s/notosansdevanagari/v13/TuGBUUFzXI5FBtUq5a8bjKYTZjtRU6Sgv1H9XTxlIzIU5RwD.ttf';
+export const NotoSansDevanagari_400Regular =
+  'http://fonts.gstatic.com/s/notosansdevanagari/v13/TuGOUUFzXI5FBtUq5a8bjKYTZjtRU6Sgv2lRdRhtCC4d.ttf';
+export const NotoSansDevanagari_500Medium =
+  'http://fonts.gstatic.com/s/notosansdevanagari/v13/TuGBUUFzXI5FBtUq5a8bjKYTZjtRU6Sgv1GlXDxlIzIU5RwD.ttf';
+export const NotoSansDevanagari_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansdevanagari/v13/TuGBUUFzXI5FBtUq5a8bjKYTZjtRU6Sgv1GJWzxlIzIU5RwD.ttf';
+export const NotoSansDevanagari_700Bold =
+  'http://fonts.gstatic.com/s/notosansdevanagari/v13/TuGBUUFzXI5FBtUq5a8bjKYTZjtRU6Sgv1HtWjxlIzIU5RwD.ttf';
+export const NotoSansDevanagari_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosansdevanagari/v13/TuGBUUFzXI5FBtUq5a8bjKYTZjtRU6Sgv1HxWTxlIzIU5RwD.ttf';
+export const NotoSansDevanagari_900Black =
+  'http://fonts.gstatic.com/s/notosansdevanagari/v13/TuGBUUFzXI5FBtUq5a8bjKYTZjtRU6Sgv1HVWDxlIzIU5RwD.ttf';
+export const NotoSansDisplay_100Thin =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpbK4fy6r6tOBEJg0IAKzqdFZVZxpMkXJMhnB9XjO1o90LuV-PT4Doq_AKp_3cLVTGQ2iHrvWM.ttf';
+export const NotoSansDisplay_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpbK4fy6r6tOBEJg0IAKzqdFZVZxpMkXJMhnB9XjO1o90LuV-PT4Doq_AKp__cKVTGQ2iHrvWM.ttf';
+export const NotoSansDisplay_300Light =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpbK4fy6r6tOBEJg0IAKzqdFZVZxpMkXJMhnB9XjO1o90LuV-PT4Doq_AKp_ykKVTGQ2iHrvWM.ttf';
+export const NotoSansDisplay_400Regular =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpbK4fy6r6tOBEJg0IAKzqdFZVZxpMkXJMhnB9XjO1o90LuV-PT4Doq_AKp_3cKVTGQ2iHrvWM.ttf';
+export const NotoSansDisplay_500Medium =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpbK4fy6r6tOBEJg0IAKzqdFZVZxpMkXJMhnB9XjO1o90LuV-PT4Doq_AKp_0UKVTGQ2iHrvWM.ttf';
+export const NotoSansDisplay_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpbK4fy6r6tOBEJg0IAKzqdFZVZxpMkXJMhnB9XjO1o90LuV-PT4Doq_AKp_6kNVTGQ2iHrvWM.ttf';
+export const NotoSansDisplay_700Bold =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpbK4fy6r6tOBEJg0IAKzqdFZVZxpMkXJMhnB9XjO1o90LuV-PT4Doq_AKp_5ANVTGQ2iHrvWM.ttf';
+export const NotoSansDisplay_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpbK4fy6r6tOBEJg0IAKzqdFZVZxpMkXJMhnB9XjO1o90LuV-PT4Doq_AKp__cNVTGQ2iHrvWM.ttf';
+export const NotoSansDisplay_900Black =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpbK4fy6r6tOBEJg0IAKzqdFZVZxpMkXJMhnB9XjO1o90LuV-PT4Doq_AKp_94NVTGQ2iHrvWM.ttf';
+export const NotoSansDisplay_100Thin_Italic =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpZK4fy6r6tOBEJg0IAKzqdFZVZxrktbnDB5UzBIup9PwAcHtEsOFNBZqyu6r9JvXOa3gPurWM9uQ.ttf';
+export const NotoSansDisplay_200ExtraLight_Italic =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpZK4fy6r6tOBEJg0IAKzqdFZVZxrktbnDB5UzBIup9PwAcHtEsOFNBZqyu6r9JPXKa3gPurWM9uQ.ttf';
+export const NotoSansDisplay_300Light_Italic =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpZK4fy6r6tOBEJg0IAKzqdFZVZxrktbnDB5UzBIup9PwAcHtEsOFNBZqyu6r9J43Ka3gPurWM9uQ.ttf';
+export const NotoSansDisplay_400Regular_Italic =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpZK4fy6r6tOBEJg0IAKzqdFZVZxrktbnDB5UzBIup9PwAcHtEsOFNBZqyu6r9JvXKa3gPurWM9uQ.ttf';
+export const NotoSansDisplay_500Medium_Italic =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpZK4fy6r6tOBEJg0IAKzqdFZVZxrktbnDB5UzBIup9PwAcHtEsOFNBZqyu6r9Jj3Ka3gPurWM9uQ.ttf';
+export const NotoSansDisplay_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpZK4fy6r6tOBEJg0IAKzqdFZVZxrktbnDB5UzBIup9PwAcHtEsOFNBZqyu6r9JY3Wa3gPurWM9uQ.ttf';
+export const NotoSansDisplay_700Bold_Italic =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpZK4fy6r6tOBEJg0IAKzqdFZVZxrktbnDB5UzBIup9PwAcHtEsOFNBZqyu6r9JWnWa3gPurWM9uQ.ttf';
+export const NotoSansDisplay_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpZK4fy6r6tOBEJg0IAKzqdFZVZxrktbnDB5UzBIup9PwAcHtEsOFNBZqyu6r9JPXWa3gPurWM9uQ.ttf';
+export const NotoSansDisplay_900Black_Italic =
+  'http://fonts.gstatic.com/s/notosansdisplay/v13/RLpZK4fy6r6tOBEJg0IAKzqdFZVZxrktbnDB5UzBIup9PwAcHtEsOFNBZqyu6r9JFHWa3gPurWM9uQ.ttf';
+export const NotoSansDuployan_400Regular =
+  'http://fonts.gstatic.com/s/notosansduployan/v14/gokzH7nwAEdtF9N8-mdTDx_X9JM5wsvrFsIn6WYDvA.ttf';
+export const NotoSansEgyptianHieroglyphs_400Regular =
+  'http://fonts.gstatic.com/s/notosansegyptianhieroglyphs/v24/vEF42-tODB8RrNDvZSUmRhcQHzx1s7y_F9-j3qSzEcbEYindSVK8xRg7iw.ttf';
+export const NotoSansElbasan_400Regular =
+  'http://fonts.gstatic.com/s/notosanselbasan/v13/-F6rfiZqLzI2JPCgQBnw400qp1trvHdlre4dFcFh.ttf';
+export const NotoSansElymaic_400Regular =
+  'http://fonts.gstatic.com/s/notosanselymaic/v13/UqyKK9YTJW5liNMhTMqe9vUFP65ZD4AjWOT0zi2V.ttf';
+export const NotoSansGeorgian_100Thin =
+  'http://fonts.gstatic.com/s/notosansgeorgian/v28/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdpvnzVj-f5WK0OQV.ttf';
+export const NotoSansGeorgian_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosansgeorgian/v28/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdptnzFj-f5WK0OQV.ttf';
+export const NotoSansGeorgian_300Light =
+  'http://fonts.gstatic.com/s/notosansgeorgian/v28/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdpu5zFj-f5WK0OQV.ttf';
+export const NotoSansGeorgian_400Regular =
+  'http://fonts.gstatic.com/s/notosansgeorgian/v28/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdpvnzFj-f5WK0OQV.ttf';
+export const NotoSansGeorgian_500Medium =
+  'http://fonts.gstatic.com/s/notosansgeorgian/v28/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdpvVzFj-f5WK0OQV.ttf';
+export const NotoSansGeorgian_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansgeorgian/v28/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdps5y1j-f5WK0OQV.ttf';
+export const NotoSansGeorgian_700Bold =
+  'http://fonts.gstatic.com/s/notosansgeorgian/v28/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdpsAy1j-f5WK0OQV.ttf';
+export const NotoSansGeorgian_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosansgeorgian/v28/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdptny1j-f5WK0OQV.ttf';
+export const NotoSansGeorgian_900Black =
+  'http://fonts.gstatic.com/s/notosansgeorgian/v28/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdptOy1j-f5WK0OQV.ttf';
+export const NotoSansGlagolitic_400Regular =
+  'http://fonts.gstatic.com/s/notosansglagolitic/v13/1q2ZY4-BBFBst88SU_tOj4J-4yuNF_HI4ERK4Amu7nM1.ttf';
+export const NotoSansGothic_400Regular =
+  'http://fonts.gstatic.com/s/notosansgothic/v13/TuGKUUVzXI5FBtUq5a8bj6wRbzxTFMX40kFQRx0.ttf';
+export const NotoSansGrantha_400Regular =
+  'http://fonts.gstatic.com/s/notosansgrantha/v13/3y976akwcCjmsU8NDyrKo3IQfQ4o-r8cFeulHc6N.ttf';
+export const NotoSansGujarati_100Thin =
+  'http://fonts.gstatic.com/s/notosansgujarati/v13/wlpugx_HC1ti5ViekvcxnhMlCVo3f5pNuJBHVa6nAVMh.ttf';
+export const NotoSansGujarati_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosansgujarati/v13/wlpvgx_HC1ti5ViekvcxnhMlCVo3f5pNFLFnf4CrCEo4gg.ttf';
+export const NotoSansGujarati_300Light =
+  'http://fonts.gstatic.com/s/notosansgujarati/v13/wlpvgx_HC1ti5ViekvcxnhMlCVo3f5pNcLJnf4CrCEo4gg.ttf';
+export const NotoSansGujarati_400Regular =
+  'http://fonts.gstatic.com/s/notosansgujarati/v13/wlpsgx_HC1ti5ViekvcxnhMlCVo3f5p13JpDd6u3AQ.ttf';
+export const NotoSansGujarati_500Medium =
+  'http://fonts.gstatic.com/s/notosansgujarati/v13/wlpvgx_HC1ti5ViekvcxnhMlCVo3f5pNKLNnf4CrCEo4gg.ttf';
+export const NotoSansGujarati_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansgujarati/v13/wlpvgx_HC1ti5ViekvcxnhMlCVo3f5pNBLRnf4CrCEo4gg.ttf';
+export const NotoSansGujarati_700Bold =
+  'http://fonts.gstatic.com/s/notosansgujarati/v13/wlpvgx_HC1ti5ViekvcxnhMlCVo3f5pNYLVnf4CrCEo4gg.ttf';
+export const NotoSansGujarati_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosansgujarati/v13/wlpvgx_HC1ti5ViekvcxnhMlCVo3f5pNfLZnf4CrCEo4gg.ttf';
+export const NotoSansGujarati_900Black =
+  'http://fonts.gstatic.com/s/notosansgujarati/v13/wlpvgx_HC1ti5ViekvcxnhMlCVo3f5pNWLdnf4CrCEo4gg.ttf';
+export const NotoSansGunjalaGondi_400Regular =
+  'http://fonts.gstatic.com/s/notosansgunjalagondi/v13/bWto7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5hcVXYMTK4q1.ttf';
+export const NotoSansGurmukhi_100Thin =
+  'http://fonts.gstatic.com/s/notosansgurmukhi/v13/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG1Oe3bxZ_trdp7h.ttf';
+export const NotoSansGurmukhi_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosansgurmukhi/v13/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG3OenbxZ_trdp7h.ttf';
+export const NotoSansGurmukhi_300Light =
+  'http://fonts.gstatic.com/s/notosansgurmukhi/v13/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG0QenbxZ_trdp7h.ttf';
+export const NotoSansGurmukhi_400Regular =
+  'http://fonts.gstatic.com/s/notosansgurmukhi/v13/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG1OenbxZ_trdp7h.ttf';
+export const NotoSansGurmukhi_500Medium =
+  'http://fonts.gstatic.com/s/notosansgurmukhi/v13/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG18enbxZ_trdp7h.ttf';
+export const NotoSansGurmukhi_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansgurmukhi/v13/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG2QfXbxZ_trdp7h.ttf';
+export const NotoSansGurmukhi_700Bold =
+  'http://fonts.gstatic.com/s/notosansgurmukhi/v13/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG2pfXbxZ_trdp7h.ttf';
+export const NotoSansGurmukhi_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosansgurmukhi/v13/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG3OfXbxZ_trdp7h.ttf';
+export const NotoSansGurmukhi_900Black =
+  'http://fonts.gstatic.com/s/notosansgurmukhi/v13/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG3nfXbxZ_trdp7h.ttf';
+export const NotoSansHanifiRohingya_400Regular =
+  'http://fonts.gstatic.com/s/notosanshanifirohingya/v12/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIYY4j6vvcudK8rN.ttf';
+export const NotoSansHanifiRohingya_500Medium =
+  'http://fonts.gstatic.com/s/notosanshanifirohingya/v12/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIYq4j6vvcudK8rN.ttf';
+export const NotoSansHanifiRohingya_600SemiBold =
+  'http://fonts.gstatic.com/s/notosanshanifirohingya/v12/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIbG5T6vvcudK8rN.ttf';
+export const NotoSansHanifiRohingya_700Bold =
+  'http://fonts.gstatic.com/s/notosanshanifirohingya/v12/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIb_5T6vvcudK8rN.ttf';
+export const NotoSansHanunoo_400Regular =
+  'http://fonts.gstatic.com/s/notosanshanunoo/v13/f0Xs0fCv8dxkDWlZSoXOj6CphMloFsEsEpgL_ix2.ttf';
+export const NotoSansHatran_400Regular =
+  'http://fonts.gstatic.com/s/notosanshatran/v13/A2BBn4Ne0RgnVF3Lnko-0sOBIfL_mM83r1nwzDs.ttf';
+export const NotoSansHebrew_100Thin =
+  'http://fonts.gstatic.com/s/notosanshebrew/v30/or3HQ7v33eiDljA1IufXTtVf7V6RvEEdhQlk0LlGxCyaeNKYZC0sqk3xXGiXd4utoiJltutR2g.ttf';
+export const NotoSansHebrew_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosanshebrew/v30/or3HQ7v33eiDljA1IufXTtVf7V6RvEEdhQlk0LlGxCyaeNKYZC0sqk3xXGiX94qtoiJltutR2g.ttf';
+export const NotoSansHebrew_300Light =
+  'http://fonts.gstatic.com/s/notosanshebrew/v30/or3HQ7v33eiDljA1IufXTtVf7V6RvEEdhQlk0LlGxCyaeNKYZC0sqk3xXGiXKYqtoiJltutR2g.ttf';
+export const NotoSansHebrew_400Regular =
+  'http://fonts.gstatic.com/s/notosanshebrew/v30/or3HQ7v33eiDljA1IufXTtVf7V6RvEEdhQlk0LlGxCyaeNKYZC0sqk3xXGiXd4qtoiJltutR2g.ttf';
+export const NotoSansHebrew_500Medium =
+  'http://fonts.gstatic.com/s/notosanshebrew/v30/or3HQ7v33eiDljA1IufXTtVf7V6RvEEdhQlk0LlGxCyaeNKYZC0sqk3xXGiXRYqtoiJltutR2g.ttf';
+export const NotoSansHebrew_600SemiBold =
+  'http://fonts.gstatic.com/s/notosanshebrew/v30/or3HQ7v33eiDljA1IufXTtVf7V6RvEEdhQlk0LlGxCyaeNKYZC0sqk3xXGiXqY2toiJltutR2g.ttf';
+export const NotoSansHebrew_700Bold =
+  'http://fonts.gstatic.com/s/notosanshebrew/v30/or3HQ7v33eiDljA1IufXTtVf7V6RvEEdhQlk0LlGxCyaeNKYZC0sqk3xXGiXkI2toiJltutR2g.ttf';
+export const NotoSansHebrew_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosanshebrew/v30/or3HQ7v33eiDljA1IufXTtVf7V6RvEEdhQlk0LlGxCyaeNKYZC0sqk3xXGiX942toiJltutR2g.ttf';
+export const NotoSansHebrew_900Black =
+  'http://fonts.gstatic.com/s/notosanshebrew/v30/or3HQ7v33eiDljA1IufXTtVf7V6RvEEdhQlk0LlGxCyaeNKYZC0sqk3xXGiX3o2toiJltutR2g.ttf';
+export const NotoSansImperialAramaic_400Regular =
+  'http://fonts.gstatic.com/s/notosansimperialaramaic/v13/a8IMNpjwKmHXpgXbMIsbTc_kvks91LlLetBr5itQrtdml3YfPNno.ttf';
+export const NotoSansIndicSiyaqNumbers_400Regular =
+  'http://fonts.gstatic.com/s/notosansindicsiyaqnumbers/v13/6xK5dTJFKcWIu4bpRBjRZRpsIYHabOeZ8UZLubTzpXNHKx2WPOpVd5Iu.ttf';
+export const NotoSansInscriptionalPahlavi_400Regular =
+  'http://fonts.gstatic.com/s/notosansinscriptionalpahlavi/v13/ll8UK3GaVDuxR-TEqFPIbsR79Xxz9WEKbwsjpz7VklYlC7FCVtqVOAYK0QA.ttf';
+export const NotoSansInscriptionalParthian_400Regular =
+  'http://fonts.gstatic.com/s/notosansinscriptionalparthian/v13/k3k7o-IMPvpLmixcA63oYi-yStDkgXuXncL7dzfW3P4TAJ2yklBJ2jNkLlLr.ttf';
+export const NotoSansJavanese_400Regular =
+  'http://fonts.gstatic.com/s/notosansjavanese/v13/2V0AKJkDAIA6Hp4zoSScDjV0Y-eoHAHJ8r88Rp29eA.ttf';
+export const NotoSansJavanese_700Bold =
+  'http://fonts.gstatic.com/s/notosansjavanese/v13/2V0DKJkDAIA6Hp4zoSScDjV0Y-eoHAHxTpAYTrahcTyFxQ.ttf';
+export const NotoSansKaithi_400Regular =
+  'http://fonts.gstatic.com/s/notosanskaithi/v13/buEtppS9f8_vkXadMBJJu0tWjLwjQi0KdoZIKlo.ttf';
+export const NotoSansKannada_100Thin =
+  'http://fonts.gstatic.com/s/notosanskannada/v12/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrDvMzSIMLsPKrkY.ttf';
+export const NotoSansKannada_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosanskannada/v12/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrLvNzSIMLsPKrkY.ttf';
+export const NotoSansKannada_300Light =
+  'http://fonts.gstatic.com/s/notosanskannada/v12/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrGXNzSIMLsPKrkY.ttf';
+export const NotoSansKannada_400Regular =
+  'http://fonts.gstatic.com/s/notosanskannada/v12/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrDvNzSIMLsPKrkY.ttf';
+export const NotoSansKannada_500Medium =
+  'http://fonts.gstatic.com/s/notosanskannada/v12/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrAnNzSIMLsPKrkY.ttf';
+export const NotoSansKannada_600SemiBold =
+  'http://fonts.gstatic.com/s/notosanskannada/v12/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrOXKzSIMLsPKrkY.ttf';
+export const NotoSansKannada_700Bold =
+  'http://fonts.gstatic.com/s/notosanskannada/v12/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrNzKzSIMLsPKrkY.ttf';
+export const NotoSansKannada_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosanskannada/v12/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrLvKzSIMLsPKrkY.ttf';
+export const NotoSansKannada_900Black =
+  'http://fonts.gstatic.com/s/notosanskannada/v12/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrJLKzSIMLsPKrkY.ttf';
+export const NotoSansKayahLi_400Regular =
+  'http://fonts.gstatic.com/s/notosanskayahli/v12/B50nF61OpWTRcGrhOVJJwOMXdca6Yecki3E06x2jVTX3WCc3CZH4EXLuKVM.ttf';
+export const NotoSansKayahLi_500Medium =
+  'http://fonts.gstatic.com/s/notosanskayahli/v12/B50nF61OpWTRcGrhOVJJwOMXdca6Yecki3E06x2jVTX3WBU3CZH4EXLuKVM.ttf';
+export const NotoSansKayahLi_600SemiBold =
+  'http://fonts.gstatic.com/s/notosanskayahli/v12/B50nF61OpWTRcGrhOVJJwOMXdca6Yecki3E06x2jVTX3WPkwCZH4EXLuKVM.ttf';
+export const NotoSansKayahLi_700Bold =
+  'http://fonts.gstatic.com/s/notosanskayahli/v12/B50nF61OpWTRcGrhOVJJwOMXdca6Yecki3E06x2jVTX3WMAwCZH4EXLuKVM.ttf';
+export const NotoSansKharoshthi_400Regular =
+  'http://fonts.gstatic.com/s/notosanskharoshthi/v13/Fh4qPiLjKS30-P4-pGMMXCCfvkc5Vd7KE5z4rFyx5mR1.ttf';
+export const NotoSansKhmer_100Thin =
+  'http://fonts.gstatic.com/s/notosanskhmer/v12/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYuNAZz4kAbrddiA.ttf';
+export const NotoSansKhmer_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosanskhmer/v12/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYsNAJz4kAbrddiA.ttf';
+export const NotoSansKhmer_300Light =
+  'http://fonts.gstatic.com/s/notosanskhmer/v12/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYvTAJz4kAbrddiA.ttf';
+export const NotoSansKhmer_400Regular =
+  'http://fonts.gstatic.com/s/notosanskhmer/v12/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYuNAJz4kAbrddiA.ttf';
+export const NotoSansKhmer_500Medium =
+  'http://fonts.gstatic.com/s/notosanskhmer/v12/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYu_AJz4kAbrddiA.ttf';
+export const NotoSansKhmer_600SemiBold =
+  'http://fonts.gstatic.com/s/notosanskhmer/v12/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYtTB5z4kAbrddiA.ttf';
+export const NotoSansKhmer_700Bold =
+  'http://fonts.gstatic.com/s/notosanskhmer/v12/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYtqB5z4kAbrddiA.ttf';
+export const NotoSansKhmer_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosanskhmer/v12/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYsNB5z4kAbrddiA.ttf';
+export const NotoSansKhmer_900Black =
+  'http://fonts.gstatic.com/s/notosanskhmer/v12/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYskB5z4kAbrddiA.ttf';
+export const NotoSansKhojki_400Regular =
+  'http://fonts.gstatic.com/s/notosanskhojki/v13/-nFnOHM29Oofr2wohFbTuPPKVWpmK_d709jy92k.ttf';
+export const NotoSansKhudawadi_400Regular =
+  'http://fonts.gstatic.com/s/notosanskhudawadi/v13/fdNi9t6ZsWBZ2k5ltHN73zZ5hc8HANlHIjRnVVXz9MY.ttf';
+export const NotoSansLao_100Thin =
+  'http://fonts.gstatic.com/s/notosanslao/v16/bx6lNx2Ol_ixgdYWLm9BwxM3NW6BOkuf763Clj73CiQ_J1Djx9pidOt4ccfdf5MK3riB2w.ttf';
+export const NotoSansLao_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosanslao/v16/bx6lNx2Ol_ixgdYWLm9BwxM3NW6BOkuf763Clj73CiQ_J1Djx9pidOt48cbdf5MK3riB2w.ttf';
+export const NotoSansLao_300Light =
+  'http://fonts.gstatic.com/s/notosanslao/v16/bx6lNx2Ol_ixgdYWLm9BwxM3NW6BOkuf763Clj73CiQ_J1Djx9pidOt4L8bdf5MK3riB2w.ttf';
+export const NotoSansLao_400Regular =
+  'http://fonts.gstatic.com/s/notosanslao/v16/bx6lNx2Ol_ixgdYWLm9BwxM3NW6BOkuf763Clj73CiQ_J1Djx9pidOt4ccbdf5MK3riB2w.ttf';
+export const NotoSansLao_500Medium =
+  'http://fonts.gstatic.com/s/notosanslao/v16/bx6lNx2Ol_ixgdYWLm9BwxM3NW6BOkuf763Clj73CiQ_J1Djx9pidOt4Q8bdf5MK3riB2w.ttf';
+export const NotoSansLao_600SemiBold =
+  'http://fonts.gstatic.com/s/notosanslao/v16/bx6lNx2Ol_ixgdYWLm9BwxM3NW6BOkuf763Clj73CiQ_J1Djx9pidOt4r8Hdf5MK3riB2w.ttf';
+export const NotoSansLao_700Bold =
+  'http://fonts.gstatic.com/s/notosanslao/v16/bx6lNx2Ol_ixgdYWLm9BwxM3NW6BOkuf763Clj73CiQ_J1Djx9pidOt4lsHdf5MK3riB2w.ttf';
+export const NotoSansLao_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosanslao/v16/bx6lNx2Ol_ixgdYWLm9BwxM3NW6BOkuf763Clj73CiQ_J1Djx9pidOt48cHdf5MK3riB2w.ttf';
+export const NotoSansLao_900Black =
+  'http://fonts.gstatic.com/s/notosanslao/v16/bx6lNx2Ol_ixgdYWLm9BwxM3NW6BOkuf763Clj73CiQ_J1Djx9pidOt42MHdf5MK3riB2w.ttf';
+export const NotoSansLepcha_400Regular =
+  'http://fonts.gstatic.com/s/notosanslepcha/v13/0QI7MWlB_JWgA166SKhu05TekNS32AJstqBXgd4.ttf';
+export const NotoSansLimbu_400Regular =
+  'http://fonts.gstatic.com/s/notosanslimbu/v13/3JnlSDv90Gmq2mrzckOBBRRoNJVj0MF3OHRDnA.ttf';
+export const NotoSansLinearA_400Regular =
+  'http://fonts.gstatic.com/s/notosanslineara/v14/oPWS_l16kP4jCuhpgEGmwJOiA18FZj22zmHQAGQicw.ttf';
+export const NotoSansLinearB_400Regular =
+  'http://fonts.gstatic.com/s/notosanslinearb/v13/HhyJU4wt9vSgfHoORYOiXOckKNB737IV3BkFTq4EPw.ttf';
+export const NotoSansLisu_400Regular =
+  'http://fonts.gstatic.com/s/notosanslisu/v13/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP2Vwt29IlxkVdig.ttf';
+export const NotoSansLisu_500Medium =
+  'http://fonts.gstatic.com/s/notosanslisu/v13/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP61wt29IlxkVdig.ttf';
+export const NotoSansLisu_600SemiBold =
+  'http://fonts.gstatic.com/s/notosanslisu/v13/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPB1st29IlxkVdig.ttf';
+export const NotoSansLisu_700Bold =
+  'http://fonts.gstatic.com/s/notosanslisu/v13/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPPlst29IlxkVdig.ttf';
+export const NotoSansLycian_400Regular =
+  'http://fonts.gstatic.com/s/notosanslycian/v13/QldVNSNMqAsHtsJ7UmqxBQA9r8wA5_naCJwn00E.ttf';
+export const NotoSansLydian_400Regular =
+  'http://fonts.gstatic.com/s/notosanslydian/v13/c4m71mVzGN7s8FmIukZJ1v4ZlcPReUPXMoIjEQI.ttf';
+export const NotoSansMahajani_400Regular =
+  'http://fonts.gstatic.com/s/notosansmahajani/v13/-F6sfiVqLzI2JPCgQBnw60Agp0JrvD5Fh8ARHNh4zg.ttf';
+export const NotoSansMalayalam_100Thin =
+  'http://fonts.gstatic.com/s/notosansmalayalam/v13/sJoi3K5XjsSdcnzn071rL37lpAOsUThnDZIfPdbeSNzVakglNM-Qw8EaeB8Nss-_RuH9BFzEr6HxEA.ttf';
+export const NotoSansMalayalam_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosansmalayalam/v13/sJoi3K5XjsSdcnzn071rL37lpAOsUThnDZIfPdbeSNzVakglNM-Qw8EaeB8Nss-_xuD9BFzEr6HxEA.ttf';
+export const NotoSansMalayalam_300Light =
+  'http://fonts.gstatic.com/s/notosansmalayalam/v13/sJoi3K5XjsSdcnzn071rL37lpAOsUThnDZIfPdbeSNzVakglNM-Qw8EaeB8Nss-_GOD9BFzEr6HxEA.ttf';
+export const NotoSansMalayalam_400Regular =
+  'http://fonts.gstatic.com/s/notosansmalayalam/v13/sJoi3K5XjsSdcnzn071rL37lpAOsUThnDZIfPdbeSNzVakglNM-Qw8EaeB8Nss-_RuD9BFzEr6HxEA.ttf';
+export const NotoSansMalayalam_500Medium =
+  'http://fonts.gstatic.com/s/notosansmalayalam/v13/sJoi3K5XjsSdcnzn071rL37lpAOsUThnDZIfPdbeSNzVakglNM-Qw8EaeB8Nss-_dOD9BFzEr6HxEA.ttf';
+export const NotoSansMalayalam_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansmalayalam/v13/sJoi3K5XjsSdcnzn071rL37lpAOsUThnDZIfPdbeSNzVakglNM-Qw8EaeB8Nss-_mOf9BFzEr6HxEA.ttf';
+export const NotoSansMalayalam_700Bold =
+  'http://fonts.gstatic.com/s/notosansmalayalam/v13/sJoi3K5XjsSdcnzn071rL37lpAOsUThnDZIfPdbeSNzVakglNM-Qw8EaeB8Nss-_oef9BFzEr6HxEA.ttf';
+export const NotoSansMalayalam_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosansmalayalam/v13/sJoi3K5XjsSdcnzn071rL37lpAOsUThnDZIfPdbeSNzVakglNM-Qw8EaeB8Nss-_xuf9BFzEr6HxEA.ttf';
+export const NotoSansMalayalam_900Black =
+  'http://fonts.gstatic.com/s/notosansmalayalam/v13/sJoi3K5XjsSdcnzn071rL37lpAOsUThnDZIfPdbeSNzVakglNM-Qw8EaeB8Nss-_7-f9BFzEr6HxEA.ttf';
+export const NotoSansMandaic_400Regular =
+  'http://fonts.gstatic.com/s/notosansmandaic/v13/cIfnMbdWt1w_HgCcilqhKQBo_OsMI5_A_gMk0izH.ttf';
+export const NotoSansManichaean_400Regular =
+  'http://fonts.gstatic.com/s/notosansmanichaean/v13/taiVGntiC4--qtsfi4Jp9-_GkPZZCcrfekqCNTtFCtdX.ttf';
+export const NotoSansMarchen_400Regular =
+  'http://fonts.gstatic.com/s/notosansmarchen/v13/aFTO7OZ_Y282EP-WyG6QTOX_C8WZMHhPk652ZaHk.ttf';
+export const NotoSansMasaramGondi_400Regular =
+  'http://fonts.gstatic.com/s/notosansmasaramgondi/v13/6xK_dThFKcWIu4bpRBjRYRV7KZCbUq6n_1kPnuGe7RI9WSWX.ttf';
+export const NotoSansMath_400Regular =
+  'http://fonts.gstatic.com/s/notosansmath/v13/7Aump_cpkSecTWaHRlH2hyV5UHkG-V048PW0.ttf';
+export const NotoSansMayanNumerals_400Regular =
+  'http://fonts.gstatic.com/s/notosansmayannumerals/v13/PlIuFk25O6RzLfvNNVSivR09_KqYMwvvDKYjfIiE68oo6eepYQ.ttf';
+export const NotoSansMedefaidrin_400Regular =
+  'http://fonts.gstatic.com/s/notosansmedefaidrin/v13/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmErWlT318e5A3rw.ttf';
+export const NotoSansMedefaidrin_500Medium =
+  'http://fonts.gstatic.com/s/notosansmedefaidrin/v13/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmHjWlT318e5A3rw.ttf';
+export const NotoSansMedefaidrin_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansmedefaidrin/v13/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmJTRlT318e5A3rw.ttf';
+export const NotoSansMedefaidrin_700Bold =
+  'http://fonts.gstatic.com/s/notosansmedefaidrin/v13/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmK3RlT318e5A3rw.ttf';
+export const NotoSansMeeteiMayek_100Thin =
+  'http://fonts.gstatic.com/s/notosansmeeteimayek/v5/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1TJ__TW5PgeFYVa.ttf';
+export const NotoSansMeeteiMayek_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosansmeeteimayek/v5/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1RJ_vTW5PgeFYVa.ttf';
+export const NotoSansMeeteiMayek_300Light =
+  'http://fonts.gstatic.com/s/notosansmeeteimayek/v5/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1SX_vTW5PgeFYVa.ttf';
+export const NotoSansMeeteiMayek_400Regular =
+  'http://fonts.gstatic.com/s/notosansmeeteimayek/v5/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1TJ_vTW5PgeFYVa.ttf';
+export const NotoSansMeeteiMayek_500Medium =
+  'http://fonts.gstatic.com/s/notosansmeeteimayek/v5/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1T7_vTW5PgeFYVa.ttf';
+export const NotoSansMeeteiMayek_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansmeeteimayek/v5/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1QX-fTW5PgeFYVa.ttf';
+export const NotoSansMeeteiMayek_700Bold =
+  'http://fonts.gstatic.com/s/notosansmeeteimayek/v5/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1Qu-fTW5PgeFYVa.ttf';
+export const NotoSansMeeteiMayek_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosansmeeteimayek/v5/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1RJ-fTW5PgeFYVa.ttf';
+export const NotoSansMeeteiMayek_900Black =
+  'http://fonts.gstatic.com/s/notosansmeeteimayek/v5/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1Rg-fTW5PgeFYVa.ttf';
+export const NotoSansMeroitic_400Regular =
+  'http://fonts.gstatic.com/s/notosansmeroitic/v14/IFS5HfRJndhE3P4b5jnZ3ITPvC6i00UDgDhTiKY9KQ.ttf';
+export const NotoSansMiao_400Regular =
+  'http://fonts.gstatic.com/s/notosansmiao/v13/Dxxz8jmXMW75w3OmoDXVV4zyZUjgUYVslLhx.ttf';
+export const NotoSansModi_400Regular =
+  'http://fonts.gstatic.com/s/notosansmodi/v13/pe03MIySN5pO62Z5YkFyT7jeav5qWVAgVol-.ttf';
+export const NotoSansMongolian_400Regular =
+  'http://fonts.gstatic.com/s/notosansmongolian/v13/VdGCAYADGIwE0EopZx8xQfHlgEAMsrToxLsg6-av1x0.ttf';
+export const NotoSansMono_100Thin =
+  'http://fonts.gstatic.com/s/notosansmono/v14/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_FNI49rXVEQQL8Y.ttf';
+export const NotoSansMono_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosansmono/v14/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_NNJ49rXVEQQL8Y.ttf';
+export const NotoSansMono_300Light =
+  'http://fonts.gstatic.com/s/notosansmono/v14/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_A1J49rXVEQQL8Y.ttf';
+export const NotoSansMono_400Regular =
+  'http://fonts.gstatic.com/s/notosansmono/v14/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_FNJ49rXVEQQL8Y.ttf';
+export const NotoSansMono_500Medium =
+  'http://fonts.gstatic.com/s/notosansmono/v14/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_GFJ49rXVEQQL8Y.ttf';
+export const NotoSansMono_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansmono/v14/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_I1O49rXVEQQL8Y.ttf';
+export const NotoSansMono_700Bold =
+  'http://fonts.gstatic.com/s/notosansmono/v14/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_LRO49rXVEQQL8Y.ttf';
+export const NotoSansMono_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosansmono/v14/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_NNO49rXVEQQL8Y.ttf';
+export const NotoSansMono_900Black =
+  'http://fonts.gstatic.com/s/notosansmono/v14/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_PpO49rXVEQQL8Y.ttf';
+export const NotoSansMro_400Regular =
+  'http://fonts.gstatic.com/s/notosansmro/v13/qWcsB6--pZv9TqnUQMhe9b39WDzRtjkho4M.ttf';
+export const NotoSansMultani_400Regular =
+  'http://fonts.gstatic.com/s/notosansmultani/v13/9Bty3ClF38_RfOpe1gCaZ8p30BOFO1A0pfCs5Kos.ttf';
+export const NotoSansMyanmar_100Thin =
+  'http://fonts.gstatic.com/s/notosansmyanmar/v17/AlZs_y1ZtY3ymOryg38hOCSdOnFq0HGS1uEapkAC3AY.ttf';
+export const NotoSansMyanmar_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosansmyanmar/v17/AlZv_y1ZtY3ymOryg38hOCSdOnFq0HE-98EwiEwLxR-r.ttf';
+export const NotoSansMyanmar_300Light =
+  'http://fonts.gstatic.com/s/notosansmyanmar/v17/AlZv_y1ZtY3ymOryg38hOCSdOnFq0HFa9MEwiEwLxR-r.ttf';
+export const NotoSansMyanmar_400Regular =
+  'http://fonts.gstatic.com/s/notosansmyanmar/v17/AlZq_y1ZtY3ymOryg38hOCSdOnFq0En23OU4o1AC.ttf';
+export const NotoSansMyanmar_500Medium =
+  'http://fonts.gstatic.com/s/notosansmyanmar/v17/AlZv_y1ZtY3ymOryg38hOCSdOnFq0HEC9cEwiEwLxR-r.ttf';
+export const NotoSansMyanmar_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansmyanmar/v17/AlZv_y1ZtY3ymOryg38hOCSdOnFq0HEu8sEwiEwLxR-r.ttf';
+export const NotoSansMyanmar_700Bold =
+  'http://fonts.gstatic.com/s/notosansmyanmar/v17/AlZv_y1ZtY3ymOryg38hOCSdOnFq0HFK88EwiEwLxR-r.ttf';
+export const NotoSansMyanmar_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosansmyanmar/v17/AlZv_y1ZtY3ymOryg38hOCSdOnFq0HFW8MEwiEwLxR-r.ttf';
+export const NotoSansMyanmar_900Black =
+  'http://fonts.gstatic.com/s/notosansmyanmar/v17/AlZv_y1ZtY3ymOryg38hOCSdOnFq0HFy8cEwiEwLxR-r.ttf';
+export const NotoSansNKo_400Regular =
+  'http://fonts.gstatic.com/s/notosansnko/v15/6NUP8FqDKBaKKjnr6P8v-sxPpvVBVNmme3gf.ttf';
+export const NotoSansNabataean_400Regular =
+  'http://fonts.gstatic.com/s/notosansnabataean/v13/IFS4HfVJndhE3P4b5jnZ34DfsjO330dNoBJ9hK8kMK4.ttf';
+export const NotoSansNewTaiLue_400Regular =
+  'http://fonts.gstatic.com/s/notosansnewtailue/v13/H4c5BW-Pl9DZ0Xe_nHUapt7PovLXAhAnY7wwY55O4AS32A.ttf';
+export const NotoSansNewa_400Regular =
+  'http://fonts.gstatic.com/s/notosansnewa/v13/7r3fqXp6utEsO9pI4f8ok8sWg8n_qN4R5lNU.ttf';
+export const NotoSansNushu_400Regular =
+  'http://fonts.gstatic.com/s/notosansnushu/v16/rnCw-xRQ3B7652emAbAe_Ai1IYaFWFAMArZKqQ.ttf';
+export const NotoSansOgham_400Regular =
+  'http://fonts.gstatic.com/s/notosansogham/v13/kmKlZqk1GBDGN0mY6k5lmEmww4hrt5laQxcoCA.ttf';
+export const NotoSansOlChiki_400Regular =
+  'http://fonts.gstatic.com/s/notosansolchiki/v13/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALWk267I6gVrz5gQ.ttf';
+export const NotoSansOlChiki_500Medium =
+  'http://fonts.gstatic.com/s/notosansolchiki/v13/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALVs267I6gVrz5gQ.ttf';
+export const NotoSansOlChiki_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansolchiki/v13/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALbcx67I6gVrz5gQ.ttf';
+export const NotoSansOlChiki_700Bold =
+  'http://fonts.gstatic.com/s/notosansolchiki/v13/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALY4x67I6gVrz5gQ.ttf';
+export const NotoSansOldHungarian_400Regular =
+  'http://fonts.gstatic.com/s/notosansoldhungarian/v13/E213_cD6hP3GwCJPEUssHEM0KqLaHJXg2PiIgRfjbg5nCYXt.ttf';
+export const NotoSansOldItalic_400Regular =
+  'http://fonts.gstatic.com/s/notosansolditalic/v13/TuGOUUFzXI5FBtUq5a8bh68BJxxEVam7tWlRdRhtCC4d.ttf';
+export const NotoSansOldNorthArabian_400Regular =
+  'http://fonts.gstatic.com/s/notosansoldnortharabian/v13/esDF30BdNv-KYGGJpKGk2tNiMt7Jar6olZDyNdr81zBQmUo_xw4ABw.ttf';
+export const NotoSansOldPermic_400Regular =
+  'http://fonts.gstatic.com/s/notosansoldpermic/v14/snf1s1q1-dF8pli1TesqcbUY4Mr-ElrwKLdXgv_dKYB5.ttf';
+export const NotoSansOldPersian_400Regular =
+  'http://fonts.gstatic.com/s/notosansoldpersian/v13/wEOjEAbNnc5caQTFG18FHrZr9Bp6-8CmIJ_tqOlQfx9CjA.ttf';
+export const NotoSansOldSogdian_400Regular =
+  'http://fonts.gstatic.com/s/notosansoldsogdian/v13/3JnjSCH90Gmq2mrzckOBBhFhdrMst48aURt7neIqM-9uyg.ttf';
+export const NotoSansOldSouthArabian_400Regular =
+  'http://fonts.gstatic.com/s/notosansoldsoutharabian/v13/3qT5oiOhnSyU8TNFIdhZTice3hB_HWKsEnF--0XCHiKx1OtDT9HwTA.ttf';
+export const NotoSansOldTurkic_400Regular =
+  'http://fonts.gstatic.com/s/notosansoldturkic/v13/yMJNMJVya43H0SUF_WmcGEQVqoEMKDKbsE2RjEw-Vyws.ttf';
+export const NotoSansOriya_100Thin =
+  'http://fonts.gstatic.com/s/notosansoriya/v13/AYCRpXfzfccDCstK_hrjDyADv5efgKfHRKhxIh_G.ttf';
+export const NotoSansOriya_400Regular =
+  'http://fonts.gstatic.com/s/notosansoriya/v13/AYCTpXfzfccDCstK_hrjDyADv5en5K3DZq1hIg.ttf';
+export const NotoSansOriya_700Bold =
+  'http://fonts.gstatic.com/s/notosansoriya/v13/AYCWpXfzfccDCstK_hrjDyADv5efWILnboZ9KwbfIQ.ttf';
+export const NotoSansOriya_900Black =
+  'http://fonts.gstatic.com/s/notosansoriya/v13/AYCWpXfzfccDCstK_hrjDyADv5efYIDnboZ9KwbfIQ.ttf';
+export const NotoSansOsage_400Regular =
+  'http://fonts.gstatic.com/s/notosansosage/v13/oPWX_kB6kP4jCuhpgEGmw4mtAVtXRlaSxkrMCQ.ttf';
+export const NotoSansOsmanya_400Regular =
+  'http://fonts.gstatic.com/s/notosansosmanya/v13/8vIS7xs32H97qzQKnzfeWzUyUpOJmz6kR47NCV5Z.ttf';
+export const NotoSansPahawhHmong_400Regular =
+  'http://fonts.gstatic.com/s/notosanspahawhhmong/v13/bWtp7e_KfBziStx7lIzKKaMUOBEA3UPQDW7krzc_c48aMpM.ttf';
+export const NotoSansPalmyrene_400Regular =
+  'http://fonts.gstatic.com/s/notosanspalmyrene/v13/ZgNPjOdKPa7CHqq0h37c_ASCWvH93SFCPnK5ZpdNtcA.ttf';
+export const NotoSansPauCinHau_400Regular =
+  'http://fonts.gstatic.com/s/notosanspaucinhau/v14/x3d-cl3IZKmUqiMg_9wBLLtzl22EayN7ehIdjEWqKMxsKw.ttf';
+export const NotoSansPhagsPa_400Regular =
+  'http://fonts.gstatic.com/s/notosansphagspa/v13/pxiZyoo6v8ZYyWh5WuPeJzMkd4SrGChkqkSsrvNXiA.ttf';
+export const NotoSansPhoenician_400Regular =
+  'http://fonts.gstatic.com/s/notosansphoenician/v13/jizFRF9Ksm4Bt9PvcTaEkIHiTVtxmFtS5X7Jot-p5561.ttf';
+export const NotoSansPsalterPahlavi_400Regular =
+  'http://fonts.gstatic.com/s/notosanspsalterpahlavi/v13/rP2Vp3K65FkAtHfwd-eISGznYihzggmsicPfud3w1G3KsUQBct4.ttf';
+export const NotoSansRejang_400Regular =
+  'http://fonts.gstatic.com/s/notosansrejang/v13/Ktk2AKuMeZjqPnXgyqrib7DIogqwN4O3WYZB_sU.ttf';
+export const NotoSansRunic_400Regular =
+  'http://fonts.gstatic.com/s/notosansrunic/v13/H4c_BXWPl9DZ0Xe_nHUaus7W68WWaxpvHtgIYg.ttf';
+export const NotoSansSamaritan_400Regular =
+  'http://fonts.gstatic.com/s/notosanssamaritan/v13/buEqppe9f8_vkXadMBJJo0tSmaYjFkxOUo5jNlOVMzQ.ttf';
+export const NotoSansSaurashtra_400Regular =
+  'http://fonts.gstatic.com/s/notosanssaurashtra/v13/ea8GacQ0Wfz_XKWXe6OtoA8w8zvmYwTef9ndjhPTSIx9.ttf';
+export const NotoSansSharada_400Regular =
+  'http://fonts.gstatic.com/s/notosanssharada/v13/gok0H7rwAEdtF9N8-mdTGALG6p0kwoXLPOwr4H8a.ttf';
+export const NotoSansShavian_400Regular =
+  'http://fonts.gstatic.com/s/notosansshavian/v13/CHy5V_HZE0jxJBQlqAeCKjJvQBNF4EFQSplv2Cwg.ttf';
+export const NotoSansSiddham_400Regular =
+  'http://fonts.gstatic.com/s/notosanssiddham/v13/OZpZg-FwqiNLe9PELUikxTWDoCCeGqndk3Ic92ZH.ttf';
+export const NotoSansSinhala_100Thin =
+  'http://fonts.gstatic.com/s/notosanssinhala/v20/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwg2b5lgLpJwbQRM.ttf';
+export const NotoSansSinhala_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosanssinhala/v20/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwo2a5lgLpJwbQRM.ttf';
+export const NotoSansSinhala_300Light =
+  'http://fonts.gstatic.com/s/notosanssinhala/v20/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwlOa5lgLpJwbQRM.ttf';
+export const NotoSansSinhala_400Regular =
+  'http://fonts.gstatic.com/s/notosanssinhala/v20/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwg2a5lgLpJwbQRM.ttf';
+export const NotoSansSinhala_500Medium =
+  'http://fonts.gstatic.com/s/notosanssinhala/v20/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwj-a5lgLpJwbQRM.ttf';
+export const NotoSansSinhala_600SemiBold =
+  'http://fonts.gstatic.com/s/notosanssinhala/v20/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwtOd5lgLpJwbQRM.ttf';
+export const NotoSansSinhala_700Bold =
+  'http://fonts.gstatic.com/s/notosanssinhala/v20/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwuqd5lgLpJwbQRM.ttf';
+export const NotoSansSinhala_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosanssinhala/v20/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwo2d5lgLpJwbQRM.ttf';
+export const NotoSansSinhala_900Black =
+  'http://fonts.gstatic.com/s/notosanssinhala/v20/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwqSd5lgLpJwbQRM.ttf';
+export const NotoSansSogdian_400Regular =
+  'http://fonts.gstatic.com/s/notosanssogdian/v13/taiQGn5iC4--qtsfi4Jp6eHPnfxQBo--Pm6KHidM.ttf';
+export const NotoSansSoraSompeng_400Regular =
+  'http://fonts.gstatic.com/s/notosanssorasompeng/v13/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHR818DpZXJQd4Mu.ttf';
+export const NotoSansSoraSompeng_500Medium =
+  'http://fonts.gstatic.com/s/notosanssorasompeng/v13/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHRO18DpZXJQd4Mu.ttf';
+export const NotoSansSoraSompeng_600SemiBold =
+  'http://fonts.gstatic.com/s/notosanssorasompeng/v13/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSi0MDpZXJQd4Mu.ttf';
+export const NotoSansSoraSompeng_700Bold =
+  'http://fonts.gstatic.com/s/notosanssorasompeng/v13/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSb0MDpZXJQd4Mu.ttf';
+export const NotoSansSoyombo_400Regular =
+  'http://fonts.gstatic.com/s/notosanssoyombo/v13/RWmSoL-Y6-8q5LTtXs6MF6q7xsxgY0FrIFOcK25W.ttf';
+export const NotoSansSundanese_400Regular =
+  'http://fonts.gstatic.com/s/notosanssundanese/v13/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctxpNNHCizv7fQES.ttf';
+export const NotoSansSundanese_500Medium =
+  'http://fonts.gstatic.com/s/notosanssundanese/v13/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctxbNNHCizv7fQES.ttf';
+export const NotoSansSundanese_600SemiBold =
+  'http://fonts.gstatic.com/s/notosanssundanese/v13/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6cty3M9HCizv7fQES.ttf';
+export const NotoSansSundanese_700Bold =
+  'http://fonts.gstatic.com/s/notosanssundanese/v13/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctyOM9HCizv7fQES.ttf';
+export const NotoSansSylotiNagri_400Regular =
+  'http://fonts.gstatic.com/s/notosanssylotinagri/v13/uU9eCAQZ75uhfF9UoWDRiY3q7Sf_VFV3m4dGFVfxN87gsj0.ttf';
+export const NotoSansSymbols_100Thin =
+  'http://fonts.gstatic.com/s/notosanssymbols/v28/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gfQ4gavVFRkzrbQ.ttf';
+export const NotoSansSymbols_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosanssymbols/v28/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3g_Q8gavVFRkzrbQ.ttf';
+export const NotoSansSymbols_300Light =
+  'http://fonts.gstatic.com/s/notosanssymbols/v28/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gIw8gavVFRkzrbQ.ttf';
+export const NotoSansSymbols_400Regular =
+  'http://fonts.gstatic.com/s/notosanssymbols/v28/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gfQ8gavVFRkzrbQ.ttf';
+export const NotoSansSymbols_500Medium =
+  'http://fonts.gstatic.com/s/notosanssymbols/v28/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gTw8gavVFRkzrbQ.ttf';
+export const NotoSansSymbols_600SemiBold =
+  'http://fonts.gstatic.com/s/notosanssymbols/v28/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gowggavVFRkzrbQ.ttf';
+export const NotoSansSymbols_700Bold =
+  'http://fonts.gstatic.com/s/notosanssymbols/v28/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gmgggavVFRkzrbQ.ttf';
+export const NotoSansSymbols_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosanssymbols/v28/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3g_QggavVFRkzrbQ.ttf';
+export const NotoSansSymbols_900Black =
+  'http://fonts.gstatic.com/s/notosanssymbols/v28/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3g1AggavVFRkzrbQ.ttf';
+export const NotoSansSymbols2_400Regular =
+  'http://fonts.gstatic.com/s/notosanssymbols2/v13/I_uyMoGduATTei9eI8daxVHDyfisHr71ypPqfX71-AI.ttf';
+export const NotoSansSyriac_100Thin =
+  'http://fonts.gstatic.com/s/notosanssyriac/v13/KtkwAKuMeZjqPnXgyqribqzQqgW0D-e9XaRE7sX5Cg.ttf';
+export const NotoSansSyriac_400Regular =
+  'http://fonts.gstatic.com/s/notosanssyriac/v13/Ktk2AKuMeZjqPnXgyqribqzQqgW0N4O3WYZB_sU.ttf';
+export const NotoSansSyriac_900Black =
+  'http://fonts.gstatic.com/s/notosanssyriac/v13/KtkxAKuMeZjqPnXgyqribqzQqgW0DweafY5q4szgE-Q.ttf';
+export const NotoSansTagalog_400Regular =
+  'http://fonts.gstatic.com/s/notosanstagalog/v13/J7aFnoNzCnFcV9ZI-sUYuvote1R0wwEAA8jHexnL.ttf';
+export const NotoSansTagbanwa_400Regular =
+  'http://fonts.gstatic.com/s/notosanstagbanwa/v13/Y4GWYbB8VTEp4t3MKJSMmQdIKjRtt_nZRjQEaYpGoQ.ttf';
+export const NotoSansTaiLe_400Regular =
+  'http://fonts.gstatic.com/s/notosanstaile/v13/vEFK2-VODB8RrNDvZSUmVxEATwR58tK1W77HtMo.ttf';
+export const NotoSansTaiTham_400Regular =
+  'http://fonts.gstatic.com/s/notosanstaitham/v13/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBCUbPgquyaRGKMw.ttf';
+export const NotoSansTaiTham_500Medium =
+  'http://fonts.gstatic.com/s/notosanstaitham/v13/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBBcbPgquyaRGKMw.ttf';
+export const NotoSansTaiTham_600SemiBold =
+  'http://fonts.gstatic.com/s/notosanstaitham/v13/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBPscPgquyaRGKMw.ttf';
+export const NotoSansTaiTham_700Bold =
+  'http://fonts.gstatic.com/s/notosanstaitham/v13/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBMIcPgquyaRGKMw.ttf';
+export const NotoSansTaiViet_400Regular =
+  'http://fonts.gstatic.com/s/notosanstaiviet/v13/8QIUdj3HhN_lv4jf9vsE-9GMOLsaSPZr644fWsRO9w.ttf';
+export const NotoSansTakri_400Regular =
+  'http://fonts.gstatic.com/s/notosanstakri/v13/TuGJUVpzXI5FBtUq5a8bnKIOdTwQNO_W3khJXg.ttf';
+export const NotoSansTamil_100Thin =
+  'http://fonts.gstatic.com/s/notosanstamil/v13/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7vGor0RqKDt_EvT.ttf';
+export const NotoSansTamil_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosanstamil/v13/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7tGo70RqKDt_EvT.ttf';
+export const NotoSansTamil_300Light =
+  'http://fonts.gstatic.com/s/notosanstamil/v13/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7uYo70RqKDt_EvT.ttf';
+export const NotoSansTamil_400Regular =
+  'http://fonts.gstatic.com/s/notosanstamil/v13/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7vGo70RqKDt_EvT.ttf';
+export const NotoSansTamil_500Medium =
+  'http://fonts.gstatic.com/s/notosanstamil/v13/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7v0o70RqKDt_EvT.ttf';
+export const NotoSansTamil_600SemiBold =
+  'http://fonts.gstatic.com/s/notosanstamil/v13/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7sYpL0RqKDt_EvT.ttf';
+export const NotoSansTamil_700Bold =
+  'http://fonts.gstatic.com/s/notosanstamil/v13/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7shpL0RqKDt_EvT.ttf';
+export const NotoSansTamil_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosanstamil/v13/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7tGpL0RqKDt_EvT.ttf';
+export const NotoSansTamil_900Black =
+  'http://fonts.gstatic.com/s/notosanstamil/v13/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7tvpL0RqKDt_EvT.ttf';
+export const NotoSansTamilSupplement_400Regular =
+  'http://fonts.gstatic.com/s/notosanstamilsupplement/v17/DdTz78kEtnooLS5rXF1DaruiCd_bFp_Ph4sGcn7ax_vsAeMkeq1x.ttf';
+export const NotoSansTelugu_100Thin =
+  'http://fonts.gstatic.com/s/notosanstelugu/v12/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntezfqQUbf-3v37w.ttf';
+export const NotoSansTelugu_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosanstelugu/v12/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEnt-zbqQUbf-3v37w.ttf';
+export const NotoSansTelugu_300Light =
+  'http://fonts.gstatic.com/s/notosanstelugu/v12/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntJTbqQUbf-3v37w.ttf';
+export const NotoSansTelugu_400Regular =
+  'http://fonts.gstatic.com/s/notosanstelugu/v12/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntezbqQUbf-3v37w.ttf';
+export const NotoSansTelugu_500Medium =
+  'http://fonts.gstatic.com/s/notosanstelugu/v12/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntSTbqQUbf-3v37w.ttf';
+export const NotoSansTelugu_600SemiBold =
+  'http://fonts.gstatic.com/s/notosanstelugu/v12/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntpTHqQUbf-3v37w.ttf';
+export const NotoSansTelugu_700Bold =
+  'http://fonts.gstatic.com/s/notosanstelugu/v12/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntnDHqQUbf-3v37w.ttf';
+export const NotoSansTelugu_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosanstelugu/v12/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEnt-zHqQUbf-3v37w.ttf';
+export const NotoSansTelugu_900Black =
+  'http://fonts.gstatic.com/s/notosanstelugu/v12/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEnt0jHqQUbf-3v37w.ttf';
+export const NotoSansThaana_100Thin =
+  'http://fonts.gstatic.com/s/notosansthaana/v12/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4XrbxLhnu4-tbNu.ttf';
+export const NotoSansThaana_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosansthaana/v12/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4VrbhLhnu4-tbNu.ttf';
+export const NotoSansThaana_300Light =
+  'http://fonts.gstatic.com/s/notosansthaana/v12/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4W1bhLhnu4-tbNu.ttf';
+export const NotoSansThaana_400Regular =
+  'http://fonts.gstatic.com/s/notosansthaana/v12/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4XrbhLhnu4-tbNu.ttf';
+export const NotoSansThaana_500Medium =
+  'http://fonts.gstatic.com/s/notosansthaana/v12/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4XZbhLhnu4-tbNu.ttf';
+export const NotoSansThaana_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansthaana/v12/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4U1aRLhnu4-tbNu.ttf';
+export const NotoSansThaana_700Bold =
+  'http://fonts.gstatic.com/s/notosansthaana/v12/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4UMaRLhnu4-tbNu.ttf';
+export const NotoSansThaana_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosansthaana/v12/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4VraRLhnu4-tbNu.ttf';
+export const NotoSansThaana_900Black =
+  'http://fonts.gstatic.com/s/notosansthaana/v12/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4VCaRLhnu4-tbNu.ttf';
+export const NotoSansThai_100Thin =
+  'http://fonts.gstatic.com/s/notosansthai/v13/iJWnBXeUZi_OHPqn4wq6hQ2_hbJ1xyN9wd43SofNWcd1MKVQt_So_9CdU5RspzF-QRvzzXg.ttf';
+export const NotoSansThai_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosansthai/v13/iJWnBXeUZi_OHPqn4wq6hQ2_hbJ1xyN9wd43SofNWcd1MKVQt_So_9CdUxRtpzF-QRvzzXg.ttf';
+export const NotoSansThai_300Light =
+  'http://fonts.gstatic.com/s/notosansthai/v13/iJWnBXeUZi_OHPqn4wq6hQ2_hbJ1xyN9wd43SofNWcd1MKVQt_So_9CdU8ptpzF-QRvzzXg.ttf';
+export const NotoSansThai_400Regular =
+  'http://fonts.gstatic.com/s/notosansthai/v13/iJWnBXeUZi_OHPqn4wq6hQ2_hbJ1xyN9wd43SofNWcd1MKVQt_So_9CdU5RtpzF-QRvzzXg.ttf';
+export const NotoSansThai_500Medium =
+  'http://fonts.gstatic.com/s/notosansthai/v13/iJWnBXeUZi_OHPqn4wq6hQ2_hbJ1xyN9wd43SofNWcd1MKVQt_So_9CdU6ZtpzF-QRvzzXg.ttf';
+export const NotoSansThai_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansthai/v13/iJWnBXeUZi_OHPqn4wq6hQ2_hbJ1xyN9wd43SofNWcd1MKVQt_So_9CdU0pqpzF-QRvzzXg.ttf';
+export const NotoSansThai_700Bold =
+  'http://fonts.gstatic.com/s/notosansthai/v13/iJWnBXeUZi_OHPqn4wq6hQ2_hbJ1xyN9wd43SofNWcd1MKVQt_So_9CdU3NqpzF-QRvzzXg.ttf';
+export const NotoSansThai_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosansthai/v13/iJWnBXeUZi_OHPqn4wq6hQ2_hbJ1xyN9wd43SofNWcd1MKVQt_So_9CdUxRqpzF-QRvzzXg.ttf';
+export const NotoSansThai_900Black =
+  'http://fonts.gstatic.com/s/notosansthai/v13/iJWnBXeUZi_OHPqn4wq6hQ2_hbJ1xyN9wd43SofNWcd1MKVQt_So_9CdUz1qpzF-QRvzzXg.ttf';
+export const NotoSansThaiLooped_100Thin =
+  'http://fonts.gstatic.com/s/notosansthailooped/v10/B50fF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3YX6AYeCT_Wfd1.ttf';
+export const NotoSansThaiLooped_200ExtraLight =
+  'http://fonts.gstatic.com/s/notosansthailooped/v10/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Y84E4UgrzUO5sKA.ttf';
+export const NotoSansThaiLooped_300Light =
+  'http://fonts.gstatic.com/s/notosansthailooped/v10/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Yl4I4UgrzUO5sKA.ttf';
+export const NotoSansThaiLooped_400Regular =
+  'http://fonts.gstatic.com/s/notosansthailooped/v10/B50RF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3gO6ocWiHvWQ.ttf';
+export const NotoSansThaiLooped_500Medium =
+  'http://fonts.gstatic.com/s/notosansthailooped/v10/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Yz4M4UgrzUO5sKA.ttf';
+export const NotoSansThaiLooped_600SemiBold =
+  'http://fonts.gstatic.com/s/notosansthailooped/v10/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Y44Q4UgrzUO5sKA.ttf';
+export const NotoSansThaiLooped_700Bold =
+  'http://fonts.gstatic.com/s/notosansthailooped/v10/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Yh4U4UgrzUO5sKA.ttf';
+export const NotoSansThaiLooped_800ExtraBold =
+  'http://fonts.gstatic.com/s/notosansthailooped/v10/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Ym4Y4UgrzUO5sKA.ttf';
+export const NotoSansThaiLooped_900Black =
+  'http://fonts.gstatic.com/s/notosansthailooped/v10/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Yv4c4UgrzUO5sKA.ttf';
+export const NotoSansTifinagh_400Regular =
+  'http://fonts.gstatic.com/s/notosanstifinagh/v13/I_uzMoCduATTei9eI8dawkHIwvmhCvbn6rnEcXfs4Q.ttf';
+export const NotoSansTirhuta_400Regular =
+  'http://fonts.gstatic.com/s/notosanstirhuta/v13/t5t6IQYRNJ6TWjahPR6X-M-apUyby7uGUBsTrn5P.ttf';
+export const NotoSansUgaritic_400Regular =
+  'http://fonts.gstatic.com/s/notosansugaritic/v13/3qTwoiqhnSyU8TNFIdhZVCwbjCpkAXXkMhoIkiazfg.ttf';
+export const NotoSansVai_400Regular =
+  'http://fonts.gstatic.com/s/notosansvai/v13/NaPecZTSBuhTirw6IaFn_UrURMTsDIRSfr0.ttf';
+export const NotoSansWancho_400Regular =
+  'http://fonts.gstatic.com/s/notosanswancho/v13/zrf-0GXXyfn6Fs0lH9P4cUubP0GBqAPopiRfKp8.ttf';
+export const NotoSansWarangCiti_400Regular =
+  'http://fonts.gstatic.com/s/notosanswarangciti/v13/EYqtmb9SzL1YtsZSScyKDXIeOv3w-zgsNvKRpeVCCXzdgA.ttf';
+export const NotoSansYi_400Regular =
+  'http://fonts.gstatic.com/s/notosansyi/v13/sJoD3LFXjsSdcnzn071rO3apxVDJNVgSNg.ttf';
+export const NotoSansZanabazarSquare_400Regular =
+  'http://fonts.gstatic.com/s/notosanszanabazarsquare/v13/Cn-jJsuGWQxOjaGwMQ6fOicyxLBEMRfDtkzl4uagQtJxOCEgN0Gc.ttf';
+export const NotoSerifAhom_400Regular =
+  'http://fonts.gstatic.com/s/notoserifahom/v13/FeVIS0hfp6cprmEUffAW_fUL_AN-wuYrPFiwaw.ttf';
+export const NotoSerifArmenian_100Thin =
+  'http://fonts.gstatic.com/s/notoserifarmenian/v12/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZi8ObxvXagGdkbg.ttf';
+export const NotoSerifArmenian_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoserifarmenian/v12/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZC8KbxvXagGdkbg.ttf';
+export const NotoSerifArmenian_300Light =
+  'http://fonts.gstatic.com/s/notoserifarmenian/v12/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZ1cKbxvXagGdkbg.ttf';
+export const NotoSerifArmenian_400Regular =
+  'http://fonts.gstatic.com/s/notoserifarmenian/v12/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZi8KbxvXagGdkbg.ttf';
+export const NotoSerifArmenian_500Medium =
+  'http://fonts.gstatic.com/s/notoserifarmenian/v12/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZucKbxvXagGdkbg.ttf';
+export const NotoSerifArmenian_600SemiBold =
+  'http://fonts.gstatic.com/s/notoserifarmenian/v12/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZVcWbxvXagGdkbg.ttf';
+export const NotoSerifArmenian_700Bold =
+  'http://fonts.gstatic.com/s/notoserifarmenian/v12/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZbMWbxvXagGdkbg.ttf';
+export const NotoSerifArmenian_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoserifarmenian/v12/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZC8WbxvXagGdkbg.ttf';
+export const NotoSerifArmenian_900Black =
+  'http://fonts.gstatic.com/s/notoserifarmenian/v12/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZIsWbxvXagGdkbg.ttf';
+export const NotoSerifBalinese_400Regular =
+  'http://fonts.gstatic.com/s/notoserifbalinese/v13/QdVKSS0-JginysQSRvuCmUMB_wVeQAxXRbgJdhapcUU.ttf';
+export const NotoSerifBengali_100Thin =
+  'http://fonts.gstatic.com/s/notoserifbengali/v12/hYkuPvggTvnzO14VSXltirUdnnkt1pwmWrprmO7RjE0a5BtdATYU1crFaM_5JfcAH3qn4LjQH8yD.ttf';
+export const NotoSerifBengali_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoserifbengali/v12/hYkuPvggTvnzO14VSXltirUdnnkt1pwmWrprmO7RjE0a5BtdATYU1crFaM_5JfeAHnqn4LjQH8yD.ttf';
+export const NotoSerifBengali_300Light =
+  'http://fonts.gstatic.com/s/notoserifbengali/v12/hYkuPvggTvnzO14VSXltirUdnnkt1pwmWrprmO7RjE0a5BtdATYU1crFaM_5JfdeHnqn4LjQH8yD.ttf';
+export const NotoSerifBengali_400Regular =
+  'http://fonts.gstatic.com/s/notoserifbengali/v12/hYkuPvggTvnzO14VSXltirUdnnkt1pwmWrprmO7RjE0a5BtdATYU1crFaM_5JfcAHnqn4LjQH8yD.ttf';
+export const NotoSerifBengali_500Medium =
+  'http://fonts.gstatic.com/s/notoserifbengali/v12/hYkuPvggTvnzO14VSXltirUdnnkt1pwmWrprmO7RjE0a5BtdATYU1crFaM_5JfcyHnqn4LjQH8yD.ttf';
+export const NotoSerifBengali_600SemiBold =
+  'http://fonts.gstatic.com/s/notoserifbengali/v12/hYkuPvggTvnzO14VSXltirUdnnkt1pwmWrprmO7RjE0a5BtdATYU1crFaM_5JffeGXqn4LjQH8yD.ttf';
+export const NotoSerifBengali_700Bold =
+  'http://fonts.gstatic.com/s/notoserifbengali/v12/hYkuPvggTvnzO14VSXltirUdnnkt1pwmWrprmO7RjE0a5BtdATYU1crFaM_5JffnGXqn4LjQH8yD.ttf';
+export const NotoSerifBengali_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoserifbengali/v12/hYkuPvggTvnzO14VSXltirUdnnkt1pwmWrprmO7RjE0a5BtdATYU1crFaM_5JfeAGXqn4LjQH8yD.ttf';
+export const NotoSerifBengali_900Black =
+  'http://fonts.gstatic.com/s/notoserifbengali/v12/hYkuPvggTvnzO14VSXltirUdnnkt1pwmWrprmO7RjE0a5BtdATYU1crFaM_5JfepGXqn4LjQH8yD.ttf';
+export const NotoSerifDevanagari_100Thin =
+  'http://fonts.gstatic.com/s/notoserifdevanagari/v12/x3dYcl3IZKmUqiMk48ZHXJ5jwU-DZGRSaQ4Hh2dGyFzPLcQPVbnRNeFsw0xRWb6uxTA-og-HMUe1u_dv.ttf';
+export const NotoSerifDevanagari_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoserifdevanagari/v12/x3dYcl3IZKmUqiMk48ZHXJ5jwU-DZGRSaQ4Hh2dGyFzPLcQPVbnRNeFsw0xRWb6uxTC-ow-HMUe1u_dv.ttf';
+export const NotoSerifDevanagari_300Light =
+  'http://fonts.gstatic.com/s/notoserifdevanagari/v12/x3dYcl3IZKmUqiMk48ZHXJ5jwU-DZGRSaQ4Hh2dGyFzPLcQPVbnRNeFsw0xRWb6uxTBgow-HMUe1u_dv.ttf';
+export const NotoSerifDevanagari_400Regular =
+  'http://fonts.gstatic.com/s/notoserifdevanagari/v12/x3dYcl3IZKmUqiMk48ZHXJ5jwU-DZGRSaQ4Hh2dGyFzPLcQPVbnRNeFsw0xRWb6uxTA-ow-HMUe1u_dv.ttf';
+export const NotoSerifDevanagari_500Medium =
+  'http://fonts.gstatic.com/s/notoserifdevanagari/v12/x3dYcl3IZKmUqiMk48ZHXJ5jwU-DZGRSaQ4Hh2dGyFzPLcQPVbnRNeFsw0xRWb6uxTAMow-HMUe1u_dv.ttf';
+export const NotoSerifDevanagari_600SemiBold =
+  'http://fonts.gstatic.com/s/notoserifdevanagari/v12/x3dYcl3IZKmUqiMk48ZHXJ5jwU-DZGRSaQ4Hh2dGyFzPLcQPVbnRNeFsw0xRWb6uxTDgpA-HMUe1u_dv.ttf';
+export const NotoSerifDevanagari_700Bold =
+  'http://fonts.gstatic.com/s/notoserifdevanagari/v12/x3dYcl3IZKmUqiMk48ZHXJ5jwU-DZGRSaQ4Hh2dGyFzPLcQPVbnRNeFsw0xRWb6uxTDZpA-HMUe1u_dv.ttf';
+export const NotoSerifDevanagari_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoserifdevanagari/v12/x3dYcl3IZKmUqiMk48ZHXJ5jwU-DZGRSaQ4Hh2dGyFzPLcQPVbnRNeFsw0xRWb6uxTC-pA-HMUe1u_dv.ttf';
+export const NotoSerifDevanagari_900Black =
+  'http://fonts.gstatic.com/s/notoserifdevanagari/v12/x3dYcl3IZKmUqiMk48ZHXJ5jwU-DZGRSaQ4Hh2dGyFzPLcQPVbnRNeFsw0xRWb6uxTCXpA-HMUe1u_dv.ttf';
+export const NotoSerifDisplay_100Thin =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buERppa9f8_vkXaZLAgP0G5Wi6QmA1QaeYah2sovLCDq_ZgLyt3idQfktOG-PVpd49gKaDU9hvzC.ttf';
+export const NotoSerifDisplay_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buERppa9f8_vkXaZLAgP0G5Wi6QmA1QaeYah2sovLCDq_ZgLyt3idQfktOG-PVrd4tgKaDU9hvzC.ttf';
+export const NotoSerifDisplay_300Light =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buERppa9f8_vkXaZLAgP0G5Wi6QmA1QaeYah2sovLCDq_ZgLyt3idQfktOG-PVoD4tgKaDU9hvzC.ttf';
+export const NotoSerifDisplay_400Regular =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buERppa9f8_vkXaZLAgP0G5Wi6QmA1QaeYah2sovLCDq_ZgLyt3idQfktOG-PVpd4tgKaDU9hvzC.ttf';
+export const NotoSerifDisplay_500Medium =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buERppa9f8_vkXaZLAgP0G5Wi6QmA1QaeYah2sovLCDq_ZgLyt3idQfktOG-PVpv4tgKaDU9hvzC.ttf';
+export const NotoSerifDisplay_600SemiBold =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buERppa9f8_vkXaZLAgP0G5Wi6QmA1QaeYah2sovLCDq_ZgLyt3idQfktOG-PVqD5dgKaDU9hvzC.ttf';
+export const NotoSerifDisplay_700Bold =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buERppa9f8_vkXaZLAgP0G5Wi6QmA1QaeYah2sovLCDq_ZgLyt3idQfktOG-PVq65dgKaDU9hvzC.ttf';
+export const NotoSerifDisplay_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buERppa9f8_vkXaZLAgP0G5Wi6QmA1QaeYah2sovLCDq_ZgLyt3idQfktOG-PVrd5dgKaDU9hvzC.ttf';
+export const NotoSerifDisplay_900Black =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buERppa9f8_vkXaZLAgP0G5Wi6QmA1QaeYah2sovLCDq_ZgLyt3idQfktOG-PVr05dgKaDU9hvzC.ttf';
+export const NotoSerifDisplay_100Thin_Italic =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buEPppa9f8_vkXaZLAgP0G5Wi6QmA1QwcLRCOrN8uo7t6FBJOJTQit-N33sQOk-VoTBIYjEfg-zCmf4.ttf';
+export const NotoSerifDisplay_200ExtraLight_Italic =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buEPppa9f8_vkXaZLAgP0G5Wi6QmA1QwcLRCOrN8uo7t6FBJOJTQit-N33sQOk-VobBJYjEfg-zCmf4.ttf';
+export const NotoSerifDisplay_300Light_Italic =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buEPppa9f8_vkXaZLAgP0G5Wi6QmA1QwcLRCOrN8uo7t6FBJOJTQit-N33sQOk-VoW5JYjEfg-zCmf4.ttf';
+export const NotoSerifDisplay_400Regular_Italic =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buEPppa9f8_vkXaZLAgP0G5Wi6QmA1QwcLRCOrN8uo7t6FBJOJTQit-N33sQOk-VoTBJYjEfg-zCmf4.ttf';
+export const NotoSerifDisplay_500Medium_Italic =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buEPppa9f8_vkXaZLAgP0G5Wi6QmA1QwcLRCOrN8uo7t6FBJOJTQit-N33sQOk-VoQJJYjEfg-zCmf4.ttf';
+export const NotoSerifDisplay_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buEPppa9f8_vkXaZLAgP0G5Wi6QmA1QwcLRCOrN8uo7t6FBJOJTQit-N33sQOk-Voe5OYjEfg-zCmf4.ttf';
+export const NotoSerifDisplay_700Bold_Italic =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buEPppa9f8_vkXaZLAgP0G5Wi6QmA1QwcLRCOrN8uo7t6FBJOJTQit-N33sQOk-VoddOYjEfg-zCmf4.ttf';
+export const NotoSerifDisplay_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buEPppa9f8_vkXaZLAgP0G5Wi6QmA1QwcLRCOrN8uo7t6FBJOJTQit-N33sQOk-VobBOYjEfg-zCmf4.ttf';
+export const NotoSerifDisplay_900Black_Italic =
+  'http://fonts.gstatic.com/s/notoserifdisplay/v12/buEPppa9f8_vkXaZLAgP0G5Wi6QmA1QwcLRCOrN8uo7t6FBJOJTQit-N33sQOk-VoZlOYjEfg-zCmf4.ttf';
+export const NotoSerifDogra_400Regular =
+  'http://fonts.gstatic.com/s/notoserifdogra/v13/MQpP-XquKMC7ROPP3QOOlm7xPu3fGy63IbPzkns.ttf';
+export const NotoSerifEthiopic_100Thin =
+  'http://fonts.gstatic.com/s/notoserifethiopic/v12/V8mjoR7-XjwJ8_Au3Ti5tXj5Rd83frpWLK4d-taxqWw2HMWjDxBAg5S_0QsrggxCzSQjkaO9UVLyiw.ttf';
+export const NotoSerifEthiopic_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoserifethiopic/v12/V8mjoR7-XjwJ8_Au3Ti5tXj5Rd83frpWLK4d-taxqWw2HMWjDxBAg5S_0QsrggxCTSUjkaO9UVLyiw.ttf';
+export const NotoSerifEthiopic_300Light =
+  'http://fonts.gstatic.com/s/notoserifethiopic/v12/V8mjoR7-XjwJ8_Au3Ti5tXj5Rd83frpWLK4d-taxqWw2HMWjDxBAg5S_0QsrggxCkyUjkaO9UVLyiw.ttf';
+export const NotoSerifEthiopic_400Regular =
+  'http://fonts.gstatic.com/s/notoserifethiopic/v12/V8mjoR7-XjwJ8_Au3Ti5tXj5Rd83frpWLK4d-taxqWw2HMWjDxBAg5S_0QsrggxCzSUjkaO9UVLyiw.ttf';
+export const NotoSerifEthiopic_500Medium =
+  'http://fonts.gstatic.com/s/notoserifethiopic/v12/V8mjoR7-XjwJ8_Au3Ti5tXj5Rd83frpWLK4d-taxqWw2HMWjDxBAg5S_0QsrggxC_yUjkaO9UVLyiw.ttf';
+export const NotoSerifEthiopic_600SemiBold =
+  'http://fonts.gstatic.com/s/notoserifethiopic/v12/V8mjoR7-XjwJ8_Au3Ti5tXj5Rd83frpWLK4d-taxqWw2HMWjDxBAg5S_0QsrggxCEyIjkaO9UVLyiw.ttf';
+export const NotoSerifEthiopic_700Bold =
+  'http://fonts.gstatic.com/s/notoserifethiopic/v12/V8mjoR7-XjwJ8_Au3Ti5tXj5Rd83frpWLK4d-taxqWw2HMWjDxBAg5S_0QsrggxCKiIjkaO9UVLyiw.ttf';
+export const NotoSerifEthiopic_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoserifethiopic/v12/V8mjoR7-XjwJ8_Au3Ti5tXj5Rd83frpWLK4d-taxqWw2HMWjDxBAg5S_0QsrggxCTSIjkaO9UVLyiw.ttf';
+export const NotoSerifEthiopic_900Black =
+  'http://fonts.gstatic.com/s/notoserifethiopic/v12/V8mjoR7-XjwJ8_Au3Ti5tXj5Rd83frpWLK4d-taxqWw2HMWjDxBAg5S_0QsrggxCZCIjkaO9UVLyiw.ttf';
+export const NotoSerifGeorgian_100Thin =
+  'http://fonts.gstatic.com/s/notoserifgeorgian/v12/VEMXRpd8s4nv8hG_qOzL7HOAw4nt0Sl_XxyaEduNMvi7T6Y4etRnmGhyLop-R3aSTvsfdzTw-FgZxQ.ttf';
+export const NotoSerifGeorgian_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoserifgeorgian/v12/VEMXRpd8s4nv8hG_qOzL7HOAw4nt0Sl_XxyaEduNMvi7T6Y4etRnmGhyLop-R3aSzvofdzTw-FgZxQ.ttf';
+export const NotoSerifGeorgian_300Light =
+  'http://fonts.gstatic.com/s/notoserifgeorgian/v12/VEMXRpd8s4nv8hG_qOzL7HOAw4nt0Sl_XxyaEduNMvi7T6Y4etRnmGhyLop-R3aSEPofdzTw-FgZxQ.ttf';
+export const NotoSerifGeorgian_400Regular =
+  'http://fonts.gstatic.com/s/notoserifgeorgian/v12/VEMXRpd8s4nv8hG_qOzL7HOAw4nt0Sl_XxyaEduNMvi7T6Y4etRnmGhyLop-R3aSTvofdzTw-FgZxQ.ttf';
+export const NotoSerifGeorgian_500Medium =
+  'http://fonts.gstatic.com/s/notoserifgeorgian/v12/VEMXRpd8s4nv8hG_qOzL7HOAw4nt0Sl_XxyaEduNMvi7T6Y4etRnmGhyLop-R3aSfPofdzTw-FgZxQ.ttf';
+export const NotoSerifGeorgian_600SemiBold =
+  'http://fonts.gstatic.com/s/notoserifgeorgian/v12/VEMXRpd8s4nv8hG_qOzL7HOAw4nt0Sl_XxyaEduNMvi7T6Y4etRnmGhyLop-R3aSkP0fdzTw-FgZxQ.ttf';
+export const NotoSerifGeorgian_700Bold =
+  'http://fonts.gstatic.com/s/notoserifgeorgian/v12/VEMXRpd8s4nv8hG_qOzL7HOAw4nt0Sl_XxyaEduNMvi7T6Y4etRnmGhyLop-R3aSqf0fdzTw-FgZxQ.ttf';
+export const NotoSerifGeorgian_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoserifgeorgian/v12/VEMXRpd8s4nv8hG_qOzL7HOAw4nt0Sl_XxyaEduNMvi7T6Y4etRnmGhyLop-R3aSzv0fdzTw-FgZxQ.ttf';
+export const NotoSerifGeorgian_900Black =
+  'http://fonts.gstatic.com/s/notoserifgeorgian/v12/VEMXRpd8s4nv8hG_qOzL7HOAw4nt0Sl_XxyaEduNMvi7T6Y4etRnmGhyLop-R3aS5_0fdzTw-FgZxQ.ttf';
+export const NotoSerifGrantha_400Regular =
+  'http://fonts.gstatic.com/s/notoserifgrantha/v13/qkBIXuEH5NzDDvc3fLDYxPk9-Wq3WLiqFENLR7fHGw.ttf';
+export const NotoSerifGujarati_100Thin =
+  'http://fonts.gstatic.com/s/notoserifgujarati/v12/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2HuYycYzuM1Kf-OJu.ttf';
+export const NotoSerifGujarati_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoserifgujarati/v12/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2HuaycIzuM1Kf-OJu.ttf';
+export const NotoSerifGujarati_300Light =
+  'http://fonts.gstatic.com/s/notoserifgujarati/v12/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2HuZscIzuM1Kf-OJu.ttf';
+export const NotoSerifGujarati_400Regular =
+  'http://fonts.gstatic.com/s/notoserifgujarati/v12/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2HuYycIzuM1Kf-OJu.ttf';
+export const NotoSerifGujarati_500Medium =
+  'http://fonts.gstatic.com/s/notoserifgujarati/v12/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2HuYAcIzuM1Kf-OJu.ttf';
+export const NotoSerifGujarati_600SemiBold =
+  'http://fonts.gstatic.com/s/notoserifgujarati/v12/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2Hubsd4zuM1Kf-OJu.ttf';
+export const NotoSerifGujarati_700Bold =
+  'http://fonts.gstatic.com/s/notoserifgujarati/v12/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2HubVd4zuM1Kf-OJu.ttf';
+export const NotoSerifGujarati_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoserifgujarati/v12/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2Huayd4zuM1Kf-OJu.ttf';
+export const NotoSerifGujarati_900Black =
+  'http://fonts.gstatic.com/s/notoserifgujarati/v12/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2Huabd4zuM1Kf-OJu.ttf';
+export const NotoSerifGurmukhi_100Thin =
+  'http://fonts.gstatic.com/s/notoserifgurmukhi/v9/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr6-eBTNmqVU7y6l.ttf';
+export const NotoSerifGurmukhi_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoserifgurmukhi/v9/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr4-eRTNmqVU7y6l.ttf';
+export const NotoSerifGurmukhi_300Light =
+  'http://fonts.gstatic.com/s/notoserifgurmukhi/v9/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr7geRTNmqVU7y6l.ttf';
+export const NotoSerifGurmukhi_400Regular =
+  'http://fonts.gstatic.com/s/notoserifgurmukhi/v9/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr6-eRTNmqVU7y6l.ttf';
+export const NotoSerifGurmukhi_500Medium =
+  'http://fonts.gstatic.com/s/notoserifgurmukhi/v9/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr6MeRTNmqVU7y6l.ttf';
+export const NotoSerifGurmukhi_600SemiBold =
+  'http://fonts.gstatic.com/s/notoserifgurmukhi/v9/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr5gfhTNmqVU7y6l.ttf';
+export const NotoSerifGurmukhi_700Bold =
+  'http://fonts.gstatic.com/s/notoserifgurmukhi/v9/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr5ZfhTNmqVU7y6l.ttf';
+export const NotoSerifGurmukhi_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoserifgurmukhi/v9/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr4-fhTNmqVU7y6l.ttf';
+export const NotoSerifGurmukhi_900Black =
+  'http://fonts.gstatic.com/s/notoserifgurmukhi/v9/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr4XfhTNmqVU7y6l.ttf';
+export const NotoSerifHebrew_100Thin =
+  'http://fonts.gstatic.com/s/notoserifhebrew/v12/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVAwTAG8_vlQxz24.ttf';
+export const NotoSerifHebrew_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoserifhebrew/v12/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVIwSAG8_vlQxz24.ttf';
+export const NotoSerifHebrew_300Light =
+  'http://fonts.gstatic.com/s/notoserifhebrew/v12/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVFISAG8_vlQxz24.ttf';
+export const NotoSerifHebrew_400Regular =
+  'http://fonts.gstatic.com/s/notoserifhebrew/v12/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVAwSAG8_vlQxz24.ttf';
+export const NotoSerifHebrew_500Medium =
+  'http://fonts.gstatic.com/s/notoserifhebrew/v12/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVD4SAG8_vlQxz24.ttf';
+export const NotoSerifHebrew_600SemiBold =
+  'http://fonts.gstatic.com/s/notoserifhebrew/v12/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVNIVAG8_vlQxz24.ttf';
+export const NotoSerifHebrew_700Bold =
+  'http://fonts.gstatic.com/s/notoserifhebrew/v12/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVOsVAG8_vlQxz24.ttf';
+export const NotoSerifHebrew_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoserifhebrew/v12/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVIwVAG8_vlQxz24.ttf';
+export const NotoSerifHebrew_900Black =
+  'http://fonts.gstatic.com/s/notoserifhebrew/v12/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVKUVAG8_vlQxz24.ttf';
+export const NotoSerifKannada_100Thin =
+  'http://fonts.gstatic.com/s/notoserifkannada/v12/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgcYCceRJ71svgcI.ttf';
+export const NotoSerifKannada_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoserifkannada/v12/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgUYDceRJ71svgcI.ttf';
+export const NotoSerifKannada_300Light =
+  'http://fonts.gstatic.com/s/notoserifkannada/v12/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgZgDceRJ71svgcI.ttf';
+export const NotoSerifKannada_400Regular =
+  'http://fonts.gstatic.com/s/notoserifkannada/v12/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgcYDceRJ71svgcI.ttf';
+export const NotoSerifKannada_500Medium =
+  'http://fonts.gstatic.com/s/notoserifkannada/v12/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgfQDceRJ71svgcI.ttf';
+export const NotoSerifKannada_600SemiBold =
+  'http://fonts.gstatic.com/s/notoserifkannada/v12/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgRgEceRJ71svgcI.ttf';
+export const NotoSerifKannada_700Bold =
+  'http://fonts.gstatic.com/s/notoserifkannada/v12/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgSEEceRJ71svgcI.ttf';
+export const NotoSerifKannada_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoserifkannada/v12/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgUYEceRJ71svgcI.ttf';
+export const NotoSerifKannada_900Black =
+  'http://fonts.gstatic.com/s/notoserifkannada/v12/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgW8EceRJ71svgcI.ttf';
+export const NotoSerifKhmer_100Thin =
+  'http://fonts.gstatic.com/s/notoserifkhmer/v12/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdN6B4wXEZK9Xo4xg.ttf';
+export const NotoSerifKhmer_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoserifkhmer/v12/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdNaB8wXEZK9Xo4xg.ttf';
+export const NotoSerifKhmer_300Light =
+  'http://fonts.gstatic.com/s/notoserifkhmer/v12/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdNth8wXEZK9Xo4xg.ttf';
+export const NotoSerifKhmer_400Regular =
+  'http://fonts.gstatic.com/s/notoserifkhmer/v12/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdN6B8wXEZK9Xo4xg.ttf';
+export const NotoSerifKhmer_500Medium =
+  'http://fonts.gstatic.com/s/notoserifkhmer/v12/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdN2h8wXEZK9Xo4xg.ttf';
+export const NotoSerifKhmer_600SemiBold =
+  'http://fonts.gstatic.com/s/notoserifkhmer/v12/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdNNhgwXEZK9Xo4xg.ttf';
+export const NotoSerifKhmer_700Bold =
+  'http://fonts.gstatic.com/s/notoserifkhmer/v12/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdNDxgwXEZK9Xo4xg.ttf';
+export const NotoSerifKhmer_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoserifkhmer/v12/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdNaBgwXEZK9Xo4xg.ttf';
+export const NotoSerifKhmer_900Black =
+  'http://fonts.gstatic.com/s/notoserifkhmer/v12/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdNQRgwXEZK9Xo4xg.ttf';
+export const NotoSerifLao_100Thin =
+  'http://fonts.gstatic.com/s/notoseriflao/v12/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VeMLrvOjlmyhHHQ.ttf';
+export const NotoSerifLao_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoseriflao/v12/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VWMKrvOjlmyhHHQ.ttf';
+export const NotoSerifLao_300Light =
+  'http://fonts.gstatic.com/s/notoseriflao/v12/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8Vb0KrvOjlmyhHHQ.ttf';
+export const NotoSerifLao_400Regular =
+  'http://fonts.gstatic.com/s/notoseriflao/v12/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VeMKrvOjlmyhHHQ.ttf';
+export const NotoSerifLao_500Medium =
+  'http://fonts.gstatic.com/s/notoseriflao/v12/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VdEKrvOjlmyhHHQ.ttf';
+export const NotoSerifLao_600SemiBold =
+  'http://fonts.gstatic.com/s/notoseriflao/v12/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VT0NrvOjlmyhHHQ.ttf';
+export const NotoSerifLao_700Bold =
+  'http://fonts.gstatic.com/s/notoseriflao/v12/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VQQNrvOjlmyhHHQ.ttf';
+export const NotoSerifLao_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoseriflao/v12/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VWMNrvOjlmyhHHQ.ttf';
+export const NotoSerifLao_900Black =
+  'http://fonts.gstatic.com/s/notoseriflao/v12/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VUoNrvOjlmyhHHQ.ttf';
+export const NotoSerifMalayalam_100Thin =
+  'http://fonts.gstatic.com/s/notoserifmalayalam/v12/JIAZUU5sdmdP_HMcVcZFcH7DeVBeGVgSMEk2cmVDq1ihUXL1t-1fnVwHpQVySg.ttf';
+export const NotoSerifMalayalam_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoserifmalayalam/v12/JIAZUU5sdmdP_HMcVcZFcH7DeVBeGVgSMEk2cmVDq1ihUXL1N-xfnVwHpQVySg.ttf';
+export const NotoSerifMalayalam_300Light =
+  'http://fonts.gstatic.com/s/notoserifmalayalam/v12/JIAZUU5sdmdP_HMcVcZFcH7DeVBeGVgSMEk2cmVDq1ihUXL16exfnVwHpQVySg.ttf';
+export const NotoSerifMalayalam_400Regular =
+  'http://fonts.gstatic.com/s/notoserifmalayalam/v12/JIAZUU5sdmdP_HMcVcZFcH7DeVBeGVgSMEk2cmVDq1ihUXL1t-xfnVwHpQVySg.ttf';
+export const NotoSerifMalayalam_500Medium =
+  'http://fonts.gstatic.com/s/notoserifmalayalam/v12/JIAZUU5sdmdP_HMcVcZFcH7DeVBeGVgSMEk2cmVDq1ihUXL1hexfnVwHpQVySg.ttf';
+export const NotoSerifMalayalam_600SemiBold =
+  'http://fonts.gstatic.com/s/notoserifmalayalam/v12/JIAZUU5sdmdP_HMcVcZFcH7DeVBeGVgSMEk2cmVDq1ihUXL1aetfnVwHpQVySg.ttf';
+export const NotoSerifMalayalam_700Bold =
+  'http://fonts.gstatic.com/s/notoserifmalayalam/v12/JIAZUU5sdmdP_HMcVcZFcH7DeVBeGVgSMEk2cmVDq1ihUXL1UOtfnVwHpQVySg.ttf';
+export const NotoSerifMalayalam_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoserifmalayalam/v12/JIAZUU5sdmdP_HMcVcZFcH7DeVBeGVgSMEk2cmVDq1ihUXL1N-tfnVwHpQVySg.ttf';
+export const NotoSerifMalayalam_900Black =
+  'http://fonts.gstatic.com/s/notoserifmalayalam/v12/JIAZUU5sdmdP_HMcVcZFcH7DeVBeGVgSMEk2cmVDq1ihUXL1HutfnVwHpQVySg.ttf';
+export const NotoSerifMyanmar_100Thin =
+  'http://fonts.gstatic.com/s/notoserifmyanmar/v10/VuJudM7F2Yv76aBKKs-bHMQfAHUw3jnNwBDsU9X6RPzQ.ttf';
+export const NotoSerifMyanmar_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoserifmyanmar/v10/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNbDHMefv2TeXJng.ttf';
+export const NotoSerifMyanmar_300Light =
+  'http://fonts.gstatic.com/s/notoserifmyanmar/v10/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNCDLMefv2TeXJng.ttf';
+export const NotoSerifMyanmar_400Regular =
+  'http://fonts.gstatic.com/s/notoserifmyanmar/v10/VuJsdM7F2Yv76aBKKs-bHMQfAHUw3jn1pBrocdDqRA.ttf';
+export const NotoSerifMyanmar_500Medium =
+  'http://fonts.gstatic.com/s/notoserifmyanmar/v10/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNUDPMefv2TeXJng.ttf';
+export const NotoSerifMyanmar_600SemiBold =
+  'http://fonts.gstatic.com/s/notoserifmyanmar/v10/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNfDTMefv2TeXJng.ttf';
+export const NotoSerifMyanmar_700Bold =
+  'http://fonts.gstatic.com/s/notoserifmyanmar/v10/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNGDXMefv2TeXJng.ttf';
+export const NotoSerifMyanmar_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoserifmyanmar/v10/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNBDbMefv2TeXJng.ttf';
+export const NotoSerifMyanmar_900Black =
+  'http://fonts.gstatic.com/s/notoserifmyanmar/v10/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNIDfMefv2TeXJng.ttf';
+export const NotoSerifNyiakengPuachueHmong_400Regular =
+  'http://fonts.gstatic.com/s/notoserifnyiakengpuachuehmong/v12/5h1jibMoOmIC3YuzLC-NZyLDZC8iwh-MTC8ggAjEhePFNRVcneAFp44kcYMUkNqVKhqPDFvbZkrZmb0.ttf';
+export const NotoSerifNyiakengPuachueHmong_500Medium =
+  'http://fonts.gstatic.com/s/notoserifnyiakengpuachuehmong/v12/5h1jibMoOmIC3YuzLC-NZyLDZC8iwh-MTC8ggAjEhePFNRVcneAFp44kcYMUkNqVKiiPDFvbZkrZmb0.ttf';
+export const NotoSerifNyiakengPuachueHmong_600SemiBold =
+  'http://fonts.gstatic.com/s/notoserifnyiakengpuachuehmong/v12/5h1jibMoOmIC3YuzLC-NZyLDZC8iwh-MTC8ggAjEhePFNRVcneAFp44kcYMUkNqVKsSIDFvbZkrZmb0.ttf';
+export const NotoSerifNyiakengPuachueHmong_700Bold =
+  'http://fonts.gstatic.com/s/notoserifnyiakengpuachuehmong/v12/5h1jibMoOmIC3YuzLC-NZyLDZC8iwh-MTC8ggAjEhePFNRVcneAFp44kcYMUkNqVKv2IDFvbZkrZmb0.ttf';
+export const NotoSerifSinhala_100Thin =
+  'http://fonts.gstatic.com/s/notoserifsinhala/v12/DtVEJwinQqclnZE2CnsPug9lgGC3y2F2nehQ7Eg4EdBKWxPiDxMivFLgRXs_-pGxRlMsxaLRn3W-.ttf';
+export const NotoSerifSinhala_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoserifsinhala/v12/DtVEJwinQqclnZE2CnsPug9lgGC3y2F2nehQ7Eg4EdBKWxPiDxMivFLgRXs_-pExR1MsxaLRn3W-.ttf';
+export const NotoSerifSinhala_300Light =
+  'http://fonts.gstatic.com/s/notoserifsinhala/v12/DtVEJwinQqclnZE2CnsPug9lgGC3y2F2nehQ7Eg4EdBKWxPiDxMivFLgRXs_-pHvR1MsxaLRn3W-.ttf';
+export const NotoSerifSinhala_400Regular =
+  'http://fonts.gstatic.com/s/notoserifsinhala/v12/DtVEJwinQqclnZE2CnsPug9lgGC3y2F2nehQ7Eg4EdBKWxPiDxMivFLgRXs_-pGxR1MsxaLRn3W-.ttf';
+export const NotoSerifSinhala_500Medium =
+  'http://fonts.gstatic.com/s/notoserifsinhala/v12/DtVEJwinQqclnZE2CnsPug9lgGC3y2F2nehQ7Eg4EdBKWxPiDxMivFLgRXs_-pGDR1MsxaLRn3W-.ttf';
+export const NotoSerifSinhala_600SemiBold =
+  'http://fonts.gstatic.com/s/notoserifsinhala/v12/DtVEJwinQqclnZE2CnsPug9lgGC3y2F2nehQ7Eg4EdBKWxPiDxMivFLgRXs_-pFvQFMsxaLRn3W-.ttf';
+export const NotoSerifSinhala_700Bold =
+  'http://fonts.gstatic.com/s/notoserifsinhala/v12/DtVEJwinQqclnZE2CnsPug9lgGC3y2F2nehQ7Eg4EdBKWxPiDxMivFLgRXs_-pFWQFMsxaLRn3W-.ttf';
+export const NotoSerifSinhala_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoserifsinhala/v12/DtVEJwinQqclnZE2CnsPug9lgGC3y2F2nehQ7Eg4EdBKWxPiDxMivFLgRXs_-pExQFMsxaLRn3W-.ttf';
+export const NotoSerifSinhala_900Black =
+  'http://fonts.gstatic.com/s/notoserifsinhala/v12/DtVEJwinQqclnZE2CnsPug9lgGC3y2F2nehQ7Eg4EdBKWxPiDxMivFLgRXs_-pEYQFMsxaLRn3W-.ttf';
+export const NotoSerifTamil_100Thin =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjndHr-klIgTfc40komjQ5OObazYp-6H94dBF-RX6nNRJfi-Gf55IgAecattN6R8Pz3v8Etew.ttf';
+export const NotoSerifTamil_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjndHr-klIgTfc40komjQ5OObazYp-6H94dBF-RX6nNRJfi-Gf55IgAecatNN-R8Pz3v8Etew.ttf';
+export const NotoSerifTamil_300Light =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjndHr-klIgTfc40komjQ5OObazYp-6H94dBF-RX6nNRJfi-Gf55IgAecat6t-R8Pz3v8Etew.ttf';
+export const NotoSerifTamil_400Regular =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjndHr-klIgTfc40komjQ5OObazYp-6H94dBF-RX6nNRJfi-Gf55IgAecattN-R8Pz3v8Etew.ttf';
+export const NotoSerifTamil_500Medium =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjndHr-klIgTfc40komjQ5OObazYp-6H94dBF-RX6nNRJfi-Gf55IgAecatht-R8Pz3v8Etew.ttf';
+export const NotoSerifTamil_600SemiBold =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjndHr-klIgTfc40komjQ5OObazYp-6H94dBF-RX6nNRJfi-Gf55IgAecatatiR8Pz3v8Etew.ttf';
+export const NotoSerifTamil_700Bold =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjndHr-klIgTfc40komjQ5OObazYp-6H94dBF-RX6nNRJfi-Gf55IgAecatU9iR8Pz3v8Etew.ttf';
+export const NotoSerifTamil_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjndHr-klIgTfc40komjQ5OObazYp-6H94dBF-RX6nNRJfi-Gf55IgAecatNNiR8Pz3v8Etew.ttf';
+export const NotoSerifTamil_900Black =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjndHr-klIgTfc40komjQ5OObazYp-6H94dBF-RX6nNRJfi-Gf55IgAecatHdiR8Pz3v8Etew.ttf';
+export const NotoSerifTamil_100Thin_Italic =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjldHr-klIgTfc40komjQ5OObazSJaI_D5kV8k_WLwFBmWrypghjeOa18G4fJx5svbzncQ9e3wx.ttf';
+export const NotoSerifTamil_200ExtraLight_Italic =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjldHr-klIgTfc40komjQ5OObazSJaI_D5kV8k_WLwFBmWrypghjeOa18G4fJz5s_bzncQ9e3wx.ttf';
+export const NotoSerifTamil_300Light_Italic =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjldHr-klIgTfc40komjQ5OObazSJaI_D5kV8k_WLwFBmWrypghjeOa18G4fJwns_bzncQ9e3wx.ttf';
+export const NotoSerifTamil_400Regular_Italic =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjldHr-klIgTfc40komjQ5OObazSJaI_D5kV8k_WLwFBmWrypghjeOa18G4fJx5s_bzncQ9e3wx.ttf';
+export const NotoSerifTamil_500Medium_Italic =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjldHr-klIgTfc40komjQ5OObazSJaI_D5kV8k_WLwFBmWrypghjeOa18G4fJxLs_bzncQ9e3wx.ttf';
+export const NotoSerifTamil_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjldHr-klIgTfc40komjQ5OObazSJaI_D5kV8k_WLwFBmWrypghjeOa18G4fJyntPbzncQ9e3wx.ttf';
+export const NotoSerifTamil_700Bold_Italic =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjldHr-klIgTfc40komjQ5OObazSJaI_D5kV8k_WLwFBmWrypghjeOa18G4fJyetPbzncQ9e3wx.ttf';
+export const NotoSerifTamil_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjldHr-klIgTfc40komjQ5OObazSJaI_D5kV8k_WLwFBmWrypghjeOa18G4fJz5tPbzncQ9e3wx.ttf';
+export const NotoSerifTamil_900Black_Italic =
+  'http://fonts.gstatic.com/s/notoseriftamil/v13/LYjldHr-klIgTfc40komjQ5OObazSJaI_D5kV8k_WLwFBmWrypghjeOa18G4fJzQtPbzncQ9e3wx.ttf';
+export const NotoSerifTangut_400Regular =
+  'http://fonts.gstatic.com/s/notoseriftangut/v13/xn76YGc72GKoTvER4Gn3b4m9Ern7Em41fcvN2KT4.ttf';
+export const NotoSerifTelugu_100Thin =
+  'http://fonts.gstatic.com/s/notoseriftelugu/v12/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9D9TGwuY2fjgrZYA.ttf';
+export const NotoSerifTelugu_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoseriftelugu/v12/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9DdTCwuY2fjgrZYA.ttf';
+export const NotoSerifTelugu_300Light =
+  'http://fonts.gstatic.com/s/notoseriftelugu/v12/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9DqzCwuY2fjgrZYA.ttf';
+export const NotoSerifTelugu_400Regular =
+  'http://fonts.gstatic.com/s/notoseriftelugu/v12/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9D9TCwuY2fjgrZYA.ttf';
+export const NotoSerifTelugu_500Medium =
+  'http://fonts.gstatic.com/s/notoseriftelugu/v12/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9DxzCwuY2fjgrZYA.ttf';
+export const NotoSerifTelugu_600SemiBold =
+  'http://fonts.gstatic.com/s/notoseriftelugu/v12/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9DKzewuY2fjgrZYA.ttf';
+export const NotoSerifTelugu_700Bold =
+  'http://fonts.gstatic.com/s/notoseriftelugu/v12/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9DEjewuY2fjgrZYA.ttf';
+export const NotoSerifTelugu_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoseriftelugu/v12/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9DdTewuY2fjgrZYA.ttf';
+export const NotoSerifTelugu_900Black =
+  'http://fonts.gstatic.com/s/notoseriftelugu/v12/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9DXDewuY2fjgrZYA.ttf';
+export const NotoSerifThai_100Thin =
+  'http://fonts.gstatic.com/s/notoserifthai/v12/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0oiFuRRCmsdu0Qx.ttf';
+export const NotoSerifThai_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoserifthai/v12/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0qiF-RRCmsdu0Qx.ttf';
+export const NotoSerifThai_300Light =
+  'http://fonts.gstatic.com/s/notoserifthai/v12/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0p8F-RRCmsdu0Qx.ttf';
+export const NotoSerifThai_400Regular =
+  'http://fonts.gstatic.com/s/notoserifthai/v12/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0oiF-RRCmsdu0Qx.ttf';
+export const NotoSerifThai_500Medium =
+  'http://fonts.gstatic.com/s/notoserifthai/v12/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0oQF-RRCmsdu0Qx.ttf';
+export const NotoSerifThai_600SemiBold =
+  'http://fonts.gstatic.com/s/notoserifthai/v12/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0r8EORRCmsdu0Qx.ttf';
+export const NotoSerifThai_700Bold =
+  'http://fonts.gstatic.com/s/notoserifthai/v12/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0rFEORRCmsdu0Qx.ttf';
+export const NotoSerifThai_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoserifthai/v12/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0qiEORRCmsdu0Qx.ttf';
+export const NotoSerifThai_900Black =
+  'http://fonts.gstatic.com/s/notoserifthai/v12/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0qLEORRCmsdu0Qx.ttf';
+export const NotoSerifTibetan_100Thin =
+  'http://fonts.gstatic.com/s/notoseriftibetan/v12/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIrYdPS7rdSy_32c.ttf';
+export const NotoSerifTibetan_200ExtraLight =
+  'http://fonts.gstatic.com/s/notoseriftibetan/v12/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIjYcPS7rdSy_32c.ttf';
+export const NotoSerifTibetan_300Light =
+  'http://fonts.gstatic.com/s/notoseriftibetan/v12/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIugcPS7rdSy_32c.ttf';
+export const NotoSerifTibetan_400Regular =
+  'http://fonts.gstatic.com/s/notoseriftibetan/v12/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIrYcPS7rdSy_32c.ttf';
+export const NotoSerifTibetan_500Medium =
+  'http://fonts.gstatic.com/s/notoseriftibetan/v12/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIoQcPS7rdSy_32c.ttf';
+export const NotoSerifTibetan_600SemiBold =
+  'http://fonts.gstatic.com/s/notoseriftibetan/v12/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmImgbPS7rdSy_32c.ttf';
+export const NotoSerifTibetan_700Bold =
+  'http://fonts.gstatic.com/s/notoseriftibetan/v12/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIlEbPS7rdSy_32c.ttf';
+export const NotoSerifTibetan_800ExtraBold =
+  'http://fonts.gstatic.com/s/notoseriftibetan/v12/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIjYbPS7rdSy_32c.ttf';
+export const NotoSerifTibetan_900Black =
+  'http://fonts.gstatic.com/s/notoseriftibetan/v12/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIh8bPS7rdSy_32c.ttf';
+export const NotoSerifYezidi_400Regular =
+  'http://fonts.gstatic.com/s/notoserifyezidi/v12/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspD2yEkrlGJgmVCqg.ttf';
+export const NotoSerifYezidi_500Medium =
+  'http://fonts.gstatic.com/s/notoserifyezidi/v12/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspD6SEkrlGJgmVCqg.ttf';
+export const NotoSerifYezidi_600SemiBold =
+  'http://fonts.gstatic.com/s/notoserifyezidi/v12/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspDBSYkrlGJgmVCqg.ttf';
+export const NotoSerifYezidi_700Bold =
+  'http://fonts.gstatic.com/s/notoserifyezidi/v12/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspDPCYkrlGJgmVCqg.ttf';
+export const NotoTraditionalNushu_400Regular =
+  'http://fonts.gstatic.com/s/nototraditionalnushu/v14/SZco3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67J011GNh6SYA.ttf';
 export const JetBrainsMono_100Thin =
   'http://fonts.gstatic.com/s/jetbrainsmono/v6/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yK1jPVmUsaaDhw.ttf';
 export const JetBrainsMono_200ExtraLight =
@@ -192,13 +2418,13 @@ export const JetBrainsMono_700Bold_Italic =
 export const JetBrainsMono_800ExtraBold_Italic =
   'http://fonts.gstatic.com/s/jetbrainsmono/v6/tDba2o-flEEny0FZhsfKu5WU4xD-IQ-PuZJJXxfpAO8LeVOQk6OThxPA.ttf';
 export const NerkoOne_400Regular =
-  'http://fonts.gstatic.com/s/nerkoone/v5/m8JQjfZSc7OXlB3ZMOjzcJ5BZmqa3A.ttf';
+  'http://fonts.gstatic.com/s/nerkoone/v13/m8JQjfZSc7OXlB3ZMOjzcJ5BZmqa3A.ttf';
 export const Castoro_400Regular =
   'http://fonts.gstatic.com/s/castoro/v8/1q2GY5yMCld3-O4cHYhEzOYenEU.ttf';
 export const Castoro_400Regular_Italic =
   'http://fonts.gstatic.com/s/castoro/v8/1q2EY5yMCld3-O4cLYpOyMQbjEX5fw.ttf';
 export const LibreBarcodeEAN13Text_400Regular =
-  'http://fonts.gstatic.com/s/librebarcodeean13text/v9/wlpigxXFDU1_oCu9nfZytgIqSG0XRcJm_OQiB96PAGEki52WfA.ttf';
+  'http://fonts.gstatic.com/s/librebarcodeean13text/v17/wlpigxXFDU1_oCu9nfZytgIqSG0XRcJm_OQiB96PAGEki52WfA.ttf';
 export const Texturina_100Thin =
   'http://fonts.gstatic.com/s/texturina/v9/c4mM1nxpEtL3pXiAulRTkY-HGmNEX1b9NspjMwhAgliHhVrXy2eYG_Ug25riW1OD.ttf';
 export const Texturina_200ExtraLight =
@@ -236,79 +2462,87 @@ export const Texturina_800ExtraBold_Italic =
 export const Texturina_900Black_Italic =
   'http://fonts.gstatic.com/s/texturina/v9/c4mO1nxpEtL3pXiAulR5mL129FhZmLj7I4oiSUJyfYDu7sB5zHJQWbRk0Z7AXkODN94.ttf';
 export const BigShouldersInlineDisplay_100Thin =
-  'http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v5/_LOlmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COrytjChoEoUCJg.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v10/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0nBEnR5yPc2Huux.ttf';
+export const BigShouldersInlineDisplay_200ExtraLight =
+  'http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v10/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0lBE3R5yPc2Huux.ttf';
 export const BigShouldersInlineDisplay_300Light =
-  'http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v5/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COnSPrAJGHowbP0g.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v10/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0mfE3R5yPc2Huux.ttf';
 export const BigShouldersInlineDisplay_400Regular =
-  'http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v5/_LObmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CAtiniAptAoU.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v10/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0nBE3R5yPc2Huux.ttf';
 export const BigShouldersInlineDisplay_500Medium =
-  'http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v5/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COiyOrAJGHowbP0g.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v10/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0nzE3R5yPc2Huux.ttf';
 export const BigShouldersInlineDisplay_600SemiBold =
-  'http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v5/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COgCJrAJGHowbP0g.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v10/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0kfFHR5yPc2Huux.ttf';
 export const BigShouldersInlineDisplay_700Bold =
-  'http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v5/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COmSIrAJGHowbP0g.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v10/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0kmFHR5yPc2Huux.ttf';
 export const BigShouldersInlineDisplay_800ExtraBold =
-  'http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v5/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COniLrAJGHowbP0g.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v10/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0lBFHR5yPc2Huux.ttf';
 export const BigShouldersInlineDisplay_900Black =
-  'http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v5/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COlyKrAJGHowbP0g.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v10/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0loFHR5yPc2Huux.ttf';
 export const BigShouldersInlineText_100Thin =
-  'http://fonts.gstatic.com/s/bigshouldersinlinetext/v5/vm8idQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEU7wG3AwE9VRww.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersinlinetext/v10/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwga0yqGN7Y6Jsc8c.ttf';
+export const BigShouldersInlineText_200ExtraLight =
+  'http://fonts.gstatic.com/s/bigshouldersinlinetext/v10/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgY0y6GN7Y6Jsc8c.ttf';
 export const BigShouldersInlineText_300Light =
-  'http://fonts.gstatic.com/s/bigshouldersinlinetext/v5/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEYbSO1oeH9xI2gc.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersinlinetext/v10/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgbqy6GN7Y6Jsc8c.ttf';
 export const BigShouldersInlineText_400Regular =
-  'http://fonts.gstatic.com/s/bigshouldersinlinetext/v5/vm8kdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NKSr6H1I1A9U.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersinlinetext/v10/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwga0y6GN7Y6Jsc8c.ttf';
 export const BigShouldersInlineText_500Medium =
-  'http://fonts.gstatic.com/s/bigshouldersinlinetext/v5/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEd7TO1oeH9xI2gc.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersinlinetext/v10/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgaGy6GN7Y6Jsc8c.ttf';
 export const BigShouldersInlineText_600SemiBold =
-  'http://fonts.gstatic.com/s/bigshouldersinlinetext/v5/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEfLUO1oeH9xI2gc.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersinlinetext/v10/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgZqzKGN7Y6Jsc8c.ttf';
 export const BigShouldersInlineText_700Bold =
-  'http://fonts.gstatic.com/s/bigshouldersinlinetext/v5/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEZbVO1oeH9xI2gc.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersinlinetext/v10/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgZTzKGN7Y6Jsc8c.ttf';
 export const BigShouldersInlineText_800ExtraBold =
-  'http://fonts.gstatic.com/s/bigshouldersinlinetext/v5/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEYrWO1oeH9xI2gc.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersinlinetext/v10/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgY0zKGN7Y6Jsc8c.ttf';
 export const BigShouldersInlineText_900Black =
-  'http://fonts.gstatic.com/s/bigshouldersinlinetext/v5/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEa7XO1oeH9xI2gc.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersinlinetext/v10/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgYdzKGN7Y6Jsc8c.ttf';
 export const BigShouldersStencilDisplay_100Thin =
-  'http://fonts.gstatic.com/s/bigshouldersstencildisplay/v5/6aeU4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPyvD00ncryljitbg.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersstencildisplay/v10/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_O0nPKHznJucP9w.ttf';
+export const BigShouldersStencilDisplay_200ExtraLight =
+  'http://fonts.gstatic.com/s/bigshouldersstencildisplay/v10/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_u0jPKHznJucP9w.ttf';
 export const BigShouldersStencilDisplay_300Light =
-  'http://fonts.gstatic.com/s/bigshouldersstencildisplay/v5/6aeX4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPyvA88FcB5FTrrKG-.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersstencildisplay/v10/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_ZUjPKHznJucP9w.ttf';
 export const BigShouldersStencilDisplay_400Regular =
-  'http://fonts.gstatic.com/s/bigshouldersstencildisplay/v5/6aeq4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPysiQ2HMJz0ji.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersstencildisplay/v10/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_O0jPKHznJucP9w.ttf';
 export const BigShouldersStencilDisplay_500Medium =
-  'http://fonts.gstatic.com/s/bigshouldersstencildisplay/v5/6aeX4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPyvBk8VcB5FTrrKG-.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersstencildisplay/v10/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_CUjPKHznJucP9w.ttf';
 export const BigShouldersStencilDisplay_600SemiBold =
-  'http://fonts.gstatic.com/s/bigshouldersstencildisplay/v5/6aeX4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPyvBI9lcB5FTrrKG-.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersstencildisplay/v10/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_5U_PKHznJucP9w.ttf';
 export const BigShouldersStencilDisplay_700Bold =
-  'http://fonts.gstatic.com/s/bigshouldersstencildisplay/v5/6aeX4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPyvAs91cB5FTrrKG-.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersstencildisplay/v10/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_3E_PKHznJucP9w.ttf';
 export const BigShouldersStencilDisplay_800ExtraBold =
-  'http://fonts.gstatic.com/s/bigshouldersstencildisplay/v5/6aeX4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPyvAw9FcB5FTrrKG-.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersstencildisplay/v10/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_u0_PKHznJucP9w.ttf';
 export const BigShouldersStencilDisplay_900Black =
-  'http://fonts.gstatic.com/s/bigshouldersstencildisplay/v5/6aeX4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPyvAU9VcB5FTrrKG-.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersstencildisplay/v10/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_kk_PKHznJucP9w.ttf';
 export const BigShouldersStencilText_100Thin =
-  'http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUi9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYSZYGLxtPhi2eA.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGR04XIGS_Py_AWbQ.ttf';
+export const BigShouldersStencilText_200ExtraLight =
+  'http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRU4TIGS_Py_AWbQ.ttf';
 export const BigShouldersStencilText_300Light =
-  'http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYRRQkLbmvRrwPmQ.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRjYTIGS_Py_AWbQ.ttf';
 export const BigShouldersStencilText_400Regular =
-  'http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUg9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcbz9ambTsehi.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGR04TIGS_Py_AWbQ.ttf';
 export const BigShouldersStencilText_500Medium =
-  'http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYQJQ0LbmvRrwPmQ.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGR4YTIGS_Py_AWbQ.ttf';
 export const BigShouldersStencilText_600SemiBold =
-  'http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYQlRELbmvRrwPmQ.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRDYPIGS_Py_AWbQ.ttf';
 export const BigShouldersStencilText_700Bold =
-  'http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYRBRULbmvRrwPmQ.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRNIPIGS_Py_AWbQ.ttf';
 export const BigShouldersStencilText_800ExtraBold =
-  'http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYRdRkLbmvRrwPmQ.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRU4PIGS_Py_AWbQ.ttf';
 export const BigShouldersStencilText_900Black =
-  'http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYR5R0LbmvRrwPmQ.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGReoPIGS_Py_AWbQ.ttf';
 export const SpaceGrotesk_300Light =
-  'http://fonts.gstatic.com/s/spacegrotesk/v5/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj62UUsjNsFjTDJK.ttf';
+  'http://fonts.gstatic.com/s/spacegrotesk/v6/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj62UUsjNsFjTDJK.ttf';
 export const SpaceGrotesk_400Regular =
-  'http://fonts.gstatic.com/s/spacegrotesk/v5/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUUsjNsFjTDJK.ttf';
+  'http://fonts.gstatic.com/s/spacegrotesk/v6/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUUsjNsFjTDJK.ttf';
 export const SpaceGrotesk_500Medium =
-  'http://fonts.gstatic.com/s/spacegrotesk/v5/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7aUUsjNsFjTDJK.ttf';
+  'http://fonts.gstatic.com/s/spacegrotesk/v6/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7aUUsjNsFjTDJK.ttf';
 export const SpaceGrotesk_600SemiBold =
-  'http://fonts.gstatic.com/s/spacegrotesk/v5/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj42VksjNsFjTDJK.ttf';
+  'http://fonts.gstatic.com/s/spacegrotesk/v6/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj42VksjNsFjTDJK.ttf';
 export const SpaceGrotesk_700Bold =
-  'http://fonts.gstatic.com/s/spacegrotesk/v5/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj4PVksjNsFjTDJK.ttf';
+  'http://fonts.gstatic.com/s/spacegrotesk/v6/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj4PVksjNsFjTDJK.ttf';
 export const Trispace_100Thin =
   'http://fonts.gstatic.com/s/trispace/v6/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbH9qoQl0zHugpt0.ttf';
 export const Trispace_200ExtraLight =
@@ -342,41 +2576,41 @@ export const SansitaSwashed_800ExtraBold =
 export const SansitaSwashed_900Black =
   'http://fonts.gstatic.com/s/sansitaswashed/v5/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSWx1ubToVehmEa4Q.ttf';
 export const Piazzolla_100Thin =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7LYx3Ly1AHfAAy5.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7LYx3Ly1AHfAAy5.ttf';
 export const Piazzolla_200ExtraLight =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7JYxnLy1AHfAAy5.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7JYxnLy1AHfAAy5.ttf';
 export const Piazzolla_300Light =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7KGxnLy1AHfAAy5.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7KGxnLy1AHfAAy5.ttf';
 export const Piazzolla_400Regular =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7LYxnLy1AHfAAy5.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7LYxnLy1AHfAAy5.ttf';
 export const Piazzolla_500Medium =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7LqxnLy1AHfAAy5.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7LqxnLy1AHfAAy5.ttf';
 export const Piazzolla_600SemiBold =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7IGwXLy1AHfAAy5.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7IGwXLy1AHfAAy5.ttf';
 export const Piazzolla_700Bold =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7I_wXLy1AHfAAy5.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7I_wXLy1AHfAAy5.ttf';
 export const Piazzolla_800ExtraBold =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7JYwXLy1AHfAAy5.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7JYwXLy1AHfAAy5.ttf';
 export const Piazzolla_900Black =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7JxwXLy1AHfAAy5.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7JxwXLy1AHfAAy5.ttf';
 export const Piazzolla_100Thin_Italic =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhZqw3gX9BRy5m5M.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhZqw3gX9BRy5m5M.ttf';
 export const Piazzolla_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhRqx3gX9BRy5m5M.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhRqx3gX9BRy5m5M.ttf';
 export const Piazzolla_300Light_Italic =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhcSx3gX9BRy5m5M.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhcSx3gX9BRy5m5M.ttf';
 export const Piazzolla_400Regular_Italic =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhZqx3gX9BRy5m5M.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhZqx3gX9BRy5m5M.ttf';
 export const Piazzolla_500Medium_Italic =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhaix3gX9BRy5m5M.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhaix3gX9BRy5m5M.ttf';
 export const Piazzolla_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhUS23gX9BRy5m5M.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhUS23gX9BRy5m5M.ttf';
 export const Piazzolla_700Bold_Italic =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhX223gX9BRy5m5M.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhX223gX9BRy5m5M.ttf';
 export const Piazzolla_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhRq23gX9BRy5m5M.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhRq23gX9BRy5m5M.ttf';
 export const Piazzolla_900Black_Italic =
-  'http://fonts.gstatic.com/s/piazzolla/v11/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhTO23gX9BRy5m5M.ttf';
+  'http://fonts.gstatic.com/s/piazzolla/v16/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhTO23gX9BRy5m5M.ttf';
 export const Syne_400Regular =
   'http://fonts.gstatic.com/s/syne/v3/8vIS7w4qzmVxsWxjBZRjr0FKM_04uT6kR47NCV5Z.ttf';
 export const Syne_500Medium =
@@ -388,13 +2622,13 @@ export const Syne_700Bold =
 export const Syne_800ExtraBold =
   'http://fonts.gstatic.com/s/syne/v3/8vIS7w4qzmVxsWxjBZRjr0FKM_24vj6kR47NCV5Z.ttf';
 export const SyneMono_400Regular =
-  'http://fonts.gstatic.com/s/synemono/v5/K2FzfZNHj_FHBmRbFvHzIqCkDyvqZA.ttf';
+  'http://fonts.gstatic.com/s/synemono/v13/K2FzfZNHj_FHBmRbFvHzIqCkDyvqZA.ttf';
 export const SyneTactile_400Regular =
-  'http://fonts.gstatic.com/s/synetactile/v5/11hGGpna2UTQKjMCVzjAPMKh3ysdjvKU8Q.ttf';
+  'http://fonts.gstatic.com/s/synetactile/v13/11hGGpna2UTQKjMCVzjAPMKh3ysdjvKU8Q.ttf';
 export const XanhMono_400Regular =
-  'http://fonts.gstatic.com/s/xanhmono/v7/R70YjykVmvKCep-vWhSYmACQXzLhTg.ttf';
+  'http://fonts.gstatic.com/s/xanhmono/v15/R70YjykVmvKCep-vWhSYmACQXzLhTg.ttf';
 export const XanhMono_400Regular_Italic =
-  'http://fonts.gstatic.com/s/xanhmono/v7/R70ejykVmvKCep-vWhSomgqUfTfxTo24.ttf';
+  'http://fonts.gstatic.com/s/xanhmono/v15/R70ejykVmvKCep-vWhSomgqUfTfxTo24.ttf';
 export const Grandstander_100Thin =
   'http://fonts.gstatic.com/s/grandstander/v4/ga6fawtA-GpSsTWrnNHPCSIMZhhKpFjyNZIQD1-_D3jWttFGmQk.ttf';
 export const Grandstander_200ExtraLight =
@@ -467,16 +2701,28 @@ export const Fraunces_800ExtraBold_Italic =
   'http://fonts.gstatic.com/s/fraunces/v10/6NVf8FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChJdt9vIVYX9G37lvd9sPEKsxx664UJf1jLSv7Wp05GNi3k.ttf';
 export const Fraunces_900Black_Italic =
   'http://fonts.gstatic.com/s/fraunces/v10/6NVf8FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChJdt9vIVYX9G37lvd9sPEKsxx664UJf1jiSv7Wp05GNi3k.ttf';
+export const KumbhSans_100Thin =
+  'http://fonts.gstatic.com/s/kumbhsans/v6/c4mw1n92AsfhuCq6tVsaoIx1CHIi4kToNorqSyNIXIwSP0XD.ttf';
+export const KumbhSans_200ExtraLight =
+  'http://fonts.gstatic.com/s/kumbhsans/v6/c4mw1n92AsfhuCq6tVsaoIx1CHIi4kToNopqSiNIXIwSP0XD.ttf';
 export const KumbhSans_300Light =
-  'http://fonts.gstatic.com/s/kumbhsans/v5/c4mm1n92AsfhuCq6tVsagit_3KKVXUv8Los.ttf';
+  'http://fonts.gstatic.com/s/kumbhsans/v6/c4mw1n92AsfhuCq6tVsaoIx1CHIi4kToNoq0SiNIXIwSP0XD.ttf';
 export const KumbhSans_400Regular =
-  'http://fonts.gstatic.com/s/kumbhsans/v5/c4ml1n92AsfhuCq6tVsauodX-Kq-QUI.ttf';
+  'http://fonts.gstatic.com/s/kumbhsans/v6/c4mw1n92AsfhuCq6tVsaoIx1CHIi4kToNorqSiNIXIwSP0XD.ttf';
+export const KumbhSans_500Medium =
+  'http://fonts.gstatic.com/s/kumbhsans/v6/c4mw1n92AsfhuCq6tVsaoIx1CHIi4kToNorYSiNIXIwSP0XD.ttf';
+export const KumbhSans_600SemiBold =
+  'http://fonts.gstatic.com/s/kumbhsans/v6/c4mw1n92AsfhuCq6tVsaoIx1CHIi4kToNoo0TSNIXIwSP0XD.ttf';
 export const KumbhSans_700Bold =
-  'http://fonts.gstatic.com/s/kumbhsans/v5/c4mm1n92AsfhuCq6tVsagjt43KKVXUv8Los.ttf';
+  'http://fonts.gstatic.com/s/kumbhsans/v6/c4mw1n92AsfhuCq6tVsaoIx1CHIi4kToNooNTSNIXIwSP0XD.ttf';
+export const KumbhSans_800ExtraBold =
+  'http://fonts.gstatic.com/s/kumbhsans/v6/c4mw1n92AsfhuCq6tVsaoIx1CHIi4kToNopqTSNIXIwSP0XD.ttf';
+export const KumbhSans_900Black =
+  'http://fonts.gstatic.com/s/kumbhsans/v6/c4mw1n92AsfhuCq6tVsaoIx1CHIi4kToNopDTSNIXIwSP0XD.ttf';
 export const Goldman_400Regular =
-  'http://fonts.gstatic.com/s/goldman/v5/pe0uMIWbN4JFplR2LDJ4Bt-7G98.ttf';
+  'http://fonts.gstatic.com/s/goldman/v13/pe0uMIWbN4JFplR2LDJ4Bt-7G98.ttf';
 export const Goldman_700Bold =
-  'http://fonts.gstatic.com/s/goldman/v5/pe0rMIWbN4JFplR2FI5XIteQB9Zra1U.ttf';
+  'http://fonts.gstatic.com/s/goldman/v13/pe0rMIWbN4JFplR2FI5XIteQB9Zra1U.ttf';
 export const Commissioner_100Thin =
   'http://fonts.gstatic.com/s/commissioner/v5/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5Ni-IO9pOXuRoaY.ttf';
 export const Commissioner_200ExtraLight =
@@ -532,29 +2778,29 @@ export const Petrona_800ExtraBold_Italic =
 export const Petrona_900Black_Italic =
   'http://fonts.gstatic.com/s/petrona/v16/mtGr4_NXL7bZo9XXgXdCu2vkCLkNEVtF8kUFFYpUN-dsIWs.ttf';
 export const Kufam_400Regular =
-  'http://fonts.gstatic.com/s/kufam/v6/C8c-4cY7pG7w_oSJDszBXsKCcBH3lqk7qQCJHvIwYg.ttf';
+  'http://fonts.gstatic.com/s/kufam/v11/C8c-4cY7pG7w_oSJDszBXsKCcBH3lqk7qQCJHvIwYg.ttf';
 export const Kufam_500Medium =
-  'http://fonts.gstatic.com/s/kufam/v6/C8c-4cY7pG7w_oSJDszBXsKCcBH3pKk7qQCJHvIwYg.ttf';
+  'http://fonts.gstatic.com/s/kufam/v11/C8c-4cY7pG7w_oSJDszBXsKCcBH3pKk7qQCJHvIwYg.ttf';
 export const Kufam_600SemiBold =
-  'http://fonts.gstatic.com/s/kufam/v6/C8c-4cY7pG7w_oSJDszBXsKCcBH3SK47qQCJHvIwYg.ttf';
+  'http://fonts.gstatic.com/s/kufam/v11/C8c-4cY7pG7w_oSJDszBXsKCcBH3SK47qQCJHvIwYg.ttf';
 export const Kufam_700Bold =
-  'http://fonts.gstatic.com/s/kufam/v6/C8c-4cY7pG7w_oSJDszBXsKCcBH3ca47qQCJHvIwYg.ttf';
+  'http://fonts.gstatic.com/s/kufam/v11/C8c-4cY7pG7w_oSJDszBXsKCcBH3ca47qQCJHvIwYg.ttf';
 export const Kufam_800ExtraBold =
-  'http://fonts.gstatic.com/s/kufam/v6/C8c-4cY7pG7w_oSJDszBXsKCcBH3Fq47qQCJHvIwYg.ttf';
+  'http://fonts.gstatic.com/s/kufam/v11/C8c-4cY7pG7w_oSJDszBXsKCcBH3Fq47qQCJHvIwYg.ttf';
 export const Kufam_900Black =
-  'http://fonts.gstatic.com/s/kufam/v6/C8c-4cY7pG7w_oSJDszBXsKCcBH3P647qQCJHvIwYg.ttf';
+  'http://fonts.gstatic.com/s/kufam/v11/C8c-4cY7pG7w_oSJDszBXsKCcBH3P647qQCJHvIwYg.ttf';
 export const Kufam_400Regular_Italic =
-  'http://fonts.gstatic.com/s/kufam/v6/C8c84cY7pG7w_q6APDMZN6kY3hbiXurT6gqNPPcgYp0i.ttf';
+  'http://fonts.gstatic.com/s/kufam/v11/C8c84cY7pG7w_q6APDMZN6kY3hbiXurT6gqNPPcgYp0i.ttf';
 export const Kufam_500Medium_Italic =
-  'http://fonts.gstatic.com/s/kufam/v6/C8c84cY7pG7w_q6APDMZN6kY3hbiXurh6gqNPPcgYp0i.ttf';
+  'http://fonts.gstatic.com/s/kufam/v11/C8c84cY7pG7w_q6APDMZN6kY3hbiXurh6gqNPPcgYp0i.ttf';
 export const Kufam_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/kufam/v6/C8c84cY7pG7w_q6APDMZN6kY3hbiXuoN7QqNPPcgYp0i.ttf';
+  'http://fonts.gstatic.com/s/kufam/v11/C8c84cY7pG7w_q6APDMZN6kY3hbiXuoN7QqNPPcgYp0i.ttf';
 export const Kufam_700Bold_Italic =
-  'http://fonts.gstatic.com/s/kufam/v6/C8c84cY7pG7w_q6APDMZN6kY3hbiXuo07QqNPPcgYp0i.ttf';
+  'http://fonts.gstatic.com/s/kufam/v11/C8c84cY7pG7w_q6APDMZN6kY3hbiXuo07QqNPPcgYp0i.ttf';
 export const Kufam_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/kufam/v6/C8c84cY7pG7w_q6APDMZN6kY3hbiXupT7QqNPPcgYp0i.ttf';
+  'http://fonts.gstatic.com/s/kufam/v11/C8c84cY7pG7w_q6APDMZN6kY3hbiXupT7QqNPPcgYp0i.ttf';
 export const Kufam_900Black_Italic =
-  'http://fonts.gstatic.com/s/kufam/v6/C8c84cY7pG7w_q6APDMZN6kY3hbiXup67QqNPPcgYp0i.ttf';
+  'http://fonts.gstatic.com/s/kufam/v11/C8c84cY7pG7w_q6APDMZN6kY3hbiXup67QqNPPcgYp0i.ttf';
 export const Harmattan_400Regular =
   'http://fonts.gstatic.com/s/harmattan/v11/goksH6L2DkFvVvRp9XpTS0CjkP1Yog.ttf';
 export const Harmattan_700Bold =
@@ -569,6 +2815,42 @@ export const RedRose_600SemiBold =
   'http://fonts.gstatic.com/s/redrose/v8/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yc_wDcjSsYUVUjg.ttf';
 export const RedRose_700Bold =
   'http://fonts.gstatic.com/s/redrose/v8/QdVISTYiLBjouPgEUajvsfWwDtc3MH8ySvwDcjSsYUVUjg.ttf';
+export const Georama_100Thin =
+  'http://fonts.gstatic.com/s/georama/v4/MCo5zAn438bIEyxFf6swMnNpvPcUwW4u4yRcDh-ZjxApn9K5GvktmQsL5_tgbg.ttf';
+export const Georama_200ExtraLight =
+  'http://fonts.gstatic.com/s/georama/v4/MCo5zAn438bIEyxFf6swMnNpvPcUwW4u4yRcDh-ZjxApn9K5mvgtmQsL5_tgbg.ttf';
+export const Georama_300Light =
+  'http://fonts.gstatic.com/s/georama/v4/MCo5zAn438bIEyxFf6swMnNpvPcUwW4u4yRcDh-ZjxApn9K5RPgtmQsL5_tgbg.ttf';
+export const Georama_400Regular =
+  'http://fonts.gstatic.com/s/georama/v4/MCo5zAn438bIEyxFf6swMnNpvPcUwW4u4yRcDh-ZjxApn9K5GvgtmQsL5_tgbg.ttf';
+export const Georama_500Medium =
+  'http://fonts.gstatic.com/s/georama/v4/MCo5zAn438bIEyxFf6swMnNpvPcUwW4u4yRcDh-ZjxApn9K5KPgtmQsL5_tgbg.ttf';
+export const Georama_600SemiBold =
+  'http://fonts.gstatic.com/s/georama/v4/MCo5zAn438bIEyxFf6swMnNpvPcUwW4u4yRcDh-ZjxApn9K5xP8tmQsL5_tgbg.ttf';
+export const Georama_700Bold =
+  'http://fonts.gstatic.com/s/georama/v4/MCo5zAn438bIEyxFf6swMnNpvPcUwW4u4yRcDh-ZjxApn9K5_f8tmQsL5_tgbg.ttf';
+export const Georama_800ExtraBold =
+  'http://fonts.gstatic.com/s/georama/v4/MCo5zAn438bIEyxFf6swMnNpvPcUwW4u4yRcDh-ZjxApn9K5mv8tmQsL5_tgbg.ttf';
+export const Georama_900Black =
+  'http://fonts.gstatic.com/s/georama/v4/MCo5zAn438bIEyxFf6swMnNpvPcUwW4u4yRcDh-ZjxApn9K5s_8tmQsL5_tgbg.ttf';
+export const Georama_100Thin_Italic =
+  'http://fonts.gstatic.com/s/georama/v4/MCo_zAn438bIEyxFVaIC0ZMQ72G6xnvmodYVPOBB5nuzMdWs0rvF2wEPxf5wbh3T.ttf';
+export const Georama_200ExtraLight_Italic =
+  'http://fonts.gstatic.com/s/georama/v4/MCo_zAn438bIEyxFVaIC0ZMQ72G6xnvmodYVPOBB5nuzMdWs0rtF2gEPxf5wbh3T.ttf';
+export const Georama_300Light_Italic =
+  'http://fonts.gstatic.com/s/georama/v4/MCo_zAn438bIEyxFVaIC0ZMQ72G6xnvmodYVPOBB5nuzMdWs0rub2gEPxf5wbh3T.ttf';
+export const Georama_400Regular_Italic =
+  'http://fonts.gstatic.com/s/georama/v4/MCo_zAn438bIEyxFVaIC0ZMQ72G6xnvmodYVPOBB5nuzMdWs0rvF2gEPxf5wbh3T.ttf';
+export const Georama_500Medium_Italic =
+  'http://fonts.gstatic.com/s/georama/v4/MCo_zAn438bIEyxFVaIC0ZMQ72G6xnvmodYVPOBB5nuzMdWs0rv32gEPxf5wbh3T.ttf';
+export const Georama_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/georama/v4/MCo_zAn438bIEyxFVaIC0ZMQ72G6xnvmodYVPOBB5nuzMdWs0rsb3QEPxf5wbh3T.ttf';
+export const Georama_700Bold_Italic =
+  'http://fonts.gstatic.com/s/georama/v4/MCo_zAn438bIEyxFVaIC0ZMQ72G6xnvmodYVPOBB5nuzMdWs0rsi3QEPxf5wbh3T.ttf';
+export const Georama_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/georama/v4/MCo_zAn438bIEyxFVaIC0ZMQ72G6xnvmodYVPOBB5nuzMdWs0rtF3QEPxf5wbh3T.ttf';
+export const Georama_900Black_Italic =
+  'http://fonts.gstatic.com/s/georama/v4/MCo_zAn438bIEyxFVaIC0ZMQ72G6xnvmodYVPOBB5nuzMdWs0rts3QEPxf5wbh3T.ttf';
 export const Newsreader_200ExtraLight =
   'http://fonts.gstatic.com/s/newsreader/v7/cY9qfjOCX1hbuyalUrK49dLac06G1ZGsZBtoBCzBDXXD9JVF438w-I_ADOxEPjCggA.ttf';
 export const Newsreader_300Light =
@@ -598,41 +2880,59 @@ export const Newsreader_700Bold_Italic =
 export const Newsreader_800ExtraBold_Italic =
   'http://fonts.gstatic.com/s/newsreader/v7/cY9kfjOCX1hbuyalUrK439vogqC9yFZCYg7oRZaLP4obnf7fTXglsMyoSOZAHDWwgECi.ttf';
 export const Epilogue_100Thin =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZMFGj5hxF0EhjimngomvnCCtqb30OXMDLiDJXVigHPVA.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZMFGj5hxF0EhjimngomvnCCtqb30OXMDLiDJXVigHPVA.ttf';
 export const Epilogue_200ExtraLight =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZMFGj5hxF0EhjimngomvnCCtqb30OXsDPiDJXVigHPVA.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZMFGj5hxF0EhjimngomvnCCtqb30OXsDPiDJXVigHPVA.ttf';
 export const Epilogue_300Light =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZMFGj5hxF0EhjimngomvnCCtqb30OXbjPiDJXVigHPVA.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZMFGj5hxF0EhjimngomvnCCtqb30OXbjPiDJXVigHPVA.ttf';
 export const Epilogue_400Regular =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZMFGj5hxF0EhjimngomvnCCtqb30OXMDPiDJXVigHPVA.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZMFGj5hxF0EhjimngomvnCCtqb30OXMDPiDJXVigHPVA.ttf';
 export const Epilogue_500Medium =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZMFGj5hxF0EhjimngomvnCCtqb30OXAjPiDJXVigHPVA.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZMFGj5hxF0EhjimngomvnCCtqb30OXAjPiDJXVigHPVA.ttf';
 export const Epilogue_600SemiBold =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZMFGj5hxF0EhjimngomvnCCtqb30OX7jTiDJXVigHPVA.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZMFGj5hxF0EhjimngomvnCCtqb30OX7jTiDJXVigHPVA.ttf';
 export const Epilogue_700Bold =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZMFGj5hxF0EhjimngomvnCCtqb30OX1zTiDJXVigHPVA.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZMFGj5hxF0EhjimngomvnCCtqb30OX1zTiDJXVigHPVA.ttf';
 export const Epilogue_800ExtraBold =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZMFGj5hxF0EhjimngomvnCCtqb30OXsDTiDJXVigHPVA.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZMFGj5hxF0EhjimngomvnCCtqb30OXsDTiDJXVigHPVA.ttf';
 export const Epilogue_900Black =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZMFGj5hxF0EhjimngomvnCCtqb30OXmTTiDJXVigHPVA.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZMFGj5hxF0EhjimngomvnCCtqb30OXmTTiDJXVigHPVA.ttf';
 export const Epilogue_100Thin_Italic =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HAKTp_RqATfVHNU.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HAKTp_RqATfVHNU.ttf';
 export const Epilogue_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HCKT5_RqATfVHNU.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HCKT5_RqATfVHNU.ttf';
 export const Epilogue_300Light_Italic =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HBUT5_RqATfVHNU.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HBUT5_RqATfVHNU.ttf';
 export const Epilogue_400Regular_Italic =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HAKT5_RqATfVHNU.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HAKT5_RqATfVHNU.ttf';
 export const Epilogue_500Medium_Italic =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HA4T5_RqATfVHNU.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HA4T5_RqATfVHNU.ttf';
 export const Epilogue_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HDUSJ_RqATfVHNU.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HDUSJ_RqATfVHNU.ttf';
 export const Epilogue_700Bold_Italic =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HDtSJ_RqATfVHNU.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HDtSJ_RqATfVHNU.ttf';
 export const Epilogue_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HCKSJ_RqATfVHNU.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HCKSJ_RqATfVHNU.ttf';
 export const Epilogue_900Black_Italic =
-  'http://fonts.gstatic.com/s/epilogue/v4/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HCjSJ_RqATfVHNU.ttf';
+  'http://fonts.gstatic.com/s/epilogue/v7/O4ZCFGj5hxF0EhjimlIhqAYaY7EBcUSC-HCjSJ_RqATfVHNU.ttf';
+export const EncodeSansSC_100Thin =
+  'http://fonts.gstatic.com/s/encodesanssc/v4/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HHhn8c9NOEEClIc.ttf';
+export const EncodeSansSC_200ExtraLight =
+  'http://fonts.gstatic.com/s/encodesanssc/v4/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HPhm8c9NOEEClIc.ttf';
+export const EncodeSansSC_300Light =
+  'http://fonts.gstatic.com/s/encodesanssc/v4/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HCZm8c9NOEEClIc.ttf';
+export const EncodeSansSC_400Regular =
+  'http://fonts.gstatic.com/s/encodesanssc/v4/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HHhm8c9NOEEClIc.ttf';
+export const EncodeSansSC_500Medium =
+  'http://fonts.gstatic.com/s/encodesanssc/v4/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HEpm8c9NOEEClIc.ttf';
+export const EncodeSansSC_600SemiBold =
+  'http://fonts.gstatic.com/s/encodesanssc/v4/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HKZh8c9NOEEClIc.ttf';
+export const EncodeSansSC_700Bold =
+  'http://fonts.gstatic.com/s/encodesanssc/v4/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HJ9h8c9NOEEClIc.ttf';
+export const EncodeSansSC_800ExtraBold =
+  'http://fonts.gstatic.com/s/encodesanssc/v4/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HPhh8c9NOEEClIc.ttf';
+export const EncodeSansSC_900Black =
+  'http://fonts.gstatic.com/s/encodesanssc/v4/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HNFh8c9NOEEClIc.ttf';
 export const Varta_300Light =
   'http://fonts.gstatic.com/s/varta/v5/Qw3AZQpJHj_6LzHUngWbrFkDH1x96j4EirE-9PGLfQ.ttf';
 export const Varta_400Regular =
@@ -660,53 +2960,53 @@ export const Sora_700Bold =
 export const Sora_800ExtraBold =
   'http://fonts.gstatic.com/s/sora/v3/xMQOuFFYT72X5wkB_18qmnndmSfSmX-KIwNhBti0.ttf';
 export const GrenzeGotisch_100Thin =
-  'http://fonts.gstatic.com/s/grenzegotisch/v3/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5Lz5UcICdYPSd_w.ttf';
+  'http://fonts.gstatic.com/s/grenzegotisch/v6/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5Lz5UcICdYPSd_w.ttf';
 export const GrenzeGotisch_200ExtraLight =
-  'http://fonts.gstatic.com/s/grenzegotisch/v3/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5rz9UcICdYPSd_w.ttf';
+  'http://fonts.gstatic.com/s/grenzegotisch/v6/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5rz9UcICdYPSd_w.ttf';
 export const GrenzeGotisch_300Light =
-  'http://fonts.gstatic.com/s/grenzegotisch/v3/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5cT9UcICdYPSd_w.ttf';
+  'http://fonts.gstatic.com/s/grenzegotisch/v6/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5cT9UcICdYPSd_w.ttf';
 export const GrenzeGotisch_400Regular =
-  'http://fonts.gstatic.com/s/grenzegotisch/v3/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5Lz9UcICdYPSd_w.ttf';
+  'http://fonts.gstatic.com/s/grenzegotisch/v6/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5Lz9UcICdYPSd_w.ttf';
 export const GrenzeGotisch_500Medium =
-  'http://fonts.gstatic.com/s/grenzegotisch/v3/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5HT9UcICdYPSd_w.ttf';
+  'http://fonts.gstatic.com/s/grenzegotisch/v6/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5HT9UcICdYPSd_w.ttf';
 export const GrenzeGotisch_600SemiBold =
-  'http://fonts.gstatic.com/s/grenzegotisch/v3/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i58ThUcICdYPSd_w.ttf';
+  'http://fonts.gstatic.com/s/grenzegotisch/v6/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i58ThUcICdYPSd_w.ttf';
 export const GrenzeGotisch_700Bold =
-  'http://fonts.gstatic.com/s/grenzegotisch/v3/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5yDhUcICdYPSd_w.ttf';
+  'http://fonts.gstatic.com/s/grenzegotisch/v6/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5yDhUcICdYPSd_w.ttf';
 export const GrenzeGotisch_800ExtraBold =
-  'http://fonts.gstatic.com/s/grenzegotisch/v3/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5rzhUcICdYPSd_w.ttf';
+  'http://fonts.gstatic.com/s/grenzegotisch/v6/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5rzhUcICdYPSd_w.ttf';
 export const GrenzeGotisch_900Black =
-  'http://fonts.gstatic.com/s/grenzegotisch/v3/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5hjhUcICdYPSd_w.ttf';
+  'http://fonts.gstatic.com/s/grenzegotisch/v6/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5hjhUcICdYPSd_w.ttf';
 export const MuseoModerno_100Thin =
-  'http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMlZFuewajeKlCdo.ttf';
+  'http://fonts.gstatic.com/s/museomoderno/v14/~ChsKDE11c2VvTW9kZXJubzoLCPTQnbsHFQAAyEIgACoECAEYAQ==.ttf';
 export const MuseoModerno_200ExtraLight =
-  'http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMtZEuewajeKlCdo.ttf';
+  'http://fonts.gstatic.com/s/museomoderno/v14/~ChsKDE11c2VvTW9kZXJubzoLCPTQnbsHFQAASEMgACoECAEYAQ==.ttf';
 export const MuseoModerno_300Light =
-  'http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMghEuewajeKlCdo.ttf';
+  'http://fonts.gstatic.com/s/museomoderno/v14/~ChsKDE11c2VvTW9kZXJubzoLCPTQnbsHFQAAlkMgACoECAEYAQ==.ttf';
 export const MuseoModerno_400Regular =
-  'http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMlZEuewajeKlCdo.ttf';
+  'http://fonts.gstatic.com/s/museomoderno/v14/~ChsKDE11c2VvTW9kZXJubzoLCPTQnbsHFQAAyEMgACoECAEYAQ==.ttf';
 export const MuseoModerno_500Medium =
-  'http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMmREuewajeKlCdo.ttf';
+  'http://fonts.gstatic.com/s/museomoderno/v14/~ChsKDE11c2VvTW9kZXJubzoLCPTQnbsHFQAA-kMgACoECAEYAQ==.ttf';
 export const MuseoModerno_600SemiBold =
-  'http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMohDuewajeKlCdo.ttf';
+  'http://fonts.gstatic.com/s/museomoderno/v14/~ChsKDE11c2VvTW9kZXJubzoLCPTQnbsHFQAAFkQgACoECAEYAQ==.ttf';
 export const MuseoModerno_700Bold =
-  'http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMrFDuewajeKlCdo.ttf';
+  'http://fonts.gstatic.com/s/museomoderno/v14/~ChsKDE11c2VvTW9kZXJubzoLCPTQnbsHFQAAL0QgACoECAEYAQ==.ttf';
 export const MuseoModerno_800ExtraBold =
-  'http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMtZDuewajeKlCdo.ttf';
+  'http://fonts.gstatic.com/s/museomoderno/v14/~ChsKDE11c2VvTW9kZXJubzoLCPTQnbsHFQAASEQgACoECAEYAQ==.ttf';
 export const MuseoModerno_900Black =
-  'http://fonts.gstatic.com/s/museomoderno/v7/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMv9DuewajeKlCdo.ttf';
+  'http://fonts.gstatic.com/s/museomoderno/v14/~ChsKDE11c2VvTW9kZXJubzoLCPTQnbsHFQAAYUQgACoECAEYAQ==.ttf';
 export const DMMono_300Light =
-  'http://fonts.gstatic.com/s/dmmono/v5/aFTR7PB1QTsUX8KYvrGyIYSnbKX9Rlk.ttf';
+  'http://fonts.gstatic.com/s/dmmono/v8/aFTR7PB1QTsUX8KYvrGyIYSnbKX9Rlk.ttf';
 export const DMMono_300Light_Italic =
-  'http://fonts.gstatic.com/s/dmmono/v5/aFTT7PB1QTsUX8KYth-orYataIf4VllXuA.ttf';
+  'http://fonts.gstatic.com/s/dmmono/v8/aFTT7PB1QTsUX8KYth-orYataIf4VllXuA.ttf';
 export const DMMono_400Regular =
-  'http://fonts.gstatic.com/s/dmmono/v5/aFTU7PB1QTsUX8KYhh2aBYyMcKw.ttf';
+  'http://fonts.gstatic.com/s/dmmono/v8/aFTU7PB1QTsUX8KYhh2aBYyMcKw.ttf';
 export const DMMono_400Regular_Italic =
-  'http://fonts.gstatic.com/s/dmmono/v5/aFTW7PB1QTsUX8KYth-QAa6JYKzkXw.ttf';
+  'http://fonts.gstatic.com/s/dmmono/v8/aFTW7PB1QTsUX8KYth-QAa6JYKzkXw.ttf';
 export const DMMono_500Medium =
-  'http://fonts.gstatic.com/s/dmmono/v5/aFTR7PB1QTsUX8KYvumzIYSnbKX9Rlk.ttf';
+  'http://fonts.gstatic.com/s/dmmono/v8/aFTR7PB1QTsUX8KYvumzIYSnbKX9Rlk.ttf';
 export const DMMono_500Medium_Italic =
-  'http://fonts.gstatic.com/s/dmmono/v5/aFTT7PB1QTsUX8KYth-o9YetaIf4VllXuA.ttf';
+  'http://fonts.gstatic.com/s/dmmono/v8/aFTT7PB1QTsUX8KYth-o9YetaIf4VllXuA.ttf';
 export const BalsamiqSans_400Regular =
   'http://fonts.gstatic.com/s/balsamiqsans/v3/P5sEzZiAbNrN8SB3lQQX7Pnc8dkdIYdNHzs.ttf';
 export const BalsamiqSans_400Regular_Italic =
@@ -716,61 +3016,61 @@ export const BalsamiqSans_700Bold =
 export const BalsamiqSans_700Bold_Italic =
   'http://fonts.gstatic.com/s/balsamiqsans/v3/P5sfzZiAbNrN8SB3lQQX7PncwdsvmYpsBxDAVQI4aA.ttf';
 export const ComicNeue_300Light =
-  'http://fonts.gstatic.com/s/comicneue/v2/4UaErEJDsxBrF37olUeD_wHLwpteLwtHJlc.ttf';
+  'http://fonts.gstatic.com/s/comicneue/v6/4UaErEJDsxBrF37olUeD_wHLwpteLwtHJlc.ttf';
 export const ComicNeue_300Light_Italic =
-  'http://fonts.gstatic.com/s/comicneue/v2/4UaarEJDsxBrF37olUeD96_RTplUKylCNlcw_Q.ttf';
+  'http://fonts.gstatic.com/s/comicneue/v6/4UaarEJDsxBrF37olUeD96_RTplUKylCNlcw_Q.ttf';
 export const ComicNeue_400Regular =
-  'http://fonts.gstatic.com/s/comicneue/v2/4UaHrEJDsxBrF37olUeDx63j5pN1MwI.ttf';
+  'http://fonts.gstatic.com/s/comicneue/v6/4UaHrEJDsxBrF37olUeDx63j5pN1MwI.ttf';
 export const ComicNeue_400Regular_Italic =
-  'http://fonts.gstatic.com/s/comicneue/v2/4UaFrEJDsxBrF37olUeD96_p4rFwIwJePw.ttf';
+  'http://fonts.gstatic.com/s/comicneue/v6/4UaFrEJDsxBrF37olUeD96_p4rFwIwJePw.ttf';
 export const ComicNeue_700Bold =
-  'http://fonts.gstatic.com/s/comicneue/v2/4UaErEJDsxBrF37olUeD_xHMwpteLwtHJlc.ttf';
+  'http://fonts.gstatic.com/s/comicneue/v6/4UaErEJDsxBrF37olUeD_xHMwpteLwtHJlc.ttf';
 export const ComicNeue_700Bold_Italic =
-  'http://fonts.gstatic.com/s/comicneue/v2/4UaarEJDsxBrF37olUeD96_RXp5UKylCNlcw_Q.ttf';
+  'http://fonts.gstatic.com/s/comicneue/v6/4UaarEJDsxBrF37olUeD96_RXp5UKylCNlcw_Q.ttf';
 export const Caladea_400Regular =
-  'http://fonts.gstatic.com/s/caladea/v2/kJEzBugZ7AAjhybUjR93-9IztOc.ttf';
+  'http://fonts.gstatic.com/s/caladea/v5/kJEzBugZ7AAjhybUjR93-9IztOc.ttf';
 export const Caladea_400Regular_Italic =
-  'http://fonts.gstatic.com/s/caladea/v2/kJExBugZ7AAjhybUvR19__A2pOdvDA.ttf';
+  'http://fonts.gstatic.com/s/caladea/v5/kJExBugZ7AAjhybUvR19__A2pOdvDA.ttf';
 export const Caladea_700Bold =
-  'http://fonts.gstatic.com/s/caladea/v2/kJE2BugZ7AAjhybUtaNY39oYqO52FZ0.ttf';
+  'http://fonts.gstatic.com/s/caladea/v5/kJE2BugZ7AAjhybUtaNY39oYqO52FZ0.ttf';
 export const Caladea_700Bold_Italic =
-  'http://fonts.gstatic.com/s/caladea/v2/kJE0BugZ7AAjhybUvR1FQ98SrMxzBZ2lDA.ttf';
+  'http://fonts.gstatic.com/s/caladea/v5/kJE0BugZ7AAjhybUvR1FQ98SrMxzBZ2lDA.ttf';
 export const Jost_100Thin =
-  'http://fonts.gstatic.com/s/jost/v6/92zPtBhPNqw79Ij1E865zBUv7myjJAVGPokMmuHL.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zPtBhPNqw79Ij1E865zBUv7myjJAVGPokMmuHL.ttf';
 export const Jost_200ExtraLight =
-  'http://fonts.gstatic.com/s/jost/v6/92zPtBhPNqw79Ij1E865zBUv7mwjJQVGPokMmuHL.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zPtBhPNqw79Ij1E865zBUv7mwjJQVGPokMmuHL.ttf';
 export const Jost_300Light =
-  'http://fonts.gstatic.com/s/jost/v6/92zPtBhPNqw79Ij1E865zBUv7mz9JQVGPokMmuHL.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zPtBhPNqw79Ij1E865zBUv7mz9JQVGPokMmuHL.ttf';
 export const Jost_400Regular =
-  'http://fonts.gstatic.com/s/jost/v6/92zPtBhPNqw79Ij1E865zBUv7myjJQVGPokMmuHL.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zPtBhPNqw79Ij1E865zBUv7myjJQVGPokMmuHL.ttf';
 export const Jost_500Medium =
-  'http://fonts.gstatic.com/s/jost/v6/92zPtBhPNqw79Ij1E865zBUv7myRJQVGPokMmuHL.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zPtBhPNqw79Ij1E865zBUv7myRJQVGPokMmuHL.ttf';
 export const Jost_600SemiBold =
-  'http://fonts.gstatic.com/s/jost/v6/92zPtBhPNqw79Ij1E865zBUv7mx9IgVGPokMmuHL.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zPtBhPNqw79Ij1E865zBUv7mx9IgVGPokMmuHL.ttf';
 export const Jost_700Bold =
-  'http://fonts.gstatic.com/s/jost/v6/92zPtBhPNqw79Ij1E865zBUv7mxEIgVGPokMmuHL.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zPtBhPNqw79Ij1E865zBUv7mxEIgVGPokMmuHL.ttf';
 export const Jost_800ExtraBold =
-  'http://fonts.gstatic.com/s/jost/v6/92zPtBhPNqw79Ij1E865zBUv7mwjIgVGPokMmuHL.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zPtBhPNqw79Ij1E865zBUv7mwjIgVGPokMmuHL.ttf';
 export const Jost_900Black =
-  'http://fonts.gstatic.com/s/jost/v6/92zPtBhPNqw79Ij1E865zBUv7mwKIgVGPokMmuHL.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zPtBhPNqw79Ij1E865zBUv7mwKIgVGPokMmuHL.ttf';
 export const Jost_100Thin_Italic =
-  'http://fonts.gstatic.com/s/jost/v6/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0ENI0un_HLMEo.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0ENI0un_HLMEo.ttf';
 export const Jost_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/jost/v6/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0FNI0un_HLMEo.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0FNI0un_HLMEo.ttf';
 export const Jost_300Light_Italic =
-  'http://fonts.gstatic.com/s/jost/v6/92zJtBhPNqw73oHH7BbQp4-B6XlrZrMFNI0un_HLMEo.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zJtBhPNqw73oHH7BbQp4-B6XlrZrMFNI0un_HLMEo.ttf';
 export const Jost_400Regular_Italic =
-  'http://fonts.gstatic.com/s/jost/v6/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0FNI0un_HLMEo.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0FNI0un_HLMEo.ttf';
 export const Jost_500Medium_Italic =
-  'http://fonts.gstatic.com/s/jost/v6/92zJtBhPNqw73oHH7BbQp4-B6XlrZt8FNI0un_HLMEo.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zJtBhPNqw73oHH7BbQp4-B6XlrZt8FNI0un_HLMEo.ttf';
 export const Jost_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/jost/v6/92zJtBhPNqw73oHH7BbQp4-B6XlrZjMCNI0un_HLMEo.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zJtBhPNqw73oHH7BbQp4-B6XlrZjMCNI0un_HLMEo.ttf';
 export const Jost_700Bold_Italic =
-  'http://fonts.gstatic.com/s/jost/v6/92zJtBhPNqw73oHH7BbQp4-B6XlrZgoCNI0un_HLMEo.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zJtBhPNqw73oHH7BbQp4-B6XlrZgoCNI0un_HLMEo.ttf';
 export const Jost_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/jost/v6/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0CNI0un_HLMEo.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0CNI0un_HLMEo.ttf';
 export const Jost_900Black_Italic =
-  'http://fonts.gstatic.com/s/jost/v6/92zJtBhPNqw73oHH7BbQp4-B6XlrZkQCNI0un_HLMEo.ttf';
+  'http://fonts.gstatic.com/s/jost/v9/92zJtBhPNqw73oHH7BbQp4-B6XlrZkQCNI0un_HLMEo.ttf';
 export const Oxanium_200ExtraLight =
   'http://fonts.gstatic.com/s/oxanium/v6/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G83JfniMBXQ7d67x.ttf';
 export const Oxanium_300Light =
@@ -786,69 +3086,90 @@ export const Oxanium_700Bold =
 export const Oxanium_800ExtraBold =
   'http://fonts.gstatic.com/s/oxanium/v6/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G83JeXiMBXQ7d67x.ttf';
 export const Spartan_100Thin =
-  'http://fonts.gstatic.com/s/spartan/v3/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrGFuG6OChXtf4qS.ttf';
+  'http://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrGFuG6OChXtf4qS.ttf';
 export const Spartan_200ExtraLight =
-  'http://fonts.gstatic.com/s/spartan/v3/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrEFuW6OChXtf4qS.ttf';
+  'http://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrEFuW6OChXtf4qS.ttf';
 export const Spartan_300Light =
-  'http://fonts.gstatic.com/s/spartan/v3/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrHbuW6OChXtf4qS.ttf';
+  'http://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrHbuW6OChXtf4qS.ttf';
 export const Spartan_400Regular =
-  'http://fonts.gstatic.com/s/spartan/v3/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrGFuW6OChXtf4qS.ttf';
+  'http://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrGFuW6OChXtf4qS.ttf';
 export const Spartan_500Medium =
-  'http://fonts.gstatic.com/s/spartan/v3/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrG3uW6OChXtf4qS.ttf';
+  'http://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrG3uW6OChXtf4qS.ttf';
 export const Spartan_600SemiBold =
-  'http://fonts.gstatic.com/s/spartan/v3/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrFbvm6OChXtf4qS.ttf';
+  'http://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrFbvm6OChXtf4qS.ttf';
 export const Spartan_700Bold =
-  'http://fonts.gstatic.com/s/spartan/v3/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrFivm6OChXtf4qS.ttf';
+  'http://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrFivm6OChXtf4qS.ttf';
 export const Spartan_800ExtraBold =
-  'http://fonts.gstatic.com/s/spartan/v3/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrEFvm6OChXtf4qS.ttf';
+  'http://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrEFvm6OChXtf4qS.ttf';
 export const Spartan_900Black =
-  'http://fonts.gstatic.com/s/spartan/v3/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrEsvm6OChXtf4qS.ttf';
+  'http://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrEsvm6OChXtf4qS.ttf';
 export const Inter_100Thin =
-  'http://fonts.gstatic.com/s/inter/v3/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeMZhrib2Bg-4.ttf';
+  'http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeMZhrib2Bg-4.ttf';
 export const Inter_200ExtraLight =
-  'http://fonts.gstatic.com/s/inter/v3/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfMZhrib2Bg-4.ttf';
+  'http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfMZhrib2Bg-4.ttf';
 export const Inter_300Light =
-  'http://fonts.gstatic.com/s/inter/v3/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZhrib2Bg-4.ttf';
+  'http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZhrib2Bg-4.ttf';
 export const Inter_400Regular =
-  'http://fonts.gstatic.com/s/inter/v3/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZhrib2Bg-4.ttf';
+  'http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZhrib2Bg-4.ttf';
 export const Inter_500Medium =
-  'http://fonts.gstatic.com/s/inter/v3/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZhrib2Bg-4.ttf';
+  'http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZhrib2Bg-4.ttf';
 export const Inter_600SemiBold =
-  'http://fonts.gstatic.com/s/inter/v3/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZhrib2Bg-4.ttf';
+  'http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZhrib2Bg-4.ttf';
 export const Inter_700Bold =
-  'http://fonts.gstatic.com/s/inter/v3/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZhrib2Bg-4.ttf';
+  'http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZhrib2Bg-4.ttf';
 export const Inter_800ExtraBold =
-  'http://fonts.gstatic.com/s/inter/v3/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZhrib2Bg-4.ttf';
+  'http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZhrib2Bg-4.ttf';
 export const Inter_900Black =
-  'http://fonts.gstatic.com/s/inter/v3/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZhrib2Bg-4.ttf';
+  'http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZhrib2Bg-4.ttf';
+export const Mohave_300Light =
+  'http://fonts.gstatic.com/s/mohave/v4/7cH0v4ksjJunKqMVAOPIMOeSmiojdif_HvCQopLSvBk.ttf';
+export const Mohave_400Regular =
+  'http://fonts.gstatic.com/s/mohave/v4/7cH0v4ksjJunKqMVAOPIMOeSmiojdnn_HvCQopLSvBk.ttf';
+export const Mohave_500Medium =
+  'http://fonts.gstatic.com/s/mohave/v4/7cH0v4ksjJunKqMVAOPIMOeSmiojdkv_HvCQopLSvBk.ttf';
+export const Mohave_600SemiBold =
+  'http://fonts.gstatic.com/s/mohave/v4/7cH0v4ksjJunKqMVAOPIMOeSmiojdqf4HvCQopLSvBk.ttf';
+export const Mohave_700Bold =
+  'http://fonts.gstatic.com/s/mohave/v4/7cH0v4ksjJunKqMVAOPIMOeSmiojdp74HvCQopLSvBk.ttf';
+export const Mohave_300Light_Italic =
+  'http://fonts.gstatic.com/s/mohave/v4/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8qLOaprDXrBlSVw.ttf';
+export const Mohave_400Regular_Italic =
+  'http://fonts.gstatic.com/s/mohave/v4/7cH2v4ksjJunKqM_CdE36I75AIQkY7G89rOaprDXrBlSVw.ttf';
+export const Mohave_500Medium_Italic =
+  'http://fonts.gstatic.com/s/mohave/v4/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8xLOaprDXrBlSVw.ttf';
+export const Mohave_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/mohave/v4/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8KLSaprDXrBlSVw.ttf';
+export const Mohave_700Bold_Italic =
+  'http://fonts.gstatic.com/s/mohave/v4/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8EbSaprDXrBlSVw.ttf';
 export const Sen_400Regular = 'http://fonts.gstatic.com/s/sen/v2/6xKjdSxYI9_Hm_-MImrpLQ.ttf';
 export const Sen_700Bold = 'http://fonts.gstatic.com/s/sen/v2/6xKudSxYI9__J9CoKkH1JHUQSQ.ttf';
 export const Sen_800ExtraBold = 'http://fonts.gstatic.com/s/sen/v2/6xKudSxYI9__O9OoKkH1JHUQSQ.ttf';
 export const Bellota_300Light =
-  'http://fonts.gstatic.com/s/bellota/v4/MwQzbhXl3_qEpiwAID55kGMViblPtXs.ttf';
+  'http://fonts.gstatic.com/s/bellota/v14/MwQzbhXl3_qEpiwAID55kGMViblPtXs.ttf';
 export const Bellota_300Light_Italic =
-  'http://fonts.gstatic.com/s/bellota/v4/MwQxbhXl3_qEpiwAKJBjHGEfjZtKpXulTQ.ttf';
+  'http://fonts.gstatic.com/s/bellota/v14/MwQxbhXl3_qEpiwAKJBjHGEfjZtKpXulTQ.ttf';
 export const Bellota_400Regular =
-  'http://fonts.gstatic.com/s/bellota/v4/MwQ2bhXl3_qEpiwAGJJRtGs-lbA.ttf';
+  'http://fonts.gstatic.com/s/bellota/v14/MwQ2bhXl3_qEpiwAGJJRtGs-lbA.ttf';
 export const Bellota_400Regular_Italic =
-  'http://fonts.gstatic.com/s/bellota/v4/MwQ0bhXl3_qEpiwAKJBbsEk7hbBWrA.ttf';
+  'http://fonts.gstatic.com/s/bellota/v14/MwQ0bhXl3_qEpiwAKJBbsEk7hbBWrA.ttf';
 export const Bellota_700Bold =
-  'http://fonts.gstatic.com/s/bellota/v4/MwQzbhXl3_qEpiwAIC5-kGMViblPtXs.ttf';
+  'http://fonts.gstatic.com/s/bellota/v14/MwQzbhXl3_qEpiwAIC5-kGMViblPtXs.ttf';
 export const Bellota_700Bold_Italic =
-  'http://fonts.gstatic.com/s/bellota/v4/MwQxbhXl3_qEpiwAKJBjDGYfjZtKpXulTQ.ttf';
+  'http://fonts.gstatic.com/s/bellota/v14/MwQxbhXl3_qEpiwAKJBjDGYfjZtKpXulTQ.ttf';
 export const BellotaText_300Light =
-  'http://fonts.gstatic.com/s/bellotatext/v4/0FlMVP2VnlWS4f3-UE9hHXM5VfsqfQXwQy6yxg.ttf';
+  'http://fonts.gstatic.com/s/bellotatext/v14/0FlMVP2VnlWS4f3-UE9hHXM5VfsqfQXwQy6yxg.ttf';
 export const BellotaText_300Light_Italic =
-  'http://fonts.gstatic.com/s/bellotatext/v4/0FlOVP2VnlWS4f3-UE9hHXMx--Gmfw_0YSuixmYK.ttf';
+  'http://fonts.gstatic.com/s/bellotatext/v14/0FlOVP2VnlWS4f3-UE9hHXMx--Gmfw_0YSuixmYK.ttf';
 export const BellotaText_400Regular =
-  'http://fonts.gstatic.com/s/bellotatext/v4/0FlTVP2VnlWS4f3-UE9hHXMB-dMOdS7sSg.ttf';
+  'http://fonts.gstatic.com/s/bellotatext/v14/0FlTVP2VnlWS4f3-UE9hHXMB-dMOdS7sSg.ttf';
 export const BellotaText_400Regular_Italic =
-  'http://fonts.gstatic.com/s/bellotatext/v4/0FlNVP2VnlWS4f3-UE9hHXMx-9kKVyv8Sjer.ttf';
+  'http://fonts.gstatic.com/s/bellotatext/v14/0FlNVP2VnlWS4f3-UE9hHXMx-9kKVyv8Sjer.ttf';
 export const BellotaText_700Bold =
-  'http://fonts.gstatic.com/s/bellotatext/v4/0FlMVP2VnlWS4f3-UE9hHXM5RfwqfQXwQy6yxg.ttf';
+  'http://fonts.gstatic.com/s/bellotatext/v14/0FlMVP2VnlWS4f3-UE9hHXM5RfwqfQXwQy6yxg.ttf';
 export const BellotaText_700Bold_Italic =
-  'http://fonts.gstatic.com/s/bellotatext/v4/0FlOVP2VnlWS4f3-UE9hHXMx--G2eA_0YSuixmYK.ttf';
-export const Gotu_400Regular = 'http://fonts.gstatic.com/s/gotu/v4/o-0FIpksx3QOlH0Lioh6-hU.ttf';
+  'http://fonts.gstatic.com/s/bellotatext/v14/0FlOVP2VnlWS4f3-UE9hHXMx--G2eA_0YSuixmYK.ttf';
+export const Gotu_400Regular = 'http://fonts.gstatic.com/s/gotu/v12/o-0FIpksx3QOlH0Lioh6-hU.ttf';
+export const Uchen_400Regular = 'http://fonts.gstatic.com/s/uchen/v5/nKKZ-GokGZ1baIaSEQGodLxA.ttf';
 export const CourierPrime_400Regular =
   'http://fonts.gstatic.com/s/courierprime/v2/u-450q2lgwslOqpF_6gQ8kELWwZjW-_-tvg.ttf';
 export const CourierPrime_400Regular_Italic =
@@ -858,31 +3179,31 @@ export const CourierPrime_700Bold =
 export const CourierPrime_700Bold_Italic =
   'http://fonts.gstatic.com/s/courierprime/v2/u-4i0q2lgwslOqpF_6gQ8kELawRR4-LfrtPtNXyeAg.ttf';
 export const Girassol_400Regular =
-  'http://fonts.gstatic.com/s/girassol/v6/JTUUjIo_-DK48laaNC9Nz2pJzxbi.ttf';
+  'http://fonts.gstatic.com/s/girassol/v14/JTUUjIo_-DK48laaNC9Nz2pJzxbi.ttf';
 export const InriaSans_300Light =
-  'http://fonts.gstatic.com/s/inriasans/v4/ptRPTiqXYfZMCOiVj9kQ3ELaDQtFqeY3fX4.ttf';
+  'http://fonts.gstatic.com/s/inriasans/v12/ptRPTiqXYfZMCOiVj9kQ3ELaDQtFqeY3fX4.ttf';
 export const InriaSans_300Light_Italic =
-  'http://fonts.gstatic.com/s/inriasans/v4/ptRRTiqXYfZMCOiVj9kQ1OzAgQlPrcQybX4pQA.ttf';
+  'http://fonts.gstatic.com/s/inriasans/v12/ptRRTiqXYfZMCOiVj9kQ1OzAgQlPrcQybX4pQA.ttf';
 export const InriaSans_400Regular =
-  'http://fonts.gstatic.com/s/inriasans/v4/ptRMTiqXYfZMCOiVj9kQ5O7yKQNute8.ttf';
+  'http://fonts.gstatic.com/s/inriasans/v12/ptRMTiqXYfZMCOiVj9kQ5O7yKQNute8.ttf';
 export const InriaSans_400Regular_Italic =
-  'http://fonts.gstatic.com/s/inriasans/v4/ptROTiqXYfZMCOiVj9kQ1Oz4LSFrpe8uZA.ttf';
+  'http://fonts.gstatic.com/s/inriasans/v12/ptROTiqXYfZMCOiVj9kQ1Oz4LSFrpe8uZA.ttf';
 export const InriaSans_700Bold =
-  'http://fonts.gstatic.com/s/inriasans/v4/ptRPTiqXYfZMCOiVj9kQ3FLdDQtFqeY3fX4.ttf';
+  'http://fonts.gstatic.com/s/inriasans/v12/ptRPTiqXYfZMCOiVj9kQ3FLdDQtFqeY3fX4.ttf';
 export const InriaSans_700Bold_Italic =
-  'http://fonts.gstatic.com/s/inriasans/v4/ptRRTiqXYfZMCOiVj9kQ1OzAkQ5PrcQybX4pQA.ttf';
+  'http://fonts.gstatic.com/s/inriasans/v12/ptRRTiqXYfZMCOiVj9kQ1OzAkQ5PrcQybX4pQA.ttf';
 export const InriaSerif_300Light =
-  'http://fonts.gstatic.com/s/inriaserif/v4/fC14PYxPY3rXxEndZJAzN3wAVQjFhFyta3xN.ttf';
+  'http://fonts.gstatic.com/s/inriaserif/v12/fC14PYxPY3rXxEndZJAzN3wAVQjFhFyta3xN.ttf';
 export const InriaSerif_300Light_Italic =
-  'http://fonts.gstatic.com/s/inriaserif/v4/fC16PYxPY3rXxEndZJAzN3SuT4THjliPbmxN0_E.ttf';
+  'http://fonts.gstatic.com/s/inriaserif/v12/fC16PYxPY3rXxEndZJAzN3SuT4THjliPbmxN0_E.ttf';
 export const InriaSerif_400Regular =
-  'http://fonts.gstatic.com/s/inriaserif/v4/fC1lPYxPY3rXxEndZJAzN0SsfSzNr0Ck.ttf';
+  'http://fonts.gstatic.com/s/inriaserif/v12/fC1lPYxPY3rXxEndZJAzN0SsfSzNr0Ck.ttf';
 export const InriaSerif_400Regular_Italic =
-  'http://fonts.gstatic.com/s/inriaserif/v4/fC1nPYxPY3rXxEndZJAzN3SudyjvqlCkcmU.ttf';
+  'http://fonts.gstatic.com/s/inriaserif/v12/fC1nPYxPY3rXxEndZJAzN3SudyjvqlCkcmU.ttf';
 export const InriaSerif_700Bold =
-  'http://fonts.gstatic.com/s/inriaserif/v4/fC14PYxPY3rXxEndZJAzN3wQUgjFhFyta3xN.ttf';
+  'http://fonts.gstatic.com/s/inriaserif/v12/fC14PYxPY3rXxEndZJAzN3wQUgjFhFyta3xN.ttf';
 export const InriaSerif_700Bold_Italic =
-  'http://fonts.gstatic.com/s/inriaserif/v4/fC16PYxPY3rXxEndZJAzN3SuT5TAjliPbmxN0_E.ttf';
+  'http://fonts.gstatic.com/s/inriaserif/v12/fC16PYxPY3rXxEndZJAzN3SuT5TAjliPbmxN0_E.ttf';
 export const Gelasio_400Regular =
   'http://fonts.gstatic.com/s/gelasio/v4/cIf9MaFfvUQxTTqSxCmrYGkHgIs.ttf';
 export const Gelasio_400Regular_Italic =
@@ -900,20 +3221,20 @@ export const Gelasio_700Bold =
 export const Gelasio_700Bold_Italic =
   'http://fonts.gstatic.com/s/gelasio/v4/cIf6MaFfvUQxTTqS9CuZ2GQmmKBhSL7Y1Q.ttf';
 export const Gupter_400Regular =
-  'http://fonts.gstatic.com/s/gupter/v4/2-cm9JNmxJqPO1QUYZa_Wu_lpA.ttf';
+  'http://fonts.gstatic.com/s/gupter/v12/2-cm9JNmxJqPO1QUYZa_Wu_lpA.ttf';
 export const Gupter_500Medium =
-  'http://fonts.gstatic.com/s/gupter/v4/2-cl9JNmxJqPO1Qslb-bUsT5rZhaZg.ttf';
+  'http://fonts.gstatic.com/s/gupter/v12/2-cl9JNmxJqPO1Qslb-bUsT5rZhaZg.ttf';
 export const Gupter_700Bold =
-  'http://fonts.gstatic.com/s/gupter/v4/2-cl9JNmxJqPO1Qs3bmbUsT5rZhaZg.ttf';
+  'http://fonts.gstatic.com/s/gupter/v12/2-cl9JNmxJqPO1Qs3bmbUsT5rZhaZg.ttf';
 export const Alata_400Regular = 'http://fonts.gstatic.com/s/alata/v2/PbytFmztEwbIofe6xKcRQEOX.ttf';
 export const OdibeeSans_400Regular =
-  'http://fonts.gstatic.com/s/odibeesans/v4/neIPzCSooYAho6WvjeToRYkyepH9qGsf.ttf';
+  'http://fonts.gstatic.com/s/odibeesans/v12/neIPzCSooYAho6WvjeToRYkyepH9qGsf.ttf';
 export const Alatsi_400Regular =
-  'http://fonts.gstatic.com/s/alatsi/v2/TK3iWkUJAxQ2nLNGHjUHte5fKg.ttf';
+  'http://fonts.gstatic.com/s/alatsi/v7/TK3iWkUJAxQ2nLNGHjUHte5fKg.ttf';
 export const ViaodaLibre_400Regular =
-  'http://fonts.gstatic.com/s/viaodalibre/v5/vEFW2_lWCgoR6OKuRz9kcRVJb2IY2tOHXg.ttf';
+  'http://fonts.gstatic.com/s/viaodalibre/v13/vEFW2_lWCgoR6OKuRz9kcRVJb2IY2tOHXg.ttf';
 export const Calistoga_400Regular =
-  'http://fonts.gstatic.com/s/calistoga/v5/6NUU8F2OJg6MeR7l4e0vtMYAwdRZfw.ttf';
+  'http://fonts.gstatic.com/s/calistoga/v8/6NUU8F2OJg6MeR7l4e0vtMYAwdRZfw.ttf';
 export const IbarraRealNova_400Regular =
   'http://fonts.gstatic.com/s/ibarrarealnova/v8/sZlSdQiA-DBIDCcaWtQzL4BZHoiDundw4ATyjed3EXdg5MDtVT9TWIvS.ttf';
 export const IbarraRealNova_500Medium =
@@ -933,203 +3254,292 @@ export const IbarraRealNova_700Bold_Italic =
 export const BebasNeue_400Regular =
   'http://fonts.gstatic.com/s/bebasneue/v2/JTUSjIg69CK48gW7PXooxW5rygbi49c.ttf';
 export const Rowdies_300Light =
-  'http://fonts.gstatic.com/s/rowdies/v5/ptRMTieMYPNBAK219hth5O7yKQNute8.ttf';
+  'http://fonts.gstatic.com/s/rowdies/v13/ptRMTieMYPNBAK219hth5O7yKQNute8.ttf';
 export const Rowdies_400Regular =
-  'http://fonts.gstatic.com/s/rowdies/v5/ptRJTieMYPNBAK21zrdJwObZNQo.ttf';
+  'http://fonts.gstatic.com/s/rowdies/v13/ptRJTieMYPNBAK21zrdJwObZNQo.ttf';
 export const Rowdies_700Bold =
-  'http://fonts.gstatic.com/s/rowdies/v5/ptRMTieMYPNBAK219gtm5O7yKQNute8.ttf';
+  'http://fonts.gstatic.com/s/rowdies/v13/ptRMTieMYPNBAK219gtm5O7yKQNute8.ttf';
 export const Baskervville_400Regular =
-  'http://fonts.gstatic.com/s/baskervville/v5/YA9Ur0yU4l_XOrogbkun3kQgt5OohvbJ9A.ttf';
+  'http://fonts.gstatic.com/s/baskervville/v11/YA9Ur0yU4l_XOrogbkun3kQgt5OohvbJ9A.ttf';
 export const Baskervville_400Regular_Italic =
-  'http://fonts.gstatic.com/s/baskervville/v5/YA9Kr0yU4l_XOrogbkun3kQQtZmspPPZ9Mlt.ttf';
+  'http://fonts.gstatic.com/s/baskervville/v11/YA9Kr0yU4l_XOrogbkun3kQQtZmspPPZ9Mlt.ttf';
 export const Manrope_200ExtraLight =
-  'http://fonts.gstatic.com/s/manrope/v4/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59FO_F87jxeN7B.ttf';
+  'http://fonts.gstatic.com/s/manrope/v8/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59FO_F87jxeN7B.ttf';
 export const Manrope_300Light =
-  'http://fonts.gstatic.com/s/manrope/v4/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk6jFO_F87jxeN7B.ttf';
+  'http://fonts.gstatic.com/s/manrope/v8/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk6jFO_F87jxeN7B.ttf';
 export const Manrope_400Regular =
-  'http://fonts.gstatic.com/s/manrope/v4/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_F87jxeN7B.ttf';
+  'http://fonts.gstatic.com/s/manrope/v8/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_F87jxeN7B.ttf';
 export const Manrope_500Medium =
-  'http://fonts.gstatic.com/s/manrope/v4/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_F87jxeN7B.ttf';
+  'http://fonts.gstatic.com/s/manrope/v8/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_F87jxeN7B.ttf';
 export const Manrope_600SemiBold =
-  'http://fonts.gstatic.com/s/manrope/v4/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_F87jxeN7B.ttf';
+  'http://fonts.gstatic.com/s/manrope/v8/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_F87jxeN7B.ttf';
 export const Manrope_700Bold =
-  'http://fonts.gstatic.com/s/manrope/v4/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_F87jxeN7B.ttf';
+  'http://fonts.gstatic.com/s/manrope/v8/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_F87jxeN7B.ttf';
 export const Manrope_800ExtraBold =
-  'http://fonts.gstatic.com/s/manrope/v4/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E-_F87jxeN7B.ttf';
+  'http://fonts.gstatic.com/s/manrope/v8/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E-_F87jxeN7B.ttf';
 export const Tomorrow_100Thin =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLgrETNbFtZCeGqgR2xe2XiKMiokE4.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLgrETNbFtZCeGqgR2xe2XiKMiokE4.ttf';
 export const Tomorrow_100Thin_Italic =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLirETNbFtZCeGqgRXXQwHoLOqtgE5h0A.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLirETNbFtZCeGqgRXXQwHoLOqtgE5h0A.ttf';
 export const Tomorrow_200ExtraLight =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLhrETNbFtZCeGqgR0dWkXIBsShiVd4.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLhrETNbFtZCeGqgR0dWkXIBsShiVd4.ttf';
 export const Tomorrow_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLjrETNbFtZCeGqgRXXQ63JDMCDjEd4yVY.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLjrETNbFtZCeGqgRXXQ63JDMCDjEd4yVY.ttf';
 export const Tomorrow_300Light =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLhrETNbFtZCeGqgR15WUXIBsShiVd4.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLhrETNbFtZCeGqgR15WUXIBsShiVd4.ttf';
 export const Tomorrow_300Light_Italic =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLjrETNbFtZCeGqgRXXQ8nKDMCDjEd4yVY.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLjrETNbFtZCeGqgRXXQ8nKDMCDjEd4yVY.ttf';
 export const Tomorrow_400Regular =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLmrETNbFtZCeGqgSXVcWHALdio.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLmrETNbFtZCeGqgSXVcWHALdio.ttf';
 export const Tomorrow_400Regular_Italic =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLgrETNbFtZCeGqgRXXe2XiKMiokE4.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLgrETNbFtZCeGqgRXXe2XiKMiokE4.ttf';
 export const Tomorrow_500Medium =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLhrETNbFtZCeGqgR0hWEXIBsShiVd4.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLhrETNbFtZCeGqgR0hWEXIBsShiVd4.ttf';
 export const Tomorrow_500Medium_Italic =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLjrETNbFtZCeGqgRXXQ5HLDMCDjEd4yVY.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLjrETNbFtZCeGqgRXXQ5HLDMCDjEd4yVY.ttf';
 export const Tomorrow_600SemiBold =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLhrETNbFtZCeGqgR0NX0XIBsShiVd4.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLhrETNbFtZCeGqgR0NX0XIBsShiVd4.ttf';
 export const Tomorrow_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLjrETNbFtZCeGqgRXXQ73MDMCDjEd4yVY.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLjrETNbFtZCeGqgRXXQ73MDMCDjEd4yVY.ttf';
 export const Tomorrow_700Bold =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLhrETNbFtZCeGqgR1pXkXIBsShiVd4.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLhrETNbFtZCeGqgR1pXkXIBsShiVd4.ttf';
 export const Tomorrow_700Bold_Italic =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLjrETNbFtZCeGqgRXXQ9nNDMCDjEd4yVY.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLjrETNbFtZCeGqgRXXQ9nNDMCDjEd4yVY.ttf';
 export const Tomorrow_800ExtraBold =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLhrETNbFtZCeGqgR11XUXIBsShiVd4.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLhrETNbFtZCeGqgR11XUXIBsShiVd4.ttf';
 export const Tomorrow_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLjrETNbFtZCeGqgRXXQ8XODMCDjEd4yVY.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLjrETNbFtZCeGqgRXXQ8XODMCDjEd4yVY.ttf';
 export const Tomorrow_900Black =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLhrETNbFtZCeGqgR1RXEXIBsShiVd4.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLhrETNbFtZCeGqgR1RXEXIBsShiVd4.ttf';
 export const Tomorrow_900Black_Italic =
-  'http://fonts.gstatic.com/s/tomorrow/v5/WBLjrETNbFtZCeGqgRXXQ-HPDMCDjEd4yVY.ttf';
+  'http://fonts.gstatic.com/s/tomorrow/v13/WBLjrETNbFtZCeGqgRXXQ-HPDMCDjEd4yVY.ttf';
 export const KulimPark_200ExtraLight =
-  'http://fonts.gstatic.com/s/kulimpark/v4/fdN49secq3hflz1Uu3IwjJYNwa5aZbUvGjU.ttf';
+  'http://fonts.gstatic.com/s/kulimpark/v12/fdN49secq3hflz1Uu3IwjJYNwa5aZbUvGjU.ttf';
 export const KulimPark_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/kulimpark/v4/fdNm9secq3hflz1Uu3IwhFwUKa9QYZcqCjVVUA.ttf';
+  'http://fonts.gstatic.com/s/kulimpark/v12/fdNm9secq3hflz1Uu3IwhFwUKa9QYZcqCjVVUA.ttf';
 export const KulimPark_300Light =
-  'http://fonts.gstatic.com/s/kulimpark/v4/fdN49secq3hflz1Uu3IwjPIOwa5aZbUvGjU.ttf';
+  'http://fonts.gstatic.com/s/kulimpark/v12/fdN49secq3hflz1Uu3IwjPIOwa5aZbUvGjU.ttf';
 export const KulimPark_300Light_Italic =
-  'http://fonts.gstatic.com/s/kulimpark/v4/fdNm9secq3hflz1Uu3IwhFwUTaxQYZcqCjVVUA.ttf';
+  'http://fonts.gstatic.com/s/kulimpark/v12/fdNm9secq3hflz1Uu3IwhFwUTaxQYZcqCjVVUA.ttf';
 export const KulimPark_400Regular =
-  'http://fonts.gstatic.com/s/kulimpark/v4/fdN79secq3hflz1Uu3IwtF4m5aZxebw.ttf';
+  'http://fonts.gstatic.com/s/kulimpark/v12/fdN79secq3hflz1Uu3IwtF4m5aZxebw.ttf';
 export const KulimPark_400Regular_Italic =
-  'http://fonts.gstatic.com/s/kulimpark/v4/fdN59secq3hflz1Uu3IwhFws4YR0abw2Aw.ttf';
+  'http://fonts.gstatic.com/s/kulimpark/v12/fdN59secq3hflz1Uu3IwhFws4YR0abw2Aw.ttf';
 export const KulimPark_600SemiBold =
-  'http://fonts.gstatic.com/s/kulimpark/v4/fdN49secq3hflz1Uu3IwjIYIwa5aZbUvGjU.ttf';
+  'http://fonts.gstatic.com/s/kulimpark/v12/fdN49secq3hflz1Uu3IwjIYIwa5aZbUvGjU.ttf';
 export const KulimPark_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/kulimpark/v4/fdNm9secq3hflz1Uu3IwhFwUOapQYZcqCjVVUA.ttf';
+  'http://fonts.gstatic.com/s/kulimpark/v12/fdNm9secq3hflz1Uu3IwhFwUOapQYZcqCjVVUA.ttf';
 export const KulimPark_700Bold =
-  'http://fonts.gstatic.com/s/kulimpark/v4/fdN49secq3hflz1Uu3IwjOIJwa5aZbUvGjU.ttf';
+  'http://fonts.gstatic.com/s/kulimpark/v12/fdN49secq3hflz1Uu3IwjOIJwa5aZbUvGjU.ttf';
 export const KulimPark_700Bold_Italic =
-  'http://fonts.gstatic.com/s/kulimpark/v4/fdNm9secq3hflz1Uu3IwhFwUXatQYZcqCjVVUA.ttf';
+  'http://fonts.gstatic.com/s/kulimpark/v12/fdNm9secq3hflz1Uu3IwhFwUXatQYZcqCjVVUA.ttf';
 export const SulphurPoint_300Light =
-  'http://fonts.gstatic.com/s/sulphurpoint/v4/RLpkK5vv8KaycDcazWFPBj2afVU6n6kFUHPIFaU.ttf';
+  'http://fonts.gstatic.com/s/sulphurpoint/v12/RLpkK5vv8KaycDcazWFPBj2afVU6n6kFUHPIFaU.ttf';
 export const SulphurPoint_400Regular =
-  'http://fonts.gstatic.com/s/sulphurpoint/v4/RLp5K5vv8KaycDcazWFPBj2aRfkSu6EuTHo.ttf';
+  'http://fonts.gstatic.com/s/sulphurpoint/v12/RLp5K5vv8KaycDcazWFPBj2aRfkSu6EuTHo.ttf';
 export const SulphurPoint_700Bold =
-  'http://fonts.gstatic.com/s/sulphurpoint/v4/RLpkK5vv8KaycDcazWFPBj2afUU9n6kFUHPIFaU.ttf';
+  'http://fonts.gstatic.com/s/sulphurpoint/v12/RLpkK5vv8KaycDcazWFPBj2afUU9n6kFUHPIFaU.ttf';
 export const BigShouldersDisplay_100Thin =
-  'http://fonts.gstatic.com/s/bigshouldersdisplay/v4/fC1xPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx1Ur9DrDJYM2lAZ.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersdisplay/v6/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdY86JF46SRP4yZQ.ttf';
+export const BigShouldersDisplay_200ExtraLight =
+  'http://fonts.gstatic.com/s/bigshouldersdisplay/v6/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdQ87JF46SRP4yZQ.ttf';
 export const BigShouldersDisplay_300Light =
-  'http://fonts.gstatic.com/s/bigshouldersdisplay/v4/fC1yPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx1UZ_LLJrgA00kAdA.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersdisplay/v6/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YddE7JF46SRP4yZQ.ttf';
 export const BigShouldersDisplay_400Regular =
-  'http://fonts.gstatic.com/s/bigshouldersdisplay/v4/fC1_PZJEZG-e9gHhdI4-NBbfd2ys3SjJCx1sy9rvLpMc2g.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersdisplay/v6/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdY87JF46SRP4yZQ.ttf';
 export const BigShouldersDisplay_500Medium =
-  'http://fonts.gstatic.com/s/bigshouldersdisplay/v4/fC1yPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx1UP_PLJrgA00kAdA.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersdisplay/v6/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0Ydb07JF46SRP4yZQ.ttf';
 export const BigShouldersDisplay_600SemiBold =
-  'http://fonts.gstatic.com/s/bigshouldersdisplay/v4/fC1yPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx1UE_TLJrgA00kAdA.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersdisplay/v6/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdVE8JF46SRP4yZQ.ttf';
 export const BigShouldersDisplay_700Bold =
-  'http://fonts.gstatic.com/s/bigshouldersdisplay/v4/fC1yPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx1Ud_XLJrgA00kAdA.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersdisplay/v6/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdWg8JF46SRP4yZQ.ttf';
 export const BigShouldersDisplay_800ExtraBold =
-  'http://fonts.gstatic.com/s/bigshouldersdisplay/v4/fC1yPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx1Ua_bLJrgA00kAdA.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersdisplay/v6/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdQ88JF46SRP4yZQ.ttf';
 export const BigShouldersDisplay_900Black =
-  'http://fonts.gstatic.com/s/bigshouldersdisplay/v4/fC1yPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx1UT_fLJrgA00kAdA.ttf';
+  'http://fonts.gstatic.com/s/bigshouldersdisplay/v6/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdSY8JF46SRP4yZQ.ttf';
 export const BigShouldersText_100Thin =
-  'http://fonts.gstatic.com/s/bigshoulderstext/v6/55xzezRtP9G3CGPIf49hxc8P0eytUxBU-IZ_YscCdXQB.ttf';
+  'http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Y-r3TIPNl6P2pc.ttf';
+export const BigShouldersText_200ExtraLight =
+  'http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Q-q3TIPNl6P2pc.ttf';
 export const BigShouldersText_300Light =
-  'http://fonts.gstatic.com/s/bigshoulderstext/v6/55xyezRtP9G3CGPIf49hxc8P0eytUxBUMKRfSOkOfG0Y3A.ttf';
+  'http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3dGq3TIPNl6P2pc.ttf';
 export const BigShouldersText_400Regular =
-  'http://fonts.gstatic.com/s/bigshoulderstext/v6/55xxezRtP9G3CGPIf49hxc8P0eytUxBsnIx7QMISdQ.ttf';
+  'http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Y-q3TIPNl6P2pc.ttf';
 export const BigShouldersText_500Medium =
-  'http://fonts.gstatic.com/s/bigshoulderstext/v6/55xyezRtP9G3CGPIf49hxc8P0eytUxBUaKVfSOkOfG0Y3A.ttf';
+  'http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3b2q3TIPNl6P2pc.ttf';
 export const BigShouldersText_600SemiBold =
-  'http://fonts.gstatic.com/s/bigshoulderstext/v6/55xyezRtP9G3CGPIf49hxc8P0eytUxBURKJfSOkOfG0Y3A.ttf';
+  'http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3VGt3TIPNl6P2pc.ttf';
 export const BigShouldersText_700Bold =
-  'http://fonts.gstatic.com/s/bigshoulderstext/v6/55xyezRtP9G3CGPIf49hxc8P0eytUxBUIKNfSOkOfG0Y3A.ttf';
+  'http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Wit3TIPNl6P2pc.ttf';
 export const BigShouldersText_800ExtraBold =
-  'http://fonts.gstatic.com/s/bigshoulderstext/v6/55xyezRtP9G3CGPIf49hxc8P0eytUxBUPKBfSOkOfG0Y3A.ttf';
+  'http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Q-t3TIPNl6P2pc.ttf';
 export const BigShouldersText_900Black =
-  'http://fonts.gstatic.com/s/bigshoulderstext/v6/55xyezRtP9G3CGPIf49hxc8P0eytUxBUGKFfSOkOfG0Y3A.ttf';
+  'http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Sat3TIPNl6P2pc.ttf';
 export const Jomolhari_400Regular =
-  'http://fonts.gstatic.com/s/jomolhari/v4/EvONzA1M1Iw_CBd2hsQCF1IZKq5INg.ttf';
+  'http://fonts.gstatic.com/s/jomolhari/v12/EvONzA1M1Iw_CBd2hsQCF1IZKq5INg.ttf';
 export const TurretRoad_200ExtraLight =
-  'http://fonts.gstatic.com/s/turretroad/v2/pxidypMgpcBFjE84Zv-fE0ONEdeLYk1Mq3ap.ttf';
+  'http://fonts.gstatic.com/s/turretroad/v5/pxidypMgpcBFjE84Zv-fE0ONEdeLYk1Mq3ap.ttf';
 export const TurretRoad_300Light =
-  'http://fonts.gstatic.com/s/turretroad/v2/pxidypMgpcBFjE84Zv-fE0PpEteLYk1Mq3ap.ttf';
+  'http://fonts.gstatic.com/s/turretroad/v5/pxidypMgpcBFjE84Zv-fE0PpEteLYk1Mq3ap.ttf';
 export const TurretRoad_400Regular =
-  'http://fonts.gstatic.com/s/turretroad/v2/pxiAypMgpcBFjE84Zv-fE3tFOvODSVFF.ttf';
+  'http://fonts.gstatic.com/s/turretroad/v5/pxiAypMgpcBFjE84Zv-fE3tFOvODSVFF.ttf';
 export const TurretRoad_500Medium =
-  'http://fonts.gstatic.com/s/turretroad/v2/pxidypMgpcBFjE84Zv-fE0OxE9eLYk1Mq3ap.ttf';
+  'http://fonts.gstatic.com/s/turretroad/v5/pxidypMgpcBFjE84Zv-fE0OxE9eLYk1Mq3ap.ttf';
 export const TurretRoad_700Bold =
-  'http://fonts.gstatic.com/s/turretroad/v2/pxidypMgpcBFjE84Zv-fE0P5FdeLYk1Mq3ap.ttf';
+  'http://fonts.gstatic.com/s/turretroad/v5/pxidypMgpcBFjE84Zv-fE0P5FdeLYk1Mq3ap.ttf';
 export const TurretRoad_800ExtraBold =
-  'http://fonts.gstatic.com/s/turretroad/v2/pxidypMgpcBFjE84Zv-fE0PlFteLYk1Mq3ap.ttf';
+  'http://fonts.gstatic.com/s/turretroad/v5/pxidypMgpcBFjE84Zv-fE0PlFteLYk1Mq3ap.ttf';
 export const Mansalva_400Regular =
-  'http://fonts.gstatic.com/s/mansalva/v4/aWB4m0aacbtDfvq5NJllI47vdyBg.ttf';
-export const BeVietnam_100Thin =
-  'http://fonts.gstatic.com/s/bevietnam/v2/FBVxdDflz-iPfoPuIC2iKsUn7W1hK2czPg.ttf';
-export const BeVietnam_100Thin_Italic =
-  'http://fonts.gstatic.com/s/bevietnam/v2/FBVvdDflz-iPfoPuIC2iIqMfiWdlCWIjPi5p.ttf';
-export const BeVietnam_300Light =
-  'http://fonts.gstatic.com/s/bevietnam/v2/FBVwdDflz-iPfoPuIC2iKg0FzUdPJ24qJzc.ttf';
-export const BeVietnam_300Light_Italic =
-  'http://fonts.gstatic.com/s/bevietnam/v2/FBVudDflz-iPfoPuIC2iIqMfQUVFI0wvNzdwXQ.ttf';
-export const BeVietnam_400Regular =
-  'http://fonts.gstatic.com/s/bevietnam/v2/FBVzdDflz-iPfoPuIC2iEqEt6U9kO2c.ttf';
-export const BeVietnam_400Regular_Italic =
-  'http://fonts.gstatic.com/s/bevietnam/v2/FBVxdDflz-iPfoPuIC2iIqMn7W1hK2czPg.ttf';
-export const BeVietnam_500Medium =
-  'http://fonts.gstatic.com/s/bevietnam/v2/FBVwdDflz-iPfoPuIC2iKlUEzUdPJ24qJzc.ttf';
-export const BeVietnam_500Medium_Italic =
-  'http://fonts.gstatic.com/s/bevietnam/v2/FBVudDflz-iPfoPuIC2iIqMfGURFI0wvNzdwXQ.ttf';
-export const BeVietnam_600SemiBold =
-  'http://fonts.gstatic.com/s/bevietnam/v2/FBVwdDflz-iPfoPuIC2iKnkDzUdPJ24qJzc.ttf';
-export const BeVietnam_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/bevietnam/v2/FBVudDflz-iPfoPuIC2iIqMfNUNFI0wvNzdwXQ.ttf';
-export const BeVietnam_700Bold =
-  'http://fonts.gstatic.com/s/bevietnam/v2/FBVwdDflz-iPfoPuIC2iKh0CzUdPJ24qJzc.ttf';
-export const BeVietnam_700Bold_Italic =
-  'http://fonts.gstatic.com/s/bevietnam/v2/FBVudDflz-iPfoPuIC2iIqMfUUJFI0wvNzdwXQ.ttf';
-export const BeVietnam_800ExtraBold =
-  'http://fonts.gstatic.com/s/bevietnam/v2/FBVwdDflz-iPfoPuIC2iKgEBzUdPJ24qJzc.ttf';
-export const BeVietnam_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/bevietnam/v2/FBVudDflz-iPfoPuIC2iIqMfTUFFI0wvNzdwXQ.ttf';
+  'http://fonts.gstatic.com/s/mansalva/v7/aWB4m0aacbtDfvq5NJllI47vdyBg.ttf';
+export const LexendDeca_100Thin =
+  'http://fonts.gstatic.com/s/lexenddeca/v13/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U48MxArBPCqLNflg.ttf';
+export const LexendDeca_200ExtraLight =
+  'http://fonts.gstatic.com/s/lexenddeca/v13/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U4cM1ArBPCqLNflg.ttf';
+export const LexendDeca_300Light =
+  'http://fonts.gstatic.com/s/lexenddeca/v13/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U4rs1ArBPCqLNflg.ttf';
 export const LexendDeca_400Regular =
-  'http://fonts.gstatic.com/s/lexenddeca/v7/K2F1fZFYk-dHSE0UPPuwQ6qgLS76ZHOM.ttf';
+  'http://fonts.gstatic.com/s/lexenddeca/v13/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U48M1ArBPCqLNflg.ttf';
+export const LexendDeca_500Medium =
+  'http://fonts.gstatic.com/s/lexenddeca/v13/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U4ws1ArBPCqLNflg.ttf';
+export const LexendDeca_600SemiBold =
+  'http://fonts.gstatic.com/s/lexenddeca/v13/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U4LspArBPCqLNflg.ttf';
+export const LexendDeca_700Bold =
+  'http://fonts.gstatic.com/s/lexenddeca/v13/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U4F8pArBPCqLNflg.ttf';
+export const LexendDeca_800ExtraBold =
+  'http://fonts.gstatic.com/s/lexenddeca/v13/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U4cMpArBPCqLNflg.ttf';
+export const LexendDeca_900Black =
+  'http://fonts.gstatic.com/s/lexenddeca/v13/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U4WcpArBPCqLNflg.ttf';
+export const LexendExa_100Thin =
+  'http://fonts.gstatic.com/s/lexendexa/v20/UMBCrPdOoHOnxExyjdBeQCH18mulUxBvI9r7T6bHHJ8BRq0b.ttf';
+export const LexendExa_200ExtraLight =
+  'http://fonts.gstatic.com/s/lexendexa/v20/UMBCrPdOoHOnxExyjdBeQCH18mulUxBvI9p7TqbHHJ8BRq0b.ttf';
+export const LexendExa_300Light =
+  'http://fonts.gstatic.com/s/lexendexa/v20/UMBCrPdOoHOnxExyjdBeQCH18mulUxBvI9qlTqbHHJ8BRq0b.ttf';
 export const LexendExa_400Regular =
-  'http://fonts.gstatic.com/s/lexendexa/v10/UMBXrPdOoHOnxExyjdBeWirXArM58BY.ttf';
+  'http://fonts.gstatic.com/s/lexendexa/v20/UMBCrPdOoHOnxExyjdBeQCH18mulUxBvI9r7TqbHHJ8BRq0b.ttf';
+export const LexendExa_500Medium =
+  'http://fonts.gstatic.com/s/lexendexa/v20/UMBCrPdOoHOnxExyjdBeQCH18mulUxBvI9rJTqbHHJ8BRq0b.ttf';
+export const LexendExa_600SemiBold =
+  'http://fonts.gstatic.com/s/lexendexa/v20/UMBCrPdOoHOnxExyjdBeQCH18mulUxBvI9olSabHHJ8BRq0b.ttf';
+export const LexendExa_700Bold =
+  'http://fonts.gstatic.com/s/lexendexa/v20/UMBCrPdOoHOnxExyjdBeQCH18mulUxBvI9ocSabHHJ8BRq0b.ttf';
+export const LexendExa_800ExtraBold =
+  'http://fonts.gstatic.com/s/lexendexa/v20/UMBCrPdOoHOnxExyjdBeQCH18mulUxBvI9p7SabHHJ8BRq0b.ttf';
+export const LexendExa_900Black =
+  'http://fonts.gstatic.com/s/lexendexa/v20/UMBCrPdOoHOnxExyjdBeQCH18mulUxBvI9pSSabHHJ8BRq0b.ttf';
+export const LexendGiga_100Thin =
+  'http://fonts.gstatic.com/s/lexendgiga/v20/PlIuFl67Mah5Y8yMHE7lkUZPlTBo4MWFfNRC2LmE68oo6eepYQ.ttf';
+export const LexendGiga_200ExtraLight =
+  'http://fonts.gstatic.com/s/lexendgiga/v20/PlIuFl67Mah5Y8yMHE7lkUZPlTBo4MWFfNRCWLiE68oo6eepYQ.ttf';
+export const LexendGiga_300Light =
+  'http://fonts.gstatic.com/s/lexendgiga/v20/PlIuFl67Mah5Y8yMHE7lkUZPlTBo4MWFfNRChriE68oo6eepYQ.ttf';
 export const LexendGiga_400Regular =
-  'http://fonts.gstatic.com/s/lexendgiga/v10/PlI5Fl67Mah5Y8yMHE7lkVxEt8CwfGaD.ttf';
+  'http://fonts.gstatic.com/s/lexendgiga/v20/PlIuFl67Mah5Y8yMHE7lkUZPlTBo4MWFfNRC2LiE68oo6eepYQ.ttf';
+export const LexendGiga_500Medium =
+  'http://fonts.gstatic.com/s/lexendgiga/v20/PlIuFl67Mah5Y8yMHE7lkUZPlTBo4MWFfNRC6riE68oo6eepYQ.ttf';
+export const LexendGiga_600SemiBold =
+  'http://fonts.gstatic.com/s/lexendgiga/v20/PlIuFl67Mah5Y8yMHE7lkUZPlTBo4MWFfNRCBr-E68oo6eepYQ.ttf';
+export const LexendGiga_700Bold =
+  'http://fonts.gstatic.com/s/lexendgiga/v20/PlIuFl67Mah5Y8yMHE7lkUZPlTBo4MWFfNRCP7-E68oo6eepYQ.ttf';
+export const LexendGiga_800ExtraBold =
+  'http://fonts.gstatic.com/s/lexendgiga/v20/PlIuFl67Mah5Y8yMHE7lkUZPlTBo4MWFfNRCWL-E68oo6eepYQ.ttf';
+export const LexendGiga_900Black =
+  'http://fonts.gstatic.com/s/lexendgiga/v20/PlIuFl67Mah5Y8yMHE7lkUZPlTBo4MWFfNRCcb-E68oo6eepYQ.ttf';
+export const LexendMega_100Thin =
+  'http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDL8fivveyiq9EqQw.ttf';
+export const LexendMega_200ExtraLight =
+  'http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLcfmvveyiq9EqQw.ttf';
+export const LexendMega_300Light =
+  'http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLr_mvveyiq9EqQw.ttf';
 export const LexendMega_400Regular =
-  'http://fonts.gstatic.com/s/lexendmega/v10/qFdA35aBi5JtHD41zSTFEv7K6BsAikI7.ttf';
+  'http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDL8fmvveyiq9EqQw.ttf';
+export const LexendMega_500Medium =
+  'http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLw_mvveyiq9EqQw.ttf';
+export const LexendMega_600SemiBold =
+  'http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLL_6vveyiq9EqQw.ttf';
+export const LexendMega_700Bold =
+  'http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLFv6vveyiq9EqQw.ttf';
+export const LexendMega_800ExtraBold =
+  'http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLcf6vveyiq9EqQw.ttf';
+export const LexendMega_900Black =
+  'http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLWP6vveyiq9EqQw.ttf';
+export const LexendPeta_100Thin =
+  'http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgR6SFyW1YuRTsnfw.ttf';
+export const LexendPeta_200ExtraLight =
+  'http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRaSByW1YuRTsnfw.ttf';
+export const LexendPeta_300Light =
+  'http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRtyByW1YuRTsnfw.ttf';
 export const LexendPeta_400Regular =
-  'http://fonts.gstatic.com/s/lexendpeta/v10/BXRvvFPGjeLPh0kCfI4OkE_1c8Tf1IW3.ttf';
+  'http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgR6SByW1YuRTsnfw.ttf';
+export const LexendPeta_500Medium =
+  'http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgR2yByW1YuRTsnfw.ttf';
+export const LexendPeta_600SemiBold =
+  'http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRNydyW1YuRTsnfw.ttf';
+export const LexendPeta_700Bold =
+  'http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRDidyW1YuRTsnfw.ttf';
+export const LexendPeta_800ExtraBold =
+  'http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRaSdyW1YuRTsnfw.ttf';
+export const LexendPeta_900Black =
+  'http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRQCdyW1YuRTsnfw.ttf';
+export const LexendTera_100Thin =
+  'http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiM5zITdpz0fYxcrQ.ttf';
+export const LexendTera_200ExtraLight =
+  'http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiMZzMTdpz0fYxcrQ.ttf';
+export const LexendTera_300Light =
+  'http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiMuTMTdpz0fYxcrQ.ttf';
 export const LexendTera_400Regular =
-  'http://fonts.gstatic.com/s/lexendtera/v10/RrQUbo98_jt_IXnBPwCWtZhARYMgGtWA.ttf';
+  'http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiM5zMTdpz0fYxcrQ.ttf';
+export const LexendTera_500Medium =
+  'http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiM1TMTdpz0fYxcrQ.ttf';
+export const LexendTera_600SemiBold =
+  'http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiMOTQTdpz0fYxcrQ.ttf';
+export const LexendTera_700Bold =
+  'http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiMADQTdpz0fYxcrQ.ttf';
+export const LexendTera_800ExtraBold =
+  'http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiMZzQTdpz0fYxcrQ.ttf';
+export const LexendTera_900Black =
+  'http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiMTjQTdpz0fYxcrQ.ttf';
+export const LexendZetta_100Thin =
+  'http://fonts.gstatic.com/s/lexendzetta/v20/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy9bH0z5jbs8qbts.ttf';
+export const LexendZetta_200ExtraLight =
+  'http://fonts.gstatic.com/s/lexendzetta/v20/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy1bG0z5jbs8qbts.ttf';
+export const LexendZetta_300Light =
+  'http://fonts.gstatic.com/s/lexendzetta/v20/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy4jG0z5jbs8qbts.ttf';
 export const LexendZetta_400Regular =
-  'http://fonts.gstatic.com/s/lexendzetta/v10/ll87K2KYXje7CdOFnEWcU8soliQejRR7AQ.ttf';
+  'http://fonts.gstatic.com/s/lexendzetta/v20/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy9bG0z5jbs8qbts.ttf';
+export const LexendZetta_500Medium =
+  'http://fonts.gstatic.com/s/lexendzetta/v20/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy-TG0z5jbs8qbts.ttf';
+export const LexendZetta_600SemiBold =
+  'http://fonts.gstatic.com/s/lexendzetta/v20/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCywjB0z5jbs8qbts.ttf';
+export const LexendZetta_700Bold =
+  'http://fonts.gstatic.com/s/lexendzetta/v20/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCyzHB0z5jbs8qbts.ttf';
+export const LexendZetta_800ExtraBold =
+  'http://fonts.gstatic.com/s/lexendzetta/v20/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy1bB0z5jbs8qbts.ttf';
+export const LexendZetta_900Black =
+  'http://fonts.gstatic.com/s/lexendzetta/v20/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy3_B0z5jbs8qbts.ttf';
 export const Farro_300Light =
-  'http://fonts.gstatic.com/s/farro/v4/i7dJIFl3byGNHa3hNJ6-WkJUQUq7.ttf';
-export const Farro_400Regular = 'http://fonts.gstatic.com/s/farro/v4/i7dEIFl3byGNHZVNHLq2cV5d.ttf';
+  'http://fonts.gstatic.com/s/farro/v12/i7dJIFl3byGNHa3hNJ6-WkJUQUq7.ttf';
+export const Farro_400Regular = 'http://fonts.gstatic.com/s/farro/v12/i7dEIFl3byGNHZVNHLq2cV5d.ttf';
 export const Farro_500Medium =
-  'http://fonts.gstatic.com/s/farro/v4/i7dJIFl3byGNHa25NZ6-WkJUQUq7.ttf';
-export const Farro_700Bold = 'http://fonts.gstatic.com/s/farro/v4/i7dJIFl3byGNHa3xM56-WkJUQUq7.ttf';
+  'http://fonts.gstatic.com/s/farro/v12/i7dJIFl3byGNHa25NZ6-WkJUQUq7.ttf';
+export const Farro_700Bold =
+  'http://fonts.gstatic.com/s/farro/v12/i7dJIFl3byGNHa3xM56-WkJUQUq7.ttf';
 export const Lacquer_400Regular =
-  'http://fonts.gstatic.com/s/lacquer/v5/EYqzma1QwqpG4_BBB7-AXhttQ5I.ttf';
+  'http://fonts.gstatic.com/s/lacquer/v13/EYqzma1QwqpG4_BBB7-AXhttQ5I.ttf';
 export const Recursive_300Light =
-  'http://fonts.gstatic.com/s/recursive/v23/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadDck018vwxjDJCL.ttf';
+  'http://fonts.gstatic.com/s/recursive/v26/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadDck018vwxjDJCL.ttf';
 export const Recursive_400Regular =
-  'http://fonts.gstatic.com/s/recursive/v23/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadCCk018vwxjDJCL.ttf';
+  'http://fonts.gstatic.com/s/recursive/v26/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadCCk018vwxjDJCL.ttf';
 export const Recursive_500Medium =
-  'http://fonts.gstatic.com/s/recursive/v23/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadCwk018vwxjDJCL.ttf';
+  'http://fonts.gstatic.com/s/recursive/v26/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadCwk018vwxjDJCL.ttf';
 export const Recursive_600SemiBold =
-  'http://fonts.gstatic.com/s/recursive/v23/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadBclE18vwxjDJCL.ttf';
+  'http://fonts.gstatic.com/s/recursive/v26/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadBclE18vwxjDJCL.ttf';
 export const Recursive_700Bold =
-  'http://fonts.gstatic.com/s/recursive/v23/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadBllE18vwxjDJCL.ttf';
+  'http://fonts.gstatic.com/s/recursive/v26/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadBllE18vwxjDJCL.ttf';
 export const Recursive_800ExtraBold =
-  'http://fonts.gstatic.com/s/recursive/v23/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadAClE18vwxjDJCL.ttf';
+  'http://fonts.gstatic.com/s/recursive/v26/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadAClE18vwxjDJCL.ttf';
 export const Recursive_900Black =
-  'http://fonts.gstatic.com/s/recursive/v23/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadArlE18vwxjDJCL.ttf';
+  'http://fonts.gstatic.com/s/recursive/v26/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadArlE18vwxjDJCL.ttf';
 export const Blinker_100Thin =
   'http://fonts.gstatic.com/s/blinker/v4/cIf_MaFatEE-VTaP_E2hZEsCkIt9QQ.ttf';
 export const Blinker_200ExtraLight =
@@ -1147,37 +3557,37 @@ export const Blinker_800ExtraBold =
 export const Blinker_900Black =
   'http://fonts.gstatic.com/s/blinker/v4/cIf4MaFatEE-VTaP_K2GRGEsnIJkWL4.ttf';
 export const Livvic_100Thin =
-  'http://fonts.gstatic.com/s/livvic/v8/rnCr-x1S2hzjrlffC-M-mHnOSOuk.ttf';
+  'http://fonts.gstatic.com/s/livvic/v11/rnCr-x1S2hzjrlffC-M-mHnOSOuk.ttf';
 export const Livvic_100Thin_Italic =
-  'http://fonts.gstatic.com/s/livvic/v8/rnCt-x1S2hzjrlfXbdtakn3sTfukQHs.ttf';
+  'http://fonts.gstatic.com/s/livvic/v11/rnCt-x1S2hzjrlfXbdtakn3sTfukQHs.ttf';
 export const Livvic_200ExtraLight =
-  'http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlffp8IeslfCQfK9WQ.ttf';
+  'http://fonts.gstatic.com/s/livvic/v11/rnCq-x1S2hzjrlffp8IeslfCQfK9WQ.ttf';
 export const Livvic_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/livvic/v8/rnCs-x1S2hzjrlfXbdv2s13GY_etWWIJ.ttf';
+  'http://fonts.gstatic.com/s/livvic/v11/rnCs-x1S2hzjrlfXbdv2s13GY_etWWIJ.ttf';
 export const Livvic_300Light =
-  'http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlffw8EeslfCQfK9WQ.ttf';
+  'http://fonts.gstatic.com/s/livvic/v11/rnCq-x1S2hzjrlffw8EeslfCQfK9WQ.ttf';
 export const Livvic_300Light_Italic =
-  'http://fonts.gstatic.com/s/livvic/v8/rnCs-x1S2hzjrlfXbduSsF3GY_etWWIJ.ttf';
+  'http://fonts.gstatic.com/s/livvic/v11/rnCs-x1S2hzjrlfXbduSsF3GY_etWWIJ.ttf';
 export const Livvic_400Regular =
-  'http://fonts.gstatic.com/s/livvic/v8/rnCp-x1S2hzjrlfnb-k6unzeSA.ttf';
+  'http://fonts.gstatic.com/s/livvic/v11/rnCp-x1S2hzjrlfnb-k6unzeSA.ttf';
 export const Livvic_400Regular_Italic =
-  'http://fonts.gstatic.com/s/livvic/v8/rnCr-x1S2hzjrlfXbeM-mHnOSOuk.ttf';
+  'http://fonts.gstatic.com/s/livvic/v11/rnCr-x1S2hzjrlfXbeM-mHnOSOuk.ttf';
 export const Livvic_500Medium =
-  'http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlffm8AeslfCQfK9WQ.ttf';
+  'http://fonts.gstatic.com/s/livvic/v11/rnCq-x1S2hzjrlffm8AeslfCQfK9WQ.ttf';
 export const Livvic_500Medium_Italic =
-  'http://fonts.gstatic.com/s/livvic/v8/rnCs-x1S2hzjrlfXbdvKsV3GY_etWWIJ.ttf';
+  'http://fonts.gstatic.com/s/livvic/v11/rnCs-x1S2hzjrlfXbdvKsV3GY_etWWIJ.ttf';
 export const Livvic_600SemiBold =
-  'http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlfft8ceslfCQfK9WQ.ttf';
+  'http://fonts.gstatic.com/s/livvic/v11/rnCq-x1S2hzjrlfft8ceslfCQfK9WQ.ttf';
 export const Livvic_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/livvic/v8/rnCs-x1S2hzjrlfXbdvmtl3GY_etWWIJ.ttf';
+  'http://fonts.gstatic.com/s/livvic/v11/rnCs-x1S2hzjrlfXbdvmtl3GY_etWWIJ.ttf';
 export const Livvic_700Bold =
-  'http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlff08YeslfCQfK9WQ.ttf';
+  'http://fonts.gstatic.com/s/livvic/v11/rnCq-x1S2hzjrlff08YeslfCQfK9WQ.ttf';
 export const Livvic_700Bold_Italic =
-  'http://fonts.gstatic.com/s/livvic/v8/rnCs-x1S2hzjrlfXbduCt13GY_etWWIJ.ttf';
+  'http://fonts.gstatic.com/s/livvic/v11/rnCs-x1S2hzjrlfXbduCt13GY_etWWIJ.ttf';
 export const Livvic_900Black =
-  'http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlff68QeslfCQfK9WQ.ttf';
+  'http://fonts.gstatic.com/s/livvic/v11/rnCq-x1S2hzjrlff68QeslfCQfK9WQ.ttf';
 export const Livvic_900Black_Italic =
-  'http://fonts.gstatic.com/s/livvic/v8/rnCs-x1S2hzjrlfXbdu6tV3GY_etWWIJ.ttf';
+  'http://fonts.gstatic.com/s/livvic/v11/rnCs-x1S2hzjrlfXbdu6tV3GY_etWWIJ.ttf';
 export const DarkerGrotesque_300Light =
   'http://fonts.gstatic.com/s/darkergrotesque/v2/U9MA6cuh-mLQlC4BKCtayOfARkSVoxr2AW8hTOsXsX0.ttf';
 export const DarkerGrotesque_400Regular =
@@ -1193,11 +3603,11 @@ export const DarkerGrotesque_800ExtraBold =
 export const DarkerGrotesque_900Black =
   'http://fonts.gstatic.com/s/darkergrotesque/v2/U9MA6cuh-mLQlC4BKCtayOfARkSVozLzAW8hTOsXsX0.ttf';
 export const SairaStencilOne_400Regular =
-  'http://fonts.gstatic.com/s/sairastencilone/v4/SLXSc03I6HkvZGJ1GvvipLoYSTEL9AsMawif2YQ2.ttf';
+  'http://fonts.gstatic.com/s/sairastencilone/v12/SLXSc03I6HkvZGJ1GvvipLoYSTEL9AsMawif2YQ2.ttf';
 export const Bahianita_400Regular =
-  'http://fonts.gstatic.com/s/bahianita/v5/yYLr0hTb3vuqqsBUgxWtxTvV2NJPcA.ttf';
+  'http://fonts.gstatic.com/s/bahianita/v15/yYLr0hTb3vuqqsBUgxWtxTvV2NJPcA.ttf';
 export const Barriecito_400Regular =
-  'http://fonts.gstatic.com/s/barriecito/v5/WWXXlj-CbBOSLY2QTuY_KdUiYwTO0MU.ttf';
+  'http://fonts.gstatic.com/s/barriecito/v15/WWXXlj-CbBOSLY2QTuY_KdUiYwTO0MU.ttf';
 export const DMSans_400Regular =
   'http://fonts.gstatic.com/s/dmsans/v6/rP2Hp2ywxg089UriOZSCHBeHFl0.ttf';
 export const DMSans_400Regular_Italic =
@@ -1219,47 +3629,47 @@ export const DMSerifText_400Regular =
 export const DMSerifText_400Regular_Italic =
   'http://fonts.gstatic.com/s/dmseriftext/v5/rnCw-xZa_krGokauCeNq1wWyWfGFWFAMArZKqQ.ttf';
 export const Gayathri_100Thin =
-  'http://fonts.gstatic.com/s/gayathri/v6/MCoWzAb429DbBilWLLhc-pvSA_gA2W8.ttf';
+  'http://fonts.gstatic.com/s/gayathri/v13/MCoWzAb429DbBilWLLhc-pvSA_gA2W8.ttf';
 export const Gayathri_400Regular =
-  'http://fonts.gstatic.com/s/gayathri/v6/MCoQzAb429DbBilWLIA48J_wBugA.ttf';
+  'http://fonts.gstatic.com/s/gayathri/v13/MCoQzAb429DbBilWLIA48J_wBugA.ttf';
 export const Gayathri_700Bold =
-  'http://fonts.gstatic.com/s/gayathri/v6/MCoXzAb429DbBilWLLiE37v4LfQJwHbn.ttf';
+  'http://fonts.gstatic.com/s/gayathri/v13/MCoXzAb429DbBilWLLiE37v4LfQJwHbn.ttf';
 export const PublicSans_100Thin =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuFpi5ww0pX189fg.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuFpi5ww0pX189fg.ttf';
 export const PublicSans_200ExtraLight =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymulpm5ww0pX189fg.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymulpm5ww0pX189fg.ttf';
 export const PublicSans_300Light =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuSJm5ww0pX189fg.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuSJm5ww0pX189fg.ttf';
 export const PublicSans_400Regular =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuFpm5ww0pX189fg.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuFpm5ww0pX189fg.ttf';
 export const PublicSans_500Medium =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuJJm5ww0pX189fg.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuJJm5ww0pX189fg.ttf';
 export const PublicSans_600SemiBold =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuyJ65ww0pX189fg.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuyJ65ww0pX189fg.ttf';
 export const PublicSans_700Bold =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymu8Z65ww0pX189fg.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymu8Z65ww0pX189fg.ttf';
 export const PublicSans_800ExtraBold =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymulp65ww0pX189fg.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymulp65ww0pX189fg.ttf';
 export const PublicSans_900Black =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuv565ww0pX189fg.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuv565ww0pX189fg.ttf';
 export const PublicSans_100Thin_Italic =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673tpRgQctfVotfj7j.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673tpRgQctfVotfj7j.ttf';
 export const PublicSans_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673trRgActfVotfj7j.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673trRgActfVotfj7j.ttf';
 export const PublicSans_300Light_Italic =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673toPgActfVotfj7j.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673toPgActfVotfj7j.ttf';
 export const PublicSans_400Regular_Italic =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673tpRgActfVotfj7j.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673tpRgActfVotfj7j.ttf';
 export const PublicSans_500Medium_Italic =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673tpjgActfVotfj7j.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673tpjgActfVotfj7j.ttf';
 export const PublicSans_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673tqPhwctfVotfj7j.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673tqPhwctfVotfj7j.ttf';
 export const PublicSans_700Bold_Italic =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673tq2hwctfVotfj7j.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673tq2hwctfVotfj7j.ttf';
 export const PublicSans_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673trRhwctfVotfj7j.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673trRhwctfVotfj7j.ttf';
 export const PublicSans_900Black_Italic =
-  'http://fonts.gstatic.com/s/publicsans/v5/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673tr4hwctfVotfj7j.ttf';
+  'http://fonts.gstatic.com/s/publicsans/v7/ijwAs572Xtc6ZYQws9YVwnNDZpDyNjGolS673tr4hwctfVotfj7j.ttf';
 export const Almarai_300Light =
   'http://fonts.gstatic.com/s/almarai/v5/tssoApxBaigK_hnnS_anhnicoq72sXg.ttf';
 export const Almarai_400Regular =
@@ -1269,66 +3679,86 @@ export const Almarai_700Bold =
 export const Almarai_800ExtraBold =
   'http://fonts.gstatic.com/s/almarai/v5/tssoApxBaigK_hnnS_qjhnicoq72sXg.ttf';
 export const BethEllen_400Regular =
-  'http://fonts.gstatic.com/s/bethellen/v5/WwkbxPW2BE-3rb_JNT-qEIAiVNo5xNY.ttf';
-export const Vibes_400Regular = 'http://fonts.gstatic.com/s/vibes/v4/QdVYSTsmIB6tmbd3HpbsuBlh.ttf';
+  'http://fonts.gstatic.com/s/bethellen/v15/WwkbxPW2BE-3rb_JNT-qEIAiVNo5xNY.ttf';
+export const Vibes_400Regular = 'http://fonts.gstatic.com/s/vibes/v12/QdVYSTsmIB6tmbd3HpbsuBlh.ttf';
+export const RedHatDisplay_300Light =
+  'http://fonts.gstatic.com/s/redhatdisplay/v7/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbjKWckg5-Xecg3w.ttf';
 export const RedHatDisplay_400Regular =
-  'http://fonts.gstatic.com/s/redhatdisplay/v4/8vIQ7wUr0m80wwYf0QCXZzYzUoTQ-jSgZYvdCQ.ttf';
-export const RedHatDisplay_400Regular_Italic =
-  'http://fonts.gstatic.com/s/redhatdisplay/v4/8vIS7wUr0m80wwYf0QCXZzYzUoTg-D6kR47NCV5Z.ttf';
+  'http://fonts.gstatic.com/s/redhatdisplay/v7/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbmyWckg5-Xecg3w.ttf';
 export const RedHatDisplay_500Medium =
-  'http://fonts.gstatic.com/s/redhatdisplay/v4/8vIV7wUr0m80wwYf0QCXZzYzUoToDh2EbaDBAEdAbw.ttf';
-export const RedHatDisplay_500Medium_Italic =
-  'http://fonts.gstatic.com/s/redhatdisplay/v4/8vIX7wUr0m80wwYf0QCXZzYzUoTg-AZQbqrFIkJQb7zU.ttf';
+  'http://fonts.gstatic.com/s/redhatdisplay/v7/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbl6Wckg5-Xecg3w.ttf';
+export const RedHatDisplay_600SemiBold =
+  'http://fonts.gstatic.com/s/redhatdisplay/v7/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbrKRckg5-Xecg3w.ttf';
 export const RedHatDisplay_700Bold =
-  'http://fonts.gstatic.com/s/redhatdisplay/v4/8vIV7wUr0m80wwYf0QCXZzYzUoToRhuEbaDBAEdAbw.ttf';
-export const RedHatDisplay_700Bold_Italic =
-  'http://fonts.gstatic.com/s/redhatdisplay/v4/8vIX7wUr0m80wwYf0QCXZzYzUoTg-AYYaKrFIkJQb7zU.ttf';
+  'http://fonts.gstatic.com/s/redhatdisplay/v7/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbouRckg5-Xecg3w.ttf';
+export const RedHatDisplay_800ExtraBold =
+  'http://fonts.gstatic.com/s/redhatdisplay/v7/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbuyRckg5-Xecg3w.ttf';
 export const RedHatDisplay_900Black =
-  'http://fonts.gstatic.com/s/redhatdisplay/v4/8vIV7wUr0m80wwYf0QCXZzYzUoTofhmEbaDBAEdAbw.ttf';
+  'http://fonts.gstatic.com/s/redhatdisplay/v7/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbsWRckg5-Xecg3w.ttf';
+export const RedHatDisplay_300Light_Italic =
+  'http://fonts.gstatic.com/s/redhatdisplay/v7/8vIh7wUr0m80wwYf0QCXZzYzUoTg-CSvZX4Vlf1fe6TVxAsz_VWZk3zJGg.ttf';
+export const RedHatDisplay_400Regular_Italic =
+  'http://fonts.gstatic.com/s/redhatdisplay/v7/8vIh7wUr0m80wwYf0QCXZzYzUoTg-CSvZX4Vlf1fe6TVmgsz_VWZk3zJGg.ttf';
+export const RedHatDisplay_500Medium_Italic =
+  'http://fonts.gstatic.com/s/redhatdisplay/v7/8vIh7wUr0m80wwYf0QCXZzYzUoTg-CSvZX4Vlf1fe6TVqAsz_VWZk3zJGg.ttf';
+export const RedHatDisplay_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/redhatdisplay/v7/8vIh7wUr0m80wwYf0QCXZzYzUoTg-CSvZX4Vlf1fe6TVRAwz_VWZk3zJGg.ttf';
+export const RedHatDisplay_700Bold_Italic =
+  'http://fonts.gstatic.com/s/redhatdisplay/v7/8vIh7wUr0m80wwYf0QCXZzYzUoTg-CSvZX4Vlf1fe6TVfQwz_VWZk3zJGg.ttf';
+export const RedHatDisplay_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/redhatdisplay/v7/8vIh7wUr0m80wwYf0QCXZzYzUoTg-CSvZX4Vlf1fe6TVGgwz_VWZk3zJGg.ttf';
 export const RedHatDisplay_900Black_Italic =
-  'http://fonts.gstatic.com/s/redhatdisplay/v4/8vIX7wUr0m80wwYf0QCXZzYzUoTg-AYgaqrFIkJQb7zU.ttf';
+  'http://fonts.gstatic.com/s/redhatdisplay/v7/8vIh7wUr0m80wwYf0QCXZzYzUoTg-CSvZX4Vlf1fe6TVMwwz_VWZk3zJGg.ttf';
+export const RedHatText_300Light =
+  'http://fonts.gstatic.com/s/redhattext/v6/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML-ZwVrbacYVFtIY.ttf';
 export const RedHatText_400Regular =
-  'http://fonts.gstatic.com/s/redhattext/v3/RrQXbohi_ic6B3yVSzGBrMxgb60sE8yZPA.ttf';
-export const RedHatText_400Regular_Italic =
-  'http://fonts.gstatic.com/s/redhattext/v3/RrQJbohi_ic6B3yVSzGBrMxQbacoMcmJPECN.ttf';
+  'http://fonts.gstatic.com/s/redhattext/v6/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML7hwVrbacYVFtIY.ttf';
 export const RedHatText_500Medium =
-  'http://fonts.gstatic.com/s/redhattext/v3/RrQIbohi_ic6B3yVSzGBrMxYm4QIG-eFNVmULg.ttf';
-export const RedHatText_500Medium_Italic =
-  'http://fonts.gstatic.com/s/redhattext/v3/RrQKbohi_ic6B3yVSzGBrMxQbZ_cGO2BF1yELmgy.ttf';
+  'http://fonts.gstatic.com/s/redhattext/v6/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML4pwVrbacYVFtIY.ttf';
+export const RedHatText_600SemiBold =
+  'http://fonts.gstatic.com/s/redhattext/v6/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML2Z3VrbacYVFtIY.ttf';
 export const RedHatText_700Bold =
-  'http://fonts.gstatic.com/s/redhattext/v3/RrQIbohi_ic6B3yVSzGBrMxY04IIG-eFNVmULg.ttf';
+  'http://fonts.gstatic.com/s/redhattext/v6/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML193VrbacYVFtIY.ttf';
+export const RedHatText_300Light_Italic =
+  'http://fonts.gstatic.com/s/redhattext/v6/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAz4PXQdadApIYv_g.ttf';
+export const RedHatText_400Regular_Italic =
+  'http://fonts.gstatic.com/s/redhattext/v6/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzvvXQdadApIYv_g.ttf';
+export const RedHatText_500Medium_Italic =
+  'http://fonts.gstatic.com/s/redhattext/v6/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzjPXQdadApIYv_g.ttf';
+export const RedHatText_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/redhattext/v6/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzYPLQdadApIYv_g.ttf';
 export const RedHatText_700Bold_Italic =
-  'http://fonts.gstatic.com/s/redhattext/v3/RrQKbohi_ic6B3yVSzGBrMxQbZ-UHu2BF1yELmgy.ttf';
+  'http://fonts.gstatic.com/s/redhattext/v6/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzWfLQdadApIYv_g.ttf';
 export const FiraCode_300Light =
-  'http://fonts.gstatic.com/s/firacode/v10/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_GNsFVfxN87gsj0.ttf';
+  'http://fonts.gstatic.com/s/firacode/v14/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_GNsFVfxN87gsj0.ttf';
 export const FiraCode_400Regular =
-  'http://fonts.gstatic.com/s/firacode/v10/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_D1sFVfxN87gsj0.ttf';
+  'http://fonts.gstatic.com/s/firacode/v14/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_D1sFVfxN87gsj0.ttf';
 export const FiraCode_500Medium =
-  'http://fonts.gstatic.com/s/firacode/v10/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_A9sFVfxN87gsj0.ttf';
+  'http://fonts.gstatic.com/s/firacode/v14/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_A9sFVfxN87gsj0.ttf';
 export const FiraCode_600SemiBold =
-  'http://fonts.gstatic.com/s/firacode/v10/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_ONrFVfxN87gsj0.ttf';
+  'http://fonts.gstatic.com/s/firacode/v14/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_ONrFVfxN87gsj0.ttf';
 export const FiraCode_700Bold =
-  'http://fonts.gstatic.com/s/firacode/v10/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_NprFVfxN87gsj0.ttf';
+  'http://fonts.gstatic.com/s/firacode/v14/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_NprFVfxN87gsj0.ttf';
 export const LiuJianMaoCao_400Regular =
-  'http://fonts.gstatic.com/s/liujianmaocao/v7/845DNN84HJrccNonurqXILGpvCOoferVKGWsUo8.ttf';
+  'http://fonts.gstatic.com/s/liujianmaocao/v13/~ChIKEExpdSBKaWFuIE1hbyBDYW8gACoECAEYAQ==.ttf';
 export const LongCang_400Regular =
-  'http://fonts.gstatic.com/s/longcang/v7/LYjAdGP8kkgoTec8zkRgrXArXN7HWQ.ttf';
+  'http://fonts.gstatic.com/s/longcang/v15/LYjAdGP8kkgoTec8zkRgrXArXN7HWQ.ttf';
 export const MaShanZheng_400Regular =
-  'http://fonts.gstatic.com/s/mashanzheng/v5/NaPecZTRCLxvwo41b4gvzkXaRMTsDIRSfr0.ttf';
+  'http://fonts.gstatic.com/s/mashanzheng/v8/NaPecZTRCLxvwo41b4gvzkXaRMTsDIRSfr0.ttf';
 export const ZhiMangXing_400Regular =
-  'http://fonts.gstatic.com/s/zhimangxing/v7/f0Xw0ey79sErYFtWQ9a2rq-g0actfektIJ0.ttf';
+  'http://fonts.gstatic.com/s/zhimangxing/v15/f0Xw0ey79sErYFtWQ9a2rq-g0actfektIJ0.ttf';
 export const NotoSansHK_100Thin =
-  'http://fonts.gstatic.com/s/notosanshk/v6/nKKO-GM_FYFRJvXzVXaAPe9ZUHp1MOv2ObB7.otf';
+  'http://fonts.gstatic.com/s/notosanshk/v15/nKKO-GM_FYFRJvXzVXaAPe9ZUHp1MOv2ObB7.otf';
 export const NotoSansHK_300Light =
-  'http://fonts.gstatic.com/s/notosanshk/v6/nKKP-GM_FYFRJvXzVXaAPe9ZmFhTHMX6MKliqQ.otf';
+  'http://fonts.gstatic.com/s/notosanshk/v15/nKKP-GM_FYFRJvXzVXaAPe9ZmFhTHMX6MKliqQ.otf';
 export const NotoSansHK_400Regular =
-  'http://fonts.gstatic.com/s/notosanshk/v6/nKKQ-GM_FYFRJvXzVXaAPe9hMnB3Eu7mOQ.otf';
+  'http://fonts.gstatic.com/s/notosanshk/v15/nKKQ-GM_FYFRJvXzVXaAPe9hMnB3Eu7mOQ.otf';
 export const NotoSansHK_500Medium =
-  'http://fonts.gstatic.com/s/notosanshk/v6/nKKP-GM_FYFRJvXzVXaAPe9ZwFlTHMX6MKliqQ.otf';
+  'http://fonts.gstatic.com/s/notosanshk/v15/nKKP-GM_FYFRJvXzVXaAPe9ZwFlTHMX6MKliqQ.otf';
 export const NotoSansHK_700Bold =
-  'http://fonts.gstatic.com/s/notosanshk/v6/nKKP-GM_FYFRJvXzVXaAPe9ZiF9THMX6MKliqQ.otf';
+  'http://fonts.gstatic.com/s/notosanshk/v15/nKKP-GM_FYFRJvXzVXaAPe9ZiF9THMX6MKliqQ.otf';
 export const NotoSansHK_900Black =
-  'http://fonts.gstatic.com/s/notosanshk/v6/nKKP-GM_FYFRJvXzVXaAPe9ZsF1THMX6MKliqQ.otf';
+  'http://fonts.gstatic.com/s/notosanshk/v15/nKKP-GM_FYFRJvXzVXaAPe9ZsF1THMX6MKliqQ.otf';
 export const Aleo_300Light = 'http://fonts.gstatic.com/s/aleo/v4/c4mg1nF8G8_syKbr9DVDno985KM.ttf';
 export const Aleo_300Light_Italic =
   'http://fonts.gstatic.com/s/aleo/v4/c4mi1nF8G8_swAjxeDdJmq159KOnWA.ttf';
@@ -1338,30 +3768,30 @@ export const Aleo_400Regular_Italic =
 export const Aleo_700Bold = 'http://fonts.gstatic.com/s/aleo/v4/c4mg1nF8G8_syLbs9DVDno985KM.ttf';
 export const Aleo_700Bold_Italic =
   'http://fonts.gstatic.com/s/aleo/v4/c4mi1nF8G8_swAjxaDBJmq159KOnWA.ttf';
-export const B612_400Regular = 'http://fonts.gstatic.com/s/b612/v5/3JnySDDxiSz32jm4GDigUXw.ttf';
+export const B612_400Regular = 'http://fonts.gstatic.com/s/b612/v10/3JnySDDxiSz32jm4GDigUXw.ttf';
 export const B612_400Regular_Italic =
-  'http://fonts.gstatic.com/s/b612/v5/3Jn8SDDxiSz36juyHBqlQXwdVw.ttf';
-export const B612_700Bold = 'http://fonts.gstatic.com/s/b612/v5/3Jn9SDDxiSz34oWXPDCLTXUETuE.ttf';
+  'http://fonts.gstatic.com/s/b612/v10/3Jn8SDDxiSz36juyHBqlQXwdVw.ttf';
+export const B612_700Bold = 'http://fonts.gstatic.com/s/b612/v10/3Jn9SDDxiSz34oWXPDCLTXUETuE.ttf';
 export const B612_700Bold_Italic =
-  'http://fonts.gstatic.com/s/b612/v5/3Jn_SDDxiSz36juKoDWBSVcBXuFb0Q.ttf';
+  'http://fonts.gstatic.com/s/b612/v10/3Jn_SDDxiSz36juKoDWBSVcBXuFb0Q.ttf';
 export const B612Mono_400Regular =
-  'http://fonts.gstatic.com/s/b612mono/v5/kmK_Zq85QVWbN1eW6lJl1wTcquRTtg.ttf';
+  'http://fonts.gstatic.com/s/b612mono/v10/kmK_Zq85QVWbN1eW6lJl1wTcquRTtg.ttf';
 export const B612Mono_400Regular_Italic =
-  'http://fonts.gstatic.com/s/b612mono/v5/kmK5Zq85QVWbN1eW6lJV1Q7YiOFDtqtf.ttf';
+  'http://fonts.gstatic.com/s/b612mono/v10/kmK5Zq85QVWbN1eW6lJV1Q7YiOFDtqtf.ttf';
 export const B612Mono_700Bold =
-  'http://fonts.gstatic.com/s/b612mono/v5/kmK6Zq85QVWbN1eW6lJdayv4os9Pv7JGSg.ttf';
+  'http://fonts.gstatic.com/s/b612mono/v10/kmK6Zq85QVWbN1eW6lJdayv4os9Pv7JGSg.ttf';
 export const B612Mono_700Bold_Italic =
-  'http://fonts.gstatic.com/s/b612mono/v5/kmKkZq85QVWbN1eW6lJV1TZkp8VLnbdWSg4x.ttf';
-export const Charm_400Regular = 'http://fonts.gstatic.com/s/charm/v5/7cHmv4oii5K0MeYvIe804WIo.ttf';
-export const Charm_700Bold = 'http://fonts.gstatic.com/s/charm/v5/7cHrv4oii5K0Md6TDss8yn4hnCci.ttf';
+  'http://fonts.gstatic.com/s/b612mono/v10/kmKkZq85QVWbN1eW6lJV1TZkp8VLnbdWSg4x.ttf';
+export const Charm_400Regular = 'http://fonts.gstatic.com/s/charm/v8/7cHmv4oii5K0MeYvIe804WIo.ttf';
+export const Charm_700Bold = 'http://fonts.gstatic.com/s/charm/v8/7cHrv4oii5K0Md6TDss8yn4hnCci.ttf';
 export const MajorMonoDisplay_400Regular =
-  'http://fonts.gstatic.com/s/majormonodisplay/v7/RWmVoLyb5fEqtsfBX9PDZIGr2tFubRhLCn2QIndPww.ttf';
+  'http://fonts.gstatic.com/s/majormonodisplay/v10/RWmVoLyb5fEqtsfBX9PDZIGr2tFubRhLCn2QIndPww.ttf';
 export const ZCOOLKuaiLe_400Regular =
-  'http://fonts.gstatic.com/s/zcoolkuaile/v7/tssqApdaRQokwFjFJjvM6h2WpozzoXhC2g.ttf';
+  'http://fonts.gstatic.com/s/zcoolkuaile/v15/tssqApdaRQokwFjFJjvM6h2WpozzoXhC2g.ttf';
 export const ZCOOLQingKeHuangYou_400Regular =
-  'http://fonts.gstatic.com/s/zcoolqingkehuangyou/v5/2Eb5L_R5IXJEWhD3AOhSvFC554MOOahI4mRIi_28c8bHWA.ttf';
+  'http://fonts.gstatic.com/s/zcoolqingkehuangyou/v11/2Eb5L_R5IXJEWhD3AOhSvFC554MOOahI4mRIi_28c8bHWA.ttf';
 export const ZCOOLXiaoWei_400Regular =
-  'http://fonts.gstatic.com/s/zcoolxiaowei/v5/i7dMIFFrTRywPpUVX9_RJyM1YFKQHwyVd3U.ttf';
+  'http://fonts.gstatic.com/s/zcoolxiaowei/v8/i7dMIFFrTRywPpUVX9_RJyM1YFKQHwyVd3U.ttf';
 export const Staatliches_400Regular =
   'http://fonts.gstatic.com/s/staatliches/v6/HI_OiY8KO6hCsQSoAPmtMbectJG9O9PS.ttf';
 export const Literata_200ExtraLight =
@@ -1397,149 +3827,149 @@ export const Literata_800ExtraBold_Italic =
 export const Literata_900Black_Italic =
   'http://fonts.gstatic.com/s/literata/v23/or3NQ6P12-iJxAIgLYT1PLs1Zd0nfUwAbeGVKoRYzNiCp1OUedn8VrLWSUKTt8iVow.ttf';
 export const CrimsonPro_200ExtraLight =
-  'http://fonts.gstatic.com/s/crimsonpro/v14/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZTm18OJE_VNWoyQ.ttf';
+  'http://fonts.gstatic.com/s/crimsonpro/v17/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZTm18OJE_VNWoyQ.ttf';
 export const CrimsonPro_300Light =
-  'http://fonts.gstatic.com/s/crimsonpro/v14/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZkG18OJE_VNWoyQ.ttf';
+  'http://fonts.gstatic.com/s/crimsonpro/v17/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZkG18OJE_VNWoyQ.ttf';
 export const CrimsonPro_400Regular =
-  'http://fonts.gstatic.com/s/crimsonpro/v14/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZzm18OJE_VNWoyQ.ttf';
+  'http://fonts.gstatic.com/s/crimsonpro/v17/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZzm18OJE_VNWoyQ.ttf';
 export const CrimsonPro_500Medium =
-  'http://fonts.gstatic.com/s/crimsonpro/v14/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZ_G18OJE_VNWoyQ.ttf';
+  'http://fonts.gstatic.com/s/crimsonpro/v17/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZ_G18OJE_VNWoyQ.ttf';
 export const CrimsonPro_600SemiBold =
-  'http://fonts.gstatic.com/s/crimsonpro/v14/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZEGp8OJE_VNWoyQ.ttf';
+  'http://fonts.gstatic.com/s/crimsonpro/v17/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZEGp8OJE_VNWoyQ.ttf';
 export const CrimsonPro_700Bold =
-  'http://fonts.gstatic.com/s/crimsonpro/v14/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZKWp8OJE_VNWoyQ.ttf';
+  'http://fonts.gstatic.com/s/crimsonpro/v17/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZKWp8OJE_VNWoyQ.ttf';
 export const CrimsonPro_800ExtraBold =
-  'http://fonts.gstatic.com/s/crimsonpro/v14/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZTmp8OJE_VNWoyQ.ttf';
+  'http://fonts.gstatic.com/s/crimsonpro/v17/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZTmp8OJE_VNWoyQ.ttf';
 export const CrimsonPro_900Black =
-  'http://fonts.gstatic.com/s/crimsonpro/v14/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZZ2p8OJE_VNWoyQ.ttf';
+  'http://fonts.gstatic.com/s/crimsonpro/v17/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZZ2p8OJE_VNWoyQ.ttf';
 export const CrimsonPro_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/crimsonpro/v14/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi4Ue5s7dtC4yZNE.ttf';
+  'http://fonts.gstatic.com/s/crimsonpro/v17/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi4Ue5s7dtC4yZNE.ttf';
 export const CrimsonPro_300Light_Italic =
-  'http://fonts.gstatic.com/s/crimsonpro/v14/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi7Ke5s7dtC4yZNE.ttf';
+  'http://fonts.gstatic.com/s/crimsonpro/v17/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi7Ke5s7dtC4yZNE.ttf';
 export const CrimsonPro_400Regular_Italic =
-  'http://fonts.gstatic.com/s/crimsonpro/v14/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi6Ue5s7dtC4yZNE.ttf';
+  'http://fonts.gstatic.com/s/crimsonpro/v17/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi6Ue5s7dtC4yZNE.ttf';
 export const CrimsonPro_500Medium_Italic =
-  'http://fonts.gstatic.com/s/crimsonpro/v14/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi6me5s7dtC4yZNE.ttf';
+  'http://fonts.gstatic.com/s/crimsonpro/v17/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi6me5s7dtC4yZNE.ttf';
 export const CrimsonPro_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/crimsonpro/v14/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi5KfJs7dtC4yZNE.ttf';
+  'http://fonts.gstatic.com/s/crimsonpro/v17/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi5KfJs7dtC4yZNE.ttf';
 export const CrimsonPro_700Bold_Italic =
-  'http://fonts.gstatic.com/s/crimsonpro/v14/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi5zfJs7dtC4yZNE.ttf';
+  'http://fonts.gstatic.com/s/crimsonpro/v17/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi5zfJs7dtC4yZNE.ttf';
 export const CrimsonPro_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/crimsonpro/v14/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi4UfJs7dtC4yZNE.ttf';
+  'http://fonts.gstatic.com/s/crimsonpro/v17/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi4UfJs7dtC4yZNE.ttf';
 export const CrimsonPro_900Black_Italic =
-  'http://fonts.gstatic.com/s/crimsonpro/v14/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi49fJs7dtC4yZNE.ttf';
+  'http://fonts.gstatic.com/s/crimsonpro/v17/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi49fJs7dtC4yZNE.ttf';
 export const NotoSerifTC_200ExtraLight =
-  'http://fonts.gstatic.com/s/notoseriftc/v8/XLY9IZb5bJNDGYxLBibeHZ0Bvr8vbX9GTsoOAX4.otf';
+  'http://fonts.gstatic.com/s/notoseriftc/v17/XLY9IZb5bJNDGYxLBibeHZ0Bvr8vbX9GTsoOAX4.otf';
 export const NotoSerifTC_300Light =
-  'http://fonts.gstatic.com/s/notoseriftc/v8/XLY9IZb5bJNDGYxLBibeHZ0BvtssbX9GTsoOAX4.otf';
+  'http://fonts.gstatic.com/s/notoseriftc/v17/XLY9IZb5bJNDGYxLBibeHZ0BvtssbX9GTsoOAX4.otf';
 export const NotoSerifTC_400Regular =
-  'http://fonts.gstatic.com/s/notoseriftc/v8/XLYgIZb5bJNDGYxLBibeHZ0BhnEESXFtUsM.otf';
+  'http://fonts.gstatic.com/s/notoseriftc/v17/XLYgIZb5bJNDGYxLBibeHZ0BhnEESXFtUsM.otf';
 export const NotoSerifTC_500Medium =
-  'http://fonts.gstatic.com/s/notoseriftc/v8/XLY9IZb5bJNDGYxLBibeHZ0BvoMtbX9GTsoOAX4.otf';
+  'http://fonts.gstatic.com/s/notoseriftc/v17/XLY9IZb5bJNDGYxLBibeHZ0BvoMtbX9GTsoOAX4.otf';
 export const NotoSerifTC_600SemiBold =
-  'http://fonts.gstatic.com/s/notoseriftc/v8/XLY9IZb5bJNDGYxLBibeHZ0Bvq8qbX9GTsoOAX4.otf';
+  'http://fonts.gstatic.com/s/notoseriftc/v17/XLY9IZb5bJNDGYxLBibeHZ0Bvq8qbX9GTsoOAX4.otf';
 export const NotoSerifTC_700Bold =
-  'http://fonts.gstatic.com/s/notoseriftc/v8/XLY9IZb5bJNDGYxLBibeHZ0BvssrbX9GTsoOAX4.otf';
+  'http://fonts.gstatic.com/s/notoseriftc/v17/XLY9IZb5bJNDGYxLBibeHZ0BvssrbX9GTsoOAX4.otf';
 export const NotoSerifTC_900Black =
-  'http://fonts.gstatic.com/s/notoseriftc/v8/XLY9IZb5bJNDGYxLBibeHZ0BvvMpbX9GTsoOAX4.otf';
+  'http://fonts.gstatic.com/s/notoseriftc/v17/XLY9IZb5bJNDGYxLBibeHZ0BvvMpbX9GTsoOAX4.otf';
 export const NotoSerifSC_200ExtraLight =
-  'http://fonts.gstatic.com/s/notoserifsc/v8/H4c8BXePl9DZ0Xe7gG9cyOj7mm63SzZBEtERe7U.otf';
+  'http://fonts.gstatic.com/s/notoserifsc/v16/H4c8BXePl9DZ0Xe7gG9cyOj7mm63SzZBEtERe7U.otf';
 export const NotoSerifSC_300Light =
-  'http://fonts.gstatic.com/s/notoserifsc/v8/H4c8BXePl9DZ0Xe7gG9cyOj7mgq0SzZBEtERe7U.otf';
+  'http://fonts.gstatic.com/s/notoserifsc/v16/H4c8BXePl9DZ0Xe7gG9cyOj7mgq0SzZBEtERe7U.otf';
 export const NotoSerifSC_400Regular =
-  'http://fonts.gstatic.com/s/notoserifsc/v8/H4chBXePl9DZ0Xe7gG9cyOj7oqCcbzhqDtg.otf';
+  'http://fonts.gstatic.com/s/notoserifsc/v16/H4chBXePl9DZ0Xe7gG9cyOj7oqCcbzhqDtg.otf';
 export const NotoSerifSC_500Medium =
-  'http://fonts.gstatic.com/s/notoserifsc/v8/H4c8BXePl9DZ0Xe7gG9cyOj7mlK1SzZBEtERe7U.otf';
+  'http://fonts.gstatic.com/s/notoserifsc/v16/H4c8BXePl9DZ0Xe7gG9cyOj7mlK1SzZBEtERe7U.otf';
 export const NotoSerifSC_600SemiBold =
-  'http://fonts.gstatic.com/s/notoserifsc/v8/H4c8BXePl9DZ0Xe7gG9cyOj7mn6ySzZBEtERe7U.otf';
+  'http://fonts.gstatic.com/s/notoserifsc/v16/H4c8BXePl9DZ0Xe7gG9cyOj7mn6ySzZBEtERe7U.otf';
 export const NotoSerifSC_700Bold =
-  'http://fonts.gstatic.com/s/notoserifsc/v8/H4c8BXePl9DZ0Xe7gG9cyOj7mhqzSzZBEtERe7U.otf';
+  'http://fonts.gstatic.com/s/notoserifsc/v16/H4c8BXePl9DZ0Xe7gG9cyOj7mhqzSzZBEtERe7U.otf';
 export const NotoSerifSC_900Black =
-  'http://fonts.gstatic.com/s/notoserifsc/v8/H4c8BXePl9DZ0Xe7gG9cyOj7miKxSzZBEtERe7U.otf';
+  'http://fonts.gstatic.com/s/notoserifsc/v16/H4c8BXePl9DZ0Xe7gG9cyOj7miKxSzZBEtERe7U.otf';
 export const Manjari_100Thin =
-  'http://fonts.gstatic.com/s/manjari/v4/k3kSo8UPMOBO2w1UdbroK2vFIaOV8A.ttf';
+  'http://fonts.gstatic.com/s/manjari/v7/k3kSo8UPMOBO2w1UdbroK2vFIaOV8A.ttf';
 export const Manjari_400Regular =
-  'http://fonts.gstatic.com/s/manjari/v4/k3kQo8UPMOBO2w1UTd7iL0nAMaM.ttf';
+  'http://fonts.gstatic.com/s/manjari/v7/k3kQo8UPMOBO2w1UTd7iL0nAMaM.ttf';
 export const Manjari_700Bold =
-  'http://fonts.gstatic.com/s/manjari/v4/k3kVo8UPMOBO2w1UdWLNC0HrLaqM6Q4.ttf';
+  'http://fonts.gstatic.com/s/manjari/v7/k3kVo8UPMOBO2w1UdWLNC0HrLaqM6Q4.ttf';
 export const NotoSansSC_100Thin =
-  'http://fonts.gstatic.com/s/notosanssc/v12/k3kJo84MPvpLmixcA63oeALZTYKL2wv287Sb.otf';
+  'http://fonts.gstatic.com/s/notosanssc/v20/k3kJo84MPvpLmixcA63oeALZTYKL2wv287Sb.otf';
 export const NotoSansSC_300Light =
-  'http://fonts.gstatic.com/s/notosanssc/v12/k3kIo84MPvpLmixcA63oeALZhaCt9yX6-q2CGg.otf';
+  'http://fonts.gstatic.com/s/notosanssc/v20/k3kIo84MPvpLmixcA63oeALZhaCt9yX6-q2CGg.otf';
 export const NotoSansSC_400Regular =
-  'http://fonts.gstatic.com/s/notosanssc/v12/k3kXo84MPvpLmixcA63oeALhL4iJ-Q7m8w.otf';
+  'http://fonts.gstatic.com/s/notosanssc/v20/k3kXo84MPvpLmixcA63oeALhL4iJ-Q7m8w.otf';
 export const NotoSansSC_500Medium =
-  'http://fonts.gstatic.com/s/notosanssc/v12/k3kIo84MPvpLmixcA63oeALZ3aGt9yX6-q2CGg.otf';
+  'http://fonts.gstatic.com/s/notosanssc/v20/k3kIo84MPvpLmixcA63oeALZ3aGt9yX6-q2CGg.otf';
 export const NotoSansSC_700Bold =
-  'http://fonts.gstatic.com/s/notosanssc/v12/k3kIo84MPvpLmixcA63oeALZlaet9yX6-q2CGg.otf';
+  'http://fonts.gstatic.com/s/notosanssc/v20/k3kIo84MPvpLmixcA63oeALZlaet9yX6-q2CGg.otf';
 export const NotoSansSC_900Black =
-  'http://fonts.gstatic.com/s/notosanssc/v12/k3kIo84MPvpLmixcA63oeALZraWt9yX6-q2CGg.otf';
+  'http://fonts.gstatic.com/s/notosanssc/v20/k3kIo84MPvpLmixcA63oeALZraWt9yX6-q2CGg.otf';
 export const NotoSansTC_100Thin =
-  'http://fonts.gstatic.com/s/notosanstc/v11/-nFlOG829Oofr2wohFbTp9i9WyEJIfNZ1sjy.otf';
+  'http://fonts.gstatic.com/s/notosanstc/v20/-nFlOG829Oofr2wohFbTp9i9WyEJIfNZ1sjy.otf';
 export const NotoSansTC_300Light =
-  'http://fonts.gstatic.com/s/notosanstc/v11/-nFkOG829Oofr2wohFbTp9i9kwMvDd1V39Hr7g.otf';
+  'http://fonts.gstatic.com/s/notosanstc/v20/-nFkOG829Oofr2wohFbTp9i9kwMvDd1V39Hr7g.otf';
 export const NotoSansTC_400Regular =
-  'http://fonts.gstatic.com/s/notosanstc/v11/-nF7OG829Oofr2wohFbTp9iFOSsLA_ZJ1g.otf';
+  'http://fonts.gstatic.com/s/notosanstc/v20/-nF7OG829Oofr2wohFbTp9iFOSsLA_ZJ1g.otf';
 export const NotoSansTC_500Medium =
-  'http://fonts.gstatic.com/s/notosanstc/v11/-nFkOG829Oofr2wohFbTp9i9ywIvDd1V39Hr7g.otf';
+  'http://fonts.gstatic.com/s/notosanstc/v20/-nFkOG829Oofr2wohFbTp9i9ywIvDd1V39Hr7g.otf';
 export const NotoSansTC_700Bold =
-  'http://fonts.gstatic.com/s/notosanstc/v11/-nFkOG829Oofr2wohFbTp9i9gwQvDd1V39Hr7g.otf';
+  'http://fonts.gstatic.com/s/notosanstc/v20/-nFkOG829Oofr2wohFbTp9i9gwQvDd1V39Hr7g.otf';
 export const NotoSansTC_900Black =
-  'http://fonts.gstatic.com/s/notosanstc/v11/-nFkOG829Oofr2wohFbTp9i9uwYvDd1V39Hr7g.otf';
+  'http://fonts.gstatic.com/s/notosanstc/v20/-nFkOG829Oofr2wohFbTp9i9uwYvDd1V39Hr7g.otf';
 export const HeptaSlab_100Thin =
-  'http://fonts.gstatic.com/s/heptaslab/v9/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvkV5jfbY5B0NBkz.ttf';
+  'http://fonts.gstatic.com/s/heptaslab/v12/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvkV5jfbY5B0NBkz.ttf';
 export const HeptaSlab_200ExtraLight =
-  'http://fonts.gstatic.com/s/heptaslab/v9/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvmV5zfbY5B0NBkz.ttf';
+  'http://fonts.gstatic.com/s/heptaslab/v12/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvmV5zfbY5B0NBkz.ttf';
 export const HeptaSlab_300Light =
-  'http://fonts.gstatic.com/s/heptaslab/v9/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvlL5zfbY5B0NBkz.ttf';
+  'http://fonts.gstatic.com/s/heptaslab/v12/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvlL5zfbY5B0NBkz.ttf';
 export const HeptaSlab_400Regular =
-  'http://fonts.gstatic.com/s/heptaslab/v9/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvkV5zfbY5B0NBkz.ttf';
+  'http://fonts.gstatic.com/s/heptaslab/v12/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvkV5zfbY5B0NBkz.ttf';
 export const HeptaSlab_500Medium =
-  'http://fonts.gstatic.com/s/heptaslab/v9/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5Hvkn5zfbY5B0NBkz.ttf';
+  'http://fonts.gstatic.com/s/heptaslab/v12/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5Hvkn5zfbY5B0NBkz.ttf';
 export const HeptaSlab_600SemiBold =
-  'http://fonts.gstatic.com/s/heptaslab/v9/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvnL4DfbY5B0NBkz.ttf';
+  'http://fonts.gstatic.com/s/heptaslab/v12/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvnL4DfbY5B0NBkz.ttf';
 export const HeptaSlab_700Bold =
-  'http://fonts.gstatic.com/s/heptaslab/v9/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5Hvny4DfbY5B0NBkz.ttf';
+  'http://fonts.gstatic.com/s/heptaslab/v12/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5Hvny4DfbY5B0NBkz.ttf';
 export const HeptaSlab_800ExtraBold =
-  'http://fonts.gstatic.com/s/heptaslab/v9/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvmV4DfbY5B0NBkz.ttf';
+  'http://fonts.gstatic.com/s/heptaslab/v12/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvmV4DfbY5B0NBkz.ttf';
 export const HeptaSlab_900Black =
-  'http://fonts.gstatic.com/s/heptaslab/v9/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5Hvm84DfbY5B0NBkz.ttf';
+  'http://fonts.gstatic.com/s/heptaslab/v12/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5Hvm84DfbY5B0NBkz.ttf';
 export const Grenze_100Thin =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZRFGb7hR12BxqPm2IjuAkalnmd.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZRFGb7hR12BxqPm2IjuAkalnmd.ttf';
 export const Grenze_100Thin_Italic =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZXFGb7hR12BxqH_VpHsg04k2md0kI.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZXFGb7hR12BxqH_VpHsg04k2md0kI.ttf';
 export const Grenze_200ExtraLight =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZQFGb7hR12BxqPN0MDkicWn2CEyw.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZQFGb7hR12BxqPN0MDkicWn2CEyw.ttf';
 export const Grenze_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZWFGb7hR12BxqH_Vrrky0SvWWUy1uW.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZWFGb7hR12BxqH_Vrrky0SvWWUy1uW.ttf';
 export const Grenze_300Light =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZQFGb7hR12BxqPU0ADkicWn2CEyw.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZQFGb7hR12BxqPU0ADkicWn2CEyw.ttf';
 export const Grenze_300Light_Italic =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZWFGb7hR12BxqH_VqPkC0SvWWUy1uW.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZWFGb7hR12BxqH_VqPkC0SvWWUy1uW.ttf';
 export const Grenze_400Regular =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZTFGb7hR12Bxq3_2gnmgwKlg.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZTFGb7hR12Bxq3_2gnmgwKlg.ttf';
 export const Grenze_400Regular_Italic =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZRFGb7hR12BxqH_WIjuAkalnmd.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZRFGb7hR12BxqH_WIjuAkalnmd.ttf';
 export const Grenze_500Medium =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZQFGb7hR12BxqPC0EDkicWn2CEyw.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZQFGb7hR12BxqPC0EDkicWn2CEyw.ttf';
 export const Grenze_500Medium_Italic =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZWFGb7hR12BxqH_VrXkS0SvWWUy1uW.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZWFGb7hR12BxqH_VrXkS0SvWWUy1uW.ttf';
 export const Grenze_600SemiBold =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZQFGb7hR12BxqPJ0YDkicWn2CEyw.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZQFGb7hR12BxqPJ0YDkicWn2CEyw.ttf';
 export const Grenze_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZWFGb7hR12BxqH_Vr7li0SvWWUy1uW.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZWFGb7hR12BxqH_Vr7li0SvWWUy1uW.ttf';
 export const Grenze_700Bold =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZQFGb7hR12BxqPQ0cDkicWn2CEyw.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZQFGb7hR12BxqPQ0cDkicWn2CEyw.ttf';
 export const Grenze_700Bold_Italic =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZWFGb7hR12BxqH_Vqfly0SvWWUy1uW.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZWFGb7hR12BxqH_Vqfly0SvWWUy1uW.ttf';
 export const Grenze_800ExtraBold =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZQFGb7hR12BxqPX0QDkicWn2CEyw.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZQFGb7hR12BxqPX0QDkicWn2CEyw.ttf';
 export const Grenze_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZWFGb7hR12BxqH_VqDlC0SvWWUy1uW.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZWFGb7hR12BxqH_VqDlC0SvWWUy1uW.ttf';
 export const Grenze_900Black =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZQFGb7hR12BxqPe0UDkicWn2CEyw.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZQFGb7hR12BxqPe0UDkicWn2CEyw.ttf';
 export const Grenze_900Black_Italic =
-  'http://fonts.gstatic.com/s/grenze/v4/O4ZWFGb7hR12BxqH_VqnlS0SvWWUy1uW.ttf';
+  'http://fonts.gstatic.com/s/grenze/v12/O4ZWFGb7hR12BxqH_VqnlS0SvWWUy1uW.ttf';
 export const BaiJamjuree_200ExtraLight =
   'http://fonts.gstatic.com/s/baijamjuree/v4/LDIqapSCOBt_aeQQ7ftydoa0kePuk5A1-yiSgA.ttf';
 export const BaiJamjuree_200ExtraLight_Italic =
@@ -1585,101 +4015,101 @@ export const ChakraPetch_700Bold =
 export const ChakraPetch_700Bold_Italic =
   'http://fonts.gstatic.com/s/chakrapetch/v4/cIfnMapbsEk7TDLdtEz1BwkWmpLZRZ_A_gMk0izH.ttf';
 export const Charmonman_400Regular =
-  'http://fonts.gstatic.com/s/charmonman/v8/MjQDmiR3vP_nuxDv47jiWJGovLdh6OE.ttf';
+  'http://fonts.gstatic.com/s/charmonman/v16/MjQDmiR3vP_nuxDv47jiWJGovLdh6OE.ttf';
 export const Charmonman_700Bold =
-  'http://fonts.gstatic.com/s/charmonman/v8/MjQAmiR3vP_nuxDv47jiYC2HmL9K9OhmGnY.ttf';
+  'http://fonts.gstatic.com/s/charmonman/v16/MjQAmiR3vP_nuxDv47jiYC2HmL9K9OhmGnY.ttf';
 export const Fahkwang_200ExtraLight =
-  'http://fonts.gstatic.com/s/fahkwang/v6/Noa26Uj3zpmBOgbNpOJHmZlRFipxkwjx.ttf';
+  'http://fonts.gstatic.com/s/fahkwang/v14/Noa26Uj3zpmBOgbNpOJHmZlRFipxkwjx.ttf';
 export const Fahkwang_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/fahkwang/v6/Noa06Uj3zpmBOgbNpOqNgHFQHC5Tlhjxdw4.ttf';
+  'http://fonts.gstatic.com/s/fahkwang/v14/Noa06Uj3zpmBOgbNpOqNgHFQHC5Tlhjxdw4.ttf';
 export const Fahkwang_300Light =
-  'http://fonts.gstatic.com/s/fahkwang/v6/Noa26Uj3zpmBOgbNpOIjmplRFipxkwjx.ttf';
+  'http://fonts.gstatic.com/s/fahkwang/v14/Noa26Uj3zpmBOgbNpOIjmplRFipxkwjx.ttf';
 export const Fahkwang_300Light_Italic =
-  'http://fonts.gstatic.com/s/fahkwang/v6/Noa06Uj3zpmBOgbNpOqNgBVTHC5Tlhjxdw4.ttf';
+  'http://fonts.gstatic.com/s/fahkwang/v14/Noa06Uj3zpmBOgbNpOqNgBVTHC5Tlhjxdw4.ttf';
 export const Fahkwang_400Regular =
-  'http://fonts.gstatic.com/s/fahkwang/v6/Noax6Uj3zpmBOgbNpNqPsr1ZPTZ4.ttf';
+  'http://fonts.gstatic.com/s/fahkwang/v14/Noax6Uj3zpmBOgbNpNqPsr1ZPTZ4.ttf';
 export const Fahkwang_400Regular_Italic =
-  'http://fonts.gstatic.com/s/fahkwang/v6/Noa36Uj3zpmBOgbNpOqNuLl7OCZ4ihE.ttf';
+  'http://fonts.gstatic.com/s/fahkwang/v14/Noa36Uj3zpmBOgbNpOqNuLl7OCZ4ihE.ttf';
 export const Fahkwang_500Medium =
-  'http://fonts.gstatic.com/s/fahkwang/v6/Noa26Uj3zpmBOgbNpOJ7m5lRFipxkwjx.ttf';
+  'http://fonts.gstatic.com/s/fahkwang/v14/Noa26Uj3zpmBOgbNpOJ7m5lRFipxkwjx.ttf';
 export const Fahkwang_500Medium_Italic =
-  'http://fonts.gstatic.com/s/fahkwang/v6/Noa06Uj3zpmBOgbNpOqNgE1SHC5Tlhjxdw4.ttf';
+  'http://fonts.gstatic.com/s/fahkwang/v14/Noa06Uj3zpmBOgbNpOqNgE1SHC5Tlhjxdw4.ttf';
 export const Fahkwang_600SemiBold =
-  'http://fonts.gstatic.com/s/fahkwang/v6/Noa26Uj3zpmBOgbNpOJXnJlRFipxkwjx.ttf';
+  'http://fonts.gstatic.com/s/fahkwang/v14/Noa26Uj3zpmBOgbNpOJXnJlRFipxkwjx.ttf';
 export const Fahkwang_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/fahkwang/v6/Noa06Uj3zpmBOgbNpOqNgGFVHC5Tlhjxdw4.ttf';
+  'http://fonts.gstatic.com/s/fahkwang/v14/Noa06Uj3zpmBOgbNpOqNgGFVHC5Tlhjxdw4.ttf';
 export const Fahkwang_700Bold =
-  'http://fonts.gstatic.com/s/fahkwang/v6/Noa26Uj3zpmBOgbNpOIznZlRFipxkwjx.ttf';
+  'http://fonts.gstatic.com/s/fahkwang/v14/Noa26Uj3zpmBOgbNpOIznZlRFipxkwjx.ttf';
 export const Fahkwang_700Bold_Italic =
-  'http://fonts.gstatic.com/s/fahkwang/v6/Noa06Uj3zpmBOgbNpOqNgAVUHC5Tlhjxdw4.ttf';
-export const K2D_100Thin = 'http://fonts.gstatic.com/s/k2d/v4/J7aRnpF2V0ErE6UpvrIw74NL.ttf';
+  'http://fonts.gstatic.com/s/fahkwang/v14/Noa06Uj3zpmBOgbNpOqNgAVUHC5Tlhjxdw4.ttf';
+export const K2D_100Thin = 'http://fonts.gstatic.com/s/k2d/v7/J7aRnpF2V0ErE6UpvrIw74NL.ttf';
 export const K2D_100Thin_Italic =
-  'http://fonts.gstatic.com/s/k2d/v4/J7afnpF2V0EjdZ1NtLYS6pNLAjk.ttf';
-export const K2D_200ExtraLight = 'http://fonts.gstatic.com/s/k2d/v4/J7aenpF2V0Erv4QJlJw85ppSGw.ttf';
+  'http://fonts.gstatic.com/s/k2d/v7/J7afnpF2V0EjdZ1NtLYS6pNLAjk.ttf';
+export const K2D_200ExtraLight = 'http://fonts.gstatic.com/s/k2d/v7/J7aenpF2V0Erv4QJlJw85ppSGw.ttf';
 export const K2D_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/k2d/v4/J7acnpF2V0EjdZ3hlZY4xJ9CGyAa.ttf';
-export const K2D_300Light = 'http://fonts.gstatic.com/s/k2d/v4/J7aenpF2V0Er24cJlJw85ppSGw.ttf';
+  'http://fonts.gstatic.com/s/k2d/v7/J7acnpF2V0EjdZ3hlZY4xJ9CGyAa.ttf';
+export const K2D_300Light = 'http://fonts.gstatic.com/s/k2d/v7/J7aenpF2V0Er24cJlJw85ppSGw.ttf';
 export const K2D_300Light_Italic =
-  'http://fonts.gstatic.com/s/k2d/v4/J7acnpF2V0EjdZ2FlpY4xJ9CGyAa.ttf';
-export const K2D_400Regular = 'http://fonts.gstatic.com/s/k2d/v4/J7aTnpF2V0ETd68tnLcg7w.ttf';
+  'http://fonts.gstatic.com/s/k2d/v7/J7acnpF2V0EjdZ2FlpY4xJ9CGyAa.ttf';
+export const K2D_400Regular = 'http://fonts.gstatic.com/s/k2d/v7/J7aTnpF2V0ETd68tnLcg7w.ttf';
 export const K2D_400Regular_Italic =
-  'http://fonts.gstatic.com/s/k2d/v4/J7aRnpF2V0EjdaUpvrIw74NL.ttf';
-export const K2D_500Medium = 'http://fonts.gstatic.com/s/k2d/v4/J7aenpF2V0Erg4YJlJw85ppSGw.ttf';
+  'http://fonts.gstatic.com/s/k2d/v7/J7aRnpF2V0EjdaUpvrIw74NL.ttf';
+export const K2D_500Medium = 'http://fonts.gstatic.com/s/k2d/v7/J7aenpF2V0Erg4YJlJw85ppSGw.ttf';
 export const K2D_500Medium_Italic =
-  'http://fonts.gstatic.com/s/k2d/v4/J7acnpF2V0EjdZ3dl5Y4xJ9CGyAa.ttf';
-export const K2D_600SemiBold = 'http://fonts.gstatic.com/s/k2d/v4/J7aenpF2V0Err4EJlJw85ppSGw.ttf';
+  'http://fonts.gstatic.com/s/k2d/v7/J7acnpF2V0EjdZ3dl5Y4xJ9CGyAa.ttf';
+export const K2D_600SemiBold = 'http://fonts.gstatic.com/s/k2d/v7/J7aenpF2V0Err4EJlJw85ppSGw.ttf';
 export const K2D_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/k2d/v4/J7acnpF2V0EjdZ3xkJY4xJ9CGyAa.ttf';
-export const K2D_700Bold = 'http://fonts.gstatic.com/s/k2d/v4/J7aenpF2V0Ery4AJlJw85ppSGw.ttf';
+  'http://fonts.gstatic.com/s/k2d/v7/J7acnpF2V0EjdZ3xkJY4xJ9CGyAa.ttf';
+export const K2D_700Bold = 'http://fonts.gstatic.com/s/k2d/v7/J7aenpF2V0Ery4AJlJw85ppSGw.ttf';
 export const K2D_700Bold_Italic =
-  'http://fonts.gstatic.com/s/k2d/v4/J7acnpF2V0EjdZ2VkZY4xJ9CGyAa.ttf';
-export const K2D_800ExtraBold = 'http://fonts.gstatic.com/s/k2d/v4/J7aenpF2V0Er14MJlJw85ppSGw.ttf';
+  'http://fonts.gstatic.com/s/k2d/v7/J7acnpF2V0EjdZ2VkZY4xJ9CGyAa.ttf';
+export const K2D_800ExtraBold = 'http://fonts.gstatic.com/s/k2d/v7/J7aenpF2V0Er14MJlJw85ppSGw.ttf';
 export const K2D_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/k2d/v4/J7acnpF2V0EjdZ2JkpY4xJ9CGyAa.ttf';
+  'http://fonts.gstatic.com/s/k2d/v7/J7acnpF2V0EjdZ2JkpY4xJ9CGyAa.ttf';
 export const KoHo_200ExtraLight =
-  'http://fonts.gstatic.com/s/koho/v6/K2FxfZ5fmddNPuE1WJ75JoKhHys.ttf';
+  'http://fonts.gstatic.com/s/koho/v14/K2FxfZ5fmddNPuE1WJ75JoKhHys.ttf';
 export const KoHo_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/koho/v6/K2FzfZ5fmddNNisssJ_zIqCkDyvqZA.ttf';
-export const KoHo_300Light = 'http://fonts.gstatic.com/s/koho/v6/K2FxfZ5fmddNPoU2WJ75JoKhHys.ttf';
+  'http://fonts.gstatic.com/s/koho/v14/K2FzfZ5fmddNNisssJ_zIqCkDyvqZA.ttf';
+export const KoHo_300Light = 'http://fonts.gstatic.com/s/koho/v14/K2FxfZ5fmddNPoU2WJ75JoKhHys.ttf';
 export const KoHo_300Light_Italic =
-  'http://fonts.gstatic.com/s/koho/v6/K2FzfZ5fmddNNiss1JzzIqCkDyvqZA.ttf';
-export const KoHo_400Regular = 'http://fonts.gstatic.com/s/koho/v6/K2F-fZ5fmddNBikefJbSOos.ttf';
+  'http://fonts.gstatic.com/s/koho/v14/K2FzfZ5fmddNNiss1JzzIqCkDyvqZA.ttf';
+export const KoHo_400Regular = 'http://fonts.gstatic.com/s/koho/v14/K2F-fZ5fmddNBikefJbSOos.ttf';
 export const KoHo_400Regular_Italic =
-  'http://fonts.gstatic.com/s/koho/v6/K2FwfZ5fmddNNisUeLTXKou4Bg.ttf';
-export const KoHo_500Medium = 'http://fonts.gstatic.com/s/koho/v6/K2FxfZ5fmddNPt03WJ75JoKhHys.ttf';
+  'http://fonts.gstatic.com/s/koho/v14/K2FwfZ5fmddNNisUeLTXKou4Bg.ttf';
+export const KoHo_500Medium = 'http://fonts.gstatic.com/s/koho/v14/K2FxfZ5fmddNPt03WJ75JoKhHys.ttf';
 export const KoHo_500Medium_Italic =
-  'http://fonts.gstatic.com/s/koho/v6/K2FzfZ5fmddNNissjJ3zIqCkDyvqZA.ttf';
+  'http://fonts.gstatic.com/s/koho/v14/K2FzfZ5fmddNNissjJ3zIqCkDyvqZA.ttf';
 export const KoHo_600SemiBold =
-  'http://fonts.gstatic.com/s/koho/v6/K2FxfZ5fmddNPvEwWJ75JoKhHys.ttf';
+  'http://fonts.gstatic.com/s/koho/v14/K2FxfZ5fmddNPvEwWJ75JoKhHys.ttf';
 export const KoHo_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/koho/v6/K2FzfZ5fmddNNissoJrzIqCkDyvqZA.ttf';
-export const KoHo_700Bold = 'http://fonts.gstatic.com/s/koho/v6/K2FxfZ5fmddNPpUxWJ75JoKhHys.ttf';
+  'http://fonts.gstatic.com/s/koho/v14/K2FzfZ5fmddNNissoJrzIqCkDyvqZA.ttf';
+export const KoHo_700Bold = 'http://fonts.gstatic.com/s/koho/v14/K2FxfZ5fmddNPpUxWJ75JoKhHys.ttf';
 export const KoHo_700Bold_Italic =
-  'http://fonts.gstatic.com/s/koho/v6/K2FzfZ5fmddNNissxJvzIqCkDyvqZA.ttf';
+  'http://fonts.gstatic.com/s/koho/v14/K2FzfZ5fmddNNissxJvzIqCkDyvqZA.ttf';
 export const Kodchasan_200ExtraLight =
-  'http://fonts.gstatic.com/s/kodchasan/v6/1cX0aUPOAJv9sG4I-DJeR1Cggeqo3eMeoA.ttf';
+  'http://fonts.gstatic.com/s/kodchasan/v14/1cX0aUPOAJv9sG4I-DJeR1Cggeqo3eMeoA.ttf';
 export const Kodchasan_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/kodchasan/v6/1cXqaUPOAJv9sG4I-DJWjUlIgOCs_-YOoIgN.ttf';
+  'http://fonts.gstatic.com/s/kodchasan/v14/1cXqaUPOAJv9sG4I-DJWjUlIgOCs_-YOoIgN.ttf';
 export const Kodchasan_300Light =
-  'http://fonts.gstatic.com/s/kodchasan/v6/1cX0aUPOAJv9sG4I-DJeI1Oggeqo3eMeoA.ttf';
+  'http://fonts.gstatic.com/s/kodchasan/v14/1cX0aUPOAJv9sG4I-DJeI1Oggeqo3eMeoA.ttf';
 export const Kodchasan_300Light_Italic =
-  'http://fonts.gstatic.com/s/kodchasan/v6/1cXqaUPOAJv9sG4I-DJWjUksg-Cs_-YOoIgN.ttf';
+  'http://fonts.gstatic.com/s/kodchasan/v14/1cXqaUPOAJv9sG4I-DJWjUksg-Cs_-YOoIgN.ttf';
 export const Kodchasan_400Regular =
-  'http://fonts.gstatic.com/s/kodchasan/v6/1cXxaUPOAJv9sG4I-DJmj3uEicG01A.ttf';
+  'http://fonts.gstatic.com/s/kodchasan/v14/1cXxaUPOAJv9sG4I-DJmj3uEicG01A.ttf';
 export const Kodchasan_400Regular_Italic =
-  'http://fonts.gstatic.com/s/kodchasan/v6/1cX3aUPOAJv9sG4I-DJWjXGAq8Sk1PoH.ttf';
+  'http://fonts.gstatic.com/s/kodchasan/v14/1cX3aUPOAJv9sG4I-DJWjXGAq8Sk1PoH.ttf';
 export const Kodchasan_500Medium =
-  'http://fonts.gstatic.com/s/kodchasan/v6/1cX0aUPOAJv9sG4I-DJee1Kggeqo3eMeoA.ttf';
+  'http://fonts.gstatic.com/s/kodchasan/v14/1cX0aUPOAJv9sG4I-DJee1Kggeqo3eMeoA.ttf';
 export const Kodchasan_500Medium_Italic =
-  'http://fonts.gstatic.com/s/kodchasan/v6/1cXqaUPOAJv9sG4I-DJWjUl0guCs_-YOoIgN.ttf';
+  'http://fonts.gstatic.com/s/kodchasan/v14/1cXqaUPOAJv9sG4I-DJWjUl0guCs_-YOoIgN.ttf';
 export const Kodchasan_600SemiBold =
-  'http://fonts.gstatic.com/s/kodchasan/v6/1cX0aUPOAJv9sG4I-DJeV1Wggeqo3eMeoA.ttf';
+  'http://fonts.gstatic.com/s/kodchasan/v14/1cX0aUPOAJv9sG4I-DJeV1Wggeqo3eMeoA.ttf';
 export const Kodchasan_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/kodchasan/v6/1cXqaUPOAJv9sG4I-DJWjUlYheCs_-YOoIgN.ttf';
+  'http://fonts.gstatic.com/s/kodchasan/v14/1cXqaUPOAJv9sG4I-DJWjUlYheCs_-YOoIgN.ttf';
 export const Kodchasan_700Bold =
-  'http://fonts.gstatic.com/s/kodchasan/v6/1cX0aUPOAJv9sG4I-DJeM1Sggeqo3eMeoA.ttf';
+  'http://fonts.gstatic.com/s/kodchasan/v14/1cX0aUPOAJv9sG4I-DJeM1Sggeqo3eMeoA.ttf';
 export const Kodchasan_700Bold_Italic =
-  'http://fonts.gstatic.com/s/kodchasan/v6/1cXqaUPOAJv9sG4I-DJWjUk8hOCs_-YOoIgN.ttf';
+  'http://fonts.gstatic.com/s/kodchasan/v14/1cXqaUPOAJv9sG4I-DJWjUk8hOCs_-YOoIgN.ttf';
 export const Krub_200ExtraLight =
   'http://fonts.gstatic.com/s/krub/v4/sZlEdRyC6CRYZo47KLF4R6gWaf8.ttf';
 export const Krub_200ExtraLight_Italic =
@@ -1745,65 +4175,65 @@ export const Niramit_700Bold =
 export const Niramit_700Bold_Italic =
   'http://fonts.gstatic.com/s/niramit/v5/I_upMpWdvgLdNxVLXbZiKi2Oq73EZZ_f6w.ttf';
 export const Srisakdi_400Regular =
-  'http://fonts.gstatic.com/s/srisakdi/v6/yMJRMIlvdpDbkB0A-jq8fSx5i814.ttf';
+  'http://fonts.gstatic.com/s/srisakdi/v14/yMJRMIlvdpDbkB0A-jq8fSx5i814.ttf';
 export const Srisakdi_700Bold =
-  'http://fonts.gstatic.com/s/srisakdi/v6/yMJWMIlvdpDbkB0A-gIAUghxoNFxW0Hz.ttf';
+  'http://fonts.gstatic.com/s/srisakdi/v14/yMJWMIlvdpDbkB0A-gIAUghxoNFxW0Hz.ttf';
 export const Thasadith_400Regular =
-  'http://fonts.gstatic.com/s/thasadith/v4/mtG44_1TIqPYrd_f5R1YsEkU0CWuFw.ttf';
+  'http://fonts.gstatic.com/s/thasadith/v7/mtG44_1TIqPYrd_f5R1YsEkU0CWuFw.ttf';
 export const Thasadith_400Regular_Italic =
-  'http://fonts.gstatic.com/s/thasadith/v4/mtG-4_1TIqPYrd_f5R1oskMQ8iC-F1ZE.ttf';
+  'http://fonts.gstatic.com/s/thasadith/v7/mtG-4_1TIqPYrd_f5R1oskMQ8iC-F1ZE.ttf';
 export const Thasadith_700Bold =
-  'http://fonts.gstatic.com/s/thasadith/v4/mtG94_1TIqPYrd_f5R1gDGYw2A6yHk9d8w.ttf';
+  'http://fonts.gstatic.com/s/thasadith/v7/mtG94_1TIqPYrd_f5R1gDGYw2A6yHk9d8w.ttf';
 export const Thasadith_700Bold_Italic =
-  'http://fonts.gstatic.com/s/thasadith/v4/mtGj4_1TIqPYrd_f5R1osnus3QS2PEpN8zxA.ttf';
+  'http://fonts.gstatic.com/s/thasadith/v7/mtGj4_1TIqPYrd_f5R1osnus3QS2PEpN8zxA.ttf';
 export const NotoSerifKR_200ExtraLight =
-  'http://fonts.gstatic.com/s/notoserifkr/v7/3JnmSDn90Gmq2mr3blnHaTZXTihC8O1ZNH1ahck.otf';
+  'http://fonts.gstatic.com/s/notoserifkr/v15/3JnmSDn90Gmq2mr3blnHaTZXTihC8O1ZNH1ahck.otf';
 export const NotoSerifKR_300Light =
-  'http://fonts.gstatic.com/s/notoserifkr/v7/3JnmSDn90Gmq2mr3blnHaTZXTkxB8O1ZNH1ahck.otf';
+  'http://fonts.gstatic.com/s/notoserifkr/v15/3JnmSDn90Gmq2mr3blnHaTZXTkxB8O1ZNH1ahck.otf';
 export const NotoSerifKR_400Regular =
-  'http://fonts.gstatic.com/s/notoserifkr/v7/3Jn7SDn90Gmq2mr3blnHaTZXduZp1ONyKHQ.otf';
+  'http://fonts.gstatic.com/s/notoserifkr/v15/3Jn7SDn90Gmq2mr3blnHaTZXduZp1ONyKHQ.otf';
 export const NotoSerifKR_500Medium =
-  'http://fonts.gstatic.com/s/notoserifkr/v7/3JnmSDn90Gmq2mr3blnHaTZXThRA8O1ZNH1ahck.otf';
+  'http://fonts.gstatic.com/s/notoserifkr/v15/3JnmSDn90Gmq2mr3blnHaTZXThRA8O1ZNH1ahck.otf';
 export const NotoSerifKR_600SemiBold =
-  'http://fonts.gstatic.com/s/notoserifkr/v7/3JnmSDn90Gmq2mr3blnHaTZXTjhH8O1ZNH1ahck.otf';
+  'http://fonts.gstatic.com/s/notoserifkr/v15/3JnmSDn90Gmq2mr3blnHaTZXTjhH8O1ZNH1ahck.otf';
 export const NotoSerifKR_700Bold =
-  'http://fonts.gstatic.com/s/notoserifkr/v7/3JnmSDn90Gmq2mr3blnHaTZXTlxG8O1ZNH1ahck.otf';
+  'http://fonts.gstatic.com/s/notoserifkr/v15/3JnmSDn90Gmq2mr3blnHaTZXTlxG8O1ZNH1ahck.otf';
 export const NotoSerifKR_900Black =
-  'http://fonts.gstatic.com/s/notoserifkr/v7/3JnmSDn90Gmq2mr3blnHaTZXTmRE8O1ZNH1ahck.otf';
+  'http://fonts.gstatic.com/s/notoserifkr/v15/3JnmSDn90Gmq2mr3blnHaTZXTmRE8O1ZNH1ahck.otf';
 export const NotoSerifJP_200ExtraLight =
-  'http://fonts.gstatic.com/s/notoserifjp/v8/xn77YHs72GKoTvER4Gn3b5eMZBaPRkgfU8fEwb0.otf';
+  'http://fonts.gstatic.com/s/notoserifjp/v15/xn77YHs72GKoTvER4Gn3b5eMZBaPRkgfU8fEwb0.otf';
 export const NotoSerifJP_300Light =
-  'http://fonts.gstatic.com/s/notoserifjp/v8/xn77YHs72GKoTvER4Gn3b5eMZHKMRkgfU8fEwb0.otf';
+  'http://fonts.gstatic.com/s/notoserifjp/v15/xn77YHs72GKoTvER4Gn3b5eMZHKMRkgfU8fEwb0.otf';
 export const NotoSerifJP_400Regular =
-  'http://fonts.gstatic.com/s/notoserifjp/v8/xn7mYHs72GKoTvER4Gn3b5eMXNikYkY0T84.otf';
+  'http://fonts.gstatic.com/s/notoserifjp/v15/xn7mYHs72GKoTvER4Gn3b5eMXNikYkY0T84.otf';
 export const NotoSerifJP_500Medium =
-  'http://fonts.gstatic.com/s/notoserifjp/v8/xn77YHs72GKoTvER4Gn3b5eMZCqNRkgfU8fEwb0.otf';
+  'http://fonts.gstatic.com/s/notoserifjp/v15/xn77YHs72GKoTvER4Gn3b5eMZCqNRkgfU8fEwb0.otf';
 export const NotoSerifJP_600SemiBold =
-  'http://fonts.gstatic.com/s/notoserifjp/v8/xn77YHs72GKoTvER4Gn3b5eMZAaKRkgfU8fEwb0.otf';
+  'http://fonts.gstatic.com/s/notoserifjp/v15/xn77YHs72GKoTvER4Gn3b5eMZAaKRkgfU8fEwb0.otf';
 export const NotoSerifJP_700Bold =
-  'http://fonts.gstatic.com/s/notoserifjp/v8/xn77YHs72GKoTvER4Gn3b5eMZGKLRkgfU8fEwb0.otf';
+  'http://fonts.gstatic.com/s/notoserifjp/v15/xn77YHs72GKoTvER4Gn3b5eMZGKLRkgfU8fEwb0.otf';
 export const NotoSerifJP_900Black =
-  'http://fonts.gstatic.com/s/notoserifjp/v8/xn77YHs72GKoTvER4Gn3b5eMZFqJRkgfU8fEwb0.otf';
+  'http://fonts.gstatic.com/s/notoserifjp/v15/xn77YHs72GKoTvER4Gn3b5eMZFqJRkgfU8fEwb0.otf';
 export const Solway_300Light =
-  'http://fonts.gstatic.com/s/solway/v5/AMOTz46Cs2uTAOCuLlgZms0QW3mqyg.ttf';
+  'http://fonts.gstatic.com/s/solway/v13/AMOTz46Cs2uTAOCuLlgZms0QW3mqyg.ttf';
 export const Solway_400Regular =
-  'http://fonts.gstatic.com/s/solway/v5/AMOQz46Cs2uTAOCWgnA9kuYMUg.ttf';
+  'http://fonts.gstatic.com/s/solway/v13/AMOQz46Cs2uTAOCWgnA9kuYMUg.ttf';
 export const Solway_500Medium =
-  'http://fonts.gstatic.com/s/solway/v5/AMOTz46Cs2uTAOCudlkZms0QW3mqyg.ttf';
+  'http://fonts.gstatic.com/s/solway/v13/AMOTz46Cs2uTAOCudlkZms0QW3mqyg.ttf';
 export const Solway_700Bold =
-  'http://fonts.gstatic.com/s/solway/v5/AMOTz46Cs2uTAOCuPl8Zms0QW3mqyg.ttf';
+  'http://fonts.gstatic.com/s/solway/v13/AMOTz46Cs2uTAOCuPl8Zms0QW3mqyg.ttf';
 export const Solway_800ExtraBold =
-  'http://fonts.gstatic.com/s/solway/v5/AMOTz46Cs2uTAOCuIlwZms0QW3mqyg.ttf';
+  'http://fonts.gstatic.com/s/solway/v13/AMOTz46Cs2uTAOCuIlwZms0QW3mqyg.ttf';
 export const Notable_400Regular =
-  'http://fonts.gstatic.com/s/notable/v9/gNMEW3N_SIqx-WX9-HMoFIez5MI.ttf';
+  'http://fonts.gstatic.com/s/notable/v12/gNMEW3N_SIqx-WX9-HMoFIez5MI.ttf';
 export const MarkaziText_400Regular =
-  'http://fonts.gstatic.com/s/markazitext/v13/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQT4MlBekmJLo.ttf';
+  'http://fonts.gstatic.com/s/markazitext/v16/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQT4MlBekmJLo.ttf';
 export const MarkaziText_500Medium =
-  'http://fonts.gstatic.com/s/markazitext/v13/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtcaQT4MlBekmJLo.ttf';
+  'http://fonts.gstatic.com/s/markazitext/v16/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtcaQT4MlBekmJLo.ttf';
 export const MarkaziText_600SemiBold =
-  'http://fonts.gstatic.com/s/markazitext/v13/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtSqXT4MlBekmJLo.ttf';
+  'http://fonts.gstatic.com/s/markazitext/v16/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtSqXT4MlBekmJLo.ttf';
 export const MarkaziText_700Bold =
-  'http://fonts.gstatic.com/s/markazitext/v13/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtROXT4MlBekmJLo.ttf';
+  'http://fonts.gstatic.com/s/markazitext/v16/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtROXT4MlBekmJLo.ttf';
 export const SawarabiMincho_400Regular =
   'http://fonts.gstatic.com/s/sawarabimincho/v10/8QIRdiDaitzr7brc8ahpxt6GcIJTLahP46UDUw.ttf';
 export const SawarabiGothic_400Regular =
@@ -1837,138 +4267,138 @@ export const Tajawal_800ExtraBold =
 export const Tajawal_900Black =
   'http://fonts.gstatic.com/s/tajawal/v4/Iurf6YBj_oCad4k1l7KmLrZjiLlJ-G0.ttf';
 export const EastSeaDokdo_400Regular =
-  'http://fonts.gstatic.com/s/eastseadokdo/v10/xfuo0Wn2V2_KanASqXSZp22m05_aGavYS18y.ttf';
+  'http://fonts.gstatic.com/s/eastseadokdo/v18/xfuo0Wn2V2_KanASqXSZp22m05_aGavYS18y.ttf';
 export const IBMPlexMono_100Thin =
-  'http://fonts.gstatic.com/s/ibmplexmono/v6/-F6pfjptAgt5VM-kVkqdyU8n3kwq0n1hj-sNFQ.ttf';
+  'http://fonts.gstatic.com/s/ibmplexmono/v7/-F6pfjptAgt5VM-kVkqdyU8n3kwq0n1hj-sNFQ.ttf';
 export const IBMPlexMono_100Thin_Italic =
-  'http://fonts.gstatic.com/s/ibmplexmono/v6/-F6rfjptAgt5VM-kVkqdyU8n1ioStndlre4dFcFh.ttf';
+  'http://fonts.gstatic.com/s/ibmplexmono/v7/-F6rfjptAgt5VM-kVkqdyU8n1ioStndlre4dFcFh.ttf';
 export const IBMPlexMono_200ExtraLight =
-  'http://fonts.gstatic.com/s/ibmplexmono/v6/-F6qfjptAgt5VM-kVkqdyU8n3uAL8ldPg-IUDNg.ttf';
+  'http://fonts.gstatic.com/s/ibmplexmono/v7/-F6qfjptAgt5VM-kVkqdyU8n3uAL8ldPg-IUDNg.ttf';
 export const IBMPlexMono_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/ibmplexmono/v6/-F6sfjptAgt5VM-kVkqdyU8n1ioSGlZFh8ARHNh4zg.ttf';
+  'http://fonts.gstatic.com/s/ibmplexmono/v7/-F6sfjptAgt5VM-kVkqdyU8n1ioSGlZFh8ARHNh4zg.ttf';
 export const IBMPlexMono_300Light =
-  'http://fonts.gstatic.com/s/ibmplexmono/v6/-F6qfjptAgt5VM-kVkqdyU8n3oQI8ldPg-IUDNg.ttf';
+  'http://fonts.gstatic.com/s/ibmplexmono/v7/-F6qfjptAgt5VM-kVkqdyU8n3oQI8ldPg-IUDNg.ttf';
 export const IBMPlexMono_300Light_Italic =
-  'http://fonts.gstatic.com/s/ibmplexmono/v6/-F6sfjptAgt5VM-kVkqdyU8n1ioSflVFh8ARHNh4zg.ttf';
+  'http://fonts.gstatic.com/s/ibmplexmono/v7/-F6sfjptAgt5VM-kVkqdyU8n1ioSflVFh8ARHNh4zg.ttf';
 export const IBMPlexMono_400Regular =
-  'http://fonts.gstatic.com/s/ibmplexmono/v6/-F63fjptAgt5VM-kVkqdyU8n5igg1l9kn-s.ttf';
+  'http://fonts.gstatic.com/s/ibmplexmono/v7/-F63fjptAgt5VM-kVkqdyU8n5igg1l9kn-s.ttf';
 export const IBMPlexMono_400Regular_Italic =
-  'http://fonts.gstatic.com/s/ibmplexmono/v6/-F6pfjptAgt5VM-kVkqdyU8n1ioq0n1hj-sNFQ.ttf';
+  'http://fonts.gstatic.com/s/ibmplexmono/v7/-F6pfjptAgt5VM-kVkqdyU8n1ioq0n1hj-sNFQ.ttf';
 export const IBMPlexMono_500Medium =
-  'http://fonts.gstatic.com/s/ibmplexmono/v6/-F6qfjptAgt5VM-kVkqdyU8n3twJ8ldPg-IUDNg.ttf';
+  'http://fonts.gstatic.com/s/ibmplexmono/v7/-F6qfjptAgt5VM-kVkqdyU8n3twJ8ldPg-IUDNg.ttf';
 export const IBMPlexMono_500Medium_Italic =
-  'http://fonts.gstatic.com/s/ibmplexmono/v6/-F6sfjptAgt5VM-kVkqdyU8n1ioSJlRFh8ARHNh4zg.ttf';
+  'http://fonts.gstatic.com/s/ibmplexmono/v7/-F6sfjptAgt5VM-kVkqdyU8n1ioSJlRFh8ARHNh4zg.ttf';
 export const IBMPlexMono_600SemiBold =
-  'http://fonts.gstatic.com/s/ibmplexmono/v6/-F6qfjptAgt5VM-kVkqdyU8n3vAO8ldPg-IUDNg.ttf';
+  'http://fonts.gstatic.com/s/ibmplexmono/v7/-F6qfjptAgt5VM-kVkqdyU8n3vAO8ldPg-IUDNg.ttf';
 export const IBMPlexMono_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/ibmplexmono/v6/-F6sfjptAgt5VM-kVkqdyU8n1ioSClNFh8ARHNh4zg.ttf';
+  'http://fonts.gstatic.com/s/ibmplexmono/v7/-F6sfjptAgt5VM-kVkqdyU8n1ioSClNFh8ARHNh4zg.ttf';
 export const IBMPlexMono_700Bold =
-  'http://fonts.gstatic.com/s/ibmplexmono/v6/-F6qfjptAgt5VM-kVkqdyU8n3pQP8ldPg-IUDNg.ttf';
+  'http://fonts.gstatic.com/s/ibmplexmono/v7/-F6qfjptAgt5VM-kVkqdyU8n3pQP8ldPg-IUDNg.ttf';
 export const IBMPlexMono_700Bold_Italic =
-  'http://fonts.gstatic.com/s/ibmplexmono/v6/-F6sfjptAgt5VM-kVkqdyU8n1ioSblJFh8ARHNh4zg.ttf';
+  'http://fonts.gstatic.com/s/ibmplexmono/v7/-F6sfjptAgt5VM-kVkqdyU8n1ioSblJFh8ARHNh4zg.ttf';
 export const IBMPlexSansCondensed_100Thin =
-  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v7/Gg8nN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHY7KyKvBgYsMDhM.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v8/Gg8nN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHY7KyKvBgYsMDhM.ttf';
 export const IBMPlexSansCondensed_100Thin_Italic =
-  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v7/Gg8hN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYas8M_LhakJHhOgBg.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v8/Gg8hN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYas8M_LhakJHhOgBg.ttf';
 export const IBMPlexSansCondensed_200ExtraLight =
-  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v7/Gg8gN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHY5m6Yvrr4cFFwq5.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v8/Gg8gN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHY5m6Yvrr4cFFwq5.ttf';
 export const IBMPlexSansCondensed_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v7/Gg8iN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYas8GPqpYMnEhq5H1w.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v8/Gg8iN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYas8GPqpYMnEhq5H1w.ttf';
 export const IBMPlexSansCondensed_300Light =
-  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v7/Gg8gN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHY4C6ovrr4cFFwq5.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v8/Gg8gN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHY4C6ovrr4cFFwq5.ttf';
 export const IBMPlexSansCondensed_300Light_Italic =
-  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v7/Gg8iN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYas8AfppYMnEhq5H1w.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v8/Gg8iN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYas8AfppYMnEhq5H1w.ttf';
 export const IBMPlexSansCondensed_400Regular =
-  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v7/Gg8lN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHbauwq_jhJsM.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v8/Gg8lN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHbauwq_jhJsM.ttf';
 export const IBMPlexSansCondensed_400Regular_Italic =
-  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v7/Gg8nN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYasyKvBgYsMDhM.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v8/Gg8nN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYasyKvBgYsMDhM.ttf';
 export const IBMPlexSansCondensed_500Medium =
-  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v7/Gg8gN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHY5a64vrr4cFFwq5.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v8/Gg8gN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHY5a64vrr4cFFwq5.ttf';
 export const IBMPlexSansCondensed_500Medium_Italic =
-  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v7/Gg8iN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYas8F_opYMnEhq5H1w.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v8/Gg8iN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYas8F_opYMnEhq5H1w.ttf';
 export const IBMPlexSansCondensed_600SemiBold =
-  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v7/Gg8gN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHY527Ivrr4cFFwq5.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v8/Gg8gN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHY527Ivrr4cFFwq5.ttf';
 export const IBMPlexSansCondensed_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v7/Gg8iN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYas8HPvpYMnEhq5H1w.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v8/Gg8iN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYas8HPvpYMnEhq5H1w.ttf';
 export const IBMPlexSansCondensed_700Bold =
-  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v7/Gg8gN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHY4S7Yvrr4cFFwq5.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v8/Gg8gN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHY4S7Yvrr4cFFwq5.ttf';
 export const IBMPlexSansCondensed_700Bold_Italic =
-  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v7/Gg8iN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYas8BfupYMnEhq5H1w.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsanscondensed/v8/Gg8iN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYas8BfupYMnEhq5H1w.ttf';
 export const IBMPlexSans_100Thin =
-  'http://fonts.gstatic.com/s/ibmplexsans/v8/zYX-KVElMYYaJe8bpLHnCwDKjbLeEKxIedbzDw.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsans/v9/zYX-KVElMYYaJe8bpLHnCwDKjbLeEKxIedbzDw.ttf';
 export const IBMPlexSans_100Thin_Italic =
-  'http://fonts.gstatic.com/s/ibmplexsans/v8/zYX8KVElMYYaJe8bpLHnCwDKhdTmdKZMW9PjD3N8.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsans/v9/zYX8KVElMYYaJe8bpLHnCwDKhdTmdKZMW9PjD3N8.ttf';
 export const IBMPlexSans_200ExtraLight =
-  'http://fonts.gstatic.com/s/ibmplexsans/v8/zYX9KVElMYYaJe8bpLHnCwDKjR7_MIZmdd_qFmo.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsans/v9/zYX9KVElMYYaJe8bpLHnCwDKjR7_MIZmdd_qFmo.ttf';
 export const IBMPlexSans_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/ibmplexsans/v8/zYX7KVElMYYaJe8bpLHnCwDKhdTm2Idscf3vBmpl8A.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsans/v9/zYX7KVElMYYaJe8bpLHnCwDKhdTm2Idscf3vBmpl8A.ttf';
 export const IBMPlexSans_300Light =
-  'http://fonts.gstatic.com/s/ibmplexsans/v8/zYX9KVElMYYaJe8bpLHnCwDKjXr8MIZmdd_qFmo.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsans/v9/zYX9KVElMYYaJe8bpLHnCwDKjXr8MIZmdd_qFmo.ttf';
 export const IBMPlexSans_300Light_Italic =
-  'http://fonts.gstatic.com/s/ibmplexsans/v8/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRscf3vBmpl8A.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsans/v9/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRscf3vBmpl8A.ttf';
 export const IBMPlexSans_400Regular =
-  'http://fonts.gstatic.com/s/ibmplexsans/v8/zYXgKVElMYYaJe8bpLHnCwDKtdbUFI5NadY.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsans/v9/zYXgKVElMYYaJe8bpLHnCwDKtdbUFI5NadY.ttf';
 export const IBMPlexSans_400Regular_Italic =
-  'http://fonts.gstatic.com/s/ibmplexsans/v8/zYX-KVElMYYaJe8bpLHnCwDKhdTeEKxIedbzDw.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsans/v9/zYX-KVElMYYaJe8bpLHnCwDKhdTeEKxIedbzDw.ttf';
 export const IBMPlexSans_500Medium =
-  'http://fonts.gstatic.com/s/ibmplexsans/v8/zYX9KVElMYYaJe8bpLHnCwDKjSL9MIZmdd_qFmo.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsans/v9/zYX9KVElMYYaJe8bpLHnCwDKjSL9MIZmdd_qFmo.ttf';
 export const IBMPlexSans_500Medium_Italic =
-  'http://fonts.gstatic.com/s/ibmplexsans/v8/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVscf3vBmpl8A.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsans/v9/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVscf3vBmpl8A.ttf';
 export const IBMPlexSans_600SemiBold =
-  'http://fonts.gstatic.com/s/ibmplexsans/v8/zYX9KVElMYYaJe8bpLHnCwDKjQ76MIZmdd_qFmo.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsans/v9/zYX9KVElMYYaJe8bpLHnCwDKjQ76MIZmdd_qFmo.ttf';
 export const IBMPlexSans_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/ibmplexsans/v8/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJscf3vBmpl8A.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsans/v9/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJscf3vBmpl8A.ttf';
 export const IBMPlexSans_700Bold =
-  'http://fonts.gstatic.com/s/ibmplexsans/v8/zYX9KVElMYYaJe8bpLHnCwDKjWr7MIZmdd_qFmo.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsans/v9/zYX9KVElMYYaJe8bpLHnCwDKjWr7MIZmdd_qFmo.ttf';
 export const IBMPlexSans_700Bold_Italic =
-  'http://fonts.gstatic.com/s/ibmplexsans/v8/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINscf3vBmpl8A.ttf';
+  'http://fonts.gstatic.com/s/ibmplexsans/v9/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINscf3vBmpl8A.ttf';
 export const IBMPlexSerif_100Thin =
-  'http://fonts.gstatic.com/s/ibmplexserif/v9/jizBREVNn1dOx-zrZ2X3pZvkTi182zIZj1bIkNo.ttf';
+  'http://fonts.gstatic.com/s/ibmplexserif/v10/jizBREVNn1dOx-zrZ2X3pZvkTi182zIZj1bIkNo.ttf';
 export const IBMPlexSerif_100Thin_Italic =
-  'http://fonts.gstatic.com/s/ibmplexserif/v9/jizHREVNn1dOx-zrZ2X3pZvkTiUa41YTi3TNgNq55w.ttf';
+  'http://fonts.gstatic.com/s/ibmplexserif/v10/jizHREVNn1dOx-zrZ2X3pZvkTiUa41YTi3TNgNq55w.ttf';
 export const IBMPlexSerif_200ExtraLight =
-  'http://fonts.gstatic.com/s/ibmplexserif/v9/jizAREVNn1dOx-zrZ2X3pZvkTi3Q-hIzoVrBicOg.ttf';
+  'http://fonts.gstatic.com/s/ibmplexserif/v10/jizAREVNn1dOx-zrZ2X3pZvkTi3Q-hIzoVrBicOg.ttf';
 export const IBMPlexSerif_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/ibmplexserif/v9/jizGREVNn1dOx-zrZ2X3pZvkTiUa4_oyq17jjNOg_oc.ttf';
+  'http://fonts.gstatic.com/s/ibmplexserif/v10/jizGREVNn1dOx-zrZ2X3pZvkTiUa4_oyq17jjNOg_oc.ttf';
 export const IBMPlexSerif_300Light =
-  'http://fonts.gstatic.com/s/ibmplexserif/v9/jizAREVNn1dOx-zrZ2X3pZvkTi20-RIzoVrBicOg.ttf';
+  'http://fonts.gstatic.com/s/ibmplexserif/v10/jizAREVNn1dOx-zrZ2X3pZvkTi20-RIzoVrBicOg.ttf';
 export const IBMPlexSerif_300Light_Italic =
-  'http://fonts.gstatic.com/s/ibmplexserif/v9/jizGREVNn1dOx-zrZ2X3pZvkTiUa454xq17jjNOg_oc.ttf';
+  'http://fonts.gstatic.com/s/ibmplexserif/v10/jizGREVNn1dOx-zrZ2X3pZvkTiUa454xq17jjNOg_oc.ttf';
 export const IBMPlexSerif_400Regular =
-  'http://fonts.gstatic.com/s/ibmplexserif/v9/jizDREVNn1dOx-zrZ2X3pZvkThUY0TY7ikbI.ttf';
+  'http://fonts.gstatic.com/s/ibmplexserif/v10/jizDREVNn1dOx-zrZ2X3pZvkThUY0TY7ikbI.ttf';
 export const IBMPlexSerif_400Regular_Italic =
-  'http://fonts.gstatic.com/s/ibmplexserif/v9/jizBREVNn1dOx-zrZ2X3pZvkTiUa2zIZj1bIkNo.ttf';
+  'http://fonts.gstatic.com/s/ibmplexserif/v10/jizBREVNn1dOx-zrZ2X3pZvkTiUa2zIZj1bIkNo.ttf';
 export const IBMPlexSerif_500Medium =
-  'http://fonts.gstatic.com/s/ibmplexserif/v9/jizAREVNn1dOx-zrZ2X3pZvkTi3s-BIzoVrBicOg.ttf';
+  'http://fonts.gstatic.com/s/ibmplexserif/v10/jizAREVNn1dOx-zrZ2X3pZvkTi3s-BIzoVrBicOg.ttf';
 export const IBMPlexSerif_500Medium_Italic =
-  'http://fonts.gstatic.com/s/ibmplexserif/v9/jizGREVNn1dOx-zrZ2X3pZvkTiUa48Ywq17jjNOg_oc.ttf';
+  'http://fonts.gstatic.com/s/ibmplexserif/v10/jizGREVNn1dOx-zrZ2X3pZvkTiUa48Ywq17jjNOg_oc.ttf';
 export const IBMPlexSerif_600SemiBold =
-  'http://fonts.gstatic.com/s/ibmplexserif/v9/jizAREVNn1dOx-zrZ2X3pZvkTi3A_xIzoVrBicOg.ttf';
+  'http://fonts.gstatic.com/s/ibmplexserif/v10/jizAREVNn1dOx-zrZ2X3pZvkTi3A_xIzoVrBicOg.ttf';
 export const IBMPlexSerif_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/ibmplexserif/v9/jizGREVNn1dOx-zrZ2X3pZvkTiUa4-o3q17jjNOg_oc.ttf';
+  'http://fonts.gstatic.com/s/ibmplexserif/v10/jizGREVNn1dOx-zrZ2X3pZvkTiUa4-o3q17jjNOg_oc.ttf';
 export const IBMPlexSerif_700Bold =
-  'http://fonts.gstatic.com/s/ibmplexserif/v9/jizAREVNn1dOx-zrZ2X3pZvkTi2k_hIzoVrBicOg.ttf';
+  'http://fonts.gstatic.com/s/ibmplexserif/v10/jizAREVNn1dOx-zrZ2X3pZvkTi2k_hIzoVrBicOg.ttf';
 export const IBMPlexSerif_700Bold_Italic =
-  'http://fonts.gstatic.com/s/ibmplexserif/v9/jizGREVNn1dOx-zrZ2X3pZvkTiUa4442q17jjNOg_oc.ttf';
-export const Mina_400Regular = 'http://fonts.gstatic.com/s/mina/v6/-nFzOGc18vARrz9j7i3y65o.ttf';
-export const Mina_700Bold = 'http://fonts.gstatic.com/s/mina/v6/-nF8OGc18vARl4NMyiXZ95OkJwA.ttf';
+  'http://fonts.gstatic.com/s/ibmplexserif/v10/jizGREVNn1dOx-zrZ2X3pZvkTiUa4442q17jjNOg_oc.ttf';
+export const Mina_400Regular = 'http://fonts.gstatic.com/s/mina/v9/-nFzOGc18vARrz9j7i3y65o.ttf';
+export const Mina_700Bold = 'http://fonts.gstatic.com/s/mina/v9/-nF8OGc18vARl4NMyiXZ95OkJwA.ttf';
 export const Gaegu_300Light =
-  'http://fonts.gstatic.com/s/gaegu/v10/TuGSUVB6Up9NU57nifw74sdtBk0x.ttf';
-export const Gaegu_400Regular = 'http://fonts.gstatic.com/s/gaegu/v10/TuGfUVB6Up9NU6ZLodgzydtk.ttf';
+  'http://fonts.gstatic.com/s/gaegu/v13/TuGSUVB6Up9NU57nifw74sdtBk0x.ttf';
+export const Gaegu_400Regular = 'http://fonts.gstatic.com/s/gaegu/v13/TuGfUVB6Up9NU6ZLodgzydtk.ttf';
 export const Gaegu_700Bold =
-  'http://fonts.gstatic.com/s/gaegu/v10/TuGSUVB6Up9NU573jvw74sdtBk0x.ttf';
+  'http://fonts.gstatic.com/s/gaegu/v13/TuGSUVB6Up9NU573jvw74sdtBk0x.ttf';
 export const BlackAndWhitePicture_400Regular =
-  'http://fonts.gstatic.com/s/blackandwhitepicture/v10/TwMe-JAERlQd3ooUHBUXGmrmioKjjnRSFO-NqI5HbcMi-yWY.ttf';
+  'http://fonts.gstatic.com/s/blackandwhitepicture/v20/TwMe-JAERlQd3ooUHBUXGmrmioKjjnRSFO-NqI5HbcMi-yWY.ttf';
 export const Stylish_400Regular =
-  'http://fonts.gstatic.com/s/stylish/v10/m8JSjfhPYriQkk7-fo35dLxEdmo.ttf';
+  'http://fonts.gstatic.com/s/stylish/v18/m8JSjfhPYriQkk7-fo35dLxEdmo.ttf';
 export const Sunflower_300Light =
-  'http://fonts.gstatic.com/s/sunflower/v9/RWmPoKeF8fUjqIj7Vc-06MfiqYsGBGBzCw.ttf';
+  'http://fonts.gstatic.com/s/sunflower/v12/RWmPoKeF8fUjqIj7Vc-06MfiqYsGBGBzCw.ttf';
 export const Sunflower_500Medium =
-  'http://fonts.gstatic.com/s/sunflower/v9/RWmPoKeF8fUjqIj7Vc-0sMbiqYsGBGBzCw.ttf';
+  'http://fonts.gstatic.com/s/sunflower/v12/RWmPoKeF8fUjqIj7Vc-0sMbiqYsGBGBzCw.ttf';
 export const Sunflower_700Bold =
-  'http://fonts.gstatic.com/s/sunflower/v9/RWmPoKeF8fUjqIj7Vc-0-MDiqYsGBGBzCw.ttf';
+  'http://fonts.gstatic.com/s/sunflower/v12/RWmPoKeF8fUjqIj7Vc-0-MDiqYsGBGBzCw.ttf';
 export const DoHyeon_400Regular =
-  'http://fonts.gstatic.com/s/dohyeon/v11/TwMN-I8CRRU2zM86HFE3ZwaH__-C.ttf';
+  'http://fonts.gstatic.com/s/dohyeon/v14/TwMN-I8CRRU2zM86HFE3ZwaH__-C.ttf';
 export const GothicA1_100Thin =
   'http://fonts.gstatic.com/s/gothica1/v8/CSR74z5ZnPydRjlCCwlCCMcqYtd2vfwk.ttf';
 export const GothicA1_200ExtraLight =
@@ -1987,29 +4417,29 @@ export const GothicA1_800ExtraBold =
   'http://fonts.gstatic.com/s/gothica1/v8/CSR44z5ZnPydRjlCCwlCzOEKSPl6tOU9Eg.ttf';
 export const GothicA1_900Black =
   'http://fonts.gstatic.com/s/gothica1/v8/CSR44z5ZnPydRjlCCwlC6OAKSPl6tOU9Eg.ttf';
-export const Jua_400Regular = 'http://fonts.gstatic.com/s/jua/v8/co3KmW9ljjAjc-DZCsKgsg.ttf';
+export const Jua_400Regular = 'http://fonts.gstatic.com/s/jua/v11/co3KmW9ljjAjc-DZCsKgsg.ttf';
 export const KirangHaerang_400Regular =
-  'http://fonts.gstatic.com/s/kiranghaerang/v10/E21-_dn_gvvIjhYON1lpIU4-bcqvWPaJq4no.ttf';
+  'http://fonts.gstatic.com/s/kiranghaerang/v18/E21-_dn_gvvIjhYON1lpIU4-bcqvWPaJq4no.ttf';
 export const BlackHanSans_400Regular =
   'http://fonts.gstatic.com/s/blackhansans/v8/ea8Aad44WunzF9a-dL6toA8r8nqVIXSkH-Hc.ttf';
 export const CuteFont_400Regular =
-  'http://fonts.gstatic.com/s/cutefont/v10/Noaw6Uny2oWPbSHMrY6vmJNVNC9hkw.ttf';
-export const Dokdo_400Regular = 'http://fonts.gstatic.com/s/dokdo/v10/esDf315XNuCBLxLo4NaMlKcH.ttf';
+  'http://fonts.gstatic.com/s/cutefont/v18/Noaw6Uny2oWPbSHMrY6vmJNVNC9hkw.ttf';
+export const Dokdo_400Regular = 'http://fonts.gstatic.com/s/dokdo/v13/esDf315XNuCBLxLo4NaMlKcH.ttf';
 export const GamjaFlower_400Regular =
-  'http://fonts.gstatic.com/s/gamjaflower/v10/6NUR8FiKJg-Pa0rM6uN40Z4kyf9Fdty2ew.ttf';
-export const Gugi_400Regular = 'http://fonts.gstatic.com/s/gugi/v8/A2BVn5dXywshVA6A9DEfgqM.ttf';
+  'http://fonts.gstatic.com/s/gamjaflower/v18/6NUR8FiKJg-Pa0rM6uN40Z4kyf9Fdty2ew.ttf';
+export const Gugi_400Regular = 'http://fonts.gstatic.com/s/gugi/v11/A2BVn5dXywshVA6A9DEfgqM.ttf';
 export const HiMelody_400Regular =
-  'http://fonts.gstatic.com/s/himelody/v8/46ktlbP8Vnz0pJcqCTbEf29E31BBGA.ttf';
+  'http://fonts.gstatic.com/s/himelody/v11/46ktlbP8Vnz0pJcqCTbEf29E31BBGA.ttf';
 export const PoorStory_400Regular =
-  'http://fonts.gstatic.com/s/poorstory/v10/jizfREFUsnUct9P6cDfd4OmnLD0Z4zM.ttf';
+  'http://fonts.gstatic.com/s/poorstory/v18/jizfREFUsnUct9P6cDfd4OmnLD0Z4zM.ttf';
 export const SongMyung_400Regular =
-  'http://fonts.gstatic.com/s/songmyung/v10/1cX2aUDWAJH5-EIC7DIhr1GqhcitzeM.ttf';
+  'http://fonts.gstatic.com/s/songmyung/v18/1cX2aUDWAJH5-EIC7DIhr1GqhcitzeM.ttf';
 export const YeonSung_400Regular =
-  'http://fonts.gstatic.com/s/yeonsung/v10/QldMNTpbohAGtsJvUn6xSVNazqx2xg.ttf';
+  'http://fonts.gstatic.com/s/yeonsung/v18/QldMNTpbohAGtsJvUn6xSVNazqx2xg.ttf';
 export const SingleDay_400Regular =
-  'http://fonts.gstatic.com/s/singleday/v5/LYjHdGDjlEgoAcF95EI5jVoFUNfeQJU.ttf';
+  'http://fonts.gstatic.com/s/singleday/v13/LYjHdGDjlEgoAcF95EI5jVoFUNfeQJU.ttf';
 export const NanumBrushScript_400Regular =
-  'http://fonts.gstatic.com/s/nanumbrushscript/v17/wXK2E2wfpokopxzthSqPbcR5_gVaxazyjqBr1lO97Q.ttf';
+  'http://fonts.gstatic.com/s/nanumbrushscript/v20/wXK2E2wfpokopxzthSqPbcR5_gVaxazyjqBr1lO97Q.ttf';
 export const NanumGothic_400Regular =
   'http://fonts.gstatic.com/s/nanumgothic/v17/PN_3Rfi-oW3hYwmKDpxS7F_z_tLfxno73g.ttf';
 export const NanumGothic_700Bold =
@@ -2029,19 +4459,19 @@ export const NanumMyeongjo_800ExtraBold =
 export const NanumPenScript_400Regular =
   'http://fonts.gstatic.com/s/nanumpenscript/v15/daaDSSYiLGqEal3MvdA_FOL_3FkN2z7-aMFCcTU.ttf';
 export const NotoSansKR_100Thin =
-  'http://fonts.gstatic.com/s/notosanskr/v13/Pby6FmXiEBPT4ITbgNA5CgmOsn7uwpYcuH8y.otf';
+  'http://fonts.gstatic.com/s/notosanskr/v21/Pby6FmXiEBPT4ITbgNA5CgmOsn7uwpYcuH8y.otf';
 export const NotoSansKR_300Light =
-  'http://fonts.gstatic.com/s/notosanskr/v13/Pby7FmXiEBPT4ITbgNA5CgmOelzI7rgQsWYrzw.otf';
+  'http://fonts.gstatic.com/s/notosanskr/v21/Pby7FmXiEBPT4ITbgNA5CgmOelzI7rgQsWYrzw.otf';
 export const NotoSansKR_400Regular =
-  'http://fonts.gstatic.com/s/notosanskr/v13/PbykFmXiEBPT4ITbgNA5Cgm20HTs4JMMuA.otf';
+  'http://fonts.gstatic.com/s/notosanskr/v21/PbykFmXiEBPT4ITbgNA5Cgm20HTs4JMMuA.otf';
 export const NotoSansKR_500Medium =
-  'http://fonts.gstatic.com/s/notosanskr/v13/Pby7FmXiEBPT4ITbgNA5CgmOIl3I7rgQsWYrzw.otf';
+  'http://fonts.gstatic.com/s/notosanskr/v21/Pby7FmXiEBPT4ITbgNA5CgmOIl3I7rgQsWYrzw.otf';
 export const NotoSansKR_700Bold =
-  'http://fonts.gstatic.com/s/notosanskr/v13/Pby7FmXiEBPT4ITbgNA5CgmOalvI7rgQsWYrzw.otf';
+  'http://fonts.gstatic.com/s/notosanskr/v21/Pby7FmXiEBPT4ITbgNA5CgmOalvI7rgQsWYrzw.otf';
 export const NotoSansKR_900Black =
-  'http://fonts.gstatic.com/s/notosanskr/v13/Pby7FmXiEBPT4ITbgNA5CgmOUlnI7rgQsWYrzw.otf';
+  'http://fonts.gstatic.com/s/notosanskr/v21/Pby7FmXiEBPT4ITbgNA5CgmOUlnI7rgQsWYrzw.otf';
 export const LibreCaslonDisplay_400Regular =
-  'http://fonts.gstatic.com/s/librecaslondisplay/v4/TuGOUUFxWphYQ6YI6q9Xp61FQzxDRKmzr2lRdRhtCC4d.ttf';
+  'http://fonts.gstatic.com/s/librecaslondisplay/v12/TuGOUUFxWphYQ6YI6q9Xp61FQzxDRKmzr2lRdRhtCC4d.ttf';
 export const Barlow_100Thin =
   'http://fonts.gstatic.com/s/barlow/v5/7cHrv4kjgoGqM7E3b8s8yn4hnCci.ttf';
 export const Barlow_100Thin_Italic =
@@ -2115,85 +4545,85 @@ export const BarlowCondensed_900Black =
 export const BarlowCondensed_900Black_Italic =
   'http://fonts.gstatic.com/s/barlowcondensed/v5/HTxyL3I-JCGChYJ8VI-L6OO_au7B6xTrW3bWvIMHYrtUxg.ttf';
 export const BarlowSemiCondensed_100Thin =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlphgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRfG4qvKk8ogoSP.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlphgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRfG4qvKk8ogoSP.ttf';
 export const BarlowSemiCondensed_100Thin_Italic =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlpjgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbLLIEsKh5SPZWs.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlpjgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbLLIEsKh5SPZWs.ttf';
 export const BarlowSemiCondensed_200ExtraLight =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRft6uPAGEki52WfA.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRft6uPAGEki52WfA.ttf';
 export const BarlowSemiCondensed_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbJnAWsgqZiGfHK5.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbJnAWsgqZiGfHK5.ttf';
 export const BarlowSemiCondensed_300Light =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRf06iPAGEki52WfA.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRf06iPAGEki52WfA.ttf';
 export const BarlowSemiCondensed_300Light_Italic =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbIDAmsgqZiGfHK5.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbIDAmsgqZiGfHK5.ttf';
 export const BarlowSemiCondensed_400Regular =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlpvgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRnf4CrCEo4gg.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlpvgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRnf4CrCEo4gg.ttf';
 export const BarlowSemiCondensed_400Regular_Italic =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlphgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfYqvKk8ogoSP.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlphgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfYqvKk8ogoSP.ttf';
 export const BarlowSemiCondensed_500Medium =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRfi6mPAGEki52WfA.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRfi6mPAGEki52WfA.ttf';
 export const BarlowSemiCondensed_500Medium_Italic =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbJbA2sgqZiGfHK5.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbJbA2sgqZiGfHK5.ttf';
 export const BarlowSemiCondensed_600SemiBold =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRfp66PAGEki52WfA.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRfp66PAGEki52WfA.ttf';
 export const BarlowSemiCondensed_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbJ3BGsgqZiGfHK5.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbJ3BGsgqZiGfHK5.ttf';
 export const BarlowSemiCondensed_700Bold =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRfw6-PAGEki52WfA.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRfw6-PAGEki52WfA.ttf';
 export const BarlowSemiCondensed_700Bold_Italic =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbITBWsgqZiGfHK5.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbITBWsgqZiGfHK5.ttf';
 export const BarlowSemiCondensed_800ExtraBold =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRf36yPAGEki52WfA.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRf36yPAGEki52WfA.ttf';
 export const BarlowSemiCondensed_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbIPBmsgqZiGfHK5.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbIPBmsgqZiGfHK5.ttf';
 export const BarlowSemiCondensed_900Black =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRf-62PAGEki52WfA.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRf-62PAGEki52WfA.ttf';
 export const BarlowSemiCondensed_900Black_Italic =
-  'http://fonts.gstatic.com/s/barlowsemicondensed/v6/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbIrB2sgqZiGfHK5.ttf';
+  'http://fonts.gstatic.com/s/barlowsemicondensed/v7/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbIrB2sgqZiGfHK5.ttf';
 export const SpectralSC_200ExtraLight =
-  'http://fonts.gstatic.com/s/spectralsc/v6/Ktk0ALCRZonmalTgyPmRfs1qwkTXPYeVXJZB.ttf';
+  'http://fonts.gstatic.com/s/spectralsc/v9/Ktk0ALCRZonmalTgyPmRfs1qwkTXPYeVXJZB.ttf';
 export const SpectralSC_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/spectralsc/v6/Ktk2ALCRZonmalTgyPmRfsWg26zWN4O3WYZB_sU.ttf';
+  'http://fonts.gstatic.com/s/spectralsc/v9/Ktk2ALCRZonmalTgyPmRfsWg26zWN4O3WYZB_sU.ttf';
 export const SpectralSC_300Light =
-  'http://fonts.gstatic.com/s/spectralsc/v6/Ktk0ALCRZonmalTgyPmRfs0OwUTXPYeVXJZB.ttf';
+  'http://fonts.gstatic.com/s/spectralsc/v9/Ktk0ALCRZonmalTgyPmRfs0OwUTXPYeVXJZB.ttf';
 export const SpectralSC_300Light_Italic =
-  'http://fonts.gstatic.com/s/spectralsc/v6/Ktk2ALCRZonmalTgyPmRfsWg28jVN4O3WYZB_sU.ttf';
+  'http://fonts.gstatic.com/s/spectralsc/v9/Ktk2ALCRZonmalTgyPmRfsWg28jVN4O3WYZB_sU.ttf';
 export const SpectralSC_400Regular =
-  'http://fonts.gstatic.com/s/spectralsc/v6/KtkpALCRZonmalTgyPmRfvWi6WDfFpuc.ttf';
+  'http://fonts.gstatic.com/s/spectralsc/v9/KtkpALCRZonmalTgyPmRfvWi6WDfFpuc.ttf';
 export const SpectralSC_400Regular_Italic =
-  'http://fonts.gstatic.com/s/spectralsc/v6/KtkrALCRZonmalTgyPmRfsWg42T9E4ucRY8.ttf';
+  'http://fonts.gstatic.com/s/spectralsc/v9/KtkrALCRZonmalTgyPmRfsWg42T9E4ucRY8.ttf';
 export const SpectralSC_500Medium =
-  'http://fonts.gstatic.com/s/spectralsc/v6/Ktk0ALCRZonmalTgyPmRfs1WwETXPYeVXJZB.ttf';
+  'http://fonts.gstatic.com/s/spectralsc/v9/Ktk0ALCRZonmalTgyPmRfs1WwETXPYeVXJZB.ttf';
 export const SpectralSC_500Medium_Italic =
-  'http://fonts.gstatic.com/s/spectralsc/v6/Ktk2ALCRZonmalTgyPmRfsWg25DUN4O3WYZB_sU.ttf';
+  'http://fonts.gstatic.com/s/spectralsc/v9/Ktk2ALCRZonmalTgyPmRfsWg25DUN4O3WYZB_sU.ttf';
 export const SpectralSC_600SemiBold =
-  'http://fonts.gstatic.com/s/spectralsc/v6/Ktk0ALCRZonmalTgyPmRfs16x0TXPYeVXJZB.ttf';
+  'http://fonts.gstatic.com/s/spectralsc/v9/Ktk0ALCRZonmalTgyPmRfs16x0TXPYeVXJZB.ttf';
 export const SpectralSC_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/spectralsc/v6/Ktk2ALCRZonmalTgyPmRfsWg27zTN4O3WYZB_sU.ttf';
+  'http://fonts.gstatic.com/s/spectralsc/v9/Ktk2ALCRZonmalTgyPmRfsWg27zTN4O3WYZB_sU.ttf';
 export const SpectralSC_700Bold =
-  'http://fonts.gstatic.com/s/spectralsc/v6/Ktk0ALCRZonmalTgyPmRfs0exkTXPYeVXJZB.ttf';
+  'http://fonts.gstatic.com/s/spectralsc/v9/Ktk0ALCRZonmalTgyPmRfs0exkTXPYeVXJZB.ttf';
 export const SpectralSC_700Bold_Italic =
-  'http://fonts.gstatic.com/s/spectralsc/v6/Ktk2ALCRZonmalTgyPmRfsWg29jSN4O3WYZB_sU.ttf';
+  'http://fonts.gstatic.com/s/spectralsc/v9/Ktk2ALCRZonmalTgyPmRfsWg29jSN4O3WYZB_sU.ttf';
 export const SpectralSC_800ExtraBold =
-  'http://fonts.gstatic.com/s/spectralsc/v6/Ktk0ALCRZonmalTgyPmRfs0CxUTXPYeVXJZB.ttf';
+  'http://fonts.gstatic.com/s/spectralsc/v9/Ktk0ALCRZonmalTgyPmRfs0CxUTXPYeVXJZB.ttf';
 export const SpectralSC_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/spectralsc/v6/Ktk2ALCRZonmalTgyPmRfsWg28TRN4O3WYZB_sU.ttf';
+  'http://fonts.gstatic.com/s/spectralsc/v9/Ktk2ALCRZonmalTgyPmRfsWg28TRN4O3WYZB_sU.ttf';
 export const VollkornSC_400Regular =
-  'http://fonts.gstatic.com/s/vollkornsc/v6/j8_v6-zQ3rXpceZj9cqnVhF5NH-iSq_E.ttf';
+  'http://fonts.gstatic.com/s/vollkornsc/v9/j8_v6-zQ3rXpceZj9cqnVhF5NH-iSq_E.ttf';
 export const VollkornSC_600SemiBold =
-  'http://fonts.gstatic.com/s/vollkornsc/v6/j8_y6-zQ3rXpceZj9cqnVimhGluqYbPN5Yjn.ttf';
+  'http://fonts.gstatic.com/s/vollkornsc/v9/j8_y6-zQ3rXpceZj9cqnVimhGluqYbPN5Yjn.ttf';
 export const VollkornSC_700Bold =
-  'http://fonts.gstatic.com/s/vollkornsc/v6/j8_y6-zQ3rXpceZj9cqnVinFG1uqYbPN5Yjn.ttf';
+  'http://fonts.gstatic.com/s/vollkornsc/v9/j8_y6-zQ3rXpceZj9cqnVinFG1uqYbPN5Yjn.ttf';
 export const VollkornSC_900Black =
-  'http://fonts.gstatic.com/s/vollkornsc/v6/j8_y6-zQ3rXpceZj9cqnVin9GVuqYbPN5Yjn.ttf';
+  'http://fonts.gstatic.com/s/vollkornsc/v9/j8_y6-zQ3rXpceZj9cqnVin9GVuqYbPN5Yjn.ttf';
 export const LibreBarcode39Extended_400Regular =
-  'http://fonts.gstatic.com/s/librebarcode39extended/v15/8At7Gt6_O5yNS0-K4Nf5U922qSzhJ3dUdfJpwNUgfNRCOZ1GOBw.ttf';
+  'http://fonts.gstatic.com/s/librebarcode39extended/v23/8At7Gt6_O5yNS0-K4Nf5U922qSzhJ3dUdfJpwNUgfNRCOZ1GOBw.ttf';
 export const LibreBarcode39ExtendedText_400Regular =
-  'http://fonts.gstatic.com/s/librebarcode39extendedtext/v15/eLG1P_rwIgOiDA7yrs9LoKaYRVLQ1YldrrOnnL7xPO4jNP68fLIiPopNNA.ttf';
+  'http://fonts.gstatic.com/s/librebarcode39extendedtext/v23/eLG1P_rwIgOiDA7yrs9LoKaYRVLQ1YldrrOnnL7xPO4jNP68fLIiPopNNA.ttf';
 export const SedgwickAve_400Regular =
-  'http://fonts.gstatic.com/s/sedgwickave/v6/uK_04rKEYuguzAcSYRdWTJq8Xmg1Vcf5JA.ttf';
+  'http://fonts.gstatic.com/s/sedgwickave/v10/uK_04rKEYuguzAcSYRdWTJq8Xmg1Vcf5JA.ttf';
 export const SedgwickAveDisplay_400Regular =
-  'http://fonts.gstatic.com/s/sedgwickavedisplay/v8/xfuu0XPgU3jZPUoUo3ScvmPi-NapQ8OxM2czd-YnOzUD.ttf';
+  'http://fonts.gstatic.com/s/sedgwickavedisplay/v17/xfuu0XPgU3jZPUoUo3ScvmPi-NapQ8OxM2czd-YnOzUD.ttf';
 export const AsapCondensed_400Regular =
   'http://fonts.gstatic.com/s/asapcondensed/v8/pxidypY1o9NHyXh3WvSbGSggdNeLYk1Mq3ap.ttf';
 export const AsapCondensed_400Regular_Italic =
@@ -2210,74 +4640,90 @@ export const AsapCondensed_700Bold =
   'http://fonts.gstatic.com/s/asapcondensed/v8/pxieypY1o9NHyXh3WvSbGSggdO83TWlEgGqgp-pO.ttf';
 export const AsapCondensed_700Bold_Italic =
   'http://fonts.gstatic.com/s/asapcondensed/v8/pxiYypY1o9NHyXh3WvSbGSggdOeJUPVBim6CovpOkXA.ttf';
+export const Faustina_300Light =
+  'http://fonts.gstatic.com/s/faustina/v11/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHls3IEvGVWWe8tbEg.ttf';
 export const Faustina_400Regular =
-  'http://fonts.gstatic.com/s/faustina/v8/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHlsgoEvGVWWe8tbEg.ttf';
+  'http://fonts.gstatic.com/s/faustina/v11/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHlsgoEvGVWWe8tbEg.ttf';
 export const Faustina_500Medium =
-  'http://fonts.gstatic.com/s/faustina/v8/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHlssIEvGVWWe8tbEg.ttf';
+  'http://fonts.gstatic.com/s/faustina/v11/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHlssIEvGVWWe8tbEg.ttf';
 export const Faustina_600SemiBold =
-  'http://fonts.gstatic.com/s/faustina/v8/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHlsXIYvGVWWe8tbEg.ttf';
+  'http://fonts.gstatic.com/s/faustina/v11/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHlsXIYvGVWWe8tbEg.ttf';
 export const Faustina_700Bold =
-  'http://fonts.gstatic.com/s/faustina/v8/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHlsZYYvGVWWe8tbEg.ttf';
+  'http://fonts.gstatic.com/s/faustina/v11/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHlsZYYvGVWWe8tbEg.ttf';
+export const Faustina_800ExtraBold =
+  'http://fonts.gstatic.com/s/faustina/v11/XLY4IZPxYpJfTbZAFXWzNT2SO8wpWHlsAoYvGVWWe8tbEg.ttf';
+export const Faustina_300Light_Italic =
+  'http://fonts.gstatic.com/s/faustina/v11/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsKZWl-SWc5LEnoF.ttf';
 export const Faustina_400Regular_Italic =
-  'http://fonts.gstatic.com/s/faustina/v8/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsLHWl-SWc5LEnoF.ttf';
+  'http://fonts.gstatic.com/s/faustina/v11/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsLHWl-SWc5LEnoF.ttf';
 export const Faustina_500Medium_Italic =
-  'http://fonts.gstatic.com/s/faustina/v8/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsL1Wl-SWc5LEnoF.ttf';
+  'http://fonts.gstatic.com/s/faustina/v11/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsL1Wl-SWc5LEnoF.ttf';
 export const Faustina_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/faustina/v8/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsIZXV-SWc5LEnoF.ttf';
+  'http://fonts.gstatic.com/s/faustina/v11/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsIZXV-SWc5LEnoF.ttf';
 export const Faustina_700Bold_Italic =
-  'http://fonts.gstatic.com/s/faustina/v8/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsIgXV-SWc5LEnoF.ttf';
+  'http://fonts.gstatic.com/s/faustina/v11/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsIgXV-SWc5LEnoF.ttf';
+export const Faustina_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/faustina/v11/XLY2IZPxYpJfTbZAFV-6B8JKUqez9n55SsJHXV-SWc5LEnoF.ttf';
+export const Manuale_300Light =
+  'http://fonts.gstatic.com/s/manuale/v15/f0Xp0eas_8Z-TFZdHv3mMxFaSqASeeG6e7wD1TB_JHHY.ttf';
 export const Manuale_400Regular =
-  'http://fonts.gstatic.com/s/manuale/v10/f0Xp0eas_8Z-TFZdHv3mMxFaSqASeeHke7wD1TB_JHHY.ttf';
+  'http://fonts.gstatic.com/s/manuale/v15/f0Xp0eas_8Z-TFZdHv3mMxFaSqASeeHke7wD1TB_JHHY.ttf';
 export const Manuale_500Medium =
-  'http://fonts.gstatic.com/s/manuale/v10/f0Xp0eas_8Z-TFZdHv3mMxFaSqASeeHWe7wD1TB_JHHY.ttf';
+  'http://fonts.gstatic.com/s/manuale/v15/f0Xp0eas_8Z-TFZdHv3mMxFaSqASeeHWe7wD1TB_JHHY.ttf';
 export const Manuale_600SemiBold =
-  'http://fonts.gstatic.com/s/manuale/v10/f0Xp0eas_8Z-TFZdHv3mMxFaSqASeeE6fLwD1TB_JHHY.ttf';
+  'http://fonts.gstatic.com/s/manuale/v15/f0Xp0eas_8Z-TFZdHv3mMxFaSqASeeE6fLwD1TB_JHHY.ttf';
 export const Manuale_700Bold =
-  'http://fonts.gstatic.com/s/manuale/v10/f0Xp0eas_8Z-TFZdHv3mMxFaSqASeeEDfLwD1TB_JHHY.ttf';
+  'http://fonts.gstatic.com/s/manuale/v15/f0Xp0eas_8Z-TFZdHv3mMxFaSqASeeEDfLwD1TB_JHHY.ttf';
+export const Manuale_800ExtraBold =
+  'http://fonts.gstatic.com/s/manuale/v15/f0Xp0eas_8Z-TFZdHv3mMxFaSqASeeFkfLwD1TB_JHHY.ttf';
+export const Manuale_300Light_Italic =
+  'http://fonts.gstatic.com/s/manuale/v15/f0Xn0eas_8Z-TFZdNPTUzMkzITq8fvQsOApA3zRdIWHYr8M.ttf';
 export const Manuale_400Regular_Italic =
-  'http://fonts.gstatic.com/s/manuale/v10/f0Xn0eas_8Z-TFZdNPTUzMkzITq8fvQsOFRA3zRdIWHYr8M.ttf';
+  'http://fonts.gstatic.com/s/manuale/v15/f0Xn0eas_8Z-TFZdNPTUzMkzITq8fvQsOFRA3zRdIWHYr8M.ttf';
 export const Manuale_500Medium_Italic =
-  'http://fonts.gstatic.com/s/manuale/v10/f0Xn0eas_8Z-TFZdNPTUzMkzITq8fvQsOGZA3zRdIWHYr8M.ttf';
+  'http://fonts.gstatic.com/s/manuale/v15/f0Xn0eas_8Z-TFZdNPTUzMkzITq8fvQsOGZA3zRdIWHYr8M.ttf';
 export const Manuale_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/manuale/v10/f0Xn0eas_8Z-TFZdNPTUzMkzITq8fvQsOIpH3zRdIWHYr8M.ttf';
+  'http://fonts.gstatic.com/s/manuale/v15/f0Xn0eas_8Z-TFZdNPTUzMkzITq8fvQsOIpH3zRdIWHYr8M.ttf';
 export const Manuale_700Bold_Italic =
-  'http://fonts.gstatic.com/s/manuale/v10/f0Xn0eas_8Z-TFZdNPTUzMkzITq8fvQsOLNH3zRdIWHYr8M.ttf';
+  'http://fonts.gstatic.com/s/manuale/v15/f0Xn0eas_8Z-TFZdNPTUzMkzITq8fvQsOLNH3zRdIWHYr8M.ttf';
+export const Manuale_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/manuale/v15/f0Xn0eas_8Z-TFZdNPTUzMkzITq8fvQsONRH3zRdIWHYr8M.ttf';
 export const Saira_100Thin =
-  'http://fonts.gstatic.com/s/saira/v7/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rDosg7lwYmUVY.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rDosg7lwYmUVY.ttf';
 export const Saira_200ExtraLight =
-  'http://fonts.gstatic.com/s/saira/v7/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA79rCosg7lwYmUVY.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA79rCosg7lwYmUVY.ttf';
 export const Saira_300Light =
-  'http://fonts.gstatic.com/s/saira/v7/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA7wTCosg7lwYmUVY.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA7wTCosg7lwYmUVY.ttf';
 export const Saira_400Regular =
-  'http://fonts.gstatic.com/s/saira/v7/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rCosg7lwYmUVY.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rCosg7lwYmUVY.ttf';
 export const Saira_500Medium =
-  'http://fonts.gstatic.com/s/saira/v7/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA72jCosg7lwYmUVY.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA72jCosg7lwYmUVY.ttf';
 export const Saira_600SemiBold =
-  'http://fonts.gstatic.com/s/saira/v7/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA74TFosg7lwYmUVY.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA74TFosg7lwYmUVY.ttf';
 export const Saira_700Bold =
-  'http://fonts.gstatic.com/s/saira/v7/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA773Fosg7lwYmUVY.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA773Fosg7lwYmUVY.ttf';
 export const Saira_800ExtraBold =
-  'http://fonts.gstatic.com/s/saira/v7/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA79rFosg7lwYmUVY.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA79rFosg7lwYmUVY.ttf';
 export const Saira_900Black =
-  'http://fonts.gstatic.com/s/saira/v7/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA7_PFosg7lwYmUVY.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA7_PFosg7lwYmUVY.ttf';
 export const Saira_100Thin_Italic =
-  'http://fonts.gstatic.com/s/saira/v7/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKBSooxkyQjQVYmxA.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKBSooxkyQjQVYmxA.ttf';
 export const Saira_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/saira/v7/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKByosxkyQjQVYmxA.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKByosxkyQjQVYmxA.ttf';
 export const Saira_300Light_Italic =
-  'http://fonts.gstatic.com/s/saira/v7/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKBFIsxkyQjQVYmxA.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKBFIsxkyQjQVYmxA.ttf';
 export const Saira_400Regular_Italic =
-  'http://fonts.gstatic.com/s/saira/v7/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKBSosxkyQjQVYmxA.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKBSosxkyQjQVYmxA.ttf';
 export const Saira_500Medium_Italic =
-  'http://fonts.gstatic.com/s/saira/v7/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKBeIsxkyQjQVYmxA.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKBeIsxkyQjQVYmxA.ttf';
 export const Saira_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/saira/v7/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKBlIwxkyQjQVYmxA.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKBlIwxkyQjQVYmxA.ttf';
 export const Saira_700Bold_Italic =
-  'http://fonts.gstatic.com/s/saira/v7/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKBrYwxkyQjQVYmxA.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKBrYwxkyQjQVYmxA.ttf';
 export const Saira_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/saira/v7/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKByowxkyQjQVYmxA.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKByowxkyQjQVYmxA.ttf';
 export const Saira_900Black_Italic =
-  'http://fonts.gstatic.com/s/saira/v7/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKB44wxkyQjQVYmxA.ttf';
+  'http://fonts.gstatic.com/s/saira/v8/memUYa2wxmKQyNkiV50dulWP7s95AqZTzZHcVdxWI9WH-pKB44wxkyQjQVYmxA.ttf';
 export const SairaCondensed_100Thin =
   'http://fonts.gstatic.com/s/sairacondensed/v6/EJRMQgErUN8XuHNEtX81i9TmEkrnwetA2omSrzS8.ttf';
 export const SairaCondensed_200ExtraLight =
@@ -2297,23 +4743,23 @@ export const SairaCondensed_800ExtraBold =
 export const SairaCondensed_900Black =
   'http://fonts.gstatic.com/s/sairacondensed/v6/EJRLQgErUN8XuHNEtX81i9TmEkrnIcxg8Keepi2lHw.ttf';
 export const SairaExtraCondensed_100Thin =
-  'http://fonts.gstatic.com/s/sairaextracondensed/v6/-nFsOHYr-vcC7h8MklGBkrvmUG9rbpkisrTri0jx9i5ss3a3.ttf';
+  'http://fonts.gstatic.com/s/sairaextracondensed/v9/-nFsOHYr-vcC7h8MklGBkrvmUG9rbpkisrTri0jx9i5ss3a3.ttf';
 export const SairaExtraCondensed_200ExtraLight =
-  'http://fonts.gstatic.com/s/sairaextracondensed/v6/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrJ2nR3ABgum-uoQ.ttf';
+  'http://fonts.gstatic.com/s/sairaextracondensed/v9/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrJ2nR3ABgum-uoQ.ttf';
 export const SairaExtraCondensed_300Light =
-  'http://fonts.gstatic.com/s/sairaextracondensed/v6/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrQ2rR3ABgum-uoQ.ttf';
+  'http://fonts.gstatic.com/s/sairaextracondensed/v9/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrQ2rR3ABgum-uoQ.ttf';
 export const SairaExtraCondensed_400Regular =
-  'http://fonts.gstatic.com/s/sairaextracondensed/v6/-nFiOHYr-vcC7h8MklGBkrvmUG9rbpkisrTT70L11Ct8sw.ttf';
+  'http://fonts.gstatic.com/s/sairaextracondensed/v9/-nFiOHYr-vcC7h8MklGBkrvmUG9rbpkisrTT70L11Ct8sw.ttf';
 export const SairaExtraCondensed_500Medium =
-  'http://fonts.gstatic.com/s/sairaextracondensed/v6/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrG2vR3ABgum-uoQ.ttf';
+  'http://fonts.gstatic.com/s/sairaextracondensed/v9/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrG2vR3ABgum-uoQ.ttf';
 export const SairaExtraCondensed_600SemiBold =
-  'http://fonts.gstatic.com/s/sairaextracondensed/v6/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrN2zR3ABgum-uoQ.ttf';
+  'http://fonts.gstatic.com/s/sairaextracondensed/v9/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrN2zR3ABgum-uoQ.ttf';
 export const SairaExtraCondensed_700Bold =
-  'http://fonts.gstatic.com/s/sairaextracondensed/v6/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrU23R3ABgum-uoQ.ttf';
+  'http://fonts.gstatic.com/s/sairaextracondensed/v9/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrU23R3ABgum-uoQ.ttf';
 export const SairaExtraCondensed_800ExtraBold =
-  'http://fonts.gstatic.com/s/sairaextracondensed/v6/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrT27R3ABgum-uoQ.ttf';
+  'http://fonts.gstatic.com/s/sairaextracondensed/v9/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrT27R3ABgum-uoQ.ttf';
 export const SairaExtraCondensed_900Black =
-  'http://fonts.gstatic.com/s/sairaextracondensed/v6/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTra2_R3ABgum-uoQ.ttf';
+  'http://fonts.gstatic.com/s/sairaextracondensed/v9/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTra2_R3ABgum-uoQ.ttf';
 export const SairaSemiCondensed_100Thin =
   'http://fonts.gstatic.com/s/sairasemicondensed/v6/U9MN6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXdvaOM8rXT-8V8.ttf';
 export const SairaSemiCondensed_200ExtraLight =
@@ -2333,13 +4779,13 @@ export const SairaSemiCondensed_800ExtraBold =
 export const SairaSemiCondensed_900Black =
   'http://fonts.gstatic.com/s/sairasemicondensed/v6/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXePT8MWg3j36Ebz.ttf';
 export const LibreBarcode128_400Regular =
-  'http://fonts.gstatic.com/s/librebarcode128/v16/cIfnMbdUsUoiW3O_hVviCwVjuLtXeJ_A_gMk0izH.ttf';
+  'http://fonts.gstatic.com/s/librebarcode128/v24/cIfnMbdUsUoiW3O_hVviCwVjuLtXeJ_A_gMk0izH.ttf';
 export const LibreBarcode128Text_400Regular =
-  'http://fonts.gstatic.com/s/librebarcode128text/v16/fdNv9tubt3ZEnz1Gu3I4-zppwZ9CWZ16Z0w5cV3Y6M90w4k.ttf';
+  'http://fonts.gstatic.com/s/librebarcode128text/v24/fdNv9tubt3ZEnz1Gu3I4-zppwZ9CWZ16Z0w5cV3Y6M90w4k.ttf';
 export const LibreBarcode39_400Regular =
-  'http://fonts.gstatic.com/s/librebarcode39/v14/-nFnOHM08vwC6h8Li1eQnP_AHzI2K_d709jy92k.ttf';
+  'http://fonts.gstatic.com/s/librebarcode39/v17/-nFnOHM08vwC6h8Li1eQnP_AHzI2K_d709jy92k.ttf';
 export const LibreBarcode39Text_400Regular =
-  'http://fonts.gstatic.com/s/librebarcode39text/v16/sJoa3KhViNKANw_E3LwoDXvs5Un0HQ1vT-031RRL-9rYaw.ttf';
+  'http://fonts.gstatic.com/s/librebarcode39text/v24/sJoa3KhViNKANw_E3LwoDXvs5Un0HQ1vT-031RRL-9rYaw.ttf';
 export const Mada_200ExtraLight =
   'http://fonts.gstatic.com/s/mada/v11/7Au_p_0qnzeSdf3nCCL8zkwMIFg.ttf';
 export const Mada_300Light = 'http://fonts.gstatic.com/s/mada/v11/7Au_p_0qnzeSdZnkCCL8zkwMIFg.ttf';
@@ -2350,11 +4796,11 @@ export const Mada_600SemiBold =
 export const Mada_700Bold = 'http://fonts.gstatic.com/s/mada/v11/7Au_p_0qnzeSdYnjCCL8zkwMIFg.ttf';
 export const Mada_900Black = 'http://fonts.gstatic.com/s/mada/v11/7Au_p_0qnzeSdbHhCCL8zkwMIFg.ttf';
 export const ZillaSlabHighlight_400Regular =
-  'http://fonts.gstatic.com/s/zillaslabhighlight/v10/gNMbW2BrTpK8-inLtBJgMMfbm6uNVDvRxhtIY2DwSXlM.ttf';
+  'http://fonts.gstatic.com/s/zillaslabhighlight/v15/gNMbW2BrTpK8-inLtBJgMMfbm6uNVDvRxhtIY2DwSXlM.ttf';
 export const ZillaSlabHighlight_700Bold =
-  'http://fonts.gstatic.com/s/zillaslabhighlight/v10/gNMUW2BrTpK8-inLtBJgMMfbm6uNVDvRxiP0TET4YmVF0Mb6.ttf';
+  'http://fonts.gstatic.com/s/zillaslabhighlight/v15/gNMUW2BrTpK8-inLtBJgMMfbm6uNVDvRxiP0TET4YmVF0Mb6.ttf';
 export const Bellefair_400Regular =
-  'http://fonts.gstatic.com/s/bellefair/v6/kJExBuYY6AAuhiXUxG19__A2pOdvDA.ttf';
+  'http://fonts.gstatic.com/s/bellefair/v11/kJExBuYY6AAuhiXUxG19__A2pOdvDA.ttf';
 export const ZillaSlab_300Light =
   'http://fonts.gstatic.com/s/zillaslab/v6/dFa5ZfeM_74wlPZtksIFYpEY2HSjWlhzbaw.ttf';
 export const ZillaSlab_300Light_Italic =
@@ -2417,20 +4863,34 @@ export const Spectral_800ExtraBold =
   'http://fonts.gstatic.com/s/spectral/v7/rnCs-xNNww_2s0amA9uetF3GY_etWWIJ.ttf';
 export const Spectral_800ExtraBold_Italic =
   'http://fonts.gstatic.com/s/spectral/v7/rnCu-xNNww_2s0amA9M8qt3AafOPXHIJErY.ttf';
+export const GemunuLibre_200ExtraLight =
+  'http://fonts.gstatic.com/s/gemunulibre/v4/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp05iJPvSLeMXPIWA.ttf';
+export const GemunuLibre_300Light =
+  'http://fonts.gstatic.com/s/gemunulibre/v4/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp00aJPvSLeMXPIWA.ttf';
+export const GemunuLibre_400Regular =
+  'http://fonts.gstatic.com/s/gemunulibre/v4/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0xiJPvSLeMXPIWA.ttf';
+export const GemunuLibre_500Medium =
+  'http://fonts.gstatic.com/s/gemunulibre/v4/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0yqJPvSLeMXPIWA.ttf';
+export const GemunuLibre_600SemiBold =
+  'http://fonts.gstatic.com/s/gemunulibre/v4/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp08aOPvSLeMXPIWA.ttf';
+export const GemunuLibre_700Bold =
+  'http://fonts.gstatic.com/s/gemunulibre/v4/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0_-OPvSLeMXPIWA.ttf';
+export const GemunuLibre_800ExtraBold =
+  'http://fonts.gstatic.com/s/gemunulibre/v4/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp05iOPvSLeMXPIWA.ttf';
 export const MuktaMahee_200ExtraLight =
-  'http://fonts.gstatic.com/s/muktamahee/v10/XRXN3IOIi0hcP8iVU67hA9MFcBoHJndqZCsW.ttf';
+  'http://fonts.gstatic.com/s/muktamahee/v13/XRXN3IOIi0hcP8iVU67hA9MFcBoHJndqZCsW.ttf';
 export const MuktaMahee_300Light =
-  'http://fonts.gstatic.com/s/muktamahee/v10/XRXN3IOIi0hcP8iVU67hA9NhcxoHJndqZCsW.ttf';
+  'http://fonts.gstatic.com/s/muktamahee/v13/XRXN3IOIi0hcP8iVU67hA9NhcxoHJndqZCsW.ttf';
 export const MuktaMahee_400Regular =
-  'http://fonts.gstatic.com/s/muktamahee/v10/XRXQ3IOIi0hcP8iVU67hA-vNWz4PDWtj.ttf';
+  'http://fonts.gstatic.com/s/muktamahee/v13/XRXQ3IOIi0hcP8iVU67hA-vNWz4PDWtj.ttf';
 export const MuktaMahee_500Medium =
-  'http://fonts.gstatic.com/s/muktamahee/v10/XRXN3IOIi0hcP8iVU67hA9M5choHJndqZCsW.ttf';
+  'http://fonts.gstatic.com/s/muktamahee/v13/XRXN3IOIi0hcP8iVU67hA9M5choHJndqZCsW.ttf';
 export const MuktaMahee_600SemiBold =
-  'http://fonts.gstatic.com/s/muktamahee/v10/XRXN3IOIi0hcP8iVU67hA9MVdRoHJndqZCsW.ttf';
+  'http://fonts.gstatic.com/s/muktamahee/v13/XRXN3IOIi0hcP8iVU67hA9MVdRoHJndqZCsW.ttf';
 export const MuktaMahee_700Bold =
-  'http://fonts.gstatic.com/s/muktamahee/v10/XRXN3IOIi0hcP8iVU67hA9NxdBoHJndqZCsW.ttf';
+  'http://fonts.gstatic.com/s/muktamahee/v13/XRXN3IOIi0hcP8iVU67hA9NxdBoHJndqZCsW.ttf';
 export const MuktaMahee_800ExtraBold =
-  'http://fonts.gstatic.com/s/muktamahee/v10/XRXN3IOIi0hcP8iVU67hA9NtdxoHJndqZCsW.ttf';
+  'http://fonts.gstatic.com/s/muktamahee/v13/XRXN3IOIi0hcP8iVU67hA9NtdxoHJndqZCsW.ttf';
 export const MuktaMalar_200ExtraLight =
   'http://fonts.gstatic.com/s/muktamalar/v7/MCoKzAXyz8LOE2FpJMxZqIMwBtAB62ruoAZW.ttf';
 export const MuktaMalar_300Light =
@@ -2482,59 +4942,59 @@ export const EncodeSansCondensed_800ExtraBold =
 export const EncodeSansCondensed_900Black =
   'http://fonts.gstatic.com/s/encodesanscondensed/v5/j8_46_LD37rqfuwxyIuaZhE6cRXOLtm2gfT-BYipByQJKnuIFA.ttf';
 export const EncodeSansExpanded_100Thin =
-  'http://fonts.gstatic.com/s/encodesansexpanded/v5/c4mx1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpJGKQNicoAbJlw.ttf';
+  'http://fonts.gstatic.com/s/encodesansexpanded/v8/c4mx1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpJGKQNicoAbJlw.ttf';
 export const EncodeSansExpanded_200ExtraLight =
-  'http://fonts.gstatic.com/s/encodesansexpanded/v5/c4mw1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpLqCCNIXIwSP0XD.ttf';
+  'http://fonts.gstatic.com/s/encodesansexpanded/v8/c4mw1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpLqCCNIXIwSP0XD.ttf';
 export const EncodeSansExpanded_300Light =
-  'http://fonts.gstatic.com/s/encodesansexpanded/v5/c4mw1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpKOCyNIXIwSP0XD.ttf';
+  'http://fonts.gstatic.com/s/encodesansexpanded/v8/c4mw1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpKOCyNIXIwSP0XD.ttf';
 export const EncodeSansExpanded_400Regular =
-  'http://fonts.gstatic.com/s/encodesansexpanded/v5/c4m_1mF4GcnstG_Jh1QH6ac4hNLeNyeYUqoiIwdAd5Ab.ttf';
+  'http://fonts.gstatic.com/s/encodesansexpanded/v8/c4m_1mF4GcnstG_Jh1QH6ac4hNLeNyeYUqoiIwdAd5Ab.ttf';
 export const EncodeSansExpanded_500Medium =
-  'http://fonts.gstatic.com/s/encodesansexpanded/v5/c4mw1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpLWCiNIXIwSP0XD.ttf';
+  'http://fonts.gstatic.com/s/encodesansexpanded/v8/c4mw1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpLWCiNIXIwSP0XD.ttf';
 export const EncodeSansExpanded_600SemiBold =
-  'http://fonts.gstatic.com/s/encodesansexpanded/v5/c4mw1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpL6DSNIXIwSP0XD.ttf';
+  'http://fonts.gstatic.com/s/encodesansexpanded/v8/c4mw1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpL6DSNIXIwSP0XD.ttf';
 export const EncodeSansExpanded_700Bold =
-  'http://fonts.gstatic.com/s/encodesansexpanded/v5/c4mw1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpKeDCNIXIwSP0XD.ttf';
+  'http://fonts.gstatic.com/s/encodesansexpanded/v8/c4mw1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpKeDCNIXIwSP0XD.ttf';
 export const EncodeSansExpanded_800ExtraBold =
-  'http://fonts.gstatic.com/s/encodesansexpanded/v5/c4mw1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpKCDyNIXIwSP0XD.ttf';
+  'http://fonts.gstatic.com/s/encodesansexpanded/v8/c4mw1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpKCDyNIXIwSP0XD.ttf';
 export const EncodeSansExpanded_900Black =
-  'http://fonts.gstatic.com/s/encodesansexpanded/v5/c4mw1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpKmDiNIXIwSP0XD.ttf';
+  'http://fonts.gstatic.com/s/encodesansexpanded/v8/c4mw1mF4GcnstG_Jh1QH6ac4hNLeNyeYUpKmDiNIXIwSP0XD.ttf';
 export const EncodeSansSemiCondensed_100Thin =
-  'http://fonts.gstatic.com/s/encodesanssemicondensed/v5/3qT6oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG1T19MFtQ9jpVUA.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemicondensed/v8/3qT6oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG1T19MFtQ9jpVUA.ttf';
 export const EncodeSansSemiCondensed_200ExtraLight =
-  'http://fonts.gstatic.com/s/encodesanssemicondensed/v5/3qT7oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG1RZ1eFHbdTgTFmr.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemicondensed/v8/3qT7oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG1RZ1eFHbdTgTFmr.ttf';
 export const EncodeSansSemiCondensed_300Light =
-  'http://fonts.gstatic.com/s/encodesanssemicondensed/v5/3qT7oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG1Q91uFHbdTgTFmr.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemicondensed/v8/3qT7oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG1Q91uFHbdTgTFmr.ttf';
 export const EncodeSansSemiCondensed_400Regular =
-  'http://fonts.gstatic.com/s/encodesanssemicondensed/v5/3qT4oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG2yR_sVPRsjp.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemicondensed/v8/3qT4oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG2yR_sVPRsjp.ttf';
 export const EncodeSansSemiCondensed_500Medium =
-  'http://fonts.gstatic.com/s/encodesanssemicondensed/v5/3qT7oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG1Rl1-FHbdTgTFmr.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemicondensed/v8/3qT7oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG1Rl1-FHbdTgTFmr.ttf';
 export const EncodeSansSemiCondensed_600SemiBold =
-  'http://fonts.gstatic.com/s/encodesanssemicondensed/v5/3qT7oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG1RJ0OFHbdTgTFmr.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemicondensed/v8/3qT7oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG1RJ0OFHbdTgTFmr.ttf';
 export const EncodeSansSemiCondensed_700Bold =
-  'http://fonts.gstatic.com/s/encodesanssemicondensed/v5/3qT7oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG1Qt0eFHbdTgTFmr.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemicondensed/v8/3qT7oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG1Qt0eFHbdTgTFmr.ttf';
 export const EncodeSansSemiCondensed_800ExtraBold =
-  'http://fonts.gstatic.com/s/encodesanssemicondensed/v5/3qT7oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG1Qx0uFHbdTgTFmr.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemicondensed/v8/3qT7oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG1Qx0uFHbdTgTFmr.ttf';
 export const EncodeSansSemiCondensed_900Black =
-  'http://fonts.gstatic.com/s/encodesanssemicondensed/v5/3qT7oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG1QV0-FHbdTgTFmr.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemicondensed/v8/3qT7oiKqnDuUtQUEHMoXcmspmy55SFWrXFRp9FTOG1QV0-FHbdTgTFmr.ttf';
 export const EncodeSansSemiExpanded_100Thin =
-  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v8/ke8xOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TM-41KwrlKXeOEA.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v16/ke8xOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TM-41KwrlKXeOEA.ttf';
 export const EncodeSansSemiExpanded_200ExtraLight =
-  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v8/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TM0IUCyDLJX6XCWU.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v16/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TM0IUCyDLJX6XCWU.ttf';
 export const EncodeSansSemiExpanded_300Light =
-  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v8/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TMyYXCyDLJX6XCWU.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v16/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TMyYXCyDLJX6XCWU.ttf';
 export const EncodeSansSemiExpanded_400Regular =
-  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v8/ke83OhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TC4o_LyjgOXc.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v16/ke83OhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TC4o_LyjgOXc.ttf';
 export const EncodeSansSemiExpanded_500Medium =
-  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v8/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TM34WCyDLJX6XCWU.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v16/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TM34WCyDLJX6XCWU.ttf';
 export const EncodeSansSemiExpanded_600SemiBold =
-  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v8/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TM1IRCyDLJX6XCWU.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v16/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TM1IRCyDLJX6XCWU.ttf';
 export const EncodeSansSemiExpanded_700Bold =
-  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v8/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TMzYQCyDLJX6XCWU.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v16/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TMzYQCyDLJX6XCWU.ttf';
 export const EncodeSansSemiExpanded_800ExtraBold =
-  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v8/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TMyoTCyDLJX6XCWU.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v16/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TMyoTCyDLJX6XCWU.ttf';
 export const EncodeSansSemiExpanded_900Black =
-  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v8/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TMw4SCyDLJX6XCWU.ttf';
+  'http://fonts.gstatic.com/s/encodesanssemiexpanded/v16/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TMw4SCyDLJX6XCWU.ttf';
 export const Mukta_200ExtraLight =
   'http://fonts.gstatic.com/s/mukta/v8/iJWHBXyXfDDVXbEOjFma-2HW7ZB_.ttf';
 export const Mukta_300Light =
@@ -2550,33 +5010,33 @@ export const Mukta_800ExtraBold =
 export const Pangolin_400Regular =
   'http://fonts.gstatic.com/s/pangolin/v6/cY9GfjGcW0FPpi-tWPfK5d3aiLBG.ttf';
 export const NunitoSans_200ExtraLight =
-  'http://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc9yAv5qWVAgVol-.ttf';
+  'http://fonts.gstatic.com/s/nunitosans/v8/pe03MImSLYBIv1o4X1M8cc9yAv5qWVAgVol-.ttf';
 export const NunitoSans_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4GxZrU1QCU5l-06Y.ttf';
+  'http://fonts.gstatic.com/s/nunitosans/v8/pe01MImSLYBIv1o4X1M8cce4GxZrU1QCU5l-06Y.ttf';
 export const NunitoSans_300Light =
-  'http://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8WAf5qWVAgVol-.ttf';
+  'http://fonts.gstatic.com/s/nunitosans/v8/pe03MImSLYBIv1o4X1M8cc8WAf5qWVAgVol-.ttf';
 export const NunitoSans_300Light_Italic =
-  'http://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G3JoU1QCU5l-06Y.ttf';
+  'http://fonts.gstatic.com/s/nunitosans/v8/pe01MImSLYBIv1o4X1M8cce4G3JoU1QCU5l-06Y.ttf';
 export const NunitoSans_400Regular =
-  'http://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cfe6Kdpickwp.ttf';
+  'http://fonts.gstatic.com/s/nunitosans/v8/pe0qMImSLYBIv1o4X1M8cfe6Kdpickwp.ttf';
 export const NunitoSans_400Regular_Italic =
-  'http://fonts.gstatic.com/s/nunitosans/v6/pe0oMImSLYBIv1o4X1M8cce4I95Ad1wpT5A.ttf';
+  'http://fonts.gstatic.com/s/nunitosans/v8/pe0oMImSLYBIv1o4X1M8cce4I95Ad1wpT5A.ttf';
 export const NunitoSans_600SemiBold =
-  'http://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc9iB_5qWVAgVol-.ttf';
+  'http://fonts.gstatic.com/s/nunitosans/v8/pe03MImSLYBIv1o4X1M8cc9iB_5qWVAgVol-.ttf';
 export const NunitoSans_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4GwZuU1QCU5l-06Y.ttf';
+  'http://fonts.gstatic.com/s/nunitosans/v8/pe01MImSLYBIv1o4X1M8cce4GwZuU1QCU5l-06Y.ttf';
 export const NunitoSans_700Bold =
-  'http://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBv5qWVAgVol-.ttf';
+  'http://fonts.gstatic.com/s/nunitosans/v8/pe03MImSLYBIv1o4X1M8cc8GBv5qWVAgVol-.ttf';
 export const NunitoSans_700Bold_Italic =
-  'http://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G2JvU1QCU5l-06Y.ttf';
+  'http://fonts.gstatic.com/s/nunitosans/v8/pe01MImSLYBIv1o4X1M8cce4G2JvU1QCU5l-06Y.ttf';
 export const NunitoSans_800ExtraBold =
-  'http://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8aBf5qWVAgVol-.ttf';
+  'http://fonts.gstatic.com/s/nunitosans/v8/pe03MImSLYBIv1o4X1M8cc8aBf5qWVAgVol-.ttf';
 export const NunitoSans_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G35sU1QCU5l-06Y.ttf';
+  'http://fonts.gstatic.com/s/nunitosans/v8/pe01MImSLYBIv1o4X1M8cce4G35sU1QCU5l-06Y.ttf';
 export const NunitoSans_900Black =
-  'http://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8-BP5qWVAgVol-.ttf';
+  'http://fonts.gstatic.com/s/nunitosans/v8/pe03MImSLYBIv1o4X1M8cc8-BP5qWVAgVol-.ttf';
 export const NunitoSans_900Black_Italic =
-  'http://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G1ptU1QCU5l-06Y.ttf';
+  'http://fonts.gstatic.com/s/nunitosans/v8/pe01MImSLYBIv1o4X1M8cce4G1ptU1QCU5l-06Y.ttf';
 export const FiraSansCondensed_100Thin =
   'http://fonts.gstatic.com/s/firasanscondensed/v5/wEOjEADFm8hSaQTFG18FErVhsC9x-tarWZXtqOlQfx9CjA.ttf';
 export const FiraSansCondensed_100Thin_Italic =
@@ -2674,85 +5134,91 @@ export const Sansita_900Black =
 export const Sansita_900Black_Italic =
   'http://fonts.gstatic.com/s/sansita/v5/QldJNTRRphEb_-V7LBuJzX5-xodqz_joDQ.ttf';
 export const Archivo_100Thin =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTNDJp8B1oJ0vyVQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTNDJp8B1oJ0vyVQ.ttf';
 export const Archivo_200ExtraLight =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTtDNp8B1oJ0vyVQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTtDNp8B1oJ0vyVQ.ttf';
 export const Archivo_300Light =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTajNp8B1oJ0vyVQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTajNp8B1oJ0vyVQ.ttf';
 export const Archivo_400Regular =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTNDNp8B1oJ0vyVQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTNDNp8B1oJ0vyVQ.ttf';
 export const Archivo_500Medium =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTBjNp8B1oJ0vyVQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTBjNp8B1oJ0vyVQ.ttf';
 export const Archivo_600SemiBold =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTT6jRp8B1oJ0vyVQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTT6jRp8B1oJ0vyVQ.ttf';
 export const Archivo_700Bold =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTT0zRp8B1oJ0vyVQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTT0zRp8B1oJ0vyVQ.ttf';
 export const Archivo_800ExtraBold =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTtDRp8B1oJ0vyVQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTtDRp8B1oJ0vyVQ.ttf';
 export const Archivo_900Black =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTnTRp8B1oJ0vyVQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTnTRp8B1oJ0vyVQ.ttf';
 export const Archivo_100Thin_Italic =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HCBshdsBU7iVdxQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HCBshdsBU7iVdxQ.ttf';
 export const Archivo_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HABsxdsBU7iVdxQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HABsxdsBU7iVdxQ.ttf';
 export const Archivo_300Light_Italic =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HDfsxdsBU7iVdxQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HDfsxdsBU7iVdxQ.ttf';
 export const Archivo_400Regular_Italic =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HCBsxdsBU7iVdxQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HCBsxdsBU7iVdxQ.ttf';
 export const Archivo_500Medium_Italic =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HCzsxdsBU7iVdxQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HCzsxdsBU7iVdxQ.ttf';
 export const Archivo_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HBftBdsBU7iVdxQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HBftBdsBU7iVdxQ.ttf';
 export const Archivo_700Bold_Italic =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HBmtBdsBU7iVdxQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HBmtBdsBU7iVdxQ.ttf';
 export const Archivo_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HABtBdsBU7iVdxQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HABtBdsBU7iVdxQ.ttf';
 export const Archivo_900Black_Italic =
-  'http://fonts.gstatic.com/s/archivo/v8/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HAotBdsBU7iVdxQ.ttf';
+  'http://fonts.gstatic.com/s/archivo/v9/k3k8o8UDI-1M0wlSfdzyIEkpwTM29hr-8mTYIRyOSVz60_PG_HAotBdsBU7iVdxQ.ttf';
 export const Bahiana_400Regular =
-  'http://fonts.gstatic.com/s/bahiana/v7/uU9PCBUV4YenPWJU7xPb3vyHmlI.ttf';
+  'http://fonts.gstatic.com/s/bahiana/v17/uU9PCBUV4YenPWJU7xPb3vyHmlI.ttf';
 export const Barrio_400Regular =
-  'http://fonts.gstatic.com/s/barrio/v7/wEO8EBXBk8hBIDiEdQYhWdsX1Q.ttf';
+  'http://fonts.gstatic.com/s/barrio/v17/wEO8EBXBk8hBIDiEdQYhWdsX1Q.ttf';
 export const Overpass_100Thin =
-  'http://fonts.gstatic.com/s/overpass/v5/qFdB35WCmI96Ajtm81nGU97gxhcJk1s.ttf';
-export const Overpass_100Thin_Italic =
-  'http://fonts.gstatic.com/s/overpass/v5/qFdD35WCmI96Ajtm81Gga7rqwjUMg1siNQ.ttf';
+  'http://fonts.gstatic.com/s/overpass/v7/qFda35WCmI96Ajtm83upeyoaX6QPnlo6_PLrOZCLtce-og.ttf';
 export const Overpass_200ExtraLight =
-  'http://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81lqcv7K6BsAikI7.ttf';
-export const Overpass_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/overpass/v5/qFdC35WCmI96Ajtm81GgaxbL4h8ij1I7LLE.ttf';
+  'http://fonts.gstatic.com/s/overpass/v7/qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPPrOZCLtce-og.ttf';
 export const Overpass_300Light =
-  'http://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81kOcf7K6BsAikI7.ttf';
-export const Overpass_300Light_Italic =
-  'http://fonts.gstatic.com/s/overpass/v5/qFdC35WCmI96Ajtm81Gga3LI4h8ij1I7LLE.ttf';
+  'http://fonts.gstatic.com/s/overpass/v7/qFda35WCmI96Ajtm83upeyoaX6QPnlo6ovPrOZCLtce-og.ttf';
 export const Overpass_400Regular =
-  'http://fonts.gstatic.com/s/overpass/v5/qFdH35WCmI96Ajtm82GiWdrCwwcJ.ttf';
-export const Overpass_400Regular_Italic =
-  'http://fonts.gstatic.com/s/overpass/v5/qFdB35WCmI96Ajtm81GgU97gxhcJk1s.ttf';
+  'http://fonts.gstatic.com/s/overpass/v7/qFda35WCmI96Ajtm83upeyoaX6QPnlo6_PPrOZCLtce-og.ttf';
+export const Overpass_500Medium =
+  'http://fonts.gstatic.com/s/overpass/v7/qFda35WCmI96Ajtm83upeyoaX6QPnlo6zvPrOZCLtce-og.ttf';
 export const Overpass_600SemiBold =
-  'http://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81l6d_7K6BsAikI7.ttf';
-export const Overpass_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/overpass/v5/qFdC35WCmI96Ajtm81GgawbO4h8ij1I7LLE.ttf';
+  'http://fonts.gstatic.com/s/overpass/v7/qFda35WCmI96Ajtm83upeyoaX6QPnlo6IvTrOZCLtce-og.ttf';
 export const Overpass_700Bold =
-  'http://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81kedv7K6BsAikI7.ttf';
-export const Overpass_700Bold_Italic =
-  'http://fonts.gstatic.com/s/overpass/v5/qFdC35WCmI96Ajtm81Gga2LP4h8ij1I7LLE.ttf';
+  'http://fonts.gstatic.com/s/overpass/v7/qFda35WCmI96Ajtm83upeyoaX6QPnlo6G_TrOZCLtce-og.ttf';
 export const Overpass_800ExtraBold =
-  'http://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81kCdf7K6BsAikI7.ttf';
-export const Overpass_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/overpass/v5/qFdC35WCmI96Ajtm81Gga37M4h8ij1I7LLE.ttf';
+  'http://fonts.gstatic.com/s/overpass/v7/qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPTrOZCLtce-og.ttf';
 export const Overpass_900Black =
-  'http://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81kmdP7K6BsAikI7.ttf';
+  'http://fonts.gstatic.com/s/overpass/v7/qFda35WCmI96Ajtm83upeyoaX6QPnlo6VfTrOZCLtce-og.ttf';
+export const Overpass_100Thin_Italic =
+  'http://fonts.gstatic.com/s/overpass/v7/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLADe5qPl8Kuosgz.ttf';
+export const Overpass_200ExtraLight_Italic =
+  'http://fonts.gstatic.com/s/overpass/v7/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCDepqPl8Kuosgz.ttf';
+export const Overpass_300Light_Italic =
+  'http://fonts.gstatic.com/s/overpass/v7/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLBdepqPl8Kuosgz.ttf';
+export const Overpass_400Regular_Italic =
+  'http://fonts.gstatic.com/s/overpass/v7/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLADepqPl8Kuosgz.ttf';
+export const Overpass_500Medium_Italic =
+  'http://fonts.gstatic.com/s/overpass/v7/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLAxepqPl8Kuosgz.ttf';
+export const Overpass_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/overpass/v7/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLDdfZqPl8Kuosgz.ttf';
+export const Overpass_700Bold_Italic =
+  'http://fonts.gstatic.com/s/overpass/v7/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLDkfZqPl8Kuosgz.ttf';
+export const Overpass_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/overpass/v7/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCDfZqPl8Kuosgz.ttf';
 export const Overpass_900Black_Italic =
-  'http://fonts.gstatic.com/s/overpass/v5/qFdC35WCmI96Ajtm81Gga1rN4h8ij1I7LLE.ttf';
+  'http://fonts.gstatic.com/s/overpass/v7/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCqfZqPl8Kuosgz.ttf';
 export const OverpassMono_300Light =
-  'http://fonts.gstatic.com/s/overpassmono/v6/_Xm3-H86tzKDdAPa-KPQZ-AC3oSWk_edB3Zf8EQ.ttf';
+  'http://fonts.gstatic.com/s/overpassmono/v10/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EWKokzzXur-SmIr.ttf';
 export const OverpassMono_400Regular =
-  'http://fonts.gstatic.com/s/overpassmono/v6/_Xmq-H86tzKDdAPa-KPQZ-AC5ii-t_-2G38.ttf';
+  'http://fonts.gstatic.com/s/overpassmono/v10/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EXUokzzXur-SmIr.ttf';
+export const OverpassMono_500Medium =
+  'http://fonts.gstatic.com/s/overpassmono/v10/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EXmokzzXur-SmIr.ttf';
 export const OverpassMono_600SemiBold =
-  'http://fonts.gstatic.com/s/overpassmono/v6/_Xm3-H86tzKDdAPa-KPQZ-AC3vCQk_edB3Zf8EQ.ttf';
+  'http://fonts.gstatic.com/s/overpassmono/v10/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EUKpUzzXur-SmIr.ttf';
 export const OverpassMono_700Bold =
-  'http://fonts.gstatic.com/s/overpassmono/v6/_Xm3-H86tzKDdAPa-KPQZ-AC3pSRk_edB3Zf8EQ.ttf';
+  'http://fonts.gstatic.com/s/overpassmono/v10/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EUzpUzzXur-SmIr.ttf';
 export const Padauk_400Regular =
   'http://fonts.gstatic.com/s/padauk/v8/RrQRboJg-id7OnbBa0_g3LlYbg.ttf';
 export const Padauk_700Bold =
@@ -2768,12 +5234,12 @@ export const AbhayaLibre_700Bold =
 export const AbhayaLibre_800ExtraBold =
   'http://fonts.gstatic.com/s/abhayalibre/v6/e3t5euGtX-Co5MNzeAOqinEY22_yqtxI6oYtBA.ttf';
 export const ArefRuqaa_400Regular =
-  'http://fonts.gstatic.com/s/arefruqaa/v15/WwkbxPW1E165rajQKDulEIAiVNo5xNY.ttf';
+  'http://fonts.gstatic.com/s/arefruqaa/v21/WwkbxPW1E165rajQKDulEIAiVNo5xNY.ttf';
 export const ArefRuqaa_700Bold =
-  'http://fonts.gstatic.com/s/arefruqaa/v15/WwkYxPW1E165rajQKDulKDwNcNIS2N_7Bdk.ttf';
-export const Coiny_400Regular = 'http://fonts.gstatic.com/s/coiny/v8/gyByhwU1K989PXwbElSvO5Tc.ttf';
+  'http://fonts.gstatic.com/s/arefruqaa/v21/WwkYxPW1E165rajQKDulKDwNcNIS2N_7Bdk.ttf';
+export const Coiny_400Regular = 'http://fonts.gstatic.com/s/coiny/v14/gyByhwU1K989PXwbElSvO5Tc.ttf';
 export const Farsan_400Regular =
-  'http://fonts.gstatic.com/s/farsan/v8/VEMwRoJ0vY_zsyz62q-pxDX9rQ.ttf';
+  'http://fonts.gstatic.com/s/farsan/v16/VEMwRoJ0vY_zsyz62q-pxDX9rQ.ttf';
 export const FrankRuhlLibre_300Light =
   'http://fonts.gstatic.com/s/frankruhllibre/v6/j8_36_fAw7jrcalD7oKYNX0QfAnPUxvHxJDMhYeIHw8.ttf';
 export const FrankRuhlLibre_400Regular =
@@ -2785,15 +5251,15 @@ export const FrankRuhlLibre_700Bold =
 export const FrankRuhlLibre_900Black =
   'http://fonts.gstatic.com/s/frankruhllibre/v6/j8_36_fAw7jrcalD7oKYNX0QfAnPUzPCxJDMhYeIHw8.ttf';
 export const Galada_400Regular =
-  'http://fonts.gstatic.com/s/galada/v8/H4cmBXyGmcjXlUX-8iw-4Lqggw.ttf';
+  'http://fonts.gstatic.com/s/galada/v12/H4cmBXyGmcjXlUX-8iw-4Lqggw.ttf';
 export const Kavivanar_400Regular =
-  'http://fonts.gstatic.com/s/kavivanar/v8/o-0IIpQgyXYSwhxP7_Jb4j5Ba_2c7A.ttf';
+  'http://fonts.gstatic.com/s/kavivanar/v16/o-0IIpQgyXYSwhxP7_Jb4j5Ba_2c7A.ttf';
 export const MiriamLibre_400Regular =
-  'http://fonts.gstatic.com/s/miriamlibre/v7/DdTh798HsHwubBAqfkcBTL_vYJn_Teun9g.ttf';
+  'http://fonts.gstatic.com/s/miriamlibre/v10/DdTh798HsHwubBAqfkcBTL_vYJn_Teun9g.ttf';
 export const MiriamLibre_700Bold =
-  'http://fonts.gstatic.com/s/miriamlibre/v7/DdT-798HsHwubBAqfkcBTL_X3LbbRcC7_-Z7Hg.ttf';
+  'http://fonts.gstatic.com/s/miriamlibre/v10/DdT-798HsHwubBAqfkcBTL_X3LbbRcC7_-Z7Hg.ttf';
 export const AkayaTelivigala_400Regular =
-  'http://fonts.gstatic.com/s/akayatelivigala/v9/lJwc-oo_iG9wXqU3rCTD395tp0uifdLdsIH0YH8.ttf';
+  'http://fonts.gstatic.com/s/akayatelivigala/v20/lJwc-oo_iG9wXqU3rCTD395tp0uifdLdsIH0YH8.ttf';
 export const ArimaMadurai_100Thin =
   'http://fonts.gstatic.com/s/arimamadurai/v7/t5t4IRoeKYORG0WNMgnC3seB1V3PqrGCch4Drg.ttf';
 export const ArimaMadurai_200ExtraLight =
@@ -2811,78 +5277,83 @@ export const ArimaMadurai_800ExtraBold =
 export const ArimaMadurai_900Black =
   'http://fonts.gstatic.com/s/arimamadurai/v7/t5t7IRoeKYORG0WNMgnC3seB1b3oipusfhcat2c.ttf';
 export const Athiti_200ExtraLight =
-  'http://fonts.gstatic.com/s/athiti/v5/pe0sMISdLIZIv1wAxDNyAv2-C99ycg.ttf';
+  'http://fonts.gstatic.com/s/athiti/v10/pe0sMISdLIZIv1wAxDNyAv2-C99ycg.ttf';
 export const Athiti_300Light =
-  'http://fonts.gstatic.com/s/athiti/v5/pe0sMISdLIZIv1wAoDByAv2-C99ycg.ttf';
+  'http://fonts.gstatic.com/s/athiti/v10/pe0sMISdLIZIv1wAoDByAv2-C99ycg.ttf';
 export const Athiti_400Regular =
-  'http://fonts.gstatic.com/s/athiti/v5/pe0vMISdLIZIv1w4DBhWCtaiAg.ttf';
+  'http://fonts.gstatic.com/s/athiti/v10/pe0vMISdLIZIv1w4DBhWCtaiAg.ttf';
 export const Athiti_500Medium =
-  'http://fonts.gstatic.com/s/athiti/v5/pe0sMISdLIZIv1wA-DFyAv2-C99ycg.ttf';
+  'http://fonts.gstatic.com/s/athiti/v10/pe0sMISdLIZIv1wA-DFyAv2-C99ycg.ttf';
 export const Athiti_600SemiBold =
-  'http://fonts.gstatic.com/s/athiti/v5/pe0sMISdLIZIv1wA1DZyAv2-C99ycg.ttf';
+  'http://fonts.gstatic.com/s/athiti/v10/pe0sMISdLIZIv1wA1DZyAv2-C99ycg.ttf';
 export const Athiti_700Bold =
-  'http://fonts.gstatic.com/s/athiti/v5/pe0sMISdLIZIv1wAsDdyAv2-C99ycg.ttf';
-export const Atma_300Light = 'http://fonts.gstatic.com/s/atma/v8/uK_z4rqWc-Eoo8JzKjc9PvedRkM.ttf';
-export const Atma_400Regular = 'http://fonts.gstatic.com/s/atma/v8/uK_84rqWc-Eom25bDj8WIv4.ttf';
-export const Atma_500Medium = 'http://fonts.gstatic.com/s/atma/v8/uK_z4rqWc-Eoo5pyKjc9PvedRkM.ttf';
+  'http://fonts.gstatic.com/s/athiti/v10/pe0sMISdLIZIv1wAsDdyAv2-C99ycg.ttf';
+export const Atma_300Light = 'http://fonts.gstatic.com/s/atma/v13/uK_z4rqWc-Eoo8JzKjc9PvedRkM.ttf';
+export const Atma_400Regular = 'http://fonts.gstatic.com/s/atma/v13/uK_84rqWc-Eom25bDj8WIv4.ttf';
+export const Atma_500Medium = 'http://fonts.gstatic.com/s/atma/v13/uK_z4rqWc-Eoo5pyKjc9PvedRkM.ttf';
 export const Atma_600SemiBold =
-  'http://fonts.gstatic.com/s/atma/v8/uK_z4rqWc-Eoo7Z1Kjc9PvedRkM.ttf';
-export const Atma_700Bold = 'http://fonts.gstatic.com/s/atma/v8/uK_z4rqWc-Eoo9J0Kjc9PvedRkM.ttf';
+  'http://fonts.gstatic.com/s/atma/v13/uK_z4rqWc-Eoo7Z1Kjc9PvedRkM.ttf';
+export const Atma_700Bold = 'http://fonts.gstatic.com/s/atma/v13/uK_z4rqWc-Eoo9J0Kjc9PvedRkM.ttf';
 export const BioRhymeExpanded_200ExtraLight =
-  'http://fonts.gstatic.com/s/biorhymeexpanded/v8/i7dVIE1zZzytGswgU577CDY9LjbffxxcblSHSdTXrb_z.ttf';
+  'http://fonts.gstatic.com/s/biorhymeexpanded/v17/i7dVIE1zZzytGswgU577CDY9LjbffxxcblSHSdTXrb_z.ttf';
 export const BioRhymeExpanded_300Light =
-  'http://fonts.gstatic.com/s/biorhymeexpanded/v8/i7dVIE1zZzytGswgU577CDY9Ljbffxw4bVSHSdTXrb_z.ttf';
+  'http://fonts.gstatic.com/s/biorhymeexpanded/v17/i7dVIE1zZzytGswgU577CDY9Ljbffxw4bVSHSdTXrb_z.ttf';
 export const BioRhymeExpanded_400Regular =
-  'http://fonts.gstatic.com/s/biorhymeexpanded/v8/i7dQIE1zZzytGswgU577CDY9LjbffySURXCPYsje.ttf';
+  'http://fonts.gstatic.com/s/biorhymeexpanded/v17/i7dQIE1zZzytGswgU577CDY9LjbffySURXCPYsje.ttf';
 export const BioRhymeExpanded_700Bold =
-  'http://fonts.gstatic.com/s/biorhymeexpanded/v8/i7dVIE1zZzytGswgU577CDY9LjbffxwoalSHSdTXrb_z.ttf';
+  'http://fonts.gstatic.com/s/biorhymeexpanded/v17/i7dVIE1zZzytGswgU577CDY9LjbffxwoalSHSdTXrb_z.ttf';
 export const BioRhymeExpanded_800ExtraBold =
-  'http://fonts.gstatic.com/s/biorhymeexpanded/v8/i7dVIE1zZzytGswgU577CDY9Ljbffxw0aVSHSdTXrb_z.ttf';
+  'http://fonts.gstatic.com/s/biorhymeexpanded/v17/i7dVIE1zZzytGswgU577CDY9Ljbffxw0aVSHSdTXrb_z.ttf';
 export const Bungee_400Regular =
   'http://fonts.gstatic.com/s/bungee/v6/N0bU2SZBIuF2PU_ECn50Kd_PmA.ttf';
 export const BungeeHairline_400Regular =
-  'http://fonts.gstatic.com/s/bungeehairline/v8/snfys0G548t04270a_ljTLUVrv-7YB2dQ5ZPqQ.ttf';
+  'http://fonts.gstatic.com/s/bungeehairline/v16/snfys0G548t04270a_ljTLUVrv-7YB2dQ5ZPqQ.ttf';
 export const BungeeInline_400Regular =
-  'http://fonts.gstatic.com/s/bungeeinline/v6/Gg8zN58UcgnlCweMrih332VuDGJ1-FEglsc.ttf';
+  'http://fonts.gstatic.com/s/bungeeinline/v9/Gg8zN58UcgnlCweMrih332VuDGJ1-FEglsc.ttf';
 export const BungeeOutline_400Regular =
-  'http://fonts.gstatic.com/s/bungeeoutline/v8/_6_mEDvmVP24UvU2MyiGDslL3Qg3YhJqPXxo.ttf';
+  'http://fonts.gstatic.com/s/bungeeoutline/v16/_6_mEDvmVP24UvU2MyiGDslL3Qg3YhJqPXxo.ttf';
 export const BungeeShade_400Regular =
-  'http://fonts.gstatic.com/s/bungeeshade/v6/DtVkJxarWL0t2KdzK3oI_jks7iLSrwFUlw.ttf';
+  'http://fonts.gstatic.com/s/bungeeshade/v9/DtVkJxarWL0t2KdzK3oI_jks7iLSrwFUlw.ttf';
 export const Cairo_200ExtraLight =
-  'http://fonts.gstatic.com/s/cairo/v10/SLXLc1nY6Hkvalrub76M7dd8aGZk.ttf';
+  'http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5l2WgsQSaT0J0vRQ.ttf';
 export const Cairo_300Light =
-  'http://fonts.gstatic.com/s/cairo/v10/SLXLc1nY6HkvalqKbL6M7dd8aGZk.ttf';
-export const Cairo_400Regular = 'http://fonts.gstatic.com/s/cairo/v10/SLXGc1nY6HkvamImRJqExst1.ttf';
+  'http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5lB2gsQSaT0J0vRQ.ttf';
+export const Cairo_400Regular =
+  'http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5lWWgsQSaT0J0vRQ.ttf';
+export const Cairo_500Medium =
+  'http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5la2gsQSaT0J0vRQ.ttf';
 export const Cairo_600SemiBold =
-  'http://fonts.gstatic.com/s/cairo/v10/SLXLc1nY6Hkvalr-ar6M7dd8aGZk.ttf';
+  'http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5lh28sQSaT0J0vRQ.ttf';
 export const Cairo_700Bold =
-  'http://fonts.gstatic.com/s/cairo/v10/SLXLc1nY6Hkvalqaa76M7dd8aGZk.ttf';
+  'http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5lvm8sQSaT0J0vRQ.ttf';
+export const Cairo_800ExtraBold =
+  'http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5l2W8sQSaT0J0vRQ.ttf';
 export const Cairo_900Black =
-  'http://fonts.gstatic.com/s/cairo/v10/SLXLc1nY6Hkvalqiab6M7dd8aGZk.ttf';
+  'http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5l8G8sQSaT0J0vRQ.ttf';
 export const Changa_200ExtraLight =
-  'http://fonts.gstatic.com/s/changa/v11/2-c79JNi2YuVOUcOarRPgnNGooxCZy2xQjDp9htf1ZM.ttf';
+  'http://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZy2xQjDp9htf1ZM.ttf';
 export const Changa_300Light =
-  'http://fonts.gstatic.com/s/changa/v11/2-c79JNi2YuVOUcOarRPgnNGooxCZ_OxQjDp9htf1ZM.ttf';
+  'http://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZ_OxQjDp9htf1ZM.ttf';
 export const Changa_400Regular =
-  'http://fonts.gstatic.com/s/changa/v11/2-c79JNi2YuVOUcOarRPgnNGooxCZ62xQjDp9htf1ZM.ttf';
+  'http://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZ62xQjDp9htf1ZM.ttf';
 export const Changa_500Medium =
-  'http://fonts.gstatic.com/s/changa/v11/2-c79JNi2YuVOUcOarRPgnNGooxCZ5-xQjDp9htf1ZM.ttf';
+  'http://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZ5-xQjDp9htf1ZM.ttf';
 export const Changa_600SemiBold =
-  'http://fonts.gstatic.com/s/changa/v11/2-c79JNi2YuVOUcOarRPgnNGooxCZ3O2QjDp9htf1ZM.ttf';
+  'http://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZ3O2QjDp9htf1ZM.ttf';
 export const Changa_700Bold =
-  'http://fonts.gstatic.com/s/changa/v11/2-c79JNi2YuVOUcOarRPgnNGooxCZ0q2QjDp9htf1ZM.ttf';
+  'http://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZ0q2QjDp9htf1ZM.ttf';
 export const Changa_800ExtraBold =
-  'http://fonts.gstatic.com/s/changa/v11/2-c79JNi2YuVOUcOarRPgnNGooxCZy22QjDp9htf1ZM.ttf';
+  'http://fonts.gstatic.com/s/changa/v14/2-c79JNi2YuVOUcOarRPgnNGooxCZy22QjDp9htf1ZM.ttf';
 export const Chathura_100Thin =
-  'http://fonts.gstatic.com/s/chathura/v10/_gP91R7-rzUuVjim42dEq0SbTvZyuDo.ttf';
+  'http://fonts.gstatic.com/s/chathura/v18/_gP91R7-rzUuVjim42dEq0SbTvZyuDo.ttf';
 export const Chathura_300Light =
-  'http://fonts.gstatic.com/s/chathura/v10/_gP81R7-rzUuVjim42eMiWSxYPp7oSNy.ttf';
+  'http://fonts.gstatic.com/s/chathura/v18/_gP81R7-rzUuVjim42eMiWSxYPp7oSNy.ttf';
 export const Chathura_400Regular =
-  'http://fonts.gstatic.com/s/chathura/v10/_gP71R7-rzUuVjim418goUC5S-Zy.ttf';
+  'http://fonts.gstatic.com/s/chathura/v18/_gP71R7-rzUuVjim418goUC5S-Zy.ttf';
 export const Chathura_700Bold =
-  'http://fonts.gstatic.com/s/chathura/v10/_gP81R7-rzUuVjim42ecjmSxYPp7oSNy.ttf';
+  'http://fonts.gstatic.com/s/chathura/v18/_gP81R7-rzUuVjim42ecjmSxYPp7oSNy.ttf';
 export const Chathura_800ExtraBold =
-  'http://fonts.gstatic.com/s/chathura/v10/_gP81R7-rzUuVjim42eAjWSxYPp7oSNy.ttf';
+  'http://fonts.gstatic.com/s/chathura/v18/_gP81R7-rzUuVjim42eAjWSxYPp7oSNy.ttf';
 export const Cormorant_300Light =
   'http://fonts.gstatic.com/s/cormorant/v11/H4cgBXOCl9bbnla_nHIiRLmYgoyyYzFzFw.ttf';
 export const Cormorant_300Light_Italic =
@@ -2924,79 +5395,79 @@ export const CormorantGaramond_700Bold =
 export const CormorantGaramond_700Bold_Italic =
   'http://fonts.gstatic.com/s/cormorantgaramond/v10/co3WmX5slCNuHLi8bLeY9MK7whWMhyjYrEPzvA-NxBKL_y94.ttf';
 export const CormorantInfant_300Light =
-  'http://fonts.gstatic.com/s/cormorantinfant/v11/HhyIU44g9vKiM1sORYSiWeAsLN9951w3_DMrQqcdJrk.ttf';
+  'http://fonts.gstatic.com/s/cormorantinfant/v14/HhyIU44g9vKiM1sORYSiWeAsLN9951w3_DMrQqcdJrk.ttf';
 export const CormorantInfant_300Light_Italic =
-  'http://fonts.gstatic.com/s/cormorantinfant/v11/HhyKU44g9vKiM1sORYSiWeAsLN997_ItcDEhRoUYNrn_Ig.ttf';
+  'http://fonts.gstatic.com/s/cormorantinfant/v14/HhyKU44g9vKiM1sORYSiWeAsLN997_ItcDEhRoUYNrn_Ig.ttf';
 export const CormorantInfant_400Regular =
-  'http://fonts.gstatic.com/s/cormorantinfant/v11/HhyPU44g9vKiM1sORYSiWeAsLN993_Af2DsAXq4.ttf';
+  'http://fonts.gstatic.com/s/cormorantinfant/v14/HhyPU44g9vKiM1sORYSiWeAsLN993_Af2DsAXq4.ttf';
 export const CormorantInfant_400Regular_Italic =
-  'http://fonts.gstatic.com/s/cormorantinfant/v11/HhyJU44g9vKiM1sORYSiWeAsLN997_IV3BkFTq4EPw.ttf';
+  'http://fonts.gstatic.com/s/cormorantinfant/v14/HhyJU44g9vKiM1sORYSiWeAsLN997_IV3BkFTq4EPw.ttf';
 export const CormorantInfant_500Medium =
-  'http://fonts.gstatic.com/s/cormorantinfant/v11/HhyIU44g9vKiM1sORYSiWeAsLN995wQ2_DMrQqcdJrk.ttf';
+  'http://fonts.gstatic.com/s/cormorantinfant/v14/HhyIU44g9vKiM1sORYSiWeAsLN995wQ2_DMrQqcdJrk.ttf';
 export const CormorantInfant_500Medium_Italic =
-  'http://fonts.gstatic.com/s/cormorantinfant/v11/HhyKU44g9vKiM1sORYSiWeAsLN997_ItKDAhRoUYNrn_Ig.ttf';
+  'http://fonts.gstatic.com/s/cormorantinfant/v14/HhyKU44g9vKiM1sORYSiWeAsLN997_ItKDAhRoUYNrn_Ig.ttf';
 export const CormorantInfant_600SemiBold =
-  'http://fonts.gstatic.com/s/cormorantinfant/v11/HhyIU44g9vKiM1sORYSiWeAsLN995ygx_DMrQqcdJrk.ttf';
+  'http://fonts.gstatic.com/s/cormorantinfant/v14/HhyIU44g9vKiM1sORYSiWeAsLN995ygx_DMrQqcdJrk.ttf';
 export const CormorantInfant_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/cormorantinfant/v11/HhyKU44g9vKiM1sORYSiWeAsLN997_ItBDchRoUYNrn_Ig.ttf';
+  'http://fonts.gstatic.com/s/cormorantinfant/v14/HhyKU44g9vKiM1sORYSiWeAsLN997_ItBDchRoUYNrn_Ig.ttf';
 export const CormorantInfant_700Bold =
-  'http://fonts.gstatic.com/s/cormorantinfant/v11/HhyIU44g9vKiM1sORYSiWeAsLN9950ww_DMrQqcdJrk.ttf';
+  'http://fonts.gstatic.com/s/cormorantinfant/v14/HhyIU44g9vKiM1sORYSiWeAsLN9950ww_DMrQqcdJrk.ttf';
 export const CormorantInfant_700Bold_Italic =
-  'http://fonts.gstatic.com/s/cormorantinfant/v11/HhyKU44g9vKiM1sORYSiWeAsLN997_ItYDYhRoUYNrn_Ig.ttf';
+  'http://fonts.gstatic.com/s/cormorantinfant/v14/HhyKU44g9vKiM1sORYSiWeAsLN997_ItYDYhRoUYNrn_Ig.ttf';
 export const CormorantSC_300Light =
-  'http://fonts.gstatic.com/s/cormorantsc/v11/0ybmGD4kxqXBmOVLG30OGwsmABIU_R3y8DOWGA.ttf';
+  'http://fonts.gstatic.com/s/cormorantsc/v14/0ybmGD4kxqXBmOVLG30OGwsmABIU_R3y8DOWGA.ttf';
 export const CormorantSC_400Regular =
-  'http://fonts.gstatic.com/s/cormorantsc/v11/0yb5GD4kxqXBmOVLG30OGwserDow9Tbu-Q.ttf';
+  'http://fonts.gstatic.com/s/cormorantsc/v14/0yb5GD4kxqXBmOVLG30OGwserDow9Tbu-Q.ttf';
 export const CormorantSC_500Medium =
-  'http://fonts.gstatic.com/s/cormorantsc/v11/0ybmGD4kxqXBmOVLG30OGwsmWBMU_R3y8DOWGA.ttf';
+  'http://fonts.gstatic.com/s/cormorantsc/v14/0ybmGD4kxqXBmOVLG30OGwsmWBMU_R3y8DOWGA.ttf';
 export const CormorantSC_600SemiBold =
-  'http://fonts.gstatic.com/s/cormorantsc/v11/0ybmGD4kxqXBmOVLG30OGwsmdBQU_R3y8DOWGA.ttf';
+  'http://fonts.gstatic.com/s/cormorantsc/v14/0ybmGD4kxqXBmOVLG30OGwsmdBQU_R3y8DOWGA.ttf';
 export const CormorantSC_700Bold =
-  'http://fonts.gstatic.com/s/cormorantsc/v11/0ybmGD4kxqXBmOVLG30OGwsmEBUU_R3y8DOWGA.ttf';
+  'http://fonts.gstatic.com/s/cormorantsc/v14/0ybmGD4kxqXBmOVLG30OGwsmEBUU_R3y8DOWGA.ttf';
 export const CormorantUnicase_300Light =
-  'http://fonts.gstatic.com/s/cormorantunicase/v13/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9N_tucv7Gy0DRzS.ttf';
+  'http://fonts.gstatic.com/s/cormorantunicase/v21/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9N_tucv7Gy0DRzS.ttf';
 export const CormorantUnicase_400Regular =
-  'http://fonts.gstatic.com/s/cormorantunicase/v13/HI_QiZUaILtOqhqgDeXoF_n1_fTGX-vTnsMnx3C9.ttf';
+  'http://fonts.gstatic.com/s/cormorantunicase/v21/HI_QiZUaILtOqhqgDeXoF_n1_fTGX-vTnsMnx3C9.ttf';
 export const CormorantUnicase_500Medium =
-  'http://fonts.gstatic.com/s/cormorantunicase/v13/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9Mnt-cv7Gy0DRzS.ttf';
+  'http://fonts.gstatic.com/s/cormorantunicase/v21/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9Mnt-cv7Gy0DRzS.ttf';
 export const CormorantUnicase_600SemiBold =
-  'http://fonts.gstatic.com/s/cormorantunicase/v13/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9MLsOcv7Gy0DRzS.ttf';
+  'http://fonts.gstatic.com/s/cormorantunicase/v21/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9MLsOcv7Gy0DRzS.ttf';
 export const CormorantUnicase_700Bold =
-  'http://fonts.gstatic.com/s/cormorantunicase/v13/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9Nvsecv7Gy0DRzS.ttf';
+  'http://fonts.gstatic.com/s/cormorantunicase/v21/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9Nvsecv7Gy0DRzS.ttf';
 export const CormorantUpright_300Light =
-  'http://fonts.gstatic.com/s/cormorantupright/v11/VuJudM3I2Y35poFONtLdafkUCHw1y1N5phDsU9X6RPzQ.ttf';
+  'http://fonts.gstatic.com/s/cormorantupright/v16/VuJudM3I2Y35poFONtLdafkUCHw1y1N5phDsU9X6RPzQ.ttf';
 export const CormorantUpright_400Regular =
-  'http://fonts.gstatic.com/s/cormorantupright/v11/VuJrdM3I2Y35poFONtLdafkUCHw1y2vVjjTkeMnz.ttf';
+  'http://fonts.gstatic.com/s/cormorantupright/v16/VuJrdM3I2Y35poFONtLdafkUCHw1y2vVjjTkeMnz.ttf';
 export const CormorantUpright_500Medium =
-  'http://fonts.gstatic.com/s/cormorantupright/v11/VuJudM3I2Y35poFONtLdafkUCHw1y1MhpxDsU9X6RPzQ.ttf';
+  'http://fonts.gstatic.com/s/cormorantupright/v16/VuJudM3I2Y35poFONtLdafkUCHw1y1MhpxDsU9X6RPzQ.ttf';
 export const CormorantUpright_600SemiBold =
-  'http://fonts.gstatic.com/s/cormorantupright/v11/VuJudM3I2Y35poFONtLdafkUCHw1y1MNoBDsU9X6RPzQ.ttf';
+  'http://fonts.gstatic.com/s/cormorantupright/v16/VuJudM3I2Y35poFONtLdafkUCHw1y1MNoBDsU9X6RPzQ.ttf';
 export const CormorantUpright_700Bold =
-  'http://fonts.gstatic.com/s/cormorantupright/v11/VuJudM3I2Y35poFONtLdafkUCHw1y1NpoRDsU9X6RPzQ.ttf';
+  'http://fonts.gstatic.com/s/cormorantupright/v16/VuJudM3I2Y35poFONtLdafkUCHw1y1NpoRDsU9X6RPzQ.ttf';
 export const DavidLibre_400Regular =
-  'http://fonts.gstatic.com/s/davidlibre/v5/snfus0W_99N64iuYSvp4W_l86p6TYS-Y.ttf';
+  'http://fonts.gstatic.com/s/davidlibre/v9/snfus0W_99N64iuYSvp4W_l86p6TYS-Y.ttf';
 export const DavidLibre_500Medium =
-  'http://fonts.gstatic.com/s/davidlibre/v5/snfzs0W_99N64iuYSvp4W8GIw7qbSjORSo9W.ttf';
+  'http://fonts.gstatic.com/s/davidlibre/v9/snfzs0W_99N64iuYSvp4W8GIw7qbSjORSo9W.ttf';
 export const DavidLibre_700Bold =
-  'http://fonts.gstatic.com/s/davidlibre/v5/snfzs0W_99N64iuYSvp4W8HAxbqbSjORSo9W.ttf';
+  'http://fonts.gstatic.com/s/davidlibre/v9/snfzs0W_99N64iuYSvp4W8HAxbqbSjORSo9W.ttf';
 export const Heebo_100Thin =
-  'http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiS2cckOnz02SXQ.ttf';
+  'http://fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiS2cckOnz02SXQ.ttf';
 export const Heebo_200ExtraLight =
-  'http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1ECSycckOnz02SXQ.ttf';
+  'http://fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1ECSycckOnz02SXQ.ttf';
 export const Heebo_300Light =
-  'http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1E1yycckOnz02SXQ.ttf';
+  'http://fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1E1yycckOnz02SXQ.ttf';
 export const Heebo_400Regular =
-  'http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiSycckOnz02SXQ.ttf';
+  'http://fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiSycckOnz02SXQ.ttf';
 export const Heebo_500Medium =
-  'http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EuyycckOnz02SXQ.ttf';
+  'http://fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EuyycckOnz02SXQ.ttf';
 export const Heebo_600SemiBold =
-  'http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EVyucckOnz02SXQ.ttf';
+  'http://fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EVyucckOnz02SXQ.ttf';
 export const Heebo_700Bold =
-  'http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EbiucckOnz02SXQ.ttf';
+  'http://fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EbiucckOnz02SXQ.ttf';
 export const Heebo_800ExtraBold =
-  'http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1ECSucckOnz02SXQ.ttf';
+  'http://fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1ECSucckOnz02SXQ.ttf';
 export const Heebo_900Black =
-  'http://fonts.gstatic.com/s/heebo/v10/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EICucckOnz02SXQ.ttf';
+  'http://fonts.gstatic.com/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EICucckOnz02SXQ.ttf';
 export const HindGuntur_300Light =
   'http://fonts.gstatic.com/s/hindguntur/v7/wXKyE3UZrok56nvamSuJd_yGn1czn9zaj5Ju.ttf';
 export const HindGuntur_400Regular =
@@ -3040,25 +5511,25 @@ export const HindVadodara_700Bold =
 export const Jomhuria_400Regular =
   'http://fonts.gstatic.com/s/jomhuria/v12/Dxxp8j-TMXf-llKur2b1MOGbC3Dh.ttf';
 export const Katibeh_400Regular =
-  'http://fonts.gstatic.com/s/katibeh/v12/ZGjXol5MQJog4bxDaC1RVDNdGDs.ttf';
+  'http://fonts.gstatic.com/s/katibeh/v15/ZGjXol5MQJog4bxDaC1RVDNdGDs.ttf';
 export const KumarOne_400Regular =
-  'http://fonts.gstatic.com/s/kumarone/v7/bMr1mS-P958wYi6YaGeGNO6WU3oT0g.ttf';
+  'http://fonts.gstatic.com/s/kumarone/v15/bMr1mS-P958wYi6YaGeGNO6WU3oT0g.ttf';
 export const KumarOneOutline_400Regular =
-  'http://fonts.gstatic.com/s/kumaroneoutline/v8/Noao6VH62pyLP0fsrZ-v18wlUEcX9zDwRQu8EGKF.ttf';
+  'http://fonts.gstatic.com/s/kumaroneoutline/v16/Noao6VH62pyLP0fsrZ-v18wlUEcX9zDwRQu8EGKF.ttf';
 export const Lalezar_400Regular =
   'http://fonts.gstatic.com/s/lalezar/v9/zrfl0HLVx-HwTP82UaDyIiL0RCg.ttf';
 export const Langar_400Regular =
-  'http://fonts.gstatic.com/s/langar/v15/kJEyBukW7AIlgjGVrTVZ99sqrQ.ttf';
+  'http://fonts.gstatic.com/s/langar/v24/kJEyBukW7AIlgjGVrTVZ99sqrQ.ttf';
 export const Lemonada_300Light =
-  'http://fonts.gstatic.com/s/lemonada/v12/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGJOt2mfWc3Z2pTg.ttf';
+  'http://fonts.gstatic.com/s/lemonada/v14/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGJOt2mfWc3Z2pTg.ttf';
 export const Lemonada_400Regular =
-  'http://fonts.gstatic.com/s/lemonada/v12/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeut2mfWc3Z2pTg.ttf';
+  'http://fonts.gstatic.com/s/lemonada/v14/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeut2mfWc3Z2pTg.ttf';
 export const Lemonada_500Medium =
-  'http://fonts.gstatic.com/s/lemonada/v12/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGSOt2mfWc3Z2pTg.ttf';
+  'http://fonts.gstatic.com/s/lemonada/v14/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGSOt2mfWc3Z2pTg.ttf';
 export const Lemonada_600SemiBold =
-  'http://fonts.gstatic.com/s/lemonada/v12/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGpOx2mfWc3Z2pTg.ttf';
+  'http://fonts.gstatic.com/s/lemonada/v14/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGpOx2mfWc3Z2pTg.ttf';
 export const Lemonada_700Bold =
-  'http://fonts.gstatic.com/s/lemonada/v12/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGnex2mfWc3Z2pTg.ttf';
+  'http://fonts.gstatic.com/s/lemonada/v14/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGnex2mfWc3Z2pTg.ttf';
 export const LibreFranklin_100Thin =
   'http://fonts.gstatic.com/s/librefranklin/v7/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsSUB9rIb-JH1g.ttf';
 export const LibreFranklin_200ExtraLight =
@@ -3096,24 +5567,24 @@ export const LibreFranklin_800ExtraBold_Italic =
 export const LibreFranklin_900Black_Italic =
   'http://fonts.gstatic.com/s/librefranklin/v7/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05obVQ9DMTedX1sGE.ttf';
 export const Maitree_200ExtraLight =
-  'http://fonts.gstatic.com/s/maitree/v5/MjQDmil5tffhpBrklhGNWJGovLdh6OE.ttf';
+  'http://fonts.gstatic.com/s/maitree/v8/MjQDmil5tffhpBrklhGNWJGovLdh6OE.ttf';
 export const Maitree_300Light =
-  'http://fonts.gstatic.com/s/maitree/v5/MjQDmil5tffhpBrklnWOWJGovLdh6OE.ttf';
+  'http://fonts.gstatic.com/s/maitree/v8/MjQDmil5tffhpBrklnWOWJGovLdh6OE.ttf';
 export const Maitree_400Regular =
-  'http://fonts.gstatic.com/s/maitree/v5/MjQGmil5tffhpBrkrtmmfJmDoL4.ttf';
+  'http://fonts.gstatic.com/s/maitree/v8/MjQGmil5tffhpBrkrtmmfJmDoL4.ttf';
 export const Maitree_500Medium =
-  'http://fonts.gstatic.com/s/maitree/v5/MjQDmil5tffhpBrkli2PWJGovLdh6OE.ttf';
+  'http://fonts.gstatic.com/s/maitree/v8/MjQDmil5tffhpBrkli2PWJGovLdh6OE.ttf';
 export const Maitree_600SemiBold =
-  'http://fonts.gstatic.com/s/maitree/v5/MjQDmil5tffhpBrklgGIWJGovLdh6OE.ttf';
+  'http://fonts.gstatic.com/s/maitree/v8/MjQDmil5tffhpBrklgGIWJGovLdh6OE.ttf';
 export const Maitree_700Bold =
-  'http://fonts.gstatic.com/s/maitree/v5/MjQDmil5tffhpBrklmWJWJGovLdh6OE.ttf';
-export const Mirza_400Regular = 'http://fonts.gstatic.com/s/mirza/v10/co3ImWlikiN5EurdKMewsrvI.ttf';
+  'http://fonts.gstatic.com/s/maitree/v8/MjQDmil5tffhpBrklmWJWJGovLdh6OE.ttf';
+export const Mirza_400Regular = 'http://fonts.gstatic.com/s/mirza/v13/co3ImWlikiN5EurdKMewsrvI.ttf';
 export const Mirza_500Medium =
-  'http://fonts.gstatic.com/s/mirza/v10/co3FmWlikiN5EtIpAeO4mafBomDi.ttf';
+  'http://fonts.gstatic.com/s/mirza/v13/co3FmWlikiN5EtIpAeO4mafBomDi.ttf';
 export const Mirza_600SemiBold =
-  'http://fonts.gstatic.com/s/mirza/v10/co3FmWlikiN5EtIFBuO4mafBomDi.ttf';
+  'http://fonts.gstatic.com/s/mirza/v13/co3FmWlikiN5EtIFBuO4mafBomDi.ttf';
 export const Mirza_700Bold =
-  'http://fonts.gstatic.com/s/mirza/v10/co3FmWlikiN5EtJhB-O4mafBomDi.ttf';
+  'http://fonts.gstatic.com/s/mirza/v13/co3FmWlikiN5EtJhB-O4mafBomDi.ttf';
 export const Mitr_200ExtraLight =
   'http://fonts.gstatic.com/s/mitr/v6/pxiEypw5ucZF8fMZFJDUc1NECPY.ttf';
 export const Mitr_300Light = 'http://fonts.gstatic.com/s/mitr/v6/pxiEypw5ucZF8ZcaFJDUc1NECPY.ttf';
@@ -3122,23 +5593,23 @@ export const Mitr_500Medium = 'http://fonts.gstatic.com/s/mitr/v6/pxiEypw5ucZF8c
 export const Mitr_600SemiBold =
   'http://fonts.gstatic.com/s/mitr/v6/pxiEypw5ucZF8eMcFJDUc1NECPY.ttf';
 export const Mitr_700Bold = 'http://fonts.gstatic.com/s/mitr/v6/pxiEypw5ucZF8YcdFJDUc1NECPY.ttf';
-export const Mogra_400Regular = 'http://fonts.gstatic.com/s/mogra/v9/f0X40eSs8c95TBo4DvLmxtnG.ttf';
+export const Mogra_400Regular = 'http://fonts.gstatic.com/s/mogra/v17/f0X40eSs8c95TBo4DvLmxtnG.ttf';
 export const MuktaVaani_200ExtraLight =
-  'http://fonts.gstatic.com/s/muktavaani/v8/3JnkSD_-ynaxmxnEfVHPIGXNV8BD-u97MW1a.ttf';
+  'http://fonts.gstatic.com/s/muktavaani/v11/3JnkSD_-ynaxmxnEfVHPIGXNV8BD-u97MW1a.ttf';
 export const MuktaVaani_300Light =
-  'http://fonts.gstatic.com/s/muktavaani/v8/3JnkSD_-ynaxmxnEfVHPIGWpVMBD-u97MW1a.ttf';
+  'http://fonts.gstatic.com/s/muktavaani/v11/3JnkSD_-ynaxmxnEfVHPIGWpVMBD-u97MW1a.ttf';
 export const MuktaVaani_400Regular =
-  'http://fonts.gstatic.com/s/muktavaani/v8/3Jn5SD_-ynaxmxnEfVHPIF0FfORL0fNy.ttf';
+  'http://fonts.gstatic.com/s/muktavaani/v11/3Jn5SD_-ynaxmxnEfVHPIF0FfORL0fNy.ttf';
 export const MuktaVaani_500Medium =
-  'http://fonts.gstatic.com/s/muktavaani/v8/3JnkSD_-ynaxmxnEfVHPIGXxVcBD-u97MW1a.ttf';
+  'http://fonts.gstatic.com/s/muktavaani/v11/3JnkSD_-ynaxmxnEfVHPIGXxVcBD-u97MW1a.ttf';
 export const MuktaVaani_600SemiBold =
-  'http://fonts.gstatic.com/s/muktavaani/v8/3JnkSD_-ynaxmxnEfVHPIGXdUsBD-u97MW1a.ttf';
+  'http://fonts.gstatic.com/s/muktavaani/v11/3JnkSD_-ynaxmxnEfVHPIGXdUsBD-u97MW1a.ttf';
 export const MuktaVaani_700Bold =
-  'http://fonts.gstatic.com/s/muktavaani/v8/3JnkSD_-ynaxmxnEfVHPIGW5U8BD-u97MW1a.ttf';
+  'http://fonts.gstatic.com/s/muktavaani/v11/3JnkSD_-ynaxmxnEfVHPIGW5U8BD-u97MW1a.ttf';
 export const MuktaVaani_800ExtraBold =
-  'http://fonts.gstatic.com/s/muktavaani/v8/3JnkSD_-ynaxmxnEfVHPIGWlUMBD-u97MW1a.ttf';
+  'http://fonts.gstatic.com/s/muktavaani/v11/3JnkSD_-ynaxmxnEfVHPIGWlUMBD-u97MW1a.ttf';
 export const Pavanam_400Regular =
-  'http://fonts.gstatic.com/s/pavanam/v5/BXRrvF_aiezLh0xPDOtQ9Wf0QcE.ttf';
+  'http://fonts.gstatic.com/s/pavanam/v9/BXRrvF_aiezLh0xPDOtQ9Wf0QcE.ttf';
 export const Pridi_200ExtraLight =
   'http://fonts.gstatic.com/s/pridi/v6/2sDdZG5JnZLfkc1SiE0jRUG0AqUc.ttf';
 export const Pridi_300Light =
@@ -3206,15 +5677,29 @@ export const ProzaLibre_800ExtraBold =
 export const ProzaLibre_800ExtraBold_Italic =
   'http://fonts.gstatic.com/s/prozalibre/v5/LYjZdGHgj0k1DIQRyUEyyEotTH_ZeJSY8z6Np1k.ttf';
 export const Rakkas_400Regular =
-  'http://fonts.gstatic.com/s/rakkas/v12/Qw3cZQlNHiblL3j_lttPOeMcCw.ttf';
-export const Rasa_300Light = 'http://fonts.gstatic.com/s/rasa/v6/xn7gYHIn1mWmdg52sgC7S9XdZN8.ttf';
-export const Rasa_400Regular = 'http://fonts.gstatic.com/s/rasa/v6/xn7vYHIn1mWmTqJelgiQV9w.ttf';
-export const Rasa_500Medium = 'http://fonts.gstatic.com/s/rasa/v6/xn7gYHIn1mWmdlZ3sgC7S9XdZN8.ttf';
+  'http://fonts.gstatic.com/s/rakkas/v15/Qw3cZQlNHiblL3j_lttPOeMcCw.ttf';
+export const Rasa_300Light =
+  'http://fonts.gstatic.com/s/rasa/v11/xn76YHIn1mWmVKl8ZtAM9NrJfN4YJW41fcvN2KT4.ttf';
+export const Rasa_400Regular =
+  'http://fonts.gstatic.com/s/rasa/v11/xn76YHIn1mWmVKl8ZtAM9NrJfN5GJW41fcvN2KT4.ttf';
+export const Rasa_500Medium =
+  'http://fonts.gstatic.com/s/rasa/v11/xn76YHIn1mWmVKl8ZtAM9NrJfN50JW41fcvN2KT4.ttf';
 export const Rasa_600SemiBold =
-  'http://fonts.gstatic.com/s/rasa/v6/xn7gYHIn1mWmdnpwsgC7S9XdZN8.ttf';
-export const Rasa_700Bold = 'http://fonts.gstatic.com/s/rasa/v6/xn7gYHIn1mWmdh5xsgC7S9XdZN8.ttf';
+  'http://fonts.gstatic.com/s/rasa/v11/xn76YHIn1mWmVKl8ZtAM9NrJfN6YIm41fcvN2KT4.ttf';
+export const Rasa_700Bold =
+  'http://fonts.gstatic.com/s/rasa/v11/xn76YHIn1mWmVKl8ZtAM9NrJfN6hIm41fcvN2KT4.ttf';
+export const Rasa_300Light_Italic =
+  'http://fonts.gstatic.com/s/rasa/v11/xn78YHIn1mWmfqBOmQhln0Bne8uOZth2d8_v3bT4Ycc.ttf';
+export const Rasa_400Regular_Italic =
+  'http://fonts.gstatic.com/s/rasa/v11/xn78YHIn1mWmfqBOmQhln0Bne8uOZoZ2d8_v3bT4Ycc.ttf';
+export const Rasa_500Medium_Italic =
+  'http://fonts.gstatic.com/s/rasa/v11/xn78YHIn1mWmfqBOmQhln0Bne8uOZrR2d8_v3bT4Ycc.ttf';
+export const Rasa_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/rasa/v11/xn78YHIn1mWmfqBOmQhln0Bne8uOZlhxd8_v3bT4Ycc.ttf';
+export const Rasa_700Bold_Italic =
+  'http://fonts.gstatic.com/s/rasa/v11/xn78YHIn1mWmfqBOmQhln0Bne8uOZmFxd8_v3bT4Ycc.ttf';
 export const ScopeOne_400Regular =
-  'http://fonts.gstatic.com/s/scopeone/v9/WBLnrEXKYFlGHrOKmGD1W0_MJMGxiQ.ttf';
+  'http://fonts.gstatic.com/s/scopeone/v12/WBLnrEXKYFlGHrOKmGD1W0_MJMGxiQ.ttf';
 export const Shrikhand_400Regular =
   'http://fonts.gstatic.com/s/shrikhand/v6/a8IbNovtLWfR7T7bMJwbBIiQ0zhMtA.ttf';
 export const SpaceMono_400Regular =
@@ -3262,192 +5747,213 @@ export const Taviraj_900Black =
 export const Taviraj_900Black_Italic =
   'http://fonts.gstatic.com/s/taviraj/v6/ahcev8Cj3ylylTXzTOwT0-5RhWa8q0v8ag.ttf';
 export const Trirong_100Thin =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3EqXNgp8wxdOdOl-go3YRl6ujngw.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3EqXNgp8wxdOdOl-go3YRl6ujngw.ttf';
 export const Trirong_100Thin_Italic =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3CqXNgp8wxdOdOn44QuY5hyO33g8IY.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3CqXNgp8wxdOdOn44QuY5hyO33g8IY.ttf';
 export const Trirong_200ExtraLight =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3DqXNgp8wxdOdOl0QJ_a5L5uH-mts.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3DqXNgp8wxdOdOl0QJ_a5L5uH-mts.ttf';
 export const Trirong_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3BqXNgp8wxdOdOn44QFa9B4sP7itsB5g.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3BqXNgp8wxdOdOn44QFa9B4sP7itsB5g.ttf';
 export const Trirong_300Light =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3DqXNgp8wxdOdOlyAK_a5L5uH-mts.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3DqXNgp8wxdOdOlyAK_a5L5uH-mts.ttf';
 export const Trirong_300Light_Italic =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3BqXNgp8wxdOdOn44QcaxB4sP7itsB5g.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3BqXNgp8wxdOdOn44QcaxB4sP7itsB5g.ttf';
 export const Trirong_400Regular =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3GqXNgp8wxdOdOr4wi2aZg-ug.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3GqXNgp8wxdOdOr4wi2aZg-ug.ttf';
 export const Trirong_400Regular_Italic =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3EqXNgp8wxdOdOn44o3YRl6ujngw.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3EqXNgp8wxdOdOn44o3YRl6ujngw.ttf';
 export const Trirong_500Medium =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3DqXNgp8wxdOdOl3gL_a5L5uH-mts.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3DqXNgp8wxdOdOl3gL_a5L5uH-mts.ttf';
 export const Trirong_500Medium_Italic =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3BqXNgp8wxdOdOn44QKa1B4sP7itsB5g.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3BqXNgp8wxdOdOn44QKa1B4sP7itsB5g.ttf';
 export const Trirong_600SemiBold =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3DqXNgp8wxdOdOl1QM_a5L5uH-mts.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3DqXNgp8wxdOdOl1QM_a5L5uH-mts.ttf';
 export const Trirong_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3BqXNgp8wxdOdOn44QBapB4sP7itsB5g.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3BqXNgp8wxdOdOn44QBapB4sP7itsB5g.ttf';
 export const Trirong_700Bold =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3DqXNgp8wxdOdOlzAN_a5L5uH-mts.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3DqXNgp8wxdOdOlzAN_a5L5uH-mts.ttf';
 export const Trirong_700Bold_Italic =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3BqXNgp8wxdOdOn44QYatB4sP7itsB5g.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3BqXNgp8wxdOdOn44QYatB4sP7itsB5g.ttf';
 export const Trirong_800ExtraBold =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3DqXNgp8wxdOdOlywO_a5L5uH-mts.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3DqXNgp8wxdOdOlywO_a5L5uH-mts.ttf';
 export const Trirong_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3BqXNgp8wxdOdOn44QfahB4sP7itsB5g.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3BqXNgp8wxdOdOn44QfahB4sP7itsB5g.ttf';
 export const Trirong_900Black =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3DqXNgp8wxdOdOlwgP_a5L5uH-mts.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3DqXNgp8wxdOdOlwgP_a5L5uH-mts.ttf';
 export const Trirong_900Black_Italic =
-  'http://fonts.gstatic.com/s/trirong/v6/7r3BqXNgp8wxdOdOn44QWalB4sP7itsB5g.ttf';
+  'http://fonts.gstatic.com/s/trirong/v9/7r3BqXNgp8wxdOdOn44QWalB4sP7itsB5g.ttf';
 export const YatraOne_400Regular =
-  'http://fonts.gstatic.com/s/yatraone/v9/C8ch4copsHzj8p7NaF0xw1OBbRDvXw.ttf';
-export const Yrsa_300Light = 'http://fonts.gstatic.com/s/yrsa/v6/wlpxgwnQFlxs3af93IQ73W5OcCk.ttf';
-export const Yrsa_400Regular = 'http://fonts.gstatic.com/s/yrsa/v6/wlp-gwnQFlxs5QvV-IwQwWc.ttf';
-export const Yrsa_500Medium = 'http://fonts.gstatic.com/s/yrsa/v6/wlpxgwnQFlxs3f_83IQ73W5OcCk.ttf';
+  'http://fonts.gstatic.com/s/yatraone/v12/C8ch4copsHzj8p7NaF0xw1OBbRDvXw.ttf';
+export const Yrsa_300Light =
+  'http://fonts.gstatic.com/s/yrsa/v11/wlprgwnQFlxs_wD3CFSMYmFaaCjASNNV9rRPfrKu.ttf';
+export const Yrsa_400Regular =
+  'http://fonts.gstatic.com/s/yrsa/v11/wlprgwnQFlxs_wD3CFSMYmFaaCieSNNV9rRPfrKu.ttf';
+export const Yrsa_500Medium =
+  'http://fonts.gstatic.com/s/yrsa/v11/wlprgwnQFlxs_wD3CFSMYmFaaCisSNNV9rRPfrKu.ttf';
 export const Yrsa_600SemiBold =
-  'http://fonts.gstatic.com/s/yrsa/v6/wlpxgwnQFlxs3dP73IQ73W5OcCk.ttf';
-export const Yrsa_700Bold = 'http://fonts.gstatic.com/s/yrsa/v6/wlpxgwnQFlxs3bf63IQ73W5OcCk.ttf';
+  'http://fonts.gstatic.com/s/yrsa/v11/wlprgwnQFlxs_wD3CFSMYmFaaChAT9NV9rRPfrKu.ttf';
+export const Yrsa_700Bold =
+  'http://fonts.gstatic.com/s/yrsa/v11/wlprgwnQFlxs_wD3CFSMYmFaaCh5T9NV9rRPfrKu.ttf';
+export const Yrsa_300Light_Italic =
+  'http://fonts.gstatic.com/s/yrsa/v11/wlptgwnQFlxs1QnF94zlCfv0bz1WC2UW_LBte6KuGEo.ttf';
+export const Yrsa_400Regular_Italic =
+  'http://fonts.gstatic.com/s/yrsa/v11/wlptgwnQFlxs1QnF94zlCfv0bz1WCzsW_LBte6KuGEo.ttf';
+export const Yrsa_500Medium_Italic =
+  'http://fonts.gstatic.com/s/yrsa/v11/wlptgwnQFlxs1QnF94zlCfv0bz1WCwkW_LBte6KuGEo.ttf';
+export const Yrsa_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/yrsa/v11/wlptgwnQFlxs1QnF94zlCfv0bz1WC-UR_LBte6KuGEo.ttf';
+export const Yrsa_700Bold_Italic =
+  'http://fonts.gstatic.com/s/yrsa/v11/wlptgwnQFlxs1QnF94zlCfv0bz1WC9wR_LBte6KuGEo.ttf';
 export const ElMessiri_400Regular =
-  'http://fonts.gstatic.com/s/elmessiri/v9/K2F0fZBRmr9vQ1pHEey6AoqKAyLzfWo.ttf';
+  'http://fonts.gstatic.com/s/elmessiri/v10/K2FhfZBRmr9vQ1pHEey6GIGo8_pv3myYjuXwe65ghj3OoapG.ttf';
 export const ElMessiri_500Medium =
-  'http://fonts.gstatic.com/s/elmessiri/v9/K2F3fZBRmr9vQ1pHEey6On6jJyrYYWOMluQ.ttf';
+  'http://fonts.gstatic.com/s/elmessiri/v10/K2FhfZBRmr9vQ1pHEey6GIGo8_pv3myYjuXCe65ghj3OoapG.ttf';
 export const ElMessiri_600SemiBold =
-  'http://fonts.gstatic.com/s/elmessiri/v9/K2F3fZBRmr9vQ1pHEey6OlKkJyrYYWOMluQ.ttf';
+  'http://fonts.gstatic.com/s/elmessiri/v10/K2FhfZBRmr9vQ1pHEey6GIGo8_pv3myYjuUufK5ghj3OoapG.ttf';
 export const ElMessiri_700Bold =
-  'http://fonts.gstatic.com/s/elmessiri/v9/K2F3fZBRmr9vQ1pHEey6OjalJyrYYWOMluQ.ttf';
+  'http://fonts.gstatic.com/s/elmessiri/v10/K2FhfZBRmr9vQ1pHEey6GIGo8_pv3myYjuUXfK5ghj3OoapG.ttf';
 export const MeeraInimai_400Regular =
-  'http://fonts.gstatic.com/s/meerainimai/v7/845fNMM5EIqOW5MPuvO3ILep_2jDVevnLQ.ttf';
+  'http://fonts.gstatic.com/s/meerainimai/v10/845fNMM5EIqOW5MPuvO3ILep_2jDVevnLQ.ttf';
 export const Pattaya_400Regular =
-  'http://fonts.gstatic.com/s/pattaya/v6/ea8ZadcqV_zkHY-XNdCn92ZEmVs.ttf';
+  'http://fonts.gstatic.com/s/pattaya/v10/ea8ZadcqV_zkHY-XNdCn92ZEmVs.ttf';
 export const ReemKufi_400Regular =
-  'http://fonts.gstatic.com/s/reemkufi/v10/2sDcZGJLip7W2J7v7wQDb2-4C7wFZQ.ttf';
+  'http://fonts.gstatic.com/s/reemkufi/v13/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtuZnEGGf3qGuvM4.ttf';
+export const ReemKufi_500Medium =
+  'http://fonts.gstatic.com/s/reemkufi/v13/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQttRnEGGf3qGuvM4.ttf';
+export const ReemKufi_600SemiBold =
+  'http://fonts.gstatic.com/s/reemkufi/v13/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtjhgEGGf3qGuvM4.ttf';
+export const ReemKufi_700Bold =
+  'http://fonts.gstatic.com/s/reemkufi/v13/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtgFgEGGf3qGuvM4.ttf';
 export const Chilanka_400Regular =
-  'http://fonts.gstatic.com/s/chilanka/v8/WWXRlj2DZQiMJYaYRrJQI9EAZhTO.ttf';
+  'http://fonts.gstatic.com/s/chilanka/v16/WWXRlj2DZQiMJYaYRrJQI9EAZhTO.ttf';
 export const Assistant_200ExtraLight =
-  'http://fonts.gstatic.com/s/assistant/v7/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtmZnEGGf3qGuvM4.ttf';
+  'http://fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtmZnEGGf3qGuvM4.ttf';
 export const Assistant_300Light =
-  'http://fonts.gstatic.com/s/assistant/v7/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtrhnEGGf3qGuvM4.ttf';
+  'http://fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtrhnEGGf3qGuvM4.ttf';
 export const Assistant_400Regular =
-  'http://fonts.gstatic.com/s/assistant/v7/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnEGGf3qGuvM4.ttf';
+  'http://fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnEGGf3qGuvM4.ttf';
 export const Assistant_500Medium =
-  'http://fonts.gstatic.com/s/assistant/v7/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQttRnEGGf3qGuvM4.ttf';
+  'http://fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQttRnEGGf3qGuvM4.ttf';
 export const Assistant_600SemiBold =
-  'http://fonts.gstatic.com/s/assistant/v7/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtjhgEGGf3qGuvM4.ttf';
+  'http://fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtjhgEGGf3qGuvM4.ttf';
 export const Assistant_700Bold =
-  'http://fonts.gstatic.com/s/assistant/v7/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtgFgEGGf3qGuvM4.ttf';
+  'http://fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtgFgEGGf3qGuvM4.ttf';
 export const Assistant_800ExtraBold =
-  'http://fonts.gstatic.com/s/assistant/v7/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtmZgEGGf3qGuvM4.ttf';
+  'http://fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtmZgEGGf3qGuvM4.ttf';
 export const SecularOne_400Regular =
   'http://fonts.gstatic.com/s/secularone/v5/8QINdiTajsj_87rMuMdKypDlMul7LJpK.ttf';
 export const SuezOne_400Regular =
   'http://fonts.gstatic.com/s/suezone/v5/taiJGmd_EZ6rqscQgNFJkIqg-I0w.ttf';
-export const Amiko_400Regular = 'http://fonts.gstatic.com/s/amiko/v5/WwkQxPq1DFK04tqlc17MMZgJ.ttf';
+export const Amiko_400Regular = 'http://fonts.gstatic.com/s/amiko/v10/WwkQxPq1DFK04tqlc17MMZgJ.ttf';
 export const Amiko_600SemiBold =
-  'http://fonts.gstatic.com/s/amiko/v5/WwkdxPq1DFK04uJ9XXrEGoQAUco5.ttf';
-export const Amiko_700Bold = 'http://fonts.gstatic.com/s/amiko/v5/WwkdxPq1DFK04uIZXHrEGoQAUco5.ttf';
-export const Benne_400Regular = 'http://fonts.gstatic.com/s/benne/v10/L0xzDFAhn18E6Vjxlt6qTDBN.ttf';
+  'http://fonts.gstatic.com/s/amiko/v10/WwkdxPq1DFK04uJ9XXrEGoQAUco5.ttf';
+export const Amiko_700Bold =
+  'http://fonts.gstatic.com/s/amiko/v10/WwkdxPq1DFK04uIZXHrEGoQAUco5.ttf';
+export const Benne_400Regular = 'http://fonts.gstatic.com/s/benne/v20/L0xzDFAhn18E6Vjxlt6qTDBN.ttf';
 export const BioRhyme_200ExtraLight =
-  'http://fonts.gstatic.com/s/biorhyme/v5/1cX3aULHBpDMsHYW_ESOjnGAq8Sk1PoH.ttf';
+  'http://fonts.gstatic.com/s/biorhyme/v10/1cX3aULHBpDMsHYW_ESOjnGAq8Sk1PoH.ttf';
 export const BioRhyme_300Light =
-  'http://fonts.gstatic.com/s/biorhyme/v5/1cX3aULHBpDMsHYW_ETqjXGAq8Sk1PoH.ttf';
+  'http://fonts.gstatic.com/s/biorhyme/v10/1cX3aULHBpDMsHYW_ETqjXGAq8Sk1PoH.ttf';
 export const BioRhyme_400Regular =
-  'http://fonts.gstatic.com/s/biorhyme/v5/1cXwaULHBpDMsHYW_HxGpVWIgNit.ttf';
+  'http://fonts.gstatic.com/s/biorhyme/v10/1cXwaULHBpDMsHYW_HxGpVWIgNit.ttf';
 export const BioRhyme_700Bold =
-  'http://fonts.gstatic.com/s/biorhyme/v5/1cX3aULHBpDMsHYW_ET6inGAq8Sk1PoH.ttf';
+  'http://fonts.gstatic.com/s/biorhyme/v10/1cX3aULHBpDMsHYW_ET6inGAq8Sk1PoH.ttf';
 export const BioRhyme_800ExtraBold =
-  'http://fonts.gstatic.com/s/biorhyme/v5/1cX3aULHBpDMsHYW_ETmiXGAq8Sk1PoH.ttf';
+  'http://fonts.gstatic.com/s/biorhyme/v10/1cX3aULHBpDMsHYW_ETmiXGAq8Sk1PoH.ttf';
 export const Kosugi_400Regular =
-  'http://fonts.gstatic.com/s/kosugi/v6/pxiFyp4_v8FCjlI4NLr6f1pdEQ.ttf';
+  'http://fonts.gstatic.com/s/kosugi/v11/pxiFyp4_v8FCjlI4NLr6f1pdEQ.ttf';
 export const KosugiMaru_400Regular =
-  'http://fonts.gstatic.com/s/kosugimaru/v6/0nksC9PgP_wGh21A2KeqGiTqivr9iBq_.ttf';
+  'http://fonts.gstatic.com/s/kosugimaru/v11/0nksC9PgP_wGh21A2KeqGiTqivr9iBq_.ttf';
 export const Baloo2_400Regular =
-  'http://fonts.gstatic.com/s/baloo2/v2/wXKrE3kTposypRyd11_WAewrhXY.ttf';
+  'http://fonts.gstatic.com/s/baloo2/v9/wXK0E3kTposypRydzVT08TS3JnAmtdgazapv9Fat7WcN.ttf';
 export const Baloo2_500Medium =
-  'http://fonts.gstatic.com/s/baloo2/v2/wXKuE3kTposypRyd76v_JeQAmX8yrdk.ttf';
+  'http://fonts.gstatic.com/s/baloo2/v9/wXK0E3kTposypRydzVT08TS3JnAmtdgozapv9Fat7WcN.ttf';
 export const Baloo2_600SemiBold =
-  'http://fonts.gstatic.com/s/baloo2/v2/wXKuE3kTposypRyd74f4JeQAmX8yrdk.ttf';
+  'http://fonts.gstatic.com/s/baloo2/v9/wXK0E3kTposypRydzVT08TS3JnAmtdjEyqpv9Fat7WcN.ttf';
 export const Baloo2_700Bold =
-  'http://fonts.gstatic.com/s/baloo2/v2/wXKuE3kTposypRyd7-P5JeQAmX8yrdk.ttf';
+  'http://fonts.gstatic.com/s/baloo2/v9/wXK0E3kTposypRydzVT08TS3JnAmtdj9yqpv9Fat7WcN.ttf';
 export const Baloo2_800ExtraBold =
-  'http://fonts.gstatic.com/s/baloo2/v2/wXKuE3kTposypRyd7__6JeQAmX8yrdk.ttf';
+  'http://fonts.gstatic.com/s/baloo2/v9/wXK0E3kTposypRydzVT08TS3JnAmtdiayqpv9Fat7WcN.ttf';
 export const BalooBhai2_400Regular =
-  'http://fonts.gstatic.com/s/baloobhai2/v4/sZlDdRSL-z1VEWZ4YNA7Y5I3cdTmiH1gFQ.ttf';
+  'http://fonts.gstatic.com/s/baloobhai2/v14/sZlWdRSL-z1VEWZ4YNA7Y5ItevYWUOHDE8FvNighMXeCo-jsZzo.ttf';
 export const BalooBhai2_500Medium =
-  'http://fonts.gstatic.com/s/baloobhai2/v4/sZlcdRSL-z1VEWZ4YNA7Y5IPhf3CgFZ8HNV3Nw.ttf';
+  'http://fonts.gstatic.com/s/baloobhai2/v14/sZlWdRSL-z1VEWZ4YNA7Y5ItevYWUOHDE8FvNhohMXeCo-jsZzo.ttf';
 export const BalooBhai2_600SemiBold =
-  'http://fonts.gstatic.com/s/baloobhai2/v4/sZlcdRSL-z1VEWZ4YNA7Y5IPqfrCgFZ8HNV3Nw.ttf';
+  'http://fonts.gstatic.com/s/baloobhai2/v14/sZlWdRSL-z1VEWZ4YNA7Y5ItevYWUOHDE8FvNvYmMXeCo-jsZzo.ttf';
 export const BalooBhai2_700Bold =
-  'http://fonts.gstatic.com/s/baloobhai2/v4/sZlcdRSL-z1VEWZ4YNA7Y5IPzfvCgFZ8HNV3Nw.ttf';
+  'http://fonts.gstatic.com/s/baloobhai2/v14/sZlWdRSL-z1VEWZ4YNA7Y5ItevYWUOHDE8FvNs8mMXeCo-jsZzo.ttf';
 export const BalooBhai2_800ExtraBold =
-  'http://fonts.gstatic.com/s/baloobhai2/v4/sZlcdRSL-z1VEWZ4YNA7Y5IP0fjCgFZ8HNV3Nw.ttf';
+  'http://fonts.gstatic.com/s/baloobhai2/v14/sZlWdRSL-z1VEWZ4YNA7Y5ItevYWUOHDE8FvNqgmMXeCo-jsZzo.ttf';
 export const BalooBhaina2_400Regular =
-  'http://fonts.gstatic.com/s/baloobhaina2/v4/qWczB6yyq4P9Adr3RtoX1q6yShz7mDUoupoI.ttf';
+  'http://fonts.gstatic.com/s/baloobhaina2/v15/qWc-B6yyq4P9Adr3RtoX1q6ySgbwusXwJjkOS-XEssPvRfRLYWmZSA.ttf';
 export const BalooBhaina2_500Medium =
-  'http://fonts.gstatic.com/s/baloobhaina2/v4/qWcwB6yyq4P9Adr3RtoX1q6ySiQPsREgkYYBX_3F.ttf';
+  'http://fonts.gstatic.com/s/baloobhaina2/v15/qWc-B6yyq4P9Adr3RtoX1q6ySgbwusXwJjkOS-XEgMPvRfRLYWmZSA.ttf';
 export const BalooBhaina2_600SemiBold =
-  'http://fonts.gstatic.com/s/baloobhaina2/v4/qWcwB6yyq4P9Adr3RtoX1q6ySiQjthEgkYYBX_3F.ttf';
+  'http://fonts.gstatic.com/s/baloobhaina2/v15/qWc-B6yyq4P9Adr3RtoX1q6ySgbwusXwJjkOS-XEbMTvRfRLYWmZSA.ttf';
 export const BalooBhaina2_700Bold =
-  'http://fonts.gstatic.com/s/baloobhaina2/v4/qWcwB6yyq4P9Adr3RtoX1q6ySiRHtxEgkYYBX_3F.ttf';
+  'http://fonts.gstatic.com/s/baloobhaina2/v15/qWc-B6yyq4P9Adr3RtoX1q6ySgbwusXwJjkOS-XEVcTvRfRLYWmZSA.ttf';
 export const BalooBhaina2_800ExtraBold =
-  'http://fonts.gstatic.com/s/baloobhaina2/v4/qWcwB6yyq4P9Adr3RtoX1q6ySiRbtBEgkYYBX_3F.ttf';
+  'http://fonts.gstatic.com/s/baloobhaina2/v15/qWc-B6yyq4P9Adr3RtoX1q6ySgbwusXwJjkOS-XEMsTvRfRLYWmZSA.ttf';
 export const BalooChettan2_400Regular =
-  'http://fonts.gstatic.com/s/baloochettan2/v2/vm8udRbmXEva26PK-NtuX4ynWEzf4P17OpYDlg.ttf';
+  'http://fonts.gstatic.com/s/baloochettan2/v9/vm8hdRbmXEva26PK-NtuX4ynWEzF69-L4gqgkIL5CeKTO1oeH9xI2gc.ttf';
 export const BalooChettan2_500Medium =
-  'http://fonts.gstatic.com/s/baloochettan2/v2/vm8rdRbmXEva26PK-NtuX4ynWEznFNRfMr0fn5bhCA.ttf';
+  'http://fonts.gstatic.com/s/baloochettan2/v9/vm8hdRbmXEva26PK-NtuX4ynWEzF69-L4gqgkIL5CdCTO1oeH9xI2gc.ttf';
 export const BalooChettan2_600SemiBold =
-  'http://fonts.gstatic.com/s/baloochettan2/v2/vm8rdRbmXEva26PK-NtuX4ynWEznONNfMr0fn5bhCA.ttf';
+  'http://fonts.gstatic.com/s/baloochettan2/v9/vm8hdRbmXEva26PK-NtuX4ynWEzF69-L4gqgkIL5CTyUO1oeH9xI2gc.ttf';
 export const BalooChettan2_700Bold =
-  'http://fonts.gstatic.com/s/baloochettan2/v2/vm8rdRbmXEva26PK-NtuX4ynWEznXNJfMr0fn5bhCA.ttf';
+  'http://fonts.gstatic.com/s/baloochettan2/v9/vm8hdRbmXEva26PK-NtuX4ynWEzF69-L4gqgkIL5CQWUO1oeH9xI2gc.ttf';
 export const BalooChettan2_800ExtraBold =
-  'http://fonts.gstatic.com/s/baloochettan2/v2/vm8rdRbmXEva26PK-NtuX4ynWEznQNFfMr0fn5bhCA.ttf';
+  'http://fonts.gstatic.com/s/baloochettan2/v9/vm8hdRbmXEva26PK-NtuX4ynWEzF69-L4gqgkIL5CWKUO1oeH9xI2gc.ttf';
 export const BalooDa2_400Regular =
-  'http://fonts.gstatic.com/s/balooda2/v2/2-ci9J9j0IaUMQZwAJyJcu7XoZFDf2Q.ttf';
+  'http://fonts.gstatic.com/s/balooda2/v9/2-c39J9j0IaUMQZwAJyJaOX1UUnf3GLnYjALsTNe55aRa7UE.ttf';
 export const BalooDa2_500Medium =
-  'http://fonts.gstatic.com/s/balooda2/v2/2-ch9J9j0IaUMQZwAJyJShr-hZloY23zejE.ttf';
+  'http://fonts.gstatic.com/s/balooda2/v9/2-c39J9j0IaUMQZwAJyJaOX1UUnf3GLnYjA5sTNe55aRa7UE.ttf';
 export const BalooDa2_600SemiBold =
-  'http://fonts.gstatic.com/s/balooda2/v2/2-ch9J9j0IaUMQZwAJyJSjb5hZloY23zejE.ttf';
+  'http://fonts.gstatic.com/s/balooda2/v9/2-c39J9j0IaUMQZwAJyJaOX1UUnf3GLnYjDVtjNe55aRa7UE.ttf';
 export const BalooDa2_700Bold =
-  'http://fonts.gstatic.com/s/balooda2/v2/2-ch9J9j0IaUMQZwAJyJSlL4hZloY23zejE.ttf';
+  'http://fonts.gstatic.com/s/balooda2/v9/2-c39J9j0IaUMQZwAJyJaOX1UUnf3GLnYjDstjNe55aRa7UE.ttf';
 export const BalooDa2_800ExtraBold =
-  'http://fonts.gstatic.com/s/balooda2/v2/2-ch9J9j0IaUMQZwAJyJSk77hZloY23zejE.ttf';
+  'http://fonts.gstatic.com/s/balooda2/v9/2-c39J9j0IaUMQZwAJyJaOX1UUnf3GLnYjCLtjNe55aRa7UE.ttf';
 export const BalooPaaji2_400Regular =
-  'http://fonts.gstatic.com/s/baloopaaji2/v4/i7dMIFFzbz-QHZUdV9_UGWZuYFKQHwyVd3U.ttf';
+  'http://fonts.gstatic.com/s/baloopaaji2/v15/i7dfIFFzbz-QHZUdV9_UGWZuelmy79QJ1HOSY9AX74fybRUz1r5t.ttf';
 export const BalooPaaji2_500Medium =
-  'http://fonts.gstatic.com/s/baloopaaji2/v4/i7dRIFFzbz-QHZUdV9_UGWZuWKa5OwS-a3yGe9E.ttf';
+  'http://fonts.gstatic.com/s/baloopaaji2/v15/i7dfIFFzbz-QHZUdV9_UGWZuelmy79QJ1HOSY9Al74fybRUz1r5t.ttf';
 export const BalooPaaji2_600SemiBold =
-  'http://fonts.gstatic.com/s/baloopaaji2/v4/i7dRIFFzbz-QHZUdV9_UGWZuWIq-OwS-a3yGe9E.ttf';
+  'http://fonts.gstatic.com/s/baloopaaji2/v15/i7dfIFFzbz-QHZUdV9_UGWZuelmy79QJ1HOSY9DJ6IfybRUz1r5t.ttf';
 export const BalooPaaji2_700Bold =
-  'http://fonts.gstatic.com/s/baloopaaji2/v4/i7dRIFFzbz-QHZUdV9_UGWZuWO6_OwS-a3yGe9E.ttf';
+  'http://fonts.gstatic.com/s/baloopaaji2/v15/i7dfIFFzbz-QHZUdV9_UGWZuelmy79QJ1HOSY9Dw6IfybRUz1r5t.ttf';
 export const BalooPaaji2_800ExtraBold =
-  'http://fonts.gstatic.com/s/baloopaaji2/v4/i7dRIFFzbz-QHZUdV9_UGWZuWPK8OwS-a3yGe9E.ttf';
+  'http://fonts.gstatic.com/s/baloopaaji2/v15/i7dfIFFzbz-QHZUdV9_UGWZuelmy79QJ1HOSY9CX6IfybRUz1r5t.ttf';
 export const BalooTamma2_400Regular =
-  'http://fonts.gstatic.com/s/balootamma2/v2/vEFX2_hCAgcR46PaajtrYlBbT0g21tqeR7c.ttf';
+  'http://fonts.gstatic.com/s/balootamma2/v8/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMscPp-0IF71SGC5.ttf';
 export const BalooTamma2_500Medium =
-  'http://fonts.gstatic.com/s/balootamma2/v2/vEFK2_hCAgcR46PaajtrYlBbd7wf8tK1W77HtMo.ttf';
+  'http://fonts.gstatic.com/s/balootamma2/v8/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMsuPp-0IF71SGC5.ttf';
 export const BalooTamma2_600SemiBold =
-  'http://fonts.gstatic.com/s/balootamma2/v2/vEFK2_hCAgcR46PaajtrYlBbd5AY8tK1W77HtMo.ttf';
+  'http://fonts.gstatic.com/s/balootamma2/v8/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMvCOZ-0IF71SGC5.ttf';
 export const BalooTamma2_700Bold =
-  'http://fonts.gstatic.com/s/balootamma2/v2/vEFK2_hCAgcR46PaajtrYlBbd_QZ8tK1W77HtMo.ttf';
+  'http://fonts.gstatic.com/s/balootamma2/v8/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMv7OZ-0IF71SGC5.ttf';
 export const BalooTamma2_800ExtraBold =
-  'http://fonts.gstatic.com/s/balootamma2/v2/vEFK2_hCAgcR46PaajtrYlBbd-ga8tK1W77HtMo.ttf';
+  'http://fonts.gstatic.com/s/balootamma2/v8/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMucOZ-0IF71SGC5.ttf';
 export const BalooTammudu2_400Regular =
-  'http://fonts.gstatic.com/s/balootammudu2/v4/1Pt2g8TIS_SAmkLguUdFP8UaJcK-xXEW6aGXHw.ttf';
+  'http://fonts.gstatic.com/s/balootammudu2/v15/1Pt5g8TIS_SAmkLguUdFP8UaJcKkzlPmMT00GaE_Jf8e4c6PZSlGmAA.ttf';
 export const BalooTammudu2_500Medium =
-  'http://fonts.gstatic.com/s/balootammudu2/v4/1Ptzg8TIS_SAmkLguUdFP8UaJcKGMVgy4YqLFrUnJA.ttf';
+  'http://fonts.gstatic.com/s/balootammudu2/v15/1Pt5g8TIS_SAmkLguUdFP8UaJcKkzlPmMT00GaE_Jc0e4c6PZSlGmAA.ttf';
 export const BalooTammudu2_600SemiBold =
-  'http://fonts.gstatic.com/s/balootammudu2/v4/1Ptzg8TIS_SAmkLguUdFP8UaJcKGHV8y4YqLFrUnJA.ttf';
+  'http://fonts.gstatic.com/s/balootammudu2/v15/1Pt5g8TIS_SAmkLguUdFP8UaJcKkzlPmMT00GaE_JSEZ4c6PZSlGmAA.ttf';
 export const BalooTammudu2_700Bold =
-  'http://fonts.gstatic.com/s/balootammudu2/v4/1Ptzg8TIS_SAmkLguUdFP8UaJcKGeV4y4YqLFrUnJA.ttf';
+  'http://fonts.gstatic.com/s/balootammudu2/v15/1Pt5g8TIS_SAmkLguUdFP8UaJcKkzlPmMT00GaE_JRgZ4c6PZSlGmAA.ttf';
 export const BalooTammudu2_800ExtraBold =
-  'http://fonts.gstatic.com/s/balootammudu2/v4/1Ptzg8TIS_SAmkLguUdFP8UaJcKGZV0y4YqLFrUnJA.ttf';
+  'http://fonts.gstatic.com/s/balootammudu2/v15/1Pt5g8TIS_SAmkLguUdFP8UaJcKkzlPmMT00GaE_JX8Z4c6PZSlGmAA.ttf';
 export const BalooThambi2_400Regular =
-  'http://fonts.gstatic.com/s/baloothambi2/v2/cY9cfjeOW0NHpmOQXranrbDyu4hHBJOxZQPp.ttf';
+  'http://fonts.gstatic.com/s/baloothambi2/v9/cY9RfjeOW0NHpmOQXranrbDyu5JMJmNp-aDvUBbKzcIzaQRG_n4osQ.ttf';
 export const BalooThambi2_500Medium =
-  'http://fonts.gstatic.com/s/baloothambi2/v2/cY9ffjeOW0NHpmOQXranrbDyu7CzLbe5Th_gRA7L.ttf';
+  'http://fonts.gstatic.com/s/baloothambi2/v9/cY9RfjeOW0NHpmOQXranrbDyu5JMJmNp-aDvUBbK_8IzaQRG_n4osQ.ttf';
 export const BalooThambi2_600SemiBold =
-  'http://fonts.gstatic.com/s/baloothambi2/v2/cY9ffjeOW0NHpmOQXranrbDyu7CfKre5Th_gRA7L.ttf';
+  'http://fonts.gstatic.com/s/baloothambi2/v9/cY9RfjeOW0NHpmOQXranrbDyu5JMJmNp-aDvUBbKE8UzaQRG_n4osQ.ttf';
 export const BalooThambi2_700Bold =
-  'http://fonts.gstatic.com/s/baloothambi2/v2/cY9ffjeOW0NHpmOQXranrbDyu7D7K7e5Th_gRA7L.ttf';
+  'http://fonts.gstatic.com/s/baloothambi2/v9/cY9RfjeOW0NHpmOQXranrbDyu5JMJmNp-aDvUBbKKsUzaQRG_n4osQ.ttf';
 export const BalooThambi2_800ExtraBold =
-  'http://fonts.gstatic.com/s/baloothambi2/v2/cY9ffjeOW0NHpmOQXranrbDyu7DnKLe5Th_gRA7L.ttf';
+  'http://fonts.gstatic.com/s/baloothambi2/v9/cY9RfjeOW0NHpmOQXranrbDyu5JMJmNp-aDvUBbKTcUzaQRG_n4osQ.ttf';
 export const Kanit_100Thin = 'http://fonts.gstatic.com/s/kanit/v7/nKKX-Go6G5tXcr72GwWKcaxALFs.ttf';
 export const Kanit_100Thin_Italic =
   'http://fonts.gstatic.com/s/kanit/v7/nKKV-Go6G5tXcraQI2GAdY5FPFtrGw.ttf';
@@ -3492,33 +5998,33 @@ export const Caveat_700Bold =
 export const CaveatBrush_400Regular =
   'http://fonts.gstatic.com/s/caveatbrush/v6/EYq0maZfwr9S9-ETZc3fKXtMW7mT03pdQw.ttf';
 export const Rubik_300Light =
-  'http://fonts.gstatic.com/s/rubik/v12/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1UE80V4bVkA.ttf';
+  'http://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1UE80V4bVkA.ttf';
 export const Rubik_400Regular =
-  'http://fonts.gstatic.com/s/rubik/v12/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1UE80V4bVkA.ttf';
+  'http://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1UE80V4bVkA.ttf';
 export const Rubik_500Medium =
-  'http://fonts.gstatic.com/s/rubik/v12/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYi1UE80V4bVkA.ttf';
+  'http://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYi1UE80V4bVkA.ttf';
 export const Rubik_600SemiBold =
-  'http://fonts.gstatic.com/s/rubik/v12/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-2Y-1UE80V4bVkA.ttf';
+  'http://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-2Y-1UE80V4bVkA.ttf';
 export const Rubik_700Bold =
-  'http://fonts.gstatic.com/s/rubik/v12/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-1UE80V4bVkA.ttf';
+  'http://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-1UE80V4bVkA.ttf';
 export const Rubik_800ExtraBold =
-  'http://fonts.gstatic.com/s/rubik/v12/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-h4-1UE80V4bVkA.ttf';
+  'http://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-h4-1UE80V4bVkA.ttf';
 export const Rubik_900Black =
-  'http://fonts.gstatic.com/s/rubik/v12/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-ro-1UE80V4bVkA.ttf';
+  'http://fonts.gstatic.com/s/rubik/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-ro-1UE80V4bVkA.ttf';
 export const Rubik_300Light_Italic =
-  'http://fonts.gstatic.com/s/rubik/v12/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE0UwdYPFkJ1O.ttf';
+  'http://fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE0UwdYPFkJ1O.ttf';
 export const Rubik_400Regular_Italic =
-  'http://fonts.gstatic.com/s/rubik/v12/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE0UwdYPFkJ1O.ttf';
+  'http://fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE0UwdYPFkJ1O.ttf';
 export const Rubik_500Medium_Italic =
-  'http://fonts.gstatic.com/s/rubik/v12/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE0UwdYPFkJ1O.ttf';
+  'http://fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE0UwdYPFkJ1O.ttf';
 export const Rubik_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/rubik/v12/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8uDFEUwdYPFkJ1O.ttf';
+  'http://fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8uDFEUwdYPFkJ1O.ttf';
 export const Rubik_700Bold_Italic =
-  'http://fonts.gstatic.com/s/rubik/v12/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FEUwdYPFkJ1O.ttf';
+  'http://fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FEUwdYPFkJ1O.ttf';
 export const Rubik_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/rubik/v12/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8vdFEUwdYPFkJ1O.ttf';
+  'http://fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8vdFEUwdYPFkJ1O.ttf';
 export const Rubik_900Black_Italic =
-  'http://fonts.gstatic.com/s/rubik/v12/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8v0FEUwdYPFkJ1O.ttf';
+  'http://fonts.gstatic.com/s/rubik/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8v0FEUwdYPFkJ1O.ttf';
 export const Catamaran_100Thin =
   'http://fonts.gstatic.com/s/catamaran/v8/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPHjc1anXuluiLyw.ttf';
 export const Catamaran_200ExtraLight =
@@ -3538,67 +6044,68 @@ export const Catamaran_800ExtraBold =
 export const Catamaran_900Black =
   'http://fonts.gstatic.com/s/catamaran/v8/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPNHa1anXuluiLyw.ttf';
 export const Chonburi_400Regular =
-  'http://fonts.gstatic.com/s/chonburi/v5/8AtqGs-wOpGRTBq66IWaFr3biAfZ.ttf';
+  'http://fonts.gstatic.com/s/chonburi/v8/8AtqGs-wOpGRTBq66IWaFr3biAfZ.ttf';
 export const WorkSans_100Thin =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nWNigDp6_cOyA.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nWNigDp6_cOyA.ttf';
 export const WorkSans_200ExtraLight =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K8nXNigDp6_cOyA.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K8nXNigDp6_cOyA.ttf';
 export const WorkSans_300Light =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32KxfXNigDp6_cOyA.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32KxfXNigDp6_cOyA.ttf';
 export const WorkSans_400Regular =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXNigDp6_cOyA.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXNigDp6_cOyA.ttf';
 export const WorkSans_500Medium =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K3vXNigDp6_cOyA.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K3vXNigDp6_cOyA.ttf';
 export const WorkSans_600SemiBold =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K5fQNigDp6_cOyA.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K5fQNigDp6_cOyA.ttf';
 export const WorkSans_700Bold =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QNigDp6_cOyA.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QNigDp6_cOyA.ttf';
 export const WorkSans_800ExtraBold =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K8nQNigDp6_cOyA.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K8nQNigDp6_cOyA.ttf';
 export const WorkSans_900Black =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K-DQNigDp6_cOyA.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K-DQNigDp6_cOyA.ttf';
 export const WorkSans_100Thin_Italic =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3moJo43ZKyDSQQ.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3moJo43ZKyDSQQ.ttf';
 export const WorkSans_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUXmsJo43ZKyDSQQ.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUXmsJo43ZKyDSQQ.ttf';
 export const WorkSans_300Light_Italic =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUgGsJo43ZKyDSQQ.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUgGsJo43ZKyDSQQ.ttf';
 export const WorkSans_400Regular_Italic =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3msJo43ZKyDSQQ.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3msJo43ZKyDSQQ.ttf';
 export const WorkSans_500Medium_Italic =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU7GsJo43ZKyDSQQ.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU7GsJo43ZKyDSQQ.ttf';
 export const WorkSans_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUAGwJo43ZKyDSQQ.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUAGwJo43ZKyDSQQ.ttf';
 export const WorkSans_700Bold_Italic =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUOWwJo43ZKyDSQQ.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUOWwJo43ZKyDSQQ.ttf';
 export const WorkSans_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUXmwJo43ZKyDSQQ.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUXmwJo43ZKyDSQQ.ttf';
 export const WorkSans_900Black_Italic =
-  'http://fonts.gstatic.com/s/worksans/v9/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUd2wJo43ZKyDSQQ.ttf';
+  'http://fonts.gstatic.com/s/worksans/v13/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUd2wJo43ZKyDSQQ.ttf';
 export const Itim_400Regular = 'http://fonts.gstatic.com/s/itim/v5/0nknC9ziJOYewARKkc7ZdwU.ttf';
 export const Sriracha_400Regular =
   'http://fonts.gstatic.com/s/sriracha/v5/0nkrC9D4IuYBgWcI9ObYRQDioeb0.ttf';
-export const Asar_400Regular = 'http://fonts.gstatic.com/s/asar/v10/sZlLdRyI6TBIXkYQDLlTW6E.ttf';
-export const Kadwa_400Regular = 'http://fonts.gstatic.com/s/kadwa/v5/rnCm-x5V0g7iphTHRcc2s2XH.ttf';
-export const Kadwa_700Bold = 'http://fonts.gstatic.com/s/kadwa/v5/rnCr-x5V0g7ipix7auM-mHnOSOuk.ttf';
+export const Asar_400Regular = 'http://fonts.gstatic.com/s/asar/v20/sZlLdRyI6TBIXkYQDLlTW6E.ttf';
+export const Kadwa_400Regular = 'http://fonts.gstatic.com/s/kadwa/v8/rnCm-x5V0g7iphTHRcc2s2XH.ttf';
+export const Kadwa_700Bold = 'http://fonts.gstatic.com/s/kadwa/v8/rnCr-x5V0g7ipix7auM-mHnOSOuk.ttf';
 export const Sahitya_400Regular =
-  'http://fonts.gstatic.com/s/sahitya/v7/6qLAKZkOuhnuqlJAaScFPywEDnI.ttf';
+  'http://fonts.gstatic.com/s/sahitya/v15/6qLAKZkOuhnuqlJAaScFPywEDnI.ttf';
 export const Sahitya_700Bold =
-  'http://fonts.gstatic.com/s/sahitya/v7/6qLFKZkOuhnuqlJAUZsqGyQvEnvSexI.ttf';
+  'http://fonts.gstatic.com/s/sahitya/v15/6qLFKZkOuhnuqlJAUZsqGyQvEnvSexI.ttf';
 export const Sarala_400Regular =
   'http://fonts.gstatic.com/s/sarala/v5/uK_y4riEZv4o1w9RCh0TMv6EXw.ttf';
 export const Sarala_700Bold =
   'http://fonts.gstatic.com/s/sarala/v5/uK_x4riEZv4o1w9ptjI3OtWYVkMpXA.ttf';
-export const Sura_400Regular = 'http://fonts.gstatic.com/s/sura/v7/SZc23FL5PbyzFf5UWzXtjUM.ttf';
-export const Sura_700Bold = 'http://fonts.gstatic.com/s/sura/v7/SZc53FL5PbyzLUJ7fz3GkUrS8DI.ttf';
-export const Eczar_400Regular = 'http://fonts.gstatic.com/s/eczar/v9/BXRlvF3Pi-DLmw0iBu9y8Hf0.ttf';
+export const Sura_400Regular = 'http://fonts.gstatic.com/s/sura/v13/SZc23FL5PbyzFf5UWzXtjUM.ttf';
+export const Sura_700Bold = 'http://fonts.gstatic.com/s/sura/v13/SZc53FL5PbyzLUJ7fz3GkUrS8DI.ttf';
+export const Eczar_400Regular = 'http://fonts.gstatic.com/s/eczar/v13/BXRlvF3Pi-DLmw0iBu9y8Hf0.ttf';
 export const Eczar_500Medium =
-  'http://fonts.gstatic.com/s/eczar/v9/BXRovF3Pi-DLmzXWL8t622v9WNjW.ttf';
+  'http://fonts.gstatic.com/s/eczar/v13/BXRovF3Pi-DLmzXWL8t622v9WNjW.ttf';
 export const Eczar_600SemiBold =
-  'http://fonts.gstatic.com/s/eczar/v9/BXRovF3Pi-DLmzX6KMt622v9WNjW.ttf';
-export const Eczar_700Bold = 'http://fonts.gstatic.com/s/eczar/v9/BXRovF3Pi-DLmzWeKct622v9WNjW.ttf';
+  'http://fonts.gstatic.com/s/eczar/v13/BXRovF3Pi-DLmzX6KMt622v9WNjW.ttf';
+export const Eczar_700Bold =
+  'http://fonts.gstatic.com/s/eczar/v13/BXRovF3Pi-DLmzWeKct622v9WNjW.ttf';
 export const Eczar_800ExtraBold =
-  'http://fonts.gstatic.com/s/eczar/v9/BXRovF3Pi-DLmzWCKst622v9WNjW.ttf';
+  'http://fonts.gstatic.com/s/eczar/v13/BXRovF3Pi-DLmzWCKst622v9WNjW.ttf';
 export const Poppins_100Thin =
   'http://fonts.gstatic.com/s/poppins/v15/pxiGyp8kv8JHgFVrLPTed3FBGPaTSQ.ttf';
 export const Poppins_100Thin_Italic =
@@ -3636,17 +6143,17 @@ export const Poppins_900Black =
 export const Poppins_900Black_Italic =
   'http://fonts.gstatic.com/s/poppins/v15/pxiDyp8kv8JHgFVrJJLm81xlEN2PQEhcqw.ttf';
 export const RhodiumLibre_400Regular =
-  'http://fonts.gstatic.com/s/rhodiumlibre/v7/1q2AY5adA0tn_ukeHcQHqpx6pETLeo2gm2U.ttf';
+  'http://fonts.gstatic.com/s/rhodiumlibre/v15/1q2AY5adA0tn_ukeHcQHqpx6pETLeo2gm2U.ttf';
 export const Tillana_400Regular =
-  'http://fonts.gstatic.com/s/tillana/v6/VuJxdNvf35P4qJ1OeKbXOIFneRo.ttf';
+  'http://fonts.gstatic.com/s/tillana/v9/VuJxdNvf35P4qJ1OeKbXOIFneRo.ttf';
 export const Tillana_500Medium =
-  'http://fonts.gstatic.com/s/tillana/v6/VuJ0dNvf35P4qJ1OQFL-HIlMZRNcp0o.ttf';
+  'http://fonts.gstatic.com/s/tillana/v9/VuJ0dNvf35P4qJ1OQFL-HIlMZRNcp0o.ttf';
 export const Tillana_600SemiBold =
-  'http://fonts.gstatic.com/s/tillana/v6/VuJ0dNvf35P4qJ1OQH75HIlMZRNcp0o.ttf';
+  'http://fonts.gstatic.com/s/tillana/v9/VuJ0dNvf35P4qJ1OQH75HIlMZRNcp0o.ttf';
 export const Tillana_700Bold =
-  'http://fonts.gstatic.com/s/tillana/v6/VuJ0dNvf35P4qJ1OQBr4HIlMZRNcp0o.ttf';
+  'http://fonts.gstatic.com/s/tillana/v9/VuJ0dNvf35P4qJ1OQBr4HIlMZRNcp0o.ttf';
 export const Tillana_800ExtraBold =
-  'http://fonts.gstatic.com/s/tillana/v6/VuJ0dNvf35P4qJ1OQAb7HIlMZRNcp0o.ttf';
+  'http://fonts.gstatic.com/s/tillana/v9/VuJ0dNvf35P4qJ1OQAb7HIlMZRNcp0o.ttf';
 export const Yantramanav_100Thin =
   'http://fonts.gstatic.com/s/yantramanav/v6/flU-Rqu5zY00QEpyWJYWN5-QXeNzDB41rZg.ttf';
 export const Yantramanav_300Light =
@@ -3659,26 +6166,27 @@ export const Yantramanav_700Bold =
   'http://fonts.gstatic.com/s/yantramanav/v6/flUhRqu5zY00QEpyWJYWN59IeMNZIhI8tIHh.ttf';
 export const Yantramanav_900Black =
   'http://fonts.gstatic.com/s/yantramanav/v6/flUhRqu5zY00QEpyWJYWN59wesNZIhI8tIHh.ttf';
-export const Amita_400Regular = 'http://fonts.gstatic.com/s/amita/v9/HhyaU5si9Om7PQlvAfSKEZZL.ttf';
-export const Amita_700Bold = 'http://fonts.gstatic.com/s/amita/v9/HhyXU5si9Om7PTHTLtCCOopCTKkI.ttf';
-export const Arya_400Regular = 'http://fonts.gstatic.com/s/arya/v9/ga6CawNG-HJd9Ub1-beqdFE.ttf';
-export const Arya_700Bold = 'http://fonts.gstatic.com/s/arya/v9/ga6NawNG-HJdzfra3b-BaFg3dRE.ttf';
+export const Amita_400Regular = 'http://fonts.gstatic.com/s/amita/v14/HhyaU5si9Om7PQlvAfSKEZZL.ttf';
+export const Amita_700Bold =
+  'http://fonts.gstatic.com/s/amita/v14/HhyXU5si9Om7PTHTLtCCOopCTKkI.ttf';
+export const Arya_400Regular = 'http://fonts.gstatic.com/s/arya/v17/ga6CawNG-HJd9Ub1-beqdFE.ttf';
+export const Arya_700Bold = 'http://fonts.gstatic.com/s/arya/v17/ga6NawNG-HJdzfra3b-BaFg3dRE.ttf';
 export const InknutAntiqua_300Light =
-  'http://fonts.gstatic.com/s/inknutantiqua/v9/Y4GRYax7VC4ot_qNB4nYpBdaKU2vwrj5bBoIYJNf.ttf';
+  'http://fonts.gstatic.com/s/inknutantiqua/v12/Y4GRYax7VC4ot_qNB4nYpBdaKU2vwrj5bBoIYJNf.ttf';
 export const InknutAntiqua_400Regular =
-  'http://fonts.gstatic.com/s/inknutantiqua/v9/Y4GSYax7VC4ot_qNB4nYpBdaKXUD6pzxRwYB.ttf';
+  'http://fonts.gstatic.com/s/inknutantiqua/v12/Y4GSYax7VC4ot_qNB4nYpBdaKXUD6pzxRwYB.ttf';
 export const InknutAntiqua_500Medium =
-  'http://fonts.gstatic.com/s/inknutantiqua/v9/Y4GRYax7VC4ot_qNB4nYpBdaKU33w7j5bBoIYJNf.ttf';
+  'http://fonts.gstatic.com/s/inknutantiqua/v12/Y4GRYax7VC4ot_qNB4nYpBdaKU33w7j5bBoIYJNf.ttf';
 export const InknutAntiqua_600SemiBold =
-  'http://fonts.gstatic.com/s/inknutantiqua/v9/Y4GRYax7VC4ot_qNB4nYpBdaKU3bxLj5bBoIYJNf.ttf';
+  'http://fonts.gstatic.com/s/inknutantiqua/v12/Y4GRYax7VC4ot_qNB4nYpBdaKU3bxLj5bBoIYJNf.ttf';
 export const InknutAntiqua_700Bold =
-  'http://fonts.gstatic.com/s/inknutantiqua/v9/Y4GRYax7VC4ot_qNB4nYpBdaKU2_xbj5bBoIYJNf.ttf';
+  'http://fonts.gstatic.com/s/inknutantiqua/v12/Y4GRYax7VC4ot_qNB4nYpBdaKU2_xbj5bBoIYJNf.ttf';
 export const InknutAntiqua_800ExtraBold =
-  'http://fonts.gstatic.com/s/inknutantiqua/v9/Y4GRYax7VC4ot_qNB4nYpBdaKU2jxrj5bBoIYJNf.ttf';
+  'http://fonts.gstatic.com/s/inknutantiqua/v12/Y4GRYax7VC4ot_qNB4nYpBdaKU2jxrj5bBoIYJNf.ttf';
 export const InknutAntiqua_900Black =
-  'http://fonts.gstatic.com/s/inknutantiqua/v9/Y4GRYax7VC4ot_qNB4nYpBdaKU2Hx7j5bBoIYJNf.ttf';
+  'http://fonts.gstatic.com/s/inknutantiqua/v12/Y4GRYax7VC4ot_qNB4nYpBdaKU2Hx7j5bBoIYJNf.ttf';
 export const Kurale_400Regular =
-  'http://fonts.gstatic.com/s/kurale/v6/4iCs6KV9e9dXjho6eAT3v02QFg.ttf';
+  'http://fonts.gstatic.com/s/kurale/v9/4iCs6KV9e9dXjho6eAT3v02QFg.ttf';
 export const RobotoMono_100Thin =
   'http://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vuPQ--5Ip2sSQ.ttf';
 export const RobotoMono_200ExtraLight =
@@ -3708,23 +6216,23 @@ export const RobotoMono_600SemiBold_Italic =
 export const RobotoMono_700Bold_Italic =
   'http://fonts.gstatic.com/s/robotomono/v13/L0xoDF4xlVMF-BfR8bXMIjhOsXG-q2oeuFoqFrmAB-W9AJi8SZwt.ttf';
 export const Sumana_400Regular =
-  'http://fonts.gstatic.com/s/sumana/v5/4UaDrE5TqRBjGj-G8Bji76zR4w.ttf';
+  'http://fonts.gstatic.com/s/sumana/v8/4UaDrE5TqRBjGj-G8Bji76zR4w.ttf';
 export const Sumana_700Bold =
-  'http://fonts.gstatic.com/s/sumana/v5/4UaArE5TqRBjGj--TDfG54fN6ppsKg.ttf';
+  'http://fonts.gstatic.com/s/sumana/v8/4UaArE5TqRBjGj--TDfG54fN6ppsKg.ttf';
 export const Biryani_200ExtraLight =
-  'http://fonts.gstatic.com/s/biryani/v6/hv-TlzNxIFoO84YddYQyGTBSU-J-RxQ.ttf';
+  'http://fonts.gstatic.com/s/biryani/v11/hv-TlzNxIFoO84YddYQyGTBSU-J-RxQ.ttf';
 export const Biryani_300Light =
-  'http://fonts.gstatic.com/s/biryani/v6/hv-TlzNxIFoO84YddeAxGTBSU-J-RxQ.ttf';
+  'http://fonts.gstatic.com/s/biryani/v11/hv-TlzNxIFoO84YddeAxGTBSU-J-RxQ.ttf';
 export const Biryani_400Regular =
-  'http://fonts.gstatic.com/s/biryani/v6/hv-WlzNxIFoO84YdTUwZPTh5T-s.ttf';
+  'http://fonts.gstatic.com/s/biryani/v11/hv-WlzNxIFoO84YdTUwZPTh5T-s.ttf';
 export const Biryani_600SemiBold =
-  'http://fonts.gstatic.com/s/biryani/v6/hv-TlzNxIFoO84YddZQ3GTBSU-J-RxQ.ttf';
+  'http://fonts.gstatic.com/s/biryani/v11/hv-TlzNxIFoO84YddZQ3GTBSU-J-RxQ.ttf';
 export const Biryani_700Bold =
-  'http://fonts.gstatic.com/s/biryani/v6/hv-TlzNxIFoO84YddfA2GTBSU-J-RxQ.ttf';
+  'http://fonts.gstatic.com/s/biryani/v11/hv-TlzNxIFoO84YddfA2GTBSU-J-RxQ.ttf';
 export const Biryani_800ExtraBold =
-  'http://fonts.gstatic.com/s/biryani/v6/hv-TlzNxIFoO84Yddew1GTBSU-J-RxQ.ttf';
+  'http://fonts.gstatic.com/s/biryani/v11/hv-TlzNxIFoO84Yddew1GTBSU-J-RxQ.ttf';
 export const Biryani_900Black =
-  'http://fonts.gstatic.com/s/biryani/v6/hv-TlzNxIFoO84Yddcg0GTBSU-J-RxQ.ttf';
+  'http://fonts.gstatic.com/s/biryani/v11/hv-TlzNxIFoO84Yddcg0GTBSU-J-RxQ.ttf';
 export const Jaldi_400Regular = 'http://fonts.gstatic.com/s/jaldi/v7/or3sQ67z0_CI30NUZpD_B6g8.ttf';
 export const Jaldi_700Bold = 'http://fonts.gstatic.com/s/jaldi/v7/or3hQ67z0_CI33voSbT3LLQ1niPn.ttf';
 export const PragatiNarrow_400Regular =
@@ -3761,28 +6269,28 @@ export const MartelSans_900Black =
   'http://fonts.gstatic.com/s/martelsans/v7/h0GxssGi7VdzDgKjM-4d8hBb4MuHFUknqMxQ.ttf';
 export const Lateef_400Regular =
   'http://fonts.gstatic.com/s/lateef/v18/hESw6XVnNCxEvkbMpheEZo_H_w.ttf';
-export const Modak_400Regular = 'http://fonts.gstatic.com/s/modak/v8/EJRYQgs1XtIEsnMH8BVZ76KU.ttf';
+export const Modak_400Regular = 'http://fonts.gstatic.com/s/modak/v16/EJRYQgs1XtIEsnMH8BVZ76KU.ttf';
 export const NotoSansJP_100Thin =
-  'http://fonts.gstatic.com/s/notosansjp/v28/-F6ofjtqLzI2JPCgQBnw7HFQoggM-FNthvIU.otf';
+  'http://fonts.gstatic.com/s/notosansjp/v36/-F6ofjtqLzI2JPCgQBnw7HFQoggM-FNthvIU.otf';
 export const NotoSansJP_300Light =
-  'http://fonts.gstatic.com/s/notosansjp/v28/-F6pfjtqLzI2JPCgQBnw7HFQaioq1H1hj-sNFQ.otf';
+  'http://fonts.gstatic.com/s/notosansjp/v36/-F6pfjtqLzI2JPCgQBnw7HFQaioq1H1hj-sNFQ.otf';
 export const NotoSansJP_400Regular =
-  'http://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFowAIO2lZ9hg.otf';
+  'http://fonts.gstatic.com/s/notosansjp/v36/-F62fjtqLzI2JPCgQBnw7HFowAIO2lZ9hg.otf';
 export const NotoSansJP_500Medium =
-  'http://fonts.gstatic.com/s/notosansjp/v28/-F6pfjtqLzI2JPCgQBnw7HFQMisq1H1hj-sNFQ.otf';
+  'http://fonts.gstatic.com/s/notosansjp/v36/-F6pfjtqLzI2JPCgQBnw7HFQMisq1H1hj-sNFQ.otf';
 export const NotoSansJP_700Bold =
-  'http://fonts.gstatic.com/s/notosansjp/v28/-F6pfjtqLzI2JPCgQBnw7HFQei0q1H1hj-sNFQ.otf';
+  'http://fonts.gstatic.com/s/notosansjp/v36/-F6pfjtqLzI2JPCgQBnw7HFQei0q1H1hj-sNFQ.otf';
 export const NotoSansJP_900Black =
-  'http://fonts.gstatic.com/s/notosansjp/v28/-F6pfjtqLzI2JPCgQBnw7HFQQi8q1H1hj-sNFQ.otf';
+  'http://fonts.gstatic.com/s/notosansjp/v36/-F6pfjtqLzI2JPCgQBnw7HFQQi8q1H1hj-sNFQ.otf';
 export const Cambay_400Regular =
-  'http://fonts.gstatic.com/s/cambay/v7/SLXJc1rY6H0_ZDsGbrSIz9JsaA.ttf';
+  'http://fonts.gstatic.com/s/cambay/v10/SLXJc1rY6H0_ZDsGbrSIz9JsaA.ttf';
 export const Cambay_400Regular_Italic =
-  'http://fonts.gstatic.com/s/cambay/v7/SLXLc1rY6H0_ZDs2bL6M7dd8aGZk.ttf';
+  'http://fonts.gstatic.com/s/cambay/v10/SLXLc1rY6H0_ZDs2bL6M7dd8aGZk.ttf';
 export const Cambay_700Bold =
-  'http://fonts.gstatic.com/s/cambay/v7/SLXKc1rY6H0_ZDs-0pusx_lwYX99kA.ttf';
+  'http://fonts.gstatic.com/s/cambay/v10/SLXKc1rY6H0_ZDs-0pusx_lwYX99kA.ttf';
 export const Cambay_700Bold_Italic =
-  'http://fonts.gstatic.com/s/cambay/v7/SLXMc1rY6H0_ZDs2bIYwwvN0Q3ptkDMN.ttf';
-export const Dekko_400Regular = 'http://fonts.gstatic.com/s/dekko/v9/46khlb_wWjfSrttFR0vsfl1B.ttf';
+  'http://fonts.gstatic.com/s/cambay/v10/SLXMc1rY6H0_ZDs2bIYwwvN0Q3ptkDMN.ttf';
+export const Dekko_400Regular = 'http://fonts.gstatic.com/s/dekko/v17/46khlb_wWjfSrttFR0vsfl1B.ttf';
 export const Khula_300Light =
   'http://fonts.gstatic.com/s/khula/v7/OpNPnoEOns3V7G-ljCvUrC59XwXD.ttf';
 export const Khula_400Regular = 'http://fonts.gstatic.com/s/khula/v7/OpNCnoEOns3V7FcJpA_chzJ0.ttf';
@@ -3792,19 +6300,19 @@ export const Khula_700Bold = 'http://fonts.gstatic.com/s/khula/v7/OpNPnoEOns3V7G
 export const Khula_800ExtraBold =
   'http://fonts.gstatic.com/s/khula/v7/OpNPnoEOns3V7G-piCvUrC59XwXD.ttf';
 export const Palanquin_100Thin =
-  'http://fonts.gstatic.com/s/palanquin/v6/9XUhlJ90n1fBFg7ceXwUEltI7rWmZzTH.ttf';
+  'http://fonts.gstatic.com/s/palanquin/v10/9XUhlJ90n1fBFg7ceXwUEltI7rWmZzTH.ttf';
 export const Palanquin_200ExtraLight =
-  'http://fonts.gstatic.com/s/palanquin/v6/9XUilJ90n1fBFg7ceXwUvnpoxJuqbi3ezg.ttf';
+  'http://fonts.gstatic.com/s/palanquin/v10/9XUilJ90n1fBFg7ceXwUvnpoxJuqbi3ezg.ttf';
 export const Palanquin_300Light =
-  'http://fonts.gstatic.com/s/palanquin/v6/9XUilJ90n1fBFg7ceXwU2nloxJuqbi3ezg.ttf';
+  'http://fonts.gstatic.com/s/palanquin/v10/9XUilJ90n1fBFg7ceXwU2nloxJuqbi3ezg.ttf';
 export const Palanquin_400Regular =
-  'http://fonts.gstatic.com/s/palanquin/v6/9XUnlJ90n1fBFg7ceXwsdlFMzLC2Zw.ttf';
+  'http://fonts.gstatic.com/s/palanquin/v10/9XUnlJ90n1fBFg7ceXwsdlFMzLC2Zw.ttf';
 export const Palanquin_500Medium =
-  'http://fonts.gstatic.com/s/palanquin/v6/9XUilJ90n1fBFg7ceXwUgnhoxJuqbi3ezg.ttf';
+  'http://fonts.gstatic.com/s/palanquin/v10/9XUilJ90n1fBFg7ceXwUgnhoxJuqbi3ezg.ttf';
 export const Palanquin_600SemiBold =
-  'http://fonts.gstatic.com/s/palanquin/v6/9XUilJ90n1fBFg7ceXwUrn9oxJuqbi3ezg.ttf';
+  'http://fonts.gstatic.com/s/palanquin/v10/9XUilJ90n1fBFg7ceXwUrn9oxJuqbi3ezg.ttf';
 export const Palanquin_700Bold =
-  'http://fonts.gstatic.com/s/palanquin/v6/9XUilJ90n1fBFg7ceXwUyn5oxJuqbi3ezg.ttf';
+  'http://fonts.gstatic.com/s/palanquin/v10/9XUilJ90n1fBFg7ceXwUyn5oxJuqbi3ezg.ttf';
 export const PalanquinDark_400Regular =
   'http://fonts.gstatic.com/s/palanquindark/v7/xn75YHgl1nqmANMB-26xC7yuF_6OTEo9VtfE.ttf';
 export const PalanquinDark_500Medium =
@@ -3816,63 +6324,63 @@ export const PalanquinDark_700Bold =
 export const Ranga_400Regular = 'http://fonts.gstatic.com/s/ranga/v8/C8ct4cYisGb28p6CLDwZwmGE.ttf';
 export const Ranga_700Bold = 'http://fonts.gstatic.com/s/ranga/v8/C8cg4cYisGb28qY-AxgR6X2NZAn2.ttf';
 export const LakkiReddy_400Regular =
-  'http://fonts.gstatic.com/s/lakkireddy/v9/S6u5w49MUSzD9jlCPmvLZQfox9k97-xZ.ttf';
+  'http://fonts.gstatic.com/s/lakkireddy/v17/S6u5w49MUSzD9jlCPmvLZQfox9k97-xZ.ttf';
 export const RaviPrakash_400Regular =
-  'http://fonts.gstatic.com/s/raviprakash/v9/gokpH6fsDkVrF9Bv9X8SOAKHmNZEq6TTFw.ttf';
+  'http://fonts.gstatic.com/s/raviprakash/v17/gokpH6fsDkVrF9Bv9X8SOAKHmNZEq6TTFw.ttf';
 export const SreeKrushnadevaraya_400Regular =
-  'http://fonts.gstatic.com/s/sreekrushnadevaraya/v10/R70FjzQeifmPepmyQQjQ9kvwMkWYPfTA_EWb2FhQuXir.ttf';
+  'http://fonts.gstatic.com/s/sreekrushnadevaraya/v19/R70FjzQeifmPepmyQQjQ9kvwMkWYPfTA_EWb2FhQuXir.ttf';
 export const Suranna_400Regular =
-  'http://fonts.gstatic.com/s/suranna/v8/gokuH6ztGkFjWe58tBRZT2KmgP0.ttf';
+  'http://fonts.gstatic.com/s/suranna/v11/gokuH6ztGkFjWe58tBRZT2KmgP0.ttf';
 export const Suravaram_400Regular =
-  'http://fonts.gstatic.com/s/suravaram/v11/_gP61R_usiY7SCym4xIAi261Qv9roQ.ttf';
+  'http://fonts.gstatic.com/s/suravaram/v19/_gP61R_usiY7SCym4xIAi261Qv9roQ.ttf';
 export const Timmana_400Regular =
-  'http://fonts.gstatic.com/s/timmana/v7/6xKvdShfL9yK-rvpCmvbKHwJUOM.ttf';
+  'http://fonts.gstatic.com/s/timmana/v10/6xKvdShfL9yK-rvpCmvbKHwJUOM.ttf';
 export const Gurajada_400Regular =
-  'http://fonts.gstatic.com/s/gurajada/v10/FwZY7-Qx308m-l-0Kd6A4sijpFu_.ttf';
+  'http://fonts.gstatic.com/s/gurajada/v13/FwZY7-Qx308m-l-0Kd6A4sijpFu_.ttf';
 export const Ramaraja_400Regular =
-  'http://fonts.gstatic.com/s/ramaraja/v7/SlGTmQearpYAYG1CABIkqnB6aSQU.ttf';
+  'http://fonts.gstatic.com/s/ramaraja/v13/SlGTmQearpYAYG1CABIkqnB6aSQU.ttf';
 export const Dhurjati_400Regular =
-  'http://fonts.gstatic.com/s/dhurjati/v10/_6_8ED3gSeatXfFiFX3ySKQtuTA2.ttf';
+  'http://fonts.gstatic.com/s/dhurjati/v18/_6_8ED3gSeatXfFiFX3ySKQtuTA2.ttf';
 export const Gidugu_400Regular =
-  'http://fonts.gstatic.com/s/gidugu/v11/L0x8DFMkk1Uf6w3RvPCmRSlUig.ttf';
+  'http://fonts.gstatic.com/s/gidugu/v19/L0x8DFMkk1Uf6w3RvPCmRSlUig.ttf';
 export const Mallanna_400Regular =
-  'http://fonts.gstatic.com/s/mallanna/v8/hv-Vlzx-KEQb84YaDGwzEzRwVvJ-.ttf';
+  'http://fonts.gstatic.com/s/mallanna/v11/hv-Vlzx-KEQb84YaDGwzEzRwVvJ-.ttf';
 export const Mandali_400Regular =
   'http://fonts.gstatic.com/s/mandali/v9/LhWlMVbYOfASNfNUVFk1ZPdcKtA.ttf';
-export const NTR_400Regular = 'http://fonts.gstatic.com/s/ntr/v10/RLpzK5Xy0ZjiGGhs5TA4bg.ttf';
+export const NTR_400Regular = 'http://fonts.gstatic.com/s/ntr/v13/RLpzK5Xy0ZjiGGhs5TA4bg.ttf';
 export const Peddana_400Regular =
-  'http://fonts.gstatic.com/s/peddana/v10/aFTU7PBhaX89UcKWhh2aBYyMcKw.ttf';
+  'http://fonts.gstatic.com/s/peddana/v18/aFTU7PBhaX89UcKWhh2aBYyMcKw.ttf';
 export const Ramabhadra_400Regular =
   'http://fonts.gstatic.com/s/ramabhadra/v10/EYq2maBOwqRW9P1SQ83LehNGX5uWw3o.ttf';
 export const TenaliRamakrishna_400Regular =
-  'http://fonts.gstatic.com/s/tenaliramakrishna/v7/raxgHj6Yt9gAN3LLKs0BZVMo8jmwn1-8KJXqUFFvtA.ttf';
+  'http://fonts.gstatic.com/s/tenaliramakrishna/v10/raxgHj6Yt9gAN3LLKs0BZVMo8jmwn1-8KJXqUFFvtA.ttf';
 export const Kalam_300Light =
   'http://fonts.gstatic.com/s/kalam/v11/YA9Qr0Wd4kDdMtD6GgLLmCUItqGt.ttf';
 export const Kalam_400Regular = 'http://fonts.gstatic.com/s/kalam/v11/YA9dr0Wd4kDdMuhWMibDszkB.ttf';
 export const Kalam_700Bold =
   'http://fonts.gstatic.com/s/kalam/v11/YA9Qr0Wd4kDdMtDqHQLLmCUItqGt.ttf';
 export const Sarpanch_400Regular =
-  'http://fonts.gstatic.com/s/sarpanch/v6/hESy6Xt4NCpRuk6Pzh2ARIrX_20n.ttf';
+  'http://fonts.gstatic.com/s/sarpanch/v9/hESy6Xt4NCpRuk6Pzh2ARIrX_20n.ttf';
 export const Sarpanch_500Medium =
-  'http://fonts.gstatic.com/s/sarpanch/v6/hES16Xt4NCpRuk6PziV0ba7f1HEuRHkM.ttf';
+  'http://fonts.gstatic.com/s/sarpanch/v9/hES16Xt4NCpRuk6PziV0ba7f1HEuRHkM.ttf';
 export const Sarpanch_600SemiBold =
-  'http://fonts.gstatic.com/s/sarpanch/v6/hES16Xt4NCpRuk6PziVYaq7f1HEuRHkM.ttf';
+  'http://fonts.gstatic.com/s/sarpanch/v9/hES16Xt4NCpRuk6PziVYaq7f1HEuRHkM.ttf';
 export const Sarpanch_700Bold =
-  'http://fonts.gstatic.com/s/sarpanch/v6/hES16Xt4NCpRuk6PziU8a67f1HEuRHkM.ttf';
+  'http://fonts.gstatic.com/s/sarpanch/v9/hES16Xt4NCpRuk6PziU8a67f1HEuRHkM.ttf';
 export const Sarpanch_800ExtraBold =
-  'http://fonts.gstatic.com/s/sarpanch/v6/hES16Xt4NCpRuk6PziUgaK7f1HEuRHkM.ttf';
+  'http://fonts.gstatic.com/s/sarpanch/v9/hES16Xt4NCpRuk6PziUgaK7f1HEuRHkM.ttf';
 export const Sarpanch_900Black =
-  'http://fonts.gstatic.com/s/sarpanch/v6/hES16Xt4NCpRuk6PziUEaa7f1HEuRHkM.ttf';
+  'http://fonts.gstatic.com/s/sarpanch/v9/hES16Xt4NCpRuk6PziUEaa7f1HEuRHkM.ttf';
 export const Halant_300Light =
-  'http://fonts.gstatic.com/s/halant/v8/u-490qaujRI2Pbsvc_pCmwZqcwdRXg.ttf';
+  'http://fonts.gstatic.com/s/halant/v11/u-490qaujRI2Pbsvc_pCmwZqcwdRXg.ttf';
 export const Halant_400Regular =
-  'http://fonts.gstatic.com/s/halant/v8/u-4-0qaujRI2PbsX39Jmky12eg.ttf';
+  'http://fonts.gstatic.com/s/halant/v11/u-4-0qaujRI2PbsX39Jmky12eg.ttf';
 export const Halant_500Medium =
-  'http://fonts.gstatic.com/s/halant/v8/u-490qaujRI2PbsvK_tCmwZqcwdRXg.ttf';
+  'http://fonts.gstatic.com/s/halant/v11/u-490qaujRI2PbsvK_tCmwZqcwdRXg.ttf';
 export const Halant_600SemiBold =
-  'http://fonts.gstatic.com/s/halant/v8/u-490qaujRI2PbsvB_xCmwZqcwdRXg.ttf';
+  'http://fonts.gstatic.com/s/halant/v11/u-490qaujRI2PbsvB_xCmwZqcwdRXg.ttf';
 export const Halant_700Bold =
-  'http://fonts.gstatic.com/s/halant/v8/u-490qaujRI2PbsvY_1CmwZqcwdRXg.ttf';
+  'http://fonts.gstatic.com/s/halant/v11/u-490qaujRI2PbsvY_1CmwZqcwdRXg.ttf';
 export const Laila_300Light =
   'http://fonts.gstatic.com/s/laila/v8/LYjBdG_8nE8jDLzxogNAh14nVcfe.ttf';
 export const Laila_400Regular = 'http://fonts.gstatic.com/s/laila/v8/LYjMdG_8nE8jDIRdiidIrEIu.ttf';
@@ -3882,7 +6390,7 @@ export const Laila_600SemiBold =
   'http://fonts.gstatic.com/s/laila/v8/LYjBdG_8nE8jDLyFpANAh14nVcfe.ttf';
 export const Laila_700Bold = 'http://fonts.gstatic.com/s/laila/v8/LYjBdG_8nE8jDLzhpQNAh14nVcfe.ttf';
 export const RozhaOne_400Regular =
-  'http://fonts.gstatic.com/s/rozhaone/v8/AlZy_zVFtYP12Zncg2khdXf4XB0Tow.ttf';
+  'http://fonts.gstatic.com/s/rozhaone/v11/AlZy_zVFtYP12Zncg2khdXf4XB0Tow.ttf';
 export const Khand_300Light =
   'http://fonts.gstatic.com/s/khand/v9/TwMN-IINQlQQ0bL5cFE3ZwaH__-C.ttf';
 export const Khand_400Regular = 'http://fonts.gstatic.com/s/khand/v9/TwMA-IINQlQQ0YpVWHU_TBqO.ttf';
@@ -3892,13 +6400,13 @@ export const Khand_600SemiBold =
   'http://fonts.gstatic.com/s/khand/v9/TwMN-IINQlQQ0bKNdlE3ZwaH__-C.ttf';
 export const Khand_700Bold = 'http://fonts.gstatic.com/s/khand/v9/TwMN-IINQlQQ0bLpd1E3ZwaH__-C.ttf';
 export const VesperLibre_400Regular =
-  'http://fonts.gstatic.com/s/vesperlibre/v14/bx6CNxyWnf-uxPdXDHUD_Rd4D0-N2qIWVQ.ttf';
+  'http://fonts.gstatic.com/s/vesperlibre/v17/bx6CNxyWnf-uxPdXDHUD_Rd4D0-N2qIWVQ.ttf';
 export const VesperLibre_500Medium =
-  'http://fonts.gstatic.com/s/vesperlibre/v14/bx6dNxyWnf-uxPdXDHUD_RdA-2ap0okKXKvPlw.ttf';
+  'http://fonts.gstatic.com/s/vesperlibre/v17/bx6dNxyWnf-uxPdXDHUD_RdA-2ap0okKXKvPlw.ttf';
 export const VesperLibre_700Bold =
-  'http://fonts.gstatic.com/s/vesperlibre/v14/bx6dNxyWnf-uxPdXDHUD_RdAs2Cp0okKXKvPlw.ttf';
+  'http://fonts.gstatic.com/s/vesperlibre/v17/bx6dNxyWnf-uxPdXDHUD_RdAs2Cp0okKXKvPlw.ttf';
 export const VesperLibre_900Black =
-  'http://fonts.gstatic.com/s/vesperlibre/v14/bx6dNxyWnf-uxPdXDHUD_RdAi2Kp0okKXKvPlw.ttf';
+  'http://fonts.gstatic.com/s/vesperlibre/v17/bx6dNxyWnf-uxPdXDHUD_RdAi2Kp0okKXKvPlw.ttf';
 export const Rajdhani_300Light =
   'http://fonts.gstatic.com/s/rajdhani/v10/LDI2apCSOBg7S-QT7pasEcOsc-bGkqIw.ttf';
 export const Rajdhani_400Regular =
@@ -3973,7 +6481,7 @@ export const FiraSans_900Black =
 export const FiraSans_900Black_Italic =
   'http://fonts.gstatic.com/s/firasans/v11/va9f4kDNxMZdWfMOD5VvkrBKRhf_XljGllLX.ttf';
 export const Slabo13px_400Regular =
-  'http://fonts.gstatic.com/s/slabo13px/v8/11hEGp_azEvXZUdSBzzRcKer2wkYnvI.ttf';
+  'http://fonts.gstatic.com/s/slabo13px/v11/11hEGp_azEvXZUdSBzzRcKer2wkYnvI.ttf';
 export const Slabo27px_400Regular =
   'http://fonts.gstatic.com/s/slabo27px/v7/mFT0WbgBwKPR_Z4hGN2qsxgJ1EJ7i90.ttf';
 export const SourceSerifPro_200ExtraLight =
@@ -4059,43 +6567,43 @@ export const AlegreyaSansSC_900Black =
 export const AlegreyaSansSC_900Black_Italic =
   'http://fonts.gstatic.com/s/alegreyasanssc/v13/mtGk4-RGJqfMvt7P8FUr0Q1j-Hf1BkxddiNhNaB6O-51OA.ttf';
 export const Exo2_100Thin =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH1v4okm5zmbvwkAx_sfcEuiD8jvvOcPtq-rpvLpQ.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH1v4okm5zmbvwkAx_sfcEuiD8jvvOcPtq-rpvLpQ.ttf';
 export const Exo2_200ExtraLight =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH1v4okm5zmbvwkAx_sfcEuiD8jPvKcPtq-rpvLpQ.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH1v4okm5zmbvwkAx_sfcEuiD8jPvKcPtq-rpvLpQ.ttf';
 export const Exo2_300Light =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH1v4okm5zmbvwkAx_sfcEuiD8j4PKcPtq-rpvLpQ.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH1v4okm5zmbvwkAx_sfcEuiD8j4PKcPtq-rpvLpQ.ttf';
 export const Exo2_400Regular =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH1v4okm5zmbvwkAx_sfcEuiD8jvvKcPtq-rpvLpQ.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH1v4okm5zmbvwkAx_sfcEuiD8jvvKcPtq-rpvLpQ.ttf';
 export const Exo2_500Medium =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH1v4okm5zmbvwkAx_sfcEuiD8jjPKcPtq-rpvLpQ.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH1v4okm5zmbvwkAx_sfcEuiD8jjPKcPtq-rpvLpQ.ttf';
 export const Exo2_600SemiBold =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH1v4okm5zmbvwkAx_sfcEuiD8jYPWcPtq-rpvLpQ.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH1v4okm5zmbvwkAx_sfcEuiD8jYPWcPtq-rpvLpQ.ttf';
 export const Exo2_700Bold =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH1v4okm5zmbvwkAx_sfcEuiD8jWfWcPtq-rpvLpQ.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH1v4okm5zmbvwkAx_sfcEuiD8jWfWcPtq-rpvLpQ.ttf';
 export const Exo2_800ExtraBold =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH1v4okm5zmbvwkAx_sfcEuiD8jPvWcPtq-rpvLpQ.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH1v4okm5zmbvwkAx_sfcEuiD8jPvWcPtq-rpvLpQ.ttf';
 export const Exo2_900Black =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH1v4okm5zmbvwkAx_sfcEuiD8jF_WcPtq-rpvLpQ.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH1v4okm5zmbvwkAx_sfcEuiD8jF_WcPtq-rpvLpQ.ttf';
 export const Exo2_100Thin_Italic =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drF0fNC6jJ7bpQBL.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drF0fNC6jJ7bpQBL.ttf';
 export const Exo2_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drH0fdC6jJ7bpQBL.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drH0fdC6jJ7bpQBL.ttf';
 export const Exo2_300Light_Italic =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drEqfdC6jJ7bpQBL.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drEqfdC6jJ7bpQBL.ttf';
 export const Exo2_400Regular_Italic =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drF0fdC6jJ7bpQBL.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drF0fdC6jJ7bpQBL.ttf';
 export const Exo2_500Medium_Italic =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drFGfdC6jJ7bpQBL.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drFGfdC6jJ7bpQBL.ttf';
 export const Exo2_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drGqetC6jJ7bpQBL.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drGqetC6jJ7bpQBL.ttf';
 export const Exo2_700Bold_Italic =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drGTetC6jJ7bpQBL.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drGTetC6jJ7bpQBL.ttf';
 export const Exo2_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drH0etC6jJ7bpQBL.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drH0etC6jJ7bpQBL.ttf';
 export const Exo2_900Black_Italic =
-  'http://fonts.gstatic.com/s/exo2/v10/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drHdetC6jJ7bpQBL.ttf';
+  'http://fonts.gstatic.com/s/exo2/v15/7cH3v4okm5zmbtYtMeA0FKq0Jjg2drHdetC6jJ7bpQBL.ttf';
 export const KdamThmor_400Regular =
-  'http://fonts.gstatic.com/s/kdamthmor/v11/MwQzbhjs3veF6QwJVf0JkGMViblPtXs.ttf';
+  'http://fonts.gstatic.com/s/kdamthmor/v19/MwQzbhjs3veF6QwJVf0JkGMViblPtXs.ttf';
 export const Sarabun_100Thin =
   'http://fonts.gstatic.com/s/sarabun/v8/DtVhJx26TKEr37c9YHZJmnYI5gnOpg.ttf';
 export const Sarabun_100Thin_Italic =
@@ -4128,38 +6636,46 @@ export const Sarabun_800ExtraBold =
   'http://fonts.gstatic.com/s/sarabun/v8/DtVmJx26TKEr37c9YLJvulwm6gDXvwE.ttf';
 export const Sarabun_800ExtraBold_Italic =
   'http://fonts.gstatic.com/s/sarabun/v8/DtVkJx26TKEr37c9aBBxOlos7iLSrwFUlw.ttf';
+export const Redacted_400Regular =
+  'http://fonts.gstatic.com/s/redacted/v3/Z9XVDmdRShme2O_7aITe4u2El6GC.ttf';
+export const RedactedScript_300Light =
+  'http://fonts.gstatic.com/s/redactedscript/v3/ypvEbXGRglhokR7dcC3d1-R6zmxqHUzVmbI397ldkg.ttf';
+export const RedactedScript_400Regular =
+  'http://fonts.gstatic.com/s/redactedscript/v3/ypvBbXGRglhokR7dcC3d1-R6zmxSsWTxkZkr_g.ttf';
+export const RedactedScript_700Bold =
+  'http://fonts.gstatic.com/s/redactedscript/v3/ypvEbXGRglhokR7dcC3d1-R6zmxqDUvVmbI397ldkg.ttf';
 export const Kantumruy_300Light =
-  'http://fonts.gstatic.com/s/kantumruy/v11/syk0-yJ0m7wyVb-f4FOPUtDlpn-UJ1H6Uw.ttf';
+  'http://fonts.gstatic.com/s/kantumruy/v19/syk0-yJ0m7wyVb-f4FOPUtDlpn-UJ1H6Uw.ttf';
 export const Kantumruy_400Regular =
-  'http://fonts.gstatic.com/s/kantumruy/v11/sykx-yJ0m7wyVb-f4FO3_vjBrlSILg.ttf';
+  'http://fonts.gstatic.com/s/kantumruy/v19/sykx-yJ0m7wyVb-f4FO3_vjBrlSILg.ttf';
 export const Kantumruy_700Bold =
-  'http://fonts.gstatic.com/s/kantumruy/v11/syk0-yJ0m7wyVb-f4FOPQtflpn-UJ1H6Uw.ttf';
+  'http://fonts.gstatic.com/s/kantumruy/v19/syk0-yJ0m7wyVb-f4FOPQtflpn-UJ1H6Uw.ttf';
 export const FaunaOne_400Regular =
-  'http://fonts.gstatic.com/s/faunaone/v8/wlpzgwTPBVpjpCuwkuEx2UxLYClOCg.ttf';
+  'http://fonts.gstatic.com/s/faunaone/v11/wlpzgwTPBVpjpCuwkuEx2UxLYClOCg.ttf';
 export const LilyScriptOne_400Regular =
-  'http://fonts.gstatic.com/s/lilyscriptone/v10/LhW9MV7ZMfIPdMxeBjBvFN8SXLS4gsSjQNsRMg.ttf';
+  'http://fonts.gstatic.com/s/lilyscriptone/v13/LhW9MV7ZMfIPdMxeBjBvFN8SXLS4gsSjQNsRMg.ttf';
 export const PathwayGothicOne_400Regular =
   'http://fonts.gstatic.com/s/pathwaygothicone/v9/MwQrbgD32-KAvjkYGNUUxAtW7pEBwx-dTFxeb80flQ.ttf';
 export const Alef_400Regular = 'http://fonts.gstatic.com/s/alef/v12/FeVfS0NQpLYgrjJbC5FxxbU.ttf';
 export const Alef_700Bold = 'http://fonts.gstatic.com/s/alef/v12/FeVQS0NQpLYglo50L5la2bxii28.ttf';
 export const RobotoSlab_100Thin =
-  'http://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWWaG5iddG-1A.ttf';
+  'http://fonts.gstatic.com/s/robotoslab/v16/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWWaG5iddG-1A.ttf';
 export const RobotoSlab_200ExtraLight =
-  'http://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDISWaG5iddG-1A.ttf';
+  'http://fonts.gstatic.com/s/robotoslab/v16/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDISWaG5iddG-1A.ttf';
 export const RobotoSlab_300Light =
-  'http://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSWaG5iddG-1A.ttf';
+  'http://fonts.gstatic.com/s/robotoslab/v16/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSWaG5iddG-1A.ttf';
 export const RobotoSlab_400Regular =
-  'http://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISWaG5iddG-1A.ttf';
+  'http://fonts.gstatic.com/s/robotoslab/v16/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISWaG5iddG-1A.ttf';
 export const RobotoSlab_500Medium =
-  'http://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSWaG5iddG-1A.ttf';
+  'http://fonts.gstatic.com/s/robotoslab/v16/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSWaG5iddG-1A.ttf';
 export const RobotoSlab_600SemiBold =
-  'http://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoUoOWaG5iddG-1A.ttf';
+  'http://fonts.gstatic.com/s/robotoslab/v16/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoUoOWaG5iddG-1A.ttf';
 export const RobotoSlab_700Bold =
-  'http://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4OWaG5iddG-1A.ttf';
+  'http://fonts.gstatic.com/s/robotoslab/v16/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4OWaG5iddG-1A.ttf';
 export const RobotoSlab_800ExtraBold =
-  'http://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDIOWaG5iddG-1A.ttf';
+  'http://fonts.gstatic.com/s/robotoslab/v16/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDIOWaG5iddG-1A.ttf';
 export const RobotoSlab_900Black =
-  'http://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoJYOWaG5iddG-1A.ttf';
+  'http://fonts.gstatic.com/s/robotoslab/v16/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoJYOWaG5iddG-1A.ttf';
 export const LibreCaslonText_400Regular =
   'http://fonts.gstatic.com/s/librecaslontext/v2/DdT878IGsGw1aF1JU10PUbTvNNaDMcq_3eNrHgO1.ttf';
 export const LibreCaslonText_400Regular_Italic =
@@ -4167,7 +6683,7 @@ export const LibreCaslonText_400Regular_Italic =
 export const LibreCaslonText_700Bold =
   'http://fonts.gstatic.com/s/librecaslontext/v2/DdT578IGsGw1aF1JU10PUbTvNNaDMfID8sdjNR-8ssPt.ttf';
 export const Gabriela_400Regular =
-  'http://fonts.gstatic.com/s/gabriela/v9/qkBWXvsO6sreR8E-b_m-zrpHmRzC.ttf';
+  'http://fonts.gstatic.com/s/gabriela/v12/qkBWXvsO6sreR8E-b_m-zrpHmRzC.ttf';
 export const MerriweatherSans_300Light =
   'http://fonts.gstatic.com/s/merriweathersans/v14/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZ_O4ljuEG7xFHnQ.ttf';
 export const MerriweatherSans_400Regular =
@@ -4207,69 +6723,69 @@ export const Antonio_600SemiBold =
 export const Antonio_700Bold =
   'http://fonts.gstatic.com/s/antonio/v1/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVyW9htIY2DwSXlM.ttf';
 export const NotoSans_400Regular =
-  'http://fonts.gstatic.com/s/notosans/v12/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.ttf';
+  'http://fonts.gstatic.com/s/notosans/v21/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.ttf';
 export const NotoSans_400Regular_Italic =
-  'http://fonts.gstatic.com/s/notosans/v12/o-0OIpQlx3QUlC5A4PNr4DRFSfiM7HBj.ttf';
+  'http://fonts.gstatic.com/s/notosans/v21/o-0OIpQlx3QUlC5A4PNr4DRFSfiM7HBj.ttf';
 export const NotoSans_700Bold =
-  'http://fonts.gstatic.com/s/notosans/v12/o-0NIpQlx3QUlC5A4PNjXhFlY9aA5Wl6PQ.ttf';
+  'http://fonts.gstatic.com/s/notosans/v21/o-0NIpQlx3QUlC5A4PNjXhFlY9aA5Wl6PQ.ttf';
 export const NotoSans_700Bold_Italic =
-  'http://fonts.gstatic.com/s/notosans/v12/o-0TIpQlx3QUlC5A4PNr4Az5ZtyEx2xqPaif.ttf';
+  'http://fonts.gstatic.com/s/notosans/v21/o-0TIpQlx3QUlC5A4PNr4Az5ZtyEx2xqPaif.ttf';
 export const NotoSerif_400Regular =
-  'http://fonts.gstatic.com/s/notoserif/v9/ga6Iaw1J5X9T9RW6j9bNTFAcaRi_bMQ.ttf';
+  'http://fonts.gstatic.com/s/notoserif/v16/ga6Iaw1J5X9T9RW6j9bNTFAcaRi_bMQ.ttf';
 export const NotoSerif_400Regular_Italic =
-  'http://fonts.gstatic.com/s/notoserif/v9/ga6Kaw1J5X9T9RW6j9bNfFIWbTq6fMRRMw.ttf';
+  'http://fonts.gstatic.com/s/notoserif/v16/ga6Kaw1J5X9T9RW6j9bNfFIWbTq6fMRRMw.ttf';
 export const NotoSerif_700Bold =
-  'http://fonts.gstatic.com/s/notoserif/v9/ga6Law1J5X9T9RW6j9bNdOwzTRCUcM1IKoY.ttf';
+  'http://fonts.gstatic.com/s/notoserif/v16/ga6Law1J5X9T9RW6j9bNdOwzTRCUcM1IKoY.ttf';
 export const NotoSerif_700Bold_Italic =
-  'http://fonts.gstatic.com/s/notoserif/v9/ga6Vaw1J5X9T9RW6j9bNfFIu0RWedO9NOoYIDg.ttf';
+  'http://fonts.gstatic.com/s/notoserif/v16/ga6Vaw1J5X9T9RW6j9bNfFIu0RWedO9NOoYIDg.ttf';
 export const PatrickHandSC_400Regular =
-  'http://fonts.gstatic.com/s/patrickhandsc/v8/0nkwC9f7MfsBiWcLtY65AWDK873ViSi6JQc7Vg.ttf';
-export const Tauri_400Regular = 'http://fonts.gstatic.com/s/tauri/v11/TwMA-IISS0AM3IpVWHU_TBqO.ttf';
+  'http://fonts.gstatic.com/s/patrickhandsc/v11/0nkwC9f7MfsBiWcLtY65AWDK873ViSi6JQc7Vg.ttf';
+export const Tauri_400Regular = 'http://fonts.gstatic.com/s/tauri/v14/TwMA-IISS0AM3IpVWHU_TBqO.ttf';
 export const Sintony_400Regular =
   'http://fonts.gstatic.com/s/sintony/v8/XoHm2YDqR7-98cVUITQnu98ojjs.ttf';
 export const Sintony_700Bold =
   'http://fonts.gstatic.com/s/sintony/v8/XoHj2YDqR7-98cVUGYgIn9cDkjLp6C8.ttf';
 export const Kavoon_400Regular =
-  'http://fonts.gstatic.com/s/kavoon/v11/pxiFyp4_scRYhlU4NLr6f1pdEQ.ttf';
+  'http://fonts.gstatic.com/s/kavoon/v19/pxiFyp4_scRYhlU4NLr6f1pdEQ.ttf';
 export const Fruktur_400Regular =
-  'http://fonts.gstatic.com/s/fruktur/v15/SZc53FHsOru5QYsMfz3GkUrS8DI.ttf';
+  'http://fonts.gstatic.com/s/fruktur/v23/SZc53FHsOru5QYsMfz3GkUrS8DI.ttf';
 export const Roboto_100Thin =
-  'http://fonts.gstatic.com/s/roboto/v27/KFOkCnqEu92Fr1MmgWxPKTM1K9nz.ttf';
+  'http://fonts.gstatic.com/s/roboto/v29/KFOkCnqEu92Fr1MmgWxPKTM1K9nz.ttf';
 export const Roboto_100Thin_Italic =
-  'http://fonts.gstatic.com/s/roboto/v27/KFOiCnqEu92Fr1Mu51QrIzcXLsnzjYk.ttf';
+  'http://fonts.gstatic.com/s/roboto/v29/KFOiCnqEu92Fr1Mu51QrIzcXLsnzjYk.ttf';
 export const Roboto_300Light =
-  'http://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5vAx05IsDqlA.ttf';
+  'http://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5vAx05IsDqlA.ttf';
 export const Roboto_300Light_Italic =
-  'http://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TjARc9AMX6lJBP.ttf';
+  'http://fonts.gstatic.com/s/roboto/v29/KFOjCnqEu92Fr1Mu51TjARc9AMX6lJBP.ttf';
 export const Roboto_400Regular =
-  'http://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Me5WZLCzYlKw.ttf';
+  'http://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Me5WZLCzYlKw.ttf';
 export const Roboto_400Regular_Italic =
-  'http://fonts.gstatic.com/s/roboto/v27/KFOkCnqEu92Fr1Mu52xPKTM1K9nz.ttf';
+  'http://fonts.gstatic.com/s/roboto/v29/KFOkCnqEu92Fr1Mu52xPKTM1K9nz.ttf';
 export const Roboto_500Medium =
-  'http://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9vAx05IsDqlA.ttf';
+  'http://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9vAx05IsDqlA.ttf';
 export const Roboto_500Medium_Italic =
-  'http://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51S7ABc9AMX6lJBP.ttf';
+  'http://fonts.gstatic.com/s/roboto/v29/KFOjCnqEu92Fr1Mu51S7ABc9AMX6lJBP.ttf';
 export const Roboto_700Bold =
-  'http://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlvAx05IsDqlA.ttf';
+  'http://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlvAx05IsDqlA.ttf';
 export const Roboto_700Bold_Italic =
-  'http://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TzBhc9AMX6lJBP.ttf';
+  'http://fonts.gstatic.com/s/roboto/v29/KFOjCnqEu92Fr1Mu51TzBhc9AMX6lJBP.ttf';
 export const Roboto_900Black =
-  'http://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmYUtvAx05IsDqlA.ttf';
+  'http://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmYUtvAx05IsDqlA.ttf';
 export const Roboto_900Black_Italic =
-  'http://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TLBBc9AMX6lJBP.ttf';
+  'http://fonts.gstatic.com/s/roboto/v29/KFOjCnqEu92Fr1Mu51TLBBc9AMX6lJBP.ttf';
 export const DenkOne_400Regular =
-  'http://fonts.gstatic.com/s/denkone/v10/dg4m_pzhrqcFb2IzROtHpbglShon.ttf';
+  'http://fonts.gstatic.com/s/denkone/v13/dg4m_pzhrqcFb2IzROtHpbglShon.ttf';
 export const DonegalOne_400Regular =
-  'http://fonts.gstatic.com/s/donegalone/v10/m8JWjfRYea-ZnFz6fsK9FZRFRG-K3Mud.ttf';
+  'http://fonts.gstatic.com/s/donegalone/v18/m8JWjfRYea-ZnFz6fsK9FZRFRG-K3Mud.ttf';
 export const Elsie_400Regular = 'http://fonts.gstatic.com/s/elsie/v11/BCanqZABrez54yYu9slAeLgX.ttf';
 export const Elsie_900Black =
   'http://fonts.gstatic.com/s/elsie/v11/BCaqqZABrez54x6q2-1IU6QeXSBk.ttf';
 export const ElsieSwashCaps_400Regular =
-  'http://fonts.gstatic.com/s/elsieswashcaps/v11/845DNN8xGZyVX5MVo_upKf7KnjK0ferVKGWsUo8.ttf';
+  'http://fonts.gstatic.com/s/elsieswashcaps/v19/845DNN8xGZyVX5MVo_upKf7KnjK0ferVKGWsUo8.ttf';
 export const ElsieSwashCaps_900Black =
-  'http://fonts.gstatic.com/s/elsieswashcaps/v11/845ENN8xGZyVX5MVo_upKf7KnjK0RW74DG2HToawrdU.ttf';
+  'http://fonts.gstatic.com/s/elsieswashcaps/v19/845ENN8xGZyVX5MVo_upKf7KnjK0RW74DG2HToawrdU.ttf';
 export const WendyOne_400Regular =
-  'http://fonts.gstatic.com/s/wendyone/v9/2sDcZGJOipXfgfXV5wgDb2-4C7wFZQ.ttf';
+  'http://fonts.gstatic.com/s/wendyone/v12/2sDcZGJOipXfgfXV5wgDb2-4C7wFZQ.ttf';
 export const Domine_400Regular =
   'http://fonts.gstatic.com/s/domine/v11/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X3LAI10VErGuW8Q.ttf';
 export const Domine_500Medium =
@@ -4279,7 +6795,7 @@ export const Domine_600SemiBold =
 export const Domine_700Bold =
   'http://fonts.gstatic.com/s/domine/v11/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X5XHI10VErGuW8Q.ttf';
 export const GrandHotel_400Regular =
-  'http://fonts.gstatic.com/s/grandhotel/v8/7Au7p_IgjDKdCRWuR1azpmQNEl0O0kEx.ttf';
+  'http://fonts.gstatic.com/s/grandhotel/v11/7Au7p_IgjDKdCRWuR1azpmQNEl0O0kEx.ttf';
 export const LibreBaskerville_400Regular =
   'http://fonts.gstatic.com/s/librebaskerville/v9/kmKnZrc3Hgbbcjq75U4uslyuy4kn0pNeYRI4CN2V.ttf';
 export const LibreBaskerville_400Regular_Italic =
@@ -4287,76 +6803,76 @@ export const LibreBaskerville_400Regular_Italic =
 export const LibreBaskerville_700Bold =
   'http://fonts.gstatic.com/s/librebaskerville/v9/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTjYwI8Gcw6Oi.ttf';
 export const Milonga_400Regular =
-  'http://fonts.gstatic.com/s/milonga/v10/SZc53FHnIaK9W5kffz3GkUrS8DI.ttf';
+  'http://fonts.gstatic.com/s/milonga/v18/SZc53FHnIaK9W5kffz3GkUrS8DI.ttf';
 export const Monda_400Regular = 'http://fonts.gstatic.com/s/monda/v11/TK3tWkYFABsmjvpmNBsLvPdG.ttf';
 export const Monda_700Bold =
   'http://fonts.gstatic.com/s/monda/v11/TK3gWkYFABsmjsLaGz8Dl-tPKo2t.ttf';
 export const NewRocker_400Regular =
-  'http://fonts.gstatic.com/s/newrocker/v11/MwQzbhjp3-HImzcCU_cJkGMViblPtXs.ttf';
+  'http://fonts.gstatic.com/s/newrocker/v14/MwQzbhjp3-HImzcCU_cJkGMViblPtXs.ttf';
 export const FreckleFace_400Regular =
-  'http://fonts.gstatic.com/s/freckleface/v9/AMOWz4SXrmKHCvXTohxY-YI0U1K2w9lb4g.ttf';
+  'http://fonts.gstatic.com/s/freckleface/v12/AMOWz4SXrmKHCvXTohxY-YI0U1K2w9lb4g.ttf';
 export const Hanalei_400Regular =
-  'http://fonts.gstatic.com/s/hanalei/v13/E21n_dD8iufIjBRHXzgmVydREus.ttf';
+  'http://fonts.gstatic.com/s/hanalei/v21/E21n_dD8iufIjBRHXzgmVydREus.ttf';
 export const HanaleiFill_400Regular =
-  'http://fonts.gstatic.com/s/hanaleifill/v11/fC1mPYtObGbfyQznIaQzPQiMVwLBplm9aw.ttf';
+  'http://fonts.gstatic.com/s/hanaleifill/v19/fC1mPYtObGbfyQznIaQzPQiMVwLBplm9aw.ttf';
 export const SnowburstOne_400Regular =
-  'http://fonts.gstatic.com/s/snowburstone/v10/MQpS-WezKdujBsXY3B7I-UT7eZ-UPyacPbo.ttf';
+  'http://fonts.gstatic.com/s/snowburstone/v18/MQpS-WezKdujBsXY3B7I-UT7eZ-UPyacPbo.ttf';
 export const VampiroOne_400Regular =
-  'http://fonts.gstatic.com/s/vampiroone/v13/gokqH6DoDl5yXvJytFsdLkqnsvhIor3K.ttf';
+  'http://fonts.gstatic.com/s/vampiroone/v16/gokqH6DoDl5yXvJytFsdLkqnsvhIor3K.ttf';
 export const Margarine_400Regular =
-  'http://fonts.gstatic.com/s/margarine/v11/qkBXXvoE6trLT9Y7YLye5JRLkAXbMQ.ttf';
+  'http://fonts.gstatic.com/s/margarine/v19/qkBXXvoE6trLT9Y7YLye5JRLkAXbMQ.ttf';
 export const PurplePurse_400Regular =
-  'http://fonts.gstatic.com/s/purplepurse/v11/qWctB66gv53iAp-Vfs4My6qyeBb_ujA4ug.ttf';
+  'http://fonts.gstatic.com/s/purplepurse/v19/qWctB66gv53iAp-Vfs4My6qyeBb_ujA4ug.ttf';
 export const AlmendraDisplay_400Regular =
-  'http://fonts.gstatic.com/s/almendradisplay/v13/0FlPVOGWl1Sb4O3tETtADHRRlZhzXS_eTyer338.ttf';
+  'http://fonts.gstatic.com/s/almendradisplay/v23/0FlPVOGWl1Sb4O3tETtADHRRlZhzXS_eTyer338.ttf';
 export const CroissantOne_400Regular =
-  'http://fonts.gstatic.com/s/croissantone/v10/3y9n6bU9bTPg4m8NDy3Kq24UM3pqn5cdJ-4.ttf';
+  'http://fonts.gstatic.com/s/croissantone/v18/3y9n6bU9bTPg4m8NDy3Kq24UM3pqn5cdJ-4.ttf';
 export const OleoScriptSwashCaps_400Regular =
-  'http://fonts.gstatic.com/s/oleoscriptswashcaps/v8/Noaj6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HMXquSY0Hg90.ttf';
+  'http://fonts.gstatic.com/s/oleoscriptswashcaps/v11/Noaj6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HMXquSY0Hg90.ttf';
 export const OleoScriptSwashCaps_700Bold =
-  'http://fonts.gstatic.com/s/oleoscriptswashcaps/v8/Noag6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HCcaBbYUsn9T5dt0.ttf';
+  'http://fonts.gstatic.com/s/oleoscriptswashcaps/v11/Noag6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HCcaBbYUsn9T5dt0.ttf';
 export const ClickerScript_400Regular =
-  'http://fonts.gstatic.com/s/clickerscript/v8/raxkHiKPvt8CMH6ZWP8PdlEq72rY2zqUKafv.ttf';
+  'http://fonts.gstatic.com/s/clickerscript/v11/raxkHiKPvt8CMH6ZWP8PdlEq72rY2zqUKafv.ttf';
 export const Risque_400Regular =
-  'http://fonts.gstatic.com/s/risque/v10/VdGfAZUfHosahXxoCUYVBJ-T5g.ttf';
+  'http://fonts.gstatic.com/s/risque/v18/VdGfAZUfHosahXxoCUYVBJ-T5g.ttf';
 export const Stalemate_400Regular =
-  'http://fonts.gstatic.com/s/stalemate/v10/taiIGmZ_EJq97-UfkZRpuqSs8ZQpaQ.ttf';
+  'http://fonts.gstatic.com/s/stalemate/v18/taiIGmZ_EJq97-UfkZRpuqSs8ZQpaQ.ttf';
 export const BigelowRules_400Regular =
-  'http://fonts.gstatic.com/s/bigelowrules/v11/RrQWboly8iR_I3KWSzeRuN0zT4cCH8WAJVk.ttf';
+  'http://fonts.gstatic.com/s/bigelowrules/v21/RrQWboly8iR_I3KWSzeRuN0zT4cCH8WAJVk.ttf';
 export const Englebert_400Regular =
-  'http://fonts.gstatic.com/s/englebert/v10/xn7iYH8w2XGrC8AR4HSxT_fYdN-WZw.ttf';
+  'http://fonts.gstatic.com/s/englebert/v15/xn7iYH8w2XGrC8AR4HSxT_fYdN-WZw.ttf';
 export const MouseMemoirs_400Regular =
-  'http://fonts.gstatic.com/s/mousememoirs/v8/t5tmIRoSNJ-PH0WNNgDYxdSb7TnFrpOHYh4.ttf';
+  'http://fonts.gstatic.com/s/mousememoirs/v11/t5tmIRoSNJ-PH0WNNgDYxdSb7TnFrpOHYh4.ttf';
 export const Quintessential_400Regular =
-  'http://fonts.gstatic.com/s/quintessential/v10/fdNn9sOGq31Yjnh3qWU14DdtjY5wS7kmAyxM.ttf';
+  'http://fonts.gstatic.com/s/quintessential/v18/fdNn9sOGq31Yjnh3qWU14DdtjY5wS7kmAyxM.ttf';
 export const RumRaisin_400Regular =
-  'http://fonts.gstatic.com/s/rumraisin/v10/nwpRtKu3Ih8D5avB4h2uJ3-IywA7eMM.ttf';
+  'http://fonts.gstatic.com/s/rumraisin/v18/nwpRtKu3Ih8D5avB4h2uJ3-IywA7eMM.ttf';
 export const Sacramento_400Regular =
   'http://fonts.gstatic.com/s/sacramento/v8/buEzpo6gcdjy0EiZMBUG0CoV_NxLeiw.ttf';
 export const Anaheim_400Regular =
   'http://fonts.gstatic.com/s/anaheim/v8/8vII7w042Wp87g4G0UTUEE5eK_w.ttf';
 export const Gafata_400Regular =
-  'http://fonts.gstatic.com/s/gafata/v11/XRXV3I6Cn0VJKon4MuyAbsrVcA.ttf';
+  'http://fonts.gstatic.com/s/gafata/v14/XRXV3I6Cn0VJKon4MuyAbsrVcA.ttf';
 export const GildaDisplay_400Regular =
-  'http://fonts.gstatic.com/s/gildadisplay/v8/t5tmIRoYMoaYG0WEOh7HwMeR7TnFrpOHYh4.ttf';
+  'http://fonts.gstatic.com/s/gildadisplay/v11/t5tmIRoYMoaYG0WEOh7HwMeR7TnFrpOHYh4.ttf';
 export const JotiOne_400Regular =
-  'http://fonts.gstatic.com/s/jotione/v11/Z9XVDmdJQAmWm9TwaYTe4u2El6GC.ttf';
+  'http://fonts.gstatic.com/s/jotione/v19/Z9XVDmdJQAmWm9TwaYTe4u2El6GC.ttf';
 export const KeaniaOne_400Regular =
-  'http://fonts.gstatic.com/s/keaniaone/v10/zOL54pXJk65E8pXardnuycRuv-hHkOs.ttf';
+  'http://fonts.gstatic.com/s/keaniaone/v18/zOL54pXJk65E8pXardnuycRuv-hHkOs.ttf';
 export const Merienda_400Regular =
   'http://fonts.gstatic.com/s/merienda/v9/gNMHW3x8Qoy5_mf8uVMCOou6_dvg.ttf';
 export const Merienda_700Bold =
   'http://fonts.gstatic.com/s/merienda/v9/gNMAW3x8Qoy5_mf8uWu-Fa-y1sfpPES4.ttf';
 export const PirataOne_400Regular =
-  'http://fonts.gstatic.com/s/pirataone/v11/I_urMpiDvgLdLh0fAtoftiiEr5_BdZ8.ttf';
+  'http://fonts.gstatic.com/s/pirataone/v20/I_urMpiDvgLdLh0fAtoftiiEr5_BdZ8.ttf';
 export const Rambla_400Regular =
-  'http://fonts.gstatic.com/s/rambla/v8/snfrs0ip98hx6mr0I7IONthkwQ.ttf';
+  'http://fonts.gstatic.com/s/rambla/v11/snfrs0ip98hx6mr0I7IONthkwQ.ttf';
 export const Rambla_400Regular_Italic =
-  'http://fonts.gstatic.com/s/rambla/v8/snfps0ip98hx6mrEIbgKFN10wYKa.ttf';
+  'http://fonts.gstatic.com/s/rambla/v11/snfps0ip98hx6mrEIbgKFN10wYKa.ttf';
 export const Rambla_700Bold =
-  'http://fonts.gstatic.com/s/rambla/v8/snfos0ip98hx6mrMn50qPvN4yJuDYQ.ttf';
+  'http://fonts.gstatic.com/s/rambla/v11/snfos0ip98hx6mrMn50qPvN4yJuDYQ.ttf';
 export const Rambla_700Bold_Italic =
-  'http://fonts.gstatic.com/s/rambla/v8/snfus0ip98hx6mrEIYC2O_l86p6TYS-Y.ttf';
+  'http://fonts.gstatic.com/s/rambla/v11/snfus0ip98hx6mrEIYC2O_l86p6TYS-Y.ttf';
 export const Rufina_400Regular =
   'http://fonts.gstatic.com/s/rufina/v8/Yq6V-LyURyLy-aKyoxRktOdClg.ttf';
 export const Rufina_700Bold =
@@ -4366,25 +6882,25 @@ export const Sanchez_400Regular =
 export const Sanchez_400Regular_Italic =
   'http://fonts.gstatic.com/s/sanchez/v8/Ycm0sZJORluHnXbIfmxR-D4Bxl3gkw.ttf';
 export const ShareTech_400Regular =
-  'http://fonts.gstatic.com/s/sharetech/v12/7cHtv4Uyi5K0OeZ7bohUwHoDmTcibrA.ttf';
+  'http://fonts.gstatic.com/s/sharetech/v15/7cHtv4Uyi5K0OeZ7bohUwHoDmTcibrA.ttf';
 export const ShareTechMono_400Regular =
   'http://fonts.gstatic.com/s/sharetechmono/v10/J7aHnp1uDWRBEqV98dVQztYldFc7pAsEIc3Xew.ttf';
 export const TextMeOne_400Regular =
-  'http://fonts.gstatic.com/s/textmeone/v10/i7dOIFdlayuLUvgoFvHQFWZcalayGhyV.ttf';
+  'http://fonts.gstatic.com/s/textmeone/v18/i7dOIFdlayuLUvgoFvHQFWZcalayGhyV.ttf';
 export const FjallaOne_400Regular =
   'http://fonts.gstatic.com/s/fjallaone/v8/Yq6R-LCAWCX3-6Ky7FAFnOZwkxgtUb8.ttf';
 export const AverageSans_400Regular =
-  'http://fonts.gstatic.com/s/averagesans/v9/1Ptpg8fLXP2dlAXR-HlJJNJPBdqazVoK4A.ttf';
+  'http://fonts.gstatic.com/s/averagesans/v14/1Ptpg8fLXP2dlAXR-HlJJNJPBdqazVoK4A.ttf';
 export const CutiveMono_400Regular =
-  'http://fonts.gstatic.com/s/cutivemono/v9/m8JWjfRfY7WVjVi2E-K9H5RFRG-K3Mud.ttf';
+  'http://fonts.gstatic.com/s/cutivemono/v12/m8JWjfRfY7WVjVi2E-K9H5RFRG-K3Mud.ttf';
 export const FasterOne_400Regular =
-  'http://fonts.gstatic.com/s/fasterone/v12/H4ciBXCHmdfClFb-vWhfyLuShq63czE.ttf';
+  'http://fonts.gstatic.com/s/fasterone/v15/H4ciBXCHmdfClFb-vWhfyLuShq63czE.ttf';
 export const KiteOne_400Regular =
-  'http://fonts.gstatic.com/s/kiteone/v10/70lQu7shLnA_E02vyq1b6HnGO4uA.ttf';
+  'http://fonts.gstatic.com/s/kiteone/v18/70lQu7shLnA_E02vyq1b6HnGO4uA.ttf';
 export const Offside_400Regular =
-  'http://fonts.gstatic.com/s/offside/v10/HI_KiYMWKa9QrAykQ5HiRp-dhpQ.ttf';
+  'http://fonts.gstatic.com/s/offside/v18/HI_KiYMWKa9QrAykQ5HiRp-dhpQ.ttf';
 export const Paprika_400Regular =
-  'http://fonts.gstatic.com/s/paprika/v10/8QIJdijZitv49rDfuIgOq7jkAOw.ttf';
+  'http://fonts.gstatic.com/s/paprika/v18/8QIJdijZitv49rDfuIgOq7jkAOw.ttf';
 export const PlayfairDisplaySC_400Regular =
   'http://fonts.gstatic.com/s/playfairdisplaysc/v10/ke85OhoaMkR6-hSn7kbHVoFf7ZfgMPr_pb4GEcM2M4s.ttf';
 export const PlayfairDisplaySC_400Regular_Italic =
@@ -4398,13 +6914,13 @@ export const PlayfairDisplaySC_900Black =
 export const PlayfairDisplaySC_900Black_Italic =
   'http://fonts.gstatic.com/s/playfairdisplaysc/v10/ke82OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbw0kcwXK6ARIyH5IA.ttf';
 export const Strait_400Regular =
-  'http://fonts.gstatic.com/s/strait/v8/DtViJxy6WaEr1LZzeDhtkl0U7w.ttf';
+  'http://fonts.gstatic.com/s/strait/v11/DtViJxy6WaEr1LZzeDhtkl0U7w.ttf';
 export const UnicaOne_400Regular =
   'http://fonts.gstatic.com/s/unicaone/v8/DPEuYwWHyAYGVTSmalshdtffuEY7FA.ttf';
 export const CherrySwash_400Regular =
-  'http://fonts.gstatic.com/s/cherryswash/v11/i7dNIFByZjaNAMxtZcnfAy58QHi-EwWMbg.ttf';
+  'http://fonts.gstatic.com/s/cherryswash/v16/i7dNIFByZjaNAMxtZcnfAy58QHi-EwWMbg.ttf';
 export const CherrySwash_700Bold =
-  'http://fonts.gstatic.com/s/cherryswash/v11/i7dSIFByZjaNAMxtZcnfAy5E_FeaGy6QZ3WfYg.ttf';
+  'http://fonts.gstatic.com/s/cherryswash/v16/i7dSIFByZjaNAMxtZcnfAy5E_FeaGy6QZ3WfYg.ttf';
 export const Cinzel_400Regular =
   'http://fonts.gstatic.com/s/cinzel/v11/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnTYrvDE5ZdqU.ttf';
 export const Cinzel_500Medium =
@@ -4418,15 +6934,15 @@ export const Cinzel_800ExtraBold =
 export const Cinzel_900Black =
   'http://fonts.gstatic.com/s/cinzel/v11/8vIU7ww63mVu7gtR-kwKxNvkNOjw-n_gTYrvDE5ZdqU.ttf';
 export const CinzelDecorative_400Regular =
-  'http://fonts.gstatic.com/s/cinzeldecorative/v9/daaCSScvJGqLYhG8nNt8KPPswUAPnh7URs1LaCyC.ttf';
+  'http://fonts.gstatic.com/s/cinzeldecorative/v12/daaCSScvJGqLYhG8nNt8KPPswUAPnh7URs1LaCyC.ttf';
 export const CinzelDecorative_700Bold =
-  'http://fonts.gstatic.com/s/cinzeldecorative/v9/daaHSScvJGqLYhG8nNt8KPPswUAPniZoaelDQzCLlQXE.ttf';
+  'http://fonts.gstatic.com/s/cinzeldecorative/v12/daaHSScvJGqLYhG8nNt8KPPswUAPniZoaelDQzCLlQXE.ttf';
 export const CinzelDecorative_900Black =
-  'http://fonts.gstatic.com/s/cinzeldecorative/v9/daaHSScvJGqLYhG8nNt8KPPswUAPniZQa-lDQzCLlQXE.ttf';
+  'http://fonts.gstatic.com/s/cinzeldecorative/v12/daaHSScvJGqLYhG8nNt8KPPswUAPniZQa-lDQzCLlQXE.ttf';
 export const SeymourOne_400Regular =
-  'http://fonts.gstatic.com/s/seymourone/v10/4iCp6Khla9xbjQpoWGGd0myIPYBvgpUI.ttf';
+  'http://fonts.gstatic.com/s/seymourone/v18/4iCp6Khla9xbjQpoWGGd0myIPYBvgpUI.ttf';
 export const ChelaOne_400Regular =
-  'http://fonts.gstatic.com/s/chelaone/v11/6ae-4KC7Uqgdz_JZdPIy31vWNTMwoQ.ttf';
+  'http://fonts.gstatic.com/s/chelaone/v19/6ae-4KC7Uqgdz_JZdPIy31vWNTMwoQ.ttf';
 export const JuliusSansOne_400Regular =
   'http://fonts.gstatic.com/s/juliussansone/v9/1Pt2g8TAX_SGgBGUi0tGOYEga5W-xXEW6aGXHw.ttf';
 export const MontserratAlternates_100Thin =
@@ -4466,243 +6982,251 @@ export const MontserratAlternates_900Black =
 export const MontserratAlternates_900Black_Italic =
   'http://fonts.gstatic.com/s/montserratalternates/v12/mFTkWacfw6zH4dthXcyms1lPpC8I_b0juU057p9RB7xD-GVxk3Nd.ttf';
 export const MontserratSubrayada_400Regular =
-  'http://fonts.gstatic.com/s/montserratsubrayada/v12/U9MD6c-o9H7PgjlTHThBnNHGVUORwteQQE8LYuceqGT-.ttf';
+  'http://fonts.gstatic.com/s/montserratsubrayada/v15/U9MD6c-o9H7PgjlTHThBnNHGVUORwteQQE8LYuceqGT-.ttf';
 export const MontserratSubrayada_700Bold =
-  'http://fonts.gstatic.com/s/montserratsubrayada/v12/U9MM6c-o9H7PgjlTHThBnNHGVUORwteQQHe3TcMWg3j36Ebz.ttf';
+  'http://fonts.gstatic.com/s/montserratsubrayada/v15/U9MM6c-o9H7PgjlTHThBnNHGVUORwteQQHe3TcMWg3j36Ebz.ttf';
 export const TitilliumWeb_200ExtraLight =
-  'http://fonts.gstatic.com/s/titilliumweb/v9/NaPDcZTIAOhVxoMyOr9n_E7ffAzHKIx5YrSYqWM.ttf';
+  'http://fonts.gstatic.com/s/titilliumweb/v10/NaPDcZTIAOhVxoMyOr9n_E7ffAzHKIx5YrSYqWM.ttf';
 export const TitilliumWeb_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/titilliumweb/v9/NaPFcZTIAOhVxoMyOr9n_E7fdMbewI1zZpaduWMmxA.ttf';
+  'http://fonts.gstatic.com/s/titilliumweb/v10/NaPFcZTIAOhVxoMyOr9n_E7fdMbewI1zZpaduWMmxA.ttf';
 export const TitilliumWeb_300Light =
-  'http://fonts.gstatic.com/s/titilliumweb/v9/NaPDcZTIAOhVxoMyOr9n_E7ffGjEKIx5YrSYqWM.ttf';
+  'http://fonts.gstatic.com/s/titilliumweb/v10/NaPDcZTIAOhVxoMyOr9n_E7ffGjEKIx5YrSYqWM.ttf';
 export const TitilliumWeb_300Light_Italic =
-  'http://fonts.gstatic.com/s/titilliumweb/v9/NaPFcZTIAOhVxoMyOr9n_E7fdMbepI5zZpaduWMmxA.ttf';
+  'http://fonts.gstatic.com/s/titilliumweb/v10/NaPFcZTIAOhVxoMyOr9n_E7fdMbepI5zZpaduWMmxA.ttf';
 export const TitilliumWeb_400Regular =
-  'http://fonts.gstatic.com/s/titilliumweb/v9/NaPecZTIAOhVxoMyOr9n_E7fRMTsDIRSfr0.ttf';
+  'http://fonts.gstatic.com/s/titilliumweb/v10/NaPecZTIAOhVxoMyOr9n_E7fRMTsDIRSfr0.ttf';
 export const TitilliumWeb_400Regular_Italic =
-  'http://fonts.gstatic.com/s/titilliumweb/v9/NaPAcZTIAOhVxoMyOr9n_E7fdMbmCKZXbr2BsA.ttf';
+  'http://fonts.gstatic.com/s/titilliumweb/v10/NaPAcZTIAOhVxoMyOr9n_E7fdMbmCKZXbr2BsA.ttf';
 export const TitilliumWeb_600SemiBold =
-  'http://fonts.gstatic.com/s/titilliumweb/v9/NaPDcZTIAOhVxoMyOr9n_E7ffBzCKIx5YrSYqWM.ttf';
+  'http://fonts.gstatic.com/s/titilliumweb/v10/NaPDcZTIAOhVxoMyOr9n_E7ffBzCKIx5YrSYqWM.ttf';
 export const TitilliumWeb_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/titilliumweb/v9/NaPFcZTIAOhVxoMyOr9n_E7fdMbe0IhzZpaduWMmxA.ttf';
+  'http://fonts.gstatic.com/s/titilliumweb/v10/NaPFcZTIAOhVxoMyOr9n_E7fdMbe0IhzZpaduWMmxA.ttf';
 export const TitilliumWeb_700Bold =
-  'http://fonts.gstatic.com/s/titilliumweb/v9/NaPDcZTIAOhVxoMyOr9n_E7ffHjDKIx5YrSYqWM.ttf';
+  'http://fonts.gstatic.com/s/titilliumweb/v10/NaPDcZTIAOhVxoMyOr9n_E7ffHjDKIx5YrSYqWM.ttf';
 export const TitilliumWeb_700Bold_Italic =
-  'http://fonts.gstatic.com/s/titilliumweb/v9/NaPFcZTIAOhVxoMyOr9n_E7fdMbetIlzZpaduWMmxA.ttf';
+  'http://fonts.gstatic.com/s/titilliumweb/v10/NaPFcZTIAOhVxoMyOr9n_E7fdMbetIlzZpaduWMmxA.ttf';
 export const TitilliumWeb_900Black =
-  'http://fonts.gstatic.com/s/titilliumweb/v9/NaPDcZTIAOhVxoMyOr9n_E7ffEDBKIx5YrSYqWM.ttf';
+  'http://fonts.gstatic.com/s/titilliumweb/v10/NaPDcZTIAOhVxoMyOr9n_E7ffEDBKIx5YrSYqWM.ttf';
 export const ABeeZee_400Regular =
   'http://fonts.gstatic.com/s/abeezee/v14/esDR31xSG-6AGleN6tKukbcHCpE.ttf';
 export const ABeeZee_400Regular_Italic =
   'http://fonts.gstatic.com/s/abeezee/v14/esDT31xSG-6AGleN2tCklZUCGpG-GQ.ttf';
 export const CarroisGothic_400Regular =
-  'http://fonts.gstatic.com/s/carroisgothic/v11/Z9XPDmFATg-N1PLtLOOxvIHl9ZmD3i7ajcJ-.ttf';
+  'http://fonts.gstatic.com/s/carroisgothic/v14/Z9XPDmFATg-N1PLtLOOxvIHl9ZmD3i7ajcJ-.ttf';
 export const CarroisGothicSC_400Regular =
-  'http://fonts.gstatic.com/s/carroisgothicsc/v10/ZgNJjOVHM6jfUZCmyUqT2A2HVKjc-28nNHabY4dN.ttf';
+  'http://fonts.gstatic.com/s/carroisgothicsc/v13/ZgNJjOVHM6jfUZCmyUqT2A2HVKjc-28nNHabY4dN.ttf';
 export const FingerPaint_400Regular =
-  'http://fonts.gstatic.com/s/fingerpaint/v10/0QInMXVJ-o-oRn_7dron8YWO85bS8ANesw.ttf';
+  'http://fonts.gstatic.com/s/fingerpaint/v13/0QInMXVJ-o-oRn_7dron8YWO85bS8ANesw.ttf';
 export const SofadiOne_400Regular =
-  'http://fonts.gstatic.com/s/sofadione/v11/JIA2UVBxdnVBuElZaMFGcDOIETkmYDU.ttf';
+  'http://fonts.gstatic.com/s/sofadione/v19/JIA2UVBxdnVBuElZaMFGcDOIETkmYDU.ttf';
 export const BenchNine_300Light =
   'http://fonts.gstatic.com/s/benchnine/v9/ahcev8612zF4jxrwMosT--tRhWa8q0v8ag.ttf';
 export const BenchNine_400Regular =
   'http://fonts.gstatic.com/s/benchnine/v9/ahcbv8612zF4jxrwMosrV8N1jU2gog.ttf';
 export const BenchNine_700Bold =
   'http://fonts.gstatic.com/s/benchnine/v9/ahcev8612zF4jxrwMosT6-xRhWa8q0v8ag.ttf';
-export const Fenix_400Regular = 'http://fonts.gstatic.com/s/fenix/v10/XoHo2YL_S7-g5ostKzAFvs8o.ttf';
+export const Fenix_400Regular = 'http://fonts.gstatic.com/s/fenix/v18/XoHo2YL_S7-g5ostKzAFvs8o.ttf';
 export const Akronim_400Regular =
   'http://fonts.gstatic.com/s/akronim/v12/fdN-9sqWtWZZlHRp-gBxkFYN-a8.ttf';
-export const Combo_400Regular = 'http://fonts.gstatic.com/s/combo/v11/BXRlvF3Jh_fIhg0iBu9y8Hf0.ttf';
+export const Combo_400Regular = 'http://fonts.gstatic.com/s/combo/v19/BXRlvF3Jh_fIhg0iBu9y8Hf0.ttf';
 export const Underdog_400Regular =
-  'http://fonts.gstatic.com/s/underdog/v11/CHygV-jCElj7diMroVSiU14GN2Il.ttf';
+  'http://fonts.gstatic.com/s/underdog/v20/CHygV-jCElj7diMroVSiU14GN2Il.ttf';
 export const SourceCodePro_200ExtraLight =
-  'http://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqt8srztO0rzmmkDQ.ttf';
-export const SourceCodePro_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/sourcecodepro/v14/HI_ViYsKILxRpg3hIP6sJ7fM7PqlONMbtecv7Gy0DRzS.ttf';
+  'http://fonts.gstatic.com/s/sourcecodepro/v18/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DEyQhM5hTXUcdJg.ttf';
 export const SourceCodePro_300Light =
-  'http://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7PqtlsnztO0rzmmkDQ.ttf';
-export const SourceCodePro_300Light_Italic =
-  'http://fonts.gstatic.com/s/sourcecodepro/v14/HI_ViYsKILxRpg3hIP6sJ7fM7PqlONN_tucv7Gy0DRzS.ttf';
+  'http://fonts.gstatic.com/s/sourcecodepro/v18/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DJKQhM5hTXUcdJg.ttf';
 export const SourceCodePro_400Regular =
-  'http://fonts.gstatic.com/s/sourcecodepro/v14/HI_SiYsKILxRpg3hIP6sJ7fM7PqVOuHXvMY3xw.ttf';
-export const SourceCodePro_400Regular_Italic =
-  'http://fonts.gstatic.com/s/sourcecodepro/v14/HI_QiYsKILxRpg3hIP6sJ7fM7PqlOOvTnsMnx3C9.ttf';
+  'http://fonts.gstatic.com/s/sourcecodepro/v18/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQhM5hTXUcdJg.ttf';
 export const SourceCodePro_500Medium =
-  'http://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7PqtzsjztO0rzmmkDQ.ttf';
-export const SourceCodePro_500Medium_Italic =
-  'http://fonts.gstatic.com/s/sourcecodepro/v14/HI_ViYsKILxRpg3hIP6sJ7fM7PqlONMnt-cv7Gy0DRzS.ttf';
+  'http://fonts.gstatic.com/s/sourcecodepro/v18/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DP6QhM5hTXUcdJg.ttf';
 export const SourceCodePro_600SemiBold =
-  'http://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqt4s_ztO0rzmmkDQ.ttf';
-export const SourceCodePro_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/sourcecodepro/v14/HI_ViYsKILxRpg3hIP6sJ7fM7PqlONMLsOcv7Gy0DRzS.ttf';
+  'http://fonts.gstatic.com/s/sourcecodepro/v18/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DBKXhM5hTXUcdJg.ttf';
 export const SourceCodePro_700Bold =
-  'http://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7ztO0rzmmkDQ.ttf';
-export const SourceCodePro_700Bold_Italic =
-  'http://fonts.gstatic.com/s/sourcecodepro/v14/HI_ViYsKILxRpg3hIP6sJ7fM7PqlONNvsecv7Gy0DRzS.ttf';
+  'http://fonts.gstatic.com/s/sourcecodepro/v18/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DCuXhM5hTXUcdJg.ttf';
+export const SourceCodePro_800ExtraBold =
+  'http://fonts.gstatic.com/s/sourcecodepro/v18/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DEyXhM5hTXUcdJg.ttf';
 export const SourceCodePro_900Black =
-  'http://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7PqtvszztO0rzmmkDQ.ttf';
+  'http://fonts.gstatic.com/s/sourcecodepro/v18/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DGWXhM5hTXUcdJg.ttf';
+export const SourceCodePro_200ExtraLight_Italic =
+  'http://fonts.gstatic.com/s/sourcecodepro/v18/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTT7I1rSVcZZJiGpw.ttf';
+export const SourceCodePro_300Light_Italic =
+  'http://fonts.gstatic.com/s/sourcecodepro/v18/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTMo1rSVcZZJiGpw.ttf';
+export const SourceCodePro_400Regular_Italic =
+  'http://fonts.gstatic.com/s/sourcecodepro/v18/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTbI1rSVcZZJiGpw.ttf';
+export const SourceCodePro_500Medium_Italic =
+  'http://fonts.gstatic.com/s/sourcecodepro/v18/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTXo1rSVcZZJiGpw.ttf';
+export const SourceCodePro_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/sourcecodepro/v18/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTsoprSVcZZJiGpw.ttf';
+export const SourceCodePro_700Bold_Italic =
+  'http://fonts.gstatic.com/s/sourcecodepro/v18/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTi4prSVcZZJiGpw.ttf';
+export const SourceCodePro_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/sourcecodepro/v18/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTT7IprSVcZZJiGpw.ttf';
 export const SourceCodePro_900Black_Italic =
-  'http://fonts.gstatic.com/s/sourcecodepro/v14/HI_ViYsKILxRpg3hIP6sJ7fM7PqlONNXs-cv7Gy0DRzS.ttf';
+  'http://fonts.gstatic.com/s/sourcecodepro/v18/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTxYprSVcZZJiGpw.ttf';
 export const ArbutusSlab_400Regular =
-  'http://fonts.gstatic.com/s/arbutusslab/v9/oY1Z8e7OuLXkJGbXtr5ba7ZVa68dJlaFAQ.ttf';
+  'http://fonts.gstatic.com/s/arbutusslab/v14/oY1Z8e7OuLXkJGbXtr5ba7ZVa68dJlaFAQ.ttf';
 export const ArchivoBlack_400Regular =
   'http://fonts.gstatic.com/s/archivoblack/v10/HTxqL289NzCGg4MzN6KJ7eW6OYuP_x7yx3A.ttf';
 export const ArchivoNarrow_400Regular =
-  'http://fonts.gstatic.com/s/archivonarrow/v12/tss0ApVBdCYD5Q7hcxTE1ArZ0Yb3g31S2s8p.ttf';
-export const ArchivoNarrow_400Regular_Italic =
-  'http://fonts.gstatic.com/s/archivonarrow/v12/tss2ApVBdCYD5Q7hcxTE1ArZ0bb1iXlw398pJxk.ttf';
+  'http://fonts.gstatic.com/s/archivonarrow/v18/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvLFGKpHOtFCQ76Q.ttf';
 export const ArchivoNarrow_500Medium =
-  'http://fonts.gstatic.com/s/archivonarrow/v12/tss3ApVBdCYD5Q7hcxTE1ArZ0b4Dqlla8dMgPgBu.ttf';
-export const ArchivoNarrow_500Medium_Italic =
-  'http://fonts.gstatic.com/s/archivonarrow/v12/tssxApVBdCYD5Q7hcxTE1ArZ0bb1sY1Z-9cCOxBu_BM.ttf';
+  'http://fonts.gstatic.com/s/archivonarrow/v18/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvHlGKpHOtFCQ76Q.ttf';
 export const ArchivoNarrow_600SemiBold =
-  'http://fonts.gstatic.com/s/archivonarrow/v12/tss3ApVBdCYD5Q7hcxTE1ArZ0b4vrVla8dMgPgBu.ttf';
-export const ArchivoNarrow_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/archivonarrow/v12/tssxApVBdCYD5Q7hcxTE1ArZ0bb1saFe-9cCOxBu_BM.ttf';
+  'http://fonts.gstatic.com/s/archivonarrow/v18/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhv8laKpHOtFCQ76Q.ttf';
 export const ArchivoNarrow_700Bold =
-  'http://fonts.gstatic.com/s/archivonarrow/v12/tss3ApVBdCYD5Q7hcxTE1ArZ0b5LrFla8dMgPgBu.ttf';
+  'http://fonts.gstatic.com/s/archivonarrow/v18/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvy1aKpHOtFCQ76Q.ttf';
+export const ArchivoNarrow_400Regular_Italic =
+  'http://fonts.gstatic.com/s/archivonarrow/v18/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BJi53mpNiEr6T6Y.ttf';
+export const ArchivoNarrow_500Medium_Italic =
+  'http://fonts.gstatic.com/s/archivonarrow/v18/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BJQ53mpNiEr6T6Y.ttf';
+export const ArchivoNarrow_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/archivonarrow/v18/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BK84HmpNiEr6T6Y.ttf';
 export const ArchivoNarrow_700Bold_Italic =
-  'http://fonts.gstatic.com/s/archivonarrow/v12/tssxApVBdCYD5Q7hcxTE1ArZ0bb1scVf-9cCOxBu_BM.ttf';
+  'http://fonts.gstatic.com/s/archivonarrow/v18/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BKF4HmpNiEr6T6Y.ttf';
 export const Molle_400Regular_Italic =
-  'http://fonts.gstatic.com/s/molle/v11/E21n_dL5hOXFhWEsXzgmVydREus.ttf';
+  'http://fonts.gstatic.com/s/molle/v19/E21n_dL5hOXFhWEsXzgmVydREus.ttf';
 export const OxygenMono_400Regular =
-  'http://fonts.gstatic.com/s/oxygenmono/v8/h0GsssGg9FxgDgCjLeAd7ijfze-PPlUu.ttf';
+  'http://fonts.gstatic.com/s/oxygenmono/v11/h0GsssGg9FxgDgCjLeAd7ijfze-PPlUu.ttf';
 export const JacquesFrancois_400Regular =
-  'http://fonts.gstatic.com/s/jacquesfrancois/v10/ZXu9e04ZvKeOOHIe1TMahbcIU2cgmcPqoeRWfbs.ttf';
+  'http://fonts.gstatic.com/s/jacquesfrancois/v18/ZXu9e04ZvKeOOHIe1TMahbcIU2cgmcPqoeRWfbs.ttf';
 export const JacquesFrancoisShadow_400Regular =
-  'http://fonts.gstatic.com/s/jacquesfrancoisshadow/v11/KR1FBtOz8PKTMk-kqdkLVrvR0ECFrB6Pin-2_q8VsHuV5ULS.ttf';
+  'http://fonts.gstatic.com/s/jacquesfrancoisshadow/v19/KR1FBtOz8PKTMk-kqdkLVrvR0ECFrB6Pin-2_q8VsHuV5ULS.ttf';
 export const Orienta_400Regular =
-  'http://fonts.gstatic.com/s/orienta/v8/PlI9FlK4Jrl5Y9zNeyeo9HRFhcU.ttf';
+  'http://fonts.gstatic.com/s/orienta/v11/PlI9FlK4Jrl5Y9zNeyeo9HRFhcU.ttf';
 export const PetitFormalScript_400Regular =
-  'http://fonts.gstatic.com/s/petitformalscript/v8/B50TF6xQr2TXJBnGOFME6u5OR83oRP5qoHnqP4gZSiE.ttf';
+  'http://fonts.gstatic.com/s/petitformalscript/v11/B50TF6xQr2TXJBnGOFME6u5OR83oRP5qoHnqP4gZSiE.ttf';
 export const Raleway_100Thin =
-  'http://fonts.gstatic.com/s/raleway/v19/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvao4CPNLA3JC9c.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvao4CPNLA3JC9c.ttf';
 export const Raleway_200ExtraLight =
-  'http://fonts.gstatic.com/s/raleway/v19/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtaooCPNLA3JC9c.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtaooCPNLA3JC9c.ttf';
 export const Raleway_300Light =
-  'http://fonts.gstatic.com/s/raleway/v19/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVuEooCPNLA3JC9c.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVuEooCPNLA3JC9c.ttf';
 export const Raleway_400Regular =
-  'http://fonts.gstatic.com/s/raleway/v19/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaooCPNLA3JC9c.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaooCPNLA3JC9c.ttf';
 export const Raleway_500Medium =
-  'http://fonts.gstatic.com/s/raleway/v19/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvoooCPNLA3JC9c.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvoooCPNLA3JC9c.ttf';
 export const Raleway_600SemiBold =
-  'http://fonts.gstatic.com/s/raleway/v19/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpYCPNLA3JC9c.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpYCPNLA3JC9c.ttf';
 export const Raleway_700Bold =
-  'http://fonts.gstatic.com/s/raleway/v19/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pYCPNLA3JC9c.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pYCPNLA3JC9c.ttf';
 export const Raleway_800ExtraBold =
-  'http://fonts.gstatic.com/s/raleway/v19/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtapYCPNLA3JC9c.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtapYCPNLA3JC9c.ttf';
 export const Raleway_900Black =
-  'http://fonts.gstatic.com/s/raleway/v19/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtzpYCPNLA3JC9c.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtzpYCPNLA3JC9c.ttf';
 export const Raleway_100Thin_Italic =
-  'http://fonts.gstatic.com/s/raleway/v19/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjNPrQVIT9c2c8.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjNPrQVIT9c2c8.ttf';
 export const Raleway_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/raleway/v19/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4ejMPrQVIT9c2c8.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4ejMPrQVIT9c2c8.ttf';
 export const Raleway_300Light_Italic =
-  'http://fonts.gstatic.com/s/raleway/v19/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4TbMPrQVIT9c2c8.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4TbMPrQVIT9c2c8.ttf';
 export const Raleway_400Regular_Italic =
-  'http://fonts.gstatic.com/s/raleway/v19/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjMPrQVIT9c2c8.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjMPrQVIT9c2c8.ttf';
 export const Raleway_500Medium_Italic =
-  'http://fonts.gstatic.com/s/raleway/v19/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4VrMPrQVIT9c2c8.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4VrMPrQVIT9c2c8.ttf';
 export const Raleway_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/raleway/v19/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4bbLPrQVIT9c2c8.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4bbLPrQVIT9c2c8.ttf';
 export const Raleway_700Bold_Italic =
-  'http://fonts.gstatic.com/s/raleway/v19/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4Y_LPrQVIT9c2c8.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4Y_LPrQVIT9c2c8.ttf';
 export const Raleway_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/raleway/v19/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4ejLPrQVIT9c2c8.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4ejLPrQVIT9c2c8.ttf';
 export const Raleway_900Black_Italic =
-  'http://fonts.gstatic.com/s/raleway/v19/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4cHLPrQVIT9c2c8.ttf';
+  'http://fonts.gstatic.com/s/raleway/v22/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4cHLPrQVIT9c2c8.ttf';
 export const RalewayDots_400Regular =
-  'http://fonts.gstatic.com/s/ralewaydots/v8/6NUR8FifJg6AfQvzpshgwJ8kyf9Fdty2ew.ttf';
+  'http://fonts.gstatic.com/s/ralewaydots/v12/6NUR8FifJg6AfQvzpshgwJ8kyf9Fdty2ew.ttf';
 export const Ranchers_400Regular =
-  'http://fonts.gstatic.com/s/ranchers/v8/zrfm0H3Lx-P2Xvs2AoDYDC79XTHv.ttf';
+  'http://fonts.gstatic.com/s/ranchers/v11/zrfm0H3Lx-P2Xvs2AoDYDC79XTHv.ttf';
 export const Warnes_400Regular =
-  'http://fonts.gstatic.com/s/warnes/v12/pONn1hc0GsW6sW5OpiC2o6Lkqg.ttf';
+  'http://fonts.gstatic.com/s/warnes/v20/pONn1hc0GsW6sW5OpiC2o6Lkqg.ttf';
 export const Griffy_400Regular =
-  'http://fonts.gstatic.com/s/griffy/v11/FwZa7-ox2FQh9kfwSNSEwM2zpA.ttf';
+  'http://fonts.gstatic.com/s/griffy/v19/FwZa7-ox2FQh9kfwSNSEwM2zpA.ttf';
 export const MeieScript_400Regular =
-  'http://fonts.gstatic.com/s/meiescript/v10/_LOImzDK7erRjhunIspaMjxn5IXg0WDz.ttf';
-export const Rye_400Regular = 'http://fonts.gstatic.com/s/rye/v8/r05XGLJT86YDFpTsXOqx4w.ttf';
+  'http://fonts.gstatic.com/s/meiescript/v19/_LOImzDK7erRjhunIspaMjxn5IXg0WDz.ttf';
+export const Rye_400Regular = 'http://fonts.gstatic.com/s/rye/v11/r05XGLJT86YDFpTsXOqx4w.ttf';
 export const Skranji_400Regular =
-  'http://fonts.gstatic.com/s/skranji/v8/OZpDg_dtriVFNerMYzuuklTm3Ek.ttf';
+  'http://fonts.gstatic.com/s/skranji/v11/OZpDg_dtriVFNerMYzuuklTm3Ek.ttf';
 export const Skranji_700Bold =
-  'http://fonts.gstatic.com/s/skranji/v8/OZpGg_dtriVFNerMW4eBtlzNwED-b4g.ttf';
+  'http://fonts.gstatic.com/s/skranji/v11/OZpGg_dtriVFNerMW4eBtlzNwED-b4g.ttf';
 export const Oranienbaum_400Regular =
-  'http://fonts.gstatic.com/s/oranienbaum/v9/OZpHg_txtzZKMuXLIVrx-3zn7kz3dpHc.ttf';
+  'http://fonts.gstatic.com/s/oranienbaum/v13/OZpHg_txtzZKMuXLIVrx-3zn7kz3dpHc.ttf';
 export const StalinistOne_400Regular =
-  'http://fonts.gstatic.com/s/stalinistone/v28/MQpS-WezM9W4Dd7D3B7I-UT7eZ-UPyacPbo.ttf';
+  'http://fonts.gstatic.com/s/stalinistone/v43/MQpS-WezM9W4Dd7D3B7I-UT7eZ-UPyacPbo.ttf';
 export const Galindo_400Regular =
-  'http://fonts.gstatic.com/s/galindo/v10/HI_KiYMeLqVKqwyuQ5HiRp-dhpQ.ttf';
+  'http://fonts.gstatic.com/s/galindo/v18/HI_KiYMeLqVKqwyuQ5HiRp-dhpQ.ttf';
 export const LifeSavers_400Regular =
-  'http://fonts.gstatic.com/s/lifesavers/v13/ZXuie1UftKKabUQMgxAal_lrFgpbuNvB.ttf';
+  'http://fonts.gstatic.com/s/lifesavers/v16/ZXuie1UftKKabUQMgxAal_lrFgpbuNvB.ttf';
 export const LifeSavers_700Bold =
-  'http://fonts.gstatic.com/s/lifesavers/v13/ZXu_e1UftKKabUQMgxAal8HXOS5Tk8fIpPRW.ttf';
+  'http://fonts.gstatic.com/s/lifesavers/v16/ZXu_e1UftKKabUQMgxAal8HXOS5Tk8fIpPRW.ttf';
 export const LifeSavers_800ExtraBold =
-  'http://fonts.gstatic.com/s/lifesavers/v13/ZXu_e1UftKKabUQMgxAal8HLOi5Tk8fIpPRW.ttf';
+  'http://fonts.gstatic.com/s/lifesavers/v16/ZXu_e1UftKKabUQMgxAal8HLOi5Tk8fIpPRW.ttf';
 export const McLaren_400Regular =
-  'http://fonts.gstatic.com/s/mclaren/v8/2EbnL-ZuAXFqZFXISYYf8z2Yt_c.ttf';
+  'http://fonts.gstatic.com/s/mclaren/v11/2EbnL-ZuAXFqZFXISYYf8z2Yt_c.ttf';
 export const Oregano_400Regular =
-  'http://fonts.gstatic.com/s/oregano/v8/If2IXTPxciS3H4S2kZffPznO3yM.ttf';
+  'http://fonts.gstatic.com/s/oregano/v11/If2IXTPxciS3H4S2kZffPznO3yM.ttf';
 export const Oregano_400Regular_Italic =
-  'http://fonts.gstatic.com/s/oregano/v8/If2KXTPxciS3H4S2oZXVOxvLzyP_qw.ttf';
+  'http://fonts.gstatic.com/s/oregano/v11/If2KXTPxciS3H4S2oZXVOxvLzyP_qw.ttf';
 export const RacingSansOne_400Regular =
   'http://fonts.gstatic.com/s/racingsansone/v8/sykr-yRtm7EvTrXNxkv5jfKKyDCwL3rmWpIBtA.ttf';
 export const Romanesco_400Regular =
-  'http://fonts.gstatic.com/s/romanesco/v11/w8gYH2ozQOY7_r_J7mSn3HwLqOqSBg.ttf';
+  'http://fonts.gstatic.com/s/romanesco/v19/w8gYH2ozQOY7_r_J7mSn3HwLqOqSBg.ttf';
 export const Nunito_200ExtraLight =
-  'http://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA-sekZuHJeTsfDQ.ttf';
-export const Nunito_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/nunito/v16/XRXQ3I6Li01BKofIMN5MZ-vNWz4PDWtj.ttf';
+  'http://fonts.gstatic.com/s/nunito/v20/XRXI3I6Li01BKofiOc5wtlZ2di8HDDshRTM9jo7eTWk.ttf';
 export const Nunito_300Light =
-  'http://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAnsSkZuHJeTsfDQ.ttf';
-export const Nunito_300Light_Italic =
-  'http://fonts.gstatic.com/s/nunito/v16/XRXQ3I6Li01BKofIMN4oZOvNWz4PDWtj.ttf';
+  'http://fonts.gstatic.com/s/nunito/v20/XRXI3I6Li01BKofiOc5wtlZ2di8HDOUhRTM9jo7eTWk.ttf';
 export const Nunito_400Regular =
-  'http://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKof4MuyAbsrVcA.ttf';
-export const Nunito_400Regular_Italic =
-  'http://fonts.gstatic.com/s/nunito/v16/XRXX3I6Li01BKofIMOaETM_FcCIG.ttf';
+  'http://fonts.gstatic.com/s/nunito/v20/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshRTM9jo7eTWk.ttf';
+export const Nunito_500Medium =
+  'http://fonts.gstatic.com/s/nunito/v20/XRXI3I6Li01BKofiOc5wtlZ2di8HDIkhRTM9jo7eTWk.ttf';
 export const Nunito_600SemiBold =
-  'http://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA6sKkZuHJeTsfDQ.ttf';
-export const Nunito_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/nunito/v16/XRXQ3I6Li01BKofIMN5cYuvNWz4PDWtj.ttf';
+  'http://fonts.gstatic.com/s/nunito/v20/XRXI3I6Li01BKofiOc5wtlZ2di8HDGUmRTM9jo7eTWk.ttf';
 export const Nunito_700Bold =
-  'http://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAjsOkZuHJeTsfDQ.ttf';
-export const Nunito_700Bold_Italic =
-  'http://fonts.gstatic.com/s/nunito/v16/XRXQ3I6Li01BKofIMN44Y-vNWz4PDWtj.ttf';
+  'http://fonts.gstatic.com/s/nunito/v20/XRXI3I6Li01BKofiOc5wtlZ2di8HDFwmRTM9jo7eTWk.ttf';
 export const Nunito_800ExtraBold =
-  'http://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAksCkZuHJeTsfDQ.ttf';
-export const Nunito_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/nunito/v16/XRXQ3I6Li01BKofIMN4kYOvNWz4PDWtj.ttf';
+  'http://fonts.gstatic.com/s/nunito/v20/XRXI3I6Li01BKofiOc5wtlZ2di8HDDsmRTM9jo7eTWk.ttf';
 export const Nunito_900Black =
-  'http://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAtsGkZuHJeTsfDQ.ttf';
+  'http://fonts.gstatic.com/s/nunito/v20/XRXI3I6Li01BKofiOc5wtlZ2di8HDBImRTM9jo7eTWk.ttf';
+export const Nunito_200ExtraLight_Italic =
+  'http://fonts.gstatic.com/s/nunito/v20/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXA3iqzbXWnoeg.ttf';
+export const Nunito_300Light_Italic =
+  'http://fonts.gstatic.com/s/nunito/v20/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNi83A3iqzbXWnoeg.ttf';
+export const Nunito_400Regular_Italic =
+  'http://fonts.gstatic.com/s/nunito/v20/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNirXA3iqzbXWnoeg.ttf';
+export const Nunito_500Medium_Italic =
+  'http://fonts.gstatic.com/s/nunito/v20/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNin3A3iqzbXWnoeg.ttf';
+export const Nunito_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/nunito/v20/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNic3c3iqzbXWnoeg.ttf';
+export const Nunito_700Bold_Italic =
+  'http://fonts.gstatic.com/s/nunito/v20/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiSnc3iqzbXWnoeg.ttf';
+export const Nunito_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/nunito/v20/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXc3iqzbXWnoeg.ttf';
 export const Nunito_900Black_Italic =
-  'http://fonts.gstatic.com/s/nunito/v16/XRXQ3I6Li01BKofIMN4AYevNWz4PDWtj.ttf';
+  'http://fonts.gstatic.com/s/nunito/v20/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiBHc3iqzbXWnoeg.ttf';
 export const Stoke_300Light =
-  'http://fonts.gstatic.com/s/stoke/v12/z7NXdRb7aTMfKNvFVgxC_pjcTeWU.ttf';
-export const Stoke_400Regular = 'http://fonts.gstatic.com/s/stoke/v12/z7NadRb7aTMfKONpfihK1YTV.ttf';
+  'http://fonts.gstatic.com/s/stoke/v20/z7NXdRb7aTMfKNvFVgxC_pjcTeWU.ttf';
+export const Stoke_400Regular = 'http://fonts.gstatic.com/s/stoke/v20/z7NadRb7aTMfKONpfihK1YTV.ttf';
 export const SourceSansPro_200ExtraLight =
-  'http://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_AkB1v_8CGxg.ttf';
+  'http://fonts.gstatic.com/s/sourcesanspro/v18/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_AkB1v_8CGxg.ttf';
 export const SourceSansPro_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/sourcesanspro/v14/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokRdr3cWWxg40.ttf';
+  'http://fonts.gstatic.com/s/sourcesanspro/v18/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokRdr3cWWxg40.ttf';
 export const SourceSansPro_300Light =
-  'http://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zAkB1v_8CGxg.ttf';
+  'http://fonts.gstatic.com/s/sourcesanspro/v18/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zAkB1v_8CGxg.ttf';
 export const SourceSansPro_300Light_Italic =
-  'http://fonts.gstatic.com/s/sourcesanspro/v14/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkhdr3cWWxg40.ttf';
+  'http://fonts.gstatic.com/s/sourcesanspro/v18/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkhdr3cWWxg40.ttf';
 export const SourceSansPro_400Regular =
-  'http://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3aP6TkmDZz9g.ttf';
+  'http://fonts.gstatic.com/s/sourcesanspro/v18/6xK3dSBYKcSV-LCoeQqfX1RYOo3aP6TkmDZz9g.ttf';
 export const SourceSansPro_400Regular_Italic =
-  'http://fonts.gstatic.com/s/sourcesanspro/v14/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPa7gujNj9tmf.ttf';
+  'http://fonts.gstatic.com/s/sourcesanspro/v18/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPa7gujNj9tmf.ttf';
 export const SourceSansPro_600SemiBold =
-  'http://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rAkB1v_8CGxg.ttf';
+  'http://fonts.gstatic.com/s/sourcesanspro/v18/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rAkB1v_8CGxg.ttf';
 export const SourceSansPro_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/sourcesanspro/v14/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lBdr3cWWxg40.ttf';
+  'http://fonts.gstatic.com/s/sourcesanspro/v18/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lBdr3cWWxg40.ttf';
 export const SourceSansPro_700Bold =
-  'http://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vAkB1v_8CGxg.ttf';
+  'http://fonts.gstatic.com/s/sourcesanspro/v18/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vAkB1v_8CGxg.ttf';
 export const SourceSansPro_700Bold_Italic =
-  'http://fonts.gstatic.com/s/sourcesanspro/v14/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclRdr3cWWxg40.ttf';
+  'http://fonts.gstatic.com/s/sourcesanspro/v18/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclRdr3cWWxg40.ttf';
 export const SourceSansPro_900Black =
-  'http://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nAkB1v_8CGxg.ttf';
+  'http://fonts.gstatic.com/s/sourcesanspro/v18/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nAkB1v_8CGxg.ttf';
 export const SourceSansPro_900Black_Italic =
-  'http://fonts.gstatic.com/s/sourcesanspro/v14/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklxdr3cWWxg40.ttf';
+  'http://fonts.gstatic.com/s/sourcesanspro/v18/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklxdr3cWWxg40.ttf';
 export const Amiri_400Regular = 'http://fonts.gstatic.com/s/amiri/v17/J7aRnpd8CGxBHqUpvrIw74NL.ttf';
 export const Amiri_400Regular_Italic =
   'http://fonts.gstatic.com/s/amiri/v17/J7afnpd8CGxBHpUrtLYS6pNLAjk.ttf';
@@ -4711,27 +7235,28 @@ export const Amiri_700Bold =
 export const Amiri_700Bold_Italic =
   'http://fonts.gstatic.com/s/amiri/v17/J7aanpd8CGxBHpUrjAo9zptgHjAavCA.ttf';
 export const CantoraOne_400Regular =
-  'http://fonts.gstatic.com/s/cantoraone/v12/gyB4hws1JdgnKy56GB_JX6zdZ4vZVbgZ.ttf';
-export const Scada_400Regular = 'http://fonts.gstatic.com/s/scada/v9/RLpxK5Pv5qumeWJoxzUobkvv.ttf';
+  'http://fonts.gstatic.com/s/cantoraone/v15/gyB4hws1JdgnKy56GB_JX6zdZ4vZVbgZ.ttf';
+export const Scada_400Regular = 'http://fonts.gstatic.com/s/scada/v12/RLpxK5Pv5qumeWJoxzUobkvv.ttf';
 export const Scada_400Regular_Italic =
-  'http://fonts.gstatic.com/s/scada/v9/RLp_K5Pv5qumeVJqzTEKa1vvffg.ttf';
-export const Scada_700Bold = 'http://fonts.gstatic.com/s/scada/v9/RLp8K5Pv5qumeVrU6BEgRVfmZOE5.ttf';
+  'http://fonts.gstatic.com/s/scada/v12/RLp_K5Pv5qumeVJqzTEKa1vvffg.ttf';
+export const Scada_700Bold =
+  'http://fonts.gstatic.com/s/scada/v12/RLp8K5Pv5qumeVrU6BEgRVfmZOE5.ttf';
 export const Scada_700Bold_Italic =
-  'http://fonts.gstatic.com/s/scada/v9/RLp6K5Pv5qumeVJq9Y0lT1PEYfE5p6g.ttf';
+  'http://fonts.gstatic.com/s/scada/v12/RLp6K5Pv5qumeVJq9Y0lT1PEYfE5p6g.ttf';
 export const EagleLake_400Regular =
-  'http://fonts.gstatic.com/s/eaglelake/v10/ptRMTiqbbuNJDOiKj9wG5O7yKQNute8.ttf';
+  'http://fonts.gstatic.com/s/eaglelake/v18/ptRMTiqbbuNJDOiKj9wG5O7yKQNute8.ttf';
 export const MetalMania_400Regular =
-  'http://fonts.gstatic.com/s/metalmania/v12/RWmMoKWb4e8kqMfBUdPFJeXCg6UKDXlq.ttf';
+  'http://fonts.gstatic.com/s/metalmania/v20/RWmMoKWb4e8kqMfBUdPFJeXCg6UKDXlq.ttf';
 export const Peralta_400Regular =
-  'http://fonts.gstatic.com/s/peralta/v10/hYkJPu0-RP_9d3kRGxAhrv956B8.ttf';
+  'http://fonts.gstatic.com/s/peralta/v15/hYkJPu0-RP_9d3kRGxAhrv956B8.ttf';
 export const Amarante_400Regular =
-  'http://fonts.gstatic.com/s/amarante/v10/xMQXuF1KTa6EvGx9bq-3C3rAmD-b.ttf';
+  'http://fonts.gstatic.com/s/amarante/v20/xMQXuF1KTa6EvGx9bq-3C3rAmD-b.ttf';
 export const Capriola_400Regular =
-  'http://fonts.gstatic.com/s/capriola/v8/wXKoE3YSppcvo1PDln_8L-AinG8y.ttf';
+  'http://fonts.gstatic.com/s/capriola/v11/wXKoE3YSppcvo1PDln_8L-AinG8y.ttf';
 export const Courgette_400Regular =
   'http://fonts.gstatic.com/s/courgette/v8/wEO_EBrAnc9BLjLQAUkFUfAL3EsHiA.ttf';
 export const Quando_400Regular =
-  'http://fonts.gstatic.com/s/quando/v9/xMQVuFNaVa6YuW0pC6WzKX_QmA.ttf';
+  'http://fonts.gstatic.com/s/quando/v12/xMQVuFNaVa6YuW0pC6WzKX_QmA.ttf';
 export const RobotoCondensed_300Light =
   'http://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-33mZKCMSbvtdYyQ.ttf';
 export const RobotoCondensed_300Light_Italic =
@@ -4745,23 +7270,23 @@ export const RobotoCondensed_700Bold =
 export const RobotoCondensed_700Bold_Italic =
   'http://fonts.gstatic.com/s/robotocondensed/v19/ieVg2ZhZI2eCN5jzbjEETS9weq8-19eDtCYYatlYcyRi4A.ttf';
 export const Fasthand_400Regular =
-  'http://fonts.gstatic.com/s/fasthand/v13/0yb9GDohyKTYn_ZEESkuYkw2rQg1.ttf';
+  'http://fonts.gstatic.com/s/fasthand/v24/0yb9GDohyKTYn_ZEESkuYkw2rQg1.ttf';
 export const AutourOne_400Regular =
-  'http://fonts.gstatic.com/s/autourone/v12/UqyVK80cP25l3fJgbdfbk5lWVscxdKE.ttf';
+  'http://fonts.gstatic.com/s/autourone/v22/UqyVK80cP25l3fJgbdfbk5lWVscxdKE.ttf';
 export const BubblerOne_400Regular =
-  'http://fonts.gstatic.com/s/bubblerone/v11/f0Xy0eqj68ppQV9KBLmAouHH26MPePkt.ttf';
+  'http://fonts.gstatic.com/s/bubblerone/v18/f0Xy0eqj68ppQV9KBLmAouHH26MPePkt.ttf';
 export const HeadlandOne_400Regular =
-  'http://fonts.gstatic.com/s/headlandone/v10/yYLu0hHR2vKnp89Tk1TCq3Tx0PlTeZ3mJA.ttf';
+  'http://fonts.gstatic.com/s/headlandone/v13/yYLu0hHR2vKnp89Tk1TCq3Tx0PlTeZ3mJA.ttf';
 export const Marcellus_400Regular =
   'http://fonts.gstatic.com/s/marcellus/v8/wEO_EBrOk8hQLDvIAF8FUfAL3EsHiA.ttf';
 export const MarcellusSC_400Regular =
-  'http://fonts.gstatic.com/s/marcellussc/v8/ke8iOgUHP1dg-Rmi6RWjbLEPgdydGKikhA.ttf';
+  'http://fonts.gstatic.com/s/marcellussc/v11/ke8iOgUHP1dg-Rmi6RWjbLEPgdydGKikhA.ttf';
 export const Audiowide_400Regular =
   'http://fonts.gstatic.com/s/audiowide/v9/l7gdbjpo0cum0ckerWCtkQXPExpQBw.ttf';
 export const ChauPhilomeneOne_400Regular =
-  'http://fonts.gstatic.com/s/chauphilomeneone/v10/55xxezRsPtfie1vPY49qzdgSlJiHRQFsnIx7QMISdQ.ttf';
+  'http://fonts.gstatic.com/s/chauphilomeneone/v13/55xxezRsPtfie1vPY49qzdgSlJiHRQFsnIx7QMISdQ.ttf';
 export const ChauPhilomeneOne_400Regular_Italic =
-  'http://fonts.gstatic.com/s/chauphilomeneone/v10/55xzezRsPtfie1vPY49qzdgSlJiHRQFcnoZ_YscCdXQB.ttf';
+  'http://fonts.gstatic.com/s/chauphilomeneone/v13/55xzezRsPtfie1vPY49qzdgSlJiHRQFcnoZ_YscCdXQB.ttf';
 export const Cuprum_400Regular =
   'http://fonts.gstatic.com/s/cuprum/v14/dg45_pLmvrkcOkBnKsOzXyGWTBcmg-X6ZjzSJjQjgnU.ttf';
 export const Cuprum_500Medium =
@@ -4779,27 +7304,27 @@ export const Cuprum_600SemiBold_Italic =
 export const Cuprum_700Bold_Italic =
   'http://fonts.gstatic.com/s/cuprum/v14/dg47_pLmvrkcOkBNI_FMh0j91rkhli25aXjYIhYmknUPEA.ttf';
 export const DellaRespira_400Regular =
-  'http://fonts.gstatic.com/s/dellarespira/v10/RLp5K5v44KaueWI6iEJQBiGPRfkSu6EuTHo.ttf';
+  'http://fonts.gstatic.com/s/dellarespira/v16/RLp5K5v44KaueWI6iEJQBiGPRfkSu6EuTHo.ttf';
 export const PressStart2P_400Regular =
   'http://fonts.gstatic.com/s/pressstart2p/v9/e3t4euO8T-267oIAQAu6jDQyK0nSgPJE4580.ttf';
 export const RussoOne_400Regular =
   'http://fonts.gstatic.com/s/russoone/v9/Z9XUDmZRWg6M1LvRYsH-yMOInrib9Q.ttf';
 export const Simonetta_400Regular =
-  'http://fonts.gstatic.com/s/simonetta/v13/x3dickHVYrCU5BU15c4BfPACvy_1BA.ttf';
+  'http://fonts.gstatic.com/s/simonetta/v21/x3dickHVYrCU5BU15c4BfPACvy_1BA.ttf';
 export const Simonetta_400Regular_Italic =
-  'http://fonts.gstatic.com/s/simonetta/v13/x3dkckHVYrCU5BU15c4xfvoGnSrlBBsy.ttf';
+  'http://fonts.gstatic.com/s/simonetta/v21/x3dkckHVYrCU5BU15c4xfvoGnSrlBBsy.ttf';
 export const Simonetta_900Black =
-  'http://fonts.gstatic.com/s/simonetta/v13/x3dnckHVYrCU5BU15c45-N0mtwTpDQIrGg.ttf';
+  'http://fonts.gstatic.com/s/simonetta/v21/x3dnckHVYrCU5BU15c45-N0mtwTpDQIrGg.ttf';
 export const Simonetta_900Black_Italic =
-  'http://fonts.gstatic.com/s/simonetta/v13/x3d5ckHVYrCU5BU15c4xfsKCsA7tLwc7Gn88.ttf';
+  'http://fonts.gstatic.com/s/simonetta/v21/x3d5ckHVYrCU5BU15c4xfsKCsA7tLwc7Gn88.ttf';
 export const Trocchi_400Regular =
-  'http://fonts.gstatic.com/s/trocchi/v9/qWcqB6WkuIDxDZLcDrtUvMeTYD0.ttf';
+  'http://fonts.gstatic.com/s/trocchi/v12/qWcqB6WkuIDxDZLcDrtUvMeTYD0.ttf';
 export const Belleza_400Regular =
-  'http://fonts.gstatic.com/s/belleza/v9/0nkoC9_pNeMfhX4BtcbyawzruP8.ttf';
+  'http://fonts.gstatic.com/s/belleza/v14/0nkoC9_pNeMfhX4BtcbyawzruP8.ttf';
 export const GreatVibes_400Regular =
-  'http://fonts.gstatic.com/s/greatvibes/v8/RWmMoKWR9v4ksMfaWd_JN-XCg6UKDXlq.ttf';
+  'http://fonts.gstatic.com/s/greatvibes/v9/RWmMoKWR9v4ksMfaWd_JN-XCg6UKDXlq.ttf';
 export const LoversQuarrel_400Regular =
-  'http://fonts.gstatic.com/s/loversquarrel/v10/Yq6N-LSKXTL-5bCy8ksBzpQ_-zAsY7pO6siz.ttf';
+  'http://fonts.gstatic.com/s/loversquarrel/v19/Yq6N-LSKXTL-5bCy8ksBzpQ_-zAsY7pO6siz.ttf';
 export const OleoScript_400Regular =
   'http://fonts.gstatic.com/s/oleoscript/v9/rax5HieDvtMOe0iICsUccBhasU7Q8Cad.ttf';
 export const OleoScript_700Bold =
@@ -4811,29 +7336,29 @@ export const Oxygen_400Regular =
 export const Oxygen_700Bold =
   'http://fonts.gstatic.com/s/oxygen/v10/2sDcZG1Wl4LcnbuCNWgDb2-4C7wFZQ.ttf';
 export const Rosarivo_400Regular =
-  'http://fonts.gstatic.com/s/rosarivo/v10/PlI-Fl2lO6N9f8HaNAeC2nhMnNy5.ttf';
+  'http://fonts.gstatic.com/s/rosarivo/v18/PlI-Fl2lO6N9f8HaNAeC2nhMnNy5.ttf';
 export const Rosarivo_400Regular_Italic =
-  'http://fonts.gstatic.com/s/rosarivo/v10/PlI4Fl2lO6N9f8HaNDeA0Hxumcy5ZX8.ttf';
+  'http://fonts.gstatic.com/s/rosarivo/v18/PlI4Fl2lO6N9f8HaNDeA0Hxumcy5ZX8.ttf';
 export const Dosis_200ExtraLight =
-  'http://fonts.gstatic.com/s/dosis/v19/HhyJU5sn9vOmLxNkIwRSjTVNWLEJt7MV3BkFTq4EPw.ttf';
+  'http://fonts.gstatic.com/s/dosis/v22/HhyJU5sn9vOmLxNkIwRSjTVNWLEJt7MV3BkFTq4EPw.ttf';
 export const Dosis_300Light =
-  'http://fonts.gstatic.com/s/dosis/v19/HhyJU5sn9vOmLxNkIwRSjTVNWLEJabMV3BkFTq4EPw.ttf';
+  'http://fonts.gstatic.com/s/dosis/v22/HhyJU5sn9vOmLxNkIwRSjTVNWLEJabMV3BkFTq4EPw.ttf';
 export const Dosis_400Regular =
-  'http://fonts.gstatic.com/s/dosis/v19/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7MV3BkFTq4EPw.ttf';
+  'http://fonts.gstatic.com/s/dosis/v22/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7MV3BkFTq4EPw.ttf';
 export const Dosis_500Medium =
-  'http://fonts.gstatic.com/s/dosis/v19/HhyJU5sn9vOmLxNkIwRSjTVNWLEJBbMV3BkFTq4EPw.ttf';
+  'http://fonts.gstatic.com/s/dosis/v22/HhyJU5sn9vOmLxNkIwRSjTVNWLEJBbMV3BkFTq4EPw.ttf';
 export const Dosis_600SemiBold =
-  'http://fonts.gstatic.com/s/dosis/v19/HhyJU5sn9vOmLxNkIwRSjTVNWLEJ6bQV3BkFTq4EPw.ttf';
+  'http://fonts.gstatic.com/s/dosis/v22/HhyJU5sn9vOmLxNkIwRSjTVNWLEJ6bQV3BkFTq4EPw.ttf';
 export const Dosis_700Bold =
-  'http://fonts.gstatic.com/s/dosis/v19/HhyJU5sn9vOmLxNkIwRSjTVNWLEJ0LQV3BkFTq4EPw.ttf';
+  'http://fonts.gstatic.com/s/dosis/v22/HhyJU5sn9vOmLxNkIwRSjTVNWLEJ0LQV3BkFTq4EPw.ttf';
 export const Dosis_800ExtraBold =
-  'http://fonts.gstatic.com/s/dosis/v19/HhyJU5sn9vOmLxNkIwRSjTVNWLEJt7QV3BkFTq4EPw.ttf';
+  'http://fonts.gstatic.com/s/dosis/v22/HhyJU5sn9vOmLxNkIwRSjTVNWLEJt7QV3BkFTq4EPw.ttf';
 export const Quattrocento_400Regular =
   'http://fonts.gstatic.com/s/quattrocento/v12/OZpEg_xvsDZQL_LKIF7q4jPHxGL7f4jFuA.ttf';
 export const Quattrocento_700Bold =
   'http://fonts.gstatic.com/s/quattrocento/v12/OZpbg_xvsDZQL_LKIF7q4jP_eE3fd6PZsXcM9w.ttf';
 export const AnticDidone_400Regular =
-  'http://fonts.gstatic.com/s/anticdidone/v9/RWmPoKKX6u8sp8fIWdnDKqDiqYsGBGBzCw.ttf';
+  'http://fonts.gstatic.com/s/anticdidone/v14/RWmPoKKX6u8sp8fIWdnDKqDiqYsGBGBzCw.ttf';
 export const AnticSlab_400Regular =
   'http://fonts.gstatic.com/s/anticslab/v9/bWt97fPFfRzkCa9Jlp6IWcJWXW5p5Qo.ttf';
 export const Average_400Regular =
@@ -4879,25 +7404,25 @@ export const AveriaSerifLibre_700Bold_Italic =
 export const BerkshireSwash_400Regular =
   'http://fonts.gstatic.com/s/berkshireswash/v9/ptRRTi-cavZOGqCvnNJDl5m5XmNPrcQybX4pQA.ttf';
 export const Codystar_300Light =
-  'http://fonts.gstatic.com/s/codystar/v10/FwZf7-Q1xVk-40qxOuYsyuyrj0e29bfC.ttf';
+  'http://fonts.gstatic.com/s/codystar/v13/FwZf7-Q1xVk-40qxOuYsyuyrj0e29bfC.ttf';
 export const Codystar_400Regular =
-  'http://fonts.gstatic.com/s/codystar/v10/FwZY7-Q1xVk-40qxOt6A4sijpFu_.ttf';
+  'http://fonts.gstatic.com/s/codystar/v13/FwZY7-Q1xVk-40qxOt6A4sijpFu_.ttf';
 export const FredokaOne_400Regular =
   'http://fonts.gstatic.com/s/fredokaone/v8/k3kUo8kEI-tA1RRcTZGmTmHBA6aF8Bf_.ttf';
 export const Gorditas_400Regular =
-  'http://fonts.gstatic.com/s/gorditas/v10/ll8_K2aTVD26DsPEtQDoDa4AlxYb.ttf';
+  'http://fonts.gstatic.com/s/gorditas/v18/ll8_K2aTVD26DsPEtQDoDa4AlxYb.ttf';
 export const Gorditas_700Bold =
-  'http://fonts.gstatic.com/s/gorditas/v10/ll84K2aTVD26DsPEtThUIooIvAoShA1i.ttf';
+  'http://fonts.gstatic.com/s/gorditas/v18/ll84K2aTVD26DsPEtThUIooIvAoShA1i.ttf';
 export const Graduate_400Regular =
-  'http://fonts.gstatic.com/s/graduate/v8/C8cg4cs3o2n15t_2YxgR6X2NZAn2.ttf';
+  'http://fonts.gstatic.com/s/graduate/v11/C8cg4cs3o2n15t_2YxgR6X2NZAn2.ttf';
 export const HappyMonkey_400Regular =
-  'http://fonts.gstatic.com/s/happymonkey/v9/K2F2fZZcl-9SXwl5F_C4R_OABwD2bWqVjw.ttf';
+  'http://fonts.gstatic.com/s/happymonkey/v12/K2F2fZZcl-9SXwl5F_C4R_OABwD2bWqVjw.ttf';
 export const Imprima_400Regular =
-  'http://fonts.gstatic.com/s/imprima/v11/VEMxRoN7sY3yuy-7-oWHyDzktPo.ttf';
+  'http://fonts.gstatic.com/s/imprima/v14/VEMxRoN7sY3yuy-7-oWHyDzktPo.ttf';
 export const Italiana_400Regular =
-  'http://fonts.gstatic.com/s/italiana/v11/QldNNTtLsx4E__B0XTmRY31Wx7Vv.ttf';
+  'http://fonts.gstatic.com/s/italiana/v14/QldNNTtLsx4E__B0XTmRY31Wx7Vv.ttf';
 export const JollyLodger_400Regular =
-  'http://fonts.gstatic.com/s/jollylodger/v10/BXRsvFTAh_bGkA1uQ48dlB3VWerT3ZyuqA.ttf';
+  'http://fonts.gstatic.com/s/jollylodger/v18/BXRsvFTAh_bGkA1uQ48dlB3VWerT3ZyuqA.ttf';
 export const Karla_200ExtraLight =
   'http://fonts.gstatic.com/s/karla/v15/qkBIXvYC6trAT55ZBi1ueQVIjQTDeJqqFENLR7fHGw.ttf';
 export const Karla_300Light =
@@ -4927,23 +7452,23 @@ export const Karla_700Bold_Italic =
 export const Karla_800ExtraBold_Italic =
   'http://fonts.gstatic.com/s/karla/v15/qkBKXvYC6trAT7RQNNK2EG7SIwPWMNnCUElPZbLXGxGR.ttf';
 export const LondrinaOutline_400Regular =
-  'http://fonts.gstatic.com/s/londrinaoutline/v13/C8c44dM8vmb14dfsZxhetg3pDH-SfuoxrSKMDvI.ttf';
+  'http://fonts.gstatic.com/s/londrinaoutline/v21/C8c44dM8vmb14dfsZxhetg3pDH-SfuoxrSKMDvI.ttf';
 export const LondrinaShadow_400Regular =
-  'http://fonts.gstatic.com/s/londrinashadow/v12/oPWX_kB4kOQoWNJmjxLV5JuoCUlXRlaSxkrMCQ.ttf';
+  'http://fonts.gstatic.com/s/londrinashadow/v20/oPWX_kB4kOQoWNJmjxLV5JuoCUlXRlaSxkrMCQ.ttf';
 export const LondrinaSketch_400Regular =
-  'http://fonts.gstatic.com/s/londrinasketch/v11/c4m41npxGMTnomOHtRU68eIJn8qfWWn5Pos6CA.ttf';
+  'http://fonts.gstatic.com/s/londrinasketch/v19/c4m41npxGMTnomOHtRU68eIJn8qfWWn5Pos6CA.ttf';
 export const LondrinaSolid_100Thin =
-  'http://fonts.gstatic.com/s/londrinasolid/v10/flUjRq6sw40kQEJxWNgkLuudGfs9KBYesZHhV64.ttf';
+  'http://fonts.gstatic.com/s/londrinasolid/v13/flUjRq6sw40kQEJxWNgkLuudGfs9KBYesZHhV64.ttf';
 export const LondrinaSolid_300Light =
-  'http://fonts.gstatic.com/s/londrinasolid/v10/flUiRq6sw40kQEJxWNgkLuudGfv1CjY0n53oTrcL.ttf';
+  'http://fonts.gstatic.com/s/londrinasolid/v13/flUiRq6sw40kQEJxWNgkLuudGfv1CjY0n53oTrcL.ttf';
 export const LondrinaSolid_400Regular =
-  'http://fonts.gstatic.com/s/londrinasolid/v10/flUhRq6sw40kQEJxWNgkLuudGcNZIhI8tIHh.ttf';
+  'http://fonts.gstatic.com/s/londrinasolid/v13/flUhRq6sw40kQEJxWNgkLuudGcNZIhI8tIHh.ttf';
 export const LondrinaSolid_900Black =
-  'http://fonts.gstatic.com/s/londrinasolid/v10/flUiRq6sw40kQEJxWNgkLuudGfvdDzY0n53oTrcL.ttf';
+  'http://fonts.gstatic.com/s/londrinasolid/v13/flUiRq6sw40kQEJxWNgkLuudGfvdDzY0n53oTrcL.ttf';
 export const PontanoSans_400Regular =
   'http://fonts.gstatic.com/s/pontanosans/v8/qFdD35GdgYR8EzR6oBLDHa3qwjUMg1siNQ.ttf';
 export const Revalia_400Regular =
-  'http://fonts.gstatic.com/s/revalia/v9/WwkexPimBE2-4ZPEeVruNIgJSNM.ttf';
+  'http://fonts.gstatic.com/s/revalia/v18/WwkexPimBE2-4ZPEeVruNIgJSNM.ttf';
 export const AdventPro_100Thin =
   'http://fonts.gstatic.com/s/adventpro/v11/V8mCoQfxVT4Dvddr_yOwjVmtLZxcBtItFw.ttf';
 export const AdventPro_200ExtraLight =
@@ -4961,7 +7486,7 @@ export const AdventPro_700Bold =
 export const CantataOne_400Regular =
   'http://fonts.gstatic.com/s/cantataone/v10/PlI5Fl60Nb5obNzNe2jslVxEt8CwfGaD.ttf';
 export const Cutive_400Regular =
-  'http://fonts.gstatic.com/s/cutive/v12/NaPZcZ_fHOhV3Ip7T_hDoyqlZQ.ttf';
+  'http://fonts.gstatic.com/s/cutive/v15/NaPZcZ_fHOhV3Ip7T_hDoyqlZQ.ttf';
 export const Economica_400Regular =
   'http://fonts.gstatic.com/s/economica/v8/Qw3fZQZaHCLgIWa29ZBrMcgAAl1lfQ.ttf';
 export const Economica_400Regular_Italic =
@@ -4971,48 +7496,48 @@ export const Economica_700Bold =
 export const Economica_700Bold_Italic =
   'http://fonts.gstatic.com/s/economica/v8/Qw3EZQZaHCLgIWa29ZBbM_q4D3x9Vnksi4M7.ttf';
 export const EmilysCandy_400Regular =
-  'http://fonts.gstatic.com/s/emilyscandy/v8/2EbgL-1mD1Rnb0OGKudbk0y5r9xrX84JjA.ttf';
+  'http://fonts.gstatic.com/s/emilyscandy/v11/2EbgL-1mD1Rnb0OGKudbk0y5r9xrX84JjA.ttf';
 export const MysteryQuest_400Regular =
-  'http://fonts.gstatic.com/s/mysteryquest/v10/-nF6OG414u0E6k0wynSGlujRHwElD_9Qz9E.ttf';
+  'http://fonts.gstatic.com/s/mysteryquest/v18/-nF6OG414u0E6k0wynSGlujRHwElD_9Qz9E.ttf';
 export const Oswald_200ExtraLight =
-  'http://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs13FvgUFoZAaRliE.ttf';
+  'http://fonts.gstatic.com/s/oswald/v40/TK3_WkUHHAIjg75cFRf3bXL8LICs13FvgUFoZAaRliE.ttf';
 export const Oswald_300Light =
-  'http://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs169vgUFoZAaRliE.ttf';
+  'http://fonts.gstatic.com/s/oswald/v40/TK3_WkUHHAIjg75cFRf3bXL8LICs169vgUFoZAaRliE.ttf';
 export const Oswald_400Regular =
-  'http://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvgUFoZAaRliE.ttf';
+  'http://fonts.gstatic.com/s/oswald/v40/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvgUFoZAaRliE.ttf';
 export const Oswald_500Medium =
-  'http://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs18NvgUFoZAaRliE.ttf';
+  'http://fonts.gstatic.com/s/oswald/v40/TK3_WkUHHAIjg75cFRf3bXL8LICs18NvgUFoZAaRliE.ttf';
 export const Oswald_600SemiBold =
-  'http://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs1y9ogUFoZAaRliE.ttf';
+  'http://fonts.gstatic.com/s/oswald/v40/TK3_WkUHHAIjg75cFRf3bXL8LICs1y9ogUFoZAaRliE.ttf';
 export const Oswald_700Bold =
-  'http://fonts.gstatic.com/s/oswald/v36/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZogUFoZAaRliE.ttf';
+  'http://fonts.gstatic.com/s/oswald/v40/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZogUFoZAaRliE.ttf';
 export const PTMono_400Regular =
   'http://fonts.gstatic.com/s/ptmono/v8/9oRONYoBnWILk-9ArCg5MtPyAcg.ttf';
 export const PoiretOne_400Regular =
   'http://fonts.gstatic.com/s/poiretone/v9/UqyVK80NJXN4zfRgbdfbk5lWVscxdKE.ttf';
 export const ProstoOne_400Regular =
-  'http://fonts.gstatic.com/s/prostoone/v11/OpNJno4VhNfK-RgpwWWxpipfWhXD00c.ttf';
+  'http://fonts.gstatic.com/s/prostoone/v15/OpNJno4VhNfK-RgpwWWxpipfWhXD00c.ttf';
 export const SeaweedScript_400Regular =
-  'http://fonts.gstatic.com/s/seaweedscript/v8/bx6cNx6Tne2pxOATYE8C_Rsoe0WJ-KcGVbLW.ttf';
+  'http://fonts.gstatic.com/s/seaweedscript/v11/bx6cNx6Tne2pxOATYE8C_Rsoe0WJ-KcGVbLW.ttf';
 export const DoppioOne_400Regular =
-  'http://fonts.gstatic.com/s/doppioone/v8/Gg8wN5gSaBfyBw2MqCh-lgshKGpe5Fg.ttf';
+  'http://fonts.gstatic.com/s/doppioone/v11/Gg8wN5gSaBfyBw2MqCh-lgshKGpe5Fg.ttf';
 export const GlassAntiqua_400Regular =
-  'http://fonts.gstatic.com/s/glassantiqua/v10/xfu30Wr0Wn3NOQM2piC0uXOjnL_wN6fRUkY.ttf';
+  'http://fonts.gstatic.com/s/glassantiqua/v18/xfu30Wr0Wn3NOQM2piC0uXOjnL_wN6fRUkY.ttf';
 export const HennyPenny_400Regular =
-  'http://fonts.gstatic.com/s/hennypenny/v10/wXKvE3UZookzsxz_kjGSfMQqt3M7tMDT.ttf';
+  'http://fonts.gstatic.com/s/hennypenny/v15/wXKvE3UZookzsxz_kjGSfMQqt3M7tMDT.ttf';
 export const KronaOne_400Regular =
-  'http://fonts.gstatic.com/s/kronaone/v9/jAnEgHdjHcjgfIb1ZcUCMY-h3cWkWg.ttf';
+  'http://fonts.gstatic.com/s/kronaone/v12/jAnEgHdjHcjgfIb1ZcUCMY-h3cWkWg.ttf';
 export const Ledger_400Regular =
-  'http://fonts.gstatic.com/s/ledger/v11/j8_q6-HK1L3if_sxm8DwHTBhHw.ttf';
+  'http://fonts.gstatic.com/s/ledger/v14/j8_q6-HK1L3if_sxm8DwHTBhHw.ttf';
 export const Sevillana_400Regular =
-  'http://fonts.gstatic.com/s/sevillana/v11/KFOlCnWFscmDt1Bfiy1vAx05IsDqlA.ttf';
+  'http://fonts.gstatic.com/s/sevillana/v19/KFOlCnWFscmDt1Bfiy1vAx05IsDqlA.ttf';
 export const ShadowsIntoLightTwo_400Regular =
   'http://fonts.gstatic.com/s/shadowsintolighttwo/v8/4iC86LVlZsRSjQhpWGedwyOoW-0A6_kpsyNmlAvNGLNnIF0.ttf';
-export const Voces_400Regular = 'http://fonts.gstatic.com/s/voces/v12/-F6_fjJyLyU8d4PBBG7YpzlJ.ttf';
+export const Voces_400Regular = 'http://fonts.gstatic.com/s/voces/v18/-F6_fjJyLyU8d4PBBG7YpzlJ.ttf';
 export const ButterflyKids_400Regular =
-  'http://fonts.gstatic.com/s/butterflykids/v11/ll8lK2CWTjuqAsXDqlnIbMNs5S4arxFrAX1D.ttf';
+  'http://fonts.gstatic.com/s/butterflykids/v19/ll8lK2CWTjuqAsXDqlnIbMNs5S4arxFrAX1D.ttf';
 export const PrincessSofia_400Regular =
-  'http://fonts.gstatic.com/s/princesssofia/v11/qWczB6yguIb8DZ_GXZst16n7GRz7mDUoupoI.ttf';
+  'http://fonts.gstatic.com/s/princesssofia/v19/qWczB6yguIb8DZ_GXZst16n7GRz7mDUoupoI.ttf';
 export const QuattrocentoSans_400Regular =
   'http://fonts.gstatic.com/s/quattrocentosans/v13/va9c4lja2NVIDdIAAoMR5MfuElaRB3zOvU7eHGHJ.ttf';
 export const QuattrocentoSans_400Regular_Italic =
@@ -5022,50 +7547,50 @@ export const QuattrocentoSans_700Bold =
 export const QuattrocentoSans_700Bold_Italic =
   'http://fonts.gstatic.com/s/quattrocentosans/v13/va9X4lja2NVIDdIAAoMR5MfuElaRB0zMj_bTPXnijLsJV7E.ttf';
 export const StintUltraExpanded_400Regular =
-  'http://fonts.gstatic.com/s/stintultraexpanded/v10/CSRg4yNNh-GbW3o3JkwoDcdvMKMf0oBAd0qoATQkWwam.ttf';
+  'http://fonts.gstatic.com/s/stintultraexpanded/v18/CSRg4yNNh-GbW3o3JkwoDcdvMKMf0oBAd0qoATQkWwam.ttf';
 export const Allura_400Regular =
-  'http://fonts.gstatic.com/s/allura/v9/9oRPNYsQpS4zjuAPjAIXPtrrGA.ttf';
+  'http://fonts.gstatic.com/s/allura/v15/9oRPNYsQpS4zjuAPjAIXPtrrGA.ttf';
 export const EuphoriaScript_400Regular =
-  'http://fonts.gstatic.com/s/euphoriascript/v11/mFTpWb0X2bLb_cx6To2B8GpKoD5ak_ZT1D8x7Q.ttf';
-export const Ewert_400Regular = 'http://fonts.gstatic.com/s/ewert/v10/va9I4kzO2tFODYBvS-J3kbDP.ttf';
+  'http://fonts.gstatic.com/s/euphoriascript/v14/mFTpWb0X2bLb_cx6To2B8GpKoD5ak_ZT1D8x7Q.ttf';
+export const Ewert_400Regular = 'http://fonts.gstatic.com/s/ewert/v19/va9I4kzO2tFODYBvS-J3kbDP.ttf';
 export const Exo_100Thin =
-  'http://fonts.gstatic.com/s/exo/v12/4UaZrEtFpBI4f1ZSIK9d4LjJ4lM2CwNsOl4p5Is.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UaZrEtFpBI4f1ZSIK9d4LjJ4lM2CwNsOl4p5Is.ttf';
 export const Exo_200ExtraLight =
-  'http://fonts.gstatic.com/s/exo/v12/4UaZrEtFpBI4f1ZSIK9d4LjJ4tM3CwNsOl4p5Is.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UaZrEtFpBI4f1ZSIK9d4LjJ4tM3CwNsOl4p5Is.ttf';
 export const Exo_300Light =
-  'http://fonts.gstatic.com/s/exo/v12/4UaZrEtFpBI4f1ZSIK9d4LjJ4g03CwNsOl4p5Is.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UaZrEtFpBI4f1ZSIK9d4LjJ4g03CwNsOl4p5Is.ttf';
 export const Exo_400Regular =
-  'http://fonts.gstatic.com/s/exo/v12/4UaZrEtFpBI4f1ZSIK9d4LjJ4lM3CwNsOl4p5Is.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UaZrEtFpBI4f1ZSIK9d4LjJ4lM3CwNsOl4p5Is.ttf';
 export const Exo_500Medium =
-  'http://fonts.gstatic.com/s/exo/v12/4UaZrEtFpBI4f1ZSIK9d4LjJ4mE3CwNsOl4p5Is.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UaZrEtFpBI4f1ZSIK9d4LjJ4mE3CwNsOl4p5Is.ttf';
 export const Exo_600SemiBold =
-  'http://fonts.gstatic.com/s/exo/v12/4UaZrEtFpBI4f1ZSIK9d4LjJ4o0wCwNsOl4p5Is.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UaZrEtFpBI4f1ZSIK9d4LjJ4o0wCwNsOl4p5Is.ttf';
 export const Exo_700Bold =
-  'http://fonts.gstatic.com/s/exo/v12/4UaZrEtFpBI4f1ZSIK9d4LjJ4rQwCwNsOl4p5Is.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UaZrEtFpBI4f1ZSIK9d4LjJ4rQwCwNsOl4p5Is.ttf';
 export const Exo_800ExtraBold =
-  'http://fonts.gstatic.com/s/exo/v12/4UaZrEtFpBI4f1ZSIK9d4LjJ4tMwCwNsOl4p5Is.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UaZrEtFpBI4f1ZSIK9d4LjJ4tMwCwNsOl4p5Is.ttf';
 export const Exo_900Black =
-  'http://fonts.gstatic.com/s/exo/v12/4UaZrEtFpBI4f1ZSIK9d4LjJ4vowCwNsOl4p5Is.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UaZrEtFpBI4f1ZSIK9d4LjJ4vowCwNsOl4p5Is.ttf';
 export const Exo_100Thin_Italic =
-  'http://fonts.gstatic.com/s/exo/v12/4UafrEtFpBISdmSt-MY2ehbO95t040FmPnws9Iu-uA.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UafrEtFpBISdmSt-MY2ehbO95t040FmPnws9Iu-uA.ttf';
 export const Exo_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/exo/v12/4UafrEtFpBISdmSt-MY2ehbO95t0Y0BmPnws9Iu-uA.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UafrEtFpBISdmSt-MY2ehbO95t0Y0BmPnws9Iu-uA.ttf';
 export const Exo_300Light_Italic =
-  'http://fonts.gstatic.com/s/exo/v12/4UafrEtFpBISdmSt-MY2ehbO95t0vUBmPnws9Iu-uA.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UafrEtFpBISdmSt-MY2ehbO95t0vUBmPnws9Iu-uA.ttf';
 export const Exo_400Regular_Italic =
-  'http://fonts.gstatic.com/s/exo/v12/4UafrEtFpBISdmSt-MY2ehbO95t040BmPnws9Iu-uA.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UafrEtFpBISdmSt-MY2ehbO95t040BmPnws9Iu-uA.ttf';
 export const Exo_500Medium_Italic =
-  'http://fonts.gstatic.com/s/exo/v12/4UafrEtFpBISdmSt-MY2ehbO95t00UBmPnws9Iu-uA.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UafrEtFpBISdmSt-MY2ehbO95t00UBmPnws9Iu-uA.ttf';
 export const Exo_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/exo/v12/4UafrEtFpBISdmSt-MY2ehbO95t0PUdmPnws9Iu-uA.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UafrEtFpBISdmSt-MY2ehbO95t0PUdmPnws9Iu-uA.ttf';
 export const Exo_700Bold_Italic =
-  'http://fonts.gstatic.com/s/exo/v12/4UafrEtFpBISdmSt-MY2ehbO95t0BEdmPnws9Iu-uA.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UafrEtFpBISdmSt-MY2ehbO95t0BEdmPnws9Iu-uA.ttf';
 export const Exo_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/exo/v12/4UafrEtFpBISdmSt-MY2ehbO95t0Y0dmPnws9Iu-uA.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UafrEtFpBISdmSt-MY2ehbO95t0Y0dmPnws9Iu-uA.ttf';
 export const Exo_900Black_Italic =
-  'http://fonts.gstatic.com/s/exo/v12/4UafrEtFpBISdmSt-MY2ehbO95t0SkdmPnws9Iu-uA.ttf';
+  'http://fonts.gstatic.com/s/exo/v15/4UafrEtFpBISdmSt-MY2ehbO95t0SkdmPnws9Iu-uA.ttf';
 export const Felipa_400Regular =
-  'http://fonts.gstatic.com/s/felipa/v9/FwZa7-owz1Eu4F_wSNSEwM2zpA.ttf';
+  'http://fonts.gstatic.com/s/felipa/v17/FwZa7-owz1Eu4F_wSNSEwM2zpA.ttf';
 export const Norican_400Regular =
   'http://fonts.gstatic.com/s/norican/v9/MwQ2bhXp1eSBqjkPGJJRtGs-lbA.ttf';
 export const NoticiaText_400Regular =
@@ -5076,13 +7601,13 @@ export const NoticiaText_700Bold =
   'http://fonts.gstatic.com/s/noticiatext/v10/VuJpdNDF2Yv9qppOePKYRP1-3R59v2HRrDH0eA.ttf';
 export const NoticiaText_700Bold_Italic =
   'http://fonts.gstatic.com/s/noticiatext/v10/VuJrdNDF2Yv9qppOePKYRP12YwPhumvVjjTkeMnz.ttf';
-export const Share_400Regular = 'http://fonts.gstatic.com/s/share/v11/i7dEIFliZjKNF5VNHLq2cV5d.ttf';
+export const Share_400Regular = 'http://fonts.gstatic.com/s/share/v14/i7dEIFliZjKNF5VNHLq2cV5d.ttf';
 export const Share_400Regular_Italic =
-  'http://fonts.gstatic.com/s/share/v11/i7dKIFliZjKNF6VPFr6UdE5dWFM.ttf';
+  'http://fonts.gstatic.com/s/share/v14/i7dKIFliZjKNF6VPFr6UdE5dWFM.ttf';
 export const Share_700Bold =
-  'http://fonts.gstatic.com/s/share/v11/i7dJIFliZjKNF63xM56-WkJUQUq7.ttf';
+  'http://fonts.gstatic.com/s/share/v14/i7dJIFliZjKNF63xM56-WkJUQUq7.ttf';
 export const Share_700Bold_Italic =
-  'http://fonts.gstatic.com/s/share/v11/i7dPIFliZjKNF6VPLgK7UEZ2RFq7AwU.ttf';
+  'http://fonts.gstatic.com/s/share/v14/i7dPIFliZjKNF6VPLgK7UEZ2RFq7AwU.ttf';
 export const Asap_400Regular =
   'http://fonts.gstatic.com/s/asap/v15/KFO9CniXp96a4Tc2EZzSuDAoKsE61qhOUX-8AEEe.ttf';
 export const Asap_500Medium =
@@ -5100,21 +7625,21 @@ export const Asap_600SemiBold_Italic =
 export const Asap_700Bold_Italic =
   'http://fonts.gstatic.com/s/asap/v15/KFO7CniXp96ayz4E7kS706qGLdTylacKW3ueBVEeezU.ttf';
 export const Condiment_400Regular =
-  'http://fonts.gstatic.com/s/condiment/v10/pONk1hggFNmwvXALyH6Sq4n4o1vyCQ.ttf';
+  'http://fonts.gstatic.com/s/condiment/v18/pONk1hggFNmwvXALyH6Sq4n4o1vyCQ.ttf';
 export const Diplomata_400Regular =
-  'http://fonts.gstatic.com/s/diplomata/v14/Cn-0JtiMXwhNwp-wKxyfYGxYrdM9Sg.ttf';
+  'http://fonts.gstatic.com/s/diplomata/v22/Cn-0JtiMXwhNwp-wKxyfYGxYrdM9Sg.ttf';
 export const DiplomataSC_400Regular =
-  'http://fonts.gstatic.com/s/diplomatasc/v11/buExpoi3ecvs3kidKgBJo2kf-P5Oaiw4cw.ttf';
+  'http://fonts.gstatic.com/s/diplomatasc/v19/buExpoi3ecvs3kidKgBJo2kf-P5Oaiw4cw.ttf';
 export const Glegoo_400Regular =
   'http://fonts.gstatic.com/s/glegoo/v10/_Xmt-HQyrTKWaw2Ji6mZAI91xw.ttf';
 export const Glegoo_700Bold =
   'http://fonts.gstatic.com/s/glegoo/v10/_Xmu-HQyrTKWaw2xN4a9CKRpzimMsg.ttf';
 export const Iceberg_400Regular =
-  'http://fonts.gstatic.com/s/iceberg/v10/8QIJdijAiM7o-qnZuIgOq7jkAOw.ttf';
+  'http://fonts.gstatic.com/s/iceberg/v18/8QIJdijAiM7o-qnZuIgOq7jkAOw.ttf';
 export const KaushanScript_400Regular =
   'http://fonts.gstatic.com/s/kaushanscript/v9/vm8vdRfvXFLG3OLnsO15WYS5DF7_ytN3M48a.ttf';
 export const KottaOne_400Regular =
-  'http://fonts.gstatic.com/s/kottaone/v10/S6u_w41LXzPc_jlfNWqPHA3s5dwt7w.ttf';
+  'http://fonts.gstatic.com/s/kottaone/v18/S6u_w41LXzPc_jlfNWqPHA3s5dwt7w.ttf';
 export const Parisienne_400Regular =
   'http://fonts.gstatic.com/s/parisienne/v8/E21i_d3kivvAkxhLEVZpcy96DuKuavM.ttf';
 export const RopaSans_400Regular =
@@ -5122,91 +7647,88 @@ export const RopaSans_400Regular =
 export const RopaSans_400Regular_Italic =
   'http://fonts.gstatic.com/s/ropasans/v10/EYq3maNOzLlWtsZSScy6WDNscZef2mNE.ttf';
 export const Shojumaru_400Regular =
-  'http://fonts.gstatic.com/s/shojumaru/v10/rax_HiWfutkLLnaKCtlMBBJek0vA8A.ttf';
+  'http://fonts.gstatic.com/s/shojumaru/v13/rax_HiWfutkLLnaKCtlMBBJek0vA8A.ttf';
 export const Amethysta_400Regular =
-  'http://fonts.gstatic.com/s/amethysta/v9/rP2Fp2K15kgb_F3ibfWIGDWCBl0O8Q.ttf';
+  'http://fonts.gstatic.com/s/amethysta/v14/rP2Fp2K15kgb_F3ibfWIGDWCBl0O8Q.ttf';
 export const EmblemaOne_400Regular =
-  'http://fonts.gstatic.com/s/emblemaone/v11/nKKT-GQ0F5dSY8vzG0rOEIRBHl57G_f_.ttf';
+  'http://fonts.gstatic.com/s/emblemaone/v19/nKKT-GQ0F5dSY8vzG0rOEIRBHl57G_f_.ttf';
 export const EricaOne_400Regular =
-  'http://fonts.gstatic.com/s/ericaone/v13/WBLnrEXccV9VGrOKmGD1W0_MJMGxiQ.ttf';
+  'http://fonts.gstatic.com/s/ericaone/v21/WBLnrEXccV9VGrOKmGD1W0_MJMGxiQ.ttf';
 export const GermaniaOne_400Regular =
-  'http://fonts.gstatic.com/s/germaniaone/v10/Fh4yPjrqIyv2ucM2qzBjeS3ezAJONau6ew.ttf';
+  'http://fonts.gstatic.com/s/germaniaone/v18/Fh4yPjrqIyv2ucM2qzBjeS3ezAJONau6ew.ttf';
 export const Gudea_400Regular = 'http://fonts.gstatic.com/s/gudea/v10/neIFzCqgsI0mp-CP9IGON7Ez.ttf';
 export const Gudea_400Regular_Italic =
   'http://fonts.gstatic.com/s/gudea/v10/neILzCqgsI0mp9CN_oWsMqEzSJQ.ttf';
 export const Gudea_700Bold =
   'http://fonts.gstatic.com/s/gudea/v10/neIIzCqgsI0mp9gz26WGHK06UY30.ttf';
 export const Homenaje_400Regular =
-  'http://fonts.gstatic.com/s/homenaje/v10/FwZY7-Q-xVAi_l-6Ld6A4sijpFu_.ttf';
-export const Junge_400Regular = 'http://fonts.gstatic.com/s/junge/v10/gokgH670Gl1lUqAdvhB7SnKm.ttf';
+  'http://fonts.gstatic.com/s/homenaje/v14/FwZY7-Q-xVAi_l-6Ld6A4sijpFu_.ttf';
+export const Junge_400Regular = 'http://fonts.gstatic.com/s/junge/v18/gokgH670Gl1lUqAdvhB7SnKm.ttf';
 export const Lustria_400Regular =
-  'http://fonts.gstatic.com/s/lustria/v8/9oRONYodvDEyjuhOrCg5MtPyAcg.ttf';
+  'http://fonts.gstatic.com/s/lustria/v11/9oRONYodvDEyjuhOrCg5MtPyAcg.ttf';
 export const Macondo_400Regular =
-  'http://fonts.gstatic.com/s/macondo/v11/RrQQboN9-iB1IXmOS2XO0LBBd4Y.ttf';
+  'http://fonts.gstatic.com/s/macondo/v19/RrQQboN9-iB1IXmOS2XO0LBBd4Y.ttf';
 export const MacondoSwashCaps_400Regular =
-  'http://fonts.gstatic.com/s/macondoswashcaps/v10/6NUL8EaAJgGKZA7lpt941Z9s6ZYgDq6Oekoa_mm5bA.ttf';
+  'http://fonts.gstatic.com/s/macondoswashcaps/v18/6NUL8EaAJgGKZA7lpt941Z9s6ZYgDq6Oekoa_mm5bA.ttf';
 export const Montaga_400Regular =
-  'http://fonts.gstatic.com/s/montaga/v8/H4cnBX2Ml8rCkEO_0gYQ7LO5mqc.ttf';
+  'http://fonts.gstatic.com/s/montaga/v11/H4cnBX2Ml8rCkEO_0gYQ7LO5mqc.ttf';
 export const PortLligatSans_400Regular =
-  'http://fonts.gstatic.com/s/portlligatsans/v11/kmKmZrYrGBbdN1aV7Vokow6Lw4s4l7N0Tx4xEcQ.ttf';
+  'http://fonts.gstatic.com/s/portlligatsans/v16/kmKmZrYrGBbdN1aV7Vokow6Lw4s4l7N0Tx4xEcQ.ttf';
 export const PortLligatSlab_400Regular =
-  'http://fonts.gstatic.com/s/portlligatslab/v11/LDIpaoiQNgArA8kR7ulhZ8P_NYOss7ob9yGLmfI.ttf';
-export const Scheherazade_400Regular =
-  'http://fonts.gstatic.com/s/scheherazade/v20/YA9Ur0yF4ETZN60keViq1kQgt5OohvbJ9A.ttf';
-export const Scheherazade_700Bold =
-  'http://fonts.gstatic.com/s/scheherazade/v20/YA9Lr0yF4ETZN60keViq1kQYC7yMjt3V_dB0Yw.ttf';
+  'http://fonts.gstatic.com/s/portlligatslab/v19/LDIpaoiQNgArA8kR7ulhZ8P_NYOss7ob9yGLmfI.ttf';
 export const SirinStencil_400Regular =
-  'http://fonts.gstatic.com/s/sirinstencil/v11/mem4YaWwznmLx-lzGfN7MdRydchGBq6al6o.ttf';
+  'http://fonts.gstatic.com/s/sirinstencil/v19/mem4YaWwznmLx-lzGfN7MdRydchGBq6al6o.ttf';
 export const SonsieOne_400Regular =
-  'http://fonts.gstatic.com/s/sonsieone/v11/PbymFmP_EAnPqbKaoc18YVu80lbp8JM.ttf';
+  'http://fonts.gstatic.com/s/sonsieone/v19/PbymFmP_EAnPqbKaoc18YVu80lbp8JM.ttf';
 export const Telex_400Regular = 'http://fonts.gstatic.com/s/telex/v9/ieVw2Y1fKWmIO9fTB1piKFIf.ttf';
 export const Trochut_400Regular =
-  'http://fonts.gstatic.com/s/trochut/v10/CHyjV-fDDlP9bDIw5nSIfVIPLns.ttf';
+  'http://fonts.gstatic.com/s/trochut/v18/CHyjV-fDDlP9bDIw5nSIfVIPLns.ttf';
 export const Trochut_400Regular_Italic =
-  'http://fonts.gstatic.com/s/trochut/v10/CHyhV-fDDlP9bDIw1naCeXAKPns8jw.ttf';
+  'http://fonts.gstatic.com/s/trochut/v18/CHyhV-fDDlP9bDIw1naCeXAKPns8jw.ttf';
 export const Trochut_700Bold =
-  'http://fonts.gstatic.com/s/trochut/v10/CHymV-fDDlP9bDIw3sinWVokMnIllmA.ttf';
+  'http://fonts.gstatic.com/s/trochut/v18/CHymV-fDDlP9bDIw3sinWVokMnIllmA.ttf';
 export const Esteban_400Regular =
-  'http://fonts.gstatic.com/s/esteban/v9/r05bGLZE-bdGdN-GdOuD5jokU8E.ttf';
-export const Inika_400Regular = 'http://fonts.gstatic.com/s/inika/v11/rnCm-x5X3QP-phTHRcc2s2XH.ttf';
+  'http://fonts.gstatic.com/s/esteban/v12/r05bGLZE-bdGdN-GdOuD5jokU8E.ttf';
+export const Inika_400Regular = 'http://fonts.gstatic.com/s/inika/v19/rnCm-x5X3QP-phTHRcc2s2XH.ttf';
 export const Inika_700Bold =
-  'http://fonts.gstatic.com/s/inika/v11/rnCr-x5X3QP-pix7auM-mHnOSOuk.ttf';
+  'http://fonts.gstatic.com/s/inika/v19/rnCr-x5X3QP-pix7auM-mHnOSOuk.ttf';
 export const LilitaOne_400Regular =
   'http://fonts.gstatic.com/s/lilitaone/v8/i7dPIFZ9Zz-WBtRtedDbUEZ2RFq7AwU.ttf';
 export const Lusitana_400Regular =
   'http://fonts.gstatic.com/s/lusitana/v8/CSR84z9ShvucWzsMKxhaRuMiSct_.ttf';
 export const Lusitana_700Bold =
   'http://fonts.gstatic.com/s/lusitana/v8/CSR74z9ShvucWzsMKyDmaccqYtd2vfwk.ttf';
-export const Magra_400Regular = 'http://fonts.gstatic.com/s/magra/v9/uK_94ruaZus72k5xIDMfO-ed.ttf';
-export const Magra_700Bold = 'http://fonts.gstatic.com/s/magra/v9/uK_w4ruaZus72nbNDxcXEPuUX1ow.ttf';
+export const Magra_400Regular = 'http://fonts.gstatic.com/s/magra/v12/uK_94ruaZus72k5xIDMfO-ed.ttf';
+export const Magra_700Bold =
+  'http://fonts.gstatic.com/s/magra/v12/uK_w4ruaZus72nbNDxcXEPuUX1ow.ttf';
 export const MrBedfort_400Regular =
-  'http://fonts.gstatic.com/s/mrbedfort/v11/MQpR-WCtNZSWAdTMwBicliq0XZe_Iy8.ttf';
+  'http://fonts.gstatic.com/s/mrbedfort/v19/MQpR-WCtNZSWAdTMwBicliq0XZe_Iy8.ttf';
 export const MrsSaintDelafield_400Regular =
   'http://fonts.gstatic.com/s/mrssaintdelafield/v8/v6-IGZDIOVXH9xtmTZfRagunqBw5WC62cK4tLsubB2w.ttf';
 export const RougeScript_400Regular =
-  'http://fonts.gstatic.com/s/rougescript/v9/LYjFdGbiklMoCIQOw1Ep3S4PVPXbUJWq9g.ttf';
+  'http://fonts.gstatic.com/s/rougescript/v12/LYjFdGbiklMoCIQOw1Ep3S4PVPXbUJWq9g.ttf';
 export const Ruda_400Regular =
-  'http://fonts.gstatic.com/s/ruda/v14/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJFsi_-2KiSGg-H.ttf';
+  'http://fonts.gstatic.com/s/ruda/v17/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJFsi_-2KiSGg-H.ttf';
 export const Ruda_500Medium =
-  'http://fonts.gstatic.com/s/ruda/v14/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJ3si_-2KiSGg-H.ttf';
+  'http://fonts.gstatic.com/s/ruda/v17/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJ3si_-2KiSGg-H.ttf';
 export const Ruda_600SemiBold =
-  'http://fonts.gstatic.com/s/ruda/v14/k3kKo8YQJOpFgHQ1mQ5VkEbUKaKbtS_-2KiSGg-H.ttf';
+  'http://fonts.gstatic.com/s/ruda/v17/k3kKo8YQJOpFgHQ1mQ5VkEbUKaKbtS_-2KiSGg-H.ttf';
 export const Ruda_700Bold =
-  'http://fonts.gstatic.com/s/ruda/v14/k3kKo8YQJOpFgHQ1mQ5VkEbUKaKitS_-2KiSGg-H.ttf';
+  'http://fonts.gstatic.com/s/ruda/v17/k3kKo8YQJOpFgHQ1mQ5VkEbUKaKitS_-2KiSGg-H.ttf';
 export const Ruda_800ExtraBold =
-  'http://fonts.gstatic.com/s/ruda/v14/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLFtS_-2KiSGg-H.ttf';
+  'http://fonts.gstatic.com/s/ruda/v17/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLFtS_-2KiSGg-H.ttf';
 export const Ruda_900Black =
-  'http://fonts.gstatic.com/s/ruda/v14/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLstS_-2KiSGg-H.ttf';
+  'http://fonts.gstatic.com/s/ruda/v17/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLstS_-2KiSGg-H.ttf';
 export const Ruluko_400Regular =
-  'http://fonts.gstatic.com/s/ruluko/v10/xMQVuFNZVaODtm0pC6WzKX_QmA.ttf';
+  'http://fonts.gstatic.com/s/ruluko/v19/xMQVuFNZVaODtm0pC6WzKX_QmA.ttf';
 export const TitanOne_400Regular =
   'http://fonts.gstatic.com/s/titanone/v8/mFTzWbsGxbbS_J5cQcjykzIn2Etikg.ttf';
 export const Wellfleet_400Regular =
-  'http://fonts.gstatic.com/s/wellfleet/v10/nuF7D_LfQJb3VYgX6eyT42aLDhO2HA.ttf';
+  'http://fonts.gstatic.com/s/wellfleet/v18/nuF7D_LfQJb3VYgX6eyT42aLDhO2HA.ttf';
 export const ChelseaMarket_400Regular =
-  'http://fonts.gstatic.com/s/chelseamarket/v8/BCawqZsHqfr89WNP_IApC8tzKBhlLA4uKkWk.ttf';
+  'http://fonts.gstatic.com/s/chelseamarket/v11/BCawqZsHqfr89WNP_IApC8tzKBhlLA4uKkWk.ttf';
 export const JimNightshade_400Regular =
-  'http://fonts.gstatic.com/s/jimnightshade/v10/PlIkFlu9Pb08Q8HLM1PxmB0g-OS4V3qKaMxD.ttf';
+  'http://fonts.gstatic.com/s/jimnightshade/v18/PlIkFlu9Pb08Q8HLM1PxmB0g-OS4V3qKaMxD.ttf';
 export const Acme_400Regular = 'http://fonts.gstatic.com/s/acme/v11/RrQfboBx-C5_bx3Lb23lzLk.ttf';
 export const Alegreya_400Regular =
   'http://fonts.gstatic.com/s/alegreya/v19/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNG9hUI_KCisSGVrw.ttf';
@@ -5233,96 +7755,96 @@ export const Alegreya_800ExtraBold_Italic =
 export const Alegreya_900Black_Italic =
   'http://fonts.gstatic.com/s/alegreya/v19/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlZJuKqmkySFr9V9.ttf';
 export const AlegreyaSC_400Regular =
-  'http://fonts.gstatic.com/s/alegreyasc/v15/taiOGmRtCJ62-O0HhNEa-a6o05E5abe_.ttf';
+  'http://fonts.gstatic.com/s/alegreyasc/v20/taiOGmRtCJ62-O0HhNEa-a6o05E5abe_.ttf';
 export const AlegreyaSC_400Regular_Italic =
-  'http://fonts.gstatic.com/s/alegreyasc/v15/taiMGmRtCJ62-O0HhNEa-Z6q2ZUbbKe_DGs.ttf';
+  'http://fonts.gstatic.com/s/alegreyasc/v20/taiMGmRtCJ62-O0HhNEa-Z6q2ZUbbKe_DGs.ttf';
 export const AlegreyaSC_500Medium =
-  'http://fonts.gstatic.com/s/alegreyasc/v15/taiTGmRtCJ62-O0HhNEa-ZZc-rUxQqu2FXKD.ttf';
+  'http://fonts.gstatic.com/s/alegreyasc/v20/taiTGmRtCJ62-O0HhNEa-ZZc-rUxQqu2FXKD.ttf';
 export const AlegreyaSC_500Medium_Italic =
-  'http://fonts.gstatic.com/s/alegreyasc/v15/taiRGmRtCJ62-O0HhNEa-Z6q4WEySK-UEGKDBz4.ttf';
+  'http://fonts.gstatic.com/s/alegreyasc/v20/taiRGmRtCJ62-O0HhNEa-Z6q4WEySK-UEGKDBz4.ttf';
 export const AlegreyaSC_700Bold =
-  'http://fonts.gstatic.com/s/alegreyasc/v15/taiTGmRtCJ62-O0HhNEa-ZYU_LUxQqu2FXKD.ttf';
+  'http://fonts.gstatic.com/s/alegreyasc/v20/taiTGmRtCJ62-O0HhNEa-ZYU_LUxQqu2FXKD.ttf';
 export const AlegreyaSC_700Bold_Italic =
-  'http://fonts.gstatic.com/s/alegreyasc/v15/taiRGmRtCJ62-O0HhNEa-Z6q4Sk0SK-UEGKDBz4.ttf';
+  'http://fonts.gstatic.com/s/alegreyasc/v20/taiRGmRtCJ62-O0HhNEa-Z6q4Sk0SK-UEGKDBz4.ttf';
 export const AlegreyaSC_800ExtraBold =
-  'http://fonts.gstatic.com/s/alegreyasc/v15/taiTGmRtCJ62-O0HhNEa-ZYI_7UxQqu2FXKD.ttf';
+  'http://fonts.gstatic.com/s/alegreyasc/v20/taiTGmRtCJ62-O0HhNEa-ZYI_7UxQqu2FXKD.ttf';
 export const AlegreyaSC_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/alegreyasc/v15/taiRGmRtCJ62-O0HhNEa-Z6q4TU3SK-UEGKDBz4.ttf';
+  'http://fonts.gstatic.com/s/alegreyasc/v20/taiRGmRtCJ62-O0HhNEa-Z6q4TU3SK-UEGKDBz4.ttf';
 export const AlegreyaSC_900Black =
-  'http://fonts.gstatic.com/s/alegreyasc/v15/taiTGmRtCJ62-O0HhNEa-ZYs_rUxQqu2FXKD.ttf';
+  'http://fonts.gstatic.com/s/alegreyasc/v20/taiTGmRtCJ62-O0HhNEa-ZYs_rUxQqu2FXKD.ttf';
 export const AlegreyaSC_900Black_Italic =
-  'http://fonts.gstatic.com/s/alegreyasc/v15/taiRGmRtCJ62-O0HhNEa-Z6q4RE2SK-UEGKDBz4.ttf';
+  'http://fonts.gstatic.com/s/alegreyasc/v20/taiRGmRtCJ62-O0HhNEa-Z6q4RE2SK-UEGKDBz4.ttf';
 export const AlexBrush_400Regular =
-  'http://fonts.gstatic.com/s/alexbrush/v12/SZc83FzrJKuqFbwMKk6EtUL57DtOmCc.ttf';
+  'http://fonts.gstatic.com/s/alexbrush/v13/SZc83FzrJKuqFbwMKk6EtUL57DtOmCc.ttf';
 export const AlfaSlabOne_400Regular =
   'http://fonts.gstatic.com/s/alfaslabone/v10/6NUQ8FmMKwSEKjnm5-4v-4Jh6dVretWvYmE.ttf';
 export const Almendra_400Regular =
-  'http://fonts.gstatic.com/s/almendra/v15/H4ckBXKAlMnTn0CskyY6wr-wg763.ttf';
+  'http://fonts.gstatic.com/s/almendra/v20/H4ckBXKAlMnTn0CskyY6wr-wg763.ttf';
 export const Almendra_400Regular_Italic =
-  'http://fonts.gstatic.com/s/almendra/v15/H4ciBXKAlMnTn0CskxY4yLuShq63czE.ttf';
+  'http://fonts.gstatic.com/s/almendra/v20/H4ciBXKAlMnTn0CskxY4yLuShq63czE.ttf';
 export const Almendra_700Bold =
-  'http://fonts.gstatic.com/s/almendra/v15/H4cjBXKAlMnTn0Cskx6G7Zu4qKK-aihq.ttf';
+  'http://fonts.gstatic.com/s/almendra/v20/H4cjBXKAlMnTn0Cskx6G7Zu4qKK-aihq.ttf';
 export const Almendra_700Bold_Italic =
-  'http://fonts.gstatic.com/s/almendra/v15/H4chBXKAlMnTn0CskxY48Ae9oqacbzhqDtg.ttf';
+  'http://fonts.gstatic.com/s/almendra/v20/H4chBXKAlMnTn0CskxY48Ae9oqacbzhqDtg.ttf';
 export const AlmendraSC_400Regular =
-  'http://fonts.gstatic.com/s/almendrasc/v13/Iure6Yx284eebowr7hbyTZZJprVA4XQ0.ttf';
+  'http://fonts.gstatic.com/s/almendrasc/v23/Iure6Yx284eebowr7hbyTZZJprVA4XQ0.ttf';
 export const Arizonia_400Regular =
   'http://fonts.gstatic.com/s/arizonia/v11/neIIzCemt4A5qa7mv6WGHK06UY30.ttf';
 export const Armata_400Regular =
   'http://fonts.gstatic.com/s/armata/v12/gokvH63_HV5jQ-E9lD53Q2u_mQ.ttf';
-export const Asul_400Regular = 'http://fonts.gstatic.com/s/asul/v12/VuJ-dNjKxYr46fMFXK78JIg.ttf';
-export const Asul_700Bold = 'http://fonts.gstatic.com/s/asul/v12/VuJxdNjKxYr40U8qeKbXOIFneRo.ttf';
+export const Asul_400Regular = 'http://fonts.gstatic.com/s/asul/v17/VuJ-dNjKxYr46fMFXK78JIg.ttf';
+export const Asul_700Bold = 'http://fonts.gstatic.com/s/asul/v17/VuJxdNjKxYr40U8qeKbXOIFneRo.ttf';
 export const Belgrano_400Regular =
   'http://fonts.gstatic.com/s/belgrano/v11/55xvey5tM9rwKWrJZcMFirl08KDJ.ttf';
 export const Bitter_100Thin =
-  'http://fonts.gstatic.com/s/bitter/v17/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8fbeCL_EXFh2reU.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8fbeCL_EXFh2reU.ttf';
 export const Bitter_200ExtraLight =
-  'http://fonts.gstatic.com/s/bitter/v17/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8XbfCL_EXFh2reU.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8XbfCL_EXFh2reU.ttf';
 export const Bitter_300Light =
-  'http://fonts.gstatic.com/s/bitter/v17/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8ajfCL_EXFh2reU.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8ajfCL_EXFh2reU.ttf';
 export const Bitter_400Regular =
-  'http://fonts.gstatic.com/s/bitter/v17/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8fbfCL_EXFh2reU.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8fbfCL_EXFh2reU.ttf';
 export const Bitter_500Medium =
-  'http://fonts.gstatic.com/s/bitter/v17/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8cTfCL_EXFh2reU.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8cTfCL_EXFh2reU.ttf';
 export const Bitter_600SemiBold =
-  'http://fonts.gstatic.com/s/bitter/v17/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8SjYCL_EXFh2reU.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8SjYCL_EXFh2reU.ttf';
 export const Bitter_700Bold =
-  'http://fonts.gstatic.com/s/bitter/v17/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8RHYCL_EXFh2reU.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8RHYCL_EXFh2reU.ttf';
 export const Bitter_800ExtraBold =
-  'http://fonts.gstatic.com/s/bitter/v17/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8XbYCL_EXFh2reU.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8XbYCL_EXFh2reU.ttf';
 export const Bitter_900Black =
-  'http://fonts.gstatic.com/s/bitter/v17/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8V_YCL_EXFh2reU.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8V_YCL_EXFh2reU.ttf';
 export const Bitter_100Thin_Italic =
-  'http://fonts.gstatic.com/s/bitter/v17/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6c4P3OWHpzveWxBw.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6c4P3OWHpzveWxBw.ttf';
 export const Bitter_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/bitter/v17/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cYPzOWHpzveWxBw.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cYPzOWHpzveWxBw.ttf';
 export const Bitter_300Light_Italic =
-  'http://fonts.gstatic.com/s/bitter/v17/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cvvzOWHpzveWxBw.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cvvzOWHpzveWxBw.ttf';
 export const Bitter_400Regular_Italic =
-  'http://fonts.gstatic.com/s/bitter/v17/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6c4PzOWHpzveWxBw.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6c4PzOWHpzveWxBw.ttf';
 export const Bitter_500Medium_Italic =
-  'http://fonts.gstatic.com/s/bitter/v17/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6c0vzOWHpzveWxBw.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6c0vzOWHpzveWxBw.ttf';
 export const Bitter_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/bitter/v17/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cPvvOWHpzveWxBw.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cPvvOWHpzveWxBw.ttf';
 export const Bitter_700Bold_Italic =
-  'http://fonts.gstatic.com/s/bitter/v17/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cB_vOWHpzveWxBw.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cB_vOWHpzveWxBw.ttf';
 export const Bitter_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/bitter/v17/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cYPvOWHpzveWxBw.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cYPvOWHpzveWxBw.ttf';
 export const Bitter_900Black_Italic =
-  'http://fonts.gstatic.com/s/bitter/v17/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cSfvOWHpzveWxBw.ttf';
+  'http://fonts.gstatic.com/s/bitter/v19/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cSfvOWHpzveWxBw.ttf';
 export const Boogaloo_400Regular =
-  'http://fonts.gstatic.com/s/boogaloo/v12/kmK-Zq45GAvOdnaW6x1F_SrQo_1K.ttf';
+  'http://fonts.gstatic.com/s/boogaloo/v17/kmK-Zq45GAvOdnaW6x1F_SrQo_1K.ttf';
 export const BreeSerif_400Regular =
   'http://fonts.gstatic.com/s/breeserif/v10/4UaHrEJCrhhnVA3DgluAx63j5pN1MwI.ttf';
 export const Buenard_400Regular =
-  'http://fonts.gstatic.com/s/buenard/v12/OD5DuM6Cyma8FnnsPzf9qGi9HL4.ttf';
+  'http://fonts.gstatic.com/s/buenard/v15/OD5DuM6Cyma8FnnsPzf9qGi9HL4.ttf';
 export const Buenard_700Bold =
-  'http://fonts.gstatic.com/s/buenard/v12/OD5GuM6Cyma8FnnsB4vSjGCWALepwss.ttf';
+  'http://fonts.gstatic.com/s/buenard/v15/OD5GuM6Cyma8FnnsB4vSjGCWALepwss.ttf';
 export const Butcherman_400Regular =
-  'http://fonts.gstatic.com/s/butcherman/v14/2EbiL-thF0loflXUBOdb1zWzq_5uT84.ttf';
+  'http://fonts.gstatic.com/s/butcherman/v22/2EbiL-thF0loflXUBOdb1zWzq_5uT84.ttf';
 export const CaesarDressing_400Regular =
-  'http://fonts.gstatic.com/s/caesardressing/v11/yYLx0hLa3vawqtwdswbotmK4vrR3cbb6LZttyg.ttf';
-export const Cambo_400Regular = 'http://fonts.gstatic.com/s/cambo/v9/IFSqHeNEk8FJk416ok7xkPm8.ttf';
+  'http://fonts.gstatic.com/s/caesardressing/v19/yYLx0hLa3vawqtwdswbotmK4vrR3cbb6LZttyg.ttf';
+export const Cambo_400Regular = 'http://fonts.gstatic.com/s/cambo/v12/IFSqHeNEk8FJk416ok7xkPm8.ttf';
 export const Creepster_400Regular =
   'http://fonts.gstatic.com/s/creepster/v9/AlZy_zVUqJz4yMrniH4hdXf4XB0Tow.ttf';
 export const CreteRound_400Regular =
@@ -5330,35 +7852,35 @@ export const CreteRound_400Regular =
 export const CreteRound_400Regular_Italic =
   'http://fonts.gstatic.com/s/creteround/v9/55xqey1sJNPjPiv1ZZZrxK1-0bjiL2xNhKc.ttf';
 export const DuruSans_400Regular =
-  'http://fonts.gstatic.com/s/durusans/v14/xn7iYH8xwmSyTvEV_HOxT_fYdN-WZw.ttf';
+  'http://fonts.gstatic.com/s/durusans/v17/xn7iYH8xwmSyTvEV_HOxT_fYdN-WZw.ttf';
 export const Dynalight_400Regular =
-  'http://fonts.gstatic.com/s/dynalight/v11/1Ptsg8LOU_aOmQvTsF4ISotrDfGGxA.ttf';
-export const Eater_400Regular = 'http://fonts.gstatic.com/s/eater/v11/mtG04_FCK7bOvpu2u3FwsXsR.ttf';
+  'http://fonts.gstatic.com/s/dynalight/v16/1Ptsg8LOU_aOmQvTsF4ISotrDfGGxA.ttf';
+export const Eater_400Regular = 'http://fonts.gstatic.com/s/eater/v19/mtG04_FCK7bOvpu2u3FwsXsR.ttf';
 export const Flamenco_300Light =
-  'http://fonts.gstatic.com/s/flamenco/v13/neIPzCehqYguo67ssZ0qNIkyepH9qGsf.ttf';
+  'http://fonts.gstatic.com/s/flamenco/v16/neIPzCehqYguo67ssZ0qNIkyepH9qGsf.ttf';
 export const Flamenco_400Regular =
-  'http://fonts.gstatic.com/s/flamenco/v13/neIIzCehqYguo67ssaWGHK06UY30.ttf';
+  'http://fonts.gstatic.com/s/flamenco/v16/neIIzCehqYguo67ssaWGHK06UY30.ttf';
 export const Flavors_400Regular =
-  'http://fonts.gstatic.com/s/flavors/v12/FBV2dDrhxqmveJTpbkzlNqkG9UY.ttf';
+  'http://fonts.gstatic.com/s/flavors/v20/FBV2dDrhxqmveJTpbkzlNqkG9UY.ttf';
 export const FrederickatheGreat_400Regular =
   'http://fonts.gstatic.com/s/frederickathegreat/v10/9Bt33CxNwt7aOctW2xjbCstzwVKsIBVV-9Skz7Ylch2L.ttf';
 export const Frijole_400Regular =
-  'http://fonts.gstatic.com/s/frijole/v9/uU9PCBUR8oakM2BQ7xPb3vyHmlI.ttf';
+  'http://fonts.gstatic.com/s/frijole/v12/uU9PCBUR8oakM2BQ7xPb3vyHmlI.ttf';
 export const FugazOne_400Regular =
   'http://fonts.gstatic.com/s/fugazone/v10/rax_HiWKp9EAITukFslMBBJek0vA8A.ttf';
 export const Habibi_400Regular =
-  'http://fonts.gstatic.com/s/habibi/v11/CSR-4zFWkuqcTTNCShJeZOYySQ.ttf';
-export const Inder_400Regular = 'http://fonts.gstatic.com/s/inder/v9/w8gUH2YoQe8_4vq6pw-P3U4O.ttf';
+  'http://fonts.gstatic.com/s/habibi/v19/CSR-4zFWkuqcTTNCShJeZOYySQ.ttf';
+export const Inder_400Regular = 'http://fonts.gstatic.com/s/inder/v12/w8gUH2YoQe8_4vq6pw-P3U4O.ttf';
 export const Italianno_400Regular =
-  'http://fonts.gstatic.com/s/italianno/v10/dg4n_p3sv6gCJkwzT6Rnj5YpQwM-gg.ttf';
+  'http://fonts.gstatic.com/s/italianno/v11/dg4n_p3sv6gCJkwzT6Rnj5YpQwM-gg.ttf';
 export const MedulaOne_400Regular =
-  'http://fonts.gstatic.com/s/medulaone/v12/YA9Wr0qb5kjJM6l2V0yukiEqs7GtlvY.ttf';
+  'http://fonts.gstatic.com/s/medulaone/v17/YA9Wr0qb5kjJM6l2V0yukiEqs7GtlvY.ttf';
 export const Miniver_400Regular =
-  'http://fonts.gstatic.com/s/miniver/v11/eLGcP-PxIg-5H0vC770Cy8r8fWA.ttf';
+  'http://fonts.gstatic.com/s/miniver/v19/eLGcP-PxIg-5H0vC770Cy8r8fWA.ttf';
 export const Nosifer_400Regular =
   'http://fonts.gstatic.com/s/nosifer/v11/ZGjXol5JTp0g5bxZaC1RVDNdGDs.ttf';
 export const Oldenburg_400Regular =
-  'http://fonts.gstatic.com/s/oldenburg/v10/fC1jPY5JYWzbywv7c4V6UU6oXyndrw.ttf';
+  'http://fonts.gstatic.com/s/oldenburg/v18/fC1jPY5JYWzbywv7c4V6UU6oXyndrw.ttf';
 export const Overlock_400Regular =
   'http://fonts.gstatic.com/s/overlock/v10/Z9XVDmdMWRiN1_T9Z4Te4u2El6GC.ttf';
 export const Overlock_400Regular_Italic =
@@ -5372,11 +7894,11 @@ export const Overlock_900Black =
 export const Overlock_900Black_Italic =
   'http://fonts.gstatic.com/s/overlock/v10/Z9XQDmdMWRiN1_T9Z7Tc0G2Ltrmp8CLTlNs.ttf';
 export const OverlockSC_400Regular =
-  'http://fonts.gstatic.com/s/overlocksc/v11/1cX3aUHKGZrstGAY8nwVzHGAq8Sk1PoH.ttf';
+  'http://fonts.gstatic.com/s/overlocksc/v19/1cX3aUHKGZrstGAY8nwVzHGAq8Sk1PoH.ttf';
 export const PatuaOne_400Regular =
   'http://fonts.gstatic.com/s/patuaone/v11/ZXuke1cDvLCKLDcimxBI5PNvNA9LuA.ttf';
 export const Playball_400Regular =
-  'http://fonts.gstatic.com/s/playball/v10/TK3gWksYAxQ7jbsKcj8Dl-tPKo2t.ttf';
+  'http://fonts.gstatic.com/s/playball/v11/TK3gWksYAxQ7jbsKcj8Dl-tPKo2t.ttf';
 export const Quantico_400Regular =
   'http://fonts.gstatic.com/s/quantico/v10/rax-HiSdp9cPL3KIF4xsLjxSmlLZ.ttf';
 export const Quantico_400Regular_Italic =
@@ -5386,34 +7908,34 @@ export const Quantico_700Bold =
 export const Quantico_700Bold_Italic =
   'http://fonts.gstatic.com/s/quantico/v10/rax7HiSdp9cPL3KIF7xuHIRfu0ry9TadML4.ttf';
 export const Qwigley_400Regular =
-  'http://fonts.gstatic.com/s/qwigley/v10/1cXzaU3UGJb5tGoCuVxsi1mBmcE.ttf';
+  'http://fonts.gstatic.com/s/qwigley/v14/1cXzaU3UGJb5tGoCuVxsi1mBmcE.ttf';
 export const RugeBoogie_400Regular =
-  'http://fonts.gstatic.com/s/rugeboogie/v13/JIA3UVFwbHRF_GIWSMhKNROiPzUveSxy.ttf';
+  'http://fonts.gstatic.com/s/rugeboogie/v22/JIA3UVFwbHRF_GIWSMhKNROiPzUveSxy.ttf';
 export const Ruthie_400Regular =
-  'http://fonts.gstatic.com/s/ruthie/v13/gokvH63sGkdqXuU9lD53Q2u_mQ.ttf';
-export const Sail_400Regular = 'http://fonts.gstatic.com/s/sail/v11/DPEjYwiBxwYJFBTDADYAbvw.ttf';
+  'http://fonts.gstatic.com/s/ruthie/v22/gokvH63sGkdqXuU9lD53Q2u_mQ.ttf';
+export const Sail_400Regular = 'http://fonts.gstatic.com/s/sail/v14/DPEjYwiBxwYJFBTDADYAbvw.ttf';
 export const Sarina_400Regular =
-  'http://fonts.gstatic.com/s/sarina/v11/-F6wfjF3ITQwasLhLkDUriBQxw.ttf';
-export const Sofia_400Regular = 'http://fonts.gstatic.com/s/sofia/v9/8QIHdirahM3j_vu-sowsrqjk.ttf';
+  'http://fonts.gstatic.com/s/sarina/v19/-F6wfjF3ITQwasLhLkDUriBQxw.ttf';
+export const Sofia_400Regular = 'http://fonts.gstatic.com/s/sofia/v12/8QIHdirahM3j_vu-sowsrqjk.ttf';
 export const TradeWinds_400Regular =
-  'http://fonts.gstatic.com/s/tradewinds/v12/AYCPpXPpYNIIT7h8-QenM3Jq7PKP5Z_G.ttf';
+  'http://fonts.gstatic.com/s/tradewinds/v15/AYCPpXPpYNIIT7h8-QenM3Jq7PKP5Z_G.ttf';
 export const Trykker_400Regular =
-  'http://fonts.gstatic.com/s/trykker/v11/KtktALyWZJXudUPzhNnoOd2j22U.ttf';
+  'http://fonts.gstatic.com/s/trykker/v19/KtktALyWZJXudUPzhNnoOd2j22U.ttf';
 export const UncialAntiqua_400Regular =
-  'http://fonts.gstatic.com/s/uncialantiqua/v10/N0bM2S5WOex4OUbESzoESK-i-PfRS5VBBSSF.ttf';
+  'http://fonts.gstatic.com/s/uncialantiqua/v18/N0bM2S5WOex4OUbESzoESK-i-PfRS5VBBSSF.ttf';
 export const Yesteryear_400Regular =
-  'http://fonts.gstatic.com/s/yesteryear/v9/dg4g_p78rroaKl8kRKo1r7wHTwonmyw.ttf';
+  'http://fonts.gstatic.com/s/yesteryear/v12/dg4g_p78rroaKl8kRKo1r7wHTwonmyw.ttf';
 export const Basic_400Regular = 'http://fonts.gstatic.com/s/basic/v10/xfu_0WLxV2_XKQN34lDVyR7D.ttf';
 export const SquadaOne_400Regular =
   'http://fonts.gstatic.com/s/squadaone/v9/BCasqZ8XsOrx4mcOk6MtWaA8WDBkHgs.ttf';
 export const BadScript_400Regular =
   'http://fonts.gstatic.com/s/badscript/v9/6NUT8F6PJgbFWQn47_x7lOwuzd1AZtw.ttf';
 export const Balthazar_400Regular =
-  'http://fonts.gstatic.com/s/balthazar/v10/d6lKkaajS8Gm4CVQjFEvyRTo39l8hw.ttf';
+  'http://fonts.gstatic.com/s/balthazar/v15/d6lKkaajS8Gm4CVQjFEvyRTo39l8hw.ttf';
 export const BilboSwashCaps_400Regular =
-  'http://fonts.gstatic.com/s/bilboswashcaps/v15/zrf-0GXbz-H3Wb4XBsGrTgq2PVmdqAPopiRfKp8.ttf';
+  'http://fonts.gstatic.com/s/bilboswashcaps/v20/zrf-0GXbz-H3Wb4XBsGrTgq2PVmdqAPopiRfKp8.ttf';
 export const Chango_400Regular =
-  'http://fonts.gstatic.com/s/chango/v11/2V0cKI0OB5U7WaJyz324TFUaAw.ttf';
+  'http://fonts.gstatic.com/s/chango/v19/2V0cKI0OB5U7WaJyz324TFUaAw.ttf';
 export const Enriqueta_400Regular =
   'http://fonts.gstatic.com/s/enriqueta/v10/goksH6L7AUFrRvV44HVTS0CjkP1Yog.ttf';
 export const Enriqueta_500Medium =
@@ -5425,43 +7947,43 @@ export const Enriqueta_700Bold =
 export const Handlee_400Regular =
   'http://fonts.gstatic.com/s/handlee/v9/-F6xfjBsISg9aMakDmr6oilJ3ik.ttf';
 export const MarkoOne_400Regular =
-  'http://fonts.gstatic.com/s/markoone/v12/9Btq3DFG0cnVM5lw1haaKpUfrHPzUw.ttf';
+  'http://fonts.gstatic.com/s/markoone/v20/9Btq3DFG0cnVM5lw1haaKpUfrHPzUw.ttf';
 export const Montserrat_100Thin =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTUQjIg1_i6t8kCHKm45_QphziTn89dtpQ.ttf';
-export const Montserrat_100Thin_Italic =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTUOjIg1_i6t8kCHKm459WxZqi7j0dJ9pTOi.ttf';
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Uw-Y3tcoqK5.ttf';
 export const Montserrat_200ExtraLight =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_aZA7g7J_950vCo.ttf';
-export const Montserrat_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZBg_D-_xxrCq7qg.ttf';
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Ew-Y3tcoqK5.ttf';
 export const Montserrat_300Light =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD7g7J_950vCo.ttf';
-export const Montserrat_300Light_Italic =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZYgzD-_xxrCq7qg.ttf';
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-Y3tcoqK5.ttf';
 export const Montserrat_400Regular =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.ttf';
-export const Montserrat_400Regular_Italic =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTUQjIg1_i6t8kCHKm459WxhziTn89dtpQ.ttf';
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-Y3tcoqK5.ttf';
 export const Montserrat_500Medium =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_ZpC7g7J_950vCo.ttf';
-export const Montserrat_500Medium_Italic =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZOg3D-_xxrCq7qg.ttf';
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-Y3tcoqK5.ttf';
 export const Montserrat_600SemiBold =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_bZF7g7J_950vCo.ttf';
-export const Montserrat_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZFgrD-_xxrCq7qg.ttf';
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-Y3tcoqK5.ttf';
 export const Montserrat_700Bold =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE7g7J_950vCo.ttf';
-export const Montserrat_700Bold_Italic =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZcgvD-_xxrCq7qg.ttf';
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-Y3tcoqK5.ttf';
 export const Montserrat_800ExtraBold =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H7g7J_950vCo.ttf';
-export const Montserrat_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZbgjD-_xxrCq7qg.ttf';
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w-Y3tcoqK5.ttf';
 export const Montserrat_900Black =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_epG7g7J_950vCo.ttf';
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w-Y3tcoqK5.ttf';
+export const Montserrat_100Thin_Italic =
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8aX9-p7K5ILg.ttf';
+export const Montserrat_200ExtraLight_Italic =
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9aX9-p7K5ILg.ttf';
+export const Montserrat_300Light_Italic =
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9aX9-p7K5ILg.ttf';
+export const Montserrat_400Regular_Italic =
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9aX9-p7K5ILg.ttf';
+export const Montserrat_500Medium_Italic =
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9aX9-p7K5ILg.ttf';
+export const Montserrat_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6aX9-p7K5ILg.ttf';
+export const Montserrat_700Bold_Italic =
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6aX9-p7K5ILg.ttf';
+export const Montserrat_800ExtraBold_Italic =
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6aX9-p7K5ILg.ttf';
 export const Montserrat_900Black_Italic =
-  'http://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZSgnD-_xxrCq7qg.ttf';
+  'http://fonts.gstatic.com/s/montserrat/v21/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16aX9-p7K5ILg.ttf';
 export const PassionOne_400Regular =
   'http://fonts.gstatic.com/s/passionone/v11/PbynFmL8HhTPqbjUzux3JHuW_Frg6YoV.ttf';
 export const PassionOne_700Bold =
@@ -5469,22 +7991,22 @@ export const PassionOne_700Bold =
 export const PassionOne_900Black =
   'http://fonts.gstatic.com/s/passionone/v11/Pby6FmL8HhTPqbjUzux3JEMS0X7owpYcuH8y.ttf';
 export const Plaster_400Regular =
-  'http://fonts.gstatic.com/s/plaster/v14/DdTm79QatW80eRh4Ei5JOtLOeLI.ttf';
+  'http://fonts.gstatic.com/s/plaster/v22/DdTm79QatW80eRh4Ei5JOtLOeLI.ttf';
 export const Radley_400Regular =
-  'http://fonts.gstatic.com/s/radley/v15/LYjDdGzinEIjCN19oAlEpVs3VQ.ttf';
+  'http://fonts.gstatic.com/s/radley/v18/LYjDdGzinEIjCN19oAlEpVs3VQ.ttf';
 export const Radley_400Regular_Italic =
-  'http://fonts.gstatic.com/s/radley/v15/LYjBdGzinEIjCN1NogNAh14nVcfe.ttf';
+  'http://fonts.gstatic.com/s/radley/v18/LYjBdGzinEIjCN1NogNAh14nVcfe.ttf';
 export const SpicyRice_400Regular =
-  'http://fonts.gstatic.com/s/spicyrice/v11/uK_24rSEd-Uqwk4jY1RyGv-2WkowRcc.ttf';
+  'http://fonts.gstatic.com/s/spicyrice/v19/uK_24rSEd-Uqwk4jY1RyGv-2WkowRcc.ttf';
 export const Arbutus_400Regular =
-  'http://fonts.gstatic.com/s/arbutus/v12/NaPYcZ7dG_5J3poob9JtryO8fMU.ttf';
+  'http://fonts.gstatic.com/s/arbutus/v22/NaPYcZ7dG_5J3poob9JtryO8fMU.ttf';
 export const Baumans_400Regular =
-  'http://fonts.gstatic.com/s/baumans/v10/-W_-XJj9QyTd3QfpR_oyaksqY5Q.ttf';
-export const Bilbo_400Regular = 'http://fonts.gstatic.com/s/bilbo/v12/o-0EIpgpwWwZ210hpIRz4wxE.ttf';
+  'http://fonts.gstatic.com/s/baumans/v15/-W_-XJj9QyTd3QfpR_oyaksqY5Q.ttf';
+export const Bilbo_400Regular = 'http://fonts.gstatic.com/s/bilbo/v18/o-0EIpgpwWwZ210hpIRz4wxE.ttf';
 export const Bonbon_400Regular =
-  'http://fonts.gstatic.com/s/bonbon/v14/0FlVVPeVlFec4ee_cDEAbQY5-A.ttf';
+  'http://fonts.gstatic.com/s/bonbon/v24/0FlVVPeVlFec4ee_cDEAbQY5-A.ttf';
 export const CevicheOne_400Regular =
-  'http://fonts.gstatic.com/s/cevicheone/v11/gyB4hws1IcA6JzR-GB_JX6zdZ4vZVbgZ.ttf';
+  'http://fonts.gstatic.com/s/cevicheone/v14/gyB4hws1IcA6JzR-GB_JX6zdZ4vZVbgZ.ttf';
 export const Chivo_300Light =
   'http://fonts.gstatic.com/s/chivo/v12/va9F4kzIxd1KFrjDY8Z_uqzGQC_-.ttf';
 export const Chivo_300Light_Italic =
@@ -5503,32 +8025,32 @@ export const Chivo_900Black_Italic =
 export const Electrolize_400Regular =
   'http://fonts.gstatic.com/s/electrolize/v9/cIf5Ma1dtE0zSiGSiED7AUEGso5tQafB.ttf';
 export const Engagement_400Regular =
-  'http://fonts.gstatic.com/s/engagement/v12/x3dlckLDZbqa7RUs9MFVXNossybsHQI.ttf';
+  'http://fonts.gstatic.com/s/engagement/v20/x3dlckLDZbqa7RUs9MFVXNossybsHQI.ttf';
 export const Fascinate_400Regular =
-  'http://fonts.gstatic.com/s/fascinate/v11/z7NWdRrufC8XJK0IIEli1LbQRPyNrw.ttf';
+  'http://fonts.gstatic.com/s/fascinate/v19/z7NWdRrufC8XJK0IIEli1LbQRPyNrw.ttf';
 export const FascinateInline_400Regular =
-  'http://fonts.gstatic.com/s/fascinateinline/v12/jVyR7mzzB3zc-jp6QCAu60poNqIy1g3CfRXxWZQ.ttf';
+  'http://fonts.gstatic.com/s/fascinateinline/v20/jVyR7mzzB3zc-jp6QCAu60poNqIy1g3CfRXxWZQ.ttf';
 export const Fresca_400Regular =
-  'http://fonts.gstatic.com/s/fresca/v11/6ae94K--SKgCzbM2Gr0W13DKPA.ttf';
+  'http://fonts.gstatic.com/s/fresca/v16/6ae94K--SKgCzbM2Gr0W13DKPA.ttf';
 export const Galdeano_400Regular =
-  'http://fonts.gstatic.com/s/galdeano/v12/uU9MCBoQ4YOqOW1boDPx8PCOg0uX.ttf';
+  'http://fonts.gstatic.com/s/galdeano/v20/uU9MCBoQ4YOqOW1boDPx8PCOg0uX.ttf';
 export const Marmelad_400Regular =
-  'http://fonts.gstatic.com/s/marmelad/v10/Qw3eZQdSHj_jK2e-8tFLG-YMC0R8.ttf';
+  'http://fonts.gstatic.com/s/marmelad/v13/Qw3eZQdSHj_jK2e-8tFLG-YMC0R8.ttf';
 export const Metamorphous_400Regular =
-  'http://fonts.gstatic.com/s/metamorphous/v13/Wnz8HA03aAXcC39ZEX5y1330PCCthTsmaQ.ttf';
+  'http://fonts.gstatic.com/s/metamorphous/v16/Wnz8HA03aAXcC39ZEX5y1330PCCthTsmaQ.ttf';
 export const OriginalSurfer_400Regular =
-  'http://fonts.gstatic.com/s/originalsurfer/v11/RWmQoKGZ9vIirYntXJ3_MbekzNMiDEtvAlaMKw.ttf';
+  'http://fonts.gstatic.com/s/originalsurfer/v16/RWmQoKGZ9vIirYntXJ3_MbekzNMiDEtvAlaMKw.ttf';
 export const StintUltraCondensed_400Regular =
-  'http://fonts.gstatic.com/s/stintultracondensed/v11/-W_gXIrsVjjeyEnPC45qD2NoFPtBE0xCh2A-qhUO2cNvdg.ttf';
+  'http://fonts.gstatic.com/s/stintultracondensed/v19/-W_gXIrsVjjeyEnPC45qD2NoFPtBE0xCh2A-qhUO2cNvdg.ttf';
 export const Viga_400Regular = 'http://fonts.gstatic.com/s/viga/v9/xMQbuFFdSaiX_QIjD4e2OX8.ttf';
 export const Unkempt_400Regular =
   'http://fonts.gstatic.com/s/unkempt/v12/2EbnL-Z2DFZue0DSSYYf8z2Yt_c.ttf';
 export const Unkempt_700Bold =
   'http://fonts.gstatic.com/s/unkempt/v12/2EbiL-Z2DFZue0DScTow1zWzq_5uT84.ttf';
 export const AguafinaScript_400Regular =
-  'http://fonts.gstatic.com/s/aguafinascript/v9/If2QXTv_ZzSxGIO30LemWEOmt1bHqs4pgicOrg.ttf';
+  'http://fonts.gstatic.com/s/aguafinascript/v14/If2QXTv_ZzSxGIO30LemWEOmt1bHqs4pgicOrg.ttf';
 export const Aladin_400Regular =
-  'http://fonts.gstatic.com/s/aladin/v9/ZgNSjPJFPrvJV5f16Sf4pGT2Ng.ttf';
+  'http://fonts.gstatic.com/s/aladin/v14/ZgNSjPJFPrvJV5f16Sf4pGT2Ng.ttf';
 export const CabinCondensed_400Regular =
   'http://fonts.gstatic.com/s/cabincondensed/v14/nwpMtK6mNhBK2err_hqkYhHRqmwaYOjZ5HZl8Q.ttf';
 export const CabinCondensed_500Medium =
@@ -5538,144 +8060,152 @@ export const CabinCondensed_600SemiBold =
 export const CabinCondensed_700Bold =
   'http://fonts.gstatic.com/s/cabincondensed/v14/nwpJtK6mNhBK2err_hqkYhHRqmwi3Mf97F15-K1oqQ.ttf';
 export const Cagliostro_400Regular =
-  'http://fonts.gstatic.com/s/cagliostro/v11/ZgNWjP5HM73BV5amnX-TjGXEM4COoE4.ttf';
+  'http://fonts.gstatic.com/s/cagliostro/v19/ZgNWjP5HM73BV5amnX-TjGXEM4COoE4.ttf';
 export const ChangaOne_400Regular =
   'http://fonts.gstatic.com/s/changaone/v13/xfu00W3wXn3QLUJXhzq46AbouLfbK64.ttf';
 export const ChangaOne_400Regular_Italic =
   'http://fonts.gstatic.com/s/changaone/v13/xfu20W3wXn3QLUJXhzq42ATivJXeO67ISw.ttf';
 export const Chicle_400Regular =
-  'http://fonts.gstatic.com/s/chicle/v11/lJwG-pw9i2dqU-BDyWKuobYSxw.ttf';
+  'http://fonts.gstatic.com/s/chicle/v19/lJwG-pw9i2dqU-BDyWKuobYSxw.ttf';
 export const DrSugiyama_400Regular =
-  'http://fonts.gstatic.com/s/drsugiyama/v12/HTxoL2k4N3O9n5I1boGI7abRM4-t-g7y.ttf';
+  'http://fonts.gstatic.com/s/drsugiyama/v20/HTxoL2k4N3O9n5I1boGI7abRM4-t-g7y.ttf';
 export const HerrVonMuellerhoff_400Regular =
-  'http://fonts.gstatic.com/s/herrvonmuellerhoff/v10/WBL6rFjRZkREW8WqmCWYLgCkQKXb4CAft3c6_qJY3QPQ.ttf';
-export const Lemon_400Regular = 'http://fonts.gstatic.com/s/lemon/v9/HI_EiYEVKqRMq0jBSZXAQ4-d.ttf';
+  'http://fonts.gstatic.com/s/herrvonmuellerhoff/v13/WBL6rFjRZkREW8WqmCWYLgCkQKXb4CAft3c6_qJY3QPQ.ttf';
+export const Lemon_400Regular = 'http://fonts.gstatic.com/s/lemon/v12/HI_EiYEVKqRMq0jBSZXAQ4-d.ttf';
 export const MissFajardose_400Regular =
-  'http://fonts.gstatic.com/s/missfajardose/v12/E21-_dn5gvrawDdPFVl-N0Ajb8qvWPaJq4no.ttf';
+  'http://fonts.gstatic.com/s/missfajardose/v20/E21-_dn5gvrawDdPFVl-N0Ajb8qvWPaJq4no.ttf';
 export const MonsieurLaDoulaise_400Regular =
-  'http://fonts.gstatic.com/s/monsieurladoulaise/v9/_Xmz-GY4rjmCbQfc-aPRaa4pqV340p7EZl5ewkEU4HTy.ttf';
+  'http://fonts.gstatic.com/s/monsieurladoulaise/v12/_Xmz-GY4rjmCbQfc-aPRaa4pqV340p7EZl5ewkEU4HTy.ttf';
 export const MrDafoe_400Regular =
   'http://fonts.gstatic.com/s/mrdafoe/v9/lJwE-pIzkS5NXuMMrGiqg7MCxz_C.ttf';
 export const MrDeHaviland_400Regular =
-  'http://fonts.gstatic.com/s/mrdehaviland/v9/OpNVnooIhJj96FdB73296ksbOj3C4ULVNTlB.ttf';
+  'http://fonts.gstatic.com/s/mrdehaviland/v12/OpNVnooIhJj96FdB73296ksbOj3C4ULVNTlB.ttf';
 export const MrsSheppards_400Regular =
-  'http://fonts.gstatic.com/s/mrssheppards/v11/PN_2Rfm9snC0XUGoEZhb91ig3vjxynMix4Y.ttf';
+  'http://fonts.gstatic.com/s/mrssheppards/v19/PN_2Rfm9snC0XUGoEZhb91ig3vjxynMix4Y.ttf';
 export const Piedra_400Regular =
-  'http://fonts.gstatic.com/s/piedra/v11/ke8kOg8aN0Bn7hTunEyHN_M3gA.ttf';
+  'http://fonts.gstatic.com/s/piedra/v19/ke8kOg8aN0Bn7hTunEyHN_M3gA.ttf';
 export const Unlock_400Regular =
-  'http://fonts.gstatic.com/s/unlock/v12/7Au-p_8ykD-cDl7GKAjSwkUVOQ.ttf';
+  'http://fonts.gstatic.com/s/unlock/v20/7Au-p_8ykD-cDl7GKAjSwkUVOQ.ttf';
 export const BubblegumSans_400Regular =
   'http://fonts.gstatic.com/s/bubblegumsans/v9/AYCSpXb_Z9EORv1M5QTjEzMEtdaHzoPPb7R4.ttf';
 export const ConcertOne_400Regular =
-  'http://fonts.gstatic.com/s/concertone/v11/VEM1Ro9xs5PjtzCu-srDqRTlhv-CuVAQ.ttf';
+  'http://fonts.gstatic.com/s/concertone/v12/VEM1Ro9xs5PjtzCu-srDqRTlhv-CuVAQ.ttf';
 export const Iceland_400Regular =
-  'http://fonts.gstatic.com/s/iceland/v11/rax9HiuFsdMNOnWPWKxGADBbg0s.ttf';
+  'http://fonts.gstatic.com/s/iceland/v14/rax9HiuFsdMNOnWPWKxGADBbg0s.ttf';
 export const Knewave_400Regular =
-  'http://fonts.gstatic.com/s/knewave/v9/sykz-yx0lLcxQaSItSq9-trEvlQ.ttf';
+  'http://fonts.gstatic.com/s/knewave/v12/sykz-yx0lLcxQaSItSq9-trEvlQ.ttf';
 export const Niconne_400Regular =
   'http://fonts.gstatic.com/s/niconne/v10/w8gaH2QvRug1_rTfrQut2F4OuOo.ttf';
 export const Ribeye_400Regular =
-  'http://fonts.gstatic.com/s/ribeye/v11/L0x8DFMxk1MP9R3RvPCmRSlUig.ttf';
+  'http://fonts.gstatic.com/s/ribeye/v19/L0x8DFMxk1MP9R3RvPCmRSlUig.ttf';
 export const RibeyeMarrow_400Regular =
-  'http://fonts.gstatic.com/s/ribeyemarrow/v12/GFDsWApshnqMRO2JdtRZ2d0vEAwTVWgKdtw.ttf';
+  'http://fonts.gstatic.com/s/ribeyemarrow/v20/GFDsWApshnqMRO2JdtRZ2d0vEAwTVWgKdtw.ttf';
 export const Righteous_400Regular =
   'http://fonts.gstatic.com/s/righteous/v9/1cXxaUPXBpj2rGoU7C9mj3uEicG01A.ttf';
 export const Signika_300Light =
-  'http://fonts.gstatic.com/s/signika/v12/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tIJHJbGhs_cfKe1.ttf';
+  'http://fonts.gstatic.com/s/signika/v15/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tIJHJbGhs_cfKe1.ttf';
 export const Signika_400Regular =
-  'http://fonts.gstatic.com/s/signika/v12/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tJXHJbGhs_cfKe1.ttf';
+  'http://fonts.gstatic.com/s/signika/v15/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tJXHJbGhs_cfKe1.ttf';
 export const Signika_500Medium =
-  'http://fonts.gstatic.com/s/signika/v12/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tJlHJbGhs_cfKe1.ttf';
+  'http://fonts.gstatic.com/s/signika/v15/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tJlHJbGhs_cfKe1.ttf';
 export const Signika_600SemiBold =
-  'http://fonts.gstatic.com/s/signika/v12/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tKJG5bGhs_cfKe1.ttf';
+  'http://fonts.gstatic.com/s/signika/v15/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tKJG5bGhs_cfKe1.ttf';
 export const Signika_700Bold =
-  'http://fonts.gstatic.com/s/signika/v12/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tKwG5bGhs_cfKe1.ttf';
+  'http://fonts.gstatic.com/s/signika/v15/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tKwG5bGhs_cfKe1.ttf';
 export const SignikaNegative_300Light =
-  'http://fonts.gstatic.com/s/signikanegative/v11/E217_cfngu7HiRpPX3ZpNE4kY5zKal6DipHD6z_iXAs.ttf';
+  'http://fonts.gstatic.com/s/signikanegative/v15/E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAr5S73st9hiuEq8.ttf';
 export const SignikaNegative_400Regular =
-  'http://fonts.gstatic.com/s/signikanegative/v11/E218_cfngu7HiRpPX3ZpNE4kY5zKUvKrrpno9zY.ttf';
+  'http://fonts.gstatic.com/s/signikanegative/v15/E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAqnS73st9hiuEq8.ttf';
+export const SignikaNegative_500Medium =
+  'http://fonts.gstatic.com/s/signikanegative/v15/E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAqVS73st9hiuEq8.ttf';
 export const SignikaNegative_600SemiBold =
-  'http://fonts.gstatic.com/s/signikanegative/v11/E217_cfngu7HiRpPX3ZpNE4kY5zKaiqFipHD6z_iXAs.ttf';
+  'http://fonts.gstatic.com/s/signikanegative/v15/E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAp5TL3st9hiuEq8.ttf';
 export const SignikaNegative_700Bold =
-  'http://fonts.gstatic.com/s/signikanegative/v11/E217_cfngu7HiRpPX3ZpNE4kY5zKak6EipHD6z_iXAs.ttf';
+  'http://fonts.gstatic.com/s/signikanegative/v15/E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RApATL3st9hiuEq8.ttf';
 export const Spirax_400Regular =
-  'http://fonts.gstatic.com/s/spirax/v11/buE3poKgYNLy0F3cXktt-Csn-Q.ttf';
+  'http://fonts.gstatic.com/s/spirax/v19/buE3poKgYNLy0F3cXktt-Csn-Q.ttf';
 export const Devonshire_400Regular =
-  'http://fonts.gstatic.com/s/devonshire/v11/46kqlbDwWirWr4gtBD2BX0Vq01lYAZM.ttf';
+  'http://fonts.gstatic.com/s/devonshire/v19/46kqlbDwWirWr4gtBD2BX0Vq01lYAZM.ttf';
 export const Fondamento_400Regular =
-  'http://fonts.gstatic.com/s/fondamento/v11/4UaHrEJGsxNmFTPDnkaJx63j5pN1MwI.ttf';
+  'http://fonts.gstatic.com/s/fondamento/v14/4UaHrEJGsxNmFTPDnkaJx63j5pN1MwI.ttf';
 export const Fondamento_400Regular_Italic =
-  'http://fonts.gstatic.com/s/fondamento/v11/4UaFrEJGsxNmFTPDnkaJ96_p4rFwIwJePw.ttf';
+  'http://fonts.gstatic.com/s/fondamento/v14/4UaFrEJGsxNmFTPDnkaJ96_p4rFwIwJePw.ttf';
 export const PlayfairDisplay_400Regular =
-  'http://fonts.gstatic.com/s/playfairdisplay/v22/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvUDQZNLo_U2r.ttf';
+  'http://fonts.gstatic.com/s/playfairdisplay/v25/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvUDQZNLo_U2r.ttf';
 export const PlayfairDisplay_500Medium =
-  'http://fonts.gstatic.com/s/playfairdisplay/v22/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKd3vUDQZNLo_U2r.ttf';
+  'http://fonts.gstatic.com/s/playfairdisplay/v25/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKd3vUDQZNLo_U2r.ttf';
 export const PlayfairDisplay_600SemiBold =
-  'http://fonts.gstatic.com/s/playfairdisplay/v22/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKebukDQZNLo_U2r.ttf';
+  'http://fonts.gstatic.com/s/playfairdisplay/v25/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKebukDQZNLo_U2r.ttf';
 export const PlayfairDisplay_700Bold =
-  'http://fonts.gstatic.com/s/playfairdisplay/v22/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiukDQZNLo_U2r.ttf';
+  'http://fonts.gstatic.com/s/playfairdisplay/v25/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiukDQZNLo_U2r.ttf';
 export const PlayfairDisplay_800ExtraBold =
-  'http://fonts.gstatic.com/s/playfairdisplay/v22/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKfFukDQZNLo_U2r.ttf';
+  'http://fonts.gstatic.com/s/playfairdisplay/v25/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKfFukDQZNLo_U2r.ttf';
 export const PlayfairDisplay_900Black =
-  'http://fonts.gstatic.com/s/playfairdisplay/v22/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKfsukDQZNLo_U2r.ttf';
+  'http://fonts.gstatic.com/s/playfairdisplay/v25/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKfsukDQZNLo_U2r.ttf';
 export const PlayfairDisplay_400Regular_Italic =
-  'http://fonts.gstatic.com/s/playfairdisplay/v22/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_qiTbtbK-F2rA0s.ttf';
+  'http://fonts.gstatic.com/s/playfairdisplay/v25/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_qiTbtbK-F2rA0s.ttf';
 export const PlayfairDisplay_500Medium_Italic =
-  'http://fonts.gstatic.com/s/playfairdisplay/v22/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_pqTbtbK-F2rA0s.ttf';
+  'http://fonts.gstatic.com/s/playfairdisplay/v25/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_pqTbtbK-F2rA0s.ttf';
 export const PlayfairDisplay_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/playfairdisplay/v22/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_naUbtbK-F2rA0s.ttf';
+  'http://fonts.gstatic.com/s/playfairdisplay/v25/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_naUbtbK-F2rA0s.ttf';
 export const PlayfairDisplay_700Bold_Italic =
-  'http://fonts.gstatic.com/s/playfairdisplay/v22/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_k-UbtbK-F2rA0s.ttf';
+  'http://fonts.gstatic.com/s/playfairdisplay/v25/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_k-UbtbK-F2rA0s.ttf';
 export const PlayfairDisplay_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/playfairdisplay/v22/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_iiUbtbK-F2rA0s.ttf';
+  'http://fonts.gstatic.com/s/playfairdisplay/v25/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_iiUbtbK-F2rA0s.ttf';
 export const PlayfairDisplay_900Black_Italic =
-  'http://fonts.gstatic.com/s/playfairdisplay/v22/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_gGUbtbK-F2rA0s.ttf';
+  'http://fonts.gstatic.com/s/playfairdisplay/v25/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_gGUbtbK-F2rA0s.ttf';
 export const Convergence_400Regular =
-  'http://fonts.gstatic.com/s/convergence/v9/rax5HiePvdgXPmmMHcIPYRhasU7Q8Cad.ttf';
+  'http://fonts.gstatic.com/s/convergence/v13/rax5HiePvdgXPmmMHcIPYRhasU7Q8Cad.ttf';
+export const Nokora_100Thin =
+  'http://fonts.gstatic.com/s/nokora/v25/~CgoKBk5va29yYRhkIAAqBAgBGAE=.ttf';
+export const Nokora_300Light =
+  'http://fonts.gstatic.com/s/nokora/v25/~CgsKBk5va29yYRisAiAAKgQIARgB.ttf';
 export const Nokora_400Regular =
-  'http://fonts.gstatic.com/s/nokora/v16/hYkIPuwgTubzaWxQOzoPovZg8Q.ttf';
+  'http://fonts.gstatic.com/s/nokora/v25/~CggKBk5va29yYSAAKgQIARgB.ttf';
 export const Nokora_700Bold =
-  'http://fonts.gstatic.com/s/nokora/v16/hYkLPuwgTubzaWxohxUrqt18-B9Uuw.ttf';
+  'http://fonts.gstatic.com/s/nokora/v25/~CgsKBk5va29yYRi8BSAAKgQIARgB.ttf';
+export const Nokora_900Black =
+  'http://fonts.gstatic.com/s/nokora/v25/~CgsKBk5va29yYRiEByAAKgQIARgB.ttf';
 export const Arapey_400Regular =
   'http://fonts.gstatic.com/s/arapey/v9/-W__XJn-UDDA2RC6Z9AcZkIzeg.ttf';
 export const Arapey_400Regular_Italic =
   'http://fonts.gstatic.com/s/arapey/v9/-W_9XJn-UDDA2RCKZdoYREcjeo0k.ttf';
 export const FjordOne_400Regular =
-  'http://fonts.gstatic.com/s/fjordone/v11/zOL-4pbEnKBY_9S1jNKr6e5As-FeiQ.ttf';
+  'http://fonts.gstatic.com/s/fjordone/v19/zOL-4pbEnKBY_9S1jNKr6e5As-FeiQ.ttf';
 export const Lancelot_400Regular =
-  'http://fonts.gstatic.com/s/lancelot/v12/J7acnppxBGtQEulG4JY4xJ9CGyAa.ttf';
+  'http://fonts.gstatic.com/s/lancelot/v20/J7acnppxBGtQEulG4JY4xJ9CGyAa.ttf';
 export const Mate_400Regular = 'http://fonts.gstatic.com/s/mate/v9/m8JdjftRd7WZ2z28WoXSaLU.ttf';
 export const Mate_400Regular_Italic =
   'http://fonts.gstatic.com/s/mate/v9/m8JTjftRd7WZ6z-2XqfXeLVdbw.ttf';
 export const MateSC_400Regular =
   'http://fonts.gstatic.com/s/matesc/v11/-nF8OGQ1-uoVr2wKyiXZ95OkJwA.ttf';
-export const Poly_400Regular = 'http://fonts.gstatic.com/s/poly/v11/MQpb-W6wKNitRLCAq2Lpris.ttf';
+export const Poly_400Regular = 'http://fonts.gstatic.com/s/poly/v14/MQpb-W6wKNitRLCAq2Lpris.ttf';
 export const Poly_400Regular_Italic =
-  'http://fonts.gstatic.com/s/poly/v11/MQpV-W6wKNitdLKKr0DsviuGWA.ttf';
+  'http://fonts.gstatic.com/s/poly/v14/MQpV-W6wKNitdLKKr0DsviuGWA.ttf';
 export const RammettoOne_400Regular =
-  'http://fonts.gstatic.com/s/rammettoone/v9/LhWiMV3HOfMbMetJG3lQDpp9Mvuciu-_SQ.ttf';
+  'http://fonts.gstatic.com/s/rammettoone/v12/LhWiMV3HOfMbMetJG3lQDpp9Mvuciu-_SQ.ttf';
 export const SupermercadoOne_400Regular =
-  'http://fonts.gstatic.com/s/supermercadoone/v12/OpNXnpQWg8jc_xps_Gi14kVVEXOn60b3MClBRTs.ttf';
+  'http://fonts.gstatic.com/s/supermercadoone/v20/OpNXnpQWg8jc_xps_Gi14kVVEXOn60b3MClBRTs.ttf';
 export const AtomicAge_400Regular =
-  'http://fonts.gstatic.com/s/atomicage/v15/f0Xz0eug6sdmRFkYZZGL58Ht9a8GYeA.ttf';
+  'http://fonts.gstatic.com/s/atomicage/v25/f0Xz0eug6sdmRFkYZZGL58Ht9a8GYeA.ttf';
 export const ContrailOne_400Regular =
-  'http://fonts.gstatic.com/s/contrailone/v10/eLGbP-j_JA-kG0_Zo51noafdZUvt_c092w.ttf';
+  'http://fonts.gstatic.com/s/contrailone/v13/eLGbP-j_JA-kG0_Zo51noafdZUvt_c092w.ttf';
 export const JockeyOne_400Regular =
-  'http://fonts.gstatic.com/s/jockeyone/v10/HTxpL2g2KjCFj4x8WI6ArIb7HYOk4xc.ttf';
+  'http://fonts.gstatic.com/s/jockeyone/v13/HTxpL2g2KjCFj4x8WI6ArIb7HYOk4xc.ttf';
 export const LindenHill_400Regular =
-  'http://fonts.gstatic.com/s/lindenhill/v12/-F61fjxoKSg9Yc3hZgO8ygFI7CwC009k.ttf';
+  'http://fonts.gstatic.com/s/lindenhill/v20/-F61fjxoKSg9Yc3hZgO8ygFI7CwC009k.ttf';
 export const LindenHill_400Regular_Italic =
-  'http://fonts.gstatic.com/s/lindenhill/v12/-F63fjxoKSg9Yc3hZgO8yjFK5igg1l9kn-s.ttf';
+  'http://fonts.gstatic.com/s/lindenhill/v20/-F63fjxoKSg9Yc3hZgO8yjFK5igg1l9kn-s.ttf';
 export const Quicksand_300Light =
-  'http://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkKEo18G0wx40QDw.ttf';
+  'http://fonts.gstatic.com/s/quicksand/v24/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkKEo18G0wx40QDw.ttf';
 export const Quicksand_400Regular =
-  'http://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o18G0wx40QDw.ttf';
+  'http://fonts.gstatic.com/s/quicksand/v24/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o18G0wx40QDw.ttf';
 export const Quicksand_500Medium =
-  'http://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkM0o18G0wx40QDw.ttf';
+  'http://fonts.gstatic.com/s/quicksand/v24/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkM0o18G0wx40QDw.ttf';
 export const Quicksand_600SemiBold =
-  'http://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkCEv18G0wx40QDw.ttf';
+  'http://fonts.gstatic.com/s/quicksand/v24/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkCEv18G0wx40QDw.ttf';
 export const Quicksand_700Bold =
-  'http://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkBgv18G0wx40QDw.ttf';
+  'http://fonts.gstatic.com/s/quicksand/v24/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkBgv18G0wx40QDw.ttf';
 export const AmaticSC_400Regular =
   'http://fonts.gstatic.com/s/amaticsc/v16/TUZyzwprpvBS1izr_vO0De6ecZQf1A.ttf';
 export const AmaticSC_700Bold =
@@ -5683,26 +8213,24 @@ export const AmaticSC_700Bold =
 export const Cookie_400Regular =
   'http://fonts.gstatic.com/s/cookie/v12/syky-y18lb0tSbfNlQCT9tPdpw.ttf';
 export const DeliusUnicase_400Regular =
-  'http://fonts.gstatic.com/s/deliusunicase/v16/845BNMEwEIOVT8BmgfSzIr_6mmLHd-73LXWs.ttf';
+  'http://fonts.gstatic.com/s/deliusunicase/v24/845BNMEwEIOVT8BmgfSzIr_6mmLHd-73LXWs.ttf';
 export const DeliusUnicase_700Bold =
-  'http://fonts.gstatic.com/s/deliusunicase/v16/845CNMEwEIOVT8BmgfSzIr_6mlp7WMr_BmmlS5aw.ttf';
+  'http://fonts.gstatic.com/s/deliusunicase/v24/845CNMEwEIOVT8BmgfSzIr_6mlp7WMr_BmmlS5aw.ttf';
 export const MarckScript_400Regular =
   'http://fonts.gstatic.com/s/marckscript/v11/nwpTtK2oNgBA3Or78gapdwuCzyI-aMPF7Q.ttf';
 export const PinyonScript_400Regular =
   'http://fonts.gstatic.com/s/pinyonscript/v11/6xKpdSJbL9-e9LuoeQiDRQR8aOLQO4bhiDY.ttf';
 export const Rancho_400Regular =
   'http://fonts.gstatic.com/s/rancho/v11/46kulbzmXjLaqZRlbWXgd0RY1g.ttf';
-export const Salsa_400Regular = 'http://fonts.gstatic.com/s/salsa/v12/gNMKW3FiRpKj-imY8ncKEZez.ttf';
+export const Salsa_400Regular = 'http://fonts.gstatic.com/s/salsa/v15/gNMKW3FiRpKj-imY8ncKEZez.ttf';
 export const Sancreek_400Regular =
-  'http://fonts.gstatic.com/s/sancreek/v13/pxiHypAnsdxUm159X7D-XV9NEe-K.ttf';
+  'http://fonts.gstatic.com/s/sancreek/v21/pxiHypAnsdxUm159X7D-XV9NEe-K.ttf';
 export const Satisfy_400Regular =
   'http://fonts.gstatic.com/s/satisfy/v11/rP2Hp2yn6lkG50LoOZSCHBeHFl0.ttf';
 export const VastShadow_400Regular =
-  'http://fonts.gstatic.com/s/vastshadow/v10/pe0qMImKOZ1V62ZwbVY9dfe6Kdpickwp.ttf';
-export const Andada_400Regular =
-  'http://fonts.gstatic.com/s/andada/v12/uK_y4riWaego3w9RCh0TMv6EXw.ttf';
+  'http://fonts.gstatic.com/s/vastshadow/v13/pe0qMImKOZ1V62ZwbVY9dfe6Kdpickwp.ttf';
 export const Federant_400Regular =
-  'http://fonts.gstatic.com/s/federant/v15/2sDdZGNfip_eirT0_U0jRUG0AqUc.ttf';
+  'http://fonts.gstatic.com/s/federant/v23/2sDdZGNfip_eirT0_U0jRUG0AqUc.ttf';
 export const GochiHand_400Regular =
   'http://fonts.gstatic.com/s/gochihand/v11/hES06XlsOjtJsgCkx1PkTo71-n0nXWA.ttf';
 export const UbuntuCondensed_400Regular =
@@ -5716,9 +8244,9 @@ export const UbuntuMono_700Bold =
 export const UbuntuMono_700Bold_Italic =
   'http://fonts.gstatic.com/s/ubuntumono/v10/KFO8CneDtsqEr0keqCMhbCc_Mn33tYhkf3O1GVg.ttf';
 export const AlikeAngular_400Regular =
-  'http://fonts.gstatic.com/s/alikeangular/v13/3qTrojWunjGQtEBlIcwMbSoI3kM6bB7FKjE.ttf';
+  'http://fonts.gstatic.com/s/alikeangular/v18/3qTrojWunjGQtEBlIcwMbSoI3kM6bB7FKjE.ttf';
 export const PollerOne_400Regular =
-  'http://fonts.gstatic.com/s/pollerone/v12/ahccv82n0TN3gia5E4Bud-lbgUS5u0s.ttf';
+  'http://fonts.gstatic.com/s/pollerone/v17/ahccv82n0TN3gia5E4Bud-lbgUS5u0s.ttf';
 export const Spinnaker_400Regular =
   'http://fonts.gstatic.com/s/spinnaker/v12/w8gYH2oyX-I0_rvR6Hmn3HwLqOqSBg.ttf';
 export const Adamina_400Regular =
@@ -5728,30 +8256,30 @@ export const Cardo_400Regular_Italic =
   'http://fonts.gstatic.com/s/cardo/v14/wlpxgwjKBV1pqhv93IQ73W5OcCk.ttf';
 export const Cardo_700Bold =
   'http://fonts.gstatic.com/s/cardo/v14/wlpygwjKBV1pqhND-aQR82JHaTBX.ttf';
-export const Julee_400Regular = 'http://fonts.gstatic.com/s/julee/v12/TuGfUVB3RpZPQ6ZLodgzydtk.ttf';
+export const Julee_400Regular = 'http://fonts.gstatic.com/s/julee/v20/TuGfUVB3RpZPQ6ZLodgzydtk.ttf';
 export const MeriendaOne_400Regular =
-  'http://fonts.gstatic.com/s/meriendaone/v11/H4cgBXaMndbflEq6kyZ1ht6YgoyyYzFzFw.ttf';
+  'http://fonts.gstatic.com/s/meriendaone/v14/H4cgBXaMndbflEq6kyZ1ht6YgoyyYzFzFw.ttf';
 export const Prata_400Regular = 'http://fonts.gstatic.com/s/prata/v13/6xKhdSpbNNCT-vWIAG_5LWwJ.ttf';
 export const Rosario_300Light =
-  'http://fonts.gstatic.com/s/rosario/v19/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM69GCWczd-YnOzUD.ttf';
+  'http://fonts.gstatic.com/s/rosario/v22/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM69GCWczd-YnOzUD.ttf';
 export const Rosario_400Regular =
-  'http://fonts.gstatic.com/s/rosario/v19/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM68YCWczd-YnOzUD.ttf';
+  'http://fonts.gstatic.com/s/rosario/v22/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM68YCWczd-YnOzUD.ttf';
 export const Rosario_500Medium =
-  'http://fonts.gstatic.com/s/rosario/v19/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM68qCWczd-YnOzUD.ttf';
+  'http://fonts.gstatic.com/s/rosario/v22/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM68qCWczd-YnOzUD.ttf';
 export const Rosario_600SemiBold =
-  'http://fonts.gstatic.com/s/rosario/v19/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM6_GDmczd-YnOzUD.ttf';
+  'http://fonts.gstatic.com/s/rosario/v22/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM6_GDmczd-YnOzUD.ttf';
 export const Rosario_700Bold =
-  'http://fonts.gstatic.com/s/rosario/v19/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM6__Dmczd-YnOzUD.ttf';
+  'http://fonts.gstatic.com/s/rosario/v22/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM6__Dmczd-YnOzUD.ttf';
 export const Rosario_300Light_Italic =
-  'http://fonts.gstatic.com/s/rosario/v19/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQStFwfeIFPiUDn08.ttf';
+  'http://fonts.gstatic.com/s/rosario/v22/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQStFwfeIFPiUDn08.ttf';
 export const Rosario_400Regular_Italic =
-  'http://fonts.gstatic.com/s/rosario/v19/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSo9wfeIFPiUDn08.ttf';
+  'http://fonts.gstatic.com/s/rosario/v22/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSo9wfeIFPiUDn08.ttf';
 export const Rosario_500Medium_Italic =
-  'http://fonts.gstatic.com/s/rosario/v19/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSr1wfeIFPiUDn08.ttf';
+  'http://fonts.gstatic.com/s/rosario/v22/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSr1wfeIFPiUDn08.ttf';
 export const Rosario_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/rosario/v19/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSlF3feIFPiUDn08.ttf';
+  'http://fonts.gstatic.com/s/rosario/v22/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSlF3feIFPiUDn08.ttf';
 export const Rosario_700Bold_Italic =
-  'http://fonts.gstatic.com/s/rosario/v19/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSmh3feIFPiUDn08.ttf';
+  'http://fonts.gstatic.com/s/rosario/v22/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSmh3feIFPiUDn08.ttf';
 export const SortsMillGoudy_400Regular =
   'http://fonts.gstatic.com/s/sortsmillgoudy/v10/Qw3GZR9MED_6PSuS_50nEaVrfzgEXH0OjpM75PE.ttf';
 export const SortsMillGoudy_400Regular_Italic =
@@ -5759,13 +8287,13 @@ export const SortsMillGoudy_400Regular_Italic =
 export const AbrilFatface_400Regular =
   'http://fonts.gstatic.com/s/abrilfatface/v12/zOL64pLDlL1D99S8g8PtiKchm-BsjOLhZBY.ttf';
 export const Antic_400Regular = 'http://fonts.gstatic.com/s/antic/v12/TuGfUVB8XY5DRaZLodgzydtk.ttf';
-export const Dorsa_400Regular = 'http://fonts.gstatic.com/s/dorsa/v13/yYLn0hjd0OGwqo493XCFxAnQ.ttf';
+export const Dorsa_400Regular = 'http://fonts.gstatic.com/s/dorsa/v21/yYLn0hjd0OGwqo493XCFxAnQ.ttf';
 export const FanwoodText_400Regular =
-  'http://fonts.gstatic.com/s/fanwoodtext/v10/3XFtErwl05Ad_vSCF6Fq7xXGRdbY1P1Sbg.ttf';
+  'http://fonts.gstatic.com/s/fanwoodtext/v13/3XFtErwl05Ad_vSCF6Fq7xXGRdbY1P1Sbg.ttf';
 export const FanwoodText_400Regular_Italic =
-  'http://fonts.gstatic.com/s/fanwoodtext/v10/3XFzErwl05Ad_vSCF6Fq7xX2R9zc9vhCblye.ttf';
+  'http://fonts.gstatic.com/s/fanwoodtext/v13/3XFzErwl05Ad_vSCF6Fq7xX2R9zc9vhCblye.ttf';
 export const PasseroOne_400Regular =
-  'http://fonts.gstatic.com/s/passeroone/v14/JTUTjIko8DOq5FeaeEAjgE5B5Arr-s50.ttf';
+  'http://fonts.gstatic.com/s/passeroone/v22/JTUTjIko8DOq5FeaeEAjgE5B5Arr-s50.ttf';
 export const Philosopher_400Regular =
   'http://fonts.gstatic.com/s/philosopher/v14/vEFV2_5QCwIS4_Dhez5jcVBpRUwU08qe.ttf';
 export const Philosopher_400Regular_Italic =
@@ -5775,8 +8303,8 @@ export const Philosopher_700Bold =
 export const Philosopher_700Bold_Italic =
   'http://fonts.gstatic.com/s/philosopher/v14/vEFK2_5QCwIS4_Dhez5jcWBrd_QZ8tK1W77HtMo.ttf';
 export const Prociono_400Regular =
-  'http://fonts.gstatic.com/s/prociono/v12/r05YGLlR-KxAf9GGO8upyDYtStiJ.ttf';
-export const Alike_400Regular = 'http://fonts.gstatic.com/s/alike/v13/HI_EiYEYI6BIoEjBSZXAQ4-d.ttf';
+  'http://fonts.gstatic.com/s/prociono/v20/r05YGLlR-KxAf9GGO8upyDYtStiJ.ttf';
+export const Alike_400Regular = 'http://fonts.gstatic.com/s/alike/v18/HI_EiYEYI6BIoEjBSZXAQ4-d.ttf';
 export const Monoton_400Regular =
   'http://fonts.gstatic.com/s/monoton/v10/5h1aiZUrOngCibe4fkbBQ2S7FU8.ttf';
 export const Aldrich_400Regular =
@@ -5792,11 +8320,11 @@ export const GentiumBookBasic_700Bold =
 export const GentiumBookBasic_700Bold_Italic =
   'http://fonts.gstatic.com/s/gentiumbookbasic/v11/pe0-MJCbPYBVokB1LHA9bbyaQb8ZGjc4VYnDzofc81s0voO3.ttf';
 export const Montez_400Regular =
-  'http://fonts.gstatic.com/s/montez/v11/845ZNMk5GoGIX8lm1LDeSd-R_g.ttf';
+  'http://fonts.gstatic.com/s/montez/v16/845ZNMk5GoGIX8lm1LDeSd-R_g.ttf';
 export const Numans_400Regular =
-  'http://fonts.gstatic.com/s/numans/v10/SlGRmQmGupYAfH8IYRggiHVqaQ.ttf';
+  'http://fonts.gstatic.com/s/numans/v13/SlGRmQmGupYAfH8IYRggiHVqaQ.ttf';
 export const ShortStack_400Regular =
-  'http://fonts.gstatic.com/s/shortstack/v10/bMrzmS2X6p0jZC6EcmPFX-SScX8D0nq6.ttf';
+  'http://fonts.gstatic.com/s/shortstack/v13/bMrzmS2X6p0jZC6EcmPFX-SScX8D0nq6.ttf';
 export const Vidaloka_400Regular =
   'http://fonts.gstatic.com/s/vidaloka/v13/7cHrv4c3ipenMKlEass8yn4hnCci.ttf';
 export const Volkhov_400Regular =
@@ -5809,23 +8337,23 @@ export const Volkhov_700Bold_Italic =
   'http://fonts.gstatic.com/s/volkhov/v12/SlGXmQieoJcKemNecTA8PHFSaBYRagrQrA.ttf';
 export const Voltaire_400Regular =
   'http://fonts.gstatic.com/s/voltaire/v10/1Pttg8PcRfSblAvGvQooYKVnBOif.ttf';
-export const Alice_400Regular = 'http://fonts.gstatic.com/s/alice/v12/OpNCnoEEmtHa6FcJpA_chzJ0.ttf';
+export const Alice_400Regular = 'http://fonts.gstatic.com/s/alice/v18/OpNCnoEEmtHa6FcJpA_chzJ0.ttf';
 export const Andika_400Regular =
-  'http://fonts.gstatic.com/s/andika/v12/mem_Ya6iyW-LwqgAbbwRWrwGVA.ttf';
+  'http://fonts.gstatic.com/s/andika/v17/mem_Ya6iyW-LwqgAbbwRWrwGVA.ttf';
 export const Comfortaa_300Light =
-  'http://fonts.gstatic.com/s/comfortaa/v30/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4TbMPrQVIT9c2c8.ttf';
+  'http://fonts.gstatic.com/s/comfortaa/v34/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4TbMPrQVIT9c2c8.ttf';
 export const Comfortaa_400Regular =
-  'http://fonts.gstatic.com/s/comfortaa/v30/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMPrQVIT9c2c8.ttf';
+  'http://fonts.gstatic.com/s/comfortaa/v34/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMPrQVIT9c2c8.ttf';
 export const Comfortaa_500Medium =
-  'http://fonts.gstatic.com/s/comfortaa/v30/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4VrMPrQVIT9c2c8.ttf';
+  'http://fonts.gstatic.com/s/comfortaa/v34/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4VrMPrQVIT9c2c8.ttf';
 export const Comfortaa_600SemiBold =
-  'http://fonts.gstatic.com/s/comfortaa/v30/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4bbLPrQVIT9c2c8.ttf';
+  'http://fonts.gstatic.com/s/comfortaa/v34/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4bbLPrQVIT9c2c8.ttf';
 export const Comfortaa_700Bold =
-  'http://fonts.gstatic.com/s/comfortaa/v30/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4Y_LPrQVIT9c2c8.ttf';
+  'http://fonts.gstatic.com/s/comfortaa/v34/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4Y_LPrQVIT9c2c8.ttf';
 export const Coustard_400Regular =
-  'http://fonts.gstatic.com/s/coustard/v11/3XFpErgg3YsZ5fqUU9UPvWXuROTd.ttf';
+  'http://fonts.gstatic.com/s/coustard/v14/3XFpErgg3YsZ5fqUU9UPvWXuROTd.ttf';
 export const Coustard_900Black =
-  'http://fonts.gstatic.com/s/coustard/v11/3XFuErgg3YsZ5fqUU-2LkEHmb_jU3eRL.ttf';
+  'http://fonts.gstatic.com/s/coustard/v14/3XFuErgg3YsZ5fqUU-2LkEHmb_jU3eRL.ttf';
 export const Geostar_400Regular =
   'http://fonts.gstatic.com/s/geostar/v13/sykz-yx4n701VLOftSq9-trEvlQ.ttf';
 export const GeostarFill_400Regular =
@@ -5835,7 +8363,7 @@ export const Questrial_400Regular =
 export const Abel_400Regular = 'http://fonts.gstatic.com/s/abel/v12/MwQ5bhbm2POE6VhLPJp6qGI.ttf';
 export const Actor_400Regular = 'http://fonts.gstatic.com/s/actor/v10/wEOzEBbCkc5cO3ekXygtUMIO.ttf';
 export const DeliusSwashCaps_400Regular =
-  'http://fonts.gstatic.com/s/deliusswashcaps/v14/oY1E8fPLr7v4JWCExZpWebxVKORpXXedKmeBvEYs.ttf';
+  'http://fonts.gstatic.com/s/deliusswashcaps/v17/oY1E8fPLr7v4JWCExZpWebxVKORpXXedKmeBvEYs.ttf';
 export const Marvel_400Regular =
   'http://fonts.gstatic.com/s/marvel/v10/nwpVtKeoNgBV0qaIkV7ED366zg.ttf';
 export const Marvel_400Regular_Italic =
@@ -5845,50 +8373,50 @@ export const Marvel_700Bold =
 export const Marvel_700Bold_Italic =
   'http://fonts.gstatic.com/s/marvel/v10/nwpQtKeoNgBV0qa4k2x8Al-i5QwyYdrc.ttf';
 export const Rationale_400Regular =
-  'http://fonts.gstatic.com/s/rationale/v14/9XUnlJ92n0_JFxHIfHcsdlFMzLC2Zw.ttf';
+  'http://fonts.gstatic.com/s/rationale/v22/9XUnlJ92n0_JFxHIfHcsdlFMzLC2Zw.ttf';
 export const Rochester_400Regular =
-  'http://fonts.gstatic.com/s/rochester/v11/6ae-4KCqVa4Zy6Fif-Uy31vWNTMwoQ.ttf';
+  'http://fonts.gstatic.com/s/rochester/v16/6ae-4KCqVa4Zy6Fif-Uy31vWNTMwoQ.ttf';
 export const Smokum_400Regular =
   'http://fonts.gstatic.com/s/smokum/v13/TK3iWkUbAhopmrdGHjUHte5fKg.ttf';
 export const TulpenOne_400Regular =
   'http://fonts.gstatic.com/s/tulpenone/v12/dFa6ZfeC474skLgesc0CWj0w_HyIRlE.ttf';
 export const Aubrey_400Regular =
-  'http://fonts.gstatic.com/s/aubrey/v15/q5uGsou7NPBw-p7vugNsCxVEgA.ttf';
+  'http://fonts.gstatic.com/s/aubrey/v25/q5uGsou7NPBw-p7vugNsCxVEgA.ttf';
 export const BlackOpsOne_400Regular =
   'http://fonts.gstatic.com/s/blackopsone/v12/qWcsB6-ypo7xBdr6Xshe96H3WDzRtjkho4M.ttf';
-export const Carme_400Regular = 'http://fonts.gstatic.com/s/carme/v11/ptRHTiWdbvZIDOjGxLNrxfbZ.ttf';
+export const Carme_400Regular = 'http://fonts.gstatic.com/s/carme/v14/ptRHTiWdbvZIDOjGxLNrxfbZ.ttf';
 export const Delius_400Regular =
-  'http://fonts.gstatic.com/s/delius/v10/PN_xRfK0pW_9e1rtYcI-jT3L_w.ttf';
+  'http://fonts.gstatic.com/s/delius/v13/PN_xRfK0pW_9e1rtYcI-jT3L_w.ttf';
 export const Federo_400Regular =
-  'http://fonts.gstatic.com/s/federo/v14/iJWFBX-cbD_ETsbmjVOe2WTG7Q.ttf';
+  'http://fonts.gstatic.com/s/federo/v17/iJWFBX-cbD_ETsbmjVOe2WTG7Q.ttf';
 export const GloriaHallelujah_400Regular =
   'http://fonts.gstatic.com/s/gloriahallelujah/v12/LYjYdHv3kUk9BMV96EIswT9DIbW-MLSy3TKEvkCF.ttf';
 export const KellySlab_400Regular =
   'http://fonts.gstatic.com/s/kellyslab/v11/-W_7XJX0Rz3cxUnJC5t6TkMBf50kbiM.ttf';
 export const Rokkitt_100Thin =
-  'http://fonts.gstatic.com/s/rokkitt/v20/qFdb35qfgYFjGy5hukqqhw5XeRgdi1rydpDLE76HvN6n.ttf';
+  'http://fonts.gstatic.com/s/rokkitt/v24/qFdb35qfgYFjGy5hukqqhw5XeRgdi1rydpDLE76HvN6n.ttf';
 export const Rokkitt_200ExtraLight =
-  'http://fonts.gstatic.com/s/rokkitt/v20/qFdb35qfgYFjGy5hukqqhw5XeRgdi1pyd5DLE76HvN6n.ttf';
+  'http://fonts.gstatic.com/s/rokkitt/v24/qFdb35qfgYFjGy5hukqqhw5XeRgdi1pyd5DLE76HvN6n.ttf';
 export const Rokkitt_300Light =
-  'http://fonts.gstatic.com/s/rokkitt/v20/qFdb35qfgYFjGy5hukqqhw5XeRgdi1qsd5DLE76HvN6n.ttf';
+  'http://fonts.gstatic.com/s/rokkitt/v24/qFdb35qfgYFjGy5hukqqhw5XeRgdi1qsd5DLE76HvN6n.ttf';
 export const Rokkitt_400Regular =
-  'http://fonts.gstatic.com/s/rokkitt/v20/qFdb35qfgYFjGy5hukqqhw5XeRgdi1ryd5DLE76HvN6n.ttf';
+  'http://fonts.gstatic.com/s/rokkitt/v24/qFdb35qfgYFjGy5hukqqhw5XeRgdi1ryd5DLE76HvN6n.ttf';
 export const Rokkitt_500Medium =
-  'http://fonts.gstatic.com/s/rokkitt/v20/qFdb35qfgYFjGy5hukqqhw5XeRgdi1rAd5DLE76HvN6n.ttf';
+  'http://fonts.gstatic.com/s/rokkitt/v24/qFdb35qfgYFjGy5hukqqhw5XeRgdi1rAd5DLE76HvN6n.ttf';
 export const Rokkitt_600SemiBold =
-  'http://fonts.gstatic.com/s/rokkitt/v20/qFdb35qfgYFjGy5hukqqhw5XeRgdi1oscJDLE76HvN6n.ttf';
+  'http://fonts.gstatic.com/s/rokkitt/v24/qFdb35qfgYFjGy5hukqqhw5XeRgdi1oscJDLE76HvN6n.ttf';
 export const Rokkitt_700Bold =
-  'http://fonts.gstatic.com/s/rokkitt/v20/qFdb35qfgYFjGy5hukqqhw5XeRgdi1oVcJDLE76HvN6n.ttf';
+  'http://fonts.gstatic.com/s/rokkitt/v24/qFdb35qfgYFjGy5hukqqhw5XeRgdi1oVcJDLE76HvN6n.ttf';
 export const Rokkitt_800ExtraBold =
-  'http://fonts.gstatic.com/s/rokkitt/v20/qFdb35qfgYFjGy5hukqqhw5XeRgdi1pycJDLE76HvN6n.ttf';
+  'http://fonts.gstatic.com/s/rokkitt/v24/qFdb35qfgYFjGy5hukqqhw5XeRgdi1pycJDLE76HvN6n.ttf';
 export const Rokkitt_900Black =
-  'http://fonts.gstatic.com/s/rokkitt/v20/qFdb35qfgYFjGy5hukqqhw5XeRgdi1pbcJDLE76HvN6n.ttf';
+  'http://fonts.gstatic.com/s/rokkitt/v24/qFdb35qfgYFjGy5hukqqhw5XeRgdi1pbcJDLE76HvN6n.ttf';
 export const Tienne_400Regular =
-  'http://fonts.gstatic.com/s/tienne/v15/AYCKpX7pe9YCRP0LkEPHSFNyxw.ttf';
+  'http://fonts.gstatic.com/s/tienne/v18/AYCKpX7pe9YCRP0LkEPHSFNyxw.ttf';
 export const Tienne_700Bold =
-  'http://fonts.gstatic.com/s/tienne/v15/AYCJpX7pe9YCRP0zLGzjQHhuzvef5Q.ttf';
+  'http://fonts.gstatic.com/s/tienne/v18/AYCJpX7pe9YCRP0zLGzjQHhuzvef5Q.ttf';
 export const Tienne_900Black =
-  'http://fonts.gstatic.com/s/tienne/v15/AYCJpX7pe9YCRP0zFG7jQHhuzvef5Q.ttf';
+  'http://fonts.gstatic.com/s/tienne/v18/AYCJpX7pe9YCRP0zFG7jQHhuzvef5Q.ttf';
 export const GentiumBasic_400Regular =
   'http://fonts.gstatic.com/s/gentiumbasic/v12/Wnz9HAw9aB_JD2VGQVR80We3HAqDiTI_cIM.ttf';
 export const GentiumBasic_400Regular_Italic =
@@ -5898,10 +8426,10 @@ export const GentiumBasic_700Bold =
 export const GentiumBasic_700Bold_Italic =
   'http://fonts.gstatic.com/s/gentiumbasic/v12/WnzmHAw9aB_JD2VGQVR80We3LAixMT8eaKiNbBVWkw.ttf';
 export const LeckerliOne_400Regular =
-  'http://fonts.gstatic.com/s/leckerlione/v11/V8mCoQH8VCsNttEnxnGQ-1itLZxcBtItFw.ttf';
-export const Ovo_400Regular = 'http://fonts.gstatic.com/s/ovo/v12/yYLl0h7Wyfzjy4Q5_3WVxA.ttf';
+  'http://fonts.gstatic.com/s/leckerlione/v14/V8mCoQH8VCsNttEnxnGQ-1itLZxcBtItFw.ttf';
+export const Ovo_400Regular = 'http://fonts.gstatic.com/s/ovo/v15/yYLl0h7Wyfzjy4Q5_3WVxA.ttf';
 export const Pompiere_400Regular =
-  'http://fonts.gstatic.com/s/pompiere/v10/VEMyRoxis5Dwuyeov6Wt5jDtreOL.ttf';
+  'http://fonts.gstatic.com/s/pompiere/v13/VEMyRoxis5Dwuyeov6Wt5jDtreOL.ttf';
 export const Snippet_400Regular =
   'http://fonts.gstatic.com/s/snippet/v12/bWt47f7XfQH9Gupu2v_Afcp9QWc.ttf';
 export const Unna_400Regular = 'http://fonts.gstatic.com/s/unna/v16/AYCEpXzofN0NCpgBlGHCWFM.ttf';
@@ -5913,9 +8441,9 @@ export const Unna_700Bold_Italic =
 export const Yellowtail_400Regular =
   'http://fonts.gstatic.com/s/yellowtail/v11/OZpGg_pnoDtINPfRIlLotlzNwED-b4g.ttf';
 export const BowlbyOne_400Regular =
-  'http://fonts.gstatic.com/s/bowlbyone/v12/taiPGmVuC4y96PFeqp8smo6C_Z0wcK4.ttf';
+  'http://fonts.gstatic.com/s/bowlbyone/v17/taiPGmVuC4y96PFeqp8smo6C_Z0wcK4.ttf';
 export const GiveYouGlory_400Regular =
-  'http://fonts.gstatic.com/s/giveyouglory/v10/8QIQdiHOgt3vv4LR7ahjw9-XYc1zB4ZD6rwa.ttf';
+  'http://fonts.gstatic.com/s/giveyouglory/v13/8QIQdiHOgt3vv4LR7ahjw9-XYc1zB4ZD6rwa.ttf';
 export const IstokWeb_400Regular =
   'http://fonts.gstatic.com/s/istokweb/v15/3qTvojGmgSyUukBzKslZAWF-9kIIaQ.ttf';
 export const IstokWeb_400Regular_Italic =
@@ -5925,7 +8453,7 @@ export const IstokWeb_700Bold =
 export const IstokWeb_700Bold_Italic =
   'http://fonts.gstatic.com/s/istokweb/v15/3qT0ojGmgSyUukBzKslpA1PG-2MQQhLMMygN.ttf';
 export const ModernAntiqua_400Regular =
-  'http://fonts.gstatic.com/s/modernantiqua/v12/NGStv5TIAUg6Iq_RLNo_2dp1sI1Ea2u0c3Gi.ttf';
+  'http://fonts.gstatic.com/s/modernantiqua/v20/NGStv5TIAUg6Iq_RLNo_2dp1sI1Ea2u0c3Gi.ttf';
 export const VarelaRound_400Regular =
   'http://fonts.gstatic.com/s/varelaround/v13/w8gdH283Tvk__Lua32TysjIvoMGOD9gxZw.ttf';
 export const YesevaOne_400Regular =
@@ -5934,36 +8462,36 @@ export const BowlbyOneSC_400Regular =
   'http://fonts.gstatic.com/s/bowlbyonesc/v12/DtVlJxerQqQm37tzN3wMug9Pzgj8owhNjuE.ttf';
 export const Forum_400Regular = 'http://fonts.gstatic.com/s/forum/v11/6aey4Ky-Vb8Ew_IWMJMa3mnT.ttf';
 export const Lora_400Regular =
-  'http://fonts.gstatic.com/s/lora/v17/0QI6MX1D_JOuGQbT0gvTJPa787weuyJGmKxemMeZ.ttf';
+  'http://fonts.gstatic.com/s/lora/v20/0QI6MX1D_JOuGQbT0gvTJPa787weuyJGmKxemMeZ.ttf';
 export const Lora_500Medium =
-  'http://fonts.gstatic.com/s/lora/v17/0QI6MX1D_JOuGQbT0gvTJPa787wsuyJGmKxemMeZ.ttf';
+  'http://fonts.gstatic.com/s/lora/v20/0QI6MX1D_JOuGQbT0gvTJPa787wsuyJGmKxemMeZ.ttf';
 export const Lora_600SemiBold =
-  'http://fonts.gstatic.com/s/lora/v17/0QI6MX1D_JOuGQbT0gvTJPa787zAvCJGmKxemMeZ.ttf';
+  'http://fonts.gstatic.com/s/lora/v20/0QI6MX1D_JOuGQbT0gvTJPa787zAvCJGmKxemMeZ.ttf';
 export const Lora_700Bold =
-  'http://fonts.gstatic.com/s/lora/v17/0QI6MX1D_JOuGQbT0gvTJPa787z5vCJGmKxemMeZ.ttf';
+  'http://fonts.gstatic.com/s/lora/v20/0QI6MX1D_JOuGQbT0gvTJPa787z5vCJGmKxemMeZ.ttf';
 export const Lora_400Regular_Italic =
-  'http://fonts.gstatic.com/s/lora/v17/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-MoFkqh8ndeZzZ0.ttf';
+  'http://fonts.gstatic.com/s/lora/v20/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-MoFkqh8ndeZzZ0.ttf';
 export const Lora_500Medium_Italic =
-  'http://fonts.gstatic.com/s/lora/v17/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-PgFkqh8ndeZzZ0.ttf';
+  'http://fonts.gstatic.com/s/lora/v20/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-PgFkqh8ndeZzZ0.ttf';
 export const Lora_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/lora/v17/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-BQCkqh8ndeZzZ0.ttf';
+  'http://fonts.gstatic.com/s/lora/v20/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-BQCkqh8ndeZzZ0.ttf';
 export const Lora_700Bold_Italic =
-  'http://fonts.gstatic.com/s/lora/v17/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-C0Ckqh8ndeZzZ0.ttf';
+  'http://fonts.gstatic.com/s/lora/v20/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-C0Ckqh8ndeZzZ0.ttf';
 export const LoveYaLikeASister_400Regular =
-  'http://fonts.gstatic.com/s/loveyalikeasister/v11/R70EjzUBlOqPeouhFDfR80-0FhOqJubN-Be78nZcsGGycA.ttf';
+  'http://fonts.gstatic.com/s/loveyalikeasister/v14/R70EjzUBlOqPeouhFDfR80-0FhOqJubN-Be78nZcsGGycA.ttf';
 export const LovedbytheKing_400Regular =
-  'http://fonts.gstatic.com/s/lovedbytheking/v12/Gw6gwdP76VDVJNXerebZxUMeRXUF2PiNlXFu2R64.ttf';
+  'http://fonts.gstatic.com/s/lovedbytheking/v15/Gw6gwdP76VDVJNXerebZxUMeRXUF2PiNlXFu2R64.ttf';
 export const PatrickHand_400Regular =
   'http://fonts.gstatic.com/s/patrickhand/v14/LDI1apSQOAYtSuYWp8ZhfYeMWcjKm7sp8g.ttf';
 export const StardosStencil_400Regular =
   'http://fonts.gstatic.com/s/stardosstencil/v11/X7n94bcuGPC8hrvEOHXOgaKCc2TR71R3tiSx0g.ttf';
 export const StardosStencil_700Bold =
   'http://fonts.gstatic.com/s/stardosstencil/v11/X7n44bcuGPC8hrvEOHXOgaKCc2TpU3tTvg-t29HSHw.ttf';
-export const Asset_400Regular = 'http://fonts.gstatic.com/s/asset/v12/SLXGc1na-mM4cWImRJqExst1.ttf';
+export const Asset_400Regular = 'http://fonts.gstatic.com/s/asset/v22/SLXGc1na-mM4cWImRJqExst1.ttf';
 export const GoblinOne_400Regular =
-  'http://fonts.gstatic.com/s/goblinone/v12/CSR64z1ZnOqZRjRCBVY_TOcATNt_pOU.ttf';
+  'http://fonts.gstatic.com/s/goblinone/v20/CSR64z1ZnOqZRjRCBVY_TOcATNt_pOU.ttf';
 export const GravitasOne_400Regular =
-  'http://fonts.gstatic.com/s/gravitasone/v10/5h1diZ4hJ3cblKy3LWakKQmaDWRNr3DzbQ.ttf';
+  'http://fonts.gstatic.com/s/gravitasone/v13/5h1diZ4hJ3cblKy3LWakKQmaDWRNr3DzbQ.ttf';
 export const HammersmithOne_400Regular =
   'http://fonts.gstatic.com/s/hammersmithone/v12/qWcyB624q4L_C4jGQ9IK0O_dFlnbshsks4MRXw.ttf';
 export const Varela_400Regular =
@@ -5977,132 +8505,132 @@ export const LobsterTwo_700Bold =
 export const LobsterTwo_700Bold_Italic =
   'http://fonts.gstatic.com/s/lobstertwo/v13/BngTUXZGTXPUvIoyV6yN5-fI3hyEwRiof_DpXMY.ttf';
 export const NixieOne_400Regular =
-  'http://fonts.gstatic.com/s/nixieone/v11/lW-8wjkKLXjg5y2o2uUoUOFzpS-yLw.ttf';
+  'http://fonts.gstatic.com/s/nixieone/v14/lW-8wjkKLXjg5y2o2uUoUOFzpS-yLw.ttf';
 export const Redressed_400Regular =
-  'http://fonts.gstatic.com/s/redressed/v13/x3dickHUbrmJ7wMy9MsBfPACvy_1BA.ttf';
+  'http://fonts.gstatic.com/s/redressed/v23/x3dickHUbrmJ7wMy9MsBfPACvy_1BA.ttf';
 export const CedarvilleCursive_400Regular =
-  'http://fonts.gstatic.com/s/cedarvillecursive/v12/yYL00g_a2veiudhUmxjo5VKkoqA-B_neJbBxw8BeTg.ttf';
+  'http://fonts.gstatic.com/s/cedarvillecursive/v15/yYL00g_a2veiudhUmxjo5VKkoqA-B_neJbBxw8BeTg.ttf';
 export const Kameron_400Regular =
   'http://fonts.gstatic.com/s/kameron/v11/vm82dR7vXErQxuznsL4wL-XIYH8.ttf';
 export const Kameron_700Bold =
   'http://fonts.gstatic.com/s/kameron/v11/vm8zdR7vXErQxuzniAIfC-3jfHb--NY.ttf';
 export const LaBelleAurore_400Regular =
-  'http://fonts.gstatic.com/s/labelleaurore/v11/RrQIbot8-mNYKnGNDkWlocovHeIIG-eFNVmULg.ttf';
+  'http://fonts.gstatic.com/s/labelleaurore/v14/RrQIbot8-mNYKnGNDkWlocovHeIIG-eFNVmULg.ttf';
 export const ShadowsIntoLight_400Regular =
   'http://fonts.gstatic.com/s/shadowsintolight/v10/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQDcsr4xzSMYA.ttf';
 export const Zeyada_400Regular =
-  'http://fonts.gstatic.com/s/zeyada/v10/11hAGpPTxVPUbgZDNGatWKaZ3g.ttf';
+  'http://fonts.gstatic.com/s/zeyada/v13/11hAGpPTxVPUbgZDNGatWKaZ3g.ttf';
 export const Artifika_400Regular =
-  'http://fonts.gstatic.com/s/artifika/v13/VEMyRoxzronptCuxu6Wt5jDtreOL.ttf';
+  'http://fonts.gstatic.com/s/artifika/v18/VEMyRoxzronptCuxu6Wt5jDtreOL.ttf';
 export const Limelight_400Regular =
-  'http://fonts.gstatic.com/s/limelight/v11/XLYkIZL7aopJVbZJHDuYPeNGrnY2TA.ttf';
+  'http://fonts.gstatic.com/s/limelight/v14/XLYkIZL7aopJVbZJHDuYPeNGrnY2TA.ttf';
 export const MavenPro_400Regular =
-  'http://fonts.gstatic.com/s/mavenpro/v22/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8SX25nCpozp5GvU.ttf';
+  'http://fonts.gstatic.com/s/mavenpro/v25/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8SX25nCpozp5GvU.ttf';
 export const MavenPro_500Medium =
-  'http://fonts.gstatic.com/s/mavenpro/v22/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8Rf25nCpozp5GvU.ttf';
+  'http://fonts.gstatic.com/s/mavenpro/v25/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8Rf25nCpozp5GvU.ttf';
 export const MavenPro_600SemiBold =
-  'http://fonts.gstatic.com/s/mavenpro/v22/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8fvx5nCpozp5GvU.ttf';
+  'http://fonts.gstatic.com/s/mavenpro/v25/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8fvx5nCpozp5GvU.ttf';
 export const MavenPro_700Bold =
-  'http://fonts.gstatic.com/s/mavenpro/v22/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8cLx5nCpozp5GvU.ttf';
+  'http://fonts.gstatic.com/s/mavenpro/v25/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8cLx5nCpozp5GvU.ttf';
 export const MavenPro_800ExtraBold =
-  'http://fonts.gstatic.com/s/mavenpro/v22/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8aXx5nCpozp5GvU.ttf';
+  'http://fonts.gstatic.com/s/mavenpro/v25/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8aXx5nCpozp5GvU.ttf';
 export const MavenPro_900Black =
-  'http://fonts.gstatic.com/s/mavenpro/v22/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8Yzx5nCpozp5GvU.ttf';
+  'http://fonts.gstatic.com/s/mavenpro/v25/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8Yzx5nCpozp5GvU.ttf';
 export const Mulish_200ExtraLight =
-  'http://fonts.gstatic.com/s/mulish/v3/1Ptyg83HX_SGhgqO0yLcmjzUAuWexRNRwaClGrw-PTY.ttf';
+  'http://fonts.gstatic.com/s/mulish/v7/1Ptyg83HX_SGhgqO0yLcmjzUAuWexRNRwaClGrw-PTY.ttf';
 export const Mulish_300Light =
-  'http://fonts.gstatic.com/s/mulish/v3/1Ptyg83HX_SGhgqO0yLcmjzUAuWexc1RwaClGrw-PTY.ttf';
+  'http://fonts.gstatic.com/s/mulish/v7/1Ptyg83HX_SGhgqO0yLcmjzUAuWexc1RwaClGrw-PTY.ttf';
 export const Mulish_400Regular =
-  'http://fonts.gstatic.com/s/mulish/v3/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNRwaClGrw-PTY.ttf';
+  'http://fonts.gstatic.com/s/mulish/v7/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNRwaClGrw-PTY.ttf';
 export const Mulish_500Medium =
-  'http://fonts.gstatic.com/s/mulish/v3/1Ptyg83HX_SGhgqO0yLcmjzUAuWexaFRwaClGrw-PTY.ttf';
+  'http://fonts.gstatic.com/s/mulish/v7/1Ptyg83HX_SGhgqO0yLcmjzUAuWexaFRwaClGrw-PTY.ttf';
 export const Mulish_600SemiBold =
-  'http://fonts.gstatic.com/s/mulish/v3/1Ptyg83HX_SGhgqO0yLcmjzUAuWexU1WwaClGrw-PTY.ttf';
+  'http://fonts.gstatic.com/s/mulish/v7/1Ptyg83HX_SGhgqO0yLcmjzUAuWexU1WwaClGrw-PTY.ttf';
 export const Mulish_700Bold =
-  'http://fonts.gstatic.com/s/mulish/v3/1Ptyg83HX_SGhgqO0yLcmjzUAuWexXRWwaClGrw-PTY.ttf';
+  'http://fonts.gstatic.com/s/mulish/v7/1Ptyg83HX_SGhgqO0yLcmjzUAuWexXRWwaClGrw-PTY.ttf';
 export const Mulish_800ExtraBold =
-  'http://fonts.gstatic.com/s/mulish/v3/1Ptyg83HX_SGhgqO0yLcmjzUAuWexRNWwaClGrw-PTY.ttf';
+  'http://fonts.gstatic.com/s/mulish/v7/1Ptyg83HX_SGhgqO0yLcmjzUAuWexRNWwaClGrw-PTY.ttf';
 export const Mulish_900Black =
-  'http://fonts.gstatic.com/s/mulish/v3/1Ptyg83HX_SGhgqO0yLcmjzUAuWexTpWwaClGrw-PTY.ttf';
+  'http://fonts.gstatic.com/s/mulish/v7/1Ptyg83HX_SGhgqO0yLcmjzUAuWexTpWwaClGrw-PTY.ttf';
 export const Mulish_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/mulish/v3/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSqeOvHp47LTZFwA.ttf';
+  'http://fonts.gstatic.com/s/mulish/v7/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSqeOvHp47LTZFwA.ttf';
 export const Mulish_300Light_Italic =
-  'http://fonts.gstatic.com/s/mulish/v3/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSd-OvHp47LTZFwA.ttf';
+  'http://fonts.gstatic.com/s/mulish/v7/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSd-OvHp47LTZFwA.ttf';
 export const Mulish_400Regular_Italic =
-  'http://fonts.gstatic.com/s/mulish/v3/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSKeOvHp47LTZFwA.ttf';
+  'http://fonts.gstatic.com/s/mulish/v7/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSKeOvHp47LTZFwA.ttf';
 export const Mulish_500Medium_Italic =
-  'http://fonts.gstatic.com/s/mulish/v3/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSG-OvHp47LTZFwA.ttf';
+  'http://fonts.gstatic.com/s/mulish/v7/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSG-OvHp47LTZFwA.ttf';
 export const Mulish_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/mulish/v3/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsS9-SvHp47LTZFwA.ttf';
+  'http://fonts.gstatic.com/s/mulish/v7/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsS9-SvHp47LTZFwA.ttf';
 export const Mulish_700Bold_Italic =
-  'http://fonts.gstatic.com/s/mulish/v3/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSzuSvHp47LTZFwA.ttf';
+  'http://fonts.gstatic.com/s/mulish/v7/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSzuSvHp47LTZFwA.ttf';
 export const Mulish_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/mulish/v3/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSqeSvHp47LTZFwA.ttf';
+  'http://fonts.gstatic.com/s/mulish/v7/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSqeSvHp47LTZFwA.ttf';
 export const Mulish_900Black_Italic =
-  'http://fonts.gstatic.com/s/mulish/v3/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSgOSvHp47LTZFwA.ttf';
+  'http://fonts.gstatic.com/s/mulish/v7/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSgOSvHp47LTZFwA.ttf';
 export const TenorSans_400Regular =
   'http://fonts.gstatic.com/s/tenorsans/v12/bx6ANxqUneKx06UkIXISr3JyC22IyqI.ttf';
 export const Brawler_400Regular =
-  'http://fonts.gstatic.com/s/brawler/v11/xn7gYHE3xXewAscGsgC7S9XdZN8.ttf';
+  'http://fonts.gstatic.com/s/brawler/v16/xn7gYHE3xXewAscGsgC7S9XdZN8.ttf';
 export const Caudex_400Regular =
-  'http://fonts.gstatic.com/s/caudex/v10/esDQ311QOP6BJUrIyviAnb4eEw.ttf';
+  'http://fonts.gstatic.com/s/caudex/v13/esDQ311QOP6BJUrIyviAnb4eEw.ttf';
 export const Caudex_400Regular_Italic =
-  'http://fonts.gstatic.com/s/caudex/v10/esDS311QOP6BJUr4yPKEv7sOE4in.ttf';
+  'http://fonts.gstatic.com/s/caudex/v13/esDS311QOP6BJUr4yPKEv7sOE4in.ttf';
 export const Caudex_700Bold =
-  'http://fonts.gstatic.com/s/caudex/v10/esDT311QOP6BJUrwdteklZUCGpG-GQ.ttf';
+  'http://fonts.gstatic.com/s/caudex/v13/esDT311QOP6BJUrwdteklZUCGpG-GQ.ttf';
 export const Caudex_700Bold_Italic =
-  'http://fonts.gstatic.com/s/caudex/v10/esDV311QOP6BJUr4yMo4kJ8GOJSuGdLB.ttf';
+  'http://fonts.gstatic.com/s/caudex/v13/esDV311QOP6BJUr4yMo4kJ8GOJSuGdLB.ttf';
 export const DancingScript_400Regular =
-  'http://fonts.gstatic.com/s/dancingscript/v16/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTeB9ptDqpw.ttf';
+  'http://fonts.gstatic.com/s/dancingscript/v19/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTeB9ptDqpw.ttf';
 export const DancingScript_500Medium =
-  'http://fonts.gstatic.com/s/dancingscript/v16/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BAyoHTeB9ptDqpw.ttf';
+  'http://fonts.gstatic.com/s/dancingscript/v19/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BAyoHTeB9ptDqpw.ttf';
 export const DancingScript_600SemiBold =
-  'http://fonts.gstatic.com/s/dancingscript/v16/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B7y0HTeB9ptDqpw.ttf';
+  'http://fonts.gstatic.com/s/dancingscript/v19/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B7y0HTeB9ptDqpw.ttf';
 export const DancingScript_700Bold =
-  'http://fonts.gstatic.com/s/dancingscript/v16/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i0HTeB9ptDqpw.ttf';
+  'http://fonts.gstatic.com/s/dancingscript/v19/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i0HTeB9ptDqpw.ttf';
 export const Jura_300Light =
-  'http://fonts.gstatic.com/s/jura/v16/z7NOdRfiaC4Vd8hhoPzfb5vBTP0D7auhTfmrH_rt.ttf';
+  'http://fonts.gstatic.com/s/jura/v19/z7NOdRfiaC4Vd8hhoPzfb5vBTP0D7auhTfmrH_rt.ttf';
 export const Jura_400Regular =
-  'http://fonts.gstatic.com/s/jura/v16/z7NOdRfiaC4Vd8hhoPzfb5vBTP1d7auhTfmrH_rt.ttf';
+  'http://fonts.gstatic.com/s/jura/v19/z7NOdRfiaC4Vd8hhoPzfb5vBTP1d7auhTfmrH_rt.ttf';
 export const Jura_500Medium =
-  'http://fonts.gstatic.com/s/jura/v16/z7NOdRfiaC4Vd8hhoPzfb5vBTP1v7auhTfmrH_rt.ttf';
+  'http://fonts.gstatic.com/s/jura/v19/z7NOdRfiaC4Vd8hhoPzfb5vBTP1v7auhTfmrH_rt.ttf';
 export const Jura_600SemiBold =
-  'http://fonts.gstatic.com/s/jura/v16/z7NOdRfiaC4Vd8hhoPzfb5vBTP2D6quhTfmrH_rt.ttf';
+  'http://fonts.gstatic.com/s/jura/v19/z7NOdRfiaC4Vd8hhoPzfb5vBTP2D6quhTfmrH_rt.ttf';
 export const Jura_700Bold =
-  'http://fonts.gstatic.com/s/jura/v16/z7NOdRfiaC4Vd8hhoPzfb5vBTP266quhTfmrH_rt.ttf';
+  'http://fonts.gstatic.com/s/jura/v19/z7NOdRfiaC4Vd8hhoPzfb5vBTP266quhTfmrH_rt.ttf';
 export const Podkova_400Regular =
-  'http://fonts.gstatic.com/s/podkova/v18/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWtFzcU4EoporSHH.ttf';
+  'http://fonts.gstatic.com/s/podkova/v20/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWtFzcU4EoporSHH.ttf';
 export const Podkova_500Medium =
-  'http://fonts.gstatic.com/s/podkova/v18/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWt3zcU4EoporSHH.ttf';
+  'http://fonts.gstatic.com/s/podkova/v20/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWt3zcU4EoporSHH.ttf';
 export const Podkova_600SemiBold =
-  'http://fonts.gstatic.com/s/podkova/v18/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWubysU4EoporSHH.ttf';
+  'http://fonts.gstatic.com/s/podkova/v20/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWubysU4EoporSHH.ttf';
 export const Podkova_700Bold =
-  'http://fonts.gstatic.com/s/podkova/v18/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWuiysU4EoporSHH.ttf';
+  'http://fonts.gstatic.com/s/podkova/v20/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWuiysU4EoporSHH.ttf';
 export const Podkova_800ExtraBold =
-  'http://fonts.gstatic.com/s/podkova/v18/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWvFysU4EoporSHH.ttf';
+  'http://fonts.gstatic.com/s/podkova/v20/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWvFysU4EoporSHH.ttf';
 export const RuslanDisplay_400Regular =
   'http://fonts.gstatic.com/s/ruslandisplay/v13/Gw6jwczl81XcIZuckK_e3UpfdzxrldyFvm1n.ttf';
 export const WireOne_400Regular =
-  'http://fonts.gstatic.com/s/wireone/v13/qFdH35Wah5htUhV75WGiWdrCwwcJ.ttf';
+  'http://fonts.gstatic.com/s/wireone/v21/qFdH35Wah5htUhV75WGiWdrCwwcJ.ttf';
 export const Mako_400Regular = 'http://fonts.gstatic.com/s/mako/v14/H4coBX6Mmc_Z0ST09g478Lo.ttf';
 export const Merriweather_300Light =
-  'http://fonts.gstatic.com/s/merriweather/v22/u-4n0qyriQwlOrhSvowK_l521wRpX837pvjxPA.ttf';
+  'http://fonts.gstatic.com/s/merriweather/v28/u-4n0qyriQwlOrhSvowK_l521wRpX837pvjxPA.ttf';
 export const Merriweather_300Light_Italic =
-  'http://fonts.gstatic.com/s/merriweather/v22/u-4l0qyriQwlOrhSvowK_l5-eR7lXcf_hP3hPGWH.ttf';
+  'http://fonts.gstatic.com/s/merriweather/v28/u-4l0qyriQwlOrhSvowK_l5-eR7lXcf_hP3hPGWH.ttf';
 export const Merriweather_400Regular =
-  'http://fonts.gstatic.com/s/merriweather/v22/u-440qyriQwlOrhSvowK_l5OeyxNV-bnrw.ttf';
+  'http://fonts.gstatic.com/s/merriweather/v28/u-440qyriQwlOrhSvowK_l5OeyxNV-bnrw.ttf';
 export const Merriweather_400Regular_Italic =
-  'http://fonts.gstatic.com/s/merriweather/v22/u-4m0qyriQwlOrhSvowK_l5-eSZJdeP3r-Ho.ttf';
+  'http://fonts.gstatic.com/s/merriweather/v28/u-4m0qyriQwlOrhSvowK_l5-eSZJdeP3r-Ho.ttf';
 export const Merriweather_700Bold =
-  'http://fonts.gstatic.com/s/merriweather/v22/u-4n0qyriQwlOrhSvowK_l52xwNpX837pvjxPA.ttf';
+  'http://fonts.gstatic.com/s/merriweather/v28/u-4n0qyriQwlOrhSvowK_l52xwNpX837pvjxPA.ttf';
 export const Merriweather_700Bold_Italic =
-  'http://fonts.gstatic.com/s/merriweather/v22/u-4l0qyriQwlOrhSvowK_l5-eR71Wsf_hP3hPGWH.ttf';
+  'http://fonts.gstatic.com/s/merriweather/v28/u-4l0qyriQwlOrhSvowK_l5-eR71Wsf_hP3hPGWH.ttf';
 export const Merriweather_900Black =
-  'http://fonts.gstatic.com/s/merriweather/v22/u-4n0qyriQwlOrhSvowK_l52_wFpX837pvjxPA.ttf';
+  'http://fonts.gstatic.com/s/merriweather/v28/u-4n0qyriQwlOrhSvowK_l52_wFpX837pvjxPA.ttf';
 export const Merriweather_900Black_Italic =
-  'http://fonts.gstatic.com/s/merriweather/v22/u-4l0qyriQwlOrhSvowK_l5-eR7NWMf_hP3hPGWH.ttf';
+  'http://fonts.gstatic.com/s/merriweather/v28/u-4l0qyriQwlOrhSvowK_l5-eR7NWMf_hP3hPGWH.ttf';
 export const Metrophobic_400Regular =
-  'http://fonts.gstatic.com/s/metrophobic/v14/sJoA3LZUhMSAPV_u0qwiAT-J737FPEEL.ttf';
+  'http://fonts.gstatic.com/s/metrophobic/v17/sJoA3LZUhMSAPV_u0qwiAT-J737FPEEL.ttf';
 export const NothingYouCouldDo_400Regular =
   'http://fonts.gstatic.com/s/nothingyoucoulddo/v10/oY1B8fbBpaP5OX3DtrRYf_Q2BPB1SnfZb0OJl1ol2Ymo.ttf';
 export const Shanti_400Regular =
@@ -6123,41 +8651,41 @@ export const Amaranth_700Bold =
 export const Amaranth_700Bold_Italic =
   'http://fonts.gstatic.com/s/amaranth/v11/KtkrALODe433f0j1zMnAJWmn42T9E4ucRY8.ttf';
 export const BigshotOne_400Regular =
-  'http://fonts.gstatic.com/s/bigshotone/v13/u-470qukhRkkO6BD_7cM_gxuUQJBXv_-.ttf';
+  'http://fonts.gstatic.com/s/bigshotone/v23/u-470qukhRkkO6BD_7cM_gxuUQJBXv_-.ttf';
 export const CarterOne_400Regular =
   'http://fonts.gstatic.com/s/carterone/v12/q5uCsoe5IOB2-pXv9UcNIxR2hYxREMs.ttf';
 export const DidactGothic_400Regular =
   'http://fonts.gstatic.com/s/didactgothic/v14/ahcfv8qz1zt6hCC5G4F_P4ASpUySp0LlcyQ.ttf';
 export const ExpletusSans_400Regular =
-  'http://fonts.gstatic.com/s/expletussans/v14/RLp5K5v5_bqufTYdnhFzDj2dRfkSu6EuTHo.ttf';
-export const ExpletusSans_400Regular_Italic =
-  'http://fonts.gstatic.com/s/expletussans/v14/RLpnK5v5_bqufTYdnhFzDj2ddfsYv4MrXHrRDA.ttf';
+  'http://fonts.gstatic.com/s/expletussans/v19/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaSY2s1oFQTcXfMm.ttf';
 export const ExpletusSans_500Medium =
-  'http://fonts.gstatic.com/s/expletussans/v14/RLpkK5v5_bqufTYdnhFzDj2dfQ07n6kFUHPIFaU.ttf';
-export const ExpletusSans_500Medium_Italic =
-  'http://fonts.gstatic.com/s/expletussans/v14/RLpiK5v5_bqufTYdnhFzDj2ddfsgS6oPVFHNBaVImA.ttf';
+  'http://fonts.gstatic.com/s/expletussans/v19/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaSq2s1oFQTcXfMm.ttf';
 export const ExpletusSans_600SemiBold =
-  'http://fonts.gstatic.com/s/expletussans/v14/RLpkK5v5_bqufTYdnhFzDj2dfSE8n6kFUHPIFaU.ttf';
-export const ExpletusSans_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/expletussans/v14/RLpiK5v5_bqufTYdnhFzDj2ddfsgZ60PVFHNBaVImA.ttf';
+  'http://fonts.gstatic.com/s/expletussans/v19/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaRG3c1oFQTcXfMm.ttf';
 export const ExpletusSans_700Bold =
-  'http://fonts.gstatic.com/s/expletussans/v14/RLpkK5v5_bqufTYdnhFzDj2dfUU9n6kFUHPIFaU.ttf';
+  'http://fonts.gstatic.com/s/expletussans/v19/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaR_3c1oFQTcXfMm.ttf';
+export const ExpletusSans_400Regular_Italic =
+  'http://fonts.gstatic.com/s/expletussans/v19/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmSUrHwD-WOMmKKY.ttf';
+export const ExpletusSans_500Medium_Italic =
+  'http://fonts.gstatic.com/s/expletussans/v19/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmRcrHwD-WOMmKKY.ttf';
+export const ExpletusSans_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/expletussans/v19/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmfssHwD-WOMmKKY.ttf';
 export const ExpletusSans_700Bold_Italic =
-  'http://fonts.gstatic.com/s/expletussans/v14/RLpiK5v5_bqufTYdnhFzDj2ddfsgA6wPVFHNBaVImA.ttf';
+  'http://fonts.gstatic.com/s/expletussans/v19/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmcIsHwD-WOMmKKY.ttf';
 export const FrancoisOne_400Regular =
   'http://fonts.gstatic.com/s/francoisone/v15/_Xmr-H4zszafZw3A-KPSZutNxgKQu_avAg.ttf';
 export const HoltwoodOneSC_400Regular =
   'http://fonts.gstatic.com/s/holtwoodonesc/v11/yYLx0hLR0P-3vMFSk1TCq3Txg5B3cbb6LZttyg.ttf';
 export const Judson_400Regular =
-  'http://fonts.gstatic.com/s/judson/v13/FeVRS0Fbvbc14VxRD7N01bV7kg.ttf';
+  'http://fonts.gstatic.com/s/judson/v16/FeVRS0Fbvbc14VxRD7N01bV7kg.ttf';
 export const Judson_400Regular_Italic =
-  'http://fonts.gstatic.com/s/judson/v13/FeVTS0Fbvbc14VxhDblw97BrknZf.ttf';
+  'http://fonts.gstatic.com/s/judson/v16/FeVTS0Fbvbc14VxhDblw97BrknZf.ttf';
 export const Judson_700Bold =
-  'http://fonts.gstatic.com/s/judson/v13/FeVSS0Fbvbc14Vxps5xQ3Z5nm29Gww.ttf';
+  'http://fonts.gstatic.com/s/judson/v16/FeVSS0Fbvbc14Vxps5xQ3Z5nm29Gww.ttf';
 export const Megrim_400Regular =
-  'http://fonts.gstatic.com/s/megrim/v11/46kulbz5WjvLqJZlbWXgd0RY1g.ttf';
+  'http://fonts.gstatic.com/s/megrim/v14/46kulbz5WjvLqJZlbWXgd0RY1g.ttf';
 export const Monofett_400Regular =
-  'http://fonts.gstatic.com/s/monofett/v12/mFTyWbofw6zc9NtnW43SuRwr0VJ7.ttf';
+  'http://fonts.gstatic.com/s/monofett/v20/mFTyWbofw6zc9NtnW43SuRwr0VJ7.ttf';
 export const PaytoneOne_400Regular =
   'http://fonts.gstatic.com/s/paytoneone/v13/0nksC9P7MfYHj2oFtYm2CiTqivr9iBq_.ttf';
 export const Play_400Regular = 'http://fonts.gstatic.com/s/play/v12/6aez4K2oVqwIjtI8Hp8Tx3A.ttf';
@@ -6173,9 +8701,9 @@ export const NewsCycle_400Regular =
 export const NewsCycle_700Bold =
   'http://fonts.gstatic.com/s/newscycle/v17/CSR54z1Qlv-GDxkbKVQ_dFsvaNNUuOwkC2s.ttf';
 export const OvertheRainbow_400Regular =
-  'http://fonts.gstatic.com/s/overtherainbow/v11/11haGoXG1k_HKhMLUWz7Mc7vvW5upvOm9NA2XG0.ttf';
+  'http://fonts.gstatic.com/s/overtherainbow/v14/11haGoXG1k_HKhMLUWz7Mc7vvW5upvOm9NA2XG0.ttf';
 export const SwankyandMooMoo_400Regular =
-  'http://fonts.gstatic.com/s/swankyandmoomoo/v12/flUlRrKz24IuWVI_WJYTYcqbEsMUZ3kUtbPkR64SYQ.ttf';
+  'http://fonts.gstatic.com/s/swankyandmoomoo/v20/flUlRrKz24IuWVI_WJYTYcqbEsMUZ3kUtbPkR64SYQ.ttf';
 export const Syncopate_400Regular =
   'http://fonts.gstatic.com/s/syncopate/v12/pe0sMIuPIYBCpEV5eFdyAv2-C99ycg.ttf';
 export const Syncopate_700Bold =
@@ -6185,25 +8713,25 @@ export const Wallpoet_400Regular =
 export const Siemreap_400Regular =
   'http://fonts.gstatic.com/s/siemreap/v15/Gg82N5oFbgLvHAfNl2YbnA8DLXpe.ttf';
 export const Smythe_400Regular =
-  'http://fonts.gstatic.com/s/smythe/v13/MwQ3bhT01--coT1BOLh_uGInjA.ttf';
+  'http://fonts.gstatic.com/s/smythe/v21/MwQ3bhT01--coT1BOLh_uGInjA.ttf';
 export const SpecialElite_400Regular =
   'http://fonts.gstatic.com/s/specialelite/v11/XLYgIZbkc4JPUL5CVArUVL0nhncESXFtUsM.ttf';
 export const TheGirlNextDoor_400Regular =
-  'http://fonts.gstatic.com/s/thegirlnextdoor/v13/pe0zMJCIMIsBjFxqYBIcZ6_OI5oFHCYIV7t7w6bE2A.ttf';
+  'http://fonts.gstatic.com/s/thegirlnextdoor/v16/pe0zMJCIMIsBjFxqYBIcZ6_OI5oFHCYIV7t7w6bE2A.ttf';
 export const AnnieUseYourTelescope_400Regular =
   'http://fonts.gstatic.com/s/annieuseyourtelescope/v11/daaLSS4tI2qYYl3Jq9s_Hu74xwktnlKxH6osGVGjlDfB3UUVZA.ttf';
 export const DawningofaNewDay_400Regular =
-  'http://fonts.gstatic.com/s/dawningofanewday/v11/t5t_IQMbOp2SEwuncwLRjMfIg1yYit_nAz8bhWJGNoBE.ttf';
+  'http://fonts.gstatic.com/s/dawningofanewday/v14/t5t_IQMbOp2SEwuncwLRjMfIg1yYit_nAz8bhWJGNoBE.ttf';
 export const NovaSquare_400Regular =
-  'http://fonts.gstatic.com/s/novasquare/v15/RrQUbo9-9DV7b06QHgSWsZhARYMgGtWA.ttf';
+  'http://fonts.gstatic.com/s/novasquare/v18/RrQUbo9-9DV7b06QHgSWsZhARYMgGtWA.ttf';
 export const SueEllenFrancisco_400Regular =
-  'http://fonts.gstatic.com/s/sueellenfrancisco/v11/wXK3E20CsoJ9j1DDkjHcQ5ZL8xRaxru9ropF2lqk9H4.ttf';
+  'http://fonts.gstatic.com/s/sueellenfrancisco/v14/wXK3E20CsoJ9j1DDkjHcQ5ZL8xRaxru9ropF2lqk9H4.ttf';
 export const WaitingfortheSunrise_400Regular =
-  'http://fonts.gstatic.com/s/waitingforthesunrise/v11/WBL1rFvOYl9CEv2i1mO6KUW8RKWJ2zoXoz5JsYZQ9h_ZYk5J.ttf';
+  'http://fonts.gstatic.com/s/waitingforthesunrise/v14/WBL1rFvOYl9CEv2i1mO6KUW8RKWJ2zoXoz5JsYZQ9h_ZYk5J.ttf';
 export const Miltonian_400Regular =
-  'http://fonts.gstatic.com/s/miltonian/v16/zOL-4pbPn6Ne9JqTg9mr6e5As-FeiQ.ttf';
+  'http://fonts.gstatic.com/s/miltonian/v24/zOL-4pbPn6Ne9JqTg9mr6e5As-FeiQ.ttf';
 export const MiltonianTattoo_400Regular =
-  'http://fonts.gstatic.com/s/miltoniantattoo/v18/EvOUzBRL0o0kCxF-lcMCQxlpVsA_FwP8MDBku-s.ttf';
+  'http://fonts.gstatic.com/s/miltoniantattoo/v26/EvOUzBRL0o0kCxF-lcMCQxlpVsA_FwP8MDBku-s.ttf';
 export const Michroma_400Regular =
   'http://fonts.gstatic.com/s/michroma/v11/PN_zRfy9qWD8fEagAMg6rzjb_-Da.ttf';
 export const Cabin_400Regular =
@@ -6223,39 +8751,39 @@ export const Cabin_600SemiBold_Italic =
 export const Cabin_700Bold_Italic =
   'http://fonts.gstatic.com/s/cabin/v18/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHIPWlwkzuA_u1Bg.ttf';
 export const EBGaramond_400Regular =
-  'http://fonts.gstatic.com/s/ebgaramond/v15/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RUA4V-e6yHgQ.ttf';
+  'http://fonts.gstatic.com/s/ebgaramond/v19/~ChoKC0VCIEdhcmFtb25kOgsI9NCduwcVAADIQyAAKgQIARgB.ttf';
 export const EBGaramond_500Medium =
-  'http://fonts.gstatic.com/s/ebgaramond/v15/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-2fRUA4V-e6yHgQ.ttf';
+  'http://fonts.gstatic.com/s/ebgaramond/v19/~ChoKC0VCIEdhcmFtb25kOgsI9NCduwcVAAD6QyAAKgQIARgB.ttf';
 export const EBGaramond_600SemiBold =
-  'http://fonts.gstatic.com/s/ebgaramond/v15/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-NfNUA4V-e6yHgQ.ttf';
+  'http://fonts.gstatic.com/s/ebgaramond/v19/~ChoKC0VCIEdhcmFtb25kOgsI9NCduwcVAAAWRCAAKgQIARgB.ttf';
 export const EBGaramond_700Bold =
-  'http://fonts.gstatic.com/s/ebgaramond/v15/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNUA4V-e6yHgQ.ttf';
+  'http://fonts.gstatic.com/s/ebgaramond/v19/~ChoKC0VCIEdhcmFtb25kOgsI9NCduwcVAAAvRCAAKgQIARgB.ttf';
 export const EBGaramond_800ExtraBold =
-  'http://fonts.gstatic.com/s/ebgaramond/v15/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-a_NUA4V-e6yHgQ.ttf';
+  'http://fonts.gstatic.com/s/ebgaramond/v19/~ChoKC0VCIEdhcmFtb25kOgsI9NCduwcVAABIRCAAKgQIARgB.ttf';
 export const EBGaramond_400Regular_Italic =
-  'http://fonts.gstatic.com/s/ebgaramond/v15/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QI96WamXgXFI.ttf';
+  'http://fonts.gstatic.com/s/ebgaramond/v19/~ChwKC0VCIEdhcmFtb25kEAI6Cwj00J27BxUAAMhDIAAqBAgBGAE=.ttf';
 export const EBGaramond_500Medium_Italic =
-  'http://fonts.gstatic.com/s/ebgaramond/v15/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7eOQI96WamXgXFI.ttf';
+  'http://fonts.gstatic.com/s/ebgaramond/v19/~ChwKC0VCIEdhcmFtb25kEAI6Cwj00J27BxUAAPpDIAAqBAgBGAE=.ttf';
 export const EBGaramond_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/ebgaramond/v15/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7diR496WamXgXFI.ttf';
+  'http://fonts.gstatic.com/s/ebgaramond/v19/~ChwKC0VCIEdhcmFtb25kEAI6Cwj00J27BxUAABZEIAAqBAgBGAE=.ttf';
 export const EBGaramond_700Bold_Italic =
-  'http://fonts.gstatic.com/s/ebgaramond/v15/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7dbR496WamXgXFI.ttf';
+  'http://fonts.gstatic.com/s/ebgaramond/v19/~ChwKC0VCIEdhcmFtb25kEAI6Cwj00J27BxUAAC9EIAAqBAgBGAE=.ttf';
 export const EBGaramond_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/ebgaramond/v15/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7c8R496WamXgXFI.ttf';
+  'http://fonts.gstatic.com/s/ebgaramond/v19/~ChwKC0VCIEdhcmFtb25kEAI6Cwj00J27BxUAAEhEIAAqBAgBGAE=.ttf';
 export const NovaCut_400Regular =
-  'http://fonts.gstatic.com/s/novacut/v14/KFOkCnSYu8mL-39LkWxPKTM1K9nz.ttf';
+  'http://fonts.gstatic.com/s/novacut/v22/KFOkCnSYu8mL-39LkWxPKTM1K9nz.ttf';
 export const NovaFlat_400Regular =
-  'http://fonts.gstatic.com/s/novaflat/v14/QdVUSTc-JgqpytEbVebEuStkm20oJA.ttf';
+  'http://fonts.gstatic.com/s/novaflat/v22/QdVUSTc-JgqpytEbVebEuStkm20oJA.ttf';
 export const NovaMono_400Regular =
-  'http://fonts.gstatic.com/s/novamono/v13/Cn-0JtiGWQ5Ajb--MRKfYGxYrdM9Sg.ttf';
+  'http://fonts.gstatic.com/s/novamono/v16/Cn-0JtiGWQ5Ajb--MRKfYGxYrdM9Sg.ttf';
 export const NovaOval_400Regular =
-  'http://fonts.gstatic.com/s/novaoval/v14/jAnEgHdmANHvPenMaswCMY-h3cWkWg.ttf';
+  'http://fonts.gstatic.com/s/novaoval/v22/jAnEgHdmANHvPenMaswCMY-h3cWkWg.ttf';
 export const NovaRound_400Regular =
-  'http://fonts.gstatic.com/s/novaround/v14/flU9Rqquw5UhEnlwTJYTYYfeeetYEBc.ttf';
+  'http://fonts.gstatic.com/s/novaround/v19/flU9Rqquw5UhEnlwTJYTYYfeeetYEBc.ttf';
 export const NovaScript_400Regular =
-  'http://fonts.gstatic.com/s/novascript/v15/7Au7p_IpkSWSTWaFWkumvmQNEl0O0kEx.ttf';
+  'http://fonts.gstatic.com/s/novascript/v23/7Au7p_IpkSWSTWaFWkumvmQNEl0O0kEx.ttf';
 export const NovaSlim_400Regular =
-  'http://fonts.gstatic.com/s/novaslim/v14/Z9XUDmZNQAuem8jyZcn-yMOInrib9Q.ttf';
+  'http://fonts.gstatic.com/s/novaslim/v22/Z9XUDmZNQAuem8jyZcn-yMOInrib9Q.ttf';
 export const CabinSketch_400Regular =
   'http://fonts.gstatic.com/s/cabinsketch/v14/QGYpz_kZZAGCONcK2A4bGOjMn9JM6fnuKg.ttf';
 export const CabinSketch_700Bold =
@@ -6269,59 +8797,75 @@ export const Candal_400Regular =
 export const IndieFlower_400Regular =
   'http://fonts.gstatic.com/s/indieflower/v12/m8JVjfNVeKWVnh3QMuKkFcZlbkGG1dKEDw.ttf';
 export const LeagueScript_400Regular =
-  'http://fonts.gstatic.com/s/leaguescript/v14/CSR54zpSlumSWj9CGVsoBZdeaNNUuOwkC2s.ttf';
+  'http://fonts.gstatic.com/s/leaguescript/v22/CSR54zpSlumSWj9CGVsoBZdeaNNUuOwkC2s.ttf';
 export const Pacifico_400Regular =
   'http://fonts.gstatic.com/s/pacifico/v17/FwZY7-Qmy14u9lezJ96A4sijpFu_.ttf';
 export const Angkor_400Regular =
-  'http://fonts.gstatic.com/s/angkor/v15/H4cmBXyAlsPdnlb-8iw-4Lqggw.ttf';
+  'http://fonts.gstatic.com/s/angkor/v26/H4cmBXyAlsPdnlb-8iw-4Lqggw.ttf';
+export const Battambang_100Thin =
+  'http://fonts.gstatic.com/s/battambang/v22/uk-kEGe7raEw-HjkzZabNhGp5w50_o9T7Q.ttf';
+export const Battambang_300Light =
+  'http://fonts.gstatic.com/s/battambang/v22/uk-lEGe7raEw-HjkzZabNtmLxyRa8oZK9I0.ttf';
 export const Battambang_400Regular =
-  'http://fonts.gstatic.com/s/battambang/v14/uk-mEGe7raEw-HjkzZabDnWj4yxx7o8.ttf';
+  'http://fonts.gstatic.com/s/battambang/v22/uk-mEGe7raEw-HjkzZabDnWj4yxx7o8.ttf';
 export const Battambang_700Bold =
-  'http://fonts.gstatic.com/s/battambang/v14/uk-lEGe7raEw-HjkzZabNsmMxyRa8oZK9I0.ttf';
-export const Bayon_400Regular = 'http://fonts.gstatic.com/s/bayon/v16/9XUrlJNmn0LPFl-pOhYEd2NJ.ttf';
-export const Bokor_400Regular = 'http://fonts.gstatic.com/s/bokor/v15/m8JcjfpeeaqTiR2WdInbcaxE.ttf';
+  'http://fonts.gstatic.com/s/battambang/v22/uk-lEGe7raEw-HjkzZabNsmMxyRa8oZK9I0.ttf';
+export const Battambang_900Black =
+  'http://fonts.gstatic.com/s/battambang/v22/uk-lEGe7raEw-HjkzZabNvGOxyRa8oZK9I0.ttf';
+export const Bayon_400Regular = 'http://fonts.gstatic.com/s/bayon/v27/9XUrlJNmn0LPFl-pOhYEd2NJ.ttf';
+export const Bokor_400Regular = 'http://fonts.gstatic.com/s/bokor/v28/m8JcjfpeeaqTiR2WdInbcaxE.ttf';
 export const Chenla_400Regular =
-  'http://fonts.gstatic.com/s/chenla/v15/SZc43FDpIKu8WZ9eXxfonUPL6Q.ttf';
+  'http://fonts.gstatic.com/s/chenla/v23/SZc43FDpIKu8WZ9eXxfonUPL6Q.ttf';
 export const Content_400Regular =
   'http://fonts.gstatic.com/s/content/v15/zrfl0HLayePhU_AwUaDyIiL0RCg.ttf';
 export const Content_700Bold =
   'http://fonts.gstatic.com/s/content/v15/zrfg0HLayePhU_AwaRzdBirfWCHvkAI.ttf';
 export const Dangrek_400Regular =
-  'http://fonts.gstatic.com/s/dangrek/v14/LYjCdG30nEgoH8E2gCNqqVIuTN4.ttf';
+  'http://fonts.gstatic.com/s/dangrek/v24/LYjCdG30nEgoH8E2gCNqqVIuTN4.ttf';
 export const Freehand_400Regular =
-  'http://fonts.gstatic.com/s/freehand/v14/cIf-Ma5eqk01VjKTgAmBTmUOmZJk.ttf';
-export const Khmer_400Regular = 'http://fonts.gstatic.com/s/khmer/v15/MjQImit_vPPwpF-BpN2EeYmD.ttf';
+  'http://fonts.gstatic.com/s/freehand/v25/cIf-Ma5eqk01VjKTgAmBTmUOmZJk.ttf';
+export const Khmer_400Regular = 'http://fonts.gstatic.com/s/khmer/v23/MjQImit_vPPwpF-BpN2EeYmD.ttf';
 export const Koulen_400Regular =
-  'http://fonts.gstatic.com/s/koulen/v16/AMOQz46as3KIBPeWgnA9kuYMUg.ttf';
+  'http://fonts.gstatic.com/s/koulen/v23/AMOQz46as3KIBPeWgnA9kuYMUg.ttf';
 export const MedievalSharp_400Regular =
-  'http://fonts.gstatic.com/s/medievalsharp/v14/EvOJzAlL3oU5AQl2mP5KdgptAq96MwvXLDk.ttf';
-export const Metal_400Regular = 'http://fonts.gstatic.com/s/metal/v15/lW-wwjUJIXTo7i3nnoQAUdN2.ttf';
-export const Moul_400Regular = 'http://fonts.gstatic.com/s/moul/v14/nuF2D__FSo_3E-RYiJCy-00.ttf';
+  'http://fonts.gstatic.com/s/medievalsharp/v22/EvOJzAlL3oU5AQl2mP5KdgptAq96MwvXLDk.ttf';
+export const Metal_400Regular = 'http://fonts.gstatic.com/s/metal/v26/lW-wwjUJIXTo7i3nnoQAUdN2.ttf';
+export const Moul_400Regular = 'http://fonts.gstatic.com/s/moul/v23/nuF2D__FSo_3E-RYiJCy-00.ttf';
 export const Moulpali_400Regular =
-  'http://fonts.gstatic.com/s/moulpali/v15/H4ckBXKMl9HagUWymyY6wr-wg763.ttf';
+  'http://fonts.gstatic.com/s/moulpali/v26/H4ckBXKMl9HagUWymyY6wr-wg763.ttf';
 export const OdorMeanChey_400Regular =
-  'http://fonts.gstatic.com/s/odormeanchey/v14/raxkHiKDttkTe1aOGcJMR1A_4mrY2zqUKafv.ttf';
+  'http://fonts.gstatic.com/s/odormeanchey/v25/raxkHiKDttkTe1aOGcJMR1A_4mrY2zqUKafv.ttf';
 export const Preahvihear_400Regular =
-  'http://fonts.gstatic.com/s/preahvihear/v14/6NUS8F-dNQeEYhzj7uluxswE49FJf8Wv.ttf';
+  'http://fonts.gstatic.com/s/preahvihear/v25/6NUS8F-dNQeEYhzj7uluxswE49FJf8Wv.ttf';
+export const Suwannaphum_100Thin =
+  'http://fonts.gstatic.com/s/suwannaphum/v27/jAnAgHV7GtDvc8jbe8hXXL3B9cSWXx2VZmk.ttf';
+export const Suwannaphum_300Light =
+  'http://fonts.gstatic.com/s/suwannaphum/v27/jAnfgHV7GtDvc8jbe8hXXL0J1-S8cRGcf3Ai.ttf';
 export const Suwannaphum_400Regular =
-  'http://fonts.gstatic.com/s/suwannaphum/v16/jAnCgHV7GtDvc8jbe8hXXIWl_8C0Wg2V.ttf';
+  'http://fonts.gstatic.com/s/suwannaphum/v27/jAnCgHV7GtDvc8jbe8hXXIWl_8C0Wg2V.ttf';
+export const Suwannaphum_700Bold =
+  'http://fonts.gstatic.com/s/suwannaphum/v27/jAnfgHV7GtDvc8jbe8hXXL0Z0OS8cRGcf3Ai.ttf';
+export const Suwannaphum_900Black =
+  'http://fonts.gstatic.com/s/suwannaphum/v27/jAnfgHV7GtDvc8jbe8hXXL0h0uS8cRGcf3Ai.ttf';
 export const Taprom_400Regular =
-  'http://fonts.gstatic.com/s/taprom/v14/UcCn3F82JHycULbFQyk3-0kvHg.ttf';
-export const VT323_400Regular = 'http://fonts.gstatic.com/s/vt323/v12/pxiKyp0ihIEF2hsYHpT2dkNE.ttf';
+  'http://fonts.gstatic.com/s/taprom/v25/UcCn3F82JHycULbFQyk3-0kvHg.ttf';
+export const VT323_400Regular = 'http://fonts.gstatic.com/s/vt323/v15/pxiKyp0ihIEF2hsYHpT2dkNE.ttf';
 export const Anton_400Regular = 'http://fonts.gstatic.com/s/anton/v15/1Ptgg87LROyAm0K08i4gS7lu.ttf';
-export const Bevan_400Regular = 'http://fonts.gstatic.com/s/bevan/v12/4iCj6KZ0a9NXjF8aUir7tlSJ.ttf';
+export const Bevan_400Regular = 'http://fonts.gstatic.com/s/bevan/v18/4iCj6KZ0a9NXjF8aUir7tlSJ.ttf';
+export const Bevan_400Regular_Italic =
+  'http://fonts.gstatic.com/s/bevan/v18/4iCt6KZ0a9NXjG8YWC7Zs0SJD4U.ttf';
 export const Astloch_400Regular =
-  'http://fonts.gstatic.com/s/astloch/v14/TuGRUVJ8QI5GSeUjq9wRzMtkH1Q.ttf';
+  'http://fonts.gstatic.com/s/astloch/v24/TuGRUVJ8QI5GSeUjq9wRzMtkH1Q.ttf';
 export const Astloch_700Bold =
-  'http://fonts.gstatic.com/s/astloch/v14/TuGUUVJ8QI5GSeUjk2A-6MNPA10xLMQ.ttf';
+  'http://fonts.gstatic.com/s/astloch/v24/TuGUUVJ8QI5GSeUjk2A-6MNPA10xLMQ.ttf';
 export const SixCaps_400Regular =
   'http://fonts.gstatic.com/s/sixcaps/v11/6ae_4KGrU7VR7bNmabcS9XXaPCop.ttf';
 export const Bangers_400Regular =
   'http://fonts.gstatic.com/s/bangers/v13/FeVQS0BTqb0h60ACL5la2bxii28.ttf';
 export const CodaCaption_800ExtraBold =
-  'http://fonts.gstatic.com/s/codacaption/v14/ieVm2YRII2GMY7SyXSoDRiQGqcx6x_-fACIgaw.ttf';
+  'http://fonts.gstatic.com/s/codacaption/v17/ieVm2YRII2GMY7SyXSoDRiQGqcx6x_-fACIgaw.ttf';
 export const GoudyBookletter1911_400Regular =
-  'http://fonts.gstatic.com/s/goudybookletter1911/v10/sykt-z54laciWfKv-kX8krex0jDiD2HbY6I5tRbXZ4IXAA.ttf';
+  'http://fonts.gstatic.com/s/goudybookletter1911/v13/sykt-z54laciWfKv-kX8krex0jDiD2HbY6I5tRbXZ4IXAA.ttf';
 export const Neuton_200ExtraLight =
   'http://fonts.gstatic.com/s/neuton/v13/UMBQrPtMoH62xUZKAKkfegD5Drog6Q.ttf';
 export const Neuton_300Light =
@@ -6347,60 +8891,52 @@ export const PTSerifCaption_400Regular =
 export const PTSerifCaption_400Regular_Italic =
   'http://fonts.gstatic.com/s/ptserifcaption/v12/ieVj2ZhbGCW-JoW6S34pSDpqYKU019e7CAk8YvJEeg.ttf';
 export const Kreon_300Light =
-  'http://fonts.gstatic.com/s/kreon/v24/t5t9IRIUKY-TFF_LW5lnMR3v2DnvPNimejUfp2dWNg.ttf';
+  'http://fonts.gstatic.com/s/kreon/v27/t5t9IRIUKY-TFF_LW5lnMR3v2DnvPNimejUfp2dWNg.ttf';
 export const Kreon_400Regular =
-  'http://fonts.gstatic.com/s/kreon/v24/t5t9IRIUKY-TFF_LW5lnMR3v2DnvYtimejUfp2dWNg.ttf';
+  'http://fonts.gstatic.com/s/kreon/v27/t5t9IRIUKY-TFF_LW5lnMR3v2DnvYtimejUfp2dWNg.ttf';
 export const Kreon_500Medium =
-  'http://fonts.gstatic.com/s/kreon/v24/t5t9IRIUKY-TFF_LW5lnMR3v2DnvUNimejUfp2dWNg.ttf';
+  'http://fonts.gstatic.com/s/kreon/v27/t5t9IRIUKY-TFF_LW5lnMR3v2DnvUNimejUfp2dWNg.ttf';
 export const Kreon_600SemiBold =
-  'http://fonts.gstatic.com/s/kreon/v24/t5t9IRIUKY-TFF_LW5lnMR3v2DnvvN-mejUfp2dWNg.ttf';
+  'http://fonts.gstatic.com/s/kreon/v27/t5t9IRIUKY-TFF_LW5lnMR3v2DnvvN-mejUfp2dWNg.ttf';
 export const Kreon_700Bold =
-  'http://fonts.gstatic.com/s/kreon/v24/t5t9IRIUKY-TFF_LW5lnMR3v2Dnvhd-mejUfp2dWNg.ttf';
+  'http://fonts.gstatic.com/s/kreon/v27/t5t9IRIUKY-TFF_LW5lnMR3v2Dnvhd-mejUfp2dWNg.ttf';
 export const Meddon_400Regular =
-  'http://fonts.gstatic.com/s/meddon/v15/kmK8ZqA2EgDNeHTZhBdB3y_Aow.ttf';
+  'http://fonts.gstatic.com/s/meddon/v18/kmK8ZqA2EgDNeHTZhBdB3y_Aow.ttf';
 export const OpenSans_300Light =
-  'http://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN_r8-VeJoCqeDjg.ttf';
-export const OpenSans_300Light_Italic =
-  'http://fonts.gstatic.com/s/opensans/v20/memnYaGs126MiZpBA-UFUKWyV-hsKKKTjrPW.ttf';
+  'http://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4nY1M2xLER.ttf';
 export const OpenSans_400Regular =
-  'http://fonts.gstatic.com/s/opensans/v20/mem8YaGs126MiZpBA-U1UpcaXcl0Aw.ttf';
-export const OpenSans_400Regular_Italic =
-  'http://fonts.gstatic.com/s/opensans/v20/mem6YaGs126MiZpBA-UFUJ0ef8xkA76a.ttf';
+  'http://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4nY1M2xLER.ttf';
+export const OpenSans_500Medium =
+  'http://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjr0C4nY1M2xLER.ttf';
 export const OpenSans_600SemiBold =
-  'http://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UNirk-VeJoCqeDjg.ttf';
-export const OpenSans_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/opensans/v20/memnYaGs126MiZpBA-UFUKXGUehsKKKTjrPW.ttf';
+  'http://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4nY1M2xLER.ttf';
 export const OpenSans_700Bold =
-  'http://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN7rg-VeJoCqeDjg.ttf';
-export const OpenSans_700Bold_Italic =
-  'http://fonts.gstatic.com/s/opensans/v20/memnYaGs126MiZpBA-UFUKWiUOhsKKKTjrPW.ttf';
+  'http://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4nY1M2xLER.ttf';
 export const OpenSans_800ExtraBold =
-  'http://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN8rs-VeJoCqeDjg.ttf';
+  'http://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4nY1M2xLER.ttf';
+export const OpenSans_300Light_Italic =
+  'http://fonts.gstatic.com/s/opensans/v27/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVcUwaERZjA.ttf';
+export const OpenSans_400Regular_Italic =
+  'http://fonts.gstatic.com/s/opensans/v27/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVcUwaERZjA.ttf';
+export const OpenSans_500Medium_Italic =
+  'http://fonts.gstatic.com/s/opensans/v27/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk_RkaVcUwaERZjA.ttf';
+export const OpenSans_600SemiBold_Italic =
+  'http://fonts.gstatic.com/s/opensans/v27/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjaVcUwaERZjA.ttf';
+export const OpenSans_700Bold_Italic =
+  'http://fonts.gstatic.com/s/opensans/v27/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjaVcUwaERZjA.ttf';
 export const OpenSans_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/opensans/v20/memnYaGs126MiZpBA-UFUKW-U-hsKKKTjrPW.ttf';
-export const CrimsonText_400Regular =
-  'http://fonts.gstatic.com/s/crimsontext/v11/wlp2gwHKFkZgtmSR3NB0oRJvaAJSA_JN3Q.ttf';
-export const CrimsonText_400Regular_Italic =
-  'http://fonts.gstatic.com/s/crimsontext/v11/wlpogwHKFkZgtmSR3NB0oRJfaghWIfdd3ahG.ttf';
-export const CrimsonText_600SemiBold =
-  'http://fonts.gstatic.com/s/crimsontext/v11/wlppgwHKFkZgtmSR3NB0oRJXsCx2C9lR1LFffg.ttf';
-export const CrimsonText_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/crimsontext/v11/wlprgwHKFkZgtmSR3NB0oRJfajCOD9NV9rRPfrKu.ttf';
-export const CrimsonText_700Bold =
-  'http://fonts.gstatic.com/s/crimsontext/v11/wlppgwHKFkZgtmSR3NB0oRJX1C12C9lR1LFffg.ttf';
-export const CrimsonText_700Bold_Italic =
-  'http://fonts.gstatic.com/s/crimsontext/v11/wlprgwHKFkZgtmSR3NB0oRJfajDqDtNV9rRPfrKu.ttf';
+  'http://fonts.gstatic.com/s/opensans/v27/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjaVcUwaERZjA.ttf';
 export const Calligraffitti_400Regular =
-  'http://fonts.gstatic.com/s/calligraffitti/v12/46k2lbT3XjDVqJw3DCmCFjE0vnFZM5ZBpYN-.ttf';
+  'http://fonts.gstatic.com/s/calligraffitti/v17/46k2lbT3XjDVqJw3DCmCFjE0vnFZM5ZBpYN-.ttf';
 export const CherryCreamSoda_400Regular =
   'http://fonts.gstatic.com/s/cherrycreamsoda/v13/UMBIrOxBrW6w2FFyi9paG0fdVdRciTd6Cd47DJ7G.ttf';
 export const Chewy_400Regular = 'http://fonts.gstatic.com/s/chewy/v12/uK_94ruUb-k-wk5xIDMfO-ed.ttf';
 export const ComingSoon_400Regular =
-  'http://fonts.gstatic.com/s/comingsoon/v12/qWcuB6mzpYL7AJ2VfdQR1u-SUjjzsykh.ttf';
+  'http://fonts.gstatic.com/s/comingsoon/v17/qWcuB6mzpYL7AJ2VfdQR1u-SUjjzsykh.ttf';
 export const CraftyGirls_400Regular =
   'http://fonts.gstatic.com/s/craftygirls/v10/va9B4kXI39VaDdlPJo8N_NvuQR37fF3Wlg.ttf';
 export const Crushed_400Regular =
-  'http://fonts.gstatic.com/s/crushed/v13/U9Mc6dym6WXImTlFT1kfuIqyLzA.ttf';
+  'http://fonts.gstatic.com/s/crushed/v23/U9Mc6dym6WXImTlFT1kfuIqyLzA.ttf';
 export const FontdinerSwanky_400Regular =
   'http://fonts.gstatic.com/s/fontdinerswanky/v11/ijwOs4XgRNsiaI5-hcVb4hQgMvCD4uEfKiGvxts.ttf';
 export const HomemadeApple_400Regular =
@@ -6421,28 +8957,28 @@ export const Sunshiney_400Regular =
   'http://fonts.gstatic.com/s/sunshiney/v13/LDIwapGTLBwsS-wT4vcgE8moUePWkg.ttf';
 export const WalterTurncoat_400Regular =
   'http://fonts.gstatic.com/s/walterturncoat/v13/snfys0Gs98ln43n0d-14ULoToe67YB2dQ5ZPqQ.ttf';
-export const Buda_300Light = 'http://fonts.gstatic.com/s/buda/v13/GFDqWAN8mnyIJSSrG7UBr7pZKA0.ttf';
+export const Buda_300Light = 'http://fonts.gstatic.com/s/buda/v23/GFDqWAN8mnyIJSSrG7UBr7pZKA0.ttf';
 export const Corben_400Regular =
-  'http://fonts.gstatic.com/s/corben/v14/LYjDdGzzklQtCMp9oAlEpVs3VQ.ttf';
+  'http://fonts.gstatic.com/s/corben/v17/LYjDdGzzklQtCMp9oAlEpVs3VQ.ttf';
 export const Corben_700Bold =
-  'http://fonts.gstatic.com/s/corben/v14/LYjAdGzzklQtCMpFHCZgrXArXN7HWQ.ttf';
+  'http://fonts.gstatic.com/s/corben/v17/LYjAdGzzklQtCMpFHCZgrXArXN7HWQ.ttf';
 export const Gruppo_400Regular =
   'http://fonts.gstatic.com/s/gruppo/v11/WwkfxPmzE06v_ZWFWXDAOIEQUQ.ttf';
 export const JustAnotherHand_400Regular =
-  'http://fonts.gstatic.com/s/justanotherhand/v12/845CNN4-AJyIGvIou-6yJKyptyOpOcr_BmmlS5aw.ttf';
+  'http://fonts.gstatic.com/s/justanotherhand/v17/845CNN4-AJyIGvIou-6yJKyptyOpOcr_BmmlS5aw.ttf';
 export const Kristi_400Regular =
-  'http://fonts.gstatic.com/s/kristi/v12/uK_y4ricdeU6zwdRCh0TMv6EXw.ttf';
+  'http://fonts.gstatic.com/s/kristi/v15/uK_y4ricdeU6zwdRCh0TMv6EXw.ttf';
 export const Lekton_400Regular =
-  'http://fonts.gstatic.com/s/lekton/v11/SZc43FDmLaWmWpBeXxfonUPL6Q.ttf';
+  'http://fonts.gstatic.com/s/lekton/v15/SZc43FDmLaWmWpBeXxfonUPL6Q.ttf';
 export const Lekton_400Regular_Italic =
-  'http://fonts.gstatic.com/s/lekton/v11/SZc63FDmLaWmWpBuXR3sv0bb6StO.ttf';
+  'http://fonts.gstatic.com/s/lekton/v15/SZc63FDmLaWmWpBuXR3sv0bb6StO.ttf';
 export const Lekton_700Bold =
-  'http://fonts.gstatic.com/s/lekton/v11/SZc73FDmLaWmWpBm4zjMlWjX4DJXgQ.ttf';
+  'http://fonts.gstatic.com/s/lekton/v15/SZc73FDmLaWmWpBm4zjMlWjX4DJXgQ.ttf';
 export const MaidenOrange_400Regular =
-  'http://fonts.gstatic.com/s/maidenorange/v13/kJE1BuIX7AUmhi2V4m08kb1XjOZdCZS8FY8.ttf';
-export const Allan_400Regular = 'http://fonts.gstatic.com/s/allan/v13/ea8XadU7WuTxEtb2P9SF8nZE.ttf';
+  'http://fonts.gstatic.com/s/maidenorange/v23/kJE1BuIX7AUmhi2V4m08kb1XjOZdCZS8FY8.ttf';
+export const Allan_400Regular = 'http://fonts.gstatic.com/s/allan/v18/ea8XadU7WuTxEtb2P9SF8nZE.ttf';
 export const Allan_700Bold =
-  'http://fonts.gstatic.com/s/allan/v13/ea8aadU7WuTxEu5KEPCN2WpNgEKU.ttf';
+  'http://fonts.gstatic.com/s/allan/v18/ea8aadU7WuTxEu5KEPCN2WpNgEKU.ttf';
 export const AnonymousPro_400Regular =
   'http://fonts.gstatic.com/s/anonymouspro/v14/rP2Bp2a15UIB7Un-bOeISG3pLlw89CH98Ko.ttf';
 export const AnonymousPro_400Regular_Italic =
@@ -6451,39 +8987,39 @@ export const AnonymousPro_700Bold =
   'http://fonts.gstatic.com/s/anonymouspro/v14/rP2cp2a15UIB7Un-bOeISG3pFuAT0CnW7KOywKo.ttf';
 export const AnonymousPro_700Bold_Italic =
   'http://fonts.gstatic.com/s/anonymouspro/v14/rP2ap2a15UIB7Un-bOeISG3pHl4OTCzc6IG30KqB9Q.ttf';
-export const Copse_400Regular = 'http://fonts.gstatic.com/s/copse/v10/11hPGpDKz1rGb0djHkihUb-A.ttf';
-export const Kenia_400Regular = 'http://fonts.gstatic.com/s/kenia/v14/jizURE5PuHQH9qCONUGswfGM.ttf';
-export const Lato_100Thin = 'http://fonts.gstatic.com/s/lato/v17/S6u8w4BMUTPHh30wWyWrFCbw7A.ttf';
+export const Copse_400Regular = 'http://fonts.gstatic.com/s/copse/v13/11hPGpDKz1rGb0djHkihUb-A.ttf';
+export const Kenia_400Regular = 'http://fonts.gstatic.com/s/kenia/v22/jizURE5PuHQH9qCONUGswfGM.ttf';
+export const Lato_100Thin = 'http://fonts.gstatic.com/s/lato/v20/S6u8w4BMUTPHh30wWyWrFCbw7A.ttf';
 export const Lato_100Thin_Italic =
-  'http://fonts.gstatic.com/s/lato/v17/S6u-w4BMUTPHjxsIPy-vNiPg7MU0.ttf';
-export const Lato_300Light = 'http://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh7USew-FGC_p9dw.ttf';
+  'http://fonts.gstatic.com/s/lato/v20/S6u-w4BMUTPHjxsIPy-vNiPg7MU0.ttf';
+export const Lato_300Light = 'http://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh7USew-FGC_p9dw.ttf';
 export const Lato_300Light_Italic =
-  'http://fonts.gstatic.com/s/lato/v17/S6u_w4BMUTPHjxsI9w2PHA3s5dwt7w.ttf';
-export const Lato_400Regular = 'http://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHvxk6XweuBCY.ttf';
+  'http://fonts.gstatic.com/s/lato/v20/S6u_w4BMUTPHjxsI9w2PHA3s5dwt7w.ttf';
+export const Lato_400Regular = 'http://fonts.gstatic.com/s/lato/v20/S6uyw4BMUTPHvxk6XweuBCY.ttf';
 export const Lato_400Regular_Italic =
-  'http://fonts.gstatic.com/s/lato/v17/S6u8w4BMUTPHjxswWyWrFCbw7A.ttf';
-export const Lato_700Bold = 'http://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh6UVew-FGC_p9dw.ttf';
+  'http://fonts.gstatic.com/s/lato/v20/S6u8w4BMUTPHjxswWyWrFCbw7A.ttf';
+export const Lato_700Bold = 'http://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh6UVew-FGC_p9dw.ttf';
 export const Lato_700Bold_Italic =
-  'http://fonts.gstatic.com/s/lato/v17/S6u_w4BMUTPHjxsI5wqPHA3s5dwt7w.ttf';
-export const Lato_900Black = 'http://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh50Xew-FGC_p9dw.ttf';
+  'http://fonts.gstatic.com/s/lato/v20/S6u_w4BMUTPHjxsI5wqPHA3s5dwt7w.ttf';
+export const Lato_900Black = 'http://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh50Xew-FGC_p9dw.ttf';
 export const Lato_900Black_Italic =
-  'http://fonts.gstatic.com/s/lato/v17/S6u_w4BMUTPHjxsI3wiPHA3s5dwt7w.ttf';
+  'http://fonts.gstatic.com/s/lato/v20/S6u_w4BMUTPHjxsI3wiPHA3s5dwt7w.ttf';
 export const Orbitron_400Regular =
-  'http://fonts.gstatic.com/s/orbitron/v17/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyGy6xpmIyXjU1pg.ttf';
+  'http://fonts.gstatic.com/s/orbitron/v19/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyGy6xpmIyXjU1pg.ttf';
 export const Orbitron_500Medium =
-  'http://fonts.gstatic.com/s/orbitron/v17/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyKS6xpmIyXjU1pg.ttf';
+  'http://fonts.gstatic.com/s/orbitron/v19/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyKS6xpmIyXjU1pg.ttf';
 export const Orbitron_600SemiBold =
-  'http://fonts.gstatic.com/s/orbitron/v17/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyxSmxpmIyXjU1pg.ttf';
+  'http://fonts.gstatic.com/s/orbitron/v19/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyxSmxpmIyXjU1pg.ttf';
 export const Orbitron_700Bold =
-  'http://fonts.gstatic.com/s/orbitron/v17/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1ny_CmxpmIyXjU1pg.ttf';
+  'http://fonts.gstatic.com/s/orbitron/v19/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1ny_CmxpmIyXjU1pg.ttf';
 export const Orbitron_800ExtraBold =
-  'http://fonts.gstatic.com/s/orbitron/v17/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nymymxpmIyXjU1pg.ttf';
+  'http://fonts.gstatic.com/s/orbitron/v19/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nymymxpmIyXjU1pg.ttf';
 export const Orbitron_900Black =
-  'http://fonts.gstatic.com/s/orbitron/v17/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nysimxpmIyXjU1pg.ttf';
+  'http://fonts.gstatic.com/s/orbitron/v19/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nysimxpmIyXjU1pg.ttf';
 export const Sniglet_400Regular =
-  'http://fonts.gstatic.com/s/sniglet/v12/cIf9MaFLtkE3UjaJxCmrYGkHgIs.ttf';
+  'http://fonts.gstatic.com/s/sniglet/v15/cIf9MaFLtkE3UjaJxCmrYGkHgIs.ttf';
 export const Sniglet_800ExtraBold =
-  'http://fonts.gstatic.com/s/sniglet/v12/cIf4MaFLtkE3UjaJ_ImHRGEsnIJkWL4.ttf';
+  'http://fonts.gstatic.com/s/sniglet/v15/cIf4MaFLtkE3UjaJ_ImHRGEsnIJkWL4.ttf';
 export const Ubuntu_300Light =
   'http://fonts.gstatic.com/s/ubuntu/v15/4iCv6KVjbNBYlgoC1CzTt2aMH4V_gg.ttf';
 export const Ubuntu_300Light_Italic =
@@ -6500,39 +9036,39 @@ export const Ubuntu_700Bold =
   'http://fonts.gstatic.com/s/ubuntu/v15/4iCv6KVjbNBYlgoCxCvTt2aMH4V_gg.ttf';
 export const Ubuntu_700Bold_Italic =
   'http://fonts.gstatic.com/s/ubuntu/v15/4iCp6KVjbNBYlgoKejZPsmyIPYBvgpUI.ttf';
-export const Vibur_400Regular = 'http://fonts.gstatic.com/s/vibur/v13/DPEiYwmEzw0QRjTpLjoJd-Xa.ttf';
+export const Vibur_400Regular = 'http://fonts.gstatic.com/s/vibur/v21/DPEiYwmEzw0QRjTpLjoJd-Xa.ttf';
 export const MountainsofChristmas_400Regular =
-  'http://fonts.gstatic.com/s/mountainsofchristmas/v13/3y9w6a4zcCnn5X0FDyrKi2ZRUBIy8uxoUo7ePNamMPNpJpc.ttf';
+  'http://fonts.gstatic.com/s/mountainsofchristmas/v18/3y9w6a4zcCnn5X0FDyrKi2ZRUBIy8uxoUo7ePNamMPNpJpc.ttf';
 export const MountainsofChristmas_700Bold =
-  'http://fonts.gstatic.com/s/mountainsofchristmas/v13/3y9z6a4zcCnn5X0FDyrKi2ZRUBIy8uxoUo7eBGqJFPtCOp6IaEA.ttf';
+  'http://fonts.gstatic.com/s/mountainsofchristmas/v18/3y9z6a4zcCnn5X0FDyrKi2ZRUBIy8uxoUo7eBGqJFPtCOp6IaEA.ttf';
 export const Coda_400Regular = 'http://fonts.gstatic.com/s/coda/v16/SLXHc1jY5nQ8JUIMapaN39I.ttf';
 export const Coda_800ExtraBold =
   'http://fonts.gstatic.com/s/coda/v16/SLXIc1jY5nQ8HeIgTp6mw9t1cX8.ttf';
 export const CoveredByYourGrace_400Regular =
   'http://fonts.gstatic.com/s/coveredbyyourgrace/v10/QGYwz-AZahWOJJI9kykWW9mD6opopoqXSOS0FgItq6bFIg.ttf';
 export const JustMeAgainDownHere_400Regular =
-  'http://fonts.gstatic.com/s/justmeagaindownhere/v14/MwQmbgXtz-Wc6RUEGNMc0QpRrfUh2hSdBBMoAuwHvqDwc_fg.ttf';
+  'http://fonts.gstatic.com/s/justmeagaindownhere/v22/MwQmbgXtz-Wc6RUEGNMc0QpRrfUh2hSdBBMoAuwHvqDwc_fg.ttf';
 export const UnifrakturCook_700Bold =
-  'http://fonts.gstatic.com/s/unifrakturcook/v14/IurA6Yli8YOdcoky-0PTTdkm56n05Uw13ILXs-h6.ttf';
+  'http://fonts.gstatic.com/s/unifrakturcook/v17/IurA6Yli8YOdcoky-0PTTdkm56n05Uw13ILXs-h6.ttf';
 export const Allerta_400Regular =
   'http://fonts.gstatic.com/s/allerta/v11/TwMO-IAHRlkbx940UnEdSQqO5uY.ttf';
 export const AllertaStencil_400Regular =
-  'http://fonts.gstatic.com/s/allertastencil/v11/HTx0L209KT-LmIE9N7OR6eiycOeF-zz313DuvQ.ttf';
+  'http://fonts.gstatic.com/s/allertastencil/v16/HTx0L209KT-LmIE9N7OR6eiycOeF-zz313DuvQ.ttf';
 export const Bentham_400Regular =
-  'http://fonts.gstatic.com/s/bentham/v11/VdGeAZQPEpYfmHglKWw7CJaK_y4.ttf';
-export const Geo_400Regular = 'http://fonts.gstatic.com/s/geo/v14/CSRz4zRZlufVL3BmQjlCbQ.ttf';
+  'http://fonts.gstatic.com/s/bentham/v16/VdGeAZQPEpYfmHglKWw7CJaK_y4.ttf';
+export const Geo_400Regular = 'http://fonts.gstatic.com/s/geo/v17/CSRz4zRZlufVL3BmQjlCbQ.ttf';
 export const Geo_400Regular_Italic =
-  'http://fonts.gstatic.com/s/geo/v14/CSRx4zRZluflLXpiYDxSbf8r.ttf';
+  'http://fonts.gstatic.com/s/geo/v17/CSRx4zRZluflLXpiYDxSbf8r.ttf';
 export const Puritan_400Regular =
-  'http://fonts.gstatic.com/s/puritan/v14/845YNMgkAJ2VTtIo9JrwRdaI50M.ttf';
+  'http://fonts.gstatic.com/s/puritan/v22/845YNMgkAJ2VTtIo9JrwRdaI50M.ttf';
 export const Puritan_400Regular_Italic =
-  'http://fonts.gstatic.com/s/puritan/v14/845aNMgkAJ2VTtIoxJj6QfSN90PfXA.ttf';
+  'http://fonts.gstatic.com/s/puritan/v22/845aNMgkAJ2VTtIoxJj6QfSN90PfXA.ttf';
 export const Puritan_700Bold =
-  'http://fonts.gstatic.com/s/puritan/v14/845dNMgkAJ2VTtIozCbfYd6j-0rGRes.ttf';
+  'http://fonts.gstatic.com/s/puritan/v22/845dNMgkAJ2VTtIozCbfYd6j-0rGRes.ttf';
 export const Puritan_700Bold_Italic =
-  'http://fonts.gstatic.com/s/puritan/v14/845fNMgkAJ2VTtIoxJjC_dup_2jDVevnLQ.ttf';
+  'http://fonts.gstatic.com/s/puritan/v22/845fNMgkAJ2VTtIoxJjC_dup_2jDVevnLQ.ttf';
 export const UnifrakturMaguntia_400Regular =
-  'http://fonts.gstatic.com/s/unifrakturmaguntia/v11/WWXPlieVYwiGNomYU-ciRLRvEmK7oaVun2xNNgNa1A.ttf';
+  'http://fonts.gstatic.com/s/unifrakturmaguntia/v14/WWXPlieVYwiGNomYU-ciRLRvEmK7oaVun2xNNgNa1A.ttf';
 export const Arimo_400Regular =
   'http://fonts.gstatic.com/s/arimo/v17/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxsBxDAVQI4aA.ttf';
 export const Arimo_500Medium =
@@ -6571,33 +9107,33 @@ export const Arvo_700Bold = 'http://fonts.gstatic.com/s/arvo/v14/tDbM2oWUg0MKoZw
 export const Arvo_700Bold_Italic =
   'http://fonts.gstatic.com/s/arvo/v14/tDbO2oWUg0MKqSIoVLHK9tD-hAHkGg.ttf';
 export const JosefinSans_100Thin =
-  'http://fonts.gstatic.com/s/josefinsans/v17/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjRXMFrLgTsQV0.ttf';
+  'http://fonts.gstatic.com/s/josefinsans/v20/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjRXMFrLgTsQV0.ttf';
 export const JosefinSans_200ExtraLight =
-  'http://fonts.gstatic.com/s/josefinsans/v17/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_LjQXMFrLgTsQV0.ttf';
+  'http://fonts.gstatic.com/s/josefinsans/v20/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_LjQXMFrLgTsQV0.ttf';
 export const JosefinSans_300Light =
-  'http://fonts.gstatic.com/s/josefinsans/v17/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_GbQXMFrLgTsQV0.ttf';
+  'http://fonts.gstatic.com/s/josefinsans/v20/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_GbQXMFrLgTsQV0.ttf';
 export const JosefinSans_400Regular =
-  'http://fonts.gstatic.com/s/josefinsans/v17/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQXMFrLgTsQV0.ttf';
+  'http://fonts.gstatic.com/s/josefinsans/v20/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQXMFrLgTsQV0.ttf';
 export const JosefinSans_500Medium =
-  'http://fonts.gstatic.com/s/josefinsans/v17/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_ArQXMFrLgTsQV0.ttf';
+  'http://fonts.gstatic.com/s/josefinsans/v20/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_ArQXMFrLgTsQV0.ttf';
 export const JosefinSans_600SemiBold =
-  'http://fonts.gstatic.com/s/josefinsans/v17/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_ObXXMFrLgTsQV0.ttf';
+  'http://fonts.gstatic.com/s/josefinsans/v20/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_ObXXMFrLgTsQV0.ttf';
 export const JosefinSans_700Bold =
-  'http://fonts.gstatic.com/s/josefinsans/v17/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_N_XXMFrLgTsQV0.ttf';
+  'http://fonts.gstatic.com/s/josefinsans/v20/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_N_XXMFrLgTsQV0.ttf';
 export const JosefinSans_100Thin_Italic =
-  'http://fonts.gstatic.com/s/josefinsans/v17/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTtINhKibpUV3MEQ.ttf';
+  'http://fonts.gstatic.com/s/josefinsans/v20/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTtINhKibpUV3MEQ.ttf';
 export const JosefinSans_200ExtraLight_Italic =
-  'http://fonts.gstatic.com/s/josefinsans/v17/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTNIJhKibpUV3MEQ.ttf';
+  'http://fonts.gstatic.com/s/josefinsans/v20/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTNIJhKibpUV3MEQ.ttf';
 export const JosefinSans_300Light_Italic =
-  'http://fonts.gstatic.com/s/josefinsans/v17/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCT6oJhKibpUV3MEQ.ttf';
+  'http://fonts.gstatic.com/s/josefinsans/v20/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCT6oJhKibpUV3MEQ.ttf';
 export const JosefinSans_400Regular_Italic =
-  'http://fonts.gstatic.com/s/josefinsans/v17/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTtIJhKibpUV3MEQ.ttf';
+  'http://fonts.gstatic.com/s/josefinsans/v20/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTtIJhKibpUV3MEQ.ttf';
 export const JosefinSans_500Medium_Italic =
-  'http://fonts.gstatic.com/s/josefinsans/v17/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCThoJhKibpUV3MEQ.ttf';
+  'http://fonts.gstatic.com/s/josefinsans/v20/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCThoJhKibpUV3MEQ.ttf';
 export const JosefinSans_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/josefinsans/v17/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTaoVhKibpUV3MEQ.ttf';
+  'http://fonts.gstatic.com/s/josefinsans/v20/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTaoVhKibpUV3MEQ.ttf';
 export const JosefinSans_700Bold_Italic =
-  'http://fonts.gstatic.com/s/josefinsans/v17/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTU4VhKibpUV3MEQ.ttf';
+  'http://fonts.gstatic.com/s/josefinsans/v20/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTU4VhKibpUV3MEQ.ttf';
 export const JosefinSlab_100Thin =
   'http://fonts.gstatic.com/s/josefinslab/v13/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W71mtd3k3K6CcEyI.ttf';
 export const JosefinSlab_200ExtraLight =
@@ -6627,19 +9163,25 @@ export const JosefinSlab_600SemiBold_Italic =
 export const JosefinSlab_700Bold_Italic =
   'http://fonts.gstatic.com/s/josefinslab/v13/lW-qwjwOK3Ps5GSJlNNkMalnrxShJj4wo7AR-pHveD09L4KZAyK43w.ttf';
 export const GFSDidot_400Regular =
-  'http://fonts.gstatic.com/s/gfsdidot/v10/Jqzh5TybZ9vZMWFssvwiF-fGFSCGAA.ttf';
+  'http://fonts.gstatic.com/s/gfsdidot/v13/Jqzh5TybZ9vZMWFssvwiF-fGFSCGAA.ttf';
 export const GFSNeohellenic_400Regular =
-  'http://fonts.gstatic.com/s/gfsneohellenic/v15/8QIRdiDOrfiq0b7R8O1Iw9WLcY5TLahP46UDUw.ttf';
+  'http://fonts.gstatic.com/s/gfsneohellenic/v23/8QIRdiDOrfiq0b7R8O1Iw9WLcY5TLahP46UDUw.ttf';
 export const GFSNeohellenic_400Regular_Italic =
-  'http://fonts.gstatic.com/s/gfsneohellenic/v15/8QITdiDOrfiq0b7R8O1Iw9WLcY5jL6JLwaATU91X.ttf';
+  'http://fonts.gstatic.com/s/gfsneohellenic/v23/8QITdiDOrfiq0b7R8O1Iw9WLcY5jL6JLwaATU91X.ttf';
 export const GFSNeohellenic_700Bold =
-  'http://fonts.gstatic.com/s/gfsneohellenic/v15/8QIUdiDOrfiq0b7R8O1Iw9WLcY5rkYdr644fWsRO9w.ttf';
+  'http://fonts.gstatic.com/s/gfsneohellenic/v23/8QIUdiDOrfiq0b7R8O1Iw9WLcY5rkYdr644fWsRO9w.ttf';
 export const GFSNeohellenic_700Bold_Italic =
-  'http://fonts.gstatic.com/s/gfsneohellenic/v15/8QIWdiDOrfiq0b7R8O1Iw9WLcY5jL5r37oQbeMFe985V.ttf';
+  'http://fonts.gstatic.com/s/gfsneohellenic/v23/8QIWdiDOrfiq0b7R8O1Iw9WLcY5jL5r37oQbeMFe985V.ttf';
+export const Hanuman_100Thin =
+  'http://fonts.gstatic.com/s/hanuman/v20/VuJzdNvD15HhpJJBQMLdPKNiaRpFvg.ttf';
+export const Hanuman_300Light =
+  'http://fonts.gstatic.com/s/hanuman/v20/VuJ0dNvD15HhpJJBQAr_HIlMZRNcp0o.ttf';
 export const Hanuman_400Regular =
-  'http://fonts.gstatic.com/s/hanuman/v14/VuJxdNvD15HhpJJBeKbXOIFneRo.ttf';
+  'http://fonts.gstatic.com/s/hanuman/v20/VuJxdNvD15HhpJJBeKbXOIFneRo.ttf';
 export const Hanuman_700Bold =
-  'http://fonts.gstatic.com/s/hanuman/v14/VuJ0dNvD15HhpJJBQBr4HIlMZRNcp0o.ttf';
+  'http://fonts.gstatic.com/s/hanuman/v20/VuJ0dNvD15HhpJJBQBr4HIlMZRNcp0o.ttf';
+export const Hanuman_900Black =
+  'http://fonts.gstatic.com/s/hanuman/v20/VuJ0dNvD15HhpJJBQCL6HIlMZRNcp0o.ttf';
 export const Neucha_400Regular =
   'http://fonts.gstatic.com/s/neucha/v12/q5uGsou0JOdh94bvugNsCxVEgA.ttf';
 export const PTSans_400Regular =
@@ -6659,29 +9201,29 @@ export const PTSansNarrow_400Regular =
 export const PTSansNarrow_700Bold =
   'http://fonts.gstatic.com/s/ptsansnarrow/v12/BngSUXNadjH0qYEzV7ab-oWlsbg95DiCUfzgRd-3.ttf';
 export const Vollkorn_400Regular =
-  'http://fonts.gstatic.com/s/vollkorn/v13/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2MHGuGWOdEbD63w.ttf';
+  'http://fonts.gstatic.com/s/vollkorn/v17/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2MHGuGWOdEbD63w.ttf';
 export const Vollkorn_500Medium =
-  'http://fonts.gstatic.com/s/vollkorn/v13/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2AnGuGWOdEbD63w.ttf';
+  'http://fonts.gstatic.com/s/vollkorn/v17/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2AnGuGWOdEbD63w.ttf';
 export const Vollkorn_600SemiBold =
-  'http://fonts.gstatic.com/s/vollkorn/v13/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df27nauGWOdEbD63w.ttf';
+  'http://fonts.gstatic.com/s/vollkorn/v17/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df27nauGWOdEbD63w.ttf';
 export const Vollkorn_700Bold =
-  'http://fonts.gstatic.com/s/vollkorn/v13/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df213auGWOdEbD63w.ttf';
+  'http://fonts.gstatic.com/s/vollkorn/v17/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df213auGWOdEbD63w.ttf';
 export const Vollkorn_800ExtraBold =
-  'http://fonts.gstatic.com/s/vollkorn/v13/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2sHauGWOdEbD63w.ttf';
+  'http://fonts.gstatic.com/s/vollkorn/v17/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2sHauGWOdEbD63w.ttf';
 export const Vollkorn_900Black =
-  'http://fonts.gstatic.com/s/vollkorn/v13/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2mXauGWOdEbD63w.ttf';
+  'http://fonts.gstatic.com/s/vollkorn/v17/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2mXauGWOdEbD63w.ttf';
 export const Vollkorn_400Regular_Italic =
-  'http://fonts.gstatic.com/s/vollkorn/v13/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DJGWmmZM7Xq34g9.ttf';
+  'http://fonts.gstatic.com/s/vollkorn/v17/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DJGWmmZM7Xq34g9.ttf';
 export const Vollkorn_500Medium_Italic =
-  'http://fonts.gstatic.com/s/vollkorn/v13/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DJ0WmmZM7Xq34g9.ttf';
+  'http://fonts.gstatic.com/s/vollkorn/v17/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DJ0WmmZM7Xq34g9.ttf';
 export const Vollkorn_600SemiBold_Italic =
-  'http://fonts.gstatic.com/s/vollkorn/v13/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DKYXWmZM7Xq34g9.ttf';
+  'http://fonts.gstatic.com/s/vollkorn/v17/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DKYXWmZM7Xq34g9.ttf';
 export const Vollkorn_700Bold_Italic =
-  'http://fonts.gstatic.com/s/vollkorn/v13/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DKhXWmZM7Xq34g9.ttf';
+  'http://fonts.gstatic.com/s/vollkorn/v17/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DKhXWmZM7Xq34g9.ttf';
 export const Vollkorn_800ExtraBold_Italic =
-  'http://fonts.gstatic.com/s/vollkorn/v13/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DLGXWmZM7Xq34g9.ttf';
+  'http://fonts.gstatic.com/s/vollkorn/v17/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DLGXWmZM7Xq34g9.ttf';
 export const Vollkorn_900Black_Italic =
-  'http://fonts.gstatic.com/s/vollkorn/v13/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DLvXWmZM7Xq34g9.ttf';
+  'http://fonts.gstatic.com/s/vollkorn/v17/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DLvXWmZM7Xq34g9.ttf';
 export const Tangerine_400Regular =
   'http://fonts.gstatic.com/s/tangerine/v12/IurY6Y5j_oScZZow4VOBDpxNhLBQ4Q.ttf';
 export const Tangerine_700Bold =
@@ -6715,7 +9257,7 @@ export const IMFellFrenchCanon_400Regular =
 export const IMFellFrenchCanon_400Regular_Italic =
   'http://fonts.gstatic.com/s/imfellfrenchcanon/v12/-F6gfiNtDWYfYc-tDiyiw08rrghJszkK6foXNNlKy5PzzrU.ttf';
 export const IMFellFrenchCanonSC_400Regular =
-  'http://fonts.gstatic.com/s/imfellfrenchcanonsc/v12/FBVmdCru5-ifcor2bgq9V89khWcmQghEURY7H3c0UBCVIVqH.ttf';
+  'http://fonts.gstatic.com/s/imfellfrenchcanonsc/v20/FBVmdCru5-ifcor2bgq9V89khWcmQghEURY7H3c0UBCVIVqH.ttf';
 export const IMFellGreatPrimer_400Regular =
   'http://fonts.gstatic.com/s/imfellgreatprimer/v12/bx6aNwSJtayYxOkbYFsT6hMsLzX7u85rJorXvDo3SQY1.ttf';
 export const IMFellGreatPrimer_400Regular_Italic =
@@ -6725,17 +9267,17 @@ export const IMFellGreatPrimerSC_400Regular =
 export const Lobster_400Regular =
   'http://fonts.gstatic.com/s/lobster/v23/neILzCirqoswsqX9_oWsMqEzSJQ.ttf';
 export const YanoneKaffeesatz_200ExtraLight =
-  'http://fonts.gstatic.com/s/yanonekaffeesatz/v16/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftodtWpcGuLCnXkVA.ttf';
+  'http://fonts.gstatic.com/s/yanonekaffeesatz/v18/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftodtWpcGuLCnXkVA.ttf';
 export const YanoneKaffeesatz_300Light =
-  'http://fonts.gstatic.com/s/yanonekaffeesatz/v16/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoqNWpcGuLCnXkVA.ttf';
+  'http://fonts.gstatic.com/s/yanonekaffeesatz/v18/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoqNWpcGuLCnXkVA.ttf';
 export const YanoneKaffeesatz_400Regular =
-  'http://fonts.gstatic.com/s/yanonekaffeesatz/v16/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIfto9tWpcGuLCnXkVA.ttf';
+  'http://fonts.gstatic.com/s/yanonekaffeesatz/v18/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIfto9tWpcGuLCnXkVA.ttf';
 export const YanoneKaffeesatz_500Medium =
-  'http://fonts.gstatic.com/s/yanonekaffeesatz/v16/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoxNWpcGuLCnXkVA.ttf';
+  'http://fonts.gstatic.com/s/yanonekaffeesatz/v18/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoxNWpcGuLCnXkVA.ttf';
 export const YanoneKaffeesatz_600SemiBold =
-  'http://fonts.gstatic.com/s/yanonekaffeesatz/v16/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoKNKpcGuLCnXkVA.ttf';
+  'http://fonts.gstatic.com/s/yanonekaffeesatz/v18/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoKNKpcGuLCnXkVA.ttf';
 export const YanoneKaffeesatz_700Bold =
-  'http://fonts.gstatic.com/s/yanonekaffeesatz/v16/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoEdKpcGuLCnXkVA.ttf';
+  'http://fonts.gstatic.com/s/yanonekaffeesatz/v18/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoEdKpcGuLCnXkVA.ttf';
 export const Cantarell_400Regular =
   'http://fonts.gstatic.com/s/cantarell/v10/B50NF7ZDq37KMUvlO01Ji6hqHK-CLA.ttf';
 export const Cantarell_400Regular_Italic =
@@ -6745,21 +9287,21 @@ export const Cantarell_700Bold =
 export const Cantarell_700Bold_Italic =
   'http://fonts.gstatic.com/s/cantarell/v10/B50WF7ZDq37KMUvlO015iZrSEY6aB4oWgWHB.ttf';
 export const Nobile_400Regular =
-  'http://fonts.gstatic.com/s/nobile/v12/m8JTjflSeaOVl1i2XqfXeLVdbw.ttf';
+  'http://fonts.gstatic.com/s/nobile/v15/m8JTjflSeaOVl1i2XqfXeLVdbw.ttf';
 export const Nobile_400Regular_Italic =
-  'http://fonts.gstatic.com/s/nobile/v12/m8JRjflSeaOVl1iGXK3TWrBNb3OD.ttf';
+  'http://fonts.gstatic.com/s/nobile/v15/m8JRjflSeaOVl1iGXK3TWrBNb3OD.ttf';
 export const Nobile_500Medium =
-  'http://fonts.gstatic.com/s/nobile/v12/m8JQjflSeaOVl1iOqo7zcJ5BZmqa3A.ttf';
+  'http://fonts.gstatic.com/s/nobile/v15/m8JQjflSeaOVl1iOqo7zcJ5BZmqa3A.ttf';
 export const Nobile_500Medium_Italic =
-  'http://fonts.gstatic.com/s/nobile/v12/m8JWjflSeaOVl1iGXJUnc5RFRG-K3Mud.ttf';
+  'http://fonts.gstatic.com/s/nobile/v15/m8JWjflSeaOVl1iGXJUnc5RFRG-K3Mud.ttf';
 export const Nobile_700Bold =
-  'http://fonts.gstatic.com/s/nobile/v12/m8JQjflSeaOVl1iO4ojzcJ5BZmqa3A.ttf';
+  'http://fonts.gstatic.com/s/nobile/v15/m8JQjflSeaOVl1iO4ojzcJ5BZmqa3A.ttf';
 export const Nobile_700Bold_Italic =
-  'http://fonts.gstatic.com/s/nobile/v12/m8JWjflSeaOVl1iGXJVvdZRFRG-K3Mud.ttf';
+  'http://fonts.gstatic.com/s/nobile/v15/m8JWjflSeaOVl1iGXJVvdZRFRG-K3Mud.ttf';
 export const ReenieBeanie_400Regular =
   'http://fonts.gstatic.com/s/reeniebeanie/v11/z7NSdR76eDkaJKZJFkkjuvWxbP2_qoOgf_w.ttf';
 export const Molengo_400Regular =
-  'http://fonts.gstatic.com/s/molengo/v11/I_uuMpWeuBzZNBtQbbRQkiCvs5Y.ttf';
+  'http://fonts.gstatic.com/s/molengo/v14/I_uuMpWeuBzZNBtQbbRQkiCvs5Y.ttf';
 export const Inconsolata_200ExtraLight =
   'http://fonts.gstatic.com/s/inconsolata/v21/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7LppwU8aRr8lleY2co.ttf';
 export const Inconsolata_300Light =

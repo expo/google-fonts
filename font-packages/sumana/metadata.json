@@ -2,11 +2,11 @@
   "family": "Sumana",
   "variants": ["regular", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2020-07-23",
+  "version": "v8",
+  "lastModified": "2022-01-05",
   "files": {
-    "700": "http://fonts.gstatic.com/s/sumana/v5/4UaArE5TqRBjGj--TDfG54fN6ppsKg.ttf",
-    "regular": "http://fonts.gstatic.com/s/sumana/v5/4UaDrE5TqRBjGj-G8Bji76zR4w.ttf"
+    "700": "http://fonts.gstatic.com/s/sumana/v8/4UaArE5TqRBjGj--TDfG54fN6ppsKg.ttf",
+    "regular": "http://fonts.gstatic.com/s/sumana/v8/4UaDrE5TqRBjGj-G8Bji76zR4w.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

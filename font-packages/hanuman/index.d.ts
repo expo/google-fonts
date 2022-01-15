@@ -5,6 +5,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
+export const Hanuman_100Thin: number;
+export const Hanuman_300Light: number;
 export const Hanuman_400Regular: number;
 export const Hanuman_700Bold: number;
+export const Hanuman_900Black: number;

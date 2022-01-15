@@ -2,11 +2,11 @@
   "family": "Srisakdi",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2021-03-19",
+  "version": "v14",
+  "lastModified": "2022-01-05",
   "files": {
-    "700": "http://fonts.gstatic.com/s/srisakdi/v6/yMJWMIlvdpDbkB0A-gIAUghxoNFxW0Hz.ttf",
-    "regular": "http://fonts.gstatic.com/s/srisakdi/v6/yMJRMIlvdpDbkB0A-jq8fSx5i814.ttf"
+    "700": "http://fonts.gstatic.com/s/srisakdi/v14/yMJWMIlvdpDbkB0A-gIAUghxoNFxW0Hz.ttf",
+    "regular": "http://fonts.gstatic.com/s/srisakdi/v14/yMJRMIlvdpDbkB0A-jq8fSx5i814.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

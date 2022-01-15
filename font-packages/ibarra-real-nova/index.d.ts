@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const IbarraRealNova_400Regular: number;
 export const IbarraRealNova_500Medium: number;
 export const IbarraRealNova_600SemiBold: number;

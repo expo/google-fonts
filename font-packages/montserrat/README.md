@@ -14,22 +14,22 @@ This package lets you use the [**Montserrat**](https://fonts.google.com/specimen
 This font family contains [18 styles](#-gallery).
 
 - `Montserrat_100Thin`
-- `Montserrat_100Thin_Italic`
 - `Montserrat_200ExtraLight`
-- `Montserrat_200ExtraLight_Italic`
 - `Montserrat_300Light`
-- `Montserrat_300Light_Italic`
 - `Montserrat_400Regular`
-- `Montserrat_400Regular_Italic`
 - `Montserrat_500Medium`
-- `Montserrat_500Medium_Italic`
 - `Montserrat_600SemiBold`
-- `Montserrat_600SemiBold_Italic`
 - `Montserrat_700Bold`
-- `Montserrat_700Bold_Italic`
 - `Montserrat_800ExtraBold`
-- `Montserrat_800ExtraBold_Italic`
 - `Montserrat_900Black`
+- `Montserrat_100Thin_Italic`
+- `Montserrat_200ExtraLight_Italic`
+- `Montserrat_300Light_Italic`
+- `Montserrat_400Regular_Italic`
+- `Montserrat_500Medium_Italic`
+- `Montserrat_600SemiBold_Italic`
+- `Montserrat_700Bold_Italic`
+- `Montserrat_800ExtraBold_Italic`
 - `Montserrat_900Black_Italic`
 
 ## Usage
@@ -48,44 +48,44 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   Montserrat_100Thin,
-  Montserrat_100Thin_Italic,
   Montserrat_200ExtraLight,
-  Montserrat_200ExtraLight_Italic,
   Montserrat_300Light,
-  Montserrat_300Light_Italic,
   Montserrat_400Regular,
-  Montserrat_400Regular_Italic,
   Montserrat_500Medium,
-  Montserrat_500Medium_Italic,
   Montserrat_600SemiBold,
-  Montserrat_600SemiBold_Italic,
   Montserrat_700Bold,
-  Montserrat_700Bold_Italic,
   Montserrat_800ExtraBold,
-  Montserrat_800ExtraBold_Italic,
   Montserrat_900Black,
+  Montserrat_100Thin_Italic,
+  Montserrat_200ExtraLight_Italic,
+  Montserrat_300Light_Italic,
+  Montserrat_400Regular_Italic,
+  Montserrat_500Medium_Italic,
+  Montserrat_600SemiBold_Italic,
+  Montserrat_700Bold_Italic,
+  Montserrat_800ExtraBold_Italic,
   Montserrat_900Black_Italic,
 } from '@expo-google-fonts/montserrat';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Montserrat_100Thin,
-    Montserrat_100Thin_Italic,
     Montserrat_200ExtraLight,
-    Montserrat_200ExtraLight_Italic,
     Montserrat_300Light,
-    Montserrat_300Light_Italic,
     Montserrat_400Regular,
-    Montserrat_400Regular_Italic,
     Montserrat_500Medium,
-    Montserrat_500Medium_Italic,
     Montserrat_600SemiBold,
-    Montserrat_600SemiBold_Italic,
     Montserrat_700Bold,
-    Montserrat_700Bold_Italic,
     Montserrat_800ExtraBold,
-    Montserrat_800ExtraBold_Italic,
     Montserrat_900Black,
+    Montserrat_100Thin_Italic,
+    Montserrat_200ExtraLight_Italic,
+    Montserrat_300Light_Italic,
+    Montserrat_400Regular_Italic,
+    Montserrat_500Medium_Italic,
+    Montserrat_600SemiBold_Italic,
+    Montserrat_700Bold_Italic,
+    Montserrat_800ExtraBold_Italic,
     Montserrat_900Black_Italic,
   });
 
@@ -112,29 +112,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_100Thin_Italic',
-          }}>
-          Montserrat Thin Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Montserrat_200ExtraLight',
           }}>
           Montserrat Extra Light
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_200ExtraLight_Italic',
-          }}>
-          Montserrat Extra Light Italic
         </Text>
 
         <Text
@@ -152,29 +132,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_300Light_Italic',
-          }}>
-          Montserrat Light Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Montserrat_400Regular',
           }}>
           Montserrat Regular
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_400Regular_Italic',
-          }}>
-          Montserrat Italic
         </Text>
 
         <Text
@@ -192,29 +152,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_500Medium_Italic',
-          }}>
-          Montserrat Medium Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Montserrat_600SemiBold',
           }}>
           Montserrat Semi Bold
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_600SemiBold_Italic',
-          }}>
-          Montserrat Semi Bold Italic
         </Text>
 
         <Text
@@ -232,16 +172,6 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_700Bold_Italic',
-          }}>
-          Montserrat Bold Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Montserrat_800ExtraBold',
           }}>
           Montserrat Extra Bold
@@ -252,9 +182,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_800ExtraBold_Italic',
+            fontFamily: 'Montserrat_900Black',
           }}>
-          Montserrat Extra Bold Italic
+          Montserrat Black
         </Text>
 
         <Text
@@ -262,9 +192,79 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_900Black',
+            fontFamily: 'Montserrat_100Thin_Italic',
           }}>
-          Montserrat Black
+          Montserrat Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Montserrat_200ExtraLight_Italic',
+          }}>
+          Montserrat Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Montserrat_300Light_Italic',
+          }}>
+          Montserrat Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Montserrat_400Regular_Italic',
+          }}>
+          Montserrat Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Montserrat_500Medium_Italic',
+          }}>
+          Montserrat Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Montserrat_600SemiBold_Italic',
+          }}>
+          Montserrat Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Montserrat_700Bold_Italic',
+          }}>
+          Montserrat Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Montserrat_800ExtraBold_Italic',
+          }}>
+          Montserrat Extra Bold Italic
         </Text>
 
         <Text
@@ -288,12 +288,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Montserrat_100Thin](./Montserrat_100Thin.ttf.png)|![Montserrat_100Thin_Italic](./Montserrat_100Thin_Italic.ttf.png)|![Montserrat_200ExtraLight](./Montserrat_200ExtraLight.ttf.png)||
-|![Montserrat_200ExtraLight_Italic](./Montserrat_200ExtraLight_Italic.ttf.png)|![Montserrat_300Light](./Montserrat_300Light.ttf.png)|![Montserrat_300Light_Italic](./Montserrat_300Light_Italic.ttf.png)||
-|![Montserrat_400Regular](./Montserrat_400Regular.ttf.png)|![Montserrat_400Regular_Italic](./Montserrat_400Regular_Italic.ttf.png)|![Montserrat_500Medium](./Montserrat_500Medium.ttf.png)||
-|![Montserrat_500Medium_Italic](./Montserrat_500Medium_Italic.ttf.png)|![Montserrat_600SemiBold](./Montserrat_600SemiBold.ttf.png)|![Montserrat_600SemiBold_Italic](./Montserrat_600SemiBold_Italic.ttf.png)||
-|![Montserrat_700Bold](./Montserrat_700Bold.ttf.png)|![Montserrat_700Bold_Italic](./Montserrat_700Bold_Italic.ttf.png)|![Montserrat_800ExtraBold](./Montserrat_800ExtraBold.ttf.png)||
-|![Montserrat_800ExtraBold_Italic](./Montserrat_800ExtraBold_Italic.ttf.png)|![Montserrat_900Black](./Montserrat_900Black.ttf.png)|![Montserrat_900Black_Italic](./Montserrat_900Black_Italic.ttf.png)||
+|![Montserrat_100Thin](./Montserrat_100Thin.ttf.png)|![Montserrat_200ExtraLight](./Montserrat_200ExtraLight.ttf.png)|![Montserrat_300Light](./Montserrat_300Light.ttf.png)||
+|![Montserrat_400Regular](./Montserrat_400Regular.ttf.png)|![Montserrat_500Medium](./Montserrat_500Medium.ttf.png)|![Montserrat_600SemiBold](./Montserrat_600SemiBold.ttf.png)||
+|![Montserrat_700Bold](./Montserrat_700Bold.ttf.png)|![Montserrat_800ExtraBold](./Montserrat_800ExtraBold.ttf.png)|![Montserrat_900Black](./Montserrat_900Black.ttf.png)||
+|![Montserrat_100Thin_Italic](./Montserrat_100Thin_Italic.ttf.png)|![Montserrat_200ExtraLight_Italic](./Montserrat_200ExtraLight_Italic.ttf.png)|![Montserrat_300Light_Italic](./Montserrat_300Light_Italic.ttf.png)||
+|![Montserrat_400Regular_Italic](./Montserrat_400Regular_Italic.ttf.png)|![Montserrat_500Medium_Italic](./Montserrat_500Medium_Italic.ttf.png)|![Montserrat_600SemiBold_Italic](./Montserrat_600SemiBold_Italic.ttf.png)||
+|![Montserrat_700Bold_Italic](./Montserrat_700Bold_Italic.ttf.png)|![Montserrat_800ExtraBold_Italic](./Montserrat_800ExtraBold_Italic.ttf.png)|![Montserrat_900Black_Italic](./Montserrat_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

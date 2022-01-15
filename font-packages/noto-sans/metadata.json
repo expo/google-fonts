@@ -11,13 +11,13 @@
     "latin-ext",
     "vietnamese"
   ],
-  "version": "v12",
-  "lastModified": "2021-03-24",
+  "version": "v21",
+  "lastModified": "2021-09-14",
   "files": {
-    "700": "http://fonts.gstatic.com/s/notosans/v12/o-0NIpQlx3QUlC5A4PNjXhFlY9aA5Wl6PQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/notosans/v12/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.ttf",
-    "italic": "http://fonts.gstatic.com/s/notosans/v12/o-0OIpQlx3QUlC5A4PNr4DRFSfiM7HBj.ttf",
-    "700italic": "http://fonts.gstatic.com/s/notosans/v12/o-0TIpQlx3QUlC5A4PNr4Az5ZtyEx2xqPaif.ttf"
+    "700": "http://fonts.gstatic.com/s/notosans/v21/o-0NIpQlx3QUlC5A4PNjXhFlY9aA5Wl6PQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosans/v21/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.ttf",
+    "italic": "http://fonts.gstatic.com/s/notosans/v21/o-0OIpQlx3QUlC5A4PNr4DRFSfiM7HBj.ttf",
+    "700italic": "http://fonts.gstatic.com/s/notosans/v21/o-0TIpQlx3QUlC5A4PNr4Az5ZtyEx2xqPaif.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

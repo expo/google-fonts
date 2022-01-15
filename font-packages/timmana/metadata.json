@@ -2,9 +2,9 @@
   "family": "Timmana",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v7",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/timmana/v7/6xKvdShfL9yK-rvpCmvbKHwJUOM.ttf" },
+  "version": "v10",
+  "lastModified": "2022-01-11",
+  "files": { "regular": "http://fonts.gstatic.com/s/timmana/v10/6xKvdShfL9yK-rvpCmvbKHwJUOM.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

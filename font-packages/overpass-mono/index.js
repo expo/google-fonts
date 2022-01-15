@@ -7,5 +7,6 @@ export { useFonts } from './useFonts';
 export { default as __metadata__ } from './metadata.json';
 export const OverpassMono_300Light = require('./OverpassMono_300Light.ttf');
 export const OverpassMono_400Regular = require('./OverpassMono_400Regular.ttf');
+export const OverpassMono_500Medium = require('./OverpassMono_500Medium.ttf');
 export const OverpassMono_600SemiBold = require('./OverpassMono_600SemiBold.ttf');
 export const OverpassMono_700Bold = require('./OverpassMono_700Bold.ttf');

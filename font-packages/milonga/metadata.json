@@ -2,9 +2,9 @@
   "family": "Milonga",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/milonga/v10/SZc53FHnIaK9W5kffz3GkUrS8DI.ttf" },
+  "version": "v18",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/milonga/v18/SZc53FHnIaK9W5kffz3GkUrS8DI.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

@@ -2,14 +2,14 @@
   "family": "Baloo Paaji 2",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["gurmukhi", "latin", "latin-ext", "vietnamese"],
-  "version": "v4",
-  "lastModified": "2021-04-01",
+  "version": "v15",
+  "lastModified": "2021-12-01",
   "files": {
-    "500": "http://fonts.gstatic.com/s/baloopaaji2/v4/i7dRIFFzbz-QHZUdV9_UGWZuWKa5OwS-a3yGe9E.ttf",
-    "600": "http://fonts.gstatic.com/s/baloopaaji2/v4/i7dRIFFzbz-QHZUdV9_UGWZuWIq-OwS-a3yGe9E.ttf",
-    "700": "http://fonts.gstatic.com/s/baloopaaji2/v4/i7dRIFFzbz-QHZUdV9_UGWZuWO6_OwS-a3yGe9E.ttf",
-    "800": "http://fonts.gstatic.com/s/baloopaaji2/v4/i7dRIFFzbz-QHZUdV9_UGWZuWPK8OwS-a3yGe9E.ttf",
-    "regular": "http://fonts.gstatic.com/s/baloopaaji2/v4/i7dMIFFzbz-QHZUdV9_UGWZuYFKQHwyVd3U.ttf"
+    "500": "http://fonts.gstatic.com/s/baloopaaji2/v15/i7dfIFFzbz-QHZUdV9_UGWZuelmy79QJ1HOSY9Al74fybRUz1r5t.ttf",
+    "600": "http://fonts.gstatic.com/s/baloopaaji2/v15/i7dfIFFzbz-QHZUdV9_UGWZuelmy79QJ1HOSY9DJ6IfybRUz1r5t.ttf",
+    "700": "http://fonts.gstatic.com/s/baloopaaji2/v15/i7dfIFFzbz-QHZUdV9_UGWZuelmy79QJ1HOSY9Dw6IfybRUz1r5t.ttf",
+    "800": "http://fonts.gstatic.com/s/baloopaaji2/v15/i7dfIFFzbz-QHZUdV9_UGWZuelmy79QJ1HOSY9CX6IfybRUz1r5t.ttf",
+    "regular": "http://fonts.gstatic.com/s/baloopaaji2/v15/i7dfIFFzbz-QHZUdV9_UGWZuelmy79QJ1HOSY9AX74fybRUz1r5t.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

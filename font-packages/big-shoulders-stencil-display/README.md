@@ -11,9 +11,10 @@ This package lets you use the [**Big Shoulders Stencil Display**](https://fonts.
 
 ![Big Shoulders Stencil Display](./font-family.png)
 
-This font family contains [8 styles](#-gallery).
+This font family contains [9 styles](#-gallery).
 
 - `BigShouldersStencilDisplay_100Thin`
+- `BigShouldersStencilDisplay_200ExtraLight`
 - `BigShouldersStencilDisplay_300Light`
 - `BigShouldersStencilDisplay_400Regular`
 - `BigShouldersStencilDisplay_500Medium`
@@ -38,6 +39,7 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   BigShouldersStencilDisplay_100Thin,
+  BigShouldersStencilDisplay_200ExtraLight,
   BigShouldersStencilDisplay_300Light,
   BigShouldersStencilDisplay_400Regular,
   BigShouldersStencilDisplay_500Medium,
@@ -50,6 +52,7 @@ import {
 export default () => {
   let [fontsLoaded] = useFonts({
     BigShouldersStencilDisplay_100Thin,
+    BigShouldersStencilDisplay_200ExtraLight,
     BigShouldersStencilDisplay_300Light,
     BigShouldersStencilDisplay_400Regular,
     BigShouldersStencilDisplay_500Medium,
@@ -75,6 +78,16 @@ export default () => {
             fontFamily: 'BigShouldersStencilDisplay_100Thin',
           }}>
           Big Shoulders Stencil Display Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BigShouldersStencilDisplay_200ExtraLight',
+          }}>
+          Big Shoulders Stencil Display Extra Light
         </Text>
 
         <Text
@@ -158,9 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BigShouldersStencilDisplay_100Thin](./BigShouldersStencilDisplay_100Thin.ttf.png)|![BigShouldersStencilDisplay_300Light](./BigShouldersStencilDisplay_300Light.ttf.png)|![BigShouldersStencilDisplay_400Regular](./BigShouldersStencilDisplay_400Regular.ttf.png)||
-|![BigShouldersStencilDisplay_500Medium](./BigShouldersStencilDisplay_500Medium.ttf.png)|![BigShouldersStencilDisplay_600SemiBold](./BigShouldersStencilDisplay_600SemiBold.ttf.png)|![BigShouldersStencilDisplay_700Bold](./BigShouldersStencilDisplay_700Bold.ttf.png)||
-|![BigShouldersStencilDisplay_800ExtraBold](./BigShouldersStencilDisplay_800ExtraBold.ttf.png)|![BigShouldersStencilDisplay_900Black](./BigShouldersStencilDisplay_900Black.ttf.png)|||
+|![BigShouldersStencilDisplay_100Thin](./BigShouldersStencilDisplay_100Thin.ttf.png)|![BigShouldersStencilDisplay_200ExtraLight](./BigShouldersStencilDisplay_200ExtraLight.ttf.png)|![BigShouldersStencilDisplay_300Light](./BigShouldersStencilDisplay_300Light.ttf.png)||
+|![BigShouldersStencilDisplay_400Regular](./BigShouldersStencilDisplay_400Regular.ttf.png)|![BigShouldersStencilDisplay_500Medium](./BigShouldersStencilDisplay_500Medium.ttf.png)|![BigShouldersStencilDisplay_600SemiBold](./BigShouldersStencilDisplay_600SemiBold.ttf.png)||
+|![BigShouldersStencilDisplay_700Bold](./BigShouldersStencilDisplay_700Bold.ttf.png)|![BigShouldersStencilDisplay_800ExtraBold](./BigShouldersStencilDisplay_800ExtraBold.ttf.png)|![BigShouldersStencilDisplay_900Black](./BigShouldersStencilDisplay_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

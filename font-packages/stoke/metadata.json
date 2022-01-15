@@ -2,11 +2,11 @@
   "family": "Stoke",
   "variants": ["300", "regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
+  "version": "v20",
+  "lastModified": "2022-01-11",
   "files": {
-    "300": "http://fonts.gstatic.com/s/stoke/v12/z7NXdRb7aTMfKNvFVgxC_pjcTeWU.ttf",
-    "regular": "http://fonts.gstatic.com/s/stoke/v12/z7NadRb7aTMfKONpfihK1YTV.ttf"
+    "300": "http://fonts.gstatic.com/s/stoke/v20/z7NXdRb7aTMfKNvFVgxC_pjcTeWU.ttf",
+    "regular": "http://fonts.gstatic.com/s/stoke/v20/z7NadRb7aTMfKONpfihK1YTV.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

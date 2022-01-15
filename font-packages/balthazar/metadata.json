@@ -2,10 +2,10 @@
   "family": "Balthazar",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-07-23",
+  "version": "v15",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/balthazar/v10/d6lKkaajS8Gm4CVQjFEvyRTo39l8hw.ttf"
+    "regular": "http://fonts.gstatic.com/s/balthazar/v15/d6lKkaajS8Gm4CVQjFEvyRTo39l8hw.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

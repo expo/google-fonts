@@ -2,10 +2,10 @@
   "family": "Rammetto One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-07-23",
+  "version": "v12",
+  "lastModified": "2022-01-13",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/rammettoone/v9/LhWiMV3HOfMbMetJG3lQDpp9Mvuciu-_SQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/rammettoone/v12/LhWiMV3HOfMbMetJG3lQDpp9Mvuciu-_SQ.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

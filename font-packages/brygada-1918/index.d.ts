@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Brygada1918_400Regular: number;
 export const Brygada1918_500Medium: number;
 export const Brygada1918_600SemiBold: number;

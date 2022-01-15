@@ -5,5 +5,13 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
+export const LexendGiga_100Thin: number;
+export const LexendGiga_200ExtraLight: number;
+export const LexendGiga_300Light: number;
 export const LexendGiga_400Regular: number;
+export const LexendGiga_500Medium: number;
+export const LexendGiga_600SemiBold: number;
+export const LexendGiga_700Bold: number;
+export const LexendGiga_800ExtraBold: number;
+export const LexendGiga_900Black: number;

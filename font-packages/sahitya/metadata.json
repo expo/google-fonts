@@ -2,11 +2,11 @@
   "family": "Sahitya",
   "variants": ["regular", "700"],
   "subsets": ["devanagari", "latin"],
-  "version": "v7",
-  "lastModified": "2021-03-19",
+  "version": "v15",
+  "lastModified": "2022-01-05",
   "files": {
-    "700": "http://fonts.gstatic.com/s/sahitya/v7/6qLFKZkOuhnuqlJAUZsqGyQvEnvSexI.ttf",
-    "regular": "http://fonts.gstatic.com/s/sahitya/v7/6qLAKZkOuhnuqlJAaScFPywEDnI.ttf"
+    "700": "http://fonts.gstatic.com/s/sahitya/v15/6qLFKZkOuhnuqlJAUZsqGyQvEnvSexI.ttf",
+    "regular": "http://fonts.gstatic.com/s/sahitya/v15/6qLAKZkOuhnuqlJAaScFPywEDnI.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

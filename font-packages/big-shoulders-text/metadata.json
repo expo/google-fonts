@@ -1,18 +1,19 @@
 {
   "family": "Big Shoulders Text",
-  "variants": ["100", "300", "regular", "500", "600", "700", "800", "900"],
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2021-03-19",
+  "version": "v8",
+  "lastModified": "2021-09-16",
   "files": {
-    "100": "http://fonts.gstatic.com/s/bigshoulderstext/v6/55xzezRtP9G3CGPIf49hxc8P0eytUxBU-IZ_YscCdXQB.ttf",
-    "300": "http://fonts.gstatic.com/s/bigshoulderstext/v6/55xyezRtP9G3CGPIf49hxc8P0eytUxBUMKRfSOkOfG0Y3A.ttf",
-    "500": "http://fonts.gstatic.com/s/bigshoulderstext/v6/55xyezRtP9G3CGPIf49hxc8P0eytUxBUaKVfSOkOfG0Y3A.ttf",
-    "600": "http://fonts.gstatic.com/s/bigshoulderstext/v6/55xyezRtP9G3CGPIf49hxc8P0eytUxBURKJfSOkOfG0Y3A.ttf",
-    "700": "http://fonts.gstatic.com/s/bigshoulderstext/v6/55xyezRtP9G3CGPIf49hxc8P0eytUxBUIKNfSOkOfG0Y3A.ttf",
-    "800": "http://fonts.gstatic.com/s/bigshoulderstext/v6/55xyezRtP9G3CGPIf49hxc8P0eytUxBUPKBfSOkOfG0Y3A.ttf",
-    "900": "http://fonts.gstatic.com/s/bigshoulderstext/v6/55xyezRtP9G3CGPIf49hxc8P0eytUxBUGKFfSOkOfG0Y3A.ttf",
-    "regular": "http://fonts.gstatic.com/s/bigshoulderstext/v6/55xxezRtP9G3CGPIf49hxc8P0eytUxBsnIx7QMISdQ.ttf"
+    "100": "http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Y-r3TIPNl6P2pc.ttf",
+    "200": "http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Q-q3TIPNl6P2pc.ttf",
+    "300": "http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3dGq3TIPNl6P2pc.ttf",
+    "500": "http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3b2q3TIPNl6P2pc.ttf",
+    "600": "http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3VGt3TIPNl6P2pc.ttf",
+    "700": "http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Wit3TIPNl6P2pc.ttf",
+    "800": "http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Q-t3TIPNl6P2pc.ttf",
+    "900": "http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Sat3TIPNl6P2pc.ttf",
+    "regular": "http://fonts.gstatic.com/s/bigshoulderstext/v8/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Y-q3TIPNl6P2pc.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

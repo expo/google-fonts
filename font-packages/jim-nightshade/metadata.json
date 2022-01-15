@@ -2,10 +2,10 @@
   "family": "Jim Nightshade",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
+  "version": "v18",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/jimnightshade/v10/PlIkFlu9Pb08Q8HLM1PxmB0g-OS4V3qKaMxD.ttf"
+    "regular": "http://fonts.gstatic.com/s/jimnightshade/v18/PlIkFlu9Pb08Q8HLM1PxmB0g-OS4V3qKaMxD.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

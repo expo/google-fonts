@@ -11,9 +11,13 @@ This package lets you use the [**Suwannaphum**](https://fonts.google.com/specime
 
 ![Suwannaphum](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [5 styles](#-gallery).
 
+- `Suwannaphum_100Thin`
+- `Suwannaphum_300Light`
 - `Suwannaphum_400Regular`
+- `Suwannaphum_700Bold`
+- `Suwannaphum_900Black`
 
 ## Usage
 
@@ -28,11 +32,22 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, Suwannaphum_400Regular } from '@expo-google-fonts/suwannaphum';
+import {
+  useFonts,
+  Suwannaphum_100Thin,
+  Suwannaphum_300Light,
+  Suwannaphum_400Regular,
+  Suwannaphum_700Bold,
+  Suwannaphum_900Black,
+} from '@expo-google-fonts/suwannaphum';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    Suwannaphum_100Thin,
+    Suwannaphum_300Light,
     Suwannaphum_400Regular,
+    Suwannaphum_700Bold,
+    Suwannaphum_900Black,
   });
 
   let fontSize = 24;
@@ -48,9 +63,49 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Suwannaphum_100Thin',
+          }}>
+          Suwannaphum Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Suwannaphum_300Light',
+          }}>
+          Suwannaphum Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Suwannaphum_400Regular',
           }}>
           Suwannaphum Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Suwannaphum_700Bold',
+          }}>
+          Suwannaphum Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Suwannaphum_900Black',
+          }}>
+          Suwannaphum Black
         </Text>
       </View>
     );
@@ -64,7 +119,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Suwannaphum_400Regular](./Suwannaphum_400Regular.ttf.png)||||
+|![Suwannaphum_100Thin](./Suwannaphum_100Thin.ttf.png)|![Suwannaphum_300Light](./Suwannaphum_300Light.ttf.png)|![Suwannaphum_400Regular](./Suwannaphum_400Regular.ttf.png)||
+|![Suwannaphum_700Bold](./Suwannaphum_700Bold.ttf.png)|![Suwannaphum_900Black](./Suwannaphum_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

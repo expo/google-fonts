@@ -5,5 +5,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const GermaniaOne_400Regular: number;

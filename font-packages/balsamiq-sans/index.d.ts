@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const BalsamiqSans_400Regular: number;
 export const BalsamiqSans_400Regular_Italic: number;
 export const BalsamiqSans_700Bold: number;

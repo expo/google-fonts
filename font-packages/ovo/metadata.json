@@ -2,9 +2,9 @@
   "family": "Ovo",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2020-07-23",
-  "files": { "regular": "http://fonts.gstatic.com/s/ovo/v12/yYLl0h7Wyfzjy4Q5_3WVxA.ttf" },
+  "version": "v15",
+  "lastModified": "2022-01-13",
+  "files": { "regular": "http://fonts.gstatic.com/s/ovo/v15/yYLl0h7Wyfzjy4Q5_3WVxA.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

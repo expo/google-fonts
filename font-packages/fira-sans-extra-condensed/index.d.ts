@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const FiraSansExtraCondensed_100Thin: number;
 export const FiraSansExtraCondensed_100Thin_Italic: number;
 export const FiraSansExtraCondensed_200ExtraLight: number;

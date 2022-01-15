@@ -2,10 +2,10 @@
   "family": "Bahianita",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2021-03-19",
+  "version": "v15",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/bahianita/v5/yYLr0hTb3vuqqsBUgxWtxTvV2NJPcA.ttf"
+    "regular": "http://fonts.gstatic.com/s/bahianita/v15/yYLr0hTb3vuqqsBUgxWtxTvV2NJPcA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

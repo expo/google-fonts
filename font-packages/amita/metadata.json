@@ -2,11 +2,11 @@
   "family": "Amita",
   "variants": ["regular", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2021-03-24",
+  "version": "v14",
+  "lastModified": "2022-01-13",
   "files": {
-    "700": "http://fonts.gstatic.com/s/amita/v9/HhyXU5si9Om7PTHTLtCCOopCTKkI.ttf",
-    "regular": "http://fonts.gstatic.com/s/amita/v9/HhyaU5si9Om7PQlvAfSKEZZL.ttf"
+    "700": "http://fonts.gstatic.com/s/amita/v14/HhyXU5si9Om7PTHTLtCCOopCTKkI.ttf",
+    "regular": "http://fonts.gstatic.com/s/amita/v14/HhyaU5si9Om7PQlvAfSKEZZL.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

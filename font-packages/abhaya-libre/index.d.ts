@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const AbhayaLibre_400Regular: number;
 export const AbhayaLibre_500Medium: number;
 export const AbhayaLibre_600SemiBold: number;

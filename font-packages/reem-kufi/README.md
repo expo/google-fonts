@@ -11,9 +11,12 @@ This package lets you use the [**Reem Kufi**](https://fonts.google.com/specimen/
 
 ![Reem Kufi](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [4 styles](#-gallery).
 
 - `ReemKufi_400Regular`
+- `ReemKufi_500Medium`
+- `ReemKufi_600SemiBold`
+- `ReemKufi_700Bold`
 
 ## Usage
 
@@ -28,11 +31,20 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, ReemKufi_400Regular } from '@expo-google-fonts/reem-kufi';
+import {
+  useFonts,
+  ReemKufi_400Regular,
+  ReemKufi_500Medium,
+  ReemKufi_600SemiBold,
+  ReemKufi_700Bold,
+} from '@expo-google-fonts/reem-kufi';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     ReemKufi_400Regular,
+    ReemKufi_500Medium,
+    ReemKufi_600SemiBold,
+    ReemKufi_700Bold,
   });
 
   let fontSize = 24;
@@ -52,6 +64,36 @@ export default () => {
           }}>
           Reem Kufi Regular
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ReemKufi_500Medium',
+          }}>
+          Reem Kufi Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ReemKufi_600SemiBold',
+          }}>
+          Reem Kufi Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ReemKufi_700Bold',
+          }}>
+          Reem Kufi Bold
+        </Text>
       </View>
     );
   }
@@ -64,7 +106,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ReemKufi_400Regular](./ReemKufi_400Regular.ttf.png)||||
+|![ReemKufi_400Regular](./ReemKufi_400Regular.ttf.png)|![ReemKufi_500Medium](./ReemKufi_500Medium.ttf.png)|![ReemKufi_600SemiBold](./ReemKufi_600SemiBold.ttf.png)||
+|![ReemKufi_700Bold](./ReemKufi_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

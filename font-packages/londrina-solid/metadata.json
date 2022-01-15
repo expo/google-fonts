@@ -2,13 +2,13 @@
   "family": "Londrina Solid",
   "variants": ["100", "300", "regular", "900"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
+  "version": "v13",
+  "lastModified": "2022-01-13",
   "files": {
-    "100": "http://fonts.gstatic.com/s/londrinasolid/v10/flUjRq6sw40kQEJxWNgkLuudGfs9KBYesZHhV64.ttf",
-    "300": "http://fonts.gstatic.com/s/londrinasolid/v10/flUiRq6sw40kQEJxWNgkLuudGfv1CjY0n53oTrcL.ttf",
-    "900": "http://fonts.gstatic.com/s/londrinasolid/v10/flUiRq6sw40kQEJxWNgkLuudGfvdDzY0n53oTrcL.ttf",
-    "regular": "http://fonts.gstatic.com/s/londrinasolid/v10/flUhRq6sw40kQEJxWNgkLuudGcNZIhI8tIHh.ttf"
+    "100": "http://fonts.gstatic.com/s/londrinasolid/v13/flUjRq6sw40kQEJxWNgkLuudGfs9KBYesZHhV64.ttf",
+    "300": "http://fonts.gstatic.com/s/londrinasolid/v13/flUiRq6sw40kQEJxWNgkLuudGfv1CjY0n53oTrcL.ttf",
+    "900": "http://fonts.gstatic.com/s/londrinasolid/v13/flUiRq6sw40kQEJxWNgkLuudGfvdDzY0n53oTrcL.ttf",
+    "regular": "http://fonts.gstatic.com/s/londrinasolid/v13/flUhRq6sw40kQEJxWNgkLuudGcNZIhI8tIHh.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Sora_100Thin: number;
 export const Sora_200ExtraLight: number;
 export const Sora_300Light: number;

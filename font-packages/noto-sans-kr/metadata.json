@@ -2,15 +2,15 @@
   "family": "Noto Sans KR",
   "variants": ["100", "300", "regular", "500", "700", "900"],
   "subsets": ["korean", "latin"],
-  "version": "v13",
-  "lastModified": "2020-11-12",
+  "version": "v21",
+  "lastModified": "2021-09-14",
   "files": {
-    "100": "http://fonts.gstatic.com/s/notosanskr/v13/Pby6FmXiEBPT4ITbgNA5CgmOsn7uwpYcuH8y.otf",
-    "300": "http://fonts.gstatic.com/s/notosanskr/v13/Pby7FmXiEBPT4ITbgNA5CgmOelzI7rgQsWYrzw.otf",
-    "500": "http://fonts.gstatic.com/s/notosanskr/v13/Pby7FmXiEBPT4ITbgNA5CgmOIl3I7rgQsWYrzw.otf",
-    "700": "http://fonts.gstatic.com/s/notosanskr/v13/Pby7FmXiEBPT4ITbgNA5CgmOalvI7rgQsWYrzw.otf",
-    "900": "http://fonts.gstatic.com/s/notosanskr/v13/Pby7FmXiEBPT4ITbgNA5CgmOUlnI7rgQsWYrzw.otf",
-    "regular": "http://fonts.gstatic.com/s/notosanskr/v13/PbykFmXiEBPT4ITbgNA5Cgm20HTs4JMMuA.otf"
+    "100": "http://fonts.gstatic.com/s/notosanskr/v21/Pby6FmXiEBPT4ITbgNA5CgmOsn7uwpYcuH8y.otf",
+    "300": "http://fonts.gstatic.com/s/notosanskr/v21/Pby7FmXiEBPT4ITbgNA5CgmOelzI7rgQsWYrzw.otf",
+    "500": "http://fonts.gstatic.com/s/notosanskr/v21/Pby7FmXiEBPT4ITbgNA5CgmOIl3I7rgQsWYrzw.otf",
+    "700": "http://fonts.gstatic.com/s/notosanskr/v21/Pby7FmXiEBPT4ITbgNA5CgmOalvI7rgQsWYrzw.otf",
+    "900": "http://fonts.gstatic.com/s/notosanskr/v21/Pby7FmXiEBPT4ITbgNA5CgmOUlnI7rgQsWYrzw.otf",
+    "regular": "http://fonts.gstatic.com/s/notosanskr/v21/PbykFmXiEBPT4ITbgNA5Cgm20HTs4JMMuA.otf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

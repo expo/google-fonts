@@ -2,10 +2,10 @@
   "family": "Reggae One",
   "variants": ["regular"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
-  "version": "v3",
-  "lastModified": "2021-03-19",
+  "version": "v9",
+  "lastModified": "2021-11-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/reggaeone/v3/7r3DqX5msMIkeuwJwOJt_a5L5uH-mts.ttf"
+    "regular": "http://fonts.gstatic.com/s/reggaeone/v9/~CgwKClJlZ2dhZSBPbmUgACoECAEYAQ==.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

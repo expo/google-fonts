@@ -5,5 +5,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Gafata_400Regular: number;

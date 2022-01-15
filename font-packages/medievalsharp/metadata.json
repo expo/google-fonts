@@ -2,10 +2,10 @@
   "family": "MedievalSharp",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2021-03-19",
+  "version": "v22",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/medievalsharp/v14/EvOJzAlL3oU5AQl2mP5KdgptAq96MwvXLDk.ttf"
+    "regular": "http://fonts.gstatic.com/s/medievalsharp/v22/EvOJzAlL3oU5AQl2mP5KdgptAq96MwvXLDk.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const LibreFranklin_100Thin: number;
 export const LibreFranklin_200ExtraLight: number;
 export const LibreFranklin_300Light: number;

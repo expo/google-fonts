@@ -2,10 +2,10 @@
   "family": "Mrs Sheppards",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2021-03-19",
+  "version": "v19",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/mrssheppards/v11/PN_2Rfm9snC0XUGoEZhb91ig3vjxynMix4Y.ttf"
+    "regular": "http://fonts.gstatic.com/s/mrssheppards/v19/PN_2Rfm9snC0XUGoEZhb91ig3vjxynMix4Y.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

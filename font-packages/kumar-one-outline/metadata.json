@@ -2,10 +2,10 @@
   "family": "Kumar One Outline",
   "variants": ["regular"],
   "subsets": ["gujarati", "latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2021-03-19",
+  "version": "v16",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/kumaroneoutline/v8/Noao6VH62pyLP0fsrZ-v18wlUEcX9zDwRQu8EGKF.ttf"
+    "regular": "http://fonts.gstatic.com/s/kumaroneoutline/v16/Noao6VH62pyLP0fsrZ-v18wlUEcX9zDwRQu8EGKF.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

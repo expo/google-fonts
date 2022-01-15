@@ -2,10 +2,10 @@
   "family": "Poller One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
+  "version": "v17",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/pollerone/v12/ahccv82n0TN3gia5E4Bud-lbgUS5u0s.ttf"
+    "regular": "http://fonts.gstatic.com/s/pollerone/v17/ahccv82n0TN3gia5E4Bud-lbgUS5u0s.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

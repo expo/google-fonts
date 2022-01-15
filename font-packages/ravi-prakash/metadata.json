@@ -2,10 +2,10 @@
   "family": "Ravi Prakash",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v9",
-  "lastModified": "2021-03-19",
+  "version": "v17",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/raviprakash/v9/gokpH6fsDkVrF9Bv9X8SOAKHmNZEq6TTFw.ttf"
+    "regular": "http://fonts.gstatic.com/s/raviprakash/v17/gokpH6fsDkVrF9Bv9X8SOAKHmNZEq6TTFw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

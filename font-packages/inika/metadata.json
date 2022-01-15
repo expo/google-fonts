@@ -2,11 +2,11 @@
   "family": "Inika",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2021-03-19",
+  "version": "v19",
+  "lastModified": "2022-01-11",
   "files": {
-    "700": "http://fonts.gstatic.com/s/inika/v11/rnCr-x5X3QP-pix7auM-mHnOSOuk.ttf",
-    "regular": "http://fonts.gstatic.com/s/inika/v11/rnCm-x5X3QP-phTHRcc2s2XH.ttf"
+    "700": "http://fonts.gstatic.com/s/inika/v19/rnCr-x5X3QP-pix7auM-mHnOSOuk.ttf",
+    "regular": "http://fonts.gstatic.com/s/inika/v19/rnCm-x5X3QP-phTHRcc2s2XH.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

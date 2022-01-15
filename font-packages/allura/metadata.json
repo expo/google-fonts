@@ -1,10 +1,10 @@
 {
   "family": "Allura",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/allura/v9/9oRPNYsQpS4zjuAPjAIXPtrrGA.ttf" },
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v15",
+  "lastModified": "2021-11-04",
+  "files": { "regular": "http://fonts.gstatic.com/s/allura/v15/9oRPNYsQpS4zjuAPjAIXPtrrGA.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

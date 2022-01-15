@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Gupter_400Regular: number;
 export const Gupter_500Medium: number;
 export const Gupter_700Bold: number;

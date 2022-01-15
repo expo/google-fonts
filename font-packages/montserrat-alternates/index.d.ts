@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const MontserratAlternates_100Thin: number;
 export const MontserratAlternates_100Thin_Italic: number;
 export const MontserratAlternates_200ExtraLight: number;

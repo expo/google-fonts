@@ -11,9 +11,17 @@ This package lets you use the [**Lexend Mega**](https://fonts.google.com/specime
 
 ![Lexend Mega](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [9 styles](#-gallery).
 
+- `LexendMega_100Thin`
+- `LexendMega_200ExtraLight`
+- `LexendMega_300Light`
 - `LexendMega_400Regular`
+- `LexendMega_500Medium`
+- `LexendMega_600SemiBold`
+- `LexendMega_700Bold`
+- `LexendMega_800ExtraBold`
+- `LexendMega_900Black`
 
 ## Usage
 
@@ -28,11 +36,30 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, LexendMega_400Regular } from '@expo-google-fonts/lexend-mega';
+import {
+  useFonts,
+  LexendMega_100Thin,
+  LexendMega_200ExtraLight,
+  LexendMega_300Light,
+  LexendMega_400Regular,
+  LexendMega_500Medium,
+  LexendMega_600SemiBold,
+  LexendMega_700Bold,
+  LexendMega_800ExtraBold,
+  LexendMega_900Black,
+} from '@expo-google-fonts/lexend-mega';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    LexendMega_100Thin,
+    LexendMega_200ExtraLight,
+    LexendMega_300Light,
     LexendMega_400Regular,
+    LexendMega_500Medium,
+    LexendMega_600SemiBold,
+    LexendMega_700Bold,
+    LexendMega_800ExtraBold,
+    LexendMega_900Black,
   });
 
   let fontSize = 24;
@@ -48,9 +75,89 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendMega_100Thin',
+          }}>
+          Lexend Mega Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendMega_200ExtraLight',
+          }}>
+          Lexend Mega Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendMega_300Light',
+          }}>
+          Lexend Mega Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'LexendMega_400Regular',
           }}>
           Lexend Mega Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendMega_500Medium',
+          }}>
+          Lexend Mega Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendMega_600SemiBold',
+          }}>
+          Lexend Mega Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendMega_700Bold',
+          }}>
+          Lexend Mega Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendMega_800ExtraBold',
+          }}>
+          Lexend Mega Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendMega_900Black',
+          }}>
+          Lexend Mega Black
         </Text>
       </View>
     );
@@ -64,7 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LexendMega_400Regular](./LexendMega_400Regular.ttf.png)||||
+|![LexendMega_100Thin](./LexendMega_100Thin.ttf.png)|![LexendMega_200ExtraLight](./LexendMega_200ExtraLight.ttf.png)|![LexendMega_300Light](./LexendMega_300Light.ttf.png)||
+|![LexendMega_400Regular](./LexendMega_400Regular.ttf.png)|![LexendMega_500Medium](./LexendMega_500Medium.ttf.png)|![LexendMega_600SemiBold](./LexendMega_600SemiBold.ttf.png)||
+|![LexendMega_700Bold](./LexendMega_700Bold.ttf.png)|![LexendMega_800ExtraBold](./LexendMega_800ExtraBold.ttf.png)|![LexendMega_900Black](./LexendMega_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

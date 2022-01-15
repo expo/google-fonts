@@ -2,9 +2,9 @@
   "family": "Chango",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/chango/v11/2V0cKI0OB5U7WaJyz324TFUaAw.ttf" },
+  "version": "v19",
+  "lastModified": "2022-01-11",
+  "files": { "regular": "http://fonts.gstatic.com/s/chango/v19/2V0cKI0OB5U7WaJyz324TFUaAw.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

@@ -2,9 +2,9 @@
   "family": "Ruluko",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/ruluko/v10/xMQVuFNZVaODtm0pC6WzKX_QmA.ttf" },
+  "version": "v19",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/ruluko/v19/xMQVuFNZVaODtm0pC6WzKX_QmA.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

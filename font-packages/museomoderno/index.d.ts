@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const MuseoModerno_100Thin: number;
 export const MuseoModerno_200ExtraLight: number;
 export const MuseoModerno_300Light: number;

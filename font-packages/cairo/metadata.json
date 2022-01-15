@@ -1,16 +1,18 @@
 {
   "family": "Cairo",
-  "variants": ["200", "300", "regular", "600", "700", "900"],
+  "variants": ["200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2021-03-24",
+  "version": "v14",
+  "lastModified": "2021-11-15",
   "files": {
-    "200": "http://fonts.gstatic.com/s/cairo/v10/SLXLc1nY6Hkvalrub76M7dd8aGZk.ttf",
-    "300": "http://fonts.gstatic.com/s/cairo/v10/SLXLc1nY6HkvalqKbL6M7dd8aGZk.ttf",
-    "600": "http://fonts.gstatic.com/s/cairo/v10/SLXLc1nY6Hkvalr-ar6M7dd8aGZk.ttf",
-    "700": "http://fonts.gstatic.com/s/cairo/v10/SLXLc1nY6Hkvalqaa76M7dd8aGZk.ttf",
-    "900": "http://fonts.gstatic.com/s/cairo/v10/SLXLc1nY6Hkvalqiab6M7dd8aGZk.ttf",
-    "regular": "http://fonts.gstatic.com/s/cairo/v10/SLXGc1nY6HkvamImRJqExst1.ttf"
+    "200": "http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5l2WgsQSaT0J0vRQ.ttf",
+    "300": "http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5lB2gsQSaT0J0vRQ.ttf",
+    "500": "http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5la2gsQSaT0J0vRQ.ttf",
+    "600": "http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5lh28sQSaT0J0vRQ.ttf",
+    "700": "http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5lvm8sQSaT0J0vRQ.ttf",
+    "800": "http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5l2W8sQSaT0J0vRQ.ttf",
+    "900": "http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5l8G8sQSaT0J0vRQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5lWWgsQSaT0J0vRQ.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

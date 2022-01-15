@@ -2,9 +2,9 @@
   "family": "Hanalei",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/hanalei/v13/E21n_dD8iufIjBRHXzgmVydREus.ttf" },
+  "version": "v21",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/hanalei/v21/E21n_dD8iufIjBRHXzgmVydREus.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

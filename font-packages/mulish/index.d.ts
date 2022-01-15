@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Mulish_200ExtraLight: number;
 export const Mulish_300Light: number;
 export const Mulish_400Regular: number;

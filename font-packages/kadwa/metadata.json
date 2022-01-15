@@ -2,11 +2,11 @@
   "family": "Kadwa",
   "variants": ["regular", "700"],
   "subsets": ["devanagari", "latin"],
-  "version": "v5",
-  "lastModified": "2021-04-01",
+  "version": "v8",
+  "lastModified": "2022-01-13",
   "files": {
-    "700": "http://fonts.gstatic.com/s/kadwa/v5/rnCr-x5V0g7ipix7auM-mHnOSOuk.ttf",
-    "regular": "http://fonts.gstatic.com/s/kadwa/v5/rnCm-x5V0g7iphTHRcc2s2XH.ttf"
+    "700": "http://fonts.gstatic.com/s/kadwa/v8/rnCr-x5V0g7ipix7auM-mHnOSOuk.ttf",
+    "regular": "http://fonts.gstatic.com/s/kadwa/v8/rnCm-x5V0g7iphTHRcc2s2XH.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

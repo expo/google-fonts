@@ -11,13 +11,18 @@ This package lets you use the [**Yrsa**](https://fonts.google.com/specimen/Yrsa)
 
 ![Yrsa](./font-family.png)
 
-This font family contains [5 styles](#-gallery).
+This font family contains [10 styles](#-gallery).
 
 - `Yrsa_300Light`
 - `Yrsa_400Regular`
 - `Yrsa_500Medium`
 - `Yrsa_600SemiBold`
 - `Yrsa_700Bold`
+- `Yrsa_300Light_Italic`
+- `Yrsa_400Regular_Italic`
+- `Yrsa_500Medium_Italic`
+- `Yrsa_600SemiBold_Italic`
+- `Yrsa_700Bold_Italic`
 
 ## Usage
 
@@ -39,6 +44,11 @@ import {
   Yrsa_500Medium,
   Yrsa_600SemiBold,
   Yrsa_700Bold,
+  Yrsa_300Light_Italic,
+  Yrsa_400Regular_Italic,
+  Yrsa_500Medium_Italic,
+  Yrsa_600SemiBold_Italic,
+  Yrsa_700Bold_Italic,
 } from '@expo-google-fonts/yrsa';
 
 export default () => {
@@ -48,6 +58,11 @@ export default () => {
     Yrsa_500Medium,
     Yrsa_600SemiBold,
     Yrsa_700Bold,
+    Yrsa_300Light_Italic,
+    Yrsa_400Regular_Italic,
+    Yrsa_500Medium_Italic,
+    Yrsa_600SemiBold_Italic,
+    Yrsa_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -107,6 +122,56 @@ export default () => {
           }}>
           Yrsa Bold
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Yrsa_300Light_Italic',
+          }}>
+          Yrsa Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Yrsa_400Regular_Italic',
+          }}>
+          Yrsa Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Yrsa_500Medium_Italic',
+          }}>
+          Yrsa Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Yrsa_600SemiBold_Italic',
+          }}>
+          Yrsa Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Yrsa_700Bold_Italic',
+          }}>
+          Yrsa Bold Italic
+        </Text>
       </View>
     );
   }
@@ -120,7 +185,9 @@ export default () => {
 ||||
 |-|-|-|
 |![Yrsa_300Light](./Yrsa_300Light.ttf.png)|![Yrsa_400Regular](./Yrsa_400Regular.ttf.png)|![Yrsa_500Medium](./Yrsa_500Medium.ttf.png)||
-|![Yrsa_600SemiBold](./Yrsa_600SemiBold.ttf.png)|![Yrsa_700Bold](./Yrsa_700Bold.ttf.png)|||
+|![Yrsa_600SemiBold](./Yrsa_600SemiBold.ttf.png)|![Yrsa_700Bold](./Yrsa_700Bold.ttf.png)|![Yrsa_300Light_Italic](./Yrsa_300Light_Italic.ttf.png)||
+|![Yrsa_400Regular_Italic](./Yrsa_400Regular_Italic.ttf.png)|![Yrsa_500Medium_Italic](./Yrsa_500Medium_Italic.ttf.png)|![Yrsa_600SemiBold_Italic](./Yrsa_600SemiBold_Italic.ttf.png)||
+|![Yrsa_700Bold_Italic](./Yrsa_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

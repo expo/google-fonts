@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/trispace",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Use the Trispace font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",

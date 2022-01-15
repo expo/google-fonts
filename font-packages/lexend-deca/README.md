@@ -11,9 +11,17 @@ This package lets you use the [**Lexend Deca**](https://fonts.google.com/specime
 
 ![Lexend Deca](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [9 styles](#-gallery).
 
+- `LexendDeca_100Thin`
+- `LexendDeca_200ExtraLight`
+- `LexendDeca_300Light`
 - `LexendDeca_400Regular`
+- `LexendDeca_500Medium`
+- `LexendDeca_600SemiBold`
+- `LexendDeca_700Bold`
+- `LexendDeca_800ExtraBold`
+- `LexendDeca_900Black`
 
 ## Usage
 
@@ -28,11 +36,30 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, LexendDeca_400Regular } from '@expo-google-fonts/lexend-deca';
+import {
+  useFonts,
+  LexendDeca_100Thin,
+  LexendDeca_200ExtraLight,
+  LexendDeca_300Light,
+  LexendDeca_400Regular,
+  LexendDeca_500Medium,
+  LexendDeca_600SemiBold,
+  LexendDeca_700Bold,
+  LexendDeca_800ExtraBold,
+  LexendDeca_900Black,
+} from '@expo-google-fonts/lexend-deca';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    LexendDeca_100Thin,
+    LexendDeca_200ExtraLight,
+    LexendDeca_300Light,
     LexendDeca_400Regular,
+    LexendDeca_500Medium,
+    LexendDeca_600SemiBold,
+    LexendDeca_700Bold,
+    LexendDeca_800ExtraBold,
+    LexendDeca_900Black,
   });
 
   let fontSize = 24;
@@ -48,9 +75,89 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendDeca_100Thin',
+          }}>
+          Lexend Deca Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendDeca_200ExtraLight',
+          }}>
+          Lexend Deca Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendDeca_300Light',
+          }}>
+          Lexend Deca Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'LexendDeca_400Regular',
           }}>
           Lexend Deca Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendDeca_500Medium',
+          }}>
+          Lexend Deca Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendDeca_600SemiBold',
+          }}>
+          Lexend Deca Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendDeca_700Bold',
+          }}>
+          Lexend Deca Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendDeca_800ExtraBold',
+          }}>
+          Lexend Deca Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendDeca_900Black',
+          }}>
+          Lexend Deca Black
         </Text>
       </View>
     );
@@ -64,7 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LexendDeca_400Regular](./LexendDeca_400Regular.ttf.png)||||
+|![LexendDeca_100Thin](./LexendDeca_100Thin.ttf.png)|![LexendDeca_200ExtraLight](./LexendDeca_200ExtraLight.ttf.png)|![LexendDeca_300Light](./LexendDeca_300Light.ttf.png)||
+|![LexendDeca_400Regular](./LexendDeca_400Regular.ttf.png)|![LexendDeca_500Medium](./LexendDeca_500Medium.ttf.png)|![LexendDeca_600SemiBold](./LexendDeca_600SemiBold.ttf.png)||
+|![LexendDeca_700Bold](./LexendDeca_700Bold.ttf.png)|![LexendDeca_800ExtraBold](./LexendDeca_800ExtraBold.ttf.png)|![LexendDeca_900Black](./LexendDeca_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

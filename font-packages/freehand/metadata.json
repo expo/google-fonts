@@ -1,11 +1,11 @@
 {
   "family": "Freehand",
   "variants": ["regular"],
-  "subsets": ["khmer"],
-  "version": "v14",
-  "lastModified": "2021-03-19",
+  "subsets": ["khmer", "latin"],
+  "version": "v25",
+  "lastModified": "2021-12-17",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/freehand/v14/cIf-Ma5eqk01VjKTgAmBTmUOmZJk.ttf"
+    "regular": "http://fonts.gstatic.com/s/freehand/v25/cIf-Ma5eqk01VjKTgAmBTmUOmZJk.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

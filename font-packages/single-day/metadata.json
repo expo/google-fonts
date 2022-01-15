@@ -2,10 +2,10 @@
   "family": "Single Day",
   "variants": ["regular"],
   "subsets": ["korean"],
-  "version": "v5",
-  "lastModified": "2021-03-19",
+  "version": "v13",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/singleday/v5/LYjHdGDjlEgoAcF95EI5jVoFUNfeQJU.ttf"
+    "regular": "http://fonts.gstatic.com/s/singleday/v13/LYjHdGDjlEgoAcF95EI5jVoFUNfeQJU.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

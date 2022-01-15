@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/pathway-gothic-one",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Use the Pathway Gothic One font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",

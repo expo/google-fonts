@@ -2,10 +2,10 @@
   "family": "Nova Round",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2021-03-19",
+  "version": "v19",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/novaround/v14/flU9Rqquw5UhEnlwTJYTYYfeeetYEBc.ttf"
+    "regular": "http://fonts.gstatic.com/s/novaround/v19/flU9Rqquw5UhEnlwTJYTYYfeeetYEBc.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

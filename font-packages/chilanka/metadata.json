@@ -2,9 +2,11 @@
   "family": "Chilanka",
   "variants": ["regular"],
   "subsets": ["latin", "malayalam"],
-  "version": "v8",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/chilanka/v8/WWXRlj2DZQiMJYaYRrJQI9EAZhTO.ttf" },
+  "version": "v16",
+  "lastModified": "2022-01-05",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/chilanka/v16/WWXRlj2DZQiMJYaYRrJQI9EAZhTO.ttf"
+  },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

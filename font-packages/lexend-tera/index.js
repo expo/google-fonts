@@ -5,4 +5,12 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const LexendTera_100Thin = require('./LexendTera_100Thin.ttf');
+export const LexendTera_200ExtraLight = require('./LexendTera_200ExtraLight.ttf');
+export const LexendTera_300Light = require('./LexendTera_300Light.ttf');
 export const LexendTera_400Regular = require('./LexendTera_400Regular.ttf');
+export const LexendTera_500Medium = require('./LexendTera_500Medium.ttf');
+export const LexendTera_600SemiBold = require('./LexendTera_600SemiBold.ttf');
+export const LexendTera_700Bold = require('./LexendTera_700Bold.ttf');
+export const LexendTera_800ExtraBold = require('./LexendTera_800ExtraBold.ttf');
+export const LexendTera_900Black = require('./LexendTera_900Black.ttf');

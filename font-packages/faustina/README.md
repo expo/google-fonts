@@ -11,16 +11,20 @@ This package lets you use the [**Faustina**](https://fonts.google.com/specimen/F
 
 ![Faustina](./font-family.png)
 
-This font family contains [8 styles](#-gallery).
+This font family contains [12 styles](#-gallery).
 
+- `Faustina_300Light`
 - `Faustina_400Regular`
 - `Faustina_500Medium`
 - `Faustina_600SemiBold`
 - `Faustina_700Bold`
+- `Faustina_800ExtraBold`
+- `Faustina_300Light_Italic`
 - `Faustina_400Regular_Italic`
 - `Faustina_500Medium_Italic`
 - `Faustina_600SemiBold_Italic`
 - `Faustina_700Bold_Italic`
+- `Faustina_800ExtraBold_Italic`
 
 ## Usage
 
@@ -37,26 +41,34 @@ import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import {
   useFonts,
+  Faustina_300Light,
   Faustina_400Regular,
   Faustina_500Medium,
   Faustina_600SemiBold,
   Faustina_700Bold,
+  Faustina_800ExtraBold,
+  Faustina_300Light_Italic,
   Faustina_400Regular_Italic,
   Faustina_500Medium_Italic,
   Faustina_600SemiBold_Italic,
   Faustina_700Bold_Italic,
+  Faustina_800ExtraBold_Italic,
 } from '@expo-google-fonts/faustina';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    Faustina_300Light,
     Faustina_400Regular,
     Faustina_500Medium,
     Faustina_600SemiBold,
     Faustina_700Bold,
+    Faustina_800ExtraBold,
+    Faustina_300Light_Italic,
     Faustina_400Regular_Italic,
     Faustina_500Medium_Italic,
     Faustina_600SemiBold_Italic,
     Faustina_700Bold_Italic,
+    Faustina_800ExtraBold_Italic,
   });
 
   let fontSize = 24;
@@ -67,6 +79,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Faustina_300Light',
+          }}>
+          Faustina Light
+        </Text>
+
         <Text
           style={{
             fontSize,
@@ -112,6 +134,26 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Faustina_800ExtraBold',
+          }}>
+          Faustina Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Faustina_300Light_Italic',
+          }}>
+          Faustina Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Faustina_400Regular_Italic',
           }}>
           Faustina Italic
@@ -146,6 +188,16 @@ export default () => {
           }}>
           Faustina Bold Italic
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Faustina_800ExtraBold_Italic',
+          }}>
+          Faustina Extra Bold Italic
+        </Text>
       </View>
     );
   }
@@ -158,9 +210,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Faustina_400Regular](./Faustina_400Regular.ttf.png)|![Faustina_500Medium](./Faustina_500Medium.ttf.png)|![Faustina_600SemiBold](./Faustina_600SemiBold.ttf.png)||
-|![Faustina_700Bold](./Faustina_700Bold.ttf.png)|![Faustina_400Regular_Italic](./Faustina_400Regular_Italic.ttf.png)|![Faustina_500Medium_Italic](./Faustina_500Medium_Italic.ttf.png)||
-|![Faustina_600SemiBold_Italic](./Faustina_600SemiBold_Italic.ttf.png)|![Faustina_700Bold_Italic](./Faustina_700Bold_Italic.ttf.png)|||
+|![Faustina_300Light](./Faustina_300Light.ttf.png)|![Faustina_400Regular](./Faustina_400Regular.ttf.png)|![Faustina_500Medium](./Faustina_500Medium.ttf.png)||
+|![Faustina_600SemiBold](./Faustina_600SemiBold.ttf.png)|![Faustina_700Bold](./Faustina_700Bold.ttf.png)|![Faustina_800ExtraBold](./Faustina_800ExtraBold.ttf.png)||
+|![Faustina_300Light_Italic](./Faustina_300Light_Italic.ttf.png)|![Faustina_400Regular_Italic](./Faustina_400Regular_Italic.ttf.png)|![Faustina_500Medium_Italic](./Faustina_500Medium_Italic.ttf.png)||
+|![Faustina_600SemiBold_Italic](./Faustina_600SemiBold_Italic.ttf.png)|![Faustina_700Bold_Italic](./Faustina_700Bold_Italic.ttf.png)|![Faustina_800ExtraBold_Italic](./Faustina_800ExtraBold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

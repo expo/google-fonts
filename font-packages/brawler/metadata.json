@@ -2,9 +2,9 @@
   "family": "Brawler",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2020-07-23",
-  "files": { "regular": "http://fonts.gstatic.com/s/brawler/v11/xn7gYHE3xXewAscGsgC7S9XdZN8.ttf" },
+  "version": "v16",
+  "lastModified": "2022-01-13",
+  "files": { "regular": "http://fonts.gstatic.com/s/brawler/v16/xn7gYHE3xXewAscGsgC7S9XdZN8.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

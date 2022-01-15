@@ -2,15 +2,15 @@
   "family": "Ruda",
   "variants": ["regular", "500", "600", "700", "800", "900"],
   "subsets": ["cyrillic", "latin", "latin-ext", "vietnamese"],
-  "version": "v14",
-  "lastModified": "2021-01-30",
+  "version": "v17",
+  "lastModified": "2021-08-18",
   "files": {
-    "500": "http://fonts.gstatic.com/s/ruda/v14/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJ3si_-2KiSGg-H.ttf",
-    "600": "http://fonts.gstatic.com/s/ruda/v14/k3kKo8YQJOpFgHQ1mQ5VkEbUKaKbtS_-2KiSGg-H.ttf",
-    "700": "http://fonts.gstatic.com/s/ruda/v14/k3kKo8YQJOpFgHQ1mQ5VkEbUKaKitS_-2KiSGg-H.ttf",
-    "800": "http://fonts.gstatic.com/s/ruda/v14/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLFtS_-2KiSGg-H.ttf",
-    "900": "http://fonts.gstatic.com/s/ruda/v14/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLstS_-2KiSGg-H.ttf",
-    "regular": "http://fonts.gstatic.com/s/ruda/v14/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJFsi_-2KiSGg-H.ttf"
+    "500": "http://fonts.gstatic.com/s/ruda/v17/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJ3si_-2KiSGg-H.ttf",
+    "600": "http://fonts.gstatic.com/s/ruda/v17/k3kKo8YQJOpFgHQ1mQ5VkEbUKaKbtS_-2KiSGg-H.ttf",
+    "700": "http://fonts.gstatic.com/s/ruda/v17/k3kKo8YQJOpFgHQ1mQ5VkEbUKaKitS_-2KiSGg-H.ttf",
+    "800": "http://fonts.gstatic.com/s/ruda/v17/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLFtS_-2KiSGg-H.ttf",
+    "900": "http://fonts.gstatic.com/s/ruda/v17/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLstS_-2KiSGg-H.ttf",
+    "regular": "http://fonts.gstatic.com/s/ruda/v17/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJFsi_-2KiSGg-H.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

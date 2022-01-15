@@ -2,9 +2,9 @@
   "family": "Spirax",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/spirax/v11/buE3poKgYNLy0F3cXktt-Csn-Q.ttf" },
+  "version": "v19",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/spirax/v19/buE3poKgYNLy0F3cXktt-Csn-Q.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

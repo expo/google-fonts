@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Kantumruy_300Light: number;
 export const Kantumruy_400Regular: number;
 export const Kantumruy_700Bold: number;

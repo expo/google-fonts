@@ -2,9 +2,9 @@
   "family": "Voces",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/voces/v12/-F6_fjJyLyU8d4PBBG7YpzlJ.ttf" },
+  "version": "v18",
+  "lastModified": "2022-01-11",
+  "files": { "regular": "http://fonts.gstatic.com/s/voces/v18/-F6_fjJyLyU8d4PBBG7YpzlJ.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

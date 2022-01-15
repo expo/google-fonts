@@ -2,10 +2,10 @@
   "family": "Londrina Outline",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2021-03-19",
+  "version": "v21",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/londrinaoutline/v13/C8c44dM8vmb14dfsZxhetg3pDH-SfuoxrSKMDvI.ttf"
+    "regular": "http://fonts.gstatic.com/s/londrinaoutline/v21/C8c44dM8vmb14dfsZxhetg3pDH-SfuoxrSKMDvI.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

@@ -11,9 +11,17 @@ This package lets you use the [**Lexend Tera**](https://fonts.google.com/specime
 
 ![Lexend Tera](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [9 styles](#-gallery).
 
+- `LexendTera_100Thin`
+- `LexendTera_200ExtraLight`
+- `LexendTera_300Light`
 - `LexendTera_400Regular`
+- `LexendTera_500Medium`
+- `LexendTera_600SemiBold`
+- `LexendTera_700Bold`
+- `LexendTera_800ExtraBold`
+- `LexendTera_900Black`
 
 ## Usage
 
@@ -28,11 +36,30 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, LexendTera_400Regular } from '@expo-google-fonts/lexend-tera';
+import {
+  useFonts,
+  LexendTera_100Thin,
+  LexendTera_200ExtraLight,
+  LexendTera_300Light,
+  LexendTera_400Regular,
+  LexendTera_500Medium,
+  LexendTera_600SemiBold,
+  LexendTera_700Bold,
+  LexendTera_800ExtraBold,
+  LexendTera_900Black,
+} from '@expo-google-fonts/lexend-tera';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    LexendTera_100Thin,
+    LexendTera_200ExtraLight,
+    LexendTera_300Light,
     LexendTera_400Regular,
+    LexendTera_500Medium,
+    LexendTera_600SemiBold,
+    LexendTera_700Bold,
+    LexendTera_800ExtraBold,
+    LexendTera_900Black,
   });
 
   let fontSize = 24;
@@ -48,9 +75,89 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendTera_100Thin',
+          }}>
+          Lexend Tera Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendTera_200ExtraLight',
+          }}>
+          Lexend Tera Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendTera_300Light',
+          }}>
+          Lexend Tera Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'LexendTera_400Regular',
           }}>
           Lexend Tera Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendTera_500Medium',
+          }}>
+          Lexend Tera Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendTera_600SemiBold',
+          }}>
+          Lexend Tera Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendTera_700Bold',
+          }}>
+          Lexend Tera Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendTera_800ExtraBold',
+          }}>
+          Lexend Tera Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendTera_900Black',
+          }}>
+          Lexend Tera Black
         </Text>
       </View>
     );
@@ -64,7 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LexendTera_400Regular](./LexendTera_400Regular.ttf.png)||||
+|![LexendTera_100Thin](./LexendTera_100Thin.ttf.png)|![LexendTera_200ExtraLight](./LexendTera_200ExtraLight.ttf.png)|![LexendTera_300Light](./LexendTera_300Light.ttf.png)||
+|![LexendTera_400Regular](./LexendTera_400Regular.ttf.png)|![LexendTera_500Medium](./LexendTera_500Medium.ttf.png)|![LexendTera_600SemiBold](./LexendTera_600SemiBold.ttf.png)||
+|![LexendTera_700Bold](./LexendTera_700Bold.ttf.png)|![LexendTera_800ExtraBold](./LexendTera_800ExtraBold.ttf.png)|![LexendTera_900Black](./LexendTera_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -2,10 +2,10 @@
   "family": "Goudy Bookletter 1911",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-07-23",
+  "version": "v13",
+  "lastModified": "2022-01-13",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/goudybookletter1911/v10/sykt-z54laciWfKv-kX8krex0jDiD2HbY6I5tRbXZ4IXAA.ttf"
+    "regular": "http://fonts.gstatic.com/s/goudybookletter1911/v13/sykt-z54laciWfKv-kX8krex0jDiD2HbY6I5tRbXZ4IXAA.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

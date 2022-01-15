@@ -2,10 +2,10 @@
   "family": "Metal Mania",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
+  "version": "v20",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/metalmania/v12/RWmMoKWb4e8kqMfBUdPFJeXCg6UKDXlq.ttf"
+    "regular": "http://fonts.gstatic.com/s/metalmania/v20/RWmMoKWb4e8kqMfBUdPFJeXCg6UKDXlq.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

@@ -11,9 +11,17 @@ This package lets you use the [**Lexend Exa**](https://fonts.google.com/specimen
 
 ![Lexend Exa](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [9 styles](#-gallery).
 
+- `LexendExa_100Thin`
+- `LexendExa_200ExtraLight`
+- `LexendExa_300Light`
 - `LexendExa_400Regular`
+- `LexendExa_500Medium`
+- `LexendExa_600SemiBold`
+- `LexendExa_700Bold`
+- `LexendExa_800ExtraBold`
+- `LexendExa_900Black`
 
 ## Usage
 
@@ -28,11 +36,30 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, LexendExa_400Regular } from '@expo-google-fonts/lexend-exa';
+import {
+  useFonts,
+  LexendExa_100Thin,
+  LexendExa_200ExtraLight,
+  LexendExa_300Light,
+  LexendExa_400Regular,
+  LexendExa_500Medium,
+  LexendExa_600SemiBold,
+  LexendExa_700Bold,
+  LexendExa_800ExtraBold,
+  LexendExa_900Black,
+} from '@expo-google-fonts/lexend-exa';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    LexendExa_100Thin,
+    LexendExa_200ExtraLight,
+    LexendExa_300Light,
     LexendExa_400Regular,
+    LexendExa_500Medium,
+    LexendExa_600SemiBold,
+    LexendExa_700Bold,
+    LexendExa_800ExtraBold,
+    LexendExa_900Black,
   });
 
   let fontSize = 24;
@@ -48,9 +75,89 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendExa_100Thin',
+          }}>
+          Lexend Exa Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendExa_200ExtraLight',
+          }}>
+          Lexend Exa Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendExa_300Light',
+          }}>
+          Lexend Exa Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'LexendExa_400Regular',
           }}>
           Lexend Exa Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendExa_500Medium',
+          }}>
+          Lexend Exa Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendExa_600SemiBold',
+          }}>
+          Lexend Exa Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendExa_700Bold',
+          }}>
+          Lexend Exa Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendExa_800ExtraBold',
+          }}>
+          Lexend Exa Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendExa_900Black',
+          }}>
+          Lexend Exa Black
         </Text>
       </View>
     );
@@ -64,7 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LexendExa_400Regular](./LexendExa_400Regular.ttf.png)||||
+|![LexendExa_100Thin](./LexendExa_100Thin.ttf.png)|![LexendExa_200ExtraLight](./LexendExa_200ExtraLight.ttf.png)|![LexendExa_300Light](./LexendExa_300Light.ttf.png)||
+|![LexendExa_400Regular](./LexendExa_400Regular.ttf.png)|![LexendExa_500Medium](./LexendExa_500Medium.ttf.png)|![LexendExa_600SemiBold](./LexendExa_600SemiBold.ttf.png)||
+|![LexendExa_700Bold](./LexendExa_700Bold.ttf.png)|![LexendExa_800ExtraBold](./LexendExa_800ExtraBold.ttf.png)|![LexendExa_900Black](./LexendExa_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

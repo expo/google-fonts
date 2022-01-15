@@ -2,10 +2,10 @@
   "family": "Nova Flat",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2021-03-19",
+  "version": "v22",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/novaflat/v14/QdVUSTc-JgqpytEbVebEuStkm20oJA.ttf"
+    "regular": "http://fonts.gstatic.com/s/novaflat/v22/QdVUSTc-JgqpytEbVebEuStkm20oJA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

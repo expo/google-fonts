@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Alegreya_400Regular: number;
 export const Alegreya_500Medium: number;
 export const Alegreya_600SemiBold: number;

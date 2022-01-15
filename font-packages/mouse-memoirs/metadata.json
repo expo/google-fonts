@@ -2,10 +2,10 @@
   "family": "Mouse Memoirs",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-07-23",
+  "version": "v11",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/mousememoirs/v8/t5tmIRoSNJ-PH0WNNgDYxdSb7TnFrpOHYh4.ttf"
+    "regular": "http://fonts.gstatic.com/s/mousememoirs/v11/t5tmIRoSNJ-PH0WNNgDYxdSb7TnFrpOHYh4.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

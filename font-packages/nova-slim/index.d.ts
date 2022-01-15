@@ -5,5 +5,5 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const NovaSlim_400Regular: number;

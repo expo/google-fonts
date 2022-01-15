@@ -11,13 +11,15 @@ This package lets you use the [**Cairo**](https://fonts.google.com/specimen/Cair
 
 ![Cairo](./font-family.png)
 
-This font family contains [6 styles](#-gallery).
+This font family contains [8 styles](#-gallery).
 
 - `Cairo_200ExtraLight`
 - `Cairo_300Light`
 - `Cairo_400Regular`
+- `Cairo_500Medium`
 - `Cairo_600SemiBold`
 - `Cairo_700Bold`
+- `Cairo_800ExtraBold`
 - `Cairo_900Black`
 
 ## Usage
@@ -38,8 +40,10 @@ import {
   Cairo_200ExtraLight,
   Cairo_300Light,
   Cairo_400Regular,
+  Cairo_500Medium,
   Cairo_600SemiBold,
   Cairo_700Bold,
+  Cairo_800ExtraBold,
   Cairo_900Black,
 } from '@expo-google-fonts/cairo';
 
@@ -48,8 +52,10 @@ export default () => {
     Cairo_200ExtraLight,
     Cairo_300Light,
     Cairo_400Regular,
+    Cairo_500Medium,
     Cairo_600SemiBold,
     Cairo_700Bold,
+    Cairo_800ExtraBold,
     Cairo_900Black,
   });
 
@@ -96,6 +102,16 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cairo_500Medium',
+          }}>
+          Cairo Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Cairo_600SemiBold',
           }}>
           Cairo Semi Bold
@@ -109,6 +125,16 @@ export default () => {
             fontFamily: 'Cairo_700Bold',
           }}>
           Cairo Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Cairo_800ExtraBold',
+          }}>
+          Cairo Extra Bold
         </Text>
 
         <Text
@@ -133,7 +159,8 @@ export default () => {
 ||||
 |-|-|-|
 |![Cairo_200ExtraLight](./Cairo_200ExtraLight.ttf.png)|![Cairo_300Light](./Cairo_300Light.ttf.png)|![Cairo_400Regular](./Cairo_400Regular.ttf.png)||
-|![Cairo_600SemiBold](./Cairo_600SemiBold.ttf.png)|![Cairo_700Bold](./Cairo_700Bold.ttf.png)|![Cairo_900Black](./Cairo_900Black.ttf.png)||
+|![Cairo_500Medium](./Cairo_500Medium.ttf.png)|![Cairo_600SemiBold](./Cairo_600SemiBold.ttf.png)|![Cairo_700Bold](./Cairo_700Bold.ttf.png)||
+|![Cairo_800ExtraBold](./Cairo_800ExtraBold.ttf.png)|![Cairo_900Black](./Cairo_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -2,12 +2,12 @@
   "family": "Gupter",
   "variants": ["regular", "500", "700"],
   "subsets": ["latin"],
-  "version": "v4",
-  "lastModified": "2021-03-19",
+  "version": "v12",
+  "lastModified": "2022-01-05",
   "files": {
-    "500": "http://fonts.gstatic.com/s/gupter/v4/2-cl9JNmxJqPO1Qslb-bUsT5rZhaZg.ttf",
-    "700": "http://fonts.gstatic.com/s/gupter/v4/2-cl9JNmxJqPO1Qs3bmbUsT5rZhaZg.ttf",
-    "regular": "http://fonts.gstatic.com/s/gupter/v4/2-cm9JNmxJqPO1QUYZa_Wu_lpA.ttf"
+    "500": "http://fonts.gstatic.com/s/gupter/v12/2-cl9JNmxJqPO1Qslb-bUsT5rZhaZg.ttf",
+    "700": "http://fonts.gstatic.com/s/gupter/v12/2-cl9JNmxJqPO1Qs3bmbUsT5rZhaZg.ttf",
+    "regular": "http://fonts.gstatic.com/s/gupter/v12/2-cm9JNmxJqPO1QUYZa_Wu_lpA.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

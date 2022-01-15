@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const ShipporiMinchoB1_400Regular: number;
 export const ShipporiMinchoB1_500Medium: number;
 export const ShipporiMinchoB1_600SemiBold: number;

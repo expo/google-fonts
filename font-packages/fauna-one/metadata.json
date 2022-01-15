@@ -2,10 +2,10 @@
   "family": "Fauna One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-09-02",
+  "version": "v11",
+  "lastModified": "2022-01-13",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/faunaone/v8/wlpzgwTPBVpjpCuwkuEx2UxLYClOCg.ttf"
+    "regular": "http://fonts.gstatic.com/s/faunaone/v11/wlpzgwTPBVpjpCuwkuEx2UxLYClOCg.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

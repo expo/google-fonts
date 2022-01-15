@@ -2,9 +2,9 @@
   "family": "Mansalva",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v4",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/mansalva/v4/aWB4m0aacbtDfvq5NJllI47vdyBg.ttf" },
+  "version": "v7",
+  "lastModified": "2022-01-13",
+  "files": { "regular": "http://fonts.gstatic.com/s/mansalva/v7/aWB4m0aacbtDfvq5NJllI47vdyBg.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

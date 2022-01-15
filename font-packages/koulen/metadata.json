@@ -1,10 +1,10 @@
 {
   "family": "Koulen",
   "variants": ["regular"],
-  "subsets": ["khmer"],
-  "version": "v16",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/koulen/v16/AMOQz46as3KIBPeWgnA9kuYMUg.ttf" },
+  "subsets": ["khmer", "latin"],
+  "version": "v23",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/koulen/v23/AMOQz46as3KIBPeWgnA9kuYMUg.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

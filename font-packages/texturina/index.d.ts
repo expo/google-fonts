@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Texturina_100Thin: number;
 export const Texturina_200ExtraLight: number;
 export const Texturina_300Light: number;

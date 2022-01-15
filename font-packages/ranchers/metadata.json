@@ -2,9 +2,11 @@
   "family": "Ranchers",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-07-23",
-  "files": { "regular": "http://fonts.gstatic.com/s/ranchers/v8/zrfm0H3Lx-P2Xvs2AoDYDC79XTHv.ttf" },
+  "version": "v11",
+  "lastModified": "2022-01-11",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/ranchers/v11/zrfm0H3Lx-P2Xvs2AoDYDC79XTHv.ttf"
+  },
   "category": "display",
   "kind": "webfonts#webfont"
 }

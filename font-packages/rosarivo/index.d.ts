@@ -5,6 +5,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Rosarivo_400Regular: number;
 export const Rosarivo_400Regular_Italic: number;

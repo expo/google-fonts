@@ -2,10 +2,10 @@
   "family": "Amethysta",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2020-07-23",
+  "version": "v14",
+  "lastModified": "2022-01-13",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/amethysta/v9/rP2Fp2K15kgb_F3ibfWIGDWCBl0O8Q.ttf"
+    "regular": "http://fonts.gstatic.com/s/amethysta/v14/rP2Fp2K15kgb_F3ibfWIGDWCBl0O8Q.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

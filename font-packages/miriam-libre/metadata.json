@@ -2,11 +2,11 @@
   "family": "Miriam Libre",
   "variants": ["regular", "700"],
   "subsets": ["hebrew", "latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2020-09-02",
+  "version": "v10",
+  "lastModified": "2022-01-13",
   "files": {
-    "700": "http://fonts.gstatic.com/s/miriamlibre/v7/DdT-798HsHwubBAqfkcBTL_X3LbbRcC7_-Z7Hg.ttf",
-    "regular": "http://fonts.gstatic.com/s/miriamlibre/v7/DdTh798HsHwubBAqfkcBTL_vYJn_Teun9g.ttf"
+    "700": "http://fonts.gstatic.com/s/miriamlibre/v10/DdT-798HsHwubBAqfkcBTL_X3LbbRcC7_-Z7Hg.ttf",
+    "regular": "http://fonts.gstatic.com/s/miriamlibre/v10/DdTh798HsHwubBAqfkcBTL_vYJn_Teun9g.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

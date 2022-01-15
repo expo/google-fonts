@@ -11,10 +11,13 @@ This package lets you use the [**Hanuman**](https://fonts.google.com/specimen/Ha
 
 ![Hanuman](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [5 styles](#-gallery).
 
+- `Hanuman_100Thin`
+- `Hanuman_300Light`
 - `Hanuman_400Regular`
 - `Hanuman_700Bold`
+- `Hanuman_900Black`
 
 ## Usage
 
@@ -29,12 +32,22 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, Hanuman_400Regular, Hanuman_700Bold } from '@expo-google-fonts/hanuman';
+import {
+  useFonts,
+  Hanuman_100Thin,
+  Hanuman_300Light,
+  Hanuman_400Regular,
+  Hanuman_700Bold,
+  Hanuman_900Black,
+} from '@expo-google-fonts/hanuman';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    Hanuman_100Thin,
+    Hanuman_300Light,
     Hanuman_400Regular,
     Hanuman_700Bold,
+    Hanuman_900Black,
   });
 
   let fontSize = 24;
@@ -45,6 +58,26 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Hanuman_100Thin',
+          }}>
+          Hanuman Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Hanuman_300Light',
+          }}>
+          Hanuman Light
+        </Text>
+
         <Text
           style={{
             fontSize,
@@ -64,6 +97,16 @@ export default () => {
           }}>
           Hanuman Bold
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Hanuman_900Black',
+          }}>
+          Hanuman Black
+        </Text>
       </View>
     );
   }
@@ -76,7 +119,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Hanuman_400Regular](./Hanuman_400Regular.ttf.png)|![Hanuman_700Bold](./Hanuman_700Bold.ttf.png)|||
+|![Hanuman_100Thin](./Hanuman_100Thin.ttf.png)|![Hanuman_300Light](./Hanuman_300Light.ttf.png)|![Hanuman_400Regular](./Hanuman_400Regular.ttf.png)||
+|![Hanuman_700Bold](./Hanuman_700Bold.ttf.png)|![Hanuman_900Black](./Hanuman_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

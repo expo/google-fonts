@@ -2,9 +2,9 @@
   "family": "Andika",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v12",
-  "lastModified": "2020-07-23",
-  "files": { "regular": "http://fonts.gstatic.com/s/andika/v12/mem_Ya6iyW-LwqgAbbwRWrwGVA.ttf" },
+  "version": "v17",
+  "lastModified": "2022-01-11",
+  "files": { "regular": "http://fonts.gstatic.com/s/andika/v17/mem_Ya6iyW-LwqgAbbwRWrwGVA.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

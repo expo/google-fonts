@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Tienne_400Regular: number;
 export const Tienne_700Bold: number;
 export const Tienne_900Black: number;

@@ -2,10 +2,10 @@
   "family": "Atomic Age",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2021-03-19",
+  "version": "v25",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/atomicage/v15/f0Xz0eug6sdmRFkYZZGL58Ht9a8GYeA.ttf"
+    "regular": "http://fonts.gstatic.com/s/atomicage/v25/f0Xz0eug6sdmRFkYZZGL58Ht9a8GYeA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

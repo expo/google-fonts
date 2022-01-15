@@ -11,21 +11,23 @@ This package lets you use the [**Nunito**](https://fonts.google.com/specimen/Nun
 
 ![Nunito](./font-family.png)
 
-This font family contains [14 styles](#-gallery).
+This font family contains [16 styles](#-gallery).
 
 - `Nunito_200ExtraLight`
-- `Nunito_200ExtraLight_Italic`
 - `Nunito_300Light`
-- `Nunito_300Light_Italic`
 - `Nunito_400Regular`
-- `Nunito_400Regular_Italic`
+- `Nunito_500Medium`
 - `Nunito_600SemiBold`
-- `Nunito_600SemiBold_Italic`
 - `Nunito_700Bold`
-- `Nunito_700Bold_Italic`
 - `Nunito_800ExtraBold`
-- `Nunito_800ExtraBold_Italic`
 - `Nunito_900Black`
+- `Nunito_200ExtraLight_Italic`
+- `Nunito_300Light_Italic`
+- `Nunito_400Regular_Italic`
+- `Nunito_500Medium_Italic`
+- `Nunito_600SemiBold_Italic`
+- `Nunito_700Bold_Italic`
+- `Nunito_800ExtraBold_Italic`
 - `Nunito_900Black_Italic`
 
 ## Usage
@@ -44,36 +46,40 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   Nunito_200ExtraLight,
-  Nunito_200ExtraLight_Italic,
   Nunito_300Light,
-  Nunito_300Light_Italic,
   Nunito_400Regular,
-  Nunito_400Regular_Italic,
+  Nunito_500Medium,
   Nunito_600SemiBold,
-  Nunito_600SemiBold_Italic,
   Nunito_700Bold,
-  Nunito_700Bold_Italic,
   Nunito_800ExtraBold,
-  Nunito_800ExtraBold_Italic,
   Nunito_900Black,
+  Nunito_200ExtraLight_Italic,
+  Nunito_300Light_Italic,
+  Nunito_400Regular_Italic,
+  Nunito_500Medium_Italic,
+  Nunito_600SemiBold_Italic,
+  Nunito_700Bold_Italic,
+  Nunito_800ExtraBold_Italic,
   Nunito_900Black_Italic,
 } from '@expo-google-fonts/nunito';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Nunito_200ExtraLight,
-    Nunito_200ExtraLight_Italic,
     Nunito_300Light,
-    Nunito_300Light_Italic,
     Nunito_400Regular,
-    Nunito_400Regular_Italic,
+    Nunito_500Medium,
     Nunito_600SemiBold,
-    Nunito_600SemiBold_Italic,
     Nunito_700Bold,
-    Nunito_700Bold_Italic,
     Nunito_800ExtraBold,
-    Nunito_800ExtraBold_Italic,
     Nunito_900Black,
+    Nunito_200ExtraLight_Italic,
+    Nunito_300Light_Italic,
+    Nunito_400Regular_Italic,
+    Nunito_500Medium_Italic,
+    Nunito_600SemiBold_Italic,
+    Nunito_700Bold_Italic,
+    Nunito_800ExtraBold_Italic,
     Nunito_900Black_Italic,
   });
 
@@ -100,29 +106,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nunito_200ExtraLight_Italic',
-          }}>
-          Nunito Extra Light Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Nunito_300Light',
           }}>
           Nunito Light
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nunito_300Light_Italic',
-          }}>
-          Nunito Light Italic
         </Text>
 
         <Text
@@ -140,9 +126,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nunito_400Regular_Italic',
+            fontFamily: 'Nunito_500Medium',
           }}>
-          Nunito Italic
+          Nunito Medium
         </Text>
 
         <Text
@@ -160,29 +146,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nunito_600SemiBold_Italic',
-          }}>
-          Nunito Semi Bold Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Nunito_700Bold',
           }}>
           Nunito Bold
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nunito_700Bold_Italic',
-          }}>
-          Nunito Bold Italic
         </Text>
 
         <Text
@@ -200,9 +166,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nunito_800ExtraBold_Italic',
+            fontFamily: 'Nunito_900Black',
           }}>
-          Nunito Extra Bold Italic
+          Nunito Black
         </Text>
 
         <Text
@@ -210,9 +176,69 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nunito_900Black',
+            fontFamily: 'Nunito_200ExtraLight_Italic',
           }}>
-          Nunito Black
+          Nunito Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_300Light_Italic',
+          }}>
+          Nunito Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_400Regular_Italic',
+          }}>
+          Nunito Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_500Medium_Italic',
+          }}>
+          Nunito Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_600SemiBold_Italic',
+          }}>
+          Nunito Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_700Bold_Italic',
+          }}>
+          Nunito Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nunito_800ExtraBold_Italic',
+          }}>
+          Nunito Extra Bold Italic
         </Text>
 
         <Text
@@ -236,11 +262,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Nunito_200ExtraLight](./Nunito_200ExtraLight.ttf.png)|![Nunito_200ExtraLight_Italic](./Nunito_200ExtraLight_Italic.ttf.png)|![Nunito_300Light](./Nunito_300Light.ttf.png)||
-|![Nunito_300Light_Italic](./Nunito_300Light_Italic.ttf.png)|![Nunito_400Regular](./Nunito_400Regular.ttf.png)|![Nunito_400Regular_Italic](./Nunito_400Regular_Italic.ttf.png)||
-|![Nunito_600SemiBold](./Nunito_600SemiBold.ttf.png)|![Nunito_600SemiBold_Italic](./Nunito_600SemiBold_Italic.ttf.png)|![Nunito_700Bold](./Nunito_700Bold.ttf.png)||
-|![Nunito_700Bold_Italic](./Nunito_700Bold_Italic.ttf.png)|![Nunito_800ExtraBold](./Nunito_800ExtraBold.ttf.png)|![Nunito_800ExtraBold_Italic](./Nunito_800ExtraBold_Italic.ttf.png)||
-|![Nunito_900Black](./Nunito_900Black.ttf.png)|![Nunito_900Black_Italic](./Nunito_900Black_Italic.ttf.png)|||
+|![Nunito_200ExtraLight](./Nunito_200ExtraLight.ttf.png)|![Nunito_300Light](./Nunito_300Light.ttf.png)|![Nunito_400Regular](./Nunito_400Regular.ttf.png)||
+|![Nunito_500Medium](./Nunito_500Medium.ttf.png)|![Nunito_600SemiBold](./Nunito_600SemiBold.ttf.png)|![Nunito_700Bold](./Nunito_700Bold.ttf.png)||
+|![Nunito_800ExtraBold](./Nunito_800ExtraBold.ttf.png)|![Nunito_900Black](./Nunito_900Black.ttf.png)|![Nunito_200ExtraLight_Italic](./Nunito_200ExtraLight_Italic.ttf.png)||
+|![Nunito_300Light_Italic](./Nunito_300Light_Italic.ttf.png)|![Nunito_400Regular_Italic](./Nunito_400Regular_Italic.ttf.png)|![Nunito_500Medium_Italic](./Nunito_500Medium_Italic.ttf.png)||
+|![Nunito_600SemiBold_Italic](./Nunito_600SemiBold_Italic.ttf.png)|![Nunito_700Bold_Italic](./Nunito_700Bold_Italic.ttf.png)|![Nunito_800ExtraBold_Italic](./Nunito_800ExtraBold_Italic.ttf.png)||
+|![Nunito_900Black_Italic](./Nunito_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

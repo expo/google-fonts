@@ -2,11 +2,11 @@
   "family": "Coustard",
   "variants": ["regular", "900"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2020-07-23",
+  "version": "v14",
+  "lastModified": "2022-01-13",
   "files": {
-    "900": "http://fonts.gstatic.com/s/coustard/v11/3XFuErgg3YsZ5fqUU-2LkEHmb_jU3eRL.ttf",
-    "regular": "http://fonts.gstatic.com/s/coustard/v11/3XFpErgg3YsZ5fqUU9UPvWXuROTd.ttf"
+    "900": "http://fonts.gstatic.com/s/coustard/v14/3XFuErgg3YsZ5fqUU-2LkEHmb_jU3eRL.ttf",
+    "regular": "http://fonts.gstatic.com/s/coustard/v14/3XFpErgg3YsZ5fqUU9UPvWXuROTd.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

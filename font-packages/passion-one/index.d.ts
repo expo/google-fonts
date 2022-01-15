@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const PassionOne_400Regular: number;
 export const PassionOne_700Bold: number;
 export const PassionOne_900Black: number;

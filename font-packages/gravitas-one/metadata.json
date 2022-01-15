@@ -2,10 +2,10 @@
   "family": "Gravitas One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-07-23",
+  "version": "v13",
+  "lastModified": "2022-01-13",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/gravitasone/v10/5h1diZ4hJ3cblKy3LWakKQmaDWRNr3DzbQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/gravitasone/v13/5h1diZ4hJ3cblKy3LWakKQmaDWRNr3DzbQ.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

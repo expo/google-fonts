@@ -11,10 +11,11 @@ This package lets you use the [**Signika Negative**](https://fonts.google.com/sp
 
 ![Signika Negative](./font-family.png)
 
-This font family contains [4 styles](#-gallery).
+This font family contains [5 styles](#-gallery).
 
 - `SignikaNegative_300Light`
 - `SignikaNegative_400Regular`
+- `SignikaNegative_500Medium`
 - `SignikaNegative_600SemiBold`
 - `SignikaNegative_700Bold`
 
@@ -35,6 +36,7 @@ import {
   useFonts,
   SignikaNegative_300Light,
   SignikaNegative_400Regular,
+  SignikaNegative_500Medium,
   SignikaNegative_600SemiBold,
   SignikaNegative_700Bold,
 } from '@expo-google-fonts/signika-negative';
@@ -43,6 +45,7 @@ export default () => {
   let [fontsLoaded] = useFonts({
     SignikaNegative_300Light,
     SignikaNegative_400Regular,
+    SignikaNegative_500Medium,
     SignikaNegative_600SemiBold,
     SignikaNegative_700Bold,
   });
@@ -80,6 +83,16 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'SignikaNegative_500Medium',
+          }}>
+          Signika Negative Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'SignikaNegative_600SemiBold',
           }}>
           Signika Negative Semi Bold
@@ -106,8 +119,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SignikaNegative_300Light](./SignikaNegative_300Light.ttf.png)|![SignikaNegative_400Regular](./SignikaNegative_400Regular.ttf.png)|![SignikaNegative_600SemiBold](./SignikaNegative_600SemiBold.ttf.png)||
-|![SignikaNegative_700Bold](./SignikaNegative_700Bold.ttf.png)||||
+|![SignikaNegative_300Light](./SignikaNegative_300Light.ttf.png)|![SignikaNegative_400Regular](./SignikaNegative_400Regular.ttf.png)|![SignikaNegative_500Medium](./SignikaNegative_500Medium.ttf.png)||
+|![SignikaNegative_600SemiBold](./SignikaNegative_600SemiBold.ttf.png)|![SignikaNegative_700Bold](./SignikaNegative_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

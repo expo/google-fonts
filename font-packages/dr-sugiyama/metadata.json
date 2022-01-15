@@ -2,10 +2,10 @@
   "family": "Dr Sugiyama",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
+  "version": "v20",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/drsugiyama/v12/HTxoL2k4N3O9n5I1boGI7abRM4-t-g7y.ttf"
+    "regular": "http://fonts.gstatic.com/s/drsugiyama/v20/HTxoL2k4N3O9n5I1boGI7abRM4-t-g7y.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

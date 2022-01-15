@@ -2,10 +2,10 @@
   "family": "Diplomata",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2021-03-19",
+  "version": "v22",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/diplomata/v14/Cn-0JtiMXwhNwp-wKxyfYGxYrdM9Sg.ttf"
+    "regular": "http://fonts.gstatic.com/s/diplomata/v22/Cn-0JtiMXwhNwp-wKxyfYGxYrdM9Sg.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const PTSerif_400Regular: number;
 export const PTSerif_400Regular_Italic: number;
 export const PTSerif_700Bold: number;

@@ -2,10 +2,10 @@
   "family": "Meie Script",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
+  "version": "v19",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/meiescript/v10/_LOImzDK7erRjhunIspaMjxn5IXg0WDz.ttf"
+    "regular": "http://fonts.gstatic.com/s/meiescript/v19/_LOImzDK7erRjhunIspaMjxn5IXg0WDz.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

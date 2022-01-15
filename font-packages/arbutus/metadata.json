@@ -2,9 +2,9 @@
   "family": "Arbutus",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/arbutus/v12/NaPYcZ7dG_5J3poob9JtryO8fMU.ttf" },
+  "version": "v22",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/arbutus/v22/NaPYcZ7dG_5J3poob9JtryO8fMU.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

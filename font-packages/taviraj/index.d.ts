@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Taviraj_100Thin: number;
 export const Taviraj_100Thin_Italic: number;
 export const Taviraj_200ExtraLight: number;

@@ -1,18 +1,18 @@
 {
   "family": "Archivo Narrow",
-  "variants": ["regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
+  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v12",
-  "lastModified": "2020-09-02",
+  "version": "v18",
+  "lastModified": "2021-11-10",
   "files": {
-    "500": "http://fonts.gstatic.com/s/archivonarrow/v12/tss3ApVBdCYD5Q7hcxTE1ArZ0b4Dqlla8dMgPgBu.ttf",
-    "600": "http://fonts.gstatic.com/s/archivonarrow/v12/tss3ApVBdCYD5Q7hcxTE1ArZ0b4vrVla8dMgPgBu.ttf",
-    "700": "http://fonts.gstatic.com/s/archivonarrow/v12/tss3ApVBdCYD5Q7hcxTE1ArZ0b5LrFla8dMgPgBu.ttf",
-    "regular": "http://fonts.gstatic.com/s/archivonarrow/v12/tss0ApVBdCYD5Q7hcxTE1ArZ0Yb3g31S2s8p.ttf",
-    "italic": "http://fonts.gstatic.com/s/archivonarrow/v12/tss2ApVBdCYD5Q7hcxTE1ArZ0bb1iXlw398pJxk.ttf",
-    "500italic": "http://fonts.gstatic.com/s/archivonarrow/v12/tssxApVBdCYD5Q7hcxTE1ArZ0bb1sY1Z-9cCOxBu_BM.ttf",
-    "600italic": "http://fonts.gstatic.com/s/archivonarrow/v12/tssxApVBdCYD5Q7hcxTE1ArZ0bb1saFe-9cCOxBu_BM.ttf",
-    "700italic": "http://fonts.gstatic.com/s/archivonarrow/v12/tssxApVBdCYD5Q7hcxTE1ArZ0bb1scVf-9cCOxBu_BM.ttf"
+    "500": "http://fonts.gstatic.com/s/archivonarrow/v18/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvHlGKpHOtFCQ76Q.ttf",
+    "600": "http://fonts.gstatic.com/s/archivonarrow/v18/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhv8laKpHOtFCQ76Q.ttf",
+    "700": "http://fonts.gstatic.com/s/archivonarrow/v18/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvy1aKpHOtFCQ76Q.ttf",
+    "regular": "http://fonts.gstatic.com/s/archivonarrow/v18/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvLFGKpHOtFCQ76Q.ttf",
+    "italic": "http://fonts.gstatic.com/s/archivonarrow/v18/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BJi53mpNiEr6T6Y.ttf",
+    "500italic": "http://fonts.gstatic.com/s/archivonarrow/v18/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BJQ53mpNiEr6T6Y.ttf",
+    "600italic": "http://fonts.gstatic.com/s/archivonarrow/v18/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BK84HmpNiEr6T6Y.ttf",
+    "700italic": "http://fonts.gstatic.com/s/archivonarrow/v18/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BKF4HmpNiEr6T6Y.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

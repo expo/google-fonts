@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Cuprum_400Regular: number;
 export const Cuprum_500Medium: number;
 export const Cuprum_600SemiBold: number;

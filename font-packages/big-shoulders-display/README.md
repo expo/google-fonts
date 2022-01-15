@@ -11,9 +11,10 @@ This package lets you use the [**Big Shoulders Display**](https://fonts.google.c
 
 ![Big Shoulders Display](./font-family.png)
 
-This font family contains [8 styles](#-gallery).
+This font family contains [9 styles](#-gallery).
 
 - `BigShouldersDisplay_100Thin`
+- `BigShouldersDisplay_200ExtraLight`
 - `BigShouldersDisplay_300Light`
 - `BigShouldersDisplay_400Regular`
 - `BigShouldersDisplay_500Medium`
@@ -38,6 +39,7 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   BigShouldersDisplay_100Thin,
+  BigShouldersDisplay_200ExtraLight,
   BigShouldersDisplay_300Light,
   BigShouldersDisplay_400Regular,
   BigShouldersDisplay_500Medium,
@@ -50,6 +52,7 @@ import {
 export default () => {
   let [fontsLoaded] = useFonts({
     BigShouldersDisplay_100Thin,
+    BigShouldersDisplay_200ExtraLight,
     BigShouldersDisplay_300Light,
     BigShouldersDisplay_400Regular,
     BigShouldersDisplay_500Medium,
@@ -75,6 +78,16 @@ export default () => {
             fontFamily: 'BigShouldersDisplay_100Thin',
           }}>
           Big Shoulders Display Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BigShouldersDisplay_200ExtraLight',
+          }}>
+          Big Shoulders Display Extra Light
         </Text>
 
         <Text
@@ -158,9 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BigShouldersDisplay_100Thin](./BigShouldersDisplay_100Thin.ttf.png)|![BigShouldersDisplay_300Light](./BigShouldersDisplay_300Light.ttf.png)|![BigShouldersDisplay_400Regular](./BigShouldersDisplay_400Regular.ttf.png)||
-|![BigShouldersDisplay_500Medium](./BigShouldersDisplay_500Medium.ttf.png)|![BigShouldersDisplay_600SemiBold](./BigShouldersDisplay_600SemiBold.ttf.png)|![BigShouldersDisplay_700Bold](./BigShouldersDisplay_700Bold.ttf.png)||
-|![BigShouldersDisplay_800ExtraBold](./BigShouldersDisplay_800ExtraBold.ttf.png)|![BigShouldersDisplay_900Black](./BigShouldersDisplay_900Black.ttf.png)|||
+|![BigShouldersDisplay_100Thin](./BigShouldersDisplay_100Thin.ttf.png)|![BigShouldersDisplay_200ExtraLight](./BigShouldersDisplay_200ExtraLight.ttf.png)|![BigShouldersDisplay_300Light](./BigShouldersDisplay_300Light.ttf.png)||
+|![BigShouldersDisplay_400Regular](./BigShouldersDisplay_400Regular.ttf.png)|![BigShouldersDisplay_500Medium](./BigShouldersDisplay_500Medium.ttf.png)|![BigShouldersDisplay_600SemiBold](./BigShouldersDisplay_600SemiBold.ttf.png)||
+|![BigShouldersDisplay_700Bold](./BigShouldersDisplay_700Bold.ttf.png)|![BigShouldersDisplay_800ExtraBold](./BigShouldersDisplay_800ExtraBold.ttf.png)|![BigShouldersDisplay_900Black](./BigShouldersDisplay_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

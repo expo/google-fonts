@@ -2,10 +2,10 @@
   "family": "Short Stack",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-07-23",
+  "version": "v13",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/shortstack/v10/bMrzmS2X6p0jZC6EcmPFX-SScX8D0nq6.ttf"
+    "regular": "http://fonts.gstatic.com/s/shortstack/v13/bMrzmS2X6p0jZC6EcmPFX-SScX8D0nq6.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

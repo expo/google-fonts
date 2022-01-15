@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Tinos_400Regular: number;
 export const Tinos_400Regular_Italic: number;
 export const Tinos_700Bold: number;

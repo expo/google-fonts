@@ -5,11 +5,17 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const RedHatDisplay_300Light = require('./RedHatDisplay_300Light.ttf');
 export const RedHatDisplay_400Regular = require('./RedHatDisplay_400Regular.ttf');
-export const RedHatDisplay_400Regular_Italic = require('./RedHatDisplay_400Regular_Italic.ttf');
 export const RedHatDisplay_500Medium = require('./RedHatDisplay_500Medium.ttf');
-export const RedHatDisplay_500Medium_Italic = require('./RedHatDisplay_500Medium_Italic.ttf');
+export const RedHatDisplay_600SemiBold = require('./RedHatDisplay_600SemiBold.ttf');
 export const RedHatDisplay_700Bold = require('./RedHatDisplay_700Bold.ttf');
-export const RedHatDisplay_700Bold_Italic = require('./RedHatDisplay_700Bold_Italic.ttf');
+export const RedHatDisplay_800ExtraBold = require('./RedHatDisplay_800ExtraBold.ttf');
 export const RedHatDisplay_900Black = require('./RedHatDisplay_900Black.ttf');
+export const RedHatDisplay_300Light_Italic = require('./RedHatDisplay_300Light_Italic.ttf');
+export const RedHatDisplay_400Regular_Italic = require('./RedHatDisplay_400Regular_Italic.ttf');
+export const RedHatDisplay_500Medium_Italic = require('./RedHatDisplay_500Medium_Italic.ttf');
+export const RedHatDisplay_600SemiBold_Italic = require('./RedHatDisplay_600SemiBold_Italic.ttf');
+export const RedHatDisplay_700Bold_Italic = require('./RedHatDisplay_700Bold_Italic.ttf');
+export const RedHatDisplay_800ExtraBold_Italic = require('./RedHatDisplay_800ExtraBold_Italic.ttf');
 export const RedHatDisplay_900Black_Italic = require('./RedHatDisplay_900Black_Italic.ttf');

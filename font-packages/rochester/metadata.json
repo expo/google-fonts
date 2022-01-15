@@ -2,10 +2,10 @@
   "family": "Rochester",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2020-07-23",
+  "version": "v16",
+  "lastModified": "2022-01-13",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/rochester/v11/6ae-4KCqVa4Zy6Fif-Uy31vWNTMwoQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/rochester/v16/6ae-4KCqVa4Zy6Fif-Uy31vWNTMwoQ.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const IBMPlexSans_100Thin: number;
 export const IBMPlexSans_100Thin_Italic: number;
 export const IBMPlexSans_200ExtraLight: number;

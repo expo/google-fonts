@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const MavenPro_400Regular: number;
 export const MavenPro_500Medium: number;
 export const MavenPro_600SemiBold: number;

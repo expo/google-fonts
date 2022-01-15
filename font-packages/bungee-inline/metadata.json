@@ -2,10 +2,10 @@
   "family": "Bungee Inline",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2020-07-23",
+  "version": "v9",
+  "lastModified": "2022-01-13",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/bungeeinline/v6/Gg8zN58UcgnlCweMrih332VuDGJ1-FEglsc.ttf"
+    "regular": "http://fonts.gstatic.com/s/bungeeinline/v9/Gg8zN58UcgnlCweMrih332VuDGJ1-FEglsc.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

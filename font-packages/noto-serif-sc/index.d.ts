@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const NotoSerifSC_200ExtraLight: number;
 export const NotoSerifSC_300Light: number;
 export const NotoSerifSC_400Regular: number;

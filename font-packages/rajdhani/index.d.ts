@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Rajdhani_300Light: number;
 export const Rajdhani_400Regular: number;
 export const Rajdhani_500Medium: number;

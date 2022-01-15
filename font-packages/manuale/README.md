@@ -11,16 +11,20 @@ This package lets you use the [**Manuale**](https://fonts.google.com/specimen/Ma
 
 ![Manuale](./font-family.png)
 
-This font family contains [8 styles](#-gallery).
+This font family contains [12 styles](#-gallery).
 
+- `Manuale_300Light`
 - `Manuale_400Regular`
 - `Manuale_500Medium`
 - `Manuale_600SemiBold`
 - `Manuale_700Bold`
+- `Manuale_800ExtraBold`
+- `Manuale_300Light_Italic`
 - `Manuale_400Regular_Italic`
 - `Manuale_500Medium_Italic`
 - `Manuale_600SemiBold_Italic`
 - `Manuale_700Bold_Italic`
+- `Manuale_800ExtraBold_Italic`
 
 ## Usage
 
@@ -37,26 +41,34 @@ import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import {
   useFonts,
+  Manuale_300Light,
   Manuale_400Regular,
   Manuale_500Medium,
   Manuale_600SemiBold,
   Manuale_700Bold,
+  Manuale_800ExtraBold,
+  Manuale_300Light_Italic,
   Manuale_400Regular_Italic,
   Manuale_500Medium_Italic,
   Manuale_600SemiBold_Italic,
   Manuale_700Bold_Italic,
+  Manuale_800ExtraBold_Italic,
 } from '@expo-google-fonts/manuale';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    Manuale_300Light,
     Manuale_400Regular,
     Manuale_500Medium,
     Manuale_600SemiBold,
     Manuale_700Bold,
+    Manuale_800ExtraBold,
+    Manuale_300Light_Italic,
     Manuale_400Regular_Italic,
     Manuale_500Medium_Italic,
     Manuale_600SemiBold_Italic,
     Manuale_700Bold_Italic,
+    Manuale_800ExtraBold_Italic,
   });
 
   let fontSize = 24;
@@ -67,6 +79,16 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manuale_300Light',
+          }}>
+          Manuale Light
+        </Text>
+
         <Text
           style={{
             fontSize,
@@ -112,6 +134,26 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manuale_800ExtraBold',
+          }}>
+          Manuale Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manuale_300Light_Italic',
+          }}>
+          Manuale Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Manuale_400Regular_Italic',
           }}>
           Manuale Italic
@@ -146,6 +188,16 @@ export default () => {
           }}>
           Manuale Bold Italic
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Manuale_800ExtraBold_Italic',
+          }}>
+          Manuale Extra Bold Italic
+        </Text>
       </View>
     );
   }
@@ -158,9 +210,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Manuale_400Regular](./Manuale_400Regular.ttf.png)|![Manuale_500Medium](./Manuale_500Medium.ttf.png)|![Manuale_600SemiBold](./Manuale_600SemiBold.ttf.png)||
-|![Manuale_700Bold](./Manuale_700Bold.ttf.png)|![Manuale_400Regular_Italic](./Manuale_400Regular_Italic.ttf.png)|![Manuale_500Medium_Italic](./Manuale_500Medium_Italic.ttf.png)||
-|![Manuale_600SemiBold_Italic](./Manuale_600SemiBold_Italic.ttf.png)|![Manuale_700Bold_Italic](./Manuale_700Bold_Italic.ttf.png)|||
+|![Manuale_300Light](./Manuale_300Light.ttf.png)|![Manuale_400Regular](./Manuale_400Regular.ttf.png)|![Manuale_500Medium](./Manuale_500Medium.ttf.png)||
+|![Manuale_600SemiBold](./Manuale_600SemiBold.ttf.png)|![Manuale_700Bold](./Manuale_700Bold.ttf.png)|![Manuale_800ExtraBold](./Manuale_800ExtraBold.ttf.png)||
+|![Manuale_300Light_Italic](./Manuale_300Light_Italic.ttf.png)|![Manuale_400Regular_Italic](./Manuale_400Regular_Italic.ttf.png)|![Manuale_500Medium_Italic](./Manuale_500Medium_Italic.ttf.png)||
+|![Manuale_600SemiBold_Italic](./Manuale_600SemiBold_Italic.ttf.png)|![Manuale_700Bold_Italic](./Manuale_700Bold_Italic.ttf.png)|![Manuale_800ExtraBold_Italic](./Manuale_800ExtraBold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

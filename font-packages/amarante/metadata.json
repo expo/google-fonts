@@ -2,10 +2,10 @@
   "family": "Amarante",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
+  "version": "v20",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/amarante/v10/xMQXuF1KTa6EvGx9bq-3C3rAmD-b.ttf"
+    "regular": "http://fonts.gstatic.com/s/amarante/v20/xMQXuF1KTa6EvGx9bq-3C3rAmD-b.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

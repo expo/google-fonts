@@ -11,9 +11,17 @@ This package lets you use the [**Lexend Zetta**](https://fonts.google.com/specim
 
 ![Lexend Zetta](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [9 styles](#-gallery).
 
+- `LexendZetta_100Thin`
+- `LexendZetta_200ExtraLight`
+- `LexendZetta_300Light`
 - `LexendZetta_400Regular`
+- `LexendZetta_500Medium`
+- `LexendZetta_600SemiBold`
+- `LexendZetta_700Bold`
+- `LexendZetta_800ExtraBold`
+- `LexendZetta_900Black`
 
 ## Usage
 
@@ -28,11 +36,30 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, LexendZetta_400Regular } from '@expo-google-fonts/lexend-zetta';
+import {
+  useFonts,
+  LexendZetta_100Thin,
+  LexendZetta_200ExtraLight,
+  LexendZetta_300Light,
+  LexendZetta_400Regular,
+  LexendZetta_500Medium,
+  LexendZetta_600SemiBold,
+  LexendZetta_700Bold,
+  LexendZetta_800ExtraBold,
+  LexendZetta_900Black,
+} from '@expo-google-fonts/lexend-zetta';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    LexendZetta_100Thin,
+    LexendZetta_200ExtraLight,
+    LexendZetta_300Light,
     LexendZetta_400Regular,
+    LexendZetta_500Medium,
+    LexendZetta_600SemiBold,
+    LexendZetta_700Bold,
+    LexendZetta_800ExtraBold,
+    LexendZetta_900Black,
   });
 
   let fontSize = 24;
@@ -48,9 +75,89 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendZetta_100Thin',
+          }}>
+          Lexend Zetta Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendZetta_200ExtraLight',
+          }}>
+          Lexend Zetta Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendZetta_300Light',
+          }}>
+          Lexend Zetta Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'LexendZetta_400Regular',
           }}>
           Lexend Zetta Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendZetta_500Medium',
+          }}>
+          Lexend Zetta Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendZetta_600SemiBold',
+          }}>
+          Lexend Zetta Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendZetta_700Bold',
+          }}>
+          Lexend Zetta Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendZetta_800ExtraBold',
+          }}>
+          Lexend Zetta Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendZetta_900Black',
+          }}>
+          Lexend Zetta Black
         </Text>
       </View>
     );
@@ -64,7 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LexendZetta_400Regular](./LexendZetta_400Regular.ttf.png)||||
+|![LexendZetta_100Thin](./LexendZetta_100Thin.ttf.png)|![LexendZetta_200ExtraLight](./LexendZetta_200ExtraLight.ttf.png)|![LexendZetta_300Light](./LexendZetta_300Light.ttf.png)||
+|![LexendZetta_400Regular](./LexendZetta_400Regular.ttf.png)|![LexendZetta_500Medium](./LexendZetta_500Medium.ttf.png)|![LexendZetta_600SemiBold](./LexendZetta_600SemiBold.ttf.png)||
+|![LexendZetta_700Bold](./LexendZetta_700Bold.ttf.png)|![LexendZetta_800ExtraBold](./LexendZetta_800ExtraBold.ttf.png)|![LexendZetta_900Black](./LexendZetta_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

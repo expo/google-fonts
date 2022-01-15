@@ -2,10 +2,10 @@
   "family": "Underdog",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2021-03-19",
+  "version": "v20",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/underdog/v11/CHygV-jCElj7diMroVSiU14GN2Il.ttf"
+    "regular": "http://fonts.gstatic.com/s/underdog/v20/CHygV-jCElj7diMroVSiU14GN2Il.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

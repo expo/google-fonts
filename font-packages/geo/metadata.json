@@ -2,11 +2,11 @@
   "family": "Geo",
   "variants": ["regular", "italic"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2021-03-19",
+  "version": "v17",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/geo/v14/CSRz4zRZlufVL3BmQjlCbQ.ttf",
-    "italic": "http://fonts.gstatic.com/s/geo/v14/CSRx4zRZluflLXpiYDxSbf8r.ttf"
+    "regular": "http://fonts.gstatic.com/s/geo/v17/CSRz4zRZlufVL3BmQjlCbQ.ttf",
+    "italic": "http://fonts.gstatic.com/s/geo/v17/CSRx4zRZluflLXpiYDxSbf8r.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

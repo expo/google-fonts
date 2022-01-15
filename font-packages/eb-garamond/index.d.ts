@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const EBGaramond_400Regular: number;
 export const EBGaramond_500Medium: number;
 export const EBGaramond_600SemiBold: number;

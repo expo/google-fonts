@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Mukta_200ExtraLight: number;
 export const Mukta_300Light: number;
 export const Mukta_400Regular: number;

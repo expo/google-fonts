@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Rowdies_300Light: number;
 export const Rowdies_400Regular: number;
 export const Rowdies_700Bold: number;

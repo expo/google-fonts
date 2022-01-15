@@ -2,9 +2,9 @@
   "family": "Gotu",
   "variants": ["regular"],
   "subsets": ["devanagari", "latin", "latin-ext", "vietnamese"],
-  "version": "v4",
-  "lastModified": "2021-04-01",
-  "files": { "regular": "http://fonts.gstatic.com/s/gotu/v4/o-0FIpksx3QOlH0Lioh6-hU.ttf" },
+  "version": "v12",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/gotu/v12/o-0FIpksx3QOlH0Lioh6-hU.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

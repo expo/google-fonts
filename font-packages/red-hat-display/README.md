@@ -11,15 +11,21 @@ This package lets you use the [**Red Hat Display**](https://fonts.google.com/spe
 
 ![Red Hat Display](./font-family.png)
 
-This font family contains [8 styles](#-gallery).
+This font family contains [14 styles](#-gallery).
 
+- `RedHatDisplay_300Light`
 - `RedHatDisplay_400Regular`
-- `RedHatDisplay_400Regular_Italic`
 - `RedHatDisplay_500Medium`
-- `RedHatDisplay_500Medium_Italic`
+- `RedHatDisplay_600SemiBold`
 - `RedHatDisplay_700Bold`
-- `RedHatDisplay_700Bold_Italic`
+- `RedHatDisplay_800ExtraBold`
 - `RedHatDisplay_900Black`
+- `RedHatDisplay_300Light_Italic`
+- `RedHatDisplay_400Regular_Italic`
+- `RedHatDisplay_500Medium_Italic`
+- `RedHatDisplay_600SemiBold_Italic`
+- `RedHatDisplay_700Bold_Italic`
+- `RedHatDisplay_800ExtraBold_Italic`
 - `RedHatDisplay_900Black_Italic`
 
 ## Usage
@@ -37,25 +43,37 @@ import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import {
   useFonts,
+  RedHatDisplay_300Light,
   RedHatDisplay_400Regular,
-  RedHatDisplay_400Regular_Italic,
   RedHatDisplay_500Medium,
-  RedHatDisplay_500Medium_Italic,
+  RedHatDisplay_600SemiBold,
   RedHatDisplay_700Bold,
-  RedHatDisplay_700Bold_Italic,
+  RedHatDisplay_800ExtraBold,
   RedHatDisplay_900Black,
+  RedHatDisplay_300Light_Italic,
+  RedHatDisplay_400Regular_Italic,
+  RedHatDisplay_500Medium_Italic,
+  RedHatDisplay_600SemiBold_Italic,
+  RedHatDisplay_700Bold_Italic,
+  RedHatDisplay_800ExtraBold_Italic,
   RedHatDisplay_900Black_Italic,
 } from '@expo-google-fonts/red-hat-display';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    RedHatDisplay_300Light,
     RedHatDisplay_400Regular,
-    RedHatDisplay_400Regular_Italic,
     RedHatDisplay_500Medium,
-    RedHatDisplay_500Medium_Italic,
+    RedHatDisplay_600SemiBold,
     RedHatDisplay_700Bold,
-    RedHatDisplay_700Bold_Italic,
+    RedHatDisplay_800ExtraBold,
     RedHatDisplay_900Black,
+    RedHatDisplay_300Light_Italic,
+    RedHatDisplay_400Regular_Italic,
+    RedHatDisplay_500Medium_Italic,
+    RedHatDisplay_600SemiBold_Italic,
+    RedHatDisplay_700Bold_Italic,
+    RedHatDisplay_800ExtraBold_Italic,
     RedHatDisplay_900Black_Italic,
   });
 
@@ -72,9 +90,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_400Regular',
+            fontFamily: 'RedHatDisplay_300Light',
           }}>
-          Red Hat Display Regular
+          Red Hat Display Light
         </Text>
 
         <Text
@@ -82,9 +100,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_400Regular_Italic',
+            fontFamily: 'RedHatDisplay_400Regular',
           }}>
-          Red Hat Display Italic
+          Red Hat Display Regular
         </Text>
 
         <Text
@@ -102,9 +120,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_500Medium_Italic',
+            fontFamily: 'RedHatDisplay_600SemiBold',
           }}>
-          Red Hat Display Medium Italic
+          Red Hat Display Semi Bold
         </Text>
 
         <Text
@@ -122,9 +140,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_700Bold_Italic',
+            fontFamily: 'RedHatDisplay_800ExtraBold',
           }}>
-          Red Hat Display Bold Italic
+          Red Hat Display Extra Bold
         </Text>
 
         <Text
@@ -135,6 +153,66 @@ export default () => {
             fontFamily: 'RedHatDisplay_900Black',
           }}>
           Red Hat Display Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatDisplay_300Light_Italic',
+          }}>
+          Red Hat Display Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatDisplay_400Regular_Italic',
+          }}>
+          Red Hat Display Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatDisplay_500Medium_Italic',
+          }}>
+          Red Hat Display Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatDisplay_600SemiBold_Italic',
+          }}>
+          Red Hat Display Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatDisplay_700Bold_Italic',
+          }}>
+          Red Hat Display Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatDisplay_800ExtraBold_Italic',
+          }}>
+          Red Hat Display Extra Bold Italic
         </Text>
 
         <Text
@@ -158,9 +236,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RedHatDisplay_400Regular](./RedHatDisplay_400Regular.ttf.png)|![RedHatDisplay_400Regular_Italic](./RedHatDisplay_400Regular_Italic.ttf.png)|![RedHatDisplay_500Medium](./RedHatDisplay_500Medium.ttf.png)||
-|![RedHatDisplay_500Medium_Italic](./RedHatDisplay_500Medium_Italic.ttf.png)|![RedHatDisplay_700Bold](./RedHatDisplay_700Bold.ttf.png)|![RedHatDisplay_700Bold_Italic](./RedHatDisplay_700Bold_Italic.ttf.png)||
-|![RedHatDisplay_900Black](./RedHatDisplay_900Black.ttf.png)|![RedHatDisplay_900Black_Italic](./RedHatDisplay_900Black_Italic.ttf.png)|||
+|![RedHatDisplay_300Light](./RedHatDisplay_300Light.ttf.png)|![RedHatDisplay_400Regular](./RedHatDisplay_400Regular.ttf.png)|![RedHatDisplay_500Medium](./RedHatDisplay_500Medium.ttf.png)||
+|![RedHatDisplay_600SemiBold](./RedHatDisplay_600SemiBold.ttf.png)|![RedHatDisplay_700Bold](./RedHatDisplay_700Bold.ttf.png)|![RedHatDisplay_800ExtraBold](./RedHatDisplay_800ExtraBold.ttf.png)||
+|![RedHatDisplay_900Black](./RedHatDisplay_900Black.ttf.png)|![RedHatDisplay_300Light_Italic](./RedHatDisplay_300Light_Italic.ttf.png)|![RedHatDisplay_400Regular_Italic](./RedHatDisplay_400Regular_Italic.ttf.png)||
+|![RedHatDisplay_500Medium_Italic](./RedHatDisplay_500Medium_Italic.ttf.png)|![RedHatDisplay_600SemiBold_Italic](./RedHatDisplay_600SemiBold_Italic.ttf.png)|![RedHatDisplay_700Bold_Italic](./RedHatDisplay_700Bold_Italic.ttf.png)||
+|![RedHatDisplay_800ExtraBold_Italic](./RedHatDisplay_800ExtraBold_Italic.ttf.png)|![RedHatDisplay_900Black_Italic](./RedHatDisplay_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

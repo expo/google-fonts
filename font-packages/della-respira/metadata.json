@@ -2,10 +2,10 @@
   "family": "Della Respira",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
+  "version": "v16",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/dellarespira/v10/RLp5K5v44KaueWI6iEJQBiGPRfkSu6EuTHo.ttf"
+    "regular": "http://fonts.gstatic.com/s/dellarespira/v16/RLp5K5v44KaueWI6iEJQBiGPRfkSu6EuTHo.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

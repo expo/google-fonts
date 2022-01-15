@@ -2,11 +2,11 @@
   "family": "Aref Ruqaa",
   "variants": ["regular", "700"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2021-03-24",
+  "version": "v21",
+  "lastModified": "2022-01-11",
   "files": {
-    "700": "http://fonts.gstatic.com/s/arefruqaa/v15/WwkYxPW1E165rajQKDulKDwNcNIS2N_7Bdk.ttf",
-    "regular": "http://fonts.gstatic.com/s/arefruqaa/v15/WwkbxPW1E165rajQKDulEIAiVNo5xNY.ttf"
+    "700": "http://fonts.gstatic.com/s/arefruqaa/v21/WwkYxPW1E165rajQKDulKDwNcNIS2N_7Bdk.ttf",
+    "regular": "http://fonts.gstatic.com/s/arefruqaa/v21/WwkbxPW1E165rajQKDulEIAiVNo5xNY.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

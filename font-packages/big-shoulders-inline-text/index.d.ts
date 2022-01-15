@@ -5,8 +5,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const BigShouldersInlineText_100Thin: number;
+export const BigShouldersInlineText_200ExtraLight: number;
 export const BigShouldersInlineText_300Light: number;
 export const BigShouldersInlineText_400Regular: number;
 export const BigShouldersInlineText_500Medium: number;

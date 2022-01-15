@@ -5,5 +5,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
+export const Suwannaphum_100Thin: number;
+export const Suwannaphum_300Light: number;
 export const Suwannaphum_400Regular: number;
+export const Suwannaphum_700Bold: number;
+export const Suwannaphum_900Black: number;

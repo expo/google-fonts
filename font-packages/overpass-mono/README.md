@@ -11,10 +11,11 @@ This package lets you use the [**Overpass Mono**](https://fonts.google.com/speci
 
 ![Overpass Mono](./font-family.png)
 
-This font family contains [4 styles](#-gallery).
+This font family contains [5 styles](#-gallery).
 
 - `OverpassMono_300Light`
 - `OverpassMono_400Regular`
+- `OverpassMono_500Medium`
 - `OverpassMono_600SemiBold`
 - `OverpassMono_700Bold`
 
@@ -35,6 +36,7 @@ import {
   useFonts,
   OverpassMono_300Light,
   OverpassMono_400Regular,
+  OverpassMono_500Medium,
   OverpassMono_600SemiBold,
   OverpassMono_700Bold,
 } from '@expo-google-fonts/overpass-mono';
@@ -43,6 +45,7 @@ export default () => {
   let [fontsLoaded] = useFonts({
     OverpassMono_300Light,
     OverpassMono_400Regular,
+    OverpassMono_500Medium,
     OverpassMono_600SemiBold,
     OverpassMono_700Bold,
   });
@@ -80,6 +83,16 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OverpassMono_500Medium',
+          }}>
+          Overpass Mono Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'OverpassMono_600SemiBold',
           }}>
           Overpass Mono Semi Bold
@@ -106,8 +119,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![OverpassMono_300Light](./OverpassMono_300Light.ttf.png)|![OverpassMono_400Regular](./OverpassMono_400Regular.ttf.png)|![OverpassMono_600SemiBold](./OverpassMono_600SemiBold.ttf.png)||
-|![OverpassMono_700Bold](./OverpassMono_700Bold.ttf.png)||||
+|![OverpassMono_300Light](./OverpassMono_300Light.ttf.png)|![OverpassMono_400Regular](./OverpassMono_400Regular.ttf.png)|![OverpassMono_500Medium](./OverpassMono_500Medium.ttf.png)||
+|![OverpassMono_600SemiBold](./OverpassMono_600SemiBold.ttf.png)|![OverpassMono_700Bold](./OverpassMono_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

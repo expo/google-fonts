@@ -5,4 +5,12 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const LexendZetta_100Thin = require('./LexendZetta_100Thin.ttf');
+export const LexendZetta_200ExtraLight = require('./LexendZetta_200ExtraLight.ttf');
+export const LexendZetta_300Light = require('./LexendZetta_300Light.ttf');
 export const LexendZetta_400Regular = require('./LexendZetta_400Regular.ttf');
+export const LexendZetta_500Medium = require('./LexendZetta_500Medium.ttf');
+export const LexendZetta_600SemiBold = require('./LexendZetta_600SemiBold.ttf');
+export const LexendZetta_700Bold = require('./LexendZetta_700Bold.ttf');
+export const LexendZetta_800ExtraBold = require('./LexendZetta_800ExtraBold.ttf');
+export const LexendZetta_900Black = require('./LexendZetta_900Black.ttf');

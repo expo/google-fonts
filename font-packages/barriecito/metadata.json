@@ -2,10 +2,10 @@
   "family": "Barriecito",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2021-03-19",
+  "version": "v15",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/barriecito/v5/WWXXlj-CbBOSLY2QTuY_KdUiYwTO0MU.ttf"
+    "regular": "http://fonts.gstatic.com/s/barriecito/v15/WWXXlj-CbBOSLY2QTuY_KdUiYwTO0MU.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

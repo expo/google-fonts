@@ -2,15 +2,15 @@
   "family": "DM Mono",
   "variants": ["300", "300italic", "regular", "italic", "500", "500italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2021-03-19",
+  "version": "v8",
+  "lastModified": "2022-01-11",
   "files": {
-    "300": "http://fonts.gstatic.com/s/dmmono/v5/aFTR7PB1QTsUX8KYvrGyIYSnbKX9Rlk.ttf",
-    "500": "http://fonts.gstatic.com/s/dmmono/v5/aFTR7PB1QTsUX8KYvumzIYSnbKX9Rlk.ttf",
-    "300italic": "http://fonts.gstatic.com/s/dmmono/v5/aFTT7PB1QTsUX8KYth-orYataIf4VllXuA.ttf",
-    "regular": "http://fonts.gstatic.com/s/dmmono/v5/aFTU7PB1QTsUX8KYhh2aBYyMcKw.ttf",
-    "italic": "http://fonts.gstatic.com/s/dmmono/v5/aFTW7PB1QTsUX8KYth-QAa6JYKzkXw.ttf",
-    "500italic": "http://fonts.gstatic.com/s/dmmono/v5/aFTT7PB1QTsUX8KYth-o9YetaIf4VllXuA.ttf"
+    "300": "http://fonts.gstatic.com/s/dmmono/v8/aFTR7PB1QTsUX8KYvrGyIYSnbKX9Rlk.ttf",
+    "500": "http://fonts.gstatic.com/s/dmmono/v8/aFTR7PB1QTsUX8KYvumzIYSnbKX9Rlk.ttf",
+    "300italic": "http://fonts.gstatic.com/s/dmmono/v8/aFTT7PB1QTsUX8KYth-orYataIf4VllXuA.ttf",
+    "regular": "http://fonts.gstatic.com/s/dmmono/v8/aFTU7PB1QTsUX8KYhh2aBYyMcKw.ttf",
+    "italic": "http://fonts.gstatic.com/s/dmmono/v8/aFTW7PB1QTsUX8KYth-QAa6JYKzkXw.ttf",
+    "500italic": "http://fonts.gstatic.com/s/dmmono/v8/aFTT7PB1QTsUX8KYth-o9YetaIf4VllXuA.ttf"
   },
   "category": "monospace",
   "kind": "webfonts#webfont"

@@ -2,9 +2,9 @@
   "family": "Piedra",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/piedra/v11/ke8kOg8aN0Bn7hTunEyHN_M3gA.ttf" },
+  "version": "v19",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/piedra/v19/ke8kOg8aN0Bn7hTunEyHN_M3gA.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

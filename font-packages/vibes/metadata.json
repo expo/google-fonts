@@ -2,9 +2,9 @@
   "family": "Vibes",
   "variants": ["regular"],
   "subsets": ["arabic", "latin"],
-  "version": "v4",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/vibes/v4/QdVYSTsmIB6tmbd3HpbsuBlh.ttf" },
+  "version": "v12",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/vibes/v12/QdVYSTsmIB6tmbd3HpbsuBlh.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

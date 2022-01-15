@@ -2,9 +2,9 @@
   "family": "Trocchi",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-07-23",
-  "files": { "regular": "http://fonts.gstatic.com/s/trocchi/v9/qWcqB6WkuIDxDZLcDrtUvMeTYD0.ttf" },
+  "version": "v12",
+  "lastModified": "2022-01-13",
+  "files": { "regular": "http://fonts.gstatic.com/s/trocchi/v12/qWcqB6WkuIDxDZLcDrtUvMeTYD0.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

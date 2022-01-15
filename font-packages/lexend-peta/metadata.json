@@ -1,11 +1,19 @@
 {
   "family": "Lexend Peta",
-  "variants": ["regular"],
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v10",
-  "lastModified": "2021-03-24",
+  "version": "v20",
+  "lastModified": "2021-12-17",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/lexendpeta/v10/BXRvvFPGjeLPh0kCfI4OkE_1c8Tf1IW3.ttf"
+    "100": "http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgR6SFyW1YuRTsnfw.ttf",
+    "200": "http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRaSByW1YuRTsnfw.ttf",
+    "300": "http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRtyByW1YuRTsnfw.ttf",
+    "500": "http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgR2yByW1YuRTsnfw.ttf",
+    "600": "http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRNydyW1YuRTsnfw.ttf",
+    "700": "http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRDidyW1YuRTsnfw.ttf",
+    "800": "http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRaSdyW1YuRTsnfw.ttf",
+    "900": "http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRQCdyW1YuRTsnfw.ttf",
+    "regular": "http://fonts.gstatic.com/s/lexendpeta/v20/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgR6SByW1YuRTsnfw.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

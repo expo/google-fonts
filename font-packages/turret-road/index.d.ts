@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const TurretRoad_200ExtraLight: number;
 export const TurretRoad_300Light: number;
 export const TurretRoad_400Regular: number;

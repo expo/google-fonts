@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const FrankRuhlLibre_300Light: number;
 export const FrankRuhlLibre_400Regular: number;
 export const FrankRuhlLibre_500Medium: number;

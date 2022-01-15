@@ -5,9 +5,13 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const RedHatText_300Light = require('./RedHatText_300Light.ttf');
 export const RedHatText_400Regular = require('./RedHatText_400Regular.ttf');
-export const RedHatText_400Regular_Italic = require('./RedHatText_400Regular_Italic.ttf');
 export const RedHatText_500Medium = require('./RedHatText_500Medium.ttf');
-export const RedHatText_500Medium_Italic = require('./RedHatText_500Medium_Italic.ttf');
+export const RedHatText_600SemiBold = require('./RedHatText_600SemiBold.ttf');
 export const RedHatText_700Bold = require('./RedHatText_700Bold.ttf');
+export const RedHatText_300Light_Italic = require('./RedHatText_300Light_Italic.ttf');
+export const RedHatText_400Regular_Italic = require('./RedHatText_400Regular_Italic.ttf');
+export const RedHatText_500Medium_Italic = require('./RedHatText_500Medium_Italic.ttf');
+export const RedHatText_600SemiBold_Italic = require('./RedHatText_600SemiBold_Italic.ttf');
 export const RedHatText_700Bold_Italic = require('./RedHatText_700Bold_Italic.ttf');

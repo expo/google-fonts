@@ -1,18 +1,19 @@
 {
   "family": "Big Shoulders Stencil Text",
-  "variants": ["100", "300", "regular", "500", "600", "700", "800", "900"],
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2021-03-24",
+  "version": "v10",
+  "lastModified": "2021-09-16",
   "files": {
-    "100": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUi9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYSZYGLxtPhi2eA.ttf",
-    "300": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYRRQkLbmvRrwPmQ.ttf",
-    "500": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYQJQ0LbmvRrwPmQ.ttf",
-    "600": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYQlRELbmvRrwPmQ.ttf",
-    "700": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYRBRULbmvRrwPmQ.ttf",
-    "800": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYRdRkLbmvRrwPmQ.ttf",
-    "900": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYR5R0LbmvRrwPmQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v5/5aUg9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcbz9ambTsehi.ttf"
+    "100": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGR04XIGS_Py_AWbQ.ttf",
+    "200": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRU4TIGS_Py_AWbQ.ttf",
+    "300": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRjYTIGS_Py_AWbQ.ttf",
+    "500": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGR4YTIGS_Py_AWbQ.ttf",
+    "600": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRDYPIGS_Py_AWbQ.ttf",
+    "700": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRNIPIGS_Py_AWbQ.ttf",
+    "800": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRU4PIGS_Py_AWbQ.ttf",
+    "900": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGReoPIGS_Py_AWbQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v10/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGR04TIGS_Py_AWbQ.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

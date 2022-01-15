@@ -2,9 +2,9 @@
   "family": "Offside",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/offside/v10/HI_KiYMWKa9QrAykQ5HiRp-dhpQ.ttf" },
+  "version": "v18",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/offside/v18/HI_KiYMWKa9QrAykQ5HiRp-dhpQ.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

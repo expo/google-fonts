@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const NanumMyeongjo_400Regular: number;
 export const NanumMyeongjo_700Bold: number;
 export const NanumMyeongjo_800ExtraBold: number;

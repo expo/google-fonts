@@ -1,11 +1,11 @@
 {
   "family": "Great Vibes",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-09-02",
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v9",
+  "lastModified": "2021-08-18",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/greatvibes/v8/RWmMoKWR9v4ksMfaWd_JN-XCg6UKDXlq.ttf"
+    "regular": "http://fonts.gstatic.com/s/greatvibes/v9/RWmMoKWR9v4ksMfaWd_JN-XCg6UKDXlq.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

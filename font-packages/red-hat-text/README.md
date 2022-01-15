@@ -11,13 +11,17 @@ This package lets you use the [**Red Hat Text**](https://fonts.google.com/specim
 
 ![Red Hat Text](./font-family.png)
 
-This font family contains [6 styles](#-gallery).
+This font family contains [10 styles](#-gallery).
 
+- `RedHatText_300Light`
 - `RedHatText_400Regular`
-- `RedHatText_400Regular_Italic`
 - `RedHatText_500Medium`
-- `RedHatText_500Medium_Italic`
+- `RedHatText_600SemiBold`
 - `RedHatText_700Bold`
+- `RedHatText_300Light_Italic`
+- `RedHatText_400Regular_Italic`
+- `RedHatText_500Medium_Italic`
+- `RedHatText_600SemiBold_Italic`
 - `RedHatText_700Bold_Italic`
 
 ## Usage
@@ -35,21 +39,29 @@ import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import {
   useFonts,
+  RedHatText_300Light,
   RedHatText_400Regular,
-  RedHatText_400Regular_Italic,
   RedHatText_500Medium,
-  RedHatText_500Medium_Italic,
+  RedHatText_600SemiBold,
   RedHatText_700Bold,
+  RedHatText_300Light_Italic,
+  RedHatText_400Regular_Italic,
+  RedHatText_500Medium_Italic,
+  RedHatText_600SemiBold_Italic,
   RedHatText_700Bold_Italic,
 } from '@expo-google-fonts/red-hat-text';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    RedHatText_300Light,
     RedHatText_400Regular,
-    RedHatText_400Regular_Italic,
     RedHatText_500Medium,
-    RedHatText_500Medium_Italic,
+    RedHatText_600SemiBold,
     RedHatText_700Bold,
+    RedHatText_300Light_Italic,
+    RedHatText_400Regular_Italic,
+    RedHatText_500Medium_Italic,
+    RedHatText_600SemiBold_Italic,
     RedHatText_700Bold_Italic,
   });
 
@@ -66,9 +78,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatText_400Regular',
+            fontFamily: 'RedHatText_300Light',
           }}>
-          Red Hat Text Regular
+          Red Hat Text Light
         </Text>
 
         <Text
@@ -76,9 +88,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatText_400Regular_Italic',
+            fontFamily: 'RedHatText_400Regular',
           }}>
-          Red Hat Text Italic
+          Red Hat Text Regular
         </Text>
 
         <Text
@@ -96,9 +108,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatText_500Medium_Italic',
+            fontFamily: 'RedHatText_600SemiBold',
           }}>
-          Red Hat Text Medium Italic
+          Red Hat Text Semi Bold
         </Text>
 
         <Text
@@ -109,6 +121,46 @@ export default () => {
             fontFamily: 'RedHatText_700Bold',
           }}>
           Red Hat Text Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatText_300Light_Italic',
+          }}>
+          Red Hat Text Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatText_400Regular_Italic',
+          }}>
+          Red Hat Text Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatText_500Medium_Italic',
+          }}>
+          Red Hat Text Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RedHatText_600SemiBold_Italic',
+          }}>
+          Red Hat Text Semi Bold Italic
         </Text>
 
         <Text
@@ -132,8 +184,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RedHatText_400Regular](./RedHatText_400Regular.ttf.png)|![RedHatText_400Regular_Italic](./RedHatText_400Regular_Italic.ttf.png)|![RedHatText_500Medium](./RedHatText_500Medium.ttf.png)||
-|![RedHatText_500Medium_Italic](./RedHatText_500Medium_Italic.ttf.png)|![RedHatText_700Bold](./RedHatText_700Bold.ttf.png)|![RedHatText_700Bold_Italic](./RedHatText_700Bold_Italic.ttf.png)||
+|![RedHatText_300Light](./RedHatText_300Light.ttf.png)|![RedHatText_400Regular](./RedHatText_400Regular.ttf.png)|![RedHatText_500Medium](./RedHatText_500Medium.ttf.png)||
+|![RedHatText_600SemiBold](./RedHatText_600SemiBold.ttf.png)|![RedHatText_700Bold](./RedHatText_700Bold.ttf.png)|![RedHatText_300Light_Italic](./RedHatText_300Light_Italic.ttf.png)||
+|![RedHatText_400Regular_Italic](./RedHatText_400Regular_Italic.ttf.png)|![RedHatText_500Medium_Italic](./RedHatText_500Medium_Italic.ttf.png)|![RedHatText_600SemiBold_Italic](./RedHatText_600SemiBold_Italic.ttf.png)||
+|![RedHatText_700Bold_Italic](./RedHatText_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

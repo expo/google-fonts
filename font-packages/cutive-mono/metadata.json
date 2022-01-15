@@ -2,10 +2,10 @@
   "family": "Cutive Mono",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-09-02",
+  "version": "v12",
+  "lastModified": "2022-01-13",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/cutivemono/v9/m8JWjfRfY7WVjVi2E-K9H5RFRG-K3Mud.ttf"
+    "regular": "http://fonts.gstatic.com/s/cutivemono/v12/m8JWjfRfY7WVjVi2E-K9H5RFRG-K3Mud.ttf"
   },
   "category": "monospace",
   "kind": "webfonts#webfont"

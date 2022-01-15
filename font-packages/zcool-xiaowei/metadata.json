@@ -2,10 +2,10 @@
   "family": "ZCOOL XiaoWei",
   "variants": ["regular"],
   "subsets": ["chinese-simplified", "latin"],
-  "version": "v5",
-  "lastModified": "2019-11-05",
+  "version": "v8",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/zcoolxiaowei/v5/i7dMIFFrTRywPpUVX9_RJyM1YFKQHwyVd3U.ttf"
+    "regular": "http://fonts.gstatic.com/s/zcoolxiaowei/v8/i7dMIFFrTRywPpUVX9_RJyM1YFKQHwyVd3U.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

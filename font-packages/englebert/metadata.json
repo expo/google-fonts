@@ -2,10 +2,10 @@
   "family": "Englebert",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
+  "version": "v15",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/englebert/v10/xn7iYH8w2XGrC8AR4HSxT_fYdN-WZw.ttf"
+    "regular": "http://fonts.gstatic.com/s/englebert/v15/xn7iYH8w2XGrC8AR4HSxT_fYdN-WZw.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

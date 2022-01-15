@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const CormorantSC_300Light: number;
 export const CormorantSC_400Regular: number;
 export const CormorantSC_500Medium: number;

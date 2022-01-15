@@ -2,9 +2,9 @@
   "family": "Peddana",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/peddana/v10/aFTU7PBhaX89UcKWhh2aBYyMcKw.ttf" },
+  "version": "v18",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/peddana/v18/aFTU7PBhaX89UcKWhh2aBYyMcKw.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

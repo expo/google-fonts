@@ -2,10 +2,10 @@
   "family": "Oxygen Mono",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-07-23",
+  "version": "v11",
+  "lastModified": "2022-01-13",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/oxygenmono/v8/h0GsssGg9FxgDgCjLeAd7ijfze-PPlUu.ttf"
+    "regular": "http://fonts.gstatic.com/s/oxygenmono/v11/h0GsssGg9FxgDgCjLeAd7ijfze-PPlUu.ttf"
   },
   "category": "monospace",
   "kind": "webfonts#webfont"

@@ -1,18 +1,18 @@
 {
   "family": "Expletus Sans",
-  "variants": ["regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic"],
-  "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2020-07-23",
+  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v19",
+  "lastModified": "2021-12-17",
   "files": {
-    "500": "http://fonts.gstatic.com/s/expletussans/v14/RLpkK5v5_bqufTYdnhFzDj2dfQ07n6kFUHPIFaU.ttf",
-    "600": "http://fonts.gstatic.com/s/expletussans/v14/RLpkK5v5_bqufTYdnhFzDj2dfSE8n6kFUHPIFaU.ttf",
-    "700": "http://fonts.gstatic.com/s/expletussans/v14/RLpkK5v5_bqufTYdnhFzDj2dfUU9n6kFUHPIFaU.ttf",
-    "regular": "http://fonts.gstatic.com/s/expletussans/v14/RLp5K5v5_bqufTYdnhFzDj2dRfkSu6EuTHo.ttf",
-    "italic": "http://fonts.gstatic.com/s/expletussans/v14/RLpnK5v5_bqufTYdnhFzDj2ddfsYv4MrXHrRDA.ttf",
-    "500italic": "http://fonts.gstatic.com/s/expletussans/v14/RLpiK5v5_bqufTYdnhFzDj2ddfsgS6oPVFHNBaVImA.ttf",
-    "600italic": "http://fonts.gstatic.com/s/expletussans/v14/RLpiK5v5_bqufTYdnhFzDj2ddfsgZ60PVFHNBaVImA.ttf",
-    "700italic": "http://fonts.gstatic.com/s/expletussans/v14/RLpiK5v5_bqufTYdnhFzDj2ddfsgA6wPVFHNBaVImA.ttf"
+    "500": "http://fonts.gstatic.com/s/expletussans/v19/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaSq2s1oFQTcXfMm.ttf",
+    "600": "http://fonts.gstatic.com/s/expletussans/v19/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaRG3c1oFQTcXfMm.ttf",
+    "700": "http://fonts.gstatic.com/s/expletussans/v19/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaR_3c1oFQTcXfMm.ttf",
+    "regular": "http://fonts.gstatic.com/s/expletussans/v19/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaSY2s1oFQTcXfMm.ttf",
+    "italic": "http://fonts.gstatic.com/s/expletussans/v19/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmSUrHwD-WOMmKKY.ttf",
+    "500italic": "http://fonts.gstatic.com/s/expletussans/v19/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmRcrHwD-WOMmKKY.ttf",
+    "600italic": "http://fonts.gstatic.com/s/expletussans/v19/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmfssHwD-WOMmKKY.ttf",
+    "700italic": "http://fonts.gstatic.com/s/expletussans/v19/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmcIsHwD-WOMmKKY.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

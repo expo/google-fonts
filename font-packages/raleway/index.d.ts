@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Raleway_100Thin: number;
 export const Raleway_200ExtraLight: number;
 export const Raleway_300Light: number;

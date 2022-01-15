@@ -2,9 +2,9 @@
   "family": "Federo",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/federo/v14/iJWFBX-cbD_ETsbmjVOe2WTG7Q.ttf" },
+  "version": "v17",
+  "lastModified": "2022-01-11",
+  "files": { "regular": "http://fonts.gstatic.com/s/federo/v17/iJWFBX-cbD_ETsbmjVOe2WTG7Q.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

@@ -2,9 +2,9 @@
   "family": "Ewert",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/ewert/v10/va9I4kzO2tFODYBvS-J3kbDP.ttf" },
+  "version": "v19",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/ewert/v19/va9I4kzO2tFODYBvS-J3kbDP.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

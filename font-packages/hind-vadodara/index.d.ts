@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const HindVadodara_300Light: number;
 export const HindVadodara_400Regular: number;
 export const HindVadodara_500Medium: number;

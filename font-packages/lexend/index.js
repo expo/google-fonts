@@ -6,9 +6,11 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const Lexend_100Thin = require('./Lexend_100Thin.ttf');
+export const Lexend_200ExtraLight = require('./Lexend_200ExtraLight.ttf');
 export const Lexend_300Light = require('./Lexend_300Light.ttf');
 export const Lexend_400Regular = require('./Lexend_400Regular.ttf');
 export const Lexend_500Medium = require('./Lexend_500Medium.ttf');
 export const Lexend_600SemiBold = require('./Lexend_600SemiBold.ttf');
 export const Lexend_700Bold = require('./Lexend_700Bold.ttf');
 export const Lexend_800ExtraBold = require('./Lexend_800ExtraBold.ttf');
+export const Lexend_900Black = require('./Lexend_900Black.ttf');

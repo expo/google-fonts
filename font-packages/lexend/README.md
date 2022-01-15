@@ -11,15 +11,17 @@ This package lets you use the [**Lexend**](https://fonts.google.com/specimen/Lex
 
 ![Lexend](./font-family.png)
 
-This font family contains [7 styles](#-gallery).
+This font family contains [9 styles](#-gallery).
 
 - `Lexend_100Thin`
+- `Lexend_200ExtraLight`
 - `Lexend_300Light`
 - `Lexend_400Regular`
 - `Lexend_500Medium`
 - `Lexend_600SemiBold`
 - `Lexend_700Bold`
 - `Lexend_800ExtraBold`
+- `Lexend_900Black`
 
 ## Usage
 
@@ -37,23 +39,27 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   Lexend_100Thin,
+  Lexend_200ExtraLight,
   Lexend_300Light,
   Lexend_400Regular,
   Lexend_500Medium,
   Lexend_600SemiBold,
   Lexend_700Bold,
   Lexend_800ExtraBold,
+  Lexend_900Black,
 } from '@expo-google-fonts/lexend';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Lexend_100Thin,
+    Lexend_200ExtraLight,
     Lexend_300Light,
     Lexend_400Regular,
     Lexend_500Medium,
     Lexend_600SemiBold,
     Lexend_700Bold,
     Lexend_800ExtraBold,
+    Lexend_900Black,
   });
 
   let fontSize = 24;
@@ -72,6 +78,16 @@ export default () => {
             fontFamily: 'Lexend_100Thin',
           }}>
           Lexend Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lexend_200ExtraLight',
+          }}>
+          Lexend Extra Light
         </Text>
 
         <Text
@@ -133,6 +149,16 @@ export default () => {
           }}>
           Lexend Extra Bold
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lexend_900Black',
+          }}>
+          Lexend Black
+        </Text>
       </View>
     );
   }
@@ -145,9 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Lexend_100Thin](./Lexend_100Thin.ttf.png)|![Lexend_300Light](./Lexend_300Light.ttf.png)|![Lexend_400Regular](./Lexend_400Regular.ttf.png)||
-|![Lexend_500Medium](./Lexend_500Medium.ttf.png)|![Lexend_600SemiBold](./Lexend_600SemiBold.ttf.png)|![Lexend_700Bold](./Lexend_700Bold.ttf.png)||
-|![Lexend_800ExtraBold](./Lexend_800ExtraBold.ttf.png)||||
+|![Lexend_100Thin](./Lexend_100Thin.ttf.png)|![Lexend_200ExtraLight](./Lexend_200ExtraLight.ttf.png)|![Lexend_300Light](./Lexend_300Light.ttf.png)||
+|![Lexend_400Regular](./Lexend_400Regular.ttf.png)|![Lexend_500Medium](./Lexend_500Medium.ttf.png)|![Lexend_600SemiBold](./Lexend_600SemiBold.ttf.png)||
+|![Lexend_700Bold](./Lexend_700Bold.ttf.png)|![Lexend_800ExtraBold](./Lexend_800ExtraBold.ttf.png)|![Lexend_900Black](./Lexend_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

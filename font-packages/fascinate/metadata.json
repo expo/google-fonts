@@ -2,10 +2,10 @@
   "family": "Fascinate",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2021-03-19",
+  "version": "v19",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/fascinate/v11/z7NWdRrufC8XJK0IIEli1LbQRPyNrw.ttf"
+    "regular": "http://fonts.gstatic.com/s/fascinate/v19/z7NWdRrufC8XJK0IIEli1LbQRPyNrw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

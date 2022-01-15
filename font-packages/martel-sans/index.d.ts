@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const MartelSans_200ExtraLight: number;
 export const MartelSans_300Light: number;
 export const MartelSans_400Regular: number;

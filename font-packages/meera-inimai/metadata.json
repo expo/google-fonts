@@ -2,10 +2,10 @@
   "family": "Meera Inimai",
   "variants": ["regular"],
   "subsets": ["latin", "tamil"],
-  "version": "v7",
-  "lastModified": "2021-03-19",
+  "version": "v10",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/meerainimai/v7/845fNMM5EIqOW5MPuvO3ILep_2jDVevnLQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/meerainimai/v10/845fNMM5EIqOW5MPuvO3ILep_2jDVevnLQ.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

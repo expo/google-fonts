@@ -2,9 +2,9 @@
   "family": "Kavoon",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/kavoon/v11/pxiFyp4_scRYhlU4NLr6f1pdEQ.ttf" },
+  "version": "v19",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/kavoon/v19/pxiFyp4_scRYhlU4NLr6f1pdEQ.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

@@ -1,10 +1,10 @@
 {
   "family": "Bokor",
   "variants": ["regular"],
-  "subsets": ["khmer"],
-  "version": "v15",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/bokor/v15/m8JcjfpeeaqTiR2WdInbcaxE.ttf" },
+  "subsets": ["khmer", "latin"],
+  "version": "v28",
+  "lastModified": "2021-12-17",
+  "files": { "regular": "http://fonts.gstatic.com/s/bokor/v28/m8JcjfpeeaqTiR2WdInbcaxE.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

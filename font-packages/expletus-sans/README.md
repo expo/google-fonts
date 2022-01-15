@@ -14,12 +14,12 @@ This package lets you use the [**Expletus Sans**](https://fonts.google.com/speci
 This font family contains [8 styles](#-gallery).
 
 - `ExpletusSans_400Regular`
-- `ExpletusSans_400Regular_Italic`
 - `ExpletusSans_500Medium`
-- `ExpletusSans_500Medium_Italic`
 - `ExpletusSans_600SemiBold`
-- `ExpletusSans_600SemiBold_Italic`
 - `ExpletusSans_700Bold`
+- `ExpletusSans_400Regular_Italic`
+- `ExpletusSans_500Medium_Italic`
+- `ExpletusSans_600SemiBold_Italic`
 - `ExpletusSans_700Bold_Italic`
 
 ## Usage
@@ -38,24 +38,24 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   ExpletusSans_400Regular,
-  ExpletusSans_400Regular_Italic,
   ExpletusSans_500Medium,
-  ExpletusSans_500Medium_Italic,
   ExpletusSans_600SemiBold,
-  ExpletusSans_600SemiBold_Italic,
   ExpletusSans_700Bold,
+  ExpletusSans_400Regular_Italic,
+  ExpletusSans_500Medium_Italic,
+  ExpletusSans_600SemiBold_Italic,
   ExpletusSans_700Bold_Italic,
 } from '@expo-google-fonts/expletus-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     ExpletusSans_400Regular,
-    ExpletusSans_400Regular_Italic,
     ExpletusSans_500Medium,
-    ExpletusSans_500Medium_Italic,
     ExpletusSans_600SemiBold,
-    ExpletusSans_600SemiBold_Italic,
     ExpletusSans_700Bold,
+    ExpletusSans_400Regular_Italic,
+    ExpletusSans_500Medium_Italic,
+    ExpletusSans_600SemiBold_Italic,
     ExpletusSans_700Bold_Italic,
   });
 
@@ -82,29 +82,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ExpletusSans_400Regular_Italic',
-          }}>
-          Expletus Sans Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'ExpletusSans_500Medium',
           }}>
           Expletus Sans Medium
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ExpletusSans_500Medium_Italic',
-          }}>
-          Expletus Sans Medium Italic
         </Text>
 
         <Text
@@ -122,9 +102,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ExpletusSans_600SemiBold_Italic',
+            fontFamily: 'ExpletusSans_700Bold',
           }}>
-          Expletus Sans Semi Bold Italic
+          Expletus Sans Bold
         </Text>
 
         <Text
@@ -132,9 +112,29 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ExpletusSans_700Bold',
+            fontFamily: 'ExpletusSans_400Regular_Italic',
           }}>
-          Expletus Sans Bold
+          Expletus Sans Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ExpletusSans_500Medium_Italic',
+          }}>
+          Expletus Sans Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ExpletusSans_600SemiBold_Italic',
+          }}>
+          Expletus Sans Semi Bold Italic
         </Text>
 
         <Text
@@ -158,9 +158,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ExpletusSans_400Regular](./ExpletusSans_400Regular.ttf.png)|![ExpletusSans_400Regular_Italic](./ExpletusSans_400Regular_Italic.ttf.png)|![ExpletusSans_500Medium](./ExpletusSans_500Medium.ttf.png)||
-|![ExpletusSans_500Medium_Italic](./ExpletusSans_500Medium_Italic.ttf.png)|![ExpletusSans_600SemiBold](./ExpletusSans_600SemiBold.ttf.png)|![ExpletusSans_600SemiBold_Italic](./ExpletusSans_600SemiBold_Italic.ttf.png)||
-|![ExpletusSans_700Bold](./ExpletusSans_700Bold.ttf.png)|![ExpletusSans_700Bold_Italic](./ExpletusSans_700Bold_Italic.ttf.png)|||
+|![ExpletusSans_400Regular](./ExpletusSans_400Regular.ttf.png)|![ExpletusSans_500Medium](./ExpletusSans_500Medium.ttf.png)|![ExpletusSans_600SemiBold](./ExpletusSans_600SemiBold.ttf.png)||
+|![ExpletusSans_700Bold](./ExpletusSans_700Bold.ttf.png)|![ExpletusSans_400Regular_Italic](./ExpletusSans_400Regular_Italic.ttf.png)|![ExpletusSans_500Medium_Italic](./ExpletusSans_500Medium_Italic.ttf.png)||
+|![ExpletusSans_600SemiBold_Italic](./ExpletusSans_600SemiBold_Italic.ttf.png)|![ExpletusSans_700Bold_Italic](./ExpletusSans_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

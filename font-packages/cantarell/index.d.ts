@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Cantarell_400Regular: number;
 export const Cantarell_400Regular_Italic: number;
 export const Cantarell_700Bold: number;

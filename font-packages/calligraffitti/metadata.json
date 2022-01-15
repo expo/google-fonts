@@ -2,10 +2,10 @@
   "family": "Calligraffitti",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2020-07-23",
+  "version": "v17",
+  "lastModified": "2022-01-13",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/calligraffitti/v12/46k2lbT3XjDVqJw3DCmCFjE0vnFZM5ZBpYN-.ttf"
+    "regular": "http://fonts.gstatic.com/s/calligraffitti/v17/46k2lbT3XjDVqJw3DCmCFjE0vnFZM5ZBpYN-.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

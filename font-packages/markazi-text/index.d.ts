@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const MarkaziText_400Regular: number;
 export const MarkaziText_500Medium: number;
 export const MarkaziText_600SemiBold: number;

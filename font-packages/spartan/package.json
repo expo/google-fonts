@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/spartan",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Use the Spartan font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",

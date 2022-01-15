@@ -5,6 +5,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Jaldi_400Regular: number;
 export const Jaldi_700Bold: number;

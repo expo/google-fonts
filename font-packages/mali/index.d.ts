@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Mali_200ExtraLight: number;
 export const Mali_200ExtraLight_Italic: number;
 export const Mali_300Light: number;

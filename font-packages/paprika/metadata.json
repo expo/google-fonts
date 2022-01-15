@@ -2,9 +2,9 @@
   "family": "Paprika",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/paprika/v10/8QIJdijZitv49rDfuIgOq7jkAOw.ttf" },
+  "version": "v18",
+  "lastModified": "2022-01-11",
+  "files": { "regular": "http://fonts.gstatic.com/s/paprika/v18/8QIJdijZitv49rDfuIgOq7jkAOw.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

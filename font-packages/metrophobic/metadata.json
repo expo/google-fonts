@@ -2,10 +2,10 @@
   "family": "Metrophobic",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v14",
-  "lastModified": "2020-07-23",
+  "version": "v17",
+  "lastModified": "2022-01-13",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/metrophobic/v14/sJoA3LZUhMSAPV_u0qwiAT-J737FPEEL.ttf"
+    "regular": "http://fonts.gstatic.com/s/metrophobic/v17/sJoA3LZUhMSAPV_u0qwiAT-J737FPEEL.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

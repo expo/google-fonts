@@ -6,12 +6,14 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const OpenSans_300Light = require('./OpenSans_300Light.ttf');
-export const OpenSans_300Light_Italic = require('./OpenSans_300Light_Italic.ttf');
 export const OpenSans_400Regular = require('./OpenSans_400Regular.ttf');
-export const OpenSans_400Regular_Italic = require('./OpenSans_400Regular_Italic.ttf');
+export const OpenSans_500Medium = require('./OpenSans_500Medium.ttf');
 export const OpenSans_600SemiBold = require('./OpenSans_600SemiBold.ttf');
-export const OpenSans_600SemiBold_Italic = require('./OpenSans_600SemiBold_Italic.ttf');
 export const OpenSans_700Bold = require('./OpenSans_700Bold.ttf');
-export const OpenSans_700Bold_Italic = require('./OpenSans_700Bold_Italic.ttf');
 export const OpenSans_800ExtraBold = require('./OpenSans_800ExtraBold.ttf');
+export const OpenSans_300Light_Italic = require('./OpenSans_300Light_Italic.ttf');
+export const OpenSans_400Regular_Italic = require('./OpenSans_400Regular_Italic.ttf');
+export const OpenSans_500Medium_Italic = require('./OpenSans_500Medium_Italic.ttf');
+export const OpenSans_600SemiBold_Italic = require('./OpenSans_600SemiBold_Italic.ttf');
+export const OpenSans_700Bold_Italic = require('./OpenSans_700Bold_Italic.ttf');
 export const OpenSans_800ExtraBold_Italic = require('./OpenSans_800ExtraBold_Italic.ttf');

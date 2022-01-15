@@ -8,6 +8,8 @@ export { default as __metadata__ } from './metadata.json';
 export const Cairo_200ExtraLight = require('./Cairo_200ExtraLight.ttf');
 export const Cairo_300Light = require('./Cairo_300Light.ttf');
 export const Cairo_400Regular = require('./Cairo_400Regular.ttf');
+export const Cairo_500Medium = require('./Cairo_500Medium.ttf');
 export const Cairo_600SemiBold = require('./Cairo_600SemiBold.ttf');
 export const Cairo_700Bold = require('./Cairo_700Bold.ttf');
+export const Cairo_800ExtraBold = require('./Cairo_800ExtraBold.ttf');
 export const Cairo_900Black = require('./Cairo_900Black.ttf');

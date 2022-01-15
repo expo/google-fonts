@@ -2,10 +2,10 @@
   "family": "Sancreek",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2021-03-19",
+  "version": "v21",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/sancreek/v13/pxiHypAnsdxUm159X7D-XV9NEe-K.ttf"
+    "regular": "http://fonts.gstatic.com/s/sancreek/v21/pxiHypAnsdxUm159X7D-XV9NEe-K.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

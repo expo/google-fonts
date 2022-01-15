@@ -2,12 +2,12 @@
   "family": "Manjari",
   "variants": ["100", "regular", "700"],
   "subsets": ["latin", "latin-ext", "malayalam"],
-  "version": "v4",
-  "lastModified": "2021-03-22",
+  "version": "v7",
+  "lastModified": "2022-01-13",
   "files": {
-    "100": "http://fonts.gstatic.com/s/manjari/v4/k3kSo8UPMOBO2w1UdbroK2vFIaOV8A.ttf",
-    "700": "http://fonts.gstatic.com/s/manjari/v4/k3kVo8UPMOBO2w1UdWLNC0HrLaqM6Q4.ttf",
-    "regular": "http://fonts.gstatic.com/s/manjari/v4/k3kQo8UPMOBO2w1UTd7iL0nAMaM.ttf"
+    "100": "http://fonts.gstatic.com/s/manjari/v7/k3kSo8UPMOBO2w1UdbroK2vFIaOV8A.ttf",
+    "700": "http://fonts.gstatic.com/s/manjari/v7/k3kVo8UPMOBO2w1UdWLNC0HrLaqM6Q4.ttf",
+    "regular": "http://fonts.gstatic.com/s/manjari/v7/k3kQo8UPMOBO2w1UTd7iL0nAMaM.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

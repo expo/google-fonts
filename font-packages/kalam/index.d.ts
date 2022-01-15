@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Kalam_300Light: number;
 export const Kalam_400Regular: number;
 export const Kalam_700Bold: number;

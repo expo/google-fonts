@@ -5,9 +5,14 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Rasa_300Light: number;
 export const Rasa_400Regular: number;
 export const Rasa_500Medium: number;
 export const Rasa_600SemiBold: number;
 export const Rasa_700Bold: number;
+export const Rasa_300Light_Italic: number;
+export const Rasa_400Regular_Italic: number;
+export const Rasa_500Medium_Italic: number;
+export const Rasa_600SemiBold_Italic: number;
+export const Rasa_700Bold_Italic: number;

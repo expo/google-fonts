@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const HindSiliguri_300Light: number;
 export const HindSiliguri_400Regular: number;
 export const HindSiliguri_500Medium: number;

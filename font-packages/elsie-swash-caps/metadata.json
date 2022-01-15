@@ -2,11 +2,11 @@
   "family": "Elsie Swash Caps",
   "variants": ["regular", "900"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2021-03-19",
+  "version": "v19",
+  "lastModified": "2022-01-05",
   "files": {
-    "900": "http://fonts.gstatic.com/s/elsieswashcaps/v11/845ENN8xGZyVX5MVo_upKf7KnjK0RW74DG2HToawrdU.ttf",
-    "regular": "http://fonts.gstatic.com/s/elsieswashcaps/v11/845DNN8xGZyVX5MVo_upKf7KnjK0ferVKGWsUo8.ttf"
+    "900": "http://fonts.gstatic.com/s/elsieswashcaps/v19/845ENN8xGZyVX5MVo_upKf7KnjK0RW74DG2HToawrdU.ttf",
+    "regular": "http://fonts.gstatic.com/s/elsieswashcaps/v19/845DNN8xGZyVX5MVo_upKf7KnjK0ferVKGWsUo8.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Arimo_400Regular: number;
 export const Arimo_500Medium: number;
 export const Arimo_600SemiBold: number;

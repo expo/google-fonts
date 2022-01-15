@@ -2,10 +2,10 @@
   "family": "Miltonian",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v16",
-  "lastModified": "2021-03-19",
+  "version": "v24",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/miltonian/v16/zOL-4pbPn6Ne9JqTg9mr6e5As-FeiQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/miltonian/v24/zOL-4pbPn6Ne9JqTg9mr6e5As-FeiQ.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

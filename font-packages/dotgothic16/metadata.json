@@ -2,10 +2,10 @@
   "family": "DotGothic16",
   "variants": ["regular"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
-  "version": "v4",
-  "lastModified": "2021-03-24",
+  "version": "v10",
+  "lastModified": "2021-11-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/dotgothic16/v4/v6-QGYjBJFKgyw5nSoDAGE7L435YPFrT.ttf"
+    "regular": "http://fonts.gstatic.com/s/dotgothic16/v10/~Cg0KC0RvdEdvdGhpYzE2IAAqBAgBGAE=.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

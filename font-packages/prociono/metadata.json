@@ -2,10 +2,10 @@
   "family": "Prociono",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
+  "version": "v20",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/prociono/v12/r05YGLlR-KxAf9GGO8upyDYtStiJ.ttf"
+    "regular": "http://fonts.gstatic.com/s/prociono/v20/r05YGLlR-KxAf9GGO8upyDYtStiJ.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

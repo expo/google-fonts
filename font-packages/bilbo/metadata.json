@@ -1,10 +1,10 @@
 {
   "family": "Bilbo",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/bilbo/v12/o-0EIpgpwWwZ210hpIRz4wxE.ttf" },
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v18",
+  "lastModified": "2022-01-11",
+  "files": { "regular": "http://fonts.gstatic.com/s/bilbo/v18/o-0EIpgpwWwZ210hpIRz4wxE.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

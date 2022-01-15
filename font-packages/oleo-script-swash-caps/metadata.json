@@ -2,11 +2,11 @@
   "family": "Oleo Script Swash Caps",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-07-23",
+  "version": "v11",
+  "lastModified": "2022-01-13",
   "files": {
-    "700": "http://fonts.gstatic.com/s/oleoscriptswashcaps/v8/Noag6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HCcaBbYUsn9T5dt0.ttf",
-    "regular": "http://fonts.gstatic.com/s/oleoscriptswashcaps/v8/Noaj6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HMXquSY0Hg90.ttf"
+    "700": "http://fonts.gstatic.com/s/oleoscriptswashcaps/v11/Noag6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HCcaBbYUsn9T5dt0.ttf",
+    "regular": "http://fonts.gstatic.com/s/oleoscriptswashcaps/v11/Noaj6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HMXquSY0Hg90.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

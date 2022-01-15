@@ -5,6 +5,12 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const KumbhSans_100Thin = require('./KumbhSans_100Thin.ttf');
+export const KumbhSans_200ExtraLight = require('./KumbhSans_200ExtraLight.ttf');
 export const KumbhSans_300Light = require('./KumbhSans_300Light.ttf');
 export const KumbhSans_400Regular = require('./KumbhSans_400Regular.ttf');
+export const KumbhSans_500Medium = require('./KumbhSans_500Medium.ttf');
+export const KumbhSans_600SemiBold = require('./KumbhSans_600SemiBold.ttf');
 export const KumbhSans_700Bold = require('./KumbhSans_700Bold.ttf');
+export const KumbhSans_800ExtraBold = require('./KumbhSans_800ExtraBold.ttf');
+export const KumbhSans_900Black = require('./KumbhSans_900Black.ttf');

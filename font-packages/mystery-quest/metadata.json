@@ -2,10 +2,10 @@
   "family": "Mystery Quest",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
+  "version": "v18",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/mysteryquest/v10/-nF6OG414u0E6k0wynSGlujRHwElD_9Qz9E.ttf"
+    "regular": "http://fonts.gstatic.com/s/mysteryquest/v18/-nF6OG414u0E6k0wynSGlujRHwElD_9Qz9E.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

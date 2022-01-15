@@ -2,12 +2,12 @@
   "family": "David Libre",
   "variants": ["regular", "500", "700"],
   "subsets": ["hebrew", "latin", "latin-ext", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2020-07-23",
+  "version": "v9",
+  "lastModified": "2022-01-13",
   "files": {
-    "500": "http://fonts.gstatic.com/s/davidlibre/v5/snfzs0W_99N64iuYSvp4W8GIw7qbSjORSo9W.ttf",
-    "700": "http://fonts.gstatic.com/s/davidlibre/v5/snfzs0W_99N64iuYSvp4W8HAxbqbSjORSo9W.ttf",
-    "regular": "http://fonts.gstatic.com/s/davidlibre/v5/snfus0W_99N64iuYSvp4W_l86p6TYS-Y.ttf"
+    "500": "http://fonts.gstatic.com/s/davidlibre/v9/snfzs0W_99N64iuYSvp4W8GIw7qbSjORSo9W.ttf",
+    "700": "http://fonts.gstatic.com/s/davidlibre/v9/snfzs0W_99N64iuYSvp4W8HAxbqbSjORSo9W.ttf",
+    "regular": "http://fonts.gstatic.com/s/davidlibre/v9/snfus0W_99N64iuYSvp4W_l86p6TYS-Y.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

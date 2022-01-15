@@ -2,9 +2,9 @@
   "family": "Unlock",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/unlock/v12/7Au-p_8ykD-cDl7GKAjSwkUVOQ.ttf" },
+  "version": "v20",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/unlock/v20/7Au-p_8ykD-cDl7GKAjSwkUVOQ.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

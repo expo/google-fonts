@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const BodoniModa_400Regular: number;
 export const BodoniModa_500Medium: number;
 export const BodoniModa_600SemiBold: number;

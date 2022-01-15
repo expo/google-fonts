@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const LifeSavers_400Regular: number;
 export const LifeSavers_700Bold: number;
 export const LifeSavers_800ExtraBold: number;

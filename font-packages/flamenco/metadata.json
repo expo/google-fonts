@@ -2,11 +2,11 @@
   "family": "Flamenco",
   "variants": ["300", "regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2021-03-19",
+  "version": "v16",
+  "lastModified": "2022-01-11",
   "files": {
-    "300": "http://fonts.gstatic.com/s/flamenco/v13/neIPzCehqYguo67ssZ0qNIkyepH9qGsf.ttf",
-    "regular": "http://fonts.gstatic.com/s/flamenco/v13/neIIzCehqYguo67ssaWGHK06UY30.ttf"
+    "300": "http://fonts.gstatic.com/s/flamenco/v16/neIPzCehqYguo67ssZ0qNIkyepH9qGsf.ttf",
+    "regular": "http://fonts.gstatic.com/s/flamenco/v16/neIIzCehqYguo67ssaWGHK06UY30.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

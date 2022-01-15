@@ -1,15 +1,31 @@
 {
   "family": "Rasa",
-  "variants": ["300", "regular", "500", "600", "700"],
-  "subsets": ["gujarati", "latin", "latin-ext"],
-  "version": "v6",
-  "lastModified": "2020-07-23",
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic"
+  ],
+  "subsets": ["gujarati", "latin", "latin-ext", "vietnamese"],
+  "version": "v11",
+  "lastModified": "2021-12-17",
   "files": {
-    "300": "http://fonts.gstatic.com/s/rasa/v6/xn7gYHIn1mWmdg52sgC7S9XdZN8.ttf",
-    "500": "http://fonts.gstatic.com/s/rasa/v6/xn7gYHIn1mWmdlZ3sgC7S9XdZN8.ttf",
-    "600": "http://fonts.gstatic.com/s/rasa/v6/xn7gYHIn1mWmdnpwsgC7S9XdZN8.ttf",
-    "700": "http://fonts.gstatic.com/s/rasa/v6/xn7gYHIn1mWmdh5xsgC7S9XdZN8.ttf",
-    "regular": "http://fonts.gstatic.com/s/rasa/v6/xn7vYHIn1mWmTqJelgiQV9w.ttf"
+    "300": "http://fonts.gstatic.com/s/rasa/v11/xn76YHIn1mWmVKl8ZtAM9NrJfN4YJW41fcvN2KT4.ttf",
+    "500": "http://fonts.gstatic.com/s/rasa/v11/xn76YHIn1mWmVKl8ZtAM9NrJfN50JW41fcvN2KT4.ttf",
+    "600": "http://fonts.gstatic.com/s/rasa/v11/xn76YHIn1mWmVKl8ZtAM9NrJfN6YIm41fcvN2KT4.ttf",
+    "700": "http://fonts.gstatic.com/s/rasa/v11/xn76YHIn1mWmVKl8ZtAM9NrJfN6hIm41fcvN2KT4.ttf",
+    "regular": "http://fonts.gstatic.com/s/rasa/v11/xn76YHIn1mWmVKl8ZtAM9NrJfN5GJW41fcvN2KT4.ttf",
+    "300italic": "http://fonts.gstatic.com/s/rasa/v11/xn78YHIn1mWmfqBOmQhln0Bne8uOZth2d8_v3bT4Ycc.ttf",
+    "italic": "http://fonts.gstatic.com/s/rasa/v11/xn78YHIn1mWmfqBOmQhln0Bne8uOZoZ2d8_v3bT4Ycc.ttf",
+    "500italic": "http://fonts.gstatic.com/s/rasa/v11/xn78YHIn1mWmfqBOmQhln0Bne8uOZrR2d8_v3bT4Ycc.ttf",
+    "600italic": "http://fonts.gstatic.com/s/rasa/v11/xn78YHIn1mWmfqBOmQhln0Bne8uOZlhxd8_v3bT4Ycc.ttf",
+    "700italic": "http://fonts.gstatic.com/s/rasa/v11/xn78YHIn1mWmfqBOmQhln0Bne8uOZmFxd8_v3bT4Ycc.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

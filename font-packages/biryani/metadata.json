@@ -2,16 +2,16 @@
   "family": "Biryani",
   "variants": ["200", "300", "regular", "600", "700", "800", "900"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v6",
-  "lastModified": "2020-09-02",
+  "version": "v11",
+  "lastModified": "2022-01-13",
   "files": {
-    "200": "http://fonts.gstatic.com/s/biryani/v6/hv-TlzNxIFoO84YddYQyGTBSU-J-RxQ.ttf",
-    "300": "http://fonts.gstatic.com/s/biryani/v6/hv-TlzNxIFoO84YddeAxGTBSU-J-RxQ.ttf",
-    "600": "http://fonts.gstatic.com/s/biryani/v6/hv-TlzNxIFoO84YddZQ3GTBSU-J-RxQ.ttf",
-    "700": "http://fonts.gstatic.com/s/biryani/v6/hv-TlzNxIFoO84YddfA2GTBSU-J-RxQ.ttf",
-    "800": "http://fonts.gstatic.com/s/biryani/v6/hv-TlzNxIFoO84Yddew1GTBSU-J-RxQ.ttf",
-    "900": "http://fonts.gstatic.com/s/biryani/v6/hv-TlzNxIFoO84Yddcg0GTBSU-J-RxQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/biryani/v6/hv-WlzNxIFoO84YdTUwZPTh5T-s.ttf"
+    "200": "http://fonts.gstatic.com/s/biryani/v11/hv-TlzNxIFoO84YddYQyGTBSU-J-RxQ.ttf",
+    "300": "http://fonts.gstatic.com/s/biryani/v11/hv-TlzNxIFoO84YddeAxGTBSU-J-RxQ.ttf",
+    "600": "http://fonts.gstatic.com/s/biryani/v11/hv-TlzNxIFoO84YddZQ3GTBSU-J-RxQ.ttf",
+    "700": "http://fonts.gstatic.com/s/biryani/v11/hv-TlzNxIFoO84YddfA2GTBSU-J-RxQ.ttf",
+    "800": "http://fonts.gstatic.com/s/biryani/v11/hv-TlzNxIFoO84Yddew1GTBSU-J-RxQ.ttf",
+    "900": "http://fonts.gstatic.com/s/biryani/v11/hv-TlzNxIFoO84Yddcg0GTBSU-J-RxQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/biryani/v11/hv-WlzNxIFoO84YdTUwZPTh5T-s.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

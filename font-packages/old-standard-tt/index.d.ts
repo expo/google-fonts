@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const OldStandardTT_400Regular: number;
 export const OldStandardTT_400Regular_Italic: number;
 export const OldStandardTT_700Bold: number;

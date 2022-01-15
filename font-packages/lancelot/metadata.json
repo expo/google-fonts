@@ -2,10 +2,10 @@
   "family": "Lancelot",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
+  "version": "v20",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/lancelot/v12/J7acnppxBGtQEulG4JY4xJ9CGyAa.ttf"
+    "regular": "http://fonts.gstatic.com/s/lancelot/v20/J7acnppxBGtQEulG4JY4xJ9CGyAa.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

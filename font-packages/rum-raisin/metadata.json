@@ -2,10 +2,10 @@
   "family": "Rum Raisin",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
+  "version": "v18",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/rumraisin/v10/nwpRtKu3Ih8D5avB4h2uJ3-IywA7eMM.ttf"
+    "regular": "http://fonts.gstatic.com/s/rumraisin/v18/nwpRtKu3Ih8D5avB4h2uJ3-IywA7eMM.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

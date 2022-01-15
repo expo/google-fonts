@@ -6,3 +6,4 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const Bevan_400Regular = require('./Bevan_400Regular.ttf');
+export const Bevan_400Regular_Italic = require('./Bevan_400Regular_Italic.ttf');

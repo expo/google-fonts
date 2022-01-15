@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const CrimsonPro_200ExtraLight: number;
 export const CrimsonPro_300Light: number;
 export const CrimsonPro_400Regular: number;

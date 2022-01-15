@@ -2,9 +2,9 @@
   "family": "Pattaya",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/pattaya/v6/ea8ZadcqV_zkHY-XNdCn92ZEmVs.ttf" },
+  "version": "v10",
+  "lastModified": "2022-01-13",
+  "files": { "regular": "http://fonts.gstatic.com/s/pattaya/v10/ea8ZadcqV_zkHY-XNdCn92ZEmVs.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

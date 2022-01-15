@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Khand_300Light: number;
 export const Khand_400Regular: number;
 export const Khand_500Medium: number;

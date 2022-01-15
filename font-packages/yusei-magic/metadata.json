@@ -2,10 +2,10 @@
   "family": "Yusei Magic",
   "variants": ["regular"],
   "subsets": ["japanese", "latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2021-03-22",
+  "version": "v9",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/yuseimagic/v5/yYLt0hbAyuCmoo5wlhPkpjHR-tdfcIT_.ttf"
+    "regular": "http://fonts.gstatic.com/s/yuseimagic/v9/yYLt0hbAyuCmoo5wlhPkpjHR-tdfcIT_.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

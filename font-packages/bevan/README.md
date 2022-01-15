@@ -11,9 +11,10 @@ This package lets you use the [**Bevan**](https://fonts.google.com/specimen/Beva
 
 ![Bevan](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [2 styles](#-gallery).
 
 - `Bevan_400Regular`
+- `Bevan_400Regular_Italic`
 
 ## Usage
 
@@ -28,11 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, Bevan_400Regular } from '@expo-google-fonts/bevan';
+import { useFonts, Bevan_400Regular, Bevan_400Regular_Italic } from '@expo-google-fonts/bevan';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Bevan_400Regular,
+    Bevan_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -52,6 +54,16 @@ export default () => {
           }}>
           Bevan Regular
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Bevan_400Regular_Italic',
+          }}>
+          Bevan Italic
+        </Text>
       </View>
     );
   }
@@ -64,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Bevan_400Regular](./Bevan_400Regular.ttf.png)||||
+|![Bevan_400Regular](./Bevan_400Regular.ttf.png)|![Bevan_400Regular_Italic](./Bevan_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

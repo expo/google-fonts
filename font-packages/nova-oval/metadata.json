@@ -2,10 +2,10 @@
   "family": "Nova Oval",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2021-03-19",
+  "version": "v22",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/novaoval/v14/jAnEgHdmANHvPenMaswCMY-h3cWkWg.ttf"
+    "regular": "http://fonts.gstatic.com/s/novaoval/v22/jAnEgHdmANHvPenMaswCMY-h3cWkWg.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

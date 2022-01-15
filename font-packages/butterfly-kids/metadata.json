@@ -2,10 +2,10 @@
   "family": "Butterfly Kids",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2021-03-19",
+  "version": "v19",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/butterflykids/v11/ll8lK2CWTjuqAsXDqlnIbMNs5S4arxFrAX1D.ttf"
+    "regular": "http://fonts.gstatic.com/s/butterflykids/v19/ll8lK2CWTjuqAsXDqlnIbMNs5S4arxFrAX1D.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

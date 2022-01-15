@@ -74,7 +74,7 @@ export { useFonts } from './useFonts';
 `;
 
 let CPUBoundConcurrency = Math.max(1, physicalCpuCount - 1);
-let NetworkBoundConcurrency = 12;
+let NetworkBoundConcurrency = 3;
 let IOBoundConcurrency = 2;
 
 async function main({ images, download } = { images: true, download: true }) {

@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Newsreader_200ExtraLight: number;
 export const Newsreader_300Light: number;
 export const Newsreader_400Regular: number;

@@ -2,9 +2,9 @@
   "family": "Julee",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/julee/v12/TuGfUVB3RpZPQ6ZLodgzydtk.ttf" },
+  "version": "v20",
+  "lastModified": "2022-01-11",
+  "files": { "regular": "http://fonts.gstatic.com/s/julee/v20/TuGfUVB3RpZPQ6ZLodgzydtk.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

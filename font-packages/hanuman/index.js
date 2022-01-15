@@ -5,5 +5,8 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const Hanuman_100Thin = require('./Hanuman_100Thin.ttf');
+export const Hanuman_300Light = require('./Hanuman_300Light.ttf');
 export const Hanuman_400Regular = require('./Hanuman_400Regular.ttf');
 export const Hanuman_700Bold = require('./Hanuman_700Bold.ttf');
+export const Hanuman_900Black = require('./Hanuman_900Black.ttf');

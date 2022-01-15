@@ -2,9 +2,9 @@
   "family": "Katibeh",
   "variants": ["regular"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2021-03-24",
-  "files": { "regular": "http://fonts.gstatic.com/s/katibeh/v12/ZGjXol5MQJog4bxDaC1RVDNdGDs.ttf" },
+  "version": "v15",
+  "lastModified": "2022-01-11",
+  "files": { "regular": "http://fonts.gstatic.com/s/katibeh/v15/ZGjXol5MQJog4bxDaC1RVDNdGDs.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

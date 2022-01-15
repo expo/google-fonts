@@ -2,10 +2,10 @@
   "family": "Yatra One",
   "variants": ["regular"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2021-03-19",
+  "version": "v12",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/yatraone/v9/C8ch4copsHzj8p7NaF0xw1OBbRDvXw.ttf"
+    "regular": "http://fonts.gstatic.com/s/yatraone/v12/C8ch4copsHzj8p7NaF0xw1OBbRDvXw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

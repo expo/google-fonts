@@ -2,9 +2,9 @@
   "family": "Lemon",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2020-07-23",
-  "files": { "regular": "http://fonts.gstatic.com/s/lemon/v9/HI_EiYEVKqRMq0jBSZXAQ4-d.ttf" },
+  "version": "v12",
+  "lastModified": "2022-01-13",
+  "files": { "regular": "http://fonts.gstatic.com/s/lemon/v12/HI_EiYEVKqRMq0jBSZXAQ4-d.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

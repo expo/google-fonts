@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Caveat_400Regular: number;
 export const Caveat_500Medium: number;
 export const Caveat_600SemiBold: number;

@@ -13,19 +13,19 @@
     "900italic"
   ],
   "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v15",
-  "lastModified": "2021-03-24",
+  "version": "v20",
+  "lastModified": "2022-01-13",
   "files": {
-    "500": "http://fonts.gstatic.com/s/alegreyasc/v15/taiTGmRtCJ62-O0HhNEa-ZZc-rUxQqu2FXKD.ttf",
-    "700": "http://fonts.gstatic.com/s/alegreyasc/v15/taiTGmRtCJ62-O0HhNEa-ZYU_LUxQqu2FXKD.ttf",
-    "800": "http://fonts.gstatic.com/s/alegreyasc/v15/taiTGmRtCJ62-O0HhNEa-ZYI_7UxQqu2FXKD.ttf",
-    "900": "http://fonts.gstatic.com/s/alegreyasc/v15/taiTGmRtCJ62-O0HhNEa-ZYs_rUxQqu2FXKD.ttf",
-    "regular": "http://fonts.gstatic.com/s/alegreyasc/v15/taiOGmRtCJ62-O0HhNEa-a6o05E5abe_.ttf",
-    "italic": "http://fonts.gstatic.com/s/alegreyasc/v15/taiMGmRtCJ62-O0HhNEa-Z6q2ZUbbKe_DGs.ttf",
-    "500italic": "http://fonts.gstatic.com/s/alegreyasc/v15/taiRGmRtCJ62-O0HhNEa-Z6q4WEySK-UEGKDBz4.ttf",
-    "700italic": "http://fonts.gstatic.com/s/alegreyasc/v15/taiRGmRtCJ62-O0HhNEa-Z6q4Sk0SK-UEGKDBz4.ttf",
-    "800italic": "http://fonts.gstatic.com/s/alegreyasc/v15/taiRGmRtCJ62-O0HhNEa-Z6q4TU3SK-UEGKDBz4.ttf",
-    "900italic": "http://fonts.gstatic.com/s/alegreyasc/v15/taiRGmRtCJ62-O0HhNEa-Z6q4RE2SK-UEGKDBz4.ttf"
+    "500": "http://fonts.gstatic.com/s/alegreyasc/v20/taiTGmRtCJ62-O0HhNEa-ZZc-rUxQqu2FXKD.ttf",
+    "700": "http://fonts.gstatic.com/s/alegreyasc/v20/taiTGmRtCJ62-O0HhNEa-ZYU_LUxQqu2FXKD.ttf",
+    "800": "http://fonts.gstatic.com/s/alegreyasc/v20/taiTGmRtCJ62-O0HhNEa-ZYI_7UxQqu2FXKD.ttf",
+    "900": "http://fonts.gstatic.com/s/alegreyasc/v20/taiTGmRtCJ62-O0HhNEa-ZYs_rUxQqu2FXKD.ttf",
+    "regular": "http://fonts.gstatic.com/s/alegreyasc/v20/taiOGmRtCJ62-O0HhNEa-a6o05E5abe_.ttf",
+    "italic": "http://fonts.gstatic.com/s/alegreyasc/v20/taiMGmRtCJ62-O0HhNEa-Z6q2ZUbbKe_DGs.ttf",
+    "500italic": "http://fonts.gstatic.com/s/alegreyasc/v20/taiRGmRtCJ62-O0HhNEa-Z6q4WEySK-UEGKDBz4.ttf",
+    "700italic": "http://fonts.gstatic.com/s/alegreyasc/v20/taiRGmRtCJ62-O0HhNEa-Z6q4Sk0SK-UEGKDBz4.ttf",
+    "800italic": "http://fonts.gstatic.com/s/alegreyasc/v20/taiRGmRtCJ62-O0HhNEa-Z6q4TU3SK-UEGKDBz4.ttf",
+    "900italic": "http://fonts.gstatic.com/s/alegreyasc/v20/taiRGmRtCJ62-O0HhNEa-Z6q4RE2SK-UEGKDBz4.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

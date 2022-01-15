@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const BalooPaaji2_400Regular: number;
 export const BalooPaaji2_500Medium: number;
 export const BalooPaaji2_600SemiBold: number;

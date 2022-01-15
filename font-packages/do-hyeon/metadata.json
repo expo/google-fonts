@@ -2,9 +2,9 @@
   "family": "Do Hyeon",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v11",
-  "lastModified": "2019-07-16",
-  "files": { "regular": "http://fonts.gstatic.com/s/dohyeon/v11/TwMN-I8CRRU2zM86HFE3ZwaH__-C.ttf" },
+  "version": "v14",
+  "lastModified": "2022-01-13",
+  "files": { "regular": "http://fonts.gstatic.com/s/dohyeon/v14/TwMN-I8CRRU2zM86HFE3ZwaH__-C.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

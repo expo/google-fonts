@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const ElMessiri_400Regular: number;
 export const ElMessiri_500Medium: number;
 export const ElMessiri_600SemiBold: number;

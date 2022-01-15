@@ -11,10 +11,13 @@ This package lets you use the [**Battambang**](https://fonts.google.com/specimen
 
 ![Battambang](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [5 styles](#-gallery).
 
+- `Battambang_100Thin`
+- `Battambang_300Light`
 - `Battambang_400Regular`
 - `Battambang_700Bold`
+- `Battambang_900Black`
 
 ## Usage
 
@@ -29,12 +32,22 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, Battambang_400Regular, Battambang_700Bold } from '@expo-google-fonts/battambang';
+import {
+  useFonts,
+  Battambang_100Thin,
+  Battambang_300Light,
+  Battambang_400Regular,
+  Battambang_700Bold,
+  Battambang_900Black,
+} from '@expo-google-fonts/battambang';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    Battambang_100Thin,
+    Battambang_300Light,
     Battambang_400Regular,
     Battambang_700Bold,
+    Battambang_900Black,
   });
 
   let fontSize = 24;
@@ -45,6 +58,26 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Battambang_100Thin',
+          }}>
+          Battambang Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Battambang_300Light',
+          }}>
+          Battambang Light
+        </Text>
+
         <Text
           style={{
             fontSize,
@@ -64,6 +97,16 @@ export default () => {
           }}>
           Battambang Bold
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Battambang_900Black',
+          }}>
+          Battambang Black
+        </Text>
       </View>
     );
   }
@@ -76,7 +119,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Battambang_400Regular](./Battambang_400Regular.ttf.png)|![Battambang_700Bold](./Battambang_700Bold.ttf.png)|||
+|![Battambang_100Thin](./Battambang_100Thin.ttf.png)|![Battambang_300Light](./Battambang_300Light.ttf.png)|![Battambang_400Regular](./Battambang_400Regular.ttf.png)||
+|![Battambang_700Bold](./Battambang_700Bold.ttf.png)|![Battambang_900Black](./Battambang_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

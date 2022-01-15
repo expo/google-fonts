@@ -5,6 +5,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const MontserratSubrayada_400Regular: number;
 export const MontserratSubrayada_700Bold: number;

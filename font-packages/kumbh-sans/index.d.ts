@@ -5,7 +5,13 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
+export const KumbhSans_100Thin: number;
+export const KumbhSans_200ExtraLight: number;
 export const KumbhSans_300Light: number;
 export const KumbhSans_400Regular: number;
+export const KumbhSans_500Medium: number;
+export const KumbhSans_600SemiBold: number;
 export const KumbhSans_700Bold: number;
+export const KumbhSans_800ExtraBold: number;
+export const KumbhSans_900Black: number;

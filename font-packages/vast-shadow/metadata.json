@@ -2,10 +2,10 @@
   "family": "Vast Shadow",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-07-23",
+  "version": "v13",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/vastshadow/v10/pe0qMImKOZ1V62ZwbVY9dfe6Kdpickwp.ttf"
+    "regular": "http://fonts.gstatic.com/s/vastshadow/v13/pe0qMImKOZ1V62ZwbVY9dfe6Kdpickwp.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

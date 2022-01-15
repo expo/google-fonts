@@ -2,9 +2,9 @@
   "family": "Langar",
   "variants": ["regular"],
   "subsets": ["gurmukhi", "latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2021-03-24",
-  "files": { "regular": "http://fonts.gstatic.com/s/langar/v15/kJEyBukW7AIlgjGVrTVZ99sqrQ.ttf" },
+  "version": "v24",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/langar/v24/kJEyBukW7AIlgjGVrTVZ99sqrQ.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

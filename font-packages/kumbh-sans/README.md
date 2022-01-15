@@ -11,11 +11,17 @@ This package lets you use the [**Kumbh Sans**](https://fonts.google.com/specimen
 
 ![Kumbh Sans](./font-family.png)
 
-This font family contains [3 styles](#-gallery).
+This font family contains [9 styles](#-gallery).
 
+- `KumbhSans_100Thin`
+- `KumbhSans_200ExtraLight`
 - `KumbhSans_300Light`
 - `KumbhSans_400Regular`
+- `KumbhSans_500Medium`
+- `KumbhSans_600SemiBold`
 - `KumbhSans_700Bold`
+- `KumbhSans_800ExtraBold`
+- `KumbhSans_900Black`
 
 ## Usage
 
@@ -32,16 +38,28 @@ import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import {
   useFonts,
+  KumbhSans_100Thin,
+  KumbhSans_200ExtraLight,
   KumbhSans_300Light,
   KumbhSans_400Regular,
+  KumbhSans_500Medium,
+  KumbhSans_600SemiBold,
   KumbhSans_700Bold,
+  KumbhSans_800ExtraBold,
+  KumbhSans_900Black,
 } from '@expo-google-fonts/kumbh-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    KumbhSans_100Thin,
+    KumbhSans_200ExtraLight,
     KumbhSans_300Light,
     KumbhSans_400Regular,
+    KumbhSans_500Medium,
+    KumbhSans_600SemiBold,
     KumbhSans_700Bold,
+    KumbhSans_800ExtraBold,
+    KumbhSans_900Black,
   });
 
   let fontSize = 24;
@@ -52,6 +70,26 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KumbhSans_100Thin',
+          }}>
+          Kumbh Sans Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KumbhSans_200ExtraLight',
+          }}>
+          Kumbh Sans Extra Light
+        </Text>
+
         <Text
           style={{
             fontSize,
@@ -77,9 +115,49 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KumbhSans_500Medium',
+          }}>
+          Kumbh Sans Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KumbhSans_600SemiBold',
+          }}>
+          Kumbh Sans Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'KumbhSans_700Bold',
           }}>
           Kumbh Sans Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KumbhSans_800ExtraBold',
+          }}>
+          Kumbh Sans Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'KumbhSans_900Black',
+          }}>
+          Kumbh Sans Black
         </Text>
       </View>
     );
@@ -93,7 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KumbhSans_300Light](./KumbhSans_300Light.ttf.png)|![KumbhSans_400Regular](./KumbhSans_400Regular.ttf.png)|![KumbhSans_700Bold](./KumbhSans_700Bold.ttf.png)||
+|![KumbhSans_100Thin](./KumbhSans_100Thin.ttf.png)|![KumbhSans_200ExtraLight](./KumbhSans_200ExtraLight.ttf.png)|![KumbhSans_300Light](./KumbhSans_300Light.ttf.png)||
+|![KumbhSans_400Regular](./KumbhSans_400Regular.ttf.png)|![KumbhSans_500Medium](./KumbhSans_500Medium.ttf.png)|![KumbhSans_600SemiBold](./KumbhSans_600SemiBold.ttf.png)||
+|![KumbhSans_700Bold](./KumbhSans_700Bold.ttf.png)|![KumbhSans_800ExtraBold](./KumbhSans_800ExtraBold.ttf.png)|![KumbhSans_900Black](./KumbhSans_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

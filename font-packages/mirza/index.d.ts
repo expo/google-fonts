@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Mirza_400Regular: number;
 export const Mirza_500Medium: number;
 export const Mirza_600SemiBold: number;

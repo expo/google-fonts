@@ -2,10 +2,10 @@
   "family": "Federant",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2021-03-19",
+  "version": "v23",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/federant/v15/2sDdZGNfip_eirT0_U0jRUG0AqUc.ttf"
+    "regular": "http://fonts.gstatic.com/s/federant/v23/2sDdZGNfip_eirT0_U0jRUG0AqUc.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

@@ -2,11 +2,11 @@
   "family": "Skranji",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-07-23",
+  "version": "v11",
+  "lastModified": "2022-01-13",
   "files": {
-    "700": "http://fonts.gstatic.com/s/skranji/v8/OZpGg_dtriVFNerMW4eBtlzNwED-b4g.ttf",
-    "regular": "http://fonts.gstatic.com/s/skranji/v8/OZpDg_dtriVFNerMYzuuklTm3Ek.ttf"
+    "700": "http://fonts.gstatic.com/s/skranji/v11/OZpGg_dtriVFNerMW4eBtlzNwED-b4g.ttf",
+    "regular": "http://fonts.gstatic.com/s/skranji/v11/OZpDg_dtriVFNerMYzuuklTm3Ek.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

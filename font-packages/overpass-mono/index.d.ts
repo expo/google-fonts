@@ -5,8 +5,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const OverpassMono_300Light: number;
 export const OverpassMono_400Regular: number;
+export const OverpassMono_500Medium: number;
 export const OverpassMono_600SemiBold: number;
 export const OverpassMono_700Bold: number;

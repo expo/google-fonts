@@ -2,10 +2,10 @@
   "family": "Akaya Telivigala",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "telugu"],
-  "version": "v9",
-  "lastModified": "2021-02-18",
+  "version": "v20",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/akayatelivigala/v9/lJwc-oo_iG9wXqU3rCTD395tp0uifdLdsIH0YH8.ttf"
+    "regular": "http://fonts.gstatic.com/s/akayatelivigala/v20/lJwc-oo_iG9wXqU3rCTD395tp0uifdLdsIH0YH8.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

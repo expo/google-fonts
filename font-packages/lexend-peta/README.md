@@ -11,9 +11,17 @@ This package lets you use the [**Lexend Peta**](https://fonts.google.com/specime
 
 ![Lexend Peta](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [9 styles](#-gallery).
 
+- `LexendPeta_100Thin`
+- `LexendPeta_200ExtraLight`
+- `LexendPeta_300Light`
 - `LexendPeta_400Regular`
+- `LexendPeta_500Medium`
+- `LexendPeta_600SemiBold`
+- `LexendPeta_700Bold`
+- `LexendPeta_800ExtraBold`
+- `LexendPeta_900Black`
 
 ## Usage
 
@@ -28,11 +36,30 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, LexendPeta_400Regular } from '@expo-google-fonts/lexend-peta';
+import {
+  useFonts,
+  LexendPeta_100Thin,
+  LexendPeta_200ExtraLight,
+  LexendPeta_300Light,
+  LexendPeta_400Regular,
+  LexendPeta_500Medium,
+  LexendPeta_600SemiBold,
+  LexendPeta_700Bold,
+  LexendPeta_800ExtraBold,
+  LexendPeta_900Black,
+} from '@expo-google-fonts/lexend-peta';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    LexendPeta_100Thin,
+    LexendPeta_200ExtraLight,
+    LexendPeta_300Light,
     LexendPeta_400Regular,
+    LexendPeta_500Medium,
+    LexendPeta_600SemiBold,
+    LexendPeta_700Bold,
+    LexendPeta_800ExtraBold,
+    LexendPeta_900Black,
   });
 
   let fontSize = 24;
@@ -48,9 +75,89 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendPeta_100Thin',
+          }}>
+          Lexend Peta Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendPeta_200ExtraLight',
+          }}>
+          Lexend Peta Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendPeta_300Light',
+          }}>
+          Lexend Peta Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'LexendPeta_400Regular',
           }}>
           Lexend Peta Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendPeta_500Medium',
+          }}>
+          Lexend Peta Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendPeta_600SemiBold',
+          }}>
+          Lexend Peta Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendPeta_700Bold',
+          }}>
+          Lexend Peta Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendPeta_800ExtraBold',
+          }}>
+          Lexend Peta Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'LexendPeta_900Black',
+          }}>
+          Lexend Peta Black
         </Text>
       </View>
     );
@@ -64,7 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LexendPeta_400Regular](./LexendPeta_400Regular.ttf.png)||||
+|![LexendPeta_100Thin](./LexendPeta_100Thin.ttf.png)|![LexendPeta_200ExtraLight](./LexendPeta_200ExtraLight.ttf.png)|![LexendPeta_300Light](./LexendPeta_300Light.ttf.png)||
+|![LexendPeta_400Regular](./LexendPeta_400Regular.ttf.png)|![LexendPeta_500Medium](./LexendPeta_500Medium.ttf.png)|![LexendPeta_600SemiBold](./LexendPeta_600SemiBold.ttf.png)||
+|![LexendPeta_700Bold](./LexendPeta_700Bold.ttf.png)|![LexendPeta_800ExtraBold](./LexendPeta_800ExtraBold.ttf.png)|![LexendPeta_900Black](./LexendPeta_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

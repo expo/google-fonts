@@ -2,9 +2,9 @@
   "family": "Dekko",
   "variants": ["regular"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/dekko/v9/46khlb_wWjfSrttFR0vsfl1B.ttf" },
+  "version": "v17",
+  "lastModified": "2022-01-11",
+  "files": { "regular": "http://fonts.gstatic.com/s/dekko/v17/46khlb_wWjfSrttFR0vsfl1B.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

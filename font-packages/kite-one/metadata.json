@@ -2,9 +2,9 @@
   "family": "Kite One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/kiteone/v10/70lQu7shLnA_E02vyq1b6HnGO4uA.ttf" },
+  "version": "v18",
+  "lastModified": "2022-01-13",
+  "files": { "regular": "http://fonts.gstatic.com/s/kiteone/v18/70lQu7shLnA_E02vyq1b6HnGO4uA.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

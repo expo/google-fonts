@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Trirong_100Thin: number;
 export const Trirong_100Thin_Italic: number;
 export const Trirong_200ExtraLight: number;

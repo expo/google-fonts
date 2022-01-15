@@ -2,9 +2,9 @@
   "family": "Dorsa",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/dorsa/v13/yYLn0hjd0OGwqo493XCFxAnQ.ttf" },
+  "version": "v21",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/dorsa/v21/yYLn0hjd0OGwqo493XCFxAnQ.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

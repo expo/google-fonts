@@ -1,13 +1,16 @@
 {
   "family": "Nokora",
-  "variants": ["regular", "700"],
-  "subsets": ["khmer"],
-  "version": "v16",
-  "lastModified": "2021-03-19",
+  "variants": ["100", "300", "regular", "700", "900"],
+  "subsets": ["khmer", "latin"],
+  "version": "v25",
+  "lastModified": "2021-11-18",
   "files": {
-    "700": "http://fonts.gstatic.com/s/nokora/v16/hYkLPuwgTubzaWxohxUrqt18-B9Uuw.ttf",
-    "regular": "http://fonts.gstatic.com/s/nokora/v16/hYkIPuwgTubzaWxQOzoPovZg8Q.ttf"
+    "100": "http://fonts.gstatic.com/s/nokora/v25/~CgoKBk5va29yYRhkIAAqBAgBGAE=.ttf",
+    "300": "http://fonts.gstatic.com/s/nokora/v25/~CgsKBk5va29yYRisAiAAKgQIARgB.ttf",
+    "700": "http://fonts.gstatic.com/s/nokora/v25/~CgsKBk5va29yYRi8BSAAKgQIARgB.ttf",
+    "900": "http://fonts.gstatic.com/s/nokora/v25/~CgsKBk5va29yYRiEByAAKgQIARgB.ttf",
+    "regular": "http://fonts.gstatic.com/s/nokora/v25/~CggKBk5va29yYSAAKgQIARgB.ttf"
   },
-  "category": "serif",
+  "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

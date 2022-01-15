@@ -2,10 +2,10 @@
   "family": "Freckle Face",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-07-23",
+  "version": "v12",
+  "lastModified": "2022-01-11",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/freckleface/v9/AMOWz4SXrmKHCvXTohxY-YI0U1K2w9lb4g.ttf"
+    "regular": "http://fonts.gstatic.com/s/freckleface/v12/AMOWz4SXrmKHCvXTohxY-YI0U1K2w9lb4g.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

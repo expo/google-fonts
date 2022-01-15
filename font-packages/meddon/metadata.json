@@ -2,9 +2,9 @@
   "family": "Meddon",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/meddon/v15/kmK8ZqA2EgDNeHTZhBdB3y_Aow.ttf" },
+  "version": "v18",
+  "lastModified": "2022-01-11",
+  "files": { "regular": "http://fonts.gstatic.com/s/meddon/v18/kmK8ZqA2EgDNeHTZhBdB3y_Aow.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

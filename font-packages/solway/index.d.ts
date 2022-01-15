@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Solway_300Light: number;
 export const Solway_400Regular: number;
 export const Solway_500Medium: number;

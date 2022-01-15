@@ -11,10 +11,13 @@ This package lets you use the [**Nokora**](https://fonts.google.com/specimen/Nok
 
 ![Nokora](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [5 styles](#-gallery).
 
+- `Nokora_100Thin`
+- `Nokora_300Light`
 - `Nokora_400Regular`
 - `Nokora_700Bold`
+- `Nokora_900Black`
 
 ## Usage
 
@@ -29,12 +32,22 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, Nokora_400Regular, Nokora_700Bold } from '@expo-google-fonts/nokora';
+import {
+  useFonts,
+  Nokora_100Thin,
+  Nokora_300Light,
+  Nokora_400Regular,
+  Nokora_700Bold,
+  Nokora_900Black,
+} from '@expo-google-fonts/nokora';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    Nokora_100Thin,
+    Nokora_300Light,
     Nokora_400Regular,
     Nokora_700Bold,
+    Nokora_900Black,
   });
 
   let fontSize = 24;
@@ -45,6 +58,26 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nokora_100Thin',
+          }}>
+          Nokora Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nokora_300Light',
+          }}>
+          Nokora Light
+        </Text>
+
         <Text
           style={{
             fontSize,
@@ -64,6 +97,16 @@ export default () => {
           }}>
           Nokora Bold
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Nokora_900Black',
+          }}>
+          Nokora Black
+        </Text>
       </View>
     );
   }
@@ -76,7 +119,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Nokora_400Regular](./Nokora_400Regular.ttf.png)|![Nokora_700Bold](./Nokora_700Bold.ttf.png)|||
+|![Nokora_100Thin](./Nokora_100Thin.ttf.png)|![Nokora_300Light](./Nokora_300Light.ttf.png)|![Nokora_400Regular](./Nokora_400Regular.ttf.png)||
+|![Nokora_700Bold](./Nokora_700Bold.ttf.png)|![Nokora_900Black](./Nokora_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

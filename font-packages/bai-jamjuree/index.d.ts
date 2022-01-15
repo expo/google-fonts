@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const BaiJamjuree_200ExtraLight: number;
 export const BaiJamjuree_200ExtraLight_Italic: number;
 export const BaiJamjuree_300Light: number;

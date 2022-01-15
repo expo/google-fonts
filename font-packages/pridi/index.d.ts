@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Pridi_200ExtraLight: number;
 export const Pridi_300Light: number;
 export const Pridi_400Regular: number;

@@ -5,6 +5,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
+export const Nokora_100Thin: number;
+export const Nokora_300Light: number;
 export const Nokora_400Regular: number;
 export const Nokora_700Bold: number;
+export const Nokora_900Black: number;

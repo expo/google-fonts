@@ -2,10 +2,10 @@
   "family": "Nova Mono",
   "variants": ["regular"],
   "subsets": ["greek", "latin"],
-  "version": "v13",
-  "lastModified": "2021-03-19",
+  "version": "v16",
+  "lastModified": "2022-01-13",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/novamono/v13/Cn-0JtiGWQ5Ajb--MRKfYGxYrdM9Sg.ttf"
+    "regular": "http://fonts.gstatic.com/s/novamono/v16/Cn-0JtiGWQ5Ajb--MRKfYGxYrdM9Sg.ttf"
   },
   "category": "monospace",
   "kind": "webfonts#webfont"

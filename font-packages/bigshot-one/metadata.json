@@ -2,10 +2,10 @@
   "family": "Bigshot One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2021-03-19",
+  "version": "v23",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/bigshotone/v13/u-470qukhRkkO6BD_7cM_gxuUQJBXv_-.ttf"
+    "regular": "http://fonts.gstatic.com/s/bigshotone/v23/u-470qukhRkkO6BD_7cM_gxuUQJBXv_-.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

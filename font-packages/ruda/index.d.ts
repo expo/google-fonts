@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Ruda_400Regular: number;
 export const Ruda_500Medium: number;
 export const Ruda_600SemiBold: number;

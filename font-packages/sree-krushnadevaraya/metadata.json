@@ -2,10 +2,10 @@
   "family": "Sree Krushnadevaraya",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
+  "version": "v19",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/sreekrushnadevaraya/v10/R70FjzQeifmPepmyQQjQ9kvwMkWYPfTA_EWb2FhQuXir.ttf"
+    "regular": "http://fonts.gstatic.com/s/sreekrushnadevaraya/v19/R70FjzQeifmPepmyQQjQ9kvwMkWYPfTA_EWb2FhQuXir.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

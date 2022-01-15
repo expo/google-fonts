@@ -11,17 +11,19 @@ This package lets you use the [**Open Sans**](https://fonts.google.com/specimen/
 
 ![Open Sans](./font-family.png)
 
-This font family contains [10 styles](#-gallery).
+This font family contains [12 styles](#-gallery).
 
 - `OpenSans_300Light`
-- `OpenSans_300Light_Italic`
 - `OpenSans_400Regular`
-- `OpenSans_400Regular_Italic`
+- `OpenSans_500Medium`
 - `OpenSans_600SemiBold`
-- `OpenSans_600SemiBold_Italic`
 - `OpenSans_700Bold`
-- `OpenSans_700Bold_Italic`
 - `OpenSans_800ExtraBold`
+- `OpenSans_300Light_Italic`
+- `OpenSans_400Regular_Italic`
+- `OpenSans_500Medium_Italic`
+- `OpenSans_600SemiBold_Italic`
+- `OpenSans_700Bold_Italic`
 - `OpenSans_800ExtraBold_Italic`
 
 ## Usage
@@ -40,28 +42,32 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   OpenSans_300Light,
-  OpenSans_300Light_Italic,
   OpenSans_400Regular,
-  OpenSans_400Regular_Italic,
+  OpenSans_500Medium,
   OpenSans_600SemiBold,
-  OpenSans_600SemiBold_Italic,
   OpenSans_700Bold,
-  OpenSans_700Bold_Italic,
   OpenSans_800ExtraBold,
+  OpenSans_300Light_Italic,
+  OpenSans_400Regular_Italic,
+  OpenSans_500Medium_Italic,
+  OpenSans_600SemiBold_Italic,
+  OpenSans_700Bold_Italic,
   OpenSans_800ExtraBold_Italic,
 } from '@expo-google-fonts/open-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     OpenSans_300Light,
-    OpenSans_300Light_Italic,
     OpenSans_400Regular,
-    OpenSans_400Regular_Italic,
+    OpenSans_500Medium,
     OpenSans_600SemiBold,
-    OpenSans_600SemiBold_Italic,
     OpenSans_700Bold,
-    OpenSans_700Bold_Italic,
     OpenSans_800ExtraBold,
+    OpenSans_300Light_Italic,
+    OpenSans_400Regular_Italic,
+    OpenSans_500Medium_Italic,
+    OpenSans_600SemiBold_Italic,
+    OpenSans_700Bold_Italic,
     OpenSans_800ExtraBold_Italic,
   });
 
@@ -88,16 +94,6 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OpenSans_300Light_Italic',
-          }}>
-          Open Sans Light Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'OpenSans_400Regular',
           }}>
           Open Sans Regular
@@ -108,9 +104,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OpenSans_400Regular_Italic',
+            fontFamily: 'OpenSans_500Medium',
           }}>
-          Open Sans Italic
+          Open Sans Medium
         </Text>
 
         <Text
@@ -128,16 +124,6 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OpenSans_600SemiBold_Italic',
-          }}>
-          Open Sans Semi Bold Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'OpenSans_700Bold',
           }}>
           Open Sans Bold
@@ -148,9 +134,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OpenSans_700Bold_Italic',
+            fontFamily: 'OpenSans_800ExtraBold',
           }}>
-          Open Sans Bold Italic
+          Open Sans Extra Bold
         </Text>
 
         <Text
@@ -158,9 +144,49 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OpenSans_800ExtraBold',
+            fontFamily: 'OpenSans_300Light_Italic',
           }}>
-          Open Sans Extra Bold
+          Open Sans Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OpenSans_400Regular_Italic',
+          }}>
+          Open Sans Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OpenSans_500Medium_Italic',
+          }}>
+          Open Sans Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OpenSans_600SemiBold_Italic',
+          }}>
+          Open Sans Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'OpenSans_700Bold_Italic',
+          }}>
+          Open Sans Bold Italic
         </Text>
 
         <Text
@@ -184,10 +210,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![OpenSans_300Light](./OpenSans_300Light.ttf.png)|![OpenSans_300Light_Italic](./OpenSans_300Light_Italic.ttf.png)|![OpenSans_400Regular](./OpenSans_400Regular.ttf.png)||
-|![OpenSans_400Regular_Italic](./OpenSans_400Regular_Italic.ttf.png)|![OpenSans_600SemiBold](./OpenSans_600SemiBold.ttf.png)|![OpenSans_600SemiBold_Italic](./OpenSans_600SemiBold_Italic.ttf.png)||
-|![OpenSans_700Bold](./OpenSans_700Bold.ttf.png)|![OpenSans_700Bold_Italic](./OpenSans_700Bold_Italic.ttf.png)|![OpenSans_800ExtraBold](./OpenSans_800ExtraBold.ttf.png)||
-|![OpenSans_800ExtraBold_Italic](./OpenSans_800ExtraBold_Italic.ttf.png)||||
+|![OpenSans_300Light](./OpenSans_300Light.ttf.png)|![OpenSans_400Regular](./OpenSans_400Regular.ttf.png)|![OpenSans_500Medium](./OpenSans_500Medium.ttf.png)||
+|![OpenSans_600SemiBold](./OpenSans_600SemiBold.ttf.png)|![OpenSans_700Bold](./OpenSans_700Bold.ttf.png)|![OpenSans_800ExtraBold](./OpenSans_800ExtraBold.ttf.png)||
+|![OpenSans_300Light_Italic](./OpenSans_300Light_Italic.ttf.png)|![OpenSans_400Regular_Italic](./OpenSans_400Regular_Italic.ttf.png)|![OpenSans_500Medium_Italic](./OpenSans_500Medium_Italic.ttf.png)||
+|![OpenSans_600SemiBold_Italic](./OpenSans_600SemiBold_Italic.ttf.png)|![OpenSans_700Bold_Italic](./OpenSans_700Bold_Italic.ttf.png)|![OpenSans_800ExtraBold_Italic](./OpenSans_800ExtraBold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

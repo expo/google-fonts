@@ -11,13 +11,18 @@ This package lets you use the [**Rasa**](https://fonts.google.com/specimen/Rasa)
 
 ![Rasa](./font-family.png)
 
-This font family contains [5 styles](#-gallery).
+This font family contains [10 styles](#-gallery).
 
 - `Rasa_300Light`
 - `Rasa_400Regular`
 - `Rasa_500Medium`
 - `Rasa_600SemiBold`
 - `Rasa_700Bold`
+- `Rasa_300Light_Italic`
+- `Rasa_400Regular_Italic`
+- `Rasa_500Medium_Italic`
+- `Rasa_600SemiBold_Italic`
+- `Rasa_700Bold_Italic`
 
 ## Usage
 
@@ -39,6 +44,11 @@ import {
   Rasa_500Medium,
   Rasa_600SemiBold,
   Rasa_700Bold,
+  Rasa_300Light_Italic,
+  Rasa_400Regular_Italic,
+  Rasa_500Medium_Italic,
+  Rasa_600SemiBold_Italic,
+  Rasa_700Bold_Italic,
 } from '@expo-google-fonts/rasa';
 
 export default () => {
@@ -48,6 +58,11 @@ export default () => {
     Rasa_500Medium,
     Rasa_600SemiBold,
     Rasa_700Bold,
+    Rasa_300Light_Italic,
+    Rasa_400Regular_Italic,
+    Rasa_500Medium_Italic,
+    Rasa_600SemiBold_Italic,
+    Rasa_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -107,6 +122,56 @@ export default () => {
           }}>
           Rasa Bold
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rasa_300Light_Italic',
+          }}>
+          Rasa Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rasa_400Regular_Italic',
+          }}>
+          Rasa Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rasa_500Medium_Italic',
+          }}>
+          Rasa Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rasa_600SemiBold_Italic',
+          }}>
+          Rasa Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rasa_700Bold_Italic',
+          }}>
+          Rasa Bold Italic
+        </Text>
       </View>
     );
   }
@@ -120,7 +185,9 @@ export default () => {
 ||||
 |-|-|-|
 |![Rasa_300Light](./Rasa_300Light.ttf.png)|![Rasa_400Regular](./Rasa_400Regular.ttf.png)|![Rasa_500Medium](./Rasa_500Medium.ttf.png)||
-|![Rasa_600SemiBold](./Rasa_600SemiBold.ttf.png)|![Rasa_700Bold](./Rasa_700Bold.ttf.png)|||
+|![Rasa_600SemiBold](./Rasa_600SemiBold.ttf.png)|![Rasa_700Bold](./Rasa_700Bold.ttf.png)|![Rasa_300Light_Italic](./Rasa_300Light_Italic.ttf.png)||
+|![Rasa_400Regular_Italic](./Rasa_400Regular_Italic.ttf.png)|![Rasa_500Medium_Italic](./Rasa_500Medium_Italic.ttf.png)|![Rasa_600SemiBold_Italic](./Rasa_600SemiBold_Italic.ttf.png)||
+|![Rasa_700Bold_Italic](./Rasa_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

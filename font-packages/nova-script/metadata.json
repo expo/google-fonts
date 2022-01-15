@@ -2,10 +2,10 @@
   "family": "Nova Script",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2021-03-19",
+  "version": "v23",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/novascript/v15/7Au7p_IpkSWSTWaFWkumvmQNEl0O0kEx.ttf"
+    "regular": "http://fonts.gstatic.com/s/novascript/v23/7Au7p_IpkSWSTWaFWkumvmQNEl0O0kEx.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

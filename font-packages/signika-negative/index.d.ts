@@ -5,8 +5,9 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const SignikaNegative_300Light: number;
 export const SignikaNegative_400Regular: number;
+export const SignikaNegative_500Medium: number;
 export const SignikaNegative_600SemiBold: number;
 export const SignikaNegative_700Bold: number;

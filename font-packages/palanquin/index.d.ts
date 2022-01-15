@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Palanquin_100Thin: number;
 export const Palanquin_200ExtraLight: number;
 export const Palanquin_300Light: number;

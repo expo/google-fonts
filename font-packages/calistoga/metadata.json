@@ -2,10 +2,10 @@
   "family": "Calistoga",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2021-03-19",
+  "version": "v8",
+  "lastModified": "2022-01-13",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/calistoga/v5/6NUU8F2OJg6MeR7l4e0vtMYAwdRZfw.ttf"
+    "regular": "http://fonts.gstatic.com/s/calistoga/v8/6NUU8F2OJg6MeR7l4e0vtMYAwdRZfw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

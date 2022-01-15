@@ -14,12 +14,12 @@ This package lets you use the [**Archivo Narrow**](https://fonts.google.com/spec
 This font family contains [8 styles](#-gallery).
 
 - `ArchivoNarrow_400Regular`
-- `ArchivoNarrow_400Regular_Italic`
 - `ArchivoNarrow_500Medium`
-- `ArchivoNarrow_500Medium_Italic`
 - `ArchivoNarrow_600SemiBold`
-- `ArchivoNarrow_600SemiBold_Italic`
 - `ArchivoNarrow_700Bold`
+- `ArchivoNarrow_400Regular_Italic`
+- `ArchivoNarrow_500Medium_Italic`
+- `ArchivoNarrow_600SemiBold_Italic`
 - `ArchivoNarrow_700Bold_Italic`
 
 ## Usage
@@ -38,24 +38,24 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   ArchivoNarrow_400Regular,
-  ArchivoNarrow_400Regular_Italic,
   ArchivoNarrow_500Medium,
-  ArchivoNarrow_500Medium_Italic,
   ArchivoNarrow_600SemiBold,
-  ArchivoNarrow_600SemiBold_Italic,
   ArchivoNarrow_700Bold,
+  ArchivoNarrow_400Regular_Italic,
+  ArchivoNarrow_500Medium_Italic,
+  ArchivoNarrow_600SemiBold_Italic,
   ArchivoNarrow_700Bold_Italic,
 } from '@expo-google-fonts/archivo-narrow';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     ArchivoNarrow_400Regular,
-    ArchivoNarrow_400Regular_Italic,
     ArchivoNarrow_500Medium,
-    ArchivoNarrow_500Medium_Italic,
     ArchivoNarrow_600SemiBold,
-    ArchivoNarrow_600SemiBold_Italic,
     ArchivoNarrow_700Bold,
+    ArchivoNarrow_400Regular_Italic,
+    ArchivoNarrow_500Medium_Italic,
+    ArchivoNarrow_600SemiBold_Italic,
     ArchivoNarrow_700Bold_Italic,
   });
 
@@ -82,29 +82,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArchivoNarrow_400Regular_Italic',
-          }}>
-          Archivo Narrow Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'ArchivoNarrow_500Medium',
           }}>
           Archivo Narrow Medium
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArchivoNarrow_500Medium_Italic',
-          }}>
-          Archivo Narrow Medium Italic
         </Text>
 
         <Text
@@ -122,9 +102,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArchivoNarrow_600SemiBold_Italic',
+            fontFamily: 'ArchivoNarrow_700Bold',
           }}>
-          Archivo Narrow Semi Bold Italic
+          Archivo Narrow Bold
         </Text>
 
         <Text
@@ -132,9 +112,29 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArchivoNarrow_700Bold',
+            fontFamily: 'ArchivoNarrow_400Regular_Italic',
           }}>
-          Archivo Narrow Bold
+          Archivo Narrow Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArchivoNarrow_500Medium_Italic',
+          }}>
+          Archivo Narrow Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ArchivoNarrow_600SemiBold_Italic',
+          }}>
+          Archivo Narrow Semi Bold Italic
         </Text>
 
         <Text
@@ -158,9 +158,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ArchivoNarrow_400Regular](./ArchivoNarrow_400Regular.ttf.png)|![ArchivoNarrow_400Regular_Italic](./ArchivoNarrow_400Regular_Italic.ttf.png)|![ArchivoNarrow_500Medium](./ArchivoNarrow_500Medium.ttf.png)||
-|![ArchivoNarrow_500Medium_Italic](./ArchivoNarrow_500Medium_Italic.ttf.png)|![ArchivoNarrow_600SemiBold](./ArchivoNarrow_600SemiBold.ttf.png)|![ArchivoNarrow_600SemiBold_Italic](./ArchivoNarrow_600SemiBold_Italic.ttf.png)||
-|![ArchivoNarrow_700Bold](./ArchivoNarrow_700Bold.ttf.png)|![ArchivoNarrow_700Bold_Italic](./ArchivoNarrow_700Bold_Italic.ttf.png)|||
+|![ArchivoNarrow_400Regular](./ArchivoNarrow_400Regular.ttf.png)|![ArchivoNarrow_500Medium](./ArchivoNarrow_500Medium.ttf.png)|![ArchivoNarrow_600SemiBold](./ArchivoNarrow_600SemiBold.ttf.png)||
+|![ArchivoNarrow_700Bold](./ArchivoNarrow_700Bold.ttf.png)|![ArchivoNarrow_400Regular_Italic](./ArchivoNarrow_400Regular_Italic.ttf.png)|![ArchivoNarrow_500Medium_Italic](./ArchivoNarrow_500Medium_Italic.ttf.png)||
+|![ArchivoNarrow_600SemiBold_Italic](./ArchivoNarrow_600SemiBold_Italic.ttf.png)|![ArchivoNarrow_700Bold_Italic](./ArchivoNarrow_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

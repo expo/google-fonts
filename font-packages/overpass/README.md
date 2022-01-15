@@ -11,23 +11,25 @@ This package lets you use the [**Overpass**](https://fonts.google.com/specimen/O
 
 ![Overpass](./font-family.png)
 
-This font family contains [16 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
 - `Overpass_100Thin`
-- `Overpass_100Thin_Italic`
 - `Overpass_200ExtraLight`
-- `Overpass_200ExtraLight_Italic`
 - `Overpass_300Light`
-- `Overpass_300Light_Italic`
 - `Overpass_400Regular`
-- `Overpass_400Regular_Italic`
+- `Overpass_500Medium`
 - `Overpass_600SemiBold`
-- `Overpass_600SemiBold_Italic`
 - `Overpass_700Bold`
-- `Overpass_700Bold_Italic`
 - `Overpass_800ExtraBold`
-- `Overpass_800ExtraBold_Italic`
 - `Overpass_900Black`
+- `Overpass_100Thin_Italic`
+- `Overpass_200ExtraLight_Italic`
+- `Overpass_300Light_Italic`
+- `Overpass_400Regular_Italic`
+- `Overpass_500Medium_Italic`
+- `Overpass_600SemiBold_Italic`
+- `Overpass_700Bold_Italic`
+- `Overpass_800ExtraBold_Italic`
 - `Overpass_900Black_Italic`
 
 ## Usage
@@ -46,40 +48,44 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   Overpass_100Thin,
-  Overpass_100Thin_Italic,
   Overpass_200ExtraLight,
-  Overpass_200ExtraLight_Italic,
   Overpass_300Light,
-  Overpass_300Light_Italic,
   Overpass_400Regular,
-  Overpass_400Regular_Italic,
+  Overpass_500Medium,
   Overpass_600SemiBold,
-  Overpass_600SemiBold_Italic,
   Overpass_700Bold,
-  Overpass_700Bold_Italic,
   Overpass_800ExtraBold,
-  Overpass_800ExtraBold_Italic,
   Overpass_900Black,
+  Overpass_100Thin_Italic,
+  Overpass_200ExtraLight_Italic,
+  Overpass_300Light_Italic,
+  Overpass_400Regular_Italic,
+  Overpass_500Medium_Italic,
+  Overpass_600SemiBold_Italic,
+  Overpass_700Bold_Italic,
+  Overpass_800ExtraBold_Italic,
   Overpass_900Black_Italic,
 } from '@expo-google-fonts/overpass';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Overpass_100Thin,
-    Overpass_100Thin_Italic,
     Overpass_200ExtraLight,
-    Overpass_200ExtraLight_Italic,
     Overpass_300Light,
-    Overpass_300Light_Italic,
     Overpass_400Regular,
-    Overpass_400Regular_Italic,
+    Overpass_500Medium,
     Overpass_600SemiBold,
-    Overpass_600SemiBold_Italic,
     Overpass_700Bold,
-    Overpass_700Bold_Italic,
     Overpass_800ExtraBold,
-    Overpass_800ExtraBold_Italic,
     Overpass_900Black,
+    Overpass_100Thin_Italic,
+    Overpass_200ExtraLight_Italic,
+    Overpass_300Light_Italic,
+    Overpass_400Regular_Italic,
+    Overpass_500Medium_Italic,
+    Overpass_600SemiBold_Italic,
+    Overpass_700Bold_Italic,
+    Overpass_800ExtraBold_Italic,
     Overpass_900Black_Italic,
   });
 
@@ -106,29 +112,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_100Thin_Italic',
-          }}>
-          Overpass Thin Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Overpass_200ExtraLight',
           }}>
           Overpass Extra Light
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_200ExtraLight_Italic',
-          }}>
-          Overpass Extra Light Italic
         </Text>
 
         <Text
@@ -146,16 +132,6 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_300Light_Italic',
-          }}>
-          Overpass Light Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Overpass_400Regular',
           }}>
           Overpass Regular
@@ -166,9 +142,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_400Regular_Italic',
+            fontFamily: 'Overpass_500Medium',
           }}>
-          Overpass Italic
+          Overpass Medium
         </Text>
 
         <Text
@@ -186,29 +162,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_600SemiBold_Italic',
-          }}>
-          Overpass Semi Bold Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Overpass_700Bold',
           }}>
           Overpass Bold
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_700Bold_Italic',
-          }}>
-          Overpass Bold Italic
         </Text>
 
         <Text
@@ -226,9 +182,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_800ExtraBold_Italic',
+            fontFamily: 'Overpass_900Black',
           }}>
-          Overpass Extra Bold Italic
+          Overpass Black
         </Text>
 
         <Text
@@ -236,9 +192,79 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_900Black',
+            fontFamily: 'Overpass_100Thin_Italic',
           }}>
-          Overpass Black
+          Overpass Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_200ExtraLight_Italic',
+          }}>
+          Overpass Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_300Light_Italic',
+          }}>
+          Overpass Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_400Regular_Italic',
+          }}>
+          Overpass Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_500Medium_Italic',
+          }}>
+          Overpass Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_600SemiBold_Italic',
+          }}>
+          Overpass Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_700Bold_Italic',
+          }}>
+          Overpass Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Overpass_800ExtraBold_Italic',
+          }}>
+          Overpass Extra Bold Italic
         </Text>
 
         <Text
@@ -262,12 +288,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Overpass_100Thin](./Overpass_100Thin.ttf.png)|![Overpass_100Thin_Italic](./Overpass_100Thin_Italic.ttf.png)|![Overpass_200ExtraLight](./Overpass_200ExtraLight.ttf.png)||
-|![Overpass_200ExtraLight_Italic](./Overpass_200ExtraLight_Italic.ttf.png)|![Overpass_300Light](./Overpass_300Light.ttf.png)|![Overpass_300Light_Italic](./Overpass_300Light_Italic.ttf.png)||
-|![Overpass_400Regular](./Overpass_400Regular.ttf.png)|![Overpass_400Regular_Italic](./Overpass_400Regular_Italic.ttf.png)|![Overpass_600SemiBold](./Overpass_600SemiBold.ttf.png)||
-|![Overpass_600SemiBold_Italic](./Overpass_600SemiBold_Italic.ttf.png)|![Overpass_700Bold](./Overpass_700Bold.ttf.png)|![Overpass_700Bold_Italic](./Overpass_700Bold_Italic.ttf.png)||
-|![Overpass_800ExtraBold](./Overpass_800ExtraBold.ttf.png)|![Overpass_800ExtraBold_Italic](./Overpass_800ExtraBold_Italic.ttf.png)|![Overpass_900Black](./Overpass_900Black.ttf.png)||
-|![Overpass_900Black_Italic](./Overpass_900Black_Italic.ttf.png)||||
+|![Overpass_100Thin](./Overpass_100Thin.ttf.png)|![Overpass_200ExtraLight](./Overpass_200ExtraLight.ttf.png)|![Overpass_300Light](./Overpass_300Light.ttf.png)||
+|![Overpass_400Regular](./Overpass_400Regular.ttf.png)|![Overpass_500Medium](./Overpass_500Medium.ttf.png)|![Overpass_600SemiBold](./Overpass_600SemiBold.ttf.png)||
+|![Overpass_700Bold](./Overpass_700Bold.ttf.png)|![Overpass_800ExtraBold](./Overpass_800ExtraBold.ttf.png)|![Overpass_900Black](./Overpass_900Black.ttf.png)||
+|![Overpass_100Thin_Italic](./Overpass_100Thin_Italic.ttf.png)|![Overpass_200ExtraLight_Italic](./Overpass_200ExtraLight_Italic.ttf.png)|![Overpass_300Light_Italic](./Overpass_300Light_Italic.ttf.png)||
+|![Overpass_400Regular_Italic](./Overpass_400Regular_Italic.ttf.png)|![Overpass_500Medium_Italic](./Overpass_500Medium_Italic.ttf.png)|![Overpass_600SemiBold_Italic](./Overpass_600SemiBold_Italic.ttf.png)||
+|![Overpass_700Bold_Italic](./Overpass_700Bold_Italic.ttf.png)|![Overpass_800ExtraBold_Italic](./Overpass_800ExtraBold_Italic.ttf.png)|![Overpass_900Black_Italic](./Overpass_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

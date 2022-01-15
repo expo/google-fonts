@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Spartan_100Thin: number;
 export const Spartan_200ExtraLight: number;
 export const Spartan_300Light: number;

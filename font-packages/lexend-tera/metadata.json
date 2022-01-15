@@ -1,11 +1,19 @@
 {
   "family": "Lexend Tera",
-  "variants": ["regular"],
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v10",
-  "lastModified": "2021-03-24",
+  "version": "v20",
+  "lastModified": "2021-12-17",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/lexendtera/v10/RrQUbo98_jt_IXnBPwCWtZhARYMgGtWA.ttf"
+    "100": "http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiM5zITdpz0fYxcrQ.ttf",
+    "200": "http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiMZzMTdpz0fYxcrQ.ttf",
+    "300": "http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiMuTMTdpz0fYxcrQ.ttf",
+    "500": "http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiM1TMTdpz0fYxcrQ.ttf",
+    "600": "http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiMOTQTdpz0fYxcrQ.ttf",
+    "700": "http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiMADQTdpz0fYxcrQ.ttf",
+    "800": "http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiMZzQTdpz0fYxcrQ.ttf",
+    "900": "http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiMTjQTdpz0fYxcrQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/lexendtera/v20/RrQDbo98_jt_IXnBPwCWtYJLZ3P4hnaGKFiM5zMTdpz0fYxcrQ.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

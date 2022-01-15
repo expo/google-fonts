@@ -2,9 +2,9 @@
   "family": "Farsan",
   "variants": ["regular"],
   "subsets": ["gujarati", "latin", "latin-ext", "vietnamese"],
-  "version": "v8",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/farsan/v8/VEMwRoJ0vY_zsyz62q-pxDX9rQ.ttf" },
+  "version": "v16",
+  "lastModified": "2022-01-11",
+  "files": { "regular": "http://fonts.gstatic.com/s/farsan/v16/VEMwRoJ0vY_zsyz62q-pxDX9rQ.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

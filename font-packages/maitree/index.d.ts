@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Maitree_200ExtraLight: number;
 export const Maitree_300Light: number;
 export const Maitree_400Regular: number;

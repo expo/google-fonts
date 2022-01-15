@@ -2,16 +2,16 @@
   "family": "Mukta Vaani",
   "variants": ["200", "300", "regular", "500", "600", "700", "800"],
   "subsets": ["gujarati", "latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2021-04-01",
+  "version": "v11",
+  "lastModified": "2022-01-13",
   "files": {
-    "200": "http://fonts.gstatic.com/s/muktavaani/v8/3JnkSD_-ynaxmxnEfVHPIGXNV8BD-u97MW1a.ttf",
-    "300": "http://fonts.gstatic.com/s/muktavaani/v8/3JnkSD_-ynaxmxnEfVHPIGWpVMBD-u97MW1a.ttf",
-    "500": "http://fonts.gstatic.com/s/muktavaani/v8/3JnkSD_-ynaxmxnEfVHPIGXxVcBD-u97MW1a.ttf",
-    "600": "http://fonts.gstatic.com/s/muktavaani/v8/3JnkSD_-ynaxmxnEfVHPIGXdUsBD-u97MW1a.ttf",
-    "700": "http://fonts.gstatic.com/s/muktavaani/v8/3JnkSD_-ynaxmxnEfVHPIGW5U8BD-u97MW1a.ttf",
-    "800": "http://fonts.gstatic.com/s/muktavaani/v8/3JnkSD_-ynaxmxnEfVHPIGWlUMBD-u97MW1a.ttf",
-    "regular": "http://fonts.gstatic.com/s/muktavaani/v8/3Jn5SD_-ynaxmxnEfVHPIF0FfORL0fNy.ttf"
+    "200": "http://fonts.gstatic.com/s/muktavaani/v11/3JnkSD_-ynaxmxnEfVHPIGXNV8BD-u97MW1a.ttf",
+    "300": "http://fonts.gstatic.com/s/muktavaani/v11/3JnkSD_-ynaxmxnEfVHPIGWpVMBD-u97MW1a.ttf",
+    "500": "http://fonts.gstatic.com/s/muktavaani/v11/3JnkSD_-ynaxmxnEfVHPIGXxVcBD-u97MW1a.ttf",
+    "600": "http://fonts.gstatic.com/s/muktavaani/v11/3JnkSD_-ynaxmxnEfVHPIGXdUsBD-u97MW1a.ttf",
+    "700": "http://fonts.gstatic.com/s/muktavaani/v11/3JnkSD_-ynaxmxnEfVHPIGW5U8BD-u97MW1a.ttf",
+    "800": "http://fonts.gstatic.com/s/muktavaani/v11/3JnkSD_-ynaxmxnEfVHPIGWlUMBD-u97MW1a.ttf",
+    "regular": "http://fonts.gstatic.com/s/muktavaani/v11/3Jn5SD_-ynaxmxnEfVHPIF0FfORL0fNy.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

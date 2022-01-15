@@ -2,9 +2,11 @@
   "family": "Gabriela",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin"],
-  "version": "v9",
-  "lastModified": "2020-07-23",
-  "files": { "regular": "http://fonts.gstatic.com/s/gabriela/v9/qkBWXvsO6sreR8E-b_m-zrpHmRzC.ttf" },
+  "version": "v12",
+  "lastModified": "2022-01-13",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/gabriela/v12/qkBWXvsO6sreR8E-b_m-zrpHmRzC.ttf"
+  },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

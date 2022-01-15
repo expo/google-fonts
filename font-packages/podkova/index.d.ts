@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Podkova_400Regular: number;
 export const Podkova_500Medium: number;
 export const Podkova_600SemiBold: number;

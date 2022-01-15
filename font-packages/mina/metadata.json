@@ -2,11 +2,11 @@
   "family": "Mina",
   "variants": ["regular", "700"],
   "subsets": ["bengali", "latin", "latin-ext"],
-  "version": "v6",
-  "lastModified": "2021-03-19",
+  "version": "v9",
+  "lastModified": "2022-01-11",
   "files": {
-    "700": "http://fonts.gstatic.com/s/mina/v6/-nF8OGc18vARl4NMyiXZ95OkJwA.ttf",
-    "regular": "http://fonts.gstatic.com/s/mina/v6/-nFzOGc18vARrz9j7i3y65o.ttf"
+    "700": "http://fonts.gstatic.com/s/mina/v9/-nF8OGc18vARl4NMyiXZ95OkJwA.ttf",
+    "regular": "http://fonts.gstatic.com/s/mina/v9/-nFzOGc18vARrz9j7i3y65o.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

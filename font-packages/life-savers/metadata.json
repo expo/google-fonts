@@ -2,12 +2,12 @@
   "family": "Life Savers",
   "variants": ["regular", "700", "800"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2021-03-19",
+  "version": "v16",
+  "lastModified": "2022-01-11",
   "files": {
-    "700": "http://fonts.gstatic.com/s/lifesavers/v13/ZXu_e1UftKKabUQMgxAal8HXOS5Tk8fIpPRW.ttf",
-    "800": "http://fonts.gstatic.com/s/lifesavers/v13/ZXu_e1UftKKabUQMgxAal8HLOi5Tk8fIpPRW.ttf",
-    "regular": "http://fonts.gstatic.com/s/lifesavers/v13/ZXuie1UftKKabUQMgxAal_lrFgpbuNvB.ttf"
+    "700": "http://fonts.gstatic.com/s/lifesavers/v16/ZXu_e1UftKKabUQMgxAal8HXOS5Tk8fIpPRW.ttf",
+    "800": "http://fonts.gstatic.com/s/lifesavers/v16/ZXu_e1UftKKabUQMgxAal8HLOi5Tk8fIpPRW.ttf",
+    "regular": "http://fonts.gstatic.com/s/lifesavers/v16/ZXuie1UftKKabUQMgxAal_lrFgpbuNvB.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

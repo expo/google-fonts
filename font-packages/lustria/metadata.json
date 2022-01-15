@@ -2,9 +2,9 @@
   "family": "Lustria",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v8",
-  "lastModified": "2020-07-23",
-  "files": { "regular": "http://fonts.gstatic.com/s/lustria/v8/9oRONYodvDEyjuhOrCg5MtPyAcg.ttf" },
+  "version": "v11",
+  "lastModified": "2022-01-13",
+  "files": { "regular": "http://fonts.gstatic.com/s/lustria/v11/9oRONYodvDEyjuhOrCg5MtPyAcg.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

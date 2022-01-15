@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const NunitoSans_200ExtraLight: number;
 export const NunitoSans_200ExtraLight_Italic: number;
 export const NunitoSans_300Light: number;

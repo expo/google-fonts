@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const BioRhymeExpanded_200ExtraLight: number;
 export const BioRhymeExpanded_300Light: number;
 export const BioRhymeExpanded_400Regular: number;

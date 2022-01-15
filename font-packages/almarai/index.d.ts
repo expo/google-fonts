@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Almarai_300Light: number;
 export const Almarai_400Regular: number;
 export const Almarai_700Bold: number;

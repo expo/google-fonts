@@ -5,12 +5,12 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const ArchivoNarrow_400Regular: number;
-export const ArchivoNarrow_400Regular_Italic: number;
 export const ArchivoNarrow_500Medium: number;
-export const ArchivoNarrow_500Medium_Italic: number;
 export const ArchivoNarrow_600SemiBold: number;
-export const ArchivoNarrow_600SemiBold_Italic: number;
 export const ArchivoNarrow_700Bold: number;
+export const ArchivoNarrow_400Regular_Italic: number;
+export const ArchivoNarrow_500Medium_Italic: number;
+export const ArchivoNarrow_600SemiBold_Italic: number;
 export const ArchivoNarrow_700Bold_Italic: number;

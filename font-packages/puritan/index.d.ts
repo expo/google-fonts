@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Puritan_400Regular: number;
 export const Puritan_400Regular_Italic: number;
 export const Puritan_700Bold: number;

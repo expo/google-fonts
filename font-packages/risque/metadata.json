@@ -2,9 +2,9 @@
   "family": "Risque",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/risque/v10/VdGfAZUfHosahXxoCUYVBJ-T5g.ttf" },
+  "version": "v18",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/risque/v18/VdGfAZUfHosahXxoCUYVBJ-T5g.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

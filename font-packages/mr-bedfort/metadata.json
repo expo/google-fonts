@@ -2,10 +2,10 @@
   "family": "Mr Bedfort",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2021-03-19",
+  "version": "v19",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/mrbedfort/v11/MQpR-WCtNZSWAdTMwBicliq0XZe_Iy8.ttf"
+    "regular": "http://fonts.gstatic.com/s/mrbedfort/v19/MQpR-WCtNZSWAdTMwBicliq0XZe_Iy8.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

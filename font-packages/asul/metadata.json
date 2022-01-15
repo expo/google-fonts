@@ -2,11 +2,11 @@
   "family": "Asul",
   "variants": ["regular", "700"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
+  "version": "v17",
+  "lastModified": "2022-01-11",
   "files": {
-    "700": "http://fonts.gstatic.com/s/asul/v12/VuJxdNjKxYr40U8qeKbXOIFneRo.ttf",
-    "regular": "http://fonts.gstatic.com/s/asul/v12/VuJ-dNjKxYr46fMFXK78JIg.ttf"
+    "700": "http://fonts.gstatic.com/s/asul/v17/VuJxdNjKxYr40U8qeKbXOIFneRo.ttf",
+    "regular": "http://fonts.gstatic.com/s/asul/v17/VuJ-dNjKxYr46fMFXK78JIg.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

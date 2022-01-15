@@ -5,5 +5,8 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const ReemKufi_400Regular: number;
+export const ReemKufi_500Medium: number;
+export const ReemKufi_600SemiBold: number;
+export const ReemKufi_700Bold: number;

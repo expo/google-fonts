@@ -2,10 +2,10 @@
   "family": "Galdeano",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
+  "version": "v20",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/galdeano/v12/uU9MCBoQ4YOqOW1boDPx8PCOg0uX.ttf"
+    "regular": "http://fonts.gstatic.com/s/galdeano/v20/uU9MCBoQ4YOqOW1boDPx8PCOg0uX.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

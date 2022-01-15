@@ -5,5 +5,8 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const Nokora_100Thin = require('./Nokora_100Thin.ttf');
+export const Nokora_300Light = require('./Nokora_300Light.ttf');
 export const Nokora_400Regular = require('./Nokora_400Regular.ttf');
 export const Nokora_700Bold = require('./Nokora_700Bold.ttf');
+export const Nokora_900Black = require('./Nokora_900Black.ttf');

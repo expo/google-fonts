@@ -6,10 +6,10 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const ExpletusSans_400Regular = require('./ExpletusSans_400Regular.ttf');
-export const ExpletusSans_400Regular_Italic = require('./ExpletusSans_400Regular_Italic.ttf');
 export const ExpletusSans_500Medium = require('./ExpletusSans_500Medium.ttf');
-export const ExpletusSans_500Medium_Italic = require('./ExpletusSans_500Medium_Italic.ttf');
 export const ExpletusSans_600SemiBold = require('./ExpletusSans_600SemiBold.ttf');
-export const ExpletusSans_600SemiBold_Italic = require('./ExpletusSans_600SemiBold_Italic.ttf');
 export const ExpletusSans_700Bold = require('./ExpletusSans_700Bold.ttf');
+export const ExpletusSans_400Regular_Italic = require('./ExpletusSans_400Regular_Italic.ttf');
+export const ExpletusSans_500Medium_Italic = require('./ExpletusSans_500Medium_Italic.ttf');
+export const ExpletusSans_600SemiBold_Italic = require('./ExpletusSans_600SemiBold_Italic.ttf');
 export const ExpletusSans_700Bold_Italic = require('./ExpletusSans_700Bold_Italic.ttf');

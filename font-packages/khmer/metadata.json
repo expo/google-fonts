@@ -2,9 +2,9 @@
   "family": "Khmer",
   "variants": ["regular"],
   "subsets": ["khmer"],
-  "version": "v15",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/khmer/v15/MjQImit_vPPwpF-BpN2EeYmD.ttf" },
+  "version": "v23",
+  "lastModified": "2022-01-11",
+  "files": { "regular": "http://fonts.gstatic.com/s/khmer/v23/MjQImit_vPPwpF-BpN2EeYmD.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

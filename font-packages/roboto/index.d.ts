@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Roboto_100Thin: number;
 export const Roboto_100Thin_Italic: number;
 export const Roboto_300Light: number;

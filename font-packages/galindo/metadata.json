@@ -2,9 +2,9 @@
   "family": "Galindo",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/galindo/v10/HI_KiYMeLqVKqwyuQ5HiRp-dhpQ.ttf" },
+  "version": "v18",
+  "lastModified": "2022-01-05",
+  "files": { "regular": "http://fonts.gstatic.com/s/galindo/v18/HI_KiYMeLqVKqwyuQ5HiRp-dhpQ.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

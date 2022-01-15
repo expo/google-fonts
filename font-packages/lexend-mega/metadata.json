@@ -1,11 +1,19 @@
 {
   "family": "Lexend Mega",
-  "variants": ["regular"],
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v10",
-  "lastModified": "2021-03-24",
+  "version": "v20",
+  "lastModified": "2021-12-17",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/lexendmega/v10/qFdA35aBi5JtHD41zSTFEv7K6BsAikI7.ttf"
+    "100": "http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDL8fivveyiq9EqQw.ttf",
+    "200": "http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLcfmvveyiq9EqQw.ttf",
+    "300": "http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLr_mvveyiq9EqQw.ttf",
+    "500": "http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLw_mvveyiq9EqQw.ttf",
+    "600": "http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLL_6vveyiq9EqQw.ttf",
+    "700": "http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLFv6vveyiq9EqQw.ttf",
+    "800": "http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLcf6vveyiq9EqQw.ttf",
+    "900": "http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLWP6vveyiq9EqQw.ttf",
+    "regular": "http://fonts.gstatic.com/s/lexendmega/v20/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDL8fmvveyiq9EqQw.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

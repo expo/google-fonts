@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Truculenta_100Thin: number;
 export const Truculenta_200ExtraLight: number;
 export const Truculenta_300Light: number;

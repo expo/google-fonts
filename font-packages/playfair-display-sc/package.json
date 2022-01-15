@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/playfair-display-sc",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Use the Playfair Display SC font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",

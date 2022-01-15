@@ -2,10 +2,10 @@
   "family": "Miss Fajardose",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
+  "version": "v20",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/missfajardose/v12/E21-_dn5gvrawDdPFVl-N0Ajb8qvWPaJq4no.ttf"
+    "regular": "http://fonts.gstatic.com/s/missfajardose/v20/E21-_dn5gvrawDdPFVl-N0Ajb8qvWPaJq4no.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

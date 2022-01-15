@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Cinzel_400Regular: number;
 export const Cinzel_500Medium: number;
 export const Cinzel_600SemiBold: number;

@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<p align="center">Use any of the 1052 fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
+<p align="center">Use any of the 1358 fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
 
 <p align="center">
   <a aria-label="npm version" href="https://www.npmjs.com/org/expo-google-fonts" target="_blank">
@@ -29,7 +29,7 @@
 # expo-google-fonts
 
 The `@expo-google-fonts` packages for Expo allow you to easily use 
-any of 1052 fonts (and their variants) from 
+any of 1358 fonts (and their variants) from 
 [fonts.google.com](https://fonts.google.com) in your Expo app.
 
 These packages and all these fonts work across web, iOS, and Android and 
@@ -100,7 +100,7 @@ You can browse all available Google Fonts on [fonts.google.com](https://fonts.go
 let you browse and search through all of the available fonts and show you the appropriate
 `import` statements you'll need so you can copy & paste into your own code.
 
-Here are a few examples of the 3483 variants of 1052 fonts available:
+Here are a few examples of the 4748 variants of 1358 fonts available:
 
 
 ||||
@@ -149,6 +149,7 @@ So, please make any changes you want to make to the [generator](https://github.c
 
 - Charlie Cheever ([@ccheever](https://github.com/ccheever)) - Expo
 - Leandro Favre ([@AtilaDev](https://github.com/AtilaDev)) - AtilaDev
+- Cedric van Putten ([@byCedric](https://github.com/byCedric)) - Expo
 
 ## 🔗 Links
 

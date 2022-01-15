@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Manjari_100Thin: number;
 export const Manjari_400Regular: number;
 export const Manjari_700Bold: number;

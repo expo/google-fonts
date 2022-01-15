@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const Teko_300Light: number;
 export const Teko_400Regular: number;
 export const Teko_500Medium: number;

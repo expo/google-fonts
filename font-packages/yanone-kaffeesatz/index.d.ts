@@ -5,7 +5,7 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const YanoneKaffeesatz_200ExtraLight: number;
 export const YanoneKaffeesatz_300Light: number;
 export const YanoneKaffeesatz_400Regular: number;

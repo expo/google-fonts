@@ -5,6 +5,6 @@
 
 export { useFonts } from './useFonts';
 
-export const __metdata__: Any;
+export const __metadata__: Any;
 export const AmaticSC_400Regular: number;
 export const AmaticSC_700Bold: number;

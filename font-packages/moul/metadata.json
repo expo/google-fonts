@@ -1,10 +1,10 @@
 {
   "family": "Moul",
   "variants": ["regular"],
-  "subsets": ["khmer"],
-  "version": "v14",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/moul/v14/nuF2D__FSo_3E-RYiJCy-00.ttf" },
+  "subsets": ["khmer", "latin"],
+  "version": "v23",
+  "lastModified": "2021-12-17",
+  "files": { "regular": "http://fonts.gstatic.com/s/moul/v23/nuF2D__FSo_3E-RYiJCy-00.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

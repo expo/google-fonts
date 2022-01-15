@@ -2,10 +2,10 @@
   "family": "Mr De Haviland",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-07-23",
+  "version": "v12",
+  "lastModified": "2022-01-13",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/mrdehaviland/v9/OpNVnooIhJj96FdB73296ksbOj3C4ULVNTlB.ttf"
+    "regular": "http://fonts.gstatic.com/s/mrdehaviland/v12/OpNVnooIhJj96FdB73296ksbOj3C4ULVNTlB.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

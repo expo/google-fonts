@@ -5,11 +5,15 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const Manuale_300Light = require('./Manuale_300Light.ttf');
 export const Manuale_400Regular = require('./Manuale_400Regular.ttf');
 export const Manuale_500Medium = require('./Manuale_500Medium.ttf');
 export const Manuale_600SemiBold = require('./Manuale_600SemiBold.ttf');
 export const Manuale_700Bold = require('./Manuale_700Bold.ttf');
+export const Manuale_800ExtraBold = require('./Manuale_800ExtraBold.ttf');
+export const Manuale_300Light_Italic = require('./Manuale_300Light_Italic.ttf');
 export const Manuale_400Regular_Italic = require('./Manuale_400Regular_Italic.ttf');
 export const Manuale_500Medium_Italic = require('./Manuale_500Medium_Italic.ttf');
 export const Manuale_600SemiBold_Italic = require('./Manuale_600SemiBold_Italic.ttf');
 export const Manuale_700Bold_Italic = require('./Manuale_700Bold_Italic.ttf');
+export const Manuale_800ExtraBold_Italic = require('./Manuale_800ExtraBold_Italic.ttf');

@@ -2,10 +2,10 @@
   "family": "Zhi Mang Xing",
   "variants": ["regular"],
   "subsets": ["chinese-simplified", "latin"],
-  "version": "v7",
-  "lastModified": "2021-03-19",
+  "version": "v15",
+  "lastModified": "2022-01-05",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/zhimangxing/v7/f0Xw0ey79sErYFtWQ9a2rq-g0actfektIJ0.ttf"
+    "regular": "http://fonts.gstatic.com/s/zhimangxing/v15/f0Xw0ey79sErYFtWQ9a2rq-g0actfektIJ0.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"
