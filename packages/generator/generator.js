@@ -724,10 +724,16 @@ async function generateDevPackage(fontDirectory) {
   code += ReexportHook;
   dts += ReexportHookDefinition;
 
+  function validateFontUrlUsesHttps(fontUrl) {
+    const url = new URL(fontUrl);
+    if (url.protocol === 'http:') url.protocol = 'https:';
+    return url.toString();
+  }
+
   for (let webfont of fontDirectory.items) {
     for (let variantKey of webfont.variants) {
       let v = varNameForFontVariant(webfont, variantKey);
-      let ttfUrl = webfont.files[variantKey];
+      let ttfUrl = validateFontUrlUsesHttps(webfont.files[variantKey]);
       code += `export const ${v} = ${JSON.stringify(ttfUrl)};\n`;
       dts += `export const ${v}: string;\n`;
     }
