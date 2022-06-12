@@ -90,7 +90,7 @@ Each individual font family package README includes a complete example of using 
 
 You can browse all available Google Fonts on [fonts.google.com](https://fonts.google.com).
 
-[directory.now.sh](https://directory.now.sh/) is a directory / search engine that will 
+[directory.vercel.app](https://directory.vercel.app/) is a directory / search engine that will 
 let you browse and search through all of the available fonts and show you the appropriate
 `import` statements you'll need so you can copy & paste into your own code.
 
