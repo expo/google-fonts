@@ -770,7 +770,7 @@ you can important any font variant from any font family from \`@expo-google-font
 #### Install the package
 
 \`\`\`js
-expo install @expo-google-fonts/dev expo-font expo-app-loading
+expo install @expo-google-fonts/dev expo-font expo-splash-screen
 \`\`\`
 
 #### In your app
@@ -853,7 +853,7 @@ expo install @expo-google-fonts/inter expo-font
 import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
+import * as SplashScreen from "expo-splash-screen"
 import {
   useFonts,
   Inter_900Black,
@@ -863,9 +863,15 @@ export default () => {
   let [fontsLoaded] = useFonts({
     Inter_900Black,
   });
+  
+  useEffect(() => {
+    !fontsLoaded
+      ? SplashScreen.preventAutoHideAsync()
+      : SplashScreen.hideAsync()
+  }, [fontsLoaded])
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
