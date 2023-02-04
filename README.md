@@ -48,35 +48,41 @@ expo install @expo-google-fonts/inter expo-font
 #### In your app
 
 ```js
-import React, { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Inter_900Black,
-} from '@expo-google-fonts/inter';
+import { Text, View } from 'react-native';
+import * as SplashScreen from 'expo-splash-screen';
 
-export default () => {
-  let [fontsLoaded] = useFonts({
-    Inter_900Black,
+import { useFonts, Inter_500Medium } from '@expo-google-fonts/inter';
+
+// Prevent hiding the splash screen
+SplashScreen.preventAutoHideAsync();
+
+export default function App() {
+  // Load the font `Inter_500Medium`
+  const [fontsLoaded] = useFonts({
+    Inter_500Medium,
   });
 
+  useEffect(() => {
+    if (fontsLoaded) {
+      // Hide the splash screen after the fonts have loaded and the
+      // UI is ready.
+      SplashScreen.hideAsync();
+    }
+  }, [fontsLoaded]);
+
+  // Prevent rendering until the font has loaded
   if (!fontsLoaded) {
-    return <AppLoading />;
-  } else {
-    return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-
-        <Text style={{ fontFamily: 'Inter_900Black' }}>
-          Inter Black
-        </Text>
-
-      </View>
-    );
+    return null;
   }
-};
 
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text style={{ fontFamily: 'Inter_500Medium' }}>Inter Black</Text>
+    </View>
+  );
+}
 ```
 
 
