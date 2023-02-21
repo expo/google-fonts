@@ -1,0 +1,20 @@
+{
+  "family": "Noto Serif Kannada",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["kannada", "latin", "latin-ext"],
+  "version": "v21",
+  "lastModified": "2022-09-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notoserifkannada/v21/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgcYCceRJ71svgcI.ttf",
+    "200": "http://fonts.gstatic.com/s/notoserifkannada/v21/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgUYDceRJ71svgcI.ttf",
+    "300": "http://fonts.gstatic.com/s/notoserifkannada/v21/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgZgDceRJ71svgcI.ttf",
+    "500": "http://fonts.gstatic.com/s/notoserifkannada/v21/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgfQDceRJ71svgcI.ttf",
+    "600": "http://fonts.gstatic.com/s/notoserifkannada/v21/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgRgEceRJ71svgcI.ttf",
+    "700": "http://fonts.gstatic.com/s/notoserifkannada/v21/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgSEEceRJ71svgcI.ttf",
+    "800": "http://fonts.gstatic.com/s/notoserifkannada/v21/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgUYEceRJ71svgcI.ttf",
+    "900": "http://fonts.gstatic.com/s/notoserifkannada/v21/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgW8EceRJ71svgcI.ttf",
+    "regular": "http://fonts.gstatic.com/s/notoserifkannada/v21/v6-8GZHLJFKIhClqUYqXDiWqpxQxWSPoW6bz-l4hGHiNgcYDceRJ71svgcI.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

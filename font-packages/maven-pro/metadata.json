@@ -2,15 +2,15 @@
   "family": "Maven Pro",
   "variants": ["regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v25",
-  "lastModified": "2021-11-04",
+  "version": "v32",
+  "lastModified": "2022-09-22",
   "files": {
-    "500": "http://fonts.gstatic.com/s/mavenpro/v25/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8Rf25nCpozp5GvU.ttf",
-    "600": "http://fonts.gstatic.com/s/mavenpro/v25/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8fvx5nCpozp5GvU.ttf",
-    "700": "http://fonts.gstatic.com/s/mavenpro/v25/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8cLx5nCpozp5GvU.ttf",
-    "800": "http://fonts.gstatic.com/s/mavenpro/v25/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8aXx5nCpozp5GvU.ttf",
-    "900": "http://fonts.gstatic.com/s/mavenpro/v25/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8Yzx5nCpozp5GvU.ttf",
-    "regular": "http://fonts.gstatic.com/s/mavenpro/v25/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8SX25nCpozp5GvU.ttf"
+    "500": "http://fonts.gstatic.com/s/mavenpro/v32/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8Rf25nCpozp5GvU.ttf",
+    "600": "http://fonts.gstatic.com/s/mavenpro/v32/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8fvx5nCpozp5GvU.ttf",
+    "700": "http://fonts.gstatic.com/s/mavenpro/v32/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8cLx5nCpozp5GvU.ttf",
+    "800": "http://fonts.gstatic.com/s/mavenpro/v32/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8aXx5nCpozp5GvU.ttf",
+    "900": "http://fonts.gstatic.com/s/mavenpro/v32/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8Yzx5nCpozp5GvU.ttf",
+    "regular": "http://fonts.gstatic.com/s/mavenpro/v32/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8SX25nCpozp5GvU.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

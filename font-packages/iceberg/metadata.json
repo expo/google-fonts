@@ -2,9 +2,9 @@
   "family": "Iceberg",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v18",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/iceberg/v18/8QIJdijAiM7o-qnZuIgOq7jkAOw.ttf" },
+  "version": "v20",
+  "lastModified": "2022-04-26",
+  "files": { "regular": "http://fonts.gstatic.com/s/iceberg/v20/8QIJdijAiM7o-qnZuIgOq7jkAOw.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

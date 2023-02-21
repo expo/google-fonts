@@ -6,5 +6,10 @@
 export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
+export const Merienda_300Light: number;
 export const Merienda_400Regular: number;
+export const Merienda_500Medium: number;
+export const Merienda_600SemiBold: number;
 export const Merienda_700Bold: number;
+export const Merienda_800ExtraBold: number;
+export const Merienda_900Black: number;

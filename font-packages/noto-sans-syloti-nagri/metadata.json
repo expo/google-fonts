@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Syloti Nagri",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "syloti-nagri"],
+  "version": "v20",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanssylotinagri/v20/uU9eCAQZ75uhfF9UoWDRiY3q7Sf_VFV3m4dGFVfxN87gsj0.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

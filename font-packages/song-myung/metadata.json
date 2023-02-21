@@ -2,10 +2,10 @@
   "family": "Song Myung",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v18",
-  "lastModified": "2022-01-11",
+  "version": "v20",
+  "lastModified": "2022-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/songmyung/v18/1cX2aUDWAJH5-EIC7DIhr1GqhcitzeM.ttf"
+    "regular": "http://fonts.gstatic.com/s/songmyung/v20/1cX2aUDWAJH5-EIC7DIhr1GqhcitzeM.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

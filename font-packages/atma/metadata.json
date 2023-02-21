@@ -2,14 +2,14 @@
   "family": "Atma",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["bengali", "latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2022-01-11",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "300": "http://fonts.gstatic.com/s/atma/v13/uK_z4rqWc-Eoo8JzKjc9PvedRkM.ttf",
-    "500": "http://fonts.gstatic.com/s/atma/v13/uK_z4rqWc-Eoo5pyKjc9PvedRkM.ttf",
-    "600": "http://fonts.gstatic.com/s/atma/v13/uK_z4rqWc-Eoo7Z1Kjc9PvedRkM.ttf",
-    "700": "http://fonts.gstatic.com/s/atma/v13/uK_z4rqWc-Eoo9J0Kjc9PvedRkM.ttf",
-    "regular": "http://fonts.gstatic.com/s/atma/v13/uK_84rqWc-Eom25bDj8WIv4.ttf"
+    "300": "http://fonts.gstatic.com/s/atma/v15/uK_z4rqWc-Eoo8JzKjc9PvedRkM.ttf",
+    "500": "http://fonts.gstatic.com/s/atma/v15/uK_z4rqWc-Eoo5pyKjc9PvedRkM.ttf",
+    "600": "http://fonts.gstatic.com/s/atma/v15/uK_z4rqWc-Eoo7Z1Kjc9PvedRkM.ttf",
+    "700": "http://fonts.gstatic.com/s/atma/v15/uK_z4rqWc-Eoo9J0Kjc9PvedRkM.ttf",
+    "regular": "http://fonts.gstatic.com/s/atma/v15/uK_84rqWc-Eom25bDj8WIv4.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

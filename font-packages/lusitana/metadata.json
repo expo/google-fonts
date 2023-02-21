@@ -2,11 +2,11 @@
   "family": "Lusitana",
   "variants": ["regular", "700"],
   "subsets": ["latin"],
-  "version": "v8",
-  "lastModified": "2020-09-02",
+  "version": "v13",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/lusitana/v8/CSR74z9ShvucWzsMKyDmaccqYtd2vfwk.ttf",
-    "regular": "http://fonts.gstatic.com/s/lusitana/v8/CSR84z9ShvucWzsMKxhaRuMiSct_.ttf"
+    "700": "http://fonts.gstatic.com/s/lusitana/v13/CSR74z9ShvucWzsMKyDmaccqYtd2vfwk.ttf",
+    "regular": "http://fonts.gstatic.com/s/lusitana/v13/CSR84z9ShvucWzsMKxhaRuMiSct_.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

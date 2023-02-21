@@ -1,0 +1,10 @@
+{
+  "family": "Gloock",
+  "variants": ["regular"],
+  "subsets": ["cyrillic-ext", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2023-02-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/gloock/v1/Iurb6YFw84WUY4N5jxylBrdRjQ.ttf" },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

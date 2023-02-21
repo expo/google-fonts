@@ -1,0 +1,12 @@
+{
+  "family": "Sassy Frass",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/sassyfrass/v5/LhWhMVrGOe0FLb97BjhsE99dGNWQg_am.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

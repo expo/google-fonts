@@ -2,9 +2,9 @@
   "family": "Alike",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v18",
-  "lastModified": "2022-01-13",
-  "files": { "regular": "http://fonts.gstatic.com/s/alike/v18/HI_EiYEYI6BIoEjBSZXAQ4-d.ttf" },
+  "version": "v20",
+  "lastModified": "2022-04-20",
+  "files": { "regular": "http://fonts.gstatic.com/s/alike/v20/HI_EiYEYI6BIoEjBSZXAQ4-d.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

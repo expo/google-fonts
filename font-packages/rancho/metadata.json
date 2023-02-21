@@ -2,9 +2,9 @@
   "family": "Rancho",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/rancho/v11/46kulbzmXjLaqZRlbWXgd0RY1g.ttf" },
+  "version": "v17",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/rancho/v17/46kulbzmXjLaqZRlbWXgd0RY1g.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

@@ -2,11 +2,11 @@
   "family": "ZCOOL QingKe HuangYou",
   "variants": ["regular"],
   "subsets": ["chinese-simplified", "latin"],
-  "version": "v11",
-  "lastModified": "2022-01-13",
+  "version": "v15",
+  "lastModified": "2022-11-09",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/zcoolqingkehuangyou/v11/2Eb5L_R5IXJEWhD3AOhSvFC554MOOahI4mRIi_28c8bHWA.ttf"
+    "regular": "http://fonts.gstatic.com/s/zcoolqingkehuangyou/v15/2Eb5L_R5IXJEWhD3AOhSvFC554MOOahI4mRIi_28c8bHWA.ttf"
   },
-  "category": "display",
+  "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

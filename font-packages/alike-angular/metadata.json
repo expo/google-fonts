@@ -2,10 +2,10 @@
   "family": "Alike Angular",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v18",
-  "lastModified": "2022-01-13",
+  "version": "v20",
+  "lastModified": "2022-04-20",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/alikeangular/v18/3qTrojWunjGQtEBlIcwMbSoI3kM6bB7FKjE.ttf"
+    "regular": "http://fonts.gstatic.com/s/alikeangular/v20/3qTrojWunjGQtEBlIcwMbSoI3kM6bB7FKjE.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

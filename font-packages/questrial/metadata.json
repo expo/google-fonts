@@ -2,10 +2,10 @@
   "family": "Questrial",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v13",
-  "lastModified": "2021-03-24",
+  "version": "v18",
+  "lastModified": "2023-01-06",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/questrial/v13/QdVUSTchPBm7nuUeVf7EuStkm20oJA.ttf"
+    "regular": "http://fonts.gstatic.com/s/questrial/v18/QdVUSTchPBm7nuUeVf7EuStkm20oJA.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

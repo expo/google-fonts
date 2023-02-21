@@ -1,0 +1,10 @@
+{
+  "family": "Solitreo",
+  "variants": ["regular"],
+  "subsets": ["hebrew", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2023-01-18",
+  "files": { "regular": "http://fonts.gstatic.com/s/solitreo/v1/r05YGLlS5a9KYsyNO8upyDYtStiJ.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

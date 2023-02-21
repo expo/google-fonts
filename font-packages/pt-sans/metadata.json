@@ -2,13 +2,13 @@
   "family": "PT Sans",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2020-09-15",
+  "version": "v17",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/ptsans/v12/jizfRExUiTo99u79B_mh4OmnLD0Z4zM.ttf",
-    "regular": "http://fonts.gstatic.com/s/ptsans/v12/jizaRExUiTo99u79P0WOxOGMMDQ.ttf",
-    "italic": "http://fonts.gstatic.com/s/ptsans/v12/jizYRExUiTo99u79D0eEwMOJIDQA-g.ttf",
-    "700italic": "http://fonts.gstatic.com/s/ptsans/v12/jizdRExUiTo99u79D0e8fOytKB8c8zMrig.ttf"
+    "700": "http://fonts.gstatic.com/s/ptsans/v17/jizfRExUiTo99u79B_mh4OmnLD0Z4zM.ttf",
+    "regular": "http://fonts.gstatic.com/s/ptsans/v17/jizaRExUiTo99u79P0WOxOGMMDQ.ttf",
+    "italic": "http://fonts.gstatic.com/s/ptsans/v17/jizYRExUiTo99u79D0eEwMOJIDQA-g.ttf",
+    "700italic": "http://fonts.gstatic.com/s/ptsans/v17/jizdRExUiTo99u79D0e8fOytKB8c8zMrig.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

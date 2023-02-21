@@ -11,9 +11,10 @@ This package lets you use the [**Brawler**](https://fonts.google.com/specimen/Br
 
 ![Brawler](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [2 styles](#-gallery).
 
 - `Brawler_400Regular`
+- `Brawler_700Bold`
 
 ## Usage
 
@@ -28,11 +29,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, Brawler_400Regular } from '@expo-google-fonts/brawler';
+import { useFonts, Brawler_400Regular, Brawler_700Bold } from '@expo-google-fonts/brawler';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Brawler_400Regular,
+    Brawler_700Bold,
   });
 
   let fontSize = 24;
@@ -52,6 +54,16 @@ export default () => {
           }}>
           Brawler Regular
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Brawler_700Bold',
+          }}>
+          Brawler Bold
+        </Text>
       </View>
     );
   }
@@ -64,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Brawler_400Regular](./Brawler_400Regular.ttf.png)||||
+|![Brawler_400Regular](./Brawler_400Regular.ttf.png)|![Brawler_700Bold](./Brawler_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

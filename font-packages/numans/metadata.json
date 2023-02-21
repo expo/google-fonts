@@ -2,9 +2,9 @@
   "family": "Numans",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/numans/v13/SlGRmQmGupYAfH8IYRggiHVqaQ.ttf" },
+  "version": "v15",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/numans/v15/SlGRmQmGupYAfH8IYRggiHVqaQ.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

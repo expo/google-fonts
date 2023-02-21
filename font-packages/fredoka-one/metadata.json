@@ -2,10 +2,10 @@
   "family": "Fredoka One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v8",
-  "lastModified": "2020-09-02",
+  "version": "v13",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/fredokaone/v8/k3kUo8kEI-tA1RRcTZGmTmHBA6aF8Bf_.ttf"
+    "regular": "http://fonts.gstatic.com/s/fredokaone/v13/k3kUo8kEI-tA1RRcTZGmTmHBA6aF8Bf_.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

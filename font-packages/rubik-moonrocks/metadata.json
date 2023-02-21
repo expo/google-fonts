@@ -1,0 +1,12 @@
+{
+  "family": "Rubik Moonrocks",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/rubikmoonrocks/v2/845ANMAmAI2VUZMLu_W0M7HqlDHnXcD7JGy1Sw.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

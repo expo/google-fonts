@@ -2,10 +2,10 @@
   "family": "Shadows Into Light",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/shadowsintolight/v10/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQDcsr4xzSMYA.ttf"
+    "regular": "http://fonts.gstatic.com/s/shadowsintolight/v15/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQDcsr4xzSMYA.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

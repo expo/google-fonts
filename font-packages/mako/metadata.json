@@ -2,9 +2,9 @@
   "family": "Mako",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/mako/v14/H4coBX6Mmc_Z0ST09g478Lo.ttf" },
+  "version": "v18",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/mako/v18/H4coBX6Mmc_Z0ST09g478Lo.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

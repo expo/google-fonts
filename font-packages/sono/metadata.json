@@ -1,0 +1,18 @@
+{
+  "family": "Sono",
+  "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2022-11-09",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/sono/v1/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVNkWdEnR4qYeB4Q.ttf",
+    "300": "http://fonts.gstatic.com/s/sono/v1/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxV6EWdEnR4qYeB4Q.ttf",
+    "500": "http://fonts.gstatic.com/s/sono/v1/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVhEWdEnR4qYeB4Q.ttf",
+    "600": "http://fonts.gstatic.com/s/sono/v1/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVaEKdEnR4qYeB4Q.ttf",
+    "700": "http://fonts.gstatic.com/s/sono/v1/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVUUKdEnR4qYeB4Q.ttf",
+    "800": "http://fonts.gstatic.com/s/sono/v1/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVNkKdEnR4qYeB4Q.ttf",
+    "regular": "http://fonts.gstatic.com/s/sono/v1/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVtkWdEnR4qYeB4Q.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

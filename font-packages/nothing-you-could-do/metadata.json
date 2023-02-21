@@ -2,10 +2,10 @@
   "family": "Nothing You Could Do",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/nothingyoucoulddo/v10/oY1B8fbBpaP5OX3DtrRYf_Q2BPB1SnfZb0OJl1ol2Ymo.ttf"
+    "regular": "http://fonts.gstatic.com/s/nothingyoucoulddo/v15/oY1B8fbBpaP5OX3DtrRYf_Q2BPB1SnfZb0OJl1ol2Ymo.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

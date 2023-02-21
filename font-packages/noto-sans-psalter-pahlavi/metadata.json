@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Psalter Pahlavi",
+  "variants": ["regular"],
+  "subsets": ["psalter-pahlavi"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanspsalterpahlavi/v15/rP2Vp3K65FkAtHfwd-eISGznYihzggmsicPfud3w1G3KsUQBct4.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

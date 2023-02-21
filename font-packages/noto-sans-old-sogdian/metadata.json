@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Old Sogdian",
+  "variants": ["regular"],
+  "subsets": ["old-sogdian"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansoldsogdian/v15/3JnjSCH90Gmq2mrzckOBBhFhdrMst48aURt7neIqM-9uyg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

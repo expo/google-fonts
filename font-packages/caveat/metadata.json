@@ -2,13 +2,13 @@
   "family": "Caveat",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2021-01-30",
+  "version": "v17",
+  "lastModified": "2022-09-22",
   "files": {
-    "500": "http://fonts.gstatic.com/s/caveat/v10/WnznHAc5bAfYB2QRah7pcpNvOx-pjcB9SIKjYBxPigs.ttf",
-    "600": "http://fonts.gstatic.com/s/caveat/v10/WnznHAc5bAfYB2QRah7pcpNvOx-pjSx6SIKjYBxPigs.ttf",
-    "700": "http://fonts.gstatic.com/s/caveat/v10/WnznHAc5bAfYB2QRah7pcpNvOx-pjRV6SIKjYBxPigs.ttf",
-    "regular": "http://fonts.gstatic.com/s/caveat/v10/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9SIKjYBxPigs.ttf"
+    "500": "http://fonts.gstatic.com/s/caveat/v17/WnznHAc5bAfYB2QRah7pcpNvOx-pjcB9SIKjYBxPigs.ttf",
+    "600": "http://fonts.gstatic.com/s/caveat/v17/WnznHAc5bAfYB2QRah7pcpNvOx-pjSx6SIKjYBxPigs.ttf",
+    "700": "http://fonts.gstatic.com/s/caveat/v17/WnznHAc5bAfYB2QRah7pcpNvOx-pjRV6SIKjYBxPigs.ttf",
+    "regular": "http://fonts.gstatic.com/s/caveat/v17/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9SIKjYBxPigs.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

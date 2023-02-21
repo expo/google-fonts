@@ -2,10 +2,10 @@
   "family": "Voltaire",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-07-23",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/voltaire/v10/1Pttg8PcRfSblAvGvQooYKVnBOif.ttf"
+    "regular": "http://fonts.gstatic.com/s/voltaire/v15/1Pttg8PcRfSblAvGvQooYKVnBOif.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

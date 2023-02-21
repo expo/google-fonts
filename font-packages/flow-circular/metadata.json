@@ -1,0 +1,12 @@
+{
+  "family": "Flow Circular",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v7",
+  "lastModified": "2023-01-06",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/flowcircular/v7/lJwB-pc4j2F-H8YKuyvfxdZ45ifpWdr2rIg.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

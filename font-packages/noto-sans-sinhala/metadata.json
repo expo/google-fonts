@@ -1,0 +1,20 @@
+{
+  "family": "Noto Sans Sinhala",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "sinhala"],
+  "version": "v26",
+  "lastModified": "2022-09-28",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notosanssinhala/v26/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwg2b5lgLpJwbQRM.ttf",
+    "200": "http://fonts.gstatic.com/s/notosanssinhala/v26/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwo2a5lgLpJwbQRM.ttf",
+    "300": "http://fonts.gstatic.com/s/notosanssinhala/v26/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwlOa5lgLpJwbQRM.ttf",
+    "500": "http://fonts.gstatic.com/s/notosanssinhala/v26/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwj-a5lgLpJwbQRM.ttf",
+    "600": "http://fonts.gstatic.com/s/notosanssinhala/v26/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwtOd5lgLpJwbQRM.ttf",
+    "700": "http://fonts.gstatic.com/s/notosanssinhala/v26/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwuqd5lgLpJwbQRM.ttf",
+    "800": "http://fonts.gstatic.com/s/notosanssinhala/v26/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwo2d5lgLpJwbQRM.ttf",
+    "900": "http://fonts.gstatic.com/s/notosanssinhala/v26/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwqSd5lgLpJwbQRM.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosanssinhala/v26/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwg2a5lgLpJwbQRM.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

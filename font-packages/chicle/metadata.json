@@ -2,9 +2,9 @@
   "family": "Chicle",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/chicle/v19/lJwG-pw9i2dqU-BDyWKuobYSxw.ttf" },
+  "version": "v21",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/chicle/v21/lJwG-pw9i2dqU-BDyWKuobYSxw.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

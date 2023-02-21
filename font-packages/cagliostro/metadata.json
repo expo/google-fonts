@@ -2,10 +2,10 @@
   "family": "Cagliostro",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v19",
-  "lastModified": "2022-01-05",
+  "version": "v21",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/cagliostro/v19/ZgNWjP5HM73BV5amnX-TjGXEM4COoE4.ttf"
+    "regular": "http://fonts.gstatic.com/s/cagliostro/v21/ZgNWjP5HM73BV5amnX-TjGXEM4COoE4.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

@@ -1,0 +1,12 @@
+{
+  "family": "Lavishly Yours",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/lavishlyyours/v2/jizDREVIvGwH5OjiZmX9r5z_WxUY0TY7ikbI.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

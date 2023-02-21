@@ -2,11 +2,11 @@
   "family": "Radley",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2022-01-13",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/radley/v18/LYjDdGzinEIjCN19oAlEpVs3VQ.ttf",
-    "italic": "http://fonts.gstatic.com/s/radley/v18/LYjBdGzinEIjCN1NogNAh14nVcfe.ttf"
+    "regular": "http://fonts.gstatic.com/s/radley/v20/LYjDdGzinEIjCN19oAlEpVs3VQ.ttf",
+    "italic": "http://fonts.gstatic.com/s/radley/v20/LYjBdGzinEIjCN1NogNAh14nVcfe.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

@@ -2,9 +2,9 @@
   "family": "Smythe",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v21",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/smythe/v21/MwQ3bhT01--coT1BOLh_uGInjA.ttf" },
+  "version": "v23",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/smythe/v23/MwQ3bhT01--coT1BOLh_uGInjA.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

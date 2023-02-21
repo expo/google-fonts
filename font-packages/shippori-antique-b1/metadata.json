@@ -1,0 +1,12 @@
+{
+  "family": "Shippori Antique B1",
+  "variants": ["regular"],
+  "subsets": ["japanese", "latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2022-09-27",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/shipporiantiqueb1/v8/2Eb7L_JwClR7Zl_UAKZ0mUHw3oMKd40grRFCj9-5Y8Y.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

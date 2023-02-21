@@ -1,0 +1,12 @@
+{
+  "family": "Rubik Distressed",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/rubikdistressed/v1/GFDxWBdsmnqAVqjtUsZf2dcrQ2ldcWAhatVBaGM.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

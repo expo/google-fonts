@@ -2,9 +2,9 @@
   "family": "Anaheim",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-07-23",
-  "files": { "regular": "http://fonts.gstatic.com/s/anaheim/v8/8vII7w042Wp87g4G0UTUEE5eK_w.ttf" },
+  "version": "v14",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/anaheim/v14/8vII7w042Wp87g4G0UTUEE5eK_w.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Khudawadi",
+  "variants": ["regular"],
+  "subsets": ["khudawadi"],
+  "version": "v16",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanskhudawadi/v16/fdNi9t6ZsWBZ2k5ltHN73zZ5hc8HANlHIjRnVVXz9MY.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

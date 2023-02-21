@@ -1,0 +1,16 @@
+{
+  "family": "Fredoka",
+  "variants": ["300", "regular", "500", "600", "700"],
+  "subsets": ["hebrew", "latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2022-09-22",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/fredoka/v9/X7nP4b87HvSqjb_WIi2yDCRwoQ_k7367_B-i2yQag0-mac3OryLMFuOLlNldbw.ttf",
+    "500": "http://fonts.gstatic.com/s/fredoka/v9/X7nP4b87HvSqjb_WIi2yDCRwoQ_k7367_B-i2yQag0-mac3OwyLMFuOLlNldbw.ttf",
+    "600": "http://fonts.gstatic.com/s/fredoka/v9/X7nP4b87HvSqjb_WIi2yDCRwoQ_k7367_B-i2yQag0-mac3OLyXMFuOLlNldbw.ttf",
+    "700": "http://fonts.gstatic.com/s/fredoka/v9/X7nP4b87HvSqjb_WIi2yDCRwoQ_k7367_B-i2yQag0-mac3OFiXMFuOLlNldbw.ttf",
+    "regular": "http://fonts.gstatic.com/s/fredoka/v9/X7nP4b87HvSqjb_WIi2yDCRwoQ_k7367_B-i2yQag0-mac3O8SLMFuOLlNldbw.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

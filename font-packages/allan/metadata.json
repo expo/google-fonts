@@ -2,11 +2,11 @@
   "family": "Allan",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2022-01-13",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/allan/v18/ea8aadU7WuTxEu5KEPCN2WpNgEKU.ttf",
-    "regular": "http://fonts.gstatic.com/s/allan/v18/ea8XadU7WuTxEtb2P9SF8nZE.ttf"
+    "700": "http://fonts.gstatic.com/s/allan/v20/ea8aadU7WuTxEu5KEPCN2WpNgEKU.ttf",
+    "regular": "http://fonts.gstatic.com/s/allan/v20/ea8XadU7WuTxEtb2P9SF8nZE.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

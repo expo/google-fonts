@@ -1,0 +1,18 @@
+{
+  "family": "IBM Plex Sans Hebrew",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+  "subsets": ["cyrillic-ext", "hebrew", "latin", "latin-ext"],
+  "version": "v10",
+  "lastModified": "2022-11-09",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/ibmplexsanshebrew/v10/BCa4qYENg9Kw1mpLpO0bGM5lfHAAZHhDXEXB-l0VqDaM7C4.ttf",
+    "200": "http://fonts.gstatic.com/s/ibmplexsanshebrew/v10/BCa5qYENg9Kw1mpLpO0bGM5lfHAAZHhDXEVt230_hjqF9Tc2.ttf",
+    "300": "http://fonts.gstatic.com/s/ibmplexsanshebrew/v10/BCa5qYENg9Kw1mpLpO0bGM5lfHAAZHhDXEUJ2H0_hjqF9Tc2.ttf",
+    "500": "http://fonts.gstatic.com/s/ibmplexsanshebrew/v10/BCa5qYENg9Kw1mpLpO0bGM5lfHAAZHhDXEVR2X0_hjqF9Tc2.ttf",
+    "600": "http://fonts.gstatic.com/s/ibmplexsanshebrew/v10/BCa5qYENg9Kw1mpLpO0bGM5lfHAAZHhDXEV93n0_hjqF9Tc2.ttf",
+    "700": "http://fonts.gstatic.com/s/ibmplexsanshebrew/v10/BCa5qYENg9Kw1mpLpO0bGM5lfHAAZHhDXEUZ330_hjqF9Tc2.ttf",
+    "regular": "http://fonts.gstatic.com/s/ibmplexsanshebrew/v10/BCa2qYENg9Kw1mpLpO0bGM5lfHAAZHhDXH2l8Fk3rSaM.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

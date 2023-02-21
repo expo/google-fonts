@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Old Permic",
+  "variants": ["regular"],
+  "subsets": ["old-permic"],
+  "version": "v16",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansoldpermic/v16/snf1s1q1-dF8pli1TesqcbUY4Mr-ElrwKLdXgv_dKYB5.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

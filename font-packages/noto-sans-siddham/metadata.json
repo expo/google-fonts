@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Siddham",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "siddham"],
+  "version": "v17",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanssiddham/v17/OZpZg-FwqiNLe9PELUikxTWDoCCeGqndk3Ic92ZH.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

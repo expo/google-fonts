@@ -1,0 +1,15 @@
+{
+  "family": "Edu TAS Beginner",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["latin"],
+  "version": "v2",
+  "lastModified": "2023-01-06",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/edutasbeginner/v2/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_HCemkrBWRhvk02.ttf",
+    "600": "http://fonts.gstatic.com/s/edutasbeginner/v2/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_EufWkrBWRhvk02.ttf",
+    "700": "http://fonts.gstatic.com/s/edutasbeginner/v2/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_EXfWkrBWRhvk02.ttf",
+    "regular": "http://fonts.gstatic.com/s/edutasbeginner/v2/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_HwemkrBWRhvk02.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

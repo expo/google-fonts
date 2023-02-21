@@ -1,0 +1,19 @@
+{
+  "family": "STIX Two Text",
+  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "vietnamese"],
+  "version": "v10",
+  "lastModified": "2022-09-22",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/stixtwotext/v10/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5YihS2SOYWxFMN1WD.ttf",
+    "600": "http://fonts.gstatic.com/s/stixtwotext/v10/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5Yii-3iOYWxFMN1WD.ttf",
+    "700": "http://fonts.gstatic.com/s/stixtwotext/v10/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5YiiH3iOYWxFMN1WD.ttf",
+    "regular": "http://fonts.gstatic.com/s/stixtwotext/v10/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5Yihg2SOYWxFMN1WD.ttf",
+    "italic": "http://fonts.gstatic.com/s/stixtwotext/v10/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omsvbURVuMkWDmSo.ttf",
+    "500italic": "http://fonts.gstatic.com/s/stixtwotext/v10/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omvnbURVuMkWDmSo.ttf",
+    "600italic": "http://fonts.gstatic.com/s/stixtwotext/v10/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omhXcURVuMkWDmSo.ttf",
+    "700italic": "http://fonts.gstatic.com/s/stixtwotext/v10/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omizcURVuMkWDmSo.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

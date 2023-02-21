@@ -2,10 +2,10 @@
   "family": "Special Elite",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2020-09-02",
+  "version": "v18",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/specialelite/v11/XLYgIZbkc4JPUL5CVArUVL0nhncESXFtUsM.ttf"
+    "regular": "http://fonts.gstatic.com/s/specialelite/v18/XLYgIZbkc4JPUL5CVArUVL0nhncESXFtUsM.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

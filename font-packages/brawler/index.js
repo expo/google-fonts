@@ -6,3 +6,4 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const Brawler_400Regular = require('./Brawler_400Regular.ttf');
+export const Brawler_700Bold = require('./Brawler_700Bold.ttf');

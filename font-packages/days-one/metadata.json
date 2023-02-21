@@ -2,9 +2,9 @@
   "family": "Days One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/daysone/v10/mem9YaCnxnKRiYZOCLYVeLkWVNBt.ttf" },
+  "version": "v14",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/daysone/v14/mem9YaCnxnKRiYZOCLYVeLkWVNBt.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

@@ -2,10 +2,10 @@
   "family": "Pacifico",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v17",
-  "lastModified": "2020-09-10",
+  "version": "v22",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/pacifico/v17/FwZY7-Qmy14u9lezJ96A4sijpFu_.ttf"
+    "regular": "http://fonts.gstatic.com/s/pacifico/v22/FwZY7-Qmy14u9lezJ96A4sijpFu_.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

@@ -1,0 +1,13 @@
+{
+  "family": "Klee One",
+  "variants": ["regular", "600"],
+  "subsets": ["cyrillic", "greek-ext", "japanese", "latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2022-09-27",
+  "files": {
+    "600": "http://fonts.gstatic.com/s/kleeone/v7/LDI2apCLNRc6A8oT4pbYF8Osc-bGkqIw.ttf",
+    "regular": "http://fonts.gstatic.com/s/kleeone/v7/LDIxapCLNRc6A8oT4q4AOeekWPrP.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

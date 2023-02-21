@@ -2,10 +2,10 @@
   "family": "Scope One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2022-01-11",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/scopeone/v12/WBLnrEXKYFlGHrOKmGD1W0_MJMGxiQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/scopeone/v14/WBLnrEXKYFlGHrOKmGD1W0_MJMGxiQ.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

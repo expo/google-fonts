@@ -2,17 +2,17 @@
   "family": "Ibarra Real Nova",
   "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2021-03-19",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "500": "http://fonts.gstatic.com/s/ibarrarealnova/v8/sZlSdQiA-DBIDCcaWtQzL4BZHoiDundw4ATyjed3EXdS5MDtVT9TWIvS.ttf",
-    "600": "http://fonts.gstatic.com/s/ibarrarealnova/v8/sZlSdQiA-DBIDCcaWtQzL4BZHoiDundw4ATyjed3EXe-48DtVT9TWIvS.ttf",
-    "700": "http://fonts.gstatic.com/s/ibarrarealnova/v8/sZlSdQiA-DBIDCcaWtQzL4BZHoiDundw4ATyjed3EXeH48DtVT9TWIvS.ttf",
-    "regular": "http://fonts.gstatic.com/s/ibarrarealnova/v8/sZlSdQiA-DBIDCcaWtQzL4BZHoiDundw4ATyjed3EXdg5MDtVT9TWIvS.ttf",
-    "italic": "http://fonts.gstatic.com/s/ibarrarealnova/v8/sZlsdQiA-DBIDCcaWtQzL4BZHoiDkH5CH9yb5n3ZFmKopyiuXztxXZvSkTo.ttf",
-    "500italic": "http://fonts.gstatic.com/s/ibarrarealnova/v8/sZlsdQiA-DBIDCcaWtQzL4BZHoiDkH5CH9yb5n3ZFmKopxquXztxXZvSkTo.ttf",
-    "600italic": "http://fonts.gstatic.com/s/ibarrarealnova/v8/sZlsdQiA-DBIDCcaWtQzL4BZHoiDkH5CH9yb5n3ZFmKop_apXztxXZvSkTo.ttf",
-    "700italic": "http://fonts.gstatic.com/s/ibarrarealnova/v8/sZlsdQiA-DBIDCcaWtQzL4BZHoiDkH5CH9yb5n3ZFmKop8-pXztxXZvSkTo.ttf"
+    "500": "http://fonts.gstatic.com/s/ibarrarealnova/v20/sZlSdQiA-DBIDCcaWtQzL4BZHoiDundw4ATyjed3EXdS5MDtVT9TWIvS.ttf",
+    "600": "http://fonts.gstatic.com/s/ibarrarealnova/v20/sZlSdQiA-DBIDCcaWtQzL4BZHoiDundw4ATyjed3EXe-48DtVT9TWIvS.ttf",
+    "700": "http://fonts.gstatic.com/s/ibarrarealnova/v20/sZlSdQiA-DBIDCcaWtQzL4BZHoiDundw4ATyjed3EXeH48DtVT9TWIvS.ttf",
+    "regular": "http://fonts.gstatic.com/s/ibarrarealnova/v20/sZlSdQiA-DBIDCcaWtQzL4BZHoiDundw4ATyjed3EXdg5MDtVT9TWIvS.ttf",
+    "italic": "http://fonts.gstatic.com/s/ibarrarealnova/v20/sZlsdQiA-DBIDCcaWtQzL4BZHoiDkH5CH9yb5n3ZFmKopyiuXztxXZvSkTo.ttf",
+    "500italic": "http://fonts.gstatic.com/s/ibarrarealnova/v20/sZlsdQiA-DBIDCcaWtQzL4BZHoiDkH5CH9yb5n3ZFmKopxquXztxXZvSkTo.ttf",
+    "600italic": "http://fonts.gstatic.com/s/ibarrarealnova/v20/sZlsdQiA-DBIDCcaWtQzL4BZHoiDkH5CH9yb5n3ZFmKop_apXztxXZvSkTo.ttf",
+    "700italic": "http://fonts.gstatic.com/s/ibarrarealnova/v20/sZlsdQiA-DBIDCcaWtQzL4BZHoiDkH5CH9yb5n3ZFmKop8-pXztxXZvSkTo.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

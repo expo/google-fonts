@@ -2,10 +2,10 @@
   "family": "Ramabhadra",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
+  "version": "v15",
+  "lastModified": "2022-04-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/ramabhadra/v10/EYq2maBOwqRW9P1SQ83LehNGX5uWw3o.ttf"
+    "regular": "http://fonts.gstatic.com/s/ramabhadra/v15/EYq2maBOwqRW9P1SQ83LehNGX5uWw3o.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

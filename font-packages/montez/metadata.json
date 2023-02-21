@@ -2,9 +2,9 @@
   "family": "Montez",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v16",
-  "lastModified": "2022-01-13",
-  "files": { "regular": "http://fonts.gstatic.com/s/montez/v16/845ZNMk5GoGIX8lm1LDeSd-R_g.ttf" },
+  "version": "v18",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/montez/v18/845ZNMk5GoGIX8lm1LDeSd-R_g.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

@@ -2,9 +2,9 @@
   "family": "Aladin",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2022-01-13",
-  "files": { "regular": "http://fonts.gstatic.com/s/aladin/v14/ZgNSjPJFPrvJV5f16Sf4pGT2Ng.ttf" },
+  "version": "v18",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/aladin/v18/ZgNSjPJFPrvJV5f16Sf4pGT2Ng.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

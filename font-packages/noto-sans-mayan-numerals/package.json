@@ -1,0 +1,11 @@
+{
+  "name": "@expo-google-fonts/noto-sans-mayan-numerals",
+  "version": "0.2.3",
+  "description": "Use the Noto Sans Mayan Numerals font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": "https://github.com/expo/google-fonts.git",
+  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/noto-sans-mayan-numerals#readme",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT",
+  "publishConfig": { "access": "public" }
+}

@@ -2,10 +2,10 @@
   "family": "Schoolbell",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2020-07-23",
+  "version": "v18",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/schoolbell/v11/92zQtBZWOrcgoe-fgnJIVxIQ6mRqfiQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/schoolbell/v18/92zQtBZWOrcgoe-fgnJIVxIQ6mRqfiQ.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

@@ -2,10 +2,10 @@
   "family": "Tenali Ramakrishna",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v10",
-  "lastModified": "2022-01-13",
+  "version": "v12",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/tenaliramakrishna/v10/raxgHj6Yt9gAN3LLKs0BZVMo8jmwn1-8KJXqUFFvtA.ttf"
+    "regular": "http://fonts.gstatic.com/s/tenaliramakrishna/v12/raxgHj6Yt9gAN3LLKs0BZVMo8jmwn1-8KJXqUFFvtA.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

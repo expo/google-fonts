@@ -2,10 +2,10 @@
   "family": "Potta One",
   "variants": ["regular"],
   "subsets": ["japanese", "latin", "latin-ext", "vietnamese"],
-  "version": "v14",
-  "lastModified": "2022-01-05",
+  "version": "v16",
+  "lastModified": "2022-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/pottaone/v14/FeVSS05Bp6cy7xI-YfxQ3Z5nm29Gww.ttf"
+    "regular": "http://fonts.gstatic.com/s/pottaone/v16/FeVSS05Bp6cy7xI-YfxQ3Z5nm29Gww.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

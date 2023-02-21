@@ -1,0 +1,10 @@
+{
+  "family": "Yuji Mai",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2022-09-27",
+  "files": { "regular": "http://fonts.gstatic.com/s/yujimai/v5/ZgNQjPxdJ7DEHrS0gC38hmHmNpCO.ttf" },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

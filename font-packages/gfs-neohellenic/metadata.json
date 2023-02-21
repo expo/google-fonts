@@ -2,13 +2,13 @@
   "family": "GFS Neohellenic",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["greek"],
-  "version": "v23",
-  "lastModified": "2022-01-05",
+  "version": "v25",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/gfsneohellenic/v23/8QIUdiDOrfiq0b7R8O1Iw9WLcY5rkYdr644fWsRO9w.ttf",
-    "regular": "http://fonts.gstatic.com/s/gfsneohellenic/v23/8QIRdiDOrfiq0b7R8O1Iw9WLcY5TLahP46UDUw.ttf",
-    "italic": "http://fonts.gstatic.com/s/gfsneohellenic/v23/8QITdiDOrfiq0b7R8O1Iw9WLcY5jL6JLwaATU91X.ttf",
-    "700italic": "http://fonts.gstatic.com/s/gfsneohellenic/v23/8QIWdiDOrfiq0b7R8O1Iw9WLcY5jL5r37oQbeMFe985V.ttf"
+    "700": "http://fonts.gstatic.com/s/gfsneohellenic/v25/8QIUdiDOrfiq0b7R8O1Iw9WLcY5rkYdr644fWsRO9w.ttf",
+    "regular": "http://fonts.gstatic.com/s/gfsneohellenic/v25/8QIRdiDOrfiq0b7R8O1Iw9WLcY5TLahP46UDUw.ttf",
+    "italic": "http://fonts.gstatic.com/s/gfsneohellenic/v25/8QITdiDOrfiq0b7R8O1Iw9WLcY5jL6JLwaATU91X.ttf",
+    "700italic": "http://fonts.gstatic.com/s/gfsneohellenic/v25/8QIWdiDOrfiq0b7R8O1Iw9WLcY5jL5r37oQbeMFe985V.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

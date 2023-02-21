@@ -2,9 +2,9 @@
   "family": "Zeyada",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2022-01-13",
-  "files": { "regular": "http://fonts.gstatic.com/s/zeyada/v13/11hAGpPTxVPUbgZDNGatWKaZ3g.ttf" },
+  "version": "v15",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/zeyada/v15/11hAGpPTxVPUbgZDNGatWKaZ3g.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

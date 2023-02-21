@@ -2,10 +2,10 @@
   "family": "Henny Penny",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2022-01-13",
+  "version": "v17",
+  "lastModified": "2022-04-26",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/hennypenny/v15/wXKvE3UZookzsxz_kjGSfMQqt3M7tMDT.ttf"
+    "regular": "http://fonts.gstatic.com/s/hennypenny/v17/wXKvE3UZookzsxz_kjGSfMQqt3M7tMDT.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Yi",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "yi"],
+  "version": "v18",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansyi/v18/sJoD3LFXjsSdcnzn071rO3apxVDJNVgSNg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

@@ -2,14 +2,14 @@
   "family": "Podkova",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v20",
-  "lastModified": "2021-09-16",
+  "version": "v26",
+  "lastModified": "2022-09-22",
   "files": {
-    "500": "http://fonts.gstatic.com/s/podkova/v20/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWt3zcU4EoporSHH.ttf",
-    "600": "http://fonts.gstatic.com/s/podkova/v20/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWubysU4EoporSHH.ttf",
-    "700": "http://fonts.gstatic.com/s/podkova/v20/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWuiysU4EoporSHH.ttf",
-    "800": "http://fonts.gstatic.com/s/podkova/v20/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWvFysU4EoporSHH.ttf",
-    "regular": "http://fonts.gstatic.com/s/podkova/v20/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWtFzcU4EoporSHH.ttf"
+    "500": "http://fonts.gstatic.com/s/podkova/v26/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWt3zcU4EoporSHH.ttf",
+    "600": "http://fonts.gstatic.com/s/podkova/v26/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWubysU4EoporSHH.ttf",
+    "700": "http://fonts.gstatic.com/s/podkova/v26/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWuiysU4EoporSHH.ttf",
+    "800": "http://fonts.gstatic.com/s/podkova/v26/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWvFysU4EoporSHH.ttf",
+    "regular": "http://fonts.gstatic.com/s/podkova/v26/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWtFzcU4EoporSHH.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

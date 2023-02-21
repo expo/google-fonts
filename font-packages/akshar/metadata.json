@@ -1,0 +1,16 @@
+{
+  "family": "Akshar",
+  "variants": ["300", "regular", "500", "600", "700"],
+  "subsets": ["devanagari", "latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2022-09-22",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/akshar/v5/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSSgFy9CY94XsnPc.ttf",
+    "500": "http://fonts.gstatic.com/s/akshar/v5/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSUQFy9CY94XsnPc.ttf",
+    "600": "http://fonts.gstatic.com/s/akshar/v5/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSagCy9CY94XsnPc.ttf",
+    "700": "http://fonts.gstatic.com/s/akshar/v5/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSZECy9CY94XsnPc.ttf",
+    "regular": "http://fonts.gstatic.com/s/akshar/v5/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSXYFy9CY94XsnPc.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

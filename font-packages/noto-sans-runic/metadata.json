@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Runic",
+  "variants": ["regular"],
+  "subsets": ["runic"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansrunic/v15/H4c_BXWPl9DZ0Xe_nHUaus7W68WWaxpvHtgIYg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

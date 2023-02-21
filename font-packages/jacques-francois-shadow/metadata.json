@@ -2,10 +2,10 @@
   "family": "Jacques Francois Shadow",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v19",
-  "lastModified": "2022-01-05",
+  "version": "v21",
+  "lastModified": "2022-04-26",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/jacquesfrancoisshadow/v19/KR1FBtOz8PKTMk-kqdkLVrvR0ECFrB6Pin-2_q8VsHuV5ULS.ttf"
+    "regular": "http://fonts.gstatic.com/s/jacquesfrancoisshadow/v21/KR1FBtOz8PKTMk-kqdkLVrvR0ECFrB6Pin-2_q8VsHuV5ULS.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

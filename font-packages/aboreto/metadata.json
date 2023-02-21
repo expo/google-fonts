@@ -1,0 +1,10 @@
+{
+  "family": "Aboreto",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/aboreto/v2/5DCXAKLhwDDQ4N8blKTeA2yuxSY.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

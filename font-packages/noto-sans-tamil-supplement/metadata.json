@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Tamil Supplement",
+  "variants": ["regular"],
+  "subsets": ["tamil-supplement"],
+  "version": "v19",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanstamilsupplement/v19/DdTz78kEtnooLS5rXF1DaruiCd_bFp_Ph4sGcn7ax_vsAeMkeq1x.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

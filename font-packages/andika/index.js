@@ -6,3 +6,6 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const Andika_400Regular = require('./Andika_400Regular.ttf');
+export const Andika_400Regular_Italic = require('./Andika_400Regular_Italic.ttf');
+export const Andika_700Bold = require('./Andika_700Bold.ttf');
+export const Andika_700Bold_Italic = require('./Andika_700Bold_Italic.ttf');

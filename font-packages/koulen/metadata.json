@@ -2,9 +2,9 @@
   "family": "Koulen",
   "variants": ["regular"],
   "subsets": ["khmer", "latin"],
-  "version": "v23",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/koulen/v23/AMOQz46as3KIBPeWgnA9kuYMUg.ttf" },
+  "version": "v25",
+  "lastModified": "2022-04-26",
+  "files": { "regular": "http://fonts.gstatic.com/s/koulen/v25/AMOQz46as3KIBPeWgnA9kuYMUg.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

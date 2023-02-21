@@ -11,14 +11,14 @@
     "latin-ext",
     "vietnamese"
   ],
-  "version": "v19",
-  "lastModified": "2021-11-04",
+  "version": "v24",
+  "lastModified": "2022-09-22",
   "files": {
-    "300": "http://fonts.gstatic.com/s/jura/v19/z7NOdRfiaC4Vd8hhoPzfb5vBTP0D7auhTfmrH_rt.ttf",
-    "500": "http://fonts.gstatic.com/s/jura/v19/z7NOdRfiaC4Vd8hhoPzfb5vBTP1v7auhTfmrH_rt.ttf",
-    "600": "http://fonts.gstatic.com/s/jura/v19/z7NOdRfiaC4Vd8hhoPzfb5vBTP2D6quhTfmrH_rt.ttf",
-    "700": "http://fonts.gstatic.com/s/jura/v19/z7NOdRfiaC4Vd8hhoPzfb5vBTP266quhTfmrH_rt.ttf",
-    "regular": "http://fonts.gstatic.com/s/jura/v19/z7NOdRfiaC4Vd8hhoPzfb5vBTP1d7auhTfmrH_rt.ttf"
+    "300": "http://fonts.gstatic.com/s/jura/v24/z7NOdRfiaC4Vd8hhoPzfb5vBTP0D7auhTfmrH_rt.ttf",
+    "500": "http://fonts.gstatic.com/s/jura/v24/z7NOdRfiaC4Vd8hhoPzfb5vBTP1v7auhTfmrH_rt.ttf",
+    "600": "http://fonts.gstatic.com/s/jura/v24/z7NOdRfiaC4Vd8hhoPzfb5vBTP2D6quhTfmrH_rt.ttf",
+    "700": "http://fonts.gstatic.com/s/jura/v24/z7NOdRfiaC4Vd8hhoPzfb5vBTP266quhTfmrH_rt.ttf",
+    "regular": "http://fonts.gstatic.com/s/jura/v24/z7NOdRfiaC4Vd8hhoPzfb5vBTP1d7auhTfmrH_rt.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

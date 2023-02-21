@@ -1,0 +1,13 @@
+{
+  "family": "Zen Loop",
+  "variants": ["regular", "italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2023-01-06",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/zenloop/v7/h0GrssK16UsnJwHsEK9zqwzX5vOG.ttf",
+    "italic": "http://fonts.gstatic.com/s/zenloop/v7/h0GtssK16UsnJwHsEJ9xoQj14-OGJ0w.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

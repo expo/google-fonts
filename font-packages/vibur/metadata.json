@@ -2,9 +2,9 @@
   "family": "Vibur",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v21",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/vibur/v21/DPEiYwmEzw0QRjTpLjoJd-Xa.ttf" },
+  "version": "v23",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/vibur/v23/DPEiYwmEzw0QRjTpLjoJd-Xa.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

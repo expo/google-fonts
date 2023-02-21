@@ -2,9 +2,9 @@
   "family": "Bentham",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v16",
-  "lastModified": "2022-01-13",
-  "files": { "regular": "http://fonts.gstatic.com/s/bentham/v16/VdGeAZQPEpYfmHglKWw7CJaK_y4.ttf" },
+  "version": "v18",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/bentham/v18/VdGeAZQPEpYfmHglKWw7CJaK_y4.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

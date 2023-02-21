@@ -1,0 +1,12 @@
+{
+  "family": "Abyssinica SIL",
+  "variants": ["regular"],
+  "subsets": ["ethiopic", "latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2022-12-08",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/abyssinicasil/v5/oY1H8ezOqK7iI3rK_45WKoc8J6UZBFOVAXuI.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

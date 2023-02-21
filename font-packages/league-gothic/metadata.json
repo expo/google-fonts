@@ -1,0 +1,12 @@
+{
+  "family": "League Gothic",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v6",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/leaguegothic/v6/qFdR35CBi4tvBz81xy7WG7ep-BQAY7Krj7feObpH_-amidQ6Q9hn.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

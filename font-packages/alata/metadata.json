@@ -2,9 +2,9 @@
   "family": "Alata",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v2",
-  "lastModified": "2020-07-23",
-  "files": { "regular": "http://fonts.gstatic.com/s/alata/v2/PbytFmztEwbIofe6xKcRQEOX.ttf" },
+  "version": "v9",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/alata/v9/PbytFmztEwbIofe6xKcRQEOX.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

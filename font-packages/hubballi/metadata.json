@@ -1,0 +1,10 @@
+{
+  "family": "Hubballi",
+  "variants": ["regular"],
+  "subsets": ["kannada", "latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/hubballi/v4/o-0JIpUj3WIZ1RFN56B7yBBNYuSF.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

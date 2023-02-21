@@ -2,9 +2,9 @@
   "family": "Fenix",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/fenix/v18/XoHo2YL_S7-g5ostKzAFvs8o.ttf" },
+  "version": "v20",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/fenix/v20/XoHo2YL_S7-g5ostKzAFvs8o.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

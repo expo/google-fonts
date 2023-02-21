@@ -1,0 +1,16 @@
+{
+  "family": "Zen Kaku Gothic Antique",
+  "variants": ["300", "regular", "500", "700", "900"],
+  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "version": "v13",
+  "lastModified": "2023-01-06",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/zenkakugothicantique/v13/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22cM9TarWJtyZyGU.ttf",
+    "500": "http://fonts.gstatic.com/s/zenkakugothicantique/v13/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22dU9DarWJtyZyGU.ttf",
+    "700": "http://fonts.gstatic.com/s/zenkakugothicantique/v13/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22cc8jarWJtyZyGU.ttf",
+    "900": "http://fonts.gstatic.com/s/zenkakugothicantique/v13/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22ck8DarWJtyZyGU.ttf",
+    "regular": "http://fonts.gstatic.com/s/zenkakugothicantique/v13/6qLQKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB21-g3RKjc4d7.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

@@ -2,15 +2,15 @@
   "family": "Bellota Text",
   "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
   "subsets": ["cyrillic", "latin", "latin-ext", "vietnamese"],
-  "version": "v14",
-  "lastModified": "2022-01-11",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "300": "http://fonts.gstatic.com/s/bellotatext/v14/0FlMVP2VnlWS4f3-UE9hHXM5VfsqfQXwQy6yxg.ttf",
-    "700": "http://fonts.gstatic.com/s/bellotatext/v14/0FlMVP2VnlWS4f3-UE9hHXM5RfwqfQXwQy6yxg.ttf",
-    "300italic": "http://fonts.gstatic.com/s/bellotatext/v14/0FlOVP2VnlWS4f3-UE9hHXMx--Gmfw_0YSuixmYK.ttf",
-    "regular": "http://fonts.gstatic.com/s/bellotatext/v14/0FlTVP2VnlWS4f3-UE9hHXMB-dMOdS7sSg.ttf",
-    "italic": "http://fonts.gstatic.com/s/bellotatext/v14/0FlNVP2VnlWS4f3-UE9hHXMx-9kKVyv8Sjer.ttf",
-    "700italic": "http://fonts.gstatic.com/s/bellotatext/v14/0FlOVP2VnlWS4f3-UE9hHXMx--G2eA_0YSuixmYK.ttf"
+    "300": "http://fonts.gstatic.com/s/bellotatext/v16/0FlMVP2VnlWS4f3-UE9hHXM5VfsqfQXwQy6yxg.ttf",
+    "700": "http://fonts.gstatic.com/s/bellotatext/v16/0FlMVP2VnlWS4f3-UE9hHXM5RfwqfQXwQy6yxg.ttf",
+    "300italic": "http://fonts.gstatic.com/s/bellotatext/v16/0FlOVP2VnlWS4f3-UE9hHXMx--Gmfw_0YSuixmYK.ttf",
+    "regular": "http://fonts.gstatic.com/s/bellotatext/v16/0FlTVP2VnlWS4f3-UE9hHXMB-dMOdS7sSg.ttf",
+    "italic": "http://fonts.gstatic.com/s/bellotatext/v16/0FlNVP2VnlWS4f3-UE9hHXMx-9kKVyv8Sjer.ttf",
+    "700italic": "http://fonts.gstatic.com/s/bellotatext/v16/0FlOVP2VnlWS4f3-UE9hHXMx--G2eA_0YSuixmYK.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

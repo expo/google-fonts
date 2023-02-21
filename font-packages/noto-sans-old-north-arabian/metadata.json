@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Old North Arabian",
+  "variants": ["regular"],
+  "subsets": ["old-north-arabian"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansoldnortharabian/v15/esDF30BdNv-KYGGJpKGk2tNiMt7Jar6olZDyNdr81zBQmUo_xw4ABw.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

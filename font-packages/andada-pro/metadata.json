@@ -1,0 +1,32 @@
+{
+  "family": "Andada Pro",
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic",
+    "800italic"
+  ],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v16",
+  "lastModified": "2022-12-08",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/andadapro/v16/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DP7BY8cFLzvIt2S.ttf",
+    "600": "http://fonts.gstatic.com/s/andadapro/v16/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DMXAo8cFLzvIt2S.ttf",
+    "700": "http://fonts.gstatic.com/s/andadapro/v16/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DMuAo8cFLzvIt2S.ttf",
+    "800": "http://fonts.gstatic.com/s/andadapro/v16/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DNJAo8cFLzvIt2S.ttf",
+    "regular": "http://fonts.gstatic.com/s/andadapro/v16/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DPJBY8cFLzvIt2S.ttf",
+    "italic": "http://fonts.gstatic.com/s/andadapro/v16/HhyGU5Qi9-SuOEhPe4LtAIxwRrn9L22O2yYBRmdfHrjNJ82Stjw.ttf",
+    "500italic": "http://fonts.gstatic.com/s/andadapro/v16/HhyGU5Qi9-SuOEhPe4LtAIxwRrn9L22O2yYBRlVfHrjNJ82Stjw.ttf",
+    "600italic": "http://fonts.gstatic.com/s/andadapro/v16/HhyGU5Qi9-SuOEhPe4LtAIxwRrn9L22O2yYBRrlYHrjNJ82Stjw.ttf",
+    "700italic": "http://fonts.gstatic.com/s/andadapro/v16/HhyGU5Qi9-SuOEhPe4LtAIxwRrn9L22O2yYBRoBYHrjNJ82Stjw.ttf",
+    "800italic": "http://fonts.gstatic.com/s/andadapro/v16/HhyGU5Qi9-SuOEhPe4LtAIxwRrn9L22O2yYBRudYHrjNJ82Stjw.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

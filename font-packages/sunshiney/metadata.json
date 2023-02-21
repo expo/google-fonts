@@ -2,10 +2,10 @@
   "family": "Sunshiney",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2021-03-19",
+  "version": "v24",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/sunshiney/v13/LDIwapGTLBwsS-wT4vcgE8moUePWkg.ttf"
+    "regular": "http://fonts.gstatic.com/s/sunshiney/v24/LDIwapGTLBwsS-wT4vcgE8moUePWkg.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

@@ -2,10 +2,10 @@
   "family": "Train One",
   "variants": ["regular"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2022-01-05",
+  "version": "v13",
+  "lastModified": "2022-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/trainone/v11/gyB-hwkiNtc6KnxUVjWHOqbZRY7JVQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/trainone/v13/gyB-hwkiNtc6KnxUVjWHOqbZRY7JVQ.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

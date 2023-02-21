@@ -1,0 +1,20 @@
+{
+  "family": "Noto Serif Khmer",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["khmer", "latin", "latin-ext"],
+  "version": "v18",
+  "lastModified": "2022-09-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notoserifkhmer/v18/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdN6B4wXEZK9Xo4xg.ttf",
+    "200": "http://fonts.gstatic.com/s/notoserifkhmer/v18/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdNaB8wXEZK9Xo4xg.ttf",
+    "300": "http://fonts.gstatic.com/s/notoserifkhmer/v18/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdNth8wXEZK9Xo4xg.ttf",
+    "500": "http://fonts.gstatic.com/s/notoserifkhmer/v18/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdN2h8wXEZK9Xo4xg.ttf",
+    "600": "http://fonts.gstatic.com/s/notoserifkhmer/v18/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdNNhgwXEZK9Xo4xg.ttf",
+    "700": "http://fonts.gstatic.com/s/notoserifkhmer/v18/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdNDxgwXEZK9Xo4xg.ttf",
+    "800": "http://fonts.gstatic.com/s/notoserifkhmer/v18/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdNaBgwXEZK9Xo4xg.ttf",
+    "900": "http://fonts.gstatic.com/s/notoserifkhmer/v18/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdNQRgwXEZK9Xo4xg.ttf",
+    "regular": "http://fonts.gstatic.com/s/notoserifkhmer/v18/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdN6B8wXEZK9Xo4xg.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

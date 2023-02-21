@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Tai Le",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "tai-le"],
+  "version": "v17",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanstaile/v17/vEFK2-VODB8RrNDvZSUmVxEATwR58tK1W77HtMo.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

@@ -1,10 +1,13 @@
 {
   "family": "Fruktur",
-  "variants": ["regular"],
-  "subsets": ["latin", "latin-ext"],
-  "version": "v23",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/fruktur/v23/SZc53FHsOru5QYsMfz3GkUrS8DI.ttf" },
+  "variants": ["regular", "italic"],
+  "subsets": ["cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v26",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/fruktur/v26/SZc53FHsOru5QYsMfz3GkUrS8DI.ttf",
+    "italic": "http://fonts.gstatic.com/s/fruktur/v26/SZc73FHsOru5QYsMTz_MlWjX4DJXgQ.ttf"
+  },
   "category": "display",
   "kind": "webfonts#webfont"
 }

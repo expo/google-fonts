@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Elymaic",
+  "variants": ["regular"],
+  "subsets": ["elymaic"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanselymaic/v15/UqyKK9YTJW5liNMhTMqe9vUFP65ZD4AjWOT0zi2V.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

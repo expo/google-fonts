@@ -1,0 +1,13 @@
+{
+  "family": "Alumni Sans Collegiate One",
+  "variants": ["regular", "italic"],
+  "subsets": ["cyrillic", "latin", "latin-ext", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/alumnisanscollegiateone/v2/MQpB-XChK8G5CtmK_AuGxQrdNvPSXkn0RM-XqjWWhjdayDiPw2ta.ttf",
+    "italic": "http://fonts.gstatic.com/s/alumnisanscollegiateone/v2/MQpD-XChK8G5CtmK_AuGxQrdNvPSXkn0RM-XqjWWhgdYwjytxntaDFU.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

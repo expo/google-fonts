@@ -2,9 +2,9 @@
   "family": "Adamina",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/adamina/v14/j8_r6-DH1bjoc-dwu-reETl4Bno.ttf" },
+  "version": "v21",
+  "lastModified": "2022-04-20",
+  "files": { "regular": "http://fonts.gstatic.com/s/adamina/v21/j8_r6-DH1bjoc-dwu-reETl4Bno.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

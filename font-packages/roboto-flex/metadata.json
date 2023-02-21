@@ -1,0 +1,12 @@
+{
+  "family": "Roboto Flex",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "vietnamese"],
+  "version": "v9",
+  "lastModified": "2023-01-06",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/robotoflex/v9/NaN4epOXO_NexZs0b5QrzlOHb8wCikXpYqmZsWI-__OGfttPZktqc2VdZ80KvCLZaPcSBZtOx2MifRuWR28sPJtUMbsFEK6cRrleUx9Xgbm3WLHa_F4Ep4Fm0PN19Ik5Dntczx0wZGzhPlL1YNMYKbv9_1IQXOw7AiUJVXpRJ6cXW4O8TNGoXjC79QRyaLshNDUf3e0O-gn5rrZCu20YNYG0EACUTNK-QKavMlxGIY8dxef0jQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

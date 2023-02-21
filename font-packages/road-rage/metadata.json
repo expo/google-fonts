@@ -1,0 +1,12 @@
+{
+  "family": "Road Rage",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/roadrage/v5/6NUU8F2fKAOBKjjr4ekvtMYAwdRZfw.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

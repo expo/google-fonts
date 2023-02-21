@@ -2,10 +2,10 @@
   "family": "Caveat Brush",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v6",
-  "lastModified": "2020-09-02",
+  "version": "v11",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/caveatbrush/v6/EYq0maZfwr9S9-ETZc3fKXtMW7mT03pdQw.ttf"
+    "regular": "http://fonts.gstatic.com/s/caveatbrush/v11/EYq0maZfwr9S9-ETZc3fKXtMW7mT03pdQw.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

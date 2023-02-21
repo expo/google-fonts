@@ -1,10 +1,18 @@
 {
   "family": "Lateef",
-  "variants": ["regular"],
-  "subsets": ["arabic", "latin"],
-  "version": "v18",
-  "lastModified": "2021-03-24",
-  "files": { "regular": "http://fonts.gstatic.com/s/lateef/v18/hESw6XVnNCxEvkbMpheEZo_H_w.ttf" },
-  "category": "handwriting",
+  "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["arabic", "latin", "latin-ext"],
+  "version": "v27",
+  "lastModified": "2022-11-09",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/lateef/v27/hESz6XVnNCxEvkb0bjygbqTb9nQ-RA.ttf",
+    "300": "http://fonts.gstatic.com/s/lateef/v27/hESz6XVnNCxEvkb0Cj-gbqTb9nQ-RA.ttf",
+    "500": "http://fonts.gstatic.com/s/lateef/v27/hESz6XVnNCxEvkb0Uj6gbqTb9nQ-RA.ttf",
+    "600": "http://fonts.gstatic.com/s/lateef/v27/hESz6XVnNCxEvkb0fjmgbqTb9nQ-RA.ttf",
+    "700": "http://fonts.gstatic.com/s/lateef/v27/hESz6XVnNCxEvkb0GjigbqTb9nQ-RA.ttf",
+    "800": "http://fonts.gstatic.com/s/lateef/v27/hESz6XVnNCxEvkb0BjugbqTb9nQ-RA.ttf",
+    "regular": "http://fonts.gstatic.com/s/lateef/v27/hESw6XVnNCxEvkbMpheEZo_H_w.ttf"
+  },
+  "category": "serif",
   "kind": "webfonts#webfont"
 }

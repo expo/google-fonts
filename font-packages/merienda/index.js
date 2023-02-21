@@ -5,5 +5,10 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const Merienda_300Light = require('./Merienda_300Light.ttf');
 export const Merienda_400Regular = require('./Merienda_400Regular.ttf');
+export const Merienda_500Medium = require('./Merienda_500Medium.ttf');
+export const Merienda_600SemiBold = require('./Merienda_600SemiBold.ttf');
 export const Merienda_700Bold = require('./Merienda_700Bold.ttf');
+export const Merienda_800ExtraBold = require('./Merienda_800ExtraBold.ttf');
+export const Merienda_900Black = require('./Merienda_900Black.ttf');

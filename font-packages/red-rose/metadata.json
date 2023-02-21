@@ -2,14 +2,14 @@
   "family": "Red Rose",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v8",
-  "lastModified": "2021-03-19",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "300": "http://fonts.gstatic.com/s/redrose/v8/QdVISTYiLBjouPgEUajvsfWwDtc3MH8y8_sDcjSsYUVUjg.ttf",
-    "500": "http://fonts.gstatic.com/s/redrose/v8/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yn_sDcjSsYUVUjg.ttf",
-    "600": "http://fonts.gstatic.com/s/redrose/v8/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yc_wDcjSsYUVUjg.ttf",
-    "700": "http://fonts.gstatic.com/s/redrose/v8/QdVISTYiLBjouPgEUajvsfWwDtc3MH8ySvwDcjSsYUVUjg.ttf",
-    "regular": "http://fonts.gstatic.com/s/redrose/v8/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yrfsDcjSsYUVUjg.ttf"
+    "300": "http://fonts.gstatic.com/s/redrose/v14/QdVISTYiLBjouPgEUajvsfWwDtc3MH8y8_sDcjSsYUVUjg.ttf",
+    "500": "http://fonts.gstatic.com/s/redrose/v14/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yn_sDcjSsYUVUjg.ttf",
+    "600": "http://fonts.gstatic.com/s/redrose/v14/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yc_wDcjSsYUVUjg.ttf",
+    "700": "http://fonts.gstatic.com/s/redrose/v14/QdVISTYiLBjouPgEUajvsfWwDtc3MH8ySvwDcjSsYUVUjg.ttf",
+    "regular": "http://fonts.gstatic.com/s/redrose/v14/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yrfsDcjSsYUVUjg.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

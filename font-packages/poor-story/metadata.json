@@ -2,10 +2,10 @@
   "family": "Poor Story",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v18",
-  "lastModified": "2022-01-05",
+  "version": "v20",
+  "lastModified": "2022-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/poorstory/v18/jizfREFUsnUct9P6cDfd4OmnLD0Z4zM.ttf"
+    "regular": "http://fonts.gstatic.com/s/poorstory/v20/jizfREFUsnUct9P6cDfd4OmnLD0Z4zM.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

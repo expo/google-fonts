@@ -2,10 +2,10 @@
   "family": "RocknRoll One",
   "variants": ["regular"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2021-11-04",
+  "version": "v10",
+  "lastModified": "2022-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/rocknrollone/v7/kmK7ZqspGAfCeUiW6FFlmEC9guVhs7tfUxc.ttf"
+    "regular": "http://fonts.gstatic.com/s/rocknrollone/v10/kmK7ZqspGAfCeUiW6FFlmEC9guVhs7tfUxc.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

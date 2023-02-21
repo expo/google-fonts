@@ -1,0 +1,12 @@
+{
+  "family": "Style Script",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v7",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/stylescript/v7/vm8xdRX3SV7Z0aPa88xzW5npeFT76NZnMw.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

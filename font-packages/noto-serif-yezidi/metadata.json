@@ -1,0 +1,15 @@
+{
+  "family": "Noto Serif Yezidi",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["yezidi"],
+  "version": "v16",
+  "lastModified": "2022-07-19",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/notoserifyezidi/v16/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspD6SEkrlGJgmVCqg.ttf",
+    "600": "http://fonts.gstatic.com/s/notoserifyezidi/v16/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspDBSYkrlGJgmVCqg.ttf",
+    "700": "http://fonts.gstatic.com/s/notoserifyezidi/v16/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspDPCYkrlGJgmVCqg.ttf",
+    "regular": "http://fonts.gstatic.com/s/notoserifyezidi/v16/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspD2yEkrlGJgmVCqg.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

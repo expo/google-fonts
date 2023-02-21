@@ -2,9 +2,9 @@
   "family": "Asset",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v22",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/asset/v22/SLXGc1na-mM4cWImRJqExst1.ttf" },
+  "version": "v24",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/asset/v24/SLXGc1na-mM4cWImRJqExst1.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

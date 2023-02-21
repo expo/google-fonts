@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Mandaic",
+  "variants": ["regular"],
+  "subsets": ["mandaic"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansmandaic/v15/cIfnMbdWt1w_HgCcilqhKQBo_OsMI5_A_gMk0izH.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

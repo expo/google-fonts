@@ -2,10 +2,10 @@
   "family": "Yeon Sung",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v18",
-  "lastModified": "2022-01-11",
+  "version": "v20",
+  "lastModified": "2022-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/yeonsung/v18/QldMNTpbohAGtsJvUn6xSVNazqx2xg.ttf"
+    "regular": "http://fonts.gstatic.com/s/yeonsung/v20/QldMNTpbohAGtsJvUn6xSVNazqx2xg.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

@@ -2,10 +2,10 @@
   "family": "Londrina Shadow",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v20",
-  "lastModified": "2022-01-05",
+  "version": "v22",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/londrinashadow/v20/oPWX_kB4kOQoWNJmjxLV5JuoCUlXRlaSxkrMCQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/londrinashadow/v22/oPWX_kB4kOQoWNJmjxLV5JuoCUlXRlaSxkrMCQ.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

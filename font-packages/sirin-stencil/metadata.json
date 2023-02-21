@@ -2,10 +2,10 @@
   "family": "Sirin Stencil",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v19",
-  "lastModified": "2022-01-05",
+  "version": "v21",
+  "lastModified": "2022-04-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/sirinstencil/v19/mem4YaWwznmLx-lzGfN7MdRydchGBq6al6o.ttf"
+    "regular": "http://fonts.gstatic.com/s/sirinstencil/v21/mem4YaWwznmLx-lzGfN7MdRydchGBq6al6o.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

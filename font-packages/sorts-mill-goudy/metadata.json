@@ -2,11 +2,11 @@
   "family": "Sorts Mill Goudy",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/sortsmillgoudy/v10/Qw3GZR9MED_6PSuS_50nEaVrfzgEXH0OjpM75PE.ttf",
-    "italic": "http://fonts.gstatic.com/s/sortsmillgoudy/v10/Qw3AZR9MED_6PSuS_50nEaVrfzgEbH8EirE-9PGLfQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/sortsmillgoudy/v15/Qw3GZR9MED_6PSuS_50nEaVrfzgEXH0OjpM75PE.ttf",
+    "italic": "http://fonts.gstatic.com/s/sortsmillgoudy/v15/Qw3AZR9MED_6PSuS_50nEaVrfzgEbH8EirE-9PGLfQ.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

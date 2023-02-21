@@ -1,0 +1,14 @@
+{
+  "family": "Kaisei HarunoUmi",
+  "variants": ["regular", "500", "700"],
+  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2022-09-27",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/kaiseiharunoumi/v8/HI_WiZQSLqBQoAHhK_C6N_nzy_jcIj_QlMcFwmC9FAU.ttf",
+    "700": "http://fonts.gstatic.com/s/kaiseiharunoumi/v8/HI_WiZQSLqBQoAHhK_C6N_nzy_jcInfWlMcFwmC9FAU.ttf",
+    "regular": "http://fonts.gstatic.com/s/kaiseiharunoumi/v8/HI_RiZQSLqBQoAHhK_C6N_nzy_jcGsv5sM8u3mk.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

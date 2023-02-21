@@ -1,0 +1,10 @@
+{
+  "family": "My Soul",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/mysoul/v2/3XFqErcuy945_u6KF_Ulk2nnXf0.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

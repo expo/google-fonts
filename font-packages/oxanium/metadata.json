@@ -2,16 +2,16 @@
   "family": "Oxanium",
   "variants": ["200", "300", "regular", "500", "600", "700", "800"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v6",
-  "lastModified": "2021-03-19",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "200": "http://fonts.gstatic.com/s/oxanium/v6/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G83JfniMBXQ7d67x.ttf",
-    "300": "http://fonts.gstatic.com/s/oxanium/v6/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G80XfniMBXQ7d67x.ttf",
-    "500": "http://fonts.gstatic.com/s/oxanium/v6/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G817fniMBXQ7d67x.ttf",
-    "600": "http://fonts.gstatic.com/s/oxanium/v6/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G82XeXiMBXQ7d67x.ttf",
-    "700": "http://fonts.gstatic.com/s/oxanium/v6/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G82ueXiMBXQ7d67x.ttf",
-    "800": "http://fonts.gstatic.com/s/oxanium/v6/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G83JeXiMBXQ7d67x.ttf",
-    "regular": "http://fonts.gstatic.com/s/oxanium/v6/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G81JfniMBXQ7d67x.ttf"
+    "200": "http://fonts.gstatic.com/s/oxanium/v14/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G83JfniMBXQ7d67x.ttf",
+    "300": "http://fonts.gstatic.com/s/oxanium/v14/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G80XfniMBXQ7d67x.ttf",
+    "500": "http://fonts.gstatic.com/s/oxanium/v14/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G817fniMBXQ7d67x.ttf",
+    "600": "http://fonts.gstatic.com/s/oxanium/v14/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G82XeXiMBXQ7d67x.ttf",
+    "700": "http://fonts.gstatic.com/s/oxanium/v14/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G82ueXiMBXQ7d67x.ttf",
+    "800": "http://fonts.gstatic.com/s/oxanium/v14/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G83JeXiMBXQ7d67x.ttf",
+    "regular": "http://fonts.gstatic.com/s/oxanium/v14/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G81JfniMBXQ7d67x.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

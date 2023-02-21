@@ -2,10 +2,10 @@
   "family": "Marck Script",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2020-09-02",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/marckscript/v11/nwpTtK2oNgBA3Or78gapdwuCzyI-aMPF7Q.ttf"
+    "regular": "http://fonts.gstatic.com/s/marckscript/v16/nwpTtK2oNgBA3Or78gapdwuCzyI-aMPF7Q.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

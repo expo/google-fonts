@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Khojki",
+  "variants": ["regular"],
+  "subsets": ["khojki", "latin", "latin-ext"],
+  "version": "v16",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanskhojki/v16/-nFnOHM29Oofr2wohFbTuPPKVWpmK_d709jy92k.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

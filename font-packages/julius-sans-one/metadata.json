@@ -2,10 +2,10 @@
   "family": "Julius Sans One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-09-02",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/juliussansone/v9/1Pt2g8TAX_SGgBGUi0tGOYEga5W-xXEW6aGXHw.ttf"
+    "regular": "http://fonts.gstatic.com/s/juliussansone/v14/1Pt2g8TAX_SGgBGUi0tGOYEga5W-xXEW6aGXHw.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

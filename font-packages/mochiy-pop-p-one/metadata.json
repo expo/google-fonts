@@ -1,0 +1,12 @@
+{
+  "family": "Mochiy Pop P One",
+  "variants": ["regular"],
+  "subsets": ["japanese", "latin"],
+  "version": "v7",
+  "lastModified": "2022-09-27",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/mochiypoppone/v7/Ktk2AKuPeY_td1-h9LayHYWCjAqyN4O3WYZB_sU.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

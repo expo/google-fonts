@@ -2,10 +2,10 @@
   "family": "Fugaz One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/fugazone/v10/rax_HiWKp9EAITukFslMBBJek0vA8A.ttf"
+    "regular": "http://fonts.gstatic.com/s/fugazone/v15/rax_HiWKp9EAITukFslMBBJek0vA8A.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

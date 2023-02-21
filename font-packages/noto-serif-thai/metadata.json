@@ -1,0 +1,20 @@
+{
+  "family": "Noto Serif Thai",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "thai"],
+  "version": "v19",
+  "lastModified": "2022-09-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notoserifthai/v19/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0oiFuRRCmsdu0Qx.ttf",
+    "200": "http://fonts.gstatic.com/s/notoserifthai/v19/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0qiF-RRCmsdu0Qx.ttf",
+    "300": "http://fonts.gstatic.com/s/notoserifthai/v19/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0p8F-RRCmsdu0Qx.ttf",
+    "500": "http://fonts.gstatic.com/s/notoserifthai/v19/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0oQF-RRCmsdu0Qx.ttf",
+    "600": "http://fonts.gstatic.com/s/notoserifthai/v19/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0r8EORRCmsdu0Qx.ttf",
+    "700": "http://fonts.gstatic.com/s/notoserifthai/v19/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0rFEORRCmsdu0Qx.ttf",
+    "800": "http://fonts.gstatic.com/s/notoserifthai/v19/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0qiEORRCmsdu0Qx.ttf",
+    "900": "http://fonts.gstatic.com/s/notoserifthai/v19/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0qLEORRCmsdu0Qx.ttf",
+    "regular": "http://fonts.gstatic.com/s/notoserifthai/v19/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0oiF-RRCmsdu0Qx.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

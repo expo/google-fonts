@@ -1,0 +1,12 @@
+{
+  "family": "Comforter Brush",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/comforterbrush/v5/Y4GTYa1xVSggrfzZI5WMjxRaOz0jwLL9Th8YYA.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

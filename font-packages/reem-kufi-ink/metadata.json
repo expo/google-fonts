@@ -1,0 +1,12 @@
+{
+  "family": "Reem Kufi Ink",
+  "variants": ["regular"],
+  "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
+  "version": "v8",
+  "lastModified": "2022-12-08",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/reemkufiink/v8/oPWJ_kJmmu8hCvB9iFumxZSnRj5dQnSX1ko.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

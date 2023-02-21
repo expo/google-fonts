@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Linear B",
+  "variants": ["regular"],
+  "subsets": ["linear-b"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanslinearb/v15/HhyJU4wt9vSgfHoORYOiXOckKNB737IV3BkFTq4EPw.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

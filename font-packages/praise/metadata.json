@@ -1,0 +1,10 @@
+{
+  "family": "Praise",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/praise/v5/qkBUXvUZ-cnFXcFyDvO67L9XmQ.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

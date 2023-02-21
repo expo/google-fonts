@@ -7,3 +7,6 @@ export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
 export const Andika_400Regular: number;
+export const Andika_400Regular_Italic: number;
+export const Andika_700Bold: number;
+export const Andika_700Bold_Italic: number;

@@ -2,11 +2,11 @@
   "family": "Delius Unicase",
   "variants": ["regular", "700"],
   "subsets": ["latin"],
-  "version": "v24",
-  "lastModified": "2022-01-11",
+  "version": "v26",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/deliusunicase/v24/845CNMEwEIOVT8BmgfSzIr_6mlp7WMr_BmmlS5aw.ttf",
-    "regular": "http://fonts.gstatic.com/s/deliusunicase/v24/845BNMEwEIOVT8BmgfSzIr_6mmLHd-73LXWs.ttf"
+    "700": "http://fonts.gstatic.com/s/deliusunicase/v26/845CNMEwEIOVT8BmgfSzIr_6mlp7WMr_BmmlS5aw.ttf",
+    "regular": "http://fonts.gstatic.com/s/deliusunicase/v26/845BNMEwEIOVT8BmgfSzIr_6mmLHd-73LXWs.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

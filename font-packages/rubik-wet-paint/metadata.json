@@ -1,0 +1,12 @@
+{
+  "family": "Rubik Wet Paint",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/rubikwetpaint/v2/HTx0L20uMDGHgdULcpTF3Oe4d_-F-zz313DuvQ.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

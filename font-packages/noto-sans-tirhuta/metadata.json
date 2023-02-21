@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Tirhuta",
+  "variants": ["regular"],
+  "subsets": ["tirhuta"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanstirhuta/v15/t5t6IQYRNJ6TWjahPR6X-M-apUyby7uGUBsTrn5P.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

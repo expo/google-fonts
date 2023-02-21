@@ -2,10 +2,10 @@
   "family": "UnifrakturMaguntia",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2022-01-13",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/unifrakturmaguntia/v14/WWXPlieVYwiGNomYU-ciRLRvEmK7oaVun2xNNgNa1A.ttf"
+    "regular": "http://fonts.gstatic.com/s/unifrakturmaguntia/v16/WWXPlieVYwiGNomYU-ciRLRvEmK7oaVun2xNNgNa1A.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

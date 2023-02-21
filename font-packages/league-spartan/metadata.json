@@ -1,0 +1,20 @@
+{
+  "family": "League Spartan",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v6",
+  "lastModified": "2022-09-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/leaguespartan/v6/kJEnBuEW6A0lliaV_m88ja5Twtx8BWhtkDVmjZvM_oXpBMdcFguczA.ttf",
+    "200": "http://fonts.gstatic.com/s/leaguespartan/v6/kJEnBuEW6A0lliaV_m88ja5Twtx8BWhtkDVmjZvMfoTpBMdcFguczA.ttf",
+    "300": "http://fonts.gstatic.com/s/leaguespartan/v6/kJEnBuEW6A0lliaV_m88ja5Twtx8BWhtkDVmjZvMoITpBMdcFguczA.ttf",
+    "500": "http://fonts.gstatic.com/s/leaguespartan/v6/kJEnBuEW6A0lliaV_m88ja5Twtx8BWhtkDVmjZvMzITpBMdcFguczA.ttf",
+    "600": "http://fonts.gstatic.com/s/leaguespartan/v6/kJEnBuEW6A0lliaV_m88ja5Twtx8BWhtkDVmjZvMIIPpBMdcFguczA.ttf",
+    "700": "http://fonts.gstatic.com/s/leaguespartan/v6/kJEnBuEW6A0lliaV_m88ja5Twtx8BWhtkDVmjZvMGYPpBMdcFguczA.ttf",
+    "800": "http://fonts.gstatic.com/s/leaguespartan/v6/kJEnBuEW6A0lliaV_m88ja5Twtx8BWhtkDVmjZvMfoPpBMdcFguczA.ttf",
+    "900": "http://fonts.gstatic.com/s/leaguespartan/v6/kJEnBuEW6A0lliaV_m88ja5Twtx8BWhtkDVmjZvMV4PpBMdcFguczA.ttf",
+    "regular": "http://fonts.gstatic.com/s/leaguespartan/v6/kJEnBuEW6A0lliaV_m88ja5Twtx8BWhtkDVmjZvM_oTpBMdcFguczA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

@@ -1,0 +1,13 @@
+{
+  "family": "Corinthia",
+  "variants": ["regular", "700"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v9",
+  "lastModified": "2022-09-22",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/corinthia/v9/wEO6EBrAnchaJyPMHE097d8v1GAbgbLXQA.ttf",
+    "regular": "http://fonts.gstatic.com/s/corinthia/v9/wEO_EBrAnchaJyPMHE0FUfAL3EsHiA.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

@@ -2,10 +2,10 @@
   "family": "Kotta One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2022-01-05",
+  "version": "v20",
+  "lastModified": "2022-04-26",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/kottaone/v18/S6u_w41LXzPc_jlfNWqPHA3s5dwt7w.ttf"
+    "regular": "http://fonts.gstatic.com/s/kottaone/v20/S6u_w41LXzPc_jlfNWqPHA3s5dwt7w.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

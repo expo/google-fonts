@@ -2,17 +2,17 @@
   "family": "Sansita",
   "variants": ["regular", "italic", "700", "700italic", "800", "800italic", "900", "900italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2020-07-23",
+  "version": "v10",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/sansita/v5/QldLNTRRphEb_-V7JKWUaXl0wqVv3_g.ttf",
-    "800": "http://fonts.gstatic.com/s/sansita/v5/QldLNTRRphEb_-V7JLmXaXl0wqVv3_g.ttf",
-    "900": "http://fonts.gstatic.com/s/sansita/v5/QldLNTRRphEb_-V7JJ2WaXl0wqVv3_g.ttf",
-    "regular": "http://fonts.gstatic.com/s/sansita/v5/QldONTRRphEb_-V7HBm7TXFf3qw.ttf",
-    "italic": "http://fonts.gstatic.com/s/sansita/v5/QldMNTRRphEb_-V7LBuxSVNazqx2xg.ttf",
-    "700italic": "http://fonts.gstatic.com/s/sansita/v5/QldJNTRRphEb_-V7LBuJ9Xx-xodqz_joDQ.ttf",
-    "800italic": "http://fonts.gstatic.com/s/sansita/v5/QldJNTRRphEb_-V7LBuJ6X9-xodqz_joDQ.ttf",
-    "900italic": "http://fonts.gstatic.com/s/sansita/v5/QldJNTRRphEb_-V7LBuJzX5-xodqz_joDQ.ttf"
+    "700": "http://fonts.gstatic.com/s/sansita/v10/QldLNTRRphEb_-V7JKWUaXl0wqVv3_g.ttf",
+    "800": "http://fonts.gstatic.com/s/sansita/v10/QldLNTRRphEb_-V7JLmXaXl0wqVv3_g.ttf",
+    "900": "http://fonts.gstatic.com/s/sansita/v10/QldLNTRRphEb_-V7JJ2WaXl0wqVv3_g.ttf",
+    "regular": "http://fonts.gstatic.com/s/sansita/v10/QldONTRRphEb_-V7HBm7TXFf3qw.ttf",
+    "italic": "http://fonts.gstatic.com/s/sansita/v10/QldMNTRRphEb_-V7LBuxSVNazqx2xg.ttf",
+    "700italic": "http://fonts.gstatic.com/s/sansita/v10/QldJNTRRphEb_-V7LBuJ9Xx-xodqz_joDQ.ttf",
+    "800italic": "http://fonts.gstatic.com/s/sansita/v10/QldJNTRRphEb_-V7LBuJ6X9-xodqz_joDQ.ttf",
+    "900italic": "http://fonts.gstatic.com/s/sansita/v10/QldJNTRRphEb_-V7LBuJzX5-xodqz_joDQ.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

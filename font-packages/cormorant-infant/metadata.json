@@ -13,19 +13,19 @@
     "700italic"
   ],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v14",
-  "lastModified": "2022-01-13",
+  "version": "v17",
+  "lastModified": "2022-09-22",
   "files": {
-    "300": "http://fonts.gstatic.com/s/cormorantinfant/v14/HhyIU44g9vKiM1sORYSiWeAsLN9951w3_DMrQqcdJrk.ttf",
-    "500": "http://fonts.gstatic.com/s/cormorantinfant/v14/HhyIU44g9vKiM1sORYSiWeAsLN995wQ2_DMrQqcdJrk.ttf",
-    "600": "http://fonts.gstatic.com/s/cormorantinfant/v14/HhyIU44g9vKiM1sORYSiWeAsLN995ygx_DMrQqcdJrk.ttf",
-    "700": "http://fonts.gstatic.com/s/cormorantinfant/v14/HhyIU44g9vKiM1sORYSiWeAsLN9950ww_DMrQqcdJrk.ttf",
-    "300italic": "http://fonts.gstatic.com/s/cormorantinfant/v14/HhyKU44g9vKiM1sORYSiWeAsLN997_ItcDEhRoUYNrn_Ig.ttf",
-    "regular": "http://fonts.gstatic.com/s/cormorantinfant/v14/HhyPU44g9vKiM1sORYSiWeAsLN993_Af2DsAXq4.ttf",
-    "italic": "http://fonts.gstatic.com/s/cormorantinfant/v14/HhyJU44g9vKiM1sORYSiWeAsLN997_IV3BkFTq4EPw.ttf",
-    "500italic": "http://fonts.gstatic.com/s/cormorantinfant/v14/HhyKU44g9vKiM1sORYSiWeAsLN997_ItKDAhRoUYNrn_Ig.ttf",
-    "600italic": "http://fonts.gstatic.com/s/cormorantinfant/v14/HhyKU44g9vKiM1sORYSiWeAsLN997_ItBDchRoUYNrn_Ig.ttf",
-    "700italic": "http://fonts.gstatic.com/s/cormorantinfant/v14/HhyKU44g9vKiM1sORYSiWeAsLN997_ItYDYhRoUYNrn_Ig.ttf"
+    "300": "http://fonts.gstatic.com/s/cormorantinfant/v17/HhyIU44g9vKiM1sORYSiWeAsLN9951w3_DMrQqcdJrk.ttf",
+    "500": "http://fonts.gstatic.com/s/cormorantinfant/v17/HhyIU44g9vKiM1sORYSiWeAsLN995wQ2_DMrQqcdJrk.ttf",
+    "600": "http://fonts.gstatic.com/s/cormorantinfant/v17/HhyIU44g9vKiM1sORYSiWeAsLN995ygx_DMrQqcdJrk.ttf",
+    "700": "http://fonts.gstatic.com/s/cormorantinfant/v17/HhyIU44g9vKiM1sORYSiWeAsLN9950ww_DMrQqcdJrk.ttf",
+    "300italic": "http://fonts.gstatic.com/s/cormorantinfant/v17/HhyKU44g9vKiM1sORYSiWeAsLN997_ItcDEhRoUYNrn_Ig.ttf",
+    "regular": "http://fonts.gstatic.com/s/cormorantinfant/v17/HhyPU44g9vKiM1sORYSiWeAsLN993_Af2DsAXq4.ttf",
+    "italic": "http://fonts.gstatic.com/s/cormorantinfant/v17/HhyJU44g9vKiM1sORYSiWeAsLN997_IV3BkFTq4EPw.ttf",
+    "500italic": "http://fonts.gstatic.com/s/cormorantinfant/v17/HhyKU44g9vKiM1sORYSiWeAsLN997_ItKDAhRoUYNrn_Ig.ttf",
+    "600italic": "http://fonts.gstatic.com/s/cormorantinfant/v17/HhyKU44g9vKiM1sORYSiWeAsLN997_ItBDchRoUYNrn_Ig.ttf",
+    "700italic": "http://fonts.gstatic.com/s/cormorantinfant/v17/HhyKU44g9vKiM1sORYSiWeAsLN997_ItYDYhRoUYNrn_Ig.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

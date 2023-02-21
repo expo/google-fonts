@@ -1,0 +1,20 @@
+{
+  "family": "Noto Sans Thaana",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "thaana"],
+  "version": "v18",
+  "lastModified": "2022-11-09",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notosansthaana/v18/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4XrbxLhnu4-tbNu.ttf",
+    "200": "http://fonts.gstatic.com/s/notosansthaana/v18/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4VrbhLhnu4-tbNu.ttf",
+    "300": "http://fonts.gstatic.com/s/notosansthaana/v18/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4W1bhLhnu4-tbNu.ttf",
+    "500": "http://fonts.gstatic.com/s/notosansthaana/v18/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4XZbhLhnu4-tbNu.ttf",
+    "600": "http://fonts.gstatic.com/s/notosansthaana/v18/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4U1aRLhnu4-tbNu.ttf",
+    "700": "http://fonts.gstatic.com/s/notosansthaana/v18/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4UMaRLhnu4-tbNu.ttf",
+    "800": "http://fonts.gstatic.com/s/notosansthaana/v18/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4VraRLhnu4-tbNu.ttf",
+    "900": "http://fonts.gstatic.com/s/notosansthaana/v18/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4VCaRLhnu4-tbNu.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosansthaana/v18/C8c14dM-vnz-s-3jaEsxlxHkBH-WZOETXfoQrfQ9Y4XrbhLhnu4-tbNu.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

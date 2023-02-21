@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Tagbanwa",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "tagbanwa"],
+  "version": "v17",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanstagbanwa/v17/Y4GWYbB8VTEp4t3MKJSMmQdIKjRtt_nZRjQEaYpGoQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

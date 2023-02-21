@@ -2,10 +2,10 @@
   "family": "Nerko One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2022-01-05",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/nerkoone/v13/m8JQjfZSc7OXlB3ZMOjzcJ5BZmqa3A.ttf"
+    "regular": "http://fonts.gstatic.com/s/nerkoone/v15/m8JQjfZSc7OXlB3ZMOjzcJ5BZmqa3A.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

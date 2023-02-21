@@ -2,11 +2,11 @@
   "family": "Arapey",
   "variants": ["regular", "italic"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2020-09-02",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/arapey/v9/-W__XJn-UDDA2RC6Z9AcZkIzeg.ttf",
-    "italic": "http://fonts.gstatic.com/s/arapey/v9/-W_9XJn-UDDA2RCKZdoYREcjeo0k.ttf"
+    "regular": "http://fonts.gstatic.com/s/arapey/v16/-W__XJn-UDDA2RC6Z9AcZkIzeg.ttf",
+    "italic": "http://fonts.gstatic.com/s/arapey/v16/-W_9XJn-UDDA2RCKZdoYREcjeo0k.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

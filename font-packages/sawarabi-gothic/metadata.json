@@ -2,10 +2,10 @@
   "family": "Sawarabi Gothic",
   "variants": ["regular"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext", "vietnamese"],
-  "version": "v8",
-  "lastModified": "2019-11-05",
+  "version": "v12",
+  "lastModified": "2022-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/sawarabigothic/v8/x3d4ckfVaqqa-BEj-I9mE65u3k3NBSk3E2YljQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/sawarabigothic/v12/x3d4ckfVaqqa-BEj-I9mE65u3k3NBSk3E2YljQ.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

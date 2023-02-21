@@ -2,9 +2,9 @@
   "family": "Iceland",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/iceland/v14/rax9HiuFsdMNOnWPWKxGADBbg0s.ttf" },
+  "version": "v16",
+  "lastModified": "2022-04-26",
+  "files": { "regular": "http://fonts.gstatic.com/s/iceland/v16/rax9HiuFsdMNOnWPWKxGADBbg0s.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Deseret",
+  "variants": ["regular"],
+  "subsets": ["deseret"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansdeseret/v15/MwQsbgPp1eKH6QsAVuFb9AZM6MMr2Vq9ZnJSZtQG.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

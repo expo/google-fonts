@@ -1,0 +1,32 @@
+{
+  "family": "Radio Canada",
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic"
+  ],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v16",
+  "lastModified": "2023-01-06",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/radiocanada/v16/XRX13ISXn0dBMcibU6jlAqr3ejLv5OLZYiYXik6db2P4jxxlsls-0nESkQPIJOdSSfOT.ttf",
+    "500": "http://fonts.gstatic.com/s/radiocanada/v16/XRX13ISXn0dBMcibU6jlAqr3ejLv5OLZYiYXik6db2P4jxxlsls-0nF-kQPIJOdSSfOT.ttf",
+    "600": "http://fonts.gstatic.com/s/radiocanada/v16/XRX13ISXn0dBMcibU6jlAqr3ejLv5OLZYiYXik6db2P4jxxlsls-0nGSlgPIJOdSSfOT.ttf",
+    "700": "http://fonts.gstatic.com/s/radiocanada/v16/XRX13ISXn0dBMcibU6jlAqr3ejLv5OLZYiYXik6db2P4jxxlsls-0nGrlgPIJOdSSfOT.ttf",
+    "regular": "http://fonts.gstatic.com/s/radiocanada/v16/XRX13ISXn0dBMcibU6jlAqr3ejLv5OLZYiYXik6db2P4jxxlsls-0nFMkQPIJOdSSfOT.ttf",
+    "300italic": "http://fonts.gstatic.com/s/radiocanada/v16/XRX33ISXn0dBMcibU6jlAqrdcwAMBJuK9IgQn4bfnSrKcMQM2cGQ1WSE0rWLLuNwTOOTa9k.ttf",
+    "italic": "http://fonts.gstatic.com/s/radiocanada/v16/XRX33ISXn0dBMcibU6jlAqrdcwAMBJuK9IgQn4bfnSrKcMQM2cGQ1WSE0uuLLuNwTOOTa9k.ttf",
+    "500italic": "http://fonts.gstatic.com/s/radiocanada/v16/XRX33ISXn0dBMcibU6jlAqrdcwAMBJuK9IgQn4bfnSrKcMQM2cGQ1WSE0tmLLuNwTOOTa9k.ttf",
+    "600italic": "http://fonts.gstatic.com/s/radiocanada/v16/XRX33ISXn0dBMcibU6jlAqrdcwAMBJuK9IgQn4bfnSrKcMQM2cGQ1WSE0jWMLuNwTOOTa9k.ttf",
+    "700italic": "http://fonts.gstatic.com/s/radiocanada/v16/XRX33ISXn0dBMcibU6jlAqrdcwAMBJuK9IgQn4bfnSrKcMQM2cGQ1WSE0gyMLuNwTOOTa9k.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

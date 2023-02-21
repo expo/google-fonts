@@ -2,10 +2,10 @@
   "family": "Kavivanar",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "tamil"],
-  "version": "v16",
-  "lastModified": "2022-01-05",
+  "version": "v18",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/kavivanar/v16/o-0IIpQgyXYSwhxP7_Jb4j5Ba_2c7A.ttf"
+    "regular": "http://fonts.gstatic.com/s/kavivanar/v18/o-0IIpQgyXYSwhxP7_Jb4j5Ba_2c7A.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

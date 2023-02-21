@@ -2,10 +2,10 @@
   "family": "Sue Ellen Francisco",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2022-01-13",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/sueellenfrancisco/v14/wXK3E20CsoJ9j1DDkjHcQ5ZL8xRaxru9ropF2lqk9H4.ttf"
+    "regular": "http://fonts.gstatic.com/s/sueellenfrancisco/v16/wXK3E20CsoJ9j1DDkjHcQ5ZL8xRaxru9ropF2lqk9H4.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

@@ -2,9 +2,9 @@
   "family": "Barrio",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/barrio/v17/wEO8EBXBk8hBIDiEdQYhWdsX1Q.ttf" },
+  "version": "v19",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/barrio/v19/wEO8EBXBk8hBIDiEdQYhWdsX1Q.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

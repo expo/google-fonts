@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Indic Siyaq Numbers",
+  "variants": ["regular"],
+  "subsets": ["indic-siyaq-numbers"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansindicsiyaqnumbers/v15/6xK5dTJFKcWIu4bpRBjRZRpsIYHabOeZ8UZLubTzpXNHKx2WPOpVd5Iu.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

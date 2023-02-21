@@ -1,0 +1,13 @@
+{
+  "family": "BIZ UDPGothic",
+  "variants": ["regular", "700"],
+  "subsets": ["cyrillic", "greek-ext", "japanese", "latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2023-01-06",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/bizudpgothic/v8/hESq6X5pHAIBjmS84VL0Bue85skjZWEnTABCSQo.ttf",
+    "regular": "http://fonts.gstatic.com/s/bizudpgothic/v8/hES36X5pHAIBjmS84VL0Bue83nUMQWkMUAk.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

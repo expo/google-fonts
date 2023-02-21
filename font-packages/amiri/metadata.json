@@ -2,13 +2,13 @@
   "family": "Amiri",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2021-03-24",
+  "version": "v27",
+  "lastModified": "2023-01-10",
   "files": {
-    "700": "http://fonts.gstatic.com/s/amiri/v17/J7acnpd8CGxBHp2VkZY4xJ9CGyAa.ttf",
-    "regular": "http://fonts.gstatic.com/s/amiri/v17/J7aRnpd8CGxBHqUpvrIw74NL.ttf",
-    "italic": "http://fonts.gstatic.com/s/amiri/v17/J7afnpd8CGxBHpUrtLYS6pNLAjk.ttf",
-    "700italic": "http://fonts.gstatic.com/s/amiri/v17/J7aanpd8CGxBHpUrjAo9zptgHjAavCA.ttf"
+    "700": "http://fonts.gstatic.com/s/amiri/v27/J7acnpd8CGxBHp2VkZY4xJ9CGyAa.ttf",
+    "regular": "http://fonts.gstatic.com/s/amiri/v27/J7aRnpd8CGxBHqUpvrIw74NL.ttf",
+    "italic": "http://fonts.gstatic.com/s/amiri/v27/J7afnpd8CGxBHpUrtLYS6pNLAjk.ttf",
+    "700italic": "http://fonts.gstatic.com/s/amiri/v27/J7aanpd8CGxBHpUrjAo9zptgHjAavCA.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

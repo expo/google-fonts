@@ -2,10 +2,10 @@
   "family": "Nixie One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2022-01-13",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/nixieone/v14/lW-8wjkKLXjg5y2o2uUoUOFzpS-yLw.ttf"
+    "regular": "http://fonts.gstatic.com/s/nixieone/v16/lW-8wjkKLXjg5y2o2uUoUOFzpS-yLw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

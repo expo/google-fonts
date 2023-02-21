@@ -2,9 +2,9 @@
   "family": "Nova Cut",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v22",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/novacut/v22/KFOkCnSYu8mL-39LkWxPKTM1K9nz.ttf" },
+  "version": "v24",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/novacut/v24/KFOkCnSYu8mL-39LkWxPKTM1K9nz.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

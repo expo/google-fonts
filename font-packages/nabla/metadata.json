@@ -1,0 +1,12 @@
+{
+  "family": "Nabla",
+  "variants": ["regular"],
+  "subsets": ["cyrillic-ext", "latin", "latin-ext", "math", "vietnamese"],
+  "version": "v9",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/nabla/v9/j8_D6-LI0Lvpe7Makz5UhJt9C3uqg_X_75gyGS4jAxsNIjrRNRBUFFR_198.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

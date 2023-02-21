@@ -2,10 +2,10 @@
   "family": "Sevillana",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2022-01-05",
+  "version": "v21",
+  "lastModified": "2022-04-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/sevillana/v19/KFOlCnWFscmDt1Bfiy1vAx05IsDqlA.ttf"
+    "regular": "http://fonts.gstatic.com/s/sevillana/v21/KFOlCnWFscmDt1Bfiy1vAx05IsDqlA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

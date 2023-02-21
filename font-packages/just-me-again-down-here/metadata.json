@@ -2,10 +2,10 @@
   "family": "Just Me Again Down Here",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v22",
-  "lastModified": "2022-01-11",
+  "version": "v24",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/justmeagaindownhere/v22/MwQmbgXtz-Wc6RUEGNMc0QpRrfUh2hSdBBMoAuwHvqDwc_fg.ttf"
+    "regular": "http://fonts.gstatic.com/s/justmeagaindownhere/v24/MwQmbgXtz-Wc6RUEGNMc0QpRrfUh2hSdBBMoAuwHvqDwc_fg.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

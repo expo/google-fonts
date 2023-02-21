@@ -2,10 +2,10 @@
   "family": "Poiret One",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-09-02",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/poiretone/v9/UqyVK80NJXN4zfRgbdfbk5lWVscxdKE.ttf"
+    "regular": "http://fonts.gstatic.com/s/poiretone/v14/UqyVK80NJXN4zfRgbdfbk5lWVscxdKE.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

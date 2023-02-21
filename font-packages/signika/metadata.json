@@ -2,14 +2,14 @@
   "family": "Signika",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v15",
-  "lastModified": "2021-11-10",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "300": "http://fonts.gstatic.com/s/signika/v15/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tIJHJbGhs_cfKe1.ttf",
-    "500": "http://fonts.gstatic.com/s/signika/v15/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tJlHJbGhs_cfKe1.ttf",
-    "600": "http://fonts.gstatic.com/s/signika/v15/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tKJG5bGhs_cfKe1.ttf",
-    "700": "http://fonts.gstatic.com/s/signika/v15/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tKwG5bGhs_cfKe1.ttf",
-    "regular": "http://fonts.gstatic.com/s/signika/v15/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tJXHJbGhs_cfKe1.ttf"
+    "300": "http://fonts.gstatic.com/s/signika/v20/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tIJHJbGhs_cfKe1.ttf",
+    "500": "http://fonts.gstatic.com/s/signika/v20/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tJlHJbGhs_cfKe1.ttf",
+    "600": "http://fonts.gstatic.com/s/signika/v20/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tKJG5bGhs_cfKe1.ttf",
+    "700": "http://fonts.gstatic.com/s/signika/v20/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tKwG5bGhs_cfKe1.ttf",
+    "regular": "http://fonts.gstatic.com/s/signika/v20/vEFO2_JTCgwQ5ejvMV0O96D01E8J0tJXHJbGhs_cfKe1.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

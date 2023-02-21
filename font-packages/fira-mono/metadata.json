@@ -2,12 +2,12 @@
   "family": "Fira Mono",
   "variants": ["regular", "500", "700"],
   "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-09-02",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "500": "http://fonts.gstatic.com/s/firamono/v9/N0bS2SlFPv1weGeLZDto1d33mf3VaZBRBQ.ttf",
-    "700": "http://fonts.gstatic.com/s/firamono/v9/N0bS2SlFPv1weGeLZDtondv3mf3VaZBRBQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/firamono/v9/N0bX2SlFPv1weGeLZDtQIfTTkdbJYA.ttf"
+    "500": "http://fonts.gstatic.com/s/firamono/v14/N0bS2SlFPv1weGeLZDto1d33mf3VaZBRBQ.ttf",
+    "700": "http://fonts.gstatic.com/s/firamono/v14/N0bS2SlFPv1weGeLZDtondv3mf3VaZBRBQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/firamono/v14/N0bX2SlFPv1weGeLZDtQIfTTkdbJYA.ttf"
   },
   "category": "monospace",
   "kind": "webfonts#webfont"

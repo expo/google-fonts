@@ -1,0 +1,12 @@
+{
+  "family": "Noto Music",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "music"],
+  "version": "v17",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notomusic/v17/pe0rMIiSN5pO63htf1sxIteQB9Zra1U.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

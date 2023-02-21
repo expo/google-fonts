@@ -2,9 +2,9 @@
   "family": "Cookie",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/cookie/v12/syky-y18lb0tSbfNlQCT9tPdpw.ttf" },
+  "version": "v17",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/cookie/v17/syky-y18lb0tSbfNlQCT9tPdpw.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

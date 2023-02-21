@@ -2,11 +2,11 @@
   "family": "ZCOOL KuaiLe",
   "variants": ["regular"],
   "subsets": ["chinese-simplified", "latin"],
-  "version": "v15",
-  "lastModified": "2022-01-05",
+  "version": "v19",
+  "lastModified": "2022-11-09",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/zcoolkuaile/v15/tssqApdaRQokwFjFJjvM6h2WpozzoXhC2g.ttf"
+    "regular": "http://fonts.gstatic.com/s/zcoolkuaile/v19/tssqApdaRQokwFjFJjvM6h2WpozzoXhC2g.ttf"
   },
-  "category": "display",
+  "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

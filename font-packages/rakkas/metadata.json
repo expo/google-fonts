@@ -2,9 +2,9 @@
   "family": "Rakkas",
   "variants": ["regular"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/rakkas/v15/Qw3cZQlNHiblL3j_lttPOeMcCw.ttf" },
+  "version": "v17",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/rakkas/v17/Qw3cZQlNHiblL3j_lttPOeMcCw.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

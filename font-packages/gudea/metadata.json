@@ -2,12 +2,12 @@
   "family": "Gudea",
   "variants": ["regular", "italic", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/gudea/v10/neIIzCqgsI0mp9gz26WGHK06UY30.ttf",
-    "regular": "http://fonts.gstatic.com/s/gudea/v10/neIFzCqgsI0mp-CP9IGON7Ez.ttf",
-    "italic": "http://fonts.gstatic.com/s/gudea/v10/neILzCqgsI0mp9CN_oWsMqEzSJQ.ttf"
+    "700": "http://fonts.gstatic.com/s/gudea/v15/neIIzCqgsI0mp9gz26WGHK06UY30.ttf",
+    "regular": "http://fonts.gstatic.com/s/gudea/v15/neIFzCqgsI0mp-CP9IGON7Ez.ttf",
+    "italic": "http://fonts.gstatic.com/s/gudea/v15/neILzCqgsI0mp9CN_oWsMqEzSJQ.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

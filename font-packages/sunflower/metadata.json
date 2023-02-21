@@ -2,12 +2,12 @@
   "family": "Sunflower",
   "variants": ["300", "500", "700"],
   "subsets": ["korean", "latin"],
-  "version": "v12",
-  "lastModified": "2022-01-13",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "300": "http://fonts.gstatic.com/s/sunflower/v12/RWmPoKeF8fUjqIj7Vc-06MfiqYsGBGBzCw.ttf",
-    "500": "http://fonts.gstatic.com/s/sunflower/v12/RWmPoKeF8fUjqIj7Vc-0sMbiqYsGBGBzCw.ttf",
-    "700": "http://fonts.gstatic.com/s/sunflower/v12/RWmPoKeF8fUjqIj7Vc-0-MDiqYsGBGBzCw.ttf"
+    "300": "http://fonts.gstatic.com/s/sunflower/v14/RWmPoKeF8fUjqIj7Vc-06MfiqYsGBGBzCw.ttf",
+    "500": "http://fonts.gstatic.com/s/sunflower/v14/RWmPoKeF8fUjqIj7Vc-0sMbiqYsGBGBzCw.ttf",
+    "700": "http://fonts.gstatic.com/s/sunflower/v14/RWmPoKeF8fUjqIj7Vc-0-MDiqYsGBGBzCw.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

@@ -6,4 +6,10 @@
 export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
+export const Lateef_200ExtraLight: number;
+export const Lateef_300Light: number;
 export const Lateef_400Regular: number;
+export const Lateef_500Medium: number;
+export const Lateef_600SemiBold: number;
+export const Lateef_700Bold: number;
+export const Lateef_800ExtraBold: number;

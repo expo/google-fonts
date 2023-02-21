@@ -2,10 +2,10 @@
   "family": "Seymour One",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2022-01-05",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/seymourone/v18/4iCp6Khla9xbjQpoWGGd0myIPYBvgpUI.ttf"
+    "regular": "http://fonts.gstatic.com/s/seymourone/v20/4iCp6Khla9xbjQpoWGGd0myIPYBvgpUI.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

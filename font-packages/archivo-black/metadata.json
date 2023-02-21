@@ -2,10 +2,10 @@
   "family": "Archivo Black",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
+  "version": "v17",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/archivoblack/v10/HTxqL289NzCGg4MzN6KJ7eW6OYuP_x7yx3A.ttf"
+    "regular": "http://fonts.gstatic.com/s/archivoblack/v17/HTxqL289NzCGg4MzN6KJ7eW6OYuP_x7yx3A.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

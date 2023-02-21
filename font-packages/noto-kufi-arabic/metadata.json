@@ -1,0 +1,20 @@
+{
+  "family": "Noto Kufi Arabic",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["arabic"],
+  "version": "v15",
+  "lastModified": "2022-09-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notokufiarabic/v15/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh5v3obPnLSmf5yD.ttf",
+    "200": "http://fonts.gstatic.com/s/notokufiarabic/v15/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh7v34bPnLSmf5yD.ttf",
+    "300": "http://fonts.gstatic.com/s/notokufiarabic/v15/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh4x34bPnLSmf5yD.ttf",
+    "500": "http://fonts.gstatic.com/s/notokufiarabic/v15/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh5d34bPnLSmf5yD.ttf",
+    "600": "http://fonts.gstatic.com/s/notokufiarabic/v15/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh6x2IbPnLSmf5yD.ttf",
+    "700": "http://fonts.gstatic.com/s/notokufiarabic/v15/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh6I2IbPnLSmf5yD.ttf",
+    "800": "http://fonts.gstatic.com/s/notokufiarabic/v15/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh7v2IbPnLSmf5yD.ttf",
+    "900": "http://fonts.gstatic.com/s/notokufiarabic/v15/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh7G2IbPnLSmf5yD.ttf",
+    "regular": "http://fonts.gstatic.com/s/notokufiarabic/v15/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh5v34bPnLSmf5yD.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

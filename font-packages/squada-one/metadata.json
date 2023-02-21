@@ -2,10 +2,10 @@
   "family": "Squada One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2020-09-02",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/squadaone/v9/BCasqZ8XsOrx4mcOk6MtWaA8WDBkHgs.ttf"
+    "regular": "http://fonts.gstatic.com/s/squadaone/v14/BCasqZ8XsOrx4mcOk6MtWaA8WDBkHgs.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Brahmi",
+  "variants": ["regular"],
+  "subsets": ["brahmi"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansbrahmi/v15/vEFK2-VODB8RrNDvZSUmQQIIByV18tK1W77HtMo.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

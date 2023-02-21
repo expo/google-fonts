@@ -2,10 +2,10 @@
   "family": "Duru Sans",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2022-01-13",
+  "version": "v19",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/durusans/v17/xn7iYH8xwmSyTvEV_HOxT_fYdN-WZw.ttf"
+    "regular": "http://fonts.gstatic.com/s/durusans/v19/xn7iYH8xwmSyTvEV_HOxT_fYdN-WZw.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

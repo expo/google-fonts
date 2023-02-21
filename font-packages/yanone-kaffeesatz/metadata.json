@@ -2,15 +2,15 @@
   "family": "Yanone Kaffeesatz",
   "variants": ["200", "300", "regular", "500", "600", "700"],
   "subsets": ["cyrillic", "latin", "latin-ext", "vietnamese"],
-  "version": "v18",
-  "lastModified": "2021-09-16",
+  "version": "v24",
+  "lastModified": "2022-09-22",
   "files": {
-    "200": "http://fonts.gstatic.com/s/yanonekaffeesatz/v18/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftodtWpcGuLCnXkVA.ttf",
-    "300": "http://fonts.gstatic.com/s/yanonekaffeesatz/v18/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoqNWpcGuLCnXkVA.ttf",
-    "500": "http://fonts.gstatic.com/s/yanonekaffeesatz/v18/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoxNWpcGuLCnXkVA.ttf",
-    "600": "http://fonts.gstatic.com/s/yanonekaffeesatz/v18/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoKNKpcGuLCnXkVA.ttf",
-    "700": "http://fonts.gstatic.com/s/yanonekaffeesatz/v18/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoEdKpcGuLCnXkVA.ttf",
-    "regular": "http://fonts.gstatic.com/s/yanonekaffeesatz/v18/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIfto9tWpcGuLCnXkVA.ttf"
+    "200": "http://fonts.gstatic.com/s/yanonekaffeesatz/v24/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftodtWpcGuLCnXkVA.ttf",
+    "300": "http://fonts.gstatic.com/s/yanonekaffeesatz/v24/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoqNWpcGuLCnXkVA.ttf",
+    "500": "http://fonts.gstatic.com/s/yanonekaffeesatz/v24/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoxNWpcGuLCnXkVA.ttf",
+    "600": "http://fonts.gstatic.com/s/yanonekaffeesatz/v24/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoKNKpcGuLCnXkVA.ttf",
+    "700": "http://fonts.gstatic.com/s/yanonekaffeesatz/v24/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoEdKpcGuLCnXkVA.ttf",
+    "regular": "http://fonts.gstatic.com/s/yanonekaffeesatz/v24/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIfto9tWpcGuLCnXkVA.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

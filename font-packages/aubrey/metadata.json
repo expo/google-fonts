@@ -2,9 +2,9 @@
   "family": "Aubrey",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v25",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/aubrey/v25/q5uGsou7NPBw-p7vugNsCxVEgA.ttf" },
+  "version": "v28",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/aubrey/v28/q5uGsou7NPBw-p7vugNsCxVEgA.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

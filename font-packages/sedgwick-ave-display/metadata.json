@@ -2,10 +2,10 @@
   "family": "Sedgwick Ave Display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v17",
-  "lastModified": "2022-01-05",
+  "version": "v19",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/sedgwickavedisplay/v17/xfuu0XPgU3jZPUoUo3ScvmPi-NapQ8OxM2czd-YnOzUD.ttf"
+    "regular": "http://fonts.gstatic.com/s/sedgwickavedisplay/v19/xfuu0XPgU3jZPUoUo3ScvmPi-NapQ8OxM2czd-YnOzUD.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

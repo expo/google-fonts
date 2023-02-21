@@ -2,10 +2,10 @@
   "family": "Finger Paint",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2022-01-11",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/fingerpaint/v13/0QInMXVJ-o-oRn_7dron8YWO85bS8ANesw.ttf"
+    "regular": "http://fonts.gstatic.com/s/fingerpaint/v15/0QInMXVJ-o-oRn_7dron8YWO85bS8ANesw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

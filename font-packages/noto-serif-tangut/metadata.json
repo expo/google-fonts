@@ -1,0 +1,12 @@
+{
+  "family": "Noto Serif Tangut",
+  "variants": ["regular"],
+  "subsets": ["tangut"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notoseriftangut/v15/xn76YGc72GKoTvER4Gn3b4m9Ern7Em41fcvN2KT4.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

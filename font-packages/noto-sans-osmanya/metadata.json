@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Osmanya",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "osmanya"],
+  "version": "v18",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansosmanya/v18/8vIS7xs32H97qzQKnzfeWzUyUpOJmz6kR47NCV5Z.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

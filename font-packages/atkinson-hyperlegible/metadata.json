@@ -1,0 +1,15 @@
+{
+  "family": "Atkinson Hyperlegible",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v10",
+  "lastModified": "2023-01-06",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/atkinsonhyperlegible/v10/9Bt73C1KxNDXMspQ1lPyU89-1h6ONRlW45G8WbcNcy-OZFy-FA.ttf",
+    "regular": "http://fonts.gstatic.com/s/atkinsonhyperlegible/v10/9Bt23C1KxNDXMspQ1lPyU89-1h6ONRlW45GE5ZgpewSSbQ.ttf",
+    "italic": "http://fonts.gstatic.com/s/atkinsonhyperlegible/v10/9Bt43C1KxNDXMspQ1lPyU89-1h6ONRlW45G055ItWQGCbUWn.ttf",
+    "700italic": "http://fonts.gstatic.com/s/atkinsonhyperlegible/v10/9Bt93C1KxNDXMspQ1lPyU89-1h6ONRlW45G056qRdiWKRlmuFH24.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

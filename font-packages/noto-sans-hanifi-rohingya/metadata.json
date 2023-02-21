@@ -1,0 +1,15 @@
+{
+  "family": "Noto Sans Hanifi Rohingya",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["hanifi-rohingya", "latin", "latin-ext"],
+  "version": "v22",
+  "lastModified": "2022-12-08",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/notosanshanifirohingya/v22/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIYq4j6vvcudK8rN.ttf",
+    "600": "http://fonts.gstatic.com/s/notosanshanifirohingya/v22/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIbG5T6vvcudK8rN.ttf",
+    "700": "http://fonts.gstatic.com/s/notosanshanifirohingya/v22/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIb_5T6vvcudK8rN.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosanshanifirohingya/v22/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIYY4j6vvcudK8rN.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

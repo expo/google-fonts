@@ -2,10 +2,10 @@
   "family": "Caesar Dressing",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v19",
-  "lastModified": "2022-01-05",
+  "version": "v21",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/caesardressing/v19/yYLx0hLa3vawqtwdswbotmK4vrR3cbb6LZttyg.ttf"
+    "regular": "http://fonts.gstatic.com/s/caesardressing/v21/yYLx0hLa3vawqtwdswbotmK4vrR3cbb6LZttyg.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

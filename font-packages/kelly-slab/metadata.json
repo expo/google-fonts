@@ -2,10 +2,10 @@
   "family": "Kelly Slab",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2020-07-23",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/kellyslab/v11/-W_7XJX0Rz3cxUnJC5t6TkMBf50kbiM.ttf"
+    "regular": "http://fonts.gstatic.com/s/kellyslab/v15/-W_7XJX0Rz3cxUnJC5t6TkMBf50kbiM.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

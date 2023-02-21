@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Nabataean",
+  "variants": ["regular"],
+  "subsets": ["nabataean"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansnabataean/v15/IFS4HfVJndhE3P4b5jnZ34DfsjO330dNoBJ9hK8kMK4.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

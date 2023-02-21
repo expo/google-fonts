@@ -2,10 +2,10 @@
   "family": "Preahvihear",
   "variants": ["regular"],
   "subsets": ["khmer", "latin"],
-  "version": "v25",
-  "lastModified": "2021-12-17",
+  "version": "v27",
+  "lastModified": "2022-04-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/preahvihear/v25/6NUS8F-dNQeEYhzj7uluxswE49FJf8Wv.ttf"
+    "regular": "http://fonts.gstatic.com/s/preahvihear/v27/6NUS8F-dNQeEYhzj7uluxswE49FJf8Wv.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

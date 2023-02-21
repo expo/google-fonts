@@ -1,0 +1,15 @@
+{
+  "family": "Charis SIL",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2022-09-22",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/charissil/v1/oPWJ_kV3l-s-Q8govXvKlEbJRj5dQnSX1ko.ttf",
+    "regular": "http://fonts.gstatic.com/s/charissil/v1/oPWK_kV3l-s-Q8govXvKrPrmYjZ2Xn0.ttf",
+    "italic": "http://fonts.gstatic.com/s/charissil/v1/oPWI_kV3l-s-Q8govXvKnPjsZhRzTn2Ozw.ttf",
+    "700italic": "http://fonts.gstatic.com/s/charissil/v1/oPWX_kV3l-s-Q8govXvKnPjU2jtXRlaSxkrMCQ.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

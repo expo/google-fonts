@@ -2,10 +2,10 @@
   "family": "Limelight",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2022-01-13",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/limelight/v14/XLYkIZL7aopJVbZJHDuYPeNGrnY2TA.ttf"
+    "regular": "http://fonts.gstatic.com/s/limelight/v16/XLYkIZL7aopJVbZJHDuYPeNGrnY2TA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

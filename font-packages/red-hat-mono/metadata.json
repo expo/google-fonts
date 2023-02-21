@@ -1,0 +1,32 @@
+{
+  "family": "Red Hat Mono",
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic"
+  ],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v10",
+  "lastModified": "2022-09-22",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/redhatmono/v10/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQQPI-7HNuW4QuKI.ttf",
+    "500": "http://fonts.gstatic.com/s/redhatmono/v10/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQW_I-7HNuW4QuKI.ttf",
+    "600": "http://fonts.gstatic.com/s/redhatmono/v10/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQYPP-7HNuW4QuKI.ttf",
+    "700": "http://fonts.gstatic.com/s/redhatmono/v10/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQbrP-7HNuW4QuKI.ttf",
+    "regular": "http://fonts.gstatic.com/s/redhatmono/v10/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQV3I-7HNuW4QuKI.ttf",
+    "300italic": "http://fonts.gstatic.com/s/redhatmono/v10/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLTfLHvUwVqKIJuw.ttf",
+    "italic": "http://fonts.gstatic.com/s/redhatmono/v10/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLE_LHvUwVqKIJuw.ttf",
+    "500italic": "http://fonts.gstatic.com/s/redhatmono/v10/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLIfLHvUwVqKIJuw.ttf",
+    "600italic": "http://fonts.gstatic.com/s/redhatmono/v10/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLzfXHvUwVqKIJuw.ttf",
+    "700italic": "http://fonts.gstatic.com/s/redhatmono/v10/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWL9PXHvUwVqKIJuw.ttf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont"
+}

@@ -2,10 +2,10 @@
   "family": "Capriola",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2022-01-13",
+  "version": "v13",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/capriola/v11/wXKoE3YSppcvo1PDln_8L-AinG8y.ttf"
+    "regular": "http://fonts.gstatic.com/s/capriola/v13/wXKoE3YSppcvo1PDln_8L-AinG8y.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

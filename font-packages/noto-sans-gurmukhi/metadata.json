@@ -1,0 +1,20 @@
+{
+  "family": "Noto Sans Gurmukhi",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["gurmukhi", "latin", "latin-ext"],
+  "version": "v20",
+  "lastModified": "2022-09-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notosansgurmukhi/v20/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG1Oe3bxZ_trdp7h.ttf",
+    "200": "http://fonts.gstatic.com/s/notosansgurmukhi/v20/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG3OenbxZ_trdp7h.ttf",
+    "300": "http://fonts.gstatic.com/s/notosansgurmukhi/v20/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG0QenbxZ_trdp7h.ttf",
+    "500": "http://fonts.gstatic.com/s/notosansgurmukhi/v20/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG18enbxZ_trdp7h.ttf",
+    "600": "http://fonts.gstatic.com/s/notosansgurmukhi/v20/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG2QfXbxZ_trdp7h.ttf",
+    "700": "http://fonts.gstatic.com/s/notosansgurmukhi/v20/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG2pfXbxZ_trdp7h.ttf",
+    "800": "http://fonts.gstatic.com/s/notosansgurmukhi/v20/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG3OfXbxZ_trdp7h.ttf",
+    "900": "http://fonts.gstatic.com/s/notosansgurmukhi/v20/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG3nfXbxZ_trdp7h.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosansgurmukhi/v20/w8g9H3EvQP81sInb43inmyN9zZ7hb7ATbSWo4q8dJ74a3cVrYFQ_bogT0-gPeG1OenbxZ_trdp7h.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

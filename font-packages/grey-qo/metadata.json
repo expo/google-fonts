@@ -1,0 +1,10 @@
+{
+  "family": "Grey Qo",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v7",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/greyqo/v7/BXRrvF_Nmv_TyXxNDOtQ9Wf0QcE.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

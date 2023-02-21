@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Tai Viet",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "tai-viet"],
+  "version": "v16",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanstaiviet/v16/8QIUdj3HhN_lv4jf9vsE-9GMOLsaSPZr644fWsRO9w.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

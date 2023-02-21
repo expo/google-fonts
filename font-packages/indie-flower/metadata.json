@@ -2,10 +2,10 @@
   "family": "Indie Flower",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2020-09-10",
+  "version": "v17",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/indieflower/v12/m8JVjfNVeKWVnh3QMuKkFcZlbkGG1dKEDw.ttf"
+    "regular": "http://fonts.gstatic.com/s/indieflower/v17/m8JVjfNVeKWVnh3QMuKkFcZlbkGG1dKEDw.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

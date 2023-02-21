@@ -2,15 +2,15 @@
   "family": "Noto Sans TC",
   "variants": ["100", "300", "regular", "500", "700", "900"],
   "subsets": ["chinese-traditional", "latin"],
-  "version": "v20",
-  "lastModified": "2021-09-14",
+  "version": "v26",
+  "lastModified": "2022-09-27",
   "files": {
-    "100": "http://fonts.gstatic.com/s/notosanstc/v20/-nFlOG829Oofr2wohFbTp9i9WyEJIfNZ1sjy.otf",
-    "300": "http://fonts.gstatic.com/s/notosanstc/v20/-nFkOG829Oofr2wohFbTp9i9kwMvDd1V39Hr7g.otf",
-    "500": "http://fonts.gstatic.com/s/notosanstc/v20/-nFkOG829Oofr2wohFbTp9i9ywIvDd1V39Hr7g.otf",
-    "700": "http://fonts.gstatic.com/s/notosanstc/v20/-nFkOG829Oofr2wohFbTp9i9gwQvDd1V39Hr7g.otf",
-    "900": "http://fonts.gstatic.com/s/notosanstc/v20/-nFkOG829Oofr2wohFbTp9i9uwYvDd1V39Hr7g.otf",
-    "regular": "http://fonts.gstatic.com/s/notosanstc/v20/-nF7OG829Oofr2wohFbTp9iFOSsLA_ZJ1g.otf"
+    "100": "http://fonts.gstatic.com/s/notosanstc/v26/-nFlOG829Oofr2wohFbTp9i9WyEJIfNZ1sjy.otf",
+    "300": "http://fonts.gstatic.com/s/notosanstc/v26/-nFkOG829Oofr2wohFbTp9i9kwMvDd1V39Hr7g.otf",
+    "500": "http://fonts.gstatic.com/s/notosanstc/v26/-nFkOG829Oofr2wohFbTp9i9ywIvDd1V39Hr7g.otf",
+    "700": "http://fonts.gstatic.com/s/notosanstc/v26/-nFkOG829Oofr2wohFbTp9i9gwQvDd1V39Hr7g.otf",
+    "900": "http://fonts.gstatic.com/s/notosanstc/v26/-nFkOG829Oofr2wohFbTp9i9uwYvDd1V39Hr7g.otf",
+    "regular": "http://fonts.gstatic.com/s/notosanstc/v26/-nF7OG829Oofr2wohFbTp9iFOSsLA_ZJ1g.otf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

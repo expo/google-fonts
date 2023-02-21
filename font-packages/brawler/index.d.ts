@@ -7,3 +7,4 @@ export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
 export const Brawler_400Regular: number;
+export const Brawler_700Bold: number;

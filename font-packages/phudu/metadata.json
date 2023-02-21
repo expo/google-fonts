@@ -1,0 +1,18 @@
+{
+  "family": "Phudu",
+  "variants": ["300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2023-02-16",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/phudu/v1/0FlJVPSHk0ya-7OUeO_U-Lwm7PkK62zUSwWuz38Tgg.ttf",
+    "500": "http://fonts.gstatic.com/s/phudu/v1/0FlJVPSHk0ya-7OUeO_U-Lwm7PkKh2zUSwWuz38Tgg.ttf",
+    "600": "http://fonts.gstatic.com/s/phudu/v1/0FlJVPSHk0ya-7OUeO_U-Lwm7PkKa2vUSwWuz38Tgg.ttf",
+    "700": "http://fonts.gstatic.com/s/phudu/v1/0FlJVPSHk0ya-7OUeO_U-Lwm7PkKUmvUSwWuz38Tgg.ttf",
+    "800": "http://fonts.gstatic.com/s/phudu/v1/0FlJVPSHk0ya-7OUeO_U-Lwm7PkKNWvUSwWuz38Tgg.ttf",
+    "900": "http://fonts.gstatic.com/s/phudu/v1/0FlJVPSHk0ya-7OUeO_U-Lwm7PkKHGvUSwWuz38Tgg.ttf",
+    "regular": "http://fonts.gstatic.com/s/phudu/v1/0FlJVPSHk0ya-7OUeO_U-Lwm7PkKtWzUSwWuz38Tgg.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

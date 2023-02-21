@@ -1,0 +1,19 @@
+{
+  "family": "Anek Gurmukhi",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["gurmukhi", "latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2023-01-06",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/anekgurmukhi/v4/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbd5ppXK41H6DjbA.ttf",
+    "200": "http://fonts.gstatic.com/s/anekgurmukhi/v4/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkb95tpXK41H6DjbA.ttf",
+    "300": "http://fonts.gstatic.com/s/anekgurmukhi/v4/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbKZtpXK41H6DjbA.ttf",
+    "500": "http://fonts.gstatic.com/s/anekgurmukhi/v4/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbRZtpXK41H6DjbA.ttf",
+    "600": "http://fonts.gstatic.com/s/anekgurmukhi/v4/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbqZxpXK41H6DjbA.ttf",
+    "700": "http://fonts.gstatic.com/s/anekgurmukhi/v4/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbkJxpXK41H6DjbA.ttf",
+    "800": "http://fonts.gstatic.com/s/anekgurmukhi/v4/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkb95xpXK41H6DjbA.ttf",
+    "regular": "http://fonts.gstatic.com/s/anekgurmukhi/v4/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbd5tpXK41H6DjbA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

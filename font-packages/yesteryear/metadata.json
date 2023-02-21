@@ -2,10 +2,10 @@
   "family": "Yesteryear",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2022-01-13",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/yesteryear/v12/dg4g_p78rroaKl8kRKo1r7wHTwonmyw.ttf"
+    "regular": "http://fonts.gstatic.com/s/yesteryear/v14/dg4g_p78rroaKl8kRKo1r7wHTwonmyw.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

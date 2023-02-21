@@ -2,9 +2,9 @@
   "family": "Slackey",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/slackey/v13/N0bV2SdQO-5yM0-dKlRaJdbWgdY.ttf" },
+  "version": "v24",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/slackey/v24/N0bV2SdQO-5yM0-dKlRaJdbWgdY.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

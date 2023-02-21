@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Batak",
+  "variants": ["regular"],
+  "subsets": ["batak", "latin", "latin-ext"],
+  "version": "v16",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansbatak/v16/gok2H6TwAEdtF9N8-mdTCQvT-Zdgo4_PHuk74A.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

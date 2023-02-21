@@ -13,19 +13,19 @@
     "800italic"
   ],
   "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v19",
-  "lastModified": "2021-11-10",
+  "version": "v26",
+  "lastModified": "2022-09-22",
   "files": {
-    "500": "http://fonts.gstatic.com/s/ebgaramond/v19/~ChoKC0VCIEdhcmFtb25kOgsI9NCduwcVAAD6QyAAKgQIARgB.ttf",
-    "600": "http://fonts.gstatic.com/s/ebgaramond/v19/~ChoKC0VCIEdhcmFtb25kOgsI9NCduwcVAAAWRCAAKgQIARgB.ttf",
-    "700": "http://fonts.gstatic.com/s/ebgaramond/v19/~ChoKC0VCIEdhcmFtb25kOgsI9NCduwcVAAAvRCAAKgQIARgB.ttf",
-    "800": "http://fonts.gstatic.com/s/ebgaramond/v19/~ChoKC0VCIEdhcmFtb25kOgsI9NCduwcVAABIRCAAKgQIARgB.ttf",
-    "regular": "http://fonts.gstatic.com/s/ebgaramond/v19/~ChoKC0VCIEdhcmFtb25kOgsI9NCduwcVAADIQyAAKgQIARgB.ttf",
-    "italic": "http://fonts.gstatic.com/s/ebgaramond/v19/~ChwKC0VCIEdhcmFtb25kEAI6Cwj00J27BxUAAMhDIAAqBAgBGAE=.ttf",
-    "500italic": "http://fonts.gstatic.com/s/ebgaramond/v19/~ChwKC0VCIEdhcmFtb25kEAI6Cwj00J27BxUAAPpDIAAqBAgBGAE=.ttf",
-    "600italic": "http://fonts.gstatic.com/s/ebgaramond/v19/~ChwKC0VCIEdhcmFtb25kEAI6Cwj00J27BxUAABZEIAAqBAgBGAE=.ttf",
-    "700italic": "http://fonts.gstatic.com/s/ebgaramond/v19/~ChwKC0VCIEdhcmFtb25kEAI6Cwj00J27BxUAAC9EIAAqBAgBGAE=.ttf",
-    "800italic": "http://fonts.gstatic.com/s/ebgaramond/v19/~ChwKC0VCIEdhcmFtb25kEAI6Cwj00J27BxUAAEhEIAAqBAgBGAE=.ttf"
+    "500": "http://fonts.gstatic.com/s/ebgaramond/v26/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-2fRUA4V-e6yHgQ.ttf",
+    "600": "http://fonts.gstatic.com/s/ebgaramond/v26/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-NfNUA4V-e6yHgQ.ttf",
+    "700": "http://fonts.gstatic.com/s/ebgaramond/v26/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNUA4V-e6yHgQ.ttf",
+    "800": "http://fonts.gstatic.com/s/ebgaramond/v26/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-a_NUA4V-e6yHgQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/ebgaramond/v26/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RUA4V-e6yHgQ.ttf",
+    "italic": "http://fonts.gstatic.com/s/ebgaramond/v26/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QI96WamXgXFI.ttf",
+    "500italic": "http://fonts.gstatic.com/s/ebgaramond/v26/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7eOQI96WamXgXFI.ttf",
+    "600italic": "http://fonts.gstatic.com/s/ebgaramond/v26/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7diR496WamXgXFI.ttf",
+    "700italic": "http://fonts.gstatic.com/s/ebgaramond/v26/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7dbR496WamXgXFI.ttf",
+    "800italic": "http://fonts.gstatic.com/s/ebgaramond/v26/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7c8R496WamXgXFI.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

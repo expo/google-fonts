@@ -2,9 +2,9 @@
   "family": "Knewave",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2022-01-13",
-  "files": { "regular": "http://fonts.gstatic.com/s/knewave/v12/sykz-yx0lLcxQaSItSq9-trEvlQ.ttf" },
+  "version": "v14",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/knewave/v14/sykz-yx0lLcxQaSItSq9-trEvlQ.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

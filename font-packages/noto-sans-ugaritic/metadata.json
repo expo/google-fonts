@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Ugaritic",
+  "variants": ["regular"],
+  "subsets": ["ugaritic"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansugaritic/v15/3qTwoiqhnSyU8TNFIdhZVCwbjCpkAXXkMhoIkiazfg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

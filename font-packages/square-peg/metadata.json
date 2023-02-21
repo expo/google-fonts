@@ -1,0 +1,12 @@
+{
+  "family": "Square Peg",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/squarepeg/v2/y83eW48Nzw6ZlUHc-phrBDHrHHfrFPE.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

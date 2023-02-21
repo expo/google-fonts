@@ -2,11 +2,11 @@
   "family": "Oleo Script",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-09-02",
+  "version": "v14",
+  "lastModified": "2022-05-10",
   "files": {
-    "700": "http://fonts.gstatic.com/s/oleoscript/v9/raxkHieDvtMOe0iICsUccCDmnmrY2zqUKafv.ttf",
-    "regular": "http://fonts.gstatic.com/s/oleoscript/v9/rax5HieDvtMOe0iICsUccBhasU7Q8Cad.ttf"
+    "700": "http://fonts.gstatic.com/s/oleoscript/v14/raxkHieDvtMOe0iICsUccCDmnmrY2zqUKafv.ttf",
+    "regular": "http://fonts.gstatic.com/s/oleoscript/v14/rax5HieDvtMOe0iICsUccBhasU7Q8Cad.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

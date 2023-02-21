@@ -2,9 +2,9 @@
   "family": "Buda",
   "variants": ["300"],
   "subsets": ["latin"],
-  "version": "v23",
-  "lastModified": "2022-01-11",
-  "files": { "300": "http://fonts.gstatic.com/s/buda/v23/GFDqWAN8mnyIJSSrG7UBr7pZKA0.ttf" },
+  "version": "v25",
+  "lastModified": "2022-09-22",
+  "files": { "300": "http://fonts.gstatic.com/s/buda/v25/GFDqWAN8mnyIJSSrG7UBr7pZKA0.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

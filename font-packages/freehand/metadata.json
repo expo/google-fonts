@@ -2,10 +2,10 @@
   "family": "Freehand",
   "variants": ["regular"],
   "subsets": ["khmer", "latin"],
-  "version": "v25",
-  "lastModified": "2021-12-17",
+  "version": "v27",
+  "lastModified": "2022-04-21",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/freehand/v25/cIf-Ma5eqk01VjKTgAmBTmUOmZJk.ttf"
+    "regular": "http://fonts.gstatic.com/s/freehand/v27/cIf-Ma5eqk01VjKTgAmBTmUOmZJk.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

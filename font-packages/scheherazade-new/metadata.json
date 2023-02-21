@@ -1,0 +1,13 @@
+{
+  "family": "Scheherazade New",
+  "variants": ["regular", "700"],
+  "subsets": ["arabic", "latin", "latin-ext"],
+  "version": "v14",
+  "lastModified": "2022-11-09",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/scheherazadenew/v14/4UaerFhTvxVnHDvUkUiHg8jprP4DM79DHlYC-IKnoSE.ttf",
+    "regular": "http://fonts.gstatic.com/s/scheherazadenew/v14/4UaZrFhTvxVnHDvUkUiHg8jprP4DCwNsOl4p5Is.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

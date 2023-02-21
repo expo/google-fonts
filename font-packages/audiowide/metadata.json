@@ -2,10 +2,10 @@
   "family": "Audiowide",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-09-02",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/audiowide/v9/l7gdbjpo0cum0ckerWCtkQXPExpQBw.ttf"
+    "regular": "http://fonts.gstatic.com/s/audiowide/v16/l7gdbjpo0cum0ckerWCtkQXPExpQBw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

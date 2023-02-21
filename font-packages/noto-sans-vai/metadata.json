@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Vai",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vai"],
+  "version": "v17",
+  "lastModified": "2022-09-28",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansvai/v17/NaPecZTSBuhTirw6IaFn_UrURMTsDIRSfr0.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

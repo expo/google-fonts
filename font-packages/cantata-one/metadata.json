@@ -2,10 +2,10 @@
   "family": "Cantata One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/cantataone/v10/PlI5Fl60Nb5obNzNe2jslVxEt8CwfGaD.ttf"
+    "regular": "http://fonts.gstatic.com/s/cantataone/v15/PlI5Fl60Nb5obNzNe2jslVxEt8CwfGaD.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

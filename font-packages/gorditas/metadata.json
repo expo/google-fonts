@@ -2,11 +2,11 @@
   "family": "Gorditas",
   "variants": ["regular", "700"],
   "subsets": ["latin"],
-  "version": "v18",
-  "lastModified": "2022-01-05",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/gorditas/v18/ll84K2aTVD26DsPEtThUIooIvAoShA1i.ttf",
-    "regular": "http://fonts.gstatic.com/s/gorditas/v18/ll8_K2aTVD26DsPEtQDoDa4AlxYb.ttf"
+    "700": "http://fonts.gstatic.com/s/gorditas/v20/ll84K2aTVD26DsPEtThUIooIvAoShA1i.ttf",
+    "regular": "http://fonts.gstatic.com/s/gorditas/v20/ll8_K2aTVD26DsPEtQDoDa4AlxYb.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Old Turkic",
+  "variants": ["regular"],
+  "subsets": ["old-turkic"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansoldturkic/v15/yMJNMJVya43H0SUF_WmcGEQVqoEMKDKbsE2RjEw-Vyws.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

@@ -2,9 +2,9 @@
   "family": "Coiny",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "tamil", "vietnamese"],
-  "version": "v14",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/coiny/v14/gyByhwU1K989PXwbElSvO5Tc.ttf" },
+  "version": "v16",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/coiny/v16/gyByhwU1K989PXwbElSvO5Tc.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

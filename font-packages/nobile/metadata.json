@@ -2,15 +2,15 @@
   "family": "Nobile",
   "variants": ["regular", "italic", "500", "500italic", "700", "700italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2022-01-13",
+  "version": "v17",
+  "lastModified": "2022-09-22",
   "files": {
-    "500": "http://fonts.gstatic.com/s/nobile/v15/m8JQjflSeaOVl1iOqo7zcJ5BZmqa3A.ttf",
-    "700": "http://fonts.gstatic.com/s/nobile/v15/m8JQjflSeaOVl1iO4ojzcJ5BZmqa3A.ttf",
-    "regular": "http://fonts.gstatic.com/s/nobile/v15/m8JTjflSeaOVl1i2XqfXeLVdbw.ttf",
-    "italic": "http://fonts.gstatic.com/s/nobile/v15/m8JRjflSeaOVl1iGXK3TWrBNb3OD.ttf",
-    "500italic": "http://fonts.gstatic.com/s/nobile/v15/m8JWjflSeaOVl1iGXJUnc5RFRG-K3Mud.ttf",
-    "700italic": "http://fonts.gstatic.com/s/nobile/v15/m8JWjflSeaOVl1iGXJVvdZRFRG-K3Mud.ttf"
+    "500": "http://fonts.gstatic.com/s/nobile/v17/m8JQjflSeaOVl1iOqo7zcJ5BZmqa3A.ttf",
+    "700": "http://fonts.gstatic.com/s/nobile/v17/m8JQjflSeaOVl1iO4ojzcJ5BZmqa3A.ttf",
+    "regular": "http://fonts.gstatic.com/s/nobile/v17/m8JTjflSeaOVl1i2XqfXeLVdbw.ttf",
+    "italic": "http://fonts.gstatic.com/s/nobile/v17/m8JRjflSeaOVl1iGXK3TWrBNb3OD.ttf",
+    "500italic": "http://fonts.gstatic.com/s/nobile/v17/m8JWjflSeaOVl1iGXJUnc5RFRG-K3Mud.ttf",
+    "700italic": "http://fonts.gstatic.com/s/nobile/v17/m8JWjflSeaOVl1iGXJVvdZRFRG-K3Mud.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

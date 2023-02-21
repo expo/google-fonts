@@ -2,10 +2,10 @@
   "family": "Vampiro One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2022-01-05",
+  "version": "v18",
+  "lastModified": "2022-04-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/vampiroone/v16/gokqH6DoDl5yXvJytFsdLkqnsvhIor3K.ttf"
+    "regular": "http://fonts.gstatic.com/s/vampiroone/v18/gokqH6DoDl5yXvJytFsdLkqnsvhIor3K.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

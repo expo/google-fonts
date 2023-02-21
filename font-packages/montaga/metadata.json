@@ -2,9 +2,9 @@
   "family": "Montaga",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/montaga/v11/H4cnBX2Ml8rCkEO_0gYQ7LO5mqc.ttf" },
+  "version": "v13",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/montaga/v13/H4cnBX2Ml8rCkEO_0gYQ7LO5mqc.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

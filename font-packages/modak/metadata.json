@@ -2,9 +2,9 @@
   "family": "Modak",
   "variants": ["regular"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/modak/v16/EJRYQgs1XtIEsnMH8BVZ76KU.ttf" },
+  "version": "v18",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/modak/v18/EJRYQgs1XtIEsnMH8BVZ76KU.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

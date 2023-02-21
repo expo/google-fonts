@@ -1,0 +1,12 @@
+{
+  "family": "Blaka Ink",
+  "variants": ["regular"],
+  "subsets": ["arabic", "latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2022-09-14",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/blakaink/v5/AlZy_zVVtpj22Znag2chdXf4XB0Tow.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

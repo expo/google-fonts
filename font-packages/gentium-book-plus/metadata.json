@@ -1,0 +1,15 @@
+{
+  "family": "Gentium Book Plus",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2022-09-22",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/gentiumbookplus/v1/vEFO2-RHBgUK5fbjKxRpbBtJPyRpocojWpbGhs_cfKe1.ttf",
+    "regular": "http://fonts.gstatic.com/s/gentiumbookplus/v1/vEFL2-RHBgUK5fbjKxRpbBtJPyRpofKfdbLOrdPV.ttf",
+    "italic": "http://fonts.gstatic.com/s/gentiumbookplus/v1/vEFN2-RHBgUK5fbjKxRpbBtJPyRpocKdf7bsqMPVZb4.ttf",
+    "700italic": "http://fonts.gstatic.com/s/gentiumbookplus/v1/vEFA2-RHBgUK5fbjKxRpbBtJPyRpocKdRwrDjMv-ebe1Els.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

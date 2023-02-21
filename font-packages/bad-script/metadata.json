@@ -2,10 +2,10 @@
   "family": "Bad Script",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin"],
-  "version": "v9",
-  "lastModified": "2020-09-02",
+  "version": "v16",
+  "lastModified": "2022-04-20",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/badscript/v9/6NUT8F6PJgbFWQn47_x7lOwuzd1AZtw.ttf"
+    "regular": "http://fonts.gstatic.com/s/badscript/v16/6NUT8F6PJgbFWQn47_x7lOwuzd1AZtw.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

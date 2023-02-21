@@ -1,0 +1,15 @@
+{
+  "family": "Noto Sans New Tai Lue",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext", "new-tai-lue"],
+  "version": "v17",
+  "lastModified": "2022-11-09",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/notosansnewtailue/v17/H4cKBW-Pl9DZ0Xe_nHUapt7PovLXAhAnY7wqaLy-OJgU3p_pddfAYUbghFPKzeY.ttf",
+    "600": "http://fonts.gstatic.com/s/notosansnewtailue/v17/H4cKBW-Pl9DZ0Xe_nHUapt7PovLXAhAnY7wqaLy-OJgU3p_pdTvHYUbghFPKzeY.ttf",
+    "700": "http://fonts.gstatic.com/s/notosansnewtailue/v17/H4cKBW-Pl9DZ0Xe_nHUapt7PovLXAhAnY7wqaLy-OJgU3p_pdQLHYUbghFPKzeY.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosansnewtailue/v17/H4cKBW-Pl9DZ0Xe_nHUapt7PovLXAhAnY7wqaLy-OJgU3p_pdeXAYUbghFPKzeY.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

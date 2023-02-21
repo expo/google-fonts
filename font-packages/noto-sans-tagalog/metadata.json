@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Tagalog",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "tagalog"],
+  "version": "v17",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanstagalog/v17/J7aFnoNzCnFcV9ZI-sUYuvote1R0wwEAA8jHexnL.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

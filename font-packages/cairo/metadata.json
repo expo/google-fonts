@@ -2,17 +2,17 @@
   "family": "Cairo",
   "variants": ["200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2021-11-15",
+  "version": "v22",
+  "lastModified": "2022-11-09",
   "files": {
-    "200": "http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5l2WgsQSaT0J0vRQ.ttf",
-    "300": "http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5lB2gsQSaT0J0vRQ.ttf",
-    "500": "http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5la2gsQSaT0J0vRQ.ttf",
-    "600": "http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5lh28sQSaT0J0vRQ.ttf",
-    "700": "http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5lvm8sQSaT0J0vRQ.ttf",
-    "800": "http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5l2W8sQSaT0J0vRQ.ttf",
-    "900": "http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5l8G8sQSaT0J0vRQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/cairo/v14/SLXVc1nY6HkvangtZmpcWmhzfH5lWWgsQSaT0J0vRQ.ttf"
+    "200": "http://fonts.gstatic.com/s/cairo/v22/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hGA-W1ToLQ-HmkA.ttf",
+    "300": "http://fonts.gstatic.com/s/cairo/v22/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hL4-W1ToLQ-HmkA.ttf",
+    "500": "http://fonts.gstatic.com/s/cairo/v22/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hNI-W1ToLQ-HmkA.ttf",
+    "600": "http://fonts.gstatic.com/s/cairo/v22/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hD45W1ToLQ-HmkA.ttf",
+    "700": "http://fonts.gstatic.com/s/cairo/v22/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hAc5W1ToLQ-HmkA.ttf",
+    "800": "http://fonts.gstatic.com/s/cairo/v22/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hGA5W1ToLQ-HmkA.ttf",
+    "900": "http://fonts.gstatic.com/s/cairo/v22/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hEk5W1ToLQ-HmkA.ttf",
+    "regular": "http://fonts.gstatic.com/s/cairo/v22/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hOA-W1ToLQ-HmkA.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

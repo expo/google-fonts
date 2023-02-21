@@ -1,10 +1,15 @@
 {
   "family": "Andika",
-  "variants": ["regular"],
+  "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v17",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/andika/v17/mem_Ya6iyW-LwqgAbbwRWrwGVA.ttf" },
+  "version": "v22",
+  "lastModified": "2022-09-22",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/andika/v22/mem8Ya6iyW-Lwqg40ZM1UpcaXcl0Aw.ttf",
+    "regular": "http://fonts.gstatic.com/s/andika/v22/mem_Ya6iyW-LwqgAbbwRWrwGVA.ttf",
+    "italic": "http://fonts.gstatic.com/s/andika/v22/mem9Ya6iyW-Lwqgwb7YVeLkWVNBt.ttf",
+    "700italic": "http://fonts.gstatic.com/s/andika/v22/mem6Ya6iyW-Lwqgwb46pV50ef8xkA76a.ttf"
+  },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

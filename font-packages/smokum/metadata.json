@@ -2,9 +2,9 @@
   "family": "Smokum",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/smokum/v13/TK3iWkUbAhopmrdGHjUHte5fKg.ttf" },
+  "version": "v24",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/smokum/v24/TK3iWkUbAhopmrdGHjUHte5fKg.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

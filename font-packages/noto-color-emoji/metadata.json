@@ -1,0 +1,12 @@
+{
+  "family": "Noto Color Emoji",
+  "variants": ["regular"],
+  "subsets": ["emoji"],
+  "version": "v24",
+  "lastModified": "2022-09-26",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notocoloremoji/v24/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFab5s79iz64w.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

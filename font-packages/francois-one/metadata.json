@@ -2,10 +2,10 @@
   "family": "Francois One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v15",
-  "lastModified": "2020-09-02",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/francoisone/v15/_Xmr-H4zszafZw3A-KPSZutNxgKQu_avAg.ttf"
+    "regular": "http://fonts.gstatic.com/s/francoisone/v20/_Xmr-H4zszafZw3A-KPSZutNxgKQu_avAg.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

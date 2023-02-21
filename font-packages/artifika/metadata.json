@@ -2,10 +2,10 @@
   "family": "Artifika",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v18",
-  "lastModified": "2022-01-11",
+  "version": "v21",
+  "lastModified": "2023-01-10",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/artifika/v18/VEMyRoxzronptCuxu6Wt5jDtreOL.ttf"
+    "regular": "http://fonts.gstatic.com/s/artifika/v21/VEMyRoxzronptCuxu6Wt5jDtreOL.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

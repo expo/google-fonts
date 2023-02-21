@@ -2,10 +2,10 @@
   "family": "Coming Soon",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v17",
-  "lastModified": "2022-01-13",
+  "version": "v19",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/comingsoon/v17/qWcuB6mzpYL7AJ2VfdQR1u-SUjjzsykh.ttf"
+    "regular": "http://fonts.gstatic.com/s/comingsoon/v19/qWcuB6mzpYL7AJ2VfdQR1u-SUjjzsykh.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

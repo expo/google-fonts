@@ -9,5 +9,7 @@ export const __metadata__: Any;
 export const FrankRuhlLibre_300Light: number;
 export const FrankRuhlLibre_400Regular: number;
 export const FrankRuhlLibre_500Medium: number;
+export const FrankRuhlLibre_600SemiBold: number;
 export const FrankRuhlLibre_700Bold: number;
+export const FrankRuhlLibre_800ExtraBold: number;
 export const FrankRuhlLibre_900Black: number;

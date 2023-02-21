@@ -2,10 +2,10 @@
   "family": "Ceviche One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2022-01-13",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/cevicheone/v14/gyB4hws1IcA6JzR-GB_JX6zdZ4vZVbgZ.ttf"
+    "regular": "http://fonts.gstatic.com/s/cevicheone/v16/gyB4hws1IcA6JzR-GB_JX6zdZ4vZVbgZ.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

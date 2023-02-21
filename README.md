@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<p align="center">Use any of the 1358 fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
+<p align="center">Use any of the 1488 fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
 
 <p align="center">
   <a aria-label="npm version" href="https://www.npmjs.com/org/expo-google-fonts" target="_blank">
@@ -29,7 +29,7 @@
 # expo-google-fonts
 
 The `@expo-google-fonts` packages for Expo allow you to easily use 
-any of 1358 fonts (and their variants) from 
+any of 1488 fonts (and their variants) from 
 [fonts.google.com](https://fonts.google.com) in your Expo app.
 
 These packages and all these fonts work across web, iOS, and Android and 
@@ -48,41 +48,35 @@ expo install @expo-google-fonts/inter expo-font
 #### In your app
 
 ```js
-import { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
-import { Text, View } from 'react-native';
-import * as SplashScreen from 'expo-splash-screen';
+import { Text, View, StyleSheet } from 'react-native';
+import AppLoading from 'expo-app-loading';
+import {
+  useFonts,
+  Inter_900Black,
+} from '@expo-google-fonts/inter';
 
-import { useFonts, Inter_500Medium } from '@expo-google-fonts/inter';
-
-// Prevent hiding the splash screen
-SplashScreen.preventAutoHideAsync();
-
-export default function App() {
-  // Load the font `Inter_500Medium`
-  const [fontsLoaded] = useFonts({
-    Inter_500Medium,
+export default () => {
+  let [fontsLoaded] = useFonts({
+    Inter_900Black,
   });
 
-  useEffect(() => {
-    if (fontsLoaded) {
-      // Hide the splash screen after the fonts have loaded and the
-      // UI is ready.
-      SplashScreen.hideAsync();
-    }
-  }, [fontsLoaded]);
-
-  // Prevent rendering until the font has loaded
   if (!fontsLoaded) {
-    return null;
-  }
+    return <AppLoading />;
+  } else {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
 
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text style={{ fontFamily: 'Inter_500Medium' }}>Inter Black</Text>
-    </View>
-  );
-}
+        <Text style={{ fontFamily: 'Inter_900Black' }}>
+          Inter Black
+        </Text>
+
+      </View>
+    );
+  }
+};
+
 ```
 
 
@@ -96,11 +90,11 @@ Each individual font family package README includes a complete example of using 
 
 You can browse all available Google Fonts on [fonts.google.com](https://fonts.google.com).
 
-[directory.vercel.app](https://directory.vercel.app/) is a directory / search engine that will 
+[directory.now.sh](https://directory.now.sh/) is a directory / search engine that will 
 let you browse and search through all of the available fonts and show you the appropriate
 `import` statements you'll need so you can copy & paste into your own code.
 
-Here are a few examples of the 4748 variants of 1358 fonts available:
+Here are a few examples of the 5504 variants of 1488 fonts available:
 
 
 ||||

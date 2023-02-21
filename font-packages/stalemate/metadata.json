@@ -2,10 +2,10 @@
   "family": "Stalemate",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2022-01-11",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/stalemate/v18/taiIGmZ_EJq97-UfkZRpuqSs8ZQpaQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/stalemate/v20/taiIGmZ_EJq97-UfkZRpuqSs8ZQpaQ.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

@@ -2,9 +2,9 @@
   "family": "Actor",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/actor/v10/wEOzEBbCkc5cO3ekXygtUMIO.ttf" },
+  "version": "v17",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/actor/v17/wEOzEBbCkc5cO3ekXygtUMIO.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

@@ -2,15 +2,15 @@
   "family": "Inria Serif",
   "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2022-01-05",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "300": "http://fonts.gstatic.com/s/inriaserif/v12/fC14PYxPY3rXxEndZJAzN3wAVQjFhFyta3xN.ttf",
-    "700": "http://fonts.gstatic.com/s/inriaserif/v12/fC14PYxPY3rXxEndZJAzN3wQUgjFhFyta3xN.ttf",
-    "300italic": "http://fonts.gstatic.com/s/inriaserif/v12/fC16PYxPY3rXxEndZJAzN3SuT4THjliPbmxN0_E.ttf",
-    "regular": "http://fonts.gstatic.com/s/inriaserif/v12/fC1lPYxPY3rXxEndZJAzN0SsfSzNr0Ck.ttf",
-    "italic": "http://fonts.gstatic.com/s/inriaserif/v12/fC1nPYxPY3rXxEndZJAzN3SudyjvqlCkcmU.ttf",
-    "700italic": "http://fonts.gstatic.com/s/inriaserif/v12/fC16PYxPY3rXxEndZJAzN3SuT5TAjliPbmxN0_E.ttf"
+    "300": "http://fonts.gstatic.com/s/inriaserif/v14/fC14PYxPY3rXxEndZJAzN3wAVQjFhFyta3xN.ttf",
+    "700": "http://fonts.gstatic.com/s/inriaserif/v14/fC14PYxPY3rXxEndZJAzN3wQUgjFhFyta3xN.ttf",
+    "300italic": "http://fonts.gstatic.com/s/inriaserif/v14/fC16PYxPY3rXxEndZJAzN3SuT4THjliPbmxN0_E.ttf",
+    "regular": "http://fonts.gstatic.com/s/inriaserif/v14/fC1lPYxPY3rXxEndZJAzN0SsfSzNr0Ck.ttf",
+    "italic": "http://fonts.gstatic.com/s/inriaserif/v14/fC1nPYxPY3rXxEndZJAzN3SudyjvqlCkcmU.ttf",
+    "700italic": "http://fonts.gstatic.com/s/inriaserif/v14/fC16PYxPY3rXxEndZJAzN3SuT5TAjliPbmxN0_E.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

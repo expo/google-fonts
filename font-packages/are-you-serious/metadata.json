@@ -1,0 +1,12 @@
+{
+  "family": "Are You Serious",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v10",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/areyouserious/v10/ll8kK2GVSSr-PtjQ5nONVcNn4306hT9nCGRayg.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

@@ -2,10 +2,10 @@
   "family": "La Belle Aurore",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2022-01-13",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/labelleaurore/v14/RrQIbot8-mNYKnGNDkWlocovHeIIG-eFNVmULg.ttf"
+    "regular": "http://fonts.gstatic.com/s/labelleaurore/v16/RrQIbot8-mNYKnGNDkWlocovHeIIG-eFNVmULg.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

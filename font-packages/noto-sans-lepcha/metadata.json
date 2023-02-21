@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Lepcha",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "lepcha"],
+  "version": "v16",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanslepcha/v16/0QI7MWlB_JWgA166SKhu05TekNS32AJstqBXgd4.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

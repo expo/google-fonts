@@ -1,12 +1,12 @@
 {
   "family": "Padauk",
   "variants": ["regular", "700"],
-  "subsets": ["latin", "myanmar"],
-  "version": "v8",
-  "lastModified": "2021-04-01",
+  "subsets": ["latin", "latin-ext", "myanmar"],
+  "version": "v16",
+  "lastModified": "2022-11-09",
   "files": {
-    "700": "http://fonts.gstatic.com/s/padauk/v8/RrQSboJg-id7Onb512DE1JJEZ4YwGg.ttf",
-    "regular": "http://fonts.gstatic.com/s/padauk/v8/RrQRboJg-id7OnbBa0_g3LlYbg.ttf"
+    "700": "http://fonts.gstatic.com/s/padauk/v16/RrQSboJg-id7Onb512DE1JJEZ4YwGg.ttf",
+    "regular": "http://fonts.gstatic.com/s/padauk/v16/RrQRboJg-id7OnbBa0_g3LlYbg.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

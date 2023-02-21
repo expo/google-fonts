@@ -2,11 +2,11 @@
   "family": "Elsie",
   "variants": ["regular", "900"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2020-11-20",
+  "version": "v12",
+  "lastModified": "2022-09-22",
   "files": {
-    "900": "http://fonts.gstatic.com/s/elsie/v11/BCaqqZABrez54x6q2-1IU6QeXSBk.ttf",
-    "regular": "http://fonts.gstatic.com/s/elsie/v11/BCanqZABrez54yYu9slAeLgX.ttf"
+    "900": "http://fonts.gstatic.com/s/elsie/v12/BCaqqZABrez54x6q2-1IU6QeXSBk.ttf",
+    "regular": "http://fonts.gstatic.com/s/elsie/v12/BCanqZABrez54yYu9slAeLgX.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

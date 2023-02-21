@@ -2,11 +2,11 @@
   "family": "Fondamento",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2022-01-11",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/fondamento/v14/4UaHrEJGsxNmFTPDnkaJx63j5pN1MwI.ttf",
-    "italic": "http://fonts.gstatic.com/s/fondamento/v14/4UaFrEJGsxNmFTPDnkaJ96_p4rFwIwJePw.ttf"
+    "regular": "http://fonts.gstatic.com/s/fondamento/v16/4UaHrEJGsxNmFTPDnkaJx63j5pN1MwI.ttf",
+    "italic": "http://fonts.gstatic.com/s/fondamento/v16/4UaFrEJGsxNmFTPDnkaJ96_p4rFwIwJePw.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

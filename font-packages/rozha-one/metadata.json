@@ -2,10 +2,10 @@
   "family": "Rozha One",
   "variants": ["regular"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2022-01-13",
+  "version": "v13",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/rozhaone/v11/AlZy_zVFtYP12Zncg2khdXf4XB0Tow.ttf"
+    "regular": "http://fonts.gstatic.com/s/rozhaone/v13/AlZy_zVFtYP12Zncg2khdXf4XB0Tow.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

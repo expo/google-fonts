@@ -2,9 +2,9 @@
   "family": "Chewy",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/chewy/v12/uK_94ruUb-k-wk5xIDMfO-ed.ttf" },
+  "version": "v18",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/chewy/v18/uK_94ruUb-k-wk5xIDMfO-ed.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

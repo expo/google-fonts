@@ -1,0 +1,20 @@
+{
+  "family": "Noto Sans Kannada",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["kannada", "latin", "latin-ext"],
+  "version": "v21",
+  "lastModified": "2022-09-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notosanskannada/v21/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrDvMzSIMLsPKrkY.ttf",
+    "200": "http://fonts.gstatic.com/s/notosanskannada/v21/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrLvNzSIMLsPKrkY.ttf",
+    "300": "http://fonts.gstatic.com/s/notosanskannada/v21/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrGXNzSIMLsPKrkY.ttf",
+    "500": "http://fonts.gstatic.com/s/notosanskannada/v21/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrAnNzSIMLsPKrkY.ttf",
+    "600": "http://fonts.gstatic.com/s/notosanskannada/v21/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrOXKzSIMLsPKrkY.ttf",
+    "700": "http://fonts.gstatic.com/s/notosanskannada/v21/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrNzKzSIMLsPKrkY.ttf",
+    "800": "http://fonts.gstatic.com/s/notosanskannada/v21/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrLvKzSIMLsPKrkY.ttf",
+    "900": "http://fonts.gstatic.com/s/notosanskannada/v21/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrJLKzSIMLsPKrkY.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosanskannada/v21/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrDvNzSIMLsPKrkY.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

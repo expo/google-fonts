@@ -2,9 +2,9 @@
   "family": "Damion",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/damion/v10/hv-XlzJ3KEUe_YZUbWY3MTFgVg.ttf" },
+  "version": "v14",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/damion/v14/hv-XlzJ3KEUe_YZUbWY3MTFgVg.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

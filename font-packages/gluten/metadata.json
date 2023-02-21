@@ -1,0 +1,20 @@
+{
+  "family": "Gluten",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v9",
+  "lastModified": "2022-09-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/gluten/v9/Hhy_U5gk9fW7OUdVIPh2zD_RSqQJ__A15jgJsn-Bhb_yI8Vb7B1Luni7ciJh.ttf",
+    "200": "http://fonts.gstatic.com/s/gluten/v9/Hhy_U5gk9fW7OUdVIPh2zD_RSqQJ__A15jgJsn-Bhb_yI8Xb7R1Luni7ciJh.ttf",
+    "300": "http://fonts.gstatic.com/s/gluten/v9/Hhy_U5gk9fW7OUdVIPh2zD_RSqQJ__A15jgJsn-Bhb_yI8UF7R1Luni7ciJh.ttf",
+    "500": "http://fonts.gstatic.com/s/gluten/v9/Hhy_U5gk9fW7OUdVIPh2zD_RSqQJ__A15jgJsn-Bhb_yI8Vp7R1Luni7ciJh.ttf",
+    "600": "http://fonts.gstatic.com/s/gluten/v9/Hhy_U5gk9fW7OUdVIPh2zD_RSqQJ__A15jgJsn-Bhb_yI8WF6h1Luni7ciJh.ttf",
+    "700": "http://fonts.gstatic.com/s/gluten/v9/Hhy_U5gk9fW7OUdVIPh2zD_RSqQJ__A15jgJsn-Bhb_yI8W86h1Luni7ciJh.ttf",
+    "800": "http://fonts.gstatic.com/s/gluten/v9/Hhy_U5gk9fW7OUdVIPh2zD_RSqQJ__A15jgJsn-Bhb_yI8Xb6h1Luni7ciJh.ttf",
+    "900": "http://fonts.gstatic.com/s/gluten/v9/Hhy_U5gk9fW7OUdVIPh2zD_RSqQJ__A15jgJsn-Bhb_yI8Xy6h1Luni7ciJh.ttf",
+    "regular": "http://fonts.gstatic.com/s/gluten/v9/Hhy_U5gk9fW7OUdVIPh2zD_RSqQJ__A15jgJsn-Bhb_yI8Vb7R1Luni7ciJh.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

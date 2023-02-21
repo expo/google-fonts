@@ -2,14 +2,14 @@
   "family": "Khand",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-09-02",
+  "version": "v17",
+  "lastModified": "2022-12-08",
   "files": {
-    "300": "http://fonts.gstatic.com/s/khand/v9/TwMN-IINQlQQ0bL5cFE3ZwaH__-C.ttf",
-    "500": "http://fonts.gstatic.com/s/khand/v9/TwMN-IINQlQQ0bKhcVE3ZwaH__-C.ttf",
-    "600": "http://fonts.gstatic.com/s/khand/v9/TwMN-IINQlQQ0bKNdlE3ZwaH__-C.ttf",
-    "700": "http://fonts.gstatic.com/s/khand/v9/TwMN-IINQlQQ0bLpd1E3ZwaH__-C.ttf",
-    "regular": "http://fonts.gstatic.com/s/khand/v9/TwMA-IINQlQQ0YpVWHU_TBqO.ttf"
+    "300": "http://fonts.gstatic.com/s/khand/v17/TwMN-IINQlQQ0bL5cFE3ZwaH__-C.ttf",
+    "500": "http://fonts.gstatic.com/s/khand/v17/TwMN-IINQlQQ0bKhcVE3ZwaH__-C.ttf",
+    "600": "http://fonts.gstatic.com/s/khand/v17/TwMN-IINQlQQ0bKNdlE3ZwaH__-C.ttf",
+    "700": "http://fonts.gstatic.com/s/khand/v17/TwMN-IINQlQQ0bLpd1E3ZwaH__-C.ttf",
+    "regular": "http://fonts.gstatic.com/s/khand/v17/TwMA-IINQlQQ0YpVWHU_TBqO.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

@@ -2,10 +2,10 @@
   "family": "Jockey One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2022-01-13",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/jockeyone/v13/HTxpL2g2KjCFj4x8WI6ArIb7HYOk4xc.ttf"
+    "regular": "http://fonts.gstatic.com/s/jockeyone/v15/HTxpL2g2KjCFj4x8WI6ArIb7HYOk4xc.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

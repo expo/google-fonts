@@ -1,0 +1,12 @@
+{
+  "family": "Send Flowers",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/sendflowers/v2/If2PXTjtZS-0Xqy13uCQSULvxwjjouU1iw.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

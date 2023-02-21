@@ -1,0 +1,13 @@
+{
+  "family": "WindSong",
+  "variants": ["regular", "500"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v7",
+  "lastModified": "2022-09-22",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/windsong/v7/KR1RBsyu-P-GFEW57oeNNPWylS3-jVXm.ttf",
+    "regular": "http://fonts.gstatic.com/s/windsong/v7/KR1WBsyu-P-GFEW57r95HdG6vjH3.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

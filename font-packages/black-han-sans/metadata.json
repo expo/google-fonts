@@ -2,10 +2,10 @@
   "family": "Black Han Sans",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v8",
-  "lastModified": "2019-07-16",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/blackhansans/v8/ea8Aad44WunzF9a-dL6toA8r8nqVIXSkH-Hc.ttf"
+    "regular": "http://fonts.gstatic.com/s/blackhansans/v15/ea8Aad44WunzF9a-dL6toA8r8nqVIXSkH-Hc.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

@@ -2,9 +2,9 @@
   "family": "Frijole",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/frijole/v12/uU9PCBUR8oakM2BQ7xPb3vyHmlI.ttf" },
+  "version": "v14",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/frijole/v14/uU9PCBUR8oakM2BQ7xPb3vyHmlI.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

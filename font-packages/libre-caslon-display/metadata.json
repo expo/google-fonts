@@ -2,10 +2,10 @@
   "family": "Libre Caslon Display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2022-01-11",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/librecaslondisplay/v12/TuGOUUFxWphYQ6YI6q9Xp61FQzxDRKmzr2lRdRhtCC4d.ttf"
+    "regular": "http://fonts.gstatic.com/s/librecaslondisplay/v14/TuGOUUFxWphYQ6YI6q9Xp61FQzxDRKmzr2lRdRhtCC4d.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

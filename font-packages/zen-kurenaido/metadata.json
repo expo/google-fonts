@@ -1,0 +1,12 @@
+{
+  "family": "Zen Kurenaido",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "greek", "japanese", "latin", "latin-ext"],
+  "version": "v12",
+  "lastModified": "2023-01-06",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/zenkurenaido/v12/3XFsEr0515BK2u6UUptu_gWJZfz22PRLd0U.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

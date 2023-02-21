@@ -2,10 +2,10 @@
   "family": "Press Start 2P",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-09-02",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/pressstart2p/v9/e3t4euO8T-267oIAQAu6jDQyK0nSgPJE4580.ttf"
+    "regular": "http://fonts.gstatic.com/s/pressstart2p/v14/e3t4euO8T-267oIAQAu6jDQyK0nSgPJE4580.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

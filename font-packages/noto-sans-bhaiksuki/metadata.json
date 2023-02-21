@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Bhaiksuki",
+  "variants": ["regular"],
+  "subsets": ["bhaiksuki"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansbhaiksuki/v15/UcC63EosKniBH4iELXATsSBWdvUHXxhj8rLUdU4wh9U.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

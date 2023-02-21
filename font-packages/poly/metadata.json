@@ -2,11 +2,11 @@
   "family": "Poly",
   "variants": ["regular", "italic"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2022-01-13",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/poly/v14/MQpb-W6wKNitRLCAq2Lpris.ttf",
-    "italic": "http://fonts.gstatic.com/s/poly/v14/MQpV-W6wKNitdLKKr0DsviuGWA.ttf"
+    "regular": "http://fonts.gstatic.com/s/poly/v16/MQpb-W6wKNitRLCAq2Lpris.ttf",
+    "italic": "http://fonts.gstatic.com/s/poly/v16/MQpV-W6wKNitdLKKr0DsviuGWA.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

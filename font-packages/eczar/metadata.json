@@ -1,15 +1,15 @@
 {
   "family": "Eczar",
   "variants": ["regular", "500", "600", "700", "800"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2021-12-17",
+  "subsets": ["devanagari", "greek", "greek-ext", "latin", "latin-ext"],
+  "version": "v17",
+  "lastModified": "2022-09-22",
   "files": {
-    "500": "http://fonts.gstatic.com/s/eczar/v13/BXRovF3Pi-DLmzXWL8t622v9WNjW.ttf",
-    "600": "http://fonts.gstatic.com/s/eczar/v13/BXRovF3Pi-DLmzX6KMt622v9WNjW.ttf",
-    "700": "http://fonts.gstatic.com/s/eczar/v13/BXRovF3Pi-DLmzWeKct622v9WNjW.ttf",
-    "800": "http://fonts.gstatic.com/s/eczar/v13/BXRovF3Pi-DLmzWCKst622v9WNjW.ttf",
-    "regular": "http://fonts.gstatic.com/s/eczar/v13/BXRlvF3Pi-DLmw0iBu9y8Hf0.ttf"
+    "500": "http://fonts.gstatic.com/s/eczar/v17/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXL96WqTIVKWJKWg.ttf",
+    "600": "http://fonts.gstatic.com/s/eczar/v17/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXw9mWqTIVKWJKWg.ttf",
+    "700": "http://fonts.gstatic.com/s/eczar/v17/BXR2vF3Pi-DLmxcpJB-qbNTyTMDX-tmWqTIVKWJKWg.ttf",
+    "800": "http://fonts.gstatic.com/s/eczar/v17/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXndmWqTIVKWJKWg.ttf",
+    "regular": "http://fonts.gstatic.com/s/eczar/v17/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXHd6WqTIVKWJKWg.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

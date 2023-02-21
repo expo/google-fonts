@@ -1,0 +1,15 @@
+{
+  "family": "Noto Sans Tai Tham",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext", "tai-tham"],
+  "version": "v19",
+  "lastModified": "2022-11-09",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/notosanstaitham/v19/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBBcbPgquyaRGKMw.ttf",
+    "600": "http://fonts.gstatic.com/s/notosanstaitham/v19/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBPscPgquyaRGKMw.ttf",
+    "700": "http://fonts.gstatic.com/s/notosanstaitham/v19/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBMIcPgquyaRGKMw.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosanstaitham/v19/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBCUbPgquyaRGKMw.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

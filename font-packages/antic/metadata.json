@@ -2,9 +2,9 @@
   "family": "Antic",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/antic/v12/TuGfUVB8XY5DRaZLodgzydtk.ttf" },
+  "version": "v19",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/antic/v19/TuGfUVB8XY5DRaZLodgzydtk.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

@@ -2,10 +2,10 @@
   "family": "Italiana",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2022-01-11",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/italiana/v14/QldNNTtLsx4E__B0XTmRY31Wx7Vv.ttf"
+    "regular": "http://fonts.gstatic.com/s/italiana/v16/QldNNTtLsx4E__B0XTmRY31Wx7Vv.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

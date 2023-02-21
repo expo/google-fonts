@@ -2,10 +2,10 @@
   "family": "Odibee Sans",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2022-01-11",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/odibeesans/v12/neIPzCSooYAho6WvjeToRYkyepH9qGsf.ttf"
+    "regular": "http://fonts.gstatic.com/s/odibeesans/v14/neIPzCSooYAho6WvjeToRYkyepH9qGsf.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

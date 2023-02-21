@@ -2,13 +2,13 @@
   "family": "Marvel",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-07-23",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/marvel/v10/nwpWtKeoNgBV0qawLXHgB1WmxwkiYQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/marvel/v10/nwpVtKeoNgBV0qaIkV7ED366zg.ttf",
-    "italic": "http://fonts.gstatic.com/s/marvel/v10/nwpXtKeoNgBV0qa4k1TALXuqzhA7.ttf",
-    "700italic": "http://fonts.gstatic.com/s/marvel/v10/nwpQtKeoNgBV0qa4k2x8Al-i5QwyYdrc.ttf"
+    "700": "http://fonts.gstatic.com/s/marvel/v14/nwpWtKeoNgBV0qawLXHgB1WmxwkiYQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/marvel/v14/nwpVtKeoNgBV0qaIkV7ED366zg.ttf",
+    "italic": "http://fonts.gstatic.com/s/marvel/v14/nwpXtKeoNgBV0qa4k1TALXuqzhA7.ttf",
+    "700italic": "http://fonts.gstatic.com/s/marvel/v14/nwpQtKeoNgBV0qa4k2x8Al-i5QwyYdrc.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

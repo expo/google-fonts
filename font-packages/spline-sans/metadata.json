@@ -1,0 +1,16 @@
+{
+  "family": "Spline Sans",
+  "variants": ["300", "regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2022-09-22",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/splinesans/v8/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpZlnYEtvlUfE2kw.ttf",
+    "500": "http://fonts.gstatic.com/s/splinesans/v8/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpClnYEtvlUfE2kw.ttf",
+    "600": "http://fonts.gstatic.com/s/splinesans/v8/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp5l7YEtvlUfE2kw.ttf",
+    "700": "http://fonts.gstatic.com/s/splinesans/v8/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp317YEtvlUfE2kw.ttf",
+    "regular": "http://fonts.gstatic.com/s/splinesans/v8/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpOFnYEtvlUfE2kw.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

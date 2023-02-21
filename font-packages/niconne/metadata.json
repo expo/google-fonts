@@ -2,9 +2,9 @@
   "family": "Niconne",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/niconne/v10/w8gaH2QvRug1_rTfrQut2F4OuOo.ttf" },
+  "version": "v15",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/niconne/v15/w8gaH2QvRug1_rTfrQut2F4OuOo.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

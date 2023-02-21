@@ -2,15 +2,15 @@
   "family": "Averia Libre",
   "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2020-07-23",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "300": "http://fonts.gstatic.com/s/averialibre/v9/2V0FKIcMGZEnV6xygz7eNjEarovtb07t-pQgTw.ttf",
-    "700": "http://fonts.gstatic.com/s/averialibre/v9/2V0FKIcMGZEnV6xygz7eNjEavoztb07t-pQgTw.ttf",
-    "300italic": "http://fonts.gstatic.com/s/averialibre/v9/2V0HKIcMGZEnV6xygz7eNjESAJFhbUTp2JEwT4Sk.ttf",
-    "regular": "http://fonts.gstatic.com/s/averialibre/v9/2V0aKIcMGZEnV6xygz7eNjEiAqPJZ2Xx8w.ttf",
-    "italic": "http://fonts.gstatic.com/s/averialibre/v9/2V0EKIcMGZEnV6xygz7eNjESAKnNRWDh8405.ttf",
-    "700italic": "http://fonts.gstatic.com/s/averialibre/v9/2V0HKIcMGZEnV6xygz7eNjESAJFxakTp2JEwT4Sk.ttf"
+    "300": "http://fonts.gstatic.com/s/averialibre/v16/2V0FKIcMGZEnV6xygz7eNjEarovtb07t-pQgTw.ttf",
+    "700": "http://fonts.gstatic.com/s/averialibre/v16/2V0FKIcMGZEnV6xygz7eNjEavoztb07t-pQgTw.ttf",
+    "300italic": "http://fonts.gstatic.com/s/averialibre/v16/2V0HKIcMGZEnV6xygz7eNjESAJFhbUTp2JEwT4Sk.ttf",
+    "regular": "http://fonts.gstatic.com/s/averialibre/v16/2V0aKIcMGZEnV6xygz7eNjEiAqPJZ2Xx8w.ttf",
+    "italic": "http://fonts.gstatic.com/s/averialibre/v16/2V0EKIcMGZEnV6xygz7eNjESAKnNRWDh8405.ttf",
+    "700italic": "http://fonts.gstatic.com/s/averialibre/v16/2V0HKIcMGZEnV6xygz7eNjESAJFxakTp2JEwT4Sk.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

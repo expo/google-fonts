@@ -1,0 +1,12 @@
+{
+  "family": "Puppies Play",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/puppiesplay/v5/wlp2gwHZEV99rG6M3NR9uB9vaAJSA_JN3Q.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

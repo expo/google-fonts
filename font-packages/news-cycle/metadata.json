@@ -2,11 +2,11 @@
   "family": "News Cycle",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2020-09-02",
+  "version": "v22",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/newscycle/v17/CSR54z1Qlv-GDxkbKVQ_dFsvaNNUuOwkC2s.ttf",
-    "regular": "http://fonts.gstatic.com/s/newscycle/v17/CSR64z1Qlv-GDxkbKVQ_TOcATNt_pOU.ttf"
+    "700": "http://fonts.gstatic.com/s/newscycle/v22/CSR54z1Qlv-GDxkbKVQ_dFsvaNNUuOwkC2s.ttf",
+    "regular": "http://fonts.gstatic.com/s/newscycle/v22/CSR64z1Qlv-GDxkbKVQ_TOcATNt_pOU.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

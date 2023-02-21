@@ -2,10 +2,10 @@
   "family": "Parisienne",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-09-02",
+  "version": "v13",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/parisienne/v8/E21i_d3kivvAkxhLEVZpcy96DuKuavM.ttf"
+    "regular": "http://fonts.gstatic.com/s/parisienne/v13/E21i_d3kivvAkxhLEVZpcy96DuKuavM.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

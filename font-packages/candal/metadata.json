@@ -2,9 +2,9 @@
   "family": "Candal",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/candal/v10/XoHn2YH6T7-t_8cNAR4Jt9Yxlw.ttf" },
+  "version": "v15",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/candal/v15/XoHn2YH6T7-t_8cNAR4Jt9Yxlw.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

@@ -6,12 +6,12 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const Cormorant_300Light = require('./Cormorant_300Light.ttf');
-export const Cormorant_300Light_Italic = require('./Cormorant_300Light_Italic.ttf');
 export const Cormorant_400Regular = require('./Cormorant_400Regular.ttf');
-export const Cormorant_400Regular_Italic = require('./Cormorant_400Regular_Italic.ttf');
 export const Cormorant_500Medium = require('./Cormorant_500Medium.ttf');
-export const Cormorant_500Medium_Italic = require('./Cormorant_500Medium_Italic.ttf');
 export const Cormorant_600SemiBold = require('./Cormorant_600SemiBold.ttf');
-export const Cormorant_600SemiBold_Italic = require('./Cormorant_600SemiBold_Italic.ttf');
 export const Cormorant_700Bold = require('./Cormorant_700Bold.ttf');
+export const Cormorant_300Light_Italic = require('./Cormorant_300Light_Italic.ttf');
+export const Cormorant_400Regular_Italic = require('./Cormorant_400Regular_Italic.ttf');
+export const Cormorant_500Medium_Italic = require('./Cormorant_500Medium_Italic.ttf');
+export const Cormorant_600SemiBold_Italic = require('./Cormorant_600SemiBold_Italic.ttf');
 export const Cormorant_700Bold_Italic = require('./Cormorant_700Bold_Italic.ttf');

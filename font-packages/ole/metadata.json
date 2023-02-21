@@ -1,0 +1,10 @@
+{
+  "family": "Ole",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/ole/v3/dFazZf6Z-rd89fw69qJ_ew.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

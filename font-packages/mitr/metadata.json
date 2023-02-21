@@ -2,15 +2,15 @@
   "family": "Mitr",
   "variants": ["200", "300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2021-04-01",
+  "version": "v11",
+  "lastModified": "2022-09-22",
   "files": {
-    "200": "http://fonts.gstatic.com/s/mitr/v6/pxiEypw5ucZF8fMZFJDUc1NECPY.ttf",
-    "300": "http://fonts.gstatic.com/s/mitr/v6/pxiEypw5ucZF8ZcaFJDUc1NECPY.ttf",
-    "500": "http://fonts.gstatic.com/s/mitr/v6/pxiEypw5ucZF8c8bFJDUc1NECPY.ttf",
-    "600": "http://fonts.gstatic.com/s/mitr/v6/pxiEypw5ucZF8eMcFJDUc1NECPY.ttf",
-    "700": "http://fonts.gstatic.com/s/mitr/v6/pxiEypw5ucZF8YcdFJDUc1NECPY.ttf",
-    "regular": "http://fonts.gstatic.com/s/mitr/v6/pxiLypw5ucZFyTsyMJj_b1o.ttf"
+    "200": "http://fonts.gstatic.com/s/mitr/v11/pxiEypw5ucZF8fMZFJDUc1NECPY.ttf",
+    "300": "http://fonts.gstatic.com/s/mitr/v11/pxiEypw5ucZF8ZcaFJDUc1NECPY.ttf",
+    "500": "http://fonts.gstatic.com/s/mitr/v11/pxiEypw5ucZF8c8bFJDUc1NECPY.ttf",
+    "600": "http://fonts.gstatic.com/s/mitr/v11/pxiEypw5ucZF8eMcFJDUc1NECPY.ttf",
+    "700": "http://fonts.gstatic.com/s/mitr/v11/pxiEypw5ucZF8YcdFJDUc1NECPY.ttf",
+    "regular": "http://fonts.gstatic.com/s/mitr/v11/pxiLypw5ucZFyTsyMJj_b1o.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

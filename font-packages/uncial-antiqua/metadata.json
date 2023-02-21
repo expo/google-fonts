@@ -2,10 +2,10 @@
   "family": "Uncial Antiqua",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v18",
-  "lastModified": "2022-01-11",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/uncialantiqua/v18/N0bM2S5WOex4OUbESzoESK-i-PfRS5VBBSSF.ttf"
+    "regular": "http://fonts.gstatic.com/s/uncialantiqua/v20/N0bM2S5WOex4OUbESzoESK-i-PfRS5VBBSSF.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

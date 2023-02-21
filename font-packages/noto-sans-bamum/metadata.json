@@ -1,0 +1,15 @@
+{
+  "family": "Noto Sans Bamum",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["bamum", "latin", "latin-ext"],
+  "version": "v26",
+  "lastModified": "2022-11-09",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/notosansbamum/v26/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPEeVO-_gLykxEkxA.ttf",
+    "600": "http://fonts.gstatic.com/s/notosansbamum/v26/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPEQlJ-_gLykxEkxA.ttf",
+    "700": "http://fonts.gstatic.com/s/notosansbamum/v26/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPETBJ-_gLykxEkxA.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosansbamum/v26/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPEddO-_gLykxEkxA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

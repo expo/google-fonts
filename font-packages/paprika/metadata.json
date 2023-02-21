@@ -1,10 +1,10 @@
 {
   "family": "Paprika",
   "variants": ["regular"],
-  "subsets": ["latin"],
-  "version": "v18",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/paprika/v18/8QIJdijZitv49rDfuIgOq7jkAOw.ttf" },
+  "subsets": ["latin", "latin-ext"],
+  "version": "v21",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/paprika/v21/8QIJdijZitv49rDfuIgOq7jkAOw.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

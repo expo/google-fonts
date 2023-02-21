@@ -2,11 +2,11 @@
   "family": "Rosarivo",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2022-01-11",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/rosarivo/v18/PlI-Fl2lO6N9f8HaNAeC2nhMnNy5.ttf",
-    "italic": "http://fonts.gstatic.com/s/rosarivo/v18/PlI4Fl2lO6N9f8HaNDeA0Hxumcy5ZX8.ttf"
+    "regular": "http://fonts.gstatic.com/s/rosarivo/v20/PlI-Fl2lO6N9f8HaNAeC2nhMnNy5.ttf",
+    "italic": "http://fonts.gstatic.com/s/rosarivo/v20/PlI4Fl2lO6N9f8HaNDeA0Hxumcy5ZX8.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

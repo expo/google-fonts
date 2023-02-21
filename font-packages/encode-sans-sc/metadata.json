@@ -1,0 +1,20 @@
+{
+  "family": "Encode Sans SC",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v8",
+  "lastModified": "2022-09-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/encodesanssc/v8/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HHhn8c9NOEEClIc.ttf",
+    "200": "http://fonts.gstatic.com/s/encodesanssc/v8/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HPhm8c9NOEEClIc.ttf",
+    "300": "http://fonts.gstatic.com/s/encodesanssc/v8/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HCZm8c9NOEEClIc.ttf",
+    "500": "http://fonts.gstatic.com/s/encodesanssc/v8/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HEpm8c9NOEEClIc.ttf",
+    "600": "http://fonts.gstatic.com/s/encodesanssc/v8/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HKZh8c9NOEEClIc.ttf",
+    "700": "http://fonts.gstatic.com/s/encodesanssc/v8/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HJ9h8c9NOEEClIc.ttf",
+    "800": "http://fonts.gstatic.com/s/encodesanssc/v8/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HPhh8c9NOEEClIc.ttf",
+    "900": "http://fonts.gstatic.com/s/encodesanssc/v8/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HNFh8c9NOEEClIc.ttf",
+    "regular": "http://fonts.gstatic.com/s/encodesanssc/v8/jVyp7nLwCGzQ9zE7ZyRg0QRXHPZc_uUA6Kb3VJWLE_Pdtm7lcD6qvXT1HHhm8c9NOEEClIc.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

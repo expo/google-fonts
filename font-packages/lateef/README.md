@@ -11,9 +11,15 @@ This package lets you use the [**Lateef**](https://fonts.google.com/specimen/Lat
 
 ![Lateef](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [7 styles](#-gallery).
 
+- `Lateef_200ExtraLight`
+- `Lateef_300Light`
 - `Lateef_400Regular`
+- `Lateef_500Medium`
+- `Lateef_600SemiBold`
+- `Lateef_700Bold`
+- `Lateef_800ExtraBold`
 
 ## Usage
 
@@ -28,11 +34,26 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, Lateef_400Regular } from '@expo-google-fonts/lateef';
+import {
+  useFonts,
+  Lateef_200ExtraLight,
+  Lateef_300Light,
+  Lateef_400Regular,
+  Lateef_500Medium,
+  Lateef_600SemiBold,
+  Lateef_700Bold,
+  Lateef_800ExtraBold,
+} from '@expo-google-fonts/lateef';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    Lateef_200ExtraLight,
+    Lateef_300Light,
     Lateef_400Regular,
+    Lateef_500Medium,
+    Lateef_600SemiBold,
+    Lateef_700Bold,
+    Lateef_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -48,9 +69,69 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lateef_200ExtraLight',
+          }}>
+          Lateef Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lateef_300Light',
+          }}>
+          Lateef Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Lateef_400Regular',
           }}>
           Lateef Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lateef_500Medium',
+          }}>
+          Lateef Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lateef_600SemiBold',
+          }}>
+          Lateef Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lateef_700Bold',
+          }}>
+          Lateef Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Lateef_800ExtraBold',
+          }}>
+          Lateef Extra Bold
         </Text>
       </View>
     );
@@ -64,7 +145,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Lateef_400Regular](./Lateef_400Regular.ttf.png)||||
+|![Lateef_200ExtraLight](./Lateef_200ExtraLight.ttf.png)|![Lateef_300Light](./Lateef_300Light.ttf.png)|![Lateef_400Regular](./Lateef_400Regular.ttf.png)||
+|![Lateef_500Medium](./Lateef_500Medium.ttf.png)|![Lateef_600SemiBold](./Lateef_600SemiBold.ttf.png)|![Lateef_700Bold](./Lateef_700Bold.ttf.png)||
+|![Lateef_800ExtraBold](./Lateef_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -2,11 +2,11 @@
   "family": "Castoro",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2021-03-24",
+  "version": "v18",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/castoro/v8/1q2GY5yMCld3-O4cHYhEzOYenEU.ttf",
-    "italic": "http://fonts.gstatic.com/s/castoro/v8/1q2EY5yMCld3-O4cLYpOyMQbjEX5fw.ttf"
+    "regular": "http://fonts.gstatic.com/s/castoro/v18/1q2GY5yMCld3-O4cHYhEzOYenEU.ttf",
+    "italic": "http://fonts.gstatic.com/s/castoro/v18/1q2EY5yMCld3-O4cLYpOyMQbjEX5fw.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

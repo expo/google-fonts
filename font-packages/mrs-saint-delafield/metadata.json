@@ -2,10 +2,10 @@
   "family": "Mrs Saint Delafield",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-09-02",
+  "version": "v13",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/mrssaintdelafield/v8/v6-IGZDIOVXH9xtmTZfRagunqBw5WC62cK4tLsubB2w.ttf"
+    "regular": "http://fonts.gstatic.com/s/mrssaintdelafield/v13/v6-IGZDIOVXH9xtmTZfRagunqBw5WC62cK4tLsubB2w.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

@@ -2,13 +2,13 @@
   "family": "Volkhov",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2020-09-02",
+  "version": "v17",
+  "lastModified": "2022-04-27",
   "files": {
-    "700": "http://fonts.gstatic.com/s/volkhov/v12/SlGVmQieoJcKemNeeY4hoHRYbDQUego.ttf",
-    "regular": "http://fonts.gstatic.com/s/volkhov/v12/SlGQmQieoJcKemNeQTIOhHxzcD0.ttf",
-    "italic": "http://fonts.gstatic.com/s/volkhov/v12/SlGSmQieoJcKemNecTAEgF52YD0NYw.ttf",
-    "700italic": "http://fonts.gstatic.com/s/volkhov/v12/SlGXmQieoJcKemNecTA8PHFSaBYRagrQrA.ttf"
+    "700": "http://fonts.gstatic.com/s/volkhov/v17/SlGVmQieoJcKemNeeY4hoHRYbDQUego.ttf",
+    "regular": "http://fonts.gstatic.com/s/volkhov/v17/SlGQmQieoJcKemNeQTIOhHxzcD0.ttf",
+    "italic": "http://fonts.gstatic.com/s/volkhov/v17/SlGSmQieoJcKemNecTAEgF52YD0NYw.ttf",
+    "700italic": "http://fonts.gstatic.com/s/volkhov/v17/SlGXmQieoJcKemNecTA8PHFSaBYRagrQrA.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

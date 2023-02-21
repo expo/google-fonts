@@ -2,9 +2,9 @@
   "family": "Allerta",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/allerta/v11/TwMO-IAHRlkbx940UnEdSQqO5uY.ttf" },
+  "version": "v18",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/allerta/v18/TwMO-IAHRlkbx940UnEdSQqO5uY.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

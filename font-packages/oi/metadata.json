@@ -2,9 +2,9 @@
   "family": "Oi",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "tamil", "vietnamese"],
-  "version": "v13",
-  "lastModified": "2021-12-01",
-  "files": { "regular": "http://fonts.gstatic.com/s/oi/v13/w8gXH2EuRqtaut6yjBOG.ttf" },
+  "version": "v15",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/oi/v15/w8gXH2EuRqtaut6yjBOG.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

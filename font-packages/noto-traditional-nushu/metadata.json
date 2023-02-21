@@ -1,0 +1,12 @@
+{
+  "family": "Noto Traditional Nushu",
+  "variants": ["regular"],
+  "subsets": ["nushu"],
+  "version": "v16",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/nototraditionalnushu/v16/SZco3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67J011GNh6SYA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

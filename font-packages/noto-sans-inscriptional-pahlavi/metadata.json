@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Inscriptional Pahlavi",
+  "variants": ["regular"],
+  "subsets": ["inscriptional-pahlavi"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansinscriptionalpahlavi/v15/ll8UK3GaVDuxR-TEqFPIbsR79Xxz9WEKbwsjpz7VklYlC7FCVtqVOAYK0QA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

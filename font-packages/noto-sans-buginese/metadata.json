@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Buginese",
+  "variants": ["regular"],
+  "subsets": ["buginese", "latin", "latin-ext"],
+  "version": "v17",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansbuginese/v17/esDM30ldNv-KYGGJpKGk18phe_7Da6_gtfuEXLmNtw.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

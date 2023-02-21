@@ -2,17 +2,17 @@
   "family": "Brygada 1918",
   "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "vietnamese"],
-  "version": "v15",
-  "lastModified": "2022-01-12",
+  "version": "v21",
+  "lastModified": "2023-01-06",
   "files": {
-    "500": "http://fonts.gstatic.com/s/brygada1918/v15/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y12f-V8Wu5O3gbo.ttf",
-    "600": "http://fonts.gstatic.com/s/brygada1918/v15/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y7GY-V8Wu5O3gbo.ttf",
-    "700": "http://fonts.gstatic.com/s/brygada1918/v15/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y4iY-V8Wu5O3gbo.ttf",
-    "regular": "http://fonts.gstatic.com/s/brygada1918/v15/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y2-f-V8Wu5O3gbo.ttf",
-    "italic": "http://fonts.gstatic.com/s/brygada1918/v15/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfcERwcv7GykboaLg.ttf",
-    "500italic": "http://fonts.gstatic.com/s/brygada1918/v15/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfcIxwcv7GykboaLg.ttf",
-    "600italic": "http://fonts.gstatic.com/s/brygada1918/v15/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfczxscv7GykboaLg.ttf",
-    "700italic": "http://fonts.gstatic.com/s/brygada1918/v15/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfc9hscv7GykboaLg.ttf"
+    "500": "http://fonts.gstatic.com/s/brygada1918/v21/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y12f-V8Wu5O3gbo.ttf",
+    "600": "http://fonts.gstatic.com/s/brygada1918/v21/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y7GY-V8Wu5O3gbo.ttf",
+    "700": "http://fonts.gstatic.com/s/brygada1918/v21/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y4iY-V8Wu5O3gbo.ttf",
+    "regular": "http://fonts.gstatic.com/s/brygada1918/v21/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y2-f-V8Wu5O3gbo.ttf",
+    "italic": "http://fonts.gstatic.com/s/brygada1918/v21/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfcERwcv7GykboaLg.ttf",
+    "500italic": "http://fonts.gstatic.com/s/brygada1918/v21/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfcIxwcv7GykboaLg.ttf",
+    "600italic": "http://fonts.gstatic.com/s/brygada1918/v21/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfczxscv7GykboaLg.ttf",
+    "700italic": "http://fonts.gstatic.com/s/brygada1918/v21/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfc9hscv7GykboaLg.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

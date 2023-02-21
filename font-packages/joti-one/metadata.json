@@ -2,9 +2,9 @@
   "family": "Joti One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/jotione/v19/Z9XVDmdJQAmWm9TwaYTe4u2El6GC.ttf" },
+  "version": "v21",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/jotione/v21/Z9XVDmdJQAmWm9TwaYTe4u2El6GC.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

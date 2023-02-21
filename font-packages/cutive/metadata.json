@@ -2,9 +2,9 @@
   "family": "Cutive",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2022-01-13",
-  "files": { "regular": "http://fonts.gstatic.com/s/cutive/v15/NaPZcZ_fHOhV3Ip7T_hDoyqlZQ.ttf" },
+  "version": "v17",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/cutive/v17/NaPZcZ_fHOhV3Ip7T_hDoyqlZQ.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

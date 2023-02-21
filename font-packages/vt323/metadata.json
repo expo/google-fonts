@@ -2,9 +2,9 @@
   "family": "VT323",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v15",
-  "lastModified": "2022-01-13",
-  "files": { "regular": "http://fonts.gstatic.com/s/vt323/v15/pxiKyp0ihIEF2hsYHpT2dkNE.ttf" },
+  "version": "v17",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/vt323/v17/pxiKyp0ihIEF2hsYHpT2dkNE.ttf" },
   "category": "monospace",
   "kind": "webfonts#webfont"
 }

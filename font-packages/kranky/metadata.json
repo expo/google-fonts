@@ -2,9 +2,9 @@
   "family": "Kranky",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/kranky/v13/hESw6XVgJzlPsFnMpheEZo_H_w.ttf" },
+  "version": "v24",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/kranky/v24/hESw6XVgJzlPsFnMpheEZo_H_w.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

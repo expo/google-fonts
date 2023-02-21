@@ -2,9 +2,9 @@
   "family": "Gidugu",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v19",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/gidugu/v19/L0x8DFMkk1Uf6w3RvPCmRSlUig.ttf" },
+  "version": "v21",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/gidugu/v21/L0x8DFMkk1Uf6w3RvPCmRSlUig.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

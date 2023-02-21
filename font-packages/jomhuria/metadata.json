@@ -2,10 +2,10 @@
   "family": "Jomhuria",
   "variants": ["regular"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2021-03-24",
+  "version": "v18",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/jomhuria/v12/Dxxp8j-TMXf-llKur2b1MOGbC3Dh.ttf"
+    "regular": "http://fonts.gstatic.com/s/jomhuria/v18/Dxxp8j-TMXf-llKur2b1MOGbC3Dh.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

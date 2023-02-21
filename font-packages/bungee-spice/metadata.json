@@ -1,0 +1,12 @@
+{
+  "family": "Bungee Spice",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v8",
+  "lastModified": "2022-09-14",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/bungeespice/v8/nwpTtK2nIhxE0q-IwgSpZBqCzyI-aMPF7Q.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

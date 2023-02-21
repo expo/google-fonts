@@ -1,0 +1,36 @@
+{
+  "family": "Besley",
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic",
+    "800italic",
+    "900italic"
+  ],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v12",
+  "lastModified": "2022-09-22",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/besley/v12/PlIhFlO1MaNwaNGWUC92IOH_mtG4fYTBSdRoFPOl8-E.ttf",
+    "600": "http://fonts.gstatic.com/s/besley/v12/PlIhFlO1MaNwaNGWUC92IOH_mtG4fWjGSdRoFPOl8-E.ttf",
+    "700": "http://fonts.gstatic.com/s/besley/v12/PlIhFlO1MaNwaNGWUC92IOH_mtG4fVHGSdRoFPOl8-E.ttf",
+    "800": "http://fonts.gstatic.com/s/besley/v12/PlIhFlO1MaNwaNGWUC92IOH_mtG4fTbGSdRoFPOl8-E.ttf",
+    "900": "http://fonts.gstatic.com/s/besley/v12/PlIhFlO1MaNwaNGWUC92IOH_mtG4fR_GSdRoFPOl8-E.ttf",
+    "regular": "http://fonts.gstatic.com/s/besley/v12/PlIhFlO1MaNwaNGWUC92IOH_mtG4fbbBSdRoFPOl8-E.ttf",
+    "italic": "http://fonts.gstatic.com/s/besley/v12/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CoZdiENGg4-E04A.ttf",
+    "500italic": "http://fonts.gstatic.com/s/besley/v12/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6Ck5diENGg4-E04A.ttf",
+    "600italic": "http://fonts.gstatic.com/s/besley/v12/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6Cf5BiENGg4-E04A.ttf",
+    "700italic": "http://fonts.gstatic.com/s/besley/v12/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CRpBiENGg4-E04A.ttf",
+    "800italic": "http://fonts.gstatic.com/s/besley/v12/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CIZBiENGg4-E04A.ttf",
+    "900italic": "http://fonts.gstatic.com/s/besley/v12/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CCJBiENGg4-E04A.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

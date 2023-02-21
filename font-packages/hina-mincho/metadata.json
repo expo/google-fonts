@@ -1,0 +1,12 @@
+{
+  "family": "Hina Mincho",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "japanese", "latin", "latin-ext", "vietnamese"],
+  "version": "v8",
+  "lastModified": "2022-09-27",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/hinamincho/v8/2sDaZGBRhpXa2Jjz5w5LAGW8KbkVZTHR.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

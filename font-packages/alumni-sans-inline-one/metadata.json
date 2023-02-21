@@ -1,0 +1,13 @@
+{
+  "family": "Alumni Sans Inline One",
+  "variants": ["regular", "italic"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/alumnisansinlineone/v2/RrQBbpJx9zZ3IXTBOASKp5gJAetBdaihcjbpD3AZcr7xbYw.ttf",
+    "italic": "http://fonts.gstatic.com/s/alumnisansinlineone/v2/RrQDbpJx9zZ3IXTBOASKp5gJAetBdaihcjbpP3ITdpz0fYxcrQ.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

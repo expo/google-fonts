@@ -7,3 +7,4 @@ export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
 export const Fruktur_400Regular: number;
+export const Fruktur_400Regular_Italic: number;

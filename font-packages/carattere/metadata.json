@@ -1,0 +1,12 @@
+{
+  "family": "Carattere",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v7",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/carattere/v7/4iCv6Kp1b9dXlgt_CkvTt2aMH4V_gg.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

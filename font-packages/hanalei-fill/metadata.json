@@ -2,10 +2,10 @@
   "family": "Hanalei Fill",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2022-01-05",
+  "version": "v21",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/hanaleifill/v19/fC1mPYtObGbfyQznIaQzPQiMVwLBplm9aw.ttf"
+    "regular": "http://fonts.gstatic.com/s/hanaleifill/v21/fC1mPYtObGbfyQznIaQzPQiMVwLBplm9aw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

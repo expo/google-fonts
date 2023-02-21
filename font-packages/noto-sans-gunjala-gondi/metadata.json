@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Gunjala Gondi",
+  "variants": ["regular"],
+  "subsets": ["gunjala-gondi"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansgunjalagondi/v15/bWto7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5hcVXYMTK4q1.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

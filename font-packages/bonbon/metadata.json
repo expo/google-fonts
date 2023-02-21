@@ -2,9 +2,9 @@
   "family": "Bonbon",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v24",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/bonbon/v24/0FlVVPeVlFec4ee_cDEAbQY5-A.ttf" },
+  "version": "v26",
+  "lastModified": "2022-04-21",
+  "files": { "regular": "http://fonts.gstatic.com/s/bonbon/v26/0FlVVPeVlFec4ee_cDEAbQY5-A.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

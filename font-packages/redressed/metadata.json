@@ -2,10 +2,10 @@
   "family": "Redressed",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v23",
-  "lastModified": "2022-01-05",
+  "version": "v25",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/redressed/v23/x3dickHUbrmJ7wMy9MsBfPACvy_1BA.ttf"
+    "regular": "http://fonts.gstatic.com/s/redressed/v25/x3dickHUbrmJ7wMy9MsBfPACvy_1BA.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

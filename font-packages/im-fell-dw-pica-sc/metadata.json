@@ -2,10 +2,10 @@
   "family": "IM Fell DW Pica SC",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
+  "version": "v21",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/imfelldwpicasc/v12/0ybjGCAu5PfqkvtGVU15aBhXz3EUrnTW-BiKEUiBGA.ttf"
+    "regular": "http://fonts.gstatic.com/s/imfelldwpicasc/v21/0ybjGCAu5PfqkvtGVU15aBhXz3EUrnTW-BiKEUiBGA.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

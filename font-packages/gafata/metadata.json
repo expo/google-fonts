@@ -2,9 +2,9 @@
   "family": "Gafata",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/gafata/v14/XRXV3I6Cn0VJKon4MuyAbsrVcA.ttf" },
+  "version": "v16",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/gafata/v16/XRXV3I6Cn0VJKon4MuyAbsrVcA.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

@@ -1,0 +1,12 @@
+{
+  "family": "Padyakke Expanded One",
+  "variants": ["regular"],
+  "subsets": ["kannada", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2023-01-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/padyakkeexpandedone/v1/K2FvfY9El_tbR0JfHb6WWvrBaU6XAUvC4IAYOKRkpDjeoQ.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

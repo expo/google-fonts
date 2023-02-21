@@ -2,11 +2,11 @@
   "family": "PT Sans Caption",
   "variants": ["regular", "700"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2020-09-02",
+  "version": "v18",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/ptsanscaption/v13/0FlJVP6Hrxmt7-fsUFhlFXNIlpcSwSrUSwWuz38Tgg.ttf",
-    "regular": "http://fonts.gstatic.com/s/ptsanscaption/v13/0FlMVP6Hrxmt7-fsUFhlFXNIlpcqfQXwQy6yxg.ttf"
+    "700": "http://fonts.gstatic.com/s/ptsanscaption/v18/0FlJVP6Hrxmt7-fsUFhlFXNIlpcSwSrUSwWuz38Tgg.ttf",
+    "regular": "http://fonts.gstatic.com/s/ptsanscaption/v18/0FlMVP6Hrxmt7-fsUFhlFXNIlpcqfQXwQy6yxg.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

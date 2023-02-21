@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Old Hungarian",
+  "variants": ["regular"],
+  "subsets": ["old-hungarian"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansoldhungarian/v15/E213_cD6hP3GwCJPEUssHEM0KqLaHJXg2PiIgRfjbg5nCYXt.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

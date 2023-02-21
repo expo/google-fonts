@@ -2,10 +2,10 @@
   "family": "Electrolize",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2020-09-02",
+  "version": "v14",
+  "lastModified": "2022-04-21",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/electrolize/v9/cIf5Ma1dtE0zSiGSiED7AUEGso5tQafB.ttf"
+    "regular": "http://fonts.gstatic.com/s/electrolize/v14/cIf5Ma1dtE0zSiGSiED7AUEGso5tQafB.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

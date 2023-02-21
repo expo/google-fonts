@@ -1,0 +1,10 @@
+{
+  "family": "Tapestry",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/tapestry/v2/SlGTmQecrosEYXhaGBIkqnB6aSQU.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

@@ -2,11 +2,11 @@
   "family": "Monda",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v11",
-  "lastModified": "2021-04-12",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/monda/v11/TK3gWkYFABsmjsLaGz8Dl-tPKo2t.ttf",
-    "regular": "http://fonts.gstatic.com/s/monda/v11/TK3tWkYFABsmjvpmNBsLvPdG.ttf"
+    "700": "http://fonts.gstatic.com/s/monda/v16/TK3gWkYFABsmjsLaGz8Dl-tPKo2t.ttf",
+    "regular": "http://fonts.gstatic.com/s/monda/v16/TK3tWkYFABsmjvpmNBsLvPdG.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

@@ -1,0 +1,10 @@
+{
+  "family": "Uchen",
+  "variants": ["regular"],
+  "subsets": ["latin", "tibetan"],
+  "version": "v7",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/uchen/v7/nKKZ-GokGZ1baIaSEQGodLxA.ttf" },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

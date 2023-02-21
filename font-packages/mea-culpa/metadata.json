@@ -1,0 +1,12 @@
+{
+  "family": "Mea Culpa",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/meaculpa/v3/AMOTz4GcuWbEIuza8jsZms0QW3mqyg.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

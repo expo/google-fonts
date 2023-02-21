@@ -2,17 +2,17 @@
   "family": "Cuprum",
   "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v14",
-  "lastModified": "2021-01-30",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "500": "http://fonts.gstatic.com/s/cuprum/v14/dg45_pLmvrkcOkBnKsOzXyGWTBcmg9f6ZjzSJjQjgnU.ttf",
-    "600": "http://fonts.gstatic.com/s/cuprum/v14/dg45_pLmvrkcOkBnKsOzXyGWTBcmgzv9ZjzSJjQjgnU.ttf",
-    "700": "http://fonts.gstatic.com/s/cuprum/v14/dg45_pLmvrkcOkBnKsOzXyGWTBcmgwL9ZjzSJjQjgnU.ttf",
-    "regular": "http://fonts.gstatic.com/s/cuprum/v14/dg45_pLmvrkcOkBnKsOzXyGWTBcmg-X6ZjzSJjQjgnU.ttf",
-    "italic": "http://fonts.gstatic.com/s/cuprum/v14/dg47_pLmvrkcOkBNI_FMh0j91rkhli25jn_YIhYmknUPEA.ttf",
-    "500italic": "http://fonts.gstatic.com/s/cuprum/v14/dg47_pLmvrkcOkBNI_FMh0j91rkhli25vH_YIhYmknUPEA.ttf",
-    "600italic": "http://fonts.gstatic.com/s/cuprum/v14/dg47_pLmvrkcOkBNI_FMh0j91rkhli25UHjYIhYmknUPEA.ttf",
-    "700italic": "http://fonts.gstatic.com/s/cuprum/v14/dg47_pLmvrkcOkBNI_FMh0j91rkhli25aXjYIhYmknUPEA.ttf"
+    "500": "http://fonts.gstatic.com/s/cuprum/v20/dg45_pLmvrkcOkBnKsOzXyGWTBcmg9f6ZjzSJjQjgnU.ttf",
+    "600": "http://fonts.gstatic.com/s/cuprum/v20/dg45_pLmvrkcOkBnKsOzXyGWTBcmgzv9ZjzSJjQjgnU.ttf",
+    "700": "http://fonts.gstatic.com/s/cuprum/v20/dg45_pLmvrkcOkBnKsOzXyGWTBcmgwL9ZjzSJjQjgnU.ttf",
+    "regular": "http://fonts.gstatic.com/s/cuprum/v20/dg45_pLmvrkcOkBnKsOzXyGWTBcmg-X6ZjzSJjQjgnU.ttf",
+    "italic": "http://fonts.gstatic.com/s/cuprum/v20/dg47_pLmvrkcOkBNI_FMh0j91rkhli25jn_YIhYmknUPEA.ttf",
+    "500italic": "http://fonts.gstatic.com/s/cuprum/v20/dg47_pLmvrkcOkBNI_FMh0j91rkhli25vH_YIhYmknUPEA.ttf",
+    "600italic": "http://fonts.gstatic.com/s/cuprum/v20/dg47_pLmvrkcOkBNI_FMh0j91rkhli25UHjYIhYmknUPEA.ttf",
+    "700italic": "http://fonts.gstatic.com/s/cuprum/v20/dg47_pLmvrkcOkBNI_FMh0j91rkhli25aXjYIhYmknUPEA.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

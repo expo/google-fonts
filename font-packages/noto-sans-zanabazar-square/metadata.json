@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Zanabazar Square",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "zanabazar-square"],
+  "version": "v16",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanszanabazarsquare/v16/Cn-jJsuGWQxOjaGwMQ6fOicyxLBEMRfDtkzl4uagQtJxOCEgN0Gc.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

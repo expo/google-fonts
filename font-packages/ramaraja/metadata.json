@@ -2,10 +2,10 @@
   "family": "Ramaraja",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v13",
-  "lastModified": "2022-01-11",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/ramaraja/v13/SlGTmQearpYAYG1CABIkqnB6aSQU.ttf"
+    "regular": "http://fonts.gstatic.com/s/ramaraja/v15/SlGTmQearpYAYG1CABIkqnB6aSQU.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

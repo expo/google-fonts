@@ -1,0 +1,15 @@
+{
+  "family": "Kaisei Tokumin",
+  "variants": ["regular", "500", "700", "800"],
+  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2022-09-27",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/kaiseitokumin/v8/Gg8vN5wdZg7xCwuMsylww2ZiQnqr_3khpMIzeI6v.ttf",
+    "700": "http://fonts.gstatic.com/s/kaiseitokumin/v8/Gg8vN5wdZg7xCwuMsylww2ZiQnrj-XkhpMIzeI6v.ttf",
+    "800": "http://fonts.gstatic.com/s/kaiseitokumin/v8/Gg8vN5wdZg7xCwuMsylww2ZiQnr_-nkhpMIzeI6v.ttf",
+    "regular": "http://fonts.gstatic.com/s/kaiseitokumin/v8/Gg8sN5wdZg7xCwuMsylww2ZiQkJf1l0pj946.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

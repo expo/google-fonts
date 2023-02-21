@@ -1,0 +1,13 @@
+{
+  "family": "Fragment Mono",
+  "variants": ["regular", "italic"],
+  "subsets": ["cyrillic-ext", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/fragmentmono/v1/4iCr6K5wfMRRjxp0DA6-2CLnN4RNh4UI_1U.ttf",
+    "italic": "http://fonts.gstatic.com/s/fragmentmono/v1/4iC16K5wfMRRjxp0DA6-2CLnB4ZHg6cN71URtQ.ttf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont"
+}

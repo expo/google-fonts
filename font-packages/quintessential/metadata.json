@@ -2,10 +2,10 @@
   "family": "Quintessential",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2022-01-05",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/quintessential/v18/fdNn9sOGq31Yjnh3qWU14DdtjY5wS7kmAyxM.ttf"
+    "regular": "http://fonts.gstatic.com/s/quintessential/v20/fdNn9sOGq31Yjnh3qWU14DdtjY5wS7kmAyxM.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

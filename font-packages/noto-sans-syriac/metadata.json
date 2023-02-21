@@ -1,0 +1,14 @@
+{
+  "family": "Noto Sans Syriac",
+  "variants": ["100", "regular", "900"],
+  "subsets": ["syriac"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notosanssyriac/v15/KtkwAKuMeZjqPnXgyqribqzQqgW0D-e9XaRE7sX5Cg.ttf",
+    "900": "http://fonts.gstatic.com/s/notosanssyriac/v15/KtkxAKuMeZjqPnXgyqribqzQqgW0DweafY5q4szgE-Q.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosanssyriac/v15/Ktk2AKuMeZjqPnXgyqribqzQqgW0N4O3WYZB_sU.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

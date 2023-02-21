@@ -1,0 +1,15 @@
+{
+  "family": "Noto Serif Toto",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext", "toto"],
+  "version": "v1",
+  "lastModified": "2023-01-06",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/notoseriftoto/v1/Ktk6ALSMeZjqPnXk1rCkHYHNtwvtHItpjRP74dHhCx_Il-aj55vdNug.ttf",
+    "600": "http://fonts.gstatic.com/s/notoseriftoto/v1/Ktk6ALSMeZjqPnXk1rCkHYHNtwvtHItpjRP74dHhC_PPl-aj55vdNug.ttf",
+    "700": "http://fonts.gstatic.com/s/notoseriftoto/v1/Ktk6ALSMeZjqPnXk1rCkHYHNtwvtHItpjRP74dHhC8rPl-aj55vdNug.ttf",
+    "regular": "http://fonts.gstatic.com/s/notoseriftoto/v1/Ktk6ALSMeZjqPnXk1rCkHYHNtwvtHItpjRP74dHhCy3Il-aj55vdNug.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

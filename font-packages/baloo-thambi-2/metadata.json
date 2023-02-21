@@ -2,14 +2,14 @@
   "family": "Baloo Thambi 2",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["latin", "latin-ext", "tamil", "vietnamese"],
-  "version": "v9",
-  "lastModified": "2021-12-17",
+  "version": "v16",
+  "lastModified": "2022-11-09",
   "files": {
-    "500": "http://fonts.gstatic.com/s/baloothambi2/v9/cY9RfjeOW0NHpmOQXranrbDyu5JMJmNp-aDvUBbK_8IzaQRG_n4osQ.ttf",
-    "600": "http://fonts.gstatic.com/s/baloothambi2/v9/cY9RfjeOW0NHpmOQXranrbDyu5JMJmNp-aDvUBbKE8UzaQRG_n4osQ.ttf",
-    "700": "http://fonts.gstatic.com/s/baloothambi2/v9/cY9RfjeOW0NHpmOQXranrbDyu5JMJmNp-aDvUBbKKsUzaQRG_n4osQ.ttf",
-    "800": "http://fonts.gstatic.com/s/baloothambi2/v9/cY9RfjeOW0NHpmOQXranrbDyu5JMJmNp-aDvUBbKTcUzaQRG_n4osQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/baloothambi2/v9/cY9RfjeOW0NHpmOQXranrbDyu5JMJmNp-aDvUBbKzcIzaQRG_n4osQ.ttf"
+    "500": "http://fonts.gstatic.com/s/baloothambi2/v16/cY9RfjeOW0NHpmOQXranrbDyu5JMJmNp-aDvUBbK_8IzaQRG_n4osQ.ttf",
+    "600": "http://fonts.gstatic.com/s/baloothambi2/v16/cY9RfjeOW0NHpmOQXranrbDyu5JMJmNp-aDvUBbKE8UzaQRG_n4osQ.ttf",
+    "700": "http://fonts.gstatic.com/s/baloothambi2/v16/cY9RfjeOW0NHpmOQXranrbDyu5JMJmNp-aDvUBbKKsUzaQRG_n4osQ.ttf",
+    "800": "http://fonts.gstatic.com/s/baloothambi2/v16/cY9RfjeOW0NHpmOQXranrbDyu5JMJmNp-aDvUBbKTcUzaQRG_n4osQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/baloothambi2/v16/cY9RfjeOW0NHpmOQXranrbDyu5JMJmNp-aDvUBbKzcIzaQRG_n4osQ.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

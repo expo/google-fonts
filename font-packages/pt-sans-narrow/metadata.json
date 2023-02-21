@@ -2,11 +2,11 @@
   "family": "PT Sans Narrow",
   "variants": ["regular", "700"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2020-09-10",
+  "version": "v17",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/ptsansnarrow/v12/BngSUXNadjH0qYEzV7ab-oWlsbg95DiCUfzgRd-3.ttf",
-    "regular": "http://fonts.gstatic.com/s/ptsansnarrow/v12/BngRUXNadjH0qYEzV7ab-oWlsYCByxyKeuDp.ttf"
+    "700": "http://fonts.gstatic.com/s/ptsansnarrow/v17/BngSUXNadjH0qYEzV7ab-oWlsbg95DiCUfzgRd-3.ttf",
+    "regular": "http://fonts.gstatic.com/s/ptsansnarrow/v17/BngRUXNadjH0qYEzV7ab-oWlsYCByxyKeuDp.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

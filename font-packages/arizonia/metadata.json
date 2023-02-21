@@ -1,11 +1,11 @@
 {
   "family": "Arizonia",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2020-07-23",
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v19",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/arizonia/v11/neIIzCemt4A5qa7mv6WGHK06UY30.ttf"
+    "regular": "http://fonts.gstatic.com/s/arizonia/v19/neIIzCemt4A5qa7mv6WGHK06UY30.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

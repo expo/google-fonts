@@ -1,0 +1,16 @@
+{
+  "family": "Baloo Bhaijaan 2",
+  "variants": ["regular", "500", "600", "700", "800"],
+  "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
+  "version": "v14",
+  "lastModified": "2022-11-09",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/baloobhaijaan2/v14/zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8TyjSqP4L4ppfcyC.ttf",
+    "600": "http://fonts.gstatic.com/s/baloobhaijaan2/v14/zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8TxPTaP4L4ppfcyC.ttf",
+    "700": "http://fonts.gstatic.com/s/baloobhaijaan2/v14/zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8Tx2TaP4L4ppfcyC.ttf",
+    "800": "http://fonts.gstatic.com/s/baloobhaijaan2/v14/zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8TwRTaP4L4ppfcyC.ttf",
+    "regular": "http://fonts.gstatic.com/s/baloobhaijaan2/v14/zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8TyRSqP4L4ppfcyC.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

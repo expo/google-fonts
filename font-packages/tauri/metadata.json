@@ -2,9 +2,9 @@
   "family": "Tauri",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/tauri/v14/TwMA-IISS0AM3IpVWHU_TBqO.ttf" },
+  "version": "v16",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/tauri/v16/TwMA-IISS0AM3IpVWHU_TBqO.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

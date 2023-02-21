@@ -2,10 +2,10 @@
   "family": "Give You Glory",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2022-01-13",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/giveyouglory/v13/8QIQdiHOgt3vv4LR7ahjw9-XYc1zB4ZD6rwa.ttf"
+    "regular": "http://fonts.gstatic.com/s/giveyouglory/v15/8QIQdiHOgt3vv4LR7ahjw9-XYc1zB4ZD6rwa.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

@@ -2,9 +2,9 @@
   "family": "Inder",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/inder/v12/w8gUH2YoQe8_4vq6pw-P3U4O.ttf" },
+  "version": "v14",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/inder/v14/w8gUH2YoQe8_4vq6pw-P3U4O.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

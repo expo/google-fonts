@@ -1,0 +1,12 @@
+{
+  "family": "Yuji Syuku",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2022-09-27",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/yujisyuku/v5/BngNUXdTV3vO6Lw5ApOPqPfgwqiA-Rk.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

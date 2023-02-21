@@ -2,9 +2,9 @@
   "family": "Monoton",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/monoton/v10/5h1aiZUrOngCibe4fkbBQ2S7FU8.ttf" },
+  "version": "v15",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/monoton/v15/5h1aiZUrOngCibe4fkbBQ2S7FU8.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

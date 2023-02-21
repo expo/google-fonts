@@ -2,10 +2,10 @@
   "family": "Goblin One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v20",
-  "lastModified": "2022-01-11",
+  "version": "v22",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/goblinone/v20/CSR64z1ZnOqZRjRCBVY_TOcATNt_pOU.ttf"
+    "regular": "http://fonts.gstatic.com/s/goblinone/v22/CSR64z1ZnOqZRjRCBVY_TOcATNt_pOU.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

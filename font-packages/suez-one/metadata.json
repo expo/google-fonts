@@ -2,9 +2,9 @@
   "family": "Suez One",
   "variants": ["regular"],
   "subsets": ["hebrew", "latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/suezone/v5/taiJGmd_EZ6rqscQgNFJkIqg-I0w.ttf" },
+  "version": "v11",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/suezone/v11/taiJGmd_EZ6rqscQgNFJkIqg-I0w.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

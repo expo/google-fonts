@@ -2,10 +2,10 @@
   "family": "Cute Font",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v18",
-  "lastModified": "2022-01-05",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/cutefont/v18/Noaw6Uny2oWPbSHMrY6vmJNVNC9hkw.ttf"
+    "regular": "http://fonts.gstatic.com/s/cutefont/v20/Noaw6Uny2oWPbSHMrY6vmJNVNC9hkw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

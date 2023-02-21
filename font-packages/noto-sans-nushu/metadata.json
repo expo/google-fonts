@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Nushu",
+  "variants": ["regular"],
+  "subsets": ["nushu"],
+  "version": "v18",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansnushu/v18/rnCw-xRQ3B7652emAbAe_Ai1IYaFWFAMArZKqQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

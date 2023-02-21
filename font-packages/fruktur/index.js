@@ -6,3 +6,4 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const Fruktur_400Regular = require('./Fruktur_400Regular.ttf');
+export const Fruktur_400Regular_Italic = require('./Fruktur_400Regular_Italic.ttf');

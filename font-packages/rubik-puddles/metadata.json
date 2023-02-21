@@ -1,0 +1,12 @@
+{
+  "family": "Rubik Puddles",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/rubikpuddles/v2/1Ptog8bYX_qGnkLkrU5MJsQcJfC0wVMT-aE.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

@@ -1,0 +1,12 @@
+{
+  "family": "Inspiration",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/inspiration/v3/x3dkckPPZa6L4wIg5cZOEvoGnSrlBBsy.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

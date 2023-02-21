@@ -1,0 +1,20 @@
+{
+  "family": "M PLUS 2",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["japanese", "latin", "latin-ext", "vietnamese"],
+  "version": "v6",
+  "lastModified": "2022-09-27",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/mplus2/v6/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkwOa-VxlqHrzNgAw.ttf",
+    "200": "http://fonts.gstatic.com/s/mplus2/v6/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkwua6VxlqHrzNgAw.ttf",
+    "300": "http://fonts.gstatic.com/s/mplus2/v6/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkwZ66VxlqHrzNgAw.ttf",
+    "500": "http://fonts.gstatic.com/s/mplus2/v6/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkwC66VxlqHrzNgAw.ttf",
+    "600": "http://fonts.gstatic.com/s/mplus2/v6/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkw56mVxlqHrzNgAw.ttf",
+    "700": "http://fonts.gstatic.com/s/mplus2/v6/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkw3qmVxlqHrzNgAw.ttf",
+    "800": "http://fonts.gstatic.com/s/mplus2/v6/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkwuamVxlqHrzNgAw.ttf",
+    "900": "http://fonts.gstatic.com/s/mplus2/v6/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkwkKmVxlqHrzNgAw.ttf",
+    "regular": "http://fonts.gstatic.com/s/mplus2/v6/7Auhp_Eq3gO_OGbGGhjdwrDdpeIBxlkwOa6VxlqHrzNgAw.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

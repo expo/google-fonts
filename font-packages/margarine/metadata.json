@@ -2,10 +2,10 @@
   "family": "Margarine",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2022-01-05",
+  "version": "v21",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/margarine/v19/qkBXXvoE6trLT9Y7YLye5JRLkAXbMQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/margarine/v21/qkBXXvoE6trLT9Y7YLye5JRLkAXbMQ.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

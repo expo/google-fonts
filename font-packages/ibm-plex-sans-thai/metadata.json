@@ -1,0 +1,18 @@
+{
+  "family": "IBM Plex Sans Thai",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+  "subsets": ["cyrillic-ext", "latin", "latin-ext", "thai"],
+  "version": "v9",
+  "lastModified": "2022-11-09",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/ibmplexsansthai/v9/m8JNje1VVIzcq1HzJq2AEdo2Tj_qvLqEatYlR8ZKUqcX.ttf",
+    "200": "http://fonts.gstatic.com/s/ibmplexsansthai/v9/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqExvcFbehGW74OXw.ttf",
+    "300": "http://fonts.gstatic.com/s/ibmplexsansthai/v9/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqEovQFbehGW74OXw.ttf",
+    "500": "http://fonts.gstatic.com/s/ibmplexsansthai/v9/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE-vUFbehGW74OXw.ttf",
+    "600": "http://fonts.gstatic.com/s/ibmplexsansthai/v9/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE1vIFbehGW74OXw.ttf",
+    "700": "http://fonts.gstatic.com/s/ibmplexsansthai/v9/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqEsvMFbehGW74OXw.ttf",
+    "regular": "http://fonts.gstatic.com/s/ibmplexsansthai/v9/m8JPje1VVIzcq1HzJq2AEdo2Tj_qvLq8DtwhZcNaUg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

@@ -2,16 +2,16 @@
   "family": "Sansita Swashed",
   "variants": ["300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2021-03-19",
+  "version": "v17",
+  "lastModified": "2022-09-22",
   "files": {
-    "300": "http://fonts.gstatic.com/s/sansitaswashed/v5/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW-ppbToVehmEa4Q.ttf",
-    "500": "http://fonts.gstatic.com/s/sansitaswashed/v5/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW4ZpbToVehmEa4Q.ttf",
-    "600": "http://fonts.gstatic.com/s/sansitaswashed/v5/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW2pubToVehmEa4Q.ttf",
-    "700": "http://fonts.gstatic.com/s/sansitaswashed/v5/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW1NubToVehmEa4Q.ttf",
-    "800": "http://fonts.gstatic.com/s/sansitaswashed/v5/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSWzRubToVehmEa4Q.ttf",
-    "900": "http://fonts.gstatic.com/s/sansitaswashed/v5/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSWx1ubToVehmEa4Q.ttf",
-    "regular": "http://fonts.gstatic.com/s/sansitaswashed/v5/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW7RpbToVehmEa4Q.ttf"
+    "300": "http://fonts.gstatic.com/s/sansitaswashed/v17/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW-ppbToVehmEa4Q.ttf",
+    "500": "http://fonts.gstatic.com/s/sansitaswashed/v17/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW4ZpbToVehmEa4Q.ttf",
+    "600": "http://fonts.gstatic.com/s/sansitaswashed/v17/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW2pubToVehmEa4Q.ttf",
+    "700": "http://fonts.gstatic.com/s/sansitaswashed/v17/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW1NubToVehmEa4Q.ttf",
+    "800": "http://fonts.gstatic.com/s/sansitaswashed/v17/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSWzRubToVehmEa4Q.ttf",
+    "900": "http://fonts.gstatic.com/s/sansitaswashed/v17/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSWx1ubToVehmEa4Q.ttf",
+    "regular": "http://fonts.gstatic.com/s/sansitaswashed/v17/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW7RpbToVehmEa4Q.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

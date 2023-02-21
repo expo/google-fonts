@@ -1,0 +1,15 @@
+{
+  "family": "Noto Sans Kayah Li",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["kayah-li", "latin", "latin-ext"],
+  "version": "v20",
+  "lastModified": "2022-11-09",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/notosanskayahli/v20/B50nF61OpWTRcGrhOVJJwOMXdca6Yecki3E06x2jVTX3WBU3CZH4EXLuKVM.ttf",
+    "600": "http://fonts.gstatic.com/s/notosanskayahli/v20/B50nF61OpWTRcGrhOVJJwOMXdca6Yecki3E06x2jVTX3WPkwCZH4EXLuKVM.ttf",
+    "700": "http://fonts.gstatic.com/s/notosanskayahli/v20/B50nF61OpWTRcGrhOVJJwOMXdca6Yecki3E06x2jVTX3WMAwCZH4EXLuKVM.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosanskayahli/v20/B50nF61OpWTRcGrhOVJJwOMXdca6Yecki3E06x2jVTX3WCc3CZH4EXLuKVM.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

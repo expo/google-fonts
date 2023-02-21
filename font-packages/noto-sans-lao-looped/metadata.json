@@ -1,0 +1,20 @@
+{
+  "family": "Noto Sans Lao Looped",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["lao", "latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2022-11-09",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notosanslaolooped/v2/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomPr2M-Zw5V_T71k.ttf",
+    "200": "http://fonts.gstatic.com/s/notosanslaolooped/v2/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomHr3M-Zw5V_T71k.ttf",
+    "300": "http://fonts.gstatic.com/s/notosanslaolooped/v2/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomKT3M-Zw5V_T71k.ttf",
+    "500": "http://fonts.gstatic.com/s/notosanslaolooped/v2/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomMj3M-Zw5V_T71k.ttf",
+    "600": "http://fonts.gstatic.com/s/notosanslaolooped/v2/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomCTwM-Zw5V_T71k.ttf",
+    "700": "http://fonts.gstatic.com/s/notosanslaolooped/v2/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomB3wM-Zw5V_T71k.ttf",
+    "800": "http://fonts.gstatic.com/s/notosanslaolooped/v2/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomHrwM-Zw5V_T71k.ttf",
+    "900": "http://fonts.gstatic.com/s/notosanslaolooped/v2/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomFPwM-Zw5V_T71k.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosanslaolooped/v2/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomPr3M-Zw5V_T71k.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

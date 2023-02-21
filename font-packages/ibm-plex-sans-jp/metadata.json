@@ -1,0 +1,18 @@
+{
+  "family": "IBM Plex Sans JP",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "version": "v3",
+  "lastModified": "2022-11-09",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/ibmplexsansjp/v3/Z9XLDn9KbTDf6_f7dISNqYf_tvPT7E7yjPB7twdmHQ.ttf",
+    "200": "http://fonts.gstatic.com/s/ibmplexsansjp/v3/Z9XKDn9KbTDf6_f7dISNqYf_tvPT7OLTrNpVuw5_BAM.ttf",
+    "300": "http://fonts.gstatic.com/s/ibmplexsansjp/v3/Z9XKDn9KbTDf6_f7dISNqYf_tvPT7IbQrNpVuw5_BAM.ttf",
+    "500": "http://fonts.gstatic.com/s/ibmplexsansjp/v3/Z9XKDn9KbTDf6_f7dISNqYf_tvPT7N7RrNpVuw5_BAM.ttf",
+    "600": "http://fonts.gstatic.com/s/ibmplexsansjp/v3/Z9XKDn9KbTDf6_f7dISNqYf_tvPT7PLWrNpVuw5_BAM.ttf",
+    "700": "http://fonts.gstatic.com/s/ibmplexsansjp/v3/Z9XKDn9KbTDf6_f7dISNqYf_tvPT7JbXrNpVuw5_BAM.ttf",
+    "regular": "http://fonts.gstatic.com/s/ibmplexsansjp/v3/Z9XNDn9KbTDf6_f7dISNqYf_tvPT1Cr4iNJ-pwc.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

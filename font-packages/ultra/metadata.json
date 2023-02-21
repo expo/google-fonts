@@ -2,9 +2,9 @@
   "family": "Ultra",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/ultra/v13/zOLy4prXmrtY-tT6yLOD6NxF.ttf" },
+  "version": "v19",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/ultra/v19/zOLy4prXmrtY-tT6yLOD6NxF.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

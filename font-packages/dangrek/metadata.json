@@ -2,9 +2,9 @@
   "family": "Dangrek",
   "variants": ["regular"],
   "subsets": ["khmer", "latin"],
-  "version": "v24",
-  "lastModified": "2021-12-17",
-  "files": { "regular": "http://fonts.gstatic.com/s/dangrek/v24/LYjCdG30nEgoH8E2gCNqqVIuTN4.ttf" },
+  "version": "v26",
+  "lastModified": "2022-04-21",
+  "files": { "regular": "http://fonts.gstatic.com/s/dangrek/v26/LYjCdG30nEgoH8E2gCNqqVIuTN4.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

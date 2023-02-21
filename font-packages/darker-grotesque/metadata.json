@@ -2,16 +2,16 @@
   "family": "Darker Grotesque",
   "variants": ["300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v2",
-  "lastModified": "2020-07-23",
+  "version": "v7",
+  "lastModified": "2022-09-22",
   "files": {
-    "300": "http://fonts.gstatic.com/s/darkergrotesque/v2/U9MA6cuh-mLQlC4BKCtayOfARkSVoxr2AW8hTOsXsX0.ttf",
-    "500": "http://fonts.gstatic.com/s/darkergrotesque/v2/U9MA6cuh-mLQlC4BKCtayOfARkSVo0L3AW8hTOsXsX0.ttf",
-    "600": "http://fonts.gstatic.com/s/darkergrotesque/v2/U9MA6cuh-mLQlC4BKCtayOfARkSVo27wAW8hTOsXsX0.ttf",
-    "700": "http://fonts.gstatic.com/s/darkergrotesque/v2/U9MA6cuh-mLQlC4BKCtayOfARkSVowrxAW8hTOsXsX0.ttf",
-    "800": "http://fonts.gstatic.com/s/darkergrotesque/v2/U9MA6cuh-mLQlC4BKCtayOfARkSVoxbyAW8hTOsXsX0.ttf",
-    "900": "http://fonts.gstatic.com/s/darkergrotesque/v2/U9MA6cuh-mLQlC4BKCtayOfARkSVozLzAW8hTOsXsX0.ttf",
-    "regular": "http://fonts.gstatic.com/s/darkergrotesque/v2/U9MH6cuh-mLQlC4BKCtayOfARkSVm7beJWcKUOI.ttf"
+    "300": "http://fonts.gstatic.com/s/darkergrotesque/v7/U9MA6cuh-mLQlC4BKCtayOfARkSVoxr2AW8hTOsXsX0.ttf",
+    "500": "http://fonts.gstatic.com/s/darkergrotesque/v7/U9MA6cuh-mLQlC4BKCtayOfARkSVo0L3AW8hTOsXsX0.ttf",
+    "600": "http://fonts.gstatic.com/s/darkergrotesque/v7/U9MA6cuh-mLQlC4BKCtayOfARkSVo27wAW8hTOsXsX0.ttf",
+    "700": "http://fonts.gstatic.com/s/darkergrotesque/v7/U9MA6cuh-mLQlC4BKCtayOfARkSVowrxAW8hTOsXsX0.ttf",
+    "800": "http://fonts.gstatic.com/s/darkergrotesque/v7/U9MA6cuh-mLQlC4BKCtayOfARkSVoxbyAW8hTOsXsX0.ttf",
+    "900": "http://fonts.gstatic.com/s/darkergrotesque/v7/U9MA6cuh-mLQlC4BKCtayOfARkSVozLzAW8hTOsXsX0.ttf",
+    "regular": "http://fonts.gstatic.com/s/darkergrotesque/v7/U9MH6cuh-mLQlC4BKCtayOfARkSVm7beJWcKUOI.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

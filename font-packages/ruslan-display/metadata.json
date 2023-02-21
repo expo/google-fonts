@@ -2,10 +2,10 @@
   "family": "Ruslan Display",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2021-03-19",
+  "version": "v22",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/ruslandisplay/v13/Gw6jwczl81XcIZuckK_e3UpfdzxrldyFvm1n.ttf"
+    "regular": "http://fonts.gstatic.com/s/ruslandisplay/v22/Gw6jwczl81XcIZuckK_e3UpfdzxrldyFvm1n.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

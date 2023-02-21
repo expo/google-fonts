@@ -1,0 +1,12 @@
+{
+  "family": "Flow Rounded",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v7",
+  "lastModified": "2023-01-06",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/flowrounded/v7/-zki91mtwsU9qlLiGwD4oQX3oZX-Xup87g.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

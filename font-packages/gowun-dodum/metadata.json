@@ -1,0 +1,12 @@
+{
+  "family": "Gowun Dodum",
+  "variants": ["regular"],
+  "subsets": ["korean", "latin", "latin-ext", "vietnamese"],
+  "version": "v7",
+  "lastModified": "2022-09-27",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/gowundodum/v7/3Jn5SD_00GqwlBnWc1TUJF0FfORL0fNy.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

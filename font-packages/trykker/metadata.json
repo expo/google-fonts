@@ -2,9 +2,9 @@
   "family": "Trykker",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2022-01-13",
-  "files": { "regular": "http://fonts.gstatic.com/s/trykker/v19/KtktALyWZJXudUPzhNnoOd2j22U.ttf" },
+  "version": "v21",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/trykker/v21/KtktALyWZJXudUPzhNnoOd2j22U.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

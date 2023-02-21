@@ -2,13 +2,13 @@
   "family": "Caladea",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2022-01-11",
+  "version": "v7",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/caladea/v5/kJE2BugZ7AAjhybUtaNY39oYqO52FZ0.ttf",
-    "regular": "http://fonts.gstatic.com/s/caladea/v5/kJEzBugZ7AAjhybUjR93-9IztOc.ttf",
-    "italic": "http://fonts.gstatic.com/s/caladea/v5/kJExBugZ7AAjhybUvR19__A2pOdvDA.ttf",
-    "700italic": "http://fonts.gstatic.com/s/caladea/v5/kJE0BugZ7AAjhybUvR1FQ98SrMxzBZ2lDA.ttf"
+    "700": "http://fonts.gstatic.com/s/caladea/v7/kJE2BugZ7AAjhybUtaNY39oYqO52FZ0.ttf",
+    "regular": "http://fonts.gstatic.com/s/caladea/v7/kJEzBugZ7AAjhybUjR93-9IztOc.ttf",
+    "italic": "http://fonts.gstatic.com/s/caladea/v7/kJExBugZ7AAjhybUvR19__A2pOdvDA.ttf",
+    "700italic": "http://fonts.gstatic.com/s/caladea/v7/kJE0BugZ7AAjhybUvR1FQ98SrMxzBZ2lDA.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

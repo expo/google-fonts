@@ -11,13 +11,13 @@
     "latin-ext",
     "vietnamese"
   ],
-  "version": "v17",
-  "lastModified": "2021-03-24",
+  "version": "v25",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/cousine/v17/d6lNkaiiRdih4SpP9Z8K6T7G09BlnmQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/cousine/v17/d6lIkaiiRdih4SpPzSMlzTbtz9k.ttf",
-    "italic": "http://fonts.gstatic.com/s/cousine/v17/d6lKkaiiRdih4SpP_SEvyRTo39l8hw.ttf",
-    "700italic": "http://fonts.gstatic.com/s/cousine/v17/d6lPkaiiRdih4SpP_SEXdTvM1_JgjmRpOA.ttf"
+    "700": "http://fonts.gstatic.com/s/cousine/v25/d6lNkaiiRdih4SpP9Z8K6T7G09BlnmQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/cousine/v25/d6lIkaiiRdih4SpPzSMlzTbtz9k.ttf",
+    "italic": "http://fonts.gstatic.com/s/cousine/v25/d6lKkaiiRdih4SpP_SEvyRTo39l8hw.ttf",
+    "700italic": "http://fonts.gstatic.com/s/cousine/v25/d6lPkaiiRdih4SpP_SEXdTvM1_JgjmRpOA.ttf"
   },
   "category": "monospace",
   "kind": "webfonts#webfont"

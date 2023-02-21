@@ -1,0 +1,10 @@
+{
+  "family": "Smooch",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/smooch/v5/o-0LIps4xW8U1xUBjqp_6hVdYg.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

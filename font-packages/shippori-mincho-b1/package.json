@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/shippori-mincho-b1",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Use the Shippori Mincho B1 font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",

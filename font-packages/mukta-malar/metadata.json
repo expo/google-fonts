@@ -2,16 +2,16 @@
   "family": "Mukta Malar",
   "variants": ["200", "300", "regular", "500", "600", "700", "800"],
   "subsets": ["latin", "latin-ext", "tamil"],
-  "version": "v7",
-  "lastModified": "2020-09-02",
+  "version": "v12",
+  "lastModified": "2022-09-22",
   "files": {
-    "200": "http://fonts.gstatic.com/s/muktamalar/v7/MCoKzAXyz8LOE2FpJMxZqIMwBtAB62ruoAZW.ttf",
-    "300": "http://fonts.gstatic.com/s/muktamalar/v7/MCoKzAXyz8LOE2FpJMxZqINUBdAB62ruoAZW.ttf",
-    "500": "http://fonts.gstatic.com/s/muktamalar/v7/MCoKzAXyz8LOE2FpJMxZqIMMBNAB62ruoAZW.ttf",
-    "600": "http://fonts.gstatic.com/s/muktamalar/v7/MCoKzAXyz8LOE2FpJMxZqIMgA9AB62ruoAZW.ttf",
-    "700": "http://fonts.gstatic.com/s/muktamalar/v7/MCoKzAXyz8LOE2FpJMxZqINEAtAB62ruoAZW.ttf",
-    "800": "http://fonts.gstatic.com/s/muktamalar/v7/MCoKzAXyz8LOE2FpJMxZqINYAdAB62ruoAZW.ttf",
-    "regular": "http://fonts.gstatic.com/s/muktamalar/v7/MCoXzAXyz8LOE2FpJMxZqLv4LfQJwHbn.ttf"
+    "200": "http://fonts.gstatic.com/s/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqIMwBtAB62ruoAZW.ttf",
+    "300": "http://fonts.gstatic.com/s/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqINUBdAB62ruoAZW.ttf",
+    "500": "http://fonts.gstatic.com/s/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqIMMBNAB62ruoAZW.ttf",
+    "600": "http://fonts.gstatic.com/s/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqIMgA9AB62ruoAZW.ttf",
+    "700": "http://fonts.gstatic.com/s/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqINEAtAB62ruoAZW.ttf",
+    "800": "http://fonts.gstatic.com/s/muktamalar/v12/MCoKzAXyz8LOE2FpJMxZqINYAdAB62ruoAZW.ttf",
+    "regular": "http://fonts.gstatic.com/s/muktamalar/v12/MCoXzAXyz8LOE2FpJMxZqLv4LfQJwHbn.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

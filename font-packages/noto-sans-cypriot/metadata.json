@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Cypriot",
+  "variants": ["regular"],
+  "subsets": ["cypriot"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanscypriot/v15/8AtzGta9PYqQDjyp79a6f8Cj-3a3cxIsK5MPpahF.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans NKo",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "nko"],
+  "version": "v2",
+  "lastModified": "2023-01-25",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansnko/v2/esDX31ZdNv-KYGGJpKGk2_RpMpCMHMLBrdA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

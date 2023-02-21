@@ -2,10 +2,10 @@
   "family": "Pompiere",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2022-01-13",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/pompiere/v13/VEMyRoxis5Dwuyeov6Wt5jDtreOL.ttf"
+    "regular": "http://fonts.gstatic.com/s/pompiere/v15/VEMyRoxis5Dwuyeov6Wt5jDtreOL.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

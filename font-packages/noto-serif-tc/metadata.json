@@ -2,16 +2,16 @@
   "family": "Noto Serif TC",
   "variants": ["200", "300", "regular", "500", "600", "700", "900"],
   "subsets": ["chinese-traditional", "latin"],
-  "version": "v17",
-  "lastModified": "2021-09-14",
+  "version": "v23",
+  "lastModified": "2022-09-27",
   "files": {
-    "200": "http://fonts.gstatic.com/s/notoseriftc/v17/XLY9IZb5bJNDGYxLBibeHZ0Bvr8vbX9GTsoOAX4.otf",
-    "300": "http://fonts.gstatic.com/s/notoseriftc/v17/XLY9IZb5bJNDGYxLBibeHZ0BvtssbX9GTsoOAX4.otf",
-    "500": "http://fonts.gstatic.com/s/notoseriftc/v17/XLY9IZb5bJNDGYxLBibeHZ0BvoMtbX9GTsoOAX4.otf",
-    "600": "http://fonts.gstatic.com/s/notoseriftc/v17/XLY9IZb5bJNDGYxLBibeHZ0Bvq8qbX9GTsoOAX4.otf",
-    "700": "http://fonts.gstatic.com/s/notoseriftc/v17/XLY9IZb5bJNDGYxLBibeHZ0BvssrbX9GTsoOAX4.otf",
-    "900": "http://fonts.gstatic.com/s/notoseriftc/v17/XLY9IZb5bJNDGYxLBibeHZ0BvvMpbX9GTsoOAX4.otf",
-    "regular": "http://fonts.gstatic.com/s/notoseriftc/v17/XLYgIZb5bJNDGYxLBibeHZ0BhnEESXFtUsM.otf"
+    "200": "http://fonts.gstatic.com/s/notoseriftc/v23/XLY9IZb5bJNDGYxLBibeHZ0Bvr8vbX9GTsoOAX4.otf",
+    "300": "http://fonts.gstatic.com/s/notoseriftc/v23/XLY9IZb5bJNDGYxLBibeHZ0BvtssbX9GTsoOAX4.otf",
+    "500": "http://fonts.gstatic.com/s/notoseriftc/v23/XLY9IZb5bJNDGYxLBibeHZ0BvoMtbX9GTsoOAX4.otf",
+    "600": "http://fonts.gstatic.com/s/notoseriftc/v23/XLY9IZb5bJNDGYxLBibeHZ0Bvq8qbX9GTsoOAX4.otf",
+    "700": "http://fonts.gstatic.com/s/notoseriftc/v23/XLY9IZb5bJNDGYxLBibeHZ0BvssrbX9GTsoOAX4.otf",
+    "900": "http://fonts.gstatic.com/s/notoseriftc/v23/XLY9IZb5bJNDGYxLBibeHZ0BvvMpbX9GTsoOAX4.otf",
+    "regular": "http://fonts.gstatic.com/s/notoseriftc/v23/XLYgIZb5bJNDGYxLBibeHZ0BhnEESXFtUsM.otf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

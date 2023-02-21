@@ -2,9 +2,9 @@
   "family": "Esteban",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2022-01-13",
-  "files": { "regular": "http://fonts.gstatic.com/s/esteban/v12/r05bGLZE-bdGdN-GdOuD5jokU8E.ttf" },
+  "version": "v14",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/esteban/v14/r05bGLZE-bdGdN-GdOuD5jokU8E.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

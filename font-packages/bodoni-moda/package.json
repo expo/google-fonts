@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/bodoni-moda",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Use the Bodoni Moda font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/expo/google-fonts.git",

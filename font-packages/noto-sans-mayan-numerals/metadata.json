@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Mayan Numerals",
+  "variants": ["regular"],
+  "subsets": ["mayan-numerals"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansmayannumerals/v15/PlIuFk25O6RzLfvNNVSivR09_KqYMwvvDKYjfIiE68oo6eepYQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

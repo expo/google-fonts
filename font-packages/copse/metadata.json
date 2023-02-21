@@ -2,9 +2,9 @@
   "family": "Copse",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2022-01-13",
-  "files": { "regular": "http://fonts.gstatic.com/s/copse/v13/11hPGpDKz1rGb0djHkihUb-A.ttf" },
+  "version": "v15",
+  "lastModified": "2022-04-21",
+  "files": { "regular": "http://fonts.gstatic.com/s/copse/v15/11hPGpDKz1rGb0djHkihUb-A.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

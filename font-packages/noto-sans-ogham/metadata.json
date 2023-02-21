@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Ogham",
+  "variants": ["regular"],
+  "subsets": ["ogham"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansogham/v15/kmKlZqk1GBDGN0mY6k5lmEmww4hrt5laQxcoCA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

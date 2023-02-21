@@ -1,0 +1,15 @@
+{
+  "family": "Noto Sans Adlam",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["adlam", "latin", "latin-ext"],
+  "version": "v21",
+  "lastModified": "2022-09-22",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/notosansadlam/v21/neIczCCpqp0s5pPusPamd81eMfjPonvqdbYxxpgufkn0TGnBZLwhuvk.ttf",
+    "600": "http://fonts.gstatic.com/s/notosansadlam/v21/neIczCCpqp0s5pPusPamd81eMfjPonvqdbYxxpgufqXzTGnBZLwhuvk.ttf",
+    "700": "http://fonts.gstatic.com/s/notosansadlam/v21/neIczCCpqp0s5pPusPamd81eMfjPonvqdbYxxpgufpzzTGnBZLwhuvk.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosansadlam/v21/neIczCCpqp0s5pPusPamd81eMfjPonvqdbYxxpgufnv0TGnBZLwhuvk.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

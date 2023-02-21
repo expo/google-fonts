@@ -2,10 +2,10 @@
   "family": "Rouge Script",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2022-01-13",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/rougescript/v12/LYjFdGbiklMoCIQOw1Ep3S4PVPXbUJWq9g.ttf"
+    "regular": "http://fonts.gstatic.com/s/rougescript/v14/LYjFdGbiklMoCIQOw1Ep3S4PVPXbUJWq9g.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

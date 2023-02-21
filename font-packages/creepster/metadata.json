@@ -2,10 +2,10 @@
   "family": "Creepster",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2020-07-23",
+  "version": "v13",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/creepster/v9/AlZy_zVUqJz4yMrniH4hdXf4XB0Tow.ttf"
+    "regular": "http://fonts.gstatic.com/s/creepster/v13/AlZy_zVUqJz4yMrniH4hdXf4XB0Tow.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

@@ -2,9 +2,9 @@
   "family": "Lobster",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v23",
-  "lastModified": "2020-09-10",
-  "files": { "regular": "http://fonts.gstatic.com/s/lobster/v23/neILzCirqoswsqX9_oWsMqEzSJQ.ttf" },
+  "version": "v28",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/lobster/v28/neILzCirqoswsqX9_oWsMqEzSJQ.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

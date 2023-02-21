@@ -2,13 +2,13 @@
   "family": "Philosopher",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "vietnamese"],
-  "version": "v14",
-  "lastModified": "2020-09-02",
+  "version": "v19",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/philosopher/v14/vEFI2_5QCwIS4_Dhez5jcWjVamgc-NaXXq7H.ttf",
-    "regular": "http://fonts.gstatic.com/s/philosopher/v14/vEFV2_5QCwIS4_Dhez5jcVBpRUwU08qe.ttf",
-    "italic": "http://fonts.gstatic.com/s/philosopher/v14/vEFX2_5QCwIS4_Dhez5jcWBrT0g21tqeR7c.ttf",
-    "700italic": "http://fonts.gstatic.com/s/philosopher/v14/vEFK2_5QCwIS4_Dhez5jcWBrd_QZ8tK1W77HtMo.ttf"
+    "700": "http://fonts.gstatic.com/s/philosopher/v19/vEFI2_5QCwIS4_Dhez5jcWjVamgc-NaXXq7H.ttf",
+    "regular": "http://fonts.gstatic.com/s/philosopher/v19/vEFV2_5QCwIS4_Dhez5jcVBpRUwU08qe.ttf",
+    "italic": "http://fonts.gstatic.com/s/philosopher/v19/vEFX2_5QCwIS4_Dhez5jcWBrT0g21tqeR7c.ttf",
+    "700italic": "http://fonts.gstatic.com/s/philosopher/v19/vEFK2_5QCwIS4_Dhez5jcWBrd_QZ8tK1W77HtMo.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

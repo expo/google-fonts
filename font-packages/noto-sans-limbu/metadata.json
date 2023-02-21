@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Limbu",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "limbu"],
+  "version": "v22",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanslimbu/v22/3JnlSDv90Gmq2mrzckOBBRRoNJVj0MF3OHRDnA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

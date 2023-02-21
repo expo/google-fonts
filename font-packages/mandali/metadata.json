@@ -2,9 +2,9 @@
   "family": "Mandali",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v9",
-  "lastModified": "2020-07-23",
-  "files": { "regular": "http://fonts.gstatic.com/s/mandali/v9/LhWlMVbYOfASNfNUVFk1ZPdcKtA.ttf" },
+  "version": "v14",
+  "lastModified": "2022-04-26",
+  "files": { "regular": "http://fonts.gstatic.com/s/mandali/v14/LhWlMVbYOfASNfNUVFk1ZPdcKtA.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

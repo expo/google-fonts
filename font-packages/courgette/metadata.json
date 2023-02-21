@@ -2,10 +2,10 @@
   "family": "Courgette",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-09-02",
+  "version": "v13",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/courgette/v8/wEO_EBrAnc9BLjLQAUkFUfAL3EsHiA.ttf"
+    "regular": "http://fonts.gstatic.com/s/courgette/v13/wEO_EBrAnc9BLjLQAUkFUfAL3EsHiA.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

@@ -1,0 +1,18 @@
+{
+  "family": "Gemunu Libre",
+  "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["latin", "latin-ext", "sinhala"],
+  "version": "v8",
+  "lastModified": "2022-09-22",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/gemunulibre/v8/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp05iJPvSLeMXPIWA.ttf",
+    "300": "http://fonts.gstatic.com/s/gemunulibre/v8/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp00aJPvSLeMXPIWA.ttf",
+    "500": "http://fonts.gstatic.com/s/gemunulibre/v8/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0yqJPvSLeMXPIWA.ttf",
+    "600": "http://fonts.gstatic.com/s/gemunulibre/v8/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp08aOPvSLeMXPIWA.ttf",
+    "700": "http://fonts.gstatic.com/s/gemunulibre/v8/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0_-OPvSLeMXPIWA.ttf",
+    "800": "http://fonts.gstatic.com/s/gemunulibre/v8/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp05iOPvSLeMXPIWA.ttf",
+    "regular": "http://fonts.gstatic.com/s/gemunulibre/v8/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0xiJPvSLeMXPIWA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

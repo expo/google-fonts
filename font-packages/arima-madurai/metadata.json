@@ -2,17 +2,17 @@
   "family": "Arima Madurai",
   "variants": ["100", "200", "300", "regular", "500", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "tamil", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2021-04-12",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "100": "http://fonts.gstatic.com/s/arimamadurai/v7/t5t4IRoeKYORG0WNMgnC3seB1V3PqrGCch4Drg.ttf",
-    "200": "http://fonts.gstatic.com/s/arimamadurai/v7/t5t7IRoeKYORG0WNMgnC3seB1fHuipusfhcat2c.ttf",
-    "300": "http://fonts.gstatic.com/s/arimamadurai/v7/t5t7IRoeKYORG0WNMgnC3seB1ZXtipusfhcat2c.ttf",
-    "500": "http://fonts.gstatic.com/s/arimamadurai/v7/t5t7IRoeKYORG0WNMgnC3seB1c3sipusfhcat2c.ttf",
-    "700": "http://fonts.gstatic.com/s/arimamadurai/v7/t5t7IRoeKYORG0WNMgnC3seB1YXqipusfhcat2c.ttf",
-    "800": "http://fonts.gstatic.com/s/arimamadurai/v7/t5t7IRoeKYORG0WNMgnC3seB1Znpipusfhcat2c.ttf",
-    "900": "http://fonts.gstatic.com/s/arimamadurai/v7/t5t7IRoeKYORG0WNMgnC3seB1b3oipusfhcat2c.ttf",
-    "regular": "http://fonts.gstatic.com/s/arimamadurai/v7/t5tmIRoeKYORG0WNMgnC3seB7TnFrpOHYh4.ttf"
+    "100": "http://fonts.gstatic.com/s/arimamadurai/v14/t5t4IRoeKYORG0WNMgnC3seB1V3PqrGCch4Drg.ttf",
+    "200": "http://fonts.gstatic.com/s/arimamadurai/v14/t5t7IRoeKYORG0WNMgnC3seB1fHuipusfhcat2c.ttf",
+    "300": "http://fonts.gstatic.com/s/arimamadurai/v14/t5t7IRoeKYORG0WNMgnC3seB1ZXtipusfhcat2c.ttf",
+    "500": "http://fonts.gstatic.com/s/arimamadurai/v14/t5t7IRoeKYORG0WNMgnC3seB1c3sipusfhcat2c.ttf",
+    "700": "http://fonts.gstatic.com/s/arimamadurai/v14/t5t7IRoeKYORG0WNMgnC3seB1YXqipusfhcat2c.ttf",
+    "800": "http://fonts.gstatic.com/s/arimamadurai/v14/t5t7IRoeKYORG0WNMgnC3seB1Znpipusfhcat2c.ttf",
+    "900": "http://fonts.gstatic.com/s/arimamadurai/v14/t5t7IRoeKYORG0WNMgnC3seB1b3oipusfhcat2c.ttf",
+    "regular": "http://fonts.gstatic.com/s/arimamadurai/v14/t5tmIRoeKYORG0WNMgnC3seB7TnFrpOHYh4.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

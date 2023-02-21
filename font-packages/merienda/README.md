@@ -11,10 +11,15 @@ This package lets you use the [**Merienda**](https://fonts.google.com/specimen/M
 
 ![Merienda](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [7 styles](#-gallery).
 
+- `Merienda_300Light`
 - `Merienda_400Regular`
+- `Merienda_500Medium`
+- `Merienda_600SemiBold`
 - `Merienda_700Bold`
+- `Merienda_800ExtraBold`
+- `Merienda_900Black`
 
 ## Usage
 
@@ -29,12 +34,26 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, Merienda_400Regular, Merienda_700Bold } from '@expo-google-fonts/merienda';
+import {
+  useFonts,
+  Merienda_300Light,
+  Merienda_400Regular,
+  Merienda_500Medium,
+  Merienda_600SemiBold,
+  Merienda_700Bold,
+  Merienda_800ExtraBold,
+  Merienda_900Black,
+} from '@expo-google-fonts/merienda';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    Merienda_300Light,
     Merienda_400Regular,
+    Merienda_500Medium,
+    Merienda_600SemiBold,
     Merienda_700Bold,
+    Merienda_800ExtraBold,
+    Merienda_900Black,
   });
 
   let fontSize = 24;
@@ -50,6 +69,16 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Merienda_300Light',
+          }}>
+          Merienda Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Merienda_400Regular',
           }}>
           Merienda Regular
@@ -60,9 +89,49 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Merienda_500Medium',
+          }}>
+          Merienda Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Merienda_600SemiBold',
+          }}>
+          Merienda Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Merienda_700Bold',
           }}>
           Merienda Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Merienda_800ExtraBold',
+          }}>
+          Merienda Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Merienda_900Black',
+          }}>
+          Merienda Black
         </Text>
       </View>
     );
@@ -76,7 +145,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Merienda_400Regular](./Merienda_400Regular.ttf.png)|![Merienda_700Bold](./Merienda_700Bold.ttf.png)|||
+|![Merienda_300Light](./Merienda_300Light.ttf.png)|![Merienda_400Regular](./Merienda_400Regular.ttf.png)|![Merienda_500Medium](./Merienda_500Medium.ttf.png)||
+|![Merienda_600SemiBold](./Merienda_600SemiBold.ttf.png)|![Merienda_700Bold](./Merienda_700Bold.ttf.png)|![Merienda_800ExtraBold](./Merienda_800ExtraBold.ttf.png)||
+|![Merienda_900Black](./Merienda_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

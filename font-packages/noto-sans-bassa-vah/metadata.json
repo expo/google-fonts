@@ -1,0 +1,15 @@
+{
+  "family": "Noto Sans Bassa Vah",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["bassa-vah", "latin", "latin-ext"],
+  "version": "v17",
+  "lastModified": "2022-11-09",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/notosansbassavah/v17/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MoAc6p34gH-GD7.ttf",
+    "600": "http://fonts.gstatic.com/s/notosansbassavah/v17/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4PEBs6p34gH-GD7.ttf",
+    "700": "http://fonts.gstatic.com/s/notosansbassavah/v17/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4P9Bs6p34gH-GD7.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosansbassavah/v17/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MaAc6p34gH-GD7.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

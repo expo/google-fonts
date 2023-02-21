@@ -2,10 +2,10 @@
   "family": "Glass Antiqua",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2022-01-05",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/glassantiqua/v18/xfu30Wr0Wn3NOQM2piC0uXOjnL_wN6fRUkY.ttf"
+    "regular": "http://fonts.gstatic.com/s/glassantiqua/v20/xfu30Wr0Wn3NOQM2piC0uXOjnL_wN6fRUkY.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

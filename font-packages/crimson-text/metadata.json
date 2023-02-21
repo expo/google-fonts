@@ -1,0 +1,17 @@
+{
+  "family": "Crimson Text",
+  "variants": ["regular", "italic", "600", "600italic", "700", "700italic"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v19",
+  "lastModified": "2022-09-22",
+  "files": {
+    "600": "http://fonts.gstatic.com/s/crimsontext/v19/wlppgwHKFkZgtmSR3NB0oRJXsCx2C9lR1LFffg.ttf",
+    "700": "http://fonts.gstatic.com/s/crimsontext/v19/wlppgwHKFkZgtmSR3NB0oRJX1C12C9lR1LFffg.ttf",
+    "regular": "http://fonts.gstatic.com/s/crimsontext/v19/wlp2gwHKFkZgtmSR3NB0oRJvaAJSA_JN3Q.ttf",
+    "italic": "http://fonts.gstatic.com/s/crimsontext/v19/wlpogwHKFkZgtmSR3NB0oRJfaghWIfdd3ahG.ttf",
+    "600italic": "http://fonts.gstatic.com/s/crimsontext/v19/wlprgwHKFkZgtmSR3NB0oRJfajCOD9NV9rRPfrKu.ttf",
+    "700italic": "http://fonts.gstatic.com/s/crimsontext/v19/wlprgwHKFkZgtmSR3NB0oRJfajDqDtNV9rRPfrKu.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

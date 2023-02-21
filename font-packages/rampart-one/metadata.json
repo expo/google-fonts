@@ -1,0 +1,12 @@
+{
+  "family": "Rampart One",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2022-09-27",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/rampartone/v7/K2F1fZFGl_JSR1tAWNG9R6qgLS76ZHOM.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

@@ -1,0 +1,20 @@
+{
+  "family": "Noto Serif Gurmukhi",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["gurmukhi", "latin", "latin-ext"],
+  "version": "v14",
+  "lastModified": "2022-09-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notoserifgurmukhi/v14/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr6-eBTNmqVU7y6l.ttf",
+    "200": "http://fonts.gstatic.com/s/notoserifgurmukhi/v14/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr4-eRTNmqVU7y6l.ttf",
+    "300": "http://fonts.gstatic.com/s/notoserifgurmukhi/v14/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr7geRTNmqVU7y6l.ttf",
+    "500": "http://fonts.gstatic.com/s/notoserifgurmukhi/v14/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr6MeRTNmqVU7y6l.ttf",
+    "600": "http://fonts.gstatic.com/s/notoserifgurmukhi/v14/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr5gfhTNmqVU7y6l.ttf",
+    "700": "http://fonts.gstatic.com/s/notoserifgurmukhi/v14/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr5ZfhTNmqVU7y6l.ttf",
+    "800": "http://fonts.gstatic.com/s/notoserifgurmukhi/v14/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr4-fhTNmqVU7y6l.ttf",
+    "900": "http://fonts.gstatic.com/s/notoserifgurmukhi/v14/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr4XfhTNmqVU7y6l.ttf",
+    "regular": "http://fonts.gstatic.com/s/notoserifgurmukhi/v14/92z-tA9LNqsg7tCYlXdCV1VPnAEeDU0vLoYMbylXk0xTCr6-eRTNmqVU7y6l.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

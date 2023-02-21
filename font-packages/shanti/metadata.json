@@ -2,9 +2,9 @@
   "family": "Shanti",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/shanti/v14/t5thIREMM4uSDgzgU0ezpKfwzA.ttf" },
+  "version": "v23",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/shanti/v23/t5thIREMM4uSDgzgU0ezpKfwzA.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

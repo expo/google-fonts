@@ -2,10 +2,10 @@
   "family": "Vidaloka",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2020-09-02",
+  "version": "v18",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/vidaloka/v13/7cHrv4c3ipenMKlEass8yn4hnCci.ttf"
+    "regular": "http://fonts.gstatic.com/s/vidaloka/v18/7cHrv4c3ipenMKlEass8yn4hnCci.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

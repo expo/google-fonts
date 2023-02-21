@@ -2,9 +2,9 @@
   "family": "Sarina",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/sarina/v19/-F6wfjF3ITQwasLhLkDUriBQxw.ttf" },
+  "version": "v21",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/sarina/v21/-F6wfjF3ITQwasLhLkDUriBQxw.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

@@ -2,10 +2,10 @@
   "family": "Text Me One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2022-01-05",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/textmeone/v18/i7dOIFdlayuLUvgoFvHQFWZcalayGhyV.ttf"
+    "regular": "http://fonts.gstatic.com/s/textmeone/v20/i7dOIFdlayuLUvgoFvHQFWZcalayGhyV.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

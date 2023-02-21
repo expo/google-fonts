@@ -2,9 +2,9 @@
   "family": "Junge",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v18",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/junge/v18/gokgH670Gl1lUqAdvhB7SnKm.ttf" },
+  "version": "v20",
+  "lastModified": "2022-04-26",
+  "files": { "regular": "http://fonts.gstatic.com/s/junge/v20/gokgH670Gl1lUqAdvhB7SnKm.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

@@ -2,14 +2,14 @@
   "family": "BioRhyme",
   "variants": ["200", "300", "regular", "700", "800"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2022-01-13",
+  "version": "v12",
+  "lastModified": "2022-09-22",
   "files": {
-    "200": "http://fonts.gstatic.com/s/biorhyme/v10/1cX3aULHBpDMsHYW_ESOjnGAq8Sk1PoH.ttf",
-    "300": "http://fonts.gstatic.com/s/biorhyme/v10/1cX3aULHBpDMsHYW_ETqjXGAq8Sk1PoH.ttf",
-    "700": "http://fonts.gstatic.com/s/biorhyme/v10/1cX3aULHBpDMsHYW_ET6inGAq8Sk1PoH.ttf",
-    "800": "http://fonts.gstatic.com/s/biorhyme/v10/1cX3aULHBpDMsHYW_ETmiXGAq8Sk1PoH.ttf",
-    "regular": "http://fonts.gstatic.com/s/biorhyme/v10/1cXwaULHBpDMsHYW_HxGpVWIgNit.ttf"
+    "200": "http://fonts.gstatic.com/s/biorhyme/v12/1cX3aULHBpDMsHYW_ESOjnGAq8Sk1PoH.ttf",
+    "300": "http://fonts.gstatic.com/s/biorhyme/v12/1cX3aULHBpDMsHYW_ETqjXGAq8Sk1PoH.ttf",
+    "700": "http://fonts.gstatic.com/s/biorhyme/v12/1cX3aULHBpDMsHYW_ET6inGAq8Sk1PoH.ttf",
+    "800": "http://fonts.gstatic.com/s/biorhyme/v12/1cX3aULHBpDMsHYW_ETmiXGAq8Sk1PoH.ttf",
+    "regular": "http://fonts.gstatic.com/s/biorhyme/v12/1cXwaULHBpDMsHYW_HxGpVWIgNit.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

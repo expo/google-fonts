@@ -11,7 +11,7 @@ This package lets you use the [**MuseoModerno**](https://fonts.google.com/specim
 
 ![MuseoModerno](./font-family.png)
 
-This font family contains [9 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
 - `MuseoModerno_100Thin`
 - `MuseoModerno_200ExtraLight`
@@ -22,6 +22,15 @@ This font family contains [9 styles](#-gallery).
 - `MuseoModerno_700Bold`
 - `MuseoModerno_800ExtraBold`
 - `MuseoModerno_900Black`
+- `MuseoModerno_100Thin_Italic`
+- `MuseoModerno_200ExtraLight_Italic`
+- `MuseoModerno_300Light_Italic`
+- `MuseoModerno_400Regular_Italic`
+- `MuseoModerno_500Medium_Italic`
+- `MuseoModerno_600SemiBold_Italic`
+- `MuseoModerno_700Bold_Italic`
+- `MuseoModerno_800ExtraBold_Italic`
+- `MuseoModerno_900Black_Italic`
 
 ## Usage
 
@@ -47,6 +56,15 @@ import {
   MuseoModerno_700Bold,
   MuseoModerno_800ExtraBold,
   MuseoModerno_900Black,
+  MuseoModerno_100Thin_Italic,
+  MuseoModerno_200ExtraLight_Italic,
+  MuseoModerno_300Light_Italic,
+  MuseoModerno_400Regular_Italic,
+  MuseoModerno_500Medium_Italic,
+  MuseoModerno_600SemiBold_Italic,
+  MuseoModerno_700Bold_Italic,
+  MuseoModerno_800ExtraBold_Italic,
+  MuseoModerno_900Black_Italic,
 } from '@expo-google-fonts/museomoderno';
 
 export default () => {
@@ -60,6 +78,15 @@ export default () => {
     MuseoModerno_700Bold,
     MuseoModerno_800ExtraBold,
     MuseoModerno_900Black,
+    MuseoModerno_100Thin_Italic,
+    MuseoModerno_200ExtraLight_Italic,
+    MuseoModerno_300Light_Italic,
+    MuseoModerno_400Regular_Italic,
+    MuseoModerno_500Medium_Italic,
+    MuseoModerno_600SemiBold_Italic,
+    MuseoModerno_700Bold_Italic,
+    MuseoModerno_800ExtraBold_Italic,
+    MuseoModerno_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -159,6 +186,96 @@ export default () => {
           }}>
           MuseoModerno Black
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuseoModerno_100Thin_Italic',
+          }}>
+          MuseoModerno Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuseoModerno_200ExtraLight_Italic',
+          }}>
+          MuseoModerno Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuseoModerno_300Light_Italic',
+          }}>
+          MuseoModerno Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuseoModerno_400Regular_Italic',
+          }}>
+          MuseoModerno Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuseoModerno_500Medium_Italic',
+          }}>
+          MuseoModerno Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuseoModerno_600SemiBold_Italic',
+          }}>
+          MuseoModerno Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuseoModerno_700Bold_Italic',
+          }}>
+          MuseoModerno Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuseoModerno_800ExtraBold_Italic',
+          }}>
+          MuseoModerno Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MuseoModerno_900Black_Italic',
+          }}>
+          MuseoModerno Black Italic
+        </Text>
       </View>
     );
   }
@@ -174,6 +291,9 @@ export default () => {
 |![MuseoModerno_100Thin](./MuseoModerno_100Thin.ttf.png)|![MuseoModerno_200ExtraLight](./MuseoModerno_200ExtraLight.ttf.png)|![MuseoModerno_300Light](./MuseoModerno_300Light.ttf.png)||
 |![MuseoModerno_400Regular](./MuseoModerno_400Regular.ttf.png)|![MuseoModerno_500Medium](./MuseoModerno_500Medium.ttf.png)|![MuseoModerno_600SemiBold](./MuseoModerno_600SemiBold.ttf.png)||
 |![MuseoModerno_700Bold](./MuseoModerno_700Bold.ttf.png)|![MuseoModerno_800ExtraBold](./MuseoModerno_800ExtraBold.ttf.png)|![MuseoModerno_900Black](./MuseoModerno_900Black.ttf.png)||
+|![MuseoModerno_100Thin_Italic](./MuseoModerno_100Thin_Italic.ttf.png)|![MuseoModerno_200ExtraLight_Italic](./MuseoModerno_200ExtraLight_Italic.ttf.png)|![MuseoModerno_300Light_Italic](./MuseoModerno_300Light_Italic.ttf.png)||
+|![MuseoModerno_400Regular_Italic](./MuseoModerno_400Regular_Italic.ttf.png)|![MuseoModerno_500Medium_Italic](./MuseoModerno_500Medium_Italic.ttf.png)|![MuseoModerno_600SemiBold_Italic](./MuseoModerno_600SemiBold_Italic.ttf.png)||
+|![MuseoModerno_700Bold_Italic](./MuseoModerno_700Bold_Italic.ttf.png)|![MuseoModerno_800ExtraBold_Italic](./MuseoModerno_800ExtraBold_Italic.ttf.png)|![MuseoModerno_900Black_Italic](./MuseoModerno_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

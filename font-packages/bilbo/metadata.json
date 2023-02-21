@@ -2,9 +2,9 @@
   "family": "Bilbo",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v18",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/bilbo/v18/o-0EIpgpwWwZ210hpIRz4wxE.ttf" },
+  "version": "v20",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/bilbo/v20/o-0EIpgpwWwZ210hpIRz4wxE.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

@@ -2,10 +2,10 @@
   "family": "Autour One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v22",
-  "lastModified": "2022-01-11",
+  "version": "v24",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/autourone/v22/UqyVK80cP25l3fJgbdfbk5lWVscxdKE.ttf"
+    "regular": "http://fonts.gstatic.com/s/autourone/v24/UqyVK80cP25l3fJgbdfbk5lWVscxdKE.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Masaram Gondi",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "masaram-gondi"],
+  "version": "v17",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansmasaramgondi/v17/6xK_dThFKcWIu4bpRBjRYRV7KZCbUq6n_1kPnuGe7RI9WSWX.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

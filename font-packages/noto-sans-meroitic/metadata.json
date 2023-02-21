@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Meroitic",
+  "variants": ["regular"],
+  "subsets": ["meroitic"],
+  "version": "v16",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansmeroitic/v16/IFS5HfRJndhE3P4b5jnZ3ITPvC6i00UDgDhTiKY9KQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

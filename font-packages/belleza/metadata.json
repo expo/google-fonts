@@ -2,9 +2,9 @@
   "family": "Belleza",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2022-01-13",
-  "files": { "regular": "http://fonts.gstatic.com/s/belleza/v14/0nkoC9_pNeMfhX4BtcbyawzruP8.ttf" },
+  "version": "v17",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/belleza/v17/0nkoC9_pNeMfhX4BtcbyawzruP8.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

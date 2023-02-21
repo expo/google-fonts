@@ -2,9 +2,9 @@
   "family": "Bayon",
   "variants": ["regular"],
   "subsets": ["khmer", "latin"],
-  "version": "v27",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/bayon/v27/9XUrlJNmn0LPFl-pOhYEd2NJ.ttf" },
+  "version": "v29",
+  "lastModified": "2022-04-20",
+  "files": { "regular": "http://fonts.gstatic.com/s/bayon/v29/9XUrlJNmn0LPFl-pOhYEd2NJ.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

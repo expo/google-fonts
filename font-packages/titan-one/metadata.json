@@ -2,10 +2,10 @@
   "family": "Titan One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-07-23",
+  "version": "v13",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/titanone/v8/mFTzWbsGxbbS_J5cQcjykzIn2Etikg.ttf"
+    "regular": "http://fonts.gstatic.com/s/titanone/v13/mFTzWbsGxbbS_J5cQcjykzIn2Etikg.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

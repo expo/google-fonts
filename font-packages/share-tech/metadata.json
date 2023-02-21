@@ -2,10 +2,10 @@
   "family": "Share Tech",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2022-01-11",
+  "version": "v17",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/sharetech/v15/7cHtv4Uyi5K0OeZ7bohUwHoDmTcibrA.ttf"
+    "regular": "http://fonts.gstatic.com/s/sharetech/v17/7cHtv4Uyi5K0OeZ7bohUwHoDmTcibrA.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

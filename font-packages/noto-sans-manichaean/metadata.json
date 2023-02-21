@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Manichaean",
+  "variants": ["regular"],
+  "subsets": ["manichaean"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansmanichaean/v15/taiVGntiC4--qtsfi4Jp9-_GkPZZCcrfekqCNTtFCtdX.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

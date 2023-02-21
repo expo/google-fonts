@@ -2,10 +2,10 @@
   "family": "Maiden Orange",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v23",
-  "lastModified": "2022-01-05",
+  "version": "v25",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/maidenorange/v23/kJE1BuIX7AUmhi2V4m08kb1XjOZdCZS8FY8.ttf"
+    "regular": "http://fonts.gstatic.com/s/maidenorange/v25/kJE1BuIX7AUmhi2V4m08kb1XjOZdCZS8FY8.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

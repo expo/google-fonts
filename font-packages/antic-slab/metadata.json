@@ -2,10 +2,10 @@
   "family": "Antic Slab",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2020-09-02",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/anticslab/v9/bWt97fPFfRzkCa9Jlp6IWcJWXW5p5Qo.ttf"
+    "regular": "http://fonts.gstatic.com/s/anticslab/v16/bWt97fPFfRzkCa9Jlp6IWcJWXW5p5Qo.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

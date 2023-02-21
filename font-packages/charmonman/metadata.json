@@ -2,11 +2,11 @@
   "family": "Charmonman",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v16",
-  "lastModified": "2022-01-11",
+  "version": "v18",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/charmonman/v16/MjQAmiR3vP_nuxDv47jiYC2HmL9K9OhmGnY.ttf",
-    "regular": "http://fonts.gstatic.com/s/charmonman/v16/MjQDmiR3vP_nuxDv47jiWJGovLdh6OE.ttf"
+    "700": "http://fonts.gstatic.com/s/charmonman/v18/MjQAmiR3vP_nuxDv47jiYC2HmL9K9OhmGnY.ttf",
+    "regular": "http://fonts.gstatic.com/s/charmonman/v18/MjQDmiR3vP_nuxDv47jiWJGovLdh6OE.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

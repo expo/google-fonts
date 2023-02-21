@@ -2,9 +2,9 @@
   "family": "Kenia",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v22",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/kenia/v22/jizURE5PuHQH9qCONUGswfGM.ttf" },
+  "version": "v24",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/kenia/v24/jizURE5PuHQH9qCONUGswfGM.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

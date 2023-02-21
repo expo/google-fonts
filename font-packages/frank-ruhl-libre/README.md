@@ -11,12 +11,14 @@ This package lets you use the [**Frank Ruhl Libre**](https://fonts.google.com/sp
 
 ![Frank Ruhl Libre](./font-family.png)
 
-This font family contains [5 styles](#-gallery).
+This font family contains [7 styles](#-gallery).
 
 - `FrankRuhlLibre_300Light`
 - `FrankRuhlLibre_400Regular`
 - `FrankRuhlLibre_500Medium`
+- `FrankRuhlLibre_600SemiBold`
 - `FrankRuhlLibre_700Bold`
+- `FrankRuhlLibre_800ExtraBold`
 - `FrankRuhlLibre_900Black`
 
 ## Usage
@@ -37,7 +39,9 @@ import {
   FrankRuhlLibre_300Light,
   FrankRuhlLibre_400Regular,
   FrankRuhlLibre_500Medium,
+  FrankRuhlLibre_600SemiBold,
   FrankRuhlLibre_700Bold,
+  FrankRuhlLibre_800ExtraBold,
   FrankRuhlLibre_900Black,
 } from '@expo-google-fonts/frank-ruhl-libre';
 
@@ -46,7 +50,9 @@ export default () => {
     FrankRuhlLibre_300Light,
     FrankRuhlLibre_400Regular,
     FrankRuhlLibre_500Medium,
+    FrankRuhlLibre_600SemiBold,
     FrankRuhlLibre_700Bold,
+    FrankRuhlLibre_800ExtraBold,
     FrankRuhlLibre_900Black,
   });
 
@@ -93,9 +99,29 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FrankRuhlLibre_600SemiBold',
+          }}>
+          Frank Ruhl Libre Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'FrankRuhlLibre_700Bold',
           }}>
           Frank Ruhl Libre Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'FrankRuhlLibre_800ExtraBold',
+          }}>
+          Frank Ruhl Libre Extra Bold
         </Text>
 
         <Text
@@ -120,7 +146,8 @@ export default () => {
 ||||
 |-|-|-|
 |![FrankRuhlLibre_300Light](./FrankRuhlLibre_300Light.ttf.png)|![FrankRuhlLibre_400Regular](./FrankRuhlLibre_400Regular.ttf.png)|![FrankRuhlLibre_500Medium](./FrankRuhlLibre_500Medium.ttf.png)||
-|![FrankRuhlLibre_700Bold](./FrankRuhlLibre_700Bold.ttf.png)|![FrankRuhlLibre_900Black](./FrankRuhlLibre_900Black.ttf.png)|||
+|![FrankRuhlLibre_600SemiBold](./FrankRuhlLibre_600SemiBold.ttf.png)|![FrankRuhlLibre_700Bold](./FrankRuhlLibre_700Bold.ttf.png)|![FrankRuhlLibre_800ExtraBold](./FrankRuhlLibre_800ExtraBold.ttf.png)||
+|![FrankRuhlLibre_900Black](./FrankRuhlLibre_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

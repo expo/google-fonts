@@ -2,11 +2,11 @@
   "family": "Xanh Mono",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v15",
-  "lastModified": "2022-01-05",
+  "version": "v17",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/xanhmono/v15/R70YjykVmvKCep-vWhSYmACQXzLhTg.ttf",
-    "italic": "http://fonts.gstatic.com/s/xanhmono/v15/R70ejykVmvKCep-vWhSomgqUfTfxTo24.ttf"
+    "regular": "http://fonts.gstatic.com/s/xanhmono/v17/R70YjykVmvKCep-vWhSYmACQXzLhTg.ttf",
+    "italic": "http://fonts.gstatic.com/s/xanhmono/v17/R70ejykVmvKCep-vWhSomgqUfTfxTo24.ttf"
   },
   "category": "monospace",
   "kind": "webfonts#webfont"

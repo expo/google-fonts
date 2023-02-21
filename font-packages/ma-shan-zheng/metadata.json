@@ -2,10 +2,10 @@
   "family": "Ma Shan Zheng",
   "variants": ["regular"],
   "subsets": ["chinese-simplified", "latin"],
-  "version": "v8",
-  "lastModified": "2022-01-11",
+  "version": "v10",
+  "lastModified": "2022-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/mashanzheng/v8/NaPecZTRCLxvwo41b4gvzkXaRMTsDIRSfr0.ttf"
+    "regular": "http://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMTsDIRSfr0.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

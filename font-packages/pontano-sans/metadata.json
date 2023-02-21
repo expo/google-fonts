@@ -2,10 +2,10 @@
   "family": "Pontano Sans",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-09-02",
+  "version": "v13",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/pontanosans/v8/qFdD35GdgYR8EzR6oBLDHa3qwjUMg1siNQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/pontanosans/v13/qFdD35GdgYR8EzR6oBLDHa3qwjUMg1siNQ.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

@@ -2,9 +2,9 @@
   "family": "Ledger",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/ledger/v14/j8_q6-HK1L3if_sxm8DwHTBhHw.ttf" },
+  "version": "v16",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/ledger/v16/j8_q6-HK1L3if_sxm8DwHTBhHw.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

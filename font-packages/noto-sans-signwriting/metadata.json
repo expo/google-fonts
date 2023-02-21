@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans SignWriting",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "signwriting"],
+  "version": "v1",
+  "lastModified": "2023-01-06",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanssignwriting/v1/Noas6VX_wIWFbTTCrYmvy9A2UnkL-2SZAWiUEVCARYQemg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

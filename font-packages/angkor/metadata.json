@@ -2,9 +2,9 @@
   "family": "Angkor",
   "variants": ["regular"],
   "subsets": ["khmer", "latin"],
-  "version": "v26",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/angkor/v26/H4cmBXyAlsPdnlb-8iw-4Lqggw.ttf" },
+  "version": "v28",
+  "lastModified": "2022-04-20",
+  "files": { "regular": "http://fonts.gstatic.com/s/angkor/v28/H4cmBXyAlsPdnlb-8iw-4Lqggw.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

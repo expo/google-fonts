@@ -13,19 +13,19 @@
     "700italic"
   ],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v22",
-  "lastModified": "2021-11-10",
+  "version": "v27",
+  "lastModified": "2022-09-22",
   "files": {
-    "300": "http://fonts.gstatic.com/s/rosario/v22/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM69GCWczd-YnOzUD.ttf",
-    "500": "http://fonts.gstatic.com/s/rosario/v22/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM68qCWczd-YnOzUD.ttf",
-    "600": "http://fonts.gstatic.com/s/rosario/v22/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM6_GDmczd-YnOzUD.ttf",
-    "700": "http://fonts.gstatic.com/s/rosario/v22/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM6__Dmczd-YnOzUD.ttf",
-    "regular": "http://fonts.gstatic.com/s/rosario/v22/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM68YCWczd-YnOzUD.ttf",
-    "300italic": "http://fonts.gstatic.com/s/rosario/v22/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQStFwfeIFPiUDn08.ttf",
-    "italic": "http://fonts.gstatic.com/s/rosario/v22/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSo9wfeIFPiUDn08.ttf",
-    "500italic": "http://fonts.gstatic.com/s/rosario/v22/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSr1wfeIFPiUDn08.ttf",
-    "600italic": "http://fonts.gstatic.com/s/rosario/v22/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSlF3feIFPiUDn08.ttf",
-    "700italic": "http://fonts.gstatic.com/s/rosario/v22/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSmh3feIFPiUDn08.ttf"
+    "300": "http://fonts.gstatic.com/s/rosario/v27/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM69GCWczd-YnOzUD.ttf",
+    "500": "http://fonts.gstatic.com/s/rosario/v27/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM68qCWczd-YnOzUD.ttf",
+    "600": "http://fonts.gstatic.com/s/rosario/v27/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM6_GDmczd-YnOzUD.ttf",
+    "700": "http://fonts.gstatic.com/s/rosario/v27/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM6__Dmczd-YnOzUD.ttf",
+    "regular": "http://fonts.gstatic.com/s/rosario/v27/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM68YCWczd-YnOzUD.ttf",
+    "300italic": "http://fonts.gstatic.com/s/rosario/v27/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQStFwfeIFPiUDn08.ttf",
+    "italic": "http://fonts.gstatic.com/s/rosario/v27/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSo9wfeIFPiUDn08.ttf",
+    "500italic": "http://fonts.gstatic.com/s/rosario/v27/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSr1wfeIFPiUDn08.ttf",
+    "600italic": "http://fonts.gstatic.com/s/rosario/v27/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSlF3feIFPiUDn08.ttf",
+    "700italic": "http://fonts.gstatic.com/s/rosario/v27/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSmh3feIFPiUDn08.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

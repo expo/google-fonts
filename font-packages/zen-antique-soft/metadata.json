@@ -1,0 +1,12 @@
+{
+  "family": "Zen Antique Soft",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "greek", "japanese", "latin", "latin-ext"],
+  "version": "v12",
+  "lastModified": "2023-01-06",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/zenantiquesoft/v12/DtV4JwqzSL1q_KwnEWMc_3xfgW6ihwBmkui5HNg.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

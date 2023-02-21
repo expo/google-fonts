@@ -1,0 +1,20 @@
+{
+  "family": "Noto Serif Armenian",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["armenian", "latin", "latin-ext"],
+  "version": "v23",
+  "lastModified": "2022-09-28",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notoserifarmenian/v23/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZi8ObxvXagGdkbg.ttf",
+    "200": "http://fonts.gstatic.com/s/notoserifarmenian/v23/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZC8KbxvXagGdkbg.ttf",
+    "300": "http://fonts.gstatic.com/s/notoserifarmenian/v23/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZ1cKbxvXagGdkbg.ttf",
+    "500": "http://fonts.gstatic.com/s/notoserifarmenian/v23/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZucKbxvXagGdkbg.ttf",
+    "600": "http://fonts.gstatic.com/s/notoserifarmenian/v23/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZVcWbxvXagGdkbg.ttf",
+    "700": "http://fonts.gstatic.com/s/notoserifarmenian/v23/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZbMWbxvXagGdkbg.ttf",
+    "800": "http://fonts.gstatic.com/s/notoserifarmenian/v23/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZC8WbxvXagGdkbg.ttf",
+    "900": "http://fonts.gstatic.com/s/notoserifarmenian/v23/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZIsWbxvXagGdkbg.ttf",
+    "regular": "http://fonts.gstatic.com/s/notoserifarmenian/v23/3XFMEqMt3YoFsciDRZxptyCUKJmytZ0kVU-XvF7QaZuL85rnQ_zDNzDe5xNnKxyZi8KbxvXagGdkbg.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

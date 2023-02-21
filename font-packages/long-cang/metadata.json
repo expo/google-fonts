@@ -2,10 +2,10 @@
   "family": "Long Cang",
   "variants": ["regular"],
   "subsets": ["chinese-simplified", "latin"],
-  "version": "v15",
-  "lastModified": "2022-01-05",
+  "version": "v17",
+  "lastModified": "2022-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/longcang/v15/LYjAdGP8kkgoTec8zkRgrXArXN7HWQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/longcang/v17/LYjAdGP8kkgoTec8zkRgrXArXN7HWQ.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

@@ -1,0 +1,12 @@
+{
+  "family": "Rubik Maze",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/rubikmaze/v1/xMQRuF9ZVa2ftiJEavXSAX7inS-bxV4.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

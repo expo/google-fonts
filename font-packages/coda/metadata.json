@@ -2,11 +2,11 @@
   "family": "Coda",
   "variants": ["regular", "800"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2020-09-02",
+  "version": "v21",
+  "lastModified": "2022-09-22",
   "files": {
-    "800": "http://fonts.gstatic.com/s/coda/v16/SLXIc1jY5nQ8HeIgTp6mw9t1cX8.ttf",
-    "regular": "http://fonts.gstatic.com/s/coda/v16/SLXHc1jY5nQ8JUIMapaN39I.ttf"
+    "800": "http://fonts.gstatic.com/s/coda/v21/SLXIc1jY5nQ8HeIgTp6mw9t1cX8.ttf",
+    "regular": "http://fonts.gstatic.com/s/coda/v21/SLXHc1jY5nQ8JUIMapaN39I.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

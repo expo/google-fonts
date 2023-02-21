@@ -1,0 +1,12 @@
+{
+  "family": "Rubik Glitch",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/rubikglitch/v2/qkBSXv8b_srFRYQVYrDKh9ZvmC7HONiSFQ.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

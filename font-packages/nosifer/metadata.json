@@ -2,9 +2,9 @@
   "family": "Nosifer",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/nosifer/v11/ZGjXol5JTp0g5bxZaC1RVDNdGDs.ttf" },
+  "version": "v20",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/nosifer/v20/ZGjXol5JTp0g5bxZaC1RVDNdGDs.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

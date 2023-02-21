@@ -2,9 +2,9 @@
   "family": "Mate SC",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/matesc/v11/-nF8OGQ1-uoVr2wKyiXZ95OkJwA.ttf" },
+  "version": "v21",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/matesc/v21/-nF8OGQ1-uoVr2wKyiXZ95OkJwA.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

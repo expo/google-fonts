@@ -1,0 +1,10 @@
+{
+  "family": "Yomogi",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "japanese", "latin", "latin-ext", "vietnamese"],
+  "version": "v8",
+  "lastModified": "2022-09-27",
+  "files": { "regular": "http://fonts.gstatic.com/s/yomogi/v8/VuJwdNrS2ZL7rpoPWIz5NIh-YA.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

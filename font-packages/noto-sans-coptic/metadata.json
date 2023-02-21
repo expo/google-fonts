@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Coptic",
+  "variants": ["regular"],
+  "subsets": ["coptic", "latin", "latin-ext"],
+  "version": "v17",
+  "lastModified": "2022-09-28",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanscoptic/v17/iJWfBWmUZi_OHPqn4wq6kgqumOEd78u_VG0xR4Y.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

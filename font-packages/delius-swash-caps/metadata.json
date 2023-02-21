@@ -2,10 +2,10 @@
   "family": "Delius Swash Caps",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v17",
-  "lastModified": "2022-01-11",
+  "version": "v19",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/deliusswashcaps/v17/oY1E8fPLr7v4JWCExZpWebxVKORpXXedKmeBvEYs.ttf"
+    "regular": "http://fonts.gstatic.com/s/deliusswashcaps/v19/oY1E8fPLr7v4JWCExZpWebxVKORpXXedKmeBvEYs.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

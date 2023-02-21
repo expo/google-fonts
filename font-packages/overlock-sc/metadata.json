@@ -2,10 +2,10 @@
   "family": "Overlock SC",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2022-01-11",
+  "version": "v21",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/overlocksc/v19/1cX3aUHKGZrstGAY8nwVzHGAq8Sk1PoH.ttf"
+    "regular": "http://fonts.gstatic.com/s/overlocksc/v21/1cX3aUHKGZrstGAY8nwVzHGAq8Sk1PoH.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

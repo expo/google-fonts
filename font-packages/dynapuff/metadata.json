@@ -1,0 +1,15 @@
+{
+  "family": "DynaPuff",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["cyrillic-ext", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2023-01-06",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/dynapuff/v1/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSyQu6YjrSRs4wn8.ttf",
+    "600": "http://fonts.gstatic.com/s/dynapuff/v1/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS8gp6YjrSRs4wn8.ttf",
+    "700": "http://fonts.gstatic.com/s/dynapuff/v1/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS_Ep6YjrSRs4wn8.ttf",
+    "regular": "http://fonts.gstatic.com/s/dynapuff/v1/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSxYu6YjrSRs4wn8.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

@@ -2,10 +2,10 @@
   "family": "Beth Ellen",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2022-01-05",
+  "version": "v17",
+  "lastModified": "2022-04-20",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/bethellen/v15/WwkbxPW2BE-3rb_JNT-qEIAiVNo5xNY.ttf"
+    "regular": "http://fonts.gstatic.com/s/bethellen/v17/WwkbxPW2BE-3rb_JNT-qEIAiVNo5xNY.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

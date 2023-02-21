@@ -2,10 +2,10 @@
   "family": "Jacques Francois",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v18",
-  "lastModified": "2022-01-05",
+  "version": "v20",
+  "lastModified": "2022-04-26",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/jacquesfrancois/v18/ZXu9e04ZvKeOOHIe1TMahbcIU2cgmcPqoeRWfbs.ttf"
+    "regular": "http://fonts.gstatic.com/s/jacquesfrancois/v20/ZXu9e04ZvKeOOHIe1TMahbcIU2cgmcPqoeRWfbs.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

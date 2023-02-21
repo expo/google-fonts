@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Multani",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "multani"],
+  "version": "v20",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansmultani/v20/9Bty3ClF38_RfOpe1gCaZ8p30BOFO1A0pfCs5Kos.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

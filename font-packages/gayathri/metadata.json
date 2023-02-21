@@ -2,12 +2,12 @@
   "family": "Gayathri",
   "variants": ["100", "regular", "700"],
   "subsets": ["latin", "malayalam"],
-  "version": "v13",
-  "lastModified": "2022-01-05",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "100": "http://fonts.gstatic.com/s/gayathri/v13/MCoWzAb429DbBilWLLhc-pvSA_gA2W8.ttf",
-    "700": "http://fonts.gstatic.com/s/gayathri/v13/MCoXzAb429DbBilWLLiE37v4LfQJwHbn.ttf",
-    "regular": "http://fonts.gstatic.com/s/gayathri/v13/MCoQzAb429DbBilWLIA48J_wBugA.ttf"
+    "100": "http://fonts.gstatic.com/s/gayathri/v15/MCoWzAb429DbBilWLLhc-pvSA_gA2W8.ttf",
+    "700": "http://fonts.gstatic.com/s/gayathri/v15/MCoXzAb429DbBilWLLiE37v4LfQJwHbn.ttf",
+    "regular": "http://fonts.gstatic.com/s/gayathri/v15/MCoQzAb429DbBilWLIA48J_wBugA.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

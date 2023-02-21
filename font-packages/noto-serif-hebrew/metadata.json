@@ -1,0 +1,20 @@
+{
+  "family": "Noto Serif Hebrew",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["hebrew", "latin", "latin-ext"],
+  "version": "v20",
+  "lastModified": "2022-09-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notoserifhebrew/v20/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVAwTAG8_vlQxz24.ttf",
+    "200": "http://fonts.gstatic.com/s/notoserifhebrew/v20/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVIwSAG8_vlQxz24.ttf",
+    "300": "http://fonts.gstatic.com/s/notoserifhebrew/v20/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVFISAG8_vlQxz24.ttf",
+    "500": "http://fonts.gstatic.com/s/notoserifhebrew/v20/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVD4SAG8_vlQxz24.ttf",
+    "600": "http://fonts.gstatic.com/s/notoserifhebrew/v20/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVNIVAG8_vlQxz24.ttf",
+    "700": "http://fonts.gstatic.com/s/notoserifhebrew/v20/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVOsVAG8_vlQxz24.ttf",
+    "800": "http://fonts.gstatic.com/s/notoserifhebrew/v20/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVIwVAG8_vlQxz24.ttf",
+    "900": "http://fonts.gstatic.com/s/notoserifhebrew/v20/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVKUVAG8_vlQxz24.ttf",
+    "regular": "http://fonts.gstatic.com/s/notoserifhebrew/v20/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVAwSAG8_vlQxz24.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

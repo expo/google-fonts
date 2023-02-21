@@ -2,9 +2,9 @@
   "family": "PT Mono",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/ptmono/v8/9oRONYoBnWILk-9ArCg5MtPyAcg.ttf" },
+  "version": "v13",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/ptmono/v13/9oRONYoBnWILk-9ArCg5MtPyAcg.ttf" },
   "category": "monospace",
   "kind": "webfonts#webfont"
 }

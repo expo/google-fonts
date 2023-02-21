@@ -2,10 +2,10 @@
   "family": "Ruge Boogie",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v22",
-  "lastModified": "2022-01-05",
+  "version": "v24",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/rugeboogie/v22/JIA3UVFwbHRF_GIWSMhKNROiPzUveSxy.ttf"
+    "regular": "http://fonts.gstatic.com/s/rugeboogie/v24/JIA3UVFwbHRF_GIWSMhKNROiPzUveSxy.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

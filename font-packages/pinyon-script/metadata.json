@@ -1,11 +1,11 @@
 {
   "family": "Pinyon Script",
   "variants": ["regular"],
-  "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2020-09-02",
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v17",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/pinyonscript/v11/6xKpdSJbL9-e9LuoeQiDRQR8aOLQO4bhiDY.ttf"
+    "regular": "http://fonts.gstatic.com/s/pinyonscript/v17/6xKpdSJbL9-e9LuoeQiDRQR8aOLQO4bhiDY.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

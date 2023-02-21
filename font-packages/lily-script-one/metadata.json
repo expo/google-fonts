@@ -2,10 +2,10 @@
   "family": "Lily Script One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2022-01-11",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/lilyscriptone/v13/LhW9MV7ZMfIPdMxeBjBvFN8SXLS4gsSjQNsRMg.ttf"
+    "regular": "http://fonts.gstatic.com/s/lilyscriptone/v15/LhW9MV7ZMfIPdMxeBjBvFN8SXLS4gsSjQNsRMg.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

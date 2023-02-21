@@ -2,9 +2,9 @@
   "family": "Prata",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "vietnamese"],
-  "version": "v13",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/prata/v13/6xKhdSpbNNCT-vWIAG_5LWwJ.ttf" },
+  "version": "v18",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/prata/v18/6xKhdSpbNNCT-vWIAG_5LWwJ.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

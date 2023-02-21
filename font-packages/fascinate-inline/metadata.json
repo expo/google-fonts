@@ -2,10 +2,10 @@
   "family": "Fascinate Inline",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v20",
-  "lastModified": "2022-01-11",
+  "version": "v22",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/fascinateinline/v20/jVyR7mzzB3zc-jp6QCAu60poNqIy1g3CfRXxWZQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/fascinateinline/v22/jVyR7mzzB3zc-jp6QCAu60poNqIy1g3CfRXxWZQ.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

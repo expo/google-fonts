@@ -2,17 +2,17 @@
   "family": "Lora",
   "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v20",
-  "lastModified": "2021-11-10",
+  "version": "v26",
+  "lastModified": "2022-09-22",
   "files": {
-    "500": "http://fonts.gstatic.com/s/lora/v20/0QI6MX1D_JOuGQbT0gvTJPa787wsuyJGmKxemMeZ.ttf",
-    "600": "http://fonts.gstatic.com/s/lora/v20/0QI6MX1D_JOuGQbT0gvTJPa787zAvCJGmKxemMeZ.ttf",
-    "700": "http://fonts.gstatic.com/s/lora/v20/0QI6MX1D_JOuGQbT0gvTJPa787z5vCJGmKxemMeZ.ttf",
-    "regular": "http://fonts.gstatic.com/s/lora/v20/0QI6MX1D_JOuGQbT0gvTJPa787weuyJGmKxemMeZ.ttf",
-    "italic": "http://fonts.gstatic.com/s/lora/v20/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-MoFkqh8ndeZzZ0.ttf",
-    "500italic": "http://fonts.gstatic.com/s/lora/v20/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-PgFkqh8ndeZzZ0.ttf",
-    "600italic": "http://fonts.gstatic.com/s/lora/v20/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-BQCkqh8ndeZzZ0.ttf",
-    "700italic": "http://fonts.gstatic.com/s/lora/v20/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-C0Ckqh8ndeZzZ0.ttf"
+    "500": "http://fonts.gstatic.com/s/lora/v26/0QI6MX1D_JOuGQbT0gvTJPa787wsuyJGmKxemMeZ.ttf",
+    "600": "http://fonts.gstatic.com/s/lora/v26/0QI6MX1D_JOuGQbT0gvTJPa787zAvCJGmKxemMeZ.ttf",
+    "700": "http://fonts.gstatic.com/s/lora/v26/0QI6MX1D_JOuGQbT0gvTJPa787z5vCJGmKxemMeZ.ttf",
+    "regular": "http://fonts.gstatic.com/s/lora/v26/0QI6MX1D_JOuGQbT0gvTJPa787weuyJGmKxemMeZ.ttf",
+    "italic": "http://fonts.gstatic.com/s/lora/v26/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-MoFkqh8ndeZzZ0.ttf",
+    "500italic": "http://fonts.gstatic.com/s/lora/v26/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-PgFkqh8ndeZzZ0.ttf",
+    "600italic": "http://fonts.gstatic.com/s/lora/v26/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-BQCkqh8ndeZzZ0.ttf",
+    "700italic": "http://fonts.gstatic.com/s/lora/v26/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-C0Ckqh8ndeZzZ0.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

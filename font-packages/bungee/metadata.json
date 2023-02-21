@@ -2,9 +2,9 @@
   "family": "Bungee",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/bungee/v6/N0bU2SZBIuF2PU_ECn50Kd_PmA.ttf" },
+  "version": "v11",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/bungee/v11/N0bU2SZBIuF2PU_ECn50Kd_PmA.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

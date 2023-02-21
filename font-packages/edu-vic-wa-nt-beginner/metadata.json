@@ -1,0 +1,15 @@
+{
+  "family": "Edu VIC WA NT Beginner",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["latin"],
+  "version": "v2",
+  "lastModified": "2023-01-06",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/eduvicwantbeginner/v2/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OllPmFXwnpkeGR.ttf",
+    "600": "http://fonts.gstatic.com/s/eduvicwantbeginner/v2/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-NJk_mFXwnpkeGR.ttf",
+    "700": "http://fonts.gstatic.com/s/eduvicwantbeginner/v2/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-Nwk_mFXwnpkeGR.ttf",
+    "regular": "http://fonts.gstatic.com/s/eduvicwantbeginner/v2/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OXlPmFXwnpkeGR.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

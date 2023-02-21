@@ -2,15 +2,15 @@
   "family": "Neuton",
   "variants": ["200", "300", "regular", "italic", "700", "800"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2020-09-02",
+  "version": "v18",
+  "lastModified": "2022-09-22",
   "files": {
-    "200": "http://fonts.gstatic.com/s/neuton/v13/UMBQrPtMoH62xUZKAKkfegD5Drog6Q.ttf",
-    "300": "http://fonts.gstatic.com/s/neuton/v13/UMBQrPtMoH62xUZKZKofegD5Drog6Q.ttf",
-    "700": "http://fonts.gstatic.com/s/neuton/v13/UMBQrPtMoH62xUZKdK0fegD5Drog6Q.ttf",
-    "800": "http://fonts.gstatic.com/s/neuton/v13/UMBQrPtMoH62xUZKaK4fegD5Drog6Q.ttf",
-    "regular": "http://fonts.gstatic.com/s/neuton/v13/UMBTrPtMoH62xUZyyII7civlBw.ttf",
-    "italic": "http://fonts.gstatic.com/s/neuton/v13/UMBRrPtMoH62xUZCyog_UC71B6M5.ttf"
+    "200": "http://fonts.gstatic.com/s/neuton/v18/UMBQrPtMoH62xUZKAKkfegD5Drog6Q.ttf",
+    "300": "http://fonts.gstatic.com/s/neuton/v18/UMBQrPtMoH62xUZKZKofegD5Drog6Q.ttf",
+    "700": "http://fonts.gstatic.com/s/neuton/v18/UMBQrPtMoH62xUZKdK0fegD5Drog6Q.ttf",
+    "800": "http://fonts.gstatic.com/s/neuton/v18/UMBQrPtMoH62xUZKaK4fegD5Drog6Q.ttf",
+    "regular": "http://fonts.gstatic.com/s/neuton/v18/UMBTrPtMoH62xUZyyII7civlBw.ttf",
+    "italic": "http://fonts.gstatic.com/s/neuton/v18/UMBRrPtMoH62xUZCyog_UC71B6M5.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

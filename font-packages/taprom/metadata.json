@@ -2,9 +2,9 @@
   "family": "Taprom",
   "variants": ["regular"],
   "subsets": ["khmer", "latin"],
-  "version": "v25",
-  "lastModified": "2021-12-17",
-  "files": { "regular": "http://fonts.gstatic.com/s/taprom/v25/UcCn3F82JHycULbFQyk3-0kvHg.ttf" },
+  "version": "v27",
+  "lastModified": "2022-04-27",
+  "files": { "regular": "http://fonts.gstatic.com/s/taprom/v27/UcCn3F82JHycULbFQyk3-0kvHg.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

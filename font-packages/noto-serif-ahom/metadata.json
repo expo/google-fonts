@@ -1,0 +1,12 @@
+{
+  "family": "Noto Serif Ahom",
+  "variants": ["regular"],
+  "subsets": ["ahom", "latin", "latin-ext"],
+  "version": "v17",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notoserifahom/v17/FeVIS0hfp6cprmEUffAW_fUL_AN-wuYrPFiwaw.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

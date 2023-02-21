@@ -2,14 +2,14 @@
   "family": "Tillana",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2022-01-11",
+  "version": "v11",
+  "lastModified": "2022-09-22",
   "files": {
-    "500": "http://fonts.gstatic.com/s/tillana/v9/VuJ0dNvf35P4qJ1OQFL-HIlMZRNcp0o.ttf",
-    "600": "http://fonts.gstatic.com/s/tillana/v9/VuJ0dNvf35P4qJ1OQH75HIlMZRNcp0o.ttf",
-    "700": "http://fonts.gstatic.com/s/tillana/v9/VuJ0dNvf35P4qJ1OQBr4HIlMZRNcp0o.ttf",
-    "800": "http://fonts.gstatic.com/s/tillana/v9/VuJ0dNvf35P4qJ1OQAb7HIlMZRNcp0o.ttf",
-    "regular": "http://fonts.gstatic.com/s/tillana/v9/VuJxdNvf35P4qJ1OeKbXOIFneRo.ttf"
+    "500": "http://fonts.gstatic.com/s/tillana/v11/VuJ0dNvf35P4qJ1OQFL-HIlMZRNcp0o.ttf",
+    "600": "http://fonts.gstatic.com/s/tillana/v11/VuJ0dNvf35P4qJ1OQH75HIlMZRNcp0o.ttf",
+    "700": "http://fonts.gstatic.com/s/tillana/v11/VuJ0dNvf35P4qJ1OQBr4HIlMZRNcp0o.ttf",
+    "800": "http://fonts.gstatic.com/s/tillana/v11/VuJ0dNvf35P4qJ1OQAb7HIlMZRNcp0o.ttf",
+    "regular": "http://fonts.gstatic.com/s/tillana/v11/VuJxdNvf35P4qJ1OeKbXOIFneRo.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

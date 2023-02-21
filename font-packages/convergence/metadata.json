@@ -2,10 +2,10 @@
   "family": "Convergence",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2022-01-13",
+  "version": "v15",
+  "lastModified": "2022-04-21",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/convergence/v13/rax5HiePvdgXPmmMHcIPYRhasU7Q8Cad.ttf"
+    "regular": "http://fonts.gstatic.com/s/convergence/v15/rax5HiePvdgXPmmMHcIPYRhasU7Q8Cad.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

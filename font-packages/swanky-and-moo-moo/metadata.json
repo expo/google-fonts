@@ -2,10 +2,10 @@
   "family": "Swanky and Moo Moo",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v20",
-  "lastModified": "2022-01-05",
+  "version": "v22",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/swankyandmoomoo/v20/flUlRrKz24IuWVI_WJYTYcqbEsMUZ3kUtbPkR64SYQ.ttf"
+    "regular": "http://fonts.gstatic.com/s/swankyandmoomoo/v22/flUlRrKz24IuWVI_WJYTYcqbEsMUZ3kUtbPkR64SYQ.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

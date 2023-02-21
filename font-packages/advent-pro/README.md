@@ -11,7 +11,7 @@ This package lets you use the [**Advent Pro**](https://fonts.google.com/specimen
 
 ![Advent Pro](./font-family.png)
 
-This font family contains [7 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
 - `AdventPro_100Thin`
 - `AdventPro_200ExtraLight`
@@ -20,6 +20,17 @@ This font family contains [7 styles](#-gallery).
 - `AdventPro_500Medium`
 - `AdventPro_600SemiBold`
 - `AdventPro_700Bold`
+- `AdventPro_800ExtraBold`
+- `AdventPro_900Black`
+- `AdventPro_100Thin_Italic`
+- `AdventPro_200ExtraLight_Italic`
+- `AdventPro_300Light_Italic`
+- `AdventPro_400Regular_Italic`
+- `AdventPro_500Medium_Italic`
+- `AdventPro_600SemiBold_Italic`
+- `AdventPro_700Bold_Italic`
+- `AdventPro_800ExtraBold_Italic`
+- `AdventPro_900Black_Italic`
 
 ## Usage
 
@@ -43,6 +54,17 @@ import {
   AdventPro_500Medium,
   AdventPro_600SemiBold,
   AdventPro_700Bold,
+  AdventPro_800ExtraBold,
+  AdventPro_900Black,
+  AdventPro_100Thin_Italic,
+  AdventPro_200ExtraLight_Italic,
+  AdventPro_300Light_Italic,
+  AdventPro_400Regular_Italic,
+  AdventPro_500Medium_Italic,
+  AdventPro_600SemiBold_Italic,
+  AdventPro_700Bold_Italic,
+  AdventPro_800ExtraBold_Italic,
+  AdventPro_900Black_Italic,
 } from '@expo-google-fonts/advent-pro';
 
 export default () => {
@@ -54,6 +76,17 @@ export default () => {
     AdventPro_500Medium,
     AdventPro_600SemiBold,
     AdventPro_700Bold,
+    AdventPro_800ExtraBold,
+    AdventPro_900Black,
+    AdventPro_100Thin_Italic,
+    AdventPro_200ExtraLight_Italic,
+    AdventPro_300Light_Italic,
+    AdventPro_400Regular_Italic,
+    AdventPro_500Medium_Italic,
+    AdventPro_600SemiBold_Italic,
+    AdventPro_700Bold_Italic,
+    AdventPro_800ExtraBold_Italic,
+    AdventPro_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -133,6 +166,116 @@ export default () => {
           }}>
           Advent Pro Bold
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_800ExtraBold',
+          }}>
+          Advent Pro Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_900Black',
+          }}>
+          Advent Pro Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_100Thin_Italic',
+          }}>
+          Advent Pro Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_200ExtraLight_Italic',
+          }}>
+          Advent Pro Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_300Light_Italic',
+          }}>
+          Advent Pro Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_400Regular_Italic',
+          }}>
+          Advent Pro Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_500Medium_Italic',
+          }}>
+          Advent Pro Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_600SemiBold_Italic',
+          }}>
+          Advent Pro Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_700Bold_Italic',
+          }}>
+          Advent Pro Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_800ExtraBold_Italic',
+          }}>
+          Advent Pro Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AdventPro_900Black_Italic',
+          }}>
+          Advent Pro Black Italic
+        </Text>
       </View>
     );
   }
@@ -147,7 +290,10 @@ export default () => {
 |-|-|-|
 |![AdventPro_100Thin](./AdventPro_100Thin.ttf.png)|![AdventPro_200ExtraLight](./AdventPro_200ExtraLight.ttf.png)|![AdventPro_300Light](./AdventPro_300Light.ttf.png)||
 |![AdventPro_400Regular](./AdventPro_400Regular.ttf.png)|![AdventPro_500Medium](./AdventPro_500Medium.ttf.png)|![AdventPro_600SemiBold](./AdventPro_600SemiBold.ttf.png)||
-|![AdventPro_700Bold](./AdventPro_700Bold.ttf.png)||||
+|![AdventPro_700Bold](./AdventPro_700Bold.ttf.png)|![AdventPro_800ExtraBold](./AdventPro_800ExtraBold.ttf.png)|![AdventPro_900Black](./AdventPro_900Black.ttf.png)||
+|![AdventPro_100Thin_Italic](./AdventPro_100Thin_Italic.ttf.png)|![AdventPro_200ExtraLight_Italic](./AdventPro_200ExtraLight_Italic.ttf.png)|![AdventPro_300Light_Italic](./AdventPro_300Light_Italic.ttf.png)||
+|![AdventPro_400Regular_Italic](./AdventPro_400Regular_Italic.ttf.png)|![AdventPro_500Medium_Italic](./AdventPro_500Medium_Italic.ttf.png)|![AdventPro_600SemiBold_Italic](./AdventPro_600SemiBold_Italic.ttf.png)||
+|![AdventPro_700Bold_Italic](./AdventPro_700Bold_Italic.ttf.png)|![AdventPro_800ExtraBold_Italic](./AdventPro_800ExtraBold_Italic.ttf.png)|![AdventPro_900Black_Italic](./AdventPro_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -2,9 +2,9 @@
   "family": "Allura",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v15",
-  "lastModified": "2021-11-04",
-  "files": { "regular": "http://fonts.gstatic.com/s/allura/v15/9oRPNYsQpS4zjuAPjAIXPtrrGA.ttf" },
+  "version": "v19",
+  "lastModified": "2023-01-18",
+  "files": { "regular": "http://fonts.gstatic.com/s/allura/v19/9oRPNYsQpS4zjuAPjAIXPtrrGA.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

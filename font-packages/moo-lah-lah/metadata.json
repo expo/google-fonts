@@ -1,0 +1,12 @@
+{
+  "family": "Moo Lah Lah",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/moolahlah/v3/dg4h_p_opKZOA0w1AYcm55wtYQYugjW4.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

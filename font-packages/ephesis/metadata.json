@@ -1,0 +1,10 @@
+{
+  "family": "Ephesis",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v7",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/ephesis/v7/uU9PCBUS8IerL2VG7xPb3vyHmlI.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

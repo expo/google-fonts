@@ -2,11 +2,11 @@
   "family": "Arya",
   "variants": ["regular", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2022-01-11",
+  "version": "v19",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/arya/v17/ga6NawNG-HJdzfra3b-BaFg3dRE.ttf",
-    "regular": "http://fonts.gstatic.com/s/arya/v17/ga6CawNG-HJd9Ub1-beqdFE.ttf"
+    "700": "http://fonts.gstatic.com/s/arya/v19/ga6NawNG-HJdzfra3b-BaFg3dRE.ttf",
+    "regular": "http://fonts.gstatic.com/s/arya/v19/ga6CawNG-HJd9Ub1-beqdFE.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

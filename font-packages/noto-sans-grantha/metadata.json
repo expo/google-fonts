@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Grantha",
+  "variants": ["regular"],
+  "subsets": ["grantha", "latin", "latin-ext"],
+  "version": "v17",
+  "lastModified": "2022-09-28",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansgrantha/v17/3y976akwcCjmsU8NDyrKo3IQfQ4o-r8cFeulHc6N.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

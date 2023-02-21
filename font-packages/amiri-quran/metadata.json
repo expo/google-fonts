@@ -1,0 +1,12 @@
+{
+  "family": "Amiri Quran",
+  "variants": ["regular"],
+  "subsets": ["arabic", "latin"],
+  "version": "v7",
+  "lastModified": "2022-09-14",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/amiriquran/v7/_Xmo-Hk0rD6DbUL4_vH8Zq5t7Cycsu-2.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

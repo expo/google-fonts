@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Chakma",
+  "variants": ["regular"],
+  "subsets": ["chakma", "latin", "latin-ext"],
+  "version": "v17",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanschakma/v17/Y4GQYbJ8VTEp4t3MKJSMjg5OIzhi4JjTQhYBeYo.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

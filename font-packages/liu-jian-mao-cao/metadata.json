@@ -2,10 +2,10 @@
   "family": "Liu Jian Mao Cao",
   "variants": ["regular"],
   "subsets": ["chinese-simplified", "latin"],
-  "version": "v13",
-  "lastModified": "2021-11-10",
+  "version": "v15",
+  "lastModified": "2022-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/liujianmaocao/v13/~ChIKEExpdSBKaWFuIE1hbyBDYW8gACoECAEYAQ==.ttf"
+    "regular": "http://fonts.gstatic.com/s/liujianmaocao/v15/~ChIKEExpdSBKaWFuIE1hbyBDYW8gACoECAEYAQ==.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

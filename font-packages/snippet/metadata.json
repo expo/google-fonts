@@ -2,9 +2,9 @@
   "family": "Snippet",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/snippet/v12/bWt47f7XfQH9Gupu2v_Afcp9QWc.ttf" },
+  "version": "v21",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/snippet/v21/bWt47f7XfQH9Gupu2v_Afcp9QWc.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

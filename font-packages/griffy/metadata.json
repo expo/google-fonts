@@ -2,9 +2,9 @@
   "family": "Griffy",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/griffy/v19/FwZa7-ox2FQh9kfwSNSEwM2zpA.ttf" },
+  "version": "v21",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/griffy/v21/FwZa7-ox2FQh9kfwSNSEwM2zpA.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

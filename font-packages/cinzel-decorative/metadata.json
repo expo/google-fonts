@@ -2,12 +2,12 @@
   "family": "Cinzel Decorative",
   "variants": ["regular", "700", "900"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2022-01-13",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/cinzeldecorative/v12/daaHSScvJGqLYhG8nNt8KPPswUAPniZoaelDQzCLlQXE.ttf",
-    "900": "http://fonts.gstatic.com/s/cinzeldecorative/v12/daaHSScvJGqLYhG8nNt8KPPswUAPniZQa-lDQzCLlQXE.ttf",
-    "regular": "http://fonts.gstatic.com/s/cinzeldecorative/v12/daaCSScvJGqLYhG8nNt8KPPswUAPnh7URs1LaCyC.ttf"
+    "700": "http://fonts.gstatic.com/s/cinzeldecorative/v14/daaHSScvJGqLYhG8nNt8KPPswUAPniZoaelDQzCLlQXE.ttf",
+    "900": "http://fonts.gstatic.com/s/cinzeldecorative/v14/daaHSScvJGqLYhG8nNt8KPPswUAPniZQa-lDQzCLlQXE.ttf",
+    "regular": "http://fonts.gstatic.com/s/cinzeldecorative/v14/daaCSScvJGqLYhG8nNt8KPPswUAPnh7URs1LaCyC.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

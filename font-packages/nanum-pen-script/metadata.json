@@ -2,10 +2,10 @@
   "family": "Nanum Pen Script",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v15",
-  "lastModified": "2019-07-16",
+  "version": "v19",
+  "lastModified": "2022-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/nanumpenscript/v15/daaDSSYiLGqEal3MvdA_FOL_3FkN2z7-aMFCcTU.ttf"
+    "regular": "http://fonts.gstatic.com/s/nanumpenscript/v19/daaDSSYiLGqEal3MvdA_FOL_3FkN2z7-aMFCcTU.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

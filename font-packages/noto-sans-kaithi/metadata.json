@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Kaithi",
+  "variants": ["regular"],
+  "subsets": ["kaithi"],
+  "version": "v16",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanskaithi/v16/buEtppS9f8_vkXadMBJJu0tWjLwjQi0KdoZIKlo.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

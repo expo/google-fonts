@@ -1,0 +1,19 @@
+{
+  "family": "Anek Devanagari",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["devanagari", "latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2023-01-06",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/anekdevanagari/v4/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLDtk-9nFk0LjZ7E.ttf",
+    "200": "http://fonts.gstatic.com/s/anekdevanagari/v4/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLBtku9nFk0LjZ7E.ttf",
+    "300": "http://fonts.gstatic.com/s/anekdevanagari/v4/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLCzku9nFk0LjZ7E.ttf",
+    "500": "http://fonts.gstatic.com/s/anekdevanagari/v4/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLDfku9nFk0LjZ7E.ttf",
+    "600": "http://fonts.gstatic.com/s/anekdevanagari/v4/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLAzle9nFk0LjZ7E.ttf",
+    "700": "http://fonts.gstatic.com/s/anekdevanagari/v4/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLAKle9nFk0LjZ7E.ttf",
+    "800": "http://fonts.gstatic.com/s/anekdevanagari/v4/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLBtle9nFk0LjZ7E.ttf",
+    "regular": "http://fonts.gstatic.com/s/anekdevanagari/v4/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLDtku9nFk0LjZ7E.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

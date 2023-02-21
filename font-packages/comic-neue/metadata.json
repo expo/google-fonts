@@ -2,15 +2,15 @@
   "family": "Comic Neue",
   "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
   "subsets": ["latin"],
-  "version": "v6",
-  "lastModified": "2022-01-13",
+  "version": "v8",
+  "lastModified": "2022-09-22",
   "files": {
-    "300": "http://fonts.gstatic.com/s/comicneue/v6/4UaErEJDsxBrF37olUeD_wHLwpteLwtHJlc.ttf",
-    "700": "http://fonts.gstatic.com/s/comicneue/v6/4UaErEJDsxBrF37olUeD_xHMwpteLwtHJlc.ttf",
-    "300italic": "http://fonts.gstatic.com/s/comicneue/v6/4UaarEJDsxBrF37olUeD96_RTplUKylCNlcw_Q.ttf",
-    "regular": "http://fonts.gstatic.com/s/comicneue/v6/4UaHrEJDsxBrF37olUeDx63j5pN1MwI.ttf",
-    "italic": "http://fonts.gstatic.com/s/comicneue/v6/4UaFrEJDsxBrF37olUeD96_p4rFwIwJePw.ttf",
-    "700italic": "http://fonts.gstatic.com/s/comicneue/v6/4UaarEJDsxBrF37olUeD96_RXp5UKylCNlcw_Q.ttf"
+    "300": "http://fonts.gstatic.com/s/comicneue/v8/4UaErEJDsxBrF37olUeD_wHLwpteLwtHJlc.ttf",
+    "700": "http://fonts.gstatic.com/s/comicneue/v8/4UaErEJDsxBrF37olUeD_xHMwpteLwtHJlc.ttf",
+    "300italic": "http://fonts.gstatic.com/s/comicneue/v8/4UaarEJDsxBrF37olUeD96_RTplUKylCNlcw_Q.ttf",
+    "regular": "http://fonts.gstatic.com/s/comicneue/v8/4UaHrEJDsxBrF37olUeDx63j5pN1MwI.ttf",
+    "italic": "http://fonts.gstatic.com/s/comicneue/v8/4UaFrEJDsxBrF37olUeD96_p4rFwIwJePw.ttf",
+    "700italic": "http://fonts.gstatic.com/s/comicneue/v8/4UaarEJDsxBrF37olUeD96_RXp5UKylCNlcw_Q.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Mahajani",
+  "variants": ["regular"],
+  "subsets": ["mahajani"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansmahajani/v15/-F6sfiVqLzI2JPCgQBnw60Agp0JrvD5Fh8ARHNh4zg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

@@ -2,10 +2,10 @@
   "family": "East Sea Dokdo",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v18",
-  "lastModified": "2022-01-11",
+  "version": "v20",
+  "lastModified": "2022-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/eastseadokdo/v18/xfuo0Wn2V2_KanASqXSZp22m05_aGavYS18y.ttf"
+    "regular": "http://fonts.gstatic.com/s/eastseadokdo/v20/xfuo0Wn2V2_KanASqXSZp22m05_aGavYS18y.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

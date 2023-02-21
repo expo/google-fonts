@@ -1,0 +1,17 @@
+{
+  "family": "Readex Pro",
+  "variants": ["200", "300", "regular", "500", "600", "700"],
+  "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
+  "version": "v15",
+  "lastModified": "2023-01-06",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/readexpro/v15/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCYUSmgmsglvjkag.ttf",
+    "300": "http://fonts.gstatic.com/s/readexpro/v15/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCv0Smgmsglvjkag.ttf",
+    "500": "http://fonts.gstatic.com/s/readexpro/v15/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTC00Smgmsglvjkag.ttf",
+    "600": "http://fonts.gstatic.com/s/readexpro/v15/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCP0Omgmsglvjkag.ttf",
+    "700": "http://fonts.gstatic.com/s/readexpro/v15/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCBkOmgmsglvjkag.ttf",
+    "regular": "http://fonts.gstatic.com/s/readexpro/v15/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTC4USmgmsglvjkag.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

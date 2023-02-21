@@ -2,9 +2,9 @@
   "family": "Baumans",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/baumans/v15/-W_-XJj9QyTd3QfpR_oyaksqY5Q.ttf" },
+  "version": "v17",
+  "lastModified": "2022-04-20",
+  "files": { "regular": "http://fonts.gstatic.com/s/baumans/v17/-W_-XJj9QyTd3QfpR_oyaksqY5Q.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

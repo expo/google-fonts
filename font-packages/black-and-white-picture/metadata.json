@@ -2,10 +2,10 @@
   "family": "Black And White Picture",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v20",
-  "lastModified": "2022-01-05",
+  "version": "v22",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/blackandwhitepicture/v20/TwMe-JAERlQd3ooUHBUXGmrmioKjjnRSFO-NqI5HbcMi-yWY.ttf"
+    "regular": "http://fonts.gstatic.com/s/blackandwhitepicture/v22/TwMe-JAERlQd3ooUHBUXGmrmioKjjnRSFO-NqI5HbcMi-yWY.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

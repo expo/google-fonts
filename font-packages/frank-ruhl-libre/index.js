@@ -8,5 +8,7 @@ export { default as __metadata__ } from './metadata.json';
 export const FrankRuhlLibre_300Light = require('./FrankRuhlLibre_300Light.ttf');
 export const FrankRuhlLibre_400Regular = require('./FrankRuhlLibre_400Regular.ttf');
 export const FrankRuhlLibre_500Medium = require('./FrankRuhlLibre_500Medium.ttf');
+export const FrankRuhlLibre_600SemiBold = require('./FrankRuhlLibre_600SemiBold.ttf');
 export const FrankRuhlLibre_700Bold = require('./FrankRuhlLibre_700Bold.ttf');
+export const FrankRuhlLibre_800ExtraBold = require('./FrankRuhlLibre_800ExtraBold.ttf');
 export const FrankRuhlLibre_900Black = require('./FrankRuhlLibre_900Black.ttf');

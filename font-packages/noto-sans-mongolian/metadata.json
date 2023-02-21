@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Mongolian",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "mongolian"],
+  "version": "v17",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansmongolian/v17/VdGCAYADGIwE0EopZx8xQfHlgEAMsrToxLsg6-av1x0.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

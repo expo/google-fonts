@@ -2,13 +2,13 @@
   "family": "Noto Serif",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v16",
-  "lastModified": "2021-09-14",
+  "version": "v21",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/notoserif/v16/ga6Law1J5X9T9RW6j9bNdOwzTRCUcM1IKoY.ttf",
-    "regular": "http://fonts.gstatic.com/s/notoserif/v16/ga6Iaw1J5X9T9RW6j9bNTFAcaRi_bMQ.ttf",
-    "italic": "http://fonts.gstatic.com/s/notoserif/v16/ga6Kaw1J5X9T9RW6j9bNfFIWbTq6fMRRMw.ttf",
-    "700italic": "http://fonts.gstatic.com/s/notoserif/v16/ga6Vaw1J5X9T9RW6j9bNfFIu0RWedO9NOoYIDg.ttf"
+    "700": "http://fonts.gstatic.com/s/notoserif/v21/ga6Law1J5X9T9RW6j9bNdOwzTRCUcM1IKoY.ttf",
+    "regular": "http://fonts.gstatic.com/s/notoserif/v21/ga6Iaw1J5X9T9RW6j9bNTFAcaRi_bMQ.ttf",
+    "italic": "http://fonts.gstatic.com/s/notoserif/v21/ga6Kaw1J5X9T9RW6j9bNfFIWbTq6fMRRMw.ttf",
+    "700italic": "http://fonts.gstatic.com/s/notoserif/v21/ga6Vaw1J5X9T9RW6j9bNfFIu0RWedO9NOoYIDg.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

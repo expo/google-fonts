@@ -2,10 +2,10 @@
   "family": "Love Ya Like A Sister",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2022-01-13",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/loveyalikeasister/v14/R70EjzUBlOqPeouhFDfR80-0FhOqJubN-Be78nZcsGGycA.ttf"
+    "regular": "http://fonts.gstatic.com/s/loveyalikeasister/v16/R70EjzUBlOqPeouhFDfR80-0FhOqJubN-Be78nZcsGGycA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

@@ -1,0 +1,13 @@
+{
+  "family": "BIZ UDPMincho",
+  "variants": ["regular", "700"],
+  "subsets": ["cyrillic", "greek-ext", "japanese", "latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2023-01-18",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/bizudpmincho/v9/ypvCbXOBrmYppy7oWWTg1_58pqR3kU7fnZAy57k.ttf",
+    "regular": "http://fonts.gstatic.com/s/bizudpmincho/v9/ypvfbXOBrmYppy7oWWTg1_58nhhYtUb0gZk.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

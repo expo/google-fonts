@@ -11,9 +11,12 @@ This package lets you use the [**Andika**](https://fonts.google.com/specimen/And
 
 ![Andika](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [4 styles](#-gallery).
 
 - `Andika_400Regular`
+- `Andika_400Regular_Italic`
+- `Andika_700Bold`
+- `Andika_700Bold_Italic`
 
 ## Usage
 
@@ -28,11 +31,20 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, Andika_400Regular } from '@expo-google-fonts/andika';
+import {
+  useFonts,
+  Andika_400Regular,
+  Andika_400Regular_Italic,
+  Andika_700Bold,
+  Andika_700Bold_Italic,
+} from '@expo-google-fonts/andika';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Andika_400Regular,
+    Andika_400Regular_Italic,
+    Andika_700Bold,
+    Andika_700Bold_Italic,
   });
 
   let fontSize = 24;
@@ -52,6 +64,36 @@ export default () => {
           }}>
           Andika Regular
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Andika_400Regular_Italic',
+          }}>
+          Andika Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Andika_700Bold',
+          }}>
+          Andika Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Andika_700Bold_Italic',
+          }}>
+          Andika Bold Italic
+        </Text>
       </View>
     );
   }
@@ -64,7 +106,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Andika_400Regular](./Andika_400Regular.ttf.png)||||
+|![Andika_400Regular](./Andika_400Regular.ttf.png)|![Andika_400Regular_Italic](./Andika_400Regular_Italic.ttf.png)|![Andika_700Bold](./Andika_700Bold.ttf.png)||
+|![Andika_700Bold_Italic](./Andika_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

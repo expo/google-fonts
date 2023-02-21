@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Old South Arabian",
+  "variants": ["regular"],
+  "subsets": ["old-south-arabian"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansoldsoutharabian/v15/3qT5oiOhnSyU8TNFIdhZTice3hB_HWKsEnF--0XCHiKx1OtDT9HwTA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

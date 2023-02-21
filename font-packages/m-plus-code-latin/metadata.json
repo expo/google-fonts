@@ -1,0 +1,18 @@
+{
+  "family": "M PLUS Code Latin",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v7",
+  "lastModified": "2022-09-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/mpluscodelatin/v7/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1EbB6i5MqF9TRwg.ttf",
+    "200": "http://fonts.gstatic.com/s/mpluscodelatin/v7/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1MbA6i5MqF9TRwg.ttf",
+    "300": "http://fonts.gstatic.com/s/mpluscodelatin/v7/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1BjA6i5MqF9TRwg.ttf",
+    "500": "http://fonts.gstatic.com/s/mpluscodelatin/v7/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1HTA6i5MqF9TRwg.ttf",
+    "600": "http://fonts.gstatic.com/s/mpluscodelatin/v7/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1JjH6i5MqF9TRwg.ttf",
+    "700": "http://fonts.gstatic.com/s/mpluscodelatin/v7/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1KHH6i5MqF9TRwg.ttf",
+    "regular": "http://fonts.gstatic.com/s/mpluscodelatin/v7/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1EbA6i5MqF9TRwg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

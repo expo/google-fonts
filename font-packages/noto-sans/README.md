@@ -11,12 +11,26 @@ This package lets you use the [**Noto Sans**](https://fonts.google.com/specimen/
 
 ![Noto Sans](./font-family.png)
 
-This font family contains [4 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
+- `NotoSans_100Thin`
+- `NotoSans_100Thin_Italic`
+- `NotoSans_200ExtraLight`
+- `NotoSans_200ExtraLight_Italic`
+- `NotoSans_300Light`
+- `NotoSans_300Light_Italic`
 - `NotoSans_400Regular`
 - `NotoSans_400Regular_Italic`
+- `NotoSans_500Medium`
+- `NotoSans_500Medium_Italic`
+- `NotoSans_600SemiBold`
+- `NotoSans_600SemiBold_Italic`
 - `NotoSans_700Bold`
 - `NotoSans_700Bold_Italic`
+- `NotoSans_800ExtraBold`
+- `NotoSans_800ExtraBold_Italic`
+- `NotoSans_900Black`
+- `NotoSans_900Black_Italic`
 
 ## Usage
 
@@ -33,18 +47,46 @@ import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import {
   useFonts,
+  NotoSans_100Thin,
+  NotoSans_100Thin_Italic,
+  NotoSans_200ExtraLight,
+  NotoSans_200ExtraLight_Italic,
+  NotoSans_300Light,
+  NotoSans_300Light_Italic,
   NotoSans_400Regular,
   NotoSans_400Regular_Italic,
+  NotoSans_500Medium,
+  NotoSans_500Medium_Italic,
+  NotoSans_600SemiBold,
+  NotoSans_600SemiBold_Italic,
   NotoSans_700Bold,
   NotoSans_700Bold_Italic,
+  NotoSans_800ExtraBold,
+  NotoSans_800ExtraBold_Italic,
+  NotoSans_900Black,
+  NotoSans_900Black_Italic,
 } from '@expo-google-fonts/noto-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    NotoSans_100Thin,
+    NotoSans_100Thin_Italic,
+    NotoSans_200ExtraLight,
+    NotoSans_200ExtraLight_Italic,
+    NotoSans_300Light,
+    NotoSans_300Light_Italic,
     NotoSans_400Regular,
     NotoSans_400Regular_Italic,
+    NotoSans_500Medium,
+    NotoSans_500Medium_Italic,
+    NotoSans_600SemiBold,
+    NotoSans_600SemiBold_Italic,
     NotoSans_700Bold,
     NotoSans_700Bold_Italic,
+    NotoSans_800ExtraBold,
+    NotoSans_800ExtraBold_Italic,
+    NotoSans_900Black,
+    NotoSans_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -55,6 +97,66 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_100Thin',
+          }}>
+          Noto Sans Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_100Thin_Italic',
+          }}>
+          Noto Sans Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_200ExtraLight',
+          }}>
+          Noto Sans Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_200ExtraLight_Italic',
+          }}>
+          Noto Sans Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_300Light',
+          }}>
+          Noto Sans Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_300Light_Italic',
+          }}>
+          Noto Sans Light Italic
+        </Text>
+
         <Text
           style={{
             fontSize,
@@ -80,6 +182,46 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_500Medium',
+          }}>
+          Noto Sans Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_500Medium_Italic',
+          }}>
+          Noto Sans Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_600SemiBold',
+          }}>
+          Noto Sans Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_600SemiBold_Italic',
+          }}>
+          Noto Sans Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'NotoSans_700Bold',
           }}>
           Noto Sans Bold
@@ -94,6 +236,46 @@ export default () => {
           }}>
           Noto Sans Bold Italic
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_800ExtraBold',
+          }}>
+          Noto Sans Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_800ExtraBold_Italic',
+          }}>
+          Noto Sans Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_900Black',
+          }}>
+          Noto Sans Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSans_900Black_Italic',
+          }}>
+          Noto Sans Black Italic
+        </Text>
       </View>
     );
   }
@@ -106,8 +288,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSans_400Regular](./NotoSans_400Regular.ttf.png)|![NotoSans_400Regular_Italic](./NotoSans_400Regular_Italic.ttf.png)|![NotoSans_700Bold](./NotoSans_700Bold.ttf.png)||
-|![NotoSans_700Bold_Italic](./NotoSans_700Bold_Italic.ttf.png)||||
+|![NotoSans_100Thin](./NotoSans_100Thin.ttf.png)|![NotoSans_100Thin_Italic](./NotoSans_100Thin_Italic.ttf.png)|![NotoSans_200ExtraLight](./NotoSans_200ExtraLight.ttf.png)||
+|![NotoSans_200ExtraLight_Italic](./NotoSans_200ExtraLight_Italic.ttf.png)|![NotoSans_300Light](./NotoSans_300Light.ttf.png)|![NotoSans_300Light_Italic](./NotoSans_300Light_Italic.ttf.png)||
+|![NotoSans_400Regular](./NotoSans_400Regular.ttf.png)|![NotoSans_400Regular_Italic](./NotoSans_400Regular_Italic.ttf.png)|![NotoSans_500Medium](./NotoSans_500Medium.ttf.png)||
+|![NotoSans_500Medium_Italic](./NotoSans_500Medium_Italic.ttf.png)|![NotoSans_600SemiBold](./NotoSans_600SemiBold.ttf.png)|![NotoSans_600SemiBold_Italic](./NotoSans_600SemiBold_Italic.ttf.png)||
+|![NotoSans_700Bold](./NotoSans_700Bold.ttf.png)|![NotoSans_700Bold_Italic](./NotoSans_700Bold_Italic.ttf.png)|![NotoSans_800ExtraBold](./NotoSans_800ExtraBold.ttf.png)||
+|![NotoSans_800ExtraBold_Italic](./NotoSans_800ExtraBold_Italic.ttf.png)|![NotoSans_900Black](./NotoSans_900Black.ttf.png)|![NotoSans_900Black_Italic](./NotoSans_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -1,0 +1,12 @@
+{
+  "family": "Rubik Gemstones",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2022-12-08",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/rubikgemstones/v1/zrf90HrL0-_8Xb4DFM2rUkWbOVrOiCnGqi1GMw.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

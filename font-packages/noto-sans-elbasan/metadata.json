@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Elbasan",
+  "variants": ["regular"],
+  "subsets": ["elbasan"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanselbasan/v15/-F6rfiZqLzI2JPCgQBnw400qp1trvHdlre4dFcFh.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

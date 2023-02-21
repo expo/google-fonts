@@ -2,10 +2,10 @@
   "family": "Average Sans",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2022-01-13",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/averagesans/v14/1Ptpg8fLXP2dlAXR-HlJJNJPBdqazVoK4A.ttf"
+    "regular": "http://fonts.gstatic.com/s/averagesans/v16/1Ptpg8fLXP2dlAXR-HlJJNJPBdqazVoK4A.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

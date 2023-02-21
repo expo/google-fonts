@@ -2,10 +2,10 @@
   "family": "Abril Fatface",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2020-09-02",
+  "version": "v19",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/abrilfatface/v12/zOL64pLDlL1D99S8g8PtiKchm-BsjOLhZBY.ttf"
+    "regular": "http://fonts.gstatic.com/s/abrilfatface/v19/zOL64pLDlL1D99S8g8PtiKchm-BsjOLhZBY.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

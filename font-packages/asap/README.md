@@ -11,16 +11,26 @@ This package lets you use the [**Asap**](https://fonts.google.com/specimen/Asap)
 
 ![Asap](./font-family.png)
 
-This font family contains [8 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
+- `Asap_100Thin`
+- `Asap_200ExtraLight`
+- `Asap_300Light`
 - `Asap_400Regular`
 - `Asap_500Medium`
 - `Asap_600SemiBold`
 - `Asap_700Bold`
+- `Asap_800ExtraBold`
+- `Asap_900Black`
+- `Asap_100Thin_Italic`
+- `Asap_200ExtraLight_Italic`
+- `Asap_300Light_Italic`
 - `Asap_400Regular_Italic`
 - `Asap_500Medium_Italic`
 - `Asap_600SemiBold_Italic`
 - `Asap_700Bold_Italic`
+- `Asap_800ExtraBold_Italic`
+- `Asap_900Black_Italic`
 
 ## Usage
 
@@ -37,26 +47,46 @@ import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import {
   useFonts,
+  Asap_100Thin,
+  Asap_200ExtraLight,
+  Asap_300Light,
   Asap_400Regular,
   Asap_500Medium,
   Asap_600SemiBold,
   Asap_700Bold,
+  Asap_800ExtraBold,
+  Asap_900Black,
+  Asap_100Thin_Italic,
+  Asap_200ExtraLight_Italic,
+  Asap_300Light_Italic,
   Asap_400Regular_Italic,
   Asap_500Medium_Italic,
   Asap_600SemiBold_Italic,
   Asap_700Bold_Italic,
+  Asap_800ExtraBold_Italic,
+  Asap_900Black_Italic,
 } from '@expo-google-fonts/asap';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    Asap_100Thin,
+    Asap_200ExtraLight,
+    Asap_300Light,
     Asap_400Regular,
     Asap_500Medium,
     Asap_600SemiBold,
     Asap_700Bold,
+    Asap_800ExtraBold,
+    Asap_900Black,
+    Asap_100Thin_Italic,
+    Asap_200ExtraLight_Italic,
+    Asap_300Light_Italic,
     Asap_400Regular_Italic,
     Asap_500Medium_Italic,
     Asap_600SemiBold_Italic,
     Asap_700Bold_Italic,
+    Asap_800ExtraBold_Italic,
+    Asap_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -67,6 +97,36 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Asap_100Thin',
+          }}>
+          Asap Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Asap_200ExtraLight',
+          }}>
+          Asap Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Asap_300Light',
+          }}>
+          Asap Light
+        </Text>
+
         <Text
           style={{
             fontSize,
@@ -112,6 +172,56 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Asap_800ExtraBold',
+          }}>
+          Asap Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Asap_900Black',
+          }}>
+          Asap Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Asap_100Thin_Italic',
+          }}>
+          Asap Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Asap_200ExtraLight_Italic',
+          }}>
+          Asap Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Asap_300Light_Italic',
+          }}>
+          Asap Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Asap_400Regular_Italic',
           }}>
           Asap Italic
@@ -146,6 +256,26 @@ export default () => {
           }}>
           Asap Bold Italic
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Asap_800ExtraBold_Italic',
+          }}>
+          Asap Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Asap_900Black_Italic',
+          }}>
+          Asap Black Italic
+        </Text>
       </View>
     );
   }
@@ -158,9 +288,12 @@ export default () => {
 
 ||||
 |-|-|-|
+|![Asap_100Thin](./Asap_100Thin.ttf.png)|![Asap_200ExtraLight](./Asap_200ExtraLight.ttf.png)|![Asap_300Light](./Asap_300Light.ttf.png)||
 |![Asap_400Regular](./Asap_400Regular.ttf.png)|![Asap_500Medium](./Asap_500Medium.ttf.png)|![Asap_600SemiBold](./Asap_600SemiBold.ttf.png)||
-|![Asap_700Bold](./Asap_700Bold.ttf.png)|![Asap_400Regular_Italic](./Asap_400Regular_Italic.ttf.png)|![Asap_500Medium_Italic](./Asap_500Medium_Italic.ttf.png)||
-|![Asap_600SemiBold_Italic](./Asap_600SemiBold_Italic.ttf.png)|![Asap_700Bold_Italic](./Asap_700Bold_Italic.ttf.png)|||
+|![Asap_700Bold](./Asap_700Bold.ttf.png)|![Asap_800ExtraBold](./Asap_800ExtraBold.ttf.png)|![Asap_900Black](./Asap_900Black.ttf.png)||
+|![Asap_100Thin_Italic](./Asap_100Thin_Italic.ttf.png)|![Asap_200ExtraLight_Italic](./Asap_200ExtraLight_Italic.ttf.png)|![Asap_300Light_Italic](./Asap_300Light_Italic.ttf.png)||
+|![Asap_400Regular_Italic](./Asap_400Regular_Italic.ttf.png)|![Asap_500Medium_Italic](./Asap_500Medium_Italic.ttf.png)|![Asap_600SemiBold_Italic](./Asap_600SemiBold_Italic.ttf.png)||
+|![Asap_700Bold_Italic](./Asap_700Bold_Italic.ttf.png)|![Asap_800ExtraBold_Italic](./Asap_800ExtraBold_Italic.ttf.png)|![Asap_900Black_Italic](./Asap_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

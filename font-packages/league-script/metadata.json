@@ -2,10 +2,10 @@
   "family": "League Script",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v22",
-  "lastModified": "2022-01-11",
+  "version": "v24",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/leaguescript/v22/CSR54zpSlumSWj9CGVsoBZdeaNNUuOwkC2s.ttf"
+    "regular": "http://fonts.gstatic.com/s/leaguescript/v24/CSR54zpSlumSWj9CGVsoBZdeaNNUuOwkC2s.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

@@ -2,9 +2,9 @@
   "family": "Pavanam",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "tamil"],
-  "version": "v9",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/pavanam/v9/BXRrvF_aiezLh0xPDOtQ9Wf0QcE.ttf" },
+  "version": "v11",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/pavanam/v11/BXRrvF_aiezLh0xPDOtQ9Wf0QcE.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

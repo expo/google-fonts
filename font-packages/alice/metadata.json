@@ -2,9 +2,9 @@
   "family": "Alice",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2021-12-17",
-  "files": { "regular": "http://fonts.gstatic.com/s/alice/v18/OpNCnoEEmtHa6FcJpA_chzJ0.ttf" },
+  "version": "v20",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/alice/v20/OpNCnoEEmtHa6FcJpA_chzJ0.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

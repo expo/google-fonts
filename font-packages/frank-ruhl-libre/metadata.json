@@ -1,15 +1,17 @@
 {
   "family": "Frank Ruhl Libre",
-  "variants": ["300", "regular", "500", "700", "900"],
+  "variants": ["300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["hebrew", "latin", "latin-ext"],
-  "version": "v6",
-  "lastModified": "2020-09-02",
+  "version": "v15",
+  "lastModified": "2022-12-08",
   "files": {
-    "300": "http://fonts.gstatic.com/s/frankruhllibre/v6/j8_36_fAw7jrcalD7oKYNX0QfAnPUxvHxJDMhYeIHw8.ttf",
-    "500": "http://fonts.gstatic.com/s/frankruhllibre/v6/j8_36_fAw7jrcalD7oKYNX0QfAnPU0PGxJDMhYeIHw8.ttf",
-    "700": "http://fonts.gstatic.com/s/frankruhllibre/v6/j8_36_fAw7jrcalD7oKYNX0QfAnPUwvAxJDMhYeIHw8.ttf",
-    "900": "http://fonts.gstatic.com/s/frankruhllibre/v6/j8_36_fAw7jrcalD7oKYNX0QfAnPUzPCxJDMhYeIHw8.ttf",
-    "regular": "http://fonts.gstatic.com/s/frankruhllibre/v6/j8_w6_fAw7jrcalD7oKYNX0QfAnPa7fv4JjnmY4.ttf"
+    "300": "http://fonts.gstatic.com/s/frankruhllibre/v15/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw6bYVqQPxR2EUR_.ttf",
+    "500": "http://fonts.gstatic.com/s/frankruhllibre/v15/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw73YVqQPxR2EUR_.ttf",
+    "600": "http://fonts.gstatic.com/s/frankruhllibre/v15/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw4bZlqQPxR2EUR_.ttf",
+    "700": "http://fonts.gstatic.com/s/frankruhllibre/v15/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw4iZlqQPxR2EUR_.ttf",
+    "800": "http://fonts.gstatic.com/s/frankruhllibre/v15/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw5FZlqQPxR2EUR_.ttf",
+    "900": "http://fonts.gstatic.com/s/frankruhllibre/v15/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw5sZlqQPxR2EUR_.ttf",
+    "regular": "http://fonts.gstatic.com/s/frankruhllibre/v15/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw7FYVqQPxR2EUR_.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

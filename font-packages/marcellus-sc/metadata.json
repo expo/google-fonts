@@ -2,10 +2,10 @@
   "family": "Marcellus SC",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2022-01-13",
+  "version": "v13",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/marcellussc/v11/ke8iOgUHP1dg-Rmi6RWjbLEPgdydGKikhA.ttf"
+    "regular": "http://fonts.gstatic.com/s/marcellussc/v13/ke8iOgUHP1dg-Rmi6RWjbLEPgdydGKikhA.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

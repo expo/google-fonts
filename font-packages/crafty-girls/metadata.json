@@ -2,10 +2,10 @@
   "family": "Crafty Girls",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-07-23",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/craftygirls/v10/va9B4kXI39VaDdlPJo8N_NvuQR37fF3Wlg.ttf"
+    "regular": "http://fonts.gstatic.com/s/craftygirls/v16/va9B4kXI39VaDdlPJo8N_NvuQR37fF3Wlg.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

@@ -2,10 +2,10 @@
   "family": "Jolly Lodger",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2022-01-05",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/jollylodger/v18/BXRsvFTAh_bGkA1uQ48dlB3VWerT3ZyuqA.ttf"
+    "regular": "http://fonts.gstatic.com/s/jollylodger/v20/BXRsvFTAh_bGkA1uQ48dlB3VWerT3ZyuqA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

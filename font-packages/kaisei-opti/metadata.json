@@ -1,0 +1,14 @@
+{
+  "family": "Kaisei Opti",
+  "variants": ["regular", "500", "700"],
+  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "version": "v8",
+  "lastModified": "2022-09-27",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/kaiseiopti/v8/QldXNThJphYb8_g6c2nlIGGqxY1u7f34DYwn.ttf",
+    "700": "http://fonts.gstatic.com/s/kaiseiopti/v8/QldXNThJphYb8_g6c2nlIGHiw41u7f34DYwn.ttf",
+    "regular": "http://fonts.gstatic.com/s/kaiseiopti/v8/QldKNThJphYb8_g6c2nlIFle7KlmxuHx.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

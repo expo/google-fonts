@@ -2,10 +2,10 @@
   "family": "Russo One",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-09-10",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/russoone/v9/Z9XUDmZRWg6M1LvRYsH-yMOInrib9Q.ttf"
+    "regular": "http://fonts.gstatic.com/s/russoone/v14/Z9XUDmZRWg6M1LvRYsH-yMOInrib9Q.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

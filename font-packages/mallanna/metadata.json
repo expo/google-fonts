@@ -2,10 +2,10 @@
   "family": "Mallanna",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v11",
-  "lastModified": "2022-01-13",
+  "version": "v13",
+  "lastModified": "2022-04-26",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/mallanna/v11/hv-Vlzx-KEQb84YaDGwzEzRwVvJ-.ttf"
+    "regular": "http://fonts.gstatic.com/s/mallanna/v13/hv-Vlzx-KEQb84YaDGwzEzRwVvJ-.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

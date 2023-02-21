@@ -1,0 +1,10 @@
+{
+  "family": "Shalimar",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/shalimar/v5/uU9MCBoE6I6iNWFUvTPx8PCOg0uX.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

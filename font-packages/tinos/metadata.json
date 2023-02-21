@@ -11,13 +11,13 @@
     "latin-ext",
     "vietnamese"
   ],
-  "version": "v16",
-  "lastModified": "2021-03-24",
+  "version": "v24",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/tinos/v16/buE1poGnedXvwj1AW0Fp2i43-cxL.ttf",
-    "regular": "http://fonts.gstatic.com/s/tinos/v16/buE4poGnedXvwgX8dGVh8TI-.ttf",
-    "italic": "http://fonts.gstatic.com/s/tinos/v16/buE2poGnedXvwjX-fmFD9CI-4NU.ttf",
-    "700italic": "http://fonts.gstatic.com/s/tinos/v16/buEzpoGnedXvwjX-Rt1s0CoV_NxLeiw.ttf"
+    "700": "http://fonts.gstatic.com/s/tinos/v24/buE1poGnedXvwj1AW0Fp2i43-cxL.ttf",
+    "regular": "http://fonts.gstatic.com/s/tinos/v24/buE4poGnedXvwgX8dGVh8TI-.ttf",
+    "italic": "http://fonts.gstatic.com/s/tinos/v24/buE2poGnedXvwjX-fmFD9CI-4NU.ttf",
+    "700italic": "http://fonts.gstatic.com/s/tinos/v24/buEzpoGnedXvwjX-Rt1s0CoV_NxLeiw.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

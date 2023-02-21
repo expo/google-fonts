@@ -1,0 +1,15 @@
+{
+  "family": "Edu QLD Beginner",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["latin"],
+  "version": "v2",
+  "lastModified": "2023-01-06",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/eduqldbeginner/v2/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE423oebi6vyVWCN.ttf",
+    "600": "http://fonts.gstatic.com/s/eduqldbeginner/v2/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7a2Yebi6vyVWCN.ttf",
+    "700": "http://fonts.gstatic.com/s/eduqldbeginner/v2/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7j2Yebi6vyVWCN.ttf",
+    "regular": "http://fonts.gstatic.com/s/eduqldbeginner/v2/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE4E3oebi6vyVWCN.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

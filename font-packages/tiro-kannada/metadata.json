@@ -1,0 +1,13 @@
+{
+  "family": "Tiro Kannada",
+  "variants": ["regular", "italic"],
+  "subsets": ["kannada", "latin", "latin-ext"],
+  "version": "v6",
+  "lastModified": "2023-01-06",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/tirokannada/v6/CSR44ztKmvqaDxEDJFY7CIYKSPl6tOU9Eg.ttf",
+    "italic": "http://fonts.gstatic.com/s/tirokannada/v6/CSRm4ztKmvqaDxEDJFY7CIY6SvN-luAtEnKp.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

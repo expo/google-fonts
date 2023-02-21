@@ -2,10 +2,10 @@
   "family": "Carter One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2020-09-02",
+  "version": "v17",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/carterone/v12/q5uCsoe5IOB2-pXv9UcNIxR2hYxREMs.ttf"
+    "regular": "http://fonts.gstatic.com/s/carterone/v17/q5uCsoe5IOB2-pXv9UcNIxR2hYxREMs.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

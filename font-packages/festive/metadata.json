@@ -1,0 +1,10 @@
+{
+  "family": "Festive",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v7",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/festive/v7/cY9Ffj6KX1xcoDWhFtfgy9HTkak.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

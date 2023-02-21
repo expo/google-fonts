@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Cuneiform",
+  "variants": ["regular"],
+  "subsets": ["cuneiform"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanscuneiform/v15/bMrrmTWK7YY-MF22aHGGd7H8PhJtvBDWgb9JlRQueeQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

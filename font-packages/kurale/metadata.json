@@ -2,9 +2,9 @@
   "family": "Kurale",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "devanagari", "latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2022-01-13",
-  "files": { "regular": "http://fonts.gstatic.com/s/kurale/v9/4iCs6KV9e9dXjho6eAT3v02QFg.ttf" },
+  "version": "v11",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/kurale/v11/4iCs6KV9e9dXjho6eAT3v02QFg.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

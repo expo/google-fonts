@@ -5,11 +5,21 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const Chivo_100Thin = require('./Chivo_100Thin.ttf');
+export const Chivo_200ExtraLight = require('./Chivo_200ExtraLight.ttf');
 export const Chivo_300Light = require('./Chivo_300Light.ttf');
-export const Chivo_300Light_Italic = require('./Chivo_300Light_Italic.ttf');
 export const Chivo_400Regular = require('./Chivo_400Regular.ttf');
-export const Chivo_400Regular_Italic = require('./Chivo_400Regular_Italic.ttf');
+export const Chivo_500Medium = require('./Chivo_500Medium.ttf');
+export const Chivo_600SemiBold = require('./Chivo_600SemiBold.ttf');
 export const Chivo_700Bold = require('./Chivo_700Bold.ttf');
-export const Chivo_700Bold_Italic = require('./Chivo_700Bold_Italic.ttf');
+export const Chivo_800ExtraBold = require('./Chivo_800ExtraBold.ttf');
 export const Chivo_900Black = require('./Chivo_900Black.ttf');
+export const Chivo_100Thin_Italic = require('./Chivo_100Thin_Italic.ttf');
+export const Chivo_200ExtraLight_Italic = require('./Chivo_200ExtraLight_Italic.ttf');
+export const Chivo_300Light_Italic = require('./Chivo_300Light_Italic.ttf');
+export const Chivo_400Regular_Italic = require('./Chivo_400Regular_Italic.ttf');
+export const Chivo_500Medium_Italic = require('./Chivo_500Medium_Italic.ttf');
+export const Chivo_600SemiBold_Italic = require('./Chivo_600SemiBold_Italic.ttf');
+export const Chivo_700Bold_Italic = require('./Chivo_700Bold_Italic.ttf');
+export const Chivo_800ExtraBold_Italic = require('./Chivo_800ExtraBold_Italic.ttf');
 export const Chivo_900Black_Italic = require('./Chivo_900Black_Italic.ttf');

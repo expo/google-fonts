@@ -1,0 +1,19 @@
+{
+  "family": "Anek Bangla",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["bengali", "latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2023-01-06",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/anekbangla/v4/_gPW1R38qTExHg-17BhM6n66QhabMYB0fBKONtHhRSIUIre5mq3Ofm9YIocg56yyvt0.ttf",
+    "200": "http://fonts.gstatic.com/s/anekbangla/v4/_gPW1R38qTExHg-17BhM6n66QhabMYB0fBKONtHhRSIUIre5mq3Ofu9ZIocg56yyvt0.ttf",
+    "300": "http://fonts.gstatic.com/s/anekbangla/v4/_gPW1R38qTExHg-17BhM6n66QhabMYB0fBKONtHhRSIUIre5mq3OfjFZIocg56yyvt0.ttf",
+    "500": "http://fonts.gstatic.com/s/anekbangla/v4/_gPW1R38qTExHg-17BhM6n66QhabMYB0fBKONtHhRSIUIre5mq3Ofl1ZIocg56yyvt0.ttf",
+    "600": "http://fonts.gstatic.com/s/anekbangla/v4/_gPW1R38qTExHg-17BhM6n66QhabMYB0fBKONtHhRSIUIre5mq3OfrFeIocg56yyvt0.ttf",
+    "700": "http://fonts.gstatic.com/s/anekbangla/v4/_gPW1R38qTExHg-17BhM6n66QhabMYB0fBKONtHhRSIUIre5mq3OfoheIocg56yyvt0.ttf",
+    "800": "http://fonts.gstatic.com/s/anekbangla/v4/_gPW1R38qTExHg-17BhM6n66QhabMYB0fBKONtHhRSIUIre5mq3Ofu9eIocg56yyvt0.ttf",
+    "regular": "http://fonts.gstatic.com/s/anekbangla/v4/_gPW1R38qTExHg-17BhM6n66QhabMYB0fBKONtHhRSIUIre5mq3Ofm9ZIocg56yyvt0.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

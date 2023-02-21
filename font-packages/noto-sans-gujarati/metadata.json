@@ -1,0 +1,20 @@
+{
+  "family": "Noto Sans Gujarati",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["gujarati", "latin", "latin-ext"],
+  "version": "v19",
+  "lastModified": "2022-09-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notosansgujarati/v19/wlpWgx_HC1ti5ViekvcxnhMlCVo3f5pv17ivlzsUB14gg1TMR2Gw4VceEl7MA_ypFgPM_OdiEH0s.ttf",
+    "200": "http://fonts.gstatic.com/s/notosansgujarati/v19/wlpWgx_HC1ti5ViekvcxnhMlCVo3f5pv17ivlzsUB14gg1TMR2Gw4VceEl7MA_wpFwPM_OdiEH0s.ttf",
+    "300": "http://fonts.gstatic.com/s/notosansgujarati/v19/wlpWgx_HC1ti5ViekvcxnhMlCVo3f5pv17ivlzsUB14gg1TMR2Gw4VceEl7MA_z3FwPM_OdiEH0s.ttf",
+    "500": "http://fonts.gstatic.com/s/notosansgujarati/v19/wlpWgx_HC1ti5ViekvcxnhMlCVo3f5pv17ivlzsUB14gg1TMR2Gw4VceEl7MA_ybFwPM_OdiEH0s.ttf",
+    "600": "http://fonts.gstatic.com/s/notosansgujarati/v19/wlpWgx_HC1ti5ViekvcxnhMlCVo3f5pv17ivlzsUB14gg1TMR2Gw4VceEl7MA_x3EAPM_OdiEH0s.ttf",
+    "700": "http://fonts.gstatic.com/s/notosansgujarati/v19/wlpWgx_HC1ti5ViekvcxnhMlCVo3f5pv17ivlzsUB14gg1TMR2Gw4VceEl7MA_xOEAPM_OdiEH0s.ttf",
+    "800": "http://fonts.gstatic.com/s/notosansgujarati/v19/wlpWgx_HC1ti5ViekvcxnhMlCVo3f5pv17ivlzsUB14gg1TMR2Gw4VceEl7MA_wpEAPM_OdiEH0s.ttf",
+    "900": "http://fonts.gstatic.com/s/notosansgujarati/v19/wlpWgx_HC1ti5ViekvcxnhMlCVo3f5pv17ivlzsUB14gg1TMR2Gw4VceEl7MA_wAEAPM_OdiEH0s.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosansgujarati/v19/wlpWgx_HC1ti5ViekvcxnhMlCVo3f5pv17ivlzsUB14gg1TMR2Gw4VceEl7MA_ypFwPM_OdiEH0s.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

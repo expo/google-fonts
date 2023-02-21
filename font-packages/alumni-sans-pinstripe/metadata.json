@@ -1,0 +1,13 @@
+{
+  "family": "Alumni Sans Pinstripe",
+  "variants": ["regular", "italic"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/alumnisanspinstripe/v1/ZgNNjOFFPq_AUJD1umyS30W-Xub8zD1ObhezYrVIpcDA5w.ttf",
+    "italic": "http://fonts.gstatic.com/s/alumnisanspinstripe/v1/ZgNDjOFFPq_AUJD1umyS30W-Xub8zD1ObheDYL9Mh8XQ5_cY.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

@@ -2,9 +2,9 @@
   "family": "Stylish",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v18",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/stylish/v18/m8JSjfhPYriQkk7-fo35dLxEdmo.ttf" },
+  "version": "v20",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/stylish/v20/m8JSjfhPYriQkk7-fo35dLxEdmo.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

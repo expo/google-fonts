@@ -1,0 +1,13 @@
+{
+  "family": "Tai Heritage Pro",
+  "variants": ["regular", "700"],
+  "subsets": ["latin", "latin-ext", "tai-viet", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2022-11-09",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/taiheritagepro/v2/sZlYdQid-zgaNiNIYcUzJMU3IYyNmMB9NNRFMuhjCXY.ttf",
+    "regular": "http://fonts.gstatic.com/s/taiheritagepro/v2/sZlfdQid-zgaNiNIYcUzJMU3IYyNoHxSENxuLuE.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

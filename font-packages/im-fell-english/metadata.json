@@ -2,11 +2,11 @@
   "family": "IM Fell English",
   "variants": ["regular", "italic"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-07-23",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/imfellenglish/v10/Ktk1ALSLW8zDe0rthJysWrnLsAz3F6mZVY9Y5w.ttf",
-    "italic": "http://fonts.gstatic.com/s/imfellenglish/v10/Ktk3ALSLW8zDe0rthJysWrnLsAzHFaOdd4pI59zg.ttf"
+    "regular": "http://fonts.gstatic.com/s/imfellenglish/v14/Ktk1ALSLW8zDe0rthJysWrnLsAz3F6mZVY9Y5w.ttf",
+    "italic": "http://fonts.gstatic.com/s/imfellenglish/v14/Ktk3ALSLW8zDe0rthJysWrnLsAzHFaOdd4pI59zg.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

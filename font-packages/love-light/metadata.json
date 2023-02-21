@@ -1,0 +1,12 @@
+{
+  "family": "Love Light",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/lovelight/v3/t5tlIR0TNJyZWimpNAXDjKbCyTHuspo.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

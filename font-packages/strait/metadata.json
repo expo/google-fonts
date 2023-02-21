@@ -2,9 +2,9 @@
   "family": "Strait",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/strait/v11/DtViJxy6WaEr1LZzeDhtkl0U7w.ttf" },
+  "version": "v13",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/strait/v13/DtViJxy6WaEr1LZzeDhtkl0U7w.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

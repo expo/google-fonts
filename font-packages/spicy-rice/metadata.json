@@ -2,10 +2,10 @@
   "family": "Spicy Rice",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v19",
-  "lastModified": "2022-01-11",
+  "version": "v21",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/spicyrice/v19/uK_24rSEd-Uqwk4jY1RyGv-2WkowRcc.ttf"
+    "regular": "http://fonts.gstatic.com/s/spicyrice/v21/uK_24rSEd-Uqwk4jY1RyGv-2WkowRcc.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

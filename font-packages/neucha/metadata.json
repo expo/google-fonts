@@ -2,9 +2,9 @@
   "family": "Neucha",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin"],
-  "version": "v12",
-  "lastModified": "2020-09-02",
-  "files": { "regular": "http://fonts.gstatic.com/s/neucha/v12/q5uGsou0JOdh94bvugNsCxVEgA.ttf" },
+  "version": "v17",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/neucha/v17/q5uGsou0JOdh94bvugNsCxVEgA.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

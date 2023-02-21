@@ -2,14 +2,14 @@
   "family": "Baloo Tamma 2",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["kannada", "latin", "latin-ext", "vietnamese"],
-  "version": "v8",
-  "lastModified": "2021-12-01",
+  "version": "v15",
+  "lastModified": "2022-11-09",
   "files": {
-    "500": "http://fonts.gstatic.com/s/balootamma2/v8/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMsuPp-0IF71SGC5.ttf",
-    "600": "http://fonts.gstatic.com/s/balootamma2/v8/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMvCOZ-0IF71SGC5.ttf",
-    "700": "http://fonts.gstatic.com/s/balootamma2/v8/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMv7OZ-0IF71SGC5.ttf",
-    "800": "http://fonts.gstatic.com/s/balootamma2/v8/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMucOZ-0IF71SGC5.ttf",
-    "regular": "http://fonts.gstatic.com/s/balootamma2/v8/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMscPp-0IF71SGC5.ttf"
+    "500": "http://fonts.gstatic.com/s/balootamma2/v15/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMsuPp-0IF71SGC5.ttf",
+    "600": "http://fonts.gstatic.com/s/balootamma2/v15/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMvCOZ-0IF71SGC5.ttf",
+    "700": "http://fonts.gstatic.com/s/balootamma2/v15/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMv7OZ-0IF71SGC5.ttf",
+    "800": "http://fonts.gstatic.com/s/balootamma2/v15/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMucOZ-0IF71SGC5.ttf",
+    "regular": "http://fonts.gstatic.com/s/balootamma2/v15/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMscPp-0IF71SGC5.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

@@ -2,11 +2,11 @@
   "family": "Harmattan",
   "variants": ["regular", "700"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2021-04-01",
+  "version": "v17",
+  "lastModified": "2022-11-09",
   "files": {
-    "700": "http://fonts.gstatic.com/s/harmattan/v11/gokpH6L2DkFvVvRp9Xpr92-HmNZEq6TTFw.ttf",
-    "regular": "http://fonts.gstatic.com/s/harmattan/v11/goksH6L2DkFvVvRp9XpTS0CjkP1Yog.ttf"
+    "700": "http://fonts.gstatic.com/s/harmattan/v17/gokpH6L2DkFvVvRp9Xpr92-HmNZEq6TTFw.ttf",
+    "regular": "http://fonts.gstatic.com/s/harmattan/v17/goksH6L2DkFvVvRp9XpTS0CjkP1Yog.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

@@ -1,0 +1,15 @@
+{
+  "family": "Noto Naskh Arabic",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["arabic", "latin", "latin-ext"],
+  "version": "v25",
+  "lastModified": "2022-12-08",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/notonaskharabic/v25/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwj85krK0z9_Mnuw.ttf",
+    "600": "http://fonts.gstatic.com/s/notonaskharabic/v25/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwY8lkrK0z9_Mnuw.ttf",
+    "700": "http://fonts.gstatic.com/s/notonaskharabic/v25/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwWslkrK0z9_Mnuw.ttf",
+    "regular": "http://fonts.gstatic.com/s/notonaskharabic/v25/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc5krK0z9_Mnuw.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

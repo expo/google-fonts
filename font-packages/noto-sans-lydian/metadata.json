@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Lydian",
+  "variants": ["regular"],
+  "subsets": ["lydian"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanslydian/v15/c4m71mVzGN7s8FmIukZJ1v4ZlcPReUPXMoIjEQI.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

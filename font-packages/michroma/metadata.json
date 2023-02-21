@@ -2,10 +2,10 @@
   "family": "Michroma",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2020-09-02",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/michroma/v11/PN_zRfy9qWD8fEagAMg6rzjb_-Da.ttf"
+    "regular": "http://fonts.gstatic.com/s/michroma/v16/PN_zRfy9qWD8fEagAMg6rzjb_-Da.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

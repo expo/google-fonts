@@ -2,16 +2,16 @@
   "family": "Mada",
   "variants": ["200", "300", "regular", "500", "600", "700", "900"],
   "subsets": ["arabic", "latin"],
-  "version": "v11",
-  "lastModified": "2021-03-24",
+  "version": "v18",
+  "lastModified": "2022-12-08",
   "files": {
-    "200": "http://fonts.gstatic.com/s/mada/v11/7Au_p_0qnzeSdf3nCCL8zkwMIFg.ttf",
-    "300": "http://fonts.gstatic.com/s/mada/v11/7Au_p_0qnzeSdZnkCCL8zkwMIFg.ttf",
-    "500": "http://fonts.gstatic.com/s/mada/v11/7Au_p_0qnzeSdcHlCCL8zkwMIFg.ttf",
-    "600": "http://fonts.gstatic.com/s/mada/v11/7Au_p_0qnzeSde3iCCL8zkwMIFg.ttf",
-    "700": "http://fonts.gstatic.com/s/mada/v11/7Au_p_0qnzeSdYnjCCL8zkwMIFg.ttf",
-    "900": "http://fonts.gstatic.com/s/mada/v11/7Au_p_0qnzeSdbHhCCL8zkwMIFg.ttf",
-    "regular": "http://fonts.gstatic.com/s/mada/v11/7Auwp_0qnzeSTTXMLCrX0kU.ttf"
+    "200": "http://fonts.gstatic.com/s/mada/v18/7Au_p_0qnzeSdf3nCCL8zkwMIFg.ttf",
+    "300": "http://fonts.gstatic.com/s/mada/v18/7Au_p_0qnzeSdZnkCCL8zkwMIFg.ttf",
+    "500": "http://fonts.gstatic.com/s/mada/v18/7Au_p_0qnzeSdcHlCCL8zkwMIFg.ttf",
+    "600": "http://fonts.gstatic.com/s/mada/v18/7Au_p_0qnzeSde3iCCL8zkwMIFg.ttf",
+    "700": "http://fonts.gstatic.com/s/mada/v18/7Au_p_0qnzeSdYnjCCL8zkwMIFg.ttf",
+    "900": "http://fonts.gstatic.com/s/mada/v18/7Au_p_0qnzeSdbHhCCL8zkwMIFg.ttf",
+    "regular": "http://fonts.gstatic.com/s/mada/v18/7Auwp_0qnzeSTTXMLCrX0kU.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

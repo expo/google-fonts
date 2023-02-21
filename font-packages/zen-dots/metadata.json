@@ -2,9 +2,9 @@
   "family": "Zen Dots",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/zendots/v8/XRXX3ICfm00IGoesQeaETM_FcCIG.ttf" },
+  "version": "v10",
+  "lastModified": "2023-01-06",
+  "files": { "regular": "http://fonts.gstatic.com/s/zendots/v10/XRXX3ICfm00IGoesQeaETM_FcCIG.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

@@ -1,0 +1,12 @@
+{
+  "family": "Grechen Fuemen",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v7",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/grechenfuemen/v7/vEFI2_tHEQ4d5ObgKxBzZh0MAWgc-NaXXq7H.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

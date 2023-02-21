@@ -2,11 +2,11 @@
   "family": "Sintony",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-09-02",
+  "version": "v13",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/sintony/v8/XoHj2YDqR7-98cVUGYgIn9cDkjLp6C8.ttf",
-    "regular": "http://fonts.gstatic.com/s/sintony/v8/XoHm2YDqR7-98cVUITQnu98ojjs.ttf"
+    "700": "http://fonts.gstatic.com/s/sintony/v13/XoHj2YDqR7-98cVUGYgIn9cDkjLp6C8.ttf",
+    "regular": "http://fonts.gstatic.com/s/sintony/v13/XoHm2YDqR7-98cVUITQnu98ojjs.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

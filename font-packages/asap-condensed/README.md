@@ -11,8 +11,12 @@ This package lets you use the [**Asap Condensed**](https://fonts.google.com/spec
 
 ![Asap Condensed](./font-family.png)
 
-This font family contains [8 styles](#-gallery).
+This font family contains [16 styles](#-gallery).
 
+- `AsapCondensed_200ExtraLight`
+- `AsapCondensed_200ExtraLight_Italic`
+- `AsapCondensed_300Light`
+- `AsapCondensed_300Light_Italic`
 - `AsapCondensed_400Regular`
 - `AsapCondensed_400Regular_Italic`
 - `AsapCondensed_500Medium`
@@ -21,6 +25,10 @@ This font family contains [8 styles](#-gallery).
 - `AsapCondensed_600SemiBold_Italic`
 - `AsapCondensed_700Bold`
 - `AsapCondensed_700Bold_Italic`
+- `AsapCondensed_800ExtraBold`
+- `AsapCondensed_800ExtraBold_Italic`
+- `AsapCondensed_900Black`
+- `AsapCondensed_900Black_Italic`
 
 ## Usage
 
@@ -37,6 +45,10 @@ import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import {
   useFonts,
+  AsapCondensed_200ExtraLight,
+  AsapCondensed_200ExtraLight_Italic,
+  AsapCondensed_300Light,
+  AsapCondensed_300Light_Italic,
   AsapCondensed_400Regular,
   AsapCondensed_400Regular_Italic,
   AsapCondensed_500Medium,
@@ -45,10 +57,18 @@ import {
   AsapCondensed_600SemiBold_Italic,
   AsapCondensed_700Bold,
   AsapCondensed_700Bold_Italic,
+  AsapCondensed_800ExtraBold,
+  AsapCondensed_800ExtraBold_Italic,
+  AsapCondensed_900Black,
+  AsapCondensed_900Black_Italic,
 } from '@expo-google-fonts/asap-condensed';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    AsapCondensed_200ExtraLight,
+    AsapCondensed_200ExtraLight_Italic,
+    AsapCondensed_300Light,
+    AsapCondensed_300Light_Italic,
     AsapCondensed_400Regular,
     AsapCondensed_400Regular_Italic,
     AsapCondensed_500Medium,
@@ -57,6 +77,10 @@ export default () => {
     AsapCondensed_600SemiBold_Italic,
     AsapCondensed_700Bold,
     AsapCondensed_700Bold_Italic,
+    AsapCondensed_800ExtraBold,
+    AsapCondensed_800ExtraBold_Italic,
+    AsapCondensed_900Black,
+    AsapCondensed_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -67,6 +91,46 @@ export default () => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AsapCondensed_200ExtraLight',
+          }}>
+          Asap Condensed Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AsapCondensed_200ExtraLight_Italic',
+          }}>
+          Asap Condensed Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AsapCondensed_300Light',
+          }}>
+          Asap Condensed Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AsapCondensed_300Light_Italic',
+          }}>
+          Asap Condensed Light Italic
+        </Text>
+
         <Text
           style={{
             fontSize,
@@ -146,6 +210,46 @@ export default () => {
           }}>
           Asap Condensed Bold Italic
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AsapCondensed_800ExtraBold',
+          }}>
+          Asap Condensed Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AsapCondensed_800ExtraBold_Italic',
+          }}>
+          Asap Condensed Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AsapCondensed_900Black',
+          }}>
+          Asap Condensed Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'AsapCondensed_900Black_Italic',
+          }}>
+          Asap Condensed Black Italic
+        </Text>
       </View>
     );
   }
@@ -158,9 +262,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AsapCondensed_400Regular](./AsapCondensed_400Regular.ttf.png)|![AsapCondensed_400Regular_Italic](./AsapCondensed_400Regular_Italic.ttf.png)|![AsapCondensed_500Medium](./AsapCondensed_500Medium.ttf.png)||
-|![AsapCondensed_500Medium_Italic](./AsapCondensed_500Medium_Italic.ttf.png)|![AsapCondensed_600SemiBold](./AsapCondensed_600SemiBold.ttf.png)|![AsapCondensed_600SemiBold_Italic](./AsapCondensed_600SemiBold_Italic.ttf.png)||
-|![AsapCondensed_700Bold](./AsapCondensed_700Bold.ttf.png)|![AsapCondensed_700Bold_Italic](./AsapCondensed_700Bold_Italic.ttf.png)|||
+|![AsapCondensed_200ExtraLight](./AsapCondensed_200ExtraLight.ttf.png)|![AsapCondensed_200ExtraLight_Italic](./AsapCondensed_200ExtraLight_Italic.ttf.png)|![AsapCondensed_300Light](./AsapCondensed_300Light.ttf.png)||
+|![AsapCondensed_300Light_Italic](./AsapCondensed_300Light_Italic.ttf.png)|![AsapCondensed_400Regular](./AsapCondensed_400Regular.ttf.png)|![AsapCondensed_400Regular_Italic](./AsapCondensed_400Regular_Italic.ttf.png)||
+|![AsapCondensed_500Medium](./AsapCondensed_500Medium.ttf.png)|![AsapCondensed_500Medium_Italic](./AsapCondensed_500Medium_Italic.ttf.png)|![AsapCondensed_600SemiBold](./AsapCondensed_600SemiBold.ttf.png)||
+|![AsapCondensed_600SemiBold_Italic](./AsapCondensed_600SemiBold_Italic.ttf.png)|![AsapCondensed_700Bold](./AsapCondensed_700Bold.ttf.png)|![AsapCondensed_700Bold_Italic](./AsapCondensed_700Bold_Italic.ttf.png)||
+|![AsapCondensed_800ExtraBold](./AsapCondensed_800ExtraBold.ttf.png)|![AsapCondensed_800ExtraBold_Italic](./AsapCondensed_800ExtraBold_Italic.ttf.png)|![AsapCondensed_900Black](./AsapCondensed_900Black.ttf.png)||
+|![AsapCondensed_900Black_Italic](./AsapCondensed_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

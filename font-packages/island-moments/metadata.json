@@ -1,0 +1,12 @@
+{
+  "family": "Island Moments",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/islandmoments/v3/NaPBcZfVGvBdxIt7Ar0qzkXJF-TGIohbZ6SY.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

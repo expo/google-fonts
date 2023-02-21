@@ -2,9 +2,9 @@
   "family": "Lalezar",
   "variants": ["regular"],
   "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
-  "version": "v9",
-  "lastModified": "2021-03-24",
-  "files": { "regular": "http://fonts.gstatic.com/s/lalezar/v9/zrfl0HLVx-HwTP82UaDyIiL0RCg.ttf" },
+  "version": "v14",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/lalezar/v14/zrfl0HLVx-HwTP82UaDyIiL0RCg.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

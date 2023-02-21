@@ -2,9 +2,9 @@
   "family": "Gugi",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v11",
-  "lastModified": "2022-01-13",
-  "files": { "regular": "http://fonts.gstatic.com/s/gugi/v11/A2BVn5dXywshVA6A9DEfgqM.ttf" },
+  "version": "v13",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/gugi/v13/A2BVn5dXywshVA6A9DEfgqM.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

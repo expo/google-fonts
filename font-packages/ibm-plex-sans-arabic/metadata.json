@@ -1,0 +1,18 @@
+{
+  "family": "IBM Plex Sans Arabic",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+  "subsets": ["arabic", "cyrillic-ext", "latin", "latin-ext"],
+  "version": "v9",
+  "lastModified": "2022-11-09",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/ibmplexsansarabic/v9/Qw3MZRtWPQCuHme67tEYUIx3Kh0PHR9N6YNe3PC5eMlAMg0.ttf",
+    "200": "http://fonts.gstatic.com/s/ibmplexsansarabic/v9/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPy_dCTVsVJKxTs.ttf",
+    "300": "http://fonts.gstatic.com/s/ibmplexsansarabic/v9/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YOW_tCTVsVJKxTs.ttf",
+    "500": "http://fonts.gstatic.com/s/ibmplexsansarabic/v9/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPO_9CTVsVJKxTs.ttf",
+    "600": "http://fonts.gstatic.com/s/ibmplexsansarabic/v9/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPi-NCTVsVJKxTs.ttf",
+    "700": "http://fonts.gstatic.com/s/ibmplexsansarabic/v9/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YOG-dCTVsVJKxTs.ttf",
+    "regular": "http://fonts.gstatic.com/s/ibmplexsansarabic/v9/Qw3CZRtWPQCuHme67tEYUIx3Kh0PHR9N6bs61vSbfdlA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

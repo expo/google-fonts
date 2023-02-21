@@ -2,10 +2,10 @@
   "family": "Trade Winds",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2022-01-11",
+  "version": "v17",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/tradewinds/v15/AYCPpXPpYNIIT7h8-QenM3Jq7PKP5Z_G.ttf"
+    "regular": "http://fonts.gstatic.com/s/tradewinds/v17/AYCPpXPpYNIIT7h8-QenM3Jq7PKP5Z_G.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

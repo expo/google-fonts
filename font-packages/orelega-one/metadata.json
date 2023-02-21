@@ -2,10 +2,10 @@
   "family": "Orelega One",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2022-01-11",
+  "version": "v10",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/orelegaone/v8/3qTpojOggD2XtAdFb-QXZGt61EcYaQ7F.ttf"
+    "regular": "http://fonts.gstatic.com/s/orelegaone/v10/3qTpojOggD2XtAdFb-QXZGt61EcYaQ7F.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

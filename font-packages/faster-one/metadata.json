@@ -2,10 +2,10 @@
   "family": "Faster One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2022-01-11",
+  "version": "v17",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/fasterone/v15/H4ciBXCHmdfClFb-vWhfyLuShq63czE.ttf"
+    "regular": "http://fonts.gstatic.com/s/fasterone/v17/H4ciBXCHmdfClFb-vWhfyLuShq63czE.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

@@ -1,0 +1,12 @@
+{
+  "family": "Yuji Boku",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2022-09-27",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/yujiboku/v5/P5sAzZybeNzXsA9xj1Fkjb2r2dgvJA.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

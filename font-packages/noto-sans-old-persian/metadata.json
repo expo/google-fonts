@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Old Persian",
+  "variants": ["regular"],
+  "subsets": ["old-persian"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansoldpersian/v15/wEOjEAbNnc5caQTFG18FHrZr9Bp6-8CmIJ_tqOlQfx9CjA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

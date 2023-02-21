@@ -1,0 +1,13 @@
+{
+  "family": "Tiro Bangla",
+  "variants": ["regular", "italic"],
+  "subsets": ["bengali", "latin", "latin-ext"],
+  "version": "v6",
+  "lastModified": "2023-01-06",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/tirobangla/v6/IFSgHe1Tm95E3O8b5i2V8MG9-UPeuz4i.ttf",
+    "italic": "http://fonts.gstatic.com/s/tirobangla/v6/IFSiHe1Tm95E3O8b5i2V8PG_80f8vi4imBM.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

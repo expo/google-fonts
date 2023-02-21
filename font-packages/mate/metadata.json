@@ -2,11 +2,11 @@
   "family": "Mate",
   "variants": ["regular", "italic"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2020-07-23",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/mate/v9/m8JdjftRd7WZ2z28WoXSaLU.ttf",
-    "italic": "http://fonts.gstatic.com/s/mate/v9/m8JTjftRd7WZ6z-2XqfXeLVdbw.ttf"
+    "regular": "http://fonts.gstatic.com/s/mate/v14/m8JdjftRd7WZ2z28WoXSaLU.ttf",
+    "italic": "http://fonts.gstatic.com/s/mate/v14/m8JTjftRd7WZ6z-2XqfXeLVdbw.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

@@ -1,0 +1,20 @@
+{
+  "family": "Noto Sans Canadian Aboriginal",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["canadian-aboriginal", "latin", "latin-ext"],
+  "version": "v21",
+  "lastModified": "2022-09-28",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notosanscanadianaboriginal/v21/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzigWLj_yAsg0q0uhQ.ttf",
+    "200": "http://fonts.gstatic.com/s/notosanscanadianaboriginal/v21/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzig2Ln_yAsg0q0uhQ.ttf",
+    "300": "http://fonts.gstatic.com/s/notosanscanadianaboriginal/v21/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzigBrn_yAsg0q0uhQ.ttf",
+    "500": "http://fonts.gstatic.com/s/notosanscanadianaboriginal/v21/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzigarn_yAsg0q0uhQ.ttf",
+    "600": "http://fonts.gstatic.com/s/notosanscanadianaboriginal/v21/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzighr7_yAsg0q0uhQ.ttf",
+    "700": "http://fonts.gstatic.com/s/notosanscanadianaboriginal/v21/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzigv77_yAsg0q0uhQ.ttf",
+    "800": "http://fonts.gstatic.com/s/notosanscanadianaboriginal/v21/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzig2L7_yAsg0q0uhQ.ttf",
+    "900": "http://fonts.gstatic.com/s/notosanscanadianaboriginal/v21/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzig8b7_yAsg0q0uhQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosanscanadianaboriginal/v21/4C_TLjTuEqPj-8J01CwaGkiZ9os0iGVkezM1mUT-j_Lmlzda6uH_nnX1bzigWLn_yAsg0q0uhQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

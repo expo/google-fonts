@@ -1,0 +1,13 @@
+{
+  "family": "The Nautigal",
+  "variants": ["regular", "700"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2022-09-22",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/thenautigal/v3/VdGGAZ8ZH51Lvng9fQV2bfKTWypA2_-C7LoS7g.ttf",
+    "regular": "http://fonts.gstatic.com/s/thenautigal/v3/VdGZAZ8ZH51Lvng9fQV2bfKr5wVk09Se5Q.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

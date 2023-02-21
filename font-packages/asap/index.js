@@ -5,11 +5,21 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const Asap_100Thin = require('./Asap_100Thin.ttf');
+export const Asap_200ExtraLight = require('./Asap_200ExtraLight.ttf');
+export const Asap_300Light = require('./Asap_300Light.ttf');
 export const Asap_400Regular = require('./Asap_400Regular.ttf');
 export const Asap_500Medium = require('./Asap_500Medium.ttf');
 export const Asap_600SemiBold = require('./Asap_600SemiBold.ttf');
 export const Asap_700Bold = require('./Asap_700Bold.ttf');
+export const Asap_800ExtraBold = require('./Asap_800ExtraBold.ttf');
+export const Asap_900Black = require('./Asap_900Black.ttf');
+export const Asap_100Thin_Italic = require('./Asap_100Thin_Italic.ttf');
+export const Asap_200ExtraLight_Italic = require('./Asap_200ExtraLight_Italic.ttf');
+export const Asap_300Light_Italic = require('./Asap_300Light_Italic.ttf');
 export const Asap_400Regular_Italic = require('./Asap_400Regular_Italic.ttf');
 export const Asap_500Medium_Italic = require('./Asap_500Medium_Italic.ttf');
 export const Asap_600SemiBold_Italic = require('./Asap_600SemiBold_Italic.ttf');
 export const Asap_700Bold_Italic = require('./Asap_700Bold_Italic.ttf');
+export const Asap_800ExtraBold_Italic = require('./Asap_800ExtraBold_Italic.ttf');
+export const Asap_900Black_Italic = require('./Asap_900Black_Italic.ttf');

@@ -11,15 +11,25 @@ This package lets you use the [**Chivo**](https://fonts.google.com/specimen/Chiv
 
 ![Chivo](./font-family.png)
 
-This font family contains [8 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
+- `Chivo_100Thin`
+- `Chivo_200ExtraLight`
 - `Chivo_300Light`
-- `Chivo_300Light_Italic`
 - `Chivo_400Regular`
-- `Chivo_400Regular_Italic`
+- `Chivo_500Medium`
+- `Chivo_600SemiBold`
 - `Chivo_700Bold`
-- `Chivo_700Bold_Italic`
+- `Chivo_800ExtraBold`
 - `Chivo_900Black`
+- `Chivo_100Thin_Italic`
+- `Chivo_200ExtraLight_Italic`
+- `Chivo_300Light_Italic`
+- `Chivo_400Regular_Italic`
+- `Chivo_500Medium_Italic`
+- `Chivo_600SemiBold_Italic`
+- `Chivo_700Bold_Italic`
+- `Chivo_800ExtraBold_Italic`
 - `Chivo_900Black_Italic`
 
 ## Usage
@@ -37,25 +47,45 @@ import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import {
   useFonts,
+  Chivo_100Thin,
+  Chivo_200ExtraLight,
   Chivo_300Light,
-  Chivo_300Light_Italic,
   Chivo_400Regular,
-  Chivo_400Regular_Italic,
+  Chivo_500Medium,
+  Chivo_600SemiBold,
   Chivo_700Bold,
-  Chivo_700Bold_Italic,
+  Chivo_800ExtraBold,
   Chivo_900Black,
+  Chivo_100Thin_Italic,
+  Chivo_200ExtraLight_Italic,
+  Chivo_300Light_Italic,
+  Chivo_400Regular_Italic,
+  Chivo_500Medium_Italic,
+  Chivo_600SemiBold_Italic,
+  Chivo_700Bold_Italic,
+  Chivo_800ExtraBold_Italic,
   Chivo_900Black_Italic,
 } from '@expo-google-fonts/chivo';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    Chivo_100Thin,
+    Chivo_200ExtraLight,
     Chivo_300Light,
-    Chivo_300Light_Italic,
     Chivo_400Regular,
-    Chivo_400Regular_Italic,
+    Chivo_500Medium,
+    Chivo_600SemiBold,
     Chivo_700Bold,
-    Chivo_700Bold_Italic,
+    Chivo_800ExtraBold,
     Chivo_900Black,
+    Chivo_100Thin_Italic,
+    Chivo_200ExtraLight_Italic,
+    Chivo_300Light_Italic,
+    Chivo_400Regular_Italic,
+    Chivo_500Medium_Italic,
+    Chivo_600SemiBold_Italic,
+    Chivo_700Bold_Italic,
+    Chivo_800ExtraBold_Italic,
     Chivo_900Black_Italic,
   });
 
@@ -72,9 +102,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_300Light',
+            fontFamily: 'Chivo_100Thin',
           }}>
-          Chivo Light
+          Chivo Thin
         </Text>
 
         <Text
@@ -82,9 +112,19 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_300Light_Italic',
+            fontFamily: 'Chivo_200ExtraLight',
           }}>
-          Chivo Light Italic
+          Chivo Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_300Light',
+          }}>
+          Chivo Light
         </Text>
 
         <Text
@@ -102,9 +142,19 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_400Regular_Italic',
+            fontFamily: 'Chivo_500Medium',
           }}>
-          Chivo Italic
+          Chivo Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_600SemiBold',
+          }}>
+          Chivo Semi Bold
         </Text>
 
         <Text
@@ -122,9 +172,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_700Bold_Italic',
+            fontFamily: 'Chivo_800ExtraBold',
           }}>
-          Chivo Bold Italic
+          Chivo Extra Bold
         </Text>
 
         <Text
@@ -135,6 +185,86 @@ export default () => {
             fontFamily: 'Chivo_900Black',
           }}>
           Chivo Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_100Thin_Italic',
+          }}>
+          Chivo Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_200ExtraLight_Italic',
+          }}>
+          Chivo Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_300Light_Italic',
+          }}>
+          Chivo Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_400Regular_Italic',
+          }}>
+          Chivo Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_500Medium_Italic',
+          }}>
+          Chivo Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_600SemiBold_Italic',
+          }}>
+          Chivo Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_700Bold_Italic',
+          }}>
+          Chivo Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Chivo_800ExtraBold_Italic',
+          }}>
+          Chivo Extra Bold Italic
         </Text>
 
         <Text
@@ -158,9 +288,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Chivo_300Light](./Chivo_300Light.ttf.png)|![Chivo_300Light_Italic](./Chivo_300Light_Italic.ttf.png)|![Chivo_400Regular](./Chivo_400Regular.ttf.png)||
-|![Chivo_400Regular_Italic](./Chivo_400Regular_Italic.ttf.png)|![Chivo_700Bold](./Chivo_700Bold.ttf.png)|![Chivo_700Bold_Italic](./Chivo_700Bold_Italic.ttf.png)||
-|![Chivo_900Black](./Chivo_900Black.ttf.png)|![Chivo_900Black_Italic](./Chivo_900Black_Italic.ttf.png)|||
+|![Chivo_100Thin](./Chivo_100Thin.ttf.png)|![Chivo_200ExtraLight](./Chivo_200ExtraLight.ttf.png)|![Chivo_300Light](./Chivo_300Light.ttf.png)||
+|![Chivo_400Regular](./Chivo_400Regular.ttf.png)|![Chivo_500Medium](./Chivo_500Medium.ttf.png)|![Chivo_600SemiBold](./Chivo_600SemiBold.ttf.png)||
+|![Chivo_700Bold](./Chivo_700Bold.ttf.png)|![Chivo_800ExtraBold](./Chivo_800ExtraBold.ttf.png)|![Chivo_900Black](./Chivo_900Black.ttf.png)||
+|![Chivo_100Thin_Italic](./Chivo_100Thin_Italic.ttf.png)|![Chivo_200ExtraLight_Italic](./Chivo_200ExtraLight_Italic.ttf.png)|![Chivo_300Light_Italic](./Chivo_300Light_Italic.ttf.png)||
+|![Chivo_400Regular_Italic](./Chivo_400Regular_Italic.ttf.png)|![Chivo_500Medium_Italic](./Chivo_500Medium_Italic.ttf.png)|![Chivo_600SemiBold_Italic](./Chivo_600SemiBold_Italic.ttf.png)||
+|![Chivo_700Bold_Italic](./Chivo_700Bold_Italic.ttf.png)|![Chivo_800ExtraBold_Italic](./Chivo_800ExtraBold_Italic.ttf.png)|![Chivo_900Black_Italic](./Chivo_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -2,9 +2,9 @@
   "family": "Geostar",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2021-03-19",
-  "files": { "regular": "http://fonts.gstatic.com/s/geostar/v13/sykz-yx4n701VLOftSq9-trEvlQ.ttf" },
+  "version": "v22",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/geostar/v22/sykz-yx4n701VLOftSq9-trEvlQ.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

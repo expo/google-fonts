@@ -2,10 +2,10 @@
   "family": "Great Vibes",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v9",
-  "lastModified": "2021-08-18",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/greatvibes/v9/RWmMoKWR9v4ksMfaWd_JN-XCg6UKDXlq.ttf"
+    "regular": "http://fonts.gstatic.com/s/greatvibes/v14/RWmMoKWR9v4ksMfaWd_JN-XCg6UKDXlq.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

@@ -2,10 +2,10 @@
   "family": "Belgrano",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2020-07-23",
+  "version": "v18",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/belgrano/v11/55xvey5tM9rwKWrJZcMFirl08KDJ.ttf"
+    "regular": "http://fonts.gstatic.com/s/belgrano/v18/55xvey5tM9rwKWrJZcMFirl08KDJ.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

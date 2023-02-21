@@ -1,0 +1,40 @@
+{
+  "family": "Kantumruy Pro",
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "100italic",
+    "200italic",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic"
+  ],
+  "subsets": ["khmer", "latin", "latin-ext"],
+  "version": "v3",
+  "lastModified": "2022-09-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/kantumruypro/v3/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urUs0M34dR6dW.ttf",
+    "200": "http://fonts.gstatic.com/s/kantumruypro/v3/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg3urEs0M34dR6dW.ttf",
+    "300": "http://fonts.gstatic.com/s/kantumruypro/v3/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg0wrEs0M34dR6dW.ttf",
+    "500": "http://fonts.gstatic.com/s/kantumruypro/v3/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1crEs0M34dR6dW.ttf",
+    "600": "http://fonts.gstatic.com/s/kantumruypro/v3/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg2wq0s0M34dR6dW.ttf",
+    "700": "http://fonts.gstatic.com/s/kantumruypro/v3/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg2Jq0s0M34dR6dW.ttf",
+    "regular": "http://fonts.gstatic.com/s/kantumruypro/v3/1q2TY5aECkp34vEBSPFOmJxwvk_pilU8OGNfyg1urEs0M34dR6dW.ttf",
+    "100italic": "http://fonts.gstatic.com/s/kantumruypro/v3/1q2RY5aECkp34vEBSPFOmJxwlEbbdY1VU_nxzRim76N2OXo_QrdWlcU.ttf",
+    "200italic": "http://fonts.gstatic.com/s/kantumruypro/v3/1q2RY5aECkp34vEBSPFOmJxwlEbbdY1VU_nxzRim7yN3OXo_QrdWlcU.ttf",
+    "300italic": "http://fonts.gstatic.com/s/kantumruypro/v3/1q2RY5aECkp34vEBSPFOmJxwlEbbdY1VU_nxzRim7_13OXo_QrdWlcU.ttf",
+    "italic": "http://fonts.gstatic.com/s/kantumruypro/v3/1q2RY5aECkp34vEBSPFOmJxwlEbbdY1VU_nxzRim76N3OXo_QrdWlcU.ttf",
+    "500italic": "http://fonts.gstatic.com/s/kantumruypro/v3/1q2RY5aECkp34vEBSPFOmJxwlEbbdY1VU_nxzRim75F3OXo_QrdWlcU.ttf",
+    "600italic": "http://fonts.gstatic.com/s/kantumruypro/v3/1q2RY5aECkp34vEBSPFOmJxwlEbbdY1VU_nxzRim731wOXo_QrdWlcU.ttf",
+    "700italic": "http://fonts.gstatic.com/s/kantumruypro/v3/1q2RY5aECkp34vEBSPFOmJxwlEbbdY1VU_nxzRim70RwOXo_QrdWlcU.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

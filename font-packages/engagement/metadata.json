@@ -2,10 +2,10 @@
   "family": "Engagement",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v20",
-  "lastModified": "2022-01-11",
+  "version": "v22",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/engagement/v20/x3dlckLDZbqa7RUs9MFVXNossybsHQI.ttf"
+    "regular": "http://fonts.gstatic.com/s/engagement/v22/x3dlckLDZbqa7RUs9MFVXNossybsHQI.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

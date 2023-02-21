@@ -1,0 +1,10 @@
+{
+  "family": "Mingzat",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "lepcha"],
+  "version": "v2",
+  "lastModified": "2022-11-09",
+  "files": { "regular": "http://fonts.gstatic.com/s/mingzat/v2/0QIgMX5C-o-oWWyvBttkm_mv670.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

@@ -2,9 +2,9 @@
   "family": "Mogra",
   "variants": ["regular"],
   "subsets": ["gujarati", "latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/mogra/v17/f0X40eSs8c95TBo4DvLmxtnG.ttf" },
+  "version": "v19",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/mogra/v19/f0X40eSs8c95TBo4DvLmxtnG.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

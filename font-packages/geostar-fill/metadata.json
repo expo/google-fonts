@@ -2,10 +2,10 @@
   "family": "Geostar Fill",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2021-03-19",
+  "version": "v22",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/geostarfill/v13/AMOWz4SWuWiXFfjEohxQ9os0U1K2w9lb4g.ttf"
+    "regular": "http://fonts.gstatic.com/s/geostarfill/v22/AMOWz4SWuWiXFfjEohxQ9os0U1K2w9lb4g.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

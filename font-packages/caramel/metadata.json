@@ -1,0 +1,10 @@
+{
+  "family": "Caramel",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v7",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/caramel/v7/P5sCzZKBbMTf_ShyxCRuiZ-uydg.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

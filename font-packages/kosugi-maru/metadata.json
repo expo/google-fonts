@@ -2,10 +2,10 @@
   "family": "Kosugi Maru",
   "variants": ["regular"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2021-11-10",
+  "version": "v14",
+  "lastModified": "2022-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/kosugimaru/v11/0nksC9PgP_wGh21A2KeqGiTqivr9iBq_.ttf"
+    "regular": "http://fonts.gstatic.com/s/kosugimaru/v14/0nksC9PgP_wGh21A2KeqGiTqivr9iBq_.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

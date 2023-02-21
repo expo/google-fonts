@@ -2,9 +2,9 @@
   "family": "Lacquer",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/lacquer/v13/EYqzma1QwqpG4_BBB7-AXhttQ5I.ttf" },
+  "version": "v15",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/lacquer/v15/EYqzma1QwqpG4_BBB7-AXhttQ5I.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

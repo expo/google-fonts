@@ -2,10 +2,10 @@
   "family": "Pirata One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v20",
-  "lastModified": "2022-01-11",
+  "version": "v22",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/pirataone/v20/I_urMpiDvgLdLh0fAtoftiiEr5_BdZ8.ttf"
+    "regular": "http://fonts.gstatic.com/s/pirataone/v22/I_urMpiDvgLdLh0fAtoftiiEr5_BdZ8.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

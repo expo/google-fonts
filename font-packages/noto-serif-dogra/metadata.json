@@ -1,0 +1,12 @@
+{
+  "family": "Noto Serif Dogra",
+  "variants": ["regular"],
+  "subsets": ["dogra"],
+  "version": "v16",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notoserifdogra/v16/MQpP-XquKMC7ROPP3QOOlm7xPu3fGy63IbPzkns.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

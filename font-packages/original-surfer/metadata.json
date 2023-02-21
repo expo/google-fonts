@@ -2,10 +2,10 @@
   "family": "Original Surfer",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v16",
-  "lastModified": "2022-01-11",
+  "version": "v18",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/originalsurfer/v16/RWmQoKGZ9vIirYntXJ3_MbekzNMiDEtvAlaMKw.ttf"
+    "regular": "http://fonts.gstatic.com/s/originalsurfer/v18/RWmQoKGZ9vIirYntXJ3_MbekzNMiDEtvAlaMKw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

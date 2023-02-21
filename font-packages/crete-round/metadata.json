@@ -2,11 +2,11 @@
   "family": "Crete Round",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-09-02",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/creteround/v9/55xoey1sJNPjPiv1ZZZrxJ1827zAKnxN.ttf",
-    "italic": "http://fonts.gstatic.com/s/creteround/v9/55xqey1sJNPjPiv1ZZZrxK1-0bjiL2xNhKc.ttf"
+    "regular": "http://fonts.gstatic.com/s/creteround/v14/55xoey1sJNPjPiv1ZZZrxJ1827zAKnxN.ttf",
+    "italic": "http://fonts.gstatic.com/s/creteround/v14/55xqey1sJNPjPiv1ZZZrxK1-0bjiL2xNhKc.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

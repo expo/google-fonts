@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Osage",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "osage"],
+  "version": "v18",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansosage/v18/oPWX_kB6kP4jCuhpgEGmw4mtAVtXRlaSxkrMCQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

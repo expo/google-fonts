@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Shavian",
+  "variants": ["regular"],
+  "subsets": ["shavian"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansshavian/v15/CHy5V_HZE0jxJBQlqAeCKjJvQBNF4EFQSplv2Cwg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

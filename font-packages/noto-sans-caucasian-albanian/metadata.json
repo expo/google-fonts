@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Caucasian Albanian",
+  "variants": ["regular"],
+  "subsets": ["caucasian-albanian"],
+  "version": "v16",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanscaucasianalbanian/v16/nKKA-HM_FYFRJvXzVXaANsU0VzsAc46QGOkWytlTs-TXrYDmoVmRSZo.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

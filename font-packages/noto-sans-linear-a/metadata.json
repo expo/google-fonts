@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Linear A",
+  "variants": ["regular"],
+  "subsets": ["linear-a"],
+  "version": "v16",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanslineara/v16/oPWS_l16kP4jCuhpgEGmwJOiA18FZj22zmHQAGQicw.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

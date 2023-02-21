@@ -2,9 +2,9 @@
   "family": "Asar",
   "variants": ["regular"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v20",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/asar/v20/sZlLdRyI6TBIXkYQDLlTW6E.ttf" },
+  "version": "v22",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/asar/v22/sZlLdRyI6TBIXkYQDLlTW6E.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

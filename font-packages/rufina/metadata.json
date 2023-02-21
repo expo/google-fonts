@@ -2,11 +2,11 @@
   "family": "Rufina",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-09-02",
+  "version": "v13",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/rufina/v8/Yq6W-LyURyLy-aKKHztAvMxenxE0SA.ttf",
-    "regular": "http://fonts.gstatic.com/s/rufina/v8/Yq6V-LyURyLy-aKyoxRktOdClg.ttf"
+    "700": "http://fonts.gstatic.com/s/rufina/v13/Yq6W-LyURyLy-aKKHztAvMxenxE0SA.ttf",
+    "regular": "http://fonts.gstatic.com/s/rufina/v13/Yq6V-LyURyLy-aKyoxRktOdClg.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

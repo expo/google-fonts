@@ -2,10 +2,10 @@
   "family": "Patrick Hand SC",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v11",
-  "lastModified": "2022-01-11",
+  "version": "v13",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/patrickhandsc/v11/0nkwC9f7MfsBiWcLtY65AWDK873ViSi6JQc7Vg.ttf"
+    "regular": "http://fonts.gstatic.com/s/patrickhandsc/v13/0nkwC9f7MfsBiWcLtY65AWDK873ViSi6JQc7Vg.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

@@ -1,0 +1,15 @@
+{
+  "family": "Noto Sans Sundanese",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext", "sundanese"],
+  "version": "v19",
+  "lastModified": "2022-11-09",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/notosanssundanese/v19/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctxbNNHCizv7fQES.ttf",
+    "600": "http://fonts.gstatic.com/s/notosanssundanese/v19/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6cty3M9HCizv7fQES.ttf",
+    "700": "http://fonts.gstatic.com/s/notosanssundanese/v19/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctyOM9HCizv7fQES.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosanssundanese/v19/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctxpNNHCizv7fQES.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

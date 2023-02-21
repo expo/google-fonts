@@ -13,19 +13,19 @@
     "700italic"
   ],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v4",
-  "lastModified": "2020-09-02",
+  "version": "v9",
+  "lastModified": "2022-09-22",
   "files": {
-    "300": "http://fonts.gstatic.com/s/chakrapetch/v4/cIflMapbsEk7TDLdtEz1BwkeNIhFQJXE3AY00g.ttf",
-    "500": "http://fonts.gstatic.com/s/chakrapetch/v4/cIflMapbsEk7TDLdtEz1BwkebIlFQJXE3AY00g.ttf",
-    "600": "http://fonts.gstatic.com/s/chakrapetch/v4/cIflMapbsEk7TDLdtEz1BwkeQI5FQJXE3AY00g.ttf",
-    "700": "http://fonts.gstatic.com/s/chakrapetch/v4/cIflMapbsEk7TDLdtEz1BwkeJI9FQJXE3AY00g.ttf",
-    "300italic": "http://fonts.gstatic.com/s/chakrapetch/v4/cIfnMapbsEk7TDLdtEz1BwkWmpLJQp_A_gMk0izH.ttf",
-    "regular": "http://fonts.gstatic.com/s/chakrapetch/v4/cIf6MapbsEk7TDLdtEz1BwkmmKBhSL7Y1Q.ttf",
-    "italic": "http://fonts.gstatic.com/s/chakrapetch/v4/cIfkMapbsEk7TDLdtEz1BwkWmqplarvI1R8t.ttf",
-    "500italic": "http://fonts.gstatic.com/s/chakrapetch/v4/cIfnMapbsEk7TDLdtEz1BwkWmpKRQ5_A_gMk0izH.ttf",
-    "600italic": "http://fonts.gstatic.com/s/chakrapetch/v4/cIfnMapbsEk7TDLdtEz1BwkWmpK9RJ_A_gMk0izH.ttf",
-    "700italic": "http://fonts.gstatic.com/s/chakrapetch/v4/cIfnMapbsEk7TDLdtEz1BwkWmpLZRZ_A_gMk0izH.ttf"
+    "300": "http://fonts.gstatic.com/s/chakrapetch/v9/cIflMapbsEk7TDLdtEz1BwkeNIhFQJXE3AY00g.ttf",
+    "500": "http://fonts.gstatic.com/s/chakrapetch/v9/cIflMapbsEk7TDLdtEz1BwkebIlFQJXE3AY00g.ttf",
+    "600": "http://fonts.gstatic.com/s/chakrapetch/v9/cIflMapbsEk7TDLdtEz1BwkeQI5FQJXE3AY00g.ttf",
+    "700": "http://fonts.gstatic.com/s/chakrapetch/v9/cIflMapbsEk7TDLdtEz1BwkeJI9FQJXE3AY00g.ttf",
+    "300italic": "http://fonts.gstatic.com/s/chakrapetch/v9/cIfnMapbsEk7TDLdtEz1BwkWmpLJQp_A_gMk0izH.ttf",
+    "regular": "http://fonts.gstatic.com/s/chakrapetch/v9/cIf6MapbsEk7TDLdtEz1BwkmmKBhSL7Y1Q.ttf",
+    "italic": "http://fonts.gstatic.com/s/chakrapetch/v9/cIfkMapbsEk7TDLdtEz1BwkWmqplarvI1R8t.ttf",
+    "500italic": "http://fonts.gstatic.com/s/chakrapetch/v9/cIfnMapbsEk7TDLdtEz1BwkWmpKRQ5_A_gMk0izH.ttf",
+    "600italic": "http://fonts.gstatic.com/s/chakrapetch/v9/cIfnMapbsEk7TDLdtEz1BwkWmpK9RJ_A_gMk0izH.ttf",
+    "700italic": "http://fonts.gstatic.com/s/chakrapetch/v9/cIfnMapbsEk7TDLdtEz1BwkWmpLZRZ_A_gMk0izH.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

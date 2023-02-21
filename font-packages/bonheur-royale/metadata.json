@@ -1,0 +1,12 @@
+{
+  "family": "Bonheur Royale",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v9",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/bonheurroyale/v9/c4m51nt_GMTrtX-b9GcG4-YRmYK_c0f1N5Ij.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

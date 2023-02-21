@@ -11,9 +11,10 @@ This package lets you use the [**Fruktur**](https://fonts.google.com/specimen/Fr
 
 ![Fruktur](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [2 styles](#-gallery).
 
 - `Fruktur_400Regular`
+- `Fruktur_400Regular_Italic`
 
 ## Usage
 
@@ -28,11 +29,16 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, Fruktur_400Regular } from '@expo-google-fonts/fruktur';
+import {
+  useFonts,
+  Fruktur_400Regular,
+  Fruktur_400Regular_Italic,
+} from '@expo-google-fonts/fruktur';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Fruktur_400Regular,
+    Fruktur_400Regular_Italic,
   });
 
   let fontSize = 24;
@@ -52,6 +58,16 @@ export default () => {
           }}>
           Fruktur Regular
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Fruktur_400Regular_Italic',
+          }}>
+          Fruktur Italic
+        </Text>
       </View>
     );
   }
@@ -64,7 +80,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Fruktur_400Regular](./Fruktur_400Regular.ttf.png)||||
+|![Fruktur_400Regular](./Fruktur_400Regular.ttf.png)|![Fruktur_400Regular_Italic](./Fruktur_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

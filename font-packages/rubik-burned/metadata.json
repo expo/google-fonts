@@ -1,0 +1,12 @@
+{
+  "family": "Rubik Burned",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/rubikburned/v1/Jqzk5TmOVOqQHihKqPpscqniHQuaCY5ZSg.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

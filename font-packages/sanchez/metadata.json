@@ -2,11 +2,11 @@
   "family": "Sanchez",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-09-02",
+  "version": "v13",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/sanchez/v8/Ycm2sZJORluHnXbITm5b_BwE1l0.ttf",
-    "italic": "http://fonts.gstatic.com/s/sanchez/v8/Ycm0sZJORluHnXbIfmxR-D4Bxl3gkw.ttf"
+    "regular": "http://fonts.gstatic.com/s/sanchez/v13/Ycm2sZJORluHnXbITm5b_BwE1l0.ttf",
+    "italic": "http://fonts.gstatic.com/s/sanchez/v13/Ycm0sZJORluHnXbIfmxR-D4Bxl3gkw.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

@@ -1,0 +1,17 @@
+{
+  "family": "Yaldevi",
+  "variants": ["200", "300", "regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext", "sinhala"],
+  "version": "v8",
+  "lastModified": "2022-09-22",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/yaldevi/v8/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpfxJzvobxLCBJkS.ttf",
+    "300": "http://fonts.gstatic.com/s/yaldevi/v8/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpcvJzvobxLCBJkS.ttf",
+    "500": "http://fonts.gstatic.com/s/yaldevi/v8/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpdDJzvobxLCBJkS.ttf",
+    "600": "http://fonts.gstatic.com/s/yaldevi/v8/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpevIDvobxLCBJkS.ttf",
+    "700": "http://fonts.gstatic.com/s/yaldevi/v8/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpeWIDvobxLCBJkS.ttf",
+    "regular": "http://fonts.gstatic.com/s/yaldevi/v8/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpdxJzvobxLCBJkS.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

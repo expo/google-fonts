@@ -1,0 +1,12 @@
+{
+  "family": "Rubik Bubbles",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/rubikbubbles/v2/JIA1UVdwbHFJtwA7Us1BPFbRNTENfDxyRXI.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

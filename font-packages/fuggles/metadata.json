@@ -1,0 +1,10 @@
+{
+  "family": "Fuggles",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v8",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/fuggles/v8/k3kQo8UEJOlD1hpOTd7iL0nAMaM.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

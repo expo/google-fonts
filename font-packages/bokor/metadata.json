@@ -2,9 +2,9 @@
   "family": "Bokor",
   "variants": ["regular"],
   "subsets": ["khmer", "latin"],
-  "version": "v28",
-  "lastModified": "2021-12-17",
-  "files": { "regular": "http://fonts.gstatic.com/s/bokor/v28/m8JcjfpeeaqTiR2WdInbcaxE.ttf" },
+  "version": "v30",
+  "lastModified": "2022-04-21",
+  "files": { "regular": "http://fonts.gstatic.com/s/bokor/v30/m8JcjfpeeaqTiR2WdInbcaxE.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

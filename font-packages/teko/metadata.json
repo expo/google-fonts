@@ -2,14 +2,14 @@
   "family": "Teko",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "300": "http://fonts.gstatic.com/s/teko/v10/LYjCdG7kmE0gdQhfgCNqqVIuTN4.ttf",
-    "500": "http://fonts.gstatic.com/s/teko/v10/LYjCdG7kmE0gdVBegCNqqVIuTN4.ttf",
-    "600": "http://fonts.gstatic.com/s/teko/v10/LYjCdG7kmE0gdXxZgCNqqVIuTN4.ttf",
-    "700": "http://fonts.gstatic.com/s/teko/v10/LYjCdG7kmE0gdRhYgCNqqVIuTN4.ttf",
-    "regular": "http://fonts.gstatic.com/s/teko/v10/LYjNdG7kmE0gTaR3pCtBtVs.ttf"
+    "300": "http://fonts.gstatic.com/s/teko/v15/LYjCdG7kmE0gdQhfgCNqqVIuTN4.ttf",
+    "500": "http://fonts.gstatic.com/s/teko/v15/LYjCdG7kmE0gdVBegCNqqVIuTN4.ttf",
+    "600": "http://fonts.gstatic.com/s/teko/v15/LYjCdG7kmE0gdXxZgCNqqVIuTN4.ttf",
+    "700": "http://fonts.gstatic.com/s/teko/v15/LYjCdG7kmE0gdRhYgCNqqVIuTN4.ttf",
+    "regular": "http://fonts.gstatic.com/s/teko/v15/LYjNdG7kmE0gTaR3pCtBtVs.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

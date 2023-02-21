@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Buhid",
+  "variants": ["regular"],
+  "subsets": ["buhid", "latin", "latin-ext"],
+  "version": "v17",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansbuhid/v17/Dxxy8jiXMW75w3OmoDXVWJD7YwzAe6tgnaFoGA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

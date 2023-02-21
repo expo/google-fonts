@@ -2,9 +2,9 @@
   "family": "Sofia",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2022-01-13",
-  "files": { "regular": "http://fonts.gstatic.com/s/sofia/v12/8QIHdirahM3j_vu-sowsrqjk.ttf" },
+  "version": "v14",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/sofia/v14/8QIHdirahM3j_vu-sowsrqjk.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont"
 }

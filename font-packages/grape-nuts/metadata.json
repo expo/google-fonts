@@ -1,0 +1,12 @@
+{
+  "family": "Grape Nuts",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/grapenuts/v2/syk2-yF4iLM2RfKj4F7k3tLvol2RN1E.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

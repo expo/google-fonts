@@ -2,10 +2,10 @@
   "family": "Paytone One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v13",
-  "lastModified": "2020-09-02",
+  "version": "v18",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/paytoneone/v13/0nksC9P7MfYHj2oFtYm2CiTqivr9iBq_.ttf"
+    "regular": "http://fonts.gstatic.com/s/paytoneone/v18/0nksC9P7MfYHj2oFtYm2CiTqivr9iBq_.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

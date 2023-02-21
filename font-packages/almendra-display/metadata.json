@@ -2,10 +2,10 @@
   "family": "Almendra Display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v23",
-  "lastModified": "2022-01-05",
+  "version": "v25",
+  "lastModified": "2022-04-20",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/almendradisplay/v23/0FlPVOGWl1Sb4O3tETtADHRRlZhzXS_eTyer338.ttf"
+    "regular": "http://fonts.gstatic.com/s/almendradisplay/v25/0FlPVOGWl1Sb4O3tETtADHRRlZhzXS_eTyer338.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

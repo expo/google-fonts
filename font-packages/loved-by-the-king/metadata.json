@@ -2,10 +2,10 @@
   "family": "Loved by the King",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2022-01-11",
+  "version": "v17",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/lovedbytheking/v15/Gw6gwdP76VDVJNXerebZxUMeRXUF2PiNlXFu2R64.ttf"
+    "regular": "http://fonts.gstatic.com/s/lovedbytheking/v17/Gw6gwdP76VDVJNXerebZxUMeRXUF2PiNlXFu2R64.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

@@ -2,10 +2,10 @@
   "family": "Aguafina Script",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2022-01-11",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/aguafinascript/v14/If2QXTv_ZzSxGIO30LemWEOmt1bHqs4pgicOrg.ttf"
+    "regular": "http://fonts.gstatic.com/s/aguafinascript/v16/If2QXTv_ZzSxGIO30LemWEOmt1bHqs4pgicOrg.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

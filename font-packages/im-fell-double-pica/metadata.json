@@ -2,11 +2,11 @@
   "family": "IM Fell Double Pica",
   "variants": ["regular", "italic"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-07-23",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/imfelldoublepica/v10/3XF2EqMq_94s9PeKF7Fg4gOKINyMtZ8rT0S1UL5Ayp0.ttf",
-    "italic": "http://fonts.gstatic.com/s/imfelldoublepica/v10/3XF0EqMq_94s9PeKF7Fg4gOKINyMtZ8rf0a_VJxF2p2G8g.ttf"
+    "regular": "http://fonts.gstatic.com/s/imfelldoublepica/v14/3XF2EqMq_94s9PeKF7Fg4gOKINyMtZ8rT0S1UL5Ayp0.ttf",
+    "italic": "http://fonts.gstatic.com/s/imfelldoublepica/v14/3XF0EqMq_94s9PeKF7Fg4gOKINyMtZ8rf0a_VJxF2p2G8g.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

@@ -2,10 +2,10 @@
   "family": "Almendra SC",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v23",
-  "lastModified": "2022-01-05",
+  "version": "v25",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/almendrasc/v23/Iure6Yx284eebowr7hbyTZZJprVA4XQ0.ttf"
+    "regular": "http://fonts.gstatic.com/s/almendrasc/v25/Iure6Yx284eebowr7hbyTZZJprVA4XQ0.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

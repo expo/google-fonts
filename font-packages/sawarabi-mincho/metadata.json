@@ -2,11 +2,11 @@
   "family": "Sawarabi Mincho",
   "variants": ["regular"],
   "subsets": ["japanese", "latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2019-11-05",
+  "version": "v17",
+  "lastModified": "2022-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/sawarabimincho/v10/8QIRdiDaitzr7brc8ahpxt6GcIJTLahP46UDUw.ttf"
+    "regular": "http://fonts.gstatic.com/s/sawarabimincho/v17/8QIRdiDaitzr7brc8ahpxt6GcIJTLahP46UDUw.ttf"
   },
-  "category": "sans-serif",
+  "category": "serif",
   "kind": "webfonts#webfont"
 }

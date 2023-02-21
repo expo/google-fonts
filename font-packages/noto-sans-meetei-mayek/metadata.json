@@ -1,0 +1,20 @@
+{
+  "family": "Noto Sans Meetei Mayek",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "meetei-mayek"],
+  "version": "v14",
+  "lastModified": "2022-09-28",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notosansmeeteimayek/v14/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1TJ__TW5PgeFYVa.ttf",
+    "200": "http://fonts.gstatic.com/s/notosansmeeteimayek/v14/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1RJ_vTW5PgeFYVa.ttf",
+    "300": "http://fonts.gstatic.com/s/notosansmeeteimayek/v14/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1SX_vTW5PgeFYVa.ttf",
+    "500": "http://fonts.gstatic.com/s/notosansmeeteimayek/v14/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1T7_vTW5PgeFYVa.ttf",
+    "600": "http://fonts.gstatic.com/s/notosansmeeteimayek/v14/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1QX-fTW5PgeFYVa.ttf",
+    "700": "http://fonts.gstatic.com/s/notosansmeeteimayek/v14/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1Qu-fTW5PgeFYVa.ttf",
+    "800": "http://fonts.gstatic.com/s/notosansmeeteimayek/v14/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1RJ-fTW5PgeFYVa.ttf",
+    "900": "http://fonts.gstatic.com/s/notosansmeeteimayek/v14/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1Rg-fTW5PgeFYVa.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosansmeeteimayek/v14/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1TJ_vTW5PgeFYVa.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

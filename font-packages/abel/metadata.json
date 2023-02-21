@@ -2,9 +2,9 @@
   "family": "Abel",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2020-09-10",
-  "files": { "regular": "http://fonts.gstatic.com/s/abel/v12/MwQ5bhbm2POE6VhLPJp6qGI.ttf" },
+  "version": "v18",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE6VhLPJp6qGI.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont"
 }

@@ -2,13 +2,13 @@
   "family": "Economica",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2020-09-02",
+  "version": "v13",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/economica/v8/Qw3aZQZaHCLgIWa29ZBTjeckCnZ5dHw8iw.ttf",
-    "regular": "http://fonts.gstatic.com/s/economica/v8/Qw3fZQZaHCLgIWa29ZBrMcgAAl1lfQ.ttf",
-    "italic": "http://fonts.gstatic.com/s/economica/v8/Qw3ZZQZaHCLgIWa29ZBbM8IEIFh1fWUl.ttf",
-    "700italic": "http://fonts.gstatic.com/s/economica/v8/Qw3EZQZaHCLgIWa29ZBbM_q4D3x9Vnksi4M7.ttf"
+    "700": "http://fonts.gstatic.com/s/economica/v13/Qw3aZQZaHCLgIWa29ZBTjeckCnZ5dHw8iw.ttf",
+    "regular": "http://fonts.gstatic.com/s/economica/v13/Qw3fZQZaHCLgIWa29ZBrMcgAAl1lfQ.ttf",
+    "italic": "http://fonts.gstatic.com/s/economica/v13/Qw3ZZQZaHCLgIWa29ZBbM8IEIFh1fWUl.ttf",
+    "700italic": "http://fonts.gstatic.com/s/economica/v13/Qw3EZQZaHCLgIWa29ZBbM_q4D3x9Vnksi4M7.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

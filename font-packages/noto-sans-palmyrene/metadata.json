@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Palmyrene",
+  "variants": ["regular"],
+  "subsets": ["palmyrene"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanspalmyrene/v15/ZgNPjOdKPa7CHqq0h37c_ASCWvH93SFCPnK5ZpdNtcA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

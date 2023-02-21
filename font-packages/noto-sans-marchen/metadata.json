@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Marchen",
+  "variants": ["regular"],
+  "subsets": ["marchen"],
+  "version": "v17",
+  "lastModified": "2022-11-02",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansmarchen/v17/aFTO7OZ_Y282EP-WyG6QTOX_C8WZMHhPk652ZaHk.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

@@ -2,10 +2,10 @@
   "family": "Eagle Lake",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2022-01-05",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/eaglelake/v18/ptRMTiqbbuNJDOiKj9wG5O7yKQNute8.ttf"
+    "regular": "http://fonts.gstatic.com/s/eaglelake/v20/ptRMTiqbbuNJDOiKj9wG5O7yKQNute8.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont"

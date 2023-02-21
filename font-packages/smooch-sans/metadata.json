@@ -1,0 +1,20 @@
+{
+  "family": "Smooch Sans",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v6",
+  "lastModified": "2022-09-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/smoochsans/v6/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiwUFodqIeNlzayg.ttf",
+    "200": "http://fonts.gstatic.com/s/smoochsans/v6/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiQUBodqIeNlzayg.ttf",
+    "300": "http://fonts.gstatic.com/s/smoochsans/v6/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oin0BodqIeNlzayg.ttf",
+    "500": "http://fonts.gstatic.com/s/smoochsans/v6/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oi80BodqIeNlzayg.ttf",
+    "600": "http://fonts.gstatic.com/s/smoochsans/v6/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiH0dodqIeNlzayg.ttf",
+    "700": "http://fonts.gstatic.com/s/smoochsans/v6/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiJkdodqIeNlzayg.ttf",
+    "800": "http://fonts.gstatic.com/s/smoochsans/v6/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiQUdodqIeNlzayg.ttf",
+    "900": "http://fonts.gstatic.com/s/smoochsans/v6/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiaEdodqIeNlzayg.ttf",
+    "regular": "http://fonts.gstatic.com/s/smoochsans/v6/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiwUBodqIeNlzayg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

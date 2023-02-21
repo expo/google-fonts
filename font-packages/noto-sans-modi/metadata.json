@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Modi",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "modi"],
+  "version": "v20",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansmodi/v20/pe03MIySN5pO62Z5YkFyT7jeav5qWVAgVol-.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

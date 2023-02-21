@@ -1,0 +1,10 @@
+{
+  "family": "Mynerve",
+  "variants": ["regular"],
+  "subsets": ["greek", "latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2023-02-16",
+  "files": { "regular": "http://fonts.gstatic.com/s/mynerve/v1/P5sCzZKPdNjb4jt7xCRuiZ-uydg.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

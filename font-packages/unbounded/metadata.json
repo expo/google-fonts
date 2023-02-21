@@ -1,0 +1,19 @@
+{
+  "family": "Unbounded",
+  "variants": ["200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2022-12-08",
+  "files": {
+    "200": "http://fonts.gstatic.com/s/unbounded/v3/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG65jx043HgP6LR0Y.ttf",
+    "300": "http://fonts.gstatic.com/s/unbounded/v3/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG60bx043HgP6LR0Y.ttf",
+    "500": "http://fonts.gstatic.com/s/unbounded/v3/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG6yrx043HgP6LR0Y.ttf",
+    "600": "http://fonts.gstatic.com/s/unbounded/v3/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG68b2043HgP6LR0Y.ttf",
+    "700": "http://fonts.gstatic.com/s/unbounded/v3/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG6__2043HgP6LR0Y.ttf",
+    "800": "http://fonts.gstatic.com/s/unbounded/v3/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG65j2043HgP6LR0Y.ttf",
+    "900": "http://fonts.gstatic.com/s/unbounded/v3/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG67H2043HgP6LR0Y.ttf",
+    "regular": "http://fonts.gstatic.com/s/unbounded/v3/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG6xjx043HgP6LR0Y.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont"
+}

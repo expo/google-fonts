@@ -1,10 +1,10 @@
 {
   "family": "Cambo",
   "variants": ["regular"],
-  "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2022-01-11",
-  "files": { "regular": "http://fonts.gstatic.com/s/cambo/v12/IFSqHeNEk8FJk416ok7xkPm8.ttf" },
+  "subsets": ["latin", "latin-ext"],
+  "version": "v17",
+  "lastModified": "2022-12-08",
+  "files": { "regular": "http://fonts.gstatic.com/s/cambo/v17/IFSqHeNEk8FJk416ok7xkPm8.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont"
 }

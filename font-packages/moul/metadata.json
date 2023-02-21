@@ -2,9 +2,9 @@
   "family": "Moul",
   "variants": ["regular"],
   "subsets": ["khmer", "latin"],
-  "version": "v23",
-  "lastModified": "2021-12-17",
-  "files": { "regular": "http://fonts.gstatic.com/s/moul/v23/nuF2D__FSo_3E-RYiJCy-00.ttf" },
+  "version": "v25",
+  "lastModified": "2022-04-26",
+  "files": { "regular": "http://fonts.gstatic.com/s/moul/v25/nuF2D__FSo_3E-RYiJCy-00.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

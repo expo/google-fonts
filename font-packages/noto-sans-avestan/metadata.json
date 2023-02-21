@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Avestan",
+  "variants": ["regular"],
+  "subsets": ["avestan", "latin", "latin-ext"],
+  "version": "v17",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansavestan/v17/bWti7ejKfBziStx7lIzKOLQZKhIJkyu9SASLji8U.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

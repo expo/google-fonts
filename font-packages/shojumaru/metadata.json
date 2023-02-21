@@ -2,10 +2,10 @@
   "family": "Shojumaru",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2022-01-11",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/shojumaru/v13/rax_HiWfutkLLnaKCtlMBBJek0vA8A.ttf"
+    "regular": "http://fonts.gstatic.com/s/shojumaru/v15/rax_HiWfutkLLnaKCtlMBBJek0vA8A.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

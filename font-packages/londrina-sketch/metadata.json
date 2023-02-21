@@ -2,10 +2,10 @@
   "family": "Londrina Sketch",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v19",
-  "lastModified": "2022-01-05",
+  "version": "v21",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/londrinasketch/v19/c4m41npxGMTnomOHtRU68eIJn8qfWWn5Pos6CA.ttf"
+    "regular": "http://fonts.gstatic.com/s/londrinasketch/v21/c4m41npxGMTnomOHtRU68eIJn8qfWWn5Pos6CA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

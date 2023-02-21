@@ -2,9 +2,9 @@
   "family": "Macondo",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v19",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/macondo/v19/RrQQboN9-iB1IXmOS2XO0LBBd4Y.ttf" },
+  "version": "v21",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/macondo/v21/RrQQboN9-iB1IXmOS2XO0LBBd4Y.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

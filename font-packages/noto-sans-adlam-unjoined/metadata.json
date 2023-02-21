@@ -1,0 +1,15 @@
+{
+  "family": "Noto Sans Adlam Unjoined",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["adlam", "latin", "latin-ext"],
+  "version": "v21",
+  "lastModified": "2022-09-22",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/notosansadlamunjoined/v21/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_Yd_5PMEe-E3slUg.ttf",
+    "600": "http://fonts.gstatic.com/s/notosansadlamunjoined/v21/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_YTP-PMEe-E3slUg.ttf",
+    "700": "http://fonts.gstatic.com/s/notosansadlamunjoined/v21/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_YQr-PMEe-E3slUg.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosansadlamunjoined/v21/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_Ye35PMEe-E3slUg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

@@ -1,11 +1,11 @@
 {
   "family": "Marmelad",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2022-01-13",
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v17",
+  "lastModified": "2022-12-08",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/marmelad/v13/Qw3eZQdSHj_jK2e-8tFLG-YMC0R8.ttf"
+    "regular": "http://fonts.gstatic.com/s/marmelad/v17/Qw3eZQdSHj_jK2e-8tFLG-YMC0R8.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

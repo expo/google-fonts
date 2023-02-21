@@ -1,0 +1,13 @@
+{
+  "family": "Gwendolyn",
+  "variants": ["regular", "700"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2022-09-22",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/gwendolyn/v5/qkBSXvoO_M3CSss-d7emWLtvmC7HONiSFQ.ttf",
+    "regular": "http://fonts.gstatic.com/s/gwendolyn/v5/qkBXXvoO_M3CSss-d7ee5JRLkAXbMQ.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

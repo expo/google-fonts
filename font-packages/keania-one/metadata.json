@@ -2,10 +2,10 @@
   "family": "Keania One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2022-01-05",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/keaniaone/v18/zOL54pXJk65E8pXardnuycRuv-hHkOs.ttf"
+    "regular": "http://fonts.gstatic.com/s/keaniaone/v20/zOL54pXJk65E8pXardnuycRuv-hHkOs.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

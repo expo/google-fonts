@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Takri",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "takri"],
+  "version": "v21",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanstakri/v21/TuGJUVpzXI5FBtUq5a8bnKIOdTwQNO_W3khJXg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

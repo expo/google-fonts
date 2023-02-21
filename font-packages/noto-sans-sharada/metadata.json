@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Sharada",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "sharada"],
+  "version": "v16",
+  "lastModified": "2022-11-18",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanssharada/v16/gok0H7rwAEdtF9N8-mdTGALG6p0kwoXLPOwr4H8a.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

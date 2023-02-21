@@ -2,16 +2,16 @@
   "family": "Noto Serif KR",
   "variants": ["200", "300", "regular", "500", "600", "700", "900"],
   "subsets": ["korean", "latin"],
-  "version": "v15",
-  "lastModified": "2021-10-28",
+  "version": "v20",
+  "lastModified": "2022-09-27",
   "files": {
-    "200": "http://fonts.gstatic.com/s/notoserifkr/v15/3JnmSDn90Gmq2mr3blnHaTZXTihC8O1ZNH1ahck.otf",
-    "300": "http://fonts.gstatic.com/s/notoserifkr/v15/3JnmSDn90Gmq2mr3blnHaTZXTkxB8O1ZNH1ahck.otf",
-    "500": "http://fonts.gstatic.com/s/notoserifkr/v15/3JnmSDn90Gmq2mr3blnHaTZXThRA8O1ZNH1ahck.otf",
-    "600": "http://fonts.gstatic.com/s/notoserifkr/v15/3JnmSDn90Gmq2mr3blnHaTZXTjhH8O1ZNH1ahck.otf",
-    "700": "http://fonts.gstatic.com/s/notoserifkr/v15/3JnmSDn90Gmq2mr3blnHaTZXTlxG8O1ZNH1ahck.otf",
-    "900": "http://fonts.gstatic.com/s/notoserifkr/v15/3JnmSDn90Gmq2mr3blnHaTZXTmRE8O1ZNH1ahck.otf",
-    "regular": "http://fonts.gstatic.com/s/notoserifkr/v15/3Jn7SDn90Gmq2mr3blnHaTZXduZp1ONyKHQ.otf"
+    "200": "http://fonts.gstatic.com/s/notoserifkr/v20/3JnmSDn90Gmq2mr3blnHaTZXTihC8O1ZNH1ahck.otf",
+    "300": "http://fonts.gstatic.com/s/notoserifkr/v20/3JnmSDn90Gmq2mr3blnHaTZXTkxB8O1ZNH1ahck.otf",
+    "500": "http://fonts.gstatic.com/s/notoserifkr/v20/3JnmSDn90Gmq2mr3blnHaTZXThRA8O1ZNH1ahck.otf",
+    "600": "http://fonts.gstatic.com/s/notoserifkr/v20/3JnmSDn90Gmq2mr3blnHaTZXTjhH8O1ZNH1ahck.otf",
+    "700": "http://fonts.gstatic.com/s/notoserifkr/v20/3JnmSDn90Gmq2mr3blnHaTZXTlxG8O1ZNH1ahck.otf",
+    "900": "http://fonts.gstatic.com/s/notoserifkr/v20/3JnmSDn90Gmq2mr3blnHaTZXTmRE8O1ZNH1ahck.otf",
+    "regular": "http://fonts.gstatic.com/s/notoserifkr/v20/3Jn7SDn90Gmq2mr3blnHaTZXduZp1ONyKHQ.otf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

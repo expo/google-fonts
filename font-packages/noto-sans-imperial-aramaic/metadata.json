@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Imperial Aramaic",
+  "variants": ["regular"],
+  "subsets": ["imperial-aramaic"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosansimperialaramaic/v15/a8IMNpjwKmHXpgXbMIsbTc_kvks91LlLetBr5itQrtdml3YfPNno.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

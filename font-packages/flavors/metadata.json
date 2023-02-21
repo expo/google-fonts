@@ -2,9 +2,9 @@
   "family": "Flavors",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v20",
-  "lastModified": "2022-01-05",
-  "files": { "regular": "http://fonts.gstatic.com/s/flavors/v20/FBV2dDrhxqmveJTpbkzlNqkG9UY.ttf" },
+  "version": "v22",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/flavors/v22/FBV2dDrhxqmveJTpbkzlNqkG9UY.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

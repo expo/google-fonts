@@ -1,0 +1,20 @@
+{
+  "family": "Noto Serif Telugu",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "telugu"],
+  "version": "v20",
+  "lastModified": "2022-09-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notoseriftelugu/v20/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9D9TGwuY2fjgrZYA.ttf",
+    "200": "http://fonts.gstatic.com/s/notoseriftelugu/v20/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9DdTCwuY2fjgrZYA.ttf",
+    "300": "http://fonts.gstatic.com/s/notoseriftelugu/v20/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9DqzCwuY2fjgrZYA.ttf",
+    "500": "http://fonts.gstatic.com/s/notoseriftelugu/v20/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9DxzCwuY2fjgrZYA.ttf",
+    "600": "http://fonts.gstatic.com/s/notoseriftelugu/v20/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9DKzewuY2fjgrZYA.ttf",
+    "700": "http://fonts.gstatic.com/s/notoseriftelugu/v20/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9DEjewuY2fjgrZYA.ttf",
+    "800": "http://fonts.gstatic.com/s/notoseriftelugu/v20/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9DdTewuY2fjgrZYA.ttf",
+    "900": "http://fonts.gstatic.com/s/notoseriftelugu/v20/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9DXDewuY2fjgrZYA.ttf",
+    "regular": "http://fonts.gstatic.com/s/notoseriftelugu/v20/tDbl2pCbnkEKmXNVmt2M1q6f4HWbbj6MRbYEeav7Fe9D9TCwuY2fjgrZYA.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

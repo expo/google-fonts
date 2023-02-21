@@ -1,0 +1,12 @@
+{
+  "family": "Kdam Thmor Pro",
+  "variants": ["regular"],
+  "subsets": ["khmer", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/kdamthmorpro/v1/EJRPQgAzVdcI-Qdvt34jzurnGA7_j89I8ZWb.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

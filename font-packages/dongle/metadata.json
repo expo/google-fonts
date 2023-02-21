@@ -1,0 +1,14 @@
+{
+  "family": "Dongle",
+  "variants": ["300", "regular", "700"],
+  "subsets": ["korean", "latin", "latin-ext", "vietnamese"],
+  "version": "v8",
+  "lastModified": "2022-09-27",
+  "files": {
+    "300": "http://fonts.gstatic.com/s/dongle/v8/sJoG3Ltdjt6VPkqeEcxrYjWNzXvVPA.ttf",
+    "700": "http://fonts.gstatic.com/s/dongle/v8/sJoG3Ltdjt6VPkqeActrYjWNzXvVPA.ttf",
+    "regular": "http://fonts.gstatic.com/s/dongle/v8/sJoF3Ltdjt6VPkqmveRPah6RxA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

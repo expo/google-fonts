@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Saurashtra",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "saurashtra"],
+  "version": "v18",
+  "lastModified": "2022-11-09",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanssaurashtra/v18/ea8GacQ0Wfz_XKWXe6OtoA8w8zvmYwTef9ndjhPTSIx9.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

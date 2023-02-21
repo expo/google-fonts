@@ -2,10 +2,10 @@
   "family": "IM Fell English SC",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2021-03-19",
+  "version": "v16",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/imfellenglishsc/v12/a8IENpD3CDX-4zrWfr1VY879qFF05pZLO4gOg0shzA.ttf"
+    "regular": "http://fonts.gstatic.com/s/imfellenglishsc/v16/a8IENpD3CDX-4zrWfr1VY879qFF05pZLO4gOg0shzA.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

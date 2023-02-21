@@ -1,0 +1,12 @@
+{
+  "family": "Noto Serif Balinese",
+  "variants": ["regular"],
+  "subsets": ["balinese", "latin", "latin-ext"],
+  "version": "v16",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notoserifbalinese/v16/QdVKSS0-JginysQSRvuCmUMB_wVeQAxXRbgJdhapcUU.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

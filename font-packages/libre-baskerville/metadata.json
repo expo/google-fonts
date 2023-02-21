@@ -2,12 +2,12 @@
   "family": "Libre Baskerville",
   "variants": ["regular", "italic", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-09-10",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/librebaskerville/v9/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTjYwI8Gcw6Oi.ttf",
-    "regular": "http://fonts.gstatic.com/s/librebaskerville/v9/kmKnZrc3Hgbbcjq75U4uslyuy4kn0pNeYRI4CN2V.ttf",
-    "italic": "http://fonts.gstatic.com/s/librebaskerville/v9/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcaxYaDc2V2ro.ttf"
+    "700": "http://fonts.gstatic.com/s/librebaskerville/v14/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTjYwI8Gcw6Oi.ttf",
+    "regular": "http://fonts.gstatic.com/s/librebaskerville/v14/kmKnZrc3Hgbbcjq75U4uslyuy4kn0pNeYRI4CN2V.ttf",
+    "italic": "http://fonts.gstatic.com/s/librebaskerville/v14/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcaxYaDc2V2ro.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont"

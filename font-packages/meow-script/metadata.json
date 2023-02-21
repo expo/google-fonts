@@ -1,0 +1,12 @@
+{
+  "family": "Meow Script",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/meowscript/v5/0FlQVPqanlaJrtr8AnJ0ESch0_0CfDf1.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

@@ -2,9 +2,9 @@
   "family": "Chenla",
   "variants": ["regular"],
   "subsets": ["khmer"],
-  "version": "v23",
-  "lastModified": "2021-12-01",
-  "files": { "regular": "http://fonts.gstatic.com/s/chenla/v23/SZc43FDpIKu8WZ9eXxfonUPL6Q.ttf" },
+  "version": "v25",
+  "lastModified": "2022-09-22",
+  "files": { "regular": "http://fonts.gstatic.com/s/chenla/v25/SZc43FDpIKu8WZ9eXxfonUPL6Q.ttf" },
   "category": "display",
   "kind": "webfonts#webfont"
 }

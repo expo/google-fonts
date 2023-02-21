@@ -2,10 +2,10 @@
   "family": "Dynalight",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2022-01-11",
+  "version": "v18",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/dynalight/v16/1Ptsg8LOU_aOmQvTsF4ISotrDfGGxA.ttf"
+    "regular": "http://fonts.gstatic.com/s/dynalight/v18/1Ptsg8LOU_aOmQvTsF4ISotrDfGGxA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

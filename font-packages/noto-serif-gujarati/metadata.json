@@ -1,0 +1,20 @@
+{
+  "family": "Noto Serif Gujarati",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["gujarati", "latin", "latin-ext"],
+  "version": "v21",
+  "lastModified": "2022-09-22",
+  "files": {
+    "100": "http://fonts.gstatic.com/s/notoserifgujarati/v21/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2HuYycYzuM1Kf-OJu.ttf",
+    "200": "http://fonts.gstatic.com/s/notoserifgujarati/v21/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2HuaycIzuM1Kf-OJu.ttf",
+    "300": "http://fonts.gstatic.com/s/notoserifgujarati/v21/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2HuZscIzuM1Kf-OJu.ttf",
+    "500": "http://fonts.gstatic.com/s/notoserifgujarati/v21/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2HuYAcIzuM1Kf-OJu.ttf",
+    "600": "http://fonts.gstatic.com/s/notoserifgujarati/v21/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2Hubsd4zuM1Kf-OJu.ttf",
+    "700": "http://fonts.gstatic.com/s/notoserifgujarati/v21/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2HubVd4zuM1Kf-OJu.ttf",
+    "800": "http://fonts.gstatic.com/s/notoserifgujarati/v21/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2Huayd4zuM1Kf-OJu.ttf",
+    "900": "http://fonts.gstatic.com/s/notoserifgujarati/v21/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2Huabd4zuM1Kf-OJu.ttf",
+    "regular": "http://fonts.gstatic.com/s/notoserifgujarati/v21/hESa6WBlOixO-3OJ1FTmTsmqlBRUJBVkcgNLpdsspzP2HuYycIzuM1Kf-OJu.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

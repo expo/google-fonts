@@ -2,10 +2,10 @@
   "family": "Rubik Mono One",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2020-09-02",
+  "version": "v14",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/rubikmonoone/v9/UqyJK8kPP3hjw6ANTdfRk9YSN-8wRqQrc_j9.ttf"
+    "regular": "http://fonts.gstatic.com/s/rubikmonoone/v14/UqyJK8kPP3hjw6ANTdfRk9YSN-8wRqQrc_j9.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

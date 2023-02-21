@@ -1,0 +1,19 @@
+{
+  "family": "Familjen Grotesk",
+  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v4",
+  "lastModified": "2022-09-22",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/familjengrotesk/v4/Qw3LZR9ZHiDnImG6-NEMQ41wby8WRnYsfkunR_eGfMG7aSztc1jcEYq2.ttf",
+    "600": "http://fonts.gstatic.com/s/familjengrotesk/v4/Qw3LZR9ZHiDnImG6-NEMQ41wby8WRnYsfkunR_eGfMFXbiztc1jcEYq2.ttf",
+    "700": "http://fonts.gstatic.com/s/familjengrotesk/v4/Qw3LZR9ZHiDnImG6-NEMQ41wby8WRnYsfkunR_eGfMFubiztc1jcEYq2.ttf",
+    "regular": "http://fonts.gstatic.com/s/familjengrotesk/v4/Qw3LZR9ZHiDnImG6-NEMQ41wby8WRnYsfkunR_eGfMGJaSztc1jcEYq2.ttf",
+    "italic": "http://fonts.gstatic.com/s/familjengrotesk/v4/Qw31ZR9ZHiDnImG6-NEMQ41wby8WbH8egZPOLG0oe9RBKsSueVz-FJq2Rv4.ttf",
+    "500italic": "http://fonts.gstatic.com/s/familjengrotesk/v4/Qw31ZR9ZHiDnImG6-NEMQ41wby8WbH8egZPOLG0oe9RBKvaueVz-FJq2Rv4.ttf",
+    "600italic": "http://fonts.gstatic.com/s/familjengrotesk/v4/Qw31ZR9ZHiDnImG6-NEMQ41wby8WbH8egZPOLG0oe9RBKhqpeVz-FJq2Rv4.ttf",
+    "700italic": "http://fonts.gstatic.com/s/familjengrotesk/v4/Qw31ZR9ZHiDnImG6-NEMQ41wby8WbH8egZPOLG0oe9RBKiOpeVz-FJq2Rv4.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

@@ -2,10 +2,10 @@
   "family": "Miltonian Tattoo",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v26",
-  "lastModified": "2022-01-05",
+  "version": "v28",
+  "lastModified": "2022-09-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/miltoniantattoo/v26/EvOUzBRL0o0kCxF-lcMCQxlpVsA_FwP8MDBku-s.ttf"
+    "regular": "http://fonts.gstatic.com/s/miltoniantattoo/v28/EvOUzBRL0o0kCxF-lcMCQxlpVsA_FwP8MDBku-s.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

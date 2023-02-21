@@ -1,0 +1,12 @@
+{
+  "family": "Comforter",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2022-09-22",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/comforter/v5/H4clBXOCl8nQnlaql3Qa6JG8iqeuag.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont"
+}

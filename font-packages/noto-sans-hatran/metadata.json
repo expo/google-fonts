@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans Hatran",
+  "variants": ["regular"],
+  "subsets": ["hatran"],
+  "version": "v15",
+  "lastModified": "2022-05-10",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/notosanshatran/v15/A2BBn4Ne0RgnVF3Lnko-0sOBIfL_mM83r1nwzDs.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

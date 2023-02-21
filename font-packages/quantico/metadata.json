@@ -2,13 +2,13 @@
   "family": "Quantico",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2020-09-02",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/quantico/v10/rax5HiSdp9cPL3KIF7TQARhasU7Q8Cad.ttf",
-    "regular": "http://fonts.gstatic.com/s/quantico/v10/rax-HiSdp9cPL3KIF4xsLjxSmlLZ.ttf",
-    "italic": "http://fonts.gstatic.com/s/quantico/v10/rax4HiSdp9cPL3KIF7xuJDhwn0LZ6T8.ttf",
-    "700italic": "http://fonts.gstatic.com/s/quantico/v10/rax7HiSdp9cPL3KIF7xuHIRfu0ry9TadML4.ttf"
+    "700": "http://fonts.gstatic.com/s/quantico/v15/rax5HiSdp9cPL3KIF7TQARhasU7Q8Cad.ttf",
+    "regular": "http://fonts.gstatic.com/s/quantico/v15/rax-HiSdp9cPL3KIF4xsLjxSmlLZ.ttf",
+    "italic": "http://fonts.gstatic.com/s/quantico/v15/rax4HiSdp9cPL3KIF7xuJDhwn0LZ6T8.ttf",
+    "700italic": "http://fonts.gstatic.com/s/quantico/v15/rax7HiSdp9cPL3KIF7xuHIRfu0ry9TadML4.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

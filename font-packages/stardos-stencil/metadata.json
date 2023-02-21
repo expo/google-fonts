@@ -2,11 +2,11 @@
   "family": "Stardos Stencil",
   "variants": ["regular", "700"],
   "subsets": ["latin"],
-  "version": "v11",
-  "lastModified": "2020-07-23",
+  "version": "v15",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/stardosstencil/v11/X7n44bcuGPC8hrvEOHXOgaKCc2TpU3tTvg-t29HSHw.ttf",
-    "regular": "http://fonts.gstatic.com/s/stardosstencil/v11/X7n94bcuGPC8hrvEOHXOgaKCc2TR71R3tiSx0g.ttf"
+    "700": "http://fonts.gstatic.com/s/stardosstencil/v15/X7n44bcuGPC8hrvEOHXOgaKCc2TpU3tTvg-t29HSHw.ttf",
+    "regular": "http://fonts.gstatic.com/s/stardosstencil/v15/X7n94bcuGPC8hrvEOHXOgaKCc2TR71R3tiSx0g.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

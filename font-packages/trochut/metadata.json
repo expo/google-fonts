@@ -2,12 +2,12 @@
   "family": "Trochut",
   "variants": ["regular", "italic", "700"],
   "subsets": ["latin"],
-  "version": "v18",
-  "lastModified": "2022-01-05",
+  "version": "v20",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/trochut/v18/CHymV-fDDlP9bDIw3sinWVokMnIllmA.ttf",
-    "regular": "http://fonts.gstatic.com/s/trochut/v18/CHyjV-fDDlP9bDIw5nSIfVIPLns.ttf",
-    "italic": "http://fonts.gstatic.com/s/trochut/v18/CHyhV-fDDlP9bDIw1naCeXAKPns8jw.ttf"
+    "700": "http://fonts.gstatic.com/s/trochut/v20/CHymV-fDDlP9bDIw3sinWVokMnIllmA.ttf",
+    "regular": "http://fonts.gstatic.com/s/trochut/v20/CHyjV-fDDlP9bDIw5nSIfVIPLns.ttf",
+    "italic": "http://fonts.gstatic.com/s/trochut/v20/CHyhV-fDDlP9bDIw1naCeXAKPns8jw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont"

@@ -2,15 +2,15 @@
   "family": "Noto Sans JP",
   "variants": ["100", "300", "regular", "500", "700", "900"],
   "subsets": ["japanese", "latin"],
-  "version": "v36",
-  "lastModified": "2021-09-14",
+  "version": "v42",
+  "lastModified": "2022-09-27",
   "files": {
-    "100": "http://fonts.gstatic.com/s/notosansjp/v36/-F6ofjtqLzI2JPCgQBnw7HFQoggM-FNthvIU.otf",
-    "300": "http://fonts.gstatic.com/s/notosansjp/v36/-F6pfjtqLzI2JPCgQBnw7HFQaioq1H1hj-sNFQ.otf",
-    "500": "http://fonts.gstatic.com/s/notosansjp/v36/-F6pfjtqLzI2JPCgQBnw7HFQMisq1H1hj-sNFQ.otf",
-    "700": "http://fonts.gstatic.com/s/notosansjp/v36/-F6pfjtqLzI2JPCgQBnw7HFQei0q1H1hj-sNFQ.otf",
-    "900": "http://fonts.gstatic.com/s/notosansjp/v36/-F6pfjtqLzI2JPCgQBnw7HFQQi8q1H1hj-sNFQ.otf",
-    "regular": "http://fonts.gstatic.com/s/notosansjp/v36/-F62fjtqLzI2JPCgQBnw7HFowAIO2lZ9hg.otf"
+    "100": "http://fonts.gstatic.com/s/notosansjp/v42/-F6ofjtqLzI2JPCgQBnw7HFQoggM-FNthvIU.otf",
+    "300": "http://fonts.gstatic.com/s/notosansjp/v42/-F6pfjtqLzI2JPCgQBnw7HFQaioq1H1hj-sNFQ.otf",
+    "500": "http://fonts.gstatic.com/s/notosansjp/v42/-F6pfjtqLzI2JPCgQBnw7HFQMisq1H1hj-sNFQ.otf",
+    "700": "http://fonts.gstatic.com/s/notosansjp/v42/-F6pfjtqLzI2JPCgQBnw7HFQei0q1H1hj-sNFQ.otf",
+    "900": "http://fonts.gstatic.com/s/notosansjp/v42/-F6pfjtqLzI2JPCgQBnw7HFQQi8q1H1hj-sNFQ.otf",
+    "regular": "http://fonts.gstatic.com/s/notosansjp/v42/-F62fjtqLzI2JPCgQBnw7HFowAIO2lZ9hg.otf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

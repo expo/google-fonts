@@ -1,0 +1,19 @@
+{
+  "family": "Libre Bodoni",
+  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2022-09-22",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/librebodoni/v3/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6L9fwWzZcOb3U3s.ttf",
+    "600": "http://fonts.gstatic.com/s/librebodoni/v3/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6FNYwWzZcOb3U3s.ttf",
+    "700": "http://fonts.gstatic.com/s/librebodoni/v3/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6GpYwWzZcOb3U3s.ttf",
+    "regular": "http://fonts.gstatic.com/s/librebodoni/v3/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6I1fwWzZcOb3U3s.ttf",
+    "italic": "http://fonts.gstatic.com/s/librebodoni/v3/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUcKS_TdMTyQ3syLg.ttf",
+    "500italic": "http://fonts.gstatic.com/s/librebodoni/v3/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUcGy_TdMTyQ3syLg.ttf",
+    "600italic": "http://fonts.gstatic.com/s/librebodoni/v3/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUc9yjTdMTyQ3syLg.ttf",
+    "700italic": "http://fonts.gstatic.com/s/librebodoni/v3/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUczijTdMTyQ3syLg.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

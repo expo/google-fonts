@@ -2,11 +2,11 @@
   "family": "Alef",
   "variants": ["regular", "700"],
   "subsets": ["hebrew", "latin"],
-  "version": "v12",
-  "lastModified": "2020-09-02",
+  "version": "v21",
+  "lastModified": "2022-09-22",
   "files": {
-    "700": "http://fonts.gstatic.com/s/alef/v12/FeVQS0NQpLYglo50L5la2bxii28.ttf",
-    "regular": "http://fonts.gstatic.com/s/alef/v12/FeVfS0NQpLYgrjJbC5FxxbU.ttf"
+    "700": "http://fonts.gstatic.com/s/alef/v21/FeVQS0NQpLYglo50L5la2bxii28.ttf",
+    "regular": "http://fonts.gstatic.com/s/alef/v21/FeVfS0NQpLYgrjJbC5FxxbU.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont"

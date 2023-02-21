@@ -1,0 +1,15 @@
+{
+  "family": "Noto Nastaliq Urdu",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["arabic", "latin", "latin-ext"],
+  "version": "v14",
+  "lastModified": "2022-09-28",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/notonastaliqurdu/v14/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qu3-DK2f2-_8mEw.ttf",
+    "600": "http://fonts.gstatic.com/s/notonastaliqurdu/v14/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3QgH5DK2f2-_8mEw.ttf",
+    "700": "http://fonts.gstatic.com/s/notonastaliqurdu/v14/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qjj5DK2f2-_8mEw.ttf",
+    "regular": "http://fonts.gstatic.com/s/notonastaliqurdu/v14/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qt_-DK2f2-_8mEw.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

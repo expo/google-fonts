@@ -1,0 +1,15 @@
+{
+  "family": "Noto Sans Javanese",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["javanese", "latin", "latin-ext"],
+  "version": "v19",
+  "lastModified": "2022-09-28",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/notosansjavanese/v19/2V01KJkDAIA6Hp4zoSScDjV0Y-eoHAHT-Z3MngEefiidxKvkFFliZYWj4O8.ttf",
+    "600": "http://fonts.gstatic.com/s/notosansjavanese/v19/2V01KJkDAIA6Hp4zoSScDjV0Y-eoHAHT-Z3MngEefiidxEfjFFliZYWj4O8.ttf",
+    "700": "http://fonts.gstatic.com/s/notosansjavanese/v19/2V01KJkDAIA6Hp4zoSScDjV0Y-eoHAHT-Z3MngEefiidxH7jFFliZYWj4O8.ttf",
+    "regular": "http://fonts.gstatic.com/s/notosansjavanese/v19/2V01KJkDAIA6Hp4zoSScDjV0Y-eoHAHT-Z3MngEefiidxJnkFFliZYWj4O8.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}
