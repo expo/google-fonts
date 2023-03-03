@@ -42,7 +42,7 @@ Here is an example of using the [Inter font family](https://fonts.google.com/spe
 #### Install the package for the font you want
 
 ```sh
-expo install @expo-google-fonts/inter expo-font
+npx expo install @expo-google-fonts/inter expo-font
 ```
 
 #### In your app
