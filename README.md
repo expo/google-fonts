@@ -49,35 +49,28 @@ npx expo install @expo-google-fonts/inter expo-font
 
 ```js
 import React, { useState, useEffect } from 'react';
-
 import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Inter_900Black,
-} from '@expo-google-fonts/inter';
+import {  useFonts, Inter_900Black } from '@expo-google-fonts/inter';
 
-export default () => {
+export default function App() {
   let [fontsLoaded] = useFonts({
     Inter_900Black,
   });
 
   if (!fontsLoaded) {
-    return <AppLoading />;
-  } else {
-    return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-
-        <Text style={{ fontFamily: 'Inter_900Black' }}>
-          Inter Black
-        </Text>
-
-      </View>
-    );
+    return null;
   }
-};
 
+  return (
+    <View style={ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text style={{ fontFamily: 'Inter_900Black', fontSize: 40 }}>Inter Black</Text>
+    </View>
+  );
+}
 ```
+
+> **Note**: You can also install `expo-splash-screen` to load fonts before your app is rendered. This will help you to keep the splash screen visible while loading the fonts and then hide the splash screen when app has rendered with some initial content.
+> See [minimal example in Fonts](https://docs.expo.dev/develop/user-interface/fonts/#minimal-example) for more information.
 
 
 ### Example Project
