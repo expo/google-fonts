@@ -1,5 +1,6 @@
-node_modules/**/*
-.expo/*
+node_modules/
+.expo/
+dist/
 npm-debug.*
 *.jks
 *.p8
@@ -8,7 +9,9 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
-web-report/
 
 # macOS
 .DS_Store
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
