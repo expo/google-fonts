@@ -50,7 +50,7 @@ npx expo install @expo-google-fonts/inter expo-font
 ```js
 import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
-import {  useFonts, Inter_900Black } from '@expo-google-fonts/inter';
+import { useFonts, Inter_900Black } from '@expo-google-fonts/inter';
 
 export default function App() {
   let [fontsLoaded] = useFonts({
