@@ -2,11 +2,12 @@
   "family": "Wellfleet",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v20",
-  "lastModified": "2022-09-22",
+  "version": "v23",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/wellfleet/v20/nuF7D_LfQJb3VYgX6eyT42aLDhO2HA.ttf"
+    "regular": "https://fonts.gstatic.com/s/wellfleet/v23/nuF7D_LfQJb3VYgX6eyT42aLDhO2HA.ttf"
   },
-  "category": "display",
-  "kind": "webfonts#webfont"
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/wellfleet/v23/nuF7D_LfQJb3VYgX6eyj4myP.ttf"
 }

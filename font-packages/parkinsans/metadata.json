@@ -1,0 +1,18 @@
+{
+  "family": "Parkinsans",
+  "variants": ["300", "regular", "500", "600", "700", "800"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2024-11-20",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/parkinsans/v1/-W_uXJXvQyPb1QfpBpRrVEgjj0W4zSUk4gSI6R8K-8Z_dt-E.ttf",
+    "500": "https://fonts.gstatic.com/s/parkinsans/v1/-W_uXJXvQyPb1QfpBpRrVEgjj0W4zSUk4gTk6R8K-8Z_dt-E.ttf",
+    "600": "https://fonts.gstatic.com/s/parkinsans/v1/-W_uXJXvQyPb1QfpBpRrVEgjj0W4zSUk4gQI7h8K-8Z_dt-E.ttf",
+    "700": "https://fonts.gstatic.com/s/parkinsans/v1/-W_uXJXvQyPb1QfpBpRrVEgjj0W4zSUk4gQx7h8K-8Z_dt-E.ttf",
+    "800": "https://fonts.gstatic.com/s/parkinsans/v1/-W_uXJXvQyPb1QfpBpRrVEgjj0W4zSUk4gRW7h8K-8Z_dt-E.ttf",
+    "regular": "https://fonts.gstatic.com/s/parkinsans/v1/-W_uXJXvQyPb1QfpBpRrVEgjj0W4zSUk4gTW6R8K-8Z_dt-E.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/parkinsans/v1/-W_uXJXvQyPb1QfpBpRrVEgjj0W4zSUk4gTW6S8L8cI.ttf"
+}

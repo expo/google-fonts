@@ -2,12 +2,13 @@
   "family": "Content",
   "variants": ["regular", "700"],
   "subsets": ["khmer"],
-  "version": "v24",
-  "lastModified": "2022-09-22",
+  "version": "v27",
+  "lastModified": "2024-12-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/content/v24/zrfg0HLayePhU_AwaRzdBirfWCHvkAI.ttf",
-    "regular": "http://fonts.gstatic.com/s/content/v24/zrfl0HLayePhU_AwUaDyIiL0RCg.ttf"
+    "700": "https://fonts.gstatic.com/s/content/v27/zrfg0HLayePhU_AwaRzdBirfWCHvkAI.ttf",
+    "regular": "https://fonts.gstatic.com/s/content/v27/zrfl0HLayePhU_AwUaDyIiL0RCg.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/content/v27/zrfl0HLayePhU_AwYaH4Jg.ttf"
 }

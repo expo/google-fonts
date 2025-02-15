@@ -3,10 +3,11 @@
   "variants": ["regular"],
   "subsets": ["chinese-simplified", "latin"],
   "version": "v15",
-  "lastModified": "2022-11-09",
+  "lastModified": "2024-08-12",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/zcoolqingkehuangyou/v15/2Eb5L_R5IXJEWhD3AOhSvFC554MOOahI4mRIi_28c8bHWA.ttf"
+    "regular": "https://fonts.gstatic.com/s/zcoolqingkehuangyou/v15/2Eb5L_R5IXJEWhD3AOhSvFC554MOOahI4mRIi_28c8bHWA.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/zcoolqingkehuangyou/v15/2Eb5L_R5IXJEWhD3AOhSvFC554MOOahI4mR4ive4.ttf"
 }

@@ -1,0 +1,14 @@
+{
+  "family": "Sedan",
+  "variants": ["regular", "italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/sedan/v1/Yq6a-L-VVyD6-eOSiTpovf5b.ttf",
+    "italic": "https://fonts.gstatic.com/s/sedan/v1/Yq6U-L-VVyD6-dOQgz5KuO5bjxE.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/sedan/v1/Yq6a-L-VVyD6-dOTgz4.ttf"
+}

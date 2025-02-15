@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Old Persian",
   "variants": ["regular"],
-  "subsets": ["old-persian"],
-  "version": "v15",
-  "lastModified": "2022-05-10",
+  "subsets": ["latin", "latin-ext", "old-persian"],
+  "version": "v16",
+  "lastModified": "2023-07-13",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosansoldpersian/v15/wEOjEAbNnc5caQTFG18FHrZr9Bp6-8CmIJ_tqOlQfx9CjA.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansoldpersian/v16/wEOjEAbNnc5caQTFG18FHrZr9Bp6-8CmIJ_tqOlQfx9CjA.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansoldpersian/v16/wEOjEAbNnc5caQTFG18FHrZr9Bp6-8CmIJ_dqeNU.ttf"
 }

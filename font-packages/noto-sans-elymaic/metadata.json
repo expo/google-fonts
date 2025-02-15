@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Elymaic",
   "variants": ["regular"],
-  "subsets": ["elymaic"],
-  "version": "v15",
-  "lastModified": "2022-05-10",
+  "subsets": ["elymaic", "latin", "latin-ext"],
+  "version": "v17",
+  "lastModified": "2023-10-25",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosanselymaic/v15/UqyKK9YTJW5liNMhTMqe9vUFP65ZD4AjWOT0zi2V.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanselymaic/v17/UqyKK9YTJW5liNMhTMqe9vUFP65ZD4AjWOT0zi2V.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanselymaic/v17/UqyKK9YTJW5liNMhTMqe9vUFP65ZD7AiUuA.ttf"
 }

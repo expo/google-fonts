@@ -11,13 +11,16 @@ This package lets you use the [**Noto Sans TC**](https://fonts.google.com/specim
 
 ![Noto Sans TC](./font-family.png)
 
-This font family contains [6 styles](#-gallery).
+This font family contains [9 styles](#-gallery).
 
 - `NotoSansTC_100Thin`
+- `NotoSansTC_200ExtraLight`
 - `NotoSansTC_300Light`
 - `NotoSansTC_400Regular`
 - `NotoSansTC_500Medium`
+- `NotoSansTC_600SemiBold`
 - `NotoSansTC_700Bold`
+- `NotoSansTC_800ExtraBold`
 - `NotoSansTC_900Black`
 
 ## Usage
@@ -36,20 +39,26 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   NotoSansTC_100Thin,
+  NotoSansTC_200ExtraLight,
   NotoSansTC_300Light,
   NotoSansTC_400Regular,
   NotoSansTC_500Medium,
+  NotoSansTC_600SemiBold,
   NotoSansTC_700Bold,
+  NotoSansTC_800ExtraBold,
   NotoSansTC_900Black,
 } from '@expo-google-fonts/noto-sans-tc';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     NotoSansTC_100Thin,
+    NotoSansTC_200ExtraLight,
     NotoSansTC_300Light,
     NotoSansTC_400Regular,
     NotoSansTC_500Medium,
+    NotoSansTC_600SemiBold,
     NotoSansTC_700Bold,
+    NotoSansTC_800ExtraBold,
     NotoSansTC_900Black,
   });
 
@@ -69,6 +78,16 @@ export default () => {
             fontFamily: 'NotoSansTC_100Thin',
           }}>
           Noto Sans TC Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansTC_200ExtraLight',
+          }}>
+          Noto Sans TC Extra Light
         </Text>
 
         <Text
@@ -106,9 +125,29 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansTC_600SemiBold',
+          }}>
+          Noto Sans TC Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'NotoSansTC_700Bold',
           }}>
           Noto Sans TC Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansTC_800ExtraBold',
+          }}>
+          Noto Sans TC Extra Bold
         </Text>
 
         <Text
@@ -132,8 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansTC_100Thin](./NotoSansTC_100Thin.ttf.png)|![NotoSansTC_300Light](./NotoSansTC_300Light.ttf.png)|![NotoSansTC_400Regular](./NotoSansTC_400Regular.ttf.png)||
-|![NotoSansTC_500Medium](./NotoSansTC_500Medium.ttf.png)|![NotoSansTC_700Bold](./NotoSansTC_700Bold.ttf.png)|![NotoSansTC_900Black](./NotoSansTC_900Black.ttf.png)||
+|![NotoSansTC_100Thin](./NotoSansTC_100Thin.ttf.png)|![NotoSansTC_200ExtraLight](./NotoSansTC_200ExtraLight.ttf.png)|![NotoSansTC_300Light](./NotoSansTC_300Light.ttf.png)||
+|![NotoSansTC_400Regular](./NotoSansTC_400Regular.ttf.png)|![NotoSansTC_500Medium](./NotoSansTC_500Medium.ttf.png)|![NotoSansTC_600SemiBold](./NotoSansTC_600SemiBold.ttf.png)||
+|![NotoSansTC_700Bold](./NotoSansTC_700Bold.ttf.png)|![NotoSansTC_800ExtraBold](./NotoSansTC_800ExtraBold.ttf.png)|![NotoSansTC_900Black](./NotoSansTC_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

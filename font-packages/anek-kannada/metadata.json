@@ -2,18 +2,19 @@
   "family": "Anek Kannada",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
   "subsets": ["kannada", "latin", "latin-ext"],
-  "version": "v4",
-  "lastModified": "2023-01-06",
+  "version": "v14",
+  "lastModified": "2024-12-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/anekkannada/v4/raxcHiCNvNMKe1CKFsINYFlgkEIwGa8nL6ruWJg1j--h8pvBKSiw4dFDEAukVReA1oef.ttf",
-    "200": "http://fonts.gstatic.com/s/anekkannada/v4/raxcHiCNvNMKe1CKFsINYFlgkEIwGa8nL6ruWJg1j--h8pvBKSiw4dHDEQukVReA1oef.ttf",
-    "300": "http://fonts.gstatic.com/s/anekkannada/v4/raxcHiCNvNMKe1CKFsINYFlgkEIwGa8nL6ruWJg1j--h8pvBKSiw4dEdEQukVReA1oef.ttf",
-    "500": "http://fonts.gstatic.com/s/anekkannada/v4/raxcHiCNvNMKe1CKFsINYFlgkEIwGa8nL6ruWJg1j--h8pvBKSiw4dFxEQukVReA1oef.ttf",
-    "600": "http://fonts.gstatic.com/s/anekkannada/v4/raxcHiCNvNMKe1CKFsINYFlgkEIwGa8nL6ruWJg1j--h8pvBKSiw4dGdFgukVReA1oef.ttf",
-    "700": "http://fonts.gstatic.com/s/anekkannada/v4/raxcHiCNvNMKe1CKFsINYFlgkEIwGa8nL6ruWJg1j--h8pvBKSiw4dGkFgukVReA1oef.ttf",
-    "800": "http://fonts.gstatic.com/s/anekkannada/v4/raxcHiCNvNMKe1CKFsINYFlgkEIwGa8nL6ruWJg1j--h8pvBKSiw4dHDFgukVReA1oef.ttf",
-    "regular": "http://fonts.gstatic.com/s/anekkannada/v4/raxcHiCNvNMKe1CKFsINYFlgkEIwGa8nL6ruWJg1j--h8pvBKSiw4dFDEQukVReA1oef.ttf"
+    "100": "https://fonts.gstatic.com/s/anekkannada/v14/raxcHiCNvNMKe1CKFsINYFlgkEIwGa8nL6ruWJg1j--h8pvBKSiw4dFDEAukVReA1oef.ttf",
+    "200": "https://fonts.gstatic.com/s/anekkannada/v14/raxcHiCNvNMKe1CKFsINYFlgkEIwGa8nL6ruWJg1j--h8pvBKSiw4dHDEQukVReA1oef.ttf",
+    "300": "https://fonts.gstatic.com/s/anekkannada/v14/raxcHiCNvNMKe1CKFsINYFlgkEIwGa8nL6ruWJg1j--h8pvBKSiw4dEdEQukVReA1oef.ttf",
+    "500": "https://fonts.gstatic.com/s/anekkannada/v14/raxcHiCNvNMKe1CKFsINYFlgkEIwGa8nL6ruWJg1j--h8pvBKSiw4dFxEQukVReA1oef.ttf",
+    "600": "https://fonts.gstatic.com/s/anekkannada/v14/raxcHiCNvNMKe1CKFsINYFlgkEIwGa8nL6ruWJg1j--h8pvBKSiw4dGdFgukVReA1oef.ttf",
+    "700": "https://fonts.gstatic.com/s/anekkannada/v14/raxcHiCNvNMKe1CKFsINYFlgkEIwGa8nL6ruWJg1j--h8pvBKSiw4dGkFgukVReA1oef.ttf",
+    "800": "https://fonts.gstatic.com/s/anekkannada/v14/raxcHiCNvNMKe1CKFsINYFlgkEIwGa8nL6ruWJg1j--h8pvBKSiw4dHDFgukVReA1oef.ttf",
+    "regular": "https://fonts.gstatic.com/s/anekkannada/v14/raxcHiCNvNMKe1CKFsINYFlgkEIwGa8nL6ruWJg1j--h8pvBKSiw4dFDEQukVReA1oef.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/anekkannada/v14/raxcHiCNvNMKe1CKFsINYFlgkEIwGa8nL6ruWJg1j--h8pvBKSiw4dFDETulXxM.ttf"
 }

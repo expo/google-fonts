@@ -11,13 +11,16 @@ This package lets you use the [**Noto Sans KR**](https://fonts.google.com/specim
 
 ![Noto Sans KR](./font-family.png)
 
-This font family contains [6 styles](#-gallery).
+This font family contains [9 styles](#-gallery).
 
 - `NotoSansKR_100Thin`
+- `NotoSansKR_200ExtraLight`
 - `NotoSansKR_300Light`
 - `NotoSansKR_400Regular`
 - `NotoSansKR_500Medium`
+- `NotoSansKR_600SemiBold`
 - `NotoSansKR_700Bold`
+- `NotoSansKR_800ExtraBold`
 - `NotoSansKR_900Black`
 
 ## Usage
@@ -36,20 +39,26 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   NotoSansKR_100Thin,
+  NotoSansKR_200ExtraLight,
   NotoSansKR_300Light,
   NotoSansKR_400Regular,
   NotoSansKR_500Medium,
+  NotoSansKR_600SemiBold,
   NotoSansKR_700Bold,
+  NotoSansKR_800ExtraBold,
   NotoSansKR_900Black,
 } from '@expo-google-fonts/noto-sans-kr';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     NotoSansKR_100Thin,
+    NotoSansKR_200ExtraLight,
     NotoSansKR_300Light,
     NotoSansKR_400Regular,
     NotoSansKR_500Medium,
+    NotoSansKR_600SemiBold,
     NotoSansKR_700Bold,
+    NotoSansKR_800ExtraBold,
     NotoSansKR_900Black,
   });
 
@@ -69,6 +78,16 @@ export default () => {
             fontFamily: 'NotoSansKR_100Thin',
           }}>
           Noto Sans KR Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansKR_200ExtraLight',
+          }}>
+          Noto Sans KR Extra Light
         </Text>
 
         <Text
@@ -106,9 +125,29 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansKR_600SemiBold',
+          }}>
+          Noto Sans KR Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'NotoSansKR_700Bold',
           }}>
           Noto Sans KR Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansKR_800ExtraBold',
+          }}>
+          Noto Sans KR Extra Bold
         </Text>
 
         <Text
@@ -132,8 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansKR_100Thin](./NotoSansKR_100Thin.ttf.png)|![NotoSansKR_300Light](./NotoSansKR_300Light.ttf.png)|![NotoSansKR_400Regular](./NotoSansKR_400Regular.ttf.png)||
-|![NotoSansKR_500Medium](./NotoSansKR_500Medium.ttf.png)|![NotoSansKR_700Bold](./NotoSansKR_700Bold.ttf.png)|![NotoSansKR_900Black](./NotoSansKR_900Black.ttf.png)||
+|![NotoSansKR_100Thin](./NotoSansKR_100Thin.ttf.png)|![NotoSansKR_200ExtraLight](./NotoSansKR_200ExtraLight.ttf.png)|![NotoSansKR_300Light](./NotoSansKR_300Light.ttf.png)||
+|![NotoSansKR_400Regular](./NotoSansKR_400Regular.ttf.png)|![NotoSansKR_500Medium](./NotoSansKR_500Medium.ttf.png)|![NotoSansKR_600SemiBold](./NotoSansKR_600SemiBold.ttf.png)||
+|![NotoSansKR_700Bold](./NotoSansKR_700Bold.ttf.png)|![NotoSansKR_800ExtraBold](./NotoSansKR_800ExtraBold.ttf.png)|![NotoSansKR_900Black](./NotoSansKR_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -1,0 +1,20 @@
+{
+  "family": "Noto Serif Hentaigana",
+  "variants": ["200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["kana-extended", "latin", "latin-ext"],
+  "version": "v14",
+  "lastModified": "2025-02-12",
+  "files": {
+    "200": "https://fonts.gstatic.com/s/notoserifhentaigana/v14/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzgwGqxEZWEARdDE.ttf",
+    "300": "https://fonts.gstatic.com/s/notoserifhentaigana/v14/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hztIGqxEZWEARdDE.ttf",
+    "500": "https://fonts.gstatic.com/s/notoserifhentaigana/v14/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzr4GqxEZWEARdDE.ttf",
+    "600": "https://fonts.gstatic.com/s/notoserifhentaigana/v14/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzlIBqxEZWEARdDE.ttf",
+    "700": "https://fonts.gstatic.com/s/notoserifhentaigana/v14/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzmsBqxEZWEARdDE.ttf",
+    "800": "https://fonts.gstatic.com/s/notoserifhentaigana/v14/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzgwBqxEZWEARdDE.ttf",
+    "900": "https://fonts.gstatic.com/s/notoserifhentaigana/v14/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hziUBqxEZWEARdDE.ttf",
+    "regular": "https://fonts.gstatic.com/s/notoserifhentaigana/v14/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzowGqxEZWEARdDE.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notoserifhentaigana/v14/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzowGmxATXA.ttf"
+}

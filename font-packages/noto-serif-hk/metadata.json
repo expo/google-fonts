@@ -2,18 +2,19 @@
   "family": "Noto Serif HK",
   "variants": ["200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["chinese-hongkong", "cyrillic", "latin", "latin-ext", "vietnamese"],
-  "version": "v2",
-  "lastModified": "2022-09-27",
+  "version": "v9",
+  "lastModified": "2024-09-23",
   "files": {
-    "200": "http://fonts.gstatic.com/s/notoserifhk/v2/BngdUXBETWXI6LwlBZGcqL-B_KuJFcgfwP_9RMf-K2RmV9Su1M6i.ttf",
-    "300": "http://fonts.gstatic.com/s/notoserifhk/v2/BngdUXBETWXI6LwlBZGcqL-B_KuJFcgfwP_9RMcgK2RmV9Su1M6i.ttf",
-    "500": "http://fonts.gstatic.com/s/notoserifhk/v2/BngdUXBETWXI6LwlBZGcqL-B_KuJFcgfwP_9RMdMK2RmV9Su1M6i.ttf",
-    "600": "http://fonts.gstatic.com/s/notoserifhk/v2/BngdUXBETWXI6LwlBZGcqL-B_KuJFcgfwP_9RMegLGRmV9Su1M6i.ttf",
-    "700": "http://fonts.gstatic.com/s/notoserifhk/v2/BngdUXBETWXI6LwlBZGcqL-B_KuJFcgfwP_9RMeZLGRmV9Su1M6i.ttf",
-    "800": "http://fonts.gstatic.com/s/notoserifhk/v2/BngdUXBETWXI6LwlBZGcqL-B_KuJFcgfwP_9RMf-LGRmV9Su1M6i.ttf",
-    "900": "http://fonts.gstatic.com/s/notoserifhk/v2/BngdUXBETWXI6LwlBZGcqL-B_KuJFcgfwP_9RMfXLGRmV9Su1M6i.ttf",
-    "regular": "http://fonts.gstatic.com/s/notoserifhk/v2/BngdUXBETWXI6LwlBZGcqL-B_KuJFcgfwP_9RMd-K2RmV9Su1M6i.ttf"
+    "200": "https://fonts.gstatic.com/s/notoserifhk/v9/BngdUXBETWXI6LwlBZGcqL-B_KuJFcgfwP_9RMf-K2RmV9Su1M6i.ttf",
+    "300": "https://fonts.gstatic.com/s/notoserifhk/v9/BngdUXBETWXI6LwlBZGcqL-B_KuJFcgfwP_9RMcgK2RmV9Su1M6i.ttf",
+    "500": "https://fonts.gstatic.com/s/notoserifhk/v9/BngdUXBETWXI6LwlBZGcqL-B_KuJFcgfwP_9RMdMK2RmV9Su1M6i.ttf",
+    "600": "https://fonts.gstatic.com/s/notoserifhk/v9/BngdUXBETWXI6LwlBZGcqL-B_KuJFcgfwP_9RMegLGRmV9Su1M6i.ttf",
+    "700": "https://fonts.gstatic.com/s/notoserifhk/v9/BngdUXBETWXI6LwlBZGcqL-B_KuJFcgfwP_9RMeZLGRmV9Su1M6i.ttf",
+    "800": "https://fonts.gstatic.com/s/notoserifhk/v9/BngdUXBETWXI6LwlBZGcqL-B_KuJFcgfwP_9RMf-LGRmV9Su1M6i.ttf",
+    "900": "https://fonts.gstatic.com/s/notoserifhk/v9/BngdUXBETWXI6LwlBZGcqL-B_KuJFcgfwP_9RMfXLGRmV9Su1M6i.ttf",
+    "regular": "https://fonts.gstatic.com/s/notoserifhk/v9/BngdUXBETWXI6LwlBZGcqL-B_KuJFcgfwP_9RMd-K2RmV9Su1M6i.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notoserifhk/v9/BngdUXBETWXI6LwlBZGcqL-B_KuJFcgfwP_9RMd-K1RnXdA.ttf"
 }

@@ -2,12 +2,13 @@
   "family": "BIZ UDMincho",
   "variants": ["regular", "700"],
   "subsets": ["cyrillic", "greek-ext", "japanese", "latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2023-01-18",
+  "version": "v11",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/bizudmincho/v9/EJROQgI6eOxFjBdKs38yhtWNyyvfpeFE-IyCrw.ttf",
-    "regular": "http://fonts.gstatic.com/s/bizudmincho/v9/EJRRQgI6eOxFjBdKs38yhtW1dwT7rcpY8Q.ttf"
+    "700": "https://fonts.gstatic.com/s/bizudmincho/v11/EJROQgI6eOxFjBdKs38yhtWNyyvfpeFE-IyCrw.ttf",
+    "regular": "https://fonts.gstatic.com/s/bizudmincho/v11/EJRRQgI6eOxFjBdKs38yhtW1dwT7rcpY8Q.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/bizudmincho/v11/EJRRQgI6eOxFjBdKs38yhtWFdg7_.ttf"
 }

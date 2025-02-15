@@ -2,11 +2,12 @@
   "family": "Rubik Dirt",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext"],
-  "version": "v1",
-  "lastModified": "2022-09-22",
+  "version": "v2",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/rubikdirt/v1/DtVmJxC7WLEj1uIXEWAdulwm6gDXvwE.ttf"
+    "regular": "https://fonts.gstatic.com/s/rubikdirt/v2/DtVmJxC7WLEj1uIXEWAdulwm6gDXvwE.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/rubikdirt/v2/DtVmJxC7WLEj1uIXEWAdil0s7g.ttf"
 }

@@ -7,3 +7,4 @@ export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
 export const NotoSansDuployan_400Regular: number;
+export const NotoSansDuployan_700Bold: number;

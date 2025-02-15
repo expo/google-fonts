@@ -1,0 +1,13 @@
+{
+  "family": "Material Icons",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v143",
+  "lastModified": "2025-01-08",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/materialicons/v143/flUhRq6tzZclQEJ-Vdg-IuiaDsNZIhI8tIHh.ttf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/materialicons/v143/flUhRq6tzZclQEJ-Vdg-IuiaDvNYKBY.ttf"
+}

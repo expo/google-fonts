@@ -1,0 +1,16 @@
+{
+  "family": "Playwrite BE WAL",
+  "variants": ["100", "200", "300", "regular"],
+  "subsets": ["latin"],
+  "version": "v1",
+  "lastModified": "2024-08-12",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playwritebewal/v1/DtV1Jwq5QbIzyrA6DHdJ2BksuUmanQtEYjAlv96WFsWCGfugHxwiSZp8.ttf",
+    "200": "https://fonts.gstatic.com/s/playwritebewal/v1/DtV1Jwq5QbIzyrA6DHdJ2BksuUmanQtEYjAlv96WFsUCGPugHxwiSZp8.ttf",
+    "300": "https://fonts.gstatic.com/s/playwritebewal/v1/DtV1Jwq5QbIzyrA6DHdJ2BksuUmanQtEYjAlv96WFsXcGPugHxwiSZp8.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwritebewal/v1/DtV1Jwq5QbIzyrA6DHdJ2BksuUmanQtEYjAlv96WFsWCGPugHxwiSZp8.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwritebewal/v1/DtV1Jwq5QbIzyrA6DHdJ2BksuUmanQtEYjAlv96WFsWCGMuhFRg.ttf"
+}

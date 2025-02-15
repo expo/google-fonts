@@ -2,9 +2,10 @@
   "family": "Warnes",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v22",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/warnes/v22/pONn1hc0GsW6sW5OpiC2o6Lkqg.ttf" },
+  "version": "v27",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/warnes/v27/pONn1hc0GsW6sW5OpiC2o6Lkqg.ttf" },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/warnes/v27/pONn1hc0GsW6sW5-pyqy.ttf"
 }

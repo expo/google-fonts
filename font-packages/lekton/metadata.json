@@ -2,13 +2,14 @@
   "family": "Lekton",
   "variants": ["regular", "italic", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2022-09-22",
+  "version": "v20",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/lekton/v17/SZc73FDmLaWmWpBm4zjMlWjX4DJXgQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/lekton/v17/SZc43FDmLaWmWpBeXxfonUPL6Q.ttf",
-    "italic": "http://fonts.gstatic.com/s/lekton/v17/SZc63FDmLaWmWpBuXR3sv0bb6StO.ttf"
+    "700": "https://fonts.gstatic.com/s/lekton/v20/SZc73FDmLaWmWpBm4zjMlWjX4DJXgQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/lekton/v20/SZc43FDmLaWmWpBeXxfonUPL6Q.ttf",
+    "italic": "https://fonts.gstatic.com/s/lekton/v20/SZc63FDmLaWmWpBuXR3sv0bb6StO.ttf"
   },
-  "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "category": "monospace",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/lekton/v20/SZc43FDmLaWmWpBuXh3s.ttf"
 }

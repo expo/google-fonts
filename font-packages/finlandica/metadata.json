@@ -2,18 +2,19 @@
   "family": "Finlandica",
   "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2022-11-09",
+  "version": "v8",
+  "lastModified": "2024-09-04",
   "files": {
-    "500": "http://fonts.gstatic.com/s/finlandica/v5/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19AJrEjx9i5ss3a3.ttf",
-    "600": "http://fonts.gstatic.com/s/finlandica/v5/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19Dlq0jx9i5ss3a3.ttf",
-    "700": "http://fonts.gstatic.com/s/finlandica/v5/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19Dcq0jx9i5ss3a3.ttf",
-    "regular": "http://fonts.gstatic.com/s/finlandica/v5/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19A7rEjx9i5ss3a3.ttf",
-    "italic": "http://fonts.gstatic.com/s/finlandica/v5/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz76Cy_CpOtma3uNQ.ttf",
-    "500italic": "http://fonts.gstatic.com/s/finlandica/v5/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz75Ky_CpOtma3uNQ.ttf",
-    "600italic": "http://fonts.gstatic.com/s/finlandica/v5/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz7361_CpOtma3uNQ.ttf",
-    "700italic": "http://fonts.gstatic.com/s/finlandica/v5/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz70e1_CpOtma3uNQ.ttf"
+    "500": "https://fonts.gstatic.com/s/finlandica/v8/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19AJrEjx9i5ss3a3.ttf",
+    "600": "https://fonts.gstatic.com/s/finlandica/v8/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19Dlq0jx9i5ss3a3.ttf",
+    "700": "https://fonts.gstatic.com/s/finlandica/v8/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19Dcq0jx9i5ss3a3.ttf",
+    "regular": "https://fonts.gstatic.com/s/finlandica/v8/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19A7rEjx9i5ss3a3.ttf",
+    "italic": "https://fonts.gstatic.com/s/finlandica/v8/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz76Cy_CpOtma3uNQ.ttf",
+    "500italic": "https://fonts.gstatic.com/s/finlandica/v8/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz75Ky_CpOtma3uNQ.ttf",
+    "600italic": "https://fonts.gstatic.com/s/finlandica/v8/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz7361_CpOtma3uNQ.ttf",
+    "700italic": "https://fonts.gstatic.com/s/finlandica/v8/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz70e1_CpOtma3uNQ.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/finlandica/v8/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19A7rHjw_Co.ttf"
 }

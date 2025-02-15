@@ -1,0 +1,13 @@
+{
+  "family": "Playwrite PT Guides",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v2",
+  "lastModified": "2024-12-10",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/playwriteptguides/v2/sJoY3K5JjdGLJV3vyatrMkupgg-kWTx5F5k90TZO69o.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwriteptguides/v2/sJoY3K5JjdGLJV3vyatrMkupgg-kWTx5J5g31Q.ttf"
+}

@@ -2,15 +2,16 @@
   "family": "Shippori Mincho",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["japanese", "latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2022-09-27",
+  "version": "v15",
+  "lastModified": "2024-09-04",
   "files": {
-    "500": "http://fonts.gstatic.com/s/shipporimincho/v14/VdGDAZweH5EbgHY6YExcZfDoj0B4L9am5JEO5--2zg.ttf",
-    "600": "http://fonts.gstatic.com/s/shipporimincho/v14/VdGDAZweH5EbgHY6YExcZfDoj0B4A9Gm5JEO5--2zg.ttf",
-    "700": "http://fonts.gstatic.com/s/shipporimincho/v14/VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm5JEO5--2zg.ttf",
-    "800": "http://fonts.gstatic.com/s/shipporimincho/v14/VdGDAZweH5EbgHY6YExcZfDoj0B4e9Om5JEO5--2zg.ttf",
-    "regular": "http://fonts.gstatic.com/s/shipporimincho/v14/VdGGAZweH5EbgHY6YExcZfDoj0BA2_-C7LoS7g.ttf"
+    "500": "https://fonts.gstatic.com/s/shipporimincho/v15/VdGDAZweH5EbgHY6YExcZfDoj0B4L9am5JEO5--2zg.ttf",
+    "600": "https://fonts.gstatic.com/s/shipporimincho/v15/VdGDAZweH5EbgHY6YExcZfDoj0B4A9Gm5JEO5--2zg.ttf",
+    "700": "https://fonts.gstatic.com/s/shipporimincho/v15/VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm5JEO5--2zg.ttf",
+    "800": "https://fonts.gstatic.com/s/shipporimincho/v15/VdGDAZweH5EbgHY6YExcZfDoj0B4e9Om5JEO5--2zg.ttf",
+    "regular": "https://fonts.gstatic.com/s/shipporimincho/v15/VdGGAZweH5EbgHY6YExcZfDoj0BA2_-C7LoS7g.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/shipporimincho/v15/VdGGAZweH5EbgHY6YExcZfDoj0Bw2vWG.ttf"
 }

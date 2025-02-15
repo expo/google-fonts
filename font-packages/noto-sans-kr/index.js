@@ -6,8 +6,11 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const NotoSansKR_100Thin = require('./NotoSansKR_100Thin.ttf');
+export const NotoSansKR_200ExtraLight = require('./NotoSansKR_200ExtraLight.ttf');
 export const NotoSansKR_300Light = require('./NotoSansKR_300Light.ttf');
 export const NotoSansKR_400Regular = require('./NotoSansKR_400Regular.ttf');
 export const NotoSansKR_500Medium = require('./NotoSansKR_500Medium.ttf');
+export const NotoSansKR_600SemiBold = require('./NotoSansKR_600SemiBold.ttf');
 export const NotoSansKR_700Bold = require('./NotoSansKR_700Bold.ttf');
+export const NotoSansKR_800ExtraBold = require('./NotoSansKR_800ExtraBold.ttf');
 export const NotoSansKR_900Black = require('./NotoSansKR_900Black.ttf');

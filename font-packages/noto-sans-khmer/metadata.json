@@ -2,19 +2,20 @@
   "family": "Noto Sans Khmer",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["khmer", "latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2022-09-22",
+  "version": "v24",
+  "lastModified": "2023-10-25",
   "files": {
-    "100": "http://fonts.gstatic.com/s/notosanskhmer/v18/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYuNAZz4kAbrddiA.ttf",
-    "200": "http://fonts.gstatic.com/s/notosanskhmer/v18/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYsNAJz4kAbrddiA.ttf",
-    "300": "http://fonts.gstatic.com/s/notosanskhmer/v18/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYvTAJz4kAbrddiA.ttf",
-    "500": "http://fonts.gstatic.com/s/notosanskhmer/v18/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYu_AJz4kAbrddiA.ttf",
-    "600": "http://fonts.gstatic.com/s/notosanskhmer/v18/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYtTB5z4kAbrddiA.ttf",
-    "700": "http://fonts.gstatic.com/s/notosanskhmer/v18/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYtqB5z4kAbrddiA.ttf",
-    "800": "http://fonts.gstatic.com/s/notosanskhmer/v18/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYsNB5z4kAbrddiA.ttf",
-    "900": "http://fonts.gstatic.com/s/notosanskhmer/v18/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYskB5z4kAbrddiA.ttf",
-    "regular": "http://fonts.gstatic.com/s/notosanskhmer/v18/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYuNAJz4kAbrddiA.ttf"
+    "100": "https://fonts.gstatic.com/s/notosanskhmer/v24/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYuNAZz4kAbrddiA.ttf",
+    "200": "https://fonts.gstatic.com/s/notosanskhmer/v24/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYsNAJz4kAbrddiA.ttf",
+    "300": "https://fonts.gstatic.com/s/notosanskhmer/v24/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYvTAJz4kAbrddiA.ttf",
+    "500": "https://fonts.gstatic.com/s/notosanskhmer/v24/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYu_AJz4kAbrddiA.ttf",
+    "600": "https://fonts.gstatic.com/s/notosanskhmer/v24/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYtTB5z4kAbrddiA.ttf",
+    "700": "https://fonts.gstatic.com/s/notosanskhmer/v24/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYtqB5z4kAbrddiA.ttf",
+    "800": "https://fonts.gstatic.com/s/notosanskhmer/v24/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYsNB5z4kAbrddiA.ttf",
+    "900": "https://fonts.gstatic.com/s/notosanskhmer/v24/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYskB5z4kAbrddiA.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosanskhmer/v24/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYuNAJz4kAbrddiA.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanskhmer/v24/ijw3s5roRME5LLRxjsRb-gssOenAyendxrgV2c-Zw-9vbVUti_Z_dWgtWYuNAKz5mgI.ttf"
 }

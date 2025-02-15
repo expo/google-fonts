@@ -3,8 +3,9 @@
   "variants": ["regular"],
   "subsets": ["latin"],
   "version": "v15",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/lacquer/v15/EYqzma1QwqpG4_BBB7-AXhttQ5I.ttf" },
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/lacquer/v15/EYqzma1QwqpG4_BBB7-AXhttQ5I.ttf" },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/lacquer/v15/EYqzma1QwqpG4_BBN76KWg.ttf"
 }

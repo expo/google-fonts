@@ -2,13 +2,14 @@
   "family": "Kaisei Decol",
   "variants": ["regular", "500", "700"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2022-09-27",
+  "version": "v10",
+  "lastModified": "2024-12-04",
   "files": {
-    "500": "http://fonts.gstatic.com/s/kaiseidecol/v8/bMrvmSqP45sidWf3QmfFW6iKr3gr00i_qb57kA.ttf",
-    "700": "http://fonts.gstatic.com/s/kaiseidecol/v8/bMrvmSqP45sidWf3QmfFW6iK534r00i_qb57kA.ttf",
-    "regular": "http://fonts.gstatic.com/s/kaiseidecol/v8/bMrwmSqP45sidWf3QmfFW6iyW1EP22OjoA.ttf"
+    "500": "https://fonts.gstatic.com/s/kaiseidecol/v10/bMrvmSqP45sidWf3QmfFW6iKr3gr00i_qb57kA.ttf",
+    "700": "https://fonts.gstatic.com/s/kaiseidecol/v10/bMrvmSqP45sidWf3QmfFW6iK534r00i_qb57kA.ttf",
+    "regular": "https://fonts.gstatic.com/s/kaiseidecol/v10/bMrwmSqP45sidWf3QmfFW6iyW1EP22OjoA.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/kaiseidecol/v10/bMrwmSqP45sidWf3QmfFW6iCWlsL.ttf"
 }

@@ -11,13 +11,16 @@ This package lets you use the [**Noto Sans HK**](https://fonts.google.com/specim
 
 ![Noto Sans HK](./font-family.png)
 
-This font family contains [6 styles](#-gallery).
+This font family contains [9 styles](#-gallery).
 
 - `NotoSansHK_100Thin`
+- `NotoSansHK_200ExtraLight`
 - `NotoSansHK_300Light`
 - `NotoSansHK_400Regular`
 - `NotoSansHK_500Medium`
+- `NotoSansHK_600SemiBold`
 - `NotoSansHK_700Bold`
+- `NotoSansHK_800ExtraBold`
 - `NotoSansHK_900Black`
 
 ## Usage
@@ -36,20 +39,26 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   NotoSansHK_100Thin,
+  NotoSansHK_200ExtraLight,
   NotoSansHK_300Light,
   NotoSansHK_400Regular,
   NotoSansHK_500Medium,
+  NotoSansHK_600SemiBold,
   NotoSansHK_700Bold,
+  NotoSansHK_800ExtraBold,
   NotoSansHK_900Black,
 } from '@expo-google-fonts/noto-sans-hk';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     NotoSansHK_100Thin,
+    NotoSansHK_200ExtraLight,
     NotoSansHK_300Light,
     NotoSansHK_400Regular,
     NotoSansHK_500Medium,
+    NotoSansHK_600SemiBold,
     NotoSansHK_700Bold,
+    NotoSansHK_800ExtraBold,
     NotoSansHK_900Black,
   });
 
@@ -69,6 +78,16 @@ export default () => {
             fontFamily: 'NotoSansHK_100Thin',
           }}>
           Noto Sans HK Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansHK_200ExtraLight',
+          }}>
+          Noto Sans HK Extra Light
         </Text>
 
         <Text
@@ -106,9 +125,29 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansHK_600SemiBold',
+          }}>
+          Noto Sans HK Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'NotoSansHK_700Bold',
           }}>
           Noto Sans HK Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansHK_800ExtraBold',
+          }}>
+          Noto Sans HK Extra Bold
         </Text>
 
         <Text
@@ -132,8 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansHK_100Thin](./NotoSansHK_100Thin.ttf.png)|![NotoSansHK_300Light](./NotoSansHK_300Light.ttf.png)|![NotoSansHK_400Regular](./NotoSansHK_400Regular.ttf.png)||
-|![NotoSansHK_500Medium](./NotoSansHK_500Medium.ttf.png)|![NotoSansHK_700Bold](./NotoSansHK_700Bold.ttf.png)|![NotoSansHK_900Black](./NotoSansHK_900Black.ttf.png)||
+|![NotoSansHK_100Thin](./NotoSansHK_100Thin.ttf.png)|![NotoSansHK_200ExtraLight](./NotoSansHK_200ExtraLight.ttf.png)|![NotoSansHK_300Light](./NotoSansHK_300Light.ttf.png)||
+|![NotoSansHK_400Regular](./NotoSansHK_400Regular.ttf.png)|![NotoSansHK_500Medium](./NotoSansHK_500Medium.ttf.png)|![NotoSansHK_600SemiBold](./NotoSansHK_600SemiBold.ttf.png)||
+|![NotoSansHK_700Bold](./NotoSansHK_700Bold.ttf.png)|![NotoSansHK_800ExtraBold](./NotoSansHK_800ExtraBold.ttf.png)|![NotoSansHK_900Black](./NotoSansHK_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

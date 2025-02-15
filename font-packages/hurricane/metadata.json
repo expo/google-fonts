@@ -2,11 +2,12 @@
   "family": "Hurricane",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2022-09-22",
+  "version": "v7",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/hurricane/v5/pe0sMIuULZxTolZ5YldyAv2-C99ycg.ttf"
+    "regular": "https://fonts.gstatic.com/s/hurricane/v7/pe0sMIuULZxTolZ5YldyAv2-C99ycg.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/hurricane/v7/pe0sMIuULZxTolZ5YldCA_e6.ttf"
 }

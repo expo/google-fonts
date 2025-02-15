@@ -7,4 +7,6 @@ export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
 export const Monda_400Regular: number;
+export const Monda_500Medium: number;
+export const Monda_600SemiBold: number;
 export const Monda_700Bold: number;

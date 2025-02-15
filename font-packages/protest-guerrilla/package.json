@@ -1,0 +1,11 @@
+{
+  "name": "@expo-google-fonts/protest-guerrilla",
+  "version": "0.2.3",
+  "description": "Use the Protest Guerrilla font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": "https://github.com/expo/google-fonts.git",
+  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/protest-guerrilla#readme",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT",
+  "publishConfig": { "access": "public" }
+}

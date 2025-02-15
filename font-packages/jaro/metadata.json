@@ -1,0 +1,13 @@
+{
+  "family": "Jaro",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v6",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/jaro/v6/ea8DadQwV_r_Rv3-7zZMCGhQgVr1SlCsNP3VpQ_a.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/jaro/v6/ea8DadQwV_r_Rv3-7zZMCGhQgVr1SmCtPvk.ttf"
+}

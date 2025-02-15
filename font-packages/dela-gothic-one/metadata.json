@@ -2,11 +2,12 @@
   "family": "Dela Gothic One",
   "variants": ["regular"],
   "subsets": ["cyrillic", "greek", "japanese", "latin", "latin-ext", "vietnamese"],
-  "version": "v10",
-  "lastModified": "2022-09-27",
+  "version": "v17",
+  "lastModified": "2024-12-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/delagothicone/v10/~ChEKD0RlbGEgR290aGljIE9uZSAAKgQIARgB.ttf"
+    "regular": "https://fonts.gstatic.com/s/delagothicone/v17/hESp6XxvMDRA-2eD0lXpDa6QkBAGRUsJQAlbUA.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/delagothicone/v17/hESp6XxvMDRA-2eD0lXpDa6QkBA2REEN.ttf"
 }

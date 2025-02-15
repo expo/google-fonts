@@ -1,0 +1,13 @@
+{
+  "family": "Monomakh",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2025-02-12",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/monomakh/v1/Wnz4HAk3Yh_SC3FACTYdiArcPRKo.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/monomakh/v1/Wnz4HAk3Yh_SC3FACQYcgg4.ttf"
+}

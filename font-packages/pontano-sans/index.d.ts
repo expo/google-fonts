@@ -6,4 +6,8 @@
 export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
+export const PontanoSans_300Light: number;
 export const PontanoSans_400Regular: number;
+export const PontanoSans_500Medium: number;
+export const PontanoSans_600SemiBold: number;
+export const PontanoSans_700Bold: number;

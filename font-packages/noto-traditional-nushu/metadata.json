@@ -1,12 +1,17 @@
 {
   "family": "Noto Traditional Nushu",
-  "variants": ["regular"],
-  "subsets": ["nushu"],
-  "version": "v16",
-  "lastModified": "2022-05-10",
+  "variants": ["300", "regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext", "nushu"],
+  "version": "v22",
+  "lastModified": "2024-12-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/nototraditionalnushu/v16/SZco3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67J011GNh6SYA.ttf"
+    "300": "https://fonts.gstatic.com/s/nototraditionalnushu/v22/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXvy1tnPa7QoqirI.ttf",
+    "500": "https://fonts.gstatic.com/s/nototraditionalnushu/v22/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXue1tnPa7QoqirI.ttf",
+    "600": "https://fonts.gstatic.com/s/nototraditionalnushu/v22/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXty0dnPa7QoqirI.ttf",
+    "700": "https://fonts.gstatic.com/s/nototraditionalnushu/v22/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXtL0dnPa7QoqirI.ttf",
+    "regular": "https://fonts.gstatic.com/s/nototraditionalnushu/v22/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXus1tnPa7QoqirI.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/nototraditionalnushu/v22/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXus1unOYbA.ttf"
 }

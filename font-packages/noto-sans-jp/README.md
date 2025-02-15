@@ -11,13 +11,16 @@ This package lets you use the [**Noto Sans JP**](https://fonts.google.com/specim
 
 ![Noto Sans JP](./font-family.png)
 
-This font family contains [6 styles](#-gallery).
+This font family contains [9 styles](#-gallery).
 
 - `NotoSansJP_100Thin`
+- `NotoSansJP_200ExtraLight`
 - `NotoSansJP_300Light`
 - `NotoSansJP_400Regular`
 - `NotoSansJP_500Medium`
+- `NotoSansJP_600SemiBold`
 - `NotoSansJP_700Bold`
+- `NotoSansJP_800ExtraBold`
 - `NotoSansJP_900Black`
 
 ## Usage
@@ -36,20 +39,26 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   NotoSansJP_100Thin,
+  NotoSansJP_200ExtraLight,
   NotoSansJP_300Light,
   NotoSansJP_400Regular,
   NotoSansJP_500Medium,
+  NotoSansJP_600SemiBold,
   NotoSansJP_700Bold,
+  NotoSansJP_800ExtraBold,
   NotoSansJP_900Black,
 } from '@expo-google-fonts/noto-sans-jp';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     NotoSansJP_100Thin,
+    NotoSansJP_200ExtraLight,
     NotoSansJP_300Light,
     NotoSansJP_400Regular,
     NotoSansJP_500Medium,
+    NotoSansJP_600SemiBold,
     NotoSansJP_700Bold,
+    NotoSansJP_800ExtraBold,
     NotoSansJP_900Black,
   });
 
@@ -69,6 +78,16 @@ export default () => {
             fontFamily: 'NotoSansJP_100Thin',
           }}>
           Noto Sans JP Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansJP_200ExtraLight',
+          }}>
+          Noto Sans JP Extra Light
         </Text>
 
         <Text
@@ -106,9 +125,29 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansJP_600SemiBold',
+          }}>
+          Noto Sans JP Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'NotoSansJP_700Bold',
           }}>
           Noto Sans JP Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansJP_800ExtraBold',
+          }}>
+          Noto Sans JP Extra Bold
         </Text>
 
         <Text
@@ -132,8 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansJP_100Thin](./NotoSansJP_100Thin.ttf.png)|![NotoSansJP_300Light](./NotoSansJP_300Light.ttf.png)|![NotoSansJP_400Regular](./NotoSansJP_400Regular.ttf.png)||
-|![NotoSansJP_500Medium](./NotoSansJP_500Medium.ttf.png)|![NotoSansJP_700Bold](./NotoSansJP_700Bold.ttf.png)|![NotoSansJP_900Black](./NotoSansJP_900Black.ttf.png)||
+|![NotoSansJP_100Thin](./NotoSansJP_100Thin.ttf.png)|![NotoSansJP_200ExtraLight](./NotoSansJP_200ExtraLight.ttf.png)|![NotoSansJP_300Light](./NotoSansJP_300Light.ttf.png)||
+|![NotoSansJP_400Regular](./NotoSansJP_400Regular.ttf.png)|![NotoSansJP_500Medium](./NotoSansJP_500Medium.ttf.png)|![NotoSansJP_600SemiBold](./NotoSansJP_600SemiBold.ttf.png)||
+|![NotoSansJP_700Bold](./NotoSansJP_700Bold.ttf.png)|![NotoSansJP_800ExtraBold](./NotoSansJP_800ExtraBold.ttf.png)|![NotoSansJP_900Black](./NotoSansJP_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

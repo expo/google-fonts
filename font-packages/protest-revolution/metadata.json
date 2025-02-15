@@ -1,0 +1,13 @@
+{
+  "family": "Protest Revolution",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "math", "symbols", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/protestrevolution/v2/11hcGofZ0kXBbxQXFB7MJsjtqnVw6Z2s8PIzTG1nQw.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/protestrevolution/v2/11hcGofZ0kXBbxQXFB7MJsjtqnVw6Z2c8fg3.ttf"
+}

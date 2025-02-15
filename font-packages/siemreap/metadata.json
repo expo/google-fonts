@@ -2,11 +2,12 @@
   "family": "Siemreap",
   "variants": ["regular"],
   "subsets": ["khmer"],
-  "version": "v24",
-  "lastModified": "2022-09-22",
+  "version": "v29",
+  "lastModified": "2025-01-08",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/siemreap/v24/Gg82N5oFbgLvHAfNl2YbnA8DLXpe.ttf"
+    "regular": "https://fonts.gstatic.com/s/siemreap/v29/Gg82N5oFbgLvHAfNl2YbnA8DLXpe.ttf"
   },
-  "category": "display",
-  "kind": "webfonts#webfont"
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/siemreap/v29/Gg82N5oFbgLvHAfNl1Yalgs.ttf"
 }

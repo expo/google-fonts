@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Marchen",
   "variants": ["regular"],
-  "subsets": ["marchen"],
-  "version": "v17",
-  "lastModified": "2022-11-02",
+  "subsets": ["latin", "latin-ext", "marchen"],
+  "version": "v20",
+  "lastModified": "2024-07-30",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosansmarchen/v17/aFTO7OZ_Y282EP-WyG6QTOX_C8WZMHhPk652ZaHk.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansmarchen/v20/aFTO7OZ_Y282EP-WyG6QTOX_C8WZMHhPk652ZaHk.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansmarchen/v20/aFTO7OZ_Y282EP-WyG6QTOX_C8WZMEhOmao.ttf"
 }

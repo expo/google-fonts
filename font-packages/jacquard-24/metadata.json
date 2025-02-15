@@ -1,0 +1,13 @@
+{
+  "family": "Jacquard 24",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v3",
+  "lastModified": "2025-01-28",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/jacquard24/v3/jVyO7nf_B2zO5jVpUGU8lgQEdchf9xXp.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/jacquard24/v3/jVyO7nf_B2zO5jVpUGU8ljQFf8w.ttf"
+}

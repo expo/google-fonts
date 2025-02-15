@@ -2,15 +2,16 @@
   "family": "Nokora",
   "variants": ["100", "300", "regular", "700", "900"],
   "subsets": ["khmer", "latin"],
-  "version": "v30",
-  "lastModified": "2022-05-10",
+  "version": "v32",
+  "lastModified": "2024-12-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/nokora/v30/~CgoKBk5va29yYRhkIAAqBAgBGAE=.ttf",
-    "300": "http://fonts.gstatic.com/s/nokora/v30/~CgsKBk5va29yYRisAiAAKgQIARgB.ttf",
-    "700": "http://fonts.gstatic.com/s/nokora/v30/~CgsKBk5va29yYRi8BSAAKgQIARgB.ttf",
-    "900": "http://fonts.gstatic.com/s/nokora/v30/~CgsKBk5va29yYRiEByAAKgQIARgB.ttf",
-    "regular": "http://fonts.gstatic.com/s/nokora/v30/~CggKBk5va29yYSAAKgQIARgB.ttf"
+    "100": "https://fonts.gstatic.com/s/nokora/v32/hYkKPuwgTubzaWxoXzALgPNw8QZN.ttf",
+    "300": "https://fonts.gstatic.com/s/nokora/v32/hYkLPuwgTubzaWxolxIrqt18-B9Uuw.ttf",
+    "700": "https://fonts.gstatic.com/s/nokora/v32/hYkLPuwgTubzaWxohxUrqt18-B9Uuw.ttf",
+    "900": "https://fonts.gstatic.com/s/nokora/v32/hYkLPuwgTubzaWxovxcrqt18-B9Uuw.ttf",
+    "regular": "https://fonts.gstatic.com/s/nokora/v32/hYkIPuwgTubzaWxQOzoPovZg8Q.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/nokora/v32/hYkIPuwgTubzaWxgOjAL.ttf"
 }

@@ -11,9 +11,11 @@ This package lets you use the [**Harmattan**](https://fonts.google.com/specimen/
 
 ![Harmattan](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [4 styles](#-gallery).
 
 - `Harmattan_400Regular`
+- `Harmattan_500Medium`
+- `Harmattan_600SemiBold`
 - `Harmattan_700Bold`
 
 ## Usage
@@ -29,11 +31,19 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, Harmattan_400Regular, Harmattan_700Bold } from '@expo-google-fonts/harmattan';
+import {
+  useFonts,
+  Harmattan_400Regular,
+  Harmattan_500Medium,
+  Harmattan_600SemiBold,
+  Harmattan_700Bold,
+} from '@expo-google-fonts/harmattan';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Harmattan_400Regular,
+    Harmattan_500Medium,
+    Harmattan_600SemiBold,
     Harmattan_700Bold,
   });
 
@@ -60,6 +70,26 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Harmattan_500Medium',
+          }}>
+          Harmattan Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Harmattan_600SemiBold',
+          }}>
+          Harmattan Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Harmattan_700Bold',
           }}>
           Harmattan Bold
@@ -76,7 +106,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Harmattan_400Regular](./Harmattan_400Regular.ttf.png)|![Harmattan_700Bold](./Harmattan_700Bold.ttf.png)|||
+|![Harmattan_400Regular](./Harmattan_400Regular.ttf.png)|![Harmattan_500Medium](./Harmattan_500Medium.ttf.png)|![Harmattan_600SemiBold](./Harmattan_600SemiBold.ttf.png)||
+|![Harmattan_700Bold](./Harmattan_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

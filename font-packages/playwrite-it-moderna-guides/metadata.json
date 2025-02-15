@@ -1,0 +1,13 @@
+{
+  "family": "Playwrite IT Moderna Guides",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v1",
+  "lastModified": "2024-12-10",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/playwriteitmodernaguides/v1/2sDKZHBJg5rCj6fz_QgDJhGcTtJ5AVu-1w5jRQjRv9qPpOVtBhB5gQ.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwriteitmodernaguides/v1/2sDKZHBJg5rCj6fz_QgDJhGcTtJ5AVu-1w5jRQjRv9q_pe9p.ttf"
+}

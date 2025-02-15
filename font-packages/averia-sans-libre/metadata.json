@@ -2,16 +2,17 @@
   "family": "Averia Sans Libre",
   "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
   "subsets": ["latin"],
-  "version": "v17",
-  "lastModified": "2022-09-22",
+  "version": "v19",
+  "lastModified": "2024-09-04",
   "files": {
-    "300": "http://fonts.gstatic.com/s/averiasanslibre/v17/ga6SaxZG_G5OvCf_rt7FH3B6BHLMEd3lMKcQJZP1LmD9.ttf",
-    "700": "http://fonts.gstatic.com/s/averiasanslibre/v17/ga6SaxZG_G5OvCf_rt7FH3B6BHLMEd31N6cQJZP1LmD9.ttf",
-    "300italic": "http://fonts.gstatic.com/s/averiasanslibre/v17/ga6caxZG_G5OvCf_rt7FH3B6BHLMEdVLKisSL5fXK3D9qtg.ttf",
-    "regular": "http://fonts.gstatic.com/s/averiasanslibre/v17/ga6XaxZG_G5OvCf_rt7FH3B6BHLMEeVJGIMYDo_8.ttf",
-    "italic": "http://fonts.gstatic.com/s/averiasanslibre/v17/ga6RaxZG_G5OvCf_rt7FH3B6BHLMEdVLEoc6C5_8N3k.ttf",
-    "700italic": "http://fonts.gstatic.com/s/averiasanslibre/v17/ga6caxZG_G5OvCf_rt7FH3B6BHLMEdVLKjsVL5fXK3D9qtg.ttf"
+    "300": "https://fonts.gstatic.com/s/averiasanslibre/v19/ga6SaxZG_G5OvCf_rt7FH3B6BHLMEd3lMKcQJZP1LmD9.ttf",
+    "700": "https://fonts.gstatic.com/s/averiasanslibre/v19/ga6SaxZG_G5OvCf_rt7FH3B6BHLMEd31N6cQJZP1LmD9.ttf",
+    "300italic": "https://fonts.gstatic.com/s/averiasanslibre/v19/ga6caxZG_G5OvCf_rt7FH3B6BHLMEdVLKisSL5fXK3D9qtg.ttf",
+    "regular": "https://fonts.gstatic.com/s/averiasanslibre/v19/ga6XaxZG_G5OvCf_rt7FH3B6BHLMEeVJGIMYDo_8.ttf",
+    "italic": "https://fonts.gstatic.com/s/averiasanslibre/v19/ga6RaxZG_G5OvCf_rt7FH3B6BHLMEdVLEoc6C5_8N3k.ttf",
+    "700italic": "https://fonts.gstatic.com/s/averiasanslibre/v19/ga6caxZG_G5OvCf_rt7FH3B6BHLMEdVLKjsVL5fXK3D9qtg.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/averiasanslibre/v19/ga6XaxZG_G5OvCf_rt7FH3B6BHLMEdVIEoc.ttf"
 }

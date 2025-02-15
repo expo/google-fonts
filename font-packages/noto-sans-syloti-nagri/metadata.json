@@ -2,11 +2,12 @@
   "family": "Noto Sans Syloti Nagri",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "syloti-nagri"],
-  "version": "v20",
-  "lastModified": "2022-11-09",
+  "version": "v23",
+  "lastModified": "2024-08-12",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosanssylotinagri/v20/uU9eCAQZ75uhfF9UoWDRiY3q7Sf_VFV3m4dGFVfxN87gsj0.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanssylotinagri/v23/uU9eCAQZ75uhfF9UoWDRiY3q7Sf_VFV3m4dGFVfxN87gsj0.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanssylotinagri/v23/uU9eCAQZ75uhfF9UoWDRiY3q7Sf_VFV3m4dGJVb7Mw.ttf"
 }

@@ -3,8 +3,9 @@
   "variants": ["regular"],
   "subsets": ["latin"],
   "version": "v13",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/montaga/v13/H4cnBX2Ml8rCkEO_0gYQ7LO5mqc.ttf" },
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/montaga/v13/H4cnBX2Ml8rCkEO_0gYQ7LO5mqc.ttf" },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/montaga/v13/H4cnBX2Ml8rCkEO_4gca6A.ttf"
 }

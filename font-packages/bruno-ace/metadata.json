@@ -1,0 +1,13 @@
+{
+  "family": "Bruno Ace",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/brunoace/v5/WwkcxPa2E06x4trkOj_kMKoMWNMg3Q.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/brunoace/v5/WwkcxPa2E06x4trkOj_UMaAI.ttf"
+}

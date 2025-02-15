@@ -1,0 +1,13 @@
+{
+  "family": "Protest Riot",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "math", "symbols", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/protestriot/v2/d6lPkaOxWMKm7TdezXFmpkrM1_JgjmRpOA.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/protestriot/v2/d6lPkaOxWMKm7TdezXFmpkr81vhk.ttf"
+}

@@ -2,11 +2,12 @@
   "family": "Kavivanar",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "tamil"],
-  "version": "v18",
-  "lastModified": "2022-09-22",
+  "version": "v20",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/kavivanar/v18/o-0IIpQgyXYSwhxP7_Jb4j5Ba_2c7A.ttf"
+    "regular": "https://fonts.gstatic.com/s/kavivanar/v20/o-0IIpQgyXYSwhxP7_Jb4j5Ba_2c7A.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/kavivanar/v20/o-0IIpQgyXYSwhxP7_Jr4zRF.ttf"
 }

@@ -1,0 +1,13 @@
+{
+  "family": "Playwrite US Trad Guides",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v1",
+  "lastModified": "2024-12-10",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/playwriteustradguides/v1/-zk29027wssz_XLkGgu8kTL39c2bMssjmiZPNnk5nJCZAyrUdw.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwriteustradguides/v1/-zk29027wssz_XLkGgu8kTL39c2bMssjmiZPNnkJnZqd.ttf"
+}

@@ -2,19 +2,20 @@
   "family": "Noto Serif Lao",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["lao", "latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2022-09-22",
+  "version": "v24",
+  "lastModified": "2023-09-27",
   "files": {
-    "100": "http://fonts.gstatic.com/s/notoseriflao/v18/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VeMLrvOjlmyhHHQ.ttf",
-    "200": "http://fonts.gstatic.com/s/notoseriflao/v18/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VWMKrvOjlmyhHHQ.ttf",
-    "300": "http://fonts.gstatic.com/s/notoseriflao/v18/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8Vb0KrvOjlmyhHHQ.ttf",
-    "500": "http://fonts.gstatic.com/s/notoseriflao/v18/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VdEKrvOjlmyhHHQ.ttf",
-    "600": "http://fonts.gstatic.com/s/notoseriflao/v18/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VT0NrvOjlmyhHHQ.ttf",
-    "700": "http://fonts.gstatic.com/s/notoseriflao/v18/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VQQNrvOjlmyhHHQ.ttf",
-    "800": "http://fonts.gstatic.com/s/notoseriflao/v18/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VWMNrvOjlmyhHHQ.ttf",
-    "900": "http://fonts.gstatic.com/s/notoseriflao/v18/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VUoNrvOjlmyhHHQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/notoseriflao/v18/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VeMKrvOjlmyhHHQ.ttf"
+    "100": "https://fonts.gstatic.com/s/notoseriflao/v24/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VeMLrvOjlmyhHHQ.ttf",
+    "200": "https://fonts.gstatic.com/s/notoseriflao/v24/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VWMKrvOjlmyhHHQ.ttf",
+    "300": "https://fonts.gstatic.com/s/notoseriflao/v24/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8Vb0KrvOjlmyhHHQ.ttf",
+    "500": "https://fonts.gstatic.com/s/notoseriflao/v24/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VdEKrvOjlmyhHHQ.ttf",
+    "600": "https://fonts.gstatic.com/s/notoseriflao/v24/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VT0NrvOjlmyhHHQ.ttf",
+    "700": "https://fonts.gstatic.com/s/notoseriflao/v24/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VQQNrvOjlmyhHHQ.ttf",
+    "800": "https://fonts.gstatic.com/s/notoseriflao/v24/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VWMNrvOjlmyhHHQ.ttf",
+    "900": "https://fonts.gstatic.com/s/notoseriflao/v24/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VUoNrvOjlmyhHHQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/notoseriflao/v24/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VeMKrvOjlmyhHHQ.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notoseriflao/v24/3y9C6bYwcCjmsU8JEzCMxEwQfEBLk3f0rlSqCdaM_LlSNZ59oNw0BWH8VeMKnvKpkg.ttf"
 }

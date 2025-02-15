@@ -1,0 +1,20 @@
+{
+  "family": "Playwrite GB J",
+  "variants": ["100", "200", "300", "regular", "100italic", "200italic", "300italic", "italic"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2025-02-12",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playwritegbj/v10/k3kEo8wSPe9dzQ1UGbvobAPhY5iG-fsubxedDheGdc5HaN7X9HFR8Q.ttf",
+    "200": "https://fonts.gstatic.com/s/playwritegbj/v10/k3kEo8wSPe9dzQ1UGbvobAPhY5iG-fsubxedDheG9c9HaN7X9HFR8Q.ttf",
+    "300": "https://fonts.gstatic.com/s/playwritegbj/v10/k3kEo8wSPe9dzQ1UGbvobAPhY5iG-fsubxedDheGK89HaN7X9HFR8Q.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwritegbj/v10/k3kEo8wSPe9dzQ1UGbvobAPhY5iG-fsubxedDheGdc9HaN7X9HFR8Q.ttf",
+    "100italic": "https://fonts.gstatic.com/s/playwritegbj/v10/k3kGo8wSPe9dzQ1UGbvobAPhY7KPywT2BnwHoBCTvYyvKtTT1nRB8S9t.ttf",
+    "200italic": "https://fonts.gstatic.com/s/playwritegbj/v10/k3kGo8wSPe9dzQ1UGbvobAPhY7KPywT2BnwHoBCTvYwvK9TT1nRB8S9t.ttf",
+    "300italic": "https://fonts.gstatic.com/s/playwritegbj/v10/k3kGo8wSPe9dzQ1UGbvobAPhY7KPywT2BnwHoBCTvYzxK9TT1nRB8S9t.ttf",
+    "italic": "https://fonts.gstatic.com/s/playwritegbj/v10/k3kGo8wSPe9dzQ1UGbvobAPhY7KPywT2BnwHoBCTvYyvK9TT1nRB8S9t.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwritegbj/v10/k3kEo8wSPe9dzQ1UGbvobAPhY5iG-fsubxedDheGdc93adTT.ttf"
+}

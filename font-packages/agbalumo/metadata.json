@@ -1,0 +1,13 @@
+{
+  "family": "Agbalumo",
+  "variants": ["regular"],
+  "subsets": ["cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v5",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/agbalumo/v5/55xvey5uMdT2N37KZcMFirl08KDJ.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/agbalumo/v5/55xvey5uMdT2N37KZfMEgL0.ttf"
+}

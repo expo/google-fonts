@@ -1,0 +1,20 @@
+{
+  "family": "Reddit Sans Condensed",
+  "variants": ["200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2024-09-04",
+  "files": {
+    "200": "https://fonts.gstatic.com/s/redditsanscondensed/v3/m8J_jepOc6WYkkm2Dey9A5QGAQXmuL3va5IfZsq2gyKtWVJro9kKUpU4u7XDIuc.ttf",
+    "300": "https://fonts.gstatic.com/s/redditsanscondensed/v3/m8J_jepOc6WYkkm2Dey9A5QGAQXmuL3va5IfZsq2gyKtWVJrowcKUpU4u7XDIuc.ttf",
+    "500": "https://fonts.gstatic.com/s/redditsanscondensed/v3/m8J_jepOc6WYkkm2Dey9A5QGAQXmuL3va5IfZsq2gyKtWVJro2sKUpU4u7XDIuc.ttf",
+    "600": "https://fonts.gstatic.com/s/redditsanscondensed/v3/m8J_jepOc6WYkkm2Dey9A5QGAQXmuL3va5IfZsq2gyKtWVJro4cNUpU4u7XDIuc.ttf",
+    "700": "https://fonts.gstatic.com/s/redditsanscondensed/v3/m8J_jepOc6WYkkm2Dey9A5QGAQXmuL3va5IfZsq2gyKtWVJro74NUpU4u7XDIuc.ttf",
+    "800": "https://fonts.gstatic.com/s/redditsanscondensed/v3/m8J_jepOc6WYkkm2Dey9A5QGAQXmuL3va5IfZsq2gyKtWVJro9kNUpU4u7XDIuc.ttf",
+    "900": "https://fonts.gstatic.com/s/redditsanscondensed/v3/m8J_jepOc6WYkkm2Dey9A5QGAQXmuL3va5IfZsq2gyKtWVJro_ANUpU4u7XDIuc.ttf",
+    "regular": "https://fonts.gstatic.com/s/redditsanscondensed/v3/m8J_jepOc6WYkkm2Dey9A5QGAQXmuL3va5IfZsq2gyKtWVJro1kKUpU4u7XDIuc.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/redditsanscondensed/v3/m8J_jepOc6WYkkm2Dey9A5QGAQXmuL3va5IfZsq2gyKtWVJro1kKYpQyvw.ttf"
+}

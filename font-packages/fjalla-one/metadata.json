@@ -1,12 +1,13 @@
 {
   "family": "Fjalla One",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2022-09-22",
+  "subsets": ["cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v15",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/fjallaone/v13/Yq6R-LCAWCX3-6Ky7FAFnOZwkxgtUb8.ttf"
+    "regular": "https://fonts.gstatic.com/s/fjallaone/v15/Yq6R-LCAWCX3-6Ky7FAFnOZwkxgtUb8.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/fjallaone/v15/Yq6R-LCAWCX3-6Ky7FAFrOd6lw.ttf"
 }

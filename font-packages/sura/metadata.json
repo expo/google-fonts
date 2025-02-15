@@ -2,12 +2,13 @@
   "family": "Sura",
   "variants": ["regular", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2022-09-22",
+  "version": "v19",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/sura/v15/SZc53FL5PbyzLUJ7fz3GkUrS8DI.ttf",
-    "regular": "http://fonts.gstatic.com/s/sura/v15/SZc23FL5PbyzFf5UWzXtjUM.ttf"
+    "700": "https://fonts.gstatic.com/s/sura/v19/SZc53FL5PbyzLUJ7fz3GkUrS8DI.ttf",
+    "regular": "https://fonts.gstatic.com/s/sura/v19/SZc23FL5PbyzFf5UWzXtjUM.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/sura/v19/SZc23FL5PbyzJf9eXw.ttf"
 }

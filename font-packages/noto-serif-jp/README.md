@@ -11,7 +11,7 @@ This package lets you use the [**Noto Serif JP**](https://fonts.google.com/speci
 
 ![Noto Serif JP](./font-family.png)
 
-This font family contains [7 styles](#-gallery).
+This font family contains [8 styles](#-gallery).
 
 - `NotoSerifJP_200ExtraLight`
 - `NotoSerifJP_300Light`
@@ -19,6 +19,7 @@ This font family contains [7 styles](#-gallery).
 - `NotoSerifJP_500Medium`
 - `NotoSerifJP_600SemiBold`
 - `NotoSerifJP_700Bold`
+- `NotoSerifJP_800ExtraBold`
 - `NotoSerifJP_900Black`
 
 ## Usage
@@ -42,6 +43,7 @@ import {
   NotoSerifJP_500Medium,
   NotoSerifJP_600SemiBold,
   NotoSerifJP_700Bold,
+  NotoSerifJP_800ExtraBold,
   NotoSerifJP_900Black,
 } from '@expo-google-fonts/noto-serif-jp';
 
@@ -53,6 +55,7 @@ export default () => {
     NotoSerifJP_500Medium,
     NotoSerifJP_600SemiBold,
     NotoSerifJP_700Bold,
+    NotoSerifJP_800ExtraBold,
     NotoSerifJP_900Black,
   });
 
@@ -129,6 +132,16 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerifJP_800ExtraBold',
+          }}>
+          Noto Serif JP Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'NotoSerifJP_900Black',
           }}>
           Noto Serif JP Black
@@ -147,7 +160,7 @@ export default () => {
 |-|-|-|
 |![NotoSerifJP_200ExtraLight](./NotoSerifJP_200ExtraLight.ttf.png)|![NotoSerifJP_300Light](./NotoSerifJP_300Light.ttf.png)|![NotoSerifJP_400Regular](./NotoSerifJP_400Regular.ttf.png)||
 |![NotoSerifJP_500Medium](./NotoSerifJP_500Medium.ttf.png)|![NotoSerifJP_600SemiBold](./NotoSerifJP_600SemiBold.ttf.png)|![NotoSerifJP_700Bold](./NotoSerifJP_700Bold.ttf.png)||
-|![NotoSerifJP_900Black](./NotoSerifJP_900Black.ttf.png)||||
+|![NotoSerifJP_800ExtraBold](./NotoSerifJP_800ExtraBold.ttf.png)|![NotoSerifJP_900Black](./NotoSerifJP_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -1,13 +1,14 @@
 {
   "family": "Sahitya",
   "variants": ["regular", "700"],
-  "subsets": ["devanagari", "latin"],
-  "version": "v17",
-  "lastModified": "2022-09-22",
+  "subsets": ["devanagari", "latin", "latin-ext"],
+  "version": "v18",
+  "lastModified": "2024-11-20",
   "files": {
-    "700": "http://fonts.gstatic.com/s/sahitya/v17/6qLFKZkOuhnuqlJAUZsqGyQvEnvSexI.ttf",
-    "regular": "http://fonts.gstatic.com/s/sahitya/v17/6qLAKZkOuhnuqlJAaScFPywEDnI.ttf"
+    "700": "https://fonts.gstatic.com/s/sahitya/v18/6qLFKZkOuhnuqlJAUZsqGyQvEnvSexI.ttf",
+    "regular": "https://fonts.gstatic.com/s/sahitya/v18/6qLAKZkOuhnuqlJAaScFPywEDnI.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/sahitya/v18/6qLAKZkOuhnuqlJAWSYPOw.ttf"
 }

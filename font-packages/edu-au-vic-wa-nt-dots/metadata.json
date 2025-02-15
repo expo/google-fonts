@@ -1,0 +1,16 @@
+{
+  "family": "Edu AU VIC WA NT Dots",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2024-09-23",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/eduauvicwantdots/v1/S6uQw5FFVDKI3kwwDUbsPHCpzZNhzrA3or3_B4dZ6MmTX8QNLslYEtmT2SB3_5U.ttf",
+    "600": "https://fonts.gstatic.com/s/eduauvicwantdots/v1/S6uQw5FFVDKI3kwwDUbsPHCpzZNhzrA3or3_B4dZ6MmTX8QNLiVfEtmT2SB3_5U.ttf",
+    "700": "https://fonts.gstatic.com/s/eduauvicwantdots/v1/S6uQw5FFVDKI3kwwDUbsPHCpzZNhzrA3or3_B4dZ6MmTX8QNLhxfEtmT2SB3_5U.ttf",
+    "regular": "https://fonts.gstatic.com/s/eduauvicwantdots/v1/S6uQw5FFVDKI3kwwDUbsPHCpzZNhzrA3or3_B4dZ6MmTX8QNLvtYEtmT2SB3_5U.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/eduauvicwantdots/v1/S6uQw5FFVDKI3kwwDUbsPHCpzZNhzrA3or3_B4dZ6MmTX8QNLvtYItiZ3Q.ttf"
+}

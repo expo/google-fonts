@@ -1,10 +1,11 @@
 {
   "family": "Gidugu",
   "variants": ["regular"],
-  "subsets": ["latin", "telugu"],
-  "version": "v21",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/gidugu/v21/L0x8DFMkk1Uf6w3RvPCmRSlUig.ttf" },
+  "subsets": ["latin", "latin-ext", "telugu"],
+  "version": "v26",
+  "lastModified": "2024-11-20",
+  "files": { "regular": "https://fonts.gstatic.com/s/gidugu/v26/L0x8DFMkk1Uf6w3RvPCmRSlUig.ttf" },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/gidugu/v26/L0x8DFMkk1Uf6w3hvfqi.ttf"
 }

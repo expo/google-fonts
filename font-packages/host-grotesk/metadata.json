@@ -1,0 +1,37 @@
+{
+  "family": "Host Grotesk",
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic",
+    "800italic"
+  ],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2024-12-04",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/hostgrotesk/v4/co3UmWBnlCJ3U42vbbfdwMjzqHAXOdFzqU5PubnOzhap-j94InI.ttf",
+    "500": "https://fonts.gstatic.com/s/hostgrotesk/v4/co3UmWBnlCJ3U42vbbfdwMjzqHAXOdFzqU5PudXOzhap-j94InI.ttf",
+    "600": "https://fonts.gstatic.com/s/hostgrotesk/v4/co3UmWBnlCJ3U42vbbfdwMjzqHAXOdFzqU5PuTnJzhap-j94InI.ttf",
+    "700": "https://fonts.gstatic.com/s/hostgrotesk/v4/co3UmWBnlCJ3U42vbbfdwMjzqHAXOdFzqU5PuQDJzhap-j94InI.ttf",
+    "800": "https://fonts.gstatic.com/s/hostgrotesk/v4/co3UmWBnlCJ3U42vbbfdwMjzqHAXOdFzqU5PuWfJzhap-j94InI.ttf",
+    "regular": "https://fonts.gstatic.com/s/hostgrotesk/v4/co3UmWBnlCJ3U42vbbfdwMjzqHAXOdFzqU5PuefOzhap-j94InI.ttf",
+    "300italic": "https://fonts.gstatic.com/s/hostgrotesk/v4/co3SmWBnlCJ3U42vbbfdwMjZoULo4bgYM-BIrC-NeFWj_h19MnL2jg.ttf",
+    "italic": "https://fonts.gstatic.com/s/hostgrotesk/v4/co3SmWBnlCJ3U42vbbfdwMjZoULo4bgYM-BIrC-NJlWj_h19MnL2jg.ttf",
+    "500italic": "https://fonts.gstatic.com/s/hostgrotesk/v4/co3SmWBnlCJ3U42vbbfdwMjZoULo4bgYM-BIrC-NFFWj_h19MnL2jg.ttf",
+    "600italic": "https://fonts.gstatic.com/s/hostgrotesk/v4/co3SmWBnlCJ3U42vbbfdwMjZoULo4bgYM-BIrC-N-FKj_h19MnL2jg.ttf",
+    "700italic": "https://fonts.gstatic.com/s/hostgrotesk/v4/co3SmWBnlCJ3U42vbbfdwMjZoULo4bgYM-BIrC-NwVKj_h19MnL2jg.ttf",
+    "800italic": "https://fonts.gstatic.com/s/hostgrotesk/v4/co3SmWBnlCJ3U42vbbfdwMjZoULo4bgYM-BIrC-NplKj_h19MnL2jg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/hostgrotesk/v4/co3UmWBnlCJ3U42vbbfdwMjzqHAXOdFzqU5PuefO_hej_g.ttf"
+}

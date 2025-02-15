@@ -11,9 +11,11 @@ This package lets you use the [**Miriam Libre**](https://fonts.google.com/specim
 
 ![Miriam Libre](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [4 styles](#-gallery).
 
 - `MiriamLibre_400Regular`
+- `MiriamLibre_500Medium`
+- `MiriamLibre_600SemiBold`
 - `MiriamLibre_700Bold`
 
 ## Usage
@@ -32,12 +34,16 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   MiriamLibre_400Regular,
+  MiriamLibre_500Medium,
+  MiriamLibre_600SemiBold,
   MiriamLibre_700Bold,
 } from '@expo-google-fonts/miriam-libre';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     MiriamLibre_400Regular,
+    MiriamLibre_500Medium,
+    MiriamLibre_600SemiBold,
     MiriamLibre_700Bold,
   });
 
@@ -64,6 +70,26 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MiriamLibre_500Medium',
+          }}>
+          Miriam Libre Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'MiriamLibre_600SemiBold',
+          }}>
+          Miriam Libre Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'MiriamLibre_700Bold',
           }}>
           Miriam Libre Bold
@@ -80,7 +106,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MiriamLibre_400Regular](./MiriamLibre_400Regular.ttf.png)|![MiriamLibre_700Bold](./MiriamLibre_700Bold.ttf.png)|||
+|![MiriamLibre_400Regular](./MiriamLibre_400Regular.ttf.png)|![MiriamLibre_500Medium](./MiriamLibre_500Medium.ttf.png)|![MiriamLibre_600SemiBold](./MiriamLibre_600SemiBold.ttf.png)||
+|![MiriamLibre_700Bold](./MiriamLibre_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

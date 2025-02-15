@@ -1,0 +1,16 @@
+{
+  "family": "Carlito",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2024-09-04",
+  "files": {
+    "700": "https://fonts.gstatic.com/s/carlito/v3/3Jn4SDPw3m-pk039BIykaX0vUuhCyOo.ttf",
+    "regular": "https://fonts.gstatic.com/s/carlito/v3/3Jn9SDPw3m-pk039PDCLTXUETuE.ttf",
+    "italic": "https://fonts.gstatic.com/s/carlito/v3/3Jn_SDPw3m-pk039DDKBSVcBXuFb0Q.ttf",
+    "700italic": "https://fonts.gstatic.com/s/carlito/v3/3Jn6SDPw3m-pk039DDK59XglVspH2OprMQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/carlito/v3/3Jn9SDPw3m-pk039DDGBSQ.ttf"
+}

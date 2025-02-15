@@ -1,0 +1,16 @@
+{
+  "family": "Playwrite NG Modern",
+  "variants": ["100", "200", "300", "regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2025-02-12",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playwritengmodern/v10/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V17tPQbi5GswWJNE.ttf",
+    "200": "https://fonts.gstatic.com/s/playwritengmodern/v10/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V15tPAbi5GswWJNE.ttf",
+    "300": "https://fonts.gstatic.com/s/playwritengmodern/v10/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V16zPAbi5GswWJNE.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwritengmodern/v10/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V17tPAbi5GswWJNE.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwritengmodern/v10/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V17tPDbj7m8.ttf"
+}

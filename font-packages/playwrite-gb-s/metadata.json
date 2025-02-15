@@ -1,0 +1,20 @@
+{
+  "family": "Playwrite GB S",
+  "variants": ["100", "200", "300", "regular", "100italic", "200italic", "300italic", "italic"],
+  "subsets": ["latin"],
+  "version": "v11",
+  "lastModified": "2025-02-12",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playwritegbs/v11/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6uhH8x5eMaTk8AQ.ttf",
+    "200": "https://fonts.gstatic.com/s/playwritegbs/v11/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6OhD8x5eMaTk8AQ.ttf",
+    "300": "https://fonts.gstatic.com/s/playwritegbs/v11/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU65BD8x5eMaTk8AQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwritegbs/v11/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6uhD8x5eMaTk8AQ.ttf",
+    "100italic": "https://fonts.gstatic.com/s/playwritegbs/v11/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclMUhZ2ISzwsAReZ.ttf",
+    "200italic": "https://fonts.gstatic.com/s/playwritegbs/v11/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclOUhJ2ISzwsAReZ.ttf",
+    "300italic": "https://fonts.gstatic.com/s/playwritegbs/v11/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclNKhJ2ISzwsAReZ.ttf",
+    "italic": "https://fonts.gstatic.com/s/playwritegbs/v11/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclMUhJ2ISzwsAReZ.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwritegbs/v11/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6uhDMxp2I.ttf"
+}

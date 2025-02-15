@@ -6,10 +6,10 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const Gelasio_400Regular = require('./Gelasio_400Regular.ttf');
-export const Gelasio_400Regular_Italic = require('./Gelasio_400Regular_Italic.ttf');
 export const Gelasio_500Medium = require('./Gelasio_500Medium.ttf');
-export const Gelasio_500Medium_Italic = require('./Gelasio_500Medium_Italic.ttf');
 export const Gelasio_600SemiBold = require('./Gelasio_600SemiBold.ttf');
-export const Gelasio_600SemiBold_Italic = require('./Gelasio_600SemiBold_Italic.ttf');
 export const Gelasio_700Bold = require('./Gelasio_700Bold.ttf');
+export const Gelasio_400Regular_Italic = require('./Gelasio_400Regular_Italic.ttf');
+export const Gelasio_500Medium_Italic = require('./Gelasio_500Medium_Italic.ttf');
+export const Gelasio_600SemiBold_Italic = require('./Gelasio_600SemiBold_Italic.ttf');
 export const Gelasio_700Bold_Italic = require('./Gelasio_700Bold_Italic.ttf');

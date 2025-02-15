@@ -1,12 +1,13 @@
 {
   "family": "Alike Angular",
   "variants": ["regular"],
-  "subsets": ["latin"],
-  "version": "v20",
-  "lastModified": "2022-04-20",
+  "subsets": ["latin", "latin-ext", "math", "symbols"],
+  "version": "v25",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/alikeangular/v20/3qTrojWunjGQtEBlIcwMbSoI3kM6bB7FKjE.ttf"
+    "regular": "https://fonts.gstatic.com/s/alikeangular/v25/3qTrojWunjGQtEBlIcwMbSoI3kM6bB7FKjE.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/alikeangular/v25/3qTrojWunjGQtEBlIcwMbSoI7kIwaA.ttf"
 }

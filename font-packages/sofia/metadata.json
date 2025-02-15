@@ -3,8 +3,9 @@
   "variants": ["regular"],
   "subsets": ["latin"],
   "version": "v14",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/sofia/v14/8QIHdirahM3j_vu-sowsrqjk.ttf" },
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/sofia/v14/8QIHdirahM3j_vu-sowsrqjk.ttf" },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/sofia/v14/8QIHdirahM3j_su_uIg.ttf"
 }

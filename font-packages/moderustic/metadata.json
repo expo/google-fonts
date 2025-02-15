@@ -1,0 +1,18 @@
+{
+  "family": "Moderustic",
+  "variants": ["300", "regular", "500", "600", "700", "800"],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/moderustic/v1/2-c39J9s3o6eLFNHFdXYaOX1UUnf3GLnYjBVsTNe55aRa7UE.ttf",
+    "500": "https://fonts.gstatic.com/s/moderustic/v1/2-c39J9s3o6eLFNHFdXYaOX1UUnf3GLnYjA5sTNe55aRa7UE.ttf",
+    "600": "https://fonts.gstatic.com/s/moderustic/v1/2-c39J9s3o6eLFNHFdXYaOX1UUnf3GLnYjDVtjNe55aRa7UE.ttf",
+    "700": "https://fonts.gstatic.com/s/moderustic/v1/2-c39J9s3o6eLFNHFdXYaOX1UUnf3GLnYjDstjNe55aRa7UE.ttf",
+    "800": "https://fonts.gstatic.com/s/moderustic/v1/2-c39J9s3o6eLFNHFdXYaOX1UUnf3GLnYjCLtjNe55aRa7UE.ttf",
+    "regular": "https://fonts.gstatic.com/s/moderustic/v1/2-c39J9s3o6eLFNHFdXYaOX1UUnf3GLnYjALsTNe55aRa7UE.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/moderustic/v1/2-c39J9s3o6eLFNHFdXYaOX1UUnf3GLnYjALsQNf7ZI.ttf"
+}

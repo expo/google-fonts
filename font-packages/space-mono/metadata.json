@@ -2,14 +2,15 @@
   "family": "Space Mono",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v12",
-  "lastModified": "2023-01-06",
+  "version": "v15",
+  "lastModified": "2025-02-12",
   "files": {
-    "700": "http://fonts.gstatic.com/s/spacemono/v12/i7dMIFZifjKcF5UAWdDRaPpZYFKQHwyVd3U.ttf",
-    "regular": "http://fonts.gstatic.com/s/spacemono/v12/i7dPIFZifjKcF5UAWdDRUEZ2RFq7AwU.ttf",
-    "italic": "http://fonts.gstatic.com/s/spacemono/v12/i7dNIFZifjKcF5UAWdDRYER8QHi-EwWMbg.ttf",
-    "700italic": "http://fonts.gstatic.com/s/spacemono/v12/i7dSIFZifjKcF5UAWdDRYERE_FeaGy6QZ3WfYg.ttf"
+    "700": "https://fonts.gstatic.com/s/spacemono/v15/i7dMIFZifjKcF5UAWdDRaPpZYFKQHwyVd3U.ttf",
+    "regular": "https://fonts.gstatic.com/s/spacemono/v15/i7dPIFZifjKcF5UAWdDRUEZ2RFq7AwU.ttf",
+    "italic": "https://fonts.gstatic.com/s/spacemono/v15/i7dNIFZifjKcF5UAWdDRYER8QHi-EwWMbg.ttf",
+    "700italic": "https://fonts.gstatic.com/s/spacemono/v15/i7dSIFZifjKcF5UAWdDRYERE_FeaGy6QZ3WfYg.ttf"
   },
   "category": "monospace",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/spacemono/v15/i7dPIFZifjKcF5UAWdDRYEd8QA.ttf"
 }

@@ -3,8 +3,9 @@
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
   "version": "v20",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/bilbo/v20/o-0EIpgpwWwZ210hpIRz4wxE.ttf" },
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/bilbo/v20/o-0EIpgpwWwZ210hpIRz4wxE.ttf" },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/bilbo/v20/o-0EIpgpwWwZ220groA.ttf"
 }

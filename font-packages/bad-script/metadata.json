@@ -1,12 +1,13 @@
 {
   "family": "Bad Script",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "latin"],
-  "version": "v16",
-  "lastModified": "2022-04-20",
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v17",
+  "lastModified": "2024-12-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/badscript/v16/6NUT8F6PJgbFWQn47_x7lOwuzd1AZtw.ttf"
+    "regular": "https://fonts.gstatic.com/s/badscript/v17/6NUT8F6PJgbFWQn47_x7lOwuzd1AZtw.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/badscript/v17/6NUT8F6PJgbFWQn47_x7pO0kyQ.ttf"
 }

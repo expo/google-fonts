@@ -2,9 +2,10 @@
   "family": "Delius",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/delius/v15/PN_xRfK0pW_9e1rtYcI-jT3L_w.ttf" },
+  "version": "v19",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/delius/v19/PN_xRfK0pW_9e1rtYcI-jT3L_w.ttf" },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/delius/v19/PN_xRfK0pW_9e1rdYMg6.ttf"
 }

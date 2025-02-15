@@ -5,16 +5,17 @@
   "version": "v13",
   "lastModified": "2022-09-28",
   "files": {
-    "100": "http://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJudM7F2Yv76aBKKs-bHMQfAHUw3jnNwBDsU9X6RPzQ.ttf",
-    "200": "http://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNbDHMefv2TeXJng.ttf",
-    "300": "http://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNCDLMefv2TeXJng.ttf",
-    "500": "http://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNUDPMefv2TeXJng.ttf",
-    "600": "http://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNfDTMefv2TeXJng.ttf",
-    "700": "http://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNGDXMefv2TeXJng.ttf",
-    "800": "http://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNBDbMefv2TeXJng.ttf",
-    "900": "http://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNIDfMefv2TeXJng.ttf",
-    "regular": "http://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJsdM7F2Yv76aBKKs-bHMQfAHUw3jn1pBrocdDqRA.ttf"
+    "100": "https://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJudM7F2Yv76aBKKs-bHMQfAHUw3jnNwBDsU9X6RPzQ.ttf",
+    "200": "https://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNbDHMefv2TeXJng.ttf",
+    "300": "https://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNCDLMefv2TeXJng.ttf",
+    "500": "https://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNUDPMefv2TeXJng.ttf",
+    "600": "https://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNfDTMefv2TeXJng.ttf",
+    "700": "https://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNGDXMefv2TeXJng.ttf",
+    "800": "https://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNBDbMefv2TeXJng.ttf",
+    "900": "https://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJvdM7F2Yv76aBKKs-bHMQfAHUw3jnNIDfMefv2TeXJng.ttf",
+    "regular": "https://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJsdM7F2Yv76aBKKs-bHMQfAHUw3jn1pBrocdDqRA.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notoserifmyanmar/v13/VuJsdM7F2Yv76aBKKs-bHMQfAHUw3jnFpRDs.ttf"
 }

@@ -6,4 +6,6 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const Monda_400Regular = require('./Monda_400Regular.ttf');
+export const Monda_500Medium = require('./Monda_500Medium.ttf');
+export const Monda_600SemiBold = require('./Monda_600SemiBold.ttf');
 export const Monda_700Bold = require('./Monda_700Bold.ttf');

@@ -11,11 +11,13 @@ This package lets you use the [**BioRhyme**](https://fonts.google.com/specimen/B
 
 ![BioRhyme](./font-family.png)
 
-This font family contains [5 styles](#-gallery).
+This font family contains [7 styles](#-gallery).
 
 - `BioRhyme_200ExtraLight`
 - `BioRhyme_300Light`
 - `BioRhyme_400Regular`
+- `BioRhyme_500Medium`
+- `BioRhyme_600SemiBold`
 - `BioRhyme_700Bold`
 - `BioRhyme_800ExtraBold`
 
@@ -37,6 +39,8 @@ import {
   BioRhyme_200ExtraLight,
   BioRhyme_300Light,
   BioRhyme_400Regular,
+  BioRhyme_500Medium,
+  BioRhyme_600SemiBold,
   BioRhyme_700Bold,
   BioRhyme_800ExtraBold,
 } from '@expo-google-fonts/biorhyme';
@@ -46,6 +50,8 @@ export default () => {
     BioRhyme_200ExtraLight,
     BioRhyme_300Light,
     BioRhyme_400Regular,
+    BioRhyme_500Medium,
+    BioRhyme_600SemiBold,
     BioRhyme_700Bold,
     BioRhyme_800ExtraBold,
   });
@@ -93,6 +99,26 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BioRhyme_500Medium',
+          }}>
+          BioRhyme Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'BioRhyme_600SemiBold',
+          }}>
+          BioRhyme Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'BioRhyme_700Bold',
           }}>
           BioRhyme Bold
@@ -120,7 +146,8 @@ export default () => {
 ||||
 |-|-|-|
 |![BioRhyme_200ExtraLight](./BioRhyme_200ExtraLight.ttf.png)|![BioRhyme_300Light](./BioRhyme_300Light.ttf.png)|![BioRhyme_400Regular](./BioRhyme_400Regular.ttf.png)||
-|![BioRhyme_700Bold](./BioRhyme_700Bold.ttf.png)|![BioRhyme_800ExtraBold](./BioRhyme_800ExtraBold.ttf.png)|||
+|![BioRhyme_500Medium](./BioRhyme_500Medium.ttf.png)|![BioRhyme_600SemiBold](./BioRhyme_600SemiBold.ttf.png)|![BioRhyme_700Bold](./BioRhyme_700Bold.ttf.png)||
+|![BioRhyme_800ExtraBold](./BioRhyme_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

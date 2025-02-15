@@ -1,0 +1,13 @@
+{
+  "family": "Yarndings 12",
+  "variants": ["regular"],
+  "subsets": ["latin", "math", "symbols"],
+  "version": "v3",
+  "lastModified": "2025-01-28",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/yarndings12/v3/55xreyp2N8T5P2LJbZAlkY9c8ZLMI2VUnQ.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/yarndings12/v3/55xreyp2N8T5P2LJbZAlkY9s8JjI.ttf"
+}

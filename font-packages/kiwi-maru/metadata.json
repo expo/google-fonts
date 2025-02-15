@@ -2,13 +2,14 @@
   "family": "Kiwi Maru",
   "variants": ["300", "regular", "500"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2022-09-27",
+  "version": "v19",
+  "lastModified": "2024-11-20",
   "files": {
-    "300": "http://fonts.gstatic.com/s/kiwimaru/v14/R70djykGkuuDep-hRg6gNCi0Vxn9R5ShnA.ttf",
-    "500": "http://fonts.gstatic.com/s/kiwimaru/v14/R70djykGkuuDep-hRg6gbCm0Vxn9R5ShnA.ttf",
-    "regular": "http://fonts.gstatic.com/s/kiwimaru/v14/R70YjykGkuuDep-hRg6YmACQXzLhTg.ttf"
+    "300": "https://fonts.gstatic.com/s/kiwimaru/v19/R70djykGkuuDep-hRg6gNCi0Vxn9R5ShnA.ttf",
+    "500": "https://fonts.gstatic.com/s/kiwimaru/v19/R70djykGkuuDep-hRg6gbCm0Vxn9R5ShnA.ttf",
+    "regular": "https://fonts.gstatic.com/s/kiwimaru/v19/R70YjykGkuuDep-hRg6YmACQXzLhTg.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/kiwimaru/v19/R70YjykGkuuDep-hRg6omQqU.ttf"
 }

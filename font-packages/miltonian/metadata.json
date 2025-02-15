@@ -2,11 +2,12 @@
   "family": "Miltonian",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v26",
-  "lastModified": "2022-09-22",
+  "version": "v30",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/miltonian/v26/zOL-4pbPn6Ne9JqTg9mr6e5As-FeiQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/miltonian/v30/zOL-4pbPn6Ne9JqTg9mr6e5As-FeiQ.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/miltonian/v30/zOL-4pbPn6Ne9JqTg9mb6ORE.ttf"
 }

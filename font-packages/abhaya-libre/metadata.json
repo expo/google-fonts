@@ -2,15 +2,16 @@
   "family": "Abhaya Libre",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["latin", "latin-ext", "sinhala"],
-  "version": "v13",
-  "lastModified": "2022-09-22",
+  "version": "v17",
+  "lastModified": "2024-09-04",
   "files": {
-    "500": "http://fonts.gstatic.com/s/abhayalibre/v13/e3t5euGtX-Co5MNzeAOqinEYj2ryqtxI6oYtBA.ttf",
-    "600": "http://fonts.gstatic.com/s/abhayalibre/v13/e3t5euGtX-Co5MNzeAOqinEYo23yqtxI6oYtBA.ttf",
-    "700": "http://fonts.gstatic.com/s/abhayalibre/v13/e3t5euGtX-Co5MNzeAOqinEYx2zyqtxI6oYtBA.ttf",
-    "800": "http://fonts.gstatic.com/s/abhayalibre/v13/e3t5euGtX-Co5MNzeAOqinEY22_yqtxI6oYtBA.ttf",
-    "regular": "http://fonts.gstatic.com/s/abhayalibre/v13/e3tmeuGtX-Co5MNzeAOqinEge0PWovdU4w.ttf"
+    "500": "https://fonts.gstatic.com/s/abhayalibre/v17/e3t5euGtX-Co5MNzeAOqinEYj2ryqtxI6oYtBA.ttf",
+    "600": "https://fonts.gstatic.com/s/abhayalibre/v17/e3t5euGtX-Co5MNzeAOqinEYo23yqtxI6oYtBA.ttf",
+    "700": "https://fonts.gstatic.com/s/abhayalibre/v17/e3t5euGtX-Co5MNzeAOqinEYx2zyqtxI6oYtBA.ttf",
+    "800": "https://fonts.gstatic.com/s/abhayalibre/v17/e3t5euGtX-Co5MNzeAOqinEY22_yqtxI6oYtBA.ttf",
+    "regular": "https://fonts.gstatic.com/s/abhayalibre/v17/e3tmeuGtX-Co5MNzeAOqinEge0PWovdU4w.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/abhayalibre/v17/e3tmeuGtX-Co5MNzeAOqinEQeknS.ttf"
 }

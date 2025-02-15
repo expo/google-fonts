@@ -2,19 +2,20 @@
   "family": "Lexend Zetta",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v24",
-  "lastModified": "2023-01-06",
+  "version": "v28",
+  "lastModified": "2024-09-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/lexendzetta/v24/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy9bH0z5jbs8qbts.ttf",
-    "200": "http://fonts.gstatic.com/s/lexendzetta/v24/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy1bG0z5jbs8qbts.ttf",
-    "300": "http://fonts.gstatic.com/s/lexendzetta/v24/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy4jG0z5jbs8qbts.ttf",
-    "500": "http://fonts.gstatic.com/s/lexendzetta/v24/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy-TG0z5jbs8qbts.ttf",
-    "600": "http://fonts.gstatic.com/s/lexendzetta/v24/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCywjB0z5jbs8qbts.ttf",
-    "700": "http://fonts.gstatic.com/s/lexendzetta/v24/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCyzHB0z5jbs8qbts.ttf",
-    "800": "http://fonts.gstatic.com/s/lexendzetta/v24/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy1bB0z5jbs8qbts.ttf",
-    "900": "http://fonts.gstatic.com/s/lexendzetta/v24/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy3_B0z5jbs8qbts.ttf",
-    "regular": "http://fonts.gstatic.com/s/lexendzetta/v24/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy9bG0z5jbs8qbts.ttf"
+    "100": "https://fonts.gstatic.com/s/lexendzetta/v28/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy9bH0z5jbs8qbts.ttf",
+    "200": "https://fonts.gstatic.com/s/lexendzetta/v28/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy1bG0z5jbs8qbts.ttf",
+    "300": "https://fonts.gstatic.com/s/lexendzetta/v28/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy4jG0z5jbs8qbts.ttf",
+    "500": "https://fonts.gstatic.com/s/lexendzetta/v28/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy-TG0z5jbs8qbts.ttf",
+    "600": "https://fonts.gstatic.com/s/lexendzetta/v28/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCywjB0z5jbs8qbts.ttf",
+    "700": "https://fonts.gstatic.com/s/lexendzetta/v28/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCyzHB0z5jbs8qbts.ttf",
+    "800": "https://fonts.gstatic.com/s/lexendzetta/v28/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy1bB0z5jbs8qbts.ttf",
+    "900": "https://fonts.gstatic.com/s/lexendzetta/v28/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy3_B0z5jbs8qbts.ttf",
+    "regular": "https://fonts.gstatic.com/s/lexendzetta/v28/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy9bG0z5jbs8qbts.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/lexendzetta/v28/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy9bG4z9pag.ttf"
 }

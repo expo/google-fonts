@@ -5,4 +5,8 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const NotoTraditionalNushu_300Light = require('./NotoTraditionalNushu_300Light.ttf');
 export const NotoTraditionalNushu_400Regular = require('./NotoTraditionalNushu_400Regular.ttf');
+export const NotoTraditionalNushu_500Medium = require('./NotoTraditionalNushu_500Medium.ttf');
+export const NotoTraditionalNushu_600SemiBold = require('./NotoTraditionalNushu_600SemiBold.ttf');
+export const NotoTraditionalNushu_700Bold = require('./NotoTraditionalNushu_700Bold.ttf');

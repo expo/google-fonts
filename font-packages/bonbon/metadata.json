@@ -2,9 +2,10 @@
   "family": "Bonbon",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v26",
-  "lastModified": "2022-04-21",
-  "files": { "regular": "http://fonts.gstatic.com/s/bonbon/v26/0FlVVPeVlFec4ee_cDEAbQY5-A.ttf" },
+  "version": "v30",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/bonbon/v30/0FlVVPeVlFec4ee_cDEAbQY5-A.ttf" },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/bonbon/v30/0FlVVPeVlFec4eePcTsE.ttf"
 }

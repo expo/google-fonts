@@ -1,0 +1,13 @@
+{
+  "family": "Triodion",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin"],
+  "version": "v3",
+  "lastModified": "2025-02-12",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/triodion/v3/IFSnHe5TgMVEmMQV5mr5u-W10l_X.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/triodion/v3/IFSnHe5TgMVEmMQV5lr4seE.ttf"
+}

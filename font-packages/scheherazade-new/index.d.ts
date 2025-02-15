@@ -7,4 +7,6 @@ export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
 export const ScheherazadeNew_400Regular: number;
+export const ScheherazadeNew_500Medium: number;
+export const ScheherazadeNew_600SemiBold: number;
 export const ScheherazadeNew_700Bold: number;

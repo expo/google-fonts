@@ -3,10 +3,11 @@
   "variants": ["regular"],
   "subsets": ["latin"],
   "version": "v22",
-  "lastModified": "2022-09-22",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/galdeano/v22/uU9MCBoQ4YOqOW1boDPx8PCOg0uX.ttf"
+    "regular": "https://fonts.gstatic.com/s/galdeano/v22/uU9MCBoQ4YOqOW1boDPx8PCOg0uX.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/galdeano/v22/uU9MCBoQ4YOqOW1boAPw-vQ.ttf"
 }

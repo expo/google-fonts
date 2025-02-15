@@ -2,11 +2,12 @@
   "family": "Kdam Thmor Pro",
   "variants": ["regular"],
   "subsets": ["khmer", "latin", "latin-ext"],
-  "version": "v1",
-  "lastModified": "2022-09-22",
+  "version": "v5",
+  "lastModified": "2024-10-29",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/kdamthmorpro/v1/EJRPQgAzVdcI-Qdvt34jzurnGA7_j89I8ZWb.ttf"
+    "regular": "https://fonts.gstatic.com/s/kdamthmorpro/v5/EJRPQgAzVdcI-Qdvt34jzurnGA7_j89I8ZWb.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/kdamthmorpro/v5/EJRPQgAzVdcI-Qdvt34jzurnGD7-hcs.ttf"
 }

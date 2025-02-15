@@ -2,11 +2,12 @@
   "family": "Wallpoet",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v16",
-  "lastModified": "2022-09-22",
+  "version": "v20",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/wallpoet/v16/f0X10em2_8RnXVVdUNbu7cXP8L8G.ttf"
+    "regular": "https://fonts.gstatic.com/s/wallpoet/v20/f0X10em2_8RnXVVdUNbu7cXP8L8G.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/wallpoet/v20/f0X10em2_8RnXVVdUObv58E.ttf"
 }

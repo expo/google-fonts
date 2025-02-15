@@ -2,19 +2,20 @@
   "family": "Noto Sans Telugu",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "telugu"],
-  "version": "v19",
-  "lastModified": "2022-09-22",
+  "version": "v26",
+  "lastModified": "2023-10-25",
   "files": {
-    "100": "http://fonts.gstatic.com/s/notosanstelugu/v19/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntezfqQUbf-3v37w.ttf",
-    "200": "http://fonts.gstatic.com/s/notosanstelugu/v19/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEnt-zbqQUbf-3v37w.ttf",
-    "300": "http://fonts.gstatic.com/s/notosanstelugu/v19/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntJTbqQUbf-3v37w.ttf",
-    "500": "http://fonts.gstatic.com/s/notosanstelugu/v19/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntSTbqQUbf-3v37w.ttf",
-    "600": "http://fonts.gstatic.com/s/notosanstelugu/v19/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntpTHqQUbf-3v37w.ttf",
-    "700": "http://fonts.gstatic.com/s/notosanstelugu/v19/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntnDHqQUbf-3v37w.ttf",
-    "800": "http://fonts.gstatic.com/s/notosanstelugu/v19/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEnt-zHqQUbf-3v37w.ttf",
-    "900": "http://fonts.gstatic.com/s/notosanstelugu/v19/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEnt0jHqQUbf-3v37w.ttf",
-    "regular": "http://fonts.gstatic.com/s/notosanstelugu/v19/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntezbqQUbf-3v37w.ttf"
+    "100": "https://fonts.gstatic.com/s/notosanstelugu/v26/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntezfqQUbf-3v37w.ttf",
+    "200": "https://fonts.gstatic.com/s/notosanstelugu/v26/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEnt-zbqQUbf-3v37w.ttf",
+    "300": "https://fonts.gstatic.com/s/notosanstelugu/v26/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntJTbqQUbf-3v37w.ttf",
+    "500": "https://fonts.gstatic.com/s/notosanstelugu/v26/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntSTbqQUbf-3v37w.ttf",
+    "600": "https://fonts.gstatic.com/s/notosanstelugu/v26/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntpTHqQUbf-3v37w.ttf",
+    "700": "https://fonts.gstatic.com/s/notosanstelugu/v26/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntnDHqQUbf-3v37w.ttf",
+    "800": "https://fonts.gstatic.com/s/notosanstelugu/v26/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEnt-zHqQUbf-3v37w.ttf",
+    "900": "https://fonts.gstatic.com/s/notosanstelugu/v26/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEnt0jHqQUbf-3v37w.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosanstelugu/v26/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntezbqQUbf-3v37w.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanstelugu/v26/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntezbaQEzb.ttf"
 }

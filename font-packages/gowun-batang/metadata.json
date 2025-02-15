@@ -2,12 +2,13 @@
   "family": "Gowun Batang",
   "variants": ["regular", "700"],
   "subsets": ["korean", "latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2022-09-27",
+  "version": "v11",
+  "lastModified": "2024-11-20",
   "files": {
-    "700": "http://fonts.gstatic.com/s/gowunbatang/v7/ijwNs5nhRMIjYsdSgcMa3wRZ4J7awssxJii23w.ttf",
-    "regular": "http://fonts.gstatic.com/s/gowunbatang/v7/ijwSs5nhRMIjYsdSgcMa3wRhXLH-yuAtLw.ttf"
+    "700": "https://fonts.gstatic.com/s/gowunbatang/v11/ijwNs5nhRMIjYsdSgcMa3wRZ4J7awssxJii23w.ttf",
+    "regular": "https://fonts.gstatic.com/s/gowunbatang/v11/ijwSs5nhRMIjYsdSgcMa3wRhXLH-yuAtLw.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/gowunbatang/v11/ijwSs5nhRMIjYsdSgcMa3wRRXbv6.ttf"
 }

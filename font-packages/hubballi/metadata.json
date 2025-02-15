@@ -2,9 +2,12 @@
   "family": "Hubballi",
   "variants": ["regular"],
   "subsets": ["kannada", "latin", "latin-ext"],
-  "version": "v4",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/hubballi/v4/o-0JIpUj3WIZ1RFN56B7yBBNYuSF.ttf" },
-  "category": "display",
-  "kind": "webfonts#webfont"
+  "version": "v8",
+  "lastModified": "2024-12-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/hubballi/v8/o-0JIpUj3WIZ1RFN56B7yBBNYuSF.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/hubballi/v8/o-0JIpUj3WIZ1RFN55B6whQ.ttf"
 }

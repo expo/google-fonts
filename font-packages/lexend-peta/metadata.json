@@ -2,19 +2,20 @@
   "family": "Lexend Peta",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v24",
-  "lastModified": "2023-01-06",
+  "version": "v27",
+  "lastModified": "2024-09-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/lexendpeta/v24/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgR6SFyW1YuRTsnfw.ttf",
-    "200": "http://fonts.gstatic.com/s/lexendpeta/v24/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRaSByW1YuRTsnfw.ttf",
-    "300": "http://fonts.gstatic.com/s/lexendpeta/v24/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRtyByW1YuRTsnfw.ttf",
-    "500": "http://fonts.gstatic.com/s/lexendpeta/v24/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgR2yByW1YuRTsnfw.ttf",
-    "600": "http://fonts.gstatic.com/s/lexendpeta/v24/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRNydyW1YuRTsnfw.ttf",
-    "700": "http://fonts.gstatic.com/s/lexendpeta/v24/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRDidyW1YuRTsnfw.ttf",
-    "800": "http://fonts.gstatic.com/s/lexendpeta/v24/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRaSdyW1YuRTsnfw.ttf",
-    "900": "http://fonts.gstatic.com/s/lexendpeta/v24/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRQCdyW1YuRTsnfw.ttf",
-    "regular": "http://fonts.gstatic.com/s/lexendpeta/v24/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgR6SByW1YuRTsnfw.ttf"
+    "100": "https://fonts.gstatic.com/s/lexendpeta/v27/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgR6SFyW1YuRTsnfw.ttf",
+    "200": "https://fonts.gstatic.com/s/lexendpeta/v27/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRaSByW1YuRTsnfw.ttf",
+    "300": "https://fonts.gstatic.com/s/lexendpeta/v27/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRtyByW1YuRTsnfw.ttf",
+    "500": "https://fonts.gstatic.com/s/lexendpeta/v27/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgR2yByW1YuRTsnfw.ttf",
+    "600": "https://fonts.gstatic.com/s/lexendpeta/v27/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRNydyW1YuRTsnfw.ttf",
+    "700": "https://fonts.gstatic.com/s/lexendpeta/v27/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRDidyW1YuRTsnfw.ttf",
+    "800": "https://fonts.gstatic.com/s/lexendpeta/v27/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRaSdyW1YuRTsnfw.ttf",
+    "900": "https://fonts.gstatic.com/s/lexendpeta/v27/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgRQCdyW1YuRTsnfw.ttf",
+    "regular": "https://fonts.gstatic.com/s/lexendpeta/v27/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgR6SByW1YuRTsnfw.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/lexendpeta/v27/BXR4vFPGjeLPh0kCfI4OkFX-UTQHSCaxvBgR6SBCWlwq.ttf"
 }

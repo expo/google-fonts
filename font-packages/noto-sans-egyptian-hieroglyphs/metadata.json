@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Egyptian Hieroglyphs",
   "variants": ["regular"],
-  "subsets": ["egyptian-hieroglyphs"],
-  "version": "v26",
-  "lastModified": "2022-05-10",
+  "subsets": ["egyptian-hieroglyphs", "latin", "latin-ext"],
+  "version": "v29",
+  "lastModified": "2024-05-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosansegyptianhieroglyphs/v26/vEF42-tODB8RrNDvZSUmRhcQHzx1s7y_F9-j3qSzEcbEYindSVK8xRg7iw.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansegyptianhieroglyphs/v29/vEF42-tODB8RrNDvZSUmRhcQHzx1s7y_F9-j3qSzEcbEYindSVK8xRg7iw.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansegyptianhieroglyphs/v29/vEF42-tODB8RrNDvZSUmRhcQHzx1s7y_F9-j3qSzEcbEYintSFi4.ttf"
 }

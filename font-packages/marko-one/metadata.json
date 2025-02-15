@@ -2,11 +2,12 @@
   "family": "Marko One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v22",
-  "lastModified": "2022-04-26",
+  "version": "v23",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/markoone/v22/9Btq3DFG0cnVM5lw1haaKpUfrHPzUw.ttf"
+    "regular": "https://fonts.gstatic.com/s/markoone/v23/9Btq3DFG0cnVM5lw1haaKpUfrHPzUw.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/markoone/v23/9Btq3DFG0cnVM5lw1haqK58b.ttf"
 }

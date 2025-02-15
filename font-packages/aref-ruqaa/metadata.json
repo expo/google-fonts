@@ -3,11 +3,12 @@
   "variants": ["regular", "700"],
   "subsets": ["arabic", "latin", "latin-ext"],
   "version": "v25",
-  "lastModified": "2022-12-08",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/arefruqaa/v25/WwkYxPW1E165rajQKDulKDwNcNIS2N_7Bdk.ttf",
-    "regular": "http://fonts.gstatic.com/s/arefruqaa/v25/WwkbxPW1E165rajQKDulEIAiVNo5xNY.ttf"
+    "700": "https://fonts.gstatic.com/s/arefruqaa/v25/WwkYxPW1E165rajQKDulKDwNcNIS2N_7Bdk.ttf",
+    "regular": "https://fonts.gstatic.com/s/arefruqaa/v25/WwkbxPW1E165rajQKDulEIAiVNo5xNY.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/arefruqaa/v25/WwkbxPW1E165rajQKDulIIEoUA.ttf"
 }

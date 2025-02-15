@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Brahmi",
   "variants": ["regular"],
-  "subsets": ["brahmi"],
-  "version": "v15",
-  "lastModified": "2022-05-10",
+  "subsets": ["brahmi", "latin", "latin-ext", "math", "symbols"],
+  "version": "v19",
+  "lastModified": "2024-02-29",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosansbrahmi/v15/vEFK2-VODB8RrNDvZSUmQQIIByV18tK1W77HtMo.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansbrahmi/v19/vEFK2-VODB8RrNDvZSUmQQIIByV18tK1W77HtMo.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansbrahmi/v19/vEFK2-VODB8RrNDvZSUmQQIIByV1wtO_Xw.ttf"
 }

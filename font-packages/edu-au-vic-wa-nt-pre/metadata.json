@@ -1,0 +1,16 @@
+{
+  "family": "Edu AU VIC WA NT Pre",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2024-11-07",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/eduauvicwantpre/v1/f0Xc0fWk-t0rbG8Ycr-t55aG0elTWbFeXaYI98CnuNLeosIyFGkwr6MhKkg6nw.ttf",
+    "600": "https://fonts.gstatic.com/s/eduauvicwantpre/v1/f0Xc0fWk-t0rbG8Ycr-t55aG0elTWbFeXaYI98CnuNLeosIy-G4wr6MhKkg6nw.ttf",
+    "700": "https://fonts.gstatic.com/s/eduauvicwantpre/v1/f0Xc0fWk-t0rbG8Ycr-t55aG0elTWbFeXaYI98CnuNLeosIywW4wr6MhKkg6nw.ttf",
+    "regular": "https://fonts.gstatic.com/s/eduauvicwantpre/v1/f0Xc0fWk-t0rbG8Ycr-t55aG0elTWbFeXaYI98CnuNLeosIyJmkwr6MhKkg6nw.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/eduauvicwantpre/v1/f0Xc0fWk-t0rbG8Ycr-t55aG0elTWbFeXaYI98CnuNLeosIyJmkArqkl.ttf"
+}

@@ -6,4 +6,6 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const Kameron_400Regular = require('./Kameron_400Regular.ttf');
+export const Kameron_500Medium = require('./Kameron_500Medium.ttf');
+export const Kameron_600SemiBold = require('./Kameron_600SemiBold.ttf');
 export const Kameron_700Bold = require('./Kameron_700Bold.ttf');

@@ -1,0 +1,16 @@
+{
+  "family": "Playwrite DE Grund",
+  "variants": ["100", "200", "300", "regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2025-02-12",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playwritedegrund/v10/EJR-QhwoXdccriFurnRxqv-1MFyKy696-4VufrEGGbTZz2qGZwCUOfSwZTM.ttf",
+    "200": "https://fonts.gstatic.com/s/playwritedegrund/v10/EJR-QhwoXdccriFurnRxqv-1MFyKy696-4VufrEGGbTZz-qHZwCUOfSwZTM.ttf",
+    "300": "https://fonts.gstatic.com/s/playwritedegrund/v10/EJR-QhwoXdccriFurnRxqv-1MFyKy696-4VufrEGGbTZzzSHZwCUOfSwZTM.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwritedegrund/v10/EJR-QhwoXdccriFurnRxqv-1MFyKy696-4VufrEGGbTZz2qHZwCUOfSwZTM.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwritedegrund/v10/EJR-QhwoXdccriFurnRxqv-1MFyKy696-4VufrEGGbTZz2qHVwGePQ.ttf"
+}

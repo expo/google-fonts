@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Meroitic",
   "variants": ["regular"],
-  "subsets": ["meroitic"],
-  "version": "v16",
-  "lastModified": "2022-05-10",
+  "subsets": ["latin", "latin-ext", "meroitic", "meroitic-cursive", "meroitic-hieroglyphs"],
+  "version": "v18",
+  "lastModified": "2023-11-09",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosansmeroitic/v16/IFS5HfRJndhE3P4b5jnZ3ITPvC6i00UDgDhTiKY9KQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansmeroitic/v18/IFS5HfRJndhE3P4b5jnZ3ITPvC6i00UDgDhTiKY9KQ.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansmeroitic/v18/IFS5HfRJndhE3P4b5jnZ3ITPvC6i00UzgTJX.ttf"
 }

@@ -2,18 +2,19 @@
   "family": "Anek Gujarati",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
   "subsets": ["gujarati", "latin", "latin-ext"],
-  "version": "v4",
-  "lastModified": "2023-01-06",
+  "version": "v16",
+  "lastModified": "2024-12-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/anekgujarati/v4/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0F5G7w0KgB7Lm7g.ttf",
-    "200": "http://fonts.gstatic.com/s/anekgujarati/v4/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0l5C7w0KgB7Lm7g.ttf",
-    "300": "http://fonts.gstatic.com/s/anekgujarati/v4/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0SZC7w0KgB7Lm7g.ttf",
-    "500": "http://fonts.gstatic.com/s/anekgujarati/v4/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0JZC7w0KgB7Lm7g.ttf",
-    "600": "http://fonts.gstatic.com/s/anekgujarati/v4/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0yZe7w0KgB7Lm7g.ttf",
-    "700": "http://fonts.gstatic.com/s/anekgujarati/v4/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-08Je7w0KgB7Lm7g.ttf",
-    "800": "http://fonts.gstatic.com/s/anekgujarati/v4/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0l5e7w0KgB7Lm7g.ttf",
-    "regular": "http://fonts.gstatic.com/s/anekgujarati/v4/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0F5C7w0KgB7Lm7g.ttf"
+    "100": "https://fonts.gstatic.com/s/anekgujarati/v16/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0F5G7w0KgB7Lm7g.ttf",
+    "200": "https://fonts.gstatic.com/s/anekgujarati/v16/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0l5C7w0KgB7Lm7g.ttf",
+    "300": "https://fonts.gstatic.com/s/anekgujarati/v16/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0SZC7w0KgB7Lm7g.ttf",
+    "500": "https://fonts.gstatic.com/s/anekgujarati/v16/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0JZC7w0KgB7Lm7g.ttf",
+    "600": "https://fonts.gstatic.com/s/anekgujarati/v16/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0yZe7w0KgB7Lm7g.ttf",
+    "700": "https://fonts.gstatic.com/s/anekgujarati/v16/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-08Je7w0KgB7Lm7g.ttf",
+    "800": "https://fonts.gstatic.com/s/anekgujarati/v16/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0l5e7w0KgB7Lm7g.ttf",
+    "regular": "https://fonts.gstatic.com/s/anekgujarati/v16/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0F5C7w0KgB7Lm7g.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/anekgujarati/v16/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0F5CLwkik.ttf"
 }

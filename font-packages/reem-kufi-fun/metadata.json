@@ -2,14 +2,16 @@
   "family": "Reem Kufi Fun",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2022-11-09",
+  "version": "v7",
+  "lastModified": "2024-09-04",
   "files": {
-    "500": "http://fonts.gstatic.com/s/reemkufifun/v6/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChoYR3nCgrvqZzZXq.ttf",
-    "600": "http://fonts.gstatic.com/s/reemkufifun/v6/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChob92XCgrvqZzZXq.ttf",
-    "700": "http://fonts.gstatic.com/s/reemkufifun/v6/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChobE2XCgrvqZzZXq.ttf",
-    "regular": "http://fonts.gstatic.com/s/reemkufifun/v6/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChoYj3nCgrvqZzZXq.ttf"
+    "500": "https://fonts.gstatic.com/s/reemkufifun/v7/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChoYR3nCgrvqZzZXq.ttf",
+    "600": "https://fonts.gstatic.com/s/reemkufifun/v7/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChob92XCgrvqZzZXq.ttf",
+    "700": "https://fonts.gstatic.com/s/reemkufifun/v7/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChobE2XCgrvqZzZXq.ttf",
+    "regular": "https://fonts.gstatic.com/s/reemkufifun/v7/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChoYj3nCgrvqZzZXq.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/reemkufifun/v7/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChoYj3kChpP4.ttf",
+  "colorCapabilities": ["COLRv0"]
 }

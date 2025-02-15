@@ -13,20 +13,21 @@
     "700italic"
   ],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2022-09-22",
+  "version": "v15",
+  "lastModified": "2024-12-04",
   "files": {
-    "300": "http://fonts.gstatic.com/s/redhatmono/v10/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQQPI-7HNuW4QuKI.ttf",
-    "500": "http://fonts.gstatic.com/s/redhatmono/v10/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQW_I-7HNuW4QuKI.ttf",
-    "600": "http://fonts.gstatic.com/s/redhatmono/v10/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQYPP-7HNuW4QuKI.ttf",
-    "700": "http://fonts.gstatic.com/s/redhatmono/v10/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQbrP-7HNuW4QuKI.ttf",
-    "regular": "http://fonts.gstatic.com/s/redhatmono/v10/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQV3I-7HNuW4QuKI.ttf",
-    "300italic": "http://fonts.gstatic.com/s/redhatmono/v10/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLTfLHvUwVqKIJuw.ttf",
-    "italic": "http://fonts.gstatic.com/s/redhatmono/v10/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLE_LHvUwVqKIJuw.ttf",
-    "500italic": "http://fonts.gstatic.com/s/redhatmono/v10/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLIfLHvUwVqKIJuw.ttf",
-    "600italic": "http://fonts.gstatic.com/s/redhatmono/v10/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLzfXHvUwVqKIJuw.ttf",
-    "700italic": "http://fonts.gstatic.com/s/redhatmono/v10/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWL9PXHvUwVqKIJuw.ttf"
+    "300": "https://fonts.gstatic.com/s/redhatmono/v15/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQQPI-7HNuW4QuKI.ttf",
+    "500": "https://fonts.gstatic.com/s/redhatmono/v15/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQW_I-7HNuW4QuKI.ttf",
+    "600": "https://fonts.gstatic.com/s/redhatmono/v15/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQYPP-7HNuW4QuKI.ttf",
+    "700": "https://fonts.gstatic.com/s/redhatmono/v15/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQbrP-7HNuW4QuKI.ttf",
+    "regular": "https://fonts.gstatic.com/s/redhatmono/v15/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQV3I-7HNuW4QuKI.ttf",
+    "300italic": "https://fonts.gstatic.com/s/redhatmono/v15/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLTfLHvUwVqKIJuw.ttf",
+    "italic": "https://fonts.gstatic.com/s/redhatmono/v15/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLE_LHvUwVqKIJuw.ttf",
+    "500italic": "https://fonts.gstatic.com/s/redhatmono/v15/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLIfLHvUwVqKIJuw.ttf",
+    "600italic": "https://fonts.gstatic.com/s/redhatmono/v15/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLzfXHvUwVqKIJuw.ttf",
+    "700italic": "https://fonts.gstatic.com/s/redhatmono/v15/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWL9PXHvUwVqKIJuw.ttf"
   },
   "category": "monospace",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/redhatmono/v15/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQV3Iy7DHvQ.ttf"
 }

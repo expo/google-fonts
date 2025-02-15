@@ -1,0 +1,13 @@
+{
+  "family": "Jacquard 24 Charted",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2025-01-28",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/jacquard24charted/v4/mtGm4-dNK6HaudrE9VVKhENTsEXEYish0iRrMYJ_K-4.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/jacquard24charted/v4/mtGm4-dNK6HaudrE9VVKhENTsEXEYish4iVhNQ.ttf"
+}

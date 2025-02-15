@@ -1,0 +1,13 @@
+{
+  "family": "Jersey 10",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v3",
+  "lastModified": "2025-01-28",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/jersey10/v3/GftH7vZKsggXMf9n_J5X-JLgy1wtSw.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/jersey10/v3/GftH7vZKsggXMf9n_J5n-Zjk.ttf"
+}

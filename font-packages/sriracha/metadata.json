@@ -2,11 +2,12 @@
   "family": "Sriracha",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v10",
-  "lastModified": "2022-09-22",
+  "version": "v14",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/sriracha/v10/0nkrC9D4IuYBgWcI9ObYRQDioeb0.ttf"
+    "regular": "https://fonts.gstatic.com/s/sriracha/v14/0nkrC9D4IuYBgWcI9ObYRQDioeb0.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/sriracha/v14/0nkrC9D4IuYBgWcI9NbZTwQ.ttf"
 }

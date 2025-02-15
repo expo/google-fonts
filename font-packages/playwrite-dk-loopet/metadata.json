@@ -1,0 +1,16 @@
+{
+  "family": "Playwrite DK Loopet",
+  "variants": ["100", "200", "300", "regular"],
+  "subsets": ["latin"],
+  "version": "v5",
+  "lastModified": "2025-02-12",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playwritedkloopet/v5/memVYbuzy2qb3rtJGfM1FvY-GacDcsPvtaDfqfgbBWmV75JJwOgRuQovSE8_.ttf",
+    "200": "https://fonts.gstatic.com/s/playwritedkloopet/v5/memVYbuzy2qb3rtJGfM1FvY-GacDcsPvtaDfqfgbBWmV75LJwegRuQovSE8_.ttf",
+    "300": "https://fonts.gstatic.com/s/playwritedkloopet/v5/memVYbuzy2qb3rtJGfM1FvY-GacDcsPvtaDfqfgbBWmV75IXwegRuQovSE8_.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwritedkloopet/v5/memVYbuzy2qb3rtJGfM1FvY-GacDcsPvtaDfqfgbBWmV75JJwegRuQovSE8_.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwritedkloopet/v5/memVYbuzy2qb3rtJGfM1FvY-GacDcsPvtaDfqfgbBWmV75JJwdgQsw4.ttf"
+}

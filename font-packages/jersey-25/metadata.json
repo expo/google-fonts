@@ -1,0 +1,13 @@
+{
+  "family": "Jersey 25",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v3",
+  "lastModified": "2025-01-28",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/jersey25/v3/ll8-K2eeXj2tAs6F9BXIJ4AMng8ChA.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/jersey25/v3/ll8-K2eeXj2tAs6F9BX4JooI.ttf"
+}

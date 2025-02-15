@@ -1,0 +1,13 @@
+{
+  "family": "Braah One",
+  "variants": ["regular"],
+  "subsets": ["gurmukhi", "latin", "latin-ext", "vietnamese"],
+  "version": "v6",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/braahone/v6/KFOlCnWUpt6LsxxxiylvAx05IsDqlA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/braahone/v6/KFOlCnWUpt6LsxxxiylfAhc9.ttf"
+}

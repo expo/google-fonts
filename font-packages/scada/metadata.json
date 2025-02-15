@@ -2,14 +2,15 @@
   "family": "Scada",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2022-09-22",
+  "version": "v15",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/scada/v14/RLp8K5Pv5qumeVrU6BEgRVfmZOE5.ttf",
-    "regular": "http://fonts.gstatic.com/s/scada/v14/RLpxK5Pv5qumeWJoxzUobkvv.ttf",
-    "italic": "http://fonts.gstatic.com/s/scada/v14/RLp_K5Pv5qumeVJqzTEKa1vvffg.ttf",
-    "700italic": "http://fonts.gstatic.com/s/scada/v14/RLp6K5Pv5qumeVJq9Y0lT1PEYfE5p6g.ttf"
+    "700": "https://fonts.gstatic.com/s/scada/v15/RLp8K5Pv5qumeVrU6BEgRVfmZOE5.ttf",
+    "regular": "https://fonts.gstatic.com/s/scada/v15/RLpxK5Pv5qumeWJoxzUobkvv.ttf",
+    "italic": "https://fonts.gstatic.com/s/scada/v15/RLp_K5Pv5qumeVJqzTEKa1vvffg.ttf",
+    "700italic": "https://fonts.gstatic.com/s/scada/v15/RLp6K5Pv5qumeVJq9Y0lT1PEYfE5p6g.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/scada/v15/RLpxK5Pv5qumeVJpzTE.ttf"
 }

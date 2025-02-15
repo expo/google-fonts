@@ -5,4 +5,8 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const PontanoSans_300Light = require('./PontanoSans_300Light.ttf');
 export const PontanoSans_400Regular = require('./PontanoSans_400Regular.ttf');
+export const PontanoSans_500Medium = require('./PontanoSans_500Medium.ttf');
+export const PontanoSans_600SemiBold = require('./PontanoSans_600SemiBold.ttf');
+export const PontanoSans_700Bold = require('./PontanoSans_700Bold.ttf');

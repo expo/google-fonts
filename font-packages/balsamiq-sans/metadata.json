@@ -2,14 +2,15 @@
   "family": "Balsamiq Sans",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2022-09-22",
+  "version": "v14",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/balsamiqsans/v10/P5sZzZiAbNrN8SB3lQQX7PncyWUyBY9mAzLFRQI.ttf",
-    "regular": "http://fonts.gstatic.com/s/balsamiqsans/v10/P5sEzZiAbNrN8SB3lQQX7Pnc8dkdIYdNHzs.ttf",
-    "italic": "http://fonts.gstatic.com/s/balsamiqsans/v10/P5sazZiAbNrN8SB3lQQX7PncwdsXJaVIDzvcXA.ttf",
-    "700italic": "http://fonts.gstatic.com/s/balsamiqsans/v10/P5sfzZiAbNrN8SB3lQQX7PncwdsvmYpsBxDAVQI4aA.ttf"
+    "700": "https://fonts.gstatic.com/s/balsamiqsans/v14/P5sZzZiAbNrN8SB3lQQX7PncyWUyBY9mAzLFRQI.ttf",
+    "regular": "https://fonts.gstatic.com/s/balsamiqsans/v14/P5sEzZiAbNrN8SB3lQQX7Pnc8dkdIYdNHzs.ttf",
+    "italic": "https://fonts.gstatic.com/s/balsamiqsans/v14/P5sazZiAbNrN8SB3lQQX7PncwdsXJaVIDzvcXA.ttf",
+    "700italic": "https://fonts.gstatic.com/s/balsamiqsans/v14/P5sfzZiAbNrN8SB3lQQX7PncwdsvmYpsBxDAVQI4aA.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/balsamiqsans/v14/P5sEzZiAbNrN8SB3lQQX7PncwdgXJQ.ttf"
 }

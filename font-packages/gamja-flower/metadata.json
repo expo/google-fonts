@@ -2,11 +2,12 @@
   "family": "Gamja Flower",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v20",
-  "lastModified": "2022-09-27",
+  "version": "v25",
+  "lastModified": "2024-11-20",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/gamjaflower/v20/6NUR8FiKJg-Pa0rM6uN40Z4kyf9Fdty2ew.ttf"
+    "regular": "https://fonts.gstatic.com/s/gamjaflower/v25/6NUR8FiKJg-Pa0rM6uN40Z4kyf9Fdty2ew.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/gamjaflower/v25/6NUR8FiKJg-Pa0rM6uN40Z4UyPVB.ttf"
 }

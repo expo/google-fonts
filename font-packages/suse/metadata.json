@@ -1,0 +1,20 @@
+{
+  "family": "SUSE",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2024-08-28",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/suse/v1/MwQsbhb078Wt81NpzELmC2QqjbGG71q9ZnJSZtQG.ttf",
+    "200": "https://fonts.gstatic.com/s/suse/v1/MwQsbhb078Wt81NpzELmC2QqjbEG7lq9ZnJSZtQG.ttf",
+    "300": "https://fonts.gstatic.com/s/suse/v1/MwQsbhb078Wt81NpzELmC2QqjbHY7lq9ZnJSZtQG.ttf",
+    "500": "https://fonts.gstatic.com/s/suse/v1/MwQsbhb078Wt81NpzELmC2QqjbG07lq9ZnJSZtQG.ttf",
+    "600": "https://fonts.gstatic.com/s/suse/v1/MwQsbhb078Wt81NpzELmC2QqjbFY6Vq9ZnJSZtQG.ttf",
+    "700": "https://fonts.gstatic.com/s/suse/v1/MwQsbhb078Wt81NpzELmC2QqjbFh6Vq9ZnJSZtQG.ttf",
+    "800": "https://fonts.gstatic.com/s/suse/v1/MwQsbhb078Wt81NpzELmC2QqjbEG6Vq9ZnJSZtQG.ttf",
+    "regular": "https://fonts.gstatic.com/s/suse/v1/MwQsbhb078Wt81NpzELmC2QqjbGG7lq9ZnJSZtQG.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/suse/v1/MwQsbhb078Wt81NpzELmC2QqjbGG7mq8bHY.ttf"
+}

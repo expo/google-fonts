@@ -2,15 +2,16 @@
   "family": "BioRhyme Expanded",
   "variants": ["200", "300", "regular", "700", "800"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2022-09-22",
+  "version": "v21",
+  "lastModified": "2024-09-04",
   "files": {
-    "200": "http://fonts.gstatic.com/s/biorhymeexpanded/v19/i7dVIE1zZzytGswgU577CDY9LjbffxxcblSHSdTXrb_z.ttf",
-    "300": "http://fonts.gstatic.com/s/biorhymeexpanded/v19/i7dVIE1zZzytGswgU577CDY9Ljbffxw4bVSHSdTXrb_z.ttf",
-    "700": "http://fonts.gstatic.com/s/biorhymeexpanded/v19/i7dVIE1zZzytGswgU577CDY9LjbffxwoalSHSdTXrb_z.ttf",
-    "800": "http://fonts.gstatic.com/s/biorhymeexpanded/v19/i7dVIE1zZzytGswgU577CDY9Ljbffxw0aVSHSdTXrb_z.ttf",
-    "regular": "http://fonts.gstatic.com/s/biorhymeexpanded/v19/i7dQIE1zZzytGswgU577CDY9LjbffySURXCPYsje.ttf"
+    "200": "https://fonts.gstatic.com/s/biorhymeexpanded/v21/i7dVIE1zZzytGswgU577CDY9LjbffxxcblSHSdTXrb_z.ttf",
+    "300": "https://fonts.gstatic.com/s/biorhymeexpanded/v21/i7dVIE1zZzytGswgU577CDY9Ljbffxw4bVSHSdTXrb_z.ttf",
+    "700": "https://fonts.gstatic.com/s/biorhymeexpanded/v21/i7dVIE1zZzytGswgU577CDY9LjbffxwoalSHSdTXrb_z.ttf",
+    "800": "https://fonts.gstatic.com/s/biorhymeexpanded/v21/i7dVIE1zZzytGswgU577CDY9Ljbffxw0aVSHSdTXrb_z.ttf",
+    "regular": "https://fonts.gstatic.com/s/biorhymeexpanded/v21/i7dQIE1zZzytGswgU577CDY9LjbffySURXCPYsje.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/biorhymeexpanded/v21/i7dQIE1zZzytGswgU577CDY9LjbffxSVT3Q.ttf"
 }

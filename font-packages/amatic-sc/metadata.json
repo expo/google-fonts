@@ -2,12 +2,13 @@
   "family": "Amatic SC",
   "variants": ["regular", "700"],
   "subsets": ["cyrillic", "hebrew", "latin", "latin-ext", "vietnamese"],
-  "version": "v24",
-  "lastModified": "2022-09-22",
+  "version": "v26",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/amaticsc/v24/TUZ3zwprpvBS1izr_vOMscG6eb8D3WTy-A.ttf",
-    "regular": "http://fonts.gstatic.com/s/amaticsc/v24/TUZyzwprpvBS1izr_vO0De6ecZQf1A.ttf"
+    "700": "https://fonts.gstatic.com/s/amaticsc/v26/TUZ3zwprpvBS1izr_vOMscG6eb8D3WTy-A.ttf",
+    "regular": "https://fonts.gstatic.com/s/amaticsc/v26/TUZyzwprpvBS1izr_vO0De6ecZQf1A.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/amaticsc/v26/TUZyzwprpvBS1izr_vOEDOSa.ttf"
 }

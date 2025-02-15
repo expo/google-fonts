@@ -1,20 +1,21 @@
 {
   "family": "Noto Rashi Hebrew",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["hebrew", "latin", "latin-ext"],
-  "version": "v21",
-  "lastModified": "2022-09-22",
+  "subsets": ["greek-ext", "hebrew", "latin", "latin-ext"],
+  "version": "v26",
+  "lastModified": "2024-06-05",
   "files": {
-    "100": "http://fonts.gstatic.com/s/notorashihebrew/v21/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZB-DkRyq6Nf2pfA.ttf",
-    "200": "http://fonts.gstatic.com/s/notorashihebrew/v21/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZh-HkRyq6Nf2pfA.ttf",
-    "300": "http://fonts.gstatic.com/s/notorashihebrew/v21/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZWeHkRyq6Nf2pfA.ttf",
-    "500": "http://fonts.gstatic.com/s/notorashihebrew/v21/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZNeHkRyq6Nf2pfA.ttf",
-    "600": "http://fonts.gstatic.com/s/notorashihebrew/v21/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZ2ebkRyq6Nf2pfA.ttf",
-    "700": "http://fonts.gstatic.com/s/notorashihebrew/v21/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZ4ObkRyq6Nf2pfA.ttf",
-    "800": "http://fonts.gstatic.com/s/notorashihebrew/v21/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZh-bkRyq6Nf2pfA.ttf",
-    "900": "http://fonts.gstatic.com/s/notorashihebrew/v21/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZrubkRyq6Nf2pfA.ttf",
-    "regular": "http://fonts.gstatic.com/s/notorashihebrew/v21/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZB-HkRyq6Nf2pfA.ttf"
+    "100": "https://fonts.gstatic.com/s/notorashihebrew/v26/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZB-DkRyq6Nf2pfA.ttf",
+    "200": "https://fonts.gstatic.com/s/notorashihebrew/v26/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZh-HkRyq6Nf2pfA.ttf",
+    "300": "https://fonts.gstatic.com/s/notorashihebrew/v26/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZWeHkRyq6Nf2pfA.ttf",
+    "500": "https://fonts.gstatic.com/s/notorashihebrew/v26/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZNeHkRyq6Nf2pfA.ttf",
+    "600": "https://fonts.gstatic.com/s/notorashihebrew/v26/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZ2ebkRyq6Nf2pfA.ttf",
+    "700": "https://fonts.gstatic.com/s/notorashihebrew/v26/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZ4ObkRyq6Nf2pfA.ttf",
+    "800": "https://fonts.gstatic.com/s/notorashihebrew/v26/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZh-bkRyq6Nf2pfA.ttf",
+    "900": "https://fonts.gstatic.com/s/notorashihebrew/v26/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZrubkRyq6Nf2pfA.ttf",
+    "regular": "https://fonts.gstatic.com/s/notorashihebrew/v26/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZB-HkRyq6Nf2pfA.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notorashihebrew/v26/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZB-HURiC-.ttf"
 }

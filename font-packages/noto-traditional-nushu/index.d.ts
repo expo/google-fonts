@@ -6,4 +6,8 @@
 export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
+export const NotoTraditionalNushu_300Light: number;
 export const NotoTraditionalNushu_400Regular: number;
+export const NotoTraditionalNushu_500Medium: number;
+export const NotoTraditionalNushu_600SemiBold: number;
+export const NotoTraditionalNushu_700Bold: number;

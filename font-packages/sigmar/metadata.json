@@ -1,0 +1,11 @@
+{
+  "family": "Sigmar",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v7",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/sigmar/v7/hv-XlzJgIE8a85pUbWY3MTFgVg.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/sigmar/v7/hv-XlzJgIE8a85pkbGwz.ttf"
+}

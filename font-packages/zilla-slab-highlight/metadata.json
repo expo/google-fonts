@@ -2,12 +2,13 @@
   "family": "Zilla Slab Highlight",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2022-09-22",
+  "version": "v19",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/zillaslabhighlight/v17/gNMUW2BrTpK8-inLtBJgMMfbm6uNVDvRxiP0TET4YmVF0Mb6.ttf",
-    "regular": "http://fonts.gstatic.com/s/zillaslabhighlight/v17/gNMbW2BrTpK8-inLtBJgMMfbm6uNVDvRxhtIY2DwSXlM.ttf"
+    "700": "https://fonts.gstatic.com/s/zillaslabhighlight/v19/gNMUW2BrTpK8-inLtBJgMMfbm6uNVDvRxiP0TET4YmVF0Mb6.ttf",
+    "regular": "https://fonts.gstatic.com/s/zillaslabhighlight/v19/gNMbW2BrTpK8-inLtBJgMMfbm6uNVDvRxhtIY2DwSXlM.ttf"
   },
-  "category": "display",
-  "kind": "webfonts#webfont"
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/zillaslabhighlight/v19/gNMbW2BrTpK8-inLtBJgMMfbm6uNVDvRxitJaWQ.ttf"
 }

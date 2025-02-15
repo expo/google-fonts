@@ -2,14 +2,15 @@
   "family": "Noto Serif Toto",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "toto"],
-  "version": "v1",
-  "lastModified": "2023-01-06",
+  "version": "v5",
+  "lastModified": "2024-07-16",
   "files": {
-    "500": "http://fonts.gstatic.com/s/notoseriftoto/v1/Ktk6ALSMeZjqPnXk1rCkHYHNtwvtHItpjRP74dHhCx_Il-aj55vdNug.ttf",
-    "600": "http://fonts.gstatic.com/s/notoseriftoto/v1/Ktk6ALSMeZjqPnXk1rCkHYHNtwvtHItpjRP74dHhC_PPl-aj55vdNug.ttf",
-    "700": "http://fonts.gstatic.com/s/notoseriftoto/v1/Ktk6ALSMeZjqPnXk1rCkHYHNtwvtHItpjRP74dHhC8rPl-aj55vdNug.ttf",
-    "regular": "http://fonts.gstatic.com/s/notoseriftoto/v1/Ktk6ALSMeZjqPnXk1rCkHYHNtwvtHItpjRP74dHhCy3Il-aj55vdNug.ttf"
+    "500": "https://fonts.gstatic.com/s/notoseriftoto/v5/Ktk6ALSMeZjqPnXk1rCkHYHNtwvtHItpjRP74dHhCx_Il-aj55vdNug.ttf",
+    "600": "https://fonts.gstatic.com/s/notoseriftoto/v5/Ktk6ALSMeZjqPnXk1rCkHYHNtwvtHItpjRP74dHhC_PPl-aj55vdNug.ttf",
+    "700": "https://fonts.gstatic.com/s/notoseriftoto/v5/Ktk6ALSMeZjqPnXk1rCkHYHNtwvtHItpjRP74dHhC8rPl-aj55vdNug.ttf",
+    "regular": "https://fonts.gstatic.com/s/notoseriftoto/v5/Ktk6ALSMeZjqPnXk1rCkHYHNtwvtHItpjRP74dHhCy3Il-aj55vdNug.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notoseriftoto/v5/Ktk6ALSMeZjqPnXk1rCkHYHNtwvtHItpjRP74dHhCy3Ip-ep4w.ttf"
 }

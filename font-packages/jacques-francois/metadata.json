@@ -2,11 +2,12 @@
   "family": "Jacques Francois",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v20",
-  "lastModified": "2022-04-26",
+  "version": "v24",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/jacquesfrancois/v20/ZXu9e04ZvKeOOHIe1TMahbcIU2cgmcPqoeRWfbs.ttf"
+    "regular": "https://fonts.gstatic.com/s/jacquesfrancois/v24/ZXu9e04ZvKeOOHIe1TMahbcIU2cgmcPqoeRWfbs.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/jacquesfrancois/v24/ZXu9e04ZvKeOOHIe1TMahbcIU2cgqcLgpQ.ttf"
 }

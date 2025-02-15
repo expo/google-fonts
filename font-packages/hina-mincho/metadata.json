@@ -2,11 +2,12 @@
   "family": "Hina Mincho",
   "variants": ["regular"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext", "vietnamese"],
-  "version": "v8",
-  "lastModified": "2022-09-27",
+  "version": "v14",
+  "lastModified": "2024-12-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/hinamincho/v8/2sDaZGBRhpXa2Jjz5w5LAGW8KbkVZTHR.ttf"
+    "regular": "https://fonts.gstatic.com/s/hinamincho/v14/2sDaZGBRhpXa2Jjz5w5LAGW8KbkVZTHR.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/hinamincho/v14/2sDaZGBRhpXa2Jjz5w5LAFW9I70.ttf"
 }

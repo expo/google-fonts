@@ -2,12 +2,14 @@
   "family": "Aref Ruqaa Ink",
   "variants": ["regular", "700"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2022-09-14",
+  "version": "v10",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/arefruqaaink/v5/1q2cY5WOGUFlt84GTOkP6Kdx71xde6WhqWBCyxWn.ttf",
-    "regular": "http://fonts.gstatic.com/s/arefruqaaink/v5/1q2fY5WOGUFlt84GTOkP6Kdx72ThVIGpgnxL.ttf"
+    "700": "https://fonts.gstatic.com/s/arefruqaaink/v10/1q2cY5WOGUFlt84GTOkP6Kdx71xde6WhqWBCyxWn.ttf",
+    "regular": "https://fonts.gstatic.com/s/arefruqaaink/v10/1q2fY5WOGUFlt84GTOkP6Kdx72ThVIGpgnxL.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/arefruqaaink/v10/1q2fY5WOGUFlt84GTOkP6Kdx71TgXoU.ttf",
+  "colorCapabilities": ["COLRv1", "SVG"]
 }

@@ -1,0 +1,13 @@
+{
+  "family": "Vina Sans",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v6",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/vinasans/v6/m8JQjfZKf6-d2273MP7zcJ5BZmqa3A.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/vinasans/v6/m8JQjfZKf6-d2273MP7DcZRF.ttf"
+}

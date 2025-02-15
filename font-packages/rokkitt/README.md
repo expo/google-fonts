@@ -11,7 +11,7 @@ This package lets you use the [**Rokkitt**](https://fonts.google.com/specimen/Ro
 
 ![Rokkitt](./font-family.png)
 
-This font family contains [9 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
 - `Rokkitt_100Thin`
 - `Rokkitt_200ExtraLight`
@@ -22,6 +22,15 @@ This font family contains [9 styles](#-gallery).
 - `Rokkitt_700Bold`
 - `Rokkitt_800ExtraBold`
 - `Rokkitt_900Black`
+- `Rokkitt_100Thin_Italic`
+- `Rokkitt_200ExtraLight_Italic`
+- `Rokkitt_300Light_Italic`
+- `Rokkitt_400Regular_Italic`
+- `Rokkitt_500Medium_Italic`
+- `Rokkitt_600SemiBold_Italic`
+- `Rokkitt_700Bold_Italic`
+- `Rokkitt_800ExtraBold_Italic`
+- `Rokkitt_900Black_Italic`
 
 ## Usage
 
@@ -47,6 +56,15 @@ import {
   Rokkitt_700Bold,
   Rokkitt_800ExtraBold,
   Rokkitt_900Black,
+  Rokkitt_100Thin_Italic,
+  Rokkitt_200ExtraLight_Italic,
+  Rokkitt_300Light_Italic,
+  Rokkitt_400Regular_Italic,
+  Rokkitt_500Medium_Italic,
+  Rokkitt_600SemiBold_Italic,
+  Rokkitt_700Bold_Italic,
+  Rokkitt_800ExtraBold_Italic,
+  Rokkitt_900Black_Italic,
 } from '@expo-google-fonts/rokkitt';
 
 export default () => {
@@ -60,6 +78,15 @@ export default () => {
     Rokkitt_700Bold,
     Rokkitt_800ExtraBold,
     Rokkitt_900Black,
+    Rokkitt_100Thin_Italic,
+    Rokkitt_200ExtraLight_Italic,
+    Rokkitt_300Light_Italic,
+    Rokkitt_400Regular_Italic,
+    Rokkitt_500Medium_Italic,
+    Rokkitt_600SemiBold_Italic,
+    Rokkitt_700Bold_Italic,
+    Rokkitt_800ExtraBold_Italic,
+    Rokkitt_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -159,6 +186,96 @@ export default () => {
           }}>
           Rokkitt Black
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_100Thin_Italic',
+          }}>
+          Rokkitt Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_200ExtraLight_Italic',
+          }}>
+          Rokkitt Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_300Light_Italic',
+          }}>
+          Rokkitt Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_400Regular_Italic',
+          }}>
+          Rokkitt Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_500Medium_Italic',
+          }}>
+          Rokkitt Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_600SemiBold_Italic',
+          }}>
+          Rokkitt Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_700Bold_Italic',
+          }}>
+          Rokkitt Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_800ExtraBold_Italic',
+          }}>
+          Rokkitt Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Rokkitt_900Black_Italic',
+          }}>
+          Rokkitt Black Italic
+        </Text>
       </View>
     );
   }
@@ -174,6 +291,9 @@ export default () => {
 |![Rokkitt_100Thin](./Rokkitt_100Thin.ttf.png)|![Rokkitt_200ExtraLight](./Rokkitt_200ExtraLight.ttf.png)|![Rokkitt_300Light](./Rokkitt_300Light.ttf.png)||
 |![Rokkitt_400Regular](./Rokkitt_400Regular.ttf.png)|![Rokkitt_500Medium](./Rokkitt_500Medium.ttf.png)|![Rokkitt_600SemiBold](./Rokkitt_600SemiBold.ttf.png)||
 |![Rokkitt_700Bold](./Rokkitt_700Bold.ttf.png)|![Rokkitt_800ExtraBold](./Rokkitt_800ExtraBold.ttf.png)|![Rokkitt_900Black](./Rokkitt_900Black.ttf.png)||
+|![Rokkitt_100Thin_Italic](./Rokkitt_100Thin_Italic.ttf.png)|![Rokkitt_200ExtraLight_Italic](./Rokkitt_200ExtraLight_Italic.ttf.png)|![Rokkitt_300Light_Italic](./Rokkitt_300Light_Italic.ttf.png)||
+|![Rokkitt_400Regular_Italic](./Rokkitt_400Regular_Italic.ttf.png)|![Rokkitt_500Medium_Italic](./Rokkitt_500Medium_Italic.ttf.png)|![Rokkitt_600SemiBold_Italic](./Rokkitt_600SemiBold_Italic.ttf.png)||
+|![Rokkitt_700Bold_Italic](./Rokkitt_700Bold_Italic.ttf.png)|![Rokkitt_800ExtraBold_Italic](./Rokkitt_800ExtraBold_Italic.ttf.png)|![Rokkitt_900Black_Italic](./Rokkitt_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

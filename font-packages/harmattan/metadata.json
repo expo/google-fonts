@@ -1,13 +1,16 @@
 {
   "family": "Harmattan",
-  "variants": ["regular", "700"],
+  "variants": ["regular", "500", "600", "700"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2022-11-09",
+  "version": "v21",
+  "lastModified": "2024-11-20",
   "files": {
-    "700": "http://fonts.gstatic.com/s/harmattan/v17/gokpH6L2DkFvVvRp9Xpr92-HmNZEq6TTFw.ttf",
-    "regular": "http://fonts.gstatic.com/s/harmattan/v17/goksH6L2DkFvVvRp9XpTS0CjkP1Yog.ttf"
+    "500": "https://fonts.gstatic.com/s/harmattan/v21/gokpH6L2DkFvVvRp9Xprv2mHmNZEq6TTFw.ttf",
+    "600": "https://fonts.gstatic.com/s/harmattan/v21/gokpH6L2DkFvVvRp9Xprk26HmNZEq6TTFw.ttf",
+    "700": "https://fonts.gstatic.com/s/harmattan/v21/gokpH6L2DkFvVvRp9Xpr92-HmNZEq6TTFw.ttf",
+    "regular": "https://fonts.gstatic.com/s/harmattan/v21/goksH6L2DkFvVvRp9XpTS0CjkP1Yog.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/harmattan/v21/goksH6L2DkFvVvRp9XpjSkqn.ttf"
 }

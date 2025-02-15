@@ -2,17 +2,18 @@
   "family": "Montagu Slab",
   "variants": ["100", "200", "300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2022-09-22",
+  "version": "v12",
+  "lastModified": "2024-09-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/montaguslab/v6/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDbE3P9Fs7bOSO7.ttf",
-    "200": "http://fonts.gstatic.com/s/montaguslab/v6/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkBbEnP9Fs7bOSO7.ttf",
-    "300": "http://fonts.gstatic.com/s/montaguslab/v6/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkCFEnP9Fs7bOSO7.ttf",
-    "500": "http://fonts.gstatic.com/s/montaguslab/v6/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDpEnP9Fs7bOSO7.ttf",
-    "600": "http://fonts.gstatic.com/s/montaguslab/v6/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkAFFXP9Fs7bOSO7.ttf",
-    "700": "http://fonts.gstatic.com/s/montaguslab/v6/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkA8FXP9Fs7bOSO7.ttf",
-    "regular": "http://fonts.gstatic.com/s/montaguslab/v6/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDbEnP9Fs7bOSO7.ttf"
+    "100": "https://fonts.gstatic.com/s/montaguslab/v12/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDbE3P9Fs7bOSO7.ttf",
+    "200": "https://fonts.gstatic.com/s/montaguslab/v12/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkBbEnP9Fs7bOSO7.ttf",
+    "300": "https://fonts.gstatic.com/s/montaguslab/v12/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkCFEnP9Fs7bOSO7.ttf",
+    "500": "https://fonts.gstatic.com/s/montaguslab/v12/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDpEnP9Fs7bOSO7.ttf",
+    "600": "https://fonts.gstatic.com/s/montaguslab/v12/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkAFFXP9Fs7bOSO7.ttf",
+    "700": "https://fonts.gstatic.com/s/montaguslab/v12/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkA8FXP9Fs7bOSO7.ttf",
+    "regular": "https://fonts.gstatic.com/s/montaguslab/v12/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDbEnP9Fs7bOSO7.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/montaguslab/v12/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDbEkP8HMo.ttf"
 }

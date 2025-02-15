@@ -2,19 +2,20 @@
   "family": "Encode Sans Semi Expanded",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v18",
-  "lastModified": "2022-09-22",
+  "version": "v19",
+  "lastModified": "2024-09-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/encodesanssemiexpanded/v18/ke8xOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TM-41KwrlKXeOEA.ttf",
-    "200": "http://fonts.gstatic.com/s/encodesanssemiexpanded/v18/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TM0IUCyDLJX6XCWU.ttf",
-    "300": "http://fonts.gstatic.com/s/encodesanssemiexpanded/v18/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TMyYXCyDLJX6XCWU.ttf",
-    "500": "http://fonts.gstatic.com/s/encodesanssemiexpanded/v18/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TM34WCyDLJX6XCWU.ttf",
-    "600": "http://fonts.gstatic.com/s/encodesanssemiexpanded/v18/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TM1IRCyDLJX6XCWU.ttf",
-    "700": "http://fonts.gstatic.com/s/encodesanssemiexpanded/v18/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TMzYQCyDLJX6XCWU.ttf",
-    "800": "http://fonts.gstatic.com/s/encodesanssemiexpanded/v18/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TMyoTCyDLJX6XCWU.ttf",
-    "900": "http://fonts.gstatic.com/s/encodesanssemiexpanded/v18/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TMw4SCyDLJX6XCWU.ttf",
-    "regular": "http://fonts.gstatic.com/s/encodesanssemiexpanded/v18/ke83OhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TC4o_LyjgOXc.ttf"
+    "100": "https://fonts.gstatic.com/s/encodesanssemiexpanded/v19/ke8xOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TM-41KwrlKXeOEA.ttf",
+    "200": "https://fonts.gstatic.com/s/encodesanssemiexpanded/v19/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TM0IUCyDLJX6XCWU.ttf",
+    "300": "https://fonts.gstatic.com/s/encodesanssemiexpanded/v19/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TMyYXCyDLJX6XCWU.ttf",
+    "500": "https://fonts.gstatic.com/s/encodesanssemiexpanded/v19/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TM34WCyDLJX6XCWU.ttf",
+    "600": "https://fonts.gstatic.com/s/encodesanssemiexpanded/v19/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TM1IRCyDLJX6XCWU.ttf",
+    "700": "https://fonts.gstatic.com/s/encodesanssemiexpanded/v19/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TMzYQCyDLJX6XCWU.ttf",
+    "800": "https://fonts.gstatic.com/s/encodesanssemiexpanded/v19/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TMyoTCyDLJX6XCWU.ttf",
+    "900": "https://fonts.gstatic.com/s/encodesanssemiexpanded/v19/ke8yOhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TMw4SCyDLJX6XCWU.ttf",
+    "regular": "https://fonts.gstatic.com/s/encodesanssemiexpanded/v19/ke83OhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TC4o_LyjgOXc.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/encodesanssemiexpanded/v19/ke83OhAPMEZs-BDuzwftTNJ85JvwMOzE9d9Cca5TO4s1Kw.ttf"
 }

@@ -11,9 +11,10 @@ This package lets you use the [**Noto Sans Duployan**](https://fonts.google.com/
 
 ![Noto Sans Duployan](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [2 styles](#-gallery).
 
 - `NotoSansDuployan_400Regular`
+- `NotoSansDuployan_700Bold`
 
 ## Usage
 
@@ -28,11 +29,16 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, NotoSansDuployan_400Regular } from '@expo-google-fonts/noto-sans-duployan';
+import {
+  useFonts,
+  NotoSansDuployan_400Regular,
+  NotoSansDuployan_700Bold,
+} from '@expo-google-fonts/noto-sans-duployan';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     NotoSansDuployan_400Regular,
+    NotoSansDuployan_700Bold,
   });
 
   let fontSize = 24;
@@ -52,6 +58,16 @@ export default () => {
           }}>
           Noto Sans Duployan Regular
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansDuployan_700Bold',
+          }}>
+          Noto Sans Duployan Bold
+        </Text>
       </View>
     );
   }
@@ -64,7 +80,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansDuployan_400Regular](./NotoSansDuployan_400Regular.ttf.png)||||
+|![NotoSansDuployan_400Regular](./NotoSansDuployan_400Regular.ttf.png)|![NotoSansDuployan_700Bold](./NotoSansDuployan_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

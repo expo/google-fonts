@@ -2,18 +2,19 @@
   "family": "Anek Telugu",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
   "subsets": ["latin", "latin-ext", "telugu"],
-  "version": "v4",
-  "lastModified": "2023-01-06",
+  "version": "v10",
+  "lastModified": "2024-12-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/anektelugu/v4/LhWLMVrUNvsddMtYGCx4FcVWOjlwE1WgXdoJ-5XHMl2DkooGK7i13y-_oE2G2ep10_8.ttf",
-    "200": "http://fonts.gstatic.com/s/anektelugu/v4/LhWLMVrUNvsddMtYGCx4FcVWOjlwE1WgXdoJ-5XHMl2DkooGK7i136--oE2G2ep10_8.ttf",
-    "300": "http://fonts.gstatic.com/s/anektelugu/v4/LhWLMVrUNvsddMtYGCx4FcVWOjlwE1WgXdoJ-5XHMl2DkooGK7i133G-oE2G2ep10_8.ttf",
-    "500": "http://fonts.gstatic.com/s/anektelugu/v4/LhWLMVrUNvsddMtYGCx4FcVWOjlwE1WgXdoJ-5XHMl2DkooGK7i13x2-oE2G2ep10_8.ttf",
-    "600": "http://fonts.gstatic.com/s/anektelugu/v4/LhWLMVrUNvsddMtYGCx4FcVWOjlwE1WgXdoJ-5XHMl2DkooGK7i13_G5oE2G2ep10_8.ttf",
-    "700": "http://fonts.gstatic.com/s/anektelugu/v4/LhWLMVrUNvsddMtYGCx4FcVWOjlwE1WgXdoJ-5XHMl2DkooGK7i138i5oE2G2ep10_8.ttf",
-    "800": "http://fonts.gstatic.com/s/anektelugu/v4/LhWLMVrUNvsddMtYGCx4FcVWOjlwE1WgXdoJ-5XHMl2DkooGK7i136-5oE2G2ep10_8.ttf",
-    "regular": "http://fonts.gstatic.com/s/anektelugu/v4/LhWLMVrUNvsddMtYGCx4FcVWOjlwE1WgXdoJ-5XHMl2DkooGK7i13y--oE2G2ep10_8.ttf"
+    "100": "https://fonts.gstatic.com/s/anektelugu/v10/LhWLMVrUNvsddMtYGCx4FcVWOjlwE1WgXdoJ-5XHMl2DkooGK7i13y-_oE2G2ep10_8.ttf",
+    "200": "https://fonts.gstatic.com/s/anektelugu/v10/LhWLMVrUNvsddMtYGCx4FcVWOjlwE1WgXdoJ-5XHMl2DkooGK7i136--oE2G2ep10_8.ttf",
+    "300": "https://fonts.gstatic.com/s/anektelugu/v10/LhWLMVrUNvsddMtYGCx4FcVWOjlwE1WgXdoJ-5XHMl2DkooGK7i133G-oE2G2ep10_8.ttf",
+    "500": "https://fonts.gstatic.com/s/anektelugu/v10/LhWLMVrUNvsddMtYGCx4FcVWOjlwE1WgXdoJ-5XHMl2DkooGK7i13x2-oE2G2ep10_8.ttf",
+    "600": "https://fonts.gstatic.com/s/anektelugu/v10/LhWLMVrUNvsddMtYGCx4FcVWOjlwE1WgXdoJ-5XHMl2DkooGK7i13_G5oE2G2ep10_8.ttf",
+    "700": "https://fonts.gstatic.com/s/anektelugu/v10/LhWLMVrUNvsddMtYGCx4FcVWOjlwE1WgXdoJ-5XHMl2DkooGK7i138i5oE2G2ep10_8.ttf",
+    "800": "https://fonts.gstatic.com/s/anektelugu/v10/LhWLMVrUNvsddMtYGCx4FcVWOjlwE1WgXdoJ-5XHMl2DkooGK7i136-5oE2G2ep10_8.ttf",
+    "regular": "https://fonts.gstatic.com/s/anektelugu/v10/LhWLMVrUNvsddMtYGCx4FcVWOjlwE1WgXdoJ-5XHMl2DkooGK7i13y--oE2G2ep10_8.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/anektelugu/v10/LhWLMVrUNvsddMtYGCx4FcVWOjlwE1WgXdoJ-5XHMl2DkooGK7i13y--kEyM3Q.ttf"
 }

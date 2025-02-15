@@ -2,9 +2,10 @@
   "family": "Splash",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v1",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/splash/v1/KtksAL2RZoDkbU6hpPPGNdS6wg.ttf" },
+  "version": "v6",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/splash/v6/KtksAL2RZoDkbU6hpPPGNdS6wg.ttf" },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/splash/v6/KtksAL2RZoDkbU6RpfnC.ttf"
 }

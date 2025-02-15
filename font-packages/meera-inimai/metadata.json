@@ -3,10 +3,11 @@
   "variants": ["regular"],
   "subsets": ["latin", "tamil"],
   "version": "v12",
-  "lastModified": "2022-04-26",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/meerainimai/v12/845fNMM5EIqOW5MPuvO3ILep_2jDVevnLQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/meerainimai/v12/845fNMM5EIqOW5MPuvO3ILep_2jDVevnLQ.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/meerainimai/v12/845fNMM5EIqOW5MPuvO3ILeZ_mLH.ttf"
 }

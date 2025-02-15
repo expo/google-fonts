@@ -2,17 +2,18 @@
   "family": "IBM Plex Sans KR",
   "variants": ["100", "200", "300", "regular", "500", "600", "700"],
   "subsets": ["korean", "latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2022-11-09",
+  "version": "v10",
+  "lastModified": "2024-08-12",
   "files": {
-    "100": "http://fonts.gstatic.com/s/ibmplexsanskr/v9/vEFM2-VJISZe3O_rc3ZVYh4aTwNOyra_X5zCpMrMfA.ttf",
-    "200": "http://fonts.gstatic.com/s/ibmplexsanskr/v9/vEFN2-VJISZe3O_rc3ZVYh4aTwNOyhqef7bsqMPVZb4.ttf",
-    "300": "http://fonts.gstatic.com/s/ibmplexsanskr/v9/vEFN2-VJISZe3O_rc3ZVYh4aTwNOyn6df7bsqMPVZb4.ttf",
-    "500": "http://fonts.gstatic.com/s/ibmplexsanskr/v9/vEFN2-VJISZe3O_rc3ZVYh4aTwNOyiacf7bsqMPVZb4.ttf",
-    "600": "http://fonts.gstatic.com/s/ibmplexsanskr/v9/vEFN2-VJISZe3O_rc3ZVYh4aTwNOygqbf7bsqMPVZb4.ttf",
-    "700": "http://fonts.gstatic.com/s/ibmplexsanskr/v9/vEFN2-VJISZe3O_rc3ZVYh4aTwNOym6af7bsqMPVZb4.ttf",
-    "regular": "http://fonts.gstatic.com/s/ibmplexsanskr/v9/vEFK2-VJISZe3O_rc3ZVYh4aTwNO8tK1W77HtMo.ttf"
+    "100": "https://fonts.gstatic.com/s/ibmplexsanskr/v10/vEFM2-VJISZe3O_rc3ZVYh4aTwNOyra_X5zCpMrMfA.ttf",
+    "200": "https://fonts.gstatic.com/s/ibmplexsanskr/v10/vEFN2-VJISZe3O_rc3ZVYh4aTwNOyhqef7bsqMPVZb4.ttf",
+    "300": "https://fonts.gstatic.com/s/ibmplexsanskr/v10/vEFN2-VJISZe3O_rc3ZVYh4aTwNOyn6df7bsqMPVZb4.ttf",
+    "500": "https://fonts.gstatic.com/s/ibmplexsanskr/v10/vEFN2-VJISZe3O_rc3ZVYh4aTwNOyiacf7bsqMPVZb4.ttf",
+    "600": "https://fonts.gstatic.com/s/ibmplexsanskr/v10/vEFN2-VJISZe3O_rc3ZVYh4aTwNOygqbf7bsqMPVZb4.ttf",
+    "700": "https://fonts.gstatic.com/s/ibmplexsanskr/v10/vEFN2-VJISZe3O_rc3ZVYh4aTwNOym6af7bsqMPVZb4.ttf",
+    "regular": "https://fonts.gstatic.com/s/ibmplexsanskr/v10/vEFK2-VJISZe3O_rc3ZVYh4aTwNO8tK1W77HtMo.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/ibmplexsanskr/v10/vEFK2-VJISZe3O_rc3ZVYh4aTwNOwtO_Xw.ttf"
 }

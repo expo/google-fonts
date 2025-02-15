@@ -2,12 +2,13 @@
   "family": "Zen Loop",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2023-01-06",
+  "version": "v9",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/zenloop/v7/h0GrssK16UsnJwHsEK9zqwzX5vOG.ttf",
-    "italic": "http://fonts.gstatic.com/s/zenloop/v7/h0GtssK16UsnJwHsEJ9xoQj14-OGJ0w.ttf"
+    "regular": "https://fonts.gstatic.com/s/zenloop/v9/h0GrssK16UsnJwHsEK9zqwzX5vOG.ttf",
+    "italic": "https://fonts.gstatic.com/s/zenloop/v9/h0GtssK16UsnJwHsEJ9xoQj14-OGJ0w.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/zenloop/v9/h0GrssK16UsnJwHsEJ9yoQg.ttf"
 }

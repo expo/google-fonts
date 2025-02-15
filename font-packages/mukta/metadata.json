@@ -2,17 +2,18 @@
   "family": "Mukta",
   "variants": ["200", "300", "regular", "500", "600", "700", "800"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2022-09-22",
+  "version": "v16",
+  "lastModified": "2024-11-07",
   "files": {
-    "200": "http://fonts.gstatic.com/s/mukta/v13/iJWHBXyXfDDVXbEOjFma-2HW7ZB_.ttf",
-    "300": "http://fonts.gstatic.com/s/mukta/v13/iJWHBXyXfDDVXbFqj1ma-2HW7ZB_.ttf",
-    "500": "http://fonts.gstatic.com/s/mukta/v13/iJWHBXyXfDDVXbEyjlma-2HW7ZB_.ttf",
-    "600": "http://fonts.gstatic.com/s/mukta/v13/iJWHBXyXfDDVXbEeiVma-2HW7ZB_.ttf",
-    "700": "http://fonts.gstatic.com/s/mukta/v13/iJWHBXyXfDDVXbF6iFma-2HW7ZB_.ttf",
-    "800": "http://fonts.gstatic.com/s/mukta/v13/iJWHBXyXfDDVXbFmi1ma-2HW7ZB_.ttf",
-    "regular": "http://fonts.gstatic.com/s/mukta/v13/iJWKBXyXfDDVXYnGp32S0H3f.ttf"
+    "200": "https://fonts.gstatic.com/s/mukta/v16/iJWHBXyXfDDVXbEOjFma-2HW7ZB_.ttf",
+    "300": "https://fonts.gstatic.com/s/mukta/v16/iJWHBXyXfDDVXbFqj1ma-2HW7ZB_.ttf",
+    "500": "https://fonts.gstatic.com/s/mukta/v16/iJWHBXyXfDDVXbEyjlma-2HW7ZB_.ttf",
+    "600": "https://fonts.gstatic.com/s/mukta/v16/iJWHBXyXfDDVXbEeiVma-2HW7ZB_.ttf",
+    "700": "https://fonts.gstatic.com/s/mukta/v16/iJWHBXyXfDDVXbF6iFma-2HW7ZB_.ttf",
+    "800": "https://fonts.gstatic.com/s/mukta/v16/iJWHBXyXfDDVXbFmi1ma-2HW7ZB_.ttf",
+    "regular": "https://fonts.gstatic.com/s/mukta/v16/iJWKBXyXfDDVXYnGp32S0H3f.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/mukta/v16/iJWKBXyXfDDVXbnHrXk.ttf"
 }

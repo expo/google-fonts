@@ -2,11 +2,12 @@
   "family": "Water Brush",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v2",
-  "lastModified": "2022-09-22",
+  "version": "v4",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/waterbrush/v2/AYCPpXPqc8cJWLhp4hywKHJq7PKP5Z_G.ttf"
+    "regular": "https://fonts.gstatic.com/s/waterbrush/v4/AYCPpXPqc8cJWLhp4hywKHJq7PKP5Z_G.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/waterbrush/v4/AYCPpXPqc8cJWLhp4hywKEJr5vY.ttf"
 }

@@ -1,0 +1,17 @@
+{
+  "family": "Tsukimi Rounded",
+  "variants": ["300", "regular", "500", "600", "700"],
+  "subsets": ["japanese", "latin", "latin-ext"],
+  "version": "v11",
+  "lastModified": "2024-08-07",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/tsukimirounded/v11/sJoZ3LJNksWZO0LvnZwkF3HtoB7VkVsqN7MT3T9X8g.ttf",
+    "500": "https://fonts.gstatic.com/s/tsukimirounded/v11/sJoZ3LJNksWZO0LvnZwkF3HtoB7VyVoqN7MT3T9X8g.ttf",
+    "600": "https://fonts.gstatic.com/s/tsukimirounded/v11/sJoZ3LJNksWZO0LvnZwkF3HtoB7V5V0qN7MT3T9X8g.ttf",
+    "700": "https://fonts.gstatic.com/s/tsukimirounded/v11/sJoZ3LJNksWZO0LvnZwkF3HtoB7VgVwqN7MT3T9X8g.ttf",
+    "regular": "https://fonts.gstatic.com/s/tsukimirounded/v11/sJoc3LJNksWZO0LvnZwkF3HtoB7tPXMOP5gP1A.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/tsukimirounded/v11/sJoc3LJNksWZO0LvnZwkF3HtoB7dPHkK.ttf"
+}

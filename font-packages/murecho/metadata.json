@@ -2,19 +2,20 @@
   "family": "Murecho",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["cyrillic", "cyrillic-ext", "greek", "japanese", "latin", "latin-ext"],
-  "version": "v6",
-  "lastModified": "2022-09-27",
+  "version": "v12",
+  "lastModified": "2024-08-07",
   "files": {
-    "100": "http://fonts.gstatic.com/s/murecho/v6/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMpr5HWZLCpUOaM6.ttf",
-    "200": "http://fonts.gstatic.com/s/murecho/v6/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMrr5XWZLCpUOaM6.ttf",
-    "300": "http://fonts.gstatic.com/s/murecho/v6/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMo15XWZLCpUOaM6.ttf",
-    "500": "http://fonts.gstatic.com/s/murecho/v6/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMpZ5XWZLCpUOaM6.ttf",
-    "600": "http://fonts.gstatic.com/s/murecho/v6/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMq14nWZLCpUOaM6.ttf",
-    "700": "http://fonts.gstatic.com/s/murecho/v6/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMqM4nWZLCpUOaM6.ttf",
-    "800": "http://fonts.gstatic.com/s/murecho/v6/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMrr4nWZLCpUOaM6.ttf",
-    "900": "http://fonts.gstatic.com/s/murecho/v6/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMrC4nWZLCpUOaM6.ttf",
-    "regular": "http://fonts.gstatic.com/s/murecho/v6/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMpr5XWZLCpUOaM6.ttf"
+    "100": "https://fonts.gstatic.com/s/murecho/v12/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMpr5HWZLCpUOaM6.ttf",
+    "200": "https://fonts.gstatic.com/s/murecho/v12/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMrr5XWZLCpUOaM6.ttf",
+    "300": "https://fonts.gstatic.com/s/murecho/v12/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMo15XWZLCpUOaM6.ttf",
+    "500": "https://fonts.gstatic.com/s/murecho/v12/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMpZ5XWZLCpUOaM6.ttf",
+    "600": "https://fonts.gstatic.com/s/murecho/v12/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMq14nWZLCpUOaM6.ttf",
+    "700": "https://fonts.gstatic.com/s/murecho/v12/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMqM4nWZLCpUOaM6.ttf",
+    "800": "https://fonts.gstatic.com/s/murecho/v12/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMrr4nWZLCpUOaM6.ttf",
+    "900": "https://fonts.gstatic.com/s/murecho/v12/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMrC4nWZLCpUOaM6.ttf",
+    "regular": "https://fonts.gstatic.com/s/murecho/v12/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMpr5XWZLCpUOaM6.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/murecho/v12/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMpr5UWYJi4.ttf"
 }

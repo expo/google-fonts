@@ -2,19 +2,20 @@
   "family": "Noto Serif Tibetan",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "tibetan"],
-  "version": "v18",
-  "lastModified": "2022-11-09",
+  "version": "v22",
+  "lastModified": "2023-03-09",
   "files": {
-    "100": "http://fonts.gstatic.com/s/notoseriftibetan/v18/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIrYdPS7rdSy_32c.ttf",
-    "200": "http://fonts.gstatic.com/s/notoseriftibetan/v18/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIjYcPS7rdSy_32c.ttf",
-    "300": "http://fonts.gstatic.com/s/notoseriftibetan/v18/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIugcPS7rdSy_32c.ttf",
-    "500": "http://fonts.gstatic.com/s/notoseriftibetan/v18/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIoQcPS7rdSy_32c.ttf",
-    "600": "http://fonts.gstatic.com/s/notoseriftibetan/v18/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmImgbPS7rdSy_32c.ttf",
-    "700": "http://fonts.gstatic.com/s/notoseriftibetan/v18/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIlEbPS7rdSy_32c.ttf",
-    "800": "http://fonts.gstatic.com/s/notoseriftibetan/v18/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIjYbPS7rdSy_32c.ttf",
-    "900": "http://fonts.gstatic.com/s/notoseriftibetan/v18/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIh8bPS7rdSy_32c.ttf",
-    "regular": "http://fonts.gstatic.com/s/notoseriftibetan/v18/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIrYcPS7rdSy_32c.ttf"
+    "100": "https://fonts.gstatic.com/s/notoseriftibetan/v22/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIrYdPS7rdSy_32c.ttf",
+    "200": "https://fonts.gstatic.com/s/notoseriftibetan/v22/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIjYcPS7rdSy_32c.ttf",
+    "300": "https://fonts.gstatic.com/s/notoseriftibetan/v22/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIugcPS7rdSy_32c.ttf",
+    "500": "https://fonts.gstatic.com/s/notoseriftibetan/v22/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIoQcPS7rdSy_32c.ttf",
+    "600": "https://fonts.gstatic.com/s/notoseriftibetan/v22/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmImgbPS7rdSy_32c.ttf",
+    "700": "https://fonts.gstatic.com/s/notoseriftibetan/v22/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIlEbPS7rdSy_32c.ttf",
+    "800": "https://fonts.gstatic.com/s/notoseriftibetan/v22/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIjYbPS7rdSy_32c.ttf",
+    "900": "https://fonts.gstatic.com/s/notoseriftibetan/v22/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIh8bPS7rdSy_32c.ttf",
+    "regular": "https://fonts.gstatic.com/s/notoseriftibetan/v22/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIrYcPS7rdSy_32c.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notoseriftibetan/v22/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIrYcDS_hcQ.ttf"
 }

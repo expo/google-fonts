@@ -2,15 +2,16 @@
   "family": "Varta",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v17",
-  "lastModified": "2022-09-22",
+  "version": "v21",
+  "lastModified": "2024-09-04",
   "files": {
-    "300": "http://fonts.gstatic.com/s/varta/v17/Qw3AZQpJHj_6LzHUngWbrFkDH1x96j4EirE-9PGLfQ.ttf",
-    "500": "http://fonts.gstatic.com/s/varta/v17/Qw3AZQpJHj_6LzHUngWbrFkDH1x9hj4EirE-9PGLfQ.ttf",
-    "600": "http://fonts.gstatic.com/s/varta/v17/Qw3AZQpJHj_6LzHUngWbrFkDH1x9ajkEirE-9PGLfQ.ttf",
-    "700": "http://fonts.gstatic.com/s/varta/v17/Qw3AZQpJHj_6LzHUngWbrFkDH1x9UzkEirE-9PGLfQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/varta/v17/Qw3AZQpJHj_6LzHUngWbrFkDH1x9tD4EirE-9PGLfQ.ttf"
+    "300": "https://fonts.gstatic.com/s/varta/v21/Qw3AZQpJHj_6LzHUngWbrFkDH1x96j4EirE-9PGLfQ.ttf",
+    "500": "https://fonts.gstatic.com/s/varta/v21/Qw3AZQpJHj_6LzHUngWbrFkDH1x9hj4EirE-9PGLfQ.ttf",
+    "600": "https://fonts.gstatic.com/s/varta/v21/Qw3AZQpJHj_6LzHUngWbrFkDH1x9ajkEirE-9PGLfQ.ttf",
+    "700": "https://fonts.gstatic.com/s/varta/v21/Qw3AZQpJHj_6LzHUngWbrFkDH1x9UzkEirE-9PGLfQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/varta/v21/Qw3AZQpJHj_6LzHUngWbrFkDH1x9tD4EirE-9PGLfQ.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/varta/v21/Qw3AZQpJHj_6LzHUngWbrFkDH1x9tD40i7s6.ttf"
 }

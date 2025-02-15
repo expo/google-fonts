@@ -1,10 +1,11 @@
 {
   "family": "Alike",
   "variants": ["regular"],
-  "subsets": ["latin"],
-  "version": "v20",
-  "lastModified": "2022-04-20",
-  "files": { "regular": "http://fonts.gstatic.com/s/alike/v20/HI_EiYEYI6BIoEjBSZXAQ4-d.ttf" },
+  "subsets": ["latin", "latin-ext", "math", "symbols"],
+  "version": "v21",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/alike/v21/HI_EiYEYI6BIoEjBSZXAQ4-d.ttf" },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/alike/v21/HI_EiYEYI6BIoHjAQ5E.ttf"
 }

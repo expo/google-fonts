@@ -2,15 +2,16 @@
   "family": "Hind Siliguri",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["bengali", "latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2022-09-22",
+  "version": "v13",
+  "lastModified": "2024-12-04",
   "files": {
-    "300": "http://fonts.gstatic.com/s/hindsiliguri/v12/ijwOs5juQtsyLLR5jN4cxBEoRDf44uEfKiGvxts.ttf",
-    "500": "http://fonts.gstatic.com/s/hindsiliguri/v12/ijwOs5juQtsyLLR5jN4cxBEoRG_54uEfKiGvxts.ttf",
-    "600": "http://fonts.gstatic.com/s/hindsiliguri/v12/ijwOs5juQtsyLLR5jN4cxBEoREP-4uEfKiGvxts.ttf",
-    "700": "http://fonts.gstatic.com/s/hindsiliguri/v12/ijwOs5juQtsyLLR5jN4cxBEoRCf_4uEfKiGvxts.ttf",
-    "regular": "http://fonts.gstatic.com/s/hindsiliguri/v12/ijwTs5juQtsyLLR5jN4cxBEofJvQxuk0Nig.ttf"
+    "300": "https://fonts.gstatic.com/s/hindsiliguri/v13/ijwOs5juQtsyLLR5jN4cxBEoRDf44uEfKiGvxts.ttf",
+    "500": "https://fonts.gstatic.com/s/hindsiliguri/v13/ijwOs5juQtsyLLR5jN4cxBEoRG_54uEfKiGvxts.ttf",
+    "600": "https://fonts.gstatic.com/s/hindsiliguri/v13/ijwOs5juQtsyLLR5jN4cxBEoREP-4uEfKiGvxts.ttf",
+    "700": "https://fonts.gstatic.com/s/hindsiliguri/v13/ijwOs5juQtsyLLR5jN4cxBEoRCf_4uEfKiGvxts.ttf",
+    "regular": "https://fonts.gstatic.com/s/hindsiliguri/v13/ijwTs5juQtsyLLR5jN4cxBEofJvQxuk0Nig.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/hindsiliguri/v13/ijwTs5juQtsyLLR5jN4cxBEoTJrawg.ttf"
 }

@@ -1,0 +1,14 @@
+{
+  "family": "Noto Znamenny Musical Notation",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "math", "symbols", "znamenny"],
+  "version": "v3",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/notoznamennymusicalnotation/v3/CSRW4ylQnPyaDwAMK1U_AolTaJ4Lz41GcgaIZV9YO2rO88jvtpqqdoWa7g.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notoznamennymusicalnotation/v3/CSRW4ylQnPyaDwAMK1U_AolTaJ4Lz41GcgaIZV9YO2rO88jft5Cu.ttf",
+  "colorCapabilities": ["COLRv0"]
+}

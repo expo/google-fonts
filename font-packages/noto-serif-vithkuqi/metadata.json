@@ -1,0 +1,16 @@
+{
+  "family": "Noto Serif Vithkuqi",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext", "vithkuqi"],
+  "version": "v1",
+  "lastModified": "2023-07-24",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/notoserifvithkuqi/v1/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRW-dW2Cqy9A4teH.ttf",
+    "600": "https://fonts.gstatic.com/s/notoserifvithkuqi/v1/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRVScm2Cqy9A4teH.ttf",
+    "700": "https://fonts.gstatic.com/s/notoserifvithkuqi/v1/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRVrcm2Cqy9A4teH.ttf",
+    "regular": "https://fonts.gstatic.com/s/notoserifvithkuqi/v1/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRWMdW2Cqy9A4teH.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notoserifvithkuqi/v1/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRWMdV2DoSs.ttf"
+}

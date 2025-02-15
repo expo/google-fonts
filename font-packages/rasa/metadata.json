@@ -13,20 +13,21 @@
     "700italic"
   ],
   "subsets": ["gujarati", "latin", "latin-ext", "vietnamese"],
-  "version": "v15",
-  "lastModified": "2022-09-22",
+  "version": "v22",
+  "lastModified": "2024-09-04",
   "files": {
-    "300": "http://fonts.gstatic.com/s/rasa/v15/xn76YHIn1mWmVKl8ZtAM9NrJfN4YJW41fcvN2KT4.ttf",
-    "500": "http://fonts.gstatic.com/s/rasa/v15/xn76YHIn1mWmVKl8ZtAM9NrJfN50JW41fcvN2KT4.ttf",
-    "600": "http://fonts.gstatic.com/s/rasa/v15/xn76YHIn1mWmVKl8ZtAM9NrJfN6YIm41fcvN2KT4.ttf",
-    "700": "http://fonts.gstatic.com/s/rasa/v15/xn76YHIn1mWmVKl8ZtAM9NrJfN6hIm41fcvN2KT4.ttf",
-    "regular": "http://fonts.gstatic.com/s/rasa/v15/xn76YHIn1mWmVKl8ZtAM9NrJfN5GJW41fcvN2KT4.ttf",
-    "300italic": "http://fonts.gstatic.com/s/rasa/v15/xn78YHIn1mWmfqBOmQhln0Bne8uOZth2d8_v3bT4Ycc.ttf",
-    "italic": "http://fonts.gstatic.com/s/rasa/v15/xn78YHIn1mWmfqBOmQhln0Bne8uOZoZ2d8_v3bT4Ycc.ttf",
-    "500italic": "http://fonts.gstatic.com/s/rasa/v15/xn78YHIn1mWmfqBOmQhln0Bne8uOZrR2d8_v3bT4Ycc.ttf",
-    "600italic": "http://fonts.gstatic.com/s/rasa/v15/xn78YHIn1mWmfqBOmQhln0Bne8uOZlhxd8_v3bT4Ycc.ttf",
-    "700italic": "http://fonts.gstatic.com/s/rasa/v15/xn78YHIn1mWmfqBOmQhln0Bne8uOZmFxd8_v3bT4Ycc.ttf"
+    "300": "https://fonts.gstatic.com/s/rasa/v22/xn76YHIn1mWmVKl8ZtAM9NrJfN4YJW41fcvN2KT4.ttf",
+    "500": "https://fonts.gstatic.com/s/rasa/v22/xn76YHIn1mWmVKl8ZtAM9NrJfN50JW41fcvN2KT4.ttf",
+    "600": "https://fonts.gstatic.com/s/rasa/v22/xn76YHIn1mWmVKl8ZtAM9NrJfN6YIm41fcvN2KT4.ttf",
+    "700": "https://fonts.gstatic.com/s/rasa/v22/xn76YHIn1mWmVKl8ZtAM9NrJfN6hIm41fcvN2KT4.ttf",
+    "regular": "https://fonts.gstatic.com/s/rasa/v22/xn76YHIn1mWmVKl8ZtAM9NrJfN5GJW41fcvN2KT4.ttf",
+    "300italic": "https://fonts.gstatic.com/s/rasa/v22/xn78YHIn1mWmfqBOmQhln0Bne8uOZth2d8_v3bT4Ycc.ttf",
+    "italic": "https://fonts.gstatic.com/s/rasa/v22/xn78YHIn1mWmfqBOmQhln0Bne8uOZoZ2d8_v3bT4Ycc.ttf",
+    "500italic": "https://fonts.gstatic.com/s/rasa/v22/xn78YHIn1mWmfqBOmQhln0Bne8uOZrR2d8_v3bT4Ycc.ttf",
+    "600italic": "https://fonts.gstatic.com/s/rasa/v22/xn78YHIn1mWmfqBOmQhln0Bne8uOZlhxd8_v3bT4Ycc.ttf",
+    "700italic": "https://fonts.gstatic.com/s/rasa/v22/xn78YHIn1mWmfqBOmQhln0Bne8uOZmFxd8_v3bT4Ycc.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/rasa/v22/xn76YHIn1mWmVKl8ZtAM9NrJfN5GJV40d88.ttf"
 }

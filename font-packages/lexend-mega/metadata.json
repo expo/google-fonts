@@ -2,19 +2,20 @@
   "family": "Lexend Mega",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v24",
-  "lastModified": "2023-01-06",
+  "version": "v25",
+  "lastModified": "2024-09-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/lexendmega/v24/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDL8fivveyiq9EqQw.ttf",
-    "200": "http://fonts.gstatic.com/s/lexendmega/v24/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLcfmvveyiq9EqQw.ttf",
-    "300": "http://fonts.gstatic.com/s/lexendmega/v24/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLr_mvveyiq9EqQw.ttf",
-    "500": "http://fonts.gstatic.com/s/lexendmega/v24/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLw_mvveyiq9EqQw.ttf",
-    "600": "http://fonts.gstatic.com/s/lexendmega/v24/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLL_6vveyiq9EqQw.ttf",
-    "700": "http://fonts.gstatic.com/s/lexendmega/v24/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLFv6vveyiq9EqQw.ttf",
-    "800": "http://fonts.gstatic.com/s/lexendmega/v24/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLcf6vveyiq9EqQw.ttf",
-    "900": "http://fonts.gstatic.com/s/lexendmega/v24/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLWP6vveyiq9EqQw.ttf",
-    "regular": "http://fonts.gstatic.com/s/lexendmega/v24/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDL8fmvveyiq9EqQw.ttf"
+    "100": "https://fonts.gstatic.com/s/lexendmega/v25/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDL8fivveyiq9EqQw.ttf",
+    "200": "https://fonts.gstatic.com/s/lexendmega/v25/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLcfmvveyiq9EqQw.ttf",
+    "300": "https://fonts.gstatic.com/s/lexendmega/v25/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLr_mvveyiq9EqQw.ttf",
+    "500": "https://fonts.gstatic.com/s/lexendmega/v25/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLw_mvveyiq9EqQw.ttf",
+    "600": "https://fonts.gstatic.com/s/lexendmega/v25/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLL_6vveyiq9EqQw.ttf",
+    "700": "https://fonts.gstatic.com/s/lexendmega/v25/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLFv6vveyiq9EqQw.ttf",
+    "800": "https://fonts.gstatic.com/s/lexendmega/v25/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLcf6vveyiq9EqQw.ttf",
+    "900": "https://fonts.gstatic.com/s/lexendmega/v25/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDLWP6vveyiq9EqQw.ttf",
+    "regular": "https://fonts.gstatic.com/s/lexendmega/v25/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDL8fmvveyiq9EqQw.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/lexendmega/v25/qFdX35aBi5JtHD41zSTFEuTByuvYFuE9IbDL8fmfvOam.ttf"
 }

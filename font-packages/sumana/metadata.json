@@ -3,11 +3,12 @@
   "variants": ["regular", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
   "version": "v10",
-  "lastModified": "2022-09-22",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/sumana/v10/4UaArE5TqRBjGj--TDfG54fN6ppsKg.ttf",
-    "regular": "http://fonts.gstatic.com/s/sumana/v10/4UaDrE5TqRBjGj-G8Bji76zR4w.ttf"
+    "700": "https://fonts.gstatic.com/s/sumana/v10/4UaArE5TqRBjGj--TDfG54fN6ppsKg.ttf",
+    "regular": "https://fonts.gstatic.com/s/sumana/v10/4UaDrE5TqRBjGj-G8Bji76zR4w.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/sumana/v10/4UaDrE5TqRBjGj-28RLm.ttf"
 }

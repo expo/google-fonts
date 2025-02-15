@@ -11,9 +11,12 @@ This package lets you use the [**Noto Sans Gunjala Gondi**](https://fonts.google
 
 ![Noto Sans Gunjala Gondi](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [4 styles](#-gallery).
 
 - `NotoSansGunjalaGondi_400Regular`
+- `NotoSansGunjalaGondi_500Medium`
+- `NotoSansGunjalaGondi_600SemiBold`
+- `NotoSansGunjalaGondi_700Bold`
 
 ## Usage
 
@@ -31,11 +34,17 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   NotoSansGunjalaGondi_400Regular,
+  NotoSansGunjalaGondi_500Medium,
+  NotoSansGunjalaGondi_600SemiBold,
+  NotoSansGunjalaGondi_700Bold,
 } from '@expo-google-fonts/noto-sans-gunjala-gondi';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     NotoSansGunjalaGondi_400Regular,
+    NotoSansGunjalaGondi_500Medium,
+    NotoSansGunjalaGondi_600SemiBold,
+    NotoSansGunjalaGondi_700Bold,
   });
 
   let fontSize = 24;
@@ -55,6 +64,36 @@ export default () => {
           }}>
           Noto Sans Gunjala Gondi Regular
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansGunjalaGondi_500Medium',
+          }}>
+          Noto Sans Gunjala Gondi Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansGunjalaGondi_600SemiBold',
+          }}>
+          Noto Sans Gunjala Gondi Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansGunjalaGondi_700Bold',
+          }}>
+          Noto Sans Gunjala Gondi Bold
+        </Text>
       </View>
     );
   }
@@ -67,7 +106,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansGunjalaGondi_400Regular](./NotoSansGunjalaGondi_400Regular.ttf.png)||||
+|![NotoSansGunjalaGondi_400Regular](./NotoSansGunjalaGondi_400Regular.ttf.png)|![NotoSansGunjalaGondi_500Medium](./NotoSansGunjalaGondi_500Medium.ttf.png)|![NotoSansGunjalaGondi_600SemiBold](./NotoSansGunjalaGondi_600SemiBold.ttf.png)||
+|![NotoSansGunjalaGondi_700Bold](./NotoSansGunjalaGondi_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

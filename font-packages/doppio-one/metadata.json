@@ -3,10 +3,11 @@
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
   "version": "v13",
-  "lastModified": "2022-09-22",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/doppioone/v13/Gg8wN5gSaBfyBw2MqCh-lgshKGpe5Fg.ttf"
+    "regular": "https://fonts.gstatic.com/s/doppioone/v13/Gg8wN5gSaBfyBw2MqCh-lgshKGpe5Fg.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/doppioone/v13/Gg8wN5gSaBfyBw2MqCh-pgorLA.ttf"
 }

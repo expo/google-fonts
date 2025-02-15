@@ -12,4 +12,5 @@ export const Mada_400Regular: number;
 export const Mada_500Medium: number;
 export const Mada_600SemiBold: number;
 export const Mada_700Bold: number;
+export const Mada_800ExtraBold: number;
 export const Mada_900Black: number;

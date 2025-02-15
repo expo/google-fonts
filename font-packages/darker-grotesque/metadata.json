@@ -2,17 +2,18 @@
   "family": "Darker Grotesque",
   "variants": ["300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2022-09-22",
+  "version": "v8",
+  "lastModified": "2024-09-04",
   "files": {
-    "300": "http://fonts.gstatic.com/s/darkergrotesque/v7/U9MA6cuh-mLQlC4BKCtayOfARkSVoxr2AW8hTOsXsX0.ttf",
-    "500": "http://fonts.gstatic.com/s/darkergrotesque/v7/U9MA6cuh-mLQlC4BKCtayOfARkSVo0L3AW8hTOsXsX0.ttf",
-    "600": "http://fonts.gstatic.com/s/darkergrotesque/v7/U9MA6cuh-mLQlC4BKCtayOfARkSVo27wAW8hTOsXsX0.ttf",
-    "700": "http://fonts.gstatic.com/s/darkergrotesque/v7/U9MA6cuh-mLQlC4BKCtayOfARkSVowrxAW8hTOsXsX0.ttf",
-    "800": "http://fonts.gstatic.com/s/darkergrotesque/v7/U9MA6cuh-mLQlC4BKCtayOfARkSVoxbyAW8hTOsXsX0.ttf",
-    "900": "http://fonts.gstatic.com/s/darkergrotesque/v7/U9MA6cuh-mLQlC4BKCtayOfARkSVozLzAW8hTOsXsX0.ttf",
-    "regular": "http://fonts.gstatic.com/s/darkergrotesque/v7/U9MH6cuh-mLQlC4BKCtayOfARkSVm7beJWcKUOI.ttf"
+    "300": "https://fonts.gstatic.com/s/darkergrotesque/v8/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXxpqn7y-XFyZFUB.ttf",
+    "500": "https://fonts.gstatic.com/s/darkergrotesque/v8/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXwFqn7y-XFyZFUB.ttf",
+    "600": "https://fonts.gstatic.com/s/darkergrotesque/v8/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXzprX7y-XFyZFUB.ttf",
+    "700": "https://fonts.gstatic.com/s/darkergrotesque/v8/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXzQrX7y-XFyZFUB.ttf",
+    "800": "https://fonts.gstatic.com/s/darkergrotesque/v8/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXy3rX7y-XFyZFUB.ttf",
+    "900": "https://fonts.gstatic.com/s/darkergrotesque/v8/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXyerX7y-XFyZFUB.ttf",
+    "regular": "https://fonts.gstatic.com/s/darkergrotesque/v8/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXw3qn7y-XFyZFUB.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/darkergrotesque/v8/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXw3qk7z83U.ttf"
 }

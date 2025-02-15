@@ -1,20 +1,30 @@
 {
   "family": "Gothic A1",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["korean", "latin"],
-  "version": "v13",
-  "lastModified": "2022-09-27",
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "korean",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
+  "version": "v17",
+  "lastModified": "2024-11-20",
   "files": {
-    "100": "http://fonts.gstatic.com/s/gothica1/v13/CSR74z5ZnPydRjlCCwlCCMcqYtd2vfwk.ttf",
-    "200": "http://fonts.gstatic.com/s/gothica1/v13/CSR44z5ZnPydRjlCCwlCpOYKSPl6tOU9Eg.ttf",
-    "300": "http://fonts.gstatic.com/s/gothica1/v13/CSR44z5ZnPydRjlCCwlCwOUKSPl6tOU9Eg.ttf",
-    "500": "http://fonts.gstatic.com/s/gothica1/v13/CSR44z5ZnPydRjlCCwlCmOQKSPl6tOU9Eg.ttf",
-    "600": "http://fonts.gstatic.com/s/gothica1/v13/CSR44z5ZnPydRjlCCwlCtOMKSPl6tOU9Eg.ttf",
-    "700": "http://fonts.gstatic.com/s/gothica1/v13/CSR44z5ZnPydRjlCCwlC0OIKSPl6tOU9Eg.ttf",
-    "800": "http://fonts.gstatic.com/s/gothica1/v13/CSR44z5ZnPydRjlCCwlCzOEKSPl6tOU9Eg.ttf",
-    "900": "http://fonts.gstatic.com/s/gothica1/v13/CSR44z5ZnPydRjlCCwlC6OAKSPl6tOU9Eg.ttf",
-    "regular": "http://fonts.gstatic.com/s/gothica1/v13/CSR94z5ZnPydRjlCCwl6bM0uQNJmvQ.ttf"
+    "100": "https://fonts.gstatic.com/s/gothica1/v17/CSR74z5ZnPydRjlCCwlCCMcqYtd2vfwk.ttf",
+    "200": "https://fonts.gstatic.com/s/gothica1/v17/CSR44z5ZnPydRjlCCwlCpOYKSPl6tOU9Eg.ttf",
+    "300": "https://fonts.gstatic.com/s/gothica1/v17/CSR44z5ZnPydRjlCCwlCwOUKSPl6tOU9Eg.ttf",
+    "500": "https://fonts.gstatic.com/s/gothica1/v17/CSR44z5ZnPydRjlCCwlCmOQKSPl6tOU9Eg.ttf",
+    "600": "https://fonts.gstatic.com/s/gothica1/v17/CSR44z5ZnPydRjlCCwlCtOMKSPl6tOU9Eg.ttf",
+    "700": "https://fonts.gstatic.com/s/gothica1/v17/CSR44z5ZnPydRjlCCwlC0OIKSPl6tOU9Eg.ttf",
+    "800": "https://fonts.gstatic.com/s/gothica1/v17/CSR44z5ZnPydRjlCCwlCzOEKSPl6tOU9Eg.ttf",
+    "900": "https://fonts.gstatic.com/s/gothica1/v17/CSR44z5ZnPydRjlCCwlC6OAKSPl6tOU9Eg.ttf",
+    "regular": "https://fonts.gstatic.com/s/gothica1/v17/CSR94z5ZnPydRjlCCwl6bM0uQNJmvQ.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/gothica1/v17/CSR94z5ZnPydRjlCCwlKbccq.ttf"
 }

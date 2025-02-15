@@ -1,17 +1,21 @@
 {
   "family": "Noto Sans HK",
-  "variants": ["100", "300", "regular", "500", "700", "900"],
-  "subsets": ["chinese-hongkong", "latin"],
-  "version": "v21",
-  "lastModified": "2022-09-27",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["chinese-hongkong", "cyrillic", "latin", "latin-ext", "vietnamese"],
+  "version": "v32",
+  "lastModified": "2024-07-30",
   "files": {
-    "100": "http://fonts.gstatic.com/s/notosanshk/v21/nKKO-GM_FYFRJvXzVXaAPe9ZUHp1MOv2ObB7.otf",
-    "300": "http://fonts.gstatic.com/s/notosanshk/v21/nKKP-GM_FYFRJvXzVXaAPe9ZmFhTHMX6MKliqQ.otf",
-    "500": "http://fonts.gstatic.com/s/notosanshk/v21/nKKP-GM_FYFRJvXzVXaAPe9ZwFlTHMX6MKliqQ.otf",
-    "700": "http://fonts.gstatic.com/s/notosanshk/v21/nKKP-GM_FYFRJvXzVXaAPe9ZiF9THMX6MKliqQ.otf",
-    "900": "http://fonts.gstatic.com/s/notosanshk/v21/nKKP-GM_FYFRJvXzVXaAPe9ZsF1THMX6MKliqQ.otf",
-    "regular": "http://fonts.gstatic.com/s/notosanshk/v21/nKKQ-GM_FYFRJvXzVXaAPe9hMnB3Eu7mOQ.otf"
+    "100": "https://fonts.gstatic.com/s/notosanshk/v32/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qHB_-oWTiYjNvVA.ttf",
+    "200": "https://fonts.gstatic.com/s/notosanshk/v32/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qPB--oWTiYjNvVA.ttf",
+    "300": "https://fonts.gstatic.com/s/notosanshk/v32/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qC5--oWTiYjNvVA.ttf",
+    "500": "https://fonts.gstatic.com/s/notosanshk/v32/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qEJ--oWTiYjNvVA.ttf",
+    "600": "https://fonts.gstatic.com/s/notosanshk/v32/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qK55-oWTiYjNvVA.ttf",
+    "700": "https://fonts.gstatic.com/s/notosanshk/v32/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qJd5-oWTiYjNvVA.ttf",
+    "800": "https://fonts.gstatic.com/s/notosanshk/v32/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qPB5-oWTiYjNvVA.ttf",
+    "900": "https://fonts.gstatic.com/s/notosanshk/v32/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qNl5-oWTiYjNvVA.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosanshk/v32/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qHB--oWTiYjNvVA.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanshk/v32/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qHB-yoSZjQ.ttf"
 }

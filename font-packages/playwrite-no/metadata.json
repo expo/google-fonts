@@ -1,0 +1,16 @@
+{
+  "family": "Playwrite NO",
+  "variants": ["100", "200", "300", "regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2025-02-12",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playwriteno/v9/nuFrD_fYSZviRJYb-P2TrQO1DRpazaZDgnw-49whHKen-mjRVtc.ttf",
+    "200": "https://fonts.gstatic.com/s/playwriteno/v9/nuFrD_fYSZviRJYb-P2TrQO1DRpazaZDgnw-41wgHKen-mjRVtc.ttf",
+    "300": "https://fonts.gstatic.com/s/playwriteno/v9/nuFrD_fYSZviRJYb-P2TrQO1DRpazaZDgnw-44IgHKen-mjRVtc.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwriteno/v9/nuFrD_fYSZviRJYb-P2TrQO1DRpazaZDgnw-49wgHKen-mjRVtc.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwriteno/v9/nuFrD_fYSZviRJYb-P2TrQO1DRpazaZDgnw-49wgLKat_g.ttf"
+}

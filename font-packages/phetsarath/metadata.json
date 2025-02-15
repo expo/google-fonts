@@ -1,0 +1,14 @@
+{
+  "family": "Phetsarath",
+  "variants": ["regular", "700"],
+  "subsets": ["lao"],
+  "version": "v1",
+  "lastModified": "2024-11-20",
+  "files": {
+    "700": "https://fonts.gstatic.com/s/phetsarath/v1/N0bT2SpTP-plK0uWayAYOWLSudf7ZZlIHD0.ttf",
+    "regular": "https://fonts.gstatic.com/s/phetsarath/v1/N0bQ2SpTP-plK0uWayAYAd79nd_QeZA.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/phetsarath/v1/N0bQ2SpTP-plK0uWayAYMd_3mQ.ttf"
+}

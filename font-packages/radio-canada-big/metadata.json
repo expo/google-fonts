@@ -1,0 +1,20 @@
+{
+  "family": "Radio Canada Big",
+  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/radiocanadabig/v1/LYjUdHrinEImAoQewU0hyTsPFra4Yp-6A-YRBF-RX6n_RY3p2pcheCsG.ttf",
+    "600": "https://fonts.gstatic.com/s/radiocanadabig/v1/LYjUdHrinEImAoQewU0hyTsPFra4Yp-6A-YRBF-RX6kTQo3p2pcheCsG.ttf",
+    "700": "https://fonts.gstatic.com/s/radiocanadabig/v1/LYjUdHrinEImAoQewU0hyTsPFra4Yp-6A-YRBF-RX6kqQo3p2pcheCsG.ttf",
+    "regular": "https://fonts.gstatic.com/s/radiocanadabig/v1/LYjUdHrinEImAoQewU0hyTsPFra4Yp-6A-YRBF-RX6nNRY3p2pcheCsG.ttf",
+    "italic": "https://fonts.gstatic.com/s/radiocanadabig/v1/LYjqdHrinEImAoQewU0hyTsPFra4SJaI_D54b8U_WLwFBmWq0JMDfTsGdMc.ttf",
+    "500italic": "https://fonts.gstatic.com/s/radiocanadabig/v1/LYjqdHrinEImAoQewU0hyTsPFra4SJaI_D54b8U_WLwFBleq0JMDfTsGdMc.ttf",
+    "600italic": "https://fonts.gstatic.com/s/radiocanadabig/v1/LYjqdHrinEImAoQewU0hyTsPFra4SJaI_D54b8U_WLwFBrut0JMDfTsGdMc.ttf",
+    "700italic": "https://fonts.gstatic.com/s/radiocanadabig/v1/LYjqdHrinEImAoQewU0hyTsPFra4SJaI_D54b8U_WLwFBoKt0JMDfTsGdMc.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/radiocanadabig/v1/LYjUdHrinEImAoQewU0hyTsPFra4Yp-6A-YRBF-RX6nNRb3o0JM.ttf"
+}

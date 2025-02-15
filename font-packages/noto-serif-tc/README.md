@@ -11,7 +11,7 @@ This package lets you use the [**Noto Serif TC**](https://fonts.google.com/speci
 
 ![Noto Serif TC](./font-family.png)
 
-This font family contains [7 styles](#-gallery).
+This font family contains [8 styles](#-gallery).
 
 - `NotoSerifTC_200ExtraLight`
 - `NotoSerifTC_300Light`
@@ -19,6 +19,7 @@ This font family contains [7 styles](#-gallery).
 - `NotoSerifTC_500Medium`
 - `NotoSerifTC_600SemiBold`
 - `NotoSerifTC_700Bold`
+- `NotoSerifTC_800ExtraBold`
 - `NotoSerifTC_900Black`
 
 ## Usage
@@ -42,6 +43,7 @@ import {
   NotoSerifTC_500Medium,
   NotoSerifTC_600SemiBold,
   NotoSerifTC_700Bold,
+  NotoSerifTC_800ExtraBold,
   NotoSerifTC_900Black,
 } from '@expo-google-fonts/noto-serif-tc';
 
@@ -53,6 +55,7 @@ export default () => {
     NotoSerifTC_500Medium,
     NotoSerifTC_600SemiBold,
     NotoSerifTC_700Bold,
+    NotoSerifTC_800ExtraBold,
     NotoSerifTC_900Black,
   });
 
@@ -129,6 +132,16 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerifTC_800ExtraBold',
+          }}>
+          Noto Serif TC Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'NotoSerifTC_900Black',
           }}>
           Noto Serif TC Black
@@ -147,7 +160,7 @@ export default () => {
 |-|-|-|
 |![NotoSerifTC_200ExtraLight](./NotoSerifTC_200ExtraLight.ttf.png)|![NotoSerifTC_300Light](./NotoSerifTC_300Light.ttf.png)|![NotoSerifTC_400Regular](./NotoSerifTC_400Regular.ttf.png)||
 |![NotoSerifTC_500Medium](./NotoSerifTC_500Medium.ttf.png)|![NotoSerifTC_600SemiBold](./NotoSerifTC_600SemiBold.ttf.png)|![NotoSerifTC_700Bold](./NotoSerifTC_700Bold.ttf.png)||
-|![NotoSerifTC_900Black](./NotoSerifTC_900Black.ttf.png)||||
+|![NotoSerifTC_800ExtraBold](./NotoSerifTC_800ExtraBold.ttf.png)|![NotoSerifTC_900Black](./NotoSerifTC_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

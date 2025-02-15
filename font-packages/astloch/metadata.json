@@ -3,11 +3,12 @@
   "variants": ["regular", "700"],
   "subsets": ["latin"],
   "version": "v26",
-  "lastModified": "2022-04-20",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/astloch/v26/TuGUUVJ8QI5GSeUjk2A-6MNPA10xLMQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/astloch/v26/TuGRUVJ8QI5GSeUjq9wRzMtkH1Q.ttf"
+    "700": "https://fonts.gstatic.com/s/astloch/v26/TuGUUVJ8QI5GSeUjk2A-6MNPA10xLMQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/astloch/v26/TuGRUVJ8QI5GSeUjq9wRzMtkH1Q.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/astloch/v26/TuGRUVJ8QI5GSeUjm90byA.ttf"
 }

@@ -2,19 +2,20 @@
   "family": "Grenze Gotisch",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v12",
-  "lastModified": "2022-09-22",
+  "version": "v18",
+  "lastModified": "2024-09-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/grenzegotisch/v12/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5Lz5UcICdYPSd_w.ttf",
-    "200": "http://fonts.gstatic.com/s/grenzegotisch/v12/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5rz9UcICdYPSd_w.ttf",
-    "300": "http://fonts.gstatic.com/s/grenzegotisch/v12/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5cT9UcICdYPSd_w.ttf",
-    "500": "http://fonts.gstatic.com/s/grenzegotisch/v12/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5HT9UcICdYPSd_w.ttf",
-    "600": "http://fonts.gstatic.com/s/grenzegotisch/v12/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i58ThUcICdYPSd_w.ttf",
-    "700": "http://fonts.gstatic.com/s/grenzegotisch/v12/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5yDhUcICdYPSd_w.ttf",
-    "800": "http://fonts.gstatic.com/s/grenzegotisch/v12/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5rzhUcICdYPSd_w.ttf",
-    "900": "http://fonts.gstatic.com/s/grenzegotisch/v12/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5hjhUcICdYPSd_w.ttf",
-    "regular": "http://fonts.gstatic.com/s/grenzegotisch/v12/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5Lz9UcICdYPSd_w.ttf"
+    "100": "https://fonts.gstatic.com/s/grenzegotisch/v18/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5Lz5UcICdYPSd_w.ttf",
+    "200": "https://fonts.gstatic.com/s/grenzegotisch/v18/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5rz9UcICdYPSd_w.ttf",
+    "300": "https://fonts.gstatic.com/s/grenzegotisch/v18/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5cT9UcICdYPSd_w.ttf",
+    "500": "https://fonts.gstatic.com/s/grenzegotisch/v18/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5HT9UcICdYPSd_w.ttf",
+    "600": "https://fonts.gstatic.com/s/grenzegotisch/v18/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i58ThUcICdYPSd_w.ttf",
+    "700": "https://fonts.gstatic.com/s/grenzegotisch/v18/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5yDhUcICdYPSd_w.ttf",
+    "800": "https://fonts.gstatic.com/s/grenzegotisch/v18/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5rzhUcICdYPSd_w.ttf",
+    "900": "https://fonts.gstatic.com/s/grenzegotisch/v18/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5hjhUcICdYPSd_w.ttf",
+    "regular": "https://fonts.gstatic.com/s/grenzegotisch/v18/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5Lz9UcICdYPSd_w.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/grenzegotisch/v18/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5Lz9kcYqZ.ttf"
 }

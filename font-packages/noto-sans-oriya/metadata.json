@@ -2,19 +2,20 @@
   "family": "Noto Sans Oriya",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "oriya"],
-  "version": "v19",
-  "lastModified": "2022-09-28",
+  "version": "v31",
+  "lastModified": "2024-04-12",
   "files": {
-    "100": "http://fonts.gstatic.com/s/notosansoriya/v19/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Ivj0fq_c6LhHBRe-.ttf",
-    "200": "http://fonts.gstatic.com/s/notosansoriya/v19/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Ivh0f6_c6LhHBRe-.ttf",
-    "300": "http://fonts.gstatic.com/s/notosansoriya/v19/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Iviqf6_c6LhHBRe-.ttf",
-    "500": "http://fonts.gstatic.com/s/notosansoriya/v19/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5IvjGf6_c6LhHBRe-.ttf",
-    "600": "http://fonts.gstatic.com/s/notosansoriya/v19/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5IvgqeK_c6LhHBRe-.ttf",
-    "700": "http://fonts.gstatic.com/s/notosansoriya/v19/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5IvgTeK_c6LhHBRe-.ttf",
-    "800": "http://fonts.gstatic.com/s/notosansoriya/v19/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Ivh0eK_c6LhHBRe-.ttf",
-    "900": "http://fonts.gstatic.com/s/notosansoriya/v19/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5IvhdeK_c6LhHBRe-.ttf",
-    "regular": "http://fonts.gstatic.com/s/notosansoriya/v19/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Ivj0f6_c6LhHBRe-.ttf"
+    "100": "https://fonts.gstatic.com/s/notosansoriya/v31/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Ivj0fq_c6LhHBRe-.ttf",
+    "200": "https://fonts.gstatic.com/s/notosansoriya/v31/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Ivh0f6_c6LhHBRe-.ttf",
+    "300": "https://fonts.gstatic.com/s/notosansoriya/v31/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Iviqf6_c6LhHBRe-.ttf",
+    "500": "https://fonts.gstatic.com/s/notosansoriya/v31/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5IvjGf6_c6LhHBRe-.ttf",
+    "600": "https://fonts.gstatic.com/s/notosansoriya/v31/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5IvgqeK_c6LhHBRe-.ttf",
+    "700": "https://fonts.gstatic.com/s/notosansoriya/v31/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5IvgTeK_c6LhHBRe-.ttf",
+    "800": "https://fonts.gstatic.com/s/notosansoriya/v31/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Ivh0eK_c6LhHBRe-.ttf",
+    "900": "https://fonts.gstatic.com/s/notosansoriya/v31/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5IvhdeK_c6LhHBRe-.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosansoriya/v31/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Ivj0f6_c6LhHBRe-.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansoriya/v31/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Ivj0f5_d4rw.ttf"
 }

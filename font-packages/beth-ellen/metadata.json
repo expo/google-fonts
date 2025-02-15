@@ -2,11 +2,12 @@
   "family": "Beth Ellen",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v17",
-  "lastModified": "2022-04-20",
+  "version": "v21",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/bethellen/v17/WwkbxPW2BE-3rb_JNT-qEIAiVNo5xNY.ttf"
+    "regular": "https://fonts.gstatic.com/s/bethellen/v21/WwkbxPW2BE-3rb_JNT-qEIAiVNo5xNY.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/bethellen/v21/WwkbxPW2BE-3rb_JNT-qIIEoUA.ttf"
 }

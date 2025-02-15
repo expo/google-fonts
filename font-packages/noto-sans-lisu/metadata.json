@@ -2,14 +2,15 @@
   "family": "Noto Sans Lisu",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "lisu"],
-  "version": "v21",
-  "lastModified": "2022-09-22",
+  "version": "v25",
+  "lastModified": "2023-03-09",
   "files": {
-    "500": "http://fonts.gstatic.com/s/notosanslisu/v21/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP61wt29IlxkVdig.ttf",
-    "600": "http://fonts.gstatic.com/s/notosanslisu/v21/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPB1st29IlxkVdig.ttf",
-    "700": "http://fonts.gstatic.com/s/notosanslisu/v21/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPPlst29IlxkVdig.ttf",
-    "regular": "http://fonts.gstatic.com/s/notosanslisu/v21/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP2Vwt29IlxkVdig.ttf"
+    "500": "https://fonts.gstatic.com/s/notosanslisu/v25/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP61wt29IlxkVdig.ttf",
+    "600": "https://fonts.gstatic.com/s/notosanslisu/v25/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPB1st29IlxkVdig.ttf",
+    "700": "https://fonts.gstatic.com/s/notosanslisu/v25/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPPlst29IlxkVdig.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosanslisu/v25/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP2Vwt29IlxkVdig.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanslisu/v25/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP2Vwd2tgh.ttf"
 }

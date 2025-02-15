@@ -1,0 +1,20 @@
+{
+  "family": "Playpen Sans",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["emoji", "latin", "latin-ext", "math", "vietnamese"],
+  "version": "v13",
+  "lastModified": "2024-08-12",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playpensans/v13/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IvRgunQ9Ffmme0w.ttf",
+    "200": "https://fonts.gstatic.com/s/playpensans/v13/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4InRhunQ9Ffmme0w.ttf",
+    "300": "https://fonts.gstatic.com/s/playpensans/v13/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IqphunQ9Ffmme0w.ttf",
+    "500": "https://fonts.gstatic.com/s/playpensans/v13/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IsZhunQ9Ffmme0w.ttf",
+    "600": "https://fonts.gstatic.com/s/playpensans/v13/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IipmunQ9Ffmme0w.ttf",
+    "700": "https://fonts.gstatic.com/s/playpensans/v13/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IhNmunQ9Ffmme0w.ttf",
+    "800": "https://fonts.gstatic.com/s/playpensans/v13/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4InRmunQ9Ffmme0w.ttf",
+    "regular": "https://fonts.gstatic.com/s/playpensans/v13/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IvRhunQ9Ffmme0w.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playpensans/v13/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IvRhinU3EQ.ttf"
+}

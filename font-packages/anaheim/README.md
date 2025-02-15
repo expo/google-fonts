@@ -11,9 +11,13 @@ This package lets you use the [**Anaheim**](https://fonts.google.com/specimen/An
 
 ![Anaheim](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [5 styles](#-gallery).
 
 - `Anaheim_400Regular`
+- `Anaheim_500Medium`
+- `Anaheim_600SemiBold`
+- `Anaheim_700Bold`
+- `Anaheim_800ExtraBold`
 
 ## Usage
 
@@ -28,11 +32,22 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, Anaheim_400Regular } from '@expo-google-fonts/anaheim';
+import {
+  useFonts,
+  Anaheim_400Regular,
+  Anaheim_500Medium,
+  Anaheim_600SemiBold,
+  Anaheim_700Bold,
+  Anaheim_800ExtraBold,
+} from '@expo-google-fonts/anaheim';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Anaheim_400Regular,
+    Anaheim_500Medium,
+    Anaheim_600SemiBold,
+    Anaheim_700Bold,
+    Anaheim_800ExtraBold,
   });
 
   let fontSize = 24;
@@ -52,6 +67,46 @@ export default () => {
           }}>
           Anaheim Regular
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Anaheim_500Medium',
+          }}>
+          Anaheim Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Anaheim_600SemiBold',
+          }}>
+          Anaheim Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Anaheim_700Bold',
+          }}>
+          Anaheim Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Anaheim_800ExtraBold',
+          }}>
+          Anaheim Extra Bold
+        </Text>
       </View>
     );
   }
@@ -64,7 +119,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Anaheim_400Regular](./Anaheim_400Regular.ttf.png)||||
+|![Anaheim_400Regular](./Anaheim_400Regular.ttf.png)|![Anaheim_500Medium](./Anaheim_500Medium.ttf.png)|![Anaheim_600SemiBold](./Anaheim_600SemiBold.ttf.png)||
+|![Anaheim_700Bold](./Anaheim_700Bold.ttf.png)|![Anaheim_800ExtraBold](./Anaheim_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

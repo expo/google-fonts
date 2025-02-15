@@ -5,9 +5,21 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const Aleo_100Thin = require('./Aleo_100Thin.ttf');
+export const Aleo_200ExtraLight = require('./Aleo_200ExtraLight.ttf');
 export const Aleo_300Light = require('./Aleo_300Light.ttf');
-export const Aleo_300Light_Italic = require('./Aleo_300Light_Italic.ttf');
 export const Aleo_400Regular = require('./Aleo_400Regular.ttf');
-export const Aleo_400Regular_Italic = require('./Aleo_400Regular_Italic.ttf');
+export const Aleo_500Medium = require('./Aleo_500Medium.ttf');
+export const Aleo_600SemiBold = require('./Aleo_600SemiBold.ttf');
 export const Aleo_700Bold = require('./Aleo_700Bold.ttf');
+export const Aleo_800ExtraBold = require('./Aleo_800ExtraBold.ttf');
+export const Aleo_900Black = require('./Aleo_900Black.ttf');
+export const Aleo_100Thin_Italic = require('./Aleo_100Thin_Italic.ttf');
+export const Aleo_200ExtraLight_Italic = require('./Aleo_200ExtraLight_Italic.ttf');
+export const Aleo_300Light_Italic = require('./Aleo_300Light_Italic.ttf');
+export const Aleo_400Regular_Italic = require('./Aleo_400Regular_Italic.ttf');
+export const Aleo_500Medium_Italic = require('./Aleo_500Medium_Italic.ttf');
+export const Aleo_600SemiBold_Italic = require('./Aleo_600SemiBold_Italic.ttf');
 export const Aleo_700Bold_Italic = require('./Aleo_700Bold_Italic.ttf');
+export const Aleo_800ExtraBold_Italic = require('./Aleo_800ExtraBold_Italic.ttf');
+export const Aleo_900Black_Italic = require('./Aleo_900Black_Italic.ttf');

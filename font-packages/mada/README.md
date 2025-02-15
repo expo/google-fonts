@@ -11,7 +11,7 @@ This package lets you use the [**Mada**](https://fonts.google.com/specimen/Mada)
 
 ![Mada](./font-family.png)
 
-This font family contains [7 styles](#-gallery).
+This font family contains [8 styles](#-gallery).
 
 - `Mada_200ExtraLight`
 - `Mada_300Light`
@@ -19,6 +19,7 @@ This font family contains [7 styles](#-gallery).
 - `Mada_500Medium`
 - `Mada_600SemiBold`
 - `Mada_700Bold`
+- `Mada_800ExtraBold`
 - `Mada_900Black`
 
 ## Usage
@@ -42,6 +43,7 @@ import {
   Mada_500Medium,
   Mada_600SemiBold,
   Mada_700Bold,
+  Mada_800ExtraBold,
   Mada_900Black,
 } from '@expo-google-fonts/mada';
 
@@ -53,6 +55,7 @@ export default () => {
     Mada_500Medium,
     Mada_600SemiBold,
     Mada_700Bold,
+    Mada_800ExtraBold,
     Mada_900Black,
   });
 
@@ -129,6 +132,16 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Mada_800ExtraBold',
+          }}>
+          Mada Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Mada_900Black',
           }}>
           Mada Black
@@ -147,7 +160,7 @@ export default () => {
 |-|-|-|
 |![Mada_200ExtraLight](./Mada_200ExtraLight.ttf.png)|![Mada_300Light](./Mada_300Light.ttf.png)|![Mada_400Regular](./Mada_400Regular.ttf.png)||
 |![Mada_500Medium](./Mada_500Medium.ttf.png)|![Mada_600SemiBold](./Mada_600SemiBold.ttf.png)|![Mada_700Bold](./Mada_700Bold.ttf.png)||
-|![Mada_900Black](./Mada_900Black.ttf.png)||||
+|![Mada_800ExtraBold](./Mada_800ExtraBold.ttf.png)|![Mada_900Black](./Mada_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

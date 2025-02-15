@@ -1,0 +1,37 @@
+{
+  "family": "Platypi",
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic",
+    "800italic"
+  ],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v4",
+  "lastModified": "2024-09-04",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/platypi/v4/bMromSGU7pMlaX6-PAmuwBQP4Hwe02It4p9juxgnYP1P.ttf",
+    "500": "https://fonts.gstatic.com/s/platypi/v4/bMromSGU7pMlaX6-PAmuwBQP4Hwe02JB4p9juxgnYP1P.ttf",
+    "600": "https://fonts.gstatic.com/s/platypi/v4/bMromSGU7pMlaX6-PAmuwBQP4Hwe02Kt5Z9juxgnYP1P.ttf",
+    "700": "https://fonts.gstatic.com/s/platypi/v4/bMromSGU7pMlaX6-PAmuwBQP4Hwe02KU5Z9juxgnYP1P.ttf",
+    "800": "https://fonts.gstatic.com/s/platypi/v4/bMromSGU7pMlaX6-PAmuwBQP4Hwe02Lz5Z9juxgnYP1P.ttf",
+    "regular": "https://fonts.gstatic.com/s/platypi/v4/bMromSGU7pMlaX6-PAmuwBQP4Hwe02Jz4p9juxgnYP1P.ttf",
+    "300italic": "https://fonts.gstatic.com/s/platypi/v4/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oSkgsRwFZe1PPTo.ttf",
+    "italic": "https://fonts.gstatic.com/s/platypi/v4/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oXcgsRwFZe1PPTo.ttf",
+    "500italic": "https://fonts.gstatic.com/s/platypi/v4/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oUUgsRwFZe1PPTo.ttf",
+    "600italic": "https://fonts.gstatic.com/s/platypi/v4/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oaknsRwFZe1PPTo.ttf",
+    "700italic": "https://fonts.gstatic.com/s/platypi/v4/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oZAnsRwFZe1PPTo.ttf",
+    "800italic": "https://fonts.gstatic.com/s/platypi/v4/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7ofcnsRwFZe1PPTo.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/platypi/v4/bMromSGU7pMlaX6-PAmuwBQP4Hwe02Jz4q9isRw.ttf"
+}

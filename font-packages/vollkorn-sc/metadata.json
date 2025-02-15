@@ -3,13 +3,14 @@
   "variants": ["regular", "600", "700", "900"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
   "version": "v11",
-  "lastModified": "2022-09-22",
+  "lastModified": "2024-09-04",
   "files": {
-    "600": "http://fonts.gstatic.com/s/vollkornsc/v11/j8_y6-zQ3rXpceZj9cqnVimhGluqYbPN5Yjn.ttf",
-    "700": "http://fonts.gstatic.com/s/vollkornsc/v11/j8_y6-zQ3rXpceZj9cqnVinFG1uqYbPN5Yjn.ttf",
-    "900": "http://fonts.gstatic.com/s/vollkornsc/v11/j8_y6-zQ3rXpceZj9cqnVin9GVuqYbPN5Yjn.ttf",
-    "regular": "http://fonts.gstatic.com/s/vollkornsc/v11/j8_v6-zQ3rXpceZj9cqnVhF5NH-iSq_E.ttf"
+    "600": "https://fonts.gstatic.com/s/vollkornsc/v11/j8_y6-zQ3rXpceZj9cqnVimhGluqYbPN5Yjn.ttf",
+    "700": "https://fonts.gstatic.com/s/vollkornsc/v11/j8_y6-zQ3rXpceZj9cqnVinFG1uqYbPN5Yjn.ttf",
+    "900": "https://fonts.gstatic.com/s/vollkornsc/v11/j8_y6-zQ3rXpceZj9cqnVin9GVuqYbPN5Yjn.ttf",
+    "regular": "https://fonts.gstatic.com/s/vollkornsc/v11/j8_v6-zQ3rXpceZj9cqnVhF5NH-iSq_E.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/vollkornsc/v11/j8_v6-zQ3rXpceZj9cqnViF4Pns.ttf"
 }

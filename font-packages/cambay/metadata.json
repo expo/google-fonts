@@ -2,14 +2,15 @@
   "family": "Cambay",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2022-09-22",
+  "version": "v13",
+  "lastModified": "2024-12-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/cambay/v12/SLXKc1rY6H0_ZDs-0pusx_lwYX99kA.ttf",
-    "regular": "http://fonts.gstatic.com/s/cambay/v12/SLXJc1rY6H0_ZDsGbrSIz9JsaA.ttf",
-    "italic": "http://fonts.gstatic.com/s/cambay/v12/SLXLc1rY6H0_ZDs2bL6M7dd8aGZk.ttf",
-    "700italic": "http://fonts.gstatic.com/s/cambay/v12/SLXMc1rY6H0_ZDs2bIYwwvN0Q3ptkDMN.ttf"
+    "700": "https://fonts.gstatic.com/s/cambay/v13/SLXKc1rY6H0_ZDs-0pusx_lwYX99kA.ttf",
+    "regular": "https://fonts.gstatic.com/s/cambay/v13/SLXJc1rY6H0_ZDsGbrSIz9JsaA.ttf",
+    "italic": "https://fonts.gstatic.com/s/cambay/v13/SLXLc1rY6H0_ZDs2bL6M7dd8aGZk.ttf",
+    "700italic": "https://fonts.gstatic.com/s/cambay/v13/SLXMc1rY6H0_ZDs2bIYwwvN0Q3ptkDMN.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/cambay/v13/SLXJc1rY6H0_ZDs2b76M.ttf"
 }

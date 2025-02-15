@@ -2,14 +2,15 @@
   "family": "Noto Sans Sora Sompeng",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "sora-sompeng"],
-  "version": "v19",
-  "lastModified": "2022-11-09",
+  "version": "v24",
+  "lastModified": "2023-03-09",
   "files": {
-    "500": "http://fonts.gstatic.com/s/notosanssorasompeng/v19/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHRO18DpZXJQd4Mu.ttf",
-    "600": "http://fonts.gstatic.com/s/notosanssorasompeng/v19/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSi0MDpZXJQd4Mu.ttf",
-    "700": "http://fonts.gstatic.com/s/notosanssorasompeng/v19/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSb0MDpZXJQd4Mu.ttf",
-    "regular": "http://fonts.gstatic.com/s/notosanssorasompeng/v19/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHR818DpZXJQd4Mu.ttf"
+    "500": "https://fonts.gstatic.com/s/notosanssorasompeng/v24/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHRO18DpZXJQd4Mu.ttf",
+    "600": "https://fonts.gstatic.com/s/notosanssorasompeng/v24/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSi0MDpZXJQd4Mu.ttf",
+    "700": "https://fonts.gstatic.com/s/notosanssorasompeng/v24/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSb0MDpZXJQd4Mu.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosanssorasompeng/v24/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHR818DpZXJQd4Mu.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanssorasompeng/v24/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHR81_Dob3Y.ttf"
 }

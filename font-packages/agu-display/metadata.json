@@ -1,0 +1,13 @@
+{
+  "family": "Agu Display",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2024-12-10",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/agudisplay/v1/iJWXBXKbbi6BeMC1_RX7qF_V5E7aciGRRWUwX4ftka9LM6y8Zg.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/agudisplay/v1/iJWXBXKbbi6BeMC1_RX7qF_V5E7aciGRRWUwX4fdkKVP.ttf"
+}

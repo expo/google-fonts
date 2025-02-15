@@ -11,7 +11,7 @@ This package lets you use the [**Inter**](https://fonts.google.com/specimen/Inte
 
 ![Inter](./font-family.png)
 
-This font family contains [9 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
 - `Inter_100Thin`
 - `Inter_200ExtraLight`
@@ -22,6 +22,15 @@ This font family contains [9 styles](#-gallery).
 - `Inter_700Bold`
 - `Inter_800ExtraBold`
 - `Inter_900Black`
+- `Inter_100Thin_Italic`
+- `Inter_200ExtraLight_Italic`
+- `Inter_300Light_Italic`
+- `Inter_400Regular_Italic`
+- `Inter_500Medium_Italic`
+- `Inter_600SemiBold_Italic`
+- `Inter_700Bold_Italic`
+- `Inter_800ExtraBold_Italic`
+- `Inter_900Black_Italic`
 
 ## Usage
 
@@ -47,6 +56,15 @@ import {
   Inter_700Bold,
   Inter_800ExtraBold,
   Inter_900Black,
+  Inter_100Thin_Italic,
+  Inter_200ExtraLight_Italic,
+  Inter_300Light_Italic,
+  Inter_400Regular_Italic,
+  Inter_500Medium_Italic,
+  Inter_600SemiBold_Italic,
+  Inter_700Bold_Italic,
+  Inter_800ExtraBold_Italic,
+  Inter_900Black_Italic,
 } from '@expo-google-fonts/inter';
 
 export default () => {
@@ -60,6 +78,15 @@ export default () => {
     Inter_700Bold,
     Inter_800ExtraBold,
     Inter_900Black,
+    Inter_100Thin_Italic,
+    Inter_200ExtraLight_Italic,
+    Inter_300Light_Italic,
+    Inter_400Regular_Italic,
+    Inter_500Medium_Italic,
+    Inter_600SemiBold_Italic,
+    Inter_700Bold_Italic,
+    Inter_800ExtraBold_Italic,
+    Inter_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -159,6 +186,96 @@ export default () => {
           }}>
           Inter Black
         </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_100Thin_Italic',
+          }}>
+          Inter Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_200ExtraLight_Italic',
+          }}>
+          Inter Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_300Light_Italic',
+          }}>
+          Inter Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_400Regular_Italic',
+          }}>
+          Inter Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_500Medium_Italic',
+          }}>
+          Inter Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_600SemiBold_Italic',
+          }}>
+          Inter Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_700Bold_Italic',
+          }}>
+          Inter Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_800ExtraBold_Italic',
+          }}>
+          Inter Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Inter_900Black_Italic',
+          }}>
+          Inter Black Italic
+        </Text>
       </View>
     );
   }
@@ -174,6 +291,9 @@ export default () => {
 |![Inter_100Thin](./Inter_100Thin.ttf.png)|![Inter_200ExtraLight](./Inter_200ExtraLight.ttf.png)|![Inter_300Light](./Inter_300Light.ttf.png)||
 |![Inter_400Regular](./Inter_400Regular.ttf.png)|![Inter_500Medium](./Inter_500Medium.ttf.png)|![Inter_600SemiBold](./Inter_600SemiBold.ttf.png)||
 |![Inter_700Bold](./Inter_700Bold.ttf.png)|![Inter_800ExtraBold](./Inter_800ExtraBold.ttf.png)|![Inter_900Black](./Inter_900Black.ttf.png)||
+|![Inter_100Thin_Italic](./Inter_100Thin_Italic.ttf.png)|![Inter_200ExtraLight_Italic](./Inter_200ExtraLight_Italic.ttf.png)|![Inter_300Light_Italic](./Inter_300Light_Italic.ttf.png)||
+|![Inter_400Regular_Italic](./Inter_400Regular_Italic.ttf.png)|![Inter_500Medium_Italic](./Inter_500Medium_Italic.ttf.png)|![Inter_600SemiBold_Italic](./Inter_600SemiBold_Italic.ttf.png)||
+|![Inter_700Bold_Italic](./Inter_700Bold_Italic.ttf.png)|![Inter_800ExtraBold_Italic](./Inter_800ExtraBold_Italic.ttf.png)|![Inter_900Black_Italic](./Inter_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development
