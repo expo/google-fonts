@@ -77,6 +77,8 @@ let CPUBoundConcurrency = Math.max(1, physicalCpuCount - 1);
 let NetworkBoundConcurrency = 3;
 let IOBoundConcurrency = 2;
 
+const fontPrefix = 'font';
+
 async function main({ images, download } = { images: true, download: true }) {
   console.log('Getting directory');
   let fontDirectory = await getDirectory();
@@ -129,7 +131,9 @@ function infoForVariantKey(variantKey) {
 }
 
 function varNameForWebfont(webfont) {
-  return webfont.family.replace(/\s+/g, '');
+  const variant = webfont.family.replace(/\s+/g, '');
+  return (variant.match(/^\d/)) ? fontPrefix + variant : variant
+
 }
 
 function varNameForFontVariant(webfont, variantKey) {
@@ -335,10 +339,15 @@ async function generateAllFontPackages(fontDirectory) {
 }
 
 function getPackageNameForWebfont(webfont) {
-  return webfont.family
+  let packageName = webfont.family
     .toLowerCase()
     .replace(/\s+/g, '-')
     .replace(/[^a-z0-9-]/g, '');
+  if (packageName.match(/^\d/)) {
+    // package name must start with a letter
+    packageName = fontPrefix + packageName;
+  }
+  return packageName;
 }
 
 async function generateFontPackage(webfont) {
@@ -960,7 +969,7 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
     'Nunito',
 
     'Bangers',
-    'Source Sans Pro',
+    'Source Sans 3',
     'Roboto Condensed',
 
     'Playfair Display',
