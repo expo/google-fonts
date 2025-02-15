@@ -22,7 +22,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.demo"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "android": {
+      "package": "com.anonymous.demo"
     }
   }
 }

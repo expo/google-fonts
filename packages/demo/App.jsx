@@ -1,6 +1,5 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { Animated, TouchableWithoutFeedback, StyleSheet, Text, View } from 'react-native';
-import { AppLoading } from 'expo';
+import React, { useState, useRef } from 'react';
+import { Animated, TouchableWithoutFeedback, StyleSheet, Text, View, Dimensions } from 'react-native';
 import {
   useFonts,
   Roboto_400Regular,
@@ -12,7 +11,7 @@ import {
   Montserrat_400Regular,
   Pangolin_400Regular,
   PTSans_400Regular,
-  SourceSansPro_400Regular,
+  SourceSans3_400Regular,
   RobotoCondensed_400Regular,
   Oswald_400Regular,
   Baloo2_400Regular,
@@ -23,8 +22,8 @@ import {
   Ubuntu_400Regular,
   PlayfairDisplay_400Regular,
   Mukta_400Regular,
-  OpenSansCondensed_300Light,
-  Muli_400Regular,
+  OpenSans_300Light,
+  Mulish_300Light_Italic,
   PTSerif_400Regular,
   Lora_400Regular,
   Nunito_400Regular,
@@ -44,16 +43,17 @@ import {
   OpenSans_400Regular_Italic,
   Lato_700Bold,
   Montserrat_700Bold_Italic,
-  SourceSansPro_700Bold,
+  SourceSans3_700Bold,
   RobotoCondensed_400Regular_Italic,
   Oswald_700Bold,
   Raleway_400Regular_Italic,
   Inter_400Regular,
   Inter_700Bold,
   Poppins_600SemiBold_Italic,
+  font42dotSans_400Regular,
 } from '@expo-google-fonts/dev';
 import * as GoogleFonts from '@expo-google-fonts/dev';
-import { useWindowDimensions } from 'react-native-use-dimensions';
+// import { useWindowDimensions } from 'react-native-use-dimensions';
 
 let SegmentHeight = 55;
 let SegmentSize = 7;
@@ -68,7 +68,7 @@ let FontVariants = {
   Montserrat_400Regular,
   Pangolin_400Regular,
   PTSans_400Regular,
-  SourceSansPro_400Regular,
+  SourceSans3_400Regular,
   RobotoCondensed_400Regular,
   Oswald_400Regular,
   Baloo2_400Regular,
@@ -79,8 +79,9 @@ let FontVariants = {
   Ubuntu_400Regular,
   PlayfairDisplay_400Regular,
   Mukta_400Regular,
-  OpenSansCondensed_300Light,
-  Muli_400Regular,
+  font42dotSans_400Regular,
+  OpenSans_300Light,
+  Mulish_300Light_Italic,
   PTSerif_400Regular,
   Lora_400Regular,
   Nunito_400Regular,
@@ -100,7 +101,7 @@ let FontVariants = {
   OpenSans_400Regular_Italic,
   Lato_700Bold,
   Montserrat_700Bold_Italic,
-  SourceSansPro_700Bold,
+  SourceSans3_700Bold,
   RobotoCondensed_400Regular_Italic,
   Oswald_700Bold,
   Raleway_400Regular_Italic,
@@ -152,9 +153,10 @@ function getSegmentGroups() {
 }
 
 let SegmentGroups = getSegmentGroups();
+const width = Dimensions.get('window').width;
+const height = Dimensions.get('window').height;
 
 export default function App() {
-  let { height, width } = useWindowDimensions();
   // let n = Math.ceil(height / SegmentHeight);
   let n = SegmentSize;
   let [s, setS] = useState(0);
@@ -172,6 +174,7 @@ export default function App() {
     Animated.timing(anim, {
       toValue: Math.ceil((SegmentSize * width) / 2),
       duration: 1200,
+      useNativeDriver: true,
     }).start();
   };
 
@@ -179,11 +182,12 @@ export default function App() {
     Animated.timing(anim, {
       toValue: 0,
       duration: 1200,
+      useNativeDriver: true,
     }).start();
   };
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   }
 
   return (
