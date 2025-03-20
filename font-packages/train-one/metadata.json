@@ -2,11 +2,12 @@
   "family": "Train One",
   "variants": ["regular"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2022-09-27",
+  "version": "v14",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/trainone/v13/gyB-hwkiNtc6KnxUVjWHOqbZRY7JVQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/trainone/v14/gyB-hwkiNtc6KnxUVjWHOqbZRY7JVQ.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/trainone/v14/gyB-hwkiNtc6KnxUVjW3O6zd.ttf"
 }

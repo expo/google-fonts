@@ -2,11 +2,12 @@
   "family": "Babylonica",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v2",
-  "lastModified": "2022-09-22",
+  "version": "v5",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/babylonica/v2/5aUw9_i2qxWVCAE2aHjTqDJ0-VVMoEw.ttf"
+    "regular": "https://fonts.gstatic.com/s/babylonica/v5/5aUw9_i2qxWVCAE2aHjTqDJ0-VVMoEw.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/babylonica/v5/5aUw9_i2qxWVCAE2aHjTmDN-_Q.ttf"
 }

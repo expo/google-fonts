@@ -1,0 +1,13 @@
+{
+  "family": "Konkhmer Sleokchher",
+  "variants": ["regular"],
+  "subsets": ["khmer", "latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/konkhmersleokchher/v2/_Xmw-GE-rjmabA_M-aPOZOsCrUv825LFI3507E0d-W0.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/konkhmersleokchher/v2/_Xmw-GE-rjmabA_M-aPOZOsCrUv825LFE39-6A.ttf"
+}

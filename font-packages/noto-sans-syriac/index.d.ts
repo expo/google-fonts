@@ -7,5 +7,11 @@ export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
 export const NotoSansSyriac_100Thin: number;
+export const NotoSansSyriac_200ExtraLight: number;
+export const NotoSansSyriac_300Light: number;
 export const NotoSansSyriac_400Regular: number;
+export const NotoSansSyriac_500Medium: number;
+export const NotoSansSyriac_600SemiBold: number;
+export const NotoSansSyriac_700Bold: number;
+export const NotoSansSyriac_800ExtraBold: number;
 export const NotoSansSyriac_900Black: number;

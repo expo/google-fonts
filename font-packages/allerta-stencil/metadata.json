@@ -2,11 +2,12 @@
   "family": "Allerta Stencil",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v18",
-  "lastModified": "2022-09-22",
+  "version": "v22",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/allertastencil/v18/HTx0L209KT-LmIE9N7OR6eiycOeF-zz313DuvQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/allertastencil/v22/HTx0L209KT-LmIE9N7OR6eiycOeF-zz313DuvQ.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/allertastencil/v22/HTx0L209KT-LmIE9N7OR6eiycOe1-jbz.ttf"
 }

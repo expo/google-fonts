@@ -3,11 +3,12 @@
   "variants": ["regular", "700"],
   "subsets": ["latin"],
   "version": "v13",
-  "lastModified": "2022-09-22",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/lusitana/v13/CSR74z9ShvucWzsMKyDmaccqYtd2vfwk.ttf",
-    "regular": "http://fonts.gstatic.com/s/lusitana/v13/CSR84z9ShvucWzsMKxhaRuMiSct_.ttf"
+    "700": "https://fonts.gstatic.com/s/lusitana/v13/CSR74z9ShvucWzsMKyDmaccqYtd2vfwk.ttf",
+    "regular": "https://fonts.gstatic.com/s/lusitana/v13/CSR84z9ShvucWzsMKxhaRuMiSct_.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/lusitana/v13/CSR84z9ShvucWzsMKyhbTOc.ttf"
 }

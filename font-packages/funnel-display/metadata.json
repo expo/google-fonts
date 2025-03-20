@@ -1,0 +1,18 @@
+{
+  "family": "Funnel Display",
+  "variants": ["300", "regular", "500", "600", "700", "800"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2024-11-07",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/funneldisplay/v1/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYxGPXWMVwIZDKFA.ttf",
+    "500": "https://fonts.gstatic.com/s/funneldisplay/v1/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYqGPXWMVwIZDKFA.ttf",
+    "600": "https://fonts.gstatic.com/s/funneldisplay/v1/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYRGTXWMVwIZDKFA.ttf",
+    "700": "https://fonts.gstatic.com/s/funneldisplay/v1/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYfWTXWMVwIZDKFA.ttf",
+    "800": "https://fonts.gstatic.com/s/funneldisplay/v1/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYGmTXWMVwIZDKFA.ttf",
+    "regular": "https://fonts.gstatic.com/s/funneldisplay/v1/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYmmPXWMVwIZDKFA.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/funneldisplay/v1/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYmmPnWc90.ttf"
+}

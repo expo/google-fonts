@@ -11,14 +11,26 @@ This package lets you use the [**DM Sans**](https://fonts.google.com/specimen/DM
 
 ![DM Sans](./font-family.png)
 
-This font family contains [6 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
+- `DMSans_100Thin`
+- `DMSans_200ExtraLight`
+- `DMSans_300Light`
 - `DMSans_400Regular`
-- `DMSans_400Regular_Italic`
 - `DMSans_500Medium`
-- `DMSans_500Medium_Italic`
+- `DMSans_600SemiBold`
 - `DMSans_700Bold`
+- `DMSans_800ExtraBold`
+- `DMSans_900Black`
+- `DMSans_100Thin_Italic`
+- `DMSans_200ExtraLight_Italic`
+- `DMSans_300Light_Italic`
+- `DMSans_400Regular_Italic`
+- `DMSans_500Medium_Italic`
+- `DMSans_600SemiBold_Italic`
 - `DMSans_700Bold_Italic`
+- `DMSans_800ExtraBold_Italic`
+- `DMSans_900Black_Italic`
 
 ## Usage
 
@@ -35,22 +47,46 @@ import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import {
   useFonts,
+  DMSans_100Thin,
+  DMSans_200ExtraLight,
+  DMSans_300Light,
   DMSans_400Regular,
-  DMSans_400Regular_Italic,
   DMSans_500Medium,
-  DMSans_500Medium_Italic,
+  DMSans_600SemiBold,
   DMSans_700Bold,
+  DMSans_800ExtraBold,
+  DMSans_900Black,
+  DMSans_100Thin_Italic,
+  DMSans_200ExtraLight_Italic,
+  DMSans_300Light_Italic,
+  DMSans_400Regular_Italic,
+  DMSans_500Medium_Italic,
+  DMSans_600SemiBold_Italic,
   DMSans_700Bold_Italic,
+  DMSans_800ExtraBold_Italic,
+  DMSans_900Black_Italic,
 } from '@expo-google-fonts/dm-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    DMSans_100Thin,
+    DMSans_200ExtraLight,
+    DMSans_300Light,
     DMSans_400Regular,
-    DMSans_400Regular_Italic,
     DMSans_500Medium,
-    DMSans_500Medium_Italic,
+    DMSans_600SemiBold,
     DMSans_700Bold,
+    DMSans_800ExtraBold,
+    DMSans_900Black,
+    DMSans_100Thin_Italic,
+    DMSans_200ExtraLight_Italic,
+    DMSans_300Light_Italic,
+    DMSans_400Regular_Italic,
+    DMSans_500Medium_Italic,
+    DMSans_600SemiBold_Italic,
     DMSans_700Bold_Italic,
+    DMSans_800ExtraBold_Italic,
+    DMSans_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -66,9 +102,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_400Regular',
+            fontFamily: 'DMSans_100Thin',
           }}>
-          DM Sans Regular
+          DM Sans Thin
         </Text>
 
         <Text
@@ -76,9 +112,29 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_400Regular_Italic',
+            fontFamily: 'DMSans_200ExtraLight',
           }}>
-          DM Sans Italic
+          DM Sans Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_300Light',
+          }}>
+          DM Sans Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_400Regular',
+          }}>
+          DM Sans Regular
         </Text>
 
         <Text
@@ -96,9 +152,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_500Medium_Italic',
+            fontFamily: 'DMSans_600SemiBold',
           }}>
-          DM Sans Medium Italic
+          DM Sans Semi Bold
         </Text>
 
         <Text
@@ -116,9 +172,109 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_800ExtraBold',
+          }}>
+          DM Sans Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_900Black',
+          }}>
+          DM Sans Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_100Thin_Italic',
+          }}>
+          DM Sans Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_200ExtraLight_Italic',
+          }}>
+          DM Sans Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_300Light_Italic',
+          }}>
+          DM Sans Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_400Regular_Italic',
+          }}>
+          DM Sans Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_500Medium_Italic',
+          }}>
+          DM Sans Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_600SemiBold_Italic',
+          }}>
+          DM Sans Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'DMSans_700Bold_Italic',
           }}>
           DM Sans Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_800ExtraBold_Italic',
+          }}>
+          DM Sans Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'DMSans_900Black_Italic',
+          }}>
+          DM Sans Black Italic
         </Text>
       </View>
     );
@@ -132,8 +288,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DMSans_400Regular](./DMSans_400Regular.ttf.png)|![DMSans_400Regular_Italic](./DMSans_400Regular_Italic.ttf.png)|![DMSans_500Medium](./DMSans_500Medium.ttf.png)||
-|![DMSans_500Medium_Italic](./DMSans_500Medium_Italic.ttf.png)|![DMSans_700Bold](./DMSans_700Bold.ttf.png)|![DMSans_700Bold_Italic](./DMSans_700Bold_Italic.ttf.png)||
+|![DMSans_100Thin](./DMSans_100Thin.ttf.png)|![DMSans_200ExtraLight](./DMSans_200ExtraLight.ttf.png)|![DMSans_300Light](./DMSans_300Light.ttf.png)||
+|![DMSans_400Regular](./DMSans_400Regular.ttf.png)|![DMSans_500Medium](./DMSans_500Medium.ttf.png)|![DMSans_600SemiBold](./DMSans_600SemiBold.ttf.png)||
+|![DMSans_700Bold](./DMSans_700Bold.ttf.png)|![DMSans_800ExtraBold](./DMSans_800ExtraBold.ttf.png)|![DMSans_900Black](./DMSans_900Black.ttf.png)||
+|![DMSans_100Thin_Italic](./DMSans_100Thin_Italic.ttf.png)|![DMSans_200ExtraLight_Italic](./DMSans_200ExtraLight_Italic.ttf.png)|![DMSans_300Light_Italic](./DMSans_300Light_Italic.ttf.png)||
+|![DMSans_400Regular_Italic](./DMSans_400Regular_Italic.ttf.png)|![DMSans_500Medium_Italic](./DMSans_500Medium_Italic.ttf.png)|![DMSans_600SemiBold_Italic](./DMSans_600SemiBold_Italic.ttf.png)||
+|![DMSans_700Bold_Italic](./DMSans_700Bold_Italic.ttf.png)|![DMSans_800ExtraBold_Italic](./DMSans_800ExtraBold_Italic.ttf.png)|![DMSans_900Black_Italic](./DMSans_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

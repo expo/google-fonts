@@ -1,0 +1,13 @@
+{
+  "family": "Playwrite NG Modern Guides",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v1",
+  "lastModified": "2024-12-10",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/playwritengmodernguides/v1/6qLVKYQNtxD-qVlIPUIPdWMlWxy3BmFEQgxB1xvFhDarWJtyZyGU.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwritengmodernguides/v1/6qLVKYQNtxD-qVlIPUIPdWMlWxy3BmFEQgxB1xvFhAaqUp8.ttf"
+}

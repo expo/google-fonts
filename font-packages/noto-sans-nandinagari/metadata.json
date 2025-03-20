@@ -1,0 +1,13 @@
+{
+  "family": "Noto Sans Nandinagari",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "nandinagari"],
+  "version": "v4",
+  "lastModified": "2023-10-25",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/notosansnandinagari/v4/or38Q7733eiDljA1IufXSNFT-1KI5y10H4jVa5RXzC1KOw.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansnandinagari/v4/or38Q7733eiDljA1IufXSNFT-1KI5y10H4jlap5T.ttf"
+}

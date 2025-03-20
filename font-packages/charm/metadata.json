@@ -2,12 +2,13 @@
   "family": "Charm",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v10",
-  "lastModified": "2022-09-22",
+  "version": "v11",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/charm/v10/7cHrv4oii5K0Md6TDss8yn4hnCci.ttf",
-    "regular": "http://fonts.gstatic.com/s/charm/v10/7cHmv4oii5K0MeYvIe804WIo.ttf"
+    "700": "https://fonts.gstatic.com/s/charm/v11/7cHrv4oii5K0Md6TDss8yn4hnCci.ttf",
+    "regular": "https://fonts.gstatic.com/s/charm/v11/7cHmv4oii5K0MeYvIe804WIo.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/charm/v11/7cHmv4oii5K0MdYuK-s.ttf"
 }

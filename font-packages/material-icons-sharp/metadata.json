@@ -1,0 +1,13 @@
+{
+  "family": "Material Icons Sharp",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v109",
+  "lastModified": "2024-08-12",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/materialiconssharp/v109/oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvmvSImEyc0vd.otf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/materialiconssharp/v109/oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvlvVKGM.otf"
+}

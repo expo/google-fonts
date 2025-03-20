@@ -1,0 +1,33 @@
+{
+  "family": "Rethink Sans",
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic",
+    "800italic"
+  ],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2024-09-04",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/rethinksans/v5/AMODz4SDuXOMCPfdoglY9JQuWHBGG0X45DmqklNRCE7mma-aua4.ttf",
+    "600": "https://fonts.gstatic.com/s/rethinksans/v5/AMODz4SDuXOMCPfdoglY9JQuWHBGG0X45Dmqkr9WCE7mma-aua4.ttf",
+    "700": "https://fonts.gstatic.com/s/rethinksans/v5/AMODz4SDuXOMCPfdoglY9JQuWHBGG0X45DmqkoZWCE7mma-aua4.ttf",
+    "800": "https://fonts.gstatic.com/s/rethinksans/v5/AMODz4SDuXOMCPfdoglY9JQuWHBGG0X45DmqkuFWCE7mma-aua4.ttf",
+    "regular": "https://fonts.gstatic.com/s/rethinksans/v5/AMODz4SDuXOMCPfdoglY9JQuWHBGG0X45DmqkmFRCE7mma-aua4.ttf",
+    "italic": "https://fonts.gstatic.com/s/rethinksans/v5/AMOFz4SDuXOMCPfdoglY9JQEUUK5wyyTfpeth6kS4A3snY2fqa7iVQ.ttf",
+    "500italic": "https://fonts.gstatic.com/s/rethinksans/v5/AMOFz4SDuXOMCPfdoglY9JQEUUK5wyyTfpeth6kS0g3snY2fqa7iVQ.ttf",
+    "600italic": "https://fonts.gstatic.com/s/rethinksans/v5/AMOFz4SDuXOMCPfdoglY9JQEUUK5wyyTfpeth6kSPgrsnY2fqa7iVQ.ttf",
+    "700italic": "https://fonts.gstatic.com/s/rethinksans/v5/AMOFz4SDuXOMCPfdoglY9JQEUUK5wyyTfpeth6kSBwrsnY2fqa7iVQ.ttf",
+    "800italic": "https://fonts.gstatic.com/s/rethinksans/v5/AMOFz4SDuXOMCPfdoglY9JQEUUK5wyyTfpeth6kSYArsnY2fqa7iVQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/rethinksans/v5/AMODz4SDuXOMCPfdoglY9JQuWHBGG0X45DmqkmFROE_snQ.ttf"
+}

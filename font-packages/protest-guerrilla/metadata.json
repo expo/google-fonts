@@ -1,0 +1,13 @@
+{
+  "family": "Protest Guerrilla",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "math", "symbols", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/protestguerrilla/v2/Qw3HZR5PDSL6K3irtrY-VJB2YzARHV0koJ8y_eiS.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/protestguerrilla/v2/Qw3HZR5PDSL6K3irtrY-VJB2YzARHW0lqps.ttf"
+}

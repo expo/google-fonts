@@ -1,0 +1,11 @@
+{
+  "family": "Freeman",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/freeman/v1/S6u9w4NGQiLN8nh-ew-FGC_p9dw.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/freeman/v1/S6u9w4NGQiLN8nh-Sw6PHA.ttf"
+}

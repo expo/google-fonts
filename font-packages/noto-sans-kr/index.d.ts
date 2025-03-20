@@ -7,8 +7,11 @@ export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
 export const NotoSansKR_100Thin: number;
+export const NotoSansKR_200ExtraLight: number;
 export const NotoSansKR_300Light: number;
 export const NotoSansKR_400Regular: number;
 export const NotoSansKR_500Medium: number;
+export const NotoSansKR_600SemiBold: number;
 export const NotoSansKR_700Bold: number;
+export const NotoSansKR_800ExtraBold: number;
 export const NotoSansKR_900Black: number;

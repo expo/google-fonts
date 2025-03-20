@@ -1,0 +1,13 @@
+{
+  "family": "New Amsterdam",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/newamsterdam/v1/YA9Vr02Y5lucHqUlbEe51kBtl7mGiv_Q7dA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/newamsterdam/v1/YA9Vr02Y5lucHqUlbEe51kBtp7iMjg.ttf"
+}

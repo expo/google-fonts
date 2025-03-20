@@ -2,11 +2,12 @@
   "family": "Della Respira",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v18",
-  "lastModified": "2022-09-22",
+  "version": "v22",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/dellarespira/v18/RLp5K5v44KaueWI6iEJQBiGPRfkSu6EuTHo.ttf"
+    "regular": "https://fonts.gstatic.com/s/dellarespira/v22/RLp5K5v44KaueWI6iEJQBiGPRfkSu6EuTHo.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/dellarespira/v22/RLp5K5v44KaueWI6iEJQBiGPdfgYvw.ttf"
 }

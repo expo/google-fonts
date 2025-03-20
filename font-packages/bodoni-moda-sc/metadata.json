@@ -1,0 +1,37 @@
+{
+  "family": "Bodoni Moda SC",
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic",
+    "800italic",
+    "900italic"
+  ],
+  "subsets": ["latin", "latin-ext", "math", "symbols"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/bodonimodasc/v1/LYjhdGTykkIgA8197UwkzHp8F-XUUG5UNs2KqliEb-g_DaUdIA6SfiYHbDzuXJyb9N7yr8E.ttf",
+    "600": "https://fonts.gstatic.com/s/bodonimodasc/v1/LYjhdGTykkIgA8197UwkzHp8F-XUUG5UNs2KqliEb-g_DaUdIA6SfiYHbNDpXJyb9N7yr8E.ttf",
+    "700": "https://fonts.gstatic.com/s/bodonimodasc/v1/LYjhdGTykkIgA8197UwkzHp8F-XUUG5UNs2KqliEb-g_DaUdIA6SfiYHbOnpXJyb9N7yr8E.ttf",
+    "800": "https://fonts.gstatic.com/s/bodonimodasc/v1/LYjhdGTykkIgA8197UwkzHp8F-XUUG5UNs2KqliEb-g_DaUdIA6SfiYHbI7pXJyb9N7yr8E.ttf",
+    "900": "https://fonts.gstatic.com/s/bodonimodasc/v1/LYjhdGTykkIgA8197UwkzHp8F-XUUG5UNs2KqliEb-g_DaUdIA6SfiYHbKfpXJyb9N7yr8E.ttf",
+    "regular": "https://fonts.gstatic.com/s/bodonimodasc/v1/LYjhdGTykkIgA8197UwkzHp8F-XUUG5UNs2KqliEb-g_DaUdIA6SfiYHbA7uXJyb9N7yr8E.ttf",
+    "italic": "https://fonts.gstatic.com/s/bodonimodasc/v1/LYjndGTykkIgA8197UwkzHp8F8_dYp-6DdBNRF6RX6k1R5fi-Gf55IgAecattN-R8Pz3v8Etew.ttf",
+    "500italic": "https://fonts.gstatic.com/s/bodonimodasc/v1/LYjndGTykkIgA8197UwkzHp8F8_dYp-6DdBNRF6RX6k1R5fi-Gf55IgAecatht-R8Pz3v8Etew.ttf",
+    "600italic": "https://fonts.gstatic.com/s/bodonimodasc/v1/LYjndGTykkIgA8197UwkzHp8F8_dYp-6DdBNRF6RX6k1R5fi-Gf55IgAecatatiR8Pz3v8Etew.ttf",
+    "700italic": "https://fonts.gstatic.com/s/bodonimodasc/v1/LYjndGTykkIgA8197UwkzHp8F8_dYp-6DdBNRF6RX6k1R5fi-Gf55IgAecatU9iR8Pz3v8Etew.ttf",
+    "800italic": "https://fonts.gstatic.com/s/bodonimodasc/v1/LYjndGTykkIgA8197UwkzHp8F8_dYp-6DdBNRF6RX6k1R5fi-Gf55IgAecatNNiR8Pz3v8Etew.ttf",
+    "900italic": "https://fonts.gstatic.com/s/bodonimodasc/v1/LYjndGTykkIgA8197UwkzHp8F8_dYp-6DdBNRF6RX6k1R5fi-Gf55IgAecatHdiR8Pz3v8Etew.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/bodonimodasc/v1/LYjhdGTykkIgA8197UwkzHp8F-XUUG5UNs2KqliEb-g_DaUdIA6SfiYHbA7ubJ2R8A.ttf"
+}

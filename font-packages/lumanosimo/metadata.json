@@ -1,0 +1,13 @@
+{
+  "family": "Lumanosimo",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/lumanosimo/v4/K2F0fZBYg_JDSEZHEfO8AoqKAyLzfWo.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/lumanosimo/v4/K2F0fZBYg_JDSEZHEfO8MouABw.ttf"
+}

@@ -2,11 +2,12 @@
   "family": "Bowlby One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v19",
-  "lastModified": "2022-09-22",
+  "version": "v23",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/bowlbyone/v19/taiPGmVuC4y96PFeqp8smo6C_Z0wcK4.ttf"
+    "regular": "https://fonts.gstatic.com/s/bowlbyone/v23/taiPGmVuC4y96PFeqp8smo6C_Z0wcK4.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/bowlbyone/v23/taiPGmVuC4y96PFeqp8sqo-I-Q.ttf"
 }

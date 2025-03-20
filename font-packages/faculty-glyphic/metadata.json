@@ -1,0 +1,13 @@
+{
+  "family": "Faculty Glyphic",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2024-12-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/facultyglyphic/v4/RrQIbot2-iBvI2mYSyKIrcgoBuQIG-eFNVmULg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/facultyglyphic/v4/RrQIbot2-iBvI2mYSyKIrcgoBuQ4Gu2B.ttf"
+}

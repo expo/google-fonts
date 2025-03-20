@@ -3,8 +3,9 @@
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
   "version": "v18",
-  "lastModified": "2022-11-09",
-  "files": { "regular": "http://fonts.gstatic.com/s/average/v18/fC1hPYBHe23MxA7rIeJwVWytTyk.ttf" },
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/average/v18/fC1hPYBHe23MxA7rIeJwVWytTyk.ttf" },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/average/v18/fC1hPYBHe23MxA7rEeN6UQ.ttf"
 }

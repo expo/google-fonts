@@ -1,0 +1,13 @@
+{
+  "family": "Cherry Bomb One",
+  "variants": ["regular"],
+  "subsets": ["japanese", "latin", "latin-ext", "vietnamese"],
+  "version": "v9",
+  "lastModified": "2024-08-07",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/cherrybombone/v9/y83DW4od1h6KlV3c6JJhRhGOdhrKDNpF41fr-w.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/cherrybombone/v9/y83DW4od1h6KlV3c6JJhRhGOdhr6DdBB.ttf"
+}

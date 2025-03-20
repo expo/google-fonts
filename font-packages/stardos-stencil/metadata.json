@@ -3,11 +3,12 @@
   "variants": ["regular", "700"],
   "subsets": ["latin"],
   "version": "v15",
-  "lastModified": "2022-09-22",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/stardosstencil/v15/X7n44bcuGPC8hrvEOHXOgaKCc2TpU3tTvg-t29HSHw.ttf",
-    "regular": "http://fonts.gstatic.com/s/stardosstencil/v15/X7n94bcuGPC8hrvEOHXOgaKCc2TR71R3tiSx0g.ttf"
+    "700": "https://fonts.gstatic.com/s/stardosstencil/v15/X7n44bcuGPC8hrvEOHXOgaKCc2TpU3tTvg-t29HSHw.ttf",
+    "regular": "https://fonts.gstatic.com/s/stardosstencil/v15/X7n94bcuGPC8hrvEOHXOgaKCc2TR71R3tiSx0g.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/stardosstencil/v15/X7n94bcuGPC8hrvEOHXOgaKCc2Th7l5z.ttf"
 }

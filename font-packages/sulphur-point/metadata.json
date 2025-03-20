@@ -2,13 +2,14 @@
   "family": "Sulphur Point",
   "variants": ["300", "regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2022-09-22",
+  "version": "v15",
+  "lastModified": "2024-09-04",
   "files": {
-    "300": "http://fonts.gstatic.com/s/sulphurpoint/v14/RLpkK5vv8KaycDcazWFPBj2afVU6n6kFUHPIFaU.ttf",
-    "700": "http://fonts.gstatic.com/s/sulphurpoint/v14/RLpkK5vv8KaycDcazWFPBj2afUU9n6kFUHPIFaU.ttf",
-    "regular": "http://fonts.gstatic.com/s/sulphurpoint/v14/RLp5K5vv8KaycDcazWFPBj2aRfkSu6EuTHo.ttf"
+    "300": "https://fonts.gstatic.com/s/sulphurpoint/v15/RLpkK5vv8KaycDcazWFPBj2afVU6n6kFUHPIFaU.ttf",
+    "700": "https://fonts.gstatic.com/s/sulphurpoint/v15/RLpkK5vv8KaycDcazWFPBj2afUU9n6kFUHPIFaU.ttf",
+    "regular": "https://fonts.gstatic.com/s/sulphurpoint/v15/RLp5K5vv8KaycDcazWFPBj2aRfkSu6EuTHo.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/sulphurpoint/v15/RLp5K5vv8KaycDcazWFPBj2adfgYvw.ttf"
 }

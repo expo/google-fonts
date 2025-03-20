@@ -1,0 +1,16 @@
+{
+  "family": "Edu AU VIC WA NT Guides",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2024-09-23",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/eduauvicwantguides/v1/TuG-UUJ4V48KZ9Nr3ZV46JQkJxtkFIKnvy00LCZuAcLMeb8FnyPdGVZazoF08FsYlA.ttf",
+    "600": "https://fonts.gstatic.com/s/eduauvicwantguides/v1/TuG-UUJ4V48KZ9Nr3ZV46JQkJxtkFIKnvy00LCZuAcLMeb8FnyPd9VFazoF08FsYlA.ttf",
+    "700": "https://fonts.gstatic.com/s/eduauvicwantguides/v1/TuG-UUJ4V48KZ9Nr3ZV46JQkJxtkFIKnvy00LCZuAcLMeb8FnyPdzFFazoF08FsYlA.ttf",
+    "regular": "https://fonts.gstatic.com/s/eduauvicwantguides/v1/TuG-UUJ4V48KZ9Nr3ZV46JQkJxtkFIKnvy00LCZuAcLMeb8FnyPdK1ZazoF08FsYlA.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/eduauvicwantguides/v1/TuG-UUJ4V48KZ9Nr3ZV46JQkJxtkFIKnvy00LCZuAcLMeb8FnyPdK1Zqz4tw.ttf"
+}

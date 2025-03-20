@@ -1,0 +1,13 @@
+{
+  "family": "Bacasime Antique",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/bacasimeantique/v1/tDbX2pGXkFYEykldjZSrmI6T_XWZOwStSUrV_BE.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/bacasimeantique/v1/tDbX2pGXkFYEykldjZSrmI6T_XWZCwWnTQ.ttf"
+}

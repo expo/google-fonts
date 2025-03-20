@@ -2,12 +2,13 @@
   "family": "Quattrocento",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2022-09-22",
+  "version": "v23",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/quattrocento/v17/OZpbg_xvsDZQL_LKIF7q4jP_eE3fd6PZsXcM9w.ttf",
-    "regular": "http://fonts.gstatic.com/s/quattrocento/v17/OZpEg_xvsDZQL_LKIF7q4jPHxGL7f4jFuA.ttf"
+    "700": "https://fonts.gstatic.com/s/quattrocento/v23/OZpbg_xvsDZQL_LKIF7q4jP_eE3fd6PZsXcM9w.ttf",
+    "regular": "https://fonts.gstatic.com/s/quattrocento/v23/OZpEg_xvsDZQL_LKIF7q4jPHxGL7f4jFuA.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/quattrocento/v23/OZpEg_xvsDZQL_LKIF7q4jP3xWj_.ttf"
 }

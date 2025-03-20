@@ -11,4 +11,5 @@ export const NotoSerifTC_400Regular = require('./NotoSerifTC_400Regular.ttf');
 export const NotoSerifTC_500Medium = require('./NotoSerifTC_500Medium.ttf');
 export const NotoSerifTC_600SemiBold = require('./NotoSerifTC_600SemiBold.ttf');
 export const NotoSerifTC_700Bold = require('./NotoSerifTC_700Bold.ttf');
+export const NotoSerifTC_800ExtraBold = require('./NotoSerifTC_800ExtraBold.ttf');
 export const NotoSerifTC_900Black = require('./NotoSerifTC_900Black.ttf');

@@ -1,0 +1,16 @@
+{
+  "family": "Playwrite DK Uloopet",
+  "variants": ["100", "200", "300", "regular"],
+  "subsets": ["latin"],
+  "version": "v5",
+  "lastModified": "2025-02-12",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playwritedkuloopet/v5/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K06lQrKeng6LUzAA.ttf",
+    "200": "https://fonts.gstatic.com/s/playwritedkuloopet/v5/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K0alUrKeng6LUzAA.ttf",
+    "300": "https://fonts.gstatic.com/s/playwritedkuloopet/v5/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K0tFUrKeng6LUzAA.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwritedkuloopet/v5/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K06lUrKeng6LUzAA.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwritedkuloopet/v5/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K06lUbKOPk.ttf"
+}

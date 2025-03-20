@@ -2,15 +2,16 @@
   "family": "Hanuman",
   "variants": ["100", "300", "regular", "700", "900"],
   "subsets": ["khmer", "latin"],
-  "version": "v22",
-  "lastModified": "2022-04-21",
+  "version": "v23",
+  "lastModified": "2024-12-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/hanuman/v22/VuJzdNvD15HhpJJBQMLdPKNiaRpFvg.ttf",
-    "300": "http://fonts.gstatic.com/s/hanuman/v22/VuJ0dNvD15HhpJJBQAr_HIlMZRNcp0o.ttf",
-    "700": "http://fonts.gstatic.com/s/hanuman/v22/VuJ0dNvD15HhpJJBQBr4HIlMZRNcp0o.ttf",
-    "900": "http://fonts.gstatic.com/s/hanuman/v22/VuJ0dNvD15HhpJJBQCL6HIlMZRNcp0o.ttf",
-    "regular": "http://fonts.gstatic.com/s/hanuman/v22/VuJxdNvD15HhpJJBeKbXOIFneRo.ttf"
+    "100": "https://fonts.gstatic.com/s/hanuman/v23/VuJzdNvD15HhpJJBQMLdPKNiaRpFvg.ttf",
+    "300": "https://fonts.gstatic.com/s/hanuman/v23/VuJ0dNvD15HhpJJBQAr_HIlMZRNcp0o.ttf",
+    "700": "https://fonts.gstatic.com/s/hanuman/v23/VuJ0dNvD15HhpJJBQBr4HIlMZRNcp0o.ttf",
+    "900": "https://fonts.gstatic.com/s/hanuman/v23/VuJ0dNvD15HhpJJBQCL6HIlMZRNcp0o.ttf",
+    "regular": "https://fonts.gstatic.com/s/hanuman/v23/VuJxdNvD15HhpJJBeKbXOIFneRo.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/hanuman/v23/VuJxdNvD15HhpJJBSKfdPA.ttf"
 }

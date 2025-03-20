@@ -3,11 +3,12 @@
   "variants": ["regular", "italic"],
   "subsets": ["kannada", "latin", "latin-ext"],
   "version": "v6",
-  "lastModified": "2023-01-06",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/tirokannada/v6/CSR44ztKmvqaDxEDJFY7CIYKSPl6tOU9Eg.ttf",
-    "italic": "http://fonts.gstatic.com/s/tirokannada/v6/CSRm4ztKmvqaDxEDJFY7CIY6SvN-luAtEnKp.ttf"
+    "regular": "https://fonts.gstatic.com/s/tirokannada/v6/CSR44ztKmvqaDxEDJFY7CIYKSPl6tOU9Eg.ttf",
+    "italic": "https://fonts.gstatic.com/s/tirokannada/v6/CSRm4ztKmvqaDxEDJFY7CIY6SvN-luAtEnKp.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/tirokannada/v6/CSR44ztKmvqaDxEDJFY7CIY6SfN-.ttf"
 }

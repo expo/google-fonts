@@ -1,0 +1,13 @@
+{
+  "family": "Sixtyfour",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "math", "symbols"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/sixtyfour/v1/OD5vuMCT1numDm3nakXtp2h4jg463t9haG_3mBkVsV20uFT3BAE5f73YnyS5ZuOV.ttf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/sixtyfour/v1/OD5vuMCT1numDm3nakXtp2h4jg463t9haG_3mBkVsV20uFT3BAE5f43ZlSA.ttf"
+}

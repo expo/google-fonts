@@ -1,0 +1,13 @@
+{
+  "family": "Jersey 15 Charted",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v3",
+  "lastModified": "2025-01-28",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/jersey15charted/v3/nuFjD-rCQIjoVp1Sva2ToCTudGbLeRv4r2024gxi.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/jersey15charted/v3/nuFjD-rCQIjoVp1Sva2ToCTudGbLeSv5pWk.ttf"
+}

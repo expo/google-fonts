@@ -1,0 +1,13 @@
+{
+  "family": "Jacquard 12 Charted",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "math", "symbols"],
+  "version": "v3",
+  "lastModified": "2025-01-28",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/jacquard12charted/v3/i7dWIE97bzCOB9Q_Up6PQmYfKDPIb2HwT3StZ9jetKY.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/jacquard12charted/v3/i7dWIE97bzCOB9Q_Up6PQmYfKDPIb2Hwf3WnYw.ttf"
+}

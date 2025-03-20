@@ -2,11 +2,12 @@
   "family": "Chonburi",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v10",
-  "lastModified": "2022-09-22",
+  "version": "v12",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/chonburi/v10/8AtqGs-wOpGRTBq66IWaFr3biAfZ.ttf"
+    "regular": "https://fonts.gstatic.com/s/chonburi/v12/8AtqGs-wOpGRTBq66IWaFr3biAfZ.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/chonburi/v12/8AtqGs-wOpGRTBq66LWbHLk.ttf"
 }

@@ -2,9 +2,10 @@
   "family": "Peralta",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/peralta/v17/hYkJPu0-RP_9d3kRGxAhrv956B8.ttf" },
-  "category": "display",
-  "kind": "webfonts#webfont"
+  "version": "v19",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/peralta/v19/hYkJPu0-RP_9d3kRGxAhrv956B8.ttf" },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/peralta/v19/hYkJPu0-RP_9d3kRKxErqg.ttf"
 }

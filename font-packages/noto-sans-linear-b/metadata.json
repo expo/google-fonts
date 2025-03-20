@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Linear B",
   "variants": ["regular"],
-  "subsets": ["linear-b"],
-  "version": "v15",
-  "lastModified": "2022-05-10",
+  "subsets": ["latin", "latin-ext", "linear-b"],
+  "version": "v17",
+  "lastModified": "2023-07-24",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosanslinearb/v15/HhyJU4wt9vSgfHoORYOiXOckKNB737IV3BkFTq4EPw.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanslinearb/v17/HhyJU4wt9vSgfHoORYOiXOckKNB737IV3BkFTq4EPw.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanslinearb/v17/HhyJU4wt9vSgfHoORYOiXOckKNB737Il3RMB.ttf"
 }

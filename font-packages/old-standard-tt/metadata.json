@@ -2,13 +2,14 @@
   "family": "Old Standard TT",
   "variants": ["regular", "italic", "700"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v18",
-  "lastModified": "2022-09-22",
+  "version": "v20",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/oldstandardtt/v18/MwQrbh3o1vLImiwAVvYawgcf2eVWEX-dTFxeb80flQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/oldstandardtt/v18/MwQubh3o1vLImiwAVvYawgcf2eVurVC5RHdCZg.ttf",
-    "italic": "http://fonts.gstatic.com/s/oldstandardtt/v18/MwQsbh3o1vLImiwAVvYawgcf2eVer1q9ZnJSZtQG.ttf"
+    "700": "https://fonts.gstatic.com/s/oldstandardtt/v20/MwQrbh3o1vLImiwAVvYawgcf2eVWEX-dTFxeb80flQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/oldstandardtt/v20/MwQubh3o1vLImiwAVvYawgcf2eVurVC5RHdCZg.ttf",
+    "italic": "https://fonts.gstatic.com/s/oldstandardtt/v20/MwQsbh3o1vLImiwAVvYawgcf2eVer1q9ZnJSZtQG.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/oldstandardtt/v20/MwQubh3o1vLImiwAVvYawgcf2eVerFq9.ttf"
 }

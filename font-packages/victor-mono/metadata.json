@@ -1,0 +1,41 @@
+{
+  "family": "Victor Mono",
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "100italic",
+    "200italic",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic"
+  ],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2024-09-04",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/victormono/v3/Yq6H-LGQWyfv-LGy7lEO09xRn-T81AVB_tCyO8_NhNyOV0Y9bQ.ttf",
+    "200": "https://fonts.gstatic.com/s/victormono/v3/Yq6H-LGQWyfv-LGy7lEO09xRn-T81AVB_tCyu87NhNyOV0Y9bQ.ttf",
+    "300": "https://fonts.gstatic.com/s/victormono/v3/Yq6H-LGQWyfv-LGy7lEO09xRn-T81AVB_tCyZc7NhNyOV0Y9bQ.ttf",
+    "500": "https://fonts.gstatic.com/s/victormono/v3/Yq6H-LGQWyfv-LGy7lEO09xRn-T81AVB_tCyCc7NhNyOV0Y9bQ.ttf",
+    "600": "https://fonts.gstatic.com/s/victormono/v3/Yq6H-LGQWyfv-LGy7lEO09xRn-T81AVB_tCy5cnNhNyOV0Y9bQ.ttf",
+    "700": "https://fonts.gstatic.com/s/victormono/v3/Yq6H-LGQWyfv-LGy7lEO09xRn-T81AVB_tCy3MnNhNyOV0Y9bQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/victormono/v3/Yq6H-LGQWyfv-LGy7lEO09xRn-T81AVB_tCyO87NhNyOV0Y9bQ.ttf",
+    "100italic": "https://fonts.gstatic.com/s/victormono/v3/Yq6B-LGQWyfv-LGy7lEO0_ZYrRskvW7bUNen840lxtaKdUMtba8p.ttf",
+    "200italic": "https://fonts.gstatic.com/s/victormono/v3/Yq6B-LGQWyfv-LGy7lEO0_ZYrRskvW7bUNen842lx9aKdUMtba8p.ttf",
+    "300italic": "https://fonts.gstatic.com/s/victormono/v3/Yq6B-LGQWyfv-LGy7lEO0_ZYrRskvW7bUNen8417x9aKdUMtba8p.ttf",
+    "italic": "https://fonts.gstatic.com/s/victormono/v3/Yq6B-LGQWyfv-LGy7lEO0_ZYrRskvW7bUNen840lx9aKdUMtba8p.ttf",
+    "500italic": "https://fonts.gstatic.com/s/victormono/v3/Yq6B-LGQWyfv-LGy7lEO0_ZYrRskvW7bUNen840Xx9aKdUMtba8p.ttf",
+    "600italic": "https://fonts.gstatic.com/s/victormono/v3/Yq6B-LGQWyfv-LGy7lEO0_ZYrRskvW7bUNen8437wNaKdUMtba8p.ttf",
+    "700italic": "https://fonts.gstatic.com/s/victormono/v3/Yq6B-LGQWyfv-LGy7lEO0_ZYrRskvW7bUNen843CwNaKdUMtba8p.ttf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/victormono/v3/Yq6H-LGQWyfv-LGy7lEO09xRn-T81AVB_tCyO879hdaK.ttf"
+}

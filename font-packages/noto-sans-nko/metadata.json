@@ -2,11 +2,12 @@
   "family": "Noto Sans NKo",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "nko"],
-  "version": "v2",
-  "lastModified": "2023-01-25",
+  "version": "v6",
+  "lastModified": "2023-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosansnko/v2/esDX31ZdNv-KYGGJpKGk2_RpMpCMHMLBrdA.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansnko/v6/esDX31ZdNv-KYGGJpKGk2_RpMpCMHMLBrdA.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansnko/v6/esDX31ZdNv-KYGGJpKGk2_RpApGGGA.ttf"
 }

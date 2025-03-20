@@ -1,0 +1,41 @@
+{
+  "family": "Playfair",
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic",
+    "800italic",
+    "900italic"
+  ],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v9",
+  "lastModified": "2025-01-28",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/playfair/v9/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPlKetgdoSMw5ifm.ttf",
+    "500": "https://fonts.gstatic.com/s/playfair/v9/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkmetgdoSMw5ifm.ttf",
+    "600": "https://fonts.gstatic.com/s/playfair/v9/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnKfdgdoSMw5ifm.ttf",
+    "700": "https://fonts.gstatic.com/s/playfair/v9/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnzfdgdoSMw5ifm.ttf",
+    "800": "https://fonts.gstatic.com/s/playfair/v9/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPmUfdgdoSMw5ifm.ttf",
+    "900": "https://fonts.gstatic.com/s/playfair/v9/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPm9fdgdoSMw5ifm.ttf",
+    "regular": "https://fonts.gstatic.com/s/playfair/v9/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkUetgdoSMw5ifm.ttf",
+    "300italic": "https://fonts.gstatic.com/s/playfair/v9/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOW5eqycS4zfmNrE.ttf",
+    "italic": "https://fonts.gstatic.com/s/playfair/v9/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOTBeqycS4zfmNrE.ttf",
+    "500italic": "https://fonts.gstatic.com/s/playfair/v9/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOQJeqycS4zfmNrE.ttf",
+    "600italic": "https://fonts.gstatic.com/s/playfair/v9/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOe5ZqycS4zfmNrE.ttf",
+    "700italic": "https://fonts.gstatic.com/s/playfair/v9/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOddZqycS4zfmNrE.ttf",
+    "800italic": "https://fonts.gstatic.com/s/playfair/v9/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcObBZqycS4zfmNrE.ttf",
+    "900italic": "https://fonts.gstatic.com/s/playfair/v9/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOZlZqycS4zfmNrE.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playfair/v9/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkUeugcqyc.ttf"
+}

@@ -2,17 +2,18 @@
   "family": "Martel Sans",
   "variants": ["200", "300", "regular", "600", "700", "800", "900"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2022-09-22",
+  "version": "v13",
+  "lastModified": "2024-09-04",
   "files": {
-    "200": "http://fonts.gstatic.com/s/martelsans/v12/h0GxssGi7VdzDgKjM-4d8hAX5suHFUknqMxQ.ttf",
-    "300": "http://fonts.gstatic.com/s/martelsans/v12/h0GxssGi7VdzDgKjM-4d8hBz5cuHFUknqMxQ.ttf",
-    "600": "http://fonts.gstatic.com/s/martelsans/v12/h0GxssGi7VdzDgKjM-4d8hAH48uHFUknqMxQ.ttf",
-    "700": "http://fonts.gstatic.com/s/martelsans/v12/h0GxssGi7VdzDgKjM-4d8hBj4suHFUknqMxQ.ttf",
-    "800": "http://fonts.gstatic.com/s/martelsans/v12/h0GxssGi7VdzDgKjM-4d8hB_4cuHFUknqMxQ.ttf",
-    "900": "http://fonts.gstatic.com/s/martelsans/v12/h0GxssGi7VdzDgKjM-4d8hBb4MuHFUknqMxQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/martelsans/v12/h0GsssGi7VdzDgKjM-4d8ijfze-PPlUu.ttf"
+    "200": "https://fonts.gstatic.com/s/martelsans/v13/h0GxssGi7VdzDgKjM-4d8hAX5suHFUknqMxQ.ttf",
+    "300": "https://fonts.gstatic.com/s/martelsans/v13/h0GxssGi7VdzDgKjM-4d8hBz5cuHFUknqMxQ.ttf",
+    "600": "https://fonts.gstatic.com/s/martelsans/v13/h0GxssGi7VdzDgKjM-4d8hAH48uHFUknqMxQ.ttf",
+    "700": "https://fonts.gstatic.com/s/martelsans/v13/h0GxssGi7VdzDgKjM-4d8hBj4suHFUknqMxQ.ttf",
+    "800": "https://fonts.gstatic.com/s/martelsans/v13/h0GxssGi7VdzDgKjM-4d8hB_4cuHFUknqMxQ.ttf",
+    "900": "https://fonts.gstatic.com/s/martelsans/v13/h0GxssGi7VdzDgKjM-4d8hBb4MuHFUknqMxQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/martelsans/v13/h0GsssGi7VdzDgKjM-4d8ijfze-PPlUu.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/martelsans/v13/h0GsssGi7VdzDgKjM-4d8hjex-s.ttf"
 }

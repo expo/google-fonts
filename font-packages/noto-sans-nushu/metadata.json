@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Nushu",
   "variants": ["regular"],
-  "subsets": ["nushu"],
-  "version": "v18",
-  "lastModified": "2022-05-10",
+  "subsets": ["latin", "latin-ext", "nushu"],
+  "version": "v19",
+  "lastModified": "2023-04-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosansnushu/v18/rnCw-xRQ3B7652emAbAe_Ai1IYaFWFAMArZKqQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansnushu/v19/rnCw-xRQ3B7652emAbAe_Ai1IYaFWFAMArZKqQ.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansnushu/v19/rnCw-xRQ3B7652emAbAe_Ai1IYa1WVoI.ttf"
 }

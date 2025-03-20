@@ -7,4 +7,6 @@ export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
 export const Harmattan_400Regular: number;
+export const Harmattan_500Medium: number;
+export const Harmattan_600SemiBold: number;
 export const Harmattan_700Bold: number;

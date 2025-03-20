@@ -2,9 +2,10 @@
   "family": "NTR",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v15",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/ntr/v15/RLpzK5Xy0ZjiGGhs5TA4bg.ttf" },
+  "version": "v18",
+  "lastModified": "2024-11-20",
+  "files": { "regular": "https://fonts.gstatic.com/s/ntr/v18/RLpzK5Xy0ZjiGGhs5TA4bg.ttf" },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/ntr/v18/RLpzK5Xy0ZjSGWJo.ttf"
 }

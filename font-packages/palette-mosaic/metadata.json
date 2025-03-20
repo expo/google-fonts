@@ -1,0 +1,13 @@
+{
+  "family": "Palette Mosaic",
+  "variants": ["regular"],
+  "subsets": ["japanese", "latin"],
+  "version": "v11",
+  "lastModified": "2024-08-07",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/palettemosaic/v11/AMOIz4aBvWuBFe3TohdW6YZ9MFiy4dxL4jSr.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/palettemosaic/v11/AMOIz4aBvWuBFe3TohdW6YZ9MGiz69g.ttf"
+}

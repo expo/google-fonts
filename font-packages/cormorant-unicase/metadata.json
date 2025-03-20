@@ -3,14 +3,15 @@
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
   "version": "v24",
-  "lastModified": "2022-09-22",
+  "lastModified": "2024-09-04",
   "files": {
-    "300": "http://fonts.gstatic.com/s/cormorantunicase/v24/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9N_tucv7Gy0DRzS.ttf",
-    "500": "http://fonts.gstatic.com/s/cormorantunicase/v24/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9Mnt-cv7Gy0DRzS.ttf",
-    "600": "http://fonts.gstatic.com/s/cormorantunicase/v24/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9MLsOcv7Gy0DRzS.ttf",
-    "700": "http://fonts.gstatic.com/s/cormorantunicase/v24/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9Nvsecv7Gy0DRzS.ttf",
-    "regular": "http://fonts.gstatic.com/s/cormorantunicase/v24/HI_QiZUaILtOqhqgDeXoF_n1_fTGX-vTnsMnx3C9.ttf"
+    "300": "https://fonts.gstatic.com/s/cormorantunicase/v24/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9N_tucv7Gy0DRzS.ttf",
+    "500": "https://fonts.gstatic.com/s/cormorantunicase/v24/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9Mnt-cv7Gy0DRzS.ttf",
+    "600": "https://fonts.gstatic.com/s/cormorantunicase/v24/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9MLsOcv7Gy0DRzS.ttf",
+    "700": "https://fonts.gstatic.com/s/cormorantunicase/v24/HI_ViZUaILtOqhqgDeXoF_n1_fTGX9Nvsecv7Gy0DRzS.ttf",
+    "regular": "https://fonts.gstatic.com/s/cormorantunicase/v24/HI_QiZUaILtOqhqgDeXoF_n1_fTGX-vTnsMnx3C9.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/cormorantunicase/v24/HI_QiZUaILtOqhqgDeXoF_n1_fTGX9vSlMc.ttf"
 }

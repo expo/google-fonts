@@ -2,9 +2,10 @@
   "family": "Kranky",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v24",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/kranky/v24/hESw6XVgJzlPsFnMpheEZo_H_w.ttf" },
+  "version": "v28",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/kranky/v28/hESw6XVgJzlPsFnMpheEZo_H_w.ttf" },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/kranky/v28/hESw6XVgJzlPsFn8px2A.ttf"
 }

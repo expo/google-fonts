@@ -6,3 +6,7 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const Anaheim_400Regular = require('./Anaheim_400Regular.ttf');
+export const Anaheim_500Medium = require('./Anaheim_500Medium.ttf');
+export const Anaheim_600SemiBold = require('./Anaheim_600SemiBold.ttf');
+export const Anaheim_700Bold = require('./Anaheim_700Bold.ttf');
+export const Anaheim_800ExtraBold = require('./Anaheim_800ExtraBold.ttf');

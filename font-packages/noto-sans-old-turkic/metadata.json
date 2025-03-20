@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Old Turkic",
   "variants": ["regular"],
-  "subsets": ["old-turkic"],
-  "version": "v15",
-  "lastModified": "2022-05-10",
+  "subsets": ["latin", "latin-ext", "old-turkic"],
+  "version": "v18",
+  "lastModified": "2024-07-30",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosansoldturkic/v15/yMJNMJVya43H0SUF_WmcGEQVqoEMKDKbsE2RjEw-Vyws.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansoldturkic/v18/yMJNMJVya43H0SUF_WmcGEQVqoEMKDKbsE2RjEw-Vyws.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansoldturkic/v18/yMJNMJVya43H0SUF_WmcGEQVqoEMKDKbsH2Qhkg.ttf"
 }

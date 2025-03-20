@@ -1,0 +1,16 @@
+{
+  "family": "Kay Pho Du",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["kayah-li", "latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2024-09-04",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/kayphodu/v2/jizcREFPvGNOx-jhPwHR2B2OCDUy_zoyk18.ttf",
+    "600": "https://fonts.gstatic.com/s/kayphodu/v2/jizcREFPvGNOx-jhPwHR2DGJCDUy_zoyk18.ttf",
+    "700": "https://fonts.gstatic.com/s/kayphodu/v2/jizcREFPvGNOx-jhPwHR2FWICDUy_zoyk18.ttf",
+    "regular": "https://fonts.gstatic.com/s/kayphodu/v2/jizfREFPvGNOx-jhPwHR4OmnLD0Z4zM.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/kayphodu/v2/jizfREFPvGNOx-jhPwHR0OitKA.ttf"
+}

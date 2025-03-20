@@ -2,11 +2,12 @@
   "family": "Libre Barcode 128 Text",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v26",
-  "lastModified": "2022-04-26",
+  "version": "v29",
+  "lastModified": "2025-01-08",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/librebarcode128text/v26/fdNv9tubt3ZEnz1Gu3I4-zppwZ9CWZ16Z0w5cV3Y6M90w4k.ttf"
+    "regular": "https://fonts.gstatic.com/s/librebarcode128text/v29/fdNv9tubt3ZEnz1Gu3I4-zppwZ9CWZ16Z0w5cV3Y6M90w4k.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/librebarcode128text/v29/fdNv9tubt3ZEnz1Gu3I4-zppwZ9CWZ16Z0w5QVzS7A.ttf"
 }

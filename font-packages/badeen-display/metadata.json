@@ -1,0 +1,13 @@
+{
+  "family": "Badeen Display",
+  "variants": ["regular"],
+  "subsets": ["arabic", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2024-12-10",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/badeendisplay/v1/pxidypY2sdZSjFU4cPmNBzckadeLYk1Mq3ap.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/badeendisplay/v1/pxidypY2sdZSjFU4cPmNBzckaeeKaEk.ttf"
+}

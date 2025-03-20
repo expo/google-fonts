@@ -11,9 +11,11 @@ This package lets you use the [**Monda**](https://fonts.google.com/specimen/Mond
 
 ![Monda](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [4 styles](#-gallery).
 
 - `Monda_400Regular`
+- `Monda_500Medium`
+- `Monda_600SemiBold`
 - `Monda_700Bold`
 
 ## Usage
@@ -29,11 +31,19 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, Monda_400Regular, Monda_700Bold } from '@expo-google-fonts/monda';
+import {
+  useFonts,
+  Monda_400Regular,
+  Monda_500Medium,
+  Monda_600SemiBold,
+  Monda_700Bold,
+} from '@expo-google-fonts/monda';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Monda_400Regular,
+    Monda_500Medium,
+    Monda_600SemiBold,
     Monda_700Bold,
   });
 
@@ -60,6 +70,26 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Monda_500Medium',
+          }}>
+          Monda Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Monda_600SemiBold',
+          }}>
+          Monda Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Monda_700Bold',
           }}>
           Monda Bold
@@ -76,7 +106,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Monda_400Regular](./Monda_400Regular.ttf.png)|![Monda_700Bold](./Monda_700Bold.ttf.png)|||
+|![Monda_400Regular](./Monda_400Regular.ttf.png)|![Monda_500Medium](./Monda_500Medium.ttf.png)|![Monda_600SemiBold](./Monda_600SemiBold.ttf.png)||
+|![Monda_700Bold](./Monda_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

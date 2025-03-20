@@ -1,12 +1,16 @@
 {
   "family": "Noto Sans Gunjala Gondi",
-  "variants": ["regular"],
-  "subsets": ["gunjala-gondi"],
-  "version": "v15",
-  "lastModified": "2022-05-10",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["gunjala-gondi", "latin", "latin-ext"],
+  "version": "v19",
+  "lastModified": "2023-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosansgunjalagondi/v15/bWto7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5hcVXYMTK4q1.ttf"
+    "500": "https://fonts.gstatic.com/s/notosansgunjalagondi/v19/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYL04DE4J4vCTxEJQ.ttf",
+    "600": "https://fonts.gstatic.com/s/notosansgunjalagondi/v19/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYLP4fE4J4vCTxEJQ.ttf",
+    "700": "https://fonts.gstatic.com/s/notosansgunjalagondi/v19/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYLBofE4J4vCTxEJQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosansgunjalagondi/v19/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYL4YDE4J4vCTxEJQ.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansgunjalagondi/v19/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYL4YD04ZQr.ttf"
 }

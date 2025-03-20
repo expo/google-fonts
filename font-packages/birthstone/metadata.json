@@ -2,11 +2,12 @@
   "family": "Birthstone",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v10",
-  "lastModified": "2022-09-22",
+  "version": "v14",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/birthstone/v10/8AtsGs2xO4yLRhy87sv_HLn5jRfZHzM.ttf"
+    "regular": "https://fonts.gstatic.com/s/birthstone/v14/8AtsGs2xO4yLRhy87sv_HLn5jRfZHzM.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/birthstone/v14/8AtsGs2xO4yLRhy87sv_LLjziQ.ttf"
 }

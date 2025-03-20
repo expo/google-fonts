@@ -5,8 +5,9 @@
   "version": "v17",
   "lastModified": "2022-09-28",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosanswarangciti/v17/EYqtmb9SzL1YtsZSScyKDXIeOv3w-zgsNvKRpeVCCXzdgA.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanswarangciti/v17/EYqtmb9SzL1YtsZSScyKDXIeOv3w-zgsNvKRpeVCCXzdgA.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanswarangciti/v17/EYqtmb9SzL1YtsZSScyKDXIeOv3w-zgsNvKhpO9G.ttf"
 }

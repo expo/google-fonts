@@ -11,9 +11,13 @@ This package lets you use the [**Noto Traditional Nushu**](https://fonts.google.
 
 ![Noto Traditional Nushu](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [5 styles](#-gallery).
 
+- `NotoTraditionalNushu_300Light`
 - `NotoTraditionalNushu_400Regular`
+- `NotoTraditionalNushu_500Medium`
+- `NotoTraditionalNushu_600SemiBold`
+- `NotoTraditionalNushu_700Bold`
 
 ## Usage
 
@@ -30,12 +34,20 @@ import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import {
   useFonts,
+  NotoTraditionalNushu_300Light,
   NotoTraditionalNushu_400Regular,
+  NotoTraditionalNushu_500Medium,
+  NotoTraditionalNushu_600SemiBold,
+  NotoTraditionalNushu_700Bold,
 } from '@expo-google-fonts/noto-traditional-nushu';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    NotoTraditionalNushu_300Light,
     NotoTraditionalNushu_400Regular,
+    NotoTraditionalNushu_500Medium,
+    NotoTraditionalNushu_600SemiBold,
+    NotoTraditionalNushu_700Bold,
   });
 
   let fontSize = 24;
@@ -51,9 +63,49 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoTraditionalNushu_300Light',
+          }}>
+          Noto Traditional Nushu Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'NotoTraditionalNushu_400Regular',
           }}>
           Noto Traditional Nushu Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoTraditionalNushu_500Medium',
+          }}>
+          Noto Traditional Nushu Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoTraditionalNushu_600SemiBold',
+          }}>
+          Noto Traditional Nushu Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoTraditionalNushu_700Bold',
+          }}>
+          Noto Traditional Nushu Bold
         </Text>
       </View>
     );
@@ -67,7 +119,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoTraditionalNushu_400Regular](./NotoTraditionalNushu_400Regular.ttf.png)||||
+|![NotoTraditionalNushu_300Light](./NotoTraditionalNushu_300Light.ttf.png)|![NotoTraditionalNushu_400Regular](./NotoTraditionalNushu_400Regular.ttf.png)|![NotoTraditionalNushu_500Medium](./NotoTraditionalNushu_500Medium.ttf.png)||
+|![NotoTraditionalNushu_600SemiBold](./NotoTraditionalNushu_600SemiBold.ttf.png)|![NotoTraditionalNushu_700Bold](./NotoTraditionalNushu_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

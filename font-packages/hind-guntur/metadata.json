@@ -2,15 +2,16 @@
   "family": "Hind Guntur",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "telugu"],
-  "version": "v12",
-  "lastModified": "2022-09-22",
+  "version": "v13",
+  "lastModified": "2024-12-04",
   "files": {
-    "300": "http://fonts.gstatic.com/s/hindguntur/v12/wXKyE3UZrok56nvamSuJd_yGn1czn9zaj5Ju.ttf",
-    "500": "http://fonts.gstatic.com/s/hindguntur/v12/wXKyE3UZrok56nvamSuJd_zenlczn9zaj5Ju.ttf",
-    "600": "http://fonts.gstatic.com/s/hindguntur/v12/wXKyE3UZrok56nvamSuJd_zymVczn9zaj5Ju.ttf",
-    "700": "http://fonts.gstatic.com/s/hindguntur/v12/wXKyE3UZrok56nvamSuJd_yWmFczn9zaj5Ju.ttf",
-    "regular": "http://fonts.gstatic.com/s/hindguntur/v12/wXKvE3UZrok56nvamSuJd8Qqt3M7tMDT.ttf"
+    "300": "https://fonts.gstatic.com/s/hindguntur/v13/wXKyE3UZrok56nvamSuJd_yGn1czn9zaj5Ju.ttf",
+    "500": "https://fonts.gstatic.com/s/hindguntur/v13/wXKyE3UZrok56nvamSuJd_zenlczn9zaj5Ju.ttf",
+    "600": "https://fonts.gstatic.com/s/hindguntur/v13/wXKyE3UZrok56nvamSuJd_zymVczn9zaj5Ju.ttf",
+    "700": "https://fonts.gstatic.com/s/hindguntur/v13/wXKyE3UZrok56nvamSuJd_yWmFczn9zaj5Ju.ttf",
+    "regular": "https://fonts.gstatic.com/s/hindguntur/v13/wXKvE3UZrok56nvamSuJd8Qqt3M7tMDT.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/hindguntur/v13/wXKvE3UZrok56nvamSuJd_QrvXc.ttf"
 }

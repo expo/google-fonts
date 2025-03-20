@@ -2,12 +2,13 @@
   "family": "Sintony",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2022-09-22",
+  "version": "v15",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/sintony/v13/XoHj2YDqR7-98cVUGYgIn9cDkjLp6C8.ttf",
-    "regular": "http://fonts.gstatic.com/s/sintony/v13/XoHm2YDqR7-98cVUITQnu98ojjs.ttf"
+    "700": "https://fonts.gstatic.com/s/sintony/v15/XoHj2YDqR7-98cVUGYgIn9cDkjLp6C8.ttf",
+    "regular": "https://fonts.gstatic.com/s/sintony/v15/XoHm2YDqR7-98cVUITQnu98ojjs.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/sintony/v15/XoHm2YDqR7-98cVUETUtvw.ttf"
 }

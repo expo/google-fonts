@@ -1,0 +1,11 @@
+{
+  "family": "Shizuru",
+  "variants": ["regular"],
+  "subsets": ["japanese", "latin"],
+  "version": "v11",
+  "lastModified": "2024-08-07",
+  "files": { "regular": "https://fonts.gstatic.com/s/shizuru/v11/O4ZSFGfvnxFiCA3i30IJlgUTj2A.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/shizuru/v11/O4ZSFGfvnxFiCA3i70MDkg.ttf"
+}

@@ -2,11 +2,12 @@
   "family": "Noto Sans Hanunoo",
   "variants": ["regular"],
   "subsets": ["hanunoo", "latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2022-11-09",
+  "version": "v21",
+  "lastModified": "2023-11-09",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosanshanunoo/v17/f0Xs0fCv8dxkDWlZSoXOj6CphMloFsEsEpgL_ix2.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanshanunoo/v21/f0Xs0fCv8dxkDWlZSoXOj6CphMloFsEsEpgL_ix2.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanshanunoo/v21/f0Xs0fCv8dxkDWlZSoXOj6CphMloFvEtGJw.ttf"
 }

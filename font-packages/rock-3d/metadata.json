@@ -1,0 +1,11 @@
+{
+  "family": "Rock 3D",
+  "variants": ["regular"],
+  "subsets": ["japanese", "latin"],
+  "version": "v11",
+  "lastModified": "2024-08-07",
+  "files": { "regular": "https://fonts.gstatic.com/s/rock3d/v11/yYLp0hrL0PCo651513SnwRnQyNI.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/rock3d/v11/yYLp0hrL0PCo651553WtxQ.ttf"
+}

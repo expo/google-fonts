@@ -2,12 +2,13 @@
   "family": "Mountains of Christmas",
   "variants": ["regular", "700"],
   "subsets": ["latin"],
-  "version": "v20",
-  "lastModified": "2022-09-22",
+  "version": "v22",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/mountainsofchristmas/v20/3y9z6a4zcCnn5X0FDyrKi2ZRUBIy8uxoUo7eBGqJFPtCOp6IaEA.ttf",
-    "regular": "http://fonts.gstatic.com/s/mountainsofchristmas/v20/3y9w6a4zcCnn5X0FDyrKi2ZRUBIy8uxoUo7ePNamMPNpJpc.ttf"
+    "700": "https://fonts.gstatic.com/s/mountainsofchristmas/v22/3y9z6a4zcCnn5X0FDyrKi2ZRUBIy8uxoUo7eBGqJFPtCOp6IaEA.ttf",
+    "regular": "https://fonts.gstatic.com/s/mountainsofchristmas/v22/3y9w6a4zcCnn5X0FDyrKi2ZRUBIy8uxoUo7ePNamMPNpJpc.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/mountainsofchristmas/v22/3y9w6a4zcCnn5X0FDyrKi2ZRUBIy8uxoUo7eDNesNA.ttf"
 }

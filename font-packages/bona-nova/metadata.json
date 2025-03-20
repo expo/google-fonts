@@ -2,13 +2,14 @@
   "family": "Bona Nova",
   "variants": ["regular", "italic", "700"],
   "subsets": ["cyrillic", "cyrillic-ext", "greek", "hebrew", "latin", "latin-ext", "vietnamese"],
-  "version": "v10",
-  "lastModified": "2022-09-22",
+  "version": "v11",
+  "lastModified": "2024-09-30",
   "files": {
-    "700": "http://fonts.gstatic.com/s/bonanova/v10/B50IF7ZCpX7fcHfvIUBxN4dOFISeJY8GgQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/bonanova/v10/B50NF7ZCpX7fcHfvIUBJi6hqHK-CLA.ttf",
-    "italic": "http://fonts.gstatic.com/s/bonanova/v10/B50LF7ZCpX7fcHfvIUB5iaJuPqqSLJYf.ttf"
+    "700": "https://fonts.gstatic.com/s/bonanova/v11/B50IF7ZCpX7fcHfvIUBxN4dOFISeJY8GgQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/bonanova/v11/B50NF7ZCpX7fcHfvIUBJi6hqHK-CLA.ttf",
+    "italic": "https://fonts.gstatic.com/s/bonanova/v11/B50LF7ZCpX7fcHfvIUB5iaJuPqqSLJYf.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/bonanova/v11/B50NF7ZCpX7fcHfvIUB5iqJu.ttf"
 }

@@ -1,0 +1,13 @@
+{
+  "family": "Playwrite AU QLD Guides",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v1",
+  "lastModified": "2024-12-10",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/playwriteauqldguides/v1/TuGBUUJtX5tTUfQi_7kbiZZFVhl0FIKnvy00LDxlIzIU5RwD.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwriteauqldguides/v1/TuGBUUJtX5tTUfQi_7kbiZZFVhl0FIKnvy00LAxkKTY.ttf"
+}

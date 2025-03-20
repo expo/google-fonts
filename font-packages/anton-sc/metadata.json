@@ -1,0 +1,11 @@
+{
+  "family": "Anton SC",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/antonsc/v1/4UaBrEBBsgltGn71sxLmzanB44N1.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/antonsc/v1/4UaBrEBBsgltGn71syLnx60.ttf"
+}

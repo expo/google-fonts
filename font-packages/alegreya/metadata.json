@@ -15,22 +15,23 @@
     "900italic"
   ],
   "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v31",
-  "lastModified": "2022-12-08",
+  "version": "v36",
+  "lastModified": "2024-09-30",
   "files": {
-    "500": "http://fonts.gstatic.com/s/alegreya/v31/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGxBUI_KCisSGVrw.ttf",
-    "600": "http://fonts.gstatic.com/s/alegreya/v31/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGKBII_KCisSGVrw.ttf",
-    "700": "http://fonts.gstatic.com/s/alegreya/v31/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGERII_KCisSGVrw.ttf",
-    "800": "http://fonts.gstatic.com/s/alegreya/v31/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGdhII_KCisSGVrw.ttf",
-    "900": "http://fonts.gstatic.com/s/alegreya/v31/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGXxII_KCisSGVrw.ttf",
-    "regular": "http://fonts.gstatic.com/s/alegreya/v31/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNG9hUI_KCisSGVrw.ttf",
-    "italic": "http://fonts.gstatic.com/s/alegreya/v31/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlbgv6qmkySFr9V9.ttf",
-    "500italic": "http://fonts.gstatic.com/s/alegreya/v31/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlbSv6qmkySFr9V9.ttf",
-    "600italic": "http://fonts.gstatic.com/s/alegreya/v31/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlY-uKqmkySFr9V9.ttf",
-    "700italic": "http://fonts.gstatic.com/s/alegreya/v31/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlYHuKqmkySFr9V9.ttf",
-    "800italic": "http://fonts.gstatic.com/s/alegreya/v31/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlZguKqmkySFr9V9.ttf",
-    "900italic": "http://fonts.gstatic.com/s/alegreya/v31/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlZJuKqmkySFr9V9.ttf"
+    "500": "https://fonts.gstatic.com/s/alegreya/v36/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGxBUI_KCisSGVrw.ttf",
+    "600": "https://fonts.gstatic.com/s/alegreya/v36/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGKBII_KCisSGVrw.ttf",
+    "700": "https://fonts.gstatic.com/s/alegreya/v36/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGERII_KCisSGVrw.ttf",
+    "800": "https://fonts.gstatic.com/s/alegreya/v36/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGdhII_KCisSGVrw.ttf",
+    "900": "https://fonts.gstatic.com/s/alegreya/v36/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGXxII_KCisSGVrw.ttf",
+    "regular": "https://fonts.gstatic.com/s/alegreya/v36/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNG9hUI_KCisSGVrw.ttf",
+    "italic": "https://fonts.gstatic.com/s/alegreya/v36/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlbgv6qmkySFr9V9.ttf",
+    "500italic": "https://fonts.gstatic.com/s/alegreya/v36/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlbSv6qmkySFr9V9.ttf",
+    "600italic": "https://fonts.gstatic.com/s/alegreya/v36/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlY-uKqmkySFr9V9.ttf",
+    "700italic": "https://fonts.gstatic.com/s/alegreya/v36/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlYHuKqmkySFr9V9.ttf",
+    "800italic": "https://fonts.gstatic.com/s/alegreya/v36/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlZguKqmkySFr9V9.ttf",
+    "900italic": "https://fonts.gstatic.com/s/alegreya/v36/4UaSrEBBsBhlBjvfkSLk3abBFkvpkARTPlZJuKqmkySFr9V9.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/alegreya/v36/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNG9hU4_aqm.ttf"
 }

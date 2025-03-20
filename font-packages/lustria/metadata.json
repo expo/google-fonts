@@ -3,8 +3,9 @@
   "variants": ["regular"],
   "subsets": ["latin"],
   "version": "v13",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/lustria/v13/9oRONYodvDEyjuhOrCg5MtPyAcg.ttf" },
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/lustria/v13/9oRONYodvDEyjuhOrCg5MtPyAcg.ttf" },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/lustria/v13/9oRONYodvDEyjuhOnCkzNg.ttf"
 }

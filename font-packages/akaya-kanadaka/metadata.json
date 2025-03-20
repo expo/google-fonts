@@ -3,10 +3,11 @@
   "variants": ["regular"],
   "subsets": ["kannada", "latin", "latin-ext"],
   "version": "v16",
-  "lastModified": "2022-09-22",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/akayakanadaka/v16/N0bM2S5CPO5oOQqvazoRRb-8-PfRS5VBBSSF.ttf"
+    "regular": "https://fonts.gstatic.com/s/akayakanadaka/v16/N0bM2S5CPO5oOQqvazoRRb-8-PfRS5VBBSSF.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/akayakanadaka/v16/N0bM2S5CPO5oOQqvazoRRb-8-MfQQZE.ttf"
 }

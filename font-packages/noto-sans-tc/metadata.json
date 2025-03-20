@@ -1,17 +1,21 @@
 {
   "family": "Noto Sans TC",
-  "variants": ["100", "300", "regular", "500", "700", "900"],
-  "subsets": ["chinese-traditional", "latin"],
-  "version": "v26",
-  "lastModified": "2022-09-27",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["chinese-traditional", "cyrillic", "latin", "latin-ext", "vietnamese"],
+  "version": "v36",
+  "lastModified": "2024-07-30",
   "files": {
-    "100": "http://fonts.gstatic.com/s/notosanstc/v26/-nFlOG829Oofr2wohFbTp9i9WyEJIfNZ1sjy.otf",
-    "300": "http://fonts.gstatic.com/s/notosanstc/v26/-nFkOG829Oofr2wohFbTp9i9kwMvDd1V39Hr7g.otf",
-    "500": "http://fonts.gstatic.com/s/notosanstc/v26/-nFkOG829Oofr2wohFbTp9i9ywIvDd1V39Hr7g.otf",
-    "700": "http://fonts.gstatic.com/s/notosanstc/v26/-nFkOG829Oofr2wohFbTp9i9gwQvDd1V39Hr7g.otf",
-    "900": "http://fonts.gstatic.com/s/notosanstc/v26/-nFkOG829Oofr2wohFbTp9i9uwYvDd1V39Hr7g.otf",
-    "regular": "http://fonts.gstatic.com/s/notosanstc/v26/-nF7OG829Oofr2wohFbTp9iFOSsLA_ZJ1g.otf"
+    "100": "https://fonts.gstatic.com/s/notosanstc/v36/-nFuOG829Oofr2wohFbTp9ifNAn722rq0MXz76Cz_CpOtma3uNQ.ttf",
+    "200": "https://fonts.gstatic.com/s/notosanstc/v36/-nFuOG829Oofr2wohFbTp9ifNAn722rq0MXz7yCy_CpOtma3uNQ.ttf",
+    "300": "https://fonts.gstatic.com/s/notosanstc/v36/-nFuOG829Oofr2wohFbTp9ifNAn722rq0MXz7_6y_CpOtma3uNQ.ttf",
+    "500": "https://fonts.gstatic.com/s/notosanstc/v36/-nFuOG829Oofr2wohFbTp9ifNAn722rq0MXz75Ky_CpOtma3uNQ.ttf",
+    "600": "https://fonts.gstatic.com/s/notosanstc/v36/-nFuOG829Oofr2wohFbTp9ifNAn722rq0MXz7361_CpOtma3uNQ.ttf",
+    "700": "https://fonts.gstatic.com/s/notosanstc/v36/-nFuOG829Oofr2wohFbTp9ifNAn722rq0MXz70e1_CpOtma3uNQ.ttf",
+    "800": "https://fonts.gstatic.com/s/notosanstc/v36/-nFuOG829Oofr2wohFbTp9ifNAn722rq0MXz7yC1_CpOtma3uNQ.ttf",
+    "900": "https://fonts.gstatic.com/s/notosanstc/v36/-nFuOG829Oofr2wohFbTp9ifNAn722rq0MXz7wm1_CpOtma3uNQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosanstc/v36/-nFuOG829Oofr2wohFbTp9ifNAn722rq0MXz76Cy_CpOtma3uNQ.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanstc/v36/-nFuOG829Oofr2wohFbTp9ifNAn722rq0MXz76CyzCtEsg.ttf"
 }

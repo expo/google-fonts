@@ -1,0 +1,31 @@
+{
+  "family": "Handjet",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": [
+    "arabic",
+    "armenian",
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "hebrew",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
+  "version": "v19",
+  "lastModified": "2024-09-04",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/handjet/v19/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHTmbUkUsEHFAH2A.ttf",
+    "200": "https://fonts.gstatic.com/s/handjet/v19/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHbmaUkUsEHFAH2A.ttf",
+    "300": "https://fonts.gstatic.com/s/handjet/v19/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHWeaUkUsEHFAH2A.ttf",
+    "500": "https://fonts.gstatic.com/s/handjet/v19/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHQuaUkUsEHFAH2A.ttf",
+    "600": "https://fonts.gstatic.com/s/handjet/v19/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHeedUkUsEHFAH2A.ttf",
+    "700": "https://fonts.gstatic.com/s/handjet/v19/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHd6dUkUsEHFAH2A.ttf",
+    "800": "https://fonts.gstatic.com/s/handjet/v19/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHbmdUkUsEHFAH2A.ttf",
+    "900": "https://fonts.gstatic.com/s/handjet/v19/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHZCdUkUsEHFAH2A.ttf",
+    "regular": "https://fonts.gstatic.com/s/handjet/v19/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHTmaUkUsEHFAH2A.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/handjet/v19/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHTmaYkQmFA.ttf"
+}

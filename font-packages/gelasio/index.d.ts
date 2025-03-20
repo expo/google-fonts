@@ -7,10 +7,10 @@ export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
 export const Gelasio_400Regular: number;
-export const Gelasio_400Regular_Italic: number;
 export const Gelasio_500Medium: number;
-export const Gelasio_500Medium_Italic: number;
 export const Gelasio_600SemiBold: number;
-export const Gelasio_600SemiBold_Italic: number;
 export const Gelasio_700Bold: number;
+export const Gelasio_400Regular_Italic: number;
+export const Gelasio_500Medium_Italic: number;
+export const Gelasio_600SemiBold_Italic: number;
 export const Gelasio_700Bold_Italic: number;

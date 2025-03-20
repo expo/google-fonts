@@ -1,0 +1,13 @@
+{
+  "family": "Rubik Pixels",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/rubikpixels/v2/SlGXmQOaupkIeSx4CEpB7AdSaBYRagrQrA.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/rubikpixels/v2/SlGXmQOaupkIeSx4CEpB7AdiaRwV.ttf"
+}

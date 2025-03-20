@@ -3,10 +3,11 @@
   "variants": ["regular"],
   "subsets": ["latin"],
   "version": "v18",
-  "lastModified": "2022-09-22",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/belgrano/v18/55xvey5tM9rwKWrJZcMFirl08KDJ.ttf"
+    "regular": "https://fonts.gstatic.com/s/belgrano/v18/55xvey5tM9rwKWrJZcMFirl08KDJ.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/belgrano/v18/55xvey5tM9rwKWrJZfMEgL0.ttf"
 }

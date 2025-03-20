@@ -11,4 +11,5 @@ export const Mada_400Regular = require('./Mada_400Regular.ttf');
 export const Mada_500Medium = require('./Mada_500Medium.ttf');
 export const Mada_600SemiBold = require('./Mada_600SemiBold.ttf');
 export const Mada_700Bold = require('./Mada_700Bold.ttf');
+export const Mada_800ExtraBold = require('./Mada_800ExtraBold.ttf');
 export const Mada_900Black = require('./Mada_900Black.ttf');

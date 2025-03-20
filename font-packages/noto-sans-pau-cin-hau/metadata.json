@@ -2,11 +2,12 @@
   "family": "Noto Sans Pau Cin Hau",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "pau-cin-hau"],
-  "version": "v19",
-  "lastModified": "2022-11-09",
+  "version": "v20",
+  "lastModified": "2023-05-02",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosanspaucinhau/v19/x3d-cl3IZKmUqiMg_9wBLLtzl22EayN7ehIdjEWqKMxsKw.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanspaucinhau/v20/x3d-cl3IZKmUqiMg_9wBLLtzl22EayN7ehIdjEWqKMxsKw.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanspaucinhau/v20/x3d-cl3IZKmUqiMg_9wBLLtzl22EayN7ehItjU-u.ttf"
 }

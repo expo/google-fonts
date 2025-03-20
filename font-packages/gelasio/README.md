@@ -14,12 +14,12 @@ This package lets you use the [**Gelasio**](https://fonts.google.com/specimen/Ge
 This font family contains [8 styles](#-gallery).
 
 - `Gelasio_400Regular`
-- `Gelasio_400Regular_Italic`
 - `Gelasio_500Medium`
-- `Gelasio_500Medium_Italic`
 - `Gelasio_600SemiBold`
-- `Gelasio_600SemiBold_Italic`
 - `Gelasio_700Bold`
+- `Gelasio_400Regular_Italic`
+- `Gelasio_500Medium_Italic`
+- `Gelasio_600SemiBold_Italic`
 - `Gelasio_700Bold_Italic`
 
 ## Usage
@@ -38,24 +38,24 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   Gelasio_400Regular,
-  Gelasio_400Regular_Italic,
   Gelasio_500Medium,
-  Gelasio_500Medium_Italic,
   Gelasio_600SemiBold,
-  Gelasio_600SemiBold_Italic,
   Gelasio_700Bold,
+  Gelasio_400Regular_Italic,
+  Gelasio_500Medium_Italic,
+  Gelasio_600SemiBold_Italic,
   Gelasio_700Bold_Italic,
 } from '@expo-google-fonts/gelasio';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Gelasio_400Regular,
-    Gelasio_400Regular_Italic,
     Gelasio_500Medium,
-    Gelasio_500Medium_Italic,
     Gelasio_600SemiBold,
-    Gelasio_600SemiBold_Italic,
     Gelasio_700Bold,
+    Gelasio_400Regular_Italic,
+    Gelasio_500Medium_Italic,
+    Gelasio_600SemiBold_Italic,
     Gelasio_700Bold_Italic,
   });
 
@@ -82,29 +82,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gelasio_400Regular_Italic',
-          }}>
-          Gelasio Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Gelasio_500Medium',
           }}>
           Gelasio Medium
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gelasio_500Medium_Italic',
-          }}>
-          Gelasio Medium Italic
         </Text>
 
         <Text
@@ -122,9 +102,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gelasio_600SemiBold_Italic',
+            fontFamily: 'Gelasio_700Bold',
           }}>
-          Gelasio Semi Bold Italic
+          Gelasio Bold
         </Text>
 
         <Text
@@ -132,9 +112,29 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gelasio_700Bold',
+            fontFamily: 'Gelasio_400Regular_Italic',
           }}>
-          Gelasio Bold
+          Gelasio Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gelasio_500Medium_Italic',
+          }}>
+          Gelasio Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Gelasio_600SemiBold_Italic',
+          }}>
+          Gelasio Semi Bold Italic
         </Text>
 
         <Text
@@ -158,9 +158,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Gelasio_400Regular](./Gelasio_400Regular.ttf.png)|![Gelasio_400Regular_Italic](./Gelasio_400Regular_Italic.ttf.png)|![Gelasio_500Medium](./Gelasio_500Medium.ttf.png)||
-|![Gelasio_500Medium_Italic](./Gelasio_500Medium_Italic.ttf.png)|![Gelasio_600SemiBold](./Gelasio_600SemiBold.ttf.png)|![Gelasio_600SemiBold_Italic](./Gelasio_600SemiBold_Italic.ttf.png)||
-|![Gelasio_700Bold](./Gelasio_700Bold.ttf.png)|![Gelasio_700Bold_Italic](./Gelasio_700Bold_Italic.ttf.png)|||
+|![Gelasio_400Regular](./Gelasio_400Regular.ttf.png)|![Gelasio_500Medium](./Gelasio_500Medium.ttf.png)|![Gelasio_600SemiBold](./Gelasio_600SemiBold.ttf.png)||
+|![Gelasio_700Bold](./Gelasio_700Bold.ttf.png)|![Gelasio_400Regular_Italic](./Gelasio_400Regular_Italic.ttf.png)|![Gelasio_500Medium_Italic](./Gelasio_500Medium_Italic.ttf.png)||
+|![Gelasio_600SemiBold_Italic](./Gelasio_600SemiBold_Italic.ttf.png)|![Gelasio_700Bold_Italic](./Gelasio_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

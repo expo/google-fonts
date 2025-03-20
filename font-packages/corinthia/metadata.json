@@ -2,12 +2,13 @@
   "family": "Corinthia",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v9",
-  "lastModified": "2022-09-22",
+  "version": "v11",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/corinthia/v9/wEO6EBrAnchaJyPMHE097d8v1GAbgbLXQA.ttf",
-    "regular": "http://fonts.gstatic.com/s/corinthia/v9/wEO_EBrAnchaJyPMHE0FUfAL3EsHiA.ttf"
+    "700": "https://fonts.gstatic.com/s/corinthia/v11/wEO6EBrAnchaJyPMHE097d8v1GAbgbLXQA.ttf",
+    "regular": "https://fonts.gstatic.com/s/corinthia/v11/wEO_EBrAnchaJyPMHE0FUfAL3EsHiA.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/corinthia/v11/wEO_EBrAnchaJyPMHE01UPoP.ttf"
 }

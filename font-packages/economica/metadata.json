@@ -2,14 +2,15 @@
   "family": "Economica",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2022-09-22",
+  "version": "v15",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/economica/v13/Qw3aZQZaHCLgIWa29ZBTjeckCnZ5dHw8iw.ttf",
-    "regular": "http://fonts.gstatic.com/s/economica/v13/Qw3fZQZaHCLgIWa29ZBrMcgAAl1lfQ.ttf",
-    "italic": "http://fonts.gstatic.com/s/economica/v13/Qw3ZZQZaHCLgIWa29ZBbM8IEIFh1fWUl.ttf",
-    "700italic": "http://fonts.gstatic.com/s/economica/v13/Qw3EZQZaHCLgIWa29ZBbM_q4D3x9Vnksi4M7.ttf"
+    "700": "https://fonts.gstatic.com/s/economica/v15/Qw3aZQZaHCLgIWa29ZBTjeckCnZ5dHw8iw.ttf",
+    "regular": "https://fonts.gstatic.com/s/economica/v15/Qw3fZQZaHCLgIWa29ZBrMcgAAl1lfQ.ttf",
+    "italic": "https://fonts.gstatic.com/s/economica/v15/Qw3ZZQZaHCLgIWa29ZBbM8IEIFh1fWUl.ttf",
+    "700italic": "https://fonts.gstatic.com/s/economica/v15/Qw3EZQZaHCLgIWa29ZBbM_q4D3x9Vnksi4M7.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/economica/v15/Qw3fZQZaHCLgIWa29ZBbMMIE.ttf"
 }

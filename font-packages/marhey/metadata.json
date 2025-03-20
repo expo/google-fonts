@@ -2,15 +2,16 @@
   "family": "Marhey",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v3",
-  "lastModified": "2022-11-09",
+  "version": "v6",
+  "lastModified": "2024-09-04",
   "files": {
-    "300": "http://fonts.gstatic.com/s/marhey/v3/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBZVwO2cXiGevOMw.ttf",
-    "500": "http://fonts.gstatic.com/s/marhey/v3/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBflwO2cXiGevOMw.ttf",
-    "600": "http://fonts.gstatic.com/s/marhey/v3/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBRV3O2cXiGevOMw.ttf",
-    "700": "http://fonts.gstatic.com/s/marhey/v3/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBSx3O2cXiGevOMw.ttf",
-    "regular": "http://fonts.gstatic.com/s/marhey/v3/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBctwO2cXiGevOMw.ttf"
+    "300": "https://fonts.gstatic.com/s/marhey/v6/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBZVwO2cXiGevOMw.ttf",
+    "500": "https://fonts.gstatic.com/s/marhey/v6/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBflwO2cXiGevOMw.ttf",
+    "600": "https://fonts.gstatic.com/s/marhey/v6/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBRV3O2cXiGevOMw.ttf",
+    "700": "https://fonts.gstatic.com/s/marhey/v6/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBSx3O2cXiGevOMw.ttf",
+    "regular": "https://fonts.gstatic.com/s/marhey/v6/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBctwO2cXiGevOMw.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/marhey/v6/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBctwC2YdjA.ttf"
 }

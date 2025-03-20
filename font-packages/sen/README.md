@@ -11,9 +11,11 @@ This package lets you use the [**Sen**](https://fonts.google.com/specimen/Sen) f
 
 ![Sen](./font-family.png)
 
-This font family contains [3 styles](#-gallery).
+This font family contains [5 styles](#-gallery).
 
 - `Sen_400Regular`
+- `Sen_500Medium`
+- `Sen_600SemiBold`
 - `Sen_700Bold`
 - `Sen_800ExtraBold`
 
@@ -30,11 +32,20 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, Sen_400Regular, Sen_700Bold, Sen_800ExtraBold } from '@expo-google-fonts/sen';
+import {
+  useFonts,
+  Sen_400Regular,
+  Sen_500Medium,
+  Sen_600SemiBold,
+  Sen_700Bold,
+  Sen_800ExtraBold,
+} from '@expo-google-fonts/sen';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Sen_400Regular,
+    Sen_500Medium,
+    Sen_600SemiBold,
     Sen_700Bold,
     Sen_800ExtraBold,
   });
@@ -55,6 +66,26 @@ export default () => {
             fontFamily: 'Sen_400Regular',
           }}>
           Sen Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sen_500Medium',
+          }}>
+          Sen Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Sen_600SemiBold',
+          }}>
+          Sen Semi Bold
         </Text>
 
         <Text
@@ -88,7 +119,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sen_400Regular](./Sen_400Regular.ttf.png)|![Sen_700Bold](./Sen_700Bold.ttf.png)|![Sen_800ExtraBold](./Sen_800ExtraBold.ttf.png)||
+|![Sen_400Regular](./Sen_400Regular.ttf.png)|![Sen_500Medium](./Sen_500Medium.ttf.png)|![Sen_600SemiBold](./Sen_600SemiBold.ttf.png)||
+|![Sen_700Bold](./Sen_700Bold.ttf.png)|![Sen_800ExtraBold](./Sen_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

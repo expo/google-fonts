@@ -2,11 +2,12 @@
   "family": "Tulpen One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v21",
-  "lastModified": "2022-09-22",
+  "version": "v25",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/tulpenone/v21/dFa6ZfeC474skLgesc0CWj0w_HyIRlE.ttf"
+    "regular": "https://fonts.gstatic.com/s/tulpenone/v25/dFa6ZfeC474skLgesc0CWj0w_HyIRlE.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/tulpenone/v25/dFa6ZfeC474skLgesc0Cajw6-A.ttf"
 }

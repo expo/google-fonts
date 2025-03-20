@@ -2,11 +2,12 @@
   "family": "Spinnaker",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2022-04-27",
+  "version": "v19",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/spinnaker/v17/w8gYH2oyX-I0_rvR6Hmn3HwLqOqSBg.ttf"
+    "regular": "https://fonts.gstatic.com/s/spinnaker/v19/w8gYH2oyX-I0_rvR6Hmn3HwLqOqSBg.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/spinnaker/v19/w8gYH2oyX-I0_rvR6HmX3XYP.ttf"
 }

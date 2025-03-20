@@ -1,0 +1,16 @@
+{
+  "family": "Playwrite CL",
+  "variants": ["100", "200", "300", "regular"],
+  "subsets": ["latin"],
+  "version": "v5",
+  "lastModified": "2025-02-12",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playwritecl/v5/-zk391m7wssz_XLkGgu8hy3tqrcOhnbf6ForU8JbvLq3DyPNbus.ttf",
+    "200": "https://fonts.gstatic.com/s/playwritecl/v5/-zk391m7wssz_XLkGgu8hy3tqrcOhnbf6ForU0JavLq3DyPNbus.ttf",
+    "300": "https://fonts.gstatic.com/s/playwritecl/v5/-zk391m7wssz_XLkGgu8hy3tqrcOhnbf6ForU5xavLq3DyPNbus.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwritecl/v5/-zk391m7wssz_XLkGgu8hy3tqrcOhnbf6ForU8JavLq3DyPNbus.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwritecl/v5/-zk391m7wssz_XLkGgu8hy3tqrcOhnbf6ForU8JajLu9Cw.ttf"
+}

@@ -1,0 +1,13 @@
+{
+  "family": "Noto Serif Ottoman Siyaq",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "ottoman-siyaq-numbers"],
+  "version": "v2",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/notoserifottomansiyaq/v2/fC1yPZ9IYnzRhTrrc4s8cSvYI0eozzaFOQ01qoHLJrgA00kAdA.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notoserifottomansiyaq/v2/fC1yPZ9IYnzRhTrrc4s8cSvYI0eozzaFOQ01qoH7J7IE.ttf"
+}

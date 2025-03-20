@@ -2,11 +2,12 @@
   "family": "Moulpali",
   "variants": ["regular"],
   "subsets": ["khmer", "latin"],
-  "version": "v28",
-  "lastModified": "2022-04-26",
+  "version": "v31",
+  "lastModified": "2024-11-07",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/moulpali/v28/H4ckBXKMl9HagUWymyY6wr-wg763.ttf"
+    "regular": "https://fonts.gstatic.com/s/moulpali/v31/H4ckBXKMl9HagUWymyY6wr-wg763.ttf"
   },
-  "category": "display",
-  "kind": "webfonts#webfont"
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/moulpali/v31/H4ckBXKMl9HagUWymxY7yLs.ttf"
 }

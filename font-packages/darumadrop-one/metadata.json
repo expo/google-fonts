@@ -1,0 +1,13 @@
+{
+  "family": "Darumadrop One",
+  "variants": ["regular"],
+  "subsets": ["japanese", "latin", "latin-ext"],
+  "version": "v12",
+  "lastModified": "2024-08-07",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/darumadropone/v12/cY9cfjeIW11dpCKgRLi675a87IhHBJOxZQPp.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/darumadropone/v12/cY9cfjeIW11dpCKgRLi675a87LhGDpc.ttf"
+}

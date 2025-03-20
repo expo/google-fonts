@@ -1,0 +1,13 @@
+{
+  "family": "Playwrite DE LA Guides",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v2",
+  "lastModified": "2024-12-10",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/playwritedelaguides/v2/1q2XY42fB0V64O4aSe1OjKs_yAXBOfDI5wE56g2M62M1AXs.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwritedelaguides/v2/1q2XY42fB0V64O4aSe1OjKs_yAXBOfDI5wE52gyG7w.ttf"
+}

@@ -2,9 +2,10 @@
   "family": "Kristi",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v17",
-  "lastModified": "2022-04-26",
-  "files": { "regular": "http://fonts.gstatic.com/s/kristi/v17/uK_y4ricdeU6zwdRCh0TMv6EXw.ttf" },
+  "version": "v21",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/kristi/v21/uK_y4ricdeU6zwdRCh0TMv6EXw.ttf" },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/kristi/v21/uK_y4ricdeU6zwdhCxcX.ttf"
 }

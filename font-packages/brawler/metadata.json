@@ -3,11 +3,12 @@
   "variants": ["regular", "700"],
   "subsets": ["latin"],
   "version": "v19",
-  "lastModified": "2022-09-22",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/brawler/v19/xn7lYHE3xXewAscGiryUb932eNaPfk8.ttf",
-    "regular": "http://fonts.gstatic.com/s/brawler/v19/xn7gYHE3xXewAscGsgC7S9XdZN8.ttf"
+    "700": "https://fonts.gstatic.com/s/brawler/v19/xn7lYHE3xXewAscGiryUb932eNaPfk8.ttf",
+    "regular": "https://fonts.gstatic.com/s/brawler/v19/xn7gYHE3xXewAscGsgC7S9XdZN8.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/brawler/v19/xn7gYHE3xXewAscGggGxTw.ttf"
 }

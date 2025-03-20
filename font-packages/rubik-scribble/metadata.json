@@ -1,0 +1,13 @@
+{
+  "family": "Rubik Scribble",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext", "math", "symbols"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/rubikscribble/v1/snfzs0Cp48d67SuHQOpjXLsQpbqbSjORSo9W.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/rubikscribble/v1/snfzs0Cp48d67SuHQOpjXLsQpYqaQDc.ttf"
+}

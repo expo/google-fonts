@@ -2,9 +2,10 @@
   "family": "Fresca",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/fresca/v18/6ae94K--SKgCzbM2Gr0W13DKPA.ttf" },
+  "version": "v22",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/fresca/v22/6ae94K--SKgCzbM2Gr0W13DKPA.ttf" },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/fresca/v22/6ae94K--SKgCzbMGG7cS.ttf"
 }

@@ -1,15 +1,16 @@
 {
   "family": "Noto Naskh Arabic",
   "variants": ["regular", "500", "600", "700"],
-  "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v25",
-  "lastModified": "2022-12-08",
+  "subsets": ["arabic", "latin", "latin-ext", "math", "symbols"],
+  "version": "v34",
+  "lastModified": "2024-04-12",
   "files": {
-    "500": "http://fonts.gstatic.com/s/notonaskharabic/v25/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwj85krK0z9_Mnuw.ttf",
-    "600": "http://fonts.gstatic.com/s/notonaskharabic/v25/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwY8lkrK0z9_Mnuw.ttf",
-    "700": "http://fonts.gstatic.com/s/notonaskharabic/v25/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwWslkrK0z9_Mnuw.ttf",
-    "regular": "http://fonts.gstatic.com/s/notonaskharabic/v25/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc5krK0z9_Mnuw.ttf"
+    "500": "https://fonts.gstatic.com/s/notonaskharabic/v34/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwj85krK0z9_Mnuw.ttf",
+    "600": "https://fonts.gstatic.com/s/notonaskharabic/v34/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwY8lkrK0z9_Mnuw.ttf",
+    "700": "https://fonts.gstatic.com/s/notonaskharabic/v34/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwWslkrK0z9_Mnuw.ttf",
+    "regular": "https://fonts.gstatic.com/s/notonaskharabic/v34/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc5krK0z9_Mnuw.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notonaskharabic/v34/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc5Urac3.ttf"
 }

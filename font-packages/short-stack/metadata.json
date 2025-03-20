@@ -3,10 +3,11 @@
   "variants": ["regular"],
   "subsets": ["latin"],
   "version": "v15",
-  "lastModified": "2022-09-22",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/shortstack/v15/bMrzmS2X6p0jZC6EcmPFX-SScX8D0nq6.ttf"
+    "regular": "https://fonts.gstatic.com/s/shortstack/v15/bMrzmS2X6p0jZC6EcmPFX-SScX8D0nq6.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/shortstack/v15/bMrzmS2X6p0jZC6EcmPFX9STe3s.ttf"
 }

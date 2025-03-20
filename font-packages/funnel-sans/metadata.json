@@ -1,0 +1,37 @@
+{
+  "family": "Funnel Sans",
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic",
+    "800italic"
+  ],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2024-11-07",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/funnelsans/v1/OpNfno8Dg9bX6Bsp3Wq69RB-VukSVv3aISFAy3mEfm9NnDyL7w.ttf",
+    "500": "https://fonts.gstatic.com/s/funnelsans/v1/OpNfno8Dg9bX6Bsp3Wq69RB-VukSVv3aISFAp3mEfm9NnDyL7w.ttf",
+    "600": "https://fonts.gstatic.com/s/funnelsans/v1/OpNfno8Dg9bX6Bsp3Wq69RB-VukSVv3aISFAS36Efm9NnDyL7w.ttf",
+    "700": "https://fonts.gstatic.com/s/funnelsans/v1/OpNfno8Dg9bX6Bsp3Wq69RB-VukSVv3aISFAcn6Efm9NnDyL7w.ttf",
+    "800": "https://fonts.gstatic.com/s/funnelsans/v1/OpNfno8Dg9bX6Bsp3Wq69RB-VukSVv3aISFAFX6Efm9NnDyL7w.ttf",
+    "regular": "https://fonts.gstatic.com/s/funnelsans/v1/OpNfno8Dg9bX6Bsp3Wq69RB-VukSVv3aISFAlXmEfm9NnDyL7w.ttf",
+    "300italic": "https://fonts.gstatic.com/s/funnelsans/v1/OpNZno8Dg9bX6Bsp3Wq69Tp3ZBbKP5ZAjyZVXToyPWVJvjmb76XZ.ttf",
+    "italic": "https://fonts.gstatic.com/s/funnelsans/v1/OpNZno8Dg9bX6Bsp3Wq69Tp3ZBbKP5ZAjyZVXTpsPWVJvjmb76XZ.ttf",
+    "500italic": "https://fonts.gstatic.com/s/funnelsans/v1/OpNZno8Dg9bX6Bsp3Wq69Tp3ZBbKP5ZAjyZVXTpePWVJvjmb76XZ.ttf",
+    "600italic": "https://fonts.gstatic.com/s/funnelsans/v1/OpNZno8Dg9bX6Bsp3Wq69Tp3ZBbKP5ZAjyZVXTqyOmVJvjmb76XZ.ttf",
+    "700italic": "https://fonts.gstatic.com/s/funnelsans/v1/OpNZno8Dg9bX6Bsp3Wq69Tp3ZBbKP5ZAjyZVXTqLOmVJvjmb76XZ.ttf",
+    "800italic": "https://fonts.gstatic.com/s/funnelsans/v1/OpNZno8Dg9bX6Bsp3Wq69Tp3ZBbKP5ZAjyZVXTrsOmVJvjmb76XZ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/funnelsans/v1/OpNfno8Dg9bX6Bsp3Wq69RB-VukSVv3aISFAlXm0f2VJ.ttf"
+}

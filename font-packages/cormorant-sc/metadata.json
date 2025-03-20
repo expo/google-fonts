@@ -2,15 +2,16 @@
   "family": "Cormorant SC",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v17",
-  "lastModified": "2022-09-22",
+  "version": "v18",
+  "lastModified": "2024-09-04",
   "files": {
-    "300": "http://fonts.gstatic.com/s/cormorantsc/v17/0ybmGD4kxqXBmOVLG30OGwsmABIU_R3y8DOWGA.ttf",
-    "500": "http://fonts.gstatic.com/s/cormorantsc/v17/0ybmGD4kxqXBmOVLG30OGwsmWBMU_R3y8DOWGA.ttf",
-    "600": "http://fonts.gstatic.com/s/cormorantsc/v17/0ybmGD4kxqXBmOVLG30OGwsmdBQU_R3y8DOWGA.ttf",
-    "700": "http://fonts.gstatic.com/s/cormorantsc/v17/0ybmGD4kxqXBmOVLG30OGwsmEBUU_R3y8DOWGA.ttf",
-    "regular": "http://fonts.gstatic.com/s/cormorantsc/v17/0yb5GD4kxqXBmOVLG30OGwserDow9Tbu-Q.ttf"
+    "300": "https://fonts.gstatic.com/s/cormorantsc/v18/0ybmGD4kxqXBmOVLG30OGwsmABIU_R3y8DOWGA.ttf",
+    "500": "https://fonts.gstatic.com/s/cormorantsc/v18/0ybmGD4kxqXBmOVLG30OGwsmWBMU_R3y8DOWGA.ttf",
+    "600": "https://fonts.gstatic.com/s/cormorantsc/v18/0ybmGD4kxqXBmOVLG30OGwsmdBQU_R3y8DOWGA.ttf",
+    "700": "https://fonts.gstatic.com/s/cormorantsc/v18/0ybmGD4kxqXBmOVLG30OGwsmEBUU_R3y8DOWGA.ttf",
+    "regular": "https://fonts.gstatic.com/s/cormorantsc/v18/0yb5GD4kxqXBmOVLG30OGwserDow9Tbu-Q.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/cormorantsc/v18/0yb5GD4kxqXBmOVLG30OGwsurTA0.ttf"
 }

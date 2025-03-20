@@ -3,8 +3,9 @@
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
   "version": "v3",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/ole/v3/dFazZf6Z-rd89fw69qJ_ew.ttf" },
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/ole/v3/dFazZf6Z-rd89fw69qJ_ew.ttf" },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/ole/v3/dFazZf6Z-rdM9PY-.ttf"
 }

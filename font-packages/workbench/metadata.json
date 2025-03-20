@@ -1,0 +1,13 @@
+{
+  "family": "Workbench",
+  "variants": ["regular"],
+  "subsets": ["latin", "math", "symbols"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/workbench/v1/FeV8S05Gp6Et7FcfbPFK1rynGd_MxtkvNFmoUDFhgF2VKTGQk6vapdOL0GKqgZyb.ttf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/workbench/v1/FeV8S05Gp6Et7FcfbPFK1rynGd_MxtkvNFmoUDFhgF2VKTGQk6vapeOK2mY.ttf"
+}

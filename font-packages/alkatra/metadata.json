@@ -1,0 +1,16 @@
+{
+  "family": "Alkatra",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["bengali", "devanagari", "latin", "latin-ext", "oriya"],
+  "version": "v3",
+  "lastModified": "2024-09-04",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/alkatra/v3/r05EGLZA5qhCYsyJbuChFuK48MedzngUu7cPrNDVemxE.ttf",
+    "600": "https://fonts.gstatic.com/s/alkatra/v3/r05EGLZA5qhCYsyJbuChFuK48Medznj4vLcPrNDVemxE.ttf",
+    "700": "https://fonts.gstatic.com/s/alkatra/v3/r05EGLZA5qhCYsyJbuChFuK48MedznjBvLcPrNDVemxE.ttf",
+    "regular": "https://fonts.gstatic.com/s/alkatra/v3/r05EGLZA5qhCYsyJbuChFuK48Medzngmu7cPrNDVemxE.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/alkatra/v3/r05EGLZA5qhCYsyJbuChFuK48Medzngmu4cOptQ.ttf"
+}

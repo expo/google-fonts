@@ -1,0 +1,19 @@
+{
+  "family": "Ojuju",
+  "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["latin", "latin-ext", "math", "symbols", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2024-09-04",
+  "files": {
+    "200": "https://fonts.gstatic.com/s/ojuju/v3/7r3bqXF7v9ApbrMih3jYQBVm9-n_ypk552FRLYeruQ.ttf",
+    "300": "https://fonts.gstatic.com/s/ojuju/v3/7r3bqXF7v9ApbrMih3jYQBVm9-n_FJk552FRLYeruQ.ttf",
+    "500": "https://fonts.gstatic.com/s/ojuju/v3/7r3bqXF7v9ApbrMih3jYQBVm9-n_eJk552FRLYeruQ.ttf",
+    "600": "https://fonts.gstatic.com/s/ojuju/v3/7r3bqXF7v9ApbrMih3jYQBVm9-n_lJ4552FRLYeruQ.ttf",
+    "700": "https://fonts.gstatic.com/s/ojuju/v3/7r3bqXF7v9ApbrMih3jYQBVm9-n_rZ4552FRLYeruQ.ttf",
+    "800": "https://fonts.gstatic.com/s/ojuju/v3/7r3bqXF7v9ApbrMih3jYQBVm9-n_yp4552FRLYeruQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/ojuju/v3/7r3bqXF7v9ApbrMih3jYQBVm9-n_Spk552FRLYeruQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/ojuju/v3/7r3bqXF7v9ApbrMih3jYQBVm9-n_SpkJ5mtV.ttf"
+}

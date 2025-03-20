@@ -14,18 +14,18 @@ This package lets you use the [**IBM Plex Sans**](https://fonts.google.com/speci
 This font family contains [14 styles](#-gallery).
 
 - `IBMPlexSans_100Thin`
-- `IBMPlexSans_100Thin_Italic`
 - `IBMPlexSans_200ExtraLight`
-- `IBMPlexSans_200ExtraLight_Italic`
 - `IBMPlexSans_300Light`
-- `IBMPlexSans_300Light_Italic`
 - `IBMPlexSans_400Regular`
-- `IBMPlexSans_400Regular_Italic`
 - `IBMPlexSans_500Medium`
-- `IBMPlexSans_500Medium_Italic`
 - `IBMPlexSans_600SemiBold`
-- `IBMPlexSans_600SemiBold_Italic`
 - `IBMPlexSans_700Bold`
+- `IBMPlexSans_100Thin_Italic`
+- `IBMPlexSans_200ExtraLight_Italic`
+- `IBMPlexSans_300Light_Italic`
+- `IBMPlexSans_400Regular_Italic`
+- `IBMPlexSans_500Medium_Italic`
+- `IBMPlexSans_600SemiBold_Italic`
 - `IBMPlexSans_700Bold_Italic`
 
 ## Usage
@@ -44,36 +44,36 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   IBMPlexSans_100Thin,
-  IBMPlexSans_100Thin_Italic,
   IBMPlexSans_200ExtraLight,
-  IBMPlexSans_200ExtraLight_Italic,
   IBMPlexSans_300Light,
-  IBMPlexSans_300Light_Italic,
   IBMPlexSans_400Regular,
-  IBMPlexSans_400Regular_Italic,
   IBMPlexSans_500Medium,
-  IBMPlexSans_500Medium_Italic,
   IBMPlexSans_600SemiBold,
-  IBMPlexSans_600SemiBold_Italic,
   IBMPlexSans_700Bold,
+  IBMPlexSans_100Thin_Italic,
+  IBMPlexSans_200ExtraLight_Italic,
+  IBMPlexSans_300Light_Italic,
+  IBMPlexSans_400Regular_Italic,
+  IBMPlexSans_500Medium_Italic,
+  IBMPlexSans_600SemiBold_Italic,
   IBMPlexSans_700Bold_Italic,
 } from '@expo-google-fonts/ibm-plex-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     IBMPlexSans_100Thin,
-    IBMPlexSans_100Thin_Italic,
     IBMPlexSans_200ExtraLight,
-    IBMPlexSans_200ExtraLight_Italic,
     IBMPlexSans_300Light,
-    IBMPlexSans_300Light_Italic,
     IBMPlexSans_400Regular,
-    IBMPlexSans_400Regular_Italic,
     IBMPlexSans_500Medium,
-    IBMPlexSans_500Medium_Italic,
     IBMPlexSans_600SemiBold,
-    IBMPlexSans_600SemiBold_Italic,
     IBMPlexSans_700Bold,
+    IBMPlexSans_100Thin_Italic,
+    IBMPlexSans_200ExtraLight_Italic,
+    IBMPlexSans_300Light_Italic,
+    IBMPlexSans_400Regular_Italic,
+    IBMPlexSans_500Medium_Italic,
+    IBMPlexSans_600SemiBold_Italic,
     IBMPlexSans_700Bold_Italic,
   });
 
@@ -100,29 +100,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSans_100Thin_Italic',
-          }}>
-          IBM Plex Sans Thin Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'IBMPlexSans_200ExtraLight',
           }}>
           IBM Plex Sans Extra Light
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSans_200ExtraLight_Italic',
-          }}>
-          IBM Plex Sans Extra Light Italic
         </Text>
 
         <Text
@@ -140,29 +120,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSans_300Light_Italic',
-          }}>
-          IBM Plex Sans Light Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'IBMPlexSans_400Regular',
           }}>
           IBM Plex Sans Regular
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSans_400Regular_Italic',
-          }}>
-          IBM Plex Sans Italic
         </Text>
 
         <Text
@@ -180,16 +140,6 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSans_500Medium_Italic',
-          }}>
-          IBM Plex Sans Medium Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'IBMPlexSans_600SemiBold',
           }}>
           IBM Plex Sans Semi Bold
@@ -200,9 +150,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSans_600SemiBold_Italic',
+            fontFamily: 'IBMPlexSans_700Bold',
           }}>
-          IBM Plex Sans Semi Bold Italic
+          IBM Plex Sans Bold
         </Text>
 
         <Text
@@ -210,9 +160,59 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSans_700Bold',
+            fontFamily: 'IBMPlexSans_100Thin_Italic',
           }}>
-          IBM Plex Sans Bold
+          IBM Plex Sans Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_200ExtraLight_Italic',
+          }}>
+          IBM Plex Sans Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_300Light_Italic',
+          }}>
+          IBM Plex Sans Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_400Regular_Italic',
+          }}>
+          IBM Plex Sans Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_500Medium_Italic',
+          }}>
+          IBM Plex Sans Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'IBMPlexSans_600SemiBold_Italic',
+          }}>
+          IBM Plex Sans Semi Bold Italic
         </Text>
 
         <Text
@@ -236,11 +236,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IBMPlexSans_100Thin](./IBMPlexSans_100Thin.ttf.png)|![IBMPlexSans_100Thin_Italic](./IBMPlexSans_100Thin_Italic.ttf.png)|![IBMPlexSans_200ExtraLight](./IBMPlexSans_200ExtraLight.ttf.png)||
-|![IBMPlexSans_200ExtraLight_Italic](./IBMPlexSans_200ExtraLight_Italic.ttf.png)|![IBMPlexSans_300Light](./IBMPlexSans_300Light.ttf.png)|![IBMPlexSans_300Light_Italic](./IBMPlexSans_300Light_Italic.ttf.png)||
-|![IBMPlexSans_400Regular](./IBMPlexSans_400Regular.ttf.png)|![IBMPlexSans_400Regular_Italic](./IBMPlexSans_400Regular_Italic.ttf.png)|![IBMPlexSans_500Medium](./IBMPlexSans_500Medium.ttf.png)||
-|![IBMPlexSans_500Medium_Italic](./IBMPlexSans_500Medium_Italic.ttf.png)|![IBMPlexSans_600SemiBold](./IBMPlexSans_600SemiBold.ttf.png)|![IBMPlexSans_600SemiBold_Italic](./IBMPlexSans_600SemiBold_Italic.ttf.png)||
-|![IBMPlexSans_700Bold](./IBMPlexSans_700Bold.ttf.png)|![IBMPlexSans_700Bold_Italic](./IBMPlexSans_700Bold_Italic.ttf.png)|||
+|![IBMPlexSans_100Thin](./IBMPlexSans_100Thin.ttf.png)|![IBMPlexSans_200ExtraLight](./IBMPlexSans_200ExtraLight.ttf.png)|![IBMPlexSans_300Light](./IBMPlexSans_300Light.ttf.png)||
+|![IBMPlexSans_400Regular](./IBMPlexSans_400Regular.ttf.png)|![IBMPlexSans_500Medium](./IBMPlexSans_500Medium.ttf.png)|![IBMPlexSans_600SemiBold](./IBMPlexSans_600SemiBold.ttf.png)||
+|![IBMPlexSans_700Bold](./IBMPlexSans_700Bold.ttf.png)|![IBMPlexSans_100Thin_Italic](./IBMPlexSans_100Thin_Italic.ttf.png)|![IBMPlexSans_200ExtraLight_Italic](./IBMPlexSans_200ExtraLight_Italic.ttf.png)||
+|![IBMPlexSans_300Light_Italic](./IBMPlexSans_300Light_Italic.ttf.png)|![IBMPlexSans_400Regular_Italic](./IBMPlexSans_400Regular_Italic.ttf.png)|![IBMPlexSans_500Medium_Italic](./IBMPlexSans_500Medium_Italic.ttf.png)||
+|![IBMPlexSans_600SemiBold_Italic](./IBMPlexSans_600SemiBold_Italic.ttf.png)|![IBMPlexSans_700Bold_Italic](./IBMPlexSans_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -2,19 +2,20 @@
   "family": "Hepta Slab",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v17",
-  "lastModified": "2022-09-22",
+  "version": "v23",
+  "lastModified": "2024-09-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/heptaslab/v17/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvkV5jfbY5B0NBkz.ttf",
-    "200": "http://fonts.gstatic.com/s/heptaslab/v17/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvmV5zfbY5B0NBkz.ttf",
-    "300": "http://fonts.gstatic.com/s/heptaslab/v17/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvlL5zfbY5B0NBkz.ttf",
-    "500": "http://fonts.gstatic.com/s/heptaslab/v17/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5Hvkn5zfbY5B0NBkz.ttf",
-    "600": "http://fonts.gstatic.com/s/heptaslab/v17/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvnL4DfbY5B0NBkz.ttf",
-    "700": "http://fonts.gstatic.com/s/heptaslab/v17/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5Hvny4DfbY5B0NBkz.ttf",
-    "800": "http://fonts.gstatic.com/s/heptaslab/v17/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvmV4DfbY5B0NBkz.ttf",
-    "900": "http://fonts.gstatic.com/s/heptaslab/v17/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5Hvm84DfbY5B0NBkz.ttf",
-    "regular": "http://fonts.gstatic.com/s/heptaslab/v17/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvkV5zfbY5B0NBkz.ttf"
+    "100": "https://fonts.gstatic.com/s/heptaslab/v23/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvkV5jfbY5B0NBkz.ttf",
+    "200": "https://fonts.gstatic.com/s/heptaslab/v23/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvmV5zfbY5B0NBkz.ttf",
+    "300": "https://fonts.gstatic.com/s/heptaslab/v23/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvlL5zfbY5B0NBkz.ttf",
+    "500": "https://fonts.gstatic.com/s/heptaslab/v23/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5Hvkn5zfbY5B0NBkz.ttf",
+    "600": "https://fonts.gstatic.com/s/heptaslab/v23/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvnL4DfbY5B0NBkz.ttf",
+    "700": "https://fonts.gstatic.com/s/heptaslab/v23/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5Hvny4DfbY5B0NBkz.ttf",
+    "800": "https://fonts.gstatic.com/s/heptaslab/v23/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvmV4DfbY5B0NBkz.ttf",
+    "900": "https://fonts.gstatic.com/s/heptaslab/v23/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5Hvm84DfbY5B0NBkz.ttf",
+    "regular": "https://fonts.gstatic.com/s/heptaslab/v23/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvkV5zfbY5B0NBkz.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/heptaslab/v23/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvkV5wfaaZQ.ttf"
 }

@@ -1,0 +1,13 @@
+{
+  "family": "Micro 5 Charted",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "math", "symbols"],
+  "version": "v2",
+  "lastModified": "2025-01-28",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/micro5charted/v2/hESp6XxmPDtTtADZhn7oD_yrmxEGRUsJQAlbUA.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/micro5charted/v2/hESp6XxmPDtTtADZhn7oD_yrmxE2REEN.ttf"
+}

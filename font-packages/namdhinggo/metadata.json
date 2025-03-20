@@ -1,0 +1,17 @@
+{
+  "family": "Namdhinggo",
+  "variants": ["regular", "500", "600", "700", "800"],
+  "subsets": ["latin", "latin-ext", "limbu"],
+  "version": "v2",
+  "lastModified": "2024-09-04",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/namdhinggo/v2/uk-lEGe3rbgg8Xzoy5-TNoGKxyRa8oZK9I0.ttf",
+    "600": "https://fonts.gstatic.com/s/namdhinggo/v2/uk-lEGe3rbgg8Xzoy5-TNq2NxyRa8oZK9I0.ttf",
+    "700": "https://fonts.gstatic.com/s/namdhinggo/v2/uk-lEGe3rbgg8Xzoy5-TNsmMxyRa8oZK9I0.ttf",
+    "800": "https://fonts.gstatic.com/s/namdhinggo/v2/uk-lEGe3rbgg8Xzoy5-TNtWPxyRa8oZK9I0.ttf",
+    "regular": "https://fonts.gstatic.com/s/namdhinggo/v2/uk-mEGe3rbgg8Xzoy5-TDnWj4yxx7o8.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/namdhinggo/v2/uk-mEGe3rbgg8Xzoy5-TPnSp5w.ttf"
+}

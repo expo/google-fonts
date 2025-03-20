@@ -2,11 +2,12 @@
   "family": "Gideon Roman",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2022-09-22",
+  "version": "v11",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/gideonroman/v7/e3tmeuGrVOys8sxzZgWlmXoge0PWovdU4w.ttf"
+    "regular": "https://fonts.gstatic.com/s/gideonroman/v11/e3tmeuGrVOys8sxzZgWlmXoge0PWovdU4w.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/gideonroman/v11/e3tmeuGrVOys8sxzZgWlmXoQeknS.ttf"
 }

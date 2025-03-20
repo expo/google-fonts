@@ -2,11 +2,12 @@
   "family": "Blaka Hollow",
   "variants": ["regular"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2022-12-08",
+  "version": "v7",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/blakahollow/v5/MCoUzAL91sjRE2FsKsxUtezYB9oFyW_-oA.ttf"
+    "regular": "https://fonts.gstatic.com/s/blakahollow/v7/MCoUzAL91sjRE2FsKsxUtezYB9oFyW_-oA.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/blakahollow/v7/MCoUzAL91sjRE2FsKsxUtezoBtAB.ttf"
 }

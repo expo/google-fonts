@@ -2,12 +2,13 @@
   "family": "Fragment Mono",
   "variants": ["regular", "italic"],
   "subsets": ["cyrillic-ext", "latin", "latin-ext"],
-  "version": "v1",
-  "lastModified": "2022-11-09",
+  "version": "v4",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/fragmentmono/v1/4iCr6K5wfMRRjxp0DA6-2CLnN4RNh4UI_1U.ttf",
-    "italic": "http://fonts.gstatic.com/s/fragmentmono/v1/4iC16K5wfMRRjxp0DA6-2CLnB4ZHg6cN71URtQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/fragmentmono/v4/4iCr6K5wfMRRjxp0DA6-2CLnN4RNh4UI_1U.ttf",
+    "italic": "https://fonts.gstatic.com/s/fragmentmono/v4/4iC16K5wfMRRjxp0DA6-2CLnB4ZHg6cN71URtQ.ttf"
   },
   "category": "monospace",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/fragmentmono/v4/4iCr6K5wfMRRjxp0DA6-2CLnB4VHgw.ttf"
 }

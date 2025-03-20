@@ -1,0 +1,11 @@
+{
+  "family": "Tiny5",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext"],
+  "version": "v3",
+  "lastModified": "2024-12-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/tiny5/v3/KFOpCnmCvdGT7hw-z0hHAi88.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/tiny5/v3/KFOpCnmCvdGT7iw_xUw.ttf"
+}

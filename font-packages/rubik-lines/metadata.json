@@ -1,0 +1,13 @@
+{
+  "family": "Rubik Lines",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext", "math", "symbols"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/rubiklines/v1/_gP81R3vsjYzVW2Y6xFF-GSxYPp7oSNy.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/rubiklines/v1/_gP81R3vsjYzVW2Y6xFF-FSwav4.ttf"
+}

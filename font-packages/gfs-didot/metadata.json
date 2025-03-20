@@ -2,11 +2,12 @@
   "family": "GFS Didot",
   "variants": ["regular"],
   "subsets": ["greek"],
-  "version": "v15",
-  "lastModified": "2022-09-22",
+  "version": "v16",
+  "lastModified": "2024-04-12",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/gfsdidot/v15/Jqzh5TybZ9vZMWFssvwiF-fGFSCGAA.ttf"
+    "regular": "https://fonts.gstatic.com/s/gfsdidot/v16/Jqzh5TybZ9vZMWFssvwiF-fGFSCGAA.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/gfsdidot/v16/Jqzh5TybZ9vZMWFssvwSFu3C.ttf"
 }

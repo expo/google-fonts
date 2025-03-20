@@ -7,4 +7,6 @@ export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
 export const MiriamLibre_400Regular: number;
+export const MiriamLibre_500Medium: number;
+export const MiriamLibre_600SemiBold: number;
 export const MiriamLibre_700Bold: number;

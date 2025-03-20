@@ -1,0 +1,16 @@
+{
+  "family": "Playwrite RO",
+  "variants": ["100", "200", "300", "regular"],
+  "subsets": ["latin"],
+  "version": "v9",
+  "lastModified": "2025-02-12",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playwritero/v9/gok8H6fuA1J7QPJ04HFTGSWdk_S0czhwEf0j4a9ZnZWMJnZeBS8.ttf",
+    "200": "https://fonts.gstatic.com/s/playwritero/v9/gok8H6fuA1J7QPJ04HFTGSWdk_S0czhwEf0j4S9YnZWMJnZeBS8.ttf",
+    "300": "https://fonts.gstatic.com/s/playwritero/v9/gok8H6fuA1J7QPJ04HFTGSWdk_S0czhwEf0j4fFYnZWMJnZeBS8.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwritero/v9/gok8H6fuA1J7QPJ04HFTGSWdk_S0czhwEf0j4a9YnZWMJnZeBS8.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwritero/v9/gok8H6fuA1J7QPJ04HFTGSWdk_S0czhwEf0j4a9YrZSGIg.ttf"
+}

@@ -2,11 +2,12 @@
   "family": "Stint Ultra Expanded",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v20",
-  "lastModified": "2022-09-22",
+  "version": "v22",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/stintultraexpanded/v20/CSRg4yNNh-GbW3o3JkwoDcdvMKMf0oBAd0qoATQkWwam.ttf"
+    "regular": "https://fonts.gstatic.com/s/stintultraexpanded/v22/CSRg4yNNh-GbW3o3JkwoDcdvMKMf0oBAd0qoATQkWwam.ttf"
   },
-  "category": "display",
-  "kind": "webfonts#webfont"
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/stintultraexpanded/v22/CSRg4yNNh-GbW3o3JkwoDcdvMKMf0oBAd3qpCzA.ttf"
 }

@@ -1,12 +1,13 @@
 {
   "family": "Monofett",
   "variants": ["regular"],
-  "subsets": ["latin"],
-  "version": "v22",
-  "lastModified": "2022-09-22",
+  "subsets": ["latin", "latin-ext"],
+  "version": "v23",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/monofett/v22/mFTyWbofw6zc9NtnW43SuRwr0VJ7.ttf"
+    "regular": "https://fonts.gstatic.com/s/monofett/v23/mFTyWbofw6zc9NtnW43SuRwr0VJ7.ttf"
   },
-  "category": "display",
-  "kind": "webfonts#webfont"
+  "category": "monospace",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/monofett/v23/mFTyWbofw6zc9NtnW73Tsxg.ttf"
 }

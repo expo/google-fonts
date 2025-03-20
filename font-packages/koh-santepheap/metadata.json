@@ -2,15 +2,16 @@
   "family": "Koh Santepheap",
   "variants": ["100", "300", "regular", "700", "900"],
   "subsets": ["khmer", "latin"],
-  "version": "v9",
-  "lastModified": "2022-04-26",
+  "version": "v14",
+  "lastModified": "2024-11-20",
   "files": {
-    "100": "http://fonts.gstatic.com/s/kohsantepheap/v9/gNMfW3p6SJbwyGj2rBZyeOrTjNuFHVyTtjNJUWU.ttf",
-    "300": "http://fonts.gstatic.com/s/kohsantepheap/v9/gNMeW3p6SJbwyGj2rBZyeOrTjNtNP3y5mD9ASHz5.ttf",
-    "700": "http://fonts.gstatic.com/s/kohsantepheap/v9/gNMeW3p6SJbwyGj2rBZyeOrTjNtdOHy5mD9ASHz5.ttf",
-    "900": "http://fonts.gstatic.com/s/kohsantepheap/v9/gNMeW3p6SJbwyGj2rBZyeOrTjNtlOny5mD9ASHz5.ttf",
-    "regular": "http://fonts.gstatic.com/s/kohsantepheap/v9/gNMdW3p6SJbwyGj2rBZyeOrTjOPhF1ixsyNJ.ttf"
+    "100": "https://fonts.gstatic.com/s/kohsantepheap/v14/gNMfW3p6SJbwyGj2rBZyeOrTjNuFHVyTtjNJUWU.ttf",
+    "300": "https://fonts.gstatic.com/s/kohsantepheap/v14/gNMeW3p6SJbwyGj2rBZyeOrTjNtNP3y5mD9ASHz5.ttf",
+    "700": "https://fonts.gstatic.com/s/kohsantepheap/v14/gNMeW3p6SJbwyGj2rBZyeOrTjNtdOHy5mD9ASHz5.ttf",
+    "900": "https://fonts.gstatic.com/s/kohsantepheap/v14/gNMeW3p6SJbwyGj2rBZyeOrTjNtlOny5mD9ASHz5.ttf",
+    "regular": "https://fonts.gstatic.com/s/kohsantepheap/v14/gNMdW3p6SJbwyGj2rBZyeOrTjOPhF1ixsyNJ.ttf"
   },
-  "category": "display",
-  "kind": "webfonts#webfont"
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/kohsantepheap/v14/gNMdW3p6SJbwyGj2rBZyeOrTjNPgHVw.ttf"
 }

@@ -1,10 +1,11 @@
 {
   "family": "Mako",
   "variants": ["regular"],
-  "subsets": ["latin"],
-  "version": "v18",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/mako/v18/H4coBX6Mmc_Z0ST09g478Lo.ttf" },
+  "subsets": ["latin", "latin-ext"],
+  "version": "v19",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/mako/v19/H4coBX6Mmc_Z0ST09g478Lo.ttf" },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/mako/v19/H4coBX6Mmc_Z4SX-8g.ttf"
 }

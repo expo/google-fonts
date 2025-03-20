@@ -1,0 +1,11 @@
+{
+  "family": "Micro 5",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "math", "symbols"],
+  "version": "v2",
+  "lastModified": "2025-01-28",
+  "files": { "regular": "https://fonts.gstatic.com/s/micro5/v2/H4cnBX2MkcfEngTr0gYQ7LO5mqc.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/micro5/v2/H4cnBX2MkcfEngTr4gca6A.ttf"
+}

@@ -2,9 +2,10 @@
   "family": "Farsan",
   "variants": ["regular"],
   "subsets": ["gujarati", "latin", "latin-ext", "vietnamese"],
-  "version": "v18",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/farsan/v18/VEMwRoJ0vY_zsyz62q-pxDX9rQ.ttf" },
+  "version": "v22",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/farsan/v22/VEMwRoJ0vY_zsyz62q-pxDX9rQ.ttf" },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/farsan/v22/VEMwRoJ0vY_zsyzK26Wt.ttf"
 }

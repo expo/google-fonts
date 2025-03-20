@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Kharoshthi",
   "variants": ["regular"],
-  "subsets": ["kharoshthi"],
-  "version": "v15",
-  "lastModified": "2022-05-10",
+  "subsets": ["kharoshthi", "latin", "latin-ext"],
+  "version": "v16",
+  "lastModified": "2023-04-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosanskharoshthi/v15/Fh4qPiLjKS30-P4-pGMMXCCfvkc5Vd7KE5z4rFyx5mR1.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanskharoshthi/v16/Fh4qPiLjKS30-P4-pGMMXCCfvkc5Vd7KE5z4rFyx5mR1.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanskharoshthi/v16/Fh4qPiLjKS30-P4-pGMMXCCfvkc5Vd7KE6z5plg.ttf"
 }

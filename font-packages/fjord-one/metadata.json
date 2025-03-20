@@ -3,10 +3,11 @@
   "variants": ["regular"],
   "subsets": ["latin"],
   "version": "v21",
-  "lastModified": "2022-09-22",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/fjordone/v21/zOL-4pbEnKBY_9S1jNKr6e5As-FeiQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/fjordone/v21/zOL-4pbEnKBY_9S1jNKr6e5As-FeiQ.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/fjordone/v21/zOL-4pbEnKBY_9S1jNKb6ORE.ttf"
 }

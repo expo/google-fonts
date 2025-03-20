@@ -2,11 +2,12 @@
   "family": "Poller One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v19",
-  "lastModified": "2022-09-22",
+  "version": "v23",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/pollerone/v19/ahccv82n0TN3gia5E4Bud-lbgUS5u0s.ttf"
+    "regular": "https://fonts.gstatic.com/s/pollerone/v23/ahccv82n0TN3gia5E4Bud-lbgUS5u0s.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/pollerone/v23/ahccv82n0TN3gia5E4BuR-hRhQ.ttf"
 }

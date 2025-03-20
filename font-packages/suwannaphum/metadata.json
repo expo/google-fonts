@@ -2,15 +2,16 @@
   "family": "Suwannaphum",
   "variants": ["100", "300", "regular", "700", "900"],
   "subsets": ["khmer", "latin"],
-  "version": "v29",
-  "lastModified": "2022-04-27",
+  "version": "v31",
+  "lastModified": "2024-08-12",
   "files": {
-    "100": "http://fonts.gstatic.com/s/suwannaphum/v29/jAnAgHV7GtDvc8jbe8hXXL3B9cSWXx2VZmk.ttf",
-    "300": "http://fonts.gstatic.com/s/suwannaphum/v29/jAnfgHV7GtDvc8jbe8hXXL0J1-S8cRGcf3Ai.ttf",
-    "700": "http://fonts.gstatic.com/s/suwannaphum/v29/jAnfgHV7GtDvc8jbe8hXXL0Z0OS8cRGcf3Ai.ttf",
-    "900": "http://fonts.gstatic.com/s/suwannaphum/v29/jAnfgHV7GtDvc8jbe8hXXL0h0uS8cRGcf3Ai.ttf",
-    "regular": "http://fonts.gstatic.com/s/suwannaphum/v29/jAnCgHV7GtDvc8jbe8hXXIWl_8C0Wg2V.ttf"
+    "100": "https://fonts.gstatic.com/s/suwannaphum/v31/jAnAgHV7GtDvc8jbe8hXXL3B9cSWXx2VZmk.ttf",
+    "300": "https://fonts.gstatic.com/s/suwannaphum/v31/jAnfgHV7GtDvc8jbe8hXXL0J1-S8cRGcf3Ai.ttf",
+    "700": "https://fonts.gstatic.com/s/suwannaphum/v31/jAnfgHV7GtDvc8jbe8hXXL0Z0OS8cRGcf3Ai.ttf",
+    "900": "https://fonts.gstatic.com/s/suwannaphum/v31/jAnfgHV7GtDvc8jbe8hXXL0h0uS8cRGcf3Ai.ttf",
+    "regular": "https://fonts.gstatic.com/s/suwannaphum/v31/jAnCgHV7GtDvc8jbe8hXXIWl_8C0Wg2V.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/suwannaphum/v31/jAnCgHV7GtDvc8jbe8hXXLWk9cQ.ttf"
 }

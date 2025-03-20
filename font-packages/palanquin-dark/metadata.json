@@ -2,14 +2,15 @@
   "family": "Palanquin Dark",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2022-09-22",
+  "version": "v16",
+  "lastModified": "2024-11-20",
   "files": {
-    "500": "http://fonts.gstatic.com/s/palanquindark/v12/xn76YHgl1nqmANMB-26xC7yuF8Z6ZW41fcvN2KT4.ttf",
-    "600": "http://fonts.gstatic.com/s/palanquindark/v12/xn76YHgl1nqmANMB-26xC7yuF8ZWYm41fcvN2KT4.ttf",
-    "700": "http://fonts.gstatic.com/s/palanquindark/v12/xn76YHgl1nqmANMB-26xC7yuF8YyY241fcvN2KT4.ttf",
-    "regular": "http://fonts.gstatic.com/s/palanquindark/v12/xn75YHgl1nqmANMB-26xC7yuF_6OTEo9VtfE.ttf"
+    "500": "https://fonts.gstatic.com/s/palanquindark/v16/xn76YHgl1nqmANMB-26xC7yuF8Z6ZW41fcvN2KT4.ttf",
+    "600": "https://fonts.gstatic.com/s/palanquindark/v16/xn76YHgl1nqmANMB-26xC7yuF8ZWYm41fcvN2KT4.ttf",
+    "700": "https://fonts.gstatic.com/s/palanquindark/v16/xn76YHgl1nqmANMB-26xC7yuF8YyY241fcvN2KT4.ttf",
+    "regular": "https://fonts.gstatic.com/s/palanquindark/v16/xn75YHgl1nqmANMB-26xC7yuF_6OTEo9VtfE.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/palanquindark/v16/xn75YHgl1nqmANMB-26xC7yuF86PRk4.ttf"
 }

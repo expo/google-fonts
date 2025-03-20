@@ -2,17 +2,18 @@
   "family": "IBM Plex Sans Thai Looped",
   "variants": ["100", "200", "300", "regular", "500", "600", "700"],
   "subsets": ["cyrillic-ext", "latin", "latin-ext", "thai"],
-  "version": "v9",
-  "lastModified": "2022-11-09",
+  "version": "v11",
+  "lastModified": "2024-09-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/ibmplexsansthailooped/v9/tss5AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_HaKpHOtFCQ76Q.ttf",
-    "200": "http://fonts.gstatic.com/s/ibmplexsansthailooped/v9/tss6AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_NqrhFmDGC0i8Cc.ttf",
-    "300": "http://fonts.gstatic.com/s/ibmplexsansthailooped/v9/tss6AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_L6ohFmDGC0i8Cc.ttf",
-    "500": "http://fonts.gstatic.com/s/ibmplexsansthailooped/v9/tss6AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_OaphFmDGC0i8Cc.ttf",
-    "600": "http://fonts.gstatic.com/s/ibmplexsansthailooped/v9/tss6AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_MquhFmDGC0i8Cc.ttf",
-    "700": "http://fonts.gstatic.com/s/ibmplexsansthailooped/v9/tss6AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_K6vhFmDGC0i8Cc.ttf",
-    "regular": "http://fonts.gstatic.com/s/ibmplexsansthailooped/v9/tss_AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30LxBKAoFGoBCQ.ttf"
+    "100": "https://fonts.gstatic.com/s/ibmplexsansthailooped/v11/tss5AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_HaKpHOtFCQ76Q.ttf",
+    "200": "https://fonts.gstatic.com/s/ibmplexsansthailooped/v11/tss6AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_NqrhFmDGC0i8Cc.ttf",
+    "300": "https://fonts.gstatic.com/s/ibmplexsansthailooped/v11/tss6AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_L6ohFmDGC0i8Cc.ttf",
+    "500": "https://fonts.gstatic.com/s/ibmplexsansthailooped/v11/tss6AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_OaphFmDGC0i8Cc.ttf",
+    "600": "https://fonts.gstatic.com/s/ibmplexsansthailooped/v11/tss6AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_MquhFmDGC0i8Cc.ttf",
+    "700": "https://fonts.gstatic.com/s/ibmplexsansthailooped/v11/tss6AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_K6vhFmDGC0i8Cc.ttf",
+    "regular": "https://fonts.gstatic.com/s/ibmplexsansthailooped/v11/tss_AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30LxBKAoFGoBCQ.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/ibmplexsansthailooped/v11/tss_AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L9BOKpA.ttf"
 }

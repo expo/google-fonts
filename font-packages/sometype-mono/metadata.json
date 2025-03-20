@@ -1,0 +1,20 @@
+{
+  "family": "Sometype Mono",
+  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/sometypemono/v1/70lGu745KGk_R3uxyq0WrROhAJiJsJ_eTWllpTA-GE9agQBbs7uG.ttf",
+    "600": "https://fonts.gstatic.com/s/sometypemono/v1/70lGu745KGk_R3uxyq0WrROhAJiJsJ_eTWllpTDSH09agQBbs7uG.ttf",
+    "700": "https://fonts.gstatic.com/s/sometypemono/v1/70lGu745KGk_R3uxyq0WrROhAJiJsJ_eTWllpTDrH09agQBbs7uG.ttf",
+    "regular": "https://fonts.gstatic.com/s/sometypemono/v1/70lGu745KGk_R3uxyq0WrROhAJiJsJ_eTWllpTAMGE9agQBbs7uG.ttf",
+    "italic": "https://fonts.gstatic.com/s/sometypemono/v1/70lEu745KGk_R3uxyq0WrROhKpG7T0e3JvPLoiXEW6cZiwR5tquGrxk.ttf",
+    "500italic": "https://fonts.gstatic.com/s/sometypemono/v1/70lEu745KGk_R3uxyq0WrROhKpG7T0e3JvPLoiXEW5UZiwR5tquGrxk.ttf",
+    "600italic": "https://fonts.gstatic.com/s/sometypemono/v1/70lEu745KGk_R3uxyq0WrROhKpG7T0e3JvPLoiXEW3keiwR5tquGrxk.ttf",
+    "700italic": "https://fonts.gstatic.com/s/sometypemono/v1/70lEu745KGk_R3uxyq0WrROhKpG7T0e3JvPLoiXEW0AeiwR5tquGrxk.ttf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/sometypemono/v1/70lGu745KGk_R3uxyq0WrROhAJiJsJ_eTWllpTAMGH9biwQ.ttf"
+}

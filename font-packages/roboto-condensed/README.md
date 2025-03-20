@@ -11,14 +11,26 @@ This package lets you use the [**Roboto Condensed**](https://fonts.google.com/sp
 
 ![Roboto Condensed](./font-family.png)
 
-This font family contains [6 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
+- `RobotoCondensed_100Thin`
+- `RobotoCondensed_200ExtraLight`
 - `RobotoCondensed_300Light`
-- `RobotoCondensed_300Light_Italic`
 - `RobotoCondensed_400Regular`
-- `RobotoCondensed_400Regular_Italic`
+- `RobotoCondensed_500Medium`
+- `RobotoCondensed_600SemiBold`
 - `RobotoCondensed_700Bold`
+- `RobotoCondensed_800ExtraBold`
+- `RobotoCondensed_900Black`
+- `RobotoCondensed_100Thin_Italic`
+- `RobotoCondensed_200ExtraLight_Italic`
+- `RobotoCondensed_300Light_Italic`
+- `RobotoCondensed_400Regular_Italic`
+- `RobotoCondensed_500Medium_Italic`
+- `RobotoCondensed_600SemiBold_Italic`
 - `RobotoCondensed_700Bold_Italic`
+- `RobotoCondensed_800ExtraBold_Italic`
+- `RobotoCondensed_900Black_Italic`
 
 ## Usage
 
@@ -35,22 +47,46 @@ import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import {
   useFonts,
+  RobotoCondensed_100Thin,
+  RobotoCondensed_200ExtraLight,
   RobotoCondensed_300Light,
-  RobotoCondensed_300Light_Italic,
   RobotoCondensed_400Regular,
-  RobotoCondensed_400Regular_Italic,
+  RobotoCondensed_500Medium,
+  RobotoCondensed_600SemiBold,
   RobotoCondensed_700Bold,
+  RobotoCondensed_800ExtraBold,
+  RobotoCondensed_900Black,
+  RobotoCondensed_100Thin_Italic,
+  RobotoCondensed_200ExtraLight_Italic,
+  RobotoCondensed_300Light_Italic,
+  RobotoCondensed_400Regular_Italic,
+  RobotoCondensed_500Medium_Italic,
+  RobotoCondensed_600SemiBold_Italic,
   RobotoCondensed_700Bold_Italic,
+  RobotoCondensed_800ExtraBold_Italic,
+  RobotoCondensed_900Black_Italic,
 } from '@expo-google-fonts/roboto-condensed';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    RobotoCondensed_100Thin,
+    RobotoCondensed_200ExtraLight,
     RobotoCondensed_300Light,
-    RobotoCondensed_300Light_Italic,
     RobotoCondensed_400Regular,
-    RobotoCondensed_400Regular_Italic,
+    RobotoCondensed_500Medium,
+    RobotoCondensed_600SemiBold,
     RobotoCondensed_700Bold,
+    RobotoCondensed_800ExtraBold,
+    RobotoCondensed_900Black,
+    RobotoCondensed_100Thin_Italic,
+    RobotoCondensed_200ExtraLight_Italic,
+    RobotoCondensed_300Light_Italic,
+    RobotoCondensed_400Regular_Italic,
+    RobotoCondensed_500Medium_Italic,
+    RobotoCondensed_600SemiBold_Italic,
     RobotoCondensed_700Bold_Italic,
+    RobotoCondensed_800ExtraBold_Italic,
+    RobotoCondensed_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -66,9 +102,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_300Light',
+            fontFamily: 'RobotoCondensed_100Thin',
           }}>
-          Roboto Condensed Light
+          Roboto Condensed Thin
         </Text>
 
         <Text
@@ -76,9 +112,19 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_300Light_Italic',
+            fontFamily: 'RobotoCondensed_200ExtraLight',
           }}>
-          Roboto Condensed Light Italic
+          Roboto Condensed Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_300Light',
+          }}>
+          Roboto Condensed Light
         </Text>
 
         <Text
@@ -96,9 +142,19 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_400Regular_Italic',
+            fontFamily: 'RobotoCondensed_500Medium',
           }}>
-          Roboto Condensed Italic
+          Roboto Condensed Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_600SemiBold',
+          }}>
+          Roboto Condensed Semi Bold
         </Text>
 
         <Text
@@ -116,9 +172,109 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_800ExtraBold',
+          }}>
+          Roboto Condensed Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_900Black',
+          }}>
+          Roboto Condensed Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_100Thin_Italic',
+          }}>
+          Roboto Condensed Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_200ExtraLight_Italic',
+          }}>
+          Roboto Condensed Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_300Light_Italic',
+          }}>
+          Roboto Condensed Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_400Regular_Italic',
+          }}>
+          Roboto Condensed Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_500Medium_Italic',
+          }}>
+          Roboto Condensed Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_600SemiBold_Italic',
+          }}>
+          Roboto Condensed Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'RobotoCondensed_700Bold_Italic',
           }}>
           Roboto Condensed Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_800ExtraBold_Italic',
+          }}>
+          Roboto Condensed Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'RobotoCondensed_900Black_Italic',
+          }}>
+          Roboto Condensed Black Italic
         </Text>
       </View>
     );
@@ -132,8 +288,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RobotoCondensed_300Light](./RobotoCondensed_300Light.ttf.png)|![RobotoCondensed_300Light_Italic](./RobotoCondensed_300Light_Italic.ttf.png)|![RobotoCondensed_400Regular](./RobotoCondensed_400Regular.ttf.png)||
-|![RobotoCondensed_400Regular_Italic](./RobotoCondensed_400Regular_Italic.ttf.png)|![RobotoCondensed_700Bold](./RobotoCondensed_700Bold.ttf.png)|![RobotoCondensed_700Bold_Italic](./RobotoCondensed_700Bold_Italic.ttf.png)||
+|![RobotoCondensed_100Thin](./RobotoCondensed_100Thin.ttf.png)|![RobotoCondensed_200ExtraLight](./RobotoCondensed_200ExtraLight.ttf.png)|![RobotoCondensed_300Light](./RobotoCondensed_300Light.ttf.png)||
+|![RobotoCondensed_400Regular](./RobotoCondensed_400Regular.ttf.png)|![RobotoCondensed_500Medium](./RobotoCondensed_500Medium.ttf.png)|![RobotoCondensed_600SemiBold](./RobotoCondensed_600SemiBold.ttf.png)||
+|![RobotoCondensed_700Bold](./RobotoCondensed_700Bold.ttf.png)|![RobotoCondensed_800ExtraBold](./RobotoCondensed_800ExtraBold.ttf.png)|![RobotoCondensed_900Black](./RobotoCondensed_900Black.ttf.png)||
+|![RobotoCondensed_100Thin_Italic](./RobotoCondensed_100Thin_Italic.ttf.png)|![RobotoCondensed_200ExtraLight_Italic](./RobotoCondensed_200ExtraLight_Italic.ttf.png)|![RobotoCondensed_300Light_Italic](./RobotoCondensed_300Light_Italic.ttf.png)||
+|![RobotoCondensed_400Regular_Italic](./RobotoCondensed_400Regular_Italic.ttf.png)|![RobotoCondensed_500Medium_Italic](./RobotoCondensed_500Medium_Italic.ttf.png)|![RobotoCondensed_600SemiBold_Italic](./RobotoCondensed_600SemiBold_Italic.ttf.png)||
+|![RobotoCondensed_700Bold_Italic](./RobotoCondensed_700Bold_Italic.ttf.png)|![RobotoCondensed_800ExtraBold_Italic](./RobotoCondensed_800ExtraBold_Italic.ttf.png)|![RobotoCondensed_900Black_Italic](./RobotoCondensed_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

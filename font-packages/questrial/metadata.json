@@ -3,10 +3,11 @@
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
   "version": "v18",
-  "lastModified": "2023-01-06",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/questrial/v18/QdVUSTchPBm7nuUeVf7EuStkm20oJA.ttf"
+    "regular": "https://fonts.gstatic.com/s/questrial/v18/QdVUSTchPBm7nuUeVf7EuStkm20oJA.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/questrial/v18/QdVUSTchPBm7nuUeVf70uCFg.ttf"
 }

@@ -2,19 +2,20 @@
   "family": "Alexandria",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
-  "version": "v1",
-  "lastModified": "2022-11-18",
+  "version": "v3",
+  "lastModified": "2024-09-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/alexandria/v1/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9r7T6bHHJ8BRq0b.ttf",
-    "200": "http://fonts.gstatic.com/s/alexandria/v1/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9p7TqbHHJ8BRq0b.ttf",
-    "300": "http://fonts.gstatic.com/s/alexandria/v1/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9qlTqbHHJ8BRq0b.ttf",
-    "500": "http://fonts.gstatic.com/s/alexandria/v1/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9rJTqbHHJ8BRq0b.ttf",
-    "600": "http://fonts.gstatic.com/s/alexandria/v1/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9olSabHHJ8BRq0b.ttf",
-    "700": "http://fonts.gstatic.com/s/alexandria/v1/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9ocSabHHJ8BRq0b.ttf",
-    "800": "http://fonts.gstatic.com/s/alexandria/v1/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9p7SabHHJ8BRq0b.ttf",
-    "900": "http://fonts.gstatic.com/s/alexandria/v1/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9pSSabHHJ8BRq0b.ttf",
-    "regular": "http://fonts.gstatic.com/s/alexandria/v1/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9r7TqbHHJ8BRq0b.ttf"
+    "100": "https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9r7T6bHHJ8BRq0b.ttf",
+    "200": "https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9p7TqbHHJ8BRq0b.ttf",
+    "300": "https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9qlTqbHHJ8BRq0b.ttf",
+    "500": "https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9rJTqbHHJ8BRq0b.ttf",
+    "600": "https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9olSabHHJ8BRq0b.ttf",
+    "700": "https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9ocSabHHJ8BRq0b.ttf",
+    "800": "https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9p7SabHHJ8BRq0b.ttf",
+    "900": "https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9pSSabHHJ8BRq0b.ttf",
+    "regular": "https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9r7TqbHHJ8BRq0b.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9r7TpbGFps.ttf"
 }

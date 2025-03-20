@@ -1,0 +1,11 @@
+{
+  "family": "Maname",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "sinhala", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2025-02-12",
+  "files": { "regular": "https://fonts.gstatic.com/s/maname/v2/gNMFW3J8RpCx9my42FkGGI6q_Q.ttf" },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/maname/v2/gNMFW3J8RpCx9myI2VMC.ttf"
+}

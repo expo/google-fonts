@@ -13,20 +13,21 @@
     "700italic"
   ],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2022-09-22",
+  "version": "v9",
+  "lastModified": "2024-09-04",
   "files": {
-    "300": "http://fonts.gstatic.com/s/mohave/v8/7cH0v4ksjJunKqMVAOPIMOeSmiojdif_HvCQopLSvBk.ttf",
-    "500": "http://fonts.gstatic.com/s/mohave/v8/7cH0v4ksjJunKqMVAOPIMOeSmiojdkv_HvCQopLSvBk.ttf",
-    "600": "http://fonts.gstatic.com/s/mohave/v8/7cH0v4ksjJunKqMVAOPIMOeSmiojdqf4HvCQopLSvBk.ttf",
-    "700": "http://fonts.gstatic.com/s/mohave/v8/7cH0v4ksjJunKqMVAOPIMOeSmiojdp74HvCQopLSvBk.ttf",
-    "regular": "http://fonts.gstatic.com/s/mohave/v8/7cH0v4ksjJunKqMVAOPIMOeSmiojdnn_HvCQopLSvBk.ttf",
-    "300italic": "http://fonts.gstatic.com/s/mohave/v8/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8qLOaprDXrBlSVw.ttf",
-    "italic": "http://fonts.gstatic.com/s/mohave/v8/7cH2v4ksjJunKqM_CdE36I75AIQkY7G89rOaprDXrBlSVw.ttf",
-    "500italic": "http://fonts.gstatic.com/s/mohave/v8/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8xLOaprDXrBlSVw.ttf",
-    "600italic": "http://fonts.gstatic.com/s/mohave/v8/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8KLSaprDXrBlSVw.ttf",
-    "700italic": "http://fonts.gstatic.com/s/mohave/v8/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8EbSaprDXrBlSVw.ttf"
+    "300": "https://fonts.gstatic.com/s/mohave/v9/7cH0v4ksjJunKqMVAOPIMOeSmiojdif_HvCQopLSvBk.ttf",
+    "500": "https://fonts.gstatic.com/s/mohave/v9/7cH0v4ksjJunKqMVAOPIMOeSmiojdkv_HvCQopLSvBk.ttf",
+    "600": "https://fonts.gstatic.com/s/mohave/v9/7cH0v4ksjJunKqMVAOPIMOeSmiojdqf4HvCQopLSvBk.ttf",
+    "700": "https://fonts.gstatic.com/s/mohave/v9/7cH0v4ksjJunKqMVAOPIMOeSmiojdp74HvCQopLSvBk.ttf",
+    "regular": "https://fonts.gstatic.com/s/mohave/v9/7cH0v4ksjJunKqMVAOPIMOeSmiojdnn_HvCQopLSvBk.ttf",
+    "300italic": "https://fonts.gstatic.com/s/mohave/v9/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8qLOaprDXrBlSVw.ttf",
+    "italic": "https://fonts.gstatic.com/s/mohave/v9/7cH2v4ksjJunKqM_CdE36I75AIQkY7G89rOaprDXrBlSVw.ttf",
+    "500italic": "https://fonts.gstatic.com/s/mohave/v9/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8xLOaprDXrBlSVw.ttf",
+    "600italic": "https://fonts.gstatic.com/s/mohave/v9/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8KLSaprDXrBlSVw.ttf",
+    "700italic": "https://fonts.gstatic.com/s/mohave/v9/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8EbSaprDXrBlSVw.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/mohave/v9/7cH0v4ksjJunKqMVAOPIMOeSmiojdnn_LvGapg.ttf"
 }

@@ -2,15 +2,16 @@
   "family": "Rajdhani",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2022-09-22",
+  "version": "v16",
+  "lastModified": "2024-12-04",
   "files": {
-    "300": "http://fonts.gstatic.com/s/rajdhani/v15/LDI2apCSOBg7S-QT7pasEcOsc-bGkqIw.ttf",
-    "500": "http://fonts.gstatic.com/s/rajdhani/v15/LDI2apCSOBg7S-QT7pb0EMOsc-bGkqIw.ttf",
-    "600": "http://fonts.gstatic.com/s/rajdhani/v15/LDI2apCSOBg7S-QT7pbYF8Osc-bGkqIw.ttf",
-    "700": "http://fonts.gstatic.com/s/rajdhani/v15/LDI2apCSOBg7S-QT7pa8FsOsc-bGkqIw.ttf",
-    "regular": "http://fonts.gstatic.com/s/rajdhani/v15/LDIxapCSOBg7S-QT7q4AOeekWPrP.ttf"
+    "300": "https://fonts.gstatic.com/s/rajdhani/v16/LDI2apCSOBg7S-QT7pasEcOsc-bGkqIw.ttf",
+    "500": "https://fonts.gstatic.com/s/rajdhani/v16/LDI2apCSOBg7S-QT7pb0EMOsc-bGkqIw.ttf",
+    "600": "https://fonts.gstatic.com/s/rajdhani/v16/LDI2apCSOBg7S-QT7pbYF8Osc-bGkqIw.ttf",
+    "700": "https://fonts.gstatic.com/s/rajdhani/v16/LDI2apCSOBg7S-QT7pa8FsOsc-bGkqIw.ttf",
+    "regular": "https://fonts.gstatic.com/s/rajdhani/v16/LDIxapCSOBg7S-QT7q4AOeekWPrP.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/rajdhani/v16/LDIxapCSOBg7S-QT7p4BM-M.ttf"
 }

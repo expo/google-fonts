@@ -2,18 +2,19 @@
   "family": "Anek Latin",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v4",
-  "lastModified": "2023-01-06",
+  "version": "v5",
+  "lastModified": "2024-09-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/aneklatin/v4/co3pmWZulTRoU4a8dqrWiajBS5ByUkvdrluH-xWG5uJTY4x-L3PuR7EZKdClWL3kgw.ttf",
-    "200": "http://fonts.gstatic.com/s/aneklatin/v4/co3pmWZulTRoU4a8dqrWiajBS5ByUkvdrluH-xWG5uJTY4x-L3Pux7AZKdClWL3kgw.ttf",
-    "300": "http://fonts.gstatic.com/s/aneklatin/v4/co3pmWZulTRoU4a8dqrWiajBS5ByUkvdrluH-xWG5uJTY4x-L3PuGbAZKdClWL3kgw.ttf",
-    "500": "http://fonts.gstatic.com/s/aneklatin/v4/co3pmWZulTRoU4a8dqrWiajBS5ByUkvdrluH-xWG5uJTY4x-L3PudbAZKdClWL3kgw.ttf",
-    "600": "http://fonts.gstatic.com/s/aneklatin/v4/co3pmWZulTRoU4a8dqrWiajBS5ByUkvdrluH-xWG5uJTY4x-L3PumbcZKdClWL3kgw.ttf",
-    "700": "http://fonts.gstatic.com/s/aneklatin/v4/co3pmWZulTRoU4a8dqrWiajBS5ByUkvdrluH-xWG5uJTY4x-L3PuoLcZKdClWL3kgw.ttf",
-    "800": "http://fonts.gstatic.com/s/aneklatin/v4/co3pmWZulTRoU4a8dqrWiajBS5ByUkvdrluH-xWG5uJTY4x-L3Pux7cZKdClWL3kgw.ttf",
-    "regular": "http://fonts.gstatic.com/s/aneklatin/v4/co3pmWZulTRoU4a8dqrWiajBS5ByUkvdrluH-xWG5uJTY4x-L3PuR7AZKdClWL3kgw.ttf"
+    "100": "https://fonts.gstatic.com/s/aneklatin/v5/co3pmWZulTRoU4a8dqrWiajBS5ByUkvdrluH-xWG5uJTY4x-L3PuR7EZKdClWL3kgw.ttf",
+    "200": "https://fonts.gstatic.com/s/aneklatin/v5/co3pmWZulTRoU4a8dqrWiajBS5ByUkvdrluH-xWG5uJTY4x-L3Pux7AZKdClWL3kgw.ttf",
+    "300": "https://fonts.gstatic.com/s/aneklatin/v5/co3pmWZulTRoU4a8dqrWiajBS5ByUkvdrluH-xWG5uJTY4x-L3PuGbAZKdClWL3kgw.ttf",
+    "500": "https://fonts.gstatic.com/s/aneklatin/v5/co3pmWZulTRoU4a8dqrWiajBS5ByUkvdrluH-xWG5uJTY4x-L3PudbAZKdClWL3kgw.ttf",
+    "600": "https://fonts.gstatic.com/s/aneklatin/v5/co3pmWZulTRoU4a8dqrWiajBS5ByUkvdrluH-xWG5uJTY4x-L3PumbcZKdClWL3kgw.ttf",
+    "700": "https://fonts.gstatic.com/s/aneklatin/v5/co3pmWZulTRoU4a8dqrWiajBS5ByUkvdrluH-xWG5uJTY4x-L3PuoLcZKdClWL3kgw.ttf",
+    "800": "https://fonts.gstatic.com/s/aneklatin/v5/co3pmWZulTRoU4a8dqrWiajBS5ByUkvdrluH-xWG5uJTY4x-L3Pux7cZKdClWL3kgw.ttf",
+    "regular": "https://fonts.gstatic.com/s/aneklatin/v5/co3pmWZulTRoU4a8dqrWiajBS5ByUkvdrluH-xWG5uJTY4x-L3PuR7AZKdClWL3kgw.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/aneklatin/v5/co3pmWZulTRoU4a8dqrWiajBS5ByUkvdrluH-xWG5uJTY4x-L3PuR7ApKNqh.ttf"
 }

@@ -1,0 +1,18 @@
+{
+  "family": "Gabarito",
+  "variants": ["regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v7",
+  "lastModified": "2024-09-04",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/gabarito/v7/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj20cK0FgItq6bFIg.ttf",
+    "600": "https://fonts.gstatic.com/s/gabarito/v7/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2PcW0FgItq6bFIg.ttf",
+    "700": "https://fonts.gstatic.com/s/gabarito/v7/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2BMW0FgItq6bFIg.ttf",
+    "800": "https://fonts.gstatic.com/s/gabarito/v7/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2Y8W0FgItq6bFIg.ttf",
+    "900": "https://fonts.gstatic.com/s/gabarito/v7/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2SsW0FgItq6bFIg.ttf",
+    "regular": "https://fonts.gstatic.com/s/gabarito/v7/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj248K0FgItq6bFIg.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/gabarito/v7/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj248KEFwgp.ttf"
+}

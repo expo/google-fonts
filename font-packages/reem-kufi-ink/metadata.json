@@ -2,11 +2,13 @@
   "family": "Reem Kufi Ink",
   "variants": ["regular"],
   "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
-  "version": "v8",
-  "lastModified": "2022-12-08",
+  "version": "v9",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/reemkufiink/v8/oPWJ_kJmmu8hCvB9iFumxZSnRj5dQnSX1ko.ttf"
+    "regular": "https://fonts.gstatic.com/s/reemkufiink/v9/oPWJ_kJmmu8hCvB9iFumxZSnRj5dQnSX1ko.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/reemkufiink/v9/oPWJ_kJmmu8hCvB9iFumxZSndj9XRg.ttf",
+  "colorCapabilities": ["COLRv1", "SVG"]
 }

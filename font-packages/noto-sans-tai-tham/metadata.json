@@ -2,14 +2,15 @@
   "family": "Noto Sans Tai Tham",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "tai-tham"],
-  "version": "v19",
-  "lastModified": "2022-11-09",
+  "version": "v20",
+  "lastModified": "2023-09-14",
   "files": {
-    "500": "http://fonts.gstatic.com/s/notosanstaitham/v19/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBBcbPgquyaRGKMw.ttf",
-    "600": "http://fonts.gstatic.com/s/notosanstaitham/v19/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBPscPgquyaRGKMw.ttf",
-    "700": "http://fonts.gstatic.com/s/notosanstaitham/v19/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBMIcPgquyaRGKMw.ttf",
-    "regular": "http://fonts.gstatic.com/s/notosanstaitham/v19/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBCUbPgquyaRGKMw.ttf"
+    "500": "https://fonts.gstatic.com/s/notosanstaitham/v20/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBBcbPgquyaRGKMw.ttf",
+    "600": "https://fonts.gstatic.com/s/notosanstaitham/v20/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBPscPgquyaRGKMw.ttf",
+    "700": "https://fonts.gstatic.com/s/notosanstaitham/v20/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBMIcPgquyaRGKMw.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosanstaitham/v20/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBCUbPgquyaRGKMw.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanstaitham/v20/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBCUbDgukzQ.ttf"
 }

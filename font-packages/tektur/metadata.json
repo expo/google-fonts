@@ -1,0 +1,18 @@
+{
+  "family": "Tektur",
+  "variants": ["regular", "500", "600", "700", "800", "900"],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2024-09-04",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/tektur/v3/XoHN2YHtS7q969kXCjzlV0aSkS_o8OacmTe0TYlYFot8TrwcVYtOY8P7TWd0.ttf",
+    "600": "https://fonts.gstatic.com/s/tektur/v3/XoHN2YHtS7q969kXCjzlV0aSkS_o8OacmTe0TYlYFot8TrzwUotOY8P7TWd0.ttf",
+    "700": "https://fonts.gstatic.com/s/tektur/v3/XoHN2YHtS7q969kXCjzlV0aSkS_o8OacmTe0TYlYFot8TrzJUotOY8P7TWd0.ttf",
+    "800": "https://fonts.gstatic.com/s/tektur/v3/XoHN2YHtS7q969kXCjzlV0aSkS_o8OacmTe0TYlYFot8TryuUotOY8P7TWd0.ttf",
+    "900": "https://fonts.gstatic.com/s/tektur/v3/XoHN2YHtS7q969kXCjzlV0aSkS_o8OacmTe0TYlYFot8TryHUotOY8P7TWd0.ttf",
+    "regular": "https://fonts.gstatic.com/s/tektur/v3/XoHN2YHtS7q969kXCjzlV0aSkS_o8OacmTe0TYlYFot8TrwuVYtOY8P7TWd0.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/tektur/v3/XoHN2YHtS7q969kXCjzlV0aSkS_o8OacmTe0TYlYFot8TrwuVbtPacc.ttf"
+}

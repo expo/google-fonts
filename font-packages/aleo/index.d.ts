@@ -6,9 +6,21 @@
 export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
+export const Aleo_100Thin: number;
+export const Aleo_200ExtraLight: number;
 export const Aleo_300Light: number;
-export const Aleo_300Light_Italic: number;
 export const Aleo_400Regular: number;
-export const Aleo_400Regular_Italic: number;
+export const Aleo_500Medium: number;
+export const Aleo_600SemiBold: number;
 export const Aleo_700Bold: number;
+export const Aleo_800ExtraBold: number;
+export const Aleo_900Black: number;
+export const Aleo_100Thin_Italic: number;
+export const Aleo_200ExtraLight_Italic: number;
+export const Aleo_300Light_Italic: number;
+export const Aleo_400Regular_Italic: number;
+export const Aleo_500Medium_Italic: number;
+export const Aleo_600SemiBold_Italic: number;
 export const Aleo_700Bold_Italic: number;
+export const Aleo_800ExtraBold_Italic: number;
+export const Aleo_900Black_Italic: number;

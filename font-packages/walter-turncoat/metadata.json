@@ -2,11 +2,12 @@
   "family": "Walter Turncoat",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v19",
-  "lastModified": "2022-09-22",
+  "version": "v23",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/walterturncoat/v19/snfys0Gs98ln43n0d-14ULoToe67YB2dQ5ZPqQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/walterturncoat/v23/snfys0Gs98ln43n0d-14ULoToe67YB2dQ5ZPqQ.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/walterturncoat/v23/snfys0Gs98ln43n0d-14ULoToe6LYReZ.ttf"
 }

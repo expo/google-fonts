@@ -1,0 +1,11 @@
+{
+  "family": "Anta",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "math", "symbols"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/anta/v1/gyBzhwQ3KsIyZFwxPFimIo0.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/anta/v1/gyBzhwQ3KsIyVF07OA.ttf"
+}

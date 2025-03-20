@@ -11,13 +11,16 @@ This package lets you use the [**Noto Sans SC**](https://fonts.google.com/specim
 
 ![Noto Sans SC](./font-family.png)
 
-This font family contains [6 styles](#-gallery).
+This font family contains [9 styles](#-gallery).
 
 - `NotoSansSC_100Thin`
+- `NotoSansSC_200ExtraLight`
 - `NotoSansSC_300Light`
 - `NotoSansSC_400Regular`
 - `NotoSansSC_500Medium`
+- `NotoSansSC_600SemiBold`
 - `NotoSansSC_700Bold`
+- `NotoSansSC_800ExtraBold`
 - `NotoSansSC_900Black`
 
 ## Usage
@@ -36,20 +39,26 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   NotoSansSC_100Thin,
+  NotoSansSC_200ExtraLight,
   NotoSansSC_300Light,
   NotoSansSC_400Regular,
   NotoSansSC_500Medium,
+  NotoSansSC_600SemiBold,
   NotoSansSC_700Bold,
+  NotoSansSC_800ExtraBold,
   NotoSansSC_900Black,
 } from '@expo-google-fonts/noto-sans-sc';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     NotoSansSC_100Thin,
+    NotoSansSC_200ExtraLight,
     NotoSansSC_300Light,
     NotoSansSC_400Regular,
     NotoSansSC_500Medium,
+    NotoSansSC_600SemiBold,
     NotoSansSC_700Bold,
+    NotoSansSC_800ExtraBold,
     NotoSansSC_900Black,
   });
 
@@ -69,6 +78,16 @@ export default () => {
             fontFamily: 'NotoSansSC_100Thin',
           }}>
           Noto Sans SC Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansSC_200ExtraLight',
+          }}>
+          Noto Sans SC Extra Light
         </Text>
 
         <Text
@@ -106,9 +125,29 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansSC_600SemiBold',
+          }}>
+          Noto Sans SC Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'NotoSansSC_700Bold',
           }}>
           Noto Sans SC Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansSC_800ExtraBold',
+          }}>
+          Noto Sans SC Extra Bold
         </Text>
 
         <Text
@@ -132,8 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansSC_100Thin](./NotoSansSC_100Thin.ttf.png)|![NotoSansSC_300Light](./NotoSansSC_300Light.ttf.png)|![NotoSansSC_400Regular](./NotoSansSC_400Regular.ttf.png)||
-|![NotoSansSC_500Medium](./NotoSansSC_500Medium.ttf.png)|![NotoSansSC_700Bold](./NotoSansSC_700Bold.ttf.png)|![NotoSansSC_900Black](./NotoSansSC_900Black.ttf.png)||
+|![NotoSansSC_100Thin](./NotoSansSC_100Thin.ttf.png)|![NotoSansSC_200ExtraLight](./NotoSansSC_200ExtraLight.ttf.png)|![NotoSansSC_300Light](./NotoSansSC_300Light.ttf.png)||
+|![NotoSansSC_400Regular](./NotoSansSC_400Regular.ttf.png)|![NotoSansSC_500Medium](./NotoSansSC_500Medium.ttf.png)|![NotoSansSC_600SemiBold](./NotoSansSC_600SemiBold.ttf.png)||
+|![NotoSansSC_700Bold](./NotoSansSC_700Bold.ttf.png)|![NotoSansSC_800ExtraBold](./NotoSansSC_800ExtraBold.ttf.png)|![NotoSansSC_900Black](./NotoSansSC_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

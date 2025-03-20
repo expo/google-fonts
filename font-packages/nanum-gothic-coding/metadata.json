@@ -2,12 +2,13 @@
   "family": "Nanum Gothic Coding",
   "variants": ["regular", "700"],
   "subsets": ["korean", "latin"],
-  "version": "v19",
-  "lastModified": "2022-09-27",
+  "version": "v26",
+  "lastModified": "2024-12-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/nanumgothiccoding/v19/8QIYdjzHisX_8vv59_xMxtPFW4IXROws8xgecsV88t5V9r4.ttf",
-    "regular": "http://fonts.gstatic.com/s/nanumgothiccoding/v19/8QIVdjzHisX_8vv59_xMxtPFW4IXROwsy6QxVs1X7tc.ttf"
+    "700": "https://fonts.gstatic.com/s/nanumgothiccoding/v26/8QIYdjzHisX_8vv59_xMxtPFW4IXROws8xgecsV88t5V9r4.ttf",
+    "regular": "https://fonts.gstatic.com/s/nanumgothiccoding/v26/8QIVdjzHisX_8vv59_xMxtPFW4IXROwsy6QxVs1X7tc.ttf"
   },
-  "category": "monospace",
-  "kind": "webfonts#webfont"
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/nanumgothiccoding/v26/8QIVdjzHisX_8vv59_xMxtPFW4IXROws-6U7Ug.ttf"
 }

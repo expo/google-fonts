@@ -1,0 +1,18 @@
+{
+  "family": "Akatab",
+  "variants": ["regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "tifinagh"],
+  "version": "v7",
+  "lastModified": "2024-09-04",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/akatab/v7/VuJzdNrK3Z7gqJE3rKXdPKNiaRpFvg.ttf",
+    "600": "https://fonts.gstatic.com/s/akatab/v7/VuJzdNrK3Z7gqJE3gKLdPKNiaRpFvg.ttf",
+    "700": "https://fonts.gstatic.com/s/akatab/v7/VuJzdNrK3Z7gqJE35KPdPKNiaRpFvg.ttf",
+    "800": "https://fonts.gstatic.com/s/akatab/v7/VuJzdNrK3Z7gqJE3-KDdPKNiaRpFvg.ttf",
+    "900": "https://fonts.gstatic.com/s/akatab/v7/VuJzdNrK3Z7gqJE33KHdPKNiaRpFvg.ttf",
+    "regular": "https://fonts.gstatic.com/s/akatab/v7/VuJwdNrK3Z7gqJEPWIz5NIh-YA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/akatab/v7/VuJwdNrK3Z7gqJE_WYb9.ttf"
+}

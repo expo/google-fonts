@@ -12,4 +12,5 @@ export const NotoSerifJP_400Regular: number;
 export const NotoSerifJP_500Medium: number;
 export const NotoSerifJP_600SemiBold: number;
 export const NotoSerifJP_700Bold: number;
+export const NotoSerifJP_800ExtraBold: number;
 export const NotoSerifJP_900Black: number;

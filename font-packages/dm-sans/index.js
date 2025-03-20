@@ -5,9 +5,21 @@
 export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
+export const DMSans_100Thin = require('./DMSans_100Thin.ttf');
+export const DMSans_200ExtraLight = require('./DMSans_200ExtraLight.ttf');
+export const DMSans_300Light = require('./DMSans_300Light.ttf');
 export const DMSans_400Regular = require('./DMSans_400Regular.ttf');
-export const DMSans_400Regular_Italic = require('./DMSans_400Regular_Italic.ttf');
 export const DMSans_500Medium = require('./DMSans_500Medium.ttf');
-export const DMSans_500Medium_Italic = require('./DMSans_500Medium_Italic.ttf');
+export const DMSans_600SemiBold = require('./DMSans_600SemiBold.ttf');
 export const DMSans_700Bold = require('./DMSans_700Bold.ttf');
+export const DMSans_800ExtraBold = require('./DMSans_800ExtraBold.ttf');
+export const DMSans_900Black = require('./DMSans_900Black.ttf');
+export const DMSans_100Thin_Italic = require('./DMSans_100Thin_Italic.ttf');
+export const DMSans_200ExtraLight_Italic = require('./DMSans_200ExtraLight_Italic.ttf');
+export const DMSans_300Light_Italic = require('./DMSans_300Light_Italic.ttf');
+export const DMSans_400Regular_Italic = require('./DMSans_400Regular_Italic.ttf');
+export const DMSans_500Medium_Italic = require('./DMSans_500Medium_Italic.ttf');
+export const DMSans_600SemiBold_Italic = require('./DMSans_600SemiBold_Italic.ttf');
 export const DMSans_700Bold_Italic = require('./DMSans_700Bold_Italic.ttf');
+export const DMSans_800ExtraBold_Italic = require('./DMSans_800ExtraBold_Italic.ttf');
+export const DMSans_900Black_Italic = require('./DMSans_900Black_Italic.ttf');

@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Manichaean",
   "variants": ["regular"],
-  "subsets": ["manichaean"],
-  "version": "v15",
-  "lastModified": "2022-05-10",
+  "subsets": ["latin", "latin-ext", "manichaean"],
+  "version": "v18",
+  "lastModified": "2023-10-25",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosansmanichaean/v15/taiVGntiC4--qtsfi4Jp9-_GkPZZCcrfekqCNTtFCtdX.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansmanichaean/v18/taiVGntiC4--qtsfi4Jp9-_GkPZZCcrfekqCNTtFCtdX.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansmanichaean/v18/taiVGntiC4--qtsfi4Jp9-_GkPZZCcrfenqDPz8.ttf"
 }

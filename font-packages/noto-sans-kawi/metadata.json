@@ -1,0 +1,16 @@
+{
+  "family": "Noto Sans Kawi",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["kawi", "latin", "latin-ext"],
+  "version": "v3",
+  "lastModified": "2023-10-25",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/notosanskawi/v3/92zBtBJLNqsg7tCciW0EPHNNh1ZgbtGWiTYDjvnK0ghmCpRyMjXVsQ.ttf",
+    "600": "https://fonts.gstatic.com/s/notosanskawi/v3/92zBtBJLNqsg7tCciW0EPHNNh1ZgbtGWiTYDjvnKPg9mCpRyMjXVsQ.ttf",
+    "700": "https://fonts.gstatic.com/s/notosanskawi/v3/92zBtBJLNqsg7tCciW0EPHNNh1ZgbtGWiTYDjvnKBw9mCpRyMjXVsQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosanskawi/v3/92zBtBJLNqsg7tCciW0EPHNNh1ZgbtGWiTYDjvnK4AhmCpRyMjXVsQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanskawi/v3/92zBtBJLNqsg7tCciW0EPHNNh1ZgbtGWiTYDjvnK4AhWC552.ttf"
+}

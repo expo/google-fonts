@@ -1,0 +1,13 @@
+{
+  "family": "Bagel Fat One",
+  "variants": ["regular"],
+  "subsets": ["korean", "latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2025-01-06",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/bagelfatone/v2/hYkPPucsQOr5dy02WmQr5Zkd0B5mvv0dSbM.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/bagelfatone/v2/hYkPPucsQOr5dy02WmQr5Zkd4B9sug.ttf"
+}

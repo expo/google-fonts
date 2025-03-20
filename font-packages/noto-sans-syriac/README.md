@@ -11,10 +11,16 @@ This package lets you use the [**Noto Sans Syriac**](https://fonts.google.com/sp
 
 ![Noto Sans Syriac](./font-family.png)
 
-This font family contains [3 styles](#-gallery).
+This font family contains [9 styles](#-gallery).
 
 - `NotoSansSyriac_100Thin`
+- `NotoSansSyriac_200ExtraLight`
+- `NotoSansSyriac_300Light`
 - `NotoSansSyriac_400Regular`
+- `NotoSansSyriac_500Medium`
+- `NotoSansSyriac_600SemiBold`
+- `NotoSansSyriac_700Bold`
+- `NotoSansSyriac_800ExtraBold`
 - `NotoSansSyriac_900Black`
 
 ## Usage
@@ -33,14 +39,26 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   NotoSansSyriac_100Thin,
+  NotoSansSyriac_200ExtraLight,
+  NotoSansSyriac_300Light,
   NotoSansSyriac_400Regular,
+  NotoSansSyriac_500Medium,
+  NotoSansSyriac_600SemiBold,
+  NotoSansSyriac_700Bold,
+  NotoSansSyriac_800ExtraBold,
   NotoSansSyriac_900Black,
 } from '@expo-google-fonts/noto-sans-syriac';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     NotoSansSyriac_100Thin,
+    NotoSansSyriac_200ExtraLight,
+    NotoSansSyriac_300Light,
     NotoSansSyriac_400Regular,
+    NotoSansSyriac_500Medium,
+    NotoSansSyriac_600SemiBold,
+    NotoSansSyriac_700Bold,
+    NotoSansSyriac_800ExtraBold,
     NotoSansSyriac_900Black,
   });
 
@@ -67,9 +85,69 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansSyriac_200ExtraLight',
+          }}>
+          Noto Sans Syriac Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansSyriac_300Light',
+          }}>
+          Noto Sans Syriac Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'NotoSansSyriac_400Regular',
           }}>
           Noto Sans Syriac Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansSyriac_500Medium',
+          }}>
+          Noto Sans Syriac Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansSyriac_600SemiBold',
+          }}>
+          Noto Sans Syriac Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansSyriac_700Bold',
+          }}>
+          Noto Sans Syriac Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSansSyriac_800ExtraBold',
+          }}>
+          Noto Sans Syriac Extra Bold
         </Text>
 
         <Text
@@ -93,7 +171,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansSyriac_100Thin](./NotoSansSyriac_100Thin.ttf.png)|![NotoSansSyriac_400Regular](./NotoSansSyriac_400Regular.ttf.png)|![NotoSansSyriac_900Black](./NotoSansSyriac_900Black.ttf.png)||
+|![NotoSansSyriac_100Thin](./NotoSansSyriac_100Thin.ttf.png)|![NotoSansSyriac_200ExtraLight](./NotoSansSyriac_200ExtraLight.ttf.png)|![NotoSansSyriac_300Light](./NotoSansSyriac_300Light.ttf.png)||
+|![NotoSansSyriac_400Regular](./NotoSansSyriac_400Regular.ttf.png)|![NotoSansSyriac_500Medium](./NotoSansSyriac_500Medium.ttf.png)|![NotoSansSyriac_600SemiBold](./NotoSansSyriac_600SemiBold.ttf.png)||
+|![NotoSansSyriac_700Bold](./NotoSansSyriac_700Bold.ttf.png)|![NotoSansSyriac_800ExtraBold](./NotoSansSyriac_800ExtraBold.ttf.png)|![NotoSansSyriac_900Black](./NotoSansSyriac_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

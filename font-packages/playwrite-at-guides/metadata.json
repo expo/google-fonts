@@ -1,0 +1,14 @@
+{
+  "family": "Playwrite AT Guides",
+  "variants": ["regular", "italic"],
+  "subsets": ["latin"],
+  "version": "v1",
+  "lastModified": "2024-12-10",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/playwriteatguides/v1/QdVKSS0gJR2xneUeQPfE-FVA1BlZQRpBRbgJdhapcUU.ttf",
+    "italic": "https://fonts.gstatic.com/s/playwriteatguides/v1/QdVISS0gJR2xneUeQPfE-FVA1BlZQRpBdboDcjSsYUVUjg.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwriteatguides/v1/QdVKSS0gJR2xneUeQPfE-FVA1BlZQRpBdbkDcg.ttf"
+}

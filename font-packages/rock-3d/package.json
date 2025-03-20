@@ -1,0 +1,11 @@
+{
+  "name": "@expo-google-fonts/rock-3d",
+  "version": "0.2.3",
+  "description": "Use the Rock 3D font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": "https://github.com/expo/google-fonts.git",
+  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/rock-3d#readme",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT",
+  "publishConfig": { "access": "public" }
+}

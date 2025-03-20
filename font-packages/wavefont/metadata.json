@@ -1,0 +1,21 @@
+{
+  "family": "Wavefont",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin"],
+  "version": "v12",
+  "lastModified": "2024-11-14",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/wavefont/v12/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3V0rDHXKtOXOg4.ttf",
+    "200": "https://fonts.gstatic.com/s/wavefont/v12/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI1V07DHXKtOXOg4.ttf",
+    "300": "https://fonts.gstatic.com/s/wavefont/v12/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI2L07DHXKtOXOg4.ttf",
+    "500": "https://fonts.gstatic.com/s/wavefont/v12/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3n07DHXKtOXOg4.ttf",
+    "600": "https://fonts.gstatic.com/s/wavefont/v12/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI0L1LDHXKtOXOg4.ttf",
+    "700": "https://fonts.gstatic.com/s/wavefont/v12/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI0y1LDHXKtOXOg4.ttf",
+    "800": "https://fonts.gstatic.com/s/wavefont/v12/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI1V1LDHXKtOXOg4.ttf",
+    "900": "https://fonts.gstatic.com/s/wavefont/v12/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI181LDHXKtOXOg4.ttf",
+    "regular": "https://fonts.gstatic.com/s/wavefont/v12/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3V07DHXKtOXOg4.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/wavefont/v12/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3V04DGVq8.ttf"
+}

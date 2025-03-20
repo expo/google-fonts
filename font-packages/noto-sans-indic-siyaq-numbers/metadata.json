@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Indic Siyaq Numbers",
   "variants": ["regular"],
-  "subsets": ["indic-siyaq-numbers"],
-  "version": "v15",
-  "lastModified": "2022-05-10",
+  "subsets": ["indic-siyaq-numbers", "latin", "latin-ext"],
+  "version": "v16",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosansindicsiyaqnumbers/v15/6xK5dTJFKcWIu4bpRBjRZRpsIYHabOeZ8UZLubTzpXNHKx2WPOpVd5Iu.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansindicsiyaqnumbers/v16/6xK5dTJFKcWIu4bpRBjRZRpsIYHabOeZ8UZLubTzpXNHKx2WPOpVd5Iu.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansindicsiyaqnumbers/v16/6xK5dTJFKcWIu4bpRBjRZRpsIYHabOeZ8UZLubTzpXNHKy2XNu4.ttf"
 }

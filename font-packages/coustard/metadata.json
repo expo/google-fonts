@@ -3,11 +3,12 @@
   "variants": ["regular", "900"],
   "subsets": ["latin"],
   "version": "v16",
-  "lastModified": "2022-09-22",
+  "lastModified": "2024-09-04",
   "files": {
-    "900": "http://fonts.gstatic.com/s/coustard/v16/3XFuErgg3YsZ5fqUU-2LkEHmb_jU3eRL.ttf",
-    "regular": "http://fonts.gstatic.com/s/coustard/v16/3XFpErgg3YsZ5fqUU9UPvWXuROTd.ttf"
+    "900": "https://fonts.gstatic.com/s/coustard/v16/3XFuErgg3YsZ5fqUU-2LkEHmb_jU3eRL.ttf",
+    "regular": "https://fonts.gstatic.com/s/coustard/v16/3XFpErgg3YsZ5fqUU9UPvWXuROTd.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/coustard/v16/3XFpErgg3YsZ5fqUU-UOt2E.ttf"
 }

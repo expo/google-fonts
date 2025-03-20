@@ -2,9 +2,10 @@
   "family": "Handlee",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/handlee/v14/-F6xfjBsISg9aMakDmr6oilJ3ik.ttf" },
+  "version": "v18",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/handlee/v18/-F6xfjBsISg9aMakDmr6oilJ3ik.ttf" },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/handlee/v18/-F6xfjBsISg9aMakPmvwpg.ttf"
 }

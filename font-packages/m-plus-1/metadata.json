@@ -2,19 +2,20 @@
   "family": "M PLUS 1",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["japanese", "latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2022-09-27",
+  "version": "v12",
+  "lastModified": "2024-11-07",
   "files": {
-    "100": "http://fonts.gstatic.com/s/mplus1/v6/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5VSe78nZcsGGycA.ttf",
-    "200": "http://fonts.gstatic.com/s/mplus1/v6/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW51Sa78nZcsGGycA.ttf",
-    "300": "http://fonts.gstatic.com/s/mplus1/v6/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5Cya78nZcsGGycA.ttf",
-    "500": "http://fonts.gstatic.com/s/mplus1/v6/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5Zya78nZcsGGycA.ttf",
-    "600": "http://fonts.gstatic.com/s/mplus1/v6/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5iyG78nZcsGGycA.ttf",
-    "700": "http://fonts.gstatic.com/s/mplus1/v6/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5siG78nZcsGGycA.ttf",
-    "800": "http://fonts.gstatic.com/s/mplus1/v6/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW51SG78nZcsGGycA.ttf",
-    "900": "http://fonts.gstatic.com/s/mplus1/v6/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5_CG78nZcsGGycA.ttf",
-    "regular": "http://fonts.gstatic.com/s/mplus1/v6/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5VSa78nZcsGGycA.ttf"
+    "100": "https://fonts.gstatic.com/s/mplus1/v12/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5VSe78nZcsGGycA.ttf",
+    "200": "https://fonts.gstatic.com/s/mplus1/v12/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW51Sa78nZcsGGycA.ttf",
+    "300": "https://fonts.gstatic.com/s/mplus1/v12/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5Cya78nZcsGGycA.ttf",
+    "500": "https://fonts.gstatic.com/s/mplus1/v12/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5Zya78nZcsGGycA.ttf",
+    "600": "https://fonts.gstatic.com/s/mplus1/v12/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5iyG78nZcsGGycA.ttf",
+    "700": "https://fonts.gstatic.com/s/mplus1/v12/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5siG78nZcsGGycA.ttf",
+    "800": "https://fonts.gstatic.com/s/mplus1/v12/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW51SG78nZcsGGycA.ttf",
+    "900": "https://fonts.gstatic.com/s/mplus1/v12/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5_CG78nZcsGGycA.ttf",
+    "regular": "https://fonts.gstatic.com/s/mplus1/v12/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5VSa78nZcsGGycA.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/mplus1/v12/R70EjygA28ymD4HgBUGzkN5Eyoj-WpW5VSaL83xY.ttf"
 }

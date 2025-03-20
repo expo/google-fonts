@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Cypriot",
   "variants": ["regular"],
-  "subsets": ["cypriot"],
-  "version": "v15",
-  "lastModified": "2022-05-10",
+  "subsets": ["cypriot", "latin", "latin-ext"],
+  "version": "v19",
+  "lastModified": "2023-11-09",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosanscypriot/v15/8AtzGta9PYqQDjyp79a6f8Cj-3a3cxIsK5MPpahF.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanscypriot/v19/8AtzGta9PYqQDjyp79a6f8Cj-3a3cxIsK5MPpahF.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanscypriot/v19/8AtzGta9PYqQDjyp79a6f8Cj-3a3cyItIZc.ttf"
 }

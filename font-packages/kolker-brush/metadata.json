@@ -2,11 +2,12 @@
   "family": "Kolker Brush",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v3",
-  "lastModified": "2022-09-22",
+  "version": "v6",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/kolkerbrush/v3/iJWDBXWRZjfKWdvmzwvvog3-7KJ6x8qNUQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/kolkerbrush/v6/iJWDBXWRZjfKWdvmzwvvog3-7KJ6x8qNUQ.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/kolkerbrush/v6/iJWDBXWRZjfKWdvmzwvvog3O7ah-.ttf"
 }

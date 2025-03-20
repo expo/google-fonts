@@ -3,10 +3,11 @@
   "variants": ["regular"],
   "subsets": ["latin"],
   "version": "v17",
-  "lastModified": "2022-09-22",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/tradewinds/v17/AYCPpXPpYNIIT7h8-QenM3Jq7PKP5Z_G.ttf"
+    "regular": "https://fonts.gstatic.com/s/tradewinds/v17/AYCPpXPpYNIIT7h8-QenM3Jq7PKP5Z_G.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/tradewinds/v17/AYCPpXPpYNIIT7h8-QenM0Jr5vY.ttf"
 }

@@ -1,0 +1,16 @@
+{
+  "family": "Kode Mono",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2024-09-04",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/kodemono/v2/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq6uy9DqTaOW2A3k.ttf",
+    "600": "https://fonts.gstatic.com/s/kodemono/v2/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq0e19DqTaOW2A3k.ttf",
+    "700": "https://fonts.gstatic.com/s/kodemono/v2/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq3619DqTaOW2A3k.ttf",
+    "regular": "https://fonts.gstatic.com/s/kodemono/v2/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq5my9DqTaOW2A3k.ttf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/kodemono/v2/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq5myxDuZbA.ttf"
+}

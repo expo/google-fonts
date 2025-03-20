@@ -11,9 +11,11 @@ This package lets you use the [**Kameron**](https://fonts.google.com/specimen/Ka
 
 ![Kameron](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [4 styles](#-gallery).
 
 - `Kameron_400Regular`
+- `Kameron_500Medium`
+- `Kameron_600SemiBold`
 - `Kameron_700Bold`
 
 ## Usage
@@ -29,11 +31,19 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, Kameron_400Regular, Kameron_700Bold } from '@expo-google-fonts/kameron';
+import {
+  useFonts,
+  Kameron_400Regular,
+  Kameron_500Medium,
+  Kameron_600SemiBold,
+  Kameron_700Bold,
+} from '@expo-google-fonts/kameron';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Kameron_400Regular,
+    Kameron_500Medium,
+    Kameron_600SemiBold,
     Kameron_700Bold,
   });
 
@@ -60,6 +70,26 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kameron_500Medium',
+          }}>
+          Kameron Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Kameron_600SemiBold',
+          }}>
+          Kameron Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Kameron_700Bold',
           }}>
           Kameron Bold
@@ -76,7 +106,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Kameron_400Regular](./Kameron_400Regular.ttf.png)|![Kameron_700Bold](./Kameron_700Bold.ttf.png)|||
+|![Kameron_400Regular](./Kameron_400Regular.ttf.png)|![Kameron_500Medium](./Kameron_500Medium.ttf.png)|![Kameron_600SemiBold](./Kameron_600SemiBold.ttf.png)||
+|![Kameron_700Bold](./Kameron_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

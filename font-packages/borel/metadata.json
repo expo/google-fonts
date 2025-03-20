@@ -1,0 +1,11 @@
+{
+  "family": "Borel",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "math", "symbols", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/borel/v3/6qLOKZsftAPisgshYyMnOjwE.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/borel/v3/6qLOKZsftAPisjsgaSc.ttf"
+}

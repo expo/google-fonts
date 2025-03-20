@@ -1,12 +1,13 @@
 {
   "family": "Gabriela",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "cyrillic-ext", "latin"],
-  "version": "v14",
-  "lastModified": "2022-09-22",
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
+  "version": "v21",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/gabriela/v14/qkBWXvsO6sreR8E-b_m-zrpHmRzC.ttf"
+    "regular": "https://fonts.gstatic.com/s/gabriela/v21/qkBWXvsO6sreR8E-b_m-zrpHmRzC.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/gabriela/v21/qkBWXvsO6sreR8E-b8m_xL4.ttf"
 }

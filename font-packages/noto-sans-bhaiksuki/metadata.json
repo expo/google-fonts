@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Bhaiksuki",
   "variants": ["regular"],
-  "subsets": ["bhaiksuki"],
-  "version": "v15",
-  "lastModified": "2022-05-10",
+  "subsets": ["bhaiksuki", "latin", "latin-ext"],
+  "version": "v17",
+  "lastModified": "2023-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosansbhaiksuki/v15/UcC63EosKniBH4iELXATsSBWdvUHXxhj8rLUdU4wh9U.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansbhaiksuki/v17/UcC63EosKniBH4iELXATsSBWdvUHXxhj8rLUdU4wh9U.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansbhaiksuki/v17/UcC63EosKniBH4iELXATsSBWdvUHXxhjwrPecQ.ttf"
 }

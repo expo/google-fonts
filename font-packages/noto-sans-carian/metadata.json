@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Carian",
   "variants": ["regular"],
-  "subsets": ["carian"],
-  "version": "v15",
-  "lastModified": "2022-05-10",
+  "subsets": ["carian", "latin", "latin-ext"],
+  "version": "v16",
+  "lastModified": "2023-07-24",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosanscarian/v15/LDIpaoiONgYwA9Yc6f0gUILeMIOgs7ob9yGLmfI.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanscarian/v16/LDIpaoiONgYwA9Yc6f0gUILeMIOgs7ob9yGLmfI.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanscarian/v16/LDIpaoiONgYwA9Yc6f0gUILeMIOgg7sR8w.ttf"
 }

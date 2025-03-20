@@ -2,17 +2,18 @@
   "family": "M PLUS 1 Code",
   "variants": ["100", "200", "300", "regular", "500", "600", "700"],
   "subsets": ["japanese", "latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2022-09-27",
+  "version": "v14",
+  "lastModified": "2024-11-07",
   "files": {
-    "100": "http://fonts.gstatic.com/s/mplus1code/v7/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7iN0XHpapwmdZhY.ttf",
-    "200": "http://fonts.gstatic.com/s/mplus1code/v7/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7gN0HHpapwmdZhY.ttf",
-    "300": "http://fonts.gstatic.com/s/mplus1code/v7/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7jT0HHpapwmdZhY.ttf",
-    "500": "http://fonts.gstatic.com/s/mplus1code/v7/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7i_0HHpapwmdZhY.ttf",
-    "600": "http://fonts.gstatic.com/s/mplus1code/v7/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7hT13HpapwmdZhY.ttf",
-    "700": "http://fonts.gstatic.com/s/mplus1code/v7/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7hq13HpapwmdZhY.ttf",
-    "regular": "http://fonts.gstatic.com/s/mplus1code/v7/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7iN0HHpapwmdZhY.ttf"
+    "100": "https://fonts.gstatic.com/s/mplus1code/v14/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7iN0XHpapwmdZhY.ttf",
+    "200": "https://fonts.gstatic.com/s/mplus1code/v14/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7gN0HHpapwmdZhY.ttf",
+    "300": "https://fonts.gstatic.com/s/mplus1code/v14/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7jT0HHpapwmdZhY.ttf",
+    "500": "https://fonts.gstatic.com/s/mplus1code/v14/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7i_0HHpapwmdZhY.ttf",
+    "600": "https://fonts.gstatic.com/s/mplus1code/v14/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7hT13HpapwmdZhY.ttf",
+    "700": "https://fonts.gstatic.com/s/mplus1code/v14/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7hq13HpapwmdZhY.ttf",
+    "regular": "https://fonts.gstatic.com/s/mplus1code/v14/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7iN0HHpapwmdZhY.ttf"
   },
-  "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "category": "monospace",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/mplus1code/v14/ypvMbXOOx2xFpzmYJS3N2_J2hBN6RZ5oIp8m_7iN0EHoYJg.ttf"
 }

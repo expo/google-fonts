@@ -2,11 +2,12 @@
   "family": "Rubik Bubbles",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext"],
-  "version": "v2",
-  "lastModified": "2022-09-22",
+  "version": "v3",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/rubikbubbles/v2/JIA1UVdwbHFJtwA7Us1BPFbRNTENfDxyRXI.ttf"
+    "regular": "https://fonts.gstatic.com/s/rubikbubbles/v3/JIA1UVdwbHFJtwA7Us1BPFbRNTENfDxyRXI.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/rubikbubbles/v3/JIA1UVdwbHFJtwA7Us1BPFbRBTAHeA.ttf"
 }

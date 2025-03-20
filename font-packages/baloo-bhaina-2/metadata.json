@@ -2,15 +2,16 @@
   "family": "Baloo Bhaina 2",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["latin", "latin-ext", "oriya", "vietnamese"],
-  "version": "v22",
-  "lastModified": "2022-11-09",
+  "version": "v27",
+  "lastModified": "2024-09-04",
   "files": {
-    "500": "http://fonts.gstatic.com/s/baloobhaina2/v22/qWc-B6yyq4P9Adr3RtoX1q6ySgbwusXwJjkOS-XEgMPvRfRLYWmZSA.ttf",
-    "600": "http://fonts.gstatic.com/s/baloobhaina2/v22/qWc-B6yyq4P9Adr3RtoX1q6ySgbwusXwJjkOS-XEbMTvRfRLYWmZSA.ttf",
-    "700": "http://fonts.gstatic.com/s/baloobhaina2/v22/qWc-B6yyq4P9Adr3RtoX1q6ySgbwusXwJjkOS-XEVcTvRfRLYWmZSA.ttf",
-    "800": "http://fonts.gstatic.com/s/baloobhaina2/v22/qWc-B6yyq4P9Adr3RtoX1q6ySgbwusXwJjkOS-XEMsTvRfRLYWmZSA.ttf",
-    "regular": "http://fonts.gstatic.com/s/baloobhaina2/v22/qWc-B6yyq4P9Adr3RtoX1q6ySgbwusXwJjkOS-XEssPvRfRLYWmZSA.ttf"
+    "500": "https://fonts.gstatic.com/s/baloobhaina2/v27/qWc-B6yyq4P9Adr3RtoX1q6ySgbwusXwJjkOS-XEgMPvRfRLYWmZSA.ttf",
+    "600": "https://fonts.gstatic.com/s/baloobhaina2/v27/qWc-B6yyq4P9Adr3RtoX1q6ySgbwusXwJjkOS-XEbMTvRfRLYWmZSA.ttf",
+    "700": "https://fonts.gstatic.com/s/baloobhaina2/v27/qWc-B6yyq4P9Adr3RtoX1q6ySgbwusXwJjkOS-XEVcTvRfRLYWmZSA.ttf",
+    "800": "https://fonts.gstatic.com/s/baloobhaina2/v27/qWc-B6yyq4P9Adr3RtoX1q6ySgbwusXwJjkOS-XEMsTvRfRLYWmZSA.ttf",
+    "regular": "https://fonts.gstatic.com/s/baloobhaina2/v27/qWc-B6yyq4P9Adr3RtoX1q6ySgbwusXwJjkOS-XEssPvRfRLYWmZSA.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/baloobhaina2/v27/qWc-B6yyq4P9Adr3RtoX1q6ySgbwusXwJjkOS-XEssPfRP5P.ttf"
 }

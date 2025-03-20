@@ -1,0 +1,16 @@
+{
+  "family": "Playwrite IE",
+  "variants": ["100", "200", "300", "regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2025-02-12",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playwriteie/v10/fC1zPYtWYWnH0hvndYd6GCGWXCAxfsUebXFMyzipBpIu30AZbUY.ttf",
+    "200": "https://fonts.gstatic.com/s/playwriteie/v10/fC1zPYtWYWnH0hvndYd6GCGWXCAxfsUebXFMy7ioBpIu30AZbUY.ttf",
+    "300": "https://fonts.gstatic.com/s/playwriteie/v10/fC1zPYtWYWnH0hvndYd6GCGWXCAxfsUebXFMy2aoBpIu30AZbUY.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwriteie/v10/fC1zPYtWYWnH0hvndYd6GCGWXCAxfsUebXFMyzioBpIu30AZbUY.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwriteie/v10/fC1zPYtWYWnH0hvndYd6GCGWXCAxfsUebXFMyzioNpMk2w.ttf"
+}

@@ -1,0 +1,19 @@
+{
+  "family": "Anuphan",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
+  "version": "v4",
+  "lastModified": "2024-09-04",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/anuphan/v4/2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCkY9A4kGmW927Gu.ttf",
+    "200": "https://fonts.gstatic.com/s/anuphan/v4/2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCmY9Q4kGmW927Gu.ttf",
+    "300": "https://fonts.gstatic.com/s/anuphan/v4/2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZClG9Q4kGmW927Gu.ttf",
+    "500": "https://fonts.gstatic.com/s/anuphan/v4/2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCkq9Q4kGmW927Gu.ttf",
+    "600": "https://fonts.gstatic.com/s/anuphan/v4/2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCnG8g4kGmW927Gu.ttf",
+    "700": "https://fonts.gstatic.com/s/anuphan/v4/2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCn_8g4kGmW927Gu.ttf",
+    "regular": "https://fonts.gstatic.com/s/anuphan/v4/2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCkY9Q4kGmW927Gu.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/anuphan/v4/2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCkY9T4lEGE.ttf"
+}

@@ -1,0 +1,21 @@
+{
+  "family": "Geologica",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/geologica/v1/oY1o8evIr7j9P3TN9YwNAdyjzUyDKkKdAGOJh1UlCDUIhAIdhCZOn1fLsig7jfvCCPHZckU8H3G11_z-_OZqDx_qQ-MYAXWnqFs.ttf",
+    "200": "https://fonts.gstatic.com/s/geologica/v1/oY1o8evIr7j9P3TN9YwNAdyjzUyDKkKdAGOJh1UlCDUIhAIdhCZOn1fLsig7jfvCCPHZckU8H3G11_z-_OZqD5_rQ-MYAXWnqFs.ttf",
+    "300": "https://fonts.gstatic.com/s/geologica/v1/oY1o8evIr7j9P3TN9YwNAdyjzUyDKkKdAGOJh1UlCDUIhAIdhCZOn1fLsig7jfvCCPHZckU8H3G11_z-_OZqD0HrQ-MYAXWnqFs.ttf",
+    "500": "https://fonts.gstatic.com/s/geologica/v1/oY1o8evIr7j9P3TN9YwNAdyjzUyDKkKdAGOJh1UlCDUIhAIdhCZOn1fLsig7jfvCCPHZckU8H3G11_z-_OZqDy3rQ-MYAXWnqFs.ttf",
+    "600": "https://fonts.gstatic.com/s/geologica/v1/oY1o8evIr7j9P3TN9YwNAdyjzUyDKkKdAGOJh1UlCDUIhAIdhCZOn1fLsig7jfvCCPHZckU8H3G11_z-_OZqD8HsQ-MYAXWnqFs.ttf",
+    "700": "https://fonts.gstatic.com/s/geologica/v1/oY1o8evIr7j9P3TN9YwNAdyjzUyDKkKdAGOJh1UlCDUIhAIdhCZOn1fLsig7jfvCCPHZckU8H3G11_z-_OZqD_jsQ-MYAXWnqFs.ttf",
+    "800": "https://fonts.gstatic.com/s/geologica/v1/oY1o8evIr7j9P3TN9YwNAdyjzUyDKkKdAGOJh1UlCDUIhAIdhCZOn1fLsig7jfvCCPHZckU8H3G11_z-_OZqD5_sQ-MYAXWnqFs.ttf",
+    "900": "https://fonts.gstatic.com/s/geologica/v1/oY1o8evIr7j9P3TN9YwNAdyjzUyDKkKdAGOJh1UlCDUIhAIdhCZOn1fLsig7jfvCCPHZckU8H3G11_z-_OZqD7bsQ-MYAXWnqFs.ttf",
+    "regular": "https://fonts.gstatic.com/s/geologica/v1/oY1o8evIr7j9P3TN9YwNAdyjzUyDKkKdAGOJh1UlCDUIhAIdhCZOn1fLsig7jfvCCPHZckU8H3G11_z-_OZqDx_rQ-MYAXWnqFs.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/geologica/v1/oY1o8evIr7j9P3TN9YwNAdyjzUyDKkKdAGOJh1UlCDUIhAIdhCZOn1fLsig7jfvCCPHZckU8H3G11_z-_OZqDx_rc-ISBQ.ttf"
+}

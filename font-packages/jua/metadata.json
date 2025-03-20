@@ -2,9 +2,10 @@
   "family": "Jua",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v13",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/jua/v13/co3KmW9ljjAjc-DZCsKgsg.ttf" },
+  "version": "v16",
+  "lastModified": "2024-08-12",
+  "files": { "regular": "https://fonts.gstatic.com/s/jua/v16/co3KmW9ljjAjc-DZCsKgsg.ttf" },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/jua/v16/co3KmW9ljjATcurd.ttf"
 }

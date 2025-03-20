@@ -7,3 +7,7 @@ export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
 export const Anaheim_400Regular: number;
+export const Anaheim_500Medium: number;
+export const Anaheim_600SemiBold: number;
+export const Anaheim_700Bold: number;
+export const Anaheim_800ExtraBold: number;

@@ -1,0 +1,16 @@
+{
+  "family": "Ruwudu",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["arabic", "latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2024-09-04",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/ruwudu/v4/sykx-y1tj6UzRKf1YSm3_vjBrlSILg.ttf",
+    "600": "https://fonts.gstatic.com/s/ruwudu/v4/sykx-y1tj6UzRKf1TS63_vjBrlSILg.ttf",
+    "700": "https://fonts.gstatic.com/s/ruwudu/v4/sykx-y1tj6UzRKf1KS-3_vjBrlSILg.ttf",
+    "regular": "https://fonts.gstatic.com/s/ruwudu/v4/syky-y1tj6UzRKfNlQCT9tPdpw.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/ruwudu/v4/syky-y1tj6UzRKf9lAqX.ttf"
+}

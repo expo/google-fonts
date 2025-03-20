@@ -3,10 +3,11 @@
   "variants": ["regular"],
   "subsets": ["latin"],
   "version": "v17",
-  "lastModified": "2022-09-22",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/balthazar/v17/d6lKkaajS8Gm4CVQjFEvyRTo39l8hw.ttf"
+    "regular": "https://fonts.gstatic.com/s/balthazar/v17/d6lKkaajS8Gm4CVQjFEvyRTo39l8hw.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/balthazar/v17/d6lKkaajS8Gm4CVQjFEfyB7s.ttf"
 }

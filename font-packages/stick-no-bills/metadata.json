@@ -2,17 +2,18 @@
   "family": "Stick No Bills",
   "variants": ["200", "300", "regular", "500", "600", "700", "800"],
   "subsets": ["latin", "latin-ext", "sinhala"],
-  "version": "v8",
-  "lastModified": "2022-09-22",
+  "version": "v15",
+  "lastModified": "2024-09-04",
   "files": {
-    "200": "http://fonts.gstatic.com/s/sticknobills/v8/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVP8Q7KriwKhcTKA.ttf",
-    "300": "http://fonts.gstatic.com/s/sticknobills/v8/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcV4cQ7KriwKhcTKA.ttf",
-    "500": "http://fonts.gstatic.com/s/sticknobills/v8/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVjcQ7KriwKhcTKA.ttf",
-    "600": "http://fonts.gstatic.com/s/sticknobills/v8/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVYcM7KriwKhcTKA.ttf",
-    "700": "http://fonts.gstatic.com/s/sticknobills/v8/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVWMM7KriwKhcTKA.ttf",
-    "800": "http://fonts.gstatic.com/s/sticknobills/v8/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVP8M7KriwKhcTKA.ttf",
-    "regular": "http://fonts.gstatic.com/s/sticknobills/v8/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVv8Q7KriwKhcTKA.ttf"
+    "200": "https://fonts.gstatic.com/s/sticknobills/v15/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVP8Q7KriwKhcTKA.ttf",
+    "300": "https://fonts.gstatic.com/s/sticknobills/v15/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcV4cQ7KriwKhcTKA.ttf",
+    "500": "https://fonts.gstatic.com/s/sticknobills/v15/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVjcQ7KriwKhcTKA.ttf",
+    "600": "https://fonts.gstatic.com/s/sticknobills/v15/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVYcM7KriwKhcTKA.ttf",
+    "700": "https://fonts.gstatic.com/s/sticknobills/v15/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVWMM7KriwKhcTKA.ttf",
+    "800": "https://fonts.gstatic.com/s/sticknobills/v15/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVP8M7KriwKhcTKA.ttf",
+    "regular": "https://fonts.gstatic.com/s/sticknobills/v15/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVv8Q7KriwKhcTKA.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/sticknobills/v15/bWts7ffXZwHuAa9Uld-oEK4QKlxj9f9t_7uEmjcVv8QLK7K0.ttf"
 }

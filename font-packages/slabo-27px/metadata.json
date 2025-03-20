@@ -2,11 +2,12 @@
   "family": "Slabo 27px",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2022-09-22",
+  "version": "v14",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/slabo27px/v12/mFT0WbgBwKPR_Z4hGN2qsxgJ1EJ7i90.ttf"
+    "regular": "https://fonts.gstatic.com/s/slabo27px/v14/mFT0WbgBwKPR_Z4hGN2qsxgJ1EJ7i90.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/slabo27px/v14/mFT0WbgBwKPR_Z4hGN2qgxkD0A.ttf"
 }

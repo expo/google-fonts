@@ -2,9 +2,10 @@
   "family": "Stick",
   "variants": ["regular"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2022-09-27",
-  "files": { "regular": "http://fonts.gstatic.com/s/stick/v15/Qw3TZQpMCyTtJSvfvPVDMPoF.ttf" },
+  "version": "v18",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/stick/v18/Qw3TZQpMCyTtJSvfvPVDMPoF.ttf" },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/stick/v18/Qw3TZQpMCyTtJRvetvE.ttf"
 }

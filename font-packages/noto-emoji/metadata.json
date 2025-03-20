@@ -2,15 +2,16 @@
   "family": "Noto Emoji",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["emoji"],
-  "version": "v34",
-  "lastModified": "2022-09-26",
+  "version": "v53",
+  "lastModified": "2024-11-26",
   "files": {
-    "300": "http://fonts.gstatic.com/s/notoemoji/v34/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob_10jwvS-FGJCMY.ttf",
-    "500": "http://fonts.gstatic.com/s/notoemoji/v34/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-Z0jwvS-FGJCMY.ttf",
-    "600": "http://fonts.gstatic.com/s/notoemoji/v34/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob911TwvS-FGJCMY.ttf",
-    "700": "http://fonts.gstatic.com/s/notoemoji/v34/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob9M1TwvS-FGJCMY.ttf",
-    "regular": "http://fonts.gstatic.com/s/notoemoji/v34/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwvS-FGJCMY.ttf"
+    "300": "https://fonts.gstatic.com/s/notoemoji/v53/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob_10jwvS-FGJCMY.ttf",
+    "500": "https://fonts.gstatic.com/s/notoemoji/v53/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-Z0jwvS-FGJCMY.ttf",
+    "600": "https://fonts.gstatic.com/s/notoemoji/v53/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob911TwvS-FGJCMY.ttf",
+    "700": "https://fonts.gstatic.com/s/notoemoji/v53/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob9M1TwvS-FGJCMY.ttf",
+    "regular": "https://fonts.gstatic.com/s/notoemoji/v53/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwvS-FGJCMY.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notoemoji/v53/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0gwuQeU.ttf"
 }

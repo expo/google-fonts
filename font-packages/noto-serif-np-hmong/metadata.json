@@ -5,11 +5,12 @@
   "version": "v1",
   "lastModified": "2022-12-08",
   "files": {
-    "500": "http://fonts.gstatic.com/s/notoserifnphmong/v1/pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbj9hFLp3u0rVO-d.ttf",
-    "600": "http://fonts.gstatic.com/s/notoserifnphmong/v1/pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbgRg1Lp3u0rVO-d.ttf",
-    "700": "http://fonts.gstatic.com/s/notoserifnphmong/v1/pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbgog1Lp3u0rVO-d.ttf",
-    "regular": "http://fonts.gstatic.com/s/notoserifnphmong/v1/pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbjPhFLp3u0rVO-d.ttf"
+    "500": "https://fonts.gstatic.com/s/notoserifnphmong/v1/pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbj9hFLp3u0rVO-d.ttf",
+    "600": "https://fonts.gstatic.com/s/notoserifnphmong/v1/pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbgRg1Lp3u0rVO-d.ttf",
+    "700": "https://fonts.gstatic.com/s/notoserifnphmong/v1/pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbgog1Lp3u0rVO-d.ttf",
+    "regular": "https://fonts.gstatic.com/s/notoserifnphmong/v1/pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbjPhFLp3u0rVO-d.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notoserifnphmong/v1/pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbjPhGLo1Ok.ttf"
 }

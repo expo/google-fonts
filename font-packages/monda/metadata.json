@@ -1,13 +1,16 @@
 {
   "family": "Monda",
-  "variants": ["regular", "700"],
+  "variants": ["regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v16",
-  "lastModified": "2022-09-22",
+  "version": "v17",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/monda/v16/TK3gWkYFABsmjsLaGz8Dl-tPKo2t.ttf",
-    "regular": "http://fonts.gstatic.com/s/monda/v16/TK3tWkYFABsmjvpmNBsLvPdG.ttf"
+    "500": "https://fonts.gstatic.com/s/monda/v17/TK3-WkYFABsmjuBtFuvTIFRAPpWsLXoMoWtGaA-Ijw.ttf",
+    "600": "https://fonts.gstatic.com/s/monda/v17/TK3-WkYFABsmjuBtFuvTIFRAPpWswX0MoWtGaA-Ijw.ttf",
+    "700": "https://fonts.gstatic.com/s/monda/v17/TK3-WkYFABsmjuBtFuvTIFRAPpWs-H0MoWtGaA-Ijw.ttf",
+    "regular": "https://fonts.gstatic.com/s/monda/v17/TK3-WkYFABsmjuBtFuvTIFRAPpWsH3oMoWtGaA-Ijw.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/monda/v17/TK3-WkYFABsmjuBtFuvTIFRAPpWsH3o8oGFC.ttf"
 }

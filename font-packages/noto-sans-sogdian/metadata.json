@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Sogdian",
   "variants": ["regular"],
-  "subsets": ["sogdian"],
-  "version": "v15",
-  "lastModified": "2022-05-10",
+  "subsets": ["latin", "latin-ext", "sogdian"],
+  "version": "v16",
+  "lastModified": "2023-06-22",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosanssogdian/v15/taiQGn5iC4--qtsfi4Jp6eHPnfxQBo--Pm6KHidM.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanssogdian/v16/taiQGn5iC4--qtsfi4Jp6eHPnfxQBo--Pm6KHidM.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanssogdian/v16/taiQGn5iC4--qtsfi4Jp6eHPnfxQBr-_NGo.ttf"
 }

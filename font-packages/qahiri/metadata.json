@@ -3,8 +3,9 @@
   "variants": ["regular"],
   "subsets": ["arabic", "latin"],
   "version": "v9",
-  "lastModified": "2022-12-08",
-  "files": { "regular": "http://fonts.gstatic.com/s/qahiri/v9/tsssAp1RZy0C_hGuU3Chrnmupw.ttf" },
+  "lastModified": "2024-08-12",
+  "files": { "regular": "https://fonts.gstatic.com/s/qahiri/v9/tsssAp1RZy0C_hGuU3Chrnmupw.ttf" },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/qahiri/v9/tsssAp1RZy0C_hGeUnql.ttf"
 }

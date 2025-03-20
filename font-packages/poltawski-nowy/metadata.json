@@ -1,0 +1,20 @@
+{
+  "family": "Poltawski Nowy",
+  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2024-09-04",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/poltawskinowy/v2/flUsRq6ww480U1xsUpFXD-iDBNlSAOLkKCLnWq8KmiWnDS6V5CzCoQ.ttf",
+    "600": "https://fonts.gstatic.com/s/poltawskinowy/v2/flUsRq6ww480U1xsUpFXD-iDBNlSAOLkKCLnWq8KdiKnDS6V5CzCoQ.ttf",
+    "700": "https://fonts.gstatic.com/s/poltawskinowy/v2/flUsRq6ww480U1xsUpFXD-iDBNlSAOLkKCLnWq8KTyKnDS6V5CzCoQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/poltawskinowy/v2/flUsRq6ww480U1xsUpFXD-iDBNlSAOLkKCLnWq8KqCWnDS6V5CzCoQ.ttf",
+    "italic": "https://fonts.gstatic.com/s/poltawskinowy/v2/flUuRq6ww480U1xsUpFXD-iDBPNbMh08QUl99KgfYGZPTiSRxinSoROp.ttf",
+    "500italic": "https://fonts.gstatic.com/s/poltawskinowy/v2/flUuRq6ww480U1xsUpFXD-iDBPNbMh08QUl99KgfYGZ9TiSRxinSoROp.ttf",
+    "600italic": "https://fonts.gstatic.com/s/poltawskinowy/v2/flUuRq6ww480U1xsUpFXD-iDBPNbMh08QUl99KgfYGaRSSSRxinSoROp.ttf",
+    "700italic": "https://fonts.gstatic.com/s/poltawskinowy/v2/flUuRq6ww480U1xsUpFXD-iDBPNbMh08QUl99KgfYGaoSSSRxinSoROp.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/poltawskinowy/v2/flUsRq6ww480U1xsUpFXD-iDBNlSAOLkKCLnWq8KqCWXDCSR.ttf"
+}

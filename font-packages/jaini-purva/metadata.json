@@ -1,0 +1,13 @@
+{
+  "family": "Jaini Purva",
+  "variants": ["regular"],
+  "subsets": ["devanagari", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/jainipurva/v1/CHynV-vdHVXwbWcUswbUGHoOHH4sj3lR.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/jainipurva/v1/CHynV-vdHVXwbWcUswbUGEoPFno.ttf"
+}

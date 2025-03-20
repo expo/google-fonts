@@ -1,0 +1,19 @@
+{
+  "family": "Fustat",
+  "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["arabic", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": {
+    "200": "https://fonts.gstatic.com/s/fustat/v1/NaPEcZ_aHO9Iy5thRNqze7YGY9HGCMQQRryztWo_3fk.ttf",
+    "300": "https://fonts.gstatic.com/s/fustat/v1/NaPEcZ_aHO9Iy5thRNqze7YGY9HGCBoQRryztWo_3fk.ttf",
+    "500": "https://fonts.gstatic.com/s/fustat/v1/NaPEcZ_aHO9Iy5thRNqze7YGY9HGCHYQRryztWo_3fk.ttf",
+    "600": "https://fonts.gstatic.com/s/fustat/v1/NaPEcZ_aHO9Iy5thRNqze7YGY9HGCJoXRryztWo_3fk.ttf",
+    "700": "https://fonts.gstatic.com/s/fustat/v1/NaPEcZ_aHO9Iy5thRNqze7YGY9HGCKMXRryztWo_3fk.ttf",
+    "800": "https://fonts.gstatic.com/s/fustat/v1/NaPEcZ_aHO9Iy5thRNqze7YGY9HGCMQXRryztWo_3fk.ttf",
+    "regular": "https://fonts.gstatic.com/s/fustat/v1/NaPEcZ_aHO9Iy5thRNqze7YGY9HGCEQQRryztWo_3fk.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/fustat/v1/NaPEcZ_aHO9Iy5thRNqze7YGY9HGCEQQdr25sQ.ttf"
+}

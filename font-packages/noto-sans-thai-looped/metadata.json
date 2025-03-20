@@ -1,20 +1,21 @@
 {
   "family": "Noto Sans Thai Looped",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["thai"],
-  "version": "v12",
-  "lastModified": "2022-09-22",
+  "subsets": ["latin", "latin-ext", "thai"],
+  "version": "v14",
+  "lastModified": "2023-04-27",
   "files": {
-    "100": "http://fonts.gstatic.com/s/notosansthailooped/v12/B50fF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3YX6AYeCT_Wfd1.ttf",
-    "200": "http://fonts.gstatic.com/s/notosansthailooped/v12/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Y84E4UgrzUO5sKA.ttf",
-    "300": "http://fonts.gstatic.com/s/notosansthailooped/v12/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Yl4I4UgrzUO5sKA.ttf",
-    "500": "http://fonts.gstatic.com/s/notosansthailooped/v12/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Yz4M4UgrzUO5sKA.ttf",
-    "600": "http://fonts.gstatic.com/s/notosansthailooped/v12/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Y44Q4UgrzUO5sKA.ttf",
-    "700": "http://fonts.gstatic.com/s/notosansthailooped/v12/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Yh4U4UgrzUO5sKA.ttf",
-    "800": "http://fonts.gstatic.com/s/notosansthailooped/v12/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Ym4Y4UgrzUO5sKA.ttf",
-    "900": "http://fonts.gstatic.com/s/notosansthailooped/v12/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Yv4c4UgrzUO5sKA.ttf",
-    "regular": "http://fonts.gstatic.com/s/notosansthailooped/v12/B50RF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3gO6ocWiHvWQ.ttf"
+    "100": "https://fonts.gstatic.com/s/notosansthailooped/v14/B50fF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3YX6AYeCT_Wfd1.ttf",
+    "200": "https://fonts.gstatic.com/s/notosansthailooped/v14/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Y84E4UgrzUO5sKA.ttf",
+    "300": "https://fonts.gstatic.com/s/notosansthailooped/v14/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Yl4I4UgrzUO5sKA.ttf",
+    "500": "https://fonts.gstatic.com/s/notosansthailooped/v14/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Yz4M4UgrzUO5sKA.ttf",
+    "600": "https://fonts.gstatic.com/s/notosansthailooped/v14/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Y44Q4UgrzUO5sKA.ttf",
+    "700": "https://fonts.gstatic.com/s/notosansthailooped/v14/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Yh4U4UgrzUO5sKA.ttf",
+    "800": "https://fonts.gstatic.com/s/notosansthailooped/v14/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Ym4Y4UgrzUO5sKA.ttf",
+    "900": "https://fonts.gstatic.com/s/notosansthailooped/v14/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Yv4c4UgrzUO5sKA.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosansthailooped/v14/B50RF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3gO6ocWiHvWQ.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansthailooped/v14/B50RF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3QOqAY.ttf"
 }

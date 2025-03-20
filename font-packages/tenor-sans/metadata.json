@@ -2,11 +2,12 @@
   "family": "Tenor Sans",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2022-09-22",
+  "version": "v19",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/tenorsans/v17/bx6ANxqUneKx06UkIXISr3JyC22IyqI.ttf"
+    "regular": "https://fonts.gstatic.com/s/tenorsans/v19/bx6ANxqUneKx06UkIXISr3JyC22IyqI.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/tenorsans/v19/bx6ANxqUneKx06UkIXISn3N4Dw.ttf"
 }

@@ -1,0 +1,13 @@
+{
+  "family": "Gasoek One",
+  "variants": ["regular"],
+  "subsets": ["korean", "latin", "latin-ext"],
+  "version": "v3",
+  "lastModified": "2024-08-12",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/gasoekone/v3/EJRTQgQ_UMUKvDgnlX80zrq_cyb-vco.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/gasoekone/v3/EJRTQgQ_UMUKvDgnlX80_ru1dw.ttf"
+}

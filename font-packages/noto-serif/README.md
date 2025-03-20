@@ -11,12 +11,26 @@ This package lets you use the [**Noto Serif**](https://fonts.google.com/specimen
 
 ![Noto Serif](./font-family.png)
 
-This font family contains [4 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
+- `NotoSerif_100Thin`
+- `NotoSerif_200ExtraLight`
+- `NotoSerif_300Light`
 - `NotoSerif_400Regular`
-- `NotoSerif_400Regular_Italic`
+- `NotoSerif_500Medium`
+- `NotoSerif_600SemiBold`
 - `NotoSerif_700Bold`
+- `NotoSerif_800ExtraBold`
+- `NotoSerif_900Black`
+- `NotoSerif_100Thin_Italic`
+- `NotoSerif_200ExtraLight_Italic`
+- `NotoSerif_300Light_Italic`
+- `NotoSerif_400Regular_Italic`
+- `NotoSerif_500Medium_Italic`
+- `NotoSerif_600SemiBold_Italic`
 - `NotoSerif_700Bold_Italic`
+- `NotoSerif_800ExtraBold_Italic`
+- `NotoSerif_900Black_Italic`
 
 ## Usage
 
@@ -33,18 +47,46 @@ import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import {
   useFonts,
+  NotoSerif_100Thin,
+  NotoSerif_200ExtraLight,
+  NotoSerif_300Light,
   NotoSerif_400Regular,
-  NotoSerif_400Regular_Italic,
+  NotoSerif_500Medium,
+  NotoSerif_600SemiBold,
   NotoSerif_700Bold,
+  NotoSerif_800ExtraBold,
+  NotoSerif_900Black,
+  NotoSerif_100Thin_Italic,
+  NotoSerif_200ExtraLight_Italic,
+  NotoSerif_300Light_Italic,
+  NotoSerif_400Regular_Italic,
+  NotoSerif_500Medium_Italic,
+  NotoSerif_600SemiBold_Italic,
   NotoSerif_700Bold_Italic,
+  NotoSerif_800ExtraBold_Italic,
+  NotoSerif_900Black_Italic,
 } from '@expo-google-fonts/noto-serif';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    NotoSerif_100Thin,
+    NotoSerif_200ExtraLight,
+    NotoSerif_300Light,
     NotoSerif_400Regular,
-    NotoSerif_400Regular_Italic,
+    NotoSerif_500Medium,
+    NotoSerif_600SemiBold,
     NotoSerif_700Bold,
+    NotoSerif_800ExtraBold,
+    NotoSerif_900Black,
+    NotoSerif_100Thin_Italic,
+    NotoSerif_200ExtraLight_Italic,
+    NotoSerif_300Light_Italic,
+    NotoSerif_400Regular_Italic,
+    NotoSerif_500Medium_Italic,
+    NotoSerif_600SemiBold_Italic,
     NotoSerif_700Bold_Italic,
+    NotoSerif_800ExtraBold_Italic,
+    NotoSerif_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -60,6 +102,36 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerif_100Thin',
+          }}>
+          Noto Serif Thin
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerif_200ExtraLight',
+          }}>
+          Noto Serif Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerif_300Light',
+          }}>
+          Noto Serif Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'NotoSerif_400Regular',
           }}>
           Noto Serif Regular
@@ -70,9 +142,19 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_400Regular_Italic',
+            fontFamily: 'NotoSerif_500Medium',
           }}>
-          Noto Serif Italic
+          Noto Serif Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerif_600SemiBold',
+          }}>
+          Noto Serif Semi Bold
         </Text>
 
         <Text
@@ -90,9 +172,109 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerif_800ExtraBold',
+          }}>
+          Noto Serif Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerif_900Black',
+          }}>
+          Noto Serif Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerif_100Thin_Italic',
+          }}>
+          Noto Serif Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerif_200ExtraLight_Italic',
+          }}>
+          Noto Serif Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerif_300Light_Italic',
+          }}>
+          Noto Serif Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerif_400Regular_Italic',
+          }}>
+          Noto Serif Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerif_500Medium_Italic',
+          }}>
+          Noto Serif Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerif_600SemiBold_Italic',
+          }}>
+          Noto Serif Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'NotoSerif_700Bold_Italic',
           }}>
           Noto Serif Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerif_800ExtraBold_Italic',
+          }}>
+          Noto Serif Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerif_900Black_Italic',
+          }}>
+          Noto Serif Black Italic
         </Text>
       </View>
     );
@@ -106,8 +288,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerif_400Regular](./NotoSerif_400Regular.ttf.png)|![NotoSerif_400Regular_Italic](./NotoSerif_400Regular_Italic.ttf.png)|![NotoSerif_700Bold](./NotoSerif_700Bold.ttf.png)||
-|![NotoSerif_700Bold_Italic](./NotoSerif_700Bold_Italic.ttf.png)||||
+|![NotoSerif_100Thin](./NotoSerif_100Thin.ttf.png)|![NotoSerif_200ExtraLight](./NotoSerif_200ExtraLight.ttf.png)|![NotoSerif_300Light](./NotoSerif_300Light.ttf.png)||
+|![NotoSerif_400Regular](./NotoSerif_400Regular.ttf.png)|![NotoSerif_500Medium](./NotoSerif_500Medium.ttf.png)|![NotoSerif_600SemiBold](./NotoSerif_600SemiBold.ttf.png)||
+|![NotoSerif_700Bold](./NotoSerif_700Bold.ttf.png)|![NotoSerif_800ExtraBold](./NotoSerif_800ExtraBold.ttf.png)|![NotoSerif_900Black](./NotoSerif_900Black.ttf.png)||
+|![NotoSerif_100Thin_Italic](./NotoSerif_100Thin_Italic.ttf.png)|![NotoSerif_200ExtraLight_Italic](./NotoSerif_200ExtraLight_Italic.ttf.png)|![NotoSerif_300Light_Italic](./NotoSerif_300Light_Italic.ttf.png)||
+|![NotoSerif_400Regular_Italic](./NotoSerif_400Regular_Italic.ttf.png)|![NotoSerif_500Medium_Italic](./NotoSerif_500Medium_Italic.ttf.png)|![NotoSerif_600SemiBold_Italic](./NotoSerif_600SemiBold_Italic.ttf.png)||
+|![NotoSerif_700Bold_Italic](./NotoSerif_700Bold_Italic.ttf.png)|![NotoSerif_800ExtraBold_Italic](./NotoSerif_800ExtraBold_Italic.ttf.png)|![NotoSerif_900Black_Italic](./NotoSerif_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

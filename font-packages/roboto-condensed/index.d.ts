@@ -6,9 +6,21 @@
 export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
+export const RobotoCondensed_100Thin: number;
+export const RobotoCondensed_200ExtraLight: number;
 export const RobotoCondensed_300Light: number;
-export const RobotoCondensed_300Light_Italic: number;
 export const RobotoCondensed_400Regular: number;
-export const RobotoCondensed_400Regular_Italic: number;
+export const RobotoCondensed_500Medium: number;
+export const RobotoCondensed_600SemiBold: number;
 export const RobotoCondensed_700Bold: number;
+export const RobotoCondensed_800ExtraBold: number;
+export const RobotoCondensed_900Black: number;
+export const RobotoCondensed_100Thin_Italic: number;
+export const RobotoCondensed_200ExtraLight_Italic: number;
+export const RobotoCondensed_300Light_Italic: number;
+export const RobotoCondensed_400Regular_Italic: number;
+export const RobotoCondensed_500Medium_Italic: number;
+export const RobotoCondensed_600SemiBold_Italic: number;
 export const RobotoCondensed_700Bold_Italic: number;
+export const RobotoCondensed_800ExtraBold_Italic: number;
+export const RobotoCondensed_900Black_Italic: number;

@@ -2,14 +2,15 @@
   "family": "Simonetta",
   "variants": ["regular", "italic", "900", "900italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v23",
-  "lastModified": "2022-04-27",
+  "version": "v27",
+  "lastModified": "2024-09-04",
   "files": {
-    "900": "http://fonts.gstatic.com/s/simonetta/v23/x3dnckHVYrCU5BU15c45-N0mtwTpDQIrGg.ttf",
-    "regular": "http://fonts.gstatic.com/s/simonetta/v23/x3dickHVYrCU5BU15c4BfPACvy_1BA.ttf",
-    "italic": "http://fonts.gstatic.com/s/simonetta/v23/x3dkckHVYrCU5BU15c4xfvoGnSrlBBsy.ttf",
-    "900italic": "http://fonts.gstatic.com/s/simonetta/v23/x3d5ckHVYrCU5BU15c4xfsKCsA7tLwc7Gn88.ttf"
+    "900": "https://fonts.gstatic.com/s/simonetta/v27/x3dnckHVYrCU5BU15c45-N0mtwTpDQIrGg.ttf",
+    "regular": "https://fonts.gstatic.com/s/simonetta/v27/x3dickHVYrCU5BU15c4BfPACvy_1BA.ttf",
+    "italic": "https://fonts.gstatic.com/s/simonetta/v27/x3dkckHVYrCU5BU15c4xfvoGnSrlBBsy.ttf",
+    "900italic": "https://fonts.gstatic.com/s/simonetta/v27/x3d5ckHVYrCU5BU15c4xfsKCsA7tLwc7Gn88.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/simonetta/v27/x3dickHVYrCU5BU15c4xffoG.ttf"
 }

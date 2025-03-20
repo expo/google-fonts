@@ -1,10 +1,20 @@
 {
   "family": "Oi",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "tamil", "vietnamese"],
-  "version": "v15",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/oi/v15/w8gXH2EuRqtaut6yjBOG.ttf" },
+  "subsets": [
+    "arabic",
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "tamil",
+    "vietnamese"
+  ],
+  "version": "v20",
+  "lastModified": "2024-11-20",
+  "files": { "regular": "https://fonts.gstatic.com/s/oi/v20/w8gXH2EuRqtaut6yjBOG.ttf" },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/oi/v20/w8gXH2EuRptbsNo.ttf"
 }

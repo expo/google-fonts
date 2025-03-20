@@ -2,11 +2,12 @@
   "family": "Noto Sans Rejang",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "rejang"],
-  "version": "v18",
-  "lastModified": "2022-11-09",
+  "version": "v21",
+  "lastModified": "2023-09-27",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosansrejang/v18/Ktk2AKuMeZjqPnXgyqrib7DIogqwN4O3WYZB_sU.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansrejang/v21/Ktk2AKuMeZjqPnXgyqrib7DIogqwN4O3WYZB_sU.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansrejang/v21/Ktk2AKuMeZjqPnXgyqrib7DIogqwB4K9XQ.ttf"
 }

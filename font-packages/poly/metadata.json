@@ -1,13 +1,14 @@
 {
   "family": "Poly",
   "variants": ["regular", "italic"],
-  "subsets": ["latin"],
-  "version": "v16",
-  "lastModified": "2022-09-22",
+  "subsets": ["latin", "latin-ext"],
+  "version": "v17",
+  "lastModified": "2024-11-20",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/poly/v16/MQpb-W6wKNitRLCAq2Lpris.ttf",
-    "italic": "http://fonts.gstatic.com/s/poly/v16/MQpV-W6wKNitdLKKr0DsviuGWA.ttf"
+    "regular": "https://fonts.gstatic.com/s/poly/v17/MQpb-W6wKNitRLCAq2Lpris.ttf",
+    "italic": "https://fonts.gstatic.com/s/poly/v17/MQpV-W6wKNitdLKKr0DsviuGWA.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/poly/v17/MQpb-W6wKNitdLGKrw.ttf"
 }

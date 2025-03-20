@@ -2,11 +2,12 @@
   "family": "Fasthand",
   "variants": ["regular"],
   "subsets": ["khmer", "latin"],
-  "version": "v26",
-  "lastModified": "2022-04-21",
+  "version": "v31",
+  "lastModified": "2024-10-29",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/fasthand/v26/0yb9GDohyKTYn_ZEESkuYkw2rQg1.ttf"
+    "regular": "https://fonts.gstatic.com/s/fasthand/v31/0yb9GDohyKTYn_ZEESkuYkw2rQg1.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/fasthand/v31/0yb9GDohyKTYn_ZEERkvaEg.ttf"
 }

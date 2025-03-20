@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Imperial Aramaic",
   "variants": ["regular"],
-  "subsets": ["imperial-aramaic"],
-  "version": "v15",
-  "lastModified": "2022-05-10",
+  "subsets": ["imperial-aramaic", "latin", "latin-ext"],
+  "version": "v17",
+  "lastModified": "2024-07-01",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosansimperialaramaic/v15/a8IMNpjwKmHXpgXbMIsbTc_kvks91LlLetBr5itQrtdml3YfPNno.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansimperialaramaic/v17/a8IMNpjwKmHXpgXbMIsbTc_kvks91LlLetBr5itQrtdml3YfPNno.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansimperialaramaic/v17/a8IMNpjwKmHXpgXbMIsbTc_kvks91LlLetBr5itQrudnnXI.ttf"
 }

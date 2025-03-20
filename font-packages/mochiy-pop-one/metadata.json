@@ -2,11 +2,12 @@
   "family": "Mochiy Pop One",
   "variants": ["regular"],
   "subsets": ["japanese", "latin"],
-  "version": "v7",
-  "lastModified": "2022-09-27",
+  "version": "v11",
+  "lastModified": "2025-01-23",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/mochiypopone/v7/QdVPSTA9Jh-gg-5XZP2UmU4O9kwwD3s6ZKAi.ttf"
+    "regular": "https://fonts.gstatic.com/s/mochiypopone/v11/QdVPSTA9Jh-gg-5XZP2UmU4O9kwwD3s6ZKAi.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/mochiypopone/v11/QdVPSTA9Jh-gg-5XZP2UmU4O9nwxBX8.ttf"
 }

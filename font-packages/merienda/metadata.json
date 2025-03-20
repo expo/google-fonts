@@ -2,17 +2,18 @@
   "family": "Merienda",
   "variants": ["300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v17",
-  "lastModified": "2022-11-09",
+  "version": "v19",
+  "lastModified": "2024-09-04",
   "files": {
-    "300": "http://fonts.gstatic.com/s/merienda/v17/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5JHhoSU78QGBV0A.ttf",
-    "500": "http://fonts.gstatic.com/s/merienda/v17/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5SHhoSU78QGBV0A.ttf",
-    "600": "http://fonts.gstatic.com/s/merienda/v17/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5pH9oSU78QGBV0A.ttf",
-    "700": "http://fonts.gstatic.com/s/merienda/v17/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5nX9oSU78QGBV0A.ttf",
-    "800": "http://fonts.gstatic.com/s/merienda/v17/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5-n9oSU78QGBV0A.ttf",
-    "900": "http://fonts.gstatic.com/s/merienda/v17/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5039oSU78QGBV0A.ttf",
-    "regular": "http://fonts.gstatic.com/s/merienda/v17/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5enhoSU78QGBV0A.ttf"
+    "300": "https://fonts.gstatic.com/s/merienda/v19/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5JHhoSU78QGBV0A.ttf",
+    "500": "https://fonts.gstatic.com/s/merienda/v19/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5SHhoSU78QGBV0A.ttf",
+    "600": "https://fonts.gstatic.com/s/merienda/v19/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5pH9oSU78QGBV0A.ttf",
+    "700": "https://fonts.gstatic.com/s/merienda/v19/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5nX9oSU78QGBV0A.ttf",
+    "800": "https://fonts.gstatic.com/s/merienda/v19/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5-n9oSU78QGBV0A.ttf",
+    "900": "https://fonts.gstatic.com/s/merienda/v19/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5039oSU78QGBV0A.ttf",
+    "regular": "https://fonts.gstatic.com/s/merienda/v19/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5enhoSU78QGBV0A.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/merienda/v19/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5enhYSET4.ttf"
 }

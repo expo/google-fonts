@@ -11,14 +11,26 @@ This package lets you use the [**Aleo**](https://fonts.google.com/specimen/Aleo)
 
 ![Aleo](./font-family.png)
 
-This font family contains [6 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
+- `Aleo_100Thin`
+- `Aleo_200ExtraLight`
 - `Aleo_300Light`
-- `Aleo_300Light_Italic`
 - `Aleo_400Regular`
-- `Aleo_400Regular_Italic`
+- `Aleo_500Medium`
+- `Aleo_600SemiBold`
 - `Aleo_700Bold`
+- `Aleo_800ExtraBold`
+- `Aleo_900Black`
+- `Aleo_100Thin_Italic`
+- `Aleo_200ExtraLight_Italic`
+- `Aleo_300Light_Italic`
+- `Aleo_400Regular_Italic`
+- `Aleo_500Medium_Italic`
+- `Aleo_600SemiBold_Italic`
 - `Aleo_700Bold_Italic`
+- `Aleo_800ExtraBold_Italic`
+- `Aleo_900Black_Italic`
 
 ## Usage
 
@@ -35,22 +47,46 @@ import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import {
   useFonts,
+  Aleo_100Thin,
+  Aleo_200ExtraLight,
   Aleo_300Light,
-  Aleo_300Light_Italic,
   Aleo_400Regular,
-  Aleo_400Regular_Italic,
+  Aleo_500Medium,
+  Aleo_600SemiBold,
   Aleo_700Bold,
+  Aleo_800ExtraBold,
+  Aleo_900Black,
+  Aleo_100Thin_Italic,
+  Aleo_200ExtraLight_Italic,
+  Aleo_300Light_Italic,
+  Aleo_400Regular_Italic,
+  Aleo_500Medium_Italic,
+  Aleo_600SemiBold_Italic,
   Aleo_700Bold_Italic,
+  Aleo_800ExtraBold_Italic,
+  Aleo_900Black_Italic,
 } from '@expo-google-fonts/aleo';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    Aleo_100Thin,
+    Aleo_200ExtraLight,
     Aleo_300Light,
-    Aleo_300Light_Italic,
     Aleo_400Regular,
-    Aleo_400Regular_Italic,
+    Aleo_500Medium,
+    Aleo_600SemiBold,
     Aleo_700Bold,
+    Aleo_800ExtraBold,
+    Aleo_900Black,
+    Aleo_100Thin_Italic,
+    Aleo_200ExtraLight_Italic,
+    Aleo_300Light_Italic,
+    Aleo_400Regular_Italic,
+    Aleo_500Medium_Italic,
+    Aleo_600SemiBold_Italic,
     Aleo_700Bold_Italic,
+    Aleo_800ExtraBold_Italic,
+    Aleo_900Black_Italic,
   });
 
   let fontSize = 24;
@@ -66,9 +102,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_300Light',
+            fontFamily: 'Aleo_100Thin',
           }}>
-          Aleo Light
+          Aleo Thin
         </Text>
 
         <Text
@@ -76,9 +112,19 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_300Light_Italic',
+            fontFamily: 'Aleo_200ExtraLight',
           }}>
-          Aleo Light Italic
+          Aleo Extra Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_300Light',
+          }}>
+          Aleo Light
         </Text>
 
         <Text
@@ -96,9 +142,19 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_400Regular_Italic',
+            fontFamily: 'Aleo_500Medium',
           }}>
-          Aleo Italic
+          Aleo Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_600SemiBold',
+          }}>
+          Aleo Semi Bold
         </Text>
 
         <Text
@@ -116,9 +172,109 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_800ExtraBold',
+          }}>
+          Aleo Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_900Black',
+          }}>
+          Aleo Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_100Thin_Italic',
+          }}>
+          Aleo Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_200ExtraLight_Italic',
+          }}>
+          Aleo Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_300Light_Italic',
+          }}>
+          Aleo Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_400Regular_Italic',
+          }}>
+          Aleo Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_500Medium_Italic',
+          }}>
+          Aleo Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_600SemiBold_Italic',
+          }}>
+          Aleo Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Aleo_700Bold_Italic',
           }}>
           Aleo Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_800ExtraBold_Italic',
+          }}>
+          Aleo Extra Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Aleo_900Black_Italic',
+          }}>
+          Aleo Black Italic
         </Text>
       </View>
     );
@@ -132,8 +288,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Aleo_300Light](./Aleo_300Light.ttf.png)|![Aleo_300Light_Italic](./Aleo_300Light_Italic.ttf.png)|![Aleo_400Regular](./Aleo_400Regular.ttf.png)||
-|![Aleo_400Regular_Italic](./Aleo_400Regular_Italic.ttf.png)|![Aleo_700Bold](./Aleo_700Bold.ttf.png)|![Aleo_700Bold_Italic](./Aleo_700Bold_Italic.ttf.png)||
+|![Aleo_100Thin](./Aleo_100Thin.ttf.png)|![Aleo_200ExtraLight](./Aleo_200ExtraLight.ttf.png)|![Aleo_300Light](./Aleo_300Light.ttf.png)||
+|![Aleo_400Regular](./Aleo_400Regular.ttf.png)|![Aleo_500Medium](./Aleo_500Medium.ttf.png)|![Aleo_600SemiBold](./Aleo_600SemiBold.ttf.png)||
+|![Aleo_700Bold](./Aleo_700Bold.ttf.png)|![Aleo_800ExtraBold](./Aleo_800ExtraBold.ttf.png)|![Aleo_900Black](./Aleo_900Black.ttf.png)||
+|![Aleo_100Thin_Italic](./Aleo_100Thin_Italic.ttf.png)|![Aleo_200ExtraLight_Italic](./Aleo_200ExtraLight_Italic.ttf.png)|![Aleo_300Light_Italic](./Aleo_300Light_Italic.ttf.png)||
+|![Aleo_400Regular_Italic](./Aleo_400Regular_Italic.ttf.png)|![Aleo_500Medium_Italic](./Aleo_500Medium_Italic.ttf.png)|![Aleo_600SemiBold_Italic](./Aleo_600SemiBold_Italic.ttf.png)||
+|![Aleo_700Bold_Italic](./Aleo_700Bold_Italic.ttf.png)|![Aleo_800ExtraBold_Italic](./Aleo_800ExtraBold_Italic.ttf.png)|![Aleo_900Black_Italic](./Aleo_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

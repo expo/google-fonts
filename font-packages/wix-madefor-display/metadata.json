@@ -1,0 +1,17 @@
+{
+  "family": "Wix Madefor Display",
+  "variants": ["regular", "500", "600", "700", "800"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v10",
+  "lastModified": "2024-09-04",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/wixmadefordisplay/v10/SZcS3EX9IbbyeJ8aOluD52KXgUA_7Ed1I13G853Cp9duUYFTYltkv_3HQKgh.ttf",
+    "600": "https://fonts.gstatic.com/s/wixmadefordisplay/v10/SZcS3EX9IbbyeJ8aOluD52KXgUA_7Ed1I13G853Cp9duUYG_ZVtkv_3HQKgh.ttf",
+    "700": "https://fonts.gstatic.com/s/wixmadefordisplay/v10/SZcS3EX9IbbyeJ8aOluD52KXgUA_7Ed1I13G853Cp9duUYGGZVtkv_3HQKgh.ttf",
+    "800": "https://fonts.gstatic.com/s/wixmadefordisplay/v10/SZcS3EX9IbbyeJ8aOluD52KXgUA_7Ed1I13G853Cp9duUYHhZVtkv_3HQKgh.ttf",
+    "regular": "https://fonts.gstatic.com/s/wixmadefordisplay/v10/SZcS3EX9IbbyeJ8aOluD52KXgUA_7Ed1I13G853Cp9duUYFhYltkv_3HQKgh.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/wixmadefordisplay/v10/SZcS3EX9IbbyeJ8aOluD52KXgUA_7Ed1I13G853Cp9duUYFhYmtltfk.ttf"
+}

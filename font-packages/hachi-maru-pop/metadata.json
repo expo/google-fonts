@@ -2,11 +2,12 @@
   "family": "Hachi Maru Pop",
   "variants": ["regular"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2022-09-27",
+  "version": "v21",
+  "lastModified": "2024-12-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/hachimarupop/v17/HI_TiYoRLqpLrEiMAuO9Ysfz7rW1EM_btd8u.ttf"
+    "regular": "https://fonts.gstatic.com/s/hachimarupop/v21/HI_TiYoRLqpLrEiMAuO9Ysfz7rW1EM_btd8u.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/hachimarupop/v21/HI_TiYoRLqpLrEiMAuO9Ysfz7oW0Gss.ttf"
 }

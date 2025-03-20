@@ -1,0 +1,11 @@
+{
+  "family": "Mooli",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/mooli/v1/-F6_fjJpLyk1bYPBBG7YpzlJ.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/mooli/v1/-F6_fjJpLyk1bbPADmo.ttf"
+}

@@ -1,0 +1,13 @@
+{
+  "family": "Playwrite BR Guides",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v1",
+  "lastModified": "2024-12-10",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/playwritebrguides/v1/tssxAohQaiQS-wrnJz-F5CqW4dOezRwp-9cCOxBu_BM.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwritebrguides/v1/tssxAohQaiQS-wrnJz-F5CqW4dOezRwpy9YIPw.ttf"
+}

@@ -1,0 +1,23 @@
+{
+  "family": "Lunasima",
+  "variants": ["regular", "700"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "hebrew",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": {
+    "700": "https://fonts.gstatic.com/s/lunasima/v1/wEO5EBvPh9RSOj7JFDSZVPoP_k4XiKvO.ttf",
+    "regular": "https://fonts.gstatic.com/s/lunasima/v1/wEO-EBvPh9RSOj7JFAwle94H1VIe.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/lunasima/v1/wEO-EBvPh9RSOj7JFDwkcdo.ttf"
+}

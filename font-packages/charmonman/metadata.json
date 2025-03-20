@@ -3,11 +3,12 @@
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
   "version": "v18",
-  "lastModified": "2022-09-22",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/charmonman/v18/MjQAmiR3vP_nuxDv47jiYC2HmL9K9OhmGnY.ttf",
-    "regular": "http://fonts.gstatic.com/s/charmonman/v18/MjQDmiR3vP_nuxDv47jiWJGovLdh6OE.ttf"
+    "700": "https://fonts.gstatic.com/s/charmonman/v18/MjQAmiR3vP_nuxDv47jiYC2HmL9K9OhmGnY.ttf",
+    "regular": "https://fonts.gstatic.com/s/charmonman/v18/MjQDmiR3vP_nuxDv47jiWJGovLdh6OE.ttf"
   },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/charmonman/v18/MjQDmiR3vP_nuxDv47jiaJCiuA.ttf"
 }

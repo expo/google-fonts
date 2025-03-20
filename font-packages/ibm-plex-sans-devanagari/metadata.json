@@ -2,17 +2,18 @@
   "family": "IBM Plex Sans Devanagari",
   "variants": ["100", "200", "300", "regular", "500", "600", "700"],
   "subsets": ["cyrillic-ext", "devanagari", "latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2022-11-09",
+  "version": "v11",
+  "lastModified": "2024-09-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/ibmplexsansdevanagari/v9/XRXB3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HMUjwUcjwCEQq.ttf",
-    "200": "http://fonts.gstatic.com/s/ibmplexsansdevanagari/v9/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HnWnQe-b8AV0z0w.ttf",
-    "300": "http://fonts.gstatic.com/s/ibmplexsansdevanagari/v9/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_H-WrQe-b8AV0z0w.ttf",
-    "500": "http://fonts.gstatic.com/s/ibmplexsansdevanagari/v9/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HoWvQe-b8AV0z0w.ttf",
-    "600": "http://fonts.gstatic.com/s/ibmplexsansdevanagari/v9/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HjWzQe-b8AV0z0w.ttf",
-    "700": "http://fonts.gstatic.com/s/ibmplexsansdevanagari/v9/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_H6W3Qe-b8AV0z0w.ttf",
-    "regular": "http://fonts.gstatic.com/s/ibmplexsansdevanagari/v9/XRXH3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O__VUL0c83gCA.ttf"
+    "100": "https://fonts.gstatic.com/s/ibmplexsansdevanagari/v11/XRXB3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HMUjwUcjwCEQq.ttf",
+    "200": "https://fonts.gstatic.com/s/ibmplexsansdevanagari/v11/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HnWnQe-b8AV0z0w.ttf",
+    "300": "https://fonts.gstatic.com/s/ibmplexsansdevanagari/v11/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_H-WrQe-b8AV0z0w.ttf",
+    "500": "https://fonts.gstatic.com/s/ibmplexsansdevanagari/v11/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HoWvQe-b8AV0z0w.ttf",
+    "600": "https://fonts.gstatic.com/s/ibmplexsansdevanagari/v11/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HjWzQe-b8AV0z0w.ttf",
+    "700": "https://fonts.gstatic.com/s/ibmplexsansdevanagari/v11/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_H6W3Qe-b8AV0z0w.ttf",
+    "regular": "https://fonts.gstatic.com/s/ibmplexsansdevanagari/v11/XRXH3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O__VUL0c83gCA.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/ibmplexsansdevanagari/v11/XRXH3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_PVEjw.ttf"
 }

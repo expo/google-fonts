@@ -1,0 +1,21 @@
+{
+  "family": "Comme",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2024-09-04",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/comme/v2/8QIUdirKhMbn-uG1kHz0MgviDe1z5cBr644fWsRO9w.ttf",
+    "200": "https://fonts.gstatic.com/s/comme/v2/8QIUdirKhMbn-uG1kHz0MgviDe1zZcFr644fWsRO9w.ttf",
+    "300": "https://fonts.gstatic.com/s/comme/v2/8QIUdirKhMbn-uG1kHz0MgviDe1zu8Fr644fWsRO9w.ttf",
+    "500": "https://fonts.gstatic.com/s/comme/v2/8QIUdirKhMbn-uG1kHz0MgviDe1z18Fr644fWsRO9w.ttf",
+    "600": "https://fonts.gstatic.com/s/comme/v2/8QIUdirKhMbn-uG1kHz0MgviDe1zO8Zr644fWsRO9w.ttf",
+    "700": "https://fonts.gstatic.com/s/comme/v2/8QIUdirKhMbn-uG1kHz0MgviDe1zAsZr644fWsRO9w.ttf",
+    "800": "https://fonts.gstatic.com/s/comme/v2/8QIUdirKhMbn-uG1kHz0MgviDe1zZcZr644fWsRO9w.ttf",
+    "900": "https://fonts.gstatic.com/s/comme/v2/8QIUdirKhMbn-uG1kHz0MgviDe1zTMZr644fWsRO9w.ttf",
+    "regular": "https://fonts.gstatic.com/s/comme/v2/8QIUdirKhMbn-uG1kHz0MgviDe1z5cFr644fWsRO9w.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/comme/v2/8QIUdirKhMbn-uG1kHz0MgviDe1z5cFb6oQb.ttf"
+}

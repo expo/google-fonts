@@ -1,0 +1,21 @@
+{
+  "family": "Noto Sans Syriac Eastern",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "syriac"],
+  "version": "v1",
+  "lastModified": "2023-07-13",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/notosanssyriaceastern/v1/Noac6Vj_wIWFbTTCrYmvy8AjVU8aslWRHHvRYxS-Ro3yS0FDacnHPi-eszCL5ep1QPQ.ttf",
+    "200": "https://fonts.gstatic.com/s/notosanssyriaceastern/v1/Noac6Vj_wIWFbTTCrYmvy8AjVU8aslWRHHvRYxS-Ro3yS0FDacnHPq-fszCL5ep1QPQ.ttf",
+    "300": "https://fonts.gstatic.com/s/notosanssyriaceastern/v1/Noac6Vj_wIWFbTTCrYmvy8AjVU8aslWRHHvRYxS-Ro3yS0FDacnHPnGfszCL5ep1QPQ.ttf",
+    "500": "https://fonts.gstatic.com/s/notosanssyriaceastern/v1/Noac6Vj_wIWFbTTCrYmvy8AjVU8aslWRHHvRYxS-Ro3yS0FDacnHPh2fszCL5ep1QPQ.ttf",
+    "600": "https://fonts.gstatic.com/s/notosanssyriaceastern/v1/Noac6Vj_wIWFbTTCrYmvy8AjVU8aslWRHHvRYxS-Ro3yS0FDacnHPvGYszCL5ep1QPQ.ttf",
+    "700": "https://fonts.gstatic.com/s/notosanssyriaceastern/v1/Noac6Vj_wIWFbTTCrYmvy8AjVU8aslWRHHvRYxS-Ro3yS0FDacnHPsiYszCL5ep1QPQ.ttf",
+    "800": "https://fonts.gstatic.com/s/notosanssyriaceastern/v1/Noac6Vj_wIWFbTTCrYmvy8AjVU8aslWRHHvRYxS-Ro3yS0FDacnHPq-YszCL5ep1QPQ.ttf",
+    "900": "https://fonts.gstatic.com/s/notosanssyriaceastern/v1/Noac6Vj_wIWFbTTCrYmvy8AjVU8aslWRHHvRYxS-Ro3yS0FDacnHPoaYszCL5ep1QPQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosanssyriaceastern/v1/Noac6Vj_wIWFbTTCrYmvy8AjVU8aslWRHHvRYxS-Ro3yS0FDacnHPi-fszCL5ep1QPQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanssyriaceastern/v1/Noac6Vj_wIWFbTTCrYmvy8AjVU8aslWRHHvRYxS-Ro3yS0FDacnHPi-fgzGB4Q.ttf"
+}

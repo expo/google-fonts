@@ -11,9 +11,11 @@ This package lets you use the [**Scheherazade New**](https://fonts.google.com/sp
 
 ![Scheherazade New](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [4 styles](#-gallery).
 
 - `ScheherazadeNew_400Regular`
+- `ScheherazadeNew_500Medium`
+- `ScheherazadeNew_600SemiBold`
 - `ScheherazadeNew_700Bold`
 
 ## Usage
@@ -32,12 +34,16 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   ScheherazadeNew_400Regular,
+  ScheherazadeNew_500Medium,
+  ScheherazadeNew_600SemiBold,
   ScheherazadeNew_700Bold,
 } from '@expo-google-fonts/scheherazade-new';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     ScheherazadeNew_400Regular,
+    ScheherazadeNew_500Medium,
+    ScheherazadeNew_600SemiBold,
     ScheherazadeNew_700Bold,
   });
 
@@ -64,6 +70,26 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ScheherazadeNew_500Medium',
+          }}>
+          Scheherazade New Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'ScheherazadeNew_600SemiBold',
+          }}>
+          Scheherazade New Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'ScheherazadeNew_700Bold',
           }}>
           Scheherazade New Bold
@@ -80,7 +106,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ScheherazadeNew_400Regular](./ScheherazadeNew_400Regular.ttf.png)|![ScheherazadeNew_700Bold](./ScheherazadeNew_700Bold.ttf.png)|||
+|![ScheherazadeNew_400Regular](./ScheherazadeNew_400Regular.ttf.png)|![ScheherazadeNew_500Medium](./ScheherazadeNew_500Medium.ttf.png)|![ScheherazadeNew_600SemiBold](./ScheherazadeNew_600SemiBold.ttf.png)||
+|![ScheherazadeNew_700Bold](./ScheherazadeNew_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

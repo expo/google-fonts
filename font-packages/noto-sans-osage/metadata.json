@@ -5,8 +5,9 @@
   "version": "v18",
   "lastModified": "2022-11-09",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosansosage/v18/oPWX_kB6kP4jCuhpgEGmw4mtAVtXRlaSxkrMCQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansosage/v18/oPWX_kB6kP4jCuhpgEGmw4mtAVtXRlaSxkrMCQ.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosansosage/v18/oPWX_kB6kP4jCuhpgEGmw4mtAVtnR1yW.ttf"
 }

@@ -1,0 +1,21 @@
+{
+  "family": "Afacad Flux",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2024-11-07",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/afacadflux/v2/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsUwWZaRqQsJr67E.ttf",
+    "200": "https://fonts.gstatic.com/s/afacadflux/v2/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edscwXZaRqQsJr67E.ttf",
+    "300": "https://fonts.gstatic.com/s/afacadflux/v2/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsRIXZaRqQsJr67E.ttf",
+    "500": "https://fonts.gstatic.com/s/afacadflux/v2/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsX4XZaRqQsJr67E.ttf",
+    "600": "https://fonts.gstatic.com/s/afacadflux/v2/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsZIQZaRqQsJr67E.ttf",
+    "700": "https://fonts.gstatic.com/s/afacadflux/v2/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsasQZaRqQsJr67E.ttf",
+    "800": "https://fonts.gstatic.com/s/afacadflux/v2/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edscwQZaRqQsJr67E.ttf",
+    "900": "https://fonts.gstatic.com/s/afacadflux/v2/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edseUQZaRqQsJr67E.ttf",
+    "regular": "https://fonts.gstatic.com/s/afacadflux/v2/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsUwXZaRqQsJr67E.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/afacadflux/v2/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsUwXVaVgRg.ttf"
+}

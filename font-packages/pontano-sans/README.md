@@ -11,9 +11,13 @@ This package lets you use the [**Pontano Sans**](https://fonts.google.com/specim
 
 ![Pontano Sans](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [5 styles](#-gallery).
 
+- `PontanoSans_300Light`
 - `PontanoSans_400Regular`
+- `PontanoSans_500Medium`
+- `PontanoSans_600SemiBold`
+- `PontanoSans_700Bold`
 
 ## Usage
 
@@ -28,11 +32,22 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, PontanoSans_400Regular } from '@expo-google-fonts/pontano-sans';
+import {
+  useFonts,
+  PontanoSans_300Light,
+  PontanoSans_400Regular,
+  PontanoSans_500Medium,
+  PontanoSans_600SemiBold,
+  PontanoSans_700Bold,
+} from '@expo-google-fonts/pontano-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
+    PontanoSans_300Light,
     PontanoSans_400Regular,
+    PontanoSans_500Medium,
+    PontanoSans_600SemiBold,
+    PontanoSans_700Bold,
   });
 
   let fontSize = 24;
@@ -48,9 +63,49 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PontanoSans_300Light',
+          }}>
+          Pontano Sans Light
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'PontanoSans_400Regular',
           }}>
           Pontano Sans Regular
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PontanoSans_500Medium',
+          }}>
+          Pontano Sans Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PontanoSans_600SemiBold',
+          }}>
+          Pontano Sans Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'PontanoSans_700Bold',
+          }}>
+          Pontano Sans Bold
         </Text>
       </View>
     );
@@ -64,7 +119,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PontanoSans_400Regular](./PontanoSans_400Regular.ttf.png)||||
+|![PontanoSans_300Light](./PontanoSans_300Light.ttf.png)|![PontanoSans_400Regular](./PontanoSans_400Regular.ttf.png)|![PontanoSans_500Medium](./PontanoSans_500Medium.ttf.png)||
+|![PontanoSans_600SemiBold](./PontanoSans_600SemiBold.ttf.png)|![PontanoSans_700Bold](./PontanoSans_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

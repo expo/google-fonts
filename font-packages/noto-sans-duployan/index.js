@@ -6,3 +6,4 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const NotoSansDuployan_400Regular = require('./NotoSansDuployan_400Regular.ttf');
+export const NotoSansDuployan_700Bold = require('./NotoSansDuployan_700Bold.ttf');

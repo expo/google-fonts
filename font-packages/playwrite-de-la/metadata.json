@@ -1,0 +1,16 @@
+{
+  "family": "Playwrite DE LA",
+  "variants": ["100", "200", "300", "regular"],
+  "subsets": ["latin"],
+  "version": "v10",
+  "lastModified": "2025-02-12",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playwritedela/v10/oY1J8e3fprboJ2HN4ogXTpFVJ8QjJV9p0P4yukst2FnrPgcigC5Ph2w.ttf",
+    "200": "https://fonts.gstatic.com/s/playwritedela/v10/oY1J8e3fprboJ2HN4ogXTpFVJ8QjJV9p0P4yukst2NnqPgcigC5Ph2w.ttf",
+    "300": "https://fonts.gstatic.com/s/playwritedela/v10/oY1J8e3fprboJ2HN4ogXTpFVJ8QjJV9p0P4yukst2AfqPgcigC5Ph2w.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwritedela/v10/oY1J8e3fprboJ2HN4ogXTpFVJ8QjJV9p0P4yukst2FnqPgcigC5Ph2w.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwritedela/v10/oY1J8e3fprboJ2HN4ogXTpFVJ8QjJV9p0P4yukst2FnqDgYohA.ttf"
+}

@@ -2,19 +2,20 @@
   "family": "Noto Sans Cham",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["cham", "latin", "latin-ext"],
-  "version": "v23",
-  "lastModified": "2022-09-28",
+  "version": "v31",
+  "lastModified": "2024-07-30",
   "files": {
-    "100": "http://fonts.gstatic.com/s/notosanscham/v23/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcER0cv7GykboaLg.ttf",
-    "200": "http://fonts.gstatic.com/s/notosanscham/v23/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfckRwcv7GykboaLg.ttf",
-    "300": "http://fonts.gstatic.com/s/notosanscham/v23/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcTxwcv7GykboaLg.ttf",
-    "500": "http://fonts.gstatic.com/s/notosanscham/v23/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcIxwcv7GykboaLg.ttf",
-    "600": "http://fonts.gstatic.com/s/notosanscham/v23/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfczxscv7GykboaLg.ttf",
-    "700": "http://fonts.gstatic.com/s/notosanscham/v23/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfc9hscv7GykboaLg.ttf",
-    "800": "http://fonts.gstatic.com/s/notosanscham/v23/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfckRscv7GykboaLg.ttf",
-    "900": "http://fonts.gstatic.com/s/notosanscham/v23/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcuBscv7GykboaLg.ttf",
-    "regular": "http://fonts.gstatic.com/s/notosanscham/v23/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcERwcv7GykboaLg.ttf"
+    "100": "https://fonts.gstatic.com/s/notosanscham/v31/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcER0cv7GykboaLg.ttf",
+    "200": "https://fonts.gstatic.com/s/notosanscham/v31/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfckRwcv7GykboaLg.ttf",
+    "300": "https://fonts.gstatic.com/s/notosanscham/v31/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcTxwcv7GykboaLg.ttf",
+    "500": "https://fonts.gstatic.com/s/notosanscham/v31/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcIxwcv7GykboaLg.ttf",
+    "600": "https://fonts.gstatic.com/s/notosanscham/v31/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfczxscv7GykboaLg.ttf",
+    "700": "https://fonts.gstatic.com/s/notosanscham/v31/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfc9hscv7GykboaLg.ttf",
+    "800": "https://fonts.gstatic.com/s/notosanscham/v31/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfckRscv7GykboaLg.ttf",
+    "900": "https://fonts.gstatic.com/s/notosanscham/v31/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcuBscv7GykboaLg.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosanscham/v31/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcERwcv7GykboaLg.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanscham/v31/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcERwsvru2.ttf"
 }

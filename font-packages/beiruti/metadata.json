@@ -1,0 +1,20 @@
+{
+  "family": "Beiruti",
+  "variants": ["200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
+  "version": "v4",
+  "lastModified": "2024-12-04",
+  "files": {
+    "200": "https://fonts.gstatic.com/s/beiruti/v4/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9Y95wujgWg2SGdV.ttf",
+    "300": "https://fonts.gstatic.com/s/beiruti/v4/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9bj5wujgWg2SGdV.ttf",
+    "500": "https://fonts.gstatic.com/s/beiruti/v4/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9aP5wujgWg2SGdV.ttf",
+    "600": "https://fonts.gstatic.com/s/beiruti/v4/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9Zj4AujgWg2SGdV.ttf",
+    "700": "https://fonts.gstatic.com/s/beiruti/v4/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9Za4AujgWg2SGdV.ttf",
+    "800": "https://fonts.gstatic.com/s/beiruti/v4/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9Y94AujgWg2SGdV.ttf",
+    "900": "https://fonts.gstatic.com/s/beiruti/v4/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9YU4AujgWg2SGdV.ttf",
+    "regular": "https://fonts.gstatic.com/s/beiruti/v4/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9a95wujgWg2SGdV.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/beiruti/v4/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9a95zuii2w.ttf"
+}

@@ -2,9 +2,12 @@
   "family": "Joti One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v21",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/jotione/v21/Z9XVDmdJQAmWm9TwaYTe4u2El6GC.ttf" },
+  "version": "v26",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/jotione/v26/Z9XVDmdJQAmWm9TwaYTe4u2El6GC.ttf"
+  },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/jotione/v26/Z9XVDmdJQAmWm9TwabTf6Ok.ttf"
 }

@@ -1,0 +1,13 @@
+{
+  "family": "Lugrasimo",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/lugrasimo/v4/qkBXXvoF_s_eT9c7Y7ae5JRLkAXbMQ.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/lugrasimo/v4/qkBXXvoF_s_eT9c7Y7au5Z5P.ttf"
+}

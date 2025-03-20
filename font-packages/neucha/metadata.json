@@ -3,8 +3,9 @@
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin"],
   "version": "v17",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/neucha/v17/q5uGsou0JOdh94bvugNsCxVEgA.ttf" },
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/neucha/v17/q5uGsou0JOdh94bvugNsCxVEgA.ttf" },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/neucha/v17/q5uGsou0JOdh94bfuwlo.ttf"
 }

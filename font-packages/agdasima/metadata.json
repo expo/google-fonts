@@ -1,0 +1,14 @@
+{
+  "family": "Agdasima",
+  "variants": ["regular", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2024-09-04",
+  "files": {
+    "700": "https://fonts.gstatic.com/s/agdasima/v4/PN_0Rfyxp2f1fUCgAPCGgBzT1PzTz2Mi.ttf",
+    "regular": "https://fonts.gstatic.com/s/agdasima/v4/PN_zRfyxp2f1fUCgAMg6rzjb_-Da.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/agdasima/v4/PN_zRfyxp2f1fUCgAPg7pTw.ttf"
+}

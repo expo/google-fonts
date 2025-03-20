@@ -12,17 +12,18 @@
     "latin-ext",
     "vietnamese"
   ],
-  "version": "v15",
-  "lastModified": "2022-09-27",
+  "version": "v16",
+  "lastModified": "2024-09-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/mplusrounded1c/v15/VdGCAYIAV6gnpUpoWwNkYvrugw9RuM3ixLsg6-av1x0.ttf",
-    "300": "http://fonts.gstatic.com/s/mplusrounded1c/v15/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM0q5psKxeqmzgRK.ttf",
-    "500": "http://fonts.gstatic.com/s/mplusrounded1c/v15/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM1y55sKxeqmzgRK.ttf",
-    "700": "http://fonts.gstatic.com/s/mplusrounded1c/v15/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM064ZsKxeqmzgRK.ttf",
-    "800": "http://fonts.gstatic.com/s/mplusrounded1c/v15/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM0m4psKxeqmzgRK.ttf",
-    "900": "http://fonts.gstatic.com/s/mplusrounded1c/v15/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM0C45sKxeqmzgRK.ttf",
-    "regular": "http://fonts.gstatic.com/s/mplusrounded1c/v15/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWGzr8C7vav.ttf"
+    "100": "https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGCAYIAV6gnpUpoWwNkYvrugw9RuM3ixLsg6-av1x0.ttf",
+    "300": "https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM0q5psKxeqmzgRK.ttf",
+    "500": "https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM1y55sKxeqmzgRK.ttf",
+    "700": "https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM064ZsKxeqmzgRK.ttf",
+    "800": "https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM0m4psKxeqmzgRK.ttf",
+    "900": "https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM0C45sKxeqmzgRK.ttf",
+    "regular": "https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWGzr8C7vav.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWHxLs.ttf"
 }

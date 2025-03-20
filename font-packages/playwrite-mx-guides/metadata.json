@@ -1,0 +1,13 @@
+{
+  "family": "Playwrite MX Guides",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v1",
+  "lastModified": "2024-12-10",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/playwritemxguides/v1/k3kMo9ESPe9dzQ1UGbvoZhnhbtfklWqN0qywHx-HpY0.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwritemxguides/v1/k3kMo9ESPe9dzQ1UGbvoZhnhbtfklWqN4q26Gw.ttf"
+}

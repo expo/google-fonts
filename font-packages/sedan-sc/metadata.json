@@ -1,0 +1,11 @@
+{
+  "family": "Sedan SC",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/sedansc/v2/yMJRMIlvYZ3Jn1Y30Dq8fSx5i814.ttf" },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/sedansc/v2/yMJRMIlvYZ3Jn1Y30Aq9dyg.ttf"
+}

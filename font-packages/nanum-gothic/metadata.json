@@ -2,13 +2,14 @@
   "family": "Nanum Gothic",
   "variants": ["regular", "700", "800"],
   "subsets": ["korean", "latin"],
-  "version": "v21",
-  "lastModified": "2022-09-27",
+  "version": "v26",
+  "lastModified": "2024-11-20",
   "files": {
-    "700": "http://fonts.gstatic.com/s/nanumgothic/v21/PN_oRfi-oW3hYwmKDpxS7F_LQv37zlEn14YEUQ.ttf",
-    "800": "http://fonts.gstatic.com/s/nanumgothic/v21/PN_oRfi-oW3hYwmKDpxS7F_LXv77zlEn14YEUQ.ttf",
-    "regular": "http://fonts.gstatic.com/s/nanumgothic/v21/PN_3Rfi-oW3hYwmKDpxS7F_z_tLfxno73g.ttf"
+    "700": "https://fonts.gstatic.com/s/nanumgothic/v26/PN_oRfi-oW3hYwmKDpxS7F_LQv37zlEn14YEUQ.ttf",
+    "800": "https://fonts.gstatic.com/s/nanumgothic/v26/PN_oRfi-oW3hYwmKDpxS7F_LXv77zlEn14YEUQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/nanumgothic/v26/PN_3Rfi-oW3hYwmKDpxS7F_z_tLfxno73g.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/nanumgothic/v26/PN_3Rfi-oW3hYwmKDpxS7F_D_9jb.ttf"
 }

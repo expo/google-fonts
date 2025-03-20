@@ -2,11 +2,12 @@
   "family": "New Tegomin",
   "variants": ["regular"],
   "subsets": ["japanese", "latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2022-09-27",
+  "version": "v12",
+  "lastModified": "2024-12-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/newtegomin/v10/SLXMc1fV7Gd9USdBAfPlqfN0Q3ptkDMN.ttf"
+    "regular": "https://fonts.gstatic.com/s/newtegomin/v12/SLXMc1fV7Gd9USdBAfPlqfN0Q3ptkDMN.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/newtegomin/v12/SLXMc1fV7Gd9USdBAfPlqcN1SX4.ttf"
 }

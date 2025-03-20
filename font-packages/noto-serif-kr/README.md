@@ -11,7 +11,7 @@ This package lets you use the [**Noto Serif KR**](https://fonts.google.com/speci
 
 ![Noto Serif KR](./font-family.png)
 
-This font family contains [7 styles](#-gallery).
+This font family contains [8 styles](#-gallery).
 
 - `NotoSerifKR_200ExtraLight`
 - `NotoSerifKR_300Light`
@@ -19,6 +19,7 @@ This font family contains [7 styles](#-gallery).
 - `NotoSerifKR_500Medium`
 - `NotoSerifKR_600SemiBold`
 - `NotoSerifKR_700Bold`
+- `NotoSerifKR_800ExtraBold`
 - `NotoSerifKR_900Black`
 
 ## Usage
@@ -42,6 +43,7 @@ import {
   NotoSerifKR_500Medium,
   NotoSerifKR_600SemiBold,
   NotoSerifKR_700Bold,
+  NotoSerifKR_800ExtraBold,
   NotoSerifKR_900Black,
 } from '@expo-google-fonts/noto-serif-kr';
 
@@ -53,6 +55,7 @@ export default () => {
     NotoSerifKR_500Medium,
     NotoSerifKR_600SemiBold,
     NotoSerifKR_700Bold,
+    NotoSerifKR_800ExtraBold,
     NotoSerifKR_900Black,
   });
 
@@ -129,6 +132,16 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'NotoSerifKR_800ExtraBold',
+          }}>
+          Noto Serif KR Extra Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'NotoSerifKR_900Black',
           }}>
           Noto Serif KR Black
@@ -147,7 +160,7 @@ export default () => {
 |-|-|-|
 |![NotoSerifKR_200ExtraLight](./NotoSerifKR_200ExtraLight.ttf.png)|![NotoSerifKR_300Light](./NotoSerifKR_300Light.ttf.png)|![NotoSerifKR_400Regular](./NotoSerifKR_400Regular.ttf.png)||
 |![NotoSerifKR_500Medium](./NotoSerifKR_500Medium.ttf.png)|![NotoSerifKR_600SemiBold](./NotoSerifKR_600SemiBold.ttf.png)|![NotoSerifKR_700Bold](./NotoSerifKR_700Bold.ttf.png)||
-|![NotoSerifKR_900Black](./NotoSerifKR_900Black.ttf.png)||||
+|![NotoSerifKR_800ExtraBold](./NotoSerifKR_800ExtraBold.ttf.png)|![NotoSerifKR_900Black](./NotoSerifKR_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

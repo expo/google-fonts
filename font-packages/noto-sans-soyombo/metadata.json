@@ -1,12 +1,13 @@
 {
   "family": "Noto Sans Soyombo",
   "variants": ["regular"],
-  "subsets": ["soyombo"],
-  "version": "v15",
-  "lastModified": "2022-05-10",
+  "subsets": ["latin", "latin-ext", "soyombo"],
+  "version": "v17",
+  "lastModified": "2023-07-24",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosanssoyombo/v15/RWmSoL-Y6-8q5LTtXs6MF6q7xsxgY0FrIFOcK25W.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanssoyombo/v17/RWmSoL-Y6-8q5LTtXs6MF6q7xsxgY0FrIFOcK25W.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanssoyombo/v17/RWmSoL-Y6-8q5LTtXs6MF6q7xsxgY3FqKlc.ttf"
 }

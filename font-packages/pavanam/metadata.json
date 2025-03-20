@@ -3,8 +3,9 @@
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "tamil"],
   "version": "v11",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/pavanam/v11/BXRrvF_aiezLh0xPDOtQ9Wf0QcE.ttf" },
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/pavanam/v11/BXRrvF_aiezLh0xPDOtQ9Wf0QcE.ttf" },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/pavanam/v11/BXRrvF_aiezLh0xPPOpa8Q.ttf"
 }

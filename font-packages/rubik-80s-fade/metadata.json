@@ -2,11 +2,12 @@
   "family": "Rubik 80s Fade",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext"],
-  "version": "v1",
-  "lastModified": "2022-12-08",
+  "version": "v2",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/rubik80sfade/v1/U9MF6dW37nLSmnwZXyoV-uPXUhHwkbL8IHcK.ttf"
+    "regular": "https://fonts.gstatic.com/s/rubik80sfade/v2/U9MF6dW37nLSmnwZXyoV-uPXUhHwkbL8IHcK.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/rubik80sfade/v2/U9MF6dW37nLSmnwZXyoV-uPXUiHxm7Y.ttf"
 }

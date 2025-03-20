@@ -1,0 +1,37 @@
+{
+  "family": "Schibsted Grotesk",
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic",
+    "800italic",
+    "900italic"
+  ],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v3",
+  "lastModified": "2024-09-04",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/schibstedgrotesk/v3/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNEMEAT8JuXFGVOQ.ttf",
+    "600": "https://fonts.gstatic.com/s/schibstedgrotesk/v3/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMN_MYAT8JuXFGVOQ.ttf",
+    "700": "https://fonts.gstatic.com/s/schibstedgrotesk/v3/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNxcYAT8JuXFGVOQ.ttf",
+    "800": "https://fonts.gstatic.com/s/schibstedgrotesk/v3/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNosYAT8JuXFGVOQ.ttf",
+    "900": "https://fonts.gstatic.com/s/schibstedgrotesk/v3/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNi8YAT8JuXFGVOQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/schibstedgrotesk/v3/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNIsEAT8JuXFGVOQ.ttf",
+    "italic": "https://fonts.gstatic.com/s/schibstedgrotesk/v3/JqzI5SSPQuCQF3t8uOwiUL-taUTtap9DcSQBg_nT9FQY6oLoDMhqflSFOTXs.ttf",
+    "500italic": "https://fonts.gstatic.com/s/schibstedgrotesk/v3/JqzI5SSPQuCQF3t8uOwiUL-taUTtap9DcSQBg_nT9FQY6oLaDMhqflSFOTXs.ttf",
+    "600italic": "https://fonts.gstatic.com/s/schibstedgrotesk/v3/JqzI5SSPQuCQF3t8uOwiUL-taUTtap9DcSQBg_nT9FQY6oI2C8hqflSFOTXs.ttf",
+    "700italic": "https://fonts.gstatic.com/s/schibstedgrotesk/v3/JqzI5SSPQuCQF3t8uOwiUL-taUTtap9DcSQBg_nT9FQY6oIPC8hqflSFOTXs.ttf",
+    "800italic": "https://fonts.gstatic.com/s/schibstedgrotesk/v3/JqzI5SSPQuCQF3t8uOwiUL-taUTtap9DcSQBg_nT9FQY6oJoC8hqflSFOTXs.ttf",
+    "900italic": "https://fonts.gstatic.com/s/schibstedgrotesk/v3/JqzI5SSPQuCQF3t8uOwiUL-taUTtap9DcSQBg_nT9FQY6oJBC8hqflSFOTXs.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/schibstedgrotesk/v3/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNIsEwTshq.ttf"
+}

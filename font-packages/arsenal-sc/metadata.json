@@ -1,0 +1,16 @@
+{
+  "family": "Arsenal SC",
+  "variants": ["regular", "italic", "700", "700italic"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": {
+    "700": "https://fonts.gstatic.com/s/arsenalsc/v1/x3dmckLHea6e5BEtsfxiZGYDly7HAQsyA2Y.ttf",
+    "regular": "https://fonts.gstatic.com/s/arsenalsc/v1/x3dlckLHea6e5BEtsfxiXNossybsHQI.ttf",
+    "italic": "https://fonts.gstatic.com/s/arsenalsc/v1/x3dnckLHea6e5BEtsfxibNgmtwTpDQIrGg.ttf",
+    "700italic": "https://fonts.gstatic.com/s/arsenalsc/v1/x3d4ckLHea6e5BEtsfxibNgeCyvNBSk3E2YljQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/arsenalsc/v1/x3dlckLHea6e5BEtsfxibNsmtw.ttf"
+}

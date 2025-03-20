@@ -17,24 +17,25 @@
     "700italic"
   ],
   "subsets": ["latin"],
-  "version": "v20",
-  "lastModified": "2022-07-12",
+  "version": "v27",
+  "lastModified": "2024-12-04",
   "files": {
-    "100": "http://fonts.gstatic.com/s/josefinslab/v20/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W71mtd3k3K6CcEyI.ttf",
-    "200": "http://fonts.gstatic.com/s/josefinslab/v20/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W79msd3k3K6CcEyI.ttf",
-    "300": "http://fonts.gstatic.com/s/josefinslab/v20/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W7wesd3k3K6CcEyI.ttf",
-    "500": "http://fonts.gstatic.com/s/josefinslab/v20/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W72usd3k3K6CcEyI.ttf",
-    "600": "http://fonts.gstatic.com/s/josefinslab/v20/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W74erd3k3K6CcEyI.ttf",
-    "700": "http://fonts.gstatic.com/s/josefinslab/v20/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W776rd3k3K6CcEyI.ttf",
-    "regular": "http://fonts.gstatic.com/s/josefinslab/v20/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W71msd3k3K6CcEyI.ttf",
-    "100italic": "http://fonts.gstatic.com/s/josefinslab/v20/lW-qwjwOK3Ps5GSJlNNkMalnrxShJj4wo7AR-pHvnzs9L4KZAyK43w.ttf",
-    "200italic": "http://fonts.gstatic.com/s/josefinslab/v20/lW-qwjwOK3Ps5GSJlNNkMalnrxShJj4wo7AR-pHvHzo9L4KZAyK43w.ttf",
-    "300italic": "http://fonts.gstatic.com/s/josefinslab/v20/lW-qwjwOK3Ps5GSJlNNkMalnrxShJj4wo7AR-pHvwTo9L4KZAyK43w.ttf",
-    "italic": "http://fonts.gstatic.com/s/josefinslab/v20/lW-qwjwOK3Ps5GSJlNNkMalnrxShJj4wo7AR-pHvnzo9L4KZAyK43w.ttf",
-    "500italic": "http://fonts.gstatic.com/s/josefinslab/v20/lW-qwjwOK3Ps5GSJlNNkMalnrxShJj4wo7AR-pHvrTo9L4KZAyK43w.ttf",
-    "600italic": "http://fonts.gstatic.com/s/josefinslab/v20/lW-qwjwOK3Ps5GSJlNNkMalnrxShJj4wo7AR-pHvQT09L4KZAyK43w.ttf",
-    "700italic": "http://fonts.gstatic.com/s/josefinslab/v20/lW-qwjwOK3Ps5GSJlNNkMalnrxShJj4wo7AR-pHveD09L4KZAyK43w.ttf"
+    "100": "https://fonts.gstatic.com/s/josefinslab/v27/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W71mtd3k3K6CcEyI.ttf",
+    "200": "https://fonts.gstatic.com/s/josefinslab/v27/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W79msd3k3K6CcEyI.ttf",
+    "300": "https://fonts.gstatic.com/s/josefinslab/v27/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W7wesd3k3K6CcEyI.ttf",
+    "500": "https://fonts.gstatic.com/s/josefinslab/v27/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W72usd3k3K6CcEyI.ttf",
+    "600": "https://fonts.gstatic.com/s/josefinslab/v27/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W74erd3k3K6CcEyI.ttf",
+    "700": "https://fonts.gstatic.com/s/josefinslab/v27/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W776rd3k3K6CcEyI.ttf",
+    "regular": "https://fonts.gstatic.com/s/josefinslab/v27/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W71msd3k3K6CcEyI.ttf",
+    "100italic": "https://fonts.gstatic.com/s/josefinslab/v27/lW-qwjwOK3Ps5GSJlNNkMalnrxShJj4wo7AR-pHvnzs9L4KZAyK43w.ttf",
+    "200italic": "https://fonts.gstatic.com/s/josefinslab/v27/lW-qwjwOK3Ps5GSJlNNkMalnrxShJj4wo7AR-pHvHzo9L4KZAyK43w.ttf",
+    "300italic": "https://fonts.gstatic.com/s/josefinslab/v27/lW-qwjwOK3Ps5GSJlNNkMalnrxShJj4wo7AR-pHvwTo9L4KZAyK43w.ttf",
+    "italic": "https://fonts.gstatic.com/s/josefinslab/v27/lW-qwjwOK3Ps5GSJlNNkMalnrxShJj4wo7AR-pHvnzo9L4KZAyK43w.ttf",
+    "500italic": "https://fonts.gstatic.com/s/josefinslab/v27/lW-qwjwOK3Ps5GSJlNNkMalnrxShJj4wo7AR-pHvrTo9L4KZAyK43w.ttf",
+    "600italic": "https://fonts.gstatic.com/s/josefinslab/v27/lW-qwjwOK3Ps5GSJlNNkMalnrxShJj4wo7AR-pHvQT09L4KZAyK43w.ttf",
+    "700italic": "https://fonts.gstatic.com/s/josefinslab/v27/lW-qwjwOK3Ps5GSJlNNkMalnrxShJj4wo7AR-pHveD09L4KZAyK43w.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/josefinslab/v27/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W71msR3g9Lw.ttf"
 }

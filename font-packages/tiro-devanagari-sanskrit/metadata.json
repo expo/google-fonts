@@ -3,11 +3,12 @@
   "variants": ["regular", "italic"],
   "subsets": ["devanagari", "latin", "latin-ext"],
   "version": "v5",
-  "lastModified": "2023-01-06",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/tirodevanagarisanskrit/v5/MCoAzBbr09vVUgVBM8FWu_yZdZkhkg-I0nUlb59pEoEqgtOh0w.ttf",
-    "italic": "http://fonts.gstatic.com/s/tirodevanagarisanskrit/v5/MCoGzBbr09vVUgVBM8FWu_yZdZkhkg-I0nUlb59ZEIsuoNax06MM.ttf"
+    "regular": "https://fonts.gstatic.com/s/tirodevanagarisanskrit/v5/MCoAzBbr09vVUgVBM8FWu_yZdZkhkg-I0nUlb59pEoEqgtOh0w.ttf",
+    "italic": "https://fonts.gstatic.com/s/tirodevanagarisanskrit/v5/MCoGzBbr09vVUgVBM8FWu_yZdZkhkg-I0nUlb59ZEIsuoNax06MM.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/tirodevanagarisanskrit/v5/MCoAzBbr09vVUgVBM8FWu_yZdZkhkg-I0nUlb59ZE4su.ttf"
 }

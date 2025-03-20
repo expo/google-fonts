@@ -1,0 +1,14 @@
+{
+  "family": "Playwrite GB J Guides",
+  "variants": ["regular", "italic"],
+  "subsets": ["latin"],
+  "version": "v2",
+  "lastModified": "2024-12-10",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/playwritegbjguides/v2/CSRh4yJOn-mMWCgLPl16K6UKAvM5yY1BdhmIKxooUh-_nQ.ttf",
+    "italic": "https://fonts.gstatic.com/s/playwritegbjguides/v2/CSRv4yJOn-mMWCgLPl16K6UKAvM5yY1Bdhm4KRAscBqvnb7O.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwritegbjguides/v2/CSRh4yJOn-mMWCgLPl16K6UKAvM5yY1Bdhm4KhAs.ttf"
+}

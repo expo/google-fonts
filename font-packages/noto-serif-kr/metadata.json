@@ -1,18 +1,20 @@
 {
   "family": "Noto Serif KR",
-  "variants": ["200", "300", "regular", "500", "600", "700", "900"],
-  "subsets": ["korean", "latin"],
-  "version": "v20",
-  "lastModified": "2022-09-27",
+  "variants": ["200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["cyrillic", "korean", "latin", "latin-ext", "vietnamese"],
+  "version": "v28",
+  "lastModified": "2024-09-23",
   "files": {
-    "200": "http://fonts.gstatic.com/s/notoserifkr/v20/3JnmSDn90Gmq2mr3blnHaTZXTihC8O1ZNH1ahck.otf",
-    "300": "http://fonts.gstatic.com/s/notoserifkr/v20/3JnmSDn90Gmq2mr3blnHaTZXTkxB8O1ZNH1ahck.otf",
-    "500": "http://fonts.gstatic.com/s/notoserifkr/v20/3JnmSDn90Gmq2mr3blnHaTZXThRA8O1ZNH1ahck.otf",
-    "600": "http://fonts.gstatic.com/s/notoserifkr/v20/3JnmSDn90Gmq2mr3blnHaTZXTjhH8O1ZNH1ahck.otf",
-    "700": "http://fonts.gstatic.com/s/notoserifkr/v20/3JnmSDn90Gmq2mr3blnHaTZXTlxG8O1ZNH1ahck.otf",
-    "900": "http://fonts.gstatic.com/s/notoserifkr/v20/3JnmSDn90Gmq2mr3blnHaTZXTmRE8O1ZNH1ahck.otf",
-    "regular": "http://fonts.gstatic.com/s/notoserifkr/v20/3Jn7SDn90Gmq2mr3blnHaTZXduZp1ONyKHQ.otf"
+    "200": "https://fonts.gstatic.com/s/notoserifkr/v28/3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOnchmeM524ZvTePRu.ttf",
+    "300": "https://fonts.gstatic.com/s/notoserifkr/v28/3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOnci4eM524ZvTePRu.ttf",
+    "500": "https://fonts.gstatic.com/s/notoserifkr/v28/3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncjUeM524ZvTePRu.ttf",
+    "600": "https://fonts.gstatic.com/s/notoserifkr/v28/3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncg4f8524ZvTePRu.ttf",
+    "700": "https://fonts.gstatic.com/s/notoserifkr/v28/3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncgBf8524ZvTePRu.ttf",
+    "800": "https://fonts.gstatic.com/s/notoserifkr/v28/3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOnchmf8524ZvTePRu.ttf",
+    "900": "https://fonts.gstatic.com/s/notoserifkr/v28/3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOnchPf8524ZvTePRu.ttf",
+    "regular": "https://fonts.gstatic.com/s/notoserifkr/v28/3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncjmeM524ZvTePRu.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notoserifkr/v28/3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncjmeP53658.ttf"
 }

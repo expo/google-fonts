@@ -2,11 +2,12 @@
   "family": "Graduate",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2022-09-22",
+  "version": "v17",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/graduate/v13/C8cg4cs3o2n15t_2YxgR6X2NZAn2.ttf"
+    "regular": "https://fonts.gstatic.com/s/graduate/v17/C8cg4cs3o2n15t_2YxgR6X2NZAn2.ttf"
   },
-  "category": "display",
-  "kind": "webfonts#webfont"
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/graduate/v17/C8cg4cs3o2n15t_2YygQ43k.ttf"
 }

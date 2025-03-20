@@ -3,14 +3,15 @@
   "variants": ["300", "regular", "500", "700", "800"],
   "subsets": ["latin"],
   "version": "v18",
-  "lastModified": "2023-02-16",
+  "lastModified": "2024-09-04",
   "files": {
-    "300": "http://fonts.gstatic.com/s/solway/v18/AMOTz46Cs2uTAOCuLlgZms0QW3mqyg.ttf",
-    "500": "http://fonts.gstatic.com/s/solway/v18/AMOTz46Cs2uTAOCudlkZms0QW3mqyg.ttf",
-    "700": "http://fonts.gstatic.com/s/solway/v18/AMOTz46Cs2uTAOCuPl8Zms0QW3mqyg.ttf",
-    "800": "http://fonts.gstatic.com/s/solway/v18/AMOTz46Cs2uTAOCuIlwZms0QW3mqyg.ttf",
-    "regular": "http://fonts.gstatic.com/s/solway/v18/AMOQz46Cs2uTAOCWgnA9kuYMUg.ttf"
+    "300": "https://fonts.gstatic.com/s/solway/v18/AMOTz46Cs2uTAOCuLlgZms0QW3mqyg.ttf",
+    "500": "https://fonts.gstatic.com/s/solway/v18/AMOTz46Cs2uTAOCudlkZms0QW3mqyg.ttf",
+    "700": "https://fonts.gstatic.com/s/solway/v18/AMOTz46Cs2uTAOCuPl8Zms0QW3mqyg.ttf",
+    "800": "https://fonts.gstatic.com/s/solway/v18/AMOTz46Cs2uTAOCuIlwZms0QW3mqyg.ttf",
+    "regular": "https://fonts.gstatic.com/s/solway/v18/AMOQz46Cs2uTAOCWgnA9kuYMUg.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/solway/v18/AMOQz46Cs2uTAOCmg3o5.ttf"
 }

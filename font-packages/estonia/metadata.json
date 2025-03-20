@@ -2,9 +2,10 @@
   "family": "Estonia",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v9",
-  "lastModified": "2022-09-22",
-  "files": { "regular": "http://fonts.gstatic.com/s/estonia/v9/7Au_p_4ijSecA1yHCCL8zkwMIFg.ttf" },
+  "version": "v11",
+  "lastModified": "2024-09-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/estonia/v11/7Au_p_4ijSecA1yHCCL8zkwMIFg.ttf" },
   "category": "handwriting",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/estonia/v11/7Au_p_4ijSecA1yHOCP2yg.ttf"
 }

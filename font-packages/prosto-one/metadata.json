@@ -2,11 +2,12 @@
   "family": "Prosto One",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2022-09-22",
+  "version": "v19",
+  "lastModified": "2024-09-04",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/prostoone/v17/OpNJno4VhNfK-RgpwWWxpipfWhXD00c.ttf"
+    "regular": "https://fonts.gstatic.com/s/prostoone/v19/OpNJno4VhNfK-RgpwWWxpipfWhXD00c.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/prostoone/v19/OpNJno4VhNfK-RgpwWWxlitVXg.ttf"
 }

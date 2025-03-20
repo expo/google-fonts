@@ -2,14 +2,15 @@
   "family": "Andika",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v22",
-  "lastModified": "2022-09-22",
+  "version": "v25",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/andika/v22/mem8Ya6iyW-Lwqg40ZM1UpcaXcl0Aw.ttf",
-    "regular": "http://fonts.gstatic.com/s/andika/v22/mem_Ya6iyW-LwqgAbbwRWrwGVA.ttf",
-    "italic": "http://fonts.gstatic.com/s/andika/v22/mem9Ya6iyW-Lwqgwb7YVeLkWVNBt.ttf",
-    "700italic": "http://fonts.gstatic.com/s/andika/v22/mem6Ya6iyW-Lwqgwb46pV50ef8xkA76a.ttf"
+    "700": "https://fonts.gstatic.com/s/andika/v25/mem8Ya6iyW-Lwqg40ZM1UpcaXcl0Aw.ttf",
+    "regular": "https://fonts.gstatic.com/s/andika/v25/mem_Ya6iyW-LwqgAbbwRWrwGVA.ttf",
+    "italic": "https://fonts.gstatic.com/s/andika/v25/mem9Ya6iyW-Lwqgwb7YVeLkWVNBt.ttf",
+    "700italic": "https://fonts.gstatic.com/s/andika/v25/mem6Ya6iyW-Lwqgwb46pV50ef8xkA76a.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/andika/v25/mem_Ya6iyW-LwqgwbLYV.ttf"
 }

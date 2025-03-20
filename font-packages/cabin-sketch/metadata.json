@@ -2,12 +2,13 @@
   "family": "Cabin Sketch",
   "variants": ["regular", "700"],
   "subsets": ["latin"],
-  "version": "v19",
-  "lastModified": "2022-09-22",
+  "version": "v21",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/cabinsketch/v19/QGY2z_kZZAGCONcK2A4bGOj0I_1o4dLyI4CMFw.ttf",
-    "regular": "http://fonts.gstatic.com/s/cabinsketch/v19/QGYpz_kZZAGCONcK2A4bGOjMn9JM6fnuKg.ttf"
+    "700": "https://fonts.gstatic.com/s/cabinsketch/v21/QGY2z_kZZAGCONcK2A4bGOj0I_1o4dLyI4CMFw.ttf",
+    "regular": "https://fonts.gstatic.com/s/cabinsketch/v21/QGYpz_kZZAGCONcK2A4bGOjMn9JM6fnuKg.ttf"
   },
   "category": "display",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/cabinsketch/v21/QGYpz_kZZAGCONcK2A4bGOj8nthI.ttf"
 }

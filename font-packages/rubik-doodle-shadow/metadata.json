@@ -1,0 +1,13 @@
+{
+  "family": "Rubik Doodle Shadow",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext", "math", "symbols"],
+  "version": "v1",
+  "lastModified": "2024-09-04",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/rubikdoodleshadow/v1/rP2bp3im_k8G_wTVdvvMdHqmXTR3lEaLyKuZ3KOY7Gw.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/rubikdoodleshadow/v1/rP2bp3im_k8G_wTVdvvMdHqmXTR3lEaL-KqT2A.ttf"
+}

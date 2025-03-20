@@ -1,0 +1,13 @@
+{
+  "family": "Chokokutai",
+  "variants": ["regular"],
+  "subsets": ["japanese", "latin", "latin-ext", "vietnamese"],
+  "version": "v10",
+  "lastModified": "2024-08-07",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/chokokutai/v10/kmK4Zqw4HwvCeHGM8Fws9y7ypu1Kr7I.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/chokokutai/v10/kmK4Zqw4HwvCeHGM8Fwsxy_4og.ttf"
+}

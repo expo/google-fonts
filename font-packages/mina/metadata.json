@@ -3,11 +3,12 @@
   "variants": ["regular", "700"],
   "subsets": ["bengali", "latin", "latin-ext"],
   "version": "v11",
-  "lastModified": "2022-09-22",
+  "lastModified": "2024-09-04",
   "files": {
-    "700": "http://fonts.gstatic.com/s/mina/v11/-nF8OGc18vARl4NMyiXZ95OkJwA.ttf",
-    "regular": "http://fonts.gstatic.com/s/mina/v11/-nFzOGc18vARrz9j7i3y65o.ttf"
+    "700": "https://fonts.gstatic.com/s/mina/v11/-nF8OGc18vARl4NMyiXZ95OkJwA.ttf",
+    "regular": "https://fonts.gstatic.com/s/mina/v11/-nFzOGc18vARrz9j7i3y65o.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/mina/v11/-nFzOGc18vARnz5p6g.ttf"
 }

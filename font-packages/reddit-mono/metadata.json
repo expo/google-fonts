@@ -1,0 +1,20 @@
+{
+  "family": "Reddit Mono",
+  "variants": ["200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2024-09-04",
+  "files": {
+    "200": "https://fonts.gstatic.com/s/redditmono/v3/oPWc_kRmmu4oQ88oo13o48DHbsqn28eR20vUQCYacnnYz7yQYA.ttf",
+    "300": "https://fonts.gstatic.com/s/redditmono/v3/oPWc_kRmmu4oQ88oo13o48DHbsqn28eR20vUniYacnnYz7yQYA.ttf",
+    "500": "https://fonts.gstatic.com/s/redditmono/v3/oPWc_kRmmu4oQ88oo13o48DHbsqn28eR20vU8iYacnnYz7yQYA.ttf",
+    "600": "https://fonts.gstatic.com/s/redditmono/v3/oPWc_kRmmu4oQ88oo13o48DHbsqn28eR20vUHiEacnnYz7yQYA.ttf",
+    "700": "https://fonts.gstatic.com/s/redditmono/v3/oPWc_kRmmu4oQ88oo13o48DHbsqn28eR20vUJyEacnnYz7yQYA.ttf",
+    "800": "https://fonts.gstatic.com/s/redditmono/v3/oPWc_kRmmu4oQ88oo13o48DHbsqn28eR20vUQCEacnnYz7yQYA.ttf",
+    "900": "https://fonts.gstatic.com/s/redditmono/v3/oPWc_kRmmu4oQ88oo13o48DHbsqn28eR20vUaSEacnnYz7yQYA.ttf",
+    "regular": "https://fonts.gstatic.com/s/redditmono/v3/oPWc_kRmmu4oQ88oo13o48DHbsqn28eR20vUwCYacnnYz7yQYA.ttf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/redditmono/v3/oPWc_kRmmu4oQ88oo13o48DHbsqn28eR20vUwCYqc3Pc.ttf"
+}

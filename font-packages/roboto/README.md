@@ -11,19 +11,25 @@ This package lets you use the [**Roboto**](https://fonts.google.com/specimen/Rob
 
 ![Roboto](./font-family.png)
 
-This font family contains [12 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
 - `Roboto_100Thin`
-- `Roboto_100Thin_Italic`
+- `Roboto_200ExtraLight`
 - `Roboto_300Light`
-- `Roboto_300Light_Italic`
 - `Roboto_400Regular`
-- `Roboto_400Regular_Italic`
 - `Roboto_500Medium`
-- `Roboto_500Medium_Italic`
+- `Roboto_600SemiBold`
 - `Roboto_700Bold`
-- `Roboto_700Bold_Italic`
+- `Roboto_800ExtraBold`
 - `Roboto_900Black`
+- `Roboto_100Thin_Italic`
+- `Roboto_200ExtraLight_Italic`
+- `Roboto_300Light_Italic`
+- `Roboto_400Regular_Italic`
+- `Roboto_500Medium_Italic`
+- `Roboto_600SemiBold_Italic`
+- `Roboto_700Bold_Italic`
+- `Roboto_800ExtraBold_Italic`
 - `Roboto_900Black_Italic`
 
 ## Usage
@@ -42,32 +48,44 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   Roboto_100Thin,
-  Roboto_100Thin_Italic,
+  Roboto_200ExtraLight,
   Roboto_300Light,
-  Roboto_300Light_Italic,
   Roboto_400Regular,
-  Roboto_400Regular_Italic,
   Roboto_500Medium,
-  Roboto_500Medium_Italic,
+  Roboto_600SemiBold,
   Roboto_700Bold,
-  Roboto_700Bold_Italic,
+  Roboto_800ExtraBold,
   Roboto_900Black,
+  Roboto_100Thin_Italic,
+  Roboto_200ExtraLight_Italic,
+  Roboto_300Light_Italic,
+  Roboto_400Regular_Italic,
+  Roboto_500Medium_Italic,
+  Roboto_600SemiBold_Italic,
+  Roboto_700Bold_Italic,
+  Roboto_800ExtraBold_Italic,
   Roboto_900Black_Italic,
 } from '@expo-google-fonts/roboto';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Roboto_100Thin,
-    Roboto_100Thin_Italic,
+    Roboto_200ExtraLight,
     Roboto_300Light,
-    Roboto_300Light_Italic,
     Roboto_400Regular,
-    Roboto_400Regular_Italic,
     Roboto_500Medium,
-    Roboto_500Medium_Italic,
+    Roboto_600SemiBold,
     Roboto_700Bold,
-    Roboto_700Bold_Italic,
+    Roboto_800ExtraBold,
     Roboto_900Black,
+    Roboto_100Thin_Italic,
+    Roboto_200ExtraLight_Italic,
+    Roboto_300Light_Italic,
+    Roboto_400Regular_Italic,
+    Roboto_500Medium_Italic,
+    Roboto_600SemiBold_Italic,
+    Roboto_700Bold_Italic,
+    Roboto_800ExtraBold_Italic,
     Roboto_900Black_Italic,
   });
 
@@ -94,9 +112,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Roboto_100Thin_Italic',
+            fontFamily: 'Roboto_200ExtraLight',
           }}>
-          Roboto Thin Italic
+          Roboto Extra Light
         </Text>
 
         <Text
@@ -114,29 +132,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Roboto_300Light_Italic',
-          }}>
-          Roboto Light Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Roboto_400Regular',
           }}>
           Roboto Regular
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Roboto_400Regular_Italic',
-          }}>
-          Roboto Italic
         </Text>
 
         <Text
@@ -154,9 +152,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Roboto_500Medium_Italic',
+            fontFamily: 'Roboto_600SemiBold',
           }}>
-          Roboto Medium Italic
+          Roboto Semi Bold
         </Text>
 
         <Text
@@ -174,9 +172,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Roboto_700Bold_Italic',
+            fontFamily: 'Roboto_800ExtraBold',
           }}>
-          Roboto Bold Italic
+          Roboto Extra Bold
         </Text>
 
         <Text
@@ -187,6 +185,86 @@ export default () => {
             fontFamily: 'Roboto_900Black',
           }}>
           Roboto Black
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Roboto_100Thin_Italic',
+          }}>
+          Roboto Thin Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Roboto_200ExtraLight_Italic',
+          }}>
+          Roboto Extra Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Roboto_300Light_Italic',
+          }}>
+          Roboto Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Roboto_400Regular_Italic',
+          }}>
+          Roboto Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Roboto_500Medium_Italic',
+          }}>
+          Roboto Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Roboto_600SemiBold_Italic',
+          }}>
+          Roboto Semi Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Roboto_700Bold_Italic',
+          }}>
+          Roboto Bold Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Roboto_800ExtraBold_Italic',
+          }}>
+          Roboto Extra Bold Italic
         </Text>
 
         <Text
@@ -210,10 +288,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Roboto_100Thin](./Roboto_100Thin.ttf.png)|![Roboto_100Thin_Italic](./Roboto_100Thin_Italic.ttf.png)|![Roboto_300Light](./Roboto_300Light.ttf.png)||
-|![Roboto_300Light_Italic](./Roboto_300Light_Italic.ttf.png)|![Roboto_400Regular](./Roboto_400Regular.ttf.png)|![Roboto_400Regular_Italic](./Roboto_400Regular_Italic.ttf.png)||
-|![Roboto_500Medium](./Roboto_500Medium.ttf.png)|![Roboto_500Medium_Italic](./Roboto_500Medium_Italic.ttf.png)|![Roboto_700Bold](./Roboto_700Bold.ttf.png)||
-|![Roboto_700Bold_Italic](./Roboto_700Bold_Italic.ttf.png)|![Roboto_900Black](./Roboto_900Black.ttf.png)|![Roboto_900Black_Italic](./Roboto_900Black_Italic.ttf.png)||
+|![Roboto_100Thin](./Roboto_100Thin.ttf.png)|![Roboto_200ExtraLight](./Roboto_200ExtraLight.ttf.png)|![Roboto_300Light](./Roboto_300Light.ttf.png)||
+|![Roboto_400Regular](./Roboto_400Regular.ttf.png)|![Roboto_500Medium](./Roboto_500Medium.ttf.png)|![Roboto_600SemiBold](./Roboto_600SemiBold.ttf.png)||
+|![Roboto_700Bold](./Roboto_700Bold.ttf.png)|![Roboto_800ExtraBold](./Roboto_800ExtraBold.ttf.png)|![Roboto_900Black](./Roboto_900Black.ttf.png)||
+|![Roboto_100Thin_Italic](./Roboto_100Thin_Italic.ttf.png)|![Roboto_200ExtraLight_Italic](./Roboto_200ExtraLight_Italic.ttf.png)|![Roboto_300Light_Italic](./Roboto_300Light_Italic.ttf.png)||
+|![Roboto_400Regular_Italic](./Roboto_400Regular_Italic.ttf.png)|![Roboto_500Medium_Italic](./Roboto_500Medium_Italic.ttf.png)|![Roboto_600SemiBold_Italic](./Roboto_600SemiBold_Italic.ttf.png)||
+|![Roboto_700Bold_Italic](./Roboto_700Bold_Italic.ttf.png)|![Roboto_800ExtraBold_Italic](./Roboto_800ExtraBold_Italic.ttf.png)|![Roboto_900Black_Italic](./Roboto_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

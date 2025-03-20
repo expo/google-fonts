@@ -1,0 +1,16 @@
+{
+  "family": "Playwrite HR Lijeva",
+  "variants": ["100", "200", "300", "regular"],
+  "subsets": ["latin"],
+  "version": "v5",
+  "lastModified": "2025-02-12",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playwritehrlijeva/v5/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d4zB8aUy4_lxmKl.ttf",
+    "200": "https://fonts.gstatic.com/s/playwritehrlijeva/v5/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d6zBsaUy4_lxmKl.ttf",
+    "300": "https://fonts.gstatic.com/s/playwritehrlijeva/v5/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d5tBsaUy4_lxmKl.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwritehrlijeva/v5/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d4zBsaUy4_lxmKl.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwritehrlijeva/v5/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d4zBvaVwYs.ttf"
+}

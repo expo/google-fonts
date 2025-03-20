@@ -5,8 +5,9 @@
   "version": "v15",
   "lastModified": "2022-05-10",
   "files": {
-    "regular": "http://fonts.gstatic.com/s/notosanslycian/v15/QldVNSNMqAsHtsJ7UmqxBQA9r8wA5_naCJwn00E.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanslycian/v15/QldVNSNMqAsHtsJ7UmqxBQA9r8wA5_naCJwn00E.ttf"
   },
   "category": "sans-serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notosanslycian/v15/QldVNSNMqAsHtsJ7UmqxBQA9r8wA1_jQDA.ttf"
 }

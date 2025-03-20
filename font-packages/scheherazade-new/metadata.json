@@ -1,13 +1,16 @@
 {
   "family": "Scheherazade New",
-  "variants": ["regular", "700"],
+  "variants": ["regular", "500", "600", "700"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2022-11-09",
+  "version": "v17",
+  "lastModified": "2024-11-20",
   "files": {
-    "700": "http://fonts.gstatic.com/s/scheherazadenew/v14/4UaerFhTvxVnHDvUkUiHg8jprP4DM79DHlYC-IKnoSE.ttf",
-    "regular": "http://fonts.gstatic.com/s/scheherazadenew/v14/4UaZrFhTvxVnHDvUkUiHg8jprP4DCwNsOl4p5Is.ttf"
+    "500": "https://fonts.gstatic.com/s/scheherazadenew/v17/4UaerFhTvxVnHDvUkUiHg8jprP4DM_dFHlYC-IKnoSE.ttf",
+    "600": "https://fonts.gstatic.com/s/scheherazadenew/v17/4UaerFhTvxVnHDvUkUiHg8jprP4DM9tCHlYC-IKnoSE.ttf",
+    "700": "https://fonts.gstatic.com/s/scheherazadenew/v17/4UaerFhTvxVnHDvUkUiHg8jprP4DM79DHlYC-IKnoSE.ttf",
+    "regular": "https://fonts.gstatic.com/s/scheherazadenew/v17/4UaZrFhTvxVnHDvUkUiHg8jprP4DCwNsOl4p5Is.ttf"
   },
   "category": "serif",
-  "kind": "webfonts#webfont"
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/scheherazadenew/v17/4UaZrFhTvxVnHDvUkUiHg8jprP4DOwJmPg.ttf"
 }

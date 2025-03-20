@@ -1,0 +1,13 @@
+{
+  "family": "Slackside One",
+  "variants": ["regular"],
+  "subsets": ["japanese", "latin", "latin-ext"],
+  "version": "v11",
+  "lastModified": "2024-08-07",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/slacksideone/v11/EJRQQgMrXdcGsiBuvnRxodTwVy7VocNB6Iw.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/slacksideone/v11/EJRQQgMrXdcGsiBuvnRxodTwZy_fpQ.ttf"
+}
