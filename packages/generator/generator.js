@@ -77,6 +77,8 @@ let CPUBoundConcurrency = Math.max(1, physicalCpuCount - 1);
 let NetworkBoundConcurrency = 3;
 let IOBoundConcurrency = 2;
 
+const fontPrefix = 'font';
+
 async function main({ images, download } = { images: true, download: true }) {
   console.log('Getting directory');
   let fontDirectory = await getDirectory();
@@ -129,7 +131,9 @@ function infoForVariantKey(variantKey) {
 }
 
 function varNameForWebfont(webfont) {
-  return webfont.family.replace(/\s+/g, '');
+  const variant = webfont.family.replace(/\s+/g, '');
+  return (variant.match(/^\d/)) ? fontPrefix + variant : variant
+
 }
 
 function varNameForFontVariant(webfont, variantKey) {
@@ -960,7 +964,7 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
     'Nunito',
 
     'Bangers',
-    'Source Sans Pro',
+    'Source Sans 3',
     'Roboto Condensed',
 
     'Playfair Display',
