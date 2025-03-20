@@ -6,12 +6,12 @@ export { useFonts } from './useFonts';
 
 export { default as __metadata__ } from './metadata.json';
 export const CormorantInfant_300Light = require('./CormorantInfant_300Light.ttf');
-export const CormorantInfant_300Light_Italic = require('./CormorantInfant_300Light_Italic.ttf');
 export const CormorantInfant_400Regular = require('./CormorantInfant_400Regular.ttf');
-export const CormorantInfant_400Regular_Italic = require('./CormorantInfant_400Regular_Italic.ttf');
 export const CormorantInfant_500Medium = require('./CormorantInfant_500Medium.ttf');
-export const CormorantInfant_500Medium_Italic = require('./CormorantInfant_500Medium_Italic.ttf');
 export const CormorantInfant_600SemiBold = require('./CormorantInfant_600SemiBold.ttf');
-export const CormorantInfant_600SemiBold_Italic = require('./CormorantInfant_600SemiBold_Italic.ttf');
 export const CormorantInfant_700Bold = require('./CormorantInfant_700Bold.ttf');
+export const CormorantInfant_300Light_Italic = require('./CormorantInfant_300Light_Italic.ttf');
+export const CormorantInfant_400Regular_Italic = require('./CormorantInfant_400Regular_Italic.ttf');
+export const CormorantInfant_500Medium_Italic = require('./CormorantInfant_500Medium_Italic.ttf');
+export const CormorantInfant_600SemiBold_Italic = require('./CormorantInfant_600SemiBold_Italic.ttf');
 export const CormorantInfant_700Bold_Italic = require('./CormorantInfant_700Bold_Italic.ttf');

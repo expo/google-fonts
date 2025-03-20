@@ -14,14 +14,14 @@ This package lets you use the [**Cormorant Garamond**](https://fonts.google.com/
 This font family contains [10 styles](#-gallery).
 
 - `CormorantGaramond_300Light`
-- `CormorantGaramond_300Light_Italic`
 - `CormorantGaramond_400Regular`
-- `CormorantGaramond_400Regular_Italic`
 - `CormorantGaramond_500Medium`
-- `CormorantGaramond_500Medium_Italic`
 - `CormorantGaramond_600SemiBold`
-- `CormorantGaramond_600SemiBold_Italic`
 - `CormorantGaramond_700Bold`
+- `CormorantGaramond_300Light_Italic`
+- `CormorantGaramond_400Regular_Italic`
+- `CormorantGaramond_500Medium_Italic`
+- `CormorantGaramond_600SemiBold_Italic`
 - `CormorantGaramond_700Bold_Italic`
 
 ## Usage
@@ -40,28 +40,28 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   CormorantGaramond_300Light,
-  CormorantGaramond_300Light_Italic,
   CormorantGaramond_400Regular,
-  CormorantGaramond_400Regular_Italic,
   CormorantGaramond_500Medium,
-  CormorantGaramond_500Medium_Italic,
   CormorantGaramond_600SemiBold,
-  CormorantGaramond_600SemiBold_Italic,
   CormorantGaramond_700Bold,
+  CormorantGaramond_300Light_Italic,
+  CormorantGaramond_400Regular_Italic,
+  CormorantGaramond_500Medium_Italic,
+  CormorantGaramond_600SemiBold_Italic,
   CormorantGaramond_700Bold_Italic,
 } from '@expo-google-fonts/cormorant-garamond';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     CormorantGaramond_300Light,
-    CormorantGaramond_300Light_Italic,
     CormorantGaramond_400Regular,
-    CormorantGaramond_400Regular_Italic,
     CormorantGaramond_500Medium,
-    CormorantGaramond_500Medium_Italic,
     CormorantGaramond_600SemiBold,
-    CormorantGaramond_600SemiBold_Italic,
     CormorantGaramond_700Bold,
+    CormorantGaramond_300Light_Italic,
+    CormorantGaramond_400Regular_Italic,
+    CormorantGaramond_500Medium_Italic,
+    CormorantGaramond_600SemiBold_Italic,
     CormorantGaramond_700Bold_Italic,
   });
 
@@ -88,29 +88,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantGaramond_300Light_Italic',
-          }}>
-          Cormorant Garamond Light Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'CormorantGaramond_400Regular',
           }}>
           Cormorant Garamond Regular
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantGaramond_400Regular_Italic',
-          }}>
-          Cormorant Garamond Italic
         </Text>
 
         <Text
@@ -128,16 +108,6 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantGaramond_500Medium_Italic',
-          }}>
-          Cormorant Garamond Medium Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'CormorantGaramond_600SemiBold',
           }}>
           Cormorant Garamond Semi Bold
@@ -148,9 +118,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantGaramond_600SemiBold_Italic',
+            fontFamily: 'CormorantGaramond_700Bold',
           }}>
-          Cormorant Garamond Semi Bold Italic
+          Cormorant Garamond Bold
         </Text>
 
         <Text
@@ -158,9 +128,39 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantGaramond_700Bold',
+            fontFamily: 'CormorantGaramond_300Light_Italic',
           }}>
-          Cormorant Garamond Bold
+          Cormorant Garamond Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantGaramond_400Regular_Italic',
+          }}>
+          Cormorant Garamond Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantGaramond_500Medium_Italic',
+          }}>
+          Cormorant Garamond Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantGaramond_600SemiBold_Italic',
+          }}>
+          Cormorant Garamond Semi Bold Italic
         </Text>
 
         <Text
@@ -184,9 +184,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CormorantGaramond_300Light](./CormorantGaramond_300Light.ttf.png)|![CormorantGaramond_300Light_Italic](./CormorantGaramond_300Light_Italic.ttf.png)|![CormorantGaramond_400Regular](./CormorantGaramond_400Regular.ttf.png)||
-|![CormorantGaramond_400Regular_Italic](./CormorantGaramond_400Regular_Italic.ttf.png)|![CormorantGaramond_500Medium](./CormorantGaramond_500Medium.ttf.png)|![CormorantGaramond_500Medium_Italic](./CormorantGaramond_500Medium_Italic.ttf.png)||
-|![CormorantGaramond_600SemiBold](./CormorantGaramond_600SemiBold.ttf.png)|![CormorantGaramond_600SemiBold_Italic](./CormorantGaramond_600SemiBold_Italic.ttf.png)|![CormorantGaramond_700Bold](./CormorantGaramond_700Bold.ttf.png)||
+|![CormorantGaramond_300Light](./CormorantGaramond_300Light.ttf.png)|![CormorantGaramond_400Regular](./CormorantGaramond_400Regular.ttf.png)|![CormorantGaramond_500Medium](./CormorantGaramond_500Medium.ttf.png)||
+|![CormorantGaramond_600SemiBold](./CormorantGaramond_600SemiBold.ttf.png)|![CormorantGaramond_700Bold](./CormorantGaramond_700Bold.ttf.png)|![CormorantGaramond_300Light_Italic](./CormorantGaramond_300Light_Italic.ttf.png)||
+|![CormorantGaramond_400Regular_Italic](./CormorantGaramond_400Regular_Italic.ttf.png)|![CormorantGaramond_500Medium_Italic](./CormorantGaramond_500Medium_Italic.ttf.png)|![CormorantGaramond_600SemiBold_Italic](./CormorantGaramond_600SemiBold_Italic.ttf.png)||
 |![CormorantGaramond_700Bold_Italic](./CormorantGaramond_700Bold_Italic.ttf.png)||||
 
 

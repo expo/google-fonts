@@ -1,0 +1,11 @@
+{
+  "family": "Gidole",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "greek", "latin", "latin-ext", "vietnamese"],
+  "version": "v24",
+  "lastModified": "2025-03-18",
+  "files": { "regular": "https://fonts.gstatic.com/s/gidole/v24/sZlFdR6O8zVVEiMaCJtWS6EPcA.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/gidole/v24/sZlFdR6O8zVVEiMqCZFS.ttf"
+}

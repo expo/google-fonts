@@ -14,14 +14,14 @@ This package lets you use the [**Cormorant Infant**](https://fonts.google.com/sp
 This font family contains [10 styles](#-gallery).
 
 - `CormorantInfant_300Light`
-- `CormorantInfant_300Light_Italic`
 - `CormorantInfant_400Regular`
-- `CormorantInfant_400Regular_Italic`
 - `CormorantInfant_500Medium`
-- `CormorantInfant_500Medium_Italic`
 - `CormorantInfant_600SemiBold`
-- `CormorantInfant_600SemiBold_Italic`
 - `CormorantInfant_700Bold`
+- `CormorantInfant_300Light_Italic`
+- `CormorantInfant_400Regular_Italic`
+- `CormorantInfant_500Medium_Italic`
+- `CormorantInfant_600SemiBold_Italic`
 - `CormorantInfant_700Bold_Italic`
 
 ## Usage
@@ -40,28 +40,28 @@ import AppLoading from 'expo-app-loading';
 import {
   useFonts,
   CormorantInfant_300Light,
-  CormorantInfant_300Light_Italic,
   CormorantInfant_400Regular,
-  CormorantInfant_400Regular_Italic,
   CormorantInfant_500Medium,
-  CormorantInfant_500Medium_Italic,
   CormorantInfant_600SemiBold,
-  CormorantInfant_600SemiBold_Italic,
   CormorantInfant_700Bold,
+  CormorantInfant_300Light_Italic,
+  CormorantInfant_400Regular_Italic,
+  CormorantInfant_500Medium_Italic,
+  CormorantInfant_600SemiBold_Italic,
   CormorantInfant_700Bold_Italic,
 } from '@expo-google-fonts/cormorant-infant';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     CormorantInfant_300Light,
-    CormorantInfant_300Light_Italic,
     CormorantInfant_400Regular,
-    CormorantInfant_400Regular_Italic,
     CormorantInfant_500Medium,
-    CormorantInfant_500Medium_Italic,
     CormorantInfant_600SemiBold,
-    CormorantInfant_600SemiBold_Italic,
     CormorantInfant_700Bold,
+    CormorantInfant_300Light_Italic,
+    CormorantInfant_400Regular_Italic,
+    CormorantInfant_500Medium_Italic,
+    CormorantInfant_600SemiBold_Italic,
     CormorantInfant_700Bold_Italic,
   });
 
@@ -88,29 +88,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantInfant_300Light_Italic',
-          }}>
-          Cormorant Infant Light Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'CormorantInfant_400Regular',
           }}>
           Cormorant Infant Regular
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantInfant_400Regular_Italic',
-          }}>
-          Cormorant Infant Italic
         </Text>
 
         <Text
@@ -128,16 +108,6 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantInfant_500Medium_Italic',
-          }}>
-          Cormorant Infant Medium Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'CormorantInfant_600SemiBold',
           }}>
           Cormorant Infant Semi Bold
@@ -148,9 +118,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantInfant_600SemiBold_Italic',
+            fontFamily: 'CormorantInfant_700Bold',
           }}>
-          Cormorant Infant Semi Bold Italic
+          Cormorant Infant Bold
         </Text>
 
         <Text
@@ -158,9 +128,39 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantInfant_700Bold',
+            fontFamily: 'CormorantInfant_300Light_Italic',
           }}>
-          Cormorant Infant Bold
+          Cormorant Infant Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantInfant_400Regular_Italic',
+          }}>
+          Cormorant Infant Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantInfant_500Medium_Italic',
+          }}>
+          Cormorant Infant Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantInfant_600SemiBold_Italic',
+          }}>
+          Cormorant Infant Semi Bold Italic
         </Text>
 
         <Text
@@ -184,9 +184,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CormorantInfant_300Light](./CormorantInfant_300Light.ttf.png)|![CormorantInfant_300Light_Italic](./CormorantInfant_300Light_Italic.ttf.png)|![CormorantInfant_400Regular](./CormorantInfant_400Regular.ttf.png)||
-|![CormorantInfant_400Regular_Italic](./CormorantInfant_400Regular_Italic.ttf.png)|![CormorantInfant_500Medium](./CormorantInfant_500Medium.ttf.png)|![CormorantInfant_500Medium_Italic](./CormorantInfant_500Medium_Italic.ttf.png)||
-|![CormorantInfant_600SemiBold](./CormorantInfant_600SemiBold.ttf.png)|![CormorantInfant_600SemiBold_Italic](./CormorantInfant_600SemiBold_Italic.ttf.png)|![CormorantInfant_700Bold](./CormorantInfant_700Bold.ttf.png)||
+|![CormorantInfant_300Light](./CormorantInfant_300Light.ttf.png)|![CormorantInfant_400Regular](./CormorantInfant_400Regular.ttf.png)|![CormorantInfant_500Medium](./CormorantInfant_500Medium.ttf.png)||
+|![CormorantInfant_600SemiBold](./CormorantInfant_600SemiBold.ttf.png)|![CormorantInfant_700Bold](./CormorantInfant_700Bold.ttf.png)|![CormorantInfant_300Light_Italic](./CormorantInfant_300Light_Italic.ttf.png)||
+|![CormorantInfant_400Regular_Italic](./CormorantInfant_400Regular_Italic.ttf.png)|![CormorantInfant_500Medium_Italic](./CormorantInfant_500Medium_Italic.ttf.png)|![CormorantInfant_600SemiBold_Italic](./CormorantInfant_600SemiBold_Italic.ttf.png)||
 |![CormorantInfant_700Bold_Italic](./CormorantInfant_700Bold_Italic.ttf.png)||||
 
 

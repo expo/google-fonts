@@ -1,14 +1,16 @@
 {
   "family": "Buenard",
-  "variants": ["regular", "700"],
+  "variants": ["regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2024-09-04",
+  "version": "v20",
+  "lastModified": "2025-03-05",
   "files": {
-    "700": "https://fonts.gstatic.com/s/buenard/v17/OD5GuM6Cyma8FnnsB4vSjGCWALepwss.ttf",
-    "regular": "https://fonts.gstatic.com/s/buenard/v17/OD5DuM6Cyma8FnnsPzf9qGi9HL4.ttf"
+    "500": "https://fonts.gstatic.com/s/buenard/v20/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqbK0_3iBYVfsc4.ttf",
+    "600": "https://fonts.gstatic.com/s/buenard/v20/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sp3LE_3iBYVfsc4.ttf",
+    "700": "https://fonts.gstatic.com/s/buenard/v20/OD5cuM6Cyma8FnnsJTzfWLAhv7i92spOLE_3iBYVfsc4.ttf",
+    "regular": "https://fonts.gstatic.com/s/buenard/v20/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqpK0_3iBYVfsc4.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/buenard/v17/OD5DuM6Cyma8FnnsDzb3rA.ttf"
+  "menu": "https://fonts.gstatic.com/s/buenard/v20/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqpK3_2ghI.ttf"
 }

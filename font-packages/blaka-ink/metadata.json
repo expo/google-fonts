@@ -2,13 +2,13 @@
   "family": "Blaka Ink",
   "variants": ["regular"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2024-09-04",
+  "version": "v10",
+  "lastModified": "2025-03-03",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/blakaink/v8/AlZy_zVVtpj22Znag2chdXf4XB0Tow.ttf"
+    "regular": "https://fonts.gstatic.com/s/blakaink/v10/AlZy_zVVtpj22Znag2chdXf4XB0Tow.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/blakaink/v8/AlZy_zVVtpj22Znag2cRdH38.ttf",
+  "menu": "https://fonts.gstatic.com/s/blakaink/v10/AlZy_zVVtpj22Znag2cRdH38.ttf",
   "colorCapabilities": ["COLRv1", "SVG"]
 }

@@ -2,13 +2,13 @@
   "family": "Bungee Spice",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v13",
-  "lastModified": "2024-12-10",
+  "version": "v14",
+  "lastModified": "2025-03-03",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/bungeespice/v13/nwpTtK2nIhxE0q-IwgSpZBqCzyI-aMPF7Q.ttf"
+    "regular": "https://fonts.gstatic.com/s/bungeespice/v14/nwpTtK2nIhxE0q-IwgSpZBqCzyI-aMPF7Q.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/bungeespice/v13/nwpTtK2nIhxE0q-IwgSpZBqyzig6.ttf",
+  "menu": "https://fonts.gstatic.com/s/bungeespice/v14/nwpTtK2nIhxE0q-IwgSpZBqyzig6.ttf",
   "colorCapabilities": ["COLRv1", "SVG"]
 }

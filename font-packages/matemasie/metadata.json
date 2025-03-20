@@ -2,12 +2,12 @@
   "family": "Matemasie",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v3",
-  "lastModified": "2024-11-07",
+  "version": "v4",
+  "lastModified": "2025-03-18",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/matemasie/v3/OD5BuMCN3ne3Gmr7dlL3rEq4DL6w2w.ttf"
+    "regular": "https://fonts.gstatic.com/s/matemasie/v4/OD5BuMCN3ne3Gmr7dlL3rEq4DL6w2w.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/matemasie/v3/OD5BuMCN3ne3Gmr7dlLHrUC8.ttf"
+  "menu": "https://fonts.gstatic.com/s/matemasie/v4/OD5BuMCN3ne3Gmr7dlLHrUC8.ttf"
 }

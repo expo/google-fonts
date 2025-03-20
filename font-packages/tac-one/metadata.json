@@ -2,10 +2,10 @@
   "family": "Tac One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "math", "symbols", "vietnamese"],
-  "version": "v4",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/tacone/v4/ahcZv8Cj3zw7qDr8fO4hU-FwnU0.ttf" },
+  "version": "v5",
+  "lastModified": "2025-03-18",
+  "files": { "regular": "https://fonts.gstatic.com/s/tacone/v5/ahcZv8Cj3zw7qDr8fO4hU-FwnU0.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/tacone/v4/ahcZv8Cj3zw7qDr8TO8rVw.ttf"
+  "menu": "https://fonts.gstatic.com/s/tacone/v5/ahcZv8Cj3zw7qDr8TO8rVw.ttf"
 }

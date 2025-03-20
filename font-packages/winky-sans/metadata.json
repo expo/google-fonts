@@ -1,0 +1,41 @@
+{
+  "family": "Winky Sans",
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic",
+    "800italic",
+    "900italic"
+  ],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2025-03-18",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/winkysans/v1/ll8sK2SDUiG1Hpf2p06bHaEAYt6HPhJ2AGXUiD6F2TpBa98q.ttf",
+    "500": "https://fonts.gstatic.com/s/winkysans/v1/ll8sK2SDUiG1Hpf2p06bHaEAYt6HPhJ2AGW4iD6F2TpBa98q.ttf",
+    "600": "https://fonts.gstatic.com/s/winkysans/v1/ll8sK2SDUiG1Hpf2p06bHaEAYt6HPhJ2AGVUjz6F2TpBa98q.ttf",
+    "700": "https://fonts.gstatic.com/s/winkysans/v1/ll8sK2SDUiG1Hpf2p06bHaEAYt6HPhJ2AGVtjz6F2TpBa98q.ttf",
+    "800": "https://fonts.gstatic.com/s/winkysans/v1/ll8sK2SDUiG1Hpf2p06bHaEAYt6HPhJ2AGUKjz6F2TpBa98q.ttf",
+    "900": "https://fonts.gstatic.com/s/winkysans/v1/ll8sK2SDUiG1Hpf2p06bHaEAYt6HPhJ2AGUjjz6F2TpBa98q.ttf",
+    "regular": "https://fonts.gstatic.com/s/winkysans/v1/ll8sK2SDUiG1Hpf2p06bHaEAYt6HPhJ2AGWKiD6F2TpBa98q.ttf",
+    "300italic": "https://fonts.gstatic.com/s/winkysans/v1/ll8uK2SDUiG1Hpf2p06bN6gynQbuVYjYB3BCy4jG0z5jbs8qbts.ttf",
+    "italic": "https://fonts.gstatic.com/s/winkysans/v1/ll8uK2SDUiG1Hpf2p06bN6gynQbuVYjYB3BCy9bG0z5jbs8qbts.ttf",
+    "500italic": "https://fonts.gstatic.com/s/winkysans/v1/ll8uK2SDUiG1Hpf2p06bN6gynQbuVYjYB3BCy-TG0z5jbs8qbts.ttf",
+    "600italic": "https://fonts.gstatic.com/s/winkysans/v1/ll8uK2SDUiG1Hpf2p06bN6gynQbuVYjYB3BCywjB0z5jbs8qbts.ttf",
+    "700italic": "https://fonts.gstatic.com/s/winkysans/v1/ll8uK2SDUiG1Hpf2p06bN6gynQbuVYjYB3BCyzHB0z5jbs8qbts.ttf",
+    "800italic": "https://fonts.gstatic.com/s/winkysans/v1/ll8uK2SDUiG1Hpf2p06bN6gynQbuVYjYB3BCy1bB0z5jbs8qbts.ttf",
+    "900italic": "https://fonts.gstatic.com/s/winkysans/v1/ll8uK2SDUiG1Hpf2p06bN6gynQbuVYjYB3BCy3_B0z5jbs8qbts.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/winkysans/v1/ll8sK2SDUiG1Hpf2p06bHaEAYt6HPhJ2AGWKiA6E0z4.ttf"
+}

@@ -2,15 +2,15 @@
   "family": "Playwrite AU SA",
   "variants": ["100", "200", "300", "regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2025-01-28",
+  "version": "v10",
+  "lastModified": "2025-03-03",
   "files": {
-    "100": "https://fonts.gstatic.com/s/playwriteausa/v9/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpZgQcuVjCoV0bbE.ttf",
-    "200": "https://fonts.gstatic.com/s/playwriteausa/v9/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpRgRcuVjCoV0bbE.ttf",
-    "300": "https://fonts.gstatic.com/s/playwriteausa/v9/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpcYRcuVjCoV0bbE.ttf",
-    "regular": "https://fonts.gstatic.com/s/playwriteausa/v9/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpZgRcuVjCoV0bbE.ttf"
+    "100": "https://fonts.gstatic.com/s/playwriteausa/v10/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpZgQcuVjCoV0bbE.ttf",
+    "200": "https://fonts.gstatic.com/s/playwriteausa/v10/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpRgRcuVjCoV0bbE.ttf",
+    "300": "https://fonts.gstatic.com/s/playwriteausa/v10/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpcYRcuVjCoV0bbE.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwriteausa/v10/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpZgRcuVjCoV0bbE.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/playwriteausa/v9/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpZgRQuRpDg.ttf"
+  "menu": "https://fonts.gstatic.com/s/playwriteausa/v10/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpZgRQuRpDg.ttf"
 }

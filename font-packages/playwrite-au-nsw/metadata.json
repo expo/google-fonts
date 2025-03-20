@@ -2,15 +2,15 @@
   "family": "Playwrite AU NSW",
   "variants": ["100", "200", "300", "regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2025-01-28",
+  "version": "v10",
+  "lastModified": "2025-03-03",
   "files": {
-    "100": "https://fonts.gstatic.com/s/playwriteaunsw/v9/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjML96TD2dC1gS.ttf",
-    "200": "https://fonts.gstatic.com/s/playwriteaunsw/v9/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xbjMb96TD2dC1gS.ttf",
-    "300": "https://fonts.gstatic.com/s/playwriteaunsw/v9/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xY9Mb96TD2dC1gS.ttf",
-    "regular": "https://fonts.gstatic.com/s/playwriteaunsw/v9/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjMb96TD2dC1gS.ttf"
+    "100": "https://fonts.gstatic.com/s/playwriteaunsw/v10/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjML96TD2dC1gS.ttf",
+    "200": "https://fonts.gstatic.com/s/playwriteaunsw/v10/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xbjMb96TD2dC1gS.ttf",
+    "300": "https://fonts.gstatic.com/s/playwriteaunsw/v10/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xY9Mb96TD2dC1gS.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwriteaunsw/v10/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjMb96TD2dC1gS.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/playwriteaunsw/v9/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjMY97Rjk.ttf"
+  "menu": "https://fonts.gstatic.com/s/playwriteaunsw/v10/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjMY97Rjk.ttf"
 }

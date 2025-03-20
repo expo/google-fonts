@@ -2,19 +2,19 @@
   "family": "Kalnia Glaze",
   "variants": ["100", "200", "300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v1",
-  "lastModified": "2024-09-04",
+  "version": "v4",
+  "lastModified": "2025-03-03",
   "files": {
-    "100": "https://fonts.gstatic.com/s/kalniaglaze/v1/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYdL63nZKfhpVTvN.ttf",
-    "200": "https://fonts.gstatic.com/s/kalniaglaze/v1/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYfL6nnZKfhpVTvN.ttf",
-    "300": "https://fonts.gstatic.com/s/kalniaglaze/v1/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYcV6nnZKfhpVTvN.ttf",
-    "500": "https://fonts.gstatic.com/s/kalniaglaze/v1/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYd56nnZKfhpVTvN.ttf",
-    "600": "https://fonts.gstatic.com/s/kalniaglaze/v1/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYeV7XnZKfhpVTvN.ttf",
-    "700": "https://fonts.gstatic.com/s/kalniaglaze/v1/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYes7XnZKfhpVTvN.ttf",
-    "regular": "https://fonts.gstatic.com/s/kalniaglaze/v1/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYdL6nnZKfhpVTvN.ttf"
+    "100": "https://fonts.gstatic.com/s/kalniaglaze/v4/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYdL63nZKfhpVTvN.ttf",
+    "200": "https://fonts.gstatic.com/s/kalniaglaze/v4/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYfL6nnZKfhpVTvN.ttf",
+    "300": "https://fonts.gstatic.com/s/kalniaglaze/v4/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYcV6nnZKfhpVTvN.ttf",
+    "500": "https://fonts.gstatic.com/s/kalniaglaze/v4/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYd56nnZKfhpVTvN.ttf",
+    "600": "https://fonts.gstatic.com/s/kalniaglaze/v4/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYeV7XnZKfhpVTvN.ttf",
+    "700": "https://fonts.gstatic.com/s/kalniaglaze/v4/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYes7XnZKfhpVTvN.ttf",
+    "regular": "https://fonts.gstatic.com/s/kalniaglaze/v4/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYdL6nnZKfhpVTvN.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/kalniaglaze/v1/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYdL6knYI_w.ttf",
+  "menu": "https://fonts.gstatic.com/s/kalniaglaze/v4/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYdL6knYI_w.ttf",
   "colorCapabilities": ["COLRv1"]
 }

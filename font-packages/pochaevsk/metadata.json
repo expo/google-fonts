@@ -2,12 +2,12 @@
   "family": "Pochaevsk",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin"],
-  "version": "v2",
-  "lastModified": "2025-01-28",
+  "version": "v5",
+  "lastModified": "2025-03-03",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/pochaevsk/v2/55xuey9_OdX_Om7ReYgloJd4-bnQKg.ttf"
+    "regular": "https://fonts.gstatic.com/s/pochaevsk/v5/55xuey9_OdX_Om7ReYgloJd4-bnQKg.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/pochaevsk/v2/55xuey9_OdX_Om7ReYgVoZ18.ttf"
+  "menu": "https://fonts.gstatic.com/s/pochaevsk/v5/55xuey9_OdX_Om7ReYgVoZ18.ttf"
 }

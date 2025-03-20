@@ -7,12 +7,12 @@ export { useFonts } from './useFonts';
 
 export const __metadata__: Any;
 export const CormorantGaramond_300Light: number;
-export const CormorantGaramond_300Light_Italic: number;
 export const CormorantGaramond_400Regular: number;
-export const CormorantGaramond_400Regular_Italic: number;
 export const CormorantGaramond_500Medium: number;
-export const CormorantGaramond_500Medium_Italic: number;
 export const CormorantGaramond_600SemiBold: number;
-export const CormorantGaramond_600SemiBold_Italic: number;
 export const CormorantGaramond_700Bold: number;
+export const CormorantGaramond_300Light_Italic: number;
+export const CormorantGaramond_400Regular_Italic: number;
+export const CormorantGaramond_500Medium_Italic: number;
+export const CormorantGaramond_600SemiBold_Italic: number;
 export const CormorantGaramond_700Bold_Italic: number;

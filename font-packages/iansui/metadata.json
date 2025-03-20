@@ -1,0 +1,11 @@
+{
+  "family": "Iansui",
+  "variants": ["regular"],
+  "subsets": ["chinese-hongkong", "latin", "latin-ext", "symbols2"],
+  "version": "v2",
+  "lastModified": "2025-03-04",
+  "files": { "regular": "https://fonts.gstatic.com/s/iansui/v2/w8gbH2UoTuUp5bOajSGD1FcXoQ.ttf" },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/iansui/v2/w8gbH2UoTuUp5bOqjCuH.ttf"
+}

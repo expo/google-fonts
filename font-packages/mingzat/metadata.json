@@ -2,10 +2,10 @@
   "family": "Mingzat",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "lepcha"],
-  "version": "v8",
-  "lastModified": "2023-09-13",
-  "files": { "regular": "https://fonts.gstatic.com/s/mingzat/v8/0QIgMX5C-o-oWWyvBttkm_mv670.ttf" },
+  "version": "v9",
+  "lastModified": "2025-03-18",
+  "files": { "regular": "https://fonts.gstatic.com/s/mingzat/v9/0QIgMX5C-o-oWWyvBttkm_mv670.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/mingzat/v8/0QIgMX5C-o-oWWyvNtpunw.ttf"
+  "menu": "https://fonts.gstatic.com/s/mingzat/v9/0QIgMX5C-o-oWWyvNtpunw.ttf"
 }

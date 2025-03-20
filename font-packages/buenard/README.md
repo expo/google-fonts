@@ -11,9 +11,11 @@ This package lets you use the [**Buenard**](https://fonts.google.com/specimen/Bu
 
 ![Buenard](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [4 styles](#-gallery).
 
 - `Buenard_400Regular`
+- `Buenard_500Medium`
+- `Buenard_600SemiBold`
 - `Buenard_700Bold`
 
 ## Usage
@@ -29,11 +31,19 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import AppLoading from 'expo-app-loading';
-import { useFonts, Buenard_400Regular, Buenard_700Bold } from '@expo-google-fonts/buenard';
+import {
+  useFonts,
+  Buenard_400Regular,
+  Buenard_500Medium,
+  Buenard_600SemiBold,
+  Buenard_700Bold,
+} from '@expo-google-fonts/buenard';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Buenard_400Regular,
+    Buenard_500Medium,
+    Buenard_600SemiBold,
     Buenard_700Bold,
   });
 
@@ -60,6 +70,26 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Buenard_500Medium',
+          }}>
+          Buenard Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Buenard_600SemiBold',
+          }}>
+          Buenard Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Buenard_700Bold',
           }}>
           Buenard Bold
@@ -76,7 +106,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Buenard_400Regular](./Buenard_400Regular.ttf.png)|![Buenard_700Bold](./Buenard_700Bold.ttf.png)|||
+|![Buenard_400Regular](./Buenard_400Regular.ttf.png)|![Buenard_500Medium](./Buenard_500Medium.ttf.png)|![Buenard_600SemiBold](./Buenard_600SemiBold.ttf.png)||
+|![Buenard_700Bold](./Buenard_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development
