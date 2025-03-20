@@ -339,15 +339,10 @@ async function generateAllFontPackages(fontDirectory) {
 }
 
 function getPackageNameForWebfont(webfont) {
-  let packageName = webfont.family
+  return webfont.family
     .toLowerCase()
     .replace(/\s+/g, '-')
     .replace(/[^a-z0-9-]/g, '');
-  if (packageName.match(/^\d/)) {
-    // package name must start with a letter
-    packageName = fontPrefix + packageName;
-  }
-  return packageName;
 }
 
 async function generateFontPackage(webfont) {
