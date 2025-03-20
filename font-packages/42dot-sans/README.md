@@ -1,9 +1,9 @@
-# @expo-google-fonts/font42dot-sans
+# @expo-google-fonts/42dot-sans
 
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/font42dot-sans)
+![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/42dot-sans)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
-![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/font42dot-sans)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/font42dot-sans)
+![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/42dot-sans)
+![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/42dot-sans)
 
 This package lets you use the [**42dot Sans**](https://fonts.google.com/specimen/42dot+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -24,7 +24,7 @@ This font family contains [6 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/font42dot-sans expo-font expo-app-loading
+expo install @expo-google-fonts/42dot-sans expo-font expo-app-loading
 ```
 
 Now add code like this to your project
@@ -41,7 +41,7 @@ import {
   font42dotSans_600SemiBold,
   font42dotSans_700Bold,
   font42dotSans_800ExtraBold,
-} from '@expo-google-fonts/font42dot-sans';
+} from '@expo-google-fonts/42dot-sans';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -147,7 +147,7 @@ for playing around with any style that you want.
 
 ## 📖 License
 
-The `@expo-google-fonts/font42dot-sans` package and its code are released under the MIT license.
+The `@expo-google-fonts/42dot-sans` package and its code are released under the MIT license.
 
 All the fonts in the Google Fonts catalog are free and open source.
 
@@ -159,8 +159,8 @@ You can use these fonts freely in your products & projects - print or digital, c
 
 - [42dot Sans on Google Fonts](https://fonts.google.com/specimen/42dot+Sans)
 - [Google Fonts](https://fonts.google.com/)
-- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/font42dot-sans)
-- [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/font42dot-sans)
+- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/42dot-sans)
+- [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/42dot-sans)
 - [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
 - [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
 
