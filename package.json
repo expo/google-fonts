@@ -1,11 +1,17 @@
 {
+  "name": "@expo/google-fonts",
   "version": "0.2.3",
-  "name": "root",
+  "private": true,
+  "author": "Expo",
+  "license": "MIT",
   "scripts": {
-    "build": "cd packages/generator; yarn generate",
-    "build-packages": "cd packages/generator; yarn generate-packages;",
-    "build-images": "cd packages/generator; yarn generate-images",
-    "publish-font-packages": "cd packages/generator; yarn publish-font-packages"
+    "build": "yarn workspace generator generate",
+    "build-packages": "yarn workspace generator generate-packages;",
+    "build-images": "yarn workspace generator generate-images",
+    "publish-font-packages": "yarn workspace generator publish-font-packages"
   },
-  "private": true
+  "workspaces": [
+    "packages/*",
+    "font-packages/*"
+  ]
 }
