@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<p align="center">Use any of the 1488 fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
+<p align="center">Use any of the 1811 fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
 
 <p align="center">
   <a aria-label="npm version" href="https://www.npmjs.com/org/expo-google-fonts" target="_blank">
@@ -23,16 +23,16 @@
     <img align="right" alt="Medium: exposition" src="https://img.shields.io/badge/Learn%20more%20on%20our%20blog-lightgray.svg?style=flat-square" target="_blank" />
   </a>
 </p>
-
+  
 ---
 
 # expo-google-fonts
 
-The `@expo-google-fonts` packages for Expo allow you to easily use
-any of 1488 fonts (and their variants) from
+The `@expo-google-fonts` packages for Expo allow you to easily use 
+any of 1811 fonts (and their variants) from 
 [fonts.google.com](https://fonts.google.com) in your Expo app.
 
-These packages and all these fonts work across web, iOS, and Android and
+These packages and all these fonts work across web, iOS, and Android and 
 are free to use and open source.
 
 ## Usage
@@ -42,35 +42,42 @@ Here is an example of using the [Inter font family](https://fonts.google.com/spe
 #### Install the package for the font you want
 
 ```sh
-npx expo install @expo-google-fonts/inter expo-font
+expo install @expo-google-fonts/inter expo-font
 ```
 
 #### In your app
 
 ```js
 import React, { useState, useEffect } from 'react';
-import { Text, View, StyleSheet } from 'react-native';
-import {  useFonts, Inter_900Black } from '@expo-google-fonts/inter';
 
-export default function App() {
+import { Text, View, StyleSheet } from 'react-native';
+import AppLoading from 'expo-app-loading';
+import {
+  useFonts,
+  Inter_900Black,
+} from '@expo-google-fonts/inter';
+
+export default () => {
   let [fontsLoaded] = useFonts({
     Inter_900Black,
   });
 
   if (!fontsLoaded) {
-    return null;
+    return <AppLoading />;
+  } else {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+
+        <Text style={{ fontFamily: 'Inter_900Black' }}>
+          Inter Black
+        </Text>
+
+      </View>
+    );
   }
+};
 
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text style={{ fontFamily: 'Inter_900Black', fontSize: 40 }}>Inter Black</Text>
-    </View>
-  );
-}
 ```
-
-> **Note**: You can also install `expo-splash-screen` to load fonts before your app is rendered. This will help you to keep the splash screen visible while loading the fonts and then hide the splash screen when app has rendered with some initial content.
-> See [minimal example in Fonts](https://docs.expo.dev/develop/user-interface/fonts/#minimal-example) for more information.
 
 
 ### Example Project
@@ -83,18 +90,18 @@ Each individual font family package README includes a complete example of using 
 
 You can browse all available Google Fonts on [fonts.google.com](https://fonts.google.com).
 
-[directory-by-atiladev-com.netlify.app](https://directory-by-atiladev-com.netlify.app/) is a directory / search engine that will
+[directory.now.sh](https://directory.now.sh/) is a directory / search engine that will 
 let you browse and search through all of the available fonts and show you the appropriate
 `import` statements you'll need so you can copy & paste into your own code.
 
-Here are a few examples of the 5504 variants of 1488 fonts available:
+Here are a few examples of the 6831 variants of 1811 fonts available:
 
 
 ||||
 |-|-|-|
 |[![Inter](./font-packages/inter/Inter_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/inter#readme)|[![Manrope](./font-packages/manrope/Manrope_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/manrope#readme)|[![Allan](./font-packages/allan/Allan_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/allan#readme)|
 |[![Roboto](./font-packages/roboto/Roboto_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)|[![Lusitana](./font-packages/lusitana/Lusitana_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/lusitana#readme)|[![Nunito](./font-packages/nunito/Nunito_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/nunito#readme)|
-|[![Bangers](./font-packages/bangers/Bangers_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/bangers#readme)|[![SourceSansPro](./font-packages/source-sans-pro/SourceSansPro_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/source-sans-pro#readme)|[![RobotoCondensed](./font-packages/roboto-condensed/RobotoCondensed_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto-condensed#readme)|
+|[![Bangers](./font-packages/bangers/Bangers_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/bangers#readme)|[![SourceSans3](./font-packages/source-sans-3/SourceSans3_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/source-sans-3#readme)|[![RobotoCondensed](./font-packages/roboto-condensed/RobotoCondensed_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto-condensed#readme)|
 |[![PlayfairDisplay](./font-packages/playfair-display/PlayfairDisplay_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playfair-display#readme)|[![Ubuntu](./font-packages/ubuntu/Ubuntu_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/ubuntu#readme)|[![Oswald](./font-packages/oswald/Oswald_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/oswald#readme)|
 |[![BalsamiqSans](./font-packages/balsamiq-sans/BalsamiqSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/balsamiq-sans#readme)|[![Jost](./font-packages/jost/Jost_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/jost#readme)|[![Lato](./font-packages/lato/Lato_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/lato#readme)|
 
@@ -118,8 +125,8 @@ The Expo Google Fonts project and its code are licensed under the MIT License.
 All the fonts in the Google Fonts catalog are free and open source.
 
 Individual fonts have their own licenses. Many are licensed using the
-[Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
-For example, [Nunito](https://fonts.google.com/specimen/Nunito) uses the OFL.
+[Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL). 
+For example, [Nunito](https://fonts.google.com/specimen/Nunito) uses the OFL. 
 Check the Google Fonts pages of the font families you are using and add those licenses to
 your project's licenses list when you publish.
 
@@ -132,7 +139,7 @@ A: You can use these fonts freely in your products & projects - print or digital
 Contributions are very welcome! Note that everything under `font-packages` and also this README are generated.
 So, please make any changes you want to make to the [generator](https://github.com/expo/google-fonts/tree/master/packages/generator#readme) instead of the packages themselves.
 
-### Authors
+### Authors 
 
 - Charlie Cheever ([@ccheever](https://github.com/ccheever)) - Expo
 - Leandro Favre ([@AtilaDev](https://github.com/AtilaDev)) - AtilaDev
@@ -141,7 +148,7 @@ So, please make any changes you want to make to the [generator](https://github.c
 ## 🔗 Links
 
 - [Google Fonts](https://fonts.google.com)
-- [Using Custom Fonts Guide in the Expo docs](https://docs.expo.dev/develop/user-interface/fonts/#use-a-custom-font)
+- [Using Custom Fonts Guide in the Expo docs](https://docs.expo.io/guides/using-custom-fonts/)
 - [`google_fonts` Flutter Package](https://pub.dev/packages/google_fonts)
 - [Gallery of all available styles in Expo Google Fonts](./GALLERY.md)
 - [Generation of these packages and this readme](https://github.com/expo/google-fonts/tree/master/packages/generator#readme)
