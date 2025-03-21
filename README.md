@@ -28,6 +28,8 @@
 
 # expo-google-fonts
 
+Hello, README!
+
 The `@expo-google-fonts` packages for Expo allow you to easily use 
 any of 1811 fonts (and their variants) from 
 [fonts.google.com](https://fonts.google.com) in your Expo app.
