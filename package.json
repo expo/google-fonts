@@ -8,10 +8,16 @@
     "build": "yarn workspace generator generate",
     "build-packages": "yarn workspace generator generate-packages;",
     "build-images": "yarn workspace generator generate-images",
-    "publish-font-packages": "yarn workspace generator publish-font-packages"
+    "publish-font-packages": "yarn workspace generator publish-font-packages",
+    "lint": "eslint ."
   },
   "workspaces": [
     "packages/*",
     "font-packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "prettier": "^3.5.3",
+    "eslint-config-universe": "^14.0.0"
+  }
 }

@@ -1,7 +1,7 @@
-let fs = require('fs');
-let path = require('path');
+const fs = require('fs');
+const path = require('path');
 
-let apiKey =
+const apiKey =
   process.env.GOOGLE_FONTS_API_KEY ||
   fs
     .readFileSync(
@@ -11,7 +11,7 @@ let apiKey =
     .trim();
 
 if (!apiKey) {
-  let err = `
+  const err = `
 You need to get an Google Fonts API Key to call the API. You can get one here:
 https://developers.google.com/fonts/docs/developer_api
 
