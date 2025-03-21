@@ -23,7 +23,7 @@ This font family contains [5 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/red-rose expo-font expo-app-loading
+npx expo install @expo-google-fonts/red-rose expo-font expo-app-loading
 ```
 
 Now add code like this to your project
