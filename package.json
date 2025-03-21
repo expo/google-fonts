@@ -9,6 +9,7 @@
     "build-packages": "yarn workspace generator generate-packages;",
     "build-images": "yarn workspace generator generate-images",
     "publish-font-packages": "yarn workspace generator publish-font-packages",
+    "generate-root-readme": "yarn workspace generator generate-root-readme",
     "lint": "eslint ."
   },
   "workspaces": [
