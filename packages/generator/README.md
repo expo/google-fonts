@@ -5,5 +5,3 @@ Bump the version in the root package.json first
 
 You need to install ImageMagick to generate the images
 You may want to tweak the concurrency of downloads in the generator script if they are failing
-
-

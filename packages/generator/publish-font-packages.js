@@ -1,19 +1,18 @@
-let path = require('path');
+const spawnAsync = require('@expo/spawn-async');
+const cliProgress = require('cli-progress');
+const { default: PQueue } = require('p-queue');
+const path = require('path');
 
-let { default: PQueue } = require('p-queue');
-let spawnAsync = require('@expo/spawn-async');
-let cliProgress = require('cli-progress');
-
-let generator = require('./generator');
+const generator = require('./generator');
 
 async function publishAllFontPackages() {
-  let fontDirectory = await generator.getDirectory();
-  let { FontPackagesDir } = generator;
+  const fontDirectory = await generator.getDirectory();
+  const { FontPackagesDir } = generator;
   let i = 0;
-  let errors = [];
-  let concurrency = 4;
-  let q = new PQueue({ concurrency });
-  let bar = new cliProgress.SingleBar(
+  const errors = [];
+  const concurrency = 4;
+  const q = new PQueue({ concurrency });
+  const bar = new cliProgress.SingleBar(
     {
       format: ` {bar} {percentage}% | x${concurrency} | ETA: {eta}s | {value}/{total} | {errorCount} errors | {font}`,
       clearOnComplete: true,
@@ -23,7 +22,7 @@ async function publishAllFontPackages() {
   bar.start(fontDirectory.items.length + 2, i);
   bar.update(i, { font: 'dev', errorCount: errors.length });
   try {
-    let devPkgDir = path.join(FontPackagesDir, 'dev');
+    const devPkgDir = path.join(FontPackagesDir, 'dev');
     try {
       await spawnAsync('npm', ['publish', '--otp=185035'], { cwd: devPkgDir });
     } catch (e) {
@@ -33,7 +32,7 @@ async function publishAllFontPackages() {
     }
 
     bar.update(i, { font: 'font-directory' });
-    let dirPkgDir = path.join(FontPackagesDir, 'font-directory');
+    const dirPkgDir = path.join(FontPackagesDir, 'font-directory');
     try {
       await spawnAsync('npm', ['publish'], { cwd: dirPkgDir });
     } catch (e) {
@@ -42,9 +41,9 @@ async function publishAllFontPackages() {
       i++;
     }
 
-    for (let webfont of fontDirectory.items) {
-      let pkgDir = path.join(FontPackagesDir, generator.getPackageNameForWebfont(webfont));
-      let p = q.add(() => spawnAsync('npm', ['publish'], { cwd: pkgDir }));
+    for (const webfont of fontDirectory.items) {
+      const pkgDir = path.join(FontPackagesDir, generator.getPackageNameForWebfont(webfont));
+      const p = q.add(() => spawnAsync('npm', ['publish'], { cwd: pkgDir }));
       p.fontFamily = webfont.family;
       (async () => {
         try {
@@ -66,7 +65,7 @@ async function publishAllFontPackages() {
   }
 
   console.log(`${errors.length} errors`);
-  for (let [name, e] of errors) {
+  for (const [name, e] of errors) {
     console.error(name + '\n' + e + '\n\n');
   }
 }

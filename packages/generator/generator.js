@@ -1,41 +1,41 @@
-let fs = require('fs');
-let path = require('path');
+const spawnAsync = require('@expo/spawn-async');
+const cliProgress = require('cli-progress');
+const fetch = require('cross-fetch');
+const fs = require('fs');
+const fsExtra = require('fs-extra');
+const { default: PQueue } = require('p-queue');
+const path = require('path');
+const physicalCpuCount = require('physical-cpu-count');
+const prettier = require('prettier');
 
-let cliProgress = require('cli-progress');
-let { default: PQueue } = require('p-queue');
-let fetch = require('cross-fetch');
-let fsExtra = require('fs-extra');
-let physicalCpuCount = require('physical-cpu-count');
-let prettier = require('prettier');
-let spawnAsync = require('@expo/spawn-async');
-
-let contributors = require('./contributors');
-let googleFontsApiKey = require('./google-fonts-api-key');
+const contributors = require('./contributors');
+const googleFontsApiKey = require('./google-fonts-api-key');
+const PackageVersion = require('../../package.json').version;
 
 // Constants
 
-let WeightNames = {
-  '100': 'Thin',
-  '200': 'ExtraLight',
-  '300': 'Light',
-  '400': 'Regular',
-  '500': 'Medium',
-  '600': 'SemiBold',
-  '700': 'Bold',
-  '800': 'ExtraBold',
-  '900': 'Black',
+const WeightNames = {
+  100: 'Thin',
+  200: 'ExtraLight',
+  300: 'Light',
+  400: 'Regular',
+  500: 'Medium',
+  600: 'SemiBold',
+  700: 'Bold',
+  800: 'ExtraBold',
+  900: 'Black',
 };
 
-let VariantNames = {
-  '100': 'Thin',
-  '200': 'Extra Light',
-  '300': 'Light',
+const VariantNames = {
+  100: 'Thin',
+  200: 'Extra Light',
+  300: 'Light',
   regular: 'Regular',
-  '500': 'Medium',
-  '600': 'Semi Bold',
-  '700': 'Bold',
-  '800': 'Extra Bold',
-  '900': 'Black',
+  500: 'Medium',
+  600: 'Semi Bold',
+  700: 'Bold',
+  800: 'Extra Bold',
+  900: 'Black',
   '100italic': 'Thin Italic',
   '200italic': 'Extra Light Italic',
   '300italic': 'Light Italic',
@@ -47,17 +47,16 @@ let VariantNames = {
   '900italic': 'Black Italic',
 };
 
-let ProjectRootDir = path.join(__dirname, '..', '..');
-let FontPackagesDir = path.join(ProjectRootDir, 'font-packages');
-let FontAssetsDir = path.join(ProjectRootDir, 'font-assets');
-let FontImagesDir = path.join(ProjectRootDir, 'font-images');
-let FontDirectoryPackageDir = path.join(ProjectRootDir, 'font-packages', 'font-directory');
-let DevPackageDir = path.join(FontPackagesDir, 'dev');
+const ProjectRootDir = path.join(__dirname, '..', '..');
+const FontPackagesDir = path.join(ProjectRootDir, 'font-packages');
+const FontAssetsDir = path.join(ProjectRootDir, 'font-assets');
+const FontImagesDir = path.join(ProjectRootDir, 'font-images');
+const FontDirectoryPackageDir = path.join(ProjectRootDir, 'font-packages', 'font-directory');
+const DevPackageDir = path.join(FontPackagesDir, 'dev');
 
-let PackageScope = '@expo-google-fonts/';
-let PackageVersion = require('../../package.json').version;
+const PackageScope = '@expo-google-fonts/';
 
-let PrettierOptions = {
+const PrettierOptions = {
   printWidth: 100,
   tabWidth: 2,
   singleQuote: true,
@@ -66,22 +65,21 @@ let PrettierOptions = {
   arrowParens: 'always',
 };
 
-let ReexportHook = `
+const ReexportHook = `
 export { useFonts } from './useFonts';
 `;
-let ReexportHookDefinition = `
+const ReexportHookDefinition = `
 export { useFonts } from './useFonts';
 `;
 
-let CPUBoundConcurrency = Math.max(1, physicalCpuCount - 1);
-let NetworkBoundConcurrency = 3;
-let IOBoundConcurrency = 2;
+const CPUBoundConcurrency = Math.max(1, physicalCpuCount - 1);
+const NetworkBoundConcurrency = 3;
 
 const fontPrefix = 'font';
 
 async function main({ images, download } = { images: true, download: true }) {
   console.log('Getting directory');
-  let fontDirectory = await getDirectory();
+  const fontDirectory = await getDirectory();
   console.log('done.');
 
   if (download) {
@@ -115,9 +113,9 @@ async function main({ images, download } = { images: true, download: true }) {
 }
 
 function infoForVariantKey(variantKey) {
-  let weight = parseInt(variantKey) || 400; // `regular` and `italic` don't have a number before them
-  let isItalic = variantKey.endsWith('italic');
-  let weightName = WeightNames[weight];
+  const weight = parseInt(variantKey, 10) || 400; // `regular` and `italic` don't have a number before them
+  const isItalic = variantKey.endsWith('italic');
+  const weightName = WeightNames[weight];
   let suffix = '_' + weight + weightName;
   if (isItalic) {
     suffix += '_Italic';
@@ -132,18 +130,17 @@ function infoForVariantKey(variantKey) {
 
 function varNameForWebfont(webfont) {
   const variant = webfont.family.replace(/\s+/g, '');
-  return (variant.match(/^\d/)) ? fontPrefix + variant : variant
-
+  return variant.match(/^\d/) ? fontPrefix + variant : variant;
 }
 
 function varNameForFontVariant(webfont, variantKey) {
-  let info = infoForVariantKey(variantKey);
+  const info = infoForVariantKey(variantKey);
   return varNameForWebfont(webfont) + info.suffix;
 }
 
 async function getDirectory() {
-  let url = `https://www.googleapis.com/webfonts/v1/webfonts?key=${googleFontsApiKey}&prettyPrint=false&sort=date`;
-  let response = await fetch(url);
+  const url = `https://www.googleapis.com/webfonts/v1/webfonts?key=${googleFontsApiKey}&prettyPrint=false&sort=date`;
+  const response = await fetch(url);
   return await response.json();
 }
 
@@ -159,14 +156,14 @@ async function downloadAllFonts(fontDirectory) {
   await fsExtra.ensureDir(FontAssetsDir);
 
   let totalFonts = 0;
-  for (let webfont of fontDirectory.items) {
+  for (const webfont of fontDirectory.items) {
     totalFonts += webfont.variants.length;
   }
 
-  let concurrency = NetworkBoundConcurrency;
-  let q = new PQueue({ concurrency });
+  const concurrency = NetworkBoundConcurrency;
+  const q = new PQueue({ concurrency });
 
-  let bar = new cliProgress.SingleBar(
+  const bar = new cliProgress.SingleBar(
     {
       format: ` {bar} {percentage}% | x${concurrency} | ETA: {eta}s | {value}/{total} | {font}`,
       clearOnComplete: true,
@@ -177,11 +174,11 @@ async function downloadAllFonts(fontDirectory) {
   let i = 0;
   bar.start(totalFonts, i);
   try {
-    for (let webfont of fontDirectory.items) {
-      for (let variantKey of webfont.variants) {
-        let ttfUrl = webfont.files[variantKey];
-        let filepath = filepathForFontVariant(webfont, variantKey);
-        let p = q.add(() => download(filepath, ttfUrl));
+    for (const webfont of fontDirectory.items) {
+      for (const variantKey of webfont.variants) {
+        const ttfUrl = webfont.files[variantKey];
+        const filepath = filepathForFontVariant(webfont, variantKey);
+        const p = q.add(() => download(filepath, ttfUrl));
         p.font = varNameForFontVariant(webfont, variantKey);
         (async () => {
           await p;
@@ -199,22 +196,22 @@ async function downloadAllFonts(fontDirectory) {
 }
 
 async function download(filepath, url) {
-  let response = await fetch(url);
-  let b = await response.buffer();
+  const response = await fetch(url);
+  const b = await response.buffer();
   await fs.promises.writeFile(filepath, b);
 }
 
 async function generateImagesForFonts(fontDirectory) {
   await fsExtra.emptyDir(FontImagesDir);
   let totalFonts = 0;
-  for (let webfont of fontDirectory.items) {
+  for (const webfont of fontDirectory.items) {
     totalFonts += webfont.variants.length;
   }
 
-  let concurrency = CPUBoundConcurrency;
-  let q = new PQueue({ concurrency });
+  const concurrency = CPUBoundConcurrency;
+  const q = new PQueue({ concurrency });
 
-  let bar = new cliProgress.SingleBar(
+  const bar = new cliProgress.SingleBar(
     {
       format: ` {bar} {percentage}% | x${concurrency} | ETA: {eta}s | {value}/{total} | {font}`,
       clearOnComplete: true,
@@ -222,19 +219,19 @@ async function generateImagesForFonts(fontDirectory) {
     cliProgress.Presets.shades_classic
   );
   let i = 0;
-  let errors = [];
+  const errors = [];
   try {
     bar.start(totalFonts, i);
-    for (let webfont of fontDirectory.items) {
-      for (let variantKey of webfont.variants) {
-        let p = q.add(() => generateImageForFontVariant(webfont, variantKey));
+    for (const webfont of fontDirectory.items) {
+      for (const variantKey of webfont.variants) {
+        const p = q.add(() => generateImageForFontVariant(webfont, variantKey));
         p.font = varNameForFontVariant(webfont, variantKey);
         (async () => {
           try {
             await p;
           } catch (e) {
-            throw e;
             errors.push([p.font, e]);
+            throw e;
           } finally {
             i++;
             bar.update(i, { font: p.font });
@@ -256,7 +253,7 @@ async function generateImagesForFonts(fontDirectory) {
 async function generateImageForFontVariant(webfont, variantKey) {
   let phrase = varNameForFontVariant(webfont, variantKey) + '\n';
   phrase += 'Pack my box with five\ndozen liquor jugs, please.';
-  let outputFilepath = path.join(
+  const outputFilepath = path.join(
     FontImagesDir,
     filenameForFontVariant(webfont, variantKey) + '.png'
   );
@@ -264,13 +261,13 @@ async function generateImageForFontVariant(webfont, variantKey) {
 }
 
 async function generatePng(outputFilepath, text, webfont, variantKey, pointsize, density) {
-  let fill = '#1B1F23';
-  let background = '#FFFFFF';
-  let fontFilepath = filepathForFontVariant(webfont, variantKey);
+  const fill = '#1B1F23';
+  const background = '#FFFFFF';
+  const fontFilepath = filepathForFontVariant(webfont, variantKey);
   pointsize = pointsize || 40;
   density = density || 144; // 458; // iPhone 11 Pro Max = 458
-  let units = 'pixelsperinch';
-  let args = [
+  const units = 'pixelsperinch';
+  const args = [
     '-background',
     background,
     '-fill',
@@ -285,8 +282,8 @@ async function generatePng(outputFilepath, text, webfont, variantKey, pointsize,
     '' + pointsize,
     'label:' + text,
     '-bordercolor',
-    background, 
-    '-border', 
+    background,
+    '-border',
     '32x16',
     '-strip',
     outputFilepath,
@@ -306,23 +303,23 @@ async function generatePng(outputFilepath, text, webfont, variantKey, pointsize,
 async function generateAllFontPackages(fontDirectory) {
   await fsExtra.emptyDir(FontPackagesDir);
 
-  let webfontCount = fontDirectory.items.length;
+  const webfontCount = fontDirectory.items.length;
 
-  let concurrency = CPUBoundConcurrency;
+  const concurrency = CPUBoundConcurrency;
 
-  let bar = new cliProgress.SingleBar(
+  const bar = new cliProgress.SingleBar(
     {
       format: ` {bar} {percentage}% | x${concurrency} | ETA: {eta}s | {value}/{total} | {family}`,
       clearOnComplete: true,
     },
     cliProgress.Presets.shades_classic
   );
-  let q = new PQueue({ concurrency });
+  const q = new PQueue({ concurrency });
   let i = 0;
   bar.start(webfontCount, i);
   try {
-    for (let webfont of fontDirectory.items) {
-      let p = q.add(() => generateFontPackage(webfont));
+    for (const webfont of fontDirectory.items) {
+      const p = q.add(() => generateFontPackage(webfont));
       p.webfont = webfont;
       p.family = webfont.family;
       (async () => {
@@ -352,8 +349,8 @@ function getPackageNameForWebfont(webfont) {
 }
 
 async function generateFontPackage(webfont) {
-  let packageName = getPackageNameForWebfont(webfont);
-  let pkgDir = path.join(FontPackagesDir, packageName);
+  const packageName = getPackageNameForWebfont(webfont);
+  const pkgDir = path.join(FontPackagesDir, packageName);
 
   // empty dir
   await fsExtra.emptyDir(pkgDir);
@@ -388,7 +385,7 @@ async function generateFontPackage(webfont) {
   );
 
   // index.js & index.d.ts
-  let generatedHeaderComment = `/// Generated by expo-google-fonts/generator
+  const generatedHeaderComment = `/// Generated by expo-google-fonts/generator
 /// Do not edit by hand unless you know what you are doing
 ///
   
@@ -413,9 +410,9 @@ async function generateFontPackage(webfont) {
     'utf8'
   );
 
-  for (let variantKey of webfont.variants) {
-    let v = varNameForFontVariant(webfont, variantKey);
-    let ffn = filenameForFontVariant(webfont, variantKey);
+  for (const variantKey of webfont.variants) {
+    const v = varNameForFontVariant(webfont, variantKey);
+    const ffn = filenameForFontVariant(webfont, variantKey);
     code += `export const ${v} = require(${JSON.stringify('./' + ffn)});\n`;
     dts += `export const ${v}: number;\n`; // TODO: Is there an easy way to do type-aliasing so we could refer to this as a module or something?
 
@@ -437,7 +434,7 @@ async function generateFontPackage(webfont) {
   await fs.promises.link('./useFonts.d.ts', path.join(pkgDir, 'useFonts.d.ts'));
 
   // font-family.png
-  let packageImageFilepath = path.join(pkgDir, 'font-family.png');
+  const packageImageFilepath = path.join(pkgDir, 'font-family.png');
   try {
     await generatePackageHeaderImage(packageImageFilepath, webfont);
   } catch (e) {
@@ -454,13 +451,13 @@ async function generateFontPackage(webfont) {
 }
 
 async function generatePackageHeaderImage(outputFilepath, webfont) {
-  let variantKey = getDefaultVariantKeyForWebfont(webfont);
-  let name = webfont.family;
+  const variantKey = getDefaultVariantKeyForWebfont(webfont);
+  const name = webfont.family;
   await generatePng(outputFilepath, name, webfont, variantKey, 96);
 }
 
 function getDefaultVariantKeyForWebfont(webfont) {
-  let Priority = [
+  const Priority = [
     'regular',
     '500',
     '300',
@@ -480,7 +477,7 @@ function getDefaultVariantKeyForWebfont(webfont) {
     '800italic',
     '900italic',
   ];
-  for (let vk of Priority) {
+  for (const vk of Priority) {
     if (webfont.variants.includes(vk)) {
       return vk;
     }
@@ -490,7 +487,7 @@ function getDefaultVariantKeyForWebfont(webfont) {
   return webfont.variants[0];
 }
 
-let DevPackageMarkdown = `
+const DevPackageMarkdown = `
 If you are trying out lots of different fonts, you can try using the [\`@expo-google-fonts/dev\` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
@@ -499,18 +496,18 @@ for your app to get to interactivity at startup, but it is extremely convenient
 for playing around with any style that you want.`;
 
 async function generateReadmeForWebfont(webfont) {
-  let familyUrl = `https://fonts.google.com/specimen/${webfont.family.replace(/ /g, '+')}`;
-  let packageName = getPackageNameForWebfont(webfont);
+  const familyUrl = `https://fonts.google.com/specimen/${webfont.family.replace(/ /g, '+')}`;
+  const packageName = getPackageNameForWebfont(webfont);
 
-  let fontStyleVars = webfont.variants.map((variantKey) =>
+  const fontStyleVars = webfont.variants.map((variantKey) =>
     varNameForFontVariant(webfont, variantKey)
   );
 
-  let displayNames = webfont.variants.map((variantKey) =>
+  const displayNames = webfont.variants.map((variantKey) =>
     getDisplayNameForFontVariant(webfont, variantKey)
   );
 
-  let jsExample = `
+  const jsExample = `
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
@@ -547,7 +544,7 @@ export default () => {
 };
 
 `;
-  let md = `# @expo-google-fonts/${packageName}
+  const md = `# @expo-google-fonts/${packageName}
 
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/${packageName})
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
@@ -630,15 +627,15 @@ async function generateFontDirectoryPackage(fontDirectory) {
   await fsExtra.emptyDir(FontDirectoryPackageDir);
 
   // Clone the object
-  let fd = JSON.parse(JSON.stringify(fontDirectory));
+  const fd = JSON.parse(JSON.stringify(fontDirectory));
 
-  for (let webfont of fd.items) {
-    let packageName = getPackageNameForWebfont(webfont);
+  for (const webfont of fd.items) {
+    const packageName = getPackageNameForWebfont(webfont);
     webfont.expoGoogleFontsPackage = PackageScope + packageName;
     webfont.expoGoogleFontsPackageHomepage = `https://github.com/expo/google-fonts/tree/master/font-packages/${packageName}`;
   }
 
-  let a$ = [];
+  const a$ = [];
   a$.push(
     fs.promises.writeFile(
       path.join(FontDirectoryPackageDir, 'fontDirectory.json'),
@@ -689,8 +686,8 @@ This package is generated by the [generator here](https://github.com/expo/google
 }
 
 async function generateDevPackage(fontDirectory) {
-  let pkgDir = DevPackageDir;
-  let packageName = 'dev';
+  const pkgDir = DevPackageDir;
+  const packageName = 'dev';
   await fsExtra.emptyDir(pkgDir);
   await fs.promises.writeFile(
     path.join(pkgDir, 'package.json'),
@@ -723,7 +720,7 @@ async function generateDevPackage(fontDirectory) {
     'utf8'
   );
 
-  let generatedHeaderComment = `/// Generated by expo-google-fonts/generator
+  const generatedHeaderComment = `/// Generated by expo-google-fonts/generator
 /// Do not edit by hand unless you know what you are doing
 ///
 
@@ -740,10 +737,10 @@ async function generateDevPackage(fontDirectory) {
     return url.toString();
   }
 
-  for (let webfont of fontDirectory.items) {
-    for (let variantKey of webfont.variants) {
-      let v = varNameForFontVariant(webfont, variantKey);
-      let ttfUrl = validateFontUrlUsesHttps(webfont.files[variantKey]);
+  for (const webfont of fontDirectory.items) {
+    for (const variantKey of webfont.variants) {
+      const v = varNameForFontVariant(webfont, variantKey);
+      const ttfUrl = validateFontUrlUsesHttps(webfont.files[variantKey]);
       code += `export const ${v} = ${JSON.stringify(ttfUrl)};\n`;
       dts += `export const ${v}: string;\n`;
     }
@@ -768,7 +765,7 @@ async function generateDevPackage(fontDirectory) {
   await fs.promises.link('./useFonts.d.ts', path.join(pkgDir, 'useFonts.d.ts'));
 
   // README.md
-  let md = `# @expo-google-fonts/dev
+  const md = `# @expo-google-fonts/dev
 
 ${DevPackageMarkdown}
 
@@ -803,20 +800,22 @@ etc.
 }
 
 async function generateRootReadme(fontDirectory) {
-  let outputFilepath = path.join(ProjectRootDir, 'README.md');
+  const outputFilepath = path.join(ProjectRootDir, 'README.md');
 
   let variantCount = 0;
-  for (let webfont of fontDirectory.items) {
+  for (const webfont of fontDirectory.items) {
     variantCount += webfont.variants.length;
   }
 
-  let md = `<p align="center">
+  const md = `<p align="center">
   <a href="https://github.com/expo/google-fonts">
     <img alt="Expo Google Fonts" src="./gifs/title.gif">
   </a>
 </p>
 
-<p align="center">Use any of the ${fontDirectory.items.length} fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
+<p align="center">Use any of the ${
+    fontDirectory.items.length
+  } fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
 
 <p align="center">
   <a aria-label="npm version" href="https://www.npmjs.com/org/expo-google-fonts" target="_blank">
@@ -959,7 +958,7 @@ ${contributors
 }
 
 async function getFeaturedGalleryMarkdown(fontDirectory) {
-  let featuredFonts = [
+  const featuredFonts = [
     'Inter',
     'Manrope',
     'Allan',
@@ -982,11 +981,11 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
     'Lato',
   ];
 
-  let featured = [];
+  const featured = [];
 
   // There are more efficient ways to do this but who cares
-  for (let fontName of featuredFonts) {
-    for (let webfont of fontDirectory.items) {
+  for (const fontName of featuredFonts) {
+    for (const webfont of fontDirectory.items) {
       if (webfont.family === fontName) {
         featured.push(webfont);
       }
@@ -1001,15 +1000,15 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
   for (let row = 0; featured.length > 0; row++) {
     md += '|';
     for (let col = 0; col < 3; col++) {
-      let webfont = featured.shift();
-      let variantKey = getDefaultVariantKeyForWebfont(webfont);
-      let styleImagePath =
+      const webfont = featured.shift();
+      const variantKey = getDefaultVariantKeyForWebfont(webfont);
+      const styleImagePath =
         './font-packages/' +
         getPackageNameForWebfont(webfont) +
         '/' +
         filenameForFontVariant(webfont, variantKey) +
         '.png';
-      let packageName = getPackageNameForWebfont(webfont);
+      const packageName = getPackageNameForWebfont(webfont);
       md += `[![${varNameForWebfont(
         webfont
       )}](${styleImagePath})](https://github.com/expo/google-fonts/tree/master/font-packages/${packageName}#readme)|`;
@@ -1020,7 +1019,7 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
 }
 
 async function generateGalleryFile(fontDirectory) {
-  let dc = JSON.parse(JSON.stringify(fontDirectory));
+  const dc = JSON.parse(JSON.stringify(fontDirectory));
   dc.items.sort((a, b) => (a.family < b.family ? -1 : 1));
 
   let md = `# Expo Google Fonts Gallery
@@ -1046,8 +1045,8 @@ ${dc.items
 
 `;
 
-  for (let webfont of fontDirectory.items) {
-    let pkgUrl =
+  for (const webfont of fontDirectory.items) {
+    const pkgUrl =
       'https://github.com/expo/google-fonts/tree/master/font-packages/' +
       getPackageNameForWebfont(webfont) +
       '#readme';
@@ -1055,7 +1054,7 @@ ${dc.items
     md += generateTableForVariants(webfont, pkgUrl);
   }
 
-  let outputFilepath = path.join(ProjectRootDir, 'GALLERY.md');
+  const outputFilepath = path.join(ProjectRootDir, 'GALLERY.md');
   await fs.promises.writeFile(outputFilepath, md, 'utf8');
 }
 
@@ -1069,10 +1068,11 @@ function generateTableForVariants(webfont, pkgUrl) {
 ||||
 |-|-|-|
 `;
-  let variantImageCells = [];
-  for (let variantKey of webfont.variants) {
-    let styleImagePath = fontPackagesPrefix + filenameForFontVariant(webfont, variantKey) + '.png';
-    let fi = varNameForFontVariant(webfont, variantKey);
+  const variantImageCells = [];
+  for (const variantKey of webfont.variants) {
+    const styleImagePath =
+      fontPackagesPrefix + filenameForFontVariant(webfont, variantKey) + '.png';
+    const fi = varNameForFontVariant(webfont, variantKey);
     if (pkgUrl) {
       variantImageCells.push(`[![${fi}](${styleImagePath})](${pkgUrl})`);
     } else {
@@ -1083,7 +1083,7 @@ function generateTableForVariants(webfont, pkgUrl) {
   for (let row = 0; variantImageCells.length > 0; row++) {
     md += '|';
     for (let col = 0; col < 3; col++) {
-      let cell = variantImageCells.shift() || '';
+      const cell = variantImageCells.shift() || '';
       md += cell + '|';
     }
     md += '|\n';
@@ -1096,52 +1096,52 @@ function getDisplayNameForFontVariant(webfont, variantKey) {
   return webfont.family + ' ' + VariantNames[variantKey];
 }
 
-let t = {
+const t = {
   downloadAllFonts: async () => {
-    let d = await getDirectory();
+    const d = await getDirectory();
     return await downloadAllFonts(d);
   },
   generateImagesForFonts: async () => {
-    let d = await getDirectory();
+    const d = await getDirectory();
     return await generateImagesForFonts(d);
   },
   generatePng: async () => {
-    let d = await getDirectory();
+    const d = await getDirectory();
     return await generatePng('out.png', 'Hello World', d.items[3], '700italic');
   },
   generateFontPackage: async (n = 3) => {
-    let d = await getDirectory();
+    const d = await getDirectory();
     return await generateFontPackage(d.items[n]);
   },
   generatePackageHeaderImage: async (n = 3) => {
-    let d = await getDirectory();
+    const d = await getDirectory();
     return await generatePackageHeaderImage('header.png', d.items[n]);
   },
 
   generateDevPackage: async () => {
-    let d = await getDirectory();
+    const d = await getDirectory();
     return await generateDevPackage(d);
   },
   generateFontDirectoryPackage: async () => {
-    let d = await getDirectory();
+    const d = await getDirectory();
     return await generateFontDirectoryPackage(d);
   },
   generateRootReadme: async () => {
-    let d = await getDirectory();
+    const d = await getDirectory();
     return await generateRootReadme(d);
   },
   generateGalleryFile: async () => {
-    let d = await getDirectory();
+    const d = await getDirectory();
     return await generateGalleryFile(d);
   },
   generateAllFontPackages: async () => {
-    let d = await getDirectory();
+    const d = await getDirectory();
     return await generateAllFontPackages(d);
   },
   getTotalFontVariants: async () => {
-    let d = await getDirectory();
+    const d = await getDirectory();
     let t = 0;
-    for (let webfont of d.items) {
+    for (const webfont of d.items) {
       t += webfont.variants.length;
     }
     return t;
