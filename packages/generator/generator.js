@@ -9,7 +9,7 @@ const physicalCpuCount = require('physical-cpu-count');
 const prettier = require('prettier');
 
 const contributors = require('./contributors');
-const googleFontsApiKey = require('./google-fonts-api-key');
+const getGoogleFontsApiKey = require('./google-fonts-api-key');
 const PackageVersion = require('../../package.json').version;
 
 // Constants
@@ -139,7 +139,7 @@ function varNameForFontVariant(webfont, variantKey) {
 }
 
 async function getDirectory() {
-  const url = `https://www.googleapis.com/webfonts/v1/webfonts?key=${googleFontsApiKey}&prettyPrint=false&sort=date`;
+  const url = `https://www.googleapis.com/webfonts/v1/webfonts?key=${getGoogleFontsApiKey()}&prettyPrint=false&sort=date`;
   const response = await fetch(url);
   return await response.json();
 }
