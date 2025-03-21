@@ -1126,8 +1126,8 @@ const t = {
     const d = await getDirectory();
     return await generateFontDirectoryPackage(d);
   },
-  generateRootReadme: async () => {
-    const d = await getDirectory();
+  generateRootReadme: async (directoryData) => {
+    const d = directoryData || (await getDirectory());
     return await generateRootReadme(d);
   },
   generateGalleryFile: async () => {

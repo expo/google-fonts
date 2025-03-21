@@ -6,7 +6,8 @@
     "generate": "node .",
     "generate-images": "node build-images.js",
     "generate-packages": "node build-packages.js",
-    "publish-font-packages": "node publish-font-packages.js"
+    "publish-font-packages": "node publish-font-packages.js",
+    "generate-root-readme": "node generate-root-readme.js",
     "update-directory-data": "node update-directory-data.js"
   },
   "dependencies": {
