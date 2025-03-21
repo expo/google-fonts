@@ -9,7 +9,7 @@ If you want to modify it, go to packages/generator/templates
   </a>
 </p>
 
-<p align="center">Use any of the 1811 fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
+<p align="center">Use any of the <%= fontsCount %> fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
 
 <p align="center">
   <a aria-label="npm version" href="https://www.npmjs.com/org/expo-google-fonts" target="_blank">
@@ -33,7 +33,7 @@ If you want to modify it, go to packages/generator/templates
 
 # expo-google-fonts
 
-The `@expo-google-fonts` packages for Expo allow you to easily use any of 1811 fonts (and their variants) from [fonts.google.com](https://fonts.google.com) in your Expo app.
+The `@expo-google-fonts` packages for Expo allow you to easily use any of <%= fontsCount %> fonts (and their variants) from [fonts.google.com](https://fonts.google.com) in your Expo app.
 
 These packages and all these fonts work across web, iOS, and Android and are free to use and open source.
 
@@ -85,26 +85,15 @@ You can browse all available Google Fonts on [fonts.google.com](https://fonts.go
 
 [directory-by-atiladev-com.netlify.app](https://directory-by-atiladev-com.netlify.app/) is a directory / search engine that will let you browse and search through all of the available fonts and show you the appropriate `import` statements you'll need so you can copy & paste into your own code.
 
-Here are a few examples of the 6831 variants of 1811 fonts available:
+Here are a few examples of the <%= variantCount %> variants of <%= fontsCount %> fonts available:
 
-
-||||
-|-|-|-|
-|[![Inter](./font-packages/inter/Inter_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/inter#readme)|[![Manrope](./font-packages/manrope/Manrope_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/manrope#readme)|[![Allan](./font-packages/allan/Allan_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/allan#readme)|
-|[![Roboto](./font-packages/roboto/Roboto_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)|[![Lusitana](./font-packages/lusitana/Lusitana_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/lusitana#readme)|[![Nunito](./font-packages/nunito/Nunito_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/nunito#readme)|
-|[![Bangers](./font-packages/bangers/Bangers_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/bangers#readme)|[![SourceSans3](./font-packages/source-sans-3/SourceSans3_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/source-sans-3#readme)|[![RobotoCondensed](./font-packages/roboto-condensed/RobotoCondensed_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto-condensed#readme)|
-|[![PlayfairDisplay](./font-packages/playfair-display/PlayfairDisplay_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playfair-display#readme)|[![Ubuntu](./font-packages/ubuntu/Ubuntu_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/ubuntu#readme)|[![Oswald](./font-packages/oswald/Oswald_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/oswald#readme)|
-|[![BalsamiqSans](./font-packages/balsamiq-sans/BalsamiqSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/balsamiq-sans#readme)|[![Jost](./font-packages/jost/Jost_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/jost#readme)|[![Lato](./font-packages/lato/Lato_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/lato#readme)|
-
+<%= galleryMarkdown %>
 
 There is also a [gallery in this repo](./GALLERY.md#readme) showing every font family and variant available.
 
 ## 👩‍💻 @expo-google-fonts/dev
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
-
-You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
-
+<%= devPackageDescription %>
 
 ## 📖 Licensing
 
@@ -124,9 +113,7 @@ Contributions are very welcome! Note that everything under `font-packages` and a
 
 ### Authors
 
-- Charlie Cheever ([@ccheever](https://github.com/ccheever)) - Expo
-- Leandro Favre ([@AtilaDev](https://github.com/AtilaDev)) - AtilaDev
-- Cedric van Putten ([@byCedric](https://github.com/byCedric)) - Expo
+<%= contributors.join('\n') %>
 
 ## 🔗 Links
 
