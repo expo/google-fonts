@@ -718,50 +718,39 @@ function getDisplayNameForFontVariant(webfont, variantKey) {
 
 const t = {
   downloadAllFonts: async () => {
-    const d = fontDirectory;
-    return await downloadAllFonts(d);
+    return await downloadAllFonts(fontDirectory);
   },
   generateImagesForFonts: async () => {
-    const d = fontDirectory;
-    return await generateImagesForFonts(d);
+    return await generateImagesForFonts(fontDirectory);
   },
   generatePng: async () => {
-    const d = fontDirectory;
-    return await generatePng('out.png', 'Hello World', d.items[3], '700italic');
+    return await generatePng('out.png', 'Hello World', fontDirectory.items[3], '700italic');
   },
   generateFontPackage: async (n = 3) => {
-    const d = fontDirectory;
-    return await generateFontPackage(d.items[n]);
+    return await generateFontPackage(fontDirectory.items[n]);
   },
   generatePackageHeaderImage: async (n = 3) => {
-    const d = fontDirectory;
-    return await generatePackageHeaderImage('header.png', d.items[n]);
+    return await generatePackageHeaderImage('header.png', fontDirectory.items[n]);
   },
 
   generateDevPackage: async () => {
-    const d = fontDirectory;
-    return await generateDevPackage(d);
+    return await generateDevPackage(fontDirectory);
   },
   generateFontDirectoryPackage: async () => {
-    const d = fontDirectory;
-    return await generateFontDirectoryPackage(d);
+    return await generateFontDirectoryPackage(fontDirectory);
   },
   generateRootReadme: async () => {
-    const d = fontDirectory;
-    return await generateRootReadme(d);
+    return await generateRootReadme(fontDirectory);
   },
   generateGalleryFile: async () => {
-    const d = fontDirectory;
-    return await generateGalleryFile(d);
+    return await generateGalleryFile(fontDirectory);
   },
   generateAllFontPackages: async () => {
-    const d = fontDirectory;
-    return await generateAllFontPackages(d);
+    return await generateAllFontPackages(fontDirectory);
   },
   getTotalFontVariants: async () => {
-    const d = fontDirectory;
     let t = 0;
-    for (const webfont of d.items) {
+    for (const webfont of fontDirectory.items) {
       t += webfont.variants.length;
     }
     return t;
