@@ -1,17 +1,14 @@
 {
+  "name": "generator",
+  "version": "0.2.3",
   "main": "generator.js",
   "scripts": {
     "generate": "node .",
     "generate-images": "node build-images.js",
     "generate-packages": "node build-packages.js",
-    "publish-font-packages": "node publish-font-packages.js"
-  },
-  "repl": {
-    "ignore": {
-      "files": [
-        "useFonts.js"
-      ]
-    }
+    "publish-font-packages": "node publish-font-packages.js",
+    "generate-root-readme": "node generate-root-readme.js",
+    "update-directory-data": "node update-directory-data.js"
   },
   "dependencies": {
     "@expo/spawn-async": "^1.5.0",
@@ -26,8 +23,7 @@
     "protocol-buffers": "^4.1.2"
   },
   "devDependencies": {
-    "delay-async": "^1.2.0",
-    "project-repl": "^1.6.1"
+    "delay-async": "^1.2.0"
   },
   "license": "MIT"
 }

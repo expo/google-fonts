@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-let generator = require('./generator');
+const generator = require('./generator');
 
 if (require.main === module) {
   (async () => {

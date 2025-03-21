@@ -4,7 +4,7 @@ const generator = require('./generator');
 
 if (require.main === module) {
   (async () => {
-    const fontDirectory = await generator.getDirectory();
-    generator.generateImagesForFonts(fontDirectory);
+    const directoryData = require('./directory-data.json');
+    await generator.generateRootReadme(directoryData);
   })();
 }
