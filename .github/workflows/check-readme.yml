@@ -16,9 +16,6 @@ jobs:
           sparse-checkout: |
             .github
             packages
-            README.md
-            package.json
-            yarn.lock
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
