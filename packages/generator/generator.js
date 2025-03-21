@@ -76,21 +76,21 @@ async function main({ images, download } = { images: true, download: true }) {
   const fontDirectory = await getDirectory();
   console.log('done.');
 
-  // if (download) {
-  //   console.log('Downloading all fonts...');
-  //   await downloadAllFonts(fontDirectory);
-  //   console.log('done.');
-  // }
+  if (download) {
+    console.log('Downloading all fonts...');
+    await downloadAllFonts(fontDirectory);
+    console.log('done.');
+  }
 
-  // if (images) {
-  //   console.log('Generating image previews for all fonts...');
-  //   await generateImagesForFonts(fontDirectory);
-  //   console.log('done.');
-  // }
+  if (images) {
+    console.log('Generating image previews for all fonts...');
+    await generateImagesForFonts(fontDirectory);
+    console.log('done.');
+  }
 
-  // console.log('Generating all font packages...');
-  // await generateAllFontPackages(fontDirectory);
-  // console.log('done.');
+  console.log('Generating all font packages...');
+  await generateAllFontPackages(fontDirectory);
+  console.log('done.');
 
   console.log('Generating dev package...');
   await generateDevPackage(fontDirectory);
