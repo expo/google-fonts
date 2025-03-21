@@ -9,10 +9,10 @@ export default function Index() {
         style={styles.logo}
         resizeMode="center"
       />
-      <Link href="/dev">
+      <Link href="/dev" style={styles.link}>
         <Text style={styles.text}>Dev</Text>
       </Link>
-      <Link href="/packages" style={{ marginTop: 30 }}>
+      <Link href="/packages" style={styles.link}>
         <Text style={styles.text}>Packages</Text>
       </Link>
     </View>
@@ -29,9 +29,11 @@ const styles = StyleSheet.create({
     marginVertical: 150,
     width: Platform.OS === 'web' ? '100%' : '200%',
   },
+  link: {
+    padding: 16,
+  },
   text: {
     fontSize: 24,
     color: '#222222',
-    padding: 28,
   },
 });
