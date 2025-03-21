@@ -26,40 +26,32 @@ This font family contains [9 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/encode-sans-condensed expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  EncodeSansCondensed_100Thin,
-  EncodeSansCondensed_200ExtraLight,
-  EncodeSansCondensed_300Light,
-  EncodeSansCondensed_400Regular,
-  EncodeSansCondensed_500Medium,
-  EncodeSansCondensed_600SemiBold,
-  EncodeSansCondensed_700Bold,
-  EncodeSansCondensed_800ExtraBold,
-  EncodeSansCondensed_900Black,
-} from '@expo-google-fonts/encode-sans-condensed';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, EncodeSansCondensed_100Thin, EncodeSansCondensed_200ExtraLight, EncodeSansCondensed_300Light, EncodeSansCondensed_400Regular, EncodeSansCondensed_500Medium, EncodeSansCondensed_600SemiBold, EncodeSansCondensed_700Bold, EncodeSansCondensed_800ExtraBold, EncodeSansCondensed_900Black } from '@expo-google-fonts/encode-sans-condensed';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    EncodeSansCondensed_100Thin,
-    EncodeSansCondensed_200ExtraLight,
-    EncodeSansCondensed_300Light,
-    EncodeSansCondensed_400Regular,
-    EncodeSansCondensed_500Medium,
-    EncodeSansCondensed_600SemiBold,
-    EncodeSansCondensed_700Bold,
-    EncodeSansCondensed_800ExtraBold,
-    EncodeSansCondensed_900Black,
+    EncodeSansCondensed_100Thin, 
+    EncodeSansCondensed_200ExtraLight, 
+    EncodeSansCondensed_300Light, 
+    EncodeSansCondensed_400Regular, 
+    EncodeSansCondensed_500Medium, 
+    EncodeSansCondensed_600SemiBold, 
+    EncodeSansCondensed_700Bold, 
+    EncodeSansCondensed_800ExtraBold, 
+    EncodeSansCondensed_900Black
   });
 
   let fontSize = 24;
@@ -69,101 +61,83 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansCondensed_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "EncodeSansCondensed_100Thin"
+        }}>
           Encode Sans Condensed Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansCondensed_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "EncodeSansCondensed_200ExtraLight"
+        }}>
           Encode Sans Condensed Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansCondensed_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "EncodeSansCondensed_300Light"
+        }}>
           Encode Sans Condensed Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansCondensed_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "EncodeSansCondensed_400Regular"
+        }}>
           Encode Sans Condensed Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansCondensed_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "EncodeSansCondensed_500Medium"
+        }}>
           Encode Sans Condensed Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansCondensed_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "EncodeSansCondensed_600SemiBold"
+        }}>
           Encode Sans Condensed Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansCondensed_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "EncodeSansCondensed_700Bold"
+        }}>
           Encode Sans Condensed Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansCondensed_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "EncodeSansCondensed_800ExtraBold"
+        }}>
           Encode Sans Condensed Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansCondensed_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "EncodeSansCondensed_900Black"
+        }}>
           Encode Sans Condensed Black
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -180,10 +154,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

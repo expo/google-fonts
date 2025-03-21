@@ -29,46 +29,35 @@ This font family contains [12 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/host-grotesk expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  HostGrotesk_300Light,
-  HostGrotesk_400Regular,
-  HostGrotesk_500Medium,
-  HostGrotesk_600SemiBold,
-  HostGrotesk_700Bold,
-  HostGrotesk_800ExtraBold,
-  HostGrotesk_300Light_Italic,
-  HostGrotesk_400Regular_Italic,
-  HostGrotesk_500Medium_Italic,
-  HostGrotesk_600SemiBold_Italic,
-  HostGrotesk_700Bold_Italic,
-  HostGrotesk_800ExtraBold_Italic,
-} from '@expo-google-fonts/host-grotesk';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, HostGrotesk_300Light, HostGrotesk_400Regular, HostGrotesk_500Medium, HostGrotesk_600SemiBold, HostGrotesk_700Bold, HostGrotesk_800ExtraBold, HostGrotesk_300Light_Italic, HostGrotesk_400Regular_Italic, HostGrotesk_500Medium_Italic, HostGrotesk_600SemiBold_Italic, HostGrotesk_700Bold_Italic, HostGrotesk_800ExtraBold_Italic } from '@expo-google-fonts/host-grotesk';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    HostGrotesk_300Light,
-    HostGrotesk_400Regular,
-    HostGrotesk_500Medium,
-    HostGrotesk_600SemiBold,
-    HostGrotesk_700Bold,
-    HostGrotesk_800ExtraBold,
-    HostGrotesk_300Light_Italic,
-    HostGrotesk_400Regular_Italic,
-    HostGrotesk_500Medium_Italic,
-    HostGrotesk_600SemiBold_Italic,
-    HostGrotesk_700Bold_Italic,
-    HostGrotesk_800ExtraBold_Italic,
+    HostGrotesk_300Light, 
+    HostGrotesk_400Regular, 
+    HostGrotesk_500Medium, 
+    HostGrotesk_600SemiBold, 
+    HostGrotesk_700Bold, 
+    HostGrotesk_800ExtraBold, 
+    HostGrotesk_300Light_Italic, 
+    HostGrotesk_400Regular_Italic, 
+    HostGrotesk_500Medium_Italic, 
+    HostGrotesk_600SemiBold_Italic, 
+    HostGrotesk_700Bold_Italic, 
+    HostGrotesk_800ExtraBold_Italic
   });
 
   let fontSize = 24;
@@ -78,131 +67,107 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_300Light',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HostGrotesk_300Light"
+        }}>
           Host Grotesk Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HostGrotesk_400Regular"
+        }}>
           Host Grotesk Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HostGrotesk_500Medium"
+        }}>
           Host Grotesk Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HostGrotesk_600SemiBold"
+        }}>
           Host Grotesk Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HostGrotesk_700Bold"
+        }}>
           Host Grotesk Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HostGrotesk_800ExtraBold"
+        }}>
           Host Grotesk Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HostGrotesk_300Light_Italic"
+        }}>
           Host Grotesk Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HostGrotesk_400Regular_Italic"
+        }}>
           Host Grotesk Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HostGrotesk_500Medium_Italic"
+        }}>
           Host Grotesk Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HostGrotesk_600SemiBold_Italic"
+        }}>
           Host Grotesk Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HostGrotesk_700Bold_Italic"
+        }}>
           Host Grotesk Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HostGrotesk_800ExtraBold_Italic"
+        }}>
           Host Grotesk Extra Bold Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -220,10 +185,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

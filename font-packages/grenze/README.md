@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/grenze expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Grenze_100Thin,
-  Grenze_100Thin_Italic,
-  Grenze_200ExtraLight,
-  Grenze_200ExtraLight_Italic,
-  Grenze_300Light,
-  Grenze_300Light_Italic,
-  Grenze_400Regular,
-  Grenze_400Regular_Italic,
-  Grenze_500Medium,
-  Grenze_500Medium_Italic,
-  Grenze_600SemiBold,
-  Grenze_600SemiBold_Italic,
-  Grenze_700Bold,
-  Grenze_700Bold_Italic,
-  Grenze_800ExtraBold,
-  Grenze_800ExtraBold_Italic,
-  Grenze_900Black,
-  Grenze_900Black_Italic,
-} from '@expo-google-fonts/grenze';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Grenze_100Thin, Grenze_100Thin_Italic, Grenze_200ExtraLight, Grenze_200ExtraLight_Italic, Grenze_300Light, Grenze_300Light_Italic, Grenze_400Regular, Grenze_400Regular_Italic, Grenze_500Medium, Grenze_500Medium_Italic, Grenze_600SemiBold, Grenze_600SemiBold_Italic, Grenze_700Bold, Grenze_700Bold_Italic, Grenze_800ExtraBold, Grenze_800ExtraBold_Italic, Grenze_900Black, Grenze_900Black_Italic } from '@expo-google-fonts/grenze';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Grenze_100Thin,
-    Grenze_100Thin_Italic,
-    Grenze_200ExtraLight,
-    Grenze_200ExtraLight_Italic,
-    Grenze_300Light,
-    Grenze_300Light_Italic,
-    Grenze_400Regular,
-    Grenze_400Regular_Italic,
-    Grenze_500Medium,
-    Grenze_500Medium_Italic,
-    Grenze_600SemiBold,
-    Grenze_600SemiBold_Italic,
-    Grenze_700Bold,
-    Grenze_700Bold_Italic,
-    Grenze_800ExtraBold,
-    Grenze_800ExtraBold_Italic,
-    Grenze_900Black,
-    Grenze_900Black_Italic,
+    Grenze_100Thin, 
+    Grenze_100Thin_Italic, 
+    Grenze_200ExtraLight, 
+    Grenze_200ExtraLight_Italic, 
+    Grenze_300Light, 
+    Grenze_300Light_Italic, 
+    Grenze_400Regular, 
+    Grenze_400Regular_Italic, 
+    Grenze_500Medium, 
+    Grenze_500Medium_Italic, 
+    Grenze_600SemiBold, 
+    Grenze_600SemiBold_Italic, 
+    Grenze_700Bold, 
+    Grenze_700Bold_Italic, 
+    Grenze_800ExtraBold, 
+    Grenze_800ExtraBold_Italic, 
+    Grenze_900Black, 
+    Grenze_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_100Thin"
+        }}>
           Grenze Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_100Thin_Italic"
+        }}>
           Grenze Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_200ExtraLight"
+        }}>
           Grenze Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_200ExtraLight_Italic"
+        }}>
           Grenze Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_300Light"
+        }}>
           Grenze Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_300Light_Italic"
+        }}>
           Grenze Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_400Regular"
+        }}>
           Grenze Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_400Regular_Italic"
+        }}>
           Grenze Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_500Medium"
+        }}>
           Grenze Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_500Medium_Italic"
+        }}>
           Grenze Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_600SemiBold"
+        }}>
           Grenze Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_600SemiBold_Italic"
+        }}>
           Grenze Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_700Bold"
+        }}>
           Grenze Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_700Bold_Italic"
+        }}>
           Grenze Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_800ExtraBold"
+        }}>
           Grenze Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_800ExtraBold_Italic"
+        }}>
           Grenze Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_900Black"
+        }}>
           Grenze Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Grenze_900Black_Italic"
+        }}>
           Grenze Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

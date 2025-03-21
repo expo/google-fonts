@@ -23,34 +23,29 @@ This font family contains [6 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/gabarito expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Gabarito_400Regular,
-  Gabarito_500Medium,
-  Gabarito_600SemiBold,
-  Gabarito_700Bold,
-  Gabarito_800ExtraBold,
-  Gabarito_900Black,
-} from '@expo-google-fonts/gabarito';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Gabarito_400Regular, Gabarito_500Medium, Gabarito_600SemiBold, Gabarito_700Bold, Gabarito_800ExtraBold, Gabarito_900Black } from '@expo-google-fonts/gabarito';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Gabarito_400Regular,
-    Gabarito_500Medium,
-    Gabarito_600SemiBold,
-    Gabarito_700Bold,
-    Gabarito_800ExtraBold,
-    Gabarito_900Black,
+    Gabarito_400Regular, 
+    Gabarito_500Medium, 
+    Gabarito_600SemiBold, 
+    Gabarito_700Bold, 
+    Gabarito_800ExtraBold, 
+    Gabarito_900Black
   });
 
   let fontSize = 24;
@@ -60,71 +55,59 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gabarito_400Regular',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gabarito_400Regular"
+        }}>
           Gabarito Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gabarito_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gabarito_500Medium"
+        }}>
           Gabarito Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gabarito_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gabarito_600SemiBold"
+        }}>
           Gabarito Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gabarito_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gabarito_700Bold"
+        }}>
           Gabarito Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gabarito_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gabarito_800ExtraBold"
+        }}>
           Gabarito Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gabarito_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gabarito_900Black"
+        }}>
           Gabarito Black
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -140,10 +123,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

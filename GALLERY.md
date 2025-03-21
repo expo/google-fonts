@@ -15,73 +15,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 
 ## 🔡 Styles
 
-<<<<<<< HEAD
-### [Winky Sans](https://github.com/expo/google-fonts/tree/master/font-packages/winky-sans#readme)
-
-||||
-|-|-|-|
-|[![WinkySans_300Light](./font-packages/winky-sans/WinkySans_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/winky-sans#readme)|[![WinkySans_400Regular](./font-packages/winky-sans/WinkySans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/winky-sans#readme)|[![WinkySans_500Medium](./font-packages/winky-sans/WinkySans_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/winky-sans#readme)||
-|[![WinkySans_600SemiBold](./font-packages/winky-sans/WinkySans_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/winky-sans#readme)|[![WinkySans_700Bold](./font-packages/winky-sans/WinkySans_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/winky-sans#readme)|[![WinkySans_800ExtraBold](./font-packages/winky-sans/WinkySans_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/winky-sans#readme)||
-|[![WinkySans_900Black](./font-packages/winky-sans/WinkySans_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/winky-sans#readme)|[![WinkySans_300Light_Italic](./font-packages/winky-sans/WinkySans_300Light_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/winky-sans#readme)|[![WinkySans_400Regular_Italic](./font-packages/winky-sans/WinkySans_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/winky-sans#readme)||
-|[![WinkySans_500Medium_Italic](./font-packages/winky-sans/WinkySans_500Medium_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/winky-sans#readme)|[![WinkySans_600SemiBold_Italic](./font-packages/winky-sans/WinkySans_600SemiBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/winky-sans#readme)|[![WinkySans_700Bold_Italic](./font-packages/winky-sans/WinkySans_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/winky-sans#readme)||
-|[![WinkySans_800ExtraBold_Italic](./font-packages/winky-sans/WinkySans_800ExtraBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/winky-sans#readme)|[![WinkySans_900Black_Italic](./font-packages/winky-sans/WinkySans_900Black_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/winky-sans#readme)|||
-### [Gidole](https://github.com/expo/google-fonts/tree/master/font-packages/gidole#readme)
-
-||||
-|-|-|-|
-|[![Gidole_400Regular](./font-packages/gidole/Gidole_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/gidole#readme)||||
-### [Bytesized](https://github.com/expo/google-fonts/tree/master/font-packages/bytesized#readme)
-
-||||
-|-|-|-|
-|[![Bytesized_400Regular](./font-packages/bytesized/Bytesized_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/bytesized#readme)||||
-### [Boldonse](https://github.com/expo/google-fonts/tree/master/font-packages/boldonse#readme)
-
-||||
-|-|-|-|
-|[![Boldonse_400Regular](./font-packages/boldonse/Boldonse_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/boldonse#readme)||||
-### [Material Symbols](https://github.com/expo/google-fonts/tree/master/font-packages/material-symbols#readme)
-
-||||
-|-|-|-|
-|[![MaterialSymbols_100Thin](./font-packages/material-symbols/MaterialSymbols_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/material-symbols#readme)|[![MaterialSymbols_200ExtraLight](./font-packages/material-symbols/MaterialSymbols_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/material-symbols#readme)|[![MaterialSymbols_300Light](./font-packages/material-symbols/MaterialSymbols_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/material-symbols#readme)||
-|[![MaterialSymbols_400Regular](./font-packages/material-symbols/MaterialSymbols_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/material-symbols#readme)|[![MaterialSymbols_500Medium](./font-packages/material-symbols/MaterialSymbols_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/material-symbols#readme)|[![MaterialSymbols_600SemiBold](./font-packages/material-symbols/MaterialSymbols_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/material-symbols#readme)||
-|[![MaterialSymbols_700Bold](./font-packages/material-symbols/MaterialSymbols_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/material-symbols#readme)||||
-### [Iansui](https://github.com/expo/google-fonts/tree/master/font-packages/iansui#readme)
-
-||||
-|-|-|-|
-|[![Iansui_400Regular](./font-packages/iansui/Iansui_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/iansui#readme)||||
-### [Ponomar](https://github.com/expo/google-fonts/tree/master/font-packages/ponomar#readme)
-
-||||
-|-|-|-|
-|[![Ponomar_400Regular](./font-packages/ponomar/Ponomar_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/ponomar#readme)||||
-### [Big Shoulders Stencil](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil#readme)
-
-||||
-|-|-|-|
-|[![BigShouldersStencil_100Thin](./font-packages/big-shoulders-stencil/BigShouldersStencil_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil#readme)|[![BigShouldersStencil_200ExtraLight](./font-packages/big-shoulders-stencil/BigShouldersStencil_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil#readme)|[![BigShouldersStencil_300Light](./font-packages/big-shoulders-stencil/BigShouldersStencil_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil#readme)||
-|[![BigShouldersStencil_400Regular](./font-packages/big-shoulders-stencil/BigShouldersStencil_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil#readme)|[![BigShouldersStencil_500Medium](./font-packages/big-shoulders-stencil/BigShouldersStencil_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil#readme)|[![BigShouldersStencil_600SemiBold](./font-packages/big-shoulders-stencil/BigShouldersStencil_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil#readme)||
-|[![BigShouldersStencil_700Bold](./font-packages/big-shoulders-stencil/BigShouldersStencil_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil#readme)|[![BigShouldersStencil_800ExtraBold](./font-packages/big-shoulders-stencil/BigShouldersStencil_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil#readme)|[![BigShouldersStencil_900Black](./font-packages/big-shoulders-stencil/BigShouldersStencil_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil#readme)||
-### [Big Shoulders Inline](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline#readme)
-
-||||
-|-|-|-|
-|[![BigShouldersInline_100Thin](./font-packages/big-shoulders-inline/BigShouldersInline_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline#readme)|[![BigShouldersInline_200ExtraLight](./font-packages/big-shoulders-inline/BigShouldersInline_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline#readme)|[![BigShouldersInline_300Light](./font-packages/big-shoulders-inline/BigShouldersInline_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline#readme)||
-|[![BigShouldersInline_400Regular](./font-packages/big-shoulders-inline/BigShouldersInline_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline#readme)|[![BigShouldersInline_500Medium](./font-packages/big-shoulders-inline/BigShouldersInline_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline#readme)|[![BigShouldersInline_600SemiBold](./font-packages/big-shoulders-inline/BigShouldersInline_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline#readme)||
-|[![BigShouldersInline_700Bold](./font-packages/big-shoulders-inline/BigShouldersInline_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline#readme)|[![BigShouldersInline_800ExtraBold](./font-packages/big-shoulders-inline/BigShouldersInline_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline#readme)|[![BigShouldersInline_900Black](./font-packages/big-shoulders-inline/BigShouldersInline_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline#readme)||
-### [Big Shoulders](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders#readme)
-
-||||
-|-|-|-|
-|[![BigShoulders_100Thin](./font-packages/big-shoulders/BigShoulders_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders#readme)|[![BigShoulders_200ExtraLight](./font-packages/big-shoulders/BigShoulders_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders#readme)|[![BigShoulders_300Light](./font-packages/big-shoulders/BigShoulders_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders#readme)||
-|[![BigShoulders_400Regular](./font-packages/big-shoulders/BigShoulders_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders#readme)|[![BigShoulders_500Medium](./font-packages/big-shoulders/BigShoulders_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders#readme)|[![BigShoulders_600SemiBold](./font-packages/big-shoulders/BigShoulders_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders#readme)||
-|[![BigShoulders_700Bold](./font-packages/big-shoulders/BigShoulders_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders#readme)|[![BigShoulders_800ExtraBold](./font-packages/big-shoulders/BigShoulders_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders#readme)|[![BigShoulders_900Black](./font-packages/big-shoulders/BigShoulders_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders#readme)||
-### [Shafarik](https://github.com/expo/google-fonts/tree/master/font-packages/shafarik#readme)
-||||||| 622e44c3c
-### [Shafarik](https://github.com/expo/google-fonts/tree/master/font-packages/shafarik#readme)
-=======
 ### [Winky Sans](https://github.com/expo/google-fonts/tree/master/font-packages/winky-sans#readme)
 
 ||||
@@ -145,7 +78,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |[![BigShoulders_400Regular](./font-packages/big-shoulders/BigShoulders_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders#readme)|[![BigShoulders_500Medium](./font-packages/big-shoulders/BigShoulders_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders#readme)|[![BigShoulders_600SemiBold](./font-packages/big-shoulders/BigShoulders_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders#readme)||
 |[![BigShoulders_700Bold](./font-packages/big-shoulders/BigShoulders_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders#readme)|[![BigShoulders_800ExtraBold](./font-packages/big-shoulders/BigShoulders_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders#readme)|[![BigShoulders_900Black](./font-packages/big-shoulders/BigShoulders_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders#readme)||
 ,### [Shafarik](https://github.com/expo/google-fonts/tree/master/font-packages/shafarik#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -155,70 +87,23 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 ||||
 |-|-|-|
 |[![Monomakh_400Regular](./font-packages/monomakh/Monomakh_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/monomakh#readme)||||
-<<<<<<< HEAD
-### [Noto Serif Hentaigana](https://github.com/expo/google-fonts/tree/master/font-packages/noto-serif-hentaigana#readme)
-||||||| 622e44c3c
-### [Pochaevsk](https://github.com/expo/google-fonts/tree/master/font-packages/pochaevsk#readme)
-
-||||
-|-|-|-|
-|[![Pochaevsk_400Regular](./font-packages/pochaevsk/Pochaevsk_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/pochaevsk#readme)||||
-### [Noto Serif Hentaigana](https://github.com/expo/google-fonts/tree/master/font-packages/noto-serif-hentaigana#readme)
-=======
 ,### [Noto Serif Hentaigana](https://github.com/expo/google-fonts/tree/master/font-packages/noto-serif-hentaigana#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
 |[![NotoSerifHentaigana_200ExtraLight](./font-packages/noto-serif-hentaigana/NotoSerifHentaigana_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/noto-serif-hentaigana#readme)|[![NotoSerifHentaigana_300Light](./font-packages/noto-serif-hentaigana/NotoSerifHentaigana_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/noto-serif-hentaigana#readme)|[![NotoSerifHentaigana_400Regular](./font-packages/noto-serif-hentaigana/NotoSerifHentaigana_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/noto-serif-hentaigana#readme)||
 |[![NotoSerifHentaigana_500Medium](./font-packages/noto-serif-hentaigana/NotoSerifHentaigana_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/noto-serif-hentaigana#readme)|[![NotoSerifHentaigana_600SemiBold](./font-packages/noto-serif-hentaigana/NotoSerifHentaigana_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/noto-serif-hentaigana#readme)|[![NotoSerifHentaigana_700Bold](./font-packages/noto-serif-hentaigana/NotoSerifHentaigana_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/noto-serif-hentaigana#readme)||
 |[![NotoSerifHentaigana_800ExtraBold](./font-packages/noto-serif-hentaigana/NotoSerifHentaigana_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/noto-serif-hentaigana#readme)|[![NotoSerifHentaigana_900Black](./font-packages/noto-serif-hentaigana/NotoSerifHentaigana_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/noto-serif-hentaigana#readme)|||
-<<<<<<< HEAD
-### [42dot Sans](https://github.com/expo/google-fonts/tree/master/font-packages/42dot-sans#readme)
-||||||| 622e44c3c
-### [Liter](https://github.com/expo/google-fonts/tree/master/font-packages/liter#readme)
-=======
 ,### [42dot Sans](https://github.com/expo/google-fonts/tree/master/font-packages/42dot-sans#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
-<<<<<<< HEAD
-|[![font42dotSans_300Light](./font-packages/42dot-sans/font42dotSans_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/42dot-sans#readme)|[![font42dotSans_400Regular](./font-packages/42dot-sans/font42dotSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/42dot-sans#readme)|[![font42dotSans_500Medium](./font-packages/42dot-sans/font42dotSans_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/42dot-sans#readme)||
-|[![font42dotSans_600SemiBold](./font-packages/42dot-sans/font42dotSans_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/42dot-sans#readme)|[![font42dotSans_700Bold](./font-packages/42dot-sans/font42dotSans_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/42dot-sans#readme)|[![font42dotSans_800ExtraBold](./font-packages/42dot-sans/font42dotSans_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/42dot-sans#readme)||
-### [Atkinson Hyperlegible Next](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)
-||||||| 622e44c3c
-|[![Liter_400Regular](./font-packages/liter/Liter_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/liter#readme)||||
-### [42dot Sans](https://github.com/expo/google-fonts/tree/master/font-packages/font42dot-sans#readme)
-=======
 |[![font42dotSans_300Light](./font-packages/42dot-sans/font42dotSans_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/42dot-sans#readme)|[![font42dotSans_400Regular](./font-packages/42dot-sans/font42dotSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/42dot-sans#readme)|[![font42dotSans_500Medium](./font-packages/42dot-sans/font42dotSans_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/42dot-sans#readme)||
 |[![font42dotSans_600SemiBold](./font-packages/42dot-sans/font42dotSans_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/42dot-sans#readme)|[![font42dotSans_700Bold](./font-packages/42dot-sans/font42dotSans_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/42dot-sans#readme)|[![font42dotSans_800ExtraBold](./font-packages/42dot-sans/font42dotSans_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/42dot-sans#readme)||
 ,### [Atkinson Hyperlegible Next](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
-<<<<<<< HEAD
-|[![AtkinsonHyperlegibleNext_200ExtraLight](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)|[![AtkinsonHyperlegibleNext_300Light](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)|[![AtkinsonHyperlegibleNext_400Regular](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)||
-|[![AtkinsonHyperlegibleNext_500Medium](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)|[![AtkinsonHyperlegibleNext_600SemiBold](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)|[![AtkinsonHyperlegibleNext_700Bold](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)||
-|[![AtkinsonHyperlegibleNext_800ExtraBold](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)|[![AtkinsonHyperlegibleNext_200ExtraLight_Italic](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_200ExtraLight_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)|[![AtkinsonHyperlegibleNext_300Light_Italic](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_300Light_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)||
-|[![AtkinsonHyperlegibleNext_400Regular_Italic](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)|[![AtkinsonHyperlegibleNext_500Medium_Italic](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_500Medium_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)|[![AtkinsonHyperlegibleNext_600SemiBold_Italic](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_600SemiBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)||
-|[![AtkinsonHyperlegibleNext_700Bold_Italic](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)|[![AtkinsonHyperlegibleNext_800ExtraBold_Italic](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_800ExtraBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)|||
-### [Atkinson Hyperlegible Mono](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)
-
-||||
-|-|-|-|
-|[![AtkinsonHyperlegibleMono_200ExtraLight](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)|[![AtkinsonHyperlegibleMono_300Light](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)|[![AtkinsonHyperlegibleMono_400Regular](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)||
-|[![AtkinsonHyperlegibleMono_500Medium](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)|[![AtkinsonHyperlegibleMono_600SemiBold](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)|[![AtkinsonHyperlegibleMono_700Bold](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)||
-|[![AtkinsonHyperlegibleMono_800ExtraBold](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)|[![AtkinsonHyperlegibleMono_200ExtraLight_Italic](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_200ExtraLight_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)|[![AtkinsonHyperlegibleMono_300Light_Italic](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_300Light_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)||
-|[![AtkinsonHyperlegibleMono_400Regular_Italic](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)|[![AtkinsonHyperlegibleMono_500Medium_Italic](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_500Medium_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)|[![AtkinsonHyperlegibleMono_600SemiBold_Italic](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_600SemiBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)||
-|[![AtkinsonHyperlegibleMono_700Bold_Italic](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)|[![AtkinsonHyperlegibleMono_800ExtraBold_Italic](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_800ExtraBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)|||
-### [Noto Serif Todhri](https://github.com/expo/google-fonts/tree/master/font-packages/noto-serif-todhri#readme)
-||||||| 622e44c3c
-|[![font42dotSans_300Light](./font-packages/font42dot-sans/font42dotSans_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/font42dot-sans#readme)|[![font42dotSans_400Regular](./font-packages/font42dot-sans/font42dotSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/font42dot-sans#readme)|[![font42dotSans_500Medium](./font-packages/font42dot-sans/font42dotSans_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/font42dot-sans#readme)||
-|[![font42dotSans_600SemiBold](./font-packages/font42dot-sans/font42dotSans_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/font42dot-sans#readme)|[![font42dotSans_700Bold](./font-packages/font42dot-sans/font42dotSans_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/font42dot-sans#readme)|[![font42dotSans_800ExtraBold](./font-packages/font42dot-sans/font42dotSans_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/font42dot-sans#readme)||
-### [Noto Serif Todhri](https://github.com/expo/google-fonts/tree/master/font-packages/noto-serif-todhri#readme)
-=======
 |[![AtkinsonHyperlegibleNext_200ExtraLight](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)|[![AtkinsonHyperlegibleNext_300Light](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)|[![AtkinsonHyperlegibleNext_400Regular](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)||
 |[![AtkinsonHyperlegibleNext_500Medium](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)|[![AtkinsonHyperlegibleNext_600SemiBold](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)|[![AtkinsonHyperlegibleNext_700Bold](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)||
 |[![AtkinsonHyperlegibleNext_800ExtraBold](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)|[![AtkinsonHyperlegibleNext_200ExtraLight_Italic](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_200ExtraLight_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)|[![AtkinsonHyperlegibleNext_300Light_Italic](./font-packages/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext_300Light_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-next#readme)||
@@ -234,28 +119,16 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |[![AtkinsonHyperlegibleMono_400Regular_Italic](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)|[![AtkinsonHyperlegibleMono_500Medium_Italic](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_500Medium_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)|[![AtkinsonHyperlegibleMono_600SemiBold_Italic](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_600SemiBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)||
 |[![AtkinsonHyperlegibleMono_700Bold_Italic](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)|[![AtkinsonHyperlegibleMono_800ExtraBold_Italic](./font-packages/atkinson-hyperlegible-mono/AtkinsonHyperlegibleMono_800ExtraBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/atkinson-hyperlegible-mono#readme)|||
 ,### [Noto Serif Todhri](https://github.com/expo/google-fonts/tree/master/font-packages/noto-serif-todhri#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
 |[![NotoSerifTodhri_400Regular](./font-packages/noto-serif-todhri/NotoSerifTodhri_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/noto-serif-todhri#readme)||||
-<<<<<<< HEAD
-### [Liter](https://github.com/expo/google-fonts/tree/master/font-packages/liter#readme)
-
-||||
-|-|-|-|
-|[![Liter_400Regular](./font-packages/liter/Liter_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/liter#readme)||||
-### [Playwrite ZA Guides](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-za-guides#readme)
-||||||| 622e44c3c
-### [Playwrite ZA Guides](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-za-guides#readme)
-=======
 ,### [Liter](https://github.com/expo/google-fonts/tree/master/font-packages/liter#readme)
 
 ||||
 |-|-|-|
 |[![Liter_400Regular](./font-packages/liter/Liter_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/liter#readme)||||
 ,### [Playwrite ZA Guides](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-za-guides#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -445,18 +318,7 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 ||||
 |-|-|-|
 |[![PlaywriteCUGuides_400Regular](./font-packages/playwrite-cu-guides/PlaywriteCUGuides_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-cu-guides#readme)||||
-<<<<<<< HEAD
-### [Playwrite CL Guides](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-cl-guides#readme)
-||||||| 622e44c3c
-### [Playwrite CO Guides](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-co-guides#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteCOGuides_400Regular](./font-packages/playwrite-co-guides/PlaywriteCOGuides_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-co-guides#readme)||||
-### [Playwrite CL Guides](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-cl-guides#readme)
-=======
 ,### [Playwrite CL Guides](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-cl-guides#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -511,18 +373,7 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 ||||
 |-|-|-|
 |[![PlaywriteATGuides_400Regular](./font-packages/playwrite-at-guides/PlaywriteATGuides_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at-guides#readme)|[![PlaywriteATGuides_400Regular_Italic](./font-packages/playwrite-at-guides/PlaywriteATGuides_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at-guides#readme)|||
-<<<<<<< HEAD
-### [Badeen Display](https://github.com/expo/google-fonts/tree/master/font-packages/badeen-display#readme)
-||||||| 622e44c3c
-### [Playwrite AR Guides](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-ar-guides#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteARGuides_400Regular](./font-packages/playwrite-ar-guides/PlaywriteARGuides_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-ar-guides#readme)||||
-### [Badeen Display](https://github.com/expo/google-fonts/tree/master/font-packages/badeen-display#readme)
-=======
 ,### [Badeen Display](https://github.com/expo/google-fonts/tree/master/font-packages/badeen-display#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -532,23 +383,12 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 ||||
 |-|-|-|
 |[![AguDisplay_400Regular](./font-packages/agu-display/AguDisplay_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/agu-display#readme)||||
-<<<<<<< HEAD
-### [Pochaevsk](https://github.com/expo/google-fonts/tree/master/font-packages/pochaevsk#readme)
-
-||||
-|-|-|-|
-|[![Pochaevsk_400Regular](./font-packages/pochaevsk/Pochaevsk_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/pochaevsk#readme)||||
-### [Triodion](https://github.com/expo/google-fonts/tree/master/font-packages/triodion#readme)
-||||||| 622e44c3c
-### [Triodion](https://github.com/expo/google-fonts/tree/master/font-packages/triodion#readme)
-=======
 ,### [Pochaevsk](https://github.com/expo/google-fonts/tree/master/font-packages/pochaevsk#readme)
 
 ||||
 |-|-|-|
 |[![Pochaevsk_400Regular](./font-packages/pochaevsk/Pochaevsk_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/pochaevsk#readme)||||
 ,### [Triodion](https://github.com/expo/google-fonts/tree/master/font-packages/triodion#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -569,21 +409,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |-|-|-|
 |[![HindMysuru_300Light](./font-packages/hind-mysuru/HindMysuru_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/hind-mysuru#readme)|[![HindMysuru_400Regular](./font-packages/hind-mysuru/HindMysuru_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/hind-mysuru#readme)|[![HindMysuru_500Medium](./font-packages/hind-mysuru/HindMysuru_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/hind-mysuru#readme)||
 |[![HindMysuru_600SemiBold](./font-packages/hind-mysuru/HindMysuru_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/hind-mysuru#readme)|[![HindMysuru_700Bold](./font-packages/hind-mysuru/HindMysuru_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/hind-mysuru#readme)|||
-<<<<<<< HEAD
-### [Playwrite AR Guides](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-ar-guides#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteARGuides_400Regular](./font-packages/playwrite-ar-guides/PlaywriteARGuides_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-ar-guides#readme)||||
-### [Playwrite CO Guides](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-co-guides#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteCOGuides_400Regular](./font-packages/playwrite-co-guides/PlaywriteCOGuides_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-co-guides#readme)||||
-### [Ponnala](https://github.com/expo/google-fonts/tree/master/font-packages/ponnala#readme)
-||||||| 622e44c3c
-### [Ponnala](https://github.com/expo/google-fonts/tree/master/font-packages/ponnala#readme)
-=======
 ,### [Playwrite AR Guides](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-ar-guides#readme)
 
 ||||
@@ -595,7 +420,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |-|-|-|
 |[![PlaywriteCOGuides_400Regular](./font-packages/playwrite-co-guides/PlaywriteCOGuides_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-co-guides#readme)||||
 ,### [Ponnala](https://github.com/expo/google-fonts/tree/master/font-packages/ponnala#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -711,18 +535,7 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 ||||
 |-|-|-|
 |[![KarlaTamilInclined_400Regular](./font-packages/karla-tamil-inclined/KarlaTamilInclined_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/karla-tamil-inclined#readme)|[![KarlaTamilInclined_700Bold](./font-packages/karla-tamil-inclined/KarlaTamilInclined_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/karla-tamil-inclined#readme)|||
-<<<<<<< HEAD
-### [Afacad Flux](https://github.com/expo/google-fonts/tree/master/font-packages/afacad-flux#readme)
-||||||| 622e44c3c
-### [Sixtyfour Convergence](https://github.com/expo/google-fonts/tree/master/font-packages/sixtyfour-convergence#readme)
-
-||||
-|-|-|-|
-|[![SixtyfourConvergence_400Regular](./font-packages/sixtyfour-convergence/SixtyfourConvergence_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/sixtyfour-convergence#readme)||||
-### [Afacad Flux](https://github.com/expo/google-fonts/tree/master/font-packages/afacad-flux#readme)
-=======
 ,### [Afacad Flux](https://github.com/expo/google-fonts/tree/master/font-packages/afacad-flux#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -781,78 +594,23 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |[![Zain_200ExtraLight](./font-packages/zain/Zain_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/zain#readme)|[![Zain_300Light](./font-packages/zain/Zain_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/zain#readme)|[![Zain_300Light_Italic](./font-packages/zain/Zain_300Light_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/zain#readme)||
 |[![Zain_400Regular](./font-packages/zain/Zain_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/zain#readme)|[![Zain_400Regular_Italic](./font-packages/zain/Zain_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/zain#readme)|[![Zain_700Bold](./font-packages/zain/Zain_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/zain#readme)||
 |[![Zain_800ExtraBold](./font-packages/zain/Zain_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/zain#readme)|[![Zain_900Black](./font-packages/zain/Zain_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/zain#readme)|||
-<<<<<<< HEAD
-### [Edu AU VIC WA NT Hand](https://github.com/expo/google-fonts/tree/master/font-packages/edu-au-vic-wa-nt-hand#readme)
-||||||| 622e44c3c
-### [Kalnia Glaze](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)
-
-||||
-|-|-|-|
-|[![KalniaGlaze_100Thin](./font-packages/kalnia-glaze/KalniaGlaze_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)|[![KalniaGlaze_200ExtraLight](./font-packages/kalnia-glaze/KalniaGlaze_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)|[![KalniaGlaze_300Light](./font-packages/kalnia-glaze/KalniaGlaze_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)||
-|[![KalniaGlaze_400Regular](./font-packages/kalnia-glaze/KalniaGlaze_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)|[![KalniaGlaze_500Medium](./font-packages/kalnia-glaze/KalniaGlaze_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)|[![KalniaGlaze_600SemiBold](./font-packages/kalnia-glaze/KalniaGlaze_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)||
-|[![KalniaGlaze_700Bold](./font-packages/kalnia-glaze/KalniaGlaze_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)||||
-### [Edu AU VIC WA NT Hand](https://github.com/expo/google-fonts/tree/master/font-packages/edu-au-vic-wa-nt-hand#readme)
-=======
 ,### [Edu AU VIC WA NT Hand](https://github.com/expo/google-fonts/tree/master/font-packages/edu-au-vic-wa-nt-hand#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
 |[![EduAUVICWANTHand_400Regular](./font-packages/edu-au-vic-wa-nt-hand/EduAUVICWANTHand_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/edu-au-vic-wa-nt-hand#readme)|[![EduAUVICWANTHand_500Medium](./font-packages/edu-au-vic-wa-nt-hand/EduAUVICWANTHand_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/edu-au-vic-wa-nt-hand#readme)|[![EduAUVICWANTHand_600SemiBold](./font-packages/edu-au-vic-wa-nt-hand/EduAUVICWANTHand_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/edu-au-vic-wa-nt-hand#readme)||
 |[![EduAUVICWANTHand_700Bold](./font-packages/edu-au-vic-wa-nt-hand/EduAUVICWANTHand_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/edu-au-vic-wa-nt-hand#readme)||||
-<<<<<<< HEAD
-### [Maname](https://github.com/expo/google-fonts/tree/master/font-packages/maname#readme)
-||||||| 622e44c3c
-### [Playwrite BE WAL](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-wal#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteBEWAL_100Thin](./font-packages/playwrite-be-wal/PlaywriteBEWAL_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-wal#readme)|[![PlaywriteBEWAL_200ExtraLight](./font-packages/playwrite-be-wal/PlaywriteBEWAL_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-wal#readme)|[![PlaywriteBEWAL_300Light](./font-packages/playwrite-be-wal/PlaywriteBEWAL_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-wal#readme)||
-|[![PlaywriteBEWAL_400Regular](./font-packages/playwrite-be-wal/PlaywriteBEWAL_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-wal#readme)||||
-### [Playwrite BE VLG](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-vlg#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteBEVLG_100Thin](./font-packages/playwrite-be-vlg/PlaywriteBEVLG_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-vlg#readme)|[![PlaywriteBEVLG_200ExtraLight](./font-packages/playwrite-be-vlg/PlaywriteBEVLG_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-vlg#readme)|[![PlaywriteBEVLG_300Light](./font-packages/playwrite-be-vlg/PlaywriteBEVLG_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-vlg#readme)||
-|[![PlaywriteBEVLG_400Regular](./font-packages/playwrite-be-vlg/PlaywriteBEVLG_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-vlg#readme)||||
-### [Playwrite AT](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteAT_100Thin](./font-packages/playwrite-at/PlaywriteAT_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)|[![PlaywriteAT_200ExtraLight](./font-packages/playwrite-at/PlaywriteAT_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)|[![PlaywriteAT_300Light](./font-packages/playwrite-at/PlaywriteAT_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)||
-|[![PlaywriteAT_400Regular](./font-packages/playwrite-at/PlaywriteAT_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)|[![PlaywriteAT_100Thin_Italic](./font-packages/playwrite-at/PlaywriteAT_100Thin_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)|[![PlaywriteAT_200ExtraLight_Italic](./font-packages/playwrite-at/PlaywriteAT_200ExtraLight_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)||
-|[![PlaywriteAT_300Light_Italic](./font-packages/playwrite-at/PlaywriteAT_300Light_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)|[![PlaywriteAT_400Regular_Italic](./font-packages/playwrite-at/PlaywriteAT_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)|||
-### [Playwrite AR](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-ar#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteAR_100Thin](./font-packages/playwrite-ar/PlaywriteAR_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-ar#readme)|[![PlaywriteAR_200ExtraLight](./font-packages/playwrite-ar/PlaywriteAR_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-ar#readme)|[![PlaywriteAR_300Light](./font-packages/playwrite-ar/PlaywriteAR_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-ar#readme)||
-|[![PlaywriteAR_400Regular](./font-packages/playwrite-ar/PlaywriteAR_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-ar#readme)||||
-### [Maname](https://github.com/expo/google-fonts/tree/master/font-packages/maname#readme)
-=======
 ,### [Maname](https://github.com/expo/google-fonts/tree/master/font-packages/maname#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
 |[![Maname_400Regular](./font-packages/maname/Maname_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/maname#readme)||||
-<<<<<<< HEAD
-### [Sixtyfour Convergence](https://github.com/expo/google-fonts/tree/master/font-packages/sixtyfour-convergence#readme)
-
-||||
-|-|-|-|
-|[![SixtyfourConvergence_400Regular](./font-packages/sixtyfour-convergence/SixtyfourConvergence_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/sixtyfour-convergence#readme)||||
-### [Ga Maamli](https://github.com/expo/google-fonts/tree/master/font-packages/ga-maamli#readme)
-||||||| 622e44c3c
-### [Ga Maamli](https://github.com/expo/google-fonts/tree/master/font-packages/ga-maamli#readme)
-=======
 ,### [Sixtyfour Convergence](https://github.com/expo/google-fonts/tree/master/font-packages/sixtyfour-convergence#readme)
 
 ||||
 |-|-|-|
 |[![SixtyfourConvergence_400Regular](./font-packages/sixtyfour-convergence/SixtyfourConvergence_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/sixtyfour-convergence#readme)||||
 ,### [Ga Maamli](https://github.com/expo/google-fonts/tree/master/font-packages/ga-maamli#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -900,49 +658,7 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 ||||
 |-|-|-|
 |[![AntonSC_400Regular](./font-packages/anton-sc/AntonSC_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/anton-sc#readme)||||
-<<<<<<< HEAD
-### [Wittgenstein](https://github.com/expo/google-fonts/tree/master/font-packages/wittgenstein#readme)
-||||||| 622e44c3c
-### [Playwrite IS](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-is#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteIS_100Thin](./font-packages/playwrite-is/PlaywriteIS_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-is#readme)|[![PlaywriteIS_200ExtraLight](./font-packages/playwrite-is/PlaywriteIS_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-is#readme)|[![PlaywriteIS_300Light](./font-packages/playwrite-is/PlaywriteIS_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-is#readme)||
-|[![PlaywriteIS_400Regular](./font-packages/playwrite-is/PlaywriteIS_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-is#readme)||||
-### [Playwrite AU VIC](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-vic#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteAUVIC_100Thin](./font-packages/playwrite-au-vic/PlaywriteAUVIC_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-vic#readme)|[![PlaywriteAUVIC_200ExtraLight](./font-packages/playwrite-au-vic/PlaywriteAUVIC_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-vic#readme)|[![PlaywriteAUVIC_300Light](./font-packages/playwrite-au-vic/PlaywriteAUVIC_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-vic#readme)||
-|[![PlaywriteAUVIC_400Regular](./font-packages/playwrite-au-vic/PlaywriteAUVIC_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-vic#readme)||||
-### [Playwrite AU TAS](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-tas#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteAUTAS_100Thin](./font-packages/playwrite-au-tas/PlaywriteAUTAS_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-tas#readme)|[![PlaywriteAUTAS_200ExtraLight](./font-packages/playwrite-au-tas/PlaywriteAUTAS_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-tas#readme)|[![PlaywriteAUTAS_300Light](./font-packages/playwrite-au-tas/PlaywriteAUTAS_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-tas#readme)||
-|[![PlaywriteAUTAS_400Regular](./font-packages/playwrite-au-tas/PlaywriteAUTAS_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-tas#readme)||||
-### [Playwrite AU SA](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-sa#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteAUSA_100Thin](./font-packages/playwrite-au-sa/PlaywriteAUSA_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-sa#readme)|[![PlaywriteAUSA_200ExtraLight](./font-packages/playwrite-au-sa/PlaywriteAUSA_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-sa#readme)|[![PlaywriteAUSA_300Light](./font-packages/playwrite-au-sa/PlaywriteAUSA_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-sa#readme)||
-|[![PlaywriteAUSA_400Regular](./font-packages/playwrite-au-sa/PlaywriteAUSA_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-sa#readme)||||
-### [Playwrite AU QLD](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-qld#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteAUQLD_100Thin](./font-packages/playwrite-au-qld/PlaywriteAUQLD_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-qld#readme)|[![PlaywriteAUQLD_200ExtraLight](./font-packages/playwrite-au-qld/PlaywriteAUQLD_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-qld#readme)|[![PlaywriteAUQLD_300Light](./font-packages/playwrite-au-qld/PlaywriteAUQLD_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-qld#readme)||
-|[![PlaywriteAUQLD_400Regular](./font-packages/playwrite-au-qld/PlaywriteAUQLD_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-qld#readme)||||
-### [Playwrite AU NSW](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-nsw#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteAUNSW_100Thin](./font-packages/playwrite-au-nsw/PlaywriteAUNSW_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-nsw#readme)|[![PlaywriteAUNSW_200ExtraLight](./font-packages/playwrite-au-nsw/PlaywriteAUNSW_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-nsw#readme)|[![PlaywriteAUNSW_300Light](./font-packages/playwrite-au-nsw/PlaywriteAUNSW_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-nsw#readme)||
-|[![PlaywriteAUNSW_400Regular](./font-packages/playwrite-au-nsw/PlaywriteAUNSW_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-nsw#readme)||||
-### [Wittgenstein](https://github.com/expo/google-fonts/tree/master/font-packages/wittgenstein#readme)
-=======
 ,### [Wittgenstein](https://github.com/expo/google-fonts/tree/master/font-packages/wittgenstein#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -1109,66 +825,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 ||||
 |-|-|-|
 |[![CactusClassicalSerif_400Regular](./font-packages/cactus-classical-serif/CactusClassicalSerif_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/cactus-classical-serif#readme)||||
-<<<<<<< HEAD
-### [Playwrite AR](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-ar#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteAR_100Thin](./font-packages/playwrite-ar/PlaywriteAR_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-ar#readme)|[![PlaywriteAR_200ExtraLight](./font-packages/playwrite-ar/PlaywriteAR_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-ar#readme)|[![PlaywriteAR_300Light](./font-packages/playwrite-ar/PlaywriteAR_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-ar#readme)||
-|[![PlaywriteAR_400Regular](./font-packages/playwrite-ar/PlaywriteAR_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-ar#readme)||||
-### [Playwrite AT](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteAT_100Thin](./font-packages/playwrite-at/PlaywriteAT_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)|[![PlaywriteAT_200ExtraLight](./font-packages/playwrite-at/PlaywriteAT_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)|[![PlaywriteAT_300Light](./font-packages/playwrite-at/PlaywriteAT_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)||
-|[![PlaywriteAT_400Regular](./font-packages/playwrite-at/PlaywriteAT_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)|[![PlaywriteAT_100Thin_Italic](./font-packages/playwrite-at/PlaywriteAT_100Thin_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)|[![PlaywriteAT_200ExtraLight_Italic](./font-packages/playwrite-at/PlaywriteAT_200ExtraLight_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)||
-|[![PlaywriteAT_300Light_Italic](./font-packages/playwrite-at/PlaywriteAT_300Light_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)|[![PlaywriteAT_400Regular_Italic](./font-packages/playwrite-at/PlaywriteAT_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-at#readme)|||
-### [Playwrite AU NSW](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-nsw#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteAUNSW_100Thin](./font-packages/playwrite-au-nsw/PlaywriteAUNSW_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-nsw#readme)|[![PlaywriteAUNSW_200ExtraLight](./font-packages/playwrite-au-nsw/PlaywriteAUNSW_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-nsw#readme)|[![PlaywriteAUNSW_300Light](./font-packages/playwrite-au-nsw/PlaywriteAUNSW_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-nsw#readme)||
-|[![PlaywriteAUNSW_400Regular](./font-packages/playwrite-au-nsw/PlaywriteAUNSW_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-nsw#readme)||||
-### [Playwrite AU QLD](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-qld#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteAUQLD_100Thin](./font-packages/playwrite-au-qld/PlaywriteAUQLD_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-qld#readme)|[![PlaywriteAUQLD_200ExtraLight](./font-packages/playwrite-au-qld/PlaywriteAUQLD_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-qld#readme)|[![PlaywriteAUQLD_300Light](./font-packages/playwrite-au-qld/PlaywriteAUQLD_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-qld#readme)||
-|[![PlaywriteAUQLD_400Regular](./font-packages/playwrite-au-qld/PlaywriteAUQLD_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-qld#readme)||||
-### [Playwrite AU SA](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-sa#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteAUSA_100Thin](./font-packages/playwrite-au-sa/PlaywriteAUSA_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-sa#readme)|[![PlaywriteAUSA_200ExtraLight](./font-packages/playwrite-au-sa/PlaywriteAUSA_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-sa#readme)|[![PlaywriteAUSA_300Light](./font-packages/playwrite-au-sa/PlaywriteAUSA_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-sa#readme)||
-|[![PlaywriteAUSA_400Regular](./font-packages/playwrite-au-sa/PlaywriteAUSA_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-sa#readme)||||
-### [Playwrite AU TAS](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-tas#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteAUTAS_100Thin](./font-packages/playwrite-au-tas/PlaywriteAUTAS_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-tas#readme)|[![PlaywriteAUTAS_200ExtraLight](./font-packages/playwrite-au-tas/PlaywriteAUTAS_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-tas#readme)|[![PlaywriteAUTAS_300Light](./font-packages/playwrite-au-tas/PlaywriteAUTAS_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-tas#readme)||
-|[![PlaywriteAUTAS_400Regular](./font-packages/playwrite-au-tas/PlaywriteAUTAS_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-tas#readme)||||
-### [Playwrite AU VIC](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-vic#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteAUVIC_100Thin](./font-packages/playwrite-au-vic/PlaywriteAUVIC_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-vic#readme)|[![PlaywriteAUVIC_200ExtraLight](./font-packages/playwrite-au-vic/PlaywriteAUVIC_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-vic#readme)|[![PlaywriteAUVIC_300Light](./font-packages/playwrite-au-vic/PlaywriteAUVIC_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-vic#readme)||
-|[![PlaywriteAUVIC_400Regular](./font-packages/playwrite-au-vic/PlaywriteAUVIC_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-au-vic#readme)||||
-### [Playwrite BE VLG](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-vlg#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteBEVLG_100Thin](./font-packages/playwrite-be-vlg/PlaywriteBEVLG_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-vlg#readme)|[![PlaywriteBEVLG_200ExtraLight](./font-packages/playwrite-be-vlg/PlaywriteBEVLG_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-vlg#readme)|[![PlaywriteBEVLG_300Light](./font-packages/playwrite-be-vlg/PlaywriteBEVLG_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-vlg#readme)||
-|[![PlaywriteBEVLG_400Regular](./font-packages/playwrite-be-vlg/PlaywriteBEVLG_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-vlg#readme)||||
-### [Playwrite BE WAL](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-wal#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteBEWAL_100Thin](./font-packages/playwrite-be-wal/PlaywriteBEWAL_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-wal#readme)|[![PlaywriteBEWAL_200ExtraLight](./font-packages/playwrite-be-wal/PlaywriteBEWAL_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-wal#readme)|[![PlaywriteBEWAL_300Light](./font-packages/playwrite-be-wal/PlaywriteBEWAL_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-wal#readme)||
-|[![PlaywriteBEWAL_400Regular](./font-packages/playwrite-be-wal/PlaywriteBEWAL_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-wal#readme)||||
-### [Playwrite CL](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-cl#readme)
-||||||| 622e44c3c
-### [Playwrite CL](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-cl#readme)
-=======
 ,### [Playwrite AR](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-ar#readme)
 
 ||||
@@ -1225,7 +881,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |[![PlaywriteBEWAL_100Thin](./font-packages/playwrite-be-wal/PlaywriteBEWAL_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-wal#readme)|[![PlaywriteBEWAL_200ExtraLight](./font-packages/playwrite-be-wal/PlaywriteBEWAL_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-wal#readme)|[![PlaywriteBEWAL_300Light](./font-packages/playwrite-be-wal/PlaywriteBEWAL_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-wal#readme)||
 |[![PlaywriteBEWAL_400Regular](./font-packages/playwrite-be-wal/PlaywriteBEWAL_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-be-wal#readme)||||
 ,### [Playwrite CL](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-cl#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -1279,17 +934,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |-|-|-|
 |[![PlaywriteHU_100Thin](./font-packages/playwrite-hu/PlaywriteHU_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-hu#readme)|[![PlaywriteHU_200ExtraLight](./font-packages/playwrite-hu/PlaywriteHU_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-hu#readme)|[![PlaywriteHU_300Light](./font-packages/playwrite-hu/PlaywriteHU_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-hu#readme)||
 |[![PlaywriteHU_400Regular](./font-packages/playwrite-hu/PlaywriteHU_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-hu#readme)||||
-<<<<<<< HEAD
-### [Playwrite IS](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-is#readme)
-
-||||
-|-|-|-|
-|[![PlaywriteIS_100Thin](./font-packages/playwrite-is/PlaywriteIS_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-is#readme)|[![PlaywriteIS_200ExtraLight](./font-packages/playwrite-is/PlaywriteIS_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-is#readme)|[![PlaywriteIS_300Light](./font-packages/playwrite-is/PlaywriteIS_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-is#readme)||
-|[![PlaywriteIS_400Regular](./font-packages/playwrite-is/PlaywriteIS_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-is#readme)||||
-### [Playwrite NL](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-nl#readme)
-||||||| 622e44c3c
-### [Playwrite NL](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-nl#readme)
-=======
 ,### [Playwrite IS](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-is#readme)
 
 ||||
@@ -1297,7 +941,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |[![PlaywriteIS_100Thin](./font-packages/playwrite-is/PlaywriteIS_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-is#readme)|[![PlaywriteIS_200ExtraLight](./font-packages/playwrite-is/PlaywriteIS_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-is#readme)|[![PlaywriteIS_300Light](./font-packages/playwrite-is/PlaywriteIS_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-is#readme)||
 |[![PlaywriteIS_400Regular](./font-packages/playwrite-is/PlaywriteIS_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-is#readme)||||
 ,### [Playwrite NL](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-nl#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -1502,18 +1145,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |-|-|-|
 |[![PlaywriteVN_100Thin](./font-packages/playwrite-vn/PlaywriteVN_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-vn#readme)|[![PlaywriteVN_200ExtraLight](./font-packages/playwrite-vn/PlaywriteVN_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-vn#readme)|[![PlaywriteVN_300Light](./font-packages/playwrite-vn/PlaywriteVN_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-vn#readme)||
 |[![PlaywriteVN_400Regular](./font-packages/playwrite-vn/PlaywriteVN_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-vn#readme)||||
-<<<<<<< HEAD
-### [Kalnia Glaze](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)
-
-||||
-|-|-|-|
-|[![KalniaGlaze_100Thin](./font-packages/kalnia-glaze/KalniaGlaze_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)|[![KalniaGlaze_200ExtraLight](./font-packages/kalnia-glaze/KalniaGlaze_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)|[![KalniaGlaze_300Light](./font-packages/kalnia-glaze/KalniaGlaze_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)||
-|[![KalniaGlaze_400Regular](./font-packages/kalnia-glaze/KalniaGlaze_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)|[![KalniaGlaze_500Medium](./font-packages/kalnia-glaze/KalniaGlaze_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)|[![KalniaGlaze_600SemiBold](./font-packages/kalnia-glaze/KalniaGlaze_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)||
-|[![KalniaGlaze_700Bold](./font-packages/kalnia-glaze/KalniaGlaze_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)||||
-### [Yarndings 20 Charted](https://github.com/expo/google-fonts/tree/master/font-packages/yarndings-20-charted#readme)
-||||||| 622e44c3c
-### [Yarndings 20 Charted](https://github.com/expo/google-fonts/tree/master/font-packages/yarndings-20-charted#readme)
-=======
 ,### [Kalnia Glaze](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)
 
 ||||
@@ -1522,7 +1153,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |[![KalniaGlaze_400Regular](./font-packages/kalnia-glaze/KalniaGlaze_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)|[![KalniaGlaze_500Medium](./font-packages/kalnia-glaze/KalniaGlaze_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)|[![KalniaGlaze_600SemiBold](./font-packages/kalnia-glaze/KalniaGlaze_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)||
 |[![KalniaGlaze_700Bold](./font-packages/kalnia-glaze/KalniaGlaze_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia-glaze#readme)||||
 ,### [Yarndings 20 Charted](https://github.com/expo/google-fonts/tree/master/font-packages/yarndings-20-charted#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -1586,18 +1216,7 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |[![Roboto_100Thin_Italic](./font-packages/roboto/Roboto_100Thin_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)|[![Roboto_200ExtraLight_Italic](./font-packages/roboto/Roboto_200ExtraLight_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)|[![Roboto_300Light_Italic](./font-packages/roboto/Roboto_300Light_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)||
 |[![Roboto_400Regular_Italic](./font-packages/roboto/Roboto_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)|[![Roboto_500Medium_Italic](./font-packages/roboto/Roboto_500Medium_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)|[![Roboto_600SemiBold_Italic](./font-packages/roboto/Roboto_600SemiBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)||
 |[![Roboto_700Bold_Italic](./font-packages/roboto/Roboto_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)|[![Roboto_800ExtraBold_Italic](./font-packages/roboto/Roboto_800ExtraBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)|[![Roboto_900Black_Italic](./font-packages/roboto/Roboto_900Black_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/roboto#readme)||
-<<<<<<< HEAD
-### [Namdhinggo](https://github.com/expo/google-fonts/tree/master/font-packages/namdhinggo#readme)
-||||||| 622e44c3c
-### [Noto Znamenny Musical Notation](https://github.com/expo/google-fonts/tree/master/font-packages/noto-znamenny-musical-notation#readme)
-
-||||
-|-|-|-|
-|[![NotoZnamennyMusicalNotation_400Regular](./font-packages/noto-znamenny-musical-notation/NotoZnamennyMusicalNotation_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/noto-znamenny-musical-notation#readme)||||
-### [Namdhinggo](https://github.com/expo/google-fonts/tree/master/font-packages/namdhinggo#readme)
-=======
 ,### [Namdhinggo](https://github.com/expo/google-fonts/tree/master/font-packages/namdhinggo#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -1711,23 +1330,12 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |-|-|-|
 |[![PlaywriteFRTrad_100Thin](./font-packages/playwrite-fr-trad/PlaywriteFRTrad_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-fr-trad#readme)|[![PlaywriteFRTrad_200ExtraLight](./font-packages/playwrite-fr-trad/PlaywriteFRTrad_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-fr-trad#readme)|[![PlaywriteFRTrad_300Light](./font-packages/playwrite-fr-trad/PlaywriteFRTrad_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-fr-trad#readme)||
 |[![PlaywriteFRTrad_400Regular](./font-packages/playwrite-fr-trad/PlaywriteFRTrad_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-fr-trad#readme)||||
-<<<<<<< HEAD
-### [Noto Znamenny Musical Notation](https://github.com/expo/google-fonts/tree/master/font-packages/noto-znamenny-musical-notation#readme)
-
-||||
-|-|-|-|
-|[![NotoZnamennyMusicalNotation_400Regular](./font-packages/noto-znamenny-musical-notation/NotoZnamennyMusicalNotation_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/noto-znamenny-musical-notation#readme)||||
-### [Kalnia](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia#readme)
-||||||| 622e44c3c
-### [Kalnia](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia#readme)
-=======
 ,### [Noto Znamenny Musical Notation](https://github.com/expo/google-fonts/tree/master/font-packages/noto-znamenny-musical-notation#readme)
 
 ||||
 |-|-|-|
 |[![NotoZnamennyMusicalNotation_400Regular](./font-packages/noto-znamenny-musical-notation/NotoZnamennyMusicalNotation_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/noto-znamenny-musical-notation#readme)||||
 ,### [Kalnia](https://github.com/expo/google-fonts/tree/master/font-packages/kalnia#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -1757,20 +1365,7 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |-|-|-|
 |[![NotoSansKawi_400Regular](./font-packages/noto-sans-kawi/NotoSansKawi_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/noto-sans-kawi#readme)|[![NotoSansKawi_500Medium](./font-packages/noto-sans-kawi/NotoSansKawi_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/noto-sans-kawi#readme)|[![NotoSansKawi_600SemiBold](./font-packages/noto-sans-kawi/NotoSansKawi_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/noto-sans-kawi#readme)||
 |[![NotoSansKawi_700Bold](./font-packages/noto-sans-kawi/NotoSansKawi_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/noto-sans-kawi#readme)||||
-<<<<<<< HEAD
-### [Kay Pho Du](https://github.com/expo/google-fonts/tree/master/font-packages/kay-pho-du#readme)
-||||||| 622e44c3c
-### [Linefont](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)
-
-||||
-|-|-|-|
-|[![Linefont_100Thin](./font-packages/linefont/Linefont_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)|[![Linefont_200ExtraLight](./font-packages/linefont/Linefont_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)|[![Linefont_300Light](./font-packages/linefont/Linefont_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)||
-|[![Linefont_400Regular](./font-packages/linefont/Linefont_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)|[![Linefont_500Medium](./font-packages/linefont/Linefont_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)|[![Linefont_600SemiBold](./font-packages/linefont/Linefont_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)||
-|[![Linefont_700Bold](./font-packages/linefont/Linefont_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)|[![Linefont_800ExtraBold](./font-packages/linefont/Linefont_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)|[![Linefont_900Black](./font-packages/linefont/Linefont_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)||
-### [Kay Pho Du](https://github.com/expo/google-fonts/tree/master/font-packages/kay-pho-du#readme)
-=======
 ,### [Kay Pho Du](https://github.com/expo/google-fonts/tree/master/font-packages/kay-pho-du#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -1788,18 +1383,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 ||||
 |-|-|-|
 |[![Agbalumo_400Regular](./font-packages/agbalumo/Agbalumo_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/agbalumo#readme)||||
-<<<<<<< HEAD
-### [Linefont](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)
-
-||||
-|-|-|-|
-|[![Linefont_100Thin](./font-packages/linefont/Linefont_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)|[![Linefont_200ExtraLight](./font-packages/linefont/Linefont_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)|[![Linefont_300Light](./font-packages/linefont/Linefont_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)||
-|[![Linefont_400Regular](./font-packages/linefont/Linefont_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)|[![Linefont_500Medium](./font-packages/linefont/Linefont_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)|[![Linefont_600SemiBold](./font-packages/linefont/Linefont_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)||
-|[![Linefont_700Bold](./font-packages/linefont/Linefont_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)|[![Linefont_800ExtraBold](./font-packages/linefont/Linefont_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)|[![Linefont_900Black](./font-packages/linefont/Linefont_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)||
-### [Young Serif](https://github.com/expo/google-fonts/tree/master/font-packages/young-serif#readme)
-||||||| 622e44c3c
-### [Young Serif](https://github.com/expo/google-fonts/tree/master/font-packages/young-serif#readme)
-=======
 ,### [Linefont](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)
 
 ||||
@@ -1808,7 +1391,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |[![Linefont_400Regular](./font-packages/linefont/Linefont_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)|[![Linefont_500Medium](./font-packages/linefont/Linefont_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)|[![Linefont_600SemiBold](./font-packages/linefont/Linefont_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)||
 |[![Linefont_700Bold](./font-packages/linefont/Linefont_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)|[![Linefont_800ExtraBold](./font-packages/linefont/Linefont_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)|[![Linefont_900Black](./font-packages/linefont/Linefont_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/linefont#readme)||
 ,### [Young Serif](https://github.com/expo/google-fonts/tree/master/font-packages/young-serif#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -5070,41 +4652,7 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |[![Texturina_100Thin_Italic](./font-packages/texturina/Texturina_100Thin_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/texturina#readme)|[![Texturina_200ExtraLight_Italic](./font-packages/texturina/Texturina_200ExtraLight_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/texturina#readme)|[![Texturina_300Light_Italic](./font-packages/texturina/Texturina_300Light_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/texturina#readme)||
 |[![Texturina_400Regular_Italic](./font-packages/texturina/Texturina_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/texturina#readme)|[![Texturina_500Medium_Italic](./font-packages/texturina/Texturina_500Medium_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/texturina#readme)|[![Texturina_600SemiBold_Italic](./font-packages/texturina/Texturina_600SemiBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/texturina#readme)||
 |[![Texturina_700Bold_Italic](./font-packages/texturina/Texturina_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/texturina#readme)|[![Texturina_800ExtraBold_Italic](./font-packages/texturina/Texturina_800ExtraBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/texturina#readme)|[![Texturina_900Black_Italic](./font-packages/texturina/Texturina_900Black_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/texturina#readme)||
-<<<<<<< HEAD
-### [Space Grotesk](https://github.com/expo/google-fonts/tree/master/font-packages/space-grotesk#readme)
-||||||| 622e44c3c
-### [Big Shoulders Inline Display](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-display#readme)
-
-||||
-|-|-|-|
-|[![BigShouldersInlineDisplay_100Thin](./font-packages/big-shoulders-inline-display/BigShouldersInlineDisplay_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-display#readme)|[![BigShouldersInlineDisplay_200ExtraLight](./font-packages/big-shoulders-inline-display/BigShouldersInlineDisplay_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-display#readme)|[![BigShouldersInlineDisplay_300Light](./font-packages/big-shoulders-inline-display/BigShouldersInlineDisplay_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-display#readme)||
-|[![BigShouldersInlineDisplay_400Regular](./font-packages/big-shoulders-inline-display/BigShouldersInlineDisplay_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-display#readme)|[![BigShouldersInlineDisplay_500Medium](./font-packages/big-shoulders-inline-display/BigShouldersInlineDisplay_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-display#readme)|[![BigShouldersInlineDisplay_600SemiBold](./font-packages/big-shoulders-inline-display/BigShouldersInlineDisplay_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-display#readme)||
-|[![BigShouldersInlineDisplay_700Bold](./font-packages/big-shoulders-inline-display/BigShouldersInlineDisplay_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-display#readme)|[![BigShouldersInlineDisplay_800ExtraBold](./font-packages/big-shoulders-inline-display/BigShouldersInlineDisplay_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-display#readme)|[![BigShouldersInlineDisplay_900Black](./font-packages/big-shoulders-inline-display/BigShouldersInlineDisplay_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-display#readme)||
-### [Big Shoulders Inline Text](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-text#readme)
-
-||||
-|-|-|-|
-|[![BigShouldersInlineText_100Thin](./font-packages/big-shoulders-inline-text/BigShouldersInlineText_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-text#readme)|[![BigShouldersInlineText_200ExtraLight](./font-packages/big-shoulders-inline-text/BigShouldersInlineText_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-text#readme)|[![BigShouldersInlineText_300Light](./font-packages/big-shoulders-inline-text/BigShouldersInlineText_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-text#readme)||
-|[![BigShouldersInlineText_400Regular](./font-packages/big-shoulders-inline-text/BigShouldersInlineText_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-text#readme)|[![BigShouldersInlineText_500Medium](./font-packages/big-shoulders-inline-text/BigShouldersInlineText_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-text#readme)|[![BigShouldersInlineText_600SemiBold](./font-packages/big-shoulders-inline-text/BigShouldersInlineText_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-text#readme)||
-|[![BigShouldersInlineText_700Bold](./font-packages/big-shoulders-inline-text/BigShouldersInlineText_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-text#readme)|[![BigShouldersInlineText_800ExtraBold](./font-packages/big-shoulders-inline-text/BigShouldersInlineText_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-text#readme)|[![BigShouldersInlineText_900Black](./font-packages/big-shoulders-inline-text/BigShouldersInlineText_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-inline-text#readme)||
-### [Big Shoulders Stencil Display](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-display#readme)
-
-||||
-|-|-|-|
-|[![BigShouldersStencilDisplay_100Thin](./font-packages/big-shoulders-stencil-display/BigShouldersStencilDisplay_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-display#readme)|[![BigShouldersStencilDisplay_200ExtraLight](./font-packages/big-shoulders-stencil-display/BigShouldersStencilDisplay_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-display#readme)|[![BigShouldersStencilDisplay_300Light](./font-packages/big-shoulders-stencil-display/BigShouldersStencilDisplay_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-display#readme)||
-|[![BigShouldersStencilDisplay_400Regular](./font-packages/big-shoulders-stencil-display/BigShouldersStencilDisplay_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-display#readme)|[![BigShouldersStencilDisplay_500Medium](./font-packages/big-shoulders-stencil-display/BigShouldersStencilDisplay_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-display#readme)|[![BigShouldersStencilDisplay_600SemiBold](./font-packages/big-shoulders-stencil-display/BigShouldersStencilDisplay_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-display#readme)||
-|[![BigShouldersStencilDisplay_700Bold](./font-packages/big-shoulders-stencil-display/BigShouldersStencilDisplay_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-display#readme)|[![BigShouldersStencilDisplay_800ExtraBold](./font-packages/big-shoulders-stencil-display/BigShouldersStencilDisplay_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-display#readme)|[![BigShouldersStencilDisplay_900Black](./font-packages/big-shoulders-stencil-display/BigShouldersStencilDisplay_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-display#readme)||
-### [Big Shoulders Stencil Text](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-text#readme)
-
-||||
-|-|-|-|
-|[![BigShouldersStencilText_100Thin](./font-packages/big-shoulders-stencil-text/BigShouldersStencilText_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-text#readme)|[![BigShouldersStencilText_200ExtraLight](./font-packages/big-shoulders-stencil-text/BigShouldersStencilText_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-text#readme)|[![BigShouldersStencilText_300Light](./font-packages/big-shoulders-stencil-text/BigShouldersStencilText_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-text#readme)||
-|[![BigShouldersStencilText_400Regular](./font-packages/big-shoulders-stencil-text/BigShouldersStencilText_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-text#readme)|[![BigShouldersStencilText_500Medium](./font-packages/big-shoulders-stencil-text/BigShouldersStencilText_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-text#readme)|[![BigShouldersStencilText_600SemiBold](./font-packages/big-shoulders-stencil-text/BigShouldersStencilText_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-text#readme)||
-|[![BigShouldersStencilText_700Bold](./font-packages/big-shoulders-stencil-text/BigShouldersStencilText_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-text#readme)|[![BigShouldersStencilText_800ExtraBold](./font-packages/big-shoulders-stencil-text/BigShouldersStencilText_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-text#readme)|[![BigShouldersStencilText_900Black](./font-packages/big-shoulders-stencil-text/BigShouldersStencilText_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-stencil-text#readme)||
-### [Space Grotesk](https://github.com/expo/google-fonts/tree/master/font-packages/space-grotesk#readme)
-=======
 ,### [Space Grotesk](https://github.com/expo/google-fonts/tree/master/font-packages/space-grotesk#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -5494,27 +5042,7 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 ||||
 |-|-|-|
 |[![SulphurPoint_300Light](./font-packages/sulphur-point/SulphurPoint_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/sulphur-point#readme)|[![SulphurPoint_400Regular](./font-packages/sulphur-point/SulphurPoint_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/sulphur-point#readme)|[![SulphurPoint_700Bold](./font-packages/sulphur-point/SulphurPoint_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/sulphur-point#readme)||
-<<<<<<< HEAD
-### [Jomolhari](https://github.com/expo/google-fonts/tree/master/font-packages/jomolhari#readme)
-||||||| 622e44c3c
-### [Big Shoulders Display](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-display#readme)
-
-||||
-|-|-|-|
-|[![BigShouldersDisplay_100Thin](./font-packages/big-shoulders-display/BigShouldersDisplay_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-display#readme)|[![BigShouldersDisplay_200ExtraLight](./font-packages/big-shoulders-display/BigShouldersDisplay_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-display#readme)|[![BigShouldersDisplay_300Light](./font-packages/big-shoulders-display/BigShouldersDisplay_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-display#readme)||
-|[![BigShouldersDisplay_400Regular](./font-packages/big-shoulders-display/BigShouldersDisplay_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-display#readme)|[![BigShouldersDisplay_500Medium](./font-packages/big-shoulders-display/BigShouldersDisplay_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-display#readme)|[![BigShouldersDisplay_600SemiBold](./font-packages/big-shoulders-display/BigShouldersDisplay_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-display#readme)||
-|[![BigShouldersDisplay_700Bold](./font-packages/big-shoulders-display/BigShouldersDisplay_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-display#readme)|[![BigShouldersDisplay_800ExtraBold](./font-packages/big-shoulders-display/BigShouldersDisplay_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-display#readme)|[![BigShouldersDisplay_900Black](./font-packages/big-shoulders-display/BigShouldersDisplay_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-display#readme)||
-### [Big Shoulders Text](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-text#readme)
-
-||||
-|-|-|-|
-|[![BigShouldersText_100Thin](./font-packages/big-shoulders-text/BigShouldersText_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-text#readme)|[![BigShouldersText_200ExtraLight](./font-packages/big-shoulders-text/BigShouldersText_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-text#readme)|[![BigShouldersText_300Light](./font-packages/big-shoulders-text/BigShouldersText_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-text#readme)||
-|[![BigShouldersText_400Regular](./font-packages/big-shoulders-text/BigShouldersText_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-text#readme)|[![BigShouldersText_500Medium](./font-packages/big-shoulders-text/BigShouldersText_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-text#readme)|[![BigShouldersText_600SemiBold](./font-packages/big-shoulders-text/BigShouldersText_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-text#readme)||
-|[![BigShouldersText_700Bold](./font-packages/big-shoulders-text/BigShouldersText_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-text#readme)|[![BigShouldersText_800ExtraBold](./font-packages/big-shoulders-text/BigShouldersText_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-text#readme)|[![BigShouldersText_900Black](./font-packages/big-shoulders-text/BigShouldersText_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/big-shoulders-text#readme)||
-### [Jomolhari](https://github.com/expo/google-fonts/tree/master/font-packages/jomolhari#readme)
-=======
 ,### [Jomolhari](https://github.com/expo/google-fonts/tree/master/font-packages/jomolhari#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -7916,18 +7444,7 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |[![MontserratAlternates_500Medium_Italic](./font-packages/montserrat-alternates/MontserratAlternates_500Medium_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/montserrat-alternates#readme)|[![MontserratAlternates_600SemiBold](./font-packages/montserrat-alternates/MontserratAlternates_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/montserrat-alternates#readme)|[![MontserratAlternates_600SemiBold_Italic](./font-packages/montserrat-alternates/MontserratAlternates_600SemiBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/montserrat-alternates#readme)||
 |[![MontserratAlternates_700Bold](./font-packages/montserrat-alternates/MontserratAlternates_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/montserrat-alternates#readme)|[![MontserratAlternates_700Bold_Italic](./font-packages/montserrat-alternates/MontserratAlternates_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/montserrat-alternates#readme)|[![MontserratAlternates_800ExtraBold](./font-packages/montserrat-alternates/MontserratAlternates_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/montserrat-alternates#readme)||
 |[![MontserratAlternates_800ExtraBold_Italic](./font-packages/montserrat-alternates/MontserratAlternates_800ExtraBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/montserrat-alternates#readme)|[![MontserratAlternates_900Black](./font-packages/montserrat-alternates/MontserratAlternates_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/montserrat-alternates#readme)|[![MontserratAlternates_900Black_Italic](./font-packages/montserrat-alternates/MontserratAlternates_900Black_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/montserrat-alternates#readme)||
-<<<<<<< HEAD
-### [Titillium Web](https://github.com/expo/google-fonts/tree/master/font-packages/titillium-web#readme)
-||||||| 622e44c3c
-### [Montserrat Subrayada](https://github.com/expo/google-fonts/tree/master/font-packages/montserrat-subrayada#readme)
-
-||||
-|-|-|-|
-|[![MontserratSubrayada_400Regular](./font-packages/montserrat-subrayada/MontserratSubrayada_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/montserrat-subrayada#readme)|[![MontserratSubrayada_700Bold](./font-packages/montserrat-subrayada/MontserratSubrayada_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/montserrat-subrayada#readme)|||
-### [Titillium Web](https://github.com/expo/google-fonts/tree/master/font-packages/titillium-web#readme)
-=======
 ,### [Titillium Web](https://github.com/expo/google-fonts/tree/master/font-packages/titillium-web#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -8910,18 +8427,9 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 
 ||||
 |-|-|-|
-<<<<<<< HEAD
-|[![Buenard_400Regular](./font-packages/buenard/Buenard_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/buenard#readme)|[![Buenard_500Medium](./font-packages/buenard/Buenard_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/buenard#readme)|[![Buenard_600SemiBold](./font-packages/buenard/Buenard_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/buenard#readme)||
-|[![Buenard_700Bold](./font-packages/buenard/Buenard_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/buenard#readme)||||
-### [Butcherman](https://github.com/expo/google-fonts/tree/master/font-packages/butcherman#readme)
-||||||| 622e44c3c
-|[![Buenard_400Regular](./font-packages/buenard/Buenard_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/buenard#readme)|[![Buenard_700Bold](./font-packages/buenard/Buenard_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/buenard#readme)|||
-### [Butcherman](https://github.com/expo/google-fonts/tree/master/font-packages/butcherman#readme)
-=======
 |[![Buenard_400Regular](./font-packages/buenard/Buenard_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/buenard#readme)|[![Buenard_500Medium](./font-packages/buenard/Buenard_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/buenard#readme)|[![Buenard_600SemiBold](./font-packages/buenard/Buenard_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/buenard#readme)||
 |[![Buenard_700Bold](./font-packages/buenard/Buenard_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/buenard#readme)||||
 ,### [Butcherman](https://github.com/expo/google-fonts/tree/master/font-packages/butcherman#readme)
->>>>>>> main
 
 ||||
 |-|-|-|
@@ -10081,26 +9589,12 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 
 ||||
 |-|-|-|
-<<<<<<< HEAD
-|[![Merriweather_300Light](./font-packages/merriweather/Merriweather_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_400Regular](./font-packages/merriweather/Merriweather_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_500Medium](./font-packages/merriweather/Merriweather_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)||
-|[![Merriweather_600SemiBold](./font-packages/merriweather/Merriweather_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_700Bold](./font-packages/merriweather/Merriweather_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_800ExtraBold](./font-packages/merriweather/Merriweather_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)||
-|[![Merriweather_900Black](./font-packages/merriweather/Merriweather_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_300Light_Italic](./font-packages/merriweather/Merriweather_300Light_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_400Regular_Italic](./font-packages/merriweather/Merriweather_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)||
-|[![Merriweather_500Medium_Italic](./font-packages/merriweather/Merriweather_500Medium_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_600SemiBold_Italic](./font-packages/merriweather/Merriweather_600SemiBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_700Bold_Italic](./font-packages/merriweather/Merriweather_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)||
-|[![Merriweather_800ExtraBold_Italic](./font-packages/merriweather/Merriweather_800ExtraBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_900Black_Italic](./font-packages/merriweather/Merriweather_900Black_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|||
-### [Metrophobic](https://github.com/expo/google-fonts/tree/master/font-packages/metrophobic#readme)
-||||||| 622e44c3c
-|[![Merriweather_300Light](./font-packages/merriweather/Merriweather_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_300Light_Italic](./font-packages/merriweather/Merriweather_300Light_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_400Regular](./font-packages/merriweather/Merriweather_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)||
-|[![Merriweather_400Regular_Italic](./font-packages/merriweather/Merriweather_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_700Bold](./font-packages/merriweather/Merriweather_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_700Bold_Italic](./font-packages/merriweather/Merriweather_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)||
-|[![Merriweather_900Black](./font-packages/merriweather/Merriweather_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_900Black_Italic](./font-packages/merriweather/Merriweather_900Black_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|||
-### [Metrophobic](https://github.com/expo/google-fonts/tree/master/font-packages/metrophobic#readme)
-=======
 |[![Merriweather_300Light](./font-packages/merriweather/Merriweather_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_400Regular](./font-packages/merriweather/Merriweather_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_500Medium](./font-packages/merriweather/Merriweather_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)||
 |[![Merriweather_600SemiBold](./font-packages/merriweather/Merriweather_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_700Bold](./font-packages/merriweather/Merriweather_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_800ExtraBold](./font-packages/merriweather/Merriweather_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)||
 |[![Merriweather_900Black](./font-packages/merriweather/Merriweather_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_300Light_Italic](./font-packages/merriweather/Merriweather_300Light_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_400Regular_Italic](./font-packages/merriweather/Merriweather_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)||
 |[![Merriweather_500Medium_Italic](./font-packages/merriweather/Merriweather_500Medium_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_600SemiBold_Italic](./font-packages/merriweather/Merriweather_600SemiBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_700Bold_Italic](./font-packages/merriweather/Merriweather_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)||
 |[![Merriweather_800ExtraBold_Italic](./font-packages/merriweather/Merriweather_800ExtraBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|[![Merriweather_900Black_Italic](./font-packages/merriweather/Merriweather_900Black_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/master/font-packages/merriweather#readme)|||
 ,### [Metrophobic](https://github.com/expo/google-fonts/tree/master/font-packages/metrophobic#readme)
->>>>>>> main
 
 ||||
 |-|-|-|

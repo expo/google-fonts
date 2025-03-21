@@ -25,38 +25,31 @@ This font family contains [8 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/trispace expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Trispace_100Thin,
-  Trispace_200ExtraLight,
-  Trispace_300Light,
-  Trispace_400Regular,
-  Trispace_500Medium,
-  Trispace_600SemiBold,
-  Trispace_700Bold,
-  Trispace_800ExtraBold,
-} from '@expo-google-fonts/trispace';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Trispace_100Thin, Trispace_200ExtraLight, Trispace_300Light, Trispace_400Regular, Trispace_500Medium, Trispace_600SemiBold, Trispace_700Bold, Trispace_800ExtraBold } from '@expo-google-fonts/trispace';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Trispace_100Thin,
-    Trispace_200ExtraLight,
-    Trispace_300Light,
-    Trispace_400Regular,
-    Trispace_500Medium,
-    Trispace_600SemiBold,
-    Trispace_700Bold,
-    Trispace_800ExtraBold,
+    Trispace_100Thin, 
+    Trispace_200ExtraLight, 
+    Trispace_300Light, 
+    Trispace_400Regular, 
+    Trispace_500Medium, 
+    Trispace_600SemiBold, 
+    Trispace_700Bold, 
+    Trispace_800ExtraBold
   });
 
   let fontSize = 24;
@@ -66,91 +59,75 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trispace_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trispace_100Thin"
+        }}>
           Trispace Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trispace_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trispace_200ExtraLight"
+        }}>
           Trispace Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trispace_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trispace_300Light"
+        }}>
           Trispace Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trispace_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trispace_400Regular"
+        }}>
           Trispace Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trispace_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trispace_500Medium"
+        }}>
           Trispace Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trispace_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trispace_600SemiBold"
+        }}>
           Trispace Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trispace_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trispace_700Bold"
+        }}>
           Trispace Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trispace_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trispace_800ExtraBold"
+        }}>
           Trispace Extra Bold
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -167,10 +144,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

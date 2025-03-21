@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/aleo expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Aleo_100Thin,
-  Aleo_200ExtraLight,
-  Aleo_300Light,
-  Aleo_400Regular,
-  Aleo_500Medium,
-  Aleo_600SemiBold,
-  Aleo_700Bold,
-  Aleo_800ExtraBold,
-  Aleo_900Black,
-  Aleo_100Thin_Italic,
-  Aleo_200ExtraLight_Italic,
-  Aleo_300Light_Italic,
-  Aleo_400Regular_Italic,
-  Aleo_500Medium_Italic,
-  Aleo_600SemiBold_Italic,
-  Aleo_700Bold_Italic,
-  Aleo_800ExtraBold_Italic,
-  Aleo_900Black_Italic,
-} from '@expo-google-fonts/aleo';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Aleo_100Thin, Aleo_200ExtraLight, Aleo_300Light, Aleo_400Regular, Aleo_500Medium, Aleo_600SemiBold, Aleo_700Bold, Aleo_800ExtraBold, Aleo_900Black, Aleo_100Thin_Italic, Aleo_200ExtraLight_Italic, Aleo_300Light_Italic, Aleo_400Regular_Italic, Aleo_500Medium_Italic, Aleo_600SemiBold_Italic, Aleo_700Bold_Italic, Aleo_800ExtraBold_Italic, Aleo_900Black_Italic } from '@expo-google-fonts/aleo';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Aleo_100Thin,
-    Aleo_200ExtraLight,
-    Aleo_300Light,
-    Aleo_400Regular,
-    Aleo_500Medium,
-    Aleo_600SemiBold,
-    Aleo_700Bold,
-    Aleo_800ExtraBold,
-    Aleo_900Black,
-    Aleo_100Thin_Italic,
-    Aleo_200ExtraLight_Italic,
-    Aleo_300Light_Italic,
-    Aleo_400Regular_Italic,
-    Aleo_500Medium_Italic,
-    Aleo_600SemiBold_Italic,
-    Aleo_700Bold_Italic,
-    Aleo_800ExtraBold_Italic,
-    Aleo_900Black_Italic,
+    Aleo_100Thin, 
+    Aleo_200ExtraLight, 
+    Aleo_300Light, 
+    Aleo_400Regular, 
+    Aleo_500Medium, 
+    Aleo_600SemiBold, 
+    Aleo_700Bold, 
+    Aleo_800ExtraBold, 
+    Aleo_900Black, 
+    Aleo_100Thin_Italic, 
+    Aleo_200ExtraLight_Italic, 
+    Aleo_300Light_Italic, 
+    Aleo_400Regular_Italic, 
+    Aleo_500Medium_Italic, 
+    Aleo_600SemiBold_Italic, 
+    Aleo_700Bold_Italic, 
+    Aleo_800ExtraBold_Italic, 
+    Aleo_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_100Thin"
+        }}>
           Aleo Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_200ExtraLight"
+        }}>
           Aleo Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_300Light"
+        }}>
           Aleo Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_400Regular"
+        }}>
           Aleo Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_500Medium"
+        }}>
           Aleo Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_600SemiBold"
+        }}>
           Aleo Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_700Bold"
+        }}>
           Aleo Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_800ExtraBold"
+        }}>
           Aleo Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_900Black"
+        }}>
           Aleo Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_100Thin_Italic"
+        }}>
           Aleo Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_200ExtraLight_Italic"
+        }}>
           Aleo Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_300Light_Italic"
+        }}>
           Aleo Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_400Regular_Italic"
+        }}>
           Aleo Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_500Medium_Italic"
+        }}>
           Aleo Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_600SemiBold_Italic"
+        }}>
           Aleo Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_700Bold_Italic"
+        }}>
           Aleo Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_800ExtraBold_Italic"
+        }}>
           Aleo Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Aleo_900Black_Italic"
+        }}>
           Aleo Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

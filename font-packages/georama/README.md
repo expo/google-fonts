@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/georama expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Georama_100Thin,
-  Georama_200ExtraLight,
-  Georama_300Light,
-  Georama_400Regular,
-  Georama_500Medium,
-  Georama_600SemiBold,
-  Georama_700Bold,
-  Georama_800ExtraBold,
-  Georama_900Black,
-  Georama_100Thin_Italic,
-  Georama_200ExtraLight_Italic,
-  Georama_300Light_Italic,
-  Georama_400Regular_Italic,
-  Georama_500Medium_Italic,
-  Georama_600SemiBold_Italic,
-  Georama_700Bold_Italic,
-  Georama_800ExtraBold_Italic,
-  Georama_900Black_Italic,
-} from '@expo-google-fonts/georama';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Georama_100Thin, Georama_200ExtraLight, Georama_300Light, Georama_400Regular, Georama_500Medium, Georama_600SemiBold, Georama_700Bold, Georama_800ExtraBold, Georama_900Black, Georama_100Thin_Italic, Georama_200ExtraLight_Italic, Georama_300Light_Italic, Georama_400Regular_Italic, Georama_500Medium_Italic, Georama_600SemiBold_Italic, Georama_700Bold_Italic, Georama_800ExtraBold_Italic, Georama_900Black_Italic } from '@expo-google-fonts/georama';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Georama_100Thin,
-    Georama_200ExtraLight,
-    Georama_300Light,
-    Georama_400Regular,
-    Georama_500Medium,
-    Georama_600SemiBold,
-    Georama_700Bold,
-    Georama_800ExtraBold,
-    Georama_900Black,
-    Georama_100Thin_Italic,
-    Georama_200ExtraLight_Italic,
-    Georama_300Light_Italic,
-    Georama_400Regular_Italic,
-    Georama_500Medium_Italic,
-    Georama_600SemiBold_Italic,
-    Georama_700Bold_Italic,
-    Georama_800ExtraBold_Italic,
-    Georama_900Black_Italic,
+    Georama_100Thin, 
+    Georama_200ExtraLight, 
+    Georama_300Light, 
+    Georama_400Regular, 
+    Georama_500Medium, 
+    Georama_600SemiBold, 
+    Georama_700Bold, 
+    Georama_800ExtraBold, 
+    Georama_900Black, 
+    Georama_100Thin_Italic, 
+    Georama_200ExtraLight_Italic, 
+    Georama_300Light_Italic, 
+    Georama_400Regular_Italic, 
+    Georama_500Medium_Italic, 
+    Georama_600SemiBold_Italic, 
+    Georama_700Bold_Italic, 
+    Georama_800ExtraBold_Italic, 
+    Georama_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_100Thin"
+        }}>
           Georama Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_200ExtraLight"
+        }}>
           Georama Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_300Light"
+        }}>
           Georama Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_400Regular"
+        }}>
           Georama Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_500Medium"
+        }}>
           Georama Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_600SemiBold"
+        }}>
           Georama Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_700Bold"
+        }}>
           Georama Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_800ExtraBold"
+        }}>
           Georama Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_900Black"
+        }}>
           Georama Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_100Thin_Italic"
+        }}>
           Georama Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_200ExtraLight_Italic"
+        }}>
           Georama Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_300Light_Italic"
+        }}>
           Georama Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_400Regular_Italic"
+        }}>
           Georama Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_500Medium_Italic"
+        }}>
           Georama Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_600SemiBold_Italic"
+        }}>
           Georama Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_700Bold_Italic"
+        }}>
           Georama Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_800ExtraBold_Italic"
+        }}>
           Georama Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Georama_900Black_Italic"
+        }}>
           Georama Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

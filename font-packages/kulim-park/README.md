@@ -27,42 +27,33 @@ This font family contains [10 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/kulim-park expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  KulimPark_200ExtraLight,
-  KulimPark_200ExtraLight_Italic,
-  KulimPark_300Light,
-  KulimPark_300Light_Italic,
-  KulimPark_400Regular,
-  KulimPark_400Regular_Italic,
-  KulimPark_600SemiBold,
-  KulimPark_600SemiBold_Italic,
-  KulimPark_700Bold,
-  KulimPark_700Bold_Italic,
-} from '@expo-google-fonts/kulim-park';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, KulimPark_200ExtraLight, KulimPark_200ExtraLight_Italic, KulimPark_300Light, KulimPark_300Light_Italic, KulimPark_400Regular, KulimPark_400Regular_Italic, KulimPark_600SemiBold, KulimPark_600SemiBold_Italic, KulimPark_700Bold, KulimPark_700Bold_Italic } from '@expo-google-fonts/kulim-park';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    KulimPark_200ExtraLight,
-    KulimPark_200ExtraLight_Italic,
-    KulimPark_300Light,
-    KulimPark_300Light_Italic,
-    KulimPark_400Regular,
-    KulimPark_400Regular_Italic,
-    KulimPark_600SemiBold,
-    KulimPark_600SemiBold_Italic,
-    KulimPark_700Bold,
-    KulimPark_700Bold_Italic,
+    KulimPark_200ExtraLight, 
+    KulimPark_200ExtraLight_Italic, 
+    KulimPark_300Light, 
+    KulimPark_300Light_Italic, 
+    KulimPark_400Regular, 
+    KulimPark_400Regular_Italic, 
+    KulimPark_600SemiBold, 
+    KulimPark_600SemiBold_Italic, 
+    KulimPark_700Bold, 
+    KulimPark_700Bold_Italic
   });
 
   let fontSize = 24;
@@ -72,111 +63,91 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_200ExtraLight',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "KulimPark_200ExtraLight"
+        }}>
           Kulim Park Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "KulimPark_200ExtraLight_Italic"
+        }}>
           Kulim Park Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "KulimPark_300Light"
+        }}>
           Kulim Park Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "KulimPark_300Light_Italic"
+        }}>
           Kulim Park Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "KulimPark_400Regular"
+        }}>
           Kulim Park Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "KulimPark_400Regular_Italic"
+        }}>
           Kulim Park Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "KulimPark_600SemiBold"
+        }}>
           Kulim Park Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "KulimPark_600SemiBold_Italic"
+        }}>
           Kulim Park Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "KulimPark_700Bold"
+        }}>
           Kulim Park Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "KulimPark_700Bold_Italic"
+        }}>
           Kulim Park Bold Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -194,10 +165,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/anybody expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Anybody_100Thin,
-  Anybody_200ExtraLight,
-  Anybody_300Light,
-  Anybody_400Regular,
-  Anybody_500Medium,
-  Anybody_600SemiBold,
-  Anybody_700Bold,
-  Anybody_800ExtraBold,
-  Anybody_900Black,
-  Anybody_100Thin_Italic,
-  Anybody_200ExtraLight_Italic,
-  Anybody_300Light_Italic,
-  Anybody_400Regular_Italic,
-  Anybody_500Medium_Italic,
-  Anybody_600SemiBold_Italic,
-  Anybody_700Bold_Italic,
-  Anybody_800ExtraBold_Italic,
-  Anybody_900Black_Italic,
-} from '@expo-google-fonts/anybody';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Anybody_100Thin, Anybody_200ExtraLight, Anybody_300Light, Anybody_400Regular, Anybody_500Medium, Anybody_600SemiBold, Anybody_700Bold, Anybody_800ExtraBold, Anybody_900Black, Anybody_100Thin_Italic, Anybody_200ExtraLight_Italic, Anybody_300Light_Italic, Anybody_400Regular_Italic, Anybody_500Medium_Italic, Anybody_600SemiBold_Italic, Anybody_700Bold_Italic, Anybody_800ExtraBold_Italic, Anybody_900Black_Italic } from '@expo-google-fonts/anybody';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Anybody_100Thin,
-    Anybody_200ExtraLight,
-    Anybody_300Light,
-    Anybody_400Regular,
-    Anybody_500Medium,
-    Anybody_600SemiBold,
-    Anybody_700Bold,
-    Anybody_800ExtraBold,
-    Anybody_900Black,
-    Anybody_100Thin_Italic,
-    Anybody_200ExtraLight_Italic,
-    Anybody_300Light_Italic,
-    Anybody_400Regular_Italic,
-    Anybody_500Medium_Italic,
-    Anybody_600SemiBold_Italic,
-    Anybody_700Bold_Italic,
-    Anybody_800ExtraBold_Italic,
-    Anybody_900Black_Italic,
+    Anybody_100Thin, 
+    Anybody_200ExtraLight, 
+    Anybody_300Light, 
+    Anybody_400Regular, 
+    Anybody_500Medium, 
+    Anybody_600SemiBold, 
+    Anybody_700Bold, 
+    Anybody_800ExtraBold, 
+    Anybody_900Black, 
+    Anybody_100Thin_Italic, 
+    Anybody_200ExtraLight_Italic, 
+    Anybody_300Light_Italic, 
+    Anybody_400Regular_Italic, 
+    Anybody_500Medium_Italic, 
+    Anybody_600SemiBold_Italic, 
+    Anybody_700Bold_Italic, 
+    Anybody_800ExtraBold_Italic, 
+    Anybody_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_100Thin"
+        }}>
           Anybody Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_200ExtraLight"
+        }}>
           Anybody Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_300Light"
+        }}>
           Anybody Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_400Regular"
+        }}>
           Anybody Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_500Medium"
+        }}>
           Anybody Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_600SemiBold"
+        }}>
           Anybody Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_700Bold"
+        }}>
           Anybody Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_800ExtraBold"
+        }}>
           Anybody Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_900Black"
+        }}>
           Anybody Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_100Thin_Italic"
+        }}>
           Anybody Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_200ExtraLight_Italic"
+        }}>
           Anybody Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_300Light_Italic"
+        }}>
           Anybody Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_400Regular_Italic"
+        }}>
           Anybody Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_500Medium_Italic"
+        }}>
           Anybody Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_600SemiBold_Italic"
+        }}>
           Anybody Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_700Bold_Italic"
+        }}>
           Anybody Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_800ExtraBold_Italic"
+        }}>
           Anybody Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Anybody_900Black_Italic"
+        }}>
           Anybody Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

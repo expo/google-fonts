@@ -26,40 +26,32 @@ This font family contains [9 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/saira-extra-condensed expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  SairaExtraCondensed_100Thin,
-  SairaExtraCondensed_200ExtraLight,
-  SairaExtraCondensed_300Light,
-  SairaExtraCondensed_400Regular,
-  SairaExtraCondensed_500Medium,
-  SairaExtraCondensed_600SemiBold,
-  SairaExtraCondensed_700Bold,
-  SairaExtraCondensed_800ExtraBold,
-  SairaExtraCondensed_900Black,
-} from '@expo-google-fonts/saira-extra-condensed';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, SairaExtraCondensed_100Thin, SairaExtraCondensed_200ExtraLight, SairaExtraCondensed_300Light, SairaExtraCondensed_400Regular, SairaExtraCondensed_500Medium, SairaExtraCondensed_600SemiBold, SairaExtraCondensed_700Bold, SairaExtraCondensed_800ExtraBold, SairaExtraCondensed_900Black } from '@expo-google-fonts/saira-extra-condensed';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    SairaExtraCondensed_100Thin,
-    SairaExtraCondensed_200ExtraLight,
-    SairaExtraCondensed_300Light,
-    SairaExtraCondensed_400Regular,
-    SairaExtraCondensed_500Medium,
-    SairaExtraCondensed_600SemiBold,
-    SairaExtraCondensed_700Bold,
-    SairaExtraCondensed_800ExtraBold,
-    SairaExtraCondensed_900Black,
+    SairaExtraCondensed_100Thin, 
+    SairaExtraCondensed_200ExtraLight, 
+    SairaExtraCondensed_300Light, 
+    SairaExtraCondensed_400Regular, 
+    SairaExtraCondensed_500Medium, 
+    SairaExtraCondensed_600SemiBold, 
+    SairaExtraCondensed_700Bold, 
+    SairaExtraCondensed_800ExtraBold, 
+    SairaExtraCondensed_900Black
   });
 
   let fontSize = 24;
@@ -69,101 +61,83 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SairaExtraCondensed_100Thin"
+        }}>
           Saira Extra Condensed Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SairaExtraCondensed_200ExtraLight"
+        }}>
           Saira Extra Condensed Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SairaExtraCondensed_300Light"
+        }}>
           Saira Extra Condensed Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SairaExtraCondensed_400Regular"
+        }}>
           Saira Extra Condensed Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SairaExtraCondensed_500Medium"
+        }}>
           Saira Extra Condensed Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SairaExtraCondensed_600SemiBold"
+        }}>
           Saira Extra Condensed Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SairaExtraCondensed_700Bold"
+        }}>
           Saira Extra Condensed Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SairaExtraCondensed_800ExtraBold"
+        }}>
           Saira Extra Condensed Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SairaExtraCondensed_900Black"
+        }}>
           Saira Extra Condensed Black
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -180,10 +154,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

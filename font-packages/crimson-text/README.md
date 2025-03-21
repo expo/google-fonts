@@ -23,34 +23,29 @@ This font family contains [6 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/crimson-text expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  CrimsonText_400Regular,
-  CrimsonText_400Regular_Italic,
-  CrimsonText_600SemiBold,
-  CrimsonText_600SemiBold_Italic,
-  CrimsonText_700Bold,
-  CrimsonText_700Bold_Italic,
-} from '@expo-google-fonts/crimson-text';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, CrimsonText_400Regular, CrimsonText_400Regular_Italic, CrimsonText_600SemiBold, CrimsonText_600SemiBold_Italic, CrimsonText_700Bold, CrimsonText_700Bold_Italic } from '@expo-google-fonts/crimson-text';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    CrimsonText_400Regular,
-    CrimsonText_400Regular_Italic,
-    CrimsonText_600SemiBold,
-    CrimsonText_600SemiBold_Italic,
-    CrimsonText_700Bold,
-    CrimsonText_700Bold_Italic,
+    CrimsonText_400Regular, 
+    CrimsonText_400Regular_Italic, 
+    CrimsonText_600SemiBold, 
+    CrimsonText_600SemiBold_Italic, 
+    CrimsonText_700Bold, 
+    CrimsonText_700Bold_Italic
   });
 
   let fontSize = 24;
@@ -60,71 +55,59 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonText_400Regular',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "CrimsonText_400Regular"
+        }}>
           Crimson Text Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonText_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "CrimsonText_400Regular_Italic"
+        }}>
           Crimson Text Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonText_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "CrimsonText_600SemiBold"
+        }}>
           Crimson Text Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonText_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "CrimsonText_600SemiBold_Italic"
+        }}>
           Crimson Text Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonText_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "CrimsonText_700Bold"
+        }}>
           Crimson Text Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonText_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "CrimsonText_700Bold_Italic"
+        }}>
           Crimson Text Bold Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -140,10 +123,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/alumni-sans expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  AlumniSans_100Thin,
-  AlumniSans_200ExtraLight,
-  AlumniSans_300Light,
-  AlumniSans_400Regular,
-  AlumniSans_500Medium,
-  AlumniSans_600SemiBold,
-  AlumniSans_700Bold,
-  AlumniSans_800ExtraBold,
-  AlumniSans_900Black,
-  AlumniSans_100Thin_Italic,
-  AlumniSans_200ExtraLight_Italic,
-  AlumniSans_300Light_Italic,
-  AlumniSans_400Regular_Italic,
-  AlumniSans_500Medium_Italic,
-  AlumniSans_600SemiBold_Italic,
-  AlumniSans_700Bold_Italic,
-  AlumniSans_800ExtraBold_Italic,
-  AlumniSans_900Black_Italic,
-} from '@expo-google-fonts/alumni-sans';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, AlumniSans_100Thin, AlumniSans_200ExtraLight, AlumniSans_300Light, AlumniSans_400Regular, AlumniSans_500Medium, AlumniSans_600SemiBold, AlumniSans_700Bold, AlumniSans_800ExtraBold, AlumniSans_900Black, AlumniSans_100Thin_Italic, AlumniSans_200ExtraLight_Italic, AlumniSans_300Light_Italic, AlumniSans_400Regular_Italic, AlumniSans_500Medium_Italic, AlumniSans_600SemiBold_Italic, AlumniSans_700Bold_Italic, AlumniSans_800ExtraBold_Italic, AlumniSans_900Black_Italic } from '@expo-google-fonts/alumni-sans';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    AlumniSans_100Thin,
-    AlumniSans_200ExtraLight,
-    AlumniSans_300Light,
-    AlumniSans_400Regular,
-    AlumniSans_500Medium,
-    AlumniSans_600SemiBold,
-    AlumniSans_700Bold,
-    AlumniSans_800ExtraBold,
-    AlumniSans_900Black,
-    AlumniSans_100Thin_Italic,
-    AlumniSans_200ExtraLight_Italic,
-    AlumniSans_300Light_Italic,
-    AlumniSans_400Regular_Italic,
-    AlumniSans_500Medium_Italic,
-    AlumniSans_600SemiBold_Italic,
-    AlumniSans_700Bold_Italic,
-    AlumniSans_800ExtraBold_Italic,
-    AlumniSans_900Black_Italic,
+    AlumniSans_100Thin, 
+    AlumniSans_200ExtraLight, 
+    AlumniSans_300Light, 
+    AlumniSans_400Regular, 
+    AlumniSans_500Medium, 
+    AlumniSans_600SemiBold, 
+    AlumniSans_700Bold, 
+    AlumniSans_800ExtraBold, 
+    AlumniSans_900Black, 
+    AlumniSans_100Thin_Italic, 
+    AlumniSans_200ExtraLight_Italic, 
+    AlumniSans_300Light_Italic, 
+    AlumniSans_400Regular_Italic, 
+    AlumniSans_500Medium_Italic, 
+    AlumniSans_600SemiBold_Italic, 
+    AlumniSans_700Bold_Italic, 
+    AlumniSans_800ExtraBold_Italic, 
+    AlumniSans_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_100Thin"
+        }}>
           Alumni Sans Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_200ExtraLight"
+        }}>
           Alumni Sans Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_300Light"
+        }}>
           Alumni Sans Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_400Regular"
+        }}>
           Alumni Sans Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_500Medium"
+        }}>
           Alumni Sans Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_600SemiBold"
+        }}>
           Alumni Sans Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_700Bold"
+        }}>
           Alumni Sans Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_800ExtraBold"
+        }}>
           Alumni Sans Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_900Black"
+        }}>
           Alumni Sans Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_100Thin_Italic"
+        }}>
           Alumni Sans Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_200ExtraLight_Italic"
+        }}>
           Alumni Sans Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_300Light_Italic"
+        }}>
           Alumni Sans Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_400Regular_Italic"
+        }}>
           Alumni Sans Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_500Medium_Italic"
+        }}>
           Alumni Sans Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_600SemiBold_Italic"
+        }}>
           Alumni Sans Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_700Bold_Italic"
+        }}>
           Alumni Sans Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_800ExtraBold_Italic"
+        }}>
           Alumni Sans Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlumniSans_900Black_Italic"
+        }}>
           Alumni Sans Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

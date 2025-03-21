@@ -29,46 +29,35 @@ This font family contains [12 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/faustina expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Faustina_300Light,
-  Faustina_400Regular,
-  Faustina_500Medium,
-  Faustina_600SemiBold,
-  Faustina_700Bold,
-  Faustina_800ExtraBold,
-  Faustina_300Light_Italic,
-  Faustina_400Regular_Italic,
-  Faustina_500Medium_Italic,
-  Faustina_600SemiBold_Italic,
-  Faustina_700Bold_Italic,
-  Faustina_800ExtraBold_Italic,
-} from '@expo-google-fonts/faustina';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Faustina_300Light, Faustina_400Regular, Faustina_500Medium, Faustina_600SemiBold, Faustina_700Bold, Faustina_800ExtraBold, Faustina_300Light_Italic, Faustina_400Regular_Italic, Faustina_500Medium_Italic, Faustina_600SemiBold_Italic, Faustina_700Bold_Italic, Faustina_800ExtraBold_Italic } from '@expo-google-fonts/faustina';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Faustina_300Light,
-    Faustina_400Regular,
-    Faustina_500Medium,
-    Faustina_600SemiBold,
-    Faustina_700Bold,
-    Faustina_800ExtraBold,
-    Faustina_300Light_Italic,
-    Faustina_400Regular_Italic,
-    Faustina_500Medium_Italic,
-    Faustina_600SemiBold_Italic,
-    Faustina_700Bold_Italic,
-    Faustina_800ExtraBold_Italic,
+    Faustina_300Light, 
+    Faustina_400Regular, 
+    Faustina_500Medium, 
+    Faustina_600SemiBold, 
+    Faustina_700Bold, 
+    Faustina_800ExtraBold, 
+    Faustina_300Light_Italic, 
+    Faustina_400Regular_Italic, 
+    Faustina_500Medium_Italic, 
+    Faustina_600SemiBold_Italic, 
+    Faustina_700Bold_Italic, 
+    Faustina_800ExtraBold_Italic
   });
 
   let fontSize = 24;
@@ -78,131 +67,107 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_300Light',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Faustina_300Light"
+        }}>
           Faustina Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Faustina_400Regular"
+        }}>
           Faustina Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Faustina_500Medium"
+        }}>
           Faustina Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Faustina_600SemiBold"
+        }}>
           Faustina Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Faustina_700Bold"
+        }}>
           Faustina Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Faustina_800ExtraBold"
+        }}>
           Faustina Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Faustina_300Light_Italic"
+        }}>
           Faustina Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Faustina_400Regular_Italic"
+        }}>
           Faustina Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Faustina_500Medium_Italic"
+        }}>
           Faustina Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Faustina_600SemiBold_Italic"
+        }}>
           Faustina Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Faustina_700Bold_Italic"
+        }}>
           Faustina Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Faustina_800ExtraBold_Italic"
+        }}>
           Faustina Extra Bold Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -220,10 +185,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

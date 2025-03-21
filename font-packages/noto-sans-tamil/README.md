@@ -26,40 +26,32 @@ This font family contains [9 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/noto-sans-tamil expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansTamil_100Thin,
-  NotoSansTamil_200ExtraLight,
-  NotoSansTamil_300Light,
-  NotoSansTamil_400Regular,
-  NotoSansTamil_500Medium,
-  NotoSansTamil_600SemiBold,
-  NotoSansTamil_700Bold,
-  NotoSansTamil_800ExtraBold,
-  NotoSansTamil_900Black,
-} from '@expo-google-fonts/noto-sans-tamil';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, NotoSansTamil_100Thin, NotoSansTamil_200ExtraLight, NotoSansTamil_300Light, NotoSansTamil_400Regular, NotoSansTamil_500Medium, NotoSansTamil_600SemiBold, NotoSansTamil_700Bold, NotoSansTamil_800ExtraBold, NotoSansTamil_900Black } from '@expo-google-fonts/noto-sans-tamil';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    NotoSansTamil_100Thin,
-    NotoSansTamil_200ExtraLight,
-    NotoSansTamil_300Light,
-    NotoSansTamil_400Regular,
-    NotoSansTamil_500Medium,
-    NotoSansTamil_600SemiBold,
-    NotoSansTamil_700Bold,
-    NotoSansTamil_800ExtraBold,
-    NotoSansTamil_900Black,
+    NotoSansTamil_100Thin, 
+    NotoSansTamil_200ExtraLight, 
+    NotoSansTamil_300Light, 
+    NotoSansTamil_400Regular, 
+    NotoSansTamil_500Medium, 
+    NotoSansTamil_600SemiBold, 
+    NotoSansTamil_700Bold, 
+    NotoSansTamil_800ExtraBold, 
+    NotoSansTamil_900Black
   });
 
   let fontSize = 24;
@@ -69,101 +61,83 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTamil_100Thin"
+        }}>
           Noto Sans Tamil Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTamil_200ExtraLight"
+        }}>
           Noto Sans Tamil Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTamil_300Light"
+        }}>
           Noto Sans Tamil Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTamil_400Regular"
+        }}>
           Noto Sans Tamil Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTamil_500Medium"
+        }}>
           Noto Sans Tamil Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTamil_600SemiBold"
+        }}>
           Noto Sans Tamil Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTamil_700Bold"
+        }}>
           Noto Sans Tamil Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTamil_800ExtraBold"
+        }}>
           Noto Sans Tamil Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTamil_900Black"
+        }}>
           Noto Sans Tamil Black
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -180,10 +154,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

@@ -31,50 +31,37 @@ This font family contains [14 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/spectral-sc expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  SpectralSC_200ExtraLight,
-  SpectralSC_200ExtraLight_Italic,
-  SpectralSC_300Light,
-  SpectralSC_300Light_Italic,
-  SpectralSC_400Regular,
-  SpectralSC_400Regular_Italic,
-  SpectralSC_500Medium,
-  SpectralSC_500Medium_Italic,
-  SpectralSC_600SemiBold,
-  SpectralSC_600SemiBold_Italic,
-  SpectralSC_700Bold,
-  SpectralSC_700Bold_Italic,
-  SpectralSC_800ExtraBold,
-  SpectralSC_800ExtraBold_Italic,
-} from '@expo-google-fonts/spectral-sc';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, SpectralSC_200ExtraLight, SpectralSC_200ExtraLight_Italic, SpectralSC_300Light, SpectralSC_300Light_Italic, SpectralSC_400Regular, SpectralSC_400Regular_Italic, SpectralSC_500Medium, SpectralSC_500Medium_Italic, SpectralSC_600SemiBold, SpectralSC_600SemiBold_Italic, SpectralSC_700Bold, SpectralSC_700Bold_Italic, SpectralSC_800ExtraBold, SpectralSC_800ExtraBold_Italic } from '@expo-google-fonts/spectral-sc';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    SpectralSC_200ExtraLight,
-    SpectralSC_200ExtraLight_Italic,
-    SpectralSC_300Light,
-    SpectralSC_300Light_Italic,
-    SpectralSC_400Regular,
-    SpectralSC_400Regular_Italic,
-    SpectralSC_500Medium,
-    SpectralSC_500Medium_Italic,
-    SpectralSC_600SemiBold,
-    SpectralSC_600SemiBold_Italic,
-    SpectralSC_700Bold,
-    SpectralSC_700Bold_Italic,
-    SpectralSC_800ExtraBold,
-    SpectralSC_800ExtraBold_Italic,
+    SpectralSC_200ExtraLight, 
+    SpectralSC_200ExtraLight_Italic, 
+    SpectralSC_300Light, 
+    SpectralSC_300Light_Italic, 
+    SpectralSC_400Regular, 
+    SpectralSC_400Regular_Italic, 
+    SpectralSC_500Medium, 
+    SpectralSC_500Medium_Italic, 
+    SpectralSC_600SemiBold, 
+    SpectralSC_600SemiBold_Italic, 
+    SpectralSC_700Bold, 
+    SpectralSC_700Bold_Italic, 
+    SpectralSC_800ExtraBold, 
+    SpectralSC_800ExtraBold_Italic
   });
 
   let fontSize = 24;
@@ -84,151 +71,123 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpectralSC_200ExtraLight',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SpectralSC_200ExtraLight"
+        }}>
           Spectral SC Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpectralSC_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SpectralSC_200ExtraLight_Italic"
+        }}>
           Spectral SC Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpectralSC_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SpectralSC_300Light"
+        }}>
           Spectral SC Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpectralSC_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SpectralSC_300Light_Italic"
+        }}>
           Spectral SC Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpectralSC_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SpectralSC_400Regular"
+        }}>
           Spectral SC Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpectralSC_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SpectralSC_400Regular_Italic"
+        }}>
           Spectral SC Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpectralSC_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SpectralSC_500Medium"
+        }}>
           Spectral SC Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpectralSC_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SpectralSC_500Medium_Italic"
+        }}>
           Spectral SC Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpectralSC_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SpectralSC_600SemiBold"
+        }}>
           Spectral SC Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpectralSC_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SpectralSC_600SemiBold_Italic"
+        }}>
           Spectral SC Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpectralSC_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SpectralSC_700Bold"
+        }}>
           Spectral SC Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpectralSC_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SpectralSC_700Bold_Italic"
+        }}>
           Spectral SC Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpectralSC_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SpectralSC_800ExtraBold"
+        }}>
           Spectral SC Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpectralSC_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SpectralSC_800ExtraBold_Italic"
+        }}>
           Spectral SC Extra Bold Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -247,10 +206,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

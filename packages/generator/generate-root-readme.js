@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const generator = require('./generator');
 const directoryData = require('./directory-data.json');
+const generator = require('./generator');
 
 if (require.main === module) {
   (async () => {

@@ -27,42 +27,33 @@ This font family contains [10 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/rethink-sans expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  RethinkSans_400Regular,
-  RethinkSans_500Medium,
-  RethinkSans_600SemiBold,
-  RethinkSans_700Bold,
-  RethinkSans_800ExtraBold,
-  RethinkSans_400Regular_Italic,
-  RethinkSans_500Medium_Italic,
-  RethinkSans_600SemiBold_Italic,
-  RethinkSans_700Bold_Italic,
-  RethinkSans_800ExtraBold_Italic,
-} from '@expo-google-fonts/rethink-sans';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, RethinkSans_400Regular, RethinkSans_500Medium, RethinkSans_600SemiBold, RethinkSans_700Bold, RethinkSans_800ExtraBold, RethinkSans_400Regular_Italic, RethinkSans_500Medium_Italic, RethinkSans_600SemiBold_Italic, RethinkSans_700Bold_Italic, RethinkSans_800ExtraBold_Italic } from '@expo-google-fonts/rethink-sans';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    RethinkSans_400Regular,
-    RethinkSans_500Medium,
-    RethinkSans_600SemiBold,
-    RethinkSans_700Bold,
-    RethinkSans_800ExtraBold,
-    RethinkSans_400Regular_Italic,
-    RethinkSans_500Medium_Italic,
-    RethinkSans_600SemiBold_Italic,
-    RethinkSans_700Bold_Italic,
-    RethinkSans_800ExtraBold_Italic,
+    RethinkSans_400Regular, 
+    RethinkSans_500Medium, 
+    RethinkSans_600SemiBold, 
+    RethinkSans_700Bold, 
+    RethinkSans_800ExtraBold, 
+    RethinkSans_400Regular_Italic, 
+    RethinkSans_500Medium_Italic, 
+    RethinkSans_600SemiBold_Italic, 
+    RethinkSans_700Bold_Italic, 
+    RethinkSans_800ExtraBold_Italic
   });
 
   let fontSize = 24;
@@ -72,111 +63,91 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_400Regular',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RethinkSans_400Regular"
+        }}>
           Rethink Sans Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RethinkSans_500Medium"
+        }}>
           Rethink Sans Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RethinkSans_600SemiBold"
+        }}>
           Rethink Sans Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RethinkSans_700Bold"
+        }}>
           Rethink Sans Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RethinkSans_800ExtraBold"
+        }}>
           Rethink Sans Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RethinkSans_400Regular_Italic"
+        }}>
           Rethink Sans Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RethinkSans_500Medium_Italic"
+        }}>
           Rethink Sans Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RethinkSans_600SemiBold_Italic"
+        }}>
           Rethink Sans Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RethinkSans_700Bold_Italic"
+        }}>
           Rethink Sans Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RethinkSans_800ExtraBold_Italic"
+        }}>
           Rethink Sans Extra Bold Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -194,10 +165,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

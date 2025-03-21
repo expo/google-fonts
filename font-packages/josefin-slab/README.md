@@ -31,50 +31,37 @@ This font family contains [14 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/josefin-slab expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  JosefinSlab_100Thin,
-  JosefinSlab_200ExtraLight,
-  JosefinSlab_300Light,
-  JosefinSlab_400Regular,
-  JosefinSlab_500Medium,
-  JosefinSlab_600SemiBold,
-  JosefinSlab_700Bold,
-  JosefinSlab_100Thin_Italic,
-  JosefinSlab_200ExtraLight_Italic,
-  JosefinSlab_300Light_Italic,
-  JosefinSlab_400Regular_Italic,
-  JosefinSlab_500Medium_Italic,
-  JosefinSlab_600SemiBold_Italic,
-  JosefinSlab_700Bold_Italic,
-} from '@expo-google-fonts/josefin-slab';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, JosefinSlab_100Thin, JosefinSlab_200ExtraLight, JosefinSlab_300Light, JosefinSlab_400Regular, JosefinSlab_500Medium, JosefinSlab_600SemiBold, JosefinSlab_700Bold, JosefinSlab_100Thin_Italic, JosefinSlab_200ExtraLight_Italic, JosefinSlab_300Light_Italic, JosefinSlab_400Regular_Italic, JosefinSlab_500Medium_Italic, JosefinSlab_600SemiBold_Italic, JosefinSlab_700Bold_Italic } from '@expo-google-fonts/josefin-slab';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    JosefinSlab_100Thin,
-    JosefinSlab_200ExtraLight,
-    JosefinSlab_300Light,
-    JosefinSlab_400Regular,
-    JosefinSlab_500Medium,
-    JosefinSlab_600SemiBold,
-    JosefinSlab_700Bold,
-    JosefinSlab_100Thin_Italic,
-    JosefinSlab_200ExtraLight_Italic,
-    JosefinSlab_300Light_Italic,
-    JosefinSlab_400Regular_Italic,
-    JosefinSlab_500Medium_Italic,
-    JosefinSlab_600SemiBold_Italic,
-    JosefinSlab_700Bold_Italic,
+    JosefinSlab_100Thin, 
+    JosefinSlab_200ExtraLight, 
+    JosefinSlab_300Light, 
+    JosefinSlab_400Regular, 
+    JosefinSlab_500Medium, 
+    JosefinSlab_600SemiBold, 
+    JosefinSlab_700Bold, 
+    JosefinSlab_100Thin_Italic, 
+    JosefinSlab_200ExtraLight_Italic, 
+    JosefinSlab_300Light_Italic, 
+    JosefinSlab_400Regular_Italic, 
+    JosefinSlab_500Medium_Italic, 
+    JosefinSlab_600SemiBold_Italic, 
+    JosefinSlab_700Bold_Italic
   });
 
   let fontSize = 24;
@@ -84,151 +71,123 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JosefinSlab_100Thin"
+        }}>
           Josefin Slab Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JosefinSlab_200ExtraLight"
+        }}>
           Josefin Slab Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JosefinSlab_300Light"
+        }}>
           Josefin Slab Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JosefinSlab_400Regular"
+        }}>
           Josefin Slab Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JosefinSlab_500Medium"
+        }}>
           Josefin Slab Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JosefinSlab_600SemiBold"
+        }}>
           Josefin Slab Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JosefinSlab_700Bold"
+        }}>
           Josefin Slab Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JosefinSlab_100Thin_Italic"
+        }}>
           Josefin Slab Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JosefinSlab_200ExtraLight_Italic"
+        }}>
           Josefin Slab Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JosefinSlab_300Light_Italic"
+        }}>
           Josefin Slab Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JosefinSlab_400Regular_Italic"
+        }}>
           Josefin Slab Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JosefinSlab_500Medium_Italic"
+        }}>
           Josefin Slab Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JosefinSlab_600SemiBold_Italic"
+        }}>
           Josefin Slab Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JosefinSlab_700Bold_Italic"
+        }}>
           Josefin Slab Bold Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -247,10 +206,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

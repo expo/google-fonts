@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/public-sans expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  PublicSans_100Thin,
-  PublicSans_200ExtraLight,
-  PublicSans_300Light,
-  PublicSans_400Regular,
-  PublicSans_500Medium,
-  PublicSans_600SemiBold,
-  PublicSans_700Bold,
-  PublicSans_800ExtraBold,
-  PublicSans_900Black,
-  PublicSans_100Thin_Italic,
-  PublicSans_200ExtraLight_Italic,
-  PublicSans_300Light_Italic,
-  PublicSans_400Regular_Italic,
-  PublicSans_500Medium_Italic,
-  PublicSans_600SemiBold_Italic,
-  PublicSans_700Bold_Italic,
-  PublicSans_800ExtraBold_Italic,
-  PublicSans_900Black_Italic,
-} from '@expo-google-fonts/public-sans';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, PublicSans_100Thin, PublicSans_200ExtraLight, PublicSans_300Light, PublicSans_400Regular, PublicSans_500Medium, PublicSans_600SemiBold, PublicSans_700Bold, PublicSans_800ExtraBold, PublicSans_900Black, PublicSans_100Thin_Italic, PublicSans_200ExtraLight_Italic, PublicSans_300Light_Italic, PublicSans_400Regular_Italic, PublicSans_500Medium_Italic, PublicSans_600SemiBold_Italic, PublicSans_700Bold_Italic, PublicSans_800ExtraBold_Italic, PublicSans_900Black_Italic } from '@expo-google-fonts/public-sans';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    PublicSans_100Thin,
-    PublicSans_200ExtraLight,
-    PublicSans_300Light,
-    PublicSans_400Regular,
-    PublicSans_500Medium,
-    PublicSans_600SemiBold,
-    PublicSans_700Bold,
-    PublicSans_800ExtraBold,
-    PublicSans_900Black,
-    PublicSans_100Thin_Italic,
-    PublicSans_200ExtraLight_Italic,
-    PublicSans_300Light_Italic,
-    PublicSans_400Regular_Italic,
-    PublicSans_500Medium_Italic,
-    PublicSans_600SemiBold_Italic,
-    PublicSans_700Bold_Italic,
-    PublicSans_800ExtraBold_Italic,
-    PublicSans_900Black_Italic,
+    PublicSans_100Thin, 
+    PublicSans_200ExtraLight, 
+    PublicSans_300Light, 
+    PublicSans_400Regular, 
+    PublicSans_500Medium, 
+    PublicSans_600SemiBold, 
+    PublicSans_700Bold, 
+    PublicSans_800ExtraBold, 
+    PublicSans_900Black, 
+    PublicSans_100Thin_Italic, 
+    PublicSans_200ExtraLight_Italic, 
+    PublicSans_300Light_Italic, 
+    PublicSans_400Regular_Italic, 
+    PublicSans_500Medium_Italic, 
+    PublicSans_600SemiBold_Italic, 
+    PublicSans_700Bold_Italic, 
+    PublicSans_800ExtraBold_Italic, 
+    PublicSans_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_100Thin"
+        }}>
           Public Sans Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_200ExtraLight"
+        }}>
           Public Sans Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_300Light"
+        }}>
           Public Sans Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_400Regular"
+        }}>
           Public Sans Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_500Medium"
+        }}>
           Public Sans Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_600SemiBold"
+        }}>
           Public Sans Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_700Bold"
+        }}>
           Public Sans Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_800ExtraBold"
+        }}>
           Public Sans Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_900Black"
+        }}>
           Public Sans Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_100Thin_Italic"
+        }}>
           Public Sans Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_200ExtraLight_Italic"
+        }}>
           Public Sans Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_300Light_Italic"
+        }}>
           Public Sans Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_400Regular_Italic"
+        }}>
           Public Sans Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_500Medium_Italic"
+        }}>
           Public Sans Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_600SemiBold_Italic"
+        }}>
           Public Sans Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_700Bold_Italic"
+        }}>
           Public Sans Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_800ExtraBold_Italic"
+        }}>
           Public Sans Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PublicSans_900Black_Italic"
+        }}>
           Public Sans Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

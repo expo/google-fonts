@@ -26,40 +26,32 @@ This font family contains [9 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/noto-sans-jp expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansJP_100Thin,
-  NotoSansJP_200ExtraLight,
-  NotoSansJP_300Light,
-  NotoSansJP_400Regular,
-  NotoSansJP_500Medium,
-  NotoSansJP_600SemiBold,
-  NotoSansJP_700Bold,
-  NotoSansJP_800ExtraBold,
-  NotoSansJP_900Black,
-} from '@expo-google-fonts/noto-sans-jp';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, NotoSansJP_100Thin, NotoSansJP_200ExtraLight, NotoSansJP_300Light, NotoSansJP_400Regular, NotoSansJP_500Medium, NotoSansJP_600SemiBold, NotoSansJP_700Bold, NotoSansJP_800ExtraBold, NotoSansJP_900Black } from '@expo-google-fonts/noto-sans-jp';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    NotoSansJP_100Thin,
-    NotoSansJP_200ExtraLight,
-    NotoSansJP_300Light,
-    NotoSansJP_400Regular,
-    NotoSansJP_500Medium,
-    NotoSansJP_600SemiBold,
-    NotoSansJP_700Bold,
-    NotoSansJP_800ExtraBold,
-    NotoSansJP_900Black,
+    NotoSansJP_100Thin, 
+    NotoSansJP_200ExtraLight, 
+    NotoSansJP_300Light, 
+    NotoSansJP_400Regular, 
+    NotoSansJP_500Medium, 
+    NotoSansJP_600SemiBold, 
+    NotoSansJP_700Bold, 
+    NotoSansJP_800ExtraBold, 
+    NotoSansJP_900Black
   });
 
   let fontSize = 24;
@@ -69,101 +61,83 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansJP_100Thin"
+        }}>
           Noto Sans JP Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansJP_200ExtraLight"
+        }}>
           Noto Sans JP Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansJP_300Light"
+        }}>
           Noto Sans JP Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansJP_400Regular"
+        }}>
           Noto Sans JP Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansJP_500Medium"
+        }}>
           Noto Sans JP Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansJP_600SemiBold"
+        }}>
           Noto Sans JP Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansJP_700Bold"
+        }}>
           Noto Sans JP Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansJP_800ExtraBold"
+        }}>
           Noto Sans JP Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansJP_900Black"
+        }}>
           Noto Sans JP Black
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -180,10 +154,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

@@ -11,31 +11,31 @@ This package lets you use the [**Libre Barcode 39 Extended**](https://fonts.goog
 
 ![Libre Barcode 39 Extended](./font-family.png)
 
-This font family contains [1 style](#-gallery).
+This font family contains [1 styles](#-gallery).
 
 - `LibreBarcode39Extended_400Regular`
 
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/libre-barcode-39-extended expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  LibreBarcode39Extended_400Regular,
-} from '@expo-google-fonts/libre-barcode-39-extended';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, LibreBarcode39Extended_400Regular } from '@expo-google-fonts/libre-barcode-39-extended';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    LibreBarcode39Extended_400Regular,
+    LibreBarcode39Extended_400Regular
   });
 
   let fontSize = 24;
@@ -45,21 +45,19 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreBarcode39Extended_400Regular',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreBarcode39Extended_400Regular"
+        }}>
           Libre Barcode 39 Extended Regular
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -74,10 +72,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

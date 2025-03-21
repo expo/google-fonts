@@ -26,40 +26,32 @@ This font family contains [9 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/noto-sans-tc expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansTC_100Thin,
-  NotoSansTC_200ExtraLight,
-  NotoSansTC_300Light,
-  NotoSansTC_400Regular,
-  NotoSansTC_500Medium,
-  NotoSansTC_600SemiBold,
-  NotoSansTC_700Bold,
-  NotoSansTC_800ExtraBold,
-  NotoSansTC_900Black,
-} from '@expo-google-fonts/noto-sans-tc';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, NotoSansTC_100Thin, NotoSansTC_200ExtraLight, NotoSansTC_300Light, NotoSansTC_400Regular, NotoSansTC_500Medium, NotoSansTC_600SemiBold, NotoSansTC_700Bold, NotoSansTC_800ExtraBold, NotoSansTC_900Black } from '@expo-google-fonts/noto-sans-tc';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    NotoSansTC_100Thin,
-    NotoSansTC_200ExtraLight,
-    NotoSansTC_300Light,
-    NotoSansTC_400Regular,
-    NotoSansTC_500Medium,
-    NotoSansTC_600SemiBold,
-    NotoSansTC_700Bold,
-    NotoSansTC_800ExtraBold,
-    NotoSansTC_900Black,
+    NotoSansTC_100Thin, 
+    NotoSansTC_200ExtraLight, 
+    NotoSansTC_300Light, 
+    NotoSansTC_400Regular, 
+    NotoSansTC_500Medium, 
+    NotoSansTC_600SemiBold, 
+    NotoSansTC_700Bold, 
+    NotoSansTC_800ExtraBold, 
+    NotoSansTC_900Black
   });
 
   let fontSize = 24;
@@ -69,101 +61,83 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTC_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTC_100Thin"
+        }}>
           Noto Sans TC Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTC_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTC_200ExtraLight"
+        }}>
           Noto Sans TC Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTC_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTC_300Light"
+        }}>
           Noto Sans TC Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTC_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTC_400Regular"
+        }}>
           Noto Sans TC Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTC_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTC_500Medium"
+        }}>
           Noto Sans TC Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTC_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTC_600SemiBold"
+        }}>
           Noto Sans TC Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTC_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTC_700Bold"
+        }}>
           Noto Sans TC Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTC_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTC_800ExtraBold"
+        }}>
           Noto Sans TC Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTC_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTC_900Black"
+        }}>
           Noto Sans TC Black
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -180,10 +154,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

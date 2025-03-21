@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/prompt expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Prompt_100Thin,
-  Prompt_100Thin_Italic,
-  Prompt_200ExtraLight,
-  Prompt_200ExtraLight_Italic,
-  Prompt_300Light,
-  Prompt_300Light_Italic,
-  Prompt_400Regular,
-  Prompt_400Regular_Italic,
-  Prompt_500Medium,
-  Prompt_500Medium_Italic,
-  Prompt_600SemiBold,
-  Prompt_600SemiBold_Italic,
-  Prompt_700Bold,
-  Prompt_700Bold_Italic,
-  Prompt_800ExtraBold,
-  Prompt_800ExtraBold_Italic,
-  Prompt_900Black,
-  Prompt_900Black_Italic,
-} from '@expo-google-fonts/prompt';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Prompt_100Thin, Prompt_100Thin_Italic, Prompt_200ExtraLight, Prompt_200ExtraLight_Italic, Prompt_300Light, Prompt_300Light_Italic, Prompt_400Regular, Prompt_400Regular_Italic, Prompt_500Medium, Prompt_500Medium_Italic, Prompt_600SemiBold, Prompt_600SemiBold_Italic, Prompt_700Bold, Prompt_700Bold_Italic, Prompt_800ExtraBold, Prompt_800ExtraBold_Italic, Prompt_900Black, Prompt_900Black_Italic } from '@expo-google-fonts/prompt';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Prompt_100Thin,
-    Prompt_100Thin_Italic,
-    Prompt_200ExtraLight,
-    Prompt_200ExtraLight_Italic,
-    Prompt_300Light,
-    Prompt_300Light_Italic,
-    Prompt_400Regular,
-    Prompt_400Regular_Italic,
-    Prompt_500Medium,
-    Prompt_500Medium_Italic,
-    Prompt_600SemiBold,
-    Prompt_600SemiBold_Italic,
-    Prompt_700Bold,
-    Prompt_700Bold_Italic,
-    Prompt_800ExtraBold,
-    Prompt_800ExtraBold_Italic,
-    Prompt_900Black,
-    Prompt_900Black_Italic,
+    Prompt_100Thin, 
+    Prompt_100Thin_Italic, 
+    Prompt_200ExtraLight, 
+    Prompt_200ExtraLight_Italic, 
+    Prompt_300Light, 
+    Prompt_300Light_Italic, 
+    Prompt_400Regular, 
+    Prompt_400Regular_Italic, 
+    Prompt_500Medium, 
+    Prompt_500Medium_Italic, 
+    Prompt_600SemiBold, 
+    Prompt_600SemiBold_Italic, 
+    Prompt_700Bold, 
+    Prompt_700Bold_Italic, 
+    Prompt_800ExtraBold, 
+    Prompt_800ExtraBold_Italic, 
+    Prompt_900Black, 
+    Prompt_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_100Thin"
+        }}>
           Prompt Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_100Thin_Italic"
+        }}>
           Prompt Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_200ExtraLight"
+        }}>
           Prompt Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_200ExtraLight_Italic"
+        }}>
           Prompt Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_300Light"
+        }}>
           Prompt Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_300Light_Italic"
+        }}>
           Prompt Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_400Regular"
+        }}>
           Prompt Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_400Regular_Italic"
+        }}>
           Prompt Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_500Medium"
+        }}>
           Prompt Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_500Medium_Italic"
+        }}>
           Prompt Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_600SemiBold"
+        }}>
           Prompt Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_600SemiBold_Italic"
+        }}>
           Prompt Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_700Bold"
+        }}>
           Prompt Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_700Bold_Italic"
+        }}>
           Prompt Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_800ExtraBold"
+        }}>
           Prompt Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_800ExtraBold_Italic"
+        }}>
           Prompt Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_900Black"
+        }}>
           Prompt Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Prompt_900Black_Italic"
+        }}>
           Prompt Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/ysabeau-office expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  YsabeauOffice_100Thin,
-  YsabeauOffice_200ExtraLight,
-  YsabeauOffice_300Light,
-  YsabeauOffice_400Regular,
-  YsabeauOffice_500Medium,
-  YsabeauOffice_600SemiBold,
-  YsabeauOffice_700Bold,
-  YsabeauOffice_800ExtraBold,
-  YsabeauOffice_900Black,
-  YsabeauOffice_100Thin_Italic,
-  YsabeauOffice_200ExtraLight_Italic,
-  YsabeauOffice_300Light_Italic,
-  YsabeauOffice_400Regular_Italic,
-  YsabeauOffice_500Medium_Italic,
-  YsabeauOffice_600SemiBold_Italic,
-  YsabeauOffice_700Bold_Italic,
-  YsabeauOffice_800ExtraBold_Italic,
-  YsabeauOffice_900Black_Italic,
-} from '@expo-google-fonts/ysabeau-office';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, YsabeauOffice_100Thin, YsabeauOffice_200ExtraLight, YsabeauOffice_300Light, YsabeauOffice_400Regular, YsabeauOffice_500Medium, YsabeauOffice_600SemiBold, YsabeauOffice_700Bold, YsabeauOffice_800ExtraBold, YsabeauOffice_900Black, YsabeauOffice_100Thin_Italic, YsabeauOffice_200ExtraLight_Italic, YsabeauOffice_300Light_Italic, YsabeauOffice_400Regular_Italic, YsabeauOffice_500Medium_Italic, YsabeauOffice_600SemiBold_Italic, YsabeauOffice_700Bold_Italic, YsabeauOffice_800ExtraBold_Italic, YsabeauOffice_900Black_Italic } from '@expo-google-fonts/ysabeau-office';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    YsabeauOffice_100Thin,
-    YsabeauOffice_200ExtraLight,
-    YsabeauOffice_300Light,
-    YsabeauOffice_400Regular,
-    YsabeauOffice_500Medium,
-    YsabeauOffice_600SemiBold,
-    YsabeauOffice_700Bold,
-    YsabeauOffice_800ExtraBold,
-    YsabeauOffice_900Black,
-    YsabeauOffice_100Thin_Italic,
-    YsabeauOffice_200ExtraLight_Italic,
-    YsabeauOffice_300Light_Italic,
-    YsabeauOffice_400Regular_Italic,
-    YsabeauOffice_500Medium_Italic,
-    YsabeauOffice_600SemiBold_Italic,
-    YsabeauOffice_700Bold_Italic,
-    YsabeauOffice_800ExtraBold_Italic,
-    YsabeauOffice_900Black_Italic,
+    YsabeauOffice_100Thin, 
+    YsabeauOffice_200ExtraLight, 
+    YsabeauOffice_300Light, 
+    YsabeauOffice_400Regular, 
+    YsabeauOffice_500Medium, 
+    YsabeauOffice_600SemiBold, 
+    YsabeauOffice_700Bold, 
+    YsabeauOffice_800ExtraBold, 
+    YsabeauOffice_900Black, 
+    YsabeauOffice_100Thin_Italic, 
+    YsabeauOffice_200ExtraLight_Italic, 
+    YsabeauOffice_300Light_Italic, 
+    YsabeauOffice_400Regular_Italic, 
+    YsabeauOffice_500Medium_Italic, 
+    YsabeauOffice_600SemiBold_Italic, 
+    YsabeauOffice_700Bold_Italic, 
+    YsabeauOffice_800ExtraBold_Italic, 
+    YsabeauOffice_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_100Thin"
+        }}>
           Ysabeau Office Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_200ExtraLight"
+        }}>
           Ysabeau Office Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_300Light"
+        }}>
           Ysabeau Office Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_400Regular"
+        }}>
           Ysabeau Office Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_500Medium"
+        }}>
           Ysabeau Office Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_600SemiBold"
+        }}>
           Ysabeau Office Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_700Bold"
+        }}>
           Ysabeau Office Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_800ExtraBold"
+        }}>
           Ysabeau Office Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_900Black"
+        }}>
           Ysabeau Office Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_100Thin_Italic"
+        }}>
           Ysabeau Office Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_200ExtraLight_Italic"
+        }}>
           Ysabeau Office Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_300Light_Italic"
+        }}>
           Ysabeau Office Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_400Regular_Italic"
+        }}>
           Ysabeau Office Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_500Medium_Italic"
+        }}>
           Ysabeau Office Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_600SemiBold_Italic"
+        }}>
           Ysabeau Office Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_700Bold_Italic"
+        }}>
           Ysabeau Office Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_800ExtraBold_Italic"
+        }}>
           Ysabeau Office Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "YsabeauOffice_900Black_Italic"
+        }}>
           Ysabeau Office Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

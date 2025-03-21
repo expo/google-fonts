@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/urbanist expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Urbanist_100Thin,
-  Urbanist_200ExtraLight,
-  Urbanist_300Light,
-  Urbanist_400Regular,
-  Urbanist_500Medium,
-  Urbanist_600SemiBold,
-  Urbanist_700Bold,
-  Urbanist_800ExtraBold,
-  Urbanist_900Black,
-  Urbanist_100Thin_Italic,
-  Urbanist_200ExtraLight_Italic,
-  Urbanist_300Light_Italic,
-  Urbanist_400Regular_Italic,
-  Urbanist_500Medium_Italic,
-  Urbanist_600SemiBold_Italic,
-  Urbanist_700Bold_Italic,
-  Urbanist_800ExtraBold_Italic,
-  Urbanist_900Black_Italic,
-} from '@expo-google-fonts/urbanist';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Urbanist_100Thin, Urbanist_200ExtraLight, Urbanist_300Light, Urbanist_400Regular, Urbanist_500Medium, Urbanist_600SemiBold, Urbanist_700Bold, Urbanist_800ExtraBold, Urbanist_900Black, Urbanist_100Thin_Italic, Urbanist_200ExtraLight_Italic, Urbanist_300Light_Italic, Urbanist_400Regular_Italic, Urbanist_500Medium_Italic, Urbanist_600SemiBold_Italic, Urbanist_700Bold_Italic, Urbanist_800ExtraBold_Italic, Urbanist_900Black_Italic } from '@expo-google-fonts/urbanist';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Urbanist_100Thin,
-    Urbanist_200ExtraLight,
-    Urbanist_300Light,
-    Urbanist_400Regular,
-    Urbanist_500Medium,
-    Urbanist_600SemiBold,
-    Urbanist_700Bold,
-    Urbanist_800ExtraBold,
-    Urbanist_900Black,
-    Urbanist_100Thin_Italic,
-    Urbanist_200ExtraLight_Italic,
-    Urbanist_300Light_Italic,
-    Urbanist_400Regular_Italic,
-    Urbanist_500Medium_Italic,
-    Urbanist_600SemiBold_Italic,
-    Urbanist_700Bold_Italic,
-    Urbanist_800ExtraBold_Italic,
-    Urbanist_900Black_Italic,
+    Urbanist_100Thin, 
+    Urbanist_200ExtraLight, 
+    Urbanist_300Light, 
+    Urbanist_400Regular, 
+    Urbanist_500Medium, 
+    Urbanist_600SemiBold, 
+    Urbanist_700Bold, 
+    Urbanist_800ExtraBold, 
+    Urbanist_900Black, 
+    Urbanist_100Thin_Italic, 
+    Urbanist_200ExtraLight_Italic, 
+    Urbanist_300Light_Italic, 
+    Urbanist_400Regular_Italic, 
+    Urbanist_500Medium_Italic, 
+    Urbanist_600SemiBold_Italic, 
+    Urbanist_700Bold_Italic, 
+    Urbanist_800ExtraBold_Italic, 
+    Urbanist_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_100Thin"
+        }}>
           Urbanist Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_200ExtraLight"
+        }}>
           Urbanist Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_300Light"
+        }}>
           Urbanist Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_400Regular"
+        }}>
           Urbanist Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_500Medium"
+        }}>
           Urbanist Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_600SemiBold"
+        }}>
           Urbanist Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_700Bold"
+        }}>
           Urbanist Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_800ExtraBold"
+        }}>
           Urbanist Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_900Black"
+        }}>
           Urbanist Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_100Thin_Italic"
+        }}>
           Urbanist Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_200ExtraLight_Italic"
+        }}>
           Urbanist Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_300Light_Italic"
+        }}>
           Urbanist Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_400Regular_Italic"
+        }}>
           Urbanist Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_500Medium_Italic"
+        }}>
           Urbanist Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_600SemiBold_Italic"
+        }}>
           Urbanist Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_700Bold_Italic"
+        }}>
           Urbanist Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_800ExtraBold_Italic"
+        }}>
           Urbanist Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Urbanist_900Black_Italic"
+        }}>
           Urbanist Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

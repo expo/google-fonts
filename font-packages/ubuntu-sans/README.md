@@ -33,54 +33,39 @@ This font family contains [16 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/ubuntu-sans expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  UbuntuSans_100Thin,
-  UbuntuSans_200ExtraLight,
-  UbuntuSans_300Light,
-  UbuntuSans_400Regular,
-  UbuntuSans_500Medium,
-  UbuntuSans_600SemiBold,
-  UbuntuSans_700Bold,
-  UbuntuSans_800ExtraBold,
-  UbuntuSans_100Thin_Italic,
-  UbuntuSans_200ExtraLight_Italic,
-  UbuntuSans_300Light_Italic,
-  UbuntuSans_400Regular_Italic,
-  UbuntuSans_500Medium_Italic,
-  UbuntuSans_600SemiBold_Italic,
-  UbuntuSans_700Bold_Italic,
-  UbuntuSans_800ExtraBold_Italic,
-} from '@expo-google-fonts/ubuntu-sans';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, UbuntuSans_100Thin, UbuntuSans_200ExtraLight, UbuntuSans_300Light, UbuntuSans_400Regular, UbuntuSans_500Medium, UbuntuSans_600SemiBold, UbuntuSans_700Bold, UbuntuSans_800ExtraBold, UbuntuSans_100Thin_Italic, UbuntuSans_200ExtraLight_Italic, UbuntuSans_300Light_Italic, UbuntuSans_400Regular_Italic, UbuntuSans_500Medium_Italic, UbuntuSans_600SemiBold_Italic, UbuntuSans_700Bold_Italic, UbuntuSans_800ExtraBold_Italic } from '@expo-google-fonts/ubuntu-sans';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    UbuntuSans_100Thin,
-    UbuntuSans_200ExtraLight,
-    UbuntuSans_300Light,
-    UbuntuSans_400Regular,
-    UbuntuSans_500Medium,
-    UbuntuSans_600SemiBold,
-    UbuntuSans_700Bold,
-    UbuntuSans_800ExtraBold,
-    UbuntuSans_100Thin_Italic,
-    UbuntuSans_200ExtraLight_Italic,
-    UbuntuSans_300Light_Italic,
-    UbuntuSans_400Regular_Italic,
-    UbuntuSans_500Medium_Italic,
-    UbuntuSans_600SemiBold_Italic,
-    UbuntuSans_700Bold_Italic,
-    UbuntuSans_800ExtraBold_Italic,
+    UbuntuSans_100Thin, 
+    UbuntuSans_200ExtraLight, 
+    UbuntuSans_300Light, 
+    UbuntuSans_400Regular, 
+    UbuntuSans_500Medium, 
+    UbuntuSans_600SemiBold, 
+    UbuntuSans_700Bold, 
+    UbuntuSans_800ExtraBold, 
+    UbuntuSans_100Thin_Italic, 
+    UbuntuSans_200ExtraLight_Italic, 
+    UbuntuSans_300Light_Italic, 
+    UbuntuSans_400Regular_Italic, 
+    UbuntuSans_500Medium_Italic, 
+    UbuntuSans_600SemiBold_Italic, 
+    UbuntuSans_700Bold_Italic, 
+    UbuntuSans_800ExtraBold_Italic
   });
 
   let fontSize = 24;
@@ -90,171 +75,139 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "UbuntuSans_100Thin"
+        }}>
           Ubuntu Sans Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "UbuntuSans_200ExtraLight"
+        }}>
           Ubuntu Sans Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "UbuntuSans_300Light"
+        }}>
           Ubuntu Sans Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "UbuntuSans_400Regular"
+        }}>
           Ubuntu Sans Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "UbuntuSans_500Medium"
+        }}>
           Ubuntu Sans Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "UbuntuSans_600SemiBold"
+        }}>
           Ubuntu Sans Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "UbuntuSans_700Bold"
+        }}>
           Ubuntu Sans Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "UbuntuSans_800ExtraBold"
+        }}>
           Ubuntu Sans Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "UbuntuSans_100Thin_Italic"
+        }}>
           Ubuntu Sans Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "UbuntuSans_200ExtraLight_Italic"
+        }}>
           Ubuntu Sans Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "UbuntuSans_300Light_Italic"
+        }}>
           Ubuntu Sans Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "UbuntuSans_400Regular_Italic"
+        }}>
           Ubuntu Sans Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "UbuntuSans_500Medium_Italic"
+        }}>
           Ubuntu Sans Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "UbuntuSans_600SemiBold_Italic"
+        }}>
           Ubuntu Sans Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "UbuntuSans_700Bold_Italic"
+        }}>
           Ubuntu Sans Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "UbuntuSans_800ExtraBold_Italic"
+        }}>
           Ubuntu Sans Extra Bold Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -274,10 +227,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

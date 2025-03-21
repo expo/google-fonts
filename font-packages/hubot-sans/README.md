@@ -33,54 +33,39 @@ This font family contains [16 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/hubot-sans expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  HubotSans_200ExtraLight,
-  HubotSans_300Light,
-  HubotSans_400Regular,
-  HubotSans_500Medium,
-  HubotSans_600SemiBold,
-  HubotSans_700Bold,
-  HubotSans_800ExtraBold,
-  HubotSans_900Black,
-  HubotSans_200ExtraLight_Italic,
-  HubotSans_300Light_Italic,
-  HubotSans_400Regular_Italic,
-  HubotSans_500Medium_Italic,
-  HubotSans_600SemiBold_Italic,
-  HubotSans_700Bold_Italic,
-  HubotSans_800ExtraBold_Italic,
-  HubotSans_900Black_Italic,
-} from '@expo-google-fonts/hubot-sans';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, HubotSans_200ExtraLight, HubotSans_300Light, HubotSans_400Regular, HubotSans_500Medium, HubotSans_600SemiBold, HubotSans_700Bold, HubotSans_800ExtraBold, HubotSans_900Black, HubotSans_200ExtraLight_Italic, HubotSans_300Light_Italic, HubotSans_400Regular_Italic, HubotSans_500Medium_Italic, HubotSans_600SemiBold_Italic, HubotSans_700Bold_Italic, HubotSans_800ExtraBold_Italic, HubotSans_900Black_Italic } from '@expo-google-fonts/hubot-sans';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    HubotSans_200ExtraLight,
-    HubotSans_300Light,
-    HubotSans_400Regular,
-    HubotSans_500Medium,
-    HubotSans_600SemiBold,
-    HubotSans_700Bold,
-    HubotSans_800ExtraBold,
-    HubotSans_900Black,
-    HubotSans_200ExtraLight_Italic,
-    HubotSans_300Light_Italic,
-    HubotSans_400Regular_Italic,
-    HubotSans_500Medium_Italic,
-    HubotSans_600SemiBold_Italic,
-    HubotSans_700Bold_Italic,
-    HubotSans_800ExtraBold_Italic,
-    HubotSans_900Black_Italic,
+    HubotSans_200ExtraLight, 
+    HubotSans_300Light, 
+    HubotSans_400Regular, 
+    HubotSans_500Medium, 
+    HubotSans_600SemiBold, 
+    HubotSans_700Bold, 
+    HubotSans_800ExtraBold, 
+    HubotSans_900Black, 
+    HubotSans_200ExtraLight_Italic, 
+    HubotSans_300Light_Italic, 
+    HubotSans_400Regular_Italic, 
+    HubotSans_500Medium_Italic, 
+    HubotSans_600SemiBold_Italic, 
+    HubotSans_700Bold_Italic, 
+    HubotSans_800ExtraBold_Italic, 
+    HubotSans_900Black_Italic
   });
 
   let fontSize = 24;
@@ -90,171 +75,139 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_200ExtraLight',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HubotSans_200ExtraLight"
+        }}>
           Hubot Sans Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HubotSans_300Light"
+        }}>
           Hubot Sans Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HubotSans_400Regular"
+        }}>
           Hubot Sans Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HubotSans_500Medium"
+        }}>
           Hubot Sans Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HubotSans_600SemiBold"
+        }}>
           Hubot Sans Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HubotSans_700Bold"
+        }}>
           Hubot Sans Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HubotSans_800ExtraBold"
+        }}>
           Hubot Sans Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HubotSans_900Black"
+        }}>
           Hubot Sans Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HubotSans_200ExtraLight_Italic"
+        }}>
           Hubot Sans Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HubotSans_300Light_Italic"
+        }}>
           Hubot Sans Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HubotSans_400Regular_Italic"
+        }}>
           Hubot Sans Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HubotSans_500Medium_Italic"
+        }}>
           Hubot Sans Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HubotSans_600SemiBold_Italic"
+        }}>
           Hubot Sans Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HubotSans_700Bold_Italic"
+        }}>
           Hubot Sans Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HubotSans_800ExtraBold_Italic"
+        }}>
           Hubot Sans Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HubotSans_900Black_Italic"
+        }}>
           Hubot Sans Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -274,10 +227,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

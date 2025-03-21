@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/roboto-serif expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  RobotoSerif_100Thin,
-  RobotoSerif_200ExtraLight,
-  RobotoSerif_300Light,
-  RobotoSerif_400Regular,
-  RobotoSerif_500Medium,
-  RobotoSerif_600SemiBold,
-  RobotoSerif_700Bold,
-  RobotoSerif_800ExtraBold,
-  RobotoSerif_900Black,
-  RobotoSerif_100Thin_Italic,
-  RobotoSerif_200ExtraLight_Italic,
-  RobotoSerif_300Light_Italic,
-  RobotoSerif_400Regular_Italic,
-  RobotoSerif_500Medium_Italic,
-  RobotoSerif_600SemiBold_Italic,
-  RobotoSerif_700Bold_Italic,
-  RobotoSerif_800ExtraBold_Italic,
-  RobotoSerif_900Black_Italic,
-} from '@expo-google-fonts/roboto-serif';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, RobotoSerif_100Thin, RobotoSerif_200ExtraLight, RobotoSerif_300Light, RobotoSerif_400Regular, RobotoSerif_500Medium, RobotoSerif_600SemiBold, RobotoSerif_700Bold, RobotoSerif_800ExtraBold, RobotoSerif_900Black, RobotoSerif_100Thin_Italic, RobotoSerif_200ExtraLight_Italic, RobotoSerif_300Light_Italic, RobotoSerif_400Regular_Italic, RobotoSerif_500Medium_Italic, RobotoSerif_600SemiBold_Italic, RobotoSerif_700Bold_Italic, RobotoSerif_800ExtraBold_Italic, RobotoSerif_900Black_Italic } from '@expo-google-fonts/roboto-serif';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    RobotoSerif_100Thin,
-    RobotoSerif_200ExtraLight,
-    RobotoSerif_300Light,
-    RobotoSerif_400Regular,
-    RobotoSerif_500Medium,
-    RobotoSerif_600SemiBold,
-    RobotoSerif_700Bold,
-    RobotoSerif_800ExtraBold,
-    RobotoSerif_900Black,
-    RobotoSerif_100Thin_Italic,
-    RobotoSerif_200ExtraLight_Italic,
-    RobotoSerif_300Light_Italic,
-    RobotoSerif_400Regular_Italic,
-    RobotoSerif_500Medium_Italic,
-    RobotoSerif_600SemiBold_Italic,
-    RobotoSerif_700Bold_Italic,
-    RobotoSerif_800ExtraBold_Italic,
-    RobotoSerif_900Black_Italic,
+    RobotoSerif_100Thin, 
+    RobotoSerif_200ExtraLight, 
+    RobotoSerif_300Light, 
+    RobotoSerif_400Regular, 
+    RobotoSerif_500Medium, 
+    RobotoSerif_600SemiBold, 
+    RobotoSerif_700Bold, 
+    RobotoSerif_800ExtraBold, 
+    RobotoSerif_900Black, 
+    RobotoSerif_100Thin_Italic, 
+    RobotoSerif_200ExtraLight_Italic, 
+    RobotoSerif_300Light_Italic, 
+    RobotoSerif_400Regular_Italic, 
+    RobotoSerif_500Medium_Italic, 
+    RobotoSerif_600SemiBold_Italic, 
+    RobotoSerif_700Bold_Italic, 
+    RobotoSerif_800ExtraBold_Italic, 
+    RobotoSerif_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_100Thin"
+        }}>
           Roboto Serif Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_200ExtraLight"
+        }}>
           Roboto Serif Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_300Light"
+        }}>
           Roboto Serif Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_400Regular"
+        }}>
           Roboto Serif Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_500Medium"
+        }}>
           Roboto Serif Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_600SemiBold"
+        }}>
           Roboto Serif Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_700Bold"
+        }}>
           Roboto Serif Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_800ExtraBold"
+        }}>
           Roboto Serif Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_900Black"
+        }}>
           Roboto Serif Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_100Thin_Italic"
+        }}>
           Roboto Serif Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_200ExtraLight_Italic"
+        }}>
           Roboto Serif Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_300Light_Italic"
+        }}>
           Roboto Serif Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_400Regular_Italic"
+        }}>
           Roboto Serif Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_500Medium_Italic"
+        }}>
           Roboto Serif Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_600SemiBold_Italic"
+        }}>
           Roboto Serif Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_700Bold_Italic"
+        }}>
           Roboto Serif Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_800ExtraBold_Italic"
+        }}>
           Roboto Serif Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RobotoSerif_900Black_Italic"
+        }}>
           Roboto Serif Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

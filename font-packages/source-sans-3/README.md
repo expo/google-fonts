@@ -33,54 +33,39 @@ This font family contains [16 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/source-sans-3 expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  SourceSans3_200ExtraLight,
-  SourceSans3_300Light,
-  SourceSans3_400Regular,
-  SourceSans3_500Medium,
-  SourceSans3_600SemiBold,
-  SourceSans3_700Bold,
-  SourceSans3_800ExtraBold,
-  SourceSans3_900Black,
-  SourceSans3_200ExtraLight_Italic,
-  SourceSans3_300Light_Italic,
-  SourceSans3_400Regular_Italic,
-  SourceSans3_500Medium_Italic,
-  SourceSans3_600SemiBold_Italic,
-  SourceSans3_700Bold_Italic,
-  SourceSans3_800ExtraBold_Italic,
-  SourceSans3_900Black_Italic,
-} from '@expo-google-fonts/source-sans-3';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, SourceSans3_200ExtraLight, SourceSans3_300Light, SourceSans3_400Regular, SourceSans3_500Medium, SourceSans3_600SemiBold, SourceSans3_700Bold, SourceSans3_800ExtraBold, SourceSans3_900Black, SourceSans3_200ExtraLight_Italic, SourceSans3_300Light_Italic, SourceSans3_400Regular_Italic, SourceSans3_500Medium_Italic, SourceSans3_600SemiBold_Italic, SourceSans3_700Bold_Italic, SourceSans3_800ExtraBold_Italic, SourceSans3_900Black_Italic } from '@expo-google-fonts/source-sans-3';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    SourceSans3_200ExtraLight,
-    SourceSans3_300Light,
-    SourceSans3_400Regular,
-    SourceSans3_500Medium,
-    SourceSans3_600SemiBold,
-    SourceSans3_700Bold,
-    SourceSans3_800ExtraBold,
-    SourceSans3_900Black,
-    SourceSans3_200ExtraLight_Italic,
-    SourceSans3_300Light_Italic,
-    SourceSans3_400Regular_Italic,
-    SourceSans3_500Medium_Italic,
-    SourceSans3_600SemiBold_Italic,
-    SourceSans3_700Bold_Italic,
-    SourceSans3_800ExtraBold_Italic,
-    SourceSans3_900Black_Italic,
+    SourceSans3_200ExtraLight, 
+    SourceSans3_300Light, 
+    SourceSans3_400Regular, 
+    SourceSans3_500Medium, 
+    SourceSans3_600SemiBold, 
+    SourceSans3_700Bold, 
+    SourceSans3_800ExtraBold, 
+    SourceSans3_900Black, 
+    SourceSans3_200ExtraLight_Italic, 
+    SourceSans3_300Light_Italic, 
+    SourceSans3_400Regular_Italic, 
+    SourceSans3_500Medium_Italic, 
+    SourceSans3_600SemiBold_Italic, 
+    SourceSans3_700Bold_Italic, 
+    SourceSans3_800ExtraBold_Italic, 
+    SourceSans3_900Black_Italic
   });
 
   let fontSize = 24;
@@ -90,171 +75,139 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_200ExtraLight',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSans3_200ExtraLight"
+        }}>
           Source Sans 3 Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSans3_300Light"
+        }}>
           Source Sans 3 Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSans3_400Regular"
+        }}>
           Source Sans 3 Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSans3_500Medium"
+        }}>
           Source Sans 3 Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSans3_600SemiBold"
+        }}>
           Source Sans 3 Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSans3_700Bold"
+        }}>
           Source Sans 3 Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSans3_800ExtraBold"
+        }}>
           Source Sans 3 Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSans3_900Black"
+        }}>
           Source Sans 3 Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSans3_200ExtraLight_Italic"
+        }}>
           Source Sans 3 Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSans3_300Light_Italic"
+        }}>
           Source Sans 3 Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSans3_400Regular_Italic"
+        }}>
           Source Sans 3 Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSans3_500Medium_Italic"
+        }}>
           Source Sans 3 Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSans3_600SemiBold_Italic"
+        }}>
           Source Sans 3 Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSans3_700Bold_Italic"
+        }}>
           Source Sans 3 Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSans3_800ExtraBold_Italic"
+        }}>
           Source Sans 3 Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSans3_900Black_Italic"
+        }}>
           Source Sans 3 Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -274,10 +227,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

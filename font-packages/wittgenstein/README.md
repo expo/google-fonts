@@ -29,46 +29,35 @@ This font family contains [12 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/wittgenstein expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Wittgenstein_400Regular,
-  Wittgenstein_500Medium,
-  Wittgenstein_600SemiBold,
-  Wittgenstein_700Bold,
-  Wittgenstein_800ExtraBold,
-  Wittgenstein_900Black,
-  Wittgenstein_400Regular_Italic,
-  Wittgenstein_500Medium_Italic,
-  Wittgenstein_600SemiBold_Italic,
-  Wittgenstein_700Bold_Italic,
-  Wittgenstein_800ExtraBold_Italic,
-  Wittgenstein_900Black_Italic,
-} from '@expo-google-fonts/wittgenstein';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Wittgenstein_400Regular, Wittgenstein_500Medium, Wittgenstein_600SemiBold, Wittgenstein_700Bold, Wittgenstein_800ExtraBold, Wittgenstein_900Black, Wittgenstein_400Regular_Italic, Wittgenstein_500Medium_Italic, Wittgenstein_600SemiBold_Italic, Wittgenstein_700Bold_Italic, Wittgenstein_800ExtraBold_Italic, Wittgenstein_900Black_Italic } from '@expo-google-fonts/wittgenstein';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Wittgenstein_400Regular,
-    Wittgenstein_500Medium,
-    Wittgenstein_600SemiBold,
-    Wittgenstein_700Bold,
-    Wittgenstein_800ExtraBold,
-    Wittgenstein_900Black,
-    Wittgenstein_400Regular_Italic,
-    Wittgenstein_500Medium_Italic,
-    Wittgenstein_600SemiBold_Italic,
-    Wittgenstein_700Bold_Italic,
-    Wittgenstein_800ExtraBold_Italic,
-    Wittgenstein_900Black_Italic,
+    Wittgenstein_400Regular, 
+    Wittgenstein_500Medium, 
+    Wittgenstein_600SemiBold, 
+    Wittgenstein_700Bold, 
+    Wittgenstein_800ExtraBold, 
+    Wittgenstein_900Black, 
+    Wittgenstein_400Regular_Italic, 
+    Wittgenstein_500Medium_Italic, 
+    Wittgenstein_600SemiBold_Italic, 
+    Wittgenstein_700Bold_Italic, 
+    Wittgenstein_800ExtraBold_Italic, 
+    Wittgenstein_900Black_Italic
   });
 
   let fontSize = 24;
@@ -78,131 +67,107 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_400Regular',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Wittgenstein_400Regular"
+        }}>
           Wittgenstein Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Wittgenstein_500Medium"
+        }}>
           Wittgenstein Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Wittgenstein_600SemiBold"
+        }}>
           Wittgenstein Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Wittgenstein_700Bold"
+        }}>
           Wittgenstein Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Wittgenstein_800ExtraBold"
+        }}>
           Wittgenstein Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Wittgenstein_900Black"
+        }}>
           Wittgenstein Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Wittgenstein_400Regular_Italic"
+        }}>
           Wittgenstein Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Wittgenstein_500Medium_Italic"
+        }}>
           Wittgenstein Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Wittgenstein_600SemiBold_Italic"
+        }}>
           Wittgenstein Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Wittgenstein_700Bold_Italic"
+        }}>
           Wittgenstein Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Wittgenstein_800ExtraBold_Italic"
+        }}>
           Wittgenstein Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Wittgenstein_900Black_Italic"
+        }}>
           Wittgenstein Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -220,10 +185,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

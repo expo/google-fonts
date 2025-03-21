@@ -25,38 +25,31 @@ This font family contains [8 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/playpen-sans expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  PlaypenSans_100Thin,
-  PlaypenSans_200ExtraLight,
-  PlaypenSans_300Light,
-  PlaypenSans_400Regular,
-  PlaypenSans_500Medium,
-  PlaypenSans_600SemiBold,
-  PlaypenSans_700Bold,
-  PlaypenSans_800ExtraBold,
-} from '@expo-google-fonts/playpen-sans';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, PlaypenSans_100Thin, PlaypenSans_200ExtraLight, PlaypenSans_300Light, PlaypenSans_400Regular, PlaypenSans_500Medium, PlaypenSans_600SemiBold, PlaypenSans_700Bold, PlaypenSans_800ExtraBold } from '@expo-google-fonts/playpen-sans';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    PlaypenSans_100Thin,
-    PlaypenSans_200ExtraLight,
-    PlaypenSans_300Light,
-    PlaypenSans_400Regular,
-    PlaypenSans_500Medium,
-    PlaypenSans_600SemiBold,
-    PlaypenSans_700Bold,
-    PlaypenSans_800ExtraBold,
+    PlaypenSans_100Thin, 
+    PlaypenSans_200ExtraLight, 
+    PlaypenSans_300Light, 
+    PlaypenSans_400Regular, 
+    PlaypenSans_500Medium, 
+    PlaypenSans_600SemiBold, 
+    PlaypenSans_700Bold, 
+    PlaypenSans_800ExtraBold
   });
 
   let fontSize = 24;
@@ -66,91 +59,75 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaypenSans_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PlaypenSans_100Thin"
+        }}>
           Playpen Sans Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaypenSans_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PlaypenSans_200ExtraLight"
+        }}>
           Playpen Sans Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaypenSans_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PlaypenSans_300Light"
+        }}>
           Playpen Sans Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaypenSans_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PlaypenSans_400Regular"
+        }}>
           Playpen Sans Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaypenSans_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PlaypenSans_500Medium"
+        }}>
           Playpen Sans Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaypenSans_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PlaypenSans_600SemiBold"
+        }}>
           Playpen Sans Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaypenSans_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PlaypenSans_700Bold"
+        }}>
           Playpen Sans Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaypenSans_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PlaypenSans_800ExtraBold"
+        }}>
           Playpen Sans Extra Bold
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -167,10 +144,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

@@ -33,54 +33,39 @@ This font family contains [16 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/lisu-bosa expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  LisuBosa_200ExtraLight,
-  LisuBosa_200ExtraLight_Italic,
-  LisuBosa_300Light,
-  LisuBosa_300Light_Italic,
-  LisuBosa_400Regular,
-  LisuBosa_400Regular_Italic,
-  LisuBosa_500Medium,
-  LisuBosa_500Medium_Italic,
-  LisuBosa_600SemiBold,
-  LisuBosa_600SemiBold_Italic,
-  LisuBosa_700Bold,
-  LisuBosa_700Bold_Italic,
-  LisuBosa_800ExtraBold,
-  LisuBosa_800ExtraBold_Italic,
-  LisuBosa_900Black,
-  LisuBosa_900Black_Italic,
-} from '@expo-google-fonts/lisu-bosa';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, LisuBosa_200ExtraLight, LisuBosa_200ExtraLight_Italic, LisuBosa_300Light, LisuBosa_300Light_Italic, LisuBosa_400Regular, LisuBosa_400Regular_Italic, LisuBosa_500Medium, LisuBosa_500Medium_Italic, LisuBosa_600SemiBold, LisuBosa_600SemiBold_Italic, LisuBosa_700Bold, LisuBosa_700Bold_Italic, LisuBosa_800ExtraBold, LisuBosa_800ExtraBold_Italic, LisuBosa_900Black, LisuBosa_900Black_Italic } from '@expo-google-fonts/lisu-bosa';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    LisuBosa_200ExtraLight,
-    LisuBosa_200ExtraLight_Italic,
-    LisuBosa_300Light,
-    LisuBosa_300Light_Italic,
-    LisuBosa_400Regular,
-    LisuBosa_400Regular_Italic,
-    LisuBosa_500Medium,
-    LisuBosa_500Medium_Italic,
-    LisuBosa_600SemiBold,
-    LisuBosa_600SemiBold_Italic,
-    LisuBosa_700Bold,
-    LisuBosa_700Bold_Italic,
-    LisuBosa_800ExtraBold,
-    LisuBosa_800ExtraBold_Italic,
-    LisuBosa_900Black,
-    LisuBosa_900Black_Italic,
+    LisuBosa_200ExtraLight, 
+    LisuBosa_200ExtraLight_Italic, 
+    LisuBosa_300Light, 
+    LisuBosa_300Light_Italic, 
+    LisuBosa_400Regular, 
+    LisuBosa_400Regular_Italic, 
+    LisuBosa_500Medium, 
+    LisuBosa_500Medium_Italic, 
+    LisuBosa_600SemiBold, 
+    LisuBosa_600SemiBold_Italic, 
+    LisuBosa_700Bold, 
+    LisuBosa_700Bold_Italic, 
+    LisuBosa_800ExtraBold, 
+    LisuBosa_800ExtraBold_Italic, 
+    LisuBosa_900Black, 
+    LisuBosa_900Black_Italic
   });
 
   let fontSize = 24;
@@ -90,171 +75,139 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_200ExtraLight',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LisuBosa_200ExtraLight"
+        }}>
           Lisu Bosa Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LisuBosa_200ExtraLight_Italic"
+        }}>
           Lisu Bosa Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LisuBosa_300Light"
+        }}>
           Lisu Bosa Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LisuBosa_300Light_Italic"
+        }}>
           Lisu Bosa Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LisuBosa_400Regular"
+        }}>
           Lisu Bosa Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LisuBosa_400Regular_Italic"
+        }}>
           Lisu Bosa Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LisuBosa_500Medium"
+        }}>
           Lisu Bosa Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LisuBosa_500Medium_Italic"
+        }}>
           Lisu Bosa Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LisuBosa_600SemiBold"
+        }}>
           Lisu Bosa Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LisuBosa_600SemiBold_Italic"
+        }}>
           Lisu Bosa Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LisuBosa_700Bold"
+        }}>
           Lisu Bosa Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LisuBosa_700Bold_Italic"
+        }}>
           Lisu Bosa Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LisuBosa_800ExtraBold"
+        }}>
           Lisu Bosa Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LisuBosa_800ExtraBold_Italic"
+        }}>
           Lisu Bosa Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LisuBosa_900Black"
+        }}>
           Lisu Bosa Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LisuBosa_900Black_Italic"
+        }}>
           Lisu Bosa Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -274,10 +227,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

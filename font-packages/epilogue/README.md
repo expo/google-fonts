@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/epilogue expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Epilogue_100Thin,
-  Epilogue_200ExtraLight,
-  Epilogue_300Light,
-  Epilogue_400Regular,
-  Epilogue_500Medium,
-  Epilogue_600SemiBold,
-  Epilogue_700Bold,
-  Epilogue_800ExtraBold,
-  Epilogue_900Black,
-  Epilogue_100Thin_Italic,
-  Epilogue_200ExtraLight_Italic,
-  Epilogue_300Light_Italic,
-  Epilogue_400Regular_Italic,
-  Epilogue_500Medium_Italic,
-  Epilogue_600SemiBold_Italic,
-  Epilogue_700Bold_Italic,
-  Epilogue_800ExtraBold_Italic,
-  Epilogue_900Black_Italic,
-} from '@expo-google-fonts/epilogue';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Epilogue_100Thin, Epilogue_200ExtraLight, Epilogue_300Light, Epilogue_400Regular, Epilogue_500Medium, Epilogue_600SemiBold, Epilogue_700Bold, Epilogue_800ExtraBold, Epilogue_900Black, Epilogue_100Thin_Italic, Epilogue_200ExtraLight_Italic, Epilogue_300Light_Italic, Epilogue_400Regular_Italic, Epilogue_500Medium_Italic, Epilogue_600SemiBold_Italic, Epilogue_700Bold_Italic, Epilogue_800ExtraBold_Italic, Epilogue_900Black_Italic } from '@expo-google-fonts/epilogue';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Epilogue_100Thin,
-    Epilogue_200ExtraLight,
-    Epilogue_300Light,
-    Epilogue_400Regular,
-    Epilogue_500Medium,
-    Epilogue_600SemiBold,
-    Epilogue_700Bold,
-    Epilogue_800ExtraBold,
-    Epilogue_900Black,
-    Epilogue_100Thin_Italic,
-    Epilogue_200ExtraLight_Italic,
-    Epilogue_300Light_Italic,
-    Epilogue_400Regular_Italic,
-    Epilogue_500Medium_Italic,
-    Epilogue_600SemiBold_Italic,
-    Epilogue_700Bold_Italic,
-    Epilogue_800ExtraBold_Italic,
-    Epilogue_900Black_Italic,
+    Epilogue_100Thin, 
+    Epilogue_200ExtraLight, 
+    Epilogue_300Light, 
+    Epilogue_400Regular, 
+    Epilogue_500Medium, 
+    Epilogue_600SemiBold, 
+    Epilogue_700Bold, 
+    Epilogue_800ExtraBold, 
+    Epilogue_900Black, 
+    Epilogue_100Thin_Italic, 
+    Epilogue_200ExtraLight_Italic, 
+    Epilogue_300Light_Italic, 
+    Epilogue_400Regular_Italic, 
+    Epilogue_500Medium_Italic, 
+    Epilogue_600SemiBold_Italic, 
+    Epilogue_700Bold_Italic, 
+    Epilogue_800ExtraBold_Italic, 
+    Epilogue_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_100Thin"
+        }}>
           Epilogue Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_200ExtraLight"
+        }}>
           Epilogue Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_300Light"
+        }}>
           Epilogue Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_400Regular"
+        }}>
           Epilogue Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_500Medium"
+        }}>
           Epilogue Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_600SemiBold"
+        }}>
           Epilogue Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_700Bold"
+        }}>
           Epilogue Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_800ExtraBold"
+        }}>
           Epilogue Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_900Black"
+        }}>
           Epilogue Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_100Thin_Italic"
+        }}>
           Epilogue Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_200ExtraLight_Italic"
+        }}>
           Epilogue Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_300Light_Italic"
+        }}>
           Epilogue Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_400Regular_Italic"
+        }}>
           Epilogue Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_500Medium_Italic"
+        }}>
           Epilogue Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_600SemiBold_Italic"
+        }}>
           Epilogue Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_700Bold_Italic"
+        }}>
           Epilogue Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_800ExtraBold_Italic"
+        }}>
           Epilogue Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Epilogue_900Black_Italic"
+        }}>
           Epilogue Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

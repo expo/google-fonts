@@ -24,36 +24,30 @@ This font family contains [7 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
 npx expo install @expo-google-fonts/m-plus-rounded-1c expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  MPLUSRounded1c_100Thin,
-  MPLUSRounded1c_300Light,
-  MPLUSRounded1c_400Regular,
-  MPLUSRounded1c_500Medium,
-  MPLUSRounded1c_700Bold,
-  MPLUSRounded1c_800ExtraBold,
-  MPLUSRounded1c_900Black,
-} from '@expo-google-fonts/m-plus-rounded-1c';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, MPLUSRounded1c_100Thin, MPLUSRounded1c_300Light, MPLUSRounded1c_400Regular, MPLUSRounded1c_500Medium, MPLUSRounded1c_700Bold, MPLUSRounded1c_800ExtraBold, MPLUSRounded1c_900Black } from '@expo-google-fonts/m-plus-rounded-1c';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    MPLUSRounded1c_100Thin,
-    MPLUSRounded1c_300Light,
-    MPLUSRounded1c_400Regular,
-    MPLUSRounded1c_500Medium,
-    MPLUSRounded1c_700Bold,
-    MPLUSRounded1c_800ExtraBold,
-    MPLUSRounded1c_900Black,
+    MPLUSRounded1c_100Thin, 
+    MPLUSRounded1c_300Light, 
+    MPLUSRounded1c_400Regular, 
+    MPLUSRounded1c_500Medium, 
+    MPLUSRounded1c_700Bold, 
+    MPLUSRounded1c_800ExtraBold, 
+    MPLUSRounded1c_900Black
   });
 
   let fontSize = 24;
@@ -63,81 +57,67 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSRounded1c_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MPLUSRounded1c_100Thin"
+        }}>
           M PLUS Rounded 1c Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSRounded1c_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MPLUSRounded1c_300Light"
+        }}>
           M PLUS Rounded 1c Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSRounded1c_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MPLUSRounded1c_400Regular"
+        }}>
           M PLUS Rounded 1c Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSRounded1c_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MPLUSRounded1c_500Medium"
+        }}>
           M PLUS Rounded 1c Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSRounded1c_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MPLUSRounded1c_700Bold"
+        }}>
           M PLUS Rounded 1c Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSRounded1c_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MPLUSRounded1c_800ExtraBold"
+        }}>
           M PLUS Rounded 1c Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSRounded1c_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MPLUSRounded1c_900Black"
+        }}>
           M PLUS Rounded 1c Black
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -154,10 +134,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 
