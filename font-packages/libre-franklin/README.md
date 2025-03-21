@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/libre-franklin expo-font expo-app-loading
+npx expo install @expo-google-fonts/libre-franklin expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  LibreFranklin_100Thin,
-  LibreFranklin_200ExtraLight,
-  LibreFranklin_300Light,
-  LibreFranklin_400Regular,
-  LibreFranklin_500Medium,
-  LibreFranklin_600SemiBold,
-  LibreFranklin_700Bold,
-  LibreFranklin_800ExtraBold,
-  LibreFranklin_900Black,
-  LibreFranklin_100Thin_Italic,
-  LibreFranklin_200ExtraLight_Italic,
-  LibreFranklin_300Light_Italic,
-  LibreFranklin_400Regular_Italic,
-  LibreFranklin_500Medium_Italic,
-  LibreFranklin_600SemiBold_Italic,
-  LibreFranklin_700Bold_Italic,
-  LibreFranklin_800ExtraBold_Italic,
-  LibreFranklin_900Black_Italic,
-} from '@expo-google-fonts/libre-franklin';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, LibreFranklin_100Thin, LibreFranklin_200ExtraLight, LibreFranklin_300Light, LibreFranklin_400Regular, LibreFranklin_500Medium, LibreFranklin_600SemiBold, LibreFranklin_700Bold, LibreFranklin_800ExtraBold, LibreFranklin_900Black, LibreFranklin_100Thin_Italic, LibreFranklin_200ExtraLight_Italic, LibreFranklin_300Light_Italic, LibreFranklin_400Regular_Italic, LibreFranklin_500Medium_Italic, LibreFranklin_600SemiBold_Italic, LibreFranklin_700Bold_Italic, LibreFranklin_800ExtraBold_Italic, LibreFranklin_900Black_Italic } from '@expo-google-fonts/libre-franklin';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    LibreFranklin_100Thin,
-    LibreFranklin_200ExtraLight,
-    LibreFranklin_300Light,
-    LibreFranklin_400Regular,
-    LibreFranklin_500Medium,
-    LibreFranklin_600SemiBold,
-    LibreFranklin_700Bold,
-    LibreFranklin_800ExtraBold,
-    LibreFranklin_900Black,
-    LibreFranklin_100Thin_Italic,
-    LibreFranklin_200ExtraLight_Italic,
-    LibreFranklin_300Light_Italic,
-    LibreFranklin_400Regular_Italic,
-    LibreFranklin_500Medium_Italic,
-    LibreFranklin_600SemiBold_Italic,
-    LibreFranklin_700Bold_Italic,
-    LibreFranklin_800ExtraBold_Italic,
-    LibreFranklin_900Black_Italic,
+    LibreFranklin_100Thin, 
+    LibreFranklin_200ExtraLight, 
+    LibreFranklin_300Light, 
+    LibreFranklin_400Regular, 
+    LibreFranklin_500Medium, 
+    LibreFranklin_600SemiBold, 
+    LibreFranklin_700Bold, 
+    LibreFranklin_800ExtraBold, 
+    LibreFranklin_900Black, 
+    LibreFranklin_100Thin_Italic, 
+    LibreFranklin_200ExtraLight_Italic, 
+    LibreFranklin_300Light_Italic, 
+    LibreFranklin_400Regular_Italic, 
+    LibreFranklin_500Medium_Italic, 
+    LibreFranklin_600SemiBold_Italic, 
+    LibreFranklin_700Bold_Italic, 
+    LibreFranklin_800ExtraBold_Italic, 
+    LibreFranklin_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_100Thin"
+        }}>
           Libre Franklin Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_200ExtraLight"
+        }}>
           Libre Franklin Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_300Light"
+        }}>
           Libre Franklin Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_400Regular"
+        }}>
           Libre Franklin Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_500Medium"
+        }}>
           Libre Franklin Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_600SemiBold"
+        }}>
           Libre Franklin Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_700Bold"
+        }}>
           Libre Franklin Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_800ExtraBold"
+        }}>
           Libre Franklin Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_900Black"
+        }}>
           Libre Franklin Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_100Thin_Italic"
+        }}>
           Libre Franklin Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_200ExtraLight_Italic"
+        }}>
           Libre Franklin Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_300Light_Italic"
+        }}>
           Libre Franklin Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_400Regular_Italic"
+        }}>
           Libre Franklin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_500Medium_Italic"
+        }}>
           Libre Franklin Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_600SemiBold_Italic"
+        }}>
           Libre Franklin Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_700Bold_Italic"
+        }}>
           Libre Franklin Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_800ExtraBold_Italic"
+        }}>
           Libre Franklin Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreFranklin_900Black_Italic"
+        }}>
           Libre Franklin Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

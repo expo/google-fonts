@@ -29,46 +29,35 @@ This font family contains [12 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/kodchasan expo-font expo-app-loading
+npx expo install @expo-google-fonts/kodchasan expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Kodchasan_200ExtraLight,
-  Kodchasan_200ExtraLight_Italic,
-  Kodchasan_300Light,
-  Kodchasan_300Light_Italic,
-  Kodchasan_400Regular,
-  Kodchasan_400Regular_Italic,
-  Kodchasan_500Medium,
-  Kodchasan_500Medium_Italic,
-  Kodchasan_600SemiBold,
-  Kodchasan_600SemiBold_Italic,
-  Kodchasan_700Bold,
-  Kodchasan_700Bold_Italic,
-} from '@expo-google-fonts/kodchasan';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Kodchasan_200ExtraLight, Kodchasan_200ExtraLight_Italic, Kodchasan_300Light, Kodchasan_300Light_Italic, Kodchasan_400Regular, Kodchasan_400Regular_Italic, Kodchasan_500Medium, Kodchasan_500Medium_Italic, Kodchasan_600SemiBold, Kodchasan_600SemiBold_Italic, Kodchasan_700Bold, Kodchasan_700Bold_Italic } from '@expo-google-fonts/kodchasan';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Kodchasan_200ExtraLight,
-    Kodchasan_200ExtraLight_Italic,
-    Kodchasan_300Light,
-    Kodchasan_300Light_Italic,
-    Kodchasan_400Regular,
-    Kodchasan_400Regular_Italic,
-    Kodchasan_500Medium,
-    Kodchasan_500Medium_Italic,
-    Kodchasan_600SemiBold,
-    Kodchasan_600SemiBold_Italic,
-    Kodchasan_700Bold,
-    Kodchasan_700Bold_Italic,
+    Kodchasan_200ExtraLight, 
+    Kodchasan_200ExtraLight_Italic, 
+    Kodchasan_300Light, 
+    Kodchasan_300Light_Italic, 
+    Kodchasan_400Regular, 
+    Kodchasan_400Regular_Italic, 
+    Kodchasan_500Medium, 
+    Kodchasan_500Medium_Italic, 
+    Kodchasan_600SemiBold, 
+    Kodchasan_600SemiBold_Italic, 
+    Kodchasan_700Bold, 
+    Kodchasan_700Bold_Italic
   });
 
   let fontSize = 24;
@@ -78,131 +67,107 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_200ExtraLight',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Kodchasan_200ExtraLight"
+        }}>
           Kodchasan Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Kodchasan_200ExtraLight_Italic"
+        }}>
           Kodchasan Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Kodchasan_300Light"
+        }}>
           Kodchasan Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Kodchasan_300Light_Italic"
+        }}>
           Kodchasan Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Kodchasan_400Regular"
+        }}>
           Kodchasan Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Kodchasan_400Regular_Italic"
+        }}>
           Kodchasan Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Kodchasan_500Medium"
+        }}>
           Kodchasan Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Kodchasan_500Medium_Italic"
+        }}>
           Kodchasan Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Kodchasan_600SemiBold"
+        }}>
           Kodchasan Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Kodchasan_600SemiBold_Italic"
+        }}>
           Kodchasan Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Kodchasan_700Bold"
+        }}>
           Kodchasan Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Kodchasan_700Bold_Italic"
+        }}>
           Kodchasan Bold Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -220,10 +185,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

@@ -33,54 +33,39 @@ This font family contains [16 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/jetbrains-mono expo-font expo-app-loading
+npx expo install @expo-google-fonts/jetbrains-mono expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  JetBrainsMono_100Thin,
-  JetBrainsMono_200ExtraLight,
-  JetBrainsMono_300Light,
-  JetBrainsMono_400Regular,
-  JetBrainsMono_500Medium,
-  JetBrainsMono_600SemiBold,
-  JetBrainsMono_700Bold,
-  JetBrainsMono_800ExtraBold,
-  JetBrainsMono_100Thin_Italic,
-  JetBrainsMono_200ExtraLight_Italic,
-  JetBrainsMono_300Light_Italic,
-  JetBrainsMono_400Regular_Italic,
-  JetBrainsMono_500Medium_Italic,
-  JetBrainsMono_600SemiBold_Italic,
-  JetBrainsMono_700Bold_Italic,
-  JetBrainsMono_800ExtraBold_Italic,
-} from '@expo-google-fonts/jetbrains-mono';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, JetBrainsMono_100Thin, JetBrainsMono_200ExtraLight, JetBrainsMono_300Light, JetBrainsMono_400Regular, JetBrainsMono_500Medium, JetBrainsMono_600SemiBold, JetBrainsMono_700Bold, JetBrainsMono_800ExtraBold, JetBrainsMono_100Thin_Italic, JetBrainsMono_200ExtraLight_Italic, JetBrainsMono_300Light_Italic, JetBrainsMono_400Regular_Italic, JetBrainsMono_500Medium_Italic, JetBrainsMono_600SemiBold_Italic, JetBrainsMono_700Bold_Italic, JetBrainsMono_800ExtraBold_Italic } from '@expo-google-fonts/jetbrains-mono';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    JetBrainsMono_100Thin,
-    JetBrainsMono_200ExtraLight,
-    JetBrainsMono_300Light,
-    JetBrainsMono_400Regular,
-    JetBrainsMono_500Medium,
-    JetBrainsMono_600SemiBold,
-    JetBrainsMono_700Bold,
-    JetBrainsMono_800ExtraBold,
-    JetBrainsMono_100Thin_Italic,
-    JetBrainsMono_200ExtraLight_Italic,
-    JetBrainsMono_300Light_Italic,
-    JetBrainsMono_400Regular_Italic,
-    JetBrainsMono_500Medium_Italic,
-    JetBrainsMono_600SemiBold_Italic,
-    JetBrainsMono_700Bold_Italic,
-    JetBrainsMono_800ExtraBold_Italic,
+    JetBrainsMono_100Thin, 
+    JetBrainsMono_200ExtraLight, 
+    JetBrainsMono_300Light, 
+    JetBrainsMono_400Regular, 
+    JetBrainsMono_500Medium, 
+    JetBrainsMono_600SemiBold, 
+    JetBrainsMono_700Bold, 
+    JetBrainsMono_800ExtraBold, 
+    JetBrainsMono_100Thin_Italic, 
+    JetBrainsMono_200ExtraLight_Italic, 
+    JetBrainsMono_300Light_Italic, 
+    JetBrainsMono_400Regular_Italic, 
+    JetBrainsMono_500Medium_Italic, 
+    JetBrainsMono_600SemiBold_Italic, 
+    JetBrainsMono_700Bold_Italic, 
+    JetBrainsMono_800ExtraBold_Italic
   });
 
   let fontSize = 24;
@@ -90,171 +75,139 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JetBrainsMono_100Thin"
+        }}>
           JetBrains Mono Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JetBrainsMono_200ExtraLight"
+        }}>
           JetBrains Mono Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JetBrainsMono_300Light"
+        }}>
           JetBrains Mono Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JetBrainsMono_400Regular"
+        }}>
           JetBrains Mono Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JetBrainsMono_500Medium"
+        }}>
           JetBrains Mono Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JetBrainsMono_600SemiBold"
+        }}>
           JetBrains Mono Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JetBrainsMono_700Bold"
+        }}>
           JetBrains Mono Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JetBrainsMono_800ExtraBold"
+        }}>
           JetBrains Mono Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JetBrainsMono_100Thin_Italic"
+        }}>
           JetBrains Mono Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JetBrainsMono_200ExtraLight_Italic"
+        }}>
           JetBrains Mono Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JetBrainsMono_300Light_Italic"
+        }}>
           JetBrains Mono Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JetBrainsMono_400Regular_Italic"
+        }}>
           JetBrains Mono Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JetBrainsMono_500Medium_Italic"
+        }}>
           JetBrains Mono Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JetBrainsMono_600SemiBold_Italic"
+        }}>
           JetBrains Mono Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JetBrainsMono_700Bold_Italic"
+        }}>
           JetBrains Mono Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "JetBrainsMono_800ExtraBold_Italic"
+        }}>
           JetBrains Mono Extra Bold Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -274,10 +227,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

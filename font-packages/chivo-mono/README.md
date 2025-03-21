@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/chivo-mono expo-font expo-app-loading
+npx expo install @expo-google-fonts/chivo-mono expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  ChivoMono_100Thin,
-  ChivoMono_200ExtraLight,
-  ChivoMono_300Light,
-  ChivoMono_400Regular,
-  ChivoMono_500Medium,
-  ChivoMono_600SemiBold,
-  ChivoMono_700Bold,
-  ChivoMono_800ExtraBold,
-  ChivoMono_900Black,
-  ChivoMono_100Thin_Italic,
-  ChivoMono_200ExtraLight_Italic,
-  ChivoMono_300Light_Italic,
-  ChivoMono_400Regular_Italic,
-  ChivoMono_500Medium_Italic,
-  ChivoMono_600SemiBold_Italic,
-  ChivoMono_700Bold_Italic,
-  ChivoMono_800ExtraBold_Italic,
-  ChivoMono_900Black_Italic,
-} from '@expo-google-fonts/chivo-mono';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, ChivoMono_100Thin, ChivoMono_200ExtraLight, ChivoMono_300Light, ChivoMono_400Regular, ChivoMono_500Medium, ChivoMono_600SemiBold, ChivoMono_700Bold, ChivoMono_800ExtraBold, ChivoMono_900Black, ChivoMono_100Thin_Italic, ChivoMono_200ExtraLight_Italic, ChivoMono_300Light_Italic, ChivoMono_400Regular_Italic, ChivoMono_500Medium_Italic, ChivoMono_600SemiBold_Italic, ChivoMono_700Bold_Italic, ChivoMono_800ExtraBold_Italic, ChivoMono_900Black_Italic } from '@expo-google-fonts/chivo-mono';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    ChivoMono_100Thin,
-    ChivoMono_200ExtraLight,
-    ChivoMono_300Light,
-    ChivoMono_400Regular,
-    ChivoMono_500Medium,
-    ChivoMono_600SemiBold,
-    ChivoMono_700Bold,
-    ChivoMono_800ExtraBold,
-    ChivoMono_900Black,
-    ChivoMono_100Thin_Italic,
-    ChivoMono_200ExtraLight_Italic,
-    ChivoMono_300Light_Italic,
-    ChivoMono_400Regular_Italic,
-    ChivoMono_500Medium_Italic,
-    ChivoMono_600SemiBold_Italic,
-    ChivoMono_700Bold_Italic,
-    ChivoMono_800ExtraBold_Italic,
-    ChivoMono_900Black_Italic,
+    ChivoMono_100Thin, 
+    ChivoMono_200ExtraLight, 
+    ChivoMono_300Light, 
+    ChivoMono_400Regular, 
+    ChivoMono_500Medium, 
+    ChivoMono_600SemiBold, 
+    ChivoMono_700Bold, 
+    ChivoMono_800ExtraBold, 
+    ChivoMono_900Black, 
+    ChivoMono_100Thin_Italic, 
+    ChivoMono_200ExtraLight_Italic, 
+    ChivoMono_300Light_Italic, 
+    ChivoMono_400Regular_Italic, 
+    ChivoMono_500Medium_Italic, 
+    ChivoMono_600SemiBold_Italic, 
+    ChivoMono_700Bold_Italic, 
+    ChivoMono_800ExtraBold_Italic, 
+    ChivoMono_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_100Thin"
+        }}>
           Chivo Mono Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_200ExtraLight"
+        }}>
           Chivo Mono Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_300Light"
+        }}>
           Chivo Mono Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_400Regular"
+        }}>
           Chivo Mono Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_500Medium"
+        }}>
           Chivo Mono Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_600SemiBold"
+        }}>
           Chivo Mono Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_700Bold"
+        }}>
           Chivo Mono Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_800ExtraBold"
+        }}>
           Chivo Mono Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_900Black"
+        }}>
           Chivo Mono Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_100Thin_Italic"
+        }}>
           Chivo Mono Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_200ExtraLight_Italic"
+        }}>
           Chivo Mono Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_300Light_Italic"
+        }}>
           Chivo Mono Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_400Regular_Italic"
+        }}>
           Chivo Mono Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_500Medium_Italic"
+        }}>
           Chivo Mono Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_600SemiBold_Italic"
+        }}>
           Chivo Mono Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_700Bold_Italic"
+        }}>
           Chivo Mono Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_800ExtraBold_Italic"
+        }}>
           Chivo Mono Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChivoMono_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ChivoMono_900Black_Italic"
+        }}>
           Chivo Mono Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

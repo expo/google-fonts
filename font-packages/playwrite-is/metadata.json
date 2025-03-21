@@ -2,15 +2,15 @@
   "family": "Playwrite IS",
   "variants": ["100", "200", "300", "regular"],
   "subsets": ["latin"],
-  "version": "v3",
-  "lastModified": "2024-08-12",
+  "version": "v9",
+  "lastModified": "2025-03-03",
   "files": {
-    "100": "https://fonts.gstatic.com/s/playwriteis/v3/JTUFjI4o_SGg9lecLGptrD17xQYXK0vOoz6jq6R8aX9-p7K5ILg.ttf",
-    "200": "https://fonts.gstatic.com/s/playwriteis/v3/JTUFjI4o_SGg9lecLGptrD17xQYXK0vOoz6jqyR9aX9-p7K5ILg.ttf",
-    "300": "https://fonts.gstatic.com/s/playwriteis/v3/JTUFjI4o_SGg9lecLGptrD17xQYXK0vOoz6jq_p9aX9-p7K5ILg.ttf",
-    "regular": "https://fonts.gstatic.com/s/playwriteis/v3/JTUFjI4o_SGg9lecLGptrD17xQYXK0vOoz6jq6R9aX9-p7K5ILg.ttf"
+    "100": "https://fonts.gstatic.com/s/playwriteis/v9/JTUFjI4o_SGg9lecLGptrD17xQYXK0vOoz6jq6R8aX9-p7K5ILg.ttf",
+    "200": "https://fonts.gstatic.com/s/playwriteis/v9/JTUFjI4o_SGg9lecLGptrD17xQYXK0vOoz6jqyR9aX9-p7K5ILg.ttf",
+    "300": "https://fonts.gstatic.com/s/playwriteis/v9/JTUFjI4o_SGg9lecLGptrD17xQYXK0vOoz6jq_p9aX9-p7K5ILg.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwriteis/v9/JTUFjI4o_SGg9lecLGptrD17xQYXK0vOoz6jq6R9aX9-p7K5ILg.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/playwriteis/v3/JTUFjI4o_SGg9lecLGptrD17xQYXK0vOoz6jq6R9WX50ow.ttf"
+  "menu": "https://fonts.gstatic.com/s/playwriteis/v9/JTUFjI4o_SGg9lecLGptrD17xQYXK0vOoz6jq6R9WX50ow.ttf"
 }

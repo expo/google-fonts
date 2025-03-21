@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/trirong expo-font expo-app-loading
+npx expo install @expo-google-fonts/trirong expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Trirong_100Thin,
-  Trirong_100Thin_Italic,
-  Trirong_200ExtraLight,
-  Trirong_200ExtraLight_Italic,
-  Trirong_300Light,
-  Trirong_300Light_Italic,
-  Trirong_400Regular,
-  Trirong_400Regular_Italic,
-  Trirong_500Medium,
-  Trirong_500Medium_Italic,
-  Trirong_600SemiBold,
-  Trirong_600SemiBold_Italic,
-  Trirong_700Bold,
-  Trirong_700Bold_Italic,
-  Trirong_800ExtraBold,
-  Trirong_800ExtraBold_Italic,
-  Trirong_900Black,
-  Trirong_900Black_Italic,
-} from '@expo-google-fonts/trirong';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Trirong_100Thin, Trirong_100Thin_Italic, Trirong_200ExtraLight, Trirong_200ExtraLight_Italic, Trirong_300Light, Trirong_300Light_Italic, Trirong_400Regular, Trirong_400Regular_Italic, Trirong_500Medium, Trirong_500Medium_Italic, Trirong_600SemiBold, Trirong_600SemiBold_Italic, Trirong_700Bold, Trirong_700Bold_Italic, Trirong_800ExtraBold, Trirong_800ExtraBold_Italic, Trirong_900Black, Trirong_900Black_Italic } from '@expo-google-fonts/trirong';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Trirong_100Thin,
-    Trirong_100Thin_Italic,
-    Trirong_200ExtraLight,
-    Trirong_200ExtraLight_Italic,
-    Trirong_300Light,
-    Trirong_300Light_Italic,
-    Trirong_400Regular,
-    Trirong_400Regular_Italic,
-    Trirong_500Medium,
-    Trirong_500Medium_Italic,
-    Trirong_600SemiBold,
-    Trirong_600SemiBold_Italic,
-    Trirong_700Bold,
-    Trirong_700Bold_Italic,
-    Trirong_800ExtraBold,
-    Trirong_800ExtraBold_Italic,
-    Trirong_900Black,
-    Trirong_900Black_Italic,
+    Trirong_100Thin, 
+    Trirong_100Thin_Italic, 
+    Trirong_200ExtraLight, 
+    Trirong_200ExtraLight_Italic, 
+    Trirong_300Light, 
+    Trirong_300Light_Italic, 
+    Trirong_400Regular, 
+    Trirong_400Regular_Italic, 
+    Trirong_500Medium, 
+    Trirong_500Medium_Italic, 
+    Trirong_600SemiBold, 
+    Trirong_600SemiBold_Italic, 
+    Trirong_700Bold, 
+    Trirong_700Bold_Italic, 
+    Trirong_800ExtraBold, 
+    Trirong_800ExtraBold_Italic, 
+    Trirong_900Black, 
+    Trirong_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_100Thin"
+        }}>
           Trirong Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_100Thin_Italic"
+        }}>
           Trirong Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_200ExtraLight"
+        }}>
           Trirong Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_200ExtraLight_Italic"
+        }}>
           Trirong Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_300Light"
+        }}>
           Trirong Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_300Light_Italic"
+        }}>
           Trirong Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_400Regular"
+        }}>
           Trirong Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_400Regular_Italic"
+        }}>
           Trirong Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_500Medium"
+        }}>
           Trirong Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_500Medium_Italic"
+        }}>
           Trirong Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_600SemiBold"
+        }}>
           Trirong Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_600SemiBold_Italic"
+        }}>
           Trirong Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_700Bold"
+        }}>
           Trirong Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_700Bold_Italic"
+        }}>
           Trirong Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_800ExtraBold"
+        }}>
           Trirong Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_800ExtraBold_Italic"
+        }}>
           Trirong Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_900Black"
+        }}>
           Trirong Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Trirong_900Black_Italic"
+        }}>
           Trirong Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

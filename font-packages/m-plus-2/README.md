@@ -26,40 +26,32 @@ This font family contains [9 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/m-plus-2 expo-font expo-app-loading
+npx expo install @expo-google-fonts/m-plus-2 expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  MPLUS2_100Thin,
-  MPLUS2_200ExtraLight,
-  MPLUS2_300Light,
-  MPLUS2_400Regular,
-  MPLUS2_500Medium,
-  MPLUS2_600SemiBold,
-  MPLUS2_700Bold,
-  MPLUS2_800ExtraBold,
-  MPLUS2_900Black,
-} from '@expo-google-fonts/m-plus-2';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, MPLUS2_100Thin, MPLUS2_200ExtraLight, MPLUS2_300Light, MPLUS2_400Regular, MPLUS2_500Medium, MPLUS2_600SemiBold, MPLUS2_700Bold, MPLUS2_800ExtraBold, MPLUS2_900Black } from '@expo-google-fonts/m-plus-2';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    MPLUS2_100Thin,
-    MPLUS2_200ExtraLight,
-    MPLUS2_300Light,
-    MPLUS2_400Regular,
-    MPLUS2_500Medium,
-    MPLUS2_600SemiBold,
-    MPLUS2_700Bold,
-    MPLUS2_800ExtraBold,
-    MPLUS2_900Black,
+    MPLUS2_100Thin, 
+    MPLUS2_200ExtraLight, 
+    MPLUS2_300Light, 
+    MPLUS2_400Regular, 
+    MPLUS2_500Medium, 
+    MPLUS2_600SemiBold, 
+    MPLUS2_700Bold, 
+    MPLUS2_800ExtraBold, 
+    MPLUS2_900Black
   });
 
   let fontSize = 24;
@@ -69,101 +61,83 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS2_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MPLUS2_100Thin"
+        }}>
           M PLUS 2 Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS2_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MPLUS2_200ExtraLight"
+        }}>
           M PLUS 2 Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS2_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MPLUS2_300Light"
+        }}>
           M PLUS 2 Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS2_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MPLUS2_400Regular"
+        }}>
           M PLUS 2 Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS2_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MPLUS2_500Medium"
+        }}>
           M PLUS 2 Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS2_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MPLUS2_600SemiBold"
+        }}>
           M PLUS 2 Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS2_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MPLUS2_700Bold"
+        }}>
           M PLUS 2 Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS2_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MPLUS2_800ExtraBold"
+        }}>
           M PLUS 2 Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS2_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MPLUS2_900Black"
+        }}>
           M PLUS 2 Black
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -180,10 +154,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

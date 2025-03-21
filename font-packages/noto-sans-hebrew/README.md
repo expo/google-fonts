@@ -26,40 +26,32 @@ This font family contains [9 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/noto-sans-hebrew expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-hebrew expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansHebrew_100Thin,
-  NotoSansHebrew_200ExtraLight,
-  NotoSansHebrew_300Light,
-  NotoSansHebrew_400Regular,
-  NotoSansHebrew_500Medium,
-  NotoSansHebrew_600SemiBold,
-  NotoSansHebrew_700Bold,
-  NotoSansHebrew_800ExtraBold,
-  NotoSansHebrew_900Black,
-} from '@expo-google-fonts/noto-sans-hebrew';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, NotoSansHebrew_100Thin, NotoSansHebrew_200ExtraLight, NotoSansHebrew_300Light, NotoSansHebrew_400Regular, NotoSansHebrew_500Medium, NotoSansHebrew_600SemiBold, NotoSansHebrew_700Bold, NotoSansHebrew_800ExtraBold, NotoSansHebrew_900Black } from '@expo-google-fonts/noto-sans-hebrew';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    NotoSansHebrew_100Thin,
-    NotoSansHebrew_200ExtraLight,
-    NotoSansHebrew_300Light,
-    NotoSansHebrew_400Regular,
-    NotoSansHebrew_500Medium,
-    NotoSansHebrew_600SemiBold,
-    NotoSansHebrew_700Bold,
-    NotoSansHebrew_800ExtraBold,
-    NotoSansHebrew_900Black,
+    NotoSansHebrew_100Thin, 
+    NotoSansHebrew_200ExtraLight, 
+    NotoSansHebrew_300Light, 
+    NotoSansHebrew_400Regular, 
+    NotoSansHebrew_500Medium, 
+    NotoSansHebrew_600SemiBold, 
+    NotoSansHebrew_700Bold, 
+    NotoSansHebrew_800ExtraBold, 
+    NotoSansHebrew_900Black
   });
 
   let fontSize = 24;
@@ -69,101 +61,83 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHebrew_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansHebrew_100Thin"
+        }}>
           Noto Sans Hebrew Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHebrew_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansHebrew_200ExtraLight"
+        }}>
           Noto Sans Hebrew Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHebrew_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansHebrew_300Light"
+        }}>
           Noto Sans Hebrew Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHebrew_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansHebrew_400Regular"
+        }}>
           Noto Sans Hebrew Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHebrew_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansHebrew_500Medium"
+        }}>
           Noto Sans Hebrew Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHebrew_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansHebrew_600SemiBold"
+        }}>
           Noto Sans Hebrew Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHebrew_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansHebrew_700Bold"
+        }}>
           Noto Sans Hebrew Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHebrew_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansHebrew_800ExtraBold"
+        }}>
           Noto Sans Hebrew Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHebrew_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansHebrew_900Black"
+        }}>
           Noto Sans Hebrew Black
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -180,10 +154,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

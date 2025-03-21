@@ -24,36 +24,30 @@ This font family contains [7 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/ibm-plex-sans-jp expo-font expo-app-loading
+npx expo install @expo-google-fonts/ibm-plex-sans-jp expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  IBMPlexSansJP_100Thin,
-  IBMPlexSansJP_200ExtraLight,
-  IBMPlexSansJP_300Light,
-  IBMPlexSansJP_400Regular,
-  IBMPlexSansJP_500Medium,
-  IBMPlexSansJP_600SemiBold,
-  IBMPlexSansJP_700Bold,
-} from '@expo-google-fonts/ibm-plex-sans-jp';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, IBMPlexSansJP_100Thin, IBMPlexSansJP_200ExtraLight, IBMPlexSansJP_300Light, IBMPlexSansJP_400Regular, IBMPlexSansJP_500Medium, IBMPlexSansJP_600SemiBold, IBMPlexSansJP_700Bold } from '@expo-google-fonts/ibm-plex-sans-jp';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    IBMPlexSansJP_100Thin,
-    IBMPlexSansJP_200ExtraLight,
-    IBMPlexSansJP_300Light,
-    IBMPlexSansJP_400Regular,
-    IBMPlexSansJP_500Medium,
-    IBMPlexSansJP_600SemiBold,
-    IBMPlexSansJP_700Bold,
+    IBMPlexSansJP_100Thin, 
+    IBMPlexSansJP_200ExtraLight, 
+    IBMPlexSansJP_300Light, 
+    IBMPlexSansJP_400Regular, 
+    IBMPlexSansJP_500Medium, 
+    IBMPlexSansJP_600SemiBold, 
+    IBMPlexSansJP_700Bold
   });
 
   let fontSize = 24;
@@ -63,81 +57,67 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansJP_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "IBMPlexSansJP_100Thin"
+        }}>
           IBM Plex Sans JP Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansJP_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "IBMPlexSansJP_200ExtraLight"
+        }}>
           IBM Plex Sans JP Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansJP_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "IBMPlexSansJP_300Light"
+        }}>
           IBM Plex Sans JP Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansJP_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "IBMPlexSansJP_400Regular"
+        }}>
           IBM Plex Sans JP Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansJP_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "IBMPlexSansJP_500Medium"
+        }}>
           IBM Plex Sans JP Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansJP_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "IBMPlexSansJP_600SemiBold"
+        }}>
           IBM Plex Sans JP Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansJP_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "IBMPlexSansJP_700Bold"
+        }}>
           IBM Plex Sans JP Bold
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -154,10 +134,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

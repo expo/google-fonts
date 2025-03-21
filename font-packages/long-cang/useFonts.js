@@ -1,6 +1,5 @@
-import { useEffect, useState } from 'react';
-
 import { loadAsync } from 'expo-font';
+import { useEffect, useState } from 'react';
 
 /**
  * Load a map of custom fonts to use in textual elements.
@@ -13,8 +12,8 @@ import { loadAsync } from 'expo-font';
  * @example const [loaded, error] = useFonts(...);
  */
 export function useFonts(map) {
-  let [loaded, setLoaded] = useState(false);
-  let [error, setError] = useState(null);
+  const [loaded, setLoaded] = useState(false);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     loadAsync(map)

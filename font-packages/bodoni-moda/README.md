@@ -29,46 +29,35 @@ This font family contains [12 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/bodoni-moda expo-font expo-app-loading
+npx expo install @expo-google-fonts/bodoni-moda expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  BodoniModa_400Regular,
-  BodoniModa_500Medium,
-  BodoniModa_600SemiBold,
-  BodoniModa_700Bold,
-  BodoniModa_800ExtraBold,
-  BodoniModa_900Black,
-  BodoniModa_400Regular_Italic,
-  BodoniModa_500Medium_Italic,
-  BodoniModa_600SemiBold_Italic,
-  BodoniModa_700Bold_Italic,
-  BodoniModa_800ExtraBold_Italic,
-  BodoniModa_900Black_Italic,
-} from '@expo-google-fonts/bodoni-moda';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, BodoniModa_400Regular, BodoniModa_500Medium, BodoniModa_600SemiBold, BodoniModa_700Bold, BodoniModa_800ExtraBold, BodoniModa_900Black, BodoniModa_400Regular_Italic, BodoniModa_500Medium_Italic, BodoniModa_600SemiBold_Italic, BodoniModa_700Bold_Italic, BodoniModa_800ExtraBold_Italic, BodoniModa_900Black_Italic } from '@expo-google-fonts/bodoni-moda';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    BodoniModa_400Regular,
-    BodoniModa_500Medium,
-    BodoniModa_600SemiBold,
-    BodoniModa_700Bold,
-    BodoniModa_800ExtraBold,
-    BodoniModa_900Black,
-    BodoniModa_400Regular_Italic,
-    BodoniModa_500Medium_Italic,
-    BodoniModa_600SemiBold_Italic,
-    BodoniModa_700Bold_Italic,
-    BodoniModa_800ExtraBold_Italic,
-    BodoniModa_900Black_Italic,
+    BodoniModa_400Regular, 
+    BodoniModa_500Medium, 
+    BodoniModa_600SemiBold, 
+    BodoniModa_700Bold, 
+    BodoniModa_800ExtraBold, 
+    BodoniModa_900Black, 
+    BodoniModa_400Regular_Italic, 
+    BodoniModa_500Medium_Italic, 
+    BodoniModa_600SemiBold_Italic, 
+    BodoniModa_700Bold_Italic, 
+    BodoniModa_800ExtraBold_Italic, 
+    BodoniModa_900Black_Italic
   });
 
   let fontSize = 24;
@@ -78,131 +67,107 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_400Regular',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BodoniModa_400Regular"
+        }}>
           Bodoni Moda Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BodoniModa_500Medium"
+        }}>
           Bodoni Moda Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BodoniModa_600SemiBold"
+        }}>
           Bodoni Moda Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BodoniModa_700Bold"
+        }}>
           Bodoni Moda Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BodoniModa_800ExtraBold"
+        }}>
           Bodoni Moda Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BodoniModa_900Black"
+        }}>
           Bodoni Moda Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BodoniModa_400Regular_Italic"
+        }}>
           Bodoni Moda Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BodoniModa_500Medium_Italic"
+        }}>
           Bodoni Moda Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BodoniModa_600SemiBold_Italic"
+        }}>
           Bodoni Moda Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BodoniModa_700Bold_Italic"
+        }}>
           Bodoni Moda Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BodoniModa_800ExtraBold_Italic"
+        }}>
           Bodoni Moda Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BodoniModa_900Black_Italic"
+        }}>
           Bodoni Moda Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -220,10 +185,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

@@ -23,34 +23,29 @@ This font family contains [6 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/inria-serif expo-font expo-app-loading
+npx expo install @expo-google-fonts/inria-serif expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  InriaSerif_300Light,
-  InriaSerif_300Light_Italic,
-  InriaSerif_400Regular,
-  InriaSerif_400Regular_Italic,
-  InriaSerif_700Bold,
-  InriaSerif_700Bold_Italic,
-} from '@expo-google-fonts/inria-serif';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, InriaSerif_300Light, InriaSerif_300Light_Italic, InriaSerif_400Regular, InriaSerif_400Regular_Italic, InriaSerif_700Bold, InriaSerif_700Bold_Italic } from '@expo-google-fonts/inria-serif';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    InriaSerif_300Light,
-    InriaSerif_300Light_Italic,
-    InriaSerif_400Regular,
-    InriaSerif_400Regular_Italic,
-    InriaSerif_700Bold,
-    InriaSerif_700Bold_Italic,
+    InriaSerif_300Light, 
+    InriaSerif_300Light_Italic, 
+    InriaSerif_400Regular, 
+    InriaSerif_400Regular_Italic, 
+    InriaSerif_700Bold, 
+    InriaSerif_700Bold_Italic
   });
 
   let fontSize = 24;
@@ -60,71 +55,59 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSerif_300Light',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "InriaSerif_300Light"
+        }}>
           Inria Serif Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSerif_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "InriaSerif_300Light_Italic"
+        }}>
           Inria Serif Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSerif_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "InriaSerif_400Regular"
+        }}>
           Inria Serif Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSerif_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "InriaSerif_400Regular_Italic"
+        }}>
           Inria Serif Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSerif_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "InriaSerif_700Bold"
+        }}>
           Inria Serif Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSerif_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "InriaSerif_700Bold_Italic"
+        }}>
           Inria Serif Bold Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -140,10 +123,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

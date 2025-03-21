@@ -33,54 +33,39 @@ This font family contains [16 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/livvic expo-font expo-app-loading
+npx expo install @expo-google-fonts/livvic expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Livvic_100Thin,
-  Livvic_100Thin_Italic,
-  Livvic_200ExtraLight,
-  Livvic_200ExtraLight_Italic,
-  Livvic_300Light,
-  Livvic_300Light_Italic,
-  Livvic_400Regular,
-  Livvic_400Regular_Italic,
-  Livvic_500Medium,
-  Livvic_500Medium_Italic,
-  Livvic_600SemiBold,
-  Livvic_600SemiBold_Italic,
-  Livvic_700Bold,
-  Livvic_700Bold_Italic,
-  Livvic_900Black,
-  Livvic_900Black_Italic,
-} from '@expo-google-fonts/livvic';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Livvic_100Thin, Livvic_100Thin_Italic, Livvic_200ExtraLight, Livvic_200ExtraLight_Italic, Livvic_300Light, Livvic_300Light_Italic, Livvic_400Regular, Livvic_400Regular_Italic, Livvic_500Medium, Livvic_500Medium_Italic, Livvic_600SemiBold, Livvic_600SemiBold_Italic, Livvic_700Bold, Livvic_700Bold_Italic, Livvic_900Black, Livvic_900Black_Italic } from '@expo-google-fonts/livvic';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Livvic_100Thin,
-    Livvic_100Thin_Italic,
-    Livvic_200ExtraLight,
-    Livvic_200ExtraLight_Italic,
-    Livvic_300Light,
-    Livvic_300Light_Italic,
-    Livvic_400Regular,
-    Livvic_400Regular_Italic,
-    Livvic_500Medium,
-    Livvic_500Medium_Italic,
-    Livvic_600SemiBold,
-    Livvic_600SemiBold_Italic,
-    Livvic_700Bold,
-    Livvic_700Bold_Italic,
-    Livvic_900Black,
-    Livvic_900Black_Italic,
+    Livvic_100Thin, 
+    Livvic_100Thin_Italic, 
+    Livvic_200ExtraLight, 
+    Livvic_200ExtraLight_Italic, 
+    Livvic_300Light, 
+    Livvic_300Light_Italic, 
+    Livvic_400Regular, 
+    Livvic_400Regular_Italic, 
+    Livvic_500Medium, 
+    Livvic_500Medium_Italic, 
+    Livvic_600SemiBold, 
+    Livvic_600SemiBold_Italic, 
+    Livvic_700Bold, 
+    Livvic_700Bold_Italic, 
+    Livvic_900Black, 
+    Livvic_900Black_Italic
   });
 
   let fontSize = 24;
@@ -90,171 +75,139 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Livvic_100Thin"
+        }}>
           Livvic Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Livvic_100Thin_Italic"
+        }}>
           Livvic Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Livvic_200ExtraLight"
+        }}>
           Livvic Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Livvic_200ExtraLight_Italic"
+        }}>
           Livvic Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Livvic_300Light"
+        }}>
           Livvic Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Livvic_300Light_Italic"
+        }}>
           Livvic Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Livvic_400Regular"
+        }}>
           Livvic Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Livvic_400Regular_Italic"
+        }}>
           Livvic Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Livvic_500Medium"
+        }}>
           Livvic Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Livvic_500Medium_Italic"
+        }}>
           Livvic Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Livvic_600SemiBold"
+        }}>
           Livvic Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Livvic_600SemiBold_Italic"
+        }}>
           Livvic Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Livvic_700Bold"
+        }}>
           Livvic Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Livvic_700Bold_Italic"
+        }}>
           Livvic Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Livvic_900Black"
+        }}>
           Livvic Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Livvic_900Black_Italic"
+        }}>
           Livvic Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -274,10 +227,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

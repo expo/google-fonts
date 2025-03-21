@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/pathway-extreme expo-font expo-app-loading
+npx expo install @expo-google-fonts/pathway-extreme expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  PathwayExtreme_100Thin,
-  PathwayExtreme_200ExtraLight,
-  PathwayExtreme_300Light,
-  PathwayExtreme_400Regular,
-  PathwayExtreme_500Medium,
-  PathwayExtreme_600SemiBold,
-  PathwayExtreme_700Bold,
-  PathwayExtreme_800ExtraBold,
-  PathwayExtreme_900Black,
-  PathwayExtreme_100Thin_Italic,
-  PathwayExtreme_200ExtraLight_Italic,
-  PathwayExtreme_300Light_Italic,
-  PathwayExtreme_400Regular_Italic,
-  PathwayExtreme_500Medium_Italic,
-  PathwayExtreme_600SemiBold_Italic,
-  PathwayExtreme_700Bold_Italic,
-  PathwayExtreme_800ExtraBold_Italic,
-  PathwayExtreme_900Black_Italic,
-} from '@expo-google-fonts/pathway-extreme';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, PathwayExtreme_100Thin, PathwayExtreme_200ExtraLight, PathwayExtreme_300Light, PathwayExtreme_400Regular, PathwayExtreme_500Medium, PathwayExtreme_600SemiBold, PathwayExtreme_700Bold, PathwayExtreme_800ExtraBold, PathwayExtreme_900Black, PathwayExtreme_100Thin_Italic, PathwayExtreme_200ExtraLight_Italic, PathwayExtreme_300Light_Italic, PathwayExtreme_400Regular_Italic, PathwayExtreme_500Medium_Italic, PathwayExtreme_600SemiBold_Italic, PathwayExtreme_700Bold_Italic, PathwayExtreme_800ExtraBold_Italic, PathwayExtreme_900Black_Italic } from '@expo-google-fonts/pathway-extreme';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    PathwayExtreme_100Thin,
-    PathwayExtreme_200ExtraLight,
-    PathwayExtreme_300Light,
-    PathwayExtreme_400Regular,
-    PathwayExtreme_500Medium,
-    PathwayExtreme_600SemiBold,
-    PathwayExtreme_700Bold,
-    PathwayExtreme_800ExtraBold,
-    PathwayExtreme_900Black,
-    PathwayExtreme_100Thin_Italic,
-    PathwayExtreme_200ExtraLight_Italic,
-    PathwayExtreme_300Light_Italic,
-    PathwayExtreme_400Regular_Italic,
-    PathwayExtreme_500Medium_Italic,
-    PathwayExtreme_600SemiBold_Italic,
-    PathwayExtreme_700Bold_Italic,
-    PathwayExtreme_800ExtraBold_Italic,
-    PathwayExtreme_900Black_Italic,
+    PathwayExtreme_100Thin, 
+    PathwayExtreme_200ExtraLight, 
+    PathwayExtreme_300Light, 
+    PathwayExtreme_400Regular, 
+    PathwayExtreme_500Medium, 
+    PathwayExtreme_600SemiBold, 
+    PathwayExtreme_700Bold, 
+    PathwayExtreme_800ExtraBold, 
+    PathwayExtreme_900Black, 
+    PathwayExtreme_100Thin_Italic, 
+    PathwayExtreme_200ExtraLight_Italic, 
+    PathwayExtreme_300Light_Italic, 
+    PathwayExtreme_400Regular_Italic, 
+    PathwayExtreme_500Medium_Italic, 
+    PathwayExtreme_600SemiBold_Italic, 
+    PathwayExtreme_700Bold_Italic, 
+    PathwayExtreme_800ExtraBold_Italic, 
+    PathwayExtreme_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_100Thin"
+        }}>
           Pathway Extreme Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_200ExtraLight"
+        }}>
           Pathway Extreme Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_300Light"
+        }}>
           Pathway Extreme Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_400Regular"
+        }}>
           Pathway Extreme Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_500Medium"
+        }}>
           Pathway Extreme Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_600SemiBold"
+        }}>
           Pathway Extreme Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_700Bold"
+        }}>
           Pathway Extreme Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_800ExtraBold"
+        }}>
           Pathway Extreme Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_900Black"
+        }}>
           Pathway Extreme Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_100Thin_Italic"
+        }}>
           Pathway Extreme Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_200ExtraLight_Italic"
+        }}>
           Pathway Extreme Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_300Light_Italic"
+        }}>
           Pathway Extreme Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_400Regular_Italic"
+        }}>
           Pathway Extreme Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_500Medium_Italic"
+        }}>
           Pathway Extreme Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_600SemiBold_Italic"
+        }}>
           Pathway Extreme Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_700Bold_Italic"
+        }}>
           Pathway Extreme Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_800ExtraBold_Italic"
+        }}>
           Pathway Extreme Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "PathwayExtreme_900Black_Italic"
+        }}>
           Pathway Extreme Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

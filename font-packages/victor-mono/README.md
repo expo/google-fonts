@@ -31,50 +31,37 @@ This font family contains [14 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/victor-mono expo-font expo-app-loading
+npx expo install @expo-google-fonts/victor-mono expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  VictorMono_100Thin,
-  VictorMono_200ExtraLight,
-  VictorMono_300Light,
-  VictorMono_400Regular,
-  VictorMono_500Medium,
-  VictorMono_600SemiBold,
-  VictorMono_700Bold,
-  VictorMono_100Thin_Italic,
-  VictorMono_200ExtraLight_Italic,
-  VictorMono_300Light_Italic,
-  VictorMono_400Regular_Italic,
-  VictorMono_500Medium_Italic,
-  VictorMono_600SemiBold_Italic,
-  VictorMono_700Bold_Italic,
-} from '@expo-google-fonts/victor-mono';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, VictorMono_100Thin, VictorMono_200ExtraLight, VictorMono_300Light, VictorMono_400Regular, VictorMono_500Medium, VictorMono_600SemiBold, VictorMono_700Bold, VictorMono_100Thin_Italic, VictorMono_200ExtraLight_Italic, VictorMono_300Light_Italic, VictorMono_400Regular_Italic, VictorMono_500Medium_Italic, VictorMono_600SemiBold_Italic, VictorMono_700Bold_Italic } from '@expo-google-fonts/victor-mono';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    VictorMono_100Thin,
-    VictorMono_200ExtraLight,
-    VictorMono_300Light,
-    VictorMono_400Regular,
-    VictorMono_500Medium,
-    VictorMono_600SemiBold,
-    VictorMono_700Bold,
-    VictorMono_100Thin_Italic,
-    VictorMono_200ExtraLight_Italic,
-    VictorMono_300Light_Italic,
-    VictorMono_400Regular_Italic,
-    VictorMono_500Medium_Italic,
-    VictorMono_600SemiBold_Italic,
-    VictorMono_700Bold_Italic,
+    VictorMono_100Thin, 
+    VictorMono_200ExtraLight, 
+    VictorMono_300Light, 
+    VictorMono_400Regular, 
+    VictorMono_500Medium, 
+    VictorMono_600SemiBold, 
+    VictorMono_700Bold, 
+    VictorMono_100Thin_Italic, 
+    VictorMono_200ExtraLight_Italic, 
+    VictorMono_300Light_Italic, 
+    VictorMono_400Regular_Italic, 
+    VictorMono_500Medium_Italic, 
+    VictorMono_600SemiBold_Italic, 
+    VictorMono_700Bold_Italic
   });
 
   let fontSize = 24;
@@ -84,151 +71,123 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "VictorMono_100Thin"
+        }}>
           Victor Mono Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "VictorMono_200ExtraLight"
+        }}>
           Victor Mono Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "VictorMono_300Light"
+        }}>
           Victor Mono Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "VictorMono_400Regular"
+        }}>
           Victor Mono Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "VictorMono_500Medium"
+        }}>
           Victor Mono Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "VictorMono_600SemiBold"
+        }}>
           Victor Mono Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "VictorMono_700Bold"
+        }}>
           Victor Mono Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "VictorMono_100Thin_Italic"
+        }}>
           Victor Mono Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "VictorMono_200ExtraLight_Italic"
+        }}>
           Victor Mono Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "VictorMono_300Light_Italic"
+        }}>
           Victor Mono Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "VictorMono_400Regular_Italic"
+        }}>
           Victor Mono Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "VictorMono_500Medium_Italic"
+        }}>
           Victor Mono Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "VictorMono_600SemiBold_Italic"
+        }}>
           Victor Mono Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "VictorMono_700Bold_Italic"
+        }}>
           Victor Mono Bold Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -247,10 +206,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

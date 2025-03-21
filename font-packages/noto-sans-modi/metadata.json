@@ -2,12 +2,12 @@
   "family": "Noto Sans Modi",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "modi"],
-  "version": "v23",
-  "lastModified": "2023-09-27",
+  "version": "v24",
+  "lastModified": "2025-03-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansmodi/v23/pe03MIySN5pO62Z5YkFyT7jeav5qWVAgVol-.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansmodi/v24/pe03MIySN5pO62Z5YkFyT7jeav5qWVAgVol-.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansmodi/v23/pe03MIySN5pO62Z5YkFyT7jeas5rU1Q.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansmodi/v24/pe03MIySN5pO62Z5YkFyT7jeas5rU1Q.ttf"
 }

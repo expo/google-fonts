@@ -2,14 +2,14 @@
   "family": "Nanum Myeongjo",
   "variants": ["regular", "700", "800"],
   "subsets": ["korean", "latin"],
-  "version": "v26",
-  "lastModified": "2024-12-04",
+  "version": "v30",
+  "lastModified": "2025-03-18",
   "files": {
-    "700": "https://fonts.gstatic.com/s/nanummyeongjo/v26/9Bty3DZF0dXLMZlywRbVRNhxy2pXV1A0pfCs5Kos.ttf",
-    "800": "https://fonts.gstatic.com/s/nanummyeongjo/v26/9Bty3DZF0dXLMZlywRbVRNhxy2pLVFA0pfCs5Kos.ttf",
-    "regular": "https://fonts.gstatic.com/s/nanummyeongjo/v26/9Btx3DZF0dXLMZlywRbVRNhxy1LreHQ8juyl.ttf"
+    "700": "https://fonts.gstatic.com/s/nanummyeongjo/v30/9Bty3DZF0dXLMZlywRbVRNhxy2pXV1A0pfCs5Kos.ttf",
+    "800": "https://fonts.gstatic.com/s/nanummyeongjo/v30/9Bty3DZF0dXLMZlywRbVRNhxy2pLVFA0pfCs5Kos.ttf",
+    "regular": "https://fonts.gstatic.com/s/nanummyeongjo/v30/9Btx3DZF0dXLMZlywRbVRNhxy1LreHQ8juyl.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/nanummyeongjo/v26/9Btx3DZF0dXLMZlywRbVRNhxy2LqcnA.ttf"
+  "menu": "https://fonts.gstatic.com/s/nanummyeongjo/v30/9Btx3DZF0dXLMZlywRbVRNhxy2LqcnA.ttf"
 }

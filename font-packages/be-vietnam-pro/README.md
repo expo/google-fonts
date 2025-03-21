@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/be-vietnam-pro expo-font expo-app-loading
+npx expo install @expo-google-fonts/be-vietnam-pro expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  BeVietnamPro_100Thin,
-  BeVietnamPro_100Thin_Italic,
-  BeVietnamPro_200ExtraLight,
-  BeVietnamPro_200ExtraLight_Italic,
-  BeVietnamPro_300Light,
-  BeVietnamPro_300Light_Italic,
-  BeVietnamPro_400Regular,
-  BeVietnamPro_400Regular_Italic,
-  BeVietnamPro_500Medium,
-  BeVietnamPro_500Medium_Italic,
-  BeVietnamPro_600SemiBold,
-  BeVietnamPro_600SemiBold_Italic,
-  BeVietnamPro_700Bold,
-  BeVietnamPro_700Bold_Italic,
-  BeVietnamPro_800ExtraBold,
-  BeVietnamPro_800ExtraBold_Italic,
-  BeVietnamPro_900Black,
-  BeVietnamPro_900Black_Italic,
-} from '@expo-google-fonts/be-vietnam-pro';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, BeVietnamPro_100Thin, BeVietnamPro_100Thin_Italic, BeVietnamPro_200ExtraLight, BeVietnamPro_200ExtraLight_Italic, BeVietnamPro_300Light, BeVietnamPro_300Light_Italic, BeVietnamPro_400Regular, BeVietnamPro_400Regular_Italic, BeVietnamPro_500Medium, BeVietnamPro_500Medium_Italic, BeVietnamPro_600SemiBold, BeVietnamPro_600SemiBold_Italic, BeVietnamPro_700Bold, BeVietnamPro_700Bold_Italic, BeVietnamPro_800ExtraBold, BeVietnamPro_800ExtraBold_Italic, BeVietnamPro_900Black, BeVietnamPro_900Black_Italic } from '@expo-google-fonts/be-vietnam-pro';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    BeVietnamPro_100Thin,
-    BeVietnamPro_100Thin_Italic,
-    BeVietnamPro_200ExtraLight,
-    BeVietnamPro_200ExtraLight_Italic,
-    BeVietnamPro_300Light,
-    BeVietnamPro_300Light_Italic,
-    BeVietnamPro_400Regular,
-    BeVietnamPro_400Regular_Italic,
-    BeVietnamPro_500Medium,
-    BeVietnamPro_500Medium_Italic,
-    BeVietnamPro_600SemiBold,
-    BeVietnamPro_600SemiBold_Italic,
-    BeVietnamPro_700Bold,
-    BeVietnamPro_700Bold_Italic,
-    BeVietnamPro_800ExtraBold,
-    BeVietnamPro_800ExtraBold_Italic,
-    BeVietnamPro_900Black,
-    BeVietnamPro_900Black_Italic,
+    BeVietnamPro_100Thin, 
+    BeVietnamPro_100Thin_Italic, 
+    BeVietnamPro_200ExtraLight, 
+    BeVietnamPro_200ExtraLight_Italic, 
+    BeVietnamPro_300Light, 
+    BeVietnamPro_300Light_Italic, 
+    BeVietnamPro_400Regular, 
+    BeVietnamPro_400Regular_Italic, 
+    BeVietnamPro_500Medium, 
+    BeVietnamPro_500Medium_Italic, 
+    BeVietnamPro_600SemiBold, 
+    BeVietnamPro_600SemiBold_Italic, 
+    BeVietnamPro_700Bold, 
+    BeVietnamPro_700Bold_Italic, 
+    BeVietnamPro_800ExtraBold, 
+    BeVietnamPro_800ExtraBold_Italic, 
+    BeVietnamPro_900Black, 
+    BeVietnamPro_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_100Thin"
+        }}>
           Be Vietnam Pro Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_100Thin_Italic"
+        }}>
           Be Vietnam Pro Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_200ExtraLight"
+        }}>
           Be Vietnam Pro Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_200ExtraLight_Italic"
+        }}>
           Be Vietnam Pro Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_300Light"
+        }}>
           Be Vietnam Pro Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_300Light_Italic"
+        }}>
           Be Vietnam Pro Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_400Regular"
+        }}>
           Be Vietnam Pro Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_400Regular_Italic"
+        }}>
           Be Vietnam Pro Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_500Medium"
+        }}>
           Be Vietnam Pro Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_500Medium_Italic"
+        }}>
           Be Vietnam Pro Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_600SemiBold"
+        }}>
           Be Vietnam Pro Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_600SemiBold_Italic"
+        }}>
           Be Vietnam Pro Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_700Bold"
+        }}>
           Be Vietnam Pro Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_700Bold_Italic"
+        }}>
           Be Vietnam Pro Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_800ExtraBold"
+        }}>
           Be Vietnam Pro Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_800ExtraBold_Italic"
+        }}>
           Be Vietnam Pro Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_900Black"
+        }}>
           Be Vietnam Pro Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BeVietnamPro_900Black_Italic"
+        }}>
           Be Vietnam Pro Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

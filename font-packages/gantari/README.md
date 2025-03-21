@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/gantari expo-font expo-app-loading
+npx expo install @expo-google-fonts/gantari expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Gantari_100Thin,
-  Gantari_200ExtraLight,
-  Gantari_300Light,
-  Gantari_400Regular,
-  Gantari_500Medium,
-  Gantari_600SemiBold,
-  Gantari_700Bold,
-  Gantari_800ExtraBold,
-  Gantari_900Black,
-  Gantari_100Thin_Italic,
-  Gantari_200ExtraLight_Italic,
-  Gantari_300Light_Italic,
-  Gantari_400Regular_Italic,
-  Gantari_500Medium_Italic,
-  Gantari_600SemiBold_Italic,
-  Gantari_700Bold_Italic,
-  Gantari_800ExtraBold_Italic,
-  Gantari_900Black_Italic,
-} from '@expo-google-fonts/gantari';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Gantari_100Thin, Gantari_200ExtraLight, Gantari_300Light, Gantari_400Regular, Gantari_500Medium, Gantari_600SemiBold, Gantari_700Bold, Gantari_800ExtraBold, Gantari_900Black, Gantari_100Thin_Italic, Gantari_200ExtraLight_Italic, Gantari_300Light_Italic, Gantari_400Regular_Italic, Gantari_500Medium_Italic, Gantari_600SemiBold_Italic, Gantari_700Bold_Italic, Gantari_800ExtraBold_Italic, Gantari_900Black_Italic } from '@expo-google-fonts/gantari';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Gantari_100Thin,
-    Gantari_200ExtraLight,
-    Gantari_300Light,
-    Gantari_400Regular,
-    Gantari_500Medium,
-    Gantari_600SemiBold,
-    Gantari_700Bold,
-    Gantari_800ExtraBold,
-    Gantari_900Black,
-    Gantari_100Thin_Italic,
-    Gantari_200ExtraLight_Italic,
-    Gantari_300Light_Italic,
-    Gantari_400Regular_Italic,
-    Gantari_500Medium_Italic,
-    Gantari_600SemiBold_Italic,
-    Gantari_700Bold_Italic,
-    Gantari_800ExtraBold_Italic,
-    Gantari_900Black_Italic,
+    Gantari_100Thin, 
+    Gantari_200ExtraLight, 
+    Gantari_300Light, 
+    Gantari_400Regular, 
+    Gantari_500Medium, 
+    Gantari_600SemiBold, 
+    Gantari_700Bold, 
+    Gantari_800ExtraBold, 
+    Gantari_900Black, 
+    Gantari_100Thin_Italic, 
+    Gantari_200ExtraLight_Italic, 
+    Gantari_300Light_Italic, 
+    Gantari_400Regular_Italic, 
+    Gantari_500Medium_Italic, 
+    Gantari_600SemiBold_Italic, 
+    Gantari_700Bold_Italic, 
+    Gantari_800ExtraBold_Italic, 
+    Gantari_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_100Thin"
+        }}>
           Gantari Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_200ExtraLight"
+        }}>
           Gantari Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_300Light"
+        }}>
           Gantari Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_400Regular"
+        }}>
           Gantari Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_500Medium"
+        }}>
           Gantari Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_600SemiBold"
+        }}>
           Gantari Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_700Bold"
+        }}>
           Gantari Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_800ExtraBold"
+        }}>
           Gantari Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_900Black"
+        }}>
           Gantari Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_100Thin_Italic"
+        }}>
           Gantari Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_200ExtraLight_Italic"
+        }}>
           Gantari Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_300Light_Italic"
+        }}>
           Gantari Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_400Regular_Italic"
+        }}>
           Gantari Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_500Medium_Italic"
+        }}>
           Gantari Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_600SemiBold_Italic"
+        }}>
           Gantari Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_700Bold_Italic"
+        }}>
           Gantari Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_800ExtraBold_Italic"
+        }}>
           Gantari Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Gantari_900Black_Italic"
+        }}>
           Gantari Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

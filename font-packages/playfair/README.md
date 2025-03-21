@@ -31,50 +31,37 @@ This font family contains [14 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/playfair expo-font expo-app-loading
+npx expo install @expo-google-fonts/playfair expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Playfair_300Light,
-  Playfair_400Regular,
-  Playfair_500Medium,
-  Playfair_600SemiBold,
-  Playfair_700Bold,
-  Playfair_800ExtraBold,
-  Playfair_900Black,
-  Playfair_300Light_Italic,
-  Playfair_400Regular_Italic,
-  Playfair_500Medium_Italic,
-  Playfair_600SemiBold_Italic,
-  Playfair_700Bold_Italic,
-  Playfair_800ExtraBold_Italic,
-  Playfair_900Black_Italic,
-} from '@expo-google-fonts/playfair';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Playfair_300Light, Playfair_400Regular, Playfair_500Medium, Playfair_600SemiBold, Playfair_700Bold, Playfair_800ExtraBold, Playfair_900Black, Playfair_300Light_Italic, Playfair_400Regular_Italic, Playfair_500Medium_Italic, Playfair_600SemiBold_Italic, Playfair_700Bold_Italic, Playfair_800ExtraBold_Italic, Playfair_900Black_Italic } from '@expo-google-fonts/playfair';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Playfair_300Light,
-    Playfair_400Regular,
-    Playfair_500Medium,
-    Playfair_600SemiBold,
-    Playfair_700Bold,
-    Playfair_800ExtraBold,
-    Playfair_900Black,
-    Playfair_300Light_Italic,
-    Playfair_400Regular_Italic,
-    Playfair_500Medium_Italic,
-    Playfair_600SemiBold_Italic,
-    Playfair_700Bold_Italic,
-    Playfair_800ExtraBold_Italic,
-    Playfair_900Black_Italic,
+    Playfair_300Light, 
+    Playfair_400Regular, 
+    Playfair_500Medium, 
+    Playfair_600SemiBold, 
+    Playfair_700Bold, 
+    Playfair_800ExtraBold, 
+    Playfair_900Black, 
+    Playfair_300Light_Italic, 
+    Playfair_400Regular_Italic, 
+    Playfair_500Medium_Italic, 
+    Playfair_600SemiBold_Italic, 
+    Playfair_700Bold_Italic, 
+    Playfair_800ExtraBold_Italic, 
+    Playfair_900Black_Italic
   });
 
   let fontSize = 24;
@@ -84,151 +71,123 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Playfair_300Light',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Playfair_300Light"
+        }}>
           Playfair Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Playfair_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Playfair_400Regular"
+        }}>
           Playfair Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Playfair_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Playfair_500Medium"
+        }}>
           Playfair Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Playfair_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Playfair_600SemiBold"
+        }}>
           Playfair Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Playfair_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Playfair_700Bold"
+        }}>
           Playfair Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Playfair_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Playfair_800ExtraBold"
+        }}>
           Playfair Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Playfair_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Playfair_900Black"
+        }}>
           Playfair Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Playfair_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Playfair_300Light_Italic"
+        }}>
           Playfair Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Playfair_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Playfair_400Regular_Italic"
+        }}>
           Playfair Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Playfair_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Playfair_500Medium_Italic"
+        }}>
           Playfair Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Playfair_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Playfair_600SemiBold_Italic"
+        }}>
           Playfair Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Playfair_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Playfair_700Bold_Italic"
+        }}>
           Playfair Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Playfair_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Playfair_800ExtraBold_Italic"
+        }}>
           Playfair Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Playfair_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Playfair_900Black_Italic"
+        }}>
           Playfair Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -247,10 +206,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

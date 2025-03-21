@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/museomoderno expo-font expo-app-loading
+npx expo install @expo-google-fonts/museomoderno expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  MuseoModerno_100Thin,
-  MuseoModerno_200ExtraLight,
-  MuseoModerno_300Light,
-  MuseoModerno_400Regular,
-  MuseoModerno_500Medium,
-  MuseoModerno_600SemiBold,
-  MuseoModerno_700Bold,
-  MuseoModerno_800ExtraBold,
-  MuseoModerno_900Black,
-  MuseoModerno_100Thin_Italic,
-  MuseoModerno_200ExtraLight_Italic,
-  MuseoModerno_300Light_Italic,
-  MuseoModerno_400Regular_Italic,
-  MuseoModerno_500Medium_Italic,
-  MuseoModerno_600SemiBold_Italic,
-  MuseoModerno_700Bold_Italic,
-  MuseoModerno_800ExtraBold_Italic,
-  MuseoModerno_900Black_Italic,
-} from '@expo-google-fonts/museomoderno';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, MuseoModerno_100Thin, MuseoModerno_200ExtraLight, MuseoModerno_300Light, MuseoModerno_400Regular, MuseoModerno_500Medium, MuseoModerno_600SemiBold, MuseoModerno_700Bold, MuseoModerno_800ExtraBold, MuseoModerno_900Black, MuseoModerno_100Thin_Italic, MuseoModerno_200ExtraLight_Italic, MuseoModerno_300Light_Italic, MuseoModerno_400Regular_Italic, MuseoModerno_500Medium_Italic, MuseoModerno_600SemiBold_Italic, MuseoModerno_700Bold_Italic, MuseoModerno_800ExtraBold_Italic, MuseoModerno_900Black_Italic } from '@expo-google-fonts/museomoderno';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    MuseoModerno_100Thin,
-    MuseoModerno_200ExtraLight,
-    MuseoModerno_300Light,
-    MuseoModerno_400Regular,
-    MuseoModerno_500Medium,
-    MuseoModerno_600SemiBold,
-    MuseoModerno_700Bold,
-    MuseoModerno_800ExtraBold,
-    MuseoModerno_900Black,
-    MuseoModerno_100Thin_Italic,
-    MuseoModerno_200ExtraLight_Italic,
-    MuseoModerno_300Light_Italic,
-    MuseoModerno_400Regular_Italic,
-    MuseoModerno_500Medium_Italic,
-    MuseoModerno_600SemiBold_Italic,
-    MuseoModerno_700Bold_Italic,
-    MuseoModerno_800ExtraBold_Italic,
-    MuseoModerno_900Black_Italic,
+    MuseoModerno_100Thin, 
+    MuseoModerno_200ExtraLight, 
+    MuseoModerno_300Light, 
+    MuseoModerno_400Regular, 
+    MuseoModerno_500Medium, 
+    MuseoModerno_600SemiBold, 
+    MuseoModerno_700Bold, 
+    MuseoModerno_800ExtraBold, 
+    MuseoModerno_900Black, 
+    MuseoModerno_100Thin_Italic, 
+    MuseoModerno_200ExtraLight_Italic, 
+    MuseoModerno_300Light_Italic, 
+    MuseoModerno_400Regular_Italic, 
+    MuseoModerno_500Medium_Italic, 
+    MuseoModerno_600SemiBold_Italic, 
+    MuseoModerno_700Bold_Italic, 
+    MuseoModerno_800ExtraBold_Italic, 
+    MuseoModerno_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_100Thin"
+        }}>
           MuseoModerno Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_200ExtraLight"
+        }}>
           MuseoModerno Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_300Light"
+        }}>
           MuseoModerno Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_400Regular"
+        }}>
           MuseoModerno Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_500Medium"
+        }}>
           MuseoModerno Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_600SemiBold"
+        }}>
           MuseoModerno Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_700Bold"
+        }}>
           MuseoModerno Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_800ExtraBold"
+        }}>
           MuseoModerno Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_900Black"
+        }}>
           MuseoModerno Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_100Thin_Italic"
+        }}>
           MuseoModerno Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_200ExtraLight_Italic"
+        }}>
           MuseoModerno Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_300Light_Italic"
+        }}>
           MuseoModerno Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_400Regular_Italic"
+        }}>
           MuseoModerno Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_500Medium_Italic"
+        }}>
           MuseoModerno Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_600SemiBold_Italic"
+        }}>
           MuseoModerno Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_700Bold_Italic"
+        }}>
           MuseoModerno Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_800ExtraBold_Italic"
+        }}>
           MuseoModerno Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MuseoModerno_900Black_Italic"
+        }}>
           MuseoModerno Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

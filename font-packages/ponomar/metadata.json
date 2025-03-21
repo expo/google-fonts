@@ -1,0 +1,11 @@
+{
+  "family": "Ponomar",
+  "variants": ["regular"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin"],
+  "version": "v5",
+  "lastModified": "2025-03-03",
+  "files": { "regular": "https://fonts.gstatic.com/s/ponomar/v5/or3iQ6zp3fKD2wImbJTdArg8hzo.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/ponomar/v5/or3iQ6zp3fKD2wImXJXXBg.ttf"
+}

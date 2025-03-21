@@ -26,40 +26,32 @@ This font family contains [9 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/noto-serif-sinhala expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-sinhala expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSerifSinhala_100Thin,
-  NotoSerifSinhala_200ExtraLight,
-  NotoSerifSinhala_300Light,
-  NotoSerifSinhala_400Regular,
-  NotoSerifSinhala_500Medium,
-  NotoSerifSinhala_600SemiBold,
-  NotoSerifSinhala_700Bold,
-  NotoSerifSinhala_800ExtraBold,
-  NotoSerifSinhala_900Black,
-} from '@expo-google-fonts/noto-serif-sinhala';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, NotoSerifSinhala_100Thin, NotoSerifSinhala_200ExtraLight, NotoSerifSinhala_300Light, NotoSerifSinhala_400Regular, NotoSerifSinhala_500Medium, NotoSerifSinhala_600SemiBold, NotoSerifSinhala_700Bold, NotoSerifSinhala_800ExtraBold, NotoSerifSinhala_900Black } from '@expo-google-fonts/noto-serif-sinhala';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    NotoSerifSinhala_100Thin,
-    NotoSerifSinhala_200ExtraLight,
-    NotoSerifSinhala_300Light,
-    NotoSerifSinhala_400Regular,
-    NotoSerifSinhala_500Medium,
-    NotoSerifSinhala_600SemiBold,
-    NotoSerifSinhala_700Bold,
-    NotoSerifSinhala_800ExtraBold,
-    NotoSerifSinhala_900Black,
+    NotoSerifSinhala_100Thin, 
+    NotoSerifSinhala_200ExtraLight, 
+    NotoSerifSinhala_300Light, 
+    NotoSerifSinhala_400Regular, 
+    NotoSerifSinhala_500Medium, 
+    NotoSerifSinhala_600SemiBold, 
+    NotoSerifSinhala_700Bold, 
+    NotoSerifSinhala_800ExtraBold, 
+    NotoSerifSinhala_900Black
   });
 
   let fontSize = 24;
@@ -69,101 +61,83 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifSinhala_100Thin"
+        }}>
           Noto Serif Sinhala Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifSinhala_200ExtraLight"
+        }}>
           Noto Serif Sinhala Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifSinhala_300Light"
+        }}>
           Noto Serif Sinhala Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifSinhala_400Regular"
+        }}>
           Noto Serif Sinhala Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifSinhala_500Medium"
+        }}>
           Noto Serif Sinhala Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifSinhala_600SemiBold"
+        }}>
           Noto Serif Sinhala Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifSinhala_700Bold"
+        }}>
           Noto Serif Sinhala Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifSinhala_800ExtraBold"
+        }}>
           Noto Serif Sinhala Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifSinhala_900Black"
+        }}>
           Noto Serif Sinhala Black
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -180,10 +154,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

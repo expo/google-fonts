@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/hanken-grotesk expo-font expo-app-loading
+npx expo install @expo-google-fonts/hanken-grotesk expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  HankenGrotesk_100Thin,
-  HankenGrotesk_200ExtraLight,
-  HankenGrotesk_300Light,
-  HankenGrotesk_400Regular,
-  HankenGrotesk_500Medium,
-  HankenGrotesk_600SemiBold,
-  HankenGrotesk_700Bold,
-  HankenGrotesk_800ExtraBold,
-  HankenGrotesk_900Black,
-  HankenGrotesk_100Thin_Italic,
-  HankenGrotesk_200ExtraLight_Italic,
-  HankenGrotesk_300Light_Italic,
-  HankenGrotesk_400Regular_Italic,
-  HankenGrotesk_500Medium_Italic,
-  HankenGrotesk_600SemiBold_Italic,
-  HankenGrotesk_700Bold_Italic,
-  HankenGrotesk_800ExtraBold_Italic,
-  HankenGrotesk_900Black_Italic,
-} from '@expo-google-fonts/hanken-grotesk';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, HankenGrotesk_100Thin, HankenGrotesk_200ExtraLight, HankenGrotesk_300Light, HankenGrotesk_400Regular, HankenGrotesk_500Medium, HankenGrotesk_600SemiBold, HankenGrotesk_700Bold, HankenGrotesk_800ExtraBold, HankenGrotesk_900Black, HankenGrotesk_100Thin_Italic, HankenGrotesk_200ExtraLight_Italic, HankenGrotesk_300Light_Italic, HankenGrotesk_400Regular_Italic, HankenGrotesk_500Medium_Italic, HankenGrotesk_600SemiBold_Italic, HankenGrotesk_700Bold_Italic, HankenGrotesk_800ExtraBold_Italic, HankenGrotesk_900Black_Italic } from '@expo-google-fonts/hanken-grotesk';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    HankenGrotesk_100Thin,
-    HankenGrotesk_200ExtraLight,
-    HankenGrotesk_300Light,
-    HankenGrotesk_400Regular,
-    HankenGrotesk_500Medium,
-    HankenGrotesk_600SemiBold,
-    HankenGrotesk_700Bold,
-    HankenGrotesk_800ExtraBold,
-    HankenGrotesk_900Black,
-    HankenGrotesk_100Thin_Italic,
-    HankenGrotesk_200ExtraLight_Italic,
-    HankenGrotesk_300Light_Italic,
-    HankenGrotesk_400Regular_Italic,
-    HankenGrotesk_500Medium_Italic,
-    HankenGrotesk_600SemiBold_Italic,
-    HankenGrotesk_700Bold_Italic,
-    HankenGrotesk_800ExtraBold_Italic,
-    HankenGrotesk_900Black_Italic,
+    HankenGrotesk_100Thin, 
+    HankenGrotesk_200ExtraLight, 
+    HankenGrotesk_300Light, 
+    HankenGrotesk_400Regular, 
+    HankenGrotesk_500Medium, 
+    HankenGrotesk_600SemiBold, 
+    HankenGrotesk_700Bold, 
+    HankenGrotesk_800ExtraBold, 
+    HankenGrotesk_900Black, 
+    HankenGrotesk_100Thin_Italic, 
+    HankenGrotesk_200ExtraLight_Italic, 
+    HankenGrotesk_300Light_Italic, 
+    HankenGrotesk_400Regular_Italic, 
+    HankenGrotesk_500Medium_Italic, 
+    HankenGrotesk_600SemiBold_Italic, 
+    HankenGrotesk_700Bold_Italic, 
+    HankenGrotesk_800ExtraBold_Italic, 
+    HankenGrotesk_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_100Thin"
+        }}>
           Hanken Grotesk Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_200ExtraLight"
+        }}>
           Hanken Grotesk Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_300Light"
+        }}>
           Hanken Grotesk Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_400Regular"
+        }}>
           Hanken Grotesk Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_500Medium"
+        }}>
           Hanken Grotesk Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_600SemiBold"
+        }}>
           Hanken Grotesk Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_700Bold"
+        }}>
           Hanken Grotesk Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_800ExtraBold"
+        }}>
           Hanken Grotesk Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_900Black"
+        }}>
           Hanken Grotesk Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_100Thin_Italic"
+        }}>
           Hanken Grotesk Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_200ExtraLight_Italic"
+        }}>
           Hanken Grotesk Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_300Light_Italic"
+        }}>
           Hanken Grotesk Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_400Regular_Italic"
+        }}>
           Hanken Grotesk Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_500Medium_Italic"
+        }}>
           Hanken Grotesk Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_600SemiBold_Italic"
+        }}>
           Hanken Grotesk Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_700Bold_Italic"
+        }}>
           Hanken Grotesk Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_800ExtraBold_Italic"
+        }}>
           Hanken Grotesk Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "HankenGrotesk_900Black_Italic"
+        }}>
           Hanken Grotesk Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

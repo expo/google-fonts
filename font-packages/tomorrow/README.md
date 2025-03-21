@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/tomorrow expo-font expo-app-loading
+npx expo install @expo-google-fonts/tomorrow expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Tomorrow_100Thin,
-  Tomorrow_100Thin_Italic,
-  Tomorrow_200ExtraLight,
-  Tomorrow_200ExtraLight_Italic,
-  Tomorrow_300Light,
-  Tomorrow_300Light_Italic,
-  Tomorrow_400Regular,
-  Tomorrow_400Regular_Italic,
-  Tomorrow_500Medium,
-  Tomorrow_500Medium_Italic,
-  Tomorrow_600SemiBold,
-  Tomorrow_600SemiBold_Italic,
-  Tomorrow_700Bold,
-  Tomorrow_700Bold_Italic,
-  Tomorrow_800ExtraBold,
-  Tomorrow_800ExtraBold_Italic,
-  Tomorrow_900Black,
-  Tomorrow_900Black_Italic,
-} from '@expo-google-fonts/tomorrow';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Tomorrow_100Thin, Tomorrow_100Thin_Italic, Tomorrow_200ExtraLight, Tomorrow_200ExtraLight_Italic, Tomorrow_300Light, Tomorrow_300Light_Italic, Tomorrow_400Regular, Tomorrow_400Regular_Italic, Tomorrow_500Medium, Tomorrow_500Medium_Italic, Tomorrow_600SemiBold, Tomorrow_600SemiBold_Italic, Tomorrow_700Bold, Tomorrow_700Bold_Italic, Tomorrow_800ExtraBold, Tomorrow_800ExtraBold_Italic, Tomorrow_900Black, Tomorrow_900Black_Italic } from '@expo-google-fonts/tomorrow';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Tomorrow_100Thin,
-    Tomorrow_100Thin_Italic,
-    Tomorrow_200ExtraLight,
-    Tomorrow_200ExtraLight_Italic,
-    Tomorrow_300Light,
-    Tomorrow_300Light_Italic,
-    Tomorrow_400Regular,
-    Tomorrow_400Regular_Italic,
-    Tomorrow_500Medium,
-    Tomorrow_500Medium_Italic,
-    Tomorrow_600SemiBold,
-    Tomorrow_600SemiBold_Italic,
-    Tomorrow_700Bold,
-    Tomorrow_700Bold_Italic,
-    Tomorrow_800ExtraBold,
-    Tomorrow_800ExtraBold_Italic,
-    Tomorrow_900Black,
-    Tomorrow_900Black_Italic,
+    Tomorrow_100Thin, 
+    Tomorrow_100Thin_Italic, 
+    Tomorrow_200ExtraLight, 
+    Tomorrow_200ExtraLight_Italic, 
+    Tomorrow_300Light, 
+    Tomorrow_300Light_Italic, 
+    Tomorrow_400Regular, 
+    Tomorrow_400Regular_Italic, 
+    Tomorrow_500Medium, 
+    Tomorrow_500Medium_Italic, 
+    Tomorrow_600SemiBold, 
+    Tomorrow_600SemiBold_Italic, 
+    Tomorrow_700Bold, 
+    Tomorrow_700Bold_Italic, 
+    Tomorrow_800ExtraBold, 
+    Tomorrow_800ExtraBold_Italic, 
+    Tomorrow_900Black, 
+    Tomorrow_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_100Thin"
+        }}>
           Tomorrow Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_100Thin_Italic"
+        }}>
           Tomorrow Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_200ExtraLight"
+        }}>
           Tomorrow Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_200ExtraLight_Italic"
+        }}>
           Tomorrow Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_300Light"
+        }}>
           Tomorrow Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_300Light_Italic"
+        }}>
           Tomorrow Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_400Regular"
+        }}>
           Tomorrow Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_400Regular_Italic"
+        }}>
           Tomorrow Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_500Medium"
+        }}>
           Tomorrow Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_500Medium_Italic"
+        }}>
           Tomorrow Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_600SemiBold"
+        }}>
           Tomorrow Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_600SemiBold_Italic"
+        }}>
           Tomorrow Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_700Bold"
+        }}>
           Tomorrow Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_700Bold_Italic"
+        }}>
           Tomorrow Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_800ExtraBold"
+        }}>
           Tomorrow Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_800ExtraBold_Italic"
+        }}>
           Tomorrow Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_900Black"
+        }}>
           Tomorrow Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tomorrow_900Black_Italic"
+        }}>
           Tomorrow Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

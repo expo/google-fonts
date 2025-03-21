@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/labrada expo-font expo-app-loading
+npx expo install @expo-google-fonts/labrada expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Labrada_100Thin,
-  Labrada_200ExtraLight,
-  Labrada_300Light,
-  Labrada_400Regular,
-  Labrada_500Medium,
-  Labrada_600SemiBold,
-  Labrada_700Bold,
-  Labrada_800ExtraBold,
-  Labrada_900Black,
-  Labrada_100Thin_Italic,
-  Labrada_200ExtraLight_Italic,
-  Labrada_300Light_Italic,
-  Labrada_400Regular_Italic,
-  Labrada_500Medium_Italic,
-  Labrada_600SemiBold_Italic,
-  Labrada_700Bold_Italic,
-  Labrada_800ExtraBold_Italic,
-  Labrada_900Black_Italic,
-} from '@expo-google-fonts/labrada';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Labrada_100Thin, Labrada_200ExtraLight, Labrada_300Light, Labrada_400Regular, Labrada_500Medium, Labrada_600SemiBold, Labrada_700Bold, Labrada_800ExtraBold, Labrada_900Black, Labrada_100Thin_Italic, Labrada_200ExtraLight_Italic, Labrada_300Light_Italic, Labrada_400Regular_Italic, Labrada_500Medium_Italic, Labrada_600SemiBold_Italic, Labrada_700Bold_Italic, Labrada_800ExtraBold_Italic, Labrada_900Black_Italic } from '@expo-google-fonts/labrada';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Labrada_100Thin,
-    Labrada_200ExtraLight,
-    Labrada_300Light,
-    Labrada_400Regular,
-    Labrada_500Medium,
-    Labrada_600SemiBold,
-    Labrada_700Bold,
-    Labrada_800ExtraBold,
-    Labrada_900Black,
-    Labrada_100Thin_Italic,
-    Labrada_200ExtraLight_Italic,
-    Labrada_300Light_Italic,
-    Labrada_400Regular_Italic,
-    Labrada_500Medium_Italic,
-    Labrada_600SemiBold_Italic,
-    Labrada_700Bold_Italic,
-    Labrada_800ExtraBold_Italic,
-    Labrada_900Black_Italic,
+    Labrada_100Thin, 
+    Labrada_200ExtraLight, 
+    Labrada_300Light, 
+    Labrada_400Regular, 
+    Labrada_500Medium, 
+    Labrada_600SemiBold, 
+    Labrada_700Bold, 
+    Labrada_800ExtraBold, 
+    Labrada_900Black, 
+    Labrada_100Thin_Italic, 
+    Labrada_200ExtraLight_Italic, 
+    Labrada_300Light_Italic, 
+    Labrada_400Regular_Italic, 
+    Labrada_500Medium_Italic, 
+    Labrada_600SemiBold_Italic, 
+    Labrada_700Bold_Italic, 
+    Labrada_800ExtraBold_Italic, 
+    Labrada_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_100Thin"
+        }}>
           Labrada Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_200ExtraLight"
+        }}>
           Labrada Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_300Light"
+        }}>
           Labrada Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_400Regular"
+        }}>
           Labrada Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_500Medium"
+        }}>
           Labrada Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_600SemiBold"
+        }}>
           Labrada Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_700Bold"
+        }}>
           Labrada Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_800ExtraBold"
+        }}>
           Labrada Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_900Black"
+        }}>
           Labrada Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_100Thin_Italic"
+        }}>
           Labrada Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_200ExtraLight_Italic"
+        }}>
           Labrada Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_300Light_Italic"
+        }}>
           Labrada Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_400Regular_Italic"
+        }}>
           Labrada Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_500Medium_Italic"
+        }}>
           Labrada Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_600SemiBold_Italic"
+        }}>
           Labrada Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_700Bold_Italic"
+        }}>
           Labrada Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_800ExtraBold_Italic"
+        }}>
           Labrada Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Labrada_900Black_Italic"
+        }}>
           Labrada Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

@@ -27,42 +27,33 @@ This font family contains [10 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/proza-libre expo-font expo-app-loading
+npx expo install @expo-google-fonts/proza-libre expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  ProzaLibre_400Regular,
-  ProzaLibre_400Regular_Italic,
-  ProzaLibre_500Medium,
-  ProzaLibre_500Medium_Italic,
-  ProzaLibre_600SemiBold,
-  ProzaLibre_600SemiBold_Italic,
-  ProzaLibre_700Bold,
-  ProzaLibre_700Bold_Italic,
-  ProzaLibre_800ExtraBold,
-  ProzaLibre_800ExtraBold_Italic,
-} from '@expo-google-fonts/proza-libre';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, ProzaLibre_400Regular, ProzaLibre_400Regular_Italic, ProzaLibre_500Medium, ProzaLibre_500Medium_Italic, ProzaLibre_600SemiBold, ProzaLibre_600SemiBold_Italic, ProzaLibre_700Bold, ProzaLibre_700Bold_Italic, ProzaLibre_800ExtraBold, ProzaLibre_800ExtraBold_Italic } from '@expo-google-fonts/proza-libre';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    ProzaLibre_400Regular,
-    ProzaLibre_400Regular_Italic,
-    ProzaLibre_500Medium,
-    ProzaLibre_500Medium_Italic,
-    ProzaLibre_600SemiBold,
-    ProzaLibre_600SemiBold_Italic,
-    ProzaLibre_700Bold,
-    ProzaLibre_700Bold_Italic,
-    ProzaLibre_800ExtraBold,
-    ProzaLibre_800ExtraBold_Italic,
+    ProzaLibre_400Regular, 
+    ProzaLibre_400Regular_Italic, 
+    ProzaLibre_500Medium, 
+    ProzaLibre_500Medium_Italic, 
+    ProzaLibre_600SemiBold, 
+    ProzaLibre_600SemiBold_Italic, 
+    ProzaLibre_700Bold, 
+    ProzaLibre_700Bold_Italic, 
+    ProzaLibre_800ExtraBold, 
+    ProzaLibre_800ExtraBold_Italic
   });
 
   let fontSize = 24;
@@ -72,111 +63,91 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_400Regular',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ProzaLibre_400Regular"
+        }}>
           Proza Libre Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ProzaLibre_400Regular_Italic"
+        }}>
           Proza Libre Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ProzaLibre_500Medium"
+        }}>
           Proza Libre Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ProzaLibre_500Medium_Italic"
+        }}>
           Proza Libre Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ProzaLibre_600SemiBold"
+        }}>
           Proza Libre Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ProzaLibre_600SemiBold_Italic"
+        }}>
           Proza Libre Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ProzaLibre_700Bold"
+        }}>
           Proza Libre Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ProzaLibre_700Bold_Italic"
+        }}>
           Proza Libre Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ProzaLibre_800ExtraBold"
+        }}>
           Proza Libre Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "ProzaLibre_800ExtraBold_Italic"
+        }}>
           Proza Libre Extra Bold Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -194,10 +165,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

@@ -21,30 +21,27 @@ This font family contains [4 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/noto-sans-tai-tham expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-tai-tham expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansTaiTham_400Regular,
-  NotoSansTaiTham_500Medium,
-  NotoSansTaiTham_600SemiBold,
-  NotoSansTaiTham_700Bold,
-} from '@expo-google-fonts/noto-sans-tai-tham';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, NotoSansTaiTham_400Regular, NotoSansTaiTham_500Medium, NotoSansTaiTham_600SemiBold, NotoSansTaiTham_700Bold } from '@expo-google-fonts/noto-sans-tai-tham';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    NotoSansTaiTham_400Regular,
-    NotoSansTaiTham_500Medium,
-    NotoSansTaiTham_600SemiBold,
-    NotoSansTaiTham_700Bold,
+    NotoSansTaiTham_400Regular, 
+    NotoSansTaiTham_500Medium, 
+    NotoSansTaiTham_600SemiBold, 
+    NotoSansTaiTham_700Bold
   });
 
   let fontSize = 24;
@@ -54,51 +51,43 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTaiTham_400Regular',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTaiTham_400Regular"
+        }}>
           Noto Sans Tai Tham Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTaiTham_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTaiTham_500Medium"
+        }}>
           Noto Sans Tai Tham Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTaiTham_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTaiTham_600SemiBold"
+        }}>
           Noto Sans Tai Tham Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTaiTham_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansTaiTham_700Bold"
+        }}>
           Noto Sans Tai Tham Bold
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -114,10 +103,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

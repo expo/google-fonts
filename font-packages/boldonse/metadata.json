@@ -1,0 +1,13 @@
+{
+  "family": "Boldonse",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2025-03-18",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/boldonse/v1/ZgNQjPxGPbbJUZemjC38hmHmNpCO.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/boldonse/v1/ZgNQjPxGPbbJUZemjB39jGU.ttf"
+}

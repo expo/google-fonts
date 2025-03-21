@@ -10,7 +10,7 @@ const physicalCpuCount = require('physical-cpu-count');
 const prettier = require('prettier');
 
 const contributors = require('./contributors');
-const getGoogleFontsApiKey = require('./google-fonts-api-key');
+const fontDirectory = require('./directory-data.json');
 const PackageVersion = require('../../package.json').version;
 
 // Constants
@@ -72,10 +72,6 @@ const NetworkBoundConcurrency = 3;
 const fontPrefix = 'font';
 
 async function main({ images, download } = { images: true, download: true }) {
-  console.log('Getting directory');
-  const fontDirectory = await getDirectory();
-  console.log('done.');
-
   if (download) {
     console.log('Downloading all fonts...');
     await downloadAllFonts(fontDirectory);
@@ -135,12 +131,6 @@ function varNameForWebfont(webfont) {
 function varNameForFontVariant(webfont, variantKey) {
   const info = infoForVariantKey(variantKey);
   return varNameForWebfont(webfont) + info.suffix;
-}
-
-async function getDirectory() {
-  const url = `https://www.googleapis.com/webfonts/v1/webfonts?key=${getGoogleFontsApiKey()}&prettyPrint=false&sort=date`;
-  const response = await fetch(url);
-  return await response.json();
 }
 
 function filenameForFontVariant(webfont, variantKey) {
@@ -728,50 +718,39 @@ function getDisplayNameForFontVariant(webfont, variantKey) {
 
 const t = {
   downloadAllFonts: async () => {
-    const d = await getDirectory();
-    return await downloadAllFonts(d);
+    return await downloadAllFonts(fontDirectory);
   },
   generateImagesForFonts: async () => {
-    const d = await getDirectory();
-    return await generateImagesForFonts(d);
+    return await generateImagesForFonts(fontDirectory);
   },
   generatePng: async () => {
-    const d = await getDirectory();
-    return await generatePng('out.png', 'Hello World', d.items[3], '700italic');
+    return await generatePng('out.png', 'Hello World', fontDirectory.items[3], '700italic');
   },
   generateFontPackage: async (n = 3) => {
-    const d = await getDirectory();
-    return await generateFontPackage(d.items[n]);
+    return await generateFontPackage(fontDirectory.items[n]);
   },
   generatePackageHeaderImage: async (n = 3) => {
-    const d = await getDirectory();
-    return await generatePackageHeaderImage('header.png', d.items[n]);
+    return await generatePackageHeaderImage('header.png', fontDirectory.items[n]);
   },
 
   generateDevPackage: async () => {
-    const d = await getDirectory();
-    return await generateDevPackage(d);
+    return await generateDevPackage(fontDirectory);
   },
   generateFontDirectoryPackage: async () => {
-    const d = await getDirectory();
-    return await generateFontDirectoryPackage(d);
+    return await generateFontDirectoryPackage(fontDirectory);
   },
-  generateRootReadme: async (directoryData) => {
-    const d = directoryData || (await getDirectory());
-    return await generateRootReadme(d);
+  generateRootReadme: async () => {
+    return await generateRootReadme(fontDirectory);
   },
   generateGalleryFile: async () => {
-    const d = await getDirectory();
-    return await generateGalleryFile(d);
+    return await generateGalleryFile(fontDirectory);
   },
   generateAllFontPackages: async () => {
-    const d = await getDirectory();
-    return await generateAllFontPackages(d);
+    return await generateAllFontPackages(fontDirectory);
   },
   getTotalFontVariants: async () => {
-    const d = await getDirectory();
     let t = 0;
-    for (const webfont of d.items) {
+    for (const webfont of fontDirectory.items) {
       t += webfont.variants.length;
     }
     return t;
@@ -780,7 +759,6 @@ const t = {
 
 module.exports = {
   t,
-  getDirectory,
   downloadAllFonts,
   filepathForFontVariant,
   filenameForFontVariant,

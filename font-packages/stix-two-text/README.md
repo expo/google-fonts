@@ -25,38 +25,31 @@ This font family contains [8 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/stix-two-text expo-font expo-app-loading
+npx expo install @expo-google-fonts/stix-two-text expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  STIXTwoText_400Regular,
-  STIXTwoText_500Medium,
-  STIXTwoText_600SemiBold,
-  STIXTwoText_700Bold,
-  STIXTwoText_400Regular_Italic,
-  STIXTwoText_500Medium_Italic,
-  STIXTwoText_600SemiBold_Italic,
-  STIXTwoText_700Bold_Italic,
-} from '@expo-google-fonts/stix-two-text';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, STIXTwoText_400Regular, STIXTwoText_500Medium, STIXTwoText_600SemiBold, STIXTwoText_700Bold, STIXTwoText_400Regular_Italic, STIXTwoText_500Medium_Italic, STIXTwoText_600SemiBold_Italic, STIXTwoText_700Bold_Italic } from '@expo-google-fonts/stix-two-text';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    STIXTwoText_400Regular,
-    STIXTwoText_500Medium,
-    STIXTwoText_600SemiBold,
-    STIXTwoText_700Bold,
-    STIXTwoText_400Regular_Italic,
-    STIXTwoText_500Medium_Italic,
-    STIXTwoText_600SemiBold_Italic,
-    STIXTwoText_700Bold_Italic,
+    STIXTwoText_400Regular, 
+    STIXTwoText_500Medium, 
+    STIXTwoText_600SemiBold, 
+    STIXTwoText_700Bold, 
+    STIXTwoText_400Regular_Italic, 
+    STIXTwoText_500Medium_Italic, 
+    STIXTwoText_600SemiBold_Italic, 
+    STIXTwoText_700Bold_Italic
   });
 
   let fontSize = 24;
@@ -66,91 +59,75 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'STIXTwoText_400Regular',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "STIXTwoText_400Regular"
+        }}>
           STIX Two Text Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'STIXTwoText_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "STIXTwoText_500Medium"
+        }}>
           STIX Two Text Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'STIXTwoText_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "STIXTwoText_600SemiBold"
+        }}>
           STIX Two Text Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'STIXTwoText_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "STIXTwoText_700Bold"
+        }}>
           STIX Two Text Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'STIXTwoText_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "STIXTwoText_400Regular_Italic"
+        }}>
           STIX Two Text Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'STIXTwoText_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "STIXTwoText_500Medium_Italic"
+        }}>
           STIX Two Text Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'STIXTwoText_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "STIXTwoText_600SemiBold_Italic"
+        }}>
           STIX Two Text Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'STIXTwoText_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "STIXTwoText_700Bold_Italic"
+        }}>
           STIX Two Text Bold Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -167,10 +144,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

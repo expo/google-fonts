@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/advent-pro expo-font expo-app-loading
+npx expo install @expo-google-fonts/advent-pro expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  AdventPro_100Thin,
-  AdventPro_200ExtraLight,
-  AdventPro_300Light,
-  AdventPro_400Regular,
-  AdventPro_500Medium,
-  AdventPro_600SemiBold,
-  AdventPro_700Bold,
-  AdventPro_800ExtraBold,
-  AdventPro_900Black,
-  AdventPro_100Thin_Italic,
-  AdventPro_200ExtraLight_Italic,
-  AdventPro_300Light_Italic,
-  AdventPro_400Regular_Italic,
-  AdventPro_500Medium_Italic,
-  AdventPro_600SemiBold_Italic,
-  AdventPro_700Bold_Italic,
-  AdventPro_800ExtraBold_Italic,
-  AdventPro_900Black_Italic,
-} from '@expo-google-fonts/advent-pro';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, AdventPro_100Thin, AdventPro_200ExtraLight, AdventPro_300Light, AdventPro_400Regular, AdventPro_500Medium, AdventPro_600SemiBold, AdventPro_700Bold, AdventPro_800ExtraBold, AdventPro_900Black, AdventPro_100Thin_Italic, AdventPro_200ExtraLight_Italic, AdventPro_300Light_Italic, AdventPro_400Regular_Italic, AdventPro_500Medium_Italic, AdventPro_600SemiBold_Italic, AdventPro_700Bold_Italic, AdventPro_800ExtraBold_Italic, AdventPro_900Black_Italic } from '@expo-google-fonts/advent-pro';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    AdventPro_100Thin,
-    AdventPro_200ExtraLight,
-    AdventPro_300Light,
-    AdventPro_400Regular,
-    AdventPro_500Medium,
-    AdventPro_600SemiBold,
-    AdventPro_700Bold,
-    AdventPro_800ExtraBold,
-    AdventPro_900Black,
-    AdventPro_100Thin_Italic,
-    AdventPro_200ExtraLight_Italic,
-    AdventPro_300Light_Italic,
-    AdventPro_400Regular_Italic,
-    AdventPro_500Medium_Italic,
-    AdventPro_600SemiBold_Italic,
-    AdventPro_700Bold_Italic,
-    AdventPro_800ExtraBold_Italic,
-    AdventPro_900Black_Italic,
+    AdventPro_100Thin, 
+    AdventPro_200ExtraLight, 
+    AdventPro_300Light, 
+    AdventPro_400Regular, 
+    AdventPro_500Medium, 
+    AdventPro_600SemiBold, 
+    AdventPro_700Bold, 
+    AdventPro_800ExtraBold, 
+    AdventPro_900Black, 
+    AdventPro_100Thin_Italic, 
+    AdventPro_200ExtraLight_Italic, 
+    AdventPro_300Light_Italic, 
+    AdventPro_400Regular_Italic, 
+    AdventPro_500Medium_Italic, 
+    AdventPro_600SemiBold_Italic, 
+    AdventPro_700Bold_Italic, 
+    AdventPro_800ExtraBold_Italic, 
+    AdventPro_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_100Thin"
+        }}>
           Advent Pro Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_200ExtraLight"
+        }}>
           Advent Pro Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_300Light"
+        }}>
           Advent Pro Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_400Regular"
+        }}>
           Advent Pro Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_500Medium"
+        }}>
           Advent Pro Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_600SemiBold"
+        }}>
           Advent Pro Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_700Bold"
+        }}>
           Advent Pro Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_800ExtraBold"
+        }}>
           Advent Pro Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_900Black"
+        }}>
           Advent Pro Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_100Thin_Italic"
+        }}>
           Advent Pro Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_200ExtraLight_Italic"
+        }}>
           Advent Pro Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_300Light_Italic"
+        }}>
           Advent Pro Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_400Regular_Italic"
+        }}>
           Advent Pro Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_500Medium_Italic"
+        }}>
           Advent Pro Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_600SemiBold_Italic"
+        }}>
           Advent Pro Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_700Bold_Italic"
+        }}>
           Advent Pro Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_800ExtraBold_Italic"
+        }}>
           Advent Pro Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AdventPro_900Black_Italic"
+        }}>
           Advent Pro Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

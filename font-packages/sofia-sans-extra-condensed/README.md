@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/sofia-sans-extra-condensed expo-font expo-app-loading
+npx expo install @expo-google-fonts/sofia-sans-extra-condensed expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  SofiaSansExtraCondensed_100Thin,
-  SofiaSansExtraCondensed_200ExtraLight,
-  SofiaSansExtraCondensed_300Light,
-  SofiaSansExtraCondensed_400Regular,
-  SofiaSansExtraCondensed_500Medium,
-  SofiaSansExtraCondensed_600SemiBold,
-  SofiaSansExtraCondensed_700Bold,
-  SofiaSansExtraCondensed_800ExtraBold,
-  SofiaSansExtraCondensed_900Black,
-  SofiaSansExtraCondensed_100Thin_Italic,
-  SofiaSansExtraCondensed_200ExtraLight_Italic,
-  SofiaSansExtraCondensed_300Light_Italic,
-  SofiaSansExtraCondensed_400Regular_Italic,
-  SofiaSansExtraCondensed_500Medium_Italic,
-  SofiaSansExtraCondensed_600SemiBold_Italic,
-  SofiaSansExtraCondensed_700Bold_Italic,
-  SofiaSansExtraCondensed_800ExtraBold_Italic,
-  SofiaSansExtraCondensed_900Black_Italic,
-} from '@expo-google-fonts/sofia-sans-extra-condensed';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, SofiaSansExtraCondensed_100Thin, SofiaSansExtraCondensed_200ExtraLight, SofiaSansExtraCondensed_300Light, SofiaSansExtraCondensed_400Regular, SofiaSansExtraCondensed_500Medium, SofiaSansExtraCondensed_600SemiBold, SofiaSansExtraCondensed_700Bold, SofiaSansExtraCondensed_800ExtraBold, SofiaSansExtraCondensed_900Black, SofiaSansExtraCondensed_100Thin_Italic, SofiaSansExtraCondensed_200ExtraLight_Italic, SofiaSansExtraCondensed_300Light_Italic, SofiaSansExtraCondensed_400Regular_Italic, SofiaSansExtraCondensed_500Medium_Italic, SofiaSansExtraCondensed_600SemiBold_Italic, SofiaSansExtraCondensed_700Bold_Italic, SofiaSansExtraCondensed_800ExtraBold_Italic, SofiaSansExtraCondensed_900Black_Italic } from '@expo-google-fonts/sofia-sans-extra-condensed';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    SofiaSansExtraCondensed_100Thin,
-    SofiaSansExtraCondensed_200ExtraLight,
-    SofiaSansExtraCondensed_300Light,
-    SofiaSansExtraCondensed_400Regular,
-    SofiaSansExtraCondensed_500Medium,
-    SofiaSansExtraCondensed_600SemiBold,
-    SofiaSansExtraCondensed_700Bold,
-    SofiaSansExtraCondensed_800ExtraBold,
-    SofiaSansExtraCondensed_900Black,
-    SofiaSansExtraCondensed_100Thin_Italic,
-    SofiaSansExtraCondensed_200ExtraLight_Italic,
-    SofiaSansExtraCondensed_300Light_Italic,
-    SofiaSansExtraCondensed_400Regular_Italic,
-    SofiaSansExtraCondensed_500Medium_Italic,
-    SofiaSansExtraCondensed_600SemiBold_Italic,
-    SofiaSansExtraCondensed_700Bold_Italic,
-    SofiaSansExtraCondensed_800ExtraBold_Italic,
-    SofiaSansExtraCondensed_900Black_Italic,
+    SofiaSansExtraCondensed_100Thin, 
+    SofiaSansExtraCondensed_200ExtraLight, 
+    SofiaSansExtraCondensed_300Light, 
+    SofiaSansExtraCondensed_400Regular, 
+    SofiaSansExtraCondensed_500Medium, 
+    SofiaSansExtraCondensed_600SemiBold, 
+    SofiaSansExtraCondensed_700Bold, 
+    SofiaSansExtraCondensed_800ExtraBold, 
+    SofiaSansExtraCondensed_900Black, 
+    SofiaSansExtraCondensed_100Thin_Italic, 
+    SofiaSansExtraCondensed_200ExtraLight_Italic, 
+    SofiaSansExtraCondensed_300Light_Italic, 
+    SofiaSansExtraCondensed_400Regular_Italic, 
+    SofiaSansExtraCondensed_500Medium_Italic, 
+    SofiaSansExtraCondensed_600SemiBold_Italic, 
+    SofiaSansExtraCondensed_700Bold_Italic, 
+    SofiaSansExtraCondensed_800ExtraBold_Italic, 
+    SofiaSansExtraCondensed_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_100Thin"
+        }}>
           Sofia Sans Extra Condensed Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_200ExtraLight"
+        }}>
           Sofia Sans Extra Condensed Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_300Light"
+        }}>
           Sofia Sans Extra Condensed Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_400Regular"
+        }}>
           Sofia Sans Extra Condensed Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_500Medium"
+        }}>
           Sofia Sans Extra Condensed Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_600SemiBold"
+        }}>
           Sofia Sans Extra Condensed Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_700Bold"
+        }}>
           Sofia Sans Extra Condensed Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_800ExtraBold"
+        }}>
           Sofia Sans Extra Condensed Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_900Black"
+        }}>
           Sofia Sans Extra Condensed Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_100Thin_Italic"
+        }}>
           Sofia Sans Extra Condensed Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_200ExtraLight_Italic"
+        }}>
           Sofia Sans Extra Condensed Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_300Light_Italic"
+        }}>
           Sofia Sans Extra Condensed Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_400Regular_Italic"
+        }}>
           Sofia Sans Extra Condensed Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_500Medium_Italic"
+        }}>
           Sofia Sans Extra Condensed Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_600SemiBold_Italic"
+        }}>
           Sofia Sans Extra Condensed Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_700Bold_Italic"
+        }}>
           Sofia Sans Extra Condensed Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_800ExtraBold_Italic"
+        }}>
           Sofia Sans Extra Condensed Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansExtraCondensed_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SofiaSansExtraCondensed_900Black_Italic"
+        }}>
           Sofia Sans Extra Condensed Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

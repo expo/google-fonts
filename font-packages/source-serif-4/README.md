@@ -33,54 +33,39 @@ This font family contains [16 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/source-serif-4 expo-font expo-app-loading
+npx expo install @expo-google-fonts/source-serif-4 expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  SourceSerif4_200ExtraLight,
-  SourceSerif4_300Light,
-  SourceSerif4_400Regular,
-  SourceSerif4_500Medium,
-  SourceSerif4_600SemiBold,
-  SourceSerif4_700Bold,
-  SourceSerif4_800ExtraBold,
-  SourceSerif4_900Black,
-  SourceSerif4_200ExtraLight_Italic,
-  SourceSerif4_300Light_Italic,
-  SourceSerif4_400Regular_Italic,
-  SourceSerif4_500Medium_Italic,
-  SourceSerif4_600SemiBold_Italic,
-  SourceSerif4_700Bold_Italic,
-  SourceSerif4_800ExtraBold_Italic,
-  SourceSerif4_900Black_Italic,
-} from '@expo-google-fonts/source-serif-4';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, SourceSerif4_200ExtraLight, SourceSerif4_300Light, SourceSerif4_400Regular, SourceSerif4_500Medium, SourceSerif4_600SemiBold, SourceSerif4_700Bold, SourceSerif4_800ExtraBold, SourceSerif4_900Black, SourceSerif4_200ExtraLight_Italic, SourceSerif4_300Light_Italic, SourceSerif4_400Regular_Italic, SourceSerif4_500Medium_Italic, SourceSerif4_600SemiBold_Italic, SourceSerif4_700Bold_Italic, SourceSerif4_800ExtraBold_Italic, SourceSerif4_900Black_Italic } from '@expo-google-fonts/source-serif-4';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    SourceSerif4_200ExtraLight,
-    SourceSerif4_300Light,
-    SourceSerif4_400Regular,
-    SourceSerif4_500Medium,
-    SourceSerif4_600SemiBold,
-    SourceSerif4_700Bold,
-    SourceSerif4_800ExtraBold,
-    SourceSerif4_900Black,
-    SourceSerif4_200ExtraLight_Italic,
-    SourceSerif4_300Light_Italic,
-    SourceSerif4_400Regular_Italic,
-    SourceSerif4_500Medium_Italic,
-    SourceSerif4_600SemiBold_Italic,
-    SourceSerif4_700Bold_Italic,
-    SourceSerif4_800ExtraBold_Italic,
-    SourceSerif4_900Black_Italic,
+    SourceSerif4_200ExtraLight, 
+    SourceSerif4_300Light, 
+    SourceSerif4_400Regular, 
+    SourceSerif4_500Medium, 
+    SourceSerif4_600SemiBold, 
+    SourceSerif4_700Bold, 
+    SourceSerif4_800ExtraBold, 
+    SourceSerif4_900Black, 
+    SourceSerif4_200ExtraLight_Italic, 
+    SourceSerif4_300Light_Italic, 
+    SourceSerif4_400Regular_Italic, 
+    SourceSerif4_500Medium_Italic, 
+    SourceSerif4_600SemiBold_Italic, 
+    SourceSerif4_700Bold_Italic, 
+    SourceSerif4_800ExtraBold_Italic, 
+    SourceSerif4_900Black_Italic
   });
 
   let fontSize = 24;
@@ -90,171 +75,139 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_200ExtraLight',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSerif4_200ExtraLight"
+        }}>
           Source Serif 4 Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSerif4_300Light"
+        }}>
           Source Serif 4 Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSerif4_400Regular"
+        }}>
           Source Serif 4 Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSerif4_500Medium"
+        }}>
           Source Serif 4 Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSerif4_600SemiBold"
+        }}>
           Source Serif 4 Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSerif4_700Bold"
+        }}>
           Source Serif 4 Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSerif4_800ExtraBold"
+        }}>
           Source Serif 4 Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSerif4_900Black"
+        }}>
           Source Serif 4 Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSerif4_200ExtraLight_Italic"
+        }}>
           Source Serif 4 Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSerif4_300Light_Italic"
+        }}>
           Source Serif 4 Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSerif4_400Regular_Italic"
+        }}>
           Source Serif 4 Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSerif4_500Medium_Italic"
+        }}>
           Source Serif 4 Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSerif4_600SemiBold_Italic"
+        }}>
           Source Serif 4 Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSerif4_700Bold_Italic"
+        }}>
           Source Serif 4 Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSerif4_800ExtraBold_Italic"
+        }}>
           Source Serif 4 Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SourceSerif4_900Black_Italic"
+        }}>
           Source Serif 4 Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -274,10 +227,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

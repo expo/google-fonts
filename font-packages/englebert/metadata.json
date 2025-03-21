@@ -2,12 +2,12 @@
   "family": "Englebert",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
+  "version": "v23",
+  "lastModified": "2025-03-03",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/englebert/v21/xn7iYH8w2XGrC8AR4HSxT_fYdN-WZw.ttf"
+    "regular": "https://fonts.gstatic.com/s/englebert/v23/xn7iYH8w2XGrC8AR4HSxT_fYdN-WZw.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/englebert/v21/xn7iYH8w2XGrC8AR4HSBTv3c.ttf"
+  "menu": "https://fonts.gstatic.com/s/englebert/v23/xn7iYH8w2XGrC8AR4HSBTv3c.ttf"
 }

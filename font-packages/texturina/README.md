@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/texturina expo-font expo-app-loading
+npx expo install @expo-google-fonts/texturina expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Texturina_100Thin,
-  Texturina_200ExtraLight,
-  Texturina_300Light,
-  Texturina_400Regular,
-  Texturina_500Medium,
-  Texturina_600SemiBold,
-  Texturina_700Bold,
-  Texturina_800ExtraBold,
-  Texturina_900Black,
-  Texturina_100Thin_Italic,
-  Texturina_200ExtraLight_Italic,
-  Texturina_300Light_Italic,
-  Texturina_400Regular_Italic,
-  Texturina_500Medium_Italic,
-  Texturina_600SemiBold_Italic,
-  Texturina_700Bold_Italic,
-  Texturina_800ExtraBold_Italic,
-  Texturina_900Black_Italic,
-} from '@expo-google-fonts/texturina';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Texturina_100Thin, Texturina_200ExtraLight, Texturina_300Light, Texturina_400Regular, Texturina_500Medium, Texturina_600SemiBold, Texturina_700Bold, Texturina_800ExtraBold, Texturina_900Black, Texturina_100Thin_Italic, Texturina_200ExtraLight_Italic, Texturina_300Light_Italic, Texturina_400Regular_Italic, Texturina_500Medium_Italic, Texturina_600SemiBold_Italic, Texturina_700Bold_Italic, Texturina_800ExtraBold_Italic, Texturina_900Black_Italic } from '@expo-google-fonts/texturina';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Texturina_100Thin,
-    Texturina_200ExtraLight,
-    Texturina_300Light,
-    Texturina_400Regular,
-    Texturina_500Medium,
-    Texturina_600SemiBold,
-    Texturina_700Bold,
-    Texturina_800ExtraBold,
-    Texturina_900Black,
-    Texturina_100Thin_Italic,
-    Texturina_200ExtraLight_Italic,
-    Texturina_300Light_Italic,
-    Texturina_400Regular_Italic,
-    Texturina_500Medium_Italic,
-    Texturina_600SemiBold_Italic,
-    Texturina_700Bold_Italic,
-    Texturina_800ExtraBold_Italic,
-    Texturina_900Black_Italic,
+    Texturina_100Thin, 
+    Texturina_200ExtraLight, 
+    Texturina_300Light, 
+    Texturina_400Regular, 
+    Texturina_500Medium, 
+    Texturina_600SemiBold, 
+    Texturina_700Bold, 
+    Texturina_800ExtraBold, 
+    Texturina_900Black, 
+    Texturina_100Thin_Italic, 
+    Texturina_200ExtraLight_Italic, 
+    Texturina_300Light_Italic, 
+    Texturina_400Regular_Italic, 
+    Texturina_500Medium_Italic, 
+    Texturina_600SemiBold_Italic, 
+    Texturina_700Bold_Italic, 
+    Texturina_800ExtraBold_Italic, 
+    Texturina_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_100Thin"
+        }}>
           Texturina Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_200ExtraLight"
+        }}>
           Texturina Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_300Light"
+        }}>
           Texturina Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_400Regular"
+        }}>
           Texturina Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_500Medium"
+        }}>
           Texturina Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_600SemiBold"
+        }}>
           Texturina Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_700Bold"
+        }}>
           Texturina Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_800ExtraBold"
+        }}>
           Texturina Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_900Black"
+        }}>
           Texturina Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_100Thin_Italic"
+        }}>
           Texturina Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_200ExtraLight_Italic"
+        }}>
           Texturina Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_300Light_Italic"
+        }}>
           Texturina Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_400Regular_Italic"
+        }}>
           Texturina Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_500Medium_Italic"
+        }}>
           Texturina Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_600SemiBold_Italic"
+        }}>
           Texturina Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_700Bold_Italic"
+        }}>
           Texturina Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_800ExtraBold_Italic"
+        }}>
           Texturina Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Texturina_900Black_Italic"
+        }}>
           Texturina Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

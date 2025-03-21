@@ -2,13 +2,13 @@
   "family": "Amiri Quran",
   "variants": ["regular"],
   "subsets": ["arabic", "latin"],
-  "version": "v14",
-  "lastModified": "2024-08-12",
+  "version": "v17",
+  "lastModified": "2025-03-03",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/amiriquran/v14/_Xmo-Hk0rD6DbUL4_vH8Zq5t7Cycsu-2.ttf"
+    "regular": "https://fonts.gstatic.com/s/amiriquran/v17/_Xmo-Hk0rD6DbUL4_vH8Zq5t7Cycsu-2.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/amiriquran/v14/_Xmo-Hk0rD6DbUL4_vH8Zp5s5ig.ttf",
+  "menu": "https://fonts.gstatic.com/s/amiriquran/v17/_Xmo-Hk0rD6DbUL4_vH8Zp5s5ig.ttf",
   "colorCapabilities": ["COLRv0", "SVG"]
 }

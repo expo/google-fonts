@@ -26,40 +26,32 @@ This font family contains [9 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/noto-sans-georgian expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-georgian expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansGeorgian_100Thin,
-  NotoSansGeorgian_200ExtraLight,
-  NotoSansGeorgian_300Light,
-  NotoSansGeorgian_400Regular,
-  NotoSansGeorgian_500Medium,
-  NotoSansGeorgian_600SemiBold,
-  NotoSansGeorgian_700Bold,
-  NotoSansGeorgian_800ExtraBold,
-  NotoSansGeorgian_900Black,
-} from '@expo-google-fonts/noto-sans-georgian';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, NotoSansGeorgian_100Thin, NotoSansGeorgian_200ExtraLight, NotoSansGeorgian_300Light, NotoSansGeorgian_400Regular, NotoSansGeorgian_500Medium, NotoSansGeorgian_600SemiBold, NotoSansGeorgian_700Bold, NotoSansGeorgian_800ExtraBold, NotoSansGeorgian_900Black } from '@expo-google-fonts/noto-sans-georgian';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    NotoSansGeorgian_100Thin,
-    NotoSansGeorgian_200ExtraLight,
-    NotoSansGeorgian_300Light,
-    NotoSansGeorgian_400Regular,
-    NotoSansGeorgian_500Medium,
-    NotoSansGeorgian_600SemiBold,
-    NotoSansGeorgian_700Bold,
-    NotoSansGeorgian_800ExtraBold,
-    NotoSansGeorgian_900Black,
+    NotoSansGeorgian_100Thin, 
+    NotoSansGeorgian_200ExtraLight, 
+    NotoSansGeorgian_300Light, 
+    NotoSansGeorgian_400Regular, 
+    NotoSansGeorgian_500Medium, 
+    NotoSansGeorgian_600SemiBold, 
+    NotoSansGeorgian_700Bold, 
+    NotoSansGeorgian_800ExtraBold, 
+    NotoSansGeorgian_900Black
   });
 
   let fontSize = 24;
@@ -69,101 +61,83 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansGeorgian_100Thin"
+        }}>
           Noto Sans Georgian Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansGeorgian_200ExtraLight"
+        }}>
           Noto Sans Georgian Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansGeorgian_300Light"
+        }}>
           Noto Sans Georgian Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansGeorgian_400Regular"
+        }}>
           Noto Sans Georgian Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansGeorgian_500Medium"
+        }}>
           Noto Sans Georgian Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansGeorgian_600SemiBold"
+        }}>
           Noto Sans Georgian Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansGeorgian_700Bold"
+        }}>
           Noto Sans Georgian Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansGeorgian_800ExtraBold"
+        }}>
           Noto Sans Georgian Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansGeorgian_900Black"
+        }}>
           Noto Sans Georgian Black
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -180,10 +154,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

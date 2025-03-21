@@ -26,40 +26,32 @@ This font family contains [9 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/noto-serif-malayalam expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-malayalam expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSerifMalayalam_100Thin,
-  NotoSerifMalayalam_200ExtraLight,
-  NotoSerifMalayalam_300Light,
-  NotoSerifMalayalam_400Regular,
-  NotoSerifMalayalam_500Medium,
-  NotoSerifMalayalam_600SemiBold,
-  NotoSerifMalayalam_700Bold,
-  NotoSerifMalayalam_800ExtraBold,
-  NotoSerifMalayalam_900Black,
-} from '@expo-google-fonts/noto-serif-malayalam';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, NotoSerifMalayalam_100Thin, NotoSerifMalayalam_200ExtraLight, NotoSerifMalayalam_300Light, NotoSerifMalayalam_400Regular, NotoSerifMalayalam_500Medium, NotoSerifMalayalam_600SemiBold, NotoSerifMalayalam_700Bold, NotoSerifMalayalam_800ExtraBold, NotoSerifMalayalam_900Black } from '@expo-google-fonts/noto-serif-malayalam';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    NotoSerifMalayalam_100Thin,
-    NotoSerifMalayalam_200ExtraLight,
-    NotoSerifMalayalam_300Light,
-    NotoSerifMalayalam_400Regular,
-    NotoSerifMalayalam_500Medium,
-    NotoSerifMalayalam_600SemiBold,
-    NotoSerifMalayalam_700Bold,
-    NotoSerifMalayalam_800ExtraBold,
-    NotoSerifMalayalam_900Black,
+    NotoSerifMalayalam_100Thin, 
+    NotoSerifMalayalam_200ExtraLight, 
+    NotoSerifMalayalam_300Light, 
+    NotoSerifMalayalam_400Regular, 
+    NotoSerifMalayalam_500Medium, 
+    NotoSerifMalayalam_600SemiBold, 
+    NotoSerifMalayalam_700Bold, 
+    NotoSerifMalayalam_800ExtraBold, 
+    NotoSerifMalayalam_900Black
   });
 
   let fontSize = 24;
@@ -69,101 +61,83 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMalayalam_100Thin"
+        }}>
           Noto Serif Malayalam Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMalayalam_200ExtraLight"
+        }}>
           Noto Serif Malayalam Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMalayalam_300Light"
+        }}>
           Noto Serif Malayalam Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMalayalam_400Regular"
+        }}>
           Noto Serif Malayalam Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMalayalam_500Medium"
+        }}>
           Noto Serif Malayalam Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMalayalam_600SemiBold"
+        }}>
           Noto Serif Malayalam Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMalayalam_700Bold"
+        }}>
           Noto Serif Malayalam Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMalayalam_800ExtraBold"
+        }}>
           Noto Serif Malayalam Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMalayalam_900Black"
+        }}>
           Noto Serif Malayalam Black
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -180,10 +154,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

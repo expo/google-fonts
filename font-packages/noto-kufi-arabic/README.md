@@ -26,40 +26,32 @@ This font family contains [9 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/noto-kufi-arabic expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-kufi-arabic expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoKufiArabic_100Thin,
-  NotoKufiArabic_200ExtraLight,
-  NotoKufiArabic_300Light,
-  NotoKufiArabic_400Regular,
-  NotoKufiArabic_500Medium,
-  NotoKufiArabic_600SemiBold,
-  NotoKufiArabic_700Bold,
-  NotoKufiArabic_800ExtraBold,
-  NotoKufiArabic_900Black,
-} from '@expo-google-fonts/noto-kufi-arabic';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, NotoKufiArabic_100Thin, NotoKufiArabic_200ExtraLight, NotoKufiArabic_300Light, NotoKufiArabic_400Regular, NotoKufiArabic_500Medium, NotoKufiArabic_600SemiBold, NotoKufiArabic_700Bold, NotoKufiArabic_800ExtraBold, NotoKufiArabic_900Black } from '@expo-google-fonts/noto-kufi-arabic';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    NotoKufiArabic_100Thin,
-    NotoKufiArabic_200ExtraLight,
-    NotoKufiArabic_300Light,
-    NotoKufiArabic_400Regular,
-    NotoKufiArabic_500Medium,
-    NotoKufiArabic_600SemiBold,
-    NotoKufiArabic_700Bold,
-    NotoKufiArabic_800ExtraBold,
-    NotoKufiArabic_900Black,
+    NotoKufiArabic_100Thin, 
+    NotoKufiArabic_200ExtraLight, 
+    NotoKufiArabic_300Light, 
+    NotoKufiArabic_400Regular, 
+    NotoKufiArabic_500Medium, 
+    NotoKufiArabic_600SemiBold, 
+    NotoKufiArabic_700Bold, 
+    NotoKufiArabic_800ExtraBold, 
+    NotoKufiArabic_900Black
   });
 
   let fontSize = 24;
@@ -69,101 +61,83 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoKufiArabic_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoKufiArabic_100Thin"
+        }}>
           Noto Kufi Arabic Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoKufiArabic_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoKufiArabic_200ExtraLight"
+        }}>
           Noto Kufi Arabic Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoKufiArabic_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoKufiArabic_300Light"
+        }}>
           Noto Kufi Arabic Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoKufiArabic_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoKufiArabic_400Regular"
+        }}>
           Noto Kufi Arabic Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoKufiArabic_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoKufiArabic_500Medium"
+        }}>
           Noto Kufi Arabic Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoKufiArabic_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoKufiArabic_600SemiBold"
+        }}>
           Noto Kufi Arabic Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoKufiArabic_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoKufiArabic_700Bold"
+        }}>
           Noto Kufi Arabic Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoKufiArabic_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoKufiArabic_800ExtraBold"
+        }}>
           Noto Kufi Arabic Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoKufiArabic_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoKufiArabic_900Black"
+        }}>
           Noto Kufi Arabic Black
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -180,10 +154,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

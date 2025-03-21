@@ -11,52 +11,57 @@ This package lets you use the [**Merriweather**](https://fonts.google.com/specim
 
 ![Merriweather](./font-family.png)
 
-This font family contains [8 styles](#-gallery).
+This font family contains [14 styles](#-gallery).
 
 - `Merriweather_300Light`
-- `Merriweather_300Light_Italic`
 - `Merriweather_400Regular`
-- `Merriweather_400Regular_Italic`
+- `Merriweather_500Medium`
+- `Merriweather_600SemiBold`
 - `Merriweather_700Bold`
-- `Merriweather_700Bold_Italic`
+- `Merriweather_800ExtraBold`
 - `Merriweather_900Black`
+- `Merriweather_300Light_Italic`
+- `Merriweather_400Regular_Italic`
+- `Merriweather_500Medium_Italic`
+- `Merriweather_600SemiBold_Italic`
+- `Merriweather_700Bold_Italic`
+- `Merriweather_800ExtraBold_Italic`
 - `Merriweather_900Black_Italic`
 
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/merriweather expo-font expo-app-loading
+npx expo install @expo-google-fonts/merriweather expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Merriweather_300Light,
-  Merriweather_300Light_Italic,
-  Merriweather_400Regular,
-  Merriweather_400Regular_Italic,
-  Merriweather_700Bold,
-  Merriweather_700Bold_Italic,
-  Merriweather_900Black,
-  Merriweather_900Black_Italic,
-} from '@expo-google-fonts/merriweather';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, Merriweather_300Light, Merriweather_400Regular, Merriweather_500Medium, Merriweather_600SemiBold, Merriweather_700Bold, Merriweather_800ExtraBold, Merriweather_900Black, Merriweather_300Light_Italic, Merriweather_400Regular_Italic, Merriweather_500Medium_Italic, Merriweather_600SemiBold_Italic, Merriweather_700Bold_Italic, Merriweather_800ExtraBold_Italic, Merriweather_900Black_Italic } from '@expo-google-fonts/merriweather';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    Merriweather_300Light,
-    Merriweather_300Light_Italic,
-    Merriweather_400Regular,
-    Merriweather_400Regular_Italic,
-    Merriweather_700Bold,
-    Merriweather_700Bold_Italic,
-    Merriweather_900Black,
-    Merriweather_900Black_Italic,
+    Merriweather_300Light, 
+    Merriweather_400Regular, 
+    Merriweather_500Medium, 
+    Merriweather_600SemiBold, 
+    Merriweather_700Bold, 
+    Merriweather_800ExtraBold, 
+    Merriweather_900Black, 
+    Merriweather_300Light_Italic, 
+    Merriweather_400Regular_Italic, 
+    Merriweather_500Medium_Italic, 
+    Merriweather_600SemiBold_Italic, 
+    Merriweather_700Bold_Italic, 
+    Merriweather_800ExtraBold_Italic, 
+    Merriweather_900Black_Italic
   });
 
   let fontSize = 24;
@@ -66,91 +71,123 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Merriweather_300Light',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Merriweather_300Light"
+        }}>
           Merriweather Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Merriweather_300Light_Italic',
-          }}>
-          Merriweather Light Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Merriweather_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Merriweather_400Regular"
+        }}>
           Merriweather Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Merriweather_400Regular_Italic',
-          }}>
-          Merriweather Italic
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Merriweather_500Medium"
+        }}>
+          Merriweather Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Merriweather_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Merriweather_600SemiBold"
+        }}>
+          Merriweather Semi Bold
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Merriweather_700Bold"
+        }}>
           Merriweather Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Merriweather_700Bold_Italic',
-          }}>
-          Merriweather Bold Italic
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Merriweather_800ExtraBold"
+        }}>
+          Merriweather Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Merriweather_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Merriweather_900Black"
+        }}>
           Merriweather Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Merriweather_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Merriweather_300Light_Italic"
+        }}>
+          Merriweather Light Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Merriweather_400Regular_Italic"
+        }}>
+          Merriweather Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Merriweather_500Medium_Italic"
+        }}>
+          Merriweather Medium Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Merriweather_600SemiBold_Italic"
+        }}>
+          Merriweather Semi Bold Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Merriweather_700Bold_Italic"
+        }}>
+          Merriweather Bold Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Merriweather_800ExtraBold_Italic"
+        }}>
+          Merriweather Extra Bold Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Merriweather_900Black_Italic"
+        }}>
           Merriweather Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -158,19 +195,19 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Merriweather_300Light](./Merriweather_300Light.ttf.png)|![Merriweather_300Light_Italic](./Merriweather_300Light_Italic.ttf.png)|![Merriweather_400Regular](./Merriweather_400Regular.ttf.png)||
-|![Merriweather_400Regular_Italic](./Merriweather_400Regular_Italic.ttf.png)|![Merriweather_700Bold](./Merriweather_700Bold.ttf.png)|![Merriweather_700Bold_Italic](./Merriweather_700Bold_Italic.ttf.png)||
-|![Merriweather_900Black](./Merriweather_900Black.ttf.png)|![Merriweather_900Black_Italic](./Merriweather_900Black_Italic.ttf.png)|||
+|![Merriweather_300Light](./Merriweather_300Light.ttf.png)|![Merriweather_400Regular](./Merriweather_400Regular.ttf.png)|![Merriweather_500Medium](./Merriweather_500Medium.ttf.png)||
+|![Merriweather_600SemiBold](./Merriweather_600SemiBold.ttf.png)|![Merriweather_700Bold](./Merriweather_700Bold.ttf.png)|![Merriweather_800ExtraBold](./Merriweather_800ExtraBold.ttf.png)||
+|![Merriweather_900Black](./Merriweather_900Black.ttf.png)|![Merriweather_300Light_Italic](./Merriweather_300Light_Italic.ttf.png)|![Merriweather_400Regular_Italic](./Merriweather_400Regular_Italic.ttf.png)||
+|![Merriweather_500Medium_Italic](./Merriweather_500Medium_Italic.ttf.png)|![Merriweather_600SemiBold_Italic](./Merriweather_600SemiBold_Italic.ttf.png)|![Merriweather_700Bold_Italic](./Merriweather_700Bold_Italic.ttf.png)||
+|![Merriweather_800ExtraBold_Italic](./Merriweather_800ExtraBold_Italic.ttf.png)|![Merriweather_900Black_Italic](./Merriweather_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

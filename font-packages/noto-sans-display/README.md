@@ -35,58 +35,41 @@ This font family contains [18 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/noto-sans-display expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-display expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansDisplay_100Thin,
-  NotoSansDisplay_200ExtraLight,
-  NotoSansDisplay_300Light,
-  NotoSansDisplay_400Regular,
-  NotoSansDisplay_500Medium,
-  NotoSansDisplay_600SemiBold,
-  NotoSansDisplay_700Bold,
-  NotoSansDisplay_800ExtraBold,
-  NotoSansDisplay_900Black,
-  NotoSansDisplay_100Thin_Italic,
-  NotoSansDisplay_200ExtraLight_Italic,
-  NotoSansDisplay_300Light_Italic,
-  NotoSansDisplay_400Regular_Italic,
-  NotoSansDisplay_500Medium_Italic,
-  NotoSansDisplay_600SemiBold_Italic,
-  NotoSansDisplay_700Bold_Italic,
-  NotoSansDisplay_800ExtraBold_Italic,
-  NotoSansDisplay_900Black_Italic,
-} from '@expo-google-fonts/noto-sans-display';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, NotoSansDisplay_100Thin, NotoSansDisplay_200ExtraLight, NotoSansDisplay_300Light, NotoSansDisplay_400Regular, NotoSansDisplay_500Medium, NotoSansDisplay_600SemiBold, NotoSansDisplay_700Bold, NotoSansDisplay_800ExtraBold, NotoSansDisplay_900Black, NotoSansDisplay_100Thin_Italic, NotoSansDisplay_200ExtraLight_Italic, NotoSansDisplay_300Light_Italic, NotoSansDisplay_400Regular_Italic, NotoSansDisplay_500Medium_Italic, NotoSansDisplay_600SemiBold_Italic, NotoSansDisplay_700Bold_Italic, NotoSansDisplay_800ExtraBold_Italic, NotoSansDisplay_900Black_Italic } from '@expo-google-fonts/noto-sans-display';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    NotoSansDisplay_100Thin,
-    NotoSansDisplay_200ExtraLight,
-    NotoSansDisplay_300Light,
-    NotoSansDisplay_400Regular,
-    NotoSansDisplay_500Medium,
-    NotoSansDisplay_600SemiBold,
-    NotoSansDisplay_700Bold,
-    NotoSansDisplay_800ExtraBold,
-    NotoSansDisplay_900Black,
-    NotoSansDisplay_100Thin_Italic,
-    NotoSansDisplay_200ExtraLight_Italic,
-    NotoSansDisplay_300Light_Italic,
-    NotoSansDisplay_400Regular_Italic,
-    NotoSansDisplay_500Medium_Italic,
-    NotoSansDisplay_600SemiBold_Italic,
-    NotoSansDisplay_700Bold_Italic,
-    NotoSansDisplay_800ExtraBold_Italic,
-    NotoSansDisplay_900Black_Italic,
+    NotoSansDisplay_100Thin, 
+    NotoSansDisplay_200ExtraLight, 
+    NotoSansDisplay_300Light, 
+    NotoSansDisplay_400Regular, 
+    NotoSansDisplay_500Medium, 
+    NotoSansDisplay_600SemiBold, 
+    NotoSansDisplay_700Bold, 
+    NotoSansDisplay_800ExtraBold, 
+    NotoSansDisplay_900Black, 
+    NotoSansDisplay_100Thin_Italic, 
+    NotoSansDisplay_200ExtraLight_Italic, 
+    NotoSansDisplay_300Light_Italic, 
+    NotoSansDisplay_400Regular_Italic, 
+    NotoSansDisplay_500Medium_Italic, 
+    NotoSansDisplay_600SemiBold_Italic, 
+    NotoSansDisplay_700Bold_Italic, 
+    NotoSansDisplay_800ExtraBold_Italic, 
+    NotoSansDisplay_900Black_Italic
   });
 
   let fontSize = 24;
@@ -96,191 +79,155 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_100Thin"
+        }}>
           Noto Sans Display Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_200ExtraLight"
+        }}>
           Noto Sans Display Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_300Light"
+        }}>
           Noto Sans Display Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_400Regular"
+        }}>
           Noto Sans Display Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_500Medium"
+        }}>
           Noto Sans Display Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_600SemiBold"
+        }}>
           Noto Sans Display Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_700Bold"
+        }}>
           Noto Sans Display Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_800ExtraBold"
+        }}>
           Noto Sans Display Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_900Black"
+        }}>
           Noto Sans Display Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_100Thin_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_100Thin_Italic"
+        }}>
           Noto Sans Display Thin Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_200ExtraLight_Italic"
+        }}>
           Noto Sans Display Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_300Light_Italic"
+        }}>
           Noto Sans Display Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_400Regular_Italic"
+        }}>
           Noto Sans Display Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_500Medium_Italic"
+        }}>
           Noto Sans Display Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_600SemiBold_Italic"
+        }}>
           Noto Sans Display Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_700Bold_Italic"
+        }}>
           Noto Sans Display Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_800ExtraBold_Italic"
+        }}>
           Noto Sans Display Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansDisplay_900Black_Italic"
+        }}>
           Noto Sans Display Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -300,10 +247,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

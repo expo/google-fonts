@@ -26,40 +26,32 @@ This font family contains [9 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/noto-serif-myanmar expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-myanmar expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSerifMyanmar_100Thin,
-  NotoSerifMyanmar_200ExtraLight,
-  NotoSerifMyanmar_300Light,
-  NotoSerifMyanmar_400Regular,
-  NotoSerifMyanmar_500Medium,
-  NotoSerifMyanmar_600SemiBold,
-  NotoSerifMyanmar_700Bold,
-  NotoSerifMyanmar_800ExtraBold,
-  NotoSerifMyanmar_900Black,
-} from '@expo-google-fonts/noto-serif-myanmar';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, NotoSerifMyanmar_100Thin, NotoSerifMyanmar_200ExtraLight, NotoSerifMyanmar_300Light, NotoSerifMyanmar_400Regular, NotoSerifMyanmar_500Medium, NotoSerifMyanmar_600SemiBold, NotoSerifMyanmar_700Bold, NotoSerifMyanmar_800ExtraBold, NotoSerifMyanmar_900Black } from '@expo-google-fonts/noto-serif-myanmar';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    NotoSerifMyanmar_100Thin,
-    NotoSerifMyanmar_200ExtraLight,
-    NotoSerifMyanmar_300Light,
-    NotoSerifMyanmar_400Regular,
-    NotoSerifMyanmar_500Medium,
-    NotoSerifMyanmar_600SemiBold,
-    NotoSerifMyanmar_700Bold,
-    NotoSerifMyanmar_800ExtraBold,
-    NotoSerifMyanmar_900Black,
+    NotoSerifMyanmar_100Thin, 
+    NotoSerifMyanmar_200ExtraLight, 
+    NotoSerifMyanmar_300Light, 
+    NotoSerifMyanmar_400Regular, 
+    NotoSerifMyanmar_500Medium, 
+    NotoSerifMyanmar_600SemiBold, 
+    NotoSerifMyanmar_700Bold, 
+    NotoSerifMyanmar_800ExtraBold, 
+    NotoSerifMyanmar_900Black
   });
 
   let fontSize = 24;
@@ -69,101 +61,83 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMyanmar_100Thin"
+        }}>
           Noto Serif Myanmar Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMyanmar_200ExtraLight"
+        }}>
           Noto Serif Myanmar Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMyanmar_300Light"
+        }}>
           Noto Serif Myanmar Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMyanmar_400Regular"
+        }}>
           Noto Serif Myanmar Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMyanmar_500Medium"
+        }}>
           Noto Serif Myanmar Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMyanmar_600SemiBold"
+        }}>
           Noto Serif Myanmar Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMyanmar_700Bold"
+        }}>
           Noto Serif Myanmar Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMyanmar_800ExtraBold"
+        }}>
           Noto Serif Myanmar Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSerifMyanmar_900Black"
+        }}>
           Noto Serif Myanmar Black
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -180,10 +154,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

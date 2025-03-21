@@ -33,54 +33,39 @@ This font family contains [16 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/reddit-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/reddit-sans expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  RedditSans_200ExtraLight,
-  RedditSans_300Light,
-  RedditSans_400Regular,
-  RedditSans_500Medium,
-  RedditSans_600SemiBold,
-  RedditSans_700Bold,
-  RedditSans_800ExtraBold,
-  RedditSans_900Black,
-  RedditSans_200ExtraLight_Italic,
-  RedditSans_300Light_Italic,
-  RedditSans_400Regular_Italic,
-  RedditSans_500Medium_Italic,
-  RedditSans_600SemiBold_Italic,
-  RedditSans_700Bold_Italic,
-  RedditSans_800ExtraBold_Italic,
-  RedditSans_900Black_Italic,
-} from '@expo-google-fonts/reddit-sans';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, RedditSans_200ExtraLight, RedditSans_300Light, RedditSans_400Regular, RedditSans_500Medium, RedditSans_600SemiBold, RedditSans_700Bold, RedditSans_800ExtraBold, RedditSans_900Black, RedditSans_200ExtraLight_Italic, RedditSans_300Light_Italic, RedditSans_400Regular_Italic, RedditSans_500Medium_Italic, RedditSans_600SemiBold_Italic, RedditSans_700Bold_Italic, RedditSans_800ExtraBold_Italic, RedditSans_900Black_Italic } from '@expo-google-fonts/reddit-sans';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    RedditSans_200ExtraLight,
-    RedditSans_300Light,
-    RedditSans_400Regular,
-    RedditSans_500Medium,
-    RedditSans_600SemiBold,
-    RedditSans_700Bold,
-    RedditSans_800ExtraBold,
-    RedditSans_900Black,
-    RedditSans_200ExtraLight_Italic,
-    RedditSans_300Light_Italic,
-    RedditSans_400Regular_Italic,
-    RedditSans_500Medium_Italic,
-    RedditSans_600SemiBold_Italic,
-    RedditSans_700Bold_Italic,
-    RedditSans_800ExtraBold_Italic,
-    RedditSans_900Black_Italic,
+    RedditSans_200ExtraLight, 
+    RedditSans_300Light, 
+    RedditSans_400Regular, 
+    RedditSans_500Medium, 
+    RedditSans_600SemiBold, 
+    RedditSans_700Bold, 
+    RedditSans_800ExtraBold, 
+    RedditSans_900Black, 
+    RedditSans_200ExtraLight_Italic, 
+    RedditSans_300Light_Italic, 
+    RedditSans_400Regular_Italic, 
+    RedditSans_500Medium_Italic, 
+    RedditSans_600SemiBold_Italic, 
+    RedditSans_700Bold_Italic, 
+    RedditSans_800ExtraBold_Italic, 
+    RedditSans_900Black_Italic
   });
 
   let fontSize = 24;
@@ -90,171 +75,139 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_200ExtraLight',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RedditSans_200ExtraLight"
+        }}>
           Reddit Sans Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RedditSans_300Light"
+        }}>
           Reddit Sans Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RedditSans_400Regular"
+        }}>
           Reddit Sans Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RedditSans_500Medium"
+        }}>
           Reddit Sans Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RedditSans_600SemiBold"
+        }}>
           Reddit Sans Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RedditSans_700Bold"
+        }}>
           Reddit Sans Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RedditSans_800ExtraBold"
+        }}>
           Reddit Sans Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RedditSans_900Black"
+        }}>
           Reddit Sans Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RedditSans_200ExtraLight_Italic"
+        }}>
           Reddit Sans Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RedditSans_300Light_Italic"
+        }}>
           Reddit Sans Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RedditSans_400Regular_Italic"
+        }}>
           Reddit Sans Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RedditSans_500Medium_Italic"
+        }}>
           Reddit Sans Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RedditSans_600SemiBold_Italic"
+        }}>
           Reddit Sans Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RedditSans_700Bold_Italic"
+        }}>
           Reddit Sans Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RedditSans_800ExtraBold_Italic"
+        }}>
           Reddit Sans Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "RedditSans_900Black_Italic"
+        }}>
           Reddit Sans Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -274,10 +227,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

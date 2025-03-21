@@ -26,40 +26,32 @@ This font family contains [9 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/noto-sans-khmer expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-khmer expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansKhmer_100Thin,
-  NotoSansKhmer_200ExtraLight,
-  NotoSansKhmer_300Light,
-  NotoSansKhmer_400Regular,
-  NotoSansKhmer_500Medium,
-  NotoSansKhmer_600SemiBold,
-  NotoSansKhmer_700Bold,
-  NotoSansKhmer_800ExtraBold,
-  NotoSansKhmer_900Black,
-} from '@expo-google-fonts/noto-sans-khmer';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, NotoSansKhmer_100Thin, NotoSansKhmer_200ExtraLight, NotoSansKhmer_300Light, NotoSansKhmer_400Regular, NotoSansKhmer_500Medium, NotoSansKhmer_600SemiBold, NotoSansKhmer_700Bold, NotoSansKhmer_800ExtraBold, NotoSansKhmer_900Black } from '@expo-google-fonts/noto-sans-khmer';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    NotoSansKhmer_100Thin,
-    NotoSansKhmer_200ExtraLight,
-    NotoSansKhmer_300Light,
-    NotoSansKhmer_400Regular,
-    NotoSansKhmer_500Medium,
-    NotoSansKhmer_600SemiBold,
-    NotoSansKhmer_700Bold,
-    NotoSansKhmer_800ExtraBold,
-    NotoSansKhmer_900Black,
+    NotoSansKhmer_100Thin, 
+    NotoSansKhmer_200ExtraLight, 
+    NotoSansKhmer_300Light, 
+    NotoSansKhmer_400Regular, 
+    NotoSansKhmer_500Medium, 
+    NotoSansKhmer_600SemiBold, 
+    NotoSansKhmer_700Bold, 
+    NotoSansKhmer_800ExtraBold, 
+    NotoSansKhmer_900Black
   });
 
   let fontSize = 24;
@@ -69,101 +61,83 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_100Thin',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansKhmer_100Thin"
+        }}>
           Noto Sans Khmer Thin
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_200ExtraLight',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansKhmer_200ExtraLight"
+        }}>
           Noto Sans Khmer Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansKhmer_300Light"
+        }}>
           Noto Sans Khmer Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansKhmer_400Regular"
+        }}>
           Noto Sans Khmer Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansKhmer_500Medium"
+        }}>
           Noto Sans Khmer Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansKhmer_600SemiBold"
+        }}>
           Noto Sans Khmer Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansKhmer_700Bold"
+        }}>
           Noto Sans Khmer Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansKhmer_800ExtraBold"
+        }}>
           Noto Sans Khmer Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "NotoSansKhmer_900Black"
+        }}>
           Noto Sans Khmer Black
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -180,10 +154,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

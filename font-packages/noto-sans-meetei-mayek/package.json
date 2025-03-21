@@ -7,5 +7,7 @@
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/noto-sans-meetei-mayek#readme",
   "author": "Expo Team <team@expo.io>",
   "license": "MIT",
-  "publishConfig": { "access": "public" }
+  "publishConfig": {
+    "access": "public"
+  }
 }

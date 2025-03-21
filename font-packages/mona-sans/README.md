@@ -33,54 +33,39 @@ This font family contains [16 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/mona-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/mona-sans expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  MonaSans_200ExtraLight,
-  MonaSans_300Light,
-  MonaSans_400Regular,
-  MonaSans_500Medium,
-  MonaSans_600SemiBold,
-  MonaSans_700Bold,
-  MonaSans_800ExtraBold,
-  MonaSans_900Black,
-  MonaSans_200ExtraLight_Italic,
-  MonaSans_300Light_Italic,
-  MonaSans_400Regular_Italic,
-  MonaSans_500Medium_Italic,
-  MonaSans_600SemiBold_Italic,
-  MonaSans_700Bold_Italic,
-  MonaSans_800ExtraBold_Italic,
-  MonaSans_900Black_Italic,
-} from '@expo-google-fonts/mona-sans';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, MonaSans_200ExtraLight, MonaSans_300Light, MonaSans_400Regular, MonaSans_500Medium, MonaSans_600SemiBold, MonaSans_700Bold, MonaSans_800ExtraBold, MonaSans_900Black, MonaSans_200ExtraLight_Italic, MonaSans_300Light_Italic, MonaSans_400Regular_Italic, MonaSans_500Medium_Italic, MonaSans_600SemiBold_Italic, MonaSans_700Bold_Italic, MonaSans_800ExtraBold_Italic, MonaSans_900Black_Italic } from '@expo-google-fonts/mona-sans';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    MonaSans_200ExtraLight,
-    MonaSans_300Light,
-    MonaSans_400Regular,
-    MonaSans_500Medium,
-    MonaSans_600SemiBold,
-    MonaSans_700Bold,
-    MonaSans_800ExtraBold,
-    MonaSans_900Black,
-    MonaSans_200ExtraLight_Italic,
-    MonaSans_300Light_Italic,
-    MonaSans_400Regular_Italic,
-    MonaSans_500Medium_Italic,
-    MonaSans_600SemiBold_Italic,
-    MonaSans_700Bold_Italic,
-    MonaSans_800ExtraBold_Italic,
-    MonaSans_900Black_Italic,
+    MonaSans_200ExtraLight, 
+    MonaSans_300Light, 
+    MonaSans_400Regular, 
+    MonaSans_500Medium, 
+    MonaSans_600SemiBold, 
+    MonaSans_700Bold, 
+    MonaSans_800ExtraBold, 
+    MonaSans_900Black, 
+    MonaSans_200ExtraLight_Italic, 
+    MonaSans_300Light_Italic, 
+    MonaSans_400Regular_Italic, 
+    MonaSans_500Medium_Italic, 
+    MonaSans_600SemiBold_Italic, 
+    MonaSans_700Bold_Italic, 
+    MonaSans_800ExtraBold_Italic, 
+    MonaSans_900Black_Italic
   });
 
   let fontSize = 24;
@@ -90,171 +75,139 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_200ExtraLight',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MonaSans_200ExtraLight"
+        }}>
           Mona Sans Extra Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_300Light',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MonaSans_300Light"
+        }}>
           Mona Sans Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MonaSans_400Regular"
+        }}>
           Mona Sans Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MonaSans_500Medium"
+        }}>
           Mona Sans Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MonaSans_600SemiBold"
+        }}>
           Mona Sans Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MonaSans_700Bold"
+        }}>
           Mona Sans Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MonaSans_800ExtraBold"
+        }}>
           Mona Sans Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MonaSans_900Black"
+        }}>
           Mona Sans Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_200ExtraLight_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MonaSans_200ExtraLight_Italic"
+        }}>
           Mona Sans Extra Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MonaSans_300Light_Italic"
+        }}>
           Mona Sans Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MonaSans_400Regular_Italic"
+        }}>
           Mona Sans Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MonaSans_500Medium_Italic"
+        }}>
           Mona Sans Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MonaSans_600SemiBold_Italic"
+        }}>
           Mona Sans Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MonaSans_700Bold_Italic"
+        }}>
           Mona Sans Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MonaSans_800ExtraBold_Italic"
+        }}>
           Mona Sans Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MonaSans_900Black_Italic"
+        }}>
           Mona Sans Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -274,10 +227,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

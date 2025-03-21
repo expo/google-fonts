@@ -27,42 +27,33 @@ This font family contains [10 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/alegreya-sc expo-font expo-app-loading
+npx expo install @expo-google-fonts/alegreya-sc expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  AlegreyaSC_400Regular,
-  AlegreyaSC_400Regular_Italic,
-  AlegreyaSC_500Medium,
-  AlegreyaSC_500Medium_Italic,
-  AlegreyaSC_700Bold,
-  AlegreyaSC_700Bold_Italic,
-  AlegreyaSC_800ExtraBold,
-  AlegreyaSC_800ExtraBold_Italic,
-  AlegreyaSC_900Black,
-  AlegreyaSC_900Black_Italic,
-} from '@expo-google-fonts/alegreya-sc';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, AlegreyaSC_400Regular, AlegreyaSC_400Regular_Italic, AlegreyaSC_500Medium, AlegreyaSC_500Medium_Italic, AlegreyaSC_700Bold, AlegreyaSC_700Bold_Italic, AlegreyaSC_800ExtraBold, AlegreyaSC_800ExtraBold_Italic, AlegreyaSC_900Black, AlegreyaSC_900Black_Italic } from '@expo-google-fonts/alegreya-sc';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    AlegreyaSC_400Regular,
-    AlegreyaSC_400Regular_Italic,
-    AlegreyaSC_500Medium,
-    AlegreyaSC_500Medium_Italic,
-    AlegreyaSC_700Bold,
-    AlegreyaSC_700Bold_Italic,
-    AlegreyaSC_800ExtraBold,
-    AlegreyaSC_800ExtraBold_Italic,
-    AlegreyaSC_900Black,
-    AlegreyaSC_900Black_Italic,
+    AlegreyaSC_400Regular, 
+    AlegreyaSC_400Regular_Italic, 
+    AlegreyaSC_500Medium, 
+    AlegreyaSC_500Medium_Italic, 
+    AlegreyaSC_700Bold, 
+    AlegreyaSC_700Bold_Italic, 
+    AlegreyaSC_800ExtraBold, 
+    AlegreyaSC_800ExtraBold_Italic, 
+    AlegreyaSC_900Black, 
+    AlegreyaSC_900Black_Italic
   });
 
   let fontSize = 24;
@@ -72,111 +63,91 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSC_400Regular',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlegreyaSC_400Regular"
+        }}>
           Alegreya SC Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSC_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlegreyaSC_400Regular_Italic"
+        }}>
           Alegreya SC Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSC_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlegreyaSC_500Medium"
+        }}>
           Alegreya SC Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSC_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlegreyaSC_500Medium_Italic"
+        }}>
           Alegreya SC Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSC_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlegreyaSC_700Bold"
+        }}>
           Alegreya SC Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSC_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlegreyaSC_700Bold_Italic"
+        }}>
           Alegreya SC Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSC_800ExtraBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlegreyaSC_800ExtraBold"
+        }}>
           Alegreya SC Extra Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSC_800ExtraBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlegreyaSC_800ExtraBold_Italic"
+        }}>
           Alegreya SC Extra Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSC_900Black',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlegreyaSC_900Black"
+        }}>
           Alegreya SC Black
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSC_900Black_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "AlegreyaSC_900Black_Italic"
+        }}>
           Alegreya SC Black Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -194,10 +165,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 

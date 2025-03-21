@@ -2,15 +2,15 @@
   "family": "Playwrite AR",
   "variants": ["100", "200", "300", "regular"],
   "subsets": ["latin"],
-  "version": "v4",
-  "lastModified": "2025-01-28",
+  "version": "v5",
+  "lastModified": "2025-03-03",
   "files": {
-    "100": "https://fonts.gstatic.com/s/playwritear/v4/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-fteqf-ES67xIO8.ttf",
-    "200": "https://fonts.gstatic.com/s/playwritear/v4/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-Xtfqf-ES67xIO8.ttf",
-    "300": "https://fonts.gstatic.com/s/playwritear/v4/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-aVfqf-ES67xIO8.ttf",
-    "regular": "https://fonts.gstatic.com/s/playwritear/v4/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-ftfqf-ES67xIO8.ttf"
+    "100": "https://fonts.gstatic.com/s/playwritear/v5/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-fteqf-ES67xIO8.ttf",
+    "200": "https://fonts.gstatic.com/s/playwritear/v5/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-Xtfqf-ES67xIO8.ttf",
+    "300": "https://fonts.gstatic.com/s/playwritear/v5/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-aVfqf-ES67xIO8.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwritear/v5/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-ftfqf-ES67xIO8.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/playwritear/v4/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-ftfmf6OTw.ttf"
+  "menu": "https://fonts.gstatic.com/s/playwritear/v5/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-ftfmf6OTw.ttf"
 }

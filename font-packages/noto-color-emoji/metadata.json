@@ -2,13 +2,13 @@
   "family": "Noto Color Emoji",
   "variants": ["regular"],
   "subsets": ["emoji"],
-  "version": "v32",
-  "lastModified": "2024-09-03",
+  "version": "v34",
+  "lastModified": "2025-03-03",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notocoloremoji/v32/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFab5s79iz64w.ttf"
+    "regular": "https://fonts.gstatic.com/s/notocoloremoji/v34/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFab5s79iz64w.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notocoloremoji/v32/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFWb9m6w.ttf",
+  "menu": "https://fonts.gstatic.com/s/notocoloremoji/v34/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFWb9m6w.ttf",
   "colorCapabilities": ["COLRv1", "SVG"]
 }

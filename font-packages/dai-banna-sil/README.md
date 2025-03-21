@@ -27,42 +27,33 @@ This font family contains [10 styles](#-gallery).
 ## Usage
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
+
 ```sh
-expo install @expo-google-fonts/dai-banna-sil expo-font expo-app-loading
+npx expo install @expo-google-fonts/dai-banna-sil expo-font expo-app-loading
 ```
 
 Now add code like this to your project
-```js
-import React, { useState, useEffect } from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  DaiBannaSIL_300Light,
-  DaiBannaSIL_300Light_Italic,
-  DaiBannaSIL_400Regular,
-  DaiBannaSIL_400Regular_Italic,
-  DaiBannaSIL_500Medium,
-  DaiBannaSIL_500Medium_Italic,
-  DaiBannaSIL_600SemiBold,
-  DaiBannaSIL_600SemiBold_Italic,
-  DaiBannaSIL_700Bold,
-  DaiBannaSIL_700Bold_Italic,
-} from '@expo-google-fonts/dai-banna-sil';
+```js
+import React, { useState, useEffect } from "react";
+
+import { Text, View, StyleSheet } from "react-native";
+import AppLoading from "expo-app-loading";
+import { useFonts, DaiBannaSIL_300Light, DaiBannaSIL_300Light_Italic, DaiBannaSIL_400Regular, DaiBannaSIL_400Regular_Italic, DaiBannaSIL_500Medium, DaiBannaSIL_500Medium_Italic, DaiBannaSIL_600SemiBold, DaiBannaSIL_600SemiBold_Italic, DaiBannaSIL_700Bold, DaiBannaSIL_700Bold_Italic } from '@expo-google-fonts/dai-banna-sil';
 
 export default () => {
+
   let [fontsLoaded] = useFonts({
-    DaiBannaSIL_300Light,
-    DaiBannaSIL_300Light_Italic,
-    DaiBannaSIL_400Regular,
-    DaiBannaSIL_400Regular_Italic,
-    DaiBannaSIL_500Medium,
-    DaiBannaSIL_500Medium_Italic,
-    DaiBannaSIL_600SemiBold,
-    DaiBannaSIL_600SemiBold_Italic,
-    DaiBannaSIL_700Bold,
-    DaiBannaSIL_700Bold_Italic,
+    DaiBannaSIL_300Light, 
+    DaiBannaSIL_300Light_Italic, 
+    DaiBannaSIL_400Regular, 
+    DaiBannaSIL_400Regular_Italic, 
+    DaiBannaSIL_500Medium, 
+    DaiBannaSIL_500Medium_Italic, 
+    DaiBannaSIL_600SemiBold, 
+    DaiBannaSIL_600SemiBold_Italic, 
+    DaiBannaSIL_700Bold, 
+    DaiBannaSIL_700Bold_Italic
   });
 
   let fontSize = 24;
@@ -72,111 +63,91 @@ export default () => {
     return <AppLoading />;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_300Light',
-          }}>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "DaiBannaSIL_300Light"
+        }}>
           Dai Banna SIL Light
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_300Light_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "DaiBannaSIL_300Light_Italic"
+        }}>
           Dai Banna SIL Light Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_400Regular',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "DaiBannaSIL_400Regular"
+        }}>
           Dai Banna SIL Regular
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_400Regular_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "DaiBannaSIL_400Regular_Italic"
+        }}>
           Dai Banna SIL Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_500Medium',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "DaiBannaSIL_500Medium"
+        }}>
           Dai Banna SIL Medium
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_500Medium_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "DaiBannaSIL_500Medium_Italic"
+        }}>
           Dai Banna SIL Medium Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_600SemiBold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "DaiBannaSIL_600SemiBold"
+        }}>
           Dai Banna SIL Semi Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_600SemiBold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "DaiBannaSIL_600SemiBold_Italic"
+        }}>
           Dai Banna SIL Semi Bold Italic
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_700Bold',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "DaiBannaSIL_700Bold"
+        }}>
           Dai Banna SIL Bold
         </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_700Bold_Italic',
-          }}>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "DaiBannaSIL_700Bold_Italic"
+        }}>
           Dai Banna SIL Bold Italic
         </Text>
       </View>
     );
   }
 };
-
 ```
 
 ## 🔡 Gallery
@@ -194,10 +165,8 @@ export default () => {
 
 If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
 
-You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
-over the network at runtime instead of adding the asset as a file to your project, so it may take longer
-for your app to get to interactivity at startup, but it is extremely convenient
-for playing around with any style that you want.
+You can import _any_ font style from any Expo Google Fonts package from it. It will load the fonts over the network at runtime instead of adding the asset as a file to your project, so it may take longer for your app to get to interactivity at startup, but it is extremely convenient for playing around with any style that you want.
+
 
 ## 📖 License
 
