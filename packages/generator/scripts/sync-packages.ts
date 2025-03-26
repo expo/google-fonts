@@ -4,6 +4,7 @@ import currentDirectoryData from '../directory-data.json';
 import { downloadFontAssets } from '../downloadFontAssets';
 import { generateImages } from '../generateImages';
 import getGoogleFontsApiKey from '../google-fonts-api-key';
+import { generateFontPackage } from '../shared';
 import { FontItem } from '../types';
 const currentDirectoryItems = currentDirectoryData.items as FontItem[];
 
@@ -44,6 +45,8 @@ async function syncPackages() {
       await downloadFontAssets(newPackage);
       console.log('\nGenerating images for', newPackage.family);
       await generateImages(newPackage);
+      console.log('\nGenerating package for', newPackage.family);
+      await generateFontPackage(newPackage);
     }
   }
 
@@ -54,6 +57,8 @@ async function syncPackages() {
       await downloadFontAssets(changedPackage);
       console.log('\nGenerating images for', changedPackage.family);
       await generateImages(changedPackage);
+      console.log('\nGenerating package for', changedPackage.family);
+      await generateFontPackage(changedPackage);
     }
   }
 

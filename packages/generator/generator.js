@@ -5,7 +5,6 @@ const fsExtra = require('fs-extra');
 const { default: PQueue } = require('p-queue');
 const path = require('path');
 const physicalCpuCount = require('physical-cpu-count');
-const prettier = require('prettier');
 
 const contributors = require('./contributors');
 const fontDirectory = require('./directory-data.json');
@@ -20,46 +19,21 @@ const {
   varNameForWebfont,
   generateImageForFontVariant,
   generatePng,
+  FontPackagesDir,
+  generateFontPackage,
+  getPackageNameForWebfont,
 } = require('./shared');
-const PackageVersion = require('../../package.json').version;
+const { createFileFromTemplate } = require('./shared');
+const { PackageVersion } = require('./shared');
+const { getDefaultVariantKeyForWebfont } = require('./shared');
+const { generateTableForVariants } = require('./shared');
+const { generatePackageHeaderImage } = require('./shared');
+const { getDisplayNameForFontVariant } = require('./shared');
 
-// Constants
-
-const VariantNames = {
-  100: 'Thin',
-  200: 'Extra Light',
-  300: 'Light',
-  regular: 'Regular',
-  500: 'Medium',
-  600: 'Semi Bold',
-  700: 'Bold',
-  800: 'Extra Bold',
-  900: 'Black',
-  '100italic': 'Thin Italic',
-  '200italic': 'Extra Light Italic',
-  '300italic': 'Light Italic',
-  italic: 'Italic',
-  '500italic': 'Medium Italic',
-  '600italic': 'Semi Bold Italic',
-  '700italic': 'Bold Italic',
-  '800italic': 'Extra Bold Italic',
-  '900italic': 'Black Italic',
-};
-
-const FontPackagesDir = path.join(ProjectRootDir, 'font-packages');
 const FontDirectoryPackageDir = path.join(ProjectRootDir, 'font-packages', 'font-directory');
 const DevPackageDir = path.join(FontPackagesDir, 'dev');
 
 const PackageScope = '@expo-google-fonts/';
-
-const PrettierOptions = {
-  printWidth: 100,
-  tabWidth: 2,
-  singleQuote: true,
-  jsxBracketSameLine: true,
-  trailingComma: 'es5',
-  arrowParens: 'always',
-};
 
 const CPUBoundConcurrency = Math.max(1, physicalCpuCount - 1);
 const NetworkBoundConcurrency = 3;
@@ -93,11 +67,6 @@ async function main({ images, download } = { images: true, download: true }) {
   await generateRootReadme(fontDirectory);
   await generateGalleryFile(fontDirectory);
   console.log('done.');
-}
-
-async function createFileFromTemplate(outputPath, templatePath, data) {
-  const content = await ejs.renderFile(templatePath, data);
-  await fs.promises.writeFile(outputPath, content, 'utf8');
 }
 
 async function downloadAllFonts(fontDirectory) {
@@ -226,147 +195,6 @@ async function generateAllFontPackages(fontDirectory) {
   } finally {
     bar.stop();
   }
-}
-
-function getPackageNameForWebfont(webfont) {
-  return webfont.family
-    .toLowerCase()
-    .replace(/\s+/g, '-')
-    .replace(/[^a-z0-9-]/g, '');
-}
-
-async function generateFontPackage(webfont) {
-  const packageName = getPackageNameForWebfont(webfont);
-  const pkgDir = path.join(FontPackagesDir, packageName);
-
-  // empty dir
-  await fsExtra.emptyDir(pkgDir);
-
-  // package.json
-  await createFileFromTemplate(
-    path.join(pkgDir, 'package.json'),
-    path.join(__dirname, 'templates/package/package.json'),
-    {
-      packageName,
-      version: PackageVersion,
-      description: `Use the ${webfont.family} font family from Google Fonts in your Expo app`,
-      main: 'index.js',
-    }
-  );
-
-  // metadata.json
-  await fs.promises.writeFile(
-    path.join(pkgDir, 'metadata.json'),
-    prettier.format(JSON.stringify(webfont), {
-      ...PrettierOptions,
-      parser: 'json',
-    }),
-    'utf8'
-  );
-
-  for (const variantKey of webfont.variants) {
-    const ffn = filenameForFontVariant(webfont, variantKey);
-
-    // link fonts and image previews
-    await fs.promises.link(path.join(FontAssetsDir, ffn), path.join(pkgDir, ffn));
-    await fs.promises.link(path.join(FontImagesDir, ffn + '.png'), path.join(pkgDir, ffn + '.png'));
-  }
-
-  const variants = webfont.variants.map((variantKey) => {
-    return {
-      name: varNameForFontVariant(webfont, variantKey),
-      path: filenameForFontVariant(webfont, variantKey),
-    };
-  });
-
-  await createFileFromTemplate(
-    path.join(pkgDir, 'index.js'),
-    path.join(__dirname, 'templates/package/index.js.ejs'),
-    { variants }
-  );
-  await createFileFromTemplate(
-    path.join(pkgDir, 'index.d.ts'),
-    path.join(__dirname, 'templates/package/index.d.ts.ejs'),
-    { variants }
-  );
-
-  // Include the useFonts hook so we can use that
-  await fs.promises.link(
-    path.join(__dirname, 'templates/package/useFonts.js'),
-    path.join(pkgDir, 'useFonts.js')
-  );
-  await fs.promises.link(
-    path.join(__dirname, 'templates/package/useFonts.d.ts'),
-    path.join(pkgDir, 'useFonts.d.ts')
-  );
-
-  // font-family.png
-  const packageImageFilepath = path.join(pkgDir, 'font-family.png');
-  try {
-    await generatePackageHeaderImage(packageImageFilepath, webfont);
-  } catch (e) {
-    // TODO: Maybe log an error?
-    throw e;
-  }
-
-  // README.md
-  await createFileFromTemplate(
-    path.join(pkgDir, 'README.md'),
-    path.join(__dirname, 'templates/package/README.md'),
-    {
-      packageName: getPackageNameForWebfont(webfont),
-      fontName: webfont.family,
-      fontVariants: webfont.variants.map((variantKey) =>
-        varNameForFontVariant(webfont, variantKey)
-      ),
-      fontVariantsWithDisplayName: webfont.variants.map((variantKey) => ({
-        varName: varNameForFontVariant(webfont, variantKey),
-        displayName: getDisplayNameForFontVariant(webfont, variantKey),
-      })),
-      devPackageDescription: await ejs.renderFile(
-        path.join(__dirname, 'templates/dev/DESCRIPTION.md')
-      ),
-      variantsTable: generateTableForVariants(webfont),
-      variantsCount: webfont.variants.length,
-    }
-  );
-}
-
-async function generatePackageHeaderImage(outputFilepath, webfont) {
-  const variantKey = getDefaultVariantKeyForWebfont(webfont);
-  const name = webfont.family;
-  await generatePng(outputFilepath, name, webfont, variantKey, 96);
-}
-
-function getDefaultVariantKeyForWebfont(webfont) {
-  const Priority = [
-    'regular',
-    '500',
-    '300',
-    '600',
-    '200',
-    '700',
-    '100',
-    '800',
-    '900',
-    'italic',
-    '500italic',
-    '300italic',
-    '600italic',
-    '200italic',
-    '700italic',
-    '100italic',
-    '800italic',
-    '900italic',
-  ];
-  for (const vk of Priority) {
-    if (webfont.variants.includes(vk)) {
-      return vk;
-    }
-  }
-  // Weird; this is unexpected, but let's just return the first variant we find
-  // since none of the ones we expect are provided
-  return webfont.variants[0];
 }
 
 async function generateFontDirectoryPackage(fontDirectory) {
@@ -579,44 +407,6 @@ async function generateGalleryFile(fontDirectory) {
       }),
     }
   );
-}
-
-function generateTableForVariants(webfont, pkgUrl) {
-  let fontPackagesPrefix = './font-packages/' + getPackageNameForWebfont(webfont) + '/';
-  if (!pkgUrl) {
-    fontPackagesPrefix = './';
-  }
-
-  let md = `
-||||
-|-|-|-|
-`;
-  const variantImageCells = [];
-  for (const variantKey of webfont.variants) {
-    const styleImagePath =
-      fontPackagesPrefix + filenameForFontVariant(webfont, variantKey) + '.png';
-    const fi = varNameForFontVariant(webfont, variantKey);
-    if (pkgUrl) {
-      variantImageCells.push(`[![${fi}](${styleImagePath})](${pkgUrl})`);
-    } else {
-      variantImageCells.push(`![${fi}](${styleImagePath})`);
-    }
-  }
-
-  for (let row = 0; variantImageCells.length > 0; row++) {
-    md += '|';
-    for (let col = 0; col < 3; col++) {
-      const cell = variantImageCells.shift() || '';
-      md += cell + '|';
-    }
-    md += '|\n';
-  }
-
-  return md;
-}
-
-function getDisplayNameForFontVariant(webfont, variantKey) {
-  return webfont.family + ' ' + VariantNames[variantKey];
 }
 
 const t = {
