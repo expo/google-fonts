@@ -1,6 +1,5 @@
 const spawnAsync = require('@expo/spawn-async');
 const cliProgress = require('cli-progress');
-const fetch = require('cross-fetch');
 const ejs = require('ejs');
 const fs = require('fs');
 const fsExtra = require('fs-extra');
@@ -11,21 +10,18 @@ const prettier = require('prettier');
 
 const contributors = require('./contributors');
 const fontDirectory = require('./directory-data.json');
+const {
+  download,
+  ProjectRootDir,
+  FontAssetsDir,
+  filepathForFontVariant,
+  varNameForFontVariant,
+  filenameForFontVariant,
+  varNameForWebfont,
+} = require('./shared');
 const PackageVersion = require('../../package.json').version;
 
 // Constants
-
-const WeightNames = {
-  100: 'Thin',
-  200: 'ExtraLight',
-  300: 'Light',
-  400: 'Regular',
-  500: 'Medium',
-  600: 'SemiBold',
-  700: 'Bold',
-  800: 'ExtraBold',
-  900: 'Black',
-};
 
 const VariantNames = {
   100: 'Thin',
@@ -48,9 +44,7 @@ const VariantNames = {
   '900italic': 'Black Italic',
 };
 
-const ProjectRootDir = path.join(__dirname, '..', '..');
 const FontPackagesDir = path.join(ProjectRootDir, 'font-packages');
-const FontAssetsDir = path.join(ProjectRootDir, 'font-assets');
 const FontImagesDir = path.join(ProjectRootDir, 'font-images');
 const FontDirectoryPackageDir = path.join(ProjectRootDir, 'font-packages', 'font-directory');
 const DevPackageDir = path.join(FontPackagesDir, 'dev');
@@ -68,8 +62,6 @@ const PrettierOptions = {
 
 const CPUBoundConcurrency = Math.max(1, physicalCpuCount - 1);
 const NetworkBoundConcurrency = 3;
-
-const fontPrefix = 'font';
 
 async function main({ images, download } = { images: true, download: true }) {
   if (download) {
@@ -105,40 +97,6 @@ async function main({ images, download } = { images: true, download: true }) {
 async function createFileFromTemplate(outputPath, templatePath, data) {
   const content = await ejs.renderFile(templatePath, data);
   await fs.promises.writeFile(outputPath, content, 'utf8');
-}
-
-function infoForVariantKey(variantKey) {
-  const weight = parseInt(variantKey, 10) || 400; // `regular` and `italic` don't have a number before them
-  const isItalic = variantKey.endsWith('italic');
-  const weightName = WeightNames[weight];
-  let suffix = '_' + weight + weightName;
-  if (isItalic) {
-    suffix += '_Italic';
-  }
-  return {
-    weight,
-    isItalic,
-    weightName,
-    suffix,
-  };
-}
-
-function varNameForWebfont(webfont) {
-  const variant = webfont.family.replace(/\s+/g, '');
-  return variant.match(/^\d/) ? fontPrefix + variant : variant;
-}
-
-function varNameForFontVariant(webfont, variantKey) {
-  const info = infoForVariantKey(variantKey);
-  return varNameForWebfont(webfont) + info.suffix;
-}
-
-function filenameForFontVariant(webfont, variantKey) {
-  return varNameForFontVariant(webfont, variantKey) + '.ttf';
-}
-
-function filepathForFontVariant(webfont, variantKey) {
-  return path.join(FontAssetsDir, filenameForFontVariant(webfont, variantKey));
 }
 
 async function downloadAllFonts(fontDirectory) {
@@ -182,12 +140,6 @@ async function downloadAllFonts(fontDirectory) {
   } finally {
     bar.stop();
   }
-}
-
-async function download(filepath, url) {
-  const response = await fetch(url);
-  const b = await response.buffer();
-  await fs.promises.writeFile(filepath, b);
 }
 
 async function generateImagesForFonts(fontDirectory) {

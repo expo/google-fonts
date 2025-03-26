@@ -1,21 +1,11 @@
 #!/usr/bin/env node
 
 import currentDirectoryData from '../directory-data.json';
+import { downloadFontAssets } from '../downloadFontAssets';
 import getGoogleFontsApiKey from '../google-fonts-api-key';
+import { FontItem } from '../types';
 
 const currentDirectoryItems = currentDirectoryData.items as FontItem[];
-
-type FontItem = {
-  family: string;
-  variants: string[];
-  subsets: string[];
-  version: string;
-  lastModified: string;
-  files: Record<string, string>;
-  category: string;
-  kind: string;
-  menu: string;
-};
 
 async function syncPackages() {
   // fetch the latest directory data from the Google Fonts API
@@ -52,6 +42,10 @@ async function syncPackages() {
 
   if (changedPackages.length) {
     console.log('Changed packages: ', changedPackages.length);
+    for (const changedPackage of changedPackages) {
+      console.log('Downloading fonts for:', changedPackage.family);
+      await downloadFontAssets(changedPackage);
+    }
   }
 
   // await fs.promises.writeFile('directory-data.json', JSON.stringify(data, null, 2));
