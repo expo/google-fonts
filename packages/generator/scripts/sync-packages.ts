@@ -4,7 +4,13 @@ import currentDirectoryData from '../directory-data.json';
 import { downloadFontAssets } from '../downloadFontAssets';
 import { generateImages } from '../generateImages';
 import getGoogleFontsApiKey from '../google-fonts-api-key';
-import { generateFontPackage } from '../shared';
+import {
+  generateDevPackage,
+  generateFontPackage,
+  generateFontDirectoryPackage,
+  generateRootReadme,
+  generateGalleryFile,
+} from '../shared';
 import { FontItem } from '../types';
 const currentDirectoryItems = currentDirectoryData.items as FontItem[];
 
@@ -23,8 +29,8 @@ async function syncPackages() {
   const newPackages = currentDirectoryItems.filter(
     (item) => !fetchedDirectoryDataItems.find((p) => p.family === item.family)
   );
-  const changedPackages = currentDirectoryItems.filter((item) => {
-    const currentPackage = fetchedDirectoryDataItems.find((p) => p.family === item.family);
+  const changedPackages = fetchedDirectoryDataItems.filter((item) => {
+    const currentPackage = currentDirectoryItems.find((p) => p.family === item.family);
     return currentPackage && currentPackage?.lastModified !== item.lastModified;
   });
 
@@ -62,8 +68,20 @@ async function syncPackages() {
     }
   }
 
+  console.log('\nGenerating dev package');
+  await generateDevPackage(fetchedDirectoryData);
+
+  console.log('\nGenerating font directory package');
+  await generateFontDirectoryPackage(fetchedDirectoryData);
+
+  console.log('\nGenerating root README');
+  await generateRootReadme(fetchedDirectoryData);
+
+  console.log('\nGenerating gallery file');
+  await generateGalleryFile(fetchedDirectoryData);
+
   // await fs.promises.writeFile('directory-data.json', JSON.stringify(data, null, 2));
-  // console.log('directory-data.json updated');
+  console.log('✅ directory-data.json updated');
 }
 
 syncPackages();

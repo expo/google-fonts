@@ -7,3 +7,7 @@ export function varNameForFontVariant(webfont: FontItem, variantKey: string): st
 export function download(filepath: string, url: string): Promise<void>;
 export function generateImageForFontVariant(webfont: FontItem, variantKey: string): Promise<void>;
 export function generateFontPackage(webfont: FontItem): Promise<void>;
+export function generateDevPackage(fontDirectory: { items: FontItem[] }): Promise<void>;
+export function generateFontDirectoryPackage(fontDirectory: { items: FontItem[] }): Promise<void>;
+export function generateRootReadme(fontDirectory: { items: FontItem[] }): Promise<void>;
+export function generateGalleryFile(fontDirectory: { items: FontItem[] }): Promise<void>;
