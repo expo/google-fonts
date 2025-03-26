@@ -363,19 +363,19 @@
         "korean",
         "latin"
       ],
-      "version": "v1",
-      "lastModified": "2025-01-28",
+      "version": "v2",
+      "lastModified": "2025-03-21",
       "files": {
-        "300": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRiHYkNScXgiTCI-.ttf",
-        "500": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRjrYkNScXgiTCI-.ttf",
-        "600": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRgHZUNScXgiTCI-.ttf",
-        "700": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRg-ZUNScXgiTCI-.ttf",
-        "800": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRhZZUNScXgiTCI-.ttf",
-        "regular": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRjZYkNScXgiTCI-.ttf"
+        "300": "https://fonts.gstatic.com/s/42dotsans/v2/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRiHYkNScXgiTCI-.ttf",
+        "500": "https://fonts.gstatic.com/s/42dotsans/v2/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRjrYkNScXgiTCI-.ttf",
+        "600": "https://fonts.gstatic.com/s/42dotsans/v2/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRgHZUNScXgiTCI-.ttf",
+        "700": "https://fonts.gstatic.com/s/42dotsans/v2/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRg-ZUNScXgiTCI-.ttf",
+        "800": "https://fonts.gstatic.com/s/42dotsans/v2/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRhZZUNScXgiTCI-.ttf",
+        "regular": "https://fonts.gstatic.com/s/42dotsans/v2/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRjZYkNScXgiTCI-.ttf"
       },
       "category": "sans-serif",
       "kind": "webfonts#webfont",
-      "menu": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRjZYnNTe3w.ttf"
+      "menu": "https://fonts.gstatic.com/s/42dotsans/v2/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRjZYnNTe3w.ttf"
     },
     {
       "family": "Atkinson Hyperlegible Next",
