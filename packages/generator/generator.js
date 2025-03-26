@@ -1,4 +1,3 @@
-const spawnAsync = require('@expo/spawn-async');
 const cliProgress = require('cli-progress');
 const ejs = require('ejs');
 const fs = require('fs');
@@ -14,10 +13,13 @@ const {
   download,
   ProjectRootDir,
   FontAssetsDir,
+  FontImagesDir,
   filepathForFontVariant,
   varNameForFontVariant,
   filenameForFontVariant,
   varNameForWebfont,
+  generateImageForFontVariant,
+  generatePng,
 } = require('./shared');
 const PackageVersion = require('../../package.json').version;
 
@@ -45,7 +47,6 @@ const VariantNames = {
 };
 
 const FontPackagesDir = path.join(ProjectRootDir, 'font-packages');
-const FontImagesDir = path.join(ProjectRootDir, 'font-images');
 const FontDirectoryPackageDir = path.join(ProjectRootDir, 'font-packages', 'font-directory');
 const DevPackageDir = path.join(FontPackagesDir, 'dev');
 
@@ -188,56 +189,6 @@ async function generateImagesForFonts(fontDirectory) {
   }
   if (errors.length > 0) {
     console.error('Image Generation Errors:\n' + errors.map((x) => x[0]).join(', '));
-  }
-}
-
-async function generateImageForFontVariant(webfont, variantKey) {
-  let phrase = varNameForFontVariant(webfont, variantKey) + '\n';
-  phrase += 'Pack my box with five\ndozen liquor jugs, please.';
-  const outputFilepath = path.join(
-    FontImagesDir,
-    filenameForFontVariant(webfont, variantKey) + '.png'
-  );
-  await generatePng(outputFilepath, phrase, webfont, variantKey, 40);
-}
-
-async function generatePng(outputFilepath, text, webfont, variantKey, pointsize, density) {
-  const fill = '#1B1F23';
-  const background = '#FFFFFF';
-  const fontFilepath = filepathForFontVariant(webfont, variantKey);
-  pointsize = pointsize || 40;
-  density = density || 144; // 458; // iPhone 11 Pro Max = 458
-  const units = 'pixelsperinch';
-  const args = [
-    '-background',
-    background,
-    '-fill',
-    fill,
-    '-units',
-    '' + units,
-    '-density',
-    '' + density,
-    '-font',
-    fontFilepath,
-    '-pointsize',
-    '' + pointsize,
-    'label:' + text,
-    '-bordercolor',
-    background,
-    '-border',
-    '32x16',
-    '-strip',
-    outputFilepath,
-  ];
-  try {
-    //await spawnAsync('./magick', args);
-    await spawnAsync('magick', args);
-  } catch (e) {
-    // Some fonts, like Noto Color Emoji Compat, break ImageMagick here
-    // and so we just link the empty png but rethrow the error so that the
-    // caller needs to catch it and isn't surprised by an error
-    await fs.promises.link('./empty.png', outputFilepath);
-    throw e;
   }
 }
 

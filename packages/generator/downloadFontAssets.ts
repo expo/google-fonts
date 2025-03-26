@@ -1,6 +1,6 @@
 import fsExtra from 'fs-extra';
 
-import { FontAssetsDir, filepathForFontVariant, download } from './shared';
+import { FontAssetsDir, filepathForFontVariant, download, varNameForFontVariant } from './shared';
 import { FontItem } from './types';
 
 export async function downloadFontAssets(webfont: FontItem) {
@@ -9,6 +9,7 @@ export async function downloadFontAssets(webfont: FontItem) {
   for (const variantKey of webfont.variants) {
     const ttfUrl = webfont.files[variantKey];
     const filepath = filepathForFontVariant(webfont, variantKey);
-    download(filepath, ttfUrl);
+    await download(filepath, ttfUrl);
+    console.log('Font downloaded:', varNameForFontVariant(webfont, variantKey));
   }
 }

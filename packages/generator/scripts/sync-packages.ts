@@ -2,9 +2,9 @@
 
 import currentDirectoryData from '../directory-data.json';
 import { downloadFontAssets } from '../downloadFontAssets';
+import { generateImages } from '../generateImages';
 import getGoogleFontsApiKey from '../google-fonts-api-key';
 import { FontItem } from '../types';
-
 const currentDirectoryItems = currentDirectoryData.items as FontItem[];
 
 async function syncPackages() {
@@ -33,18 +33,27 @@ async function syncPackages() {
   }
 
   if (deletedPackages.length) {
-    console.log('Deleted packages: ', deletedPackages.length);
+    console.log('\nDeleted packages: ', deletedPackages.length);
+    // TODO: Do we delete the packages?
   }
 
   if (newPackages.length) {
-    console.log('New packages: ', newPackages.length);
+    console.log('\nNew packages: ', newPackages.length);
+    for (const newPackage of newPackages) {
+      console.log('\nDownloading fonts for', newPackage.family);
+      await downloadFontAssets(newPackage);
+      console.log('\nGenerating images for', newPackage.family);
+      await generateImages(newPackage);
+    }
   }
 
   if (changedPackages.length) {
-    console.log('Changed packages: ', changedPackages.length);
+    console.log('\nChanged packages: ', changedPackages.length);
     for (const changedPackage of changedPackages) {
-      console.log('Downloading fonts for:', changedPackage.family);
+      console.log('\nDownloading fonts for', changedPackage.family);
       await downloadFontAssets(changedPackage);
+      console.log('\nGenerating images for', changedPackage.family);
+      await generateImages(changedPackage);
     }
   }
 
