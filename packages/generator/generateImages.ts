@@ -1,6 +1,6 @@
 import fsExtra from 'fs-extra';
 
-import { FontImagesDir, generateImageForFontVariant, varNameForFontVariant } from './shared';
+import { FontImagesDir, generateImageForFontVariant } from './shared';
 import { FontItem } from './types';
 
 export async function generateImages(webfont: FontItem) {
@@ -8,6 +8,5 @@ export async function generateImages(webfont: FontItem) {
 
   for (const variantKey of webfont.variants) {
     await generateImageForFontVariant(webfont, variantKey);
-    console.log('Image generated:', varNameForFontVariant(webfont, variantKey));
   }
 }

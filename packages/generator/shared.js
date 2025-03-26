@@ -5,6 +5,8 @@ const fs = require('fs');
 const fsExtra = require('fs-extra');
 const path = require('path');
 const prettier = require('prettier');
+
+// eslint-disable-next-line import/order
 const contributors = require('./contributors');
 
 const ProjectRootDir = path.join(__dirname, '..', '..');
