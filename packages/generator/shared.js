@@ -6,8 +6,8 @@ const fsExtra = require('fs-extra');
 const path = require('path');
 const prettier = require('prettier');
 
-// eslint-disable-next-line import/order
 const contributors = require('./contributors');
+const PackageVersion = require('../../package.json').version;
 
 const ProjectRootDir = path.join(__dirname, '..', '..');
 const FontAssetsDir = path.join(ProjectRootDir, 'font-assets');
@@ -59,8 +59,6 @@ const VariantNames = {
   '800italic': 'Extra Bold Italic',
   '900italic': 'Black Italic',
 };
-
-const PackageVersion = require('../../package.json').version;
 
 async function download(filepath, url) {
   const response = await fetch(url);
