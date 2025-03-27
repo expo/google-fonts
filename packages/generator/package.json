@@ -27,6 +27,7 @@
     "typescript": "^5.8.2"
   },
   "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
     "delay-async": "^1.2.0"
   },
   "license": "MIT"
