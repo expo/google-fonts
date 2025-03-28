@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-tc expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-tc expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansTC_100Thin, NotoSansTC_200ExtraLight, NotoSansTC_300Light, NotoSansTC_400Regular, NotoSansTC_500Medium, NotoSansTC_600SemiBold, NotoSansTC_700Bold, NotoSansTC_800ExtraBold, NotoSansTC_900Black } from '@expo-google-fonts/noto-sans-tc';
+import { useFonts } from '@expo-google-fonts/noto-sans-tc/useFonts';
+import { NotoSansTC_100Thin } from '@expo-google-fonts/noto-sans-tc/100Thin';
+import { NotoSansTC_200ExtraLight } from '@expo-google-fonts/noto-sans-tc/200ExtraLight';
+import { NotoSansTC_300Light } from '@expo-google-fonts/noto-sans-tc/300Light';
+import { NotoSansTC_400Regular } from '@expo-google-fonts/noto-sans-tc/400Regular';
+import { NotoSansTC_500Medium } from '@expo-google-fonts/noto-sans-tc/500Medium';
+import { NotoSansTC_600SemiBold } from '@expo-google-fonts/noto-sans-tc/600SemiBold';
+import { NotoSansTC_700Bold } from '@expo-google-fonts/noto-sans-tc/700Bold';
+import { NotoSansTC_800ExtraBold } from '@expo-google-fonts/noto-sans-tc/800ExtraBold';
+import { NotoSansTC_900Black } from '@expo-google-fonts/noto-sans-tc/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansTC_100Thin](./NotoSansTC_100Thin.ttf.png)|![NotoSansTC_200ExtraLight](./NotoSansTC_200ExtraLight.ttf.png)|![NotoSansTC_300Light](./NotoSansTC_300Light.ttf.png)||
-|![NotoSansTC_400Regular](./NotoSansTC_400Regular.ttf.png)|![NotoSansTC_500Medium](./NotoSansTC_500Medium.ttf.png)|![NotoSansTC_600SemiBold](./NotoSansTC_600SemiBold.ttf.png)||
-|![NotoSansTC_700Bold](./NotoSansTC_700Bold.ttf.png)|![NotoSansTC_800ExtraBold](./NotoSansTC_800ExtraBold.ttf.png)|![NotoSansTC_900Black](./NotoSansTC_900Black.ttf.png)||
+|![NotoSansTC_100Thin](./100Thin/NotoSansTC_100Thin.ttf.png)|![NotoSansTC_200ExtraLight](./200ExtraLight/NotoSansTC_200ExtraLight.ttf.png)|![NotoSansTC_300Light](./300Light/NotoSansTC_300Light.ttf.png)||
+|![NotoSansTC_400Regular](./400Regular/NotoSansTC_400Regular.ttf.png)|![NotoSansTC_500Medium](./500Medium/NotoSansTC_500Medium.ttf.png)|![NotoSansTC_600SemiBold](./600SemiBold/NotoSansTC_600SemiBold.ttf.png)||
+|![NotoSansTC_700Bold](./700Bold/NotoSansTC_700Bold.ttf.png)|![NotoSansTC_800ExtraBold](./800ExtraBold/NotoSansTC_800ExtraBold.ttf.png)|![NotoSansTC_900Black](./900Black/NotoSansTC_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

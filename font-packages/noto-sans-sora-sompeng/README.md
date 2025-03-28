@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-sora-sompeng expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-sora-sompeng expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansSoraSompeng_400Regular, NotoSansSoraSompeng_500Medium, NotoSansSoraSompeng_600SemiBold, NotoSansSoraSompeng_700Bold } from '@expo-google-fonts/noto-sans-sora-sompeng';
+import { useFonts } from '@expo-google-fonts/noto-sans-sora-sompeng/useFonts';
+import { NotoSansSoraSompeng_400Regular } from '@expo-google-fonts/noto-sans-sora-sompeng/400Regular';
+import { NotoSansSoraSompeng_500Medium } from '@expo-google-fonts/noto-sans-sora-sompeng/500Medium';
+import { NotoSansSoraSompeng_600SemiBold } from '@expo-google-fonts/noto-sans-sora-sompeng/600SemiBold';
+import { NotoSansSoraSompeng_700Bold } from '@expo-google-fonts/noto-sans-sora-sompeng/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansSoraSompeng_400Regular](./NotoSansSoraSompeng_400Regular.ttf.png)|![NotoSansSoraSompeng_500Medium](./NotoSansSoraSompeng_500Medium.ttf.png)|![NotoSansSoraSompeng_600SemiBold](./NotoSansSoraSompeng_600SemiBold.ttf.png)||
-|![NotoSansSoraSompeng_700Bold](./NotoSansSoraSompeng_700Bold.ttf.png)||||
+|![NotoSansSoraSompeng_400Regular](./400Regular/NotoSansSoraSompeng_400Regular.ttf.png)|![NotoSansSoraSompeng_500Medium](./500Medium/NotoSansSoraSompeng_500Medium.ttf.png)|![NotoSansSoraSompeng_600SemiBold](./600SemiBold/NotoSansSoraSompeng_600SemiBold.ttf.png)||
+|![NotoSansSoraSompeng_700Bold](./700Bold/NotoSansSoraSompeng_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

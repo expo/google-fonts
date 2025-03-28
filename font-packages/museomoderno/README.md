@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/museomoderno expo-font expo-app-loading
+npx expo install @expo-google-fonts/museomoderno expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, MuseoModerno_100Thin, MuseoModerno_200ExtraLight, MuseoModerno_300Light, MuseoModerno_400Regular, MuseoModerno_500Medium, MuseoModerno_600SemiBold, MuseoModerno_700Bold, MuseoModerno_800ExtraBold, MuseoModerno_900Black, MuseoModerno_100Thin_Italic, MuseoModerno_200ExtraLight_Italic, MuseoModerno_300Light_Italic, MuseoModerno_400Regular_Italic, MuseoModerno_500Medium_Italic, MuseoModerno_600SemiBold_Italic, MuseoModerno_700Bold_Italic, MuseoModerno_800ExtraBold_Italic, MuseoModerno_900Black_Italic } from '@expo-google-fonts/museomoderno';
+import { useFonts } from '@expo-google-fonts/museomoderno/useFonts';
+import { MuseoModerno_100Thin } from '@expo-google-fonts/museomoderno/100Thin';
+import { MuseoModerno_200ExtraLight } from '@expo-google-fonts/museomoderno/200ExtraLight';
+import { MuseoModerno_300Light } from '@expo-google-fonts/museomoderno/300Light';
+import { MuseoModerno_400Regular } from '@expo-google-fonts/museomoderno/400Regular';
+import { MuseoModerno_500Medium } from '@expo-google-fonts/museomoderno/500Medium';
+import { MuseoModerno_600SemiBold } from '@expo-google-fonts/museomoderno/600SemiBold';
+import { MuseoModerno_700Bold } from '@expo-google-fonts/museomoderno/700Bold';
+import { MuseoModerno_800ExtraBold } from '@expo-google-fonts/museomoderno/800ExtraBold';
+import { MuseoModerno_900Black } from '@expo-google-fonts/museomoderno/900Black';
+import { MuseoModerno_100Thin_Italic } from '@expo-google-fonts/museomoderno/100Thin_Italic';
+import { MuseoModerno_200ExtraLight_Italic } from '@expo-google-fonts/museomoderno/200ExtraLight_Italic';
+import { MuseoModerno_300Light_Italic } from '@expo-google-fonts/museomoderno/300Light_Italic';
+import { MuseoModerno_400Regular_Italic } from '@expo-google-fonts/museomoderno/400Regular_Italic';
+import { MuseoModerno_500Medium_Italic } from '@expo-google-fonts/museomoderno/500Medium_Italic';
+import { MuseoModerno_600SemiBold_Italic } from '@expo-google-fonts/museomoderno/600SemiBold_Italic';
+import { MuseoModerno_700Bold_Italic } from '@expo-google-fonts/museomoderno/700Bold_Italic';
+import { MuseoModerno_800ExtraBold_Italic } from '@expo-google-fonts/museomoderno/800ExtraBold_Italic';
+import { MuseoModerno_900Black_Italic } from '@expo-google-fonts/museomoderno/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MuseoModerno_100Thin](./MuseoModerno_100Thin.ttf.png)|![MuseoModerno_200ExtraLight](./MuseoModerno_200ExtraLight.ttf.png)|![MuseoModerno_300Light](./MuseoModerno_300Light.ttf.png)||
-|![MuseoModerno_400Regular](./MuseoModerno_400Regular.ttf.png)|![MuseoModerno_500Medium](./MuseoModerno_500Medium.ttf.png)|![MuseoModerno_600SemiBold](./MuseoModerno_600SemiBold.ttf.png)||
-|![MuseoModerno_700Bold](./MuseoModerno_700Bold.ttf.png)|![MuseoModerno_800ExtraBold](./MuseoModerno_800ExtraBold.ttf.png)|![MuseoModerno_900Black](./MuseoModerno_900Black.ttf.png)||
-|![MuseoModerno_100Thin_Italic](./MuseoModerno_100Thin_Italic.ttf.png)|![MuseoModerno_200ExtraLight_Italic](./MuseoModerno_200ExtraLight_Italic.ttf.png)|![MuseoModerno_300Light_Italic](./MuseoModerno_300Light_Italic.ttf.png)||
-|![MuseoModerno_400Regular_Italic](./MuseoModerno_400Regular_Italic.ttf.png)|![MuseoModerno_500Medium_Italic](./MuseoModerno_500Medium_Italic.ttf.png)|![MuseoModerno_600SemiBold_Italic](./MuseoModerno_600SemiBold_Italic.ttf.png)||
-|![MuseoModerno_700Bold_Italic](./MuseoModerno_700Bold_Italic.ttf.png)|![MuseoModerno_800ExtraBold_Italic](./MuseoModerno_800ExtraBold_Italic.ttf.png)|![MuseoModerno_900Black_Italic](./MuseoModerno_900Black_Italic.ttf.png)||
+|![MuseoModerno_100Thin](./100Thin/MuseoModerno_100Thin.ttf.png)|![MuseoModerno_200ExtraLight](./200ExtraLight/MuseoModerno_200ExtraLight.ttf.png)|![MuseoModerno_300Light](./300Light/MuseoModerno_300Light.ttf.png)||
+|![MuseoModerno_400Regular](./400Regular/MuseoModerno_400Regular.ttf.png)|![MuseoModerno_500Medium](./500Medium/MuseoModerno_500Medium.ttf.png)|![MuseoModerno_600SemiBold](./600SemiBold/MuseoModerno_600SemiBold.ttf.png)||
+|![MuseoModerno_700Bold](./700Bold/MuseoModerno_700Bold.ttf.png)|![MuseoModerno_800ExtraBold](./800ExtraBold/MuseoModerno_800ExtraBold.ttf.png)|![MuseoModerno_900Black](./900Black/MuseoModerno_900Black.ttf.png)||
+|![MuseoModerno_100Thin_Italic](./100Thin_Italic/MuseoModerno_100Thin_Italic.ttf.png)|![MuseoModerno_200ExtraLight_Italic](./200ExtraLight_Italic/MuseoModerno_200ExtraLight_Italic.ttf.png)|![MuseoModerno_300Light_Italic](./300Light_Italic/MuseoModerno_300Light_Italic.ttf.png)||
+|![MuseoModerno_400Regular_Italic](./400Regular_Italic/MuseoModerno_400Regular_Italic.ttf.png)|![MuseoModerno_500Medium_Italic](./500Medium_Italic/MuseoModerno_500Medium_Italic.ttf.png)|![MuseoModerno_600SemiBold_Italic](./600SemiBold_Italic/MuseoModerno_600SemiBold_Italic.ttf.png)||
+|![MuseoModerno_700Bold_Italic](./700Bold_Italic/MuseoModerno_700Bold_Italic.ttf.png)|![MuseoModerno_800ExtraBold_Italic](./800ExtraBold_Italic/MuseoModerno_800ExtraBold_Italic.ttf.png)|![MuseoModerno_900Black_Italic](./900Black_Italic/MuseoModerno_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

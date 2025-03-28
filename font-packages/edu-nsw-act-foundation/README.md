@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/edu-nsw-act-foundation expo-font expo-app-loading
+npx expo install @expo-google-fonts/edu-nsw-act-foundation expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, EduNSWACTFoundation_400Regular, EduNSWACTFoundation_500Medium, EduNSWACTFoundation_600SemiBold, EduNSWACTFoundation_700Bold } from '@expo-google-fonts/edu-nsw-act-foundation';
+import { useFonts } from '@expo-google-fonts/edu-nsw-act-foundation/useFonts';
+import { EduNSWACTFoundation_400Regular } from '@expo-google-fonts/edu-nsw-act-foundation/400Regular';
+import { EduNSWACTFoundation_500Medium } from '@expo-google-fonts/edu-nsw-act-foundation/500Medium';
+import { EduNSWACTFoundation_600SemiBold } from '@expo-google-fonts/edu-nsw-act-foundation/600SemiBold';
+import { EduNSWACTFoundation_700Bold } from '@expo-google-fonts/edu-nsw-act-foundation/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EduNSWACTFoundation_400Regular](./EduNSWACTFoundation_400Regular.ttf.png)|![EduNSWACTFoundation_500Medium](./EduNSWACTFoundation_500Medium.ttf.png)|![EduNSWACTFoundation_600SemiBold](./EduNSWACTFoundation_600SemiBold.ttf.png)||
-|![EduNSWACTFoundation_700Bold](./EduNSWACTFoundation_700Bold.ttf.png)||||
+|![EduNSWACTFoundation_400Regular](./400Regular/EduNSWACTFoundation_400Regular.ttf.png)|![EduNSWACTFoundation_500Medium](./500Medium/EduNSWACTFoundation_500Medium.ttf.png)|![EduNSWACTFoundation_600SemiBold](./600SemiBold/EduNSWACTFoundation_600SemiBold.ttf.png)||
+|![EduNSWACTFoundation_700Bold](./700Bold/EduNSWACTFoundation_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -22,7 +22,7 @@ This font family contains [3 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/kaisei-decol expo-font expo-app-loading
+npx expo install @expo-google-fonts/kaisei-decol expo-font
 ```
 
 Now add code like this to your project
@@ -31,8 +31,10 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, KaiseiDecol_400Regular, KaiseiDecol_500Medium, KaiseiDecol_700Bold } from '@expo-google-fonts/kaisei-decol';
+import { useFonts } from '@expo-google-fonts/kaisei-decol/useFonts';
+import { KaiseiDecol_400Regular } from '@expo-google-fonts/kaisei-decol/400Regular';
+import { KaiseiDecol_500Medium } from '@expo-google-fonts/kaisei-decol/500Medium';
+import { KaiseiDecol_700Bold } from '@expo-google-fonts/kaisei-decol/700Bold';
 
 export default () => {
 
@@ -46,7 +48,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -85,7 +87,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KaiseiDecol_400Regular](./KaiseiDecol_400Regular.ttf.png)|![KaiseiDecol_500Medium](./KaiseiDecol_500Medium.ttf.png)|![KaiseiDecol_700Bold](./KaiseiDecol_700Bold.ttf.png)||
+|![KaiseiDecol_400Regular](./400Regular/KaiseiDecol_400Regular.ttf.png)|![KaiseiDecol_500Medium](./500Medium/KaiseiDecol_500Medium.ttf.png)|![KaiseiDecol_700Bold](./700Bold/KaiseiDecol_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

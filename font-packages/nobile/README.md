@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/nobile expo-font expo-app-loading
+npx expo install @expo-google-fonts/nobile expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Nobile_400Regular, Nobile_400Regular_Italic, Nobile_500Medium, Nobile_500Medium_Italic, Nobile_700Bold, Nobile_700Bold_Italic } from '@expo-google-fonts/nobile';
+import { useFonts } from '@expo-google-fonts/nobile/useFonts';
+import { Nobile_400Regular } from '@expo-google-fonts/nobile/400Regular';
+import { Nobile_400Regular_Italic } from '@expo-google-fonts/nobile/400Regular_Italic';
+import { Nobile_500Medium } from '@expo-google-fonts/nobile/500Medium';
+import { Nobile_500Medium_Italic } from '@expo-google-fonts/nobile/500Medium_Italic';
+import { Nobile_700Bold } from '@expo-google-fonts/nobile/700Bold';
+import { Nobile_700Bold_Italic } from '@expo-google-fonts/nobile/700Bold_Italic';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Nobile_400Regular](./Nobile_400Regular.ttf.png)|![Nobile_400Regular_Italic](./Nobile_400Regular_Italic.ttf.png)|![Nobile_500Medium](./Nobile_500Medium.ttf.png)||
-|![Nobile_500Medium_Italic](./Nobile_500Medium_Italic.ttf.png)|![Nobile_700Bold](./Nobile_700Bold.ttf.png)|![Nobile_700Bold_Italic](./Nobile_700Bold_Italic.ttf.png)||
+|![Nobile_400Regular](./400Regular/Nobile_400Regular.ttf.png)|![Nobile_400Regular_Italic](./400Regular_Italic/Nobile_400Regular_Italic.ttf.png)|![Nobile_500Medium](./500Medium/Nobile_500Medium.ttf.png)||
+|![Nobile_500Medium_Italic](./500Medium_Italic/Nobile_500Medium_Italic.ttf.png)|![Nobile_700Bold](./700Bold/Nobile_700Bold.ttf.png)|![Nobile_700Bold_Italic](./700Bold_Italic/Nobile_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

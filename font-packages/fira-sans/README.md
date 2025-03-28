@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/fira-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/fira-sans expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, FiraSans_100Thin, FiraSans_100Thin_Italic, FiraSans_200ExtraLight, FiraSans_200ExtraLight_Italic, FiraSans_300Light, FiraSans_300Light_Italic, FiraSans_400Regular, FiraSans_400Regular_Italic, FiraSans_500Medium, FiraSans_500Medium_Italic, FiraSans_600SemiBold, FiraSans_600SemiBold_Italic, FiraSans_700Bold, FiraSans_700Bold_Italic, FiraSans_800ExtraBold, FiraSans_800ExtraBold_Italic, FiraSans_900Black, FiraSans_900Black_Italic } from '@expo-google-fonts/fira-sans';
+import { useFonts } from '@expo-google-fonts/fira-sans/useFonts';
+import { FiraSans_100Thin } from '@expo-google-fonts/fira-sans/100Thin';
+import { FiraSans_100Thin_Italic } from '@expo-google-fonts/fira-sans/100Thin_Italic';
+import { FiraSans_200ExtraLight } from '@expo-google-fonts/fira-sans/200ExtraLight';
+import { FiraSans_200ExtraLight_Italic } from '@expo-google-fonts/fira-sans/200ExtraLight_Italic';
+import { FiraSans_300Light } from '@expo-google-fonts/fira-sans/300Light';
+import { FiraSans_300Light_Italic } from '@expo-google-fonts/fira-sans/300Light_Italic';
+import { FiraSans_400Regular } from '@expo-google-fonts/fira-sans/400Regular';
+import { FiraSans_400Regular_Italic } from '@expo-google-fonts/fira-sans/400Regular_Italic';
+import { FiraSans_500Medium } from '@expo-google-fonts/fira-sans/500Medium';
+import { FiraSans_500Medium_Italic } from '@expo-google-fonts/fira-sans/500Medium_Italic';
+import { FiraSans_600SemiBold } from '@expo-google-fonts/fira-sans/600SemiBold';
+import { FiraSans_600SemiBold_Italic } from '@expo-google-fonts/fira-sans/600SemiBold_Italic';
+import { FiraSans_700Bold } from '@expo-google-fonts/fira-sans/700Bold';
+import { FiraSans_700Bold_Italic } from '@expo-google-fonts/fira-sans/700Bold_Italic';
+import { FiraSans_800ExtraBold } from '@expo-google-fonts/fira-sans/800ExtraBold';
+import { FiraSans_800ExtraBold_Italic } from '@expo-google-fonts/fira-sans/800ExtraBold_Italic';
+import { FiraSans_900Black } from '@expo-google-fonts/fira-sans/900Black';
+import { FiraSans_900Black_Italic } from '@expo-google-fonts/fira-sans/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FiraSans_100Thin](./FiraSans_100Thin.ttf.png)|![FiraSans_100Thin_Italic](./FiraSans_100Thin_Italic.ttf.png)|![FiraSans_200ExtraLight](./FiraSans_200ExtraLight.ttf.png)||
-|![FiraSans_200ExtraLight_Italic](./FiraSans_200ExtraLight_Italic.ttf.png)|![FiraSans_300Light](./FiraSans_300Light.ttf.png)|![FiraSans_300Light_Italic](./FiraSans_300Light_Italic.ttf.png)||
-|![FiraSans_400Regular](./FiraSans_400Regular.ttf.png)|![FiraSans_400Regular_Italic](./FiraSans_400Regular_Italic.ttf.png)|![FiraSans_500Medium](./FiraSans_500Medium.ttf.png)||
-|![FiraSans_500Medium_Italic](./FiraSans_500Medium_Italic.ttf.png)|![FiraSans_600SemiBold](./FiraSans_600SemiBold.ttf.png)|![FiraSans_600SemiBold_Italic](./FiraSans_600SemiBold_Italic.ttf.png)||
-|![FiraSans_700Bold](./FiraSans_700Bold.ttf.png)|![FiraSans_700Bold_Italic](./FiraSans_700Bold_Italic.ttf.png)|![FiraSans_800ExtraBold](./FiraSans_800ExtraBold.ttf.png)||
-|![FiraSans_800ExtraBold_Italic](./FiraSans_800ExtraBold_Italic.ttf.png)|![FiraSans_900Black](./FiraSans_900Black.ttf.png)|![FiraSans_900Black_Italic](./FiraSans_900Black_Italic.ttf.png)||
+|![FiraSans_100Thin](./100Thin/FiraSans_100Thin.ttf.png)|![FiraSans_100Thin_Italic](./100Thin_Italic/FiraSans_100Thin_Italic.ttf.png)|![FiraSans_200ExtraLight](./200ExtraLight/FiraSans_200ExtraLight.ttf.png)||
+|![FiraSans_200ExtraLight_Italic](./200ExtraLight_Italic/FiraSans_200ExtraLight_Italic.ttf.png)|![FiraSans_300Light](./300Light/FiraSans_300Light.ttf.png)|![FiraSans_300Light_Italic](./300Light_Italic/FiraSans_300Light_Italic.ttf.png)||
+|![FiraSans_400Regular](./400Regular/FiraSans_400Regular.ttf.png)|![FiraSans_400Regular_Italic](./400Regular_Italic/FiraSans_400Regular_Italic.ttf.png)|![FiraSans_500Medium](./500Medium/FiraSans_500Medium.ttf.png)||
+|![FiraSans_500Medium_Italic](./500Medium_Italic/FiraSans_500Medium_Italic.ttf.png)|![FiraSans_600SemiBold](./600SemiBold/FiraSans_600SemiBold.ttf.png)|![FiraSans_600SemiBold_Italic](./600SemiBold_Italic/FiraSans_600SemiBold_Italic.ttf.png)||
+|![FiraSans_700Bold](./700Bold/FiraSans_700Bold.ttf.png)|![FiraSans_700Bold_Italic](./700Bold_Italic/FiraSans_700Bold_Italic.ttf.png)|![FiraSans_800ExtraBold](./800ExtraBold/FiraSans_800ExtraBold.ttf.png)||
+|![FiraSans_800ExtraBold_Italic](./800ExtraBold_Italic/FiraSans_800ExtraBold_Italic.ttf.png)|![FiraSans_900Black](./900Black/FiraSans_900Black.ttf.png)|![FiraSans_900Black_Italic](./900Black_Italic/FiraSans_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -33,7 +33,7 @@ This font family contains [14 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/josefin-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/josefin-sans expo-font
 ```
 
 Now add code like this to your project
@@ -42,8 +42,21 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, JosefinSans_100Thin, JosefinSans_200ExtraLight, JosefinSans_300Light, JosefinSans_400Regular, JosefinSans_500Medium, JosefinSans_600SemiBold, JosefinSans_700Bold, JosefinSans_100Thin_Italic, JosefinSans_200ExtraLight_Italic, JosefinSans_300Light_Italic, JosefinSans_400Regular_Italic, JosefinSans_500Medium_Italic, JosefinSans_600SemiBold_Italic, JosefinSans_700Bold_Italic } from '@expo-google-fonts/josefin-sans';
+import { useFonts } from '@expo-google-fonts/josefin-sans/useFonts';
+import { JosefinSans_100Thin } from '@expo-google-fonts/josefin-sans/100Thin';
+import { JosefinSans_200ExtraLight } from '@expo-google-fonts/josefin-sans/200ExtraLight';
+import { JosefinSans_300Light } from '@expo-google-fonts/josefin-sans/300Light';
+import { JosefinSans_400Regular } from '@expo-google-fonts/josefin-sans/400Regular';
+import { JosefinSans_500Medium } from '@expo-google-fonts/josefin-sans/500Medium';
+import { JosefinSans_600SemiBold } from '@expo-google-fonts/josefin-sans/600SemiBold';
+import { JosefinSans_700Bold } from '@expo-google-fonts/josefin-sans/700Bold';
+import { JosefinSans_100Thin_Italic } from '@expo-google-fonts/josefin-sans/100Thin_Italic';
+import { JosefinSans_200ExtraLight_Italic } from '@expo-google-fonts/josefin-sans/200ExtraLight_Italic';
+import { JosefinSans_300Light_Italic } from '@expo-google-fonts/josefin-sans/300Light_Italic';
+import { JosefinSans_400Regular_Italic } from '@expo-google-fonts/josefin-sans/400Regular_Italic';
+import { JosefinSans_500Medium_Italic } from '@expo-google-fonts/josefin-sans/500Medium_Italic';
+import { JosefinSans_600SemiBold_Italic } from '@expo-google-fonts/josefin-sans/600SemiBold_Italic';
+import { JosefinSans_700Bold_Italic } from '@expo-google-fonts/josefin-sans/700Bold_Italic';
 
 export default () => {
 
@@ -68,7 +81,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -195,11 +208,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![JosefinSans_100Thin](./JosefinSans_100Thin.ttf.png)|![JosefinSans_200ExtraLight](./JosefinSans_200ExtraLight.ttf.png)|![JosefinSans_300Light](./JosefinSans_300Light.ttf.png)||
-|![JosefinSans_400Regular](./JosefinSans_400Regular.ttf.png)|![JosefinSans_500Medium](./JosefinSans_500Medium.ttf.png)|![JosefinSans_600SemiBold](./JosefinSans_600SemiBold.ttf.png)||
-|![JosefinSans_700Bold](./JosefinSans_700Bold.ttf.png)|![JosefinSans_100Thin_Italic](./JosefinSans_100Thin_Italic.ttf.png)|![JosefinSans_200ExtraLight_Italic](./JosefinSans_200ExtraLight_Italic.ttf.png)||
-|![JosefinSans_300Light_Italic](./JosefinSans_300Light_Italic.ttf.png)|![JosefinSans_400Regular_Italic](./JosefinSans_400Regular_Italic.ttf.png)|![JosefinSans_500Medium_Italic](./JosefinSans_500Medium_Italic.ttf.png)||
-|![JosefinSans_600SemiBold_Italic](./JosefinSans_600SemiBold_Italic.ttf.png)|![JosefinSans_700Bold_Italic](./JosefinSans_700Bold_Italic.ttf.png)|||
+|![JosefinSans_100Thin](./100Thin/JosefinSans_100Thin.ttf.png)|![JosefinSans_200ExtraLight](./200ExtraLight/JosefinSans_200ExtraLight.ttf.png)|![JosefinSans_300Light](./300Light/JosefinSans_300Light.ttf.png)||
+|![JosefinSans_400Regular](./400Regular/JosefinSans_400Regular.ttf.png)|![JosefinSans_500Medium](./500Medium/JosefinSans_500Medium.ttf.png)|![JosefinSans_600SemiBold](./600SemiBold/JosefinSans_600SemiBold.ttf.png)||
+|![JosefinSans_700Bold](./700Bold/JosefinSans_700Bold.ttf.png)|![JosefinSans_100Thin_Italic](./100Thin_Italic/JosefinSans_100Thin_Italic.ttf.png)|![JosefinSans_200ExtraLight_Italic](./200ExtraLight_Italic/JosefinSans_200ExtraLight_Italic.ttf.png)||
+|![JosefinSans_300Light_Italic](./300Light_Italic/JosefinSans_300Light_Italic.ttf.png)|![JosefinSans_400Regular_Italic](./400Regular_Italic/JosefinSans_400Regular_Italic.ttf.png)|![JosefinSans_500Medium_Italic](./500Medium_Italic/JosefinSans_500Medium_Italic.ttf.png)||
+|![JosefinSans_600SemiBold_Italic](./600SemiBold_Italic/JosefinSans_600SemiBold_Italic.ttf.png)|![JosefinSans_700Bold_Italic](./700Bold_Italic/JosefinSans_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

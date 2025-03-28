@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-ethiopic expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-ethiopic expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansEthiopic_100Thin, NotoSansEthiopic_200ExtraLight, NotoSansEthiopic_300Light, NotoSansEthiopic_400Regular, NotoSansEthiopic_500Medium, NotoSansEthiopic_600SemiBold, NotoSansEthiopic_700Bold, NotoSansEthiopic_800ExtraBold, NotoSansEthiopic_900Black } from '@expo-google-fonts/noto-sans-ethiopic';
+import { useFonts } from '@expo-google-fonts/noto-sans-ethiopic/useFonts';
+import { NotoSansEthiopic_100Thin } from '@expo-google-fonts/noto-sans-ethiopic/100Thin';
+import { NotoSansEthiopic_200ExtraLight } from '@expo-google-fonts/noto-sans-ethiopic/200ExtraLight';
+import { NotoSansEthiopic_300Light } from '@expo-google-fonts/noto-sans-ethiopic/300Light';
+import { NotoSansEthiopic_400Regular } from '@expo-google-fonts/noto-sans-ethiopic/400Regular';
+import { NotoSansEthiopic_500Medium } from '@expo-google-fonts/noto-sans-ethiopic/500Medium';
+import { NotoSansEthiopic_600SemiBold } from '@expo-google-fonts/noto-sans-ethiopic/600SemiBold';
+import { NotoSansEthiopic_700Bold } from '@expo-google-fonts/noto-sans-ethiopic/700Bold';
+import { NotoSansEthiopic_800ExtraBold } from '@expo-google-fonts/noto-sans-ethiopic/800ExtraBold';
+import { NotoSansEthiopic_900Black } from '@expo-google-fonts/noto-sans-ethiopic/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansEthiopic_100Thin](./NotoSansEthiopic_100Thin.ttf.png)|![NotoSansEthiopic_200ExtraLight](./NotoSansEthiopic_200ExtraLight.ttf.png)|![NotoSansEthiopic_300Light](./NotoSansEthiopic_300Light.ttf.png)||
-|![NotoSansEthiopic_400Regular](./NotoSansEthiopic_400Regular.ttf.png)|![NotoSansEthiopic_500Medium](./NotoSansEthiopic_500Medium.ttf.png)|![NotoSansEthiopic_600SemiBold](./NotoSansEthiopic_600SemiBold.ttf.png)||
-|![NotoSansEthiopic_700Bold](./NotoSansEthiopic_700Bold.ttf.png)|![NotoSansEthiopic_800ExtraBold](./NotoSansEthiopic_800ExtraBold.ttf.png)|![NotoSansEthiopic_900Black](./NotoSansEthiopic_900Black.ttf.png)||
+|![NotoSansEthiopic_100Thin](./100Thin/NotoSansEthiopic_100Thin.ttf.png)|![NotoSansEthiopic_200ExtraLight](./200ExtraLight/NotoSansEthiopic_200ExtraLight.ttf.png)|![NotoSansEthiopic_300Light](./300Light/NotoSansEthiopic_300Light.ttf.png)||
+|![NotoSansEthiopic_400Regular](./400Regular/NotoSansEthiopic_400Regular.ttf.png)|![NotoSansEthiopic_500Medium](./500Medium/NotoSansEthiopic_500Medium.ttf.png)|![NotoSansEthiopic_600SemiBold](./600SemiBold/NotoSansEthiopic_600SemiBold.ttf.png)||
+|![NotoSansEthiopic_700Bold](./700Bold/NotoSansEthiopic_700Bold.ttf.png)|![NotoSansEthiopic_800ExtraBold](./800ExtraBold/NotoSansEthiopic_800ExtraBold.ttf.png)|![NotoSansEthiopic_900Black](./900Black/NotoSansEthiopic_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

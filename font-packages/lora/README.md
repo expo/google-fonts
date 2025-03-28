@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/lora expo-font expo-app-loading
+npx expo install @expo-google-fonts/lora expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Lora_400Regular, Lora_500Medium, Lora_600SemiBold, Lora_700Bold, Lora_400Regular_Italic, Lora_500Medium_Italic, Lora_600SemiBold_Italic, Lora_700Bold_Italic } from '@expo-google-fonts/lora';
+import { useFonts } from '@expo-google-fonts/lora/useFonts';
+import { Lora_400Regular } from '@expo-google-fonts/lora/400Regular';
+import { Lora_500Medium } from '@expo-google-fonts/lora/500Medium';
+import { Lora_600SemiBold } from '@expo-google-fonts/lora/600SemiBold';
+import { Lora_700Bold } from '@expo-google-fonts/lora/700Bold';
+import { Lora_400Regular_Italic } from '@expo-google-fonts/lora/400Regular_Italic';
+import { Lora_500Medium_Italic } from '@expo-google-fonts/lora/500Medium_Italic';
+import { Lora_600SemiBold_Italic } from '@expo-google-fonts/lora/600SemiBold_Italic';
+import { Lora_700Bold_Italic } from '@expo-google-fonts/lora/700Bold_Italic';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Lora_400Regular](./Lora_400Regular.ttf.png)|![Lora_500Medium](./Lora_500Medium.ttf.png)|![Lora_600SemiBold](./Lora_600SemiBold.ttf.png)||
-|![Lora_700Bold](./Lora_700Bold.ttf.png)|![Lora_400Regular_Italic](./Lora_400Regular_Italic.ttf.png)|![Lora_500Medium_Italic](./Lora_500Medium_Italic.ttf.png)||
-|![Lora_600SemiBold_Italic](./Lora_600SemiBold_Italic.ttf.png)|![Lora_700Bold_Italic](./Lora_700Bold_Italic.ttf.png)|||
+|![Lora_400Regular](./400Regular/Lora_400Regular.ttf.png)|![Lora_500Medium](./500Medium/Lora_500Medium.ttf.png)|![Lora_600SemiBold](./600SemiBold/Lora_600SemiBold.ttf.png)||
+|![Lora_700Bold](./700Bold/Lora_700Bold.ttf.png)|![Lora_400Regular_Italic](./400Regular_Italic/Lora_400Regular_Italic.ttf.png)|![Lora_500Medium_Italic](./500Medium_Italic/Lora_500Medium_Italic.ttf.png)||
+|![Lora_600SemiBold_Italic](./600SemiBold_Italic/Lora_600SemiBold_Italic.ttf.png)|![Lora_700Bold_Italic](./700Bold_Italic/Lora_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

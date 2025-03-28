@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/biorhyme-expanded expo-font expo-app-loading
+npx expo install @expo-google-fonts/biorhyme-expanded expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, BioRhymeExpanded_200ExtraLight, BioRhymeExpanded_300Light, BioRhymeExpanded_400Regular, BioRhymeExpanded_700Bold, BioRhymeExpanded_800ExtraBold } from '@expo-google-fonts/biorhyme-expanded';
+import { useFonts } from '@expo-google-fonts/biorhyme-expanded/useFonts';
+import { BioRhymeExpanded_200ExtraLight } from '@expo-google-fonts/biorhyme-expanded/200ExtraLight';
+import { BioRhymeExpanded_300Light } from '@expo-google-fonts/biorhyme-expanded/300Light';
+import { BioRhymeExpanded_400Regular } from '@expo-google-fonts/biorhyme-expanded/400Regular';
+import { BioRhymeExpanded_700Bold } from '@expo-google-fonts/biorhyme-expanded/700Bold';
+import { BioRhymeExpanded_800ExtraBold } from '@expo-google-fonts/biorhyme-expanded/800ExtraBold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BioRhymeExpanded_200ExtraLight](./BioRhymeExpanded_200ExtraLight.ttf.png)|![BioRhymeExpanded_300Light](./BioRhymeExpanded_300Light.ttf.png)|![BioRhymeExpanded_400Regular](./BioRhymeExpanded_400Regular.ttf.png)||
-|![BioRhymeExpanded_700Bold](./BioRhymeExpanded_700Bold.ttf.png)|![BioRhymeExpanded_800ExtraBold](./BioRhymeExpanded_800ExtraBold.ttf.png)|||
+|![BioRhymeExpanded_200ExtraLight](./200ExtraLight/BioRhymeExpanded_200ExtraLight.ttf.png)|![BioRhymeExpanded_300Light](./300Light/BioRhymeExpanded_300Light.ttf.png)|![BioRhymeExpanded_400Regular](./400Regular/BioRhymeExpanded_400Regular.ttf.png)||
+|![BioRhymeExpanded_700Bold](./700Bold/BioRhymeExpanded_700Bold.ttf.png)|![BioRhymeExpanded_800ExtraBold](./800ExtraBold/BioRhymeExpanded_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/laila expo-font expo-app-loading
+npx expo install @expo-google-fonts/laila expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Laila_300Light, Laila_400Regular, Laila_500Medium, Laila_600SemiBold, Laila_700Bold } from '@expo-google-fonts/laila';
+import { useFonts } from '@expo-google-fonts/laila/useFonts';
+import { Laila_300Light } from '@expo-google-fonts/laila/300Light';
+import { Laila_400Regular } from '@expo-google-fonts/laila/400Regular';
+import { Laila_500Medium } from '@expo-google-fonts/laila/500Medium';
+import { Laila_600SemiBold } from '@expo-google-fonts/laila/600SemiBold';
+import { Laila_700Bold } from '@expo-google-fonts/laila/700Bold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Laila_300Light](./Laila_300Light.ttf.png)|![Laila_400Regular](./Laila_400Regular.ttf.png)|![Laila_500Medium](./Laila_500Medium.ttf.png)||
-|![Laila_600SemiBold](./Laila_600SemiBold.ttf.png)|![Laila_700Bold](./Laila_700Bold.ttf.png)|||
+|![Laila_300Light](./300Light/Laila_300Light.ttf.png)|![Laila_400Regular](./400Regular/Laila_400Regular.ttf.png)|![Laila_500Medium](./500Medium/Laila_500Medium.ttf.png)||
+|![Laila_600SemiBold](./600SemiBold/Laila_600SemiBold.ttf.png)|![Laila_700Bold](./700Bold/Laila_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

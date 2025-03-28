@@ -33,7 +33,7 @@ This font family contains [14 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/ibm-plex-serif expo-font expo-app-loading
+npx expo install @expo-google-fonts/ibm-plex-serif expo-font
 ```
 
 Now add code like this to your project
@@ -42,8 +42,21 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, IBMPlexSerif_100Thin, IBMPlexSerif_100Thin_Italic, IBMPlexSerif_200ExtraLight, IBMPlexSerif_200ExtraLight_Italic, IBMPlexSerif_300Light, IBMPlexSerif_300Light_Italic, IBMPlexSerif_400Regular, IBMPlexSerif_400Regular_Italic, IBMPlexSerif_500Medium, IBMPlexSerif_500Medium_Italic, IBMPlexSerif_600SemiBold, IBMPlexSerif_600SemiBold_Italic, IBMPlexSerif_700Bold, IBMPlexSerif_700Bold_Italic } from '@expo-google-fonts/ibm-plex-serif';
+import { useFonts } from '@expo-google-fonts/ibm-plex-serif/useFonts';
+import { IBMPlexSerif_100Thin } from '@expo-google-fonts/ibm-plex-serif/100Thin';
+import { IBMPlexSerif_100Thin_Italic } from '@expo-google-fonts/ibm-plex-serif/100Thin_Italic';
+import { IBMPlexSerif_200ExtraLight } from '@expo-google-fonts/ibm-plex-serif/200ExtraLight';
+import { IBMPlexSerif_200ExtraLight_Italic } from '@expo-google-fonts/ibm-plex-serif/200ExtraLight_Italic';
+import { IBMPlexSerif_300Light } from '@expo-google-fonts/ibm-plex-serif/300Light';
+import { IBMPlexSerif_300Light_Italic } from '@expo-google-fonts/ibm-plex-serif/300Light_Italic';
+import { IBMPlexSerif_400Regular } from '@expo-google-fonts/ibm-plex-serif/400Regular';
+import { IBMPlexSerif_400Regular_Italic } from '@expo-google-fonts/ibm-plex-serif/400Regular_Italic';
+import { IBMPlexSerif_500Medium } from '@expo-google-fonts/ibm-plex-serif/500Medium';
+import { IBMPlexSerif_500Medium_Italic } from '@expo-google-fonts/ibm-plex-serif/500Medium_Italic';
+import { IBMPlexSerif_600SemiBold } from '@expo-google-fonts/ibm-plex-serif/600SemiBold';
+import { IBMPlexSerif_600SemiBold_Italic } from '@expo-google-fonts/ibm-plex-serif/600SemiBold_Italic';
+import { IBMPlexSerif_700Bold } from '@expo-google-fonts/ibm-plex-serif/700Bold';
+import { IBMPlexSerif_700Bold_Italic } from '@expo-google-fonts/ibm-plex-serif/700Bold_Italic';
 
 export default () => {
 
@@ -68,7 +81,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -195,11 +208,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IBMPlexSerif_100Thin](./IBMPlexSerif_100Thin.ttf.png)|![IBMPlexSerif_100Thin_Italic](./IBMPlexSerif_100Thin_Italic.ttf.png)|![IBMPlexSerif_200ExtraLight](./IBMPlexSerif_200ExtraLight.ttf.png)||
-|![IBMPlexSerif_200ExtraLight_Italic](./IBMPlexSerif_200ExtraLight_Italic.ttf.png)|![IBMPlexSerif_300Light](./IBMPlexSerif_300Light.ttf.png)|![IBMPlexSerif_300Light_Italic](./IBMPlexSerif_300Light_Italic.ttf.png)||
-|![IBMPlexSerif_400Regular](./IBMPlexSerif_400Regular.ttf.png)|![IBMPlexSerif_400Regular_Italic](./IBMPlexSerif_400Regular_Italic.ttf.png)|![IBMPlexSerif_500Medium](./IBMPlexSerif_500Medium.ttf.png)||
-|![IBMPlexSerif_500Medium_Italic](./IBMPlexSerif_500Medium_Italic.ttf.png)|![IBMPlexSerif_600SemiBold](./IBMPlexSerif_600SemiBold.ttf.png)|![IBMPlexSerif_600SemiBold_Italic](./IBMPlexSerif_600SemiBold_Italic.ttf.png)||
-|![IBMPlexSerif_700Bold](./IBMPlexSerif_700Bold.ttf.png)|![IBMPlexSerif_700Bold_Italic](./IBMPlexSerif_700Bold_Italic.ttf.png)|||
+|![IBMPlexSerif_100Thin](./100Thin/IBMPlexSerif_100Thin.ttf.png)|![IBMPlexSerif_100Thin_Italic](./100Thin_Italic/IBMPlexSerif_100Thin_Italic.ttf.png)|![IBMPlexSerif_200ExtraLight](./200ExtraLight/IBMPlexSerif_200ExtraLight.ttf.png)||
+|![IBMPlexSerif_200ExtraLight_Italic](./200ExtraLight_Italic/IBMPlexSerif_200ExtraLight_Italic.ttf.png)|![IBMPlexSerif_300Light](./300Light/IBMPlexSerif_300Light.ttf.png)|![IBMPlexSerif_300Light_Italic](./300Light_Italic/IBMPlexSerif_300Light_Italic.ttf.png)||
+|![IBMPlexSerif_400Regular](./400Regular/IBMPlexSerif_400Regular.ttf.png)|![IBMPlexSerif_400Regular_Italic](./400Regular_Italic/IBMPlexSerif_400Regular_Italic.ttf.png)|![IBMPlexSerif_500Medium](./500Medium/IBMPlexSerif_500Medium.ttf.png)||
+|![IBMPlexSerif_500Medium_Italic](./500Medium_Italic/IBMPlexSerif_500Medium_Italic.ttf.png)|![IBMPlexSerif_600SemiBold](./600SemiBold/IBMPlexSerif_600SemiBold.ttf.png)|![IBMPlexSerif_600SemiBold_Italic](./600SemiBold_Italic/IBMPlexSerif_600SemiBold_Italic.ttf.png)||
+|![IBMPlexSerif_700Bold](./700Bold/IBMPlexSerif_700Bold.ttf.png)|![IBMPlexSerif_700Bold_Italic](./700Bold_Italic/IBMPlexSerif_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

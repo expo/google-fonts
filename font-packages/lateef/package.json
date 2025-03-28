@@ -1,9 +1,13 @@
 {
   "name": "@expo-google-fonts/lateef",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Use the Lateef font family from Google Fonts in your Expo app",
   "main": "index.js",
-  "repository": "https://github.com/expo/google-fonts.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/lateef"
+  },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/lateef#readme",
   "author": "Expo Team <team@expo.io>",
   "license": "MIT",

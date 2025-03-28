@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/gemunu-libre expo-font expo-app-loading
+npx expo install @expo-google-fonts/gemunu-libre expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, GemunuLibre_200ExtraLight, GemunuLibre_300Light, GemunuLibre_400Regular, GemunuLibre_500Medium, GemunuLibre_600SemiBold, GemunuLibre_700Bold, GemunuLibre_800ExtraBold } from '@expo-google-fonts/gemunu-libre';
+import { useFonts } from '@expo-google-fonts/gemunu-libre/useFonts';
+import { GemunuLibre_200ExtraLight } from '@expo-google-fonts/gemunu-libre/200ExtraLight';
+import { GemunuLibre_300Light } from '@expo-google-fonts/gemunu-libre/300Light';
+import { GemunuLibre_400Regular } from '@expo-google-fonts/gemunu-libre/400Regular';
+import { GemunuLibre_500Medium } from '@expo-google-fonts/gemunu-libre/500Medium';
+import { GemunuLibre_600SemiBold } from '@expo-google-fonts/gemunu-libre/600SemiBold';
+import { GemunuLibre_700Bold } from '@expo-google-fonts/gemunu-libre/700Bold';
+import { GemunuLibre_800ExtraBold } from '@expo-google-fonts/gemunu-libre/800ExtraBold';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GemunuLibre_200ExtraLight](./GemunuLibre_200ExtraLight.ttf.png)|![GemunuLibre_300Light](./GemunuLibre_300Light.ttf.png)|![GemunuLibre_400Regular](./GemunuLibre_400Regular.ttf.png)||
-|![GemunuLibre_500Medium](./GemunuLibre_500Medium.ttf.png)|![GemunuLibre_600SemiBold](./GemunuLibre_600SemiBold.ttf.png)|![GemunuLibre_700Bold](./GemunuLibre_700Bold.ttf.png)||
-|![GemunuLibre_800ExtraBold](./GemunuLibre_800ExtraBold.ttf.png)||||
+|![GemunuLibre_200ExtraLight](./200ExtraLight/GemunuLibre_200ExtraLight.ttf.png)|![GemunuLibre_300Light](./300Light/GemunuLibre_300Light.ttf.png)|![GemunuLibre_400Regular](./400Regular/GemunuLibre_400Regular.ttf.png)||
+|![GemunuLibre_500Medium](./500Medium/GemunuLibre_500Medium.ttf.png)|![GemunuLibre_600SemiBold](./600SemiBold/GemunuLibre_600SemiBold.ttf.png)|![GemunuLibre_700Bold](./700Bold/GemunuLibre_700Bold.ttf.png)||
+|![GemunuLibre_800ExtraBold](./800ExtraBold/GemunuLibre_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

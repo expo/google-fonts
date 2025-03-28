@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-syriac-eastern expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-syriac-eastern expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansSyriacEastern_100Thin, NotoSansSyriacEastern_200ExtraLight, NotoSansSyriacEastern_300Light, NotoSansSyriacEastern_400Regular, NotoSansSyriacEastern_500Medium, NotoSansSyriacEastern_600SemiBold, NotoSansSyriacEastern_700Bold, NotoSansSyriacEastern_800ExtraBold, NotoSansSyriacEastern_900Black } from '@expo-google-fonts/noto-sans-syriac-eastern';
+import { useFonts } from '@expo-google-fonts/noto-sans-syriac-eastern/useFonts';
+import { NotoSansSyriacEastern_100Thin } from '@expo-google-fonts/noto-sans-syriac-eastern/100Thin';
+import { NotoSansSyriacEastern_200ExtraLight } from '@expo-google-fonts/noto-sans-syriac-eastern/200ExtraLight';
+import { NotoSansSyriacEastern_300Light } from '@expo-google-fonts/noto-sans-syriac-eastern/300Light';
+import { NotoSansSyriacEastern_400Regular } from '@expo-google-fonts/noto-sans-syriac-eastern/400Regular';
+import { NotoSansSyriacEastern_500Medium } from '@expo-google-fonts/noto-sans-syriac-eastern/500Medium';
+import { NotoSansSyriacEastern_600SemiBold } from '@expo-google-fonts/noto-sans-syriac-eastern/600SemiBold';
+import { NotoSansSyriacEastern_700Bold } from '@expo-google-fonts/noto-sans-syriac-eastern/700Bold';
+import { NotoSansSyriacEastern_800ExtraBold } from '@expo-google-fonts/noto-sans-syriac-eastern/800ExtraBold';
+import { NotoSansSyriacEastern_900Black } from '@expo-google-fonts/noto-sans-syriac-eastern/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansSyriacEastern_100Thin](./NotoSansSyriacEastern_100Thin.ttf.png)|![NotoSansSyriacEastern_200ExtraLight](./NotoSansSyriacEastern_200ExtraLight.ttf.png)|![NotoSansSyriacEastern_300Light](./NotoSansSyriacEastern_300Light.ttf.png)||
-|![NotoSansSyriacEastern_400Regular](./NotoSansSyriacEastern_400Regular.ttf.png)|![NotoSansSyriacEastern_500Medium](./NotoSansSyriacEastern_500Medium.ttf.png)|![NotoSansSyriacEastern_600SemiBold](./NotoSansSyriacEastern_600SemiBold.ttf.png)||
-|![NotoSansSyriacEastern_700Bold](./NotoSansSyriacEastern_700Bold.ttf.png)|![NotoSansSyriacEastern_800ExtraBold](./NotoSansSyriacEastern_800ExtraBold.ttf.png)|![NotoSansSyriacEastern_900Black](./NotoSansSyriacEastern_900Black.ttf.png)||
+|![NotoSansSyriacEastern_100Thin](./100Thin/NotoSansSyriacEastern_100Thin.ttf.png)|![NotoSansSyriacEastern_200ExtraLight](./200ExtraLight/NotoSansSyriacEastern_200ExtraLight.ttf.png)|![NotoSansSyriacEastern_300Light](./300Light/NotoSansSyriacEastern_300Light.ttf.png)||
+|![NotoSansSyriacEastern_400Regular](./400Regular/NotoSansSyriacEastern_400Regular.ttf.png)|![NotoSansSyriacEastern_500Medium](./500Medium/NotoSansSyriacEastern_500Medium.ttf.png)|![NotoSansSyriacEastern_600SemiBold](./600SemiBold/NotoSansSyriacEastern_600SemiBold.ttf.png)||
+|![NotoSansSyriacEastern_700Bold](./700Bold/NotoSansSyriacEastern_700Bold.ttf.png)|![NotoSansSyriacEastern_800ExtraBold](./800ExtraBold/NotoSansSyriacEastern_800ExtraBold.ttf.png)|![NotoSansSyriacEastern_900Black](./900Black/NotoSansSyriacEastern_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

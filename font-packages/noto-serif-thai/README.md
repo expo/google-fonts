@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-thai expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-thai expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifThai_100Thin, NotoSerifThai_200ExtraLight, NotoSerifThai_300Light, NotoSerifThai_400Regular, NotoSerifThai_500Medium, NotoSerifThai_600SemiBold, NotoSerifThai_700Bold, NotoSerifThai_800ExtraBold, NotoSerifThai_900Black } from '@expo-google-fonts/noto-serif-thai';
+import { useFonts } from '@expo-google-fonts/noto-serif-thai/useFonts';
+import { NotoSerifThai_100Thin } from '@expo-google-fonts/noto-serif-thai/100Thin';
+import { NotoSerifThai_200ExtraLight } from '@expo-google-fonts/noto-serif-thai/200ExtraLight';
+import { NotoSerifThai_300Light } from '@expo-google-fonts/noto-serif-thai/300Light';
+import { NotoSerifThai_400Regular } from '@expo-google-fonts/noto-serif-thai/400Regular';
+import { NotoSerifThai_500Medium } from '@expo-google-fonts/noto-serif-thai/500Medium';
+import { NotoSerifThai_600SemiBold } from '@expo-google-fonts/noto-serif-thai/600SemiBold';
+import { NotoSerifThai_700Bold } from '@expo-google-fonts/noto-serif-thai/700Bold';
+import { NotoSerifThai_800ExtraBold } from '@expo-google-fonts/noto-serif-thai/800ExtraBold';
+import { NotoSerifThai_900Black } from '@expo-google-fonts/noto-serif-thai/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifThai_100Thin](./NotoSerifThai_100Thin.ttf.png)|![NotoSerifThai_200ExtraLight](./NotoSerifThai_200ExtraLight.ttf.png)|![NotoSerifThai_300Light](./NotoSerifThai_300Light.ttf.png)||
-|![NotoSerifThai_400Regular](./NotoSerifThai_400Regular.ttf.png)|![NotoSerifThai_500Medium](./NotoSerifThai_500Medium.ttf.png)|![NotoSerifThai_600SemiBold](./NotoSerifThai_600SemiBold.ttf.png)||
-|![NotoSerifThai_700Bold](./NotoSerifThai_700Bold.ttf.png)|![NotoSerifThai_800ExtraBold](./NotoSerifThai_800ExtraBold.ttf.png)|![NotoSerifThai_900Black](./NotoSerifThai_900Black.ttf.png)||
+|![NotoSerifThai_100Thin](./100Thin/NotoSerifThai_100Thin.ttf.png)|![NotoSerifThai_200ExtraLight](./200ExtraLight/NotoSerifThai_200ExtraLight.ttf.png)|![NotoSerifThai_300Light](./300Light/NotoSerifThai_300Light.ttf.png)||
+|![NotoSerifThai_400Regular](./400Regular/NotoSerifThai_400Regular.ttf.png)|![NotoSerifThai_500Medium](./500Medium/NotoSerifThai_500Medium.ttf.png)|![NotoSerifThai_600SemiBold](./600SemiBold/NotoSerifThai_600SemiBold.ttf.png)||
+|![NotoSerifThai_700Bold](./700Bold/NotoSerifThai_700Bold.ttf.png)|![NotoSerifThai_800ExtraBold](./800ExtraBold/NotoSerifThai_800ExtraBold.ttf.png)|![NotoSerifThai_900Black](./900Black/NotoSerifThai_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

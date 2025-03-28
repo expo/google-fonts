@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/bellota expo-font expo-app-loading
+npx expo install @expo-google-fonts/bellota expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Bellota_300Light, Bellota_300Light_Italic, Bellota_400Regular, Bellota_400Regular_Italic, Bellota_700Bold, Bellota_700Bold_Italic } from '@expo-google-fonts/bellota';
+import { useFonts } from '@expo-google-fonts/bellota/useFonts';
+import { Bellota_300Light } from '@expo-google-fonts/bellota/300Light';
+import { Bellota_300Light_Italic } from '@expo-google-fonts/bellota/300Light_Italic';
+import { Bellota_400Regular } from '@expo-google-fonts/bellota/400Regular';
+import { Bellota_400Regular_Italic } from '@expo-google-fonts/bellota/400Regular_Italic';
+import { Bellota_700Bold } from '@expo-google-fonts/bellota/700Bold';
+import { Bellota_700Bold_Italic } from '@expo-google-fonts/bellota/700Bold_Italic';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Bellota_300Light](./Bellota_300Light.ttf.png)|![Bellota_300Light_Italic](./Bellota_300Light_Italic.ttf.png)|![Bellota_400Regular](./Bellota_400Regular.ttf.png)||
-|![Bellota_400Regular_Italic](./Bellota_400Regular_Italic.ttf.png)|![Bellota_700Bold](./Bellota_700Bold.ttf.png)|![Bellota_700Bold_Italic](./Bellota_700Bold_Italic.ttf.png)||
+|![Bellota_300Light](./300Light/Bellota_300Light.ttf.png)|![Bellota_300Light_Italic](./300Light_Italic/Bellota_300Light_Italic.ttf.png)|![Bellota_400Regular](./400Regular/Bellota_400Regular.ttf.png)||
+|![Bellota_400Regular_Italic](./400Regular_Italic/Bellota_400Regular_Italic.ttf.png)|![Bellota_700Bold](./700Bold/Bellota_700Bold.ttf.png)|![Bellota_700Bold_Italic](./700Bold_Italic/Bellota_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/assistant expo-font expo-app-loading
+npx expo install @expo-google-fonts/assistant expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Assistant_200ExtraLight, Assistant_300Light, Assistant_400Regular, Assistant_500Medium, Assistant_600SemiBold, Assistant_700Bold, Assistant_800ExtraBold } from '@expo-google-fonts/assistant';
+import { useFonts } from '@expo-google-fonts/assistant/useFonts';
+import { Assistant_200ExtraLight } from '@expo-google-fonts/assistant/200ExtraLight';
+import { Assistant_300Light } from '@expo-google-fonts/assistant/300Light';
+import { Assistant_400Regular } from '@expo-google-fonts/assistant/400Regular';
+import { Assistant_500Medium } from '@expo-google-fonts/assistant/500Medium';
+import { Assistant_600SemiBold } from '@expo-google-fonts/assistant/600SemiBold';
+import { Assistant_700Bold } from '@expo-google-fonts/assistant/700Bold';
+import { Assistant_800ExtraBold } from '@expo-google-fonts/assistant/800ExtraBold';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Assistant_200ExtraLight](./Assistant_200ExtraLight.ttf.png)|![Assistant_300Light](./Assistant_300Light.ttf.png)|![Assistant_400Regular](./Assistant_400Regular.ttf.png)||
-|![Assistant_500Medium](./Assistant_500Medium.ttf.png)|![Assistant_600SemiBold](./Assistant_600SemiBold.ttf.png)|![Assistant_700Bold](./Assistant_700Bold.ttf.png)||
-|![Assistant_800ExtraBold](./Assistant_800ExtraBold.ttf.png)||||
+|![Assistant_200ExtraLight](./200ExtraLight/Assistant_200ExtraLight.ttf.png)|![Assistant_300Light](./300Light/Assistant_300Light.ttf.png)|![Assistant_400Regular](./400Regular/Assistant_400Regular.ttf.png)||
+|![Assistant_500Medium](./500Medium/Assistant_500Medium.ttf.png)|![Assistant_600SemiBold](./600SemiBold/Assistant_600SemiBold.ttf.png)|![Assistant_700Bold](./700Bold/Assistant_700Bold.ttf.png)||
+|![Assistant_800ExtraBold](./800ExtraBold/Assistant_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

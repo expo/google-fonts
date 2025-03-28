@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/reddit-mono expo-font expo-app-loading
+npx expo install @expo-google-fonts/reddit-mono expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, RedditMono_200ExtraLight, RedditMono_300Light, RedditMono_400Regular, RedditMono_500Medium, RedditMono_600SemiBold, RedditMono_700Bold, RedditMono_800ExtraBold, RedditMono_900Black } from '@expo-google-fonts/reddit-mono';
+import { useFonts } from '@expo-google-fonts/reddit-mono/useFonts';
+import { RedditMono_200ExtraLight } from '@expo-google-fonts/reddit-mono/200ExtraLight';
+import { RedditMono_300Light } from '@expo-google-fonts/reddit-mono/300Light';
+import { RedditMono_400Regular } from '@expo-google-fonts/reddit-mono/400Regular';
+import { RedditMono_500Medium } from '@expo-google-fonts/reddit-mono/500Medium';
+import { RedditMono_600SemiBold } from '@expo-google-fonts/reddit-mono/600SemiBold';
+import { RedditMono_700Bold } from '@expo-google-fonts/reddit-mono/700Bold';
+import { RedditMono_800ExtraBold } from '@expo-google-fonts/reddit-mono/800ExtraBold';
+import { RedditMono_900Black } from '@expo-google-fonts/reddit-mono/900Black';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RedditMono_200ExtraLight](./RedditMono_200ExtraLight.ttf.png)|![RedditMono_300Light](./RedditMono_300Light.ttf.png)|![RedditMono_400Regular](./RedditMono_400Regular.ttf.png)||
-|![RedditMono_500Medium](./RedditMono_500Medium.ttf.png)|![RedditMono_600SemiBold](./RedditMono_600SemiBold.ttf.png)|![RedditMono_700Bold](./RedditMono_700Bold.ttf.png)||
-|![RedditMono_800ExtraBold](./RedditMono_800ExtraBold.ttf.png)|![RedditMono_900Black](./RedditMono_900Black.ttf.png)|||
+|![RedditMono_200ExtraLight](./200ExtraLight/RedditMono_200ExtraLight.ttf.png)|![RedditMono_300Light](./300Light/RedditMono_300Light.ttf.png)|![RedditMono_400Regular](./400Regular/RedditMono_400Regular.ttf.png)||
+|![RedditMono_500Medium](./500Medium/RedditMono_500Medium.ttf.png)|![RedditMono_600SemiBold](./600SemiBold/RedditMono_600SemiBold.ttf.png)|![RedditMono_700Bold](./700Bold/RedditMono_700Bold.ttf.png)||
+|![RedditMono_800ExtraBold](./800ExtraBold/RedditMono_800ExtraBold.ttf.png)|![RedditMono_900Black](./900Black/RedditMono_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -22,7 +22,7 @@ This font family contains [3 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/oxygen expo-font expo-app-loading
+npx expo install @expo-google-fonts/oxygen expo-font
 ```
 
 Now add code like this to your project
@@ -31,8 +31,10 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Oxygen_300Light, Oxygen_400Regular, Oxygen_700Bold } from '@expo-google-fonts/oxygen';
+import { useFonts } from '@expo-google-fonts/oxygen/useFonts';
+import { Oxygen_300Light } from '@expo-google-fonts/oxygen/300Light';
+import { Oxygen_400Regular } from '@expo-google-fonts/oxygen/400Regular';
+import { Oxygen_700Bold } from '@expo-google-fonts/oxygen/700Bold';
 
 export default () => {
 
@@ -46,7 +48,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -85,7 +87,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Oxygen_300Light](./Oxygen_300Light.ttf.png)|![Oxygen_400Regular](./Oxygen_400Regular.ttf.png)|![Oxygen_700Bold](./Oxygen_700Bold.ttf.png)||
+|![Oxygen_300Light](./300Light/Oxygen_300Light.ttf.png)|![Oxygen_400Regular](./400Regular/Oxygen_400Regular.ttf.png)|![Oxygen_700Bold](./700Bold/Oxygen_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

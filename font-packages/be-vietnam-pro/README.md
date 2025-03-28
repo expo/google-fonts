@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/be-vietnam-pro expo-font expo-app-loading
+npx expo install @expo-google-fonts/be-vietnam-pro expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, BeVietnamPro_100Thin, BeVietnamPro_100Thin_Italic, BeVietnamPro_200ExtraLight, BeVietnamPro_200ExtraLight_Italic, BeVietnamPro_300Light, BeVietnamPro_300Light_Italic, BeVietnamPro_400Regular, BeVietnamPro_400Regular_Italic, BeVietnamPro_500Medium, BeVietnamPro_500Medium_Italic, BeVietnamPro_600SemiBold, BeVietnamPro_600SemiBold_Italic, BeVietnamPro_700Bold, BeVietnamPro_700Bold_Italic, BeVietnamPro_800ExtraBold, BeVietnamPro_800ExtraBold_Italic, BeVietnamPro_900Black, BeVietnamPro_900Black_Italic } from '@expo-google-fonts/be-vietnam-pro';
+import { useFonts } from '@expo-google-fonts/be-vietnam-pro/useFonts';
+import { BeVietnamPro_100Thin } from '@expo-google-fonts/be-vietnam-pro/100Thin';
+import { BeVietnamPro_100Thin_Italic } from '@expo-google-fonts/be-vietnam-pro/100Thin_Italic';
+import { BeVietnamPro_200ExtraLight } from '@expo-google-fonts/be-vietnam-pro/200ExtraLight';
+import { BeVietnamPro_200ExtraLight_Italic } from '@expo-google-fonts/be-vietnam-pro/200ExtraLight_Italic';
+import { BeVietnamPro_300Light } from '@expo-google-fonts/be-vietnam-pro/300Light';
+import { BeVietnamPro_300Light_Italic } from '@expo-google-fonts/be-vietnam-pro/300Light_Italic';
+import { BeVietnamPro_400Regular } from '@expo-google-fonts/be-vietnam-pro/400Regular';
+import { BeVietnamPro_400Regular_Italic } from '@expo-google-fonts/be-vietnam-pro/400Regular_Italic';
+import { BeVietnamPro_500Medium } from '@expo-google-fonts/be-vietnam-pro/500Medium';
+import { BeVietnamPro_500Medium_Italic } from '@expo-google-fonts/be-vietnam-pro/500Medium_Italic';
+import { BeVietnamPro_600SemiBold } from '@expo-google-fonts/be-vietnam-pro/600SemiBold';
+import { BeVietnamPro_600SemiBold_Italic } from '@expo-google-fonts/be-vietnam-pro/600SemiBold_Italic';
+import { BeVietnamPro_700Bold } from '@expo-google-fonts/be-vietnam-pro/700Bold';
+import { BeVietnamPro_700Bold_Italic } from '@expo-google-fonts/be-vietnam-pro/700Bold_Italic';
+import { BeVietnamPro_800ExtraBold } from '@expo-google-fonts/be-vietnam-pro/800ExtraBold';
+import { BeVietnamPro_800ExtraBold_Italic } from '@expo-google-fonts/be-vietnam-pro/800ExtraBold_Italic';
+import { BeVietnamPro_900Black } from '@expo-google-fonts/be-vietnam-pro/900Black';
+import { BeVietnamPro_900Black_Italic } from '@expo-google-fonts/be-vietnam-pro/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BeVietnamPro_100Thin](./BeVietnamPro_100Thin.ttf.png)|![BeVietnamPro_100Thin_Italic](./BeVietnamPro_100Thin_Italic.ttf.png)|![BeVietnamPro_200ExtraLight](./BeVietnamPro_200ExtraLight.ttf.png)||
-|![BeVietnamPro_200ExtraLight_Italic](./BeVietnamPro_200ExtraLight_Italic.ttf.png)|![BeVietnamPro_300Light](./BeVietnamPro_300Light.ttf.png)|![BeVietnamPro_300Light_Italic](./BeVietnamPro_300Light_Italic.ttf.png)||
-|![BeVietnamPro_400Regular](./BeVietnamPro_400Regular.ttf.png)|![BeVietnamPro_400Regular_Italic](./BeVietnamPro_400Regular_Italic.ttf.png)|![BeVietnamPro_500Medium](./BeVietnamPro_500Medium.ttf.png)||
-|![BeVietnamPro_500Medium_Italic](./BeVietnamPro_500Medium_Italic.ttf.png)|![BeVietnamPro_600SemiBold](./BeVietnamPro_600SemiBold.ttf.png)|![BeVietnamPro_600SemiBold_Italic](./BeVietnamPro_600SemiBold_Italic.ttf.png)||
-|![BeVietnamPro_700Bold](./BeVietnamPro_700Bold.ttf.png)|![BeVietnamPro_700Bold_Italic](./BeVietnamPro_700Bold_Italic.ttf.png)|![BeVietnamPro_800ExtraBold](./BeVietnamPro_800ExtraBold.ttf.png)||
-|![BeVietnamPro_800ExtraBold_Italic](./BeVietnamPro_800ExtraBold_Italic.ttf.png)|![BeVietnamPro_900Black](./BeVietnamPro_900Black.ttf.png)|![BeVietnamPro_900Black_Italic](./BeVietnamPro_900Black_Italic.ttf.png)||
+|![BeVietnamPro_100Thin](./100Thin/BeVietnamPro_100Thin.ttf.png)|![BeVietnamPro_100Thin_Italic](./100Thin_Italic/BeVietnamPro_100Thin_Italic.ttf.png)|![BeVietnamPro_200ExtraLight](./200ExtraLight/BeVietnamPro_200ExtraLight.ttf.png)||
+|![BeVietnamPro_200ExtraLight_Italic](./200ExtraLight_Italic/BeVietnamPro_200ExtraLight_Italic.ttf.png)|![BeVietnamPro_300Light](./300Light/BeVietnamPro_300Light.ttf.png)|![BeVietnamPro_300Light_Italic](./300Light_Italic/BeVietnamPro_300Light_Italic.ttf.png)||
+|![BeVietnamPro_400Regular](./400Regular/BeVietnamPro_400Regular.ttf.png)|![BeVietnamPro_400Regular_Italic](./400Regular_Italic/BeVietnamPro_400Regular_Italic.ttf.png)|![BeVietnamPro_500Medium](./500Medium/BeVietnamPro_500Medium.ttf.png)||
+|![BeVietnamPro_500Medium_Italic](./500Medium_Italic/BeVietnamPro_500Medium_Italic.ttf.png)|![BeVietnamPro_600SemiBold](./600SemiBold/BeVietnamPro_600SemiBold.ttf.png)|![BeVietnamPro_600SemiBold_Italic](./600SemiBold_Italic/BeVietnamPro_600SemiBold_Italic.ttf.png)||
+|![BeVietnamPro_700Bold](./700Bold/BeVietnamPro_700Bold.ttf.png)|![BeVietnamPro_700Bold_Italic](./700Bold_Italic/BeVietnamPro_700Bold_Italic.ttf.png)|![BeVietnamPro_800ExtraBold](./800ExtraBold/BeVietnamPro_800ExtraBold.ttf.png)||
+|![BeVietnamPro_800ExtraBold_Italic](./800ExtraBold_Italic/BeVietnamPro_800ExtraBold_Italic.ttf.png)|![BeVietnamPro_900Black](./900Black/BeVietnamPro_900Black.ttf.png)|![BeVietnamPro_900Black_Italic](./900Black_Italic/BeVietnamPro_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-georgian expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-georgian expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansGeorgian_100Thin, NotoSansGeorgian_200ExtraLight, NotoSansGeorgian_300Light, NotoSansGeorgian_400Regular, NotoSansGeorgian_500Medium, NotoSansGeorgian_600SemiBold, NotoSansGeorgian_700Bold, NotoSansGeorgian_800ExtraBold, NotoSansGeorgian_900Black } from '@expo-google-fonts/noto-sans-georgian';
+import { useFonts } from '@expo-google-fonts/noto-sans-georgian/useFonts';
+import { NotoSansGeorgian_100Thin } from '@expo-google-fonts/noto-sans-georgian/100Thin';
+import { NotoSansGeorgian_200ExtraLight } from '@expo-google-fonts/noto-sans-georgian/200ExtraLight';
+import { NotoSansGeorgian_300Light } from '@expo-google-fonts/noto-sans-georgian/300Light';
+import { NotoSansGeorgian_400Regular } from '@expo-google-fonts/noto-sans-georgian/400Regular';
+import { NotoSansGeorgian_500Medium } from '@expo-google-fonts/noto-sans-georgian/500Medium';
+import { NotoSansGeorgian_600SemiBold } from '@expo-google-fonts/noto-sans-georgian/600SemiBold';
+import { NotoSansGeorgian_700Bold } from '@expo-google-fonts/noto-sans-georgian/700Bold';
+import { NotoSansGeorgian_800ExtraBold } from '@expo-google-fonts/noto-sans-georgian/800ExtraBold';
+import { NotoSansGeorgian_900Black } from '@expo-google-fonts/noto-sans-georgian/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansGeorgian_100Thin](./NotoSansGeorgian_100Thin.ttf.png)|![NotoSansGeorgian_200ExtraLight](./NotoSansGeorgian_200ExtraLight.ttf.png)|![NotoSansGeorgian_300Light](./NotoSansGeorgian_300Light.ttf.png)||
-|![NotoSansGeorgian_400Regular](./NotoSansGeorgian_400Regular.ttf.png)|![NotoSansGeorgian_500Medium](./NotoSansGeorgian_500Medium.ttf.png)|![NotoSansGeorgian_600SemiBold](./NotoSansGeorgian_600SemiBold.ttf.png)||
-|![NotoSansGeorgian_700Bold](./NotoSansGeorgian_700Bold.ttf.png)|![NotoSansGeorgian_800ExtraBold](./NotoSansGeorgian_800ExtraBold.ttf.png)|![NotoSansGeorgian_900Black](./NotoSansGeorgian_900Black.ttf.png)||
+|![NotoSansGeorgian_100Thin](./100Thin/NotoSansGeorgian_100Thin.ttf.png)|![NotoSansGeorgian_200ExtraLight](./200ExtraLight/NotoSansGeorgian_200ExtraLight.ttf.png)|![NotoSansGeorgian_300Light](./300Light/NotoSansGeorgian_300Light.ttf.png)||
+|![NotoSansGeorgian_400Regular](./400Regular/NotoSansGeorgian_400Regular.ttf.png)|![NotoSansGeorgian_500Medium](./500Medium/NotoSansGeorgian_500Medium.ttf.png)|![NotoSansGeorgian_600SemiBold](./600SemiBold/NotoSansGeorgian_600SemiBold.ttf.png)||
+|![NotoSansGeorgian_700Bold](./700Bold/NotoSansGeorgian_700Bold.ttf.png)|![NotoSansGeorgian_800ExtraBold](./800ExtraBold/NotoSansGeorgian_800ExtraBold.ttf.png)|![NotoSansGeorgian_900Black](./900Black/NotoSansGeorgian_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/tourney expo-font expo-app-loading
+npx expo install @expo-google-fonts/tourney expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Tourney_100Thin, Tourney_200ExtraLight, Tourney_300Light, Tourney_400Regular, Tourney_500Medium, Tourney_600SemiBold, Tourney_700Bold, Tourney_800ExtraBold, Tourney_900Black, Tourney_100Thin_Italic, Tourney_200ExtraLight_Italic, Tourney_300Light_Italic, Tourney_400Regular_Italic, Tourney_500Medium_Italic, Tourney_600SemiBold_Italic, Tourney_700Bold_Italic, Tourney_800ExtraBold_Italic, Tourney_900Black_Italic } from '@expo-google-fonts/tourney';
+import { useFonts } from '@expo-google-fonts/tourney/useFonts';
+import { Tourney_100Thin } from '@expo-google-fonts/tourney/100Thin';
+import { Tourney_200ExtraLight } from '@expo-google-fonts/tourney/200ExtraLight';
+import { Tourney_300Light } from '@expo-google-fonts/tourney/300Light';
+import { Tourney_400Regular } from '@expo-google-fonts/tourney/400Regular';
+import { Tourney_500Medium } from '@expo-google-fonts/tourney/500Medium';
+import { Tourney_600SemiBold } from '@expo-google-fonts/tourney/600SemiBold';
+import { Tourney_700Bold } from '@expo-google-fonts/tourney/700Bold';
+import { Tourney_800ExtraBold } from '@expo-google-fonts/tourney/800ExtraBold';
+import { Tourney_900Black } from '@expo-google-fonts/tourney/900Black';
+import { Tourney_100Thin_Italic } from '@expo-google-fonts/tourney/100Thin_Italic';
+import { Tourney_200ExtraLight_Italic } from '@expo-google-fonts/tourney/200ExtraLight_Italic';
+import { Tourney_300Light_Italic } from '@expo-google-fonts/tourney/300Light_Italic';
+import { Tourney_400Regular_Italic } from '@expo-google-fonts/tourney/400Regular_Italic';
+import { Tourney_500Medium_Italic } from '@expo-google-fonts/tourney/500Medium_Italic';
+import { Tourney_600SemiBold_Italic } from '@expo-google-fonts/tourney/600SemiBold_Italic';
+import { Tourney_700Bold_Italic } from '@expo-google-fonts/tourney/700Bold_Italic';
+import { Tourney_800ExtraBold_Italic } from '@expo-google-fonts/tourney/800ExtraBold_Italic';
+import { Tourney_900Black_Italic } from '@expo-google-fonts/tourney/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Tourney_100Thin](./Tourney_100Thin.ttf.png)|![Tourney_200ExtraLight](./Tourney_200ExtraLight.ttf.png)|![Tourney_300Light](./Tourney_300Light.ttf.png)||
-|![Tourney_400Regular](./Tourney_400Regular.ttf.png)|![Tourney_500Medium](./Tourney_500Medium.ttf.png)|![Tourney_600SemiBold](./Tourney_600SemiBold.ttf.png)||
-|![Tourney_700Bold](./Tourney_700Bold.ttf.png)|![Tourney_800ExtraBold](./Tourney_800ExtraBold.ttf.png)|![Tourney_900Black](./Tourney_900Black.ttf.png)||
-|![Tourney_100Thin_Italic](./Tourney_100Thin_Italic.ttf.png)|![Tourney_200ExtraLight_Italic](./Tourney_200ExtraLight_Italic.ttf.png)|![Tourney_300Light_Italic](./Tourney_300Light_Italic.ttf.png)||
-|![Tourney_400Regular_Italic](./Tourney_400Regular_Italic.ttf.png)|![Tourney_500Medium_Italic](./Tourney_500Medium_Italic.ttf.png)|![Tourney_600SemiBold_Italic](./Tourney_600SemiBold_Italic.ttf.png)||
-|![Tourney_700Bold_Italic](./Tourney_700Bold_Italic.ttf.png)|![Tourney_800ExtraBold_Italic](./Tourney_800ExtraBold_Italic.ttf.png)|![Tourney_900Black_Italic](./Tourney_900Black_Italic.ttf.png)||
+|![Tourney_100Thin](./100Thin/Tourney_100Thin.ttf.png)|![Tourney_200ExtraLight](./200ExtraLight/Tourney_200ExtraLight.ttf.png)|![Tourney_300Light](./300Light/Tourney_300Light.ttf.png)||
+|![Tourney_400Regular](./400Regular/Tourney_400Regular.ttf.png)|![Tourney_500Medium](./500Medium/Tourney_500Medium.ttf.png)|![Tourney_600SemiBold](./600SemiBold/Tourney_600SemiBold.ttf.png)||
+|![Tourney_700Bold](./700Bold/Tourney_700Bold.ttf.png)|![Tourney_800ExtraBold](./800ExtraBold/Tourney_800ExtraBold.ttf.png)|![Tourney_900Black](./900Black/Tourney_900Black.ttf.png)||
+|![Tourney_100Thin_Italic](./100Thin_Italic/Tourney_100Thin_Italic.ttf.png)|![Tourney_200ExtraLight_Italic](./200ExtraLight_Italic/Tourney_200ExtraLight_Italic.ttf.png)|![Tourney_300Light_Italic](./300Light_Italic/Tourney_300Light_Italic.ttf.png)||
+|![Tourney_400Regular_Italic](./400Regular_Italic/Tourney_400Regular_Italic.ttf.png)|![Tourney_500Medium_Italic](./500Medium_Italic/Tourney_500Medium_Italic.ttf.png)|![Tourney_600SemiBold_Italic](./600SemiBold_Italic/Tourney_600SemiBold_Italic.ttf.png)||
+|![Tourney_700Bold_Italic](./700Bold_Italic/Tourney_700Bold_Italic.ttf.png)|![Tourney_800ExtraBold_Italic](./800ExtraBold_Italic/Tourney_800ExtraBold_Italic.ttf.png)|![Tourney_900Black_Italic](./900Black_Italic/Tourney_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

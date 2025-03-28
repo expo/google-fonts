@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/rajdhani expo-font expo-app-loading
+npx expo install @expo-google-fonts/rajdhani expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Rajdhani_300Light, Rajdhani_400Regular, Rajdhani_500Medium, Rajdhani_600SemiBold, Rajdhani_700Bold } from '@expo-google-fonts/rajdhani';
+import { useFonts } from '@expo-google-fonts/rajdhani/useFonts';
+import { Rajdhani_300Light } from '@expo-google-fonts/rajdhani/300Light';
+import { Rajdhani_400Regular } from '@expo-google-fonts/rajdhani/400Regular';
+import { Rajdhani_500Medium } from '@expo-google-fonts/rajdhani/500Medium';
+import { Rajdhani_600SemiBold } from '@expo-google-fonts/rajdhani/600SemiBold';
+import { Rajdhani_700Bold } from '@expo-google-fonts/rajdhani/700Bold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Rajdhani_300Light](./Rajdhani_300Light.ttf.png)|![Rajdhani_400Regular](./Rajdhani_400Regular.ttf.png)|![Rajdhani_500Medium](./Rajdhani_500Medium.ttf.png)||
-|![Rajdhani_600SemiBold](./Rajdhani_600SemiBold.ttf.png)|![Rajdhani_700Bold](./Rajdhani_700Bold.ttf.png)|||
+|![Rajdhani_300Light](./300Light/Rajdhani_300Light.ttf.png)|![Rajdhani_400Regular](./400Regular/Rajdhani_400Regular.ttf.png)|![Rajdhani_500Medium](./500Medium/Rajdhani_500Medium.ttf.png)||
+|![Rajdhani_600SemiBold](./600SemiBold/Rajdhani_600SemiBold.ttf.png)|![Rajdhani_700Bold](./700Bold/Rajdhani_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

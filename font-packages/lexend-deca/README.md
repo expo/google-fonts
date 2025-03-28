@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/lexend-deca expo-font expo-app-loading
+npx expo install @expo-google-fonts/lexend-deca expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, LexendDeca_100Thin, LexendDeca_200ExtraLight, LexendDeca_300Light, LexendDeca_400Regular, LexendDeca_500Medium, LexendDeca_600SemiBold, LexendDeca_700Bold, LexendDeca_800ExtraBold, LexendDeca_900Black } from '@expo-google-fonts/lexend-deca';
+import { useFonts } from '@expo-google-fonts/lexend-deca/useFonts';
+import { LexendDeca_100Thin } from '@expo-google-fonts/lexend-deca/100Thin';
+import { LexendDeca_200ExtraLight } from '@expo-google-fonts/lexend-deca/200ExtraLight';
+import { LexendDeca_300Light } from '@expo-google-fonts/lexend-deca/300Light';
+import { LexendDeca_400Regular } from '@expo-google-fonts/lexend-deca/400Regular';
+import { LexendDeca_500Medium } from '@expo-google-fonts/lexend-deca/500Medium';
+import { LexendDeca_600SemiBold } from '@expo-google-fonts/lexend-deca/600SemiBold';
+import { LexendDeca_700Bold } from '@expo-google-fonts/lexend-deca/700Bold';
+import { LexendDeca_800ExtraBold } from '@expo-google-fonts/lexend-deca/800ExtraBold';
+import { LexendDeca_900Black } from '@expo-google-fonts/lexend-deca/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LexendDeca_100Thin](./LexendDeca_100Thin.ttf.png)|![LexendDeca_200ExtraLight](./LexendDeca_200ExtraLight.ttf.png)|![LexendDeca_300Light](./LexendDeca_300Light.ttf.png)||
-|![LexendDeca_400Regular](./LexendDeca_400Regular.ttf.png)|![LexendDeca_500Medium](./LexendDeca_500Medium.ttf.png)|![LexendDeca_600SemiBold](./LexendDeca_600SemiBold.ttf.png)||
-|![LexendDeca_700Bold](./LexendDeca_700Bold.ttf.png)|![LexendDeca_800ExtraBold](./LexendDeca_800ExtraBold.ttf.png)|![LexendDeca_900Black](./LexendDeca_900Black.ttf.png)||
+|![LexendDeca_100Thin](./100Thin/LexendDeca_100Thin.ttf.png)|![LexendDeca_200ExtraLight](./200ExtraLight/LexendDeca_200ExtraLight.ttf.png)|![LexendDeca_300Light](./300Light/LexendDeca_300Light.ttf.png)||
+|![LexendDeca_400Regular](./400Regular/LexendDeca_400Regular.ttf.png)|![LexendDeca_500Medium](./500Medium/LexendDeca_500Medium.ttf.png)|![LexendDeca_600SemiBold](./600SemiBold/LexendDeca_600SemiBold.ttf.png)||
+|![LexendDeca_700Bold](./700Bold/LexendDeca_700Bold.ttf.png)|![LexendDeca_800ExtraBold](./800ExtraBold/LexendDeca_800ExtraBold.ttf.png)|![LexendDeca_900Black](./900Black/LexendDeca_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

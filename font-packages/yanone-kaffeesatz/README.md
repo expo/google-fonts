@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/yanone-kaffeesatz expo-font expo-app-loading
+npx expo install @expo-google-fonts/yanone-kaffeesatz expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, YanoneKaffeesatz_200ExtraLight, YanoneKaffeesatz_300Light, YanoneKaffeesatz_400Regular, YanoneKaffeesatz_500Medium, YanoneKaffeesatz_600SemiBold, YanoneKaffeesatz_700Bold } from '@expo-google-fonts/yanone-kaffeesatz';
+import { useFonts } from '@expo-google-fonts/yanone-kaffeesatz/useFonts';
+import { YanoneKaffeesatz_200ExtraLight } from '@expo-google-fonts/yanone-kaffeesatz/200ExtraLight';
+import { YanoneKaffeesatz_300Light } from '@expo-google-fonts/yanone-kaffeesatz/300Light';
+import { YanoneKaffeesatz_400Regular } from '@expo-google-fonts/yanone-kaffeesatz/400Regular';
+import { YanoneKaffeesatz_500Medium } from '@expo-google-fonts/yanone-kaffeesatz/500Medium';
+import { YanoneKaffeesatz_600SemiBold } from '@expo-google-fonts/yanone-kaffeesatz/600SemiBold';
+import { YanoneKaffeesatz_700Bold } from '@expo-google-fonts/yanone-kaffeesatz/700Bold';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![YanoneKaffeesatz_200ExtraLight](./YanoneKaffeesatz_200ExtraLight.ttf.png)|![YanoneKaffeesatz_300Light](./YanoneKaffeesatz_300Light.ttf.png)|![YanoneKaffeesatz_400Regular](./YanoneKaffeesatz_400Regular.ttf.png)||
-|![YanoneKaffeesatz_500Medium](./YanoneKaffeesatz_500Medium.ttf.png)|![YanoneKaffeesatz_600SemiBold](./YanoneKaffeesatz_600SemiBold.ttf.png)|![YanoneKaffeesatz_700Bold](./YanoneKaffeesatz_700Bold.ttf.png)||
+|![YanoneKaffeesatz_200ExtraLight](./200ExtraLight/YanoneKaffeesatz_200ExtraLight.ttf.png)|![YanoneKaffeesatz_300Light](./300Light/YanoneKaffeesatz_300Light.ttf.png)|![YanoneKaffeesatz_400Regular](./400Regular/YanoneKaffeesatz_400Regular.ttf.png)||
+|![YanoneKaffeesatz_500Medium](./500Medium/YanoneKaffeesatz_500Medium.ttf.png)|![YanoneKaffeesatz_600SemiBold](./600SemiBold/YanoneKaffeesatz_600SemiBold.ttf.png)|![YanoneKaffeesatz_700Bold](./700Bold/YanoneKaffeesatz_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

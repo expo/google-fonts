@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/pridi expo-font expo-app-loading
+npx expo install @expo-google-fonts/pridi expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Pridi_200ExtraLight, Pridi_300Light, Pridi_400Regular, Pridi_500Medium, Pridi_600SemiBold, Pridi_700Bold } from '@expo-google-fonts/pridi';
+import { useFonts } from '@expo-google-fonts/pridi/useFonts';
+import { Pridi_200ExtraLight } from '@expo-google-fonts/pridi/200ExtraLight';
+import { Pridi_300Light } from '@expo-google-fonts/pridi/300Light';
+import { Pridi_400Regular } from '@expo-google-fonts/pridi/400Regular';
+import { Pridi_500Medium } from '@expo-google-fonts/pridi/500Medium';
+import { Pridi_600SemiBold } from '@expo-google-fonts/pridi/600SemiBold';
+import { Pridi_700Bold } from '@expo-google-fonts/pridi/700Bold';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Pridi_200ExtraLight](./Pridi_200ExtraLight.ttf.png)|![Pridi_300Light](./Pridi_300Light.ttf.png)|![Pridi_400Regular](./Pridi_400Regular.ttf.png)||
-|![Pridi_500Medium](./Pridi_500Medium.ttf.png)|![Pridi_600SemiBold](./Pridi_600SemiBold.ttf.png)|![Pridi_700Bold](./Pridi_700Bold.ttf.png)||
+|![Pridi_200ExtraLight](./200ExtraLight/Pridi_200ExtraLight.ttf.png)|![Pridi_300Light](./300Light/Pridi_300Light.ttf.png)|![Pridi_400Regular](./400Regular/Pridi_400Regular.ttf.png)||
+|![Pridi_500Medium](./500Medium/Pridi_500Medium.ttf.png)|![Pridi_600SemiBold](./600SemiBold/Pridi_600SemiBold.ttf.png)|![Pridi_700Bold](./700Bold/Pridi_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

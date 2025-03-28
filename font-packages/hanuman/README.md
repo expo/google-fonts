@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/hanuman expo-font expo-app-loading
+npx expo install @expo-google-fonts/hanuman expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Hanuman_100Thin, Hanuman_300Light, Hanuman_400Regular, Hanuman_700Bold, Hanuman_900Black } from '@expo-google-fonts/hanuman';
+import { useFonts } from '@expo-google-fonts/hanuman/useFonts';
+import { Hanuman_100Thin } from '@expo-google-fonts/hanuman/100Thin';
+import { Hanuman_300Light } from '@expo-google-fonts/hanuman/300Light';
+import { Hanuman_400Regular } from '@expo-google-fonts/hanuman/400Regular';
+import { Hanuman_700Bold } from '@expo-google-fonts/hanuman/700Bold';
+import { Hanuman_900Black } from '@expo-google-fonts/hanuman/900Black';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Hanuman_100Thin](./Hanuman_100Thin.ttf.png)|![Hanuman_300Light](./Hanuman_300Light.ttf.png)|![Hanuman_400Regular](./Hanuman_400Regular.ttf.png)||
-|![Hanuman_700Bold](./Hanuman_700Bold.ttf.png)|![Hanuman_900Black](./Hanuman_900Black.ttf.png)|||
+|![Hanuman_100Thin](./100Thin/Hanuman_100Thin.ttf.png)|![Hanuman_300Light](./300Light/Hanuman_300Light.ttf.png)|![Hanuman_400Regular](./400Regular/Hanuman_400Regular.ttf.png)||
+|![Hanuman_700Bold](./700Bold/Hanuman_700Bold.ttf.png)|![Hanuman_900Black](./900Black/Hanuman_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

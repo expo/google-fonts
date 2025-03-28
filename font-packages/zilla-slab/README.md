@@ -29,7 +29,7 @@ This font family contains [10 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/zilla-slab expo-font expo-app-loading
+npx expo install @expo-google-fonts/zilla-slab expo-font
 ```
 
 Now add code like this to your project
@@ -38,8 +38,17 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, ZillaSlab_300Light, ZillaSlab_300Light_Italic, ZillaSlab_400Regular, ZillaSlab_400Regular_Italic, ZillaSlab_500Medium, ZillaSlab_500Medium_Italic, ZillaSlab_600SemiBold, ZillaSlab_600SemiBold_Italic, ZillaSlab_700Bold, ZillaSlab_700Bold_Italic } from '@expo-google-fonts/zilla-slab';
+import { useFonts } from '@expo-google-fonts/zilla-slab/useFonts';
+import { ZillaSlab_300Light } from '@expo-google-fonts/zilla-slab/300Light';
+import { ZillaSlab_300Light_Italic } from '@expo-google-fonts/zilla-slab/300Light_Italic';
+import { ZillaSlab_400Regular } from '@expo-google-fonts/zilla-slab/400Regular';
+import { ZillaSlab_400Regular_Italic } from '@expo-google-fonts/zilla-slab/400Regular_Italic';
+import { ZillaSlab_500Medium } from '@expo-google-fonts/zilla-slab/500Medium';
+import { ZillaSlab_500Medium_Italic } from '@expo-google-fonts/zilla-slab/500Medium_Italic';
+import { ZillaSlab_600SemiBold } from '@expo-google-fonts/zilla-slab/600SemiBold';
+import { ZillaSlab_600SemiBold_Italic } from '@expo-google-fonts/zilla-slab/600SemiBold_Italic';
+import { ZillaSlab_700Bold } from '@expo-google-fonts/zilla-slab/700Bold';
+import { ZillaSlab_700Bold_Italic } from '@expo-google-fonts/zilla-slab/700Bold_Italic';
 
 export default () => {
 
@@ -60,7 +69,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -155,10 +164,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ZillaSlab_300Light](./ZillaSlab_300Light.ttf.png)|![ZillaSlab_300Light_Italic](./ZillaSlab_300Light_Italic.ttf.png)|![ZillaSlab_400Regular](./ZillaSlab_400Regular.ttf.png)||
-|![ZillaSlab_400Regular_Italic](./ZillaSlab_400Regular_Italic.ttf.png)|![ZillaSlab_500Medium](./ZillaSlab_500Medium.ttf.png)|![ZillaSlab_500Medium_Italic](./ZillaSlab_500Medium_Italic.ttf.png)||
-|![ZillaSlab_600SemiBold](./ZillaSlab_600SemiBold.ttf.png)|![ZillaSlab_600SemiBold_Italic](./ZillaSlab_600SemiBold_Italic.ttf.png)|![ZillaSlab_700Bold](./ZillaSlab_700Bold.ttf.png)||
-|![ZillaSlab_700Bold_Italic](./ZillaSlab_700Bold_Italic.ttf.png)||||
+|![ZillaSlab_300Light](./300Light/ZillaSlab_300Light.ttf.png)|![ZillaSlab_300Light_Italic](./300Light_Italic/ZillaSlab_300Light_Italic.ttf.png)|![ZillaSlab_400Regular](./400Regular/ZillaSlab_400Regular.ttf.png)||
+|![ZillaSlab_400Regular_Italic](./400Regular_Italic/ZillaSlab_400Regular_Italic.ttf.png)|![ZillaSlab_500Medium](./500Medium/ZillaSlab_500Medium.ttf.png)|![ZillaSlab_500Medium_Italic](./500Medium_Italic/ZillaSlab_500Medium_Italic.ttf.png)||
+|![ZillaSlab_600SemiBold](./600SemiBold/ZillaSlab_600SemiBold.ttf.png)|![ZillaSlab_600SemiBold_Italic](./600SemiBold_Italic/ZillaSlab_600SemiBold_Italic.ttf.png)|![ZillaSlab_700Bold](./700Bold/ZillaSlab_700Bold.ttf.png)||
+|![ZillaSlab_700Bold_Italic](./700Bold_Italic/ZillaSlab_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/mitr expo-font expo-app-loading
+npx expo install @expo-google-fonts/mitr expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Mitr_200ExtraLight, Mitr_300Light, Mitr_400Regular, Mitr_500Medium, Mitr_600SemiBold, Mitr_700Bold } from '@expo-google-fonts/mitr';
+import { useFonts } from '@expo-google-fonts/mitr/useFonts';
+import { Mitr_200ExtraLight } from '@expo-google-fonts/mitr/200ExtraLight';
+import { Mitr_300Light } from '@expo-google-fonts/mitr/300Light';
+import { Mitr_400Regular } from '@expo-google-fonts/mitr/400Regular';
+import { Mitr_500Medium } from '@expo-google-fonts/mitr/500Medium';
+import { Mitr_600SemiBold } from '@expo-google-fonts/mitr/600SemiBold';
+import { Mitr_700Bold } from '@expo-google-fonts/mitr/700Bold';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Mitr_200ExtraLight](./Mitr_200ExtraLight.ttf.png)|![Mitr_300Light](./Mitr_300Light.ttf.png)|![Mitr_400Regular](./Mitr_400Regular.ttf.png)||
-|![Mitr_500Medium](./Mitr_500Medium.ttf.png)|![Mitr_600SemiBold](./Mitr_600SemiBold.ttf.png)|![Mitr_700Bold](./Mitr_700Bold.ttf.png)||
+|![Mitr_200ExtraLight](./200ExtraLight/Mitr_200ExtraLight.ttf.png)|![Mitr_300Light](./300Light/Mitr_300Light.ttf.png)|![Mitr_400Regular](./400Regular/Mitr_400Regular.ttf.png)||
+|![Mitr_500Medium](./500Medium/Mitr_500Medium.ttf.png)|![Mitr_600SemiBold](./600SemiBold/Mitr_600SemiBold.ttf.png)|![Mitr_700Bold](./700Bold/Mitr_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

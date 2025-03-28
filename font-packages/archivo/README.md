@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/archivo expo-font expo-app-loading
+npx expo install @expo-google-fonts/archivo expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Archivo_100Thin, Archivo_200ExtraLight, Archivo_300Light, Archivo_400Regular, Archivo_500Medium, Archivo_600SemiBold, Archivo_700Bold, Archivo_800ExtraBold, Archivo_900Black, Archivo_100Thin_Italic, Archivo_200ExtraLight_Italic, Archivo_300Light_Italic, Archivo_400Regular_Italic, Archivo_500Medium_Italic, Archivo_600SemiBold_Italic, Archivo_700Bold_Italic, Archivo_800ExtraBold_Italic, Archivo_900Black_Italic } from '@expo-google-fonts/archivo';
+import { useFonts } from '@expo-google-fonts/archivo/useFonts';
+import { Archivo_100Thin } from '@expo-google-fonts/archivo/100Thin';
+import { Archivo_200ExtraLight } from '@expo-google-fonts/archivo/200ExtraLight';
+import { Archivo_300Light } from '@expo-google-fonts/archivo/300Light';
+import { Archivo_400Regular } from '@expo-google-fonts/archivo/400Regular';
+import { Archivo_500Medium } from '@expo-google-fonts/archivo/500Medium';
+import { Archivo_600SemiBold } from '@expo-google-fonts/archivo/600SemiBold';
+import { Archivo_700Bold } from '@expo-google-fonts/archivo/700Bold';
+import { Archivo_800ExtraBold } from '@expo-google-fonts/archivo/800ExtraBold';
+import { Archivo_900Black } from '@expo-google-fonts/archivo/900Black';
+import { Archivo_100Thin_Italic } from '@expo-google-fonts/archivo/100Thin_Italic';
+import { Archivo_200ExtraLight_Italic } from '@expo-google-fonts/archivo/200ExtraLight_Italic';
+import { Archivo_300Light_Italic } from '@expo-google-fonts/archivo/300Light_Italic';
+import { Archivo_400Regular_Italic } from '@expo-google-fonts/archivo/400Regular_Italic';
+import { Archivo_500Medium_Italic } from '@expo-google-fonts/archivo/500Medium_Italic';
+import { Archivo_600SemiBold_Italic } from '@expo-google-fonts/archivo/600SemiBold_Italic';
+import { Archivo_700Bold_Italic } from '@expo-google-fonts/archivo/700Bold_Italic';
+import { Archivo_800ExtraBold_Italic } from '@expo-google-fonts/archivo/800ExtraBold_Italic';
+import { Archivo_900Black_Italic } from '@expo-google-fonts/archivo/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Archivo_100Thin](./Archivo_100Thin.ttf.png)|![Archivo_200ExtraLight](./Archivo_200ExtraLight.ttf.png)|![Archivo_300Light](./Archivo_300Light.ttf.png)||
-|![Archivo_400Regular](./Archivo_400Regular.ttf.png)|![Archivo_500Medium](./Archivo_500Medium.ttf.png)|![Archivo_600SemiBold](./Archivo_600SemiBold.ttf.png)||
-|![Archivo_700Bold](./Archivo_700Bold.ttf.png)|![Archivo_800ExtraBold](./Archivo_800ExtraBold.ttf.png)|![Archivo_900Black](./Archivo_900Black.ttf.png)||
-|![Archivo_100Thin_Italic](./Archivo_100Thin_Italic.ttf.png)|![Archivo_200ExtraLight_Italic](./Archivo_200ExtraLight_Italic.ttf.png)|![Archivo_300Light_Italic](./Archivo_300Light_Italic.ttf.png)||
-|![Archivo_400Regular_Italic](./Archivo_400Regular_Italic.ttf.png)|![Archivo_500Medium_Italic](./Archivo_500Medium_Italic.ttf.png)|![Archivo_600SemiBold_Italic](./Archivo_600SemiBold_Italic.ttf.png)||
-|![Archivo_700Bold_Italic](./Archivo_700Bold_Italic.ttf.png)|![Archivo_800ExtraBold_Italic](./Archivo_800ExtraBold_Italic.ttf.png)|![Archivo_900Black_Italic](./Archivo_900Black_Italic.ttf.png)||
+|![Archivo_100Thin](./100Thin/Archivo_100Thin.ttf.png)|![Archivo_200ExtraLight](./200ExtraLight/Archivo_200ExtraLight.ttf.png)|![Archivo_300Light](./300Light/Archivo_300Light.ttf.png)||
+|![Archivo_400Regular](./400Regular/Archivo_400Regular.ttf.png)|![Archivo_500Medium](./500Medium/Archivo_500Medium.ttf.png)|![Archivo_600SemiBold](./600SemiBold/Archivo_600SemiBold.ttf.png)||
+|![Archivo_700Bold](./700Bold/Archivo_700Bold.ttf.png)|![Archivo_800ExtraBold](./800ExtraBold/Archivo_800ExtraBold.ttf.png)|![Archivo_900Black](./900Black/Archivo_900Black.ttf.png)||
+|![Archivo_100Thin_Italic](./100Thin_Italic/Archivo_100Thin_Italic.ttf.png)|![Archivo_200ExtraLight_Italic](./200ExtraLight_Italic/Archivo_200ExtraLight_Italic.ttf.png)|![Archivo_300Light_Italic](./300Light_Italic/Archivo_300Light_Italic.ttf.png)||
+|![Archivo_400Regular_Italic](./400Regular_Italic/Archivo_400Regular_Italic.ttf.png)|![Archivo_500Medium_Italic](./500Medium_Italic/Archivo_500Medium_Italic.ttf.png)|![Archivo_600SemiBold_Italic](./600SemiBold_Italic/Archivo_600SemiBold_Italic.ttf.png)||
+|![Archivo_700Bold_Italic](./700Bold_Italic/Archivo_700Bold_Italic.ttf.png)|![Archivo_800ExtraBold_Italic](./800ExtraBold_Italic/Archivo_800ExtraBold_Italic.ttf.png)|![Archivo_900Black_Italic](./900Black_Italic/Archivo_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

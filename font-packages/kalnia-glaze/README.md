@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/kalnia-glaze expo-font expo-app-loading
+npx expo install @expo-google-fonts/kalnia-glaze expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, KalniaGlaze_100Thin, KalniaGlaze_200ExtraLight, KalniaGlaze_300Light, KalniaGlaze_400Regular, KalniaGlaze_500Medium, KalniaGlaze_600SemiBold, KalniaGlaze_700Bold } from '@expo-google-fonts/kalnia-glaze';
+import { useFonts } from '@expo-google-fonts/kalnia-glaze/useFonts';
+import { KalniaGlaze_100Thin } from '@expo-google-fonts/kalnia-glaze/100Thin';
+import { KalniaGlaze_200ExtraLight } from '@expo-google-fonts/kalnia-glaze/200ExtraLight';
+import { KalniaGlaze_300Light } from '@expo-google-fonts/kalnia-glaze/300Light';
+import { KalniaGlaze_400Regular } from '@expo-google-fonts/kalnia-glaze/400Regular';
+import { KalniaGlaze_500Medium } from '@expo-google-fonts/kalnia-glaze/500Medium';
+import { KalniaGlaze_600SemiBold } from '@expo-google-fonts/kalnia-glaze/600SemiBold';
+import { KalniaGlaze_700Bold } from '@expo-google-fonts/kalnia-glaze/700Bold';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KalniaGlaze_100Thin](./KalniaGlaze_100Thin.ttf.png)|![KalniaGlaze_200ExtraLight](./KalniaGlaze_200ExtraLight.ttf.png)|![KalniaGlaze_300Light](./KalniaGlaze_300Light.ttf.png)||
-|![KalniaGlaze_400Regular](./KalniaGlaze_400Regular.ttf.png)|![KalniaGlaze_500Medium](./KalniaGlaze_500Medium.ttf.png)|![KalniaGlaze_600SemiBold](./KalniaGlaze_600SemiBold.ttf.png)||
-|![KalniaGlaze_700Bold](./KalniaGlaze_700Bold.ttf.png)||||
+|![KalniaGlaze_100Thin](./100Thin/KalniaGlaze_100Thin.ttf.png)|![KalniaGlaze_200ExtraLight](./200ExtraLight/KalniaGlaze_200ExtraLight.ttf.png)|![KalniaGlaze_300Light](./300Light/KalniaGlaze_300Light.ttf.png)||
+|![KalniaGlaze_400Regular](./400Regular/KalniaGlaze_400Regular.ttf.png)|![KalniaGlaze_500Medium](./500Medium/KalniaGlaze_500Medium.ttf.png)|![KalniaGlaze_600SemiBold](./600SemiBold/KalniaGlaze_600SemiBold.ttf.png)||
+|![KalniaGlaze_700Bold](./700Bold/KalniaGlaze_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

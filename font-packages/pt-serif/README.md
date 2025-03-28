@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/pt-serif expo-font expo-app-loading
+npx expo install @expo-google-fonts/pt-serif expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PTSerif_400Regular, PTSerif_400Regular_Italic, PTSerif_700Bold, PTSerif_700Bold_Italic } from '@expo-google-fonts/pt-serif';
+import { useFonts } from '@expo-google-fonts/pt-serif/useFonts';
+import { PTSerif_400Regular } from '@expo-google-fonts/pt-serif/400Regular';
+import { PTSerif_400Regular_Italic } from '@expo-google-fonts/pt-serif/400Regular_Italic';
+import { PTSerif_700Bold } from '@expo-google-fonts/pt-serif/700Bold';
+import { PTSerif_700Bold_Italic } from '@expo-google-fonts/pt-serif/700Bold_Italic';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PTSerif_400Regular](./PTSerif_400Regular.ttf.png)|![PTSerif_400Regular_Italic](./PTSerif_400Regular_Italic.ttf.png)|![PTSerif_700Bold](./PTSerif_700Bold.ttf.png)||
-|![PTSerif_700Bold_Italic](./PTSerif_700Bold_Italic.ttf.png)||||
+|![PTSerif_400Regular](./400Regular/PTSerif_400Regular.ttf.png)|![PTSerif_400Regular_Italic](./400Regular_Italic/PTSerif_400Regular_Italic.ttf.png)|![PTSerif_700Bold](./700Bold/PTSerif_700Bold.ttf.png)||
+|![PTSerif_700Bold_Italic](./700Bold_Italic/PTSerif_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

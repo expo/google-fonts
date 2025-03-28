@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/playwrite-au-nsw expo-font expo-app-loading
+npx expo install @expo-google-fonts/playwrite-au-nsw expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PlaywriteAUNSW_100Thin, PlaywriteAUNSW_200ExtraLight, PlaywriteAUNSW_300Light, PlaywriteAUNSW_400Regular } from '@expo-google-fonts/playwrite-au-nsw';
+import { useFonts } from '@expo-google-fonts/playwrite-au-nsw/useFonts';
+import { PlaywriteAUNSW_100Thin } from '@expo-google-fonts/playwrite-au-nsw/100Thin';
+import { PlaywriteAUNSW_200ExtraLight } from '@expo-google-fonts/playwrite-au-nsw/200ExtraLight';
+import { PlaywriteAUNSW_300Light } from '@expo-google-fonts/playwrite-au-nsw/300Light';
+import { PlaywriteAUNSW_400Regular } from '@expo-google-fonts/playwrite-au-nsw/400Regular';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteAUNSW_100Thin](./PlaywriteAUNSW_100Thin.ttf.png)|![PlaywriteAUNSW_200ExtraLight](./PlaywriteAUNSW_200ExtraLight.ttf.png)|![PlaywriteAUNSW_300Light](./PlaywriteAUNSW_300Light.ttf.png)||
-|![PlaywriteAUNSW_400Regular](./PlaywriteAUNSW_400Regular.ttf.png)||||
+|![PlaywriteAUNSW_100Thin](./100Thin/PlaywriteAUNSW_100Thin.ttf.png)|![PlaywriteAUNSW_200ExtraLight](./200ExtraLight/PlaywriteAUNSW_200ExtraLight.ttf.png)|![PlaywriteAUNSW_300Light](./300Light/PlaywriteAUNSW_300Light.ttf.png)||
+|![PlaywriteAUNSW_400Regular](./400Regular/PlaywriteAUNSW_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

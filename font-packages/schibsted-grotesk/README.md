@@ -31,7 +31,7 @@ This font family contains [12 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/schibsted-grotesk expo-font expo-app-loading
+npx expo install @expo-google-fonts/schibsted-grotesk expo-font
 ```
 
 Now add code like this to your project
@@ -40,8 +40,19 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, SchibstedGrotesk_400Regular, SchibstedGrotesk_500Medium, SchibstedGrotesk_600SemiBold, SchibstedGrotesk_700Bold, SchibstedGrotesk_800ExtraBold, SchibstedGrotesk_900Black, SchibstedGrotesk_400Regular_Italic, SchibstedGrotesk_500Medium_Italic, SchibstedGrotesk_600SemiBold_Italic, SchibstedGrotesk_700Bold_Italic, SchibstedGrotesk_800ExtraBold_Italic, SchibstedGrotesk_900Black_Italic } from '@expo-google-fonts/schibsted-grotesk';
+import { useFonts } from '@expo-google-fonts/schibsted-grotesk/useFonts';
+import { SchibstedGrotesk_400Regular } from '@expo-google-fonts/schibsted-grotesk/400Regular';
+import { SchibstedGrotesk_500Medium } from '@expo-google-fonts/schibsted-grotesk/500Medium';
+import { SchibstedGrotesk_600SemiBold } from '@expo-google-fonts/schibsted-grotesk/600SemiBold';
+import { SchibstedGrotesk_700Bold } from '@expo-google-fonts/schibsted-grotesk/700Bold';
+import { SchibstedGrotesk_800ExtraBold } from '@expo-google-fonts/schibsted-grotesk/800ExtraBold';
+import { SchibstedGrotesk_900Black } from '@expo-google-fonts/schibsted-grotesk/900Black';
+import { SchibstedGrotesk_400Regular_Italic } from '@expo-google-fonts/schibsted-grotesk/400Regular_Italic';
+import { SchibstedGrotesk_500Medium_Italic } from '@expo-google-fonts/schibsted-grotesk/500Medium_Italic';
+import { SchibstedGrotesk_600SemiBold_Italic } from '@expo-google-fonts/schibsted-grotesk/600SemiBold_Italic';
+import { SchibstedGrotesk_700Bold_Italic } from '@expo-google-fonts/schibsted-grotesk/700Bold_Italic';
+import { SchibstedGrotesk_800ExtraBold_Italic } from '@expo-google-fonts/schibsted-grotesk/800ExtraBold_Italic';
+import { SchibstedGrotesk_900Black_Italic } from '@expo-google-fonts/schibsted-grotesk/900Black_Italic';
 
 export default () => {
 
@@ -64,7 +75,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -175,10 +186,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SchibstedGrotesk_400Regular](./SchibstedGrotesk_400Regular.ttf.png)|![SchibstedGrotesk_500Medium](./SchibstedGrotesk_500Medium.ttf.png)|![SchibstedGrotesk_600SemiBold](./SchibstedGrotesk_600SemiBold.ttf.png)||
-|![SchibstedGrotesk_700Bold](./SchibstedGrotesk_700Bold.ttf.png)|![SchibstedGrotesk_800ExtraBold](./SchibstedGrotesk_800ExtraBold.ttf.png)|![SchibstedGrotesk_900Black](./SchibstedGrotesk_900Black.ttf.png)||
-|![SchibstedGrotesk_400Regular_Italic](./SchibstedGrotesk_400Regular_Italic.ttf.png)|![SchibstedGrotesk_500Medium_Italic](./SchibstedGrotesk_500Medium_Italic.ttf.png)|![SchibstedGrotesk_600SemiBold_Italic](./SchibstedGrotesk_600SemiBold_Italic.ttf.png)||
-|![SchibstedGrotesk_700Bold_Italic](./SchibstedGrotesk_700Bold_Italic.ttf.png)|![SchibstedGrotesk_800ExtraBold_Italic](./SchibstedGrotesk_800ExtraBold_Italic.ttf.png)|![SchibstedGrotesk_900Black_Italic](./SchibstedGrotesk_900Black_Italic.ttf.png)||
+|![SchibstedGrotesk_400Regular](./400Regular/SchibstedGrotesk_400Regular.ttf.png)|![SchibstedGrotesk_500Medium](./500Medium/SchibstedGrotesk_500Medium.ttf.png)|![SchibstedGrotesk_600SemiBold](./600SemiBold/SchibstedGrotesk_600SemiBold.ttf.png)||
+|![SchibstedGrotesk_700Bold](./700Bold/SchibstedGrotesk_700Bold.ttf.png)|![SchibstedGrotesk_800ExtraBold](./800ExtraBold/SchibstedGrotesk_800ExtraBold.ttf.png)|![SchibstedGrotesk_900Black](./900Black/SchibstedGrotesk_900Black.ttf.png)||
+|![SchibstedGrotesk_400Regular_Italic](./400Regular_Italic/SchibstedGrotesk_400Regular_Italic.ttf.png)|![SchibstedGrotesk_500Medium_Italic](./500Medium_Italic/SchibstedGrotesk_500Medium_Italic.ttf.png)|![SchibstedGrotesk_600SemiBold_Italic](./600SemiBold_Italic/SchibstedGrotesk_600SemiBold_Italic.ttf.png)||
+|![SchibstedGrotesk_700Bold_Italic](./700Bold_Italic/SchibstedGrotesk_700Bold_Italic.ttf.png)|![SchibstedGrotesk_800ExtraBold_Italic](./800ExtraBold_Italic/SchibstedGrotesk_800ExtraBold_Italic.ttf.png)|![SchibstedGrotesk_900Black_Italic](./900Black_Italic/SchibstedGrotesk_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

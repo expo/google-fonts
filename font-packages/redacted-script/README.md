@@ -22,7 +22,7 @@ This font family contains [3 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/redacted-script expo-font expo-app-loading
+npx expo install @expo-google-fonts/redacted-script expo-font
 ```
 
 Now add code like this to your project
@@ -31,8 +31,10 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, RedactedScript_300Light, RedactedScript_400Regular, RedactedScript_700Bold } from '@expo-google-fonts/redacted-script';
+import { useFonts } from '@expo-google-fonts/redacted-script/useFonts';
+import { RedactedScript_300Light } from '@expo-google-fonts/redacted-script/300Light';
+import { RedactedScript_400Regular } from '@expo-google-fonts/redacted-script/400Regular';
+import { RedactedScript_700Bold } from '@expo-google-fonts/redacted-script/700Bold';
 
 export default () => {
 
@@ -46,7 +48,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -85,7 +87,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RedactedScript_300Light](./RedactedScript_300Light.ttf.png)|![RedactedScript_400Regular](./RedactedScript_400Regular.ttf.png)|![RedactedScript_700Bold](./RedactedScript_700Bold.ttf.png)||
+|![RedactedScript_300Light](./300Light/RedactedScript_300Light.ttf.png)|![RedactedScript_400Regular](./400Regular/RedactedScript_400Regular.ttf.png)|![RedactedScript_700Bold](./700Bold/RedactedScript_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

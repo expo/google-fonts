@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/palanquin expo-font expo-app-loading
+npx expo install @expo-google-fonts/palanquin expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Palanquin_100Thin, Palanquin_200ExtraLight, Palanquin_300Light, Palanquin_400Regular, Palanquin_500Medium, Palanquin_600SemiBold, Palanquin_700Bold } from '@expo-google-fonts/palanquin';
+import { useFonts } from '@expo-google-fonts/palanquin/useFonts';
+import { Palanquin_100Thin } from '@expo-google-fonts/palanquin/100Thin';
+import { Palanquin_200ExtraLight } from '@expo-google-fonts/palanquin/200ExtraLight';
+import { Palanquin_300Light } from '@expo-google-fonts/palanquin/300Light';
+import { Palanquin_400Regular } from '@expo-google-fonts/palanquin/400Regular';
+import { Palanquin_500Medium } from '@expo-google-fonts/palanquin/500Medium';
+import { Palanquin_600SemiBold } from '@expo-google-fonts/palanquin/600SemiBold';
+import { Palanquin_700Bold } from '@expo-google-fonts/palanquin/700Bold';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Palanquin_100Thin](./Palanquin_100Thin.ttf.png)|![Palanquin_200ExtraLight](./Palanquin_200ExtraLight.ttf.png)|![Palanquin_300Light](./Palanquin_300Light.ttf.png)||
-|![Palanquin_400Regular](./Palanquin_400Regular.ttf.png)|![Palanquin_500Medium](./Palanquin_500Medium.ttf.png)|![Palanquin_600SemiBold](./Palanquin_600SemiBold.ttf.png)||
-|![Palanquin_700Bold](./Palanquin_700Bold.ttf.png)||||
+|![Palanquin_100Thin](./100Thin/Palanquin_100Thin.ttf.png)|![Palanquin_200ExtraLight](./200ExtraLight/Palanquin_200ExtraLight.ttf.png)|![Palanquin_300Light](./300Light/Palanquin_300Light.ttf.png)||
+|![Palanquin_400Regular](./400Regular/Palanquin_400Regular.ttf.png)|![Palanquin_500Medium](./500Medium/Palanquin_500Medium.ttf.png)|![Palanquin_600SemiBold](./600SemiBold/Palanquin_600SemiBold.ttf.png)||
+|![Palanquin_700Bold](./700Bold/Palanquin_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

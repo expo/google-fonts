@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-malayalam expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-malayalam expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifMalayalam_100Thin, NotoSerifMalayalam_200ExtraLight, NotoSerifMalayalam_300Light, NotoSerifMalayalam_400Regular, NotoSerifMalayalam_500Medium, NotoSerifMalayalam_600SemiBold, NotoSerifMalayalam_700Bold, NotoSerifMalayalam_800ExtraBold, NotoSerifMalayalam_900Black } from '@expo-google-fonts/noto-serif-malayalam';
+import { useFonts } from '@expo-google-fonts/noto-serif-malayalam/useFonts';
+import { NotoSerifMalayalam_100Thin } from '@expo-google-fonts/noto-serif-malayalam/100Thin';
+import { NotoSerifMalayalam_200ExtraLight } from '@expo-google-fonts/noto-serif-malayalam/200ExtraLight';
+import { NotoSerifMalayalam_300Light } from '@expo-google-fonts/noto-serif-malayalam/300Light';
+import { NotoSerifMalayalam_400Regular } from '@expo-google-fonts/noto-serif-malayalam/400Regular';
+import { NotoSerifMalayalam_500Medium } from '@expo-google-fonts/noto-serif-malayalam/500Medium';
+import { NotoSerifMalayalam_600SemiBold } from '@expo-google-fonts/noto-serif-malayalam/600SemiBold';
+import { NotoSerifMalayalam_700Bold } from '@expo-google-fonts/noto-serif-malayalam/700Bold';
+import { NotoSerifMalayalam_800ExtraBold } from '@expo-google-fonts/noto-serif-malayalam/800ExtraBold';
+import { NotoSerifMalayalam_900Black } from '@expo-google-fonts/noto-serif-malayalam/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifMalayalam_100Thin](./NotoSerifMalayalam_100Thin.ttf.png)|![NotoSerifMalayalam_200ExtraLight](./NotoSerifMalayalam_200ExtraLight.ttf.png)|![NotoSerifMalayalam_300Light](./NotoSerifMalayalam_300Light.ttf.png)||
-|![NotoSerifMalayalam_400Regular](./NotoSerifMalayalam_400Regular.ttf.png)|![NotoSerifMalayalam_500Medium](./NotoSerifMalayalam_500Medium.ttf.png)|![NotoSerifMalayalam_600SemiBold](./NotoSerifMalayalam_600SemiBold.ttf.png)||
-|![NotoSerifMalayalam_700Bold](./NotoSerifMalayalam_700Bold.ttf.png)|![NotoSerifMalayalam_800ExtraBold](./NotoSerifMalayalam_800ExtraBold.ttf.png)|![NotoSerifMalayalam_900Black](./NotoSerifMalayalam_900Black.ttf.png)||
+|![NotoSerifMalayalam_100Thin](./100Thin/NotoSerifMalayalam_100Thin.ttf.png)|![NotoSerifMalayalam_200ExtraLight](./200ExtraLight/NotoSerifMalayalam_200ExtraLight.ttf.png)|![NotoSerifMalayalam_300Light](./300Light/NotoSerifMalayalam_300Light.ttf.png)||
+|![NotoSerifMalayalam_400Regular](./400Regular/NotoSerifMalayalam_400Regular.ttf.png)|![NotoSerifMalayalam_500Medium](./500Medium/NotoSerifMalayalam_500Medium.ttf.png)|![NotoSerifMalayalam_600SemiBold](./600SemiBold/NotoSerifMalayalam_600SemiBold.ttf.png)||
+|![NotoSerifMalayalam_700Bold](./700Bold/NotoSerifMalayalam_700Bold.ttf.png)|![NotoSerifMalayalam_800ExtraBold](./800ExtraBold/NotoSerifMalayalam_800ExtraBold.ttf.png)|![NotoSerifMalayalam_900Black](./900Black/NotoSerifMalayalam_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

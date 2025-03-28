@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/bricolage-grotesque expo-font expo-app-loading
+npx expo install @expo-google-fonts/bricolage-grotesque expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, BricolageGrotesque_200ExtraLight, BricolageGrotesque_300Light, BricolageGrotesque_400Regular, BricolageGrotesque_500Medium, BricolageGrotesque_600SemiBold, BricolageGrotesque_700Bold, BricolageGrotesque_800ExtraBold } from '@expo-google-fonts/bricolage-grotesque';
+import { useFonts } from '@expo-google-fonts/bricolage-grotesque/useFonts';
+import { BricolageGrotesque_200ExtraLight } from '@expo-google-fonts/bricolage-grotesque/200ExtraLight';
+import { BricolageGrotesque_300Light } from '@expo-google-fonts/bricolage-grotesque/300Light';
+import { BricolageGrotesque_400Regular } from '@expo-google-fonts/bricolage-grotesque/400Regular';
+import { BricolageGrotesque_500Medium } from '@expo-google-fonts/bricolage-grotesque/500Medium';
+import { BricolageGrotesque_600SemiBold } from '@expo-google-fonts/bricolage-grotesque/600SemiBold';
+import { BricolageGrotesque_700Bold } from '@expo-google-fonts/bricolage-grotesque/700Bold';
+import { BricolageGrotesque_800ExtraBold } from '@expo-google-fonts/bricolage-grotesque/800ExtraBold';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BricolageGrotesque_200ExtraLight](./BricolageGrotesque_200ExtraLight.ttf.png)|![BricolageGrotesque_300Light](./BricolageGrotesque_300Light.ttf.png)|![BricolageGrotesque_400Regular](./BricolageGrotesque_400Regular.ttf.png)||
-|![BricolageGrotesque_500Medium](./BricolageGrotesque_500Medium.ttf.png)|![BricolageGrotesque_600SemiBold](./BricolageGrotesque_600SemiBold.ttf.png)|![BricolageGrotesque_700Bold](./BricolageGrotesque_700Bold.ttf.png)||
-|![BricolageGrotesque_800ExtraBold](./BricolageGrotesque_800ExtraBold.ttf.png)||||
+|![BricolageGrotesque_200ExtraLight](./200ExtraLight/BricolageGrotesque_200ExtraLight.ttf.png)|![BricolageGrotesque_300Light](./300Light/BricolageGrotesque_300Light.ttf.png)|![BricolageGrotesque_400Regular](./400Regular/BricolageGrotesque_400Regular.ttf.png)||
+|![BricolageGrotesque_500Medium](./500Medium/BricolageGrotesque_500Medium.ttf.png)|![BricolageGrotesque_600SemiBold](./600SemiBold/BricolageGrotesque_600SemiBold.ttf.png)|![BricolageGrotesque_700Bold](./700Bold/BricolageGrotesque_700Bold.ttf.png)||
+|![BricolageGrotesque_800ExtraBold](./800ExtraBold/BricolageGrotesque_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-myanmar expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-myanmar expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansMyanmar_100Thin, NotoSansMyanmar_200ExtraLight, NotoSansMyanmar_300Light, NotoSansMyanmar_400Regular, NotoSansMyanmar_500Medium, NotoSansMyanmar_600SemiBold, NotoSansMyanmar_700Bold, NotoSansMyanmar_800ExtraBold, NotoSansMyanmar_900Black } from '@expo-google-fonts/noto-sans-myanmar';
+import { useFonts } from '@expo-google-fonts/noto-sans-myanmar/useFonts';
+import { NotoSansMyanmar_100Thin } from '@expo-google-fonts/noto-sans-myanmar/100Thin';
+import { NotoSansMyanmar_200ExtraLight } from '@expo-google-fonts/noto-sans-myanmar/200ExtraLight';
+import { NotoSansMyanmar_300Light } from '@expo-google-fonts/noto-sans-myanmar/300Light';
+import { NotoSansMyanmar_400Regular } from '@expo-google-fonts/noto-sans-myanmar/400Regular';
+import { NotoSansMyanmar_500Medium } from '@expo-google-fonts/noto-sans-myanmar/500Medium';
+import { NotoSansMyanmar_600SemiBold } from '@expo-google-fonts/noto-sans-myanmar/600SemiBold';
+import { NotoSansMyanmar_700Bold } from '@expo-google-fonts/noto-sans-myanmar/700Bold';
+import { NotoSansMyanmar_800ExtraBold } from '@expo-google-fonts/noto-sans-myanmar/800ExtraBold';
+import { NotoSansMyanmar_900Black } from '@expo-google-fonts/noto-sans-myanmar/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansMyanmar_100Thin](./NotoSansMyanmar_100Thin.ttf.png)|![NotoSansMyanmar_200ExtraLight](./NotoSansMyanmar_200ExtraLight.ttf.png)|![NotoSansMyanmar_300Light](./NotoSansMyanmar_300Light.ttf.png)||
-|![NotoSansMyanmar_400Regular](./NotoSansMyanmar_400Regular.ttf.png)|![NotoSansMyanmar_500Medium](./NotoSansMyanmar_500Medium.ttf.png)|![NotoSansMyanmar_600SemiBold](./NotoSansMyanmar_600SemiBold.ttf.png)||
-|![NotoSansMyanmar_700Bold](./NotoSansMyanmar_700Bold.ttf.png)|![NotoSansMyanmar_800ExtraBold](./NotoSansMyanmar_800ExtraBold.ttf.png)|![NotoSansMyanmar_900Black](./NotoSansMyanmar_900Black.ttf.png)||
+|![NotoSansMyanmar_100Thin](./100Thin/NotoSansMyanmar_100Thin.ttf.png)|![NotoSansMyanmar_200ExtraLight](./200ExtraLight/NotoSansMyanmar_200ExtraLight.ttf.png)|![NotoSansMyanmar_300Light](./300Light/NotoSansMyanmar_300Light.ttf.png)||
+|![NotoSansMyanmar_400Regular](./400Regular/NotoSansMyanmar_400Regular.ttf.png)|![NotoSansMyanmar_500Medium](./500Medium/NotoSansMyanmar_500Medium.ttf.png)|![NotoSansMyanmar_600SemiBold](./600SemiBold/NotoSansMyanmar_600SemiBold.ttf.png)||
+|![NotoSansMyanmar_700Bold](./700Bold/NotoSansMyanmar_700Bold.ttf.png)|![NotoSansMyanmar_800ExtraBold](./800ExtraBold/NotoSansMyanmar_800ExtraBold.ttf.png)|![NotoSansMyanmar_900Black](./900Black/NotoSansMyanmar_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

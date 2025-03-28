@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/koh-santepheap expo-font expo-app-loading
+npx expo install @expo-google-fonts/koh-santepheap expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, KohSantepheap_100Thin, KohSantepheap_300Light, KohSantepheap_400Regular, KohSantepheap_700Bold, KohSantepheap_900Black } from '@expo-google-fonts/koh-santepheap';
+import { useFonts } from '@expo-google-fonts/koh-santepheap/useFonts';
+import { KohSantepheap_100Thin } from '@expo-google-fonts/koh-santepheap/100Thin';
+import { KohSantepheap_300Light } from '@expo-google-fonts/koh-santepheap/300Light';
+import { KohSantepheap_400Regular } from '@expo-google-fonts/koh-santepheap/400Regular';
+import { KohSantepheap_700Bold } from '@expo-google-fonts/koh-santepheap/700Bold';
+import { KohSantepheap_900Black } from '@expo-google-fonts/koh-santepheap/900Black';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KohSantepheap_100Thin](./KohSantepheap_100Thin.ttf.png)|![KohSantepheap_300Light](./KohSantepheap_300Light.ttf.png)|![KohSantepheap_400Regular](./KohSantepheap_400Regular.ttf.png)||
-|![KohSantepheap_700Bold](./KohSantepheap_700Bold.ttf.png)|![KohSantepheap_900Black](./KohSantepheap_900Black.ttf.png)|||
+|![KohSantepheap_100Thin](./100Thin/KohSantepheap_100Thin.ttf.png)|![KohSantepheap_300Light](./300Light/KohSantepheap_300Light.ttf.png)|![KohSantepheap_400Regular](./400Regular/KohSantepheap_400Regular.ttf.png)||
+|![KohSantepheap_700Bold](./700Bold/KohSantepheap_700Bold.ttf.png)|![KohSantepheap_900Black](./900Black/KohSantepheap_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

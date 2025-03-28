@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/sofia-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/sofia-sans expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, SofiaSans_100Thin, SofiaSans_200ExtraLight, SofiaSans_300Light, SofiaSans_400Regular, SofiaSans_500Medium, SofiaSans_600SemiBold, SofiaSans_700Bold, SofiaSans_800ExtraBold, SofiaSans_900Black, SofiaSans_100Thin_Italic, SofiaSans_200ExtraLight_Italic, SofiaSans_300Light_Italic, SofiaSans_400Regular_Italic, SofiaSans_500Medium_Italic, SofiaSans_600SemiBold_Italic, SofiaSans_700Bold_Italic, SofiaSans_800ExtraBold_Italic, SofiaSans_900Black_Italic } from '@expo-google-fonts/sofia-sans';
+import { useFonts } from '@expo-google-fonts/sofia-sans/useFonts';
+import { SofiaSans_100Thin } from '@expo-google-fonts/sofia-sans/100Thin';
+import { SofiaSans_200ExtraLight } from '@expo-google-fonts/sofia-sans/200ExtraLight';
+import { SofiaSans_300Light } from '@expo-google-fonts/sofia-sans/300Light';
+import { SofiaSans_400Regular } from '@expo-google-fonts/sofia-sans/400Regular';
+import { SofiaSans_500Medium } from '@expo-google-fonts/sofia-sans/500Medium';
+import { SofiaSans_600SemiBold } from '@expo-google-fonts/sofia-sans/600SemiBold';
+import { SofiaSans_700Bold } from '@expo-google-fonts/sofia-sans/700Bold';
+import { SofiaSans_800ExtraBold } from '@expo-google-fonts/sofia-sans/800ExtraBold';
+import { SofiaSans_900Black } from '@expo-google-fonts/sofia-sans/900Black';
+import { SofiaSans_100Thin_Italic } from '@expo-google-fonts/sofia-sans/100Thin_Italic';
+import { SofiaSans_200ExtraLight_Italic } from '@expo-google-fonts/sofia-sans/200ExtraLight_Italic';
+import { SofiaSans_300Light_Italic } from '@expo-google-fonts/sofia-sans/300Light_Italic';
+import { SofiaSans_400Regular_Italic } from '@expo-google-fonts/sofia-sans/400Regular_Italic';
+import { SofiaSans_500Medium_Italic } from '@expo-google-fonts/sofia-sans/500Medium_Italic';
+import { SofiaSans_600SemiBold_Italic } from '@expo-google-fonts/sofia-sans/600SemiBold_Italic';
+import { SofiaSans_700Bold_Italic } from '@expo-google-fonts/sofia-sans/700Bold_Italic';
+import { SofiaSans_800ExtraBold_Italic } from '@expo-google-fonts/sofia-sans/800ExtraBold_Italic';
+import { SofiaSans_900Black_Italic } from '@expo-google-fonts/sofia-sans/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SofiaSans_100Thin](./SofiaSans_100Thin.ttf.png)|![SofiaSans_200ExtraLight](./SofiaSans_200ExtraLight.ttf.png)|![SofiaSans_300Light](./SofiaSans_300Light.ttf.png)||
-|![SofiaSans_400Regular](./SofiaSans_400Regular.ttf.png)|![SofiaSans_500Medium](./SofiaSans_500Medium.ttf.png)|![SofiaSans_600SemiBold](./SofiaSans_600SemiBold.ttf.png)||
-|![SofiaSans_700Bold](./SofiaSans_700Bold.ttf.png)|![SofiaSans_800ExtraBold](./SofiaSans_800ExtraBold.ttf.png)|![SofiaSans_900Black](./SofiaSans_900Black.ttf.png)||
-|![SofiaSans_100Thin_Italic](./SofiaSans_100Thin_Italic.ttf.png)|![SofiaSans_200ExtraLight_Italic](./SofiaSans_200ExtraLight_Italic.ttf.png)|![SofiaSans_300Light_Italic](./SofiaSans_300Light_Italic.ttf.png)||
-|![SofiaSans_400Regular_Italic](./SofiaSans_400Regular_Italic.ttf.png)|![SofiaSans_500Medium_Italic](./SofiaSans_500Medium_Italic.ttf.png)|![SofiaSans_600SemiBold_Italic](./SofiaSans_600SemiBold_Italic.ttf.png)||
-|![SofiaSans_700Bold_Italic](./SofiaSans_700Bold_Italic.ttf.png)|![SofiaSans_800ExtraBold_Italic](./SofiaSans_800ExtraBold_Italic.ttf.png)|![SofiaSans_900Black_Italic](./SofiaSans_900Black_Italic.ttf.png)||
+|![SofiaSans_100Thin](./100Thin/SofiaSans_100Thin.ttf.png)|![SofiaSans_200ExtraLight](./200ExtraLight/SofiaSans_200ExtraLight.ttf.png)|![SofiaSans_300Light](./300Light/SofiaSans_300Light.ttf.png)||
+|![SofiaSans_400Regular](./400Regular/SofiaSans_400Regular.ttf.png)|![SofiaSans_500Medium](./500Medium/SofiaSans_500Medium.ttf.png)|![SofiaSans_600SemiBold](./600SemiBold/SofiaSans_600SemiBold.ttf.png)||
+|![SofiaSans_700Bold](./700Bold/SofiaSans_700Bold.ttf.png)|![SofiaSans_800ExtraBold](./800ExtraBold/SofiaSans_800ExtraBold.ttf.png)|![SofiaSans_900Black](./900Black/SofiaSans_900Black.ttf.png)||
+|![SofiaSans_100Thin_Italic](./100Thin_Italic/SofiaSans_100Thin_Italic.ttf.png)|![SofiaSans_200ExtraLight_Italic](./200ExtraLight_Italic/SofiaSans_200ExtraLight_Italic.ttf.png)|![SofiaSans_300Light_Italic](./300Light_Italic/SofiaSans_300Light_Italic.ttf.png)||
+|![SofiaSans_400Regular_Italic](./400Regular_Italic/SofiaSans_400Regular_Italic.ttf.png)|![SofiaSans_500Medium_Italic](./500Medium_Italic/SofiaSans_500Medium_Italic.ttf.png)|![SofiaSans_600SemiBold_Italic](./600SemiBold_Italic/SofiaSans_600SemiBold_Italic.ttf.png)||
+|![SofiaSans_700Bold_Italic](./700Bold_Italic/SofiaSans_700Bold_Italic.ttf.png)|![SofiaSans_800ExtraBold_Italic](./800ExtraBold_Italic/SofiaSans_800ExtraBold_Italic.ttf.png)|![SofiaSans_900Black_Italic](./900Black_Italic/SofiaSans_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

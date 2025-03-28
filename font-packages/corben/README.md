@@ -21,7 +21,7 @@ This font family contains [2 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/corben expo-font expo-app-loading
+npx expo install @expo-google-fonts/corben expo-font
 ```
 
 Now add code like this to your project
@@ -30,8 +30,9 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Corben_400Regular, Corben_700Bold } from '@expo-google-fonts/corben';
+import { useFonts } from '@expo-google-fonts/corben/useFonts';
+import { Corben_400Regular } from '@expo-google-fonts/corben/400Regular';
+import { Corben_700Bold } from '@expo-google-fonts/corben/700Bold';
 
 export default () => {
 
@@ -44,7 +45,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -75,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Corben_400Regular](./Corben_400Regular.ttf.png)|![Corben_700Bold](./Corben_700Bold.ttf.png)|||
+|![Corben_400Regular](./400Regular/Corben_400Regular.ttf.png)|![Corben_700Bold](./700Bold/Corben_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

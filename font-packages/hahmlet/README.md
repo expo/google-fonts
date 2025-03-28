@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/hahmlet expo-font expo-app-loading
+npx expo install @expo-google-fonts/hahmlet expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Hahmlet_100Thin, Hahmlet_200ExtraLight, Hahmlet_300Light, Hahmlet_400Regular, Hahmlet_500Medium, Hahmlet_600SemiBold, Hahmlet_700Bold, Hahmlet_800ExtraBold, Hahmlet_900Black } from '@expo-google-fonts/hahmlet';
+import { useFonts } from '@expo-google-fonts/hahmlet/useFonts';
+import { Hahmlet_100Thin } from '@expo-google-fonts/hahmlet/100Thin';
+import { Hahmlet_200ExtraLight } from '@expo-google-fonts/hahmlet/200ExtraLight';
+import { Hahmlet_300Light } from '@expo-google-fonts/hahmlet/300Light';
+import { Hahmlet_400Regular } from '@expo-google-fonts/hahmlet/400Regular';
+import { Hahmlet_500Medium } from '@expo-google-fonts/hahmlet/500Medium';
+import { Hahmlet_600SemiBold } from '@expo-google-fonts/hahmlet/600SemiBold';
+import { Hahmlet_700Bold } from '@expo-google-fonts/hahmlet/700Bold';
+import { Hahmlet_800ExtraBold } from '@expo-google-fonts/hahmlet/800ExtraBold';
+import { Hahmlet_900Black } from '@expo-google-fonts/hahmlet/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Hahmlet_100Thin](./Hahmlet_100Thin.ttf.png)|![Hahmlet_200ExtraLight](./Hahmlet_200ExtraLight.ttf.png)|![Hahmlet_300Light](./Hahmlet_300Light.ttf.png)||
-|![Hahmlet_400Regular](./Hahmlet_400Regular.ttf.png)|![Hahmlet_500Medium](./Hahmlet_500Medium.ttf.png)|![Hahmlet_600SemiBold](./Hahmlet_600SemiBold.ttf.png)||
-|![Hahmlet_700Bold](./Hahmlet_700Bold.ttf.png)|![Hahmlet_800ExtraBold](./Hahmlet_800ExtraBold.ttf.png)|![Hahmlet_900Black](./Hahmlet_900Black.ttf.png)||
+|![Hahmlet_100Thin](./100Thin/Hahmlet_100Thin.ttf.png)|![Hahmlet_200ExtraLight](./200ExtraLight/Hahmlet_200ExtraLight.ttf.png)|![Hahmlet_300Light](./300Light/Hahmlet_300Light.ttf.png)||
+|![Hahmlet_400Regular](./400Regular/Hahmlet_400Regular.ttf.png)|![Hahmlet_500Medium](./500Medium/Hahmlet_500Medium.ttf.png)|![Hahmlet_600SemiBold](./600SemiBold/Hahmlet_600SemiBold.ttf.png)||
+|![Hahmlet_700Bold](./700Bold/Hahmlet_700Bold.ttf.png)|![Hahmlet_800ExtraBold](./800ExtraBold/Hahmlet_800ExtraBold.ttf.png)|![Hahmlet_900Black](./900Black/Hahmlet_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

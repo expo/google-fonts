@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/zain expo-font expo-app-loading
+npx expo install @expo-google-fonts/zain expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Zain_200ExtraLight, Zain_300Light, Zain_300Light_Italic, Zain_400Regular, Zain_400Regular_Italic, Zain_700Bold, Zain_800ExtraBold, Zain_900Black } from '@expo-google-fonts/zain';
+import { useFonts } from '@expo-google-fonts/zain/useFonts';
+import { Zain_200ExtraLight } from '@expo-google-fonts/zain/200ExtraLight';
+import { Zain_300Light } from '@expo-google-fonts/zain/300Light';
+import { Zain_300Light_Italic } from '@expo-google-fonts/zain/300Light_Italic';
+import { Zain_400Regular } from '@expo-google-fonts/zain/400Regular';
+import { Zain_400Regular_Italic } from '@expo-google-fonts/zain/400Regular_Italic';
+import { Zain_700Bold } from '@expo-google-fonts/zain/700Bold';
+import { Zain_800ExtraBold } from '@expo-google-fonts/zain/800ExtraBold';
+import { Zain_900Black } from '@expo-google-fonts/zain/900Black';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Zain_200ExtraLight](./Zain_200ExtraLight.ttf.png)|![Zain_300Light](./Zain_300Light.ttf.png)|![Zain_300Light_Italic](./Zain_300Light_Italic.ttf.png)||
-|![Zain_400Regular](./Zain_400Regular.ttf.png)|![Zain_400Regular_Italic](./Zain_400Regular_Italic.ttf.png)|![Zain_700Bold](./Zain_700Bold.ttf.png)||
-|![Zain_800ExtraBold](./Zain_800ExtraBold.ttf.png)|![Zain_900Black](./Zain_900Black.ttf.png)|||
+|![Zain_200ExtraLight](./200ExtraLight/Zain_200ExtraLight.ttf.png)|![Zain_300Light](./300Light/Zain_300Light.ttf.png)|![Zain_300Light_Italic](./300Light_Italic/Zain_300Light_Italic.ttf.png)||
+|![Zain_400Regular](./400Regular/Zain_400Regular.ttf.png)|![Zain_400Regular_Italic](./400Regular_Italic/Zain_400Regular_Italic.ttf.png)|![Zain_700Bold](./700Bold/Zain_700Bold.ttf.png)||
+|![Zain_800ExtraBold](./800ExtraBold/Zain_800ExtraBold.ttf.png)|![Zain_900Black](./900Black/Zain_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

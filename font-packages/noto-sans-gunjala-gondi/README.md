@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-gunjala-gondi expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-gunjala-gondi expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansGunjalaGondi_400Regular, NotoSansGunjalaGondi_500Medium, NotoSansGunjalaGondi_600SemiBold, NotoSansGunjalaGondi_700Bold } from '@expo-google-fonts/noto-sans-gunjala-gondi';
+import { useFonts } from '@expo-google-fonts/noto-sans-gunjala-gondi/useFonts';
+import { NotoSansGunjalaGondi_400Regular } from '@expo-google-fonts/noto-sans-gunjala-gondi/400Regular';
+import { NotoSansGunjalaGondi_500Medium } from '@expo-google-fonts/noto-sans-gunjala-gondi/500Medium';
+import { NotoSansGunjalaGondi_600SemiBold } from '@expo-google-fonts/noto-sans-gunjala-gondi/600SemiBold';
+import { NotoSansGunjalaGondi_700Bold } from '@expo-google-fonts/noto-sans-gunjala-gondi/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansGunjalaGondi_400Regular](./NotoSansGunjalaGondi_400Regular.ttf.png)|![NotoSansGunjalaGondi_500Medium](./NotoSansGunjalaGondi_500Medium.ttf.png)|![NotoSansGunjalaGondi_600SemiBold](./NotoSansGunjalaGondi_600SemiBold.ttf.png)||
-|![NotoSansGunjalaGondi_700Bold](./NotoSansGunjalaGondi_700Bold.ttf.png)||||
+|![NotoSansGunjalaGondi_400Regular](./400Regular/NotoSansGunjalaGondi_400Regular.ttf.png)|![NotoSansGunjalaGondi_500Medium](./500Medium/NotoSansGunjalaGondi_500Medium.ttf.png)|![NotoSansGunjalaGondi_600SemiBold](./600SemiBold/NotoSansGunjalaGondi_600SemiBold.ttf.png)||
+|![NotoSansGunjalaGondi_700Bold](./700Bold/NotoSansGunjalaGondi_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

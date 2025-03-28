@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/bellota-text expo-font expo-app-loading
+npx expo install @expo-google-fonts/bellota-text expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, BellotaText_300Light, BellotaText_300Light_Italic, BellotaText_400Regular, BellotaText_400Regular_Italic, BellotaText_700Bold, BellotaText_700Bold_Italic } from '@expo-google-fonts/bellota-text';
+import { useFonts } from '@expo-google-fonts/bellota-text/useFonts';
+import { BellotaText_300Light } from '@expo-google-fonts/bellota-text/300Light';
+import { BellotaText_300Light_Italic } from '@expo-google-fonts/bellota-text/300Light_Italic';
+import { BellotaText_400Regular } from '@expo-google-fonts/bellota-text/400Regular';
+import { BellotaText_400Regular_Italic } from '@expo-google-fonts/bellota-text/400Regular_Italic';
+import { BellotaText_700Bold } from '@expo-google-fonts/bellota-text/700Bold';
+import { BellotaText_700Bold_Italic } from '@expo-google-fonts/bellota-text/700Bold_Italic';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BellotaText_300Light](./BellotaText_300Light.ttf.png)|![BellotaText_300Light_Italic](./BellotaText_300Light_Italic.ttf.png)|![BellotaText_400Regular](./BellotaText_400Regular.ttf.png)||
-|![BellotaText_400Regular_Italic](./BellotaText_400Regular_Italic.ttf.png)|![BellotaText_700Bold](./BellotaText_700Bold.ttf.png)|![BellotaText_700Bold_Italic](./BellotaText_700Bold_Italic.ttf.png)||
+|![BellotaText_300Light](./300Light/BellotaText_300Light.ttf.png)|![BellotaText_300Light_Italic](./300Light_Italic/BellotaText_300Light_Italic.ttf.png)|![BellotaText_400Regular](./400Regular/BellotaText_400Regular.ttf.png)||
+|![BellotaText_400Regular_Italic](./400Regular_Italic/BellotaText_400Regular_Italic.ttf.png)|![BellotaText_700Bold](./700Bold/BellotaText_700Bold.ttf.png)|![BellotaText_700Bold_Italic](./700Bold_Italic/BellotaText_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

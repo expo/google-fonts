@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/zen-kaku-gothic-antique expo-font expo-app-loading
+npx expo install @expo-google-fonts/zen-kaku-gothic-antique expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, ZenKakuGothicAntique_300Light, ZenKakuGothicAntique_400Regular, ZenKakuGothicAntique_500Medium, ZenKakuGothicAntique_700Bold, ZenKakuGothicAntique_900Black } from '@expo-google-fonts/zen-kaku-gothic-antique';
+import { useFonts } from '@expo-google-fonts/zen-kaku-gothic-antique/useFonts';
+import { ZenKakuGothicAntique_300Light } from '@expo-google-fonts/zen-kaku-gothic-antique/300Light';
+import { ZenKakuGothicAntique_400Regular } from '@expo-google-fonts/zen-kaku-gothic-antique/400Regular';
+import { ZenKakuGothicAntique_500Medium } from '@expo-google-fonts/zen-kaku-gothic-antique/500Medium';
+import { ZenKakuGothicAntique_700Bold } from '@expo-google-fonts/zen-kaku-gothic-antique/700Bold';
+import { ZenKakuGothicAntique_900Black } from '@expo-google-fonts/zen-kaku-gothic-antique/900Black';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ZenKakuGothicAntique_300Light](./ZenKakuGothicAntique_300Light.ttf.png)|![ZenKakuGothicAntique_400Regular](./ZenKakuGothicAntique_400Regular.ttf.png)|![ZenKakuGothicAntique_500Medium](./ZenKakuGothicAntique_500Medium.ttf.png)||
-|![ZenKakuGothicAntique_700Bold](./ZenKakuGothicAntique_700Bold.ttf.png)|![ZenKakuGothicAntique_900Black](./ZenKakuGothicAntique_900Black.ttf.png)|||
+|![ZenKakuGothicAntique_300Light](./300Light/ZenKakuGothicAntique_300Light.ttf.png)|![ZenKakuGothicAntique_400Regular](./400Regular/ZenKakuGothicAntique_400Regular.ttf.png)|![ZenKakuGothicAntique_500Medium](./500Medium/ZenKakuGothicAntique_500Medium.ttf.png)||
+|![ZenKakuGothicAntique_700Bold](./700Bold/ZenKakuGothicAntique_700Bold.ttf.png)|![ZenKakuGothicAntique_900Black](./900Black/ZenKakuGothicAntique_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

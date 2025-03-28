@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/anuphan expo-font expo-app-loading
+npx expo install @expo-google-fonts/anuphan expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Anuphan_100Thin, Anuphan_200ExtraLight, Anuphan_300Light, Anuphan_400Regular, Anuphan_500Medium, Anuphan_600SemiBold, Anuphan_700Bold } from '@expo-google-fonts/anuphan';
+import { useFonts } from '@expo-google-fonts/anuphan/useFonts';
+import { Anuphan_100Thin } from '@expo-google-fonts/anuphan/100Thin';
+import { Anuphan_200ExtraLight } from '@expo-google-fonts/anuphan/200ExtraLight';
+import { Anuphan_300Light } from '@expo-google-fonts/anuphan/300Light';
+import { Anuphan_400Regular } from '@expo-google-fonts/anuphan/400Regular';
+import { Anuphan_500Medium } from '@expo-google-fonts/anuphan/500Medium';
+import { Anuphan_600SemiBold } from '@expo-google-fonts/anuphan/600SemiBold';
+import { Anuphan_700Bold } from '@expo-google-fonts/anuphan/700Bold';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Anuphan_100Thin](./Anuphan_100Thin.ttf.png)|![Anuphan_200ExtraLight](./Anuphan_200ExtraLight.ttf.png)|![Anuphan_300Light](./Anuphan_300Light.ttf.png)||
-|![Anuphan_400Regular](./Anuphan_400Regular.ttf.png)|![Anuphan_500Medium](./Anuphan_500Medium.ttf.png)|![Anuphan_600SemiBold](./Anuphan_600SemiBold.ttf.png)||
-|![Anuphan_700Bold](./Anuphan_700Bold.ttf.png)||||
+|![Anuphan_100Thin](./100Thin/Anuphan_100Thin.ttf.png)|![Anuphan_200ExtraLight](./200ExtraLight/Anuphan_200ExtraLight.ttf.png)|![Anuphan_300Light](./300Light/Anuphan_300Light.ttf.png)||
+|![Anuphan_400Regular](./400Regular/Anuphan_400Regular.ttf.png)|![Anuphan_500Medium](./500Medium/Anuphan_500Medium.ttf.png)|![Anuphan_600SemiBold](./600SemiBold/Anuphan_600SemiBold.ttf.png)||
+|![Anuphan_700Bold](./700Bold/Anuphan_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

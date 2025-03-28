@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/edu-qld-beginner expo-font expo-app-loading
+npx expo install @expo-google-fonts/edu-qld-beginner expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, EduQLDBeginner_400Regular, EduQLDBeginner_500Medium, EduQLDBeginner_600SemiBold, EduQLDBeginner_700Bold } from '@expo-google-fonts/edu-qld-beginner';
+import { useFonts } from '@expo-google-fonts/edu-qld-beginner/useFonts';
+import { EduQLDBeginner_400Regular } from '@expo-google-fonts/edu-qld-beginner/400Regular';
+import { EduQLDBeginner_500Medium } from '@expo-google-fonts/edu-qld-beginner/500Medium';
+import { EduQLDBeginner_600SemiBold } from '@expo-google-fonts/edu-qld-beginner/600SemiBold';
+import { EduQLDBeginner_700Bold } from '@expo-google-fonts/edu-qld-beginner/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EduQLDBeginner_400Regular](./EduQLDBeginner_400Regular.ttf.png)|![EduQLDBeginner_500Medium](./EduQLDBeginner_500Medium.ttf.png)|![EduQLDBeginner_600SemiBold](./EduQLDBeginner_600SemiBold.ttf.png)||
-|![EduQLDBeginner_700Bold](./EduQLDBeginner_700Bold.ttf.png)||||
+|![EduQLDBeginner_400Regular](./400Regular/EduQLDBeginner_400Regular.ttf.png)|![EduQLDBeginner_500Medium](./500Medium/EduQLDBeginner_500Medium.ttf.png)|![EduQLDBeginner_600SemiBold](./600SemiBold/EduQLDBeginner_600SemiBold.ttf.png)||
+|![EduQLDBeginner_700Bold](./700Bold/EduQLDBeginner_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

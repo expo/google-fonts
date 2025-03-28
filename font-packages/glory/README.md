@@ -35,7 +35,7 @@ This font family contains [16 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/glory expo-font expo-app-loading
+npx expo install @expo-google-fonts/glory expo-font
 ```
 
 Now add code like this to your project
@@ -44,8 +44,23 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Glory_100Thin, Glory_200ExtraLight, Glory_300Light, Glory_400Regular, Glory_500Medium, Glory_600SemiBold, Glory_700Bold, Glory_800ExtraBold, Glory_100Thin_Italic, Glory_200ExtraLight_Italic, Glory_300Light_Italic, Glory_400Regular_Italic, Glory_500Medium_Italic, Glory_600SemiBold_Italic, Glory_700Bold_Italic, Glory_800ExtraBold_Italic } from '@expo-google-fonts/glory';
+import { useFonts } from '@expo-google-fonts/glory/useFonts';
+import { Glory_100Thin } from '@expo-google-fonts/glory/100Thin';
+import { Glory_200ExtraLight } from '@expo-google-fonts/glory/200ExtraLight';
+import { Glory_300Light } from '@expo-google-fonts/glory/300Light';
+import { Glory_400Regular } from '@expo-google-fonts/glory/400Regular';
+import { Glory_500Medium } from '@expo-google-fonts/glory/500Medium';
+import { Glory_600SemiBold } from '@expo-google-fonts/glory/600SemiBold';
+import { Glory_700Bold } from '@expo-google-fonts/glory/700Bold';
+import { Glory_800ExtraBold } from '@expo-google-fonts/glory/800ExtraBold';
+import { Glory_100Thin_Italic } from '@expo-google-fonts/glory/100Thin_Italic';
+import { Glory_200ExtraLight_Italic } from '@expo-google-fonts/glory/200ExtraLight_Italic';
+import { Glory_300Light_Italic } from '@expo-google-fonts/glory/300Light_Italic';
+import { Glory_400Regular_Italic } from '@expo-google-fonts/glory/400Regular_Italic';
+import { Glory_500Medium_Italic } from '@expo-google-fonts/glory/500Medium_Italic';
+import { Glory_600SemiBold_Italic } from '@expo-google-fonts/glory/600SemiBold_Italic';
+import { Glory_700Bold_Italic } from '@expo-google-fonts/glory/700Bold_Italic';
+import { Glory_800ExtraBold_Italic } from '@expo-google-fonts/glory/800ExtraBold_Italic';
 
 export default () => {
 
@@ -72,7 +87,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -215,12 +230,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Glory_100Thin](./Glory_100Thin.ttf.png)|![Glory_200ExtraLight](./Glory_200ExtraLight.ttf.png)|![Glory_300Light](./Glory_300Light.ttf.png)||
-|![Glory_400Regular](./Glory_400Regular.ttf.png)|![Glory_500Medium](./Glory_500Medium.ttf.png)|![Glory_600SemiBold](./Glory_600SemiBold.ttf.png)||
-|![Glory_700Bold](./Glory_700Bold.ttf.png)|![Glory_800ExtraBold](./Glory_800ExtraBold.ttf.png)|![Glory_100Thin_Italic](./Glory_100Thin_Italic.ttf.png)||
-|![Glory_200ExtraLight_Italic](./Glory_200ExtraLight_Italic.ttf.png)|![Glory_300Light_Italic](./Glory_300Light_Italic.ttf.png)|![Glory_400Regular_Italic](./Glory_400Regular_Italic.ttf.png)||
-|![Glory_500Medium_Italic](./Glory_500Medium_Italic.ttf.png)|![Glory_600SemiBold_Italic](./Glory_600SemiBold_Italic.ttf.png)|![Glory_700Bold_Italic](./Glory_700Bold_Italic.ttf.png)||
-|![Glory_800ExtraBold_Italic](./Glory_800ExtraBold_Italic.ttf.png)||||
+|![Glory_100Thin](./100Thin/Glory_100Thin.ttf.png)|![Glory_200ExtraLight](./200ExtraLight/Glory_200ExtraLight.ttf.png)|![Glory_300Light](./300Light/Glory_300Light.ttf.png)||
+|![Glory_400Regular](./400Regular/Glory_400Regular.ttf.png)|![Glory_500Medium](./500Medium/Glory_500Medium.ttf.png)|![Glory_600SemiBold](./600SemiBold/Glory_600SemiBold.ttf.png)||
+|![Glory_700Bold](./700Bold/Glory_700Bold.ttf.png)|![Glory_800ExtraBold](./800ExtraBold/Glory_800ExtraBold.ttf.png)|![Glory_100Thin_Italic](./100Thin_Italic/Glory_100Thin_Italic.ttf.png)||
+|![Glory_200ExtraLight_Italic](./200ExtraLight_Italic/Glory_200ExtraLight_Italic.ttf.png)|![Glory_300Light_Italic](./300Light_Italic/Glory_300Light_Italic.ttf.png)|![Glory_400Regular_Italic](./400Regular_Italic/Glory_400Regular_Italic.ttf.png)||
+|![Glory_500Medium_Italic](./500Medium_Italic/Glory_500Medium_Italic.ttf.png)|![Glory_600SemiBold_Italic](./600SemiBold_Italic/Glory_600SemiBold_Italic.ttf.png)|![Glory_700Bold_Italic](./700Bold_Italic/Glory_700Bold_Italic.ttf.png)||
+|![Glory_800ExtraBold_Italic](./800ExtraBold_Italic/Glory_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

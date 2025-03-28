@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/lexend-peta expo-font expo-app-loading
+npx expo install @expo-google-fonts/lexend-peta expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, LexendPeta_100Thin, LexendPeta_200ExtraLight, LexendPeta_300Light, LexendPeta_400Regular, LexendPeta_500Medium, LexendPeta_600SemiBold, LexendPeta_700Bold, LexendPeta_800ExtraBold, LexendPeta_900Black } from '@expo-google-fonts/lexend-peta';
+import { useFonts } from '@expo-google-fonts/lexend-peta/useFonts';
+import { LexendPeta_100Thin } from '@expo-google-fonts/lexend-peta/100Thin';
+import { LexendPeta_200ExtraLight } from '@expo-google-fonts/lexend-peta/200ExtraLight';
+import { LexendPeta_300Light } from '@expo-google-fonts/lexend-peta/300Light';
+import { LexendPeta_400Regular } from '@expo-google-fonts/lexend-peta/400Regular';
+import { LexendPeta_500Medium } from '@expo-google-fonts/lexend-peta/500Medium';
+import { LexendPeta_600SemiBold } from '@expo-google-fonts/lexend-peta/600SemiBold';
+import { LexendPeta_700Bold } from '@expo-google-fonts/lexend-peta/700Bold';
+import { LexendPeta_800ExtraBold } from '@expo-google-fonts/lexend-peta/800ExtraBold';
+import { LexendPeta_900Black } from '@expo-google-fonts/lexend-peta/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LexendPeta_100Thin](./LexendPeta_100Thin.ttf.png)|![LexendPeta_200ExtraLight](./LexendPeta_200ExtraLight.ttf.png)|![LexendPeta_300Light](./LexendPeta_300Light.ttf.png)||
-|![LexendPeta_400Regular](./LexendPeta_400Regular.ttf.png)|![LexendPeta_500Medium](./LexendPeta_500Medium.ttf.png)|![LexendPeta_600SemiBold](./LexendPeta_600SemiBold.ttf.png)||
-|![LexendPeta_700Bold](./LexendPeta_700Bold.ttf.png)|![LexendPeta_800ExtraBold](./LexendPeta_800ExtraBold.ttf.png)|![LexendPeta_900Black](./LexendPeta_900Black.ttf.png)||
+|![LexendPeta_100Thin](./100Thin/LexendPeta_100Thin.ttf.png)|![LexendPeta_200ExtraLight](./200ExtraLight/LexendPeta_200ExtraLight.ttf.png)|![LexendPeta_300Light](./300Light/LexendPeta_300Light.ttf.png)||
+|![LexendPeta_400Regular](./400Regular/LexendPeta_400Regular.ttf.png)|![LexendPeta_500Medium](./500Medium/LexendPeta_500Medium.ttf.png)|![LexendPeta_600SemiBold](./600SemiBold/LexendPeta_600SemiBold.ttf.png)||
+|![LexendPeta_700Bold](./700Bold/LexendPeta_700Bold.ttf.png)|![LexendPeta_800ExtraBold](./800ExtraBold/LexendPeta_800ExtraBold.ttf.png)|![LexendPeta_900Black](./900Black/LexendPeta_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

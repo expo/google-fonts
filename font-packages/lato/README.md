@@ -29,7 +29,7 @@ This font family contains [10 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/lato expo-font expo-app-loading
+npx expo install @expo-google-fonts/lato expo-font
 ```
 
 Now add code like this to your project
@@ -38,8 +38,17 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Lato_100Thin, Lato_100Thin_Italic, Lato_300Light, Lato_300Light_Italic, Lato_400Regular, Lato_400Regular_Italic, Lato_700Bold, Lato_700Bold_Italic, Lato_900Black, Lato_900Black_Italic } from '@expo-google-fonts/lato';
+import { useFonts } from '@expo-google-fonts/lato/useFonts';
+import { Lato_100Thin } from '@expo-google-fonts/lato/100Thin';
+import { Lato_100Thin_Italic } from '@expo-google-fonts/lato/100Thin_Italic';
+import { Lato_300Light } from '@expo-google-fonts/lato/300Light';
+import { Lato_300Light_Italic } from '@expo-google-fonts/lato/300Light_Italic';
+import { Lato_400Regular } from '@expo-google-fonts/lato/400Regular';
+import { Lato_400Regular_Italic } from '@expo-google-fonts/lato/400Regular_Italic';
+import { Lato_700Bold } from '@expo-google-fonts/lato/700Bold';
+import { Lato_700Bold_Italic } from '@expo-google-fonts/lato/700Bold_Italic';
+import { Lato_900Black } from '@expo-google-fonts/lato/900Black';
+import { Lato_900Black_Italic } from '@expo-google-fonts/lato/900Black_Italic';
 
 export default () => {
 
@@ -60,7 +69,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -155,10 +164,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Lato_100Thin](./Lato_100Thin.ttf.png)|![Lato_100Thin_Italic](./Lato_100Thin_Italic.ttf.png)|![Lato_300Light](./Lato_300Light.ttf.png)||
-|![Lato_300Light_Italic](./Lato_300Light_Italic.ttf.png)|![Lato_400Regular](./Lato_400Regular.ttf.png)|![Lato_400Regular_Italic](./Lato_400Regular_Italic.ttf.png)||
-|![Lato_700Bold](./Lato_700Bold.ttf.png)|![Lato_700Bold_Italic](./Lato_700Bold_Italic.ttf.png)|![Lato_900Black](./Lato_900Black.ttf.png)||
-|![Lato_900Black_Italic](./Lato_900Black_Italic.ttf.png)||||
+|![Lato_100Thin](./100Thin/Lato_100Thin.ttf.png)|![Lato_100Thin_Italic](./100Thin_Italic/Lato_100Thin_Italic.ttf.png)|![Lato_300Light](./300Light/Lato_300Light.ttf.png)||
+|![Lato_300Light_Italic](./300Light_Italic/Lato_300Light_Italic.ttf.png)|![Lato_400Regular](./400Regular/Lato_400Regular.ttf.png)|![Lato_400Regular_Italic](./400Regular_Italic/Lato_400Regular_Italic.ttf.png)||
+|![Lato_700Bold](./700Bold/Lato_700Bold.ttf.png)|![Lato_700Bold_Italic](./700Bold_Italic/Lato_700Bold_Italic.ttf.png)|![Lato_900Black](./900Black/Lato_900Black.ttf.png)||
+|![Lato_900Black_Italic](./900Black_Italic/Lato_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

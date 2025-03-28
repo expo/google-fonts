@@ -29,7 +29,7 @@ This font family contains [10 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/alegreya-sc expo-font expo-app-loading
+npx expo install @expo-google-fonts/alegreya-sc expo-font
 ```
 
 Now add code like this to your project
@@ -38,8 +38,17 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, AlegreyaSC_400Regular, AlegreyaSC_400Regular_Italic, AlegreyaSC_500Medium, AlegreyaSC_500Medium_Italic, AlegreyaSC_700Bold, AlegreyaSC_700Bold_Italic, AlegreyaSC_800ExtraBold, AlegreyaSC_800ExtraBold_Italic, AlegreyaSC_900Black, AlegreyaSC_900Black_Italic } from '@expo-google-fonts/alegreya-sc';
+import { useFonts } from '@expo-google-fonts/alegreya-sc/useFonts';
+import { AlegreyaSC_400Regular } from '@expo-google-fonts/alegreya-sc/400Regular';
+import { AlegreyaSC_400Regular_Italic } from '@expo-google-fonts/alegreya-sc/400Regular_Italic';
+import { AlegreyaSC_500Medium } from '@expo-google-fonts/alegreya-sc/500Medium';
+import { AlegreyaSC_500Medium_Italic } from '@expo-google-fonts/alegreya-sc/500Medium_Italic';
+import { AlegreyaSC_700Bold } from '@expo-google-fonts/alegreya-sc/700Bold';
+import { AlegreyaSC_700Bold_Italic } from '@expo-google-fonts/alegreya-sc/700Bold_Italic';
+import { AlegreyaSC_800ExtraBold } from '@expo-google-fonts/alegreya-sc/800ExtraBold';
+import { AlegreyaSC_800ExtraBold_Italic } from '@expo-google-fonts/alegreya-sc/800ExtraBold_Italic';
+import { AlegreyaSC_900Black } from '@expo-google-fonts/alegreya-sc/900Black';
+import { AlegreyaSC_900Black_Italic } from '@expo-google-fonts/alegreya-sc/900Black_Italic';
 
 export default () => {
 
@@ -60,7 +69,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -155,10 +164,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AlegreyaSC_400Regular](./AlegreyaSC_400Regular.ttf.png)|![AlegreyaSC_400Regular_Italic](./AlegreyaSC_400Regular_Italic.ttf.png)|![AlegreyaSC_500Medium](./AlegreyaSC_500Medium.ttf.png)||
-|![AlegreyaSC_500Medium_Italic](./AlegreyaSC_500Medium_Italic.ttf.png)|![AlegreyaSC_700Bold](./AlegreyaSC_700Bold.ttf.png)|![AlegreyaSC_700Bold_Italic](./AlegreyaSC_700Bold_Italic.ttf.png)||
-|![AlegreyaSC_800ExtraBold](./AlegreyaSC_800ExtraBold.ttf.png)|![AlegreyaSC_800ExtraBold_Italic](./AlegreyaSC_800ExtraBold_Italic.ttf.png)|![AlegreyaSC_900Black](./AlegreyaSC_900Black.ttf.png)||
-|![AlegreyaSC_900Black_Italic](./AlegreyaSC_900Black_Italic.ttf.png)||||
+|![AlegreyaSC_400Regular](./400Regular/AlegreyaSC_400Regular.ttf.png)|![AlegreyaSC_400Regular_Italic](./400Regular_Italic/AlegreyaSC_400Regular_Italic.ttf.png)|![AlegreyaSC_500Medium](./500Medium/AlegreyaSC_500Medium.ttf.png)||
+|![AlegreyaSC_500Medium_Italic](./500Medium_Italic/AlegreyaSC_500Medium_Italic.ttf.png)|![AlegreyaSC_700Bold](./700Bold/AlegreyaSC_700Bold.ttf.png)|![AlegreyaSC_700Bold_Italic](./700Bold_Italic/AlegreyaSC_700Bold_Italic.ttf.png)||
+|![AlegreyaSC_800ExtraBold](./800ExtraBold/AlegreyaSC_800ExtraBold.ttf.png)|![AlegreyaSC_800ExtraBold_Italic](./800ExtraBold_Italic/AlegreyaSC_800ExtraBold_Italic.ttf.png)|![AlegreyaSC_900Black](./900Black/AlegreyaSC_900Black.ttf.png)||
+|![AlegreyaSC_900Black_Italic](./900Black_Italic/AlegreyaSC_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -29,7 +29,7 @@ This font family contains [10 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/rethink-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/rethink-sans expo-font
 ```
 
 Now add code like this to your project
@@ -38,8 +38,17 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, RethinkSans_400Regular, RethinkSans_500Medium, RethinkSans_600SemiBold, RethinkSans_700Bold, RethinkSans_800ExtraBold, RethinkSans_400Regular_Italic, RethinkSans_500Medium_Italic, RethinkSans_600SemiBold_Italic, RethinkSans_700Bold_Italic, RethinkSans_800ExtraBold_Italic } from '@expo-google-fonts/rethink-sans';
+import { useFonts } from '@expo-google-fonts/rethink-sans/useFonts';
+import { RethinkSans_400Regular } from '@expo-google-fonts/rethink-sans/400Regular';
+import { RethinkSans_500Medium } from '@expo-google-fonts/rethink-sans/500Medium';
+import { RethinkSans_600SemiBold } from '@expo-google-fonts/rethink-sans/600SemiBold';
+import { RethinkSans_700Bold } from '@expo-google-fonts/rethink-sans/700Bold';
+import { RethinkSans_800ExtraBold } from '@expo-google-fonts/rethink-sans/800ExtraBold';
+import { RethinkSans_400Regular_Italic } from '@expo-google-fonts/rethink-sans/400Regular_Italic';
+import { RethinkSans_500Medium_Italic } from '@expo-google-fonts/rethink-sans/500Medium_Italic';
+import { RethinkSans_600SemiBold_Italic } from '@expo-google-fonts/rethink-sans/600SemiBold_Italic';
+import { RethinkSans_700Bold_Italic } from '@expo-google-fonts/rethink-sans/700Bold_Italic';
+import { RethinkSans_800ExtraBold_Italic } from '@expo-google-fonts/rethink-sans/800ExtraBold_Italic';
 
 export default () => {
 
@@ -60,7 +69,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -155,10 +164,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RethinkSans_400Regular](./RethinkSans_400Regular.ttf.png)|![RethinkSans_500Medium](./RethinkSans_500Medium.ttf.png)|![RethinkSans_600SemiBold](./RethinkSans_600SemiBold.ttf.png)||
-|![RethinkSans_700Bold](./RethinkSans_700Bold.ttf.png)|![RethinkSans_800ExtraBold](./RethinkSans_800ExtraBold.ttf.png)|![RethinkSans_400Regular_Italic](./RethinkSans_400Regular_Italic.ttf.png)||
-|![RethinkSans_500Medium_Italic](./RethinkSans_500Medium_Italic.ttf.png)|![RethinkSans_600SemiBold_Italic](./RethinkSans_600SemiBold_Italic.ttf.png)|![RethinkSans_700Bold_Italic](./RethinkSans_700Bold_Italic.ttf.png)||
-|![RethinkSans_800ExtraBold_Italic](./RethinkSans_800ExtraBold_Italic.ttf.png)||||
+|![RethinkSans_400Regular](./400Regular/RethinkSans_400Regular.ttf.png)|![RethinkSans_500Medium](./500Medium/RethinkSans_500Medium.ttf.png)|![RethinkSans_600SemiBold](./600SemiBold/RethinkSans_600SemiBold.ttf.png)||
+|![RethinkSans_700Bold](./700Bold/RethinkSans_700Bold.ttf.png)|![RethinkSans_800ExtraBold](./800ExtraBold/RethinkSans_800ExtraBold.ttf.png)|![RethinkSans_400Regular_Italic](./400Regular_Italic/RethinkSans_400Regular_Italic.ttf.png)||
+|![RethinkSans_500Medium_Italic](./500Medium_Italic/RethinkSans_500Medium_Italic.ttf.png)|![RethinkSans_600SemiBold_Italic](./600SemiBold_Italic/RethinkSans_600SemiBold_Italic.ttf.png)|![RethinkSans_700Bold_Italic](./700Bold_Italic/RethinkSans_700Bold_Italic.ttf.png)||
+|![RethinkSans_800ExtraBold_Italic](./800ExtraBold_Italic/RethinkSans_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/lexend expo-font expo-app-loading
+npx expo install @expo-google-fonts/lexend expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Lexend_100Thin, Lexend_200ExtraLight, Lexend_300Light, Lexend_400Regular, Lexend_500Medium, Lexend_600SemiBold, Lexend_700Bold, Lexend_800ExtraBold, Lexend_900Black } from '@expo-google-fonts/lexend';
+import { useFonts } from '@expo-google-fonts/lexend/useFonts';
+import { Lexend_100Thin } from '@expo-google-fonts/lexend/100Thin';
+import { Lexend_200ExtraLight } from '@expo-google-fonts/lexend/200ExtraLight';
+import { Lexend_300Light } from '@expo-google-fonts/lexend/300Light';
+import { Lexend_400Regular } from '@expo-google-fonts/lexend/400Regular';
+import { Lexend_500Medium } from '@expo-google-fonts/lexend/500Medium';
+import { Lexend_600SemiBold } from '@expo-google-fonts/lexend/600SemiBold';
+import { Lexend_700Bold } from '@expo-google-fonts/lexend/700Bold';
+import { Lexend_800ExtraBold } from '@expo-google-fonts/lexend/800ExtraBold';
+import { Lexend_900Black } from '@expo-google-fonts/lexend/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Lexend_100Thin](./Lexend_100Thin.ttf.png)|![Lexend_200ExtraLight](./Lexend_200ExtraLight.ttf.png)|![Lexend_300Light](./Lexend_300Light.ttf.png)||
-|![Lexend_400Regular](./Lexend_400Regular.ttf.png)|![Lexend_500Medium](./Lexend_500Medium.ttf.png)|![Lexend_600SemiBold](./Lexend_600SemiBold.ttf.png)||
-|![Lexend_700Bold](./Lexend_700Bold.ttf.png)|![Lexend_800ExtraBold](./Lexend_800ExtraBold.ttf.png)|![Lexend_900Black](./Lexend_900Black.ttf.png)||
+|![Lexend_100Thin](./100Thin/Lexend_100Thin.ttf.png)|![Lexend_200ExtraLight](./200ExtraLight/Lexend_200ExtraLight.ttf.png)|![Lexend_300Light](./300Light/Lexend_300Light.ttf.png)||
+|![Lexend_400Regular](./400Regular/Lexend_400Regular.ttf.png)|![Lexend_500Medium](./500Medium/Lexend_500Medium.ttf.png)|![Lexend_600SemiBold](./600SemiBold/Lexend_600SemiBold.ttf.png)||
+|![Lexend_700Bold](./700Bold/Lexend_700Bold.ttf.png)|![Lexend_800ExtraBold](./800ExtraBold/Lexend_800ExtraBold.ttf.png)|![Lexend_900Black](./900Black/Lexend_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

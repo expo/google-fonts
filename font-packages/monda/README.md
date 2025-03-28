@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/monda expo-font expo-app-loading
+npx expo install @expo-google-fonts/monda expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Monda_400Regular, Monda_500Medium, Monda_600SemiBold, Monda_700Bold } from '@expo-google-fonts/monda';
+import { useFonts } from '@expo-google-fonts/monda/useFonts';
+import { Monda_400Regular } from '@expo-google-fonts/monda/400Regular';
+import { Monda_500Medium } from '@expo-google-fonts/monda/500Medium';
+import { Monda_600SemiBold } from '@expo-google-fonts/monda/600SemiBold';
+import { Monda_700Bold } from '@expo-google-fonts/monda/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Monda_400Regular](./Monda_400Regular.ttf.png)|![Monda_500Medium](./Monda_500Medium.ttf.png)|![Monda_600SemiBold](./Monda_600SemiBold.ttf.png)||
-|![Monda_700Bold](./Monda_700Bold.ttf.png)||||
+|![Monda_400Regular](./400Regular/Monda_400Regular.ttf.png)|![Monda_500Medium](./500Medium/Monda_500Medium.ttf.png)|![Monda_600SemiBold](./600SemiBold/Monda_600SemiBold.ttf.png)||
+|![Monda_700Bold](./700Bold/Monda_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

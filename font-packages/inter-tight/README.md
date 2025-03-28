@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/inter-tight expo-font expo-app-loading
+npx expo install @expo-google-fonts/inter-tight expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, InterTight_100Thin, InterTight_200ExtraLight, InterTight_300Light, InterTight_400Regular, InterTight_500Medium, InterTight_600SemiBold, InterTight_700Bold, InterTight_800ExtraBold, InterTight_900Black, InterTight_100Thin_Italic, InterTight_200ExtraLight_Italic, InterTight_300Light_Italic, InterTight_400Regular_Italic, InterTight_500Medium_Italic, InterTight_600SemiBold_Italic, InterTight_700Bold_Italic, InterTight_800ExtraBold_Italic, InterTight_900Black_Italic } from '@expo-google-fonts/inter-tight';
+import { useFonts } from '@expo-google-fonts/inter-tight/useFonts';
+import { InterTight_100Thin } from '@expo-google-fonts/inter-tight/100Thin';
+import { InterTight_200ExtraLight } from '@expo-google-fonts/inter-tight/200ExtraLight';
+import { InterTight_300Light } from '@expo-google-fonts/inter-tight/300Light';
+import { InterTight_400Regular } from '@expo-google-fonts/inter-tight/400Regular';
+import { InterTight_500Medium } from '@expo-google-fonts/inter-tight/500Medium';
+import { InterTight_600SemiBold } from '@expo-google-fonts/inter-tight/600SemiBold';
+import { InterTight_700Bold } from '@expo-google-fonts/inter-tight/700Bold';
+import { InterTight_800ExtraBold } from '@expo-google-fonts/inter-tight/800ExtraBold';
+import { InterTight_900Black } from '@expo-google-fonts/inter-tight/900Black';
+import { InterTight_100Thin_Italic } from '@expo-google-fonts/inter-tight/100Thin_Italic';
+import { InterTight_200ExtraLight_Italic } from '@expo-google-fonts/inter-tight/200ExtraLight_Italic';
+import { InterTight_300Light_Italic } from '@expo-google-fonts/inter-tight/300Light_Italic';
+import { InterTight_400Regular_Italic } from '@expo-google-fonts/inter-tight/400Regular_Italic';
+import { InterTight_500Medium_Italic } from '@expo-google-fonts/inter-tight/500Medium_Italic';
+import { InterTight_600SemiBold_Italic } from '@expo-google-fonts/inter-tight/600SemiBold_Italic';
+import { InterTight_700Bold_Italic } from '@expo-google-fonts/inter-tight/700Bold_Italic';
+import { InterTight_800ExtraBold_Italic } from '@expo-google-fonts/inter-tight/800ExtraBold_Italic';
+import { InterTight_900Black_Italic } from '@expo-google-fonts/inter-tight/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![InterTight_100Thin](./InterTight_100Thin.ttf.png)|![InterTight_200ExtraLight](./InterTight_200ExtraLight.ttf.png)|![InterTight_300Light](./InterTight_300Light.ttf.png)||
-|![InterTight_400Regular](./InterTight_400Regular.ttf.png)|![InterTight_500Medium](./InterTight_500Medium.ttf.png)|![InterTight_600SemiBold](./InterTight_600SemiBold.ttf.png)||
-|![InterTight_700Bold](./InterTight_700Bold.ttf.png)|![InterTight_800ExtraBold](./InterTight_800ExtraBold.ttf.png)|![InterTight_900Black](./InterTight_900Black.ttf.png)||
-|![InterTight_100Thin_Italic](./InterTight_100Thin_Italic.ttf.png)|![InterTight_200ExtraLight_Italic](./InterTight_200ExtraLight_Italic.ttf.png)|![InterTight_300Light_Italic](./InterTight_300Light_Italic.ttf.png)||
-|![InterTight_400Regular_Italic](./InterTight_400Regular_Italic.ttf.png)|![InterTight_500Medium_Italic](./InterTight_500Medium_Italic.ttf.png)|![InterTight_600SemiBold_Italic](./InterTight_600SemiBold_Italic.ttf.png)||
-|![InterTight_700Bold_Italic](./InterTight_700Bold_Italic.ttf.png)|![InterTight_800ExtraBold_Italic](./InterTight_800ExtraBold_Italic.ttf.png)|![InterTight_900Black_Italic](./InterTight_900Black_Italic.ttf.png)||
+|![InterTight_100Thin](./100Thin/InterTight_100Thin.ttf.png)|![InterTight_200ExtraLight](./200ExtraLight/InterTight_200ExtraLight.ttf.png)|![InterTight_300Light](./300Light/InterTight_300Light.ttf.png)||
+|![InterTight_400Regular](./400Regular/InterTight_400Regular.ttf.png)|![InterTight_500Medium](./500Medium/InterTight_500Medium.ttf.png)|![InterTight_600SemiBold](./600SemiBold/InterTight_600SemiBold.ttf.png)||
+|![InterTight_700Bold](./700Bold/InterTight_700Bold.ttf.png)|![InterTight_800ExtraBold](./800ExtraBold/InterTight_800ExtraBold.ttf.png)|![InterTight_900Black](./900Black/InterTight_900Black.ttf.png)||
+|![InterTight_100Thin_Italic](./100Thin_Italic/InterTight_100Thin_Italic.ttf.png)|![InterTight_200ExtraLight_Italic](./200ExtraLight_Italic/InterTight_200ExtraLight_Italic.ttf.png)|![InterTight_300Light_Italic](./300Light_Italic/InterTight_300Light_Italic.ttf.png)||
+|![InterTight_400Regular_Italic](./400Regular_Italic/InterTight_400Regular_Italic.ttf.png)|![InterTight_500Medium_Italic](./500Medium_Italic/InterTight_500Medium_Italic.ttf.png)|![InterTight_600SemiBold_Italic](./600SemiBold_Italic/InterTight_600SemiBold_Italic.ttf.png)||
+|![InterTight_700Bold_Italic](./700Bold_Italic/InterTight_700Bold_Italic.ttf.png)|![InterTight_800ExtraBold_Italic](./800ExtraBold_Italic/InterTight_800ExtraBold_Italic.ttf.png)|![InterTight_900Black_Italic](./900Black_Italic/InterTight_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

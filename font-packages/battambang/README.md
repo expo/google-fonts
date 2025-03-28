@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/battambang expo-font expo-app-loading
+npx expo install @expo-google-fonts/battambang expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Battambang_100Thin, Battambang_300Light, Battambang_400Regular, Battambang_700Bold, Battambang_900Black } from '@expo-google-fonts/battambang';
+import { useFonts } from '@expo-google-fonts/battambang/useFonts';
+import { Battambang_100Thin } from '@expo-google-fonts/battambang/100Thin';
+import { Battambang_300Light } from '@expo-google-fonts/battambang/300Light';
+import { Battambang_400Regular } from '@expo-google-fonts/battambang/400Regular';
+import { Battambang_700Bold } from '@expo-google-fonts/battambang/700Bold';
+import { Battambang_900Black } from '@expo-google-fonts/battambang/900Black';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Battambang_100Thin](./Battambang_100Thin.ttf.png)|![Battambang_300Light](./Battambang_300Light.ttf.png)|![Battambang_400Regular](./Battambang_400Regular.ttf.png)||
-|![Battambang_700Bold](./Battambang_700Bold.ttf.png)|![Battambang_900Black](./Battambang_900Black.ttf.png)|||
+|![Battambang_100Thin](./100Thin/Battambang_100Thin.ttf.png)|![Battambang_300Light](./300Light/Battambang_300Light.ttf.png)|![Battambang_400Regular](./400Regular/Battambang_400Regular.ttf.png)||
+|![Battambang_700Bold](./700Bold/Battambang_700Bold.ttf.png)|![Battambang_900Black](./900Black/Battambang_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

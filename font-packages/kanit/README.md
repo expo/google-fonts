@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/kanit expo-font expo-app-loading
+npx expo install @expo-google-fonts/kanit expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Kanit_100Thin, Kanit_100Thin_Italic, Kanit_200ExtraLight, Kanit_200ExtraLight_Italic, Kanit_300Light, Kanit_300Light_Italic, Kanit_400Regular, Kanit_400Regular_Italic, Kanit_500Medium, Kanit_500Medium_Italic, Kanit_600SemiBold, Kanit_600SemiBold_Italic, Kanit_700Bold, Kanit_700Bold_Italic, Kanit_800ExtraBold, Kanit_800ExtraBold_Italic, Kanit_900Black, Kanit_900Black_Italic } from '@expo-google-fonts/kanit';
+import { useFonts } from '@expo-google-fonts/kanit/useFonts';
+import { Kanit_100Thin } from '@expo-google-fonts/kanit/100Thin';
+import { Kanit_100Thin_Italic } from '@expo-google-fonts/kanit/100Thin_Italic';
+import { Kanit_200ExtraLight } from '@expo-google-fonts/kanit/200ExtraLight';
+import { Kanit_200ExtraLight_Italic } from '@expo-google-fonts/kanit/200ExtraLight_Italic';
+import { Kanit_300Light } from '@expo-google-fonts/kanit/300Light';
+import { Kanit_300Light_Italic } from '@expo-google-fonts/kanit/300Light_Italic';
+import { Kanit_400Regular } from '@expo-google-fonts/kanit/400Regular';
+import { Kanit_400Regular_Italic } from '@expo-google-fonts/kanit/400Regular_Italic';
+import { Kanit_500Medium } from '@expo-google-fonts/kanit/500Medium';
+import { Kanit_500Medium_Italic } from '@expo-google-fonts/kanit/500Medium_Italic';
+import { Kanit_600SemiBold } from '@expo-google-fonts/kanit/600SemiBold';
+import { Kanit_600SemiBold_Italic } from '@expo-google-fonts/kanit/600SemiBold_Italic';
+import { Kanit_700Bold } from '@expo-google-fonts/kanit/700Bold';
+import { Kanit_700Bold_Italic } from '@expo-google-fonts/kanit/700Bold_Italic';
+import { Kanit_800ExtraBold } from '@expo-google-fonts/kanit/800ExtraBold';
+import { Kanit_800ExtraBold_Italic } from '@expo-google-fonts/kanit/800ExtraBold_Italic';
+import { Kanit_900Black } from '@expo-google-fonts/kanit/900Black';
+import { Kanit_900Black_Italic } from '@expo-google-fonts/kanit/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Kanit_100Thin](./Kanit_100Thin.ttf.png)|![Kanit_100Thin_Italic](./Kanit_100Thin_Italic.ttf.png)|![Kanit_200ExtraLight](./Kanit_200ExtraLight.ttf.png)||
-|![Kanit_200ExtraLight_Italic](./Kanit_200ExtraLight_Italic.ttf.png)|![Kanit_300Light](./Kanit_300Light.ttf.png)|![Kanit_300Light_Italic](./Kanit_300Light_Italic.ttf.png)||
-|![Kanit_400Regular](./Kanit_400Regular.ttf.png)|![Kanit_400Regular_Italic](./Kanit_400Regular_Italic.ttf.png)|![Kanit_500Medium](./Kanit_500Medium.ttf.png)||
-|![Kanit_500Medium_Italic](./Kanit_500Medium_Italic.ttf.png)|![Kanit_600SemiBold](./Kanit_600SemiBold.ttf.png)|![Kanit_600SemiBold_Italic](./Kanit_600SemiBold_Italic.ttf.png)||
-|![Kanit_700Bold](./Kanit_700Bold.ttf.png)|![Kanit_700Bold_Italic](./Kanit_700Bold_Italic.ttf.png)|![Kanit_800ExtraBold](./Kanit_800ExtraBold.ttf.png)||
-|![Kanit_800ExtraBold_Italic](./Kanit_800ExtraBold_Italic.ttf.png)|![Kanit_900Black](./Kanit_900Black.ttf.png)|![Kanit_900Black_Italic](./Kanit_900Black_Italic.ttf.png)||
+|![Kanit_100Thin](./100Thin/Kanit_100Thin.ttf.png)|![Kanit_100Thin_Italic](./100Thin_Italic/Kanit_100Thin_Italic.ttf.png)|![Kanit_200ExtraLight](./200ExtraLight/Kanit_200ExtraLight.ttf.png)||
+|![Kanit_200ExtraLight_Italic](./200ExtraLight_Italic/Kanit_200ExtraLight_Italic.ttf.png)|![Kanit_300Light](./300Light/Kanit_300Light.ttf.png)|![Kanit_300Light_Italic](./300Light_Italic/Kanit_300Light_Italic.ttf.png)||
+|![Kanit_400Regular](./400Regular/Kanit_400Regular.ttf.png)|![Kanit_400Regular_Italic](./400Regular_Italic/Kanit_400Regular_Italic.ttf.png)|![Kanit_500Medium](./500Medium/Kanit_500Medium.ttf.png)||
+|![Kanit_500Medium_Italic](./500Medium_Italic/Kanit_500Medium_Italic.ttf.png)|![Kanit_600SemiBold](./600SemiBold/Kanit_600SemiBold.ttf.png)|![Kanit_600SemiBold_Italic](./600SemiBold_Italic/Kanit_600SemiBold_Italic.ttf.png)||
+|![Kanit_700Bold](./700Bold/Kanit_700Bold.ttf.png)|![Kanit_700Bold_Italic](./700Bold_Italic/Kanit_700Bold_Italic.ttf.png)|![Kanit_800ExtraBold](./800ExtraBold/Kanit_800ExtraBold.ttf.png)||
+|![Kanit_800ExtraBold_Italic](./800ExtraBold_Italic/Kanit_800ExtraBold_Italic.ttf.png)|![Kanit_900Black](./900Black/Kanit_900Black.ttf.png)|![Kanit_900Black_Italic](./900Black_Italic/Kanit_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

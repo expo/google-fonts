@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/radio-canada-big expo-font expo-app-loading
+npx expo install @expo-google-fonts/radio-canada-big expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, RadioCanadaBig_400Regular, RadioCanadaBig_500Medium, RadioCanadaBig_600SemiBold, RadioCanadaBig_700Bold, RadioCanadaBig_400Regular_Italic, RadioCanadaBig_500Medium_Italic, RadioCanadaBig_600SemiBold_Italic, RadioCanadaBig_700Bold_Italic } from '@expo-google-fonts/radio-canada-big';
+import { useFonts } from '@expo-google-fonts/radio-canada-big/useFonts';
+import { RadioCanadaBig_400Regular } from '@expo-google-fonts/radio-canada-big/400Regular';
+import { RadioCanadaBig_500Medium } from '@expo-google-fonts/radio-canada-big/500Medium';
+import { RadioCanadaBig_600SemiBold } from '@expo-google-fonts/radio-canada-big/600SemiBold';
+import { RadioCanadaBig_700Bold } from '@expo-google-fonts/radio-canada-big/700Bold';
+import { RadioCanadaBig_400Regular_Italic } from '@expo-google-fonts/radio-canada-big/400Regular_Italic';
+import { RadioCanadaBig_500Medium_Italic } from '@expo-google-fonts/radio-canada-big/500Medium_Italic';
+import { RadioCanadaBig_600SemiBold_Italic } from '@expo-google-fonts/radio-canada-big/600SemiBold_Italic';
+import { RadioCanadaBig_700Bold_Italic } from '@expo-google-fonts/radio-canada-big/700Bold_Italic';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RadioCanadaBig_400Regular](./RadioCanadaBig_400Regular.ttf.png)|![RadioCanadaBig_500Medium](./RadioCanadaBig_500Medium.ttf.png)|![RadioCanadaBig_600SemiBold](./RadioCanadaBig_600SemiBold.ttf.png)||
-|![RadioCanadaBig_700Bold](./RadioCanadaBig_700Bold.ttf.png)|![RadioCanadaBig_400Regular_Italic](./RadioCanadaBig_400Regular_Italic.ttf.png)|![RadioCanadaBig_500Medium_Italic](./RadioCanadaBig_500Medium_Italic.ttf.png)||
-|![RadioCanadaBig_600SemiBold_Italic](./RadioCanadaBig_600SemiBold_Italic.ttf.png)|![RadioCanadaBig_700Bold_Italic](./RadioCanadaBig_700Bold_Italic.ttf.png)|||
+|![RadioCanadaBig_400Regular](./400Regular/RadioCanadaBig_400Regular.ttf.png)|![RadioCanadaBig_500Medium](./500Medium/RadioCanadaBig_500Medium.ttf.png)|![RadioCanadaBig_600SemiBold](./600SemiBold/RadioCanadaBig_600SemiBold.ttf.png)||
+|![RadioCanadaBig_700Bold](./700Bold/RadioCanadaBig_700Bold.ttf.png)|![RadioCanadaBig_400Regular_Italic](./400Regular_Italic/RadioCanadaBig_400Regular_Italic.ttf.png)|![RadioCanadaBig_500Medium_Italic](./500Medium_Italic/RadioCanadaBig_500Medium_Italic.ttf.png)||
+|![RadioCanadaBig_600SemiBold_Italic](./600SemiBold_Italic/RadioCanadaBig_600SemiBold_Italic.ttf.png)|![RadioCanadaBig_700Bold_Italic](./700Bold_Italic/RadioCanadaBig_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

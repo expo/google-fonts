@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/montserrat-alternates expo-font expo-app-loading
+npx expo install @expo-google-fonts/montserrat-alternates expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, MontserratAlternates_100Thin, MontserratAlternates_100Thin_Italic, MontserratAlternates_200ExtraLight, MontserratAlternates_200ExtraLight_Italic, MontserratAlternates_300Light, MontserratAlternates_300Light_Italic, MontserratAlternates_400Regular, MontserratAlternates_400Regular_Italic, MontserratAlternates_500Medium, MontserratAlternates_500Medium_Italic, MontserratAlternates_600SemiBold, MontserratAlternates_600SemiBold_Italic, MontserratAlternates_700Bold, MontserratAlternates_700Bold_Italic, MontserratAlternates_800ExtraBold, MontserratAlternates_800ExtraBold_Italic, MontserratAlternates_900Black, MontserratAlternates_900Black_Italic } from '@expo-google-fonts/montserrat-alternates';
+import { useFonts } from '@expo-google-fonts/montserrat-alternates/useFonts';
+import { MontserratAlternates_100Thin } from '@expo-google-fonts/montserrat-alternates/100Thin';
+import { MontserratAlternates_100Thin_Italic } from '@expo-google-fonts/montserrat-alternates/100Thin_Italic';
+import { MontserratAlternates_200ExtraLight } from '@expo-google-fonts/montserrat-alternates/200ExtraLight';
+import { MontserratAlternates_200ExtraLight_Italic } from '@expo-google-fonts/montserrat-alternates/200ExtraLight_Italic';
+import { MontserratAlternates_300Light } from '@expo-google-fonts/montserrat-alternates/300Light';
+import { MontserratAlternates_300Light_Italic } from '@expo-google-fonts/montserrat-alternates/300Light_Italic';
+import { MontserratAlternates_400Regular } from '@expo-google-fonts/montserrat-alternates/400Regular';
+import { MontserratAlternates_400Regular_Italic } from '@expo-google-fonts/montserrat-alternates/400Regular_Italic';
+import { MontserratAlternates_500Medium } from '@expo-google-fonts/montserrat-alternates/500Medium';
+import { MontserratAlternates_500Medium_Italic } from '@expo-google-fonts/montserrat-alternates/500Medium_Italic';
+import { MontserratAlternates_600SemiBold } from '@expo-google-fonts/montserrat-alternates/600SemiBold';
+import { MontserratAlternates_600SemiBold_Italic } from '@expo-google-fonts/montserrat-alternates/600SemiBold_Italic';
+import { MontserratAlternates_700Bold } from '@expo-google-fonts/montserrat-alternates/700Bold';
+import { MontserratAlternates_700Bold_Italic } from '@expo-google-fonts/montserrat-alternates/700Bold_Italic';
+import { MontserratAlternates_800ExtraBold } from '@expo-google-fonts/montserrat-alternates/800ExtraBold';
+import { MontserratAlternates_800ExtraBold_Italic } from '@expo-google-fonts/montserrat-alternates/800ExtraBold_Italic';
+import { MontserratAlternates_900Black } from '@expo-google-fonts/montserrat-alternates/900Black';
+import { MontserratAlternates_900Black_Italic } from '@expo-google-fonts/montserrat-alternates/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MontserratAlternates_100Thin](./MontserratAlternates_100Thin.ttf.png)|![MontserratAlternates_100Thin_Italic](./MontserratAlternates_100Thin_Italic.ttf.png)|![MontserratAlternates_200ExtraLight](./MontserratAlternates_200ExtraLight.ttf.png)||
-|![MontserratAlternates_200ExtraLight_Italic](./MontserratAlternates_200ExtraLight_Italic.ttf.png)|![MontserratAlternates_300Light](./MontserratAlternates_300Light.ttf.png)|![MontserratAlternates_300Light_Italic](./MontserratAlternates_300Light_Italic.ttf.png)||
-|![MontserratAlternates_400Regular](./MontserratAlternates_400Regular.ttf.png)|![MontserratAlternates_400Regular_Italic](./MontserratAlternates_400Regular_Italic.ttf.png)|![MontserratAlternates_500Medium](./MontserratAlternates_500Medium.ttf.png)||
-|![MontserratAlternates_500Medium_Italic](./MontserratAlternates_500Medium_Italic.ttf.png)|![MontserratAlternates_600SemiBold](./MontserratAlternates_600SemiBold.ttf.png)|![MontserratAlternates_600SemiBold_Italic](./MontserratAlternates_600SemiBold_Italic.ttf.png)||
-|![MontserratAlternates_700Bold](./MontserratAlternates_700Bold.ttf.png)|![MontserratAlternates_700Bold_Italic](./MontserratAlternates_700Bold_Italic.ttf.png)|![MontserratAlternates_800ExtraBold](./MontserratAlternates_800ExtraBold.ttf.png)||
-|![MontserratAlternates_800ExtraBold_Italic](./MontserratAlternates_800ExtraBold_Italic.ttf.png)|![MontserratAlternates_900Black](./MontserratAlternates_900Black.ttf.png)|![MontserratAlternates_900Black_Italic](./MontserratAlternates_900Black_Italic.ttf.png)||
+|![MontserratAlternates_100Thin](./100Thin/MontserratAlternates_100Thin.ttf.png)|![MontserratAlternates_100Thin_Italic](./100Thin_Italic/MontserratAlternates_100Thin_Italic.ttf.png)|![MontserratAlternates_200ExtraLight](./200ExtraLight/MontserratAlternates_200ExtraLight.ttf.png)||
+|![MontserratAlternates_200ExtraLight_Italic](./200ExtraLight_Italic/MontserratAlternates_200ExtraLight_Italic.ttf.png)|![MontserratAlternates_300Light](./300Light/MontserratAlternates_300Light.ttf.png)|![MontserratAlternates_300Light_Italic](./300Light_Italic/MontserratAlternates_300Light_Italic.ttf.png)||
+|![MontserratAlternates_400Regular](./400Regular/MontserratAlternates_400Regular.ttf.png)|![MontserratAlternates_400Regular_Italic](./400Regular_Italic/MontserratAlternates_400Regular_Italic.ttf.png)|![MontserratAlternates_500Medium](./500Medium/MontserratAlternates_500Medium.ttf.png)||
+|![MontserratAlternates_500Medium_Italic](./500Medium_Italic/MontserratAlternates_500Medium_Italic.ttf.png)|![MontserratAlternates_600SemiBold](./600SemiBold/MontserratAlternates_600SemiBold.ttf.png)|![MontserratAlternates_600SemiBold_Italic](./600SemiBold_Italic/MontserratAlternates_600SemiBold_Italic.ttf.png)||
+|![MontserratAlternates_700Bold](./700Bold/MontserratAlternates_700Bold.ttf.png)|![MontserratAlternates_700Bold_Italic](./700Bold_Italic/MontserratAlternates_700Bold_Italic.ttf.png)|![MontserratAlternates_800ExtraBold](./800ExtraBold/MontserratAlternates_800ExtraBold.ttf.png)||
+|![MontserratAlternates_800ExtraBold_Italic](./800ExtraBold_Italic/MontserratAlternates_800ExtraBold_Italic.ttf.png)|![MontserratAlternates_900Black](./900Black/MontserratAlternates_900Black.ttf.png)|![MontserratAlternates_900Black_Italic](./900Black_Italic/MontserratAlternates_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/pathway-extreme expo-font expo-app-loading
+npx expo install @expo-google-fonts/pathway-extreme expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PathwayExtreme_100Thin, PathwayExtreme_200ExtraLight, PathwayExtreme_300Light, PathwayExtreme_400Regular, PathwayExtreme_500Medium, PathwayExtreme_600SemiBold, PathwayExtreme_700Bold, PathwayExtreme_800ExtraBold, PathwayExtreme_900Black, PathwayExtreme_100Thin_Italic, PathwayExtreme_200ExtraLight_Italic, PathwayExtreme_300Light_Italic, PathwayExtreme_400Regular_Italic, PathwayExtreme_500Medium_Italic, PathwayExtreme_600SemiBold_Italic, PathwayExtreme_700Bold_Italic, PathwayExtreme_800ExtraBold_Italic, PathwayExtreme_900Black_Italic } from '@expo-google-fonts/pathway-extreme';
+import { useFonts } from '@expo-google-fonts/pathway-extreme/useFonts';
+import { PathwayExtreme_100Thin } from '@expo-google-fonts/pathway-extreme/100Thin';
+import { PathwayExtreme_200ExtraLight } from '@expo-google-fonts/pathway-extreme/200ExtraLight';
+import { PathwayExtreme_300Light } from '@expo-google-fonts/pathway-extreme/300Light';
+import { PathwayExtreme_400Regular } from '@expo-google-fonts/pathway-extreme/400Regular';
+import { PathwayExtreme_500Medium } from '@expo-google-fonts/pathway-extreme/500Medium';
+import { PathwayExtreme_600SemiBold } from '@expo-google-fonts/pathway-extreme/600SemiBold';
+import { PathwayExtreme_700Bold } from '@expo-google-fonts/pathway-extreme/700Bold';
+import { PathwayExtreme_800ExtraBold } from '@expo-google-fonts/pathway-extreme/800ExtraBold';
+import { PathwayExtreme_900Black } from '@expo-google-fonts/pathway-extreme/900Black';
+import { PathwayExtreme_100Thin_Italic } from '@expo-google-fonts/pathway-extreme/100Thin_Italic';
+import { PathwayExtreme_200ExtraLight_Italic } from '@expo-google-fonts/pathway-extreme/200ExtraLight_Italic';
+import { PathwayExtreme_300Light_Italic } from '@expo-google-fonts/pathway-extreme/300Light_Italic';
+import { PathwayExtreme_400Regular_Italic } from '@expo-google-fonts/pathway-extreme/400Regular_Italic';
+import { PathwayExtreme_500Medium_Italic } from '@expo-google-fonts/pathway-extreme/500Medium_Italic';
+import { PathwayExtreme_600SemiBold_Italic } from '@expo-google-fonts/pathway-extreme/600SemiBold_Italic';
+import { PathwayExtreme_700Bold_Italic } from '@expo-google-fonts/pathway-extreme/700Bold_Italic';
+import { PathwayExtreme_800ExtraBold_Italic } from '@expo-google-fonts/pathway-extreme/800ExtraBold_Italic';
+import { PathwayExtreme_900Black_Italic } from '@expo-google-fonts/pathway-extreme/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PathwayExtreme_100Thin](./PathwayExtreme_100Thin.ttf.png)|![PathwayExtreme_200ExtraLight](./PathwayExtreme_200ExtraLight.ttf.png)|![PathwayExtreme_300Light](./PathwayExtreme_300Light.ttf.png)||
-|![PathwayExtreme_400Regular](./PathwayExtreme_400Regular.ttf.png)|![PathwayExtreme_500Medium](./PathwayExtreme_500Medium.ttf.png)|![PathwayExtreme_600SemiBold](./PathwayExtreme_600SemiBold.ttf.png)||
-|![PathwayExtreme_700Bold](./PathwayExtreme_700Bold.ttf.png)|![PathwayExtreme_800ExtraBold](./PathwayExtreme_800ExtraBold.ttf.png)|![PathwayExtreme_900Black](./PathwayExtreme_900Black.ttf.png)||
-|![PathwayExtreme_100Thin_Italic](./PathwayExtreme_100Thin_Italic.ttf.png)|![PathwayExtreme_200ExtraLight_Italic](./PathwayExtreme_200ExtraLight_Italic.ttf.png)|![PathwayExtreme_300Light_Italic](./PathwayExtreme_300Light_Italic.ttf.png)||
-|![PathwayExtreme_400Regular_Italic](./PathwayExtreme_400Regular_Italic.ttf.png)|![PathwayExtreme_500Medium_Italic](./PathwayExtreme_500Medium_Italic.ttf.png)|![PathwayExtreme_600SemiBold_Italic](./PathwayExtreme_600SemiBold_Italic.ttf.png)||
-|![PathwayExtreme_700Bold_Italic](./PathwayExtreme_700Bold_Italic.ttf.png)|![PathwayExtreme_800ExtraBold_Italic](./PathwayExtreme_800ExtraBold_Italic.ttf.png)|![PathwayExtreme_900Black_Italic](./PathwayExtreme_900Black_Italic.ttf.png)||
+|![PathwayExtreme_100Thin](./100Thin/PathwayExtreme_100Thin.ttf.png)|![PathwayExtreme_200ExtraLight](./200ExtraLight/PathwayExtreme_200ExtraLight.ttf.png)|![PathwayExtreme_300Light](./300Light/PathwayExtreme_300Light.ttf.png)||
+|![PathwayExtreme_400Regular](./400Regular/PathwayExtreme_400Regular.ttf.png)|![PathwayExtreme_500Medium](./500Medium/PathwayExtreme_500Medium.ttf.png)|![PathwayExtreme_600SemiBold](./600SemiBold/PathwayExtreme_600SemiBold.ttf.png)||
+|![PathwayExtreme_700Bold](./700Bold/PathwayExtreme_700Bold.ttf.png)|![PathwayExtreme_800ExtraBold](./800ExtraBold/PathwayExtreme_800ExtraBold.ttf.png)|![PathwayExtreme_900Black](./900Black/PathwayExtreme_900Black.ttf.png)||
+|![PathwayExtreme_100Thin_Italic](./100Thin_Italic/PathwayExtreme_100Thin_Italic.ttf.png)|![PathwayExtreme_200ExtraLight_Italic](./200ExtraLight_Italic/PathwayExtreme_200ExtraLight_Italic.ttf.png)|![PathwayExtreme_300Light_Italic](./300Light_Italic/PathwayExtreme_300Light_Italic.ttf.png)||
+|![PathwayExtreme_400Regular_Italic](./400Regular_Italic/PathwayExtreme_400Regular_Italic.ttf.png)|![PathwayExtreme_500Medium_Italic](./500Medium_Italic/PathwayExtreme_500Medium_Italic.ttf.png)|![PathwayExtreme_600SemiBold_Italic](./600SemiBold_Italic/PathwayExtreme_600SemiBold_Italic.ttf.png)||
+|![PathwayExtreme_700Bold_Italic](./700Bold_Italic/PathwayExtreme_700Bold_Italic.ttf.png)|![PathwayExtreme_800ExtraBold_Italic](./800ExtraBold_Italic/PathwayExtreme_800ExtraBold_Italic.ttf.png)|![PathwayExtreme_900Black_Italic](./900Black_Italic/PathwayExtreme_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/narnoor expo-font expo-app-loading
+npx expo install @expo-google-fonts/narnoor expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Narnoor_400Regular, Narnoor_500Medium, Narnoor_600SemiBold, Narnoor_700Bold, Narnoor_800ExtraBold } from '@expo-google-fonts/narnoor';
+import { useFonts } from '@expo-google-fonts/narnoor/useFonts';
+import { Narnoor_400Regular } from '@expo-google-fonts/narnoor/400Regular';
+import { Narnoor_500Medium } from '@expo-google-fonts/narnoor/500Medium';
+import { Narnoor_600SemiBold } from '@expo-google-fonts/narnoor/600SemiBold';
+import { Narnoor_700Bold } from '@expo-google-fonts/narnoor/700Bold';
+import { Narnoor_800ExtraBold } from '@expo-google-fonts/narnoor/800ExtraBold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Narnoor_400Regular](./Narnoor_400Regular.ttf.png)|![Narnoor_500Medium](./Narnoor_500Medium.ttf.png)|![Narnoor_600SemiBold](./Narnoor_600SemiBold.ttf.png)||
-|![Narnoor_700Bold](./Narnoor_700Bold.ttf.png)|![Narnoor_800ExtraBold](./Narnoor_800ExtraBold.ttf.png)|||
+|![Narnoor_400Regular](./400Regular/Narnoor_400Regular.ttf.png)|![Narnoor_500Medium](./500Medium/Narnoor_500Medium.ttf.png)|![Narnoor_600SemiBold](./600SemiBold/Narnoor_600SemiBold.ttf.png)||
+|![Narnoor_700Bold](./700Bold/Narnoor_700Bold.ttf.png)|![Narnoor_800ExtraBold](./800ExtraBold/Narnoor_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

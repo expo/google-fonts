@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/montagu-slab expo-font expo-app-loading
+npx expo install @expo-google-fonts/montagu-slab expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, MontaguSlab_100Thin, MontaguSlab_200ExtraLight, MontaguSlab_300Light, MontaguSlab_400Regular, MontaguSlab_500Medium, MontaguSlab_600SemiBold, MontaguSlab_700Bold } from '@expo-google-fonts/montagu-slab';
+import { useFonts } from '@expo-google-fonts/montagu-slab/useFonts';
+import { MontaguSlab_100Thin } from '@expo-google-fonts/montagu-slab/100Thin';
+import { MontaguSlab_200ExtraLight } from '@expo-google-fonts/montagu-slab/200ExtraLight';
+import { MontaguSlab_300Light } from '@expo-google-fonts/montagu-slab/300Light';
+import { MontaguSlab_400Regular } from '@expo-google-fonts/montagu-slab/400Regular';
+import { MontaguSlab_500Medium } from '@expo-google-fonts/montagu-slab/500Medium';
+import { MontaguSlab_600SemiBold } from '@expo-google-fonts/montagu-slab/600SemiBold';
+import { MontaguSlab_700Bold } from '@expo-google-fonts/montagu-slab/700Bold';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MontaguSlab_100Thin](./MontaguSlab_100Thin.ttf.png)|![MontaguSlab_200ExtraLight](./MontaguSlab_200ExtraLight.ttf.png)|![MontaguSlab_300Light](./MontaguSlab_300Light.ttf.png)||
-|![MontaguSlab_400Regular](./MontaguSlab_400Regular.ttf.png)|![MontaguSlab_500Medium](./MontaguSlab_500Medium.ttf.png)|![MontaguSlab_600SemiBold](./MontaguSlab_600SemiBold.ttf.png)||
-|![MontaguSlab_700Bold](./MontaguSlab_700Bold.ttf.png)||||
+|![MontaguSlab_100Thin](./100Thin/MontaguSlab_100Thin.ttf.png)|![MontaguSlab_200ExtraLight](./200ExtraLight/MontaguSlab_200ExtraLight.ttf.png)|![MontaguSlab_300Light](./300Light/MontaguSlab_300Light.ttf.png)||
+|![MontaguSlab_400Regular](./400Regular/MontaguSlab_400Regular.ttf.png)|![MontaguSlab_500Medium](./500Medium/MontaguSlab_500Medium.ttf.png)|![MontaguSlab_600SemiBold](./600SemiBold/MontaguSlab_600SemiBold.ttf.png)||
+|![MontaguSlab_700Bold](./700Bold/MontaguSlab_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/changa expo-font expo-app-loading
+npx expo install @expo-google-fonts/changa expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Changa_200ExtraLight, Changa_300Light, Changa_400Regular, Changa_500Medium, Changa_600SemiBold, Changa_700Bold, Changa_800ExtraBold } from '@expo-google-fonts/changa';
+import { useFonts } from '@expo-google-fonts/changa/useFonts';
+import { Changa_200ExtraLight } from '@expo-google-fonts/changa/200ExtraLight';
+import { Changa_300Light } from '@expo-google-fonts/changa/300Light';
+import { Changa_400Regular } from '@expo-google-fonts/changa/400Regular';
+import { Changa_500Medium } from '@expo-google-fonts/changa/500Medium';
+import { Changa_600SemiBold } from '@expo-google-fonts/changa/600SemiBold';
+import { Changa_700Bold } from '@expo-google-fonts/changa/700Bold';
+import { Changa_800ExtraBold } from '@expo-google-fonts/changa/800ExtraBold';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Changa_200ExtraLight](./Changa_200ExtraLight.ttf.png)|![Changa_300Light](./Changa_300Light.ttf.png)|![Changa_400Regular](./Changa_400Regular.ttf.png)||
-|![Changa_500Medium](./Changa_500Medium.ttf.png)|![Changa_600SemiBold](./Changa_600SemiBold.ttf.png)|![Changa_700Bold](./Changa_700Bold.ttf.png)||
-|![Changa_800ExtraBold](./Changa_800ExtraBold.ttf.png)||||
+|![Changa_200ExtraLight](./200ExtraLight/Changa_200ExtraLight.ttf.png)|![Changa_300Light](./300Light/Changa_300Light.ttf.png)|![Changa_400Regular](./400Regular/Changa_400Regular.ttf.png)||
+|![Changa_500Medium](./500Medium/Changa_500Medium.ttf.png)|![Changa_600SemiBold](./600SemiBold/Changa_600SemiBold.ttf.png)|![Changa_700Bold](./700Bold/Changa_700Bold.ttf.png)||
+|![Changa_800ExtraBold](./800ExtraBold/Changa_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

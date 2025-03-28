@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/afacad expo-font expo-app-loading
+npx expo install @expo-google-fonts/afacad expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Afacad_400Regular, Afacad_500Medium, Afacad_600SemiBold, Afacad_700Bold, Afacad_400Regular_Italic, Afacad_500Medium_Italic, Afacad_600SemiBold_Italic, Afacad_700Bold_Italic } from '@expo-google-fonts/afacad';
+import { useFonts } from '@expo-google-fonts/afacad/useFonts';
+import { Afacad_400Regular } from '@expo-google-fonts/afacad/400Regular';
+import { Afacad_500Medium } from '@expo-google-fonts/afacad/500Medium';
+import { Afacad_600SemiBold } from '@expo-google-fonts/afacad/600SemiBold';
+import { Afacad_700Bold } from '@expo-google-fonts/afacad/700Bold';
+import { Afacad_400Regular_Italic } from '@expo-google-fonts/afacad/400Regular_Italic';
+import { Afacad_500Medium_Italic } from '@expo-google-fonts/afacad/500Medium_Italic';
+import { Afacad_600SemiBold_Italic } from '@expo-google-fonts/afacad/600SemiBold_Italic';
+import { Afacad_700Bold_Italic } from '@expo-google-fonts/afacad/700Bold_Italic';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Afacad_400Regular](./Afacad_400Regular.ttf.png)|![Afacad_500Medium](./Afacad_500Medium.ttf.png)|![Afacad_600SemiBold](./Afacad_600SemiBold.ttf.png)||
-|![Afacad_700Bold](./Afacad_700Bold.ttf.png)|![Afacad_400Regular_Italic](./Afacad_400Regular_Italic.ttf.png)|![Afacad_500Medium_Italic](./Afacad_500Medium_Italic.ttf.png)||
-|![Afacad_600SemiBold_Italic](./Afacad_600SemiBold_Italic.ttf.png)|![Afacad_700Bold_Italic](./Afacad_700Bold_Italic.ttf.png)|||
+|![Afacad_400Regular](./400Regular/Afacad_400Regular.ttf.png)|![Afacad_500Medium](./500Medium/Afacad_500Medium.ttf.png)|![Afacad_600SemiBold](./600SemiBold/Afacad_600SemiBold.ttf.png)||
+|![Afacad_700Bold](./700Bold/Afacad_700Bold.ttf.png)|![Afacad_400Regular_Italic](./400Regular_Italic/Afacad_400Regular_Italic.ttf.png)|![Afacad_500Medium_Italic](./500Medium_Italic/Afacad_500Medium_Italic.ttf.png)||
+|![Afacad_600SemiBold_Italic](./600SemiBold_Italic/Afacad_600SemiBold_Italic.ttf.png)|![Afacad_700Bold_Italic](./700Bold_Italic/Afacad_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

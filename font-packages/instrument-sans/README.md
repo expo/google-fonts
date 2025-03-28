@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/instrument-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/instrument-sans expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, InstrumentSans_400Regular, InstrumentSans_500Medium, InstrumentSans_600SemiBold, InstrumentSans_700Bold, InstrumentSans_400Regular_Italic, InstrumentSans_500Medium_Italic, InstrumentSans_600SemiBold_Italic, InstrumentSans_700Bold_Italic } from '@expo-google-fonts/instrument-sans';
+import { useFonts } from '@expo-google-fonts/instrument-sans/useFonts';
+import { InstrumentSans_400Regular } from '@expo-google-fonts/instrument-sans/400Regular';
+import { InstrumentSans_500Medium } from '@expo-google-fonts/instrument-sans/500Medium';
+import { InstrumentSans_600SemiBold } from '@expo-google-fonts/instrument-sans/600SemiBold';
+import { InstrumentSans_700Bold } from '@expo-google-fonts/instrument-sans/700Bold';
+import { InstrumentSans_400Regular_Italic } from '@expo-google-fonts/instrument-sans/400Regular_Italic';
+import { InstrumentSans_500Medium_Italic } from '@expo-google-fonts/instrument-sans/500Medium_Italic';
+import { InstrumentSans_600SemiBold_Italic } from '@expo-google-fonts/instrument-sans/600SemiBold_Italic';
+import { InstrumentSans_700Bold_Italic } from '@expo-google-fonts/instrument-sans/700Bold_Italic';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![InstrumentSans_400Regular](./InstrumentSans_400Regular.ttf.png)|![InstrumentSans_500Medium](./InstrumentSans_500Medium.ttf.png)|![InstrumentSans_600SemiBold](./InstrumentSans_600SemiBold.ttf.png)||
-|![InstrumentSans_700Bold](./InstrumentSans_700Bold.ttf.png)|![InstrumentSans_400Regular_Italic](./InstrumentSans_400Regular_Italic.ttf.png)|![InstrumentSans_500Medium_Italic](./InstrumentSans_500Medium_Italic.ttf.png)||
-|![InstrumentSans_600SemiBold_Italic](./InstrumentSans_600SemiBold_Italic.ttf.png)|![InstrumentSans_700Bold_Italic](./InstrumentSans_700Bold_Italic.ttf.png)|||
+|![InstrumentSans_400Regular](./400Regular/InstrumentSans_400Regular.ttf.png)|![InstrumentSans_500Medium](./500Medium/InstrumentSans_500Medium.ttf.png)|![InstrumentSans_600SemiBold](./600SemiBold/InstrumentSans_600SemiBold.ttf.png)||
+|![InstrumentSans_700Bold](./700Bold/InstrumentSans_700Bold.ttf.png)|![InstrumentSans_400Regular_Italic](./400Regular_Italic/InstrumentSans_400Regular_Italic.ttf.png)|![InstrumentSans_500Medium_Italic](./500Medium_Italic/InstrumentSans_500Medium_Italic.ttf.png)||
+|![InstrumentSans_600SemiBold_Italic](./600SemiBold_Italic/InstrumentSans_600SemiBold_Italic.ttf.png)|![InstrumentSans_700Bold_Italic](./700Bold_Italic/InstrumentSans_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

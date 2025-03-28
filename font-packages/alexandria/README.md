@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/alexandria expo-font expo-app-loading
+npx expo install @expo-google-fonts/alexandria expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Alexandria_100Thin, Alexandria_200ExtraLight, Alexandria_300Light, Alexandria_400Regular, Alexandria_500Medium, Alexandria_600SemiBold, Alexandria_700Bold, Alexandria_800ExtraBold, Alexandria_900Black } from '@expo-google-fonts/alexandria';
+import { useFonts } from '@expo-google-fonts/alexandria/useFonts';
+import { Alexandria_100Thin } from '@expo-google-fonts/alexandria/100Thin';
+import { Alexandria_200ExtraLight } from '@expo-google-fonts/alexandria/200ExtraLight';
+import { Alexandria_300Light } from '@expo-google-fonts/alexandria/300Light';
+import { Alexandria_400Regular } from '@expo-google-fonts/alexandria/400Regular';
+import { Alexandria_500Medium } from '@expo-google-fonts/alexandria/500Medium';
+import { Alexandria_600SemiBold } from '@expo-google-fonts/alexandria/600SemiBold';
+import { Alexandria_700Bold } from '@expo-google-fonts/alexandria/700Bold';
+import { Alexandria_800ExtraBold } from '@expo-google-fonts/alexandria/800ExtraBold';
+import { Alexandria_900Black } from '@expo-google-fonts/alexandria/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Alexandria_100Thin](./Alexandria_100Thin.ttf.png)|![Alexandria_200ExtraLight](./Alexandria_200ExtraLight.ttf.png)|![Alexandria_300Light](./Alexandria_300Light.ttf.png)||
-|![Alexandria_400Regular](./Alexandria_400Regular.ttf.png)|![Alexandria_500Medium](./Alexandria_500Medium.ttf.png)|![Alexandria_600SemiBold](./Alexandria_600SemiBold.ttf.png)||
-|![Alexandria_700Bold](./Alexandria_700Bold.ttf.png)|![Alexandria_800ExtraBold](./Alexandria_800ExtraBold.ttf.png)|![Alexandria_900Black](./Alexandria_900Black.ttf.png)||
+|![Alexandria_100Thin](./100Thin/Alexandria_100Thin.ttf.png)|![Alexandria_200ExtraLight](./200ExtraLight/Alexandria_200ExtraLight.ttf.png)|![Alexandria_300Light](./300Light/Alexandria_300Light.ttf.png)||
+|![Alexandria_400Regular](./400Regular/Alexandria_400Regular.ttf.png)|![Alexandria_500Medium](./500Medium/Alexandria_500Medium.ttf.png)|![Alexandria_600SemiBold](./600SemiBold/Alexandria_600SemiBold.ttf.png)||
+|![Alexandria_700Bold](./700Bold/Alexandria_700Bold.ttf.png)|![Alexandria_800ExtraBold](./800ExtraBold/Alexandria_800ExtraBold.ttf.png)|![Alexandria_900Black](./900Black/Alexandria_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -35,7 +35,7 @@ This font family contains [16 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/sarabun expo-font expo-app-loading
+npx expo install @expo-google-fonts/sarabun expo-font
 ```
 
 Now add code like this to your project
@@ -44,8 +44,23 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Sarabun_100Thin, Sarabun_100Thin_Italic, Sarabun_200ExtraLight, Sarabun_200ExtraLight_Italic, Sarabun_300Light, Sarabun_300Light_Italic, Sarabun_400Regular, Sarabun_400Regular_Italic, Sarabun_500Medium, Sarabun_500Medium_Italic, Sarabun_600SemiBold, Sarabun_600SemiBold_Italic, Sarabun_700Bold, Sarabun_700Bold_Italic, Sarabun_800ExtraBold, Sarabun_800ExtraBold_Italic } from '@expo-google-fonts/sarabun';
+import { useFonts } from '@expo-google-fonts/sarabun/useFonts';
+import { Sarabun_100Thin } from '@expo-google-fonts/sarabun/100Thin';
+import { Sarabun_100Thin_Italic } from '@expo-google-fonts/sarabun/100Thin_Italic';
+import { Sarabun_200ExtraLight } from '@expo-google-fonts/sarabun/200ExtraLight';
+import { Sarabun_200ExtraLight_Italic } from '@expo-google-fonts/sarabun/200ExtraLight_Italic';
+import { Sarabun_300Light } from '@expo-google-fonts/sarabun/300Light';
+import { Sarabun_300Light_Italic } from '@expo-google-fonts/sarabun/300Light_Italic';
+import { Sarabun_400Regular } from '@expo-google-fonts/sarabun/400Regular';
+import { Sarabun_400Regular_Italic } from '@expo-google-fonts/sarabun/400Regular_Italic';
+import { Sarabun_500Medium } from '@expo-google-fonts/sarabun/500Medium';
+import { Sarabun_500Medium_Italic } from '@expo-google-fonts/sarabun/500Medium_Italic';
+import { Sarabun_600SemiBold } from '@expo-google-fonts/sarabun/600SemiBold';
+import { Sarabun_600SemiBold_Italic } from '@expo-google-fonts/sarabun/600SemiBold_Italic';
+import { Sarabun_700Bold } from '@expo-google-fonts/sarabun/700Bold';
+import { Sarabun_700Bold_Italic } from '@expo-google-fonts/sarabun/700Bold_Italic';
+import { Sarabun_800ExtraBold } from '@expo-google-fonts/sarabun/800ExtraBold';
+import { Sarabun_800ExtraBold_Italic } from '@expo-google-fonts/sarabun/800ExtraBold_Italic';
 
 export default () => {
 
@@ -72,7 +87,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -215,12 +230,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sarabun_100Thin](./Sarabun_100Thin.ttf.png)|![Sarabun_100Thin_Italic](./Sarabun_100Thin_Italic.ttf.png)|![Sarabun_200ExtraLight](./Sarabun_200ExtraLight.ttf.png)||
-|![Sarabun_200ExtraLight_Italic](./Sarabun_200ExtraLight_Italic.ttf.png)|![Sarabun_300Light](./Sarabun_300Light.ttf.png)|![Sarabun_300Light_Italic](./Sarabun_300Light_Italic.ttf.png)||
-|![Sarabun_400Regular](./Sarabun_400Regular.ttf.png)|![Sarabun_400Regular_Italic](./Sarabun_400Regular_Italic.ttf.png)|![Sarabun_500Medium](./Sarabun_500Medium.ttf.png)||
-|![Sarabun_500Medium_Italic](./Sarabun_500Medium_Italic.ttf.png)|![Sarabun_600SemiBold](./Sarabun_600SemiBold.ttf.png)|![Sarabun_600SemiBold_Italic](./Sarabun_600SemiBold_Italic.ttf.png)||
-|![Sarabun_700Bold](./Sarabun_700Bold.ttf.png)|![Sarabun_700Bold_Italic](./Sarabun_700Bold_Italic.ttf.png)|![Sarabun_800ExtraBold](./Sarabun_800ExtraBold.ttf.png)||
-|![Sarabun_800ExtraBold_Italic](./Sarabun_800ExtraBold_Italic.ttf.png)||||
+|![Sarabun_100Thin](./100Thin/Sarabun_100Thin.ttf.png)|![Sarabun_100Thin_Italic](./100Thin_Italic/Sarabun_100Thin_Italic.ttf.png)|![Sarabun_200ExtraLight](./200ExtraLight/Sarabun_200ExtraLight.ttf.png)||
+|![Sarabun_200ExtraLight_Italic](./200ExtraLight_Italic/Sarabun_200ExtraLight_Italic.ttf.png)|![Sarabun_300Light](./300Light/Sarabun_300Light.ttf.png)|![Sarabun_300Light_Italic](./300Light_Italic/Sarabun_300Light_Italic.ttf.png)||
+|![Sarabun_400Regular](./400Regular/Sarabun_400Regular.ttf.png)|![Sarabun_400Regular_Italic](./400Regular_Italic/Sarabun_400Regular_Italic.ttf.png)|![Sarabun_500Medium](./500Medium/Sarabun_500Medium.ttf.png)||
+|![Sarabun_500Medium_Italic](./500Medium_Italic/Sarabun_500Medium_Italic.ttf.png)|![Sarabun_600SemiBold](./600SemiBold/Sarabun_600SemiBold.ttf.png)|![Sarabun_600SemiBold_Italic](./600SemiBold_Italic/Sarabun_600SemiBold_Italic.ttf.png)||
+|![Sarabun_700Bold](./700Bold/Sarabun_700Bold.ttf.png)|![Sarabun_700Bold_Italic](./700Bold_Italic/Sarabun_700Bold_Italic.ttf.png)|![Sarabun_800ExtraBold](./800ExtraBold/Sarabun_800ExtraBold.ttf.png)||
+|![Sarabun_800ExtraBold_Italic](./800ExtraBold_Italic/Sarabun_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

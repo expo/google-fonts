@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/murecho expo-font expo-app-loading
+npx expo install @expo-google-fonts/murecho expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Murecho_100Thin, Murecho_200ExtraLight, Murecho_300Light, Murecho_400Regular, Murecho_500Medium, Murecho_600SemiBold, Murecho_700Bold, Murecho_800ExtraBold, Murecho_900Black } from '@expo-google-fonts/murecho';
+import { useFonts } from '@expo-google-fonts/murecho/useFonts';
+import { Murecho_100Thin } from '@expo-google-fonts/murecho/100Thin';
+import { Murecho_200ExtraLight } from '@expo-google-fonts/murecho/200ExtraLight';
+import { Murecho_300Light } from '@expo-google-fonts/murecho/300Light';
+import { Murecho_400Regular } from '@expo-google-fonts/murecho/400Regular';
+import { Murecho_500Medium } from '@expo-google-fonts/murecho/500Medium';
+import { Murecho_600SemiBold } from '@expo-google-fonts/murecho/600SemiBold';
+import { Murecho_700Bold } from '@expo-google-fonts/murecho/700Bold';
+import { Murecho_800ExtraBold } from '@expo-google-fonts/murecho/800ExtraBold';
+import { Murecho_900Black } from '@expo-google-fonts/murecho/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Murecho_100Thin](./Murecho_100Thin.ttf.png)|![Murecho_200ExtraLight](./Murecho_200ExtraLight.ttf.png)|![Murecho_300Light](./Murecho_300Light.ttf.png)||
-|![Murecho_400Regular](./Murecho_400Regular.ttf.png)|![Murecho_500Medium](./Murecho_500Medium.ttf.png)|![Murecho_600SemiBold](./Murecho_600SemiBold.ttf.png)||
-|![Murecho_700Bold](./Murecho_700Bold.ttf.png)|![Murecho_800ExtraBold](./Murecho_800ExtraBold.ttf.png)|![Murecho_900Black](./Murecho_900Black.ttf.png)||
+|![Murecho_100Thin](./100Thin/Murecho_100Thin.ttf.png)|![Murecho_200ExtraLight](./200ExtraLight/Murecho_200ExtraLight.ttf.png)|![Murecho_300Light](./300Light/Murecho_300Light.ttf.png)||
+|![Murecho_400Regular](./400Regular/Murecho_400Regular.ttf.png)|![Murecho_500Medium](./500Medium/Murecho_500Medium.ttf.png)|![Murecho_600SemiBold](./600SemiBold/Murecho_600SemiBold.ttf.png)||
+|![Murecho_700Bold](./700Bold/Murecho_700Bold.ttf.png)|![Murecho_800ExtraBold](./800ExtraBold/Murecho_800ExtraBold.ttf.png)|![Murecho_900Black](./900Black/Murecho_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

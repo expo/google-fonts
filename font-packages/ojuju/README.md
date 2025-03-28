@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/ojuju expo-font expo-app-loading
+npx expo install @expo-google-fonts/ojuju expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Ojuju_200ExtraLight, Ojuju_300Light, Ojuju_400Regular, Ojuju_500Medium, Ojuju_600SemiBold, Ojuju_700Bold, Ojuju_800ExtraBold } from '@expo-google-fonts/ojuju';
+import { useFonts } from '@expo-google-fonts/ojuju/useFonts';
+import { Ojuju_200ExtraLight } from '@expo-google-fonts/ojuju/200ExtraLight';
+import { Ojuju_300Light } from '@expo-google-fonts/ojuju/300Light';
+import { Ojuju_400Regular } from '@expo-google-fonts/ojuju/400Regular';
+import { Ojuju_500Medium } from '@expo-google-fonts/ojuju/500Medium';
+import { Ojuju_600SemiBold } from '@expo-google-fonts/ojuju/600SemiBold';
+import { Ojuju_700Bold } from '@expo-google-fonts/ojuju/700Bold';
+import { Ojuju_800ExtraBold } from '@expo-google-fonts/ojuju/800ExtraBold';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Ojuju_200ExtraLight](./Ojuju_200ExtraLight.ttf.png)|![Ojuju_300Light](./Ojuju_300Light.ttf.png)|![Ojuju_400Regular](./Ojuju_400Regular.ttf.png)||
-|![Ojuju_500Medium](./Ojuju_500Medium.ttf.png)|![Ojuju_600SemiBold](./Ojuju_600SemiBold.ttf.png)|![Ojuju_700Bold](./Ojuju_700Bold.ttf.png)||
-|![Ojuju_800ExtraBold](./Ojuju_800ExtraBold.ttf.png)||||
+|![Ojuju_200ExtraLight](./200ExtraLight/Ojuju_200ExtraLight.ttf.png)|![Ojuju_300Light](./300Light/Ojuju_300Light.ttf.png)|![Ojuju_400Regular](./400Regular/Ojuju_400Regular.ttf.png)||
+|![Ojuju_500Medium](./500Medium/Ojuju_500Medium.ttf.png)|![Ojuju_600SemiBold](./600SemiBold/Ojuju_600SemiBold.ttf.png)|![Ojuju_700Bold](./700Bold/Ojuju_700Bold.ttf.png)||
+|![Ojuju_800ExtraBold](./800ExtraBold/Ojuju_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

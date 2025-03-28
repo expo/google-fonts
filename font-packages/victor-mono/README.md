@@ -33,7 +33,7 @@ This font family contains [14 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/victor-mono expo-font expo-app-loading
+npx expo install @expo-google-fonts/victor-mono expo-font
 ```
 
 Now add code like this to your project
@@ -42,8 +42,21 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, VictorMono_100Thin, VictorMono_200ExtraLight, VictorMono_300Light, VictorMono_400Regular, VictorMono_500Medium, VictorMono_600SemiBold, VictorMono_700Bold, VictorMono_100Thin_Italic, VictorMono_200ExtraLight_Italic, VictorMono_300Light_Italic, VictorMono_400Regular_Italic, VictorMono_500Medium_Italic, VictorMono_600SemiBold_Italic, VictorMono_700Bold_Italic } from '@expo-google-fonts/victor-mono';
+import { useFonts } from '@expo-google-fonts/victor-mono/useFonts';
+import { VictorMono_100Thin } from '@expo-google-fonts/victor-mono/100Thin';
+import { VictorMono_200ExtraLight } from '@expo-google-fonts/victor-mono/200ExtraLight';
+import { VictorMono_300Light } from '@expo-google-fonts/victor-mono/300Light';
+import { VictorMono_400Regular } from '@expo-google-fonts/victor-mono/400Regular';
+import { VictorMono_500Medium } from '@expo-google-fonts/victor-mono/500Medium';
+import { VictorMono_600SemiBold } from '@expo-google-fonts/victor-mono/600SemiBold';
+import { VictorMono_700Bold } from '@expo-google-fonts/victor-mono/700Bold';
+import { VictorMono_100Thin_Italic } from '@expo-google-fonts/victor-mono/100Thin_Italic';
+import { VictorMono_200ExtraLight_Italic } from '@expo-google-fonts/victor-mono/200ExtraLight_Italic';
+import { VictorMono_300Light_Italic } from '@expo-google-fonts/victor-mono/300Light_Italic';
+import { VictorMono_400Regular_Italic } from '@expo-google-fonts/victor-mono/400Regular_Italic';
+import { VictorMono_500Medium_Italic } from '@expo-google-fonts/victor-mono/500Medium_Italic';
+import { VictorMono_600SemiBold_Italic } from '@expo-google-fonts/victor-mono/600SemiBold_Italic';
+import { VictorMono_700Bold_Italic } from '@expo-google-fonts/victor-mono/700Bold_Italic';
 
 export default () => {
 
@@ -68,7 +81,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -195,11 +208,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![VictorMono_100Thin](./VictorMono_100Thin.ttf.png)|![VictorMono_200ExtraLight](./VictorMono_200ExtraLight.ttf.png)|![VictorMono_300Light](./VictorMono_300Light.ttf.png)||
-|![VictorMono_400Regular](./VictorMono_400Regular.ttf.png)|![VictorMono_500Medium](./VictorMono_500Medium.ttf.png)|![VictorMono_600SemiBold](./VictorMono_600SemiBold.ttf.png)||
-|![VictorMono_700Bold](./VictorMono_700Bold.ttf.png)|![VictorMono_100Thin_Italic](./VictorMono_100Thin_Italic.ttf.png)|![VictorMono_200ExtraLight_Italic](./VictorMono_200ExtraLight_Italic.ttf.png)||
-|![VictorMono_300Light_Italic](./VictorMono_300Light_Italic.ttf.png)|![VictorMono_400Regular_Italic](./VictorMono_400Regular_Italic.ttf.png)|![VictorMono_500Medium_Italic](./VictorMono_500Medium_Italic.ttf.png)||
-|![VictorMono_600SemiBold_Italic](./VictorMono_600SemiBold_Italic.ttf.png)|![VictorMono_700Bold_Italic](./VictorMono_700Bold_Italic.ttf.png)|||
+|![VictorMono_100Thin](./100Thin/VictorMono_100Thin.ttf.png)|![VictorMono_200ExtraLight](./200ExtraLight/VictorMono_200ExtraLight.ttf.png)|![VictorMono_300Light](./300Light/VictorMono_300Light.ttf.png)||
+|![VictorMono_400Regular](./400Regular/VictorMono_400Regular.ttf.png)|![VictorMono_500Medium](./500Medium/VictorMono_500Medium.ttf.png)|![VictorMono_600SemiBold](./600SemiBold/VictorMono_600SemiBold.ttf.png)||
+|![VictorMono_700Bold](./700Bold/VictorMono_700Bold.ttf.png)|![VictorMono_100Thin_Italic](./100Thin_Italic/VictorMono_100Thin_Italic.ttf.png)|![VictorMono_200ExtraLight_Italic](./200ExtraLight_Italic/VictorMono_200ExtraLight_Italic.ttf.png)||
+|![VictorMono_300Light_Italic](./300Light_Italic/VictorMono_300Light_Italic.ttf.png)|![VictorMono_400Regular_Italic](./400Regular_Italic/VictorMono_400Regular_Italic.ttf.png)|![VictorMono_500Medium_Italic](./500Medium_Italic/VictorMono_500Medium_Italic.ttf.png)||
+|![VictorMono_600SemiBold_Italic](./600SemiBold_Italic/VictorMono_600SemiBold_Italic.ttf.png)|![VictorMono_700Bold_Italic](./700Bold_Italic/VictorMono_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

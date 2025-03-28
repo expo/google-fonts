@@ -29,7 +29,7 @@ This font family contains [10 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/mohave expo-font expo-app-loading
+npx expo install @expo-google-fonts/mohave expo-font
 ```
 
 Now add code like this to your project
@@ -38,8 +38,17 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Mohave_300Light, Mohave_400Regular, Mohave_500Medium, Mohave_600SemiBold, Mohave_700Bold, Mohave_300Light_Italic, Mohave_400Regular_Italic, Mohave_500Medium_Italic, Mohave_600SemiBold_Italic, Mohave_700Bold_Italic } from '@expo-google-fonts/mohave';
+import { useFonts } from '@expo-google-fonts/mohave/useFonts';
+import { Mohave_300Light } from '@expo-google-fonts/mohave/300Light';
+import { Mohave_400Regular } from '@expo-google-fonts/mohave/400Regular';
+import { Mohave_500Medium } from '@expo-google-fonts/mohave/500Medium';
+import { Mohave_600SemiBold } from '@expo-google-fonts/mohave/600SemiBold';
+import { Mohave_700Bold } from '@expo-google-fonts/mohave/700Bold';
+import { Mohave_300Light_Italic } from '@expo-google-fonts/mohave/300Light_Italic';
+import { Mohave_400Regular_Italic } from '@expo-google-fonts/mohave/400Regular_Italic';
+import { Mohave_500Medium_Italic } from '@expo-google-fonts/mohave/500Medium_Italic';
+import { Mohave_600SemiBold_Italic } from '@expo-google-fonts/mohave/600SemiBold_Italic';
+import { Mohave_700Bold_Italic } from '@expo-google-fonts/mohave/700Bold_Italic';
 
 export default () => {
 
@@ -60,7 +69,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -155,10 +164,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Mohave_300Light](./Mohave_300Light.ttf.png)|![Mohave_400Regular](./Mohave_400Regular.ttf.png)|![Mohave_500Medium](./Mohave_500Medium.ttf.png)||
-|![Mohave_600SemiBold](./Mohave_600SemiBold.ttf.png)|![Mohave_700Bold](./Mohave_700Bold.ttf.png)|![Mohave_300Light_Italic](./Mohave_300Light_Italic.ttf.png)||
-|![Mohave_400Regular_Italic](./Mohave_400Regular_Italic.ttf.png)|![Mohave_500Medium_Italic](./Mohave_500Medium_Italic.ttf.png)|![Mohave_600SemiBold_Italic](./Mohave_600SemiBold_Italic.ttf.png)||
-|![Mohave_700Bold_Italic](./Mohave_700Bold_Italic.ttf.png)||||
+|![Mohave_300Light](./300Light/Mohave_300Light.ttf.png)|![Mohave_400Regular](./400Regular/Mohave_400Regular.ttf.png)|![Mohave_500Medium](./500Medium/Mohave_500Medium.ttf.png)||
+|![Mohave_600SemiBold](./600SemiBold/Mohave_600SemiBold.ttf.png)|![Mohave_700Bold](./700Bold/Mohave_700Bold.ttf.png)|![Mohave_300Light_Italic](./300Light_Italic/Mohave_300Light_Italic.ttf.png)||
+|![Mohave_400Regular_Italic](./400Regular_Italic/Mohave_400Regular_Italic.ttf.png)|![Mohave_500Medium_Italic](./500Medium_Italic/Mohave_500Medium_Italic.ttf.png)|![Mohave_600SemiBold_Italic](./600SemiBold_Italic/Mohave_600SemiBold_Italic.ttf.png)||
+|![Mohave_700Bold_Italic](./700Bold_Italic/Mohave_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

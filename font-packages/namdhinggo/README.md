@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/namdhinggo expo-font expo-app-loading
+npx expo install @expo-google-fonts/namdhinggo expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Namdhinggo_400Regular, Namdhinggo_500Medium, Namdhinggo_600SemiBold, Namdhinggo_700Bold, Namdhinggo_800ExtraBold } from '@expo-google-fonts/namdhinggo';
+import { useFonts } from '@expo-google-fonts/namdhinggo/useFonts';
+import { Namdhinggo_400Regular } from '@expo-google-fonts/namdhinggo/400Regular';
+import { Namdhinggo_500Medium } from '@expo-google-fonts/namdhinggo/500Medium';
+import { Namdhinggo_600SemiBold } from '@expo-google-fonts/namdhinggo/600SemiBold';
+import { Namdhinggo_700Bold } from '@expo-google-fonts/namdhinggo/700Bold';
+import { Namdhinggo_800ExtraBold } from '@expo-google-fonts/namdhinggo/800ExtraBold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Namdhinggo_400Regular](./Namdhinggo_400Regular.ttf.png)|![Namdhinggo_500Medium](./Namdhinggo_500Medium.ttf.png)|![Namdhinggo_600SemiBold](./Namdhinggo_600SemiBold.ttf.png)||
-|![Namdhinggo_700Bold](./Namdhinggo_700Bold.ttf.png)|![Namdhinggo_800ExtraBold](./Namdhinggo_800ExtraBold.ttf.png)|||
+|![Namdhinggo_400Regular](./400Regular/Namdhinggo_400Regular.ttf.png)|![Namdhinggo_500Medium](./500Medium/Namdhinggo_500Medium.ttf.png)|![Namdhinggo_600SemiBold](./600SemiBold/Namdhinggo_600SemiBold.ttf.png)||
+|![Namdhinggo_700Bold](./700Bold/Namdhinggo_700Bold.ttf.png)|![Namdhinggo_800ExtraBold](./800ExtraBold/Namdhinggo_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

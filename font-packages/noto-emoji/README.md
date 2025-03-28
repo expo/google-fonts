@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-emoji expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-emoji expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoEmoji_300Light, NotoEmoji_400Regular, NotoEmoji_500Medium, NotoEmoji_600SemiBold, NotoEmoji_700Bold } from '@expo-google-fonts/noto-emoji';
+import { useFonts } from '@expo-google-fonts/noto-emoji/useFonts';
+import { NotoEmoji_300Light } from '@expo-google-fonts/noto-emoji/300Light';
+import { NotoEmoji_400Regular } from '@expo-google-fonts/noto-emoji/400Regular';
+import { NotoEmoji_500Medium } from '@expo-google-fonts/noto-emoji/500Medium';
+import { NotoEmoji_600SemiBold } from '@expo-google-fonts/noto-emoji/600SemiBold';
+import { NotoEmoji_700Bold } from '@expo-google-fonts/noto-emoji/700Bold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoEmoji_300Light](./NotoEmoji_300Light.ttf.png)|![NotoEmoji_400Regular](./NotoEmoji_400Regular.ttf.png)|![NotoEmoji_500Medium](./NotoEmoji_500Medium.ttf.png)||
-|![NotoEmoji_600SemiBold](./NotoEmoji_600SemiBold.ttf.png)|![NotoEmoji_700Bold](./NotoEmoji_700Bold.ttf.png)|||
+|![NotoEmoji_300Light](./300Light/NotoEmoji_300Light.ttf.png)|![NotoEmoji_400Regular](./400Regular/NotoEmoji_400Regular.ttf.png)|![NotoEmoji_500Medium](./500Medium/NotoEmoji_500Medium.ttf.png)||
+|![NotoEmoji_600SemiBold](./600SemiBold/NotoEmoji_600SemiBold.ttf.png)|![NotoEmoji_700Bold](./700Bold/NotoEmoji_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

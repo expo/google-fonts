@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/funnel-display expo-font expo-app-loading
+npx expo install @expo-google-fonts/funnel-display expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, FunnelDisplay_300Light, FunnelDisplay_400Regular, FunnelDisplay_500Medium, FunnelDisplay_600SemiBold, FunnelDisplay_700Bold, FunnelDisplay_800ExtraBold } from '@expo-google-fonts/funnel-display';
+import { useFonts } from '@expo-google-fonts/funnel-display/useFonts';
+import { FunnelDisplay_300Light } from '@expo-google-fonts/funnel-display/300Light';
+import { FunnelDisplay_400Regular } from '@expo-google-fonts/funnel-display/400Regular';
+import { FunnelDisplay_500Medium } from '@expo-google-fonts/funnel-display/500Medium';
+import { FunnelDisplay_600SemiBold } from '@expo-google-fonts/funnel-display/600SemiBold';
+import { FunnelDisplay_700Bold } from '@expo-google-fonts/funnel-display/700Bold';
+import { FunnelDisplay_800ExtraBold } from '@expo-google-fonts/funnel-display/800ExtraBold';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FunnelDisplay_300Light](./FunnelDisplay_300Light.ttf.png)|![FunnelDisplay_400Regular](./FunnelDisplay_400Regular.ttf.png)|![FunnelDisplay_500Medium](./FunnelDisplay_500Medium.ttf.png)||
-|![FunnelDisplay_600SemiBold](./FunnelDisplay_600SemiBold.ttf.png)|![FunnelDisplay_700Bold](./FunnelDisplay_700Bold.ttf.png)|![FunnelDisplay_800ExtraBold](./FunnelDisplay_800ExtraBold.ttf.png)||
+|![FunnelDisplay_300Light](./300Light/FunnelDisplay_300Light.ttf.png)|![FunnelDisplay_400Regular](./400Regular/FunnelDisplay_400Regular.ttf.png)|![FunnelDisplay_500Medium](./500Medium/FunnelDisplay_500Medium.ttf.png)||
+|![FunnelDisplay_600SemiBold](./600SemiBold/FunnelDisplay_600SemiBold.ttf.png)|![FunnelDisplay_700Bold](./700Bold/FunnelDisplay_700Bold.ttf.png)|![FunnelDisplay_800ExtraBold](./800ExtraBold/FunnelDisplay_800ExtraBold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

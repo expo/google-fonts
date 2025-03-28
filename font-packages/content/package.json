@@ -1,9 +1,13 @@
 {
   "name": "@expo-google-fonts/content",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Use the Content font family from Google Fonts in your Expo app",
   "main": "index.js",
-  "repository": "https://github.com/expo/google-fonts.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/content"
+  },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/content#readme",
   "author": "Expo Team <team@expo.io>",
   "license": "MIT",

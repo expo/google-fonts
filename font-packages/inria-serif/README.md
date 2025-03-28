@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/inria-serif expo-font expo-app-loading
+npx expo install @expo-google-fonts/inria-serif expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, InriaSerif_300Light, InriaSerif_300Light_Italic, InriaSerif_400Regular, InriaSerif_400Regular_Italic, InriaSerif_700Bold, InriaSerif_700Bold_Italic } from '@expo-google-fonts/inria-serif';
+import { useFonts } from '@expo-google-fonts/inria-serif/useFonts';
+import { InriaSerif_300Light } from '@expo-google-fonts/inria-serif/300Light';
+import { InriaSerif_300Light_Italic } from '@expo-google-fonts/inria-serif/300Light_Italic';
+import { InriaSerif_400Regular } from '@expo-google-fonts/inria-serif/400Regular';
+import { InriaSerif_400Regular_Italic } from '@expo-google-fonts/inria-serif/400Regular_Italic';
+import { InriaSerif_700Bold } from '@expo-google-fonts/inria-serif/700Bold';
+import { InriaSerif_700Bold_Italic } from '@expo-google-fonts/inria-serif/700Bold_Italic';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![InriaSerif_300Light](./InriaSerif_300Light.ttf.png)|![InriaSerif_300Light_Italic](./InriaSerif_300Light_Italic.ttf.png)|![InriaSerif_400Regular](./InriaSerif_400Regular.ttf.png)||
-|![InriaSerif_400Regular_Italic](./InriaSerif_400Regular_Italic.ttf.png)|![InriaSerif_700Bold](./InriaSerif_700Bold.ttf.png)|![InriaSerif_700Bold_Italic](./InriaSerif_700Bold_Italic.ttf.png)||
+|![InriaSerif_300Light](./300Light/InriaSerif_300Light.ttf.png)|![InriaSerif_300Light_Italic](./300Light_Italic/InriaSerif_300Light_Italic.ttf.png)|![InriaSerif_400Regular](./400Regular/InriaSerif_400Regular.ttf.png)||
+|![InriaSerif_400Regular_Italic](./400Regular_Italic/InriaSerif_400Regular_Italic.ttf.png)|![InriaSerif_700Bold](./700Bold/InriaSerif_700Bold.ttf.png)|![InriaSerif_700Bold_Italic](./700Bold_Italic/InriaSerif_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

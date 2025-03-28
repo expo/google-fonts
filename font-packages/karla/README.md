@@ -33,7 +33,7 @@ This font family contains [14 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/karla expo-font expo-app-loading
+npx expo install @expo-google-fonts/karla expo-font
 ```
 
 Now add code like this to your project
@@ -42,8 +42,21 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Karla_200ExtraLight, Karla_300Light, Karla_400Regular, Karla_500Medium, Karla_600SemiBold, Karla_700Bold, Karla_800ExtraBold, Karla_200ExtraLight_Italic, Karla_300Light_Italic, Karla_400Regular_Italic, Karla_500Medium_Italic, Karla_600SemiBold_Italic, Karla_700Bold_Italic, Karla_800ExtraBold_Italic } from '@expo-google-fonts/karla';
+import { useFonts } from '@expo-google-fonts/karla/useFonts';
+import { Karla_200ExtraLight } from '@expo-google-fonts/karla/200ExtraLight';
+import { Karla_300Light } from '@expo-google-fonts/karla/300Light';
+import { Karla_400Regular } from '@expo-google-fonts/karla/400Regular';
+import { Karla_500Medium } from '@expo-google-fonts/karla/500Medium';
+import { Karla_600SemiBold } from '@expo-google-fonts/karla/600SemiBold';
+import { Karla_700Bold } from '@expo-google-fonts/karla/700Bold';
+import { Karla_800ExtraBold } from '@expo-google-fonts/karla/800ExtraBold';
+import { Karla_200ExtraLight_Italic } from '@expo-google-fonts/karla/200ExtraLight_Italic';
+import { Karla_300Light_Italic } from '@expo-google-fonts/karla/300Light_Italic';
+import { Karla_400Regular_Italic } from '@expo-google-fonts/karla/400Regular_Italic';
+import { Karla_500Medium_Italic } from '@expo-google-fonts/karla/500Medium_Italic';
+import { Karla_600SemiBold_Italic } from '@expo-google-fonts/karla/600SemiBold_Italic';
+import { Karla_700Bold_Italic } from '@expo-google-fonts/karla/700Bold_Italic';
+import { Karla_800ExtraBold_Italic } from '@expo-google-fonts/karla/800ExtraBold_Italic';
 
 export default () => {
 
@@ -68,7 +81,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -195,11 +208,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Karla_200ExtraLight](./Karla_200ExtraLight.ttf.png)|![Karla_300Light](./Karla_300Light.ttf.png)|![Karla_400Regular](./Karla_400Regular.ttf.png)||
-|![Karla_500Medium](./Karla_500Medium.ttf.png)|![Karla_600SemiBold](./Karla_600SemiBold.ttf.png)|![Karla_700Bold](./Karla_700Bold.ttf.png)||
-|![Karla_800ExtraBold](./Karla_800ExtraBold.ttf.png)|![Karla_200ExtraLight_Italic](./Karla_200ExtraLight_Italic.ttf.png)|![Karla_300Light_Italic](./Karla_300Light_Italic.ttf.png)||
-|![Karla_400Regular_Italic](./Karla_400Regular_Italic.ttf.png)|![Karla_500Medium_Italic](./Karla_500Medium_Italic.ttf.png)|![Karla_600SemiBold_Italic](./Karla_600SemiBold_Italic.ttf.png)||
-|![Karla_700Bold_Italic](./Karla_700Bold_Italic.ttf.png)|![Karla_800ExtraBold_Italic](./Karla_800ExtraBold_Italic.ttf.png)|||
+|![Karla_200ExtraLight](./200ExtraLight/Karla_200ExtraLight.ttf.png)|![Karla_300Light](./300Light/Karla_300Light.ttf.png)|![Karla_400Regular](./400Regular/Karla_400Regular.ttf.png)||
+|![Karla_500Medium](./500Medium/Karla_500Medium.ttf.png)|![Karla_600SemiBold](./600SemiBold/Karla_600SemiBold.ttf.png)|![Karla_700Bold](./700Bold/Karla_700Bold.ttf.png)||
+|![Karla_800ExtraBold](./800ExtraBold/Karla_800ExtraBold.ttf.png)|![Karla_200ExtraLight_Italic](./200ExtraLight_Italic/Karla_200ExtraLight_Italic.ttf.png)|![Karla_300Light_Italic](./300Light_Italic/Karla_300Light_Italic.ttf.png)||
+|![Karla_400Regular_Italic](./400Regular_Italic/Karla_400Regular_Italic.ttf.png)|![Karla_500Medium_Italic](./500Medium_Italic/Karla_500Medium_Italic.ttf.png)|![Karla_600SemiBold_Italic](./600SemiBold_Italic/Karla_600SemiBold_Italic.ttf.png)||
+|![Karla_700Bold_Italic](./700Bold_Italic/Karla_700Bold_Italic.ttf.png)|![Karla_800ExtraBold_Italic](./800ExtraBold_Italic/Karla_800ExtraBold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

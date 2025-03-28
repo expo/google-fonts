@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/fira-sans-condensed expo-font expo-app-loading
+npx expo install @expo-google-fonts/fira-sans-condensed expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, FiraSansCondensed_100Thin, FiraSansCondensed_100Thin_Italic, FiraSansCondensed_200ExtraLight, FiraSansCondensed_200ExtraLight_Italic, FiraSansCondensed_300Light, FiraSansCondensed_300Light_Italic, FiraSansCondensed_400Regular, FiraSansCondensed_400Regular_Italic, FiraSansCondensed_500Medium, FiraSansCondensed_500Medium_Italic, FiraSansCondensed_600SemiBold, FiraSansCondensed_600SemiBold_Italic, FiraSansCondensed_700Bold, FiraSansCondensed_700Bold_Italic, FiraSansCondensed_800ExtraBold, FiraSansCondensed_800ExtraBold_Italic, FiraSansCondensed_900Black, FiraSansCondensed_900Black_Italic } from '@expo-google-fonts/fira-sans-condensed';
+import { useFonts } from '@expo-google-fonts/fira-sans-condensed/useFonts';
+import { FiraSansCondensed_100Thin } from '@expo-google-fonts/fira-sans-condensed/100Thin';
+import { FiraSansCondensed_100Thin_Italic } from '@expo-google-fonts/fira-sans-condensed/100Thin_Italic';
+import { FiraSansCondensed_200ExtraLight } from '@expo-google-fonts/fira-sans-condensed/200ExtraLight';
+import { FiraSansCondensed_200ExtraLight_Italic } from '@expo-google-fonts/fira-sans-condensed/200ExtraLight_Italic';
+import { FiraSansCondensed_300Light } from '@expo-google-fonts/fira-sans-condensed/300Light';
+import { FiraSansCondensed_300Light_Italic } from '@expo-google-fonts/fira-sans-condensed/300Light_Italic';
+import { FiraSansCondensed_400Regular } from '@expo-google-fonts/fira-sans-condensed/400Regular';
+import { FiraSansCondensed_400Regular_Italic } from '@expo-google-fonts/fira-sans-condensed/400Regular_Italic';
+import { FiraSansCondensed_500Medium } from '@expo-google-fonts/fira-sans-condensed/500Medium';
+import { FiraSansCondensed_500Medium_Italic } from '@expo-google-fonts/fira-sans-condensed/500Medium_Italic';
+import { FiraSansCondensed_600SemiBold } from '@expo-google-fonts/fira-sans-condensed/600SemiBold';
+import { FiraSansCondensed_600SemiBold_Italic } from '@expo-google-fonts/fira-sans-condensed/600SemiBold_Italic';
+import { FiraSansCondensed_700Bold } from '@expo-google-fonts/fira-sans-condensed/700Bold';
+import { FiraSansCondensed_700Bold_Italic } from '@expo-google-fonts/fira-sans-condensed/700Bold_Italic';
+import { FiraSansCondensed_800ExtraBold } from '@expo-google-fonts/fira-sans-condensed/800ExtraBold';
+import { FiraSansCondensed_800ExtraBold_Italic } from '@expo-google-fonts/fira-sans-condensed/800ExtraBold_Italic';
+import { FiraSansCondensed_900Black } from '@expo-google-fonts/fira-sans-condensed/900Black';
+import { FiraSansCondensed_900Black_Italic } from '@expo-google-fonts/fira-sans-condensed/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FiraSansCondensed_100Thin](./FiraSansCondensed_100Thin.ttf.png)|![FiraSansCondensed_100Thin_Italic](./FiraSansCondensed_100Thin_Italic.ttf.png)|![FiraSansCondensed_200ExtraLight](./FiraSansCondensed_200ExtraLight.ttf.png)||
-|![FiraSansCondensed_200ExtraLight_Italic](./FiraSansCondensed_200ExtraLight_Italic.ttf.png)|![FiraSansCondensed_300Light](./FiraSansCondensed_300Light.ttf.png)|![FiraSansCondensed_300Light_Italic](./FiraSansCondensed_300Light_Italic.ttf.png)||
-|![FiraSansCondensed_400Regular](./FiraSansCondensed_400Regular.ttf.png)|![FiraSansCondensed_400Regular_Italic](./FiraSansCondensed_400Regular_Italic.ttf.png)|![FiraSansCondensed_500Medium](./FiraSansCondensed_500Medium.ttf.png)||
-|![FiraSansCondensed_500Medium_Italic](./FiraSansCondensed_500Medium_Italic.ttf.png)|![FiraSansCondensed_600SemiBold](./FiraSansCondensed_600SemiBold.ttf.png)|![FiraSansCondensed_600SemiBold_Italic](./FiraSansCondensed_600SemiBold_Italic.ttf.png)||
-|![FiraSansCondensed_700Bold](./FiraSansCondensed_700Bold.ttf.png)|![FiraSansCondensed_700Bold_Italic](./FiraSansCondensed_700Bold_Italic.ttf.png)|![FiraSansCondensed_800ExtraBold](./FiraSansCondensed_800ExtraBold.ttf.png)||
-|![FiraSansCondensed_800ExtraBold_Italic](./FiraSansCondensed_800ExtraBold_Italic.ttf.png)|![FiraSansCondensed_900Black](./FiraSansCondensed_900Black.ttf.png)|![FiraSansCondensed_900Black_Italic](./FiraSansCondensed_900Black_Italic.ttf.png)||
+|![FiraSansCondensed_100Thin](./100Thin/FiraSansCondensed_100Thin.ttf.png)|![FiraSansCondensed_100Thin_Italic](./100Thin_Italic/FiraSansCondensed_100Thin_Italic.ttf.png)|![FiraSansCondensed_200ExtraLight](./200ExtraLight/FiraSansCondensed_200ExtraLight.ttf.png)||
+|![FiraSansCondensed_200ExtraLight_Italic](./200ExtraLight_Italic/FiraSansCondensed_200ExtraLight_Italic.ttf.png)|![FiraSansCondensed_300Light](./300Light/FiraSansCondensed_300Light.ttf.png)|![FiraSansCondensed_300Light_Italic](./300Light_Italic/FiraSansCondensed_300Light_Italic.ttf.png)||
+|![FiraSansCondensed_400Regular](./400Regular/FiraSansCondensed_400Regular.ttf.png)|![FiraSansCondensed_400Regular_Italic](./400Regular_Italic/FiraSansCondensed_400Regular_Italic.ttf.png)|![FiraSansCondensed_500Medium](./500Medium/FiraSansCondensed_500Medium.ttf.png)||
+|![FiraSansCondensed_500Medium_Italic](./500Medium_Italic/FiraSansCondensed_500Medium_Italic.ttf.png)|![FiraSansCondensed_600SemiBold](./600SemiBold/FiraSansCondensed_600SemiBold.ttf.png)|![FiraSansCondensed_600SemiBold_Italic](./600SemiBold_Italic/FiraSansCondensed_600SemiBold_Italic.ttf.png)||
+|![FiraSansCondensed_700Bold](./700Bold/FiraSansCondensed_700Bold.ttf.png)|![FiraSansCondensed_700Bold_Italic](./700Bold_Italic/FiraSansCondensed_700Bold_Italic.ttf.png)|![FiraSansCondensed_800ExtraBold](./800ExtraBold/FiraSansCondensed_800ExtraBold.ttf.png)||
+|![FiraSansCondensed_800ExtraBold_Italic](./800ExtraBold_Italic/FiraSansCondensed_800ExtraBold_Italic.ttf.png)|![FiraSansCondensed_900Black](./900Black/FiraSansCondensed_900Black.ttf.png)|![FiraSansCondensed_900Black_Italic](./900Black_Italic/FiraSansCondensed_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

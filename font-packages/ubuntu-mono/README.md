@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/ubuntu-mono expo-font expo-app-loading
+npx expo install @expo-google-fonts/ubuntu-mono expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, UbuntuMono_400Regular, UbuntuMono_400Regular_Italic, UbuntuMono_700Bold, UbuntuMono_700Bold_Italic } from '@expo-google-fonts/ubuntu-mono';
+import { useFonts } from '@expo-google-fonts/ubuntu-mono/useFonts';
+import { UbuntuMono_400Regular } from '@expo-google-fonts/ubuntu-mono/400Regular';
+import { UbuntuMono_400Regular_Italic } from '@expo-google-fonts/ubuntu-mono/400Regular_Italic';
+import { UbuntuMono_700Bold } from '@expo-google-fonts/ubuntu-mono/700Bold';
+import { UbuntuMono_700Bold_Italic } from '@expo-google-fonts/ubuntu-mono/700Bold_Italic';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![UbuntuMono_400Regular](./UbuntuMono_400Regular.ttf.png)|![UbuntuMono_400Regular_Italic](./UbuntuMono_400Regular_Italic.ttf.png)|![UbuntuMono_700Bold](./UbuntuMono_700Bold.ttf.png)||
-|![UbuntuMono_700Bold_Italic](./UbuntuMono_700Bold_Italic.ttf.png)||||
+|![UbuntuMono_400Regular](./400Regular/UbuntuMono_400Regular.ttf.png)|![UbuntuMono_400Regular_Italic](./400Regular_Italic/UbuntuMono_400Regular_Italic.ttf.png)|![UbuntuMono_700Bold](./700Bold/UbuntuMono_700Bold.ttf.png)||
+|![UbuntuMono_700Bold_Italic](./700Bold_Italic/UbuntuMono_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

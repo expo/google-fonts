@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/prompt expo-font expo-app-loading
+npx expo install @expo-google-fonts/prompt expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Prompt_100Thin, Prompt_100Thin_Italic, Prompt_200ExtraLight, Prompt_200ExtraLight_Italic, Prompt_300Light, Prompt_300Light_Italic, Prompt_400Regular, Prompt_400Regular_Italic, Prompt_500Medium, Prompt_500Medium_Italic, Prompt_600SemiBold, Prompt_600SemiBold_Italic, Prompt_700Bold, Prompt_700Bold_Italic, Prompt_800ExtraBold, Prompt_800ExtraBold_Italic, Prompt_900Black, Prompt_900Black_Italic } from '@expo-google-fonts/prompt';
+import { useFonts } from '@expo-google-fonts/prompt/useFonts';
+import { Prompt_100Thin } from '@expo-google-fonts/prompt/100Thin';
+import { Prompt_100Thin_Italic } from '@expo-google-fonts/prompt/100Thin_Italic';
+import { Prompt_200ExtraLight } from '@expo-google-fonts/prompt/200ExtraLight';
+import { Prompt_200ExtraLight_Italic } from '@expo-google-fonts/prompt/200ExtraLight_Italic';
+import { Prompt_300Light } from '@expo-google-fonts/prompt/300Light';
+import { Prompt_300Light_Italic } from '@expo-google-fonts/prompt/300Light_Italic';
+import { Prompt_400Regular } from '@expo-google-fonts/prompt/400Regular';
+import { Prompt_400Regular_Italic } from '@expo-google-fonts/prompt/400Regular_Italic';
+import { Prompt_500Medium } from '@expo-google-fonts/prompt/500Medium';
+import { Prompt_500Medium_Italic } from '@expo-google-fonts/prompt/500Medium_Italic';
+import { Prompt_600SemiBold } from '@expo-google-fonts/prompt/600SemiBold';
+import { Prompt_600SemiBold_Italic } from '@expo-google-fonts/prompt/600SemiBold_Italic';
+import { Prompt_700Bold } from '@expo-google-fonts/prompt/700Bold';
+import { Prompt_700Bold_Italic } from '@expo-google-fonts/prompt/700Bold_Italic';
+import { Prompt_800ExtraBold } from '@expo-google-fonts/prompt/800ExtraBold';
+import { Prompt_800ExtraBold_Italic } from '@expo-google-fonts/prompt/800ExtraBold_Italic';
+import { Prompt_900Black } from '@expo-google-fonts/prompt/900Black';
+import { Prompt_900Black_Italic } from '@expo-google-fonts/prompt/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Prompt_100Thin](./Prompt_100Thin.ttf.png)|![Prompt_100Thin_Italic](./Prompt_100Thin_Italic.ttf.png)|![Prompt_200ExtraLight](./Prompt_200ExtraLight.ttf.png)||
-|![Prompt_200ExtraLight_Italic](./Prompt_200ExtraLight_Italic.ttf.png)|![Prompt_300Light](./Prompt_300Light.ttf.png)|![Prompt_300Light_Italic](./Prompt_300Light_Italic.ttf.png)||
-|![Prompt_400Regular](./Prompt_400Regular.ttf.png)|![Prompt_400Regular_Italic](./Prompt_400Regular_Italic.ttf.png)|![Prompt_500Medium](./Prompt_500Medium.ttf.png)||
-|![Prompt_500Medium_Italic](./Prompt_500Medium_Italic.ttf.png)|![Prompt_600SemiBold](./Prompt_600SemiBold.ttf.png)|![Prompt_600SemiBold_Italic](./Prompt_600SemiBold_Italic.ttf.png)||
-|![Prompt_700Bold](./Prompt_700Bold.ttf.png)|![Prompt_700Bold_Italic](./Prompt_700Bold_Italic.ttf.png)|![Prompt_800ExtraBold](./Prompt_800ExtraBold.ttf.png)||
-|![Prompt_800ExtraBold_Italic](./Prompt_800ExtraBold_Italic.ttf.png)|![Prompt_900Black](./Prompt_900Black.ttf.png)|![Prompt_900Black_Italic](./Prompt_900Black_Italic.ttf.png)||
+|![Prompt_100Thin](./100Thin/Prompt_100Thin.ttf.png)|![Prompt_100Thin_Italic](./100Thin_Italic/Prompt_100Thin_Italic.ttf.png)|![Prompt_200ExtraLight](./200ExtraLight/Prompt_200ExtraLight.ttf.png)||
+|![Prompt_200ExtraLight_Italic](./200ExtraLight_Italic/Prompt_200ExtraLight_Italic.ttf.png)|![Prompt_300Light](./300Light/Prompt_300Light.ttf.png)|![Prompt_300Light_Italic](./300Light_Italic/Prompt_300Light_Italic.ttf.png)||
+|![Prompt_400Regular](./400Regular/Prompt_400Regular.ttf.png)|![Prompt_400Regular_Italic](./400Regular_Italic/Prompt_400Regular_Italic.ttf.png)|![Prompt_500Medium](./500Medium/Prompt_500Medium.ttf.png)||
+|![Prompt_500Medium_Italic](./500Medium_Italic/Prompt_500Medium_Italic.ttf.png)|![Prompt_600SemiBold](./600SemiBold/Prompt_600SemiBold.ttf.png)|![Prompt_600SemiBold_Italic](./600SemiBold_Italic/Prompt_600SemiBold_Italic.ttf.png)||
+|![Prompt_700Bold](./700Bold/Prompt_700Bold.ttf.png)|![Prompt_700Bold_Italic](./700Bold_Italic/Prompt_700Bold_Italic.ttf.png)|![Prompt_800ExtraBold](./800ExtraBold/Prompt_800ExtraBold.ttf.png)||
+|![Prompt_800ExtraBold_Italic](./800ExtraBold_Italic/Prompt_800ExtraBold_Italic.ttf.png)|![Prompt_900Black](./900Black/Prompt_900Black.ttf.png)|![Prompt_900Black_Italic](./900Black_Italic/Prompt_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

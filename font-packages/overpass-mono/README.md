@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/overpass-mono expo-font expo-app-loading
+npx expo install @expo-google-fonts/overpass-mono expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, OverpassMono_300Light, OverpassMono_400Regular, OverpassMono_500Medium, OverpassMono_600SemiBold, OverpassMono_700Bold } from '@expo-google-fonts/overpass-mono';
+import { useFonts } from '@expo-google-fonts/overpass-mono/useFonts';
+import { OverpassMono_300Light } from '@expo-google-fonts/overpass-mono/300Light';
+import { OverpassMono_400Regular } from '@expo-google-fonts/overpass-mono/400Regular';
+import { OverpassMono_500Medium } from '@expo-google-fonts/overpass-mono/500Medium';
+import { OverpassMono_600SemiBold } from '@expo-google-fonts/overpass-mono/600SemiBold';
+import { OverpassMono_700Bold } from '@expo-google-fonts/overpass-mono/700Bold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![OverpassMono_300Light](./OverpassMono_300Light.ttf.png)|![OverpassMono_400Regular](./OverpassMono_400Regular.ttf.png)|![OverpassMono_500Medium](./OverpassMono_500Medium.ttf.png)||
-|![OverpassMono_600SemiBold](./OverpassMono_600SemiBold.ttf.png)|![OverpassMono_700Bold](./OverpassMono_700Bold.ttf.png)|||
+|![OverpassMono_300Light](./300Light/OverpassMono_300Light.ttf.png)|![OverpassMono_400Regular](./400Regular/OverpassMono_400Regular.ttf.png)|![OverpassMono_500Medium](./500Medium/OverpassMono_500Medium.ttf.png)||
+|![OverpassMono_600SemiBold](./600SemiBold/OverpassMono_600SemiBold.ttf.png)|![OverpassMono_700Bold](./700Bold/OverpassMono_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

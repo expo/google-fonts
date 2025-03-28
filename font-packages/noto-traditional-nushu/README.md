@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-traditional-nushu expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-traditional-nushu expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoTraditionalNushu_300Light, NotoTraditionalNushu_400Regular, NotoTraditionalNushu_500Medium, NotoTraditionalNushu_600SemiBold, NotoTraditionalNushu_700Bold } from '@expo-google-fonts/noto-traditional-nushu';
+import { useFonts } from '@expo-google-fonts/noto-traditional-nushu/useFonts';
+import { NotoTraditionalNushu_300Light } from '@expo-google-fonts/noto-traditional-nushu/300Light';
+import { NotoTraditionalNushu_400Regular } from '@expo-google-fonts/noto-traditional-nushu/400Regular';
+import { NotoTraditionalNushu_500Medium } from '@expo-google-fonts/noto-traditional-nushu/500Medium';
+import { NotoTraditionalNushu_600SemiBold } from '@expo-google-fonts/noto-traditional-nushu/600SemiBold';
+import { NotoTraditionalNushu_700Bold } from '@expo-google-fonts/noto-traditional-nushu/700Bold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoTraditionalNushu_300Light](./NotoTraditionalNushu_300Light.ttf.png)|![NotoTraditionalNushu_400Regular](./NotoTraditionalNushu_400Regular.ttf.png)|![NotoTraditionalNushu_500Medium](./NotoTraditionalNushu_500Medium.ttf.png)||
-|![NotoTraditionalNushu_600SemiBold](./NotoTraditionalNushu_600SemiBold.ttf.png)|![NotoTraditionalNushu_700Bold](./NotoTraditionalNushu_700Bold.ttf.png)|||
+|![NotoTraditionalNushu_300Light](./300Light/NotoTraditionalNushu_300Light.ttf.png)|![NotoTraditionalNushu_400Regular](./400Regular/NotoTraditionalNushu_400Regular.ttf.png)|![NotoTraditionalNushu_500Medium](./500Medium/NotoTraditionalNushu_500Medium.ttf.png)||
+|![NotoTraditionalNushu_600SemiBold](./600SemiBold/NotoTraditionalNushu_600SemiBold.ttf.png)|![NotoTraditionalNushu_700Bold](./700Bold/NotoTraditionalNushu_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/fustat expo-font expo-app-loading
+npx expo install @expo-google-fonts/fustat expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Fustat_200ExtraLight, Fustat_300Light, Fustat_400Regular, Fustat_500Medium, Fustat_600SemiBold, Fustat_700Bold, Fustat_800ExtraBold } from '@expo-google-fonts/fustat';
+import { useFonts } from '@expo-google-fonts/fustat/useFonts';
+import { Fustat_200ExtraLight } from '@expo-google-fonts/fustat/200ExtraLight';
+import { Fustat_300Light } from '@expo-google-fonts/fustat/300Light';
+import { Fustat_400Regular } from '@expo-google-fonts/fustat/400Regular';
+import { Fustat_500Medium } from '@expo-google-fonts/fustat/500Medium';
+import { Fustat_600SemiBold } from '@expo-google-fonts/fustat/600SemiBold';
+import { Fustat_700Bold } from '@expo-google-fonts/fustat/700Bold';
+import { Fustat_800ExtraBold } from '@expo-google-fonts/fustat/800ExtraBold';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Fustat_200ExtraLight](./Fustat_200ExtraLight.ttf.png)|![Fustat_300Light](./Fustat_300Light.ttf.png)|![Fustat_400Regular](./Fustat_400Regular.ttf.png)||
-|![Fustat_500Medium](./Fustat_500Medium.ttf.png)|![Fustat_600SemiBold](./Fustat_600SemiBold.ttf.png)|![Fustat_700Bold](./Fustat_700Bold.ttf.png)||
-|![Fustat_800ExtraBold](./Fustat_800ExtraBold.ttf.png)||||
+|![Fustat_200ExtraLight](./200ExtraLight/Fustat_200ExtraLight.ttf.png)|![Fustat_300Light](./300Light/Fustat_300Light.ttf.png)|![Fustat_400Regular](./400Regular/Fustat_400Regular.ttf.png)||
+|![Fustat_500Medium](./500Medium/Fustat_500Medium.ttf.png)|![Fustat_600SemiBold](./600SemiBold/Fustat_600SemiBold.ttf.png)|![Fustat_700Bold](./700Bold/Fustat_700Bold.ttf.png)||
+|![Fustat_800ExtraBold](./800ExtraBold/Fustat_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

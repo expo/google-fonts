@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-lisu expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-lisu expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansLisu_400Regular, NotoSansLisu_500Medium, NotoSansLisu_600SemiBold, NotoSansLisu_700Bold } from '@expo-google-fonts/noto-sans-lisu';
+import { useFonts } from '@expo-google-fonts/noto-sans-lisu/useFonts';
+import { NotoSansLisu_400Regular } from '@expo-google-fonts/noto-sans-lisu/400Regular';
+import { NotoSansLisu_500Medium } from '@expo-google-fonts/noto-sans-lisu/500Medium';
+import { NotoSansLisu_600SemiBold } from '@expo-google-fonts/noto-sans-lisu/600SemiBold';
+import { NotoSansLisu_700Bold } from '@expo-google-fonts/noto-sans-lisu/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansLisu_400Regular](./NotoSansLisu_400Regular.ttf.png)|![NotoSansLisu_500Medium](./NotoSansLisu_500Medium.ttf.png)|![NotoSansLisu_600SemiBold](./NotoSansLisu_600SemiBold.ttf.png)||
-|![NotoSansLisu_700Bold](./NotoSansLisu_700Bold.ttf.png)||||
+|![NotoSansLisu_400Regular](./400Regular/NotoSansLisu_400Regular.ttf.png)|![NotoSansLisu_500Medium](./500Medium/NotoSansLisu_500Medium.ttf.png)|![NotoSansLisu_600SemiBold](./600SemiBold/NotoSansLisu_600SemiBold.ttf.png)||
+|![NotoSansLisu_700Bold](./700Bold/NotoSansLisu_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

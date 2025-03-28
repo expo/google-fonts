@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/yaldevi expo-font expo-app-loading
+npx expo install @expo-google-fonts/yaldevi expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Yaldevi_200ExtraLight, Yaldevi_300Light, Yaldevi_400Regular, Yaldevi_500Medium, Yaldevi_600SemiBold, Yaldevi_700Bold } from '@expo-google-fonts/yaldevi';
+import { useFonts } from '@expo-google-fonts/yaldevi/useFonts';
+import { Yaldevi_200ExtraLight } from '@expo-google-fonts/yaldevi/200ExtraLight';
+import { Yaldevi_300Light } from '@expo-google-fonts/yaldevi/300Light';
+import { Yaldevi_400Regular } from '@expo-google-fonts/yaldevi/400Regular';
+import { Yaldevi_500Medium } from '@expo-google-fonts/yaldevi/500Medium';
+import { Yaldevi_600SemiBold } from '@expo-google-fonts/yaldevi/600SemiBold';
+import { Yaldevi_700Bold } from '@expo-google-fonts/yaldevi/700Bold';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Yaldevi_200ExtraLight](./Yaldevi_200ExtraLight.ttf.png)|![Yaldevi_300Light](./Yaldevi_300Light.ttf.png)|![Yaldevi_400Regular](./Yaldevi_400Regular.ttf.png)||
-|![Yaldevi_500Medium](./Yaldevi_500Medium.ttf.png)|![Yaldevi_600SemiBold](./Yaldevi_600SemiBold.ttf.png)|![Yaldevi_700Bold](./Yaldevi_700Bold.ttf.png)||
+|![Yaldevi_200ExtraLight](./200ExtraLight/Yaldevi_200ExtraLight.ttf.png)|![Yaldevi_300Light](./300Light/Yaldevi_300Light.ttf.png)|![Yaldevi_400Regular](./400Regular/Yaldevi_400Regular.ttf.png)||
+|![Yaldevi_500Medium](./500Medium/Yaldevi_500Medium.ttf.png)|![Yaldevi_600SemiBold](./600SemiBold/Yaldevi_600SemiBold.ttf.png)|![Yaldevi_700Bold](./700Bold/Yaldevi_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/orbitron expo-font expo-app-loading
+npx expo install @expo-google-fonts/orbitron expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Orbitron_400Regular, Orbitron_500Medium, Orbitron_600SemiBold, Orbitron_700Bold, Orbitron_800ExtraBold, Orbitron_900Black } from '@expo-google-fonts/orbitron';
+import { useFonts } from '@expo-google-fonts/orbitron/useFonts';
+import { Orbitron_400Regular } from '@expo-google-fonts/orbitron/400Regular';
+import { Orbitron_500Medium } from '@expo-google-fonts/orbitron/500Medium';
+import { Orbitron_600SemiBold } from '@expo-google-fonts/orbitron/600SemiBold';
+import { Orbitron_700Bold } from '@expo-google-fonts/orbitron/700Bold';
+import { Orbitron_800ExtraBold } from '@expo-google-fonts/orbitron/800ExtraBold';
+import { Orbitron_900Black } from '@expo-google-fonts/orbitron/900Black';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Orbitron_400Regular](./Orbitron_400Regular.ttf.png)|![Orbitron_500Medium](./Orbitron_500Medium.ttf.png)|![Orbitron_600SemiBold](./Orbitron_600SemiBold.ttf.png)||
-|![Orbitron_700Bold](./Orbitron_700Bold.ttf.png)|![Orbitron_800ExtraBold](./Orbitron_800ExtraBold.ttf.png)|![Orbitron_900Black](./Orbitron_900Black.ttf.png)||
+|![Orbitron_400Regular](./400Regular/Orbitron_400Regular.ttf.png)|![Orbitron_500Medium](./500Medium/Orbitron_500Medium.ttf.png)|![Orbitron_600SemiBold](./600SemiBold/Orbitron_600SemiBold.ttf.png)||
+|![Orbitron_700Bold](./700Bold/Orbitron_700Bold.ttf.png)|![Orbitron_800ExtraBold](./800ExtraBold/Orbitron_800ExtraBold.ttf.png)|![Orbitron_900Black](./900Black/Orbitron_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

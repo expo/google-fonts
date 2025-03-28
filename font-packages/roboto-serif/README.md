@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/roboto-serif expo-font expo-app-loading
+npx expo install @expo-google-fonts/roboto-serif expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, RobotoSerif_100Thin, RobotoSerif_200ExtraLight, RobotoSerif_300Light, RobotoSerif_400Regular, RobotoSerif_500Medium, RobotoSerif_600SemiBold, RobotoSerif_700Bold, RobotoSerif_800ExtraBold, RobotoSerif_900Black, RobotoSerif_100Thin_Italic, RobotoSerif_200ExtraLight_Italic, RobotoSerif_300Light_Italic, RobotoSerif_400Regular_Italic, RobotoSerif_500Medium_Italic, RobotoSerif_600SemiBold_Italic, RobotoSerif_700Bold_Italic, RobotoSerif_800ExtraBold_Italic, RobotoSerif_900Black_Italic } from '@expo-google-fonts/roboto-serif';
+import { useFonts } from '@expo-google-fonts/roboto-serif/useFonts';
+import { RobotoSerif_100Thin } from '@expo-google-fonts/roboto-serif/100Thin';
+import { RobotoSerif_200ExtraLight } from '@expo-google-fonts/roboto-serif/200ExtraLight';
+import { RobotoSerif_300Light } from '@expo-google-fonts/roboto-serif/300Light';
+import { RobotoSerif_400Regular } from '@expo-google-fonts/roboto-serif/400Regular';
+import { RobotoSerif_500Medium } from '@expo-google-fonts/roboto-serif/500Medium';
+import { RobotoSerif_600SemiBold } from '@expo-google-fonts/roboto-serif/600SemiBold';
+import { RobotoSerif_700Bold } from '@expo-google-fonts/roboto-serif/700Bold';
+import { RobotoSerif_800ExtraBold } from '@expo-google-fonts/roboto-serif/800ExtraBold';
+import { RobotoSerif_900Black } from '@expo-google-fonts/roboto-serif/900Black';
+import { RobotoSerif_100Thin_Italic } from '@expo-google-fonts/roboto-serif/100Thin_Italic';
+import { RobotoSerif_200ExtraLight_Italic } from '@expo-google-fonts/roboto-serif/200ExtraLight_Italic';
+import { RobotoSerif_300Light_Italic } from '@expo-google-fonts/roboto-serif/300Light_Italic';
+import { RobotoSerif_400Regular_Italic } from '@expo-google-fonts/roboto-serif/400Regular_Italic';
+import { RobotoSerif_500Medium_Italic } from '@expo-google-fonts/roboto-serif/500Medium_Italic';
+import { RobotoSerif_600SemiBold_Italic } from '@expo-google-fonts/roboto-serif/600SemiBold_Italic';
+import { RobotoSerif_700Bold_Italic } from '@expo-google-fonts/roboto-serif/700Bold_Italic';
+import { RobotoSerif_800ExtraBold_Italic } from '@expo-google-fonts/roboto-serif/800ExtraBold_Italic';
+import { RobotoSerif_900Black_Italic } from '@expo-google-fonts/roboto-serif/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RobotoSerif_100Thin](./RobotoSerif_100Thin.ttf.png)|![RobotoSerif_200ExtraLight](./RobotoSerif_200ExtraLight.ttf.png)|![RobotoSerif_300Light](./RobotoSerif_300Light.ttf.png)||
-|![RobotoSerif_400Regular](./RobotoSerif_400Regular.ttf.png)|![RobotoSerif_500Medium](./RobotoSerif_500Medium.ttf.png)|![RobotoSerif_600SemiBold](./RobotoSerif_600SemiBold.ttf.png)||
-|![RobotoSerif_700Bold](./RobotoSerif_700Bold.ttf.png)|![RobotoSerif_800ExtraBold](./RobotoSerif_800ExtraBold.ttf.png)|![RobotoSerif_900Black](./RobotoSerif_900Black.ttf.png)||
-|![RobotoSerif_100Thin_Italic](./RobotoSerif_100Thin_Italic.ttf.png)|![RobotoSerif_200ExtraLight_Italic](./RobotoSerif_200ExtraLight_Italic.ttf.png)|![RobotoSerif_300Light_Italic](./RobotoSerif_300Light_Italic.ttf.png)||
-|![RobotoSerif_400Regular_Italic](./RobotoSerif_400Regular_Italic.ttf.png)|![RobotoSerif_500Medium_Italic](./RobotoSerif_500Medium_Italic.ttf.png)|![RobotoSerif_600SemiBold_Italic](./RobotoSerif_600SemiBold_Italic.ttf.png)||
-|![RobotoSerif_700Bold_Italic](./RobotoSerif_700Bold_Italic.ttf.png)|![RobotoSerif_800ExtraBold_Italic](./RobotoSerif_800ExtraBold_Italic.ttf.png)|![RobotoSerif_900Black_Italic](./RobotoSerif_900Black_Italic.ttf.png)||
+|![RobotoSerif_100Thin](./100Thin/RobotoSerif_100Thin.ttf.png)|![RobotoSerif_200ExtraLight](./200ExtraLight/RobotoSerif_200ExtraLight.ttf.png)|![RobotoSerif_300Light](./300Light/RobotoSerif_300Light.ttf.png)||
+|![RobotoSerif_400Regular](./400Regular/RobotoSerif_400Regular.ttf.png)|![RobotoSerif_500Medium](./500Medium/RobotoSerif_500Medium.ttf.png)|![RobotoSerif_600SemiBold](./600SemiBold/RobotoSerif_600SemiBold.ttf.png)||
+|![RobotoSerif_700Bold](./700Bold/RobotoSerif_700Bold.ttf.png)|![RobotoSerif_800ExtraBold](./800ExtraBold/RobotoSerif_800ExtraBold.ttf.png)|![RobotoSerif_900Black](./900Black/RobotoSerif_900Black.ttf.png)||
+|![RobotoSerif_100Thin_Italic](./100Thin_Italic/RobotoSerif_100Thin_Italic.ttf.png)|![RobotoSerif_200ExtraLight_Italic](./200ExtraLight_Italic/RobotoSerif_200ExtraLight_Italic.ttf.png)|![RobotoSerif_300Light_Italic](./300Light_Italic/RobotoSerif_300Light_Italic.ttf.png)||
+|![RobotoSerif_400Regular_Italic](./400Regular_Italic/RobotoSerif_400Regular_Italic.ttf.png)|![RobotoSerif_500Medium_Italic](./500Medium_Italic/RobotoSerif_500Medium_Italic.ttf.png)|![RobotoSerif_600SemiBold_Italic](./600SemiBold_Italic/RobotoSerif_600SemiBold_Italic.ttf.png)||
+|![RobotoSerif_700Bold_Italic](./700Bold_Italic/RobotoSerif_700Bold_Italic.ttf.png)|![RobotoSerif_800ExtraBold_Italic](./800ExtraBold_Italic/RobotoSerif_800ExtraBold_Italic.ttf.png)|![RobotoSerif_900Black_Italic](./900Black_Italic/RobotoSerif_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

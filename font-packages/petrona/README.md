@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/petrona expo-font expo-app-loading
+npx expo install @expo-google-fonts/petrona expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Petrona_100Thin, Petrona_200ExtraLight, Petrona_300Light, Petrona_400Regular, Petrona_500Medium, Petrona_600SemiBold, Petrona_700Bold, Petrona_800ExtraBold, Petrona_900Black, Petrona_100Thin_Italic, Petrona_200ExtraLight_Italic, Petrona_300Light_Italic, Petrona_400Regular_Italic, Petrona_500Medium_Italic, Petrona_600SemiBold_Italic, Petrona_700Bold_Italic, Petrona_800ExtraBold_Italic, Petrona_900Black_Italic } from '@expo-google-fonts/petrona';
+import { useFonts } from '@expo-google-fonts/petrona/useFonts';
+import { Petrona_100Thin } from '@expo-google-fonts/petrona/100Thin';
+import { Petrona_200ExtraLight } from '@expo-google-fonts/petrona/200ExtraLight';
+import { Petrona_300Light } from '@expo-google-fonts/petrona/300Light';
+import { Petrona_400Regular } from '@expo-google-fonts/petrona/400Regular';
+import { Petrona_500Medium } from '@expo-google-fonts/petrona/500Medium';
+import { Petrona_600SemiBold } from '@expo-google-fonts/petrona/600SemiBold';
+import { Petrona_700Bold } from '@expo-google-fonts/petrona/700Bold';
+import { Petrona_800ExtraBold } from '@expo-google-fonts/petrona/800ExtraBold';
+import { Petrona_900Black } from '@expo-google-fonts/petrona/900Black';
+import { Petrona_100Thin_Italic } from '@expo-google-fonts/petrona/100Thin_Italic';
+import { Petrona_200ExtraLight_Italic } from '@expo-google-fonts/petrona/200ExtraLight_Italic';
+import { Petrona_300Light_Italic } from '@expo-google-fonts/petrona/300Light_Italic';
+import { Petrona_400Regular_Italic } from '@expo-google-fonts/petrona/400Regular_Italic';
+import { Petrona_500Medium_Italic } from '@expo-google-fonts/petrona/500Medium_Italic';
+import { Petrona_600SemiBold_Italic } from '@expo-google-fonts/petrona/600SemiBold_Italic';
+import { Petrona_700Bold_Italic } from '@expo-google-fonts/petrona/700Bold_Italic';
+import { Petrona_800ExtraBold_Italic } from '@expo-google-fonts/petrona/800ExtraBold_Italic';
+import { Petrona_900Black_Italic } from '@expo-google-fonts/petrona/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Petrona_100Thin](./Petrona_100Thin.ttf.png)|![Petrona_200ExtraLight](./Petrona_200ExtraLight.ttf.png)|![Petrona_300Light](./Petrona_300Light.ttf.png)||
-|![Petrona_400Regular](./Petrona_400Regular.ttf.png)|![Petrona_500Medium](./Petrona_500Medium.ttf.png)|![Petrona_600SemiBold](./Petrona_600SemiBold.ttf.png)||
-|![Petrona_700Bold](./Petrona_700Bold.ttf.png)|![Petrona_800ExtraBold](./Petrona_800ExtraBold.ttf.png)|![Petrona_900Black](./Petrona_900Black.ttf.png)||
-|![Petrona_100Thin_Italic](./Petrona_100Thin_Italic.ttf.png)|![Petrona_200ExtraLight_Italic](./Petrona_200ExtraLight_Italic.ttf.png)|![Petrona_300Light_Italic](./Petrona_300Light_Italic.ttf.png)||
-|![Petrona_400Regular_Italic](./Petrona_400Regular_Italic.ttf.png)|![Petrona_500Medium_Italic](./Petrona_500Medium_Italic.ttf.png)|![Petrona_600SemiBold_Italic](./Petrona_600SemiBold_Italic.ttf.png)||
-|![Petrona_700Bold_Italic](./Petrona_700Bold_Italic.ttf.png)|![Petrona_800ExtraBold_Italic](./Petrona_800ExtraBold_Italic.ttf.png)|![Petrona_900Black_Italic](./Petrona_900Black_Italic.ttf.png)||
+|![Petrona_100Thin](./100Thin/Petrona_100Thin.ttf.png)|![Petrona_200ExtraLight](./200ExtraLight/Petrona_200ExtraLight.ttf.png)|![Petrona_300Light](./300Light/Petrona_300Light.ttf.png)||
+|![Petrona_400Regular](./400Regular/Petrona_400Regular.ttf.png)|![Petrona_500Medium](./500Medium/Petrona_500Medium.ttf.png)|![Petrona_600SemiBold](./600SemiBold/Petrona_600SemiBold.ttf.png)||
+|![Petrona_700Bold](./700Bold/Petrona_700Bold.ttf.png)|![Petrona_800ExtraBold](./800ExtraBold/Petrona_800ExtraBold.ttf.png)|![Petrona_900Black](./900Black/Petrona_900Black.ttf.png)||
+|![Petrona_100Thin_Italic](./100Thin_Italic/Petrona_100Thin_Italic.ttf.png)|![Petrona_200ExtraLight_Italic](./200ExtraLight_Italic/Petrona_200ExtraLight_Italic.ttf.png)|![Petrona_300Light_Italic](./300Light_Italic/Petrona_300Light_Italic.ttf.png)||
+|![Petrona_400Regular_Italic](./400Regular_Italic/Petrona_400Regular_Italic.ttf.png)|![Petrona_500Medium_Italic](./500Medium_Italic/Petrona_500Medium_Italic.ttf.png)|![Petrona_600SemiBold_Italic](./600SemiBold_Italic/Petrona_600SemiBold_Italic.ttf.png)||
+|![Petrona_700Bold_Italic](./700Bold_Italic/Petrona_700Bold_Italic.ttf.png)|![Petrona_800ExtraBold_Italic](./800ExtraBold_Italic/Petrona_800ExtraBold_Italic.ttf.png)|![Petrona_900Black_Italic](./900Black_Italic/Petrona_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

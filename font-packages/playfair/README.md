@@ -33,7 +33,7 @@ This font family contains [14 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/playfair expo-font expo-app-loading
+npx expo install @expo-google-fonts/playfair expo-font
 ```
 
 Now add code like this to your project
@@ -42,8 +42,21 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Playfair_300Light, Playfair_400Regular, Playfair_500Medium, Playfair_600SemiBold, Playfair_700Bold, Playfair_800ExtraBold, Playfair_900Black, Playfair_300Light_Italic, Playfair_400Regular_Italic, Playfair_500Medium_Italic, Playfair_600SemiBold_Italic, Playfair_700Bold_Italic, Playfair_800ExtraBold_Italic, Playfair_900Black_Italic } from '@expo-google-fonts/playfair';
+import { useFonts } from '@expo-google-fonts/playfair/useFonts';
+import { Playfair_300Light } from '@expo-google-fonts/playfair/300Light';
+import { Playfair_400Regular } from '@expo-google-fonts/playfair/400Regular';
+import { Playfair_500Medium } from '@expo-google-fonts/playfair/500Medium';
+import { Playfair_600SemiBold } from '@expo-google-fonts/playfair/600SemiBold';
+import { Playfair_700Bold } from '@expo-google-fonts/playfair/700Bold';
+import { Playfair_800ExtraBold } from '@expo-google-fonts/playfair/800ExtraBold';
+import { Playfair_900Black } from '@expo-google-fonts/playfair/900Black';
+import { Playfair_300Light_Italic } from '@expo-google-fonts/playfair/300Light_Italic';
+import { Playfair_400Regular_Italic } from '@expo-google-fonts/playfair/400Regular_Italic';
+import { Playfair_500Medium_Italic } from '@expo-google-fonts/playfair/500Medium_Italic';
+import { Playfair_600SemiBold_Italic } from '@expo-google-fonts/playfair/600SemiBold_Italic';
+import { Playfair_700Bold_Italic } from '@expo-google-fonts/playfair/700Bold_Italic';
+import { Playfair_800ExtraBold_Italic } from '@expo-google-fonts/playfair/800ExtraBold_Italic';
+import { Playfair_900Black_Italic } from '@expo-google-fonts/playfair/900Black_Italic';
 
 export default () => {
 
@@ -68,7 +81,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -195,11 +208,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Playfair_300Light](./Playfair_300Light.ttf.png)|![Playfair_400Regular](./Playfair_400Regular.ttf.png)|![Playfair_500Medium](./Playfair_500Medium.ttf.png)||
-|![Playfair_600SemiBold](./Playfair_600SemiBold.ttf.png)|![Playfair_700Bold](./Playfair_700Bold.ttf.png)|![Playfair_800ExtraBold](./Playfair_800ExtraBold.ttf.png)||
-|![Playfair_900Black](./Playfair_900Black.ttf.png)|![Playfair_300Light_Italic](./Playfair_300Light_Italic.ttf.png)|![Playfair_400Regular_Italic](./Playfair_400Regular_Italic.ttf.png)||
-|![Playfair_500Medium_Italic](./Playfair_500Medium_Italic.ttf.png)|![Playfair_600SemiBold_Italic](./Playfair_600SemiBold_Italic.ttf.png)|![Playfair_700Bold_Italic](./Playfair_700Bold_Italic.ttf.png)||
-|![Playfair_800ExtraBold_Italic](./Playfair_800ExtraBold_Italic.ttf.png)|![Playfair_900Black_Italic](./Playfair_900Black_Italic.ttf.png)|||
+|![Playfair_300Light](./300Light/Playfair_300Light.ttf.png)|![Playfair_400Regular](./400Regular/Playfair_400Regular.ttf.png)|![Playfair_500Medium](./500Medium/Playfair_500Medium.ttf.png)||
+|![Playfair_600SemiBold](./600SemiBold/Playfair_600SemiBold.ttf.png)|![Playfair_700Bold](./700Bold/Playfair_700Bold.ttf.png)|![Playfair_800ExtraBold](./800ExtraBold/Playfair_800ExtraBold.ttf.png)||
+|![Playfair_900Black](./900Black/Playfair_900Black.ttf.png)|![Playfair_300Light_Italic](./300Light_Italic/Playfair_300Light_Italic.ttf.png)|![Playfair_400Regular_Italic](./400Regular_Italic/Playfair_400Regular_Italic.ttf.png)||
+|![Playfair_500Medium_Italic](./500Medium_Italic/Playfair_500Medium_Italic.ttf.png)|![Playfair_600SemiBold_Italic](./600SemiBold_Italic/Playfair_600SemiBold_Italic.ttf.png)|![Playfair_700Bold_Italic](./700Bold_Italic/Playfair_700Bold_Italic.ttf.png)||
+|![Playfair_800ExtraBold_Italic](./800ExtraBold_Italic/Playfair_800ExtraBold_Italic.ttf.png)|![Playfair_900Black_Italic](./900Black_Italic/Playfair_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

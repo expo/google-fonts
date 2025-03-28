@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/anek-bangla expo-font expo-app-loading
+npx expo install @expo-google-fonts/anek-bangla expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, AnekBangla_100Thin, AnekBangla_200ExtraLight, AnekBangla_300Light, AnekBangla_400Regular, AnekBangla_500Medium, AnekBangla_600SemiBold, AnekBangla_700Bold, AnekBangla_800ExtraBold } from '@expo-google-fonts/anek-bangla';
+import { useFonts } from '@expo-google-fonts/anek-bangla/useFonts';
+import { AnekBangla_100Thin } from '@expo-google-fonts/anek-bangla/100Thin';
+import { AnekBangla_200ExtraLight } from '@expo-google-fonts/anek-bangla/200ExtraLight';
+import { AnekBangla_300Light } from '@expo-google-fonts/anek-bangla/300Light';
+import { AnekBangla_400Regular } from '@expo-google-fonts/anek-bangla/400Regular';
+import { AnekBangla_500Medium } from '@expo-google-fonts/anek-bangla/500Medium';
+import { AnekBangla_600SemiBold } from '@expo-google-fonts/anek-bangla/600SemiBold';
+import { AnekBangla_700Bold } from '@expo-google-fonts/anek-bangla/700Bold';
+import { AnekBangla_800ExtraBold } from '@expo-google-fonts/anek-bangla/800ExtraBold';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnekBangla_100Thin](./AnekBangla_100Thin.ttf.png)|![AnekBangla_200ExtraLight](./AnekBangla_200ExtraLight.ttf.png)|![AnekBangla_300Light](./AnekBangla_300Light.ttf.png)||
-|![AnekBangla_400Regular](./AnekBangla_400Regular.ttf.png)|![AnekBangla_500Medium](./AnekBangla_500Medium.ttf.png)|![AnekBangla_600SemiBold](./AnekBangla_600SemiBold.ttf.png)||
-|![AnekBangla_700Bold](./AnekBangla_700Bold.ttf.png)|![AnekBangla_800ExtraBold](./AnekBangla_800ExtraBold.ttf.png)|||
+|![AnekBangla_100Thin](./100Thin/AnekBangla_100Thin.ttf.png)|![AnekBangla_200ExtraLight](./200ExtraLight/AnekBangla_200ExtraLight.ttf.png)|![AnekBangla_300Light](./300Light/AnekBangla_300Light.ttf.png)||
+|![AnekBangla_400Regular](./400Regular/AnekBangla_400Regular.ttf.png)|![AnekBangla_500Medium](./500Medium/AnekBangla_500Medium.ttf.png)|![AnekBangla_600SemiBold](./600SemiBold/AnekBangla_600SemiBold.ttf.png)||
+|![AnekBangla_700Bold](./700Bold/AnekBangla_700Bold.ttf.png)|![AnekBangla_800ExtraBold](./800ExtraBold/AnekBangla_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

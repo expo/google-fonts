@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/sofia-sans-condensed expo-font expo-app-loading
+npx expo install @expo-google-fonts/sofia-sans-condensed expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, SofiaSansCondensed_100Thin, SofiaSansCondensed_200ExtraLight, SofiaSansCondensed_300Light, SofiaSansCondensed_400Regular, SofiaSansCondensed_500Medium, SofiaSansCondensed_600SemiBold, SofiaSansCondensed_700Bold, SofiaSansCondensed_800ExtraBold, SofiaSansCondensed_900Black, SofiaSansCondensed_100Thin_Italic, SofiaSansCondensed_200ExtraLight_Italic, SofiaSansCondensed_300Light_Italic, SofiaSansCondensed_400Regular_Italic, SofiaSansCondensed_500Medium_Italic, SofiaSansCondensed_600SemiBold_Italic, SofiaSansCondensed_700Bold_Italic, SofiaSansCondensed_800ExtraBold_Italic, SofiaSansCondensed_900Black_Italic } from '@expo-google-fonts/sofia-sans-condensed';
+import { useFonts } from '@expo-google-fonts/sofia-sans-condensed/useFonts';
+import { SofiaSansCondensed_100Thin } from '@expo-google-fonts/sofia-sans-condensed/100Thin';
+import { SofiaSansCondensed_200ExtraLight } from '@expo-google-fonts/sofia-sans-condensed/200ExtraLight';
+import { SofiaSansCondensed_300Light } from '@expo-google-fonts/sofia-sans-condensed/300Light';
+import { SofiaSansCondensed_400Regular } from '@expo-google-fonts/sofia-sans-condensed/400Regular';
+import { SofiaSansCondensed_500Medium } from '@expo-google-fonts/sofia-sans-condensed/500Medium';
+import { SofiaSansCondensed_600SemiBold } from '@expo-google-fonts/sofia-sans-condensed/600SemiBold';
+import { SofiaSansCondensed_700Bold } from '@expo-google-fonts/sofia-sans-condensed/700Bold';
+import { SofiaSansCondensed_800ExtraBold } from '@expo-google-fonts/sofia-sans-condensed/800ExtraBold';
+import { SofiaSansCondensed_900Black } from '@expo-google-fonts/sofia-sans-condensed/900Black';
+import { SofiaSansCondensed_100Thin_Italic } from '@expo-google-fonts/sofia-sans-condensed/100Thin_Italic';
+import { SofiaSansCondensed_200ExtraLight_Italic } from '@expo-google-fonts/sofia-sans-condensed/200ExtraLight_Italic';
+import { SofiaSansCondensed_300Light_Italic } from '@expo-google-fonts/sofia-sans-condensed/300Light_Italic';
+import { SofiaSansCondensed_400Regular_Italic } from '@expo-google-fonts/sofia-sans-condensed/400Regular_Italic';
+import { SofiaSansCondensed_500Medium_Italic } from '@expo-google-fonts/sofia-sans-condensed/500Medium_Italic';
+import { SofiaSansCondensed_600SemiBold_Italic } from '@expo-google-fonts/sofia-sans-condensed/600SemiBold_Italic';
+import { SofiaSansCondensed_700Bold_Italic } from '@expo-google-fonts/sofia-sans-condensed/700Bold_Italic';
+import { SofiaSansCondensed_800ExtraBold_Italic } from '@expo-google-fonts/sofia-sans-condensed/800ExtraBold_Italic';
+import { SofiaSansCondensed_900Black_Italic } from '@expo-google-fonts/sofia-sans-condensed/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SofiaSansCondensed_100Thin](./SofiaSansCondensed_100Thin.ttf.png)|![SofiaSansCondensed_200ExtraLight](./SofiaSansCondensed_200ExtraLight.ttf.png)|![SofiaSansCondensed_300Light](./SofiaSansCondensed_300Light.ttf.png)||
-|![SofiaSansCondensed_400Regular](./SofiaSansCondensed_400Regular.ttf.png)|![SofiaSansCondensed_500Medium](./SofiaSansCondensed_500Medium.ttf.png)|![SofiaSansCondensed_600SemiBold](./SofiaSansCondensed_600SemiBold.ttf.png)||
-|![SofiaSansCondensed_700Bold](./SofiaSansCondensed_700Bold.ttf.png)|![SofiaSansCondensed_800ExtraBold](./SofiaSansCondensed_800ExtraBold.ttf.png)|![SofiaSansCondensed_900Black](./SofiaSansCondensed_900Black.ttf.png)||
-|![SofiaSansCondensed_100Thin_Italic](./SofiaSansCondensed_100Thin_Italic.ttf.png)|![SofiaSansCondensed_200ExtraLight_Italic](./SofiaSansCondensed_200ExtraLight_Italic.ttf.png)|![SofiaSansCondensed_300Light_Italic](./SofiaSansCondensed_300Light_Italic.ttf.png)||
-|![SofiaSansCondensed_400Regular_Italic](./SofiaSansCondensed_400Regular_Italic.ttf.png)|![SofiaSansCondensed_500Medium_Italic](./SofiaSansCondensed_500Medium_Italic.ttf.png)|![SofiaSansCondensed_600SemiBold_Italic](./SofiaSansCondensed_600SemiBold_Italic.ttf.png)||
-|![SofiaSansCondensed_700Bold_Italic](./SofiaSansCondensed_700Bold_Italic.ttf.png)|![SofiaSansCondensed_800ExtraBold_Italic](./SofiaSansCondensed_800ExtraBold_Italic.ttf.png)|![SofiaSansCondensed_900Black_Italic](./SofiaSansCondensed_900Black_Italic.ttf.png)||
+|![SofiaSansCondensed_100Thin](./100Thin/SofiaSansCondensed_100Thin.ttf.png)|![SofiaSansCondensed_200ExtraLight](./200ExtraLight/SofiaSansCondensed_200ExtraLight.ttf.png)|![SofiaSansCondensed_300Light](./300Light/SofiaSansCondensed_300Light.ttf.png)||
+|![SofiaSansCondensed_400Regular](./400Regular/SofiaSansCondensed_400Regular.ttf.png)|![SofiaSansCondensed_500Medium](./500Medium/SofiaSansCondensed_500Medium.ttf.png)|![SofiaSansCondensed_600SemiBold](./600SemiBold/SofiaSansCondensed_600SemiBold.ttf.png)||
+|![SofiaSansCondensed_700Bold](./700Bold/SofiaSansCondensed_700Bold.ttf.png)|![SofiaSansCondensed_800ExtraBold](./800ExtraBold/SofiaSansCondensed_800ExtraBold.ttf.png)|![SofiaSansCondensed_900Black](./900Black/SofiaSansCondensed_900Black.ttf.png)||
+|![SofiaSansCondensed_100Thin_Italic](./100Thin_Italic/SofiaSansCondensed_100Thin_Italic.ttf.png)|![SofiaSansCondensed_200ExtraLight_Italic](./200ExtraLight_Italic/SofiaSansCondensed_200ExtraLight_Italic.ttf.png)|![SofiaSansCondensed_300Light_Italic](./300Light_Italic/SofiaSansCondensed_300Light_Italic.ttf.png)||
+|![SofiaSansCondensed_400Regular_Italic](./400Regular_Italic/SofiaSansCondensed_400Regular_Italic.ttf.png)|![SofiaSansCondensed_500Medium_Italic](./500Medium_Italic/SofiaSansCondensed_500Medium_Italic.ttf.png)|![SofiaSansCondensed_600SemiBold_Italic](./600SemiBold_Italic/SofiaSansCondensed_600SemiBold_Italic.ttf.png)||
+|![SofiaSansCondensed_700Bold_Italic](./700Bold_Italic/SofiaSansCondensed_700Bold_Italic.ttf.png)|![SofiaSansCondensed_800ExtraBold_Italic](./800ExtraBold_Italic/SofiaSansCondensed_800ExtraBold_Italic.ttf.png)|![SofiaSansCondensed_900Black_Italic](./900Black_Italic/SofiaSansCondensed_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/ubuntu-sans-mono expo-font expo-app-loading
+npx expo install @expo-google-fonts/ubuntu-sans-mono expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, UbuntuSansMono_400Regular, UbuntuSansMono_500Medium, UbuntuSansMono_600SemiBold, UbuntuSansMono_700Bold, UbuntuSansMono_400Regular_Italic, UbuntuSansMono_500Medium_Italic, UbuntuSansMono_600SemiBold_Italic, UbuntuSansMono_700Bold_Italic } from '@expo-google-fonts/ubuntu-sans-mono';
+import { useFonts } from '@expo-google-fonts/ubuntu-sans-mono/useFonts';
+import { UbuntuSansMono_400Regular } from '@expo-google-fonts/ubuntu-sans-mono/400Regular';
+import { UbuntuSansMono_500Medium } from '@expo-google-fonts/ubuntu-sans-mono/500Medium';
+import { UbuntuSansMono_600SemiBold } from '@expo-google-fonts/ubuntu-sans-mono/600SemiBold';
+import { UbuntuSansMono_700Bold } from '@expo-google-fonts/ubuntu-sans-mono/700Bold';
+import { UbuntuSansMono_400Regular_Italic } from '@expo-google-fonts/ubuntu-sans-mono/400Regular_Italic';
+import { UbuntuSansMono_500Medium_Italic } from '@expo-google-fonts/ubuntu-sans-mono/500Medium_Italic';
+import { UbuntuSansMono_600SemiBold_Italic } from '@expo-google-fonts/ubuntu-sans-mono/600SemiBold_Italic';
+import { UbuntuSansMono_700Bold_Italic } from '@expo-google-fonts/ubuntu-sans-mono/700Bold_Italic';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![UbuntuSansMono_400Regular](./UbuntuSansMono_400Regular.ttf.png)|![UbuntuSansMono_500Medium](./UbuntuSansMono_500Medium.ttf.png)|![UbuntuSansMono_600SemiBold](./UbuntuSansMono_600SemiBold.ttf.png)||
-|![UbuntuSansMono_700Bold](./UbuntuSansMono_700Bold.ttf.png)|![UbuntuSansMono_400Regular_Italic](./UbuntuSansMono_400Regular_Italic.ttf.png)|![UbuntuSansMono_500Medium_Italic](./UbuntuSansMono_500Medium_Italic.ttf.png)||
-|![UbuntuSansMono_600SemiBold_Italic](./UbuntuSansMono_600SemiBold_Italic.ttf.png)|![UbuntuSansMono_700Bold_Italic](./UbuntuSansMono_700Bold_Italic.ttf.png)|||
+|![UbuntuSansMono_400Regular](./400Regular/UbuntuSansMono_400Regular.ttf.png)|![UbuntuSansMono_500Medium](./500Medium/UbuntuSansMono_500Medium.ttf.png)|![UbuntuSansMono_600SemiBold](./600SemiBold/UbuntuSansMono_600SemiBold.ttf.png)||
+|![UbuntuSansMono_700Bold](./700Bold/UbuntuSansMono_700Bold.ttf.png)|![UbuntuSansMono_400Regular_Italic](./400Regular_Italic/UbuntuSansMono_400Regular_Italic.ttf.png)|![UbuntuSansMono_500Medium_Italic](./500Medium_Italic/UbuntuSansMono_500Medium_Italic.ttf.png)||
+|![UbuntuSansMono_600SemiBold_Italic](./600SemiBold_Italic/UbuntuSansMono_600SemiBold_Italic.ttf.png)|![UbuntuSansMono_700Bold_Italic](./700Bold_Italic/UbuntuSansMono_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

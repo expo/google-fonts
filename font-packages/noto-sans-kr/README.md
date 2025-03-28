@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-kr expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-kr expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansKR_100Thin, NotoSansKR_200ExtraLight, NotoSansKR_300Light, NotoSansKR_400Regular, NotoSansKR_500Medium, NotoSansKR_600SemiBold, NotoSansKR_700Bold, NotoSansKR_800ExtraBold, NotoSansKR_900Black } from '@expo-google-fonts/noto-sans-kr';
+import { useFonts } from '@expo-google-fonts/noto-sans-kr/useFonts';
+import { NotoSansKR_100Thin } from '@expo-google-fonts/noto-sans-kr/100Thin';
+import { NotoSansKR_200ExtraLight } from '@expo-google-fonts/noto-sans-kr/200ExtraLight';
+import { NotoSansKR_300Light } from '@expo-google-fonts/noto-sans-kr/300Light';
+import { NotoSansKR_400Regular } from '@expo-google-fonts/noto-sans-kr/400Regular';
+import { NotoSansKR_500Medium } from '@expo-google-fonts/noto-sans-kr/500Medium';
+import { NotoSansKR_600SemiBold } from '@expo-google-fonts/noto-sans-kr/600SemiBold';
+import { NotoSansKR_700Bold } from '@expo-google-fonts/noto-sans-kr/700Bold';
+import { NotoSansKR_800ExtraBold } from '@expo-google-fonts/noto-sans-kr/800ExtraBold';
+import { NotoSansKR_900Black } from '@expo-google-fonts/noto-sans-kr/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansKR_100Thin](./NotoSansKR_100Thin.ttf.png)|![NotoSansKR_200ExtraLight](./NotoSansKR_200ExtraLight.ttf.png)|![NotoSansKR_300Light](./NotoSansKR_300Light.ttf.png)||
-|![NotoSansKR_400Regular](./NotoSansKR_400Regular.ttf.png)|![NotoSansKR_500Medium](./NotoSansKR_500Medium.ttf.png)|![NotoSansKR_600SemiBold](./NotoSansKR_600SemiBold.ttf.png)||
-|![NotoSansKR_700Bold](./NotoSansKR_700Bold.ttf.png)|![NotoSansKR_800ExtraBold](./NotoSansKR_800ExtraBold.ttf.png)|![NotoSansKR_900Black](./NotoSansKR_900Black.ttf.png)||
+|![NotoSansKR_100Thin](./100Thin/NotoSansKR_100Thin.ttf.png)|![NotoSansKR_200ExtraLight](./200ExtraLight/NotoSansKR_200ExtraLight.ttf.png)|![NotoSansKR_300Light](./300Light/NotoSansKR_300Light.ttf.png)||
+|![NotoSansKR_400Regular](./400Regular/NotoSansKR_400Regular.ttf.png)|![NotoSansKR_500Medium](./500Medium/NotoSansKR_500Medium.ttf.png)|![NotoSansKR_600SemiBold](./600SemiBold/NotoSansKR_600SemiBold.ttf.png)||
+|![NotoSansKR_700Bold](./700Bold/NotoSansKR_700Bold.ttf.png)|![NotoSansKR_800ExtraBold](./800ExtraBold/NotoSansKR_800ExtraBold.ttf.png)|![NotoSansKR_900Black](./900Black/NotoSansKR_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

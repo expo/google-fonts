@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-kufi-arabic expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-kufi-arabic expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoKufiArabic_100Thin, NotoKufiArabic_200ExtraLight, NotoKufiArabic_300Light, NotoKufiArabic_400Regular, NotoKufiArabic_500Medium, NotoKufiArabic_600SemiBold, NotoKufiArabic_700Bold, NotoKufiArabic_800ExtraBold, NotoKufiArabic_900Black } from '@expo-google-fonts/noto-kufi-arabic';
+import { useFonts } from '@expo-google-fonts/noto-kufi-arabic/useFonts';
+import { NotoKufiArabic_100Thin } from '@expo-google-fonts/noto-kufi-arabic/100Thin';
+import { NotoKufiArabic_200ExtraLight } from '@expo-google-fonts/noto-kufi-arabic/200ExtraLight';
+import { NotoKufiArabic_300Light } from '@expo-google-fonts/noto-kufi-arabic/300Light';
+import { NotoKufiArabic_400Regular } from '@expo-google-fonts/noto-kufi-arabic/400Regular';
+import { NotoKufiArabic_500Medium } from '@expo-google-fonts/noto-kufi-arabic/500Medium';
+import { NotoKufiArabic_600SemiBold } from '@expo-google-fonts/noto-kufi-arabic/600SemiBold';
+import { NotoKufiArabic_700Bold } from '@expo-google-fonts/noto-kufi-arabic/700Bold';
+import { NotoKufiArabic_800ExtraBold } from '@expo-google-fonts/noto-kufi-arabic/800ExtraBold';
+import { NotoKufiArabic_900Black } from '@expo-google-fonts/noto-kufi-arabic/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoKufiArabic_100Thin](./NotoKufiArabic_100Thin.ttf.png)|![NotoKufiArabic_200ExtraLight](./NotoKufiArabic_200ExtraLight.ttf.png)|![NotoKufiArabic_300Light](./NotoKufiArabic_300Light.ttf.png)||
-|![NotoKufiArabic_400Regular](./NotoKufiArabic_400Regular.ttf.png)|![NotoKufiArabic_500Medium](./NotoKufiArabic_500Medium.ttf.png)|![NotoKufiArabic_600SemiBold](./NotoKufiArabic_600SemiBold.ttf.png)||
-|![NotoKufiArabic_700Bold](./NotoKufiArabic_700Bold.ttf.png)|![NotoKufiArabic_800ExtraBold](./NotoKufiArabic_800ExtraBold.ttf.png)|![NotoKufiArabic_900Black](./NotoKufiArabic_900Black.ttf.png)||
+|![NotoKufiArabic_100Thin](./100Thin/NotoKufiArabic_100Thin.ttf.png)|![NotoKufiArabic_200ExtraLight](./200ExtraLight/NotoKufiArabic_200ExtraLight.ttf.png)|![NotoKufiArabic_300Light](./300Light/NotoKufiArabic_300Light.ttf.png)||
+|![NotoKufiArabic_400Regular](./400Regular/NotoKufiArabic_400Regular.ttf.png)|![NotoKufiArabic_500Medium](./500Medium/NotoKufiArabic_500Medium.ttf.png)|![NotoKufiArabic_600SemiBold](./600SemiBold/NotoKufiArabic_600SemiBold.ttf.png)||
+|![NotoKufiArabic_700Bold](./700Bold/NotoKufiArabic_700Bold.ttf.png)|![NotoKufiArabic_800ExtraBold](./800ExtraBold/NotoKufiArabic_800ExtraBold.ttf.png)|![NotoKufiArabic_900Black](./900Black/NotoKufiArabic_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

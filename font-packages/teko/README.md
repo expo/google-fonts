@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/teko expo-font expo-app-loading
+npx expo install @expo-google-fonts/teko expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Teko_300Light, Teko_400Regular, Teko_500Medium, Teko_600SemiBold, Teko_700Bold } from '@expo-google-fonts/teko';
+import { useFonts } from '@expo-google-fonts/teko/useFonts';
+import { Teko_300Light } from '@expo-google-fonts/teko/300Light';
+import { Teko_400Regular } from '@expo-google-fonts/teko/400Regular';
+import { Teko_500Medium } from '@expo-google-fonts/teko/500Medium';
+import { Teko_600SemiBold } from '@expo-google-fonts/teko/600SemiBold';
+import { Teko_700Bold } from '@expo-google-fonts/teko/700Bold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Teko_300Light](./Teko_300Light.ttf.png)|![Teko_400Regular](./Teko_400Regular.ttf.png)|![Teko_500Medium](./Teko_500Medium.ttf.png)||
-|![Teko_600SemiBold](./Teko_600SemiBold.ttf.png)|![Teko_700Bold](./Teko_700Bold.ttf.png)|||
+|![Teko_300Light](./300Light/Teko_300Light.ttf.png)|![Teko_400Regular](./400Regular/Teko_400Regular.ttf.png)|![Teko_500Medium](./500Medium/Teko_500Medium.ttf.png)||
+|![Teko_600SemiBold](./600SemiBold/Teko_600SemiBold.ttf.png)|![Teko_700Bold](./700Bold/Teko_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

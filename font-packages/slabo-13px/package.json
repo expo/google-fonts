@@ -1,9 +1,13 @@
 {
   "name": "@expo-google-fonts/slabo-13px",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Use the Slabo 13px font family from Google Fonts in your Expo app",
   "main": "index.js",
-  "repository": "https://github.com/expo/google-fonts.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/slabo-13px"
+  },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/slabo-13px#readme",
   "author": "Expo Team <team@expo.io>",
   "license": "MIT",

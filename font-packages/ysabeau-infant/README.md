@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/ysabeau-infant expo-font expo-app-loading
+npx expo install @expo-google-fonts/ysabeau-infant expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, YsabeauInfant_100Thin, YsabeauInfant_200ExtraLight, YsabeauInfant_300Light, YsabeauInfant_400Regular, YsabeauInfant_500Medium, YsabeauInfant_600SemiBold, YsabeauInfant_700Bold, YsabeauInfant_800ExtraBold, YsabeauInfant_900Black, YsabeauInfant_100Thin_Italic, YsabeauInfant_200ExtraLight_Italic, YsabeauInfant_300Light_Italic, YsabeauInfant_400Regular_Italic, YsabeauInfant_500Medium_Italic, YsabeauInfant_600SemiBold_Italic, YsabeauInfant_700Bold_Italic, YsabeauInfant_800ExtraBold_Italic, YsabeauInfant_900Black_Italic } from '@expo-google-fonts/ysabeau-infant';
+import { useFonts } from '@expo-google-fonts/ysabeau-infant/useFonts';
+import { YsabeauInfant_100Thin } from '@expo-google-fonts/ysabeau-infant/100Thin';
+import { YsabeauInfant_200ExtraLight } from '@expo-google-fonts/ysabeau-infant/200ExtraLight';
+import { YsabeauInfant_300Light } from '@expo-google-fonts/ysabeau-infant/300Light';
+import { YsabeauInfant_400Regular } from '@expo-google-fonts/ysabeau-infant/400Regular';
+import { YsabeauInfant_500Medium } from '@expo-google-fonts/ysabeau-infant/500Medium';
+import { YsabeauInfant_600SemiBold } from '@expo-google-fonts/ysabeau-infant/600SemiBold';
+import { YsabeauInfant_700Bold } from '@expo-google-fonts/ysabeau-infant/700Bold';
+import { YsabeauInfant_800ExtraBold } from '@expo-google-fonts/ysabeau-infant/800ExtraBold';
+import { YsabeauInfant_900Black } from '@expo-google-fonts/ysabeau-infant/900Black';
+import { YsabeauInfant_100Thin_Italic } from '@expo-google-fonts/ysabeau-infant/100Thin_Italic';
+import { YsabeauInfant_200ExtraLight_Italic } from '@expo-google-fonts/ysabeau-infant/200ExtraLight_Italic';
+import { YsabeauInfant_300Light_Italic } from '@expo-google-fonts/ysabeau-infant/300Light_Italic';
+import { YsabeauInfant_400Regular_Italic } from '@expo-google-fonts/ysabeau-infant/400Regular_Italic';
+import { YsabeauInfant_500Medium_Italic } from '@expo-google-fonts/ysabeau-infant/500Medium_Italic';
+import { YsabeauInfant_600SemiBold_Italic } from '@expo-google-fonts/ysabeau-infant/600SemiBold_Italic';
+import { YsabeauInfant_700Bold_Italic } from '@expo-google-fonts/ysabeau-infant/700Bold_Italic';
+import { YsabeauInfant_800ExtraBold_Italic } from '@expo-google-fonts/ysabeau-infant/800ExtraBold_Italic';
+import { YsabeauInfant_900Black_Italic } from '@expo-google-fonts/ysabeau-infant/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![YsabeauInfant_100Thin](./YsabeauInfant_100Thin.ttf.png)|![YsabeauInfant_200ExtraLight](./YsabeauInfant_200ExtraLight.ttf.png)|![YsabeauInfant_300Light](./YsabeauInfant_300Light.ttf.png)||
-|![YsabeauInfant_400Regular](./YsabeauInfant_400Regular.ttf.png)|![YsabeauInfant_500Medium](./YsabeauInfant_500Medium.ttf.png)|![YsabeauInfant_600SemiBold](./YsabeauInfant_600SemiBold.ttf.png)||
-|![YsabeauInfant_700Bold](./YsabeauInfant_700Bold.ttf.png)|![YsabeauInfant_800ExtraBold](./YsabeauInfant_800ExtraBold.ttf.png)|![YsabeauInfant_900Black](./YsabeauInfant_900Black.ttf.png)||
-|![YsabeauInfant_100Thin_Italic](./YsabeauInfant_100Thin_Italic.ttf.png)|![YsabeauInfant_200ExtraLight_Italic](./YsabeauInfant_200ExtraLight_Italic.ttf.png)|![YsabeauInfant_300Light_Italic](./YsabeauInfant_300Light_Italic.ttf.png)||
-|![YsabeauInfant_400Regular_Italic](./YsabeauInfant_400Regular_Italic.ttf.png)|![YsabeauInfant_500Medium_Italic](./YsabeauInfant_500Medium_Italic.ttf.png)|![YsabeauInfant_600SemiBold_Italic](./YsabeauInfant_600SemiBold_Italic.ttf.png)||
-|![YsabeauInfant_700Bold_Italic](./YsabeauInfant_700Bold_Italic.ttf.png)|![YsabeauInfant_800ExtraBold_Italic](./YsabeauInfant_800ExtraBold_Italic.ttf.png)|![YsabeauInfant_900Black_Italic](./YsabeauInfant_900Black_Italic.ttf.png)||
+|![YsabeauInfant_100Thin](./100Thin/YsabeauInfant_100Thin.ttf.png)|![YsabeauInfant_200ExtraLight](./200ExtraLight/YsabeauInfant_200ExtraLight.ttf.png)|![YsabeauInfant_300Light](./300Light/YsabeauInfant_300Light.ttf.png)||
+|![YsabeauInfant_400Regular](./400Regular/YsabeauInfant_400Regular.ttf.png)|![YsabeauInfant_500Medium](./500Medium/YsabeauInfant_500Medium.ttf.png)|![YsabeauInfant_600SemiBold](./600SemiBold/YsabeauInfant_600SemiBold.ttf.png)||
+|![YsabeauInfant_700Bold](./700Bold/YsabeauInfant_700Bold.ttf.png)|![YsabeauInfant_800ExtraBold](./800ExtraBold/YsabeauInfant_800ExtraBold.ttf.png)|![YsabeauInfant_900Black](./900Black/YsabeauInfant_900Black.ttf.png)||
+|![YsabeauInfant_100Thin_Italic](./100Thin_Italic/YsabeauInfant_100Thin_Italic.ttf.png)|![YsabeauInfant_200ExtraLight_Italic](./200ExtraLight_Italic/YsabeauInfant_200ExtraLight_Italic.ttf.png)|![YsabeauInfant_300Light_Italic](./300Light_Italic/YsabeauInfant_300Light_Italic.ttf.png)||
+|![YsabeauInfant_400Regular_Italic](./400Regular_Italic/YsabeauInfant_400Regular_Italic.ttf.png)|![YsabeauInfant_500Medium_Italic](./500Medium_Italic/YsabeauInfant_500Medium_Italic.ttf.png)|![YsabeauInfant_600SemiBold_Italic](./600SemiBold_Italic/YsabeauInfant_600SemiBold_Italic.ttf.png)||
+|![YsabeauInfant_700Bold_Italic](./700Bold_Italic/YsabeauInfant_700Bold_Italic.ttf.png)|![YsabeauInfant_800ExtraBold_Italic](./800ExtraBold_Italic/YsabeauInfant_800ExtraBold_Italic.ttf.png)|![YsabeauInfant_900Black_Italic](./900Black_Italic/YsabeauInfant_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

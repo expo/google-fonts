@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/trispace expo-font expo-app-loading
+npx expo install @expo-google-fonts/trispace expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Trispace_100Thin, Trispace_200ExtraLight, Trispace_300Light, Trispace_400Regular, Trispace_500Medium, Trispace_600SemiBold, Trispace_700Bold, Trispace_800ExtraBold } from '@expo-google-fonts/trispace';
+import { useFonts } from '@expo-google-fonts/trispace/useFonts';
+import { Trispace_100Thin } from '@expo-google-fonts/trispace/100Thin';
+import { Trispace_200ExtraLight } from '@expo-google-fonts/trispace/200ExtraLight';
+import { Trispace_300Light } from '@expo-google-fonts/trispace/300Light';
+import { Trispace_400Regular } from '@expo-google-fonts/trispace/400Regular';
+import { Trispace_500Medium } from '@expo-google-fonts/trispace/500Medium';
+import { Trispace_600SemiBold } from '@expo-google-fonts/trispace/600SemiBold';
+import { Trispace_700Bold } from '@expo-google-fonts/trispace/700Bold';
+import { Trispace_800ExtraBold } from '@expo-google-fonts/trispace/800ExtraBold';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Trispace_100Thin](./Trispace_100Thin.ttf.png)|![Trispace_200ExtraLight](./Trispace_200ExtraLight.ttf.png)|![Trispace_300Light](./Trispace_300Light.ttf.png)||
-|![Trispace_400Regular](./Trispace_400Regular.ttf.png)|![Trispace_500Medium](./Trispace_500Medium.ttf.png)|![Trispace_600SemiBold](./Trispace_600SemiBold.ttf.png)||
-|![Trispace_700Bold](./Trispace_700Bold.ttf.png)|![Trispace_800ExtraBold](./Trispace_800ExtraBold.ttf.png)|||
+|![Trispace_100Thin](./100Thin/Trispace_100Thin.ttf.png)|![Trispace_200ExtraLight](./200ExtraLight/Trispace_200ExtraLight.ttf.png)|![Trispace_300Light](./300Light/Trispace_300Light.ttf.png)||
+|![Trispace_400Regular](./400Regular/Trispace_400Regular.ttf.png)|![Trispace_500Medium](./500Medium/Trispace_500Medium.ttf.png)|![Trispace_600SemiBold](./600SemiBold/Trispace_600SemiBold.ttf.png)||
+|![Trispace_700Bold](./700Bold/Trispace_700Bold.ttf.png)|![Trispace_800ExtraBold](./800ExtraBold/Trispace_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

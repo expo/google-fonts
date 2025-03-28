@@ -22,7 +22,7 @@ This font family contains [3 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/gayathri expo-font expo-app-loading
+npx expo install @expo-google-fonts/gayathri expo-font
 ```
 
 Now add code like this to your project
@@ -31,8 +31,10 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Gayathri_100Thin, Gayathri_400Regular, Gayathri_700Bold } from '@expo-google-fonts/gayathri';
+import { useFonts } from '@expo-google-fonts/gayathri/useFonts';
+import { Gayathri_100Thin } from '@expo-google-fonts/gayathri/100Thin';
+import { Gayathri_400Regular } from '@expo-google-fonts/gayathri/400Regular';
+import { Gayathri_700Bold } from '@expo-google-fonts/gayathri/700Bold';
 
 export default () => {
 
@@ -46,7 +48,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -85,7 +87,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Gayathri_100Thin](./Gayathri_100Thin.ttf.png)|![Gayathri_400Regular](./Gayathri_400Regular.ttf.png)|![Gayathri_700Bold](./Gayathri_700Bold.ttf.png)||
+|![Gayathri_100Thin](./100Thin/Gayathri_100Thin.ttf.png)|![Gayathri_400Regular](./400Regular/Gayathri_400Regular.ttf.png)|![Gayathri_700Bold](./700Bold/Gayathri_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

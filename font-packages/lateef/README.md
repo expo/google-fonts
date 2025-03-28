@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/lateef expo-font expo-app-loading
+npx expo install @expo-google-fonts/lateef expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Lateef_200ExtraLight, Lateef_300Light, Lateef_400Regular, Lateef_500Medium, Lateef_600SemiBold, Lateef_700Bold, Lateef_800ExtraBold } from '@expo-google-fonts/lateef';
+import { useFonts } from '@expo-google-fonts/lateef/useFonts';
+import { Lateef_200ExtraLight } from '@expo-google-fonts/lateef/200ExtraLight';
+import { Lateef_300Light } from '@expo-google-fonts/lateef/300Light';
+import { Lateef_400Regular } from '@expo-google-fonts/lateef/400Regular';
+import { Lateef_500Medium } from '@expo-google-fonts/lateef/500Medium';
+import { Lateef_600SemiBold } from '@expo-google-fonts/lateef/600SemiBold';
+import { Lateef_700Bold } from '@expo-google-fonts/lateef/700Bold';
+import { Lateef_800ExtraBold } from '@expo-google-fonts/lateef/800ExtraBold';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Lateef_200ExtraLight](./Lateef_200ExtraLight.ttf.png)|![Lateef_300Light](./Lateef_300Light.ttf.png)|![Lateef_400Regular](./Lateef_400Regular.ttf.png)||
-|![Lateef_500Medium](./Lateef_500Medium.ttf.png)|![Lateef_600SemiBold](./Lateef_600SemiBold.ttf.png)|![Lateef_700Bold](./Lateef_700Bold.ttf.png)||
-|![Lateef_800ExtraBold](./Lateef_800ExtraBold.ttf.png)||||
+|![Lateef_200ExtraLight](./200ExtraLight/Lateef_200ExtraLight.ttf.png)|![Lateef_300Light](./300Light/Lateef_300Light.ttf.png)|![Lateef_400Regular](./400Regular/Lateef_400Regular.ttf.png)||
+|![Lateef_500Medium](./500Medium/Lateef_500Medium.ttf.png)|![Lateef_600SemiBold](./600SemiBold/Lateef_600SemiBold.ttf.png)|![Lateef_700Bold](./700Bold/Lateef_700Bold.ttf.png)||
+|![Lateef_800ExtraBold](./800ExtraBold/Lateef_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

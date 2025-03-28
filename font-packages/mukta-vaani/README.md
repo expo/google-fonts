@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/mukta-vaani expo-font expo-app-loading
+npx expo install @expo-google-fonts/mukta-vaani expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, MuktaVaani_200ExtraLight, MuktaVaani_300Light, MuktaVaani_400Regular, MuktaVaani_500Medium, MuktaVaani_600SemiBold, MuktaVaani_700Bold, MuktaVaani_800ExtraBold } from '@expo-google-fonts/mukta-vaani';
+import { useFonts } from '@expo-google-fonts/mukta-vaani/useFonts';
+import { MuktaVaani_200ExtraLight } from '@expo-google-fonts/mukta-vaani/200ExtraLight';
+import { MuktaVaani_300Light } from '@expo-google-fonts/mukta-vaani/300Light';
+import { MuktaVaani_400Regular } from '@expo-google-fonts/mukta-vaani/400Regular';
+import { MuktaVaani_500Medium } from '@expo-google-fonts/mukta-vaani/500Medium';
+import { MuktaVaani_600SemiBold } from '@expo-google-fonts/mukta-vaani/600SemiBold';
+import { MuktaVaani_700Bold } from '@expo-google-fonts/mukta-vaani/700Bold';
+import { MuktaVaani_800ExtraBold } from '@expo-google-fonts/mukta-vaani/800ExtraBold';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MuktaVaani_200ExtraLight](./MuktaVaani_200ExtraLight.ttf.png)|![MuktaVaani_300Light](./MuktaVaani_300Light.ttf.png)|![MuktaVaani_400Regular](./MuktaVaani_400Regular.ttf.png)||
-|![MuktaVaani_500Medium](./MuktaVaani_500Medium.ttf.png)|![MuktaVaani_600SemiBold](./MuktaVaani_600SemiBold.ttf.png)|![MuktaVaani_700Bold](./MuktaVaani_700Bold.ttf.png)||
-|![MuktaVaani_800ExtraBold](./MuktaVaani_800ExtraBold.ttf.png)||||
+|![MuktaVaani_200ExtraLight](./200ExtraLight/MuktaVaani_200ExtraLight.ttf.png)|![MuktaVaani_300Light](./300Light/MuktaVaani_300Light.ttf.png)|![MuktaVaani_400Regular](./400Regular/MuktaVaani_400Regular.ttf.png)||
+|![MuktaVaani_500Medium](./500Medium/MuktaVaani_500Medium.ttf.png)|![MuktaVaani_600SemiBold](./600SemiBold/MuktaVaani_600SemiBold.ttf.png)|![MuktaVaani_700Bold](./700Bold/MuktaVaani_700Bold.ttf.png)||
+|![MuktaVaani_800ExtraBold](./800ExtraBold/MuktaVaani_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

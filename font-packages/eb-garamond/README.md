@@ -29,7 +29,7 @@ This font family contains [10 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/eb-garamond expo-font expo-app-loading
+npx expo install @expo-google-fonts/eb-garamond expo-font
 ```
 
 Now add code like this to your project
@@ -38,8 +38,17 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, EBGaramond_400Regular, EBGaramond_500Medium, EBGaramond_600SemiBold, EBGaramond_700Bold, EBGaramond_800ExtraBold, EBGaramond_400Regular_Italic, EBGaramond_500Medium_Italic, EBGaramond_600SemiBold_Italic, EBGaramond_700Bold_Italic, EBGaramond_800ExtraBold_Italic } from '@expo-google-fonts/eb-garamond';
+import { useFonts } from '@expo-google-fonts/eb-garamond/useFonts';
+import { EBGaramond_400Regular } from '@expo-google-fonts/eb-garamond/400Regular';
+import { EBGaramond_500Medium } from '@expo-google-fonts/eb-garamond/500Medium';
+import { EBGaramond_600SemiBold } from '@expo-google-fonts/eb-garamond/600SemiBold';
+import { EBGaramond_700Bold } from '@expo-google-fonts/eb-garamond/700Bold';
+import { EBGaramond_800ExtraBold } from '@expo-google-fonts/eb-garamond/800ExtraBold';
+import { EBGaramond_400Regular_Italic } from '@expo-google-fonts/eb-garamond/400Regular_Italic';
+import { EBGaramond_500Medium_Italic } from '@expo-google-fonts/eb-garamond/500Medium_Italic';
+import { EBGaramond_600SemiBold_Italic } from '@expo-google-fonts/eb-garamond/600SemiBold_Italic';
+import { EBGaramond_700Bold_Italic } from '@expo-google-fonts/eb-garamond/700Bold_Italic';
+import { EBGaramond_800ExtraBold_Italic } from '@expo-google-fonts/eb-garamond/800ExtraBold_Italic';
 
 export default () => {
 
@@ -60,7 +69,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -155,10 +164,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EBGaramond_400Regular](./EBGaramond_400Regular.ttf.png)|![EBGaramond_500Medium](./EBGaramond_500Medium.ttf.png)|![EBGaramond_600SemiBold](./EBGaramond_600SemiBold.ttf.png)||
-|![EBGaramond_700Bold](./EBGaramond_700Bold.ttf.png)|![EBGaramond_800ExtraBold](./EBGaramond_800ExtraBold.ttf.png)|![EBGaramond_400Regular_Italic](./EBGaramond_400Regular_Italic.ttf.png)||
-|![EBGaramond_500Medium_Italic](./EBGaramond_500Medium_Italic.ttf.png)|![EBGaramond_600SemiBold_Italic](./EBGaramond_600SemiBold_Italic.ttf.png)|![EBGaramond_700Bold_Italic](./EBGaramond_700Bold_Italic.ttf.png)||
-|![EBGaramond_800ExtraBold_Italic](./EBGaramond_800ExtraBold_Italic.ttf.png)||||
+|![EBGaramond_400Regular](./400Regular/EBGaramond_400Regular.ttf.png)|![EBGaramond_500Medium](./500Medium/EBGaramond_500Medium.ttf.png)|![EBGaramond_600SemiBold](./600SemiBold/EBGaramond_600SemiBold.ttf.png)||
+|![EBGaramond_700Bold](./700Bold/EBGaramond_700Bold.ttf.png)|![EBGaramond_800ExtraBold](./800ExtraBold/EBGaramond_800ExtraBold.ttf.png)|![EBGaramond_400Regular_Italic](./400Regular_Italic/EBGaramond_400Regular_Italic.ttf.png)||
+|![EBGaramond_500Medium_Italic](./500Medium_Italic/EBGaramond_500Medium_Italic.ttf.png)|![EBGaramond_600SemiBold_Italic](./600SemiBold_Italic/EBGaramond_600SemiBold_Italic.ttf.png)|![EBGaramond_700Bold_Italic](./700Bold_Italic/EBGaramond_700Bold_Italic.ttf.png)||
+|![EBGaramond_800ExtraBold_Italic](./800ExtraBold_Italic/EBGaramond_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

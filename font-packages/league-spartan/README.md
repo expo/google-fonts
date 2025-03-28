@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/league-spartan expo-font expo-app-loading
+npx expo install @expo-google-fonts/league-spartan expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, LeagueSpartan_100Thin, LeagueSpartan_200ExtraLight, LeagueSpartan_300Light, LeagueSpartan_400Regular, LeagueSpartan_500Medium, LeagueSpartan_600SemiBold, LeagueSpartan_700Bold, LeagueSpartan_800ExtraBold, LeagueSpartan_900Black } from '@expo-google-fonts/league-spartan';
+import { useFonts } from '@expo-google-fonts/league-spartan/useFonts';
+import { LeagueSpartan_100Thin } from '@expo-google-fonts/league-spartan/100Thin';
+import { LeagueSpartan_200ExtraLight } from '@expo-google-fonts/league-spartan/200ExtraLight';
+import { LeagueSpartan_300Light } from '@expo-google-fonts/league-spartan/300Light';
+import { LeagueSpartan_400Regular } from '@expo-google-fonts/league-spartan/400Regular';
+import { LeagueSpartan_500Medium } from '@expo-google-fonts/league-spartan/500Medium';
+import { LeagueSpartan_600SemiBold } from '@expo-google-fonts/league-spartan/600SemiBold';
+import { LeagueSpartan_700Bold } from '@expo-google-fonts/league-spartan/700Bold';
+import { LeagueSpartan_800ExtraBold } from '@expo-google-fonts/league-spartan/800ExtraBold';
+import { LeagueSpartan_900Black } from '@expo-google-fonts/league-spartan/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LeagueSpartan_100Thin](./LeagueSpartan_100Thin.ttf.png)|![LeagueSpartan_200ExtraLight](./LeagueSpartan_200ExtraLight.ttf.png)|![LeagueSpartan_300Light](./LeagueSpartan_300Light.ttf.png)||
-|![LeagueSpartan_400Regular](./LeagueSpartan_400Regular.ttf.png)|![LeagueSpartan_500Medium](./LeagueSpartan_500Medium.ttf.png)|![LeagueSpartan_600SemiBold](./LeagueSpartan_600SemiBold.ttf.png)||
-|![LeagueSpartan_700Bold](./LeagueSpartan_700Bold.ttf.png)|![LeagueSpartan_800ExtraBold](./LeagueSpartan_800ExtraBold.ttf.png)|![LeagueSpartan_900Black](./LeagueSpartan_900Black.ttf.png)||
+|![LeagueSpartan_100Thin](./100Thin/LeagueSpartan_100Thin.ttf.png)|![LeagueSpartan_200ExtraLight](./200ExtraLight/LeagueSpartan_200ExtraLight.ttf.png)|![LeagueSpartan_300Light](./300Light/LeagueSpartan_300Light.ttf.png)||
+|![LeagueSpartan_400Regular](./400Regular/LeagueSpartan_400Regular.ttf.png)|![LeagueSpartan_500Medium](./500Medium/LeagueSpartan_500Medium.ttf.png)|![LeagueSpartan_600SemiBold](./600SemiBold/LeagueSpartan_600SemiBold.ttf.png)||
+|![LeagueSpartan_700Bold](./700Bold/LeagueSpartan_700Bold.ttf.png)|![LeagueSpartan_800ExtraBold](./800ExtraBold/LeagueSpartan_800ExtraBold.ttf.png)|![LeagueSpartan_900Black](./900Black/LeagueSpartan_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

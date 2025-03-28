@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/alumni-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/alumni-sans expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, AlumniSans_100Thin, AlumniSans_200ExtraLight, AlumniSans_300Light, AlumniSans_400Regular, AlumniSans_500Medium, AlumniSans_600SemiBold, AlumniSans_700Bold, AlumniSans_800ExtraBold, AlumniSans_900Black, AlumniSans_100Thin_Italic, AlumniSans_200ExtraLight_Italic, AlumniSans_300Light_Italic, AlumniSans_400Regular_Italic, AlumniSans_500Medium_Italic, AlumniSans_600SemiBold_Italic, AlumniSans_700Bold_Italic, AlumniSans_800ExtraBold_Italic, AlumniSans_900Black_Italic } from '@expo-google-fonts/alumni-sans';
+import { useFonts } from '@expo-google-fonts/alumni-sans/useFonts';
+import { AlumniSans_100Thin } from '@expo-google-fonts/alumni-sans/100Thin';
+import { AlumniSans_200ExtraLight } from '@expo-google-fonts/alumni-sans/200ExtraLight';
+import { AlumniSans_300Light } from '@expo-google-fonts/alumni-sans/300Light';
+import { AlumniSans_400Regular } from '@expo-google-fonts/alumni-sans/400Regular';
+import { AlumniSans_500Medium } from '@expo-google-fonts/alumni-sans/500Medium';
+import { AlumniSans_600SemiBold } from '@expo-google-fonts/alumni-sans/600SemiBold';
+import { AlumniSans_700Bold } from '@expo-google-fonts/alumni-sans/700Bold';
+import { AlumniSans_800ExtraBold } from '@expo-google-fonts/alumni-sans/800ExtraBold';
+import { AlumniSans_900Black } from '@expo-google-fonts/alumni-sans/900Black';
+import { AlumniSans_100Thin_Italic } from '@expo-google-fonts/alumni-sans/100Thin_Italic';
+import { AlumniSans_200ExtraLight_Italic } from '@expo-google-fonts/alumni-sans/200ExtraLight_Italic';
+import { AlumniSans_300Light_Italic } from '@expo-google-fonts/alumni-sans/300Light_Italic';
+import { AlumniSans_400Regular_Italic } from '@expo-google-fonts/alumni-sans/400Regular_Italic';
+import { AlumniSans_500Medium_Italic } from '@expo-google-fonts/alumni-sans/500Medium_Italic';
+import { AlumniSans_600SemiBold_Italic } from '@expo-google-fonts/alumni-sans/600SemiBold_Italic';
+import { AlumniSans_700Bold_Italic } from '@expo-google-fonts/alumni-sans/700Bold_Italic';
+import { AlumniSans_800ExtraBold_Italic } from '@expo-google-fonts/alumni-sans/800ExtraBold_Italic';
+import { AlumniSans_900Black_Italic } from '@expo-google-fonts/alumni-sans/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AlumniSans_100Thin](./AlumniSans_100Thin.ttf.png)|![AlumniSans_200ExtraLight](./AlumniSans_200ExtraLight.ttf.png)|![AlumniSans_300Light](./AlumniSans_300Light.ttf.png)||
-|![AlumniSans_400Regular](./AlumniSans_400Regular.ttf.png)|![AlumniSans_500Medium](./AlumniSans_500Medium.ttf.png)|![AlumniSans_600SemiBold](./AlumniSans_600SemiBold.ttf.png)||
-|![AlumniSans_700Bold](./AlumniSans_700Bold.ttf.png)|![AlumniSans_800ExtraBold](./AlumniSans_800ExtraBold.ttf.png)|![AlumniSans_900Black](./AlumniSans_900Black.ttf.png)||
-|![AlumniSans_100Thin_Italic](./AlumniSans_100Thin_Italic.ttf.png)|![AlumniSans_200ExtraLight_Italic](./AlumniSans_200ExtraLight_Italic.ttf.png)|![AlumniSans_300Light_Italic](./AlumniSans_300Light_Italic.ttf.png)||
-|![AlumniSans_400Regular_Italic](./AlumniSans_400Regular_Italic.ttf.png)|![AlumniSans_500Medium_Italic](./AlumniSans_500Medium_Italic.ttf.png)|![AlumniSans_600SemiBold_Italic](./AlumniSans_600SemiBold_Italic.ttf.png)||
-|![AlumniSans_700Bold_Italic](./AlumniSans_700Bold_Italic.ttf.png)|![AlumniSans_800ExtraBold_Italic](./AlumniSans_800ExtraBold_Italic.ttf.png)|![AlumniSans_900Black_Italic](./AlumniSans_900Black_Italic.ttf.png)||
+|![AlumniSans_100Thin](./100Thin/AlumniSans_100Thin.ttf.png)|![AlumniSans_200ExtraLight](./200ExtraLight/AlumniSans_200ExtraLight.ttf.png)|![AlumniSans_300Light](./300Light/AlumniSans_300Light.ttf.png)||
+|![AlumniSans_400Regular](./400Regular/AlumniSans_400Regular.ttf.png)|![AlumniSans_500Medium](./500Medium/AlumniSans_500Medium.ttf.png)|![AlumniSans_600SemiBold](./600SemiBold/AlumniSans_600SemiBold.ttf.png)||
+|![AlumniSans_700Bold](./700Bold/AlumniSans_700Bold.ttf.png)|![AlumniSans_800ExtraBold](./800ExtraBold/AlumniSans_800ExtraBold.ttf.png)|![AlumniSans_900Black](./900Black/AlumniSans_900Black.ttf.png)||
+|![AlumniSans_100Thin_Italic](./100Thin_Italic/AlumniSans_100Thin_Italic.ttf.png)|![AlumniSans_200ExtraLight_Italic](./200ExtraLight_Italic/AlumniSans_200ExtraLight_Italic.ttf.png)|![AlumniSans_300Light_Italic](./300Light_Italic/AlumniSans_300Light_Italic.ttf.png)||
+|![AlumniSans_400Regular_Italic](./400Regular_Italic/AlumniSans_400Regular_Italic.ttf.png)|![AlumniSans_500Medium_Italic](./500Medium_Italic/AlumniSans_500Medium_Italic.ttf.png)|![AlumniSans_600SemiBold_Italic](./600SemiBold_Italic/AlumniSans_600SemiBold_Italic.ttf.png)||
+|![AlumniSans_700Bold_Italic](./700Bold_Italic/AlumniSans_700Bold_Italic.ttf.png)|![AlumniSans_800ExtraBold_Italic](./800ExtraBold_Italic/AlumniSans_800ExtraBold_Italic.ttf.png)|![AlumniSans_900Black_Italic](./900Black_Italic/AlumniSans_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

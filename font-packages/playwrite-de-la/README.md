@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/playwrite-de-la expo-font expo-app-loading
+npx expo install @expo-google-fonts/playwrite-de-la expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PlaywriteDELA_100Thin, PlaywriteDELA_200ExtraLight, PlaywriteDELA_300Light, PlaywriteDELA_400Regular } from '@expo-google-fonts/playwrite-de-la';
+import { useFonts } from '@expo-google-fonts/playwrite-de-la/useFonts';
+import { PlaywriteDELA_100Thin } from '@expo-google-fonts/playwrite-de-la/100Thin';
+import { PlaywriteDELA_200ExtraLight } from '@expo-google-fonts/playwrite-de-la/200ExtraLight';
+import { PlaywriteDELA_300Light } from '@expo-google-fonts/playwrite-de-la/300Light';
+import { PlaywriteDELA_400Regular } from '@expo-google-fonts/playwrite-de-la/400Regular';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteDELA_100Thin](./PlaywriteDELA_100Thin.ttf.png)|![PlaywriteDELA_200ExtraLight](./PlaywriteDELA_200ExtraLight.ttf.png)|![PlaywriteDELA_300Light](./PlaywriteDELA_300Light.ttf.png)||
-|![PlaywriteDELA_400Regular](./PlaywriteDELA_400Regular.ttf.png)||||
+|![PlaywriteDELA_100Thin](./100Thin/PlaywriteDELA_100Thin.ttf.png)|![PlaywriteDELA_200ExtraLight](./200ExtraLight/PlaywriteDELA_200ExtraLight.ttf.png)|![PlaywriteDELA_300Light](./300Light/PlaywriteDELA_300Light.ttf.png)||
+|![PlaywriteDELA_400Regular](./400Regular/PlaywriteDELA_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

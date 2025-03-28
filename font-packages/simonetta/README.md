@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/simonetta expo-font expo-app-loading
+npx expo install @expo-google-fonts/simonetta expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Simonetta_400Regular, Simonetta_400Regular_Italic, Simonetta_900Black, Simonetta_900Black_Italic } from '@expo-google-fonts/simonetta';
+import { useFonts } from '@expo-google-fonts/simonetta/useFonts';
+import { Simonetta_400Regular } from '@expo-google-fonts/simonetta/400Regular';
+import { Simonetta_400Regular_Italic } from '@expo-google-fonts/simonetta/400Regular_Italic';
+import { Simonetta_900Black } from '@expo-google-fonts/simonetta/900Black';
+import { Simonetta_900Black_Italic } from '@expo-google-fonts/simonetta/900Black_Italic';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Simonetta_400Regular](./Simonetta_400Regular.ttf.png)|![Simonetta_400Regular_Italic](./Simonetta_400Regular_Italic.ttf.png)|![Simonetta_900Black](./Simonetta_900Black.ttf.png)||
-|![Simonetta_900Black_Italic](./Simonetta_900Black_Italic.ttf.png)||||
+|![Simonetta_400Regular](./400Regular/Simonetta_400Regular.ttf.png)|![Simonetta_400Regular_Italic](./400Regular_Italic/Simonetta_400Regular_Italic.ttf.png)|![Simonetta_900Black](./900Black/Simonetta_900Black.ttf.png)||
+|![Simonetta_900Black_Italic](./900Black_Italic/Simonetta_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/georama expo-font expo-app-loading
+npx expo install @expo-google-fonts/georama expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Georama_100Thin, Georama_200ExtraLight, Georama_300Light, Georama_400Regular, Georama_500Medium, Georama_600SemiBold, Georama_700Bold, Georama_800ExtraBold, Georama_900Black, Georama_100Thin_Italic, Georama_200ExtraLight_Italic, Georama_300Light_Italic, Georama_400Regular_Italic, Georama_500Medium_Italic, Georama_600SemiBold_Italic, Georama_700Bold_Italic, Georama_800ExtraBold_Italic, Georama_900Black_Italic } from '@expo-google-fonts/georama';
+import { useFonts } from '@expo-google-fonts/georama/useFonts';
+import { Georama_100Thin } from '@expo-google-fonts/georama/100Thin';
+import { Georama_200ExtraLight } from '@expo-google-fonts/georama/200ExtraLight';
+import { Georama_300Light } from '@expo-google-fonts/georama/300Light';
+import { Georama_400Regular } from '@expo-google-fonts/georama/400Regular';
+import { Georama_500Medium } from '@expo-google-fonts/georama/500Medium';
+import { Georama_600SemiBold } from '@expo-google-fonts/georama/600SemiBold';
+import { Georama_700Bold } from '@expo-google-fonts/georama/700Bold';
+import { Georama_800ExtraBold } from '@expo-google-fonts/georama/800ExtraBold';
+import { Georama_900Black } from '@expo-google-fonts/georama/900Black';
+import { Georama_100Thin_Italic } from '@expo-google-fonts/georama/100Thin_Italic';
+import { Georama_200ExtraLight_Italic } from '@expo-google-fonts/georama/200ExtraLight_Italic';
+import { Georama_300Light_Italic } from '@expo-google-fonts/georama/300Light_Italic';
+import { Georama_400Regular_Italic } from '@expo-google-fonts/georama/400Regular_Italic';
+import { Georama_500Medium_Italic } from '@expo-google-fonts/georama/500Medium_Italic';
+import { Georama_600SemiBold_Italic } from '@expo-google-fonts/georama/600SemiBold_Italic';
+import { Georama_700Bold_Italic } from '@expo-google-fonts/georama/700Bold_Italic';
+import { Georama_800ExtraBold_Italic } from '@expo-google-fonts/georama/800ExtraBold_Italic';
+import { Georama_900Black_Italic } from '@expo-google-fonts/georama/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Georama_100Thin](./Georama_100Thin.ttf.png)|![Georama_200ExtraLight](./Georama_200ExtraLight.ttf.png)|![Georama_300Light](./Georama_300Light.ttf.png)||
-|![Georama_400Regular](./Georama_400Regular.ttf.png)|![Georama_500Medium](./Georama_500Medium.ttf.png)|![Georama_600SemiBold](./Georama_600SemiBold.ttf.png)||
-|![Georama_700Bold](./Georama_700Bold.ttf.png)|![Georama_800ExtraBold](./Georama_800ExtraBold.ttf.png)|![Georama_900Black](./Georama_900Black.ttf.png)||
-|![Georama_100Thin_Italic](./Georama_100Thin_Italic.ttf.png)|![Georama_200ExtraLight_Italic](./Georama_200ExtraLight_Italic.ttf.png)|![Georama_300Light_Italic](./Georama_300Light_Italic.ttf.png)||
-|![Georama_400Regular_Italic](./Georama_400Regular_Italic.ttf.png)|![Georama_500Medium_Italic](./Georama_500Medium_Italic.ttf.png)|![Georama_600SemiBold_Italic](./Georama_600SemiBold_Italic.ttf.png)||
-|![Georama_700Bold_Italic](./Georama_700Bold_Italic.ttf.png)|![Georama_800ExtraBold_Italic](./Georama_800ExtraBold_Italic.ttf.png)|![Georama_900Black_Italic](./Georama_900Black_Italic.ttf.png)||
+|![Georama_100Thin](./100Thin/Georama_100Thin.ttf.png)|![Georama_200ExtraLight](./200ExtraLight/Georama_200ExtraLight.ttf.png)|![Georama_300Light](./300Light/Georama_300Light.ttf.png)||
+|![Georama_400Regular](./400Regular/Georama_400Regular.ttf.png)|![Georama_500Medium](./500Medium/Georama_500Medium.ttf.png)|![Georama_600SemiBold](./600SemiBold/Georama_600SemiBold.ttf.png)||
+|![Georama_700Bold](./700Bold/Georama_700Bold.ttf.png)|![Georama_800ExtraBold](./800ExtraBold/Georama_800ExtraBold.ttf.png)|![Georama_900Black](./900Black/Georama_900Black.ttf.png)||
+|![Georama_100Thin_Italic](./100Thin_Italic/Georama_100Thin_Italic.ttf.png)|![Georama_200ExtraLight_Italic](./200ExtraLight_Italic/Georama_200ExtraLight_Italic.ttf.png)|![Georama_300Light_Italic](./300Light_Italic/Georama_300Light_Italic.ttf.png)||
+|![Georama_400Regular_Italic](./400Regular_Italic/Georama_400Regular_Italic.ttf.png)|![Georama_500Medium_Italic](./500Medium_Italic/Georama_500Medium_Italic.ttf.png)|![Georama_600SemiBold_Italic](./600SemiBold_Italic/Georama_600SemiBold_Italic.ttf.png)||
+|![Georama_700Bold_Italic](./700Bold_Italic/Georama_700Bold_Italic.ttf.png)|![Georama_800ExtraBold_Italic](./800ExtraBold_Italic/Georama_800ExtraBold_Italic.ttf.png)|![Georama_900Black_Italic](./900Black_Italic/Georama_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

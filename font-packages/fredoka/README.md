@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/fredoka expo-font expo-app-loading
+npx expo install @expo-google-fonts/fredoka expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Fredoka_300Light, Fredoka_400Regular, Fredoka_500Medium, Fredoka_600SemiBold, Fredoka_700Bold } from '@expo-google-fonts/fredoka';
+import { useFonts } from '@expo-google-fonts/fredoka/useFonts';
+import { Fredoka_300Light } from '@expo-google-fonts/fredoka/300Light';
+import { Fredoka_400Regular } from '@expo-google-fonts/fredoka/400Regular';
+import { Fredoka_500Medium } from '@expo-google-fonts/fredoka/500Medium';
+import { Fredoka_600SemiBold } from '@expo-google-fonts/fredoka/600SemiBold';
+import { Fredoka_700Bold } from '@expo-google-fonts/fredoka/700Bold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Fredoka_300Light](./Fredoka_300Light.ttf.png)|![Fredoka_400Regular](./Fredoka_400Regular.ttf.png)|![Fredoka_500Medium](./Fredoka_500Medium.ttf.png)||
-|![Fredoka_600SemiBold](./Fredoka_600SemiBold.ttf.png)|![Fredoka_700Bold](./Fredoka_700Bold.ttf.png)|||
+|![Fredoka_300Light](./300Light/Fredoka_300Light.ttf.png)|![Fredoka_400Regular](./400Regular/Fredoka_400Regular.ttf.png)|![Fredoka_500Medium](./500Medium/Fredoka_500Medium.ttf.png)||
+|![Fredoka_600SemiBold](./600SemiBold/Fredoka_600SemiBold.ttf.png)|![Fredoka_700Bold](./700Bold/Fredoka_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

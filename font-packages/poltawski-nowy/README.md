@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/poltawski-nowy expo-font expo-app-loading
+npx expo install @expo-google-fonts/poltawski-nowy expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PoltawskiNowy_400Regular, PoltawskiNowy_500Medium, PoltawskiNowy_600SemiBold, PoltawskiNowy_700Bold, PoltawskiNowy_400Regular_Italic, PoltawskiNowy_500Medium_Italic, PoltawskiNowy_600SemiBold_Italic, PoltawskiNowy_700Bold_Italic } from '@expo-google-fonts/poltawski-nowy';
+import { useFonts } from '@expo-google-fonts/poltawski-nowy/useFonts';
+import { PoltawskiNowy_400Regular } from '@expo-google-fonts/poltawski-nowy/400Regular';
+import { PoltawskiNowy_500Medium } from '@expo-google-fonts/poltawski-nowy/500Medium';
+import { PoltawskiNowy_600SemiBold } from '@expo-google-fonts/poltawski-nowy/600SemiBold';
+import { PoltawskiNowy_700Bold } from '@expo-google-fonts/poltawski-nowy/700Bold';
+import { PoltawskiNowy_400Regular_Italic } from '@expo-google-fonts/poltawski-nowy/400Regular_Italic';
+import { PoltawskiNowy_500Medium_Italic } from '@expo-google-fonts/poltawski-nowy/500Medium_Italic';
+import { PoltawskiNowy_600SemiBold_Italic } from '@expo-google-fonts/poltawski-nowy/600SemiBold_Italic';
+import { PoltawskiNowy_700Bold_Italic } from '@expo-google-fonts/poltawski-nowy/700Bold_Italic';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PoltawskiNowy_400Regular](./PoltawskiNowy_400Regular.ttf.png)|![PoltawskiNowy_500Medium](./PoltawskiNowy_500Medium.ttf.png)|![PoltawskiNowy_600SemiBold](./PoltawskiNowy_600SemiBold.ttf.png)||
-|![PoltawskiNowy_700Bold](./PoltawskiNowy_700Bold.ttf.png)|![PoltawskiNowy_400Regular_Italic](./PoltawskiNowy_400Regular_Italic.ttf.png)|![PoltawskiNowy_500Medium_Italic](./PoltawskiNowy_500Medium_Italic.ttf.png)||
-|![PoltawskiNowy_600SemiBold_Italic](./PoltawskiNowy_600SemiBold_Italic.ttf.png)|![PoltawskiNowy_700Bold_Italic](./PoltawskiNowy_700Bold_Italic.ttf.png)|||
+|![PoltawskiNowy_400Regular](./400Regular/PoltawskiNowy_400Regular.ttf.png)|![PoltawskiNowy_500Medium](./500Medium/PoltawskiNowy_500Medium.ttf.png)|![PoltawskiNowy_600SemiBold](./600SemiBold/PoltawskiNowy_600SemiBold.ttf.png)||
+|![PoltawskiNowy_700Bold](./700Bold/PoltawskiNowy_700Bold.ttf.png)|![PoltawskiNowy_400Regular_Italic](./400Regular_Italic/PoltawskiNowy_400Regular_Italic.ttf.png)|![PoltawskiNowy_500Medium_Italic](./500Medium_Italic/PoltawskiNowy_500Medium_Italic.ttf.png)||
+|![PoltawskiNowy_600SemiBold_Italic](./600SemiBold_Italic/PoltawskiNowy_600SemiBold_Italic.ttf.png)|![PoltawskiNowy_700Bold_Italic](./700Bold_Italic/PoltawskiNowy_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

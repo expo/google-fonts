@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/blinker expo-font expo-app-loading
+npx expo install @expo-google-fonts/blinker expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Blinker_100Thin, Blinker_200ExtraLight, Blinker_300Light, Blinker_400Regular, Blinker_600SemiBold, Blinker_700Bold, Blinker_800ExtraBold, Blinker_900Black } from '@expo-google-fonts/blinker';
+import { useFonts } from '@expo-google-fonts/blinker/useFonts';
+import { Blinker_100Thin } from '@expo-google-fonts/blinker/100Thin';
+import { Blinker_200ExtraLight } from '@expo-google-fonts/blinker/200ExtraLight';
+import { Blinker_300Light } from '@expo-google-fonts/blinker/300Light';
+import { Blinker_400Regular } from '@expo-google-fonts/blinker/400Regular';
+import { Blinker_600SemiBold } from '@expo-google-fonts/blinker/600SemiBold';
+import { Blinker_700Bold } from '@expo-google-fonts/blinker/700Bold';
+import { Blinker_800ExtraBold } from '@expo-google-fonts/blinker/800ExtraBold';
+import { Blinker_900Black } from '@expo-google-fonts/blinker/900Black';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Blinker_100Thin](./Blinker_100Thin.ttf.png)|![Blinker_200ExtraLight](./Blinker_200ExtraLight.ttf.png)|![Blinker_300Light](./Blinker_300Light.ttf.png)||
-|![Blinker_400Regular](./Blinker_400Regular.ttf.png)|![Blinker_600SemiBold](./Blinker_600SemiBold.ttf.png)|![Blinker_700Bold](./Blinker_700Bold.ttf.png)||
-|![Blinker_800ExtraBold](./Blinker_800ExtraBold.ttf.png)|![Blinker_900Black](./Blinker_900Black.ttf.png)|||
+|![Blinker_100Thin](./100Thin/Blinker_100Thin.ttf.png)|![Blinker_200ExtraLight](./200ExtraLight/Blinker_200ExtraLight.ttf.png)|![Blinker_300Light](./300Light/Blinker_300Light.ttf.png)||
+|![Blinker_400Regular](./400Regular/Blinker_400Regular.ttf.png)|![Blinker_600SemiBold](./600SemiBold/Blinker_600SemiBold.ttf.png)|![Blinker_700Bold](./700Bold/Blinker_700Bold.ttf.png)||
+|![Blinker_800ExtraBold](./800ExtraBold/Blinker_800ExtraBold.ttf.png)|![Blinker_900Black](./900Black/Blinker_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

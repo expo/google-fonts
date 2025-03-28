@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/neuton expo-font expo-app-loading
+npx expo install @expo-google-fonts/neuton expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Neuton_200ExtraLight, Neuton_300Light, Neuton_400Regular, Neuton_400Regular_Italic, Neuton_700Bold, Neuton_800ExtraBold } from '@expo-google-fonts/neuton';
+import { useFonts } from '@expo-google-fonts/neuton/useFonts';
+import { Neuton_200ExtraLight } from '@expo-google-fonts/neuton/200ExtraLight';
+import { Neuton_300Light } from '@expo-google-fonts/neuton/300Light';
+import { Neuton_400Regular } from '@expo-google-fonts/neuton/400Regular';
+import { Neuton_400Regular_Italic } from '@expo-google-fonts/neuton/400Regular_Italic';
+import { Neuton_700Bold } from '@expo-google-fonts/neuton/700Bold';
+import { Neuton_800ExtraBold } from '@expo-google-fonts/neuton/800ExtraBold';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Neuton_200ExtraLight](./Neuton_200ExtraLight.ttf.png)|![Neuton_300Light](./Neuton_300Light.ttf.png)|![Neuton_400Regular](./Neuton_400Regular.ttf.png)||
-|![Neuton_400Regular_Italic](./Neuton_400Regular_Italic.ttf.png)|![Neuton_700Bold](./Neuton_700Bold.ttf.png)|![Neuton_800ExtraBold](./Neuton_800ExtraBold.ttf.png)||
+|![Neuton_200ExtraLight](./200ExtraLight/Neuton_200ExtraLight.ttf.png)|![Neuton_300Light](./300Light/Neuton_300Light.ttf.png)|![Neuton_400Regular](./400Regular/Neuton_400Regular.ttf.png)||
+|![Neuton_400Regular_Italic](./400Regular_Italic/Neuton_400Regular_Italic.ttf.png)|![Neuton_700Bold](./700Bold/Neuton_700Bold.ttf.png)|![Neuton_800ExtraBold](./800ExtraBold/Neuton_800ExtraBold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

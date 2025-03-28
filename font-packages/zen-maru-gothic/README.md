@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/zen-maru-gothic expo-font expo-app-loading
+npx expo install @expo-google-fonts/zen-maru-gothic expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, ZenMaruGothic_300Light, ZenMaruGothic_400Regular, ZenMaruGothic_500Medium, ZenMaruGothic_700Bold, ZenMaruGothic_900Black } from '@expo-google-fonts/zen-maru-gothic';
+import { useFonts } from '@expo-google-fonts/zen-maru-gothic/useFonts';
+import { ZenMaruGothic_300Light } from '@expo-google-fonts/zen-maru-gothic/300Light';
+import { ZenMaruGothic_400Regular } from '@expo-google-fonts/zen-maru-gothic/400Regular';
+import { ZenMaruGothic_500Medium } from '@expo-google-fonts/zen-maru-gothic/500Medium';
+import { ZenMaruGothic_700Bold } from '@expo-google-fonts/zen-maru-gothic/700Bold';
+import { ZenMaruGothic_900Black } from '@expo-google-fonts/zen-maru-gothic/900Black';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ZenMaruGothic_300Light](./ZenMaruGothic_300Light.ttf.png)|![ZenMaruGothic_400Regular](./ZenMaruGothic_400Regular.ttf.png)|![ZenMaruGothic_500Medium](./ZenMaruGothic_500Medium.ttf.png)||
-|![ZenMaruGothic_700Bold](./ZenMaruGothic_700Bold.ttf.png)|![ZenMaruGothic_900Black](./ZenMaruGothic_900Black.ttf.png)|||
+|![ZenMaruGothic_300Light](./300Light/ZenMaruGothic_300Light.ttf.png)|![ZenMaruGothic_400Regular](./400Regular/ZenMaruGothic_400Regular.ttf.png)|![ZenMaruGothic_500Medium](./500Medium/ZenMaruGothic_500Medium.ttf.png)||
+|![ZenMaruGothic_700Bold](./700Bold/ZenMaruGothic_700Bold.ttf.png)|![ZenMaruGothic_900Black](./900Black/ZenMaruGothic_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

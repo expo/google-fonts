@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/encode-sans-expanded expo-font expo-app-loading
+npx expo install @expo-google-fonts/encode-sans-expanded expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, EncodeSansExpanded_100Thin, EncodeSansExpanded_200ExtraLight, EncodeSansExpanded_300Light, EncodeSansExpanded_400Regular, EncodeSansExpanded_500Medium, EncodeSansExpanded_600SemiBold, EncodeSansExpanded_700Bold, EncodeSansExpanded_800ExtraBold, EncodeSansExpanded_900Black } from '@expo-google-fonts/encode-sans-expanded';
+import { useFonts } from '@expo-google-fonts/encode-sans-expanded/useFonts';
+import { EncodeSansExpanded_100Thin } from '@expo-google-fonts/encode-sans-expanded/100Thin';
+import { EncodeSansExpanded_200ExtraLight } from '@expo-google-fonts/encode-sans-expanded/200ExtraLight';
+import { EncodeSansExpanded_300Light } from '@expo-google-fonts/encode-sans-expanded/300Light';
+import { EncodeSansExpanded_400Regular } from '@expo-google-fonts/encode-sans-expanded/400Regular';
+import { EncodeSansExpanded_500Medium } from '@expo-google-fonts/encode-sans-expanded/500Medium';
+import { EncodeSansExpanded_600SemiBold } from '@expo-google-fonts/encode-sans-expanded/600SemiBold';
+import { EncodeSansExpanded_700Bold } from '@expo-google-fonts/encode-sans-expanded/700Bold';
+import { EncodeSansExpanded_800ExtraBold } from '@expo-google-fonts/encode-sans-expanded/800ExtraBold';
+import { EncodeSansExpanded_900Black } from '@expo-google-fonts/encode-sans-expanded/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EncodeSansExpanded_100Thin](./EncodeSansExpanded_100Thin.ttf.png)|![EncodeSansExpanded_200ExtraLight](./EncodeSansExpanded_200ExtraLight.ttf.png)|![EncodeSansExpanded_300Light](./EncodeSansExpanded_300Light.ttf.png)||
-|![EncodeSansExpanded_400Regular](./EncodeSansExpanded_400Regular.ttf.png)|![EncodeSansExpanded_500Medium](./EncodeSansExpanded_500Medium.ttf.png)|![EncodeSansExpanded_600SemiBold](./EncodeSansExpanded_600SemiBold.ttf.png)||
-|![EncodeSansExpanded_700Bold](./EncodeSansExpanded_700Bold.ttf.png)|![EncodeSansExpanded_800ExtraBold](./EncodeSansExpanded_800ExtraBold.ttf.png)|![EncodeSansExpanded_900Black](./EncodeSansExpanded_900Black.ttf.png)||
+|![EncodeSansExpanded_100Thin](./100Thin/EncodeSansExpanded_100Thin.ttf.png)|![EncodeSansExpanded_200ExtraLight](./200ExtraLight/EncodeSansExpanded_200ExtraLight.ttf.png)|![EncodeSansExpanded_300Light](./300Light/EncodeSansExpanded_300Light.ttf.png)||
+|![EncodeSansExpanded_400Regular](./400Regular/EncodeSansExpanded_400Regular.ttf.png)|![EncodeSansExpanded_500Medium](./500Medium/EncodeSansExpanded_500Medium.ttf.png)|![EncodeSansExpanded_600SemiBold](./600SemiBold/EncodeSansExpanded_600SemiBold.ttf.png)||
+|![EncodeSansExpanded_700Bold](./700Bold/EncodeSansExpanded_700Bold.ttf.png)|![EncodeSansExpanded_800ExtraBold](./800ExtraBold/EncodeSansExpanded_800ExtraBold.ttf.png)|![EncodeSansExpanded_900Black](./900Black/EncodeSansExpanded_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

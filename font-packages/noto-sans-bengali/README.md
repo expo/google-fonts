@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-bengali expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-bengali expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansBengali_100Thin, NotoSansBengali_200ExtraLight, NotoSansBengali_300Light, NotoSansBengali_400Regular, NotoSansBengali_500Medium, NotoSansBengali_600SemiBold, NotoSansBengali_700Bold, NotoSansBengali_800ExtraBold, NotoSansBengali_900Black } from '@expo-google-fonts/noto-sans-bengali';
+import { useFonts } from '@expo-google-fonts/noto-sans-bengali/useFonts';
+import { NotoSansBengali_100Thin } from '@expo-google-fonts/noto-sans-bengali/100Thin';
+import { NotoSansBengali_200ExtraLight } from '@expo-google-fonts/noto-sans-bengali/200ExtraLight';
+import { NotoSansBengali_300Light } from '@expo-google-fonts/noto-sans-bengali/300Light';
+import { NotoSansBengali_400Regular } from '@expo-google-fonts/noto-sans-bengali/400Regular';
+import { NotoSansBengali_500Medium } from '@expo-google-fonts/noto-sans-bengali/500Medium';
+import { NotoSansBengali_600SemiBold } from '@expo-google-fonts/noto-sans-bengali/600SemiBold';
+import { NotoSansBengali_700Bold } from '@expo-google-fonts/noto-sans-bengali/700Bold';
+import { NotoSansBengali_800ExtraBold } from '@expo-google-fonts/noto-sans-bengali/800ExtraBold';
+import { NotoSansBengali_900Black } from '@expo-google-fonts/noto-sans-bengali/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansBengali_100Thin](./NotoSansBengali_100Thin.ttf.png)|![NotoSansBengali_200ExtraLight](./NotoSansBengali_200ExtraLight.ttf.png)|![NotoSansBengali_300Light](./NotoSansBengali_300Light.ttf.png)||
-|![NotoSansBengali_400Regular](./NotoSansBengali_400Regular.ttf.png)|![NotoSansBengali_500Medium](./NotoSansBengali_500Medium.ttf.png)|![NotoSansBengali_600SemiBold](./NotoSansBengali_600SemiBold.ttf.png)||
-|![NotoSansBengali_700Bold](./NotoSansBengali_700Bold.ttf.png)|![NotoSansBengali_800ExtraBold](./NotoSansBengali_800ExtraBold.ttf.png)|![NotoSansBengali_900Black](./NotoSansBengali_900Black.ttf.png)||
+|![NotoSansBengali_100Thin](./100Thin/NotoSansBengali_100Thin.ttf.png)|![NotoSansBengali_200ExtraLight](./200ExtraLight/NotoSansBengali_200ExtraLight.ttf.png)|![NotoSansBengali_300Light](./300Light/NotoSansBengali_300Light.ttf.png)||
+|![NotoSansBengali_400Regular](./400Regular/NotoSansBengali_400Regular.ttf.png)|![NotoSansBengali_500Medium](./500Medium/NotoSansBengali_500Medium.ttf.png)|![NotoSansBengali_600SemiBold](./600SemiBold/NotoSansBengali_600SemiBold.ttf.png)||
+|![NotoSansBengali_700Bold](./700Bold/NotoSansBengali_700Bold.ttf.png)|![NotoSansBengali_800ExtraBold](./800ExtraBold/NotoSansBengali_800ExtraBold.ttf.png)|![NotoSansBengali_900Black](./900Black/NotoSansBengali_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

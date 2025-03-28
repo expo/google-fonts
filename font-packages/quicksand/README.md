@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/quicksand expo-font expo-app-loading
+npx expo install @expo-google-fonts/quicksand expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Quicksand_300Light, Quicksand_400Regular, Quicksand_500Medium, Quicksand_600SemiBold, Quicksand_700Bold } from '@expo-google-fonts/quicksand';
+import { useFonts } from '@expo-google-fonts/quicksand/useFonts';
+import { Quicksand_300Light } from '@expo-google-fonts/quicksand/300Light';
+import { Quicksand_400Regular } from '@expo-google-fonts/quicksand/400Regular';
+import { Quicksand_500Medium } from '@expo-google-fonts/quicksand/500Medium';
+import { Quicksand_600SemiBold } from '@expo-google-fonts/quicksand/600SemiBold';
+import { Quicksand_700Bold } from '@expo-google-fonts/quicksand/700Bold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Quicksand_300Light](./Quicksand_300Light.ttf.png)|![Quicksand_400Regular](./Quicksand_400Regular.ttf.png)|![Quicksand_500Medium](./Quicksand_500Medium.ttf.png)||
-|![Quicksand_600SemiBold](./Quicksand_600SemiBold.ttf.png)|![Quicksand_700Bold](./Quicksand_700Bold.ttf.png)|||
+|![Quicksand_300Light](./300Light/Quicksand_300Light.ttf.png)|![Quicksand_400Regular](./400Regular/Quicksand_400Regular.ttf.png)|![Quicksand_500Medium](./500Medium/Quicksand_500Medium.ttf.png)||
+|![Quicksand_600SemiBold](./600SemiBold/Quicksand_600SemiBold.ttf.png)|![Quicksand_700Bold](./700Bold/Quicksand_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

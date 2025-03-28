@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/londrina-solid expo-font expo-app-loading
+npx expo install @expo-google-fonts/londrina-solid expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, LondrinaSolid_100Thin, LondrinaSolid_300Light, LondrinaSolid_400Regular, LondrinaSolid_900Black } from '@expo-google-fonts/londrina-solid';
+import { useFonts } from '@expo-google-fonts/londrina-solid/useFonts';
+import { LondrinaSolid_100Thin } from '@expo-google-fonts/londrina-solid/100Thin';
+import { LondrinaSolid_300Light } from '@expo-google-fonts/londrina-solid/300Light';
+import { LondrinaSolid_400Regular } from '@expo-google-fonts/londrina-solid/400Regular';
+import { LondrinaSolid_900Black } from '@expo-google-fonts/londrina-solid/900Black';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LondrinaSolid_100Thin](./LondrinaSolid_100Thin.ttf.png)|![LondrinaSolid_300Light](./LondrinaSolid_300Light.ttf.png)|![LondrinaSolid_400Regular](./LondrinaSolid_400Regular.ttf.png)||
-|![LondrinaSolid_900Black](./LondrinaSolid_900Black.ttf.png)||||
+|![LondrinaSolid_100Thin](./100Thin/LondrinaSolid_100Thin.ttf.png)|![LondrinaSolid_300Light](./300Light/LondrinaSolid_300Light.ttf.png)|![LondrinaSolid_400Regular](./400Regular/LondrinaSolid_400Regular.ttf.png)||
+|![LondrinaSolid_900Black](./900Black/LondrinaSolid_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

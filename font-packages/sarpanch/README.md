@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/sarpanch expo-font expo-app-loading
+npx expo install @expo-google-fonts/sarpanch expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Sarpanch_400Regular, Sarpanch_500Medium, Sarpanch_600SemiBold, Sarpanch_700Bold, Sarpanch_800ExtraBold, Sarpanch_900Black } from '@expo-google-fonts/sarpanch';
+import { useFonts } from '@expo-google-fonts/sarpanch/useFonts';
+import { Sarpanch_400Regular } from '@expo-google-fonts/sarpanch/400Regular';
+import { Sarpanch_500Medium } from '@expo-google-fonts/sarpanch/500Medium';
+import { Sarpanch_600SemiBold } from '@expo-google-fonts/sarpanch/600SemiBold';
+import { Sarpanch_700Bold } from '@expo-google-fonts/sarpanch/700Bold';
+import { Sarpanch_800ExtraBold } from '@expo-google-fonts/sarpanch/800ExtraBold';
+import { Sarpanch_900Black } from '@expo-google-fonts/sarpanch/900Black';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sarpanch_400Regular](./Sarpanch_400Regular.ttf.png)|![Sarpanch_500Medium](./Sarpanch_500Medium.ttf.png)|![Sarpanch_600SemiBold](./Sarpanch_600SemiBold.ttf.png)||
-|![Sarpanch_700Bold](./Sarpanch_700Bold.ttf.png)|![Sarpanch_800ExtraBold](./Sarpanch_800ExtraBold.ttf.png)|![Sarpanch_900Black](./Sarpanch_900Black.ttf.png)||
+|![Sarpanch_400Regular](./400Regular/Sarpanch_400Regular.ttf.png)|![Sarpanch_500Medium](./500Medium/Sarpanch_500Medium.ttf.png)|![Sarpanch_600SemiBold](./600SemiBold/Sarpanch_600SemiBold.ttf.png)||
+|![Sarpanch_700Bold](./700Bold/Sarpanch_700Bold.ttf.png)|![Sarpanch_800ExtraBold](./800ExtraBold/Sarpanch_800ExtraBold.ttf.png)|![Sarpanch_900Black](./900Black/Sarpanch_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

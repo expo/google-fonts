@@ -35,7 +35,7 @@ This font family contains [16 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/ubuntu-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/ubuntu-sans expo-font
 ```
 
 Now add code like this to your project
@@ -44,8 +44,23 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, UbuntuSans_100Thin, UbuntuSans_200ExtraLight, UbuntuSans_300Light, UbuntuSans_400Regular, UbuntuSans_500Medium, UbuntuSans_600SemiBold, UbuntuSans_700Bold, UbuntuSans_800ExtraBold, UbuntuSans_100Thin_Italic, UbuntuSans_200ExtraLight_Italic, UbuntuSans_300Light_Italic, UbuntuSans_400Regular_Italic, UbuntuSans_500Medium_Italic, UbuntuSans_600SemiBold_Italic, UbuntuSans_700Bold_Italic, UbuntuSans_800ExtraBold_Italic } from '@expo-google-fonts/ubuntu-sans';
+import { useFonts } from '@expo-google-fonts/ubuntu-sans/useFonts';
+import { UbuntuSans_100Thin } from '@expo-google-fonts/ubuntu-sans/100Thin';
+import { UbuntuSans_200ExtraLight } from '@expo-google-fonts/ubuntu-sans/200ExtraLight';
+import { UbuntuSans_300Light } from '@expo-google-fonts/ubuntu-sans/300Light';
+import { UbuntuSans_400Regular } from '@expo-google-fonts/ubuntu-sans/400Regular';
+import { UbuntuSans_500Medium } from '@expo-google-fonts/ubuntu-sans/500Medium';
+import { UbuntuSans_600SemiBold } from '@expo-google-fonts/ubuntu-sans/600SemiBold';
+import { UbuntuSans_700Bold } from '@expo-google-fonts/ubuntu-sans/700Bold';
+import { UbuntuSans_800ExtraBold } from '@expo-google-fonts/ubuntu-sans/800ExtraBold';
+import { UbuntuSans_100Thin_Italic } from '@expo-google-fonts/ubuntu-sans/100Thin_Italic';
+import { UbuntuSans_200ExtraLight_Italic } from '@expo-google-fonts/ubuntu-sans/200ExtraLight_Italic';
+import { UbuntuSans_300Light_Italic } from '@expo-google-fonts/ubuntu-sans/300Light_Italic';
+import { UbuntuSans_400Regular_Italic } from '@expo-google-fonts/ubuntu-sans/400Regular_Italic';
+import { UbuntuSans_500Medium_Italic } from '@expo-google-fonts/ubuntu-sans/500Medium_Italic';
+import { UbuntuSans_600SemiBold_Italic } from '@expo-google-fonts/ubuntu-sans/600SemiBold_Italic';
+import { UbuntuSans_700Bold_Italic } from '@expo-google-fonts/ubuntu-sans/700Bold_Italic';
+import { UbuntuSans_800ExtraBold_Italic } from '@expo-google-fonts/ubuntu-sans/800ExtraBold_Italic';
 
 export default () => {
 
@@ -72,7 +87,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -215,12 +230,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![UbuntuSans_100Thin](./UbuntuSans_100Thin.ttf.png)|![UbuntuSans_200ExtraLight](./UbuntuSans_200ExtraLight.ttf.png)|![UbuntuSans_300Light](./UbuntuSans_300Light.ttf.png)||
-|![UbuntuSans_400Regular](./UbuntuSans_400Regular.ttf.png)|![UbuntuSans_500Medium](./UbuntuSans_500Medium.ttf.png)|![UbuntuSans_600SemiBold](./UbuntuSans_600SemiBold.ttf.png)||
-|![UbuntuSans_700Bold](./UbuntuSans_700Bold.ttf.png)|![UbuntuSans_800ExtraBold](./UbuntuSans_800ExtraBold.ttf.png)|![UbuntuSans_100Thin_Italic](./UbuntuSans_100Thin_Italic.ttf.png)||
-|![UbuntuSans_200ExtraLight_Italic](./UbuntuSans_200ExtraLight_Italic.ttf.png)|![UbuntuSans_300Light_Italic](./UbuntuSans_300Light_Italic.ttf.png)|![UbuntuSans_400Regular_Italic](./UbuntuSans_400Regular_Italic.ttf.png)||
-|![UbuntuSans_500Medium_Italic](./UbuntuSans_500Medium_Italic.ttf.png)|![UbuntuSans_600SemiBold_Italic](./UbuntuSans_600SemiBold_Italic.ttf.png)|![UbuntuSans_700Bold_Italic](./UbuntuSans_700Bold_Italic.ttf.png)||
-|![UbuntuSans_800ExtraBold_Italic](./UbuntuSans_800ExtraBold_Italic.ttf.png)||||
+|![UbuntuSans_100Thin](./100Thin/UbuntuSans_100Thin.ttf.png)|![UbuntuSans_200ExtraLight](./200ExtraLight/UbuntuSans_200ExtraLight.ttf.png)|![UbuntuSans_300Light](./300Light/UbuntuSans_300Light.ttf.png)||
+|![UbuntuSans_400Regular](./400Regular/UbuntuSans_400Regular.ttf.png)|![UbuntuSans_500Medium](./500Medium/UbuntuSans_500Medium.ttf.png)|![UbuntuSans_600SemiBold](./600SemiBold/UbuntuSans_600SemiBold.ttf.png)||
+|![UbuntuSans_700Bold](./700Bold/UbuntuSans_700Bold.ttf.png)|![UbuntuSans_800ExtraBold](./800ExtraBold/UbuntuSans_800ExtraBold.ttf.png)|![UbuntuSans_100Thin_Italic](./100Thin_Italic/UbuntuSans_100Thin_Italic.ttf.png)||
+|![UbuntuSans_200ExtraLight_Italic](./200ExtraLight_Italic/UbuntuSans_200ExtraLight_Italic.ttf.png)|![UbuntuSans_300Light_Italic](./300Light_Italic/UbuntuSans_300Light_Italic.ttf.png)|![UbuntuSans_400Regular_Italic](./400Regular_Italic/UbuntuSans_400Regular_Italic.ttf.png)||
+|![UbuntuSans_500Medium_Italic](./500Medium_Italic/UbuntuSans_500Medium_Italic.ttf.png)|![UbuntuSans_600SemiBold_Italic](./600SemiBold_Italic/UbuntuSans_600SemiBold_Italic.ttf.png)|![UbuntuSans_700Bold_Italic](./700Bold_Italic/UbuntuSans_700Bold_Italic.ttf.png)||
+|![UbuntuSans_800ExtraBold_Italic](./800ExtraBold_Italic/UbuntuSans_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

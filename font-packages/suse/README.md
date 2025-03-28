@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/suse expo-font expo-app-loading
+npx expo install @expo-google-fonts/suse expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, SUSE_100Thin, SUSE_200ExtraLight, SUSE_300Light, SUSE_400Regular, SUSE_500Medium, SUSE_600SemiBold, SUSE_700Bold, SUSE_800ExtraBold } from '@expo-google-fonts/suse';
+import { useFonts } from '@expo-google-fonts/suse/useFonts';
+import { SUSE_100Thin } from '@expo-google-fonts/suse/100Thin';
+import { SUSE_200ExtraLight } from '@expo-google-fonts/suse/200ExtraLight';
+import { SUSE_300Light } from '@expo-google-fonts/suse/300Light';
+import { SUSE_400Regular } from '@expo-google-fonts/suse/400Regular';
+import { SUSE_500Medium } from '@expo-google-fonts/suse/500Medium';
+import { SUSE_600SemiBold } from '@expo-google-fonts/suse/600SemiBold';
+import { SUSE_700Bold } from '@expo-google-fonts/suse/700Bold';
+import { SUSE_800ExtraBold } from '@expo-google-fonts/suse/800ExtraBold';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SUSE_100Thin](./SUSE_100Thin.ttf.png)|![SUSE_200ExtraLight](./SUSE_200ExtraLight.ttf.png)|![SUSE_300Light](./SUSE_300Light.ttf.png)||
-|![SUSE_400Regular](./SUSE_400Regular.ttf.png)|![SUSE_500Medium](./SUSE_500Medium.ttf.png)|![SUSE_600SemiBold](./SUSE_600SemiBold.ttf.png)||
-|![SUSE_700Bold](./SUSE_700Bold.ttf.png)|![SUSE_800ExtraBold](./SUSE_800ExtraBold.ttf.png)|||
+|![SUSE_100Thin](./100Thin/SUSE_100Thin.ttf.png)|![SUSE_200ExtraLight](./200ExtraLight/SUSE_200ExtraLight.ttf.png)|![SUSE_300Light](./300Light/SUSE_300Light.ttf.png)||
+|![SUSE_400Regular](./400Regular/SUSE_400Regular.ttf.png)|![SUSE_500Medium](./500Medium/SUSE_500Medium.ttf.png)|![SUSE_600SemiBold](./600SemiBold/SUSE_600SemiBold.ttf.png)||
+|![SUSE_700Bold](./700Bold/SUSE_700Bold.ttf.png)|![SUSE_800ExtraBold](./800ExtraBold/SUSE_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

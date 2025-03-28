@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/anybody expo-font expo-app-loading
+npx expo install @expo-google-fonts/anybody expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Anybody_100Thin, Anybody_200ExtraLight, Anybody_300Light, Anybody_400Regular, Anybody_500Medium, Anybody_600SemiBold, Anybody_700Bold, Anybody_800ExtraBold, Anybody_900Black, Anybody_100Thin_Italic, Anybody_200ExtraLight_Italic, Anybody_300Light_Italic, Anybody_400Regular_Italic, Anybody_500Medium_Italic, Anybody_600SemiBold_Italic, Anybody_700Bold_Italic, Anybody_800ExtraBold_Italic, Anybody_900Black_Italic } from '@expo-google-fonts/anybody';
+import { useFonts } from '@expo-google-fonts/anybody/useFonts';
+import { Anybody_100Thin } from '@expo-google-fonts/anybody/100Thin';
+import { Anybody_200ExtraLight } from '@expo-google-fonts/anybody/200ExtraLight';
+import { Anybody_300Light } from '@expo-google-fonts/anybody/300Light';
+import { Anybody_400Regular } from '@expo-google-fonts/anybody/400Regular';
+import { Anybody_500Medium } from '@expo-google-fonts/anybody/500Medium';
+import { Anybody_600SemiBold } from '@expo-google-fonts/anybody/600SemiBold';
+import { Anybody_700Bold } from '@expo-google-fonts/anybody/700Bold';
+import { Anybody_800ExtraBold } from '@expo-google-fonts/anybody/800ExtraBold';
+import { Anybody_900Black } from '@expo-google-fonts/anybody/900Black';
+import { Anybody_100Thin_Italic } from '@expo-google-fonts/anybody/100Thin_Italic';
+import { Anybody_200ExtraLight_Italic } from '@expo-google-fonts/anybody/200ExtraLight_Italic';
+import { Anybody_300Light_Italic } from '@expo-google-fonts/anybody/300Light_Italic';
+import { Anybody_400Regular_Italic } from '@expo-google-fonts/anybody/400Regular_Italic';
+import { Anybody_500Medium_Italic } from '@expo-google-fonts/anybody/500Medium_Italic';
+import { Anybody_600SemiBold_Italic } from '@expo-google-fonts/anybody/600SemiBold_Italic';
+import { Anybody_700Bold_Italic } from '@expo-google-fonts/anybody/700Bold_Italic';
+import { Anybody_800ExtraBold_Italic } from '@expo-google-fonts/anybody/800ExtraBold_Italic';
+import { Anybody_900Black_Italic } from '@expo-google-fonts/anybody/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Anybody_100Thin](./Anybody_100Thin.ttf.png)|![Anybody_200ExtraLight](./Anybody_200ExtraLight.ttf.png)|![Anybody_300Light](./Anybody_300Light.ttf.png)||
-|![Anybody_400Regular](./Anybody_400Regular.ttf.png)|![Anybody_500Medium](./Anybody_500Medium.ttf.png)|![Anybody_600SemiBold](./Anybody_600SemiBold.ttf.png)||
-|![Anybody_700Bold](./Anybody_700Bold.ttf.png)|![Anybody_800ExtraBold](./Anybody_800ExtraBold.ttf.png)|![Anybody_900Black](./Anybody_900Black.ttf.png)||
-|![Anybody_100Thin_Italic](./Anybody_100Thin_Italic.ttf.png)|![Anybody_200ExtraLight_Italic](./Anybody_200ExtraLight_Italic.ttf.png)|![Anybody_300Light_Italic](./Anybody_300Light_Italic.ttf.png)||
-|![Anybody_400Regular_Italic](./Anybody_400Regular_Italic.ttf.png)|![Anybody_500Medium_Italic](./Anybody_500Medium_Italic.ttf.png)|![Anybody_600SemiBold_Italic](./Anybody_600SemiBold_Italic.ttf.png)||
-|![Anybody_700Bold_Italic](./Anybody_700Bold_Italic.ttf.png)|![Anybody_800ExtraBold_Italic](./Anybody_800ExtraBold_Italic.ttf.png)|![Anybody_900Black_Italic](./Anybody_900Black_Italic.ttf.png)||
+|![Anybody_100Thin](./100Thin/Anybody_100Thin.ttf.png)|![Anybody_200ExtraLight](./200ExtraLight/Anybody_200ExtraLight.ttf.png)|![Anybody_300Light](./300Light/Anybody_300Light.ttf.png)||
+|![Anybody_400Regular](./400Regular/Anybody_400Regular.ttf.png)|![Anybody_500Medium](./500Medium/Anybody_500Medium.ttf.png)|![Anybody_600SemiBold](./600SemiBold/Anybody_600SemiBold.ttf.png)||
+|![Anybody_700Bold](./700Bold/Anybody_700Bold.ttf.png)|![Anybody_800ExtraBold](./800ExtraBold/Anybody_800ExtraBold.ttf.png)|![Anybody_900Black](./900Black/Anybody_900Black.ttf.png)||
+|![Anybody_100Thin_Italic](./100Thin_Italic/Anybody_100Thin_Italic.ttf.png)|![Anybody_200ExtraLight_Italic](./200ExtraLight_Italic/Anybody_200ExtraLight_Italic.ttf.png)|![Anybody_300Light_Italic](./300Light_Italic/Anybody_300Light_Italic.ttf.png)||
+|![Anybody_400Regular_Italic](./400Regular_Italic/Anybody_400Regular_Italic.ttf.png)|![Anybody_500Medium_Italic](./500Medium_Italic/Anybody_500Medium_Italic.ttf.png)|![Anybody_600SemiBold_Italic](./600SemiBold_Italic/Anybody_600SemiBold_Italic.ttf.png)||
+|![Anybody_700Bold_Italic](./700Bold_Italic/Anybody_700Bold_Italic.ttf.png)|![Anybody_800ExtraBold_Italic](./800ExtraBold_Italic/Anybody_800ExtraBold_Italic.ttf.png)|![Anybody_900Black_Italic](./900Black_Italic/Anybody_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

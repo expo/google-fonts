@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-np-hmong expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-np-hmong expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifNPHmong_400Regular, NotoSerifNPHmong_500Medium, NotoSerifNPHmong_600SemiBold, NotoSerifNPHmong_700Bold } from '@expo-google-fonts/noto-serif-np-hmong';
+import { useFonts } from '@expo-google-fonts/noto-serif-np-hmong/useFonts';
+import { NotoSerifNPHmong_400Regular } from '@expo-google-fonts/noto-serif-np-hmong/400Regular';
+import { NotoSerifNPHmong_500Medium } from '@expo-google-fonts/noto-serif-np-hmong/500Medium';
+import { NotoSerifNPHmong_600SemiBold } from '@expo-google-fonts/noto-serif-np-hmong/600SemiBold';
+import { NotoSerifNPHmong_700Bold } from '@expo-google-fonts/noto-serif-np-hmong/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifNPHmong_400Regular](./NotoSerifNPHmong_400Regular.ttf.png)|![NotoSerifNPHmong_500Medium](./NotoSerifNPHmong_500Medium.ttf.png)|![NotoSerifNPHmong_600SemiBold](./NotoSerifNPHmong_600SemiBold.ttf.png)||
-|![NotoSerifNPHmong_700Bold](./NotoSerifNPHmong_700Bold.ttf.png)||||
+|![NotoSerifNPHmong_400Regular](./400Regular/NotoSerifNPHmong_400Regular.ttf.png)|![NotoSerifNPHmong_500Medium](./500Medium/NotoSerifNPHmong_500Medium.ttf.png)|![NotoSerifNPHmong_600SemiBold](./600SemiBold/NotoSerifNPHmong_600SemiBold.ttf.png)||
+|![NotoSerifNPHmong_700Bold](./700Bold/NotoSerifNPHmong_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

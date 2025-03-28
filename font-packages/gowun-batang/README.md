@@ -21,7 +21,7 @@ This font family contains [2 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/gowun-batang expo-font expo-app-loading
+npx expo install @expo-google-fonts/gowun-batang expo-font
 ```
 
 Now add code like this to your project
@@ -30,8 +30,9 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, GowunBatang_400Regular, GowunBatang_700Bold } from '@expo-google-fonts/gowun-batang';
+import { useFonts } from '@expo-google-fonts/gowun-batang/useFonts';
+import { GowunBatang_400Regular } from '@expo-google-fonts/gowun-batang/400Regular';
+import { GowunBatang_700Bold } from '@expo-google-fonts/gowun-batang/700Bold';
 
 export default () => {
 
@@ -44,7 +45,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -75,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GowunBatang_400Regular](./GowunBatang_400Regular.ttf.png)|![GowunBatang_700Bold](./GowunBatang_700Bold.ttf.png)|||
+|![GowunBatang_400Regular](./400Regular/GowunBatang_400Regular.ttf.png)|![GowunBatang_700Bold](./700Bold/GowunBatang_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

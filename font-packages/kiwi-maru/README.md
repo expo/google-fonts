@@ -22,7 +22,7 @@ This font family contains [3 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/kiwi-maru expo-font expo-app-loading
+npx expo install @expo-google-fonts/kiwi-maru expo-font
 ```
 
 Now add code like this to your project
@@ -31,8 +31,10 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, KiwiMaru_300Light, KiwiMaru_400Regular, KiwiMaru_500Medium } from '@expo-google-fonts/kiwi-maru';
+import { useFonts } from '@expo-google-fonts/kiwi-maru/useFonts';
+import { KiwiMaru_300Light } from '@expo-google-fonts/kiwi-maru/300Light';
+import { KiwiMaru_400Regular } from '@expo-google-fonts/kiwi-maru/400Regular';
+import { KiwiMaru_500Medium } from '@expo-google-fonts/kiwi-maru/500Medium';
 
 export default () => {
 
@@ -46,7 +48,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -85,7 +87,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KiwiMaru_300Light](./KiwiMaru_300Light.ttf.png)|![KiwiMaru_400Regular](./KiwiMaru_400Regular.ttf.png)|![KiwiMaru_500Medium](./KiwiMaru_500Medium.ttf.png)||
+|![KiwiMaru_300Light](./300Light/KiwiMaru_300Light.ttf.png)|![KiwiMaru_400Regular](./400Regular/KiwiMaru_400Regular.ttf.png)|![KiwiMaru_500Medium](./500Medium/KiwiMaru_500Medium.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

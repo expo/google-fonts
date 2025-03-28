@@ -31,7 +31,7 @@ This font family contains [12 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/kufam expo-font expo-app-loading
+npx expo install @expo-google-fonts/kufam expo-font
 ```
 
 Now add code like this to your project
@@ -40,8 +40,19 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Kufam_400Regular, Kufam_500Medium, Kufam_600SemiBold, Kufam_700Bold, Kufam_800ExtraBold, Kufam_900Black, Kufam_400Regular_Italic, Kufam_500Medium_Italic, Kufam_600SemiBold_Italic, Kufam_700Bold_Italic, Kufam_800ExtraBold_Italic, Kufam_900Black_Italic } from '@expo-google-fonts/kufam';
+import { useFonts } from '@expo-google-fonts/kufam/useFonts';
+import { Kufam_400Regular } from '@expo-google-fonts/kufam/400Regular';
+import { Kufam_500Medium } from '@expo-google-fonts/kufam/500Medium';
+import { Kufam_600SemiBold } from '@expo-google-fonts/kufam/600SemiBold';
+import { Kufam_700Bold } from '@expo-google-fonts/kufam/700Bold';
+import { Kufam_800ExtraBold } from '@expo-google-fonts/kufam/800ExtraBold';
+import { Kufam_900Black } from '@expo-google-fonts/kufam/900Black';
+import { Kufam_400Regular_Italic } from '@expo-google-fonts/kufam/400Regular_Italic';
+import { Kufam_500Medium_Italic } from '@expo-google-fonts/kufam/500Medium_Italic';
+import { Kufam_600SemiBold_Italic } from '@expo-google-fonts/kufam/600SemiBold_Italic';
+import { Kufam_700Bold_Italic } from '@expo-google-fonts/kufam/700Bold_Italic';
+import { Kufam_800ExtraBold_Italic } from '@expo-google-fonts/kufam/800ExtraBold_Italic';
+import { Kufam_900Black_Italic } from '@expo-google-fonts/kufam/900Black_Italic';
 
 export default () => {
 
@@ -64,7 +75,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -175,10 +186,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Kufam_400Regular](./Kufam_400Regular.ttf.png)|![Kufam_500Medium](./Kufam_500Medium.ttf.png)|![Kufam_600SemiBold](./Kufam_600SemiBold.ttf.png)||
-|![Kufam_700Bold](./Kufam_700Bold.ttf.png)|![Kufam_800ExtraBold](./Kufam_800ExtraBold.ttf.png)|![Kufam_900Black](./Kufam_900Black.ttf.png)||
-|![Kufam_400Regular_Italic](./Kufam_400Regular_Italic.ttf.png)|![Kufam_500Medium_Italic](./Kufam_500Medium_Italic.ttf.png)|![Kufam_600SemiBold_Italic](./Kufam_600SemiBold_Italic.ttf.png)||
-|![Kufam_700Bold_Italic](./Kufam_700Bold_Italic.ttf.png)|![Kufam_800ExtraBold_Italic](./Kufam_800ExtraBold_Italic.ttf.png)|![Kufam_900Black_Italic](./Kufam_900Black_Italic.ttf.png)||
+|![Kufam_400Regular](./400Regular/Kufam_400Regular.ttf.png)|![Kufam_500Medium](./500Medium/Kufam_500Medium.ttf.png)|![Kufam_600SemiBold](./600SemiBold/Kufam_600SemiBold.ttf.png)||
+|![Kufam_700Bold](./700Bold/Kufam_700Bold.ttf.png)|![Kufam_800ExtraBold](./800ExtraBold/Kufam_800ExtraBold.ttf.png)|![Kufam_900Black](./900Black/Kufam_900Black.ttf.png)||
+|![Kufam_400Regular_Italic](./400Regular_Italic/Kufam_400Regular_Italic.ttf.png)|![Kufam_500Medium_Italic](./500Medium_Italic/Kufam_500Medium_Italic.ttf.png)|![Kufam_600SemiBold_Italic](./600SemiBold_Italic/Kufam_600SemiBold_Italic.ttf.png)||
+|![Kufam_700Bold_Italic](./700Bold_Italic/Kufam_700Bold_Italic.ttf.png)|![Kufam_800ExtraBold_Italic](./800ExtraBold_Italic/Kufam_800ExtraBold_Italic.ttf.png)|![Kufam_900Black_Italic](./900Black_Italic/Kufam_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

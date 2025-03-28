@@ -1,9 +1,13 @@
 {
   "name": "@expo-google-fonts/devonshire",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Use the Devonshire font family from Google Fonts in your Expo app",
   "main": "index.js",
-  "repository": "https://github.com/expo/google-fonts.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/devonshire"
+  },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/devonshire#readme",
   "author": "Expo Team <team@expo.io>",
   "license": "MIT",

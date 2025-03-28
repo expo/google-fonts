@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/ar-one-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/ar-one-sans expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, AROneSans_400Regular, AROneSans_500Medium, AROneSans_600SemiBold, AROneSans_700Bold } from '@expo-google-fonts/ar-one-sans';
+import { useFonts } from '@expo-google-fonts/ar-one-sans/useFonts';
+import { AROneSans_400Regular } from '@expo-google-fonts/ar-one-sans/400Regular';
+import { AROneSans_500Medium } from '@expo-google-fonts/ar-one-sans/500Medium';
+import { AROneSans_600SemiBold } from '@expo-google-fonts/ar-one-sans/600SemiBold';
+import { AROneSans_700Bold } from '@expo-google-fonts/ar-one-sans/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AROneSans_400Regular](./AROneSans_400Regular.ttf.png)|![AROneSans_500Medium](./AROneSans_500Medium.ttf.png)|![AROneSans_600SemiBold](./AROneSans_600SemiBold.ttf.png)||
-|![AROneSans_700Bold](./AROneSans_700Bold.ttf.png)||||
+|![AROneSans_400Regular](./400Regular/AROneSans_400Regular.ttf.png)|![AROneSans_500Medium](./500Medium/AROneSans_500Medium.ttf.png)|![AROneSans_600SemiBold](./600SemiBold/AROneSans_600SemiBold.ttf.png)||
+|![AROneSans_700Bold](./700Bold/AROneSans_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

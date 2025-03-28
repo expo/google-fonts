@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/anaheim expo-font expo-app-loading
+npx expo install @expo-google-fonts/anaheim expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Anaheim_400Regular, Anaheim_500Medium, Anaheim_600SemiBold, Anaheim_700Bold, Anaheim_800ExtraBold } from '@expo-google-fonts/anaheim';
+import { useFonts } from '@expo-google-fonts/anaheim/useFonts';
+import { Anaheim_400Regular } from '@expo-google-fonts/anaheim/400Regular';
+import { Anaheim_500Medium } from '@expo-google-fonts/anaheim/500Medium';
+import { Anaheim_600SemiBold } from '@expo-google-fonts/anaheim/600SemiBold';
+import { Anaheim_700Bold } from '@expo-google-fonts/anaheim/700Bold';
+import { Anaheim_800ExtraBold } from '@expo-google-fonts/anaheim/800ExtraBold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Anaheim_400Regular](./Anaheim_400Regular.ttf.png)|![Anaheim_500Medium](./Anaheim_500Medium.ttf.png)|![Anaheim_600SemiBold](./Anaheim_600SemiBold.ttf.png)||
-|![Anaheim_700Bold](./Anaheim_700Bold.ttf.png)|![Anaheim_800ExtraBold](./Anaheim_800ExtraBold.ttf.png)|||
+|![Anaheim_400Regular](./400Regular/Anaheim_400Regular.ttf.png)|![Anaheim_500Medium](./500Medium/Anaheim_500Medium.ttf.png)|![Anaheim_600SemiBold](./600SemiBold/Anaheim_600SemiBold.ttf.png)||
+|![Anaheim_700Bold](./700Bold/Anaheim_700Bold.ttf.png)|![Anaheim_800ExtraBold](./800ExtraBold/Anaheim_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

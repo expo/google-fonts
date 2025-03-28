@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/fira-code expo-font expo-app-loading
+npx expo install @expo-google-fonts/fira-code expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, FiraCode_300Light, FiraCode_400Regular, FiraCode_500Medium, FiraCode_600SemiBold, FiraCode_700Bold } from '@expo-google-fonts/fira-code';
+import { useFonts } from '@expo-google-fonts/fira-code/useFonts';
+import { FiraCode_300Light } from '@expo-google-fonts/fira-code/300Light';
+import { FiraCode_400Regular } from '@expo-google-fonts/fira-code/400Regular';
+import { FiraCode_500Medium } from '@expo-google-fonts/fira-code/500Medium';
+import { FiraCode_600SemiBold } from '@expo-google-fonts/fira-code/600SemiBold';
+import { FiraCode_700Bold } from '@expo-google-fonts/fira-code/700Bold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FiraCode_300Light](./FiraCode_300Light.ttf.png)|![FiraCode_400Regular](./FiraCode_400Regular.ttf.png)|![FiraCode_500Medium](./FiraCode_500Medium.ttf.png)||
-|![FiraCode_600SemiBold](./FiraCode_600SemiBold.ttf.png)|![FiraCode_700Bold](./FiraCode_700Bold.ttf.png)|||
+|![FiraCode_300Light](./300Light/FiraCode_300Light.ttf.png)|![FiraCode_400Regular](./400Regular/FiraCode_400Regular.ttf.png)|![FiraCode_500Medium](./500Medium/FiraCode_500Medium.ttf.png)||
+|![FiraCode_600SemiBold](./600SemiBold/FiraCode_600SemiBold.ttf.png)|![FiraCode_700Bold](./700Bold/FiraCode_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

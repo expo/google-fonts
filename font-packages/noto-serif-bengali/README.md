@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-bengali expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-bengali expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifBengali_100Thin, NotoSerifBengali_200ExtraLight, NotoSerifBengali_300Light, NotoSerifBengali_400Regular, NotoSerifBengali_500Medium, NotoSerifBengali_600SemiBold, NotoSerifBengali_700Bold, NotoSerifBengali_800ExtraBold, NotoSerifBengali_900Black } from '@expo-google-fonts/noto-serif-bengali';
+import { useFonts } from '@expo-google-fonts/noto-serif-bengali/useFonts';
+import { NotoSerifBengali_100Thin } from '@expo-google-fonts/noto-serif-bengali/100Thin';
+import { NotoSerifBengali_200ExtraLight } from '@expo-google-fonts/noto-serif-bengali/200ExtraLight';
+import { NotoSerifBengali_300Light } from '@expo-google-fonts/noto-serif-bengali/300Light';
+import { NotoSerifBengali_400Regular } from '@expo-google-fonts/noto-serif-bengali/400Regular';
+import { NotoSerifBengali_500Medium } from '@expo-google-fonts/noto-serif-bengali/500Medium';
+import { NotoSerifBengali_600SemiBold } from '@expo-google-fonts/noto-serif-bengali/600SemiBold';
+import { NotoSerifBengali_700Bold } from '@expo-google-fonts/noto-serif-bengali/700Bold';
+import { NotoSerifBengali_800ExtraBold } from '@expo-google-fonts/noto-serif-bengali/800ExtraBold';
+import { NotoSerifBengali_900Black } from '@expo-google-fonts/noto-serif-bengali/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifBengali_100Thin](./NotoSerifBengali_100Thin.ttf.png)|![NotoSerifBengali_200ExtraLight](./NotoSerifBengali_200ExtraLight.ttf.png)|![NotoSerifBengali_300Light](./NotoSerifBengali_300Light.ttf.png)||
-|![NotoSerifBengali_400Regular](./NotoSerifBengali_400Regular.ttf.png)|![NotoSerifBengali_500Medium](./NotoSerifBengali_500Medium.ttf.png)|![NotoSerifBengali_600SemiBold](./NotoSerifBengali_600SemiBold.ttf.png)||
-|![NotoSerifBengali_700Bold](./NotoSerifBengali_700Bold.ttf.png)|![NotoSerifBengali_800ExtraBold](./NotoSerifBengali_800ExtraBold.ttf.png)|![NotoSerifBengali_900Black](./NotoSerifBengali_900Black.ttf.png)||
+|![NotoSerifBengali_100Thin](./100Thin/NotoSerifBengali_100Thin.ttf.png)|![NotoSerifBengali_200ExtraLight](./200ExtraLight/NotoSerifBengali_200ExtraLight.ttf.png)|![NotoSerifBengali_300Light](./300Light/NotoSerifBengali_300Light.ttf.png)||
+|![NotoSerifBengali_400Regular](./400Regular/NotoSerifBengali_400Regular.ttf.png)|![NotoSerifBengali_500Medium](./500Medium/NotoSerifBengali_500Medium.ttf.png)|![NotoSerifBengali_600SemiBold](./600SemiBold/NotoSerifBengali_600SemiBold.ttf.png)||
+|![NotoSerifBengali_700Bold](./700Bold/NotoSerifBengali_700Bold.ttf.png)|![NotoSerifBengali_800ExtraBold](./800ExtraBold/NotoSerifBengali_800ExtraBold.ttf.png)|![NotoSerifBengali_900Black](./900Black/NotoSerifBengali_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/beiruti expo-font expo-app-loading
+npx expo install @expo-google-fonts/beiruti expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Beiruti_200ExtraLight, Beiruti_300Light, Beiruti_400Regular, Beiruti_500Medium, Beiruti_600SemiBold, Beiruti_700Bold, Beiruti_800ExtraBold, Beiruti_900Black } from '@expo-google-fonts/beiruti';
+import { useFonts } from '@expo-google-fonts/beiruti/useFonts';
+import { Beiruti_200ExtraLight } from '@expo-google-fonts/beiruti/200ExtraLight';
+import { Beiruti_300Light } from '@expo-google-fonts/beiruti/300Light';
+import { Beiruti_400Regular } from '@expo-google-fonts/beiruti/400Regular';
+import { Beiruti_500Medium } from '@expo-google-fonts/beiruti/500Medium';
+import { Beiruti_600SemiBold } from '@expo-google-fonts/beiruti/600SemiBold';
+import { Beiruti_700Bold } from '@expo-google-fonts/beiruti/700Bold';
+import { Beiruti_800ExtraBold } from '@expo-google-fonts/beiruti/800ExtraBold';
+import { Beiruti_900Black } from '@expo-google-fonts/beiruti/900Black';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Beiruti_200ExtraLight](./Beiruti_200ExtraLight.ttf.png)|![Beiruti_300Light](./Beiruti_300Light.ttf.png)|![Beiruti_400Regular](./Beiruti_400Regular.ttf.png)||
-|![Beiruti_500Medium](./Beiruti_500Medium.ttf.png)|![Beiruti_600SemiBold](./Beiruti_600SemiBold.ttf.png)|![Beiruti_700Bold](./Beiruti_700Bold.ttf.png)||
-|![Beiruti_800ExtraBold](./Beiruti_800ExtraBold.ttf.png)|![Beiruti_900Black](./Beiruti_900Black.ttf.png)|||
+|![Beiruti_200ExtraLight](./200ExtraLight/Beiruti_200ExtraLight.ttf.png)|![Beiruti_300Light](./300Light/Beiruti_300Light.ttf.png)|![Beiruti_400Regular](./400Regular/Beiruti_400Regular.ttf.png)||
+|![Beiruti_500Medium](./500Medium/Beiruti_500Medium.ttf.png)|![Beiruti_600SemiBold](./600SemiBold/Beiruti_600SemiBold.ttf.png)|![Beiruti_700Bold](./700Bold/Beiruti_700Bold.ttf.png)||
+|![Beiruti_800ExtraBold](./800ExtraBold/Beiruti_800ExtraBold.ttf.png)|![Beiruti_900Black](./900Black/Beiruti_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

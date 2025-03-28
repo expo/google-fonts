@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-tc expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-tc expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifTC_200ExtraLight, NotoSerifTC_300Light, NotoSerifTC_400Regular, NotoSerifTC_500Medium, NotoSerifTC_600SemiBold, NotoSerifTC_700Bold, NotoSerifTC_800ExtraBold, NotoSerifTC_900Black } from '@expo-google-fonts/noto-serif-tc';
+import { useFonts } from '@expo-google-fonts/noto-serif-tc/useFonts';
+import { NotoSerifTC_200ExtraLight } from '@expo-google-fonts/noto-serif-tc/200ExtraLight';
+import { NotoSerifTC_300Light } from '@expo-google-fonts/noto-serif-tc/300Light';
+import { NotoSerifTC_400Regular } from '@expo-google-fonts/noto-serif-tc/400Regular';
+import { NotoSerifTC_500Medium } from '@expo-google-fonts/noto-serif-tc/500Medium';
+import { NotoSerifTC_600SemiBold } from '@expo-google-fonts/noto-serif-tc/600SemiBold';
+import { NotoSerifTC_700Bold } from '@expo-google-fonts/noto-serif-tc/700Bold';
+import { NotoSerifTC_800ExtraBold } from '@expo-google-fonts/noto-serif-tc/800ExtraBold';
+import { NotoSerifTC_900Black } from '@expo-google-fonts/noto-serif-tc/900Black';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifTC_200ExtraLight](./NotoSerifTC_200ExtraLight.ttf.png)|![NotoSerifTC_300Light](./NotoSerifTC_300Light.ttf.png)|![NotoSerifTC_400Regular](./NotoSerifTC_400Regular.ttf.png)||
-|![NotoSerifTC_500Medium](./NotoSerifTC_500Medium.ttf.png)|![NotoSerifTC_600SemiBold](./NotoSerifTC_600SemiBold.ttf.png)|![NotoSerifTC_700Bold](./NotoSerifTC_700Bold.ttf.png)||
-|![NotoSerifTC_800ExtraBold](./NotoSerifTC_800ExtraBold.ttf.png)|![NotoSerifTC_900Black](./NotoSerifTC_900Black.ttf.png)|||
+|![NotoSerifTC_200ExtraLight](./200ExtraLight/NotoSerifTC_200ExtraLight.ttf.png)|![NotoSerifTC_300Light](./300Light/NotoSerifTC_300Light.ttf.png)|![NotoSerifTC_400Regular](./400Regular/NotoSerifTC_400Regular.ttf.png)||
+|![NotoSerifTC_500Medium](./500Medium/NotoSerifTC_500Medium.ttf.png)|![NotoSerifTC_600SemiBold](./600SemiBold/NotoSerifTC_600SemiBold.ttf.png)|![NotoSerifTC_700Bold](./700Bold/NotoSerifTC_700Bold.ttf.png)||
+|![NotoSerifTC_800ExtraBold](./800ExtraBold/NotoSerifTC_800ExtraBold.ttf.png)|![NotoSerifTC_900Black](./900Black/NotoSerifTC_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

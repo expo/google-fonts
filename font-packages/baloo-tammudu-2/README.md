@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/baloo-tammudu-2 expo-font expo-app-loading
+npx expo install @expo-google-fonts/baloo-tammudu-2 expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, BalooTammudu2_400Regular, BalooTammudu2_500Medium, BalooTammudu2_600SemiBold, BalooTammudu2_700Bold, BalooTammudu2_800ExtraBold } from '@expo-google-fonts/baloo-tammudu-2';
+import { useFonts } from '@expo-google-fonts/baloo-tammudu-2/useFonts';
+import { BalooTammudu2_400Regular } from '@expo-google-fonts/baloo-tammudu-2/400Regular';
+import { BalooTammudu2_500Medium } from '@expo-google-fonts/baloo-tammudu-2/500Medium';
+import { BalooTammudu2_600SemiBold } from '@expo-google-fonts/baloo-tammudu-2/600SemiBold';
+import { BalooTammudu2_700Bold } from '@expo-google-fonts/baloo-tammudu-2/700Bold';
+import { BalooTammudu2_800ExtraBold } from '@expo-google-fonts/baloo-tammudu-2/800ExtraBold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BalooTammudu2_400Regular](./BalooTammudu2_400Regular.ttf.png)|![BalooTammudu2_500Medium](./BalooTammudu2_500Medium.ttf.png)|![BalooTammudu2_600SemiBold](./BalooTammudu2_600SemiBold.ttf.png)||
-|![BalooTammudu2_700Bold](./BalooTammudu2_700Bold.ttf.png)|![BalooTammudu2_800ExtraBold](./BalooTammudu2_800ExtraBold.ttf.png)|||
+|![BalooTammudu2_400Regular](./400Regular/BalooTammudu2_400Regular.ttf.png)|![BalooTammudu2_500Medium](./500Medium/BalooTammudu2_500Medium.ttf.png)|![BalooTammudu2_600SemiBold](./600SemiBold/BalooTammudu2_600SemiBold.ttf.png)||
+|![BalooTammudu2_700Bold](./700Bold/BalooTammudu2_700Bold.ttf.png)|![BalooTammudu2_800ExtraBold](./800ExtraBold/BalooTammudu2_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/barlow expo-font expo-app-loading
+npx expo install @expo-google-fonts/barlow expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Barlow_100Thin, Barlow_100Thin_Italic, Barlow_200ExtraLight, Barlow_200ExtraLight_Italic, Barlow_300Light, Barlow_300Light_Italic, Barlow_400Regular, Barlow_400Regular_Italic, Barlow_500Medium, Barlow_500Medium_Italic, Barlow_600SemiBold, Barlow_600SemiBold_Italic, Barlow_700Bold, Barlow_700Bold_Italic, Barlow_800ExtraBold, Barlow_800ExtraBold_Italic, Barlow_900Black, Barlow_900Black_Italic } from '@expo-google-fonts/barlow';
+import { useFonts } from '@expo-google-fonts/barlow/useFonts';
+import { Barlow_100Thin } from '@expo-google-fonts/barlow/100Thin';
+import { Barlow_100Thin_Italic } from '@expo-google-fonts/barlow/100Thin_Italic';
+import { Barlow_200ExtraLight } from '@expo-google-fonts/barlow/200ExtraLight';
+import { Barlow_200ExtraLight_Italic } from '@expo-google-fonts/barlow/200ExtraLight_Italic';
+import { Barlow_300Light } from '@expo-google-fonts/barlow/300Light';
+import { Barlow_300Light_Italic } from '@expo-google-fonts/barlow/300Light_Italic';
+import { Barlow_400Regular } from '@expo-google-fonts/barlow/400Regular';
+import { Barlow_400Regular_Italic } from '@expo-google-fonts/barlow/400Regular_Italic';
+import { Barlow_500Medium } from '@expo-google-fonts/barlow/500Medium';
+import { Barlow_500Medium_Italic } from '@expo-google-fonts/barlow/500Medium_Italic';
+import { Barlow_600SemiBold } from '@expo-google-fonts/barlow/600SemiBold';
+import { Barlow_600SemiBold_Italic } from '@expo-google-fonts/barlow/600SemiBold_Italic';
+import { Barlow_700Bold } from '@expo-google-fonts/barlow/700Bold';
+import { Barlow_700Bold_Italic } from '@expo-google-fonts/barlow/700Bold_Italic';
+import { Barlow_800ExtraBold } from '@expo-google-fonts/barlow/800ExtraBold';
+import { Barlow_800ExtraBold_Italic } from '@expo-google-fonts/barlow/800ExtraBold_Italic';
+import { Barlow_900Black } from '@expo-google-fonts/barlow/900Black';
+import { Barlow_900Black_Italic } from '@expo-google-fonts/barlow/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Barlow_100Thin](./Barlow_100Thin.ttf.png)|![Barlow_100Thin_Italic](./Barlow_100Thin_Italic.ttf.png)|![Barlow_200ExtraLight](./Barlow_200ExtraLight.ttf.png)||
-|![Barlow_200ExtraLight_Italic](./Barlow_200ExtraLight_Italic.ttf.png)|![Barlow_300Light](./Barlow_300Light.ttf.png)|![Barlow_300Light_Italic](./Barlow_300Light_Italic.ttf.png)||
-|![Barlow_400Regular](./Barlow_400Regular.ttf.png)|![Barlow_400Regular_Italic](./Barlow_400Regular_Italic.ttf.png)|![Barlow_500Medium](./Barlow_500Medium.ttf.png)||
-|![Barlow_500Medium_Italic](./Barlow_500Medium_Italic.ttf.png)|![Barlow_600SemiBold](./Barlow_600SemiBold.ttf.png)|![Barlow_600SemiBold_Italic](./Barlow_600SemiBold_Italic.ttf.png)||
-|![Barlow_700Bold](./Barlow_700Bold.ttf.png)|![Barlow_700Bold_Italic](./Barlow_700Bold_Italic.ttf.png)|![Barlow_800ExtraBold](./Barlow_800ExtraBold.ttf.png)||
-|![Barlow_800ExtraBold_Italic](./Barlow_800ExtraBold_Italic.ttf.png)|![Barlow_900Black](./Barlow_900Black.ttf.png)|![Barlow_900Black_Italic](./Barlow_900Black_Italic.ttf.png)||
+|![Barlow_100Thin](./100Thin/Barlow_100Thin.ttf.png)|![Barlow_100Thin_Italic](./100Thin_Italic/Barlow_100Thin_Italic.ttf.png)|![Barlow_200ExtraLight](./200ExtraLight/Barlow_200ExtraLight.ttf.png)||
+|![Barlow_200ExtraLight_Italic](./200ExtraLight_Italic/Barlow_200ExtraLight_Italic.ttf.png)|![Barlow_300Light](./300Light/Barlow_300Light.ttf.png)|![Barlow_300Light_Italic](./300Light_Italic/Barlow_300Light_Italic.ttf.png)||
+|![Barlow_400Regular](./400Regular/Barlow_400Regular.ttf.png)|![Barlow_400Regular_Italic](./400Regular_Italic/Barlow_400Regular_Italic.ttf.png)|![Barlow_500Medium](./500Medium/Barlow_500Medium.ttf.png)||
+|![Barlow_500Medium_Italic](./500Medium_Italic/Barlow_500Medium_Italic.ttf.png)|![Barlow_600SemiBold](./600SemiBold/Barlow_600SemiBold.ttf.png)|![Barlow_600SemiBold_Italic](./600SemiBold_Italic/Barlow_600SemiBold_Italic.ttf.png)||
+|![Barlow_700Bold](./700Bold/Barlow_700Bold.ttf.png)|![Barlow_700Bold_Italic](./700Bold_Italic/Barlow_700Bold_Italic.ttf.png)|![Barlow_800ExtraBold](./800ExtraBold/Barlow_800ExtraBold.ttf.png)||
+|![Barlow_800ExtraBold_Italic](./800ExtraBold_Italic/Barlow_800ExtraBold_Italic.ttf.png)|![Barlow_900Black](./900Black/Barlow_900Black.ttf.png)|![Barlow_900Black_Italic](./900Black_Italic/Barlow_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

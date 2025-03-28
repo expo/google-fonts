@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/playwrite-de-sas expo-font expo-app-loading
+npx expo install @expo-google-fonts/playwrite-de-sas expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PlaywriteDESAS_100Thin, PlaywriteDESAS_200ExtraLight, PlaywriteDESAS_300Light, PlaywriteDESAS_400Regular } from '@expo-google-fonts/playwrite-de-sas';
+import { useFonts } from '@expo-google-fonts/playwrite-de-sas/useFonts';
+import { PlaywriteDESAS_100Thin } from '@expo-google-fonts/playwrite-de-sas/100Thin';
+import { PlaywriteDESAS_200ExtraLight } from '@expo-google-fonts/playwrite-de-sas/200ExtraLight';
+import { PlaywriteDESAS_300Light } from '@expo-google-fonts/playwrite-de-sas/300Light';
+import { PlaywriteDESAS_400Regular } from '@expo-google-fonts/playwrite-de-sas/400Regular';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteDESAS_100Thin](./PlaywriteDESAS_100Thin.ttf.png)|![PlaywriteDESAS_200ExtraLight](./PlaywriteDESAS_200ExtraLight.ttf.png)|![PlaywriteDESAS_300Light](./PlaywriteDESAS_300Light.ttf.png)||
-|![PlaywriteDESAS_400Regular](./PlaywriteDESAS_400Regular.ttf.png)||||
+|![PlaywriteDESAS_100Thin](./100Thin/PlaywriteDESAS_100Thin.ttf.png)|![PlaywriteDESAS_200ExtraLight](./200ExtraLight/PlaywriteDESAS_200ExtraLight.ttf.png)|![PlaywriteDESAS_300Light](./300Light/PlaywriteDESAS_300Light.ttf.png)||
+|![PlaywriteDESAS_400Regular](./400Regular/PlaywriteDESAS_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-armenian expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-armenian expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansArmenian_100Thin, NotoSansArmenian_200ExtraLight, NotoSansArmenian_300Light, NotoSansArmenian_400Regular, NotoSansArmenian_500Medium, NotoSansArmenian_600SemiBold, NotoSansArmenian_700Bold, NotoSansArmenian_800ExtraBold, NotoSansArmenian_900Black } from '@expo-google-fonts/noto-sans-armenian';
+import { useFonts } from '@expo-google-fonts/noto-sans-armenian/useFonts';
+import { NotoSansArmenian_100Thin } from '@expo-google-fonts/noto-sans-armenian/100Thin';
+import { NotoSansArmenian_200ExtraLight } from '@expo-google-fonts/noto-sans-armenian/200ExtraLight';
+import { NotoSansArmenian_300Light } from '@expo-google-fonts/noto-sans-armenian/300Light';
+import { NotoSansArmenian_400Regular } from '@expo-google-fonts/noto-sans-armenian/400Regular';
+import { NotoSansArmenian_500Medium } from '@expo-google-fonts/noto-sans-armenian/500Medium';
+import { NotoSansArmenian_600SemiBold } from '@expo-google-fonts/noto-sans-armenian/600SemiBold';
+import { NotoSansArmenian_700Bold } from '@expo-google-fonts/noto-sans-armenian/700Bold';
+import { NotoSansArmenian_800ExtraBold } from '@expo-google-fonts/noto-sans-armenian/800ExtraBold';
+import { NotoSansArmenian_900Black } from '@expo-google-fonts/noto-sans-armenian/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansArmenian_100Thin](./NotoSansArmenian_100Thin.ttf.png)|![NotoSansArmenian_200ExtraLight](./NotoSansArmenian_200ExtraLight.ttf.png)|![NotoSansArmenian_300Light](./NotoSansArmenian_300Light.ttf.png)||
-|![NotoSansArmenian_400Regular](./NotoSansArmenian_400Regular.ttf.png)|![NotoSansArmenian_500Medium](./NotoSansArmenian_500Medium.ttf.png)|![NotoSansArmenian_600SemiBold](./NotoSansArmenian_600SemiBold.ttf.png)||
-|![NotoSansArmenian_700Bold](./NotoSansArmenian_700Bold.ttf.png)|![NotoSansArmenian_800ExtraBold](./NotoSansArmenian_800ExtraBold.ttf.png)|![NotoSansArmenian_900Black](./NotoSansArmenian_900Black.ttf.png)||
+|![NotoSansArmenian_100Thin](./100Thin/NotoSansArmenian_100Thin.ttf.png)|![NotoSansArmenian_200ExtraLight](./200ExtraLight/NotoSansArmenian_200ExtraLight.ttf.png)|![NotoSansArmenian_300Light](./300Light/NotoSansArmenian_300Light.ttf.png)||
+|![NotoSansArmenian_400Regular](./400Regular/NotoSansArmenian_400Regular.ttf.png)|![NotoSansArmenian_500Medium](./500Medium/NotoSansArmenian_500Medium.ttf.png)|![NotoSansArmenian_600SemiBold](./600SemiBold/NotoSansArmenian_600SemiBold.ttf.png)||
+|![NotoSansArmenian_700Bold](./700Bold/NotoSansArmenian_700Bold.ttf.png)|![NotoSansArmenian_800ExtraBold](./800ExtraBold/NotoSansArmenian_800ExtraBold.ttf.png)|![NotoSansArmenian_900Black](./900Black/NotoSansArmenian_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

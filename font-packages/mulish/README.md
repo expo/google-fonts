@@ -35,7 +35,7 @@ This font family contains [16 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/mulish expo-font expo-app-loading
+npx expo install @expo-google-fonts/mulish expo-font
 ```
 
 Now add code like this to your project
@@ -44,8 +44,23 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Mulish_200ExtraLight, Mulish_300Light, Mulish_400Regular, Mulish_500Medium, Mulish_600SemiBold, Mulish_700Bold, Mulish_800ExtraBold, Mulish_900Black, Mulish_200ExtraLight_Italic, Mulish_300Light_Italic, Mulish_400Regular_Italic, Mulish_500Medium_Italic, Mulish_600SemiBold_Italic, Mulish_700Bold_Italic, Mulish_800ExtraBold_Italic, Mulish_900Black_Italic } from '@expo-google-fonts/mulish';
+import { useFonts } from '@expo-google-fonts/mulish/useFonts';
+import { Mulish_200ExtraLight } from '@expo-google-fonts/mulish/200ExtraLight';
+import { Mulish_300Light } from '@expo-google-fonts/mulish/300Light';
+import { Mulish_400Regular } from '@expo-google-fonts/mulish/400Regular';
+import { Mulish_500Medium } from '@expo-google-fonts/mulish/500Medium';
+import { Mulish_600SemiBold } from '@expo-google-fonts/mulish/600SemiBold';
+import { Mulish_700Bold } from '@expo-google-fonts/mulish/700Bold';
+import { Mulish_800ExtraBold } from '@expo-google-fonts/mulish/800ExtraBold';
+import { Mulish_900Black } from '@expo-google-fonts/mulish/900Black';
+import { Mulish_200ExtraLight_Italic } from '@expo-google-fonts/mulish/200ExtraLight_Italic';
+import { Mulish_300Light_Italic } from '@expo-google-fonts/mulish/300Light_Italic';
+import { Mulish_400Regular_Italic } from '@expo-google-fonts/mulish/400Regular_Italic';
+import { Mulish_500Medium_Italic } from '@expo-google-fonts/mulish/500Medium_Italic';
+import { Mulish_600SemiBold_Italic } from '@expo-google-fonts/mulish/600SemiBold_Italic';
+import { Mulish_700Bold_Italic } from '@expo-google-fonts/mulish/700Bold_Italic';
+import { Mulish_800ExtraBold_Italic } from '@expo-google-fonts/mulish/800ExtraBold_Italic';
+import { Mulish_900Black_Italic } from '@expo-google-fonts/mulish/900Black_Italic';
 
 export default () => {
 
@@ -72,7 +87,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -215,12 +230,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Mulish_200ExtraLight](./Mulish_200ExtraLight.ttf.png)|![Mulish_300Light](./Mulish_300Light.ttf.png)|![Mulish_400Regular](./Mulish_400Regular.ttf.png)||
-|![Mulish_500Medium](./Mulish_500Medium.ttf.png)|![Mulish_600SemiBold](./Mulish_600SemiBold.ttf.png)|![Mulish_700Bold](./Mulish_700Bold.ttf.png)||
-|![Mulish_800ExtraBold](./Mulish_800ExtraBold.ttf.png)|![Mulish_900Black](./Mulish_900Black.ttf.png)|![Mulish_200ExtraLight_Italic](./Mulish_200ExtraLight_Italic.ttf.png)||
-|![Mulish_300Light_Italic](./Mulish_300Light_Italic.ttf.png)|![Mulish_400Regular_Italic](./Mulish_400Regular_Italic.ttf.png)|![Mulish_500Medium_Italic](./Mulish_500Medium_Italic.ttf.png)||
-|![Mulish_600SemiBold_Italic](./Mulish_600SemiBold_Italic.ttf.png)|![Mulish_700Bold_Italic](./Mulish_700Bold_Italic.ttf.png)|![Mulish_800ExtraBold_Italic](./Mulish_800ExtraBold_Italic.ttf.png)||
-|![Mulish_900Black_Italic](./Mulish_900Black_Italic.ttf.png)||||
+|![Mulish_200ExtraLight](./200ExtraLight/Mulish_200ExtraLight.ttf.png)|![Mulish_300Light](./300Light/Mulish_300Light.ttf.png)|![Mulish_400Regular](./400Regular/Mulish_400Regular.ttf.png)||
+|![Mulish_500Medium](./500Medium/Mulish_500Medium.ttf.png)|![Mulish_600SemiBold](./600SemiBold/Mulish_600SemiBold.ttf.png)|![Mulish_700Bold](./700Bold/Mulish_700Bold.ttf.png)||
+|![Mulish_800ExtraBold](./800ExtraBold/Mulish_800ExtraBold.ttf.png)|![Mulish_900Black](./900Black/Mulish_900Black.ttf.png)|![Mulish_200ExtraLight_Italic](./200ExtraLight_Italic/Mulish_200ExtraLight_Italic.ttf.png)||
+|![Mulish_300Light_Italic](./300Light_Italic/Mulish_300Light_Italic.ttf.png)|![Mulish_400Regular_Italic](./400Regular_Italic/Mulish_400Regular_Italic.ttf.png)|![Mulish_500Medium_Italic](./500Medium_Italic/Mulish_500Medium_Italic.ttf.png)||
+|![Mulish_600SemiBold_Italic](./600SemiBold_Italic/Mulish_600SemiBold_Italic.ttf.png)|![Mulish_700Bold_Italic](./700Bold_Italic/Mulish_700Bold_Italic.ttf.png)|![Mulish_800ExtraBold_Italic](./800ExtraBold_Italic/Mulish_800ExtraBold_Italic.ttf.png)||
+|![Mulish_900Black_Italic](./900Black_Italic/Mulish_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

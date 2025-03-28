@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/labrada expo-font expo-app-loading
+npx expo install @expo-google-fonts/labrada expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Labrada_100Thin, Labrada_200ExtraLight, Labrada_300Light, Labrada_400Regular, Labrada_500Medium, Labrada_600SemiBold, Labrada_700Bold, Labrada_800ExtraBold, Labrada_900Black, Labrada_100Thin_Italic, Labrada_200ExtraLight_Italic, Labrada_300Light_Italic, Labrada_400Regular_Italic, Labrada_500Medium_Italic, Labrada_600SemiBold_Italic, Labrada_700Bold_Italic, Labrada_800ExtraBold_Italic, Labrada_900Black_Italic } from '@expo-google-fonts/labrada';
+import { useFonts } from '@expo-google-fonts/labrada/useFonts';
+import { Labrada_100Thin } from '@expo-google-fonts/labrada/100Thin';
+import { Labrada_200ExtraLight } from '@expo-google-fonts/labrada/200ExtraLight';
+import { Labrada_300Light } from '@expo-google-fonts/labrada/300Light';
+import { Labrada_400Regular } from '@expo-google-fonts/labrada/400Regular';
+import { Labrada_500Medium } from '@expo-google-fonts/labrada/500Medium';
+import { Labrada_600SemiBold } from '@expo-google-fonts/labrada/600SemiBold';
+import { Labrada_700Bold } from '@expo-google-fonts/labrada/700Bold';
+import { Labrada_800ExtraBold } from '@expo-google-fonts/labrada/800ExtraBold';
+import { Labrada_900Black } from '@expo-google-fonts/labrada/900Black';
+import { Labrada_100Thin_Italic } from '@expo-google-fonts/labrada/100Thin_Italic';
+import { Labrada_200ExtraLight_Italic } from '@expo-google-fonts/labrada/200ExtraLight_Italic';
+import { Labrada_300Light_Italic } from '@expo-google-fonts/labrada/300Light_Italic';
+import { Labrada_400Regular_Italic } from '@expo-google-fonts/labrada/400Regular_Italic';
+import { Labrada_500Medium_Italic } from '@expo-google-fonts/labrada/500Medium_Italic';
+import { Labrada_600SemiBold_Italic } from '@expo-google-fonts/labrada/600SemiBold_Italic';
+import { Labrada_700Bold_Italic } from '@expo-google-fonts/labrada/700Bold_Italic';
+import { Labrada_800ExtraBold_Italic } from '@expo-google-fonts/labrada/800ExtraBold_Italic';
+import { Labrada_900Black_Italic } from '@expo-google-fonts/labrada/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Labrada_100Thin](./Labrada_100Thin.ttf.png)|![Labrada_200ExtraLight](./Labrada_200ExtraLight.ttf.png)|![Labrada_300Light](./Labrada_300Light.ttf.png)||
-|![Labrada_400Regular](./Labrada_400Regular.ttf.png)|![Labrada_500Medium](./Labrada_500Medium.ttf.png)|![Labrada_600SemiBold](./Labrada_600SemiBold.ttf.png)||
-|![Labrada_700Bold](./Labrada_700Bold.ttf.png)|![Labrada_800ExtraBold](./Labrada_800ExtraBold.ttf.png)|![Labrada_900Black](./Labrada_900Black.ttf.png)||
-|![Labrada_100Thin_Italic](./Labrada_100Thin_Italic.ttf.png)|![Labrada_200ExtraLight_Italic](./Labrada_200ExtraLight_Italic.ttf.png)|![Labrada_300Light_Italic](./Labrada_300Light_Italic.ttf.png)||
-|![Labrada_400Regular_Italic](./Labrada_400Regular_Italic.ttf.png)|![Labrada_500Medium_Italic](./Labrada_500Medium_Italic.ttf.png)|![Labrada_600SemiBold_Italic](./Labrada_600SemiBold_Italic.ttf.png)||
-|![Labrada_700Bold_Italic](./Labrada_700Bold_Italic.ttf.png)|![Labrada_800ExtraBold_Italic](./Labrada_800ExtraBold_Italic.ttf.png)|![Labrada_900Black_Italic](./Labrada_900Black_Italic.ttf.png)||
+|![Labrada_100Thin](./100Thin/Labrada_100Thin.ttf.png)|![Labrada_200ExtraLight](./200ExtraLight/Labrada_200ExtraLight.ttf.png)|![Labrada_300Light](./300Light/Labrada_300Light.ttf.png)||
+|![Labrada_400Regular](./400Regular/Labrada_400Regular.ttf.png)|![Labrada_500Medium](./500Medium/Labrada_500Medium.ttf.png)|![Labrada_600SemiBold](./600SemiBold/Labrada_600SemiBold.ttf.png)||
+|![Labrada_700Bold](./700Bold/Labrada_700Bold.ttf.png)|![Labrada_800ExtraBold](./800ExtraBold/Labrada_800ExtraBold.ttf.png)|![Labrada_900Black](./900Black/Labrada_900Black.ttf.png)||
+|![Labrada_100Thin_Italic](./100Thin_Italic/Labrada_100Thin_Italic.ttf.png)|![Labrada_200ExtraLight_Italic](./200ExtraLight_Italic/Labrada_200ExtraLight_Italic.ttf.png)|![Labrada_300Light_Italic](./300Light_Italic/Labrada_300Light_Italic.ttf.png)||
+|![Labrada_400Regular_Italic](./400Regular_Italic/Labrada_400Regular_Italic.ttf.png)|![Labrada_500Medium_Italic](./500Medium_Italic/Labrada_500Medium_Italic.ttf.png)|![Labrada_600SemiBold_Italic](./600SemiBold_Italic/Labrada_600SemiBold_Italic.ttf.png)||
+|![Labrada_700Bold_Italic](./700Bold_Italic/Labrada_700Bold_Italic.ttf.png)|![Labrada_800ExtraBold_Italic](./800ExtraBold_Italic/Labrada_800ExtraBold_Italic.ttf.png)|![Labrada_900Black_Italic](./900Black_Italic/Labrada_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

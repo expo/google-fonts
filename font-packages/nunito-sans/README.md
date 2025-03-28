@@ -35,7 +35,7 @@ This font family contains [16 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/nunito-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/nunito-sans expo-font
 ```
 
 Now add code like this to your project
@@ -44,8 +44,23 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NunitoSans_200ExtraLight, NunitoSans_300Light, NunitoSans_400Regular, NunitoSans_500Medium, NunitoSans_600SemiBold, NunitoSans_700Bold, NunitoSans_800ExtraBold, NunitoSans_900Black, NunitoSans_200ExtraLight_Italic, NunitoSans_300Light_Italic, NunitoSans_400Regular_Italic, NunitoSans_500Medium_Italic, NunitoSans_600SemiBold_Italic, NunitoSans_700Bold_Italic, NunitoSans_800ExtraBold_Italic, NunitoSans_900Black_Italic } from '@expo-google-fonts/nunito-sans';
+import { useFonts } from '@expo-google-fonts/nunito-sans/useFonts';
+import { NunitoSans_200ExtraLight } from '@expo-google-fonts/nunito-sans/200ExtraLight';
+import { NunitoSans_300Light } from '@expo-google-fonts/nunito-sans/300Light';
+import { NunitoSans_400Regular } from '@expo-google-fonts/nunito-sans/400Regular';
+import { NunitoSans_500Medium } from '@expo-google-fonts/nunito-sans/500Medium';
+import { NunitoSans_600SemiBold } from '@expo-google-fonts/nunito-sans/600SemiBold';
+import { NunitoSans_700Bold } from '@expo-google-fonts/nunito-sans/700Bold';
+import { NunitoSans_800ExtraBold } from '@expo-google-fonts/nunito-sans/800ExtraBold';
+import { NunitoSans_900Black } from '@expo-google-fonts/nunito-sans/900Black';
+import { NunitoSans_200ExtraLight_Italic } from '@expo-google-fonts/nunito-sans/200ExtraLight_Italic';
+import { NunitoSans_300Light_Italic } from '@expo-google-fonts/nunito-sans/300Light_Italic';
+import { NunitoSans_400Regular_Italic } from '@expo-google-fonts/nunito-sans/400Regular_Italic';
+import { NunitoSans_500Medium_Italic } from '@expo-google-fonts/nunito-sans/500Medium_Italic';
+import { NunitoSans_600SemiBold_Italic } from '@expo-google-fonts/nunito-sans/600SemiBold_Italic';
+import { NunitoSans_700Bold_Italic } from '@expo-google-fonts/nunito-sans/700Bold_Italic';
+import { NunitoSans_800ExtraBold_Italic } from '@expo-google-fonts/nunito-sans/800ExtraBold_Italic';
+import { NunitoSans_900Black_Italic } from '@expo-google-fonts/nunito-sans/900Black_Italic';
 
 export default () => {
 
@@ -72,7 +87,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -215,12 +230,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NunitoSans_200ExtraLight](./NunitoSans_200ExtraLight.ttf.png)|![NunitoSans_300Light](./NunitoSans_300Light.ttf.png)|![NunitoSans_400Regular](./NunitoSans_400Regular.ttf.png)||
-|![NunitoSans_500Medium](./NunitoSans_500Medium.ttf.png)|![NunitoSans_600SemiBold](./NunitoSans_600SemiBold.ttf.png)|![NunitoSans_700Bold](./NunitoSans_700Bold.ttf.png)||
-|![NunitoSans_800ExtraBold](./NunitoSans_800ExtraBold.ttf.png)|![NunitoSans_900Black](./NunitoSans_900Black.ttf.png)|![NunitoSans_200ExtraLight_Italic](./NunitoSans_200ExtraLight_Italic.ttf.png)||
-|![NunitoSans_300Light_Italic](./NunitoSans_300Light_Italic.ttf.png)|![NunitoSans_400Regular_Italic](./NunitoSans_400Regular_Italic.ttf.png)|![NunitoSans_500Medium_Italic](./NunitoSans_500Medium_Italic.ttf.png)||
-|![NunitoSans_600SemiBold_Italic](./NunitoSans_600SemiBold_Italic.ttf.png)|![NunitoSans_700Bold_Italic](./NunitoSans_700Bold_Italic.ttf.png)|![NunitoSans_800ExtraBold_Italic](./NunitoSans_800ExtraBold_Italic.ttf.png)||
-|![NunitoSans_900Black_Italic](./NunitoSans_900Black_Italic.ttf.png)||||
+|![NunitoSans_200ExtraLight](./200ExtraLight/NunitoSans_200ExtraLight.ttf.png)|![NunitoSans_300Light](./300Light/NunitoSans_300Light.ttf.png)|![NunitoSans_400Regular](./400Regular/NunitoSans_400Regular.ttf.png)||
+|![NunitoSans_500Medium](./500Medium/NunitoSans_500Medium.ttf.png)|![NunitoSans_600SemiBold](./600SemiBold/NunitoSans_600SemiBold.ttf.png)|![NunitoSans_700Bold](./700Bold/NunitoSans_700Bold.ttf.png)||
+|![NunitoSans_800ExtraBold](./800ExtraBold/NunitoSans_800ExtraBold.ttf.png)|![NunitoSans_900Black](./900Black/NunitoSans_900Black.ttf.png)|![NunitoSans_200ExtraLight_Italic](./200ExtraLight_Italic/NunitoSans_200ExtraLight_Italic.ttf.png)||
+|![NunitoSans_300Light_Italic](./300Light_Italic/NunitoSans_300Light_Italic.ttf.png)|![NunitoSans_400Regular_Italic](./400Regular_Italic/NunitoSans_400Regular_Italic.ttf.png)|![NunitoSans_500Medium_Italic](./500Medium_Italic/NunitoSans_500Medium_Italic.ttf.png)||
+|![NunitoSans_600SemiBold_Italic](./600SemiBold_Italic/NunitoSans_600SemiBold_Italic.ttf.png)|![NunitoSans_700Bold_Italic](./700Bold_Italic/NunitoSans_700Bold_Italic.ttf.png)|![NunitoSans_800ExtraBold_Italic](./800ExtraBold_Italic/NunitoSans_800ExtraBold_Italic.ttf.png)||
+|![NunitoSans_900Black_Italic](./900Black_Italic/NunitoSans_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -21,7 +21,7 @@ This font family contains [2 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/magra expo-font expo-app-loading
+npx expo install @expo-google-fonts/magra expo-font
 ```
 
 Now add code like this to your project
@@ -30,8 +30,9 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Magra_400Regular, Magra_700Bold } from '@expo-google-fonts/magra';
+import { useFonts } from '@expo-google-fonts/magra/useFonts';
+import { Magra_400Regular } from '@expo-google-fonts/magra/400Regular';
+import { Magra_700Bold } from '@expo-google-fonts/magra/700Bold';
 
 export default () => {
 
@@ -44,7 +45,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -75,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Magra_400Regular](./Magra_400Regular.ttf.png)|![Magra_700Bold](./Magra_700Bold.ttf.png)|||
+|![Magra_400Regular](./400Regular/Magra_400Regular.ttf.png)|![Magra_700Bold](./700Bold/Magra_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

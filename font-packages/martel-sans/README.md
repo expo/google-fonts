@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/martel-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/martel-sans expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, MartelSans_200ExtraLight, MartelSans_300Light, MartelSans_400Regular, MartelSans_600SemiBold, MartelSans_700Bold, MartelSans_800ExtraBold, MartelSans_900Black } from '@expo-google-fonts/martel-sans';
+import { useFonts } from '@expo-google-fonts/martel-sans/useFonts';
+import { MartelSans_200ExtraLight } from '@expo-google-fonts/martel-sans/200ExtraLight';
+import { MartelSans_300Light } from '@expo-google-fonts/martel-sans/300Light';
+import { MartelSans_400Regular } from '@expo-google-fonts/martel-sans/400Regular';
+import { MartelSans_600SemiBold } from '@expo-google-fonts/martel-sans/600SemiBold';
+import { MartelSans_700Bold } from '@expo-google-fonts/martel-sans/700Bold';
+import { MartelSans_800ExtraBold } from '@expo-google-fonts/martel-sans/800ExtraBold';
+import { MartelSans_900Black } from '@expo-google-fonts/martel-sans/900Black';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MartelSans_200ExtraLight](./MartelSans_200ExtraLight.ttf.png)|![MartelSans_300Light](./MartelSans_300Light.ttf.png)|![MartelSans_400Regular](./MartelSans_400Regular.ttf.png)||
-|![MartelSans_600SemiBold](./MartelSans_600SemiBold.ttf.png)|![MartelSans_700Bold](./MartelSans_700Bold.ttf.png)|![MartelSans_800ExtraBold](./MartelSans_800ExtraBold.ttf.png)||
-|![MartelSans_900Black](./MartelSans_900Black.ttf.png)||||
+|![MartelSans_200ExtraLight](./200ExtraLight/MartelSans_200ExtraLight.ttf.png)|![MartelSans_300Light](./300Light/MartelSans_300Light.ttf.png)|![MartelSans_400Regular](./400Regular/MartelSans_400Regular.ttf.png)||
+|![MartelSans_600SemiBold](./600SemiBold/MartelSans_600SemiBold.ttf.png)|![MartelSans_700Bold](./700Bold/MartelSans_700Bold.ttf.png)|![MartelSans_800ExtraBold](./800ExtraBold/MartelSans_800ExtraBold.ttf.png)||
+|![MartelSans_900Black](./900Black/MartelSans_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

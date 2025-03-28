@@ -1,9 +1,13 @@
 {
   "name": "@expo-google-fonts/mountains-of-christmas",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Use the Mountains of Christmas font family from Google Fonts in your Expo app",
   "main": "index.js",
-  "repository": "https://github.com/expo/google-fonts.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/mountains-of-christmas"
+  },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/mountains-of-christmas#readme",
   "author": "Expo Team <team@expo.io>",
   "license": "MIT",

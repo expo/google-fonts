@@ -1,9 +1,13 @@
 {
   "name": "@expo-google-fonts/ma-shan-zheng",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Use the Ma Shan Zheng font family from Google Fonts in your Expo app",
   "main": "index.js",
-  "repository": "https://github.com/expo/google-fonts.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/ma-shan-zheng"
+  },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/ma-shan-zheng#readme",
   "author": "Expo Team <team@expo.io>",
   "license": "MIT",

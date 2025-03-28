@@ -29,7 +29,7 @@ This font family contains [10 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/teachers expo-font expo-app-loading
+npx expo install @expo-google-fonts/teachers expo-font
 ```
 
 Now add code like this to your project
@@ -38,8 +38,17 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Teachers_400Regular, Teachers_500Medium, Teachers_600SemiBold, Teachers_700Bold, Teachers_800ExtraBold, Teachers_400Regular_Italic, Teachers_500Medium_Italic, Teachers_600SemiBold_Italic, Teachers_700Bold_Italic, Teachers_800ExtraBold_Italic } from '@expo-google-fonts/teachers';
+import { useFonts } from '@expo-google-fonts/teachers/useFonts';
+import { Teachers_400Regular } from '@expo-google-fonts/teachers/400Regular';
+import { Teachers_500Medium } from '@expo-google-fonts/teachers/500Medium';
+import { Teachers_600SemiBold } from '@expo-google-fonts/teachers/600SemiBold';
+import { Teachers_700Bold } from '@expo-google-fonts/teachers/700Bold';
+import { Teachers_800ExtraBold } from '@expo-google-fonts/teachers/800ExtraBold';
+import { Teachers_400Regular_Italic } from '@expo-google-fonts/teachers/400Regular_Italic';
+import { Teachers_500Medium_Italic } from '@expo-google-fonts/teachers/500Medium_Italic';
+import { Teachers_600SemiBold_Italic } from '@expo-google-fonts/teachers/600SemiBold_Italic';
+import { Teachers_700Bold_Italic } from '@expo-google-fonts/teachers/700Bold_Italic';
+import { Teachers_800ExtraBold_Italic } from '@expo-google-fonts/teachers/800ExtraBold_Italic';
 
 export default () => {
 
@@ -60,7 +69,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -155,10 +164,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Teachers_400Regular](./Teachers_400Regular.ttf.png)|![Teachers_500Medium](./Teachers_500Medium.ttf.png)|![Teachers_600SemiBold](./Teachers_600SemiBold.ttf.png)||
-|![Teachers_700Bold](./Teachers_700Bold.ttf.png)|![Teachers_800ExtraBold](./Teachers_800ExtraBold.ttf.png)|![Teachers_400Regular_Italic](./Teachers_400Regular_Italic.ttf.png)||
-|![Teachers_500Medium_Italic](./Teachers_500Medium_Italic.ttf.png)|![Teachers_600SemiBold_Italic](./Teachers_600SemiBold_Italic.ttf.png)|![Teachers_700Bold_Italic](./Teachers_700Bold_Italic.ttf.png)||
-|![Teachers_800ExtraBold_Italic](./Teachers_800ExtraBold_Italic.ttf.png)||||
+|![Teachers_400Regular](./400Regular/Teachers_400Regular.ttf.png)|![Teachers_500Medium](./500Medium/Teachers_500Medium.ttf.png)|![Teachers_600SemiBold](./600SemiBold/Teachers_600SemiBold.ttf.png)||
+|![Teachers_700Bold](./700Bold/Teachers_700Bold.ttf.png)|![Teachers_800ExtraBold](./800ExtraBold/Teachers_800ExtraBold.ttf.png)|![Teachers_400Regular_Italic](./400Regular_Italic/Teachers_400Regular_Italic.ttf.png)||
+|![Teachers_500Medium_Italic](./500Medium_Italic/Teachers_500Medium_Italic.ttf.png)|![Teachers_600SemiBold_Italic](./600SemiBold_Italic/Teachers_600SemiBold_Italic.ttf.png)|![Teachers_700Bold_Italic](./700Bold_Italic/Teachers_700Bold_Italic.ttf.png)||
+|![Teachers_800ExtraBold_Italic](./800ExtraBold_Italic/Teachers_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

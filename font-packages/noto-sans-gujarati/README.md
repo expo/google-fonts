@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-gujarati expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-gujarati expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansGujarati_100Thin, NotoSansGujarati_200ExtraLight, NotoSansGujarati_300Light, NotoSansGujarati_400Regular, NotoSansGujarati_500Medium, NotoSansGujarati_600SemiBold, NotoSansGujarati_700Bold, NotoSansGujarati_800ExtraBold, NotoSansGujarati_900Black } from '@expo-google-fonts/noto-sans-gujarati';
+import { useFonts } from '@expo-google-fonts/noto-sans-gujarati/useFonts';
+import { NotoSansGujarati_100Thin } from '@expo-google-fonts/noto-sans-gujarati/100Thin';
+import { NotoSansGujarati_200ExtraLight } from '@expo-google-fonts/noto-sans-gujarati/200ExtraLight';
+import { NotoSansGujarati_300Light } from '@expo-google-fonts/noto-sans-gujarati/300Light';
+import { NotoSansGujarati_400Regular } from '@expo-google-fonts/noto-sans-gujarati/400Regular';
+import { NotoSansGujarati_500Medium } from '@expo-google-fonts/noto-sans-gujarati/500Medium';
+import { NotoSansGujarati_600SemiBold } from '@expo-google-fonts/noto-sans-gujarati/600SemiBold';
+import { NotoSansGujarati_700Bold } from '@expo-google-fonts/noto-sans-gujarati/700Bold';
+import { NotoSansGujarati_800ExtraBold } from '@expo-google-fonts/noto-sans-gujarati/800ExtraBold';
+import { NotoSansGujarati_900Black } from '@expo-google-fonts/noto-sans-gujarati/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansGujarati_100Thin](./NotoSansGujarati_100Thin.ttf.png)|![NotoSansGujarati_200ExtraLight](./NotoSansGujarati_200ExtraLight.ttf.png)|![NotoSansGujarati_300Light](./NotoSansGujarati_300Light.ttf.png)||
-|![NotoSansGujarati_400Regular](./NotoSansGujarati_400Regular.ttf.png)|![NotoSansGujarati_500Medium](./NotoSansGujarati_500Medium.ttf.png)|![NotoSansGujarati_600SemiBold](./NotoSansGujarati_600SemiBold.ttf.png)||
-|![NotoSansGujarati_700Bold](./NotoSansGujarati_700Bold.ttf.png)|![NotoSansGujarati_800ExtraBold](./NotoSansGujarati_800ExtraBold.ttf.png)|![NotoSansGujarati_900Black](./NotoSansGujarati_900Black.ttf.png)||
+|![NotoSansGujarati_100Thin](./100Thin/NotoSansGujarati_100Thin.ttf.png)|![NotoSansGujarati_200ExtraLight](./200ExtraLight/NotoSansGujarati_200ExtraLight.ttf.png)|![NotoSansGujarati_300Light](./300Light/NotoSansGujarati_300Light.ttf.png)||
+|![NotoSansGujarati_400Regular](./400Regular/NotoSansGujarati_400Regular.ttf.png)|![NotoSansGujarati_500Medium](./500Medium/NotoSansGujarati_500Medium.ttf.png)|![NotoSansGujarati_600SemiBold](./600SemiBold/NotoSansGujarati_600SemiBold.ttf.png)||
+|![NotoSansGujarati_700Bold](./700Bold/NotoSansGujarati_700Bold.ttf.png)|![NotoSansGujarati_800ExtraBold](./800ExtraBold/NotoSansGujarati_800ExtraBold.ttf.png)|![NotoSansGujarati_900Black](./900Black/NotoSansGujarati_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

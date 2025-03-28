@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/playwrite-it-moderna expo-font expo-app-loading
+npx expo install @expo-google-fonts/playwrite-it-moderna expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PlaywriteITModerna_100Thin, PlaywriteITModerna_200ExtraLight, PlaywriteITModerna_300Light, PlaywriteITModerna_400Regular } from '@expo-google-fonts/playwrite-it-moderna';
+import { useFonts } from '@expo-google-fonts/playwrite-it-moderna/useFonts';
+import { PlaywriteITModerna_100Thin } from '@expo-google-fonts/playwrite-it-moderna/100Thin';
+import { PlaywriteITModerna_200ExtraLight } from '@expo-google-fonts/playwrite-it-moderna/200ExtraLight';
+import { PlaywriteITModerna_300Light } from '@expo-google-fonts/playwrite-it-moderna/300Light';
+import { PlaywriteITModerna_400Regular } from '@expo-google-fonts/playwrite-it-moderna/400Regular';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteITModerna_100Thin](./PlaywriteITModerna_100Thin.ttf.png)|![PlaywriteITModerna_200ExtraLight](./PlaywriteITModerna_200ExtraLight.ttf.png)|![PlaywriteITModerna_300Light](./PlaywriteITModerna_300Light.ttf.png)||
-|![PlaywriteITModerna_400Regular](./PlaywriteITModerna_400Regular.ttf.png)||||
+|![PlaywriteITModerna_100Thin](./100Thin/PlaywriteITModerna_100Thin.ttf.png)|![PlaywriteITModerna_200ExtraLight](./200ExtraLight/PlaywriteITModerna_200ExtraLight.ttf.png)|![PlaywriteITModerna_300Light](./300Light/PlaywriteITModerna_300Light.ttf.png)||
+|![PlaywriteITModerna_400Regular](./400Regular/PlaywriteITModerna_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

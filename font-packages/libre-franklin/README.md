@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/libre-franklin expo-font expo-app-loading
+npx expo install @expo-google-fonts/libre-franklin expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, LibreFranklin_100Thin, LibreFranklin_200ExtraLight, LibreFranklin_300Light, LibreFranklin_400Regular, LibreFranklin_500Medium, LibreFranklin_600SemiBold, LibreFranklin_700Bold, LibreFranklin_800ExtraBold, LibreFranklin_900Black, LibreFranklin_100Thin_Italic, LibreFranklin_200ExtraLight_Italic, LibreFranklin_300Light_Italic, LibreFranklin_400Regular_Italic, LibreFranklin_500Medium_Italic, LibreFranklin_600SemiBold_Italic, LibreFranklin_700Bold_Italic, LibreFranklin_800ExtraBold_Italic, LibreFranklin_900Black_Italic } from '@expo-google-fonts/libre-franklin';
+import { useFonts } from '@expo-google-fonts/libre-franklin/useFonts';
+import { LibreFranklin_100Thin } from '@expo-google-fonts/libre-franklin/100Thin';
+import { LibreFranklin_200ExtraLight } from '@expo-google-fonts/libre-franklin/200ExtraLight';
+import { LibreFranklin_300Light } from '@expo-google-fonts/libre-franklin/300Light';
+import { LibreFranklin_400Regular } from '@expo-google-fonts/libre-franklin/400Regular';
+import { LibreFranklin_500Medium } from '@expo-google-fonts/libre-franklin/500Medium';
+import { LibreFranklin_600SemiBold } from '@expo-google-fonts/libre-franklin/600SemiBold';
+import { LibreFranklin_700Bold } from '@expo-google-fonts/libre-franklin/700Bold';
+import { LibreFranklin_800ExtraBold } from '@expo-google-fonts/libre-franklin/800ExtraBold';
+import { LibreFranklin_900Black } from '@expo-google-fonts/libre-franklin/900Black';
+import { LibreFranklin_100Thin_Italic } from '@expo-google-fonts/libre-franklin/100Thin_Italic';
+import { LibreFranklin_200ExtraLight_Italic } from '@expo-google-fonts/libre-franklin/200ExtraLight_Italic';
+import { LibreFranklin_300Light_Italic } from '@expo-google-fonts/libre-franklin/300Light_Italic';
+import { LibreFranklin_400Regular_Italic } from '@expo-google-fonts/libre-franklin/400Regular_Italic';
+import { LibreFranklin_500Medium_Italic } from '@expo-google-fonts/libre-franklin/500Medium_Italic';
+import { LibreFranklin_600SemiBold_Italic } from '@expo-google-fonts/libre-franklin/600SemiBold_Italic';
+import { LibreFranklin_700Bold_Italic } from '@expo-google-fonts/libre-franklin/700Bold_Italic';
+import { LibreFranklin_800ExtraBold_Italic } from '@expo-google-fonts/libre-franklin/800ExtraBold_Italic';
+import { LibreFranklin_900Black_Italic } from '@expo-google-fonts/libre-franklin/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LibreFranklin_100Thin](./LibreFranklin_100Thin.ttf.png)|![LibreFranklin_200ExtraLight](./LibreFranklin_200ExtraLight.ttf.png)|![LibreFranklin_300Light](./LibreFranklin_300Light.ttf.png)||
-|![LibreFranklin_400Regular](./LibreFranklin_400Regular.ttf.png)|![LibreFranklin_500Medium](./LibreFranklin_500Medium.ttf.png)|![LibreFranklin_600SemiBold](./LibreFranklin_600SemiBold.ttf.png)||
-|![LibreFranklin_700Bold](./LibreFranklin_700Bold.ttf.png)|![LibreFranklin_800ExtraBold](./LibreFranklin_800ExtraBold.ttf.png)|![LibreFranklin_900Black](./LibreFranklin_900Black.ttf.png)||
-|![LibreFranklin_100Thin_Italic](./LibreFranklin_100Thin_Italic.ttf.png)|![LibreFranklin_200ExtraLight_Italic](./LibreFranklin_200ExtraLight_Italic.ttf.png)|![LibreFranklin_300Light_Italic](./LibreFranklin_300Light_Italic.ttf.png)||
-|![LibreFranklin_400Regular_Italic](./LibreFranklin_400Regular_Italic.ttf.png)|![LibreFranklin_500Medium_Italic](./LibreFranklin_500Medium_Italic.ttf.png)|![LibreFranklin_600SemiBold_Italic](./LibreFranklin_600SemiBold_Italic.ttf.png)||
-|![LibreFranklin_700Bold_Italic](./LibreFranklin_700Bold_Italic.ttf.png)|![LibreFranklin_800ExtraBold_Italic](./LibreFranklin_800ExtraBold_Italic.ttf.png)|![LibreFranklin_900Black_Italic](./LibreFranklin_900Black_Italic.ttf.png)||
+|![LibreFranklin_100Thin](./100Thin/LibreFranklin_100Thin.ttf.png)|![LibreFranklin_200ExtraLight](./200ExtraLight/LibreFranklin_200ExtraLight.ttf.png)|![LibreFranklin_300Light](./300Light/LibreFranklin_300Light.ttf.png)||
+|![LibreFranklin_400Regular](./400Regular/LibreFranklin_400Regular.ttf.png)|![LibreFranklin_500Medium](./500Medium/LibreFranklin_500Medium.ttf.png)|![LibreFranklin_600SemiBold](./600SemiBold/LibreFranklin_600SemiBold.ttf.png)||
+|![LibreFranklin_700Bold](./700Bold/LibreFranklin_700Bold.ttf.png)|![LibreFranklin_800ExtraBold](./800ExtraBold/LibreFranklin_800ExtraBold.ttf.png)|![LibreFranklin_900Black](./900Black/LibreFranklin_900Black.ttf.png)||
+|![LibreFranklin_100Thin_Italic](./100Thin_Italic/LibreFranklin_100Thin_Italic.ttf.png)|![LibreFranklin_200ExtraLight_Italic](./200ExtraLight_Italic/LibreFranklin_200ExtraLight_Italic.ttf.png)|![LibreFranklin_300Light_Italic](./300Light_Italic/LibreFranklin_300Light_Italic.ttf.png)||
+|![LibreFranklin_400Regular_Italic](./400Regular_Italic/LibreFranklin_400Regular_Italic.ttf.png)|![LibreFranklin_500Medium_Italic](./500Medium_Italic/LibreFranklin_500Medium_Italic.ttf.png)|![LibreFranklin_600SemiBold_Italic](./600SemiBold_Italic/LibreFranklin_600SemiBold_Italic.ttf.png)||
+|![LibreFranklin_700Bold_Italic](./700Bold_Italic/LibreFranklin_700Bold_Italic.ttf.png)|![LibreFranklin_800ExtraBold_Italic](./800ExtraBold_Italic/LibreFranklin_800ExtraBold_Italic.ttf.png)|![LibreFranklin_900Black_Italic](./900Black_Italic/LibreFranklin_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

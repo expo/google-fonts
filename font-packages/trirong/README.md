@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/trirong expo-font expo-app-loading
+npx expo install @expo-google-fonts/trirong expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Trirong_100Thin, Trirong_100Thin_Italic, Trirong_200ExtraLight, Trirong_200ExtraLight_Italic, Trirong_300Light, Trirong_300Light_Italic, Trirong_400Regular, Trirong_400Regular_Italic, Trirong_500Medium, Trirong_500Medium_Italic, Trirong_600SemiBold, Trirong_600SemiBold_Italic, Trirong_700Bold, Trirong_700Bold_Italic, Trirong_800ExtraBold, Trirong_800ExtraBold_Italic, Trirong_900Black, Trirong_900Black_Italic } from '@expo-google-fonts/trirong';
+import { useFonts } from '@expo-google-fonts/trirong/useFonts';
+import { Trirong_100Thin } from '@expo-google-fonts/trirong/100Thin';
+import { Trirong_100Thin_Italic } from '@expo-google-fonts/trirong/100Thin_Italic';
+import { Trirong_200ExtraLight } from '@expo-google-fonts/trirong/200ExtraLight';
+import { Trirong_200ExtraLight_Italic } from '@expo-google-fonts/trirong/200ExtraLight_Italic';
+import { Trirong_300Light } from '@expo-google-fonts/trirong/300Light';
+import { Trirong_300Light_Italic } from '@expo-google-fonts/trirong/300Light_Italic';
+import { Trirong_400Regular } from '@expo-google-fonts/trirong/400Regular';
+import { Trirong_400Regular_Italic } from '@expo-google-fonts/trirong/400Regular_Italic';
+import { Trirong_500Medium } from '@expo-google-fonts/trirong/500Medium';
+import { Trirong_500Medium_Italic } from '@expo-google-fonts/trirong/500Medium_Italic';
+import { Trirong_600SemiBold } from '@expo-google-fonts/trirong/600SemiBold';
+import { Trirong_600SemiBold_Italic } from '@expo-google-fonts/trirong/600SemiBold_Italic';
+import { Trirong_700Bold } from '@expo-google-fonts/trirong/700Bold';
+import { Trirong_700Bold_Italic } from '@expo-google-fonts/trirong/700Bold_Italic';
+import { Trirong_800ExtraBold } from '@expo-google-fonts/trirong/800ExtraBold';
+import { Trirong_800ExtraBold_Italic } from '@expo-google-fonts/trirong/800ExtraBold_Italic';
+import { Trirong_900Black } from '@expo-google-fonts/trirong/900Black';
+import { Trirong_900Black_Italic } from '@expo-google-fonts/trirong/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Trirong_100Thin](./Trirong_100Thin.ttf.png)|![Trirong_100Thin_Italic](./Trirong_100Thin_Italic.ttf.png)|![Trirong_200ExtraLight](./Trirong_200ExtraLight.ttf.png)||
-|![Trirong_200ExtraLight_Italic](./Trirong_200ExtraLight_Italic.ttf.png)|![Trirong_300Light](./Trirong_300Light.ttf.png)|![Trirong_300Light_Italic](./Trirong_300Light_Italic.ttf.png)||
-|![Trirong_400Regular](./Trirong_400Regular.ttf.png)|![Trirong_400Regular_Italic](./Trirong_400Regular_Italic.ttf.png)|![Trirong_500Medium](./Trirong_500Medium.ttf.png)||
-|![Trirong_500Medium_Italic](./Trirong_500Medium_Italic.ttf.png)|![Trirong_600SemiBold](./Trirong_600SemiBold.ttf.png)|![Trirong_600SemiBold_Italic](./Trirong_600SemiBold_Italic.ttf.png)||
-|![Trirong_700Bold](./Trirong_700Bold.ttf.png)|![Trirong_700Bold_Italic](./Trirong_700Bold_Italic.ttf.png)|![Trirong_800ExtraBold](./Trirong_800ExtraBold.ttf.png)||
-|![Trirong_800ExtraBold_Italic](./Trirong_800ExtraBold_Italic.ttf.png)|![Trirong_900Black](./Trirong_900Black.ttf.png)|![Trirong_900Black_Italic](./Trirong_900Black_Italic.ttf.png)||
+|![Trirong_100Thin](./100Thin/Trirong_100Thin.ttf.png)|![Trirong_100Thin_Italic](./100Thin_Italic/Trirong_100Thin_Italic.ttf.png)|![Trirong_200ExtraLight](./200ExtraLight/Trirong_200ExtraLight.ttf.png)||
+|![Trirong_200ExtraLight_Italic](./200ExtraLight_Italic/Trirong_200ExtraLight_Italic.ttf.png)|![Trirong_300Light](./300Light/Trirong_300Light.ttf.png)|![Trirong_300Light_Italic](./300Light_Italic/Trirong_300Light_Italic.ttf.png)||
+|![Trirong_400Regular](./400Regular/Trirong_400Regular.ttf.png)|![Trirong_400Regular_Italic](./400Regular_Italic/Trirong_400Regular_Italic.ttf.png)|![Trirong_500Medium](./500Medium/Trirong_500Medium.ttf.png)||
+|![Trirong_500Medium_Italic](./500Medium_Italic/Trirong_500Medium_Italic.ttf.png)|![Trirong_600SemiBold](./600SemiBold/Trirong_600SemiBold.ttf.png)|![Trirong_600SemiBold_Italic](./600SemiBold_Italic/Trirong_600SemiBold_Italic.ttf.png)||
+|![Trirong_700Bold](./700Bold/Trirong_700Bold.ttf.png)|![Trirong_700Bold_Italic](./700Bold_Italic/Trirong_700Bold_Italic.ttf.png)|![Trirong_800ExtraBold](./800ExtraBold/Trirong_800ExtraBold.ttf.png)||
+|![Trirong_800ExtraBold_Italic](./800ExtraBold_Italic/Trirong_800ExtraBold_Italic.ttf.png)|![Trirong_900Black](./900Black/Trirong_900Black.ttf.png)|![Trirong_900Black_Italic](./900Black_Italic/Trirong_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

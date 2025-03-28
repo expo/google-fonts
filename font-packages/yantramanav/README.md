@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/yantramanav expo-font expo-app-loading
+npx expo install @expo-google-fonts/yantramanav expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Yantramanav_100Thin, Yantramanav_300Light, Yantramanav_400Regular, Yantramanav_500Medium, Yantramanav_700Bold, Yantramanav_900Black } from '@expo-google-fonts/yantramanav';
+import { useFonts } from '@expo-google-fonts/yantramanav/useFonts';
+import { Yantramanav_100Thin } from '@expo-google-fonts/yantramanav/100Thin';
+import { Yantramanav_300Light } from '@expo-google-fonts/yantramanav/300Light';
+import { Yantramanav_400Regular } from '@expo-google-fonts/yantramanav/400Regular';
+import { Yantramanav_500Medium } from '@expo-google-fonts/yantramanav/500Medium';
+import { Yantramanav_700Bold } from '@expo-google-fonts/yantramanav/700Bold';
+import { Yantramanav_900Black } from '@expo-google-fonts/yantramanav/900Black';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Yantramanav_100Thin](./Yantramanav_100Thin.ttf.png)|![Yantramanav_300Light](./Yantramanav_300Light.ttf.png)|![Yantramanav_400Regular](./Yantramanav_400Regular.ttf.png)||
-|![Yantramanav_500Medium](./Yantramanav_500Medium.ttf.png)|![Yantramanav_700Bold](./Yantramanav_700Bold.ttf.png)|![Yantramanav_900Black](./Yantramanav_900Black.ttf.png)||
+|![Yantramanav_100Thin](./100Thin/Yantramanav_100Thin.ttf.png)|![Yantramanav_300Light](./300Light/Yantramanav_300Light.ttf.png)|![Yantramanav_400Regular](./400Regular/Yantramanav_400Regular.ttf.png)||
+|![Yantramanav_500Medium](./500Medium/Yantramanav_500Medium.ttf.png)|![Yantramanav_700Bold](./700Bold/Yantramanav_700Bold.ttf.png)|![Yantramanav_900Black](./900Black/Yantramanav_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

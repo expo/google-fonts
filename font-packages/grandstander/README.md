@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/grandstander expo-font expo-app-loading
+npx expo install @expo-google-fonts/grandstander expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Grandstander_100Thin, Grandstander_200ExtraLight, Grandstander_300Light, Grandstander_400Regular, Grandstander_500Medium, Grandstander_600SemiBold, Grandstander_700Bold, Grandstander_800ExtraBold, Grandstander_900Black, Grandstander_100Thin_Italic, Grandstander_200ExtraLight_Italic, Grandstander_300Light_Italic, Grandstander_400Regular_Italic, Grandstander_500Medium_Italic, Grandstander_600SemiBold_Italic, Grandstander_700Bold_Italic, Grandstander_800ExtraBold_Italic, Grandstander_900Black_Italic } from '@expo-google-fonts/grandstander';
+import { useFonts } from '@expo-google-fonts/grandstander/useFonts';
+import { Grandstander_100Thin } from '@expo-google-fonts/grandstander/100Thin';
+import { Grandstander_200ExtraLight } from '@expo-google-fonts/grandstander/200ExtraLight';
+import { Grandstander_300Light } from '@expo-google-fonts/grandstander/300Light';
+import { Grandstander_400Regular } from '@expo-google-fonts/grandstander/400Regular';
+import { Grandstander_500Medium } from '@expo-google-fonts/grandstander/500Medium';
+import { Grandstander_600SemiBold } from '@expo-google-fonts/grandstander/600SemiBold';
+import { Grandstander_700Bold } from '@expo-google-fonts/grandstander/700Bold';
+import { Grandstander_800ExtraBold } from '@expo-google-fonts/grandstander/800ExtraBold';
+import { Grandstander_900Black } from '@expo-google-fonts/grandstander/900Black';
+import { Grandstander_100Thin_Italic } from '@expo-google-fonts/grandstander/100Thin_Italic';
+import { Grandstander_200ExtraLight_Italic } from '@expo-google-fonts/grandstander/200ExtraLight_Italic';
+import { Grandstander_300Light_Italic } from '@expo-google-fonts/grandstander/300Light_Italic';
+import { Grandstander_400Regular_Italic } from '@expo-google-fonts/grandstander/400Regular_Italic';
+import { Grandstander_500Medium_Italic } from '@expo-google-fonts/grandstander/500Medium_Italic';
+import { Grandstander_600SemiBold_Italic } from '@expo-google-fonts/grandstander/600SemiBold_Italic';
+import { Grandstander_700Bold_Italic } from '@expo-google-fonts/grandstander/700Bold_Italic';
+import { Grandstander_800ExtraBold_Italic } from '@expo-google-fonts/grandstander/800ExtraBold_Italic';
+import { Grandstander_900Black_Italic } from '@expo-google-fonts/grandstander/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Grandstander_100Thin](./Grandstander_100Thin.ttf.png)|![Grandstander_200ExtraLight](./Grandstander_200ExtraLight.ttf.png)|![Grandstander_300Light](./Grandstander_300Light.ttf.png)||
-|![Grandstander_400Regular](./Grandstander_400Regular.ttf.png)|![Grandstander_500Medium](./Grandstander_500Medium.ttf.png)|![Grandstander_600SemiBold](./Grandstander_600SemiBold.ttf.png)||
-|![Grandstander_700Bold](./Grandstander_700Bold.ttf.png)|![Grandstander_800ExtraBold](./Grandstander_800ExtraBold.ttf.png)|![Grandstander_900Black](./Grandstander_900Black.ttf.png)||
-|![Grandstander_100Thin_Italic](./Grandstander_100Thin_Italic.ttf.png)|![Grandstander_200ExtraLight_Italic](./Grandstander_200ExtraLight_Italic.ttf.png)|![Grandstander_300Light_Italic](./Grandstander_300Light_Italic.ttf.png)||
-|![Grandstander_400Regular_Italic](./Grandstander_400Regular_Italic.ttf.png)|![Grandstander_500Medium_Italic](./Grandstander_500Medium_Italic.ttf.png)|![Grandstander_600SemiBold_Italic](./Grandstander_600SemiBold_Italic.ttf.png)||
-|![Grandstander_700Bold_Italic](./Grandstander_700Bold_Italic.ttf.png)|![Grandstander_800ExtraBold_Italic](./Grandstander_800ExtraBold_Italic.ttf.png)|![Grandstander_900Black_Italic](./Grandstander_900Black_Italic.ttf.png)||
+|![Grandstander_100Thin](./100Thin/Grandstander_100Thin.ttf.png)|![Grandstander_200ExtraLight](./200ExtraLight/Grandstander_200ExtraLight.ttf.png)|![Grandstander_300Light](./300Light/Grandstander_300Light.ttf.png)||
+|![Grandstander_400Regular](./400Regular/Grandstander_400Regular.ttf.png)|![Grandstander_500Medium](./500Medium/Grandstander_500Medium.ttf.png)|![Grandstander_600SemiBold](./600SemiBold/Grandstander_600SemiBold.ttf.png)||
+|![Grandstander_700Bold](./700Bold/Grandstander_700Bold.ttf.png)|![Grandstander_800ExtraBold](./800ExtraBold/Grandstander_800ExtraBold.ttf.png)|![Grandstander_900Black](./900Black/Grandstander_900Black.ttf.png)||
+|![Grandstander_100Thin_Italic](./100Thin_Italic/Grandstander_100Thin_Italic.ttf.png)|![Grandstander_200ExtraLight_Italic](./200ExtraLight_Italic/Grandstander_200ExtraLight_Italic.ttf.png)|![Grandstander_300Light_Italic](./300Light_Italic/Grandstander_300Light_Italic.ttf.png)||
+|![Grandstander_400Regular_Italic](./400Regular_Italic/Grandstander_400Regular_Italic.ttf.png)|![Grandstander_500Medium_Italic](./500Medium_Italic/Grandstander_500Medium_Italic.ttf.png)|![Grandstander_600SemiBold_Italic](./600SemiBold_Italic/Grandstander_600SemiBold_Italic.ttf.png)||
+|![Grandstander_700Bold_Italic](./700Bold_Italic/Grandstander_700Bold_Italic.ttf.png)|![Grandstander_800ExtraBold_Italic](./800ExtraBold_Italic/Grandstander_800ExtraBold_Italic.ttf.png)|![Grandstander_900Black_Italic](./900Black_Italic/Grandstander_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

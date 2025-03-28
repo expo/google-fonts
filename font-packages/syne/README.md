@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/syne expo-font expo-app-loading
+npx expo install @expo-google-fonts/syne expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Syne_400Regular, Syne_500Medium, Syne_600SemiBold, Syne_700Bold, Syne_800ExtraBold } from '@expo-google-fonts/syne';
+import { useFonts } from '@expo-google-fonts/syne/useFonts';
+import { Syne_400Regular } from '@expo-google-fonts/syne/400Regular';
+import { Syne_500Medium } from '@expo-google-fonts/syne/500Medium';
+import { Syne_600SemiBold } from '@expo-google-fonts/syne/600SemiBold';
+import { Syne_700Bold } from '@expo-google-fonts/syne/700Bold';
+import { Syne_800ExtraBold } from '@expo-google-fonts/syne/800ExtraBold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Syne_400Regular](./Syne_400Regular.ttf.png)|![Syne_500Medium](./Syne_500Medium.ttf.png)|![Syne_600SemiBold](./Syne_600SemiBold.ttf.png)||
-|![Syne_700Bold](./Syne_700Bold.ttf.png)|![Syne_800ExtraBold](./Syne_800ExtraBold.ttf.png)|||
+|![Syne_400Regular](./400Regular/Syne_400Regular.ttf.png)|![Syne_500Medium](./500Medium/Syne_500Medium.ttf.png)|![Syne_600SemiBold](./600SemiBold/Syne_600SemiBold.ttf.png)||
+|![Syne_700Bold](./700Bold/Syne_700Bold.ttf.png)|![Syne_800ExtraBold](./800ExtraBold/Syne_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

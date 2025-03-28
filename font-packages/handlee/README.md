@@ -20,7 +20,7 @@ This font family contains [1 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/handlee expo-font expo-app-loading
+npx expo install @expo-google-fonts/handlee expo-font
 ```
 
 Now add code like this to your project
@@ -29,8 +29,8 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Handlee_400Regular } from '@expo-google-fonts/handlee';
+import { useFonts } from '@expo-google-fonts/handlee/useFonts';
+import { Handlee_400Regular } from '@expo-google-fonts/handlee/400Regular';
 
 export default () => {
 
@@ -42,7 +42,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -65,7 +65,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Handlee_400Regular](./Handlee_400Regular.ttf.png)||||
+|![Handlee_400Regular](./400Regular/Handlee_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

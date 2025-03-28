@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-sinhala expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-sinhala expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifSinhala_100Thin, NotoSerifSinhala_200ExtraLight, NotoSerifSinhala_300Light, NotoSerifSinhala_400Regular, NotoSerifSinhala_500Medium, NotoSerifSinhala_600SemiBold, NotoSerifSinhala_700Bold, NotoSerifSinhala_800ExtraBold, NotoSerifSinhala_900Black } from '@expo-google-fonts/noto-serif-sinhala';
+import { useFonts } from '@expo-google-fonts/noto-serif-sinhala/useFonts';
+import { NotoSerifSinhala_100Thin } from '@expo-google-fonts/noto-serif-sinhala/100Thin';
+import { NotoSerifSinhala_200ExtraLight } from '@expo-google-fonts/noto-serif-sinhala/200ExtraLight';
+import { NotoSerifSinhala_300Light } from '@expo-google-fonts/noto-serif-sinhala/300Light';
+import { NotoSerifSinhala_400Regular } from '@expo-google-fonts/noto-serif-sinhala/400Regular';
+import { NotoSerifSinhala_500Medium } from '@expo-google-fonts/noto-serif-sinhala/500Medium';
+import { NotoSerifSinhala_600SemiBold } from '@expo-google-fonts/noto-serif-sinhala/600SemiBold';
+import { NotoSerifSinhala_700Bold } from '@expo-google-fonts/noto-serif-sinhala/700Bold';
+import { NotoSerifSinhala_800ExtraBold } from '@expo-google-fonts/noto-serif-sinhala/800ExtraBold';
+import { NotoSerifSinhala_900Black } from '@expo-google-fonts/noto-serif-sinhala/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifSinhala_100Thin](./NotoSerifSinhala_100Thin.ttf.png)|![NotoSerifSinhala_200ExtraLight](./NotoSerifSinhala_200ExtraLight.ttf.png)|![NotoSerifSinhala_300Light](./NotoSerifSinhala_300Light.ttf.png)||
-|![NotoSerifSinhala_400Regular](./NotoSerifSinhala_400Regular.ttf.png)|![NotoSerifSinhala_500Medium](./NotoSerifSinhala_500Medium.ttf.png)|![NotoSerifSinhala_600SemiBold](./NotoSerifSinhala_600SemiBold.ttf.png)||
-|![NotoSerifSinhala_700Bold](./NotoSerifSinhala_700Bold.ttf.png)|![NotoSerifSinhala_800ExtraBold](./NotoSerifSinhala_800ExtraBold.ttf.png)|![NotoSerifSinhala_900Black](./NotoSerifSinhala_900Black.ttf.png)||
+|![NotoSerifSinhala_100Thin](./100Thin/NotoSerifSinhala_100Thin.ttf.png)|![NotoSerifSinhala_200ExtraLight](./200ExtraLight/NotoSerifSinhala_200ExtraLight.ttf.png)|![NotoSerifSinhala_300Light](./300Light/NotoSerifSinhala_300Light.ttf.png)||
+|![NotoSerifSinhala_400Regular](./400Regular/NotoSerifSinhala_400Regular.ttf.png)|![NotoSerifSinhala_500Medium](./500Medium/NotoSerifSinhala_500Medium.ttf.png)|![NotoSerifSinhala_600SemiBold](./600SemiBold/NotoSerifSinhala_600SemiBold.ttf.png)||
+|![NotoSerifSinhala_700Bold](./700Bold/NotoSerifSinhala_700Bold.ttf.png)|![NotoSerifSinhala_800ExtraBold](./800ExtraBold/NotoSerifSinhala_800ExtraBold.ttf.png)|![NotoSerifSinhala_900Black](./900Black/NotoSerifSinhala_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

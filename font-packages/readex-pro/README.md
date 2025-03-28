@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/readex-pro expo-font expo-app-loading
+npx expo install @expo-google-fonts/readex-pro expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, ReadexPro_200ExtraLight, ReadexPro_300Light, ReadexPro_400Regular, ReadexPro_500Medium, ReadexPro_600SemiBold, ReadexPro_700Bold } from '@expo-google-fonts/readex-pro';
+import { useFonts } from '@expo-google-fonts/readex-pro/useFonts';
+import { ReadexPro_200ExtraLight } from '@expo-google-fonts/readex-pro/200ExtraLight';
+import { ReadexPro_300Light } from '@expo-google-fonts/readex-pro/300Light';
+import { ReadexPro_400Regular } from '@expo-google-fonts/readex-pro/400Regular';
+import { ReadexPro_500Medium } from '@expo-google-fonts/readex-pro/500Medium';
+import { ReadexPro_600SemiBold } from '@expo-google-fonts/readex-pro/600SemiBold';
+import { ReadexPro_700Bold } from '@expo-google-fonts/readex-pro/700Bold';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ReadexPro_200ExtraLight](./ReadexPro_200ExtraLight.ttf.png)|![ReadexPro_300Light](./ReadexPro_300Light.ttf.png)|![ReadexPro_400Regular](./ReadexPro_400Regular.ttf.png)||
-|![ReadexPro_500Medium](./ReadexPro_500Medium.ttf.png)|![ReadexPro_600SemiBold](./ReadexPro_600SemiBold.ttf.png)|![ReadexPro_700Bold](./ReadexPro_700Bold.ttf.png)||
+|![ReadexPro_200ExtraLight](./200ExtraLight/ReadexPro_200ExtraLight.ttf.png)|![ReadexPro_300Light](./300Light/ReadexPro_300Light.ttf.png)|![ReadexPro_400Regular](./400Regular/ReadexPro_400Regular.ttf.png)||
+|![ReadexPro_500Medium](./500Medium/ReadexPro_500Medium.ttf.png)|![ReadexPro_600SemiBold](./600SemiBold/ReadexPro_600SemiBold.ttf.png)|![ReadexPro_700Bold](./700Bold/ReadexPro_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

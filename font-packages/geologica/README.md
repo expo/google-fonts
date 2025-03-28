@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/geologica expo-font expo-app-loading
+npx expo install @expo-google-fonts/geologica expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Geologica_100Thin, Geologica_200ExtraLight, Geologica_300Light, Geologica_400Regular, Geologica_500Medium, Geologica_600SemiBold, Geologica_700Bold, Geologica_800ExtraBold, Geologica_900Black } from '@expo-google-fonts/geologica';
+import { useFonts } from '@expo-google-fonts/geologica/useFonts';
+import { Geologica_100Thin } from '@expo-google-fonts/geologica/100Thin';
+import { Geologica_200ExtraLight } from '@expo-google-fonts/geologica/200ExtraLight';
+import { Geologica_300Light } from '@expo-google-fonts/geologica/300Light';
+import { Geologica_400Regular } from '@expo-google-fonts/geologica/400Regular';
+import { Geologica_500Medium } from '@expo-google-fonts/geologica/500Medium';
+import { Geologica_600SemiBold } from '@expo-google-fonts/geologica/600SemiBold';
+import { Geologica_700Bold } from '@expo-google-fonts/geologica/700Bold';
+import { Geologica_800ExtraBold } from '@expo-google-fonts/geologica/800ExtraBold';
+import { Geologica_900Black } from '@expo-google-fonts/geologica/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Geologica_100Thin](./Geologica_100Thin.ttf.png)|![Geologica_200ExtraLight](./Geologica_200ExtraLight.ttf.png)|![Geologica_300Light](./Geologica_300Light.ttf.png)||
-|![Geologica_400Regular](./Geologica_400Regular.ttf.png)|![Geologica_500Medium](./Geologica_500Medium.ttf.png)|![Geologica_600SemiBold](./Geologica_600SemiBold.ttf.png)||
-|![Geologica_700Bold](./Geologica_700Bold.ttf.png)|![Geologica_800ExtraBold](./Geologica_800ExtraBold.ttf.png)|![Geologica_900Black](./Geologica_900Black.ttf.png)||
+|![Geologica_100Thin](./100Thin/Geologica_100Thin.ttf.png)|![Geologica_200ExtraLight](./200ExtraLight/Geologica_200ExtraLight.ttf.png)|![Geologica_300Light](./300Light/Geologica_300Light.ttf.png)||
+|![Geologica_400Regular](./400Regular/Geologica_400Regular.ttf.png)|![Geologica_500Medium](./500Medium/Geologica_500Medium.ttf.png)|![Geologica_600SemiBold](./600SemiBold/Geologica_600SemiBold.ttf.png)||
+|![Geologica_700Bold](./700Bold/Geologica_700Bold.ttf.png)|![Geologica_800ExtraBold](./800ExtraBold/Geologica_800ExtraBold.ttf.png)|![Geologica_900Black](./900Black/Geologica_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

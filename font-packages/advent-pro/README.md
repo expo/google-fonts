@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/advent-pro expo-font expo-app-loading
+npx expo install @expo-google-fonts/advent-pro expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, AdventPro_100Thin, AdventPro_200ExtraLight, AdventPro_300Light, AdventPro_400Regular, AdventPro_500Medium, AdventPro_600SemiBold, AdventPro_700Bold, AdventPro_800ExtraBold, AdventPro_900Black, AdventPro_100Thin_Italic, AdventPro_200ExtraLight_Italic, AdventPro_300Light_Italic, AdventPro_400Regular_Italic, AdventPro_500Medium_Italic, AdventPro_600SemiBold_Italic, AdventPro_700Bold_Italic, AdventPro_800ExtraBold_Italic, AdventPro_900Black_Italic } from '@expo-google-fonts/advent-pro';
+import { useFonts } from '@expo-google-fonts/advent-pro/useFonts';
+import { AdventPro_100Thin } from '@expo-google-fonts/advent-pro/100Thin';
+import { AdventPro_200ExtraLight } from '@expo-google-fonts/advent-pro/200ExtraLight';
+import { AdventPro_300Light } from '@expo-google-fonts/advent-pro/300Light';
+import { AdventPro_400Regular } from '@expo-google-fonts/advent-pro/400Regular';
+import { AdventPro_500Medium } from '@expo-google-fonts/advent-pro/500Medium';
+import { AdventPro_600SemiBold } from '@expo-google-fonts/advent-pro/600SemiBold';
+import { AdventPro_700Bold } from '@expo-google-fonts/advent-pro/700Bold';
+import { AdventPro_800ExtraBold } from '@expo-google-fonts/advent-pro/800ExtraBold';
+import { AdventPro_900Black } from '@expo-google-fonts/advent-pro/900Black';
+import { AdventPro_100Thin_Italic } from '@expo-google-fonts/advent-pro/100Thin_Italic';
+import { AdventPro_200ExtraLight_Italic } from '@expo-google-fonts/advent-pro/200ExtraLight_Italic';
+import { AdventPro_300Light_Italic } from '@expo-google-fonts/advent-pro/300Light_Italic';
+import { AdventPro_400Regular_Italic } from '@expo-google-fonts/advent-pro/400Regular_Italic';
+import { AdventPro_500Medium_Italic } from '@expo-google-fonts/advent-pro/500Medium_Italic';
+import { AdventPro_600SemiBold_Italic } from '@expo-google-fonts/advent-pro/600SemiBold_Italic';
+import { AdventPro_700Bold_Italic } from '@expo-google-fonts/advent-pro/700Bold_Italic';
+import { AdventPro_800ExtraBold_Italic } from '@expo-google-fonts/advent-pro/800ExtraBold_Italic';
+import { AdventPro_900Black_Italic } from '@expo-google-fonts/advent-pro/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AdventPro_100Thin](./AdventPro_100Thin.ttf.png)|![AdventPro_200ExtraLight](./AdventPro_200ExtraLight.ttf.png)|![AdventPro_300Light](./AdventPro_300Light.ttf.png)||
-|![AdventPro_400Regular](./AdventPro_400Regular.ttf.png)|![AdventPro_500Medium](./AdventPro_500Medium.ttf.png)|![AdventPro_600SemiBold](./AdventPro_600SemiBold.ttf.png)||
-|![AdventPro_700Bold](./AdventPro_700Bold.ttf.png)|![AdventPro_800ExtraBold](./AdventPro_800ExtraBold.ttf.png)|![AdventPro_900Black](./AdventPro_900Black.ttf.png)||
-|![AdventPro_100Thin_Italic](./AdventPro_100Thin_Italic.ttf.png)|![AdventPro_200ExtraLight_Italic](./AdventPro_200ExtraLight_Italic.ttf.png)|![AdventPro_300Light_Italic](./AdventPro_300Light_Italic.ttf.png)||
-|![AdventPro_400Regular_Italic](./AdventPro_400Regular_Italic.ttf.png)|![AdventPro_500Medium_Italic](./AdventPro_500Medium_Italic.ttf.png)|![AdventPro_600SemiBold_Italic](./AdventPro_600SemiBold_Italic.ttf.png)||
-|![AdventPro_700Bold_Italic](./AdventPro_700Bold_Italic.ttf.png)|![AdventPro_800ExtraBold_Italic](./AdventPro_800ExtraBold_Italic.ttf.png)|![AdventPro_900Black_Italic](./AdventPro_900Black_Italic.ttf.png)||
+|![AdventPro_100Thin](./100Thin/AdventPro_100Thin.ttf.png)|![AdventPro_200ExtraLight](./200ExtraLight/AdventPro_200ExtraLight.ttf.png)|![AdventPro_300Light](./300Light/AdventPro_300Light.ttf.png)||
+|![AdventPro_400Regular](./400Regular/AdventPro_400Regular.ttf.png)|![AdventPro_500Medium](./500Medium/AdventPro_500Medium.ttf.png)|![AdventPro_600SemiBold](./600SemiBold/AdventPro_600SemiBold.ttf.png)||
+|![AdventPro_700Bold](./700Bold/AdventPro_700Bold.ttf.png)|![AdventPro_800ExtraBold](./800ExtraBold/AdventPro_800ExtraBold.ttf.png)|![AdventPro_900Black](./900Black/AdventPro_900Black.ttf.png)||
+|![AdventPro_100Thin_Italic](./100Thin_Italic/AdventPro_100Thin_Italic.ttf.png)|![AdventPro_200ExtraLight_Italic](./200ExtraLight_Italic/AdventPro_200ExtraLight_Italic.ttf.png)|![AdventPro_300Light_Italic](./300Light_Italic/AdventPro_300Light_Italic.ttf.png)||
+|![AdventPro_400Regular_Italic](./400Regular_Italic/AdventPro_400Regular_Italic.ttf.png)|![AdventPro_500Medium_Italic](./500Medium_Italic/AdventPro_500Medium_Italic.ttf.png)|![AdventPro_600SemiBold_Italic](./600SemiBold_Italic/AdventPro_600SemiBold_Italic.ttf.png)||
+|![AdventPro_700Bold_Italic](./700Bold_Italic/AdventPro_700Bold_Italic.ttf.png)|![AdventPro_800ExtraBold_Italic](./800ExtraBold_Italic/AdventPro_800ExtraBold_Italic.ttf.png)|![AdventPro_900Black_Italic](./900Black_Italic/AdventPro_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

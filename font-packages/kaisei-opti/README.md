@@ -22,7 +22,7 @@ This font family contains [3 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/kaisei-opti expo-font expo-app-loading
+npx expo install @expo-google-fonts/kaisei-opti expo-font
 ```
 
 Now add code like this to your project
@@ -31,8 +31,10 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, KaiseiOpti_400Regular, KaiseiOpti_500Medium, KaiseiOpti_700Bold } from '@expo-google-fonts/kaisei-opti';
+import { useFonts } from '@expo-google-fonts/kaisei-opti/useFonts';
+import { KaiseiOpti_400Regular } from '@expo-google-fonts/kaisei-opti/400Regular';
+import { KaiseiOpti_500Medium } from '@expo-google-fonts/kaisei-opti/500Medium';
+import { KaiseiOpti_700Bold } from '@expo-google-fonts/kaisei-opti/700Bold';
 
 export default () => {
 
@@ -46,7 +48,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -85,7 +87,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KaiseiOpti_400Regular](./KaiseiOpti_400Regular.ttf.png)|![KaiseiOpti_500Medium](./KaiseiOpti_500Medium.ttf.png)|![KaiseiOpti_700Bold](./KaiseiOpti_700Bold.ttf.png)||
+|![KaiseiOpti_400Regular](./400Regular/KaiseiOpti_400Regular.ttf.png)|![KaiseiOpti_500Medium](./500Medium/KaiseiOpti_500Medium.ttf.png)|![KaiseiOpti_700Bold](./700Bold/KaiseiOpti_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

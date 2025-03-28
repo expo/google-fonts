@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-jp expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-jp expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifJP_200ExtraLight, NotoSerifJP_300Light, NotoSerifJP_400Regular, NotoSerifJP_500Medium, NotoSerifJP_600SemiBold, NotoSerifJP_700Bold, NotoSerifJP_800ExtraBold, NotoSerifJP_900Black } from '@expo-google-fonts/noto-serif-jp';
+import { useFonts } from '@expo-google-fonts/noto-serif-jp/useFonts';
+import { NotoSerifJP_200ExtraLight } from '@expo-google-fonts/noto-serif-jp/200ExtraLight';
+import { NotoSerifJP_300Light } from '@expo-google-fonts/noto-serif-jp/300Light';
+import { NotoSerifJP_400Regular } from '@expo-google-fonts/noto-serif-jp/400Regular';
+import { NotoSerifJP_500Medium } from '@expo-google-fonts/noto-serif-jp/500Medium';
+import { NotoSerifJP_600SemiBold } from '@expo-google-fonts/noto-serif-jp/600SemiBold';
+import { NotoSerifJP_700Bold } from '@expo-google-fonts/noto-serif-jp/700Bold';
+import { NotoSerifJP_800ExtraBold } from '@expo-google-fonts/noto-serif-jp/800ExtraBold';
+import { NotoSerifJP_900Black } from '@expo-google-fonts/noto-serif-jp/900Black';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifJP_200ExtraLight](./NotoSerifJP_200ExtraLight.ttf.png)|![NotoSerifJP_300Light](./NotoSerifJP_300Light.ttf.png)|![NotoSerifJP_400Regular](./NotoSerifJP_400Regular.ttf.png)||
-|![NotoSerifJP_500Medium](./NotoSerifJP_500Medium.ttf.png)|![NotoSerifJP_600SemiBold](./NotoSerifJP_600SemiBold.ttf.png)|![NotoSerifJP_700Bold](./NotoSerifJP_700Bold.ttf.png)||
-|![NotoSerifJP_800ExtraBold](./NotoSerifJP_800ExtraBold.ttf.png)|![NotoSerifJP_900Black](./NotoSerifJP_900Black.ttf.png)|||
+|![NotoSerifJP_200ExtraLight](./200ExtraLight/NotoSerifJP_200ExtraLight.ttf.png)|![NotoSerifJP_300Light](./300Light/NotoSerifJP_300Light.ttf.png)|![NotoSerifJP_400Regular](./400Regular/NotoSerifJP_400Regular.ttf.png)||
+|![NotoSerifJP_500Medium](./500Medium/NotoSerifJP_500Medium.ttf.png)|![NotoSerifJP_600SemiBold](./600SemiBold/NotoSerifJP_600SemiBold.ttf.png)|![NotoSerifJP_700Bold](./700Bold/NotoSerifJP_700Bold.ttf.png)||
+|![NotoSerifJP_800ExtraBold](./800ExtraBold/NotoSerifJP_800ExtraBold.ttf.png)|![NotoSerifJP_900Black](./900Black/NotoSerifJP_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

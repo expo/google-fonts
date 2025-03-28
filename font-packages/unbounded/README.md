@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/unbounded expo-font expo-app-loading
+npx expo install @expo-google-fonts/unbounded expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Unbounded_200ExtraLight, Unbounded_300Light, Unbounded_400Regular, Unbounded_500Medium, Unbounded_600SemiBold, Unbounded_700Bold, Unbounded_800ExtraBold, Unbounded_900Black } from '@expo-google-fonts/unbounded';
+import { useFonts } from '@expo-google-fonts/unbounded/useFonts';
+import { Unbounded_200ExtraLight } from '@expo-google-fonts/unbounded/200ExtraLight';
+import { Unbounded_300Light } from '@expo-google-fonts/unbounded/300Light';
+import { Unbounded_400Regular } from '@expo-google-fonts/unbounded/400Regular';
+import { Unbounded_500Medium } from '@expo-google-fonts/unbounded/500Medium';
+import { Unbounded_600SemiBold } from '@expo-google-fonts/unbounded/600SemiBold';
+import { Unbounded_700Bold } from '@expo-google-fonts/unbounded/700Bold';
+import { Unbounded_800ExtraBold } from '@expo-google-fonts/unbounded/800ExtraBold';
+import { Unbounded_900Black } from '@expo-google-fonts/unbounded/900Black';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Unbounded_200ExtraLight](./Unbounded_200ExtraLight.ttf.png)|![Unbounded_300Light](./Unbounded_300Light.ttf.png)|![Unbounded_400Regular](./Unbounded_400Regular.ttf.png)||
-|![Unbounded_500Medium](./Unbounded_500Medium.ttf.png)|![Unbounded_600SemiBold](./Unbounded_600SemiBold.ttf.png)|![Unbounded_700Bold](./Unbounded_700Bold.ttf.png)||
-|![Unbounded_800ExtraBold](./Unbounded_800ExtraBold.ttf.png)|![Unbounded_900Black](./Unbounded_900Black.ttf.png)|||
+|![Unbounded_200ExtraLight](./200ExtraLight/Unbounded_200ExtraLight.ttf.png)|![Unbounded_300Light](./300Light/Unbounded_300Light.ttf.png)|![Unbounded_400Regular](./400Regular/Unbounded_400Regular.ttf.png)||
+|![Unbounded_500Medium](./500Medium/Unbounded_500Medium.ttf.png)|![Unbounded_600SemiBold](./600SemiBold/Unbounded_600SemiBold.ttf.png)|![Unbounded_700Bold](./700Bold/Unbounded_700Bold.ttf.png)||
+|![Unbounded_800ExtraBold](./800ExtraBold/Unbounded_800ExtraBold.ttf.png)|![Unbounded_900Black](./900Black/Unbounded_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

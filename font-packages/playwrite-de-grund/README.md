@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/playwrite-de-grund expo-font expo-app-loading
+npx expo install @expo-google-fonts/playwrite-de-grund expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PlaywriteDEGrund_100Thin, PlaywriteDEGrund_200ExtraLight, PlaywriteDEGrund_300Light, PlaywriteDEGrund_400Regular } from '@expo-google-fonts/playwrite-de-grund';
+import { useFonts } from '@expo-google-fonts/playwrite-de-grund/useFonts';
+import { PlaywriteDEGrund_100Thin } from '@expo-google-fonts/playwrite-de-grund/100Thin';
+import { PlaywriteDEGrund_200ExtraLight } from '@expo-google-fonts/playwrite-de-grund/200ExtraLight';
+import { PlaywriteDEGrund_300Light } from '@expo-google-fonts/playwrite-de-grund/300Light';
+import { PlaywriteDEGrund_400Regular } from '@expo-google-fonts/playwrite-de-grund/400Regular';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteDEGrund_100Thin](./PlaywriteDEGrund_100Thin.ttf.png)|![PlaywriteDEGrund_200ExtraLight](./PlaywriteDEGrund_200ExtraLight.ttf.png)|![PlaywriteDEGrund_300Light](./PlaywriteDEGrund_300Light.ttf.png)||
-|![PlaywriteDEGrund_400Regular](./PlaywriteDEGrund_400Regular.ttf.png)||||
+|![PlaywriteDEGrund_100Thin](./100Thin/PlaywriteDEGrund_100Thin.ttf.png)|![PlaywriteDEGrund_200ExtraLight](./200ExtraLight/PlaywriteDEGrund_200ExtraLight.ttf.png)|![PlaywriteDEGrund_300Light](./300Light/PlaywriteDEGrund_300Light.ttf.png)||
+|![PlaywriteDEGrund_400Regular](./400Regular/PlaywriteDEGrund_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

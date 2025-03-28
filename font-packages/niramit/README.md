@@ -31,7 +31,7 @@ This font family contains [12 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/niramit expo-font expo-app-loading
+npx expo install @expo-google-fonts/niramit expo-font
 ```
 
 Now add code like this to your project
@@ -40,8 +40,19 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Niramit_200ExtraLight, Niramit_200ExtraLight_Italic, Niramit_300Light, Niramit_300Light_Italic, Niramit_400Regular, Niramit_400Regular_Italic, Niramit_500Medium, Niramit_500Medium_Italic, Niramit_600SemiBold, Niramit_600SemiBold_Italic, Niramit_700Bold, Niramit_700Bold_Italic } from '@expo-google-fonts/niramit';
+import { useFonts } from '@expo-google-fonts/niramit/useFonts';
+import { Niramit_200ExtraLight } from '@expo-google-fonts/niramit/200ExtraLight';
+import { Niramit_200ExtraLight_Italic } from '@expo-google-fonts/niramit/200ExtraLight_Italic';
+import { Niramit_300Light } from '@expo-google-fonts/niramit/300Light';
+import { Niramit_300Light_Italic } from '@expo-google-fonts/niramit/300Light_Italic';
+import { Niramit_400Regular } from '@expo-google-fonts/niramit/400Regular';
+import { Niramit_400Regular_Italic } from '@expo-google-fonts/niramit/400Regular_Italic';
+import { Niramit_500Medium } from '@expo-google-fonts/niramit/500Medium';
+import { Niramit_500Medium_Italic } from '@expo-google-fonts/niramit/500Medium_Italic';
+import { Niramit_600SemiBold } from '@expo-google-fonts/niramit/600SemiBold';
+import { Niramit_600SemiBold_Italic } from '@expo-google-fonts/niramit/600SemiBold_Italic';
+import { Niramit_700Bold } from '@expo-google-fonts/niramit/700Bold';
+import { Niramit_700Bold_Italic } from '@expo-google-fonts/niramit/700Bold_Italic';
 
 export default () => {
 
@@ -64,7 +75,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -175,10 +186,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Niramit_200ExtraLight](./Niramit_200ExtraLight.ttf.png)|![Niramit_200ExtraLight_Italic](./Niramit_200ExtraLight_Italic.ttf.png)|![Niramit_300Light](./Niramit_300Light.ttf.png)||
-|![Niramit_300Light_Italic](./Niramit_300Light_Italic.ttf.png)|![Niramit_400Regular](./Niramit_400Regular.ttf.png)|![Niramit_400Regular_Italic](./Niramit_400Regular_Italic.ttf.png)||
-|![Niramit_500Medium](./Niramit_500Medium.ttf.png)|![Niramit_500Medium_Italic](./Niramit_500Medium_Italic.ttf.png)|![Niramit_600SemiBold](./Niramit_600SemiBold.ttf.png)||
-|![Niramit_600SemiBold_Italic](./Niramit_600SemiBold_Italic.ttf.png)|![Niramit_700Bold](./Niramit_700Bold.ttf.png)|![Niramit_700Bold_Italic](./Niramit_700Bold_Italic.ttf.png)||
+|![Niramit_200ExtraLight](./200ExtraLight/Niramit_200ExtraLight.ttf.png)|![Niramit_200ExtraLight_Italic](./200ExtraLight_Italic/Niramit_200ExtraLight_Italic.ttf.png)|![Niramit_300Light](./300Light/Niramit_300Light.ttf.png)||
+|![Niramit_300Light_Italic](./300Light_Italic/Niramit_300Light_Italic.ttf.png)|![Niramit_400Regular](./400Regular/Niramit_400Regular.ttf.png)|![Niramit_400Regular_Italic](./400Regular_Italic/Niramit_400Regular_Italic.ttf.png)||
+|![Niramit_500Medium](./500Medium/Niramit_500Medium.ttf.png)|![Niramit_500Medium_Italic](./500Medium_Italic/Niramit_500Medium_Italic.ttf.png)|![Niramit_600SemiBold](./600SemiBold/Niramit_600SemiBold.ttf.png)||
+|![Niramit_600SemiBold_Italic](./600SemiBold_Italic/Niramit_600SemiBold_Italic.ttf.png)|![Niramit_700Bold](./700Bold/Niramit_700Bold.ttf.png)|![Niramit_700Bold_Italic](./700Bold_Italic/Niramit_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

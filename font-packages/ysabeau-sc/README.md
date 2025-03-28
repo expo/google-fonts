@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/ysabeau-sc expo-font expo-app-loading
+npx expo install @expo-google-fonts/ysabeau-sc expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, YsabeauSC_100Thin, YsabeauSC_200ExtraLight, YsabeauSC_300Light, YsabeauSC_400Regular, YsabeauSC_500Medium, YsabeauSC_600SemiBold, YsabeauSC_700Bold, YsabeauSC_800ExtraBold, YsabeauSC_900Black } from '@expo-google-fonts/ysabeau-sc';
+import { useFonts } from '@expo-google-fonts/ysabeau-sc/useFonts';
+import { YsabeauSC_100Thin } from '@expo-google-fonts/ysabeau-sc/100Thin';
+import { YsabeauSC_200ExtraLight } from '@expo-google-fonts/ysabeau-sc/200ExtraLight';
+import { YsabeauSC_300Light } from '@expo-google-fonts/ysabeau-sc/300Light';
+import { YsabeauSC_400Regular } from '@expo-google-fonts/ysabeau-sc/400Regular';
+import { YsabeauSC_500Medium } from '@expo-google-fonts/ysabeau-sc/500Medium';
+import { YsabeauSC_600SemiBold } from '@expo-google-fonts/ysabeau-sc/600SemiBold';
+import { YsabeauSC_700Bold } from '@expo-google-fonts/ysabeau-sc/700Bold';
+import { YsabeauSC_800ExtraBold } from '@expo-google-fonts/ysabeau-sc/800ExtraBold';
+import { YsabeauSC_900Black } from '@expo-google-fonts/ysabeau-sc/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![YsabeauSC_100Thin](./YsabeauSC_100Thin.ttf.png)|![YsabeauSC_200ExtraLight](./YsabeauSC_200ExtraLight.ttf.png)|![YsabeauSC_300Light](./YsabeauSC_300Light.ttf.png)||
-|![YsabeauSC_400Regular](./YsabeauSC_400Regular.ttf.png)|![YsabeauSC_500Medium](./YsabeauSC_500Medium.ttf.png)|![YsabeauSC_600SemiBold](./YsabeauSC_600SemiBold.ttf.png)||
-|![YsabeauSC_700Bold](./YsabeauSC_700Bold.ttf.png)|![YsabeauSC_800ExtraBold](./YsabeauSC_800ExtraBold.ttf.png)|![YsabeauSC_900Black](./YsabeauSC_900Black.ttf.png)||
+|![YsabeauSC_100Thin](./100Thin/YsabeauSC_100Thin.ttf.png)|![YsabeauSC_200ExtraLight](./200ExtraLight/YsabeauSC_200ExtraLight.ttf.png)|![YsabeauSC_300Light](./300Light/YsabeauSC_300Light.ttf.png)||
+|![YsabeauSC_400Regular](./400Regular/YsabeauSC_400Regular.ttf.png)|![YsabeauSC_500Medium](./500Medium/YsabeauSC_500Medium.ttf.png)|![YsabeauSC_600SemiBold](./600SemiBold/YsabeauSC_600SemiBold.ttf.png)||
+|![YsabeauSC_700Bold](./700Bold/YsabeauSC_700Bold.ttf.png)|![YsabeauSC_800ExtraBold](./800ExtraBold/YsabeauSC_800ExtraBold.ttf.png)|![YsabeauSC_900Black](./900Black/YsabeauSC_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

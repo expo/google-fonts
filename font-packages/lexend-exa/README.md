@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/lexend-exa expo-font expo-app-loading
+npx expo install @expo-google-fonts/lexend-exa expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, LexendExa_100Thin, LexendExa_200ExtraLight, LexendExa_300Light, LexendExa_400Regular, LexendExa_500Medium, LexendExa_600SemiBold, LexendExa_700Bold, LexendExa_800ExtraBold, LexendExa_900Black } from '@expo-google-fonts/lexend-exa';
+import { useFonts } from '@expo-google-fonts/lexend-exa/useFonts';
+import { LexendExa_100Thin } from '@expo-google-fonts/lexend-exa/100Thin';
+import { LexendExa_200ExtraLight } from '@expo-google-fonts/lexend-exa/200ExtraLight';
+import { LexendExa_300Light } from '@expo-google-fonts/lexend-exa/300Light';
+import { LexendExa_400Regular } from '@expo-google-fonts/lexend-exa/400Regular';
+import { LexendExa_500Medium } from '@expo-google-fonts/lexend-exa/500Medium';
+import { LexendExa_600SemiBold } from '@expo-google-fonts/lexend-exa/600SemiBold';
+import { LexendExa_700Bold } from '@expo-google-fonts/lexend-exa/700Bold';
+import { LexendExa_800ExtraBold } from '@expo-google-fonts/lexend-exa/800ExtraBold';
+import { LexendExa_900Black } from '@expo-google-fonts/lexend-exa/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LexendExa_100Thin](./LexendExa_100Thin.ttf.png)|![LexendExa_200ExtraLight](./LexendExa_200ExtraLight.ttf.png)|![LexendExa_300Light](./LexendExa_300Light.ttf.png)||
-|![LexendExa_400Regular](./LexendExa_400Regular.ttf.png)|![LexendExa_500Medium](./LexendExa_500Medium.ttf.png)|![LexendExa_600SemiBold](./LexendExa_600SemiBold.ttf.png)||
-|![LexendExa_700Bold](./LexendExa_700Bold.ttf.png)|![LexendExa_800ExtraBold](./LexendExa_800ExtraBold.ttf.png)|![LexendExa_900Black](./LexendExa_900Black.ttf.png)||
+|![LexendExa_100Thin](./100Thin/LexendExa_100Thin.ttf.png)|![LexendExa_200ExtraLight](./200ExtraLight/LexendExa_200ExtraLight.ttf.png)|![LexendExa_300Light](./300Light/LexendExa_300Light.ttf.png)||
+|![LexendExa_400Regular](./400Regular/LexendExa_400Regular.ttf.png)|![LexendExa_500Medium](./500Medium/LexendExa_500Medium.ttf.png)|![LexendExa_600SemiBold](./600SemiBold/LexendExa_600SemiBold.ttf.png)||
+|![LexendExa_700Bold](./700Bold/LexendExa_700Bold.ttf.png)|![LexendExa_800ExtraBold](./800ExtraBold/LexendExa_800ExtraBold.ttf.png)|![LexendExa_900Black](./900Black/LexendExa_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-gujarati expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-gujarati expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifGujarati_100Thin, NotoSerifGujarati_200ExtraLight, NotoSerifGujarati_300Light, NotoSerifGujarati_400Regular, NotoSerifGujarati_500Medium, NotoSerifGujarati_600SemiBold, NotoSerifGujarati_700Bold, NotoSerifGujarati_800ExtraBold, NotoSerifGujarati_900Black } from '@expo-google-fonts/noto-serif-gujarati';
+import { useFonts } from '@expo-google-fonts/noto-serif-gujarati/useFonts';
+import { NotoSerifGujarati_100Thin } from '@expo-google-fonts/noto-serif-gujarati/100Thin';
+import { NotoSerifGujarati_200ExtraLight } from '@expo-google-fonts/noto-serif-gujarati/200ExtraLight';
+import { NotoSerifGujarati_300Light } from '@expo-google-fonts/noto-serif-gujarati/300Light';
+import { NotoSerifGujarati_400Regular } from '@expo-google-fonts/noto-serif-gujarati/400Regular';
+import { NotoSerifGujarati_500Medium } from '@expo-google-fonts/noto-serif-gujarati/500Medium';
+import { NotoSerifGujarati_600SemiBold } from '@expo-google-fonts/noto-serif-gujarati/600SemiBold';
+import { NotoSerifGujarati_700Bold } from '@expo-google-fonts/noto-serif-gujarati/700Bold';
+import { NotoSerifGujarati_800ExtraBold } from '@expo-google-fonts/noto-serif-gujarati/800ExtraBold';
+import { NotoSerifGujarati_900Black } from '@expo-google-fonts/noto-serif-gujarati/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifGujarati_100Thin](./NotoSerifGujarati_100Thin.ttf.png)|![NotoSerifGujarati_200ExtraLight](./NotoSerifGujarati_200ExtraLight.ttf.png)|![NotoSerifGujarati_300Light](./NotoSerifGujarati_300Light.ttf.png)||
-|![NotoSerifGujarati_400Regular](./NotoSerifGujarati_400Regular.ttf.png)|![NotoSerifGujarati_500Medium](./NotoSerifGujarati_500Medium.ttf.png)|![NotoSerifGujarati_600SemiBold](./NotoSerifGujarati_600SemiBold.ttf.png)||
-|![NotoSerifGujarati_700Bold](./NotoSerifGujarati_700Bold.ttf.png)|![NotoSerifGujarati_800ExtraBold](./NotoSerifGujarati_800ExtraBold.ttf.png)|![NotoSerifGujarati_900Black](./NotoSerifGujarati_900Black.ttf.png)||
+|![NotoSerifGujarati_100Thin](./100Thin/NotoSerifGujarati_100Thin.ttf.png)|![NotoSerifGujarati_200ExtraLight](./200ExtraLight/NotoSerifGujarati_200ExtraLight.ttf.png)|![NotoSerifGujarati_300Light](./300Light/NotoSerifGujarati_300Light.ttf.png)||
+|![NotoSerifGujarati_400Regular](./400Regular/NotoSerifGujarati_400Regular.ttf.png)|![NotoSerifGujarati_500Medium](./500Medium/NotoSerifGujarati_500Medium.ttf.png)|![NotoSerifGujarati_600SemiBold](./600SemiBold/NotoSerifGujarati_600SemiBold.ttf.png)||
+|![NotoSerifGujarati_700Bold](./700Bold/NotoSerifGujarati_700Bold.ttf.png)|![NotoSerifGujarati_800ExtraBold](./800ExtraBold/NotoSerifGujarati_800ExtraBold.ttf.png)|![NotoSerifGujarati_900Black](./900Black/NotoSerifGujarati_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

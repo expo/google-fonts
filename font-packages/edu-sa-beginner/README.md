@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/edu-sa-beginner expo-font expo-app-loading
+npx expo install @expo-google-fonts/edu-sa-beginner expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, EduSABeginner_400Regular, EduSABeginner_500Medium, EduSABeginner_600SemiBold, EduSABeginner_700Bold } from '@expo-google-fonts/edu-sa-beginner';
+import { useFonts } from '@expo-google-fonts/edu-sa-beginner/useFonts';
+import { EduSABeginner_400Regular } from '@expo-google-fonts/edu-sa-beginner/400Regular';
+import { EduSABeginner_500Medium } from '@expo-google-fonts/edu-sa-beginner/500Medium';
+import { EduSABeginner_600SemiBold } from '@expo-google-fonts/edu-sa-beginner/600SemiBold';
+import { EduSABeginner_700Bold } from '@expo-google-fonts/edu-sa-beginner/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EduSABeginner_400Regular](./EduSABeginner_400Regular.ttf.png)|![EduSABeginner_500Medium](./EduSABeginner_500Medium.ttf.png)|![EduSABeginner_600SemiBold](./EduSABeginner_600SemiBold.ttf.png)||
-|![EduSABeginner_700Bold](./EduSABeginner_700Bold.ttf.png)||||
+|![EduSABeginner_400Regular](./400Regular/EduSABeginner_400Regular.ttf.png)|![EduSABeginner_500Medium](./500Medium/EduSABeginner_500Medium.ttf.png)|![EduSABeginner_600SemiBold](./600SemiBold/EduSABeginner_600SemiBold.ttf.png)||
+|![EduSABeginner_700Bold](./700Bold/EduSABeginner_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

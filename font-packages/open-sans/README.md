@@ -31,7 +31,7 @@ This font family contains [12 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/open-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/open-sans expo-font
 ```
 
 Now add code like this to your project
@@ -40,8 +40,19 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, OpenSans_300Light, OpenSans_400Regular, OpenSans_500Medium, OpenSans_600SemiBold, OpenSans_700Bold, OpenSans_800ExtraBold, OpenSans_300Light_Italic, OpenSans_400Regular_Italic, OpenSans_500Medium_Italic, OpenSans_600SemiBold_Italic, OpenSans_700Bold_Italic, OpenSans_800ExtraBold_Italic } from '@expo-google-fonts/open-sans';
+import { useFonts } from '@expo-google-fonts/open-sans/useFonts';
+import { OpenSans_300Light } from '@expo-google-fonts/open-sans/300Light';
+import { OpenSans_400Regular } from '@expo-google-fonts/open-sans/400Regular';
+import { OpenSans_500Medium } from '@expo-google-fonts/open-sans/500Medium';
+import { OpenSans_600SemiBold } from '@expo-google-fonts/open-sans/600SemiBold';
+import { OpenSans_700Bold } from '@expo-google-fonts/open-sans/700Bold';
+import { OpenSans_800ExtraBold } from '@expo-google-fonts/open-sans/800ExtraBold';
+import { OpenSans_300Light_Italic } from '@expo-google-fonts/open-sans/300Light_Italic';
+import { OpenSans_400Regular_Italic } from '@expo-google-fonts/open-sans/400Regular_Italic';
+import { OpenSans_500Medium_Italic } from '@expo-google-fonts/open-sans/500Medium_Italic';
+import { OpenSans_600SemiBold_Italic } from '@expo-google-fonts/open-sans/600SemiBold_Italic';
+import { OpenSans_700Bold_Italic } from '@expo-google-fonts/open-sans/700Bold_Italic';
+import { OpenSans_800ExtraBold_Italic } from '@expo-google-fonts/open-sans/800ExtraBold_Italic';
 
 export default () => {
 
@@ -64,7 +75,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -175,10 +186,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![OpenSans_300Light](./OpenSans_300Light.ttf.png)|![OpenSans_400Regular](./OpenSans_400Regular.ttf.png)|![OpenSans_500Medium](./OpenSans_500Medium.ttf.png)||
-|![OpenSans_600SemiBold](./OpenSans_600SemiBold.ttf.png)|![OpenSans_700Bold](./OpenSans_700Bold.ttf.png)|![OpenSans_800ExtraBold](./OpenSans_800ExtraBold.ttf.png)||
-|![OpenSans_300Light_Italic](./OpenSans_300Light_Italic.ttf.png)|![OpenSans_400Regular_Italic](./OpenSans_400Regular_Italic.ttf.png)|![OpenSans_500Medium_Italic](./OpenSans_500Medium_Italic.ttf.png)||
-|![OpenSans_600SemiBold_Italic](./OpenSans_600SemiBold_Italic.ttf.png)|![OpenSans_700Bold_Italic](./OpenSans_700Bold_Italic.ttf.png)|![OpenSans_800ExtraBold_Italic](./OpenSans_800ExtraBold_Italic.ttf.png)||
+|![OpenSans_300Light](./300Light/OpenSans_300Light.ttf.png)|![OpenSans_400Regular](./400Regular/OpenSans_400Regular.ttf.png)|![OpenSans_500Medium](./500Medium/OpenSans_500Medium.ttf.png)||
+|![OpenSans_600SemiBold](./600SemiBold/OpenSans_600SemiBold.ttf.png)|![OpenSans_700Bold](./700Bold/OpenSans_700Bold.ttf.png)|![OpenSans_800ExtraBold](./800ExtraBold/OpenSans_800ExtraBold.ttf.png)||
+|![OpenSans_300Light_Italic](./300Light_Italic/OpenSans_300Light_Italic.ttf.png)|![OpenSans_400Regular_Italic](./400Regular_Italic/OpenSans_400Regular_Italic.ttf.png)|![OpenSans_500Medium_Italic](./500Medium_Italic/OpenSans_500Medium_Italic.ttf.png)||
+|![OpenSans_600SemiBold_Italic](./600SemiBold_Italic/OpenSans_600SemiBold_Italic.ttf.png)|![OpenSans_700Bold_Italic](./700Bold_Italic/OpenSans_700Bold_Italic.ttf.png)|![OpenSans_800ExtraBold_Italic](./800ExtraBold_Italic/OpenSans_800ExtraBold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

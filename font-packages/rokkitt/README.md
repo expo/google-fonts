@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/rokkitt expo-font expo-app-loading
+npx expo install @expo-google-fonts/rokkitt expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Rokkitt_100Thin, Rokkitt_200ExtraLight, Rokkitt_300Light, Rokkitt_400Regular, Rokkitt_500Medium, Rokkitt_600SemiBold, Rokkitt_700Bold, Rokkitt_800ExtraBold, Rokkitt_900Black, Rokkitt_100Thin_Italic, Rokkitt_200ExtraLight_Italic, Rokkitt_300Light_Italic, Rokkitt_400Regular_Italic, Rokkitt_500Medium_Italic, Rokkitt_600SemiBold_Italic, Rokkitt_700Bold_Italic, Rokkitt_800ExtraBold_Italic, Rokkitt_900Black_Italic } from '@expo-google-fonts/rokkitt';
+import { useFonts } from '@expo-google-fonts/rokkitt/useFonts';
+import { Rokkitt_100Thin } from '@expo-google-fonts/rokkitt/100Thin';
+import { Rokkitt_200ExtraLight } from '@expo-google-fonts/rokkitt/200ExtraLight';
+import { Rokkitt_300Light } from '@expo-google-fonts/rokkitt/300Light';
+import { Rokkitt_400Regular } from '@expo-google-fonts/rokkitt/400Regular';
+import { Rokkitt_500Medium } from '@expo-google-fonts/rokkitt/500Medium';
+import { Rokkitt_600SemiBold } from '@expo-google-fonts/rokkitt/600SemiBold';
+import { Rokkitt_700Bold } from '@expo-google-fonts/rokkitt/700Bold';
+import { Rokkitt_800ExtraBold } from '@expo-google-fonts/rokkitt/800ExtraBold';
+import { Rokkitt_900Black } from '@expo-google-fonts/rokkitt/900Black';
+import { Rokkitt_100Thin_Italic } from '@expo-google-fonts/rokkitt/100Thin_Italic';
+import { Rokkitt_200ExtraLight_Italic } from '@expo-google-fonts/rokkitt/200ExtraLight_Italic';
+import { Rokkitt_300Light_Italic } from '@expo-google-fonts/rokkitt/300Light_Italic';
+import { Rokkitt_400Regular_Italic } from '@expo-google-fonts/rokkitt/400Regular_Italic';
+import { Rokkitt_500Medium_Italic } from '@expo-google-fonts/rokkitt/500Medium_Italic';
+import { Rokkitt_600SemiBold_Italic } from '@expo-google-fonts/rokkitt/600SemiBold_Italic';
+import { Rokkitt_700Bold_Italic } from '@expo-google-fonts/rokkitt/700Bold_Italic';
+import { Rokkitt_800ExtraBold_Italic } from '@expo-google-fonts/rokkitt/800ExtraBold_Italic';
+import { Rokkitt_900Black_Italic } from '@expo-google-fonts/rokkitt/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Rokkitt_100Thin](./Rokkitt_100Thin.ttf.png)|![Rokkitt_200ExtraLight](./Rokkitt_200ExtraLight.ttf.png)|![Rokkitt_300Light](./Rokkitt_300Light.ttf.png)||
-|![Rokkitt_400Regular](./Rokkitt_400Regular.ttf.png)|![Rokkitt_500Medium](./Rokkitt_500Medium.ttf.png)|![Rokkitt_600SemiBold](./Rokkitt_600SemiBold.ttf.png)||
-|![Rokkitt_700Bold](./Rokkitt_700Bold.ttf.png)|![Rokkitt_800ExtraBold](./Rokkitt_800ExtraBold.ttf.png)|![Rokkitt_900Black](./Rokkitt_900Black.ttf.png)||
-|![Rokkitt_100Thin_Italic](./Rokkitt_100Thin_Italic.ttf.png)|![Rokkitt_200ExtraLight_Italic](./Rokkitt_200ExtraLight_Italic.ttf.png)|![Rokkitt_300Light_Italic](./Rokkitt_300Light_Italic.ttf.png)||
-|![Rokkitt_400Regular_Italic](./Rokkitt_400Regular_Italic.ttf.png)|![Rokkitt_500Medium_Italic](./Rokkitt_500Medium_Italic.ttf.png)|![Rokkitt_600SemiBold_Italic](./Rokkitt_600SemiBold_Italic.ttf.png)||
-|![Rokkitt_700Bold_Italic](./Rokkitt_700Bold_Italic.ttf.png)|![Rokkitt_800ExtraBold_Italic](./Rokkitt_800ExtraBold_Italic.ttf.png)|![Rokkitt_900Black_Italic](./Rokkitt_900Black_Italic.ttf.png)||
+|![Rokkitt_100Thin](./100Thin/Rokkitt_100Thin.ttf.png)|![Rokkitt_200ExtraLight](./200ExtraLight/Rokkitt_200ExtraLight.ttf.png)|![Rokkitt_300Light](./300Light/Rokkitt_300Light.ttf.png)||
+|![Rokkitt_400Regular](./400Regular/Rokkitt_400Regular.ttf.png)|![Rokkitt_500Medium](./500Medium/Rokkitt_500Medium.ttf.png)|![Rokkitt_600SemiBold](./600SemiBold/Rokkitt_600SemiBold.ttf.png)||
+|![Rokkitt_700Bold](./700Bold/Rokkitt_700Bold.ttf.png)|![Rokkitt_800ExtraBold](./800ExtraBold/Rokkitt_800ExtraBold.ttf.png)|![Rokkitt_900Black](./900Black/Rokkitt_900Black.ttf.png)||
+|![Rokkitt_100Thin_Italic](./100Thin_Italic/Rokkitt_100Thin_Italic.ttf.png)|![Rokkitt_200ExtraLight_Italic](./200ExtraLight_Italic/Rokkitt_200ExtraLight_Italic.ttf.png)|![Rokkitt_300Light_Italic](./300Light_Italic/Rokkitt_300Light_Italic.ttf.png)||
+|![Rokkitt_400Regular_Italic](./400Regular_Italic/Rokkitt_400Regular_Italic.ttf.png)|![Rokkitt_500Medium_Italic](./500Medium_Italic/Rokkitt_500Medium_Italic.ttf.png)|![Rokkitt_600SemiBold_Italic](./600SemiBold_Italic/Rokkitt_600SemiBold_Italic.ttf.png)||
+|![Rokkitt_700Bold_Italic](./700Bold_Italic/Rokkitt_700Bold_Italic.ttf.png)|![Rokkitt_800ExtraBold_Italic](./800ExtraBold_Italic/Rokkitt_800ExtraBold_Italic.ttf.png)|![Rokkitt_900Black_Italic](./900Black_Italic/Rokkitt_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

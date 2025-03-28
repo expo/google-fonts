@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-symbols expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-symbols expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansSymbols_100Thin, NotoSansSymbols_200ExtraLight, NotoSansSymbols_300Light, NotoSansSymbols_400Regular, NotoSansSymbols_500Medium, NotoSansSymbols_600SemiBold, NotoSansSymbols_700Bold, NotoSansSymbols_800ExtraBold, NotoSansSymbols_900Black } from '@expo-google-fonts/noto-sans-symbols';
+import { useFonts } from '@expo-google-fonts/noto-sans-symbols/useFonts';
+import { NotoSansSymbols_100Thin } from '@expo-google-fonts/noto-sans-symbols/100Thin';
+import { NotoSansSymbols_200ExtraLight } from '@expo-google-fonts/noto-sans-symbols/200ExtraLight';
+import { NotoSansSymbols_300Light } from '@expo-google-fonts/noto-sans-symbols/300Light';
+import { NotoSansSymbols_400Regular } from '@expo-google-fonts/noto-sans-symbols/400Regular';
+import { NotoSansSymbols_500Medium } from '@expo-google-fonts/noto-sans-symbols/500Medium';
+import { NotoSansSymbols_600SemiBold } from '@expo-google-fonts/noto-sans-symbols/600SemiBold';
+import { NotoSansSymbols_700Bold } from '@expo-google-fonts/noto-sans-symbols/700Bold';
+import { NotoSansSymbols_800ExtraBold } from '@expo-google-fonts/noto-sans-symbols/800ExtraBold';
+import { NotoSansSymbols_900Black } from '@expo-google-fonts/noto-sans-symbols/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansSymbols_100Thin](./NotoSansSymbols_100Thin.ttf.png)|![NotoSansSymbols_200ExtraLight](./NotoSansSymbols_200ExtraLight.ttf.png)|![NotoSansSymbols_300Light](./NotoSansSymbols_300Light.ttf.png)||
-|![NotoSansSymbols_400Regular](./NotoSansSymbols_400Regular.ttf.png)|![NotoSansSymbols_500Medium](./NotoSansSymbols_500Medium.ttf.png)|![NotoSansSymbols_600SemiBold](./NotoSansSymbols_600SemiBold.ttf.png)||
-|![NotoSansSymbols_700Bold](./NotoSansSymbols_700Bold.ttf.png)|![NotoSansSymbols_800ExtraBold](./NotoSansSymbols_800ExtraBold.ttf.png)|![NotoSansSymbols_900Black](./NotoSansSymbols_900Black.ttf.png)||
+|![NotoSansSymbols_100Thin](./100Thin/NotoSansSymbols_100Thin.ttf.png)|![NotoSansSymbols_200ExtraLight](./200ExtraLight/NotoSansSymbols_200ExtraLight.ttf.png)|![NotoSansSymbols_300Light](./300Light/NotoSansSymbols_300Light.ttf.png)||
+|![NotoSansSymbols_400Regular](./400Regular/NotoSansSymbols_400Regular.ttf.png)|![NotoSansSymbols_500Medium](./500Medium/NotoSansSymbols_500Medium.ttf.png)|![NotoSansSymbols_600SemiBold](./600SemiBold/NotoSansSymbols_600SemiBold.ttf.png)||
+|![NotoSansSymbols_700Bold](./700Bold/NotoSansSymbols_700Bold.ttf.png)|![NotoSansSymbols_800ExtraBold](./800ExtraBold/NotoSansSymbols_800ExtraBold.ttf.png)|![NotoSansSymbols_900Black](./900Black/NotoSansSymbols_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

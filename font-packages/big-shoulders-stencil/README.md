@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/big-shoulders-stencil expo-font expo-app-loading
+npx expo install @expo-google-fonts/big-shoulders-stencil expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, BigShouldersStencil_100Thin, BigShouldersStencil_200ExtraLight, BigShouldersStencil_300Light, BigShouldersStencil_400Regular, BigShouldersStencil_500Medium, BigShouldersStencil_600SemiBold, BigShouldersStencil_700Bold, BigShouldersStencil_800ExtraBold, BigShouldersStencil_900Black } from '@expo-google-fonts/big-shoulders-stencil';
+import { useFonts } from '@expo-google-fonts/big-shoulders-stencil/useFonts';
+import { BigShouldersStencil_100Thin } from '@expo-google-fonts/big-shoulders-stencil/100Thin';
+import { BigShouldersStencil_200ExtraLight } from '@expo-google-fonts/big-shoulders-stencil/200ExtraLight';
+import { BigShouldersStencil_300Light } from '@expo-google-fonts/big-shoulders-stencil/300Light';
+import { BigShouldersStencil_400Regular } from '@expo-google-fonts/big-shoulders-stencil/400Regular';
+import { BigShouldersStencil_500Medium } from '@expo-google-fonts/big-shoulders-stencil/500Medium';
+import { BigShouldersStencil_600SemiBold } from '@expo-google-fonts/big-shoulders-stencil/600SemiBold';
+import { BigShouldersStencil_700Bold } from '@expo-google-fonts/big-shoulders-stencil/700Bold';
+import { BigShouldersStencil_800ExtraBold } from '@expo-google-fonts/big-shoulders-stencil/800ExtraBold';
+import { BigShouldersStencil_900Black } from '@expo-google-fonts/big-shoulders-stencil/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BigShouldersStencil_100Thin](./BigShouldersStencil_100Thin.ttf.png)|![BigShouldersStencil_200ExtraLight](./BigShouldersStencil_200ExtraLight.ttf.png)|![BigShouldersStencil_300Light](./BigShouldersStencil_300Light.ttf.png)||
-|![BigShouldersStencil_400Regular](./BigShouldersStencil_400Regular.ttf.png)|![BigShouldersStencil_500Medium](./BigShouldersStencil_500Medium.ttf.png)|![BigShouldersStencil_600SemiBold](./BigShouldersStencil_600SemiBold.ttf.png)||
-|![BigShouldersStencil_700Bold](./BigShouldersStencil_700Bold.ttf.png)|![BigShouldersStencil_800ExtraBold](./BigShouldersStencil_800ExtraBold.ttf.png)|![BigShouldersStencil_900Black](./BigShouldersStencil_900Black.ttf.png)||
+|![BigShouldersStencil_100Thin](./100Thin/BigShouldersStencil_100Thin.ttf.png)|![BigShouldersStencil_200ExtraLight](./200ExtraLight/BigShouldersStencil_200ExtraLight.ttf.png)|![BigShouldersStencil_300Light](./300Light/BigShouldersStencil_300Light.ttf.png)||
+|![BigShouldersStencil_400Regular](./400Regular/BigShouldersStencil_400Regular.ttf.png)|![BigShouldersStencil_500Medium](./500Medium/BigShouldersStencil_500Medium.ttf.png)|![BigShouldersStencil_600SemiBold](./600SemiBold/BigShouldersStencil_600SemiBold.ttf.png)||
+|![BigShouldersStencil_700Bold](./700Bold/BigShouldersStencil_700Bold.ttf.png)|![BigShouldersStencil_800ExtraBold](./800ExtraBold/BigShouldersStencil_800ExtraBold.ttf.png)|![BigShouldersStencil_900Black](./900Black/BigShouldersStencil_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

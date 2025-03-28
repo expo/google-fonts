@@ -29,7 +29,7 @@ This font family contains [10 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/inclusive-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/inclusive-sans expo-font
 ```
 
 Now add code like this to your project
@@ -38,8 +38,17 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, InclusiveSans_300Light, InclusiveSans_400Regular, InclusiveSans_500Medium, InclusiveSans_600SemiBold, InclusiveSans_700Bold, InclusiveSans_300Light_Italic, InclusiveSans_400Regular_Italic, InclusiveSans_500Medium_Italic, InclusiveSans_600SemiBold_Italic, InclusiveSans_700Bold_Italic } from '@expo-google-fonts/inclusive-sans';
+import { useFonts } from '@expo-google-fonts/inclusive-sans/useFonts';
+import { InclusiveSans_300Light } from '@expo-google-fonts/inclusive-sans/300Light';
+import { InclusiveSans_400Regular } from '@expo-google-fonts/inclusive-sans/400Regular';
+import { InclusiveSans_500Medium } from '@expo-google-fonts/inclusive-sans/500Medium';
+import { InclusiveSans_600SemiBold } from '@expo-google-fonts/inclusive-sans/600SemiBold';
+import { InclusiveSans_700Bold } from '@expo-google-fonts/inclusive-sans/700Bold';
+import { InclusiveSans_300Light_Italic } from '@expo-google-fonts/inclusive-sans/300Light_Italic';
+import { InclusiveSans_400Regular_Italic } from '@expo-google-fonts/inclusive-sans/400Regular_Italic';
+import { InclusiveSans_500Medium_Italic } from '@expo-google-fonts/inclusive-sans/500Medium_Italic';
+import { InclusiveSans_600SemiBold_Italic } from '@expo-google-fonts/inclusive-sans/600SemiBold_Italic';
+import { InclusiveSans_700Bold_Italic } from '@expo-google-fonts/inclusive-sans/700Bold_Italic';
 
 export default () => {
 
@@ -60,7 +69,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -155,10 +164,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![InclusiveSans_300Light](./InclusiveSans_300Light.ttf.png)|![InclusiveSans_400Regular](./InclusiveSans_400Regular.ttf.png)|![InclusiveSans_500Medium](./InclusiveSans_500Medium.ttf.png)||
-|![InclusiveSans_600SemiBold](./InclusiveSans_600SemiBold.ttf.png)|![InclusiveSans_700Bold](./InclusiveSans_700Bold.ttf.png)|![InclusiveSans_300Light_Italic](./InclusiveSans_300Light_Italic.ttf.png)||
-|![InclusiveSans_400Regular_Italic](./InclusiveSans_400Regular_Italic.ttf.png)|![InclusiveSans_500Medium_Italic](./InclusiveSans_500Medium_Italic.ttf.png)|![InclusiveSans_600SemiBold_Italic](./InclusiveSans_600SemiBold_Italic.ttf.png)||
-|![InclusiveSans_700Bold_Italic](./InclusiveSans_700Bold_Italic.ttf.png)||||
+|![InclusiveSans_300Light](./300Light/InclusiveSans_300Light.ttf.png)|![InclusiveSans_400Regular](./400Regular/InclusiveSans_400Regular.ttf.png)|![InclusiveSans_500Medium](./500Medium/InclusiveSans_500Medium.ttf.png)||
+|![InclusiveSans_600SemiBold](./600SemiBold/InclusiveSans_600SemiBold.ttf.png)|![InclusiveSans_700Bold](./700Bold/InclusiveSans_700Bold.ttf.png)|![InclusiveSans_300Light_Italic](./300Light_Italic/InclusiveSans_300Light_Italic.ttf.png)||
+|![InclusiveSans_400Regular_Italic](./400Regular_Italic/InclusiveSans_400Regular_Italic.ttf.png)|![InclusiveSans_500Medium_Italic](./500Medium_Italic/InclusiveSans_500Medium_Italic.ttf.png)|![InclusiveSans_600SemiBold_Italic](./600SemiBold_Italic/InclusiveSans_600SemiBold_Italic.ttf.png)||
+|![InclusiveSans_700Bold_Italic](./700Bold_Italic/InclusiveSans_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

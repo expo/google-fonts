@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/anonymous-pro expo-font expo-app-loading
+npx expo install @expo-google-fonts/anonymous-pro expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, AnonymousPro_400Regular, AnonymousPro_400Regular_Italic, AnonymousPro_700Bold, AnonymousPro_700Bold_Italic } from '@expo-google-fonts/anonymous-pro';
+import { useFonts } from '@expo-google-fonts/anonymous-pro/useFonts';
+import { AnonymousPro_400Regular } from '@expo-google-fonts/anonymous-pro/400Regular';
+import { AnonymousPro_400Regular_Italic } from '@expo-google-fonts/anonymous-pro/400Regular_Italic';
+import { AnonymousPro_700Bold } from '@expo-google-fonts/anonymous-pro/700Bold';
+import { AnonymousPro_700Bold_Italic } from '@expo-google-fonts/anonymous-pro/700Bold_Italic';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnonymousPro_400Regular](./AnonymousPro_400Regular.ttf.png)|![AnonymousPro_400Regular_Italic](./AnonymousPro_400Regular_Italic.ttf.png)|![AnonymousPro_700Bold](./AnonymousPro_700Bold.ttf.png)||
-|![AnonymousPro_700Bold_Italic](./AnonymousPro_700Bold_Italic.ttf.png)||||
+|![AnonymousPro_400Regular](./400Regular/AnonymousPro_400Regular.ttf.png)|![AnonymousPro_400Regular_Italic](./400Regular_Italic/AnonymousPro_400Regular_Italic.ttf.png)|![AnonymousPro_700Bold](./700Bold/AnonymousPro_700Bold.ttf.png)||
+|![AnonymousPro_700Bold_Italic](./700Bold_Italic/AnonymousPro_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

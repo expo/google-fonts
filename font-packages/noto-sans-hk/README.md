@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-hk expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-hk expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansHK_100Thin, NotoSansHK_200ExtraLight, NotoSansHK_300Light, NotoSansHK_400Regular, NotoSansHK_500Medium, NotoSansHK_600SemiBold, NotoSansHK_700Bold, NotoSansHK_800ExtraBold, NotoSansHK_900Black } from '@expo-google-fonts/noto-sans-hk';
+import { useFonts } from '@expo-google-fonts/noto-sans-hk/useFonts';
+import { NotoSansHK_100Thin } from '@expo-google-fonts/noto-sans-hk/100Thin';
+import { NotoSansHK_200ExtraLight } from '@expo-google-fonts/noto-sans-hk/200ExtraLight';
+import { NotoSansHK_300Light } from '@expo-google-fonts/noto-sans-hk/300Light';
+import { NotoSansHK_400Regular } from '@expo-google-fonts/noto-sans-hk/400Regular';
+import { NotoSansHK_500Medium } from '@expo-google-fonts/noto-sans-hk/500Medium';
+import { NotoSansHK_600SemiBold } from '@expo-google-fonts/noto-sans-hk/600SemiBold';
+import { NotoSansHK_700Bold } from '@expo-google-fonts/noto-sans-hk/700Bold';
+import { NotoSansHK_800ExtraBold } from '@expo-google-fonts/noto-sans-hk/800ExtraBold';
+import { NotoSansHK_900Black } from '@expo-google-fonts/noto-sans-hk/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansHK_100Thin](./NotoSansHK_100Thin.ttf.png)|![NotoSansHK_200ExtraLight](./NotoSansHK_200ExtraLight.ttf.png)|![NotoSansHK_300Light](./NotoSansHK_300Light.ttf.png)||
-|![NotoSansHK_400Regular](./NotoSansHK_400Regular.ttf.png)|![NotoSansHK_500Medium](./NotoSansHK_500Medium.ttf.png)|![NotoSansHK_600SemiBold](./NotoSansHK_600SemiBold.ttf.png)||
-|![NotoSansHK_700Bold](./NotoSansHK_700Bold.ttf.png)|![NotoSansHK_800ExtraBold](./NotoSansHK_800ExtraBold.ttf.png)|![NotoSansHK_900Black](./NotoSansHK_900Black.ttf.png)||
+|![NotoSansHK_100Thin](./100Thin/NotoSansHK_100Thin.ttf.png)|![NotoSansHK_200ExtraLight](./200ExtraLight/NotoSansHK_200ExtraLight.ttf.png)|![NotoSansHK_300Light](./300Light/NotoSansHK_300Light.ttf.png)||
+|![NotoSansHK_400Regular](./400Regular/NotoSansHK_400Regular.ttf.png)|![NotoSansHK_500Medium](./500Medium/NotoSansHK_500Medium.ttf.png)|![NotoSansHK_600SemiBold](./600SemiBold/NotoSansHK_600SemiBold.ttf.png)||
+|![NotoSansHK_700Bold](./700Bold/NotoSansHK_700Bold.ttf.png)|![NotoSansHK_800ExtraBold](./800ExtraBold/NotoSansHK_800ExtraBold.ttf.png)|![NotoSansHK_900Black](./900Black/NotoSansHK_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

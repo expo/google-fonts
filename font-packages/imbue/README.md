@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/imbue expo-font expo-app-loading
+npx expo install @expo-google-fonts/imbue expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Imbue_100Thin, Imbue_200ExtraLight, Imbue_300Light, Imbue_400Regular, Imbue_500Medium, Imbue_600SemiBold, Imbue_700Bold, Imbue_800ExtraBold, Imbue_900Black } from '@expo-google-fonts/imbue';
+import { useFonts } from '@expo-google-fonts/imbue/useFonts';
+import { Imbue_100Thin } from '@expo-google-fonts/imbue/100Thin';
+import { Imbue_200ExtraLight } from '@expo-google-fonts/imbue/200ExtraLight';
+import { Imbue_300Light } from '@expo-google-fonts/imbue/300Light';
+import { Imbue_400Regular } from '@expo-google-fonts/imbue/400Regular';
+import { Imbue_500Medium } from '@expo-google-fonts/imbue/500Medium';
+import { Imbue_600SemiBold } from '@expo-google-fonts/imbue/600SemiBold';
+import { Imbue_700Bold } from '@expo-google-fonts/imbue/700Bold';
+import { Imbue_800ExtraBold } from '@expo-google-fonts/imbue/800ExtraBold';
+import { Imbue_900Black } from '@expo-google-fonts/imbue/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Imbue_100Thin](./Imbue_100Thin.ttf.png)|![Imbue_200ExtraLight](./Imbue_200ExtraLight.ttf.png)|![Imbue_300Light](./Imbue_300Light.ttf.png)||
-|![Imbue_400Regular](./Imbue_400Regular.ttf.png)|![Imbue_500Medium](./Imbue_500Medium.ttf.png)|![Imbue_600SemiBold](./Imbue_600SemiBold.ttf.png)||
-|![Imbue_700Bold](./Imbue_700Bold.ttf.png)|![Imbue_800ExtraBold](./Imbue_800ExtraBold.ttf.png)|![Imbue_900Black](./Imbue_900Black.ttf.png)||
+|![Imbue_100Thin](./100Thin/Imbue_100Thin.ttf.png)|![Imbue_200ExtraLight](./200ExtraLight/Imbue_200ExtraLight.ttf.png)|![Imbue_300Light](./300Light/Imbue_300Light.ttf.png)||
+|![Imbue_400Regular](./400Regular/Imbue_400Regular.ttf.png)|![Imbue_500Medium](./500Medium/Imbue_500Medium.ttf.png)|![Imbue_600SemiBold](./600SemiBold/Imbue_600SemiBold.ttf.png)||
+|![Imbue_700Bold](./700Bold/Imbue_700Bold.ttf.png)|![Imbue_800ExtraBold](./800ExtraBold/Imbue_800ExtraBold.ttf.png)|![Imbue_900Black](./900Black/Imbue_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

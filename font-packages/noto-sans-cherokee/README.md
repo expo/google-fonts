@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-cherokee expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-cherokee expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansCherokee_100Thin, NotoSansCherokee_200ExtraLight, NotoSansCherokee_300Light, NotoSansCherokee_400Regular, NotoSansCherokee_500Medium, NotoSansCherokee_600SemiBold, NotoSansCherokee_700Bold, NotoSansCherokee_800ExtraBold, NotoSansCherokee_900Black } from '@expo-google-fonts/noto-sans-cherokee';
+import { useFonts } from '@expo-google-fonts/noto-sans-cherokee/useFonts';
+import { NotoSansCherokee_100Thin } from '@expo-google-fonts/noto-sans-cherokee/100Thin';
+import { NotoSansCherokee_200ExtraLight } from '@expo-google-fonts/noto-sans-cherokee/200ExtraLight';
+import { NotoSansCherokee_300Light } from '@expo-google-fonts/noto-sans-cherokee/300Light';
+import { NotoSansCherokee_400Regular } from '@expo-google-fonts/noto-sans-cherokee/400Regular';
+import { NotoSansCherokee_500Medium } from '@expo-google-fonts/noto-sans-cherokee/500Medium';
+import { NotoSansCherokee_600SemiBold } from '@expo-google-fonts/noto-sans-cherokee/600SemiBold';
+import { NotoSansCherokee_700Bold } from '@expo-google-fonts/noto-sans-cherokee/700Bold';
+import { NotoSansCherokee_800ExtraBold } from '@expo-google-fonts/noto-sans-cherokee/800ExtraBold';
+import { NotoSansCherokee_900Black } from '@expo-google-fonts/noto-sans-cherokee/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansCherokee_100Thin](./NotoSansCherokee_100Thin.ttf.png)|![NotoSansCherokee_200ExtraLight](./NotoSansCherokee_200ExtraLight.ttf.png)|![NotoSansCherokee_300Light](./NotoSansCherokee_300Light.ttf.png)||
-|![NotoSansCherokee_400Regular](./NotoSansCherokee_400Regular.ttf.png)|![NotoSansCherokee_500Medium](./NotoSansCherokee_500Medium.ttf.png)|![NotoSansCherokee_600SemiBold](./NotoSansCherokee_600SemiBold.ttf.png)||
-|![NotoSansCherokee_700Bold](./NotoSansCherokee_700Bold.ttf.png)|![NotoSansCherokee_800ExtraBold](./NotoSansCherokee_800ExtraBold.ttf.png)|![NotoSansCherokee_900Black](./NotoSansCherokee_900Black.ttf.png)||
+|![NotoSansCherokee_100Thin](./100Thin/NotoSansCherokee_100Thin.ttf.png)|![NotoSansCherokee_200ExtraLight](./200ExtraLight/NotoSansCherokee_200ExtraLight.ttf.png)|![NotoSansCherokee_300Light](./300Light/NotoSansCherokee_300Light.ttf.png)||
+|![NotoSansCherokee_400Regular](./400Regular/NotoSansCherokee_400Regular.ttf.png)|![NotoSansCherokee_500Medium](./500Medium/NotoSansCherokee_500Medium.ttf.png)|![NotoSansCherokee_600SemiBold](./600SemiBold/NotoSansCherokee_600SemiBold.ttf.png)||
+|![NotoSansCherokee_700Bold](./700Bold/NotoSansCherokee_700Bold.ttf.png)|![NotoSansCherokee_800ExtraBold](./800ExtraBold/NotoSansCherokee_800ExtraBold.ttf.png)|![NotoSansCherokee_900Black](./900Black/NotoSansCherokee_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/averia-serif-libre expo-font expo-app-loading
+npx expo install @expo-google-fonts/averia-serif-libre expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, AveriaSerifLibre_300Light, AveriaSerifLibre_300Light_Italic, AveriaSerifLibre_400Regular, AveriaSerifLibre_400Regular_Italic, AveriaSerifLibre_700Bold, AveriaSerifLibre_700Bold_Italic } from '@expo-google-fonts/averia-serif-libre';
+import { useFonts } from '@expo-google-fonts/averia-serif-libre/useFonts';
+import { AveriaSerifLibre_300Light } from '@expo-google-fonts/averia-serif-libre/300Light';
+import { AveriaSerifLibre_300Light_Italic } from '@expo-google-fonts/averia-serif-libre/300Light_Italic';
+import { AveriaSerifLibre_400Regular } from '@expo-google-fonts/averia-serif-libre/400Regular';
+import { AveriaSerifLibre_400Regular_Italic } from '@expo-google-fonts/averia-serif-libre/400Regular_Italic';
+import { AveriaSerifLibre_700Bold } from '@expo-google-fonts/averia-serif-libre/700Bold';
+import { AveriaSerifLibre_700Bold_Italic } from '@expo-google-fonts/averia-serif-libre/700Bold_Italic';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AveriaSerifLibre_300Light](./AveriaSerifLibre_300Light.ttf.png)|![AveriaSerifLibre_300Light_Italic](./AveriaSerifLibre_300Light_Italic.ttf.png)|![AveriaSerifLibre_400Regular](./AveriaSerifLibre_400Regular.ttf.png)||
-|![AveriaSerifLibre_400Regular_Italic](./AveriaSerifLibre_400Regular_Italic.ttf.png)|![AveriaSerifLibre_700Bold](./AveriaSerifLibre_700Bold.ttf.png)|![AveriaSerifLibre_700Bold_Italic](./AveriaSerifLibre_700Bold_Italic.ttf.png)||
+|![AveriaSerifLibre_300Light](./300Light/AveriaSerifLibre_300Light.ttf.png)|![AveriaSerifLibre_300Light_Italic](./300Light_Italic/AveriaSerifLibre_300Light_Italic.ttf.png)|![AveriaSerifLibre_400Regular](./400Regular/AveriaSerifLibre_400Regular.ttf.png)||
+|![AveriaSerifLibre_400Regular_Italic](./400Regular_Italic/AveriaSerifLibre_400Regular_Italic.ttf.png)|![AveriaSerifLibre_700Bold](./700Bold/AveriaSerifLibre_700Bold.ttf.png)|![AveriaSerifLibre_700Bold_Italic](./700Bold_Italic/AveriaSerifLibre_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/caveat expo-font expo-app-loading
+npx expo install @expo-google-fonts/caveat expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Caveat_400Regular, Caveat_500Medium, Caveat_600SemiBold, Caveat_700Bold } from '@expo-google-fonts/caveat';
+import { useFonts } from '@expo-google-fonts/caveat/useFonts';
+import { Caveat_400Regular } from '@expo-google-fonts/caveat/400Regular';
+import { Caveat_500Medium } from '@expo-google-fonts/caveat/500Medium';
+import { Caveat_600SemiBold } from '@expo-google-fonts/caveat/600SemiBold';
+import { Caveat_700Bold } from '@expo-google-fonts/caveat/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Caveat_400Regular](./Caveat_400Regular.ttf.png)|![Caveat_500Medium](./Caveat_500Medium.ttf.png)|![Caveat_600SemiBold](./Caveat_600SemiBold.ttf.png)||
-|![Caveat_700Bold](./Caveat_700Bold.ttf.png)||||
+|![Caveat_400Regular](./400Regular/Caveat_400Regular.ttf.png)|![Caveat_500Medium](./500Medium/Caveat_500Medium.ttf.png)|![Caveat_600SemiBold](./600SemiBold/Caveat_600SemiBold.ttf.png)||
+|![Caveat_700Bold](./700Bold/Caveat_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

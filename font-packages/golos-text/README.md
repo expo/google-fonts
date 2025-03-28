@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/golos-text expo-font expo-app-loading
+npx expo install @expo-google-fonts/golos-text expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, GolosText_400Regular, GolosText_500Medium, GolosText_600SemiBold, GolosText_700Bold, GolosText_800ExtraBold, GolosText_900Black } from '@expo-google-fonts/golos-text';
+import { useFonts } from '@expo-google-fonts/golos-text/useFonts';
+import { GolosText_400Regular } from '@expo-google-fonts/golos-text/400Regular';
+import { GolosText_500Medium } from '@expo-google-fonts/golos-text/500Medium';
+import { GolosText_600SemiBold } from '@expo-google-fonts/golos-text/600SemiBold';
+import { GolosText_700Bold } from '@expo-google-fonts/golos-text/700Bold';
+import { GolosText_800ExtraBold } from '@expo-google-fonts/golos-text/800ExtraBold';
+import { GolosText_900Black } from '@expo-google-fonts/golos-text/900Black';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GolosText_400Regular](./GolosText_400Regular.ttf.png)|![GolosText_500Medium](./GolosText_500Medium.ttf.png)|![GolosText_600SemiBold](./GolosText_600SemiBold.ttf.png)||
-|![GolosText_700Bold](./GolosText_700Bold.ttf.png)|![GolosText_800ExtraBold](./GolosText_800ExtraBold.ttf.png)|![GolosText_900Black](./GolosText_900Black.ttf.png)||
+|![GolosText_400Regular](./400Regular/GolosText_400Regular.ttf.png)|![GolosText_500Medium](./500Medium/GolosText_500Medium.ttf.png)|![GolosText_600SemiBold](./600SemiBold/GolosText_600SemiBold.ttf.png)||
+|![GolosText_700Bold](./700Bold/GolosText_700Bold.ttf.png)|![GolosText_800ExtraBold](./800ExtraBold/GolosText_800ExtraBold.ttf.png)|![GolosText_900Black](./900Black/GolosText_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

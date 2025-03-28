@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/ibm-plex-sans-thai expo-font expo-app-loading
+npx expo install @expo-google-fonts/ibm-plex-sans-thai expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, IBMPlexSansThai_100Thin, IBMPlexSansThai_200ExtraLight, IBMPlexSansThai_300Light, IBMPlexSansThai_400Regular, IBMPlexSansThai_500Medium, IBMPlexSansThai_600SemiBold, IBMPlexSansThai_700Bold } from '@expo-google-fonts/ibm-plex-sans-thai';
+import { useFonts } from '@expo-google-fonts/ibm-plex-sans-thai/useFonts';
+import { IBMPlexSansThai_100Thin } from '@expo-google-fonts/ibm-plex-sans-thai/100Thin';
+import { IBMPlexSansThai_200ExtraLight } from '@expo-google-fonts/ibm-plex-sans-thai/200ExtraLight';
+import { IBMPlexSansThai_300Light } from '@expo-google-fonts/ibm-plex-sans-thai/300Light';
+import { IBMPlexSansThai_400Regular } from '@expo-google-fonts/ibm-plex-sans-thai/400Regular';
+import { IBMPlexSansThai_500Medium } from '@expo-google-fonts/ibm-plex-sans-thai/500Medium';
+import { IBMPlexSansThai_600SemiBold } from '@expo-google-fonts/ibm-plex-sans-thai/600SemiBold';
+import { IBMPlexSansThai_700Bold } from '@expo-google-fonts/ibm-plex-sans-thai/700Bold';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IBMPlexSansThai_100Thin](./IBMPlexSansThai_100Thin.ttf.png)|![IBMPlexSansThai_200ExtraLight](./IBMPlexSansThai_200ExtraLight.ttf.png)|![IBMPlexSansThai_300Light](./IBMPlexSansThai_300Light.ttf.png)||
-|![IBMPlexSansThai_400Regular](./IBMPlexSansThai_400Regular.ttf.png)|![IBMPlexSansThai_500Medium](./IBMPlexSansThai_500Medium.ttf.png)|![IBMPlexSansThai_600SemiBold](./IBMPlexSansThai_600SemiBold.ttf.png)||
-|![IBMPlexSansThai_700Bold](./IBMPlexSansThai_700Bold.ttf.png)||||
+|![IBMPlexSansThai_100Thin](./100Thin/IBMPlexSansThai_100Thin.ttf.png)|![IBMPlexSansThai_200ExtraLight](./200ExtraLight/IBMPlexSansThai_200ExtraLight.ttf.png)|![IBMPlexSansThai_300Light](./300Light/IBMPlexSansThai_300Light.ttf.png)||
+|![IBMPlexSansThai_400Regular](./400Regular/IBMPlexSansThai_400Regular.ttf.png)|![IBMPlexSansThai_500Medium](./500Medium/IBMPlexSansThai_500Medium.ttf.png)|![IBMPlexSansThai_600SemiBold](./600SemiBold/IBMPlexSansThai_600SemiBold.ttf.png)||
+|![IBMPlexSansThai_700Bold](./700Bold/IBMPlexSansThai_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/playwrite-ar expo-font expo-app-loading
+npx expo install @expo-google-fonts/playwrite-ar expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PlaywriteAR_100Thin, PlaywriteAR_200ExtraLight, PlaywriteAR_300Light, PlaywriteAR_400Regular } from '@expo-google-fonts/playwrite-ar';
+import { useFonts } from '@expo-google-fonts/playwrite-ar/useFonts';
+import { PlaywriteAR_100Thin } from '@expo-google-fonts/playwrite-ar/100Thin';
+import { PlaywriteAR_200ExtraLight } from '@expo-google-fonts/playwrite-ar/200ExtraLight';
+import { PlaywriteAR_300Light } from '@expo-google-fonts/playwrite-ar/300Light';
+import { PlaywriteAR_400Regular } from '@expo-google-fonts/playwrite-ar/400Regular';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteAR_100Thin](./PlaywriteAR_100Thin.ttf.png)|![PlaywriteAR_200ExtraLight](./PlaywriteAR_200ExtraLight.ttf.png)|![PlaywriteAR_300Light](./PlaywriteAR_300Light.ttf.png)||
-|![PlaywriteAR_400Regular](./PlaywriteAR_400Regular.ttf.png)||||
+|![PlaywriteAR_100Thin](./100Thin/PlaywriteAR_100Thin.ttf.png)|![PlaywriteAR_200ExtraLight](./200ExtraLight/PlaywriteAR_200ExtraLight.ttf.png)|![PlaywriteAR_300Light](./300Light/PlaywriteAR_300Light.ttf.png)||
+|![PlaywriteAR_400Regular](./400Regular/PlaywriteAR_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

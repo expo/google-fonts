@@ -1,9 +1,13 @@
 {
   "name": "@expo-google-fonts/afacad-flux",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Use the Afacad Flux font family from Google Fonts in your Expo app",
   "main": "index.js",
-  "repository": "https://github.com/expo/google-fonts.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/afacad-flux"
+  },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/afacad-flux#readme",
   "author": "Expo Team <team@expo.io>",
   "license": "MIT",

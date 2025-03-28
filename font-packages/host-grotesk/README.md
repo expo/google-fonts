@@ -31,7 +31,7 @@ This font family contains [12 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/host-grotesk expo-font expo-app-loading
+npx expo install @expo-google-fonts/host-grotesk expo-font
 ```
 
 Now add code like this to your project
@@ -40,8 +40,19 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, HostGrotesk_300Light, HostGrotesk_400Regular, HostGrotesk_500Medium, HostGrotesk_600SemiBold, HostGrotesk_700Bold, HostGrotesk_800ExtraBold, HostGrotesk_300Light_Italic, HostGrotesk_400Regular_Italic, HostGrotesk_500Medium_Italic, HostGrotesk_600SemiBold_Italic, HostGrotesk_700Bold_Italic, HostGrotesk_800ExtraBold_Italic } from '@expo-google-fonts/host-grotesk';
+import { useFonts } from '@expo-google-fonts/host-grotesk/useFonts';
+import { HostGrotesk_300Light } from '@expo-google-fonts/host-grotesk/300Light';
+import { HostGrotesk_400Regular } from '@expo-google-fonts/host-grotesk/400Regular';
+import { HostGrotesk_500Medium } from '@expo-google-fonts/host-grotesk/500Medium';
+import { HostGrotesk_600SemiBold } from '@expo-google-fonts/host-grotesk/600SemiBold';
+import { HostGrotesk_700Bold } from '@expo-google-fonts/host-grotesk/700Bold';
+import { HostGrotesk_800ExtraBold } from '@expo-google-fonts/host-grotesk/800ExtraBold';
+import { HostGrotesk_300Light_Italic } from '@expo-google-fonts/host-grotesk/300Light_Italic';
+import { HostGrotesk_400Regular_Italic } from '@expo-google-fonts/host-grotesk/400Regular_Italic';
+import { HostGrotesk_500Medium_Italic } from '@expo-google-fonts/host-grotesk/500Medium_Italic';
+import { HostGrotesk_600SemiBold_Italic } from '@expo-google-fonts/host-grotesk/600SemiBold_Italic';
+import { HostGrotesk_700Bold_Italic } from '@expo-google-fonts/host-grotesk/700Bold_Italic';
+import { HostGrotesk_800ExtraBold_Italic } from '@expo-google-fonts/host-grotesk/800ExtraBold_Italic';
 
 export default () => {
 
@@ -64,7 +75,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -175,10 +186,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![HostGrotesk_300Light](./HostGrotesk_300Light.ttf.png)|![HostGrotesk_400Regular](./HostGrotesk_400Regular.ttf.png)|![HostGrotesk_500Medium](./HostGrotesk_500Medium.ttf.png)||
-|![HostGrotesk_600SemiBold](./HostGrotesk_600SemiBold.ttf.png)|![HostGrotesk_700Bold](./HostGrotesk_700Bold.ttf.png)|![HostGrotesk_800ExtraBold](./HostGrotesk_800ExtraBold.ttf.png)||
-|![HostGrotesk_300Light_Italic](./HostGrotesk_300Light_Italic.ttf.png)|![HostGrotesk_400Regular_Italic](./HostGrotesk_400Regular_Italic.ttf.png)|![HostGrotesk_500Medium_Italic](./HostGrotesk_500Medium_Italic.ttf.png)||
-|![HostGrotesk_600SemiBold_Italic](./HostGrotesk_600SemiBold_Italic.ttf.png)|![HostGrotesk_700Bold_Italic](./HostGrotesk_700Bold_Italic.ttf.png)|![HostGrotesk_800ExtraBold_Italic](./HostGrotesk_800ExtraBold_Italic.ttf.png)||
+|![HostGrotesk_300Light](./300Light/HostGrotesk_300Light.ttf.png)|![HostGrotesk_400Regular](./400Regular/HostGrotesk_400Regular.ttf.png)|![HostGrotesk_500Medium](./500Medium/HostGrotesk_500Medium.ttf.png)||
+|![HostGrotesk_600SemiBold](./600SemiBold/HostGrotesk_600SemiBold.ttf.png)|![HostGrotesk_700Bold](./700Bold/HostGrotesk_700Bold.ttf.png)|![HostGrotesk_800ExtraBold](./800ExtraBold/HostGrotesk_800ExtraBold.ttf.png)||
+|![HostGrotesk_300Light_Italic](./300Light_Italic/HostGrotesk_300Light_Italic.ttf.png)|![HostGrotesk_400Regular_Italic](./400Regular_Italic/HostGrotesk_400Regular_Italic.ttf.png)|![HostGrotesk_500Medium_Italic](./500Medium_Italic/HostGrotesk_500Medium_Italic.ttf.png)||
+|![HostGrotesk_600SemiBold_Italic](./600SemiBold_Italic/HostGrotesk_600SemiBold_Italic.ttf.png)|![HostGrotesk_700Bold_Italic](./700Bold_Italic/HostGrotesk_700Bold_Italic.ttf.png)|![HostGrotesk_800ExtraBold_Italic](./800ExtraBold_Italic/HostGrotesk_800ExtraBold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

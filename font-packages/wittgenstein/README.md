@@ -31,7 +31,7 @@ This font family contains [12 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/wittgenstein expo-font expo-app-loading
+npx expo install @expo-google-fonts/wittgenstein expo-font
 ```
 
 Now add code like this to your project
@@ -40,8 +40,19 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Wittgenstein_400Regular, Wittgenstein_500Medium, Wittgenstein_600SemiBold, Wittgenstein_700Bold, Wittgenstein_800ExtraBold, Wittgenstein_900Black, Wittgenstein_400Regular_Italic, Wittgenstein_500Medium_Italic, Wittgenstein_600SemiBold_Italic, Wittgenstein_700Bold_Italic, Wittgenstein_800ExtraBold_Italic, Wittgenstein_900Black_Italic } from '@expo-google-fonts/wittgenstein';
+import { useFonts } from '@expo-google-fonts/wittgenstein/useFonts';
+import { Wittgenstein_400Regular } from '@expo-google-fonts/wittgenstein/400Regular';
+import { Wittgenstein_500Medium } from '@expo-google-fonts/wittgenstein/500Medium';
+import { Wittgenstein_600SemiBold } from '@expo-google-fonts/wittgenstein/600SemiBold';
+import { Wittgenstein_700Bold } from '@expo-google-fonts/wittgenstein/700Bold';
+import { Wittgenstein_800ExtraBold } from '@expo-google-fonts/wittgenstein/800ExtraBold';
+import { Wittgenstein_900Black } from '@expo-google-fonts/wittgenstein/900Black';
+import { Wittgenstein_400Regular_Italic } from '@expo-google-fonts/wittgenstein/400Regular_Italic';
+import { Wittgenstein_500Medium_Italic } from '@expo-google-fonts/wittgenstein/500Medium_Italic';
+import { Wittgenstein_600SemiBold_Italic } from '@expo-google-fonts/wittgenstein/600SemiBold_Italic';
+import { Wittgenstein_700Bold_Italic } from '@expo-google-fonts/wittgenstein/700Bold_Italic';
+import { Wittgenstein_800ExtraBold_Italic } from '@expo-google-fonts/wittgenstein/800ExtraBold_Italic';
+import { Wittgenstein_900Black_Italic } from '@expo-google-fonts/wittgenstein/900Black_Italic';
 
 export default () => {
 
@@ -64,7 +75,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -175,10 +186,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Wittgenstein_400Regular](./Wittgenstein_400Regular.ttf.png)|![Wittgenstein_500Medium](./Wittgenstein_500Medium.ttf.png)|![Wittgenstein_600SemiBold](./Wittgenstein_600SemiBold.ttf.png)||
-|![Wittgenstein_700Bold](./Wittgenstein_700Bold.ttf.png)|![Wittgenstein_800ExtraBold](./Wittgenstein_800ExtraBold.ttf.png)|![Wittgenstein_900Black](./Wittgenstein_900Black.ttf.png)||
-|![Wittgenstein_400Regular_Italic](./Wittgenstein_400Regular_Italic.ttf.png)|![Wittgenstein_500Medium_Italic](./Wittgenstein_500Medium_Italic.ttf.png)|![Wittgenstein_600SemiBold_Italic](./Wittgenstein_600SemiBold_Italic.ttf.png)||
-|![Wittgenstein_700Bold_Italic](./Wittgenstein_700Bold_Italic.ttf.png)|![Wittgenstein_800ExtraBold_Italic](./Wittgenstein_800ExtraBold_Italic.ttf.png)|![Wittgenstein_900Black_Italic](./Wittgenstein_900Black_Italic.ttf.png)||
+|![Wittgenstein_400Regular](./400Regular/Wittgenstein_400Regular.ttf.png)|![Wittgenstein_500Medium](./500Medium/Wittgenstein_500Medium.ttf.png)|![Wittgenstein_600SemiBold](./600SemiBold/Wittgenstein_600SemiBold.ttf.png)||
+|![Wittgenstein_700Bold](./700Bold/Wittgenstein_700Bold.ttf.png)|![Wittgenstein_800ExtraBold](./800ExtraBold/Wittgenstein_800ExtraBold.ttf.png)|![Wittgenstein_900Black](./900Black/Wittgenstein_900Black.ttf.png)||
+|![Wittgenstein_400Regular_Italic](./400Regular_Italic/Wittgenstein_400Regular_Italic.ttf.png)|![Wittgenstein_500Medium_Italic](./500Medium_Italic/Wittgenstein_500Medium_Italic.ttf.png)|![Wittgenstein_600SemiBold_Italic](./600SemiBold_Italic/Wittgenstein_600SemiBold_Italic.ttf.png)||
+|![Wittgenstein_700Bold_Italic](./700Bold_Italic/Wittgenstein_700Bold_Italic.ttf.png)|![Wittgenstein_800ExtraBold_Italic](./800ExtraBold_Italic/Wittgenstein_800ExtraBold_Italic.ttf.png)|![Wittgenstein_900Black_Italic](./900Black_Italic/Wittgenstein_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

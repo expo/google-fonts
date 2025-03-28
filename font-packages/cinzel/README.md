@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/cinzel expo-font expo-app-loading
+npx expo install @expo-google-fonts/cinzel expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Cinzel_400Regular, Cinzel_500Medium, Cinzel_600SemiBold, Cinzel_700Bold, Cinzel_800ExtraBold, Cinzel_900Black } from '@expo-google-fonts/cinzel';
+import { useFonts } from '@expo-google-fonts/cinzel/useFonts';
+import { Cinzel_400Regular } from '@expo-google-fonts/cinzel/400Regular';
+import { Cinzel_500Medium } from '@expo-google-fonts/cinzel/500Medium';
+import { Cinzel_600SemiBold } from '@expo-google-fonts/cinzel/600SemiBold';
+import { Cinzel_700Bold } from '@expo-google-fonts/cinzel/700Bold';
+import { Cinzel_800ExtraBold } from '@expo-google-fonts/cinzel/800ExtraBold';
+import { Cinzel_900Black } from '@expo-google-fonts/cinzel/900Black';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Cinzel_400Regular](./Cinzel_400Regular.ttf.png)|![Cinzel_500Medium](./Cinzel_500Medium.ttf.png)|![Cinzel_600SemiBold](./Cinzel_600SemiBold.ttf.png)||
-|![Cinzel_700Bold](./Cinzel_700Bold.ttf.png)|![Cinzel_800ExtraBold](./Cinzel_800ExtraBold.ttf.png)|![Cinzel_900Black](./Cinzel_900Black.ttf.png)||
+|![Cinzel_400Regular](./400Regular/Cinzel_400Regular.ttf.png)|![Cinzel_500Medium](./500Medium/Cinzel_500Medium.ttf.png)|![Cinzel_600SemiBold](./600SemiBold/Cinzel_600SemiBold.ttf.png)||
+|![Cinzel_700Bold](./700Bold/Cinzel_700Bold.ttf.png)|![Cinzel_800ExtraBold](./800ExtraBold/Cinzel_800ExtraBold.ttf.png)|![Cinzel_900Black](./900Black/Cinzel_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

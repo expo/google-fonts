@@ -22,7 +22,7 @@ This font family contains [3 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/belanosima expo-font expo-app-loading
+npx expo install @expo-google-fonts/belanosima expo-font
 ```
 
 Now add code like this to your project
@@ -31,8 +31,10 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Belanosima_400Regular, Belanosima_600SemiBold, Belanosima_700Bold } from '@expo-google-fonts/belanosima';
+import { useFonts } from '@expo-google-fonts/belanosima/useFonts';
+import { Belanosima_400Regular } from '@expo-google-fonts/belanosima/400Regular';
+import { Belanosima_600SemiBold } from '@expo-google-fonts/belanosima/600SemiBold';
+import { Belanosima_700Bold } from '@expo-google-fonts/belanosima/700Bold';
 
 export default () => {
 
@@ -46,7 +48,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -85,7 +87,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Belanosima_400Regular](./Belanosima_400Regular.ttf.png)|![Belanosima_600SemiBold](./Belanosima_600SemiBold.ttf.png)|![Belanosima_700Bold](./Belanosima_700Bold.ttf.png)||
+|![Belanosima_400Regular](./400Regular/Belanosima_400Regular.ttf.png)|![Belanosima_600SemiBold](./600SemiBold/Belanosima_600SemiBold.ttf.png)|![Belanosima_700Bold](./700Bold/Belanosima_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

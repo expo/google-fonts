@@ -22,7 +22,7 @@ This font family contains [3 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/amiko expo-font expo-app-loading
+npx expo install @expo-google-fonts/amiko expo-font
 ```
 
 Now add code like this to your project
@@ -31,8 +31,10 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Amiko_400Regular, Amiko_600SemiBold, Amiko_700Bold } from '@expo-google-fonts/amiko';
+import { useFonts } from '@expo-google-fonts/amiko/useFonts';
+import { Amiko_400Regular } from '@expo-google-fonts/amiko/400Regular';
+import { Amiko_600SemiBold } from '@expo-google-fonts/amiko/600SemiBold';
+import { Amiko_700Bold } from '@expo-google-fonts/amiko/700Bold';
 
 export default () => {
 
@@ -46,7 +48,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -85,7 +87,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Amiko_400Regular](./Amiko_400Regular.ttf.png)|![Amiko_600SemiBold](./Amiko_600SemiBold.ttf.png)|![Amiko_700Bold](./Amiko_700Bold.ttf.png)||
+|![Amiko_400Regular](./400Regular/Amiko_400Regular.ttf.png)|![Amiko_600SemiBold](./600SemiBold/Amiko_600SemiBold.ttf.png)|![Amiko_700Bold](./700Bold/Amiko_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

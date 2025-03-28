@@ -35,7 +35,7 @@ This font family contains [16 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/mona-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/mona-sans expo-font
 ```
 
 Now add code like this to your project
@@ -44,8 +44,23 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, MonaSans_200ExtraLight, MonaSans_300Light, MonaSans_400Regular, MonaSans_500Medium, MonaSans_600SemiBold, MonaSans_700Bold, MonaSans_800ExtraBold, MonaSans_900Black, MonaSans_200ExtraLight_Italic, MonaSans_300Light_Italic, MonaSans_400Regular_Italic, MonaSans_500Medium_Italic, MonaSans_600SemiBold_Italic, MonaSans_700Bold_Italic, MonaSans_800ExtraBold_Italic, MonaSans_900Black_Italic } from '@expo-google-fonts/mona-sans';
+import { useFonts } from '@expo-google-fonts/mona-sans/useFonts';
+import { MonaSans_200ExtraLight } from '@expo-google-fonts/mona-sans/200ExtraLight';
+import { MonaSans_300Light } from '@expo-google-fonts/mona-sans/300Light';
+import { MonaSans_400Regular } from '@expo-google-fonts/mona-sans/400Regular';
+import { MonaSans_500Medium } from '@expo-google-fonts/mona-sans/500Medium';
+import { MonaSans_600SemiBold } from '@expo-google-fonts/mona-sans/600SemiBold';
+import { MonaSans_700Bold } from '@expo-google-fonts/mona-sans/700Bold';
+import { MonaSans_800ExtraBold } from '@expo-google-fonts/mona-sans/800ExtraBold';
+import { MonaSans_900Black } from '@expo-google-fonts/mona-sans/900Black';
+import { MonaSans_200ExtraLight_Italic } from '@expo-google-fonts/mona-sans/200ExtraLight_Italic';
+import { MonaSans_300Light_Italic } from '@expo-google-fonts/mona-sans/300Light_Italic';
+import { MonaSans_400Regular_Italic } from '@expo-google-fonts/mona-sans/400Regular_Italic';
+import { MonaSans_500Medium_Italic } from '@expo-google-fonts/mona-sans/500Medium_Italic';
+import { MonaSans_600SemiBold_Italic } from '@expo-google-fonts/mona-sans/600SemiBold_Italic';
+import { MonaSans_700Bold_Italic } from '@expo-google-fonts/mona-sans/700Bold_Italic';
+import { MonaSans_800ExtraBold_Italic } from '@expo-google-fonts/mona-sans/800ExtraBold_Italic';
+import { MonaSans_900Black_Italic } from '@expo-google-fonts/mona-sans/900Black_Italic';
 
 export default () => {
 
@@ -72,7 +87,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -215,12 +230,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MonaSans_200ExtraLight](./MonaSans_200ExtraLight.ttf.png)|![MonaSans_300Light](./MonaSans_300Light.ttf.png)|![MonaSans_400Regular](./MonaSans_400Regular.ttf.png)||
-|![MonaSans_500Medium](./MonaSans_500Medium.ttf.png)|![MonaSans_600SemiBold](./MonaSans_600SemiBold.ttf.png)|![MonaSans_700Bold](./MonaSans_700Bold.ttf.png)||
-|![MonaSans_800ExtraBold](./MonaSans_800ExtraBold.ttf.png)|![MonaSans_900Black](./MonaSans_900Black.ttf.png)|![MonaSans_200ExtraLight_Italic](./MonaSans_200ExtraLight_Italic.ttf.png)||
-|![MonaSans_300Light_Italic](./MonaSans_300Light_Italic.ttf.png)|![MonaSans_400Regular_Italic](./MonaSans_400Regular_Italic.ttf.png)|![MonaSans_500Medium_Italic](./MonaSans_500Medium_Italic.ttf.png)||
-|![MonaSans_600SemiBold_Italic](./MonaSans_600SemiBold_Italic.ttf.png)|![MonaSans_700Bold_Italic](./MonaSans_700Bold_Italic.ttf.png)|![MonaSans_800ExtraBold_Italic](./MonaSans_800ExtraBold_Italic.ttf.png)||
-|![MonaSans_900Black_Italic](./MonaSans_900Black_Italic.ttf.png)||||
+|![MonaSans_200ExtraLight](./200ExtraLight/MonaSans_200ExtraLight.ttf.png)|![MonaSans_300Light](./300Light/MonaSans_300Light.ttf.png)|![MonaSans_400Regular](./400Regular/MonaSans_400Regular.ttf.png)||
+|![MonaSans_500Medium](./500Medium/MonaSans_500Medium.ttf.png)|![MonaSans_600SemiBold](./600SemiBold/MonaSans_600SemiBold.ttf.png)|![MonaSans_700Bold](./700Bold/MonaSans_700Bold.ttf.png)||
+|![MonaSans_800ExtraBold](./800ExtraBold/MonaSans_800ExtraBold.ttf.png)|![MonaSans_900Black](./900Black/MonaSans_900Black.ttf.png)|![MonaSans_200ExtraLight_Italic](./200ExtraLight_Italic/MonaSans_200ExtraLight_Italic.ttf.png)||
+|![MonaSans_300Light_Italic](./300Light_Italic/MonaSans_300Light_Italic.ttf.png)|![MonaSans_400Regular_Italic](./400Regular_Italic/MonaSans_400Regular_Italic.ttf.png)|![MonaSans_500Medium_Italic](./500Medium_Italic/MonaSans_500Medium_Italic.ttf.png)||
+|![MonaSans_600SemiBold_Italic](./600SemiBold_Italic/MonaSans_600SemiBold_Italic.ttf.png)|![MonaSans_700Bold_Italic](./700Bold_Italic/MonaSans_700Bold_Italic.ttf.png)|![MonaSans_800ExtraBold_Italic](./800ExtraBold_Italic/MonaSans_800ExtraBold_Italic.ttf.png)||
+|![MonaSans_900Black_Italic](./900Black_Italic/MonaSans_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

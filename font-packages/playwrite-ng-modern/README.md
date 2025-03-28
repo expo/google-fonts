@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/playwrite-ng-modern expo-font expo-app-loading
+npx expo install @expo-google-fonts/playwrite-ng-modern expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PlaywriteNGModern_100Thin, PlaywriteNGModern_200ExtraLight, PlaywriteNGModern_300Light, PlaywriteNGModern_400Regular } from '@expo-google-fonts/playwrite-ng-modern';
+import { useFonts } from '@expo-google-fonts/playwrite-ng-modern/useFonts';
+import { PlaywriteNGModern_100Thin } from '@expo-google-fonts/playwrite-ng-modern/100Thin';
+import { PlaywriteNGModern_200ExtraLight } from '@expo-google-fonts/playwrite-ng-modern/200ExtraLight';
+import { PlaywriteNGModern_300Light } from '@expo-google-fonts/playwrite-ng-modern/300Light';
+import { PlaywriteNGModern_400Regular } from '@expo-google-fonts/playwrite-ng-modern/400Regular';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteNGModern_100Thin](./PlaywriteNGModern_100Thin.ttf.png)|![PlaywriteNGModern_200ExtraLight](./PlaywriteNGModern_200ExtraLight.ttf.png)|![PlaywriteNGModern_300Light](./PlaywriteNGModern_300Light.ttf.png)||
-|![PlaywriteNGModern_400Regular](./PlaywriteNGModern_400Regular.ttf.png)||||
+|![PlaywriteNGModern_100Thin](./100Thin/PlaywriteNGModern_100Thin.ttf.png)|![PlaywriteNGModern_200ExtraLight](./200ExtraLight/PlaywriteNGModern_200ExtraLight.ttf.png)|![PlaywriteNGModern_300Light](./300Light/PlaywriteNGModern_300Light.ttf.png)||
+|![PlaywriteNGModern_400Regular](./400Regular/PlaywriteNGModern_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

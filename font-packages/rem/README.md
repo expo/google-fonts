@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/rem expo-font expo-app-loading
+npx expo install @expo-google-fonts/rem expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, REM_100Thin, REM_200ExtraLight, REM_300Light, REM_400Regular, REM_500Medium, REM_600SemiBold, REM_700Bold, REM_800ExtraBold, REM_900Black, REM_100Thin_Italic, REM_200ExtraLight_Italic, REM_300Light_Italic, REM_400Regular_Italic, REM_500Medium_Italic, REM_600SemiBold_Italic, REM_700Bold_Italic, REM_800ExtraBold_Italic, REM_900Black_Italic } from '@expo-google-fonts/rem';
+import { useFonts } from '@expo-google-fonts/rem/useFonts';
+import { REM_100Thin } from '@expo-google-fonts/rem/100Thin';
+import { REM_200ExtraLight } from '@expo-google-fonts/rem/200ExtraLight';
+import { REM_300Light } from '@expo-google-fonts/rem/300Light';
+import { REM_400Regular } from '@expo-google-fonts/rem/400Regular';
+import { REM_500Medium } from '@expo-google-fonts/rem/500Medium';
+import { REM_600SemiBold } from '@expo-google-fonts/rem/600SemiBold';
+import { REM_700Bold } from '@expo-google-fonts/rem/700Bold';
+import { REM_800ExtraBold } from '@expo-google-fonts/rem/800ExtraBold';
+import { REM_900Black } from '@expo-google-fonts/rem/900Black';
+import { REM_100Thin_Italic } from '@expo-google-fonts/rem/100Thin_Italic';
+import { REM_200ExtraLight_Italic } from '@expo-google-fonts/rem/200ExtraLight_Italic';
+import { REM_300Light_Italic } from '@expo-google-fonts/rem/300Light_Italic';
+import { REM_400Regular_Italic } from '@expo-google-fonts/rem/400Regular_Italic';
+import { REM_500Medium_Italic } from '@expo-google-fonts/rem/500Medium_Italic';
+import { REM_600SemiBold_Italic } from '@expo-google-fonts/rem/600SemiBold_Italic';
+import { REM_700Bold_Italic } from '@expo-google-fonts/rem/700Bold_Italic';
+import { REM_800ExtraBold_Italic } from '@expo-google-fonts/rem/800ExtraBold_Italic';
+import { REM_900Black_Italic } from '@expo-google-fonts/rem/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![REM_100Thin](./REM_100Thin.ttf.png)|![REM_200ExtraLight](./REM_200ExtraLight.ttf.png)|![REM_300Light](./REM_300Light.ttf.png)||
-|![REM_400Regular](./REM_400Regular.ttf.png)|![REM_500Medium](./REM_500Medium.ttf.png)|![REM_600SemiBold](./REM_600SemiBold.ttf.png)||
-|![REM_700Bold](./REM_700Bold.ttf.png)|![REM_800ExtraBold](./REM_800ExtraBold.ttf.png)|![REM_900Black](./REM_900Black.ttf.png)||
-|![REM_100Thin_Italic](./REM_100Thin_Italic.ttf.png)|![REM_200ExtraLight_Italic](./REM_200ExtraLight_Italic.ttf.png)|![REM_300Light_Italic](./REM_300Light_Italic.ttf.png)||
-|![REM_400Regular_Italic](./REM_400Regular_Italic.ttf.png)|![REM_500Medium_Italic](./REM_500Medium_Italic.ttf.png)|![REM_600SemiBold_Italic](./REM_600SemiBold_Italic.ttf.png)||
-|![REM_700Bold_Italic](./REM_700Bold_Italic.ttf.png)|![REM_800ExtraBold_Italic](./REM_800ExtraBold_Italic.ttf.png)|![REM_900Black_Italic](./REM_900Black_Italic.ttf.png)||
+|![REM_100Thin](./100Thin/REM_100Thin.ttf.png)|![REM_200ExtraLight](./200ExtraLight/REM_200ExtraLight.ttf.png)|![REM_300Light](./300Light/REM_300Light.ttf.png)||
+|![REM_400Regular](./400Regular/REM_400Regular.ttf.png)|![REM_500Medium](./500Medium/REM_500Medium.ttf.png)|![REM_600SemiBold](./600SemiBold/REM_600SemiBold.ttf.png)||
+|![REM_700Bold](./700Bold/REM_700Bold.ttf.png)|![REM_800ExtraBold](./800ExtraBold/REM_800ExtraBold.ttf.png)|![REM_900Black](./900Black/REM_900Black.ttf.png)||
+|![REM_100Thin_Italic](./100Thin_Italic/REM_100Thin_Italic.ttf.png)|![REM_200ExtraLight_Italic](./200ExtraLight_Italic/REM_200ExtraLight_Italic.ttf.png)|![REM_300Light_Italic](./300Light_Italic/REM_300Light_Italic.ttf.png)||
+|![REM_400Regular_Italic](./400Regular_Italic/REM_400Regular_Italic.ttf.png)|![REM_500Medium_Italic](./500Medium_Italic/REM_500Medium_Italic.ttf.png)|![REM_600SemiBold_Italic](./600SemiBold_Italic/REM_600SemiBold_Italic.ttf.png)||
+|![REM_700Bold_Italic](./700Bold_Italic/REM_700Bold_Italic.ttf.png)|![REM_800ExtraBold_Italic](./800ExtraBold_Italic/REM_800ExtraBold_Italic.ttf.png)|![REM_900Black_Italic](./900Black_Italic/REM_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

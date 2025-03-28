@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-tai-tham expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-tai-tham expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansTaiTham_400Regular, NotoSansTaiTham_500Medium, NotoSansTaiTham_600SemiBold, NotoSansTaiTham_700Bold } from '@expo-google-fonts/noto-sans-tai-tham';
+import { useFonts } from '@expo-google-fonts/noto-sans-tai-tham/useFonts';
+import { NotoSansTaiTham_400Regular } from '@expo-google-fonts/noto-sans-tai-tham/400Regular';
+import { NotoSansTaiTham_500Medium } from '@expo-google-fonts/noto-sans-tai-tham/500Medium';
+import { NotoSansTaiTham_600SemiBold } from '@expo-google-fonts/noto-sans-tai-tham/600SemiBold';
+import { NotoSansTaiTham_700Bold } from '@expo-google-fonts/noto-sans-tai-tham/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansTaiTham_400Regular](./NotoSansTaiTham_400Regular.ttf.png)|![NotoSansTaiTham_500Medium](./NotoSansTaiTham_500Medium.ttf.png)|![NotoSansTaiTham_600SemiBold](./NotoSansTaiTham_600SemiBold.ttf.png)||
-|![NotoSansTaiTham_700Bold](./NotoSansTaiTham_700Bold.ttf.png)||||
+|![NotoSansTaiTham_400Regular](./400Regular/NotoSansTaiTham_400Regular.ttf.png)|![NotoSansTaiTham_500Medium](./500Medium/NotoSansTaiTham_500Medium.ttf.png)|![NotoSansTaiTham_600SemiBold](./600SemiBold/NotoSansTaiTham_600SemiBold.ttf.png)||
+|![NotoSansTaiTham_700Bold](./700Bold/NotoSansTaiTham_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

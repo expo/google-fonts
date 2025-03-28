@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/sansita-swashed expo-font expo-app-loading
+npx expo install @expo-google-fonts/sansita-swashed expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, SansitaSwashed_300Light, SansitaSwashed_400Regular, SansitaSwashed_500Medium, SansitaSwashed_600SemiBold, SansitaSwashed_700Bold, SansitaSwashed_800ExtraBold, SansitaSwashed_900Black } from '@expo-google-fonts/sansita-swashed';
+import { useFonts } from '@expo-google-fonts/sansita-swashed/useFonts';
+import { SansitaSwashed_300Light } from '@expo-google-fonts/sansita-swashed/300Light';
+import { SansitaSwashed_400Regular } from '@expo-google-fonts/sansita-swashed/400Regular';
+import { SansitaSwashed_500Medium } from '@expo-google-fonts/sansita-swashed/500Medium';
+import { SansitaSwashed_600SemiBold } from '@expo-google-fonts/sansita-swashed/600SemiBold';
+import { SansitaSwashed_700Bold } from '@expo-google-fonts/sansita-swashed/700Bold';
+import { SansitaSwashed_800ExtraBold } from '@expo-google-fonts/sansita-swashed/800ExtraBold';
+import { SansitaSwashed_900Black } from '@expo-google-fonts/sansita-swashed/900Black';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SansitaSwashed_300Light](./SansitaSwashed_300Light.ttf.png)|![SansitaSwashed_400Regular](./SansitaSwashed_400Regular.ttf.png)|![SansitaSwashed_500Medium](./SansitaSwashed_500Medium.ttf.png)||
-|![SansitaSwashed_600SemiBold](./SansitaSwashed_600SemiBold.ttf.png)|![SansitaSwashed_700Bold](./SansitaSwashed_700Bold.ttf.png)|![SansitaSwashed_800ExtraBold](./SansitaSwashed_800ExtraBold.ttf.png)||
-|![SansitaSwashed_900Black](./SansitaSwashed_900Black.ttf.png)||||
+|![SansitaSwashed_300Light](./300Light/SansitaSwashed_300Light.ttf.png)|![SansitaSwashed_400Regular](./400Regular/SansitaSwashed_400Regular.ttf.png)|![SansitaSwashed_500Medium](./500Medium/SansitaSwashed_500Medium.ttf.png)||
+|![SansitaSwashed_600SemiBold](./600SemiBold/SansitaSwashed_600SemiBold.ttf.png)|![SansitaSwashed_700Bold](./700Bold/SansitaSwashed_700Bold.ttf.png)|![SansitaSwashed_800ExtraBold](./800ExtraBold/SansitaSwashed_800ExtraBold.ttf.png)||
+|![SansitaSwashed_900Black](./900Black/SansitaSwashed_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

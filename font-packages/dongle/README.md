@@ -22,7 +22,7 @@ This font family contains [3 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/dongle expo-font expo-app-loading
+npx expo install @expo-google-fonts/dongle expo-font
 ```
 
 Now add code like this to your project
@@ -31,8 +31,10 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Dongle_300Light, Dongle_400Regular, Dongle_700Bold } from '@expo-google-fonts/dongle';
+import { useFonts } from '@expo-google-fonts/dongle/useFonts';
+import { Dongle_300Light } from '@expo-google-fonts/dongle/300Light';
+import { Dongle_400Regular } from '@expo-google-fonts/dongle/400Regular';
+import { Dongle_700Bold } from '@expo-google-fonts/dongle/700Bold';
 
 export default () => {
 
@@ -46,7 +48,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -85,7 +87,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Dongle_300Light](./Dongle_300Light.ttf.png)|![Dongle_400Regular](./Dongle_400Regular.ttf.png)|![Dongle_700Bold](./Dongle_700Bold.ttf.png)||
+|![Dongle_300Light](./300Light/Dongle_300Light.ttf.png)|![Dongle_400Regular](./400Regular/Dongle_400Regular.ttf.png)|![Dongle_700Bold](./700Bold/Dongle_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -29,7 +29,7 @@ This font family contains [10 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/andada-pro expo-font expo-app-loading
+npx expo install @expo-google-fonts/andada-pro expo-font
 ```
 
 Now add code like this to your project
@@ -38,8 +38,17 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, AndadaPro_400Regular, AndadaPro_500Medium, AndadaPro_600SemiBold, AndadaPro_700Bold, AndadaPro_800ExtraBold, AndadaPro_400Regular_Italic, AndadaPro_500Medium_Italic, AndadaPro_600SemiBold_Italic, AndadaPro_700Bold_Italic, AndadaPro_800ExtraBold_Italic } from '@expo-google-fonts/andada-pro';
+import { useFonts } from '@expo-google-fonts/andada-pro/useFonts';
+import { AndadaPro_400Regular } from '@expo-google-fonts/andada-pro/400Regular';
+import { AndadaPro_500Medium } from '@expo-google-fonts/andada-pro/500Medium';
+import { AndadaPro_600SemiBold } from '@expo-google-fonts/andada-pro/600SemiBold';
+import { AndadaPro_700Bold } from '@expo-google-fonts/andada-pro/700Bold';
+import { AndadaPro_800ExtraBold } from '@expo-google-fonts/andada-pro/800ExtraBold';
+import { AndadaPro_400Regular_Italic } from '@expo-google-fonts/andada-pro/400Regular_Italic';
+import { AndadaPro_500Medium_Italic } from '@expo-google-fonts/andada-pro/500Medium_Italic';
+import { AndadaPro_600SemiBold_Italic } from '@expo-google-fonts/andada-pro/600SemiBold_Italic';
+import { AndadaPro_700Bold_Italic } from '@expo-google-fonts/andada-pro/700Bold_Italic';
+import { AndadaPro_800ExtraBold_Italic } from '@expo-google-fonts/andada-pro/800ExtraBold_Italic';
 
 export default () => {
 
@@ -60,7 +69,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -155,10 +164,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AndadaPro_400Regular](./AndadaPro_400Regular.ttf.png)|![AndadaPro_500Medium](./AndadaPro_500Medium.ttf.png)|![AndadaPro_600SemiBold](./AndadaPro_600SemiBold.ttf.png)||
-|![AndadaPro_700Bold](./AndadaPro_700Bold.ttf.png)|![AndadaPro_800ExtraBold](./AndadaPro_800ExtraBold.ttf.png)|![AndadaPro_400Regular_Italic](./AndadaPro_400Regular_Italic.ttf.png)||
-|![AndadaPro_500Medium_Italic](./AndadaPro_500Medium_Italic.ttf.png)|![AndadaPro_600SemiBold_Italic](./AndadaPro_600SemiBold_Italic.ttf.png)|![AndadaPro_700Bold_Italic](./AndadaPro_700Bold_Italic.ttf.png)||
-|![AndadaPro_800ExtraBold_Italic](./AndadaPro_800ExtraBold_Italic.ttf.png)||||
+|![AndadaPro_400Regular](./400Regular/AndadaPro_400Regular.ttf.png)|![AndadaPro_500Medium](./500Medium/AndadaPro_500Medium.ttf.png)|![AndadaPro_600SemiBold](./600SemiBold/AndadaPro_600SemiBold.ttf.png)||
+|![AndadaPro_700Bold](./700Bold/AndadaPro_700Bold.ttf.png)|![AndadaPro_800ExtraBold](./800ExtraBold/AndadaPro_800ExtraBold.ttf.png)|![AndadaPro_400Regular_Italic](./400Regular_Italic/AndadaPro_400Regular_Italic.ttf.png)||
+|![AndadaPro_500Medium_Italic](./500Medium_Italic/AndadaPro_500Medium_Italic.ttf.png)|![AndadaPro_600SemiBold_Italic](./600SemiBold_Italic/AndadaPro_600SemiBold_Italic.ttf.png)|![AndadaPro_700Bold_Italic](./700Bold_Italic/AndadaPro_700Bold_Italic.ttf.png)||
+|![AndadaPro_800ExtraBold_Italic](./800ExtraBold_Italic/AndadaPro_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-tamil expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-tamil expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansTamil_100Thin, NotoSansTamil_200ExtraLight, NotoSansTamil_300Light, NotoSansTamil_400Regular, NotoSansTamil_500Medium, NotoSansTamil_600SemiBold, NotoSansTamil_700Bold, NotoSansTamil_800ExtraBold, NotoSansTamil_900Black } from '@expo-google-fonts/noto-sans-tamil';
+import { useFonts } from '@expo-google-fonts/noto-sans-tamil/useFonts';
+import { NotoSansTamil_100Thin } from '@expo-google-fonts/noto-sans-tamil/100Thin';
+import { NotoSansTamil_200ExtraLight } from '@expo-google-fonts/noto-sans-tamil/200ExtraLight';
+import { NotoSansTamil_300Light } from '@expo-google-fonts/noto-sans-tamil/300Light';
+import { NotoSansTamil_400Regular } from '@expo-google-fonts/noto-sans-tamil/400Regular';
+import { NotoSansTamil_500Medium } from '@expo-google-fonts/noto-sans-tamil/500Medium';
+import { NotoSansTamil_600SemiBold } from '@expo-google-fonts/noto-sans-tamil/600SemiBold';
+import { NotoSansTamil_700Bold } from '@expo-google-fonts/noto-sans-tamil/700Bold';
+import { NotoSansTamil_800ExtraBold } from '@expo-google-fonts/noto-sans-tamil/800ExtraBold';
+import { NotoSansTamil_900Black } from '@expo-google-fonts/noto-sans-tamil/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansTamil_100Thin](./NotoSansTamil_100Thin.ttf.png)|![NotoSansTamil_200ExtraLight](./NotoSansTamil_200ExtraLight.ttf.png)|![NotoSansTamil_300Light](./NotoSansTamil_300Light.ttf.png)||
-|![NotoSansTamil_400Regular](./NotoSansTamil_400Regular.ttf.png)|![NotoSansTamil_500Medium](./NotoSansTamil_500Medium.ttf.png)|![NotoSansTamil_600SemiBold](./NotoSansTamil_600SemiBold.ttf.png)||
-|![NotoSansTamil_700Bold](./NotoSansTamil_700Bold.ttf.png)|![NotoSansTamil_800ExtraBold](./NotoSansTamil_800ExtraBold.ttf.png)|![NotoSansTamil_900Black](./NotoSansTamil_900Black.ttf.png)||
+|![NotoSansTamil_100Thin](./100Thin/NotoSansTamil_100Thin.ttf.png)|![NotoSansTamil_200ExtraLight](./200ExtraLight/NotoSansTamil_200ExtraLight.ttf.png)|![NotoSansTamil_300Light](./300Light/NotoSansTamil_300Light.ttf.png)||
+|![NotoSansTamil_400Regular](./400Regular/NotoSansTamil_400Regular.ttf.png)|![NotoSansTamil_500Medium](./500Medium/NotoSansTamil_500Medium.ttf.png)|![NotoSansTamil_600SemiBold](./600SemiBold/NotoSansTamil_600SemiBold.ttf.png)||
+|![NotoSansTamil_700Bold](./700Bold/NotoSansTamil_700Bold.ttf.png)|![NotoSansTamil_800ExtraBold](./800ExtraBold/NotoSansTamil_800ExtraBold.ttf.png)|![NotoSansTamil_900Black](./900Black/NotoSansTamil_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

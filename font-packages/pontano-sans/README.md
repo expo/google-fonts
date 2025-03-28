@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/pontano-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/pontano-sans expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PontanoSans_300Light, PontanoSans_400Regular, PontanoSans_500Medium, PontanoSans_600SemiBold, PontanoSans_700Bold } from '@expo-google-fonts/pontano-sans';
+import { useFonts } from '@expo-google-fonts/pontano-sans/useFonts';
+import { PontanoSans_300Light } from '@expo-google-fonts/pontano-sans/300Light';
+import { PontanoSans_400Regular } from '@expo-google-fonts/pontano-sans/400Regular';
+import { PontanoSans_500Medium } from '@expo-google-fonts/pontano-sans/500Medium';
+import { PontanoSans_600SemiBold } from '@expo-google-fonts/pontano-sans/600SemiBold';
+import { PontanoSans_700Bold } from '@expo-google-fonts/pontano-sans/700Bold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PontanoSans_300Light](./PontanoSans_300Light.ttf.png)|![PontanoSans_400Regular](./PontanoSans_400Regular.ttf.png)|![PontanoSans_500Medium](./PontanoSans_500Medium.ttf.png)||
-|![PontanoSans_600SemiBold](./PontanoSans_600SemiBold.ttf.png)|![PontanoSans_700Bold](./PontanoSans_700Bold.ttf.png)|||
+|![PontanoSans_300Light](./300Light/PontanoSans_300Light.ttf.png)|![PontanoSans_400Regular](./400Regular/PontanoSans_400Regular.ttf.png)|![PontanoSans_500Medium](./500Medium/PontanoSans_500Medium.ttf.png)||
+|![PontanoSans_600SemiBold](./600SemiBold/PontanoSans_600SemiBold.ttf.png)|![PontanoSans_700Bold](./700Bold/PontanoSans_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

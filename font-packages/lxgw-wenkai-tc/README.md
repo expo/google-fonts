@@ -22,7 +22,7 @@ This font family contains [3 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/lxgw-wenkai-tc expo-font expo-app-loading
+npx expo install @expo-google-fonts/lxgw-wenkai-tc expo-font
 ```
 
 Now add code like this to your project
@@ -31,8 +31,10 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, LXGWWenKaiTC_300Light, LXGWWenKaiTC_400Regular, LXGWWenKaiTC_700Bold } from '@expo-google-fonts/lxgw-wenkai-tc';
+import { useFonts } from '@expo-google-fonts/lxgw-wenkai-tc/useFonts';
+import { LXGWWenKaiTC_300Light } from '@expo-google-fonts/lxgw-wenkai-tc/300Light';
+import { LXGWWenKaiTC_400Regular } from '@expo-google-fonts/lxgw-wenkai-tc/400Regular';
+import { LXGWWenKaiTC_700Bold } from '@expo-google-fonts/lxgw-wenkai-tc/700Bold';
 
 export default () => {
 
@@ -46,7 +48,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -85,7 +87,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LXGWWenKaiTC_300Light](./LXGWWenKaiTC_300Light.ttf.png)|![LXGWWenKaiTC_400Regular](./LXGWWenKaiTC_400Regular.ttf.png)|![LXGWWenKaiTC_700Bold](./LXGWWenKaiTC_700Bold.ttf.png)||
+|![LXGWWenKaiTC_300Light](./300Light/LXGWWenKaiTC_300Light.ttf.png)|![LXGWWenKaiTC_400Regular](./400Regular/LXGWWenKaiTC_400Regular.ttf.png)|![LXGWWenKaiTC_700Bold](./700Bold/LXGWWenKaiTC_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

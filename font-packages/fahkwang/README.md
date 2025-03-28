@@ -31,7 +31,7 @@ This font family contains [12 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/fahkwang expo-font expo-app-loading
+npx expo install @expo-google-fonts/fahkwang expo-font
 ```
 
 Now add code like this to your project
@@ -40,8 +40,19 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Fahkwang_200ExtraLight, Fahkwang_200ExtraLight_Italic, Fahkwang_300Light, Fahkwang_300Light_Italic, Fahkwang_400Regular, Fahkwang_400Regular_Italic, Fahkwang_500Medium, Fahkwang_500Medium_Italic, Fahkwang_600SemiBold, Fahkwang_600SemiBold_Italic, Fahkwang_700Bold, Fahkwang_700Bold_Italic } from '@expo-google-fonts/fahkwang';
+import { useFonts } from '@expo-google-fonts/fahkwang/useFonts';
+import { Fahkwang_200ExtraLight } from '@expo-google-fonts/fahkwang/200ExtraLight';
+import { Fahkwang_200ExtraLight_Italic } from '@expo-google-fonts/fahkwang/200ExtraLight_Italic';
+import { Fahkwang_300Light } from '@expo-google-fonts/fahkwang/300Light';
+import { Fahkwang_300Light_Italic } from '@expo-google-fonts/fahkwang/300Light_Italic';
+import { Fahkwang_400Regular } from '@expo-google-fonts/fahkwang/400Regular';
+import { Fahkwang_400Regular_Italic } from '@expo-google-fonts/fahkwang/400Regular_Italic';
+import { Fahkwang_500Medium } from '@expo-google-fonts/fahkwang/500Medium';
+import { Fahkwang_500Medium_Italic } from '@expo-google-fonts/fahkwang/500Medium_Italic';
+import { Fahkwang_600SemiBold } from '@expo-google-fonts/fahkwang/600SemiBold';
+import { Fahkwang_600SemiBold_Italic } from '@expo-google-fonts/fahkwang/600SemiBold_Italic';
+import { Fahkwang_700Bold } from '@expo-google-fonts/fahkwang/700Bold';
+import { Fahkwang_700Bold_Italic } from '@expo-google-fonts/fahkwang/700Bold_Italic';
 
 export default () => {
 
@@ -64,7 +75,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -175,10 +186,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Fahkwang_200ExtraLight](./Fahkwang_200ExtraLight.ttf.png)|![Fahkwang_200ExtraLight_Italic](./Fahkwang_200ExtraLight_Italic.ttf.png)|![Fahkwang_300Light](./Fahkwang_300Light.ttf.png)||
-|![Fahkwang_300Light_Italic](./Fahkwang_300Light_Italic.ttf.png)|![Fahkwang_400Regular](./Fahkwang_400Regular.ttf.png)|![Fahkwang_400Regular_Italic](./Fahkwang_400Regular_Italic.ttf.png)||
-|![Fahkwang_500Medium](./Fahkwang_500Medium.ttf.png)|![Fahkwang_500Medium_Italic](./Fahkwang_500Medium_Italic.ttf.png)|![Fahkwang_600SemiBold](./Fahkwang_600SemiBold.ttf.png)||
-|![Fahkwang_600SemiBold_Italic](./Fahkwang_600SemiBold_Italic.ttf.png)|![Fahkwang_700Bold](./Fahkwang_700Bold.ttf.png)|![Fahkwang_700Bold_Italic](./Fahkwang_700Bold_Italic.ttf.png)||
+|![Fahkwang_200ExtraLight](./200ExtraLight/Fahkwang_200ExtraLight.ttf.png)|![Fahkwang_200ExtraLight_Italic](./200ExtraLight_Italic/Fahkwang_200ExtraLight_Italic.ttf.png)|![Fahkwang_300Light](./300Light/Fahkwang_300Light.ttf.png)||
+|![Fahkwang_300Light_Italic](./300Light_Italic/Fahkwang_300Light_Italic.ttf.png)|![Fahkwang_400Regular](./400Regular/Fahkwang_400Regular.ttf.png)|![Fahkwang_400Regular_Italic](./400Regular_Italic/Fahkwang_400Regular_Italic.ttf.png)||
+|![Fahkwang_500Medium](./500Medium/Fahkwang_500Medium.ttf.png)|![Fahkwang_500Medium_Italic](./500Medium_Italic/Fahkwang_500Medium_Italic.ttf.png)|![Fahkwang_600SemiBold](./600SemiBold/Fahkwang_600SemiBold.ttf.png)||
+|![Fahkwang_600SemiBold_Italic](./600SemiBold_Italic/Fahkwang_600SemiBold_Italic.ttf.png)|![Fahkwang_700Bold](./700Bold/Fahkwang_700Bold.ttf.png)|![Fahkwang_700Bold_Italic](./700Bold_Italic/Fahkwang_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

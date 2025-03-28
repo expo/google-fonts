@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/parkinsans expo-font expo-app-loading
+npx expo install @expo-google-fonts/parkinsans expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Parkinsans_300Light, Parkinsans_400Regular, Parkinsans_500Medium, Parkinsans_600SemiBold, Parkinsans_700Bold, Parkinsans_800ExtraBold } from '@expo-google-fonts/parkinsans';
+import { useFonts } from '@expo-google-fonts/parkinsans/useFonts';
+import { Parkinsans_300Light } from '@expo-google-fonts/parkinsans/300Light';
+import { Parkinsans_400Regular } from '@expo-google-fonts/parkinsans/400Regular';
+import { Parkinsans_500Medium } from '@expo-google-fonts/parkinsans/500Medium';
+import { Parkinsans_600SemiBold } from '@expo-google-fonts/parkinsans/600SemiBold';
+import { Parkinsans_700Bold } from '@expo-google-fonts/parkinsans/700Bold';
+import { Parkinsans_800ExtraBold } from '@expo-google-fonts/parkinsans/800ExtraBold';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Parkinsans_300Light](./Parkinsans_300Light.ttf.png)|![Parkinsans_400Regular](./Parkinsans_400Regular.ttf.png)|![Parkinsans_500Medium](./Parkinsans_500Medium.ttf.png)||
-|![Parkinsans_600SemiBold](./Parkinsans_600SemiBold.ttf.png)|![Parkinsans_700Bold](./Parkinsans_700Bold.ttf.png)|![Parkinsans_800ExtraBold](./Parkinsans_800ExtraBold.ttf.png)||
+|![Parkinsans_300Light](./300Light/Parkinsans_300Light.ttf.png)|![Parkinsans_400Regular](./400Regular/Parkinsans_400Regular.ttf.png)|![Parkinsans_500Medium](./500Medium/Parkinsans_500Medium.ttf.png)||
+|![Parkinsans_600SemiBold](./600SemiBold/Parkinsans_600SemiBold.ttf.png)|![Parkinsans_700Bold](./700Bold/Parkinsans_700Bold.ttf.png)|![Parkinsans_800ExtraBold](./800ExtraBold/Parkinsans_800ExtraBold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

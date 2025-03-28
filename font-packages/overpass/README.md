@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/overpass expo-font expo-app-loading
+npx expo install @expo-google-fonts/overpass expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Overpass_100Thin, Overpass_200ExtraLight, Overpass_300Light, Overpass_400Regular, Overpass_500Medium, Overpass_600SemiBold, Overpass_700Bold, Overpass_800ExtraBold, Overpass_900Black, Overpass_100Thin_Italic, Overpass_200ExtraLight_Italic, Overpass_300Light_Italic, Overpass_400Regular_Italic, Overpass_500Medium_Italic, Overpass_600SemiBold_Italic, Overpass_700Bold_Italic, Overpass_800ExtraBold_Italic, Overpass_900Black_Italic } from '@expo-google-fonts/overpass';
+import { useFonts } from '@expo-google-fonts/overpass/useFonts';
+import { Overpass_100Thin } from '@expo-google-fonts/overpass/100Thin';
+import { Overpass_200ExtraLight } from '@expo-google-fonts/overpass/200ExtraLight';
+import { Overpass_300Light } from '@expo-google-fonts/overpass/300Light';
+import { Overpass_400Regular } from '@expo-google-fonts/overpass/400Regular';
+import { Overpass_500Medium } from '@expo-google-fonts/overpass/500Medium';
+import { Overpass_600SemiBold } from '@expo-google-fonts/overpass/600SemiBold';
+import { Overpass_700Bold } from '@expo-google-fonts/overpass/700Bold';
+import { Overpass_800ExtraBold } from '@expo-google-fonts/overpass/800ExtraBold';
+import { Overpass_900Black } from '@expo-google-fonts/overpass/900Black';
+import { Overpass_100Thin_Italic } from '@expo-google-fonts/overpass/100Thin_Italic';
+import { Overpass_200ExtraLight_Italic } from '@expo-google-fonts/overpass/200ExtraLight_Italic';
+import { Overpass_300Light_Italic } from '@expo-google-fonts/overpass/300Light_Italic';
+import { Overpass_400Regular_Italic } from '@expo-google-fonts/overpass/400Regular_Italic';
+import { Overpass_500Medium_Italic } from '@expo-google-fonts/overpass/500Medium_Italic';
+import { Overpass_600SemiBold_Italic } from '@expo-google-fonts/overpass/600SemiBold_Italic';
+import { Overpass_700Bold_Italic } from '@expo-google-fonts/overpass/700Bold_Italic';
+import { Overpass_800ExtraBold_Italic } from '@expo-google-fonts/overpass/800ExtraBold_Italic';
+import { Overpass_900Black_Italic } from '@expo-google-fonts/overpass/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Overpass_100Thin](./Overpass_100Thin.ttf.png)|![Overpass_200ExtraLight](./Overpass_200ExtraLight.ttf.png)|![Overpass_300Light](./Overpass_300Light.ttf.png)||
-|![Overpass_400Regular](./Overpass_400Regular.ttf.png)|![Overpass_500Medium](./Overpass_500Medium.ttf.png)|![Overpass_600SemiBold](./Overpass_600SemiBold.ttf.png)||
-|![Overpass_700Bold](./Overpass_700Bold.ttf.png)|![Overpass_800ExtraBold](./Overpass_800ExtraBold.ttf.png)|![Overpass_900Black](./Overpass_900Black.ttf.png)||
-|![Overpass_100Thin_Italic](./Overpass_100Thin_Italic.ttf.png)|![Overpass_200ExtraLight_Italic](./Overpass_200ExtraLight_Italic.ttf.png)|![Overpass_300Light_Italic](./Overpass_300Light_Italic.ttf.png)||
-|![Overpass_400Regular_Italic](./Overpass_400Regular_Italic.ttf.png)|![Overpass_500Medium_Italic](./Overpass_500Medium_Italic.ttf.png)|![Overpass_600SemiBold_Italic](./Overpass_600SemiBold_Italic.ttf.png)||
-|![Overpass_700Bold_Italic](./Overpass_700Bold_Italic.ttf.png)|![Overpass_800ExtraBold_Italic](./Overpass_800ExtraBold_Italic.ttf.png)|![Overpass_900Black_Italic](./Overpass_900Black_Italic.ttf.png)||
+|![Overpass_100Thin](./100Thin/Overpass_100Thin.ttf.png)|![Overpass_200ExtraLight](./200ExtraLight/Overpass_200ExtraLight.ttf.png)|![Overpass_300Light](./300Light/Overpass_300Light.ttf.png)||
+|![Overpass_400Regular](./400Regular/Overpass_400Regular.ttf.png)|![Overpass_500Medium](./500Medium/Overpass_500Medium.ttf.png)|![Overpass_600SemiBold](./600SemiBold/Overpass_600SemiBold.ttf.png)||
+|![Overpass_700Bold](./700Bold/Overpass_700Bold.ttf.png)|![Overpass_800ExtraBold](./800ExtraBold/Overpass_800ExtraBold.ttf.png)|![Overpass_900Black](./900Black/Overpass_900Black.ttf.png)||
+|![Overpass_100Thin_Italic](./100Thin_Italic/Overpass_100Thin_Italic.ttf.png)|![Overpass_200ExtraLight_Italic](./200ExtraLight_Italic/Overpass_200ExtraLight_Italic.ttf.png)|![Overpass_300Light_Italic](./300Light_Italic/Overpass_300Light_Italic.ttf.png)||
+|![Overpass_400Regular_Italic](./400Regular_Italic/Overpass_400Regular_Italic.ttf.png)|![Overpass_500Medium_Italic](./500Medium_Italic/Overpass_500Medium_Italic.ttf.png)|![Overpass_600SemiBold_Italic](./600SemiBold_Italic/Overpass_600SemiBold_Italic.ttf.png)||
+|![Overpass_700Bold_Italic](./700Bold_Italic/Overpass_700Bold_Italic.ttf.png)|![Overpass_800ExtraBold_Italic](./800ExtraBold_Italic/Overpass_800ExtraBold_Italic.ttf.png)|![Overpass_900Black_Italic](./900Black_Italic/Overpass_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

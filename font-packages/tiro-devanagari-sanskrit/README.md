@@ -21,7 +21,7 @@ This font family contains [2 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/tiro-devanagari-sanskrit expo-font expo-app-loading
+npx expo install @expo-google-fonts/tiro-devanagari-sanskrit expo-font
 ```
 
 Now add code like this to your project
@@ -30,8 +30,9 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, TiroDevanagariSanskrit_400Regular, TiroDevanagariSanskrit_400Regular_Italic } from '@expo-google-fonts/tiro-devanagari-sanskrit';
+import { useFonts } from '@expo-google-fonts/tiro-devanagari-sanskrit/useFonts';
+import { TiroDevanagariSanskrit_400Regular } from '@expo-google-fonts/tiro-devanagari-sanskrit/400Regular';
+import { TiroDevanagariSanskrit_400Regular_Italic } from '@expo-google-fonts/tiro-devanagari-sanskrit/400Regular_Italic';
 
 export default () => {
 
@@ -44,7 +45,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -75,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TiroDevanagariSanskrit_400Regular](./TiroDevanagariSanskrit_400Regular.ttf.png)|![TiroDevanagariSanskrit_400Regular_Italic](./TiroDevanagariSanskrit_400Regular_Italic.ttf.png)|||
+|![TiroDevanagariSanskrit_400Regular](./400Regular/TiroDevanagariSanskrit_400Regular.ttf.png)|![TiroDevanagariSanskrit_400Regular_Italic](./400Regular_Italic/TiroDevanagariSanskrit_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

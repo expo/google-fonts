@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/dm-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/dm-sans expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, DMSans_100Thin, DMSans_200ExtraLight, DMSans_300Light, DMSans_400Regular, DMSans_500Medium, DMSans_600SemiBold, DMSans_700Bold, DMSans_800ExtraBold, DMSans_900Black, DMSans_100Thin_Italic, DMSans_200ExtraLight_Italic, DMSans_300Light_Italic, DMSans_400Regular_Italic, DMSans_500Medium_Italic, DMSans_600SemiBold_Italic, DMSans_700Bold_Italic, DMSans_800ExtraBold_Italic, DMSans_900Black_Italic } from '@expo-google-fonts/dm-sans';
+import { useFonts } from '@expo-google-fonts/dm-sans/useFonts';
+import { DMSans_100Thin } from '@expo-google-fonts/dm-sans/100Thin';
+import { DMSans_200ExtraLight } from '@expo-google-fonts/dm-sans/200ExtraLight';
+import { DMSans_300Light } from '@expo-google-fonts/dm-sans/300Light';
+import { DMSans_400Regular } from '@expo-google-fonts/dm-sans/400Regular';
+import { DMSans_500Medium } from '@expo-google-fonts/dm-sans/500Medium';
+import { DMSans_600SemiBold } from '@expo-google-fonts/dm-sans/600SemiBold';
+import { DMSans_700Bold } from '@expo-google-fonts/dm-sans/700Bold';
+import { DMSans_800ExtraBold } from '@expo-google-fonts/dm-sans/800ExtraBold';
+import { DMSans_900Black } from '@expo-google-fonts/dm-sans/900Black';
+import { DMSans_100Thin_Italic } from '@expo-google-fonts/dm-sans/100Thin_Italic';
+import { DMSans_200ExtraLight_Italic } from '@expo-google-fonts/dm-sans/200ExtraLight_Italic';
+import { DMSans_300Light_Italic } from '@expo-google-fonts/dm-sans/300Light_Italic';
+import { DMSans_400Regular_Italic } from '@expo-google-fonts/dm-sans/400Regular_Italic';
+import { DMSans_500Medium_Italic } from '@expo-google-fonts/dm-sans/500Medium_Italic';
+import { DMSans_600SemiBold_Italic } from '@expo-google-fonts/dm-sans/600SemiBold_Italic';
+import { DMSans_700Bold_Italic } from '@expo-google-fonts/dm-sans/700Bold_Italic';
+import { DMSans_800ExtraBold_Italic } from '@expo-google-fonts/dm-sans/800ExtraBold_Italic';
+import { DMSans_900Black_Italic } from '@expo-google-fonts/dm-sans/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DMSans_100Thin](./DMSans_100Thin.ttf.png)|![DMSans_200ExtraLight](./DMSans_200ExtraLight.ttf.png)|![DMSans_300Light](./DMSans_300Light.ttf.png)||
-|![DMSans_400Regular](./DMSans_400Regular.ttf.png)|![DMSans_500Medium](./DMSans_500Medium.ttf.png)|![DMSans_600SemiBold](./DMSans_600SemiBold.ttf.png)||
-|![DMSans_700Bold](./DMSans_700Bold.ttf.png)|![DMSans_800ExtraBold](./DMSans_800ExtraBold.ttf.png)|![DMSans_900Black](./DMSans_900Black.ttf.png)||
-|![DMSans_100Thin_Italic](./DMSans_100Thin_Italic.ttf.png)|![DMSans_200ExtraLight_Italic](./DMSans_200ExtraLight_Italic.ttf.png)|![DMSans_300Light_Italic](./DMSans_300Light_Italic.ttf.png)||
-|![DMSans_400Regular_Italic](./DMSans_400Regular_Italic.ttf.png)|![DMSans_500Medium_Italic](./DMSans_500Medium_Italic.ttf.png)|![DMSans_600SemiBold_Italic](./DMSans_600SemiBold_Italic.ttf.png)||
-|![DMSans_700Bold_Italic](./DMSans_700Bold_Italic.ttf.png)|![DMSans_800ExtraBold_Italic](./DMSans_800ExtraBold_Italic.ttf.png)|![DMSans_900Black_Italic](./DMSans_900Black_Italic.ttf.png)||
+|![DMSans_100Thin](./100Thin/DMSans_100Thin.ttf.png)|![DMSans_200ExtraLight](./200ExtraLight/DMSans_200ExtraLight.ttf.png)|![DMSans_300Light](./300Light/DMSans_300Light.ttf.png)||
+|![DMSans_400Regular](./400Regular/DMSans_400Regular.ttf.png)|![DMSans_500Medium](./500Medium/DMSans_500Medium.ttf.png)|![DMSans_600SemiBold](./600SemiBold/DMSans_600SemiBold.ttf.png)||
+|![DMSans_700Bold](./700Bold/DMSans_700Bold.ttf.png)|![DMSans_800ExtraBold](./800ExtraBold/DMSans_800ExtraBold.ttf.png)|![DMSans_900Black](./900Black/DMSans_900Black.ttf.png)||
+|![DMSans_100Thin_Italic](./100Thin_Italic/DMSans_100Thin_Italic.ttf.png)|![DMSans_200ExtraLight_Italic](./200ExtraLight_Italic/DMSans_200ExtraLight_Italic.ttf.png)|![DMSans_300Light_Italic](./300Light_Italic/DMSans_300Light_Italic.ttf.png)||
+|![DMSans_400Regular_Italic](./400Regular_Italic/DMSans_400Regular_Italic.ttf.png)|![DMSans_500Medium_Italic](./500Medium_Italic/DMSans_500Medium_Italic.ttf.png)|![DMSans_600SemiBold_Italic](./600SemiBold_Italic/DMSans_600SemiBold_Italic.ttf.png)||
+|![DMSans_700Bold_Italic](./700Bold_Italic/DMSans_700Bold_Italic.ttf.png)|![DMSans_800ExtraBold_Italic](./800ExtraBold_Italic/DMSans_800ExtraBold_Italic.ttf.png)|![DMSans_900Black_Italic](./900Black_Italic/DMSans_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

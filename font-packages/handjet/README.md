@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/handjet expo-font expo-app-loading
+npx expo install @expo-google-fonts/handjet expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Handjet_100Thin, Handjet_200ExtraLight, Handjet_300Light, Handjet_400Regular, Handjet_500Medium, Handjet_600SemiBold, Handjet_700Bold, Handjet_800ExtraBold, Handjet_900Black } from '@expo-google-fonts/handjet';
+import { useFonts } from '@expo-google-fonts/handjet/useFonts';
+import { Handjet_100Thin } from '@expo-google-fonts/handjet/100Thin';
+import { Handjet_200ExtraLight } from '@expo-google-fonts/handjet/200ExtraLight';
+import { Handjet_300Light } from '@expo-google-fonts/handjet/300Light';
+import { Handjet_400Regular } from '@expo-google-fonts/handjet/400Regular';
+import { Handjet_500Medium } from '@expo-google-fonts/handjet/500Medium';
+import { Handjet_600SemiBold } from '@expo-google-fonts/handjet/600SemiBold';
+import { Handjet_700Bold } from '@expo-google-fonts/handjet/700Bold';
+import { Handjet_800ExtraBold } from '@expo-google-fonts/handjet/800ExtraBold';
+import { Handjet_900Black } from '@expo-google-fonts/handjet/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Handjet_100Thin](./Handjet_100Thin.ttf.png)|![Handjet_200ExtraLight](./Handjet_200ExtraLight.ttf.png)|![Handjet_300Light](./Handjet_300Light.ttf.png)||
-|![Handjet_400Regular](./Handjet_400Regular.ttf.png)|![Handjet_500Medium](./Handjet_500Medium.ttf.png)|![Handjet_600SemiBold](./Handjet_600SemiBold.ttf.png)||
-|![Handjet_700Bold](./Handjet_700Bold.ttf.png)|![Handjet_800ExtraBold](./Handjet_800ExtraBold.ttf.png)|![Handjet_900Black](./Handjet_900Black.ttf.png)||
+|![Handjet_100Thin](./100Thin/Handjet_100Thin.ttf.png)|![Handjet_200ExtraLight](./200ExtraLight/Handjet_200ExtraLight.ttf.png)|![Handjet_300Light](./300Light/Handjet_300Light.ttf.png)||
+|![Handjet_400Regular](./400Regular/Handjet_400Regular.ttf.png)|![Handjet_500Medium](./500Medium/Handjet_500Medium.ttf.png)|![Handjet_600SemiBold](./600SemiBold/Handjet_600SemiBold.ttf.png)||
+|![Handjet_700Bold](./700Bold/Handjet_700Bold.ttf.png)|![Handjet_800ExtraBold](./800ExtraBold/Handjet_800ExtraBold.ttf.png)|![Handjet_900Black](./900Black/Handjet_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

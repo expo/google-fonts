@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/hind-madurai expo-font expo-app-loading
+npx expo install @expo-google-fonts/hind-madurai expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, HindMadurai_300Light, HindMadurai_400Regular, HindMadurai_500Medium, HindMadurai_600SemiBold, HindMadurai_700Bold } from '@expo-google-fonts/hind-madurai';
+import { useFonts } from '@expo-google-fonts/hind-madurai/useFonts';
+import { HindMadurai_300Light } from '@expo-google-fonts/hind-madurai/300Light';
+import { HindMadurai_400Regular } from '@expo-google-fonts/hind-madurai/400Regular';
+import { HindMadurai_500Medium } from '@expo-google-fonts/hind-madurai/500Medium';
+import { HindMadurai_600SemiBold } from '@expo-google-fonts/hind-madurai/600SemiBold';
+import { HindMadurai_700Bold } from '@expo-google-fonts/hind-madurai/700Bold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![HindMadurai_300Light](./HindMadurai_300Light.ttf.png)|![HindMadurai_400Regular](./HindMadurai_400Regular.ttf.png)|![HindMadurai_500Medium](./HindMadurai_500Medium.ttf.png)||
-|![HindMadurai_600SemiBold](./HindMadurai_600SemiBold.ttf.png)|![HindMadurai_700Bold](./HindMadurai_700Bold.ttf.png)|||
+|![HindMadurai_300Light](./300Light/HindMadurai_300Light.ttf.png)|![HindMadurai_400Regular](./400Regular/HindMadurai_400Regular.ttf.png)|![HindMadurai_500Medium](./500Medium/HindMadurai_500Medium.ttf.png)||
+|![HindMadurai_600SemiBold](./600SemiBold/HindMadurai_600SemiBold.ttf.png)|![HindMadurai_700Bold](./700Bold/HindMadurai_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

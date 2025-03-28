@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/outfit expo-font expo-app-loading
+npx expo install @expo-google-fonts/outfit expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Outfit_100Thin, Outfit_200ExtraLight, Outfit_300Light, Outfit_400Regular, Outfit_500Medium, Outfit_600SemiBold, Outfit_700Bold, Outfit_800ExtraBold, Outfit_900Black } from '@expo-google-fonts/outfit';
+import { useFonts } from '@expo-google-fonts/outfit/useFonts';
+import { Outfit_100Thin } from '@expo-google-fonts/outfit/100Thin';
+import { Outfit_200ExtraLight } from '@expo-google-fonts/outfit/200ExtraLight';
+import { Outfit_300Light } from '@expo-google-fonts/outfit/300Light';
+import { Outfit_400Regular } from '@expo-google-fonts/outfit/400Regular';
+import { Outfit_500Medium } from '@expo-google-fonts/outfit/500Medium';
+import { Outfit_600SemiBold } from '@expo-google-fonts/outfit/600SemiBold';
+import { Outfit_700Bold } from '@expo-google-fonts/outfit/700Bold';
+import { Outfit_800ExtraBold } from '@expo-google-fonts/outfit/800ExtraBold';
+import { Outfit_900Black } from '@expo-google-fonts/outfit/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Outfit_100Thin](./Outfit_100Thin.ttf.png)|![Outfit_200ExtraLight](./Outfit_200ExtraLight.ttf.png)|![Outfit_300Light](./Outfit_300Light.ttf.png)||
-|![Outfit_400Regular](./Outfit_400Regular.ttf.png)|![Outfit_500Medium](./Outfit_500Medium.ttf.png)|![Outfit_600SemiBold](./Outfit_600SemiBold.ttf.png)||
-|![Outfit_700Bold](./Outfit_700Bold.ttf.png)|![Outfit_800ExtraBold](./Outfit_800ExtraBold.ttf.png)|![Outfit_900Black](./Outfit_900Black.ttf.png)||
+|![Outfit_100Thin](./100Thin/Outfit_100Thin.ttf.png)|![Outfit_200ExtraLight](./200ExtraLight/Outfit_200ExtraLight.ttf.png)|![Outfit_300Light](./300Light/Outfit_300Light.ttf.png)||
+|![Outfit_400Regular](./400Regular/Outfit_400Regular.ttf.png)|![Outfit_500Medium](./500Medium/Outfit_500Medium.ttf.png)|![Outfit_600SemiBold](./600SemiBold/Outfit_600SemiBold.ttf.png)||
+|![Outfit_700Bold](./700Bold/Outfit_700Bold.ttf.png)|![Outfit_800ExtraBold](./800ExtraBold/Outfit_800ExtraBold.ttf.png)|![Outfit_900Black](./900Black/Outfit_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

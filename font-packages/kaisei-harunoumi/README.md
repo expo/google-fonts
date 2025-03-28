@@ -22,7 +22,7 @@ This font family contains [3 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/kaisei-harunoumi expo-font expo-app-loading
+npx expo install @expo-google-fonts/kaisei-harunoumi expo-font
 ```
 
 Now add code like this to your project
@@ -31,8 +31,10 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, KaiseiHarunoUmi_400Regular, KaiseiHarunoUmi_500Medium, KaiseiHarunoUmi_700Bold } from '@expo-google-fonts/kaisei-harunoumi';
+import { useFonts } from '@expo-google-fonts/kaisei-harunoumi/useFonts';
+import { KaiseiHarunoUmi_400Regular } from '@expo-google-fonts/kaisei-harunoumi/400Regular';
+import { KaiseiHarunoUmi_500Medium } from '@expo-google-fonts/kaisei-harunoumi/500Medium';
+import { KaiseiHarunoUmi_700Bold } from '@expo-google-fonts/kaisei-harunoumi/700Bold';
 
 export default () => {
 
@@ -46,7 +48,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -85,7 +87,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KaiseiHarunoUmi_400Regular](./KaiseiHarunoUmi_400Regular.ttf.png)|![KaiseiHarunoUmi_500Medium](./KaiseiHarunoUmi_500Medium.ttf.png)|![KaiseiHarunoUmi_700Bold](./KaiseiHarunoUmi_700Bold.ttf.png)||
+|![KaiseiHarunoUmi_400Regular](./400Regular/KaiseiHarunoUmi_400Regular.ttf.png)|![KaiseiHarunoUmi_500Medium](./500Medium/KaiseiHarunoUmi_500Medium.ttf.png)|![KaiseiHarunoUmi_700Bold](./700Bold/KaiseiHarunoUmi_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

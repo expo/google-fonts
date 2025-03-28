@@ -31,7 +31,7 @@ This font family contains [12 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/mali expo-font expo-app-loading
+npx expo install @expo-google-fonts/mali expo-font
 ```
 
 Now add code like this to your project
@@ -40,8 +40,19 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Mali_200ExtraLight, Mali_200ExtraLight_Italic, Mali_300Light, Mali_300Light_Italic, Mali_400Regular, Mali_400Regular_Italic, Mali_500Medium, Mali_500Medium_Italic, Mali_600SemiBold, Mali_600SemiBold_Italic, Mali_700Bold, Mali_700Bold_Italic } from '@expo-google-fonts/mali';
+import { useFonts } from '@expo-google-fonts/mali/useFonts';
+import { Mali_200ExtraLight } from '@expo-google-fonts/mali/200ExtraLight';
+import { Mali_200ExtraLight_Italic } from '@expo-google-fonts/mali/200ExtraLight_Italic';
+import { Mali_300Light } from '@expo-google-fonts/mali/300Light';
+import { Mali_300Light_Italic } from '@expo-google-fonts/mali/300Light_Italic';
+import { Mali_400Regular } from '@expo-google-fonts/mali/400Regular';
+import { Mali_400Regular_Italic } from '@expo-google-fonts/mali/400Regular_Italic';
+import { Mali_500Medium } from '@expo-google-fonts/mali/500Medium';
+import { Mali_500Medium_Italic } from '@expo-google-fonts/mali/500Medium_Italic';
+import { Mali_600SemiBold } from '@expo-google-fonts/mali/600SemiBold';
+import { Mali_600SemiBold_Italic } from '@expo-google-fonts/mali/600SemiBold_Italic';
+import { Mali_700Bold } from '@expo-google-fonts/mali/700Bold';
+import { Mali_700Bold_Italic } from '@expo-google-fonts/mali/700Bold_Italic';
 
 export default () => {
 
@@ -64,7 +75,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -175,10 +186,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Mali_200ExtraLight](./Mali_200ExtraLight.ttf.png)|![Mali_200ExtraLight_Italic](./Mali_200ExtraLight_Italic.ttf.png)|![Mali_300Light](./Mali_300Light.ttf.png)||
-|![Mali_300Light_Italic](./Mali_300Light_Italic.ttf.png)|![Mali_400Regular](./Mali_400Regular.ttf.png)|![Mali_400Regular_Italic](./Mali_400Regular_Italic.ttf.png)||
-|![Mali_500Medium](./Mali_500Medium.ttf.png)|![Mali_500Medium_Italic](./Mali_500Medium_Italic.ttf.png)|![Mali_600SemiBold](./Mali_600SemiBold.ttf.png)||
-|![Mali_600SemiBold_Italic](./Mali_600SemiBold_Italic.ttf.png)|![Mali_700Bold](./Mali_700Bold.ttf.png)|![Mali_700Bold_Italic](./Mali_700Bold_Italic.ttf.png)||
+|![Mali_200ExtraLight](./200ExtraLight/Mali_200ExtraLight.ttf.png)|![Mali_200ExtraLight_Italic](./200ExtraLight_Italic/Mali_200ExtraLight_Italic.ttf.png)|![Mali_300Light](./300Light/Mali_300Light.ttf.png)||
+|![Mali_300Light_Italic](./300Light_Italic/Mali_300Light_Italic.ttf.png)|![Mali_400Regular](./400Regular/Mali_400Regular.ttf.png)|![Mali_400Regular_Italic](./400Regular_Italic/Mali_400Regular_Italic.ttf.png)||
+|![Mali_500Medium](./500Medium/Mali_500Medium.ttf.png)|![Mali_500Medium_Italic](./500Medium_Italic/Mali_500Medium_Italic.ttf.png)|![Mali_600SemiBold](./600SemiBold/Mali_600SemiBold.ttf.png)||
+|![Mali_600SemiBold_Italic](./600SemiBold_Italic/Mali_600SemiBold_Italic.ttf.png)|![Mali_700Bold](./700Bold/Mali_700Bold.ttf.png)|![Mali_700Bold_Italic](./700Bold_Italic/Mali_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

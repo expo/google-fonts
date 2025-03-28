@@ -21,7 +21,7 @@ This font family contains [2 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/playwrite-at-guides expo-font expo-app-loading
+npx expo install @expo-google-fonts/playwrite-at-guides expo-font
 ```
 
 Now add code like this to your project
@@ -30,8 +30,9 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PlaywriteATGuides_400Regular, PlaywriteATGuides_400Regular_Italic } from '@expo-google-fonts/playwrite-at-guides';
+import { useFonts } from '@expo-google-fonts/playwrite-at-guides/useFonts';
+import { PlaywriteATGuides_400Regular } from '@expo-google-fonts/playwrite-at-guides/400Regular';
+import { PlaywriteATGuides_400Regular_Italic } from '@expo-google-fonts/playwrite-at-guides/400Regular_Italic';
 
 export default () => {
 
@@ -44,7 +45,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -75,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteATGuides_400Regular](./PlaywriteATGuides_400Regular.ttf.png)|![PlaywriteATGuides_400Regular_Italic](./PlaywriteATGuides_400Regular_Italic.ttf.png)|||
+|![PlaywriteATGuides_400Regular](./400Regular/PlaywriteATGuides_400Regular.ttf.png)|![PlaywriteATGuides_400Regular_Italic](./400Regular_Italic/PlaywriteATGuides_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

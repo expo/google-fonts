@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/anek-malayalam expo-font expo-app-loading
+npx expo install @expo-google-fonts/anek-malayalam expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, AnekMalayalam_100Thin, AnekMalayalam_200ExtraLight, AnekMalayalam_300Light, AnekMalayalam_400Regular, AnekMalayalam_500Medium, AnekMalayalam_600SemiBold, AnekMalayalam_700Bold, AnekMalayalam_800ExtraBold } from '@expo-google-fonts/anek-malayalam';
+import { useFonts } from '@expo-google-fonts/anek-malayalam/useFonts';
+import { AnekMalayalam_100Thin } from '@expo-google-fonts/anek-malayalam/100Thin';
+import { AnekMalayalam_200ExtraLight } from '@expo-google-fonts/anek-malayalam/200ExtraLight';
+import { AnekMalayalam_300Light } from '@expo-google-fonts/anek-malayalam/300Light';
+import { AnekMalayalam_400Regular } from '@expo-google-fonts/anek-malayalam/400Regular';
+import { AnekMalayalam_500Medium } from '@expo-google-fonts/anek-malayalam/500Medium';
+import { AnekMalayalam_600SemiBold } from '@expo-google-fonts/anek-malayalam/600SemiBold';
+import { AnekMalayalam_700Bold } from '@expo-google-fonts/anek-malayalam/700Bold';
+import { AnekMalayalam_800ExtraBold } from '@expo-google-fonts/anek-malayalam/800ExtraBold';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnekMalayalam_100Thin](./AnekMalayalam_100Thin.ttf.png)|![AnekMalayalam_200ExtraLight](./AnekMalayalam_200ExtraLight.ttf.png)|![AnekMalayalam_300Light](./AnekMalayalam_300Light.ttf.png)||
-|![AnekMalayalam_400Regular](./AnekMalayalam_400Regular.ttf.png)|![AnekMalayalam_500Medium](./AnekMalayalam_500Medium.ttf.png)|![AnekMalayalam_600SemiBold](./AnekMalayalam_600SemiBold.ttf.png)||
-|![AnekMalayalam_700Bold](./AnekMalayalam_700Bold.ttf.png)|![AnekMalayalam_800ExtraBold](./AnekMalayalam_800ExtraBold.ttf.png)|||
+|![AnekMalayalam_100Thin](./100Thin/AnekMalayalam_100Thin.ttf.png)|![AnekMalayalam_200ExtraLight](./200ExtraLight/AnekMalayalam_200ExtraLight.ttf.png)|![AnekMalayalam_300Light](./300Light/AnekMalayalam_300Light.ttf.png)||
+|![AnekMalayalam_400Regular](./400Regular/AnekMalayalam_400Regular.ttf.png)|![AnekMalayalam_500Medium](./500Medium/AnekMalayalam_500Medium.ttf.png)|![AnekMalayalam_600SemiBold](./600SemiBold/AnekMalayalam_600SemiBold.ttf.png)||
+|![AnekMalayalam_700Bold](./700Bold/AnekMalayalam_700Bold.ttf.png)|![AnekMalayalam_800ExtraBold](./800ExtraBold/AnekMalayalam_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

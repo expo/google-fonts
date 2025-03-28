@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/kumbh-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/kumbh-sans expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, KumbhSans_100Thin, KumbhSans_200ExtraLight, KumbhSans_300Light, KumbhSans_400Regular, KumbhSans_500Medium, KumbhSans_600SemiBold, KumbhSans_700Bold, KumbhSans_800ExtraBold, KumbhSans_900Black } from '@expo-google-fonts/kumbh-sans';
+import { useFonts } from '@expo-google-fonts/kumbh-sans/useFonts';
+import { KumbhSans_100Thin } from '@expo-google-fonts/kumbh-sans/100Thin';
+import { KumbhSans_200ExtraLight } from '@expo-google-fonts/kumbh-sans/200ExtraLight';
+import { KumbhSans_300Light } from '@expo-google-fonts/kumbh-sans/300Light';
+import { KumbhSans_400Regular } from '@expo-google-fonts/kumbh-sans/400Regular';
+import { KumbhSans_500Medium } from '@expo-google-fonts/kumbh-sans/500Medium';
+import { KumbhSans_600SemiBold } from '@expo-google-fonts/kumbh-sans/600SemiBold';
+import { KumbhSans_700Bold } from '@expo-google-fonts/kumbh-sans/700Bold';
+import { KumbhSans_800ExtraBold } from '@expo-google-fonts/kumbh-sans/800ExtraBold';
+import { KumbhSans_900Black } from '@expo-google-fonts/kumbh-sans/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KumbhSans_100Thin](./KumbhSans_100Thin.ttf.png)|![KumbhSans_200ExtraLight](./KumbhSans_200ExtraLight.ttf.png)|![KumbhSans_300Light](./KumbhSans_300Light.ttf.png)||
-|![KumbhSans_400Regular](./KumbhSans_400Regular.ttf.png)|![KumbhSans_500Medium](./KumbhSans_500Medium.ttf.png)|![KumbhSans_600SemiBold](./KumbhSans_600SemiBold.ttf.png)||
-|![KumbhSans_700Bold](./KumbhSans_700Bold.ttf.png)|![KumbhSans_800ExtraBold](./KumbhSans_800ExtraBold.ttf.png)|![KumbhSans_900Black](./KumbhSans_900Black.ttf.png)||
+|![KumbhSans_100Thin](./100Thin/KumbhSans_100Thin.ttf.png)|![KumbhSans_200ExtraLight](./200ExtraLight/KumbhSans_200ExtraLight.ttf.png)|![KumbhSans_300Light](./300Light/KumbhSans_300Light.ttf.png)||
+|![KumbhSans_400Regular](./400Regular/KumbhSans_400Regular.ttf.png)|![KumbhSans_500Medium](./500Medium/KumbhSans_500Medium.ttf.png)|![KumbhSans_600SemiBold](./600SemiBold/KumbhSans_600SemiBold.ttf.png)||
+|![KumbhSans_700Bold](./700Bold/KumbhSans_700Bold.ttf.png)|![KumbhSans_800ExtraBold](./800ExtraBold/KumbhSans_800ExtraBold.ttf.png)|![KumbhSans_900Black](./900Black/KumbhSans_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

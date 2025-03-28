@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-lao-looped expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-lao-looped expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansLaoLooped_100Thin, NotoSansLaoLooped_200ExtraLight, NotoSansLaoLooped_300Light, NotoSansLaoLooped_400Regular, NotoSansLaoLooped_500Medium, NotoSansLaoLooped_600SemiBold, NotoSansLaoLooped_700Bold, NotoSansLaoLooped_800ExtraBold, NotoSansLaoLooped_900Black } from '@expo-google-fonts/noto-sans-lao-looped';
+import { useFonts } from '@expo-google-fonts/noto-sans-lao-looped/useFonts';
+import { NotoSansLaoLooped_100Thin } from '@expo-google-fonts/noto-sans-lao-looped/100Thin';
+import { NotoSansLaoLooped_200ExtraLight } from '@expo-google-fonts/noto-sans-lao-looped/200ExtraLight';
+import { NotoSansLaoLooped_300Light } from '@expo-google-fonts/noto-sans-lao-looped/300Light';
+import { NotoSansLaoLooped_400Regular } from '@expo-google-fonts/noto-sans-lao-looped/400Regular';
+import { NotoSansLaoLooped_500Medium } from '@expo-google-fonts/noto-sans-lao-looped/500Medium';
+import { NotoSansLaoLooped_600SemiBold } from '@expo-google-fonts/noto-sans-lao-looped/600SemiBold';
+import { NotoSansLaoLooped_700Bold } from '@expo-google-fonts/noto-sans-lao-looped/700Bold';
+import { NotoSansLaoLooped_800ExtraBold } from '@expo-google-fonts/noto-sans-lao-looped/800ExtraBold';
+import { NotoSansLaoLooped_900Black } from '@expo-google-fonts/noto-sans-lao-looped/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansLaoLooped_100Thin](./NotoSansLaoLooped_100Thin.ttf.png)|![NotoSansLaoLooped_200ExtraLight](./NotoSansLaoLooped_200ExtraLight.ttf.png)|![NotoSansLaoLooped_300Light](./NotoSansLaoLooped_300Light.ttf.png)||
-|![NotoSansLaoLooped_400Regular](./NotoSansLaoLooped_400Regular.ttf.png)|![NotoSansLaoLooped_500Medium](./NotoSansLaoLooped_500Medium.ttf.png)|![NotoSansLaoLooped_600SemiBold](./NotoSansLaoLooped_600SemiBold.ttf.png)||
-|![NotoSansLaoLooped_700Bold](./NotoSansLaoLooped_700Bold.ttf.png)|![NotoSansLaoLooped_800ExtraBold](./NotoSansLaoLooped_800ExtraBold.ttf.png)|![NotoSansLaoLooped_900Black](./NotoSansLaoLooped_900Black.ttf.png)||
+|![NotoSansLaoLooped_100Thin](./100Thin/NotoSansLaoLooped_100Thin.ttf.png)|![NotoSansLaoLooped_200ExtraLight](./200ExtraLight/NotoSansLaoLooped_200ExtraLight.ttf.png)|![NotoSansLaoLooped_300Light](./300Light/NotoSansLaoLooped_300Light.ttf.png)||
+|![NotoSansLaoLooped_400Regular](./400Regular/NotoSansLaoLooped_400Regular.ttf.png)|![NotoSansLaoLooped_500Medium](./500Medium/NotoSansLaoLooped_500Medium.ttf.png)|![NotoSansLaoLooped_600SemiBold](./600SemiBold/NotoSansLaoLooped_600SemiBold.ttf.png)||
+|![NotoSansLaoLooped_700Bold](./700Bold/NotoSansLaoLooped_700Bold.ttf.png)|![NotoSansLaoLooped_800ExtraBold](./800ExtraBold/NotoSansLaoLooped_800ExtraBold.ttf.png)|![NotoSansLaoLooped_900Black](./900Black/NotoSansLaoLooped_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/genos expo-font expo-app-loading
+npx expo install @expo-google-fonts/genos expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Genos_100Thin, Genos_200ExtraLight, Genos_300Light, Genos_400Regular, Genos_500Medium, Genos_600SemiBold, Genos_700Bold, Genos_800ExtraBold, Genos_900Black, Genos_100Thin_Italic, Genos_200ExtraLight_Italic, Genos_300Light_Italic, Genos_400Regular_Italic, Genos_500Medium_Italic, Genos_600SemiBold_Italic, Genos_700Bold_Italic, Genos_800ExtraBold_Italic, Genos_900Black_Italic } from '@expo-google-fonts/genos';
+import { useFonts } from '@expo-google-fonts/genos/useFonts';
+import { Genos_100Thin } from '@expo-google-fonts/genos/100Thin';
+import { Genos_200ExtraLight } from '@expo-google-fonts/genos/200ExtraLight';
+import { Genos_300Light } from '@expo-google-fonts/genos/300Light';
+import { Genos_400Regular } from '@expo-google-fonts/genos/400Regular';
+import { Genos_500Medium } from '@expo-google-fonts/genos/500Medium';
+import { Genos_600SemiBold } from '@expo-google-fonts/genos/600SemiBold';
+import { Genos_700Bold } from '@expo-google-fonts/genos/700Bold';
+import { Genos_800ExtraBold } from '@expo-google-fonts/genos/800ExtraBold';
+import { Genos_900Black } from '@expo-google-fonts/genos/900Black';
+import { Genos_100Thin_Italic } from '@expo-google-fonts/genos/100Thin_Italic';
+import { Genos_200ExtraLight_Italic } from '@expo-google-fonts/genos/200ExtraLight_Italic';
+import { Genos_300Light_Italic } from '@expo-google-fonts/genos/300Light_Italic';
+import { Genos_400Regular_Italic } from '@expo-google-fonts/genos/400Regular_Italic';
+import { Genos_500Medium_Italic } from '@expo-google-fonts/genos/500Medium_Italic';
+import { Genos_600SemiBold_Italic } from '@expo-google-fonts/genos/600SemiBold_Italic';
+import { Genos_700Bold_Italic } from '@expo-google-fonts/genos/700Bold_Italic';
+import { Genos_800ExtraBold_Italic } from '@expo-google-fonts/genos/800ExtraBold_Italic';
+import { Genos_900Black_Italic } from '@expo-google-fonts/genos/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Genos_100Thin](./Genos_100Thin.ttf.png)|![Genos_200ExtraLight](./Genos_200ExtraLight.ttf.png)|![Genos_300Light](./Genos_300Light.ttf.png)||
-|![Genos_400Regular](./Genos_400Regular.ttf.png)|![Genos_500Medium](./Genos_500Medium.ttf.png)|![Genos_600SemiBold](./Genos_600SemiBold.ttf.png)||
-|![Genos_700Bold](./Genos_700Bold.ttf.png)|![Genos_800ExtraBold](./Genos_800ExtraBold.ttf.png)|![Genos_900Black](./Genos_900Black.ttf.png)||
-|![Genos_100Thin_Italic](./Genos_100Thin_Italic.ttf.png)|![Genos_200ExtraLight_Italic](./Genos_200ExtraLight_Italic.ttf.png)|![Genos_300Light_Italic](./Genos_300Light_Italic.ttf.png)||
-|![Genos_400Regular_Italic](./Genos_400Regular_Italic.ttf.png)|![Genos_500Medium_Italic](./Genos_500Medium_Italic.ttf.png)|![Genos_600SemiBold_Italic](./Genos_600SemiBold_Italic.ttf.png)||
-|![Genos_700Bold_Italic](./Genos_700Bold_Italic.ttf.png)|![Genos_800ExtraBold_Italic](./Genos_800ExtraBold_Italic.ttf.png)|![Genos_900Black_Italic](./Genos_900Black_Italic.ttf.png)||
+|![Genos_100Thin](./100Thin/Genos_100Thin.ttf.png)|![Genos_200ExtraLight](./200ExtraLight/Genos_200ExtraLight.ttf.png)|![Genos_300Light](./300Light/Genos_300Light.ttf.png)||
+|![Genos_400Regular](./400Regular/Genos_400Regular.ttf.png)|![Genos_500Medium](./500Medium/Genos_500Medium.ttf.png)|![Genos_600SemiBold](./600SemiBold/Genos_600SemiBold.ttf.png)||
+|![Genos_700Bold](./700Bold/Genos_700Bold.ttf.png)|![Genos_800ExtraBold](./800ExtraBold/Genos_800ExtraBold.ttf.png)|![Genos_900Black](./900Black/Genos_900Black.ttf.png)||
+|![Genos_100Thin_Italic](./100Thin_Italic/Genos_100Thin_Italic.ttf.png)|![Genos_200ExtraLight_Italic](./200ExtraLight_Italic/Genos_200ExtraLight_Italic.ttf.png)|![Genos_300Light_Italic](./300Light_Italic/Genos_300Light_Italic.ttf.png)||
+|![Genos_400Regular_Italic](./400Regular_Italic/Genos_400Regular_Italic.ttf.png)|![Genos_500Medium_Italic](./500Medium_Italic/Genos_500Medium_Italic.ttf.png)|![Genos_600SemiBold_Italic](./600SemiBold_Italic/Genos_600SemiBold_Italic.ttf.png)||
+|![Genos_700Bold_Italic](./700Bold_Italic/Genos_700Bold_Italic.ttf.png)|![Genos_800ExtraBold_Italic](./800ExtraBold_Italic/Genos_800ExtraBold_Italic.ttf.png)|![Genos_900Black_Italic](./900Black_Italic/Genos_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

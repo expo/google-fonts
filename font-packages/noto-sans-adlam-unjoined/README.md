@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-adlam-unjoined expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-adlam-unjoined expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansAdlamUnjoined_400Regular, NotoSansAdlamUnjoined_500Medium, NotoSansAdlamUnjoined_600SemiBold, NotoSansAdlamUnjoined_700Bold } from '@expo-google-fonts/noto-sans-adlam-unjoined';
+import { useFonts } from '@expo-google-fonts/noto-sans-adlam-unjoined/useFonts';
+import { NotoSansAdlamUnjoined_400Regular } from '@expo-google-fonts/noto-sans-adlam-unjoined/400Regular';
+import { NotoSansAdlamUnjoined_500Medium } from '@expo-google-fonts/noto-sans-adlam-unjoined/500Medium';
+import { NotoSansAdlamUnjoined_600SemiBold } from '@expo-google-fonts/noto-sans-adlam-unjoined/600SemiBold';
+import { NotoSansAdlamUnjoined_700Bold } from '@expo-google-fonts/noto-sans-adlam-unjoined/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansAdlamUnjoined_400Regular](./NotoSansAdlamUnjoined_400Regular.ttf.png)|![NotoSansAdlamUnjoined_500Medium](./NotoSansAdlamUnjoined_500Medium.ttf.png)|![NotoSansAdlamUnjoined_600SemiBold](./NotoSansAdlamUnjoined_600SemiBold.ttf.png)||
-|![NotoSansAdlamUnjoined_700Bold](./NotoSansAdlamUnjoined_700Bold.ttf.png)||||
+|![NotoSansAdlamUnjoined_400Regular](./400Regular/NotoSansAdlamUnjoined_400Regular.ttf.png)|![NotoSansAdlamUnjoined_500Medium](./500Medium/NotoSansAdlamUnjoined_500Medium.ttf.png)|![NotoSansAdlamUnjoined_600SemiBold](./600SemiBold/NotoSansAdlamUnjoined_600SemiBold.ttf.png)||
+|![NotoSansAdlamUnjoined_700Bold](./700Bold/NotoSansAdlamUnjoined_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

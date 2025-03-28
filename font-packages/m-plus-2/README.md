@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/m-plus-2 expo-font expo-app-loading
+npx expo install @expo-google-fonts/m-plus-2 expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, MPLUS2_100Thin, MPLUS2_200ExtraLight, MPLUS2_300Light, MPLUS2_400Regular, MPLUS2_500Medium, MPLUS2_600SemiBold, MPLUS2_700Bold, MPLUS2_800ExtraBold, MPLUS2_900Black } from '@expo-google-fonts/m-plus-2';
+import { useFonts } from '@expo-google-fonts/m-plus-2/useFonts';
+import { MPLUS2_100Thin } from '@expo-google-fonts/m-plus-2/100Thin';
+import { MPLUS2_200ExtraLight } from '@expo-google-fonts/m-plus-2/200ExtraLight';
+import { MPLUS2_300Light } from '@expo-google-fonts/m-plus-2/300Light';
+import { MPLUS2_400Regular } from '@expo-google-fonts/m-plus-2/400Regular';
+import { MPLUS2_500Medium } from '@expo-google-fonts/m-plus-2/500Medium';
+import { MPLUS2_600SemiBold } from '@expo-google-fonts/m-plus-2/600SemiBold';
+import { MPLUS2_700Bold } from '@expo-google-fonts/m-plus-2/700Bold';
+import { MPLUS2_800ExtraBold } from '@expo-google-fonts/m-plus-2/800ExtraBold';
+import { MPLUS2_900Black } from '@expo-google-fonts/m-plus-2/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MPLUS2_100Thin](./MPLUS2_100Thin.ttf.png)|![MPLUS2_200ExtraLight](./MPLUS2_200ExtraLight.ttf.png)|![MPLUS2_300Light](./MPLUS2_300Light.ttf.png)||
-|![MPLUS2_400Regular](./MPLUS2_400Regular.ttf.png)|![MPLUS2_500Medium](./MPLUS2_500Medium.ttf.png)|![MPLUS2_600SemiBold](./MPLUS2_600SemiBold.ttf.png)||
-|![MPLUS2_700Bold](./MPLUS2_700Bold.ttf.png)|![MPLUS2_800ExtraBold](./MPLUS2_800ExtraBold.ttf.png)|![MPLUS2_900Black](./MPLUS2_900Black.ttf.png)||
+|![MPLUS2_100Thin](./100Thin/MPLUS2_100Thin.ttf.png)|![MPLUS2_200ExtraLight](./200ExtraLight/MPLUS2_200ExtraLight.ttf.png)|![MPLUS2_300Light](./300Light/MPLUS2_300Light.ttf.png)||
+|![MPLUS2_400Regular](./400Regular/MPLUS2_400Regular.ttf.png)|![MPLUS2_500Medium](./500Medium/MPLUS2_500Medium.ttf.png)|![MPLUS2_600SemiBold](./600SemiBold/MPLUS2_600SemiBold.ttf.png)||
+|![MPLUS2_700Bold](./700Bold/MPLUS2_700Bold.ttf.png)|![MPLUS2_800ExtraBold](./800ExtraBold/MPLUS2_800ExtraBold.ttf.png)|![MPLUS2_900Black](./900Black/MPLUS2_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

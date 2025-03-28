@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/kode-mono expo-font expo-app-loading
+npx expo install @expo-google-fonts/kode-mono expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, KodeMono_400Regular, KodeMono_500Medium, KodeMono_600SemiBold, KodeMono_700Bold } from '@expo-google-fonts/kode-mono';
+import { useFonts } from '@expo-google-fonts/kode-mono/useFonts';
+import { KodeMono_400Regular } from '@expo-google-fonts/kode-mono/400Regular';
+import { KodeMono_500Medium } from '@expo-google-fonts/kode-mono/500Medium';
+import { KodeMono_600SemiBold } from '@expo-google-fonts/kode-mono/600SemiBold';
+import { KodeMono_700Bold } from '@expo-google-fonts/kode-mono/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KodeMono_400Regular](./KodeMono_400Regular.ttf.png)|![KodeMono_500Medium](./KodeMono_500Medium.ttf.png)|![KodeMono_600SemiBold](./KodeMono_600SemiBold.ttf.png)||
-|![KodeMono_700Bold](./KodeMono_700Bold.ttf.png)||||
+|![KodeMono_400Regular](./400Regular/KodeMono_400Regular.ttf.png)|![KodeMono_500Medium](./500Medium/KodeMono_500Medium.ttf.png)|![KodeMono_600SemiBold](./600SemiBold/KodeMono_600SemiBold.ttf.png)||
+|![KodeMono_700Bold](./700Bold/KodeMono_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/overlock expo-font expo-app-loading
+npx expo install @expo-google-fonts/overlock expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Overlock_400Regular, Overlock_400Regular_Italic, Overlock_700Bold, Overlock_700Bold_Italic, Overlock_900Black, Overlock_900Black_Italic } from '@expo-google-fonts/overlock';
+import { useFonts } from '@expo-google-fonts/overlock/useFonts';
+import { Overlock_400Regular } from '@expo-google-fonts/overlock/400Regular';
+import { Overlock_400Regular_Italic } from '@expo-google-fonts/overlock/400Regular_Italic';
+import { Overlock_700Bold } from '@expo-google-fonts/overlock/700Bold';
+import { Overlock_700Bold_Italic } from '@expo-google-fonts/overlock/700Bold_Italic';
+import { Overlock_900Black } from '@expo-google-fonts/overlock/900Black';
+import { Overlock_900Black_Italic } from '@expo-google-fonts/overlock/900Black_Italic';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Overlock_400Regular](./Overlock_400Regular.ttf.png)|![Overlock_400Regular_Italic](./Overlock_400Regular_Italic.ttf.png)|![Overlock_700Bold](./Overlock_700Bold.ttf.png)||
-|![Overlock_700Bold_Italic](./Overlock_700Bold_Italic.ttf.png)|![Overlock_900Black](./Overlock_900Black.ttf.png)|![Overlock_900Black_Italic](./Overlock_900Black_Italic.ttf.png)||
+|![Overlock_400Regular](./400Regular/Overlock_400Regular.ttf.png)|![Overlock_400Regular_Italic](./400Regular_Italic/Overlock_400Regular_Italic.ttf.png)|![Overlock_700Bold](./700Bold/Overlock_700Bold.ttf.png)||
+|![Overlock_700Bold_Italic](./700Bold_Italic/Overlock_700Bold_Italic.ttf.png)|![Overlock_900Black](./900Black/Overlock_900Black.ttf.png)|![Overlock_900Black_Italic](./900Black_Italic/Overlock_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

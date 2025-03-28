@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/playwrite-au-sa expo-font expo-app-loading
+npx expo install @expo-google-fonts/playwrite-au-sa expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PlaywriteAUSA_100Thin, PlaywriteAUSA_200ExtraLight, PlaywriteAUSA_300Light, PlaywriteAUSA_400Regular } from '@expo-google-fonts/playwrite-au-sa';
+import { useFonts } from '@expo-google-fonts/playwrite-au-sa/useFonts';
+import { PlaywriteAUSA_100Thin } from '@expo-google-fonts/playwrite-au-sa/100Thin';
+import { PlaywriteAUSA_200ExtraLight } from '@expo-google-fonts/playwrite-au-sa/200ExtraLight';
+import { PlaywriteAUSA_300Light } from '@expo-google-fonts/playwrite-au-sa/300Light';
+import { PlaywriteAUSA_400Regular } from '@expo-google-fonts/playwrite-au-sa/400Regular';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteAUSA_100Thin](./PlaywriteAUSA_100Thin.ttf.png)|![PlaywriteAUSA_200ExtraLight](./PlaywriteAUSA_200ExtraLight.ttf.png)|![PlaywriteAUSA_300Light](./PlaywriteAUSA_300Light.ttf.png)||
-|![PlaywriteAUSA_400Regular](./PlaywriteAUSA_400Regular.ttf.png)||||
+|![PlaywriteAUSA_100Thin](./100Thin/PlaywriteAUSA_100Thin.ttf.png)|![PlaywriteAUSA_200ExtraLight](./200ExtraLight/PlaywriteAUSA_200ExtraLight.ttf.png)|![PlaywriteAUSA_300Light](./300Light/PlaywriteAUSA_300Light.ttf.png)||
+|![PlaywriteAUSA_400Regular](./400Regular/PlaywriteAUSA_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

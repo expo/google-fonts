@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/encode-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/encode-sans expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, EncodeSans_100Thin, EncodeSans_200ExtraLight, EncodeSans_300Light, EncodeSans_400Regular, EncodeSans_500Medium, EncodeSans_600SemiBold, EncodeSans_700Bold, EncodeSans_800ExtraBold, EncodeSans_900Black } from '@expo-google-fonts/encode-sans';
+import { useFonts } from '@expo-google-fonts/encode-sans/useFonts';
+import { EncodeSans_100Thin } from '@expo-google-fonts/encode-sans/100Thin';
+import { EncodeSans_200ExtraLight } from '@expo-google-fonts/encode-sans/200ExtraLight';
+import { EncodeSans_300Light } from '@expo-google-fonts/encode-sans/300Light';
+import { EncodeSans_400Regular } from '@expo-google-fonts/encode-sans/400Regular';
+import { EncodeSans_500Medium } from '@expo-google-fonts/encode-sans/500Medium';
+import { EncodeSans_600SemiBold } from '@expo-google-fonts/encode-sans/600SemiBold';
+import { EncodeSans_700Bold } from '@expo-google-fonts/encode-sans/700Bold';
+import { EncodeSans_800ExtraBold } from '@expo-google-fonts/encode-sans/800ExtraBold';
+import { EncodeSans_900Black } from '@expo-google-fonts/encode-sans/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EncodeSans_100Thin](./EncodeSans_100Thin.ttf.png)|![EncodeSans_200ExtraLight](./EncodeSans_200ExtraLight.ttf.png)|![EncodeSans_300Light](./EncodeSans_300Light.ttf.png)||
-|![EncodeSans_400Regular](./EncodeSans_400Regular.ttf.png)|![EncodeSans_500Medium](./EncodeSans_500Medium.ttf.png)|![EncodeSans_600SemiBold](./EncodeSans_600SemiBold.ttf.png)||
-|![EncodeSans_700Bold](./EncodeSans_700Bold.ttf.png)|![EncodeSans_800ExtraBold](./EncodeSans_800ExtraBold.ttf.png)|![EncodeSans_900Black](./EncodeSans_900Black.ttf.png)||
+|![EncodeSans_100Thin](./100Thin/EncodeSans_100Thin.ttf.png)|![EncodeSans_200ExtraLight](./200ExtraLight/EncodeSans_200ExtraLight.ttf.png)|![EncodeSans_300Light](./300Light/EncodeSans_300Light.ttf.png)||
+|![EncodeSans_400Regular](./400Regular/EncodeSans_400Regular.ttf.png)|![EncodeSans_500Medium](./500Medium/EncodeSans_500Medium.ttf.png)|![EncodeSans_600SemiBold](./600SemiBold/EncodeSans_600SemiBold.ttf.png)||
+|![EncodeSans_700Bold](./700Bold/EncodeSans_700Bold.ttf.png)|![EncodeSans_800ExtraBold](./800ExtraBold/EncodeSans_800ExtraBold.ttf.png)|![EncodeSans_900Black](./900Black/EncodeSans_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

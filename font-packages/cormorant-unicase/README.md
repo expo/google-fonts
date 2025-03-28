@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/cormorant-unicase expo-font expo-app-loading
+npx expo install @expo-google-fonts/cormorant-unicase expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, CormorantUnicase_300Light, CormorantUnicase_400Regular, CormorantUnicase_500Medium, CormorantUnicase_600SemiBold, CormorantUnicase_700Bold } from '@expo-google-fonts/cormorant-unicase';
+import { useFonts } from '@expo-google-fonts/cormorant-unicase/useFonts';
+import { CormorantUnicase_300Light } from '@expo-google-fonts/cormorant-unicase/300Light';
+import { CormorantUnicase_400Regular } from '@expo-google-fonts/cormorant-unicase/400Regular';
+import { CormorantUnicase_500Medium } from '@expo-google-fonts/cormorant-unicase/500Medium';
+import { CormorantUnicase_600SemiBold } from '@expo-google-fonts/cormorant-unicase/600SemiBold';
+import { CormorantUnicase_700Bold } from '@expo-google-fonts/cormorant-unicase/700Bold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CormorantUnicase_300Light](./CormorantUnicase_300Light.ttf.png)|![CormorantUnicase_400Regular](./CormorantUnicase_400Regular.ttf.png)|![CormorantUnicase_500Medium](./CormorantUnicase_500Medium.ttf.png)||
-|![CormorantUnicase_600SemiBold](./CormorantUnicase_600SemiBold.ttf.png)|![CormorantUnicase_700Bold](./CormorantUnicase_700Bold.ttf.png)|||
+|![CormorantUnicase_300Light](./300Light/CormorantUnicase_300Light.ttf.png)|![CormorantUnicase_400Regular](./400Regular/CormorantUnicase_400Regular.ttf.png)|![CormorantUnicase_500Medium](./500Medium/CormorantUnicase_500Medium.ttf.png)||
+|![CormorantUnicase_600SemiBold](./600SemiBold/CormorantUnicase_600SemiBold.ttf.png)|![CormorantUnicase_700Bold](./700Bold/CormorantUnicase_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

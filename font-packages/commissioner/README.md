@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/commissioner expo-font expo-app-loading
+npx expo install @expo-google-fonts/commissioner expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Commissioner_100Thin, Commissioner_200ExtraLight, Commissioner_300Light, Commissioner_400Regular, Commissioner_500Medium, Commissioner_600SemiBold, Commissioner_700Bold, Commissioner_800ExtraBold, Commissioner_900Black } from '@expo-google-fonts/commissioner';
+import { useFonts } from '@expo-google-fonts/commissioner/useFonts';
+import { Commissioner_100Thin } from '@expo-google-fonts/commissioner/100Thin';
+import { Commissioner_200ExtraLight } from '@expo-google-fonts/commissioner/200ExtraLight';
+import { Commissioner_300Light } from '@expo-google-fonts/commissioner/300Light';
+import { Commissioner_400Regular } from '@expo-google-fonts/commissioner/400Regular';
+import { Commissioner_500Medium } from '@expo-google-fonts/commissioner/500Medium';
+import { Commissioner_600SemiBold } from '@expo-google-fonts/commissioner/600SemiBold';
+import { Commissioner_700Bold } from '@expo-google-fonts/commissioner/700Bold';
+import { Commissioner_800ExtraBold } from '@expo-google-fonts/commissioner/800ExtraBold';
+import { Commissioner_900Black } from '@expo-google-fonts/commissioner/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Commissioner_100Thin](./Commissioner_100Thin.ttf.png)|![Commissioner_200ExtraLight](./Commissioner_200ExtraLight.ttf.png)|![Commissioner_300Light](./Commissioner_300Light.ttf.png)||
-|![Commissioner_400Regular](./Commissioner_400Regular.ttf.png)|![Commissioner_500Medium](./Commissioner_500Medium.ttf.png)|![Commissioner_600SemiBold](./Commissioner_600SemiBold.ttf.png)||
-|![Commissioner_700Bold](./Commissioner_700Bold.ttf.png)|![Commissioner_800ExtraBold](./Commissioner_800ExtraBold.ttf.png)|![Commissioner_900Black](./Commissioner_900Black.ttf.png)||
+|![Commissioner_100Thin](./100Thin/Commissioner_100Thin.ttf.png)|![Commissioner_200ExtraLight](./200ExtraLight/Commissioner_200ExtraLight.ttf.png)|![Commissioner_300Light](./300Light/Commissioner_300Light.ttf.png)||
+|![Commissioner_400Regular](./400Regular/Commissioner_400Regular.ttf.png)|![Commissioner_500Medium](./500Medium/Commissioner_500Medium.ttf.png)|![Commissioner_600SemiBold](./600SemiBold/Commissioner_600SemiBold.ttf.png)||
+|![Commissioner_700Bold](./700Bold/Commissioner_700Bold.ttf.png)|![Commissioner_800ExtraBold](./800ExtraBold/Commissioner_800ExtraBold.ttf.png)|![Commissioner_900Black](./900Black/Commissioner_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

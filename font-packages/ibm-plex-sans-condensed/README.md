@@ -33,7 +33,7 @@ This font family contains [14 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/ibm-plex-sans-condensed expo-font expo-app-loading
+npx expo install @expo-google-fonts/ibm-plex-sans-condensed expo-font
 ```
 
 Now add code like this to your project
@@ -42,8 +42,21 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, IBMPlexSansCondensed_100Thin, IBMPlexSansCondensed_100Thin_Italic, IBMPlexSansCondensed_200ExtraLight, IBMPlexSansCondensed_200ExtraLight_Italic, IBMPlexSansCondensed_300Light, IBMPlexSansCondensed_300Light_Italic, IBMPlexSansCondensed_400Regular, IBMPlexSansCondensed_400Regular_Italic, IBMPlexSansCondensed_500Medium, IBMPlexSansCondensed_500Medium_Italic, IBMPlexSansCondensed_600SemiBold, IBMPlexSansCondensed_600SemiBold_Italic, IBMPlexSansCondensed_700Bold, IBMPlexSansCondensed_700Bold_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed';
+import { useFonts } from '@expo-google-fonts/ibm-plex-sans-condensed/useFonts';
+import { IBMPlexSansCondensed_100Thin } from '@expo-google-fonts/ibm-plex-sans-condensed/100Thin';
+import { IBMPlexSansCondensed_100Thin_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/100Thin_Italic';
+import { IBMPlexSansCondensed_200ExtraLight } from '@expo-google-fonts/ibm-plex-sans-condensed/200ExtraLight';
+import { IBMPlexSansCondensed_200ExtraLight_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/200ExtraLight_Italic';
+import { IBMPlexSansCondensed_300Light } from '@expo-google-fonts/ibm-plex-sans-condensed/300Light';
+import { IBMPlexSansCondensed_300Light_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/300Light_Italic';
+import { IBMPlexSansCondensed_400Regular } from '@expo-google-fonts/ibm-plex-sans-condensed/400Regular';
+import { IBMPlexSansCondensed_400Regular_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/400Regular_Italic';
+import { IBMPlexSansCondensed_500Medium } from '@expo-google-fonts/ibm-plex-sans-condensed/500Medium';
+import { IBMPlexSansCondensed_500Medium_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/500Medium_Italic';
+import { IBMPlexSansCondensed_600SemiBold } from '@expo-google-fonts/ibm-plex-sans-condensed/600SemiBold';
+import { IBMPlexSansCondensed_600SemiBold_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/600SemiBold_Italic';
+import { IBMPlexSansCondensed_700Bold } from '@expo-google-fonts/ibm-plex-sans-condensed/700Bold';
+import { IBMPlexSansCondensed_700Bold_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/700Bold_Italic';
 
 export default () => {
 
@@ -68,7 +81,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -195,11 +208,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IBMPlexSansCondensed_100Thin](./IBMPlexSansCondensed_100Thin.ttf.png)|![IBMPlexSansCondensed_100Thin_Italic](./IBMPlexSansCondensed_100Thin_Italic.ttf.png)|![IBMPlexSansCondensed_200ExtraLight](./IBMPlexSansCondensed_200ExtraLight.ttf.png)||
-|![IBMPlexSansCondensed_200ExtraLight_Italic](./IBMPlexSansCondensed_200ExtraLight_Italic.ttf.png)|![IBMPlexSansCondensed_300Light](./IBMPlexSansCondensed_300Light.ttf.png)|![IBMPlexSansCondensed_300Light_Italic](./IBMPlexSansCondensed_300Light_Italic.ttf.png)||
-|![IBMPlexSansCondensed_400Regular](./IBMPlexSansCondensed_400Regular.ttf.png)|![IBMPlexSansCondensed_400Regular_Italic](./IBMPlexSansCondensed_400Regular_Italic.ttf.png)|![IBMPlexSansCondensed_500Medium](./IBMPlexSansCondensed_500Medium.ttf.png)||
-|![IBMPlexSansCondensed_500Medium_Italic](./IBMPlexSansCondensed_500Medium_Italic.ttf.png)|![IBMPlexSansCondensed_600SemiBold](./IBMPlexSansCondensed_600SemiBold.ttf.png)|![IBMPlexSansCondensed_600SemiBold_Italic](./IBMPlexSansCondensed_600SemiBold_Italic.ttf.png)||
-|![IBMPlexSansCondensed_700Bold](./IBMPlexSansCondensed_700Bold.ttf.png)|![IBMPlexSansCondensed_700Bold_Italic](./IBMPlexSansCondensed_700Bold_Italic.ttf.png)|||
+|![IBMPlexSansCondensed_100Thin](./100Thin/IBMPlexSansCondensed_100Thin.ttf.png)|![IBMPlexSansCondensed_100Thin_Italic](./100Thin_Italic/IBMPlexSansCondensed_100Thin_Italic.ttf.png)|![IBMPlexSansCondensed_200ExtraLight](./200ExtraLight/IBMPlexSansCondensed_200ExtraLight.ttf.png)||
+|![IBMPlexSansCondensed_200ExtraLight_Italic](./200ExtraLight_Italic/IBMPlexSansCondensed_200ExtraLight_Italic.ttf.png)|![IBMPlexSansCondensed_300Light](./300Light/IBMPlexSansCondensed_300Light.ttf.png)|![IBMPlexSansCondensed_300Light_Italic](./300Light_Italic/IBMPlexSansCondensed_300Light_Italic.ttf.png)||
+|![IBMPlexSansCondensed_400Regular](./400Regular/IBMPlexSansCondensed_400Regular.ttf.png)|![IBMPlexSansCondensed_400Regular_Italic](./400Regular_Italic/IBMPlexSansCondensed_400Regular_Italic.ttf.png)|![IBMPlexSansCondensed_500Medium](./500Medium/IBMPlexSansCondensed_500Medium.ttf.png)||
+|![IBMPlexSansCondensed_500Medium_Italic](./500Medium_Italic/IBMPlexSansCondensed_500Medium_Italic.ttf.png)|![IBMPlexSansCondensed_600SemiBold](./600SemiBold/IBMPlexSansCondensed_600SemiBold.ttf.png)|![IBMPlexSansCondensed_600SemiBold_Italic](./600SemiBold_Italic/IBMPlexSansCondensed_600SemiBold_Italic.ttf.png)||
+|![IBMPlexSansCondensed_700Bold](./700Bold/IBMPlexSansCondensed_700Bold.ttf.png)|![IBMPlexSansCondensed_700Bold_Italic](./700Bold_Italic/IBMPlexSansCondensed_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

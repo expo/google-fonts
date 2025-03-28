@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/phudu expo-font expo-app-loading
+npx expo install @expo-google-fonts/phudu expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Phudu_300Light, Phudu_400Regular, Phudu_500Medium, Phudu_600SemiBold, Phudu_700Bold, Phudu_800ExtraBold, Phudu_900Black } from '@expo-google-fonts/phudu';
+import { useFonts } from '@expo-google-fonts/phudu/useFonts';
+import { Phudu_300Light } from '@expo-google-fonts/phudu/300Light';
+import { Phudu_400Regular } from '@expo-google-fonts/phudu/400Regular';
+import { Phudu_500Medium } from '@expo-google-fonts/phudu/500Medium';
+import { Phudu_600SemiBold } from '@expo-google-fonts/phudu/600SemiBold';
+import { Phudu_700Bold } from '@expo-google-fonts/phudu/700Bold';
+import { Phudu_800ExtraBold } from '@expo-google-fonts/phudu/800ExtraBold';
+import { Phudu_900Black } from '@expo-google-fonts/phudu/900Black';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Phudu_300Light](./Phudu_300Light.ttf.png)|![Phudu_400Regular](./Phudu_400Regular.ttf.png)|![Phudu_500Medium](./Phudu_500Medium.ttf.png)||
-|![Phudu_600SemiBold](./Phudu_600SemiBold.ttf.png)|![Phudu_700Bold](./Phudu_700Bold.ttf.png)|![Phudu_800ExtraBold](./Phudu_800ExtraBold.ttf.png)||
-|![Phudu_900Black](./Phudu_900Black.ttf.png)||||
+|![Phudu_300Light](./300Light/Phudu_300Light.ttf.png)|![Phudu_400Regular](./400Regular/Phudu_400Regular.ttf.png)|![Phudu_500Medium](./500Medium/Phudu_500Medium.ttf.png)||
+|![Phudu_600SemiBold](./600SemiBold/Phudu_600SemiBold.ttf.png)|![Phudu_700Bold](./700Bold/Phudu_700Bold.ttf.png)|![Phudu_800ExtraBold](./800ExtraBold/Phudu_800ExtraBold.ttf.png)||
+|![Phudu_900Black](./900Black/Phudu_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

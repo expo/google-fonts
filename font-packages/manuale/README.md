@@ -31,7 +31,7 @@ This font family contains [12 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/manuale expo-font expo-app-loading
+npx expo install @expo-google-fonts/manuale expo-font
 ```
 
 Now add code like this to your project
@@ -40,8 +40,19 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Manuale_300Light, Manuale_400Regular, Manuale_500Medium, Manuale_600SemiBold, Manuale_700Bold, Manuale_800ExtraBold, Manuale_300Light_Italic, Manuale_400Regular_Italic, Manuale_500Medium_Italic, Manuale_600SemiBold_Italic, Manuale_700Bold_Italic, Manuale_800ExtraBold_Italic } from '@expo-google-fonts/manuale';
+import { useFonts } from '@expo-google-fonts/manuale/useFonts';
+import { Manuale_300Light } from '@expo-google-fonts/manuale/300Light';
+import { Manuale_400Regular } from '@expo-google-fonts/manuale/400Regular';
+import { Manuale_500Medium } from '@expo-google-fonts/manuale/500Medium';
+import { Manuale_600SemiBold } from '@expo-google-fonts/manuale/600SemiBold';
+import { Manuale_700Bold } from '@expo-google-fonts/manuale/700Bold';
+import { Manuale_800ExtraBold } from '@expo-google-fonts/manuale/800ExtraBold';
+import { Manuale_300Light_Italic } from '@expo-google-fonts/manuale/300Light_Italic';
+import { Manuale_400Regular_Italic } from '@expo-google-fonts/manuale/400Regular_Italic';
+import { Manuale_500Medium_Italic } from '@expo-google-fonts/manuale/500Medium_Italic';
+import { Manuale_600SemiBold_Italic } from '@expo-google-fonts/manuale/600SemiBold_Italic';
+import { Manuale_700Bold_Italic } from '@expo-google-fonts/manuale/700Bold_Italic';
+import { Manuale_800ExtraBold_Italic } from '@expo-google-fonts/manuale/800ExtraBold_Italic';
 
 export default () => {
 
@@ -64,7 +75,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -175,10 +186,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Manuale_300Light](./Manuale_300Light.ttf.png)|![Manuale_400Regular](./Manuale_400Regular.ttf.png)|![Manuale_500Medium](./Manuale_500Medium.ttf.png)||
-|![Manuale_600SemiBold](./Manuale_600SemiBold.ttf.png)|![Manuale_700Bold](./Manuale_700Bold.ttf.png)|![Manuale_800ExtraBold](./Manuale_800ExtraBold.ttf.png)||
-|![Manuale_300Light_Italic](./Manuale_300Light_Italic.ttf.png)|![Manuale_400Regular_Italic](./Manuale_400Regular_Italic.ttf.png)|![Manuale_500Medium_Italic](./Manuale_500Medium_Italic.ttf.png)||
-|![Manuale_600SemiBold_Italic](./Manuale_600SemiBold_Italic.ttf.png)|![Manuale_700Bold_Italic](./Manuale_700Bold_Italic.ttf.png)|![Manuale_800ExtraBold_Italic](./Manuale_800ExtraBold_Italic.ttf.png)||
+|![Manuale_300Light](./300Light/Manuale_300Light.ttf.png)|![Manuale_400Regular](./400Regular/Manuale_400Regular.ttf.png)|![Manuale_500Medium](./500Medium/Manuale_500Medium.ttf.png)||
+|![Manuale_600SemiBold](./600SemiBold/Manuale_600SemiBold.ttf.png)|![Manuale_700Bold](./700Bold/Manuale_700Bold.ttf.png)|![Manuale_800ExtraBold](./800ExtraBold/Manuale_800ExtraBold.ttf.png)||
+|![Manuale_300Light_Italic](./300Light_Italic/Manuale_300Light_Italic.ttf.png)|![Manuale_400Regular_Italic](./400Regular_Italic/Manuale_400Regular_Italic.ttf.png)|![Manuale_500Medium_Italic](./500Medium_Italic/Manuale_500Medium_Italic.ttf.png)||
+|![Manuale_600SemiBold_Italic](./600SemiBold_Italic/Manuale_600SemiBold_Italic.ttf.png)|![Manuale_700Bold_Italic](./700Bold_Italic/Manuale_700Bold_Italic.ttf.png)|![Manuale_800ExtraBold_Italic](./800ExtraBold_Italic/Manuale_800ExtraBold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

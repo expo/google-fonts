@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/inknut-antiqua expo-font expo-app-loading
+npx expo install @expo-google-fonts/inknut-antiqua expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, InknutAntiqua_300Light, InknutAntiqua_400Regular, InknutAntiqua_500Medium, InknutAntiqua_600SemiBold, InknutAntiqua_700Bold, InknutAntiqua_800ExtraBold, InknutAntiqua_900Black } from '@expo-google-fonts/inknut-antiqua';
+import { useFonts } from '@expo-google-fonts/inknut-antiqua/useFonts';
+import { InknutAntiqua_300Light } from '@expo-google-fonts/inknut-antiqua/300Light';
+import { InknutAntiqua_400Regular } from '@expo-google-fonts/inknut-antiqua/400Regular';
+import { InknutAntiqua_500Medium } from '@expo-google-fonts/inknut-antiqua/500Medium';
+import { InknutAntiqua_600SemiBold } from '@expo-google-fonts/inknut-antiqua/600SemiBold';
+import { InknutAntiqua_700Bold } from '@expo-google-fonts/inknut-antiqua/700Bold';
+import { InknutAntiqua_800ExtraBold } from '@expo-google-fonts/inknut-antiqua/800ExtraBold';
+import { InknutAntiqua_900Black } from '@expo-google-fonts/inknut-antiqua/900Black';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![InknutAntiqua_300Light](./InknutAntiqua_300Light.ttf.png)|![InknutAntiqua_400Regular](./InknutAntiqua_400Regular.ttf.png)|![InknutAntiqua_500Medium](./InknutAntiqua_500Medium.ttf.png)||
-|![InknutAntiqua_600SemiBold](./InknutAntiqua_600SemiBold.ttf.png)|![InknutAntiqua_700Bold](./InknutAntiqua_700Bold.ttf.png)|![InknutAntiqua_800ExtraBold](./InknutAntiqua_800ExtraBold.ttf.png)||
-|![InknutAntiqua_900Black](./InknutAntiqua_900Black.ttf.png)||||
+|![InknutAntiqua_300Light](./300Light/InknutAntiqua_300Light.ttf.png)|![InknutAntiqua_400Regular](./400Regular/InknutAntiqua_400Regular.ttf.png)|![InknutAntiqua_500Medium](./500Medium/InknutAntiqua_500Medium.ttf.png)||
+|![InknutAntiqua_600SemiBold](./600SemiBold/InknutAntiqua_600SemiBold.ttf.png)|![InknutAntiqua_700Bold](./700Bold/InknutAntiqua_700Bold.ttf.png)|![InknutAntiqua_800ExtraBold](./800ExtraBold/InknutAntiqua_800ExtraBold.ttf.png)||
+|![InknutAntiqua_900Black](./900Black/InknutAntiqua_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

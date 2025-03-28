@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-nag-mundari expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-nag-mundari expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansNagMundari_400Regular, NotoSansNagMundari_500Medium, NotoSansNagMundari_600SemiBold, NotoSansNagMundari_700Bold } from '@expo-google-fonts/noto-sans-nag-mundari';
+import { useFonts } from '@expo-google-fonts/noto-sans-nag-mundari/useFonts';
+import { NotoSansNagMundari_400Regular } from '@expo-google-fonts/noto-sans-nag-mundari/400Regular';
+import { NotoSansNagMundari_500Medium } from '@expo-google-fonts/noto-sans-nag-mundari/500Medium';
+import { NotoSansNagMundari_600SemiBold } from '@expo-google-fonts/noto-sans-nag-mundari/600SemiBold';
+import { NotoSansNagMundari_700Bold } from '@expo-google-fonts/noto-sans-nag-mundari/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansNagMundari_400Regular](./NotoSansNagMundari_400Regular.ttf.png)|![NotoSansNagMundari_500Medium](./NotoSansNagMundari_500Medium.ttf.png)|![NotoSansNagMundari_600SemiBold](./NotoSansNagMundari_600SemiBold.ttf.png)||
-|![NotoSansNagMundari_700Bold](./NotoSansNagMundari_700Bold.ttf.png)||||
+|![NotoSansNagMundari_400Regular](./400Regular/NotoSansNagMundari_400Regular.ttf.png)|![NotoSansNagMundari_500Medium](./500Medium/NotoSansNagMundari_500Medium.ttf.png)|![NotoSansNagMundari_600SemiBold](./600SemiBold/NotoSansNagMundari_600SemiBold.ttf.png)||
+|![NotoSansNagMundari_700Bold](./700Bold/NotoSansNagMundari_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

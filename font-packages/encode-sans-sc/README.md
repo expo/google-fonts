@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/encode-sans-sc expo-font expo-app-loading
+npx expo install @expo-google-fonts/encode-sans-sc expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, EncodeSansSC_100Thin, EncodeSansSC_200ExtraLight, EncodeSansSC_300Light, EncodeSansSC_400Regular, EncodeSansSC_500Medium, EncodeSansSC_600SemiBold, EncodeSansSC_700Bold, EncodeSansSC_800ExtraBold, EncodeSansSC_900Black } from '@expo-google-fonts/encode-sans-sc';
+import { useFonts } from '@expo-google-fonts/encode-sans-sc/useFonts';
+import { EncodeSansSC_100Thin } from '@expo-google-fonts/encode-sans-sc/100Thin';
+import { EncodeSansSC_200ExtraLight } from '@expo-google-fonts/encode-sans-sc/200ExtraLight';
+import { EncodeSansSC_300Light } from '@expo-google-fonts/encode-sans-sc/300Light';
+import { EncodeSansSC_400Regular } from '@expo-google-fonts/encode-sans-sc/400Regular';
+import { EncodeSansSC_500Medium } from '@expo-google-fonts/encode-sans-sc/500Medium';
+import { EncodeSansSC_600SemiBold } from '@expo-google-fonts/encode-sans-sc/600SemiBold';
+import { EncodeSansSC_700Bold } from '@expo-google-fonts/encode-sans-sc/700Bold';
+import { EncodeSansSC_800ExtraBold } from '@expo-google-fonts/encode-sans-sc/800ExtraBold';
+import { EncodeSansSC_900Black } from '@expo-google-fonts/encode-sans-sc/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EncodeSansSC_100Thin](./EncodeSansSC_100Thin.ttf.png)|![EncodeSansSC_200ExtraLight](./EncodeSansSC_200ExtraLight.ttf.png)|![EncodeSansSC_300Light](./EncodeSansSC_300Light.ttf.png)||
-|![EncodeSansSC_400Regular](./EncodeSansSC_400Regular.ttf.png)|![EncodeSansSC_500Medium](./EncodeSansSC_500Medium.ttf.png)|![EncodeSansSC_600SemiBold](./EncodeSansSC_600SemiBold.ttf.png)||
-|![EncodeSansSC_700Bold](./EncodeSansSC_700Bold.ttf.png)|![EncodeSansSC_800ExtraBold](./EncodeSansSC_800ExtraBold.ttf.png)|![EncodeSansSC_900Black](./EncodeSansSC_900Black.ttf.png)||
+|![EncodeSansSC_100Thin](./100Thin/EncodeSansSC_100Thin.ttf.png)|![EncodeSansSC_200ExtraLight](./200ExtraLight/EncodeSansSC_200ExtraLight.ttf.png)|![EncodeSansSC_300Light](./300Light/EncodeSansSC_300Light.ttf.png)||
+|![EncodeSansSC_400Regular](./400Regular/EncodeSansSC_400Regular.ttf.png)|![EncodeSansSC_500Medium](./500Medium/EncodeSansSC_500Medium.ttf.png)|![EncodeSansSC_600SemiBold](./600SemiBold/EncodeSansSC_600SemiBold.ttf.png)||
+|![EncodeSansSC_700Bold](./700Bold/EncodeSansSC_700Bold.ttf.png)|![EncodeSansSC_800ExtraBold](./800ExtraBold/EncodeSansSC_800ExtraBold.ttf.png)|![EncodeSansSC_900Black](./900Black/EncodeSansSC_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

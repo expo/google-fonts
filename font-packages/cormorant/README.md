@@ -29,7 +29,7 @@ This font family contains [10 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/cormorant expo-font expo-app-loading
+npx expo install @expo-google-fonts/cormorant expo-font
 ```
 
 Now add code like this to your project
@@ -38,8 +38,17 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Cormorant_300Light, Cormorant_400Regular, Cormorant_500Medium, Cormorant_600SemiBold, Cormorant_700Bold, Cormorant_300Light_Italic, Cormorant_400Regular_Italic, Cormorant_500Medium_Italic, Cormorant_600SemiBold_Italic, Cormorant_700Bold_Italic } from '@expo-google-fonts/cormorant';
+import { useFonts } from '@expo-google-fonts/cormorant/useFonts';
+import { Cormorant_300Light } from '@expo-google-fonts/cormorant/300Light';
+import { Cormorant_400Regular } from '@expo-google-fonts/cormorant/400Regular';
+import { Cormorant_500Medium } from '@expo-google-fonts/cormorant/500Medium';
+import { Cormorant_600SemiBold } from '@expo-google-fonts/cormorant/600SemiBold';
+import { Cormorant_700Bold } from '@expo-google-fonts/cormorant/700Bold';
+import { Cormorant_300Light_Italic } from '@expo-google-fonts/cormorant/300Light_Italic';
+import { Cormorant_400Regular_Italic } from '@expo-google-fonts/cormorant/400Regular_Italic';
+import { Cormorant_500Medium_Italic } from '@expo-google-fonts/cormorant/500Medium_Italic';
+import { Cormorant_600SemiBold_Italic } from '@expo-google-fonts/cormorant/600SemiBold_Italic';
+import { Cormorant_700Bold_Italic } from '@expo-google-fonts/cormorant/700Bold_Italic';
 
 export default () => {
 
@@ -60,7 +69,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -155,10 +164,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Cormorant_300Light](./Cormorant_300Light.ttf.png)|![Cormorant_400Regular](./Cormorant_400Regular.ttf.png)|![Cormorant_500Medium](./Cormorant_500Medium.ttf.png)||
-|![Cormorant_600SemiBold](./Cormorant_600SemiBold.ttf.png)|![Cormorant_700Bold](./Cormorant_700Bold.ttf.png)|![Cormorant_300Light_Italic](./Cormorant_300Light_Italic.ttf.png)||
-|![Cormorant_400Regular_Italic](./Cormorant_400Regular_Italic.ttf.png)|![Cormorant_500Medium_Italic](./Cormorant_500Medium_Italic.ttf.png)|![Cormorant_600SemiBold_Italic](./Cormorant_600SemiBold_Italic.ttf.png)||
-|![Cormorant_700Bold_Italic](./Cormorant_700Bold_Italic.ttf.png)||||
+|![Cormorant_300Light](./300Light/Cormorant_300Light.ttf.png)|![Cormorant_400Regular](./400Regular/Cormorant_400Regular.ttf.png)|![Cormorant_500Medium](./500Medium/Cormorant_500Medium.ttf.png)||
+|![Cormorant_600SemiBold](./600SemiBold/Cormorant_600SemiBold.ttf.png)|![Cormorant_700Bold](./700Bold/Cormorant_700Bold.ttf.png)|![Cormorant_300Light_Italic](./300Light_Italic/Cormorant_300Light_Italic.ttf.png)||
+|![Cormorant_400Regular_Italic](./400Regular_Italic/Cormorant_400Regular_Italic.ttf.png)|![Cormorant_500Medium_Italic](./500Medium_Italic/Cormorant_500Medium_Italic.ttf.png)|![Cormorant_600SemiBold_Italic](./600SemiBold_Italic/Cormorant_600SemiBold_Italic.ttf.png)||
+|![Cormorant_700Bold_Italic](./700Bold_Italic/Cormorant_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -1,9 +1,13 @@
 {
   "name": "@expo-google-fonts/viaoda-libre",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Use the Viaoda Libre font family from Google Fonts in your Expo app",
   "main": "index.js",
-  "repository": "https://github.com/expo/google-fonts.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/viaoda-libre"
+  },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/viaoda-libre#readme",
   "author": "Expo Team <team@expo.io>",
   "license": "MIT",

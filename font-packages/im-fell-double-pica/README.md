@@ -21,7 +21,7 @@ This font family contains [2 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/im-fell-double-pica expo-font expo-app-loading
+npx expo install @expo-google-fonts/im-fell-double-pica expo-font
 ```
 
 Now add code like this to your project
@@ -30,8 +30,9 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, IMFellDoublePica_400Regular, IMFellDoublePica_400Regular_Italic } from '@expo-google-fonts/im-fell-double-pica';
+import { useFonts } from '@expo-google-fonts/im-fell-double-pica/useFonts';
+import { IMFellDoublePica_400Regular } from '@expo-google-fonts/im-fell-double-pica/400Regular';
+import { IMFellDoublePica_400Regular_Italic } from '@expo-google-fonts/im-fell-double-pica/400Regular_Italic';
 
 export default () => {
 
@@ -44,7 +45,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -75,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IMFellDoublePica_400Regular](./IMFellDoublePica_400Regular.ttf.png)|![IMFellDoublePica_400Regular_Italic](./IMFellDoublePica_400Regular_Italic.ttf.png)|||
+|![IMFellDoublePica_400Regular](./400Regular/IMFellDoublePica_400Regular.ttf.png)|![IMFellDoublePica_400Regular_Italic](./400Regular_Italic/IMFellDoublePica_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

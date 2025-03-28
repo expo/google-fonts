@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/charis-sil expo-font expo-app-loading
+npx expo install @expo-google-fonts/charis-sil expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, CharisSIL_400Regular, CharisSIL_400Regular_Italic, CharisSIL_700Bold, CharisSIL_700Bold_Italic } from '@expo-google-fonts/charis-sil';
+import { useFonts } from '@expo-google-fonts/charis-sil/useFonts';
+import { CharisSIL_400Regular } from '@expo-google-fonts/charis-sil/400Regular';
+import { CharisSIL_400Regular_Italic } from '@expo-google-fonts/charis-sil/400Regular_Italic';
+import { CharisSIL_700Bold } from '@expo-google-fonts/charis-sil/700Bold';
+import { CharisSIL_700Bold_Italic } from '@expo-google-fonts/charis-sil/700Bold_Italic';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CharisSIL_400Regular](./CharisSIL_400Regular.ttf.png)|![CharisSIL_400Regular_Italic](./CharisSIL_400Regular_Italic.ttf.png)|![CharisSIL_700Bold](./CharisSIL_700Bold.ttf.png)||
-|![CharisSIL_700Bold_Italic](./CharisSIL_700Bold_Italic.ttf.png)||||
+|![CharisSIL_400Regular](./400Regular/CharisSIL_400Regular.ttf.png)|![CharisSIL_400Regular_Italic](./400Regular_Italic/CharisSIL_400Regular_Italic.ttf.png)|![CharisSIL_700Bold](./700Bold/CharisSIL_700Bold.ttf.png)||
+|![CharisSIL_700Bold_Italic](./700Bold_Italic/CharisSIL_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

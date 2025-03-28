@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/chivo-mono expo-font expo-app-loading
+npx expo install @expo-google-fonts/chivo-mono expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, ChivoMono_100Thin, ChivoMono_200ExtraLight, ChivoMono_300Light, ChivoMono_400Regular, ChivoMono_500Medium, ChivoMono_600SemiBold, ChivoMono_700Bold, ChivoMono_800ExtraBold, ChivoMono_900Black, ChivoMono_100Thin_Italic, ChivoMono_200ExtraLight_Italic, ChivoMono_300Light_Italic, ChivoMono_400Regular_Italic, ChivoMono_500Medium_Italic, ChivoMono_600SemiBold_Italic, ChivoMono_700Bold_Italic, ChivoMono_800ExtraBold_Italic, ChivoMono_900Black_Italic } from '@expo-google-fonts/chivo-mono';
+import { useFonts } from '@expo-google-fonts/chivo-mono/useFonts';
+import { ChivoMono_100Thin } from '@expo-google-fonts/chivo-mono/100Thin';
+import { ChivoMono_200ExtraLight } from '@expo-google-fonts/chivo-mono/200ExtraLight';
+import { ChivoMono_300Light } from '@expo-google-fonts/chivo-mono/300Light';
+import { ChivoMono_400Regular } from '@expo-google-fonts/chivo-mono/400Regular';
+import { ChivoMono_500Medium } from '@expo-google-fonts/chivo-mono/500Medium';
+import { ChivoMono_600SemiBold } from '@expo-google-fonts/chivo-mono/600SemiBold';
+import { ChivoMono_700Bold } from '@expo-google-fonts/chivo-mono/700Bold';
+import { ChivoMono_800ExtraBold } from '@expo-google-fonts/chivo-mono/800ExtraBold';
+import { ChivoMono_900Black } from '@expo-google-fonts/chivo-mono/900Black';
+import { ChivoMono_100Thin_Italic } from '@expo-google-fonts/chivo-mono/100Thin_Italic';
+import { ChivoMono_200ExtraLight_Italic } from '@expo-google-fonts/chivo-mono/200ExtraLight_Italic';
+import { ChivoMono_300Light_Italic } from '@expo-google-fonts/chivo-mono/300Light_Italic';
+import { ChivoMono_400Regular_Italic } from '@expo-google-fonts/chivo-mono/400Regular_Italic';
+import { ChivoMono_500Medium_Italic } from '@expo-google-fonts/chivo-mono/500Medium_Italic';
+import { ChivoMono_600SemiBold_Italic } from '@expo-google-fonts/chivo-mono/600SemiBold_Italic';
+import { ChivoMono_700Bold_Italic } from '@expo-google-fonts/chivo-mono/700Bold_Italic';
+import { ChivoMono_800ExtraBold_Italic } from '@expo-google-fonts/chivo-mono/800ExtraBold_Italic';
+import { ChivoMono_900Black_Italic } from '@expo-google-fonts/chivo-mono/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ChivoMono_100Thin](./ChivoMono_100Thin.ttf.png)|![ChivoMono_200ExtraLight](./ChivoMono_200ExtraLight.ttf.png)|![ChivoMono_300Light](./ChivoMono_300Light.ttf.png)||
-|![ChivoMono_400Regular](./ChivoMono_400Regular.ttf.png)|![ChivoMono_500Medium](./ChivoMono_500Medium.ttf.png)|![ChivoMono_600SemiBold](./ChivoMono_600SemiBold.ttf.png)||
-|![ChivoMono_700Bold](./ChivoMono_700Bold.ttf.png)|![ChivoMono_800ExtraBold](./ChivoMono_800ExtraBold.ttf.png)|![ChivoMono_900Black](./ChivoMono_900Black.ttf.png)||
-|![ChivoMono_100Thin_Italic](./ChivoMono_100Thin_Italic.ttf.png)|![ChivoMono_200ExtraLight_Italic](./ChivoMono_200ExtraLight_Italic.ttf.png)|![ChivoMono_300Light_Italic](./ChivoMono_300Light_Italic.ttf.png)||
-|![ChivoMono_400Regular_Italic](./ChivoMono_400Regular_Italic.ttf.png)|![ChivoMono_500Medium_Italic](./ChivoMono_500Medium_Italic.ttf.png)|![ChivoMono_600SemiBold_Italic](./ChivoMono_600SemiBold_Italic.ttf.png)||
-|![ChivoMono_700Bold_Italic](./ChivoMono_700Bold_Italic.ttf.png)|![ChivoMono_800ExtraBold_Italic](./ChivoMono_800ExtraBold_Italic.ttf.png)|![ChivoMono_900Black_Italic](./ChivoMono_900Black_Italic.ttf.png)||
+|![ChivoMono_100Thin](./100Thin/ChivoMono_100Thin.ttf.png)|![ChivoMono_200ExtraLight](./200ExtraLight/ChivoMono_200ExtraLight.ttf.png)|![ChivoMono_300Light](./300Light/ChivoMono_300Light.ttf.png)||
+|![ChivoMono_400Regular](./400Regular/ChivoMono_400Regular.ttf.png)|![ChivoMono_500Medium](./500Medium/ChivoMono_500Medium.ttf.png)|![ChivoMono_600SemiBold](./600SemiBold/ChivoMono_600SemiBold.ttf.png)||
+|![ChivoMono_700Bold](./700Bold/ChivoMono_700Bold.ttf.png)|![ChivoMono_800ExtraBold](./800ExtraBold/ChivoMono_800ExtraBold.ttf.png)|![ChivoMono_900Black](./900Black/ChivoMono_900Black.ttf.png)||
+|![ChivoMono_100Thin_Italic](./100Thin_Italic/ChivoMono_100Thin_Italic.ttf.png)|![ChivoMono_200ExtraLight_Italic](./200ExtraLight_Italic/ChivoMono_200ExtraLight_Italic.ttf.png)|![ChivoMono_300Light_Italic](./300Light_Italic/ChivoMono_300Light_Italic.ttf.png)||
+|![ChivoMono_400Regular_Italic](./400Regular_Italic/ChivoMono_400Regular_Italic.ttf.png)|![ChivoMono_500Medium_Italic](./500Medium_Italic/ChivoMono_500Medium_Italic.ttf.png)|![ChivoMono_600SemiBold_Italic](./600SemiBold_Italic/ChivoMono_600SemiBold_Italic.ttf.png)||
+|![ChivoMono_700Bold_Italic](./700Bold_Italic/ChivoMono_700Bold_Italic.ttf.png)|![ChivoMono_800ExtraBold_Italic](./800ExtraBold_Italic/ChivoMono_800ExtraBold_Italic.ttf.png)|![ChivoMono_900Black_Italic](./900Black_Italic/ChivoMono_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

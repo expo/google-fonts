@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/sansita expo-font expo-app-loading
+npx expo install @expo-google-fonts/sansita expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Sansita_400Regular, Sansita_400Regular_Italic, Sansita_700Bold, Sansita_700Bold_Italic, Sansita_800ExtraBold, Sansita_800ExtraBold_Italic, Sansita_900Black, Sansita_900Black_Italic } from '@expo-google-fonts/sansita';
+import { useFonts } from '@expo-google-fonts/sansita/useFonts';
+import { Sansita_400Regular } from '@expo-google-fonts/sansita/400Regular';
+import { Sansita_400Regular_Italic } from '@expo-google-fonts/sansita/400Regular_Italic';
+import { Sansita_700Bold } from '@expo-google-fonts/sansita/700Bold';
+import { Sansita_700Bold_Italic } from '@expo-google-fonts/sansita/700Bold_Italic';
+import { Sansita_800ExtraBold } from '@expo-google-fonts/sansita/800ExtraBold';
+import { Sansita_800ExtraBold_Italic } from '@expo-google-fonts/sansita/800ExtraBold_Italic';
+import { Sansita_900Black } from '@expo-google-fonts/sansita/900Black';
+import { Sansita_900Black_Italic } from '@expo-google-fonts/sansita/900Black_Italic';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sansita_400Regular](./Sansita_400Regular.ttf.png)|![Sansita_400Regular_Italic](./Sansita_400Regular_Italic.ttf.png)|![Sansita_700Bold](./Sansita_700Bold.ttf.png)||
-|![Sansita_700Bold_Italic](./Sansita_700Bold_Italic.ttf.png)|![Sansita_800ExtraBold](./Sansita_800ExtraBold.ttf.png)|![Sansita_800ExtraBold_Italic](./Sansita_800ExtraBold_Italic.ttf.png)||
-|![Sansita_900Black](./Sansita_900Black.ttf.png)|![Sansita_900Black_Italic](./Sansita_900Black_Italic.ttf.png)|||
+|![Sansita_400Regular](./400Regular/Sansita_400Regular.ttf.png)|![Sansita_400Regular_Italic](./400Regular_Italic/Sansita_400Regular_Italic.ttf.png)|![Sansita_700Bold](./700Bold/Sansita_700Bold.ttf.png)||
+|![Sansita_700Bold_Italic](./700Bold_Italic/Sansita_700Bold_Italic.ttf.png)|![Sansita_800ExtraBold](./800ExtraBold/Sansita_800ExtraBold.ttf.png)|![Sansita_800ExtraBold_Italic](./800ExtraBold_Italic/Sansita_800ExtraBold_Italic.ttf.png)||
+|![Sansita_900Black](./900Black/Sansita_900Black.ttf.png)|![Sansita_900Black_Italic](./900Black_Italic/Sansita_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

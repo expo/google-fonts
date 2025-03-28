@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/baloo-da-2 expo-font expo-app-loading
+npx expo install @expo-google-fonts/baloo-da-2 expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, BalooDa2_400Regular, BalooDa2_500Medium, BalooDa2_600SemiBold, BalooDa2_700Bold, BalooDa2_800ExtraBold } from '@expo-google-fonts/baloo-da-2';
+import { useFonts } from '@expo-google-fonts/baloo-da-2/useFonts';
+import { BalooDa2_400Regular } from '@expo-google-fonts/baloo-da-2/400Regular';
+import { BalooDa2_500Medium } from '@expo-google-fonts/baloo-da-2/500Medium';
+import { BalooDa2_600SemiBold } from '@expo-google-fonts/baloo-da-2/600SemiBold';
+import { BalooDa2_700Bold } from '@expo-google-fonts/baloo-da-2/700Bold';
+import { BalooDa2_800ExtraBold } from '@expo-google-fonts/baloo-da-2/800ExtraBold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BalooDa2_400Regular](./BalooDa2_400Regular.ttf.png)|![BalooDa2_500Medium](./BalooDa2_500Medium.ttf.png)|![BalooDa2_600SemiBold](./BalooDa2_600SemiBold.ttf.png)||
-|![BalooDa2_700Bold](./BalooDa2_700Bold.ttf.png)|![BalooDa2_800ExtraBold](./BalooDa2_800ExtraBold.ttf.png)|||
+|![BalooDa2_400Regular](./400Regular/BalooDa2_400Regular.ttf.png)|![BalooDa2_500Medium](./500Medium/BalooDa2_500Medium.ttf.png)|![BalooDa2_600SemiBold](./600SemiBold/BalooDa2_600SemiBold.ttf.png)||
+|![BalooDa2_700Bold](./700Bold/BalooDa2_700Bold.ttf.png)|![BalooDa2_800ExtraBold](./800ExtraBold/BalooDa2_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

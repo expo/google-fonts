@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/m-plus-rounded-1c expo-font expo-app-loading
+npx expo install @expo-google-fonts/m-plus-rounded-1c expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, MPLUSRounded1c_100Thin, MPLUSRounded1c_300Light, MPLUSRounded1c_400Regular, MPLUSRounded1c_500Medium, MPLUSRounded1c_700Bold, MPLUSRounded1c_800ExtraBold, MPLUSRounded1c_900Black } from '@expo-google-fonts/m-plus-rounded-1c';
+import { useFonts } from '@expo-google-fonts/m-plus-rounded-1c/useFonts';
+import { MPLUSRounded1c_100Thin } from '@expo-google-fonts/m-plus-rounded-1c/100Thin';
+import { MPLUSRounded1c_300Light } from '@expo-google-fonts/m-plus-rounded-1c/300Light';
+import { MPLUSRounded1c_400Regular } from '@expo-google-fonts/m-plus-rounded-1c/400Regular';
+import { MPLUSRounded1c_500Medium } from '@expo-google-fonts/m-plus-rounded-1c/500Medium';
+import { MPLUSRounded1c_700Bold } from '@expo-google-fonts/m-plus-rounded-1c/700Bold';
+import { MPLUSRounded1c_800ExtraBold } from '@expo-google-fonts/m-plus-rounded-1c/800ExtraBold';
+import { MPLUSRounded1c_900Black } from '@expo-google-fonts/m-plus-rounded-1c/900Black';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MPLUSRounded1c_100Thin](./MPLUSRounded1c_100Thin.ttf.png)|![MPLUSRounded1c_300Light](./MPLUSRounded1c_300Light.ttf.png)|![MPLUSRounded1c_400Regular](./MPLUSRounded1c_400Regular.ttf.png)||
-|![MPLUSRounded1c_500Medium](./MPLUSRounded1c_500Medium.ttf.png)|![MPLUSRounded1c_700Bold](./MPLUSRounded1c_700Bold.ttf.png)|![MPLUSRounded1c_800ExtraBold](./MPLUSRounded1c_800ExtraBold.ttf.png)||
-|![MPLUSRounded1c_900Black](./MPLUSRounded1c_900Black.ttf.png)||||
+|![MPLUSRounded1c_100Thin](./100Thin/MPLUSRounded1c_100Thin.ttf.png)|![MPLUSRounded1c_300Light](./300Light/MPLUSRounded1c_300Light.ttf.png)|![MPLUSRounded1c_400Regular](./400Regular/MPLUSRounded1c_400Regular.ttf.png)||
+|![MPLUSRounded1c_500Medium](./500Medium/MPLUSRounded1c_500Medium.ttf.png)|![MPLUSRounded1c_700Bold](./700Bold/MPLUSRounded1c_700Bold.ttf.png)|![MPLUSRounded1c_800ExtraBold](./800ExtraBold/MPLUSRounded1c_800ExtraBold.ttf.png)||
+|![MPLUSRounded1c_900Black](./900Black/MPLUSRounded1c_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

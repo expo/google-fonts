@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/recursive expo-font expo-app-loading
+npx expo install @expo-google-fonts/recursive expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Recursive_300Light, Recursive_400Regular, Recursive_500Medium, Recursive_600SemiBold, Recursive_700Bold, Recursive_800ExtraBold, Recursive_900Black } from '@expo-google-fonts/recursive';
+import { useFonts } from '@expo-google-fonts/recursive/useFonts';
+import { Recursive_300Light } from '@expo-google-fonts/recursive/300Light';
+import { Recursive_400Regular } from '@expo-google-fonts/recursive/400Regular';
+import { Recursive_500Medium } from '@expo-google-fonts/recursive/500Medium';
+import { Recursive_600SemiBold } from '@expo-google-fonts/recursive/600SemiBold';
+import { Recursive_700Bold } from '@expo-google-fonts/recursive/700Bold';
+import { Recursive_800ExtraBold } from '@expo-google-fonts/recursive/800ExtraBold';
+import { Recursive_900Black } from '@expo-google-fonts/recursive/900Black';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Recursive_300Light](./Recursive_300Light.ttf.png)|![Recursive_400Regular](./Recursive_400Regular.ttf.png)|![Recursive_500Medium](./Recursive_500Medium.ttf.png)||
-|![Recursive_600SemiBold](./Recursive_600SemiBold.ttf.png)|![Recursive_700Bold](./Recursive_700Bold.ttf.png)|![Recursive_800ExtraBold](./Recursive_800ExtraBold.ttf.png)||
-|![Recursive_900Black](./Recursive_900Black.ttf.png)||||
+|![Recursive_300Light](./300Light/Recursive_300Light.ttf.png)|![Recursive_400Regular](./400Regular/Recursive_400Regular.ttf.png)|![Recursive_500Medium](./500Medium/Recursive_500Medium.ttf.png)||
+|![Recursive_600SemiBold](./600SemiBold/Recursive_600SemiBold.ttf.png)|![Recursive_700Bold](./700Bold/Recursive_700Bold.ttf.png)|![Recursive_800ExtraBold](./800ExtraBold/Recursive_800ExtraBold.ttf.png)||
+|![Recursive_900Black](./900Black/Recursive_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

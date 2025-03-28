@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/truculenta expo-font expo-app-loading
+npx expo install @expo-google-fonts/truculenta expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Truculenta_100Thin, Truculenta_200ExtraLight, Truculenta_300Light, Truculenta_400Regular, Truculenta_500Medium, Truculenta_600SemiBold, Truculenta_700Bold, Truculenta_800ExtraBold, Truculenta_900Black } from '@expo-google-fonts/truculenta';
+import { useFonts } from '@expo-google-fonts/truculenta/useFonts';
+import { Truculenta_100Thin } from '@expo-google-fonts/truculenta/100Thin';
+import { Truculenta_200ExtraLight } from '@expo-google-fonts/truculenta/200ExtraLight';
+import { Truculenta_300Light } from '@expo-google-fonts/truculenta/300Light';
+import { Truculenta_400Regular } from '@expo-google-fonts/truculenta/400Regular';
+import { Truculenta_500Medium } from '@expo-google-fonts/truculenta/500Medium';
+import { Truculenta_600SemiBold } from '@expo-google-fonts/truculenta/600SemiBold';
+import { Truculenta_700Bold } from '@expo-google-fonts/truculenta/700Bold';
+import { Truculenta_800ExtraBold } from '@expo-google-fonts/truculenta/800ExtraBold';
+import { Truculenta_900Black } from '@expo-google-fonts/truculenta/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Truculenta_100Thin](./Truculenta_100Thin.ttf.png)|![Truculenta_200ExtraLight](./Truculenta_200ExtraLight.ttf.png)|![Truculenta_300Light](./Truculenta_300Light.ttf.png)||
-|![Truculenta_400Regular](./Truculenta_400Regular.ttf.png)|![Truculenta_500Medium](./Truculenta_500Medium.ttf.png)|![Truculenta_600SemiBold](./Truculenta_600SemiBold.ttf.png)||
-|![Truculenta_700Bold](./Truculenta_700Bold.ttf.png)|![Truculenta_800ExtraBold](./Truculenta_800ExtraBold.ttf.png)|![Truculenta_900Black](./Truculenta_900Black.ttf.png)||
+|![Truculenta_100Thin](./100Thin/Truculenta_100Thin.ttf.png)|![Truculenta_200ExtraLight](./200ExtraLight/Truculenta_200ExtraLight.ttf.png)|![Truculenta_300Light](./300Light/Truculenta_300Light.ttf.png)||
+|![Truculenta_400Regular](./400Regular/Truculenta_400Regular.ttf.png)|![Truculenta_500Medium](./500Medium/Truculenta_500Medium.ttf.png)|![Truculenta_600SemiBold](./600SemiBold/Truculenta_600SemiBold.ttf.png)||
+|![Truculenta_700Bold](./700Bold/Truculenta_700Bold.ttf.png)|![Truculenta_800ExtraBold](./800ExtraBold/Truculenta_800ExtraBold.ttf.png)|![Truculenta_900Black](./900Black/Truculenta_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

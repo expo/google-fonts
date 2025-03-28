@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/archivo-narrow expo-font expo-app-loading
+npx expo install @expo-google-fonts/archivo-narrow expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, ArchivoNarrow_400Regular, ArchivoNarrow_500Medium, ArchivoNarrow_600SemiBold, ArchivoNarrow_700Bold, ArchivoNarrow_400Regular_Italic, ArchivoNarrow_500Medium_Italic, ArchivoNarrow_600SemiBold_Italic, ArchivoNarrow_700Bold_Italic } from '@expo-google-fonts/archivo-narrow';
+import { useFonts } from '@expo-google-fonts/archivo-narrow/useFonts';
+import { ArchivoNarrow_400Regular } from '@expo-google-fonts/archivo-narrow/400Regular';
+import { ArchivoNarrow_500Medium } from '@expo-google-fonts/archivo-narrow/500Medium';
+import { ArchivoNarrow_600SemiBold } from '@expo-google-fonts/archivo-narrow/600SemiBold';
+import { ArchivoNarrow_700Bold } from '@expo-google-fonts/archivo-narrow/700Bold';
+import { ArchivoNarrow_400Regular_Italic } from '@expo-google-fonts/archivo-narrow/400Regular_Italic';
+import { ArchivoNarrow_500Medium_Italic } from '@expo-google-fonts/archivo-narrow/500Medium_Italic';
+import { ArchivoNarrow_600SemiBold_Italic } from '@expo-google-fonts/archivo-narrow/600SemiBold_Italic';
+import { ArchivoNarrow_700Bold_Italic } from '@expo-google-fonts/archivo-narrow/700Bold_Italic';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ArchivoNarrow_400Regular](./ArchivoNarrow_400Regular.ttf.png)|![ArchivoNarrow_500Medium](./ArchivoNarrow_500Medium.ttf.png)|![ArchivoNarrow_600SemiBold](./ArchivoNarrow_600SemiBold.ttf.png)||
-|![ArchivoNarrow_700Bold](./ArchivoNarrow_700Bold.ttf.png)|![ArchivoNarrow_400Regular_Italic](./ArchivoNarrow_400Regular_Italic.ttf.png)|![ArchivoNarrow_500Medium_Italic](./ArchivoNarrow_500Medium_Italic.ttf.png)||
-|![ArchivoNarrow_600SemiBold_Italic](./ArchivoNarrow_600SemiBold_Italic.ttf.png)|![ArchivoNarrow_700Bold_Italic](./ArchivoNarrow_700Bold_Italic.ttf.png)|||
+|![ArchivoNarrow_400Regular](./400Regular/ArchivoNarrow_400Regular.ttf.png)|![ArchivoNarrow_500Medium](./500Medium/ArchivoNarrow_500Medium.ttf.png)|![ArchivoNarrow_600SemiBold](./600SemiBold/ArchivoNarrow_600SemiBold.ttf.png)||
+|![ArchivoNarrow_700Bold](./700Bold/ArchivoNarrow_700Bold.ttf.png)|![ArchivoNarrow_400Regular_Italic](./400Regular_Italic/ArchivoNarrow_400Regular_Italic.ttf.png)|![ArchivoNarrow_500Medium_Italic](./500Medium_Italic/ArchivoNarrow_500Medium_Italic.ttf.png)||
+|![ArchivoNarrow_600SemiBold_Italic](./600SemiBold_Italic/ArchivoNarrow_600SemiBold_Italic.ttf.png)|![ArchivoNarrow_700Bold_Italic](./700Bold_Italic/ArchivoNarrow_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

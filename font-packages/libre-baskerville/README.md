@@ -22,7 +22,7 @@ This font family contains [3 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/libre-baskerville expo-font expo-app-loading
+npx expo install @expo-google-fonts/libre-baskerville expo-font
 ```
 
 Now add code like this to your project
@@ -31,8 +31,10 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, LibreBaskerville_400Regular, LibreBaskerville_400Regular_Italic, LibreBaskerville_700Bold } from '@expo-google-fonts/libre-baskerville';
+import { useFonts } from '@expo-google-fonts/libre-baskerville/useFonts';
+import { LibreBaskerville_400Regular } from '@expo-google-fonts/libre-baskerville/400Regular';
+import { LibreBaskerville_400Regular_Italic } from '@expo-google-fonts/libre-baskerville/400Regular_Italic';
+import { LibreBaskerville_700Bold } from '@expo-google-fonts/libre-baskerville/700Bold';
 
 export default () => {
 
@@ -46,7 +48,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -85,7 +87,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LibreBaskerville_400Regular](./LibreBaskerville_400Regular.ttf.png)|![LibreBaskerville_400Regular_Italic](./LibreBaskerville_400Regular_Italic.ttf.png)|![LibreBaskerville_700Bold](./LibreBaskerville_700Bold.ttf.png)||
+|![LibreBaskerville_400Regular](./400Regular/LibreBaskerville_400Regular.ttf.png)|![LibreBaskerville_400Regular_Italic](./400Regular_Italic/LibreBaskerville_400Regular_Italic.ttf.png)|![LibreBaskerville_700Bold](./700Bold/LibreBaskerville_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

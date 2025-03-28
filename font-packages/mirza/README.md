@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/mirza expo-font expo-app-loading
+npx expo install @expo-google-fonts/mirza expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Mirza_400Regular, Mirza_500Medium, Mirza_600SemiBold, Mirza_700Bold } from '@expo-google-fonts/mirza';
+import { useFonts } from '@expo-google-fonts/mirza/useFonts';
+import { Mirza_400Regular } from '@expo-google-fonts/mirza/400Regular';
+import { Mirza_500Medium } from '@expo-google-fonts/mirza/500Medium';
+import { Mirza_600SemiBold } from '@expo-google-fonts/mirza/600SemiBold';
+import { Mirza_700Bold } from '@expo-google-fonts/mirza/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Mirza_400Regular](./Mirza_400Regular.ttf.png)|![Mirza_500Medium](./Mirza_500Medium.ttf.png)|![Mirza_600SemiBold](./Mirza_600SemiBold.ttf.png)||
-|![Mirza_700Bold](./Mirza_700Bold.ttf.png)||||
+|![Mirza_400Regular](./400Regular/Mirza_400Regular.ttf.png)|![Mirza_500Medium](./500Medium/Mirza_500Medium.ttf.png)|![Mirza_600SemiBold](./600SemiBold/Mirza_600SemiBold.ttf.png)||
+|![Mirza_700Bold](./700Bold/Mirza_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

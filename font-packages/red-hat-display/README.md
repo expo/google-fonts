@@ -33,7 +33,7 @@ This font family contains [14 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/red-hat-display expo-font expo-app-loading
+npx expo install @expo-google-fonts/red-hat-display expo-font
 ```
 
 Now add code like this to your project
@@ -42,8 +42,21 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, RedHatDisplay_300Light, RedHatDisplay_400Regular, RedHatDisplay_500Medium, RedHatDisplay_600SemiBold, RedHatDisplay_700Bold, RedHatDisplay_800ExtraBold, RedHatDisplay_900Black, RedHatDisplay_300Light_Italic, RedHatDisplay_400Regular_Italic, RedHatDisplay_500Medium_Italic, RedHatDisplay_600SemiBold_Italic, RedHatDisplay_700Bold_Italic, RedHatDisplay_800ExtraBold_Italic, RedHatDisplay_900Black_Italic } from '@expo-google-fonts/red-hat-display';
+import { useFonts } from '@expo-google-fonts/red-hat-display/useFonts';
+import { RedHatDisplay_300Light } from '@expo-google-fonts/red-hat-display/300Light';
+import { RedHatDisplay_400Regular } from '@expo-google-fonts/red-hat-display/400Regular';
+import { RedHatDisplay_500Medium } from '@expo-google-fonts/red-hat-display/500Medium';
+import { RedHatDisplay_600SemiBold } from '@expo-google-fonts/red-hat-display/600SemiBold';
+import { RedHatDisplay_700Bold } from '@expo-google-fonts/red-hat-display/700Bold';
+import { RedHatDisplay_800ExtraBold } from '@expo-google-fonts/red-hat-display/800ExtraBold';
+import { RedHatDisplay_900Black } from '@expo-google-fonts/red-hat-display/900Black';
+import { RedHatDisplay_300Light_Italic } from '@expo-google-fonts/red-hat-display/300Light_Italic';
+import { RedHatDisplay_400Regular_Italic } from '@expo-google-fonts/red-hat-display/400Regular_Italic';
+import { RedHatDisplay_500Medium_Italic } from '@expo-google-fonts/red-hat-display/500Medium_Italic';
+import { RedHatDisplay_600SemiBold_Italic } from '@expo-google-fonts/red-hat-display/600SemiBold_Italic';
+import { RedHatDisplay_700Bold_Italic } from '@expo-google-fonts/red-hat-display/700Bold_Italic';
+import { RedHatDisplay_800ExtraBold_Italic } from '@expo-google-fonts/red-hat-display/800ExtraBold_Italic';
+import { RedHatDisplay_900Black_Italic } from '@expo-google-fonts/red-hat-display/900Black_Italic';
 
 export default () => {
 
@@ -68,7 +81,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -195,11 +208,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RedHatDisplay_300Light](./RedHatDisplay_300Light.ttf.png)|![RedHatDisplay_400Regular](./RedHatDisplay_400Regular.ttf.png)|![RedHatDisplay_500Medium](./RedHatDisplay_500Medium.ttf.png)||
-|![RedHatDisplay_600SemiBold](./RedHatDisplay_600SemiBold.ttf.png)|![RedHatDisplay_700Bold](./RedHatDisplay_700Bold.ttf.png)|![RedHatDisplay_800ExtraBold](./RedHatDisplay_800ExtraBold.ttf.png)||
-|![RedHatDisplay_900Black](./RedHatDisplay_900Black.ttf.png)|![RedHatDisplay_300Light_Italic](./RedHatDisplay_300Light_Italic.ttf.png)|![RedHatDisplay_400Regular_Italic](./RedHatDisplay_400Regular_Italic.ttf.png)||
-|![RedHatDisplay_500Medium_Italic](./RedHatDisplay_500Medium_Italic.ttf.png)|![RedHatDisplay_600SemiBold_Italic](./RedHatDisplay_600SemiBold_Italic.ttf.png)|![RedHatDisplay_700Bold_Italic](./RedHatDisplay_700Bold_Italic.ttf.png)||
-|![RedHatDisplay_800ExtraBold_Italic](./RedHatDisplay_800ExtraBold_Italic.ttf.png)|![RedHatDisplay_900Black_Italic](./RedHatDisplay_900Black_Italic.ttf.png)|||
+|![RedHatDisplay_300Light](./300Light/RedHatDisplay_300Light.ttf.png)|![RedHatDisplay_400Regular](./400Regular/RedHatDisplay_400Regular.ttf.png)|![RedHatDisplay_500Medium](./500Medium/RedHatDisplay_500Medium.ttf.png)||
+|![RedHatDisplay_600SemiBold](./600SemiBold/RedHatDisplay_600SemiBold.ttf.png)|![RedHatDisplay_700Bold](./700Bold/RedHatDisplay_700Bold.ttf.png)|![RedHatDisplay_800ExtraBold](./800ExtraBold/RedHatDisplay_800ExtraBold.ttf.png)||
+|![RedHatDisplay_900Black](./900Black/RedHatDisplay_900Black.ttf.png)|![RedHatDisplay_300Light_Italic](./300Light_Italic/RedHatDisplay_300Light_Italic.ttf.png)|![RedHatDisplay_400Regular_Italic](./400Regular_Italic/RedHatDisplay_400Regular_Italic.ttf.png)||
+|![RedHatDisplay_500Medium_Italic](./500Medium_Italic/RedHatDisplay_500Medium_Italic.ttf.png)|![RedHatDisplay_600SemiBold_Italic](./600SemiBold_Italic/RedHatDisplay_600SemiBold_Italic.ttf.png)|![RedHatDisplay_700Bold_Italic](./700Bold_Italic/RedHatDisplay_700Bold_Italic.ttf.png)||
+|![RedHatDisplay_800ExtraBold_Italic](./800ExtraBold_Italic/RedHatDisplay_800ExtraBold_Italic.ttf.png)|![RedHatDisplay_900Black_Italic](./900Black_Italic/RedHatDisplay_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

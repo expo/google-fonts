@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-khmer expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-khmer expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansKhmer_100Thin, NotoSansKhmer_200ExtraLight, NotoSansKhmer_300Light, NotoSansKhmer_400Regular, NotoSansKhmer_500Medium, NotoSansKhmer_600SemiBold, NotoSansKhmer_700Bold, NotoSansKhmer_800ExtraBold, NotoSansKhmer_900Black } from '@expo-google-fonts/noto-sans-khmer';
+import { useFonts } from '@expo-google-fonts/noto-sans-khmer/useFonts';
+import { NotoSansKhmer_100Thin } from '@expo-google-fonts/noto-sans-khmer/100Thin';
+import { NotoSansKhmer_200ExtraLight } from '@expo-google-fonts/noto-sans-khmer/200ExtraLight';
+import { NotoSansKhmer_300Light } from '@expo-google-fonts/noto-sans-khmer/300Light';
+import { NotoSansKhmer_400Regular } from '@expo-google-fonts/noto-sans-khmer/400Regular';
+import { NotoSansKhmer_500Medium } from '@expo-google-fonts/noto-sans-khmer/500Medium';
+import { NotoSansKhmer_600SemiBold } from '@expo-google-fonts/noto-sans-khmer/600SemiBold';
+import { NotoSansKhmer_700Bold } from '@expo-google-fonts/noto-sans-khmer/700Bold';
+import { NotoSansKhmer_800ExtraBold } from '@expo-google-fonts/noto-sans-khmer/800ExtraBold';
+import { NotoSansKhmer_900Black } from '@expo-google-fonts/noto-sans-khmer/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansKhmer_100Thin](./NotoSansKhmer_100Thin.ttf.png)|![NotoSansKhmer_200ExtraLight](./NotoSansKhmer_200ExtraLight.ttf.png)|![NotoSansKhmer_300Light](./NotoSansKhmer_300Light.ttf.png)||
-|![NotoSansKhmer_400Regular](./NotoSansKhmer_400Regular.ttf.png)|![NotoSansKhmer_500Medium](./NotoSansKhmer_500Medium.ttf.png)|![NotoSansKhmer_600SemiBold](./NotoSansKhmer_600SemiBold.ttf.png)||
-|![NotoSansKhmer_700Bold](./NotoSansKhmer_700Bold.ttf.png)|![NotoSansKhmer_800ExtraBold](./NotoSansKhmer_800ExtraBold.ttf.png)|![NotoSansKhmer_900Black](./NotoSansKhmer_900Black.ttf.png)||
+|![NotoSansKhmer_100Thin](./100Thin/NotoSansKhmer_100Thin.ttf.png)|![NotoSansKhmer_200ExtraLight](./200ExtraLight/NotoSansKhmer_200ExtraLight.ttf.png)|![NotoSansKhmer_300Light](./300Light/NotoSansKhmer_300Light.ttf.png)||
+|![NotoSansKhmer_400Regular](./400Regular/NotoSansKhmer_400Regular.ttf.png)|![NotoSansKhmer_500Medium](./500Medium/NotoSansKhmer_500Medium.ttf.png)|![NotoSansKhmer_600SemiBold](./600SemiBold/NotoSansKhmer_600SemiBold.ttf.png)||
+|![NotoSansKhmer_700Bold](./700Bold/NotoSansKhmer_700Bold.ttf.png)|![NotoSansKhmer_800ExtraBold](./800ExtraBold/NotoSansKhmer_800ExtraBold.ttf.png)|![NotoSansKhmer_900Black](./900Black/NotoSansKhmer_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

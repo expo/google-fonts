@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/vollkorn-sc expo-font expo-app-loading
+npx expo install @expo-google-fonts/vollkorn-sc expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, VollkornSC_400Regular, VollkornSC_600SemiBold, VollkornSC_700Bold, VollkornSC_900Black } from '@expo-google-fonts/vollkorn-sc';
+import { useFonts } from '@expo-google-fonts/vollkorn-sc/useFonts';
+import { VollkornSC_400Regular } from '@expo-google-fonts/vollkorn-sc/400Regular';
+import { VollkornSC_600SemiBold } from '@expo-google-fonts/vollkorn-sc/600SemiBold';
+import { VollkornSC_700Bold } from '@expo-google-fonts/vollkorn-sc/700Bold';
+import { VollkornSC_900Black } from '@expo-google-fonts/vollkorn-sc/900Black';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![VollkornSC_400Regular](./VollkornSC_400Regular.ttf.png)|![VollkornSC_600SemiBold](./VollkornSC_600SemiBold.ttf.png)|![VollkornSC_700Bold](./VollkornSC_700Bold.ttf.png)||
-|![VollkornSC_900Black](./VollkornSC_900Black.ttf.png)||||
+|![VollkornSC_400Regular](./400Regular/VollkornSC_400Regular.ttf.png)|![VollkornSC_600SemiBold](./600SemiBold/VollkornSC_600SemiBold.ttf.png)|![VollkornSC_700Bold](./700Bold/VollkornSC_700Bold.ttf.png)||
+|![VollkornSC_900Black](./900Black/VollkornSC_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/big-shoulders-inline expo-font expo-app-loading
+npx expo install @expo-google-fonts/big-shoulders-inline expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, BigShouldersInline_100Thin, BigShouldersInline_200ExtraLight, BigShouldersInline_300Light, BigShouldersInline_400Regular, BigShouldersInline_500Medium, BigShouldersInline_600SemiBold, BigShouldersInline_700Bold, BigShouldersInline_800ExtraBold, BigShouldersInline_900Black } from '@expo-google-fonts/big-shoulders-inline';
+import { useFonts } from '@expo-google-fonts/big-shoulders-inline/useFonts';
+import { BigShouldersInline_100Thin } from '@expo-google-fonts/big-shoulders-inline/100Thin';
+import { BigShouldersInline_200ExtraLight } from '@expo-google-fonts/big-shoulders-inline/200ExtraLight';
+import { BigShouldersInline_300Light } from '@expo-google-fonts/big-shoulders-inline/300Light';
+import { BigShouldersInline_400Regular } from '@expo-google-fonts/big-shoulders-inline/400Regular';
+import { BigShouldersInline_500Medium } from '@expo-google-fonts/big-shoulders-inline/500Medium';
+import { BigShouldersInline_600SemiBold } from '@expo-google-fonts/big-shoulders-inline/600SemiBold';
+import { BigShouldersInline_700Bold } from '@expo-google-fonts/big-shoulders-inline/700Bold';
+import { BigShouldersInline_800ExtraBold } from '@expo-google-fonts/big-shoulders-inline/800ExtraBold';
+import { BigShouldersInline_900Black } from '@expo-google-fonts/big-shoulders-inline/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BigShouldersInline_100Thin](./BigShouldersInline_100Thin.ttf.png)|![BigShouldersInline_200ExtraLight](./BigShouldersInline_200ExtraLight.ttf.png)|![BigShouldersInline_300Light](./BigShouldersInline_300Light.ttf.png)||
-|![BigShouldersInline_400Regular](./BigShouldersInline_400Regular.ttf.png)|![BigShouldersInline_500Medium](./BigShouldersInline_500Medium.ttf.png)|![BigShouldersInline_600SemiBold](./BigShouldersInline_600SemiBold.ttf.png)||
-|![BigShouldersInline_700Bold](./BigShouldersInline_700Bold.ttf.png)|![BigShouldersInline_800ExtraBold](./BigShouldersInline_800ExtraBold.ttf.png)|![BigShouldersInline_900Black](./BigShouldersInline_900Black.ttf.png)||
+|![BigShouldersInline_100Thin](./100Thin/BigShouldersInline_100Thin.ttf.png)|![BigShouldersInline_200ExtraLight](./200ExtraLight/BigShouldersInline_200ExtraLight.ttf.png)|![BigShouldersInline_300Light](./300Light/BigShouldersInline_300Light.ttf.png)||
+|![BigShouldersInline_400Regular](./400Regular/BigShouldersInline_400Regular.ttf.png)|![BigShouldersInline_500Medium](./500Medium/BigShouldersInline_500Medium.ttf.png)|![BigShouldersInline_600SemiBold](./600SemiBold/BigShouldersInline_600SemiBold.ttf.png)||
+|![BigShouldersInline_700Bold](./700Bold/BigShouldersInline_700Bold.ttf.png)|![BigShouldersInline_800ExtraBold](./800ExtraBold/BigShouldersInline_800ExtraBold.ttf.png)|![BigShouldersInline_900Black](./900Black/BigShouldersInline_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

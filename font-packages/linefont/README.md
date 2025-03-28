@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/linefont expo-font expo-app-loading
+npx expo install @expo-google-fonts/linefont expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Linefont_100Thin, Linefont_200ExtraLight, Linefont_300Light, Linefont_400Regular, Linefont_500Medium, Linefont_600SemiBold, Linefont_700Bold, Linefont_800ExtraBold, Linefont_900Black } from '@expo-google-fonts/linefont';
+import { useFonts } from '@expo-google-fonts/linefont/useFonts';
+import { Linefont_100Thin } from '@expo-google-fonts/linefont/100Thin';
+import { Linefont_200ExtraLight } from '@expo-google-fonts/linefont/200ExtraLight';
+import { Linefont_300Light } from '@expo-google-fonts/linefont/300Light';
+import { Linefont_400Regular } from '@expo-google-fonts/linefont/400Regular';
+import { Linefont_500Medium } from '@expo-google-fonts/linefont/500Medium';
+import { Linefont_600SemiBold } from '@expo-google-fonts/linefont/600SemiBold';
+import { Linefont_700Bold } from '@expo-google-fonts/linefont/700Bold';
+import { Linefont_800ExtraBold } from '@expo-google-fonts/linefont/800ExtraBold';
+import { Linefont_900Black } from '@expo-google-fonts/linefont/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Linefont_100Thin](./Linefont_100Thin.ttf.png)|![Linefont_200ExtraLight](./Linefont_200ExtraLight.ttf.png)|![Linefont_300Light](./Linefont_300Light.ttf.png)||
-|![Linefont_400Regular](./Linefont_400Regular.ttf.png)|![Linefont_500Medium](./Linefont_500Medium.ttf.png)|![Linefont_600SemiBold](./Linefont_600SemiBold.ttf.png)||
-|![Linefont_700Bold](./Linefont_700Bold.ttf.png)|![Linefont_800ExtraBold](./Linefont_800ExtraBold.ttf.png)|![Linefont_900Black](./Linefont_900Black.ttf.png)||
+|![Linefont_100Thin](./100Thin/Linefont_100Thin.ttf.png)|![Linefont_200ExtraLight](./200ExtraLight/Linefont_200ExtraLight.ttf.png)|![Linefont_300Light](./300Light/Linefont_300Light.ttf.png)||
+|![Linefont_400Regular](./400Regular/Linefont_400Regular.ttf.png)|![Linefont_500Medium](./500Medium/Linefont_500Medium.ttf.png)|![Linefont_600SemiBold](./600SemiBold/Linefont_600SemiBold.ttf.png)||
+|![Linefont_700Bold](./700Bold/Linefont_700Bold.ttf.png)|![Linefont_800ExtraBold](./800ExtraBold/Linefont_800ExtraBold.ttf.png)|![Linefont_900Black](./900Black/Linefont_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

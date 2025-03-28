@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/work-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/work-sans expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, WorkSans_100Thin, WorkSans_200ExtraLight, WorkSans_300Light, WorkSans_400Regular, WorkSans_500Medium, WorkSans_600SemiBold, WorkSans_700Bold, WorkSans_800ExtraBold, WorkSans_900Black, WorkSans_100Thin_Italic, WorkSans_200ExtraLight_Italic, WorkSans_300Light_Italic, WorkSans_400Regular_Italic, WorkSans_500Medium_Italic, WorkSans_600SemiBold_Italic, WorkSans_700Bold_Italic, WorkSans_800ExtraBold_Italic, WorkSans_900Black_Italic } from '@expo-google-fonts/work-sans';
+import { useFonts } from '@expo-google-fonts/work-sans/useFonts';
+import { WorkSans_100Thin } from '@expo-google-fonts/work-sans/100Thin';
+import { WorkSans_200ExtraLight } from '@expo-google-fonts/work-sans/200ExtraLight';
+import { WorkSans_300Light } from '@expo-google-fonts/work-sans/300Light';
+import { WorkSans_400Regular } from '@expo-google-fonts/work-sans/400Regular';
+import { WorkSans_500Medium } from '@expo-google-fonts/work-sans/500Medium';
+import { WorkSans_600SemiBold } from '@expo-google-fonts/work-sans/600SemiBold';
+import { WorkSans_700Bold } from '@expo-google-fonts/work-sans/700Bold';
+import { WorkSans_800ExtraBold } from '@expo-google-fonts/work-sans/800ExtraBold';
+import { WorkSans_900Black } from '@expo-google-fonts/work-sans/900Black';
+import { WorkSans_100Thin_Italic } from '@expo-google-fonts/work-sans/100Thin_Italic';
+import { WorkSans_200ExtraLight_Italic } from '@expo-google-fonts/work-sans/200ExtraLight_Italic';
+import { WorkSans_300Light_Italic } from '@expo-google-fonts/work-sans/300Light_Italic';
+import { WorkSans_400Regular_Italic } from '@expo-google-fonts/work-sans/400Regular_Italic';
+import { WorkSans_500Medium_Italic } from '@expo-google-fonts/work-sans/500Medium_Italic';
+import { WorkSans_600SemiBold_Italic } from '@expo-google-fonts/work-sans/600SemiBold_Italic';
+import { WorkSans_700Bold_Italic } from '@expo-google-fonts/work-sans/700Bold_Italic';
+import { WorkSans_800ExtraBold_Italic } from '@expo-google-fonts/work-sans/800ExtraBold_Italic';
+import { WorkSans_900Black_Italic } from '@expo-google-fonts/work-sans/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![WorkSans_100Thin](./WorkSans_100Thin.ttf.png)|![WorkSans_200ExtraLight](./WorkSans_200ExtraLight.ttf.png)|![WorkSans_300Light](./WorkSans_300Light.ttf.png)||
-|![WorkSans_400Regular](./WorkSans_400Regular.ttf.png)|![WorkSans_500Medium](./WorkSans_500Medium.ttf.png)|![WorkSans_600SemiBold](./WorkSans_600SemiBold.ttf.png)||
-|![WorkSans_700Bold](./WorkSans_700Bold.ttf.png)|![WorkSans_800ExtraBold](./WorkSans_800ExtraBold.ttf.png)|![WorkSans_900Black](./WorkSans_900Black.ttf.png)||
-|![WorkSans_100Thin_Italic](./WorkSans_100Thin_Italic.ttf.png)|![WorkSans_200ExtraLight_Italic](./WorkSans_200ExtraLight_Italic.ttf.png)|![WorkSans_300Light_Italic](./WorkSans_300Light_Italic.ttf.png)||
-|![WorkSans_400Regular_Italic](./WorkSans_400Regular_Italic.ttf.png)|![WorkSans_500Medium_Italic](./WorkSans_500Medium_Italic.ttf.png)|![WorkSans_600SemiBold_Italic](./WorkSans_600SemiBold_Italic.ttf.png)||
-|![WorkSans_700Bold_Italic](./WorkSans_700Bold_Italic.ttf.png)|![WorkSans_800ExtraBold_Italic](./WorkSans_800ExtraBold_Italic.ttf.png)|![WorkSans_900Black_Italic](./WorkSans_900Black_Italic.ttf.png)||
+|![WorkSans_100Thin](./100Thin/WorkSans_100Thin.ttf.png)|![WorkSans_200ExtraLight](./200ExtraLight/WorkSans_200ExtraLight.ttf.png)|![WorkSans_300Light](./300Light/WorkSans_300Light.ttf.png)||
+|![WorkSans_400Regular](./400Regular/WorkSans_400Regular.ttf.png)|![WorkSans_500Medium](./500Medium/WorkSans_500Medium.ttf.png)|![WorkSans_600SemiBold](./600SemiBold/WorkSans_600SemiBold.ttf.png)||
+|![WorkSans_700Bold](./700Bold/WorkSans_700Bold.ttf.png)|![WorkSans_800ExtraBold](./800ExtraBold/WorkSans_800ExtraBold.ttf.png)|![WorkSans_900Black](./900Black/WorkSans_900Black.ttf.png)||
+|![WorkSans_100Thin_Italic](./100Thin_Italic/WorkSans_100Thin_Italic.ttf.png)|![WorkSans_200ExtraLight_Italic](./200ExtraLight_Italic/WorkSans_200ExtraLight_Italic.ttf.png)|![WorkSans_300Light_Italic](./300Light_Italic/WorkSans_300Light_Italic.ttf.png)||
+|![WorkSans_400Regular_Italic](./400Regular_Italic/WorkSans_400Regular_Italic.ttf.png)|![WorkSans_500Medium_Italic](./500Medium_Italic/WorkSans_500Medium_Italic.ttf.png)|![WorkSans_600SemiBold_Italic](./600SemiBold_Italic/WorkSans_600SemiBold_Italic.ttf.png)||
+|![WorkSans_700Bold_Italic](./700Bold_Italic/WorkSans_700Bold_Italic.ttf.png)|![WorkSans_800ExtraBold_Italic](./800ExtraBold_Italic/WorkSans_800ExtraBold_Italic.ttf.png)|![WorkSans_900Black_Italic](./900Black_Italic/WorkSans_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

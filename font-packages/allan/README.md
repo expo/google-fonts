@@ -21,7 +21,7 @@ This font family contains [2 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/allan expo-font expo-app-loading
+npx expo install @expo-google-fonts/allan expo-font
 ```
 
 Now add code like this to your project
@@ -30,8 +30,9 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Allan_400Regular, Allan_700Bold } from '@expo-google-fonts/allan';
+import { useFonts } from '@expo-google-fonts/allan/useFonts';
+import { Allan_400Regular } from '@expo-google-fonts/allan/400Regular';
+import { Allan_700Bold } from '@expo-google-fonts/allan/700Bold';
 
 export default () => {
 
@@ -44,7 +45,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -75,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Allan_400Regular](./Allan_400Regular.ttf.png)|![Allan_700Bold](./Allan_700Bold.ttf.png)|||
+|![Allan_400Regular](./400Regular/Allan_400Regular.ttf.png)|![Allan_700Bold](./700Bold/Allan_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

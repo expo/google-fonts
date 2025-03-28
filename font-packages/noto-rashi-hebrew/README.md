@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-rashi-hebrew expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-rashi-hebrew expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoRashiHebrew_100Thin, NotoRashiHebrew_200ExtraLight, NotoRashiHebrew_300Light, NotoRashiHebrew_400Regular, NotoRashiHebrew_500Medium, NotoRashiHebrew_600SemiBold, NotoRashiHebrew_700Bold, NotoRashiHebrew_800ExtraBold, NotoRashiHebrew_900Black } from '@expo-google-fonts/noto-rashi-hebrew';
+import { useFonts } from '@expo-google-fonts/noto-rashi-hebrew/useFonts';
+import { NotoRashiHebrew_100Thin } from '@expo-google-fonts/noto-rashi-hebrew/100Thin';
+import { NotoRashiHebrew_200ExtraLight } from '@expo-google-fonts/noto-rashi-hebrew/200ExtraLight';
+import { NotoRashiHebrew_300Light } from '@expo-google-fonts/noto-rashi-hebrew/300Light';
+import { NotoRashiHebrew_400Regular } from '@expo-google-fonts/noto-rashi-hebrew/400Regular';
+import { NotoRashiHebrew_500Medium } from '@expo-google-fonts/noto-rashi-hebrew/500Medium';
+import { NotoRashiHebrew_600SemiBold } from '@expo-google-fonts/noto-rashi-hebrew/600SemiBold';
+import { NotoRashiHebrew_700Bold } from '@expo-google-fonts/noto-rashi-hebrew/700Bold';
+import { NotoRashiHebrew_800ExtraBold } from '@expo-google-fonts/noto-rashi-hebrew/800ExtraBold';
+import { NotoRashiHebrew_900Black } from '@expo-google-fonts/noto-rashi-hebrew/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoRashiHebrew_100Thin](./NotoRashiHebrew_100Thin.ttf.png)|![NotoRashiHebrew_200ExtraLight](./NotoRashiHebrew_200ExtraLight.ttf.png)|![NotoRashiHebrew_300Light](./NotoRashiHebrew_300Light.ttf.png)||
-|![NotoRashiHebrew_400Regular](./NotoRashiHebrew_400Regular.ttf.png)|![NotoRashiHebrew_500Medium](./NotoRashiHebrew_500Medium.ttf.png)|![NotoRashiHebrew_600SemiBold](./NotoRashiHebrew_600SemiBold.ttf.png)||
-|![NotoRashiHebrew_700Bold](./NotoRashiHebrew_700Bold.ttf.png)|![NotoRashiHebrew_800ExtraBold](./NotoRashiHebrew_800ExtraBold.ttf.png)|![NotoRashiHebrew_900Black](./NotoRashiHebrew_900Black.ttf.png)||
+|![NotoRashiHebrew_100Thin](./100Thin/NotoRashiHebrew_100Thin.ttf.png)|![NotoRashiHebrew_200ExtraLight](./200ExtraLight/NotoRashiHebrew_200ExtraLight.ttf.png)|![NotoRashiHebrew_300Light](./300Light/NotoRashiHebrew_300Light.ttf.png)||
+|![NotoRashiHebrew_400Regular](./400Regular/NotoRashiHebrew_400Regular.ttf.png)|![NotoRashiHebrew_500Medium](./500Medium/NotoRashiHebrew_500Medium.ttf.png)|![NotoRashiHebrew_600SemiBold](./600SemiBold/NotoRashiHebrew_600SemiBold.ttf.png)||
+|![NotoRashiHebrew_700Bold](./700Bold/NotoRashiHebrew_700Bold.ttf.png)|![NotoRashiHebrew_800ExtraBold](./800ExtraBold/NotoRashiHebrew_800ExtraBold.ttf.png)|![NotoRashiHebrew_900Black](./900Black/NotoRashiHebrew_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

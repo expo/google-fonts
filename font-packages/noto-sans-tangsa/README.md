@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-tangsa expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-tangsa expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansTangsa_400Regular, NotoSansTangsa_500Medium, NotoSansTangsa_600SemiBold, NotoSansTangsa_700Bold } from '@expo-google-fonts/noto-sans-tangsa';
+import { useFonts } from '@expo-google-fonts/noto-sans-tangsa/useFonts';
+import { NotoSansTangsa_400Regular } from '@expo-google-fonts/noto-sans-tangsa/400Regular';
+import { NotoSansTangsa_500Medium } from '@expo-google-fonts/noto-sans-tangsa/500Medium';
+import { NotoSansTangsa_600SemiBold } from '@expo-google-fonts/noto-sans-tangsa/600SemiBold';
+import { NotoSansTangsa_700Bold } from '@expo-google-fonts/noto-sans-tangsa/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansTangsa_400Regular](./NotoSansTangsa_400Regular.ttf.png)|![NotoSansTangsa_500Medium](./NotoSansTangsa_500Medium.ttf.png)|![NotoSansTangsa_600SemiBold](./NotoSansTangsa_600SemiBold.ttf.png)||
-|![NotoSansTangsa_700Bold](./NotoSansTangsa_700Bold.ttf.png)||||
+|![NotoSansTangsa_400Regular](./400Regular/NotoSansTangsa_400Regular.ttf.png)|![NotoSansTangsa_500Medium](./500Medium/NotoSansTangsa_500Medium.ttf.png)|![NotoSansTangsa_600SemiBold](./600SemiBold/NotoSansTangsa_600SemiBold.ttf.png)||
+|![NotoSansTangsa_700Bold](./700Bold/NotoSansTangsa_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

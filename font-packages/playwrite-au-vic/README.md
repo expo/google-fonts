@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/playwrite-au-vic expo-font expo-app-loading
+npx expo install @expo-google-fonts/playwrite-au-vic expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PlaywriteAUVIC_100Thin, PlaywriteAUVIC_200ExtraLight, PlaywriteAUVIC_300Light, PlaywriteAUVIC_400Regular } from '@expo-google-fonts/playwrite-au-vic';
+import { useFonts } from '@expo-google-fonts/playwrite-au-vic/useFonts';
+import { PlaywriteAUVIC_100Thin } from '@expo-google-fonts/playwrite-au-vic/100Thin';
+import { PlaywriteAUVIC_200ExtraLight } from '@expo-google-fonts/playwrite-au-vic/200ExtraLight';
+import { PlaywriteAUVIC_300Light } from '@expo-google-fonts/playwrite-au-vic/300Light';
+import { PlaywriteAUVIC_400Regular } from '@expo-google-fonts/playwrite-au-vic/400Regular';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteAUVIC_100Thin](./PlaywriteAUVIC_100Thin.ttf.png)|![PlaywriteAUVIC_200ExtraLight](./PlaywriteAUVIC_200ExtraLight.ttf.png)|![PlaywriteAUVIC_300Light](./PlaywriteAUVIC_300Light.ttf.png)||
-|![PlaywriteAUVIC_400Regular](./PlaywriteAUVIC_400Regular.ttf.png)||||
+|![PlaywriteAUVIC_100Thin](./100Thin/PlaywriteAUVIC_100Thin.ttf.png)|![PlaywriteAUVIC_200ExtraLight](./200ExtraLight/PlaywriteAUVIC_200ExtraLight.ttf.png)|![PlaywriteAUVIC_300Light](./300Light/PlaywriteAUVIC_300Light.ttf.png)||
+|![PlaywriteAUVIC_400Regular](./400Regular/PlaywriteAUVIC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

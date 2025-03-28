@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/wavefont expo-font expo-app-loading
+npx expo install @expo-google-fonts/wavefont expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Wavefont_100Thin, Wavefont_200ExtraLight, Wavefont_300Light, Wavefont_400Regular, Wavefont_500Medium, Wavefont_600SemiBold, Wavefont_700Bold, Wavefont_800ExtraBold, Wavefont_900Black } from '@expo-google-fonts/wavefont';
+import { useFonts } from '@expo-google-fonts/wavefont/useFonts';
+import { Wavefont_100Thin } from '@expo-google-fonts/wavefont/100Thin';
+import { Wavefont_200ExtraLight } from '@expo-google-fonts/wavefont/200ExtraLight';
+import { Wavefont_300Light } from '@expo-google-fonts/wavefont/300Light';
+import { Wavefont_400Regular } from '@expo-google-fonts/wavefont/400Regular';
+import { Wavefont_500Medium } from '@expo-google-fonts/wavefont/500Medium';
+import { Wavefont_600SemiBold } from '@expo-google-fonts/wavefont/600SemiBold';
+import { Wavefont_700Bold } from '@expo-google-fonts/wavefont/700Bold';
+import { Wavefont_800ExtraBold } from '@expo-google-fonts/wavefont/800ExtraBold';
+import { Wavefont_900Black } from '@expo-google-fonts/wavefont/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Wavefont_100Thin](./Wavefont_100Thin.ttf.png)|![Wavefont_200ExtraLight](./Wavefont_200ExtraLight.ttf.png)|![Wavefont_300Light](./Wavefont_300Light.ttf.png)||
-|![Wavefont_400Regular](./Wavefont_400Regular.ttf.png)|![Wavefont_500Medium](./Wavefont_500Medium.ttf.png)|![Wavefont_600SemiBold](./Wavefont_600SemiBold.ttf.png)||
-|![Wavefont_700Bold](./Wavefont_700Bold.ttf.png)|![Wavefont_800ExtraBold](./Wavefont_800ExtraBold.ttf.png)|![Wavefont_900Black](./Wavefont_900Black.ttf.png)||
+|![Wavefont_100Thin](./100Thin/Wavefont_100Thin.ttf.png)|![Wavefont_200ExtraLight](./200ExtraLight/Wavefont_200ExtraLight.ttf.png)|![Wavefont_300Light](./300Light/Wavefont_300Light.ttf.png)||
+|![Wavefont_400Regular](./400Regular/Wavefont_400Regular.ttf.png)|![Wavefont_500Medium](./500Medium/Wavefont_500Medium.ttf.png)|![Wavefont_600SemiBold](./600SemiBold/Wavefont_600SemiBold.ttf.png)||
+|![Wavefont_700Bold](./700Bold/Wavefont_700Bold.ttf.png)|![Wavefont_800ExtraBold](./800ExtraBold/Wavefont_800ExtraBold.ttf.png)|![Wavefont_900Black](./900Black/Wavefont_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

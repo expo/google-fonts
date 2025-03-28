@@ -1,9 +1,13 @@
 {
   "name": "@expo-google-fonts/new-rocker",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Use the New Rocker font family from Google Fonts in your Expo app",
   "main": "index.js",
-  "repository": "https://github.com/expo/google-fonts.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/new-rocker"
+  },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/new-rocker#readme",
   "author": "Expo Team <team@expo.io>",
   "license": "MIT",

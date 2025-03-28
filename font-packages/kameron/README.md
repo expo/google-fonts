@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/kameron expo-font expo-app-loading
+npx expo install @expo-google-fonts/kameron expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Kameron_400Regular, Kameron_500Medium, Kameron_600SemiBold, Kameron_700Bold } from '@expo-google-fonts/kameron';
+import { useFonts } from '@expo-google-fonts/kameron/useFonts';
+import { Kameron_400Regular } from '@expo-google-fonts/kameron/400Regular';
+import { Kameron_500Medium } from '@expo-google-fonts/kameron/500Medium';
+import { Kameron_600SemiBold } from '@expo-google-fonts/kameron/600SemiBold';
+import { Kameron_700Bold } from '@expo-google-fonts/kameron/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Kameron_400Regular](./Kameron_400Regular.ttf.png)|![Kameron_500Medium](./Kameron_500Medium.ttf.png)|![Kameron_600SemiBold](./Kameron_600SemiBold.ttf.png)||
-|![Kameron_700Bold](./Kameron_700Bold.ttf.png)||||
+|![Kameron_400Regular](./400Regular/Kameron_400Regular.ttf.png)|![Kameron_500Medium](./500Medium/Kameron_500Medium.ttf.png)|![Kameron_600SemiBold](./600SemiBold/Kameron_600SemiBold.ttf.png)||
+|![Kameron_700Bold](./700Bold/Kameron_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

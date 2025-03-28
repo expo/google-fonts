@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/roboto-condensed expo-font expo-app-loading
+npx expo install @expo-google-fonts/roboto-condensed expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, RobotoCondensed_100Thin, RobotoCondensed_200ExtraLight, RobotoCondensed_300Light, RobotoCondensed_400Regular, RobotoCondensed_500Medium, RobotoCondensed_600SemiBold, RobotoCondensed_700Bold, RobotoCondensed_800ExtraBold, RobotoCondensed_900Black, RobotoCondensed_100Thin_Italic, RobotoCondensed_200ExtraLight_Italic, RobotoCondensed_300Light_Italic, RobotoCondensed_400Regular_Italic, RobotoCondensed_500Medium_Italic, RobotoCondensed_600SemiBold_Italic, RobotoCondensed_700Bold_Italic, RobotoCondensed_800ExtraBold_Italic, RobotoCondensed_900Black_Italic } from '@expo-google-fonts/roboto-condensed';
+import { useFonts } from '@expo-google-fonts/roboto-condensed/useFonts';
+import { RobotoCondensed_100Thin } from '@expo-google-fonts/roboto-condensed/100Thin';
+import { RobotoCondensed_200ExtraLight } from '@expo-google-fonts/roboto-condensed/200ExtraLight';
+import { RobotoCondensed_300Light } from '@expo-google-fonts/roboto-condensed/300Light';
+import { RobotoCondensed_400Regular } from '@expo-google-fonts/roboto-condensed/400Regular';
+import { RobotoCondensed_500Medium } from '@expo-google-fonts/roboto-condensed/500Medium';
+import { RobotoCondensed_600SemiBold } from '@expo-google-fonts/roboto-condensed/600SemiBold';
+import { RobotoCondensed_700Bold } from '@expo-google-fonts/roboto-condensed/700Bold';
+import { RobotoCondensed_800ExtraBold } from '@expo-google-fonts/roboto-condensed/800ExtraBold';
+import { RobotoCondensed_900Black } from '@expo-google-fonts/roboto-condensed/900Black';
+import { RobotoCondensed_100Thin_Italic } from '@expo-google-fonts/roboto-condensed/100Thin_Italic';
+import { RobotoCondensed_200ExtraLight_Italic } from '@expo-google-fonts/roboto-condensed/200ExtraLight_Italic';
+import { RobotoCondensed_300Light_Italic } from '@expo-google-fonts/roboto-condensed/300Light_Italic';
+import { RobotoCondensed_400Regular_Italic } from '@expo-google-fonts/roboto-condensed/400Regular_Italic';
+import { RobotoCondensed_500Medium_Italic } from '@expo-google-fonts/roboto-condensed/500Medium_Italic';
+import { RobotoCondensed_600SemiBold_Italic } from '@expo-google-fonts/roboto-condensed/600SemiBold_Italic';
+import { RobotoCondensed_700Bold_Italic } from '@expo-google-fonts/roboto-condensed/700Bold_Italic';
+import { RobotoCondensed_800ExtraBold_Italic } from '@expo-google-fonts/roboto-condensed/800ExtraBold_Italic';
+import { RobotoCondensed_900Black_Italic } from '@expo-google-fonts/roboto-condensed/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RobotoCondensed_100Thin](./RobotoCondensed_100Thin.ttf.png)|![RobotoCondensed_200ExtraLight](./RobotoCondensed_200ExtraLight.ttf.png)|![RobotoCondensed_300Light](./RobotoCondensed_300Light.ttf.png)||
-|![RobotoCondensed_400Regular](./RobotoCondensed_400Regular.ttf.png)|![RobotoCondensed_500Medium](./RobotoCondensed_500Medium.ttf.png)|![RobotoCondensed_600SemiBold](./RobotoCondensed_600SemiBold.ttf.png)||
-|![RobotoCondensed_700Bold](./RobotoCondensed_700Bold.ttf.png)|![RobotoCondensed_800ExtraBold](./RobotoCondensed_800ExtraBold.ttf.png)|![RobotoCondensed_900Black](./RobotoCondensed_900Black.ttf.png)||
-|![RobotoCondensed_100Thin_Italic](./RobotoCondensed_100Thin_Italic.ttf.png)|![RobotoCondensed_200ExtraLight_Italic](./RobotoCondensed_200ExtraLight_Italic.ttf.png)|![RobotoCondensed_300Light_Italic](./RobotoCondensed_300Light_Italic.ttf.png)||
-|![RobotoCondensed_400Regular_Italic](./RobotoCondensed_400Regular_Italic.ttf.png)|![RobotoCondensed_500Medium_Italic](./RobotoCondensed_500Medium_Italic.ttf.png)|![RobotoCondensed_600SemiBold_Italic](./RobotoCondensed_600SemiBold_Italic.ttf.png)||
-|![RobotoCondensed_700Bold_Italic](./RobotoCondensed_700Bold_Italic.ttf.png)|![RobotoCondensed_800ExtraBold_Italic](./RobotoCondensed_800ExtraBold_Italic.ttf.png)|![RobotoCondensed_900Black_Italic](./RobotoCondensed_900Black_Italic.ttf.png)||
+|![RobotoCondensed_100Thin](./100Thin/RobotoCondensed_100Thin.ttf.png)|![RobotoCondensed_200ExtraLight](./200ExtraLight/RobotoCondensed_200ExtraLight.ttf.png)|![RobotoCondensed_300Light](./300Light/RobotoCondensed_300Light.ttf.png)||
+|![RobotoCondensed_400Regular](./400Regular/RobotoCondensed_400Regular.ttf.png)|![RobotoCondensed_500Medium](./500Medium/RobotoCondensed_500Medium.ttf.png)|![RobotoCondensed_600SemiBold](./600SemiBold/RobotoCondensed_600SemiBold.ttf.png)||
+|![RobotoCondensed_700Bold](./700Bold/RobotoCondensed_700Bold.ttf.png)|![RobotoCondensed_800ExtraBold](./800ExtraBold/RobotoCondensed_800ExtraBold.ttf.png)|![RobotoCondensed_900Black](./900Black/RobotoCondensed_900Black.ttf.png)||
+|![RobotoCondensed_100Thin_Italic](./100Thin_Italic/RobotoCondensed_100Thin_Italic.ttf.png)|![RobotoCondensed_200ExtraLight_Italic](./200ExtraLight_Italic/RobotoCondensed_200ExtraLight_Italic.ttf.png)|![RobotoCondensed_300Light_Italic](./300Light_Italic/RobotoCondensed_300Light_Italic.ttf.png)||
+|![RobotoCondensed_400Regular_Italic](./400Regular_Italic/RobotoCondensed_400Regular_Italic.ttf.png)|![RobotoCondensed_500Medium_Italic](./500Medium_Italic/RobotoCondensed_500Medium_Italic.ttf.png)|![RobotoCondensed_600SemiBold_Italic](./600SemiBold_Italic/RobotoCondensed_600SemiBold_Italic.ttf.png)||
+|![RobotoCondensed_700Bold_Italic](./700Bold_Italic/RobotoCondensed_700Bold_Italic.ttf.png)|![RobotoCondensed_800ExtraBold_Italic](./800ExtraBold_Italic/RobotoCondensed_800ExtraBold_Italic.ttf.png)|![RobotoCondensed_900Black_Italic](./900Black_Italic/RobotoCondensed_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

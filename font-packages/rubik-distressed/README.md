@@ -20,7 +20,7 @@ This font family contains [1 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/rubik-distressed expo-font expo-app-loading
+npx expo install @expo-google-fonts/rubik-distressed expo-font
 ```
 
 Now add code like this to your project
@@ -29,8 +29,8 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, RubikDistressed_400Regular } from '@expo-google-fonts/rubik-distressed';
+import { useFonts } from '@expo-google-fonts/rubik-distressed/useFonts';
+import { RubikDistressed_400Regular } from '@expo-google-fonts/rubik-distressed/400Regular';
 
 export default () => {
 
@@ -42,7 +42,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -65,7 +65,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RubikDistressed_400Regular](./RubikDistressed_400Regular.ttf.png)||||
+|![RubikDistressed_400Regular](./400Regular/RubikDistressed_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

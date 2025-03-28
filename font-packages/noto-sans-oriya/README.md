@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-oriya expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-oriya expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansOriya_100Thin, NotoSansOriya_200ExtraLight, NotoSansOriya_300Light, NotoSansOriya_400Regular, NotoSansOriya_500Medium, NotoSansOriya_600SemiBold, NotoSansOriya_700Bold, NotoSansOriya_800ExtraBold, NotoSansOriya_900Black } from '@expo-google-fonts/noto-sans-oriya';
+import { useFonts } from '@expo-google-fonts/noto-sans-oriya/useFonts';
+import { NotoSansOriya_100Thin } from '@expo-google-fonts/noto-sans-oriya/100Thin';
+import { NotoSansOriya_200ExtraLight } from '@expo-google-fonts/noto-sans-oriya/200ExtraLight';
+import { NotoSansOriya_300Light } from '@expo-google-fonts/noto-sans-oriya/300Light';
+import { NotoSansOriya_400Regular } from '@expo-google-fonts/noto-sans-oriya/400Regular';
+import { NotoSansOriya_500Medium } from '@expo-google-fonts/noto-sans-oriya/500Medium';
+import { NotoSansOriya_600SemiBold } from '@expo-google-fonts/noto-sans-oriya/600SemiBold';
+import { NotoSansOriya_700Bold } from '@expo-google-fonts/noto-sans-oriya/700Bold';
+import { NotoSansOriya_800ExtraBold } from '@expo-google-fonts/noto-sans-oriya/800ExtraBold';
+import { NotoSansOriya_900Black } from '@expo-google-fonts/noto-sans-oriya/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansOriya_100Thin](./NotoSansOriya_100Thin.ttf.png)|![NotoSansOriya_200ExtraLight](./NotoSansOriya_200ExtraLight.ttf.png)|![NotoSansOriya_300Light](./NotoSansOriya_300Light.ttf.png)||
-|![NotoSansOriya_400Regular](./NotoSansOriya_400Regular.ttf.png)|![NotoSansOriya_500Medium](./NotoSansOriya_500Medium.ttf.png)|![NotoSansOriya_600SemiBold](./NotoSansOriya_600SemiBold.ttf.png)||
-|![NotoSansOriya_700Bold](./NotoSansOriya_700Bold.ttf.png)|![NotoSansOriya_800ExtraBold](./NotoSansOriya_800ExtraBold.ttf.png)|![NotoSansOriya_900Black](./NotoSansOriya_900Black.ttf.png)||
+|![NotoSansOriya_100Thin](./100Thin/NotoSansOriya_100Thin.ttf.png)|![NotoSansOriya_200ExtraLight](./200ExtraLight/NotoSansOriya_200ExtraLight.ttf.png)|![NotoSansOriya_300Light](./300Light/NotoSansOriya_300Light.ttf.png)||
+|![NotoSansOriya_400Regular](./400Regular/NotoSansOriya_400Regular.ttf.png)|![NotoSansOriya_500Medium](./500Medium/NotoSansOriya_500Medium.ttf.png)|![NotoSansOriya_600SemiBold](./600SemiBold/NotoSansOriya_600SemiBold.ttf.png)||
+|![NotoSansOriya_700Bold](./700Bold/NotoSansOriya_700Bold.ttf.png)|![NotoSansOriya_800ExtraBold](./800ExtraBold/NotoSansOriya_800ExtraBold.ttf.png)|![NotoSansOriya_900Black](./900Black/NotoSansOriya_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

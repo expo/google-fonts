@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-tibetan expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-tibetan expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifTibetan_100Thin, NotoSerifTibetan_200ExtraLight, NotoSerifTibetan_300Light, NotoSerifTibetan_400Regular, NotoSerifTibetan_500Medium, NotoSerifTibetan_600SemiBold, NotoSerifTibetan_700Bold, NotoSerifTibetan_800ExtraBold, NotoSerifTibetan_900Black } from '@expo-google-fonts/noto-serif-tibetan';
+import { useFonts } from '@expo-google-fonts/noto-serif-tibetan/useFonts';
+import { NotoSerifTibetan_100Thin } from '@expo-google-fonts/noto-serif-tibetan/100Thin';
+import { NotoSerifTibetan_200ExtraLight } from '@expo-google-fonts/noto-serif-tibetan/200ExtraLight';
+import { NotoSerifTibetan_300Light } from '@expo-google-fonts/noto-serif-tibetan/300Light';
+import { NotoSerifTibetan_400Regular } from '@expo-google-fonts/noto-serif-tibetan/400Regular';
+import { NotoSerifTibetan_500Medium } from '@expo-google-fonts/noto-serif-tibetan/500Medium';
+import { NotoSerifTibetan_600SemiBold } from '@expo-google-fonts/noto-serif-tibetan/600SemiBold';
+import { NotoSerifTibetan_700Bold } from '@expo-google-fonts/noto-serif-tibetan/700Bold';
+import { NotoSerifTibetan_800ExtraBold } from '@expo-google-fonts/noto-serif-tibetan/800ExtraBold';
+import { NotoSerifTibetan_900Black } from '@expo-google-fonts/noto-serif-tibetan/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifTibetan_100Thin](./NotoSerifTibetan_100Thin.ttf.png)|![NotoSerifTibetan_200ExtraLight](./NotoSerifTibetan_200ExtraLight.ttf.png)|![NotoSerifTibetan_300Light](./NotoSerifTibetan_300Light.ttf.png)||
-|![NotoSerifTibetan_400Regular](./NotoSerifTibetan_400Regular.ttf.png)|![NotoSerifTibetan_500Medium](./NotoSerifTibetan_500Medium.ttf.png)|![NotoSerifTibetan_600SemiBold](./NotoSerifTibetan_600SemiBold.ttf.png)||
-|![NotoSerifTibetan_700Bold](./NotoSerifTibetan_700Bold.ttf.png)|![NotoSerifTibetan_800ExtraBold](./NotoSerifTibetan_800ExtraBold.ttf.png)|![NotoSerifTibetan_900Black](./NotoSerifTibetan_900Black.ttf.png)||
+|![NotoSerifTibetan_100Thin](./100Thin/NotoSerifTibetan_100Thin.ttf.png)|![NotoSerifTibetan_200ExtraLight](./200ExtraLight/NotoSerifTibetan_200ExtraLight.ttf.png)|![NotoSerifTibetan_300Light](./300Light/NotoSerifTibetan_300Light.ttf.png)||
+|![NotoSerifTibetan_400Regular](./400Regular/NotoSerifTibetan_400Regular.ttf.png)|![NotoSerifTibetan_500Medium](./500Medium/NotoSerifTibetan_500Medium.ttf.png)|![NotoSerifTibetan_600SemiBold](./600SemiBold/NotoSerifTibetan_600SemiBold.ttf.png)||
+|![NotoSerifTibetan_700Bold](./700Bold/NotoSerifTibetan_700Bold.ttf.png)|![NotoSerifTibetan_800ExtraBold](./800ExtraBold/NotoSerifTibetan_800ExtraBold.ttf.png)|![NotoSerifTibetan_900Black](./900Black/NotoSerifTibetan_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

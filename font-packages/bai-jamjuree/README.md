@@ -31,7 +31,7 @@ This font family contains [12 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/bai-jamjuree expo-font expo-app-loading
+npx expo install @expo-google-fonts/bai-jamjuree expo-font
 ```
 
 Now add code like this to your project
@@ -40,8 +40,19 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, BaiJamjuree_200ExtraLight, BaiJamjuree_200ExtraLight_Italic, BaiJamjuree_300Light, BaiJamjuree_300Light_Italic, BaiJamjuree_400Regular, BaiJamjuree_400Regular_Italic, BaiJamjuree_500Medium, BaiJamjuree_500Medium_Italic, BaiJamjuree_600SemiBold, BaiJamjuree_600SemiBold_Italic, BaiJamjuree_700Bold, BaiJamjuree_700Bold_Italic } from '@expo-google-fonts/bai-jamjuree';
+import { useFonts } from '@expo-google-fonts/bai-jamjuree/useFonts';
+import { BaiJamjuree_200ExtraLight } from '@expo-google-fonts/bai-jamjuree/200ExtraLight';
+import { BaiJamjuree_200ExtraLight_Italic } from '@expo-google-fonts/bai-jamjuree/200ExtraLight_Italic';
+import { BaiJamjuree_300Light } from '@expo-google-fonts/bai-jamjuree/300Light';
+import { BaiJamjuree_300Light_Italic } from '@expo-google-fonts/bai-jamjuree/300Light_Italic';
+import { BaiJamjuree_400Regular } from '@expo-google-fonts/bai-jamjuree/400Regular';
+import { BaiJamjuree_400Regular_Italic } from '@expo-google-fonts/bai-jamjuree/400Regular_Italic';
+import { BaiJamjuree_500Medium } from '@expo-google-fonts/bai-jamjuree/500Medium';
+import { BaiJamjuree_500Medium_Italic } from '@expo-google-fonts/bai-jamjuree/500Medium_Italic';
+import { BaiJamjuree_600SemiBold } from '@expo-google-fonts/bai-jamjuree/600SemiBold';
+import { BaiJamjuree_600SemiBold_Italic } from '@expo-google-fonts/bai-jamjuree/600SemiBold_Italic';
+import { BaiJamjuree_700Bold } from '@expo-google-fonts/bai-jamjuree/700Bold';
+import { BaiJamjuree_700Bold_Italic } from '@expo-google-fonts/bai-jamjuree/700Bold_Italic';
 
 export default () => {
 
@@ -64,7 +75,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -175,10 +186,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BaiJamjuree_200ExtraLight](./BaiJamjuree_200ExtraLight.ttf.png)|![BaiJamjuree_200ExtraLight_Italic](./BaiJamjuree_200ExtraLight_Italic.ttf.png)|![BaiJamjuree_300Light](./BaiJamjuree_300Light.ttf.png)||
-|![BaiJamjuree_300Light_Italic](./BaiJamjuree_300Light_Italic.ttf.png)|![BaiJamjuree_400Regular](./BaiJamjuree_400Regular.ttf.png)|![BaiJamjuree_400Regular_Italic](./BaiJamjuree_400Regular_Italic.ttf.png)||
-|![BaiJamjuree_500Medium](./BaiJamjuree_500Medium.ttf.png)|![BaiJamjuree_500Medium_Italic](./BaiJamjuree_500Medium_Italic.ttf.png)|![BaiJamjuree_600SemiBold](./BaiJamjuree_600SemiBold.ttf.png)||
-|![BaiJamjuree_600SemiBold_Italic](./BaiJamjuree_600SemiBold_Italic.ttf.png)|![BaiJamjuree_700Bold](./BaiJamjuree_700Bold.ttf.png)|![BaiJamjuree_700Bold_Italic](./BaiJamjuree_700Bold_Italic.ttf.png)||
+|![BaiJamjuree_200ExtraLight](./200ExtraLight/BaiJamjuree_200ExtraLight.ttf.png)|![BaiJamjuree_200ExtraLight_Italic](./200ExtraLight_Italic/BaiJamjuree_200ExtraLight_Italic.ttf.png)|![BaiJamjuree_300Light](./300Light/BaiJamjuree_300Light.ttf.png)||
+|![BaiJamjuree_300Light_Italic](./300Light_Italic/BaiJamjuree_300Light_Italic.ttf.png)|![BaiJamjuree_400Regular](./400Regular/BaiJamjuree_400Regular.ttf.png)|![BaiJamjuree_400Regular_Italic](./400Regular_Italic/BaiJamjuree_400Regular_Italic.ttf.png)||
+|![BaiJamjuree_500Medium](./500Medium/BaiJamjuree_500Medium.ttf.png)|![BaiJamjuree_500Medium_Italic](./500Medium_Italic/BaiJamjuree_500Medium_Italic.ttf.png)|![BaiJamjuree_600SemiBold](./600SemiBold/BaiJamjuree_600SemiBold.ttf.png)||
+|![BaiJamjuree_600SemiBold_Italic](./600SemiBold_Italic/BaiJamjuree_600SemiBold_Italic.ttf.png)|![BaiJamjuree_700Bold](./700Bold/BaiJamjuree_700Bold.ttf.png)|![BaiJamjuree_700Bold_Italic](./700Bold_Italic/BaiJamjuree_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

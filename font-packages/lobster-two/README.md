@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/lobster-two expo-font expo-app-loading
+npx expo install @expo-google-fonts/lobster-two expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, LobsterTwo_400Regular, LobsterTwo_400Regular_Italic, LobsterTwo_700Bold, LobsterTwo_700Bold_Italic } from '@expo-google-fonts/lobster-two';
+import { useFonts } from '@expo-google-fonts/lobster-two/useFonts';
+import { LobsterTwo_400Regular } from '@expo-google-fonts/lobster-two/400Regular';
+import { LobsterTwo_400Regular_Italic } from '@expo-google-fonts/lobster-two/400Regular_Italic';
+import { LobsterTwo_700Bold } from '@expo-google-fonts/lobster-two/700Bold';
+import { LobsterTwo_700Bold_Italic } from '@expo-google-fonts/lobster-two/700Bold_Italic';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LobsterTwo_400Regular](./LobsterTwo_400Regular.ttf.png)|![LobsterTwo_400Regular_Italic](./LobsterTwo_400Regular_Italic.ttf.png)|![LobsterTwo_700Bold](./LobsterTwo_700Bold.ttf.png)||
-|![LobsterTwo_700Bold_Italic](./LobsterTwo_700Bold_Italic.ttf.png)||||
+|![LobsterTwo_400Regular](./400Regular/LobsterTwo_400Regular.ttf.png)|![LobsterTwo_400Regular_Italic](./400Regular_Italic/LobsterTwo_400Regular_Italic.ttf.png)|![LobsterTwo_700Bold](./700Bold/LobsterTwo_700Bold.ttf.png)||
+|![LobsterTwo_700Bold_Italic](./700Bold_Italic/LobsterTwo_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

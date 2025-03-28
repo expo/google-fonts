@@ -35,7 +35,7 @@ This font family contains [16 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/reddit-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/reddit-sans expo-font
 ```
 
 Now add code like this to your project
@@ -44,8 +44,23 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, RedditSans_200ExtraLight, RedditSans_300Light, RedditSans_400Regular, RedditSans_500Medium, RedditSans_600SemiBold, RedditSans_700Bold, RedditSans_800ExtraBold, RedditSans_900Black, RedditSans_200ExtraLight_Italic, RedditSans_300Light_Italic, RedditSans_400Regular_Italic, RedditSans_500Medium_Italic, RedditSans_600SemiBold_Italic, RedditSans_700Bold_Italic, RedditSans_800ExtraBold_Italic, RedditSans_900Black_Italic } from '@expo-google-fonts/reddit-sans';
+import { useFonts } from '@expo-google-fonts/reddit-sans/useFonts';
+import { RedditSans_200ExtraLight } from '@expo-google-fonts/reddit-sans/200ExtraLight';
+import { RedditSans_300Light } from '@expo-google-fonts/reddit-sans/300Light';
+import { RedditSans_400Regular } from '@expo-google-fonts/reddit-sans/400Regular';
+import { RedditSans_500Medium } from '@expo-google-fonts/reddit-sans/500Medium';
+import { RedditSans_600SemiBold } from '@expo-google-fonts/reddit-sans/600SemiBold';
+import { RedditSans_700Bold } from '@expo-google-fonts/reddit-sans/700Bold';
+import { RedditSans_800ExtraBold } from '@expo-google-fonts/reddit-sans/800ExtraBold';
+import { RedditSans_900Black } from '@expo-google-fonts/reddit-sans/900Black';
+import { RedditSans_200ExtraLight_Italic } from '@expo-google-fonts/reddit-sans/200ExtraLight_Italic';
+import { RedditSans_300Light_Italic } from '@expo-google-fonts/reddit-sans/300Light_Italic';
+import { RedditSans_400Regular_Italic } from '@expo-google-fonts/reddit-sans/400Regular_Italic';
+import { RedditSans_500Medium_Italic } from '@expo-google-fonts/reddit-sans/500Medium_Italic';
+import { RedditSans_600SemiBold_Italic } from '@expo-google-fonts/reddit-sans/600SemiBold_Italic';
+import { RedditSans_700Bold_Italic } from '@expo-google-fonts/reddit-sans/700Bold_Italic';
+import { RedditSans_800ExtraBold_Italic } from '@expo-google-fonts/reddit-sans/800ExtraBold_Italic';
+import { RedditSans_900Black_Italic } from '@expo-google-fonts/reddit-sans/900Black_Italic';
 
 export default () => {
 
@@ -72,7 +87,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -215,12 +230,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RedditSans_200ExtraLight](./RedditSans_200ExtraLight.ttf.png)|![RedditSans_300Light](./RedditSans_300Light.ttf.png)|![RedditSans_400Regular](./RedditSans_400Regular.ttf.png)||
-|![RedditSans_500Medium](./RedditSans_500Medium.ttf.png)|![RedditSans_600SemiBold](./RedditSans_600SemiBold.ttf.png)|![RedditSans_700Bold](./RedditSans_700Bold.ttf.png)||
-|![RedditSans_800ExtraBold](./RedditSans_800ExtraBold.ttf.png)|![RedditSans_900Black](./RedditSans_900Black.ttf.png)|![RedditSans_200ExtraLight_Italic](./RedditSans_200ExtraLight_Italic.ttf.png)||
-|![RedditSans_300Light_Italic](./RedditSans_300Light_Italic.ttf.png)|![RedditSans_400Regular_Italic](./RedditSans_400Regular_Italic.ttf.png)|![RedditSans_500Medium_Italic](./RedditSans_500Medium_Italic.ttf.png)||
-|![RedditSans_600SemiBold_Italic](./RedditSans_600SemiBold_Italic.ttf.png)|![RedditSans_700Bold_Italic](./RedditSans_700Bold_Italic.ttf.png)|![RedditSans_800ExtraBold_Italic](./RedditSans_800ExtraBold_Italic.ttf.png)||
-|![RedditSans_900Black_Italic](./RedditSans_900Black_Italic.ttf.png)||||
+|![RedditSans_200ExtraLight](./200ExtraLight/RedditSans_200ExtraLight.ttf.png)|![RedditSans_300Light](./300Light/RedditSans_300Light.ttf.png)|![RedditSans_400Regular](./400Regular/RedditSans_400Regular.ttf.png)||
+|![RedditSans_500Medium](./500Medium/RedditSans_500Medium.ttf.png)|![RedditSans_600SemiBold](./600SemiBold/RedditSans_600SemiBold.ttf.png)|![RedditSans_700Bold](./700Bold/RedditSans_700Bold.ttf.png)||
+|![RedditSans_800ExtraBold](./800ExtraBold/RedditSans_800ExtraBold.ttf.png)|![RedditSans_900Black](./900Black/RedditSans_900Black.ttf.png)|![RedditSans_200ExtraLight_Italic](./200ExtraLight_Italic/RedditSans_200ExtraLight_Italic.ttf.png)||
+|![RedditSans_300Light_Italic](./300Light_Italic/RedditSans_300Light_Italic.ttf.png)|![RedditSans_400Regular_Italic](./400Regular_Italic/RedditSans_400Regular_Italic.ttf.png)|![RedditSans_500Medium_Italic](./500Medium_Italic/RedditSans_500Medium_Italic.ttf.png)||
+|![RedditSans_600SemiBold_Italic](./600SemiBold_Italic/RedditSans_600SemiBold_Italic.ttf.png)|![RedditSans_700Bold_Italic](./700Bold_Italic/RedditSans_700Bold_Italic.ttf.png)|![RedditSans_800ExtraBold_Italic](./800ExtraBold_Italic/RedditSans_800ExtraBold_Italic.ttf.png)||
+|![RedditSans_900Black_Italic](./900Black_Italic/RedditSans_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

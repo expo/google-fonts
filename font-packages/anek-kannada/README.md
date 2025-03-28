@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/anek-kannada expo-font expo-app-loading
+npx expo install @expo-google-fonts/anek-kannada expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, AnekKannada_100Thin, AnekKannada_200ExtraLight, AnekKannada_300Light, AnekKannada_400Regular, AnekKannada_500Medium, AnekKannada_600SemiBold, AnekKannada_700Bold, AnekKannada_800ExtraBold } from '@expo-google-fonts/anek-kannada';
+import { useFonts } from '@expo-google-fonts/anek-kannada/useFonts';
+import { AnekKannada_100Thin } from '@expo-google-fonts/anek-kannada/100Thin';
+import { AnekKannada_200ExtraLight } from '@expo-google-fonts/anek-kannada/200ExtraLight';
+import { AnekKannada_300Light } from '@expo-google-fonts/anek-kannada/300Light';
+import { AnekKannada_400Regular } from '@expo-google-fonts/anek-kannada/400Regular';
+import { AnekKannada_500Medium } from '@expo-google-fonts/anek-kannada/500Medium';
+import { AnekKannada_600SemiBold } from '@expo-google-fonts/anek-kannada/600SemiBold';
+import { AnekKannada_700Bold } from '@expo-google-fonts/anek-kannada/700Bold';
+import { AnekKannada_800ExtraBold } from '@expo-google-fonts/anek-kannada/800ExtraBold';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnekKannada_100Thin](./AnekKannada_100Thin.ttf.png)|![AnekKannada_200ExtraLight](./AnekKannada_200ExtraLight.ttf.png)|![AnekKannada_300Light](./AnekKannada_300Light.ttf.png)||
-|![AnekKannada_400Regular](./AnekKannada_400Regular.ttf.png)|![AnekKannada_500Medium](./AnekKannada_500Medium.ttf.png)|![AnekKannada_600SemiBold](./AnekKannada_600SemiBold.ttf.png)||
-|![AnekKannada_700Bold](./AnekKannada_700Bold.ttf.png)|![AnekKannada_800ExtraBold](./AnekKannada_800ExtraBold.ttf.png)|||
+|![AnekKannada_100Thin](./100Thin/AnekKannada_100Thin.ttf.png)|![AnekKannada_200ExtraLight](./200ExtraLight/AnekKannada_200ExtraLight.ttf.png)|![AnekKannada_300Light](./300Light/AnekKannada_300Light.ttf.png)||
+|![AnekKannada_400Regular](./400Regular/AnekKannada_400Regular.ttf.png)|![AnekKannada_500Medium](./500Medium/AnekKannada_500Medium.ttf.png)|![AnekKannada_600SemiBold](./600SemiBold/AnekKannada_600SemiBold.ttf.png)||
+|![AnekKannada_700Bold](./700Bold/AnekKannada_700Bold.ttf.png)|![AnekKannada_800ExtraBold](./800ExtraBold/AnekKannada_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

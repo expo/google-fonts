@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-hentaigana expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-hentaigana expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifHentaigana_200ExtraLight, NotoSerifHentaigana_300Light, NotoSerifHentaigana_400Regular, NotoSerifHentaigana_500Medium, NotoSerifHentaigana_600SemiBold, NotoSerifHentaigana_700Bold, NotoSerifHentaigana_800ExtraBold, NotoSerifHentaigana_900Black } from '@expo-google-fonts/noto-serif-hentaigana';
+import { useFonts } from '@expo-google-fonts/noto-serif-hentaigana/useFonts';
+import { NotoSerifHentaigana_200ExtraLight } from '@expo-google-fonts/noto-serif-hentaigana/200ExtraLight';
+import { NotoSerifHentaigana_300Light } from '@expo-google-fonts/noto-serif-hentaigana/300Light';
+import { NotoSerifHentaigana_400Regular } from '@expo-google-fonts/noto-serif-hentaigana/400Regular';
+import { NotoSerifHentaigana_500Medium } from '@expo-google-fonts/noto-serif-hentaigana/500Medium';
+import { NotoSerifHentaigana_600SemiBold } from '@expo-google-fonts/noto-serif-hentaigana/600SemiBold';
+import { NotoSerifHentaigana_700Bold } from '@expo-google-fonts/noto-serif-hentaigana/700Bold';
+import { NotoSerifHentaigana_800ExtraBold } from '@expo-google-fonts/noto-serif-hentaigana/800ExtraBold';
+import { NotoSerifHentaigana_900Black } from '@expo-google-fonts/noto-serif-hentaigana/900Black';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifHentaigana_200ExtraLight](./NotoSerifHentaigana_200ExtraLight.ttf.png)|![NotoSerifHentaigana_300Light](./NotoSerifHentaigana_300Light.ttf.png)|![NotoSerifHentaigana_400Regular](./NotoSerifHentaigana_400Regular.ttf.png)||
-|![NotoSerifHentaigana_500Medium](./NotoSerifHentaigana_500Medium.ttf.png)|![NotoSerifHentaigana_600SemiBold](./NotoSerifHentaigana_600SemiBold.ttf.png)|![NotoSerifHentaigana_700Bold](./NotoSerifHentaigana_700Bold.ttf.png)||
-|![NotoSerifHentaigana_800ExtraBold](./NotoSerifHentaigana_800ExtraBold.ttf.png)|![NotoSerifHentaigana_900Black](./NotoSerifHentaigana_900Black.ttf.png)|||
+|![NotoSerifHentaigana_200ExtraLight](./200ExtraLight/NotoSerifHentaigana_200ExtraLight.ttf.png)|![NotoSerifHentaigana_300Light](./300Light/NotoSerifHentaigana_300Light.ttf.png)|![NotoSerifHentaigana_400Regular](./400Regular/NotoSerifHentaigana_400Regular.ttf.png)||
+|![NotoSerifHentaigana_500Medium](./500Medium/NotoSerifHentaigana_500Medium.ttf.png)|![NotoSerifHentaigana_600SemiBold](./600SemiBold/NotoSerifHentaigana_600SemiBold.ttf.png)|![NotoSerifHentaigana_700Bold](./700Bold/NotoSerifHentaigana_700Bold.ttf.png)||
+|![NotoSerifHentaigana_800ExtraBold](./800ExtraBold/NotoSerifHentaigana_800ExtraBold.ttf.png)|![NotoSerifHentaigana_900Black](./900Black/NotoSerifHentaigana_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

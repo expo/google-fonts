@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/cairo-play expo-font expo-app-loading
+npx expo install @expo-google-fonts/cairo-play expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, CairoPlay_200ExtraLight, CairoPlay_300Light, CairoPlay_400Regular, CairoPlay_500Medium, CairoPlay_600SemiBold, CairoPlay_700Bold, CairoPlay_800ExtraBold, CairoPlay_900Black } from '@expo-google-fonts/cairo-play';
+import { useFonts } from '@expo-google-fonts/cairo-play/useFonts';
+import { CairoPlay_200ExtraLight } from '@expo-google-fonts/cairo-play/200ExtraLight';
+import { CairoPlay_300Light } from '@expo-google-fonts/cairo-play/300Light';
+import { CairoPlay_400Regular } from '@expo-google-fonts/cairo-play/400Regular';
+import { CairoPlay_500Medium } from '@expo-google-fonts/cairo-play/500Medium';
+import { CairoPlay_600SemiBold } from '@expo-google-fonts/cairo-play/600SemiBold';
+import { CairoPlay_700Bold } from '@expo-google-fonts/cairo-play/700Bold';
+import { CairoPlay_800ExtraBold } from '@expo-google-fonts/cairo-play/800ExtraBold';
+import { CairoPlay_900Black } from '@expo-google-fonts/cairo-play/900Black';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CairoPlay_200ExtraLight](./CairoPlay_200ExtraLight.ttf.png)|![CairoPlay_300Light](./CairoPlay_300Light.ttf.png)|![CairoPlay_400Regular](./CairoPlay_400Regular.ttf.png)||
-|![CairoPlay_500Medium](./CairoPlay_500Medium.ttf.png)|![CairoPlay_600SemiBold](./CairoPlay_600SemiBold.ttf.png)|![CairoPlay_700Bold](./CairoPlay_700Bold.ttf.png)||
-|![CairoPlay_800ExtraBold](./CairoPlay_800ExtraBold.ttf.png)|![CairoPlay_900Black](./CairoPlay_900Black.ttf.png)|||
+|![CairoPlay_200ExtraLight](./200ExtraLight/CairoPlay_200ExtraLight.ttf.png)|![CairoPlay_300Light](./300Light/CairoPlay_300Light.ttf.png)|![CairoPlay_400Regular](./400Regular/CairoPlay_400Regular.ttf.png)||
+|![CairoPlay_500Medium](./500Medium/CairoPlay_500Medium.ttf.png)|![CairoPlay_600SemiBold](./600SemiBold/CairoPlay_600SemiBold.ttf.png)|![CairoPlay_700Bold](./700Bold/CairoPlay_700Bold.ttf.png)||
+|![CairoPlay_800ExtraBold](./800ExtraBold/CairoPlay_800ExtraBold.ttf.png)|![CairoPlay_900Black](./900Black/CairoPlay_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

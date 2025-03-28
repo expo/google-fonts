@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/lexend-tera expo-font expo-app-loading
+npx expo install @expo-google-fonts/lexend-tera expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, LexendTera_100Thin, LexendTera_200ExtraLight, LexendTera_300Light, LexendTera_400Regular, LexendTera_500Medium, LexendTera_600SemiBold, LexendTera_700Bold, LexendTera_800ExtraBold, LexendTera_900Black } from '@expo-google-fonts/lexend-tera';
+import { useFonts } from '@expo-google-fonts/lexend-tera/useFonts';
+import { LexendTera_100Thin } from '@expo-google-fonts/lexend-tera/100Thin';
+import { LexendTera_200ExtraLight } from '@expo-google-fonts/lexend-tera/200ExtraLight';
+import { LexendTera_300Light } from '@expo-google-fonts/lexend-tera/300Light';
+import { LexendTera_400Regular } from '@expo-google-fonts/lexend-tera/400Regular';
+import { LexendTera_500Medium } from '@expo-google-fonts/lexend-tera/500Medium';
+import { LexendTera_600SemiBold } from '@expo-google-fonts/lexend-tera/600SemiBold';
+import { LexendTera_700Bold } from '@expo-google-fonts/lexend-tera/700Bold';
+import { LexendTera_800ExtraBold } from '@expo-google-fonts/lexend-tera/800ExtraBold';
+import { LexendTera_900Black } from '@expo-google-fonts/lexend-tera/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LexendTera_100Thin](./LexendTera_100Thin.ttf.png)|![LexendTera_200ExtraLight](./LexendTera_200ExtraLight.ttf.png)|![LexendTera_300Light](./LexendTera_300Light.ttf.png)||
-|![LexendTera_400Regular](./LexendTera_400Regular.ttf.png)|![LexendTera_500Medium](./LexendTera_500Medium.ttf.png)|![LexendTera_600SemiBold](./LexendTera_600SemiBold.ttf.png)||
-|![LexendTera_700Bold](./LexendTera_700Bold.ttf.png)|![LexendTera_800ExtraBold](./LexendTera_800ExtraBold.ttf.png)|![LexendTera_900Black](./LexendTera_900Black.ttf.png)||
+|![LexendTera_100Thin](./100Thin/LexendTera_100Thin.ttf.png)|![LexendTera_200ExtraLight](./200ExtraLight/LexendTera_200ExtraLight.ttf.png)|![LexendTera_300Light](./300Light/LexendTera_300Light.ttf.png)||
+|![LexendTera_400Regular](./400Regular/LexendTera_400Regular.ttf.png)|![LexendTera_500Medium](./500Medium/LexendTera_500Medium.ttf.png)|![LexendTera_600SemiBold](./600SemiBold/LexendTera_600SemiBold.ttf.png)||
+|![LexendTera_700Bold](./700Bold/LexendTera_700Bold.ttf.png)|![LexendTera_800ExtraBold](./800ExtraBold/LexendTera_800ExtraBold.ttf.png)|![LexendTera_900Black](./900Black/LexendTera_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

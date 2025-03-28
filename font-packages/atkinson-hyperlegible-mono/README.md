@@ -33,7 +33,7 @@ This font family contains [14 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/atkinson-hyperlegible-mono expo-font expo-app-loading
+npx expo install @expo-google-fonts/atkinson-hyperlegible-mono expo-font
 ```
 
 Now add code like this to your project
@@ -42,8 +42,21 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, AtkinsonHyperlegibleMono_200ExtraLight, AtkinsonHyperlegibleMono_300Light, AtkinsonHyperlegibleMono_400Regular, AtkinsonHyperlegibleMono_500Medium, AtkinsonHyperlegibleMono_600SemiBold, AtkinsonHyperlegibleMono_700Bold, AtkinsonHyperlegibleMono_800ExtraBold, AtkinsonHyperlegibleMono_200ExtraLight_Italic, AtkinsonHyperlegibleMono_300Light_Italic, AtkinsonHyperlegibleMono_400Regular_Italic, AtkinsonHyperlegibleMono_500Medium_Italic, AtkinsonHyperlegibleMono_600SemiBold_Italic, AtkinsonHyperlegibleMono_700Bold_Italic, AtkinsonHyperlegibleMono_800ExtraBold_Italic } from '@expo-google-fonts/atkinson-hyperlegible-mono';
+import { useFonts } from '@expo-google-fonts/atkinson-hyperlegible-mono/useFonts';
+import { AtkinsonHyperlegibleMono_200ExtraLight } from '@expo-google-fonts/atkinson-hyperlegible-mono/200ExtraLight';
+import { AtkinsonHyperlegibleMono_300Light } from '@expo-google-fonts/atkinson-hyperlegible-mono/300Light';
+import { AtkinsonHyperlegibleMono_400Regular } from '@expo-google-fonts/atkinson-hyperlegible-mono/400Regular';
+import { AtkinsonHyperlegibleMono_500Medium } from '@expo-google-fonts/atkinson-hyperlegible-mono/500Medium';
+import { AtkinsonHyperlegibleMono_600SemiBold } from '@expo-google-fonts/atkinson-hyperlegible-mono/600SemiBold';
+import { AtkinsonHyperlegibleMono_700Bold } from '@expo-google-fonts/atkinson-hyperlegible-mono/700Bold';
+import { AtkinsonHyperlegibleMono_800ExtraBold } from '@expo-google-fonts/atkinson-hyperlegible-mono/800ExtraBold';
+import { AtkinsonHyperlegibleMono_200ExtraLight_Italic } from '@expo-google-fonts/atkinson-hyperlegible-mono/200ExtraLight_Italic';
+import { AtkinsonHyperlegibleMono_300Light_Italic } from '@expo-google-fonts/atkinson-hyperlegible-mono/300Light_Italic';
+import { AtkinsonHyperlegibleMono_400Regular_Italic } from '@expo-google-fonts/atkinson-hyperlegible-mono/400Regular_Italic';
+import { AtkinsonHyperlegibleMono_500Medium_Italic } from '@expo-google-fonts/atkinson-hyperlegible-mono/500Medium_Italic';
+import { AtkinsonHyperlegibleMono_600SemiBold_Italic } from '@expo-google-fonts/atkinson-hyperlegible-mono/600SemiBold_Italic';
+import { AtkinsonHyperlegibleMono_700Bold_Italic } from '@expo-google-fonts/atkinson-hyperlegible-mono/700Bold_Italic';
+import { AtkinsonHyperlegibleMono_800ExtraBold_Italic } from '@expo-google-fonts/atkinson-hyperlegible-mono/800ExtraBold_Italic';
 
 export default () => {
 
@@ -68,7 +81,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -195,11 +208,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AtkinsonHyperlegibleMono_200ExtraLight](./AtkinsonHyperlegibleMono_200ExtraLight.ttf.png)|![AtkinsonHyperlegibleMono_300Light](./AtkinsonHyperlegibleMono_300Light.ttf.png)|![AtkinsonHyperlegibleMono_400Regular](./AtkinsonHyperlegibleMono_400Regular.ttf.png)||
-|![AtkinsonHyperlegibleMono_500Medium](./AtkinsonHyperlegibleMono_500Medium.ttf.png)|![AtkinsonHyperlegibleMono_600SemiBold](./AtkinsonHyperlegibleMono_600SemiBold.ttf.png)|![AtkinsonHyperlegibleMono_700Bold](./AtkinsonHyperlegibleMono_700Bold.ttf.png)||
-|![AtkinsonHyperlegibleMono_800ExtraBold](./AtkinsonHyperlegibleMono_800ExtraBold.ttf.png)|![AtkinsonHyperlegibleMono_200ExtraLight_Italic](./AtkinsonHyperlegibleMono_200ExtraLight_Italic.ttf.png)|![AtkinsonHyperlegibleMono_300Light_Italic](./AtkinsonHyperlegibleMono_300Light_Italic.ttf.png)||
-|![AtkinsonHyperlegibleMono_400Regular_Italic](./AtkinsonHyperlegibleMono_400Regular_Italic.ttf.png)|![AtkinsonHyperlegibleMono_500Medium_Italic](./AtkinsonHyperlegibleMono_500Medium_Italic.ttf.png)|![AtkinsonHyperlegibleMono_600SemiBold_Italic](./AtkinsonHyperlegibleMono_600SemiBold_Italic.ttf.png)||
-|![AtkinsonHyperlegibleMono_700Bold_Italic](./AtkinsonHyperlegibleMono_700Bold_Italic.ttf.png)|![AtkinsonHyperlegibleMono_800ExtraBold_Italic](./AtkinsonHyperlegibleMono_800ExtraBold_Italic.ttf.png)|||
+|![AtkinsonHyperlegibleMono_200ExtraLight](./200ExtraLight/AtkinsonHyperlegibleMono_200ExtraLight.ttf.png)|![AtkinsonHyperlegibleMono_300Light](./300Light/AtkinsonHyperlegibleMono_300Light.ttf.png)|![AtkinsonHyperlegibleMono_400Regular](./400Regular/AtkinsonHyperlegibleMono_400Regular.ttf.png)||
+|![AtkinsonHyperlegibleMono_500Medium](./500Medium/AtkinsonHyperlegibleMono_500Medium.ttf.png)|![AtkinsonHyperlegibleMono_600SemiBold](./600SemiBold/AtkinsonHyperlegibleMono_600SemiBold.ttf.png)|![AtkinsonHyperlegibleMono_700Bold](./700Bold/AtkinsonHyperlegibleMono_700Bold.ttf.png)||
+|![AtkinsonHyperlegibleMono_800ExtraBold](./800ExtraBold/AtkinsonHyperlegibleMono_800ExtraBold.ttf.png)|![AtkinsonHyperlegibleMono_200ExtraLight_Italic](./200ExtraLight_Italic/AtkinsonHyperlegibleMono_200ExtraLight_Italic.ttf.png)|![AtkinsonHyperlegibleMono_300Light_Italic](./300Light_Italic/AtkinsonHyperlegibleMono_300Light_Italic.ttf.png)||
+|![AtkinsonHyperlegibleMono_400Regular_Italic](./400Regular_Italic/AtkinsonHyperlegibleMono_400Regular_Italic.ttf.png)|![AtkinsonHyperlegibleMono_500Medium_Italic](./500Medium_Italic/AtkinsonHyperlegibleMono_500Medium_Italic.ttf.png)|![AtkinsonHyperlegibleMono_600SemiBold_Italic](./600SemiBold_Italic/AtkinsonHyperlegibleMono_600SemiBold_Italic.ttf.png)||
+|![AtkinsonHyperlegibleMono_700Bold_Italic](./700Bold_Italic/AtkinsonHyperlegibleMono_700Bold_Italic.ttf.png)|![AtkinsonHyperlegibleMono_800ExtraBold_Italic](./800ExtraBold_Italic/AtkinsonHyperlegibleMono_800ExtraBold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

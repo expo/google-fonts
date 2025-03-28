@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/comic-neue expo-font expo-app-loading
+npx expo install @expo-google-fonts/comic-neue expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, ComicNeue_300Light, ComicNeue_300Light_Italic, ComicNeue_400Regular, ComicNeue_400Regular_Italic, ComicNeue_700Bold, ComicNeue_700Bold_Italic } from '@expo-google-fonts/comic-neue';
+import { useFonts } from '@expo-google-fonts/comic-neue/useFonts';
+import { ComicNeue_300Light } from '@expo-google-fonts/comic-neue/300Light';
+import { ComicNeue_300Light_Italic } from '@expo-google-fonts/comic-neue/300Light_Italic';
+import { ComicNeue_400Regular } from '@expo-google-fonts/comic-neue/400Regular';
+import { ComicNeue_400Regular_Italic } from '@expo-google-fonts/comic-neue/400Regular_Italic';
+import { ComicNeue_700Bold } from '@expo-google-fonts/comic-neue/700Bold';
+import { ComicNeue_700Bold_Italic } from '@expo-google-fonts/comic-neue/700Bold_Italic';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ComicNeue_300Light](./ComicNeue_300Light.ttf.png)|![ComicNeue_300Light_Italic](./ComicNeue_300Light_Italic.ttf.png)|![ComicNeue_400Regular](./ComicNeue_400Regular.ttf.png)||
-|![ComicNeue_400Regular_Italic](./ComicNeue_400Regular_Italic.ttf.png)|![ComicNeue_700Bold](./ComicNeue_700Bold.ttf.png)|![ComicNeue_700Bold_Italic](./ComicNeue_700Bold_Italic.ttf.png)||
+|![ComicNeue_300Light](./300Light/ComicNeue_300Light.ttf.png)|![ComicNeue_300Light_Italic](./300Light_Italic/ComicNeue_300Light_Italic.ttf.png)|![ComicNeue_400Regular](./400Regular/ComicNeue_400Regular.ttf.png)||
+|![ComicNeue_400Regular_Italic](./400Regular_Italic/ComicNeue_400Regular_Italic.ttf.png)|![ComicNeue_700Bold](./700Bold/ComicNeue_700Bold.ttf.png)|![ComicNeue_700Bold_Italic](./700Bold_Italic/ComicNeue_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

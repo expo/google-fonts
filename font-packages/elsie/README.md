@@ -21,7 +21,7 @@ This font family contains [2 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/elsie expo-font expo-app-loading
+npx expo install @expo-google-fonts/elsie expo-font
 ```
 
 Now add code like this to your project
@@ -30,8 +30,9 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Elsie_400Regular, Elsie_900Black } from '@expo-google-fonts/elsie';
+import { useFonts } from '@expo-google-fonts/elsie/useFonts';
+import { Elsie_400Regular } from '@expo-google-fonts/elsie/400Regular';
+import { Elsie_900Black } from '@expo-google-fonts/elsie/900Black';
 
 export default () => {
 
@@ -44,7 +45,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -75,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Elsie_400Regular](./Elsie_400Regular.ttf.png)|![Elsie_900Black](./Elsie_900Black.ttf.png)|||
+|![Elsie_400Regular](./400Regular/Elsie_400Regular.ttf.png)|![Elsie_900Black](./900Black/Elsie_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-naskh-arabic expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-naskh-arabic expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoNaskhArabic_400Regular, NotoNaskhArabic_500Medium, NotoNaskhArabic_600SemiBold, NotoNaskhArabic_700Bold } from '@expo-google-fonts/noto-naskh-arabic';
+import { useFonts } from '@expo-google-fonts/noto-naskh-arabic/useFonts';
+import { NotoNaskhArabic_400Regular } from '@expo-google-fonts/noto-naskh-arabic/400Regular';
+import { NotoNaskhArabic_500Medium } from '@expo-google-fonts/noto-naskh-arabic/500Medium';
+import { NotoNaskhArabic_600SemiBold } from '@expo-google-fonts/noto-naskh-arabic/600SemiBold';
+import { NotoNaskhArabic_700Bold } from '@expo-google-fonts/noto-naskh-arabic/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoNaskhArabic_400Regular](./NotoNaskhArabic_400Regular.ttf.png)|![NotoNaskhArabic_500Medium](./NotoNaskhArabic_500Medium.ttf.png)|![NotoNaskhArabic_600SemiBold](./NotoNaskhArabic_600SemiBold.ttf.png)||
-|![NotoNaskhArabic_700Bold](./NotoNaskhArabic_700Bold.ttf.png)||||
+|![NotoNaskhArabic_400Regular](./400Regular/NotoNaskhArabic_400Regular.ttf.png)|![NotoNaskhArabic_500Medium](./500Medium/NotoNaskhArabic_500Medium.ttf.png)|![NotoNaskhArabic_600SemiBold](./600SemiBold/NotoNaskhArabic_600SemiBold.ttf.png)||
+|![NotoNaskhArabic_700Bold](./700Bold/NotoNaskhArabic_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

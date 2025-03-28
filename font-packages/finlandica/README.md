@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/finlandica expo-font expo-app-loading
+npx expo install @expo-google-fonts/finlandica expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Finlandica_400Regular, Finlandica_500Medium, Finlandica_600SemiBold, Finlandica_700Bold, Finlandica_400Regular_Italic, Finlandica_500Medium_Italic, Finlandica_600SemiBold_Italic, Finlandica_700Bold_Italic } from '@expo-google-fonts/finlandica';
+import { useFonts } from '@expo-google-fonts/finlandica/useFonts';
+import { Finlandica_400Regular } from '@expo-google-fonts/finlandica/400Regular';
+import { Finlandica_500Medium } from '@expo-google-fonts/finlandica/500Medium';
+import { Finlandica_600SemiBold } from '@expo-google-fonts/finlandica/600SemiBold';
+import { Finlandica_700Bold } from '@expo-google-fonts/finlandica/700Bold';
+import { Finlandica_400Regular_Italic } from '@expo-google-fonts/finlandica/400Regular_Italic';
+import { Finlandica_500Medium_Italic } from '@expo-google-fonts/finlandica/500Medium_Italic';
+import { Finlandica_600SemiBold_Italic } from '@expo-google-fonts/finlandica/600SemiBold_Italic';
+import { Finlandica_700Bold_Italic } from '@expo-google-fonts/finlandica/700Bold_Italic';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Finlandica_400Regular](./Finlandica_400Regular.ttf.png)|![Finlandica_500Medium](./Finlandica_500Medium.ttf.png)|![Finlandica_600SemiBold](./Finlandica_600SemiBold.ttf.png)||
-|![Finlandica_700Bold](./Finlandica_700Bold.ttf.png)|![Finlandica_400Regular_Italic](./Finlandica_400Regular_Italic.ttf.png)|![Finlandica_500Medium_Italic](./Finlandica_500Medium_Italic.ttf.png)||
-|![Finlandica_600SemiBold_Italic](./Finlandica_600SemiBold_Italic.ttf.png)|![Finlandica_700Bold_Italic](./Finlandica_700Bold_Italic.ttf.png)|||
+|![Finlandica_400Regular](./400Regular/Finlandica_400Regular.ttf.png)|![Finlandica_500Medium](./500Medium/Finlandica_500Medium.ttf.png)|![Finlandica_600SemiBold](./600SemiBold/Finlandica_600SemiBold.ttf.png)||
+|![Finlandica_700Bold](./700Bold/Finlandica_700Bold.ttf.png)|![Finlandica_400Regular_Italic](./400Regular_Italic/Finlandica_400Regular_Italic.ttf.png)|![Finlandica_500Medium_Italic](./500Medium_Italic/Finlandica_500Medium_Italic.ttf.png)||
+|![Finlandica_600SemiBold_Italic](./600SemiBold_Italic/Finlandica_600SemiBold_Italic.ttf.png)|![Finlandica_700Bold_Italic](./700Bold_Italic/Finlandica_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

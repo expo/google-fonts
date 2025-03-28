@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/saira-extra-condensed expo-font expo-app-loading
+npx expo install @expo-google-fonts/saira-extra-condensed expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, SairaExtraCondensed_100Thin, SairaExtraCondensed_200ExtraLight, SairaExtraCondensed_300Light, SairaExtraCondensed_400Regular, SairaExtraCondensed_500Medium, SairaExtraCondensed_600SemiBold, SairaExtraCondensed_700Bold, SairaExtraCondensed_800ExtraBold, SairaExtraCondensed_900Black } from '@expo-google-fonts/saira-extra-condensed';
+import { useFonts } from '@expo-google-fonts/saira-extra-condensed/useFonts';
+import { SairaExtraCondensed_100Thin } from '@expo-google-fonts/saira-extra-condensed/100Thin';
+import { SairaExtraCondensed_200ExtraLight } from '@expo-google-fonts/saira-extra-condensed/200ExtraLight';
+import { SairaExtraCondensed_300Light } from '@expo-google-fonts/saira-extra-condensed/300Light';
+import { SairaExtraCondensed_400Regular } from '@expo-google-fonts/saira-extra-condensed/400Regular';
+import { SairaExtraCondensed_500Medium } from '@expo-google-fonts/saira-extra-condensed/500Medium';
+import { SairaExtraCondensed_600SemiBold } from '@expo-google-fonts/saira-extra-condensed/600SemiBold';
+import { SairaExtraCondensed_700Bold } from '@expo-google-fonts/saira-extra-condensed/700Bold';
+import { SairaExtraCondensed_800ExtraBold } from '@expo-google-fonts/saira-extra-condensed/800ExtraBold';
+import { SairaExtraCondensed_900Black } from '@expo-google-fonts/saira-extra-condensed/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SairaExtraCondensed_100Thin](./SairaExtraCondensed_100Thin.ttf.png)|![SairaExtraCondensed_200ExtraLight](./SairaExtraCondensed_200ExtraLight.ttf.png)|![SairaExtraCondensed_300Light](./SairaExtraCondensed_300Light.ttf.png)||
-|![SairaExtraCondensed_400Regular](./SairaExtraCondensed_400Regular.ttf.png)|![SairaExtraCondensed_500Medium](./SairaExtraCondensed_500Medium.ttf.png)|![SairaExtraCondensed_600SemiBold](./SairaExtraCondensed_600SemiBold.ttf.png)||
-|![SairaExtraCondensed_700Bold](./SairaExtraCondensed_700Bold.ttf.png)|![SairaExtraCondensed_800ExtraBold](./SairaExtraCondensed_800ExtraBold.ttf.png)|![SairaExtraCondensed_900Black](./SairaExtraCondensed_900Black.ttf.png)||
+|![SairaExtraCondensed_100Thin](./100Thin/SairaExtraCondensed_100Thin.ttf.png)|![SairaExtraCondensed_200ExtraLight](./200ExtraLight/SairaExtraCondensed_200ExtraLight.ttf.png)|![SairaExtraCondensed_300Light](./300Light/SairaExtraCondensed_300Light.ttf.png)||
+|![SairaExtraCondensed_400Regular](./400Regular/SairaExtraCondensed_400Regular.ttf.png)|![SairaExtraCondensed_500Medium](./500Medium/SairaExtraCondensed_500Medium.ttf.png)|![SairaExtraCondensed_600SemiBold](./600SemiBold/SairaExtraCondensed_600SemiBold.ttf.png)||
+|![SairaExtraCondensed_700Bold](./700Bold/SairaExtraCondensed_700Bold.ttf.png)|![SairaExtraCondensed_800ExtraBold](./800ExtraBold/SairaExtraCondensed_800ExtraBold.ttf.png)|![SairaExtraCondensed_900Black](./900Black/SairaExtraCondensed_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

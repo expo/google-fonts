@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/tektur expo-font expo-app-loading
+npx expo install @expo-google-fonts/tektur expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Tektur_400Regular, Tektur_500Medium, Tektur_600SemiBold, Tektur_700Bold, Tektur_800ExtraBold, Tektur_900Black } from '@expo-google-fonts/tektur';
+import { useFonts } from '@expo-google-fonts/tektur/useFonts';
+import { Tektur_400Regular } from '@expo-google-fonts/tektur/400Regular';
+import { Tektur_500Medium } from '@expo-google-fonts/tektur/500Medium';
+import { Tektur_600SemiBold } from '@expo-google-fonts/tektur/600SemiBold';
+import { Tektur_700Bold } from '@expo-google-fonts/tektur/700Bold';
+import { Tektur_800ExtraBold } from '@expo-google-fonts/tektur/800ExtraBold';
+import { Tektur_900Black } from '@expo-google-fonts/tektur/900Black';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Tektur_400Regular](./Tektur_400Regular.ttf.png)|![Tektur_500Medium](./Tektur_500Medium.ttf.png)|![Tektur_600SemiBold](./Tektur_600SemiBold.ttf.png)||
-|![Tektur_700Bold](./Tektur_700Bold.ttf.png)|![Tektur_800ExtraBold](./Tektur_800ExtraBold.ttf.png)|![Tektur_900Black](./Tektur_900Black.ttf.png)||
+|![Tektur_400Regular](./400Regular/Tektur_400Regular.ttf.png)|![Tektur_500Medium](./500Medium/Tektur_500Medium.ttf.png)|![Tektur_600SemiBold](./600SemiBold/Tektur_600SemiBold.ttf.png)||
+|![Tektur_700Bold](./700Bold/Tektur_700Bold.ttf.png)|![Tektur_800ExtraBold](./800ExtraBold/Tektur_800ExtraBold.ttf.png)|![Tektur_900Black](./900Black/Tektur_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

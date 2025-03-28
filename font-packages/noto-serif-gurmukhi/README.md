@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-gurmukhi expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-gurmukhi expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifGurmukhi_100Thin, NotoSerifGurmukhi_200ExtraLight, NotoSerifGurmukhi_300Light, NotoSerifGurmukhi_400Regular, NotoSerifGurmukhi_500Medium, NotoSerifGurmukhi_600SemiBold, NotoSerifGurmukhi_700Bold, NotoSerifGurmukhi_800ExtraBold, NotoSerifGurmukhi_900Black } from '@expo-google-fonts/noto-serif-gurmukhi';
+import { useFonts } from '@expo-google-fonts/noto-serif-gurmukhi/useFonts';
+import { NotoSerifGurmukhi_100Thin } from '@expo-google-fonts/noto-serif-gurmukhi/100Thin';
+import { NotoSerifGurmukhi_200ExtraLight } from '@expo-google-fonts/noto-serif-gurmukhi/200ExtraLight';
+import { NotoSerifGurmukhi_300Light } from '@expo-google-fonts/noto-serif-gurmukhi/300Light';
+import { NotoSerifGurmukhi_400Regular } from '@expo-google-fonts/noto-serif-gurmukhi/400Regular';
+import { NotoSerifGurmukhi_500Medium } from '@expo-google-fonts/noto-serif-gurmukhi/500Medium';
+import { NotoSerifGurmukhi_600SemiBold } from '@expo-google-fonts/noto-serif-gurmukhi/600SemiBold';
+import { NotoSerifGurmukhi_700Bold } from '@expo-google-fonts/noto-serif-gurmukhi/700Bold';
+import { NotoSerifGurmukhi_800ExtraBold } from '@expo-google-fonts/noto-serif-gurmukhi/800ExtraBold';
+import { NotoSerifGurmukhi_900Black } from '@expo-google-fonts/noto-serif-gurmukhi/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifGurmukhi_100Thin](./NotoSerifGurmukhi_100Thin.ttf.png)|![NotoSerifGurmukhi_200ExtraLight](./NotoSerifGurmukhi_200ExtraLight.ttf.png)|![NotoSerifGurmukhi_300Light](./NotoSerifGurmukhi_300Light.ttf.png)||
-|![NotoSerifGurmukhi_400Regular](./NotoSerifGurmukhi_400Regular.ttf.png)|![NotoSerifGurmukhi_500Medium](./NotoSerifGurmukhi_500Medium.ttf.png)|![NotoSerifGurmukhi_600SemiBold](./NotoSerifGurmukhi_600SemiBold.ttf.png)||
-|![NotoSerifGurmukhi_700Bold](./NotoSerifGurmukhi_700Bold.ttf.png)|![NotoSerifGurmukhi_800ExtraBold](./NotoSerifGurmukhi_800ExtraBold.ttf.png)|![NotoSerifGurmukhi_900Black](./NotoSerifGurmukhi_900Black.ttf.png)||
+|![NotoSerifGurmukhi_100Thin](./100Thin/NotoSerifGurmukhi_100Thin.ttf.png)|![NotoSerifGurmukhi_200ExtraLight](./200ExtraLight/NotoSerifGurmukhi_200ExtraLight.ttf.png)|![NotoSerifGurmukhi_300Light](./300Light/NotoSerifGurmukhi_300Light.ttf.png)||
+|![NotoSerifGurmukhi_400Regular](./400Regular/NotoSerifGurmukhi_400Regular.ttf.png)|![NotoSerifGurmukhi_500Medium](./500Medium/NotoSerifGurmukhi_500Medium.ttf.png)|![NotoSerifGurmukhi_600SemiBold](./600SemiBold/NotoSerifGurmukhi_600SemiBold.ttf.png)||
+|![NotoSerifGurmukhi_700Bold](./700Bold/NotoSerifGurmukhi_700Bold.ttf.png)|![NotoSerifGurmukhi_800ExtraBold](./800ExtraBold/NotoSerifGurmukhi_800ExtraBold.ttf.png)|![NotoSerifGurmukhi_900Black](./900Black/NotoSerifGurmukhi_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

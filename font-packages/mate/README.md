@@ -21,7 +21,7 @@ This font family contains [2 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/mate expo-font expo-app-loading
+npx expo install @expo-google-fonts/mate expo-font
 ```
 
 Now add code like this to your project
@@ -30,8 +30,9 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Mate_400Regular, Mate_400Regular_Italic } from '@expo-google-fonts/mate';
+import { useFonts } from '@expo-google-fonts/mate/useFonts';
+import { Mate_400Regular } from '@expo-google-fonts/mate/400Regular';
+import { Mate_400Regular_Italic } from '@expo-google-fonts/mate/400Regular_Italic';
 
 export default () => {
 
@@ -44,7 +45,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -75,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Mate_400Regular](./Mate_400Regular.ttf.png)|![Mate_400Regular_Italic](./Mate_400Regular_Italic.ttf.png)|||
+|![Mate_400Regular](./400Regular/Mate_400Regular.ttf.png)|![Mate_400Regular_Italic](./400Regular_Italic/Mate_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

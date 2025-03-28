@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/playwrite-gb-j expo-font expo-app-loading
+npx expo install @expo-google-fonts/playwrite-gb-j expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PlaywriteGBJ_100Thin, PlaywriteGBJ_200ExtraLight, PlaywriteGBJ_300Light, PlaywriteGBJ_400Regular, PlaywriteGBJ_100Thin_Italic, PlaywriteGBJ_200ExtraLight_Italic, PlaywriteGBJ_300Light_Italic, PlaywriteGBJ_400Regular_Italic } from '@expo-google-fonts/playwrite-gb-j';
+import { useFonts } from '@expo-google-fonts/playwrite-gb-j/useFonts';
+import { PlaywriteGBJ_100Thin } from '@expo-google-fonts/playwrite-gb-j/100Thin';
+import { PlaywriteGBJ_200ExtraLight } from '@expo-google-fonts/playwrite-gb-j/200ExtraLight';
+import { PlaywriteGBJ_300Light } from '@expo-google-fonts/playwrite-gb-j/300Light';
+import { PlaywriteGBJ_400Regular } from '@expo-google-fonts/playwrite-gb-j/400Regular';
+import { PlaywriteGBJ_100Thin_Italic } from '@expo-google-fonts/playwrite-gb-j/100Thin_Italic';
+import { PlaywriteGBJ_200ExtraLight_Italic } from '@expo-google-fonts/playwrite-gb-j/200ExtraLight_Italic';
+import { PlaywriteGBJ_300Light_Italic } from '@expo-google-fonts/playwrite-gb-j/300Light_Italic';
+import { PlaywriteGBJ_400Regular_Italic } from '@expo-google-fonts/playwrite-gb-j/400Regular_Italic';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteGBJ_100Thin](./PlaywriteGBJ_100Thin.ttf.png)|![PlaywriteGBJ_200ExtraLight](./PlaywriteGBJ_200ExtraLight.ttf.png)|![PlaywriteGBJ_300Light](./PlaywriteGBJ_300Light.ttf.png)||
-|![PlaywriteGBJ_400Regular](./PlaywriteGBJ_400Regular.ttf.png)|![PlaywriteGBJ_100Thin_Italic](./PlaywriteGBJ_100Thin_Italic.ttf.png)|![PlaywriteGBJ_200ExtraLight_Italic](./PlaywriteGBJ_200ExtraLight_Italic.ttf.png)||
-|![PlaywriteGBJ_300Light_Italic](./PlaywriteGBJ_300Light_Italic.ttf.png)|![PlaywriteGBJ_400Regular_Italic](./PlaywriteGBJ_400Regular_Italic.ttf.png)|||
+|![PlaywriteGBJ_100Thin](./100Thin/PlaywriteGBJ_100Thin.ttf.png)|![PlaywriteGBJ_200ExtraLight](./200ExtraLight/PlaywriteGBJ_200ExtraLight.ttf.png)|![PlaywriteGBJ_300Light](./300Light/PlaywriteGBJ_300Light.ttf.png)||
+|![PlaywriteGBJ_400Regular](./400Regular/PlaywriteGBJ_400Regular.ttf.png)|![PlaywriteGBJ_100Thin_Italic](./100Thin_Italic/PlaywriteGBJ_100Thin_Italic.ttf.png)|![PlaywriteGBJ_200ExtraLight_Italic](./200ExtraLight_Italic/PlaywriteGBJ_200ExtraLight_Italic.ttf.png)||
+|![PlaywriteGBJ_300Light_Italic](./300Light_Italic/PlaywriteGBJ_300Light_Italic.ttf.png)|![PlaywriteGBJ_400Regular_Italic](./400Regular_Italic/PlaywriteGBJ_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

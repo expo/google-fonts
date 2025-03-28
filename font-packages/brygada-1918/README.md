@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/brygada-1918 expo-font expo-app-loading
+npx expo install @expo-google-fonts/brygada-1918 expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Brygada1918_400Regular, Brygada1918_500Medium, Brygada1918_600SemiBold, Brygada1918_700Bold, Brygada1918_400Regular_Italic, Brygada1918_500Medium_Italic, Brygada1918_600SemiBold_Italic, Brygada1918_700Bold_Italic } from '@expo-google-fonts/brygada-1918';
+import { useFonts } from '@expo-google-fonts/brygada-1918/useFonts';
+import { Brygada1918_400Regular } from '@expo-google-fonts/brygada-1918/400Regular';
+import { Brygada1918_500Medium } from '@expo-google-fonts/brygada-1918/500Medium';
+import { Brygada1918_600SemiBold } from '@expo-google-fonts/brygada-1918/600SemiBold';
+import { Brygada1918_700Bold } from '@expo-google-fonts/brygada-1918/700Bold';
+import { Brygada1918_400Regular_Italic } from '@expo-google-fonts/brygada-1918/400Regular_Italic';
+import { Brygada1918_500Medium_Italic } from '@expo-google-fonts/brygada-1918/500Medium_Italic';
+import { Brygada1918_600SemiBold_Italic } from '@expo-google-fonts/brygada-1918/600SemiBold_Italic';
+import { Brygada1918_700Bold_Italic } from '@expo-google-fonts/brygada-1918/700Bold_Italic';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Brygada1918_400Regular](./Brygada1918_400Regular.ttf.png)|![Brygada1918_500Medium](./Brygada1918_500Medium.ttf.png)|![Brygada1918_600SemiBold](./Brygada1918_600SemiBold.ttf.png)||
-|![Brygada1918_700Bold](./Brygada1918_700Bold.ttf.png)|![Brygada1918_400Regular_Italic](./Brygada1918_400Regular_Italic.ttf.png)|![Brygada1918_500Medium_Italic](./Brygada1918_500Medium_Italic.ttf.png)||
-|![Brygada1918_600SemiBold_Italic](./Brygada1918_600SemiBold_Italic.ttf.png)|![Brygada1918_700Bold_Italic](./Brygada1918_700Bold_Italic.ttf.png)|||
+|![Brygada1918_400Regular](./400Regular/Brygada1918_400Regular.ttf.png)|![Brygada1918_500Medium](./500Medium/Brygada1918_500Medium.ttf.png)|![Brygada1918_600SemiBold](./600SemiBold/Brygada1918_600SemiBold.ttf.png)||
+|![Brygada1918_700Bold](./700Bold/Brygada1918_700Bold.ttf.png)|![Brygada1918_400Regular_Italic](./400Regular_Italic/Brygada1918_400Regular_Italic.ttf.png)|![Brygada1918_500Medium_Italic](./500Medium_Italic/Brygada1918_500Medium_Italic.ttf.png)||
+|![Brygada1918_600SemiBold_Italic](./600SemiBold_Italic/Brygada1918_600SemiBold_Italic.ttf.png)|![Brygada1918_700Bold_Italic](./700Bold_Italic/Brygada1918_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

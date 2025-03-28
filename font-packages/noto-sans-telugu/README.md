@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-telugu expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-telugu expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansTelugu_100Thin, NotoSansTelugu_200ExtraLight, NotoSansTelugu_300Light, NotoSansTelugu_400Regular, NotoSansTelugu_500Medium, NotoSansTelugu_600SemiBold, NotoSansTelugu_700Bold, NotoSansTelugu_800ExtraBold, NotoSansTelugu_900Black } from '@expo-google-fonts/noto-sans-telugu';
+import { useFonts } from '@expo-google-fonts/noto-sans-telugu/useFonts';
+import { NotoSansTelugu_100Thin } from '@expo-google-fonts/noto-sans-telugu/100Thin';
+import { NotoSansTelugu_200ExtraLight } from '@expo-google-fonts/noto-sans-telugu/200ExtraLight';
+import { NotoSansTelugu_300Light } from '@expo-google-fonts/noto-sans-telugu/300Light';
+import { NotoSansTelugu_400Regular } from '@expo-google-fonts/noto-sans-telugu/400Regular';
+import { NotoSansTelugu_500Medium } from '@expo-google-fonts/noto-sans-telugu/500Medium';
+import { NotoSansTelugu_600SemiBold } from '@expo-google-fonts/noto-sans-telugu/600SemiBold';
+import { NotoSansTelugu_700Bold } from '@expo-google-fonts/noto-sans-telugu/700Bold';
+import { NotoSansTelugu_800ExtraBold } from '@expo-google-fonts/noto-sans-telugu/800ExtraBold';
+import { NotoSansTelugu_900Black } from '@expo-google-fonts/noto-sans-telugu/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansTelugu_100Thin](./NotoSansTelugu_100Thin.ttf.png)|![NotoSansTelugu_200ExtraLight](./NotoSansTelugu_200ExtraLight.ttf.png)|![NotoSansTelugu_300Light](./NotoSansTelugu_300Light.ttf.png)||
-|![NotoSansTelugu_400Regular](./NotoSansTelugu_400Regular.ttf.png)|![NotoSansTelugu_500Medium](./NotoSansTelugu_500Medium.ttf.png)|![NotoSansTelugu_600SemiBold](./NotoSansTelugu_600SemiBold.ttf.png)||
-|![NotoSansTelugu_700Bold](./NotoSansTelugu_700Bold.ttf.png)|![NotoSansTelugu_800ExtraBold](./NotoSansTelugu_800ExtraBold.ttf.png)|![NotoSansTelugu_900Black](./NotoSansTelugu_900Black.ttf.png)||
+|![NotoSansTelugu_100Thin](./100Thin/NotoSansTelugu_100Thin.ttf.png)|![NotoSansTelugu_200ExtraLight](./200ExtraLight/NotoSansTelugu_200ExtraLight.ttf.png)|![NotoSansTelugu_300Light](./300Light/NotoSansTelugu_300Light.ttf.png)||
+|![NotoSansTelugu_400Regular](./400Regular/NotoSansTelugu_400Regular.ttf.png)|![NotoSansTelugu_500Medium](./500Medium/NotoSansTelugu_500Medium.ttf.png)|![NotoSansTelugu_600SemiBold](./600SemiBold/NotoSansTelugu_600SemiBold.ttf.png)||
+|![NotoSansTelugu_700Bold](./700Bold/NotoSansTelugu_700Bold.ttf.png)|![NotoSansTelugu_800ExtraBold](./800ExtraBold/NotoSansTelugu_800ExtraBold.ttf.png)|![NotoSansTelugu_900Black](./900Black/NotoSansTelugu_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

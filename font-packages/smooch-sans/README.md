@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/smooch-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/smooch-sans expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, SmoochSans_100Thin, SmoochSans_200ExtraLight, SmoochSans_300Light, SmoochSans_400Regular, SmoochSans_500Medium, SmoochSans_600SemiBold, SmoochSans_700Bold, SmoochSans_800ExtraBold, SmoochSans_900Black } from '@expo-google-fonts/smooch-sans';
+import { useFonts } from '@expo-google-fonts/smooch-sans/useFonts';
+import { SmoochSans_100Thin } from '@expo-google-fonts/smooch-sans/100Thin';
+import { SmoochSans_200ExtraLight } from '@expo-google-fonts/smooch-sans/200ExtraLight';
+import { SmoochSans_300Light } from '@expo-google-fonts/smooch-sans/300Light';
+import { SmoochSans_400Regular } from '@expo-google-fonts/smooch-sans/400Regular';
+import { SmoochSans_500Medium } from '@expo-google-fonts/smooch-sans/500Medium';
+import { SmoochSans_600SemiBold } from '@expo-google-fonts/smooch-sans/600SemiBold';
+import { SmoochSans_700Bold } from '@expo-google-fonts/smooch-sans/700Bold';
+import { SmoochSans_800ExtraBold } from '@expo-google-fonts/smooch-sans/800ExtraBold';
+import { SmoochSans_900Black } from '@expo-google-fonts/smooch-sans/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SmoochSans_100Thin](./SmoochSans_100Thin.ttf.png)|![SmoochSans_200ExtraLight](./SmoochSans_200ExtraLight.ttf.png)|![SmoochSans_300Light](./SmoochSans_300Light.ttf.png)||
-|![SmoochSans_400Regular](./SmoochSans_400Regular.ttf.png)|![SmoochSans_500Medium](./SmoochSans_500Medium.ttf.png)|![SmoochSans_600SemiBold](./SmoochSans_600SemiBold.ttf.png)||
-|![SmoochSans_700Bold](./SmoochSans_700Bold.ttf.png)|![SmoochSans_800ExtraBold](./SmoochSans_800ExtraBold.ttf.png)|![SmoochSans_900Black](./SmoochSans_900Black.ttf.png)||
+|![SmoochSans_100Thin](./100Thin/SmoochSans_100Thin.ttf.png)|![SmoochSans_200ExtraLight](./200ExtraLight/SmoochSans_200ExtraLight.ttf.png)|![SmoochSans_300Light](./300Light/SmoochSans_300Light.ttf.png)||
+|![SmoochSans_400Regular](./400Regular/SmoochSans_400Regular.ttf.png)|![SmoochSans_500Medium](./500Medium/SmoochSans_500Medium.ttf.png)|![SmoochSans_600SemiBold](./600SemiBold/SmoochSans_600SemiBold.ttf.png)||
+|![SmoochSans_700Bold](./700Bold/SmoochSans_700Bold.ttf.png)|![SmoochSans_800ExtraBold](./800ExtraBold/SmoochSans_800ExtraBold.ttf.png)|![SmoochSans_900Black](./900Black/SmoochSans_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

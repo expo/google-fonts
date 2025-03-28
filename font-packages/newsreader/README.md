@@ -33,7 +33,7 @@ This font family contains [14 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/newsreader expo-font expo-app-loading
+npx expo install @expo-google-fonts/newsreader expo-font
 ```
 
 Now add code like this to your project
@@ -42,8 +42,21 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Newsreader_200ExtraLight, Newsreader_300Light, Newsreader_400Regular, Newsreader_500Medium, Newsreader_600SemiBold, Newsreader_700Bold, Newsreader_800ExtraBold, Newsreader_200ExtraLight_Italic, Newsreader_300Light_Italic, Newsreader_400Regular_Italic, Newsreader_500Medium_Italic, Newsreader_600SemiBold_Italic, Newsreader_700Bold_Italic, Newsreader_800ExtraBold_Italic } from '@expo-google-fonts/newsreader';
+import { useFonts } from '@expo-google-fonts/newsreader/useFonts';
+import { Newsreader_200ExtraLight } from '@expo-google-fonts/newsreader/200ExtraLight';
+import { Newsreader_300Light } from '@expo-google-fonts/newsreader/300Light';
+import { Newsreader_400Regular } from '@expo-google-fonts/newsreader/400Regular';
+import { Newsreader_500Medium } from '@expo-google-fonts/newsreader/500Medium';
+import { Newsreader_600SemiBold } from '@expo-google-fonts/newsreader/600SemiBold';
+import { Newsreader_700Bold } from '@expo-google-fonts/newsreader/700Bold';
+import { Newsreader_800ExtraBold } from '@expo-google-fonts/newsreader/800ExtraBold';
+import { Newsreader_200ExtraLight_Italic } from '@expo-google-fonts/newsreader/200ExtraLight_Italic';
+import { Newsreader_300Light_Italic } from '@expo-google-fonts/newsreader/300Light_Italic';
+import { Newsreader_400Regular_Italic } from '@expo-google-fonts/newsreader/400Regular_Italic';
+import { Newsreader_500Medium_Italic } from '@expo-google-fonts/newsreader/500Medium_Italic';
+import { Newsreader_600SemiBold_Italic } from '@expo-google-fonts/newsreader/600SemiBold_Italic';
+import { Newsreader_700Bold_Italic } from '@expo-google-fonts/newsreader/700Bold_Italic';
+import { Newsreader_800ExtraBold_Italic } from '@expo-google-fonts/newsreader/800ExtraBold_Italic';
 
 export default () => {
 
@@ -68,7 +81,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -195,11 +208,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Newsreader_200ExtraLight](./Newsreader_200ExtraLight.ttf.png)|![Newsreader_300Light](./Newsreader_300Light.ttf.png)|![Newsreader_400Regular](./Newsreader_400Regular.ttf.png)||
-|![Newsreader_500Medium](./Newsreader_500Medium.ttf.png)|![Newsreader_600SemiBold](./Newsreader_600SemiBold.ttf.png)|![Newsreader_700Bold](./Newsreader_700Bold.ttf.png)||
-|![Newsreader_800ExtraBold](./Newsreader_800ExtraBold.ttf.png)|![Newsreader_200ExtraLight_Italic](./Newsreader_200ExtraLight_Italic.ttf.png)|![Newsreader_300Light_Italic](./Newsreader_300Light_Italic.ttf.png)||
-|![Newsreader_400Regular_Italic](./Newsreader_400Regular_Italic.ttf.png)|![Newsreader_500Medium_Italic](./Newsreader_500Medium_Italic.ttf.png)|![Newsreader_600SemiBold_Italic](./Newsreader_600SemiBold_Italic.ttf.png)||
-|![Newsreader_700Bold_Italic](./Newsreader_700Bold_Italic.ttf.png)|![Newsreader_800ExtraBold_Italic](./Newsreader_800ExtraBold_Italic.ttf.png)|||
+|![Newsreader_200ExtraLight](./200ExtraLight/Newsreader_200ExtraLight.ttf.png)|![Newsreader_300Light](./300Light/Newsreader_300Light.ttf.png)|![Newsreader_400Regular](./400Regular/Newsreader_400Regular.ttf.png)||
+|![Newsreader_500Medium](./500Medium/Newsreader_500Medium.ttf.png)|![Newsreader_600SemiBold](./600SemiBold/Newsreader_600SemiBold.ttf.png)|![Newsreader_700Bold](./700Bold/Newsreader_700Bold.ttf.png)||
+|![Newsreader_800ExtraBold](./800ExtraBold/Newsreader_800ExtraBold.ttf.png)|![Newsreader_200ExtraLight_Italic](./200ExtraLight_Italic/Newsreader_200ExtraLight_Italic.ttf.png)|![Newsreader_300Light_Italic](./300Light_Italic/Newsreader_300Light_Italic.ttf.png)||
+|![Newsreader_400Regular_Italic](./400Regular_Italic/Newsreader_400Regular_Italic.ttf.png)|![Newsreader_500Medium_Italic](./500Medium_Italic/Newsreader_500Medium_Italic.ttf.png)|![Newsreader_600SemiBold_Italic](./600SemiBold_Italic/Newsreader_600SemiBold_Italic.ttf.png)||
+|![Newsreader_700Bold_Italic](./700Bold_Italic/Newsreader_700Bold_Italic.ttf.png)|![Newsreader_800ExtraBold_Italic](./800ExtraBold_Italic/Newsreader_800ExtraBold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

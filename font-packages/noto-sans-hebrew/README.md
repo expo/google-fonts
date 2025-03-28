@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-hebrew expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-hebrew expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansHebrew_100Thin, NotoSansHebrew_200ExtraLight, NotoSansHebrew_300Light, NotoSansHebrew_400Regular, NotoSansHebrew_500Medium, NotoSansHebrew_600SemiBold, NotoSansHebrew_700Bold, NotoSansHebrew_800ExtraBold, NotoSansHebrew_900Black } from '@expo-google-fonts/noto-sans-hebrew';
+import { useFonts } from '@expo-google-fonts/noto-sans-hebrew/useFonts';
+import { NotoSansHebrew_100Thin } from '@expo-google-fonts/noto-sans-hebrew/100Thin';
+import { NotoSansHebrew_200ExtraLight } from '@expo-google-fonts/noto-sans-hebrew/200ExtraLight';
+import { NotoSansHebrew_300Light } from '@expo-google-fonts/noto-sans-hebrew/300Light';
+import { NotoSansHebrew_400Regular } from '@expo-google-fonts/noto-sans-hebrew/400Regular';
+import { NotoSansHebrew_500Medium } from '@expo-google-fonts/noto-sans-hebrew/500Medium';
+import { NotoSansHebrew_600SemiBold } from '@expo-google-fonts/noto-sans-hebrew/600SemiBold';
+import { NotoSansHebrew_700Bold } from '@expo-google-fonts/noto-sans-hebrew/700Bold';
+import { NotoSansHebrew_800ExtraBold } from '@expo-google-fonts/noto-sans-hebrew/800ExtraBold';
+import { NotoSansHebrew_900Black } from '@expo-google-fonts/noto-sans-hebrew/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansHebrew_100Thin](./NotoSansHebrew_100Thin.ttf.png)|![NotoSansHebrew_200ExtraLight](./NotoSansHebrew_200ExtraLight.ttf.png)|![NotoSansHebrew_300Light](./NotoSansHebrew_300Light.ttf.png)||
-|![NotoSansHebrew_400Regular](./NotoSansHebrew_400Regular.ttf.png)|![NotoSansHebrew_500Medium](./NotoSansHebrew_500Medium.ttf.png)|![NotoSansHebrew_600SemiBold](./NotoSansHebrew_600SemiBold.ttf.png)||
-|![NotoSansHebrew_700Bold](./NotoSansHebrew_700Bold.ttf.png)|![NotoSansHebrew_800ExtraBold](./NotoSansHebrew_800ExtraBold.ttf.png)|![NotoSansHebrew_900Black](./NotoSansHebrew_900Black.ttf.png)||
+|![NotoSansHebrew_100Thin](./100Thin/NotoSansHebrew_100Thin.ttf.png)|![NotoSansHebrew_200ExtraLight](./200ExtraLight/NotoSansHebrew_200ExtraLight.ttf.png)|![NotoSansHebrew_300Light](./300Light/NotoSansHebrew_300Light.ttf.png)||
+|![NotoSansHebrew_400Regular](./400Regular/NotoSansHebrew_400Regular.ttf.png)|![NotoSansHebrew_500Medium](./500Medium/NotoSansHebrew_500Medium.ttf.png)|![NotoSansHebrew_600SemiBold](./600SemiBold/NotoSansHebrew_600SemiBold.ttf.png)||
+|![NotoSansHebrew_700Bold](./700Bold/NotoSansHebrew_700Bold.ttf.png)|![NotoSansHebrew_800ExtraBold](./800ExtraBold/NotoSansHebrew_800ExtraBold.ttf.png)|![NotoSansHebrew_900Black](./900Black/NotoSansHebrew_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

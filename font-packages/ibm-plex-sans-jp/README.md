@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/ibm-plex-sans-jp expo-font expo-app-loading
+npx expo install @expo-google-fonts/ibm-plex-sans-jp expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, IBMPlexSansJP_100Thin, IBMPlexSansJP_200ExtraLight, IBMPlexSansJP_300Light, IBMPlexSansJP_400Regular, IBMPlexSansJP_500Medium, IBMPlexSansJP_600SemiBold, IBMPlexSansJP_700Bold } from '@expo-google-fonts/ibm-plex-sans-jp';
+import { useFonts } from '@expo-google-fonts/ibm-plex-sans-jp/useFonts';
+import { IBMPlexSansJP_100Thin } from '@expo-google-fonts/ibm-plex-sans-jp/100Thin';
+import { IBMPlexSansJP_200ExtraLight } from '@expo-google-fonts/ibm-plex-sans-jp/200ExtraLight';
+import { IBMPlexSansJP_300Light } from '@expo-google-fonts/ibm-plex-sans-jp/300Light';
+import { IBMPlexSansJP_400Regular } from '@expo-google-fonts/ibm-plex-sans-jp/400Regular';
+import { IBMPlexSansJP_500Medium } from '@expo-google-fonts/ibm-plex-sans-jp/500Medium';
+import { IBMPlexSansJP_600SemiBold } from '@expo-google-fonts/ibm-plex-sans-jp/600SemiBold';
+import { IBMPlexSansJP_700Bold } from '@expo-google-fonts/ibm-plex-sans-jp/700Bold';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IBMPlexSansJP_100Thin](./IBMPlexSansJP_100Thin.ttf.png)|![IBMPlexSansJP_200ExtraLight](./IBMPlexSansJP_200ExtraLight.ttf.png)|![IBMPlexSansJP_300Light](./IBMPlexSansJP_300Light.ttf.png)||
-|![IBMPlexSansJP_400Regular](./IBMPlexSansJP_400Regular.ttf.png)|![IBMPlexSansJP_500Medium](./IBMPlexSansJP_500Medium.ttf.png)|![IBMPlexSansJP_600SemiBold](./IBMPlexSansJP_600SemiBold.ttf.png)||
-|![IBMPlexSansJP_700Bold](./IBMPlexSansJP_700Bold.ttf.png)||||
+|![IBMPlexSansJP_100Thin](./100Thin/IBMPlexSansJP_100Thin.ttf.png)|![IBMPlexSansJP_200ExtraLight](./200ExtraLight/IBMPlexSansJP_200ExtraLight.ttf.png)|![IBMPlexSansJP_300Light](./300Light/IBMPlexSansJP_300Light.ttf.png)||
+|![IBMPlexSansJP_400Regular](./400Regular/IBMPlexSansJP_400Regular.ttf.png)|![IBMPlexSansJP_500Medium](./500Medium/IBMPlexSansJP_500Medium.ttf.png)|![IBMPlexSansJP_600SemiBold](./600SemiBold/IBMPlexSansJP_600SemiBold.ttf.png)||
+|![IBMPlexSansJP_700Bold](./700Bold/IBMPlexSansJP_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

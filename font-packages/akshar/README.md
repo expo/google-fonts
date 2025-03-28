@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/akshar expo-font expo-app-loading
+npx expo install @expo-google-fonts/akshar expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Akshar_300Light, Akshar_400Regular, Akshar_500Medium, Akshar_600SemiBold, Akshar_700Bold } from '@expo-google-fonts/akshar';
+import { useFonts } from '@expo-google-fonts/akshar/useFonts';
+import { Akshar_300Light } from '@expo-google-fonts/akshar/300Light';
+import { Akshar_400Regular } from '@expo-google-fonts/akshar/400Regular';
+import { Akshar_500Medium } from '@expo-google-fonts/akshar/500Medium';
+import { Akshar_600SemiBold } from '@expo-google-fonts/akshar/600SemiBold';
+import { Akshar_700Bold } from '@expo-google-fonts/akshar/700Bold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Akshar_300Light](./Akshar_300Light.ttf.png)|![Akshar_400Regular](./Akshar_400Regular.ttf.png)|![Akshar_500Medium](./Akshar_500Medium.ttf.png)||
-|![Akshar_600SemiBold](./Akshar_600SemiBold.ttf.png)|![Akshar_700Bold](./Akshar_700Bold.ttf.png)|||
+|![Akshar_300Light](./300Light/Akshar_300Light.ttf.png)|![Akshar_400Regular](./400Regular/Akshar_400Regular.ttf.png)|![Akshar_500Medium](./500Medium/Akshar_500Medium.ttf.png)||
+|![Akshar_600SemiBold](./600SemiBold/Akshar_600SemiBold.ttf.png)|![Akshar_700Bold](./700Bold/Akshar_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

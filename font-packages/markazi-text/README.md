@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/markazi-text expo-font expo-app-loading
+npx expo install @expo-google-fonts/markazi-text expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, MarkaziText_400Regular, MarkaziText_500Medium, MarkaziText_600SemiBold, MarkaziText_700Bold } from '@expo-google-fonts/markazi-text';
+import { useFonts } from '@expo-google-fonts/markazi-text/useFonts';
+import { MarkaziText_400Regular } from '@expo-google-fonts/markazi-text/400Regular';
+import { MarkaziText_500Medium } from '@expo-google-fonts/markazi-text/500Medium';
+import { MarkaziText_600SemiBold } from '@expo-google-fonts/markazi-text/600SemiBold';
+import { MarkaziText_700Bold } from '@expo-google-fonts/markazi-text/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MarkaziText_400Regular](./MarkaziText_400Regular.ttf.png)|![MarkaziText_500Medium](./MarkaziText_500Medium.ttf.png)|![MarkaziText_600SemiBold](./MarkaziText_600SemiBold.ttf.png)||
-|![MarkaziText_700Bold](./MarkaziText_700Bold.ttf.png)||||
+|![MarkaziText_400Regular](./400Regular/MarkaziText_400Regular.ttf.png)|![MarkaziText_500Medium](./500Medium/MarkaziText_500Medium.ttf.png)|![MarkaziText_600SemiBold](./600SemiBold/MarkaziText_600SemiBold.ttf.png)||
+|![MarkaziText_700Bold](./700Bold/MarkaziText_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

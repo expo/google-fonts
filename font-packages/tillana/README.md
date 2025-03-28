@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/tillana expo-font expo-app-loading
+npx expo install @expo-google-fonts/tillana expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Tillana_400Regular, Tillana_500Medium, Tillana_600SemiBold, Tillana_700Bold, Tillana_800ExtraBold } from '@expo-google-fonts/tillana';
+import { useFonts } from '@expo-google-fonts/tillana/useFonts';
+import { Tillana_400Regular } from '@expo-google-fonts/tillana/400Regular';
+import { Tillana_500Medium } from '@expo-google-fonts/tillana/500Medium';
+import { Tillana_600SemiBold } from '@expo-google-fonts/tillana/600SemiBold';
+import { Tillana_700Bold } from '@expo-google-fonts/tillana/700Bold';
+import { Tillana_800ExtraBold } from '@expo-google-fonts/tillana/800ExtraBold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Tillana_400Regular](./Tillana_400Regular.ttf.png)|![Tillana_500Medium](./Tillana_500Medium.ttf.png)|![Tillana_600SemiBold](./Tillana_600SemiBold.ttf.png)||
-|![Tillana_700Bold](./Tillana_700Bold.ttf.png)|![Tillana_800ExtraBold](./Tillana_800ExtraBold.ttf.png)|||
+|![Tillana_400Regular](./400Regular/Tillana_400Regular.ttf.png)|![Tillana_500Medium](./500Medium/Tillana_500Medium.ttf.png)|![Tillana_600SemiBold](./600SemiBold/Tillana_600SemiBold.ttf.png)||
+|![Tillana_700Bold](./700Bold/Tillana_700Bold.ttf.png)|![Tillana_800ExtraBold](./800ExtraBold/Tillana_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

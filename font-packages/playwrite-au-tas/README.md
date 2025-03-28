@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/playwrite-au-tas expo-font expo-app-loading
+npx expo install @expo-google-fonts/playwrite-au-tas expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PlaywriteAUTAS_100Thin, PlaywriteAUTAS_200ExtraLight, PlaywriteAUTAS_300Light, PlaywriteAUTAS_400Regular } from '@expo-google-fonts/playwrite-au-tas';
+import { useFonts } from '@expo-google-fonts/playwrite-au-tas/useFonts';
+import { PlaywriteAUTAS_100Thin } from '@expo-google-fonts/playwrite-au-tas/100Thin';
+import { PlaywriteAUTAS_200ExtraLight } from '@expo-google-fonts/playwrite-au-tas/200ExtraLight';
+import { PlaywriteAUTAS_300Light } from '@expo-google-fonts/playwrite-au-tas/300Light';
+import { PlaywriteAUTAS_400Regular } from '@expo-google-fonts/playwrite-au-tas/400Regular';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteAUTAS_100Thin](./PlaywriteAUTAS_100Thin.ttf.png)|![PlaywriteAUTAS_200ExtraLight](./PlaywriteAUTAS_200ExtraLight.ttf.png)|![PlaywriteAUTAS_300Light](./PlaywriteAUTAS_300Light.ttf.png)||
-|![PlaywriteAUTAS_400Regular](./PlaywriteAUTAS_400Regular.ttf.png)||||
+|![PlaywriteAUTAS_100Thin](./100Thin/PlaywriteAUTAS_100Thin.ttf.png)|![PlaywriteAUTAS_200ExtraLight](./200ExtraLight/PlaywriteAUTAS_200ExtraLight.ttf.png)|![PlaywriteAUTAS_300Light](./300Light/PlaywriteAUTAS_300Light.ttf.png)||
+|![PlaywriteAUTAS_400Regular](./400Regular/PlaywriteAUTAS_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

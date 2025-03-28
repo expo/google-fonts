@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/big-shoulders expo-font expo-app-loading
+npx expo install @expo-google-fonts/big-shoulders expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, BigShoulders_100Thin, BigShoulders_200ExtraLight, BigShoulders_300Light, BigShoulders_400Regular, BigShoulders_500Medium, BigShoulders_600SemiBold, BigShoulders_700Bold, BigShoulders_800ExtraBold, BigShoulders_900Black } from '@expo-google-fonts/big-shoulders';
+import { useFonts } from '@expo-google-fonts/big-shoulders/useFonts';
+import { BigShoulders_100Thin } from '@expo-google-fonts/big-shoulders/100Thin';
+import { BigShoulders_200ExtraLight } from '@expo-google-fonts/big-shoulders/200ExtraLight';
+import { BigShoulders_300Light } from '@expo-google-fonts/big-shoulders/300Light';
+import { BigShoulders_400Regular } from '@expo-google-fonts/big-shoulders/400Regular';
+import { BigShoulders_500Medium } from '@expo-google-fonts/big-shoulders/500Medium';
+import { BigShoulders_600SemiBold } from '@expo-google-fonts/big-shoulders/600SemiBold';
+import { BigShoulders_700Bold } from '@expo-google-fonts/big-shoulders/700Bold';
+import { BigShoulders_800ExtraBold } from '@expo-google-fonts/big-shoulders/800ExtraBold';
+import { BigShoulders_900Black } from '@expo-google-fonts/big-shoulders/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BigShoulders_100Thin](./BigShoulders_100Thin.ttf.png)|![BigShoulders_200ExtraLight](./BigShoulders_200ExtraLight.ttf.png)|![BigShoulders_300Light](./BigShoulders_300Light.ttf.png)||
-|![BigShoulders_400Regular](./BigShoulders_400Regular.ttf.png)|![BigShoulders_500Medium](./BigShoulders_500Medium.ttf.png)|![BigShoulders_600SemiBold](./BigShoulders_600SemiBold.ttf.png)||
-|![BigShoulders_700Bold](./BigShoulders_700Bold.ttf.png)|![BigShoulders_800ExtraBold](./BigShoulders_800ExtraBold.ttf.png)|![BigShoulders_900Black](./BigShoulders_900Black.ttf.png)||
+|![BigShoulders_100Thin](./100Thin/BigShoulders_100Thin.ttf.png)|![BigShoulders_200ExtraLight](./200ExtraLight/BigShoulders_200ExtraLight.ttf.png)|![BigShoulders_300Light](./300Light/BigShoulders_300Light.ttf.png)||
+|![BigShoulders_400Regular](./400Regular/BigShoulders_400Regular.ttf.png)|![BigShoulders_500Medium](./500Medium/BigShoulders_500Medium.ttf.png)|![BigShoulders_600SemiBold](./600SemiBold/BigShoulders_600SemiBold.ttf.png)||
+|![BigShoulders_700Bold](./700Bold/BigShoulders_700Bold.ttf.png)|![BigShoulders_800ExtraBold](./800ExtraBold/BigShoulders_800ExtraBold.ttf.png)|![BigShoulders_900Black](./900Black/BigShoulders_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

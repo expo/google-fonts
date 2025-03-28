@@ -33,7 +33,7 @@ This font family contains [14 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/spectral-sc expo-font expo-app-loading
+npx expo install @expo-google-fonts/spectral-sc expo-font
 ```
 
 Now add code like this to your project
@@ -42,8 +42,21 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, SpectralSC_200ExtraLight, SpectralSC_200ExtraLight_Italic, SpectralSC_300Light, SpectralSC_300Light_Italic, SpectralSC_400Regular, SpectralSC_400Regular_Italic, SpectralSC_500Medium, SpectralSC_500Medium_Italic, SpectralSC_600SemiBold, SpectralSC_600SemiBold_Italic, SpectralSC_700Bold, SpectralSC_700Bold_Italic, SpectralSC_800ExtraBold, SpectralSC_800ExtraBold_Italic } from '@expo-google-fonts/spectral-sc';
+import { useFonts } from '@expo-google-fonts/spectral-sc/useFonts';
+import { SpectralSC_200ExtraLight } from '@expo-google-fonts/spectral-sc/200ExtraLight';
+import { SpectralSC_200ExtraLight_Italic } from '@expo-google-fonts/spectral-sc/200ExtraLight_Italic';
+import { SpectralSC_300Light } from '@expo-google-fonts/spectral-sc/300Light';
+import { SpectralSC_300Light_Italic } from '@expo-google-fonts/spectral-sc/300Light_Italic';
+import { SpectralSC_400Regular } from '@expo-google-fonts/spectral-sc/400Regular';
+import { SpectralSC_400Regular_Italic } from '@expo-google-fonts/spectral-sc/400Regular_Italic';
+import { SpectralSC_500Medium } from '@expo-google-fonts/spectral-sc/500Medium';
+import { SpectralSC_500Medium_Italic } from '@expo-google-fonts/spectral-sc/500Medium_Italic';
+import { SpectralSC_600SemiBold } from '@expo-google-fonts/spectral-sc/600SemiBold';
+import { SpectralSC_600SemiBold_Italic } from '@expo-google-fonts/spectral-sc/600SemiBold_Italic';
+import { SpectralSC_700Bold } from '@expo-google-fonts/spectral-sc/700Bold';
+import { SpectralSC_700Bold_Italic } from '@expo-google-fonts/spectral-sc/700Bold_Italic';
+import { SpectralSC_800ExtraBold } from '@expo-google-fonts/spectral-sc/800ExtraBold';
+import { SpectralSC_800ExtraBold_Italic } from '@expo-google-fonts/spectral-sc/800ExtraBold_Italic';
 
 export default () => {
 
@@ -68,7 +81,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -195,11 +208,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SpectralSC_200ExtraLight](./SpectralSC_200ExtraLight.ttf.png)|![SpectralSC_200ExtraLight_Italic](./SpectralSC_200ExtraLight_Italic.ttf.png)|![SpectralSC_300Light](./SpectralSC_300Light.ttf.png)||
-|![SpectralSC_300Light_Italic](./SpectralSC_300Light_Italic.ttf.png)|![SpectralSC_400Regular](./SpectralSC_400Regular.ttf.png)|![SpectralSC_400Regular_Italic](./SpectralSC_400Regular_Italic.ttf.png)||
-|![SpectralSC_500Medium](./SpectralSC_500Medium.ttf.png)|![SpectralSC_500Medium_Italic](./SpectralSC_500Medium_Italic.ttf.png)|![SpectralSC_600SemiBold](./SpectralSC_600SemiBold.ttf.png)||
-|![SpectralSC_600SemiBold_Italic](./SpectralSC_600SemiBold_Italic.ttf.png)|![SpectralSC_700Bold](./SpectralSC_700Bold.ttf.png)|![SpectralSC_700Bold_Italic](./SpectralSC_700Bold_Italic.ttf.png)||
-|![SpectralSC_800ExtraBold](./SpectralSC_800ExtraBold.ttf.png)|![SpectralSC_800ExtraBold_Italic](./SpectralSC_800ExtraBold_Italic.ttf.png)|||
+|![SpectralSC_200ExtraLight](./200ExtraLight/SpectralSC_200ExtraLight.ttf.png)|![SpectralSC_200ExtraLight_Italic](./200ExtraLight_Italic/SpectralSC_200ExtraLight_Italic.ttf.png)|![SpectralSC_300Light](./300Light/SpectralSC_300Light.ttf.png)||
+|![SpectralSC_300Light_Italic](./300Light_Italic/SpectralSC_300Light_Italic.ttf.png)|![SpectralSC_400Regular](./400Regular/SpectralSC_400Regular.ttf.png)|![SpectralSC_400Regular_Italic](./400Regular_Italic/SpectralSC_400Regular_Italic.ttf.png)||
+|![SpectralSC_500Medium](./500Medium/SpectralSC_500Medium.ttf.png)|![SpectralSC_500Medium_Italic](./500Medium_Italic/SpectralSC_500Medium_Italic.ttf.png)|![SpectralSC_600SemiBold](./600SemiBold/SpectralSC_600SemiBold.ttf.png)||
+|![SpectralSC_600SemiBold_Italic](./600SemiBold_Italic/SpectralSC_600SemiBold_Italic.ttf.png)|![SpectralSC_700Bold](./700Bold/SpectralSC_700Bold.ttf.png)|![SpectralSC_700Bold_Italic](./700Bold_Italic/SpectralSC_700Bold_Italic.ttf.png)||
+|![SpectralSC_800ExtraBold](./800ExtraBold/SpectralSC_800ExtraBold.ttf.png)|![SpectralSC_800ExtraBold_Italic](./800ExtraBold_Italic/SpectralSC_800ExtraBold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

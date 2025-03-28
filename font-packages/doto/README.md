@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/doto expo-font expo-app-loading
+npx expo install @expo-google-fonts/doto expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Doto_100Thin, Doto_200ExtraLight, Doto_300Light, Doto_400Regular, Doto_500Medium, Doto_600SemiBold, Doto_700Bold, Doto_800ExtraBold, Doto_900Black } from '@expo-google-fonts/doto';
+import { useFonts } from '@expo-google-fonts/doto/useFonts';
+import { Doto_100Thin } from '@expo-google-fonts/doto/100Thin';
+import { Doto_200ExtraLight } from '@expo-google-fonts/doto/200ExtraLight';
+import { Doto_300Light } from '@expo-google-fonts/doto/300Light';
+import { Doto_400Regular } from '@expo-google-fonts/doto/400Regular';
+import { Doto_500Medium } from '@expo-google-fonts/doto/500Medium';
+import { Doto_600SemiBold } from '@expo-google-fonts/doto/600SemiBold';
+import { Doto_700Bold } from '@expo-google-fonts/doto/700Bold';
+import { Doto_800ExtraBold } from '@expo-google-fonts/doto/800ExtraBold';
+import { Doto_900Black } from '@expo-google-fonts/doto/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Doto_100Thin](./Doto_100Thin.ttf.png)|![Doto_200ExtraLight](./Doto_200ExtraLight.ttf.png)|![Doto_300Light](./Doto_300Light.ttf.png)||
-|![Doto_400Regular](./Doto_400Regular.ttf.png)|![Doto_500Medium](./Doto_500Medium.ttf.png)|![Doto_600SemiBold](./Doto_600SemiBold.ttf.png)||
-|![Doto_700Bold](./Doto_700Bold.ttf.png)|![Doto_800ExtraBold](./Doto_800ExtraBold.ttf.png)|![Doto_900Black](./Doto_900Black.ttf.png)||
+|![Doto_100Thin](./100Thin/Doto_100Thin.ttf.png)|![Doto_200ExtraLight](./200ExtraLight/Doto_200ExtraLight.ttf.png)|![Doto_300Light](./300Light/Doto_300Light.ttf.png)||
+|![Doto_400Regular](./400Regular/Doto_400Regular.ttf.png)|![Doto_500Medium](./500Medium/Doto_500Medium.ttf.png)|![Doto_600SemiBold](./600SemiBold/Doto_600SemiBold.ttf.png)||
+|![Doto_700Bold](./700Bold/Doto_700Bold.ttf.png)|![Doto_800ExtraBold](./800ExtraBold/Doto_800ExtraBold.ttf.png)|![Doto_900Black](./900Black/Doto_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

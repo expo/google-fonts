@@ -1,9 +1,13 @@
 {
   "name": "@expo-google-fonts/arima",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Use the Arima font family from Google Fonts in your Expo app",
   "main": "index.js",
-  "repository": "https://github.com/expo/google-fonts.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/arima"
+  },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/arima#readme",
   "author": "Expo Team <team@expo.io>",
   "license": "MIT",

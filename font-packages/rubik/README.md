@@ -33,7 +33,7 @@ This font family contains [14 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/rubik expo-font expo-app-loading
+npx expo install @expo-google-fonts/rubik expo-font
 ```
 
 Now add code like this to your project
@@ -42,8 +42,21 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Rubik_300Light, Rubik_400Regular, Rubik_500Medium, Rubik_600SemiBold, Rubik_700Bold, Rubik_800ExtraBold, Rubik_900Black, Rubik_300Light_Italic, Rubik_400Regular_Italic, Rubik_500Medium_Italic, Rubik_600SemiBold_Italic, Rubik_700Bold_Italic, Rubik_800ExtraBold_Italic, Rubik_900Black_Italic } from '@expo-google-fonts/rubik';
+import { useFonts } from '@expo-google-fonts/rubik/useFonts';
+import { Rubik_300Light } from '@expo-google-fonts/rubik/300Light';
+import { Rubik_400Regular } from '@expo-google-fonts/rubik/400Regular';
+import { Rubik_500Medium } from '@expo-google-fonts/rubik/500Medium';
+import { Rubik_600SemiBold } from '@expo-google-fonts/rubik/600SemiBold';
+import { Rubik_700Bold } from '@expo-google-fonts/rubik/700Bold';
+import { Rubik_800ExtraBold } from '@expo-google-fonts/rubik/800ExtraBold';
+import { Rubik_900Black } from '@expo-google-fonts/rubik/900Black';
+import { Rubik_300Light_Italic } from '@expo-google-fonts/rubik/300Light_Italic';
+import { Rubik_400Regular_Italic } from '@expo-google-fonts/rubik/400Regular_Italic';
+import { Rubik_500Medium_Italic } from '@expo-google-fonts/rubik/500Medium_Italic';
+import { Rubik_600SemiBold_Italic } from '@expo-google-fonts/rubik/600SemiBold_Italic';
+import { Rubik_700Bold_Italic } from '@expo-google-fonts/rubik/700Bold_Italic';
+import { Rubik_800ExtraBold_Italic } from '@expo-google-fonts/rubik/800ExtraBold_Italic';
+import { Rubik_900Black_Italic } from '@expo-google-fonts/rubik/900Black_Italic';
 
 export default () => {
 
@@ -68,7 +81,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -195,11 +208,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Rubik_300Light](./Rubik_300Light.ttf.png)|![Rubik_400Regular](./Rubik_400Regular.ttf.png)|![Rubik_500Medium](./Rubik_500Medium.ttf.png)||
-|![Rubik_600SemiBold](./Rubik_600SemiBold.ttf.png)|![Rubik_700Bold](./Rubik_700Bold.ttf.png)|![Rubik_800ExtraBold](./Rubik_800ExtraBold.ttf.png)||
-|![Rubik_900Black](./Rubik_900Black.ttf.png)|![Rubik_300Light_Italic](./Rubik_300Light_Italic.ttf.png)|![Rubik_400Regular_Italic](./Rubik_400Regular_Italic.ttf.png)||
-|![Rubik_500Medium_Italic](./Rubik_500Medium_Italic.ttf.png)|![Rubik_600SemiBold_Italic](./Rubik_600SemiBold_Italic.ttf.png)|![Rubik_700Bold_Italic](./Rubik_700Bold_Italic.ttf.png)||
-|![Rubik_800ExtraBold_Italic](./Rubik_800ExtraBold_Italic.ttf.png)|![Rubik_900Black_Italic](./Rubik_900Black_Italic.ttf.png)|||
+|![Rubik_300Light](./300Light/Rubik_300Light.ttf.png)|![Rubik_400Regular](./400Regular/Rubik_400Regular.ttf.png)|![Rubik_500Medium](./500Medium/Rubik_500Medium.ttf.png)||
+|![Rubik_600SemiBold](./600SemiBold/Rubik_600SemiBold.ttf.png)|![Rubik_700Bold](./700Bold/Rubik_700Bold.ttf.png)|![Rubik_800ExtraBold](./800ExtraBold/Rubik_800ExtraBold.ttf.png)||
+|![Rubik_900Black](./900Black/Rubik_900Black.ttf.png)|![Rubik_300Light_Italic](./300Light_Italic/Rubik_300Light_Italic.ttf.png)|![Rubik_400Regular_Italic](./400Regular_Italic/Rubik_400Regular_Italic.ttf.png)||
+|![Rubik_500Medium_Italic](./500Medium_Italic/Rubik_500Medium_Italic.ttf.png)|![Rubik_600SemiBold_Italic](./600SemiBold_Italic/Rubik_600SemiBold_Italic.ttf.png)|![Rubik_700Bold_Italic](./700Bold_Italic/Rubik_700Bold_Italic.ttf.png)||
+|![Rubik_800ExtraBold_Italic](./800ExtraBold_Italic/Rubik_800ExtraBold_Italic.ttf.png)|![Rubik_900Black_Italic](./900Black_Italic/Rubik_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

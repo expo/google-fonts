@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-thaana expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-thaana expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansThaana_100Thin, NotoSansThaana_200ExtraLight, NotoSansThaana_300Light, NotoSansThaana_400Regular, NotoSansThaana_500Medium, NotoSansThaana_600SemiBold, NotoSansThaana_700Bold, NotoSansThaana_800ExtraBold, NotoSansThaana_900Black } from '@expo-google-fonts/noto-sans-thaana';
+import { useFonts } from '@expo-google-fonts/noto-sans-thaana/useFonts';
+import { NotoSansThaana_100Thin } from '@expo-google-fonts/noto-sans-thaana/100Thin';
+import { NotoSansThaana_200ExtraLight } from '@expo-google-fonts/noto-sans-thaana/200ExtraLight';
+import { NotoSansThaana_300Light } from '@expo-google-fonts/noto-sans-thaana/300Light';
+import { NotoSansThaana_400Regular } from '@expo-google-fonts/noto-sans-thaana/400Regular';
+import { NotoSansThaana_500Medium } from '@expo-google-fonts/noto-sans-thaana/500Medium';
+import { NotoSansThaana_600SemiBold } from '@expo-google-fonts/noto-sans-thaana/600SemiBold';
+import { NotoSansThaana_700Bold } from '@expo-google-fonts/noto-sans-thaana/700Bold';
+import { NotoSansThaana_800ExtraBold } from '@expo-google-fonts/noto-sans-thaana/800ExtraBold';
+import { NotoSansThaana_900Black } from '@expo-google-fonts/noto-sans-thaana/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansThaana_100Thin](./NotoSansThaana_100Thin.ttf.png)|![NotoSansThaana_200ExtraLight](./NotoSansThaana_200ExtraLight.ttf.png)|![NotoSansThaana_300Light](./NotoSansThaana_300Light.ttf.png)||
-|![NotoSansThaana_400Regular](./NotoSansThaana_400Regular.ttf.png)|![NotoSansThaana_500Medium](./NotoSansThaana_500Medium.ttf.png)|![NotoSansThaana_600SemiBold](./NotoSansThaana_600SemiBold.ttf.png)||
-|![NotoSansThaana_700Bold](./NotoSansThaana_700Bold.ttf.png)|![NotoSansThaana_800ExtraBold](./NotoSansThaana_800ExtraBold.ttf.png)|![NotoSansThaana_900Black](./NotoSansThaana_900Black.ttf.png)||
+|![NotoSansThaana_100Thin](./100Thin/NotoSansThaana_100Thin.ttf.png)|![NotoSansThaana_200ExtraLight](./200ExtraLight/NotoSansThaana_200ExtraLight.ttf.png)|![NotoSansThaana_300Light](./300Light/NotoSansThaana_300Light.ttf.png)||
+|![NotoSansThaana_400Regular](./400Regular/NotoSansThaana_400Regular.ttf.png)|![NotoSansThaana_500Medium](./500Medium/NotoSansThaana_500Medium.ttf.png)|![NotoSansThaana_600SemiBold](./600SemiBold/NotoSansThaana_600SemiBold.ttf.png)||
+|![NotoSansThaana_700Bold](./700Bold/NotoSansThaana_700Bold.ttf.png)|![NotoSansThaana_800ExtraBold](./800ExtraBold/NotoSansThaana_800ExtraBold.ttf.png)|![NotoSansThaana_900Black](./900Black/NotoSansThaana_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

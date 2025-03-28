@@ -29,7 +29,7 @@ This font family contains [10 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/kulim-park expo-font expo-app-loading
+npx expo install @expo-google-fonts/kulim-park expo-font
 ```
 
 Now add code like this to your project
@@ -38,8 +38,17 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, KulimPark_200ExtraLight, KulimPark_200ExtraLight_Italic, KulimPark_300Light, KulimPark_300Light_Italic, KulimPark_400Regular, KulimPark_400Regular_Italic, KulimPark_600SemiBold, KulimPark_600SemiBold_Italic, KulimPark_700Bold, KulimPark_700Bold_Italic } from '@expo-google-fonts/kulim-park';
+import { useFonts } from '@expo-google-fonts/kulim-park/useFonts';
+import { KulimPark_200ExtraLight } from '@expo-google-fonts/kulim-park/200ExtraLight';
+import { KulimPark_200ExtraLight_Italic } from '@expo-google-fonts/kulim-park/200ExtraLight_Italic';
+import { KulimPark_300Light } from '@expo-google-fonts/kulim-park/300Light';
+import { KulimPark_300Light_Italic } from '@expo-google-fonts/kulim-park/300Light_Italic';
+import { KulimPark_400Regular } from '@expo-google-fonts/kulim-park/400Regular';
+import { KulimPark_400Regular_Italic } from '@expo-google-fonts/kulim-park/400Regular_Italic';
+import { KulimPark_600SemiBold } from '@expo-google-fonts/kulim-park/600SemiBold';
+import { KulimPark_600SemiBold_Italic } from '@expo-google-fonts/kulim-park/600SemiBold_Italic';
+import { KulimPark_700Bold } from '@expo-google-fonts/kulim-park/700Bold';
+import { KulimPark_700Bold_Italic } from '@expo-google-fonts/kulim-park/700Bold_Italic';
 
 export default () => {
 
@@ -60,7 +69,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -155,10 +164,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KulimPark_200ExtraLight](./KulimPark_200ExtraLight.ttf.png)|![KulimPark_200ExtraLight_Italic](./KulimPark_200ExtraLight_Italic.ttf.png)|![KulimPark_300Light](./KulimPark_300Light.ttf.png)||
-|![KulimPark_300Light_Italic](./KulimPark_300Light_Italic.ttf.png)|![KulimPark_400Regular](./KulimPark_400Regular.ttf.png)|![KulimPark_400Regular_Italic](./KulimPark_400Regular_Italic.ttf.png)||
-|![KulimPark_600SemiBold](./KulimPark_600SemiBold.ttf.png)|![KulimPark_600SemiBold_Italic](./KulimPark_600SemiBold_Italic.ttf.png)|![KulimPark_700Bold](./KulimPark_700Bold.ttf.png)||
-|![KulimPark_700Bold_Italic](./KulimPark_700Bold_Italic.ttf.png)||||
+|![KulimPark_200ExtraLight](./200ExtraLight/KulimPark_200ExtraLight.ttf.png)|![KulimPark_200ExtraLight_Italic](./200ExtraLight_Italic/KulimPark_200ExtraLight_Italic.ttf.png)|![KulimPark_300Light](./300Light/KulimPark_300Light.ttf.png)||
+|![KulimPark_300Light_Italic](./300Light_Italic/KulimPark_300Light_Italic.ttf.png)|![KulimPark_400Regular](./400Regular/KulimPark_400Regular.ttf.png)|![KulimPark_400Regular_Italic](./400Regular_Italic/KulimPark_400Regular_Italic.ttf.png)||
+|![KulimPark_600SemiBold](./600SemiBold/KulimPark_600SemiBold.ttf.png)|![KulimPark_600SemiBold_Italic](./600SemiBold_Italic/KulimPark_600SemiBold_Italic.ttf.png)|![KulimPark_700Bold](./700Bold/KulimPark_700Bold.ttf.png)||
+|![KulimPark_700Bold_Italic](./700Bold_Italic/KulimPark_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

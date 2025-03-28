@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/42dot-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/42dot-sans expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, font42dotSans_300Light, font42dotSans_400Regular, font42dotSans_500Medium, font42dotSans_600SemiBold, font42dotSans_700Bold, font42dotSans_800ExtraBold } from '@expo-google-fonts/42dot-sans';
+import { useFonts } from '@expo-google-fonts/42dot-sans/useFonts';
+import { font42dotSans_300Light } from '@expo-google-fonts/42dot-sans/300Light';
+import { font42dotSans_400Regular } from '@expo-google-fonts/42dot-sans/400Regular';
+import { font42dotSans_500Medium } from '@expo-google-fonts/42dot-sans/500Medium';
+import { font42dotSans_600SemiBold } from '@expo-google-fonts/42dot-sans/600SemiBold';
+import { font42dotSans_700Bold } from '@expo-google-fonts/42dot-sans/700Bold';
+import { font42dotSans_800ExtraBold } from '@expo-google-fonts/42dot-sans/800ExtraBold';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![font42dotSans_300Light](./font42dotSans_300Light.ttf.png)|![font42dotSans_400Regular](./font42dotSans_400Regular.ttf.png)|![font42dotSans_500Medium](./font42dotSans_500Medium.ttf.png)||
-|![font42dotSans_600SemiBold](./font42dotSans_600SemiBold.ttf.png)|![font42dotSans_700Bold](./font42dotSans_700Bold.ttf.png)|![font42dotSans_800ExtraBold](./font42dotSans_800ExtraBold.ttf.png)||
+|![font42dotSans_300Light](./300Light/font42dotSans_300Light.ttf.png)|![font42dotSans_400Regular](./400Regular/font42dotSans_400Regular.ttf.png)|![font42dotSans_500Medium](./500Medium/font42dotSans_500Medium.ttf.png)||
+|![font42dotSans_600SemiBold](./600SemiBold/font42dotSans_600SemiBold.ttf.png)|![font42dotSans_700Bold](./700Bold/font42dotSans_700Bold.ttf.png)|![font42dotSans_800ExtraBold](./800ExtraBold/font42dotSans_800ExtraBold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/onest expo-font expo-app-loading
+npx expo install @expo-google-fonts/onest expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Onest_100Thin, Onest_200ExtraLight, Onest_300Light, Onest_400Regular, Onest_500Medium, Onest_600SemiBold, Onest_700Bold, Onest_800ExtraBold, Onest_900Black } from '@expo-google-fonts/onest';
+import { useFonts } from '@expo-google-fonts/onest/useFonts';
+import { Onest_100Thin } from '@expo-google-fonts/onest/100Thin';
+import { Onest_200ExtraLight } from '@expo-google-fonts/onest/200ExtraLight';
+import { Onest_300Light } from '@expo-google-fonts/onest/300Light';
+import { Onest_400Regular } from '@expo-google-fonts/onest/400Regular';
+import { Onest_500Medium } from '@expo-google-fonts/onest/500Medium';
+import { Onest_600SemiBold } from '@expo-google-fonts/onest/600SemiBold';
+import { Onest_700Bold } from '@expo-google-fonts/onest/700Bold';
+import { Onest_800ExtraBold } from '@expo-google-fonts/onest/800ExtraBold';
+import { Onest_900Black } from '@expo-google-fonts/onest/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Onest_100Thin](./Onest_100Thin.ttf.png)|![Onest_200ExtraLight](./Onest_200ExtraLight.ttf.png)|![Onest_300Light](./Onest_300Light.ttf.png)||
-|![Onest_400Regular](./Onest_400Regular.ttf.png)|![Onest_500Medium](./Onest_500Medium.ttf.png)|![Onest_600SemiBold](./Onest_600SemiBold.ttf.png)||
-|![Onest_700Bold](./Onest_700Bold.ttf.png)|![Onest_800ExtraBold](./Onest_800ExtraBold.ttf.png)|![Onest_900Black](./Onest_900Black.ttf.png)||
+|![Onest_100Thin](./100Thin/Onest_100Thin.ttf.png)|![Onest_200ExtraLight](./200ExtraLight/Onest_200ExtraLight.ttf.png)|![Onest_300Light](./300Light/Onest_300Light.ttf.png)||
+|![Onest_400Regular](./400Regular/Onest_400Regular.ttf.png)|![Onest_500Medium](./500Medium/Onest_500Medium.ttf.png)|![Onest_600SemiBold](./600SemiBold/Onest_600SemiBold.ttf.png)||
+|![Onest_700Bold](./700Bold/Onest_700Bold.ttf.png)|![Onest_800ExtraBold](./800ExtraBold/Onest_800ExtraBold.ttf.png)|![Onest_900Black](./900Black/Onest_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

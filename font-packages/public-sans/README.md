@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/public-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/public-sans expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PublicSans_100Thin, PublicSans_200ExtraLight, PublicSans_300Light, PublicSans_400Regular, PublicSans_500Medium, PublicSans_600SemiBold, PublicSans_700Bold, PublicSans_800ExtraBold, PublicSans_900Black, PublicSans_100Thin_Italic, PublicSans_200ExtraLight_Italic, PublicSans_300Light_Italic, PublicSans_400Regular_Italic, PublicSans_500Medium_Italic, PublicSans_600SemiBold_Italic, PublicSans_700Bold_Italic, PublicSans_800ExtraBold_Italic, PublicSans_900Black_Italic } from '@expo-google-fonts/public-sans';
+import { useFonts } from '@expo-google-fonts/public-sans/useFonts';
+import { PublicSans_100Thin } from '@expo-google-fonts/public-sans/100Thin';
+import { PublicSans_200ExtraLight } from '@expo-google-fonts/public-sans/200ExtraLight';
+import { PublicSans_300Light } from '@expo-google-fonts/public-sans/300Light';
+import { PublicSans_400Regular } from '@expo-google-fonts/public-sans/400Regular';
+import { PublicSans_500Medium } from '@expo-google-fonts/public-sans/500Medium';
+import { PublicSans_600SemiBold } from '@expo-google-fonts/public-sans/600SemiBold';
+import { PublicSans_700Bold } from '@expo-google-fonts/public-sans/700Bold';
+import { PublicSans_800ExtraBold } from '@expo-google-fonts/public-sans/800ExtraBold';
+import { PublicSans_900Black } from '@expo-google-fonts/public-sans/900Black';
+import { PublicSans_100Thin_Italic } from '@expo-google-fonts/public-sans/100Thin_Italic';
+import { PublicSans_200ExtraLight_Italic } from '@expo-google-fonts/public-sans/200ExtraLight_Italic';
+import { PublicSans_300Light_Italic } from '@expo-google-fonts/public-sans/300Light_Italic';
+import { PublicSans_400Regular_Italic } from '@expo-google-fonts/public-sans/400Regular_Italic';
+import { PublicSans_500Medium_Italic } from '@expo-google-fonts/public-sans/500Medium_Italic';
+import { PublicSans_600SemiBold_Italic } from '@expo-google-fonts/public-sans/600SemiBold_Italic';
+import { PublicSans_700Bold_Italic } from '@expo-google-fonts/public-sans/700Bold_Italic';
+import { PublicSans_800ExtraBold_Italic } from '@expo-google-fonts/public-sans/800ExtraBold_Italic';
+import { PublicSans_900Black_Italic } from '@expo-google-fonts/public-sans/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PublicSans_100Thin](./PublicSans_100Thin.ttf.png)|![PublicSans_200ExtraLight](./PublicSans_200ExtraLight.ttf.png)|![PublicSans_300Light](./PublicSans_300Light.ttf.png)||
-|![PublicSans_400Regular](./PublicSans_400Regular.ttf.png)|![PublicSans_500Medium](./PublicSans_500Medium.ttf.png)|![PublicSans_600SemiBold](./PublicSans_600SemiBold.ttf.png)||
-|![PublicSans_700Bold](./PublicSans_700Bold.ttf.png)|![PublicSans_800ExtraBold](./PublicSans_800ExtraBold.ttf.png)|![PublicSans_900Black](./PublicSans_900Black.ttf.png)||
-|![PublicSans_100Thin_Italic](./PublicSans_100Thin_Italic.ttf.png)|![PublicSans_200ExtraLight_Italic](./PublicSans_200ExtraLight_Italic.ttf.png)|![PublicSans_300Light_Italic](./PublicSans_300Light_Italic.ttf.png)||
-|![PublicSans_400Regular_Italic](./PublicSans_400Regular_Italic.ttf.png)|![PublicSans_500Medium_Italic](./PublicSans_500Medium_Italic.ttf.png)|![PublicSans_600SemiBold_Italic](./PublicSans_600SemiBold_Italic.ttf.png)||
-|![PublicSans_700Bold_Italic](./PublicSans_700Bold_Italic.ttf.png)|![PublicSans_800ExtraBold_Italic](./PublicSans_800ExtraBold_Italic.ttf.png)|![PublicSans_900Black_Italic](./PublicSans_900Black_Italic.ttf.png)||
+|![PublicSans_100Thin](./100Thin/PublicSans_100Thin.ttf.png)|![PublicSans_200ExtraLight](./200ExtraLight/PublicSans_200ExtraLight.ttf.png)|![PublicSans_300Light](./300Light/PublicSans_300Light.ttf.png)||
+|![PublicSans_400Regular](./400Regular/PublicSans_400Regular.ttf.png)|![PublicSans_500Medium](./500Medium/PublicSans_500Medium.ttf.png)|![PublicSans_600SemiBold](./600SemiBold/PublicSans_600SemiBold.ttf.png)||
+|![PublicSans_700Bold](./700Bold/PublicSans_700Bold.ttf.png)|![PublicSans_800ExtraBold](./800ExtraBold/PublicSans_800ExtraBold.ttf.png)|![PublicSans_900Black](./900Black/PublicSans_900Black.ttf.png)||
+|![PublicSans_100Thin_Italic](./100Thin_Italic/PublicSans_100Thin_Italic.ttf.png)|![PublicSans_200ExtraLight_Italic](./200ExtraLight_Italic/PublicSans_200ExtraLight_Italic.ttf.png)|![PublicSans_300Light_Italic](./300Light_Italic/PublicSans_300Light_Italic.ttf.png)||
+|![PublicSans_400Regular_Italic](./400Regular_Italic/PublicSans_400Regular_Italic.ttf.png)|![PublicSans_500Medium_Italic](./500Medium_Italic/PublicSans_500Medium_Italic.ttf.png)|![PublicSans_600SemiBold_Italic](./600SemiBold_Italic/PublicSans_600SemiBold_Italic.ttf.png)||
+|![PublicSans_700Bold_Italic](./700Bold_Italic/PublicSans_700Bold_Italic.ttf.png)|![PublicSans_800ExtraBold_Italic](./800ExtraBold_Italic/PublicSans_800ExtraBold_Italic.ttf.png)|![PublicSans_900Black_Italic](./900Black_Italic/PublicSans_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -35,7 +35,7 @@ This font family contains [16 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/source-serif-4 expo-font expo-app-loading
+npx expo install @expo-google-fonts/source-serif-4 expo-font
 ```
 
 Now add code like this to your project
@@ -44,8 +44,23 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, SourceSerif4_200ExtraLight, SourceSerif4_300Light, SourceSerif4_400Regular, SourceSerif4_500Medium, SourceSerif4_600SemiBold, SourceSerif4_700Bold, SourceSerif4_800ExtraBold, SourceSerif4_900Black, SourceSerif4_200ExtraLight_Italic, SourceSerif4_300Light_Italic, SourceSerif4_400Regular_Italic, SourceSerif4_500Medium_Italic, SourceSerif4_600SemiBold_Italic, SourceSerif4_700Bold_Italic, SourceSerif4_800ExtraBold_Italic, SourceSerif4_900Black_Italic } from '@expo-google-fonts/source-serif-4';
+import { useFonts } from '@expo-google-fonts/source-serif-4/useFonts';
+import { SourceSerif4_200ExtraLight } from '@expo-google-fonts/source-serif-4/200ExtraLight';
+import { SourceSerif4_300Light } from '@expo-google-fonts/source-serif-4/300Light';
+import { SourceSerif4_400Regular } from '@expo-google-fonts/source-serif-4/400Regular';
+import { SourceSerif4_500Medium } from '@expo-google-fonts/source-serif-4/500Medium';
+import { SourceSerif4_600SemiBold } from '@expo-google-fonts/source-serif-4/600SemiBold';
+import { SourceSerif4_700Bold } from '@expo-google-fonts/source-serif-4/700Bold';
+import { SourceSerif4_800ExtraBold } from '@expo-google-fonts/source-serif-4/800ExtraBold';
+import { SourceSerif4_900Black } from '@expo-google-fonts/source-serif-4/900Black';
+import { SourceSerif4_200ExtraLight_Italic } from '@expo-google-fonts/source-serif-4/200ExtraLight_Italic';
+import { SourceSerif4_300Light_Italic } from '@expo-google-fonts/source-serif-4/300Light_Italic';
+import { SourceSerif4_400Regular_Italic } from '@expo-google-fonts/source-serif-4/400Regular_Italic';
+import { SourceSerif4_500Medium_Italic } from '@expo-google-fonts/source-serif-4/500Medium_Italic';
+import { SourceSerif4_600SemiBold_Italic } from '@expo-google-fonts/source-serif-4/600SemiBold_Italic';
+import { SourceSerif4_700Bold_Italic } from '@expo-google-fonts/source-serif-4/700Bold_Italic';
+import { SourceSerif4_800ExtraBold_Italic } from '@expo-google-fonts/source-serif-4/800ExtraBold_Italic';
+import { SourceSerif4_900Black_Italic } from '@expo-google-fonts/source-serif-4/900Black_Italic';
 
 export default () => {
 
@@ -72,7 +87,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -215,12 +230,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SourceSerif4_200ExtraLight](./SourceSerif4_200ExtraLight.ttf.png)|![SourceSerif4_300Light](./SourceSerif4_300Light.ttf.png)|![SourceSerif4_400Regular](./SourceSerif4_400Regular.ttf.png)||
-|![SourceSerif4_500Medium](./SourceSerif4_500Medium.ttf.png)|![SourceSerif4_600SemiBold](./SourceSerif4_600SemiBold.ttf.png)|![SourceSerif4_700Bold](./SourceSerif4_700Bold.ttf.png)||
-|![SourceSerif4_800ExtraBold](./SourceSerif4_800ExtraBold.ttf.png)|![SourceSerif4_900Black](./SourceSerif4_900Black.ttf.png)|![SourceSerif4_200ExtraLight_Italic](./SourceSerif4_200ExtraLight_Italic.ttf.png)||
-|![SourceSerif4_300Light_Italic](./SourceSerif4_300Light_Italic.ttf.png)|![SourceSerif4_400Regular_Italic](./SourceSerif4_400Regular_Italic.ttf.png)|![SourceSerif4_500Medium_Italic](./SourceSerif4_500Medium_Italic.ttf.png)||
-|![SourceSerif4_600SemiBold_Italic](./SourceSerif4_600SemiBold_Italic.ttf.png)|![SourceSerif4_700Bold_Italic](./SourceSerif4_700Bold_Italic.ttf.png)|![SourceSerif4_800ExtraBold_Italic](./SourceSerif4_800ExtraBold_Italic.ttf.png)||
-|![SourceSerif4_900Black_Italic](./SourceSerif4_900Black_Italic.ttf.png)||||
+|![SourceSerif4_200ExtraLight](./200ExtraLight/SourceSerif4_200ExtraLight.ttf.png)|![SourceSerif4_300Light](./300Light/SourceSerif4_300Light.ttf.png)|![SourceSerif4_400Regular](./400Regular/SourceSerif4_400Regular.ttf.png)||
+|![SourceSerif4_500Medium](./500Medium/SourceSerif4_500Medium.ttf.png)|![SourceSerif4_600SemiBold](./600SemiBold/SourceSerif4_600SemiBold.ttf.png)|![SourceSerif4_700Bold](./700Bold/SourceSerif4_700Bold.ttf.png)||
+|![SourceSerif4_800ExtraBold](./800ExtraBold/SourceSerif4_800ExtraBold.ttf.png)|![SourceSerif4_900Black](./900Black/SourceSerif4_900Black.ttf.png)|![SourceSerif4_200ExtraLight_Italic](./200ExtraLight_Italic/SourceSerif4_200ExtraLight_Italic.ttf.png)||
+|![SourceSerif4_300Light_Italic](./300Light_Italic/SourceSerif4_300Light_Italic.ttf.png)|![SourceSerif4_400Regular_Italic](./400Regular_Italic/SourceSerif4_400Regular_Italic.ttf.png)|![SourceSerif4_500Medium_Italic](./500Medium_Italic/SourceSerif4_500Medium_Italic.ttf.png)||
+|![SourceSerif4_600SemiBold_Italic](./600SemiBold_Italic/SourceSerif4_600SemiBold_Italic.ttf.png)|![SourceSerif4_700Bold_Italic](./700Bold_Italic/SourceSerif4_700Bold_Italic.ttf.png)|![SourceSerif4_800ExtraBold_Italic](./800ExtraBold_Italic/SourceSerif4_800ExtraBold_Italic.ttf.png)||
+|![SourceSerif4_900Black_Italic](./900Black_Italic/SourceSerif4_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

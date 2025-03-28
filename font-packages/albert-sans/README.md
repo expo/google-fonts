@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/albert-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/albert-sans expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, AlbertSans_100Thin, AlbertSans_200ExtraLight, AlbertSans_300Light, AlbertSans_400Regular, AlbertSans_500Medium, AlbertSans_600SemiBold, AlbertSans_700Bold, AlbertSans_800ExtraBold, AlbertSans_900Black, AlbertSans_100Thin_Italic, AlbertSans_200ExtraLight_Italic, AlbertSans_300Light_Italic, AlbertSans_400Regular_Italic, AlbertSans_500Medium_Italic, AlbertSans_600SemiBold_Italic, AlbertSans_700Bold_Italic, AlbertSans_800ExtraBold_Italic, AlbertSans_900Black_Italic } from '@expo-google-fonts/albert-sans';
+import { useFonts } from '@expo-google-fonts/albert-sans/useFonts';
+import { AlbertSans_100Thin } from '@expo-google-fonts/albert-sans/100Thin';
+import { AlbertSans_200ExtraLight } from '@expo-google-fonts/albert-sans/200ExtraLight';
+import { AlbertSans_300Light } from '@expo-google-fonts/albert-sans/300Light';
+import { AlbertSans_400Regular } from '@expo-google-fonts/albert-sans/400Regular';
+import { AlbertSans_500Medium } from '@expo-google-fonts/albert-sans/500Medium';
+import { AlbertSans_600SemiBold } from '@expo-google-fonts/albert-sans/600SemiBold';
+import { AlbertSans_700Bold } from '@expo-google-fonts/albert-sans/700Bold';
+import { AlbertSans_800ExtraBold } from '@expo-google-fonts/albert-sans/800ExtraBold';
+import { AlbertSans_900Black } from '@expo-google-fonts/albert-sans/900Black';
+import { AlbertSans_100Thin_Italic } from '@expo-google-fonts/albert-sans/100Thin_Italic';
+import { AlbertSans_200ExtraLight_Italic } from '@expo-google-fonts/albert-sans/200ExtraLight_Italic';
+import { AlbertSans_300Light_Italic } from '@expo-google-fonts/albert-sans/300Light_Italic';
+import { AlbertSans_400Regular_Italic } from '@expo-google-fonts/albert-sans/400Regular_Italic';
+import { AlbertSans_500Medium_Italic } from '@expo-google-fonts/albert-sans/500Medium_Italic';
+import { AlbertSans_600SemiBold_Italic } from '@expo-google-fonts/albert-sans/600SemiBold_Italic';
+import { AlbertSans_700Bold_Italic } from '@expo-google-fonts/albert-sans/700Bold_Italic';
+import { AlbertSans_800ExtraBold_Italic } from '@expo-google-fonts/albert-sans/800ExtraBold_Italic';
+import { AlbertSans_900Black_Italic } from '@expo-google-fonts/albert-sans/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AlbertSans_100Thin](./AlbertSans_100Thin.ttf.png)|![AlbertSans_200ExtraLight](./AlbertSans_200ExtraLight.ttf.png)|![AlbertSans_300Light](./AlbertSans_300Light.ttf.png)||
-|![AlbertSans_400Regular](./AlbertSans_400Regular.ttf.png)|![AlbertSans_500Medium](./AlbertSans_500Medium.ttf.png)|![AlbertSans_600SemiBold](./AlbertSans_600SemiBold.ttf.png)||
-|![AlbertSans_700Bold](./AlbertSans_700Bold.ttf.png)|![AlbertSans_800ExtraBold](./AlbertSans_800ExtraBold.ttf.png)|![AlbertSans_900Black](./AlbertSans_900Black.ttf.png)||
-|![AlbertSans_100Thin_Italic](./AlbertSans_100Thin_Italic.ttf.png)|![AlbertSans_200ExtraLight_Italic](./AlbertSans_200ExtraLight_Italic.ttf.png)|![AlbertSans_300Light_Italic](./AlbertSans_300Light_Italic.ttf.png)||
-|![AlbertSans_400Regular_Italic](./AlbertSans_400Regular_Italic.ttf.png)|![AlbertSans_500Medium_Italic](./AlbertSans_500Medium_Italic.ttf.png)|![AlbertSans_600SemiBold_Italic](./AlbertSans_600SemiBold_Italic.ttf.png)||
-|![AlbertSans_700Bold_Italic](./AlbertSans_700Bold_Italic.ttf.png)|![AlbertSans_800ExtraBold_Italic](./AlbertSans_800ExtraBold_Italic.ttf.png)|![AlbertSans_900Black_Italic](./AlbertSans_900Black_Italic.ttf.png)||
+|![AlbertSans_100Thin](./100Thin/AlbertSans_100Thin.ttf.png)|![AlbertSans_200ExtraLight](./200ExtraLight/AlbertSans_200ExtraLight.ttf.png)|![AlbertSans_300Light](./300Light/AlbertSans_300Light.ttf.png)||
+|![AlbertSans_400Regular](./400Regular/AlbertSans_400Regular.ttf.png)|![AlbertSans_500Medium](./500Medium/AlbertSans_500Medium.ttf.png)|![AlbertSans_600SemiBold](./600SemiBold/AlbertSans_600SemiBold.ttf.png)||
+|![AlbertSans_700Bold](./700Bold/AlbertSans_700Bold.ttf.png)|![AlbertSans_800ExtraBold](./800ExtraBold/AlbertSans_800ExtraBold.ttf.png)|![AlbertSans_900Black](./900Black/AlbertSans_900Black.ttf.png)||
+|![AlbertSans_100Thin_Italic](./100Thin_Italic/AlbertSans_100Thin_Italic.ttf.png)|![AlbertSans_200ExtraLight_Italic](./200ExtraLight_Italic/AlbertSans_200ExtraLight_Italic.ttf.png)|![AlbertSans_300Light_Italic](./300Light_Italic/AlbertSans_300Light_Italic.ttf.png)||
+|![AlbertSans_400Regular_Italic](./400Regular_Italic/AlbertSans_400Regular_Italic.ttf.png)|![AlbertSans_500Medium_Italic](./500Medium_Italic/AlbertSans_500Medium_Italic.ttf.png)|![AlbertSans_600SemiBold_Italic](./600SemiBold_Italic/AlbertSans_600SemiBold_Italic.ttf.png)||
+|![AlbertSans_700Bold_Italic](./700Bold_Italic/AlbertSans_700Bold_Italic.ttf.png)|![AlbertSans_800ExtraBold_Italic](./800ExtraBold_Italic/AlbertSans_800ExtraBold_Italic.ttf.png)|![AlbertSans_900Black_Italic](./900Black_Italic/AlbertSans_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

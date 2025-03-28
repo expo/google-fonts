@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/moderustic expo-font expo-app-loading
+npx expo install @expo-google-fonts/moderustic expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Moderustic_300Light, Moderustic_400Regular, Moderustic_500Medium, Moderustic_600SemiBold, Moderustic_700Bold, Moderustic_800ExtraBold } from '@expo-google-fonts/moderustic';
+import { useFonts } from '@expo-google-fonts/moderustic/useFonts';
+import { Moderustic_300Light } from '@expo-google-fonts/moderustic/300Light';
+import { Moderustic_400Regular } from '@expo-google-fonts/moderustic/400Regular';
+import { Moderustic_500Medium } from '@expo-google-fonts/moderustic/500Medium';
+import { Moderustic_600SemiBold } from '@expo-google-fonts/moderustic/600SemiBold';
+import { Moderustic_700Bold } from '@expo-google-fonts/moderustic/700Bold';
+import { Moderustic_800ExtraBold } from '@expo-google-fonts/moderustic/800ExtraBold';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Moderustic_300Light](./Moderustic_300Light.ttf.png)|![Moderustic_400Regular](./Moderustic_400Regular.ttf.png)|![Moderustic_500Medium](./Moderustic_500Medium.ttf.png)||
-|![Moderustic_600SemiBold](./Moderustic_600SemiBold.ttf.png)|![Moderustic_700Bold](./Moderustic_700Bold.ttf.png)|![Moderustic_800ExtraBold](./Moderustic_800ExtraBold.ttf.png)||
+|![Moderustic_300Light](./300Light/Moderustic_300Light.ttf.png)|![Moderustic_400Regular](./400Regular/Moderustic_400Regular.ttf.png)|![Moderustic_500Medium](./500Medium/Moderustic_500Medium.ttf.png)||
+|![Moderustic_600SemiBold](./600SemiBold/Moderustic_600SemiBold.ttf.png)|![Moderustic_700Bold](./700Bold/Moderustic_700Bold.ttf.png)|![Moderustic_800ExtraBold](./800ExtraBold/Moderustic_800ExtraBold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

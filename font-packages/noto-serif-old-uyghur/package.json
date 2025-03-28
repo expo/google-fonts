@@ -1,9 +1,13 @@
 {
   "name": "@expo-google-fonts/noto-serif-old-uyghur",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Use the Noto Serif Old Uyghur font family from Google Fonts in your Expo app",
   "main": "index.js",
-  "repository": "https://github.com/expo/google-fonts.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/noto-serif-old-uyghur"
+  },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/noto-serif-old-uyghur#readme",
   "author": "Expo Team <team@expo.io>",
   "license": "MIT",

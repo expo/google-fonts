@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/catamaran expo-font expo-app-loading
+npx expo install @expo-google-fonts/catamaran expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Catamaran_100Thin, Catamaran_200ExtraLight, Catamaran_300Light, Catamaran_400Regular, Catamaran_500Medium, Catamaran_600SemiBold, Catamaran_700Bold, Catamaran_800ExtraBold, Catamaran_900Black } from '@expo-google-fonts/catamaran';
+import { useFonts } from '@expo-google-fonts/catamaran/useFonts';
+import { Catamaran_100Thin } from '@expo-google-fonts/catamaran/100Thin';
+import { Catamaran_200ExtraLight } from '@expo-google-fonts/catamaran/200ExtraLight';
+import { Catamaran_300Light } from '@expo-google-fonts/catamaran/300Light';
+import { Catamaran_400Regular } from '@expo-google-fonts/catamaran/400Regular';
+import { Catamaran_500Medium } from '@expo-google-fonts/catamaran/500Medium';
+import { Catamaran_600SemiBold } from '@expo-google-fonts/catamaran/600SemiBold';
+import { Catamaran_700Bold } from '@expo-google-fonts/catamaran/700Bold';
+import { Catamaran_800ExtraBold } from '@expo-google-fonts/catamaran/800ExtraBold';
+import { Catamaran_900Black } from '@expo-google-fonts/catamaran/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Catamaran_100Thin](./Catamaran_100Thin.ttf.png)|![Catamaran_200ExtraLight](./Catamaran_200ExtraLight.ttf.png)|![Catamaran_300Light](./Catamaran_300Light.ttf.png)||
-|![Catamaran_400Regular](./Catamaran_400Regular.ttf.png)|![Catamaran_500Medium](./Catamaran_500Medium.ttf.png)|![Catamaran_600SemiBold](./Catamaran_600SemiBold.ttf.png)||
-|![Catamaran_700Bold](./Catamaran_700Bold.ttf.png)|![Catamaran_800ExtraBold](./Catamaran_800ExtraBold.ttf.png)|![Catamaran_900Black](./Catamaran_900Black.ttf.png)||
+|![Catamaran_100Thin](./100Thin/Catamaran_100Thin.ttf.png)|![Catamaran_200ExtraLight](./200ExtraLight/Catamaran_200ExtraLight.ttf.png)|![Catamaran_300Light](./300Light/Catamaran_300Light.ttf.png)||
+|![Catamaran_400Regular](./400Regular/Catamaran_400Regular.ttf.png)|![Catamaran_500Medium](./500Medium/Catamaran_500Medium.ttf.png)|![Catamaran_600SemiBold](./600SemiBold/Catamaran_600SemiBold.ttf.png)||
+|![Catamaran_700Bold](./700Bold/Catamaran_700Bold.ttf.png)|![Catamaran_800ExtraBold](./800ExtraBold/Catamaran_800ExtraBold.ttf.png)|![Catamaran_900Black](./900Black/Catamaran_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

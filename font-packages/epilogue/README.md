@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/epilogue expo-font expo-app-loading
+npx expo install @expo-google-fonts/epilogue expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Epilogue_100Thin, Epilogue_200ExtraLight, Epilogue_300Light, Epilogue_400Regular, Epilogue_500Medium, Epilogue_600SemiBold, Epilogue_700Bold, Epilogue_800ExtraBold, Epilogue_900Black, Epilogue_100Thin_Italic, Epilogue_200ExtraLight_Italic, Epilogue_300Light_Italic, Epilogue_400Regular_Italic, Epilogue_500Medium_Italic, Epilogue_600SemiBold_Italic, Epilogue_700Bold_Italic, Epilogue_800ExtraBold_Italic, Epilogue_900Black_Italic } from '@expo-google-fonts/epilogue';
+import { useFonts } from '@expo-google-fonts/epilogue/useFonts';
+import { Epilogue_100Thin } from '@expo-google-fonts/epilogue/100Thin';
+import { Epilogue_200ExtraLight } from '@expo-google-fonts/epilogue/200ExtraLight';
+import { Epilogue_300Light } from '@expo-google-fonts/epilogue/300Light';
+import { Epilogue_400Regular } from '@expo-google-fonts/epilogue/400Regular';
+import { Epilogue_500Medium } from '@expo-google-fonts/epilogue/500Medium';
+import { Epilogue_600SemiBold } from '@expo-google-fonts/epilogue/600SemiBold';
+import { Epilogue_700Bold } from '@expo-google-fonts/epilogue/700Bold';
+import { Epilogue_800ExtraBold } from '@expo-google-fonts/epilogue/800ExtraBold';
+import { Epilogue_900Black } from '@expo-google-fonts/epilogue/900Black';
+import { Epilogue_100Thin_Italic } from '@expo-google-fonts/epilogue/100Thin_Italic';
+import { Epilogue_200ExtraLight_Italic } from '@expo-google-fonts/epilogue/200ExtraLight_Italic';
+import { Epilogue_300Light_Italic } from '@expo-google-fonts/epilogue/300Light_Italic';
+import { Epilogue_400Regular_Italic } from '@expo-google-fonts/epilogue/400Regular_Italic';
+import { Epilogue_500Medium_Italic } from '@expo-google-fonts/epilogue/500Medium_Italic';
+import { Epilogue_600SemiBold_Italic } from '@expo-google-fonts/epilogue/600SemiBold_Italic';
+import { Epilogue_700Bold_Italic } from '@expo-google-fonts/epilogue/700Bold_Italic';
+import { Epilogue_800ExtraBold_Italic } from '@expo-google-fonts/epilogue/800ExtraBold_Italic';
+import { Epilogue_900Black_Italic } from '@expo-google-fonts/epilogue/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Epilogue_100Thin](./Epilogue_100Thin.ttf.png)|![Epilogue_200ExtraLight](./Epilogue_200ExtraLight.ttf.png)|![Epilogue_300Light](./Epilogue_300Light.ttf.png)||
-|![Epilogue_400Regular](./Epilogue_400Regular.ttf.png)|![Epilogue_500Medium](./Epilogue_500Medium.ttf.png)|![Epilogue_600SemiBold](./Epilogue_600SemiBold.ttf.png)||
-|![Epilogue_700Bold](./Epilogue_700Bold.ttf.png)|![Epilogue_800ExtraBold](./Epilogue_800ExtraBold.ttf.png)|![Epilogue_900Black](./Epilogue_900Black.ttf.png)||
-|![Epilogue_100Thin_Italic](./Epilogue_100Thin_Italic.ttf.png)|![Epilogue_200ExtraLight_Italic](./Epilogue_200ExtraLight_Italic.ttf.png)|![Epilogue_300Light_Italic](./Epilogue_300Light_Italic.ttf.png)||
-|![Epilogue_400Regular_Italic](./Epilogue_400Regular_Italic.ttf.png)|![Epilogue_500Medium_Italic](./Epilogue_500Medium_Italic.ttf.png)|![Epilogue_600SemiBold_Italic](./Epilogue_600SemiBold_Italic.ttf.png)||
-|![Epilogue_700Bold_Italic](./Epilogue_700Bold_Italic.ttf.png)|![Epilogue_800ExtraBold_Italic](./Epilogue_800ExtraBold_Italic.ttf.png)|![Epilogue_900Black_Italic](./Epilogue_900Black_Italic.ttf.png)||
+|![Epilogue_100Thin](./100Thin/Epilogue_100Thin.ttf.png)|![Epilogue_200ExtraLight](./200ExtraLight/Epilogue_200ExtraLight.ttf.png)|![Epilogue_300Light](./300Light/Epilogue_300Light.ttf.png)||
+|![Epilogue_400Regular](./400Regular/Epilogue_400Regular.ttf.png)|![Epilogue_500Medium](./500Medium/Epilogue_500Medium.ttf.png)|![Epilogue_600SemiBold](./600SemiBold/Epilogue_600SemiBold.ttf.png)||
+|![Epilogue_700Bold](./700Bold/Epilogue_700Bold.ttf.png)|![Epilogue_800ExtraBold](./800ExtraBold/Epilogue_800ExtraBold.ttf.png)|![Epilogue_900Black](./900Black/Epilogue_900Black.ttf.png)||
+|![Epilogue_100Thin_Italic](./100Thin_Italic/Epilogue_100Thin_Italic.ttf.png)|![Epilogue_200ExtraLight_Italic](./200ExtraLight_Italic/Epilogue_200ExtraLight_Italic.ttf.png)|![Epilogue_300Light_Italic](./300Light_Italic/Epilogue_300Light_Italic.ttf.png)||
+|![Epilogue_400Regular_Italic](./400Regular_Italic/Epilogue_400Regular_Italic.ttf.png)|![Epilogue_500Medium_Italic](./500Medium_Italic/Epilogue_500Medium_Italic.ttf.png)|![Epilogue_600SemiBold_Italic](./600SemiBold_Italic/Epilogue_600SemiBold_Italic.ttf.png)||
+|![Epilogue_700Bold_Italic](./700Bold_Italic/Epilogue_700Bold_Italic.ttf.png)|![Epilogue_800ExtraBold_Italic](./800ExtraBold_Italic/Epilogue_800ExtraBold_Italic.ttf.png)|![Epilogue_900Black_Italic](./900Black_Italic/Epilogue_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

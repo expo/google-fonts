@@ -22,7 +22,7 @@ This font family contains [3 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/tienne expo-font expo-app-loading
+npx expo install @expo-google-fonts/tienne expo-font
 ```
 
 Now add code like this to your project
@@ -31,8 +31,10 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Tienne_400Regular, Tienne_700Bold, Tienne_900Black } from '@expo-google-fonts/tienne';
+import { useFonts } from '@expo-google-fonts/tienne/useFonts';
+import { Tienne_400Regular } from '@expo-google-fonts/tienne/400Regular';
+import { Tienne_700Bold } from '@expo-google-fonts/tienne/700Bold';
+import { Tienne_900Black } from '@expo-google-fonts/tienne/900Black';
 
 export default () => {
 
@@ -46,7 +48,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -85,7 +87,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Tienne_400Regular](./Tienne_400Regular.ttf.png)|![Tienne_700Bold](./Tienne_700Bold.ttf.png)|![Tienne_900Black](./Tienne_900Black.ttf.png)||
+|![Tienne_400Regular](./400Regular/Tienne_400Regular.ttf.png)|![Tienne_700Bold](./700Bold/Tienne_700Bold.ttf.png)|![Tienne_900Black](./900Black/Tienne_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

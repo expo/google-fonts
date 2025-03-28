@@ -29,7 +29,7 @@ This font family contains [10 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/dai-banna-sil expo-font expo-app-loading
+npx expo install @expo-google-fonts/dai-banna-sil expo-font
 ```
 
 Now add code like this to your project
@@ -38,8 +38,17 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, DaiBannaSIL_300Light, DaiBannaSIL_300Light_Italic, DaiBannaSIL_400Regular, DaiBannaSIL_400Regular_Italic, DaiBannaSIL_500Medium, DaiBannaSIL_500Medium_Italic, DaiBannaSIL_600SemiBold, DaiBannaSIL_600SemiBold_Italic, DaiBannaSIL_700Bold, DaiBannaSIL_700Bold_Italic } from '@expo-google-fonts/dai-banna-sil';
+import { useFonts } from '@expo-google-fonts/dai-banna-sil/useFonts';
+import { DaiBannaSIL_300Light } from '@expo-google-fonts/dai-banna-sil/300Light';
+import { DaiBannaSIL_300Light_Italic } from '@expo-google-fonts/dai-banna-sil/300Light_Italic';
+import { DaiBannaSIL_400Regular } from '@expo-google-fonts/dai-banna-sil/400Regular';
+import { DaiBannaSIL_400Regular_Italic } from '@expo-google-fonts/dai-banna-sil/400Regular_Italic';
+import { DaiBannaSIL_500Medium } from '@expo-google-fonts/dai-banna-sil/500Medium';
+import { DaiBannaSIL_500Medium_Italic } from '@expo-google-fonts/dai-banna-sil/500Medium_Italic';
+import { DaiBannaSIL_600SemiBold } from '@expo-google-fonts/dai-banna-sil/600SemiBold';
+import { DaiBannaSIL_600SemiBold_Italic } from '@expo-google-fonts/dai-banna-sil/600SemiBold_Italic';
+import { DaiBannaSIL_700Bold } from '@expo-google-fonts/dai-banna-sil/700Bold';
+import { DaiBannaSIL_700Bold_Italic } from '@expo-google-fonts/dai-banna-sil/700Bold_Italic';
 
 export default () => {
 
@@ -60,7 +69,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -155,10 +164,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DaiBannaSIL_300Light](./DaiBannaSIL_300Light.ttf.png)|![DaiBannaSIL_300Light_Italic](./DaiBannaSIL_300Light_Italic.ttf.png)|![DaiBannaSIL_400Regular](./DaiBannaSIL_400Regular.ttf.png)||
-|![DaiBannaSIL_400Regular_Italic](./DaiBannaSIL_400Regular_Italic.ttf.png)|![DaiBannaSIL_500Medium](./DaiBannaSIL_500Medium.ttf.png)|![DaiBannaSIL_500Medium_Italic](./DaiBannaSIL_500Medium_Italic.ttf.png)||
-|![DaiBannaSIL_600SemiBold](./DaiBannaSIL_600SemiBold.ttf.png)|![DaiBannaSIL_600SemiBold_Italic](./DaiBannaSIL_600SemiBold_Italic.ttf.png)|![DaiBannaSIL_700Bold](./DaiBannaSIL_700Bold.ttf.png)||
-|![DaiBannaSIL_700Bold_Italic](./DaiBannaSIL_700Bold_Italic.ttf.png)||||
+|![DaiBannaSIL_300Light](./300Light/DaiBannaSIL_300Light.ttf.png)|![DaiBannaSIL_300Light_Italic](./300Light_Italic/DaiBannaSIL_300Light_Italic.ttf.png)|![DaiBannaSIL_400Regular](./400Regular/DaiBannaSIL_400Regular.ttf.png)||
+|![DaiBannaSIL_400Regular_Italic](./400Regular_Italic/DaiBannaSIL_400Regular_Italic.ttf.png)|![DaiBannaSIL_500Medium](./500Medium/DaiBannaSIL_500Medium.ttf.png)|![DaiBannaSIL_500Medium_Italic](./500Medium_Italic/DaiBannaSIL_500Medium_Italic.ttf.png)||
+|![DaiBannaSIL_600SemiBold](./600SemiBold/DaiBannaSIL_600SemiBold.ttf.png)|![DaiBannaSIL_600SemiBold_Italic](./600SemiBold_Italic/DaiBannaSIL_600SemiBold_Italic.ttf.png)|![DaiBannaSIL_700Bold](./700Bold/DaiBannaSIL_700Bold.ttf.png)||
+|![DaiBannaSIL_700Bold_Italic](./700Bold_Italic/DaiBannaSIL_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

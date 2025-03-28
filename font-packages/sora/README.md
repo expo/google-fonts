@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/sora expo-font expo-app-loading
+npx expo install @expo-google-fonts/sora expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Sora_100Thin, Sora_200ExtraLight, Sora_300Light, Sora_400Regular, Sora_500Medium, Sora_600SemiBold, Sora_700Bold, Sora_800ExtraBold } from '@expo-google-fonts/sora';
+import { useFonts } from '@expo-google-fonts/sora/useFonts';
+import { Sora_100Thin } from '@expo-google-fonts/sora/100Thin';
+import { Sora_200ExtraLight } from '@expo-google-fonts/sora/200ExtraLight';
+import { Sora_300Light } from '@expo-google-fonts/sora/300Light';
+import { Sora_400Regular } from '@expo-google-fonts/sora/400Regular';
+import { Sora_500Medium } from '@expo-google-fonts/sora/500Medium';
+import { Sora_600SemiBold } from '@expo-google-fonts/sora/600SemiBold';
+import { Sora_700Bold } from '@expo-google-fonts/sora/700Bold';
+import { Sora_800ExtraBold } from '@expo-google-fonts/sora/800ExtraBold';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sora_100Thin](./Sora_100Thin.ttf.png)|![Sora_200ExtraLight](./Sora_200ExtraLight.ttf.png)|![Sora_300Light](./Sora_300Light.ttf.png)||
-|![Sora_400Regular](./Sora_400Regular.ttf.png)|![Sora_500Medium](./Sora_500Medium.ttf.png)|![Sora_600SemiBold](./Sora_600SemiBold.ttf.png)||
-|![Sora_700Bold](./Sora_700Bold.ttf.png)|![Sora_800ExtraBold](./Sora_800ExtraBold.ttf.png)|||
+|![Sora_100Thin](./100Thin/Sora_100Thin.ttf.png)|![Sora_200ExtraLight](./200ExtraLight/Sora_200ExtraLight.ttf.png)|![Sora_300Light](./300Light/Sora_300Light.ttf.png)||
+|![Sora_400Regular](./400Regular/Sora_400Regular.ttf.png)|![Sora_500Medium](./500Medium/Sora_500Medium.ttf.png)|![Sora_600SemiBold](./600SemiBold/Sora_600SemiBold.ttf.png)||
+|![Sora_700Bold](./700Bold/Sora_700Bold.ttf.png)|![Sora_800ExtraBold](./800ExtraBold/Sora_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

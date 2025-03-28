@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-georgian expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-georgian expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifGeorgian_100Thin, NotoSerifGeorgian_200ExtraLight, NotoSerifGeorgian_300Light, NotoSerifGeorgian_400Regular, NotoSerifGeorgian_500Medium, NotoSerifGeorgian_600SemiBold, NotoSerifGeorgian_700Bold, NotoSerifGeorgian_800ExtraBold, NotoSerifGeorgian_900Black } from '@expo-google-fonts/noto-serif-georgian';
+import { useFonts } from '@expo-google-fonts/noto-serif-georgian/useFonts';
+import { NotoSerifGeorgian_100Thin } from '@expo-google-fonts/noto-serif-georgian/100Thin';
+import { NotoSerifGeorgian_200ExtraLight } from '@expo-google-fonts/noto-serif-georgian/200ExtraLight';
+import { NotoSerifGeorgian_300Light } from '@expo-google-fonts/noto-serif-georgian/300Light';
+import { NotoSerifGeorgian_400Regular } from '@expo-google-fonts/noto-serif-georgian/400Regular';
+import { NotoSerifGeorgian_500Medium } from '@expo-google-fonts/noto-serif-georgian/500Medium';
+import { NotoSerifGeorgian_600SemiBold } from '@expo-google-fonts/noto-serif-georgian/600SemiBold';
+import { NotoSerifGeorgian_700Bold } from '@expo-google-fonts/noto-serif-georgian/700Bold';
+import { NotoSerifGeorgian_800ExtraBold } from '@expo-google-fonts/noto-serif-georgian/800ExtraBold';
+import { NotoSerifGeorgian_900Black } from '@expo-google-fonts/noto-serif-georgian/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifGeorgian_100Thin](./NotoSerifGeorgian_100Thin.ttf.png)|![NotoSerifGeorgian_200ExtraLight](./NotoSerifGeorgian_200ExtraLight.ttf.png)|![NotoSerifGeorgian_300Light](./NotoSerifGeorgian_300Light.ttf.png)||
-|![NotoSerifGeorgian_400Regular](./NotoSerifGeorgian_400Regular.ttf.png)|![NotoSerifGeorgian_500Medium](./NotoSerifGeorgian_500Medium.ttf.png)|![NotoSerifGeorgian_600SemiBold](./NotoSerifGeorgian_600SemiBold.ttf.png)||
-|![NotoSerifGeorgian_700Bold](./NotoSerifGeorgian_700Bold.ttf.png)|![NotoSerifGeorgian_800ExtraBold](./NotoSerifGeorgian_800ExtraBold.ttf.png)|![NotoSerifGeorgian_900Black](./NotoSerifGeorgian_900Black.ttf.png)||
+|![NotoSerifGeorgian_100Thin](./100Thin/NotoSerifGeorgian_100Thin.ttf.png)|![NotoSerifGeorgian_200ExtraLight](./200ExtraLight/NotoSerifGeorgian_200ExtraLight.ttf.png)|![NotoSerifGeorgian_300Light](./300Light/NotoSerifGeorgian_300Light.ttf.png)||
+|![NotoSerifGeorgian_400Regular](./400Regular/NotoSerifGeorgian_400Regular.ttf.png)|![NotoSerifGeorgian_500Medium](./500Medium/NotoSerifGeorgian_500Medium.ttf.png)|![NotoSerifGeorgian_600SemiBold](./600SemiBold/NotoSerifGeorgian_600SemiBold.ttf.png)||
+|![NotoSerifGeorgian_700Bold](./700Bold/NotoSerifGeorgian_700Bold.ttf.png)|![NotoSerifGeorgian_800ExtraBold](./800ExtraBold/NotoSerifGeorgian_800ExtraBold.ttf.png)|![NotoSerifGeorgian_900Black](./900Black/NotoSerifGeorgian_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

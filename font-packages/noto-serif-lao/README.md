@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-lao expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-lao expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifLao_100Thin, NotoSerifLao_200ExtraLight, NotoSerifLao_300Light, NotoSerifLao_400Regular, NotoSerifLao_500Medium, NotoSerifLao_600SemiBold, NotoSerifLao_700Bold, NotoSerifLao_800ExtraBold, NotoSerifLao_900Black } from '@expo-google-fonts/noto-serif-lao';
+import { useFonts } from '@expo-google-fonts/noto-serif-lao/useFonts';
+import { NotoSerifLao_100Thin } from '@expo-google-fonts/noto-serif-lao/100Thin';
+import { NotoSerifLao_200ExtraLight } from '@expo-google-fonts/noto-serif-lao/200ExtraLight';
+import { NotoSerifLao_300Light } from '@expo-google-fonts/noto-serif-lao/300Light';
+import { NotoSerifLao_400Regular } from '@expo-google-fonts/noto-serif-lao/400Regular';
+import { NotoSerifLao_500Medium } from '@expo-google-fonts/noto-serif-lao/500Medium';
+import { NotoSerifLao_600SemiBold } from '@expo-google-fonts/noto-serif-lao/600SemiBold';
+import { NotoSerifLao_700Bold } from '@expo-google-fonts/noto-serif-lao/700Bold';
+import { NotoSerifLao_800ExtraBold } from '@expo-google-fonts/noto-serif-lao/800ExtraBold';
+import { NotoSerifLao_900Black } from '@expo-google-fonts/noto-serif-lao/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifLao_100Thin](./NotoSerifLao_100Thin.ttf.png)|![NotoSerifLao_200ExtraLight](./NotoSerifLao_200ExtraLight.ttf.png)|![NotoSerifLao_300Light](./NotoSerifLao_300Light.ttf.png)||
-|![NotoSerifLao_400Regular](./NotoSerifLao_400Regular.ttf.png)|![NotoSerifLao_500Medium](./NotoSerifLao_500Medium.ttf.png)|![NotoSerifLao_600SemiBold](./NotoSerifLao_600SemiBold.ttf.png)||
-|![NotoSerifLao_700Bold](./NotoSerifLao_700Bold.ttf.png)|![NotoSerifLao_800ExtraBold](./NotoSerifLao_800ExtraBold.ttf.png)|![NotoSerifLao_900Black](./NotoSerifLao_900Black.ttf.png)||
+|![NotoSerifLao_100Thin](./100Thin/NotoSerifLao_100Thin.ttf.png)|![NotoSerifLao_200ExtraLight](./200ExtraLight/NotoSerifLao_200ExtraLight.ttf.png)|![NotoSerifLao_300Light](./300Light/NotoSerifLao_300Light.ttf.png)||
+|![NotoSerifLao_400Regular](./400Regular/NotoSerifLao_400Regular.ttf.png)|![NotoSerifLao_500Medium](./500Medium/NotoSerifLao_500Medium.ttf.png)|![NotoSerifLao_600SemiBold](./600SemiBold/NotoSerifLao_600SemiBold.ttf.png)||
+|![NotoSerifLao_700Bold](./700Bold/NotoSerifLao_700Bold.ttf.png)|![NotoSerifLao_800ExtraBold](./800ExtraBold/NotoSerifLao_800ExtraBold.ttf.png)|![NotoSerifLao_900Black](./900Black/NotoSerifLao_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

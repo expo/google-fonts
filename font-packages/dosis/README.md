@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/dosis expo-font expo-app-loading
+npx expo install @expo-google-fonts/dosis expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Dosis_200ExtraLight, Dosis_300Light, Dosis_400Regular, Dosis_500Medium, Dosis_600SemiBold, Dosis_700Bold, Dosis_800ExtraBold } from '@expo-google-fonts/dosis';
+import { useFonts } from '@expo-google-fonts/dosis/useFonts';
+import { Dosis_200ExtraLight } from '@expo-google-fonts/dosis/200ExtraLight';
+import { Dosis_300Light } from '@expo-google-fonts/dosis/300Light';
+import { Dosis_400Regular } from '@expo-google-fonts/dosis/400Regular';
+import { Dosis_500Medium } from '@expo-google-fonts/dosis/500Medium';
+import { Dosis_600SemiBold } from '@expo-google-fonts/dosis/600SemiBold';
+import { Dosis_700Bold } from '@expo-google-fonts/dosis/700Bold';
+import { Dosis_800ExtraBold } from '@expo-google-fonts/dosis/800ExtraBold';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Dosis_200ExtraLight](./Dosis_200ExtraLight.ttf.png)|![Dosis_300Light](./Dosis_300Light.ttf.png)|![Dosis_400Regular](./Dosis_400Regular.ttf.png)||
-|![Dosis_500Medium](./Dosis_500Medium.ttf.png)|![Dosis_600SemiBold](./Dosis_600SemiBold.ttf.png)|![Dosis_700Bold](./Dosis_700Bold.ttf.png)||
-|![Dosis_800ExtraBold](./Dosis_800ExtraBold.ttf.png)||||
+|![Dosis_200ExtraLight](./200ExtraLight/Dosis_200ExtraLight.ttf.png)|![Dosis_300Light](./300Light/Dosis_300Light.ttf.png)|![Dosis_400Regular](./400Regular/Dosis_400Regular.ttf.png)||
+|![Dosis_500Medium](./500Medium/Dosis_500Medium.ttf.png)|![Dosis_600SemiBold](./600SemiBold/Dosis_600SemiBold.ttf.png)|![Dosis_700Bold](./700Bold/Dosis_700Bold.ttf.png)||
+|![Dosis_800ExtraBold](./800ExtraBold/Dosis_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/gantari expo-font expo-app-loading
+npx expo install @expo-google-fonts/gantari expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Gantari_100Thin, Gantari_200ExtraLight, Gantari_300Light, Gantari_400Regular, Gantari_500Medium, Gantari_600SemiBold, Gantari_700Bold, Gantari_800ExtraBold, Gantari_900Black, Gantari_100Thin_Italic, Gantari_200ExtraLight_Italic, Gantari_300Light_Italic, Gantari_400Regular_Italic, Gantari_500Medium_Italic, Gantari_600SemiBold_Italic, Gantari_700Bold_Italic, Gantari_800ExtraBold_Italic, Gantari_900Black_Italic } from '@expo-google-fonts/gantari';
+import { useFonts } from '@expo-google-fonts/gantari/useFonts';
+import { Gantari_100Thin } from '@expo-google-fonts/gantari/100Thin';
+import { Gantari_200ExtraLight } from '@expo-google-fonts/gantari/200ExtraLight';
+import { Gantari_300Light } from '@expo-google-fonts/gantari/300Light';
+import { Gantari_400Regular } from '@expo-google-fonts/gantari/400Regular';
+import { Gantari_500Medium } from '@expo-google-fonts/gantari/500Medium';
+import { Gantari_600SemiBold } from '@expo-google-fonts/gantari/600SemiBold';
+import { Gantari_700Bold } from '@expo-google-fonts/gantari/700Bold';
+import { Gantari_800ExtraBold } from '@expo-google-fonts/gantari/800ExtraBold';
+import { Gantari_900Black } from '@expo-google-fonts/gantari/900Black';
+import { Gantari_100Thin_Italic } from '@expo-google-fonts/gantari/100Thin_Italic';
+import { Gantari_200ExtraLight_Italic } from '@expo-google-fonts/gantari/200ExtraLight_Italic';
+import { Gantari_300Light_Italic } from '@expo-google-fonts/gantari/300Light_Italic';
+import { Gantari_400Regular_Italic } from '@expo-google-fonts/gantari/400Regular_Italic';
+import { Gantari_500Medium_Italic } from '@expo-google-fonts/gantari/500Medium_Italic';
+import { Gantari_600SemiBold_Italic } from '@expo-google-fonts/gantari/600SemiBold_Italic';
+import { Gantari_700Bold_Italic } from '@expo-google-fonts/gantari/700Bold_Italic';
+import { Gantari_800ExtraBold_Italic } from '@expo-google-fonts/gantari/800ExtraBold_Italic';
+import { Gantari_900Black_Italic } from '@expo-google-fonts/gantari/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Gantari_100Thin](./Gantari_100Thin.ttf.png)|![Gantari_200ExtraLight](./Gantari_200ExtraLight.ttf.png)|![Gantari_300Light](./Gantari_300Light.ttf.png)||
-|![Gantari_400Regular](./Gantari_400Regular.ttf.png)|![Gantari_500Medium](./Gantari_500Medium.ttf.png)|![Gantari_600SemiBold](./Gantari_600SemiBold.ttf.png)||
-|![Gantari_700Bold](./Gantari_700Bold.ttf.png)|![Gantari_800ExtraBold](./Gantari_800ExtraBold.ttf.png)|![Gantari_900Black](./Gantari_900Black.ttf.png)||
-|![Gantari_100Thin_Italic](./Gantari_100Thin_Italic.ttf.png)|![Gantari_200ExtraLight_Italic](./Gantari_200ExtraLight_Italic.ttf.png)|![Gantari_300Light_Italic](./Gantari_300Light_Italic.ttf.png)||
-|![Gantari_400Regular_Italic](./Gantari_400Regular_Italic.ttf.png)|![Gantari_500Medium_Italic](./Gantari_500Medium_Italic.ttf.png)|![Gantari_600SemiBold_Italic](./Gantari_600SemiBold_Italic.ttf.png)||
-|![Gantari_700Bold_Italic](./Gantari_700Bold_Italic.ttf.png)|![Gantari_800ExtraBold_Italic](./Gantari_800ExtraBold_Italic.ttf.png)|![Gantari_900Black_Italic](./Gantari_900Black_Italic.ttf.png)||
+|![Gantari_100Thin](./100Thin/Gantari_100Thin.ttf.png)|![Gantari_200ExtraLight](./200ExtraLight/Gantari_200ExtraLight.ttf.png)|![Gantari_300Light](./300Light/Gantari_300Light.ttf.png)||
+|![Gantari_400Regular](./400Regular/Gantari_400Regular.ttf.png)|![Gantari_500Medium](./500Medium/Gantari_500Medium.ttf.png)|![Gantari_600SemiBold](./600SemiBold/Gantari_600SemiBold.ttf.png)||
+|![Gantari_700Bold](./700Bold/Gantari_700Bold.ttf.png)|![Gantari_800ExtraBold](./800ExtraBold/Gantari_800ExtraBold.ttf.png)|![Gantari_900Black](./900Black/Gantari_900Black.ttf.png)||
+|![Gantari_100Thin_Italic](./100Thin_Italic/Gantari_100Thin_Italic.ttf.png)|![Gantari_200ExtraLight_Italic](./200ExtraLight_Italic/Gantari_200ExtraLight_Italic.ttf.png)|![Gantari_300Light_Italic](./300Light_Italic/Gantari_300Light_Italic.ttf.png)||
+|![Gantari_400Regular_Italic](./400Regular_Italic/Gantari_400Regular_Italic.ttf.png)|![Gantari_500Medium_Italic](./500Medium_Italic/Gantari_500Medium_Italic.ttf.png)|![Gantari_600SemiBold_Italic](./600SemiBold_Italic/Gantari_600SemiBold_Italic.ttf.png)||
+|![Gantari_700Bold_Italic](./700Bold_Italic/Gantari_700Bold_Italic.ttf.png)|![Gantari_800ExtraBold_Italic](./800ExtraBold_Italic/Gantari_800ExtraBold_Italic.ttf.png)|![Gantari_900Black_Italic](./900Black_Italic/Gantari_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

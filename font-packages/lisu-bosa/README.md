@@ -35,7 +35,7 @@ This font family contains [16 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/lisu-bosa expo-font expo-app-loading
+npx expo install @expo-google-fonts/lisu-bosa expo-font
 ```
 
 Now add code like this to your project
@@ -44,8 +44,23 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, LisuBosa_200ExtraLight, LisuBosa_200ExtraLight_Italic, LisuBosa_300Light, LisuBosa_300Light_Italic, LisuBosa_400Regular, LisuBosa_400Regular_Italic, LisuBosa_500Medium, LisuBosa_500Medium_Italic, LisuBosa_600SemiBold, LisuBosa_600SemiBold_Italic, LisuBosa_700Bold, LisuBosa_700Bold_Italic, LisuBosa_800ExtraBold, LisuBosa_800ExtraBold_Italic, LisuBosa_900Black, LisuBosa_900Black_Italic } from '@expo-google-fonts/lisu-bosa';
+import { useFonts } from '@expo-google-fonts/lisu-bosa/useFonts';
+import { LisuBosa_200ExtraLight } from '@expo-google-fonts/lisu-bosa/200ExtraLight';
+import { LisuBosa_200ExtraLight_Italic } from '@expo-google-fonts/lisu-bosa/200ExtraLight_Italic';
+import { LisuBosa_300Light } from '@expo-google-fonts/lisu-bosa/300Light';
+import { LisuBosa_300Light_Italic } from '@expo-google-fonts/lisu-bosa/300Light_Italic';
+import { LisuBosa_400Regular } from '@expo-google-fonts/lisu-bosa/400Regular';
+import { LisuBosa_400Regular_Italic } from '@expo-google-fonts/lisu-bosa/400Regular_Italic';
+import { LisuBosa_500Medium } from '@expo-google-fonts/lisu-bosa/500Medium';
+import { LisuBosa_500Medium_Italic } from '@expo-google-fonts/lisu-bosa/500Medium_Italic';
+import { LisuBosa_600SemiBold } from '@expo-google-fonts/lisu-bosa/600SemiBold';
+import { LisuBosa_600SemiBold_Italic } from '@expo-google-fonts/lisu-bosa/600SemiBold_Italic';
+import { LisuBosa_700Bold } from '@expo-google-fonts/lisu-bosa/700Bold';
+import { LisuBosa_700Bold_Italic } from '@expo-google-fonts/lisu-bosa/700Bold_Italic';
+import { LisuBosa_800ExtraBold } from '@expo-google-fonts/lisu-bosa/800ExtraBold';
+import { LisuBosa_800ExtraBold_Italic } from '@expo-google-fonts/lisu-bosa/800ExtraBold_Italic';
+import { LisuBosa_900Black } from '@expo-google-fonts/lisu-bosa/900Black';
+import { LisuBosa_900Black_Italic } from '@expo-google-fonts/lisu-bosa/900Black_Italic';
 
 export default () => {
 
@@ -72,7 +87,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -215,12 +230,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LisuBosa_200ExtraLight](./LisuBosa_200ExtraLight.ttf.png)|![LisuBosa_200ExtraLight_Italic](./LisuBosa_200ExtraLight_Italic.ttf.png)|![LisuBosa_300Light](./LisuBosa_300Light.ttf.png)||
-|![LisuBosa_300Light_Italic](./LisuBosa_300Light_Italic.ttf.png)|![LisuBosa_400Regular](./LisuBosa_400Regular.ttf.png)|![LisuBosa_400Regular_Italic](./LisuBosa_400Regular_Italic.ttf.png)||
-|![LisuBosa_500Medium](./LisuBosa_500Medium.ttf.png)|![LisuBosa_500Medium_Italic](./LisuBosa_500Medium_Italic.ttf.png)|![LisuBosa_600SemiBold](./LisuBosa_600SemiBold.ttf.png)||
-|![LisuBosa_600SemiBold_Italic](./LisuBosa_600SemiBold_Italic.ttf.png)|![LisuBosa_700Bold](./LisuBosa_700Bold.ttf.png)|![LisuBosa_700Bold_Italic](./LisuBosa_700Bold_Italic.ttf.png)||
-|![LisuBosa_800ExtraBold](./LisuBosa_800ExtraBold.ttf.png)|![LisuBosa_800ExtraBold_Italic](./LisuBosa_800ExtraBold_Italic.ttf.png)|![LisuBosa_900Black](./LisuBosa_900Black.ttf.png)||
-|![LisuBosa_900Black_Italic](./LisuBosa_900Black_Italic.ttf.png)||||
+|![LisuBosa_200ExtraLight](./200ExtraLight/LisuBosa_200ExtraLight.ttf.png)|![LisuBosa_200ExtraLight_Italic](./200ExtraLight_Italic/LisuBosa_200ExtraLight_Italic.ttf.png)|![LisuBosa_300Light](./300Light/LisuBosa_300Light.ttf.png)||
+|![LisuBosa_300Light_Italic](./300Light_Italic/LisuBosa_300Light_Italic.ttf.png)|![LisuBosa_400Regular](./400Regular/LisuBosa_400Regular.ttf.png)|![LisuBosa_400Regular_Italic](./400Regular_Italic/LisuBosa_400Regular_Italic.ttf.png)||
+|![LisuBosa_500Medium](./500Medium/LisuBosa_500Medium.ttf.png)|![LisuBosa_500Medium_Italic](./500Medium_Italic/LisuBosa_500Medium_Italic.ttf.png)|![LisuBosa_600SemiBold](./600SemiBold/LisuBosa_600SemiBold.ttf.png)||
+|![LisuBosa_600SemiBold_Italic](./600SemiBold_Italic/LisuBosa_600SemiBold_Italic.ttf.png)|![LisuBosa_700Bold](./700Bold/LisuBosa_700Bold.ttf.png)|![LisuBosa_700Bold_Italic](./700Bold_Italic/LisuBosa_700Bold_Italic.ttf.png)||
+|![LisuBosa_800ExtraBold](./800ExtraBold/LisuBosa_800ExtraBold.ttf.png)|![LisuBosa_800ExtraBold_Italic](./800ExtraBold_Italic/LisuBosa_800ExtraBold_Italic.ttf.png)|![LisuBosa_900Black](./900Black/LisuBosa_900Black.ttf.png)||
+|![LisuBosa_900Black_Italic](./900Black_Italic/LisuBosa_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

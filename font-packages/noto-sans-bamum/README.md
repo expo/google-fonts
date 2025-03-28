@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-bamum expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-bamum expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansBamum_400Regular, NotoSansBamum_500Medium, NotoSansBamum_600SemiBold, NotoSansBamum_700Bold } from '@expo-google-fonts/noto-sans-bamum';
+import { useFonts } from '@expo-google-fonts/noto-sans-bamum/useFonts';
+import { NotoSansBamum_400Regular } from '@expo-google-fonts/noto-sans-bamum/400Regular';
+import { NotoSansBamum_500Medium } from '@expo-google-fonts/noto-sans-bamum/500Medium';
+import { NotoSansBamum_600SemiBold } from '@expo-google-fonts/noto-sans-bamum/600SemiBold';
+import { NotoSansBamum_700Bold } from '@expo-google-fonts/noto-sans-bamum/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansBamum_400Regular](./NotoSansBamum_400Regular.ttf.png)|![NotoSansBamum_500Medium](./NotoSansBamum_500Medium.ttf.png)|![NotoSansBamum_600SemiBold](./NotoSansBamum_600SemiBold.ttf.png)||
-|![NotoSansBamum_700Bold](./NotoSansBamum_700Bold.ttf.png)||||
+|![NotoSansBamum_400Regular](./400Regular/NotoSansBamum_400Regular.ttf.png)|![NotoSansBamum_500Medium](./500Medium/NotoSansBamum_500Medium.ttf.png)|![NotoSansBamum_600SemiBold](./600SemiBold/NotoSansBamum_600SemiBold.ttf.png)||
+|![NotoSansBamum_700Bold](./700Bold/NotoSansBamum_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

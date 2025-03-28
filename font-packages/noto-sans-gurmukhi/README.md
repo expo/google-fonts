@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-gurmukhi expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-gurmukhi expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansGurmukhi_100Thin, NotoSansGurmukhi_200ExtraLight, NotoSansGurmukhi_300Light, NotoSansGurmukhi_400Regular, NotoSansGurmukhi_500Medium, NotoSansGurmukhi_600SemiBold, NotoSansGurmukhi_700Bold, NotoSansGurmukhi_800ExtraBold, NotoSansGurmukhi_900Black } from '@expo-google-fonts/noto-sans-gurmukhi';
+import { useFonts } from '@expo-google-fonts/noto-sans-gurmukhi/useFonts';
+import { NotoSansGurmukhi_100Thin } from '@expo-google-fonts/noto-sans-gurmukhi/100Thin';
+import { NotoSansGurmukhi_200ExtraLight } from '@expo-google-fonts/noto-sans-gurmukhi/200ExtraLight';
+import { NotoSansGurmukhi_300Light } from '@expo-google-fonts/noto-sans-gurmukhi/300Light';
+import { NotoSansGurmukhi_400Regular } from '@expo-google-fonts/noto-sans-gurmukhi/400Regular';
+import { NotoSansGurmukhi_500Medium } from '@expo-google-fonts/noto-sans-gurmukhi/500Medium';
+import { NotoSansGurmukhi_600SemiBold } from '@expo-google-fonts/noto-sans-gurmukhi/600SemiBold';
+import { NotoSansGurmukhi_700Bold } from '@expo-google-fonts/noto-sans-gurmukhi/700Bold';
+import { NotoSansGurmukhi_800ExtraBold } from '@expo-google-fonts/noto-sans-gurmukhi/800ExtraBold';
+import { NotoSansGurmukhi_900Black } from '@expo-google-fonts/noto-sans-gurmukhi/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansGurmukhi_100Thin](./NotoSansGurmukhi_100Thin.ttf.png)|![NotoSansGurmukhi_200ExtraLight](./NotoSansGurmukhi_200ExtraLight.ttf.png)|![NotoSansGurmukhi_300Light](./NotoSansGurmukhi_300Light.ttf.png)||
-|![NotoSansGurmukhi_400Regular](./NotoSansGurmukhi_400Regular.ttf.png)|![NotoSansGurmukhi_500Medium](./NotoSansGurmukhi_500Medium.ttf.png)|![NotoSansGurmukhi_600SemiBold](./NotoSansGurmukhi_600SemiBold.ttf.png)||
-|![NotoSansGurmukhi_700Bold](./NotoSansGurmukhi_700Bold.ttf.png)|![NotoSansGurmukhi_800ExtraBold](./NotoSansGurmukhi_800ExtraBold.ttf.png)|![NotoSansGurmukhi_900Black](./NotoSansGurmukhi_900Black.ttf.png)||
+|![NotoSansGurmukhi_100Thin](./100Thin/NotoSansGurmukhi_100Thin.ttf.png)|![NotoSansGurmukhi_200ExtraLight](./200ExtraLight/NotoSansGurmukhi_200ExtraLight.ttf.png)|![NotoSansGurmukhi_300Light](./300Light/NotoSansGurmukhi_300Light.ttf.png)||
+|![NotoSansGurmukhi_400Regular](./400Regular/NotoSansGurmukhi_400Regular.ttf.png)|![NotoSansGurmukhi_500Medium](./500Medium/NotoSansGurmukhi_500Medium.ttf.png)|![NotoSansGurmukhi_600SemiBold](./600SemiBold/NotoSansGurmukhi_600SemiBold.ttf.png)||
+|![NotoSansGurmukhi_700Bold](./700Bold/NotoSansGurmukhi_700Bold.ttf.png)|![NotoSansGurmukhi_800ExtraBold](./800ExtraBold/NotoSansGurmukhi_800ExtraBold.ttf.png)|![NotoSansGurmukhi_900Black](./900Black/NotoSansGurmukhi_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

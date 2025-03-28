@@ -35,7 +35,7 @@ This font family contains [16 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/asap-condensed expo-font expo-app-loading
+npx expo install @expo-google-fonts/asap-condensed expo-font
 ```
 
 Now add code like this to your project
@@ -44,8 +44,23 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, AsapCondensed_200ExtraLight, AsapCondensed_200ExtraLight_Italic, AsapCondensed_300Light, AsapCondensed_300Light_Italic, AsapCondensed_400Regular, AsapCondensed_400Regular_Italic, AsapCondensed_500Medium, AsapCondensed_500Medium_Italic, AsapCondensed_600SemiBold, AsapCondensed_600SemiBold_Italic, AsapCondensed_700Bold, AsapCondensed_700Bold_Italic, AsapCondensed_800ExtraBold, AsapCondensed_800ExtraBold_Italic, AsapCondensed_900Black, AsapCondensed_900Black_Italic } from '@expo-google-fonts/asap-condensed';
+import { useFonts } from '@expo-google-fonts/asap-condensed/useFonts';
+import { AsapCondensed_200ExtraLight } from '@expo-google-fonts/asap-condensed/200ExtraLight';
+import { AsapCondensed_200ExtraLight_Italic } from '@expo-google-fonts/asap-condensed/200ExtraLight_Italic';
+import { AsapCondensed_300Light } from '@expo-google-fonts/asap-condensed/300Light';
+import { AsapCondensed_300Light_Italic } from '@expo-google-fonts/asap-condensed/300Light_Italic';
+import { AsapCondensed_400Regular } from '@expo-google-fonts/asap-condensed/400Regular';
+import { AsapCondensed_400Regular_Italic } from '@expo-google-fonts/asap-condensed/400Regular_Italic';
+import { AsapCondensed_500Medium } from '@expo-google-fonts/asap-condensed/500Medium';
+import { AsapCondensed_500Medium_Italic } from '@expo-google-fonts/asap-condensed/500Medium_Italic';
+import { AsapCondensed_600SemiBold } from '@expo-google-fonts/asap-condensed/600SemiBold';
+import { AsapCondensed_600SemiBold_Italic } from '@expo-google-fonts/asap-condensed/600SemiBold_Italic';
+import { AsapCondensed_700Bold } from '@expo-google-fonts/asap-condensed/700Bold';
+import { AsapCondensed_700Bold_Italic } from '@expo-google-fonts/asap-condensed/700Bold_Italic';
+import { AsapCondensed_800ExtraBold } from '@expo-google-fonts/asap-condensed/800ExtraBold';
+import { AsapCondensed_800ExtraBold_Italic } from '@expo-google-fonts/asap-condensed/800ExtraBold_Italic';
+import { AsapCondensed_900Black } from '@expo-google-fonts/asap-condensed/900Black';
+import { AsapCondensed_900Black_Italic } from '@expo-google-fonts/asap-condensed/900Black_Italic';
 
 export default () => {
 
@@ -72,7 +87,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -215,12 +230,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AsapCondensed_200ExtraLight](./AsapCondensed_200ExtraLight.ttf.png)|![AsapCondensed_200ExtraLight_Italic](./AsapCondensed_200ExtraLight_Italic.ttf.png)|![AsapCondensed_300Light](./AsapCondensed_300Light.ttf.png)||
-|![AsapCondensed_300Light_Italic](./AsapCondensed_300Light_Italic.ttf.png)|![AsapCondensed_400Regular](./AsapCondensed_400Regular.ttf.png)|![AsapCondensed_400Regular_Italic](./AsapCondensed_400Regular_Italic.ttf.png)||
-|![AsapCondensed_500Medium](./AsapCondensed_500Medium.ttf.png)|![AsapCondensed_500Medium_Italic](./AsapCondensed_500Medium_Italic.ttf.png)|![AsapCondensed_600SemiBold](./AsapCondensed_600SemiBold.ttf.png)||
-|![AsapCondensed_600SemiBold_Italic](./AsapCondensed_600SemiBold_Italic.ttf.png)|![AsapCondensed_700Bold](./AsapCondensed_700Bold.ttf.png)|![AsapCondensed_700Bold_Italic](./AsapCondensed_700Bold_Italic.ttf.png)||
-|![AsapCondensed_800ExtraBold](./AsapCondensed_800ExtraBold.ttf.png)|![AsapCondensed_800ExtraBold_Italic](./AsapCondensed_800ExtraBold_Italic.ttf.png)|![AsapCondensed_900Black](./AsapCondensed_900Black.ttf.png)||
-|![AsapCondensed_900Black_Italic](./AsapCondensed_900Black_Italic.ttf.png)||||
+|![AsapCondensed_200ExtraLight](./200ExtraLight/AsapCondensed_200ExtraLight.ttf.png)|![AsapCondensed_200ExtraLight_Italic](./200ExtraLight_Italic/AsapCondensed_200ExtraLight_Italic.ttf.png)|![AsapCondensed_300Light](./300Light/AsapCondensed_300Light.ttf.png)||
+|![AsapCondensed_300Light_Italic](./300Light_Italic/AsapCondensed_300Light_Italic.ttf.png)|![AsapCondensed_400Regular](./400Regular/AsapCondensed_400Regular.ttf.png)|![AsapCondensed_400Regular_Italic](./400Regular_Italic/AsapCondensed_400Regular_Italic.ttf.png)||
+|![AsapCondensed_500Medium](./500Medium/AsapCondensed_500Medium.ttf.png)|![AsapCondensed_500Medium_Italic](./500Medium_Italic/AsapCondensed_500Medium_Italic.ttf.png)|![AsapCondensed_600SemiBold](./600SemiBold/AsapCondensed_600SemiBold.ttf.png)||
+|![AsapCondensed_600SemiBold_Italic](./600SemiBold_Italic/AsapCondensed_600SemiBold_Italic.ttf.png)|![AsapCondensed_700Bold](./700Bold/AsapCondensed_700Bold.ttf.png)|![AsapCondensed_700Bold_Italic](./700Bold_Italic/AsapCondensed_700Bold_Italic.ttf.png)||
+|![AsapCondensed_800ExtraBold](./800ExtraBold/AsapCondensed_800ExtraBold.ttf.png)|![AsapCondensed_800ExtraBold_Italic](./800ExtraBold_Italic/AsapCondensed_800ExtraBold_Italic.ttf.png)|![AsapCondensed_900Black](./900Black/AsapCondensed_900Black.ttf.png)||
+|![AsapCondensed_900Black_Italic](./900Black_Italic/AsapCondensed_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

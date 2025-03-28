@@ -21,7 +21,7 @@ This font family contains [2 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/klee-one expo-font expo-app-loading
+npx expo install @expo-google-fonts/klee-one expo-font
 ```
 
 Now add code like this to your project
@@ -30,8 +30,9 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, KleeOne_400Regular, KleeOne_600SemiBold } from '@expo-google-fonts/klee-one';
+import { useFonts } from '@expo-google-fonts/klee-one/useFonts';
+import { KleeOne_400Regular } from '@expo-google-fonts/klee-one/400Regular';
+import { KleeOne_600SemiBold } from '@expo-google-fonts/klee-one/600SemiBold';
 
 export default () => {
 
@@ -44,7 +45,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -75,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KleeOne_400Regular](./KleeOne_400Regular.ttf.png)|![KleeOne_600SemiBold](./KleeOne_600SemiBold.ttf.png)|||
+|![KleeOne_400Regular](./400Regular/KleeOne_400Regular.ttf.png)|![KleeOne_600SemiBold](./600SemiBold/KleeOne_600SemiBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

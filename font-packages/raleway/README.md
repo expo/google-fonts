@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/raleway expo-font expo-app-loading
+npx expo install @expo-google-fonts/raleway expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Raleway_100Thin, Raleway_200ExtraLight, Raleway_300Light, Raleway_400Regular, Raleway_500Medium, Raleway_600SemiBold, Raleway_700Bold, Raleway_800ExtraBold, Raleway_900Black, Raleway_100Thin_Italic, Raleway_200ExtraLight_Italic, Raleway_300Light_Italic, Raleway_400Regular_Italic, Raleway_500Medium_Italic, Raleway_600SemiBold_Italic, Raleway_700Bold_Italic, Raleway_800ExtraBold_Italic, Raleway_900Black_Italic } from '@expo-google-fonts/raleway';
+import { useFonts } from '@expo-google-fonts/raleway/useFonts';
+import { Raleway_100Thin } from '@expo-google-fonts/raleway/100Thin';
+import { Raleway_200ExtraLight } from '@expo-google-fonts/raleway/200ExtraLight';
+import { Raleway_300Light } from '@expo-google-fonts/raleway/300Light';
+import { Raleway_400Regular } from '@expo-google-fonts/raleway/400Regular';
+import { Raleway_500Medium } from '@expo-google-fonts/raleway/500Medium';
+import { Raleway_600SemiBold } from '@expo-google-fonts/raleway/600SemiBold';
+import { Raleway_700Bold } from '@expo-google-fonts/raleway/700Bold';
+import { Raleway_800ExtraBold } from '@expo-google-fonts/raleway/800ExtraBold';
+import { Raleway_900Black } from '@expo-google-fonts/raleway/900Black';
+import { Raleway_100Thin_Italic } from '@expo-google-fonts/raleway/100Thin_Italic';
+import { Raleway_200ExtraLight_Italic } from '@expo-google-fonts/raleway/200ExtraLight_Italic';
+import { Raleway_300Light_Italic } from '@expo-google-fonts/raleway/300Light_Italic';
+import { Raleway_400Regular_Italic } from '@expo-google-fonts/raleway/400Regular_Italic';
+import { Raleway_500Medium_Italic } from '@expo-google-fonts/raleway/500Medium_Italic';
+import { Raleway_600SemiBold_Italic } from '@expo-google-fonts/raleway/600SemiBold_Italic';
+import { Raleway_700Bold_Italic } from '@expo-google-fonts/raleway/700Bold_Italic';
+import { Raleway_800ExtraBold_Italic } from '@expo-google-fonts/raleway/800ExtraBold_Italic';
+import { Raleway_900Black_Italic } from '@expo-google-fonts/raleway/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Raleway_100Thin](./Raleway_100Thin.ttf.png)|![Raleway_200ExtraLight](./Raleway_200ExtraLight.ttf.png)|![Raleway_300Light](./Raleway_300Light.ttf.png)||
-|![Raleway_400Regular](./Raleway_400Regular.ttf.png)|![Raleway_500Medium](./Raleway_500Medium.ttf.png)|![Raleway_600SemiBold](./Raleway_600SemiBold.ttf.png)||
-|![Raleway_700Bold](./Raleway_700Bold.ttf.png)|![Raleway_800ExtraBold](./Raleway_800ExtraBold.ttf.png)|![Raleway_900Black](./Raleway_900Black.ttf.png)||
-|![Raleway_100Thin_Italic](./Raleway_100Thin_Italic.ttf.png)|![Raleway_200ExtraLight_Italic](./Raleway_200ExtraLight_Italic.ttf.png)|![Raleway_300Light_Italic](./Raleway_300Light_Italic.ttf.png)||
-|![Raleway_400Regular_Italic](./Raleway_400Regular_Italic.ttf.png)|![Raleway_500Medium_Italic](./Raleway_500Medium_Italic.ttf.png)|![Raleway_600SemiBold_Italic](./Raleway_600SemiBold_Italic.ttf.png)||
-|![Raleway_700Bold_Italic](./Raleway_700Bold_Italic.ttf.png)|![Raleway_800ExtraBold_Italic](./Raleway_800ExtraBold_Italic.ttf.png)|![Raleway_900Black_Italic](./Raleway_900Black_Italic.ttf.png)||
+|![Raleway_100Thin](./100Thin/Raleway_100Thin.ttf.png)|![Raleway_200ExtraLight](./200ExtraLight/Raleway_200ExtraLight.ttf.png)|![Raleway_300Light](./300Light/Raleway_300Light.ttf.png)||
+|![Raleway_400Regular](./400Regular/Raleway_400Regular.ttf.png)|![Raleway_500Medium](./500Medium/Raleway_500Medium.ttf.png)|![Raleway_600SemiBold](./600SemiBold/Raleway_600SemiBold.ttf.png)||
+|![Raleway_700Bold](./700Bold/Raleway_700Bold.ttf.png)|![Raleway_800ExtraBold](./800ExtraBold/Raleway_800ExtraBold.ttf.png)|![Raleway_900Black](./900Black/Raleway_900Black.ttf.png)||
+|![Raleway_100Thin_Italic](./100Thin_Italic/Raleway_100Thin_Italic.ttf.png)|![Raleway_200ExtraLight_Italic](./200ExtraLight_Italic/Raleway_200ExtraLight_Italic.ttf.png)|![Raleway_300Light_Italic](./300Light_Italic/Raleway_300Light_Italic.ttf.png)||
+|![Raleway_400Regular_Italic](./400Regular_Italic/Raleway_400Regular_Italic.ttf.png)|![Raleway_500Medium_Italic](./500Medium_Italic/Raleway_500Medium_Italic.ttf.png)|![Raleway_600SemiBold_Italic](./600SemiBold_Italic/Raleway_600SemiBold_Italic.ttf.png)||
+|![Raleway_700Bold_Italic](./700Bold_Italic/Raleway_700Bold_Italic.ttf.png)|![Raleway_800ExtraBold_Italic](./800ExtraBold_Italic/Raleway_800ExtraBold_Italic.ttf.png)|![Raleway_900Black_Italic](./900Black_Italic/Raleway_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -29,7 +29,7 @@ This font family contains [10 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/cormorant-garamond expo-font expo-app-loading
+npx expo install @expo-google-fonts/cormorant-garamond expo-font
 ```
 
 Now add code like this to your project
@@ -38,8 +38,17 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, CormorantGaramond_300Light, CormorantGaramond_400Regular, CormorantGaramond_500Medium, CormorantGaramond_600SemiBold, CormorantGaramond_700Bold, CormorantGaramond_300Light_Italic, CormorantGaramond_400Regular_Italic, CormorantGaramond_500Medium_Italic, CormorantGaramond_600SemiBold_Italic, CormorantGaramond_700Bold_Italic } from '@expo-google-fonts/cormorant-garamond';
+import { useFonts } from '@expo-google-fonts/cormorant-garamond/useFonts';
+import { CormorantGaramond_300Light } from '@expo-google-fonts/cormorant-garamond/300Light';
+import { CormorantGaramond_400Regular } from '@expo-google-fonts/cormorant-garamond/400Regular';
+import { CormorantGaramond_500Medium } from '@expo-google-fonts/cormorant-garamond/500Medium';
+import { CormorantGaramond_600SemiBold } from '@expo-google-fonts/cormorant-garamond/600SemiBold';
+import { CormorantGaramond_700Bold } from '@expo-google-fonts/cormorant-garamond/700Bold';
+import { CormorantGaramond_300Light_Italic } from '@expo-google-fonts/cormorant-garamond/300Light_Italic';
+import { CormorantGaramond_400Regular_Italic } from '@expo-google-fonts/cormorant-garamond/400Regular_Italic';
+import { CormorantGaramond_500Medium_Italic } from '@expo-google-fonts/cormorant-garamond/500Medium_Italic';
+import { CormorantGaramond_600SemiBold_Italic } from '@expo-google-fonts/cormorant-garamond/600SemiBold_Italic';
+import { CormorantGaramond_700Bold_Italic } from '@expo-google-fonts/cormorant-garamond/700Bold_Italic';
 
 export default () => {
 
@@ -60,7 +69,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -155,10 +164,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CormorantGaramond_300Light](./CormorantGaramond_300Light.ttf.png)|![CormorantGaramond_400Regular](./CormorantGaramond_400Regular.ttf.png)|![CormorantGaramond_500Medium](./CormorantGaramond_500Medium.ttf.png)||
-|![CormorantGaramond_600SemiBold](./CormorantGaramond_600SemiBold.ttf.png)|![CormorantGaramond_700Bold](./CormorantGaramond_700Bold.ttf.png)|![CormorantGaramond_300Light_Italic](./CormorantGaramond_300Light_Italic.ttf.png)||
-|![CormorantGaramond_400Regular_Italic](./CormorantGaramond_400Regular_Italic.ttf.png)|![CormorantGaramond_500Medium_Italic](./CormorantGaramond_500Medium_Italic.ttf.png)|![CormorantGaramond_600SemiBold_Italic](./CormorantGaramond_600SemiBold_Italic.ttf.png)||
-|![CormorantGaramond_700Bold_Italic](./CormorantGaramond_700Bold_Italic.ttf.png)||||
+|![CormorantGaramond_300Light](./300Light/CormorantGaramond_300Light.ttf.png)|![CormorantGaramond_400Regular](./400Regular/CormorantGaramond_400Regular.ttf.png)|![CormorantGaramond_500Medium](./500Medium/CormorantGaramond_500Medium.ttf.png)||
+|![CormorantGaramond_600SemiBold](./600SemiBold/CormorantGaramond_600SemiBold.ttf.png)|![CormorantGaramond_700Bold](./700Bold/CormorantGaramond_700Bold.ttf.png)|![CormorantGaramond_300Light_Italic](./300Light_Italic/CormorantGaramond_300Light_Italic.ttf.png)||
+|![CormorantGaramond_400Regular_Italic](./400Regular_Italic/CormorantGaramond_400Regular_Italic.ttf.png)|![CormorantGaramond_500Medium_Italic](./500Medium_Italic/CormorantGaramond_500Medium_Italic.ttf.png)|![CormorantGaramond_600SemiBold_Italic](./600SemiBold_Italic/CormorantGaramond_600SemiBold_Italic.ttf.png)||
+|![CormorantGaramond_700Bold_Italic](./700Bold_Italic/CormorantGaramond_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

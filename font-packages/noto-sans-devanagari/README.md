@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-devanagari expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-devanagari expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansDevanagari_100Thin, NotoSansDevanagari_200ExtraLight, NotoSansDevanagari_300Light, NotoSansDevanagari_400Regular, NotoSansDevanagari_500Medium, NotoSansDevanagari_600SemiBold, NotoSansDevanagari_700Bold, NotoSansDevanagari_800ExtraBold, NotoSansDevanagari_900Black } from '@expo-google-fonts/noto-sans-devanagari';
+import { useFonts } from '@expo-google-fonts/noto-sans-devanagari/useFonts';
+import { NotoSansDevanagari_100Thin } from '@expo-google-fonts/noto-sans-devanagari/100Thin';
+import { NotoSansDevanagari_200ExtraLight } from '@expo-google-fonts/noto-sans-devanagari/200ExtraLight';
+import { NotoSansDevanagari_300Light } from '@expo-google-fonts/noto-sans-devanagari/300Light';
+import { NotoSansDevanagari_400Regular } from '@expo-google-fonts/noto-sans-devanagari/400Regular';
+import { NotoSansDevanagari_500Medium } from '@expo-google-fonts/noto-sans-devanagari/500Medium';
+import { NotoSansDevanagari_600SemiBold } from '@expo-google-fonts/noto-sans-devanagari/600SemiBold';
+import { NotoSansDevanagari_700Bold } from '@expo-google-fonts/noto-sans-devanagari/700Bold';
+import { NotoSansDevanagari_800ExtraBold } from '@expo-google-fonts/noto-sans-devanagari/800ExtraBold';
+import { NotoSansDevanagari_900Black } from '@expo-google-fonts/noto-sans-devanagari/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansDevanagari_100Thin](./NotoSansDevanagari_100Thin.ttf.png)|![NotoSansDevanagari_200ExtraLight](./NotoSansDevanagari_200ExtraLight.ttf.png)|![NotoSansDevanagari_300Light](./NotoSansDevanagari_300Light.ttf.png)||
-|![NotoSansDevanagari_400Regular](./NotoSansDevanagari_400Regular.ttf.png)|![NotoSansDevanagari_500Medium](./NotoSansDevanagari_500Medium.ttf.png)|![NotoSansDevanagari_600SemiBold](./NotoSansDevanagari_600SemiBold.ttf.png)||
-|![NotoSansDevanagari_700Bold](./NotoSansDevanagari_700Bold.ttf.png)|![NotoSansDevanagari_800ExtraBold](./NotoSansDevanagari_800ExtraBold.ttf.png)|![NotoSansDevanagari_900Black](./NotoSansDevanagari_900Black.ttf.png)||
+|![NotoSansDevanagari_100Thin](./100Thin/NotoSansDevanagari_100Thin.ttf.png)|![NotoSansDevanagari_200ExtraLight](./200ExtraLight/NotoSansDevanagari_200ExtraLight.ttf.png)|![NotoSansDevanagari_300Light](./300Light/NotoSansDevanagari_300Light.ttf.png)||
+|![NotoSansDevanagari_400Regular](./400Regular/NotoSansDevanagari_400Regular.ttf.png)|![NotoSansDevanagari_500Medium](./500Medium/NotoSansDevanagari_500Medium.ttf.png)|![NotoSansDevanagari_600SemiBold](./600SemiBold/NotoSansDevanagari_600SemiBold.ttf.png)||
+|![NotoSansDevanagari_700Bold](./700Bold/NotoSansDevanagari_700Bold.ttf.png)|![NotoSansDevanagari_800ExtraBold](./800ExtraBold/NotoSansDevanagari_800ExtraBold.ttf.png)|![NotoSansDevanagari_900Black](./900Black/NotoSansDevanagari_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

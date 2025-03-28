@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/kaisei-tokumin expo-font expo-app-loading
+npx expo install @expo-google-fonts/kaisei-tokumin expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, KaiseiTokumin_400Regular, KaiseiTokumin_500Medium, KaiseiTokumin_700Bold, KaiseiTokumin_800ExtraBold } from '@expo-google-fonts/kaisei-tokumin';
+import { useFonts } from '@expo-google-fonts/kaisei-tokumin/useFonts';
+import { KaiseiTokumin_400Regular } from '@expo-google-fonts/kaisei-tokumin/400Regular';
+import { KaiseiTokumin_500Medium } from '@expo-google-fonts/kaisei-tokumin/500Medium';
+import { KaiseiTokumin_700Bold } from '@expo-google-fonts/kaisei-tokumin/700Bold';
+import { KaiseiTokumin_800ExtraBold } from '@expo-google-fonts/kaisei-tokumin/800ExtraBold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KaiseiTokumin_400Regular](./KaiseiTokumin_400Regular.ttf.png)|![KaiseiTokumin_500Medium](./KaiseiTokumin_500Medium.ttf.png)|![KaiseiTokumin_700Bold](./KaiseiTokumin_700Bold.ttf.png)||
-|![KaiseiTokumin_800ExtraBold](./KaiseiTokumin_800ExtraBold.ttf.png)||||
+|![KaiseiTokumin_400Regular](./400Regular/KaiseiTokumin_400Regular.ttf.png)|![KaiseiTokumin_500Medium](./500Medium/KaiseiTokumin_500Medium.ttf.png)|![KaiseiTokumin_700Bold](./700Bold/KaiseiTokumin_700Bold.ttf.png)||
+|![KaiseiTokumin_800ExtraBold](./800ExtraBold/KaiseiTokumin_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

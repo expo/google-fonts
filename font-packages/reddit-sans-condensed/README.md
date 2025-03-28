@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/reddit-sans-condensed expo-font expo-app-loading
+npx expo install @expo-google-fonts/reddit-sans-condensed expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, RedditSansCondensed_200ExtraLight, RedditSansCondensed_300Light, RedditSansCondensed_400Regular, RedditSansCondensed_500Medium, RedditSansCondensed_600SemiBold, RedditSansCondensed_700Bold, RedditSansCondensed_800ExtraBold, RedditSansCondensed_900Black } from '@expo-google-fonts/reddit-sans-condensed';
+import { useFonts } from '@expo-google-fonts/reddit-sans-condensed/useFonts';
+import { RedditSansCondensed_200ExtraLight } from '@expo-google-fonts/reddit-sans-condensed/200ExtraLight';
+import { RedditSansCondensed_300Light } from '@expo-google-fonts/reddit-sans-condensed/300Light';
+import { RedditSansCondensed_400Regular } from '@expo-google-fonts/reddit-sans-condensed/400Regular';
+import { RedditSansCondensed_500Medium } from '@expo-google-fonts/reddit-sans-condensed/500Medium';
+import { RedditSansCondensed_600SemiBold } from '@expo-google-fonts/reddit-sans-condensed/600SemiBold';
+import { RedditSansCondensed_700Bold } from '@expo-google-fonts/reddit-sans-condensed/700Bold';
+import { RedditSansCondensed_800ExtraBold } from '@expo-google-fonts/reddit-sans-condensed/800ExtraBold';
+import { RedditSansCondensed_900Black } from '@expo-google-fonts/reddit-sans-condensed/900Black';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RedditSansCondensed_200ExtraLight](./RedditSansCondensed_200ExtraLight.ttf.png)|![RedditSansCondensed_300Light](./RedditSansCondensed_300Light.ttf.png)|![RedditSansCondensed_400Regular](./RedditSansCondensed_400Regular.ttf.png)||
-|![RedditSansCondensed_500Medium](./RedditSansCondensed_500Medium.ttf.png)|![RedditSansCondensed_600SemiBold](./RedditSansCondensed_600SemiBold.ttf.png)|![RedditSansCondensed_700Bold](./RedditSansCondensed_700Bold.ttf.png)||
-|![RedditSansCondensed_800ExtraBold](./RedditSansCondensed_800ExtraBold.ttf.png)|![RedditSansCondensed_900Black](./RedditSansCondensed_900Black.ttf.png)|||
+|![RedditSansCondensed_200ExtraLight](./200ExtraLight/RedditSansCondensed_200ExtraLight.ttf.png)|![RedditSansCondensed_300Light](./300Light/RedditSansCondensed_300Light.ttf.png)|![RedditSansCondensed_400Regular](./400Regular/RedditSansCondensed_400Regular.ttf.png)||
+|![RedditSansCondensed_500Medium](./500Medium/RedditSansCondensed_500Medium.ttf.png)|![RedditSansCondensed_600SemiBold](./600SemiBold/RedditSansCondensed_600SemiBold.ttf.png)|![RedditSansCondensed_700Bold](./700Bold/RedditSansCondensed_700Bold.ttf.png)||
+|![RedditSansCondensed_800ExtraBold](./800ExtraBold/RedditSansCondensed_800ExtraBold.ttf.png)|![RedditSansCondensed_900Black](./900Black/RedditSansCondensed_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

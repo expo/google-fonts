@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/edu-au-vic-wa-nt-dots expo-font expo-app-loading
+npx expo install @expo-google-fonts/edu-au-vic-wa-nt-dots expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, EduAUVICWANTDots_400Regular, EduAUVICWANTDots_500Medium, EduAUVICWANTDots_600SemiBold, EduAUVICWANTDots_700Bold } from '@expo-google-fonts/edu-au-vic-wa-nt-dots';
+import { useFonts } from '@expo-google-fonts/edu-au-vic-wa-nt-dots/useFonts';
+import { EduAUVICWANTDots_400Regular } from '@expo-google-fonts/edu-au-vic-wa-nt-dots/400Regular';
+import { EduAUVICWANTDots_500Medium } from '@expo-google-fonts/edu-au-vic-wa-nt-dots/500Medium';
+import { EduAUVICWANTDots_600SemiBold } from '@expo-google-fonts/edu-au-vic-wa-nt-dots/600SemiBold';
+import { EduAUVICWANTDots_700Bold } from '@expo-google-fonts/edu-au-vic-wa-nt-dots/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EduAUVICWANTDots_400Regular](./EduAUVICWANTDots_400Regular.ttf.png)|![EduAUVICWANTDots_500Medium](./EduAUVICWANTDots_500Medium.ttf.png)|![EduAUVICWANTDots_600SemiBold](./EduAUVICWANTDots_600SemiBold.ttf.png)||
-|![EduAUVICWANTDots_700Bold](./EduAUVICWANTDots_700Bold.ttf.png)||||
+|![EduAUVICWANTDots_400Regular](./400Regular/EduAUVICWANTDots_400Regular.ttf.png)|![EduAUVICWANTDots_500Medium](./500Medium/EduAUVICWANTDots_500Medium.ttf.png)|![EduAUVICWANTDots_600SemiBold](./600SemiBold/EduAUVICWANTDots_600SemiBold.ttf.png)||
+|![EduAUVICWANTDots_700Bold](./700Bold/EduAUVICWANTDots_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

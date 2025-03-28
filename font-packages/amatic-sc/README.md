@@ -21,7 +21,7 @@ This font family contains [2 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/amatic-sc expo-font expo-app-loading
+npx expo install @expo-google-fonts/amatic-sc expo-font
 ```
 
 Now add code like this to your project
@@ -30,8 +30,9 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, AmaticSC_400Regular, AmaticSC_700Bold } from '@expo-google-fonts/amatic-sc';
+import { useFonts } from '@expo-google-fonts/amatic-sc/useFonts';
+import { AmaticSC_400Regular } from '@expo-google-fonts/amatic-sc/400Regular';
+import { AmaticSC_700Bold } from '@expo-google-fonts/amatic-sc/700Bold';
 
 export default () => {
 
@@ -44,7 +45,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -75,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AmaticSC_400Regular](./AmaticSC_400Regular.ttf.png)|![AmaticSC_700Bold](./AmaticSC_700Bold.ttf.png)|||
+|![AmaticSC_400Regular](./400Regular/AmaticSC_400Regular.ttf.png)|![AmaticSC_700Bold](./700Bold/AmaticSC_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

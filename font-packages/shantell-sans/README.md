@@ -31,7 +31,7 @@ This font family contains [12 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/shantell-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/shantell-sans expo-font
 ```
 
 Now add code like this to your project
@@ -40,8 +40,19 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, ShantellSans_300Light, ShantellSans_400Regular, ShantellSans_500Medium, ShantellSans_600SemiBold, ShantellSans_700Bold, ShantellSans_800ExtraBold, ShantellSans_300Light_Italic, ShantellSans_400Regular_Italic, ShantellSans_500Medium_Italic, ShantellSans_600SemiBold_Italic, ShantellSans_700Bold_Italic, ShantellSans_800ExtraBold_Italic } from '@expo-google-fonts/shantell-sans';
+import { useFonts } from '@expo-google-fonts/shantell-sans/useFonts';
+import { ShantellSans_300Light } from '@expo-google-fonts/shantell-sans/300Light';
+import { ShantellSans_400Regular } from '@expo-google-fonts/shantell-sans/400Regular';
+import { ShantellSans_500Medium } from '@expo-google-fonts/shantell-sans/500Medium';
+import { ShantellSans_600SemiBold } from '@expo-google-fonts/shantell-sans/600SemiBold';
+import { ShantellSans_700Bold } from '@expo-google-fonts/shantell-sans/700Bold';
+import { ShantellSans_800ExtraBold } from '@expo-google-fonts/shantell-sans/800ExtraBold';
+import { ShantellSans_300Light_Italic } from '@expo-google-fonts/shantell-sans/300Light_Italic';
+import { ShantellSans_400Regular_Italic } from '@expo-google-fonts/shantell-sans/400Regular_Italic';
+import { ShantellSans_500Medium_Italic } from '@expo-google-fonts/shantell-sans/500Medium_Italic';
+import { ShantellSans_600SemiBold_Italic } from '@expo-google-fonts/shantell-sans/600SemiBold_Italic';
+import { ShantellSans_700Bold_Italic } from '@expo-google-fonts/shantell-sans/700Bold_Italic';
+import { ShantellSans_800ExtraBold_Italic } from '@expo-google-fonts/shantell-sans/800ExtraBold_Italic';
 
 export default () => {
 
@@ -64,7 +75,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -175,10 +186,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ShantellSans_300Light](./ShantellSans_300Light.ttf.png)|![ShantellSans_400Regular](./ShantellSans_400Regular.ttf.png)|![ShantellSans_500Medium](./ShantellSans_500Medium.ttf.png)||
-|![ShantellSans_600SemiBold](./ShantellSans_600SemiBold.ttf.png)|![ShantellSans_700Bold](./ShantellSans_700Bold.ttf.png)|![ShantellSans_800ExtraBold](./ShantellSans_800ExtraBold.ttf.png)||
-|![ShantellSans_300Light_Italic](./ShantellSans_300Light_Italic.ttf.png)|![ShantellSans_400Regular_Italic](./ShantellSans_400Regular_Italic.ttf.png)|![ShantellSans_500Medium_Italic](./ShantellSans_500Medium_Italic.ttf.png)||
-|![ShantellSans_600SemiBold_Italic](./ShantellSans_600SemiBold_Italic.ttf.png)|![ShantellSans_700Bold_Italic](./ShantellSans_700Bold_Italic.ttf.png)|![ShantellSans_800ExtraBold_Italic](./ShantellSans_800ExtraBold_Italic.ttf.png)||
+|![ShantellSans_300Light](./300Light/ShantellSans_300Light.ttf.png)|![ShantellSans_400Regular](./400Regular/ShantellSans_400Regular.ttf.png)|![ShantellSans_500Medium](./500Medium/ShantellSans_500Medium.ttf.png)||
+|![ShantellSans_600SemiBold](./600SemiBold/ShantellSans_600SemiBold.ttf.png)|![ShantellSans_700Bold](./700Bold/ShantellSans_700Bold.ttf.png)|![ShantellSans_800ExtraBold](./800ExtraBold/ShantellSans_800ExtraBold.ttf.png)||
+|![ShantellSans_300Light_Italic](./300Light_Italic/ShantellSans_300Light_Italic.ttf.png)|![ShantellSans_400Regular_Italic](./400Regular_Italic/ShantellSans_400Regular_Italic.ttf.png)|![ShantellSans_500Medium_Italic](./500Medium_Italic/ShantellSans_500Medium_Italic.ttf.png)||
+|![ShantellSans_600SemiBold_Italic](./600SemiBold_Italic/ShantellSans_600SemiBold_Italic.ttf.png)|![ShantellSans_700Bold_Italic](./700Bold_Italic/ShantellSans_700Bold_Italic.ttf.png)|![ShantellSans_800ExtraBold_Italic](./800ExtraBold_Italic/ShantellSans_800ExtraBold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

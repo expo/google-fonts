@@ -22,7 +22,7 @@ This font family contains [3 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/lxgw-wenkai-mono-tc expo-font expo-app-loading
+npx expo install @expo-google-fonts/lxgw-wenkai-mono-tc expo-font
 ```
 
 Now add code like this to your project
@@ -31,8 +31,10 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, LXGWWenKaiMonoTC_300Light, LXGWWenKaiMonoTC_400Regular, LXGWWenKaiMonoTC_700Bold } from '@expo-google-fonts/lxgw-wenkai-mono-tc';
+import { useFonts } from '@expo-google-fonts/lxgw-wenkai-mono-tc/useFonts';
+import { LXGWWenKaiMonoTC_300Light } from '@expo-google-fonts/lxgw-wenkai-mono-tc/300Light';
+import { LXGWWenKaiMonoTC_400Regular } from '@expo-google-fonts/lxgw-wenkai-mono-tc/400Regular';
+import { LXGWWenKaiMonoTC_700Bold } from '@expo-google-fonts/lxgw-wenkai-mono-tc/700Bold';
 
 export default () => {
 
@@ -46,7 +48,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -85,7 +87,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LXGWWenKaiMonoTC_300Light](./LXGWWenKaiMonoTC_300Light.ttf.png)|![LXGWWenKaiMonoTC_400Regular](./LXGWWenKaiMonoTC_400Regular.ttf.png)|![LXGWWenKaiMonoTC_700Bold](./LXGWWenKaiMonoTC_700Bold.ttf.png)||
+|![LXGWWenKaiMonoTC_300Light](./300Light/LXGWWenKaiMonoTC_300Light.ttf.png)|![LXGWWenKaiMonoTC_400Regular](./400Regular/LXGWWenKaiMonoTC_400Regular.ttf.png)|![LXGWWenKaiMonoTC_700Bold](./700Bold/LXGWWenKaiMonoTC_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

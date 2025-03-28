@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/turret-road expo-font expo-app-loading
+npx expo install @expo-google-fonts/turret-road expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, TurretRoad_200ExtraLight, TurretRoad_300Light, TurretRoad_400Regular, TurretRoad_500Medium, TurretRoad_700Bold, TurretRoad_800ExtraBold } from '@expo-google-fonts/turret-road';
+import { useFonts } from '@expo-google-fonts/turret-road/useFonts';
+import { TurretRoad_200ExtraLight } from '@expo-google-fonts/turret-road/200ExtraLight';
+import { TurretRoad_300Light } from '@expo-google-fonts/turret-road/300Light';
+import { TurretRoad_400Regular } from '@expo-google-fonts/turret-road/400Regular';
+import { TurretRoad_500Medium } from '@expo-google-fonts/turret-road/500Medium';
+import { TurretRoad_700Bold } from '@expo-google-fonts/turret-road/700Bold';
+import { TurretRoad_800ExtraBold } from '@expo-google-fonts/turret-road/800ExtraBold';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TurretRoad_200ExtraLight](./TurretRoad_200ExtraLight.ttf.png)|![TurretRoad_300Light](./TurretRoad_300Light.ttf.png)|![TurretRoad_400Regular](./TurretRoad_400Regular.ttf.png)||
-|![TurretRoad_500Medium](./TurretRoad_500Medium.ttf.png)|![TurretRoad_700Bold](./TurretRoad_700Bold.ttf.png)|![TurretRoad_800ExtraBold](./TurretRoad_800ExtraBold.ttf.png)||
+|![TurretRoad_200ExtraLight](./200ExtraLight/TurretRoad_200ExtraLight.ttf.png)|![TurretRoad_300Light](./300Light/TurretRoad_300Light.ttf.png)|![TurretRoad_400Regular](./400Regular/TurretRoad_400Regular.ttf.png)||
+|![TurretRoad_500Medium](./500Medium/TurretRoad_500Medium.ttf.png)|![TurretRoad_700Bold](./700Bold/TurretRoad_700Bold.ttf.png)|![TurretRoad_800ExtraBold](./800ExtraBold/TurretRoad_800ExtraBold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

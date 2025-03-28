@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/geist expo-font expo-app-loading
+npx expo install @expo-google-fonts/geist expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Geist_100Thin, Geist_200ExtraLight, Geist_300Light, Geist_400Regular, Geist_500Medium, Geist_600SemiBold, Geist_700Bold, Geist_800ExtraBold, Geist_900Black } from '@expo-google-fonts/geist';
+import { useFonts } from '@expo-google-fonts/geist/useFonts';
+import { Geist_100Thin } from '@expo-google-fonts/geist/100Thin';
+import { Geist_200ExtraLight } from '@expo-google-fonts/geist/200ExtraLight';
+import { Geist_300Light } from '@expo-google-fonts/geist/300Light';
+import { Geist_400Regular } from '@expo-google-fonts/geist/400Regular';
+import { Geist_500Medium } from '@expo-google-fonts/geist/500Medium';
+import { Geist_600SemiBold } from '@expo-google-fonts/geist/600SemiBold';
+import { Geist_700Bold } from '@expo-google-fonts/geist/700Bold';
+import { Geist_800ExtraBold } from '@expo-google-fonts/geist/800ExtraBold';
+import { Geist_900Black } from '@expo-google-fonts/geist/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Geist_100Thin](./Geist_100Thin.ttf.png)|![Geist_200ExtraLight](./Geist_200ExtraLight.ttf.png)|![Geist_300Light](./Geist_300Light.ttf.png)||
-|![Geist_400Regular](./Geist_400Regular.ttf.png)|![Geist_500Medium](./Geist_500Medium.ttf.png)|![Geist_600SemiBold](./Geist_600SemiBold.ttf.png)||
-|![Geist_700Bold](./Geist_700Bold.ttf.png)|![Geist_800ExtraBold](./Geist_800ExtraBold.ttf.png)|![Geist_900Black](./Geist_900Black.ttf.png)||
+|![Geist_100Thin](./100Thin/Geist_100Thin.ttf.png)|![Geist_200ExtraLight](./200ExtraLight/Geist_200ExtraLight.ttf.png)|![Geist_300Light](./300Light/Geist_300Light.ttf.png)||
+|![Geist_400Regular](./400Regular/Geist_400Regular.ttf.png)|![Geist_500Medium](./500Medium/Geist_500Medium.ttf.png)|![Geist_600SemiBold](./600SemiBold/Geist_600SemiBold.ttf.png)||
+|![Geist_700Bold](./700Bold/Geist_700Bold.ttf.png)|![Geist_800ExtraBold](./800ExtraBold/Geist_800ExtraBold.ttf.png)|![Geist_900Black](./900Black/Geist_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

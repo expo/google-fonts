@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-lao expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-lao expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansLao_100Thin, NotoSansLao_200ExtraLight, NotoSansLao_300Light, NotoSansLao_400Regular, NotoSansLao_500Medium, NotoSansLao_600SemiBold, NotoSansLao_700Bold, NotoSansLao_800ExtraBold, NotoSansLao_900Black } from '@expo-google-fonts/noto-sans-lao';
+import { useFonts } from '@expo-google-fonts/noto-sans-lao/useFonts';
+import { NotoSansLao_100Thin } from '@expo-google-fonts/noto-sans-lao/100Thin';
+import { NotoSansLao_200ExtraLight } from '@expo-google-fonts/noto-sans-lao/200ExtraLight';
+import { NotoSansLao_300Light } from '@expo-google-fonts/noto-sans-lao/300Light';
+import { NotoSansLao_400Regular } from '@expo-google-fonts/noto-sans-lao/400Regular';
+import { NotoSansLao_500Medium } from '@expo-google-fonts/noto-sans-lao/500Medium';
+import { NotoSansLao_600SemiBold } from '@expo-google-fonts/noto-sans-lao/600SemiBold';
+import { NotoSansLao_700Bold } from '@expo-google-fonts/noto-sans-lao/700Bold';
+import { NotoSansLao_800ExtraBold } from '@expo-google-fonts/noto-sans-lao/800ExtraBold';
+import { NotoSansLao_900Black } from '@expo-google-fonts/noto-sans-lao/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansLao_100Thin](./NotoSansLao_100Thin.ttf.png)|![NotoSansLao_200ExtraLight](./NotoSansLao_200ExtraLight.ttf.png)|![NotoSansLao_300Light](./NotoSansLao_300Light.ttf.png)||
-|![NotoSansLao_400Regular](./NotoSansLao_400Regular.ttf.png)|![NotoSansLao_500Medium](./NotoSansLao_500Medium.ttf.png)|![NotoSansLao_600SemiBold](./NotoSansLao_600SemiBold.ttf.png)||
-|![NotoSansLao_700Bold](./NotoSansLao_700Bold.ttf.png)|![NotoSansLao_800ExtraBold](./NotoSansLao_800ExtraBold.ttf.png)|![NotoSansLao_900Black](./NotoSansLao_900Black.ttf.png)||
+|![NotoSansLao_100Thin](./100Thin/NotoSansLao_100Thin.ttf.png)|![NotoSansLao_200ExtraLight](./200ExtraLight/NotoSansLao_200ExtraLight.ttf.png)|![NotoSansLao_300Light](./300Light/NotoSansLao_300Light.ttf.png)||
+|![NotoSansLao_400Regular](./400Regular/NotoSansLao_400Regular.ttf.png)|![NotoSansLao_500Medium](./500Medium/NotoSansLao_500Medium.ttf.png)|![NotoSansLao_600SemiBold](./600SemiBold/NotoSansLao_600SemiBold.ttf.png)||
+|![NotoSansLao_700Bold](./700Bold/NotoSansLao_700Bold.ttf.png)|![NotoSansLao_800ExtraBold](./800ExtraBold/NotoSansLao_800ExtraBold.ttf.png)|![NotoSansLao_900Black](./900Black/NotoSansLao_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

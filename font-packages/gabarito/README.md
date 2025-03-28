@@ -25,7 +25,7 @@ This font family contains [6 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/gabarito expo-font expo-app-loading
+npx expo install @expo-google-fonts/gabarito expo-font
 ```
 
 Now add code like this to your project
@@ -34,8 +34,13 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Gabarito_400Regular, Gabarito_500Medium, Gabarito_600SemiBold, Gabarito_700Bold, Gabarito_800ExtraBold, Gabarito_900Black } from '@expo-google-fonts/gabarito';
+import { useFonts } from '@expo-google-fonts/gabarito/useFonts';
+import { Gabarito_400Regular } from '@expo-google-fonts/gabarito/400Regular';
+import { Gabarito_500Medium } from '@expo-google-fonts/gabarito/500Medium';
+import { Gabarito_600SemiBold } from '@expo-google-fonts/gabarito/600SemiBold';
+import { Gabarito_700Bold } from '@expo-google-fonts/gabarito/700Bold';
+import { Gabarito_800ExtraBold } from '@expo-google-fonts/gabarito/800ExtraBold';
+import { Gabarito_900Black } from '@expo-google-fonts/gabarito/900Black';
 
 export default () => {
 
@@ -52,7 +57,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -115,8 +120,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Gabarito_400Regular](./Gabarito_400Regular.ttf.png)|![Gabarito_500Medium](./Gabarito_500Medium.ttf.png)|![Gabarito_600SemiBold](./Gabarito_600SemiBold.ttf.png)||
-|![Gabarito_700Bold](./Gabarito_700Bold.ttf.png)|![Gabarito_800ExtraBold](./Gabarito_800ExtraBold.ttf.png)|![Gabarito_900Black](./Gabarito_900Black.ttf.png)||
+|![Gabarito_400Regular](./400Regular/Gabarito_400Regular.ttf.png)|![Gabarito_500Medium](./500Medium/Gabarito_500Medium.ttf.png)|![Gabarito_600SemiBold](./600SemiBold/Gabarito_600SemiBold.ttf.png)||
+|![Gabarito_700Bold](./700Bold/Gabarito_700Bold.ttf.png)|![Gabarito_800ExtraBold](./800ExtraBold/Gabarito_800ExtraBold.ttf.png)|![Gabarito_900Black](./900Black/Gabarito_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

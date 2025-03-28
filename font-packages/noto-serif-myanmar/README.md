@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-myanmar expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-myanmar expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifMyanmar_100Thin, NotoSerifMyanmar_200ExtraLight, NotoSerifMyanmar_300Light, NotoSerifMyanmar_400Regular, NotoSerifMyanmar_500Medium, NotoSerifMyanmar_600SemiBold, NotoSerifMyanmar_700Bold, NotoSerifMyanmar_800ExtraBold, NotoSerifMyanmar_900Black } from '@expo-google-fonts/noto-serif-myanmar';
+import { useFonts } from '@expo-google-fonts/noto-serif-myanmar/useFonts';
+import { NotoSerifMyanmar_100Thin } from '@expo-google-fonts/noto-serif-myanmar/100Thin';
+import { NotoSerifMyanmar_200ExtraLight } from '@expo-google-fonts/noto-serif-myanmar/200ExtraLight';
+import { NotoSerifMyanmar_300Light } from '@expo-google-fonts/noto-serif-myanmar/300Light';
+import { NotoSerifMyanmar_400Regular } from '@expo-google-fonts/noto-serif-myanmar/400Regular';
+import { NotoSerifMyanmar_500Medium } from '@expo-google-fonts/noto-serif-myanmar/500Medium';
+import { NotoSerifMyanmar_600SemiBold } from '@expo-google-fonts/noto-serif-myanmar/600SemiBold';
+import { NotoSerifMyanmar_700Bold } from '@expo-google-fonts/noto-serif-myanmar/700Bold';
+import { NotoSerifMyanmar_800ExtraBold } from '@expo-google-fonts/noto-serif-myanmar/800ExtraBold';
+import { NotoSerifMyanmar_900Black } from '@expo-google-fonts/noto-serif-myanmar/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifMyanmar_100Thin](./NotoSerifMyanmar_100Thin.ttf.png)|![NotoSerifMyanmar_200ExtraLight](./NotoSerifMyanmar_200ExtraLight.ttf.png)|![NotoSerifMyanmar_300Light](./NotoSerifMyanmar_300Light.ttf.png)||
-|![NotoSerifMyanmar_400Regular](./NotoSerifMyanmar_400Regular.ttf.png)|![NotoSerifMyanmar_500Medium](./NotoSerifMyanmar_500Medium.ttf.png)|![NotoSerifMyanmar_600SemiBold](./NotoSerifMyanmar_600SemiBold.ttf.png)||
-|![NotoSerifMyanmar_700Bold](./NotoSerifMyanmar_700Bold.ttf.png)|![NotoSerifMyanmar_800ExtraBold](./NotoSerifMyanmar_800ExtraBold.ttf.png)|![NotoSerifMyanmar_900Black](./NotoSerifMyanmar_900Black.ttf.png)||
+|![NotoSerifMyanmar_100Thin](./100Thin/NotoSerifMyanmar_100Thin.ttf.png)|![NotoSerifMyanmar_200ExtraLight](./200ExtraLight/NotoSerifMyanmar_200ExtraLight.ttf.png)|![NotoSerifMyanmar_300Light](./300Light/NotoSerifMyanmar_300Light.ttf.png)||
+|![NotoSerifMyanmar_400Regular](./400Regular/NotoSerifMyanmar_400Regular.ttf.png)|![NotoSerifMyanmar_500Medium](./500Medium/NotoSerifMyanmar_500Medium.ttf.png)|![NotoSerifMyanmar_600SemiBold](./600SemiBold/NotoSerifMyanmar_600SemiBold.ttf.png)||
+|![NotoSerifMyanmar_700Bold](./700Bold/NotoSerifMyanmar_700Bold.ttf.png)|![NotoSerifMyanmar_800ExtraBold](./800ExtraBold/NotoSerifMyanmar_800ExtraBold.ttf.png)|![NotoSerifMyanmar_900Black](./900Black/NotoSerifMyanmar_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

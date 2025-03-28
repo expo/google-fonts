@@ -35,7 +35,7 @@ This font family contains [16 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/k2d expo-font expo-app-loading
+npx expo install @expo-google-fonts/k2d expo-font
 ```
 
 Now add code like this to your project
@@ -44,8 +44,23 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, K2D_100Thin, K2D_100Thin_Italic, K2D_200ExtraLight, K2D_200ExtraLight_Italic, K2D_300Light, K2D_300Light_Italic, K2D_400Regular, K2D_400Regular_Italic, K2D_500Medium, K2D_500Medium_Italic, K2D_600SemiBold, K2D_600SemiBold_Italic, K2D_700Bold, K2D_700Bold_Italic, K2D_800ExtraBold, K2D_800ExtraBold_Italic } from '@expo-google-fonts/k2d';
+import { useFonts } from '@expo-google-fonts/k2d/useFonts';
+import { K2D_100Thin } from '@expo-google-fonts/k2d/100Thin';
+import { K2D_100Thin_Italic } from '@expo-google-fonts/k2d/100Thin_Italic';
+import { K2D_200ExtraLight } from '@expo-google-fonts/k2d/200ExtraLight';
+import { K2D_200ExtraLight_Italic } from '@expo-google-fonts/k2d/200ExtraLight_Italic';
+import { K2D_300Light } from '@expo-google-fonts/k2d/300Light';
+import { K2D_300Light_Italic } from '@expo-google-fonts/k2d/300Light_Italic';
+import { K2D_400Regular } from '@expo-google-fonts/k2d/400Regular';
+import { K2D_400Regular_Italic } from '@expo-google-fonts/k2d/400Regular_Italic';
+import { K2D_500Medium } from '@expo-google-fonts/k2d/500Medium';
+import { K2D_500Medium_Italic } from '@expo-google-fonts/k2d/500Medium_Italic';
+import { K2D_600SemiBold } from '@expo-google-fonts/k2d/600SemiBold';
+import { K2D_600SemiBold_Italic } from '@expo-google-fonts/k2d/600SemiBold_Italic';
+import { K2D_700Bold } from '@expo-google-fonts/k2d/700Bold';
+import { K2D_700Bold_Italic } from '@expo-google-fonts/k2d/700Bold_Italic';
+import { K2D_800ExtraBold } from '@expo-google-fonts/k2d/800ExtraBold';
+import { K2D_800ExtraBold_Italic } from '@expo-google-fonts/k2d/800ExtraBold_Italic';
 
 export default () => {
 
@@ -72,7 +87,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -215,12 +230,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![K2D_100Thin](./K2D_100Thin.ttf.png)|![K2D_100Thin_Italic](./K2D_100Thin_Italic.ttf.png)|![K2D_200ExtraLight](./K2D_200ExtraLight.ttf.png)||
-|![K2D_200ExtraLight_Italic](./K2D_200ExtraLight_Italic.ttf.png)|![K2D_300Light](./K2D_300Light.ttf.png)|![K2D_300Light_Italic](./K2D_300Light_Italic.ttf.png)||
-|![K2D_400Regular](./K2D_400Regular.ttf.png)|![K2D_400Regular_Italic](./K2D_400Regular_Italic.ttf.png)|![K2D_500Medium](./K2D_500Medium.ttf.png)||
-|![K2D_500Medium_Italic](./K2D_500Medium_Italic.ttf.png)|![K2D_600SemiBold](./K2D_600SemiBold.ttf.png)|![K2D_600SemiBold_Italic](./K2D_600SemiBold_Italic.ttf.png)||
-|![K2D_700Bold](./K2D_700Bold.ttf.png)|![K2D_700Bold_Italic](./K2D_700Bold_Italic.ttf.png)|![K2D_800ExtraBold](./K2D_800ExtraBold.ttf.png)||
-|![K2D_800ExtraBold_Italic](./K2D_800ExtraBold_Italic.ttf.png)||||
+|![K2D_100Thin](./100Thin/K2D_100Thin.ttf.png)|![K2D_100Thin_Italic](./100Thin_Italic/K2D_100Thin_Italic.ttf.png)|![K2D_200ExtraLight](./200ExtraLight/K2D_200ExtraLight.ttf.png)||
+|![K2D_200ExtraLight_Italic](./200ExtraLight_Italic/K2D_200ExtraLight_Italic.ttf.png)|![K2D_300Light](./300Light/K2D_300Light.ttf.png)|![K2D_300Light_Italic](./300Light_Italic/K2D_300Light_Italic.ttf.png)||
+|![K2D_400Regular](./400Regular/K2D_400Regular.ttf.png)|![K2D_400Regular_Italic](./400Regular_Italic/K2D_400Regular_Italic.ttf.png)|![K2D_500Medium](./500Medium/K2D_500Medium.ttf.png)||
+|![K2D_500Medium_Italic](./500Medium_Italic/K2D_500Medium_Italic.ttf.png)|![K2D_600SemiBold](./600SemiBold/K2D_600SemiBold.ttf.png)|![K2D_600SemiBold_Italic](./600SemiBold_Italic/K2D_600SemiBold_Italic.ttf.png)||
+|![K2D_700Bold](./700Bold/K2D_700Bold.ttf.png)|![K2D_700Bold_Italic](./700Bold_Italic/K2D_700Bold_Italic.ttf.png)|![K2D_800ExtraBold](./800ExtraBold/K2D_800ExtraBold.ttf.png)||
+|![K2D_800ExtraBold_Italic](./800ExtraBold_Italic/K2D_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

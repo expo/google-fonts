@@ -35,7 +35,7 @@ This font family contains [16 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/crimson-pro expo-font expo-app-loading
+npx expo install @expo-google-fonts/crimson-pro expo-font
 ```
 
 Now add code like this to your project
@@ -44,8 +44,23 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, CrimsonPro_200ExtraLight, CrimsonPro_300Light, CrimsonPro_400Regular, CrimsonPro_500Medium, CrimsonPro_600SemiBold, CrimsonPro_700Bold, CrimsonPro_800ExtraBold, CrimsonPro_900Black, CrimsonPro_200ExtraLight_Italic, CrimsonPro_300Light_Italic, CrimsonPro_400Regular_Italic, CrimsonPro_500Medium_Italic, CrimsonPro_600SemiBold_Italic, CrimsonPro_700Bold_Italic, CrimsonPro_800ExtraBold_Italic, CrimsonPro_900Black_Italic } from '@expo-google-fonts/crimson-pro';
+import { useFonts } from '@expo-google-fonts/crimson-pro/useFonts';
+import { CrimsonPro_200ExtraLight } from '@expo-google-fonts/crimson-pro/200ExtraLight';
+import { CrimsonPro_300Light } from '@expo-google-fonts/crimson-pro/300Light';
+import { CrimsonPro_400Regular } from '@expo-google-fonts/crimson-pro/400Regular';
+import { CrimsonPro_500Medium } from '@expo-google-fonts/crimson-pro/500Medium';
+import { CrimsonPro_600SemiBold } from '@expo-google-fonts/crimson-pro/600SemiBold';
+import { CrimsonPro_700Bold } from '@expo-google-fonts/crimson-pro/700Bold';
+import { CrimsonPro_800ExtraBold } from '@expo-google-fonts/crimson-pro/800ExtraBold';
+import { CrimsonPro_900Black } from '@expo-google-fonts/crimson-pro/900Black';
+import { CrimsonPro_200ExtraLight_Italic } from '@expo-google-fonts/crimson-pro/200ExtraLight_Italic';
+import { CrimsonPro_300Light_Italic } from '@expo-google-fonts/crimson-pro/300Light_Italic';
+import { CrimsonPro_400Regular_Italic } from '@expo-google-fonts/crimson-pro/400Regular_Italic';
+import { CrimsonPro_500Medium_Italic } from '@expo-google-fonts/crimson-pro/500Medium_Italic';
+import { CrimsonPro_600SemiBold_Italic } from '@expo-google-fonts/crimson-pro/600SemiBold_Italic';
+import { CrimsonPro_700Bold_Italic } from '@expo-google-fonts/crimson-pro/700Bold_Italic';
+import { CrimsonPro_800ExtraBold_Italic } from '@expo-google-fonts/crimson-pro/800ExtraBold_Italic';
+import { CrimsonPro_900Black_Italic } from '@expo-google-fonts/crimson-pro/900Black_Italic';
 
 export default () => {
 
@@ -72,7 +87,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -215,12 +230,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CrimsonPro_200ExtraLight](./CrimsonPro_200ExtraLight.ttf.png)|![CrimsonPro_300Light](./CrimsonPro_300Light.ttf.png)|![CrimsonPro_400Regular](./CrimsonPro_400Regular.ttf.png)||
-|![CrimsonPro_500Medium](./CrimsonPro_500Medium.ttf.png)|![CrimsonPro_600SemiBold](./CrimsonPro_600SemiBold.ttf.png)|![CrimsonPro_700Bold](./CrimsonPro_700Bold.ttf.png)||
-|![CrimsonPro_800ExtraBold](./CrimsonPro_800ExtraBold.ttf.png)|![CrimsonPro_900Black](./CrimsonPro_900Black.ttf.png)|![CrimsonPro_200ExtraLight_Italic](./CrimsonPro_200ExtraLight_Italic.ttf.png)||
-|![CrimsonPro_300Light_Italic](./CrimsonPro_300Light_Italic.ttf.png)|![CrimsonPro_400Regular_Italic](./CrimsonPro_400Regular_Italic.ttf.png)|![CrimsonPro_500Medium_Italic](./CrimsonPro_500Medium_Italic.ttf.png)||
-|![CrimsonPro_600SemiBold_Italic](./CrimsonPro_600SemiBold_Italic.ttf.png)|![CrimsonPro_700Bold_Italic](./CrimsonPro_700Bold_Italic.ttf.png)|![CrimsonPro_800ExtraBold_Italic](./CrimsonPro_800ExtraBold_Italic.ttf.png)||
-|![CrimsonPro_900Black_Italic](./CrimsonPro_900Black_Italic.ttf.png)||||
+|![CrimsonPro_200ExtraLight](./200ExtraLight/CrimsonPro_200ExtraLight.ttf.png)|![CrimsonPro_300Light](./300Light/CrimsonPro_300Light.ttf.png)|![CrimsonPro_400Regular](./400Regular/CrimsonPro_400Regular.ttf.png)||
+|![CrimsonPro_500Medium](./500Medium/CrimsonPro_500Medium.ttf.png)|![CrimsonPro_600SemiBold](./600SemiBold/CrimsonPro_600SemiBold.ttf.png)|![CrimsonPro_700Bold](./700Bold/CrimsonPro_700Bold.ttf.png)||
+|![CrimsonPro_800ExtraBold](./800ExtraBold/CrimsonPro_800ExtraBold.ttf.png)|![CrimsonPro_900Black](./900Black/CrimsonPro_900Black.ttf.png)|![CrimsonPro_200ExtraLight_Italic](./200ExtraLight_Italic/CrimsonPro_200ExtraLight_Italic.ttf.png)||
+|![CrimsonPro_300Light_Italic](./300Light_Italic/CrimsonPro_300Light_Italic.ttf.png)|![CrimsonPro_400Regular_Italic](./400Regular_Italic/CrimsonPro_400Regular_Italic.ttf.png)|![CrimsonPro_500Medium_Italic](./500Medium_Italic/CrimsonPro_500Medium_Italic.ttf.png)||
+|![CrimsonPro_600SemiBold_Italic](./600SemiBold_Italic/CrimsonPro_600SemiBold_Italic.ttf.png)|![CrimsonPro_700Bold_Italic](./700Bold_Italic/CrimsonPro_700Bold_Italic.ttf.png)|![CrimsonPro_800ExtraBold_Italic](./800ExtraBold_Italic/CrimsonPro_800ExtraBold_Italic.ttf.png)||
+|![CrimsonPro_900Black_Italic](./900Black_Italic/CrimsonPro_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

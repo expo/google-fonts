@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/amiri expo-font expo-app-loading
+npx expo install @expo-google-fonts/amiri expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Amiri_400Regular, Amiri_400Regular_Italic, Amiri_700Bold, Amiri_700Bold_Italic } from '@expo-google-fonts/amiri';
+import { useFonts } from '@expo-google-fonts/amiri/useFonts';
+import { Amiri_400Regular } from '@expo-google-fonts/amiri/400Regular';
+import { Amiri_400Regular_Italic } from '@expo-google-fonts/amiri/400Regular_Italic';
+import { Amiri_700Bold } from '@expo-google-fonts/amiri/700Bold';
+import { Amiri_700Bold_Italic } from '@expo-google-fonts/amiri/700Bold_Italic';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Amiri_400Regular](./Amiri_400Regular.ttf.png)|![Amiri_400Regular_Italic](./Amiri_400Regular_Italic.ttf.png)|![Amiri_700Bold](./Amiri_700Bold.ttf.png)||
-|![Amiri_700Bold_Italic](./Amiri_700Bold_Italic.ttf.png)||||
+|![Amiri_400Regular](./400Regular/Amiri_400Regular.ttf.png)|![Amiri_400Regular_Italic](./400Regular_Italic/Amiri_400Regular_Italic.ttf.png)|![Amiri_700Bold](./700Bold/Amiri_700Bold.ttf.png)||
+|![Amiri_700Bold_Italic](./700Bold_Italic/Amiri_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

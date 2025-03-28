@@ -1,9 +1,13 @@
 {
   "name": "@expo-google-fonts/karla-tamil-upright",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Use the Karla Tamil Upright font family from Google Fonts in your Expo app",
   "main": "index.js",
-  "repository": "https://github.com/expo/google-fonts.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/karla-tamil-upright"
+  },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/karla-tamil-upright#readme",
   "author": "Expo Team <team@expo.io>",
   "license": "MIT",

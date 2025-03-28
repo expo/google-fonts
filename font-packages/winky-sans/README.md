@@ -33,7 +33,7 @@ This font family contains [14 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/winky-sans expo-font expo-app-loading
+npx expo install @expo-google-fonts/winky-sans expo-font
 ```
 
 Now add code like this to your project
@@ -42,8 +42,21 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, WinkySans_300Light, WinkySans_400Regular, WinkySans_500Medium, WinkySans_600SemiBold, WinkySans_700Bold, WinkySans_800ExtraBold, WinkySans_900Black, WinkySans_300Light_Italic, WinkySans_400Regular_Italic, WinkySans_500Medium_Italic, WinkySans_600SemiBold_Italic, WinkySans_700Bold_Italic, WinkySans_800ExtraBold_Italic, WinkySans_900Black_Italic } from '@expo-google-fonts/winky-sans';
+import { useFonts } from '@expo-google-fonts/winky-sans/useFonts';
+import { WinkySans_300Light } from '@expo-google-fonts/winky-sans/300Light';
+import { WinkySans_400Regular } from '@expo-google-fonts/winky-sans/400Regular';
+import { WinkySans_500Medium } from '@expo-google-fonts/winky-sans/500Medium';
+import { WinkySans_600SemiBold } from '@expo-google-fonts/winky-sans/600SemiBold';
+import { WinkySans_700Bold } from '@expo-google-fonts/winky-sans/700Bold';
+import { WinkySans_800ExtraBold } from '@expo-google-fonts/winky-sans/800ExtraBold';
+import { WinkySans_900Black } from '@expo-google-fonts/winky-sans/900Black';
+import { WinkySans_300Light_Italic } from '@expo-google-fonts/winky-sans/300Light_Italic';
+import { WinkySans_400Regular_Italic } from '@expo-google-fonts/winky-sans/400Regular_Italic';
+import { WinkySans_500Medium_Italic } from '@expo-google-fonts/winky-sans/500Medium_Italic';
+import { WinkySans_600SemiBold_Italic } from '@expo-google-fonts/winky-sans/600SemiBold_Italic';
+import { WinkySans_700Bold_Italic } from '@expo-google-fonts/winky-sans/700Bold_Italic';
+import { WinkySans_800ExtraBold_Italic } from '@expo-google-fonts/winky-sans/800ExtraBold_Italic';
+import { WinkySans_900Black_Italic } from '@expo-google-fonts/winky-sans/900Black_Italic';
 
 export default () => {
 
@@ -68,7 +81,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -195,11 +208,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![WinkySans_300Light](./WinkySans_300Light.ttf.png)|![WinkySans_400Regular](./WinkySans_400Regular.ttf.png)|![WinkySans_500Medium](./WinkySans_500Medium.ttf.png)||
-|![WinkySans_600SemiBold](./WinkySans_600SemiBold.ttf.png)|![WinkySans_700Bold](./WinkySans_700Bold.ttf.png)|![WinkySans_800ExtraBold](./WinkySans_800ExtraBold.ttf.png)||
-|![WinkySans_900Black](./WinkySans_900Black.ttf.png)|![WinkySans_300Light_Italic](./WinkySans_300Light_Italic.ttf.png)|![WinkySans_400Regular_Italic](./WinkySans_400Regular_Italic.ttf.png)||
-|![WinkySans_500Medium_Italic](./WinkySans_500Medium_Italic.ttf.png)|![WinkySans_600SemiBold_Italic](./WinkySans_600SemiBold_Italic.ttf.png)|![WinkySans_700Bold_Italic](./WinkySans_700Bold_Italic.ttf.png)||
-|![WinkySans_800ExtraBold_Italic](./WinkySans_800ExtraBold_Italic.ttf.png)|![WinkySans_900Black_Italic](./WinkySans_900Black_Italic.ttf.png)|||
+|![WinkySans_300Light](./300Light/WinkySans_300Light.ttf.png)|![WinkySans_400Regular](./400Regular/WinkySans_400Regular.ttf.png)|![WinkySans_500Medium](./500Medium/WinkySans_500Medium.ttf.png)||
+|![WinkySans_600SemiBold](./600SemiBold/WinkySans_600SemiBold.ttf.png)|![WinkySans_700Bold](./700Bold/WinkySans_700Bold.ttf.png)|![WinkySans_800ExtraBold](./800ExtraBold/WinkySans_800ExtraBold.ttf.png)||
+|![WinkySans_900Black](./900Black/WinkySans_900Black.ttf.png)|![WinkySans_300Light_Italic](./300Light_Italic/WinkySans_300Light_Italic.ttf.png)|![WinkySans_400Regular_Italic](./400Regular_Italic/WinkySans_400Regular_Italic.ttf.png)||
+|![WinkySans_500Medium_Italic](./500Medium_Italic/WinkySans_500Medium_Italic.ttf.png)|![WinkySans_600SemiBold_Italic](./600SemiBold_Italic/WinkySans_600SemiBold_Italic.ttf.png)|![WinkySans_700Bold_Italic](./700Bold_Italic/WinkySans_700Bold_Italic.ttf.png)||
+|![WinkySans_800ExtraBold_Italic](./800ExtraBold_Italic/WinkySans_800ExtraBold_Italic.ttf.png)|![WinkySans_900Black_Italic](./900Black_Italic/WinkySans_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-armenian expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-armenian expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifArmenian_100Thin, NotoSerifArmenian_200ExtraLight, NotoSerifArmenian_300Light, NotoSerifArmenian_400Regular, NotoSerifArmenian_500Medium, NotoSerifArmenian_600SemiBold, NotoSerifArmenian_700Bold, NotoSerifArmenian_800ExtraBold, NotoSerifArmenian_900Black } from '@expo-google-fonts/noto-serif-armenian';
+import { useFonts } from '@expo-google-fonts/noto-serif-armenian/useFonts';
+import { NotoSerifArmenian_100Thin } from '@expo-google-fonts/noto-serif-armenian/100Thin';
+import { NotoSerifArmenian_200ExtraLight } from '@expo-google-fonts/noto-serif-armenian/200ExtraLight';
+import { NotoSerifArmenian_300Light } from '@expo-google-fonts/noto-serif-armenian/300Light';
+import { NotoSerifArmenian_400Regular } from '@expo-google-fonts/noto-serif-armenian/400Regular';
+import { NotoSerifArmenian_500Medium } from '@expo-google-fonts/noto-serif-armenian/500Medium';
+import { NotoSerifArmenian_600SemiBold } from '@expo-google-fonts/noto-serif-armenian/600SemiBold';
+import { NotoSerifArmenian_700Bold } from '@expo-google-fonts/noto-serif-armenian/700Bold';
+import { NotoSerifArmenian_800ExtraBold } from '@expo-google-fonts/noto-serif-armenian/800ExtraBold';
+import { NotoSerifArmenian_900Black } from '@expo-google-fonts/noto-serif-armenian/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifArmenian_100Thin](./NotoSerifArmenian_100Thin.ttf.png)|![NotoSerifArmenian_200ExtraLight](./NotoSerifArmenian_200ExtraLight.ttf.png)|![NotoSerifArmenian_300Light](./NotoSerifArmenian_300Light.ttf.png)||
-|![NotoSerifArmenian_400Regular](./NotoSerifArmenian_400Regular.ttf.png)|![NotoSerifArmenian_500Medium](./NotoSerifArmenian_500Medium.ttf.png)|![NotoSerifArmenian_600SemiBold](./NotoSerifArmenian_600SemiBold.ttf.png)||
-|![NotoSerifArmenian_700Bold](./NotoSerifArmenian_700Bold.ttf.png)|![NotoSerifArmenian_800ExtraBold](./NotoSerifArmenian_800ExtraBold.ttf.png)|![NotoSerifArmenian_900Black](./NotoSerifArmenian_900Black.ttf.png)||
+|![NotoSerifArmenian_100Thin](./100Thin/NotoSerifArmenian_100Thin.ttf.png)|![NotoSerifArmenian_200ExtraLight](./200ExtraLight/NotoSerifArmenian_200ExtraLight.ttf.png)|![NotoSerifArmenian_300Light](./300Light/NotoSerifArmenian_300Light.ttf.png)||
+|![NotoSerifArmenian_400Regular](./400Regular/NotoSerifArmenian_400Regular.ttf.png)|![NotoSerifArmenian_500Medium](./500Medium/NotoSerifArmenian_500Medium.ttf.png)|![NotoSerifArmenian_600SemiBold](./600SemiBold/NotoSerifArmenian_600SemiBold.ttf.png)||
+|![NotoSerifArmenian_700Bold](./700Bold/NotoSerifArmenian_700Bold.ttf.png)|![NotoSerifArmenian_800ExtraBold](./800ExtraBold/NotoSerifArmenian_800ExtraBold.ttf.png)|![NotoSerifArmenian_900Black](./900Black/NotoSerifArmenian_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

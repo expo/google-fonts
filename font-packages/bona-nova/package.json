@@ -1,9 +1,13 @@
 {
   "name": "@expo-google-fonts/bona-nova",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Use the Bona Nova font family from Google Fonts in your Expo app",
   "main": "index.js",
-  "repository": "https://github.com/expo/google-fonts.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/bona-nova"
+  },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/bona-nova#readme",
   "author": "Expo Team <team@expo.io>",
   "license": "MIT",

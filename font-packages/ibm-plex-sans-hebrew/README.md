@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/ibm-plex-sans-hebrew expo-font expo-app-loading
+npx expo install @expo-google-fonts/ibm-plex-sans-hebrew expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, IBMPlexSansHebrew_100Thin, IBMPlexSansHebrew_200ExtraLight, IBMPlexSansHebrew_300Light, IBMPlexSansHebrew_400Regular, IBMPlexSansHebrew_500Medium, IBMPlexSansHebrew_600SemiBold, IBMPlexSansHebrew_700Bold } from '@expo-google-fonts/ibm-plex-sans-hebrew';
+import { useFonts } from '@expo-google-fonts/ibm-plex-sans-hebrew/useFonts';
+import { IBMPlexSansHebrew_100Thin } from '@expo-google-fonts/ibm-plex-sans-hebrew/100Thin';
+import { IBMPlexSansHebrew_200ExtraLight } from '@expo-google-fonts/ibm-plex-sans-hebrew/200ExtraLight';
+import { IBMPlexSansHebrew_300Light } from '@expo-google-fonts/ibm-plex-sans-hebrew/300Light';
+import { IBMPlexSansHebrew_400Regular } from '@expo-google-fonts/ibm-plex-sans-hebrew/400Regular';
+import { IBMPlexSansHebrew_500Medium } from '@expo-google-fonts/ibm-plex-sans-hebrew/500Medium';
+import { IBMPlexSansHebrew_600SemiBold } from '@expo-google-fonts/ibm-plex-sans-hebrew/600SemiBold';
+import { IBMPlexSansHebrew_700Bold } from '@expo-google-fonts/ibm-plex-sans-hebrew/700Bold';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IBMPlexSansHebrew_100Thin](./IBMPlexSansHebrew_100Thin.ttf.png)|![IBMPlexSansHebrew_200ExtraLight](./IBMPlexSansHebrew_200ExtraLight.ttf.png)|![IBMPlexSansHebrew_300Light](./IBMPlexSansHebrew_300Light.ttf.png)||
-|![IBMPlexSansHebrew_400Regular](./IBMPlexSansHebrew_400Regular.ttf.png)|![IBMPlexSansHebrew_500Medium](./IBMPlexSansHebrew_500Medium.ttf.png)|![IBMPlexSansHebrew_600SemiBold](./IBMPlexSansHebrew_600SemiBold.ttf.png)||
-|![IBMPlexSansHebrew_700Bold](./IBMPlexSansHebrew_700Bold.ttf.png)||||
+|![IBMPlexSansHebrew_100Thin](./100Thin/IBMPlexSansHebrew_100Thin.ttf.png)|![IBMPlexSansHebrew_200ExtraLight](./200ExtraLight/IBMPlexSansHebrew_200ExtraLight.ttf.png)|![IBMPlexSansHebrew_300Light](./300Light/IBMPlexSansHebrew_300Light.ttf.png)||
+|![IBMPlexSansHebrew_400Regular](./400Regular/IBMPlexSansHebrew_400Regular.ttf.png)|![IBMPlexSansHebrew_500Medium](./500Medium/IBMPlexSansHebrew_500Medium.ttf.png)|![IBMPlexSansHebrew_600SemiBold](./600SemiBold/IBMPlexSansHebrew_600SemiBold.ttf.png)||
+|![IBMPlexSansHebrew_700Bold](./700Bold/IBMPlexSansHebrew_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/hepta-slab expo-font expo-app-loading
+npx expo install @expo-google-fonts/hepta-slab expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, HeptaSlab_100Thin, HeptaSlab_200ExtraLight, HeptaSlab_300Light, HeptaSlab_400Regular, HeptaSlab_500Medium, HeptaSlab_600SemiBold, HeptaSlab_700Bold, HeptaSlab_800ExtraBold, HeptaSlab_900Black } from '@expo-google-fonts/hepta-slab';
+import { useFonts } from '@expo-google-fonts/hepta-slab/useFonts';
+import { HeptaSlab_100Thin } from '@expo-google-fonts/hepta-slab/100Thin';
+import { HeptaSlab_200ExtraLight } from '@expo-google-fonts/hepta-slab/200ExtraLight';
+import { HeptaSlab_300Light } from '@expo-google-fonts/hepta-slab/300Light';
+import { HeptaSlab_400Regular } from '@expo-google-fonts/hepta-slab/400Regular';
+import { HeptaSlab_500Medium } from '@expo-google-fonts/hepta-slab/500Medium';
+import { HeptaSlab_600SemiBold } from '@expo-google-fonts/hepta-slab/600SemiBold';
+import { HeptaSlab_700Bold } from '@expo-google-fonts/hepta-slab/700Bold';
+import { HeptaSlab_800ExtraBold } from '@expo-google-fonts/hepta-slab/800ExtraBold';
+import { HeptaSlab_900Black } from '@expo-google-fonts/hepta-slab/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![HeptaSlab_100Thin](./HeptaSlab_100Thin.ttf.png)|![HeptaSlab_200ExtraLight](./HeptaSlab_200ExtraLight.ttf.png)|![HeptaSlab_300Light](./HeptaSlab_300Light.ttf.png)||
-|![HeptaSlab_400Regular](./HeptaSlab_400Regular.ttf.png)|![HeptaSlab_500Medium](./HeptaSlab_500Medium.ttf.png)|![HeptaSlab_600SemiBold](./HeptaSlab_600SemiBold.ttf.png)||
-|![HeptaSlab_700Bold](./HeptaSlab_700Bold.ttf.png)|![HeptaSlab_800ExtraBold](./HeptaSlab_800ExtraBold.ttf.png)|![HeptaSlab_900Black](./HeptaSlab_900Black.ttf.png)||
+|![HeptaSlab_100Thin](./100Thin/HeptaSlab_100Thin.ttf.png)|![HeptaSlab_200ExtraLight](./200ExtraLight/HeptaSlab_200ExtraLight.ttf.png)|![HeptaSlab_300Light](./300Light/HeptaSlab_300Light.ttf.png)||
+|![HeptaSlab_400Regular](./400Regular/HeptaSlab_400Regular.ttf.png)|![HeptaSlab_500Medium](./500Medium/HeptaSlab_500Medium.ttf.png)|![HeptaSlab_600SemiBold](./600SemiBold/HeptaSlab_600SemiBold.ttf.png)||
+|![HeptaSlab_700Bold](./700Bold/HeptaSlab_700Bold.ttf.png)|![HeptaSlab_800ExtraBold](./800ExtraBold/HeptaSlab_800ExtraBold.ttf.png)|![HeptaSlab_900Black](./900Black/HeptaSlab_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

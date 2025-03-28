@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/shippori-mincho-b1 expo-font expo-app-loading
+npx expo install @expo-google-fonts/shippori-mincho-b1 expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, ShipporiMinchoB1_400Regular, ShipporiMinchoB1_500Medium, ShipporiMinchoB1_600SemiBold, ShipporiMinchoB1_700Bold, ShipporiMinchoB1_800ExtraBold } from '@expo-google-fonts/shippori-mincho-b1';
+import { useFonts } from '@expo-google-fonts/shippori-mincho-b1/useFonts';
+import { ShipporiMinchoB1_400Regular } from '@expo-google-fonts/shippori-mincho-b1/400Regular';
+import { ShipporiMinchoB1_500Medium } from '@expo-google-fonts/shippori-mincho-b1/500Medium';
+import { ShipporiMinchoB1_600SemiBold } from '@expo-google-fonts/shippori-mincho-b1/600SemiBold';
+import { ShipporiMinchoB1_700Bold } from '@expo-google-fonts/shippori-mincho-b1/700Bold';
+import { ShipporiMinchoB1_800ExtraBold } from '@expo-google-fonts/shippori-mincho-b1/800ExtraBold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ShipporiMinchoB1_400Regular](./ShipporiMinchoB1_400Regular.ttf.png)|![ShipporiMinchoB1_500Medium](./ShipporiMinchoB1_500Medium.ttf.png)|![ShipporiMinchoB1_600SemiBold](./ShipporiMinchoB1_600SemiBold.ttf.png)||
-|![ShipporiMinchoB1_700Bold](./ShipporiMinchoB1_700Bold.ttf.png)|![ShipporiMinchoB1_800ExtraBold](./ShipporiMinchoB1_800ExtraBold.ttf.png)|||
+|![ShipporiMinchoB1_400Regular](./400Regular/ShipporiMinchoB1_400Regular.ttf.png)|![ShipporiMinchoB1_500Medium](./500Medium/ShipporiMinchoB1_500Medium.ttf.png)|![ShipporiMinchoB1_600SemiBold](./600SemiBold/ShipporiMinchoB1_600SemiBold.ttf.png)||
+|![ShipporiMinchoB1_700Bold](./700Bold/ShipporiMinchoB1_700Bold.ttf.png)|![ShipporiMinchoB1_800ExtraBold](./800ExtraBold/ShipporiMinchoB1_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

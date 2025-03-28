@@ -26,7 +26,7 @@ This font family contains [7 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/ibm-plex-sans-devanagari expo-font expo-app-loading
+npx expo install @expo-google-fonts/ibm-plex-sans-devanagari expo-font
 ```
 
 Now add code like this to your project
@@ -35,8 +35,14 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, IBMPlexSansDevanagari_100Thin, IBMPlexSansDevanagari_200ExtraLight, IBMPlexSansDevanagari_300Light, IBMPlexSansDevanagari_400Regular, IBMPlexSansDevanagari_500Medium, IBMPlexSansDevanagari_600SemiBold, IBMPlexSansDevanagari_700Bold } from '@expo-google-fonts/ibm-plex-sans-devanagari';
+import { useFonts } from '@expo-google-fonts/ibm-plex-sans-devanagari/useFonts';
+import { IBMPlexSansDevanagari_100Thin } from '@expo-google-fonts/ibm-plex-sans-devanagari/100Thin';
+import { IBMPlexSansDevanagari_200ExtraLight } from '@expo-google-fonts/ibm-plex-sans-devanagari/200ExtraLight';
+import { IBMPlexSansDevanagari_300Light } from '@expo-google-fonts/ibm-plex-sans-devanagari/300Light';
+import { IBMPlexSansDevanagari_400Regular } from '@expo-google-fonts/ibm-plex-sans-devanagari/400Regular';
+import { IBMPlexSansDevanagari_500Medium } from '@expo-google-fonts/ibm-plex-sans-devanagari/500Medium';
+import { IBMPlexSansDevanagari_600SemiBold } from '@expo-google-fonts/ibm-plex-sans-devanagari/600SemiBold';
+import { IBMPlexSansDevanagari_700Bold } from '@expo-google-fonts/ibm-plex-sans-devanagari/700Bold';
 
 export default () => {
 
@@ -54,7 +60,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -125,9 +131,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IBMPlexSansDevanagari_100Thin](./IBMPlexSansDevanagari_100Thin.ttf.png)|![IBMPlexSansDevanagari_200ExtraLight](./IBMPlexSansDevanagari_200ExtraLight.ttf.png)|![IBMPlexSansDevanagari_300Light](./IBMPlexSansDevanagari_300Light.ttf.png)||
-|![IBMPlexSansDevanagari_400Regular](./IBMPlexSansDevanagari_400Regular.ttf.png)|![IBMPlexSansDevanagari_500Medium](./IBMPlexSansDevanagari_500Medium.ttf.png)|![IBMPlexSansDevanagari_600SemiBold](./IBMPlexSansDevanagari_600SemiBold.ttf.png)||
-|![IBMPlexSansDevanagari_700Bold](./IBMPlexSansDevanagari_700Bold.ttf.png)||||
+|![IBMPlexSansDevanagari_100Thin](./100Thin/IBMPlexSansDevanagari_100Thin.ttf.png)|![IBMPlexSansDevanagari_200ExtraLight](./200ExtraLight/IBMPlexSansDevanagari_200ExtraLight.ttf.png)|![IBMPlexSansDevanagari_300Light](./300Light/IBMPlexSansDevanagari_300Light.ttf.png)||
+|![IBMPlexSansDevanagari_400Regular](./400Regular/IBMPlexSansDevanagari_400Regular.ttf.png)|![IBMPlexSansDevanagari_500Medium](./500Medium/IBMPlexSansDevanagari_500Medium.ttf.png)|![IBMPlexSansDevanagari_600SemiBold](./600SemiBold/IBMPlexSansDevanagari_600SemiBold.ttf.png)||
+|![IBMPlexSansDevanagari_700Bold](./700Bold/IBMPlexSansDevanagari_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

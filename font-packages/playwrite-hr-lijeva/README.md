@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/playwrite-hr-lijeva expo-font expo-app-loading
+npx expo install @expo-google-fonts/playwrite-hr-lijeva expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PlaywriteHRLijeva_100Thin, PlaywriteHRLijeva_200ExtraLight, PlaywriteHRLijeva_300Light, PlaywriteHRLijeva_400Regular } from '@expo-google-fonts/playwrite-hr-lijeva';
+import { useFonts } from '@expo-google-fonts/playwrite-hr-lijeva/useFonts';
+import { PlaywriteHRLijeva_100Thin } from '@expo-google-fonts/playwrite-hr-lijeva/100Thin';
+import { PlaywriteHRLijeva_200ExtraLight } from '@expo-google-fonts/playwrite-hr-lijeva/200ExtraLight';
+import { PlaywriteHRLijeva_300Light } from '@expo-google-fonts/playwrite-hr-lijeva/300Light';
+import { PlaywriteHRLijeva_400Regular } from '@expo-google-fonts/playwrite-hr-lijeva/400Regular';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteHRLijeva_100Thin](./PlaywriteHRLijeva_100Thin.ttf.png)|![PlaywriteHRLijeva_200ExtraLight](./PlaywriteHRLijeva_200ExtraLight.ttf.png)|![PlaywriteHRLijeva_300Light](./PlaywriteHRLijeva_300Light.ttf.png)||
-|![PlaywriteHRLijeva_400Regular](./PlaywriteHRLijeva_400Regular.ttf.png)||||
+|![PlaywriteHRLijeva_100Thin](./100Thin/PlaywriteHRLijeva_100Thin.ttf.png)|![PlaywriteHRLijeva_200ExtraLight](./200ExtraLight/PlaywriteHRLijeva_200ExtraLight.ttf.png)|![PlaywriteHRLijeva_300Light](./300Light/PlaywriteHRLijeva_300Light.ttf.png)||
+|![PlaywriteHRLijeva_400Regular](./400Regular/PlaywriteHRLijeva_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

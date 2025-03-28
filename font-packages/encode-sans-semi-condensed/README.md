@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/encode-sans-semi-condensed expo-font expo-app-loading
+npx expo install @expo-google-fonts/encode-sans-semi-condensed expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, EncodeSansSemiCondensed_100Thin, EncodeSansSemiCondensed_200ExtraLight, EncodeSansSemiCondensed_300Light, EncodeSansSemiCondensed_400Regular, EncodeSansSemiCondensed_500Medium, EncodeSansSemiCondensed_600SemiBold, EncodeSansSemiCondensed_700Bold, EncodeSansSemiCondensed_800ExtraBold, EncodeSansSemiCondensed_900Black } from '@expo-google-fonts/encode-sans-semi-condensed';
+import { useFonts } from '@expo-google-fonts/encode-sans-semi-condensed/useFonts';
+import { EncodeSansSemiCondensed_100Thin } from '@expo-google-fonts/encode-sans-semi-condensed/100Thin';
+import { EncodeSansSemiCondensed_200ExtraLight } from '@expo-google-fonts/encode-sans-semi-condensed/200ExtraLight';
+import { EncodeSansSemiCondensed_300Light } from '@expo-google-fonts/encode-sans-semi-condensed/300Light';
+import { EncodeSansSemiCondensed_400Regular } from '@expo-google-fonts/encode-sans-semi-condensed/400Regular';
+import { EncodeSansSemiCondensed_500Medium } from '@expo-google-fonts/encode-sans-semi-condensed/500Medium';
+import { EncodeSansSemiCondensed_600SemiBold } from '@expo-google-fonts/encode-sans-semi-condensed/600SemiBold';
+import { EncodeSansSemiCondensed_700Bold } from '@expo-google-fonts/encode-sans-semi-condensed/700Bold';
+import { EncodeSansSemiCondensed_800ExtraBold } from '@expo-google-fonts/encode-sans-semi-condensed/800ExtraBold';
+import { EncodeSansSemiCondensed_900Black } from '@expo-google-fonts/encode-sans-semi-condensed/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EncodeSansSemiCondensed_100Thin](./EncodeSansSemiCondensed_100Thin.ttf.png)|![EncodeSansSemiCondensed_200ExtraLight](./EncodeSansSemiCondensed_200ExtraLight.ttf.png)|![EncodeSansSemiCondensed_300Light](./EncodeSansSemiCondensed_300Light.ttf.png)||
-|![EncodeSansSemiCondensed_400Regular](./EncodeSansSemiCondensed_400Regular.ttf.png)|![EncodeSansSemiCondensed_500Medium](./EncodeSansSemiCondensed_500Medium.ttf.png)|![EncodeSansSemiCondensed_600SemiBold](./EncodeSansSemiCondensed_600SemiBold.ttf.png)||
-|![EncodeSansSemiCondensed_700Bold](./EncodeSansSemiCondensed_700Bold.ttf.png)|![EncodeSansSemiCondensed_800ExtraBold](./EncodeSansSemiCondensed_800ExtraBold.ttf.png)|![EncodeSansSemiCondensed_900Black](./EncodeSansSemiCondensed_900Black.ttf.png)||
+|![EncodeSansSemiCondensed_100Thin](./100Thin/EncodeSansSemiCondensed_100Thin.ttf.png)|![EncodeSansSemiCondensed_200ExtraLight](./200ExtraLight/EncodeSansSemiCondensed_200ExtraLight.ttf.png)|![EncodeSansSemiCondensed_300Light](./300Light/EncodeSansSemiCondensed_300Light.ttf.png)||
+|![EncodeSansSemiCondensed_400Regular](./400Regular/EncodeSansSemiCondensed_400Regular.ttf.png)|![EncodeSansSemiCondensed_500Medium](./500Medium/EncodeSansSemiCondensed_500Medium.ttf.png)|![EncodeSansSemiCondensed_600SemiBold](./600SemiBold/EncodeSansSemiCondensed_600SemiBold.ttf.png)||
+|![EncodeSansSemiCondensed_700Bold](./700Bold/EncodeSansSemiCondensed_700Bold.ttf.png)|![EncodeSansSemiCondensed_800ExtraBold](./800ExtraBold/EncodeSansSemiCondensed_800ExtraBold.ttf.png)|![EncodeSansSemiCondensed_900Black](./900Black/EncodeSansSemiCondensed_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

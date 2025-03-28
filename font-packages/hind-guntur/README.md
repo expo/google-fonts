@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/hind-guntur expo-font expo-app-loading
+npx expo install @expo-google-fonts/hind-guntur expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, HindGuntur_300Light, HindGuntur_400Regular, HindGuntur_500Medium, HindGuntur_600SemiBold, HindGuntur_700Bold } from '@expo-google-fonts/hind-guntur';
+import { useFonts } from '@expo-google-fonts/hind-guntur/useFonts';
+import { HindGuntur_300Light } from '@expo-google-fonts/hind-guntur/300Light';
+import { HindGuntur_400Regular } from '@expo-google-fonts/hind-guntur/400Regular';
+import { HindGuntur_500Medium } from '@expo-google-fonts/hind-guntur/500Medium';
+import { HindGuntur_600SemiBold } from '@expo-google-fonts/hind-guntur/600SemiBold';
+import { HindGuntur_700Bold } from '@expo-google-fonts/hind-guntur/700Bold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![HindGuntur_300Light](./HindGuntur_300Light.ttf.png)|![HindGuntur_400Regular](./HindGuntur_400Regular.ttf.png)|![HindGuntur_500Medium](./HindGuntur_500Medium.ttf.png)||
-|![HindGuntur_600SemiBold](./HindGuntur_600SemiBold.ttf.png)|![HindGuntur_700Bold](./HindGuntur_700Bold.ttf.png)|||
+|![HindGuntur_300Light](./300Light/HindGuntur_300Light.ttf.png)|![HindGuntur_400Regular](./400Regular/HindGuntur_400Regular.ttf.png)|![HindGuntur_500Medium](./500Medium/HindGuntur_500Medium.ttf.png)||
+|![HindGuntur_600SemiBold](./600SemiBold/HindGuntur_600SemiBold.ttf.png)|![HindGuntur_700Bold](./700Bold/HindGuntur_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

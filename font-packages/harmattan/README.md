@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/harmattan expo-font expo-app-loading
+npx expo install @expo-google-fonts/harmattan expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Harmattan_400Regular, Harmattan_500Medium, Harmattan_600SemiBold, Harmattan_700Bold } from '@expo-google-fonts/harmattan';
+import { useFonts } from '@expo-google-fonts/harmattan/useFonts';
+import { Harmattan_400Regular } from '@expo-google-fonts/harmattan/400Regular';
+import { Harmattan_500Medium } from '@expo-google-fonts/harmattan/500Medium';
+import { Harmattan_600SemiBold } from '@expo-google-fonts/harmattan/600SemiBold';
+import { Harmattan_700Bold } from '@expo-google-fonts/harmattan/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Harmattan_400Regular](./Harmattan_400Regular.ttf.png)|![Harmattan_500Medium](./Harmattan_500Medium.ttf.png)|![Harmattan_600SemiBold](./Harmattan_600SemiBold.ttf.png)||
-|![Harmattan_700Bold](./Harmattan_700Bold.ttf.png)||||
+|![Harmattan_400Regular](./400Regular/Harmattan_400Regular.ttf.png)|![Harmattan_500Medium](./500Medium/Harmattan_500Medium.ttf.png)|![Harmattan_600SemiBold](./600SemiBold/Harmattan_600SemiBold.ttf.png)||
+|![Harmattan_700Bold](./700Bold/Harmattan_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

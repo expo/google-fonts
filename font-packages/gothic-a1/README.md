@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/gothic-a1 expo-font expo-app-loading
+npx expo install @expo-google-fonts/gothic-a1 expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, GothicA1_100Thin, GothicA1_200ExtraLight, GothicA1_300Light, GothicA1_400Regular, GothicA1_500Medium, GothicA1_600SemiBold, GothicA1_700Bold, GothicA1_800ExtraBold, GothicA1_900Black } from '@expo-google-fonts/gothic-a1';
+import { useFonts } from '@expo-google-fonts/gothic-a1/useFonts';
+import { GothicA1_100Thin } from '@expo-google-fonts/gothic-a1/100Thin';
+import { GothicA1_200ExtraLight } from '@expo-google-fonts/gothic-a1/200ExtraLight';
+import { GothicA1_300Light } from '@expo-google-fonts/gothic-a1/300Light';
+import { GothicA1_400Regular } from '@expo-google-fonts/gothic-a1/400Regular';
+import { GothicA1_500Medium } from '@expo-google-fonts/gothic-a1/500Medium';
+import { GothicA1_600SemiBold } from '@expo-google-fonts/gothic-a1/600SemiBold';
+import { GothicA1_700Bold } from '@expo-google-fonts/gothic-a1/700Bold';
+import { GothicA1_800ExtraBold } from '@expo-google-fonts/gothic-a1/800ExtraBold';
+import { GothicA1_900Black } from '@expo-google-fonts/gothic-a1/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GothicA1_100Thin](./GothicA1_100Thin.ttf.png)|![GothicA1_200ExtraLight](./GothicA1_200ExtraLight.ttf.png)|![GothicA1_300Light](./GothicA1_300Light.ttf.png)||
-|![GothicA1_400Regular](./GothicA1_400Regular.ttf.png)|![GothicA1_500Medium](./GothicA1_500Medium.ttf.png)|![GothicA1_600SemiBold](./GothicA1_600SemiBold.ttf.png)||
-|![GothicA1_700Bold](./GothicA1_700Bold.ttf.png)|![GothicA1_800ExtraBold](./GothicA1_800ExtraBold.ttf.png)|![GothicA1_900Black](./GothicA1_900Black.ttf.png)||
+|![GothicA1_100Thin](./100Thin/GothicA1_100Thin.ttf.png)|![GothicA1_200ExtraLight](./200ExtraLight/GothicA1_200ExtraLight.ttf.png)|![GothicA1_300Light](./300Light/GothicA1_300Light.ttf.png)||
+|![GothicA1_400Regular](./400Regular/GothicA1_400Regular.ttf.png)|![GothicA1_500Medium](./500Medium/GothicA1_500Medium.ttf.png)|![GothicA1_600SemiBold](./600SemiBold/GothicA1_600SemiBold.ttf.png)||
+|![GothicA1_700Bold](./700Bold/GothicA1_700Bold.ttf.png)|![GothicA1_800ExtraBold](./800ExtraBold/GothicA1_800ExtraBold.ttf.png)|![GothicA1_900Black](./900Black/GothicA1_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/atma expo-font expo-app-loading
+npx expo install @expo-google-fonts/atma expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Atma_300Light, Atma_400Regular, Atma_500Medium, Atma_600SemiBold, Atma_700Bold } from '@expo-google-fonts/atma';
+import { useFonts } from '@expo-google-fonts/atma/useFonts';
+import { Atma_300Light } from '@expo-google-fonts/atma/300Light';
+import { Atma_400Regular } from '@expo-google-fonts/atma/400Regular';
+import { Atma_500Medium } from '@expo-google-fonts/atma/500Medium';
+import { Atma_600SemiBold } from '@expo-google-fonts/atma/600SemiBold';
+import { Atma_700Bold } from '@expo-google-fonts/atma/700Bold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Atma_300Light](./Atma_300Light.ttf.png)|![Atma_400Regular](./Atma_400Regular.ttf.png)|![Atma_500Medium](./Atma_500Medium.ttf.png)||
-|![Atma_600SemiBold](./Atma_600SemiBold.ttf.png)|![Atma_700Bold](./Atma_700Bold.ttf.png)|||
+|![Atma_300Light](./300Light/Atma_300Light.ttf.png)|![Atma_400Regular](./400Regular/Atma_400Regular.ttf.png)|![Atma_500Medium](./500Medium/Atma_500Medium.ttf.png)||
+|![Atma_600SemiBold](./600SemiBold/Atma_600SemiBold.ttf.png)|![Atma_700Bold](./700Bold/Atma_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

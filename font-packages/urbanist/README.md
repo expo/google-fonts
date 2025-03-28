@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/urbanist expo-font expo-app-loading
+npx expo install @expo-google-fonts/urbanist expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Urbanist_100Thin, Urbanist_200ExtraLight, Urbanist_300Light, Urbanist_400Regular, Urbanist_500Medium, Urbanist_600SemiBold, Urbanist_700Bold, Urbanist_800ExtraBold, Urbanist_900Black, Urbanist_100Thin_Italic, Urbanist_200ExtraLight_Italic, Urbanist_300Light_Italic, Urbanist_400Regular_Italic, Urbanist_500Medium_Italic, Urbanist_600SemiBold_Italic, Urbanist_700Bold_Italic, Urbanist_800ExtraBold_Italic, Urbanist_900Black_Italic } from '@expo-google-fonts/urbanist';
+import { useFonts } from '@expo-google-fonts/urbanist/useFonts';
+import { Urbanist_100Thin } from '@expo-google-fonts/urbanist/100Thin';
+import { Urbanist_200ExtraLight } from '@expo-google-fonts/urbanist/200ExtraLight';
+import { Urbanist_300Light } from '@expo-google-fonts/urbanist/300Light';
+import { Urbanist_400Regular } from '@expo-google-fonts/urbanist/400Regular';
+import { Urbanist_500Medium } from '@expo-google-fonts/urbanist/500Medium';
+import { Urbanist_600SemiBold } from '@expo-google-fonts/urbanist/600SemiBold';
+import { Urbanist_700Bold } from '@expo-google-fonts/urbanist/700Bold';
+import { Urbanist_800ExtraBold } from '@expo-google-fonts/urbanist/800ExtraBold';
+import { Urbanist_900Black } from '@expo-google-fonts/urbanist/900Black';
+import { Urbanist_100Thin_Italic } from '@expo-google-fonts/urbanist/100Thin_Italic';
+import { Urbanist_200ExtraLight_Italic } from '@expo-google-fonts/urbanist/200ExtraLight_Italic';
+import { Urbanist_300Light_Italic } from '@expo-google-fonts/urbanist/300Light_Italic';
+import { Urbanist_400Regular_Italic } from '@expo-google-fonts/urbanist/400Regular_Italic';
+import { Urbanist_500Medium_Italic } from '@expo-google-fonts/urbanist/500Medium_Italic';
+import { Urbanist_600SemiBold_Italic } from '@expo-google-fonts/urbanist/600SemiBold_Italic';
+import { Urbanist_700Bold_Italic } from '@expo-google-fonts/urbanist/700Bold_Italic';
+import { Urbanist_800ExtraBold_Italic } from '@expo-google-fonts/urbanist/800ExtraBold_Italic';
+import { Urbanist_900Black_Italic } from '@expo-google-fonts/urbanist/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Urbanist_100Thin](./Urbanist_100Thin.ttf.png)|![Urbanist_200ExtraLight](./Urbanist_200ExtraLight.ttf.png)|![Urbanist_300Light](./Urbanist_300Light.ttf.png)||
-|![Urbanist_400Regular](./Urbanist_400Regular.ttf.png)|![Urbanist_500Medium](./Urbanist_500Medium.ttf.png)|![Urbanist_600SemiBold](./Urbanist_600SemiBold.ttf.png)||
-|![Urbanist_700Bold](./Urbanist_700Bold.ttf.png)|![Urbanist_800ExtraBold](./Urbanist_800ExtraBold.ttf.png)|![Urbanist_900Black](./Urbanist_900Black.ttf.png)||
-|![Urbanist_100Thin_Italic](./Urbanist_100Thin_Italic.ttf.png)|![Urbanist_200ExtraLight_Italic](./Urbanist_200ExtraLight_Italic.ttf.png)|![Urbanist_300Light_Italic](./Urbanist_300Light_Italic.ttf.png)||
-|![Urbanist_400Regular_Italic](./Urbanist_400Regular_Italic.ttf.png)|![Urbanist_500Medium_Italic](./Urbanist_500Medium_Italic.ttf.png)|![Urbanist_600SemiBold_Italic](./Urbanist_600SemiBold_Italic.ttf.png)||
-|![Urbanist_700Bold_Italic](./Urbanist_700Bold_Italic.ttf.png)|![Urbanist_800ExtraBold_Italic](./Urbanist_800ExtraBold_Italic.ttf.png)|![Urbanist_900Black_Italic](./Urbanist_900Black_Italic.ttf.png)||
+|![Urbanist_100Thin](./100Thin/Urbanist_100Thin.ttf.png)|![Urbanist_200ExtraLight](./200ExtraLight/Urbanist_200ExtraLight.ttf.png)|![Urbanist_300Light](./300Light/Urbanist_300Light.ttf.png)||
+|![Urbanist_400Regular](./400Regular/Urbanist_400Regular.ttf.png)|![Urbanist_500Medium](./500Medium/Urbanist_500Medium.ttf.png)|![Urbanist_600SemiBold](./600SemiBold/Urbanist_600SemiBold.ttf.png)||
+|![Urbanist_700Bold](./700Bold/Urbanist_700Bold.ttf.png)|![Urbanist_800ExtraBold](./800ExtraBold/Urbanist_800ExtraBold.ttf.png)|![Urbanist_900Black](./900Black/Urbanist_900Black.ttf.png)||
+|![Urbanist_100Thin_Italic](./100Thin_Italic/Urbanist_100Thin_Italic.ttf.png)|![Urbanist_200ExtraLight_Italic](./200ExtraLight_Italic/Urbanist_200ExtraLight_Italic.ttf.png)|![Urbanist_300Light_Italic](./300Light_Italic/Urbanist_300Light_Italic.ttf.png)||
+|![Urbanist_400Regular_Italic](./400Regular_Italic/Urbanist_400Regular_Italic.ttf.png)|![Urbanist_500Medium_Italic](./500Medium_Italic/Urbanist_500Medium_Italic.ttf.png)|![Urbanist_600SemiBold_Italic](./600SemiBold_Italic/Urbanist_600SemiBold_Italic.ttf.png)||
+|![Urbanist_700Bold_Italic](./700Bold_Italic/Urbanist_700Bold_Italic.ttf.png)|![Urbanist_800ExtraBold_Italic](./800ExtraBold_Italic/Urbanist_800ExtraBold_Italic.ttf.png)|![Urbanist_900Black_Italic](./900Black_Italic/Urbanist_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

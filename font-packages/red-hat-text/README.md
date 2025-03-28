@@ -29,7 +29,7 @@ This font family contains [10 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/red-hat-text expo-font expo-app-loading
+npx expo install @expo-google-fonts/red-hat-text expo-font
 ```
 
 Now add code like this to your project
@@ -38,8 +38,17 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, RedHatText_300Light, RedHatText_400Regular, RedHatText_500Medium, RedHatText_600SemiBold, RedHatText_700Bold, RedHatText_300Light_Italic, RedHatText_400Regular_Italic, RedHatText_500Medium_Italic, RedHatText_600SemiBold_Italic, RedHatText_700Bold_Italic } from '@expo-google-fonts/red-hat-text';
+import { useFonts } from '@expo-google-fonts/red-hat-text/useFonts';
+import { RedHatText_300Light } from '@expo-google-fonts/red-hat-text/300Light';
+import { RedHatText_400Regular } from '@expo-google-fonts/red-hat-text/400Regular';
+import { RedHatText_500Medium } from '@expo-google-fonts/red-hat-text/500Medium';
+import { RedHatText_600SemiBold } from '@expo-google-fonts/red-hat-text/600SemiBold';
+import { RedHatText_700Bold } from '@expo-google-fonts/red-hat-text/700Bold';
+import { RedHatText_300Light_Italic } from '@expo-google-fonts/red-hat-text/300Light_Italic';
+import { RedHatText_400Regular_Italic } from '@expo-google-fonts/red-hat-text/400Regular_Italic';
+import { RedHatText_500Medium_Italic } from '@expo-google-fonts/red-hat-text/500Medium_Italic';
+import { RedHatText_600SemiBold_Italic } from '@expo-google-fonts/red-hat-text/600SemiBold_Italic';
+import { RedHatText_700Bold_Italic } from '@expo-google-fonts/red-hat-text/700Bold_Italic';
 
 export default () => {
 
@@ -60,7 +69,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -155,10 +164,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RedHatText_300Light](./RedHatText_300Light.ttf.png)|![RedHatText_400Regular](./RedHatText_400Regular.ttf.png)|![RedHatText_500Medium](./RedHatText_500Medium.ttf.png)||
-|![RedHatText_600SemiBold](./RedHatText_600SemiBold.ttf.png)|![RedHatText_700Bold](./RedHatText_700Bold.ttf.png)|![RedHatText_300Light_Italic](./RedHatText_300Light_Italic.ttf.png)||
-|![RedHatText_400Regular_Italic](./RedHatText_400Regular_Italic.ttf.png)|![RedHatText_500Medium_Italic](./RedHatText_500Medium_Italic.ttf.png)|![RedHatText_600SemiBold_Italic](./RedHatText_600SemiBold_Italic.ttf.png)||
-|![RedHatText_700Bold_Italic](./RedHatText_700Bold_Italic.ttf.png)||||
+|![RedHatText_300Light](./300Light/RedHatText_300Light.ttf.png)|![RedHatText_400Regular](./400Regular/RedHatText_400Regular.ttf.png)|![RedHatText_500Medium](./500Medium/RedHatText_500Medium.ttf.png)||
+|![RedHatText_600SemiBold](./600SemiBold/RedHatText_600SemiBold.ttf.png)|![RedHatText_700Bold](./700Bold/RedHatText_700Bold.ttf.png)|![RedHatText_300Light_Italic](./300Light_Italic/RedHatText_300Light_Italic.ttf.png)||
+|![RedHatText_400Regular_Italic](./400Regular_Italic/RedHatText_400Regular_Italic.ttf.png)|![RedHatText_500Medium_Italic](./500Medium_Italic/RedHatText_500Medium_Italic.ttf.png)|![RedHatText_600SemiBold_Italic](./600SemiBold_Italic/RedHatText_600SemiBold_Italic.ttf.png)||
+|![RedHatText_700Bold_Italic](./700Bold_Italic/RedHatText_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

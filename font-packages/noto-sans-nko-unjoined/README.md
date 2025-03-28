@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-nko-unjoined expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-nko-unjoined expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansNKoUnjoined_400Regular, NotoSansNKoUnjoined_500Medium, NotoSansNKoUnjoined_600SemiBold, NotoSansNKoUnjoined_700Bold } from '@expo-google-fonts/noto-sans-nko-unjoined';
+import { useFonts } from '@expo-google-fonts/noto-sans-nko-unjoined/useFonts';
+import { NotoSansNKoUnjoined_400Regular } from '@expo-google-fonts/noto-sans-nko-unjoined/400Regular';
+import { NotoSansNKoUnjoined_500Medium } from '@expo-google-fonts/noto-sans-nko-unjoined/500Medium';
+import { NotoSansNKoUnjoined_600SemiBold } from '@expo-google-fonts/noto-sans-nko-unjoined/600SemiBold';
+import { NotoSansNKoUnjoined_700Bold } from '@expo-google-fonts/noto-sans-nko-unjoined/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansNKoUnjoined_400Regular](./NotoSansNKoUnjoined_400Regular.ttf.png)|![NotoSansNKoUnjoined_500Medium](./NotoSansNKoUnjoined_500Medium.ttf.png)|![NotoSansNKoUnjoined_600SemiBold](./NotoSansNKoUnjoined_600SemiBold.ttf.png)||
-|![NotoSansNKoUnjoined_700Bold](./NotoSansNKoUnjoined_700Bold.ttf.png)||||
+|![NotoSansNKoUnjoined_400Regular](./400Regular/NotoSansNKoUnjoined_400Regular.ttf.png)|![NotoSansNKoUnjoined_500Medium](./500Medium/NotoSansNKoUnjoined_500Medium.ttf.png)|![NotoSansNKoUnjoined_600SemiBold](./600SemiBold/NotoSansNKoUnjoined_600SemiBold.ttf.png)||
+|![NotoSansNKoUnjoined_700Bold](./700Bold/NotoSansNKoUnjoined_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

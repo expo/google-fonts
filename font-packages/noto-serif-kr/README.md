@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-kr expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-kr expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifKR_200ExtraLight, NotoSerifKR_300Light, NotoSerifKR_400Regular, NotoSerifKR_500Medium, NotoSerifKR_600SemiBold, NotoSerifKR_700Bold, NotoSerifKR_800ExtraBold, NotoSerifKR_900Black } from '@expo-google-fonts/noto-serif-kr';
+import { useFonts } from '@expo-google-fonts/noto-serif-kr/useFonts';
+import { NotoSerifKR_200ExtraLight } from '@expo-google-fonts/noto-serif-kr/200ExtraLight';
+import { NotoSerifKR_300Light } from '@expo-google-fonts/noto-serif-kr/300Light';
+import { NotoSerifKR_400Regular } from '@expo-google-fonts/noto-serif-kr/400Regular';
+import { NotoSerifKR_500Medium } from '@expo-google-fonts/noto-serif-kr/500Medium';
+import { NotoSerifKR_600SemiBold } from '@expo-google-fonts/noto-serif-kr/600SemiBold';
+import { NotoSerifKR_700Bold } from '@expo-google-fonts/noto-serif-kr/700Bold';
+import { NotoSerifKR_800ExtraBold } from '@expo-google-fonts/noto-serif-kr/800ExtraBold';
+import { NotoSerifKR_900Black } from '@expo-google-fonts/noto-serif-kr/900Black';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifKR_200ExtraLight](./NotoSerifKR_200ExtraLight.ttf.png)|![NotoSerifKR_300Light](./NotoSerifKR_300Light.ttf.png)|![NotoSerifKR_400Regular](./NotoSerifKR_400Regular.ttf.png)||
-|![NotoSerifKR_500Medium](./NotoSerifKR_500Medium.ttf.png)|![NotoSerifKR_600SemiBold](./NotoSerifKR_600SemiBold.ttf.png)|![NotoSerifKR_700Bold](./NotoSerifKR_700Bold.ttf.png)||
-|![NotoSerifKR_800ExtraBold](./NotoSerifKR_800ExtraBold.ttf.png)|![NotoSerifKR_900Black](./NotoSerifKR_900Black.ttf.png)|||
+|![NotoSerifKR_200ExtraLight](./200ExtraLight/NotoSerifKR_200ExtraLight.ttf.png)|![NotoSerifKR_300Light](./300Light/NotoSerifKR_300Light.ttf.png)|![NotoSerifKR_400Regular](./400Regular/NotoSerifKR_400Regular.ttf.png)||
+|![NotoSerifKR_500Medium](./500Medium/NotoSerifKR_500Medium.ttf.png)|![NotoSerifKR_600SemiBold](./600SemiBold/NotoSerifKR_600SemiBold.ttf.png)|![NotoSerifKR_700Bold](./700Bold/NotoSerifKR_700Bold.ttf.png)||
+|![NotoSerifKR_800ExtraBold](./800ExtraBold/NotoSerifKR_800ExtraBold.ttf.png)|![NotoSerifKR_900Black](./900Black/NotoSerifKR_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

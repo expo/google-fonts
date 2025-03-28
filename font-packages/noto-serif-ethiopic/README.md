@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-ethiopic expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-ethiopic expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifEthiopic_100Thin, NotoSerifEthiopic_200ExtraLight, NotoSerifEthiopic_300Light, NotoSerifEthiopic_400Regular, NotoSerifEthiopic_500Medium, NotoSerifEthiopic_600SemiBold, NotoSerifEthiopic_700Bold, NotoSerifEthiopic_800ExtraBold, NotoSerifEthiopic_900Black } from '@expo-google-fonts/noto-serif-ethiopic';
+import { useFonts } from '@expo-google-fonts/noto-serif-ethiopic/useFonts';
+import { NotoSerifEthiopic_100Thin } from '@expo-google-fonts/noto-serif-ethiopic/100Thin';
+import { NotoSerifEthiopic_200ExtraLight } from '@expo-google-fonts/noto-serif-ethiopic/200ExtraLight';
+import { NotoSerifEthiopic_300Light } from '@expo-google-fonts/noto-serif-ethiopic/300Light';
+import { NotoSerifEthiopic_400Regular } from '@expo-google-fonts/noto-serif-ethiopic/400Regular';
+import { NotoSerifEthiopic_500Medium } from '@expo-google-fonts/noto-serif-ethiopic/500Medium';
+import { NotoSerifEthiopic_600SemiBold } from '@expo-google-fonts/noto-serif-ethiopic/600SemiBold';
+import { NotoSerifEthiopic_700Bold } from '@expo-google-fonts/noto-serif-ethiopic/700Bold';
+import { NotoSerifEthiopic_800ExtraBold } from '@expo-google-fonts/noto-serif-ethiopic/800ExtraBold';
+import { NotoSerifEthiopic_900Black } from '@expo-google-fonts/noto-serif-ethiopic/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifEthiopic_100Thin](./NotoSerifEthiopic_100Thin.ttf.png)|![NotoSerifEthiopic_200ExtraLight](./NotoSerifEthiopic_200ExtraLight.ttf.png)|![NotoSerifEthiopic_300Light](./NotoSerifEthiopic_300Light.ttf.png)||
-|![NotoSerifEthiopic_400Regular](./NotoSerifEthiopic_400Regular.ttf.png)|![NotoSerifEthiopic_500Medium](./NotoSerifEthiopic_500Medium.ttf.png)|![NotoSerifEthiopic_600SemiBold](./NotoSerifEthiopic_600SemiBold.ttf.png)||
-|![NotoSerifEthiopic_700Bold](./NotoSerifEthiopic_700Bold.ttf.png)|![NotoSerifEthiopic_800ExtraBold](./NotoSerifEthiopic_800ExtraBold.ttf.png)|![NotoSerifEthiopic_900Black](./NotoSerifEthiopic_900Black.ttf.png)||
+|![NotoSerifEthiopic_100Thin](./100Thin/NotoSerifEthiopic_100Thin.ttf.png)|![NotoSerifEthiopic_200ExtraLight](./200ExtraLight/NotoSerifEthiopic_200ExtraLight.ttf.png)|![NotoSerifEthiopic_300Light](./300Light/NotoSerifEthiopic_300Light.ttf.png)||
+|![NotoSerifEthiopic_400Regular](./400Regular/NotoSerifEthiopic_400Regular.ttf.png)|![NotoSerifEthiopic_500Medium](./500Medium/NotoSerifEthiopic_500Medium.ttf.png)|![NotoSerifEthiopic_600SemiBold](./600SemiBold/NotoSerifEthiopic_600SemiBold.ttf.png)||
+|![NotoSerifEthiopic_700Bold](./700Bold/NotoSerifEthiopic_700Bold.ttf.png)|![NotoSerifEthiopic_800ExtraBold](./800ExtraBold/NotoSerifEthiopic_800ExtraBold.ttf.png)|![NotoSerifEthiopic_900Black](./900Black/NotoSerifEthiopic_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

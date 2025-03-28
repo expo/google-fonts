@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/anek-telugu expo-font expo-app-loading
+npx expo install @expo-google-fonts/anek-telugu expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, AnekTelugu_100Thin, AnekTelugu_200ExtraLight, AnekTelugu_300Light, AnekTelugu_400Regular, AnekTelugu_500Medium, AnekTelugu_600SemiBold, AnekTelugu_700Bold, AnekTelugu_800ExtraBold } from '@expo-google-fonts/anek-telugu';
+import { useFonts } from '@expo-google-fonts/anek-telugu/useFonts';
+import { AnekTelugu_100Thin } from '@expo-google-fonts/anek-telugu/100Thin';
+import { AnekTelugu_200ExtraLight } from '@expo-google-fonts/anek-telugu/200ExtraLight';
+import { AnekTelugu_300Light } from '@expo-google-fonts/anek-telugu/300Light';
+import { AnekTelugu_400Regular } from '@expo-google-fonts/anek-telugu/400Regular';
+import { AnekTelugu_500Medium } from '@expo-google-fonts/anek-telugu/500Medium';
+import { AnekTelugu_600SemiBold } from '@expo-google-fonts/anek-telugu/600SemiBold';
+import { AnekTelugu_700Bold } from '@expo-google-fonts/anek-telugu/700Bold';
+import { AnekTelugu_800ExtraBold } from '@expo-google-fonts/anek-telugu/800ExtraBold';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnekTelugu_100Thin](./AnekTelugu_100Thin.ttf.png)|![AnekTelugu_200ExtraLight](./AnekTelugu_200ExtraLight.ttf.png)|![AnekTelugu_300Light](./AnekTelugu_300Light.ttf.png)||
-|![AnekTelugu_400Regular](./AnekTelugu_400Regular.ttf.png)|![AnekTelugu_500Medium](./AnekTelugu_500Medium.ttf.png)|![AnekTelugu_600SemiBold](./AnekTelugu_600SemiBold.ttf.png)||
-|![AnekTelugu_700Bold](./AnekTelugu_700Bold.ttf.png)|![AnekTelugu_800ExtraBold](./AnekTelugu_800ExtraBold.ttf.png)|||
+|![AnekTelugu_100Thin](./100Thin/AnekTelugu_100Thin.ttf.png)|![AnekTelugu_200ExtraLight](./200ExtraLight/AnekTelugu_200ExtraLight.ttf.png)|![AnekTelugu_300Light](./300Light/AnekTelugu_300Light.ttf.png)||
+|![AnekTelugu_400Regular](./400Regular/AnekTelugu_400Regular.ttf.png)|![AnekTelugu_500Medium](./500Medium/AnekTelugu_500Medium.ttf.png)|![AnekTelugu_600SemiBold](./600SemiBold/AnekTelugu_600SemiBold.ttf.png)||
+|![AnekTelugu_700Bold](./700Bold/AnekTelugu_700Bold.ttf.png)|![AnekTelugu_800ExtraBold](./800ExtraBold/AnekTelugu_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -33,7 +33,7 @@ This font family contains [14 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/merriweather expo-font expo-app-loading
+npx expo install @expo-google-fonts/merriweather expo-font
 ```
 
 Now add code like this to your project
@@ -42,8 +42,21 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Merriweather_300Light, Merriweather_400Regular, Merriweather_500Medium, Merriweather_600SemiBold, Merriweather_700Bold, Merriweather_800ExtraBold, Merriweather_900Black, Merriweather_300Light_Italic, Merriweather_400Regular_Italic, Merriweather_500Medium_Italic, Merriweather_600SemiBold_Italic, Merriweather_700Bold_Italic, Merriweather_800ExtraBold_Italic, Merriweather_900Black_Italic } from '@expo-google-fonts/merriweather';
+import { useFonts } from '@expo-google-fonts/merriweather/useFonts';
+import { Merriweather_300Light } from '@expo-google-fonts/merriweather/300Light';
+import { Merriweather_400Regular } from '@expo-google-fonts/merriweather/400Regular';
+import { Merriweather_500Medium } from '@expo-google-fonts/merriweather/500Medium';
+import { Merriweather_600SemiBold } from '@expo-google-fonts/merriweather/600SemiBold';
+import { Merriweather_700Bold } from '@expo-google-fonts/merriweather/700Bold';
+import { Merriweather_800ExtraBold } from '@expo-google-fonts/merriweather/800ExtraBold';
+import { Merriweather_900Black } from '@expo-google-fonts/merriweather/900Black';
+import { Merriweather_300Light_Italic } from '@expo-google-fonts/merriweather/300Light_Italic';
+import { Merriweather_400Regular_Italic } from '@expo-google-fonts/merriweather/400Regular_Italic';
+import { Merriweather_500Medium_Italic } from '@expo-google-fonts/merriweather/500Medium_Italic';
+import { Merriweather_600SemiBold_Italic } from '@expo-google-fonts/merriweather/600SemiBold_Italic';
+import { Merriweather_700Bold_Italic } from '@expo-google-fonts/merriweather/700Bold_Italic';
+import { Merriweather_800ExtraBold_Italic } from '@expo-google-fonts/merriweather/800ExtraBold_Italic';
+import { Merriweather_900Black_Italic } from '@expo-google-fonts/merriweather/900Black_Italic';
 
 export default () => {
 
@@ -68,7 +81,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -195,11 +208,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Merriweather_300Light](./Merriweather_300Light.ttf.png)|![Merriweather_400Regular](./Merriweather_400Regular.ttf.png)|![Merriweather_500Medium](./Merriweather_500Medium.ttf.png)||
-|![Merriweather_600SemiBold](./Merriweather_600SemiBold.ttf.png)|![Merriweather_700Bold](./Merriweather_700Bold.ttf.png)|![Merriweather_800ExtraBold](./Merriweather_800ExtraBold.ttf.png)||
-|![Merriweather_900Black](./Merriweather_900Black.ttf.png)|![Merriweather_300Light_Italic](./Merriweather_300Light_Italic.ttf.png)|![Merriweather_400Regular_Italic](./Merriweather_400Regular_Italic.ttf.png)||
-|![Merriweather_500Medium_Italic](./Merriweather_500Medium_Italic.ttf.png)|![Merriweather_600SemiBold_Italic](./Merriweather_600SemiBold_Italic.ttf.png)|![Merriweather_700Bold_Italic](./Merriweather_700Bold_Italic.ttf.png)||
-|![Merriweather_800ExtraBold_Italic](./Merriweather_800ExtraBold_Italic.ttf.png)|![Merriweather_900Black_Italic](./Merriweather_900Black_Italic.ttf.png)|||
+|![Merriweather_300Light](./300Light/Merriweather_300Light.ttf.png)|![Merriweather_400Regular](./400Regular/Merriweather_400Regular.ttf.png)|![Merriweather_500Medium](./500Medium/Merriweather_500Medium.ttf.png)||
+|![Merriweather_600SemiBold](./600SemiBold/Merriweather_600SemiBold.ttf.png)|![Merriweather_700Bold](./700Bold/Merriweather_700Bold.ttf.png)|![Merriweather_800ExtraBold](./800ExtraBold/Merriweather_800ExtraBold.ttf.png)||
+|![Merriweather_900Black](./900Black/Merriweather_900Black.ttf.png)|![Merriweather_300Light_Italic](./300Light_Italic/Merriweather_300Light_Italic.ttf.png)|![Merriweather_400Regular_Italic](./400Regular_Italic/Merriweather_400Regular_Italic.ttf.png)||
+|![Merriweather_500Medium_Italic](./500Medium_Italic/Merriweather_500Medium_Italic.ttf.png)|![Merriweather_600SemiBold_Italic](./600SemiBold_Italic/Merriweather_600SemiBold_Italic.ttf.png)|![Merriweather_700Bold_Italic](./700Bold_Italic/Merriweather_700Bold_Italic.ttf.png)||
+|![Merriweather_800ExtraBold_Italic](./800ExtraBold_Italic/Merriweather_800ExtraBold_Italic.ttf.png)|![Merriweather_900Black_Italic](./900Black_Italic/Merriweather_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

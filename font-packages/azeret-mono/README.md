@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/azeret-mono expo-font expo-app-loading
+npx expo install @expo-google-fonts/azeret-mono expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, AzeretMono_100Thin, AzeretMono_200ExtraLight, AzeretMono_300Light, AzeretMono_400Regular, AzeretMono_500Medium, AzeretMono_600SemiBold, AzeretMono_700Bold, AzeretMono_800ExtraBold, AzeretMono_900Black, AzeretMono_100Thin_Italic, AzeretMono_200ExtraLight_Italic, AzeretMono_300Light_Italic, AzeretMono_400Regular_Italic, AzeretMono_500Medium_Italic, AzeretMono_600SemiBold_Italic, AzeretMono_700Bold_Italic, AzeretMono_800ExtraBold_Italic, AzeretMono_900Black_Italic } from '@expo-google-fonts/azeret-mono';
+import { useFonts } from '@expo-google-fonts/azeret-mono/useFonts';
+import { AzeretMono_100Thin } from '@expo-google-fonts/azeret-mono/100Thin';
+import { AzeretMono_200ExtraLight } from '@expo-google-fonts/azeret-mono/200ExtraLight';
+import { AzeretMono_300Light } from '@expo-google-fonts/azeret-mono/300Light';
+import { AzeretMono_400Regular } from '@expo-google-fonts/azeret-mono/400Regular';
+import { AzeretMono_500Medium } from '@expo-google-fonts/azeret-mono/500Medium';
+import { AzeretMono_600SemiBold } from '@expo-google-fonts/azeret-mono/600SemiBold';
+import { AzeretMono_700Bold } from '@expo-google-fonts/azeret-mono/700Bold';
+import { AzeretMono_800ExtraBold } from '@expo-google-fonts/azeret-mono/800ExtraBold';
+import { AzeretMono_900Black } from '@expo-google-fonts/azeret-mono/900Black';
+import { AzeretMono_100Thin_Italic } from '@expo-google-fonts/azeret-mono/100Thin_Italic';
+import { AzeretMono_200ExtraLight_Italic } from '@expo-google-fonts/azeret-mono/200ExtraLight_Italic';
+import { AzeretMono_300Light_Italic } from '@expo-google-fonts/azeret-mono/300Light_Italic';
+import { AzeretMono_400Regular_Italic } from '@expo-google-fonts/azeret-mono/400Regular_Italic';
+import { AzeretMono_500Medium_Italic } from '@expo-google-fonts/azeret-mono/500Medium_Italic';
+import { AzeretMono_600SemiBold_Italic } from '@expo-google-fonts/azeret-mono/600SemiBold_Italic';
+import { AzeretMono_700Bold_Italic } from '@expo-google-fonts/azeret-mono/700Bold_Italic';
+import { AzeretMono_800ExtraBold_Italic } from '@expo-google-fonts/azeret-mono/800ExtraBold_Italic';
+import { AzeretMono_900Black_Italic } from '@expo-google-fonts/azeret-mono/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AzeretMono_100Thin](./AzeretMono_100Thin.ttf.png)|![AzeretMono_200ExtraLight](./AzeretMono_200ExtraLight.ttf.png)|![AzeretMono_300Light](./AzeretMono_300Light.ttf.png)||
-|![AzeretMono_400Regular](./AzeretMono_400Regular.ttf.png)|![AzeretMono_500Medium](./AzeretMono_500Medium.ttf.png)|![AzeretMono_600SemiBold](./AzeretMono_600SemiBold.ttf.png)||
-|![AzeretMono_700Bold](./AzeretMono_700Bold.ttf.png)|![AzeretMono_800ExtraBold](./AzeretMono_800ExtraBold.ttf.png)|![AzeretMono_900Black](./AzeretMono_900Black.ttf.png)||
-|![AzeretMono_100Thin_Italic](./AzeretMono_100Thin_Italic.ttf.png)|![AzeretMono_200ExtraLight_Italic](./AzeretMono_200ExtraLight_Italic.ttf.png)|![AzeretMono_300Light_Italic](./AzeretMono_300Light_Italic.ttf.png)||
-|![AzeretMono_400Regular_Italic](./AzeretMono_400Regular_Italic.ttf.png)|![AzeretMono_500Medium_Italic](./AzeretMono_500Medium_Italic.ttf.png)|![AzeretMono_600SemiBold_Italic](./AzeretMono_600SemiBold_Italic.ttf.png)||
-|![AzeretMono_700Bold_Italic](./AzeretMono_700Bold_Italic.ttf.png)|![AzeretMono_800ExtraBold_Italic](./AzeretMono_800ExtraBold_Italic.ttf.png)|![AzeretMono_900Black_Italic](./AzeretMono_900Black_Italic.ttf.png)||
+|![AzeretMono_100Thin](./100Thin/AzeretMono_100Thin.ttf.png)|![AzeretMono_200ExtraLight](./200ExtraLight/AzeretMono_200ExtraLight.ttf.png)|![AzeretMono_300Light](./300Light/AzeretMono_300Light.ttf.png)||
+|![AzeretMono_400Regular](./400Regular/AzeretMono_400Regular.ttf.png)|![AzeretMono_500Medium](./500Medium/AzeretMono_500Medium.ttf.png)|![AzeretMono_600SemiBold](./600SemiBold/AzeretMono_600SemiBold.ttf.png)||
+|![AzeretMono_700Bold](./700Bold/AzeretMono_700Bold.ttf.png)|![AzeretMono_800ExtraBold](./800ExtraBold/AzeretMono_800ExtraBold.ttf.png)|![AzeretMono_900Black](./900Black/AzeretMono_900Black.ttf.png)||
+|![AzeretMono_100Thin_Italic](./100Thin_Italic/AzeretMono_100Thin_Italic.ttf.png)|![AzeretMono_200ExtraLight_Italic](./200ExtraLight_Italic/AzeretMono_200ExtraLight_Italic.ttf.png)|![AzeretMono_300Light_Italic](./300Light_Italic/AzeretMono_300Light_Italic.ttf.png)||
+|![AzeretMono_400Regular_Italic](./400Regular_Italic/AzeretMono_400Regular_Italic.ttf.png)|![AzeretMono_500Medium_Italic](./500Medium_Italic/AzeretMono_500Medium_Italic.ttf.png)|![AzeretMono_600SemiBold_Italic](./600SemiBold_Italic/AzeretMono_600SemiBold_Italic.ttf.png)||
+|![AzeretMono_700Bold_Italic](./700Bold_Italic/AzeretMono_700Bold_Italic.ttf.png)|![AzeretMono_800ExtraBold_Italic](./800ExtraBold_Italic/AzeretMono_800ExtraBold_Italic.ttf.png)|![AzeretMono_900Black_Italic](./900Black_Italic/AzeretMono_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

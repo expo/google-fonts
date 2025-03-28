@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-kannada expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-kannada expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifKannada_100Thin, NotoSerifKannada_200ExtraLight, NotoSerifKannada_300Light, NotoSerifKannada_400Regular, NotoSerifKannada_500Medium, NotoSerifKannada_600SemiBold, NotoSerifKannada_700Bold, NotoSerifKannada_800ExtraBold, NotoSerifKannada_900Black } from '@expo-google-fonts/noto-serif-kannada';
+import { useFonts } from '@expo-google-fonts/noto-serif-kannada/useFonts';
+import { NotoSerifKannada_100Thin } from '@expo-google-fonts/noto-serif-kannada/100Thin';
+import { NotoSerifKannada_200ExtraLight } from '@expo-google-fonts/noto-serif-kannada/200ExtraLight';
+import { NotoSerifKannada_300Light } from '@expo-google-fonts/noto-serif-kannada/300Light';
+import { NotoSerifKannada_400Regular } from '@expo-google-fonts/noto-serif-kannada/400Regular';
+import { NotoSerifKannada_500Medium } from '@expo-google-fonts/noto-serif-kannada/500Medium';
+import { NotoSerifKannada_600SemiBold } from '@expo-google-fonts/noto-serif-kannada/600SemiBold';
+import { NotoSerifKannada_700Bold } from '@expo-google-fonts/noto-serif-kannada/700Bold';
+import { NotoSerifKannada_800ExtraBold } from '@expo-google-fonts/noto-serif-kannada/800ExtraBold';
+import { NotoSerifKannada_900Black } from '@expo-google-fonts/noto-serif-kannada/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifKannada_100Thin](./NotoSerifKannada_100Thin.ttf.png)|![NotoSerifKannada_200ExtraLight](./NotoSerifKannada_200ExtraLight.ttf.png)|![NotoSerifKannada_300Light](./NotoSerifKannada_300Light.ttf.png)||
-|![NotoSerifKannada_400Regular](./NotoSerifKannada_400Regular.ttf.png)|![NotoSerifKannada_500Medium](./NotoSerifKannada_500Medium.ttf.png)|![NotoSerifKannada_600SemiBold](./NotoSerifKannada_600SemiBold.ttf.png)||
-|![NotoSerifKannada_700Bold](./NotoSerifKannada_700Bold.ttf.png)|![NotoSerifKannada_800ExtraBold](./NotoSerifKannada_800ExtraBold.ttf.png)|![NotoSerifKannada_900Black](./NotoSerifKannada_900Black.ttf.png)||
+|![NotoSerifKannada_100Thin](./100Thin/NotoSerifKannada_100Thin.ttf.png)|![NotoSerifKannada_200ExtraLight](./200ExtraLight/NotoSerifKannada_200ExtraLight.ttf.png)|![NotoSerifKannada_300Light](./300Light/NotoSerifKannada_300Light.ttf.png)||
+|![NotoSerifKannada_400Regular](./400Regular/NotoSerifKannada_400Regular.ttf.png)|![NotoSerifKannada_500Medium](./500Medium/NotoSerifKannada_500Medium.ttf.png)|![NotoSerifKannada_600SemiBold](./600SemiBold/NotoSerifKannada_600SemiBold.ttf.png)||
+|![NotoSerifKannada_700Bold](./700Bold/NotoSerifKannada_700Bold.ttf.png)|![NotoSerifKannada_800ExtraBold](./800ExtraBold/NotoSerifKannada_800ExtraBold.ttf.png)|![NotoSerifKannada_900Black](./900Black/NotoSerifKannada_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

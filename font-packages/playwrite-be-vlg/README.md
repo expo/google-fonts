@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/playwrite-be-vlg expo-font expo-app-loading
+npx expo install @expo-google-fonts/playwrite-be-vlg expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, PlaywriteBEVLG_100Thin, PlaywriteBEVLG_200ExtraLight, PlaywriteBEVLG_300Light, PlaywriteBEVLG_400Regular } from '@expo-google-fonts/playwrite-be-vlg';
+import { useFonts } from '@expo-google-fonts/playwrite-be-vlg/useFonts';
+import { PlaywriteBEVLG_100Thin } from '@expo-google-fonts/playwrite-be-vlg/100Thin';
+import { PlaywriteBEVLG_200ExtraLight } from '@expo-google-fonts/playwrite-be-vlg/200ExtraLight';
+import { PlaywriteBEVLG_300Light } from '@expo-google-fonts/playwrite-be-vlg/300Light';
+import { PlaywriteBEVLG_400Regular } from '@expo-google-fonts/playwrite-be-vlg/400Regular';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteBEVLG_100Thin](./PlaywriteBEVLG_100Thin.ttf.png)|![PlaywriteBEVLG_200ExtraLight](./PlaywriteBEVLG_200ExtraLight.ttf.png)|![PlaywriteBEVLG_300Light](./PlaywriteBEVLG_300Light.ttf.png)||
-|![PlaywriteBEVLG_400Regular](./PlaywriteBEVLG_400Regular.ttf.png)||||
+|![PlaywriteBEVLG_100Thin](./100Thin/PlaywriteBEVLG_100Thin.ttf.png)|![PlaywriteBEVLG_200ExtraLight](./200ExtraLight/PlaywriteBEVLG_200ExtraLight.ttf.png)|![PlaywriteBEVLG_300Light](./300Light/PlaywriteBEVLG_300Light.ttf.png)||
+|![PlaywriteBEVLG_400Regular](./400Regular/PlaywriteBEVLG_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

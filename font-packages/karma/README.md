@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/karma expo-font expo-app-loading
+npx expo install @expo-google-fonts/karma expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Karma_300Light, Karma_400Regular, Karma_500Medium, Karma_600SemiBold, Karma_700Bold } from '@expo-google-fonts/karma';
+import { useFonts } from '@expo-google-fonts/karma/useFonts';
+import { Karma_300Light } from '@expo-google-fonts/karma/300Light';
+import { Karma_400Regular } from '@expo-google-fonts/karma/400Regular';
+import { Karma_500Medium } from '@expo-google-fonts/karma/500Medium';
+import { Karma_600SemiBold } from '@expo-google-fonts/karma/600SemiBold';
+import { Karma_700Bold } from '@expo-google-fonts/karma/700Bold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Karma_300Light](./Karma_300Light.ttf.png)|![Karma_400Regular](./Karma_400Regular.ttf.png)|![Karma_500Medium](./Karma_500Medium.ttf.png)||
-|![Karma_600SemiBold](./Karma_600SemiBold.ttf.png)|![Karma_700Bold](./Karma_700Bold.ttf.png)|||
+|![Karma_300Light](./300Light/Karma_300Light.ttf.png)|![Karma_400Regular](./400Regular/Karma_400Regular.ttf.png)|![Karma_500Medium](./500Medium/Karma_500Medium.ttf.png)||
+|![Karma_600SemiBold](./600SemiBold/Karma_600SemiBold.ttf.png)|![Karma_700Bold](./700Bold/Karma_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

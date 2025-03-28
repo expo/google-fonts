@@ -27,7 +27,7 @@ This font family contains [8 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/anek-tamil expo-font expo-app-loading
+npx expo install @expo-google-fonts/anek-tamil expo-font
 ```
 
 Now add code like this to your project
@@ -36,8 +36,15 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, AnekTamil_100Thin, AnekTamil_200ExtraLight, AnekTamil_300Light, AnekTamil_400Regular, AnekTamil_500Medium, AnekTamil_600SemiBold, AnekTamil_700Bold, AnekTamil_800ExtraBold } from '@expo-google-fonts/anek-tamil';
+import { useFonts } from '@expo-google-fonts/anek-tamil/useFonts';
+import { AnekTamil_100Thin } from '@expo-google-fonts/anek-tamil/100Thin';
+import { AnekTamil_200ExtraLight } from '@expo-google-fonts/anek-tamil/200ExtraLight';
+import { AnekTamil_300Light } from '@expo-google-fonts/anek-tamil/300Light';
+import { AnekTamil_400Regular } from '@expo-google-fonts/anek-tamil/400Regular';
+import { AnekTamil_500Medium } from '@expo-google-fonts/anek-tamil/500Medium';
+import { AnekTamil_600SemiBold } from '@expo-google-fonts/anek-tamil/600SemiBold';
+import { AnekTamil_700Bold } from '@expo-google-fonts/anek-tamil/700Bold';
+import { AnekTamil_800ExtraBold } from '@expo-google-fonts/anek-tamil/800ExtraBold';
 
 export default () => {
 
@@ -56,7 +63,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -135,9 +142,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnekTamil_100Thin](./AnekTamil_100Thin.ttf.png)|![AnekTamil_200ExtraLight](./AnekTamil_200ExtraLight.ttf.png)|![AnekTamil_300Light](./AnekTamil_300Light.ttf.png)||
-|![AnekTamil_400Regular](./AnekTamil_400Regular.ttf.png)|![AnekTamil_500Medium](./AnekTamil_500Medium.ttf.png)|![AnekTamil_600SemiBold](./AnekTamil_600SemiBold.ttf.png)||
-|![AnekTamil_700Bold](./AnekTamil_700Bold.ttf.png)|![AnekTamil_800ExtraBold](./AnekTamil_800ExtraBold.ttf.png)|||
+|![AnekTamil_100Thin](./100Thin/AnekTamil_100Thin.ttf.png)|![AnekTamil_200ExtraLight](./200ExtraLight/AnekTamil_200ExtraLight.ttf.png)|![AnekTamil_300Light](./300Light/AnekTamil_300Light.ttf.png)||
+|![AnekTamil_400Regular](./400Regular/AnekTamil_400Regular.ttf.png)|![AnekTamil_500Medium](./500Medium/AnekTamil_500Medium.ttf.png)|![AnekTamil_600SemiBold](./600SemiBold/AnekTamil_600SemiBold.ttf.png)||
+|![AnekTamil_700Bold](./700Bold/AnekTamil_700Bold.ttf.png)|![AnekTamil_800ExtraBold](./800ExtraBold/AnekTamil_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

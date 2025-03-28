@@ -24,7 +24,7 @@ This font family contains [5 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/marhey expo-font expo-app-loading
+npx expo install @expo-google-fonts/marhey expo-font
 ```
 
 Now add code like this to your project
@@ -33,8 +33,12 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Marhey_300Light, Marhey_400Regular, Marhey_500Medium, Marhey_600SemiBold, Marhey_700Bold } from '@expo-google-fonts/marhey';
+import { useFonts } from '@expo-google-fonts/marhey/useFonts';
+import { Marhey_300Light } from '@expo-google-fonts/marhey/300Light';
+import { Marhey_400Regular } from '@expo-google-fonts/marhey/400Regular';
+import { Marhey_500Medium } from '@expo-google-fonts/marhey/500Medium';
+import { Marhey_600SemiBold } from '@expo-google-fonts/marhey/600SemiBold';
+import { Marhey_700Bold } from '@expo-google-fonts/marhey/700Bold';
 
 export default () => {
 
@@ -50,7 +54,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -105,8 +109,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Marhey_300Light](./Marhey_300Light.ttf.png)|![Marhey_400Regular](./Marhey_400Regular.ttf.png)|![Marhey_500Medium](./Marhey_500Medium.ttf.png)||
-|![Marhey_600SemiBold](./Marhey_600SemiBold.ttf.png)|![Marhey_700Bold](./Marhey_700Bold.ttf.png)|||
+|![Marhey_300Light](./300Light/Marhey_300Light.ttf.png)|![Marhey_400Regular](./400Regular/Marhey_400Regular.ttf.png)|![Marhey_500Medium](./500Medium/Marhey_500Medium.ttf.png)||
+|![Marhey_600SemiBold](./600SemiBold/Marhey_600SemiBold.ttf.png)|![Marhey_700Bold](./700Bold/Marhey_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

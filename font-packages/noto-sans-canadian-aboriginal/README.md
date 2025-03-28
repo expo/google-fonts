@@ -28,7 +28,7 @@ This font family contains [9 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-canadian-aboriginal expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-canadian-aboriginal expo-font
 ```
 
 Now add code like this to your project
@@ -37,8 +37,16 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansCanadianAboriginal_100Thin, NotoSansCanadianAboriginal_200ExtraLight, NotoSansCanadianAboriginal_300Light, NotoSansCanadianAboriginal_400Regular, NotoSansCanadianAboriginal_500Medium, NotoSansCanadianAboriginal_600SemiBold, NotoSansCanadianAboriginal_700Bold, NotoSansCanadianAboriginal_800ExtraBold, NotoSansCanadianAboriginal_900Black } from '@expo-google-fonts/noto-sans-canadian-aboriginal';
+import { useFonts } from '@expo-google-fonts/noto-sans-canadian-aboriginal/useFonts';
+import { NotoSansCanadianAboriginal_100Thin } from '@expo-google-fonts/noto-sans-canadian-aboriginal/100Thin';
+import { NotoSansCanadianAboriginal_200ExtraLight } from '@expo-google-fonts/noto-sans-canadian-aboriginal/200ExtraLight';
+import { NotoSansCanadianAboriginal_300Light } from '@expo-google-fonts/noto-sans-canadian-aboriginal/300Light';
+import { NotoSansCanadianAboriginal_400Regular } from '@expo-google-fonts/noto-sans-canadian-aboriginal/400Regular';
+import { NotoSansCanadianAboriginal_500Medium } from '@expo-google-fonts/noto-sans-canadian-aboriginal/500Medium';
+import { NotoSansCanadianAboriginal_600SemiBold } from '@expo-google-fonts/noto-sans-canadian-aboriginal/600SemiBold';
+import { NotoSansCanadianAboriginal_700Bold } from '@expo-google-fonts/noto-sans-canadian-aboriginal/700Bold';
+import { NotoSansCanadianAboriginal_800ExtraBold } from '@expo-google-fonts/noto-sans-canadian-aboriginal/800ExtraBold';
+import { NotoSansCanadianAboriginal_900Black } from '@expo-google-fonts/noto-sans-canadian-aboriginal/900Black';
 
 export default () => {
 
@@ -58,7 +66,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -145,9 +153,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansCanadianAboriginal_100Thin](./NotoSansCanadianAboriginal_100Thin.ttf.png)|![NotoSansCanadianAboriginal_200ExtraLight](./NotoSansCanadianAboriginal_200ExtraLight.ttf.png)|![NotoSansCanadianAboriginal_300Light](./NotoSansCanadianAboriginal_300Light.ttf.png)||
-|![NotoSansCanadianAboriginal_400Regular](./NotoSansCanadianAboriginal_400Regular.ttf.png)|![NotoSansCanadianAboriginal_500Medium](./NotoSansCanadianAboriginal_500Medium.ttf.png)|![NotoSansCanadianAboriginal_600SemiBold](./NotoSansCanadianAboriginal_600SemiBold.ttf.png)||
-|![NotoSansCanadianAboriginal_700Bold](./NotoSansCanadianAboriginal_700Bold.ttf.png)|![NotoSansCanadianAboriginal_800ExtraBold](./NotoSansCanadianAboriginal_800ExtraBold.ttf.png)|![NotoSansCanadianAboriginal_900Black](./NotoSansCanadianAboriginal_900Black.ttf.png)||
+|![NotoSansCanadianAboriginal_100Thin](./100Thin/NotoSansCanadianAboriginal_100Thin.ttf.png)|![NotoSansCanadianAboriginal_200ExtraLight](./200ExtraLight/NotoSansCanadianAboriginal_200ExtraLight.ttf.png)|![NotoSansCanadianAboriginal_300Light](./300Light/NotoSansCanadianAboriginal_300Light.ttf.png)||
+|![NotoSansCanadianAboriginal_400Regular](./400Regular/NotoSansCanadianAboriginal_400Regular.ttf.png)|![NotoSansCanadianAboriginal_500Medium](./500Medium/NotoSansCanadianAboriginal_500Medium.ttf.png)|![NotoSansCanadianAboriginal_600SemiBold](./600SemiBold/NotoSansCanadianAboriginal_600SemiBold.ttf.png)||
+|![NotoSansCanadianAboriginal_700Bold](./700Bold/NotoSansCanadianAboriginal_700Bold.ttf.png)|![NotoSansCanadianAboriginal_800ExtraBold](./800ExtraBold/NotoSansCanadianAboriginal_800ExtraBold.ttf.png)|![NotoSansCanadianAboriginal_900Black](./900Black/NotoSansCanadianAboriginal_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

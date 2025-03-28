@@ -21,7 +21,7 @@ This font family contains [2 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/sniglet expo-font expo-app-loading
+npx expo install @expo-google-fonts/sniglet expo-font
 ```
 
 Now add code like this to your project
@@ -30,8 +30,9 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, Sniglet_400Regular, Sniglet_800ExtraBold } from '@expo-google-fonts/sniglet';
+import { useFonts } from '@expo-google-fonts/sniglet/useFonts';
+import { Sniglet_400Regular } from '@expo-google-fonts/sniglet/400Regular';
+import { Sniglet_800ExtraBold } from '@expo-google-fonts/sniglet/800ExtraBold';
 
 export default () => {
 
@@ -44,7 +45,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -75,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sniglet_400Regular](./Sniglet_400Regular.ttf.png)|![Sniglet_800ExtraBold](./Sniglet_800ExtraBold.ttf.png)|||
+|![Sniglet_400Regular](./400Regular/Sniglet_400Regular.ttf.png)|![Sniglet_800ExtraBold](./800ExtraBold/Sniglet_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

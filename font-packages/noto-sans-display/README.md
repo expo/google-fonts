@@ -37,7 +37,7 @@ This font family contains [18 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-sans-display expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-sans-display expo-font
 ```
 
 Now add code like this to your project
@@ -46,8 +46,25 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSansDisplay_100Thin, NotoSansDisplay_200ExtraLight, NotoSansDisplay_300Light, NotoSansDisplay_400Regular, NotoSansDisplay_500Medium, NotoSansDisplay_600SemiBold, NotoSansDisplay_700Bold, NotoSansDisplay_800ExtraBold, NotoSansDisplay_900Black, NotoSansDisplay_100Thin_Italic, NotoSansDisplay_200ExtraLight_Italic, NotoSansDisplay_300Light_Italic, NotoSansDisplay_400Regular_Italic, NotoSansDisplay_500Medium_Italic, NotoSansDisplay_600SemiBold_Italic, NotoSansDisplay_700Bold_Italic, NotoSansDisplay_800ExtraBold_Italic, NotoSansDisplay_900Black_Italic } from '@expo-google-fonts/noto-sans-display';
+import { useFonts } from '@expo-google-fonts/noto-sans-display/useFonts';
+import { NotoSansDisplay_100Thin } from '@expo-google-fonts/noto-sans-display/100Thin';
+import { NotoSansDisplay_200ExtraLight } from '@expo-google-fonts/noto-sans-display/200ExtraLight';
+import { NotoSansDisplay_300Light } from '@expo-google-fonts/noto-sans-display/300Light';
+import { NotoSansDisplay_400Regular } from '@expo-google-fonts/noto-sans-display/400Regular';
+import { NotoSansDisplay_500Medium } from '@expo-google-fonts/noto-sans-display/500Medium';
+import { NotoSansDisplay_600SemiBold } from '@expo-google-fonts/noto-sans-display/600SemiBold';
+import { NotoSansDisplay_700Bold } from '@expo-google-fonts/noto-sans-display/700Bold';
+import { NotoSansDisplay_800ExtraBold } from '@expo-google-fonts/noto-sans-display/800ExtraBold';
+import { NotoSansDisplay_900Black } from '@expo-google-fonts/noto-sans-display/900Black';
+import { NotoSansDisplay_100Thin_Italic } from '@expo-google-fonts/noto-sans-display/100Thin_Italic';
+import { NotoSansDisplay_200ExtraLight_Italic } from '@expo-google-fonts/noto-sans-display/200ExtraLight_Italic';
+import { NotoSansDisplay_300Light_Italic } from '@expo-google-fonts/noto-sans-display/300Light_Italic';
+import { NotoSansDisplay_400Regular_Italic } from '@expo-google-fonts/noto-sans-display/400Regular_Italic';
+import { NotoSansDisplay_500Medium_Italic } from '@expo-google-fonts/noto-sans-display/500Medium_Italic';
+import { NotoSansDisplay_600SemiBold_Italic } from '@expo-google-fonts/noto-sans-display/600SemiBold_Italic';
+import { NotoSansDisplay_700Bold_Italic } from '@expo-google-fonts/noto-sans-display/700Bold_Italic';
+import { NotoSansDisplay_800ExtraBold_Italic } from '@expo-google-fonts/noto-sans-display/800ExtraBold_Italic';
+import { NotoSansDisplay_900Black_Italic } from '@expo-google-fonts/noto-sans-display/900Black_Italic';
 
 export default () => {
 
@@ -76,7 +93,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -235,12 +252,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansDisplay_100Thin](./NotoSansDisplay_100Thin.ttf.png)|![NotoSansDisplay_200ExtraLight](./NotoSansDisplay_200ExtraLight.ttf.png)|![NotoSansDisplay_300Light](./NotoSansDisplay_300Light.ttf.png)||
-|![NotoSansDisplay_400Regular](./NotoSansDisplay_400Regular.ttf.png)|![NotoSansDisplay_500Medium](./NotoSansDisplay_500Medium.ttf.png)|![NotoSansDisplay_600SemiBold](./NotoSansDisplay_600SemiBold.ttf.png)||
-|![NotoSansDisplay_700Bold](./NotoSansDisplay_700Bold.ttf.png)|![NotoSansDisplay_800ExtraBold](./NotoSansDisplay_800ExtraBold.ttf.png)|![NotoSansDisplay_900Black](./NotoSansDisplay_900Black.ttf.png)||
-|![NotoSansDisplay_100Thin_Italic](./NotoSansDisplay_100Thin_Italic.ttf.png)|![NotoSansDisplay_200ExtraLight_Italic](./NotoSansDisplay_200ExtraLight_Italic.ttf.png)|![NotoSansDisplay_300Light_Italic](./NotoSansDisplay_300Light_Italic.ttf.png)||
-|![NotoSansDisplay_400Regular_Italic](./NotoSansDisplay_400Regular_Italic.ttf.png)|![NotoSansDisplay_500Medium_Italic](./NotoSansDisplay_500Medium_Italic.ttf.png)|![NotoSansDisplay_600SemiBold_Italic](./NotoSansDisplay_600SemiBold_Italic.ttf.png)||
-|![NotoSansDisplay_700Bold_Italic](./NotoSansDisplay_700Bold_Italic.ttf.png)|![NotoSansDisplay_800ExtraBold_Italic](./NotoSansDisplay_800ExtraBold_Italic.ttf.png)|![NotoSansDisplay_900Black_Italic](./NotoSansDisplay_900Black_Italic.ttf.png)||
+|![NotoSansDisplay_100Thin](./100Thin/NotoSansDisplay_100Thin.ttf.png)|![NotoSansDisplay_200ExtraLight](./200ExtraLight/NotoSansDisplay_200ExtraLight.ttf.png)|![NotoSansDisplay_300Light](./300Light/NotoSansDisplay_300Light.ttf.png)||
+|![NotoSansDisplay_400Regular](./400Regular/NotoSansDisplay_400Regular.ttf.png)|![NotoSansDisplay_500Medium](./500Medium/NotoSansDisplay_500Medium.ttf.png)|![NotoSansDisplay_600SemiBold](./600SemiBold/NotoSansDisplay_600SemiBold.ttf.png)||
+|![NotoSansDisplay_700Bold](./700Bold/NotoSansDisplay_700Bold.ttf.png)|![NotoSansDisplay_800ExtraBold](./800ExtraBold/NotoSansDisplay_800ExtraBold.ttf.png)|![NotoSansDisplay_900Black](./900Black/NotoSansDisplay_900Black.ttf.png)||
+|![NotoSansDisplay_100Thin_Italic](./100Thin_Italic/NotoSansDisplay_100Thin_Italic.ttf.png)|![NotoSansDisplay_200ExtraLight_Italic](./200ExtraLight_Italic/NotoSansDisplay_200ExtraLight_Italic.ttf.png)|![NotoSansDisplay_300Light_Italic](./300Light_Italic/NotoSansDisplay_300Light_Italic.ttf.png)||
+|![NotoSansDisplay_400Regular_Italic](./400Regular_Italic/NotoSansDisplay_400Regular_Italic.ttf.png)|![NotoSansDisplay_500Medium_Italic](./500Medium_Italic/NotoSansDisplay_500Medium_Italic.ttf.png)|![NotoSansDisplay_600SemiBold_Italic](./600SemiBold_Italic/NotoSansDisplay_600SemiBold_Italic.ttf.png)||
+|![NotoSansDisplay_700Bold_Italic](./700Bold_Italic/NotoSansDisplay_700Bold_Italic.ttf.png)|![NotoSansDisplay_800ExtraBold_Italic](./800ExtraBold_Italic/NotoSansDisplay_800ExtraBold_Italic.ttf.png)|![NotoSansDisplay_900Black_Italic](./900Black_Italic/NotoSansDisplay_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

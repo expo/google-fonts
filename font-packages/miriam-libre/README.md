@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/miriam-libre expo-font expo-app-loading
+npx expo install @expo-google-fonts/miriam-libre expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, MiriamLibre_400Regular, MiriamLibre_500Medium, MiriamLibre_600SemiBold, MiriamLibre_700Bold } from '@expo-google-fonts/miriam-libre';
+import { useFonts } from '@expo-google-fonts/miriam-libre/useFonts';
+import { MiriamLibre_400Regular } from '@expo-google-fonts/miriam-libre/400Regular';
+import { MiriamLibre_500Medium } from '@expo-google-fonts/miriam-libre/500Medium';
+import { MiriamLibre_600SemiBold } from '@expo-google-fonts/miriam-libre/600SemiBold';
+import { MiriamLibre_700Bold } from '@expo-google-fonts/miriam-libre/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MiriamLibre_400Regular](./MiriamLibre_400Regular.ttf.png)|![MiriamLibre_500Medium](./MiriamLibre_500Medium.ttf.png)|![MiriamLibre_600SemiBold](./MiriamLibre_600SemiBold.ttf.png)||
-|![MiriamLibre_700Bold](./MiriamLibre_700Bold.ttf.png)||||
+|![MiriamLibre_400Regular](./400Regular/MiriamLibre_400Regular.ttf.png)|![MiriamLibre_500Medium](./500Medium/MiriamLibre_500Medium.ttf.png)|![MiriamLibre_600SemiBold](./600SemiBold/MiriamLibre_600SemiBold.ttf.png)||
+|![MiriamLibre_700Bold](./700Bold/MiriamLibre_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

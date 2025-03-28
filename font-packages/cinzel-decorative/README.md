@@ -22,7 +22,7 @@ This font family contains [3 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/cinzel-decorative expo-font expo-app-loading
+npx expo install @expo-google-fonts/cinzel-decorative expo-font
 ```
 
 Now add code like this to your project
@@ -31,8 +31,10 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, CinzelDecorative_400Regular, CinzelDecorative_700Bold, CinzelDecorative_900Black } from '@expo-google-fonts/cinzel-decorative';
+import { useFonts } from '@expo-google-fonts/cinzel-decorative/useFonts';
+import { CinzelDecorative_400Regular } from '@expo-google-fonts/cinzel-decorative/400Regular';
+import { CinzelDecorative_700Bold } from '@expo-google-fonts/cinzel-decorative/700Bold';
+import { CinzelDecorative_900Black } from '@expo-google-fonts/cinzel-decorative/900Black';
 
 export default () => {
 
@@ -46,7 +48,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -85,7 +87,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CinzelDecorative_400Regular](./CinzelDecorative_400Regular.ttf.png)|![CinzelDecorative_700Bold](./CinzelDecorative_700Bold.ttf.png)|![CinzelDecorative_900Black](./CinzelDecorative_900Black.ttf.png)||
+|![CinzelDecorative_400Regular](./400Regular/CinzelDecorative_400Regular.ttf.png)|![CinzelDecorative_700Bold](./700Bold/CinzelDecorative_700Bold.ttf.png)|![CinzelDecorative_900Black](./900Black/CinzelDecorative_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

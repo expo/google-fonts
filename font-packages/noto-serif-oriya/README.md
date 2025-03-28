@@ -23,7 +23,7 @@ This font family contains [4 styles](#-gallery).
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 
 ```sh
-npx expo install @expo-google-fonts/noto-serif-oriya expo-font expo-app-loading
+npx expo install @expo-google-fonts/noto-serif-oriya expo-font
 ```
 
 Now add code like this to your project
@@ -32,8 +32,11 @@ Now add code like this to your project
 import React, { useState, useEffect } from "react";
 
 import { Text, View, StyleSheet } from "react-native";
-import AppLoading from "expo-app-loading";
-import { useFonts, NotoSerifOriya_400Regular, NotoSerifOriya_500Medium, NotoSerifOriya_600SemiBold, NotoSerifOriya_700Bold } from '@expo-google-fonts/noto-serif-oriya';
+import { useFonts } from '@expo-google-fonts/noto-serif-oriya/useFonts';
+import { NotoSerifOriya_400Regular } from '@expo-google-fonts/noto-serif-oriya/400Regular';
+import { NotoSerifOriya_500Medium } from '@expo-google-fonts/noto-serif-oriya/500Medium';
+import { NotoSerifOriya_600SemiBold } from '@expo-google-fonts/noto-serif-oriya/600SemiBold';
+import { NotoSerifOriya_700Bold } from '@expo-google-fonts/noto-serif-oriya/700Bold';
 
 export default () => {
 
@@ -48,7 +51,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return null;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -95,8 +98,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifOriya_400Regular](./NotoSerifOriya_400Regular.ttf.png)|![NotoSerifOriya_500Medium](./NotoSerifOriya_500Medium.ttf.png)|![NotoSerifOriya_600SemiBold](./NotoSerifOriya_600SemiBold.ttf.png)||
-|![NotoSerifOriya_700Bold](./NotoSerifOriya_700Bold.ttf.png)||||
+|![NotoSerifOriya_400Regular](./400Regular/NotoSerifOriya_400Regular.ttf.png)|![NotoSerifOriya_500Medium](./500Medium/NotoSerifOriya_500Medium.ttf.png)|![NotoSerifOriya_600SemiBold](./600SemiBold/NotoSerifOriya_600SemiBold.ttf.png)||
+|![NotoSerifOriya_700Bold](./700Bold/NotoSerifOriya_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development
