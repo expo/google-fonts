@@ -30,17 +30,17 @@ const CPUBoundConcurrency = Math.max(1, physicalCpuCount - 1);
 const NetworkBoundConcurrency = 3;
 
 async function main({ images, download } = { images: true, download: true }) {
-  if (download) {
-    console.log('Downloading all fonts...');
-    await downloadAllFonts(fontDirectory);
-    console.log('done.');
-  }
+  // if (download) {
+  //   console.log('Downloading all fonts...');
+  //   await downloadAllFonts(fontDirectory);
+  //   console.log('done.');
+  // }
 
-  if (images) {
-    console.log('Generating image previews for all fonts...');
-    await generateImagesForFonts(fontDirectory);
-    console.log('done.');
-  }
+  // if (images) {
+  //   console.log('Generating image previews for all fonts...');
+  //   await generateImagesForFonts(fontDirectory);
+  //   console.log('done.');
+  // }
 
   console.log('Generating all font packages...');
   await generateAllFontPackages(fontDirectory);
