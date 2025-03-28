@@ -409,7 +409,7 @@ async function generateFontDirectoryPackage(fontDirectory) {
   for (const webfont of fd.items) {
     const packageName = getPackageNameForWebfont(webfont);
     webfont.expoGoogleFontsPackage = PackageScope + packageName;
-    webfont.expoGoogleFontsPackageHomepage = `https://github.com/expo/google-fonts/tree/master/font-packages/${packageName}`;
+    webfont.expoGoogleFontsPackageHomepage = `https://github.com/expo/google-fonts/tree/main/font-packages/${packageName}`;
   }
 
   await fs.promises.writeFile(
@@ -513,7 +513,7 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
       const packageName = getPackageNameForWebfont(webfont);
       md += `[![${varNameForWebfont(
         webfont
-      )}](${styleImagePath})](https://github.com/expo/google-fonts/tree/master/font-packages/${packageName}#readme)|`;
+      )}](${styleImagePath})](https://github.com/expo/google-fonts/tree/main/font-packages/${packageName}#readme)|`;
     }
     md += '\n';
   }
@@ -532,14 +532,14 @@ async function generateGalleryFile(fontDirectory) {
         .map((webfont) => {
           return `[${
             webfont.family
-          }](https://github.com/expo/google-fonts/tree/master/font-packages/${getPackageNameForWebfont(
+          }](https://github.com/expo/google-fonts/tree/main/font-packages/${getPackageNameForWebfont(
             webfont
           )}#readme)`;
         })
         .join(', '),
       styles: fontDirectory.items.map((webfont) => {
         const pkgUrl =
-          'https://github.com/expo/google-fonts/tree/master/font-packages/' +
+          'https://github.com/expo/google-fonts/tree/main/font-packages/' +
           getPackageNameForWebfont(webfont) +
           '#readme';
         return `### [${webfont.family}](${pkgUrl})\n` + generateTableForVariants(webfont, pkgUrl);
