@@ -48,8 +48,8 @@ async function syncPackages() {
       `\nFound ${deletedPackages.length} deleted package${deletedPackages.length === 1 ? '' : 's'}`
     );
     for (const deletedPackage of deletedPackages) {
-      console.log(`✅ Archived ${deletedPackage.family}`);
       await archiveFontPackage(deletedPackage);
+      console.log(`✅ Archived ${deletedPackage.family}`);
     }
   }
 

@@ -20,8 +20,8 @@ export async function archiveFontPackage(webfont: FontItem) {
     return;
   }
   if (await fsExtra.exists(path.join(FontArchiveDir, dirName))) {
-    console.warn(`Font package ${webfont.family} already archived at ${dirName}`);
-    return;
+    console.warn(`Font package ${webfont.family} is already archived, replacing with the new one`);
+    await fsExtra.remove(path.join(FontArchiveDir, dirName));
   }
   await fsExtra.move(path.join(FontPackagesDir, dirName), path.join(FontArchiveDir, dirName));
 

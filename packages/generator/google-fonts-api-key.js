@@ -1,5 +1,5 @@
 module.exports = () => {
-  const apiKey = process.env.GOOGLE_FONTS_API_KEY || "AIzaSyBUMxoCg648ZL8ukJk9OedoVNnCL8KENig";
+  const apiKey = process.env.GOOGLE_FONTS_API_KEY;
 
   if (!apiKey) {
     const err = `
