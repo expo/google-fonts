@@ -89,17 +89,17 @@ function infoForVariantKey(variantKey) {
   const isItalic = variantKey.endsWith('italic');
   const weightName = WeightNames[weight];
   let suffix = '_' + weight + weightName;
-  let folderName = weight + weightName;
+  let variantFolderName = weight + weightName;
   if (isItalic) {
     suffix += '_Italic';
-    folderName += '_Italic';
+    variantFolderName += '_Italic';
   }
   return {
     weight,
     isItalic,
     weightName,
     suffix,
-    folderName,
+    variantFolderName,
   };
 }
 
@@ -218,8 +218,13 @@ function generateTableForVariants(webfont, pkgUrl) {
 `;
   const variantImageCells = [];
   for (const variantKey of webfont.variants) {
+    const variantFolderName = infoForVariantKey(variantKey).variantFolderName;
     const styleImagePath =
-      fontPackagesPrefix + filenameForFontVariant(webfont, variantKey) + '.png';
+      fontPackagesPrefix +
+      variantFolderName +
+      '/' +
+      filenameForFontVariant(webfont, variantKey) +
+      '.png';
     const fi = varNameForFontVariant(webfont, variantKey);
     if (pkgUrl) {
       variantImageCells.push(`[![${fi}](${styleImagePath})](${pkgUrl})`);
@@ -272,36 +277,39 @@ async function generateFontPackage(webfont) {
 
   for (const variantKey of webfont.variants) {
     const ffn = filenameForFontVariant(webfont, variantKey);
-    const { folderName } = infoForVariantKey(variantKey);
+    const { variantFolderName } = infoForVariantKey(variantKey);
 
-    const variantDirectory = path.join(pkgDir, `${folderName}`);
+    const variantDirectory = path.join(pkgDir, `${variantFolderName}`);
     await fsExtra.ensureDir(variantDirectory);
 
     // link fonts and image previews
-    await fs.promises.link(path.join(FontAssetsDir, ffn), path.join(pkgDir, folderName, ffn));
+    await fs.promises.link(
+      path.join(FontAssetsDir, ffn),
+      path.join(pkgDir, variantFolderName, ffn)
+    );
     await fs.promises.link(
       path.join(FontImagesDir, ffn + '.png'),
-      path.join(pkgDir, folderName, ffn + '.png')
+      path.join(pkgDir, variantFolderName, ffn + '.png')
     );
 
     const variantName = varNameForFontVariant(webfont, variantKey);
     await createFileFromTemplate(
-      path.join(pkgDir, folderName, 'index.js'),
+      path.join(pkgDir, variantFolderName, 'index.js'),
       path.join(__dirname, 'templates/package/variant/index.js.ejs'),
       { variantName }
     );
     await createFileFromTemplate(
-      path.join(pkgDir, folderName, 'index.d.ts'),
+      path.join(pkgDir, variantFolderName, 'index.d.ts'),
       path.join(__dirname, 'templates/package/variant/index.d.ts.ejs'),
       { variantName }
     );
   }
 
   const variants = webfont.variants.map((variantKey) => {
-    const { folderName } = infoForVariantKey(variantKey);
+    const { variantFolderName } = infoForVariantKey(variantKey);
     return {
       name: varNameForFontVariant(webfont, variantKey),
-      path: folderName + '/' + filenameForFontVariant(webfont, variantKey),
+      path: variantFolderName + '/' + filenameForFontVariant(webfont, variantKey),
     };
   });
 
@@ -348,7 +356,11 @@ async function generateFontPackage(webfont) {
       fontVariantsWithDisplayName: webfont.variants.map((variantKey) => ({
         varName: varNameForFontVariant(webfont, variantKey),
         displayName: getDisplayNameForFontVariant(webfont, variantKey),
-        path: '@expo-google-fonts/' + packageName + '/' + infoForVariantKey(variantKey).folderName,
+        path:
+          '@expo-google-fonts/' +
+          packageName +
+          '/' +
+          infoForVariantKey(variantKey).variantFolderName,
       })),
       devPackageDescription: await ejs.renderFile(
         path.join(__dirname, 'templates/dev/DESCRIPTION.md')
