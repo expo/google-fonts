@@ -253,6 +253,7 @@ async function generateFontPackage(webfont) {
       version: PackageVersion,
       description: `Use the ${webfont.family} font family from Google Fonts in your Expo app`,
       main: 'index.js',
+      directory: 'font-packages/' + packageName,
     }
   );
 
@@ -316,7 +317,7 @@ async function generateFontPackage(webfont) {
     path.join(pkgDir, 'README.md'),
     path.join(__dirname, 'templates/package/README.md'),
     {
-      packageName: getPackageNameForWebfont(webfont),
+      packageName,
       fontName: webfont.family,
       fontVariants: webfont.variants.map((variantKey) =>
         varNameForFontVariant(webfont, variantKey)
@@ -346,6 +347,7 @@ async function generateDevPackage(fontDirectory) {
       version: PackageVersion,
       description: `Load ${fontDirectory.items.length} font families from Google Fonts over the network while developing your Expo app`,
       main: 'index.js',
+      directory: 'font-packages/dev',
     }
   );
 
@@ -424,6 +426,7 @@ async function generateFontDirectoryPackage(fontDirectory) {
       version: PackageVersion,
       description: 'A directory of metadata about the fonts available in `expo-google-fonts`',
       main: 'fontDirectory.json',
+      directory: 'font-packages/font-directory',
     }
   );
 

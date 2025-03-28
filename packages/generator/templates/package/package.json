@@ -3,7 +3,11 @@
   "version": "<%= version %>",
   "description": "<%= description %>",
   "main": "<%= main %>",
-  "repository": "https://github.com/expo/google-fonts.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/google-fonts.git",
+    "directory": "<%= directory %>"
+  },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/<%= packageName %>#readme",
   "author": "Expo Team <team@expo.io>",
   "license": "MIT",
