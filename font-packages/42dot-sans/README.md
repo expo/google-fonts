@@ -31,9 +31,7 @@ npx expo install @expo-google-fonts/42dot-sans expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/42dot-sans/useFonts';
 import { font42dotSans_300Light } from '@expo-google-fonts/42dot-sans/300Light';
 import { font42dotSans_400Regular } from '@expo-google-fonts/42dot-sans/400Regular';

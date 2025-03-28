@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/encode-sans-sc expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/encode-sans-sc/useFonts';
 import { EncodeSansSC_100Thin } from '@expo-google-fonts/encode-sans-sc/100Thin';
 import { EncodeSansSC_200ExtraLight } from '@expo-google-fonts/encode-sans-sc/200ExtraLight';

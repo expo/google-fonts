@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/elsie-swash-caps expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/elsie-swash-caps/useFonts';
 import { ElsieSwashCaps_400Regular } from '@expo-google-fonts/elsie-swash-caps/400Regular';
 import { ElsieSwashCaps_900Black } from '@expo-google-fonts/elsie-swash-caps/900Black';

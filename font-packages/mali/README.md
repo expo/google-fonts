@@ -37,9 +37,7 @@ npx expo install @expo-google-fonts/mali expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/mali/useFonts';
 import { Mali_200ExtraLight } from '@expo-google-fonts/mali/200ExtraLight';
 import { Mali_200ExtraLight_Italic } from '@expo-google-fonts/mali/200ExtraLight_Italic';

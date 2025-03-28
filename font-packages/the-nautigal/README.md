@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/the-nautigal expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/the-nautigal/useFonts';
 import { TheNautigal_400Regular } from '@expo-google-fonts/the-nautigal/400Regular';
 import { TheNautigal_700Bold } from '@expo-google-fonts/the-nautigal/700Bold';

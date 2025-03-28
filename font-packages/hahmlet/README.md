@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/hahmlet expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/hahmlet/useFonts';
 import { Hahmlet_100Thin } from '@expo-google-fonts/hahmlet/100Thin';
 import { Hahmlet_200ExtraLight } from '@expo-google-fonts/hahmlet/200ExtraLight';

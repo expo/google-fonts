@@ -32,9 +32,7 @@ npx expo install @expo-google-fonts/kalnia expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/kalnia/useFonts';
 import { Kalnia_100Thin } from '@expo-google-fonts/kalnia/100Thin';
 import { Kalnia_200ExtraLight } from '@expo-google-fonts/kalnia/200ExtraLight';

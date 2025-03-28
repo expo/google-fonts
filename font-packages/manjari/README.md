@@ -28,9 +28,7 @@ npx expo install @expo-google-fonts/manjari expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/manjari/useFonts';
 import { Manjari_100Thin } from '@expo-google-fonts/manjari/100Thin';
 import { Manjari_400Regular } from '@expo-google-fonts/manjari/400Regular';

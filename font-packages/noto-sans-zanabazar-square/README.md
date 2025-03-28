@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/noto-sans-zanabazar-square expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-sans-zanabazar-square/useFonts';
 import { NotoSansZanabazarSquare_400Regular } from '@expo-google-fonts/noto-sans-zanabazar-square/400Regular';
 

@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/noto-sans-syriac-eastern expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-sans-syriac-eastern/useFonts';
 import { NotoSansSyriacEastern_100Thin } from '@expo-google-fonts/noto-sans-syriac-eastern/100Thin';
 import { NotoSansSyriacEastern_200ExtraLight } from '@expo-google-fonts/noto-sans-syriac-eastern/200ExtraLight';

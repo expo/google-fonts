@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/libre-barcode-128-text expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/libre-barcode-128-text/useFonts';
 import { LibreBarcode128Text_400Regular } from '@expo-google-fonts/libre-barcode-128-text/400Regular';
 

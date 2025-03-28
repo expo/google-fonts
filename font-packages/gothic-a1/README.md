@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/gothic-a1 expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/gothic-a1/useFonts';
 import { GothicA1_100Thin } from '@expo-google-fonts/gothic-a1/100Thin';
 import { GothicA1_200ExtraLight } from '@expo-google-fonts/gothic-a1/200ExtraLight';

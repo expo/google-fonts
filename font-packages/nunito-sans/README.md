@@ -41,9 +41,7 @@ npx expo install @expo-google-fonts/nunito-sans expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/nunito-sans/useFonts';
 import { NunitoSans_200ExtraLight } from '@expo-google-fonts/nunito-sans/200ExtraLight';
 import { NunitoSans_300Light } from '@expo-google-fonts/nunito-sans/300Light';

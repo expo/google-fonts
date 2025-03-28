@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/noto-sans-thai-looped expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-sans-thai-looped/useFonts';
 import { NotoSansThaiLooped_100Thin } from '@expo-google-fonts/noto-sans-thai-looped/100Thin';
 import { NotoSansThaiLooped_200ExtraLight } from '@expo-google-fonts/noto-sans-thai-looped/200ExtraLight';

@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/teko expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/teko/useFonts';
 import { Teko_300Light } from '@expo-google-fonts/teko/300Light';
 import { Teko_400Regular } from '@expo-google-fonts/teko/400Regular';

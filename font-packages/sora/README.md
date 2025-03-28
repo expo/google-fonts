@@ -33,9 +33,7 @@ npx expo install @expo-google-fonts/sora expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/sora/useFonts';
 import { Sora_100Thin } from '@expo-google-fonts/sora/100Thin';
 import { Sora_200ExtraLight } from '@expo-google-fonts/sora/200ExtraLight';

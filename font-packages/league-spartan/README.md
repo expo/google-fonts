@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/league-spartan expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/league-spartan/useFonts';
 import { LeagueSpartan_100Thin } from '@expo-google-fonts/league-spartan/100Thin';
 import { LeagueSpartan_200ExtraLight } from '@expo-google-fonts/league-spartan/200ExtraLight';

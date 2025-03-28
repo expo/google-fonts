@@ -28,9 +28,7 @@ npx expo install @expo-google-fonts/judson expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/judson/useFonts';
 import { Judson_400Regular } from '@expo-google-fonts/judson/400Regular';
 import { Judson_400Regular_Italic } from '@expo-google-fonts/judson/400Regular_Italic';

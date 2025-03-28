@@ -39,9 +39,7 @@ npx expo install @expo-google-fonts/victor-mono expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/victor-mono/useFonts';
 import { VictorMono_100Thin } from '@expo-google-fonts/victor-mono/100Thin';
 import { VictorMono_200ExtraLight } from '@expo-google-fonts/victor-mono/200ExtraLight';

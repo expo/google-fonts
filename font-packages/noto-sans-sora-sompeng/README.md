@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/noto-sans-sora-sompeng expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-sans-sora-sompeng/useFonts';
 import { NotoSansSoraSompeng_400Regular } from '@expo-google-fonts/noto-sans-sora-sompeng/400Regular';
 import { NotoSansSoraSompeng_500Medium } from '@expo-google-fonts/noto-sans-sora-sompeng/500Medium';

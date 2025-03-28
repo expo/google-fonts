@@ -39,9 +39,7 @@ npx expo install @expo-google-fonts/winky-sans expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/winky-sans/useFonts';
 import { WinkySans_300Light } from '@expo-google-fonts/winky-sans/300Light';
 import { WinkySans_400Regular } from '@expo-google-fonts/winky-sans/400Regular';

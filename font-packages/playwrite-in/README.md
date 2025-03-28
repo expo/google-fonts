@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/playwrite-in expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/playwrite-in/useFonts';
 import { PlaywriteIN_100Thin } from '@expo-google-fonts/playwrite-in/100Thin';
 import { PlaywriteIN_200ExtraLight } from '@expo-google-fonts/playwrite-in/200ExtraLight';

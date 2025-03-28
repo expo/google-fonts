@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/noto-nastaliq-urdu expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-nastaliq-urdu/useFonts';
 import { NotoNastaliqUrdu_400Regular } from '@expo-google-fonts/noto-nastaliq-urdu/400Regular';
 import { NotoNastaliqUrdu_500Medium } from '@expo-google-fonts/noto-nastaliq-urdu/500Medium';

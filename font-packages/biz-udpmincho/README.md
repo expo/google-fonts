@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/biz-udpmincho expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/biz-udpmincho/useFonts';
 import { BIZUDPMincho_400Regular } from '@expo-google-fonts/biz-udpmincho/400Regular';
 import { BIZUDPMincho_700Bold } from '@expo-google-fonts/biz-udpmincho/700Bold';

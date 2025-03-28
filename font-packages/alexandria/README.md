@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/alexandria expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/alexandria/useFonts';
 import { Alexandria_100Thin } from '@expo-google-fonts/alexandria/100Thin';
 import { Alexandria_200ExtraLight } from '@expo-google-fonts/alexandria/200ExtraLight';

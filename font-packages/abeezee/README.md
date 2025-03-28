@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/abeezee expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/abeezee/useFonts';
 import { ABeeZee_400Regular } from '@expo-google-fonts/abeezee/400Regular';
 import { ABeeZee_400Regular_Italic } from '@expo-google-fonts/abeezee/400Regular_Italic';

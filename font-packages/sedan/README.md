@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/sedan expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/sedan/useFonts';
 import { Sedan_400Regular } from '@expo-google-fonts/sedan/400Regular';
 import { Sedan_400Regular_Italic } from '@expo-google-fonts/sedan/400Regular_Italic';

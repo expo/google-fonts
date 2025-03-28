@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/gowun-batang expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/gowun-batang/useFonts';
 import { GowunBatang_400Regular } from '@expo-google-fonts/gowun-batang/400Regular';
 import { GowunBatang_700Bold } from '@expo-google-fonts/gowun-batang/700Bold';

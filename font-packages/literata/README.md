@@ -41,9 +41,7 @@ npx expo install @expo-google-fonts/literata expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/literata/useFonts';
 import { Literata_200ExtraLight } from '@expo-google-fonts/literata/200ExtraLight';
 import { Literata_300Light } from '@expo-google-fonts/literata/300Light';

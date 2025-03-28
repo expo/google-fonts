@@ -37,9 +37,7 @@ npx expo install @expo-google-fonts/bai-jamjuree expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/bai-jamjuree/useFonts';
 import { BaiJamjuree_200ExtraLight } from '@expo-google-fonts/bai-jamjuree/200ExtraLight';
 import { BaiJamjuree_200ExtraLight_Italic } from '@expo-google-fonts/bai-jamjuree/200ExtraLight_Italic';

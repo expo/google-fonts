@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/hind-madurai expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/hind-madurai/useFonts';
 import { HindMadurai_300Light } from '@expo-google-fonts/hind-madurai/300Light';
 import { HindMadurai_400Regular } from '@expo-google-fonts/hind-madurai/400Regular';

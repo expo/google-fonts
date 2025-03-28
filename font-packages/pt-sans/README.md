@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/pt-sans expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/pt-sans/useFonts';
 import { PTSans_400Regular } from '@expo-google-fonts/pt-sans/400Regular';
 import { PTSans_400Regular_Italic } from '@expo-google-fonts/pt-sans/400Regular_Italic';

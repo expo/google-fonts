@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/grenze expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/grenze/useFonts';
 import { Grenze_100Thin } from '@expo-google-fonts/grenze/100Thin';
 import { Grenze_100Thin_Italic } from '@expo-google-fonts/grenze/100Thin_Italic';

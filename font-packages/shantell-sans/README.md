@@ -37,9 +37,7 @@ npx expo install @expo-google-fonts/shantell-sans expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/shantell-sans/useFonts';
 import { ShantellSans_300Light } from '@expo-google-fonts/shantell-sans/300Light';
 import { ShantellSans_400Regular } from '@expo-google-fonts/shantell-sans/400Regular';

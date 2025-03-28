@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/share-tech expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/share-tech/useFonts';
 import { ShareTech_400Regular } from '@expo-google-fonts/share-tech/400Regular';
 

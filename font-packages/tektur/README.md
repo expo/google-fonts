@@ -31,9 +31,7 @@ npx expo install @expo-google-fonts/tektur expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/tektur/useFonts';
 import { Tektur_400Regular } from '@expo-google-fonts/tektur/400Regular';
 import { Tektur_500Medium } from '@expo-google-fonts/tektur/500Medium';

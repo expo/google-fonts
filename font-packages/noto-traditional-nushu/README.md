@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/noto-traditional-nushu expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-traditional-nushu/useFonts';
 import { NotoTraditionalNushu_300Light } from '@expo-google-fonts/noto-traditional-nushu/300Light';
 import { NotoTraditionalNushu_400Regular } from '@expo-google-fonts/noto-traditional-nushu/400Regular';

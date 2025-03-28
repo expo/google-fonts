@@ -32,9 +32,7 @@ npx expo install @expo-google-fonts/mukta-vaani expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/mukta-vaani/useFonts';
 import { MuktaVaani_200ExtraLight } from '@expo-google-fonts/mukta-vaani/200ExtraLight';
 import { MuktaVaani_300Light } from '@expo-google-fonts/mukta-vaani/300Light';

@@ -33,9 +33,7 @@ npx expo install @expo-google-fonts/noto-serif-hentaigana expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-serif-hentaigana/useFonts';
 import { NotoSerifHentaigana_200ExtraLight } from '@expo-google-fonts/noto-serif-hentaigana/200ExtraLight';
 import { NotoSerifHentaigana_300Light } from '@expo-google-fonts/noto-serif-hentaigana/300Light';

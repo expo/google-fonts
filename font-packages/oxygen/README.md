@@ -28,9 +28,7 @@ npx expo install @expo-google-fonts/oxygen expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/oxygen/useFonts';
 import { Oxygen_300Light } from '@expo-google-fonts/oxygen/300Light';
 import { Oxygen_400Regular } from '@expo-google-fonts/oxygen/400Regular';

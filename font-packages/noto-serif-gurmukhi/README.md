@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/noto-serif-gurmukhi expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-serif-gurmukhi/useFonts';
 import { NotoSerifGurmukhi_100Thin } from '@expo-google-fonts/noto-serif-gurmukhi/100Thin';
 import { NotoSerifGurmukhi_200ExtraLight } from '@expo-google-fonts/noto-serif-gurmukhi/200ExtraLight';

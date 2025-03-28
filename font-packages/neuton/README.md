@@ -31,9 +31,7 @@ npx expo install @expo-google-fonts/neuton expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/neuton/useFonts';
 import { Neuton_200ExtraLight } from '@expo-google-fonts/neuton/200ExtraLight';
 import { Neuton_300Light } from '@expo-google-fonts/neuton/300Light';

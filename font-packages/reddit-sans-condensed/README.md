@@ -33,9 +33,7 @@ npx expo install @expo-google-fonts/reddit-sans-condensed expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/reddit-sans-condensed/useFonts';
 import { RedditSansCondensed_200ExtraLight } from '@expo-google-fonts/reddit-sans-condensed/200ExtraLight';
 import { RedditSansCondensed_300Light } from '@expo-google-fonts/reddit-sans-condensed/300Light';

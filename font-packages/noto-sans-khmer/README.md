@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/noto-sans-khmer expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-sans-khmer/useFonts';
 import { NotoSansKhmer_100Thin } from '@expo-google-fonts/noto-sans-khmer/100Thin';
 import { NotoSansKhmer_200ExtraLight } from '@expo-google-fonts/noto-sans-khmer/200ExtraLight';

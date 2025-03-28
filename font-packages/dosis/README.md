@@ -32,9 +32,7 @@ npx expo install @expo-google-fonts/dosis expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/dosis/useFonts';
 import { Dosis_200ExtraLight } from '@expo-google-fonts/dosis/200ExtraLight';
 import { Dosis_300Light } from '@expo-google-fonts/dosis/300Light';

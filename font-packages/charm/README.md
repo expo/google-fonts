@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/charm expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/charm/useFonts';
 import { Charm_400Regular } from '@expo-google-fonts/charm/400Regular';
 import { Charm_700Bold } from '@expo-google-fonts/charm/700Bold';

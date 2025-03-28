@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/news-cycle expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/news-cycle/useFonts';
 import { NewsCycle_400Regular } from '@expo-google-fonts/news-cycle/400Regular';
 import { NewsCycle_700Bold } from '@expo-google-fonts/news-cycle/700Bold';

@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/tsukimi-rounded expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/tsukimi-rounded/useFonts';
 import { TsukimiRounded_300Light } from '@expo-google-fonts/tsukimi-rounded/300Light';
 import { TsukimiRounded_400Regular } from '@expo-google-fonts/tsukimi-rounded/400Regular';

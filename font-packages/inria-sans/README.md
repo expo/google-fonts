@@ -31,9 +31,7 @@ npx expo install @expo-google-fonts/inria-sans expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/inria-sans/useFonts';
 import { InriaSans_300Light } from '@expo-google-fonts/inria-sans/300Light';
 import { InriaSans_300Light_Italic } from '@expo-google-fonts/inria-sans/300Light_Italic';

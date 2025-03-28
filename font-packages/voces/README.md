@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/voces expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/voces/useFonts';
 import { Voces_400Regular } from '@expo-google-fonts/voces/400Regular';
 

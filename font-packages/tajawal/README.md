@@ -32,9 +32,7 @@ npx expo install @expo-google-fonts/tajawal expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/tajawal/useFonts';
 import { Tajawal_200ExtraLight } from '@expo-google-fonts/tajawal/200ExtraLight';
 import { Tajawal_300Light } from '@expo-google-fonts/tajawal/300Light';

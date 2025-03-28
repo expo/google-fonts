@@ -28,9 +28,7 @@ npx expo install @expo-google-fonts/kaisei-opti expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/kaisei-opti/useFonts';
 import { KaiseiOpti_400Regular } from '@expo-google-fonts/kaisei-opti/400Regular';
 import { KaiseiOpti_500Medium } from '@expo-google-fonts/kaisei-opti/500Medium';

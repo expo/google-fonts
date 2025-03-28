@@ -35,9 +35,7 @@ npx expo install @expo-google-fonts/andada-pro expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/andada-pro/useFonts';
 import { AndadaPro_400Regular } from '@expo-google-fonts/andada-pro/400Regular';
 import { AndadaPro_500Medium } from '@expo-google-fonts/andada-pro/500Medium';

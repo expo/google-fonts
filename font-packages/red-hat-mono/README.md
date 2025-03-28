@@ -35,9 +35,7 @@ npx expo install @expo-google-fonts/red-hat-mono expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/red-hat-mono/useFonts';
 import { RedHatMono_300Light } from '@expo-google-fonts/red-hat-mono/300Light';
 import { RedHatMono_400Regular } from '@expo-google-fonts/red-hat-mono/400Regular';

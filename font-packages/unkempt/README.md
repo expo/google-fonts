@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/unkempt expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/unkempt/useFonts';
 import { Unkempt_400Regular } from '@expo-google-fonts/unkempt/400Regular';
 import { Unkempt_700Bold } from '@expo-google-fonts/unkempt/700Bold';

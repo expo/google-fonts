@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/kameron expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/kameron/useFonts';
 import { Kameron_400Regular } from '@expo-google-fonts/kameron/400Regular';
 import { Kameron_500Medium } from '@expo-google-fonts/kameron/500Medium';

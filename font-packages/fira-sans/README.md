@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/fira-sans expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/fira-sans/useFonts';
 import { FiraSans_100Thin } from '@expo-google-fonts/fira-sans/100Thin';
 import { FiraSans_100Thin_Italic } from '@expo-google-fonts/fira-sans/100Thin_Italic';

@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/domine expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/domine/useFonts';
 import { Domine_400Regular } from '@expo-google-fonts/domine/400Regular';
 import { Domine_500Medium } from '@expo-google-fonts/domine/500Medium';

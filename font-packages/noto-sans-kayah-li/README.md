@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/noto-sans-kayah-li expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-sans-kayah-li/useFonts';
 import { NotoSansKayahLi_400Regular } from '@expo-google-fonts/noto-sans-kayah-li/400Regular';
 import { NotoSansKayahLi_500Medium } from '@expo-google-fonts/noto-sans-kayah-li/500Medium';

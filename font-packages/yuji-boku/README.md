@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/yuji-boku expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/yuji-boku/useFonts';
 import { YujiBoku_400Regular } from '@expo-google-fonts/yuji-boku/400Regular';
 

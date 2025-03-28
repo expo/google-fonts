@@ -32,9 +32,7 @@ npx expo install @expo-google-fonts/ibm-plex-sans-devanagari expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/ibm-plex-sans-devanagari/useFonts';
 import { IBMPlexSansDevanagari_100Thin } from '@expo-google-fonts/ibm-plex-sans-devanagari/100Thin';
 import { IBMPlexSansDevanagari_200ExtraLight } from '@expo-google-fonts/ibm-plex-sans-devanagari/200ExtraLight';

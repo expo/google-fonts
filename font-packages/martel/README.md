@@ -32,9 +32,7 @@ npx expo install @expo-google-fonts/martel expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/martel/useFonts';
 import { Martel_200ExtraLight } from '@expo-google-fonts/martel/200ExtraLight';
 import { Martel_300Light } from '@expo-google-fonts/martel/300Light';

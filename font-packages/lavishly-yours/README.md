@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/lavishly-yours expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/lavishly-yours/useFonts';
 import { LavishlyYours_400Regular } from '@expo-google-fonts/lavishly-yours/400Regular';
 

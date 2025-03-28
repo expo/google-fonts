@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/markazi-text expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/markazi-text/useFonts';
 import { MarkaziText_400Regular } from '@expo-google-fonts/markazi-text/400Regular';
 import { MarkaziText_500Medium } from '@expo-google-fonts/markazi-text/500Medium';

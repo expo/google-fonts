@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/urbanist expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/urbanist/useFonts';
 import { Urbanist_100Thin } from '@expo-google-fonts/urbanist/100Thin';
 import { Urbanist_200ExtraLight } from '@expo-google-fonts/urbanist/200ExtraLight';

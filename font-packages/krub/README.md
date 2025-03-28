@@ -37,9 +37,7 @@ npx expo install @expo-google-fonts/krub expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/krub/useFonts';
 import { Krub_200ExtraLight } from '@expo-google-fonts/krub/200ExtraLight';
 import { Krub_200ExtraLight_Italic } from '@expo-google-fonts/krub/200ExtraLight_Italic';

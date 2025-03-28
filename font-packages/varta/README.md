@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/varta expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/varta/useFonts';
 import { Varta_300Light } from '@expo-google-fonts/varta/300Light';
 import { Varta_400Regular } from '@expo-google-fonts/varta/400Regular';

@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/peralta expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/peralta/useFonts';
 import { Peralta_400Regular } from '@expo-google-fonts/peralta/400Regular';
 

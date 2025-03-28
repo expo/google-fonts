@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/rambla expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/rambla/useFonts';
 import { Rambla_400Regular } from '@expo-google-fonts/rambla/400Regular';
 import { Rambla_400Regular_Italic } from '@expo-google-fonts/rambla/400Regular_Italic';

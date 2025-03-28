@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/fraunces expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/fraunces/useFonts';
 import { Fraunces_100Thin } from '@expo-google-fonts/fraunces/100Thin';
 import { Fraunces_200ExtraLight } from '@expo-google-fonts/fraunces/200ExtraLight';

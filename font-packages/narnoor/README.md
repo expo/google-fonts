@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/narnoor expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/narnoor/useFonts';
 import { Narnoor_400Regular } from '@expo-google-fonts/narnoor/400Regular';
 import { Narnoor_500Medium } from '@expo-google-fonts/narnoor/500Medium';

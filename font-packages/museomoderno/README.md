@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/museomoderno expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/museomoderno/useFonts';
 import { MuseoModerno_100Thin } from '@expo-google-fonts/museomoderno/100Thin';
 import { MuseoModerno_200ExtraLight } from '@expo-google-fonts/museomoderno/200ExtraLight';

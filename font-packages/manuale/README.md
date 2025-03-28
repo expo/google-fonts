@@ -37,9 +37,7 @@ npx expo install @expo-google-fonts/manuale expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/manuale/useFonts';
 import { Manuale_300Light } from '@expo-google-fonts/manuale/300Light';
 import { Manuale_400Regular } from '@expo-google-fonts/manuale/400Regular';

@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/b612 expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/b612/useFonts';
 import { B612_400Regular } from '@expo-google-fonts/b612/400Regular';
 import { B612_400Regular_Italic } from '@expo-google-fonts/b612/400Regular_Italic';

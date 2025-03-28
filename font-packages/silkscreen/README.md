@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/silkscreen expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/silkscreen/useFonts';
 import { Silkscreen_400Regular } from '@expo-google-fonts/silkscreen/400Regular';
 import { Silkscreen_700Bold } from '@expo-google-fonts/silkscreen/700Bold';

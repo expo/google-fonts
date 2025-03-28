@@ -41,9 +41,7 @@ npx expo install @expo-google-fonts/source-sans-3 expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/source-sans-3/useFonts';
 import { SourceSans3_200ExtraLight } from '@expo-google-fonts/source-sans-3/200ExtraLight';
 import { SourceSans3_300Light } from '@expo-google-fonts/source-sans-3/300Light';

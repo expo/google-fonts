@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/hind-vadodara expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/hind-vadodara/useFonts';
 import { HindVadodara_300Light } from '@expo-google-fonts/hind-vadodara/300Light';
 import { HindVadodara_400Regular } from '@expo-google-fonts/hind-vadodara/400Regular';

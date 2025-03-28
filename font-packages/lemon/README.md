@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/lemon expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/lemon/useFonts';
 import { Lemon_400Regular } from '@expo-google-fonts/lemon/400Regular';
 

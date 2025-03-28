@@ -28,9 +28,7 @@ npx expo install @expo-google-fonts/gudea expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/gudea/useFonts';
 import { Gudea_400Regular } from '@expo-google-fonts/gudea/400Regular';
 import { Gudea_400Regular_Italic } from '@expo-google-fonts/gudea/400Regular_Italic';

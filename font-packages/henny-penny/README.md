@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/henny-penny expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/henny-penny/useFonts';
 import { HennyPenny_400Regular } from '@expo-google-fonts/henny-penny/400Regular';
 

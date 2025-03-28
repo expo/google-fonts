@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/playwrite-us-modern-guides expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/playwrite-us-modern-guides/useFonts';
 import { PlaywriteUSModernGuides_400Regular } from '@expo-google-fonts/playwrite-us-modern-guides/400Regular';
 

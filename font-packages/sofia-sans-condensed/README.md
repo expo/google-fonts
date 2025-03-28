@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/sofia-sans-condensed expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/sofia-sans-condensed/useFonts';
 import { SofiaSansCondensed_100Thin } from '@expo-google-fonts/sofia-sans-condensed/100Thin';
 import { SofiaSansCondensed_200ExtraLight } from '@expo-google-fonts/sofia-sans-condensed/200ExtraLight';

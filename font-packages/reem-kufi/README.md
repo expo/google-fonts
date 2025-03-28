@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/reem-kufi expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/reem-kufi/useFonts';
 import { ReemKufi_400Regular } from '@expo-google-fonts/reem-kufi/400Regular';
 import { ReemKufi_500Medium } from '@expo-google-fonts/reem-kufi/500Medium';

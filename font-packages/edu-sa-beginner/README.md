@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/edu-sa-beginner expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/edu-sa-beginner/useFonts';
 import { EduSABeginner_400Regular } from '@expo-google-fonts/edu-sa-beginner/400Regular';
 import { EduSABeginner_500Medium } from '@expo-google-fonts/edu-sa-beginner/500Medium';

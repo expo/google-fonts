@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/overpass expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/overpass/useFonts';
 import { Overpass_100Thin } from '@expo-google-fonts/overpass/100Thin';
 import { Overpass_200ExtraLight } from '@expo-google-fonts/overpass/200ExtraLight';

@@ -35,9 +35,7 @@ npx expo install @expo-google-fonts/cormorant-garamond expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/cormorant-garamond/useFonts';
 import { CormorantGaramond_300Light } from '@expo-google-fonts/cormorant-garamond/300Light';
 import { CormorantGaramond_400Regular } from '@expo-google-fonts/cormorant-garamond/400Regular';

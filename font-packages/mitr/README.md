@@ -31,9 +31,7 @@ npx expo install @expo-google-fonts/mitr expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/mitr/useFonts';
 import { Mitr_200ExtraLight } from '@expo-google-fonts/mitr/200ExtraLight';
 import { Mitr_300Light } from '@expo-google-fonts/mitr/300Light';

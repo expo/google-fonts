@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/hind-guntur expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/hind-guntur/useFonts';
 import { HindGuntur_300Light } from '@expo-google-fonts/hind-guntur/300Light';
 import { HindGuntur_400Regular } from '@expo-google-fonts/hind-guntur/400Regular';

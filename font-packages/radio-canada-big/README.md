@@ -33,9 +33,7 @@ npx expo install @expo-google-fonts/radio-canada-big expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/radio-canada-big/useFonts';
 import { RadioCanadaBig_400Regular } from '@expo-google-fonts/radio-canada-big/400Regular';
 import { RadioCanadaBig_500Medium } from '@expo-google-fonts/radio-canada-big/500Medium';

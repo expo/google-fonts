@@ -37,9 +37,7 @@ npx expo install @expo-google-fonts/bodoni-moda expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/bodoni-moda/useFonts';
 import { BodoniModa_400Regular } from '@expo-google-fonts/bodoni-moda/400Regular';
 import { BodoniModa_500Medium } from '@expo-google-fonts/bodoni-moda/500Medium';

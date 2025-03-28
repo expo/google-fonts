@@ -35,9 +35,7 @@ npx expo install @expo-google-fonts/lato expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/lato/useFonts';
 import { Lato_100Thin } from '@expo-google-fonts/lato/100Thin';
 import { Lato_100Thin_Italic } from '@expo-google-fonts/lato/100Thin_Italic';

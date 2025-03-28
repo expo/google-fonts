@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/kreon expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/kreon/useFonts';
 import { Kreon_300Light } from '@expo-google-fonts/kreon/300Light';
 import { Kreon_400Regular } from '@expo-google-fonts/kreon/400Regular';

@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/suwannaphum expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/suwannaphum/useFonts';
 import { Suwannaphum_100Thin } from '@expo-google-fonts/suwannaphum/100Thin';
 import { Suwannaphum_300Light } from '@expo-google-fonts/suwannaphum/300Light';

@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/labrada expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/labrada/useFonts';
 import { Labrada_100Thin } from '@expo-google-fonts/labrada/100Thin';
 import { Labrada_200ExtraLight } from '@expo-google-fonts/labrada/200ExtraLight';

@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/catamaran expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/catamaran/useFonts';
 import { Catamaran_100Thin } from '@expo-google-fonts/catamaran/100Thin';
 import { Catamaran_200ExtraLight } from '@expo-google-fonts/catamaran/200ExtraLight';

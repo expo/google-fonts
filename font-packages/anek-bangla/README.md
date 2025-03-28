@@ -33,9 +33,7 @@ npx expo install @expo-google-fonts/anek-bangla expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/anek-bangla/useFonts';
 import { AnekBangla_100Thin } from '@expo-google-fonts/anek-bangla/100Thin';
 import { AnekBangla_200ExtraLight } from '@expo-google-fonts/anek-bangla/200ExtraLight';

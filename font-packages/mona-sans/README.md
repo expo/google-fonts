@@ -41,9 +41,7 @@ npx expo install @expo-google-fonts/mona-sans expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/mona-sans/useFonts';
 import { MonaSans_200ExtraLight } from '@expo-google-fonts/mona-sans/200ExtraLight';
 import { MonaSans_300Light } from '@expo-google-fonts/mona-sans/300Light';

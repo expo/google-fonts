@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/gentium-book-plus expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/gentium-book-plus/useFonts';
 import { GentiumBookPlus_400Regular } from '@expo-google-fonts/gentium-book-plus/400Regular';
 import { GentiumBookPlus_400Regular_Italic } from '@expo-google-fonts/gentium-book-plus/400Regular_Italic';

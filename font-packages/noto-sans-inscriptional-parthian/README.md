@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/noto-sans-inscriptional-parthian expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-sans-inscriptional-parthian/useFonts';
 import { NotoSansInscriptionalParthian_400Regular } from '@expo-google-fonts/noto-sans-inscriptional-parthian/400Regular';
 

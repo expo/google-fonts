@@ -32,9 +32,7 @@ npx expo install @expo-google-fonts/m-plus-rounded-1c expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/m-plus-rounded-1c/useFonts';
 import { MPLUSRounded1c_100Thin } from '@expo-google-fonts/m-plus-rounded-1c/100Thin';
 import { MPLUSRounded1c_300Light } from '@expo-google-fonts/m-plus-rounded-1c/300Light';

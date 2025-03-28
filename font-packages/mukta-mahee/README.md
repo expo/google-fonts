@@ -32,9 +32,7 @@ npx expo install @expo-google-fonts/mukta-mahee expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/mukta-mahee/useFonts';
 import { MuktaMahee_200ExtraLight } from '@expo-google-fonts/mukta-mahee/200ExtraLight';
 import { MuktaMahee_300Light } from '@expo-google-fonts/mukta-mahee/300Light';

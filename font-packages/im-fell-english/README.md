@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/im-fell-english expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/im-fell-english/useFonts';
 import { IMFellEnglish_400Regular } from '@expo-google-fonts/im-fell-english/400Regular';
 import { IMFellEnglish_400Regular_Italic } from '@expo-google-fonts/im-fell-english/400Regular_Italic';

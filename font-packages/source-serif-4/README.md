@@ -41,9 +41,7 @@ npx expo install @expo-google-fonts/source-serif-4 expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/source-serif-4/useFonts';
 import { SourceSerif4_200ExtraLight } from '@expo-google-fonts/source-serif-4/200ExtraLight';
 import { SourceSerif4_300Light } from '@expo-google-fonts/source-serif-4/300Light';

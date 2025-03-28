@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/noto-serif-lao expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-serif-lao/useFonts';
 import { NotoSerifLao_100Thin } from '@expo-google-fonts/noto-serif-lao/100Thin';
 import { NotoSerifLao_200ExtraLight } from '@expo-google-fonts/noto-serif-lao/200ExtraLight';

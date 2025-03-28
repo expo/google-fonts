@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/doto expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/doto/useFonts';
 import { Doto_100Thin } from '@expo-google-fonts/doto/100Thin';
 import { Doto_200ExtraLight } from '@expo-google-fonts/doto/200ExtraLight';

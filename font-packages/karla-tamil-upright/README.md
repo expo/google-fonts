@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/karla-tamil-upright expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/karla-tamil-upright/useFonts';
 import { KarlaTamilUpright_400Regular } from '@expo-google-fonts/karla-tamil-upright/400Regular';
 import { KarlaTamilUpright_700Bold } from '@expo-google-fonts/karla-tamil-upright/700Bold';

@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/outfit expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/outfit/useFonts';
 import { Outfit_100Thin } from '@expo-google-fonts/outfit/100Thin';
 import { Outfit_200ExtraLight } from '@expo-google-fonts/outfit/200ExtraLight';

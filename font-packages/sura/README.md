@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/sura expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/sura/useFonts';
 import { Sura_400Regular } from '@expo-google-fonts/sura/400Regular';
 import { Sura_700Bold } from '@expo-google-fonts/sura/700Bold';

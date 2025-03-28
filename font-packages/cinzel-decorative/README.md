@@ -28,9 +28,7 @@ npx expo install @expo-google-fonts/cinzel-decorative expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/cinzel-decorative/useFonts';
 import { CinzelDecorative_400Regular } from '@expo-google-fonts/cinzel-decorative/400Regular';
 import { CinzelDecorative_700Bold } from '@expo-google-fonts/cinzel-decorative/700Bold';

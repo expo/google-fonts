@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/gluten expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/gluten/useFonts';
 import { Gluten_100Thin } from '@expo-google-fonts/gluten/100Thin';
 import { Gluten_200ExtraLight } from '@expo-google-fonts/gluten/200ExtraLight';

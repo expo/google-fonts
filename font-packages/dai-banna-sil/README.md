@@ -35,9 +35,7 @@ npx expo install @expo-google-fonts/dai-banna-sil expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/dai-banna-sil/useFonts';
 import { DaiBannaSIL_300Light } from '@expo-google-fonts/dai-banna-sil/300Light';
 import { DaiBannaSIL_300Light_Italic } from '@expo-google-fonts/dai-banna-sil/300Light_Italic';

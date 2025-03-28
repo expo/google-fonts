@@ -37,9 +37,7 @@ npx expo install @expo-google-fonts/kodchasan expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/kodchasan/useFonts';
 import { Kodchasan_200ExtraLight } from '@expo-google-fonts/kodchasan/200ExtraLight';
 import { Kodchasan_200ExtraLight_Italic } from '@expo-google-fonts/kodchasan/200ExtraLight_Italic';

@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/karma expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/karma/useFonts';
 import { Karma_300Light } from '@expo-google-fonts/karma/300Light';
 import { Karma_400Regular } from '@expo-google-fonts/karma/400Regular';

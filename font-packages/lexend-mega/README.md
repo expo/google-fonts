@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/lexend-mega expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/lexend-mega/useFonts';
 import { LexendMega_100Thin } from '@expo-google-fonts/lexend-mega/100Thin';
 import { LexendMega_200ExtraLight } from '@expo-google-fonts/lexend-mega/200ExtraLight';

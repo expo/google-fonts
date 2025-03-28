@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/prociono expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/prociono/useFonts';
 import { Prociono_400Regular } from '@expo-google-fonts/prociono/400Regular';
 

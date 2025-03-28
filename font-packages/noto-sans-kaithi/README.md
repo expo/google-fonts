@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/noto-sans-kaithi expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-sans-kaithi/useFonts';
 import { NotoSansKaithi_400Regular } from '@expo-google-fonts/noto-sans-kaithi/400Regular';
 

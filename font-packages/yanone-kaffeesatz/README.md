@@ -31,9 +31,7 @@ npx expo install @expo-google-fonts/yanone-kaffeesatz expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/yanone-kaffeesatz/useFonts';
 import { YanoneKaffeesatz_200ExtraLight } from '@expo-google-fonts/yanone-kaffeesatz/200ExtraLight';
 import { YanoneKaffeesatz_300Light } from '@expo-google-fonts/yanone-kaffeesatz/300Light';

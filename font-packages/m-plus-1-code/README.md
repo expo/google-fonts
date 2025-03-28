@@ -32,9 +32,7 @@ npx expo install @expo-google-fonts/m-plus-1-code expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/m-plus-1-code/useFonts';
 import { MPLUS1Code_100Thin } from '@expo-google-fonts/m-plus-1-code/100Thin';
 import { MPLUS1Code_200ExtraLight } from '@expo-google-fonts/m-plus-1-code/200ExtraLight';

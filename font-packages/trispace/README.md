@@ -33,9 +33,7 @@ npx expo install @expo-google-fonts/trispace expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/trispace/useFonts';
 import { Trispace_100Thin } from '@expo-google-fonts/trispace/100Thin';
 import { Trispace_200ExtraLight } from '@expo-google-fonts/trispace/200ExtraLight';

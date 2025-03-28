@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/macondo expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/macondo/useFonts';
 import { Macondo_400Regular } from '@expo-google-fonts/macondo/400Regular';
 

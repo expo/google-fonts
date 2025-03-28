@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/nanum-gothic-coding expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/nanum-gothic-coding/useFonts';
 import { NanumGothicCoding_400Regular } from '@expo-google-fonts/nanum-gothic-coding/400Regular';
 import { NanumGothicCoding_700Bold } from '@expo-google-fonts/nanum-gothic-coding/700Bold';

@@ -28,9 +28,7 @@ npx expo install @expo-google-fonts/david-libre expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/david-libre/useFonts';
 import { DavidLibre_400Regular } from '@expo-google-fonts/david-libre/400Regular';
 import { DavidLibre_500Medium } from '@expo-google-fonts/david-libre/500Medium';

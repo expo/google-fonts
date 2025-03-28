@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/nokora expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/nokora/useFonts';
 import { Nokora_100Thin } from '@expo-google-fonts/nokora/100Thin';
 import { Nokora_300Light } from '@expo-google-fonts/nokora/300Light';

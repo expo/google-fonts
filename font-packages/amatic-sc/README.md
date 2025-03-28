@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/amatic-sc expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/amatic-sc/useFonts';
 import { AmaticSC_400Regular } from '@expo-google-fonts/amatic-sc/400Regular';
 import { AmaticSC_700Bold } from '@expo-google-fonts/amatic-sc/700Bold';

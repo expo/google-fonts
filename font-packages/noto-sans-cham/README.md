@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/noto-sans-cham expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-sans-cham/useFonts';
 import { NotoSansCham_100Thin } from '@expo-google-fonts/noto-sans-cham/100Thin';
 import { NotoSansCham_200ExtraLight } from '@expo-google-fonts/noto-sans-cham/200ExtraLight';

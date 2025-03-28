@@ -33,9 +33,7 @@ npx expo install @expo-google-fonts/inconsolata expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/inconsolata/useFonts';
 import { Inconsolata_200ExtraLight } from '@expo-google-fonts/inconsolata/200ExtraLight';
 import { Inconsolata_300Light } from '@expo-google-fonts/inconsolata/300Light';

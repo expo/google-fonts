@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/noto-sans-new-tai-lue expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-sans-new-tai-lue/useFonts';
 import { NotoSansNewTaiLue_400Regular } from '@expo-google-fonts/noto-sans-new-tai-lue/400Regular';
 import { NotoSansNewTaiLue_500Medium } from '@expo-google-fonts/noto-sans-new-tai-lue/500Medium';

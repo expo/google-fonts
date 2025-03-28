@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/poppins expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/poppins/useFonts';
 import { Poppins_100Thin } from '@expo-google-fonts/poppins/100Thin';
 import { Poppins_100Thin_Italic } from '@expo-google-fonts/poppins/100Thin_Italic';

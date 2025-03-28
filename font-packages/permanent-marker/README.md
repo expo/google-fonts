@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/permanent-marker expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/permanent-marker/useFonts';
 import { PermanentMarker_400Regular } from '@expo-google-fonts/permanent-marker/400Regular';
 

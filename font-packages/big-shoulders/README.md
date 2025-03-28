@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/big-shoulders expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/big-shoulders/useFonts';
 import { BigShoulders_100Thin } from '@expo-google-fonts/big-shoulders/100Thin';
 import { BigShoulders_200ExtraLight } from '@expo-google-fonts/big-shoulders/200ExtraLight';

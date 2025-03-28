@@ -32,9 +32,7 @@ npx expo install @expo-google-fonts/frank-ruhl-libre expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/frank-ruhl-libre/useFonts';
 import { FrankRuhlLibre_300Light } from '@expo-google-fonts/frank-ruhl-libre/300Light';
 import { FrankRuhlLibre_400Regular } from '@expo-google-fonts/frank-ruhl-libre/400Regular';

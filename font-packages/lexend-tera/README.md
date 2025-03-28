@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/lexend-tera expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/lexend-tera/useFonts';
 import { LexendTera_100Thin } from '@expo-google-fonts/lexend-tera/100Thin';
 import { LexendTera_200ExtraLight } from '@expo-google-fonts/lexend-tera/200ExtraLight';

@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/comfortaa expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/comfortaa/useFonts';
 import { Comfortaa_300Light } from '@expo-google-fonts/comfortaa/300Light';
 import { Comfortaa_400Regular } from '@expo-google-fonts/comfortaa/400Regular';

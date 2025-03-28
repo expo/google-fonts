@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/miriam-libre expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/miriam-libre/useFonts';
 import { MiriamLibre_400Regular } from '@expo-google-fonts/miriam-libre/400Regular';
 import { MiriamLibre_500Medium } from '@expo-google-fonts/miriam-libre/500Medium';

@@ -39,9 +39,7 @@ npx expo install @expo-google-fonts/atkinson-hyperlegible-mono expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/atkinson-hyperlegible-mono/useFonts';
 import { AtkinsonHyperlegibleMono_200ExtraLight } from '@expo-google-fonts/atkinson-hyperlegible-mono/200ExtraLight';
 import { AtkinsonHyperlegibleMono_300Light } from '@expo-google-fonts/atkinson-hyperlegible-mono/300Light';

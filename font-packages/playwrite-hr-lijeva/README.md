@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/playwrite-hr-lijeva expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/playwrite-hr-lijeva/useFonts';
 import { PlaywriteHRLijeva_100Thin } from '@expo-google-fonts/playwrite-hr-lijeva/100Thin';
 import { PlaywriteHRLijeva_200ExtraLight } from '@expo-google-fonts/playwrite-hr-lijeva/200ExtraLight';

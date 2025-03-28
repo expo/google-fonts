@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/fontdiner-swanky expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/fontdiner-swanky/useFonts';
 import { FontdinerSwanky_400Regular } from '@expo-google-fonts/fontdiner-swanky/400Regular';
 

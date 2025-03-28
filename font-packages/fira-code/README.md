@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/fira-code expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/fira-code/useFonts';
 import { FiraCode_300Light } from '@expo-google-fonts/fira-code/300Light';
 import { FiraCode_400Regular } from '@expo-google-fonts/fira-code/400Regular';

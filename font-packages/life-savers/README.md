@@ -28,9 +28,7 @@ npx expo install @expo-google-fonts/life-savers expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/life-savers/useFonts';
 import { LifeSavers_400Regular } from '@expo-google-fonts/life-savers/400Regular';
 import { LifeSavers_700Bold } from '@expo-google-fonts/life-savers/700Bold';

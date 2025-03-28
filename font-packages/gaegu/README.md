@@ -28,9 +28,7 @@ npx expo install @expo-google-fonts/gaegu expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/gaegu/useFonts';
 import { Gaegu_300Light } from '@expo-google-fonts/gaegu/300Light';
 import { Gaegu_400Regular } from '@expo-google-fonts/gaegu/400Regular';

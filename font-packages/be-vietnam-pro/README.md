@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/be-vietnam-pro expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/be-vietnam-pro/useFonts';
 import { BeVietnamPro_100Thin } from '@expo-google-fonts/be-vietnam-pro/100Thin';
 import { BeVietnamPro_100Thin_Italic } from '@expo-google-fonts/be-vietnam-pro/100Thin_Italic';

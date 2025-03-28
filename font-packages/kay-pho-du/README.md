@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/kay-pho-du expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/kay-pho-du/useFonts';
 import { KayPhoDu_400Regular } from '@expo-google-fonts/kay-pho-du/400Regular';
 import { KayPhoDu_500Medium } from '@expo-google-fonts/kay-pho-du/500Medium';

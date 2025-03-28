@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/almarai expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/almarai/useFonts';
 import { Almarai_300Light } from '@expo-google-fonts/almarai/300Light';
 import { Almarai_400Regular } from '@expo-google-fonts/almarai/400Regular';

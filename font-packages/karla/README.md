@@ -39,9 +39,7 @@ npx expo install @expo-google-fonts/karla expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/karla/useFonts';
 import { Karla_200ExtraLight } from '@expo-google-fonts/karla/200ExtraLight';
 import { Karla_300Light } from '@expo-google-fonts/karla/300Light';

@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/noto-sans-gujarati expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-sans-gujarati/useFonts';
 import { NotoSansGujarati_100Thin } from '@expo-google-fonts/noto-sans-gujarati/100Thin';
 import { NotoSansGujarati_200ExtraLight } from '@expo-google-fonts/noto-sans-gujarati/200ExtraLight';

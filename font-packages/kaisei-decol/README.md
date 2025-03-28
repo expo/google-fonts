@@ -28,9 +28,7 @@ npx expo install @expo-google-fonts/kaisei-decol expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/kaisei-decol/useFonts';
 import { KaiseiDecol_400Regular } from '@expo-google-fonts/kaisei-decol/400Regular';
 import { KaiseiDecol_500Medium } from '@expo-google-fonts/kaisei-decol/500Medium';

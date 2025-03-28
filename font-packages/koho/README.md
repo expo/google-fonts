@@ -37,9 +37,7 @@ npx expo install @expo-google-fonts/koho expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/koho/useFonts';
 import { KoHo_200ExtraLight } from '@expo-google-fonts/koho/200ExtraLight';
 import { KoHo_200ExtraLight_Italic } from '@expo-google-fonts/koho/200ExtraLight_Italic';

@@ -39,9 +39,7 @@ npx expo install @expo-google-fonts/josefin-slab expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/josefin-slab/useFonts';
 import { JosefinSlab_100Thin } from '@expo-google-fonts/josefin-slab/100Thin';
 import { JosefinSlab_200ExtraLight } from '@expo-google-fonts/josefin-slab/200ExtraLight';

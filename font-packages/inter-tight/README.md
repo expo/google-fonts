@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/inter-tight expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/inter-tight/useFonts';
 import { InterTight_100Thin } from '@expo-google-fonts/inter-tight/100Thin';
 import { InterTight_200ExtraLight } from '@expo-google-fonts/inter-tight/200ExtraLight';

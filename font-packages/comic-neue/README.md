@@ -31,9 +31,7 @@ npx expo install @expo-google-fonts/comic-neue expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/comic-neue/useFonts';
 import { ComicNeue_300Light } from '@expo-google-fonts/comic-neue/300Light';
 import { ComicNeue_300Light_Italic } from '@expo-google-fonts/comic-neue/300Light_Italic';

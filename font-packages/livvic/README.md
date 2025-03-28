@@ -41,9 +41,7 @@ npx expo install @expo-google-fonts/livvic expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/livvic/useFonts';
 import { Livvic_100Thin } from '@expo-google-fonts/livvic/100Thin';
 import { Livvic_100Thin_Italic } from '@expo-google-fonts/livvic/100Thin_Italic';

@@ -41,9 +41,7 @@ npx expo install @expo-google-fonts/k2d expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/k2d/useFonts';
 import { K2D_100Thin } from '@expo-google-fonts/k2d/100Thin';
 import { K2D_100Thin_Italic } from '@expo-google-fonts/k2d/100Thin_Italic';

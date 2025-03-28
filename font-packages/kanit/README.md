@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/kanit expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/kanit/useFonts';
 import { Kanit_100Thin } from '@expo-google-fonts/kanit/100Thin';
 import { Kanit_100Thin_Italic } from '@expo-google-fonts/kanit/100Thin_Italic';

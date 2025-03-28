@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/chivo expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/chivo/useFonts';
 import { Chivo_100Thin } from '@expo-google-fonts/chivo/100Thin';
 import { Chivo_200ExtraLight } from '@expo-google-fonts/chivo/200ExtraLight';

@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/dm-serif-text expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/dm-serif-text/useFonts';
 import { DMSerifText_400Regular } from '@expo-google-fonts/dm-serif-text/400Regular';
 import { DMSerifText_400Regular_Italic } from '@expo-google-fonts/dm-serif-text/400Regular_Italic';

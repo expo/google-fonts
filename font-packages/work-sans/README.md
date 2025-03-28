@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/work-sans expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/work-sans/useFonts';
 import { WorkSans_100Thin } from '@expo-google-fonts/work-sans/100Thin';
 import { WorkSans_200ExtraLight } from '@expo-google-fonts/work-sans/200ExtraLight';

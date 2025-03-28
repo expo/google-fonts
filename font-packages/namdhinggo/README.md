@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/namdhinggo expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/namdhinggo/useFonts';
 import { Namdhinggo_400Regular } from '@expo-google-fonts/namdhinggo/400Regular';
 import { Namdhinggo_500Medium } from '@expo-google-fonts/namdhinggo/500Medium';

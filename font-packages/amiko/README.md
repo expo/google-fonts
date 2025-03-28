@@ -28,9 +28,7 @@ npx expo install @expo-google-fonts/amiko expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/amiko/useFonts';
 import { Amiko_400Regular } from '@expo-google-fonts/amiko/400Regular';
 import { Amiko_600SemiBold } from '@expo-google-fonts/amiko/600SemiBold';

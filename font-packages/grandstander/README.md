@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/grandstander expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/grandstander/useFonts';
 import { Grandstander_100Thin } from '@expo-google-fonts/grandstander/100Thin';
 import { Grandstander_200ExtraLight } from '@expo-google-fonts/grandstander/200ExtraLight';

@@ -37,9 +37,7 @@ npx expo install @expo-google-fonts/fahkwang expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/fahkwang/useFonts';
 import { Fahkwang_200ExtraLight } from '@expo-google-fonts/fahkwang/200ExtraLight';
 import { Fahkwang_200ExtraLight_Italic } from '@expo-google-fonts/fahkwang/200ExtraLight_Italic';

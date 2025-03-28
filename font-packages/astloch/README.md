@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/astloch expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/astloch/useFonts';
 import { Astloch_400Regular } from '@expo-google-fonts/astloch/400Regular';
 import { Astloch_700Bold } from '@expo-google-fonts/astloch/700Bold';

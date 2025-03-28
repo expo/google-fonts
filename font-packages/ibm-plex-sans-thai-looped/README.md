@@ -32,9 +32,7 @@ npx expo install @expo-google-fonts/ibm-plex-sans-thai-looped expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/ibm-plex-sans-thai-looped/useFonts';
 import { IBMPlexSansThaiLooped_100Thin } from '@expo-google-fonts/ibm-plex-sans-thai-looped/100Thin';
 import { IBMPlexSansThaiLooped_200ExtraLight } from '@expo-google-fonts/ibm-plex-sans-thai-looped/200ExtraLight';

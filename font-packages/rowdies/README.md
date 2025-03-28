@@ -28,9 +28,7 @@ npx expo install @expo-google-fonts/rowdies expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/rowdies/useFonts';
 import { Rowdies_300Light } from '@expo-google-fonts/rowdies/300Light';
 import { Rowdies_400Regular } from '@expo-google-fonts/rowdies/400Regular';

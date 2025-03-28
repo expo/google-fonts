@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/delius-unicase expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/delius-unicase/useFonts';
 import { DeliusUnicase_400Regular } from '@expo-google-fonts/delius-unicase/400Regular';
 import { DeliusUnicase_700Bold } from '@expo-google-fonts/delius-unicase/700Bold';

@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/linefont expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/linefont/useFonts';
 import { Linefont_100Thin } from '@expo-google-fonts/linefont/100Thin';
 import { Linefont_200ExtraLight } from '@expo-google-fonts/linefont/200ExtraLight';

@@ -32,9 +32,7 @@ npx expo install @expo-google-fonts/material-symbols expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/material-symbols/useFonts';
 import { MaterialSymbols_100Thin } from '@expo-google-fonts/material-symbols/100Thin';
 import { MaterialSymbols_200ExtraLight } from '@expo-google-fonts/material-symbols/200ExtraLight';

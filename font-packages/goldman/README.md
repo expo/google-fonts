@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/goldman expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/goldman/useFonts';
 import { Goldman_400Regular } from '@expo-google-fonts/goldman/400Regular';
 import { Goldman_700Bold } from '@expo-google-fonts/goldman/700Bold';

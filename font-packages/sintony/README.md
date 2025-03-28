@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/sintony expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/sintony/useFonts';
 import { Sintony_400Regular } from '@expo-google-fonts/sintony/400Regular';
 import { Sintony_700Bold } from '@expo-google-fonts/sintony/700Bold';

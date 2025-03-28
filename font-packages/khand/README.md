@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/khand expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/khand/useFonts';
 import { Khand_300Light } from '@expo-google-fonts/khand/300Light';
 import { Khand_400Regular } from '@expo-google-fonts/khand/400Regular';

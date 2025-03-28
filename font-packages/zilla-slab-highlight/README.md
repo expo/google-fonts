@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/zilla-slab-highlight expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/zilla-slab-highlight/useFonts';
 import { ZillaSlabHighlight_400Regular } from '@expo-google-fonts/zilla-slab-highlight/400Regular';
 import { ZillaSlabHighlight_700Bold } from '@expo-google-fonts/zilla-slab-highlight/700Bold';

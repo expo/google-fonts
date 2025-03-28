@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/nova-oval expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/nova-oval/useFonts';
 import { NovaOval_400Regular } from '@expo-google-fonts/nova-oval/400Regular';
 

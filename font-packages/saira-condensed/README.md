@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/saira-condensed expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/saira-condensed/useFonts';
 import { SairaCondensed_100Thin } from '@expo-google-fonts/saira-condensed/100Thin';
 import { SairaCondensed_200ExtraLight } from '@expo-google-fonts/saira-condensed/200ExtraLight';

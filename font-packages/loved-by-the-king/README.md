@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/loved-by-the-king expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/loved-by-the-king/useFonts';
 import { LovedbytheKing_400Regular } from '@expo-google-fonts/loved-by-the-king/400Regular';
 

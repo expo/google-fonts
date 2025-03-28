@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/noto-serif-tamil expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-serif-tamil/useFonts';
 import { NotoSerifTamil_100Thin } from '@expo-google-fonts/noto-serif-tamil/100Thin';
 import { NotoSerifTamil_200ExtraLight } from '@expo-google-fonts/noto-serif-tamil/200ExtraLight';

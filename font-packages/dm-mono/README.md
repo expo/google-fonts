@@ -31,9 +31,7 @@ npx expo install @expo-google-fonts/dm-mono expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/dm-mono/useFonts';
 import { DMMono_300Light } from '@expo-google-fonts/dm-mono/300Light';
 import { DMMono_300Light_Italic } from '@expo-google-fonts/dm-mono/300Light_Italic';

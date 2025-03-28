@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/kode-mono expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/kode-mono/useFonts';
 import { KodeMono_400Regular } from '@expo-google-fonts/kode-mono/400Regular';
 import { KodeMono_500Medium } from '@expo-google-fonts/kode-mono/500Medium';

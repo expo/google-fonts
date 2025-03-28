@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/abhaya-libre expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/abhaya-libre/useFonts';
 import { AbhayaLibre_400Regular } from '@expo-google-fonts/abhaya-libre/400Regular';
 import { AbhayaLibre_500Medium } from '@expo-google-fonts/abhaya-libre/500Medium';

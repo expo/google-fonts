@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/battambang expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/battambang/useFonts';
 import { Battambang_100Thin } from '@expo-google-fonts/battambang/100Thin';
 import { Battambang_300Light } from '@expo-google-fonts/battambang/300Light';

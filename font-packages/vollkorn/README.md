@@ -37,9 +37,7 @@ npx expo install @expo-google-fonts/vollkorn expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/vollkorn/useFonts';
 import { Vollkorn_400Regular } from '@expo-google-fonts/vollkorn/400Regular';
 import { Vollkorn_500Medium } from '@expo-google-fonts/vollkorn/500Medium';

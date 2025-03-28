@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/noto-sans-sinhala expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-sans-sinhala/useFonts';
 import { NotoSansSinhala_100Thin } from '@expo-google-fonts/noto-sans-sinhala/100Thin';
 import { NotoSansSinhala_200ExtraLight } from '@expo-google-fonts/noto-sans-sinhala/200ExtraLight';

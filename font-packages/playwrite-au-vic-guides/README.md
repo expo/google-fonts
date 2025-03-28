@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/playwrite-au-vic-guides expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/playwrite-au-vic-guides/useFonts';
 import { PlaywriteAUVICGuides_400Regular } from '@expo-google-fonts/playwrite-au-vic-guides/400Regular';
 

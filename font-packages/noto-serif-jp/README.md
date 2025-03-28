@@ -33,9 +33,7 @@ npx expo install @expo-google-fonts/noto-serif-jp expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-serif-jp/useFonts';
 import { NotoSerifJP_200ExtraLight } from '@expo-google-fonts/noto-serif-jp/200ExtraLight';
 import { NotoSerifJP_300Light } from '@expo-google-fonts/noto-serif-jp/300Light';

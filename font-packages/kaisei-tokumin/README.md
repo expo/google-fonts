@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/kaisei-tokumin expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/kaisei-tokumin/useFonts';
 import { KaiseiTokumin_400Regular } from '@expo-google-fonts/kaisei-tokumin/400Regular';
 import { KaiseiTokumin_500Medium } from '@expo-google-fonts/kaisei-tokumin/500Medium';

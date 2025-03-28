@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/shippori-mincho expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/shippori-mincho/useFonts';
 import { ShipporiMincho_400Regular } from '@expo-google-fonts/shippori-mincho/400Regular';
 import { ShipporiMincho_500Medium } from '@expo-google-fonts/shippori-mincho/500Medium';

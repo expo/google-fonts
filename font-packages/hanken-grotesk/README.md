@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/hanken-grotesk expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/hanken-grotesk/useFonts';
 import { HankenGrotesk_100Thin } from '@expo-google-fonts/hanken-grotesk/100Thin';
 import { HankenGrotesk_200ExtraLight } from '@expo-google-fonts/hanken-grotesk/200ExtraLight';

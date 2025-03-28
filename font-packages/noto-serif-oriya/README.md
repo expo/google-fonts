@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/noto-serif-oriya expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-serif-oriya/useFonts';
 import { NotoSerifOriya_400Regular } from '@expo-google-fonts/noto-serif-oriya/400Regular';
 import { NotoSerifOriya_500Medium } from '@expo-google-fonts/noto-serif-oriya/500Medium';

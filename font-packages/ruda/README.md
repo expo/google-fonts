@@ -31,9 +31,7 @@ npx expo install @expo-google-fonts/ruda expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/ruda/useFonts';
 import { Ruda_400Regular } from '@expo-google-fonts/ruda/400Regular';
 import { Ruda_500Medium } from '@expo-google-fonts/ruda/500Medium';

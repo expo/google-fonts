@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/charis-sil expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/charis-sil/useFonts';
 import { CharisSIL_400Regular } from '@expo-google-fonts/charis-sil/400Regular';
 import { CharisSIL_400Regular_Italic } from '@expo-google-fonts/charis-sil/400Regular_Italic';

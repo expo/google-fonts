@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/piedra expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/piedra/useFonts';
 import { Piedra_400Regular } from '@expo-google-fonts/piedra/400Regular';
 

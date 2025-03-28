@@ -33,9 +33,7 @@ npx expo install @expo-google-fonts/mada expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/mada/useFonts';
 import { Mada_200ExtraLight } from '@expo-google-fonts/mada/200ExtraLight';
 import { Mada_300Light } from '@expo-google-fonts/mada/300Light';

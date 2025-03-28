@@ -26,9 +26,7 @@ npx expo install @expo-google-fonts/noto-sans-nko expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-sans-nko/useFonts';
 import { NotoSansNKo_400Regular } from '@expo-google-fonts/noto-sans-nko/400Regular';
 

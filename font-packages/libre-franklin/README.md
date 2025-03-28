@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/libre-franklin expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/libre-franklin/useFonts';
 import { LibreFranklin_100Thin } from '@expo-google-fonts/libre-franklin/100Thin';
 import { LibreFranklin_200ExtraLight } from '@expo-google-fonts/libre-franklin/200ExtraLight';

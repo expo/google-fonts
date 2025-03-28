@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/playwrite-us-modern expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/playwrite-us-modern/useFonts';
 import { PlaywriteUSModern_100Thin } from '@expo-google-fonts/playwrite-us-modern/100Thin';
 import { PlaywriteUSModern_200ExtraLight } from '@expo-google-fonts/playwrite-us-modern/200ExtraLight';

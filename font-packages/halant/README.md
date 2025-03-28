@@ -30,9 +30,7 @@ npx expo install @expo-google-fonts/halant expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/halant/useFonts';
 import { Halant_300Light } from '@expo-google-fonts/halant/300Light';
 import { Halant_400Regular } from '@expo-google-fonts/halant/400Regular';

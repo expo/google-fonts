@@ -33,9 +33,7 @@ npx expo install @expo-google-fonts/brygada-1918 expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/brygada-1918/useFonts';
 import { Brygada1918_400Regular } from '@expo-google-fonts/brygada-1918/400Regular';
 import { Brygada1918_500Medium } from '@expo-google-fonts/brygada-1918/500Medium';

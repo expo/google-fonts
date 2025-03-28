@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/ysabeau-sc expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/ysabeau-sc/useFonts';
 import { YsabeauSC_100Thin } from '@expo-google-fonts/ysabeau-sc/100Thin';
 import { YsabeauSC_200ExtraLight } from '@expo-google-fonts/ysabeau-sc/200ExtraLight';

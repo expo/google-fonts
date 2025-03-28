@@ -33,9 +33,7 @@ npx expo install @expo-google-fonts/ibarra-real-nova expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/ibarra-real-nova/useFonts';
 import { IbarraRealNova_400Regular } from '@expo-google-fonts/ibarra-real-nova/400Regular';
 import { IbarraRealNova_500Medium } from '@expo-google-fonts/ibarra-real-nova/500Medium';

@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/noto-serif-bengali expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-serif-bengali/useFonts';
 import { NotoSerifBengali_100Thin } from '@expo-google-fonts/noto-serif-bengali/100Thin';
 import { NotoSerifBengali_200ExtraLight } from '@expo-google-fonts/noto-serif-bengali/200ExtraLight';

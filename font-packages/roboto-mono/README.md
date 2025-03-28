@@ -39,9 +39,7 @@ npx expo install @expo-google-fonts/roboto-mono expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/roboto-mono/useFonts';
 import { RobotoMono_100Thin } from '@expo-google-fonts/roboto-mono/100Thin';
 import { RobotoMono_200ExtraLight } from '@expo-google-fonts/roboto-mono/200ExtraLight';

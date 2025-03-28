@@ -31,9 +31,7 @@ npx expo install @expo-google-fonts/akatab expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/akatab/useFonts';
 import { Akatab_400Regular } from '@expo-google-fonts/akatab/400Regular';
 import { Akatab_500Medium } from '@expo-google-fonts/akatab/500Medium';

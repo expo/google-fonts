@@ -37,9 +37,7 @@ npx expo install @expo-google-fonts/playfair-display expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/playfair-display/useFonts';
 import { PlayfairDisplay_400Regular } from '@expo-google-fonts/playfair-display/400Regular';
 import { PlayfairDisplay_500Medium } from '@expo-google-fonts/playfair-display/500Medium';

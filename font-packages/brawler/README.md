@@ -27,9 +27,7 @@ npx expo install @expo-google-fonts/brawler expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/brawler/useFonts';
 import { Brawler_400Regular } from '@expo-google-fonts/brawler/400Regular';
 import { Brawler_700Bold } from '@expo-google-fonts/brawler/700Bold';

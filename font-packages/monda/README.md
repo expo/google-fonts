@@ -29,9 +29,7 @@ npx expo install @expo-google-fonts/monda expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/monda/useFonts';
 import { Monda_400Regular } from '@expo-google-fonts/monda/400Regular';
 import { Monda_500Medium } from '@expo-google-fonts/monda/500Medium';

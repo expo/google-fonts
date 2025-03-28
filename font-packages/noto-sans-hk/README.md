@@ -34,9 +34,7 @@ npx expo install @expo-google-fonts/noto-sans-hk expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/noto-sans-hk/useFonts';
 import { NotoSansHK_100Thin } from '@expo-google-fonts/noto-sans-hk/100Thin';
 import { NotoSansHK_200ExtraLight } from '@expo-google-fonts/noto-sans-hk/200ExtraLight';

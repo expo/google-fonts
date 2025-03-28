@@ -43,9 +43,7 @@ npx expo install @expo-google-fonts/raleway expo-font
 Now add code like this to your project
 
 ```js
-import React, { useState, useEffect } from "react";
-
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/raleway/useFonts';
 import { Raleway_100Thin } from '@expo-google-fonts/raleway/100Thin';
 import { Raleway_200ExtraLight } from '@expo-google-fonts/raleway/200ExtraLight';
