@@ -2,6 +2,7 @@
 
 import fs from 'fs';
 
+import { archiveFontPackage } from '../archiveFontPackage';
 import currentDirectoryData from '../directory-data.json';
 import { downloadFontAssets } from '../downloadFontAssets';
 import { generateImages } from '../generateImages';
@@ -14,6 +15,7 @@ import {
   generateGalleryFile,
 } from '../shared';
 import { FontItem } from '../types';
+
 const currentDirectoryItems = currentDirectoryData.items as FontItem[];
 
 async function syncPackages() {
@@ -45,7 +47,10 @@ async function syncPackages() {
     console.log(
       `\nFound ${deletedPackages.length} deleted package${deletedPackages.length === 1 ? '' : 's'}`
     );
-    // TODO: Do we delete the packages?
+    for (const deletedPackage of deletedPackages) {
+      console.log(`✅ Archived ${deletedPackage.family}`);
+      await archiveFontPackage(deletedPackage);
+    }
   }
 
   if (newPackages.length) {

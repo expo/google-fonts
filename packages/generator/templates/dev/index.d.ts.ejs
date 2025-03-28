@@ -8,3 +8,12 @@ variants
   .map(({ name }) => `export const ${name}: string;`)
   .join('\n')
 %>
+
+<%-
+deprecatedVariants
+  .map(({ name }) => `/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const ${name}: string;`)
+  .join('\n')
+%>

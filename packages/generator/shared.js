@@ -16,6 +16,7 @@ const FontPackagesDir = path.join(ProjectRootDir, 'font-packages');
 const DevPackageDir = path.join(FontPackagesDir, 'dev');
 const fontPrefix = 'font';
 const FontDirectoryPackageDir = path.join(ProjectRootDir, 'font-packages', 'font-directory');
+const ArchivedDataPath = path.join(__dirname, 'archived-data.json');
 const PackageScope = '@expo-google-fonts/';
 
 const PrettierOptions = {
@@ -403,15 +404,26 @@ async function generateDevPackage(fontDirectory) {
     }
   }
 
+  const archivedData = JSON.parse(await fs.promises.readFile(ArchivedDataPath, 'utf8'));
+  const deprecatedVariants = [];
+  for (const webfont of archivedData.items) {
+    for (const variantKey of webfont.variants) {
+      deprecatedVariants.push({
+        name: varNameForFontVariant(webfont, variantKey),
+        url: validateFontUrlUsesHttps(webfont.files[variantKey]),
+      });
+    }
+  }
+
   await createFileFromTemplate(
     path.join(pkgDir, 'index.js'),
     path.join(__dirname, 'templates/dev/index.js.ejs'),
-    { variants }
+    { variants, deprecatedVariants }
   );
   await createFileFromTemplate(
     path.join(pkgDir, 'index.d.ts'),
     path.join(__dirname, 'templates/dev/index.d.ts.ejs'),
-    { variants }
+    { variants, deprecatedVariants }
   );
 
   // useFonts.js & useFonts.d.ts
@@ -585,10 +597,12 @@ async function generateGalleryFile(fontDirectory) {
 }
 
 module.exports = {
+  ProjectRootDir,
   FontAssetsDir,
   FontImagesDir,
   FontPackagesDir,
   PackageVersion,
+  ArchivedDataPath,
   varNameForWebfont,
   varNameForFontVariant,
   filenameForFontVariant,
