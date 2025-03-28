@@ -6834,3 +6834,712 @@ export const MaterialSymbolsSharp_400Regular = 'https://fonts.gstatic.com/s/mate
 export const MaterialSymbolsSharp_500Medium = 'https://fonts.gstatic.com/s/materialsymbolssharp/v228/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxO5ojCOJ1H7-knk.ttf';
 export const MaterialSymbolsSharp_600SemiBold = 'https://fonts.gstatic.com/s/materialsymbolssharp/v228/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNVpTCOJ1H7-knk.ttf';
 export const MaterialSymbolsSharp_700Bold = 'https://fonts.gstatic.com/s/materialsymbolssharp/v228/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNspTCOJ1H7-knk.ttf';
+
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const AmaticaSC_400Regular = 'https://fonts.gstatic.com/s/a/39a7e41edc371bdb0e8356c4e9f69ea62594cfd412fbb1f5c45a32c0a5e75516.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const AmaticaSC_700Bold = 'https://fonts.gstatic.com/s/a/4ead630d51d6f70a5e14a17fec1bffc04c9a13118b217101fd42eac20be2ae66.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Andada_400Regular = 'https://fonts.gstatic.com/s/andada/v12/uK_y4riWaego3w9RCh0TMv6EXw.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const AndikaNewBasic_400Regular = 'https://fonts.gstatic.com/s/andikanewbasic/v15/taiRGn9tCp-44eleq5Q-mszJivxSSK-UEGKDBz4.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const AndikaNewBasic_400Regular_Italic = 'https://fonts.gstatic.com/s/andikanewbasic/v15/taiXGn9tCp-44eleq5Q-mszJivxSeK2eFECGFz5VCg.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const AndikaNewBasic_700Bold = 'https://fonts.gstatic.com/s/andikanewbasic/v15/taiWGn9tCp-44eleq5Q-mszJivxScBO7NGqoGzdME84.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const AndikaNewBasic_700Bold_Italic = 'https://fonts.gstatic.com/s/andikanewbasic/v15/taiUGn9tCp-44eleq5Q-mszJivxSeK2mqG-iHxVJA85Okw.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const ArimaMadurai_100Thin = 'https://fonts.gstatic.com/s/arimamadurai/v14/t5t4IRoeKYORG0WNMgnC3seB1V3PqrGCch4Drg.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const ArimaMadurai_200ExtraLight = 'https://fonts.gstatic.com/s/arimamadurai/v14/t5t7IRoeKYORG0WNMgnC3seB1fHuipusfhcat2c.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const ArimaMadurai_300Light = 'https://fonts.gstatic.com/s/arimamadurai/v14/t5t7IRoeKYORG0WNMgnC3seB1ZXtipusfhcat2c.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const ArimaMadurai_400Regular = 'https://fonts.gstatic.com/s/arimamadurai/v14/t5tmIRoeKYORG0WNMgnC3seB7TnFrpOHYh4.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const ArimaMadurai_500Medium = 'https://fonts.gstatic.com/s/arimamadurai/v14/t5t7IRoeKYORG0WNMgnC3seB1c3sipusfhcat2c.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const ArimaMadurai_700Bold = 'https://fonts.gstatic.com/s/arimamadurai/v14/t5t7IRoeKYORG0WNMgnC3seB1YXqipusfhcat2c.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const ArimaMadurai_800ExtraBold = 'https://fonts.gstatic.com/s/arimamadurai/v14/t5t7IRoeKYORG0WNMgnC3seB1Znpipusfhcat2c.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const ArimaMadurai_900Black = 'https://fonts.gstatic.com/s/arimamadurai/v14/t5t7IRoeKYORG0WNMgnC3seB1b3oipusfhcat2c.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Baloo_400Regular = 'https://fonts.gstatic.com/s/a/2466b115f1d612b5be7c3c51aa118d952041ad4c9ebc6b790d3659c11ae3681d.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooBhai_400Regular = 'https://fonts.gstatic.com/s/a/678bfe33602fe168ee8732abcdc1ea3a454798cd99cb4f81f7e9d16581a7e2ed.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooBhaijaan_400Regular = 'https://fonts.gstatic.com/s/a/52b00fb70a18a89da089a7492d3d97836ec7bd211288d3ec4ad6a60914db3dd3.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooBhaina_400Regular = 'https://fonts.gstatic.com/s/a/86bbf2a9f2b3936c4b1907de7136a4ca0f71efacfe22b7a6fa1b8a8a81f86282.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooChettan_400Regular = 'https://fonts.gstatic.com/s/a/5e430d6e47dbe9220996407624585cda368b6ce19a23c3f46844a06db3c0a679.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooDa_400Regular = 'https://fonts.gstatic.com/s/a/88a331b2ae3e4db09605af2b1076b22c3734e2ecfd1b4ef1f4ca57446672e6cf.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooPaaji_400Regular = 'https://fonts.gstatic.com/s/a/95ba9f62ad854dc07958f311af18c674ca943fa7450fa4f6640d18e8eccdfe3f.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooTamma_400Regular = 'https://fonts.gstatic.com/s/a/e8005871563cf3cfadf580fba66361b46649b342e9e1765d65405765af6e92c4.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooTammudu_400Regular = 'https://fonts.gstatic.com/s/a/7bc7db26ac47d3561769f8cb3dfb93afd2767965efbd2770a77f8ffb33c5a013.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooThambi_400Regular = 'https://fonts.gstatic.com/s/a/5eb4d30c776f864b83a43cfbbcf1d05dda4a119a042f5a735adb014fdb4707e3.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_100Thin = 'https://fonts.gstatic.com/s/bevietnam/v2/FBVxdDflz-iPfoPuIC2iKsUn7W1hK2czPg.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_100Thin_Italic = 'https://fonts.gstatic.com/s/bevietnam/v2/FBVvdDflz-iPfoPuIC2iIqMfiWdlCWIjPi5p.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_300Light = 'https://fonts.gstatic.com/s/bevietnam/v2/FBVwdDflz-iPfoPuIC2iKg0FzUdPJ24qJzc.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_300Light_Italic = 'https://fonts.gstatic.com/s/bevietnam/v2/FBVudDflz-iPfoPuIC2iIqMfQUVFI0wvNzdwXQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_400Regular = 'https://fonts.gstatic.com/s/bevietnam/v2/FBVzdDflz-iPfoPuIC2iEqEt6U9kO2c.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_400Regular_Italic = 'https://fonts.gstatic.com/s/bevietnam/v2/FBVxdDflz-iPfoPuIC2iIqMn7W1hK2czPg.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_500Medium = 'https://fonts.gstatic.com/s/bevietnam/v2/FBVwdDflz-iPfoPuIC2iKlUEzUdPJ24qJzc.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_500Medium_Italic = 'https://fonts.gstatic.com/s/bevietnam/v2/FBVudDflz-iPfoPuIC2iIqMfGURFI0wvNzdwXQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_600SemiBold = 'https://fonts.gstatic.com/s/bevietnam/v2/FBVwdDflz-iPfoPuIC2iKnkDzUdPJ24qJzc.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_600SemiBold_Italic = 'https://fonts.gstatic.com/s/bevietnam/v2/FBVudDflz-iPfoPuIC2iIqMfNUNFI0wvNzdwXQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_700Bold = 'https://fonts.gstatic.com/s/bevietnam/v2/FBVwdDflz-iPfoPuIC2iKh0CzUdPJ24qJzc.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_700Bold_Italic = 'https://fonts.gstatic.com/s/bevietnam/v2/FBVudDflz-iPfoPuIC2iIqMfUUJFI0wvNzdwXQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_800ExtraBold = 'https://fonts.gstatic.com/s/bevietnam/v2/FBVwdDflz-iPfoPuIC2iKgEBzUdPJ24qJzc.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_800ExtraBold_Italic = 'https://fonts.gstatic.com/s/bevietnam/v2/FBVudDflz-iPfoPuIC2iIqMfTUFFI0wvNzdwXQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_100Thin = 'https://fonts.gstatic.com/s/bigshouldersdisplay/v15/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdY86JF46SRP4yZQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_200ExtraLight = 'https://fonts.gstatic.com/s/bigshouldersdisplay/v15/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdQ87JF46SRP4yZQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_300Light = 'https://fonts.gstatic.com/s/bigshouldersdisplay/v15/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YddE7JF46SRP4yZQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_400Regular = 'https://fonts.gstatic.com/s/bigshouldersdisplay/v15/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdY87JF46SRP4yZQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_500Medium = 'https://fonts.gstatic.com/s/bigshouldersdisplay/v15/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0Ydb07JF46SRP4yZQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_600SemiBold = 'https://fonts.gstatic.com/s/bigshouldersdisplay/v15/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdVE8JF46SRP4yZQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_700Bold = 'https://fonts.gstatic.com/s/bigshouldersdisplay/v15/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdWg8JF46SRP4yZQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_800ExtraBold = 'https://fonts.gstatic.com/s/bigshouldersdisplay/v15/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdQ88JF46SRP4yZQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_900Black = 'https://fonts.gstatic.com/s/bigshouldersdisplay/v15/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdSY8JF46SRP4yZQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_100Thin = 'https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v21/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0nBEnR5yPc2Huux.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_200ExtraLight = 'https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v21/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0lBE3R5yPc2Huux.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_300Light = 'https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v21/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0mfE3R5yPc2Huux.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_400Regular = 'https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v21/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0nBE3R5yPc2Huux.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_500Medium = 'https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v21/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0nzE3R5yPc2Huux.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_600SemiBold = 'https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v21/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0kfFHR5yPc2Huux.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_700Bold = 'https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v21/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0kmFHR5yPc2Huux.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_800ExtraBold = 'https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v21/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0lBFHR5yPc2Huux.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_900Black = 'https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v21/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0loFHR5yPc2Huux.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_100Thin = 'https://fonts.gstatic.com/s/bigshouldersinlinetext/v21/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwga0yqGN7Y6Jsc8c.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_200ExtraLight = 'https://fonts.gstatic.com/s/bigshouldersinlinetext/v21/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgY0y6GN7Y6Jsc8c.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_300Light = 'https://fonts.gstatic.com/s/bigshouldersinlinetext/v21/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgbqy6GN7Y6Jsc8c.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_400Regular = 'https://fonts.gstatic.com/s/bigshouldersinlinetext/v21/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwga0y6GN7Y6Jsc8c.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_500Medium = 'https://fonts.gstatic.com/s/bigshouldersinlinetext/v21/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgaGy6GN7Y6Jsc8c.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_600SemiBold = 'https://fonts.gstatic.com/s/bigshouldersinlinetext/v21/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgZqzKGN7Y6Jsc8c.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_700Bold = 'https://fonts.gstatic.com/s/bigshouldersinlinetext/v21/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgZTzKGN7Y6Jsc8c.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_800ExtraBold = 'https://fonts.gstatic.com/s/bigshouldersinlinetext/v21/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgY0zKGN7Y6Jsc8c.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_900Black = 'https://fonts.gstatic.com/s/bigshouldersinlinetext/v21/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgYdzKGN7Y6Jsc8c.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_100Thin = 'https://fonts.gstatic.com/s/bigshouldersstencildisplay/v21/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_O0nPKHznJucP9w.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_200ExtraLight = 'https://fonts.gstatic.com/s/bigshouldersstencildisplay/v21/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_u0jPKHznJucP9w.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_300Light = 'https://fonts.gstatic.com/s/bigshouldersstencildisplay/v21/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_ZUjPKHznJucP9w.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_400Regular = 'https://fonts.gstatic.com/s/bigshouldersstencildisplay/v21/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_O0jPKHznJucP9w.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_500Medium = 'https://fonts.gstatic.com/s/bigshouldersstencildisplay/v21/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_CUjPKHznJucP9w.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_600SemiBold = 'https://fonts.gstatic.com/s/bigshouldersstencildisplay/v21/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_5U_PKHznJucP9w.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_700Bold = 'https://fonts.gstatic.com/s/bigshouldersstencildisplay/v21/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_3E_PKHznJucP9w.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_800ExtraBold = 'https://fonts.gstatic.com/s/bigshouldersstencildisplay/v21/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_u0_PKHznJucP9w.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_900Black = 'https://fonts.gstatic.com/s/bigshouldersstencildisplay/v21/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_kk_PKHznJucP9w.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_100Thin = 'https://fonts.gstatic.com/s/bigshouldersstenciltext/v21/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGR04XIGS_Py_AWbQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_200ExtraLight = 'https://fonts.gstatic.com/s/bigshouldersstenciltext/v21/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRU4TIGS_Py_AWbQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_300Light = 'https://fonts.gstatic.com/s/bigshouldersstenciltext/v21/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRjYTIGS_Py_AWbQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_400Regular = 'https://fonts.gstatic.com/s/bigshouldersstenciltext/v21/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGR04TIGS_Py_AWbQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_500Medium = 'https://fonts.gstatic.com/s/bigshouldersstenciltext/v21/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGR4YTIGS_Py_AWbQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_600SemiBold = 'https://fonts.gstatic.com/s/bigshouldersstenciltext/v21/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRDYPIGS_Py_AWbQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_700Bold = 'https://fonts.gstatic.com/s/bigshouldersstenciltext/v21/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRNIPIGS_Py_AWbQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_800ExtraBold = 'https://fonts.gstatic.com/s/bigshouldersstenciltext/v21/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRU4PIGS_Py_AWbQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_900Black = 'https://fonts.gstatic.com/s/bigshouldersstenciltext/v21/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGReoPIGS_Py_AWbQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_100Thin = 'https://fonts.gstatic.com/s/bigshoulderstext/v17/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Y-r3TIPNl6P2pc.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_200ExtraLight = 'https://fonts.gstatic.com/s/bigshoulderstext/v17/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Q-q3TIPNl6P2pc.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_300Light = 'https://fonts.gstatic.com/s/bigshoulderstext/v17/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3dGq3TIPNl6P2pc.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_400Regular = 'https://fonts.gstatic.com/s/bigshoulderstext/v17/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Y-q3TIPNl6P2pc.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_500Medium = 'https://fonts.gstatic.com/s/bigshoulderstext/v17/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3b2q3TIPNl6P2pc.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_600SemiBold = 'https://fonts.gstatic.com/s/bigshoulderstext/v17/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3VGt3TIPNl6P2pc.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_700Bold = 'https://fonts.gstatic.com/s/bigshoulderstext/v17/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Wit3TIPNl6P2pc.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_800ExtraBold = 'https://fonts.gstatic.com/s/bigshoulderstext/v17/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Q-t3TIPNl6P2pc.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_900Black = 'https://fonts.gstatic.com/s/bigshoulderstext/v17/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Sat3TIPNl6P2pc.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const CodaCaption_800ExtraBold = 'https://fonts.gstatic.com/s/codacaption/v19/ieVm2YRII2GMY7SyXSoDRiQGqcx6x_-fACIgaw.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const DroidSans_400Regular = 'https://fonts.gstatic.com/s/a/b1efe4b6a8b73a7069e3a5ede472fb84130f7ffaaded682d112e93f0d0fa5a9f.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const DroidSans_700Bold = 'https://fonts.gstatic.com/s/a/32b87a290fa91f892687dcef391f2b06945d1be8f3dc243b55ffb118388368de.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const DroidSansMono_400Regular = 'https://fonts.gstatic.com/s/a/9dedfe943434b0c1c69af3c64930ea43797584f7c25bfe1bafe167c5b9ed0909.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const DroidSerif_400Regular = 'https://fonts.gstatic.com/s/a/dcdbbe04f7d65d6dd062e948aad5cedf59b28322fcd555a4dbff9564ba77f032.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const DroidSerif_400Regular_Italic = 'https://fonts.gstatic.com/s/a/f2412575e58a24ba7f60d09803924763e7420e8a18ef8535551454a69b0e2765.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const DroidSerif_700Bold = 'https://fonts.gstatic.com/s/a/11fcb243238a8c4df11d23a99078e060b56b2f23e44efcdf3323fde6290297fb.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const DroidSerif_700Bold_Italic = 'https://fonts.gstatic.com/s/a/5072734295fa76a5684706f1c6fab998057ea2dbd03ed74b92b6b105d694e505.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const FredokaOne_400Regular = 'https://fonts.gstatic.com/s/fredokaone/v13/k3kUo8kEI-tA1RRcTZGmTmHBA6aF8Bf_.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const GentiumBasic_400Regular = 'https://fonts.gstatic.com/s/gentiumbasic/v12/Wnz9HAw9aB_JD2VGQVR80We3HAqDiTI_cIM.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const GentiumBasic_400Regular_Italic = 'https://fonts.gstatic.com/s/gentiumbasic/v12/WnzjHAw9aB_JD2VGQVR80We3LAiJjRA6YIORZQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const GentiumBasic_700Bold = 'https://fonts.gstatic.com/s/gentiumbasic/v12/WnzgHAw9aB_JD2VGQVR80We3JLasrToUbIqIfBU.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const GentiumBasic_700Bold_Italic = 'https://fonts.gstatic.com/s/gentiumbasic/v12/WnzmHAw9aB_JD2VGQVR80We3LAixMT8eaKiNbBVWkw.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const GentiumBookBasic_400Regular = 'https://fonts.gstatic.com/s/gentiumbookbasic/v16/pe0zMJCbPYBVokB1LHA9bbyaQb8ZGjcIV7t7w6bE2A.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const GentiumBookBasic_400Regular_Italic = 'https://fonts.gstatic.com/s/gentiumbookbasic/v16/pe0xMJCbPYBVokB1LHA9bbyaQb8ZGjc4VbF_4aPU2Ec9.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const GentiumBookBasic_700Bold = 'https://fonts.gstatic.com/s/gentiumbookbasic/v16/pe0wMJCbPYBVokB1LHA9bbyaQb8ZGjcw65Rfy43Y0V4kvg.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const GentiumBookBasic_700Bold_Italic = 'https://fonts.gstatic.com/s/gentiumbookbasic/v16/pe0-MJCbPYBVokB1LHA9bbyaQb8ZGjc4VYnDzofc81s0voO3.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Kantumruy_300Light = 'https://fonts.gstatic.com/s/kantumruy/v21/syk0-yJ0m7wyVb-f4FOPUtDlpn-UJ1H6Uw.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Kantumruy_400Regular = 'https://fonts.gstatic.com/s/kantumruy/v21/sykx-yJ0m7wyVb-f4FO3_vjBrlSILg.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Kantumruy_700Bold = 'https://fonts.gstatic.com/s/kantumruy/v21/syk0-yJ0m7wyVb-f4FOPQtflpn-UJ1H6Uw.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const KdamThmor_400Regular = 'https://fonts.gstatic.com/s/kdamthmor/v19/MwQzbhjs3veF6QwJVf0JkGMViblPtXs.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const MeriendaOne_400Regular = 'https://fonts.gstatic.com/s/meriendaone/v16/H4cgBXaMndbflEq6kyZ1ht6YgoyyYzFzFw.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const MontserratSubrayada_400Regular = 'https://fonts.gstatic.com/s/montserratsubrayada/v17/U9MD6c-o9H7PgjlTHThBnNHGVUORwteQQE8LYuceqGT-.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const MontserratSubrayada_700Bold = 'https://fonts.gstatic.com/s/montserratsubrayada/v17/U9MM6c-o9H7PgjlTHThBnNHGVUORwteQQHe3TcMWg3j36Ebz.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_200ExtraLight = 'https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFlOkHkw2-m9x2iC.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_300Light = 'https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFmQkHkw2-m9x2iC.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_400Regular = 'https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkHkw2-m9x2iC.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_500Medium = 'https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFn8kHkw2-m9x2iC.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_600SemiBold = 'https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFkQl3kw2-m9x2iC.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_700Bold = 'https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFkpl3kw2-m9x2iC.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_800ExtraBold = 'https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFlOl3kw2-m9x2iC.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_900Black = 'https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFlnl3kw2-m9x2iC.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_200ExtraLight_Italic = 'https://fonts.gstatic.com/s/muli/v20/7Aujp_0qiz-afTfcIyoiGtm2P0wG0xFz0e2fwniCvzM.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_300Light_Italic = 'https://fonts.gstatic.com/s/muli/v20/7Aujp_0qiz-afTfcIyoiGtm2P0wG089z0e2fwniCvzM.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_400Regular_Italic = 'https://fonts.gstatic.com/s/muli/v20/7Aujp_0qiz-afTfcIyoiGtm2P0wG05Fz0e2fwniCvzM.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_500Medium_Italic = 'https://fonts.gstatic.com/s/muli/v20/7Aujp_0qiz-afTfcIyoiGtm2P0wG06Nz0e2fwniCvzM.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_600SemiBold_Italic = 'https://fonts.gstatic.com/s/muli/v20/7Aujp_0qiz-afTfcIyoiGtm2P0wG00900e2fwniCvzM.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_700Bold_Italic = 'https://fonts.gstatic.com/s/muli/v20/7Aujp_0qiz-afTfcIyoiGtm2P0wG03Z00e2fwniCvzM.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_800ExtraBold_Italic = 'https://fonts.gstatic.com/s/muli/v20/7Aujp_0qiz-afTfcIyoiGtm2P0wG0xF00e2fwniCvzM.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_900Black_Italic = 'https://fonts.gstatic.com/s/muli/v20/7Aujp_0qiz-afTfcIyoiGtm2P0wG0zh00e2fwniCvzM.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const NotoColorEmojiCompat_400Regular = 'https://fonts.gstatic.com/s/a/975e5d89d39fa5ce6e443f0acba2d714cdff5675202a3ce66012c61a5fec1698.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const NotoSerifNyiakengPuachueHmong_400Regular = 'https://fonts.gstatic.com/s/notoserifnyiakengpuachuehmong/v12/5h1jibMoOmIC3YuzLC-NZyLDZC8iwh-MTC8ggAjEhePFNRVcneAFp44kcYMUkNqVKhqPDFvbZkrZmb0.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const NotoSerifNyiakengPuachueHmong_500Medium = 'https://fonts.gstatic.com/s/notoserifnyiakengpuachuehmong/v12/5h1jibMoOmIC3YuzLC-NZyLDZC8iwh-MTC8ggAjEhePFNRVcneAFp44kcYMUkNqVKiiPDFvbZkrZmb0.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const NotoSerifNyiakengPuachueHmong_600SemiBold = 'https://fonts.gstatic.com/s/notoserifnyiakengpuachuehmong/v12/5h1jibMoOmIC3YuzLC-NZyLDZC8iwh-MTC8ggAjEhePFNRVcneAFp44kcYMUkNqVKsSIDFvbZkrZmb0.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const NotoSerifNyiakengPuachueHmong_700Bold = 'https://fonts.gstatic.com/s/notoserifnyiakengpuachuehmong/v12/5h1jibMoOmIC3YuzLC-NZyLDZC8iwh-MTC8ggAjEhePFNRVcneAFp44kcYMUkNqVKv2IDFvbZkrZmb0.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const OpenSansCondensed_300Light = 'https://fonts.gstatic.com/s/opensanscondensed/v15/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhPuLGRpWRyAs.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const OpenSansCondensed_300Light_Italic = 'https://fonts.gstatic.com/s/opensanscondensed/v15/z7NHdQDnbTkabZAIOl9il_O6KJj73e7Fd_-7suDMQreU2AsJSg.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const OpenSansCondensed_700Bold = 'https://fonts.gstatic.com/s/opensanscondensed/v15/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff0GmPuLGRpWRyAs.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const OtomanopeeOne_400Regular = 'https://fonts.gstatic.com/s/otomanopeeone/v4/xMQNuFtEVKCbvGxme-rSATGm_Aea91uCCB9o.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Scheherazade_400Regular = 'https://fonts.gstatic.com/s/scheherazade/v20/YA9Ur0yF4ETZN60keViq1kQgt5OohvbJ9A.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Scheherazade_700Bold = 'https://fonts.gstatic.com/s/scheherazade/v20/YA9Lr0yF4ETZN60keViq1kQYC7yMjt3V_dB0Yw.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_200ExtraLight = 'https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_AkB1v_8CGxg.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_200ExtraLight_Italic = 'https://fonts.gstatic.com/s/sourcesanspro/v21/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokRdr3cWWxg40.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_300Light = 'https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zAkB1v_8CGxg.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_300Light_Italic = 'https://fonts.gstatic.com/s/sourcesanspro/v21/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkhdr3cWWxg40.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_400Regular = 'https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3aP6TkmDZz9g.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_400Regular_Italic = 'https://fonts.gstatic.com/s/sourcesanspro/v21/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPa7gujNj9tmf.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_600SemiBold = 'https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rAkB1v_8CGxg.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_600SemiBold_Italic = 'https://fonts.gstatic.com/s/sourcesanspro/v21/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lBdr3cWWxg40.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_700Bold = 'https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vAkB1v_8CGxg.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_700Bold_Italic = 'https://fonts.gstatic.com/s/sourcesanspro/v21/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclRdr3cWWxg40.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_900Black = 'https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nAkB1v_8CGxg.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_900Black_Italic = 'https://fonts.gstatic.com/s/sourcesanspro/v21/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklxdr3cWWxg40.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_200ExtraLight = 'https://fonts.gstatic.com/s/sourceserifpro/v15/neIXzD-0qpwxpaWvjeD0X88SAOeasbsfhSugxYUvZrI.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_200ExtraLight_Italic = 'https://fonts.gstatic.com/s/sourceserifpro/v15/neIVzD-0qpwxpaWvjeD0X88SAOeauXEGbSqqwacqdrKvbQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_300Light = 'https://fonts.gstatic.com/s/sourceserifpro/v15/neIXzD-0qpwxpaWvjeD0X88SAOeasd8chSugxYUvZrI.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_300Light_Italic = 'https://fonts.gstatic.com/s/sourceserifpro/v15/neIVzD-0qpwxpaWvjeD0X88SAOeauXEGCSmqwacqdrKvbQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_400Regular = 'https://fonts.gstatic.com/s/sourceserifpro/v15/neIQzD-0qpwxpaWvjeD0X88SAOeaiXM0oSOL2Yw.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_400Regular_Italic = 'https://fonts.gstatic.com/s/sourceserifpro/v15/neIWzD-0qpwxpaWvjeD0X88SAOeauXE-pQGOyYw2fw.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_600SemiBold = 'https://fonts.gstatic.com/s/sourceserifpro/v15/neIXzD-0qpwxpaWvjeD0X88SAOeasasahSugxYUvZrI.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_600SemiBold_Italic = 'https://fonts.gstatic.com/s/sourceserifpro/v15/neIVzD-0qpwxpaWvjeD0X88SAOeauXEGfS-qwacqdrKvbQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_700Bold = 'https://fonts.gstatic.com/s/sourceserifpro/v15/neIXzD-0qpwxpaWvjeD0X88SAOeasc8bhSugxYUvZrI.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_700Bold_Italic = 'https://fonts.gstatic.com/s/sourceserifpro/v15/neIVzD-0qpwxpaWvjeD0X88SAOeauXEGGS6qwacqdrKvbQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_900Black = 'https://fonts.gstatic.com/s/sourceserifpro/v15/neIXzD-0qpwxpaWvjeD0X88SAOeasfcZhSugxYUvZrI.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_900Black_Italic = 'https://fonts.gstatic.com/s/sourceserifpro/v15/neIVzD-0qpwxpaWvjeD0X88SAOeauXEGISyqwacqdrKvbQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_100Thin = 'https://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrGFuG6OChXtf4qS.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_200ExtraLight = 'https://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrEFuW6OChXtf4qS.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_300Light = 'https://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrHbuW6OChXtf4qS.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_400Regular = 'https://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrGFuW6OChXtf4qS.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_500Medium = 'https://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrG3uW6OChXtf4qS.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_600SemiBold = 'https://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrFbvm6OChXtf4qS.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_700Bold = 'https://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrFivm6OChXtf4qS.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_800ExtraBold = 'https://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrEFvm6OChXtf4qS.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_900Black = 'https://fonts.gstatic.com/s/spartan/v7/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrEsvm6OChXtf4qS.ttf';

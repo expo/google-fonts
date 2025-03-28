@@ -6834,3 +6834,712 @@ export const MaterialSymbolsSharp_400Regular: string;
 export const MaterialSymbolsSharp_500Medium: string;
 export const MaterialSymbolsSharp_600SemiBold: string;
 export const MaterialSymbolsSharp_700Bold: string;
+
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const AmaticaSC_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const AmaticaSC_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Andada_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const AndikaNewBasic_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const AndikaNewBasic_400Regular_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const AndikaNewBasic_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const AndikaNewBasic_700Bold_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const ArimaMadurai_100Thin: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const ArimaMadurai_200ExtraLight: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const ArimaMadurai_300Light: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const ArimaMadurai_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const ArimaMadurai_500Medium: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const ArimaMadurai_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const ArimaMadurai_800ExtraBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const ArimaMadurai_900Black: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Baloo_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooBhai_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooBhaijaan_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooBhaina_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooChettan_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooDa_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooPaaji_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooTamma_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooTammudu_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BalooThambi_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_100Thin: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_100Thin_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_300Light: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_300Light_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_400Regular_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_500Medium: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_500Medium_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_600SemiBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_600SemiBold_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_700Bold_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_800ExtraBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BeVietnam_800ExtraBold_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_100Thin: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_200ExtraLight: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_300Light: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_500Medium: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_600SemiBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_800ExtraBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersDisplay_900Black: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_100Thin: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_200ExtraLight: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_300Light: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_500Medium: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_600SemiBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_800ExtraBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineDisplay_900Black: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_100Thin: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_200ExtraLight: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_300Light: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_500Medium: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_600SemiBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_800ExtraBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersInlineText_900Black: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_100Thin: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_200ExtraLight: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_300Light: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_500Medium: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_600SemiBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_800ExtraBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilDisplay_900Black: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_100Thin: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_200ExtraLight: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_300Light: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_500Medium: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_600SemiBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_800ExtraBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersStencilText_900Black: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_100Thin: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_200ExtraLight: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_300Light: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_500Medium: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_600SemiBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_800ExtraBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BigShouldersText_900Black: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const CodaCaption_800ExtraBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const DroidSans_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const DroidSans_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const DroidSansMono_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const DroidSerif_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const DroidSerif_400Regular_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const DroidSerif_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const DroidSerif_700Bold_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const FredokaOne_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const GentiumBasic_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const GentiumBasic_400Regular_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const GentiumBasic_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const GentiumBasic_700Bold_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const GentiumBookBasic_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const GentiumBookBasic_400Regular_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const GentiumBookBasic_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const GentiumBookBasic_700Bold_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Kantumruy_300Light: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Kantumruy_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Kantumruy_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const KdamThmor_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const MeriendaOne_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const MontserratSubrayada_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const MontserratSubrayada_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_200ExtraLight: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_300Light: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_500Medium: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_600SemiBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_800ExtraBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_900Black: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_200ExtraLight_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_300Light_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_400Regular_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_500Medium_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_600SemiBold_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_700Bold_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_800ExtraBold_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Muli_900Black_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const NotoColorEmojiCompat_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const NotoSerifNyiakengPuachueHmong_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const NotoSerifNyiakengPuachueHmong_500Medium: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const NotoSerifNyiakengPuachueHmong_600SemiBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const NotoSerifNyiakengPuachueHmong_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const OpenSansCondensed_300Light: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const OpenSansCondensed_300Light_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const OpenSansCondensed_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const OtomanopeeOne_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Scheherazade_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Scheherazade_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_200ExtraLight: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_200ExtraLight_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_300Light: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_300Light_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_400Regular_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_600SemiBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_600SemiBold_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_700Bold_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_900Black: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSansPro_900Black_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_200ExtraLight: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_200ExtraLight_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_300Light: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_300Light_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_400Regular_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_600SemiBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_600SemiBold_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_700Bold_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_900Black: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SourceSerifPro_900Black_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_100Thin: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_200ExtraLight: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_300Light: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_500Medium: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_600SemiBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_800ExtraBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Spartan_900Black: string;
