@@ -1,0 +1,12 @@
+{
+  "family": "Otomanopee One",
+  "variants": ["regular"],
+  "subsets": ["japanese", "latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2021-12-17",
+  "files": {
+    "regular": "http://fonts.gstatic.com/s/otomanopeeone/v4/xMQNuFtEVKCbvGxme-rSATGm_Aea91uCCB9o.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}

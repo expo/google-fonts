@@ -1,0 +1,15 @@
+{
+  "family": "Noto Serif Nyiakeng Puachue Hmong",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["nyiakeng-puachue-hmong"],
+  "version": "v12",
+  "lastModified": "2021-12-17",
+  "files": {
+    "500": "http://fonts.gstatic.com/s/notoserifnyiakengpuachuehmong/v12/5h1jibMoOmIC3YuzLC-NZyLDZC8iwh-MTC8ggAjEhePFNRVcneAFp44kcYMUkNqVKiiPDFvbZkrZmb0.ttf",
+    "600": "http://fonts.gstatic.com/s/notoserifnyiakengpuachuehmong/v12/5h1jibMoOmIC3YuzLC-NZyLDZC8iwh-MTC8ggAjEhePFNRVcneAFp44kcYMUkNqVKsSIDFvbZkrZmb0.ttf",
+    "700": "http://fonts.gstatic.com/s/notoserifnyiakengpuachuehmong/v12/5h1jibMoOmIC3YuzLC-NZyLDZC8iwh-MTC8ggAjEhePFNRVcneAFp44kcYMUkNqVKv2IDFvbZkrZmb0.ttf",
+    "regular": "http://fonts.gstatic.com/s/notoserifnyiakengpuachuehmong/v12/5h1jibMoOmIC3YuzLC-NZyLDZC8iwh-MTC8ggAjEhePFNRVcneAFp44kcYMUkNqVKhqPDFvbZkrZmb0.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont"
+}

@@ -1,0 +1,13 @@
+{
+  "family": "Montserrat Subrayada",
+  "variants": ["regular", "700"],
+  "subsets": ["latin"],
+  "version": "v17",
+  "lastModified": "2022-09-22",
+  "files": {
+    "700": "http://fonts.gstatic.com/s/montserratsubrayada/v17/U9MM6c-o9H7PgjlTHThBnNHGVUORwteQQHe3TcMWg3j36Ebz.ttf",
+    "regular": "http://fonts.gstatic.com/s/montserratsubrayada/v17/U9MD6c-o9H7PgjlTHThBnNHGVUORwteQQE8LYuceqGT-.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont"
+}
