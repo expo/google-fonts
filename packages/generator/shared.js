@@ -89,14 +89,17 @@ function infoForVariantKey(variantKey) {
   const isItalic = variantKey.endsWith('italic');
   const weightName = WeightNames[weight];
   let suffix = '_' + weight + weightName;
+  let folderName = weight + weightName;
   if (isItalic) {
     suffix += '_Italic';
+    folderName += '_Italic';
   }
   return {
     weight,
     isItalic,
     weightName,
     suffix,
+    folderName,
   };
 }
 
@@ -269,16 +272,36 @@ async function generateFontPackage(webfont) {
 
   for (const variantKey of webfont.variants) {
     const ffn = filenameForFontVariant(webfont, variantKey);
+    const { folderName } = infoForVariantKey(variantKey);
+
+    const variantDirectory = path.join(pkgDir, `${folderName}`);
+    await fsExtra.ensureDir(variantDirectory);
 
     // link fonts and image previews
-    await fs.promises.link(path.join(FontAssetsDir, ffn), path.join(pkgDir, ffn));
-    await fs.promises.link(path.join(FontImagesDir, ffn + '.png'), path.join(pkgDir, ffn + '.png'));
+    await fs.promises.link(path.join(FontAssetsDir, ffn), path.join(pkgDir, folderName, ffn));
+    await fs.promises.link(
+      path.join(FontImagesDir, ffn + '.png'),
+      path.join(pkgDir, folderName, ffn + '.png')
+    );
+
+    const variantName = varNameForFontVariant(webfont, variantKey);
+    await createFileFromTemplate(
+      path.join(pkgDir, folderName, 'index.js'),
+      path.join(__dirname, 'templates/package/variant/index.js.ejs'),
+      { variantName }
+    );
+    await createFileFromTemplate(
+      path.join(pkgDir, folderName, 'index.d.ts'),
+      path.join(__dirname, 'templates/package/variant/index.d.ts.ejs'),
+      { variantName }
+    );
   }
 
   const variants = webfont.variants.map((variantKey) => {
+    const { folderName } = infoForVariantKey(variantKey);
     return {
       name: varNameForFontVariant(webfont, variantKey),
-      path: filenameForFontVariant(webfont, variantKey),
+      path: folderName + '/' + filenameForFontVariant(webfont, variantKey),
     };
   });
 
@@ -325,6 +348,7 @@ async function generateFontPackage(webfont) {
       fontVariantsWithDisplayName: webfont.variants.map((variantKey) => ({
         varName: varNameForFontVariant(webfont, variantKey),
         displayName: getDisplayNameForFontVariant(webfont, variantKey),
+        path: '@expo-google-fonts/' + packageName + '/' + infoForVariantKey(variantKey).folderName,
       })),
       devPackageDescription: await ejs.renderFile(
         path.join(__dirname, 'templates/dev/DESCRIPTION.md')
