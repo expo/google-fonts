@@ -1,0 +1,54 @@
+name: Publish font packages
+
+on:
+  workflow_dispatch:
+    inputs:
+      publishAll:
+        description: 'Publish all packages'
+        type: boolean
+      packageNames:
+        description: 'OR enter a comma-separated list of package names to publish'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Publish all packages
+        if: ${{ github.event.inputs.publishAll }}
+        run: |
+          for package in font-packages/*; do
+            if [ -d "$package" ]; then
+              echo "Publishing package: $(basename $package)"
+              (cd "$package" && npm publish --access public)
+            fi
+          done
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish specific packages
+        if: ${{ !github.event.inputs.publishAll }}
+        run: |
+          IFS=',' read -ra PACKAGES <<< "${{ github.event.inputs.packageNames }}"
+          for package in "${PACKAGES[@]}"; do
+            # Remove any whitespace
+            package=$(echo "$package" | tr -d '[:space:]')
+            
+            if [ ! -d "font-packages/$package" ]; then
+              echo "Error: Package directory 'font-packages/$package' does not exist"
+              exit 1
+            fi
+            
+            echo "Publishing package: $package"
+            cd "font-packages/$package"
+            (cd "font-packages/$package" && npm publish --access public)
+          done
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
