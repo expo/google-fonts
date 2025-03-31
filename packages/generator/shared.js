@@ -552,13 +552,10 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
     for (let col = 0; col < 3; col++) {
       const webfont = featured.shift();
       const variantKey = getDefaultVariantKeyForWebfont(webfont);
-      const styleImagePath =
-        './font-packages/' +
-        getPackageNameForWebfont(webfont) +
-        '/' +
-        filenameForFontVariant(webfont, variantKey) +
-        '.png';
+      const { variantFolderName } = infoForVariantKey(variantKey);
       const packageName = getPackageNameForWebfont(webfont);
+      const variantFilename = filenameForFontVariant(webfont, variantKey);
+      const styleImagePath = `./font-packages/${packageName}/${variantFolderName}/${variantFilename}.png`;
       md += `[![${varNameForWebfont(
         webfont
       )}](${styleImagePath})](https://github.com/expo/google-fonts/tree/main/font-packages/${packageName}#readme)|`;
@@ -585,13 +582,15 @@ async function generateGalleryFile(fontDirectory) {
           )}#readme)`;
         })
         .join(', '),
-      styles: fontDirectory.items.map((webfont) => {
-        const pkgUrl =
-          'https://github.com/expo/google-fonts/tree/main/font-packages/' +
-          getPackageNameForWebfont(webfont) +
-          '#readme';
-        return `### [${webfont.family}](${pkgUrl})\n` + generateTableForVariants(webfont, pkgUrl);
-      }),
+      styles: fontDirectory.items
+        .map((webfont) => {
+          const pkgUrl =
+            'https://github.com/expo/google-fonts/tree/main/font-packages/' +
+            getPackageNameForWebfont(webfont) +
+            '#readme';
+          return `### [${webfont.family}](${pkgUrl})\n` + generateTableForVariants(webfont, pkgUrl);
+        })
+        .join('\n'),
     }
   );
 }
