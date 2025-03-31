@@ -22,7 +22,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - name: Publish all packages
-        if: ${{ github.event.inputs.publishAll }}
+        if: ${{ github.event.inputs.publishAll == 'true' }}
         run: |
           for package in font-packages/*; do
             if [ -d "$package" ]; then
@@ -34,7 +34,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish specific packages
-        if: ${{ !github.event.inputs.publishAll }}
+        if: ${{ github.event.inputs.publishAll != 'true' }}
         run: |
           IFS=',' read -ra PACKAGES <<< "${{ github.event.inputs.packageNames }}"
           for package in "${PACKAGES[@]}"; do
