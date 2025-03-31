@@ -27,7 +27,13 @@ async function deprecateArchivedFontPackages() {
   try {
     for (const pkg of packages) {
       const packageName = '@expo-google-fonts/' + pkg;
-      const p = q.add(() => spawnAsync('npm', ['deprecate', packageName]));
+      const p = q.add(() =>
+        spawnAsync('npm', [
+          'deprecate',
+          packageName,
+          'This font has been removed from Google Fonts and will no longer receive updates.',
+        ])
+      );
       p.fontFamily = pkg;
       (async () => {
         try {
