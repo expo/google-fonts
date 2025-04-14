@@ -70,15 +70,15 @@ async function syncPackages() {
     for (const changedPackage of changedPackages) {
       await downloadFontAssets(changedPackage);
       await generateImages(changedPackage);
-      await generateFontPackage(changedPackage);
+      await generateFontPackage(changedPackage, { patch: true });
       console.log(`✅ Updated ${changedPackage.family}`);
     }
   }
 
-  await generateDevPackage(fetchedDirectoryData);
+  await generateDevPackage(fetchedDirectoryData, { patch: true });
   console.log('\n✅ Generated dev package');
 
-  await generateFontDirectoryPackage(fetchedDirectoryData);
+  await generateFontDirectoryPackage(fetchedDirectoryData, { patch: true });
   console.log('✅ Generated font directory package');
 
   await generateRootReadme(fetchedDirectoryData);

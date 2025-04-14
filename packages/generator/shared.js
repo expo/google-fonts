@@ -85,6 +85,16 @@ function filepathForFontVariant(webfont, variantKey) {
   return path.join(FontAssetsDir, filenameForFontVariant(webfont, variantKey));
 }
 
+function getNextPackageVersion(packageDir, options) {
+  if (!options || !options.patch || !fs.existsSync(packageDir)) {
+    return PackageVersion;
+  }
+
+  const packageJson = require(path.join(packageDir, 'package.json'));
+  const [major, minor, patch] = packageJson.version.split('.');
+  return `${major}.${minor}.${Number(patch) + 1}`;
+}
+
 function infoForVariantKey(variantKey) {
   const weight = parseInt(variantKey, 10) || 400; // `regular` and `italic` don't have a number before them
   const isItalic = variantKey.endsWith('italic');
@@ -246,9 +256,10 @@ function generateTableForVariants(webfont, pkgUrl) {
   return md;
 }
 
-async function generateFontPackage(webfont) {
+async function generateFontPackage(webfont, options) {
   const packageName = getPackageNameForWebfont(webfont);
   const pkgDir = path.join(FontPackagesDir, packageName);
+  const version = getNextPackageVersion(pkgDir, options);
 
   // empty dir
   await fsExtra.emptyDir(pkgDir);
@@ -259,7 +270,7 @@ async function generateFontPackage(webfont) {
     path.join(__dirname, 'templates/package/package.json'),
     {
       packageName,
-      version: PackageVersion,
+      version,
       description: `Use the ${webfont.family} font family from Google Fonts in your Expo app`,
       main: 'index.js',
       directory: 'font-packages/' + packageName,
@@ -372,8 +383,9 @@ async function generateFontPackage(webfont) {
   );
 }
 
-async function generateDevPackage(fontDirectory) {
+async function generateDevPackage(fontDirectory, options) {
   const pkgDir = DevPackageDir;
+  const version = getNextPackageVersion(pkgDir, options);
   await fsExtra.emptyDir(pkgDir);
 
   await createFileFromTemplate(
@@ -381,7 +393,7 @@ async function generateDevPackage(fontDirectory) {
     path.join(__dirname, 'templates/package/package.json'),
     {
       packageName: 'dev',
-      version: PackageVersion,
+      version,
       description: `Load ${fontDirectory.items.length} font families from Google Fonts over the network while developing your Expo app`,
       main: 'index.js',
       directory: 'font-packages/dev',
@@ -448,7 +460,8 @@ async function generateDevPackage(fontDirectory) {
   );
 }
 
-async function generateFontDirectoryPackage(fontDirectory) {
+async function generateFontDirectoryPackage(fontDirectory, options) {
+  const version = getNextPackageVersion(FontDirectoryPackageDir, options);
   await fsExtra.emptyDir(FontDirectoryPackageDir);
 
   // Clone the object
@@ -471,7 +484,7 @@ async function generateFontDirectoryPackage(fontDirectory) {
     path.join(__dirname, 'templates/package/package.json'),
     {
       packageName: 'font-directory',
-      version: PackageVersion,
+      version,
       description: 'A directory of metadata about the fonts available in `expo-google-fonts`',
       main: 'fontDirectory.json',
       directory: 'font-packages/font-directory',
