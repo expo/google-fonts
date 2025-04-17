@@ -1,0 +1,19 @@
+{
+  "family": "National Park",
+  "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2025-04-09",
+  "files": {
+    "200": "https://fonts.gstatic.com/s/nationalpark/v1/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfL_b5XMdoayNUNf.ttf",
+    "300": "https://fonts.gstatic.com/s/nationalpark/v1/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfIhb5XMdoayNUNf.ttf",
+    "500": "https://fonts.gstatic.com/s/nationalpark/v1/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfJNb5XMdoayNUNf.ttf",
+    "600": "https://fonts.gstatic.com/s/nationalpark/v1/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfKhaJXMdoayNUNf.ttf",
+    "700": "https://fonts.gstatic.com/s/nationalpark/v1/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfKYaJXMdoayNUNf.ttf",
+    "800": "https://fonts.gstatic.com/s/nationalpark/v1/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfL_aJXMdoayNUNf.ttf",
+    "regular": "https://fonts.gstatic.com/s/nationalpark/v1/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfJ_b5XMdoayNUNf.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/nationalpark/v1/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfJ_b6XNfII.ttf"
+}

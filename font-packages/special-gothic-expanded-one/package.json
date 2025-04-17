@@ -1,0 +1,17 @@
+{
+  "name": "@expo-google-fonts/special-gothic-expanded-one",
+  "version": "0.3.0",
+  "description": "Use the Special Gothic Expanded One font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/special-gothic-expanded-one"
+  },
+  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/special-gothic-expanded-one#readme",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -3,7 +3,7 @@
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "thai"],
   "version": "v14",
-  "lastModified": "2023-04-27",
+  "lastModified": "2025-04-09",
   "files": {
     "100": "https://fonts.gstatic.com/s/notosansthailooped/v14/B50fF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3YX6AYeCT_Wfd1.ttf",
     "200": "https://fonts.gstatic.com/s/notosansthailooped/v14/B50cF6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R3Y84E4UgrzUO5sKA.ttf",

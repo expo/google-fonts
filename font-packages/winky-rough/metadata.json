@@ -1,0 +1,41 @@
+{
+  "family": "Winky Rough",
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic",
+    "800italic",
+    "900italic"
+  ],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2025-04-09",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/winkyrough/v1/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8bOSVuN7JB-KCmzg.ttf",
+    "500": "https://fonts.gstatic.com/s/winkyrough/v1/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8bVSVuN7JB-KCmzg.ttf",
+    "600": "https://fonts.gstatic.com/s/winkyrough/v1/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8buSJuN7JB-KCmzg.ttf",
+    "700": "https://fonts.gstatic.com/s/winkyrough/v1/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8bgCJuN7JB-KCmzg.ttf",
+    "800": "https://fonts.gstatic.com/s/winkyrough/v1/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8b5yJuN7JB-KCmzg.ttf",
+    "900": "https://fonts.gstatic.com/s/winkyrough/v1/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8bziJuN7JB-KCmzg.ttf",
+    "regular": "https://fonts.gstatic.com/s/winkyrough/v1/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8bZyVuN7JB-KCmzg.ttf",
+    "300italic": "https://fonts.gstatic.com/s/winkyrough/v1/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2bYdLhF2qW2zneX.ttf",
+    "italic": "https://fonts.gstatic.com/s/winkyrough/v1/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2aGdLhF2qW2zneX.ttf",
+    "500italic": "https://fonts.gstatic.com/s/winkyrough/v1/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2a0dLhF2qW2zneX.ttf",
+    "600italic": "https://fonts.gstatic.com/s/winkyrough/v1/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2ZYc7hF2qW2zneX.ttf",
+    "700italic": "https://fonts.gstatic.com/s/winkyrough/v1/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2Zhc7hF2qW2zneX.ttf",
+    "800italic": "https://fonts.gstatic.com/s/winkyrough/v1/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2YGc7hF2qW2zneX.ttf",
+    "900italic": "https://fonts.gstatic.com/s/winkyrough/v1/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2Yvc7hF2qW2zneX.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/winkyrough/v1/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8bZyVeNrhF.ttf"
+}
