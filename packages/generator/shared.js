@@ -5,6 +5,7 @@ const fs = require('fs');
 const fsExtra = require('fs-extra');
 const path = require('path');
 const prettier = require('prettier');
+const semver = require('semver');
 
 const contributors = require('./contributors');
 const PackageVersion = require('../../package.json').version;
@@ -91,8 +92,7 @@ function getNextPackageVersion(packageDir, options) {
   }
 
   const packageJson = require(path.join(packageDir, 'package.json'));
-  const [major, minor, patch] = packageJson.version.split('.');
-  return `${major}.${minor}.${Number(patch) + 1}`;
+  return semver.inc(packageJson.version, 'patch');
 }
 
 function infoForVariantKey(variantKey) {
