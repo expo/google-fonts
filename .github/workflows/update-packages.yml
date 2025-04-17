@@ -63,7 +63,13 @@ jobs:
             ## Publish packages
             After merging this PR, publish the following packages to npm:
             ``` 
-            ${{ join(fromJSON(steps.sync-packages.outputs.output).packagesToUpdate, ', ') }}
+            ${{ join(fromJSON(steps.sync-packages.outputs.output).packagesToPublish, ', ') }}
+            ```
+            
+            ## Deprecate packages
+            After merging this PR, deprecate the following packages:
+            ```
+            ${{ join(fromJSON(steps.sync-packages.outputs.output).packagesToDeprecate, ', ') }}
             ```
           base-branch: ${{ github.ref_name }}
           head-branch: ${{ github.ref_name }}

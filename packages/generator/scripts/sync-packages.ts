@@ -121,9 +121,10 @@ async function syncPackages() {
         deletedPackages: getPackageLinks(deletedPackages),
         deletedPackagesCount: deletedPackages.length,
         pullRequestCommitMessage: `Update packages (${newPackages.length} new, ${changedPackages.length} changed, ${deletedPackages.length} deleted)`,
-        packagesToUpdate: [...newPackages, ...changedPackages]
+        packagesToPublish: [...newPackages, ...changedPackages]
           .map((p) => getPackageNameForWebfont(p))
           .concat(['dev', 'font-directory']),
+        packagesToDeprecate: deletedPackages.map((p) => getPackageNameForWebfont(p)),
       })
     );
   }
