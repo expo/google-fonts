@@ -13,10 +13,26 @@ import {
   generateFontDirectoryPackage,
   generateRootReadme,
   generateGalleryFile,
+  getPackageNameForWebfont,
 } from '../shared';
 import { FontItem } from '../types';
 
 const currentDirectoryItems = currentDirectoryData.items as FontItem[];
+
+const getPackageLinks = (packages: FontItem[]) => {
+  if (!packages.length) {
+    return '';
+  }
+
+  const list = packages
+    .map((p) => {
+      const link = 'https://fonts.google.com/specimen/' + p.family.replace(/ /g, '+');
+      return '<li><a href="' + link + '" target="_blank">' + p.family + '</a></li>';
+    })
+    .join('');
+
+  return `<ul>${list}</ul>`;
+};
 
 async function syncPackages() {
   // fetch the latest directory data from the Google Fonts API
@@ -40,6 +56,9 @@ async function syncPackages() {
 
   if (!deletedPackages.length && !newPackages.length && !changedPackages.length) {
     console.log('No changes to the directory data.');
+    if (process.env.GITHUB_ACTIONS) {
+      console.log(JSON.stringify({ hasChanged: false }));
+    }
     return;
   }
 
@@ -89,6 +108,25 @@ async function syncPackages() {
 
   await fs.promises.writeFile('directory-data.json', JSON.stringify(fetchedDirectoryData, null, 2));
   console.log('✅ Updated directory-data.json');
+
+  if (process.env.GITHUB_ACTIONS) {
+    console.log(
+      JSON.stringify({
+        hasChanged: true,
+        updatedPackagesCount: newPackages.length + changedPackages.length + deletedPackages.length,
+        newPackages: getPackageLinks(newPackages),
+        newPackagesCount: newPackages.length,
+        changedPackages: getPackageLinks(changedPackages),
+        changedPackagesCount: changedPackages.length,
+        deletedPackages: getPackageLinks(deletedPackages),
+        deletedPackagesCount: deletedPackages.length,
+        pullRequestCommitMessage: `Update packages (${newPackages.length} new, ${changedPackages.length} changed, ${deletedPackages.length} deleted)`,
+        packagesToUpdate: [...newPackages, ...changedPackages, ...deletedPackages]
+          .map((p) => getPackageNameForWebfont(p))
+          .concat(['dev', 'font-directory']),
+      })
+    );
+  }
 }
 
 syncPackages();
