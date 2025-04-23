@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/dev",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Load 1816 font families from Google Fonts over the network while developing your Expo app",
   "main": "index.js",
   "repository": {
