@@ -2,10 +2,10 @@
   "family": "Vibes",
   "variants": ["regular"],
   "subsets": ["arabic", "latin"],
-  "version": "v14",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/vibes/v14/QdVYSTsmIB6tmbd3HpbsuBlh.ttf" },
+  "version": "v15",
+  "lastModified": "2025-04-23",
+  "files": { "regular": "https://fonts.gstatic.com/s/vibes/v15/QdVYSTsmIB6tmbd3HpbsuBlh.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/vibes/v14/QdVYSTsmIB6tmYd2FJI.ttf"
+  "menu": "https://fonts.gstatic.com/s/vibes/v15/QdVYSTsmIB6tmYd2FJI.ttf"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/ranga",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Use the Ranga font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

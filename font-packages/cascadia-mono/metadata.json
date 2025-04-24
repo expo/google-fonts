@@ -1,0 +1,48 @@
+{
+  "family": "Cascadia Mono",
+  "variants": [
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "200italic",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic"
+  ],
+  "subsets": [
+    "arabic",
+    "braille",
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "hebrew",
+    "latin",
+    "latin-ext",
+    "symbols2",
+    "vietnamese"
+  ],
+  "version": "v2",
+  "lastModified": "2025-04-23",
+  "files": {
+    "200": "https://fonts.gstatic.com/s/cascadiamono/v2/TUZlzw5pquJF3iuizJDZYqr1Q54PIbV3QmZsSTadsWVkNot27AYk.ttf",
+    "300": "https://fonts.gstatic.com/s/cascadiamono/v2/TUZlzw5pquJF3iuizJDZYqr1Q54PIbV3QmZsSTZDsWVkNot27AYk.ttf",
+    "500": "https://fonts.gstatic.com/s/cascadiamono/v2/TUZlzw5pquJF3iuizJDZYqr1Q54PIbV3QmZsSTYvsWVkNot27AYk.ttf",
+    "600": "https://fonts.gstatic.com/s/cascadiamono/v2/TUZlzw5pquJF3iuizJDZYqr1Q54PIbV3QmZsSTbDtmVkNot27AYk.ttf",
+    "700": "https://fonts.gstatic.com/s/cascadiamono/v2/TUZlzw5pquJF3iuizJDZYqr1Q54PIbV3QmZsSTb6tmVkNot27AYk.ttf",
+    "regular": "https://fonts.gstatic.com/s/cascadiamono/v2/TUZlzw5pquJF3iuizJDZYqr1Q54PIbV3QmZsSTYdsWVkNot27AYk.ttf",
+    "200italic": "https://fonts.gstatic.com/s/cascadiamono/v2/TUZnzw5pquJF3iuizJDZYqr1aZc93m0eKfzCTiPV8g0nPI9U6RYkQrY.ttf",
+    "300italic": "https://fonts.gstatic.com/s/cascadiamono/v2/TUZnzw5pquJF3iuizJDZYqr1aZc93m0eKfzCTiPV8tMnPI9U6RYkQrY.ttf",
+    "italic": "https://fonts.gstatic.com/s/cascadiamono/v2/TUZnzw5pquJF3iuizJDZYqr1aZc93m0eKfzCTiPV8o0nPI9U6RYkQrY.ttf",
+    "500italic": "https://fonts.gstatic.com/s/cascadiamono/v2/TUZnzw5pquJF3iuizJDZYqr1aZc93m0eKfzCTiPV8r8nPI9U6RYkQrY.ttf",
+    "600italic": "https://fonts.gstatic.com/s/cascadiamono/v2/TUZnzw5pquJF3iuizJDZYqr1aZc93m0eKfzCTiPV8lMgPI9U6RYkQrY.ttf",
+    "700italic": "https://fonts.gstatic.com/s/cascadiamono/v2/TUZnzw5pquJF3iuizJDZYqr1aZc93m0eKfzCTiPV8mogPI9U6RYkQrY.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/cascadiamono/v2/TUZlzw5pquJF3iuizJDZYqr1Q54PIbV3QmZsSTYdsVVlPI8.ttf"
+}

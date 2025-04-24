@@ -2,12 +2,12 @@
   "family": "Suez One",
   "variants": ["regular"],
   "subsets": ["hebrew", "latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2024-09-04",
+  "version": "v14",
+  "lastModified": "2025-04-23",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/suezone/v13/taiJGmd_EZ6rqscQgNFJkIqg-I0w.ttf"
+    "regular": "https://fonts.gstatic.com/s/suezone/v14/taiJGmd_EZ6rqscQgNFJkIqg-I0w.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/suezone/v13/taiJGmd_EZ6rqscQgOFImo4.ttf"
+  "menu": "https://fonts.gstatic.com/s/suezone/v14/taiJGmd_EZ6rqscQgOFImo4.ttf"
 }

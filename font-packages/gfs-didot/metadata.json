@@ -1,13 +1,13 @@
 {
   "family": "GFS Didot",
   "variants": ["regular"],
-  "subsets": ["greek"],
-  "version": "v16",
-  "lastModified": "2024-04-12",
+  "subsets": ["greek", "greek-ext", "latin", "vietnamese"],
+  "version": "v17",
+  "lastModified": "2025-04-23",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/gfsdidot/v16/Jqzh5TybZ9vZMWFssvwiF-fGFSCGAA.ttf"
+    "regular": "https://fonts.gstatic.com/s/gfsdidot/v17/Jqzh5TybZ9vZMWFssvwiF-fGFSCGAA.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/gfsdidot/v16/Jqzh5TybZ9vZMWFssvwSFu3C.ttf"
+  "menu": "https://fonts.gstatic.com/s/gfsdidot/v17/Jqzh5TybZ9vZMWFssvwSFu3C.ttf"
 }

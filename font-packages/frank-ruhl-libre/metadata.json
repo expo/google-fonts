@@ -2,18 +2,18 @@
   "family": "Frank Ruhl Libre",
   "variants": ["300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["hebrew", "latin", "latin-ext"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
+  "version": "v22",
+  "lastModified": "2025-04-23",
   "files": {
-    "300": "https://fonts.gstatic.com/s/frankruhllibre/v21/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw6bYVqQPxR2EUR_.ttf",
-    "500": "https://fonts.gstatic.com/s/frankruhllibre/v21/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw73YVqQPxR2EUR_.ttf",
-    "600": "https://fonts.gstatic.com/s/frankruhllibre/v21/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw4bZlqQPxR2EUR_.ttf",
-    "700": "https://fonts.gstatic.com/s/frankruhllibre/v21/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw4iZlqQPxR2EUR_.ttf",
-    "800": "https://fonts.gstatic.com/s/frankruhllibre/v21/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw5FZlqQPxR2EUR_.ttf",
-    "900": "https://fonts.gstatic.com/s/frankruhllibre/v21/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw5sZlqQPxR2EUR_.ttf",
-    "regular": "https://fonts.gstatic.com/s/frankruhllibre/v21/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw7FYVqQPxR2EUR_.ttf"
+    "300": "https://fonts.gstatic.com/s/frankruhllibre/v22/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw6bYVqQPxR2EUR_.ttf",
+    "500": "https://fonts.gstatic.com/s/frankruhllibre/v22/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw73YVqQPxR2EUR_.ttf",
+    "600": "https://fonts.gstatic.com/s/frankruhllibre/v22/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw4bZlqQPxR2EUR_.ttf",
+    "700": "https://fonts.gstatic.com/s/frankruhllibre/v22/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw4iZlqQPxR2EUR_.ttf",
+    "800": "https://fonts.gstatic.com/s/frankruhllibre/v22/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw5FZlqQPxR2EUR_.ttf",
+    "900": "https://fonts.gstatic.com/s/frankruhllibre/v22/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw5sZlqQPxR2EUR_.ttf",
+    "regular": "https://fonts.gstatic.com/s/frankruhllibre/v22/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw7FYVqQPxR2EUR_.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/frankruhllibre/v21/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw7FYWqRNRA.ttf"
+  "menu": "https://fonts.gstatic.com/s/frankruhllibre/v22/j8_96_fAw7jrcalD7oKYNX0QfAnPcbzNEEB7OoicBw7FYWqRNRA.ttf"
 }

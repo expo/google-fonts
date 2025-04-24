@@ -1,0 +1,11 @@
+{
+  "family": "Cal Sans",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2025-04-23",
+  "files": { "regular": "https://fonts.gstatic.com/s/calsans/v1/fdN99sWUv3gWqXxqqSBbvloE4LZx.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/calsans/v1/fdN99sWUv3gWqXxqqRBatF4.ttf"
+}

@@ -2,12 +2,12 @@
   "family": "BhuTuka Expanded One",
   "variants": ["regular"],
   "subsets": ["gurmukhi", "latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2024-09-04",
+  "version": "v8",
+  "lastModified": "2025-04-23",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/bhutukaexpandedone/v7/SLXXc0jZ4WUJcClHTtv0t7IaDRsBsWRiJCyX8pg_RVH1.ttf"
+    "regular": "https://fonts.gstatic.com/s/bhutukaexpandedone/v8/SLXXc0jZ4WUJcClHTtv0t7IaDRsBsWRiJCyX8pg_RVH1.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/bhutukaexpandedone/v7/SLXXc0jZ4WUJcClHTtv0t7IaDRsBsWRiJByW-Jw.ttf"
+  "menu": "https://fonts.gstatic.com/s/bhutukaexpandedone/v8/SLXXc0jZ4WUJcClHTtv0t7IaDRsBsWRiJByW-Jw.ttf"
 }

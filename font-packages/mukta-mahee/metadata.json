@@ -2,18 +2,18 @@
   "family": "Mukta Mahee",
   "variants": ["200", "300", "regular", "500", "600", "700", "800"],
   "subsets": ["gurmukhi", "latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2024-09-04",
+  "version": "v18",
+  "lastModified": "2025-04-23",
   "files": {
-    "200": "https://fonts.gstatic.com/s/muktamahee/v16/XRXN3IOIi0hcP8iVU67hA9MFcBoHJndqZCsW.ttf",
-    "300": "https://fonts.gstatic.com/s/muktamahee/v16/XRXN3IOIi0hcP8iVU67hA9NhcxoHJndqZCsW.ttf",
-    "500": "https://fonts.gstatic.com/s/muktamahee/v16/XRXN3IOIi0hcP8iVU67hA9M5choHJndqZCsW.ttf",
-    "600": "https://fonts.gstatic.com/s/muktamahee/v16/XRXN3IOIi0hcP8iVU67hA9MVdRoHJndqZCsW.ttf",
-    "700": "https://fonts.gstatic.com/s/muktamahee/v16/XRXN3IOIi0hcP8iVU67hA9NxdBoHJndqZCsW.ttf",
-    "800": "https://fonts.gstatic.com/s/muktamahee/v16/XRXN3IOIi0hcP8iVU67hA9NtdxoHJndqZCsW.ttf",
-    "regular": "https://fonts.gstatic.com/s/muktamahee/v16/XRXQ3IOIi0hcP8iVU67hA-vNWz4PDWtj.ttf"
+    "200": "https://fonts.gstatic.com/s/muktamahee/v18/XRXN3IOIi0hcP8iVU67hA9MFcBoHJndqZCsW.ttf",
+    "300": "https://fonts.gstatic.com/s/muktamahee/v18/XRXN3IOIi0hcP8iVU67hA9NhcxoHJndqZCsW.ttf",
+    "500": "https://fonts.gstatic.com/s/muktamahee/v18/XRXN3IOIi0hcP8iVU67hA9M5choHJndqZCsW.ttf",
+    "600": "https://fonts.gstatic.com/s/muktamahee/v18/XRXN3IOIi0hcP8iVU67hA9MVdRoHJndqZCsW.ttf",
+    "700": "https://fonts.gstatic.com/s/muktamahee/v18/XRXN3IOIi0hcP8iVU67hA9NxdBoHJndqZCsW.ttf",
+    "800": "https://fonts.gstatic.com/s/muktamahee/v18/XRXN3IOIi0hcP8iVU67hA9NtdxoHJndqZCsW.ttf",
+    "regular": "https://fonts.gstatic.com/s/muktamahee/v18/XRXQ3IOIi0hcP8iVU67hA-vNWz4PDWtj.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/muktamahee/v16/XRXQ3IOIi0hcP8iVU67hA9vMUTo.ttf"
+  "menu": "https://fonts.gstatic.com/s/muktamahee/v18/XRXQ3IOIi0hcP8iVU67hA9vMUTo.ttf"
 }

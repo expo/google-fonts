@@ -2,19 +2,19 @@
   "family": "Anek Gurmukhi",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
   "subsets": ["gurmukhi", "latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2024-09-04",
+  "version": "v12",
+  "lastModified": "2025-04-23",
   "files": {
-    "100": "https://fonts.gstatic.com/s/anekgurmukhi/v8/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbd5ppXK41H6DjbA.ttf",
-    "200": "https://fonts.gstatic.com/s/anekgurmukhi/v8/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkb95tpXK41H6DjbA.ttf",
-    "300": "https://fonts.gstatic.com/s/anekgurmukhi/v8/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbKZtpXK41H6DjbA.ttf",
-    "500": "https://fonts.gstatic.com/s/anekgurmukhi/v8/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbRZtpXK41H6DjbA.ttf",
-    "600": "https://fonts.gstatic.com/s/anekgurmukhi/v8/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbqZxpXK41H6DjbA.ttf",
-    "700": "https://fonts.gstatic.com/s/anekgurmukhi/v8/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbkJxpXK41H6DjbA.ttf",
-    "800": "https://fonts.gstatic.com/s/anekgurmukhi/v8/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkb95xpXK41H6DjbA.ttf",
-    "regular": "https://fonts.gstatic.com/s/anekgurmukhi/v8/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbd5tpXK41H6DjbA.ttf"
+    "100": "https://fonts.gstatic.com/s/anekgurmukhi/v12/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbd5ppXK41H6DjbA.ttf",
+    "200": "https://fonts.gstatic.com/s/anekgurmukhi/v12/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkb95tpXK41H6DjbA.ttf",
+    "300": "https://fonts.gstatic.com/s/anekgurmukhi/v12/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbKZtpXK41H6DjbA.ttf",
+    "500": "https://fonts.gstatic.com/s/anekgurmukhi/v12/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbRZtpXK41H6DjbA.ttf",
+    "600": "https://fonts.gstatic.com/s/anekgurmukhi/v12/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbqZxpXK41H6DjbA.ttf",
+    "700": "https://fonts.gstatic.com/s/anekgurmukhi/v12/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbkJxpXK41H6DjbA.ttf",
+    "800": "https://fonts.gstatic.com/s/anekgurmukhi/v12/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkb95xpXK41H6DjbA.ttf",
+    "regular": "https://fonts.gstatic.com/s/anekgurmukhi/v12/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbd5tpXK41H6DjbA.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/anekgurmukhi/v8/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbd5tZXaQx.ttf"
+  "menu": "https://fonts.gstatic.com/s/anekgurmukhi/v12/0QIAMXRO_YSkA0quVLY79JnHybfeEOrXCa9Dmd9Ql6a6R_vEMc5TaLkbd5tZXaQx.ttf"
 }

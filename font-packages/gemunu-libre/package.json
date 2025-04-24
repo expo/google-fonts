@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/gemunu-libre",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Use the Gemunu Libre font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

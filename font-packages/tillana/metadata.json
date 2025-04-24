@@ -2,16 +2,16 @@
   "family": "Tillana",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2024-09-04",
+  "version": "v14",
+  "lastModified": "2025-04-23",
   "files": {
-    "500": "https://fonts.gstatic.com/s/tillana/v13/VuJ0dNvf35P4qJ1OQFL-HIlMZRNcp0o.ttf",
-    "600": "https://fonts.gstatic.com/s/tillana/v13/VuJ0dNvf35P4qJ1OQH75HIlMZRNcp0o.ttf",
-    "700": "https://fonts.gstatic.com/s/tillana/v13/VuJ0dNvf35P4qJ1OQBr4HIlMZRNcp0o.ttf",
-    "800": "https://fonts.gstatic.com/s/tillana/v13/VuJ0dNvf35P4qJ1OQAb7HIlMZRNcp0o.ttf",
-    "regular": "https://fonts.gstatic.com/s/tillana/v13/VuJxdNvf35P4qJ1OeKbXOIFneRo.ttf"
+    "500": "https://fonts.gstatic.com/s/tillana/v14/VuJ0dNvf35P4qJ1OQFL-HIlMZRNcp0o.ttf",
+    "600": "https://fonts.gstatic.com/s/tillana/v14/VuJ0dNvf35P4qJ1OQH75HIlMZRNcp0o.ttf",
+    "700": "https://fonts.gstatic.com/s/tillana/v14/VuJ0dNvf35P4qJ1OQBr4HIlMZRNcp0o.ttf",
+    "800": "https://fonts.gstatic.com/s/tillana/v14/VuJ0dNvf35P4qJ1OQAb7HIlMZRNcp0o.ttf",
+    "regular": "https://fonts.gstatic.com/s/tillana/v14/VuJxdNvf35P4qJ1OeKbXOIFneRo.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/tillana/v13/VuJxdNvf35P4qJ1OSKfdPA.ttf"
+  "menu": "https://fonts.gstatic.com/s/tillana/v14/VuJxdNvf35P4qJ1OSKfdPA.ttf"
 }

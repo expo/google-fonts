@@ -1,0 +1,13 @@
+{
+  "family": "Tagesschrift",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2025-04-23",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/tagesschrift/v2/pe0pMI6IOYlEuEZ7ZEA7ZKOaA_Rue1UwVg.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/tagesschrift/v2/pe0pMI6IOYlEuEZ7ZEA7ZKOqAv5q.ttf"
+}

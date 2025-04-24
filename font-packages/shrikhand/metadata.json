@@ -2,12 +2,12 @@
   "family": "Shrikhand",
   "variants": ["regular"],
   "subsets": ["gujarati", "latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2024-09-04",
+  "version": "v16",
+  "lastModified": "2025-04-23",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/shrikhand/v15/a8IbNovtLWfR7T7bMJwbBIiQ0zhMtA.ttf"
+    "regular": "https://fonts.gstatic.com/s/shrikhand/v16/a8IbNovtLWfR7T7bMJwbBIiQ0zhMtA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/shrikhand/v15/a8IbNovtLWfR7T7bMJwrBYKU.ttf"
+  "menu": "https://fonts.gstatic.com/s/shrikhand/v16/a8IbNovtLWfR7T7bMJwrBYKU.ttf"
 }

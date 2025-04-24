@@ -2,18 +2,18 @@
   "family": "Gemunu Libre",
   "variants": ["200", "300", "regular", "500", "600", "700", "800"],
   "subsets": ["latin", "latin-ext", "sinhala"],
-  "version": "v14",
-  "lastModified": "2024-09-04",
+  "version": "v15",
+  "lastModified": "2025-04-23",
   "files": {
-    "200": "https://fonts.gstatic.com/s/gemunulibre/v14/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp05iJPvSLeMXPIWA.ttf",
-    "300": "https://fonts.gstatic.com/s/gemunulibre/v14/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp00aJPvSLeMXPIWA.ttf",
-    "500": "https://fonts.gstatic.com/s/gemunulibre/v14/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0yqJPvSLeMXPIWA.ttf",
-    "600": "https://fonts.gstatic.com/s/gemunulibre/v14/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp08aOPvSLeMXPIWA.ttf",
-    "700": "https://fonts.gstatic.com/s/gemunulibre/v14/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0_-OPvSLeMXPIWA.ttf",
-    "800": "https://fonts.gstatic.com/s/gemunulibre/v14/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp05iOPvSLeMXPIWA.ttf",
-    "regular": "https://fonts.gstatic.com/s/gemunulibre/v14/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0xiJPvSLeMXPIWA.ttf"
+    "200": "https://fonts.gstatic.com/s/gemunulibre/v15/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp05iJPvSLeMXPIWA.ttf",
+    "300": "https://fonts.gstatic.com/s/gemunulibre/v15/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp00aJPvSLeMXPIWA.ttf",
+    "500": "https://fonts.gstatic.com/s/gemunulibre/v15/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0yqJPvSLeMXPIWA.ttf",
+    "600": "https://fonts.gstatic.com/s/gemunulibre/v15/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp08aOPvSLeMXPIWA.ttf",
+    "700": "https://fonts.gstatic.com/s/gemunulibre/v15/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0_-OPvSLeMXPIWA.ttf",
+    "800": "https://fonts.gstatic.com/s/gemunulibre/v15/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp05iOPvSLeMXPIWA.ttf",
+    "regular": "https://fonts.gstatic.com/s/gemunulibre/v15/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0xiJPvSLeMXPIWA.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/gemunulibre/v14/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0xiJDvWBfA.ttf"
+  "menu": "https://fonts.gstatic.com/s/gemunulibre/v15/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0xiJDvWBfA.ttf"
 }

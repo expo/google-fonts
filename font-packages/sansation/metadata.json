@@ -1,0 +1,18 @@
+{
+  "family": "Sansation",
+  "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
+  "subsets": ["cyrillic", "greek", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2025-04-23",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/sansation/v1/LYjFdGPjnEg8DNA0z01YAVgPVPXbUJWq9g.ttf",
+    "700": "https://fonts.gstatic.com/s/sansation/v1/LYjFdGPjnEg8DNA0z01YEV8PVPXbUJWq9g.ttf",
+    "300italic": "https://fonts.gstatic.com/s/sansation/v1/LYjbdGPjnEg8DNA0z01Qr0KDVv_fcpC69i6N.ttf",
+    "regular": "https://fonts.gstatic.com/s/sansation/v1/LYjAdGPjnEg8DNA0z01grXArXN7HWQ.ttf",
+    "italic": "https://fonts.gstatic.com/s/sansation/v1/LYjGdGPjnEg8DNA0z01Qr3ovftvXWYyz.ttf",
+    "700italic": "https://fonts.gstatic.com/s/sansation/v1/LYjbdGPjnEg8DNA0z01Qr0KTUf_fcpC69i6N.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/sansation/v1/LYjAdGPjnEg8DNA0z01QrHov.ttf"
+}

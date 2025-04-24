@@ -1,0 +1,14 @@
+{
+  "family": "Coral Pixels",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2025-04-23",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/coralpixels/v1/qWctB66zpZ3zAtrlR8Mb1LyyeBb_ujA4ug.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/coralpixels/v1/qWctB66zpZ3zAtrlR8Mb1LyCeRz7.ttf",
+  "colorCapabilities": ["COLRv0"]
+}

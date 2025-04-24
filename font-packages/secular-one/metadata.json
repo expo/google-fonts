@@ -2,12 +2,12 @@
   "family": "Secular One",
   "variants": ["regular"],
   "subsets": ["hebrew", "latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2024-09-04",
+  "version": "v13",
+  "lastModified": "2025-04-23",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/secularone/v12/8QINdiTajsj_87rMuMdKypDlMul7LJpK.ttf"
+    "regular": "https://fonts.gstatic.com/s/secularone/v13/8QINdiTajsj_87rMuMdKypDlMul7LJpK.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/secularone/v12/8QINdiTajsj_87rMuMdKyqDkOO0.ttf"
+  "menu": "https://fonts.gstatic.com/s/secularone/v13/8QINdiTajsj_87rMuMdKyqDkOO0.ttf"
 }

@@ -2,10 +2,10 @@
   "family": "Timmana",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v12",
-  "lastModified": "2024-08-12",
-  "files": { "regular": "https://fonts.gstatic.com/s/timmana/v12/6xKvdShfL9yK-rvpCmvbKHwJUOM.ttf" },
+  "version": "v13",
+  "lastModified": "2025-04-23",
+  "files": { "regular": "https://fonts.gstatic.com/s/timmana/v13/6xKvdShfL9yK-rvpCmvbKHwJUOM.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/timmana/v12/6xKvdShfL9yK-rvpOmrRLA.ttf"
+  "menu": "https://fonts.gstatic.com/s/timmana/v13/6xKvdShfL9yK-rvpOmrRLA.ttf"
 }

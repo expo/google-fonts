@@ -1,0 +1,48 @@
+{
+  "family": "Cascadia Code",
+  "variants": [
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "200italic",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic"
+  ],
+  "subsets": [
+    "arabic",
+    "braille",
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "hebrew",
+    "latin",
+    "latin-ext",
+    "symbols2",
+    "vietnamese"
+  ],
+  "version": "v2",
+  "lastModified": "2025-04-23",
+  "files": {
+    "200": "https://fonts.gstatic.com/s/cascadiacode/v2/qWc_B6-zq5zxD57cT5s916v3QjfzRuG9AIUcXuWMOaDPb9pHaHCA.ttf",
+    "300": "https://fonts.gstatic.com/s/cascadiacode/v2/qWc_B6-zq5zxD57cT5s916v3QjfzRuG9AIUcXuVSOaDPb9pHaHCA.ttf",
+    "500": "https://fonts.gstatic.com/s/cascadiacode/v2/qWc_B6-zq5zxD57cT5s916v3QjfzRuG9AIUcXuU-OaDPb9pHaHCA.ttf",
+    "600": "https://fonts.gstatic.com/s/cascadiacode/v2/qWc_B6-zq5zxD57cT5s916v3QjfzRuG9AIUcXuXSPqDPb9pHaHCA.ttf",
+    "700": "https://fonts.gstatic.com/s/cascadiacode/v2/qWc_B6-zq5zxD57cT5s916v3QjfzRuG9AIUcXuXrPqDPb9pHaHCA.ttf",
+    "regular": "https://fonts.gstatic.com/s/cascadiacode/v2/qWc_B6-zq5zxD57cT5s916v3QjfzRuG9AIUcXuUMOaDPb9pHaHCA.ttf",
+    "200italic": "https://fonts.gstatic.com/s/cascadiacode/v2/qWc9B6-zq5zxD57cT5s916v3aD7BuTnUax-yWfDEesiMZd5lbWCAUXU.ttf",
+    "300italic": "https://fonts.gstatic.com/s/cascadiacode/v2/qWc9B6-zq5zxD57cT5s916v3aD7BuTnUax-yWfDEehaMZd5lbWCAUXU.ttf",
+    "italic": "https://fonts.gstatic.com/s/cascadiacode/v2/qWc9B6-zq5zxD57cT5s916v3aD7BuTnUax-yWfDEekiMZd5lbWCAUXU.ttf",
+    "500italic": "https://fonts.gstatic.com/s/cascadiacode/v2/qWc9B6-zq5zxD57cT5s916v3aD7BuTnUax-yWfDEenqMZd5lbWCAUXU.ttf",
+    "600italic": "https://fonts.gstatic.com/s/cascadiacode/v2/qWc9B6-zq5zxD57cT5s916v3aD7BuTnUax-yWfDEepaLZd5lbWCAUXU.ttf",
+    "700italic": "https://fonts.gstatic.com/s/cascadiacode/v2/qWc9B6-zq5zxD57cT5s916v3aD7BuTnUax-yWfDEeq-LZd5lbWCAUXU.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/cascadiacode/v2/qWc_B6-zq5zxD57cT5s916v3QjfzRuG9AIUcXuUMOZDOZd4.ttf"
+}

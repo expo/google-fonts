@@ -15,23 +15,23 @@
     "700italic"
   ],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v16",
-  "lastModified": "2024-09-04",
+  "version": "v17",
+  "lastModified": "2025-04-23",
   "files": {
-    "200": "https://fonts.gstatic.com/s/koho/v16/K2FxfZ5fmddNPuE1WJ75JoKhHys.ttf",
-    "300": "https://fonts.gstatic.com/s/koho/v16/K2FxfZ5fmddNPoU2WJ75JoKhHys.ttf",
-    "500": "https://fonts.gstatic.com/s/koho/v16/K2FxfZ5fmddNPt03WJ75JoKhHys.ttf",
-    "600": "https://fonts.gstatic.com/s/koho/v16/K2FxfZ5fmddNPvEwWJ75JoKhHys.ttf",
-    "700": "https://fonts.gstatic.com/s/koho/v16/K2FxfZ5fmddNPpUxWJ75JoKhHys.ttf",
-    "200italic": "https://fonts.gstatic.com/s/koho/v16/K2FzfZ5fmddNNisssJ_zIqCkDyvqZA.ttf",
-    "300italic": "https://fonts.gstatic.com/s/koho/v16/K2FzfZ5fmddNNiss1JzzIqCkDyvqZA.ttf",
-    "regular": "https://fonts.gstatic.com/s/koho/v16/K2F-fZ5fmddNBikefJbSOos.ttf",
-    "italic": "https://fonts.gstatic.com/s/koho/v16/K2FwfZ5fmddNNisUeLTXKou4Bg.ttf",
-    "500italic": "https://fonts.gstatic.com/s/koho/v16/K2FzfZ5fmddNNissjJ3zIqCkDyvqZA.ttf",
-    "600italic": "https://fonts.gstatic.com/s/koho/v16/K2FzfZ5fmddNNissoJrzIqCkDyvqZA.ttf",
-    "700italic": "https://fonts.gstatic.com/s/koho/v16/K2FzfZ5fmddNNissxJvzIqCkDyvqZA.ttf"
+    "200": "https://fonts.gstatic.com/s/koho/v17/K2FxfZ5fmddNPuE1WJ75JoKhHys.ttf",
+    "300": "https://fonts.gstatic.com/s/koho/v17/K2FxfZ5fmddNPoU2WJ75JoKhHys.ttf",
+    "500": "https://fonts.gstatic.com/s/koho/v17/K2FxfZ5fmddNPt03WJ75JoKhHys.ttf",
+    "600": "https://fonts.gstatic.com/s/koho/v17/K2FxfZ5fmddNPvEwWJ75JoKhHys.ttf",
+    "700": "https://fonts.gstatic.com/s/koho/v17/K2FxfZ5fmddNPpUxWJ75JoKhHys.ttf",
+    "200italic": "https://fonts.gstatic.com/s/koho/v17/K2FzfZ5fmddNNisssJ_zIqCkDyvqZA.ttf",
+    "300italic": "https://fonts.gstatic.com/s/koho/v17/K2FzfZ5fmddNNiss1JzzIqCkDyvqZA.ttf",
+    "regular": "https://fonts.gstatic.com/s/koho/v17/K2F-fZ5fmddNBikefJbSOos.ttf",
+    "italic": "https://fonts.gstatic.com/s/koho/v17/K2FwfZ5fmddNNisUeLTXKou4Bg.ttf",
+    "500italic": "https://fonts.gstatic.com/s/koho/v17/K2FzfZ5fmddNNissjJ3zIqCkDyvqZA.ttf",
+    "600italic": "https://fonts.gstatic.com/s/koho/v17/K2FzfZ5fmddNNissoJrzIqCkDyvqZA.ttf",
+    "700italic": "https://fonts.gstatic.com/s/koho/v17/K2FzfZ5fmddNNissxJvzIqCkDyvqZA.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/koho/v16/K2F-fZ5fmddNNigUeA.ttf"
+  "menu": "https://fonts.gstatic.com/s/koho/v17/K2F-fZ5fmddNNigUeA.ttf"
 }

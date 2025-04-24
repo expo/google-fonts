@@ -15,23 +15,23 @@
     "700italic"
   ],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v17",
-  "lastModified": "2024-09-04",
+  "version": "v19",
+  "lastModified": "2025-04-23",
   "files": {
-    "200": "https://fonts.gstatic.com/s/kodchasan/v17/1cX0aUPOAJv9sG4I-DJeR1Cggeqo3eMeoA.ttf",
-    "300": "https://fonts.gstatic.com/s/kodchasan/v17/1cX0aUPOAJv9sG4I-DJeI1Oggeqo3eMeoA.ttf",
-    "500": "https://fonts.gstatic.com/s/kodchasan/v17/1cX0aUPOAJv9sG4I-DJee1Kggeqo3eMeoA.ttf",
-    "600": "https://fonts.gstatic.com/s/kodchasan/v17/1cX0aUPOAJv9sG4I-DJeV1Wggeqo3eMeoA.ttf",
-    "700": "https://fonts.gstatic.com/s/kodchasan/v17/1cX0aUPOAJv9sG4I-DJeM1Sggeqo3eMeoA.ttf",
-    "200italic": "https://fonts.gstatic.com/s/kodchasan/v17/1cXqaUPOAJv9sG4I-DJWjUlIgOCs_-YOoIgN.ttf",
-    "300italic": "https://fonts.gstatic.com/s/kodchasan/v17/1cXqaUPOAJv9sG4I-DJWjUksg-Cs_-YOoIgN.ttf",
-    "regular": "https://fonts.gstatic.com/s/kodchasan/v17/1cXxaUPOAJv9sG4I-DJmj3uEicG01A.ttf",
-    "italic": "https://fonts.gstatic.com/s/kodchasan/v17/1cX3aUPOAJv9sG4I-DJWjXGAq8Sk1PoH.ttf",
-    "500italic": "https://fonts.gstatic.com/s/kodchasan/v17/1cXqaUPOAJv9sG4I-DJWjUl0guCs_-YOoIgN.ttf",
-    "600italic": "https://fonts.gstatic.com/s/kodchasan/v17/1cXqaUPOAJv9sG4I-DJWjUlYheCs_-YOoIgN.ttf",
-    "700italic": "https://fonts.gstatic.com/s/kodchasan/v17/1cXqaUPOAJv9sG4I-DJWjUk8hOCs_-YOoIgN.ttf"
+    "200": "https://fonts.gstatic.com/s/kodchasan/v19/1cX0aUPOAJv9sG4I-DJeR1Cggeqo3eMeoA.ttf",
+    "300": "https://fonts.gstatic.com/s/kodchasan/v19/1cX0aUPOAJv9sG4I-DJeI1Oggeqo3eMeoA.ttf",
+    "500": "https://fonts.gstatic.com/s/kodchasan/v19/1cX0aUPOAJv9sG4I-DJee1Kggeqo3eMeoA.ttf",
+    "600": "https://fonts.gstatic.com/s/kodchasan/v19/1cX0aUPOAJv9sG4I-DJeV1Wggeqo3eMeoA.ttf",
+    "700": "https://fonts.gstatic.com/s/kodchasan/v19/1cX0aUPOAJv9sG4I-DJeM1Sggeqo3eMeoA.ttf",
+    "200italic": "https://fonts.gstatic.com/s/kodchasan/v19/1cXqaUPOAJv9sG4I-DJWjUlIgOCs_-YOoIgN.ttf",
+    "300italic": "https://fonts.gstatic.com/s/kodchasan/v19/1cXqaUPOAJv9sG4I-DJWjUksg-Cs_-YOoIgN.ttf",
+    "regular": "https://fonts.gstatic.com/s/kodchasan/v19/1cXxaUPOAJv9sG4I-DJmj3uEicG01A.ttf",
+    "italic": "https://fonts.gstatic.com/s/kodchasan/v19/1cX3aUPOAJv9sG4I-DJWjXGAq8Sk1PoH.ttf",
+    "500italic": "https://fonts.gstatic.com/s/kodchasan/v19/1cXqaUPOAJv9sG4I-DJWjUl0guCs_-YOoIgN.ttf",
+    "600italic": "https://fonts.gstatic.com/s/kodchasan/v19/1cXqaUPOAJv9sG4I-DJWjUlYheCs_-YOoIgN.ttf",
+    "700italic": "https://fonts.gstatic.com/s/kodchasan/v19/1cXqaUPOAJv9sG4I-DJWjUk8hOCs_-YOoIgN.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/kodchasan/v17/1cXxaUPOAJv9sG4I-DJWjnGA.ttf"
+  "menu": "https://fonts.gstatic.com/s/kodchasan/v19/1cXxaUPOAJv9sG4I-DJWjnGA.ttf"
 }

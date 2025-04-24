@@ -1,0 +1,14 @@
+{
+  "family": "Comic Relief",
+  "variants": ["regular", "700"],
+  "subsets": ["cyrillic", "greek", "latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2025-04-23",
+  "files": {
+    "700": "https://fonts.gstatic.com/s/comicrelief/v2/BCaxqZkHrvL55SZ8uaEhHMYO4D1FBiAiI1y92w.ttf",
+    "regular": "https://fonts.gstatic.com/s/comicrelief/v2/BCauqZkHrvL55SZ8uaEhHMY2XBJhDgs-Kg.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/comicrelief/v2/BCauqZkHrvL55SZ8uaEhHMYGXRhl.ttf"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@expo-google-fonts/coral-pixels",
+  "version": "0.3.0",
+  "description": "Use the Coral Pixels font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/coral-pixels"
+  },
+  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/coral-pixels#readme",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

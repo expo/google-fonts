@@ -1,16 +1,16 @@
 {
   "family": "GFS Neohellenic",
   "variants": ["regular", "italic", "700", "700italic"],
-  "subsets": ["greek"],
-  "version": "v25",
-  "lastModified": "2024-08-12",
+  "subsets": ["greek", "greek-ext", "latin", "vietnamese"],
+  "version": "v26",
+  "lastModified": "2025-04-23",
   "files": {
-    "700": "https://fonts.gstatic.com/s/gfsneohellenic/v25/8QIUdiDOrfiq0b7R8O1Iw9WLcY5rkYdr644fWsRO9w.ttf",
-    "regular": "https://fonts.gstatic.com/s/gfsneohellenic/v25/8QIRdiDOrfiq0b7R8O1Iw9WLcY5TLahP46UDUw.ttf",
-    "italic": "https://fonts.gstatic.com/s/gfsneohellenic/v25/8QITdiDOrfiq0b7R8O1Iw9WLcY5jL6JLwaATU91X.ttf",
-    "700italic": "https://fonts.gstatic.com/s/gfsneohellenic/v25/8QIWdiDOrfiq0b7R8O1Iw9WLcY5jL5r37oQbeMFe985V.ttf"
+    "700": "https://fonts.gstatic.com/s/gfsneohellenic/v26/8QIUdiDOrfiq0b7R8O1Iw9WLcY5rkYdr644fWsRO9w.ttf",
+    "regular": "https://fonts.gstatic.com/s/gfsneohellenic/v26/8QIRdiDOrfiq0b7R8O1Iw9WLcY5TLahP46UDUw.ttf",
+    "italic": "https://fonts.gstatic.com/s/gfsneohellenic/v26/8QITdiDOrfiq0b7R8O1Iw9WLcY5jL6JLwaATU91X.ttf",
+    "700italic": "https://fonts.gstatic.com/s/gfsneohellenic/v26/8QIWdiDOrfiq0b7R8O1Iw9WLcY5jL5r37oQbeMFe985V.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/gfsneohellenic/v25/8QIRdiDOrfiq0b7R8O1Iw9WLcY5jLKJL.ttf"
+  "menu": "https://fonts.gstatic.com/s/gfsneohellenic/v26/8QIRdiDOrfiq0b7R8O1Iw9WLcY5jLKJL.ttf"
 }

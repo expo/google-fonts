@@ -2,12 +2,12 @@
   "family": "Meera Inimai",
   "variants": ["regular"],
   "subsets": ["latin", "tamil"],
-  "version": "v12",
-  "lastModified": "2024-09-04",
+  "version": "v13",
+  "lastModified": "2025-04-23",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/meerainimai/v12/845fNMM5EIqOW5MPuvO3ILep_2jDVevnLQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/meerainimai/v13/845fNMM5EIqOW5MPuvO3ILep_2jDVevnLQ.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/meerainimai/v12/845fNMM5EIqOW5MPuvO3ILeZ_mLH.ttf"
+  "menu": "https://fonts.gstatic.com/s/meerainimai/v13/845fNMM5EIqOW5MPuvO3ILeZ_mLH.ttf"
 }

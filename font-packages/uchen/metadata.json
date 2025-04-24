@@ -2,10 +2,10 @@
   "family": "Uchen",
   "variants": ["regular"],
   "subsets": ["latin", "tibetan"],
-  "version": "v9",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/uchen/v9/nKKZ-GokGZ1baIaSEQGodLxA.ttf" },
+  "version": "v10",
+  "lastModified": "2025-04-23",
+  "files": { "regular": "https://fonts.gstatic.com/s/uchen/v10/nKKZ-GokGZ1baIaSEQGodLxA.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/uchen/v9/nKKZ-GokGZ1baLaTGwU.ttf"
+  "menu": "https://fonts.gstatic.com/s/uchen/v10/nKKZ-GokGZ1baLaTGwU.ttf"
 }

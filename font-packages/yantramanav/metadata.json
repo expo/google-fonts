@@ -2,17 +2,17 @@
   "family": "Yantramanav",
   "variants": ["100", "300", "regular", "500", "700", "900"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2024-09-04",
+  "version": "v14",
+  "lastModified": "2025-04-23",
   "files": {
-    "100": "https://fonts.gstatic.com/s/yantramanav/v13/flU-Rqu5zY00QEpyWJYWN5-QXeNzDB41rZg.ttf",
-    "300": "https://fonts.gstatic.com/s/yantramanav/v13/flUhRqu5zY00QEpyWJYWN59Yf8NZIhI8tIHh.ttf",
-    "500": "https://fonts.gstatic.com/s/yantramanav/v13/flUhRqu5zY00QEpyWJYWN58AfsNZIhI8tIHh.ttf",
-    "700": "https://fonts.gstatic.com/s/yantramanav/v13/flUhRqu5zY00QEpyWJYWN59IeMNZIhI8tIHh.ttf",
-    "900": "https://fonts.gstatic.com/s/yantramanav/v13/flUhRqu5zY00QEpyWJYWN59wesNZIhI8tIHh.ttf",
-    "regular": "https://fonts.gstatic.com/s/yantramanav/v13/flU8Rqu5zY00QEpyWJYWN6f0V-dRCQ41.ttf"
+    "100": "https://fonts.gstatic.com/s/yantramanav/v14/flU-Rqu5zY00QEpyWJYWN5-QXeNzDB41rZg.ttf",
+    "300": "https://fonts.gstatic.com/s/yantramanav/v14/flUhRqu5zY00QEpyWJYWN59Yf8NZIhI8tIHh.ttf",
+    "500": "https://fonts.gstatic.com/s/yantramanav/v14/flUhRqu5zY00QEpyWJYWN58AfsNZIhI8tIHh.ttf",
+    "700": "https://fonts.gstatic.com/s/yantramanav/v14/flUhRqu5zY00QEpyWJYWN59IeMNZIhI8tIHh.ttf",
+    "900": "https://fonts.gstatic.com/s/yantramanav/v14/flUhRqu5zY00QEpyWJYWN59wesNZIhI8tIHh.ttf",
+    "regular": "https://fonts.gstatic.com/s/yantramanav/v14/flU8Rqu5zY00QEpyWJYWN6f0V-dRCQ41.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/yantramanav/v13/flU8Rqu5zY00QEpyWJYWN5f1XeM.ttf"
+  "menu": "https://fonts.gstatic.com/s/yantramanav/v14/flU8Rqu5zY00QEpyWJYWN5f1XeM.ttf"
 }

@@ -2,10 +2,10 @@
   "family": "Dekko",
   "variants": ["regular"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v21",
-  "lastModified": "2024-08-12",
-  "files": { "regular": "https://fonts.gstatic.com/s/dekko/v21/46khlb_wWjfSrttFR0vsfl1B.ttf" },
+  "version": "v22",
+  "lastModified": "2025-04-23",
+  "files": { "regular": "https://fonts.gstatic.com/s/dekko/v22/46khlb_wWjfSrttFR0vsfl1B.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/dekko/v21/46khlb_wWjfSrutETU8.ttf"
+  "menu": "https://fonts.gstatic.com/s/dekko/v22/46khlb_wWjfSrutETU8.ttf"
 }

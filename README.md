@@ -9,7 +9,7 @@ If you want to modify it, go to packages/generator/templates
   </a>
 </p>
 
-<p align="center">Use any of the 1816 fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
+<p align="center">Use any of the 1825 fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
 
 <p align="center">
   <a aria-label="npm version" href="https://www.npmjs.com/org/expo-google-fonts" target="_blank">
@@ -33,7 +33,7 @@ If you want to modify it, go to packages/generator/templates
 
 # expo-google-fonts
 
-The `@expo-google-fonts` packages for Expo allow you to easily use any of 1816 fonts (and their variants) from [fonts.google.com](https://fonts.google.com) in your Expo app.
+The `@expo-google-fonts` packages for Expo allow you to easily use any of 1825 fonts (and their variants) from [fonts.google.com](https://fonts.google.com) in your Expo app.
 
 These packages and all these fonts work across web, iOS, and Android and are free to use and open source.
 
@@ -85,7 +85,7 @@ You can browse all available Google Fonts on [fonts.google.com](https://fonts.go
 
 [directory-by-atiladev-com.netlify.app](https://directory-by-atiladev-com.netlify.app/) is a directory / search engine that will let you browse and search through all of the available fonts and show you the appropriate `import` statements you'll need so you can copy & paste into your own code.
 
-Here are a few examples of the 6855 variants of 1816 fonts available:
+Here are a few examples of the 6898 variants of 1825 fonts available:
 
 
 ||||

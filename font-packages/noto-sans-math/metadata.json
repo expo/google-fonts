@@ -1,13 +1,13 @@
 {
   "family": "Noto Sans Math",
   "variants": ["regular"],
-  "subsets": ["math"],
-  "version": "v15",
-  "lastModified": "2024-09-04",
+  "subsets": ["cyrillic", "latin", "math"],
+  "version": "v17",
+  "lastModified": "2025-04-23",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansmath/v15/7Aump_cpkSecTWaHRlH2hyV5UHkG-V048PW0.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansmath/v17/7Aump_cpkSecTWaHRlH2hyV5UHkG-V048PW0.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansmath/v15/7Aump_cpkSecTWaHRlH2hyV5UEkH81k.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansmath/v17/7Aump_cpkSecTWaHRlH2hyV5UEkH81k.ttf"
 }

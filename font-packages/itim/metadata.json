@@ -2,10 +2,10 @@
   "family": "Itim",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v14",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/itim/v14/0nknC9ziJOYewARKkc7ZdwU.ttf" },
+  "version": "v15",
+  "lastModified": "2025-04-23",
+  "files": { "regular": "https://fonts.gstatic.com/s/itim/v15/0nknC9ziJOYewARKkc7ZdwU.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/itim/v14/0nknC9ziJOYe8AVAlQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/itim/v15/0nknC9ziJOYe8AVAlQ.ttf"
 }
