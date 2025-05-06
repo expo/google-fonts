@@ -2,7 +2,6 @@
 // If you want to modify it, go to packages/generator/templates
 
 export { useFonts } from './useFonts';
-export const __metadata__: any;
 export const Tuffy_400Regular: string;
 export const Tuffy_400Regular_Italic: string;
 export const Tuffy_700Bold: string;
