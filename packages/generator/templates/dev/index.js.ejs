@@ -2,7 +2,6 @@
 // If you want to modify it, go to packages/generator/templates
 
 export { useFonts } from './useFonts';
-export { default as __metadata__ } from './metadata.json';
 <%-
 variants
   .map(({ name, url }) => `export const ${name} = '${url}';`)
