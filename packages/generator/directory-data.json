@@ -5770,14 +5770,14 @@
         "symbols",
         "znamenny"
       ],
-      "version": "v4",
-      "lastModified": "2025-03-03",
+      "version": "v5",
+      "lastModified": "2025-05-12",
       "files": {
-        "regular": "https://fonts.gstatic.com/s/notoznamennymusicalnotation/v4/CSRW4ylQnPyaDwAMK1U_AolTaJ4Lz41GcgaIZV9YO2rO88jvtpqqdoWa7g.ttf"
+        "regular": "https://fonts.gstatic.com/s/notoznamennymusicalnotation/v5/CSRW4ylQnPyaDwAMK1U_AolTaJ4Lz41GcgaIZV9YO2rO88jvtpqqdoWa7g.ttf"
       },
       "category": "sans-serif",
       "kind": "webfonts#webfont",
-      "menu": "https://fonts.gstatic.com/s/notoznamennymusicalnotation/v4/CSRW4ylQnPyaDwAMK1U_AolTaJ4Lz41GcgaIZV9YO2rO88jft5Cu.ttf",
+      "menu": "https://fonts.gstatic.com/s/notoznamennymusicalnotation/v5/CSRW4ylQnPyaDwAMK1U_AolTaJ4Lz41GcgaIZV9YO2rO88jft5Cu.ttf",
       "colorCapabilities": [
         "COLRv0"
       ]
