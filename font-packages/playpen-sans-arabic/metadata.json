@@ -1,0 +1,20 @@
+{
+  "family": "Playpen Sans Arabic",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["arabic", "emoji", "latin", "latin-ext", "math"],
+  "version": "v6",
+  "lastModified": "2025-05-13",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playpensansarabic/v6/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZBobPcBO1L0EHE.ttf",
+    "200": "https://fonts.gstatic.com/s/playpensansarabic/v6/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-bBoLPcBO1L0EHE.ttf",
+    "300": "https://fonts.gstatic.com/s/playpensansarabic/v6/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-YfoLPcBO1L0EHE.ttf",
+    "500": "https://fonts.gstatic.com/s/playpensansarabic/v6/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZzoLPcBO1L0EHE.ttf",
+    "600": "https://fonts.gstatic.com/s/playpensansarabic/v6/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-afp7PcBO1L0EHE.ttf",
+    "700": "https://fonts.gstatic.com/s/playpensansarabic/v6/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-amp7PcBO1L0EHE.ttf",
+    "800": "https://fonts.gstatic.com/s/playpensansarabic/v6/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-bBp7PcBO1L0EHE.ttf",
+    "regular": "https://fonts.gstatic.com/s/playpensansarabic/v6/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZBoLPcBO1L0EHE.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playpensansarabic/v6/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZBoIPdDuk.ttf"
+}

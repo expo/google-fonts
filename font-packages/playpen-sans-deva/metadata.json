@@ -1,0 +1,20 @@
+{
+  "family": "Playpen Sans Deva",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["devanagari", "emoji", "latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2025-05-13",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playpensansdeva/v2/vm8fdQj0UUbMxObnsO17RZ7pPBuJge10OmPLCiz-HCrQ0xgUG_5NygdkiQ.ttf",
+    "200": "https://fonts.gstatic.com/s/playpensansdeva/v2/vm8fdQj0UUbMxObnsO17RZ7pPBuJge10OmPLCiz-HCrQUxkUG_5NygdkiQ.ttf",
+    "300": "https://fonts.gstatic.com/s/playpensansdeva/v2/vm8fdQj0UUbMxObnsO17RZ7pPBuJge10OmPLCiz-HCrQjRkUG_5NygdkiQ.ttf",
+    "500": "https://fonts.gstatic.com/s/playpensansdeva/v2/vm8fdQj0UUbMxObnsO17RZ7pPBuJge10OmPLCiz-HCrQ4RkUG_5NygdkiQ.ttf",
+    "600": "https://fonts.gstatic.com/s/playpensansdeva/v2/vm8fdQj0UUbMxObnsO17RZ7pPBuJge10OmPLCiz-HCrQDR4UG_5NygdkiQ.ttf",
+    "700": "https://fonts.gstatic.com/s/playpensansdeva/v2/vm8fdQj0UUbMxObnsO17RZ7pPBuJge10OmPLCiz-HCrQNB4UG_5NygdkiQ.ttf",
+    "800": "https://fonts.gstatic.com/s/playpensansdeva/v2/vm8fdQj0UUbMxObnsO17RZ7pPBuJge10OmPLCiz-HCrQUx4UG_5NygdkiQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/playpensansdeva/v2/vm8fdQj0UUbMxObnsO17RZ7pPBuJge10OmPLCiz-HCrQ0xkUG_5NygdkiQ.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playpensansdeva/v2/vm8fdQj0UUbMxObnsO17RZ7pPBuJge10OmPLCiz-HCrQ0xkkGvRJ.ttf"
+}

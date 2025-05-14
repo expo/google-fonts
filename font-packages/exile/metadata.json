@@ -1,0 +1,11 @@
+{
+  "family": "Exile",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2025-05-13",
+  "files": { "regular": "https://fonts.gstatic.com/s/exile/v1/pxiKyp0xqNtbjBsYHpT2dkNE.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/exile/v1/pxiKyp0xqNtbjCsZFJA.ttf"
+}

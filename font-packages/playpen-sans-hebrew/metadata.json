@@ -1,0 +1,20 @@
+{
+  "family": "Playpen Sans Hebrew",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["emoji", "hebrew", "latin", "latin-ext", "math"],
+  "version": "v6",
+  "lastModified": "2025-05-13",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playpensanshebrew/v6/lJws-okuj29wT-AN6RvLx8QqjkKhL7eAjoL9jK7L4vstDnnp5pC63VFfsRss.ttf",
+    "200": "https://fonts.gstatic.com/s/playpensanshebrew/v6/lJws-okuj29wT-AN6RvLx8QqjkKhL7eAjoL9jK7L4vstDnlp55C63VFfsRss.ttf",
+    "300": "https://fonts.gstatic.com/s/playpensanshebrew/v6/lJws-okuj29wT-AN6RvLx8QqjkKhL7eAjoL9jK7L4vstDnm355C63VFfsRss.ttf",
+    "500": "https://fonts.gstatic.com/s/playpensanshebrew/v6/lJws-okuj29wT-AN6RvLx8QqjkKhL7eAjoL9jK7L4vstDnnb55C63VFfsRss.ttf",
+    "600": "https://fonts.gstatic.com/s/playpensanshebrew/v6/lJws-okuj29wT-AN6RvLx8QqjkKhL7eAjoL9jK7L4vstDnk34JC63VFfsRss.ttf",
+    "700": "https://fonts.gstatic.com/s/playpensanshebrew/v6/lJws-okuj29wT-AN6RvLx8QqjkKhL7eAjoL9jK7L4vstDnkO4JC63VFfsRss.ttf",
+    "800": "https://fonts.gstatic.com/s/playpensanshebrew/v6/lJws-okuj29wT-AN6RvLx8QqjkKhL7eAjoL9jK7L4vstDnlp4JC63VFfsRss.ttf",
+    "regular": "https://fonts.gstatic.com/s/playpensanshebrew/v6/lJws-okuj29wT-AN6RvLx8QqjkKhL7eAjoL9jK7L4vstDnnp55C63VFfsRss.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playpensanshebrew/v6/lJws-okuj29wT-AN6RvLx8QqjkKhL7eAjoL9jK7L4vstDnnp56C711U.ttf"
+}

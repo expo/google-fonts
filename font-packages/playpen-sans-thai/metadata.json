@@ -1,0 +1,20 @@
+{
+  "family": "Playpen Sans Thai",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["emoji", "latin", "latin-ext", "math", "thai"],
+  "version": "v6",
+  "lastModified": "2025-05-13",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playpensansthai/v6/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxLghGPoxxAISLTzA.ttf",
+    "200": "https://fonts.gstatic.com/s/playpensansthai/v6/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxLAhCPoxxAISLTzA.ttf",
+    "300": "https://fonts.gstatic.com/s/playpensansthai/v6/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxL3BCPoxxAISLTzA.ttf",
+    "500": "https://fonts.gstatic.com/s/playpensansthai/v6/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxLsBCPoxxAISLTzA.ttf",
+    "600": "https://fonts.gstatic.com/s/playpensansthai/v6/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxLXBePoxxAISLTzA.ttf",
+    "700": "https://fonts.gstatic.com/s/playpensansthai/v6/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxLZRePoxxAISLTzA.ttf",
+    "800": "https://fonts.gstatic.com/s/playpensansthai/v6/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxLAhePoxxAISLTzA.ttf",
+    "regular": "https://fonts.gstatic.com/s/playpensansthai/v6/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxLghCPoxxAISLTzA.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playpensansthai/v6/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxLghC_ohZE.ttf"
+}
