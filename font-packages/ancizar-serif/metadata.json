@@ -1,0 +1,41 @@
+{
+  "family": "Ancizar Serif",
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic",
+    "800italic",
+    "900italic"
+  ],
+  "subsets": ["greek", "latin", "latin-ext"],
+  "version": "v5",
+  "lastModified": "2025-05-14",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/ancizarserif/v5/PN_lRfmxrmD9dEi_Qbtf91W1xPPTOqu-ZIAJUN2H_fAQtYfaQ_ao.ttf",
+    "500": "https://fonts.gstatic.com/s/ancizarserif/v5/PN_lRfmxrmD9dEi_Qbtf91W1xPPTOqu-ZIAJUN3r_fAQtYfaQ_ao.ttf",
+    "600": "https://fonts.gstatic.com/s/ancizarserif/v5/PN_lRfmxrmD9dEi_Qbtf91W1xPPTOqu-ZIAJUN0H-vAQtYfaQ_ao.ttf",
+    "700": "https://fonts.gstatic.com/s/ancizarserif/v5/PN_lRfmxrmD9dEi_Qbtf91W1xPPTOqu-ZIAJUN0--vAQtYfaQ_ao.ttf",
+    "800": "https://fonts.gstatic.com/s/ancizarserif/v5/PN_lRfmxrmD9dEi_Qbtf91W1xPPTOqu-ZIAJUN1Z-vAQtYfaQ_ao.ttf",
+    "900": "https://fonts.gstatic.com/s/ancizarserif/v5/PN_lRfmxrmD9dEi_Qbtf91W1xPPTOqu-ZIAJUN1w-vAQtYfaQ_ao.ttf",
+    "regular": "https://fonts.gstatic.com/s/ancizarserif/v5/PN_lRfmxrmD9dEi_Qbtf91W1xPPTOqu-ZIAJUN3Z_fAQtYfaQ_ao.ttf",
+    "300italic": "https://fonts.gstatic.com/s/ancizarserif/v5/PN_nRfmxrmD9dEi_Qbtf91W17vrhxXPXDxqnV8gRvkZTv4P4Ruao7Y0.ttf",
+    "italic": "https://fonts.gstatic.com/s/ancizarserif/v5/PN_nRfmxrmD9dEi_Qbtf91W17vrhxXPXDxqnV8gRvhhTv4P4Ruao7Y0.ttf",
+    "500italic": "https://fonts.gstatic.com/s/ancizarserif/v5/PN_nRfmxrmD9dEi_Qbtf91W17vrhxXPXDxqnV8gRvipTv4P4Ruao7Y0.ttf",
+    "600italic": "https://fonts.gstatic.com/s/ancizarserif/v5/PN_nRfmxrmD9dEi_Qbtf91W17vrhxXPXDxqnV8gRvsZUv4P4Ruao7Y0.ttf",
+    "700italic": "https://fonts.gstatic.com/s/ancizarserif/v5/PN_nRfmxrmD9dEi_Qbtf91W17vrhxXPXDxqnV8gRvv9Uv4P4Ruao7Y0.ttf",
+    "800italic": "https://fonts.gstatic.com/s/ancizarserif/v5/PN_nRfmxrmD9dEi_Qbtf91W17vrhxXPXDxqnV8gRvphUv4P4Ruao7Y0.ttf",
+    "900italic": "https://fonts.gstatic.com/s/ancizarserif/v5/PN_nRfmxrmD9dEi_Qbtf91W17vrhxXPXDxqnV8gRvrFUv4P4Ruao7Y0.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/ancizarserif/v5/PN_lRfmxrmD9dEi_Qbtf91W1xPPTOqu-ZIAJUN3Z_cARv4M.ttf"
+}
