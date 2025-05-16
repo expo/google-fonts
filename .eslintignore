@@ -1,5 +1,6 @@
 font-assets/**
 font-packages/**
+font-archive/**
 packages/expo-google-fonts/index.js
 packages/generator/templates/**/*.ejs
 packages/generator/templates/**/*.d.ts

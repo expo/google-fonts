@@ -3,6 +3,7 @@
   "version": "0.2.3",
   "main": "generator.js",
   "scripts": {
+    "generate-root-readme": "ts-node ./scripts/generate-root-readme.ts",
     "sync-packages": "ts-node ./scripts/sync-packages.ts",
     "deprecate-archived": "ts-node ./scripts/deprecate-archived.ts",
     "regenerate-all": "ts-node ./scripts/regenerate-all.ts"
