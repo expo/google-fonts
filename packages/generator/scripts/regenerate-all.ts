@@ -12,7 +12,7 @@ import { FontItem } from '../src/types';
 const options = {
   // no prerequisites
   // downloads data and saves to directory-data.json
-  shouldDownloadDirectoryData: false,
+  shouldDownloadDirectoryData: true,
 
   // needs directory-data.json
   // downloads fonts and saves to font-assets
@@ -24,7 +24,7 @@ const options = {
 
   // needs directory-data.json, font-assets and font-images
   // generates font packages for all fonts in font-packages
-  shouldGenerateFontPackages: true,
+  shouldGenerateFontPackages: false,
 
   shouldGenerateDevPackage: false,
   shouldGenerateFontDirectoryPackage: false,

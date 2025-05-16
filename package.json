@@ -5,6 +5,7 @@
   "author": "Expo",
   "license": "MIT",
   "scripts": {
+    "regenerate-all": "yarn workspace generator regenerate-all",
     "sync-packages": "yarn workspace generator sync-packages",
     "lint": "eslint ."
   },

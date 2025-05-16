@@ -18,7 +18,7 @@ export async function generateFontDirectoryPackage(
   // Clone the object
   const fd = JSON.parse(JSON.stringify(fonts));
 
-  for (const webfont of fd.items) {
+  for (const webfont of fd) {
     const packageName = getPackageNameForWebfont(webfont);
     webfont.expoGoogleFontsPackage = PackageScope + packageName;
     webfont.expoGoogleFontsPackageHomepage = `https://github.com/expo/google-fonts/tree/main/font-packages/${packageName}`;
