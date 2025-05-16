@@ -4,20 +4,26 @@ import fsExtra from 'fs-extra';
 import path from 'path';
 import prettier from 'prettier';
 
-import { FontAssetsDir, FontImagesDir, FontPackagesDir, PrettierOptions } from './constants';
-import { FontItem } from './types';
-import { createFileFromTemplate } from './utils/createFileFromTemplate';
-import { generatePng } from './utils/generatePng';
-import { generateTableForVariants } from './utils/generateTableForVariants';
-import { getDefaultVariantKeyForWebfont } from './utils/getDefaultVariantKeyForWebfont';
-import { getNextPackageVersion } from './utils/getNextPackageVersion';
+import {
+  FontAssetsDir,
+  FontImagesDir,
+  FontPackagesDir,
+  PrettierOptions,
+  TemplatesDir,
+} from '../constants';
+import { FontItem } from '../types';
+import { createFileFromTemplate } from './createFileFromTemplate';
+import { generatePng } from './generatePng';
+import { generateTableForVariants } from './generateTableForVariants';
+import { getDefaultVariantKeyForWebfont } from './getDefaultVariantKeyForWebfont';
+import { getNextPackageVersion } from './getNextPackageVersion';
 import {
   getPackageNameForWebfont,
   filenameForFontVariant,
   varNameForFontVariant,
   infoForVariantKey,
   getDisplayNameForFontVariant,
-} from './utils/name';
+} from './name';
 
 async function generatePackageHeaderImage(outputFilepath: string, webfont: FontItem) {
   const variantKey = getDefaultVariantKeyForWebfont(webfont);
@@ -36,7 +42,7 @@ export async function generateFontPackage(webfont: FontItem, options?: { patch?:
   // package.json
   await createFileFromTemplate(
     path.join(pkgDir, 'package.json'),
-    path.join(__dirname, 'templates/package/package.json'),
+    path.join(TemplatesDir, 'package/package.json'),
     {
       packageName,
       version,
@@ -77,12 +83,12 @@ export async function generateFontPackage(webfont: FontItem, options?: { patch?:
     const variantName = varNameForFontVariant(webfont, variantKey);
     await createFileFromTemplate(
       path.join(pkgDir, variantFolderName, 'index.js'),
-      path.join(__dirname, 'templates/package/variant/index.js.ejs'),
+      path.join(TemplatesDir, '/package/variant/index.js.ejs'),
       { variantName }
     );
     await createFileFromTemplate(
       path.join(pkgDir, variantFolderName, 'index.d.ts'),
-      path.join(__dirname, 'templates/package/variant/index.d.ts.ejs'),
+      path.join(TemplatesDir, 'package/variant/index.d.ts.ejs'),
       { variantName }
     );
   }
@@ -97,22 +103,22 @@ export async function generateFontPackage(webfont: FontItem, options?: { patch?:
 
   await createFileFromTemplate(
     path.join(pkgDir, 'index.js'),
-    path.join(__dirname, 'templates/package/index.js.ejs'),
+    path.join(TemplatesDir, 'package/index.js.ejs'),
     { variants }
   );
   await createFileFromTemplate(
     path.join(pkgDir, 'index.d.ts'),
-    path.join(__dirname, 'templates/package/index.d.ts.ejs'),
+    path.join(TemplatesDir, 'package/index.d.ts.ejs'),
     { variants }
   );
 
   // Include the useFonts hook so we can use that
   await fs.promises.link(
-    path.join(__dirname, 'templates/package/useFonts.js'),
+    path.join(TemplatesDir, 'package/useFonts.js'),
     path.join(pkgDir, 'useFonts.js')
   );
   await fs.promises.link(
-    path.join(__dirname, 'templates/package/useFonts.d.ts'),
+    path.join(TemplatesDir, 'package/useFonts.d.ts'),
     path.join(pkgDir, 'useFonts.d.ts')
   );
 
@@ -128,7 +134,7 @@ export async function generateFontPackage(webfont: FontItem, options?: { patch?:
   // README.md
   await createFileFromTemplate(
     path.join(pkgDir, 'README.md'),
-    path.join(__dirname, 'templates/package/README.md'),
+    path.join(TemplatesDir, 'package/README.md'),
     {
       packageName,
       fontName: webfont.family,
@@ -144,9 +150,7 @@ export async function generateFontPackage(webfont: FontItem, options?: { patch?:
           '/' +
           infoForVariantKey(variantKey).variantFolderName,
       })),
-      devPackageDescription: await ejs.renderFile(
-        path.join(__dirname, 'templates/dev/DESCRIPTION.md')
-      ),
+      devPackageDescription: await ejs.renderFile(path.join(TemplatesDir, 'dev/DESCRIPTION.md')),
       variantsTable: generateTableForVariants(webfont),
       variantsCount: webfont.variants.length,
     }

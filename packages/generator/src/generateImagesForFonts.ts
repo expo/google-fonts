@@ -4,7 +4,7 @@ import PQueue from 'p-queue';
 import physicalCpuCount from 'physical-cpu-count';
 
 import { FontImagesDir } from './constants';
-import { generateImageForFontVariant } from './generateImages';
+import { generateImageForFontVariant } from './utils/generateImages';
 import { FontItem } from './types';
 import { varNameForFontVariant } from './utils/name';
 

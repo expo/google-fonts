@@ -9,6 +9,7 @@ export const FontArchiveDir = path.join(ProjectRootDir, 'font-archive');
 export const FontDirectoryPackageDir = path.join(ProjectRootDir, 'font-packages', 'font-directory');
 export const ArchivedDataPath = path.join(__dirname, '..', 'data/archived-data.json');
 export const DirectoryDataPath = path.join(__dirname, '..', 'data/directory-data.json');
+export const TemplatesDir = path.join(__dirname, 'templates');
 export const PackageVersion = require('../../../package.json').version;
 export const fontPrefix = 'font';
 export const PackageScope = '@expo-google-fonts/';

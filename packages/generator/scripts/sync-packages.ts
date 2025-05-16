@@ -1,17 +1,15 @@
 #!/usr/bin/env node
 
-import fs from 'fs';
-
 import currentDirectoryData from '../data/directory-data.json';
 import { archiveFontPackage } from '../src/archiveFontPackage';
-import { downloadFontAssets } from '../src/downloadFontAssets';
+import { downloadDirectoryData } from '../src/downloadDirectoryData';
+import { downloadFonts } from '../src/downloadFonts';
 import { generateDevPackage } from '../src/generateDevPackage';
 import { generateFontDirectoryPackage } from '../src/generateFontDirectoryPackage';
-import { generateFontPackage } from '../src/generateFontPackage';
+import { generateFontPackages } from '../src/generateFontPackages';
 import { generateGalleryFile } from '../src/generateGalleryFile';
-import { generateImages } from '../src/generateImages';
+import { generateImagesForFonts } from '../src/generateImagesForFonts';
 import { generateRootReadme } from '../src/generateRootReadme';
-import { getGoogleFontsApiKey } from '../src/googleFontsApiKey';
 import { FontItem } from '../src/types';
 import { getPackageNameForWebfont } from '../src/utils/name';
 
@@ -34,20 +32,16 @@ const getPackageLinks = (packages: FontItem[]) => {
 
 async function syncPackages() {
   // fetch the latest directory data from the Google Fonts API
-  const googleFontsApiKey = getGoogleFontsApiKey();
-  const url = `https://www.googleapis.com/webfonts/v1/webfonts?key=${googleFontsApiKey}&prettyPrint=false&sort=date`;
-  const response = await fetch(url);
-  const fetchedDirectoryData = (await response.json()) as { items: FontItem[] };
-  const fetchedDirectoryDataItems = fetchedDirectoryData.items;
+  const fetchedItems = await downloadDirectoryData();
 
   // compare the fetched directory data with the current directory data
   const deletedPackages = currentDirectoryItems.filter(
-    (item) => !fetchedDirectoryDataItems.find((p) => p.family === item.family)
+    (item) => !fetchedItems.find((p) => p.family === item.family)
   );
-  const newPackages = fetchedDirectoryDataItems.filter(
+  const newPackages = fetchedItems.filter(
     (item) => !currentDirectoryItems.find((p) => p.family === item.family)
   );
-  const changedPackages = fetchedDirectoryDataItems.filter((item) => {
+  const changedPackages = fetchedItems.filter((item) => {
     const currentPackage = currentDirectoryItems.find((p) => p.family === item.family);
     return currentPackage && currentPackage?.lastModified !== item.lastModified;
   });
@@ -72,43 +66,33 @@ async function syncPackages() {
 
   if (newPackages.length) {
     console.log(`\n🔍 Found ${newPackages.length} new font${newPackages.length === 1 ? '' : 's'}`);
-    for (const newPackage of newPackages) {
-      await downloadFontAssets(newPackage);
-      await generateImages(newPackage);
-      await generateFontPackage(newPackage);
-      console.log(`✅ Created ${newPackage.family}`);
-    }
+    await downloadFonts(newPackages);
+    await generateImagesForFonts(newPackages);
+    await generateFontPackages(newPackages);
+    console.log(`✅ Created ${newPackages.map((pkg) => pkg.family).join(', ')}`);
   }
 
   if (changedPackages.length) {
     console.log(
       `\n🔍 Found ${changedPackages.length} changed font${changedPackages.length === 1 ? '' : 's'}`
     );
-    for (const changedPackage of changedPackages) {
-      await downloadFontAssets(changedPackage);
-      await generateImages(changedPackage);
-      await generateFontPackage(changedPackage, { patch: true });
-      console.log(`✅ Updated ${changedPackage.family}`);
-    }
+    await downloadFonts(changedPackages);
+    await generateImagesForFonts(changedPackages);
+    await generateFontPackages(changedPackages, { patch: true });
+    console.log(`✅ Updated ${changedPackages.map((pkg) => pkg.family).join(', ')}`);
   }
 
-  await generateDevPackage(fetchedDirectoryData.items, { patch: true });
+  await generateDevPackage(fetchedItems, { patch: true });
   console.log('\n✅ Generated dev package');
 
-  await generateFontDirectoryPackage(fetchedDirectoryData.items, { patch: true });
+  await generateFontDirectoryPackage(fetchedItems, { patch: true });
   console.log('✅ Generated font directory package');
 
-  await generateRootReadme(fetchedDirectoryData.items);
+  await generateRootReadme(fetchedItems);
   console.log('✅ Generated root README');
 
-  await generateGalleryFile(fetchedDirectoryData.items);
+  await generateGalleryFile(fetchedItems);
   console.log('✅ Generated gallery file');
-
-  await fs.promises.writeFile(
-    'data/directory-data.json',
-    JSON.stringify(fetchedDirectoryData, null, 2)
-  );
-  console.log('✅ Updated directory-data.json');
 
   if (process.env.GITHUB_ACTIONS) {
     console.log(

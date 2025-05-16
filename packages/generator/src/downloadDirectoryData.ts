@@ -12,4 +12,6 @@ export async function downloadDirectoryData() {
   const fetchedDirectoryData = (await response.json()) as { items: FontItem[] };
 
   await fs.promises.writeFile(DirectoryDataPath, JSON.stringify(fetchedDirectoryData, null, 2));
+
+  return fetchedDirectoryData.items;
 }

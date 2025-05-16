@@ -1,10 +1,10 @@
 import fsExtra from 'fs-extra';
 import path from 'path';
 
-import { FontImagesDir } from './constants';
-import { FontItem } from './types';
-import { generatePng } from './utils/generatePng';
-import { filenameForFontVariant, varNameForFontVariant } from './utils/name';
+import { FontImagesDir } from '../constants';
+import { FontItem } from '../types';
+import { generatePng } from './generatePng';
+import { filenameForFontVariant, varNameForFontVariant } from './name';
 
 export async function generateImageForFontVariant(webfont: FontItem, variantKey: string) {
   let phrase = varNameForFontVariant(webfont, variantKey) + '\n';
