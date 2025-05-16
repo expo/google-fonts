@@ -3,11 +3,6 @@
   "version": "0.2.3",
   "main": "generator.js",
   "scripts": {
-    "generate": "node .",
-    "generate-images": "node build-images.js",
-    "generate-packages": "node build-packages.js",
-    "generate-root-readme": "node generate-root-readme.js",
-    "update-directory-data": "node update-directory-data.js",
     "sync-packages": "ts-node ./scripts/sync-packages.ts"
   },
   "dependencies": {

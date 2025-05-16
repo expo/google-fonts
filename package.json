@@ -5,11 +5,6 @@
   "author": "Expo",
   "license": "MIT",
   "scripts": {
-    "build": "yarn workspace generator generate",
-    "build-packages": "yarn workspace generator generate-packages;",
-    "build-images": "yarn workspace generator generate-images",
-    "generate-root-readme": "yarn workspace generator generate-root-readme",
-    "update-directory-data": "yarn workspace generator update-directory-data",
     "sync-packages": "yarn workspace generator sync-packages",
     "lint": "eslint ."
   },
