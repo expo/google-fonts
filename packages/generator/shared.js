@@ -17,7 +17,7 @@ const FontPackagesDir = path.join(ProjectRootDir, 'font-packages');
 const DevPackageDir = path.join(FontPackagesDir, 'dev');
 const fontPrefix = 'font';
 const FontDirectoryPackageDir = path.join(ProjectRootDir, 'font-packages', 'font-directory');
-const ArchivedDataPath = path.join(__dirname, 'archived-data.json');
+const ArchivedDataPath = path.join(__dirname, 'data/archived-data.json');
 const PackageScope = '@expo-google-fonts/';
 
 const PrettierOptions = {

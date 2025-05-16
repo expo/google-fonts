@@ -3,7 +3,7 @@ const fsExtra = require('fs-extra');
 const { default: PQueue } = require('p-queue');
 const physicalCpuCount = require('physical-cpu-count');
 
-const fontDirectory = require('./directory-data.json');
+const fontDirectory = require('./data/directory-data.json');
 const {
   download,
   FontAssetsDir,

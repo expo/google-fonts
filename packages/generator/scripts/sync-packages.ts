@@ -3,7 +3,7 @@
 import fs from 'fs';
 
 import { archiveFontPackage } from '../archiveFontPackage';
-import currentDirectoryData from '../directory-data.json';
+import currentDirectoryData from '../data/directory-data.json';
 import { downloadFontAssets } from '../downloadFontAssets';
 import { generateImages } from '../generateImages';
 import getGoogleFontsApiKey from '../google-fonts-api-key';
@@ -106,7 +106,10 @@ async function syncPackages() {
   await generateGalleryFile(fetchedDirectoryData);
   console.log('✅ Generated gallery file');
 
-  await fs.promises.writeFile('directory-data.json', JSON.stringify(fetchedDirectoryData, null, 2));
+  await fs.promises.writeFile(
+    'data/directory-data.json',
+    JSON.stringify(fetchedDirectoryData, null, 2)
+  );
   console.log('✅ Updated directory-data.json');
 
   if (process.env.GITHUB_ACTIONS) {
