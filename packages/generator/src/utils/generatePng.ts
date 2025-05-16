@@ -40,7 +40,6 @@ export async function generatePng(
     outputFilepath,
   ];
   try {
-    //await spawnAsync('./magick', args);
     await spawnAsync('magick', args);
   } catch (e) {
     // Some fonts, like Noto Color Emoji Compat, break ImageMagick here
