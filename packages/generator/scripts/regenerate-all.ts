@@ -16,20 +16,20 @@ const options = {
 
   // needs directory-data.json
   // downloads fonts and saves to font-assets
-  shouldDownloadFonts: false,
+  shouldDownloadFonts: true,
 
   // needs directory-data.json, font-assets and imagemagick installed globally
   // generates images for all fonts and saves to font-images
-  shouldGenerateImages: false,
+  shouldGenerateImages: true,
 
   // needs directory-data.json, font-assets and font-images
   // generates font packages for all fonts in font-packages
-  shouldGenerateFontPackages: false,
+  shouldGenerateFontPackages: true,
 
-  shouldGenerateDevPackage: false,
-  shouldGenerateFontDirectoryPackage: false,
-  shouldGenerateRootReadme: false,
-  shouldGenerateGalleryFile: false,
+  shouldGenerateDevPackage: true,
+  shouldGenerateFontDirectoryPackage: true,
+  shouldGenerateRootReadme: true,
+  shouldGenerateGalleryFile: true,
 };
 
 async function generateAll() {
