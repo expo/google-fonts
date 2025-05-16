@@ -1,17 +1,13 @@
 import cliProgress from 'cli-progress';
-import fsExtra from 'fs-extra';
 import PQueue from 'p-queue';
 import physicalCpuCount from 'physical-cpu-count';
 
-import { FontPackagesDir } from './constants';
 import { FontItem } from './types';
 import { generateFontPackage } from './utils/generateFontPackage';
 
 const CPUBoundConcurrency = Math.max(1, physicalCpuCount - 1);
 
 export async function generateFontPackages(fonts: FontItem[], options?: { patch?: boolean }) {
-  await fsExtra.emptyDir(FontPackagesDir);
-
   const webfontCount = fonts.length;
 
   const concurrency = CPUBoundConcurrency;
