@@ -1,15 +1,13 @@
-const spawnAsync = require('@expo/spawn-async');
-const cliProgress = require('cli-progress');
-const fs = require('fs');
-const { default: PQueue } = require('p-queue');
-const path = require('path');
+import spawnAsync from '@expo/spawn-async';
+import cliProgress from 'cli-progress';
+import fs from 'fs';
+import { default as PQueue } from 'p-queue';
 
-const ProjectRootDir = path.join(__dirname, '..', '..');
-const FontArchiveDir = path.join(ProjectRootDir, 'font-archive');
+import { FontArchiveDir } from '../src/constants';
 
-async function deprecateArchivedFontPackages() {
+export async function deprecateArchivedFontPackages() {
   let i = 0;
-  const errors = [];
+  const errors: [string, Error][] = [];
   const concurrency = 4;
   const q = new PQueue({ concurrency });
   const bar = new cliProgress.SingleBar(
@@ -24,6 +22,7 @@ async function deprecateArchivedFontPackages() {
     .map((dirent) => dirent.name);
 
   bar.start(packages.length, i);
+
   try {
     for (const pkg of packages) {
       const packageName = '@expo-google-fonts/' + pkg;
@@ -34,15 +33,17 @@ async function deprecateArchivedFontPackages() {
           'This font has been removed from Google Fonts and will no longer receive updates.',
         ])
       );
+      // @ts-expect-error
       p.fontFamily = pkg;
       (async () => {
         try {
           await p;
         } catch (e) {
           console.error(e);
-          errors.push([pkg, e]);
+          errors.push([pkg, e as Error]);
         } finally {
           i++;
+          // @ts-expect-error
           bar.update(i, { font: p.fontFamily, errorCount: errors.length });
         }
       })();
@@ -67,5 +68,3 @@ if (require.main === module) {
     console.log('done.');
   })();
 }
-
-module.exports = { deprecateArchivedFontPackages };

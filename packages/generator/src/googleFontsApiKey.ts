@@ -1,4 +1,4 @@
-module.exports = () => {
+export const getGoogleFontsApiKey = () => {
   const apiKey = process.env.GOOGLE_FONTS_API_KEY;
 
   if (!apiKey) {

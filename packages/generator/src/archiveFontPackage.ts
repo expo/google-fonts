@@ -1,15 +1,9 @@
 import fsExtra from 'fs-extra';
 import path from 'path';
 
-import {
-  ArchivedDataPath,
-  FontPackagesDir,
-  getPackageNameForWebfont,
-  ProjectRootDir,
-} from './shared';
+import { ArchivedDataPath, FontArchiveDir, FontPackagesDir } from './constants';
 import { FontItem } from './types';
-
-const FontArchiveDir = path.join(ProjectRootDir, 'font-archive');
+import { getPackageNameForWebfont } from './utils/name';
 
 export async function archiveFontPackage(webfont: FontItem) {
   await fsExtra.ensureDir(FontArchiveDir);

@@ -2,20 +2,18 @@
 
 import fs from 'fs';
 
-import { archiveFontPackage } from '../archiveFontPackage';
 import currentDirectoryData from '../data/directory-data.json';
-import { downloadFontAssets } from '../downloadFontAssets';
-import { generateImages } from '../generateImages';
-import getGoogleFontsApiKey from '../google-fonts-api-key';
-import {
-  generateDevPackage,
-  generateFontPackage,
-  generateFontDirectoryPackage,
-  generateRootReadme,
-  generateGalleryFile,
-  getPackageNameForWebfont,
-} from '../shared';
-import { FontItem } from '../types';
+import { archiveFontPackage } from '../src/archiveFontPackage';
+import { downloadFontAssets } from '../src/downloadFontAssets';
+import { generateDevPackage } from '../src/generateDevPackage';
+import { generateFontDirectoryPackage } from '../src/generateFontDirectoryPackage';
+import { generateFontPackage } from '../src/generateFontPackage';
+import { generateGalleryFile } from '../src/generateGalleryFile';
+import { generateImages } from '../src/generateImages';
+import { generateRootReadme } from '../src/generateRootReadme';
+import { getGoogleFontsApiKey } from '../src/googleFontsApiKey';
+import { FontItem } from '../src/types';
+import { getPackageNameForWebfont } from '../src/utils/name';
 
 const currentDirectoryItems = currentDirectoryData.items as FontItem[];
 
@@ -94,16 +92,16 @@ async function syncPackages() {
     }
   }
 
-  await generateDevPackage(fetchedDirectoryData, { patch: true });
+  await generateDevPackage(fetchedDirectoryData.items, { patch: true });
   console.log('\n✅ Generated dev package');
 
-  await generateFontDirectoryPackage(fetchedDirectoryData, { patch: true });
+  await generateFontDirectoryPackage(fetchedDirectoryData.items, { patch: true });
   console.log('✅ Generated font directory package');
 
-  await generateRootReadme(fetchedDirectoryData);
+  await generateRootReadme(fetchedDirectoryData.items);
   console.log('✅ Generated root README');
 
-  await generateGalleryFile(fetchedDirectoryData);
+  await generateGalleryFile(fetchedDirectoryData.items);
   console.log('✅ Generated gallery file');
 
   await fs.promises.writeFile(

@@ -1,7 +1,9 @@
 import fsExtra from 'fs-extra';
 
-import { FontAssetsDir, filepathForFontVariant, download } from './shared';
+import { FontAssetsDir } from './constants';
 import { FontItem } from './types';
+import { download } from './utils/download';
+import { filepathForFontVariant } from './utils/name';
 
 export async function downloadFontAssets(webfont: FontItem) {
   await fsExtra.ensureDir(FontAssetsDir);
