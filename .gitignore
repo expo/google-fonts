@@ -103,6 +103,7 @@ dist
 # Generated font packages
 font-assets/
 font-images/
+font-licenses/
 dist2/
 
 # MacOS

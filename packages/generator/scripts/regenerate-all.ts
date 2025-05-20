@@ -1,6 +1,7 @@
 import { DirectoryDataPath } from '../src/constants';
 import { downloadDirectoryData } from '../src/downloadDirectoryData';
 import { downloadFonts } from '../src/downloadFonts';
+import { downloadLicenses } from '../src/downloadLicenses';
 import { generateDevPackage } from '../src/generateDevPackage';
 import { generateFontDirectoryPackage } from '../src/generateFontDirectoryPackage';
 import { generateFontPackages } from '../src/generateFontPackages';
@@ -15,15 +16,19 @@ const options = {
   shouldDownloadDirectoryData: true,
 
   // needs directory-data.json
-  // downloads fonts and saves to font-assets
+  // downloads fonts and saves to /font-assets
   shouldDownloadFonts: true,
 
-  // needs directory-data.json, font-assets and imagemagick installed globally
-  // generates images for all fonts and saves to font-images
+  // needs directory-data.json
+  // downloads licenses and saves to /licenses
+  shouldDownloadLicenses: true,
+
+  // needs directory-data.json, /font-assets and imagemagick installed globally
+  // generates images for all fonts and saves to /font-images
   shouldGenerateImages: true,
 
-  // needs directory-data.json, font-assets and font-images
-  // generates font packages for all fonts in font-packages
+  // needs directory-data.json, /font-assets, /font-images and /licenses
+  // generates font packages for all fonts in /font-packages
   shouldGenerateFontPackages: true,
 
   shouldGenerateDevPackage: true,
@@ -47,6 +52,12 @@ async function generateAll() {
     await downloadFonts(fonts);
     console.log('done.');
   }
+
+  if (options.shouldDownloadLicenses) {
+    console.log('Downloading all licenses...');
+    await downloadLicenses(fonts);
+    console.log('done.');
+  } 
 
   if (options.shouldGenerateImages) {
     console.log('Generating image previews for all fonts...');
