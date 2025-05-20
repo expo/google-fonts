@@ -39,6 +39,7 @@ export async function generateFontDirectoryPackage(
       description: 'A directory of metadata about the fonts available in `expo-google-fonts`',
       main: 'fontDirectory.json',
       directory: 'font-packages/font-directory',
+      license: 'MIT',
     }
   );
 

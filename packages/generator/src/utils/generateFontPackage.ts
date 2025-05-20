@@ -10,6 +10,9 @@ import {
   FontPackagesDir,
   PrettierOptions,
   TemplatesDir,
+  FontLicenseTypes,
+  FontLicensesDir,
+  ProjectRootDir,
 } from '../constants';
 import { FontItem } from '../types';
 import { createFileFromTemplate } from './createFileFromTemplate';
@@ -23,6 +26,7 @@ import {
   varNameForFontVariant,
   infoForVariantKey,
   getDisplayNameForFontVariant,
+  varNameForWebfont,
 } from './name';
 
 async function generatePackageHeaderImage(outputFilepath: string, webfont: FontItem) {
@@ -31,10 +35,41 @@ async function generatePackageHeaderImage(outputFilepath: string, webfont: FontI
   await generatePng(outputFilepath, name, webfont, variantKey, 96);
 }
 
+async function getLicenseForFont(webfont: FontItem) {
+  const oflFilepath = path.join(
+    FontLicensesDir,
+    varNameForWebfont(webfont) + '_' + FontLicenseTypes.OFL + '.txt'
+  );
+  const apacheFilepath = path.join(
+    FontLicensesDir,
+    varNameForWebfont(webfont) + '_' + FontLicenseTypes.Apache + '.txt'
+  );
+  const uflFilepath = path.join(
+    FontLicensesDir,
+    varNameForWebfont(webfont) + '_' + FontLicenseTypes.UFL + '.txt'
+  );
+
+  if (fs.existsSync(oflFilepath)) {
+    return { type: FontLicenseTypes.OFL, url: oflFilepath };
+  }
+
+  if (fs.existsSync(apacheFilepath)) {
+    return { type: FontLicenseTypes.Apache, url: apacheFilepath };
+  }
+
+  if (fs.existsSync(uflFilepath)) {
+    return { type: FontLicenseTypes.UFL, url: uflFilepath };
+  }
+
+  throw new Error(`License not found for ${webfont.family}`);
+}
+
 export async function generateFontPackage(webfont: FontItem, options?: { patch?: boolean }) {
   const packageName = getPackageNameForWebfont(webfont);
   const pkgDir = path.join(FontPackagesDir, packageName);
   const version = getNextPackageVersion(pkgDir, options);
+
+  const license = await getLicenseForFont(webfont);
 
   // empty dir
   await fsExtra.emptyDir(pkgDir);
@@ -49,8 +84,12 @@ export async function generateFontPackage(webfont: FontItem, options?: { patch?:
       description: `Use the ${webfont.family} font family from Google Fonts in your Expo app`,
       main: 'index.js',
       directory: 'font-packages/' + packageName,
+      fontLicense: `MIT AND ${license.type}`,
     }
   );
+
+  await fs.promises.link(license.url, path.join(pkgDir, 'LICENSE_FONT'));
+  await fs.promises.link(path.join(ProjectRootDir, 'LICENSE'), path.join(pkgDir, 'LICENSE'));
 
   // metadata.json
   await fs.promises.writeFile(

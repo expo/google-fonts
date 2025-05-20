@@ -56,3 +56,9 @@ export const VariantNames = {
   '800italic': 'Extra Bold Italic',
   '900italic': 'Black Italic',
 };
+
+export const FontLicenseTypes = {
+  OFL: 'OFL-1.1',
+  Apache: 'Apache-2.0',
+  UFL: 'UFL-1.0',
+} as const;

@@ -3,7 +3,7 @@ import fsExtra from 'fs-extra';
 import PQueue from 'p-queue';
 import path from 'path';
 
-import { FontLicensesDir } from './constants';
+import { FontLicensesDir, FontLicenseTypes } from './constants';
 import { FontItem } from './types';
 import { download } from './utils/download';
 import { varNameForWebfont } from './utils/name';
@@ -61,14 +61,14 @@ const materialIcons = [
 
 async function checkLicense(font: FontItem) {
   if (materialIcons.includes(font.family)) {
-    return { type: 'Apache', url: materialLicense, family: font.family };
+    return { type: FontLicenseTypes.Apache, url: materialLicense, family: font.family };
   }
 
   // No license file
   // It's marked as OFL and the other font by the same author has the license file so we'll reuse it
   if (font.family === 'Kumar One Outline') {
     return {
-      type: 'OFL',
+      type: FontLicenseTypes.OFL,
       url: 'https://raw.githubusercontent.com/google/fonts/refs/heads/main/ofl/kumarone/OFL.txt',
       family: font.family,
     };
@@ -78,7 +78,7 @@ async function checkLicense(font: FontItem) {
   // It's marked as OFL and the other font by the same author has the license file so we'll reuse it
   if (font.family === 'M PLUS Rounded 1c') {
     return {
-      type: 'OFL',
+      type: FontLicenseTypes.OFL,
       url: 'https://raw.githubusercontent.com/google/fonts/refs/heads/main/ofl/mpluscodelatin/OFL.txt',
       family: font.family,
     };
@@ -92,17 +92,17 @@ async function checkLicense(font: FontItem) {
 
   const oflRes = await fetch(ofl, { method: 'HEAD' });
   if (oflRes.ok) {
-    return { type: 'OFL', url: ofl, family: font.family };
+    return { type: FontLicenseTypes.OFL, url: ofl, family: font.family };
   }
 
   const apacheRes = await fetch(apache, { method: 'HEAD' });
   if (apacheRes.ok) {
-    return { type: 'Apache', url: apache, family: font.family };
+    return { type: FontLicenseTypes.Apache, url: apache, family: font.family };
   }
 
   const uflRes = await fetch(ufl, { method: 'HEAD' });
   if (uflRes.ok) {
-    return { type: 'UFL', url: ufl, family: font.family };
+    return { type: FontLicenseTypes.UFL, url: ufl, family: font.family };
   }
 
   if (oflRes.status === 429 || uflRes.status === 429 || apacheRes.status === 429) {

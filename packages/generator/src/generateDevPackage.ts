@@ -23,6 +23,7 @@ export async function generateDevPackage(fonts: FontItem[], options?: { patch?: 
       description: `Load ${fonts.length} font families from Google Fonts over the network while developing your Expo app`,
       main: 'index.js',
       directory: 'font-packages/dev',
+      license: 'MIT',
     }
   );
 
