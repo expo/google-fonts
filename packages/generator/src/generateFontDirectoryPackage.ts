@@ -16,9 +16,9 @@ export async function generateFontDirectoryPackage(
   await fsExtra.emptyDir(FontDirectoryPackageDir);
 
   // Clone the object
-  const fd = JSON.parse(JSON.stringify(fonts));
+  const items = JSON.parse(JSON.stringify(fonts));
 
-  for (const webfont of fd) {
+  for (const webfont of items) {
     const packageName = getPackageNameForWebfont(webfont);
     webfont.expoGoogleFontsPackage = PackageScope + packageName;
     webfont.expoGoogleFontsPackageHomepage = `https://github.com/expo/google-fonts/tree/main/font-packages/${packageName}`;
@@ -26,7 +26,7 @@ export async function generateFontDirectoryPackage(
 
   await fs.promises.writeFile(
     path.join(FontDirectoryPackageDir, 'fontDirectory.json'),
-    JSON.stringify(fd),
+    JSON.stringify({ kind: 'webfonts#webfontList', items }),
     'utf8'
   );
 
