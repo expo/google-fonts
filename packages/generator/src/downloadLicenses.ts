@@ -8,22 +8,6 @@ import { FontItem } from './types';
 import { download } from './utils/download';
 import { varNameForWebfont } from './utils/name';
 
-// Not found
-
-// Material Symbols
-// Ubuntu Sans Mono
-// Ubuntu Sans
-// Material Icons Two Tone
-// Material Icons Sharp
-// Material Icons Round
-// Material Icons Outlined
-// M PLUS Rounded 1c
-// Kumar One Outline
-// Material Icons
-// Material Symbols Outlined
-// Material Symbols Rounded
-// Material Symbols Sharp
-
 const NetworkBoundConcurrency = 3;
 
 export async function downloadLicenses(fonts: FontItem[]) {
@@ -60,11 +44,50 @@ export async function downloadLicenses(fonts: FontItem[]) {
   }
 }
 
+const materialLicense =
+  'https://raw.githubusercontent.com/google/material-design-icons/refs/heads/master/LICENSE';
+
+const materialIcons = [
+  'Material Symbols',
+  'Material Icons Two Tone',
+  'Material Icons Sharp',
+  'Material Icons Round',
+  'Material Icons Outlined',
+  'Material Icons',
+  'Material Symbols Outlined',
+  'Material Symbols Rounded',
+  'Material Symbols Sharp',
+];
+
 async function checkLicense(font: FontItem) {
+  if (materialIcons.includes(font.family)) {
+    return { type: 'Apache', url: materialLicense, family: font.family };
+  }
+
+  // No license file
+  // It's marked as OFL and the other font by the same author has the license file so we'll reuse it
+  if (font.family === 'Kumar One Outline') {
+    return {
+      type: 'OFL',
+      url: 'https://raw.githubusercontent.com/google/fonts/refs/heads/main/ofl/kumarone/OFL.txt',
+      family: font.family,
+    };
+  }
+
+  // No license file
+  // It's marked as OFL and the other font by the same author has the license file so we'll reuse it
+  if (font.family === 'M PLUS Rounded 1c') {
+    return {
+      type: 'OFL',
+      url: 'https://raw.githubusercontent.com/google/fonts/refs/heads/main/ofl/mpluscodelatin/OFL.txt',
+      family: font.family,
+    };
+  }
+
   const name = font.family.replace(/ /g, '').toLowerCase();
 
   const ofl = `https://raw.githubusercontent.com/google/fonts/refs/heads/main/ofl/${name}/OFL.txt`;
-  const ufl = `https://raw.githubusercontent.com/google/fonts/refs/heads/main/ufl/${name}/UFL.txt`;
+  const ufl = `https://raw.githubusercontent.com/google/fonts/refs/heads/main/ufl/${name}/LICENCE.txt`;
   const apache = `https://raw.githubusercontent.com/google/fonts/refs/heads/main/apache/${name}/LICENSE.txt`;
 
   const oflRes = await fetch(ofl, { method: 'HEAD' });
@@ -94,7 +117,7 @@ async function checkLicense(font: FontItem) {
 async function checkAndDownloadLicense(font: FontItem) {
   const license = await checkLicense(font);
   if (license.type === 'not found') {
-    console.log(`License not found for ${font.family}`);
+    throw new Error(`License not found for ${font.family}`);
   } else {
     const filepath = path.join(
       FontLicensesDir,
