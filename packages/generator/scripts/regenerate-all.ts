@@ -57,7 +57,7 @@ async function generateAll() {
     console.log('Downloading all licenses...');
     await downloadLicenses(fonts);
     console.log('done.');
-  } 
+  }
 
   if (options.shouldGenerateImages) {
     console.log('Generating image previews for all fonts...');
