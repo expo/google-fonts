@@ -1,14 +1,20 @@
-import fs from 'fs';
+import fsExtra from 'fs-extra';
 import path from 'path';
 import semver from 'semver';
 
 import { PackageVersion } from '../constants';
 
-export function getNextPackageVersion(packageDir: string, options?: { patch?: boolean }) {
-  if (!options || !options.patch || !fs.existsSync(packageDir)) {
+export async function getNextPackageVersion(packageDir: string, options?: { patch?: boolean }) {
+  const packagePath = path.join(packageDir, 'package.json');
+
+  // Check if the font package file exists
+  if (!(await fsExtra.exists(packagePath))) {
+    return PackageVersion;
+  }
+  const { version: currentVersion } = JSON.parse(await fsExtra.readFile(packagePath, 'utf-8'));
+  if ((!options || !options.patch) && semver.lt(currentVersion, PackageVersion)) {
     return PackageVersion;
   }
 
-  const packageJson = require(path.join(packageDir, 'package.json'));
-  return semver.inc(packageJson.version, 'patch');
+  return semver.inc(currentVersion, 'patch');
 }

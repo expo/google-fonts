@@ -12,7 +12,7 @@ export async function generateFontDirectoryPackage(
   fonts: FontItem[],
   options?: { patch?: boolean }
 ) {
-  const version = getNextPackageVersion(FontDirectoryPackageDir, options);
+  const version = await getNextPackageVersion(FontDirectoryPackageDir, options);
   await fsExtra.emptyDir(FontDirectoryPackageDir);
 
   // Clone the object

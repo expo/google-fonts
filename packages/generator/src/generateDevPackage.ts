@@ -11,7 +11,7 @@ import { varNameForFontVariant } from './utils/name';
 
 export async function generateDevPackage(fonts: FontItem[], options?: { patch?: boolean }) {
   const pkgDir = DevPackageDir;
-  const version = getNextPackageVersion(pkgDir, options);
+  const version = await getNextPackageVersion(pkgDir, options);
   await fsExtra.emptyDir(pkgDir);
 
   await createFileFromTemplate(

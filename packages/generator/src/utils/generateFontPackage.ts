@@ -34,7 +34,7 @@ async function generatePackageHeaderImage(outputFilepath: string, webfont: FontI
 export async function generateFontPackage(webfont: FontItem, options?: { patch?: boolean }) {
   const packageName = getPackageNameForWebfont(webfont);
   const pkgDir = path.join(FontPackagesDir, packageName);
-  const version = getNextPackageVersion(pkgDir, options);
+  const version = await getNextPackageVersion(pkgDir, options);
 
   // empty dir
   await fsExtra.emptyDir(pkgDir);
