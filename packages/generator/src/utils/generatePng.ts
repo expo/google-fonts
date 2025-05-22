@@ -1,8 +1,10 @@
 import spawnAsync from '@expo/spawn-async';
 import fs from 'fs';
+import path from 'path';
 
 import { FontItem } from '../types';
 import { filepathForFontVariant } from './name';
+import { TemplatesDir } from '../constants';
 
 export async function generatePng(
   outputFilepath: string,
@@ -45,7 +47,7 @@ export async function generatePng(
     // Some fonts, like Noto Color Emoji Compat, break ImageMagick here
     // and so we just link the empty png but rethrow the error so that the
     // caller needs to catch it and isn't surprised by an error
-    await fs.promises.link('./empty.png', outputFilepath);
+    await fs.promises.link(path.join(TemplatesDir, 'empty.png'), outputFilepath);
     throw e;
   }
 }
