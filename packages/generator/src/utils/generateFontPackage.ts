@@ -38,15 +38,15 @@ async function generatePackageHeaderImage(outputFilepath: string, webfont: FontI
 async function getLicenseForFont(webfont: FontItem) {
   const oflFilepath = path.join(
     FontLicensesDir,
-    varNameForWebfont(webfont) + '_' + FontLicenseTypes.OFL + '.txt'
+    varNameForWebfont(webfont) + '_' + FontLicenseTypes.OFL
   );
   const apacheFilepath = path.join(
     FontLicensesDir,
-    varNameForWebfont(webfont) + '_' + FontLicenseTypes.Apache + '.txt'
+    varNameForWebfont(webfont) + '_' + FontLicenseTypes.Apache
   );
   const uflFilepath = path.join(
     FontLicensesDir,
-    varNameForWebfont(webfont) + '_' + FontLicenseTypes.UFL + '.txt'
+    varNameForWebfont(webfont) + '_' + FontLicenseTypes.UFL
   );
 
   if (fs.existsSync(oflFilepath)) {

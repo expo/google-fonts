@@ -119,11 +119,7 @@ async function checkAndDownloadLicense(font: FontItem) {
   if (license.type === 'not found') {
     throw new Error(`License not found for ${font.family}`);
   } else {
-    const filepath = path.join(
-      FontLicensesDir,
-      varNameForWebfont(font) + '_' + license.type + '.txt'
-    );
-
+    const filepath = path.join(FontLicensesDir, varNameForWebfont(font) + '_' + license.type);
     await download(filepath, license.url);
   }
 }
