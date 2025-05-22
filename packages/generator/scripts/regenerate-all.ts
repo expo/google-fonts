@@ -20,14 +20,14 @@ const options = {
   shouldDownloadFonts: true,
 
   // needs directory-data.json
-  // downloads licenses and saves to /licenses
+  // downloads licenses and saves to /font-licenses
   shouldDownloadLicenses: true,
 
   // needs directory-data.json, /font-assets and imagemagick installed globally
   // generates images for all fonts and saves to /font-images
   shouldGenerateImages: true,
 
-  // needs directory-data.json, /font-assets, /font-images and /licenses
+  // needs directory-data.json, /font-assets, /font-images and /font-licenses
   // generates font packages for all fonts in /font-packages
   shouldGenerateFontPackages: true,
 
