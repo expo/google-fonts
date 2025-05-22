@@ -1,4 +1,3 @@
-import fsExtra from 'fs-extra';
 import path from 'path';
 
 import { FontImagesDir } from '../constants';
@@ -14,12 +13,4 @@ export async function generateImageForFontVariant(webfont: FontItem, variantKey:
     filenameForFontVariant(webfont, variantKey) + '.png'
   );
   await generatePng(outputFilepath, phrase, webfont, variantKey, 40);
-}
-
-export async function generateImages(webfont: FontItem) {
-  await fsExtra.ensureDir(FontImagesDir);
-
-  for (const variantKey of webfont.variants) {
-    await generateImageForFontVariant(webfont, variantKey);
-  }
 }
