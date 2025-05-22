@@ -4,6 +4,7 @@ import currentDirectoryData from '../data/directory-data.json';
 import { archiveFontPackage } from '../src/archiveFontPackage';
 import { downloadDirectoryData } from '../src/downloadDirectoryData';
 import { downloadFonts } from '../src/downloadFonts';
+import { downloadLicenses } from '../src/downloadLicenses';
 import { generateDevPackage } from '../src/generateDevPackage';
 import { generateFontDirectoryPackage } from '../src/generateFontDirectoryPackage';
 import { generateFontPackages } from '../src/generateFontPackages';
@@ -67,6 +68,7 @@ async function syncPackages() {
   if (newPackages.length) {
     console.log(`\n🔍 Found ${newPackages.length} new font${newPackages.length === 1 ? '' : 's'}`);
     await downloadFonts(newPackages);
+    await downloadLicenses(newPackages);
     await generateImagesForFonts(newPackages);
     await generateFontPackages(newPackages);
     console.log(`✅ Created ${newPackages.map((pkg) => pkg.family).join(', ')}`);
@@ -77,6 +79,7 @@ async function syncPackages() {
       `\n🔍 Found ${changedPackages.length} changed font${changedPackages.length === 1 ? '' : 's'}`
     );
     await downloadFonts(changedPackages);
+    await downloadLicenses(changedPackages);
     await generateImagesForFonts(changedPackages);
     await generateFontPackages(changedPackages, { patch: true });
     console.log(`✅ Updated ${changedPackages.map((pkg) => pkg.family).join(', ')}`);
