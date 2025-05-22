@@ -84,7 +84,7 @@ export async function generateFontPackage(webfont: FontItem, options?: { patch?:
       description: `Use the ${webfont.family} font family from Google Fonts in your Expo app`,
       main: 'index.js',
       directory: 'font-packages/' + packageName,
-      fontLicense: `MIT AND ${license.type}`,
+      license: `MIT AND ${license.type}`,
     }
   );
 
