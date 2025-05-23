@@ -1,14 +1,20 @@
 {
   "family": "Baskervville",
-  "variants": ["regular", "italic"],
+  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2024-09-04",
+  "version": "v18",
+  "lastModified": "2025-05-23",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/baskervville/v16/YA9Ur0yU4l_XOrogbkun3kQgt5OohvbJ9A.ttf",
-    "italic": "https://fonts.gstatic.com/s/baskervville/v16/YA9Kr0yU4l_XOrogbkun3kQQtZmspPPZ9Mlt.ttf"
+    "500": "https://fonts.gstatic.com/s/baskervville/v18/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYtLrugOydR1FLkw.ttf",
+    "600": "https://fonts.gstatic.com/s/baskervville/v18/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYj7sugOydR1FLkw.ttf",
+    "700": "https://fonts.gstatic.com/s/baskervville/v18/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYgfsugOydR1FLkw.ttf",
+    "regular": "https://fonts.gstatic.com/s/baskervville/v18/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYuDrugOydR1FLkw.ttf",
+    "italic": "https://fonts.gstatic.com/s/baskervville/v18/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyioUkC4cT9APkyagA.ttf",
+    "500italic": "https://fonts.gstatic.com/s/baskervville/v18/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyioYEC4cT9APkyagA.ttf",
+    "600italic": "https://fonts.gstatic.com/s/baskervville/v18/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyiojEe4cT9APkyagA.ttf",
+    "700italic": "https://fonts.gstatic.com/s/baskervville/v18/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyiotUe4cT9APkyagA.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/baskervville/v16/YA9Ur0yU4l_XOrogbkun3kQQtpms.ttf"
+  "menu": "https://fonts.gstatic.com/s/baskervville/v18/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYuDrigK4cQ.ttf"
 }

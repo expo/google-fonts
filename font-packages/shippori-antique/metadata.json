@@ -2,12 +2,12 @@
   "family": "Shippori Antique",
   "variants": ["regular"],
   "subsets": ["japanese", "latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2024-09-04",
+  "version": "v10",
+  "lastModified": "2025-05-23",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/shipporiantique/v9/-F6qfid3KC8pdMyzR0qRyFUht11v8ldPg-IUDNg.ttf"
+    "regular": "https://fonts.gstatic.com/s/shipporiantique/v10/-F6qfid3KC8pdMyzR0qRyFUht11v8ldPg-IUDNg.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/shipporiantique/v9/-F6qfid3KC8pdMyzR0qRyFUht11vwlZFhw.ttf"
+  "menu": "https://fonts.gstatic.com/s/shipporiantique/v10/-F6qfid3KC8pdMyzR0qRyFUht11vwlZFhw.ttf"
 }

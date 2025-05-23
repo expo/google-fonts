@@ -1,16 +1,16 @@
 {
   "name": "@expo-google-fonts/nobile",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Use the Nobile font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/expo/google-fonts.git",
+    "url": "git+https://github.com/expo/google-fonts.git",
     "directory": "font-packages/nobile"
   },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/nobile#readme",
   "author": "Expo Team <team@expo.io>",
-  "license": "MIT",
+  "license": "MIT AND OFL-1.1",
   "publishConfig": {
     "access": "public"
   }

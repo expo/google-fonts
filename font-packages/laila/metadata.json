@@ -2,16 +2,16 @@
   "family": "Laila",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2024-11-20",
+  "version": "v19",
+  "lastModified": "2025-05-23",
   "files": {
-    "300": "https://fonts.gstatic.com/s/laila/v18/LYjBdG_8nE8jDLzxogNAh14nVcfe.ttf",
-    "500": "https://fonts.gstatic.com/s/laila/v18/LYjBdG_8nE8jDLypowNAh14nVcfe.ttf",
-    "600": "https://fonts.gstatic.com/s/laila/v18/LYjBdG_8nE8jDLyFpANAh14nVcfe.ttf",
-    "700": "https://fonts.gstatic.com/s/laila/v18/LYjBdG_8nE8jDLzhpQNAh14nVcfe.ttf",
-    "regular": "https://fonts.gstatic.com/s/laila/v18/LYjMdG_8nE8jDIRdiidIrEIu.ttf"
+    "300": "https://fonts.gstatic.com/s/laila/v19/LYjBdG_8nE8jDLzxogNAh14nVcfe.ttf",
+    "500": "https://fonts.gstatic.com/s/laila/v19/LYjBdG_8nE8jDLypowNAh14nVcfe.ttf",
+    "600": "https://fonts.gstatic.com/s/laila/v19/LYjBdG_8nE8jDLyFpANAh14nVcfe.ttf",
+    "700": "https://fonts.gstatic.com/s/laila/v19/LYjBdG_8nE8jDLzhpQNAh14nVcfe.ttf",
+    "regular": "https://fonts.gstatic.com/s/laila/v19/LYjMdG_8nE8jDIRdiidIrEIu.ttf"
   },
-  "category": "sans-serif",
+  "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/laila/v18/LYjMdG_8nE8jDLRcgCM.ttf"
+  "menu": "https://fonts.gstatic.com/s/laila/v19/LYjMdG_8nE8jDLRcgCM.ttf"
 }

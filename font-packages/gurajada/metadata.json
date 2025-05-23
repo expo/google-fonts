@@ -2,12 +2,12 @@
   "family": "Gurajada",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "telugu"],
-  "version": "v20",
-  "lastModified": "2024-11-20",
+  "version": "v21",
+  "lastModified": "2025-05-23",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/gurajada/v20/FwZY7-Qx308m-l-0Kd6A4sijpFu_.ttf"
+    "regular": "https://fonts.gstatic.com/s/gurajada/v21/FwZY7-Qx308m-l-0Kd6A4sijpFu_.ttf"
   },
-  "category": "serif",
+  "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/gurajada/v20/FwZY7-Qx308m-l-0Ke6B6Mw.ttf"
+  "menu": "https://fonts.gstatic.com/s/gurajada/v21/FwZY7-Qx308m-l-0Ke6B6Mw.ttf"
 }

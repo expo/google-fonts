@@ -2,10 +2,10 @@
   "family": "Pattaya",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext", "thai", "vietnamese"],
-  "version": "v16",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/pattaya/v16/ea8ZadcqV_zkHY-XNdCn92ZEmVs.ttf" },
+  "version": "v17",
+  "lastModified": "2025-05-23",
+  "files": { "regular": "https://fonts.gstatic.com/s/pattaya/v17/ea8ZadcqV_zkHY-XNdCn92ZEmVs.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/pattaya/v16/ea8ZadcqV_zkHY-XBdGt8w.ttf"
+  "menu": "https://fonts.gstatic.com/s/pattaya/v17/ea8ZadcqV_zkHY-XBdGt8w.ttf"
 }

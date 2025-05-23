@@ -1,0 +1,13 @@
+{
+  "family": "WDXL Lubrifont TC",
+  "variants": ["regular"],
+  "subsets": ["chinese-traditional", "cyrillic", "latin", "latin-ext", "symbols2"],
+  "version": "v3",
+  "lastModified": "2025-05-23",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/wdxllubrifonttc/v3/nKKN-H4mPq1yJurnWXfJE8svQHonWc_-EqxyqaA8.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/wdxllubrifonttc/v3/nKKN-H4mPq1yJurnWXfJE8svQHonWf__GKg.ttf"
+}

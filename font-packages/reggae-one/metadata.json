@@ -2,12 +2,12 @@
   "family": "Reggae One",
   "variants": ["regular"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2024-09-04",
+  "version": "v18",
+  "lastModified": "2025-05-23",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/reggaeone/v17/7r3DqX5msMIkeuwJwOJt_a5L5uH-mts.ttf"
+    "regular": "https://fonts.gstatic.com/s/reggaeone/v18/7r3DqX5msMIkeuwJwOJt_a5L5uH-mts.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/reggaeone/v17/7r3DqX5msMIkeuwJwOJtza9B4g.ttf"
+  "menu": "https://fonts.gstatic.com/s/reggaeone/v18/7r3DqX5msMIkeuwJwOJtza9B4g.ttf"
 }

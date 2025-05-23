@@ -11,10 +11,16 @@ This package lets you use the [**Baskervville**](https://fonts.google.com/specim
 
 ![Baskervville](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [8 styles](#-gallery).
 
 - `Baskervville_400Regular`
+- `Baskervville_500Medium`
+- `Baskervville_600SemiBold`
+- `Baskervville_700Bold`
 - `Baskervville_400Regular_Italic`
+- `Baskervville_500Medium_Italic`
+- `Baskervville_600SemiBold_Italic`
+- `Baskervville_700Bold_Italic`
 
 ## Usage
 
@@ -30,13 +36,25 @@ Now add code like this to your project
 import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/baskervville/useFonts';
 import { Baskervville_400Regular } from '@expo-google-fonts/baskervville/400Regular';
+import { Baskervville_500Medium } from '@expo-google-fonts/baskervville/500Medium';
+import { Baskervville_600SemiBold } from '@expo-google-fonts/baskervville/600SemiBold';
+import { Baskervville_700Bold } from '@expo-google-fonts/baskervville/700Bold';
 import { Baskervville_400Regular_Italic } from '@expo-google-fonts/baskervville/400Regular_Italic';
+import { Baskervville_500Medium_Italic } from '@expo-google-fonts/baskervville/500Medium_Italic';
+import { Baskervville_600SemiBold_Italic } from '@expo-google-fonts/baskervville/600SemiBold_Italic';
+import { Baskervville_700Bold_Italic } from '@expo-google-fonts/baskervville/700Bold_Italic';
 
 export default () => {
 
   let [fontsLoaded] = useFonts({
     Baskervville_400Regular, 
-    Baskervville_400Regular_Italic
+    Baskervville_500Medium, 
+    Baskervville_600SemiBold, 
+    Baskervville_700Bold, 
+    Baskervville_400Regular_Italic, 
+    Baskervville_500Medium_Italic, 
+    Baskervville_600SemiBold_Italic, 
+    Baskervville_700Bold_Italic
   });
 
   let fontSize = 24;
@@ -59,9 +77,57 @@ export default () => {
           fontSize,
           paddingVertical,
           // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Baskervville_500Medium"
+        }}>
+          Baskervville Medium
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Baskervville_600SemiBold"
+        }}>
+          Baskervville Semi Bold
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Baskervville_700Bold"
+        }}>
+          Baskervville Bold
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
           fontFamily: "Baskervville_400Regular_Italic"
         }}>
           Baskervville Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Baskervville_500Medium_Italic"
+        }}>
+          Baskervville Medium Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Baskervville_600SemiBold_Italic"
+        }}>
+          Baskervville Semi Bold Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Baskervville_700Bold_Italic"
+        }}>
+          Baskervville Bold Italic
         </Text>
       </View>
     );
@@ -74,7 +140,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Baskervville_400Regular](./400Regular/Baskervville_400Regular.ttf.png)|![Baskervville_400Regular_Italic](./400Regular_Italic/Baskervville_400Regular_Italic.ttf.png)|||
+|![Baskervville_400Regular](./400Regular/Baskervville_400Regular.ttf.png)|![Baskervville_500Medium](./500Medium/Baskervville_500Medium.ttf.png)|![Baskervville_600SemiBold](./600SemiBold/Baskervville_600SemiBold.ttf.png)||
+|![Baskervville_700Bold](./700Bold/Baskervville_700Bold.ttf.png)|![Baskervville_400Regular_Italic](./400Regular_Italic/Baskervville_400Regular_Italic.ttf.png)|![Baskervville_500Medium_Italic](./500Medium_Italic/Baskervville_500Medium_Italic.ttf.png)||
+|![Baskervville_600SemiBold_Italic](./600SemiBold_Italic/Baskervville_600SemiBold_Italic.ttf.png)|![Baskervville_700Bold_Italic](./700Bold_Italic/Baskervville_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

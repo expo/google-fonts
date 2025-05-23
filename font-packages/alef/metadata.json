@@ -1,14 +1,14 @@
 {
   "family": "Alef",
   "variants": ["regular", "700"],
-  "subsets": ["hebrew", "latin", "latin-ext"],
-  "version": "v22",
-  "lastModified": "2024-11-20",
+  "subsets": ["hebrew", "latin"],
+  "version": "v23",
+  "lastModified": "2025-05-23",
   "files": {
-    "700": "https://fonts.gstatic.com/s/alef/v22/FeVQS0NQpLYglo50L5la2bxii28.ttf",
-    "regular": "https://fonts.gstatic.com/s/alef/v22/FeVfS0NQpLYgrjJbC5FxxbU.ttf"
+    "700": "https://fonts.gstatic.com/s/alef/v23/FeVQS0NQpLYglo50L5la2bxii28.ttf",
+    "regular": "https://fonts.gstatic.com/s/alef/v23/FeVfS0NQpLYgrjJbC5FxxbU.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/alef/v22/FeVfS0NQpLYgnjNRDw.ttf"
+  "menu": "https://fonts.gstatic.com/s/alef/v23/FeVfS0NQpLYgnjNRDw.ttf"
 }

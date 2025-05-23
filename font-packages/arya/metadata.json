@@ -2,13 +2,13 @@
   "family": "Arya",
   "variants": ["regular", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2024-09-04",
+  "version": "v20",
+  "lastModified": "2025-05-23",
   "files": {
-    "700": "https://fonts.gstatic.com/s/arya/v19/ga6NawNG-HJdzfra3b-BaFg3dRE.ttf",
-    "regular": "https://fonts.gstatic.com/s/arya/v19/ga6CawNG-HJd9Ub1-beqdFE.ttf"
+    "700": "https://fonts.gstatic.com/s/arya/v20/ga6NawNG-HJdzfra3b-BaFg3dRE.ttf",
+    "regular": "https://fonts.gstatic.com/s/arya/v20/ga6CawNG-HJd9Ub1-beqdFE.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/arya/v19/ga6CawNG-HJdxUf__Q.ttf"
+  "menu": "https://fonts.gstatic.com/s/arya/v20/ga6CawNG-HJdxUf__Q.ttf"
 }

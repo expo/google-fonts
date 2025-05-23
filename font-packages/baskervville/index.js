@@ -4,4 +4,10 @@
 export * from './useFonts';
 export { default as __metadata__ } from './metadata.json';
 export const Baskervville_400Regular = require('./400Regular/Baskervville_400Regular.ttf');
+export const Baskervville_500Medium = require('./500Medium/Baskervville_500Medium.ttf');
+export const Baskervville_600SemiBold = require('./600SemiBold/Baskervville_600SemiBold.ttf');
+export const Baskervville_700Bold = require('./700Bold/Baskervville_700Bold.ttf');
 export const Baskervville_400Regular_Italic = require('./400Regular_Italic/Baskervville_400Regular_Italic.ttf');
+export const Baskervville_500Medium_Italic = require('./500Medium_Italic/Baskervville_500Medium_Italic.ttf');
+export const Baskervville_600SemiBold_Italic = require('./600SemiBold_Italic/Baskervville_600SemiBold_Italic.ttf');
+export const Baskervville_700Bold_Italic = require('./700Bold_Italic/Baskervville_700Bold_Italic.ttf');

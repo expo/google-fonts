@@ -1,16 +1,16 @@
 {
   "name": "@expo-google-fonts/jersey-25",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Use the Jersey 25 font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/expo/google-fonts.git",
+    "url": "git+https://github.com/expo/google-fonts.git",
     "directory": "font-packages/jersey-25"
   },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/jersey-25#readme",
   "author": "Expo Team <team@expo.io>",
-  "license": "MIT",
+  "license": "MIT AND OFL-1.1",
   "publishConfig": {
     "access": "public"
   }

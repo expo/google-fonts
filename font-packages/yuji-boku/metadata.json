@@ -2,12 +2,12 @@
   "family": "Yuji Boku",
   "variants": ["regular"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
-  "version": "v6",
-  "lastModified": "2024-09-04",
+  "version": "v7",
+  "lastModified": "2025-05-23",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/yujiboku/v6/P5sAzZybeNzXsA9xj1Fkjb2r2dgvJA.ttf"
+    "regular": "https://fonts.gstatic.com/s/yujiboku/v7/P5sAzZybeNzXsA9xj1Fkjb2r2dgvJA.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/yujiboku/v6/P5sAzZybeNzXsA9xj1FUjLev.ttf"
+  "menu": "https://fonts.gstatic.com/s/yujiboku/v7/P5sAzZybeNzXsA9xj1FUjLev.ttf"
 }

@@ -1,16 +1,16 @@
 {
   "name": "@expo-google-fonts/cairo",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Use the Cairo font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/expo/google-fonts.git",
+    "url": "git+https://github.com/expo/google-fonts.git",
     "directory": "font-packages/cairo"
   },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/cairo#readme",
   "author": "Expo Team <team@expo.io>",
-  "license": "MIT",
+  "license": "MIT AND OFL-1.1",
   "publishConfig": {
     "access": "public"
   }

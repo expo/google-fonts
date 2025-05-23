@@ -2,10 +2,10 @@
   "family": "Yuji Mai",
   "variants": ["regular"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
-  "version": "v6",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/yujimai/v6/ZgNQjPxdJ7DEHrS0gC38hmHmNpCO.ttf" },
+  "version": "v7",
+  "lastModified": "2025-05-23",
+  "files": { "regular": "https://fonts.gstatic.com/s/yujimai/v7/ZgNQjPxdJ7DEHrS0gC38hmHmNpCO.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/yujimai/v6/ZgNQjPxdJ7DEHrS0gB39jGU.ttf"
+  "menu": "https://fonts.gstatic.com/s/yujimai/v7/ZgNQjPxdJ7DEHrS0gB39jGU.ttf"
 }

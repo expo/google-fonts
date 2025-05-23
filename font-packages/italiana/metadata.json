@@ -3,11 +3,11 @@
   "variants": ["regular"],
   "subsets": ["latin"],
   "version": "v20",
-  "lastModified": "2024-09-04",
+  "lastModified": "2025-05-23",
   "files": {
     "regular": "https://fonts.gstatic.com/s/italiana/v20/QldNNTtLsx4E__B0XTmRY31Wx7Vv.ttf"
   },
-  "category": "serif",
+  "category": "sans-serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/italiana/v20/QldNNTtLsx4E__B0XQmQaXk.ttf"
 }

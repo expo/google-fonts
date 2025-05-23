@@ -1,16 +1,16 @@
 {
   "name": "@expo-google-fonts/gowun-dodum",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Use the Gowun Dodum font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/expo/google-fonts.git",
+    "url": "git+https://github.com/expo/google-fonts.git",
     "directory": "font-packages/gowun-dodum"
   },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/gowun-dodum#readme",
   "author": "Expo Team <team@expo.io>",
-  "license": "MIT",
+  "license": "MIT AND OFL-1.1",
   "publishConfig": {
     "access": "public"
   }

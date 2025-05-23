@@ -1,11 +1,11 @@
 {
   "name": "@expo-google-fonts/font-directory",
-  "version": "0.3.6",
+  "version": "0.4.0",
   "description": "A directory of metadata about the fonts available in `expo-google-fonts`",
   "main": "fontDirectory.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/expo/google-fonts.git",
+    "url": "git+https://github.com/expo/google-fonts.git",
     "directory": "font-packages/font-directory"
   },
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/font-directory#readme",

@@ -2,12 +2,12 @@
   "family": "Tapestry",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v4",
-  "lastModified": "2023-08-25",
+  "version": "v5",
+  "lastModified": "2025-05-21",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/tapestry/v4/SlGTmQecrosEYXhaGBIkqnB6aSQU.ttf"
+    "regular": "https://fonts.gstatic.com/s/tapestry/v5/SlGTmQecrosEYXhaGBIkqnB6aSQU.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/tapestry/v4/SlGTmQecrosEYXhaGCIloHQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/tapestry/v5/SlGTmQecrosEYXhaGCIloHQ.ttf"
 }

@@ -1,0 +1,14 @@
+{
+  "family": "Kapakana",
+  "variants": ["300", "regular"],
+  "subsets": ["japanese", "latin", "latin-ext"],
+  "version": "v17",
+  "lastModified": "2025-05-23",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/kapakana/v17/sykt-yN0m6InS7OD9BCc9iYVO-6XOlDixNA5tRbXZ4IXAA.ttf",
+    "regular": "https://fonts.gstatic.com/s/kapakana/v17/sykt-yN0m6InS7OD9BCc9iYVO-6XOlDimtA5tRbXZ4IXAA.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/kapakana/v17/sykt-yN0m6InS7OD9BCc9iYVO-6XOlDimtAJtBzT.ttf"
+}

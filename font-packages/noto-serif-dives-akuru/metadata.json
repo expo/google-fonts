@@ -1,0 +1,13 @@
+{
+  "family": "Noto Serif Dives Akuru",
+  "variants": ["regular"],
+  "subsets": ["dives-akuru", "latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2025-05-23",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/notoserifdivesakuru/v2/QldfNSVMqAsHtsJ_TnD3aT03sMgd57ibeeZT60DIyoV9Ejs.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/notoserifdivesakuru/v2/QldfNSVMqAsHtsJ_TnD3aT03sMgd57ibeeZT20HCzg.ttf"
+}
