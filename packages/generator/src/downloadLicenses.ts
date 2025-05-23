@@ -25,17 +25,17 @@ export async function downloadLicenses(fonts: FontItem[]) {
   );
 
   let i = 0;
-  bar.start(fonts.length, i);
 
   try {
-    for (const font of fonts) {
-      const p = q.add(() => checkAndDownloadLicense(font));
-      (async () => {
-        await p;
+    bar.start(fonts.length, i);
+    const promises = fonts.map((font) => {
+      return q.add(async () => {
+        await checkAndDownloadLicense(font);
         i++;
         bar.update(i);
-      })();
-    }
+      });
+    });
+    await Promise.all(promises);
     await q.onEmpty();
   } catch (e) {
     throw e;

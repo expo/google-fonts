@@ -61,7 +61,7 @@ async function getLicenseForFont(webfont: FontItem) {
     return { type: FontLicenseTypes.UFL, url: uflFilepath };
   }
 
-  throw new Error(`License not found for ${webfont.family}`);
+  throw new Error(`License not downloaded for ${webfont.family}`);
 }
 
 export async function generateFontPackage(webfont: FontItem, options?: { patch?: boolean }) {

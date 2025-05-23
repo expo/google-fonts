@@ -32,26 +32,30 @@ export async function generateImagesForFonts(fonts: FontItem[]) {
   const errors: [string, Error][] = [];
   try {
     bar.start(totalFonts, i);
+    const promises = [];
     for (const webfont of fonts) {
       for (const variantKey of webfont.variants) {
         const p = q.add(() => generateImageForFontVariant(webfont, variantKey));
         // @ts-ignore
         p.font = varNameForFontVariant(webfont, variantKey);
-        (async () => {
-          try {
-            await p;
-          } catch (e) {
-            // @ts-ignore
-            errors.push([p.font, e as Error]);
-            throw e;
-          } finally {
-            i++;
-            // @ts-ignore
-            bar.update(i, { font: p.font });
-          }
-        })();
+        promises.push(
+          (async () => {
+            try {
+              await p;
+            } catch (e) {
+              // @ts-ignore
+              errors.push([p.font, e as Error]);
+              throw e;
+            } finally {
+              i++;
+              // @ts-ignore
+              bar.update(i, { font: p.font });
+            }
+          })()
+        );
       }
     }
+    await Promise.all(promises);
     await q.onEmpty();
   } catch (e) {
     throw e;
