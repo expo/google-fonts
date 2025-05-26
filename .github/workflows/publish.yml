@@ -24,14 +24,19 @@ jobs:
       - name: Publish all packages
         if: ${{ github.event.inputs.publishAll == 'true' }}
         run: |
+          count=0
           for package in font-packages/*; do
             if [ -d "$package" ]; then
               echo "Publishing package: $(basename $package)"
+              if [ $((count % 2)) -eq 0 ]; then
+                export NODE_AUTH_TOKEN=${{ secrets.NPM_TOKEN }}
+              else
+                export NODE_AUTH_TOKEN=${{ secrets.NPM_TOKEN_2 }}
+              fi
               (cd "$package" && npm publish --access public)
+              count=$((count + 1))
             fi
           done
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish specific packages
         if: ${{ github.event.inputs.publishAll != 'true' }}
