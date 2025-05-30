@@ -2,16 +2,16 @@
   "family": "Sen",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2024-09-04",
+  "version": "v11",
+  "lastModified": "2025-05-29",
   "files": {
-    "500": "https://fonts.gstatic.com/s/sen/v9/6xK0dSxYI9_dkN18-vZKK2EISBi5H47KlD9q78A.ttf",
-    "600": "https://fonts.gstatic.com/s/sen/v9/6xK0dSxYI9_dkN18-vZKK2EISPS-H47KlD9q78A.ttf",
-    "700": "https://fonts.gstatic.com/s/sen/v9/6xK0dSxYI9_dkN18-vZKK2EISM2-H47KlD9q78A.ttf",
-    "800": "https://fonts.gstatic.com/s/sen/v9/6xK0dSxYI9_dkN18-vZKK2EISKq-H47KlD9q78A.ttf",
-    "regular": "https://fonts.gstatic.com/s/sen/v9/6xK0dSxYI9_dkN18-vZKK2EISCq5H47KlD9q78A.ttf"
+    "500": "https://fonts.gstatic.com/s/sen/v11/6xK0dSxYI9_dkN18-vZKK2EISBi5H47KlD9q78A.ttf",
+    "600": "https://fonts.gstatic.com/s/sen/v11/6xK0dSxYI9_dkN18-vZKK2EISPS-H47KlD9q78A.ttf",
+    "700": "https://fonts.gstatic.com/s/sen/v11/6xK0dSxYI9_dkN18-vZKK2EISM2-H47KlD9q78A.ttf",
+    "800": "https://fonts.gstatic.com/s/sen/v11/6xK0dSxYI9_dkN18-vZKK2EISKq-H47KlD9q78A.ttf",
+    "regular": "https://fonts.gstatic.com/s/sen/v11/6xK0dSxYI9_dkN18-vZKK2EISCq5H47KlD9q78A.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/sen/v9/6xK0dSxYI9_dkN18-vZKK2EISCq5L4_AkA.ttf"
+  "menu": "https://fonts.gstatic.com/s/sen/v11/6xK0dSxYI9_dkN18-vZKK2EISCq5L4_AkA.ttf"
 }

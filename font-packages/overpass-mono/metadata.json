@@ -2,16 +2,16 @@
   "family": "Overpass Mono",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v16",
-  "lastModified": "2024-09-04",
+  "version": "v20",
+  "lastModified": "2025-05-29",
   "files": {
-    "300": "https://fonts.gstatic.com/s/overpassmono/v16/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EWKokzzXur-SmIr.ttf",
-    "500": "https://fonts.gstatic.com/s/overpassmono/v16/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EXmokzzXur-SmIr.ttf",
-    "600": "https://fonts.gstatic.com/s/overpassmono/v16/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EUKpUzzXur-SmIr.ttf",
-    "700": "https://fonts.gstatic.com/s/overpassmono/v16/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EUzpUzzXur-SmIr.ttf",
-    "regular": "https://fonts.gstatic.com/s/overpassmono/v16/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EXUokzzXur-SmIr.ttf"
+    "300": "https://fonts.gstatic.com/s/overpassmono/v20/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EWKokzzXur-SmIr.ttf",
+    "500": "https://fonts.gstatic.com/s/overpassmono/v20/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EXmokzzXur-SmIr.ttf",
+    "600": "https://fonts.gstatic.com/s/overpassmono/v20/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EUKpUzzXur-SmIr.ttf",
+    "700": "https://fonts.gstatic.com/s/overpassmono/v20/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EUzpUzzXur-SmIr.ttf",
+    "regular": "https://fonts.gstatic.com/s/overpassmono/v20/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EXUokzzXur-SmIr.ttf"
   },
   "category": "monospace",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/overpassmono/v16/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EXUonzyVO4.ttf"
+  "menu": "https://fonts.gstatic.com/s/overpassmono/v20/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EXUonzyVO4.ttf"
 }

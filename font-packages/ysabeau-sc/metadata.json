@@ -11,20 +11,20 @@
     "symbols",
     "vietnamese"
   ],
-  "version": "v2",
-  "lastModified": "2024-09-04",
+  "version": "v3",
+  "lastModified": "2025-05-29",
   "files": {
-    "100": "https://fonts.gstatic.com/s/ysabeausc/v2/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw98U1qEZ4EOmsT5.ttf",
-    "200": "https://fonts.gstatic.com/s/ysabeausc/v2/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw_8UlqEZ4EOmsT5.ttf",
-    "300": "https://fonts.gstatic.com/s/ysabeausc/v2/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw8iUlqEZ4EOmsT5.ttf",
-    "500": "https://fonts.gstatic.com/s/ysabeausc/v2/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw9OUlqEZ4EOmsT5.ttf",
-    "600": "https://fonts.gstatic.com/s/ysabeausc/v2/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw-iVVqEZ4EOmsT5.ttf",
-    "700": "https://fonts.gstatic.com/s/ysabeausc/v2/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw-bVVqEZ4EOmsT5.ttf",
-    "800": "https://fonts.gstatic.com/s/ysabeausc/v2/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw_8VVqEZ4EOmsT5.ttf",
-    "900": "https://fonts.gstatic.com/s/ysabeausc/v2/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw_VVVqEZ4EOmsT5.ttf",
-    "regular": "https://fonts.gstatic.com/s/ysabeausc/v2/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw98UlqEZ4EOmsT5.ttf"
+    "100": "https://fonts.gstatic.com/s/ysabeausc/v3/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw98U1qEZ4EOmsT5.ttf",
+    "200": "https://fonts.gstatic.com/s/ysabeausc/v3/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw_8UlqEZ4EOmsT5.ttf",
+    "300": "https://fonts.gstatic.com/s/ysabeausc/v3/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw8iUlqEZ4EOmsT5.ttf",
+    "500": "https://fonts.gstatic.com/s/ysabeausc/v3/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw9OUlqEZ4EOmsT5.ttf",
+    "600": "https://fonts.gstatic.com/s/ysabeausc/v3/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw-iVVqEZ4EOmsT5.ttf",
+    "700": "https://fonts.gstatic.com/s/ysabeausc/v3/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw-bVVqEZ4EOmsT5.ttf",
+    "800": "https://fonts.gstatic.com/s/ysabeausc/v3/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw_8VVqEZ4EOmsT5.ttf",
+    "900": "https://fonts.gstatic.com/s/ysabeausc/v3/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw_VVVqEZ4EOmsT5.ttf",
+    "regular": "https://fonts.gstatic.com/s/ysabeausc/v3/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw98UlqEZ4EOmsT5.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/ysabeausc/v2/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw98UmqFbYU.ttf"
+  "menu": "https://fonts.gstatic.com/s/ysabeausc/v3/Noai6Uro3JCIKAbW46nMorJZyP7kKRflbw98UmqFbYU.ttf"
 }

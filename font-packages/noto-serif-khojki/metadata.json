@@ -2,15 +2,15 @@
   "family": "Noto Serif Khojki",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["khojki", "latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2024-02-02",
+  "version": "v12",
+  "lastModified": "2025-05-29",
   "files": {
-    "500": "https://fonts.gstatic.com/s/notoserifkhojki/v11/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY4AhvyZ0Qtc5HAQ.ttf",
-    "600": "https://fonts.gstatic.com/s/notoserifkhojki/v11/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYDA9vyZ0Qtc5HAQ.ttf",
-    "700": "https://fonts.gstatic.com/s/notoserifkhojki/v11/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYNQ9vyZ0Qtc5HAQ.ttf",
-    "regular": "https://fonts.gstatic.com/s/notoserifkhojki/v11/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY0ghvyZ0Qtc5HAQ.ttf"
+    "500": "https://fonts.gstatic.com/s/notoserifkhojki/v12/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY4AhvyZ0Qtc5HAQ.ttf",
+    "600": "https://fonts.gstatic.com/s/notoserifkhojki/v12/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYDA9vyZ0Qtc5HAQ.ttf",
+    "700": "https://fonts.gstatic.com/s/notoserifkhojki/v12/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYNQ9vyZ0Qtc5HAQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/notoserifkhojki/v12/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY0ghvyZ0Qtc5HAQ.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notoserifkhojki/v11/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY0ghfyJcU.ttf"
+  "menu": "https://fonts.gstatic.com/s/notoserifkhojki/v12/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY0ghfyJcU.ttf"
 }

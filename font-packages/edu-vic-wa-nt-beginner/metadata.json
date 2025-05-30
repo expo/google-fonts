@@ -2,15 +2,15 @@
   "family": "Edu VIC WA NT Beginner",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["latin"],
-  "version": "v4",
-  "lastModified": "2024-08-12",
+  "version": "v5",
+  "lastModified": "2025-05-29",
   "files": {
-    "500": "https://fonts.gstatic.com/s/eduvicwantbeginner/v4/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OllPmFXwnpkeGR.ttf",
-    "600": "https://fonts.gstatic.com/s/eduvicwantbeginner/v4/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-NJk_mFXwnpkeGR.ttf",
-    "700": "https://fonts.gstatic.com/s/eduvicwantbeginner/v4/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-Nwk_mFXwnpkeGR.ttf",
-    "regular": "https://fonts.gstatic.com/s/eduvicwantbeginner/v4/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OXlPmFXwnpkeGR.ttf"
+    "500": "https://fonts.gstatic.com/s/eduvicwantbeginner/v5/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OllPmFXwnpkeGR.ttf",
+    "600": "https://fonts.gstatic.com/s/eduvicwantbeginner/v5/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-NJk_mFXwnpkeGR.ttf",
+    "700": "https://fonts.gstatic.com/s/eduvicwantbeginner/v5/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-Nwk_mFXwnpkeGR.ttf",
+    "regular": "https://fonts.gstatic.com/s/eduvicwantbeginner/v5/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OXlPmFXwnpkeGR.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/eduvicwantbeginner/v4/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OXlMmEVQ0.ttf"
+  "menu": "https://fonts.gstatic.com/s/eduvicwantbeginner/v5/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OXlMmEVQ0.ttf"
 }

@@ -1383,17 +1383,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |[![RedditSansCondensed_500Medium](./font-packages/reddit-sans-condensed/500Medium/RedditSansCondensed_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans-condensed#readme)|[![RedditSansCondensed_600SemiBold](./font-packages/reddit-sans-condensed/600SemiBold/RedditSansCondensed_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans-condensed#readme)|[![RedditSansCondensed_700Bold](./font-packages/reddit-sans-condensed/700Bold/RedditSansCondensed_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans-condensed#readme)||
 |[![RedditSansCondensed_800ExtraBold](./font-packages/reddit-sans-condensed/800ExtraBold/RedditSansCondensed_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans-condensed#readme)|[![RedditSansCondensed_900Black](./font-packages/reddit-sans-condensed/900Black/RedditSansCondensed_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans-condensed#readme)|||
 
-### [Reddit Sans](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)
-
-||||
-|-|-|-|
-|[![RedditSans_200ExtraLight](./font-packages/reddit-sans/200ExtraLight/RedditSans_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_300Light](./font-packages/reddit-sans/300Light/RedditSans_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_400Regular](./font-packages/reddit-sans/400Regular/RedditSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)||
-|[![RedditSans_500Medium](./font-packages/reddit-sans/500Medium/RedditSans_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_600SemiBold](./font-packages/reddit-sans/600SemiBold/RedditSans_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_700Bold](./font-packages/reddit-sans/700Bold/RedditSans_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)||
-|[![RedditSans_800ExtraBold](./font-packages/reddit-sans/800ExtraBold/RedditSans_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_900Black](./font-packages/reddit-sans/900Black/RedditSans_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_200ExtraLight_Italic](./font-packages/reddit-sans/200ExtraLight_Italic/RedditSans_200ExtraLight_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)||
-|[![RedditSans_300Light_Italic](./font-packages/reddit-sans/300Light_Italic/RedditSans_300Light_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_400Regular_Italic](./font-packages/reddit-sans/400Regular_Italic/RedditSans_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_500Medium_Italic](./font-packages/reddit-sans/500Medium_Italic/RedditSans_500Medium_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)||
-|[![RedditSans_600SemiBold_Italic](./font-packages/reddit-sans/600SemiBold_Italic/RedditSans_600SemiBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_700Bold_Italic](./font-packages/reddit-sans/700Bold_Italic/RedditSans_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_800ExtraBold_Italic](./font-packages/reddit-sans/800ExtraBold_Italic/RedditSans_800ExtraBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)||
-|[![RedditSans_900Black_Italic](./font-packages/reddit-sans/900Black_Italic/RedditSans_900Black_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)||||
-
 ### [Radio Canada Big](https://github.com/expo/google-fonts/tree/main/font-packages/radio-canada-big#readme)
 
 ||||
@@ -1413,12 +1402,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 ||||
 |-|-|-|
 |[![Jersey25Charted_400Regular](./font-packages/jersey-25-charted/400Regular/Jersey25Charted_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/jersey-25-charted#readme)||||
-
-### [Jaro](https://github.com/expo/google-fonts/tree/main/font-packages/jaro#readme)
-
-||||
-|-|-|-|
-|[![Jaro_400Regular](./font-packages/jaro/400Regular/Jaro_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/jaro#readme)||||
 
 ### [Jaini Purva](https://github.com/expo/google-fonts/tree/main/font-packages/jaini-purva#readme)
 
@@ -1583,6 +1566,12 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 ||||
 |-|-|-|
 |[![Jacquard24Charted_400Regular](./font-packages/jacquard-24-charted/400Regular/Jacquard24Charted_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/jacquard-24-charted#readme)||||
+
+### [Jaro](https://github.com/expo/google-fonts/tree/main/font-packages/jaro#readme)
+
+||||
+|-|-|-|
+|[![Jaro_400Regular](./font-packages/jaro/400Regular/Jaro_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/jaro#readme)||||
 
 ### [Ojuju](https://github.com/expo/google-fonts/tree/main/font-packages/ojuju#readme)
 
@@ -1800,6 +1789,17 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |[![SometypeMono_400Regular](./font-packages/sometype-mono/400Regular/SometypeMono_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/sometype-mono#readme)|[![SometypeMono_500Medium](./font-packages/sometype-mono/500Medium/SometypeMono_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/sometype-mono#readme)|[![SometypeMono_600SemiBold](./font-packages/sometype-mono/600SemiBold/SometypeMono_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/sometype-mono#readme)||
 |[![SometypeMono_700Bold](./font-packages/sometype-mono/700Bold/SometypeMono_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/sometype-mono#readme)|[![SometypeMono_400Regular_Italic](./font-packages/sometype-mono/400Regular_Italic/SometypeMono_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/sometype-mono#readme)|[![SometypeMono_500Medium_Italic](./font-packages/sometype-mono/500Medium_Italic/SometypeMono_500Medium_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/sometype-mono#readme)||
 |[![SometypeMono_600SemiBold_Italic](./font-packages/sometype-mono/600SemiBold_Italic/SometypeMono_600SemiBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/sometype-mono#readme)|[![SometypeMono_700Bold_Italic](./font-packages/sometype-mono/700Bold_Italic/SometypeMono_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/sometype-mono#readme)|||
+
+### [Reddit Sans](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)
+
+||||
+|-|-|-|
+|[![RedditSans_200ExtraLight](./font-packages/reddit-sans/200ExtraLight/RedditSans_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_300Light](./font-packages/reddit-sans/300Light/RedditSans_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_400Regular](./font-packages/reddit-sans/400Regular/RedditSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)||
+|[![RedditSans_500Medium](./font-packages/reddit-sans/500Medium/RedditSans_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_600SemiBold](./font-packages/reddit-sans/600SemiBold/RedditSans_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_700Bold](./font-packages/reddit-sans/700Bold/RedditSans_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)||
+|[![RedditSans_800ExtraBold](./font-packages/reddit-sans/800ExtraBold/RedditSans_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_900Black](./font-packages/reddit-sans/900Black/RedditSans_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_200ExtraLight_Italic](./font-packages/reddit-sans/200ExtraLight_Italic/RedditSans_200ExtraLight_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)||
+|[![RedditSans_300Light_Italic](./font-packages/reddit-sans/300Light_Italic/RedditSans_300Light_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_400Regular_Italic](./font-packages/reddit-sans/400Regular_Italic/RedditSans_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_500Medium_Italic](./font-packages/reddit-sans/500Medium_Italic/RedditSans_500Medium_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)||
+|[![RedditSans_600SemiBold_Italic](./font-packages/reddit-sans/600SemiBold_Italic/RedditSans_600SemiBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_700Bold_Italic](./font-packages/reddit-sans/700Bold_Italic/RedditSans_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)|[![RedditSans_800ExtraBold_Italic](./font-packages/reddit-sans/800ExtraBold_Italic/RedditSans_800ExtraBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)||
+|[![RedditSans_900Black_Italic](./font-packages/reddit-sans/900Black_Italic/RedditSans_900Black_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/reddit-sans#readme)||||
 
 ### [Agbalumo](https://github.com/expo/google-fonts/tree/main/font-packages/agbalumo#readme)
 
@@ -2185,13 +2185,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |-|-|-|
 |[![GrandifloraOne_400Regular](./font-packages/grandiflora-one/400Regular/GrandifloraOne_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/grandiflora-one#readme)||||
 
-### [Wix Madefor Display](https://github.com/expo/google-fonts/tree/main/font-packages/wix-madefor-display#readme)
-
-||||
-|-|-|-|
-|[![WixMadeforDisplay_400Regular](./font-packages/wix-madefor-display/400Regular/WixMadeforDisplay_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/wix-madefor-display#readme)|[![WixMadeforDisplay_500Medium](./font-packages/wix-madefor-display/500Medium/WixMadeforDisplay_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/wix-madefor-display#readme)|[![WixMadeforDisplay_600SemiBold](./font-packages/wix-madefor-display/600SemiBold/WixMadeforDisplay_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/wix-madefor-display#readme)||
-|[![WixMadeforDisplay_700Bold](./font-packages/wix-madefor-display/700Bold/WixMadeforDisplay_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/wix-madefor-display#readme)|[![WixMadeforDisplay_800ExtraBold](./font-packages/wix-madefor-display/800ExtraBold/WixMadeforDisplay_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/wix-madefor-display#readme)|||
-
 ### [Noto Sans Nandinagari](https://github.com/expo/google-fonts/tree/main/font-packages/noto-sans-nandinagari#readme)
 
 ||||
@@ -2345,6 +2338,13 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 ||||
 |-|-|-|
 |[![Sigmar_400Regular](./font-packages/sigmar/400Regular/Sigmar_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/sigmar#readme)||||
+
+### [Wix Madefor Display](https://github.com/expo/google-fonts/tree/main/font-packages/wix-madefor-display#readme)
+
+||||
+|-|-|-|
+|[![WixMadeforDisplay_400Regular](./font-packages/wix-madefor-display/400Regular/WixMadeforDisplay_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/wix-madefor-display#readme)|[![WixMadeforDisplay_500Medium](./font-packages/wix-madefor-display/500Medium/WixMadeforDisplay_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/wix-madefor-display#readme)|[![WixMadeforDisplay_600SemiBold](./font-packages/wix-madefor-display/600SemiBold/WixMadeforDisplay_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/wix-madefor-display#readme)||
+|[![WixMadeforDisplay_700Bold](./font-packages/wix-madefor-display/700Bold/WixMadeforDisplay_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/wix-madefor-display#readme)|[![WixMadeforDisplay_800ExtraBold](./font-packages/wix-madefor-display/800ExtraBold/WixMadeforDisplay_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/wix-madefor-display#readme)|||
 
 ### [Phudu](https://github.com/expo/google-fonts/tree/main/font-packages/phudu#readme)
 

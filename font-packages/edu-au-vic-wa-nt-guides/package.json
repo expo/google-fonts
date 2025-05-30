@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/edu-au-vic-wa-nt-guides",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Edu AU VIC WA NT Guides font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

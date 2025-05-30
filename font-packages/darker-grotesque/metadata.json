@@ -2,18 +2,18 @@
   "family": "Darker Grotesque",
   "variants": ["300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v8",
-  "lastModified": "2024-09-04",
+  "version": "v9",
+  "lastModified": "2025-05-29",
   "files": {
-    "300": "https://fonts.gstatic.com/s/darkergrotesque/v8/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXxpqn7y-XFyZFUB.ttf",
-    "500": "https://fonts.gstatic.com/s/darkergrotesque/v8/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXwFqn7y-XFyZFUB.ttf",
-    "600": "https://fonts.gstatic.com/s/darkergrotesque/v8/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXzprX7y-XFyZFUB.ttf",
-    "700": "https://fonts.gstatic.com/s/darkergrotesque/v8/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXzQrX7y-XFyZFUB.ttf",
-    "800": "https://fonts.gstatic.com/s/darkergrotesque/v8/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXy3rX7y-XFyZFUB.ttf",
-    "900": "https://fonts.gstatic.com/s/darkergrotesque/v8/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXyerX7y-XFyZFUB.ttf",
-    "regular": "https://fonts.gstatic.com/s/darkergrotesque/v8/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXw3qn7y-XFyZFUB.ttf"
+    "300": "https://fonts.gstatic.com/s/darkergrotesque/v9/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXxpqn7y-XFyZFUB.ttf",
+    "500": "https://fonts.gstatic.com/s/darkergrotesque/v9/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXwFqn7y-XFyZFUB.ttf",
+    "600": "https://fonts.gstatic.com/s/darkergrotesque/v9/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXzprX7y-XFyZFUB.ttf",
+    "700": "https://fonts.gstatic.com/s/darkergrotesque/v9/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXzQrX7y-XFyZFUB.ttf",
+    "800": "https://fonts.gstatic.com/s/darkergrotesque/v9/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXy3rX7y-XFyZFUB.ttf",
+    "900": "https://fonts.gstatic.com/s/darkergrotesque/v9/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXyerX7y-XFyZFUB.ttf",
+    "regular": "https://fonts.gstatic.com/s/darkergrotesque/v9/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXw3qn7y-XFyZFUB.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/darkergrotesque/v8/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXw3qk7z83U.ttf"
+  "menu": "https://fonts.gstatic.com/s/darkergrotesque/v9/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXw3qk7z83U.ttf"
 }

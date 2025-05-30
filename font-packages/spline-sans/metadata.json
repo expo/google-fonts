@@ -2,16 +2,16 @@
   "family": "Spline Sans",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2024-09-04",
+  "version": "v15",
+  "lastModified": "2025-05-29",
   "files": {
-    "300": "https://fonts.gstatic.com/s/splinesans/v10/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpZlnYEtvlUfE2kw.ttf",
-    "500": "https://fonts.gstatic.com/s/splinesans/v10/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpClnYEtvlUfE2kw.ttf",
-    "600": "https://fonts.gstatic.com/s/splinesans/v10/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp5l7YEtvlUfE2kw.ttf",
-    "700": "https://fonts.gstatic.com/s/splinesans/v10/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp317YEtvlUfE2kw.ttf",
-    "regular": "https://fonts.gstatic.com/s/splinesans/v10/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpOFnYEtvlUfE2kw.ttf"
+    "300": "https://fonts.gstatic.com/s/splinesans/v15/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpZlnYEtvlUfE2kw.ttf",
+    "500": "https://fonts.gstatic.com/s/splinesans/v15/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpClnYEtvlUfE2kw.ttf",
+    "600": "https://fonts.gstatic.com/s/splinesans/v15/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp5l7YEtvlUfE2kw.ttf",
+    "700": "https://fonts.gstatic.com/s/splinesans/v15/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp317YEtvlUfE2kw.ttf",
+    "regular": "https://fonts.gstatic.com/s/splinesans/v15/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpOFnYEtvlUfE2kw.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/splinesans/v10/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpOFnoE9Hh.ttf"
+  "menu": "https://fonts.gstatic.com/s/splinesans/v15/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpOFnoE9Hh.ttf"
 }

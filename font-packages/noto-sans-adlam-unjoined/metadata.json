@@ -2,15 +2,15 @@
   "family": "Noto Sans Adlam Unjoined",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["adlam", "latin", "latin-ext"],
-  "version": "v26",
-  "lastModified": "2024-07-01",
+  "version": "v27",
+  "lastModified": "2025-05-29",
   "files": {
-    "500": "https://fonts.gstatic.com/s/notosansadlamunjoined/v26/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_Yd_5PMEe-E3slUg.ttf",
-    "600": "https://fonts.gstatic.com/s/notosansadlamunjoined/v26/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_YTP-PMEe-E3slUg.ttf",
-    "700": "https://fonts.gstatic.com/s/notosansadlamunjoined/v26/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_YQr-PMEe-E3slUg.ttf",
-    "regular": "https://fonts.gstatic.com/s/notosansadlamunjoined/v26/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_Ye35PMEe-E3slUg.ttf"
+    "500": "https://fonts.gstatic.com/s/notosansadlamunjoined/v27/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_Yd_5PMEe-E3slUg.ttf",
+    "600": "https://fonts.gstatic.com/s/notosansadlamunjoined/v27/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_YTP-PMEe-E3slUg.ttf",
+    "700": "https://fonts.gstatic.com/s/notosansadlamunjoined/v27/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_YQr-PMEe-E3slUg.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosansadlamunjoined/v27/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_Ye35PMEe-E3slUg.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansadlamunjoined/v26/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_Ye35DMAU_A.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansadlamunjoined/v27/P5sszY2MYsLRsB5_ildkzPPDsLQXcOEmaFOqOGcaYrzFTIjsPam_Ye35DMAU_A.ttf"
 }

@@ -2,16 +2,16 @@
   "family": "Signika Negative",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
+  "version": "v25",
+  "lastModified": "2025-05-29",
   "files": {
-    "300": "https://fonts.gstatic.com/s/signikanegative/v21/E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAr5S73st9hiuEq8.ttf",
-    "500": "https://fonts.gstatic.com/s/signikanegative/v21/E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAqVS73st9hiuEq8.ttf",
-    "600": "https://fonts.gstatic.com/s/signikanegative/v21/E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAp5TL3st9hiuEq8.ttf",
-    "700": "https://fonts.gstatic.com/s/signikanegative/v21/E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RApATL3st9hiuEq8.ttf",
-    "regular": "https://fonts.gstatic.com/s/signikanegative/v21/E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAqnS73st9hiuEq8.ttf"
+    "300": "https://fonts.gstatic.com/s/signikanegative/v25/E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAr5S73st9hiuEq8.ttf",
+    "500": "https://fonts.gstatic.com/s/signikanegative/v25/E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAqVS73st9hiuEq8.ttf",
+    "600": "https://fonts.gstatic.com/s/signikanegative/v25/E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAp5TL3st9hiuEq8.ttf",
+    "700": "https://fonts.gstatic.com/s/signikanegative/v25/E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RApATL3st9hiuEq8.ttf",
+    "regular": "https://fonts.gstatic.com/s/signikanegative/v25/E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAqnS73st9hiuEq8.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/signikanegative/v21/E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAqnS43tvdw.ttf"
+  "menu": "https://fonts.gstatic.com/s/signikanegative/v25/E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAqnS43tvdw.ttf"
 }

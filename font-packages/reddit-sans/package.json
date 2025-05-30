@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/reddit-sans",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Reddit Sans font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

@@ -2,17 +2,17 @@
   "family": "Yanone Kaffeesatz",
   "variants": ["200", "300", "regular", "500", "600", "700"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "math", "symbols", "vietnamese"],
-  "version": "v30",
-  "lastModified": "2024-09-04",
+  "version": "v31",
+  "lastModified": "2025-05-29",
   "files": {
-    "200": "https://fonts.gstatic.com/s/yanonekaffeesatz/v30/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftodtWpcGuLCnXkVA.ttf",
-    "300": "https://fonts.gstatic.com/s/yanonekaffeesatz/v30/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoqNWpcGuLCnXkVA.ttf",
-    "500": "https://fonts.gstatic.com/s/yanonekaffeesatz/v30/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoxNWpcGuLCnXkVA.ttf",
-    "600": "https://fonts.gstatic.com/s/yanonekaffeesatz/v30/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoKNKpcGuLCnXkVA.ttf",
-    "700": "https://fonts.gstatic.com/s/yanonekaffeesatz/v30/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoEdKpcGuLCnXkVA.ttf",
-    "regular": "https://fonts.gstatic.com/s/yanonekaffeesatz/v30/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIfto9tWpcGuLCnXkVA.ttf"
+    "200": "https://fonts.gstatic.com/s/yanonekaffeesatz/v31/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftodtWpcGuLCnXkVA.ttf",
+    "300": "https://fonts.gstatic.com/s/yanonekaffeesatz/v31/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoqNWpcGuLCnXkVA.ttf",
+    "500": "https://fonts.gstatic.com/s/yanonekaffeesatz/v31/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoxNWpcGuLCnXkVA.ttf",
+    "600": "https://fonts.gstatic.com/s/yanonekaffeesatz/v31/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoKNKpcGuLCnXkVA.ttf",
+    "700": "https://fonts.gstatic.com/s/yanonekaffeesatz/v31/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIftoEdKpcGuLCnXkVA.ttf",
+    "regular": "https://fonts.gstatic.com/s/yanonekaffeesatz/v31/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIfto9tWpcGuLCnXkVA.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/yanonekaffeesatz/v30/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIfto9tWZcWGP.ttf"
+  "menu": "https://fonts.gstatic.com/s/yanonekaffeesatz/v31/3y9I6aknfjLm_3lMKjiMgmUUYBs04aUXNxt9gW2LIfto9tWZcWGP.ttf"
 }

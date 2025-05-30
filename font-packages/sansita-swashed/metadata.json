@@ -2,18 +2,18 @@
   "family": "Sansita Swashed",
   "variants": ["300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v18",
-  "lastModified": "2024-09-04",
+  "version": "v22",
+  "lastModified": "2025-05-29",
   "files": {
-    "300": "https://fonts.gstatic.com/s/sansitaswashed/v18/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW-ppbToVehmEa4Q.ttf",
-    "500": "https://fonts.gstatic.com/s/sansitaswashed/v18/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW4ZpbToVehmEa4Q.ttf",
-    "600": "https://fonts.gstatic.com/s/sansitaswashed/v18/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW2pubToVehmEa4Q.ttf",
-    "700": "https://fonts.gstatic.com/s/sansitaswashed/v18/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW1NubToVehmEa4Q.ttf",
-    "800": "https://fonts.gstatic.com/s/sansitaswashed/v18/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSWzRubToVehmEa4Q.ttf",
-    "900": "https://fonts.gstatic.com/s/sansitaswashed/v18/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSWx1ubToVehmEa4Q.ttf",
-    "regular": "https://fonts.gstatic.com/s/sansitaswashed/v18/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW7RpbToVehmEa4Q.ttf"
+    "300": "https://fonts.gstatic.com/s/sansitaswashed/v22/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW-ppbToVehmEa4Q.ttf",
+    "500": "https://fonts.gstatic.com/s/sansitaswashed/v22/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW4ZpbToVehmEa4Q.ttf",
+    "600": "https://fonts.gstatic.com/s/sansitaswashed/v22/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW2pubToVehmEa4Q.ttf",
+    "700": "https://fonts.gstatic.com/s/sansitaswashed/v22/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW1NubToVehmEa4Q.ttf",
+    "800": "https://fonts.gstatic.com/s/sansitaswashed/v22/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSWzRubToVehmEa4Q.ttf",
+    "900": "https://fonts.gstatic.com/s/sansitaswashed/v22/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSWx1ubToVehmEa4Q.ttf",
+    "regular": "https://fonts.gstatic.com/s/sansitaswashed/v22/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW7RpbToVehmEa4Q.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/sansitaswashed/v18/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW7RpXTsffg.ttf"
+  "menu": "https://fonts.gstatic.com/s/sansitaswashed/v22/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW7RpXTsffg.ttf"
 }

@@ -2,20 +2,20 @@
   "family": "Truculenta",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v22",
-  "lastModified": "2024-09-04",
+  "version": "v26",
+  "lastModified": "2025-05-29",
   "files": {
-    "100": "https://fonts.gstatic.com/s/truculenta/v22/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMlAjswcFHnJMMhg.ttf",
-    "200": "https://fonts.gstatic.com/s/truculenta/v22/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMtAiswcFHnJMMhg.ttf",
-    "300": "https://fonts.gstatic.com/s/truculenta/v22/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMg4iswcFHnJMMhg.ttf",
-    "500": "https://fonts.gstatic.com/s/truculenta/v22/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMmIiswcFHnJMMhg.ttf",
-    "600": "https://fonts.gstatic.com/s/truculenta/v22/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMo4lswcFHnJMMhg.ttf",
-    "700": "https://fonts.gstatic.com/s/truculenta/v22/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMrclswcFHnJMMhg.ttf",
-    "800": "https://fonts.gstatic.com/s/truculenta/v22/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMtAlswcFHnJMMhg.ttf",
-    "900": "https://fonts.gstatic.com/s/truculenta/v22/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMvklswcFHnJMMhg.ttf",
-    "regular": "https://fonts.gstatic.com/s/truculenta/v22/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMlAiswcFHnJMMhg.ttf"
+    "100": "https://fonts.gstatic.com/s/truculenta/v26/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMlAjswcFHnJMMhg.ttf",
+    "200": "https://fonts.gstatic.com/s/truculenta/v26/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMtAiswcFHnJMMhg.ttf",
+    "300": "https://fonts.gstatic.com/s/truculenta/v26/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMg4iswcFHnJMMhg.ttf",
+    "500": "https://fonts.gstatic.com/s/truculenta/v26/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMmIiswcFHnJMMhg.ttf",
+    "600": "https://fonts.gstatic.com/s/truculenta/v26/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMo4lswcFHnJMMhg.ttf",
+    "700": "https://fonts.gstatic.com/s/truculenta/v26/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMrclswcFHnJMMhg.ttf",
+    "800": "https://fonts.gstatic.com/s/truculenta/v26/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMtAlswcFHnJMMhg.ttf",
+    "900": "https://fonts.gstatic.com/s/truculenta/v26/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMvklswcFHnJMMhg.ttf",
+    "regular": "https://fonts.gstatic.com/s/truculenta/v26/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMlAiswcFHnJMMhg.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/truculenta/v22/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMlAigwYPGg.ttf"
+  "menu": "https://fonts.gstatic.com/s/truculenta/v26/LhWfMVvBKusVIfNYGi1-WvRVyDdZeeiySNppcu32Mb2f06y6Oa21F6XHi0VYDX_PzOupMlAigwYPGg.ttf"
 }

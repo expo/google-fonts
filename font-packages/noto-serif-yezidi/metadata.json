@@ -2,15 +2,15 @@
   "family": "Noto Serif Yezidi",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "yezidi"],
-  "version": "v21",
-  "lastModified": "2023-07-24",
+  "version": "v22",
+  "lastModified": "2025-05-29",
   "files": {
-    "500": "https://fonts.gstatic.com/s/notoserifyezidi/v21/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspD6SEkrlGJgmVCqg.ttf",
-    "600": "https://fonts.gstatic.com/s/notoserifyezidi/v21/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspDBSYkrlGJgmVCqg.ttf",
-    "700": "https://fonts.gstatic.com/s/notoserifyezidi/v21/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspDPCYkrlGJgmVCqg.ttf",
-    "regular": "https://fonts.gstatic.com/s/notoserifyezidi/v21/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspD2yEkrlGJgmVCqg.ttf"
+    "500": "https://fonts.gstatic.com/s/notoserifyezidi/v22/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspD6SEkrlGJgmVCqg.ttf",
+    "600": "https://fonts.gstatic.com/s/notoserifyezidi/v22/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspDBSYkrlGJgmVCqg.ttf",
+    "700": "https://fonts.gstatic.com/s/notoserifyezidi/v22/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspDPCYkrlGJgmVCqg.ttf",
+    "regular": "https://fonts.gstatic.com/s/notoserifyezidi/v22/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspD2yEkrlGJgmVCqg.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notoserifyezidi/v21/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspD2yEUr1uN.ttf"
+  "menu": "https://fonts.gstatic.com/s/notoserifyezidi/v22/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspD2yEUr1uN.ttf"
 }

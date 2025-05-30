@@ -2,19 +2,19 @@
   "family": "Noto Serif TC",
   "variants": ["200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["chinese-traditional", "cyrillic", "latin", "latin-ext", "vietnamese"],
-  "version": "v32",
-  "lastModified": "2024-09-23",
+  "version": "v33",
+  "lastModified": "2025-05-29",
   "files": {
-    "200": "https://fonts.gstatic.com/s/notoseriftc/v32/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX_aMOpDOWYMr2OM.ttf",
-    "300": "https://fonts.gstatic.com/s/notoseriftc/v32/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX8EMOpDOWYMr2OM.ttf",
-    "500": "https://fonts.gstatic.com/s/notoseriftc/v32/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX9oMOpDOWYMr2OM.ttf",
-    "600": "https://fonts.gstatic.com/s/notoseriftc/v32/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX-EN-pDOWYMr2OM.ttf",
-    "700": "https://fonts.gstatic.com/s/notoseriftc/v32/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX-9N-pDOWYMr2OM.ttf",
-    "800": "https://fonts.gstatic.com/s/notoseriftc/v32/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX_aN-pDOWYMr2OM.ttf",
-    "900": "https://fonts.gstatic.com/s/notoseriftc/v32/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX_zN-pDOWYMr2OM.ttf",
-    "regular": "https://fonts.gstatic.com/s/notoseriftc/v32/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX9aMOpDOWYMr2OM.ttf"
+    "200": "https://fonts.gstatic.com/s/notoseriftc/v33/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX_aMOpDOWYMr2OM.ttf",
+    "300": "https://fonts.gstatic.com/s/notoseriftc/v33/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX8EMOpDOWYMr2OM.ttf",
+    "500": "https://fonts.gstatic.com/s/notoseriftc/v33/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX9oMOpDOWYMr2OM.ttf",
+    "600": "https://fonts.gstatic.com/s/notoseriftc/v33/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX-EN-pDOWYMr2OM.ttf",
+    "700": "https://fonts.gstatic.com/s/notoseriftc/v33/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX-9N-pDOWYMr2OM.ttf",
+    "800": "https://fonts.gstatic.com/s/notoseriftc/v33/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX_aN-pDOWYMr2OM.ttf",
+    "900": "https://fonts.gstatic.com/s/notoseriftc/v33/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX_zN-pDOWYMr2OM.ttf",
+    "regular": "https://fonts.gstatic.com/s/notoseriftc/v33/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX9aMOpDOWYMr2OM.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notoseriftc/v32/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX9aMNpCM2I.ttf"
+  "menu": "https://fonts.gstatic.com/s/notoseriftc/v33/XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX9aMNpCM2I.ttf"
 }

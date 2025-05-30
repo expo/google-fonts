@@ -2,20 +2,20 @@
   "family": "Smooch Sans",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v13",
-  "lastModified": "2024-09-04",
+  "version": "v14",
+  "lastModified": "2025-05-29",
   "files": {
-    "100": "https://fonts.gstatic.com/s/smoochsans/v13/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiwUFodqIeNlzayg.ttf",
-    "200": "https://fonts.gstatic.com/s/smoochsans/v13/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiQUBodqIeNlzayg.ttf",
-    "300": "https://fonts.gstatic.com/s/smoochsans/v13/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oin0BodqIeNlzayg.ttf",
-    "500": "https://fonts.gstatic.com/s/smoochsans/v13/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oi80BodqIeNlzayg.ttf",
-    "600": "https://fonts.gstatic.com/s/smoochsans/v13/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiH0dodqIeNlzayg.ttf",
-    "700": "https://fonts.gstatic.com/s/smoochsans/v13/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiJkdodqIeNlzayg.ttf",
-    "800": "https://fonts.gstatic.com/s/smoochsans/v13/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiQUdodqIeNlzayg.ttf",
-    "900": "https://fonts.gstatic.com/s/smoochsans/v13/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiaEdodqIeNlzayg.ttf",
-    "regular": "https://fonts.gstatic.com/s/smoochsans/v13/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiwUBodqIeNlzayg.ttf"
+    "100": "https://fonts.gstatic.com/s/smoochsans/v14/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiwUFodqIeNlzayg.ttf",
+    "200": "https://fonts.gstatic.com/s/smoochsans/v14/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiQUBodqIeNlzayg.ttf",
+    "300": "https://fonts.gstatic.com/s/smoochsans/v14/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oin0BodqIeNlzayg.ttf",
+    "500": "https://fonts.gstatic.com/s/smoochsans/v14/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oi80BodqIeNlzayg.ttf",
+    "600": "https://fonts.gstatic.com/s/smoochsans/v14/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiH0dodqIeNlzayg.ttf",
+    "700": "https://fonts.gstatic.com/s/smoochsans/v14/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiJkdodqIeNlzayg.ttf",
+    "800": "https://fonts.gstatic.com/s/smoochsans/v14/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiQUdodqIeNlzayg.ttf",
+    "900": "https://fonts.gstatic.com/s/smoochsans/v14/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiaEdodqIeNlzayg.ttf",
+    "regular": "https://fonts.gstatic.com/s/smoochsans/v14/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiwUBodqIeNlzayg.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/smoochsans/v13/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiwUBYd6ga.ttf"
+  "menu": "https://fonts.gstatic.com/s/smoochsans/v14/c4mz1n5uGsXss2LJh1QH6b129FZvxPj6I4oiwUBYd6ga.ttf"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/stick-no-bills",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Stick No Bills font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {
