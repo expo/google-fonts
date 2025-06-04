@@ -84,6 +84,25 @@ async function checkLicense(font: FontItem) {
     };
   }
 
+  // missing license file for the new fonts form the same author
+  if (
+    [
+      'Edu VIC WA NT Hand Pre',
+      'Edu QLD Hand',
+      'Edu SA Hand',
+      'Edu NSW ACT Hand',
+      'Edu VIC WA NT Hand',
+      'Edu NSW ACT Cursive',
+      'Edu NSW ACT Hand Pre'
+    ].includes(font.family)
+  ) {
+    return {
+      type: FontLicenseTypes.OFL,
+      url: 'https://raw.githubusercontent.com/google/fonts/refs/heads/main/ofl/edunswacthand/OFL.txt',
+      family: font.family,
+    };
+  }
+
   const name = font.family.replace(/ /g, '').toLowerCase();
 
   const ofl = `https://raw.githubusercontent.com/google/fonts/refs/heads/main/ofl/${name}/OFL.txt`;
