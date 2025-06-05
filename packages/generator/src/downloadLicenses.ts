@@ -93,7 +93,7 @@ async function checkLicense(font: FontItem) {
       'Edu NSW ACT Hand',
       'Edu VIC WA NT Hand',
       'Edu NSW ACT Cursive',
-      'Edu NSW ACT Hand Pre'
+      'Edu NSW ACT Hand Pre',
     ].includes(font.family)
   ) {
     return {
