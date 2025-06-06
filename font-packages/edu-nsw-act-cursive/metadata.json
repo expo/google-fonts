@@ -1,0 +1,16 @@
+{
+  "family": "Edu NSW ACT Cursive",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2025-06-02",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/edunswactcursive/v2/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCrdLgiiVjXBs6BMb.ttf",
+    "600": "https://fonts.gstatic.com/s/edunswactcursive/v2/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCrenhSiVjXBs6BMb.ttf",
+    "700": "https://fonts.gstatic.com/s/edunswactcursive/v2/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCreehSiVjXBs6BMb.ttf",
+    "regular": "https://fonts.gstatic.com/s/edunswactcursive/v2/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCrd5giiVjXBs6BMb.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/edunswactcursive/v2/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCrd5ghiUh3Q.ttf"
+}

@@ -1,0 +1,16 @@
+{
+  "family": "Edu SA Hand",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2025-06-02",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/edusahand/v2/memtYaOmw37C-ogAJfd7NocVXTy8nx2cmqvXp2umvkSE55OZgw.ttf",
+    "600": "https://fonts.gstatic.com/s/edusahand/v2/memtYaOmw37C-ogAJfd7NocVXTy8nx2cmqvXS2ymvkSE55OZgw.ttf",
+    "700": "https://fonts.gstatic.com/s/edusahand/v2/memtYaOmw37C-ogAJfd7NocVXTy8nx2cmqvXcmymvkSE55OZgw.ttf",
+    "regular": "https://fonts.gstatic.com/s/edusahand/v2/memtYaOmw37C-ogAJfd7NocVXTy8nx2cmqvXlWumvkSE55OZgw.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/edusahand/v2/memtYaOmw37C-ogAJfd7NocVXTy8nx2cmqvXlWuWv06A.ttf"
+}

@@ -1,0 +1,16 @@
+{
+  "family": "Edu NSW ACT Hand Pre",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2025-06-02",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/edunswacthandpre/v2/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0y82BqtsjedKEHuQ.ttf",
+    "600": "https://fonts.gstatic.com/s/edunswacthandpre/v2/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0yH2dqtsjedKEHuQ.ttf",
+    "700": "https://fonts.gstatic.com/s/edunswacthandpre/v2/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0yJmdqtsjedKEHuQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/edunswacthandpre/v2/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0ywWBqtsjedKEHuQ.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/edunswacthandpre/v2/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0ywWBat8La.ttf"
+}

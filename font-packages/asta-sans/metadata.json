@@ -1,0 +1,18 @@
+{
+  "family": "Asta Sans",
+  "variants": ["300", "regular", "500", "600", "700", "800"],
+  "subsets": ["korean", "latin"],
+  "version": "v2",
+  "lastModified": "2025-06-02",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/astasans/v2/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo6r_mVnvqYRoVr0.ttf",
+    "500": "https://fonts.gstatic.com/s/astasans/v2/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo8b_mVnvqYRoVr0.ttf",
+    "600": "https://fonts.gstatic.com/s/astasans/v2/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveoyr4mVnvqYRoVr0.ttf",
+    "700": "https://fonts.gstatic.com/s/astasans/v2/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveoxP4mVnvqYRoVr0.ttf",
+    "800": "https://fonts.gstatic.com/s/astasans/v2/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo3T4mVnvqYRoVr0.ttf",
+    "regular": "https://fonts.gstatic.com/s/astasans/v2/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo_T_mVnvqYRoVr0.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/astasans/v2/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo_T_qVjlrQ.ttf"
+}

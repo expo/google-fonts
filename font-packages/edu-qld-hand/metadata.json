@@ -1,0 +1,16 @@
+{
+  "family": "Edu QLD Hand",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2025-06-02",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/eduqldhand/v2/d6lakaOkTtjy2QhuzWtup1rW3NCQVvjKPjPjnjIUeRt5gGCzkrs.ttf",
+    "600": "https://fonts.gstatic.com/s/eduqldhand/v2/d6lakaOkTtjy2QhuzWtup1rW3NCQVvjKPjPjnt4TeRt5gGCzkrs.ttf",
+    "700": "https://fonts.gstatic.com/s/eduqldhand/v2/d6lakaOkTtjy2QhuzWtup1rW3NCQVvjKPjPjnucTeRt5gGCzkrs.ttf",
+    "regular": "https://fonts.gstatic.com/s/eduqldhand/v2/d6lakaOkTtjy2QhuzWtup1rW3NCQVvjKPjPjngAUeRt5gGCzkrs.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/eduqldhand/v2/d6lakaOkTtjy2QhuzWtup1rW3NCQVvjKPjPjngAUSRpzhA.ttf"
+}
