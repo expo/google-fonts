@@ -2,10 +2,10 @@
   "family": "Satisfy",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/satisfy/v21/rP2Hp2yn6lkG50LoOZSCHBeHFl0.ttf" },
+  "version": "v22",
+  "lastModified": "2025-06-02",
+  "files": { "regular": "https://fonts.gstatic.com/s/satisfy/v22/rP2Hp2yn6lkG50LoOZSCHBeHFl0.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/satisfy/v21/rP2Hp2yn6lkG50LoCZWIGA.ttf"
+  "menu": "https://fonts.gstatic.com/s/satisfy/v22/rP2Hp2yn6lkG50LoCZWIGA.ttf"
 }

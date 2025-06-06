@@ -2,18 +2,18 @@
   "family": "Antonio",
   "variants": ["100", "200", "300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2024-09-04",
+  "version": "v21",
+  "lastModified": "2025-06-02",
   "files": {
-    "100": "https://fonts.gstatic.com/s/antonio/v19/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVxx8BtIY2DwSXlM.ttf",
-    "200": "https://fonts.gstatic.com/s/antonio/v19/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVzx8RtIY2DwSXlM.ttf",
-    "300": "https://fonts.gstatic.com/s/antonio/v19/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVwv8RtIY2DwSXlM.ttf",
-    "500": "https://fonts.gstatic.com/s/antonio/v19/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVxD8RtIY2DwSXlM.ttf",
-    "600": "https://fonts.gstatic.com/s/antonio/v19/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVyv9htIY2DwSXlM.ttf",
-    "700": "https://fonts.gstatic.com/s/antonio/v19/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVyW9htIY2DwSXlM.ttf",
-    "regular": "https://fonts.gstatic.com/s/antonio/v19/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVxx8RtIY2DwSXlM.ttf"
+    "100": "https://fonts.gstatic.com/s/antonio/v21/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVxx8BtIY2DwSXlM.ttf",
+    "200": "https://fonts.gstatic.com/s/antonio/v21/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVzx8RtIY2DwSXlM.ttf",
+    "300": "https://fonts.gstatic.com/s/antonio/v21/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVwv8RtIY2DwSXlM.ttf",
+    "500": "https://fonts.gstatic.com/s/antonio/v21/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVxD8RtIY2DwSXlM.ttf",
+    "600": "https://fonts.gstatic.com/s/antonio/v21/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVyv9htIY2DwSXlM.ttf",
+    "700": "https://fonts.gstatic.com/s/antonio/v21/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVyW9htIY2DwSXlM.ttf",
+    "regular": "https://fonts.gstatic.com/s/antonio/v21/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVxx8RtIY2DwSXlM.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/antonio/v19/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVxx8StJaWQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/antonio/v21/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVxx8StJaWQ.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Moo Lah Lah",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2024-09-04",
+  "version": "v7",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/moolahlah/v6/dg4h_p_opKZOA0w1AYcm55wtYQYugjW4.ttf"
+    "regular": "https://fonts.gstatic.com/s/moolahlah/v7/dg4h_p_opKZOA0w1AYcm55wtYQYugjW4.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/moolahlah/v6/dg4h_p_opKZOA0w1AYcm56wsawI.ttf"
+  "menu": "https://fonts.gstatic.com/s/moolahlah/v7/dg4h_p_opKZOA0w1AYcm56wsawI.ttf"
 }

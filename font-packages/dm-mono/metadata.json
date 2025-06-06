@@ -2,17 +2,17 @@
   "family": "DM Mono",
   "variants": ["300", "300italic", "regular", "italic", "500", "500italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2024-09-04",
+  "version": "v15",
+  "lastModified": "2025-06-02",
   "files": {
-    "300": "https://fonts.gstatic.com/s/dmmono/v14/aFTR7PB1QTsUX8KYvrGyIYSnbKX9Rlk.ttf",
-    "500": "https://fonts.gstatic.com/s/dmmono/v14/aFTR7PB1QTsUX8KYvumzIYSnbKX9Rlk.ttf",
-    "300italic": "https://fonts.gstatic.com/s/dmmono/v14/aFTT7PB1QTsUX8KYth-orYataIf4VllXuA.ttf",
-    "regular": "https://fonts.gstatic.com/s/dmmono/v14/aFTU7PB1QTsUX8KYhh2aBYyMcKw.ttf",
-    "italic": "https://fonts.gstatic.com/s/dmmono/v14/aFTW7PB1QTsUX8KYth-QAa6JYKzkXw.ttf",
-    "500italic": "https://fonts.gstatic.com/s/dmmono/v14/aFTT7PB1QTsUX8KYth-o9YetaIf4VllXuA.ttf"
+    "300": "https://fonts.gstatic.com/s/dmmono/v15/aFTR7PB1QTsUX8KYvrGyIYSnbKX9Rlk.ttf",
+    "500": "https://fonts.gstatic.com/s/dmmono/v15/aFTR7PB1QTsUX8KYvumzIYSnbKX9Rlk.ttf",
+    "300italic": "https://fonts.gstatic.com/s/dmmono/v15/aFTT7PB1QTsUX8KYth-orYataIf4VllXuA.ttf",
+    "regular": "https://fonts.gstatic.com/s/dmmono/v15/aFTU7PB1QTsUX8KYhh2aBYyMcKw.ttf",
+    "italic": "https://fonts.gstatic.com/s/dmmono/v15/aFTW7PB1QTsUX8KYth-QAa6JYKzkXw.ttf",
+    "500italic": "https://fonts.gstatic.com/s/dmmono/v15/aFTT7PB1QTsUX8KYth-o9YetaIf4VllXuA.ttf"
   },
   "category": "monospace",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/dmmono/v14/aFTU7PB1QTsUX8KYthyQAQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/dmmono/v15/aFTU7PB1QTsUX8KYthyQAQ.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Licorice",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2024-09-04",
+  "version": "v7",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/licorice/v6/t5tjIR8TMomTCAyjNk23hqLgzCHu.ttf"
+    "regular": "https://fonts.gstatic.com/s/licorice/v7/t5tjIR8TMomTCAyjNk23hqLgzCHu.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/licorice/v6/t5tjIR8TMomTCAyjNn22jKY.ttf"
+  "menu": "https://fonts.gstatic.com/s/licorice/v7/t5tjIR8TMomTCAyjNn22jKY.ttf"
 }

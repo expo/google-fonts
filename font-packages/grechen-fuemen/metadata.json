@@ -2,12 +2,12 @@
   "family": "Grechen Fuemen",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v9",
-  "lastModified": "2024-09-04",
+  "version": "v10",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/grechenfuemen/v9/vEFI2_tHEQ4d5ObgKxBzZh0MAWgc-NaXXq7H.ttf"
+    "regular": "https://fonts.gstatic.com/s/grechenfuemen/v10/vEFI2_tHEQ4d5ObgKxBzZh0MAWgc-NaXXq7H.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/grechenfuemen/v9/vEFI2_tHEQ4d5ObgKxBzZh0MAVgd8tI.ttf"
+  "menu": "https://fonts.gstatic.com/s/grechenfuemen/v10/vEFI2_tHEQ4d5ObgKxBzZh0MAVgd8tI.ttf"
 }

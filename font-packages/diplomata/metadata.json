@@ -2,12 +2,12 @@
   "family": "Diplomata",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v31",
-  "lastModified": "2024-09-04",
+  "version": "v32",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/diplomata/v31/Cn-0JtiMXwhNwp-wKxyfYGxYrdM9Sg.ttf"
+    "regular": "https://fonts.gstatic.com/s/diplomata/v32/Cn-0JtiMXwhNwp-wKxyfYGxYrdM9Sg.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/diplomata/v31/Cn-0JtiMXwhNwp-wKxyvYWZc.ttf"
+  "menu": "https://fonts.gstatic.com/s/diplomata/v32/Cn-0JtiMXwhNwp-wKxyvYWZc.ttf"
 }

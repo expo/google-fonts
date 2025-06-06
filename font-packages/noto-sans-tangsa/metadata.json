@@ -2,15 +2,15 @@
   "family": "Noto Sans Tangsa",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "tangsa"],
-  "version": "v6",
-  "lastModified": "2023-10-25",
+  "version": "v8",
+  "lastModified": "2025-06-02",
   "files": {
-    "500": "https://fonts.gstatic.com/s/notosanstangsa/v6/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1qkyoRYdplyJDA.ttf",
-    "600": "https://fonts.gstatic.com/s/notosanstangsa/v6/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2GlCoRYdplyJDA.ttf",
-    "700": "https://fonts.gstatic.com/s/notosanstangsa/v6/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2_lCoRYdplyJDA.ttf",
-    "regular": "https://fonts.gstatic.com/s/notosanstangsa/v6/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1YkyoRYdplyJDA.ttf"
+    "500": "https://fonts.gstatic.com/s/notosanstangsa/v8/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1qkyoRYdplyJDA.ttf",
+    "600": "https://fonts.gstatic.com/s/notosanstangsa/v8/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2GlCoRYdplyJDA.ttf",
+    "700": "https://fonts.gstatic.com/s/notosanstangsa/v8/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2_lCoRYdplyJDA.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosanstangsa/v8/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1YkyoRYdplyJDA.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosanstangsa/v6/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1YkxoQa94.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosanstangsa/v8/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1YkxoQa94.ttf"
 }

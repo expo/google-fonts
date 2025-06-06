@@ -2,12 +2,12 @@
   "family": "Passions Conflict",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2024-09-04",
+  "version": "v8",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/passionsconflict/v7/kmKnZrcrFhfafnWX9x0GuEC-zowow5NeYRI4CN2V.ttf"
+    "regular": "https://fonts.gstatic.com/s/passionsconflict/v8/kmKnZrcrFhfafnWX9x0GuEC-zowow5NeYRI4CN2V.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/passionsconflict/v7/kmKnZrcrFhfafnWX9x0GuEC-zowow6NfaxY.ttf"
+  "menu": "https://fonts.gstatic.com/s/passionsconflict/v8/kmKnZrcrFhfafnWX9x0GuEC-zowow6NfaxY.ttf"
 }

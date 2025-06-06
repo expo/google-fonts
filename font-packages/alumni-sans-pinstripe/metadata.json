@@ -2,13 +2,13 @@
   "family": "Alumni Sans Pinstripe",
   "variants": ["regular", "italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2024-09-04",
+  "version": "v7",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/alumnisanspinstripe/v6/ZgNNjOFFPq_AUJD1umyS30W-Xub8zD1ObhezYrVIpcDA5w.ttf",
-    "italic": "https://fonts.gstatic.com/s/alumnisanspinstripe/v6/ZgNDjOFFPq_AUJD1umyS30W-Xub8zD1ObheDYL9Mh8XQ5_cY.ttf"
+    "regular": "https://fonts.gstatic.com/s/alumnisanspinstripe/v7/ZgNNjOFFPq_AUJD1umyS30W-Xub8zD1ObhezYrVIpcDA5w.ttf",
+    "italic": "https://fonts.gstatic.com/s/alumnisanspinstripe/v7/ZgNDjOFFPq_AUJD1umyS30W-Xub8zD1ObheDYL9Mh8XQ5_cY.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/alumnisanspinstripe/v6/ZgNNjOFFPq_AUJD1umyS30W-Xub8zD1ObheDY79M.ttf"
+  "menu": "https://fonts.gstatic.com/s/alumnisanspinstripe/v7/ZgNNjOFFPq_AUJD1umyS30W-Xub8zD1ObheDY79M.ttf"
 }

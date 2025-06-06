@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/alumni-sans-pinstripe",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Alumni Sans Pinstripe font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

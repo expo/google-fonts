@@ -2,12 +2,12 @@
   "family": "Delicious Handrawn",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2024-09-04",
+  "version": "v9",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/delicioushandrawn/v8/wlpsgx_NAUNkpmKQifcxkQchDFo3fJ113JpDd6u3AQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/delicioushandrawn/v9/wlpsgx_NAUNkpmKQifcxkQchDFo3fJ113JpDd6u3AQ.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/delicioushandrawn/v8/wlpsgx_NAUNkpmKQifcxkQchDFo3fJ1F3ZBH.ttf"
+  "menu": "https://fonts.gstatic.com/s/delicioushandrawn/v9/wlpsgx_NAUNkpmKQifcxkQchDFo3fJ1F3ZBH.ttf"
 }

@@ -2,10 +2,10 @@
   "family": "Offside",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v24",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/offside/v24/HI_KiYMWKa9QrAykQ5HiRp-dhpQ.ttf" },
+  "version": "v25",
+  "lastModified": "2025-06-02",
+  "files": { "regular": "https://fonts.gstatic.com/s/offside/v25/HI_KiYMWKa9QrAykQ5HiRp-dhpQ.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/offside/v24/HI_KiYMWKa9QrAykc5DoQg.ttf"
+  "menu": "https://fonts.gstatic.com/s/offside/v25/HI_KiYMWKa9QrAykc5DoQg.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "MonteCarlo",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v11",
-  "lastModified": "2024-09-04",
+  "version": "v12",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/montecarlo/v11/buEzpo6-f9X01GadLA0G0CoV_NxLeiw.ttf"
+    "regular": "https://fonts.gstatic.com/s/montecarlo/v12/buEzpo6-f9X01GadLA0G0CoV_NxLeiw.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/montecarlo/v11/buEzpo6-f9X01GadLA0G4Csf-A.ttf"
+  "menu": "https://fonts.gstatic.com/s/montecarlo/v12/buEzpo6-f9X01GadLA0G4Csf-A.ttf"
 }

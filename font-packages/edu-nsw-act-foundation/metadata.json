@@ -2,15 +2,15 @@
   "family": "Edu NSW ACT Foundation",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["latin"],
-  "version": "v2",
-  "lastModified": "2024-08-12",
+  "version": "v4",
+  "lastModified": "2025-06-02",
   "files": {
-    "500": "https://fonts.gstatic.com/s/edunswactfoundation/v2/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki9fovGLeC-sfguJ.ttf",
-    "600": "https://fonts.gstatic.com/s/edunswactfoundation/v2/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki-zpfGLeC-sfguJ.ttf",
-    "700": "https://fonts.gstatic.com/s/edunswactfoundation/v2/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki-KpfGLeC-sfguJ.ttf",
-    "regular": "https://fonts.gstatic.com/s/edunswactfoundation/v2/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki9tovGLeC-sfguJ.ttf"
+    "500": "https://fonts.gstatic.com/s/edunswactfoundation/v4/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki9fovGLeC-sfguJ.ttf",
+    "600": "https://fonts.gstatic.com/s/edunswactfoundation/v4/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki-zpfGLeC-sfguJ.ttf",
+    "700": "https://fonts.gstatic.com/s/edunswactfoundation/v4/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki-KpfGLeC-sfguJ.ttf",
+    "regular": "https://fonts.gstatic.com/s/edunswactfoundation/v4/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki9tovGLeC-sfguJ.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/edunswactfoundation/v2/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki9tosGKcis.ttf"
+  "menu": "https://fonts.gstatic.com/s/edunswactfoundation/v4/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki9tosGKcis.ttf"
 }

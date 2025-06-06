@@ -2,10 +2,10 @@
   "family": "Kings",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/kings/v7/8AtnGsK4O5CYXU_Iq6GSPaHS.ttf" },
+  "version": "v8",
+  "lastModified": "2025-06-02",
+  "files": { "regular": "https://fonts.gstatic.com/s/kings/v8/8AtnGsK4O5CYXU_Iq6GSPaHS.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/kings/v7/8AtnGsK4O5CYXX_JoaU.ttf"
+  "menu": "https://fonts.gstatic.com/s/kings/v8/8AtnGsK4O5CYXX_JoaU.ttf"
 }

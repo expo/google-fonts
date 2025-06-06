@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/dynapuff",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Use the DynaPuff font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

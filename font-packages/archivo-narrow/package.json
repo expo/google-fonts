@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/archivo-narrow",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Archivo Narrow font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

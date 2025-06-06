@@ -2,15 +2,15 @@
   "family": "Noto Sans NKo Unjoined",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "nko"],
-  "version": "v2",
-  "lastModified": "2023-09-27",
+  "version": "v3",
+  "lastModified": "2025-06-02",
   "files": {
-    "500": "https://fonts.gstatic.com/s/notosansnkounjoined/v2/MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rv32gEPxf5wbh3T.ttf",
-    "600": "https://fonts.gstatic.com/s/notosansnkounjoined/v2/MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rsb3QEPxf5wbh3T.ttf",
-    "700": "https://fonts.gstatic.com/s/notosansnkounjoined/v2/MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rsi3QEPxf5wbh3T.ttf",
-    "regular": "https://fonts.gstatic.com/s/notosansnkounjoined/v2/MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rvF2gEPxf5wbh3T.ttf"
+    "500": "https://fonts.gstatic.com/s/notosansnkounjoined/v3/MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rv32gEPxf5wbh3T.ttf",
+    "600": "https://fonts.gstatic.com/s/notosansnkounjoined/v3/MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rsb3QEPxf5wbh3T.ttf",
+    "700": "https://fonts.gstatic.com/s/notosansnkounjoined/v3/MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rsi3QEPxf5wbh3T.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosansnkounjoined/v3/MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rvF2gEPxf5wbh3T.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansnkounjoined/v2/MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rvF2jEOz_o.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansnkounjoined/v3/MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rvF2jEOz_o.ttf"
 }

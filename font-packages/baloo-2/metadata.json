@@ -2,16 +2,16 @@
   "family": "Baloo 2",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["devanagari", "latin", "latin-ext", "vietnamese"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
+  "version": "v22",
+  "lastModified": "2025-06-02",
   "files": {
-    "500": "https://fonts.gstatic.com/s/baloo2/v21/wXK0E3kTposypRydzVT08TS3JnAmtdgozapv9Fat7WcN.ttf",
-    "600": "https://fonts.gstatic.com/s/baloo2/v21/wXK0E3kTposypRydzVT08TS3JnAmtdjEyqpv9Fat7WcN.ttf",
-    "700": "https://fonts.gstatic.com/s/baloo2/v21/wXK0E3kTposypRydzVT08TS3JnAmtdj9yqpv9Fat7WcN.ttf",
-    "800": "https://fonts.gstatic.com/s/baloo2/v21/wXK0E3kTposypRydzVT08TS3JnAmtdiayqpv9Fat7WcN.ttf",
-    "regular": "https://fonts.gstatic.com/s/baloo2/v21/wXK0E3kTposypRydzVT08TS3JnAmtdgazapv9Fat7WcN.ttf"
+    "500": "https://fonts.gstatic.com/s/baloo2/v22/wXK0E3kTposypRydzVT08TS3JnAmtdgozapv9Fat7WcN.ttf",
+    "600": "https://fonts.gstatic.com/s/baloo2/v22/wXK0E3kTposypRydzVT08TS3JnAmtdjEyqpv9Fat7WcN.ttf",
+    "700": "https://fonts.gstatic.com/s/baloo2/v22/wXK0E3kTposypRydzVT08TS3JnAmtdj9yqpv9Fat7WcN.ttf",
+    "800": "https://fonts.gstatic.com/s/baloo2/v22/wXK0E3kTposypRydzVT08TS3JnAmtdiayqpv9Fat7WcN.ttf",
+    "regular": "https://fonts.gstatic.com/s/baloo2/v22/wXK0E3kTposypRydzVT08TS3JnAmtdgazapv9Fat7WcN.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/baloo2/v21/wXK0E3kTposypRydzVT08TS3JnAmtdgazZpu_lI.ttf"
+  "menu": "https://fonts.gstatic.com/s/baloo2/v22/wXK0E3kTposypRydzVT08TS3JnAmtdgazZpu_lI.ttf"
 }

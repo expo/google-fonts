@@ -2,12 +2,12 @@
   "family": "Michroma",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2024-09-04",
+  "version": "v20",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/michroma/v19/PN_zRfy9qWD8fEagAMg6rzjb_-Da.ttf"
+    "regular": "https://fonts.gstatic.com/s/michroma/v20/PN_zRfy9qWD8fEagAMg6rzjb_-Da.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/michroma/v19/PN_zRfy9qWD8fEagAPg7pTw.ttf"
+  "menu": "https://fonts.gstatic.com/s/michroma/v20/PN_zRfy9qWD8fEagAPg7pTw.ttf"
 }

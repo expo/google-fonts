@@ -2,19 +2,19 @@
   "family": "Martian Mono",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v3",
-  "lastModified": "2024-09-04",
+  "version": "v5",
+  "lastModified": "2025-06-02",
   "files": {
-    "100": "https://fonts.gstatic.com/s/martianmono/v3/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY1qus6WD75kdpF2.ttf",
-    "200": "https://fonts.gstatic.com/s/martianmono/v3/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY3qu86WD75kdpF2.ttf",
-    "300": "https://fonts.gstatic.com/s/martianmono/v3/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY00u86WD75kdpF2.ttf",
-    "500": "https://fonts.gstatic.com/s/martianmono/v3/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY1Yu86WD75kdpF2.ttf",
-    "600": "https://fonts.gstatic.com/s/martianmono/v3/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY20vM6WD75kdpF2.ttf",
-    "700": "https://fonts.gstatic.com/s/martianmono/v3/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY2NvM6WD75kdpF2.ttf",
-    "800": "https://fonts.gstatic.com/s/martianmono/v3/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY3qvM6WD75kdpF2.ttf",
-    "regular": "https://fonts.gstatic.com/s/martianmono/v3/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY1qu86WD75kdpF2.ttf"
+    "100": "https://fonts.gstatic.com/s/martianmono/v5/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY1qus6WD75kdpF2.ttf",
+    "200": "https://fonts.gstatic.com/s/martianmono/v5/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY3qu86WD75kdpF2.ttf",
+    "300": "https://fonts.gstatic.com/s/martianmono/v5/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY00u86WD75kdpF2.ttf",
+    "500": "https://fonts.gstatic.com/s/martianmono/v5/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY1Yu86WD75kdpF2.ttf",
+    "600": "https://fonts.gstatic.com/s/martianmono/v5/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY20vM6WD75kdpF2.ttf",
+    "700": "https://fonts.gstatic.com/s/martianmono/v5/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY2NvM6WD75kdpF2.ttf",
+    "800": "https://fonts.gstatic.com/s/martianmono/v5/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY3qvM6WD75kdpF2.ttf",
+    "regular": "https://fonts.gstatic.com/s/martianmono/v5/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY1qu86WD75kdpF2.ttf"
   },
   "category": "monospace",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/martianmono/v3/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY1qu_6XBbo.ttf"
+  "menu": "https://fonts.gstatic.com/s/martianmono/v5/2V08KIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnQzaVMIE6j15dYY1qu_6XBbo.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Unica One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v18",
-  "lastModified": "2024-09-04",
+  "version": "v19",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/unicaone/v18/DPEuYwWHyAYGVTSmalshdtffuEY7FA.ttf"
+    "regular": "https://fonts.gstatic.com/s/unicaone/v19/DPEuYwWHyAYGVTSmalshdtffuEY7FA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/unicaone/v18/DPEuYwWHyAYGVTSmalsRd93b.ttf"
+  "menu": "https://fonts.gstatic.com/s/unicaone/v19/DPEuYwWHyAYGVTSmalsRd93b.ttf"
 }

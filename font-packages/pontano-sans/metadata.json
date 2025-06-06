@@ -2,16 +2,16 @@
   "family": "Pontano Sans",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2024-09-04",
+  "version": "v18",
+  "lastModified": "2025-06-02",
   "files": {
-    "300": "https://fonts.gstatic.com/s/pontanosans/v17/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOSzMncaMp9gzWsE.ttf",
-    "500": "https://fonts.gstatic.com/s/pontanosans/v17/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOUDMncaMp9gzWsE.ttf",
-    "600": "https://fonts.gstatic.com/s/pontanosans/v17/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOazLncaMp9gzWsE.ttf",
-    "700": "https://fonts.gstatic.com/s/pontanosans/v17/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOZXLncaMp9gzWsE.ttf",
-    "regular": "https://fonts.gstatic.com/s/pontanosans/v17/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOXLMncaMp9gzWsE.ttf"
+    "300": "https://fonts.gstatic.com/s/pontanosans/v18/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOSzMncaMp9gzWsE.ttf",
+    "500": "https://fonts.gstatic.com/s/pontanosans/v18/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOUDMncaMp9gzWsE.ttf",
+    "600": "https://fonts.gstatic.com/s/pontanosans/v18/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOazLncaMp9gzWsE.ttf",
+    "700": "https://fonts.gstatic.com/s/pontanosans/v18/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOZXLncaMp9gzWsE.ttf",
+    "regular": "https://fonts.gstatic.com/s/pontanosans/v18/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOXLMncaMp9gzWsE.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/pontanosans/v17/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOXLMrceGow.ttf"
+  "menu": "https://fonts.gstatic.com/s/pontanosans/v18/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOXLMrceGow.ttf"
 }

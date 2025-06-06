@@ -2,12 +2,12 @@
   "family": "Denk One",
   "variants": ["regular"],
   "subsets": ["cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v19",
-  "lastModified": "2024-09-04",
+  "version": "v20",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/denkone/v19/dg4m_pzhrqcFb2IzROtHpbglShon.ttf"
+    "regular": "https://fonts.gstatic.com/s/denkone/v20/dg4m_pzhrqcFb2IzROtHpbglShon.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/denkone/v19/dg4m_pzhrqcFb2IzRNtGr7w.ttf"
+  "menu": "https://fonts.gstatic.com/s/denkone/v20/dg4m_pzhrqcFb2IzRNtGr7w.ttf"
 }

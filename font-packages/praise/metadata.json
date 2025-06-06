@@ -2,10 +2,10 @@
   "family": "Praise",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/praise/v7/qkBUXvUZ-cnFXcFyDvO67L9XmQ.ttf" },
+  "version": "v8",
+  "lastModified": "2025-06-02",
+  "files": { "regular": "https://fonts.gstatic.com/s/praise/v8/qkBUXvUZ-cnFXcFyDvO67L9XmQ.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/praise/v7/qkBUXvUZ-cnFXcFCD_m-.ttf"
+  "menu": "https://fonts.gstatic.com/s/praise/v8/qkBUXvUZ-cnFXcFCD_m-.ttf"
 }

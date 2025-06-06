@@ -2,16 +2,16 @@
   "family": "Syne",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["greek", "latin", "latin-ext"],
-  "version": "v22",
-  "lastModified": "2024-09-04",
+  "version": "v23",
+  "lastModified": "2025-06-02",
   "files": {
-    "500": "https://fonts.gstatic.com/s/syne/v22/8vIS7w4qzmVxsWxjBZRjr0FKM_0KuT6kR47NCV5Z.ttf",
-    "600": "https://fonts.gstatic.com/s/syne/v22/8vIS7w4qzmVxsWxjBZRjr0FKM_3mvj6kR47NCV5Z.ttf",
-    "700": "https://fonts.gstatic.com/s/syne/v22/8vIS7w4qzmVxsWxjBZRjr0FKM_3fvj6kR47NCV5Z.ttf",
-    "800": "https://fonts.gstatic.com/s/syne/v22/8vIS7w4qzmVxsWxjBZRjr0FKM_24vj6kR47NCV5Z.ttf",
-    "regular": "https://fonts.gstatic.com/s/syne/v22/8vIS7w4qzmVxsWxjBZRjr0FKM_04uT6kR47NCV5Z.ttf"
+    "500": "https://fonts.gstatic.com/s/syne/v23/8vIS7w4qzmVxsWxjBZRjr0FKM_0KuT6kR47NCV5Z.ttf",
+    "600": "https://fonts.gstatic.com/s/syne/v23/8vIS7w4qzmVxsWxjBZRjr0FKM_3mvj6kR47NCV5Z.ttf",
+    "700": "https://fonts.gstatic.com/s/syne/v23/8vIS7w4qzmVxsWxjBZRjr0FKM_3fvj6kR47NCV5Z.ttf",
+    "800": "https://fonts.gstatic.com/s/syne/v23/8vIS7w4qzmVxsWxjBZRjr0FKM_24vj6kR47NCV5Z.ttf",
+    "regular": "https://fonts.gstatic.com/s/syne/v23/8vIS7w4qzmVxsWxjBZRjr0FKM_04uT6kR47NCV5Z.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/syne/v22/8vIS7w4qzmVxsWxjBZRjr0FKM_04uQ6lTYo.ttf"
+  "menu": "https://fonts.gstatic.com/s/syne/v23/8vIS7w4qzmVxsWxjBZRjr0FKM_04uQ6lTYo.ttf"
 }

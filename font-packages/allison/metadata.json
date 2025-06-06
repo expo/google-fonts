@@ -2,10 +2,10 @@
   "family": "Allison",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v11",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/allison/v11/X7nl4b88AP2nkbvZOCaQ4MTgAgk.ttf" },
+  "version": "v12",
+  "lastModified": "2025-06-02",
+  "files": { "regular": "https://fonts.gstatic.com/s/allison/v12/X7nl4b88AP2nkbvZOCaQ4MTgAgk.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/allison/v11/X7nl4b88AP2nkbvZCCea5A.ttf"
+  "menu": "https://fonts.gstatic.com/s/allison/v12/X7nl4b88AP2nkbvZCCea5A.ttf"
 }

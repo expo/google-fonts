@@ -2,12 +2,12 @@
   "family": "Lavishly Yours",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2024-09-04",
+  "version": "v6",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/lavishlyyours/v5/jizDREVIvGwH5OjiZmX9r5z_WxUY0TY7ikbI.ttf"
+    "regular": "https://fonts.gstatic.com/s/lavishlyyours/v6/jizDREVIvGwH5OjiZmX9r5z_WxUY0TY7ikbI.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/lavishlyyours/v5/jizDREVIvGwH5OjiZmX9r5z_WyUZ2zI.ttf"
+  "menu": "https://fonts.gstatic.com/s/lavishlyyours/v6/jizDREVIvGwH5OjiZmX9r5z_WyUZ2zI.ttf"
 }

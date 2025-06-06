@@ -2,10 +2,10 @@
   "family": "Nosifer",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v22",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/nosifer/v22/ZGjXol5JTp0g5bxZaC1RVDNdGDs.ttf" },
+  "version": "v23",
+  "lastModified": "2025-06-02",
+  "files": { "regular": "https://fonts.gstatic.com/s/nosifer/v23/ZGjXol5JTp0g5bxZaC1RVDNdGDs.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/nosifer/v22/ZGjXol5JTp0g5bxZWCxbUA.ttf"
+  "menu": "https://fonts.gstatic.com/s/nosifer/v23/ZGjXol5JTp0g5bxZWCxbUA.ttf"
 }

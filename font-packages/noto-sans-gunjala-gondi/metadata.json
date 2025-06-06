@@ -2,15 +2,15 @@
   "family": "Noto Sans Gunjala Gondi",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["gunjala-gondi", "latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2023-09-27",
+  "version": "v20",
+  "lastModified": "2025-06-02",
   "files": {
-    "500": "https://fonts.gstatic.com/s/notosansgunjalagondi/v19/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYL04DE4J4vCTxEJQ.ttf",
-    "600": "https://fonts.gstatic.com/s/notosansgunjalagondi/v19/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYLP4fE4J4vCTxEJQ.ttf",
-    "700": "https://fonts.gstatic.com/s/notosansgunjalagondi/v19/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYLBofE4J4vCTxEJQ.ttf",
-    "regular": "https://fonts.gstatic.com/s/notosansgunjalagondi/v19/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYL4YDE4J4vCTxEJQ.ttf"
+    "500": "https://fonts.gstatic.com/s/notosansgunjalagondi/v20/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYL04DE4J4vCTxEJQ.ttf",
+    "600": "https://fonts.gstatic.com/s/notosansgunjalagondi/v20/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYLP4fE4J4vCTxEJQ.ttf",
+    "700": "https://fonts.gstatic.com/s/notosansgunjalagondi/v20/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYLBofE4J4vCTxEJQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosansgunjalagondi/v20/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYL4YDE4J4vCTxEJQ.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansgunjalagondi/v19/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYL4YD04ZQr.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansgunjalagondi/v20/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYL4YD04ZQr.ttf"
 }

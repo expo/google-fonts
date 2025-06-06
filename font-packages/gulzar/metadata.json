@@ -2,10 +2,10 @@
   "family": "Gulzar",
   "variants": ["regular"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/gulzar/v12/Wnz6HAc9eB3HB2ILYTwZqg_MPQ.ttf" },
+  "version": "v13",
+  "lastModified": "2025-06-02",
+  "files": { "regular": "https://fonts.gstatic.com/s/gulzar/v13/Wnz6HAc9eB3HB2ILYTwZqg_MPQ.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/gulzar/v12/Wnz6HAc9eB3HB2I7YDYd.ttf"
+  "menu": "https://fonts.gstatic.com/s/gulzar/v13/Wnz6HAc9eB3HB2I7YDYd.ttf"
 }

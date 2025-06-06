@@ -2,15 +2,15 @@
   "family": "Arvo",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["latin"],
-  "version": "v22",
-  "lastModified": "2024-09-04",
+  "version": "v23",
+  "lastModified": "2025-06-02",
   "files": {
-    "700": "https://fonts.gstatic.com/s/arvo/v22/tDbM2oWUg0MKoZw1yLTA8vL7lAE.ttf",
-    "regular": "https://fonts.gstatic.com/s/arvo/v22/tDbD2oWUg0MKmSAa7Lzr7vs.ttf",
-    "italic": "https://fonts.gstatic.com/s/arvo/v22/tDbN2oWUg0MKqSIQ6J7u_vvijQ.ttf",
-    "700italic": "https://fonts.gstatic.com/s/arvo/v22/tDbO2oWUg0MKqSIoVLHK9tD-hAHkGg.ttf"
+    "700": "https://fonts.gstatic.com/s/arvo/v23/tDbM2oWUg0MKoZw1yLTA8vL7lAE.ttf",
+    "regular": "https://fonts.gstatic.com/s/arvo/v23/tDbD2oWUg0MKmSAa7Lzr7vs.ttf",
+    "italic": "https://fonts.gstatic.com/s/arvo/v23/tDbN2oWUg0MKqSIQ6J7u_vvijQ.ttf",
+    "700italic": "https://fonts.gstatic.com/s/arvo/v23/tDbO2oWUg0MKqSIoVLHK9tD-hAHkGg.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/arvo/v22/tDbD2oWUg0MKqSEQ6A.ttf"
+  "menu": "https://fonts.gstatic.com/s/arvo/v23/tDbD2oWUg0MKqSEQ6A.ttf"
 }

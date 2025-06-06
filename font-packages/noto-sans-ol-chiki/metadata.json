@@ -2,15 +2,15 @@
   "family": "Noto Sans Ol Chiki",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "ol-chiki"],
-  "version": "v29",
-  "lastModified": "2023-09-14",
+  "version": "v30",
+  "lastModified": "2025-06-02",
   "files": {
-    "500": "https://fonts.gstatic.com/s/notosansolchiki/v29/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALVs267I6gVrz5gQ.ttf",
-    "600": "https://fonts.gstatic.com/s/notosansolchiki/v29/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALbcx67I6gVrz5gQ.ttf",
-    "700": "https://fonts.gstatic.com/s/notosansolchiki/v29/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALY4x67I6gVrz5gQ.ttf",
-    "regular": "https://fonts.gstatic.com/s/notosansolchiki/v29/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALWk267I6gVrz5gQ.ttf"
+    "500": "https://fonts.gstatic.com/s/notosansolchiki/v30/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALVs267I6gVrz5gQ.ttf",
+    "600": "https://fonts.gstatic.com/s/notosansolchiki/v30/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALbcx67I6gVrz5gQ.ttf",
+    "700": "https://fonts.gstatic.com/s/notosansolchiki/v30/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALY4x67I6gVrz5gQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosansolchiki/v30/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALWk267I6gVrz5gQ.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansolchiki/v29/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALWk227MwhQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansolchiki/v30/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALWk227MwhQ.ttf"
 }

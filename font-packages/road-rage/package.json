@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/road-rage",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Road Rage font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

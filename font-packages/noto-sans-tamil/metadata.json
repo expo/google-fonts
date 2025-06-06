@@ -2,20 +2,20 @@
   "family": "Noto Sans Tamil",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "tamil"],
-  "version": "v28",
-  "lastModified": "2025-05-29",
+  "version": "v30",
+  "lastModified": "2025-06-02",
   "files": {
-    "100": "https://fonts.gstatic.com/s/notosanstamil/v28/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7vGor0RqKDt_EvT.ttf",
-    "200": "https://fonts.gstatic.com/s/notosanstamil/v28/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7tGo70RqKDt_EvT.ttf",
-    "300": "https://fonts.gstatic.com/s/notosanstamil/v28/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7uYo70RqKDt_EvT.ttf",
-    "500": "https://fonts.gstatic.com/s/notosanstamil/v28/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7v0o70RqKDt_EvT.ttf",
-    "600": "https://fonts.gstatic.com/s/notosanstamil/v28/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7sYpL0RqKDt_EvT.ttf",
-    "700": "https://fonts.gstatic.com/s/notosanstamil/v28/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7shpL0RqKDt_EvT.ttf",
-    "800": "https://fonts.gstatic.com/s/notosanstamil/v28/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7tGpL0RqKDt_EvT.ttf",
-    "900": "https://fonts.gstatic.com/s/notosanstamil/v28/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7tvpL0RqKDt_EvT.ttf",
-    "regular": "https://fonts.gstatic.com/s/notosanstamil/v28/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7vGo70RqKDt_EvT.ttf"
+    "100": "https://fonts.gstatic.com/s/notosanstamil/v30/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7vGor0RqKDt_EvT.ttf",
+    "200": "https://fonts.gstatic.com/s/notosanstamil/v30/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7tGo70RqKDt_EvT.ttf",
+    "300": "https://fonts.gstatic.com/s/notosanstamil/v30/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7uYo70RqKDt_EvT.ttf",
+    "500": "https://fonts.gstatic.com/s/notosanstamil/v30/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7v0o70RqKDt_EvT.ttf",
+    "600": "https://fonts.gstatic.com/s/notosanstamil/v30/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7sYpL0RqKDt_EvT.ttf",
+    "700": "https://fonts.gstatic.com/s/notosanstamil/v30/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7shpL0RqKDt_EvT.ttf",
+    "800": "https://fonts.gstatic.com/s/notosanstamil/v30/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7tGpL0RqKDt_EvT.ttf",
+    "900": "https://fonts.gstatic.com/s/notosanstamil/v30/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7tvpL0RqKDt_EvT.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosanstamil/v30/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7vGo70RqKDt_EvT.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosanstamil/v28/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7vGo40QoqQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosanstamil/v30/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7vGo40QoqQ.ttf"
 }

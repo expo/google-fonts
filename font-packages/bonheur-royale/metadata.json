@@ -2,12 +2,12 @@
   "family": "Bonheur Royale",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v13",
-  "lastModified": "2024-09-04",
+  "version": "v14",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/bonheurroyale/v13/c4m51nt_GMTrtX-b9GcG4-YRmYK_c0f1N5Ij.ttf"
+    "regular": "https://fonts.gstatic.com/s/bonheurroyale/v14/c4m51nt_GMTrtX-b9GcG4-YRmYK_c0f1N5Ij.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/bonheurroyale/v13/c4m51nt_GMTrtX-b9GcG4-YRmbK-eUM.ttf"
+  "menu": "https://fonts.gstatic.com/s/bonheurroyale/v14/c4m51nt_GMTrtX-b9GcG4-YRmbK-eUM.ttf"
 }

@@ -2,13 +2,13 @@
   "family": "The Nautigal",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2024-09-04",
+  "version": "v7",
+  "lastModified": "2025-06-02",
   "files": {
-    "700": "https://fonts.gstatic.com/s/thenautigal/v6/VdGGAZ8ZH51Lvng9fQV2bfKTWypA2_-C7LoS7g.ttf",
-    "regular": "https://fonts.gstatic.com/s/thenautigal/v6/VdGZAZ8ZH51Lvng9fQV2bfKr5wVk09Se5Q.ttf"
+    "700": "https://fonts.gstatic.com/s/thenautigal/v7/VdGGAZ8ZH51Lvng9fQV2bfKTWypA2_-C7LoS7g.ttf",
+    "regular": "https://fonts.gstatic.com/s/thenautigal/v7/VdGZAZ8ZH51Lvng9fQV2bfKr5wVk09Se5Q.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/thenautigal/v6/VdGZAZ8ZH51Lvng9fQV2bfKb5g9g.ttf"
+  "menu": "https://fonts.gstatic.com/s/thenautigal/v7/VdGZAZ8ZH51Lvng9fQV2bfKb5g9g.ttf"
 }

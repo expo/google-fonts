@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/mate",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Mate font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

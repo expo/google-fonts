@@ -2,12 +2,12 @@
   "family": "Gilda Display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2024-09-04",
+  "version": "v19",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/gildadisplay/v18/t5tmIRoYMoaYG0WEOh7HwMeR7TnFrpOHYh4.ttf"
+    "regular": "https://fonts.gstatic.com/s/gildadisplay/v19/t5tmIRoYMoaYG0WEOh7HwMeR7TnFrpOHYh4.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/gildadisplay/v18/t5tmIRoYMoaYG0WEOh7HwMeR3TjPqg.ttf"
+  "menu": "https://fonts.gstatic.com/s/gildadisplay/v19/t5tmIRoYMoaYG0WEOh7HwMeR3TjPqg.ttf"
 }

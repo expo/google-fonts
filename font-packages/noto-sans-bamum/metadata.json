@@ -2,15 +2,15 @@
   "family": "Noto Sans Bamum",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["bamum", "latin", "latin-ext"],
-  "version": "v27",
-  "lastModified": "2023-09-14",
+  "version": "v34",
+  "lastModified": "2025-06-02",
   "files": {
-    "500": "https://fonts.gstatic.com/s/notosansbamum/v27/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPEeVO-_gLykxEkxA.ttf",
-    "600": "https://fonts.gstatic.com/s/notosansbamum/v27/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPEQlJ-_gLykxEkxA.ttf",
-    "700": "https://fonts.gstatic.com/s/notosansbamum/v27/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPETBJ-_gLykxEkxA.ttf",
-    "regular": "https://fonts.gstatic.com/s/notosansbamum/v27/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPEddO-_gLykxEkxA.ttf"
+    "500": "https://fonts.gstatic.com/s/notosansbamum/v34/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPEeVO-_gLykxEkxA.ttf",
+    "600": "https://fonts.gstatic.com/s/notosansbamum/v34/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPEQlJ-_gLykxEkxA.ttf",
+    "700": "https://fonts.gstatic.com/s/notosansbamum/v34/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPETBJ-_gLykxEkxA.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosansbamum/v34/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPEddO-_gLykxEkxA.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansbamum/v27/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPEddOy_kBzg.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansbamum/v34/uk-0EGK3o6EruUbnwovcbBTkkklK_Ya_PBHfNGTPEddOy_kBzg.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Road Rage",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2024-09-04",
+  "version": "v8",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/roadrage/v7/6NUU8F2fKAOBKjjr4ekvtMYAwdRZfw.ttf"
+    "regular": "https://fonts.gstatic.com/s/roadrage/v8/6NUU8F2fKAOBKjjr4ekvtMYAwdRZfw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/roadrage/v7/6NUU8F2fKAOBKjjr4ekftcwE.ttf"
+  "menu": "https://fonts.gstatic.com/s/roadrage/v8/6NUU8F2fKAOBKjjr4ekftcwE.ttf"
 }

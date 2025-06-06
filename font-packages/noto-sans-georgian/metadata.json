@@ -2,20 +2,20 @@
   "family": "Noto Sans Georgian",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["cyrillic-ext", "georgian", "greek-ext", "latin", "latin-ext", "math", "symbols"],
-  "version": "v45",
-  "lastModified": "2025-05-29",
+  "version": "v47",
+  "lastModified": "2025-06-02",
   "files": {
-    "100": "https://fonts.gstatic.com/s/notosansgeorgian/v45/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdpvnzVj-f5WK0OQV.ttf",
-    "200": "https://fonts.gstatic.com/s/notosansgeorgian/v45/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdptnzFj-f5WK0OQV.ttf",
-    "300": "https://fonts.gstatic.com/s/notosansgeorgian/v45/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdpu5zFj-f5WK0OQV.ttf",
-    "500": "https://fonts.gstatic.com/s/notosansgeorgian/v45/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdpvVzFj-f5WK0OQV.ttf",
-    "600": "https://fonts.gstatic.com/s/notosansgeorgian/v45/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdps5y1j-f5WK0OQV.ttf",
-    "700": "https://fonts.gstatic.com/s/notosansgeorgian/v45/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdpsAy1j-f5WK0OQV.ttf",
-    "800": "https://fonts.gstatic.com/s/notosansgeorgian/v45/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdptny1j-f5WK0OQV.ttf",
-    "900": "https://fonts.gstatic.com/s/notosansgeorgian/v45/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdptOy1j-f5WK0OQV.ttf",
-    "regular": "https://fonts.gstatic.com/s/notosansgeorgian/v45/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdpvnzFj-f5WK0OQV.ttf"
+    "100": "https://fonts.gstatic.com/s/notosansgeorgian/v47/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdpvnzVj-f5WK0OQV.ttf",
+    "200": "https://fonts.gstatic.com/s/notosansgeorgian/v47/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdptnzFj-f5WK0OQV.ttf",
+    "300": "https://fonts.gstatic.com/s/notosansgeorgian/v47/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdpu5zFj-f5WK0OQV.ttf",
+    "500": "https://fonts.gstatic.com/s/notosansgeorgian/v47/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdpvVzFj-f5WK0OQV.ttf",
+    "600": "https://fonts.gstatic.com/s/notosansgeorgian/v47/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdps5y1j-f5WK0OQV.ttf",
+    "700": "https://fonts.gstatic.com/s/notosansgeorgian/v47/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdpsAy1j-f5WK0OQV.ttf",
+    "800": "https://fonts.gstatic.com/s/notosansgeorgian/v47/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdptny1j-f5WK0OQV.ttf",
+    "900": "https://fonts.gstatic.com/s/notosansgeorgian/v47/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdptOy1j-f5WK0OQV.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosansgeorgian/v47/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdpvnzFj-f5WK0OQV.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansgeorgian/v45/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdpvnzGj_dZE.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansgeorgian/v47/PlIaFke5O6RzLfvNNVSitxkr76PRHBC4Ytyq-Gof7PUs4S7zWn-8YDB09HFNdpvnzGj_dZE.ttf"
 }

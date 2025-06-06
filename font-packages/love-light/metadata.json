@@ -2,12 +2,12 @@
   "family": "Love Light",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2024-09-04",
+  "version": "v7",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/lovelight/v6/t5tlIR0TNJyZWimpNAXDjKbCyTHuspo.ttf"
+    "regular": "https://fonts.gstatic.com/s/lovelight/v7/t5tlIR0TNJyZWimpNAXDjKbCyTHuspo.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/lovelight/v6/t5tlIR0TNJyZWimpNAXDvKfIzQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/lovelight/v7/t5tlIR0TNJyZWimpNAXDvKfIzQ.ttf"
 }

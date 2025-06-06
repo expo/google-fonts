@@ -2,12 +2,12 @@
   "family": "Arizonia",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
+  "version": "v22",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/arizonia/v21/neIIzCemt4A5qa7mv6WGHK06UY30.ttf"
+    "regular": "https://fonts.gstatic.com/s/arizonia/v22/neIIzCemt4A5qa7mv6WGHK06UY30.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/arizonia/v21/neIIzCemt4A5qa7mv5WHFqk.ttf"
+  "menu": "https://fonts.gstatic.com/s/arizonia/v22/neIIzCemt4A5qa7mv5WHFqk.ttf"
 }

@@ -2,15 +2,15 @@
   "family": "Enriqueta",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2024-09-04",
+  "version": "v18",
+  "lastModified": "2025-06-02",
   "files": {
-    "500": "https://fonts.gstatic.com/s/enriqueta/v17/gokpH6L7AUFrRvV44HVrv2mHmNZEq6TTFw.ttf",
-    "600": "https://fonts.gstatic.com/s/enriqueta/v17/gokpH6L7AUFrRvV44HVrk26HmNZEq6TTFw.ttf",
-    "700": "https://fonts.gstatic.com/s/enriqueta/v17/gokpH6L7AUFrRvV44HVr92-HmNZEq6TTFw.ttf",
-    "regular": "https://fonts.gstatic.com/s/enriqueta/v17/goksH6L7AUFrRvV44HVTS0CjkP1Yog.ttf"
+    "500": "https://fonts.gstatic.com/s/enriqueta/v18/gokpH6L7AUFrRvV44HVrv2mHmNZEq6TTFw.ttf",
+    "600": "https://fonts.gstatic.com/s/enriqueta/v18/gokpH6L7AUFrRvV44HVrk26HmNZEq6TTFw.ttf",
+    "700": "https://fonts.gstatic.com/s/enriqueta/v18/gokpH6L7AUFrRvV44HVr92-HmNZEq6TTFw.ttf",
+    "regular": "https://fonts.gstatic.com/s/enriqueta/v18/goksH6L7AUFrRvV44HVTS0CjkP1Yog.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/enriqueta/v17/goksH6L7AUFrRvV44HVjSkqn.ttf"
+  "menu": "https://fonts.gstatic.com/s/enriqueta/v18/goksH6L7AUFrRvV44HVjSkqn.ttf"
 }

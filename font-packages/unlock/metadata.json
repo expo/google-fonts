@@ -2,10 +2,10 @@
   "family": "Unlock",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v26",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/unlock/v26/7Au-p_8ykD-cDl7GKAjSwkUVOQ.ttf" },
+  "version": "v27",
+  "lastModified": "2025-06-02",
+  "files": { "regular": "https://fonts.gstatic.com/s/unlock/v27/7Au-p_8ykD-cDl7GKAjSwkUVOQ.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/unlock/v26/7Au-p_8ykD-cDl72KQLW.ttf"
+  "menu": "https://fonts.gstatic.com/s/unlock/v27/7Au-p_8ykD-cDl72KQLW.ttf"
 }

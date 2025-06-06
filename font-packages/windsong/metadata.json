@@ -2,13 +2,13 @@
   "family": "WindSong",
   "variants": ["regular", "500"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v11",
-  "lastModified": "2024-09-04",
+  "version": "v12",
+  "lastModified": "2025-06-02",
   "files": {
-    "500": "https://fonts.gstatic.com/s/windsong/v11/KR1RBsyu-P-GFEW57oeNNPWylS3-jVXm.ttf",
-    "regular": "https://fonts.gstatic.com/s/windsong/v11/KR1WBsyu-P-GFEW57r95HdG6vjH3.ttf"
+    "500": "https://fonts.gstatic.com/s/windsong/v12/KR1RBsyu-P-GFEW57oeNNPWylS3-jVXm.ttf",
+    "regular": "https://fonts.gstatic.com/s/windsong/v12/KR1WBsyu-P-GFEW57r95HdG6vjH3.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/windsong/v11/KR1WBsyu-P-GFEW57o94F9U.ttf"
+  "menu": "https://fonts.gstatic.com/s/windsong/v12/KR1WBsyu-P-GFEW57o94F9U.ttf"
 }

@@ -2,13 +2,13 @@
   "family": "Glegoo",
   "variants": ["regular", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2024-09-04",
+  "version": "v17",
+  "lastModified": "2025-06-02",
   "files": {
-    "700": "https://fonts.gstatic.com/s/glegoo/v16/_Xmu-HQyrTKWaw2xN4a9CKRpzimMsg.ttf",
-    "regular": "https://fonts.gstatic.com/s/glegoo/v16/_Xmt-HQyrTKWaw2Ji6mZAI91xw.ttf"
+    "700": "https://fonts.gstatic.com/s/glegoo/v17/_Xmu-HQyrTKWaw2xN4a9CKRpzimMsg.ttf",
+    "regular": "https://fonts.gstatic.com/s/glegoo/v17/_Xmt-HQyrTKWaw2Ji6mZAI91xw.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/glegoo/v16/_Xmt-HQyrTKWaw25iqOd.ttf"
+  "menu": "https://fonts.gstatic.com/s/glegoo/v17/_Xmt-HQyrTKWaw25iqOd.ttf"
 }

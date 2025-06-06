@@ -2,14 +2,14 @@
   "family": "Rowdies",
   "variants": ["300", "regular", "700"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v17",
-  "lastModified": "2024-09-04",
+  "version": "v18",
+  "lastModified": "2025-06-02",
   "files": {
-    "300": "https://fonts.gstatic.com/s/rowdies/v17/ptRMTieMYPNBAK219hth5O7yKQNute8.ttf",
-    "700": "https://fonts.gstatic.com/s/rowdies/v17/ptRMTieMYPNBAK219gtm5O7yKQNute8.ttf",
-    "regular": "https://fonts.gstatic.com/s/rowdies/v17/ptRJTieMYPNBAK21zrdJwObZNQo.ttf"
+    "300": "https://fonts.gstatic.com/s/rowdies/v18/ptRMTieMYPNBAK219hth5O7yKQNute8.ttf",
+    "700": "https://fonts.gstatic.com/s/rowdies/v18/ptRMTieMYPNBAK219gtm5O7yKQNute8.ttf",
+    "regular": "https://fonts.gstatic.com/s/rowdies/v18/ptRJTieMYPNBAK21zrdJwObZNQo.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/rowdies/v17/ptRJTieMYPNBAK21_rZDxA.ttf"
+  "menu": "https://fonts.gstatic.com/s/rowdies/v18/ptRJTieMYPNBAK21_rZDxA.ttf"
 }

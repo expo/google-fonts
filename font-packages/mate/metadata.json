@@ -2,13 +2,13 @@
   "family": "Mate",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2024-09-04",
+  "version": "v18",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/mate/v17/m8JdjftRd7WZ2z28WoXSaLU.ttf",
-    "italic": "https://fonts.gstatic.com/s/mate/v17/m8JTjftRd7WZ6z-2XqfXeLVdbw.ttf"
+    "regular": "https://fonts.gstatic.com/s/mate/v18/m8JdjftRd7WZ2z28WoXSaLU.ttf",
+    "italic": "https://fonts.gstatic.com/s/mate/v18/m8JTjftRd7WZ6z-2XqfXeLVdbw.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/mate/v17/m8JdjftRd7WZ6zy2Xg.ttf"
+  "menu": "https://fonts.gstatic.com/s/mate/v18/m8JdjftRd7WZ6zy2Xg.ttf"
 }

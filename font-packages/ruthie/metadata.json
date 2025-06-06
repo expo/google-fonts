@@ -2,10 +2,10 @@
   "family": "Ruthie",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v26",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/ruthie/v26/gokvH63sGkdqXuU9lD53Q2u_mQ.ttf" },
+  "version": "v27",
+  "lastModified": "2025-06-02",
+  "files": { "regular": "https://fonts.gstatic.com/s/ruthie/v27/gokvH63sGkdqXuU9lD53Q2u_mQ.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/ruthie/v26/gokvH63sGkdqXuUNlTRz.ttf"
+  "menu": "https://fonts.gstatic.com/s/ruthie/v27/gokvH63sGkdqXuUNlTRz.ttf"
 }

@@ -2,10 +2,10 @@
   "family": "Gloock",
   "variants": ["regular"],
   "subsets": ["cyrillic-ext", "latin", "latin-ext"],
-  "version": "v6",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/gloock/v6/Iurb6YFw84WUY4N5jxylBrdRjQ.ttf" },
+  "version": "v7",
+  "lastModified": "2025-06-02",
+  "files": { "regular": "https://fonts.gstatic.com/s/gloock/v7/Iurb6YFw84WUY4N5jxylBrdRjQ.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/gloock/v6/Iurb6YFw84WUY4NJjhah.ttf"
+  "menu": "https://fonts.gstatic.com/s/gloock/v7/Iurb6YFw84WUY4NJjhah.ttf"
 }

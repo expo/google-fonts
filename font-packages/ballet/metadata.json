@@ -2,12 +2,12 @@
   "family": "Ballet",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v27",
-  "lastModified": "2024-09-04",
+  "version": "v29",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/ballet/v27/QGYyz_MYZA-HM4NjuGOVnUEXme1I4Xi3C4G-EiAou6Y.ttf"
+    "regular": "https://fonts.gstatic.com/s/ballet/v29/QGYyz_MYZA-HM4NjuGOVnUEXme1I4Xi3C4G-EiAou6Y.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/ballet/v27/QGYyz_MYZA-HM4NjuGOVnUEXme1I4Xi3O4C0Fg.ttf"
+  "menu": "https://fonts.gstatic.com/s/ballet/v29/QGYyz_MYZA-HM4NjuGOVnUEXme1I4Xi3O4C0Fg.ttf"
 }

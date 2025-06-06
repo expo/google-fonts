@@ -2,20 +2,20 @@
   "family": "Noto Sans Lao Looped",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["lao", "latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2023-09-27",
+  "version": "v9",
+  "lastModified": "2025-06-02",
   "files": {
-    "100": "https://fonts.gstatic.com/s/notosanslaolooped/v7/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomPr2M-Zw5V_T71k.ttf",
-    "200": "https://fonts.gstatic.com/s/notosanslaolooped/v7/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomHr3M-Zw5V_T71k.ttf",
-    "300": "https://fonts.gstatic.com/s/notosanslaolooped/v7/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomKT3M-Zw5V_T71k.ttf",
-    "500": "https://fonts.gstatic.com/s/notosanslaolooped/v7/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomMj3M-Zw5V_T71k.ttf",
-    "600": "https://fonts.gstatic.com/s/notosanslaolooped/v7/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomCTwM-Zw5V_T71k.ttf",
-    "700": "https://fonts.gstatic.com/s/notosanslaolooped/v7/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomB3wM-Zw5V_T71k.ttf",
-    "800": "https://fonts.gstatic.com/s/notosanslaolooped/v7/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomHrwM-Zw5V_T71k.ttf",
-    "900": "https://fonts.gstatic.com/s/notosanslaolooped/v7/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomFPwM-Zw5V_T71k.ttf",
-    "regular": "https://fonts.gstatic.com/s/notosanslaolooped/v7/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomPr3M-Zw5V_T71k.ttf"
+    "100": "https://fonts.gstatic.com/s/notosanslaolooped/v9/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomPr2M-Zw5V_T71k.ttf",
+    "200": "https://fonts.gstatic.com/s/notosanslaolooped/v9/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomHr3M-Zw5V_T71k.ttf",
+    "300": "https://fonts.gstatic.com/s/notosanslaolooped/v9/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomKT3M-Zw5V_T71k.ttf",
+    "500": "https://fonts.gstatic.com/s/notosanslaolooped/v9/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomMj3M-Zw5V_T71k.ttf",
+    "600": "https://fonts.gstatic.com/s/notosanslaolooped/v9/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomCTwM-Zw5V_T71k.ttf",
+    "700": "https://fonts.gstatic.com/s/notosanslaolooped/v9/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomB3wM-Zw5V_T71k.ttf",
+    "800": "https://fonts.gstatic.com/s/notosanslaolooped/v9/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomHrwM-Zw5V_T71k.ttf",
+    "900": "https://fonts.gstatic.com/s/notosanslaolooped/v9/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomFPwM-Zw5V_T71k.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosanslaolooped/v9/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomPr3M-Zw5V_T71k.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosanslaolooped/v7/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomPr3A-d64Q.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosanslaolooped/v9/a8IgNpbwKmHXpgXbMIsbSMP7-3U72qUOX5gBg6LRXExhqHIX9YPTpvqkW4UthhjomPr3A-d64Q.ttf"
 }

@@ -2,20 +2,20 @@
   "family": "Noto Sans Kannada",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["kannada", "latin", "latin-ext"],
-  "version": "v27",
-  "lastModified": "2023-10-25",
+  "version": "v30",
+  "lastModified": "2025-06-02",
   "files": {
-    "100": "https://fonts.gstatic.com/s/notosanskannada/v27/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrDvMzSIMLsPKrkY.ttf",
-    "200": "https://fonts.gstatic.com/s/notosanskannada/v27/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrLvNzSIMLsPKrkY.ttf",
-    "300": "https://fonts.gstatic.com/s/notosanskannada/v27/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrGXNzSIMLsPKrkY.ttf",
-    "500": "https://fonts.gstatic.com/s/notosanskannada/v27/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrAnNzSIMLsPKrkY.ttf",
-    "600": "https://fonts.gstatic.com/s/notosanskannada/v27/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrOXKzSIMLsPKrkY.ttf",
-    "700": "https://fonts.gstatic.com/s/notosanskannada/v27/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrNzKzSIMLsPKrkY.ttf",
-    "800": "https://fonts.gstatic.com/s/notosanskannada/v27/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrLvKzSIMLsPKrkY.ttf",
-    "900": "https://fonts.gstatic.com/s/notosanskannada/v27/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrJLKzSIMLsPKrkY.ttf",
-    "regular": "https://fonts.gstatic.com/s/notosanskannada/v27/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrDvNzSIMLsPKrkY.ttf"
+    "100": "https://fonts.gstatic.com/s/notosanskannada/v30/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrDvMzSIMLsPKrkY.ttf",
+    "200": "https://fonts.gstatic.com/s/notosanskannada/v30/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrLvNzSIMLsPKrkY.ttf",
+    "300": "https://fonts.gstatic.com/s/notosanskannada/v30/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrGXNzSIMLsPKrkY.ttf",
+    "500": "https://fonts.gstatic.com/s/notosanskannada/v30/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrAnNzSIMLsPKrkY.ttf",
+    "600": "https://fonts.gstatic.com/s/notosanskannada/v30/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrOXKzSIMLsPKrkY.ttf",
+    "700": "https://fonts.gstatic.com/s/notosanskannada/v30/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrNzKzSIMLsPKrkY.ttf",
+    "800": "https://fonts.gstatic.com/s/notosanskannada/v30/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrLvKzSIMLsPKrkY.ttf",
+    "900": "https://fonts.gstatic.com/s/notosanskannada/v30/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrJLKzSIMLsPKrkY.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosanskannada/v30/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrDvNzSIMLsPKrkY.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosanskannada/v27/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrDvN_SMGKg.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosanskannada/v30/8vIs7xs32H97qzQKnzfeXycxXZyUmySvZWItmf1fe6TVmgop9ndpS-BqHEyGrDvN_SMGKg.ttf"
 }

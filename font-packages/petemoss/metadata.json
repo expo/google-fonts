@@ -2,12 +2,12 @@
   "family": "Petemoss",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2024-09-04",
+  "version": "v8",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/petemoss/v7/A2BZn5tA2xgtGWHZgxkesKb9UouQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/petemoss/v8/A2BZn5tA2xgtGWHZgxkesKb9UouQ.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/petemoss/v7/A2BZn5tA2xgtGWHZgykfuqI.ttf"
+  "menu": "https://fonts.gstatic.com/s/petemoss/v8/A2BZn5tA2xgtGWHZgykfuqI.ttf"
 }

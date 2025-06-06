@@ -2,12 +2,12 @@
   "family": "Playball",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v20",
-  "lastModified": "2024-09-04",
+  "version": "v21",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/playball/v20/TK3gWksYAxQ7jbsKcj8Dl-tPKo2t.ttf"
+    "regular": "https://fonts.gstatic.com/s/playball/v21/TK3gWksYAxQ7jbsKcj8Dl-tPKo2t.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/playball/v20/TK3gWksYAxQ7jbsKcg8Cne8.ttf"
+  "menu": "https://fonts.gstatic.com/s/playball/v21/TK3gWksYAxQ7jbsKcg8Cne8.ttf"
 }

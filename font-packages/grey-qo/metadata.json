@@ -2,10 +2,10 @@
   "family": "Grey Qo",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v9",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/greyqo/v9/BXRrvF_Nmv_TyXxNDOtQ9Wf0QcE.ttf" },
+  "version": "v10",
+  "lastModified": "2025-06-02",
+  "files": { "regular": "https://fonts.gstatic.com/s/greyqo/v10/BXRrvF_Nmv_TyXxNDOtQ9Wf0QcE.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/greyqo/v9/BXRrvF_Nmv_TyXxNPOpa8Q.ttf"
+  "menu": "https://fonts.gstatic.com/s/greyqo/v10/BXRrvF_Nmv_TyXxNPOpa8Q.ttf"
 }

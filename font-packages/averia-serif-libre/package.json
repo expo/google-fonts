@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/averia-serif-libre",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Averia Serif Libre font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

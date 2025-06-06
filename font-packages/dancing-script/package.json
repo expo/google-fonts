@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/dancing-script",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Dancing Script font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

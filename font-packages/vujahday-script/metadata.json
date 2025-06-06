@@ -2,12 +2,12 @@
   "family": "Vujahday Script",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v8",
-  "lastModified": "2024-09-04",
+  "version": "v9",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/vujahdayscript/v8/RWmQoKGA8fEkrIPtSZ3_J7er2dUiDEtvAlaMKw.ttf"
+    "regular": "https://fonts.gstatic.com/s/vujahdayscript/v9/RWmQoKGA8fEkrIPtSZ3_J7er2dUiDEtvAlaMKw.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/vujahdayscript/v8/RWmQoKGA8fEkrIPtSZ3_J7er2dUSDUFr.ttf"
+  "menu": "https://fonts.gstatic.com/s/vujahdayscript/v9/RWmQoKGA8fEkrIPtSZ3_J7er2dUSDUFr.ttf"
 }

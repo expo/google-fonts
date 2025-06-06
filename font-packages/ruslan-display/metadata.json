@@ -2,12 +2,12 @@
   "family": "Ruslan Display",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext", "math", "symbols"],
-  "version": "v26",
-  "lastModified": "2024-09-04",
+  "version": "v27",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/ruslandisplay/v26/Gw6jwczl81XcIZuckK_e3UpfdzxrldyFvm1n.ttf"
+    "regular": "https://fonts.gstatic.com/s/ruslandisplay/v27/Gw6jwczl81XcIZuckK_e3UpfdzxrldyFvm1n.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/ruslandisplay/v26/Gw6jwczl81XcIZuckK_e3Upfdwxqn9g.ttf"
+  "menu": "https://fonts.gstatic.com/s/ruslandisplay/v27/Gw6jwczl81XcIZuckK_e3Upfdwxqn9g.ttf"
 }

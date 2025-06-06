@@ -2,13 +2,13 @@
   "family": "Fuzzy Bubbles",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2024-09-04",
+  "version": "v8",
+  "lastModified": "2025-06-02",
   "files": {
-    "700": "https://fonts.gstatic.com/s/fuzzybubbles/v7/6qLbKZMbrgv9pwtjPEVNV0F2Ds_WQxMAZkM1pn4.ttf",
-    "regular": "https://fonts.gstatic.com/s/fuzzybubbles/v7/6qLGKZMbrgv9pwtjPEVNV0F2NnP5Zxsreko.ttf"
+    "700": "https://fonts.gstatic.com/s/fuzzybubbles/v8/6qLbKZMbrgv9pwtjPEVNV0F2Ds_WQxMAZkM1pn4.ttf",
+    "regular": "https://fonts.gstatic.com/s/fuzzybubbles/v8/6qLGKZMbrgv9pwtjPEVNV0F2NnP5Zxsreko.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/fuzzybubbles/v7/6qLGKZMbrgv9pwtjPEVNV0F2BnLzYw.ttf"
+  "menu": "https://fonts.gstatic.com/s/fuzzybubbles/v8/6qLGKZMbrgv9pwtjPEVNV0F2BnLzYw.ttf"
 }

@@ -2,10 +2,10 @@
   "family": "Smooch",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/smooch/v7/o-0LIps4xW8U1xUBjqp_6hVdYg.ttf" },
+  "version": "v8",
+  "lastModified": "2025-06-02",
+  "files": { "regular": "https://fonts.gstatic.com/s/smooch/v8/o-0LIps4xW8U1xUBjqp_6hVdYg.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/smooch/v7/o-0LIps4xW8U1xUxj6B7.ttf"
+  "menu": "https://fonts.gstatic.com/s/smooch/v8/o-0LIps4xW8U1xUxj6B7.ttf"
 }

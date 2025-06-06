@@ -2,12 +2,12 @@
   "family": "Zen Dots",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2024-09-04",
+  "version": "v13",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/zendots/v12/XRXX3ICfm00IGoesQeaETM_FcCIG.ttf"
+    "regular": "https://fonts.gstatic.com/s/zendots/v13/XRXX3ICfm00IGoesQeaETM_FcCIG.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/zendots/v12/XRXX3ICfm00IGoesQdaFRss.ttf"
+  "menu": "https://fonts.gstatic.com/s/zendots/v13/XRXX3ICfm00IGoesQdaFRss.ttf"
 }

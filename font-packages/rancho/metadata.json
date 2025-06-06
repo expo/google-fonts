@@ -2,10 +2,10 @@
   "family": "Rancho",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/rancho/v21/46kulbzmXjLaqZRlbWXgd0RY1g.ttf" },
+  "version": "v22",
+  "lastModified": "2025-06-02",
+  "files": { "regular": "https://fonts.gstatic.com/s/rancho/v22/46kulbzmXjLaqZRlbWXgd0RY1g.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/rancho/v21/46kulbzmXjLaqZRVbG_k.ttf"
+  "menu": "https://fonts.gstatic.com/s/rancho/v22/46kulbzmXjLaqZRVbG_k.ttf"
 }

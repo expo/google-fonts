@@ -2,16 +2,16 @@
   "family": "Lemonada",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
-  "version": "v28",
-  "lastModified": "2024-09-04",
+  "version": "v30",
+  "lastModified": "2025-06-02",
   "files": {
-    "300": "https://fonts.gstatic.com/s/lemonada/v28/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGJOt2mfWc3Z2pTg.ttf",
-    "500": "https://fonts.gstatic.com/s/lemonada/v28/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGSOt2mfWc3Z2pTg.ttf",
-    "600": "https://fonts.gstatic.com/s/lemonada/v28/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGpOx2mfWc3Z2pTg.ttf",
-    "700": "https://fonts.gstatic.com/s/lemonada/v28/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGnex2mfWc3Z2pTg.ttf",
-    "regular": "https://fonts.gstatic.com/s/lemonada/v28/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeut2mfWc3Z2pTg.ttf"
+    "300": "https://fonts.gstatic.com/s/lemonada/v30/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGJOt2mfWc3Z2pTg.ttf",
+    "500": "https://fonts.gstatic.com/s/lemonada/v30/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGSOt2mfWc3Z2pTg.ttf",
+    "600": "https://fonts.gstatic.com/s/lemonada/v30/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGpOx2mfWc3Z2pTg.ttf",
+    "700": "https://fonts.gstatic.com/s/lemonada/v30/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGnex2mfWc3Z2pTg.ttf",
+    "regular": "https://fonts.gstatic.com/s/lemonada/v30/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeut2mfWc3Z2pTg.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/lemonada/v28/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeutGmP-Y.ttf"
+  "menu": "https://fonts.gstatic.com/s/lemonada/v30/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeutGmP-Y.ttf"
 }

@@ -2,13 +2,13 @@
   "family": "Bevan",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v24",
-  "lastModified": "2024-09-04",
+  "version": "v25",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/bevan/v24/4iCj6KZ0a9NXjF8aUir7tlSJ.ttf",
-    "italic": "https://fonts.gstatic.com/s/bevan/v24/4iCt6KZ0a9NXjG8YWC7Zs0SJD4U.ttf"
+    "regular": "https://fonts.gstatic.com/s/bevan/v25/4iCj6KZ0a9NXjF8aUir7tlSJ.ttf",
+    "italic": "https://fonts.gstatic.com/s/bevan/v25/4iCt6KZ0a9NXjG8YWC7Zs0SJD4U.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/bevan/v24/4iCj6KZ0a9NXjG8bWC4.ttf"
+  "menu": "https://fonts.gstatic.com/s/bevan/v25/4iCj6KZ0a9NXjG8bWC4.ttf"
 }

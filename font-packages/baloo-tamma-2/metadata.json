@@ -2,16 +2,16 @@
   "family": "Baloo Tamma 2",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["kannada", "latin", "latin-ext", "vietnamese"],
-  "version": "v16",
-  "lastModified": "2024-09-04",
+  "version": "v19",
+  "lastModified": "2025-06-02",
   "files": {
-    "500": "https://fonts.gstatic.com/s/balootamma2/v16/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMsuPp-0IF71SGC5.ttf",
-    "600": "https://fonts.gstatic.com/s/balootamma2/v16/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMvCOZ-0IF71SGC5.ttf",
-    "700": "https://fonts.gstatic.com/s/balootamma2/v16/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMv7OZ-0IF71SGC5.ttf",
-    "800": "https://fonts.gstatic.com/s/balootamma2/v16/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMucOZ-0IF71SGC5.ttf",
-    "regular": "https://fonts.gstatic.com/s/balootamma2/v16/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMscPp-0IF71SGC5.ttf"
+    "500": "https://fonts.gstatic.com/s/balootamma2/v19/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMsuPp-0IF71SGC5.ttf",
+    "600": "https://fonts.gstatic.com/s/balootamma2/v19/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMvCOZ-0IF71SGC5.ttf",
+    "700": "https://fonts.gstatic.com/s/balootamma2/v19/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMv7OZ-0IF71SGC5.ttf",
+    "800": "https://fonts.gstatic.com/s/balootamma2/v19/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMucOZ-0IF71SGC5.ttf",
+    "regular": "https://fonts.gstatic.com/s/balootamma2/v19/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMscPp-0IF71SGC5.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/balootamma2/v16/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMscPq-1Klo.ttf"
+  "menu": "https://fonts.gstatic.com/s/balootamma2/v19/vEFE2_hCAgcR46PaajtrYlBbVUMUJgIC5LHTrMscPq-1Klo.ttf"
 }

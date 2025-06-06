@@ -2,10 +2,10 @@
   "family": "Aldrich",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/aldrich/v21/MCoTzAn-1s3IGyJMZaAS3pP5H_E.ttf" },
+  "version": "v22",
+  "lastModified": "2025-06-02",
+  "files": { "regular": "https://fonts.gstatic.com/s/aldrich/v22/MCoTzAn-1s3IGyJMZaAS3pP5H_E.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/aldrich/v21/MCoTzAn-1s3IGyJMVaEY2g.ttf"
+  "menu": "https://fonts.gstatic.com/s/aldrich/v22/MCoTzAn-1s3IGyJMVaEY2g.ttf"
 }

@@ -2,10 +2,10 @@
   "family": "Allura",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/allura/v21/9oRPNYsQpS4zjuAPjAIXPtrrGA.ttf" },
+  "version": "v22",
+  "lastModified": "2025-06-02",
+  "files": { "regular": "https://fonts.gstatic.com/s/allura/v22/9oRPNYsQpS4zjuAPjAIXPtrrGA.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/allura/v21/9oRPNYsQpS4zjuA_jQgT.ttf"
+  "menu": "https://fonts.gstatic.com/s/allura/v22/9oRPNYsQpS4zjuA_jQgT.ttf"
 }

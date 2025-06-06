@@ -2,12 +2,12 @@
   "family": "Are You Serious",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v12",
-  "lastModified": "2024-09-04",
+  "version": "v13",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/areyouserious/v12/ll8kK2GVSSr-PtjQ5nONVcNn4306hT9nCGRayg.ttf"
+    "regular": "https://fonts.gstatic.com/s/areyouserious/v13/ll8kK2GVSSr-PtjQ5nONVcNn4306hT9nCGRayg.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/areyouserious/v12/ll8kK2GVSSr-PtjQ5nONVcNn430KhDVj.ttf"
+  "menu": "https://fonts.gstatic.com/s/areyouserious/v13/ll8kK2GVSSr-PtjQ5nONVcNn430KhDVj.ttf"
 }

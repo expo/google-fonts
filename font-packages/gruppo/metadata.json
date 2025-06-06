@@ -2,10 +2,10 @@
   "family": "Gruppo",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/gruppo/v21/WwkfxPmzE06v_ZWFWXDAOIEQUQ.ttf" },
+  "version": "v22",
+  "lastModified": "2025-06-02",
+  "files": { "regular": "https://fonts.gstatic.com/s/gruppo/v22/WwkfxPmzE06v_ZWFWXDAOIEQUQ.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/gruppo/v21/WwkfxPmzE06v_ZW1WHrE.ttf"
+  "menu": "https://fonts.gstatic.com/s/gruppo/v22/WwkfxPmzE06v_ZW1WHrE.ttf"
 }

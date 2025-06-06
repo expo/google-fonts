@@ -2,20 +2,20 @@
   "family": "Kumbh Sans",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "math", "symbols"],
-  "version": "v22",
-  "lastModified": "2024-09-04",
+  "version": "v26",
+  "lastModified": "2025-06-02",
   "files": {
-    "100": "https://fonts.gstatic.com/s/kumbhsans/v22/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQkZcA8bTuUkqaLg.ttf",
-    "200": "https://fonts.gstatic.com/s/kumbhsans/v22/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQEZYA8bTuUkqaLg.ttf",
-    "300": "https://fonts.gstatic.com/s/kumbhsans/v22/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQz5YA8bTuUkqaLg.ttf",
-    "500": "https://fonts.gstatic.com/s/kumbhsans/v22/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQo5YA8bTuUkqaLg.ttf",
-    "600": "https://fonts.gstatic.com/s/kumbhsans/v22/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQT5EA8bTuUkqaLg.ttf",
-    "700": "https://fonts.gstatic.com/s/kumbhsans/v22/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQdpEA8bTuUkqaLg.ttf",
-    "800": "https://fonts.gstatic.com/s/kumbhsans/v22/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQEZEA8bTuUkqaLg.ttf",
-    "900": "https://fonts.gstatic.com/s/kumbhsans/v22/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQOJEA8bTuUkqaLg.ttf",
-    "regular": "https://fonts.gstatic.com/s/kumbhsans/v22/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQkZYA8bTuUkqaLg.ttf"
+    "100": "https://fonts.gstatic.com/s/kumbhsans/v26/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQkZcA8bTuUkqaLg.ttf",
+    "200": "https://fonts.gstatic.com/s/kumbhsans/v26/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQEZYA8bTuUkqaLg.ttf",
+    "300": "https://fonts.gstatic.com/s/kumbhsans/v26/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQz5YA8bTuUkqaLg.ttf",
+    "500": "https://fonts.gstatic.com/s/kumbhsans/v26/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQo5YA8bTuUkqaLg.ttf",
+    "600": "https://fonts.gstatic.com/s/kumbhsans/v26/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQT5EA8bTuUkqaLg.ttf",
+    "700": "https://fonts.gstatic.com/s/kumbhsans/v26/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQdpEA8bTuUkqaLg.ttf",
+    "800": "https://fonts.gstatic.com/s/kumbhsans/v26/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQEZEA8bTuUkqaLg.ttf",
+    "900": "https://fonts.gstatic.com/s/kumbhsans/v26/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQOJEA8bTuUkqaLg.ttf",
+    "regular": "https://fonts.gstatic.com/s/kumbhsans/v26/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQkZYA8bTuUkqaLg.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/kumbhsans/v22/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQkZYw8L7q.ttf"
+  "menu": "https://fonts.gstatic.com/s/kumbhsans/v26/c4mP1n92AsfhuCq6tVsaoIx1LQICk0boNoq0SjlDfnzKo-bF3mdQkZYw8L7q.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Style Script",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v11",
-  "lastModified": "2024-09-04",
+  "version": "v12",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/stylescript/v11/vm8xdRX3SV7Z0aPa88xzW5npeFT76NZnMw.ttf"
+    "regular": "https://fonts.gstatic.com/s/stylescript/v12/vm8xdRX3SV7Z0aPa88xzW5npeFT76NZnMw.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/stylescript/v11/vm8xdRX3SV7Z0aPa88xzW5nZeV7_.ttf"
+  "menu": "https://fonts.gstatic.com/s/stylescript/v12/vm8xdRX3SV7Z0aPa88xzW5nZeV7_.ttf"
 }

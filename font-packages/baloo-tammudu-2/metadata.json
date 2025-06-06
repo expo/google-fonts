@@ -2,16 +2,16 @@
   "family": "Baloo Tammudu 2",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["latin", "latin-ext", "telugu", "vietnamese"],
-  "version": "v23",
-  "lastModified": "2024-09-04",
+  "version": "v26",
+  "lastModified": "2025-06-02",
   "files": {
-    "500": "https://fonts.gstatic.com/s/balootammudu2/v23/1Pt5g8TIS_SAmkLguUdFP8UaJcKkzlPmMT00GaE_Jc0e4c6PZSlGmAA.ttf",
-    "600": "https://fonts.gstatic.com/s/balootammudu2/v23/1Pt5g8TIS_SAmkLguUdFP8UaJcKkzlPmMT00GaE_JSEZ4c6PZSlGmAA.ttf",
-    "700": "https://fonts.gstatic.com/s/balootammudu2/v23/1Pt5g8TIS_SAmkLguUdFP8UaJcKkzlPmMT00GaE_JRgZ4c6PZSlGmAA.ttf",
-    "800": "https://fonts.gstatic.com/s/balootammudu2/v23/1Pt5g8TIS_SAmkLguUdFP8UaJcKkzlPmMT00GaE_JX8Z4c6PZSlGmAA.ttf",
-    "regular": "https://fonts.gstatic.com/s/balootammudu2/v23/1Pt5g8TIS_SAmkLguUdFP8UaJcKkzlPmMT00GaE_Jf8e4c6PZSlGmAA.ttf"
+    "500": "https://fonts.gstatic.com/s/balootammudu2/v26/1Pt5g8TIS_SAmkLguUdFP8UaJcKkzlPmMT00GaE_Jc0e4c6PZSlGmAA.ttf",
+    "600": "https://fonts.gstatic.com/s/balootammudu2/v26/1Pt5g8TIS_SAmkLguUdFP8UaJcKkzlPmMT00GaE_JSEZ4c6PZSlGmAA.ttf",
+    "700": "https://fonts.gstatic.com/s/balootammudu2/v26/1Pt5g8TIS_SAmkLguUdFP8UaJcKkzlPmMT00GaE_JRgZ4c6PZSlGmAA.ttf",
+    "800": "https://fonts.gstatic.com/s/balootammudu2/v26/1Pt5g8TIS_SAmkLguUdFP8UaJcKkzlPmMT00GaE_JX8Z4c6PZSlGmAA.ttf",
+    "regular": "https://fonts.gstatic.com/s/balootammudu2/v26/1Pt5g8TIS_SAmkLguUdFP8UaJcKkzlPmMT00GaE_Jf8e4c6PZSlGmAA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/balootammudu2/v23/1Pt5g8TIS_SAmkLguUdFP8UaJcKkzlPmMT00GaE_Jf8e0c-FYQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/balootammudu2/v26/1Pt5g8TIS_SAmkLguUdFP8UaJcKkzlPmMT00GaE_Jf8e0c-FYQ.ttf"
 }

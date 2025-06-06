@@ -2,12 +2,12 @@
   "family": "League Gothic",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v11",
-  "lastModified": "2024-09-04",
+  "version": "v12",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/leaguegothic/v11/qFdR35CBi4tvBz81xy7WG7ep-BQAY7Krj7feObpH_-amidQ6Q9hn.ttf"
+    "regular": "https://fonts.gstatic.com/s/leaguegothic/v12/qFdR35CBi4tvBz81xy7WG7ep-BQAY7Krj7feObpH_-amidQ6Q9hn.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/leaguegothic/v11/qFdR35CBi4tvBz81xy7WG7ep-BQAY7Krj7feObpH_9ang9A.ttf"
+  "menu": "https://fonts.gstatic.com/s/leaguegothic/v12/qFdR35CBi4tvBz81xy7WG7ep-BQAY7Krj7feObpH_9ang9A.ttf"
 }

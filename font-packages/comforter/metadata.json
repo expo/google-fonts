@@ -2,12 +2,12 @@
   "family": "Comforter",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2024-09-04",
+  "version": "v8",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/comforter/v7/H4clBXOCl8nQnlaql3Qa6JG8iqeuag.ttf"
+    "regular": "https://fonts.gstatic.com/s/comforter/v8/H4clBXOCl8nQnlaql3Qa6JG8iqeuag.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/comforter/v7/H4clBXOCl8nQnlaql3Qq6Zu4.ttf"
+  "menu": "https://fonts.gstatic.com/s/comforter/v8/H4clBXOCl8nQnlaql3Qq6Zu4.ttf"
 }

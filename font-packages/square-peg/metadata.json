@@ -2,12 +2,12 @@
   "family": "Square Peg",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2024-09-04",
+  "version": "v6",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/squarepeg/v5/y83eW48Nzw6ZlUHc-phrBDHrHHfrFPE.ttf"
+    "regular": "https://fonts.gstatic.com/s/squarepeg/v6/y83eW48Nzw6ZlUHc-phrBDHrHHfrFPE.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/squarepeg/v5/y83eW48Nzw6ZlUHc-phrNDDhGA.ttf"
+  "menu": "https://fonts.gstatic.com/s/squarepeg/v6/y83eW48Nzw6ZlUHc-phrNDDhGA.ttf"
 }

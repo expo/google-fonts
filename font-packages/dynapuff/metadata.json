@@ -2,15 +2,15 @@
   "family": "DynaPuff",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["cyrillic-ext", "latin", "latin-ext"],
-  "version": "v6",
-  "lastModified": "2025-05-29",
+  "version": "v8",
+  "lastModified": "2025-06-02",
   "files": {
-    "500": "https://fonts.gstatic.com/s/dynapuff/v6/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSyQu6YjrSRs4wn8.ttf",
-    "600": "https://fonts.gstatic.com/s/dynapuff/v6/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS8gp6YjrSRs4wn8.ttf",
-    "700": "https://fonts.gstatic.com/s/dynapuff/v6/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS_Ep6YjrSRs4wn8.ttf",
-    "regular": "https://fonts.gstatic.com/s/dynapuff/v6/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSxYu6YjrSRs4wn8.ttf"
+    "500": "https://fonts.gstatic.com/s/dynapuff/v8/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSyQu6YjrSRs4wn8.ttf",
+    "600": "https://fonts.gstatic.com/s/dynapuff/v8/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS8gp6YjrSRs4wn8.ttf",
+    "700": "https://fonts.gstatic.com/s/dynapuff/v8/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS_Ep6YjrSRs4wn8.ttf",
+    "regular": "https://fonts.gstatic.com/s/dynapuff/v8/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSxYu6YjrSRs4wn8.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/dynapuff/v6/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSxYu2YnhTQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/dynapuff/v8/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSxYu2YnhTQ.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Island Moments",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2024-09-04",
+  "version": "v7",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/islandmoments/v6/NaPBcZfVGvBdxIt7Ar0qzkXJF-TGIohbZ6SY.ttf"
+    "regular": "https://fonts.gstatic.com/s/islandmoments/v7/NaPBcZfVGvBdxIt7Ar0qzkXJF-TGIohbZ6SY.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/islandmoments/v6/NaPBcZfVGvBdxIt7Ar0qzkXJF9THKIw.ttf"
+  "menu": "https://fonts.gstatic.com/s/islandmoments/v7/NaPBcZfVGvBdxIt7Ar0qzkXJF9THKIw.ttf"
 }

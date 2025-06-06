@@ -2,12 +2,12 @@
   "family": "Lovers Quarrel",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v23",
-  "lastModified": "2024-09-04",
+  "version": "v24",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/loversquarrel/v23/Yq6N-LSKXTL-5bCy8ksBzpQ_-zAsY7pO6siz.ttf"
+    "regular": "https://fonts.gstatic.com/s/loversquarrel/v24/Yq6N-LSKXTL-5bCy8ksBzpQ_-zAsY7pO6siz.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/loversquarrel/v23/Yq6N-LSKXTL-5bCy8ksBzpQ_-wAtab4.ttf"
+  "menu": "https://fonts.gstatic.com/s/loversquarrel/v24/Yq6N-LSKXTL-5bCy8ksBzpQ_-wAtab4.ttf"
 }

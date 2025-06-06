@@ -2,13 +2,13 @@
   "family": "Gwendolyn",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2024-09-04",
+  "version": "v8",
+  "lastModified": "2025-06-02",
   "files": {
-    "700": "https://fonts.gstatic.com/s/gwendolyn/v7/qkBSXvoO_M3CSss-d7emWLtvmC7HONiSFQ.ttf",
-    "regular": "https://fonts.gstatic.com/s/gwendolyn/v7/qkBXXvoO_M3CSss-d7ee5JRLkAXbMQ.ttf"
+    "700": "https://fonts.gstatic.com/s/gwendolyn/v8/qkBSXvoO_M3CSss-d7emWLtvmC7HONiSFQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/gwendolyn/v8/qkBXXvoO_M3CSss-d7ee5JRLkAXbMQ.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/gwendolyn/v7/qkBXXvoO_M3CSss-d7eu5Z5P.ttf"
+  "menu": "https://fonts.gstatic.com/s/gwendolyn/v8/qkBXXvoO_M3CSss-d7eu5Z5P.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Inspiration",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2024-09-04",
+  "version": "v7",
+  "lastModified": "2025-06-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/inspiration/v6/x3dkckPPZa6L4wIg5cZOEvoGnSrlBBsy.ttf"
+    "regular": "https://fonts.gstatic.com/s/inspiration/v7/x3dkckPPZa6L4wIg5cZOEvoGnSrlBBsy.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/inspiration/v6/x3dkckPPZa6L4wIg5cZOEsoHly4.ttf"
+  "menu": "https://fonts.gstatic.com/s/inspiration/v7/x3dkckPPZa6L4wIg5cZOEsoHly4.ttf"
 }

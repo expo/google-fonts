@@ -2,13 +2,13 @@
   "family": "Birthstone Bounce",
   "variants": ["regular", "500"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v11",
-  "lastModified": "2024-09-04",
+  "version": "v12",
+  "lastModified": "2025-06-02",
   "files": {
-    "500": "https://fonts.gstatic.com/s/birthstonebounce/v11/ga6SaxZF43lIvTWrktHOTBJZGH7dEd29MacQJZP1LmD9.ttf",
-    "regular": "https://fonts.gstatic.com/s/birthstonebounce/v11/ga6XaxZF43lIvTWrktHOTBJZGH7dEeVJGIMYDo_8.ttf"
+    "500": "https://fonts.gstatic.com/s/birthstonebounce/v12/ga6SaxZF43lIvTWrktHOTBJZGH7dEd29MacQJZP1LmD9.ttf",
+    "regular": "https://fonts.gstatic.com/s/birthstonebounce/v12/ga6XaxZF43lIvTWrktHOTBJZGH7dEeVJGIMYDo_8.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/birthstonebounce/v11/ga6XaxZF43lIvTWrktHOTBJZGH7dEdVIEoc.ttf"
+  "menu": "https://fonts.gstatic.com/s/birthstonebounce/v12/ga6XaxZF43lIvTWrktHOTBJZGH7dEdVIEoc.ttf"
 }

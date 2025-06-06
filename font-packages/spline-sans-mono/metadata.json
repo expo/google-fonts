@@ -13,21 +13,21 @@
     "700italic"
   ],
   "subsets": ["latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2024-09-04",
+  "version": "v12",
+  "lastModified": "2025-06-02",
   "files": {
-    "300": "https://fonts.gstatic.com/s/splinesansmono/v10/R70MjzAei_CDNLfgZxrW6wrZOF2WdZ6xabUGSVtNuGA8MrtVy4d4dGb1.ttf",
-    "500": "https://fonts.gstatic.com/s/splinesansmono/v10/R70MjzAei_CDNLfgZxrW6wrZOF2WdZ6xabUGSVtNuGBQMrtVy4d4dGb1.ttf",
-    "600": "https://fonts.gstatic.com/s/splinesansmono/v10/R70MjzAei_CDNLfgZxrW6wrZOF2WdZ6xabUGSVtNuGC8NbtVy4d4dGb1.ttf",
-    "700": "https://fonts.gstatic.com/s/splinesansmono/v10/R70MjzAei_CDNLfgZxrW6wrZOF2WdZ6xabUGSVtNuGCFNbtVy4d4dGb1.ttf",
-    "regular": "https://fonts.gstatic.com/s/splinesansmono/v10/R70MjzAei_CDNLfgZxrW6wrZOF2WdZ6xabUGSVtNuGBiMrtVy4d4dGb1.ttf",
-    "300italic": "https://fonts.gstatic.com/s/splinesansmono/v10/R70yjzAei_CDNLfgZxrW6wrZOF2WX5eDlm1vIsHjv3WqcQ0WwYNacXb12MM.ttf",
-    "italic": "https://fonts.gstatic.com/s/splinesansmono/v10/R70yjzAei_CDNLfgZxrW6wrZOF2WX5eDlm1vIsHjv3WqcVMWwYNacXb12MM.ttf",
-    "500italic": "https://fonts.gstatic.com/s/splinesansmono/v10/R70yjzAei_CDNLfgZxrW6wrZOF2WX5eDlm1vIsHjv3WqcWEWwYNacXb12MM.ttf",
-    "600italic": "https://fonts.gstatic.com/s/splinesansmono/v10/R70yjzAei_CDNLfgZxrW6wrZOF2WX5eDlm1vIsHjv3WqcY0RwYNacXb12MM.ttf",
-    "700italic": "https://fonts.gstatic.com/s/splinesansmono/v10/R70yjzAei_CDNLfgZxrW6wrZOF2WX5eDlm1vIsHjv3WqcbQRwYNacXb12MM.ttf"
+    "300": "https://fonts.gstatic.com/s/splinesansmono/v12/R70MjzAei_CDNLfgZxrW6wrZOF2WdZ6xabUGSVtNuGA8MrtVy4d4dGb1.ttf",
+    "500": "https://fonts.gstatic.com/s/splinesansmono/v12/R70MjzAei_CDNLfgZxrW6wrZOF2WdZ6xabUGSVtNuGBQMrtVy4d4dGb1.ttf",
+    "600": "https://fonts.gstatic.com/s/splinesansmono/v12/R70MjzAei_CDNLfgZxrW6wrZOF2WdZ6xabUGSVtNuGC8NbtVy4d4dGb1.ttf",
+    "700": "https://fonts.gstatic.com/s/splinesansmono/v12/R70MjzAei_CDNLfgZxrW6wrZOF2WdZ6xabUGSVtNuGCFNbtVy4d4dGb1.ttf",
+    "regular": "https://fonts.gstatic.com/s/splinesansmono/v12/R70MjzAei_CDNLfgZxrW6wrZOF2WdZ6xabUGSVtNuGBiMrtVy4d4dGb1.ttf",
+    "300italic": "https://fonts.gstatic.com/s/splinesansmono/v12/R70yjzAei_CDNLfgZxrW6wrZOF2WX5eDlm1vIsHjv3WqcQ0WwYNacXb12MM.ttf",
+    "italic": "https://fonts.gstatic.com/s/splinesansmono/v12/R70yjzAei_CDNLfgZxrW6wrZOF2WX5eDlm1vIsHjv3WqcVMWwYNacXb12MM.ttf",
+    "500italic": "https://fonts.gstatic.com/s/splinesansmono/v12/R70yjzAei_CDNLfgZxrW6wrZOF2WX5eDlm1vIsHjv3WqcWEWwYNacXb12MM.ttf",
+    "600italic": "https://fonts.gstatic.com/s/splinesansmono/v12/R70yjzAei_CDNLfgZxrW6wrZOF2WX5eDlm1vIsHjv3WqcY0RwYNacXb12MM.ttf",
+    "700italic": "https://fonts.gstatic.com/s/splinesansmono/v12/R70yjzAei_CDNLfgZxrW6wrZOF2WX5eDlm1vIsHjv3WqcbQRwYNacXb12MM.ttf"
   },
   "category": "monospace",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/splinesansmono/v10/R70MjzAei_CDNLfgZxrW6wrZOF2WdZ6xabUGSVtNuGBiMotUwYM.ttf"
+  "menu": "https://fonts.gstatic.com/s/splinesansmono/v12/R70MjzAei_CDNLfgZxrW6wrZOF2WdZ6xabUGSVtNuGBiMotUwYM.ttf"
 }

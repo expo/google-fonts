@@ -2,19 +2,19 @@
   "family": "Noto Serif JP",
   "variants": ["200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext", "vietnamese"],
-  "version": "v30",
-  "lastModified": "2024-09-23",
+  "version": "v31",
+  "lastModified": "2025-06-02",
   "files": {
-    "200": "https://fonts.gstatic.com/s/notoserifjp/v30/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2byxOubAILO5wBCU.ttf",
-    "300": "https://fonts.gstatic.com/s/notoserifjp/v30/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bxvOubAILO5wBCU.ttf",
-    "500": "https://fonts.gstatic.com/s/notoserifjp/v30/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bwDOubAILO5wBCU.ttf",
-    "600": "https://fonts.gstatic.com/s/notoserifjp/v30/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bzvPebAILO5wBCU.ttf",
-    "700": "https://fonts.gstatic.com/s/notoserifjp/v30/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bzWPebAILO5wBCU.ttf",
-    "800": "https://fonts.gstatic.com/s/notoserifjp/v30/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2byxPebAILO5wBCU.ttf",
-    "900": "https://fonts.gstatic.com/s/notoserifjp/v30/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2byYPebAILO5wBCU.ttf",
-    "regular": "https://fonts.gstatic.com/s/notoserifjp/v30/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bwxOubAILO5wBCU.ttf"
+    "200": "https://fonts.gstatic.com/s/notoserifjp/v31/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2byxOubAILO5wBCU.ttf",
+    "300": "https://fonts.gstatic.com/s/notoserifjp/v31/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bxvOubAILO5wBCU.ttf",
+    "500": "https://fonts.gstatic.com/s/notoserifjp/v31/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bwDOubAILO5wBCU.ttf",
+    "600": "https://fonts.gstatic.com/s/notoserifjp/v31/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bzvPebAILO5wBCU.ttf",
+    "700": "https://fonts.gstatic.com/s/notoserifjp/v31/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bzWPebAILO5wBCU.ttf",
+    "800": "https://fonts.gstatic.com/s/notoserifjp/v31/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2byxPebAILO5wBCU.ttf",
+    "900": "https://fonts.gstatic.com/s/notoserifjp/v31/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2byYPebAILO5wBCU.ttf",
+    "regular": "https://fonts.gstatic.com/s/notoserifjp/v31/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bwxOubAILO5wBCU.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notoserifjp/v30/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bwxOtbBKrc.ttf"
+  "menu": "https://fonts.gstatic.com/s/notoserifjp/v31/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bwxOtbBKrc.ttf"
 }

@@ -2,13 +2,13 @@
   "family": "Unkempt",
   "variants": ["regular", "700"],
   "subsets": ["latin"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
+  "version": "v22",
+  "lastModified": "2025-06-02",
   "files": {
-    "700": "https://fonts.gstatic.com/s/unkempt/v21/2EbiL-Z2DFZue0DScTow1zWzq_5uT84.ttf",
-    "regular": "https://fonts.gstatic.com/s/unkempt/v21/2EbnL-Z2DFZue0DSSYYf8z2Yt_c.ttf"
+    "700": "https://fonts.gstatic.com/s/unkempt/v22/2EbiL-Z2DFZue0DScTow1zWzq_5uT84.ttf",
+    "regular": "https://fonts.gstatic.com/s/unkempt/v22/2EbnL-Z2DFZue0DSSYYf8z2Yt_c.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/unkempt/v21/2EbnL-Z2DFZue0DSeYcV9w.ttf"
+  "menu": "https://fonts.gstatic.com/s/unkempt/v22/2EbnL-Z2DFZue0DSeYcV9w.ttf"
 }
