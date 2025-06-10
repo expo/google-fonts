@@ -2,7 +2,7 @@
   "family": "LXGW WenKai Mono TC",
   "variants": ["300", "regular", "700"],
   "subsets": [
-    "chinese-hongkong",
+    "chinese-traditional",
     "cyrillic",
     "cyrillic-ext",
     "greek",
@@ -12,14 +12,14 @@
     "lisu",
     "vietnamese"
   ],
-  "version": "v5",
-  "lastModified": "2024-09-04",
+  "version": "v9",
+  "lastModified": "2025-06-09",
   "files": {
-    "300": "https://fonts.gstatic.com/s/lxgwwenkaimonotc/v5/pxiVyos4iPVgyWx9WtufHnsIf5nkaB0HssKqhvJljXmo2SA.ttf",
-    "700": "https://fonts.gstatic.com/s/lxgwwenkaimonotc/v5/pxiVyos4iPVgyWx9WtufHnsIf5nkaB0HstKthvJljXmo2SA.ttf",
-    "regular": "https://fonts.gstatic.com/s/lxgwwenkaimonotc/v5/pxiYyos4iPVgyWx9WtufHnsIf5nkaB0Him6CovpOkXA.ttf"
+    "300": "https://fonts.gstatic.com/s/lxgwwenkaimonotc/v9/pxiVyos4iPVgyWx9WtufHnsIf5nkaB0HssKqhvJljXmo2SA.ttf",
+    "700": "https://fonts.gstatic.com/s/lxgwwenkaimonotc/v9/pxiVyos4iPVgyWx9WtufHnsIf5nkaB0HstKthvJljXmo2SA.ttf",
+    "regular": "https://fonts.gstatic.com/s/lxgwwenkaimonotc/v9/pxiYyos4iPVgyWx9WtufHnsIf5nkaB0Him6CovpOkXA.ttf"
   },
   "category": "monospace",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/lxgwwenkaimonotc/v5/pxiYyos4iPVgyWx9WtufHnsIf5nkaB0Hum-Ipg.ttf"
+  "menu": "https://fonts.gstatic.com/s/lxgwwenkaimonotc/v9/pxiYyos4iPVgyWx9WtufHnsIf5nkaB0Hum-Ipg.ttf"
 }

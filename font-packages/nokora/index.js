@@ -4,7 +4,11 @@
 export * from './useFonts';
 export { default as __metadata__ } from './metadata.json';
 export const Nokora_100Thin = require('./100Thin/Nokora_100Thin.ttf');
+export const Nokora_200ExtraLight = require('./200ExtraLight/Nokora_200ExtraLight.ttf');
 export const Nokora_300Light = require('./300Light/Nokora_300Light.ttf');
 export const Nokora_400Regular = require('./400Regular/Nokora_400Regular.ttf');
+export const Nokora_500Medium = require('./500Medium/Nokora_500Medium.ttf');
+export const Nokora_600SemiBold = require('./600SemiBold/Nokora_600SemiBold.ttf');
 export const Nokora_700Bold = require('./700Bold/Nokora_700Bold.ttf');
+export const Nokora_800ExtraBold = require('./800ExtraBold/Nokora_800ExtraBold.ttf');
 export const Nokora_900Black = require('./900Black/Nokora_900Black.ttf');

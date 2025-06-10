@@ -230,12 +230,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |[![CascadiaCode_200ExtraLight_Italic](./font-packages/cascadia-code/200ExtraLight_Italic/CascadiaCode_200ExtraLight_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cascadia-code#readme)|[![CascadiaCode_300Light_Italic](./font-packages/cascadia-code/300Light_Italic/CascadiaCode_300Light_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cascadia-code#readme)|[![CascadiaCode_400Regular_Italic](./font-packages/cascadia-code/400Regular_Italic/CascadiaCode_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cascadia-code#readme)||
 |[![CascadiaCode_500Medium_Italic](./font-packages/cascadia-code/500Medium_Italic/CascadiaCode_500Medium_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cascadia-code#readme)|[![CascadiaCode_600SemiBold_Italic](./font-packages/cascadia-code/600SemiBold_Italic/CascadiaCode_600SemiBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cascadia-code#readme)|[![CascadiaCode_700Bold_Italic](./font-packages/cascadia-code/700Bold_Italic/CascadiaCode_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cascadia-code#readme)||
 
-### [Cal Sans](https://github.com/expo/google-fonts/tree/main/font-packages/cal-sans#readme)
-
-||||
-|-|-|-|
-|[![CalSans_400Regular](./font-packages/cal-sans/400Regular/CalSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cal-sans#readme)||||
-
 ### [Winky Rough](https://github.com/expo/google-fonts/tree/main/font-packages/winky-rough#readme)
 
 ||||
@@ -271,6 +265,12 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |[![NationalPark_200ExtraLight](./font-packages/national-park/200ExtraLight/NationalPark_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/national-park#readme)|[![NationalPark_300Light](./font-packages/national-park/300Light/NationalPark_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/national-park#readme)|[![NationalPark_400Regular](./font-packages/national-park/400Regular/NationalPark_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/national-park#readme)||
 |[![NationalPark_500Medium](./font-packages/national-park/500Medium/NationalPark_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/national-park#readme)|[![NationalPark_600SemiBold](./font-packages/national-park/600SemiBold/NationalPark_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/national-park#readme)|[![NationalPark_700Bold](./font-packages/national-park/700Bold/NationalPark_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/national-park#readme)||
 |[![NationalPark_800ExtraBold](./font-packages/national-park/800ExtraBold/NationalPark_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/national-park#readme)||||
+
+### [Cal Sans](https://github.com/expo/google-fonts/tree/main/font-packages/cal-sans#readme)
+
+||||
+|-|-|-|
+|[![CalSans_400Regular](./font-packages/cal-sans/400Regular/CalSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cal-sans#readme)||||
 
 ### [Winky Sans](https://github.com/expo/google-fonts/tree/main/font-packages/winky-sans#readme)
 
@@ -1005,7 +1005,8 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 
 ||||
 |-|-|-|
-|[![BaskervvilleSC_400Regular](./font-packages/baskervville-sc/400Regular/BaskervvilleSC_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/baskervville-sc#readme)||||
+|[![BaskervvilleSC_400Regular](./font-packages/baskervville-sc/400Regular/BaskervvilleSC_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/baskervville-sc#readme)|[![BaskervvilleSC_500Medium](./font-packages/baskervville-sc/500Medium/BaskervvilleSC_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/baskervville-sc#readme)|[![BaskervvilleSC_600SemiBold](./font-packages/baskervville-sc/600SemiBold/BaskervvilleSC_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/baskervville-sc#readme)||
+|[![BaskervvilleSC_700Bold](./font-packages/baskervville-sc/700Bold/BaskervvilleSC_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/baskervville-sc#readme)||||
 
 ### [Arsenal SC](https://github.com/expo/google-fonts/tree/main/font-packages/arsenal-sc#readme)
 
@@ -1211,18 +1212,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |-|-|-|
 |[![LXGWWenKaiMonoTC_300Light](./font-packages/lxgw-wenkai-mono-tc/300Light/LXGWWenKaiMonoTC_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/lxgw-wenkai-mono-tc#readme)|[![LXGWWenKaiMonoTC_400Regular](./font-packages/lxgw-wenkai-mono-tc/400Regular/LXGWWenKaiMonoTC_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/lxgw-wenkai-mono-tc#readme)|[![LXGWWenKaiMonoTC_700Bold](./font-packages/lxgw-wenkai-mono-tc/700Bold/LXGWWenKaiMonoTC_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/lxgw-wenkai-mono-tc#readme)||
 
-### [Chocolate Classical Sans](https://github.com/expo/google-fonts/tree/main/font-packages/chocolate-classical-sans#readme)
-
-||||
-|-|-|-|
-|[![ChocolateClassicalSans_400Regular](./font-packages/chocolate-classical-sans/400Regular/ChocolateClassicalSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chocolate-classical-sans#readme)||||
-
-### [Cactus Classical Serif](https://github.com/expo/google-fonts/tree/main/font-packages/cactus-classical-serif#readme)
-
-||||
-|-|-|-|
-|[![CactusClassicalSerif_400Regular](./font-packages/cactus-classical-serif/400Regular/CactusClassicalSerif_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cactus-classical-serif#readme)||||
-
 ### [Playwrite AR](https://github.com/expo/google-fonts/tree/main/font-packages/playwrite-ar#readme)
 
 ||||
@@ -1405,6 +1394,18 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |-|-|-|
 |[![PlaywriteSK_100Thin](./font-packages/playwrite-sk/100Thin/PlaywriteSK_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/playwrite-sk#readme)|[![PlaywriteSK_200ExtraLight](./font-packages/playwrite-sk/200ExtraLight/PlaywriteSK_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/playwrite-sk#readme)|[![PlaywriteSK_300Light](./font-packages/playwrite-sk/300Light/PlaywriteSK_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/playwrite-sk#readme)||
 |[![PlaywriteSK_400Regular](./font-packages/playwrite-sk/400Regular/PlaywriteSK_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/playwrite-sk#readme)||||
+
+### [Cactus Classical Serif](https://github.com/expo/google-fonts/tree/main/font-packages/cactus-classical-serif#readme)
+
+||||
+|-|-|-|
+|[![CactusClassicalSerif_400Regular](./font-packages/cactus-classical-serif/400Regular/CactusClassicalSerif_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cactus-classical-serif#readme)||||
+
+### [Chocolate Classical Sans](https://github.com/expo/google-fonts/tree/main/font-packages/chocolate-classical-sans#readme)
+
+||||
+|-|-|-|
+|[![ChocolateClassicalSans_400Regular](./font-packages/chocolate-classical-sans/400Regular/ChocolateClassicalSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chocolate-classical-sans#readme)||||
 
 ### [Jacquard 12](https://github.com/expo/google-fonts/tree/main/font-packages/jacquard-12#readme)
 
@@ -10715,8 +10716,9 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 
 ||||
 |-|-|-|
-|[![Nokora_100Thin](./font-packages/nokora/100Thin/Nokora_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/nokora#readme)|[![Nokora_300Light](./font-packages/nokora/300Light/Nokora_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/nokora#readme)|[![Nokora_400Regular](./font-packages/nokora/400Regular/Nokora_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/nokora#readme)||
-|[![Nokora_700Bold](./font-packages/nokora/700Bold/Nokora_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/nokora#readme)|[![Nokora_900Black](./font-packages/nokora/900Black/Nokora_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/nokora#readme)|||
+|[![Nokora_100Thin](./font-packages/nokora/100Thin/Nokora_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/nokora#readme)|[![Nokora_200ExtraLight](./font-packages/nokora/200ExtraLight/Nokora_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/nokora#readme)|[![Nokora_300Light](./font-packages/nokora/300Light/Nokora_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/nokora#readme)||
+|[![Nokora_400Regular](./font-packages/nokora/400Regular/Nokora_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/nokora#readme)|[![Nokora_500Medium](./font-packages/nokora/500Medium/Nokora_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/nokora#readme)|[![Nokora_600SemiBold](./font-packages/nokora/600SemiBold/Nokora_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/nokora#readme)||
+|[![Nokora_700Bold](./font-packages/nokora/700Bold/Nokora_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/nokora#readme)|[![Nokora_800ExtraBold](./font-packages/nokora/800ExtraBold/Nokora_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/nokora#readme)|[![Nokora_900Black](./font-packages/nokora/900Black/Nokora_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/nokora#readme)||
 
 ### [Arapey](https://github.com/expo/google-fonts/tree/main/font-packages/arapey#readme)
 
