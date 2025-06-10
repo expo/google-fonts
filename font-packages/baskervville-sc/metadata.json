@@ -1,13 +1,16 @@
 {
   "family": "Baskervville SC",
-  "variants": ["regular"],
+  "variants": ["regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v1",
-  "lastModified": "2024-09-04",
+  "version": "v3",
+  "lastModified": "2025-06-09",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/baskervvillesc/v1/X7n94bc_DeKlh6bBbk_WiKnBSUvR71R3tiSx0g.ttf"
+    "500": "https://fonts.gstatic.com/s/baskervvillesc/v3/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHg7iXM3kPWntDsg.ttf",
+    "600": "https://fonts.gstatic.com/s/baskervvillesc/v3/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHuLlXM3kPWntDsg.ttf",
+    "700": "https://fonts.gstatic.com/s/baskervvillesc/v3/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHtvlXM3kPWntDsg.ttf",
+    "regular": "https://fonts.gstatic.com/s/baskervvillesc/v3/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHjziXM3kPWntDsg.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/baskervvillesc/v1/X7n94bc_DeKlh6bBbk_WiKnBSUvh7l5z.ttf"
+  "menu": "https://fonts.gstatic.com/s/baskervvillesc/v3/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHjzibMzuOQ.ttf"
 }

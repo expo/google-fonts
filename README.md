@@ -85,7 +85,7 @@ You can browse all available Google Fonts on [fonts.google.com](https://fonts.go
 
 [directory-by-atiladev-com.netlify.app](https://directory-by-atiladev-com.netlify.app/) is a directory / search engine that will let you browse and search through all of the available fonts and show you the appropriate `import` statements you'll need so you can copy & paste into your own code.
 
-Here are a few examples of the 7037 variants of 1844 fonts available:
+Here are a few examples of the 7044 variants of 1844 fonts available:
 
 
 ||||

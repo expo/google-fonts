@@ -11,9 +11,12 @@ This package lets you use the [**Baskervville SC**](https://fonts.google.com/spe
 
 ![Baskervville SC](./font-family.png)
 
-This font family contains [1 styles](#-gallery).
+This font family contains [4 styles](#-gallery).
 
 - `BaskervvilleSC_400Regular`
+- `BaskervvilleSC_500Medium`
+- `BaskervvilleSC_600SemiBold`
+- `BaskervvilleSC_700Bold`
 
 ## Usage
 
@@ -29,11 +32,17 @@ Now add code like this to your project
 import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/baskervville-sc/useFonts';
 import { BaskervvilleSC_400Regular } from '@expo-google-fonts/baskervville-sc/400Regular';
+import { BaskervvilleSC_500Medium } from '@expo-google-fonts/baskervville-sc/500Medium';
+import { BaskervvilleSC_600SemiBold } from '@expo-google-fonts/baskervville-sc/600SemiBold';
+import { BaskervvilleSC_700Bold } from '@expo-google-fonts/baskervville-sc/700Bold';
 
 export default () => {
 
   let [fontsLoaded] = useFonts({
-    BaskervvilleSC_400Regular
+    BaskervvilleSC_400Regular, 
+    BaskervvilleSC_500Medium, 
+    BaskervvilleSC_600SemiBold, 
+    BaskervvilleSC_700Bold
   });
 
   let fontSize = 24;
@@ -52,6 +61,30 @@ export default () => {
         }}>
           Baskervville SC Regular
         </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BaskervvilleSC_500Medium"
+        }}>
+          Baskervville SC Medium
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BaskervvilleSC_600SemiBold"
+        }}>
+          Baskervville SC Semi Bold
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "BaskervvilleSC_700Bold"
+        }}>
+          Baskervville SC Bold
+        </Text>
       </View>
     );
   }
@@ -63,7 +96,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BaskervvilleSC_400Regular](./400Regular/BaskervvilleSC_400Regular.ttf.png)||||
+|![BaskervvilleSC_400Regular](./400Regular/BaskervvilleSC_400Regular.ttf.png)|![BaskervvilleSC_500Medium](./500Medium/BaskervvilleSC_500Medium.ttf.png)|![BaskervvilleSC_600SemiBold](./600SemiBold/BaskervvilleSC_600SemiBold.ttf.png)||
+|![BaskervvilleSC_700Bold](./700Bold/BaskervvilleSC_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

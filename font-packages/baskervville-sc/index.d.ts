@@ -4,3 +4,6 @@
 export * from './useFonts';
 export const __metadata__: any;
 export const BaskervvilleSC_400Regular: number;
+export const BaskervvilleSC_500Medium: number;
+export const BaskervvilleSC_600SemiBold: number;
+export const BaskervvilleSC_700Bold: number;

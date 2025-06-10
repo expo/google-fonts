@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/lxgw-wenkai-mono-tc",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the LXGW WenKai Mono TC font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

@@ -11,12 +11,16 @@ This package lets you use the [**Nokora**](https://fonts.google.com/specimen/Nok
 
 ![Nokora](./font-family.png)
 
-This font family contains [5 styles](#-gallery).
+This font family contains [9 styles](#-gallery).
 
 - `Nokora_100Thin`
+- `Nokora_200ExtraLight`
 - `Nokora_300Light`
 - `Nokora_400Regular`
+- `Nokora_500Medium`
+- `Nokora_600SemiBold`
 - `Nokora_700Bold`
+- `Nokora_800ExtraBold`
 - `Nokora_900Black`
 
 ## Usage
@@ -33,18 +37,26 @@ Now add code like this to your project
 import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/nokora/useFonts';
 import { Nokora_100Thin } from '@expo-google-fonts/nokora/100Thin';
+import { Nokora_200ExtraLight } from '@expo-google-fonts/nokora/200ExtraLight';
 import { Nokora_300Light } from '@expo-google-fonts/nokora/300Light';
 import { Nokora_400Regular } from '@expo-google-fonts/nokora/400Regular';
+import { Nokora_500Medium } from '@expo-google-fonts/nokora/500Medium';
+import { Nokora_600SemiBold } from '@expo-google-fonts/nokora/600SemiBold';
 import { Nokora_700Bold } from '@expo-google-fonts/nokora/700Bold';
+import { Nokora_800ExtraBold } from '@expo-google-fonts/nokora/800ExtraBold';
 import { Nokora_900Black } from '@expo-google-fonts/nokora/900Black';
 
 export default () => {
 
   let [fontsLoaded] = useFonts({
     Nokora_100Thin, 
+    Nokora_200ExtraLight, 
     Nokora_300Light, 
     Nokora_400Regular, 
+    Nokora_500Medium, 
+    Nokora_600SemiBold, 
     Nokora_700Bold, 
+    Nokora_800ExtraBold, 
     Nokora_900Black
   });
 
@@ -68,6 +80,14 @@ export default () => {
           fontSize,
           paddingVertical,
           // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Nokora_200ExtraLight"
+        }}>
+          Nokora Extra Light
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
           fontFamily: "Nokora_300Light"
         }}>
           Nokora Light
@@ -84,9 +104,33 @@ export default () => {
           fontSize,
           paddingVertical,
           // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Nokora_500Medium"
+        }}>
+          Nokora Medium
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Nokora_600SemiBold"
+        }}>
+          Nokora Semi Bold
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
           fontFamily: "Nokora_700Bold"
         }}>
           Nokora Bold
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Nokora_800ExtraBold"
+        }}>
+          Nokora Extra Bold
         </Text>
         <Text style={{
           fontSize,
@@ -107,8 +151,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Nokora_100Thin](./100Thin/Nokora_100Thin.ttf.png)|![Nokora_300Light](./300Light/Nokora_300Light.ttf.png)|![Nokora_400Regular](./400Regular/Nokora_400Regular.ttf.png)||
-|![Nokora_700Bold](./700Bold/Nokora_700Bold.ttf.png)|![Nokora_900Black](./900Black/Nokora_900Black.ttf.png)|||
+|![Nokora_100Thin](./100Thin/Nokora_100Thin.ttf.png)|![Nokora_200ExtraLight](./200ExtraLight/Nokora_200ExtraLight.ttf.png)|![Nokora_300Light](./300Light/Nokora_300Light.ttf.png)||
+|![Nokora_400Regular](./400Regular/Nokora_400Regular.ttf.png)|![Nokora_500Medium](./500Medium/Nokora_500Medium.ttf.png)|![Nokora_600SemiBold](./600SemiBold/Nokora_600SemiBold.ttf.png)||
+|![Nokora_700Bold](./700Bold/Nokora_700Bold.ttf.png)|![Nokora_800ExtraBold](./800ExtraBold/Nokora_800ExtraBold.ttf.png)|![Nokora_900Black](./900Black/Nokora_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development
