@@ -75,7 +75,7 @@ export default function App() {
 
 ### Example Project
 
-Here is a [minimal but complete example](https://github.com/expo/google-fonts/tree/master/example).
+Here is a [minimal but complete example](https://github.com/expo/google-fonts/tree/main/packages/example).
 
 Each individual font family package README includes a complete example of using that font family.
 
