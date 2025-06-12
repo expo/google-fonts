@@ -2042,13 +2042,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |-|-|-|
 |[![NotoSerifMakasar_400Regular](./font-packages/noto-serif-makasar/400Regular/NotoSerifMakasar_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/noto-serif-makasar#readme)||||
 
-### [Narnoor](https://github.com/expo/google-fonts/tree/main/font-packages/narnoor#readme)
-
-||||
-|-|-|-|
-|[![Narnoor_400Regular](./font-packages/narnoor/400Regular/Narnoor_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/narnoor#readme)|[![Narnoor_500Medium](./font-packages/narnoor/500Medium/Narnoor_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/narnoor#readme)|[![Narnoor_600SemiBold](./font-packages/narnoor/600SemiBold/Narnoor_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/narnoor#readme)||
-|[![Narnoor_700Bold](./font-packages/narnoor/700Bold/Narnoor_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/narnoor#readme)|[![Narnoor_800ExtraBold](./font-packages/narnoor/800ExtraBold/Narnoor_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/narnoor#readme)|||
-
 ### [Noto Sans Kawi](https://github.com/expo/google-fonts/tree/main/font-packages/noto-sans-kawi#readme)
 
 ||||
@@ -2353,6 +2346,13 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 ||||
 |-|-|-|
 |[![CastoroTitling_400Regular](./font-packages/castoro-titling/400Regular/CastoroTitling_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/castoro-titling#readme)||||
+
+### [Narnoor](https://github.com/expo/google-fonts/tree/main/font-packages/narnoor#readme)
+
+||||
+|-|-|-|
+|[![Narnoor_400Regular](./font-packages/narnoor/400Regular/Narnoor_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/narnoor#readme)|[![Narnoor_500Medium](./font-packages/narnoor/500Medium/Narnoor_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/narnoor#readme)|[![Narnoor_600SemiBold](./font-packages/narnoor/600SemiBold/Narnoor_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/narnoor#readme)||
+|[![Narnoor_700Bold](./font-packages/narnoor/700Bold/Narnoor_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/narnoor#readme)|[![Narnoor_800ExtraBold](./font-packages/narnoor/800ExtraBold/Narnoor_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/narnoor#readme)|||
 
 ### [Schibsted Grotesk](https://github.com/expo/google-fonts/tree/main/font-packages/schibsted-grotesk#readme)
 

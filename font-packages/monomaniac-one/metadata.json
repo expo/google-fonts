@@ -2,12 +2,12 @@
   "family": "Monomaniac One",
   "variants": ["regular"],
   "subsets": ["japanese", "latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2024-08-07",
+  "version": "v14",
+  "lastModified": "2025-06-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/monomaniacone/v12/4iC06K17YctZjx50EU-QlwPmcqRnqYkB5kwI.ttf"
+    "regular": "https://fonts.gstatic.com/s/monomaniacone/v14/4iC06K17YctZjx50EU-QlwPmcqRnqYkB5kwI.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/monomaniacone/v12/4iC06K17YctZjx50EU-QlwPmcpRmo40.ttf"
+  "menu": "https://fonts.gstatic.com/s/monomaniacone/v14/4iC06K17YctZjx50EU-QlwPmcpRmo40.ttf"
 }

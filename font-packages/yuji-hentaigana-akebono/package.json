@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/yuji-hentaigana-akebono",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Yuji Hentaigana Akebono font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {
