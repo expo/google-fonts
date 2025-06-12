@@ -2,12 +2,12 @@
   "family": "Cherry Bomb One",
   "variants": ["regular"],
   "subsets": ["japanese", "latin", "latin-ext", "vietnamese"],
-  "version": "v9",
-  "lastModified": "2024-08-07",
+  "version": "v10",
+  "lastModified": "2025-06-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/cherrybombone/v9/y83DW4od1h6KlV3c6JJhRhGOdhrKDNpF41fr-w.ttf"
+    "regular": "https://fonts.gstatic.com/s/cherrybombone/v10/y83DW4od1h6KlV3c6JJhRhGOdhrKDNpF41fr-w.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/cherrybombone/v9/y83DW4od1h6KlV3c6JJhRhGOdhr6DdBB.ttf"
+  "menu": "https://fonts.gstatic.com/s/cherrybombone/v10/y83DW4od1h6KlV3c6JJhRhGOdhr6DdBB.ttf"
 }
