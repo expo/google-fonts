@@ -2,6 +2,33 @@
 // If you want to modify it, go to packages/generator/templates
 
 export { useFonts } from './useFonts';
+export const WDXLLubrifontSC_400Regular: string;
+export const WDXLLubrifontJPN_400Regular: string;
+export const Matangi_300Light: string;
+export const Matangi_400Regular: string;
+export const Matangi_500Medium: string;
+export const Matangi_600SemiBold: string;
+export const Matangi_700Bold: string;
+export const Matangi_800ExtraBold: string;
+export const Matangi_900Black: string;
+export const LXGWMarkerGothic_400Regular: string;
+export const Huninn_400Regular: string;
+export const ChironSungHK_200ExtraLight: string;
+export const ChironSungHK_300Light: string;
+export const ChironSungHK_400Regular: string;
+export const ChironSungHK_500Medium: string;
+export const ChironSungHK_600SemiBold: string;
+export const ChironSungHK_700Bold: string;
+export const ChironSungHK_800ExtraBold: string;
+export const ChironSungHK_900Black: string;
+export const ChironSungHK_200ExtraLight_Italic: string;
+export const ChironSungHK_300Light_Italic: string;
+export const ChironSungHK_400Regular_Italic: string;
+export const ChironSungHK_500Medium_Italic: string;
+export const ChironSungHK_600SemiBold_Italic: string;
+export const ChironSungHK_700Bold_Italic: string;
+export const ChironSungHK_800ExtraBold_Italic: string;
+export const ChironSungHK_900Black_Italic: string;
 export const Savate_200ExtraLight: string;
 export const Savate_300Light: string;
 export const Savate_400Regular: string;
@@ -279,12 +306,6 @@ export const NotoSerifHentaigana_600SemiBold: string;
 export const NotoSerifHentaigana_700Bold: string;
 export const NotoSerifHentaigana_800ExtraBold: string;
 export const NotoSerifHentaigana_900Black: string;
-export const font42dotSans_300Light: string;
-export const font42dotSans_400Regular: string;
-export const font42dotSans_500Medium: string;
-export const font42dotSans_600SemiBold: string;
-export const font42dotSans_700Bold: string;
-export const font42dotSans_800ExtraBold: string;
 export const NotoSerifTodhri_400Regular: string;
 export const Liter_400Regular: string;
 export const AtkinsonHyperlegibleNext_200ExtraLight: string;
@@ -6953,9 +6974,13 @@ export const GFSNeohellenic_400Regular_Italic: string;
 export const GFSNeohellenic_700Bold: string;
 export const GFSNeohellenic_700Bold_Italic: string;
 export const Hanuman_100Thin: string;
+export const Hanuman_200ExtraLight: string;
 export const Hanuman_300Light: string;
 export const Hanuman_400Regular: string;
+export const Hanuman_500Medium: string;
+export const Hanuman_600SemiBold: string;
 export const Hanuman_700Bold: string;
+export const Hanuman_800ExtraBold: string;
 export const Hanuman_900Black: string;
 export const Neucha_400Regular: string;
 export const PTSans_400Regular: string;
@@ -7755,3 +7780,27 @@ export const Spartan_800ExtraBold: string;
   * @deprecated This font has been removed from Google Fonts.
   */
 export const Spartan_900Black: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const font42dotSans_300Light: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const font42dotSans_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const font42dotSans_500Medium: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const font42dotSans_600SemiBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const font42dotSans_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const font42dotSans_800ExtraBold: string;

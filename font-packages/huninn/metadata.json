@@ -1,0 +1,11 @@
+{
+  "family": "Huninn",
+  "variants": ["regular"],
+  "subsets": ["chinese-traditional", "cyrillic", "latin", "latin-ext", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2025-06-12",
+  "files": { "regular": "https://fonts.gstatic.com/s/huninn/v2/OpNNnoINg9bQ4xkpjiHQjittXw.ttf" },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/huninn/v2/OpNNnoINg9bQ4xkZjyvU.ttf"
+}

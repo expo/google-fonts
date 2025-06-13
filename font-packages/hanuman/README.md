@@ -11,12 +11,16 @@ This package lets you use the [**Hanuman**](https://fonts.google.com/specimen/Ha
 
 ![Hanuman](./font-family.png)
 
-This font family contains [5 styles](#-gallery).
+This font family contains [9 styles](#-gallery).
 
 - `Hanuman_100Thin`
+- `Hanuman_200ExtraLight`
 - `Hanuman_300Light`
 - `Hanuman_400Regular`
+- `Hanuman_500Medium`
+- `Hanuman_600SemiBold`
 - `Hanuman_700Bold`
+- `Hanuman_800ExtraBold`
 - `Hanuman_900Black`
 
 ## Usage
@@ -33,18 +37,26 @@ Now add code like this to your project
 import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/hanuman/useFonts';
 import { Hanuman_100Thin } from '@expo-google-fonts/hanuman/100Thin';
+import { Hanuman_200ExtraLight } from '@expo-google-fonts/hanuman/200ExtraLight';
 import { Hanuman_300Light } from '@expo-google-fonts/hanuman/300Light';
 import { Hanuman_400Regular } from '@expo-google-fonts/hanuman/400Regular';
+import { Hanuman_500Medium } from '@expo-google-fonts/hanuman/500Medium';
+import { Hanuman_600SemiBold } from '@expo-google-fonts/hanuman/600SemiBold';
 import { Hanuman_700Bold } from '@expo-google-fonts/hanuman/700Bold';
+import { Hanuman_800ExtraBold } from '@expo-google-fonts/hanuman/800ExtraBold';
 import { Hanuman_900Black } from '@expo-google-fonts/hanuman/900Black';
 
 export default () => {
 
   let [fontsLoaded] = useFonts({
     Hanuman_100Thin, 
+    Hanuman_200ExtraLight, 
     Hanuman_300Light, 
     Hanuman_400Regular, 
+    Hanuman_500Medium, 
+    Hanuman_600SemiBold, 
     Hanuman_700Bold, 
+    Hanuman_800ExtraBold, 
     Hanuman_900Black
   });
 
@@ -68,6 +80,14 @@ export default () => {
           fontSize,
           paddingVertical,
           // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Hanuman_200ExtraLight"
+        }}>
+          Hanuman Extra Light
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
           fontFamily: "Hanuman_300Light"
         }}>
           Hanuman Light
@@ -84,9 +104,33 @@ export default () => {
           fontSize,
           paddingVertical,
           // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Hanuman_500Medium"
+        }}>
+          Hanuman Medium
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Hanuman_600SemiBold"
+        }}>
+          Hanuman Semi Bold
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
           fontFamily: "Hanuman_700Bold"
         }}>
           Hanuman Bold
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Hanuman_800ExtraBold"
+        }}>
+          Hanuman Extra Bold
         </Text>
         <Text style={{
           fontSize,
@@ -107,8 +151,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Hanuman_100Thin](./100Thin/Hanuman_100Thin.ttf.png)|![Hanuman_300Light](./300Light/Hanuman_300Light.ttf.png)|![Hanuman_400Regular](./400Regular/Hanuman_400Regular.ttf.png)||
-|![Hanuman_700Bold](./700Bold/Hanuman_700Bold.ttf.png)|![Hanuman_900Black](./900Black/Hanuman_900Black.ttf.png)|||
+|![Hanuman_100Thin](./100Thin/Hanuman_100Thin.ttf.png)|![Hanuman_200ExtraLight](./200ExtraLight/Hanuman_200ExtraLight.ttf.png)|![Hanuman_300Light](./300Light/Hanuman_300Light.ttf.png)||
+|![Hanuman_400Regular](./400Regular/Hanuman_400Regular.ttf.png)|![Hanuman_500Medium](./500Medium/Hanuman_500Medium.ttf.png)|![Hanuman_600SemiBold](./600SemiBold/Hanuman_600SemiBold.ttf.png)||
+|![Hanuman_700Bold](./700Bold/Hanuman_700Bold.ttf.png)|![Hanuman_800ExtraBold](./800ExtraBold/Hanuman_800ExtraBold.ttf.png)|![Hanuman_900Black](./900Black/Hanuman_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development
