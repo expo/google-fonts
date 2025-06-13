@@ -1,0 +1,22 @@
+{
+  "family": "LXGW Marker Gothic",
+  "variants": ["regular"],
+  "subsets": [
+    "chinese-traditional",
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "symbols2",
+    "vietnamese"
+  ],
+  "version": "v1",
+  "lastModified": "2025-06-12",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/lxgwmarkergothic/v1/Gg8oN4AaXyDVTi_NlS1-xCtMQxY3lToBjuw_cZe26Q.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/lxgwmarkergothic/v1/Gg8oN4AaXyDVTi_NlS1-xCtMQxY3lToxj-Y7.ttf"
+}

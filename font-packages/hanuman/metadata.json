@@ -1,17 +1,21 @@
 {
   "family": "Hanuman",
-  "variants": ["100", "300", "regular", "700", "900"],
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["khmer", "latin"],
-  "version": "v23",
-  "lastModified": "2024-12-04",
+  "version": "v24",
+  "lastModified": "2025-06-12",
   "files": {
-    "100": "https://fonts.gstatic.com/s/hanuman/v23/VuJzdNvD15HhpJJBQMLdPKNiaRpFvg.ttf",
-    "300": "https://fonts.gstatic.com/s/hanuman/v23/VuJ0dNvD15HhpJJBQAr_HIlMZRNcp0o.ttf",
-    "700": "https://fonts.gstatic.com/s/hanuman/v23/VuJ0dNvD15HhpJJBQBr4HIlMZRNcp0o.ttf",
-    "900": "https://fonts.gstatic.com/s/hanuman/v23/VuJ0dNvD15HhpJJBQCL6HIlMZRNcp0o.ttf",
-    "regular": "https://fonts.gstatic.com/s/hanuman/v23/VuJxdNvD15HhpJJBeKbXOIFneRo.ttf"
+    "100": "https://fonts.gstatic.com/s/hanuman/v24/VuJudNvD15HhpJJBYq31yFn72hxIv0sd5hDsU9X6RPzQ.ttf",
+    "200": "https://fonts.gstatic.com/s/hanuman/v24/VuJudNvD15HhpJJBYq31yFn72hxIv0ud5xDsU9X6RPzQ.ttf",
+    "300": "https://fonts.gstatic.com/s/hanuman/v24/VuJudNvD15HhpJJBYq31yFn72hxIv0tD5xDsU9X6RPzQ.ttf",
+    "500": "https://fonts.gstatic.com/s/hanuman/v24/VuJudNvD15HhpJJBYq31yFn72hxIv0sv5xDsU9X6RPzQ.ttf",
+    "600": "https://fonts.gstatic.com/s/hanuman/v24/VuJudNvD15HhpJJBYq31yFn72hxIv0vD4BDsU9X6RPzQ.ttf",
+    "700": "https://fonts.gstatic.com/s/hanuman/v24/VuJudNvD15HhpJJBYq31yFn72hxIv0v64BDsU9X6RPzQ.ttf",
+    "800": "https://fonts.gstatic.com/s/hanuman/v24/VuJudNvD15HhpJJBYq31yFn72hxIv0ud4BDsU9X6RPzQ.ttf",
+    "900": "https://fonts.gstatic.com/s/hanuman/v24/VuJudNvD15HhpJJBYq31yFn72hxIv0u04BDsU9X6RPzQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/hanuman/v24/VuJudNvD15HhpJJBYq31yFn72hxIv0sd5xDsU9X6RPzQ.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/hanuman/v23/VuJxdNvD15HhpJJBSKfdPA.ttf"
+  "menu": "https://fonts.gstatic.com/s/hanuman/v24/VuJudNvD15HhpJJBYq31yFn72hxIv0sd5yDtWdE.ttf"
 }
