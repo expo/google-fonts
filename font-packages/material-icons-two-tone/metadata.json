@@ -2,13 +2,13 @@
   "family": "Material Icons Two Tone",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v112",
-  "lastModified": "2024-08-12",
+  "version": "v113",
+  "lastModified": "2025-06-17",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/materialiconstwotone/v112/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCu3NjDrH_77.otf"
+    "regular": "https://fonts.gstatic.com/s/materialiconstwotone/v113/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCu3NjDrH_77.otf"
   },
   "category": "monospace",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/materialiconstwotone/v112/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNBuwPDI.otf",
+  "menu": "https://fonts.gstatic.com/s/materialiconstwotone/v113/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNBuwPDI.otf",
   "colorCapabilities": ["COLRv0"]
 }

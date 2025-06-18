@@ -2,12 +2,12 @@
   "family": "Material Icons Outlined",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v109",
-  "lastModified": "2024-08-12",
+  "version": "v110",
+  "lastModified": "2025-06-17",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/materialiconsoutlined/v109/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcdl5GuI2Ze.otf"
+    "regular": "https://fonts.gstatic.com/s/materialiconsoutlined/v110/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcdl5GuI2Ze.otf"
   },
   "category": "monospace",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/materialiconsoutlined/v109/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhXcanZM.otf"
+  "menu": "https://fonts.gstatic.com/s/materialiconsoutlined/v110/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhXcanZM.otf"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/material-icons-sharp",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Material Icons Sharp font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {
