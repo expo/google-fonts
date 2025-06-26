@@ -1,0 +1,17 @@
+{
+  "name": "@expo-google-fonts/chiron-hei-hk",
+  "version": "0.4.0",
+  "description": "Use the Chiron Hei HK font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/chiron-hei-hk"
+  },
+  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/chiron-hei-hk#readme",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT AND OFL-1.1",
+  "publishConfig": {
+    "access": "public"
+  }
+}
