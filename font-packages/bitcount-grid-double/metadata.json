@@ -1,0 +1,21 @@
+{
+  "family": "Bitcount Grid Double",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2025-06-25",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/bitcountgriddouble/v1/WBK7rFjbakJVFOargiWSKQysDITG_S0VtG0x3HD2FYHVdlZI-rLlahmEAPp8wjYMvkPq48MVQo5RQf2svjnxa5Anx8-Y-pHdkVb0ByRHaxzbXaLbA9wfZDxleZEXi_Ul10k.ttf",
+    "200": "https://fonts.gstatic.com/s/bitcountgriddouble/v1/WBK7rFjbakJVFOargiWSKQysDITG_S0VtG0x3HD2FYHVdlZI-rLlahmEAPp8wjYMvkPq48MVQo5RQf2svjnxa5Anx8-Y-pHdkVb0ByRHaxzbXaLbA9wfZLxkeZEXi_Ul10k.ttf",
+    "300": "https://fonts.gstatic.com/s/bitcountgriddouble/v1/WBK7rFjbakJVFOargiWSKQysDITG_S0VtG0x3HD2FYHVdlZI-rLlahmEAPp8wjYMvkPq48MVQo5RQf2svjnxa5Anx8-Y-pHdkVb0ByRHaxzbXaLbA9wfZGJkeZEXi_Ul10k.ttf",
+    "500": "https://fonts.gstatic.com/s/bitcountgriddouble/v1/WBK7rFjbakJVFOargiWSKQysDITG_S0VtG0x3HD2FYHVdlZI-rLlahmEAPp8wjYMvkPq48MVQo5RQf2svjnxa5Anx8-Y-pHdkVb0ByRHaxzbXaLbA9wfZA5keZEXi_Ul10k.ttf",
+    "600": "https://fonts.gstatic.com/s/bitcountgriddouble/v1/WBK7rFjbakJVFOargiWSKQysDITG_S0VtG0x3HD2FYHVdlZI-rLlahmEAPp8wjYMvkPq48MVQo5RQf2svjnxa5Anx8-Y-pHdkVb0ByRHaxzbXaLbA9wfZOJjeZEXi_Ul10k.ttf",
+    "700": "https://fonts.gstatic.com/s/bitcountgriddouble/v1/WBK7rFjbakJVFOargiWSKQysDITG_S0VtG0x3HD2FYHVdlZI-rLlahmEAPp8wjYMvkPq48MVQo5RQf2svjnxa5Anx8-Y-pHdkVb0ByRHaxzbXaLbA9wfZNtjeZEXi_Ul10k.ttf",
+    "800": "https://fonts.gstatic.com/s/bitcountgriddouble/v1/WBK7rFjbakJVFOargiWSKQysDITG_S0VtG0x3HD2FYHVdlZI-rLlahmEAPp8wjYMvkPq48MVQo5RQf2svjnxa5Anx8-Y-pHdkVb0ByRHaxzbXaLbA9wfZLxjeZEXi_Ul10k.ttf",
+    "900": "https://fonts.gstatic.com/s/bitcountgriddouble/v1/WBK7rFjbakJVFOargiWSKQysDITG_S0VtG0x3HD2FYHVdlZI-rLlahmEAPp8wjYMvkPq48MVQo5RQf2svjnxa5Anx8-Y-pHdkVb0ByRHaxzbXaLbA9wfZJVjeZEXi_Ul10k.ttf",
+    "regular": "https://fonts.gstatic.com/s/bitcountgriddouble/v1/WBK7rFjbakJVFOargiWSKQysDITG_S0VtG0x3HD2FYHVdlZI-rLlahmEAPp8wjYMvkPq48MVQo5RQf2svjnxa5Anx8-Y-pHdkVb0ByRHaxzbXaLbA9wfZDxkeZEXi_Ul10k.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/bitcountgriddouble/v1/WBK7rFjbakJVFOargiWSKQysDITG_S0VtG0x3HD2FYHVdlZI-rLlahmEAPp8wjYMvkPq48MVQo5RQf2svjnxa5Anx8-Y-pHdkVb0ByRHaxzbXaLbA9wfZDxkSZAdjw.ttf"
+}

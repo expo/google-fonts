@@ -1,0 +1,13 @@
+{
+  "family": "UoqMunThenKhung",
+  "variants": ["regular"],
+  "subsets": ["chinese-traditional", "cyrillic", "latin", "symbols2"],
+  "version": "v1",
+  "lastModified": "2025-06-25",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/uoqmunthenkhung/v1/Y4GTYa1nVTQLt-D5LoLChg5aJjIjwLL9Th8YYA.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/uoqmunthenkhung/v1/Y4GTYa1nVTQLt-D5LoLChg5aJjITwbj5.ttf"
+}

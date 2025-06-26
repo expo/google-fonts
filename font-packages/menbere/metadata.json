@@ -1,0 +1,19 @@
+{
+  "family": "Menbere",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+  "subsets": ["ethiopic", "latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2025-06-25",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdI_9qn1UnpeWOQ5.ttf",
+    "200": "https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdK_96n1UnpeWOQ5.ttf",
+    "300": "https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdJh96n1UnpeWOQ5.ttf",
+    "500": "https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdIN96n1UnpeWOQ5.ttf",
+    "600": "https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdLh8Kn1UnpeWOQ5.ttf",
+    "700": "https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdLY8Kn1UnpeWOQ5.ttf",
+    "regular": "https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdI_96n1UnpeWOQ5.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdI_95n0WH4.ttf"
+}

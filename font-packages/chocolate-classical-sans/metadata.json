@@ -2,12 +2,12 @@
   "family": "Chocolate Classical Sans",
   "variants": ["regular"],
   "subsets": ["chinese-traditional", "cyrillic", "latin", "latin-ext", "vietnamese"],
-  "version": "v10",
-  "lastModified": "2025-06-09",
+  "version": "v14",
+  "lastModified": "2025-06-25",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/chocolateclassicalsans/v10/nuFqD-PLTZX4XIgT-P2ToCDudWHHflqUpTpfjWdDPI2J9mHITw.ttf"
+    "regular": "https://fonts.gstatic.com/s/chocolateclassicalsans/v14/nuFqD-PLTZX4XIgT-P2ToCDudWHHflqUpTpfjWdDPI2J9mHITw.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/chocolateclassicalsans/v10/nuFqD-PLTZX4XIgT-P2ToCDudWHHflqUpTpfjWdzPYeN.ttf"
+  "menu": "https://fonts.gstatic.com/s/chocolateclassicalsans/v14/nuFqD-PLTZX4XIgT-P2ToCDudWHHflqUpTpfjWdzPYeN.ttf"
 }
