@@ -2,6 +2,7 @@
 // If you want to modify it, go to packages/generator/templates
 
 export { useFonts } from './useFonts';
+export const NotoSansSunuwar_400Regular: string;
 export const UoqMunThenKhung_400Regular: string;
 export const Parastoo_400Regular: string;
 export const Parastoo_500Medium: string;

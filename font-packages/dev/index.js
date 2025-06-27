@@ -2,6 +2,7 @@
 // If you want to modify it, go to packages/generator/templates
 
 export { useFonts } from './useFonts';
+export const NotoSansSunuwar_400Regular = 'https://fonts.gstatic.com/s/notosanssunuwar/v1/FwZB7_04xUkosG2xJo2gm7nF0DTfho_Du2akOrkv.ttf';
 export const UoqMunThenKhung_400Regular = 'https://fonts.gstatic.com/s/uoqmunthenkhung/v1/Y4GTYa1nVTQLt-D5LoLChg5aJjIjwLL9Th8YYA.ttf';
 export const Parastoo_400Regular = 'https://fonts.gstatic.com/s/parastoo/v1/-F6vfj90ITQ4d9euQVDbrtWYW5MNx1dlT6k1FPNkx5rq1w.ttf';
 export const Parastoo_500Medium = 'https://fonts.gstatic.com/s/parastoo/v1/-F6vfj90ITQ4d9euQVDbrtWYW5MNx1dlfak1FPNkx5rq1w.ttf';
