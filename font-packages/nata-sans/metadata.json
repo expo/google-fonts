@@ -1,0 +1,21 @@
+{
+  "family": "Nata Sans",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2025-07-30",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChg6wI6g2M62M1AXs.ttf",
+    "200": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChgywJ6g2M62M1AXs.ttf",
+    "300": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChg_IJ6g2M62M1AXs.ttf",
+    "500": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChg54J6g2M62M1AXs.ttf",
+    "600": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChg3IO6g2M62M1AXs.ttf",
+    "700": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChg0sO6g2M62M1AXs.ttf",
+    "800": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChgywO6g2M62M1AXs.ttf",
+    "900": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChgwUO6g2M62M1AXs.ttf",
+    "regular": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChg6wJ6g2M62M1AXs.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChg6wJ2gyG7w.ttf"
+}

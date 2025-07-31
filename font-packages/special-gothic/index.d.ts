@@ -4,3 +4,6 @@
 export * from './useFonts';
 export const __metadata__: any;
 export const SpecialGothic_400Regular: number;
+export const SpecialGothic_500Medium: number;
+export const SpecialGothic_600SemiBold: number;
+export const SpecialGothic_700Bold: number;

@@ -1,0 +1,18 @@
+{
+  "family": "Mozilla Text",
+  "variants": ["200", "300", "regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2025-07-30",
+  "files": {
+    "200": "https://fonts.gstatic.com/s/mozillatext/v1/SZcr3FrnJ7S7WZIff2mJ7Tbp4zu7ULu3HkPOBwUcPNBRVYmoOXo.ttf",
+    "300": "https://fonts.gstatic.com/s/mozillatext/v1/SZcr3FrnJ7S7WZIff2mJ7Tbp4zu7ULu3HkPOB9scPNBRVYmoOXo.ttf",
+    "500": "https://fonts.gstatic.com/s/mozillatext/v1/SZcr3FrnJ7S7WZIff2mJ7Tbp4zu7ULu3HkPOB7ccPNBRVYmoOXo.ttf",
+    "600": "https://fonts.gstatic.com/s/mozillatext/v1/SZcr3FrnJ7S7WZIff2mJ7Tbp4zu7ULu3HkPOB1sbPNBRVYmoOXo.ttf",
+    "700": "https://fonts.gstatic.com/s/mozillatext/v1/SZcr3FrnJ7S7WZIff2mJ7Tbp4zu7ULu3HkPOB2IbPNBRVYmoOXo.ttf",
+    "regular": "https://fonts.gstatic.com/s/mozillatext/v1/SZcr3FrnJ7S7WZIff2mJ7Tbp4zu7ULu3HkPOB4UcPNBRVYmoOXo.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/mozillatext/v1/SZcr3FrnJ7S7WZIff2mJ7Tbp4zu7ULu3HkPOB4UcDNFbUQ.ttf"
+}

@@ -1,13 +1,16 @@
 {
   "family": "Special Gothic",
-  "variants": ["regular"],
+  "variants": ["regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v2",
-  "lastModified": "2025-04-23",
+  "version": "v3",
+  "lastModified": "2025-07-30",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/specialgothic/v2/1q2fY5WcG0Fg_v0fHc8BvIZ252ThVIGpgnxL.ttf"
+    "500": "https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4YN8-SgLPIOkEp8.ttf",
+    "600": "https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4W97-SgLPIOkEp8.ttf",
+    "700": "https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4VZ7-SgLPIOkEp8.ttf",
+    "regular": "https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4bF8-SgLPIOkEp8.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/specialgothic/v2/1q2fY5WcG0Fg_v0fHc8BvIZ251TgXoU.ttf"
+  "menu": "https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4bF8ySkBOA.ttf"
 }
