@@ -1,0 +1,18 @@
+{
+  "family": "Mozilla Headline",
+  "variants": ["200", "300", "regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2025-07-30",
+  "files": {
+    "200": "https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBYIYVZRxvtcorUQ.ttf",
+    "300": "https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBvoYVZRxvtcorUQ.ttf",
+    "500": "https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOB0oYVZRxvtcorUQ.ttf",
+    "600": "https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBPoEVZRxvtcorUQ.ttf",
+    "700": "https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBB4EVZRxvtcorUQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOB4IYVZRxvtcorUQ.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOB4IYlZBZr.ttf"
+}

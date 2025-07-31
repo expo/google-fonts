@@ -4,3 +4,6 @@
 export * from './useFonts';
 export { default as __metadata__ } from './metadata.json';
 export const SpecialGothic_400Regular = require('./400Regular/SpecialGothic_400Regular.ttf');
+export const SpecialGothic_500Medium = require('./500Medium/SpecialGothic_500Medium.ttf');
+export const SpecialGothic_600SemiBold = require('./600SemiBold/SpecialGothic_600SemiBold.ttf');
+export const SpecialGothic_700Bold = require('./700Bold/SpecialGothic_700Bold.ttf');

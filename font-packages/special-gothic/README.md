@@ -11,9 +11,12 @@ This package lets you use the [**Special Gothic**](https://fonts.google.com/spec
 
 ![Special Gothic](./font-family.png)
 
-This font family contains [1 styles](#-gallery).
+This font family contains [4 styles](#-gallery).
 
 - `SpecialGothic_400Regular`
+- `SpecialGothic_500Medium`
+- `SpecialGothic_600SemiBold`
+- `SpecialGothic_700Bold`
 
 ## Usage
 
@@ -29,11 +32,17 @@ Now add code like this to your project
 import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/special-gothic/useFonts';
 import { SpecialGothic_400Regular } from '@expo-google-fonts/special-gothic/400Regular';
+import { SpecialGothic_500Medium } from '@expo-google-fonts/special-gothic/500Medium';
+import { SpecialGothic_600SemiBold } from '@expo-google-fonts/special-gothic/600SemiBold';
+import { SpecialGothic_700Bold } from '@expo-google-fonts/special-gothic/700Bold';
 
 export default () => {
 
   let [fontsLoaded] = useFonts({
-    SpecialGothic_400Regular
+    SpecialGothic_400Regular, 
+    SpecialGothic_500Medium, 
+    SpecialGothic_600SemiBold, 
+    SpecialGothic_700Bold
   });
 
   let fontSize = 24;
@@ -52,6 +61,30 @@ export default () => {
         }}>
           Special Gothic Regular
         </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SpecialGothic_500Medium"
+        }}>
+          Special Gothic Medium
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SpecialGothic_600SemiBold"
+        }}>
+          Special Gothic Semi Bold
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SpecialGothic_700Bold"
+        }}>
+          Special Gothic Bold
+        </Text>
       </View>
     );
   }
@@ -63,7 +96,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SpecialGothic_400Regular](./400Regular/SpecialGothic_400Regular.ttf.png)||||
+|![SpecialGothic_400Regular](./400Regular/SpecialGothic_400Regular.ttf.png)|![SpecialGothic_500Medium](./500Medium/SpecialGothic_500Medium.ttf.png)|![SpecialGothic_600SemiBold](./600SemiBold/SpecialGothic_600SemiBold.ttf.png)||
+|![SpecialGothic_700Bold](./700Bold/SpecialGothic_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development
