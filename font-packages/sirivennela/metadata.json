@@ -1,0 +1,13 @@
+{
+  "family": "Sirivennela",
+  "variants": ["regular"],
+  "subsets": ["latin", "telugu"],
+  "version": "v2",
+  "lastModified": "2025-08-26",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/sirivennela/v2/kmK5Zq0oHhbAYX-X6lgptg7YiOFDtqtf.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/sirivennela/v2/kmK5Zq0oHhbAYX-X6lgptj7ZguU.ttf"
+}

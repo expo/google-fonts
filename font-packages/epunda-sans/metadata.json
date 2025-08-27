@@ -1,0 +1,41 @@
+{
+  "family": "Epunda Sans",
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic",
+    "800italic",
+    "900italic"
+  ],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v4",
+  "lastModified": "2025-08-26",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/epundasans/v4/ea8Kads_Rv3-GJfWRrHjgFROia5FlsurC_ndMlT7Sb54PQAqcA.ttf",
+    "500": "https://fonts.gstatic.com/s/epundasans/v4/ea8Kads_Rv3-GJfWRrHjgFROia5FlsurC_ndXlT7Sb54PQAqcA.ttf",
+    "600": "https://fonts.gstatic.com/s/epundasans/v4/ea8Kads_Rv3-GJfWRrHjgFROia5FlsurC_ndslP7Sb54PQAqcA.ttf",
+    "700": "https://fonts.gstatic.com/s/epundasans/v4/ea8Kads_Rv3-GJfWRrHjgFROia5FlsurC_ndi1P7Sb54PQAqcA.ttf",
+    "800": "https://fonts.gstatic.com/s/epundasans/v4/ea8Kads_Rv3-GJfWRrHjgFROia5FlsurC_nd7FP7Sb54PQAqcA.ttf",
+    "900": "https://fonts.gstatic.com/s/epundasans/v4/ea8Kads_Rv3-GJfWRrHjgFROia5FlsurC_ndxVP7Sb54PQAqcA.ttf",
+    "regular": "https://fonts.gstatic.com/s/epundasans/v4/ea8Kads_Rv3-GJfWRrHjgFROia5FlsurC_ndbFT7Sb54PQAqcA.ttf",
+    "300italic": "https://fonts.gstatic.com/s/epundasans/v4/ea8Mads_Rv3-GJfWRrHjgH5Hu1Gd_6Axpf7IpBdNCrR8HwU6cADD.ttf",
+    "italic": "https://fonts.gstatic.com/s/epundasans/v4/ea8Mads_Rv3-GJfWRrHjgH5Hu1Gd_6Axpf7IpBcTCrR8HwU6cADD.ttf",
+    "500italic": "https://fonts.gstatic.com/s/epundasans/v4/ea8Mads_Rv3-GJfWRrHjgH5Hu1Gd_6Axpf7IpBchCrR8HwU6cADD.ttf",
+    "600italic": "https://fonts.gstatic.com/s/epundasans/v4/ea8Mads_Rv3-GJfWRrHjgH5Hu1Gd_6Axpf7IpBfNDbR8HwU6cADD.ttf",
+    "700italic": "https://fonts.gstatic.com/s/epundasans/v4/ea8Mads_Rv3-GJfWRrHjgH5Hu1Gd_6Axpf7IpBf0DbR8HwU6cADD.ttf",
+    "800italic": "https://fonts.gstatic.com/s/epundasans/v4/ea8Mads_Rv3-GJfWRrHjgH5Hu1Gd_6Axpf7IpBeTDbR8HwU6cADD.ttf",
+    "900italic": "https://fonts.gstatic.com/s/epundasans/v4/ea8Mads_Rv3-GJfWRrHjgH5Hu1Gd_6Axpf7IpBe6DbR8HwU6cADD.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/epundasans/v4/ea8Kads_Rv3-GJfWRrHjgFROia5FlsurC_ndbFTLSLR8.ttf"
+}

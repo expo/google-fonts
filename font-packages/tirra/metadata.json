@@ -1,0 +1,18 @@
+{
+  "family": "Tirra",
+  "variants": ["regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext", "tifinagh"],
+  "version": "v2",
+  "lastModified": "2025-08-26",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/tirra/v2/WBLmrEnNakREGosx9SXVcWHALdio.ttf",
+    "600": "https://fonts.gstatic.com/s/tirra/v2/WBLmrEnNakREGosd8iXVcWHALdio.ttf",
+    "700": "https://fonts.gstatic.com/s/tirra/v2/WBLmrEnNakREGot58yXVcWHALdio.ttf",
+    "800": "https://fonts.gstatic.com/s/tirra/v2/WBLmrEnNakREGotl8CXVcWHALdio.ttf",
+    "900": "https://fonts.gstatic.com/s/tirra/v2/WBLmrEnNakREGotB8SXVcWHALdio.ttf",
+    "regular": "https://fonts.gstatic.com/s/tirra/v2/WBLrrEnNakREGrPF3AHdWn3J.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/tirra/v2/WBLrrEnNakREGoPE1gU.ttf"
+}
