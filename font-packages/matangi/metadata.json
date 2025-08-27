@@ -2,18 +2,18 @@
   "family": "Matangi",
   "variants": ["300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v1",
-  "lastModified": "2025-06-12",
+  "version": "v5",
+  "lastModified": "2025-08-26",
   "files": {
-    "300": "https://fonts.gstatic.com/s/matangi/v1/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7PICDYwI8Gcw6Oi.ttf",
-    "500": "https://fonts.gstatic.com/s/matangi/v1/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7OkCDYwI8Gcw6Oi.ttf",
-    "600": "https://fonts.gstatic.com/s/matangi/v1/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7NIDzYwI8Gcw6Oi.ttf",
-    "700": "https://fonts.gstatic.com/s/matangi/v1/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7NxDzYwI8Gcw6Oi.ttf",
-    "800": "https://fonts.gstatic.com/s/matangi/v1/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7MWDzYwI8Gcw6Oi.ttf",
-    "900": "https://fonts.gstatic.com/s/matangi/v1/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7M_DzYwI8Gcw6Oi.ttf",
-    "regular": "https://fonts.gstatic.com/s/matangi/v1/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7OWCDYwI8Gcw6Oi.ttf"
+    "300": "https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7PICDYwI8Gcw6Oi.ttf",
+    "500": "https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7OkCDYwI8Gcw6Oi.ttf",
+    "600": "https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7NIDzYwI8Gcw6Oi.ttf",
+    "700": "https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7NxDzYwI8Gcw6Oi.ttf",
+    "800": "https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7MWDzYwI8Gcw6Oi.ttf",
+    "900": "https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7M_DzYwI8Gcw6Oi.ttf",
+    "regular": "https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7OWCDYwI8Gcw6Oi.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/matangi/v1/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7OWCAYxKcU.ttf"
+  "menu": "https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7OWCAYxKcU.ttf"
 }

@@ -1,0 +1,13 @@
+{
+  "family": "Asimovian",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2025-08-26",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/asimovian/v2/oY1c8evOub78P2XN94MXCv5xY4QBLw.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/asimovian/v2/oY1c8evOub78P2XN94MnC_R1.ttf"
+}

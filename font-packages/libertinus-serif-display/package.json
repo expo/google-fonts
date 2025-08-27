@@ -1,0 +1,17 @@
+{
+  "name": "@expo-google-fonts/libertinus-serif-display",
+  "version": "0.4.0",
+  "description": "Use the Libertinus Serif Display font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/libertinus-serif-display"
+  },
+  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/libertinus-serif-display#readme",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT AND OFL-1.1",
+  "publishConfig": {
+    "access": "public"
+  }
+}
