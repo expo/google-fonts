@@ -2,15 +2,15 @@
   "family": "Almarai",
   "variants": ["300", "regular", "700", "800"],
   "subsets": ["arabic", "latin"],
-  "version": "v18",
-  "lastModified": "2024-11-20",
+  "version": "v19",
+  "lastModified": "2025-09-02",
   "files": {
-    "300": "https://fonts.gstatic.com/s/almarai/v18/tssoApxBaigK_hnnS_anhnicoq72sXg.ttf",
-    "700": "https://fonts.gstatic.com/s/almarai/v18/tssoApxBaigK_hnnS-aghnicoq72sXg.ttf",
-    "800": "https://fonts.gstatic.com/s/almarai/v18/tssoApxBaigK_hnnS_qjhnicoq72sXg.ttf",
-    "regular": "https://fonts.gstatic.com/s/almarai/v18/tsstApxBaigK_hnnc1qPonC3vqc.ttf"
+    "300": "https://fonts.gstatic.com/s/almarai/v19/tssoApxBaigK_hnnS_anhnicoq72sXg.ttf",
+    "700": "https://fonts.gstatic.com/s/almarai/v19/tssoApxBaigK_hnnS-aghnicoq72sXg.ttf",
+    "800": "https://fonts.gstatic.com/s/almarai/v19/tssoApxBaigK_hnnS_qjhnicoq72sXg.ttf",
+    "regular": "https://fonts.gstatic.com/s/almarai/v19/tsstApxBaigK_hnnc1qPonC3vqc.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/almarai/v18/tsstApxBaigK_hnnQ1uFpg.ttf"
+  "menu": "https://fonts.gstatic.com/s/almarai/v19/tsstApxBaigK_hnnQ1uFpg.ttf"
 }

@@ -2,15 +2,15 @@
   "family": "Playwrite SK",
   "variants": ["100", "200", "300", "regular"],
   "subsets": ["latin"],
-  "version": "v9",
-  "lastModified": "2025-02-12",
+  "version": "v10",
+  "lastModified": "2025-09-02",
   "files": {
-    "100": "https://fonts.gstatic.com/s/playwritesk/v9/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf-2dvsOzdK9OF68.ttf",
-    "200": "https://fonts.gstatic.com/s/playwritesk/v9/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf22cvsOzdK9OF68.ttf",
-    "300": "https://fonts.gstatic.com/s/playwritesk/v9/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf7OcvsOzdK9OF68.ttf",
-    "regular": "https://fonts.gstatic.com/s/playwritesk/v9/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf-2cvsOzdK9OF68.ttf"
+    "100": "https://fonts.gstatic.com/s/playwritesk/v10/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf-2dvsOzdK9OF68.ttf",
+    "200": "https://fonts.gstatic.com/s/playwritesk/v10/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf22cvsOzdK9OF68.ttf",
+    "300": "https://fonts.gstatic.com/s/playwritesk/v10/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf7OcvsOzdK9OF68.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwritesk/v10/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf-2cvsOzdK9OF68.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/playwritesk/v9/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf-2cjsK5cA.ttf"
+  "menu": "https://fonts.gstatic.com/s/playwritesk/v10/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf-2cjsK5cA.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Snowburst One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v20",
-  "lastModified": "2024-09-04",
+  "version": "v21",
+  "lastModified": "2025-09-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/snowburstone/v20/MQpS-WezKdujBsXY3B7I-UT7eZ-UPyacPbo.ttf"
+    "regular": "https://fonts.gstatic.com/s/snowburstone/v21/MQpS-WezKdujBsXY3B7I-UT7eZ-UPyacPbo.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/snowburstone/v20/MQpS-WezKdujBsXY3B7I-UT7SZ6eOw.ttf"
+  "menu": "https://fonts.gstatic.com/s/snowburstone/v21/MQpS-WezKdujBsXY3B7I-UT7SZ6eOw.ttf"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/hubballi",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Hubballi font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

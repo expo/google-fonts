@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/rhodium-libre",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Rhodium Libre font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

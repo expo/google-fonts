@@ -2,12 +2,12 @@
   "family": "Akaya Telivigala",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "telugu"],
-  "version": "v27",
-  "lastModified": "2024-11-20",
+  "version": "v28",
+  "lastModified": "2025-09-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/akayatelivigala/v27/lJwc-oo_iG9wXqU3rCTD395tp0uifdLdsIH0YH8.ttf"
+    "regular": "https://fonts.gstatic.com/s/akayatelivigala/v28/lJwc-oo_iG9wXqU3rCTD395tp0uifdLdsIH0YH8.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/akayatelivigala/v27/lJwc-oo_iG9wXqU3rCTD395tp0uiTdPXtA.ttf"
+  "menu": "https://fonts.gstatic.com/s/akayatelivigala/v28/lJwc-oo_iG9wXqU3rCTD395tp0uiTdPXtA.ttf"
 }
