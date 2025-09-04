@@ -586,14 +586,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |-|-|-|
 |[![Boldonse_400Regular](./font-packages/boldonse/400Regular/Boldonse_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/boldonse#readme)||||
 
-### [Material Symbols](https://github.com/expo/google-fonts/tree/main/font-packages/material-symbols#readme)
-
-||||
-|-|-|-|
-|[![MaterialSymbols_100Thin](./font-packages/material-symbols/100Thin/MaterialSymbols_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/material-symbols#readme)|[![MaterialSymbols_200ExtraLight](./font-packages/material-symbols/200ExtraLight/MaterialSymbols_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/material-symbols#readme)|[![MaterialSymbols_300Light](./font-packages/material-symbols/300Light/MaterialSymbols_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/material-symbols#readme)||
-|[![MaterialSymbols_400Regular](./font-packages/material-symbols/400Regular/MaterialSymbols_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/material-symbols#readme)|[![MaterialSymbols_500Medium](./font-packages/material-symbols/500Medium/MaterialSymbols_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/material-symbols#readme)|[![MaterialSymbols_600SemiBold](./font-packages/material-symbols/600SemiBold/MaterialSymbols_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/material-symbols#readme)||
-|[![MaterialSymbols_700Bold](./font-packages/material-symbols/700Bold/MaterialSymbols_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/material-symbols#readme)||||
-
 ### [Iansui](https://github.com/expo/google-fonts/tree/main/font-packages/iansui#readme)
 
 ||||
@@ -12804,6 +12796,14 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |[![TikTokSans_300Light](./font-packages/tiktok-sans/300Light/TikTokSans_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/tiktok-sans#readme)|[![TikTokSans_400Regular](./font-packages/tiktok-sans/400Regular/TikTokSans_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/tiktok-sans#readme)|[![TikTokSans_500Medium](./font-packages/tiktok-sans/500Medium/TikTokSans_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/tiktok-sans#readme)||
 |[![TikTokSans_600SemiBold](./font-packages/tiktok-sans/600SemiBold/TikTokSans_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/tiktok-sans#readme)|[![TikTokSans_700Bold](./font-packages/tiktok-sans/700Bold/TikTokSans_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/tiktok-sans#readme)|[![TikTokSans_800ExtraBold](./font-packages/tiktok-sans/800ExtraBold/TikTokSans_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/tiktok-sans#readme)||
 |[![TikTokSans_900Black](./font-packages/tiktok-sans/900Black/TikTokSans_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/tiktok-sans#readme)||||
+
+### [Material Symbols](https://github.com/expo/google-fonts/tree/main/font-packages/material-symbols#readme)
+
+||||
+|-|-|-|
+|[![MaterialSymbols_100Thin](./font-packages/material-symbols/100Thin/MaterialSymbols_100Thin.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/material-symbols#readme)|[![MaterialSymbols_200ExtraLight](./font-packages/material-symbols/200ExtraLight/MaterialSymbols_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/material-symbols#readme)|[![MaterialSymbols_300Light](./font-packages/material-symbols/300Light/MaterialSymbols_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/material-symbols#readme)||
+|[![MaterialSymbols_400Regular](./font-packages/material-symbols/400Regular/MaterialSymbols_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/material-symbols#readme)|[![MaterialSymbols_500Medium](./font-packages/material-symbols/500Medium/MaterialSymbols_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/material-symbols#readme)|[![MaterialSymbols_600SemiBold](./font-packages/material-symbols/600SemiBold/MaterialSymbols_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/material-symbols#readme)||
+|[![MaterialSymbols_700Bold](./font-packages/material-symbols/700Bold/MaterialSymbols_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/material-symbols#readme)||||
 
 ### [Material Symbols Outlined](https://github.com/expo/google-fonts/tree/main/font-packages/material-symbols-outlined#readme)
 
