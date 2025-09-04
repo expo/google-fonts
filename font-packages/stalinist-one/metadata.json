@@ -2,12 +2,12 @@
   "family": "Stalinist One",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext"],
-  "version": "v56",
-  "lastModified": "2024-09-04",
+  "version": "v58",
+  "lastModified": "2025-09-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/stalinistone/v56/MQpS-WezM9W4Dd7D3B7I-UT7eZ-UPyacPbo.ttf"
+    "regular": "https://fonts.gstatic.com/s/stalinistone/v58/MQpS-WezM9W4Dd7D3B7I-UT7eZ-UPyacPbo.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/stalinistone/v56/MQpS-WezM9W4Dd7D3B7I-UT7SZ6eOw.ttf"
+  "menu": "https://fonts.gstatic.com/s/stalinistone/v58/MQpS-WezM9W4Dd7D3B7I-UT7SZ6eOw.ttf"
 }

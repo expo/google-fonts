@@ -2,12 +2,12 @@
   "family": "Engagement",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v27",
-  "lastModified": "2024-11-20",
+  "version": "v29",
+  "lastModified": "2025-09-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/engagement/v27/x3dlckLDZbqa7RUs9MFVXNossybsHQI.ttf"
+    "regular": "https://fonts.gstatic.com/s/engagement/v29/x3dlckLDZbqa7RUs9MFVXNossybsHQI.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/engagement/v27/x3dlckLDZbqa7RUs9MFVbNsmtw.ttf"
+  "menu": "https://fonts.gstatic.com/s/engagement/v29/x3dlckLDZbqa7RUs9MFVbNsmtw.ttf"
 }

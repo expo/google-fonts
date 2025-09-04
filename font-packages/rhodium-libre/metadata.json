@@ -2,12 +2,12 @@
   "family": "Rhodium Libre",
   "variants": ["regular"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2024-08-12",
+  "version": "v21",
+  "lastModified": "2025-09-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/rhodiumlibre/v19/1q2AY5adA0tn_ukeHcQHqpx6pETLeo2gm2U.ttf"
+    "regular": "https://fonts.gstatic.com/s/rhodiumlibre/v21/1q2AY5adA0tn_ukeHcQHqpx6pETLeo2gm2U.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/rhodiumlibre/v19/1q2AY5adA0tn_ukeHcQHqpx6lEXBfg.ttf"
+  "menu": "https://fonts.gstatic.com/s/rhodiumlibre/v21/1q2AY5adA0tn_ukeHcQHqpx6lEXBfg.ttf"
 }

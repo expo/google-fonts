@@ -2,12 +2,12 @@
   "family": "Titan One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2024-09-04",
+  "version": "v17",
+  "lastModified": "2025-09-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/titanone/v15/mFTzWbsGxbbS_J5cQcjykzIn2Etikg.ttf"
+    "regular": "https://fonts.gstatic.com/s/titanone/v17/mFTzWbsGxbbS_J5cQcjykzIn2Etikg.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/titanone/v15/mFTzWbsGxbbS_J5cQcjCkjgj.ttf"
+  "menu": "https://fonts.gstatic.com/s/titanone/v17/mFTzWbsGxbbS_J5cQcjCkjgj.ttf"
 }

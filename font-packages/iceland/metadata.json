@@ -2,10 +2,10 @@
   "family": "Iceland",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v20",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/iceland/v20/rax9HiuFsdMNOnWPWKxGADBbg0s.ttf" },
+  "version": "v22",
+  "lastModified": "2025-09-02",
+  "files": { "regular": "https://fonts.gstatic.com/s/iceland/v22/rax9HiuFsdMNOnWPWKxGADBbg0s.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/iceland/v20/rax9HiuFsdMNOnWPaK1MBA.ttf"
+  "menu": "https://fonts.gstatic.com/s/iceland/v22/rax9HiuFsdMNOnWPaK1MBA.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Potta One",
   "variants": ["regular"],
   "subsets": ["japanese", "latin", "latin-ext", "vietnamese"],
-  "version": "v18",
-  "lastModified": "2024-12-04",
+  "version": "v19",
+  "lastModified": "2025-09-02",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/pottaone/v18/FeVSS05Bp6cy7xI-YfxQ3Z5nm29Gww.ttf"
+    "regular": "https://fonts.gstatic.com/s/pottaone/v19/FeVSS05Bp6cy7xI-YfxQ3Z5nm29Gww.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/pottaone/v18/FeVSS05Bp6cy7xI-Yfxg3JRj.ttf"
+  "menu": "https://fonts.gstatic.com/s/pottaone/v19/FeVSS05Bp6cy7xI-Yfxg3JRj.ttf"
 }
