@@ -2,14 +2,14 @@
   "family": "Oxygen",
   "variants": ["300", "regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2024-09-04",
+  "version": "v16",
+  "lastModified": "2025-09-05",
   "files": {
-    "300": "https://fonts.gstatic.com/s/oxygen/v15/2sDcZG1Wl4LcnbuCJW8Db2-4C7wFZQ.ttf",
-    "700": "https://fonts.gstatic.com/s/oxygen/v15/2sDcZG1Wl4LcnbuCNWgDb2-4C7wFZQ.ttf",
-    "regular": "https://fonts.gstatic.com/s/oxygen/v15/2sDfZG1Wl4Lcnbu6iUcnZ0SkAg.ttf"
+    "300": "https://fonts.gstatic.com/s/oxygen/v16/2sDcZG1Wl4LcnbuCJW8Db2-4C7wFZQ.ttf",
+    "700": "https://fonts.gstatic.com/s/oxygen/v16/2sDcZG1Wl4LcnbuCNWgDb2-4C7wFZQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/oxygen/v16/2sDfZG1Wl4Lcnbu6iUcnZ0SkAg.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/oxygen/v15/2sDfZG1Wl4LcnbuKiE0j.ttf"
+  "menu": "https://fonts.gstatic.com/s/oxygen/v16/2sDfZG1Wl4LcnbuKiE0j.ttf"
 }

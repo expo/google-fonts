@@ -2,12 +2,12 @@
   "family": "Noto Sans Sharada",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "sharada"],
-  "version": "v16",
-  "lastModified": "2022-11-18",
+  "version": "v17",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosanssharada/v16/gok0H7rwAEdtF9N8-mdTGALG6p0kwoXLPOwr4H8a.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanssharada/v17/gok0H7rwAEdtF9N8-mdTGALG6p0kwoXLPOwr4H8a.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosanssharada/v16/gok0H7rwAEdtF9N8-mdTGALG6p0kwrXKNug.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosanssharada/v17/gok0H7rwAEdtF9N8-mdTGALG6p0kwrXKNug.ttf"
 }

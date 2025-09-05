@@ -2,12 +2,12 @@
   "family": "Nova Flat",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v25",
-  "lastModified": "2024-11-20",
+  "version": "v26",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/novaflat/v25/QdVUSTc-JgqpytEbVebEuStkm20oJA.ttf"
+    "regular": "https://fonts.gstatic.com/s/novaflat/v26/QdVUSTc-JgqpytEbVebEuStkm20oJA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/novaflat/v25/QdVUSTc-JgqpytEbVeb0uCFg.ttf"
+  "menu": "https://fonts.gstatic.com/s/novaflat/v26/QdVUSTc-JgqpytEbVeb0uCFg.ttf"
 }

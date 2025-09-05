@@ -2,12 +2,12 @@
   "family": "Noto Sans Cypriot",
   "variants": ["regular"],
   "subsets": ["cypriot", "latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2023-11-09",
+  "version": "v20",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosanscypriot/v19/8AtzGta9PYqQDjyp79a6f8Cj-3a3cxIsK5MPpahF.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanscypriot/v20/8AtzGta9PYqQDjyp79a6f8Cj-3a3cxIsK5MPpahF.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosanscypriot/v19/8AtzGta9PYqQDjyp79a6f8Cj-3a3cyItIZc.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosanscypriot/v20/8AtzGta9PYqQDjyp79a6f8Cj-3a3cyItIZc.ttf"
 }

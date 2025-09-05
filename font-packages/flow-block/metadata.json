@@ -2,12 +2,12 @@
   "family": "Flow Block",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v12",
-  "lastModified": "2025-01-08",
+  "version": "v14",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/flowblock/v12/wlp0gwfPCEB65UmTk-d6-WZlbCBXE_I.ttf"
+    "regular": "https://fonts.gstatic.com/s/flowblock/v14/wlp0gwfPCEB65UmTk-d6-WZlbCBXE_I.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/flowblock/v12/wlp0gwfPCEB65UmTk-d6yWdvaA.ttf"
+  "menu": "https://fonts.gstatic.com/s/flowblock/v14/wlp0gwfPCEB65UmTk-d6yWdvaA.ttf"
 }

@@ -2,14 +2,14 @@
   "family": "Tienne",
   "variants": ["regular", "700", "900"],
   "subsets": ["latin"],
-  "version": "v20",
-  "lastModified": "2024-09-04",
+  "version": "v21",
+  "lastModified": "2025-09-05",
   "files": {
-    "700": "https://fonts.gstatic.com/s/tienne/v20/AYCJpX7pe9YCRP0zLGzjQHhuzvef5Q.ttf",
-    "900": "https://fonts.gstatic.com/s/tienne/v20/AYCJpX7pe9YCRP0zFG7jQHhuzvef5Q.ttf",
-    "regular": "https://fonts.gstatic.com/s/tienne/v20/AYCKpX7pe9YCRP0LkEPHSFNyxw.ttf"
+    "700": "https://fonts.gstatic.com/s/tienne/v21/AYCJpX7pe9YCRP0zLGzjQHhuzvef5Q.ttf",
+    "900": "https://fonts.gstatic.com/s/tienne/v21/AYCJpX7pe9YCRP0zFG7jQHhuzvef5Q.ttf",
+    "regular": "https://fonts.gstatic.com/s/tienne/v21/AYCKpX7pe9YCRP0LkEPHSFNyxw.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/tienne/v20/AYCKpX7pe9YCRP07kUnD.ttf"
+  "menu": "https://fonts.gstatic.com/s/tienne/v21/AYCKpX7pe9YCRP07kUnD.ttf"
 }

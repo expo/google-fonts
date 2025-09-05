@@ -2,10 +2,10 @@
   "family": "Belleza",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/belleza/v17/0nkoC9_pNeMfhX4BtcbyawzruP8.ttf" },
+  "version": "v18",
+  "lastModified": "2025-09-05",
+  "files": { "regular": "https://fonts.gstatic.com/s/belleza/v18/0nkoC9_pNeMfhX4BtcbyawzruP8.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/belleza/v17/0nkoC9_pNeMfhX4Bhcf4bw.ttf"
+  "menu": "https://fonts.gstatic.com/s/belleza/v18/0nkoC9_pNeMfhX4Bhcf4bw.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Tilt Neon",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v11",
-  "lastModified": "2025-03-18",
+  "version": "v12",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/tiltneon/v11/E21L_d7gguXdwD9LEFY2WCeElCNtd-eBqpHp1TzrkJSmwpj5ndxquXK9WualJ9DS.ttf"
+    "regular": "https://fonts.gstatic.com/s/tiltneon/v12/E21L_d7gguXdwD9LEFY2WCeElCNtd-eBqpHp1TzrkJSmwpj5ndxquXK9WualJ9DS.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/tiltneon/v11/E21L_d7gguXdwD9LEFY2WCeElCNtd-eBqpHp1TzrkJSmwpj5ndxquUK8UOI.ttf"
+  "menu": "https://fonts.gstatic.com/s/tiltneon/v12/E21L_d7gguXdwD9LEFY2WCeElCNtd-eBqpHp1TzrkJSmwpj5ndxquUK8UOI.ttf"
 }

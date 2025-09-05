@@ -2,16 +2,16 @@
   "family": "Hind",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2024-12-04",
+  "version": "v18",
+  "lastModified": "2025-09-05",
   "files": {
-    "300": "https://fonts.gstatic.com/s/hind/v17/5aU19_a8oxmIfMJaIRuYjDpf5Vw.ttf",
-    "500": "https://fonts.gstatic.com/s/hind/v17/5aU19_a8oxmIfJpbIRuYjDpf5Vw.ttf",
-    "600": "https://fonts.gstatic.com/s/hind/v17/5aU19_a8oxmIfLZcIRuYjDpf5Vw.ttf",
-    "700": "https://fonts.gstatic.com/s/hind/v17/5aU19_a8oxmIfNJdIRuYjDpf5Vw.ttf",
-    "regular": "https://fonts.gstatic.com/s/hind/v17/5aU69_a8oxmIRG5yBROzkDM.ttf"
+    "300": "https://fonts.gstatic.com/s/hind/v18/5aU19_a8oxmIfMJaIRuYjDpf5Vw.ttf",
+    "500": "https://fonts.gstatic.com/s/hind/v18/5aU19_a8oxmIfJpbIRuYjDpf5Vw.ttf",
+    "600": "https://fonts.gstatic.com/s/hind/v18/5aU19_a8oxmIfLZcIRuYjDpf5Vw.ttf",
+    "700": "https://fonts.gstatic.com/s/hind/v18/5aU19_a8oxmIfNJdIRuYjDpf5Vw.ttf",
+    "regular": "https://fonts.gstatic.com/s/hind/v18/5aU69_a8oxmIRG5yBROzkDM.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/hind/v17/5aU69_a8oxmIdG94AQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/hind/v18/5aU69_a8oxmIdG94AQ.ttf"
 }

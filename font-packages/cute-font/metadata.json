@@ -2,12 +2,12 @@
   "family": "Cute Font",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v27",
-  "lastModified": "2024-12-04",
+  "version": "v28",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/cutefont/v27/Noaw6Uny2oWPbSHMrY6vmJNVNC9hkw.ttf"
+    "regular": "https://fonts.gstatic.com/s/cutefont/v28/Noaw6Uny2oWPbSHMrY6vmJNVNC9hkw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/cutefont/v27/Noaw6Uny2oWPbSHMrY6fmZlR.ttf"
+  "menu": "https://fonts.gstatic.com/s/cutefont/v28/Noaw6Uny2oWPbSHMrY6fmZlR.ttf"
 }

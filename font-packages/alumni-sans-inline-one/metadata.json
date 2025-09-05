@@ -2,13 +2,13 @@
   "family": "Alumni Sans Inline One",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2025-06-02",
+  "version": "v7",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/alumnisansinlineone/v6/RrQBbpJx9zZ3IXTBOASKp5gJAetBdaihcjbpD3AZcr7xbYw.ttf",
-    "italic": "https://fonts.gstatic.com/s/alumnisansinlineone/v6/RrQDbpJx9zZ3IXTBOASKp5gJAetBdaihcjbpP3ITdpz0fYxcrQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/alumnisansinlineone/v7/RrQBbpJx9zZ3IXTBOASKp5gJAetBdaihcjbpD3AZcr7xbYw.ttf",
+    "italic": "https://fonts.gstatic.com/s/alumnisansinlineone/v7/RrQDbpJx9zZ3IXTBOASKp5gJAetBdaihcjbpP3ITdpz0fYxcrQ.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/alumnisansinlineone/v6/RrQBbpJx9zZ3IXTBOASKp5gJAetBdaihcjbpP3ETdg.ttf"
+  "menu": "https://fonts.gstatic.com/s/alumnisansinlineone/v7/RrQBbpJx9zZ3IXTBOASKp5gJAetBdaihcjbpP3ETdg.ttf"
 }

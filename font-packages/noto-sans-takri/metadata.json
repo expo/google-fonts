@@ -2,12 +2,12 @@
   "family": "Noto Sans Takri",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "takri"],
-  "version": "v24",
-  "lastModified": "2023-10-25",
+  "version": "v25",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosanstakri/v24/TuGJUVpzXI5FBtUq5a8bnKIOdTwQNO_W3khJXg.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanstakri/v25/TuGJUVpzXI5FBtUq5a8bnKIOdTwQNO_W3khJXg.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosanstakri/v24/TuGJUVpzXI5FBtUq5a8bnKIOdTwgNeXS.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosanstakri/v25/TuGJUVpzXI5FBtUq5a8bnKIOdTwgNeXS.ttf"
 }

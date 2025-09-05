@@ -2,12 +2,12 @@
   "family": "Noto Sans Inscriptional Parthian",
   "variants": ["regular"],
   "subsets": ["inscriptional-parthian", "latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2024-07-01",
+  "version": "v18",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansinscriptionalparthian/v17/k3k7o-IMPvpLmixcA63oYi-yStDkgXuXncL7dzfW3P4TAJ2yklBJ2jNkLlLr.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansinscriptionalparthian/v18/k3k7o-IMPvpLmixcA63oYi-yStDkgXuXncL7dzfW3P4TAJ2yklBJ2jNkLlLr.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansinscriptionalparthian/v17/k3k7o-IMPvpLmixcA63oYi-yStDkgXuXncL7dzfW3P4TAJ2ykmBI0Dc.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansinscriptionalparthian/v18/k3k7o-IMPvpLmixcA63oYi-yStDkgXuXncL7dzfW3P4TAJ2ykmBI0Dc.ttf"
 }

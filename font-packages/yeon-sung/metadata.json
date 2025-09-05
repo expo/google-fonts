@@ -2,12 +2,12 @@
   "family": "Yeon Sung",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v21",
-  "lastModified": "2024-08-12",
+  "version": "v22",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/yeonsung/v21/QldMNTpbohAGtsJvUn6xSVNazqx2xg.ttf"
+    "regular": "https://fonts.gstatic.com/s/yeonsung/v22/QldMNTpbohAGtsJvUn6xSVNazqx2xg.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/yeonsung/v21/QldMNTpbohAGtsJvUn6BSFle.ttf"
+  "menu": "https://fonts.gstatic.com/s/yeonsung/v22/QldMNTpbohAGtsJvUn6BSFle.ttf"
 }

@@ -2,10 +2,10 @@
   "family": "Molle",
   "variants": ["italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v23",
-  "lastModified": "2024-09-04",
-  "files": { "italic": "https://fonts.gstatic.com/s/molle/v23/E21n_dL5hOXFhWEsXzgmVydREus.ttf" },
+  "version": "v25",
+  "lastModified": "2025-09-05",
+  "files": { "italic": "https://fonts.gstatic.com/s/molle/v25/E21n_dL5hOXFhWEsXzgmVydREus.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/molle/v23/E21n_dL5hOXFhWEsbzksUw.ttf"
+  "menu": "https://fonts.gstatic.com/s/molle/v25/E21n_dL5hOXFhWEsbzksUw.ttf"
 }

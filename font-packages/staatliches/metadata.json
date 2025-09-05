@@ -2,12 +2,12 @@
   "family": "Staatliches",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2024-09-04",
+  "version": "v15",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/staatliches/v13/HI_OiY8KO6hCsQSoAPmtMbectJG9O9PS.ttf"
+    "regular": "https://fonts.gstatic.com/s/staatliches/v15/HI_OiY8KO6hCsQSoAPmtMbectJG9O9PS.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/staatliches/v13/HI_OiY8KO6hCsQSoAPmtMYedvpU.ttf"
+  "menu": "https://fonts.gstatic.com/s/staatliches/v15/HI_OiY8KO6hCsQSoAPmtMYedvpU.ttf"
 }

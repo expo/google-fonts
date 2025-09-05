@@ -2,12 +2,12 @@
   "family": "Original Surfer",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v23",
-  "lastModified": "2024-11-20",
+  "version": "v25",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/originalsurfer/v23/RWmQoKGZ9vIirYntXJ3_MbekzNMiDEtvAlaMKw.ttf"
+    "regular": "https://fonts.gstatic.com/s/originalsurfer/v25/RWmQoKGZ9vIirYntXJ3_MbekzNMiDEtvAlaMKw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/originalsurfer/v23/RWmQoKGZ9vIirYntXJ3_MbekzNMSDUFr.ttf"
+  "menu": "https://fonts.gstatic.com/s/originalsurfer/v25/RWmQoKGZ9vIirYntXJ3_MbekzNMSDUFr.ttf"
 }

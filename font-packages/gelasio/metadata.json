@@ -2,19 +2,19 @@
   "family": "Gelasio",
   "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v12",
-  "lastModified": "2024-09-04",
+  "version": "v14",
+  "lastModified": "2025-09-05",
   "files": {
-    "500": "https://fonts.gstatic.com/s/gelasio/v12/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL86lycs-TDO8Aba.ttf",
-    "600": "https://fonts.gstatic.com/s/gelasio/v12/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL_WkCcs-TDO8Aba.ttf",
-    "700": "https://fonts.gstatic.com/s/gelasio/v12/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL_vkCcs-TDO8Aba.ttf",
-    "regular": "https://fonts.gstatic.com/s/gelasio/v12/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL8Ilycs-TDO8Aba.ttf",
-    "italic": "https://fonts.gstatic.com/s/gelasio/v12/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1M9v8zTs9RbanYs.ttf",
-    "500italic": "https://fonts.gstatic.com/s/gelasio/v12/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1P1v8zTs9RbanYs.ttf",
-    "600italic": "https://fonts.gstatic.com/s/gelasio/v12/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1BFo8zTs9RbanYs.ttf",
-    "700italic": "https://fonts.gstatic.com/s/gelasio/v12/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1Cho8zTs9RbanYs.ttf"
+    "500": "https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL86lycs-TDO8Aba.ttf",
+    "600": "https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL_WkCcs-TDO8Aba.ttf",
+    "700": "https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL_vkCcs-TDO8Aba.ttf",
+    "regular": "https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL8Ilycs-TDO8Aba.ttf",
+    "italic": "https://fonts.gstatic.com/s/gelasio/v14/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1M9v8zTs9RbanYs.ttf",
+    "500italic": "https://fonts.gstatic.com/s/gelasio/v14/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1P1v8zTs9RbanYs.ttf",
+    "600italic": "https://fonts.gstatic.com/s/gelasio/v14/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1BFo8zTs9RbanYs.ttf",
+    "700italic": "https://fonts.gstatic.com/s/gelasio/v14/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1Cho8zTs9RbanYs.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/gelasio/v12/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL8Ilxct8zQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/gelasio/v14/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL8Ilxct8zQ.ttf"
 }

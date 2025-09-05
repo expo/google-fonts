@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/iceberg",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Iceberg font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

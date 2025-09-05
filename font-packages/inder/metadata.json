@@ -2,10 +2,10 @@
   "family": "Inder",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/inder/v14/w8gUH2YoQe8_4vq6pw-P3U4O.ttf" },
+  "version": "v15",
+  "lastModified": "2025-09-05",
+  "files": { "regular": "https://fonts.gstatic.com/s/inder/v15/w8gUH2YoQe8_4vq6pw-P3U4O.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/inder/v14/w8gUH2YoQe8_4sq7rQs.ttf"
+  "menu": "https://fonts.gstatic.com/s/inder/v15/w8gUH2YoQe8_4sq7rQs.ttf"
 }

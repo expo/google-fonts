@@ -13,21 +13,21 @@
     "700italic"
   ],
   "subsets": ["latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2024-09-04",
+  "version": "v12",
+  "lastModified": "2025-09-05",
   "files": {
-    "300": "https://fonts.gstatic.com/s/zillaslab/v11/dFa5ZfeM_74wlPZtksIFYpEY2HSjWlhzbaw.ttf",
-    "500": "https://fonts.gstatic.com/s/zillaslab/v11/dFa5ZfeM_74wlPZtksIFYskZ2HSjWlhzbaw.ttf",
-    "600": "https://fonts.gstatic.com/s/zillaslab/v11/dFa5ZfeM_74wlPZtksIFYuUe2HSjWlhzbaw.ttf",
-    "700": "https://fonts.gstatic.com/s/zillaslab/v11/dFa5ZfeM_74wlPZtksIFYoEf2HSjWlhzbaw.ttf",
-    "300italic": "https://fonts.gstatic.com/s/zillaslab/v11/dFanZfeM_74wlPZtksIFaj8CVHapXnp2fazkfg.ttf",
-    "regular": "https://fonts.gstatic.com/s/zillaslab/v11/dFa6ZfeM_74wlPZtksIFWj0w_HyIRlE.ttf",
-    "italic": "https://fonts.gstatic.com/s/zillaslab/v11/dFa4ZfeM_74wlPZtksIFaj86-F6NVlFqdA.ttf",
-    "500italic": "https://fonts.gstatic.com/s/zillaslab/v11/dFanZfeM_74wlPZtksIFaj8CDHepXnp2fazkfg.ttf",
-    "600italic": "https://fonts.gstatic.com/s/zillaslab/v11/dFanZfeM_74wlPZtksIFaj8CIHCpXnp2fazkfg.ttf",
-    "700italic": "https://fonts.gstatic.com/s/zillaslab/v11/dFanZfeM_74wlPZtksIFaj8CRHGpXnp2fazkfg.ttf"
+    "300": "https://fonts.gstatic.com/s/zillaslab/v12/dFa5ZfeM_74wlPZtksIFYpEY2HSjWlhzbaw.ttf",
+    "500": "https://fonts.gstatic.com/s/zillaslab/v12/dFa5ZfeM_74wlPZtksIFYskZ2HSjWlhzbaw.ttf",
+    "600": "https://fonts.gstatic.com/s/zillaslab/v12/dFa5ZfeM_74wlPZtksIFYuUe2HSjWlhzbaw.ttf",
+    "700": "https://fonts.gstatic.com/s/zillaslab/v12/dFa5ZfeM_74wlPZtksIFYoEf2HSjWlhzbaw.ttf",
+    "300italic": "https://fonts.gstatic.com/s/zillaslab/v12/dFanZfeM_74wlPZtksIFaj8CVHapXnp2fazkfg.ttf",
+    "regular": "https://fonts.gstatic.com/s/zillaslab/v12/dFa6ZfeM_74wlPZtksIFWj0w_HyIRlE.ttf",
+    "italic": "https://fonts.gstatic.com/s/zillaslab/v12/dFa4ZfeM_74wlPZtksIFaj86-F6NVlFqdA.ttf",
+    "500italic": "https://fonts.gstatic.com/s/zillaslab/v12/dFanZfeM_74wlPZtksIFaj8CDHepXnp2fazkfg.ttf",
+    "600italic": "https://fonts.gstatic.com/s/zillaslab/v12/dFanZfeM_74wlPZtksIFaj8CIHCpXnp2fazkfg.ttf",
+    "700italic": "https://fonts.gstatic.com/s/zillaslab/v12/dFanZfeM_74wlPZtksIFaj8CRHGpXnp2fazkfg.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/zillaslab/v11/dFa6ZfeM_74wlPZtksIFajw6-A.ttf"
+  "menu": "https://fonts.gstatic.com/s/zillaslab/v12/dFa6ZfeM_74wlPZtksIFajw6-A.ttf"
 }

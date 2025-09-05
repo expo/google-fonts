@@ -2,10 +2,10 @@
   "family": "Forum",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/forum/v18/6aey4Ky-Vb8Ew_IWMJMa3mnT.ttf" },
+  "version": "v19",
+  "lastModified": "2025-09-05",
+  "files": { "regular": "https://fonts.gstatic.com/s/forum/v19/6aey4Ky-Vb8Ew_IWMJMa3mnT.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/forum/v18/6aey4Ky-Vb8Ew8IXOpc.ttf"
+  "menu": "https://fonts.gstatic.com/s/forum/v19/6aey4Ky-Vb8Ew8IXOpc.ttf"
 }

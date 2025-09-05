@@ -2,12 +2,12 @@
   "family": "Gajraj One",
   "variants": ["regular"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2024-09-04",
+  "version": "v7",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/gajrajone/v5/1cX2aUDCDpXsuWVb1jIjr1GqhcitzeM.ttf"
+    "regular": "https://fonts.gstatic.com/s/gajrajone/v7/1cX2aUDCDpXsuWVb1jIjr1GqhcitzeM.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/gajrajone/v5/1cX2aUDCDpXsuWVb1jIjn1CggQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/gajrajone/v7/1cX2aUDCDpXsuWVb1jIjn1CggQ.ttf"
 }

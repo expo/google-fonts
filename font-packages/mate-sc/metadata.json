@@ -2,10 +2,10 @@
   "family": "Mate SC",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v22",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/matesc/v22/-nF8OGQ1-uoVr2wKyiXZ95OkJwA.ttf" },
+  "version": "v23",
+  "lastModified": "2025-09-05",
+  "files": { "regular": "https://fonts.gstatic.com/s/matesc/v23/-nF8OGQ1-uoVr2wKyiXZ95OkJwA.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/matesc/v22/-nF8OGQ1-uoVr2wK-iTT8w.ttf"
+  "menu": "https://fonts.gstatic.com/s/matesc/v23/-nF8OGQ1-uoVr2wK-iTT8w.ttf"
 }

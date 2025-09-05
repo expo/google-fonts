@@ -2,20 +2,20 @@
   "family": "Noto Sans Thai Looped",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext", "thai"],
-  "version": "v15",
-  "lastModified": "2025-06-02",
+  "version": "v16",
+  "lastModified": "2025-09-05",
   "files": {
-    "100": "https://fonts.gstatic.com/s/notosansthailooped/v15/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_gtHxJiQo49kz2h.ttf",
-    "200": "https://fonts.gstatic.com/s/notosansthailooped/v15/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_itHhJiQo49kz2h.ttf",
-    "300": "https://fonts.gstatic.com/s/notosansthailooped/v15/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_hzHhJiQo49kz2h.ttf",
-    "500": "https://fonts.gstatic.com/s/notosansthailooped/v15/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_gfHhJiQo49kz2h.ttf",
-    "600": "https://fonts.gstatic.com/s/notosansthailooped/v15/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_jzGRJiQo49kz2h.ttf",
-    "700": "https://fonts.gstatic.com/s/notosansthailooped/v15/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_jKGRJiQo49kz2h.ttf",
-    "800": "https://fonts.gstatic.com/s/notosansthailooped/v15/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_itGRJiQo49kz2h.ttf",
-    "900": "https://fonts.gstatic.com/s/notosansthailooped/v15/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_iEGRJiQo49kz2h.ttf",
-    "regular": "https://fonts.gstatic.com/s/notosansthailooped/v15/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_gtHhJiQo49kz2h.ttf"
+    "100": "https://fonts.gstatic.com/s/notosansthailooped/v16/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_gtHxJiQo49kz2h.ttf",
+    "200": "https://fonts.gstatic.com/s/notosansthailooped/v16/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_itHhJiQo49kz2h.ttf",
+    "300": "https://fonts.gstatic.com/s/notosansthailooped/v16/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_hzHhJiQo49kz2h.ttf",
+    "500": "https://fonts.gstatic.com/s/notosansthailooped/v16/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_gfHhJiQo49kz2h.ttf",
+    "600": "https://fonts.gstatic.com/s/notosansthailooped/v16/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_jzGRJiQo49kz2h.ttf",
+    "700": "https://fonts.gstatic.com/s/notosansthailooped/v16/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_jKGRJiQo49kz2h.ttf",
+    "800": "https://fonts.gstatic.com/s/notosansthailooped/v16/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_itGRJiQo49kz2h.ttf",
+    "900": "https://fonts.gstatic.com/s/notosansthailooped/v16/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_iEGRJiQo49kz2h.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosansthailooped/v16/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_gtHhJiQo49kz2h.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansthailooped/v15/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_gtHiJjSIo.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansthailooped/v16/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_gtHiJjSIo.ttf"
 }
