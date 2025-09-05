@@ -2,12 +2,12 @@
   "family": "Pompiere",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v19",
-  "lastModified": "2024-09-04",
+  "version": "v21",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/pompiere/v19/VEMyRoxis5Dwuyeov6Wt5jDtreOL.ttf"
+    "regular": "https://fonts.gstatic.com/s/pompiere/v21/VEMyRoxis5Dwuyeov6Wt5jDtreOL.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/pompiere/v19/VEMyRoxis5Dwuyeov5Ws7DQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/pompiere/v21/VEMyRoxis5Dwuyeov5Ws7DQ.ttf"
 }

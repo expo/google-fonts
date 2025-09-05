@@ -2,10 +2,10 @@
   "family": "Chango",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v27",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/chango/v27/2V0cKI0OB5U7WaJyz324TFUaAw.ttf" },
+  "version": "v29",
+  "lastModified": "2025-09-05",
+  "files": { "regular": "https://fonts.gstatic.com/s/chango/v29/2V0cKI0OB5U7WaJyz324TFUaAw.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/chango/v27/2V0cKI0OB5U7WaJCzne8.ttf"
+  "menu": "https://fonts.gstatic.com/s/chango/v29/2V0cKI0OB5U7WaJCzne8.ttf"
 }

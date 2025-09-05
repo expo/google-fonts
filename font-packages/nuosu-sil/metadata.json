@@ -2,12 +2,12 @@
   "family": "Nuosu SIL",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "yi"],
-  "version": "v10",
-  "lastModified": "2024-09-04",
+  "version": "v12",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/nuosusil/v10/8vIK7wM3wmRn_kc4uAjeFGxbO_zo-w.ttf"
+    "regular": "https://fonts.gstatic.com/s/nuosusil/v12/8vIK7wM3wmRn_kc4uAjeFGxbO_zo-w.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/nuosusil/v10/8vIK7wM3wmRn_kc4uAjuFWZf.ttf"
+  "menu": "https://fonts.gstatic.com/s/nuosusil/v12/8vIK7wM3wmRn_kc4uAjuFWZf.ttf"
 }

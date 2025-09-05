@@ -2,10 +2,10 @@
   "family": "Piedra",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v25",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/piedra/v25/ke8kOg8aN0Bn7hTunEyHN_M3gA.ttf" },
+  "version": "v27",
+  "lastModified": "2025-09-05",
+  "files": { "regular": "https://fonts.gstatic.com/s/piedra/v27/ke8kOg8aN0Bn7hTunEyHN_M3gA.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/piedra/v25/ke8kOg8aN0Bn7hTenUaD.ttf"
+  "menu": "https://fonts.gstatic.com/s/piedra/v27/ke8kOg8aN0Bn7hTenUaD.ttf"
 }

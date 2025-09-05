@@ -2,12 +2,12 @@
   "family": "Belgrano",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v18",
-  "lastModified": "2024-09-04",
+  "version": "v19",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/belgrano/v18/55xvey5tM9rwKWrJZcMFirl08KDJ.ttf"
+    "regular": "https://fonts.gstatic.com/s/belgrano/v19/55xvey5tM9rwKWrJZcMFirl08KDJ.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/belgrano/v18/55xvey5tM9rwKWrJZfMEgL0.ttf"
+  "menu": "https://fonts.gstatic.com/s/belgrano/v19/55xvey5tM9rwKWrJZfMEgL0.ttf"
 }

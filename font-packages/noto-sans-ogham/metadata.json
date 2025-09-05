@@ -2,12 +2,12 @@
   "family": "Noto Sans Ogham",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "ogham"],
-  "version": "v17",
-  "lastModified": "2023-07-24",
+  "version": "v18",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansogham/v17/kmKlZqk1GBDGN0mY6k5lmEmww4hrt5laQxcoCA.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansogham/v18/kmKlZqk1GBDGN0mY6k5lmEmww4hrt5laQxcoCA.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansogham/v17/kmKlZqk1GBDGN0mY6k5lmEmww4hbtpNe.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansogham/v18/kmKlZqk1GBDGN0mY6k5lmEmww4hbtpNe.ttf"
 }

@@ -2,10 +2,10 @@
   "family": "Sofia",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v14",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/sofia/v14/8QIHdirahM3j_vu-sowsrqjk.ttf" },
+  "version": "v15",
+  "lastModified": "2025-09-05",
+  "files": { "regular": "https://fonts.gstatic.com/s/sofia/v15/8QIHdirahM3j_vu-sowsrqjk.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/sofia/v14/8QIHdirahM3j_su_uIg.ttf"
+  "menu": "https://fonts.gstatic.com/s/sofia/v15/8QIHdirahM3j_su_uIg.ttf"
 }

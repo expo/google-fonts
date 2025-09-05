@@ -2,12 +2,12 @@
   "family": "Pangolin",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v11",
-  "lastModified": "2024-09-04",
+  "version": "v12",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/pangolin/v11/cY9GfjGcW0FPpi-tWPfK5d3aiLBG.ttf"
+    "regular": "https://fonts.gstatic.com/s/pangolin/v12/cY9GfjGcW0FPpi-tWPfK5d3aiLBG.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/pangolin/v11/cY9GfjGcW0FPpi-tWMfL79k.ttf"
+  "menu": "https://fonts.gstatic.com/s/pangolin/v12/cY9GfjGcW0FPpi-tWMfL79k.ttf"
 }

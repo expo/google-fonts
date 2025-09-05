@@ -2,12 +2,12 @@
   "family": "Almendra Display",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v31",
-  "lastModified": "2024-09-04",
+  "version": "v33",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/almendradisplay/v31/0FlPVOGWl1Sb4O3tETtADHRRlZhzXS_eTyer338.ttf"
+    "regular": "https://fonts.gstatic.com/s/almendradisplay/v33/0FlPVOGWl1Sb4O3tETtADHRRlZhzXS_eTyer338.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/almendradisplay/v31/0FlPVOGWl1Sb4O3tETtADHRRlZhzbS7USw.ttf"
+  "menu": "https://fonts.gstatic.com/s/almendradisplay/v33/0FlPVOGWl1Sb4O3tETtADHRRlZhzbS7USw.ttf"
 }

@@ -2,16 +2,16 @@
   "family": "Battambang",
   "variants": ["100", "300", "regular", "700", "900"],
   "subsets": ["khmer", "latin"],
-  "version": "v25",
-  "lastModified": "2024-12-04",
+  "version": "v26",
+  "lastModified": "2025-09-05",
   "files": {
-    "100": "https://fonts.gstatic.com/s/battambang/v25/uk-kEGe7raEw-HjkzZabNhGp5w50_o9T7Q.ttf",
-    "300": "https://fonts.gstatic.com/s/battambang/v25/uk-lEGe7raEw-HjkzZabNtmLxyRa8oZK9I0.ttf",
-    "700": "https://fonts.gstatic.com/s/battambang/v25/uk-lEGe7raEw-HjkzZabNsmMxyRa8oZK9I0.ttf",
-    "900": "https://fonts.gstatic.com/s/battambang/v25/uk-lEGe7raEw-HjkzZabNvGOxyRa8oZK9I0.ttf",
-    "regular": "https://fonts.gstatic.com/s/battambang/v25/uk-mEGe7raEw-HjkzZabDnWj4yxx7o8.ttf"
+    "100": "https://fonts.gstatic.com/s/battambang/v26/uk-kEGe7raEw-HjkzZabNhGp5w50_o9T7Q.ttf",
+    "300": "https://fonts.gstatic.com/s/battambang/v26/uk-lEGe7raEw-HjkzZabNtmLxyRa8oZK9I0.ttf",
+    "700": "https://fonts.gstatic.com/s/battambang/v26/uk-lEGe7raEw-HjkzZabNsmMxyRa8oZK9I0.ttf",
+    "900": "https://fonts.gstatic.com/s/battambang/v26/uk-lEGe7raEw-HjkzZabNvGOxyRa8oZK9I0.ttf",
+    "regular": "https://fonts.gstatic.com/s/battambang/v26/uk-mEGe7raEw-HjkzZabDnWj4yxx7o8.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/battambang/v25/uk-mEGe7raEw-HjkzZabPnSp5w.ttf"
+  "menu": "https://fonts.gstatic.com/s/battambang/v26/uk-mEGe7raEw-HjkzZabPnSp5w.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Patua One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v20",
-  "lastModified": "2024-09-04",
+  "version": "v22",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/patuaone/v20/ZXuke1cDvLCKLDcimxBI5PNvNA9LuA.ttf"
+    "regular": "https://fonts.gstatic.com/s/patuaone/v22/ZXuke1cDvLCKLDcimxBI5PNvNA9LuA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/patuaone/v20/ZXuke1cDvLCKLDcimxB45flr.ttf"
+  "menu": "https://fonts.gstatic.com/s/patuaone/v22/ZXuke1cDvLCKLDcimxB45flr.ttf"
 }

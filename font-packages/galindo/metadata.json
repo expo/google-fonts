@@ -2,10 +2,10 @@
   "family": "Galindo",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v24",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/galindo/v24/HI_KiYMeLqVKqwyuQ5HiRp-dhpQ.ttf" },
+  "version": "v26",
+  "lastModified": "2025-09-05",
+  "files": { "regular": "https://fonts.gstatic.com/s/galindo/v26/HI_KiYMeLqVKqwyuQ5HiRp-dhpQ.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/galindo/v24/HI_KiYMeLqVKqwyuc5DoQg.ttf"
+  "menu": "https://fonts.gstatic.com/s/galindo/v26/HI_KiYMeLqVKqwyuc5DoQg.ttf"
 }

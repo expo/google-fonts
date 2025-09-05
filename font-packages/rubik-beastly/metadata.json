@@ -2,12 +2,12 @@
   "family": "Rubik Beastly",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2024-09-04",
+  "version": "v11",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/rubikbeastly/v10/0QImMXRd5oOmSC2ZQ7o9653X07z8_ApHqqk.ttf"
+    "regular": "https://fonts.gstatic.com/s/rubikbeastly/v11/0QImMXRd5oOmSC2ZQ7o9653X07z8_ApHqqk.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/rubikbeastly/v10/0QImMXRd5oOmSC2ZQ7o9653X4732-A.ttf"
+  "menu": "https://fonts.gstatic.com/s/rubikbeastly/v11/0QImMXRd5oOmSC2ZQ7o9653X4732-A.ttf"
 }

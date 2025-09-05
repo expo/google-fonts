@@ -2,12 +2,12 @@
   "family": "ZCOOL XiaoWei",
   "variants": ["regular"],
   "subsets": ["chinese-simplified", "latin"],
-  "version": "v14",
-  "lastModified": "2024-08-12",
+  "version": "v15",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/zcoolxiaowei/v14/i7dMIFFrTRywPpUVX9_RJyM1YFKQHwyVd3U.ttf"
+    "regular": "https://fonts.gstatic.com/s/zcoolxiaowei/v15/i7dMIFFrTRywPpUVX9_RJyM1YFKQHwyVd3U.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/zcoolxiaowei/v14/i7dMIFFrTRywPpUVX9_RJyM1UFOaGw.ttf"
+  "menu": "https://fonts.gstatic.com/s/zcoolxiaowei/v15/i7dMIFFrTRywPpUVX9_RJyM1UFOaGw.ttf"
 }

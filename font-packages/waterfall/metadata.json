@@ -2,12 +2,12 @@
   "family": "Waterfall",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2025-06-02",
+  "version": "v8",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/waterfall/v7/MCoRzAfo293fACdFKcwY2rH8D_EZwA.ttf"
+    "regular": "https://fonts.gstatic.com/s/waterfall/v8/MCoRzAfo293fACdFKcwY2rH8D_EZwA.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/waterfall/v7/MCoRzAfo293fACdFKcwo27v4.ttf"
+  "menu": "https://fonts.gstatic.com/s/waterfall/v8/MCoRzAfo293fACdFKcwo27v4.ttf"
 }

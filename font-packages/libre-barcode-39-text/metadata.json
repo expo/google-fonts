@@ -2,12 +2,12 @@
   "family": "Libre Barcode 39 Text",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v29",
-  "lastModified": "2025-01-08",
+  "version": "v30",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/librebarcode39text/v29/sJoa3KhViNKANw_E3LwoDXvs5Un0HQ1vT-031RRL-9rYaw.ttf"
+    "regular": "https://fonts.gstatic.com/s/librebarcode39text/v30/sJoa3KhViNKANw_E3LwoDXvs5Un0HQ1vT-031RRL-9rYaw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/librebarcode39text/v29/sJoa3KhViNKANw_E3LwoDXvs5Un0HQ1vT-0H1B5P.ttf"
+  "menu": "https://fonts.gstatic.com/s/librebarcode39text/v30/sJoa3KhViNKANw_E3LwoDXvs5Un0HQ1vT-0H1B5P.ttf"
 }

@@ -2,15 +2,15 @@
   "family": "PT Serif",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2024-08-12",
+  "version": "v19",
+  "lastModified": "2025-09-05",
   "files": {
-    "700": "https://fonts.gstatic.com/s/ptserif/v18/EJRSQgYoZZY2vCFuvAnt65qVXSr3pNNB.ttf",
-    "regular": "https://fonts.gstatic.com/s/ptserif/v18/EJRVQgYoZZY2vCFuvDFRxL6ddjb-.ttf",
-    "italic": "https://fonts.gstatic.com/s/ptserif/v18/EJRTQgYoZZY2vCFuvAFTzrq_cyb-vco.ttf",
-    "700italic": "https://fonts.gstatic.com/s/ptserif/v18/EJRQQgYoZZY2vCFuvAFT9gaQVy7VocNB6Iw.ttf"
+    "700": "https://fonts.gstatic.com/s/ptserif/v19/EJRSQgYoZZY2vCFuvAnt65qVXSr3pNNB.ttf",
+    "regular": "https://fonts.gstatic.com/s/ptserif/v19/EJRVQgYoZZY2vCFuvDFRxL6ddjb-.ttf",
+    "italic": "https://fonts.gstatic.com/s/ptserif/v19/EJRTQgYoZZY2vCFuvAFTzrq_cyb-vco.ttf",
+    "700italic": "https://fonts.gstatic.com/s/ptserif/v19/EJRQQgYoZZY2vCFuvAFT9gaQVy7VocNB6Iw.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/ptserif/v18/EJRVQgYoZZY2vCFuvAFQzro.ttf"
+  "menu": "https://fonts.gstatic.com/s/ptserif/v19/EJRVQgYoZZY2vCFuvAFQzro.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Sigmar One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v18",
-  "lastModified": "2024-09-04",
+  "version": "v20",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/sigmarone/v18/co3DmWZ8kjZuErj9Ta3dk6Pjp3Di8U0.ttf"
+    "regular": "https://fonts.gstatic.com/s/sigmarone/v20/co3DmWZ8kjZuErj9Ta3dk6Pjp3Di8U0.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/sigmarone/v18/co3DmWZ8kjZuErj9Ta3do6Lpow.ttf"
+  "menu": "https://fonts.gstatic.com/s/sigmarone/v20/co3DmWZ8kjZuErj9Ta3do6Lpow.ttf"
 }

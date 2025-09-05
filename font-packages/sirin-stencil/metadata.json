@@ -2,12 +2,12 @@
   "family": "Sirin Stencil",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v25",
-  "lastModified": "2024-09-04",
+  "version": "v27",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/sirinstencil/v25/mem4YaWwznmLx-lzGfN7MdRydchGBq6al6o.ttf"
+    "regular": "https://fonts.gstatic.com/s/sirinstencil/v27/mem4YaWwznmLx-lzGfN7MdRydchGBq6al6o.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/sirinstencil/v25/mem4YaWwznmLx-lzGfN7MdRyRclMAg.ttf"
+  "menu": "https://fonts.gstatic.com/s/sirinstencil/v27/mem4YaWwznmLx-lzGfN7MdRyRclMAg.ttf"
 }

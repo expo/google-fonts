@@ -2,10 +2,10 @@
   "family": "Kavoon",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v23",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/kavoon/v23/pxiFyp4_scRYhlU4NLr6f1pdEQ.ttf" },
+  "version": "v25",
+  "lastModified": "2025-09-05",
+  "files": { "regular": "https://fonts.gstatic.com/s/kavoon/v25/pxiFyp4_scRYhlU4NLr6f1pdEQ.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/kavoon/v23/pxiFyp4_scRYhlUINbD-.ttf"
+  "menu": "https://fonts.gstatic.com/s/kavoon/v25/pxiFyp4_scRYhlUINbD-.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Parisienne",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2024-09-04",
+  "version": "v14",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/parisienne/v13/E21i_d3kivvAkxhLEVZpcy96DuKuavM.ttf"
+    "regular": "https://fonts.gstatic.com/s/parisienne/v14/E21i_d3kivvAkxhLEVZpcy96DuKuavM.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/parisienne/v13/E21i_d3kivvAkxhLEVZpQy5wCg.ttf"
+  "menu": "https://fonts.gstatic.com/s/parisienne/v14/E21i_d3kivvAkxhLEVZpQy5wCg.ttf"
 }

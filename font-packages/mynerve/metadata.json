@@ -2,10 +2,10 @@
   "family": "Mynerve",
   "variants": ["regular"],
   "subsets": ["greek", "latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/mynerve/v6/P5sCzZKPdNjb4jt7xCRuiZ-uydg.ttf" },
+  "version": "v8",
+  "lastModified": "2025-09-05",
+  "files": { "regular": "https://fonts.gstatic.com/s/mynerve/v8/P5sCzZKPdNjb4jt7xCRuiZ-uydg.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/mynerve/v6/P5sCzZKPdNjb4jt79CVkjQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/mynerve/v8/P5sCzZKPdNjb4jt79CVkjQ.ttf"
 }

@@ -2,16 +2,16 @@
   "family": "Zen Kaku Gothic Antique",
   "variants": ["300", "regular", "500", "700", "900"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2024-08-07",
+  "version": "v18",
+  "lastModified": "2025-09-05",
   "files": {
-    "300": "https://fonts.gstatic.com/s/zenkakugothicantique/v16/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22cM9TarWJtyZyGU.ttf",
-    "500": "https://fonts.gstatic.com/s/zenkakugothicantique/v16/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22dU9DarWJtyZyGU.ttf",
-    "700": "https://fonts.gstatic.com/s/zenkakugothicantique/v16/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22cc8jarWJtyZyGU.ttf",
-    "900": "https://fonts.gstatic.com/s/zenkakugothicantique/v16/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22ck8DarWJtyZyGU.ttf",
-    "regular": "https://fonts.gstatic.com/s/zenkakugothicantique/v16/6qLQKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB21-g3RKjc4d7.ttf"
+    "300": "https://fonts.gstatic.com/s/zenkakugothicantique/v18/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22cM9TarWJtyZyGU.ttf",
+    "500": "https://fonts.gstatic.com/s/zenkakugothicantique/v18/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22dU9DarWJtyZyGU.ttf",
+    "700": "https://fonts.gstatic.com/s/zenkakugothicantique/v18/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22cc8jarWJtyZyGU.ttf",
+    "900": "https://fonts.gstatic.com/s/zenkakugothicantique/v18/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22ck8DarWJtyZyGU.ttf",
+    "regular": "https://fonts.gstatic.com/s/zenkakugothicantique/v18/6qLQKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB21-g3RKjc4d7.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/zenkakugothicantique/v16/6qLQKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22-h1xY.ttf"
+  "menu": "https://fonts.gstatic.com/s/zenkakugothicantique/v18/6qLQKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22-h1xY.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Port Lligat Sans",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v22",
-  "lastModified": "2024-09-04",
+  "version": "v24",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/portlligatsans/v22/kmKmZrYrGBbdN1aV7Vokow6Lw4s4l7N0Tx4xEcQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/portlligatsans/v24/kmKmZrYrGBbdN1aV7Vokow6Lw4s4l7N0Tx4xEcQ.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/portlligatsans/v22/kmKmZrYrGBbdN1aV7Vokow6Lw4s4p7J-Sw.ttf"
+  "menu": "https://fonts.gstatic.com/s/portlligatsans/v24/kmKmZrYrGBbdN1aV7Vokow6Lw4s4p7J-Sw.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Give You Glory",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2024-11-20",
+  "version": "v17",
+  "lastModified": "2025-09-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/giveyouglory/v16/8QIQdiHOgt3vv4LR7ahjw9-XYc1zB4ZD6rwa.ttf"
+    "regular": "https://fonts.gstatic.com/s/giveyouglory/v17/8QIQdiHOgt3vv4LR7ahjw9-XYc1zB4ZD6rwa.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/giveyouglory/v16/8QIQdiHOgt3vv4LR7ahjw9-XYf1yDYI.ttf"
+  "menu": "https://fonts.gstatic.com/s/giveyouglory/v17/8QIQdiHOgt3vv4LR7ahjw9-XYf1yDYI.ttf"
 }

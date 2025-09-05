@@ -2,18 +2,18 @@
   "family": "Martel",
   "variants": ["200", "300", "regular", "600", "700", "800", "900"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2024-09-04",
+  "version": "v12",
+  "lastModified": "2025-09-05",
   "files": {
-    "200": "https://fonts.gstatic.com/s/martel/v11/PN_yRfK9oXHga0XVqekahRbX9vnDzw.ttf",
-    "300": "https://fonts.gstatic.com/s/martel/v11/PN_yRfK9oXHga0XVzeoahRbX9vnDzw.ttf",
-    "600": "https://fonts.gstatic.com/s/martel/v11/PN_yRfK9oXHga0XVuewahRbX9vnDzw.ttf",
-    "700": "https://fonts.gstatic.com/s/martel/v11/PN_yRfK9oXHga0XV3e0ahRbX9vnDzw.ttf",
-    "800": "https://fonts.gstatic.com/s/martel/v11/PN_yRfK9oXHga0XVwe4ahRbX9vnDzw.ttf",
-    "900": "https://fonts.gstatic.com/s/martel/v11/PN_yRfK9oXHga0XV5e8ahRbX9vnDzw.ttf",
-    "regular": "https://fonts.gstatic.com/s/martel/v11/PN_xRfK9oXHga0XtYcI-jT3L_w.ttf"
+    "200": "https://fonts.gstatic.com/s/martel/v12/PN_yRfK9oXHga0XVqekahRbX9vnDzw.ttf",
+    "300": "https://fonts.gstatic.com/s/martel/v12/PN_yRfK9oXHga0XVzeoahRbX9vnDzw.ttf",
+    "600": "https://fonts.gstatic.com/s/martel/v12/PN_yRfK9oXHga0XVuewahRbX9vnDzw.ttf",
+    "700": "https://fonts.gstatic.com/s/martel/v12/PN_yRfK9oXHga0XV3e0ahRbX9vnDzw.ttf",
+    "800": "https://fonts.gstatic.com/s/martel/v12/PN_yRfK9oXHga0XVwe4ahRbX9vnDzw.ttf",
+    "900": "https://fonts.gstatic.com/s/martel/v12/PN_yRfK9oXHga0XV5e8ahRbX9vnDzw.ttf",
+    "regular": "https://fonts.gstatic.com/s/martel/v12/PN_xRfK9oXHga0XtYcI-jT3L_w.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/martel/v11/PN_xRfK9oXHga0XdYMg6.ttf"
+  "menu": "https://fonts.gstatic.com/s/martel/v12/PN_xRfK9oXHga0XdYMg6.ttf"
 }

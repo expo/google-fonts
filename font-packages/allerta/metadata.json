@@ -2,10 +2,10 @@
   "family": "Allerta",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v18",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/allerta/v18/TwMO-IAHRlkbx940UnEdSQqO5uY.ttf" },
+  "version": "v19",
+  "lastModified": "2025-09-05",
+  "files": { "regular": "https://fonts.gstatic.com/s/allerta/v19/TwMO-IAHRlkbx940UnEdSQqO5uY.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/allerta/v18/TwMO-IAHRlkbx940YnAXTQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/allerta/v19/TwMO-IAHRlkbx940YnAXTQ.ttf"
 }
