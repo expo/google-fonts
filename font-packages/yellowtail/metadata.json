@@ -2,12 +2,12 @@
   "family": "Yellowtail",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v23",
-  "lastModified": "2024-11-20",
+  "version": "v25",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/yellowtail/v23/OZpGg_pnoDtINPfRIlLotlzNwED-b4g.ttf"
+    "regular": "https://fonts.gstatic.com/s/yellowtail/v25/OZpGg_pnoDtINPfRIlLotlzNwED-b4g.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/yellowtail/v23/OZpGg_pnoDtINPfRIlLohl3HxA.ttf"
+  "menu": "https://fonts.gstatic.com/s/yellowtail/v25/OZpGg_pnoDtINPfRIlLohl3HxA.ttf"
 }

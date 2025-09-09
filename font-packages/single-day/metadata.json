@@ -2,12 +2,12 @@
   "family": "Single Day",
   "variants": ["regular"],
   "subsets": ["korean"],
-  "version": "v17",
-  "lastModified": "2024-08-12",
+  "version": "v19",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/singleday/v17/LYjHdGDjlEgoAcF95EI5jVoFUNfeQJU.ttf"
+    "regular": "https://fonts.gstatic.com/s/singleday/v19/LYjHdGDjlEgoAcF95EI5jVoFUNfeQJU.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/singleday/v17/LYjHdGDjlEgoAcF95EI5vVsPVA.ttf"
+  "menu": "https://fonts.gstatic.com/s/singleday/v19/LYjHdGDjlEgoAcF95EI5vVsPVA.ttf"
 }

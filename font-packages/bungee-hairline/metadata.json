@@ -2,12 +2,12 @@
   "family": "Bungee Hairline",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v24",
-  "lastModified": "2024-12-10",
+  "version": "v26",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/bungeehairline/v24/snfys0G548t04270a_ljTLUVrv-7YB2dQ5ZPqQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/bungeehairline/v26/snfys0G548t04270a_ljTLUVrv-7YB2dQ5ZPqQ.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/bungeehairline/v24/snfys0G548t04270a_ljTLUVrv-LYReZ.ttf"
+  "menu": "https://fonts.gstatic.com/s/bungeehairline/v26/snfys0G548t04270a_ljTLUVrv-LYReZ.ttf"
 }

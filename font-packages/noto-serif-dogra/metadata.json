@@ -2,12 +2,12 @@
   "family": "Noto Serif Dogra",
   "variants": ["regular"],
   "subsets": ["dogra", "latin", "latin-ext"],
-  "version": "v23",
-  "lastModified": "2023-11-28",
+  "version": "v24",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notoserifdogra/v23/MQpP-XquKMC7ROPP3QOOlm7xPu3fGy63IbPzkns.ttf"
+    "regular": "https://fonts.gstatic.com/s/notoserifdogra/v24/MQpP-XquKMC7ROPP3QOOlm7xPu3fGy63IbPzkns.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notoserifdogra/v23/MQpP-XquKMC7ROPP3QOOlm7xPu3fKy-9JQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/notoserifdogra/v24/MQpP-XquKMC7ROPP3QOOlm7xPu3fKy-9JQ.ttf"
 }

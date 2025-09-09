@@ -2,12 +2,12 @@
   "family": "Luxurious Roman",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v9",
-  "lastModified": "2025-06-02",
+  "version": "v10",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/luxuriousroman/v9/buEupou_ZcP1w0yTKxJJokVSmbpqYgckeo9RMw.ttf"
+    "regular": "https://fonts.gstatic.com/s/luxuriousroman/v10/buEupou_ZcP1w0yTKxJJokVSmbpqYgckeo9RMw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/luxuriousroman/v9/buEupou_ZcP1w0yTKxJJokVSmbpaYw0g.ttf"
+  "menu": "https://fonts.gstatic.com/s/luxuriousroman/v10/buEupou_ZcP1w0yTKxJJokVSmbpaYw0g.ttf"
 }

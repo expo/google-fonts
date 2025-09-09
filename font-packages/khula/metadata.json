@@ -2,16 +2,16 @@
   "family": "Khula",
   "variants": ["300", "regular", "600", "700", "800"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2024-11-20",
+  "version": "v17",
+  "lastModified": "2025-09-08",
   "files": {
-    "300": "https://fonts.gstatic.com/s/khula/v16/OpNPnoEOns3V7G-ljCvUrC59XwXD.ttf",
-    "600": "https://fonts.gstatic.com/s/khula/v16/OpNPnoEOns3V7G_RiivUrC59XwXD.ttf",
-    "700": "https://fonts.gstatic.com/s/khula/v16/OpNPnoEOns3V7G-1iyvUrC59XwXD.ttf",
-    "800": "https://fonts.gstatic.com/s/khula/v16/OpNPnoEOns3V7G-piCvUrC59XwXD.ttf",
-    "regular": "https://fonts.gstatic.com/s/khula/v16/OpNCnoEOns3V7FcJpA_chzJ0.ttf"
+    "300": "https://fonts.gstatic.com/s/khula/v17/OpNPnoEOns3V7G-ljCvUrC59XwXD.ttf",
+    "600": "https://fonts.gstatic.com/s/khula/v17/OpNPnoEOns3V7G_RiivUrC59XwXD.ttf",
+    "700": "https://fonts.gstatic.com/s/khula/v17/OpNPnoEOns3V7G-1iyvUrC59XwXD.ttf",
+    "800": "https://fonts.gstatic.com/s/khula/v17/OpNPnoEOns3V7G-piCvUrC59XwXD.ttf",
+    "regular": "https://fonts.gstatic.com/s/khula/v17/OpNCnoEOns3V7FcJpA_chzJ0.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/khula/v16/OpNCnoEOns3V7GcIrgs.ttf"
+  "menu": "https://fonts.gstatic.com/s/khula/v17/OpNCnoEOns3V7GcIrgs.ttf"
 }

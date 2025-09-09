@@ -2,10 +2,10 @@
   "family": "Khmer",
   "variants": ["regular"],
   "subsets": ["khmer"],
-  "version": "v35",
-  "lastModified": "2025-01-08",
-  "files": { "regular": "https://fonts.gstatic.com/s/khmer/v35/MjQImit_vPPwpF-BpN2EeYmD.ttf" },
+  "version": "v37",
+  "lastModified": "2025-09-08",
+  "files": { "regular": "https://fonts.gstatic.com/s/khmer/v37/MjQImit_vPPwpF-BpN2EeYmD.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/khmer/v35/MjQImit_vPPwpG-Artk.ttf"
+  "menu": "https://fonts.gstatic.com/s/khmer/v37/MjQImit_vPPwpG-Artk.ttf"
 }

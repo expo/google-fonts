@@ -2,10 +2,10 @@
   "family": "Angkor",
   "variants": ["regular"],
   "subsets": ["khmer", "latin"],
-  "version": "v33",
-  "lastModified": "2024-12-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/angkor/v33/H4cmBXyAlsPdnlb-8iw-4Lqggw.ttf" },
+  "version": "v35",
+  "lastModified": "2025-09-08",
+  "files": { "regular": "https://fonts.gstatic.com/s/angkor/v35/H4cmBXyAlsPdnlb-8iw-4Lqggw.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/angkor/v33/H4cmBXyAlsPdnlbO8yY6.ttf"
+  "menu": "https://fonts.gstatic.com/s/angkor/v35/H4cmBXyAlsPdnlbO8yY6.ttf"
 }

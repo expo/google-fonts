@@ -2,13 +2,13 @@
   "family": "Syncopate",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v22",
-  "lastModified": "2024-11-20",
+  "version": "v24",
+  "lastModified": "2025-09-08",
   "files": {
-    "700": "https://fonts.gstatic.com/s/syncopate/v22/pe0pMIuPIYBCpEV5eFdKvtKaA_Rue1UwVg.ttf",
-    "regular": "https://fonts.gstatic.com/s/syncopate/v22/pe0sMIuPIYBCpEV5eFdyAv2-C99ycg.ttf"
+    "700": "https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKaA_Rue1UwVg.ttf",
+    "regular": "https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdyAv2-C99ycg.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/syncopate/v22/pe0sMIuPIYBCpEV5eFdCA_e6.ttf"
+  "menu": "https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCA_e6.ttf"
 }

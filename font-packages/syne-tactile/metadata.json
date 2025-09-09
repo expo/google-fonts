@@ -2,12 +2,12 @@
   "family": "Syne Tactile",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2024-09-04",
+  "version": "v16",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/synetactile/v15/11hGGpna2UTQKjMCVzjAPMKh3ysdjvKU8Q.ttf"
+    "regular": "https://fonts.gstatic.com/s/synetactile/v16/11hGGpna2UTQKjMCVzjAPMKh3ysdjvKU8Q.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/synetactile/v15/11hGGpna2UTQKjMCVzjAPMKR3iEZ.ttf"
+  "menu": "https://fonts.gstatic.com/s/synetactile/v16/11hGGpna2UTQKjMCVzjAPMKR3iEZ.ttf"
 }

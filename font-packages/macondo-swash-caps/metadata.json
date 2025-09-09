@@ -2,12 +2,12 @@
   "family": "Macondo Swash Caps",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v24",
-  "lastModified": "2024-09-04",
+  "version": "v26",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/macondoswashcaps/v24/6NUL8EaAJgGKZA7lpt941Z9s6ZYgDq6Oekoa_mm5bA.ttf"
+    "regular": "https://fonts.gstatic.com/s/macondoswashcaps/v26/6NUL8EaAJgGKZA7lpt941Z9s6ZYgDq6Oekoa_mm5bA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/macondoswashcaps/v24/6NUL8EaAJgGKZA7lpt941Z9s6ZYgDq6-e0Ae.ttf"
+  "menu": "https://fonts.gstatic.com/s/macondoswashcaps/v26/6NUL8EaAJgGKZA7lpt941Z9s6ZYgDq6-e0Ae.ttf"
 }

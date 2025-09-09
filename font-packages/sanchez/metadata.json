@@ -2,13 +2,13 @@
   "family": "Sanchez",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2024-09-04",
+  "version": "v17",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/sanchez/v15/Ycm2sZJORluHnXbITm5b_BwE1l0.ttf",
-    "italic": "https://fonts.gstatic.com/s/sanchez/v15/Ycm0sZJORluHnXbIfmxR-D4Bxl3gkw.ttf"
+    "regular": "https://fonts.gstatic.com/s/sanchez/v17/Ycm2sZJORluHnXbITm5b_BwE1l0.ttf",
+    "italic": "https://fonts.gstatic.com/s/sanchez/v17/Ycm0sZJORluHnXbIfmxR-D4Bxl3gkw.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/sanchez/v15/Ycm2sZJORluHnXbIfm9R-A.ttf"
+  "menu": "https://fonts.gstatic.com/s/sanchez/v17/Ycm2sZJORluHnXbIfm9R-A.ttf"
 }

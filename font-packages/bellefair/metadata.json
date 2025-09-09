@@ -2,12 +2,12 @@
   "family": "Bellefair",
   "variants": ["regular"],
   "subsets": ["hebrew", "latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2024-08-12",
+  "version": "v15",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/bellefair/v14/kJExBuYY6AAuhiXUxG19__A2pOdvDA.ttf"
+    "regular": "https://fonts.gstatic.com/s/bellefair/v15/kJExBuYY6AAuhiXUxG19__A2pOdvDA.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/bellefair/v14/kJExBuYY6AAuhiXUxG1N_voy.ttf"
+  "menu": "https://fonts.gstatic.com/s/bellefair/v15/kJExBuYY6AAuhiXUxG1N_voy.ttf"
 }

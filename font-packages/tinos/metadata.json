@@ -11,15 +11,15 @@
     "latin-ext",
     "vietnamese"
   ],
-  "version": "v24",
-  "lastModified": "2024-09-04",
+  "version": "v25",
+  "lastModified": "2025-09-08",
   "files": {
-    "700": "https://fonts.gstatic.com/s/tinos/v24/buE1poGnedXvwj1AW0Fp2i43-cxL.ttf",
-    "regular": "https://fonts.gstatic.com/s/tinos/v24/buE4poGnedXvwgX8dGVh8TI-.ttf",
-    "italic": "https://fonts.gstatic.com/s/tinos/v24/buE2poGnedXvwjX-fmFD9CI-4NU.ttf",
-    "700italic": "https://fonts.gstatic.com/s/tinos/v24/buEzpoGnedXvwjX-Rt1s0CoV_NxLeiw.ttf"
+    "700": "https://fonts.gstatic.com/s/tinos/v25/buE1poGnedXvwj1AW0Fp2i43-cxL.ttf",
+    "regular": "https://fonts.gstatic.com/s/tinos/v25/buE4poGnedXvwgX8dGVh8TI-.ttf",
+    "italic": "https://fonts.gstatic.com/s/tinos/v25/buE2poGnedXvwjX-fmFD9CI-4NU.ttf",
+    "700italic": "https://fonts.gstatic.com/s/tinos/v25/buEzpoGnedXvwjX-Rt1s0CoV_NxLeiw.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/tinos/v24/buE4poGnedXvwjX9fmE.ttf"
+  "menu": "https://fonts.gstatic.com/s/tinos/v25/buE4poGnedXvwjX9fmE.ttf"
 }

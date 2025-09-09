@@ -2,12 +2,12 @@
   "family": "Noto Sans Tamil Supplement",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "tamil-supplement"],
-  "version": "v21",
-  "lastModified": "2023-06-30",
+  "version": "v22",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosanstamilsupplement/v21/DdTz78kEtnooLS5rXF1DaruiCd_bFp_Ph4sGcn7ax_vsAeMkeq1x.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanstamilsupplement/v22/DdTz78kEtnooLS5rXF1DaruiCd_bFp_Ph4sGcn7ax_vsAeMkeq1x.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosanstamilsupplement/v21/DdTz78kEtnooLS5rXF1DaruiCd_bFp_Ph4sGcn7ax8vtC-c.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosanstamilsupplement/v22/DdTz78kEtnooLS5rXF1DaruiCd_bFp_Ph4sGcn7ax8vtC-c.ttf"
 }

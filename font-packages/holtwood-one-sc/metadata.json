@@ -2,12 +2,12 @@
   "family": "Holtwood One SC",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
+  "version": "v23",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/holtwoodonesc/v21/yYLx0hLR0P-3vMFSk1TCq3Txg5B3cbb6LZttyg.ttf"
+    "regular": "https://fonts.gstatic.com/s/holtwoodonesc/v23/yYLx0hLR0P-3vMFSk1TCq3Txg5B3cbb6LZttyg.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/holtwoodonesc/v21/yYLx0hLR0P-3vMFSk1TCq3Txg5BHcLz-.ttf"
+  "menu": "https://fonts.gstatic.com/s/holtwoodonesc/v23/yYLx0hLR0P-3vMFSk1TCq3Txg5BHcLz-.ttf"
 }

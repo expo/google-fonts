@@ -2,10 +2,10 @@
   "family": "PT Mono",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2024-08-12",
-  "files": { "regular": "https://fonts.gstatic.com/s/ptmono/v13/9oRONYoBnWILk-9ArCg5MtPyAcg.ttf" },
+  "version": "v14",
+  "lastModified": "2025-09-08",
+  "files": { "regular": "https://fonts.gstatic.com/s/ptmono/v14/9oRONYoBnWILk-9ArCg5MtPyAcg.ttf" },
   "category": "monospace",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/ptmono/v13/9oRONYoBnWILk-9AnCkzNg.ttf"
+  "menu": "https://fonts.gstatic.com/s/ptmono/v14/9oRONYoBnWILk-9AnCkzNg.ttf"
 }

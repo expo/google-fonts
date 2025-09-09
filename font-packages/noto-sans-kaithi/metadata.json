@@ -2,12 +2,12 @@
   "family": "Noto Sans Kaithi",
   "variants": ["regular"],
   "subsets": ["kaithi", "latin", "latin-ext"],
-  "version": "v22",
-  "lastModified": "2024-07-30",
+  "version": "v23",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosanskaithi/v22/buEtppS9f8_vkXadMBJJu0tWjLwjQi0KdoZIKlo.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanskaithi/v23/buEtppS9f8_vkXadMBJJu0tWjLwjQi0KdoZIKlo.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosanskaithi/v22/buEtppS9f8_vkXadMBJJu0tWjLwjciwAcg.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosanskaithi/v23/buEtppS9f8_vkXadMBJJu0tWjLwjciwAcg.ttf"
 }

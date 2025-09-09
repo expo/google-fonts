@@ -2,12 +2,12 @@
   "family": "Calligraffitti",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v19",
-  "lastModified": "2024-09-04",
+  "version": "v20",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/calligraffitti/v19/46k2lbT3XjDVqJw3DCmCFjE0vnFZM5ZBpYN-.ttf"
+    "regular": "https://fonts.gstatic.com/s/calligraffitti/v20/46k2lbT3XjDVqJw3DCmCFjE0vnFZM5ZBpYN-.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/calligraffitti/v19/46k2lbT3XjDVqJw3DCmCFjE0vkFYOZI.ttf"
+  "menu": "https://fonts.gstatic.com/s/calligraffitti/v20/46k2lbT3XjDVqJw3DCmCFjE0vkFYOZI.ttf"
 }

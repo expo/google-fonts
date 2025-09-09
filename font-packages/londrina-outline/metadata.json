@@ -2,12 +2,12 @@
   "family": "Londrina Outline",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v27",
-  "lastModified": "2024-09-04",
+  "version": "v29",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/londrinaoutline/v27/C8c44dM8vmb14dfsZxhetg3pDH-SfuoxrSKMDvI.ttf"
+    "regular": "https://fonts.gstatic.com/s/londrinaoutline/v29/C8c44dM8vmb14dfsZxhetg3pDH-SfuoxrSKMDvI.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/londrinaoutline/v27/C8c44dM8vmb14dfsZxhetg3pDH-STus7qQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/londrinaoutline/v29/C8c44dM8vmb14dfsZxhetg3pDH-STus7qQ.ttf"
 }

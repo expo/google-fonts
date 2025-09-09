@@ -2,12 +2,12 @@
   "family": "Prociono",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v26",
-  "lastModified": "2024-09-04",
+  "version": "v28",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/prociono/v26/r05YGLlR-KxAf9GGO8upyDYtStiJ.ttf"
+    "regular": "https://fonts.gstatic.com/s/prociono/v28/r05YGLlR-KxAf9GGO8upyDYtStiJ.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/prociono/v26/r05YGLlR-KxAf9GGO_uowjI.ttf"
+  "menu": "https://fonts.gstatic.com/s/prociono/v28/r05YGLlR-KxAf9GGO_uowjI.ttf"
 }

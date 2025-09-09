@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/monofett",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Monofett font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/lovers-quarrel",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Use the Lovers Quarrel font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

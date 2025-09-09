@@ -2,12 +2,12 @@
   "family": "Freehand",
   "variants": ["regular"],
   "subsets": ["khmer", "latin"],
-  "version": "v32",
-  "lastModified": "2024-12-04",
+  "version": "v34",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/freehand/v32/cIf-Ma5eqk01VjKTgAmBTmUOmZJk.ttf"
+    "regular": "https://fonts.gstatic.com/s/freehand/v34/cIf-Ma5eqk01VjKTgAmBTmUOmZJk.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/freehand/v32/cIf-Ma5eqk01VjKTgDmARGE.ttf"
+  "menu": "https://fonts.gstatic.com/s/freehand/v34/cIf-Ma5eqk01VjKTgDmARGE.ttf"
 }

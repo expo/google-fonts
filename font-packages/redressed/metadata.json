@@ -2,12 +2,12 @@
   "family": "Redressed",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v30",
-  "lastModified": "2024-11-20",
+  "version": "v32",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/redressed/v30/x3dickHUbrmJ7wMy9MsBfPACvy_1BA.ttf"
+    "regular": "https://fonts.gstatic.com/s/redressed/v32/x3dickHUbrmJ7wMy9MsBfPACvy_1BA.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/redressed/v30/x3dickHUbrmJ7wMy9MsxffoG.ttf"
+  "menu": "https://fonts.gstatic.com/s/redressed/v32/x3dickHUbrmJ7wMy9MsxffoG.ttf"
 }

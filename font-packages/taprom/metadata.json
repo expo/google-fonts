@@ -2,10 +2,10 @@
   "family": "Taprom",
   "variants": ["regular"],
   "subsets": ["khmer", "latin"],
-  "version": "v28",
-  "lastModified": "2025-04-23",
-  "files": { "regular": "https://fonts.gstatic.com/s/taprom/v28/UcCn3F82JHycULbFQyk3-0kvHg.ttf" },
+  "version": "v29",
+  "lastModified": "2025-09-08",
+  "files": { "regular": "https://fonts.gstatic.com/s/taprom/v29/UcCn3F82JHycULbFQyk3-0kvHg.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/taprom/v28/UcCn3F82JHycULb1QiMz.ttf"
+  "menu": "https://fonts.gstatic.com/s/taprom/v29/UcCn3F82JHycULb1QiMz.ttf"
 }

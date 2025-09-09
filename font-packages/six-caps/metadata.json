@@ -2,12 +2,12 @@
   "family": "Six Caps",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v21",
-  "lastModified": "2024-11-20",
+  "version": "v23",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/sixcaps/v21/6ae_4KGrU7VR7bNmabcS9XXaPCop.ttf"
+    "regular": "https://fonts.gstatic.com/s/sixcaps/v23/6ae_4KGrU7VR7bNmabcS9XXaPCop.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/sixcaps/v21/6ae_4KGrU7VR7bNmaYcT_3E.ttf"
+  "menu": "https://fonts.gstatic.com/s/sixcaps/v23/6ae_4KGrU7VR7bNmaYcT_3E.ttf"
 }

@@ -2,10 +2,10 @@
   "family": "Hanalei",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v23",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/hanalei/v23/E21n_dD8iufIjBRHXzgmVydREus.ttf" },
+  "version": "v24",
+  "lastModified": "2025-09-08",
+  "files": { "regular": "https://fonts.gstatic.com/s/hanalei/v24/E21n_dD8iufIjBRHXzgmVydREus.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/hanalei/v23/E21n_dD8iufIjBRHbzksUw.ttf"
+  "menu": "https://fonts.gstatic.com/s/hanalei/v24/E21n_dD8iufIjBRHbzksUw.ttf"
 }

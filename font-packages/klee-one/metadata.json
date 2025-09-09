@@ -2,13 +2,13 @@
   "family": "Klee One",
   "variants": ["regular", "600"],
   "subsets": ["cyrillic", "greek-ext", "japanese", "latin", "latin-ext"],
-  "version": "v12",
-  "lastModified": "2024-11-20",
+  "version": "v13",
+  "lastModified": "2025-09-08",
   "files": {
-    "600": "https://fonts.gstatic.com/s/kleeone/v12/LDI2apCLNRc6A8oT4pbYF8Osc-bGkqIw.ttf",
-    "regular": "https://fonts.gstatic.com/s/kleeone/v12/LDIxapCLNRc6A8oT4q4AOeekWPrP.ttf"
+    "600": "https://fonts.gstatic.com/s/kleeone/v13/LDI2apCLNRc6A8oT4pbYF8Osc-bGkqIw.ttf",
+    "regular": "https://fonts.gstatic.com/s/kleeone/v13/LDIxapCLNRc6A8oT4q4AOeekWPrP.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/kleeone/v12/LDIxapCLNRc6A8oT4p4BM-M.ttf"
+  "menu": "https://fonts.gstatic.com/s/kleeone/v13/LDIxapCLNRc6A8oT4p4BM-M.ttf"
 }

@@ -13,21 +13,21 @@
     "800italic"
   ],
   "subsets": ["greek-ext", "latin", "latin-ext"],
-  "version": "v4",
-  "lastModified": "2024-09-04",
+  "version": "v6",
+  "lastModified": "2025-09-08",
   "files": {
-    "500": "https://fonts.gstatic.com/s/teachers/v4/H4c5BXKVncXVmUGsgTwx4E9oHx2xfjBr7JowY55O4AS32A.ttf",
-    "600": "https://fonts.gstatic.com/s/teachers/v4/H4c5BXKVncXVmUGsgTwx4E9oHx2xfjBrAJ0wY55O4AS32A.ttf",
-    "700": "https://fonts.gstatic.com/s/teachers/v4/H4c5BXKVncXVmUGsgTwx4E9oHx2xfjBrOZ0wY55O4AS32A.ttf",
-    "800": "https://fonts.gstatic.com/s/teachers/v4/H4c5BXKVncXVmUGsgTwx4E9oHx2xfjBrXp0wY55O4AS32A.ttf",
-    "regular": "https://fonts.gstatic.com/s/teachers/v4/H4c5BXKVncXVmUGsgTwx4E9oHx2xfjBr3powY55O4AS32A.ttf",
-    "italic": "https://fonts.gstatic.com/s/teachers/v4/H4c3BXKVncXVmUGsgRY40rCwdnYr0Dd-FtnYIJRKwgGn2JLo.ttf",
-    "500italic": "https://fonts.gstatic.com/s/teachers/v4/H4c3BXKVncXVmUGsgRY40rCwdnYr0Dd-FtnqIJRKwgGn2JLo.ttf",
-    "600italic": "https://fonts.gstatic.com/s/teachers/v4/H4c3BXKVncXVmUGsgRY40rCwdnYr0Dd-FtkGJ5RKwgGn2JLo.ttf",
-    "700italic": "https://fonts.gstatic.com/s/teachers/v4/H4c3BXKVncXVmUGsgRY40rCwdnYr0Dd-Ftk_J5RKwgGn2JLo.ttf",
-    "800italic": "https://fonts.gstatic.com/s/teachers/v4/H4c3BXKVncXVmUGsgRY40rCwdnYr0Dd-FtlYJ5RKwgGn2JLo.ttf"
+    "500": "https://fonts.gstatic.com/s/teachers/v6/H4c5BXKVncXVmUGsgTwx4E9oHx2xfjBr7JowY55O4AS32A.ttf",
+    "600": "https://fonts.gstatic.com/s/teachers/v6/H4c5BXKVncXVmUGsgTwx4E9oHx2xfjBrAJ0wY55O4AS32A.ttf",
+    "700": "https://fonts.gstatic.com/s/teachers/v6/H4c5BXKVncXVmUGsgTwx4E9oHx2xfjBrOZ0wY55O4AS32A.ttf",
+    "800": "https://fonts.gstatic.com/s/teachers/v6/H4c5BXKVncXVmUGsgTwx4E9oHx2xfjBrXp0wY55O4AS32A.ttf",
+    "regular": "https://fonts.gstatic.com/s/teachers/v6/H4c5BXKVncXVmUGsgTwx4E9oHx2xfjBr3powY55O4AS32A.ttf",
+    "italic": "https://fonts.gstatic.com/s/teachers/v6/H4c3BXKVncXVmUGsgRY40rCwdnYr0Dd-FtnYIJRKwgGn2JLo.ttf",
+    "500italic": "https://fonts.gstatic.com/s/teachers/v6/H4c3BXKVncXVmUGsgRY40rCwdnYr0Dd-FtnqIJRKwgGn2JLo.ttf",
+    "600italic": "https://fonts.gstatic.com/s/teachers/v6/H4c3BXKVncXVmUGsgRY40rCwdnYr0Dd-FtkGJ5RKwgGn2JLo.ttf",
+    "700italic": "https://fonts.gstatic.com/s/teachers/v6/H4c3BXKVncXVmUGsgRY40rCwdnYr0Dd-Ftk_J5RKwgGn2JLo.ttf",
+    "800italic": "https://fonts.gstatic.com/s/teachers/v6/H4c3BXKVncXVmUGsgRY40rCwdnYr0Dd-FtlYJ5RKwgGn2JLo.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/teachers/v4/H4c5BXKVncXVmUGsgTwx4E9oHx2xfjBr3poAYpRK.ttf"
+  "menu": "https://fonts.gstatic.com/s/teachers/v6/H4c5BXKVncXVmUGsgTwx4E9oHx2xfjBr3poAYpRK.ttf"
 }

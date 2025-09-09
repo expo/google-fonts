@@ -2,10 +2,10 @@
   "family": "Alice",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v20",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/alice/v20/OpNCnoEEmtHa6FcJpA_chzJ0.ttf" },
+  "version": "v21",
+  "lastModified": "2025-09-08",
+  "files": { "regular": "https://fonts.gstatic.com/s/alice/v21/OpNCnoEEmtHa6FcJpA_chzJ0.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/alice/v20/OpNCnoEEmtHa6GcIrgs.ttf"
+  "menu": "https://fonts.gstatic.com/s/alice/v21/OpNCnoEEmtHa6GcIrgs.ttf"
 }

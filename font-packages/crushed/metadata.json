@@ -2,10 +2,10 @@
   "family": "Crushed",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v30",
-  "lastModified": "2024-11-20",
-  "files": { "regular": "https://fonts.gstatic.com/s/crushed/v30/U9Mc6dym6WXImTlFT1kfuIqyLzA.ttf" },
+  "version": "v32",
+  "lastModified": "2025-09-08",
+  "files": { "regular": "https://fonts.gstatic.com/s/crushed/v32/U9Mc6dym6WXImTlFT1kfuIqyLzA.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/crushed/v30/U9Mc6dym6WXImTlFf1gVvA.ttf"
+  "menu": "https://fonts.gstatic.com/s/crushed/v32/U9Mc6dym6WXImTlFf1gVvA.ttf"
 }

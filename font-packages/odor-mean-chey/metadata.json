@@ -2,12 +2,12 @@
   "family": "Odor Mean Chey",
   "variants": ["regular"],
   "subsets": ["khmer", "latin"],
-  "version": "v30",
-  "lastModified": "2024-11-20",
+  "version": "v31",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/odormeanchey/v30/raxkHiKDttkTe1aOGcJMR1A_4mrY2zqUKafv.ttf"
+    "regular": "https://fonts.gstatic.com/s/odormeanchey/v31/raxkHiKDttkTe1aOGcJMR1A_4mrY2zqUKafv.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/odormeanchey/v30/raxkHiKDttkTe1aOGcJMR1A_4lrZ0T4.ttf"
+  "menu": "https://fonts.gstatic.com/s/odormeanchey/v31/raxkHiKDttkTe1aOGcJMR1A_4lrZ0T4.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Port Lligat Slab",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v25",
-  "lastModified": "2024-09-04",
+  "version": "v27",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/portlligatslab/v25/LDIpaoiQNgArA8kR7ulhZ8P_NYOss7ob9yGLmfI.ttf"
+    "regular": "https://fonts.gstatic.com/s/portlligatslab/v27/LDIpaoiQNgArA8kR7ulhZ8P_NYOss7ob9yGLmfI.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/portlligatslab/v25/LDIpaoiQNgArA8kR7ulhZ8P_NYOsg7sR8w.ttf"
+  "menu": "https://fonts.gstatic.com/s/portlligatslab/v27/LDIpaoiQNgArA8kR7ulhZ8P_NYOsg7sR8w.ttf"
 }
